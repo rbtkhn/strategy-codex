@@ -15,13 +15,13 @@ nodes:
   - source-archive/statecraft/2025-03-28/source-india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md
 ```
 
-**Reconciled:** 2026-06-22 · **Renamed from** `arc-ritter-2025-02-to-2025-03-trump-pivot.md` per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
+**Reconciled:** 2026-06-22 · Prior `arc-ritter-2025-02-to-2025-03-trump-pivot.md` → `arc-ritter-trump-pivot.md` (dates out of filename; span in YAML)
 
 **Span:** ~5 weeks (**forecast → Oval fiasco → Rubio/Ukraine talks lane → Middle East/Iran preemption + April 20 fork**)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: ritter`)  
-**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9 2026)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Parsi IGL E3 snapback (Sep 2025)](../voices/parsi/parsi-interview-appearances-2025-2026.md) — **separate lane**
+**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9 2026)](./arc-ritter-india-global-left-iran.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Parsi IGL E3 snapback (Sep 2025)](../voices/parsi/parsi-interview-appearances-2025-2026.md) — **separate lane**
 
-**Out of arc:** [2026 IGL Iran kinetic series](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) — do **not** merge Trump-pivot register into Iran attrition body.
+**Out of arc:** [2026 IGL Iran kinetic series](./arc-ritter-india-global-left-iran.md) — do **not** merge Trump-pivot register into Iran attrition body.
 
 **Ritter sources (India Global Left — cleaned-transcript tier):**
 
@@ -39,9 +39,9 @@ Cross-episode **Ritter-only compression** on the **India Global Left** **early-T
 - **Feb 22** → **Transformational OODA:** Trump **only logical** alternative to Biden **nuclear ladder**; **Boyd loop** — hit hard, no pause; **Kellogg plan dead** → Europeans adjusting; **Witkoff–Dmitriev–MBS** chain → **Riyadh 4.5h** (energy, ties, trade — **Ukraine peripheral**); **Ukraine = economic** not security; **unplug Europe**; **BRICS/dollar** restore-not-fight; **Russia–China inseparable**; **Russia won** militarily/diplomatically/economically; **Zelensky collapsing**; **Istanbul communique** / territorial recognition / denazify-demilitarize frame; **Europe/NATO** marginal; **Germany market share** gone
 - **Mar 2** → **Inevitable fiasco:** Host cites **~400k views** on **9-day-prior** ep; **opposed trajectories** (US deconstruct conflict machine vs Ukraine **national suicide** for **warmongering Europe**); **Oval Office** outcome **pre-written**; **Zelensky** “drug addict” / **no nobility**; Ukraine **Bandera white-supremacy** / **Frankenstein state**; **Europe diseased** (Crusades → WWI/WWII → Ukraine); **Churchill/India** mass-murder frame; **DOGE/USAID/NDE** = war on **Dem gravy train** + **regime-change model** (Georgia layers → India **transgender-aid** headline); **NATO exit by summer**; **US unplug Europe**; **Big Four** US–Russia–China–India; **military → economic** interface; **Gaza caveat** (Trump not perfect on Zionism)
 - **Mar 21** → **Rubio misread / Ukraine impediment:** Walk-away threat = **Ukraine foot-drag** not Russia; **Rubio** not shot-caller vs **Witkoff** lane; **50/50 cabinet** (Gabbard/Vance/Hegseth/Witkoff vs Rubio/Kellogg); **Graham** sanctions toothless; **Kiev intel-blind** if US cuts sharing; **Europe joke** — Georgescu/Romania, Merz/ AfD, Le Pen; **Russia deal = freebie**; **50k demilitarization** + **denazification** fourth term; **Belarus union** end-state; **Easter ceasefire** not extended
-- **Mar 28** → **Unified US-interest / problem-solving register:** Trump **sincere peace on his terms** (Ukraine + Middle East); **Sachs** parallel; **Houthi/Yemen** inherited not invented; **Hamas Oct 7** necessary + **53 hostages** must release; **Gaza depopulation** gambit → Egypt/Jordan counter; **Iran** one-week breakout / **60%** / **Fordow** / preempt **nuclear employment** (Trump plan, Diego Garcia **B-2**); **April 20** fork — Russia partner vs **Zelensky/Europe** roadblock; **register distinct** from [2026 IGL Iran kinetic arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md)
+- **Mar 28** → **Unified US-interest / problem-solving register:** Trump **sincere peace on his terms** (Ukraine + Middle East); **Sachs** parallel; **Houthi/Yemen** inherited not invented; **Hamas Oct 7** necessary + **53 hostages** must release; **Gaza depopulation** gambit → Egypt/Jordan counter; **Iran** one-week breakout / **60%** / **Fordow** / preempt **nuclear employment** (Trump plan, Diego Garcia **B-2**); **April 20** fork — Russia partner vs **Zelensky/Europe** roadblock; **register distinct** from [2026 IGL Iran kinetic arc](./arc-ritter-india-global-left-iran.md)
 
-**Not a substitute for** neutral wire on **28 Feb Oval Office** or [2026 IGL Iran arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md). This note answers **how Ritter's two early-2025 IGL beats track forecast → receipt** on **Ukraine/Trump**, not Iran kinetic.
+**Not a substitute for** neutral wire on **28 Feb Oval Office** or [2026 IGL Iran arc](./arc-ritter-india-global-left-iran.md). This note answers **how Ritter's two early-2025 IGL beats track forecast → receipt** on **Ukraine/Trump**, not Iran kinetic.
 
 ## Ritter register (what this arc owns)
 
@@ -147,9 +147,9 @@ Mar 2:   RECEIPT — inevitable Oval fiasco; opposed trajectories; DOGE/USAID; E
 
 ## Cross-links
 
-- [Ritter × IGL Iran arc (2026)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) — **downstream separate lane**
+- [Ritter × IGL Iran arc (2026)](./arc-ritter-india-global-left-iran.md) — **downstream separate lane**
 - [**2025 vs 2026 register seam**](./2025-vs-2026-ritter-india-global-left-register-seam.md) — **do not merge** arcs; **Mar 2 year disambiguation**
-- [Freeman × IGL Iran arc (2026)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) — same channel; **different year/register**
+- [Freeman × IGL Iran arc (2026)](./arc-freeman-india-global-left-iran.md) — same channel; **different year/register**
 - [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md) — **E3 snapback** after **2025 kinetic window** (different guest)
 - [Ritter source index](../voices/ritter/ritter-source-index.md)
 - [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **14** files (`2025-02-22` → `2026-06-11`)
@@ -167,6 +167,6 @@ Mar 2:   RECEIPT — inevitable Oval fiasco; opposed trajectories; DOGE/USAID; E
 9. **Starmer £2.26B / specific aid figures debunked** — narrows Mar 2 **Europe hysteria** coda (wire-verify)
 10. **Big Four diplomatic initiative documented** matching Ritter **US–Russia–China–India** frame — upgrades Mar 2 from **rhetoric** to **policy**
 11. **Ritter explicit repudiation** of Feb 22 thesis before Mar 2 — breaks **prediction→receipt** arc
-12. **Merge test:** If operator routes **2026 Iran falsifiers** here — **reject**; use [2026 IGL arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) only
+12. **Merge test:** If operator routes **2026 Iran falsifiers** here — **reject**; use [2026 IGL arc](./arc-ritter-india-global-left-iran.md) only
 
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) — Ritter India Global Left Feb 22→Mar 2 2025 Trump-pivot arc. **Opened:** 2026-06-21.

@@ -26,7 +26,7 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 
 #### 2026-03
 
-- [2026-03-03 - China, Russia & the Iran War: The Nuclear Option](../../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — post-Khamenei war; Russia-China non-deterrence; Witkoff deception / Anchorage dead; Lavrov nuclear proliferation warning; Rubio missile aim; China Wang Yi vs Mao Ning; Peskov fifth-column row — [Mar 3 Helmer × Marandi weave](../../notes/2026-03-03-iran-war-weave-helmer-marandi.md) · [Dmitriev arc Feb 17](../../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md)
+- [2026-03-03 - China, Russia & the Iran War: The Nuclear Option](../../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — post-Khamenei war; Russia-China non-deterrence; Witkoff deception / Anchorage dead; Lavrov nuclear proliferation warning; Rubio missile aim; China Wang Yi vs Mao Ning; Peskov fifth-column row — [Mar 3 Helmer × Marandi weave](../../notes/2026-03-03-iran-war-weave-helmer-marandi.md) · [Dmitriev arc Feb 17](../../notes/arc-helmer-dmitriev-lane.md)
 
 #### 2026-04
 
@@ -65,7 +65,7 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 
 **Pattern:** earliest 2026 land **Jan 20** (Dialogue Works); **Feb 17** Geneva week; then **Apr 28** resume; ~weekly **Tuesday** Dialogue Works through Jun 16 plus **May 24** and **Jun 13** Reason to Resist (Lascaris).
 
-**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math. **Jan 20** — [Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) (Helmer × Freeman × Mercouris — all transcript-tier); [Davos Dmitriev — Helmer × Mercouris](../../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md). **Feb 17** — [Geneva day weave — Helmer × Mercouris](../../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) (both **transcript-tier**).
+**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math. **Jan 20** — [Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) (Helmer × Freeman × Mercouris — all transcript-tier); [Davos Dmitriev — Helmer × Mercouris](../../notes/arc-helmer-dmitriev-lane.md). **Feb 17** — [Geneva day weave — Helmer × Mercouris](../../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) (both **transcript-tier**).
 
 ## Host / compatibility entries
 
@@ -76,7 +76,7 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 ## Reading rule
 
 1. Open **Statecraft Archive** direct files first.
-2. Treat Helmer as **Moscow reporting + faction inference** — orthogonal to McGovern ease-at-SPIEF and Ritter Karaganov fence ([arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md](../../notes/arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md)).
+2. Treat Helmer as **Moscow reporting + faction inference** — orthogonal to McGovern ease-at-SPIEF and Ritter Karaganov fence ([arc-ritter-karaganov-doctrine.md](../../notes/arc-ritter-karaganov-doctrine.md)).
 3. Same-day **guest mentions** (e.g. Krapivnik on Helmer) = continuity signal, **not** index rows.
 4. Apply [source-lattice](../../../docs/source-lattice-beyond-the-repo.md) before lane judgment.
 

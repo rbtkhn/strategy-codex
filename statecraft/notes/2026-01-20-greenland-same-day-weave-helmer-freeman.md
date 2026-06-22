@@ -75,7 +75,7 @@ Same-day **Greenland crisis** stack — **not** one voice. Route by register:
 ## Cross-day return
 
 - Jun 16 Helmer MOU compress — same **EU–US split exaggeration** grammar; same **Dmitriev/Lavrov** faction split — see [Vance lightning-rod note](./june-2026-vance-lightning-rod-rubio-optionality-note.md)
-- **Jan 20 Dmitriev sub-hook:** [Davos Dmitriev lane — Helmer × Mercouris](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) (pygmy/fifth-column vs routine RDIF + battlefield decoupling)
+- **Jan 20 Dmitriev sub-hook:** [Davos Dmitriev lane — Helmer × Mercouris](./arc-helmer-dmitriev-lane.md) (pygmy/fifth-column vs routine RDIF + battlefield decoupling)
 
 ## Falsifiers
 

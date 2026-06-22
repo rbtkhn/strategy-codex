@@ -9,9 +9,9 @@ WORK only; not Record.
 | Year lane | Note | Captures | Span |
 | --- | --- | --- | --- |
 | **2025 bridge + adjacent** | [Jun 21 Iran-war push register](./2025-freeman-igl-iran-war-push-register.md) · May 15 Gulf · Oct 10 Gaza · Mar 1 Oval · Dec 9 NSS (each **out of** 2026 arc body) | 5+ | Jun 2025 **week-2** Israel–Iran push + **non-Iran** 2025 beats |
-| **2026 Iran war arc** | [Feb 24→Jun 11 2026 arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) | 6 | Pre-kinetic → Hormuz toll → four endgames → ceasefire-without-defeat |
+| **2026 Iran war arc** | [Feb 24→Jun 11 2026 arc](./arc-freeman-india-global-left-iran.md) | 6 | Pre-kinetic → Hormuz toll → four endgames → ceasefire-without-defeat |
 
-**Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · **Cross-guest:** [Ritter 2025 vs 2026 seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter × IGL Iran arc (2026)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md)
+**Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · **Cross-guest:** [Ritter 2025 vs 2026 seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter × IGL Iran arc (2026)](./arc-ritter-india-global-left-iran.md)
 
 ## Purpose
 
@@ -28,7 +28,7 @@ Prevent **false continuity** when the same host books Freeman on **2025 Israel�
 | **Import 2026 four endgames** into Jun 2025 synthesis | **Forbidden** — endgames named **May 2026** only |
 | **Import 2026 Hormuz toll governance** into Jun 2025 | **Forbidden** — toll spine starts **Mar 23 2026** |
 | **Oct 10 Gaza ceasefire** into 2026 Iran arc body | **Separate lane** — Arab raison d'état / hostage frame; link with **year + lane label** |
-| **Dec 2025 NSS / China** into Iran kinetic arc | **Indo-Pacific / Monroe 2.0** — out of arc per [2026 arc note](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) |
+| **Dec 2025 NSS / China** into Iran kinetic arc | **Indo-Pacific / Monroe 2.0** — out of arc per [2026 arc note](./arc-freeman-india-global-left-iran.md) |
 | **Single Freeman IGL Iran arc** spanning 2025→2026 | **Forbidden merge** — use **register + arc + this seam** |
 
 ## Register split (what each lane owns)
@@ -60,7 +60,7 @@ Both lanes carry **Freeman-stable** moves — cite as **family resemblance**, no
 
 | Guest | Lane | Relation to Freeman 2025 | Relation to Freeman 2026 |
 | --- | --- | --- | --- |
-| **Ritter** | [2025 Trump pivot](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) · [2026 Iran arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) | **Ukraine pivot** — pair Mar 1 Freeman Oval | **Attrition honesty** vs Freeman **order** — [Ritter seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) |
+| **Ritter** | [2025 Trump pivot](./arc-ritter-trump-pivot.md) · [2026 Iran arc](./arc-ritter-india-global-left-iran.md) | **Ukraine pivot** — pair Mar 1 Freeman Oval | **Attrition honesty** vs Freeman **order** — [Ritter seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) |
 | **Parsi** | [Sep 2025 IGL](../voices/parsi/parsi-interview-appearances-2025-2026.md) | **E3 escalatory** upstream of Jun 2025 Geneva week | Upstream of **2026** Freeman/Ritter Iran lanes |
 | **Marandi** | May 2026 IGL capture | — | Same **2026 war calendar** — different guest register |
 
@@ -71,8 +71,8 @@ Both lanes carry **Freeman-stable** moves — cite as **family resemblance**, no
 | Trump **two-week window**, Gabbard/IC Jun 2025, MBS–Pezeshkian call | [2025 Jun register](./2025-freeman-igl-iran-war-push-register.md) | 2026 arc |
 | **Gaza ceasefire won't last**, Barghouti list, Lebanon 4600×, Project 545 $145M, Machado Nobel/media | [2025 Gaza register](./2025-freeman-igl-gaza-ceasefire-register.md) · [Oct 10 capture](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) | 2026 Iran arc |
 | Trump **Gulf visit**, Witkoff Muscat, America-first May 2025 | [May 15 capture](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) | 2026 endgames |
-| **Four endgames**, Hormuz toll, Braudel/Zeitenwende, ceasefire without defeat | [2026 arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) | 2025 Jun register |
-| **Mar 4 ruse**, Israeli campaign plan, Pezeshkian halt | [2026 arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) | Jun 2025 bridge |
+| **Four endgames**, Hormuz toll, Braudel/Zeitenwende, ceasefire without defeat | [2026 arc](./arc-freeman-india-global-left-iran.md) | 2025 Jun register |
+| **Mar 4 ruse**, Israeli campaign plan, Pezeshkian halt | [2026 arc](./arc-freeman-india-global-left-iran.md) | Jun 2025 bridge |
 | **NSS / China / Monroe 2.0** | [Dec 2025 capture](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) | Either Iran register |
 
 ## Reconciliation (preserve tension)
@@ -89,7 +89,7 @@ Both lanes carry **Freeman-stable** moves — cite as **family resemblance**, no
 
 - [2025 Jun Iran-war push register](./2025-freeman-igl-iran-war-push-register.md)
 - [2025 Oct Gaza ceasefire register](./2025-freeman-igl-gaza-ceasefire-register.md)
-- [2026 Freeman IGL Iran arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md)
+- [2026 Freeman IGL Iran arc](./arc-freeman-india-global-left-iran.md)
 - [2025 vs 2026 Ritter IGL seam](./2025-vs-2026-ritter-india-global-left-register-seam.md)
 - [Freeman source index](../voices/freeman/freeman-source-index.md)
 

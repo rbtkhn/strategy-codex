@@ -17,11 +17,11 @@ nodes:
   - source-archive/statecraft/2026-06-11/source-india-and-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md
 ```
 
-**Reconciled:** 2026-06-22 · **Renamed from** `arc-freeman-2026-02-to-2026-06-india-global-left-iran.md` per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
+**Reconciled:** 2026-06-22 · Prior `arc-freeman-2026-02-to-2026-06-india-global-left-iran.md` → `arc-freeman-india-global-left-iran.md` (dates out of filename; span in YAML)
 
 **Span:** ~107 days (**pre-kinetic → ceasefire fiction → regional rearrangement**)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
-**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) · [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) · [Helmer Feb 3→Mar 24 power→terms arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) · [Mar 3 Iran war opening](../daily/2026-03-03.md)
+**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-india-global-left-iran.md) · [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) · [Helmer Feb 3→Mar 24 power→terms arc](./arc-helmer-iran-five-terms.md) · [Mar 3 Iran war opening](../daily/2026-03-03.md)
 
 **Freeman sources (India Global Left — cleaned-transcript tier):**
 
@@ -186,16 +186,16 @@ Named **outcomes** while war **impasse**:
 | **Terms / endgames** | **Four endgames** (Freeman taxonomy) | **Five terms** (Helmer Mar 24) | **Westphalian vs empire** |
 | **Israel driver** | **Campaign plan** | **Permanent war** | **Same bundle** |
 
-**Cross-register (same channel):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) · [Ritter source index](../voices/ritter/ritter-source-index.md)
+**Cross-register (same channel):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-india-global-left-iran.md) · [Ritter source index](../voices/ritter/ritter-source-index.md)
 
 ## Cross-links
 
-- [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) — **same channel**, **attrition / military honesty** vs Freeman **order / toll-governance**
+- [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-india-global-left-iran.md) — **same channel**, **attrition / military honesty** vs Freeman **order / toll-governance**
 - [Freeman source index](../voices/freeman/freeman-source-index.md) — **India Global Left** host lane (this arc's captures)
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — **IGL Ritter** rows (2026 arc + separate 2025 Trump lane)
 - [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) — same **Freeman order** register on **negotiation failure**
 - [Feb 17 Freeman × Diesen — empire on Eurasia](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) — **multi-war bundle** (same week as Feb 24 IGL opener)
-- [Helmer Feb 3→Mar 24 arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) — **parallel clock** on **money/votes/bullets**
+- [Helmer Feb 3→Mar 24 arc](./arc-helmer-iran-five-terms.md) — **parallel clock** on **money/votes/bullets**
 - [Dec 2025 Freeman — China/NSS](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **separate lane** (Indo-Pacific / Monroe); do not merge into Iran arc body
 - [2025 vs 2026 Freeman IGL register seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year routing** for 2025 bridge vs 2026 arc
 - [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **13** files: **7** Freeman · **5** Ritter · **1** Marandi (`2025-02-22` → `2026-06-11`)

@@ -2,6 +2,8 @@ WORK only; not Record.
 
 # Feb 3 → Mar 24 2026 — Helmer arc (money / votes / bullets → five terms)
 
+**Reconciled:** 2026-06-22 · Prior `arc-helmer-2026-02-to-2026-03-iran-five-terms.md` → `arc-helmer-iran-five-terms.md` (dates out of filename; span in YAML)
+
 ```yaml
 note_type: arc
 primary_voice: helmer
@@ -185,7 +187,7 @@ How Moscow/Beijing **two-track** reads evolve from **opening-week attrition** to
 
 ## Cross-links
 
-- [Helmer Dmitriev arc](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — **Feb 3 §** Witkoff pre-poisoned / Miami fund / **Cooper demand**
+- [Helmer Dmitriev arc](./arc-helmer-dmitriev-lane.md) — **Feb 3 §** Witkoff pre-poisoned / Miami fund / **Cooper demand**
 - [Mar 17 bench weave](./2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md) — same-day **Mercouris/Crooke/Napolitano**
 - [Feb 3 regional wedge](./2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) — Turkey/Kurd/Gulf **pre-war**
 - [Mar 24 wire matrix](../daily/2026-03-24-wire-verify-matrix.md) — **J24-*** hooks
@@ -204,4 +206,4 @@ How Moscow/Beijing **two-track** reads evolve from **opening-week attrition** to
 9. **Trump exits by Mar 31** with **verified** ceasefire/withdrawal — validates Mar 17 **clock** row
 10. **Mar 31 passes** with **no** negotiated exit — upgrades Mar 17 **paper tiger** → Mar 24 **clock miss** (arc hinge confirmed)
 
-**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) — Helmer Feb 3→Mar 24 power-to-terms arc. **Opened:** 2026-06-20. **Recanonicalized:** `arc-helmer-2026-02-to-2026-03-iran-five-terms.md` (2026-06-22); merged two-week-clock + two-track slices.
+**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) — Helmer Feb 3→Mar 24 power-to-terms arc. **Opened:** 2026-06-20. **Recanonicalized:** `arc-helmer-iran-five-terms.md` (2026-06-22); merged two-week-clock + two-track slices.

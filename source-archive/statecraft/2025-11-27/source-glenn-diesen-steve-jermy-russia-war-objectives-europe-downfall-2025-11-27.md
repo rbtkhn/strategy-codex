@@ -23,7 +23,7 @@ youtube_id: 7G9Y2pyhfqs
 source_note: "Operator-pasted YouTube transcript; Diesen × Jermy; pub_date 2025-11-27 (operator). Russia five-phase war ladder (SMO diplomacy → withdrawal → Surovikin line → attritional offense → exploitation); Novorossiya minimalist/maximalist; Odessa/Transnistria; balance of power industrial/energy; NATO direct war unlikely; boomerang sanctions; Kennan 1996; NATO managed decline → OSCE; EU fracture; Strategy for Action (2011). Not human-verified verbatim. · source-clean pass 2026-06-22. · paragraph-reflow pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
-capture_note: Operator paste; full interview body from user-supplied YouTube transcript; second Diesen × Jermy land in archive. cross-weave: source-archive/statecraft/2026-01-22/source-neutrality-studies-crisis-western-decision-making-steve-jermy-2026-01-22.md (Russia/Europe five-phase register continues); statecraft/notes/arc-jermy-2026-01-to-2026-03-iran-naval.md (downstream Neutrality arc).
+capture_note: Operator paste; full interview body from user-supplied YouTube transcript; second Diesen × Jermy land in archive. cross-weave: source-archive/statecraft/2026-01-22/source-neutrality-studies-crisis-western-decision-making-steve-jermy-2026-01-22.md (Russia/Europe five-phase register continues); statecraft/notes/arc-jermy-iran-naval.md (downstream Neutrality arc).
 transcript_wrapper_tier: clean
 paragraph_reflow_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup

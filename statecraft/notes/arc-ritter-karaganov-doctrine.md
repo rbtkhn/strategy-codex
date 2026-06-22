@@ -13,7 +13,7 @@ nodes:
   - source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md
 ```
 
-**Reconciled:** 2026-06-22 · **Renamed from** `arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md` per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
+**Reconciled:** 2026-06-22 · Prior `arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md` → `arc-ritter-karaganov-doctrine.md` (dates out of filename; span in YAML)
 
 WORK only; not Record.
 

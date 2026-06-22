@@ -23,7 +23,7 @@ youtube_id: 1MN7nECum_w
 source_note: "Operator-pasted YouTube transcript; Neutrality Studies × Jermy; pub_date 2026-03-18 (operator); spoken 16 Mar 2026 per host. Layered air defense / radar destruction; AWACS redundancy; carriers at distance (Ford/Lincoln); Hormuz closure; martyrdom replaceability; terminal guidance vs carriers; Cyprus bases; European defensive-actions contortion; ammo/industrial capacity; Russia-China mediation; nuclear escalation risk; Mogallas Substack forthcoming. Not human-verified verbatim. · source-clean pass 2026-06-22. · paragraph-reflow pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
-capture_note: Operator paste; full interview body from user-supplied YouTube transcript; second Mar-2026 Neutrality × Jermy land (naval/Iran war). cross-weave: statecraft/notes/arc-jermy-2026-01-to-2026-03-iran-naval.md (phase 2); statecraft/notes/arc-jermy-2026-01-to-2026-03-iran-naval.md (phase 2).
+capture_note: Operator paste; full interview body from user-supplied YouTube transcript; second Mar-2026 Neutrality × Jermy land (naval/Iran war). cross-weave: statecraft/notes/arc-jermy-iran-naval.md (phase 2); statecraft/notes/arc-jermy-iran-naval.md (phase 2).
 transcript_wrapper_tier: clean
 paragraph_reflow_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup

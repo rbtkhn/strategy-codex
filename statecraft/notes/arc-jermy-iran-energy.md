@@ -21,9 +21,9 @@ span_end: 2026-04-28
 | 2 | **Mar 18** | [Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-deep-dive-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) | https://www.youtube.com/watch?v=HHLYXJDooZE |
 | 3 | **Apr 28** | [Iran war's real ticking timebomb](../../source-archive/statecraft/2026-04-28/source-daniel-davis-deep-dive-iran-wars-real-ticking-timebomb-imminent-energy-food-crisis-steve-jermy-lt-col-daniel-davis-2026-04-28.md) | https://www.youtube.com/watch?v=cjUPUniAKlo |
 
-**Adjacent (do not collapse):** [Jermy × Mercouris Mar-18 energy/arsenal](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md) · [Diesen × Marandi × Jermy infrastructure](./2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md) · [Jermy naval arc](./arc-jermy-2026-01-to-2026-03-iran-naval.md)
+**Adjacent (do not collapse):** [Jermy × Mercouris Mar-18 energy/arsenal](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md) · [Diesen × Marandi × Jermy infrastructure](./2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md) · [Jermy naval arc](./arc-jermy-iran-naval.md)
 
-**Reconciled:** 2026-06-22 · **Recanonicalized:** 2026-06-22 (3-node arc law)
+**Reconciled:** 2026-06-22 · Prior `arc-jermy-2026-02-to-2026-04-iran-energy.md` → `arc-jermy-iran-energy.md` (dates out of filename; span in YAML)
 
 ## Purpose
 
@@ -72,7 +72,7 @@ Read **Feb 27** for **pre-war carrier/endurance frame**. Read **Mar 18** for **w
 
 ## Cross-day return
 
-- [Jermy naval arc](./arc-jermy-2026-01-to-2026-03-iran-naval.md) — **operational receipt** complement
+- [Jermy naval arc](./arc-jermy-iran-naval.md) — **operational receipt** complement
 - [Mar-18 Jermy × Mercouris](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md) — same pub day: arsenal vs macro numbers
 
 ## Falsifiers
@@ -82,4 +82,4 @@ Read **Feb 27** for **pre-war carrier/endurance frame**. Read **Mar 18** for **w
 - **SPR holds Brent <$95** through summer → Apr **lid fading** wrong
 - **Kharg seized and held 30+ days** → Mar **fantasy** row falsified
 
-**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Recanonicalized from** `arc-jermy-2026-02-to-2026-04-iran-energy.md` (2026-06-22)
+**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Recanonicalized from** `arc-jermy-iran-energy.md` (2026-06-22)

@@ -20,7 +20,7 @@ The mature core is 2026, especially:
 - late May Mario-hosted pressure for live deal-proximity and Lebanon/UAE spillover testing
 - June 2026 for Trump-Israel friction, frozen-assets bridge logic, and Nawfal fast-turn negotiation volatility
 
-**2025 host lane (India Global Left):** [2025-09-02 E3 snapback interview](#september-2025-landed-sources) — post-kinetic **Europe escalatory turn**; same channel as [Freeman IGL Iran arc](../../notes/arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) / [Ritter IGL](../../notes/arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) (different register).
+**2025 host lane (India Global Left):** [2025-09-02 E3 snapback interview](#september-2025-landed-sources) — post-kinetic **Europe escalatory turn**; same channel as [Freeman IGL Iran arc](../../notes/arc-freeman-india-global-left-iran.md) / [Ritter IGL](../../notes/arc-ritter-india-global-left-iran.md) (different register).
 
 ## September 2025 landed sources
 

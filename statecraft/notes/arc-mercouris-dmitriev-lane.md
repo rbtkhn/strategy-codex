@@ -2,6 +2,8 @@ WORK only; not Record.
 
 # Jan 20 → Mar 24 2026 — Mercouris arc (Dmitriev / RDIF / institutional lane)
 
+**Reconciled:** 2026-06-22 · Prior `arc-mercouris-2026-01-to-2026-03-dmitriev-lane.md` → `arc-mercouris-dmitriev-lane.md` (dates out of filename; span in YAML)
+
 ```yaml
 note_type: arc
 primary_voice: mercouris
@@ -10,7 +12,7 @@ span_start: 2026-01-20
 span_end: 2026-03-24
 ```
 
-**Parent:** [Helmer Dmitriev arc](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md)
+**Parent:** [Helmer Dmitriev arc](./arc-helmer-dmitriev-lane.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md)
 
 **Mercouris sources (solo):**
 
@@ -21,7 +23,7 @@ span_end: 2026-03-24
 | 3 | **Mar 3** | [Attrition; stockpiles; Gulf panic; MBS–Putin](../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | https://www.youtube.com/watch?v=p2kBG8i_Knw |
 | 4 | **Mar 24** | [Dimona; 4-division ground; Lavrov WW3; talk mirage](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) | https://www.youtube.com/watch?v=hiz6KpkaSM8 |
 
-**Split from:** `arc-helmer-2026-01-to-2026-03-dmitriev-lane.md` (2026-06-22) — **Helmer register:** [companion arc](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md)
+**Split from:** `arc-helmer-dmitriev-lane.md` (2026-06-22) — **Helmer register:** [companion arc](./arc-helmer-dmitriev-lane.md)
 
 ## Purpose
 

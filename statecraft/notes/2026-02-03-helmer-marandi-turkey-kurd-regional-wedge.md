@@ -88,9 +88,9 @@ Three registers on **regional mediation fiction** before kinetic opening:
 - [Feb 17 Iran bench — Marandi × Mearsheimer × Helmer coda](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) — Hormuz maneuver + **Gulf complicity** upgrade
 - [Mar 3 Helmer × Marandi — opening week](./2026-03-03-iran-war-weave-helmer-marandi.md) — **Omani progress → assassination**; Witkoff **dead**
 - [Mar 24 Helmer × Marandi — five terms / Hormuz](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) — **root causes** operationalized
-- [Helmer Feb 3 → Mar 24 power-to-terms arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) — money/votes/bullets → five terms
-- [Helmer Mar 3 → Mar 24 two-track arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md#russiachina-two-track-mar-324-slice) — Moscow/Beijing companion
-- [Dmitriev arc Jan 20 → Mar 24](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — Witkoff trust collapse lineage
+- [Helmer Feb 3 → Mar 24 power-to-terms arc](./arc-helmer-iran-five-terms.md) — money/votes/bullets → five terms
+- [Helmer Mar 3 → Mar 24 two-track arc](./arc-helmer-iran-five-terms.md#russiachina-two-track-mar-324-slice) — Moscow/Beijing companion
+- [Dmitriev arc Jan 20 → Mar 24](./arc-helmer-dmitriev-lane.md) — Witkoff trust collapse lineage
 
 ## Falsifiers
 

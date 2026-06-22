@@ -14,11 +14,11 @@ nodes:
   - source-archive/statecraft/2026-04-09/source-india-and-global-left-no-ceasefire-scott-ritter-2026-04-09.md
 ```
 
-**Reconciled:** 2026-06-22 · **Renamed from** `arc-ritter-2026-02-to-2026-04-india-global-left-iran.md` per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
+**Reconciled:** 2026-06-22 · Prior `arc-ritter-2026-02-to-2026-04-india-global-left-iran.md` → `arc-ritter-india-global-left-iran.md` (dates out of filename; span in YAML)
 
 **Span:** ~48 days (**pre-kinetic trap → day ~3 kinetic → ceasefire fiction**)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: ritter`)  
-**Parent (adjacent):** [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Mar 2 daily bench](../daily/2026-03-02.md) · Dialogue Works [8 Apr Ritter ceasefire](../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
+**Parent (adjacent):** [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./arc-ritter-trump-pivot.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-india-global-left-iran.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Mar 2 daily bench](../daily/2026-03-02.md) · Dialogue Works [8 Apr Ritter ceasefire](../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
 
 **Ritter sources (India Global Left — cleaned-transcript tier):**
 
@@ -36,7 +36,7 @@ Cross-episode **Ritter-only compression** on the **India Global Left** Iran lane
 - **Mar 2** → **Day ~3 receipt:** **Iran inside track** — **pre-stockpiled** salvo vs **interceptor bankruptcy** ($20k drone vs $3–4M); **UAE $2B AD spent**; **decapitation failed** — emergency council, **new supreme leader by Wednesday**; **Kushner/Gabbard** politicized intel; **generals revolt / Cain**; **Hegseth boots** fantasy vs **Chabahar** op reality; **two clocks** (ammo + **Aramco/Qatar/Hormuz**); **US permanent Gulf exit** as **only** Iranian off-ramp; **75% oppose** (Reuters); **Cyprus → Greece–Turkey** spill; **Incirlik spared** (strategic signaling)
 - **Apr 9** → **Process not event:** **No ceasefire now** — US **rejected Iran 10pt** upfront; **Israel Lebanon ~254** post-announcement; **Netanyahu** needs war for **legitimacy**; **Islamabad** terms (enrichment retained, sanctions wipe, bases via US retrograde, Hormuz toll → reconstruction); **40-day military read** — **decoy AD**, **IR/EO**, **31 districts**, **Hormuz mines**; **NATO over** / **Rubio 100k** Europe drawdown; **Ukraine collapse** → **Russia grand bargain**; Cuba **not next** (Iran precedent)
 
-**Not a substitute for** same-day bench (Mercouris/Pape/Davis on **Mar 2**) or [Freeman IGL arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) (**order / toll-governance** register). This note answers **how Ritter's India Global Left thread tracks one war** across **three beats** — **prediction → opening receipt → ceasefire fiction**.
+**Not a substitute for** same-day bench (Mercouris/Pape/Davis on **Mar 2**) or [Freeman IGL arc](./arc-freeman-india-global-left-iran.md) (**order / toll-governance** register). This note answers **how Ritter's India Global Left thread tracks one war** across **three beats** — **prediction → opening receipt → ceasefire fiction**.
 
 ## Ritter register (what this arc owns)
 
@@ -176,7 +176,7 @@ Apr 9:   PROCESS — no ceasefire; Lebanon spike; Islamabad terms; 40-day read; 
 
 ## Companion registers (same war, other channels)
 
-| Object | This arc (Ritter / IGL) | [Freeman IGL arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) | DW 8 Apr |
+| Object | This arc (Ritter / IGL) | [Freeman IGL arc](./arc-freeman-india-global-left-iran.md) | DW 8 Apr |
 | --- | --- | --- | --- |
 | **Talk fiction** | **Trap / no ceasefire** | **Ruse/sham/impasse** | Same-week **ceasefire collapse** |
 | **War shape** | **Attrition math** | **Rope-a-dope / Tomahawk** | **Ceasefire impossibility** |
@@ -185,13 +185,13 @@ Apr 9:   PROCESS — no ceasefire; Lebanon spike; Islamabad terms; 40-day read; 
 | **US exit** | **Mar 2 explicit** | **Endgame #1** (May 11+) | — |
 | **Constitution** | **Ritter specialty** | Thin | — |
 
-**Cross-register (same channel):** [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) · [Freeman source index](../voices/freeman/freeman-source-index.md)
+**Cross-register (same channel):** [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-india-global-left-iran.md) · [Freeman source index](../voices/freeman/freeman-source-index.md)
 
 ## Cross-links
 
-- [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) — **upstream separate lane**
+- [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./arc-ritter-trump-pivot.md) — **upstream separate lane**
 - [**2025 vs 2026 register seam**](./2025-vs-2026-ritter-india-global-left-register-seam.md) — **Mar 2 2025 ≠ Mar 2 2026**; citation split
-- [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) — **same channel**, **order / toll-governance** vs Ritter **attrition / military honesty**
+- [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-india-global-left-iran.md) — **same channel**, **order / toll-governance** vs Ritter **attrition / military honesty**
 - [Freeman source index](../voices/freeman/freeman-source-index.md) — **India Global Left** Freeman lane (Feb 24→Jun 11 arc + Dec 2025 NSS)
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — **India Global Left** Ritter rows (this arc + 2025 Trump lane)
 - [Mar 2 source day-index](../../source-archive/statecraft/2026-03-02/day-index.md) — **Pape day-3**, Mercouris, Diesen same **compose day**

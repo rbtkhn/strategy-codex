@@ -23,7 +23,7 @@ youtube_id: ALZxMPIjg6M
 source_note: "Operator-pasted YouTube transcript; Diesen × Jermy; pub_date 2026-03-01 (operator). Early Iran war endgame: Clausewitz/Beaufre; regime change via air power; 70/30 fail; 12-day Israel threshold; Hormuz warnings/insurance; Colby/unipolar gamble; Cockburn Venezuela–Iran arc; ammunition stocks; tripolar China–Russia–US; Islam civil-war frame; Strategy Fraction. Not human-verified verbatim. · source-clean pass 2026-06-22. · paragraph-reflow pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
-capture_note: Operator paste; full interview body from user-supplied YouTube transcript; first Diesen × Jermy land in archive. cross-weave: statecraft/notes/arc-jermy-2026-01-to-2026-03-iran-naval.md (phase 1 day-2/3 → Mar-18 Neutrality naval).
+capture_note: Operator paste; full interview body from user-supplied YouTube transcript; first Diesen × Jermy land in archive. cross-weave: statecraft/notes/arc-jermy-iran-naval.md (phase 1 day-2/3 → Mar-18 Neutrality naval).
 transcript_wrapper_tier: clean
 paragraph_reflow_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup

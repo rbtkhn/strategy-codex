@@ -114,17 +114,22 @@ Hosts/channels do not add a second primary voice. Three Mercouris dailies inside
 ### Filename shape
 
 ```text
-thread-<primary>-<start>-to-<end>-<topic-slug>.md
-arc-<primary>-<start>-to-<end>-<topic-slug>.md
+thread-<primary>-<start>-to-<end>-<topic-slug>.md   # dates in filename (≤30d span)
+arc-<primary>-<topic-slug>.md                        # no dates — span lives in YAML + prose
 ```
+
+**Arc:** calendar span belongs in **`span_start` / `span_end`** (YAML) and the opening heading — **not** the filename. One primary + one topic slug disambiguates; add a suffix only when two arcs share the same voice+topic (e.g. `-igl` vs `-dw`).
+
+**Thread:** keep **`thread-<primary>-<start>-to-<end>-<topic-slug>.md`** — week-scale objects benefit from date anchors in the path.
 
 Examples:
 
-- `arc-freeman-2026-02-to-2026-06-iran-war.md`
+- `arc-freeman-india-global-left-iran.md` — span in YAML (`2026-02-24` → `2026-06-11`)
+- `arc-jermy-iran-naval.md`
 - `thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md`
 - `thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md`
 
-Use **month** precision when beats are episodic (`2026-02-to-2026-06`); use **full ISO** when the clock is week-scale (`2026-03-17-to-2026-03-24`). Omit hosts and guest names from the slug when primary + topic suffice.
+Omit hosts and guest names from the slug when primary + topic suffice.
 
 ### Optional YAML (recommended on promote/rename)
 

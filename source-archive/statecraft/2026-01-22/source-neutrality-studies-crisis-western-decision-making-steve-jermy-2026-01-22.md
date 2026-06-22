@@ -23,7 +23,7 @@ youtube_id: D8PgiPZzrsM
 source_note: "Operator-pasted YouTube transcript; Neutrality Studies × Jermy; pub_date 2026-01-22 (operator). Tripolar shift; industrial vs financial capitalism (Hudson); balance of power industrial/energy; peak oil (Hubbert/Berman); cult thinking/spin; Russia five-phase ladder; boomerang sanctions; deterrence vs confrontation; securitytocracy; NATO/EU 5y collapse; OSCE cooperation; Beaufre; Substack promo mid-roll preserved. Not human-verified verbatim. · source-clean pass 2026-06-22. · paragraph-reflow pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
-capture_note: Operator paste; full interview body from user-supplied YouTube transcript; first Jan-2026 Neutrality × Jermy land in archive. cross-weave: source-archive/statecraft/2025-11-27/source-glenn-diesen-steve-jermy-russia-war-objectives-europe-downfall-2025-11-27.md (prior Russia/Europe five-phase register); statecraft/notes/arc-jermy-2026-01-to-2026-03-iran-naval.md (phase 1 → Mar-18 Neutrality naval).
+capture_note: Operator paste; full interview body from user-supplied YouTube transcript; first Jan-2026 Neutrality × Jermy land in archive. cross-weave: source-archive/statecraft/2025-11-27/source-glenn-diesen-steve-jermy-russia-war-objectives-europe-downfall-2025-11-27.md (prior Russia/Europe five-phase register); statecraft/notes/arc-jermy-iran-naval.md (phase 1 → Mar-18 Neutrality naval).
 transcript_wrapper_tier: clean
 paragraph_reflow_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup

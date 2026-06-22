@@ -86,12 +86,12 @@ Same-day **Iran / Hormuz** bench — **not** Geneva Ukraine table. Route by regi
 
 ## Cross-day return
 
-- [Feb 3 pre-war — Helmer power formula / Witkoff poisoned](../notes/arc-helmer-2026-02-to-2026-03-iran-five-terms.md) · [regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · [daily synthesis](../daily/2026-02-03.md) · [JF03 wire matrix](../daily/2026-02-03-wire-verify-matrix.md) — **no-attack bet** → Feb 17 **Hormuz maneuver** → Mar 3 **war**
+- [Feb 3 pre-war — Helmer power formula / Witkoff poisoned](../notes/arc-helmer-iran-five-terms.md) · [regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · [daily synthesis](../daily/2026-02-03.md) · [JF03 wire matrix](../daily/2026-02-03-wire-verify-matrix.md) — **no-attack bet** → Feb 17 **Hormuz maneuver** → Mar 3 **war**
 - [Jan 20 Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — Helmer **Iran regime-change phase** (Nima in Tehran)
 - [Jan 20 Mearsheimer tag-team](../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md) — external **regime-change mechanism** vs Marandi **internal legitimacy** gatherings
 - [Mar 3 2026 — Helmer × Marandi Iran war weave](./2026-03-03-iran-war-weave-helmer-marandi.md) — post-Khamenei opening (war replaces Hormuz maneuver)
 - [Mar 24 Helmer × Marandi — five terms](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) — **root causes** named (Feb 3 seed)
-- [Dmitriev arc Jan 20 → Mar 24](../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — **Feb 3 §** Witkoff / Miami / Cooper
+- [Dmitriev arc Jan 20 → Mar 24](../notes/arc-helmer-dmitriev-lane.md) — **Feb 3 §** Witkoff / Miami / Cooper
 
 ## Falsifiers
 

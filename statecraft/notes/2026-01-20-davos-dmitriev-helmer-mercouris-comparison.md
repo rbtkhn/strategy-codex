@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Canonical (split 2026-06-22):**
 
-- [arc-helmer-2026-01-to-2026-03-dmitriev-lane.md](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — Helmer-primary
-- [arc-mercouris-2026-01-to-2026-03-dmitriev-lane.md](./arc-mercouris-2026-01-to-2026-03-dmitriev-lane.md) — Mercouris-primary
+- [arc-helmer-dmitriev-lane.md](./arc-helmer-dmitriev-lane.md) — Helmer-primary
+- [arc-mercouris-dmitriev-lane.md](./arc-mercouris-dmitriev-lane.md) — Mercouris-primary
 
 Split into Helmer-primary and Mercouris-primary arcs per note law. See [Thread and arc](./README.md#thread-and-arc-canonical-draft).

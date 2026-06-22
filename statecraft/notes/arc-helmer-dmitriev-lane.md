@@ -2,6 +2,8 @@ WORK only; not Record.
 
 # Jan 20 → Mar 24 2026 — Helmer arc (Dmitriev / Witkoff / capital-war lane)
 
+**Reconciled:** 2026-06-22 · Prior `arc-helmer-2026-01-to-2026-03-dmitriev-lane.md` → `arc-helmer-dmitriev-lane.md` (dates out of filename; span in YAML)
+
 ```yaml
 note_type: arc
 primary_voice: helmer
@@ -10,7 +12,7 @@ span_start: 2026-01-20
 span_end: 2026-03-24
 ```
 
-**Parent:** [Helmer five-terms arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) · [Mercouris Dmitriev arc](./arc-mercouris-2026-01-to-2026-03-dmitriev-lane.md) · [Helmer source index](../voices/helmer/helmer-source-index.md)
+**Parent:** [Helmer five-terms arc](./arc-helmer-iran-five-terms.md) · [Mercouris Dmitriev arc](./arc-mercouris-dmitriev-lane.md) · [Helmer source index](../voices/helmer/helmer-source-index.md)
 
 **Helmer sources (Dialogue Works / Nima):**
 
@@ -22,7 +24,7 @@ span_end: 2026-03-24
 | 4 | **Mar 3** | [China, Russia & Iran War: Nuclear Option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | https://www.youtube.com/watch?v=cds5p875iNs |
 | 5 | **Mar 24** | [Lavrov Sounds Alarm / five terms / Witkoff indirect](../../source-archive/statecraft/2026-03-24/source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | https://www.youtube.com/watch?v=qc8vYcD_dtM |
 
-**Split from:** `arc-helmer-2026-01-to-2026-03-dmitriev-lane.md` (2026-06-22) — **Mercouris register:** [companion arc](./arc-mercouris-2026-01-to-2026-03-dmitriev-lane.md)
+**Split from:** `arc-helmer-dmitriev-lane.md` (2026-06-22) — **Mercouris register:** [companion arc](./arc-mercouris-dmitriev-lane.md)
 
 ## Purpose
 
@@ -46,7 +48,7 @@ span_end: 2026-03-24
 
 ## Cross-links
 
-- [Helmer five-terms arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) — overlapping nodes Feb 3 / Feb 17 / Mar 3 / Mar 24
+- [Helmer five-terms arc](./arc-helmer-iran-five-terms.md) — overlapping nodes Feb 3 / Feb 17 / Mar 3 / Mar 24
 - [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) — territory hooks outside Dmitriev scope
 - [Mar 3 Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md) — **Anchorage dead** operational object
 
