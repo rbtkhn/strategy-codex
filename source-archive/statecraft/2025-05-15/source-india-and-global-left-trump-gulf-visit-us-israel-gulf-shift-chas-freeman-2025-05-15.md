@@ -23,14 +23,14 @@ title: "Trump's Gulf Visit: Chas Freeman Explains the US–Israel–Gulf Shift |
 channel_slug: india-and-global-left
 source_url: "https://www.youtube.com/watch?v=iTn-CqdOA8Y"
 youtube_id: iTn-CqdOA8Y
-source_note: "Operator-pasted YouTube transcript; India Global Left × Freeman 15 May 2025 (Trump Gulf visit). Money/real estate; Gaza demolition parallel; Iran rapprochement/Witkoff Muscat; 60%/six bombs days; America-first vs Israel-first; Gulf–Iran balance Israel; $1T mirage; Yemen Houthi deal; Syria/Turkey/PKK; Witkoff–Hamas; Ukraine Istanbul/Minsk/Austria model; Israel internal collapse. Out of 2026 Iran arc; cross-register Ritter Mar 28. · ASR pass 2026-06-21."
+source_note: "Operator-pasted YouTube transcript; India Global Left × Freeman 15 May 2025 (Trump Gulf visit). Money/real estate; Gaza demolition parallel; Iran rapprochement/Witkoff Muscat; 60%/six bombs days; America-first vs Israel-first; Gulf–Iran balance Israel; $1T mirage; Yemen Houthi deal; Syria/Turkey/PKK; Witkoff–Hamas; Ukraine Istanbul/Minsk/Austria model; Israel internal collapse. Out of 2026 Iran arc; cross-register Ritter Mar 28. · ASR pass 2026-06-21. · source-clean pass 2026-06-21."
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 18 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-and-global-left, channel:india-and-global-left)); 9 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Trump's Gulf Visit: Chas Freeman Explains the US–Israel–Gulf Shift | Deep Dive into Middle East
 

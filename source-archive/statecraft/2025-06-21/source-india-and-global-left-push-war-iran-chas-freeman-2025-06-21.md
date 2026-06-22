@@ -23,14 +23,25 @@ title: "Chas Freeman: What's Really Behind the Push for War with Iran?"
 channel_slug: india-and-global-left
 source_url: "https://www.youtube.com/watch?v=4yt1Vq3BruA"
 youtube_id: 4yt1Vq3BruA
-source_note: "Operator-pasted YouTube transcript; India Global Left × Freeman 21 Jun 2025 (Iran war push). Trump two-week window/confusion; America-first vs Israel-first (Carlson/Bannon); Adelson donors; Netanyahu partition Iran/Azerbaijan; axis resistance neutralized; MBS–Pezeshkian call; Geneva Araghchi; Gabbard no bomb decision; Mossad/MI6/CIA Azerbaijan; attrition missiles/Khorramshahr-4; Fordow nuclear only; Witkoff 3.67%/multinational enrichment; BRICS Rio. Bridge to 2026 IGL Iran arc; out of Feb 2026 arc register. · ASR pass 2026-06-21."
+source_note: "Operator-pasted YouTube transcript; India Global Left × Freeman 21 Jun 2025 (Iran war push). Trump two-week window/confusion; America-first vs Israel-first (Carlson/Bannon); Adelson donors; Netanyahu partition Iran/Azerbaijan; axis resistance neutralized; MBS–Pezeshkian call; Geneva Araghchi; Gabbard no bomb decision; Mossad/MI6/CIA Azerbaijan; attrition missiles/Khorramshahr-4; Fordow nuclear only; Witkoff 3.67%/multinational enrichment; BRICS Rio. Bridge to 2026 IGL Iran arc; out of Feb 2026 arc register. · ASR pass 2026-06-21. · source-clean pass 2026-06-21."
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 19 substitutions; not human-verified verbatim; verify before quotation."
+verify_receipt: 2026-06-21
+verify:
+  - claim: US IC (Gabbard Mar 2025 testimony) — Iran not building a nuclear weapon; Khamenei has not reauthorized suspended weapons program
+    verdict: supported
+    note: Senate Intel Mar 25 · AP/FactCheck Jun 2025 — Trump publicly rejected assessment Jun 17–21 same week as capture; Gabbard Jun 20 clarified Iran could produce a weapon within weeks if it decided to proceed
+  - claim: MBS phone call with Pezeshkian (14 Jun) — condemnation of Israeli attacks and solidarity with Iran; Freeman cites MBS speaking for "entire Islamic world"
+    verdict: partial
+    note: SPA/Arab News Jun 14–15 confirms call, condemnation, condolences — "entire Islamic world united" in secondary/Iranian wire (Mayadeen, WANA); not in SPA text Al Arabiya carried; Freeman tier-4 Sunni–Shia bridge read
+  - claim: Araghchi met E3/EU in Geneva (20 Jun) — no breakthrough; Iran conditions diplomacy on Israel halting attacks; Freeman says Europeans pressed Iran to capitulate
+    verdict: partial
+    note: AP/Reuters/Euronews/MFA Iran Jun 20–21 confirm Geneva meeting, further-talks hope, no deal — Araghchi missiles/defense non-negotiable; diplomacy once aggression stops — Freeman "capitulate" / "descendants of the crusaders" = tier-4 pressure read
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-and-global-left, channel:india-and-global-left)); 17 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Chas Freeman: What's Really Behind the Push for War with Iran?
 

@@ -23,14 +23,14 @@ title: "Scott Ritter Breaks Down Trump & Rubio's Warning: Is the U.S. About to Q
 channel_slug: india-and-global-left
 source_url: "https://www.youtube.com/watch?v=llyBcKg6tNg"
 youtube_id: llyBcKg6tNg
-source_note: "Operator-pasted YouTube transcript; India Global Left × Ritter 21 Mar 2025. Rubio walk-away misread (Ukraine not Russia foot-drag); Witkoff lane vs Rubio neocon; 50/50 cabinet split; Graham sanctions toothless; Kiev intel-blind; Europe collapse/Romania Georgescu; Russia deal freebie; 50k demilitarization + denazification fourth term; Belarus union; Easter ceasefire not extended. Beat 3 Trump pivot arc (pair Mar 28 beat 4). · ASR pass 2026-06-21."
+source_note: "Operator-pasted YouTube transcript; India Global Left × Ritter 21 Mar 2025. Rubio walk-away misread (Ukraine not Russia foot-drag); Witkoff lane vs Rubio neocon; 50/50 cabinet split; Graham sanctions toothless; Kiev intel-blind; Europe collapse/Romania Georgescu; Russia deal freebie; 50k demilitarization + denazification fourth term; Belarus union; Easter ceasefire not extended. Beat 3 Trump pivot arc (pair Mar 28 beat 4). · ASR pass 2026-06-21. · source-clean pass 2026-06-21."
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (ritter, india-and-global-left, channel:india-and-global-left)); 1 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Scott Ritter Breaks Down Trump & Rubio's Warning: Is the U.S. About to Quit Ukraine Peace Talks?
 

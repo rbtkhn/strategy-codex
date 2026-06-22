@@ -60,7 +60,7 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 #### 2025-06 (Israel–Iran war push — pre-2026 arc register)
 
-- [2025-06-21 — What's Really Behind the Push for War with Iran?](../../../source-archive/statecraft/2025-06-21/source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Bridge:** [Freeman 2026 IGL Iran arc](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · pair [May 15 Gulf](../../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
+- [2025-06-21 — What's Really Behind the Push for War with Iran?](../../../source-archive/statecraft/2025-06-21/source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Register:** [2025 IGL Iran-war push](../../notes/2025-freeman-igl-iran-war-push-register.md) (`verify_receipt: 2026-06-21`) · **Bridge:** [Freeman 2026 IGL Iran arc](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · pair [May 15 Gulf](../../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
 
 #### 2025-10 (Gaza ceasefire — hostage frame skepticism)
 
