@@ -37,7 +37,7 @@ If the operator needs the strongest whole-speaker entry:
 
 If the operator needs the mechanism first:
 
-- open [arc-pape-escalation-trap.md](../../notes/arc-pape-escalation-trap.md) — **Escalation Trap season** (Feb 25 → Jun 4)
+- open [arc-pape-escalation-trap.md](../../notes/arc-pape-escalation-trap.md) — **Escalation Trap season** (Feb 25 → Jun 15)
 - open [thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md](../../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) — opening-week **Smart Bomb Trap** child thread
 - open [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
 
