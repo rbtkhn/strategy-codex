@@ -34,7 +34,7 @@ flowchart TB
     warmup[harness_warmup / reentry_stack]
     handoff[operator_handoff_check]
     intake[statecraft_intake_queue]
-    daily[statecraft/daily]
+    synth[statecraft/synthesis]
     tx[statecraft/transactions]
     checks[assert_root / path_adoption / validate_skills]
     linkval[validate_structured_files links]

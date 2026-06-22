@@ -408,7 +408,7 @@ def object_from_queue_row(
     if row.sidecar_path:
         floor.append({"path": row.sidecar_path, "kind": "sidecar"})
     if row.in_daily:
-        floor.append({"path": f"statecraft/daily/{day}.md", "kind": "daily"})
+        floor.append({"path": f"statecraft/synthesis/day/{day}.md", "kind": "daily"})
     next_action = "Promote to daily synthesis or discard from queue"
     if status == "daily":
         next_action = "Monitor transaction fit and falsifiers"
@@ -532,7 +532,7 @@ def build_war_room_context(
     max_objects: int = 12,
 ) -> WarRoomContext:
     archive_root = repo_root / "source-archive" / "statecraft"
-    daily_dir = repo_root / "statecraft" / "daily"
+    daily_dir = repo_root / "statecraft" / "synthesis" / "day"
     router = parse_transaction_router(repo_root / "statecraft" / "sheets" / "transaction-router.md")
 
     days = select_days(latest_days=latest_days, pin_day=pin_day, archive_root=archive_root)

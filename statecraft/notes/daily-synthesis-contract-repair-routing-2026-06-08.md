@@ -78,9 +78,9 @@ Validator run: `python scripts/validate_statecraft_daily_synthesis.py` → **16 
 
 | Rank | Tranche | Files | Errors | Defect class | First open |
 | ---: | --- | ---: | ---: | --- | --- |
-| **1** | March daily quote-anchor | 4 | 8 | short/missing `Quote anchor:` | `statecraft/daily/2026-03-16.md` (3 lines — densest) |
-| **2** | April daily quote-anchor | 4 | 5 | short `Quote anchor:` | `statecraft/daily/2026-04-17.md` |
-| **3** | Monthly section tail label | 3 | 3 | `Best Next Statecraft Notes` → `Best Next Companion Notes` | `statecraft/daily/2026-03.md` |
+| **1** | March daily quote-anchor | 4 | 8 | short/missing `Quote anchor:` | `statecraft/synthesis/day/2026-03-16.md` (3 lines — densest) |
+| **2** | April daily quote-anchor | 4 | 5 | short `Quote anchor:` | `statecraft/synthesis/day/2026-04-17.md` |
+| **3** | Monthly section tail label | 3 | 3 | `Best Next Statecraft Notes` → `Best Next Companion Notes` | `statecraft/synthesis/month/2026-03.md` |
 
 ### Error inventory (by file)
 
@@ -117,7 +117,7 @@ Validator run: `python scripts/validate_statecraft_daily_synthesis.py` → **16 
 ### Projected remainder after rank 1–3
 
 ```text
-0 errors — full `statecraft/daily` migrated shelf green on validator
+0 errors — full `statecraft/synthesis` migrated shelf green on validator
 ```
 
 Then eligible: flip CI `validate_statecraft_daily_synthesis` from advisory to blocking (see `.github/workflows/test.yml`).

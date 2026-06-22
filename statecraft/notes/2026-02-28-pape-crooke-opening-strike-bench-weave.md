@@ -3,7 +3,7 @@ WORK only; not Record.
 # Feb 28 2026 — Opening-strike bench weave (Pape × Crooke)
 
 **Pub date:** 2026-02-28  
-**Parent:** [Feb 28 kinetic synthesis](../daily/2026-02-28.md) · [Pape Escalation Trap arc](./arc-pape-escalation-trap.md) ([opening week](./arc-pape-escalation-trap.md#opening-week-phases-i-v)) · [Feb 28 archive day](../../source-archive/statecraft/2026-02-28/day-index.md)
+**Parent:** [Feb 28 kinetic synthesis](../synthesis/day/2026-02-28.md) · [Pape Escalation Trap arc](./arc-pape-escalation-trap.md) ([opening week](./arc-pape-escalation-trap.md#opening-week-phases-i-v)) · [Feb 28 archive day](../../source-archive/statecraft/2026-02-28/day-index.md)
 
 **Sources:**
 
@@ -13,7 +13,7 @@ WORK only; not Record.
 | **Pape** | [The Illusion of Control](../../source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md) | newsletter |
 | **Crooke** | [The End to Deceptive Trumpian Diplomacy](../../source-archive/statecraft/2026-02-28/source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md) | newsletter (Conflicts Forum) |
 
-**Same-day context (separate rows — not merged here):** Mercouris/Davis/Ritter/Sachs captures on [Feb 28 synthesis](../daily/2026-02-28.md) — **live fog**, **regional war**, **Pentagon doubt** tiers.
+**Same-day context (separate rows — not merged here):** Mercouris/Davis/Ritter/Sachs captures on [Feb 28 synthesis](../synthesis/day/2026-02-28.md) — **live fog**, **regional war**, **Pentagon doubt** tiers.
 
 **Hook placeholders:** **JF28-T1** (Pape trap essay) · **JF28-D1** (Dec 29 decision) · **JF28-D2** (Feb 26 talks) · wire matrix **open**.
 
@@ -26,7 +26,7 @@ Same **kinetic opening calendar day** — two **non-substitutable** registers on
 
 **Stacking rule:** Crooke explains **why the mask dropped**; Pape explains **what happens after the mask drops** — trap without trust under-explains **perfidy** (forward Mar 1 Ritter, Mar 3 Witkoff dead); trust without trap under-explains **escalation ratchet** (forward [Mar 1 confirmed](./arc-pape-escalation-trap.md#leg-iii--smart-bomb-trap-confirmed-mar-1) · [Escalation Trap arc](./arc-pape-escalation-trap.md)).
 
-**Not a substitute for** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — mid-month **mosaic + economic clock**; this note is **opening-night** only.
+**Not a substitute for** [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — mid-month **mosaic + economic clock**; this note is **opening-night** only.
 
 ## Shared spine (Feb 28 opening strike)
 
@@ -75,13 +75,13 @@ Same **kinetic opening calendar day** — two **non-substitutable** registers on
 | Uranium destroyed? | Demands centered **nuclear**; strikes prioritize **missiles** (Rubio relay) | **Material unchanged** Day 1 | **Same fact** — Crooke **demand vs strike mismatch** · Pape **material receipt** |
 | If ceasefire in 72h | **TACO Victory** frame | Falsifies **trap ratchet** | **Both** falsified — shared opening-week watch |
 
-**Usage:** Route **perfidy / Witkoff / Dec 29** questions → Crooke + [Feb 3 trust lane](../daily/2026-02-03.md). Route **why bombing won't end war** → Pape + [Escalation Trap arc](./arc-pape-escalation-trap.md#opening-week-phases-i-v) (Legs I–III) or full arc [Escalation Trap arc](./arc-pape-escalation-trap.md). Route **both** → this bench.
+**Usage:** Route **perfidy / Witkoff / Dec 29** questions → Crooke + [Feb 3 trust lane](../synthesis/day/2026-02-03.md). Route **why bombing won't end war** → Pape + [Escalation Trap arc](./arc-pape-escalation-trap.md#opening-week-phases-i-v) (Legs I–III) or full arc [Escalation Trap arc](./arc-pape-escalation-trap.md). Route **both** → this bench.
 
 ## Cross-day return
 
 - **Back:** [Feb 17 Iran bench](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) — partial Hormuz → Feb 28 **kinetic**
-- **Back:** [Feb 3 Witkoff poison](../daily/2026-02-03.md) — **JF03-F1** → Crooke **deception end**
-- **Forward:** [Mar 1 trap confirmed](./arc-pape-escalation-trap.md) · [Escalation Trap arc](./arc-pape-escalation-trap.md) · [Mar 3 Crooke×Pape×Simplicius](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) · [Mar 16 lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
+- **Back:** [Feb 3 Witkoff poison](../synthesis/day/2026-02-03.md) — **JF03-F1** → Crooke **deception end**
+- **Forward:** [Mar 1 trap confirmed](./arc-pape-escalation-trap.md) · [Escalation Trap arc](./arc-pape-escalation-trap.md) · [Mar 3 Crooke×Pape×Simplicius](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) · [Mar 16 lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 - **Parallel same day:** Mercouris **regime change admitted** · Davis **live fog** — event tier; do not merge into essay bench without layer label
 
 ## Falsifiers

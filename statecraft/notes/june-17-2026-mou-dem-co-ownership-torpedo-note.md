@@ -10,7 +10,7 @@ The aim is not to re-synthesize J17 or collapse “Democrats” into one voice. 
 
 **Parent surfaces:**
 
-- [2026-06-17 daily](../daily/2026-06-17.md) — Theme 6 (America domestic politics)
+- [2026-06-17 daily](../synthesis/day/2026-06-17.md) — Theme 6 (America domestic politics)
 - [Nawfal×Parsi capture](../../source-archive/statecraft/2026-06-17/source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md) — same-day **inverse-2015** warning (video)
 - [Parsi Substack capture](../../source-archive/statecraft/2026-06-17/source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md) — essay depth
 - [Hoh capture](../../source-archive/statecraft/2026-06-17/source-alkorshid-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) — Dem lane contrast

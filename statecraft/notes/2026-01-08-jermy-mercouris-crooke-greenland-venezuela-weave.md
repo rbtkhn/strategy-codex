@@ -80,6 +80,7 @@ Read **Jermy** for **feasibility, energy math, and alliance law hypotheticals**;
 ## Cross-day return
 
 - [Dec 12 Jermy × Mercouris × Freeman/Wilkerson](./2025-12-12-jermy-mercouris-siversk-nss-weave.md) — prior **NSS / Monroe / Venezuela** hemisphere lane
+- [Jan 30 Jermy × Mercouris Iran armada / Kiev](./2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) — **Iran strike clock** + **Kiev truce theater** same-day
 - [Jan 20 Greenland three-way](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — **Greenland week** climax
 - [Crooke Jan 21 Greenland endgame](../voices/crooke/crooke-source-index.md#2026-01) — Crooke **follow-on**
 

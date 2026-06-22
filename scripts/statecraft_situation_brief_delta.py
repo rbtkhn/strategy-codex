@@ -2,7 +2,7 @@
 """Emit a SID Situation Brief delta block from day-over-day fork grade changes.
 
 Reads wire-verify matrices and optional 72h watch-run executive tables under
-``statecraft/daily/``, diffs named fork grades vs a prior day, and prints a
+``statecraft/notes/wire/`` and ``statecraft/notes/watch/``, diffs named fork grades vs a prior day, and prints a
 paste-ready markdown section:
 
   ## Situation Brief — changes since YYYY-MM-DD
@@ -20,7 +20,9 @@ from datetime import date, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DAILY_DIR = REPO_ROOT / "statecraft" / "daily"
+DEFAULT_WIRE_DIR = REPO_ROOT / "statecraft" / "notes" / "wire"
+DEFAULT_WATCH_DIR = REPO_ROOT / "statecraft" / "notes" / "watch"
+DEFAULT_DAILY_DIR = DEFAULT_WIRE_DIR  # legacy alias
 
 FORK_ID_RE = re.compile(
     r"\*\*(J\d+(?:-[A-Za-z0-9]+)?)\*\*"
@@ -128,49 +130,49 @@ def parse_fork_grades(text: str, source: str) -> dict[str, ForkGrade]:
     return found
 
 
-def wire_matrix_for_day(daily_dir: Path, day: date) -> Path | None:
+def wire_matrix_for_day(wire_dir: Path, day: date) -> Path | None:
     day_str = day.isoformat()
-    exact = daily_dir / f"{day_str}-wire-verify-matrix.md"
+    exact = wire_dir / f"{day_str}-wire-verify-matrix.md"
     if exact.is_file():
         return exact
     candidates = sorted(
         p
-        for p in daily_dir.glob(f"{day_str}*-wire-verify-matrix.md")
+        for p in wire_dir.glob(f"{day_str}*-wire-verify-matrix.md")
         if p.is_file()
     )
     return candidates[-1] if candidates else None
 
 
-def watch_run_for_day(daily_dir: Path, day: date) -> Path | None:
+def watch_run_for_day(watch_dir: Path, day: date) -> Path | None:
     day_str = day.isoformat()
-    exact = daily_dir / f"{day_str}-72h-watch-run.md"
+    exact = watch_dir / f"{day_str}-72h-watch-run.md"
     if exact.is_file():
         return exact
     candidates = sorted(
-        p for p in daily_dir.glob(f"{day_str}*-72h-watch-run.md") if p.is_file()
+        p for p in watch_dir.glob(f"{day_str}*-72h-watch-run.md") if p.is_file()
     )
     return candidates[-1] if candidates else None
 
 
 def prior_day_with_matrix(
-    daily_dir: Path, day: date, max_lookback: int = 14
+    wire_dir: Path, day: date, max_lookback: int = 14
 ) -> tuple[date, Path] | None:
     cursor = day - timedelta(days=1)
     for _ in range(max_lookback):
-        path = wire_matrix_for_day(daily_dir, cursor)
+        path = wire_matrix_for_day(wire_dir, cursor)
         if path is not None:
             return cursor, path
         cursor -= timedelta(days=1)
     return None
 
 
-def load_grades(path: Path) -> dict[str, ForkGrade]:
+def load_grades(path: Path, *, watch_dir: Path = DEFAULT_WATCH_DIR) -> dict[str, ForkGrade]:
     text = path.read_text(encoding="utf-8")
     grades = parse_fork_grades(text, source=path.name)
     day_match = DAY_FILE_RE.search(path.name)
     if day_match:
         day = parse_iso_date(day_match.group(1))
-        watch = watch_run_for_day(path.parent, day)
+        watch = watch_run_for_day(watch_dir, day)
         if watch is not None and watch != path:
             watch_grades = parse_fork_grades(
                 watch.read_text(encoding="utf-8"), source=watch.name
@@ -280,7 +282,7 @@ def build_delta_block(
 
 def resolve_inputs(
     *,
-    daily_dir: Path,
+    wire_dir: Path,
     day: date | None,
     today_path: Path | None,
     prior_path: Path | None,
@@ -298,10 +300,10 @@ def resolve_inputs(
         if day is None:
             raise ValueError("specify --day YYYY-MM-DD or --today-path")
         current_day = day
-        today_file = wire_matrix_for_day(daily_dir, current_day)
+        today_file = wire_matrix_for_day(wire_dir, current_day)
         if today_file is None:
             raise FileNotFoundError(
-                f"no wire-verify matrix for {current_day.isoformat()} under {daily_dir}"
+                f"no wire-verify matrix for {current_day.isoformat()} under {wire_dir}"
             )
 
     if prior_path is not None:
@@ -317,13 +319,13 @@ def resolve_inputs(
             resolved_prior_day = current_day - timedelta(days=1)
     elif prior_day is not None:
         resolved_prior_day = prior_day
-        prior_file = wire_matrix_for_day(daily_dir, resolved_prior_day)
+        prior_file = wire_matrix_for_day(wire_dir, resolved_prior_day)
         if prior_file is None:
             raise FileNotFoundError(
                 f"no wire-verify matrix for prior day {resolved_prior_day.isoformat()}"
             )
     else:
-        found = prior_day_with_matrix(daily_dir, current_day)
+        found = prior_day_with_matrix(wire_dir, current_day)
         if found is None:
             raise FileNotFoundError(
                 f"no prior wire-verify matrix within lookback before {current_day.isoformat()}"
@@ -338,10 +340,16 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--day", help="Current day YYYY-MM-DD (wire matrix lookup)")
     parser.add_argument("--prior-day", help="Prior day YYYY-MM-DD (default: auto lookback)")
     parser.add_argument(
+        "--wire-dir",
+        type=Path,
+        default=DEFAULT_WIRE_DIR,
+        help=f"wire-verify matrix directory (default: {DEFAULT_WIRE_DIR})",
+    )
+    parser.add_argument(
         "--daily-dir",
         type=Path,
-        default=DEFAULT_DAILY_DIR,
-        help=f"statecraft daily directory (default: {DEFAULT_DAILY_DIR})",
+        default=None,
+        help="Legacy alias for --wire-dir",
     )
     parser.add_argument("--today-path", type=Path, help="Explicit today wire matrix or watch file")
     parser.add_argument("--prior-path", type=Path, help="Explicit prior wire matrix or watch file")
@@ -358,13 +366,14 @@ def _ensure_utf8_stdout() -> None:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    daily_dir = args.daily_dir.resolve()
+    wire_dir = (args.daily_dir or args.wire_dir).resolve()
+    watch_dir = DEFAULT_WATCH_DIR
     day = parse_iso_date(args.day) if args.day else None
     prior_day = parse_iso_date(args.prior_day) if args.prior_day else None
 
     try:
         current_day, today_file, resolved_prior_day, prior_file = resolve_inputs(
-            daily_dir=daily_dir,
+            wire_dir=wire_dir,
             day=day,
             today_path=args.today_path,
             prior_path=args.prior_path,
@@ -374,8 +383,8 @@ def main(argv: list[str] | None = None) -> int:
         print(exc, file=sys.stderr)
         return 1
 
-    prior_grades = load_grades(prior_file)
-    current_grades = load_grades(today_file)
+    prior_grades = load_grades(prior_file, watch_dir=watch_dir)
+    current_grades = load_grades(today_file, watch_dir=watch_dir)
     if not prior_grades:
         print(f"warning: no fork rows parsed from {prior_file.name}", file=sys.stderr)
     if not current_grades:

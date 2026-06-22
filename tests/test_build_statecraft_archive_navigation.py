@@ -59,7 +59,7 @@ def test_build_year_index_rolls_up_months_and_links(tmp_path: Path) -> None:
     assert "`Judging Freedom` (1)" in rendered
     assert "`Daniel Davis Deep Dive` (1)" in rendered
     assert "| `2026-05` | 2 | 2 |" in rendered
-    assert "[open](./2026-05.md)" in rendered
+    assert "[open](statecraft/synthesis/month/2026-05.md)" in rendered
 
 
 def test_build_thread_index_rolls_up_threads_across_days(tmp_path: Path) -> None:

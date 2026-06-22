@@ -10,7 +10,7 @@ skills:
 outputs:
   - source-archive/statecraft object
   - intake queue report
-  - statecraft/daily synthesis candidate
+  - statecraft/synthesis day candidate
 authority: advisory_only
 verification_level: receipt_required
 risk_tier: medium
@@ -98,7 +98,7 @@ Evidence to report:
 
 - `source-archive/statecraft/YYYY-MM-DD/source-*.md`
 - optional queue report receipt
-- `statecraft/daily/` synthesis candidate or promoted daily (operator-gated)
+- `statecraft/synthesis/day/` synthesis candidate or promoted daily (operator-gated)
 
 ## Return Paths
 

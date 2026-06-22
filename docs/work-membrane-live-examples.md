@@ -16,7 +16,7 @@ This is where durable non-Record judgment lives.
 
 Live examples:
 
-- [statecraft/daily/2026-05.md](../statecraft/daily/2026-05.md)
+- [statecraft/synthesis/month/2026-05.md](../statecraft/synthesis/month/2026-05.md)
 - [statecraft/states/reader-guide.md](../statecraft/states/reader-guide.md)
 - [statecraft/states/indexes/failure-mode-routes.md](../statecraft/states/indexes/failure-mode-routes.md)
 - [singularity/workshop/keystone-helix.md](../singularity/workshop/keystone-helix.md)

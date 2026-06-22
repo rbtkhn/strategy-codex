@@ -123,7 +123,7 @@ See [menu-reference — intake closeout](menu-reference.md#statecraft-intake-clo
 | Object ritual | SSOT | Typical hub | Default attention | Close shape |
 |---------------|------|-------------|-------------------|-------------|
 | **Intake closeout** *(reference)* | menu-reference intake closeout | B→C→D→A | precision → hold → one object | `object_ref` + sync falsifier |
-| **Daily compose / 72h watch** | `statecraft/daily/*`, `*-72h-watch-run.md` | **C** (+ `stakes pass`) | hold / stakes | `verdict=shaped\|promote`; RLJ if stopping rules |
+| **Daily compose / 72h watch** | `statecraft/synthesis/day/*`, `*-72h-watch-run.md` | **C** (+ `stakes pass`) | hold / stakes | `verdict=shaped\|promote`; RLJ if stopping rules |
 | **Daily synthesis validate** | `validate_statecraft_daily_synthesis.py` | **B Test** | precision pass | falsifier = validator slug |
 | **Composition benchmark** | kleiber-composition-benchmark.md | **D** | one object only | benchmark closeout artifact |
 | **Confirm / ship slice** | [start-here ship loop](../../../docs/start-here.md#operator-ship-loop) | **A** | *(none)* | optional `falsify` if push blocked |
@@ -165,7 +165,7 @@ See [menu-reference — intake closeout](menu-reference.md#statecraft-intake-clo
 ```bash
 python scripts/log_coffee_close.py -u strategy-codex \
   --picked D --outcome partial --readiness execution_ready \
-  --object-ref statecraft/daily/2026-06-17.md \
+  --object-ref statecraft/synthesis/day/2026-06-17.md \
   --falsify "Geneva-19-Jun-pseudo-gate-J16-K1-vs-J16-ME1" \
   --verdict shaped
 # --attention only when overriding hub default (e.g. C + stakes pass)

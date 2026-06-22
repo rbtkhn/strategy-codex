@@ -11,8 +11,10 @@ title: "Amb. Chas Freeman: Will Iran Get Backup From Russia & China Against the 
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator pasted transcript body in Codex chat. Direct YouTube watch URL not yet recovered."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator pasted transcript body in Codex chat. Direct YouTube watch URL not yet recovered.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+transcript_wrapper_tier: clean
+opening_tier: host-tease
 ---
 Hi everybody. Today is Friday, March 28th, 2025 and I have the privilege to have Ambassador Chaz Freeman on our podcast. Welcome back, Ambassador. Glad to be back.
 

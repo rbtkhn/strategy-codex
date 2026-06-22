@@ -30,7 +30,7 @@ verify_receipt: 2026-06-20
 verify:
   - claim: IRGC Khatam al-Anbiya declares Strait of Hormuz closed to vessel traffic (MOU Art. 1 breach)
     verdict: supported
-    note: BBC Jun 20 · Euractiv · JPost/Mehr · cross-ref [J20-1 matrix](../../../statecraft/daily/2026-06-20-wire-verify-matrix.md)
+    note: BBC Jun 20 · Euractiv · JPost/Mehr · cross-ref [J20-1 matrix](../../../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md)
   - claim: FM Baghaei — closure reports unfounded; navigation continues
     verdict: supported
     note: Firstpost · Baku.ws MFA carry · cross-ref J20-2 · verify:denial-duel-contested

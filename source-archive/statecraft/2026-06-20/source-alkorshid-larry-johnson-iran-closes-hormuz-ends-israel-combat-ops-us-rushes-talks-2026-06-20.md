@@ -34,7 +34,7 @@ verify_receipt: 2026-06-20
 verify:
   - claim: Israel stopped southern Lebanon bombing (Trump admin pressure)
     verdict: partial
-    note: IDF political cease-fire directive supported · ground strikes contested · cross-ref [J20-9 matrix](../../../statecraft/daily/2026-06-20-wire-verify-matrix.md)
+    note: IDF political cease-fire directive supported · ground strikes contested · cross-ref [J20-9 matrix](../../../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md)
   - claim: Araghchi / Iranian delegation landed Switzerland
     verdict: supported
     note: BBC Jun 20 · PBS · cross-ref J20-11

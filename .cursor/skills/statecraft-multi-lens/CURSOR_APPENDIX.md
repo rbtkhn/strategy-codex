@@ -43,7 +43,7 @@
 - [statecraft/audits/pape-parsi-hormuz-comparison-memo.md](/C:/dev/strategy-codex/statecraft/audits/pape-parsi-hormuz-comparison-memo.md)
 - [statecraft/audits/macgregor-vs-pape-comparison-note.md](/C:/dev/strategy-codex/statecraft/audits/macgregor-vs-pape-comparison-note.md)
 - [statecraft/audits/macgregor-vs-sachs-comparison-note.md](/C:/dev/strategy-codex/statecraft/audits/macgregor-vs-sachs-comparison-note.md)
-- [statecraft/daily/2026-05-29-pape-vs-freeman-sachs-marandi.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29-pape-vs-freeman-sachs-marandi.md)
+- [statecraft/notes/2026-05-29-pape-vs-freeman-sachs-marandi.md](/C:/dev/strategy-codex/statecraft/notes/2026-05-29-pape-vs-freeman-sachs-marandi.md)
 
 **Historical-example hard gate**
 

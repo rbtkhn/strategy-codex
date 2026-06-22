@@ -81,7 +81,7 @@ Same-day **three-register wedge** on **US–Israel–Iran ~week 4** — institut
 
 - [Mar 3 Mercouris × Wilkerson — attrition / F-15](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — **negative space** → Mar 24 **fiction vs deployment**
 - [Mar 3 Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md) — opening week → Mar 24 **five terms**
-- [Mar 16 Pape × Crooke mosaic](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
+- [Mar 16 Pape × Crooke mosaic](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
 ## Falsifiers
 

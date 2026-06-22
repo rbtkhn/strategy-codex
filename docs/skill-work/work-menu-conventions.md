@@ -186,7 +186,7 @@ Rule: max **2** blocker slots + **3** deferred forks (5 options total). If no bl
 
 Blocker examples:
 
-- uncommitted `statecraft/daily/` after intake close
+- uncommitted `statecraft/synthesis/day/` after intake close
 - branch **ahead 2** with clean tree → push before new lane work
 - mixed Jiang + statecraft WIP → name which slice to commit first
 

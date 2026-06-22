@@ -37,7 +37,7 @@ nodes:
 
 **Pub span:** 2026-02-25 → 2026-06-22 (~118 days; **arc** tier)  
 **Series:** [escalationtrap.substack.com](https://escalationtrap.substack.com)  
-**Parent:** [Pape source index](../voices/pape/pape-source-index.md) · [Pape person arc](../voices/pape/pape-arc.md) · [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
+**Parent:** [Pape source index](../voices/pape/pape-source-index.md) · [Pape person arc](../voices/pape/pape-arc.md) · [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
 **Hook prefix (opening essay tier):** **JF28-T1** (mirage) · **J01-T1** (trap confirmed) · forward **J16-T*** on Mar 16 matrix when run.
 
@@ -49,7 +49,7 @@ Single-voice **season arc** for Pape’s **Escalation Trap** forecast object —
 
 **Smart Bomb Trap** = tactical-precision ratchet **inside** Escalation Trap (Feb 25 names it; May 23 re-enters at higher level). **Opening week (Phases I–V)** lives **in this arc** — see [§ Opening week](#opening-week-phases-i-v).
 
-**Not a substitute for:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) (Crooke **mosaic machine**) · Freeman/Ritter IGL arcs (multi-voice) · [pape-on-china-ai.md](./pape-on-china-ai.md) (industrial-AI topic).
+**Not a substitute for:** [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) (Crooke **mosaic machine**) · Freeman/Ritter IGL arcs (multi-voice) · [pape-on-china-ai.md](./pape-on-china-ai.md) (industrial-AI topic).
 
 ## Mechanism ladder (arc phases)
 
@@ -136,7 +136,7 @@ Pape owns **historical weight + political physics**:
 - 1991 **Instant Thunder** — 250 targets; Saddam **core held**
 - **Rise up** calls (Bush 1991 Shia) — **who pays** when repression machinery intact (links Leg I)
 
-**Forward falsifier:** If **IRGC mass defection** or **regime collapse** in week 1, Leg II–III **partially falsified** — [Mar 3 negative space](../daily/2026-03-03.md) watches.
+**Forward falsifier:** If **IRGC mass defection** or **regime collapse** in week 1, Leg II–III **partially falsified** — [Mar 3 negative space](../synthesis/day/2026-03-03.md) watches.
 
 ### Leg III — Smart Bomb Trap Confirmed (Mar 1)
 
@@ -163,7 +163,7 @@ Pape-only carry:
 
 ### Mature form — Mar 16 lattice (Pape leg only)
 
-Primary capture: [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) · Compare register: [Mar 16 Pape × Crooke](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md).
+Primary capture: [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) · Compare register: [Mar 16 Pape × Crooke](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md).
 
 Pape additions at mid-month:
 
@@ -181,7 +181,7 @@ Pape additions at mid-month:
 | Regime paralysis | **No** — repression intact | Politics **reorganize** outward | **Activation** not fracture | I **fact** · II **pattern** · III **mechanism** |
 | Retaliation timing | Same day regional | **Years** possible (Lockerbie) | **Hours** — trap **visible** fast | **Preserve** — II warning ≠ III speed |
 | Trump bounded war | (silent) | History **weight** | **Epic Escalation** vs Vance | III vs admin **fiction** |
-| Crooke trust/deception | [Separate weave target](../daily/2026-02-28.md) | — | Perfidy **compatible** with trap | Trap ≠ trust lane |
+| Crooke trust/deception | [Separate weave target](../synthesis/day/2026-02-28.md) | — | Perfidy **compatible** with trap | Trap ≠ trust lane |
 
 ## Reconciliation (arc tier)
 
@@ -196,7 +196,7 @@ Pape additions at mid-month:
 
 ## Falsifiers (arc tier)
 
-1. **Quick regime collapse / mass IRGC defection** — falsifies opening Legs II–III; [Mar 3 negative space](../daily/2026-03-03.md) watches
+1. **Quick regime collapse / mass IRGC defection** — falsifies opening Legs II–III; [Mar 3 negative space](../synthesis/day/2026-03-03.md) watches
 2. **Clean 48h / 72h war** — falsifies Leg V clock + Phases VIII–IX
 3. **Ceasefire within 72h of Mar 1** — falsifies opening ratchet; **JF03-F2** / perfidy arc
 4. **Hormuz sustained open + no Gulf entanglement** — narrows Phases VI–VIII
@@ -213,10 +213,10 @@ Pape additions at mid-month:
 
 ## Cross-day return
 
-- **Opening week:** [Feb 3 power formula](../daily/2026-02-03.md) · [Feb 17 Hormuz partial](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [Feb 28](../daily/2026-02-28.md) · [Mar 1](../daily/2026-03-01.md) · [Mar 3](../daily/2026-03-03.md)
-- **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (Phase V)
+- **Opening week:** [Feb 3 power formula](../synthesis/day/2026-02-03.md) · [Feb 17 Hormuz partial](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [Feb 28](../synthesis/day/2026-02-28.md) · [Mar 1](../synthesis/day/2026-03-01.md) · [Mar 3](../synthesis/day/2026-03-03.md)
+- **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (Phase V)
 - **Bench:** [Pape × Crooke opening-strike](./2026-02-28-pape-crooke-opening-strike-bench-weave.md) · [Crooke × Pape × Simplicius Mar 3](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
-- **Forward:** [Mar 24 five terms](../daily/2026-03-24.md) · May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · [Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
+- **Forward:** [Mar 24 five terms](../synthesis/day/2026-03-24.md) · May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · [Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
 - **Person shelf:** [pape-arc.md](../voices/pape/pape-arc.md) · [forecast ledger](../voices/pape/stream/pape-forecast-ledger-2026.md)
 
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Opened:** 2026-06-22 · **Consolidated:** 2026-06-22 (thread absorbed into arc)

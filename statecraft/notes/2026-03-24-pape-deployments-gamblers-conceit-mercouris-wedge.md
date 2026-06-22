@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 24 2026 — Pape × Mercouris wedge (deployments vs gambler's conceit vs talk mirage)
 
 **Pub date:** 2026-03-24  
-**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · [Wire matrix](./2026-03-24-wire-verify-matrix.md) · [Mercouris × Helmer × Marandi wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
+**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · [Wire matrix](statecraft/notes/wire/2026-03-24-wire-verify-matrix.md) · [Mercouris × Helmer × Marandi wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
 
 **Sources:**
 
@@ -11,7 +11,7 @@ WORK only; not Record.
 - [Pape — Trump's Words Don't Predict War. His Deployments Do](../../source-archive/statecraft/2026-03-24/source-pape-trumps-words-dont-predict-war-his-2026-03-24.md) — https://escalationtrap.substack.com/p/trumps-words-dont-predict-war-his — **newsletter**
 - [Mercouris solo — Dimona / 4-division ground / talk fiction](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) — https://www.youtube.com/watch?v=hiz6KpkaSM8 — **solo transcript**
 
-**Series context:** [Mar 16 Pape × Crooke mosaic trap](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Mar 3 Crooke × Pape air-power bench](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) · [Mar 23 Pape questions](../../source-archive/statecraft/2026-03-23/source-pape-the-questions-that-matter-now-2026-03-23.md) (provenance)
+**Series context:** [Mar 16 Pape × Crooke mosaic trap](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Mar 3 Crooke × Pape air-power bench](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) · [Mar 23 Pape questions](../../source-archive/statecraft/2026-03-23/source-pape-the-questions-that-matter-now-2026-03-23.md) (provenance)
 
 ## Purpose
 
@@ -21,7 +21,7 @@ Same-day **Escalation Trap double-post** vs **Mercouris institutional solo** on 
 - **Pape (deployments)** → **Operational signal**: **ignore rhetoric** — watch **ORBAT** (150+ aircraft, 2 CSG, 50k+ regional, **82nd 1,000**, **2.5–5k Marines**); Venezuela **build-up preceded action** vs **Greenland rhetoric-only** contrast
 - **Mercouris** → **Institutional read**: Trump **negotiation fiction** (media **mirage**); **kinetic reality** (Dimona, gas hit, **4 divisions**); **FT market timing**; **Lavrov WW3** — rhetoric **not** strategic ambiguity but **brazen falsehood**
 
-**Arc:** Extends [Mar 16 Pape × Crooke](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — mid-March **trap/mosaic** → Mar 24 **Stage 3 indicators visible** + **deployment ORBAT** receipt.
+**Arc:** Extends [Mar 16 Pape × Crooke](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — mid-March **trap/mosaic** → Mar 24 **Stage 3 indicators visible** + **deployment ORBAT** receipt.
 
 ## Shared spine (talk vs movement vs psychology object)
 
@@ -72,7 +72,7 @@ Same-day **Escalation Trap double-post** vs **Mercouris institutional solo** on 
 | Is Trump rhetoric **strategic**? | **Ambiguity by design** (deployments essay) | **Fiction / mirage** (conceit: **dangerous** chasing) | **Stack** — Pape **tool** vs Mercouris **lie** on **negotiations**; compatible on **ignore words for ORBAT** |
 | Ground forces meaning | **Stage 3 trap** / **options** expanding | **Inadequate** for stated aims but **deepens war** | Pape **mechanism + menu** · Mercouris **skepticism + deployment fact** |
 | Why double down? | **House money** psychology | **Loss of escalation control** + **market** | Pape **micro-mechanism** · Mercouris **macro-institutional** |
-| Deployments vs talks | **Build-up continues** = **acceleration** | **Build-up while talks fake** | **Converge** — [J24-D1 partial](./2026-03-24-wire-verify-matrix.md#sub-seam-d--ground-forces--kish-mercouris-j24-d1--d4--marandi-j24-d3) · [J24-A2 contested](./2026-03-24-wire-verify-matrix.md#sub-seam-a--trump-talks--48h5d--market-mercouris-j24-a1--a5--helmer-j24-a2--a4) |
+| Deployments vs talks | **Build-up continues** = **acceleration** | **Build-up while talks fake** | **Converge** — [J24-D1 partial](statecraft/notes/wire/2026-03-24-wire-verify-matrix.md#sub-seam-d--ground-forces--kish-mercouris-j24-d1--d4--marandi-j24-d3) · [J24-A2 contested](statecraft/notes/wire/2026-03-24-wire-verify-matrix.md#sub-seam-a--trump-talks--48h5d--market-mercouris-j24-a1--a5--helmer-j24-a2--a4) |
 | Iran winning/losing | **Limits of air power**; Iran **adapts** | US–Israel war aims **failed**; Iran **conditions** hold | Same **attrition** object — Pape **theory** · Mercouris **evidence menu** |
 
 **Usage:** **Pape conceit** → **why leaders escalate after early wins** · **Pape deployments** → **ORBAT checklist** · **Mercouris** → **same week institutional receipts** (fiction + Dimona + divisions + market)
@@ -84,7 +84,7 @@ Same-day **Escalation Trap double-post** vs **Mercouris institutional solo** on 
 
 ## Cross-day return
 
-- [Mar 16 Pape × Crooke mosaic trap](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — **center of gravity** → Mar 24 **ground indicators**
+- [Mar 16 Pape × Crooke mosaic trap](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — **center of gravity** → Mar 24 **ground indicators**
 - [Mar 3 Pape air-power illusion](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) — **100% pattern** → conceit **limits of air power**
 - [Mar 3 Mercouris attrition wedge](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — stockpiles → Mar 24 **division deploy**
 

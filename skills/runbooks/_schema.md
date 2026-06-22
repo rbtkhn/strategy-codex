@@ -72,7 +72,7 @@ skills:
 outputs:
   - source-archive/statecraft object
   - intake queue report
-  - statecraft/daily synthesis candidate
+  - statecraft/synthesis day candidate
 authority: advisory_only
 verification_level: receipt_required
 risk_tier: medium

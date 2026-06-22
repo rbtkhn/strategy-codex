@@ -19,6 +19,17 @@ COMMON_EXPERT_NAMES: list[TierPair] = [
     (r"Mirshimer", "Mearsheimer", 0),
 ]
 
+# Persian Gulf oil-terminal island — ASR often drifts to Kerguelen (subantarctic) or Karkand.
+# Distinct from Kish (Hormuz-mouth); do not conflate. Receipt: Jermy Davis 2026-03-18 intake.
+KHARG_TIER: list[TierPair] = [
+    (r"\bKerguelen\b", "Kharg Island", 0),
+    (r"\bKarkand Island\b", "Kharg Island", 0),
+    (r"\bCarg Island\b", "Kharg Island", re.IGNORECASE),
+    (r"\bKarkand\b", "Kharg", 0),
+]
+
+COMMON_GEO_TIERS: list[TierPair] = list(KHARG_TIER)
+
 MEARSHEIMER_TIER: list[TierPair] = [
     (
         r"let's say about co pe pe pe pe pe pe pe pe pe pe pe pe pe pe pe\s*pe pe pe pe pe peaceful coexistence",
@@ -100,6 +111,7 @@ THREAD_TIERS: dict[str, list[TierPair]] = {
     "ritter": [
         (r"Scott Ritter", "Scott Ritter", 0),
     ],
+    "kharg": KHARG_TIER,
 }
 
 CHANNEL_TIERS: dict[str, list[TierPair]] = {
@@ -195,7 +207,7 @@ def resolve_tier_keys(meta: dict[str, Any]) -> list[str]:
 
 
 def collect_tier_pairs(meta: dict[str, Any]) -> list[TierPair]:
-    pairs: list[TierPair] = []
+    pairs: list[TierPair] = list(COMMON_GEO_TIERS)
     keys = resolve_tier_keys(meta)
     for key in keys:
         if key.startswith("channel:"):

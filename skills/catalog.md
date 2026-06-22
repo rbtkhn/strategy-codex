@@ -152,7 +152,7 @@ Canonical method: [skills/statecraft-source-intake/SKILL.md](statecraft-source-i
 - **When to use it**
   - Use when the statecraft captures already exist and the next need is the dominant crisis object, lane pressure, quote-bearing traceability, and speaker-by-function comparison.
 - **Inputs you'll need**
-  - The touched day archive inventory, the highest-signal source captures, and the current `statecraft/daily/` shelf.
+  - The touched day archive inventory, the highest-signal source captures, and the current `statecraft/synthesis/day/` shelf.
 - **What you get**
   - A durable daily or monthly synthesis note on the `statecraft/` side and, when needed, a same-object comparison note that preserves mechanism, carrier, and bargaining differences.
 - **Boundary**

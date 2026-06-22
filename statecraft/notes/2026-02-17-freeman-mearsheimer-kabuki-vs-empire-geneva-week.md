@@ -3,7 +3,7 @@ WORK only; not Record.
 # Feb 17 2026 — Freeman × Mearsheimer: Kabuki vs empire (Geneva week wedge)
 
 **Pub date:** 2026-02-17  
-**Parent:** [2026-02-17 daily synthesis](../daily/2026-02-17.md) · [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) · [Iran bench weave](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md)
+**Parent:** [2026-02-17 daily synthesis](../synthesis/day/2026-02-17.md) · [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) · [Iran bench weave](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md)
 
 **Sources:**
 
@@ -79,7 +79,7 @@ Same **Geneva week** — two **altitude** reads on why negotiation surfaces **do
 
 - [Jan 20 Freeman Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — alliance-law vs sea-war; same **Freeman credibility** register
 - [Jan 20 Mearsheimer tag-team Iran essay](../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md) — external regime-change **mechanism** vs Freeman **Westphalian** defense of Iran sovereignty
-- [Geneva wire matrix](../daily/2026-02-17-wire-verify-matrix.md) — **tier-4** Helmer compromise leak vs Mearsheimer **public maximal** — wire pass didn't close gap
+- [Geneva wire matrix](../notes/wire/2026-02-17-wire-verify-matrix.md) — **tier-4** Helmer compromise leak vs Mearsheimer **public maximal** — wire pass didn't close gap
 
 ## Falsifiers
 

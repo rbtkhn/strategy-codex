@@ -377,7 +377,7 @@ def rank_next_actions(ctx: DeckContext, *, max_actions: int = 5) -> list[NextAct
                 priority=2,
                 category="intake",
                 action=f"Run daily synthesis or intake review for archive day {intake_day} (sync desync)",
-                source_path=f"statecraft/daily/{intake_day}.md",
+                source_path=f"statecraft/synthesis/day/{intake_day}.md",
                 urgency="high",
             )
         )

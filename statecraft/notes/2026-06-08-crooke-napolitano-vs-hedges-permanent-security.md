@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Parent:** [2026-06-08 daily](../daily/2026-06-08.md) · [Crooke three-date arc](../daily/2026-06-crooke-three-date-ceasefire-for-all-arc.md) · [Davis fulcrum companion](../daily/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
+**Parent:** [2026-06-08 daily](../synthesis/day/2026-06-08.md) · [Crooke three-date arc](../synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md) · [Davis fulcrum companion](../notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 
 **Sources:**
 
@@ -70,7 +70,7 @@ Hedges-Crooke (B-plane)     → Post–7 Oct permanent security; scalar deterren
 
 ## Recognition gate vs permanent security
 
-[June 7 third-party gate](../daily/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) spent the gate in hardware. June 8 Crooke pair asks **why** the gate keeps re-firing:
+[June 7 third-party gate](../notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) spent the gate in hardware. June 8 Crooke pair asks **why** the gate keeps re-firing:
 
 - **Gate instrument (Napolitano frame):** Lebanon trigger is a **recognition/deterrence rule** Iran can enforce; Israel tries to break linkage so Lebanon stays a unilateral theater.
 - **Permanent security (Hedges frame):** Any linkage is intolerable because Israel's post–7 Oct doctrine requires **eliminating threats at root** — Lebanon ops are not bargaining chips; they are doctrine execution.
@@ -85,5 +85,5 @@ Patch implication for [Lebanon gate transaction](../persia/transactions/lebanon-
 
 ## Links
 
-- [Parsi overnight companion](../daily/2026-06-08.md#executive-read) — theatrical + MOU/intercept row (third anchor)
-- [Johnson Larijani doctrine](../daily/2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) — institutional receipt above both Crooke voicings
+- [Parsi overnight companion](../synthesis/day/2026-06-08.md#executive-read) — theatrical + MOU/intercept row (third anchor)
+- [Johnson Larijani doctrine](../notes/2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) — institutional receipt above both Crooke voicings

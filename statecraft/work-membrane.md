@@ -90,7 +90,7 @@ The lane stays healthy when each step names its object and bounded output form r
 
 ## Boundary reminders
 
-- `statecraft/daily/*.md` is durable governed-adjacent analysis, not Record.
+- `statecraft/synthesis/day/*.md` is durable governed-adjacent analysis, not Record.
 - `statecraft/bridges/*.md` is durable governed-adjacent comparison, not Record.
 - `source-archive/statecraft/*` preserves source truth for the lane, but it is still not the companion Record.
 - validators may harden the lane without deciding insight quality on their own.

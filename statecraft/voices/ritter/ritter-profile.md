@@ -90,7 +90,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 - **Archive** holds verbatim captures; **Judgment** uses operator `verify:` and tier rows on capture headers.
 - Ritter **narrative witness** (tier 4) may align with closed fact rows (e.g. Starobilsk tier-A) but **does not substitute** for them.
-- **Do not** promote into [`codex/experts/ritter/thread.md`](../../../codex/experts/ritter/thread.md) strategy-page — use **`statecraft/daily/`**, **`statecraft/notes/`**, **`civ-state-note`** when civilizational shelf anchors load.
+- **Do not** promote into [`codex/experts/ritter/thread.md`](../../../codex/experts/ritter/thread.md) strategy-page — use **`statecraft/synthesis/day/`**, **`statecraft/notes/`**, **`civ-state-note`** when civilizational shelf anchors load.
 - **Downgrade** sources that entertain unsupported military-target symmetry when operator has **contradicted** the allegation (see landed capture `source_weight_downgrade`).
 
 ## Convergence fingerprint

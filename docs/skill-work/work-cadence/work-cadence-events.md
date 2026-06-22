@@ -723,8 +723,8 @@ _(Append below this line.)_
 - **2026-06-09 04:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe
 - **2026-06-09 04:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
 - **2026-06-09 05:38 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein focus=2026-06-08-ceasefire-triad
-- **2026-06-09 05:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/daily/2026-06-08.md falsify=Beirut-strike-within-72h-collapses-episodic-alive-read movements=allegro andante scherzo finale commit=98415d277
-- **2026-06-09 10:02 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/daily/2026-06-08.md falsify=Section_224_unchanged_after_pushback_week_fires_AMER-224-RCPT-03 benchmark_ref=runtime/artifacts/benchmarks/composition/2026-06-08/cursor-composer/ceasefire-anchor-trio-kleiber/
+- **2026-06-09 05:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/synthesis/day/2026-06-08.md falsify=Beirut-strike-within-72h-collapses-episodic-alive-read movements=allegro andante scherzo finale commit=98415d277
+- **2026-06-09 10:02 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/synthesis/day/2026-06-08.md falsify=Section_224_unchanged_after_pushback_week_fires_AMER-224-RCPT-03 benchmark_ref=runtime/artifacts/benchmarks/composition/2026-06-08/cursor-composer/ceasefire-anchor-trio-kleiber/
 - **2026-06-09 10:07 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=ph-civ@ec64d2b;strategy-codex@e1442b0d6 falsify=volume_i_parts_valid_and_pytest_4of4_before_push movements=allegro_parked andante_complete scherzo_complete finale_pushed
 - **2026-06-09 12:33 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-09 13:47 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
@@ -739,7 +739,7 @@ _(Append below this line.)_
 - **2026-06-09 20:21 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=singularity/notes/review-as-bottleneck-and-interpretive-pause.md falsify=multi-intent-batch-collapses-fracture-note movements=allegro_andante_finale_push_blocked commit=920680d7f 70a9060c0
 - **2026-06-09 20:25 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=kleiber
 - **2026-06-09 21:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=bernstein
-- **2026-06-09 21:36 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/daily/2026-06-09-intake-readiness.md falsify=daily-compose-before-intake-readiness-and-verify-receipts movements=allegro_andante_scherzo_finale
+- **2026-06-09 21:36 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/notes/intake/2026-06-09-intake-readiness.md falsify=daily-compose-before-intake-readiness-and-verify-receipts movements=allegro_andante_scherzo_finale
 - **2026-06-10 00:30 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-10 07:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=tensions-held-no-false-closure conductor=furtwangler notebook_ref=singularity/work-anyang/anyang-open-tensions.md falsify=recruitment-before-wechat-pin-and-mentor-rules
 - **2026-06-10 07:44 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
@@ -759,7 +759,7 @@ _(Append below this line.)_
 - **2026-06-12 22:29 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=composer model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-06-12 22:31 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-12 22:37 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
-- **2026-06-12 22:37 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/daily/2026-06-11.md falsify=archive-daily-desync
+- **2026-06-12 22:37 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/synthesis/day/2026-06-11.md falsify=archive-daily-desync
 - **2026-06-12 23:33 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-12 23:43 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-12 23:44 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
@@ -770,7 +770,7 @@ _(Append below this line.)_
 - **2026-06-12 23:53 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-12 23:54 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=coffee-cadence-infra
 - **2026-06-13 10:41 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
-- **2026-06-13 10:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=shaped notebook_ref=statecraft/daily/2026-06-12-72h-watch-run.md falsify=RCPT-04-stressed-A-prime-south-open
+- **2026-06-13 10:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=shaped notebook_ref=statecraft/notes/watch/2026-06-12-72h-watch-run.md falsify=RCPT-04-stressed-A-prime-south-open
 - **2026-06-13 15:19 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-06-13 15:20 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=recent integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-06-13 15:21 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=structural integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
@@ -796,15 +796,15 @@ _(Append below this line.)_
 - **2026-06-17 12:22 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-17 12:26 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-17 12:39 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber movement=A B C D
-- **2026-06-17 12:39 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=shaped conductor=kleiber notebook_ref=statecraft/daily/2026-06-16-72h-watch-run.md falsify=Geneva-19-Jun-pseudo-gate-J16-K1-vs-J16-ME1
+- **2026-06-17 12:39 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=shaped conductor=kleiber notebook_ref=statecraft/notes/watch/2026-06-16-72h-watch-run.md falsify=Geneva-19-Jun-pseudo-gate-J16-K1-vs-J16-ME1
 - **2026-06-17 15:14 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-06-17 21:46 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-17 23:44 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-18 00:41 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-18 07:35 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
-- **2026-06-18 10:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber notebook_ref=statecraft/daily/2026-06-17-72h-watch-run.md falsify=kleiber-ceremony-fork-j17-5-j17-17-fri19
-- **2026-06-18 10:55 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=karajan notebook_ref=statecraft/daily/2026-06-17.md falsify=karajan-jun17-stack-finish
-- **2026-06-18 11:21 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=bernstein notebook_ref=statecraft/daily/2026-06-17.md falsify=bernstein-mou-meaning-held
+- **2026-06-18 10:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber notebook_ref=statecraft/notes/watch/2026-06-17-72h-watch-run.md falsify=kleiber-ceremony-fork-j17-5-j17-17-fri19
+- **2026-06-18 10:55 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=karajan notebook_ref=statecraft/synthesis/day/2026-06-17.md falsify=karajan-jun17-stack-finish
+- **2026-06-18 11:21 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=bernstein notebook_ref=statecraft/synthesis/day/2026-06-17.md falsify=bernstein-mou-meaning-held
 - **2026-06-19 08:27 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-19 08:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
 - **2026-06-19 08:54 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready runtime/artifacts=7a79247e9

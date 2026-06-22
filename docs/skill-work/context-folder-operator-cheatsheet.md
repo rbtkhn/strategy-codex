@@ -101,8 +101,8 @@ Post-run (optional): workbench receipt `inspection.questionsSpec` mirrors the sa
 
 **Slug:** `iran-war-march-2026-monthly-synthesis`
 
-**Discover:** `source-archive/statecraft/2026-03.md`, day READMEs, `statecraft/daily/METHOD.md`, `2026-06.md` as baseline; ~30 P1 transcripts (not all 200).
+**Discover:** `source-archive/statecraft/2026-03.md`, day READMEs, `statecraft/synthesis/METHOD.md`, `2026-06.md` as baseline; ~30 P1 transcripts (not all 200).
 
-**Deliverable:** `statecraft/daily/2026-03.md` — ship commits there, not under `runtime/prepared-context/working/`.
+**Deliverable:** `statecraft/synthesis/month/2026-03.md` — ship commits there, not under `runtime/prepared-context/working/`.
 
 **Decision rule:** One chat, one path → skip folder. “New chat, but first gather everything about X” → use folder.

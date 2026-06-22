@@ -27,7 +27,7 @@ def test_capture_git_worktree_snapshot_parses_porcelain() -> None:
                 "returncode": 0,
                 "stdout": (
                     "## main...origin/main [ahead 1]\n"
-                    " M statecraft/daily/2026-06-08.md\n"
+                    " M statecraft/synthesis/day/2026-06-08.md\n"
                     "?? runtime/artifacts/tmp/\n"
                 ),
                 "stderr": "",
@@ -39,7 +39,7 @@ def test_capture_git_worktree_snapshot_parses_porcelain() -> None:
     assert snap.branch_name == "main"
     assert snap.dirty_tracked_count == 1
     assert snap.untracked_count == 1
-    assert "statecraft/daily/2026-06-08.md" in snap.changed_paths
+    assert "statecraft/synthesis/day/2026-06-08.md" in snap.changed_paths
 
 
 def test_get_git_worktree_snapshot_uses_process_cache(monkeypatch) -> None:

@@ -18,7 +18,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROOTS = (
-    REPO_ROOT / "statecraft" / "daily",
+    REPO_ROOT / "statecraft" / "synthesis" / "day",
+    REPO_ROOT / "statecraft" / "synthesis" / "month",
+    REPO_ROOT / "statecraft" / "notes",
     REPO_ROOT / "statecraft" / "templates",
 )
 
@@ -90,7 +92,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--root",
         type=Path,
         action="append",
-        help="Directory to scan (repeatable; default: statecraft/daily + templates)",
+        help="Directory to scan (repeatable; default: statecraft/synthesis + templates)",
     )
     parser.add_argument(
         "--path",

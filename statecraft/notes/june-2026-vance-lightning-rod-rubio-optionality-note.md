@@ -11,8 +11,8 @@ Preserve one **bounded routing seam** from the MOU week (~16–20 Jun 2026): why
 **Parent context:**
 
 - [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) — Seam 2 (Vance “reality” hinge)
-- [2026-06-18 daily](../daily/2026-06-18.md) · [2026-06-19 daily](../daily/2026-06-19.md)
-- [2026-06-19 wire-verify matrix](../daily/2026-06-19-wire-verify-matrix.md)
+- [2026-06-18 daily](../synthesis/day/2026-06-18.md) · [2026-06-19 daily](../synthesis/day/2026-06-19.md)
+- [2026-06-19 wire-verify matrix](../notes/wire/2026-06-19-wire-verify-matrix.md)
 
 **Retrieve posture:** `shelf-reader` (America succession + Rome transformed-continuity rhyme).
 
@@ -23,7 +23,7 @@ Preserve one **bounded routing seam** from the MOU week (~16–20 Jun 2026): why
 - [public/civ-state/volumes/rome/README.md](../../public/civ-state/volumes/rome/README.md) — sovereignty through mutation, not one clean faction line
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) — performative command vs embedded carriage (America-side mechanism sibling)
 
-**Wire pre-pass:** MOU implementation week **J19-1–J19-21** matrix ([sub-hook J19-16–J19-21](../daily/2026-06-19-wire-verify-matrix.md#vance-pushback--succession-routing-j19-16--j19-21--sub-hook-2026-06-20)); Vance discipline + hawk pushback **supported** on core rows.
+**Wire pre-pass:** MOU implementation week **J19-1–J19-21** matrix ([sub-hook J19-16–J19-21](../notes/wire/2026-06-19-wire-verify-matrix.md#vance-pushback--succession-routing-j19-16--j19-21--sub-hook-2026-06-20)); Vance discipline + hawk pushback **supported** on core rows.
 
 ## Core claim
 
@@ -96,13 +96,13 @@ Both Dialogue Works / Nima; **Jun 16 Helmer** vs **Jun 18 Johnson**. Shared grou
 
 | Layer | Carrier | Verdict | Routing read |
 | --- | --- | --- | --- |
-| **Deal ownership** | Vance MOU architect; Bürgenstock travel **off** when talks postponed | **Supported** ([J19-2](../../statecraft/daily/2026-06-19-wire-verify-matrix.md)) | Vance **named** to process — absorbs **process failure** visibility |
-| **Public discipline** | Vance rebukes Smotrich/Ben-Gvir “reality” line | **Supported** [**J19-16**](../daily/2026-06-19-wire-verify-matrix.md) | **Lightning-rod function** — hawk rage **targets VP**, not Trump |
-| **Direct VP attacks** | Levin (Newsmax/Mediaite); FDD/NY Post mesh; Rep. Randy Fine “inappropriate and disgusting” | **Supported** Levin/Fine [**J19-17**](../daily/2026-06-19-wire-verify-matrix.md) · [**J19-18**](../daily/2026-06-19-wire-verify-matrix.md); **Partial** FDD [**J19-19**](../daily/2026-06-19-wire-verify-matrix.md) | **Finger Vance** as MOU face |
-| **Donor media** | Miriam Adelson *Israel Hayom* open letter — Trump **“failed/betrayed Israel”** | **Supported** [**J19-20**](../daily/2026-06-19-wire-verify-matrix.md) | **Avoid direct Trump clash** in donor lane — hit **president** while Vance carries **operational** blame |
-| **Routing pattern** | Hawks center deal criticism on Vance; avoid breaking with Trump | **Partial** [**J19-21**](../daily/2026-06-19-wire-verify-matrix.md) | **Lightning-rod routing** — Haaretz pattern + J19-17/18/20 mesh |
+| **Deal ownership** | Vance MOU architect; Bürgenstock travel **off** when talks postponed | **Supported** ([J19-2](../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)) | Vance **named** to process — absorbs **process failure** visibility |
+| **Public discipline** | Vance rebukes Smotrich/Ben-Gvir “reality” line | **Supported** [**J19-16**](../notes/wire/2026-06-19-wire-verify-matrix.md) | **Lightning-rod function** — hawk rage **targets VP**, not Trump |
+| **Direct VP attacks** | Levin (Newsmax/Mediaite); FDD/NY Post mesh; Rep. Randy Fine “inappropriate and disgusting” | **Supported** Levin/Fine [**J19-17**](../notes/wire/2026-06-19-wire-verify-matrix.md) · [**J19-18**](../notes/wire/2026-06-19-wire-verify-matrix.md); **Partial** FDD [**J19-19**](../notes/wire/2026-06-19-wire-verify-matrix.md) | **Finger Vance** as MOU face |
+| **Donor media** | Miriam Adelson *Israel Hayom* open letter — Trump **“failed/betrayed Israel”** | **Supported** [**J19-20**](../notes/wire/2026-06-19-wire-verify-matrix.md) | **Avoid direct Trump clash** in donor lane — hit **president** while Vance carries **operational** blame |
+| **Routing pattern** | Hawks center deal criticism on Vance; avoid breaking with Trump | **Partial** [**J19-21**](../notes/wire/2026-06-19-wire-verify-matrix.md) | **Lightning-rod routing** — Haaretz pattern + J19-17/18/20 mesh |
 | **Rubio** | State Dept Lebanon lane; **silent** on final MOU optics; Freeman “Rubio phone Netanyahu” desk carry | **Unclear / tier-4** on authorship | **Optionality** — visible on **adjacent** file (Lebanon, Geneva deferral) without **MOU signature** exposure |
-| **Sabotage register** | WaPo IC: Israel likely undermine MOU | **Supported** ([J19-1](../../statecraft/daily/2026-06-19-wire-verify-matrix.md)) | Structural **client veto outside MOU** — Rome/adjacent lane in J19 daily |
+| **Sabotage register** | WaPo IC: Israel likely undermine MOU | **Supported** ([J19-1](../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)) | Structural **client veto outside MOU** — Rome/adjacent lane in J19 daily |
 
 **Interpretation fence:** Blumenthal **US capitulation**, Weichert **junior partner**, Parsi **Netanyahu jail incentive** — synthesis atop **J19-1 supported** + **J19-5 contested** Lebanon hold; not rescored here.
 
@@ -155,7 +155,7 @@ Both Dialogue Works / Nima; **Jun 16 Helmer** vs **Jun 18 Johnson**. Shared grou
 
 ## Next use
 
-- Return: [2026-06-19 daily](../daily/2026-06-19.md) · [Helmer source index](../voices/helmer/helmer-source-index.md) · Johnson Jun 18 captures (Vance slams · Lebanon/JOC)
+- Return: [2026-06-19 daily](../synthesis/day/2026-06-19.md) · [Helmer source index](../voices/helmer/helmer-source-index.md) · Johnson Jun 18 captures (Vance slams · Lebanon/JOC)
 - Upgrade path: **`civ-state-essay`** on America succession / client-state carriage **only** if thesis must travel without MOU parent context
 - **`civ-state` D. Review** if Rome/America volume essays need a **public** succession paragraph
 

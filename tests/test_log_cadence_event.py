@@ -409,12 +409,12 @@ def test_build_coffee_close_kv_object_ref_falsify_verdict_attention() -> None:
         picked="D",
         outcome="partial",
         readiness="execution_ready",
-        object_ref="statecraft/daily/2026-06-17.md",
+        object_ref="statecraft/synthesis/day/2026-06-17.md",
         falsify="pseudo-gate-J16-K1-vs-J16-ME1",
         verdict="shaped",
         attention="one object only",
     )
-    assert kv["object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert kv["object_ref"] == "statecraft/synthesis/day/2026-06-17.md"
     assert kv["falsify"] == "pseudo-gate-J16-K1-vs-J16-ME1"
     assert kv["verdict"] == "shaped"
     assert kv["attention"] == "one object only"

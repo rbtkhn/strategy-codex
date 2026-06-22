@@ -3,7 +3,7 @@ WORK only; not Record.
 # Feb 17 2026 — Geneva day weave (Helmer × Mercouris)
 
 **Pub date:** 2026-02-17  
-**Parent:** [Helmer source index](../voices/helmer/helmer-source-index.md) · [Mercouris Feb 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-02.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · [Wire verify matrix](../daily/2026-02-17-wire-verify-matrix.md)
+**Parent:** [Helmer source index](../voices/helmer/helmer-source-index.md) · [Mercouris Feb 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-02.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · [Wire verify matrix](../notes/wire/2026-02-17-wire-verify-matrix.md)
 
 **Sources:**
 

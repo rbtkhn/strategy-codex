@@ -413,11 +413,11 @@ python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM
 Rules:
 
 - **`ok`** or **`no_daily`** — report sync briefly; run intake queue report and surface `new` / `queued` counts before closeout/menu.
-- **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `state synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `state synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/synthesis/day/`.
 - **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)).
 - Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
 
-Optional agent-authored gap note when desync fires: add an **Archive vs synthesis gap audit** section to the day's intake-readiness note (pattern: `statecraft/daily/YYYY-MM-DD-intake-readiness.md`).
+Optional agent-authored gap note when desync fires: add an **Archive vs synthesis gap audit** section to the day's intake-readiness note (pattern: `statecraft/synthesis/day/YYYY-MM-DD-intake-readiness.md`).
 
 ### Live closeout discipline
 

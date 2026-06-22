@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Operationalize **falsifier #3** from [J18 MOU convergence](./june-18-2026-mou-convergence.md#falsifiers) as a **dated retest surface** — the only **live** falsifier after the 2026-06-19 wire pass.
 
-**Parent spine:** [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) · [2026-06-18 daily](../daily/2026-06-18.md) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (fuse clock register).
+**Parent spine:** [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) · [2026-06-18 daily](../synthesis/day/2026-06-18.md) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (fuse clock register).
 
 **Sibling notes:** [Hormuz governance armistice seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) — **second fuse** on Pt. 5 sixty-day window (~mid-Aug); **Phase XV tripwire #3** (Iran–Oman fees). [Pape Jun 22 framework](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) — operational red lines **#1–#3** + enrichment ultimate line; do not merge #3 pass/fail with this watch without tagging which clock.
 

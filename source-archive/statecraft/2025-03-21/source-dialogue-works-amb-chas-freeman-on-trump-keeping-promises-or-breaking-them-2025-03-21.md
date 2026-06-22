@@ -11,8 +11,10 @@ title: "Amb. Chas Freeman on Trump: Keeping Promises or Breaking Them?"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator pasted transcript body in Codex chat. Direct YouTube watch URL not yet recovered."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator pasted transcript body in Codex chat. Direct YouTube watch URL not yet recovered.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+transcript_wrapper_tier: clean
+opening_tier: host-tease
 ---
 hi everybody today's Friday March 21st 2025 and our friend Ambassador Chas Freeman is back with us welcome back Ambassador glad to be with you DEA let's get started with the situation in the Middle East with the war with the conflict between the Trump Administration and yemenis and what's your take on the way that Donald Trump is behaving in in the Middle East because he has changed a lot since he took power what is the main reason in your opinion
 

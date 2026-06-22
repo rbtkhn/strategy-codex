@@ -32,11 +32,11 @@ That pass is now durably isolated in commit `5dcaaa52`.
 
 The second slice is also real, but different in kind. Its visible center is:
 
-- [statecraft/daily/README.md](/C:/dev/strategy-codex/statecraft/daily/README.md)
-- [statecraft/daily/METHOD.md](/C:/dev/strategy-codex/statecraft/daily/METHOD.md)
-- [statecraft/daily/2026-05.md](/C:/dev/strategy-codex/statecraft/daily/2026-05.md)
-- [statecraft/daily/2026-05-29.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29.md)
-- [statecraft/daily/2026-05-30.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-30.md)
+- [statecraft/synthesis/day/README.md](/C:/dev/strategy-codex/statecraft/synthesis/day/README.md)
+- [statecraft/synthesis/METHOD.md](/C:/dev/strategy-codex/statecraft/synthesis/METHOD.md)
+- [statecraft/synthesis/month/2026-05.md](/C:/dev/strategy-codex/statecraft/synthesis/month/2026-05.md)
+- [statecraft/synthesis/day/2026-05-29.md](/C:/dev/strategy-codex/statecraft/synthesis/day/2026-05-29.md)
+- [statecraft/synthesis/day/2026-05-30.md](/C:/dev/strategy-codex/statecraft/synthesis/day/2026-05-30.md)
 - [statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](/C:/dev/strategy-codex/statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
 - [statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md)
 

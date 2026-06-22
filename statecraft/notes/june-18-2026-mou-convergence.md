@@ -20,7 +20,7 @@ This note is the **convergence spine** for `2026-06-18`. It does not replace dai
 
 **Pape Phase XV (Jun 22):** [Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) · [Escalation Trap arc](./arc-pape-escalation-trap.md) — power-not-money framework; three tripwires mapped to J18 seams below.
 
-**Parent context:** twelve sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** + **Krainer Dialogue Works** patch 2026-06-19; **`verify:`** on MOU-core captures including Krainer.
+**Parent context:** twelve sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../synthesis/day/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** + **Krainer Dialogue Works** patch 2026-06-19; **`verify:`** on MOU-core captures including Krainer.
 
 ## Core claim
 
@@ -256,7 +256,7 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 
 ## Next use
 
-- **`state-synthesis`** for `2026-06-18` — [daily published](../daily/2026-06-18.md); Crooke hubris in Theme 7; carry **Post-wire tiers** into verify column.
+- **`state-synthesis`** for `2026-06-18` — [daily published](../synthesis/day/2026-06-18.md); Crooke hubris in Theme 7; carry **Post-wire tiers** into verify column.
 - **Multi-lens register split** — [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (promoted from chat pass).
 - Optional: **`verify:`** YAML tails on remaining MOU-core captures — Aguilar **done** 2026-06-19; Davis if process-clock hooks need archive receipts beyond Henningsen + Johnson Vance (Lebanon #1 + weapons #4 wired 2026-06-19).
 

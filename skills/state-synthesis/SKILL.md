@@ -79,6 +79,17 @@ It should usually do four things:
 3. name the most useful speakers and why
 4. preserve tensions, falsifiers, and next moves
 
+## Daily register vs daily synthesis
+
+Same default path: `statecraft/synthesis/day/YYYY-MM-DD.md`.
+
+- **Daily register** — archive grounded; dominant object named in brief form; companion weaves/matrices linked; **Register Completion Checklist**; header `Status: register`. Write this when captures land before a full executive pass.
+- **Daily synthesis** — register shape expanded (dominant themes, lane read, CIV-STATE, speaker value). No `Status: register` line when synthesis tier is complete.
+
+Doctrine: [statecraft/synthesis/METHOD.md § Daily register vs daily synthesis](../../statecraft/synthesis/METHOD.md#daily-register-vs-daily-synthesis).
+
+**Do not** use **stub** for register-tier dailies.
+
 ## Workflow
 
 1. **Open the landed day archive**
@@ -197,7 +208,7 @@ This is **navigation + object-migration** between daily and monthly synthesis �
 
 **When to write or refresh:** month-week close, object migrates within month-week (refresh same `YYYY-MM-weekN-start-here.md`), or operator invocation. Header: `partial through YYYY-MM-DD` while open.
 
-**Doctrine:** [statecraft/daily/METHOD.md § Week Hinge](../../statecraft/daily/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../statecraft/daily/_templates/week-hinge-start-here.md).
+**Doctrine:** [statecraft/synthesis/METHOD.md § Week Hinge](../../statecraft/synthesis/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../statecraft/synthesis/day/_templates/week-hinge-start-here.md).
 
 **After daily synthesis:** if dominant object migrated within the active month-week, offer or refresh the week hinge; intake-readiness should point to the hinge for post-daily re-entry.
 
@@ -253,7 +264,7 @@ The day or month ends with a bounded, reusable synthesis note under `statecraft/
 Do not call this complete unless:
 
 - day batch exists under `source-archive/statecraft/<day>/` with at least one landed source
-- synthesis output path under `statecraft/daily/` (or explicit month surface) is named
+- synthesis output path under `statecraft/synthesis/day/` (or explicit month surface) is named
 - crisis object is stated in one line in the synthesis
 - synthesis does not mirror verbatim archive bodies
 

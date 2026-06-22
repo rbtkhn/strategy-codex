@@ -41,7 +41,7 @@ flowchart TB
     Archive[source-archive/statecraft]
     Voices[statecraft/voices]
     States[statecraft/states]
-    Daily[statecraft/daily]
+    Synth[statecraft/synthesis]
     Tx[statecraft lane transactions]
   end
 
@@ -75,7 +75,7 @@ Essays: [essays/README.md](../essays/README.md) · membrane: [work-membrane-v2.m
 operator source
   → source-archive/statecraft/<pub_date>/<slug>.md   [verbatim SSOT]
   → generated day/month/year/thread indices
-  → statecraft/daily/<YYYY-MM-DD>.md                 [daily synthesis]
+  → statecraft/synthesis/day/<YYYY-MM-DD>.md                 [daily synthesis]
   → statecraft/<lane>/transactions/<object>.md       [transaction object — default ceiling]
 ```
 
@@ -94,7 +94,7 @@ intake → sync check → intake queue → synthesis → commit → ship receipt
 | Land + indices | `python3 scripts/refresh_statecraft_archive_indices.py` (`--check` for CI) |
 | Archive ↔ daily sync | `python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` or `--latest` |
 | Intake queue | `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` — [spec](statecraft-intake-queue.md) |
-| Daily synthesis | `statecraft/daily/YYYY-MM-DD.md` or `state synthesis`; validate: `validate_statecraft_daily_synthesis.py` |
+| Daily synthesis | `statecraft/synthesis/day/YYYY-MM-DD.md` or `state synthesis`; validate: `validate_statecraft_daily_synthesis.py` |
 | Session warmup | `python3 scripts/harness_warmup.py -u strategy-codex --compact` |
 | Ship receipt / push | `operator_handoff_check.py` → commit lane slices → `git push` when clean |
 | Gate review | **Fork revive only** — [archive/grace-mar.md](archive/grace-mar.md) |
@@ -105,4 +105,4 @@ Conventions: [work-menu-conventions — Ship receipt](skill-work/work-menu-conve
 
 ## Index surfaces
 
-**Operator default:** [statecraft/README.md](../statecraft/README.md) · archive SSOT: [source-archive/statecraft/README.md](../source-archive/statecraft/README.md) · daily method: [statecraft/daily/METHOD.md](../statecraft/daily/METHOD.md). Full map: [LLM-ROUTING.md](../LLM-ROUTING.md) · [architecture.md](architecture.md) · [deprecated-surfaces.md](deprecated-surfaces.md)
+**Operator default:** [statecraft/README.md](../statecraft/README.md) · archive SSOT: [source-archive/statecraft/README.md](../source-archive/statecraft/README.md) · daily method: [statecraft/synthesis/METHOD.md](../statecraft/synthesis/METHOD.md). Full map: [LLM-ROUTING.md](../LLM-ROUTING.md) · [architecture.md](architecture.md) · [deprecated-surfaces.md](deprecated-surfaces.md)

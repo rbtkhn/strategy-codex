@@ -10,8 +10,10 @@ guest: Chas Freeman
 title: "Amb. Chas Freeman: Trump's Backroom Deal with Iran? What's REALLY Happening in Istanbul!"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered."
-quality_note: "Preserved from operator paste with light normalization only; minor transcript noise may remain."
+source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered.
+quality_note: Preserved from operator paste with light normalization only; minor transcript noise may remain.
+transcript_wrapper_tier: clean
+opening_tier: host-tease
 ---
 Hi everybody. Today is Thursday, May 15, 2025 and our friend Ambassador Chaz Freeman is back with us. Welcome back, Ambassador. Glad to be with you, Nema. And I admire your shirt. You have good taste obviously. Ambassador, let's get started with the breaking news on on Fox News. Here is what they reported. up that to 1.2 trillion.
  So, President Trump is due here to address the troops here uh soldiers and airman aloud uh air base. But before coming here, uh President Trump spoke with business leaders in Qar where he says he's close to a nuclear deal with Iran. Of course, Iran not far away and Qar and Iran share the largest gas field in the Persian Gulf.

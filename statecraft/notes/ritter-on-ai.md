@@ -102,7 +102,7 @@ Open when the task is:
 | 2026-03-11 | [source-dialogue-works-scott-ritter-the-u-s-has-lost…](../source-archive/statecraft/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md) | **Professional** — AI vs human targeteer |
 | 2026-05-26 | [source-napolitano-ritter-why-bother-to-negotiate…](../source-archive/statecraft/2026-05-26/source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md) | Palantir + Lugansk parallel |
 
-Daily synthesis (implementation trap, **not** AI-specific): [2026-03-16-ritter-implementation-trap-mosaic.md](../daily/2026-03-16-ritter-implementation-trap-mosaic.md).
+Daily synthesis (implementation trap, **not** AI-specific): [2026-03-16-ritter-implementation-trap-mosaic.md](../notes/2026-03-16-ritter-implementation-trap-mosaic.md).
 
 ## Return paths
 

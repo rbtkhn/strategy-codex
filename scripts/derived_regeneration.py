@@ -116,7 +116,8 @@ TARGETS: tuple[RebuildTarget, ...] = (
         policy_mode="Rebuild",
         rationale="Aggregate intake queue, daily synthesis, sidecars, and transaction-router fit into a read-only operator dashboard without replacing SSOT surfaces.",
         watch_patterns=(
-            "statecraft/daily/**",
+            "statecraft/synthesis/**",
+            "statecraft/notes/wire/**",
             "source-archive/statecraft/**",
             "runtime/artifacts/statecraft-intake-queue/**",
             "statecraft/sheets/transaction-router.md",

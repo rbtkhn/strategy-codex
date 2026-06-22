@@ -11,7 +11,7 @@ The aim is not to re-open full J18 synthesis or Crooke’s wider hubris essay. T
 **Parent surfaces:**
 
 - [J18 MOU convergence](./june-18-2026-mou-convergence.md) — Seam 1 (Lebanon) · Seam 6 (Trump–Israel divergence)
-- [2026-06-18 daily](../daily/2026-06-18.md) — Theme 2 · Theme 7
+- [2026-06-18 daily](../synthesis/day/2026-06-18.md) — Theme 2 · Theme 7
 - [Crooke hubris capture](../../source-archive/statecraft/2026-06-18/source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md) — primary archive anchor
 
 **Provenance:** promoted from Crooke intake + daily/convergence patch (2026-06-19).
@@ -91,4 +91,4 @@ The aim is not to re-open full J18 synthesis or Crooke’s wider hubris essay. T
 - [Crooke — Israel hubris](../../source-archive/statecraft/2026-06-18/source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md)
 - [Johnson — Lebanon breaking](../../source-archive/statecraft/2026-06-18/source-alkorshid-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md)
 - [Johnson — Vance hardball](../../source-archive/statecraft/2026-06-18/source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md)
-- [2026-06-17 daily](../daily/2026-06-17.md) — Art. 1 Lebanon cluster · [2026-06-18 daily](../daily/2026-06-18.md)
+- [2026-06-17 daily](../synthesis/day/2026-06-17.md) — Art. 1 Lebanon cluster · [2026-06-18 daily](../synthesis/day/2026-06-18.md)

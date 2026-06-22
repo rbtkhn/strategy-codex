@@ -46,7 +46,7 @@ python3 scripts/prose_forge.py gate runtime/artifacts/prose-forge/draft/candidat
 | `docs/skill-write/` | skill-write | extended optional | SkillWriteResidue, AITexture |
 | `*/notes/` | note | minimal | AITexture |
 | `docs/` | doctrine | lint only | AITexture |
-| `source-archive/`, `archive/queues/review-queue/`, `statecraft/daily/` | **denied** | — | — |
+| `source-archive/`, `archive/queues/review-queue/`, `statecraft/synthesis/day/` | **denied** | — | — |
 
 ## Legacy shelf
 

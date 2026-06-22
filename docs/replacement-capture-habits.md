@@ -48,5 +48,5 @@ Use when material is useful for the session but **not** worth verbatim retention
 
 - **Verbatim statecraft source** → `source-archive/statecraft/`
 - **Strategy essay / transcript bundle** → `raw-input/` per [strategy-input rule](../.cursor/rules/strategy-input-raw-ingest.mdc)
-- **Judgment to keep** → `statecraft/daily/` or lane transaction
+- **Judgment to keep** → `statecraft/synthesis/day/` or lane transaction
 - **Identity / IX** → **fork revive** + gate only

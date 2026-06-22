@@ -86,6 +86,10 @@ def _argv_judgment_contract_gauntlets(_user: str) -> list[str]:
     return []
 
 
+def _argv_validate_statecraft_path_layout(_user: str) -> list[str]:
+    return []
+
+
 def _argv_validate_statecraft_daily_synthesis(_user: str) -> list[str]:
     return []
 
@@ -262,6 +266,16 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         ci_source=".github/workflows/test.yml (Validate state synthesis — advisory)",
     ),
     CheckSpec(
+        id="validate_statecraft_path_layout",
+        label="Statecraft synthesis path layout (no stale daily/)",
+        script_relpath="scripts/validate_statecraft_path_layout.py",
+        argv_builder=_argv_validate_statecraft_path_layout,
+        user_scope="ignored",
+        groups=frozenset({"ci", "experimental"}),
+        timeout_sec=30.0,
+        ci_source=".github/workflows/test.yml (Validate statecraft path layout)",
+    ),
+    CheckSpec(
         id="validate_statecraft_archive_indices",
         label="Statecraft archive navigation indices",
         script_relpath="scripts/refresh_statecraft_archive_indices.py",
@@ -335,6 +349,7 @@ def checks_for_group(group: str) -> list[CheckSpec]:
             "validate_speaker_state_sets",
             "judgment_contract_gauntlets",
             "validate_statecraft_daily_synthesis",
+            "validate_statecraft_path_layout",
             "check_statecraft_intake_daily_sync",
         ]
         return [by_id[i] for i in order]

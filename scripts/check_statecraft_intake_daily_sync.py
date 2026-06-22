@@ -26,7 +26,8 @@ if str(_SCRIPTS) not in sys.path:
 
 from statecraft_day_archive import DEFAULT_ROOT, iter_all_day_dirs, summarize_day_dir  # noqa: E402
 
-DAILY_DIR = REPO_ROOT / "statecraft" / "daily"
+DAY_DIR = REPO_ROOT / "statecraft" / "synthesis" / "day"
+DAILY_DIR = DAY_DIR  # legacy alias
 ARCHIVE_CHECKPOINT_RE = re.compile(
     r"Archive checkpoint:\s*\*\*(\d+)\*\*",
     re.IGNORECASE,
@@ -160,7 +161,7 @@ def format_human(report: SyncReport) -> str:
     else:
         lines.append(
             "action: run state synthesis or wire missing captures into "
-            f"statecraft/daily/{report.day}.md before treating the day as current"
+            f"statecraft/synthesis/day/{report.day}.md before treating the day as current"
         )
     return "\n".join(lines)
 

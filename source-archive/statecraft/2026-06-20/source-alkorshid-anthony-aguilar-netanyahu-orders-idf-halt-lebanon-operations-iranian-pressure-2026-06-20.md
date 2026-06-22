@@ -34,7 +34,7 @@ verify_receipt: 2026-06-20
 verify:
   - claim: Iran closed Hormuz trade again to pressure US over Lebanon ops
     verdict: supported
-    note: IRGC declaration mesh · cross-ref [J20-1 matrix](../../../statecraft/daily/2026-06-20-wire-verify-matrix.md)
+    note: IRGC declaration mesh · cross-ref [J20-1 matrix](../../../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md)
   - claim: Iran skips / pressure off Switzerland until US compels Israel
     verdict: partial
     note: delegations travel proceeds · cross-ref J20-14 vs J20-11/12/13

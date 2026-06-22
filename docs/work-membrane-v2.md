@@ -109,9 +109,9 @@ Practical rule:
 | Surface | Class |
 |---------|-------|
 | `self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` | `Record` |
-| `statecraft/daily/*.md` | `governed adjacent` |
+| `statecraft/synthesis/day/*.md` | `governed adjacent` |
 | `statecraft/research/bridges/*.md` | `governed adjacent` |
-| `statecraft/daily/METHOD.md`, audit rubric, benchmark manifest | `governed adjacent` |
+| `statecraft/synthesis/METHOD.md`, audit rubric, benchmark manifest | `governed adjacent` |
 | `singularity/notes/*.md`, `singularity/essays/*.md`, architecture/protocol doctrine | `governed adjacent` |
 | `docs/skill-work/work-*` | `instrumental work` |
 | `work-*.md` instance work contexts | `instrumental work` |

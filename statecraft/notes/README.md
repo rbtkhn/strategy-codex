@@ -70,6 +70,20 @@ Machine-constitutional files stay where they already belong:
 - bridges stay in `bridges/`
 - transactions stay in transaction surfaces
 
+## Subfolder taxonomy (2026-06)
+
+Operational and adjacent artifacts that are **not** synthesis live in typed subfolders (synthesis-pure cadence: [`synthesis/day/`](../synthesis/day/), [`synthesis/month/`](../synthesis/month/)).
+
+| Subfolder | Class | Examples |
+| --- | --- | --- |
+| [`wire/`](wire/) | Wire-verify / falsifier receipt grids | `*-wire-verify-matrix.md` |
+| [`watch/`](watch/) | Bounded operational watch windows | `*-72h-watch-run.md` |
+| [`reentry/`](reentry/) | Week hinges (navigation, not synthesis) | `YYYY-MM-weekN-start-here.md` |
+| [`intake/`](intake/) | Pre-synthesis queue surfaces | `*-intake-readiness.md`, digest template |
+| *(root)* | Compare, mechanism, arc, thread, risk | `YYYY-MM-DD-<slug>.md`, `arc-*`, `thread-*` |
+
+Legacy redirect stub: [`daily/`](../daily/README.md).
+
 ## Thread and arc (canonical draft)
 
 **Status:** shelf-native type law for temporal companions. **Forward-only** filenames (`thread-` / `arc-` prefixes); legacy `*-weave.md` and `*-arc-weave.md` paths may persist until recanonicalization ([Later Phases](#later-phases)).

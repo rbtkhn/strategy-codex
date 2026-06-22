@@ -13,7 +13,7 @@ Foreign client mesh separation and command-review firewall.
 ## Source Inputs
 
 - Speaker-state inputs: Macgregor (NDAA mesh, protection limits, force-structure mismatch), McGovern (CI critical tier, lobby capture, 1973 treaty rejection logic), Freeman (Trump→Netanyahu referendum chain, sukfong negotiation incapacity, Greater Israel backfire), **Hoh (Section 224 statutory mesh — coordination agent, procurement embedding, vote evasion, Netanyahu origination)**.
-- Scoreboards used: June 6 America statecraft note compression — [Captured Command, NDAA Mesh, CI Alarm, Client Veto](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (includes Hoh June 4 pass); parent [Daily Synthesis 2026-06-06](../../daily/2026-06-06.md); [Daily Synthesis 2026-06-04](../../daily/2026-06-04.md).
+- Scoreboards used: June 6 America statecraft note compression — [Captured Command, NDAA Mesh, CI Alarm, Client Veto](../../notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (includes Hoh June 4 pass); parent [Daily Synthesis 2026-06-06](../../synthesis/day/2026-06-06.md); [Daily Synthesis 2026-06-04](../../synthesis/day/2026-06-04.md).
 - Raw-input / provenance anchors:
   - [Macgregor / Nawfal 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md)
   - [McGovern / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
@@ -204,7 +204,7 @@ If next executive inherits mesh + base-enabled third-party strikes with no statu
 
 ### June 7 live corroboration (Nima urgent solo)
 
-See [America: Trump Humiliation, Vance Absence, Capture Extension](../../daily/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md).
+See [America: Trump Humiliation, Vance Absence, Capture Extension](../../notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md).
 
 Same-night stress test on the capture fork:
 
@@ -216,21 +216,21 @@ Transaction implication: firewall clauses must bind **beyond executive brag** �
 
 ### June 8 Barnes corroboration (Nawfal — non-intercept, CI, MOU)
 
-See [Barnes × America capture — non-intercept, Colby, MOU](../../daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md).
+See [Barnes × America capture — non-intercept, Colby, MOU](../../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md).
 
 Same-object stress test on **three ledger rows**:
 
 | Row | Barnes claim | Transaction clause |
 | --- | --- | --- |
 | **`AMER-INT-01`** | NBC: no U.S. intercept of Iranian missiles toward Israel; "controlled escalation" | Clause E inverse — **action** may show restraint while rhetoric brags; must pair with `AMER-FMS-01` or read as selective de-escalation under capture |
-| **`AMER-CI-01`** | Israel spying on Colby/Divine (NDS skeptics) during Section 224 push | Clauses B–D — CI-tier gate, vote floor, client origination; stacks [USS Liberty seam](../../daily/2026-06-08-america-uss-liberty-legitimacy-seam.md) DIA leak |
+| **`AMER-CI-01`** | Israel spying on Colby/Divine (NDS skeptics) during Section 224 push | Clauses B–D — CI-tier gate, vote floor, client origination; stacks [USS Liberty seam](../../notes/2026-06-08-america-uss-liberty-legitimacy-seam.md) DIA leak |
 | **`AMER-MOU-01`** | Qatar money / MOU upfront; Al Jazeera frozen-funds precondition | Clause B + off-ramp — emissary money requires **statutory/mediator carrier**; cross-lane Persia gate upfront-trust row |
 
 **Fork split (June 8):** non-intercept **restraint-leaning**; spying + mesh timing + deniability money **capture-leaning**. Successor check unchanged: statute/sunset must survive executive selective restraint.
 
 ### June 8 Sachs × Wilkerson × Barnes corroboration (pushback disclosure instrument)
 
-See [Sachs × Wilkerson × Barnes — spying pushback instrument](../../daily/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) · prior [Wilkerson × Hoh Section 224 receipt](../../daily/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md).
+See [Sachs × Wilkerson × Barnes — spying pushback instrument](../../notes/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) · prior [Wilkerson × Hoh Section 224 receipt](../../notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md).
 
 Tri-source read on the **same NYT/DIA spying disclosure week**:
 
@@ -251,7 +251,7 @@ Tri-source read on the **same NYT/DIA spying disclosure week**:
 
 ### Executive levers unused (Aguilar × Barnes statecraft-note pass)
 
-See [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md).
+See [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](../../notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md).
 
 Drafting bias addition:
 
@@ -261,7 +261,7 @@ Drafting bias addition:
 
 ### June 12 Aguilar MR corroboration (§224 inverse-lever × Iran-bridge quid)
 
-See [Marandi × J12-6 × Aguilar bridge](../../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Johnson×Wilkerson×Aguilar gate comparison](../../daily/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) · [2026-06-12 daily](../../daily/2026-06-12.md).
+See [Marandi × J12-6 × Aguilar bridge](../../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Johnson×Wilkerson×Aguilar gate comparison](../../notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) · [2026-06-12 daily](../../synthesis/day/2026-06-12.md).
 
 **Bounded question:** Does **Section 224 passage during the Iran MOU bridge** function as an **inverse enforcement lever** — licensing future client ops while Washington claims a 60-day pause?
 
@@ -309,10 +309,10 @@ See [Marandi × J12-6 × Aguilar bridge](../../daily/2026-06-12-marandi-clauses-
 - [America war](../civilization/war.md)
 - [America peace](../civilization/peace.md)
 - [Empire seed instruments](../empire/seed-instruments.md)
-- [Daily statecraft note](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (Macgregor–McGovern–Freeman + Hoh Section 224)
-- [Daily synthesis 2026-06-04](../../daily/2026-06-04.md)
-- [Barnes × Aguilar enforceability statecraft note](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
-- [Barnes × America capture — non-intercept, Colby, MOU (2026-06-08)](../../daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
-- [Sachs × Wilkerson × Barnes — spying pushback instrument (2026-06-08)](../../daily/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md)
-- [Marandi × J12-6 × Aguilar bridge (§224 inverse-lever cross-lane)](../../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
+- [Daily statecraft note](../../notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (Macgregor–McGovern–Freeman + Hoh Section 224)
+- [Daily synthesis 2026-06-04](../../synthesis/day/2026-06-04.md)
+- [Barnes × Aguilar enforceability statecraft note](../../notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
+- [Barnes × America capture — non-intercept, Colby, MOU (2026-06-08)](../../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
+- [Sachs × Wilkerson × Barnes — spying pushback instrument (2026-06-08)](../../notes/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md)
+- [Marandi × J12-6 × Aguilar bridge (§224 inverse-lever cross-lane)](../../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
 - [Aguilar MR / no-deal + §224 (archive)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)

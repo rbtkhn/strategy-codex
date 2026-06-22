@@ -14,12 +14,12 @@ Lebanon third-party recognition gate with coupled transit-restraint sequencing.
 
 - Speaker-state / synthesis inputs: Parsi (third-party deterrence thesis), Nima (June 7 live escalation + axis duty-split), McGovern (June 6 recognition gate + resistance bundling), Marandi (June 6 Hormuz mechanics + Lebanon ranking; **June 8 deal floor + extended deterrence + Gulf-energy threat**).
 - Pape escalation-trap inputs: [Lebanon Fuse 2026-06-04](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md), [The New Phase 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md), [Day 100 2026-06-08](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md).
-- Cross-lane America inputs: Macgregor/McGovern/Freeman capture compression; [America capture extension](../../daily/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md); [command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md).
+- Cross-lane America inputs: Macgregor/McGovern/Freeman capture compression; [America capture extension](../../notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md); [command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md).
 - Statecraft note anchors:
-  - [Parsi × Nima × McGovern — third-party deterrence vs recognition gate](../../daily/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
-  - [Persia: Lebanon-first gate vs Hormuz mechanics — 2026-06-06](../../daily/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
-  - [Pape Day 100 × New Phase × Lebanon Fuse — 2026-06-08](../../daily/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
-  - [Marandi deal floor × gate clauses — 2026-06-08](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
+  - [Parsi × Nima × McGovern — third-party deterrence vs recognition gate](../../notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
+  - [Persia: Lebanon-first gate vs Hormuz mechanics — 2026-06-06](../../notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+  - [Pape Day 100 × New Phase × Lebanon Fuse — 2026-06-08](../../notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
+  - [Marandi deal floor × gate clauses — 2026-06-08](../../notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
 - Archive receipts:
   - [Parsi Substack 2026-06-07](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md)
   - [Nima solo 2026-06-07](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-alkorshid-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md)
@@ -173,13 +173,13 @@ Persia instrument does not merge America fiscal rows, but **relief activation** 
 - [Persia helix](../helix.md)
 - [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md)
 - [America command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
-- [Parsi × Nima × McGovern statecraft note](../../daily/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
-- [America capture extension](../../daily/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
-- [Pape Day 100 × New Phase × Lebanon Fuse](../../daily/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
-- [Crooke three-date ceasefire-for-all arc](../../daily/2026-06-crooke-three-date-ceasefire-for-all-arc.md)
-- [Pape Day 100 indicator watch sheet](../../daily/2026-06-08-pape-day-100-indicator-watch-sheet.md)
-- [Marandi deal floor × gate clauses](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
+- [Parsi × Nima × McGovern statecraft note](../../notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
+- [America capture extension](../../notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
+- [Pape Day 100 × New Phase × Lebanon Fuse](../../notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
+- [Crooke three-date ceasefire-for-all arc](../../synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md)
+- [Pape Day 100 indicator watch sheet](../../notes/2026-06-08-pape-day-100-indicator-watch-sheet.md)
+- [Marandi deal floor × gate clauses](../../notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
 
 ## Validity Status
 
-`volatile` — Day 100 ceasefire breakdown; boundary disappearance live; executive channel non-credible; dual-corridor braid stressed; axis duty-split evolving. **Jun 9 patch:** Clause A `A-WITH-01` / `A-PSEUDO-01` rows per [Marandi deal-floor note](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md).
+`volatile` — Day 100 ceasefire breakdown; boundary disappearance live; executive channel non-credible; dual-corridor braid stressed; axis duty-split evolving. **Jun 9 patch:** Clause A `A-WITH-01` / `A-PSEUDO-01` rows per [Marandi deal-floor note](../../notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md).

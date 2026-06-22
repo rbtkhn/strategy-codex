@@ -121,7 +121,7 @@ not a valid line
 
 def test_rollup_work_pass_24h_prefers_coffee_close(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee_pick (strategy-codex) ok=true picked=D
-- **2026-04-02 14:05 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/daily/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped attention=one object only
+- **2026-04-02 14:05 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/synthesis/day/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped attention=one object only
 """
     p = tmp_path / "cadence.md"
     p.write_text(md, encoding="utf-8")
@@ -130,7 +130,7 @@ def test_rollup_work_pass_24h_prefers_coffee_close(tmp_path: Path) -> None:
     assert r["source"] == "coffee_close"
     assert r["close_count"] == 1
     assert r["substantive_count"] == 1
-    assert r["last_object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert r["last_object_ref"] == "statecraft/synthesis/day/2026-06-17.md"
     assert r["last_attention"] == "one object only"
 
 
@@ -354,7 +354,7 @@ def test_civmem_disclaimer_nonempty() -> None:
 
 
 def test_rollup_object_closes_24h_echoes_last_anchor(tmp_path: Path) -> None:
-    md = """- **2026-04-02 14:00 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/daily/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped
+    md = """- **2026-04-02 14:00 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/synthesis/day/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped
 - **2026-04-02 15:00 UTC** — coffee_close (strategy-codex) ok=true picked=A outcome=done readiness=ship_ready
 """
     p = tmp_path / "cadence.md"
@@ -364,7 +364,7 @@ def test_rollup_object_closes_24h_echoes_last_anchor(tmp_path: Path) -> None:
     assert r["close_count"] == 2
     assert r["object_ref_count"] == 1
     assert r["falsify_count"] == 1
-    assert r["last_object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert r["last_object_ref"] == "statecraft/synthesis/day/2026-06-17.md"
     assert r["last_falsify"] == "pseudo-gate-J16"
-    assert "object=statecraft/daily/2026-06-17.md" in (r["echo"] or "")
+    assert "object=statecraft/synthesis/day/2026-06-17.md" in (r["echo"] or "")
 

@@ -8,7 +8,7 @@ Preserve **method-bearing citation splits** for six J18 guest captures that shar
 
 The aim is not to re-synthesize the whole MOU convergence map. The aim is to stop **flattening** Dialogue Works (Johnson ×2) and Judging Freedom (Blumenthal / Macgregor) into one blended “antiwar guest” voice when citing Lebanon, Vance, SPR, or MOU-enforcement seams.
 
-**Parent context:** intake-only day `2026-06-18` — nine sources landed; no `statecraft/daily/` synthesis yet. Chat weaves promoted here: Johnson ×2 internal split; Napolitano pair split.
+**Parent context:** intake-only day `2026-06-18` — nine sources landed; no `statecraft/synthesis/day/` synthesis yet. Chat weaves promoted here: Johnson ×2 internal split; Napolitano pair split.
 
 **Parent convergence note:** [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) — full J18 MOU-day register map and seam tables; use this child note for Johnson ×2 and Napolitano pair citation routing only.
 

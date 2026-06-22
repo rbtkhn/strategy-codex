@@ -33,16 +33,16 @@ verify_receipt: 2026-06-19
 verify:
   - claim: WaPo — US intelligence warned Trump admin Netanyahu likely to undermine US–Iran MOU (Lebanon focus)
     verdict: supported
-    note: Ynet/Mediaite/News18 WaPo carry · cross-ref [J19-1 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+    note: Ynet/Mediaite/News18 WaPo carry · cross-ref [J19-1 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)
   - claim: Bürgenstock / US–Iran talks planned Fri 19 Jun postponed; Vance travel off
     verdict: supported
     note: BBC Jun 19 · AP · cross-ref J19-2 · same news cycle as sabotage intel lane
   - claim: State Dept discussed holding Iran negotiations in Washington DC next week
     verdict: unclear
-    note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/daily/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
+    note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/notes/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
   - claim: Miriam Adelson Israel Hayom open letter to Trump — "you failed" / MOU betrayal read
     verdict: supported
-    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
+    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
 ---
 
 # BREAKING: U.S. INTEL WARNS OF ISRAELI SABOTAGE – w/ Geopolitics Expert Brandon Weichert

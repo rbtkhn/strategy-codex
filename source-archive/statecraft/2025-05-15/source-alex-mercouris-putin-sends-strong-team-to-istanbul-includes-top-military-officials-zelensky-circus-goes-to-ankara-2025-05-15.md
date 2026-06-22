@@ -6,15 +6,17 @@ source_form: solo
 thread: mercouris
 show: Alexander Mercouris
 host: Alexander Mercouris
-title: "Putin Sends Strong Team To Istanbul, Includes Top Military Officials; Zelensky Circus Goes To Ankara"
+title: Putin Sends Strong Team To Istanbul, Includes Top Military Officials; Zelensky Circus Goes To Ankara
 channel_url: "https://www.youtube.com/@AlexanderMercourisReal/videos"
 channel_slug: alex-mercouris
 source_url: "https://www.youtube.com/watch?v=iIgcIesV14E"
 source_type: youtube_transcript_fetch
 transcript_type: yt_dlp_caption_fetch
-source_note: "Fetched from YouTube captions via the repo transcript pipeline and materialized into the canonical statecraft archive."
-quality_note: "English caption fetch via repo YouTube transcript pipeline; adjacent duplicate caption lines removed, otherwise preserve transcript roughness."
+source_note: Fetched from YouTube captions via the repo transcript pipeline and materialized into the canonical statecraft archive.
+quality_note: English caption fetch via repo YouTube transcript pipeline; adjacent duplicate caption lines removed, otherwise preserve transcript roughness.
+transcript_wrapper_tier: clean
 ---
+
 # Putin Sends Strong Team To Istanbul, Includes Top Military Officials; Zelensky Circus Goes To Ankara
 
 Good day. Today is Thursday 15th May

@@ -10,7 +10,7 @@ Preserve one **bounded wire + CIV-STATE object** from the Ritter *Trail of Tears
 
 **Parent context:**
 
-- [2026-06-19 daily](../daily/2026-06-19.md) — tertiary Russia rear lane (when daily expanded to 12/12)
+- [2026-06-19 daily](../synthesis/day/2026-06-19.md) — tertiary Russia rear lane (when daily expanded to 12/12)
 - [Ritter capture](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) — archive `verify:` + operator adjudication
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — `substack-ritter-a-trail-of-tears-2026-06-19`
 - [codex days fold](../../codex/chapters/2026/2026-06/days.md#2026-06-21) — LIB-0153 Judgment receipt
@@ -24,7 +24,7 @@ Preserve one **bounded wire + CIV-STATE object** from the Ritter *Trail of Tears
 - [public/civ-state/volumes/russia/sacred-grammar.md](../../public/civ-state/volumes/russia/sacred-grammar.md) — suffering / witness legitimation without automatic territorial warrant
 - [public/civ-state/theory/memory.md](../../public/civ-state/theory/memory.md) — humiliation memory and continuity claims under occupation stress
 
-**Wire pre-pass:** Capture-header rows on [Ritter archive](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) (`verify_receipt: 2026-06-21`); operator **`verify:tier-A`** on terror-attribution row; **not** merged into [2026-06-19 wire matrix](../daily/2026-06-19-wire-verify-matrix.md) (MOU-week hooks only).
+**Wire pre-pass:** Capture-header rows on [Ritter archive](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) (`verify_receipt: 2026-06-21`); operator **`verify:tier-A`** on terror-attribution row; **not** merged into [2026-06-19 wire matrix](../notes/wire/2026-06-19-wire-verify-matrix.md) (MOU-week hooks only).
 
 ## Core claim
 
@@ -104,7 +104,7 @@ The object sits on the **Russia volume** as **occupied-rear legitimacy stress**,
 
 ## Next use
 
-- Return: [2026-06-19 daily](../daily/2026-06-19.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [capture](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md)
+- Return: [2026-06-19 daily](../synthesis/day/2026-06-19.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [capture](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md)
 - Upgrade path: **`civ-state-essay`** on Russia rear witness / corridor depth **only** if thesis must travel without parent daily + wire table
 - **`civ-state` D. Review** if public Russia volume needs a **reader-facing** paragraph on occupied-rear memorial grammar
 

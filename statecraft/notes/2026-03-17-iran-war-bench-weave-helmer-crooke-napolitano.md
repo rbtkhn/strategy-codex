@@ -156,7 +156,7 @@ Same-day **week ~3 hinge** — coalition failure, **Larijani** kill, **Hormuz ga
 
 ## Links
 
-- [Mar 17 daily synthesis](../daily/2026-03-17.md) · [Wire verify matrix](../daily/2026-03-17-wire-verify-matrix.md) — **J17-*** hooks
+- [Mar 17 daily synthesis](../synthesis/day/2026-03-17.md) · [Wire verify matrix](../notes/wire/2026-03-17-wire-verify-matrix.md) — **J17-*** hooks
 - [Mar 17 day-index](../../source-archive/statecraft/2026-03-17/day-index.md)
 - [Helmer Mar 17→Mar 24 two-week-clock arc](./arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice)
 - [Dmitriev arc](../notes/arc-helmer-dmitriev-lane.md)

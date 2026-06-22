@@ -94,7 +94,7 @@ Same-day Dialogue Works pair — two registers on **US–Israel–Iran war ~day 
 - [Mar 3 Helmer × Marandi — opening week](./2026-03-03-iran-war-weave-helmer-marandi.md) — **Anchorage dead** · underground **unused** → Mar 24 **five terms named**
 - [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](./arc-helmer-iran-five-terms.md#russiachina-two-track-mar-324-slice) — cross-week compression
 - [Mar 3 Helmer capture — nuclear option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — Lavrov **proliferation** → Mar 24 **Bushehr** warning
-- [Mar 16 Pape × Crooke mosaic trap](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — **survive=win** lattice mid-month
+- [Mar 16 Pape × Crooke mosaic trap](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — **survive=win** lattice mid-month
 - [Dmitriev arc Jan 20 → Mar 24](./arc-helmer-dmitriev-lane.md) — **Witkoff indirect** / GCC mediation / market layer (Mar 24 §)
 
 ## Falsifiers

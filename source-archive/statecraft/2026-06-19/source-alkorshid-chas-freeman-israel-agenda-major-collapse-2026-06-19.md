@@ -34,16 +34,16 @@ verify_receipt: 2026-06-19
 verify:
   - claim: Bürgenstock / US–Iran technical talks planned Fri 19 Jun postponed; Vance travel off
     verdict: supported
-    note: BBC Jun 19 · AP · ToI · cross-ref [J19-2 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+    note: BBC Jun 19 · AP · ToI · cross-ref [J19-2 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)
   - claim: State Dept discussed holding Iran negotiations in Washington DC next week
     verdict: unclear
-    note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/daily/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
+    note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/notes/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
   - claim: J17-5 Fri 19 Jun ceremony window — talks did not convene
     verdict: supported
     note: Postponement resolves Jun 19 branch · cross-ref J19-15
   - claim: Israel Hayom (Adelson) open letter to Trump — "you failed" / MOU surrender / "betrayed us"
     verdict: supported
-    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
+    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
 ---
 
 # Amb. Chas Freeman: Israel's Agenda Suffers MAJOR Collapse

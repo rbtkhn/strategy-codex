@@ -31,7 +31,7 @@ span_end: 2026-03-24
 
 - **Jan 20** — **Routine** RDIF visitor; meets Kushner/Witkoff; Ukraine strikes **not theater for Trump**; sanctions **travel puzzle**
 - **Feb 17** — **Separate working party** with Witkoff (reconstruction); plenary **performance/theater**; hidden **US–Ukraine guarantee** poisons process
-- **Mar 3** — **Abu Dhabi dead**; **MBS–Putin** panic calls [**J03-E1**](../daily/2026-03-03-wire-verify-matrix.md); interceptors **Middle East not Kiev**
+- **Mar 3** — **Abu Dhabi dead**; **MBS–Putin** panic calls [**J03-E1**](../notes/wire/2026-03-03-wire-verify-matrix.md); interceptors **Middle East not Kiev**
 - **Mar 24** — **Fictitious negotiations** / media mirage; **GCC mediation** (Iran ↔ GCC, not US–Iran); **FT/SEC** market timing layer
 
 ## Arc spine (Mercouris column)

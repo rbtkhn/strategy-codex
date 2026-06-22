@@ -56,7 +56,7 @@ Primary lane for legitimacy, red lines, selective Hormuz, and Gulf complicity.
 Strategic-order and escalation-horizon lane.
 
 - [2026-03-03 - Diesen x Marandi](../../../source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md)
-- [2026-03-18 - Diesen x Marandi](../../../source-archive/statecraft/2026-03-18/source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md)
+- [2026-03-18 - Diesen x Marandi](../../../source-archive/statecraft/2026-03-18/source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md) — South Pars / gas-field strike; economic war; Hormuz choke; UAE/Qatar/Saudi retaliation ladder; Yemen/Red Sea; depression permanence; Kent resignation cite · **cross-weave:** [Diesen × Marandi × Jermy](../../notes/2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md)
 - [2026-03-22 - Diesen x Marandi](../../../source-archive/statecraft/2026-03-22/source-glenn-diesen-seyed-m-marandi-total-war-attacking-nuclear-plants-desalination-infrastr-2026-03-22.md)
 - [2026-03-29 - Diesen x Marandi](../../../source-archive/statecraft/2026-03-29/source-diesen-marandi-yemen-joins-the-war-red-sea-could-be-blocked-next-2026-03-29.md)
 - [2026-04-12 - Diesen x Marandi](../../../source-archive/statecraft/2026-04-12/source-glenn-diesen-seyed-m-marandi-negotiations-collapsed-return-to-war-2026-04-12.md)

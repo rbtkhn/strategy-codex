@@ -31,7 +31,7 @@ operator source → governed archive (verbatim SSOT)
 | Agent score | v0 rule-based hints in sidecar `reasoning` (no LLM in v0) |
 | Write-back | Sidecar `synthesis_status` (derived; rebuildable) |
 | Top-five digest | `statecraft_intake_queue.py --write-digest` |
-| Promote winner | Wire into [statecraft/daily/](../statecraft/daily/METHOD.md) (operator-led) |
+| Promote winner | Wire into [statecraft/synthesis/day/](../statecraft/synthesis/METHOD.md) (operator-led) |
 
 **Key rule:** promotion is a **queue problem**, not a summarization problem. Treat each new source as an **intake object** to classify, route, and possibly promote — not as text to summarize in chat.
 
@@ -44,7 +44,7 @@ Before adding queue tooling, the repo already lands structured intake:
 - **Verbatim archive** at `source-archive/statecraft/<pub_date>/<slug>.md` with YAML frontmatter (`pub_date`, `kind`, `thread`, `host_people`, `guest_people`, `source_url`, `source_note`, …). Example: [2026-06-14 Diesen×Marandi capture](../source-archive/statecraft/2026-06-14/source-glenn-diesen-seyed-m-marandi-israels-attack-on-beirut-sabotage-us-iran-deal-2026-06-14.md).
 - **Generated indices** via `refresh_statecraft_archive_indices.py`.
 - **Archive ↔ daily sync** via `check_statecraft_intake_daily_sync.py`.
-- **Daily synthesis** contract in [statecraft/daily/METHOD.md](../statecraft/daily/METHOD.md).
+- **Daily synthesis** contract in [statecraft/synthesis/METHOD.md](../statecraft/synthesis/METHOD.md).
 
 The intake queue **extends** this ladder; it does not replace archive truth or daily authority.
 
@@ -71,7 +71,7 @@ runtime/artifacts/statecraft-intake-queue/<pub_date>/<source-stem>.v1.json
 | ----- | ------- |
 | `new` | In archive; not linked from daily; no sidecar yet |
 | `queued` | Sidecar written; operator has not promoted to daily |
-| `daily` | Linked from `statecraft/daily/<pub_date>.md` (script-derived) |
+| `daily` | Linked from `statecraft/synthesis/day/<pub_date>.md` (script-derived) |
 | `discarded` | Operator-marked low signal (manual sidecar edit in v0) |
 
 ### v0 scoring
@@ -138,7 +138,7 @@ python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest --dig
 3. `statecraft_intake_queue.py --day <pub_date>`
 4. Daily synthesis when operator promotes
 
-Digest template: [statecraft/daily/intake-digest-TEMPLATE.md](../statecraft/daily/intake-digest-TEMPLATE.md)
+Digest template: [statecraft/notes/intake/intake-digest-TEMPLATE.md](../statecraft/notes/intake/intake-digest-TEMPLATE.md)
 
 ---
 

@@ -12,9 +12,9 @@ WORK only; not Record.
 | **Kent — restrain Israel (pre-G7)** | [Napolitano × Kent](../../source-archive/statecraft/2026-06-11/source-napolitano-kent-why-trump-is-stuck-2026-06-11.md) | [v-PwVY70s0U](https://www.youtube.com/watch?v=v-PwVY70s0U) | 2026-06-11 |
 | **Weichert — MOU collapse skepticism** | [Redacted × Weichert](../../source-archive/statecraft/2026-06-16/source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md) | [LnwU2nk2byE](https://www.youtube.com/watch?v=LnwU2nk2byE) | 2026-06-16 |
 
-**Wire receipts (Kent Redacted hooks):** `verify:wire-supported J16-RK1,J16-RK2,J16-RK3,J16-RK4,J16-RK5; verify:wire-partial J16-RK6` · matrix [2026-06-16-wire-verify-matrix.md](../daily/2026-06-16-wire-verify-matrix.md)
+**Wire receipts (Kent Redacted hooks):** `verify:wire-supported J16-RK1,J16-RK2,J16-RK3,J16-RK4,J16-RK5; verify:wire-partial J16-RK6` · matrix [2026-06-16-wire-verify-matrix.md](../notes/wire/2026-06-16-wire-verify-matrix.md)
 
-**Related clause diff (Weichert only):** [2026-06-16-mou-clause-diff-weichert-lanes.md](../daily/2026-06-16-mou-clause-diff-weichert-lanes.md)
+**Related clause diff (Weichert only):** [2026-06-16-mou-clause-diff-weichert-lanes.md](../notes/2026-06-16-mou-clause-diff-weichert-lanes.md)
 
 ---
 
@@ -75,5 +75,5 @@ WORK only; not Record.
 
 - Persia lane: Lebanon-as-MOU-condition (Aragchi)
 - America lane: aid-lever / enforceability
-- Daily: [2026-06-16-wire-verify-matrix](../daily/2026-06-16-wire-verify-matrix.md) · [MOU clause diff](../daily/2026-06-16-mou-clause-diff-weichert-lanes.md)
+- Daily: [2026-06-16-wire-verify-matrix](../notes/wire/2026-06-16-wire-verify-matrix.md) · [MOU clause diff](../notes/2026-06-16-mou-clause-diff-weichert-lanes.md)
 - Speaker: [kent-source-index](../../statecraft/voices/kent/kent-source-index.md)

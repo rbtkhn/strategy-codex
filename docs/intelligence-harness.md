@@ -98,7 +98,7 @@ Lane overlays: [statecraft/work-membrane.md](../statecraft/work-membrane.md) · 
 operator source
   → source-archive/statecraft/<pub_date>/<slug>.md   [verbatim SSOT]
   → generated day/month/year/thread indices
-  → statecraft/daily/<YYYY-MM-DD>.md                 [daily synthesis]
+  → statecraft/synthesis/day/<YYYY-MM-DD>.md                 [daily synthesis]
   → statecraft/<lane>/transactions/<object>.md       [transaction object — default ceiling]
 ```
 
@@ -113,7 +113,7 @@ intake → sync check → intake queue report → synthesis/companion → commit
 | Land + indices | `refresh_statecraft_archive_indices.py` |
 | Archive ↔ daily sync | `check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` |
 | Intake queue report | `statecraft_intake_queue.py --day YYYY-MM-DD` ([spec](statecraft-intake-queue.md)) |
-| Daily synthesis | `statecraft/daily/YYYY-MM-DD.md` |
+| Daily synthesis | `statecraft/synthesis/day/YYYY-MM-DD.md` |
 | Ship receipt | `operator_handoff_check.py` → `## Ship receipt` |
 
 **Record frozen (default):** Grace-Mar gate promotion applies only on explicit **`fork revive`**. Active work stays in the work membrane — not ambient RECURSION-GATE growth. See [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md).
@@ -147,7 +147,7 @@ Pointers only — these are existing artifacts, not new content.
 
 | Artifact type | Example | Role |
 |---------------|---------|------|
-| Daily synthesis | [statecraft/daily/2026-06-12.md](../statecraft/daily/2026-06-12.md) | Operating context for a landed archive day |
+| Daily synthesis | [statecraft/synthesis/day/2026-06-12.md](../statecraft/synthesis/day/2026-06-12.md) | Operating context for a landed archive day |
 | Transaction object | [Hormuz transit / sanctions relief compact](../statecraft/transactions/hormuz-transit-sanctions-relief-compact/README.md) | Accountable four-lane crisis object with comparison surface |
 | Ship receipt | [start-here — Operator ship loop](start-here.md#operator-ship-loop) · [Ship receipt convention](skill-work/work-menu-conventions.md#6a-ship-receipt) | Audit trail after bounded closeout |
 

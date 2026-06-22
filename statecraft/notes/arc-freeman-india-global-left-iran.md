@@ -21,7 +21,7 @@ nodes:
 
 **Span:** ~107 days (**pre-kinetic → ceasefire fiction → regional rearrangement**)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
-**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-india-global-left-iran.md) · [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) · [Helmer Feb 3→Mar 24 power→terms arc](./arc-helmer-iran-five-terms.md) · [Mar 3 Iran war opening](../daily/2026-03-03.md)
+**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./arc-ritter-india-global-left-iran.md) · [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) · [Helmer Feb 3→Mar 24 power→terms arc](./arc-helmer-iran-five-terms.md) · [Mar 3 Iran war opening](../synthesis/day/2026-03-03.md)
 
 **Freeman sources (India Global Left — cleaned-transcript tier):**
 

@@ -42,6 +42,8 @@ For the canonical source/synthesis stack, open [Statecraft Archive and Statecraf
 | **voices** | `statecraft/voices/` | Statecraft Synthesis; `*-profile.md`; was `civ-lens` |
 | **states** | `statecraft/states/` | CIV-STATE concept; `civ-state-america/` volumes; was `civ-state` path |
 | **hosts** | `statecraft/hosts/` | host-conditioned guests (not in `voices/`) |
+| **synthesis** | `statecraft/synthesis/` | day/month cadence; legacy `daily/` redirect stub |
+| **notes** | `statecraft/notes/` | bounded interpretive + operational subfolders (`wire/`, `watch/`, `reentry/`, `intake/`) |
 
 ## Namespace Note (2026-06)
 
@@ -161,10 +163,11 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
 - Need the shortest continuity route back into the recent phase-shift explanation stack? Open [governed interpretation re-entry route](/C:/dev/strategy-codex/docs/governed-interpretation-reentry-route-2026-06-01.md).
 - Need the exact protocol for boundary objects whose acceleration pressure may now be forming a legitimacy, command, or settlement problem? Open [singularity-statecraft handoff law](/C:/dev/strategy-codex/docs/singularity-statecraft-handoff-law.md).
-- Need a bounded synthesis of one archive-heavy day? Open [statecraft/daily/](daily/README.md).
-- Re-entering after absence mid-month? Open the active **week hinge** (`YYYY-MM-weekN-start-here.md`) before the month note or day scatter — [METHOD § Week Hinge](daily/METHOD.md#week-hinge-contract).
-- Need the active daily/monthly synthesis contract, audit rubric, or proof fixtures? Open [statecraft/daily/METHOD.md](daily/METHOD.md).
-- Need the month-level evolution rule for the `statecraft/daily` shelf? Open [statecraft/daily/MONTHLY-METHOD-COMPANION.md](daily/MONTHLY-METHOD-COMPANION.md).
+- Need a bounded synthesis of one archive-heavy day? Open [statecraft/synthesis/day/](synthesis/day/).
+- Re-entering after absence mid-month? Open the active **week hinge** under [`notes/reentry/`](notes/reentry/) — [METHOD § Week Hinge](synthesis/METHOD.md#week-hinge-contract).
+- Need the active daily/monthly synthesis contract, audit rubric, or proof fixtures? Open [statecraft/synthesis/METHOD.md](synthesis/METHOD.md).
+- Need the month-level evolution rule for the synthesis shelf? Open [statecraft/synthesis/MONTHLY-METHOD-COMPANION.md](synthesis/MONTHLY-METHOD-COMPANION.md).
+- Legacy redirect stub: [daily/](daily/README.md).
 - Need to route the open archive-truth seam itself rather than a live geopolitical object? Open [archive-truth-floor-repair-routing-2026-06-01.md](notes/archive-truth-floor-repair-routing-2026-06-01.md).
 
 ## Era Schema

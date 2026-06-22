@@ -83,14 +83,14 @@ def test_coffee_resolution_carries_extended_close_fields(tmp_path: Path) -> None
         picked="D",
         outcome="partial",
         readiness="execution_ready",
-        object_ref="statecraft/daily/2026-06-17.md",
+        object_ref="statecraft/synthesis/day/2026-06-17.md",
         falsify="pseudo-gate-J16",
         verdict="shaped",
         attention="one object only",
         ledger_path=ledger,
     )
     resolution = load_learning_events("strategy-codex", ledger_path=ledger)[-1]
-    assert resolution["object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert resolution["object_ref"] == "statecraft/synthesis/day/2026-06-17.md"
     assert resolution["falsify"] == "pseudo-gate-J16"
     assert resolution["verdict"] == "shaped"
     assert resolution["attention"] == "one object only"

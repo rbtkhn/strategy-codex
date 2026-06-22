@@ -31,7 +31,7 @@ verify_receipt: 2026-06-19
 verify:
   - claim: Israel–Hezbollah ceasefire agreed; effective 16:00 Lebanon local Fri 19 Jun
     verdict: supported
-    note: AP Jun 19 · Reuters/US official via Ynet · cross-ref [J19-4 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+    note: AP Jun 19 · Reuters/US official via Ynet · cross-ref [J19-4 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)
   - claim: US lifted naval blockade on Iranian ports (18 Jun CENTCOM)
     verdict: supported
     note: Al Jazeera CENTCOM Jun 18 · Military Times · cross-ref J19-6

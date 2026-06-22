@@ -36,7 +36,7 @@ flowchart LR
   end
   subgraph work [Work membrane]
     VI[statecraft/voices]
-    DY[statecraft/daily]
+    SY[statecraft/synthesis]
     NT[notes / lane objects]
   end
   subgraph prose [Prose shelf]

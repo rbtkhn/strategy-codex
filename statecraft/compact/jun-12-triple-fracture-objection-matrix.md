@@ -8,7 +8,7 @@ WORK only; not Record.
 
 **Governing pair (week close):** `aid-cut required` (DW Aguilar) · `§224 inverse advancing` (MR Aguilar) — [`AMER-224-RCPT-04`](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) **stressed**.
 
-**Parent batch:** [2026-06-12 daily](../daily/2026-06-12.md) · [wire-verify J12-1–J12-9](../daily/2026-06-12-wire-verify-matrix.md) · [week-2 hinge](../daily/2026-06-week2-start-here.md)
+**Parent batch:** [2026-06-12 daily](../synthesis/day/2026-06-12.md) · [wire-verify J12-1–J12-9](../notes/wire/2026-06-12-wire-verify-matrix.md) · [week-2 hinge](../notes/reentry/2026-06-week2-start-here.md)
 
 ---
 
@@ -70,7 +70,7 @@ Detail tables remain in linked notes; open those for speaker-by-speaker depth.
 
 **Compression:** Signatories may perform agreement without sharing one enforceable document. Clause B **split by audience**, not only by timing.
 
-**Depth:** [gate comparison — dual Aguilar](../daily/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) · [Marandi bridge — Clause B](../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md#clause-b--upfront-trust-goods--aguilar-assets-row--inverse-lever)
+**Depth:** [gate comparison — dual Aguilar](../notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) · [Marandi bridge — Clause B](../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md#clause-b--upfront-trust-goods--aguilar-assets-row--inverse-lever)
 
 ---
 
@@ -83,7 +83,7 @@ Detail tables remain in linked notes; open those for speaker-by-speaker depth.
 
 **Compression:** Marandi + DW Aguilar demand **binary gate** (total withdrawal). MR Aguilar introduces **yellow on text, red on coalition** — pseudo-gate confirmed while bridge earns revenue + rearm.
 
-**Depth:** [Marandi bridge — A′](../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md#mr-graduated-response-trap-clause-a) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+**Depth:** [Marandi bridge — A′](../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md#mr-graduated-response-trap-clause-a) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
 ---
 
@@ -102,7 +102,7 @@ Detail tables remain in linked notes; open those for speaker-by-speaker depth.
 | §224 **stalls** 30d during bridge | Clause B may **upgrade** if aid-cut appears | `RCPT-04` **pass** |
 | §224 **enacts** Oct FY27 unchanged | Lebanon gate Clause B **fail**; MOU may live on A′ south slide only | `RCPT-04` **fired** |
 
-**Depth:** [foreign-client-mesh — June 12 corroboration](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) · [wire §224 adjudication](../daily/2026-06-12-wire-verify-matrix.md#224--fy27-topline-mr-aguilar--inv-02-03)
+**Depth:** [foreign-client-mesh — June 12 corroboration](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) · [wire §224 adjudication](../notes/wire/2026-06-12-wire-verify-matrix.md#224--fy27-topline-mr-aguilar--inv-02-03)
 
 ---
 
@@ -127,7 +127,7 @@ Detail tables remain in linked notes; open those for speaker-by-speaker depth.
 | Aid cut / FMS hold published | DW lever **live**; Clause B upgrade | Inverse pair holds | **No wire** |
 | UAE official confirms tranche | J12-4 upgrade | MFA denial holds | **FAIL delivered** |
 
-Full scorecard: [72h watch run](../daily/2026-06-12-72h-watch-run.md)
+Full scorecard: [72h watch run](../notes/watch/2026-06-12-72h-watch-run.md)
 
 ---
 
@@ -143,12 +143,12 @@ Downstream notes should **link here** instead of restating this line.
 
 | Need | Open |
 |------|------|
-| Speaker function split | [Johnson×Wilkerson×Aguilar gate comparison](../daily/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) |
-| Marandi Clause A/B/D + RCPT-04 rows | [Marandi×J12-6×Aguilar bridge](../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) |
-| Wire grades J12-1–J12-9 | [wire-verify matrix](../daily/2026-06-12-wire-verify-matrix.md) |
+| Speaker function split | [Johnson×Wilkerson×Aguilar gate comparison](../notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) |
+| Marandi Clause A/B/D + RCPT-04 rows | [Marandi×J12-6×Aguilar bridge](../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) |
+| Wire grades J12-1–J12-9 | [wire-verify matrix](../notes/wire/2026-06-12-wire-verify-matrix.md) |
 | America transaction clauses | [foreign-client-mesh](../america/transactions/foreign-client-mesh-separation-and-command-review.md) |
 | Persia gate instrument | [Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) |
-| Week hinge / falsifier table | [2026-06-week2-start-here](../daily/2026-06-week2-start-here.md) |
-| Daily executive read | [2026-06-12](../daily/2026-06-12.md) |
+| Week hinge / falsifier table | [2026-06-week2-start-here](../notes/reentry/2026-06-week2-start-here.md) |
+| Daily executive read | [2026-06-12](../synthesis/day/2026-06-12.md) |
 
 **Sources:** [MR Aguilar](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md) · [DW Aguilar](../../source-archive/statecraft/2026-06-12/source-alkorshid-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md) · [Johnson×Wilkerson](../../source-archive/statecraft/2026-06-12/source-alkorshid-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md)

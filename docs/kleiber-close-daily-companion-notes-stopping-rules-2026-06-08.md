@@ -47,7 +47,7 @@ and every other class is listed as an explicit next tranche
 ## Falsifier
 
 ```text
-If any migrated daily under statecraft/daily/ regains ## Statecraft Notes
+If any migrated daily under statecraft/synthesis/day/ regains ## Statecraft Notes
 or the validator again reports unexpected daily trailing sections for that label,
 this close did not hold.
 ```

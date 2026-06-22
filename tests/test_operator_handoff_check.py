@@ -81,7 +81,7 @@ def test_gate_detail_lines_frozen_record(handoff_mod, monkeypatch: pytest.Monkey
 def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
     lines = handoff_mod.build_ship_receipt(
         status_lines=[
-            " M statecraft/daily/2026-06-08.md",
+            " M statecraft/synthesis/day/2026-06-08.md",
             " M public/ph-civ/README.md",
             "?? singularity/workshop/README.md",
         ],

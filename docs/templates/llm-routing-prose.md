@@ -16,7 +16,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | **archive day-index** / day source inventory for **YYYY-MM-DD** | **`source-archive/statecraft/YYYY-MM-DD/day-index.md` only** — or `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD` — **do not** Glob/Grep month or thread-index for a dated day query |
 | transcript / capture / source file | [source-archive/statecraft/](source-archive/statecraft/) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
-| daily statecraft synthesis | [statecraft/daily/](statecraft/daily/) — **after** archive + source-index |
+| daily statecraft synthesis | [statecraft/synthesis/day/](statecraft/synthesis/day/) — **after** archive + source-index |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/hosts/](statecraft/hosts/) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
 | singularity lane / acceleration work | [singularity/](singularity/) |
