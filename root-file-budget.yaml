@@ -57,6 +57,8 @@ files:
     category: routing
   - path: root-file-budget.yaml
     category: routing
+  - path: path-fallback-retirement.yaml
+    category: routing
 
   - path: LLM-ROUTING.md
     category: generated

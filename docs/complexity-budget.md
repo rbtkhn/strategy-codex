@@ -27,7 +27,7 @@ Do not introduce new authority labels without updating this table and the audit 
 
 | Metric | Baseline (2026-06-21) | Target | Fail CI (phase) |
 |--------|----------------------:|-------:|-----------------|
-| Root files | 33 | ≤ 20 | Phase 9 (`assert_root_file_budget.py --strict`) |
+| Root files | 33 | ≤ 20 (doctrine floor ~25 — see [root-file-budget-slice-plan](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md)) | Phase 9 (`assert_root_file_budget.py --strict`) |
 | Root directories (contract) | 20 | ≤ 20 | Enforced (`assert_root_folder_layout`) |
 | Primary routing front doors | 8 listed | ≤ 3 | Phase 9 |
 | Always-read agent doc lines (`AGENTS.md`) | ~286 | ≤ 150 | Phase 5 |
@@ -128,6 +128,10 @@ Wave 3 archive placeholder fallback tails removed: **3** keys (`evidence`, `refl
 Wave 4 Grace-Mar compatibility fallback tails removed: **3** keys (`bot`, `recursion-gate-staging`, `bootstrap` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Readiness audit: [`wave-4-grace-mar-compat-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-grace-mar-compat-readiness-2026-06-21.md). Removal receipt: [`wave-4-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-path-fallback-removal-2026-06-21.md). `BOT_DIR` now resolves via `GRACE_MAR_INSTANCE_DIR / "bot"` (canonical only).
 
 Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
+
+### Root file budget (Phase 9 — in progress)
+
+Active root file count **34** on disk (**33** tracked); target **≤ 20** with documented doctrine floor ~**25** skill/build/routing minimum. Phased plan: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). `assert_root_file_budget.py --strict` remains advisory until relocation phases complete.
 
 ## CI rollout policy
 
