@@ -33,12 +33,12 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 | Lens | Governing question | This node — owns | Defers to | Term anchor |
 |------|-------------------|----------------|-----------|-------------|
-| **Memory** | Where on the spine? | {placement} | {…} | [link](../rome-memory.md#{segment}) |
-| **Civilization** | What inheritance is at stake? | {ethic / partial-inheritance} | {…} | [link](../rome-civilization.md#{segment}) |
-| **Empire** | What outward instrument? | {chronicle / institutional} | {…} | [link](../rome-empire.md#{segment}) |
-| **Faith** | What sacred truth-order? | {…} | {…} | [link](../rome-faith.md#{segment}) |
+| **Memory** | Where on the spine? | {placement} | {…} | [link](../theory/rome-memory.md#{segment}) |
+| **Civilization** | What inheritance is at stake? | {ethic / partial-inheritance} | {…} | [link](../theory/rome-civilization.md#{segment}) |
+| **Empire** | What outward instrument? | {chronicle / institutional} | {…} | [link](../theory/rome-empire.md#{segment}) |
+| **Faith** | What sacred truth-order? | {…} | {…} | [link](../theory/rome-faith.md#{segment}) |
 | **Science** | What procedural truth-order? | {…} | {…} | [link](../theory/rome-science.md#{segment}) |
-| **Entropy** | Which shock broke carry? | {rupture-primary · comparative · —} | {…} | [link](../rome-entropy.md#{segment}) |
+| **Entropy** | Which shock broke carry? | {rupture-primary · comparative · —} | {…} | [link](../theory/rome-entropy.md#{segment}) |
 
 ## Cross-ref law (this node)
 
@@ -54,5 +54,5 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 - [Connectivity Rome](connectivity-rome.md) · [Essays index](README.md)
 - [hex-frame registry](README.md#hex-frame-hexagonal-demonstrators)
-- Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
+- Five spines: [chain](../theory/rome-memory.md#chain-spine) · [language](../theory/rome-memory.md#language-spine) · [military](../theory/rome-memory.md#military-spine) · [faith](../theory/rome-memory.md#faith-spine) · [science](../theory/rome-memory.md#science-spine)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)

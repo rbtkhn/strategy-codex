@@ -1,21 +1,23 @@
 # Rome — Theory
 
-Volume-local theory — term lenses, history sub-lenses, geo/strategy lenses, and **hex-frame** demonstrators.
+Volume-local **theory shelf** for Civilizational Statecraft, Volume III — Rome.
 
 **Whole-work theory shelf:** [../../theory/README.md](../../theory/README.md)
 
 **Active door:** [Rome volume](../README.md) · [Connectivity Rome](../essays/connectivity-rome.md)
 
-## Six-term pilot
+## Six-term lenses
 
-| Term | Page | At volume root |
-|------|------|----------------|
-| civilization | [../rome-civilization.md](../rome-civilization.md) | yes |
-| empire | [../rome-empire.md](../rome-empire.md) | yes |
-| entropy | [../rome-entropy.md](../rome-entropy.md) | yes |
-| faith | [../rome-faith.md](../rome-faith.md) | yes |
-| science | [rome-science.md](rome-science.md) | redirect stub: [../rome-science.md](../rome-science.md) |
-| memory | [../rome-memory.md](../rome-memory.md) | yes |
+All `rome-{term}.md` files live here. Volume-root paths are **redirect stubs** for legacy links.
+
+| Term | Page |
+|------|------|
+| civilization | [rome-civilization.md](rome-civilization.md) |
+| empire | [rome-empire.md](rome-empire.md) |
+| entropy | [rome-entropy.md](rome-entropy.md) |
+| faith | [rome-faith.md](rome-faith.md) |
+| science | [rome-science.md](rome-science.md) |
+| memory | [rome-memory.md](rome-memory.md) |
 
 Orchestration door: [rome-theory.md](rome-theory.md) · redirect stub: [../rome-theory.md](../rome-theory.md)
 

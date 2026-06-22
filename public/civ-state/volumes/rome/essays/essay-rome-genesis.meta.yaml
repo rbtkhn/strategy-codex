@@ -51,8 +51,8 @@ routing:
     - essay-rome-republic.md
   hex_frame: null
   term_depth:
-    - ../rome-memory.md#chain-spine
-    - ../rome-civilization.md#dual-language-heritage-civilization-lens
+    - ../theory/rome-memory.md#chain-spine
+    - ../theory/rome-civilization.md#dual-language-heritage-civilization-lens
   constitutional:
     - civilization-rome.md
   sources:
@@ -65,7 +65,7 @@ routing:
   return_path:
     - connectivity-rome.md
     - civilization-rome.md
-    - ../rome-memory.md
+    - ../theory/rome-memory.md
     - essay-rome-republic.md
     - README.md
     - ../README.md

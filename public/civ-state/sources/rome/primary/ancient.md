@@ -86,7 +86,7 @@ Christian and late-imperial hinge *(faith-spine + legacy)*:
 - Basil of Caesarea, selected works *(faith-spine — patristic Greek)*
 - Philo of Alexandria, selected works *(faith-spine — operator-synthesis-chain opener)*
 - Josephus, *Antiquities* · *Jewish War* *(faith-spine — Jewish-in-Empire)*
-- Septuagint — cross-ref [language spine](../../../volumes/rome/rome-memory.md#language-spine) *(faith-spine — revelation-translation hinge)*
+- Septuagint — cross-ref [language spine](../../../volumes/rome/theory/rome-memory.md#language-spine) *(faith-spine — revelation-translation hinge)*
 - The New Testament
 - Lactantius, *On the Deaths of the Persecutors*
 - *Acts of Nicaea*

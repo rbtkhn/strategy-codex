@@ -8,13 +8,13 @@ Use this shelf to read Rome as a transformed-continuity civilization-state throu
 
 Read Rome as a migration shelf. Start with founding law, empire, and universality, then track how Roman continuity survives contraction, Christianization, Eastern continuity, **classical Latin/Greek dual heritage**, geographic Latin-Catholic dispersion, and post-`1991` residue rather than pretending that Rome is either simply dead or theatrically revived.
 
-**Language note:** **Classical Latin** and **Greek** inheritance (see [language spine](rome-memory.md#language-spine)) are not the same object as geographic **Latin-Catholic** or **Latin-American** residue labels.
+**Language note:** **Classical Latin** and **Greek** inheritance (see [language spine](theory/rome-memory.md#language-spine)) are not the same object as geographic **Latin-Catholic** or **Latin-American** residue labels.
 
-**Military note:** Campaign rosters and civic-military ethic live on [rome-empire](rome-empire.md#military-history-empire-lens) and [rome-civilization](rome-civilization.md#military-history-civilization-lens); placement index: [military spine](rome-memory.md#military-spine).
+**Military note:** Campaign rosters and civic-military ethic live on [rome-empire](theory/rome-empire.md#military-history-empire-lens) and [rome-civilization](theory/rome-civilization.md#military-history-civilization-lens); placement index: [military spine](theory/rome-memory.md#military-spine).
 
-**Faith note:** Institutional and sacred-ethic rosters live on [rome-empire](rome-empire.md#faith-history-empire-lens) and [rome-civilization](rome-civilization.md#faith-history-civilization-lens); placement index: [faith spine](rome-memory.md#faith-spine).
+**Faith note:** Institutional and sacred-ethic rosters live on [rome-empire](theory/rome-empire.md#faith-history-empire-lens) and [rome-civilization](theory/rome-civilization.md#faith-history-civilization-lens); placement index: [faith spine](theory/rome-memory.md#faith-spine).
 
-**Science note:** Institutional and procedural-ethic rosters live on [rome-empire](rome-empire.md#science-history-empire-lens) and [rome-civilization](rome-civilization.md#science-history-civilization-lens); placement index: [science spine](rome-memory.md#science-spine). Essay: [Science history Rome](theory/science-history-rome.md).
+**Science note:** Institutional and procedural-ethic rosters live on [rome-empire](theory/rome-empire.md#science-history-empire-lens) and [rome-civilization](theory/rome-civilization.md#science-history-civilization-lens); placement index: [science spine](theory/rome-memory.md#science-spine). Essay: [Science history Rome](theory/science-history-rome.md).
 
 ## What Each Era Is Doing
 

@@ -49,16 +49,16 @@ Some objects legitimately touch **all six terms** in full depth — law, treaty,
 
 | Term | Roman law — what this lens names |
 |------|----------------------------------|
-| [civilization](civilization.md) | **Civilizational grammar** — citizenship, civic order, inherited Roman form ([Rome — civilization](../volumes/rome/rome-civilization.md)) |
-| [empire](empire.md) | **Imperial jurisdiction** — universal claim, provincial administration, coercive reach ([Rome — empire](../volumes/rome/rome-empire.md)) |
-| [faith](faith.md) | **Sacred authorization** — natural law, Christian empire synthesis, canon overlap, moral limit ([Rome — faith](../volumes/rome/rome-faith.md)) |
+| [civilization](civilization.md) | **Civilizational grammar** — citizenship, civic order, inherited Roman form ([Rome — civilization](../volumes/rome/theory/rome-civilization.md)) |
+| [empire](empire.md) | **Imperial jurisdiction** — universal claim, provincial administration, coercive reach ([Rome — empire](../volumes/rome/theory/rome-empire.md)) |
+| [faith](faith.md) | **Sacred authorization** — natural law, Christian empire synthesis, canon overlap, moral limit ([Rome — faith](../volumes/rome/theory/rome-faith.md)) |
 | [science](science.md) | **Codification and procedure** — *Twelve Tables* → praetorian edicts → *Corpus Juris Civilis*; jurists, institutes, governable text ([Rome — science](../volumes/rome/theory/rome-science.md)) |
-| [memory](memory.md) | **Legal continuity** — succession of codes, East/West split, restitution of what must not be lost ([Rome — memory](../volumes/rome/rome-memory.md)) |
-| [entropy](entropy.md) | **Rupture** — western fall, reformation fracture, revolution; law as rhetoric without carry after shock ([Rome — entropy](../volumes/rome/rome-entropy.md)) |
+| [memory](memory.md) | **Legal continuity** — succession of codes, East/West split, restitution of what must not be lost ([Rome — memory](../volumes/rome/theory/rome-memory.md)) |
+| [entropy](entropy.md) | **Rupture** — western fall, reformation fracture, revolution; law as rhetoric without carry after shock ([Rome — entropy](../volumes/rome/theory/rome-entropy.md)) |
 
 Generic cross-cutting families: **law · treaty · constitution · corridor regime · succession compact**. See [Governing term first](../skills/governing-term-first.md) for the operational pick-one-then-widen pass.
 
-**Orchestration:** do not open a volume-local theory door before the governing term. Descend from the term page's **Volume depth (Rome)** section or from the row above. **Chain placement** → [Rome chain spine](../volumes/rome/rome-memory.md#chain-spine); **language placement** → [Rome language spine](../volumes/rome/rome-memory.md#language-spine); **military placement** → [Rome military spine](../volumes/rome/rome-memory.md#military-spine); **faith placement** → [Rome faith spine](../volumes/rome/rome-memory.md#faith-spine); **science placement** → [Rome science spine](../volumes/rome/rome-memory.md#science-spine).
+**Orchestration:** do not open a volume-local theory door before the governing term. Descend from the term page's **Volume depth (Rome)** section or from the row above. **Chain placement** → [Rome chain spine](../volumes/rome/theory/rome-memory.md#chain-spine); **language placement** → [Rome language spine](../volumes/rome/theory/rome-memory.md#language-spine); **military placement** → [Rome military spine](../volumes/rome/theory/rome-memory.md#military-spine); **faith placement** → [Rome faith spine](../volumes/rome/theory/rome-memory.md#faith-spine); **science placement** → [Rome science spine](../volumes/rome/theory/rome-memory.md#science-spine).
 
 ## SSOT
 

@@ -22,7 +22,7 @@ This chapter tracks recurring Roman game structure, but it does not reduce Rome 
 
 ## Return Path
 
-Return through [Rome](../README.md), [Rome geo-strategy](geo-strategy-rome.md), [Rome military spine](../rome-memory.md#military-spine), and [Rome sacred grammar](../rome-faith.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [Rome](../README.md), [Rome geo-strategy](geo-strategy-rome.md), [Rome military spine](rome-memory.md#military-spine), and [Rome sacred grammar](rome-faith.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 
@@ -103,7 +103,7 @@ When drafting from the Rome volume, the governing question is:
 
 ## Key evidence spine Anchors
 
-- [Rome sacred grammar](../rome-faith.md)
+- [Rome sacred grammar](rome-faith.md)
 - Rome source corpus
 - [Rome geo-strategy](geo-strategy-rome.md)
-- [Rome chain spine](../rome-memory.md#chain-spine)
+- [Rome chain spine](rome-memory.md#chain-spine)

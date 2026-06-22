@@ -63,8 +63,8 @@ routing:
     - essay-rome-augustus.md
   hex_frame: null
   term_depth:
-    - ../rome-empire.md
-    - ../rome-memory.md
+    - ../theory/rome-empire.md
+    - ../theory/rome-memory.md
   constitutional:
     - civilization-rome.md
     - empire-rome.md

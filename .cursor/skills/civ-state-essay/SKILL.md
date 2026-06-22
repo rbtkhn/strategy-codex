@@ -127,7 +127,7 @@ Poets count as **primary ancient** body sources — same `"…"` weave as histor
 | Republic § Punic Wars (compress) | `essay-rome-republic` | **No Virgil body** — depth defers to carthage geo-branch |
 | Actium fleet-flight (Dio/Suetonius) | `essay-rome-augustus` | Egypt essay uses different Dio/Plutarch pins — grain/eastern coalition |
 
-**Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../public/civ-state/volumes/rome/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../public/civ-state/volumes/rome/theory/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
+**Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../public/civ-state/volumes/rome/theory/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../public/civ-state/volumes/rome/theory/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
 
 **Embed rules:** one **short** epic quote at a memory or legitimation turn; **swap-don't-pad** at quote band; pair epic with chronicle or oratory (e.g. Dido curse → Cato fig); active intro in authorial voice — avoid meta-only wrappers (*moralized rhetoric*, *One modern analyst*). Optional Notes label: `*(Epic memory — not chronicle SSOT)*`. Reuse PD edition from [`rome-bibliography.md`](../../public/civ-state/volumes/rome/rome-bibliography.md); book-level routing may also live in essay `.meta.yaml` — skill does not duplicate full lattice.
 

@@ -2,11 +2,11 @@
 
 ## Where This Sits
 
-Interpretive essay for Volume III — Rome. SSOT for science placement lives on [rome-memory — science spine](../rome-memory.md#science-spine), [rome-empire — institutional roster](../rome-empire.md#science-history-empire-lens), and [rome-civilization — procedural ethic roster](../rome-civilization.md#science-history-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
+Interpretive essay for Volume III — Rome. SSOT for science placement lives on [rome-memory — science spine](rome-memory.md#science-spine), [rome-empire — institutional roster](rome-empire.md#science-history-empire-lens), and [rome-civilization — procedural ethic roster](rome-civilization.md#science-history-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
 
 ## Reading Posture
 
-Rome carries one procedural/evidentiary grammar through **truth-order mutation** — Greek mathematical inheritance, Roman engineering and codification, eastern transmission, scholastic synthesis, Renaissance observation, Enlightenment rationalism, colonial export — not through an unbroken laboratory under one flag forever. It is **one political chain** with a **parallel science dimension** tracking which evidentiary and procedural order authorizes Roman law, engineering, and natural philosophy at each rupture, alongside [chain spine](../rome-memory.md#chain-spine), [language spine](../rome-memory.md#language-spine), [military spine](../rome-memory.md#military-spine), and [faith spine](../rome-memory.md#faith-spine).
+Rome carries one procedural/evidentiary grammar through **truth-order mutation** — Greek mathematical inheritance, Roman engineering and codification, eastern transmission, scholastic synthesis, Renaissance observation, Enlightenment rationalism, colonial export — not through an unbroken laboratory under one flag forever. It is **one political chain** with a **parallel science dimension** tracking which evidentiary and procedural order authorizes Roman law, engineering, and natural philosophy at each rupture, alongside [chain spine](rome-memory.md#chain-spine), [language spine](rome-memory.md#language-spine), [military spine](rome-memory.md#military-spine), and [faith spine](rome-memory.md#faith-spine).
 
 ## Core Thesis
 
@@ -60,8 +60,8 @@ Medium → `#language-spine` first. Content/procedure → `#science-spine` first
 
 - **[Dual language heritage Rome](../essays/dual-language-heritage-rome.md)** — medium SSOT; cross-ref when script or reception governs.
 - **[Faith history Rome](faith-history-rome.md)** — sacred synthesis and trial/Index; cross-ref when canon theology governs.
-- **[Military spine](../rome-memory.md#military-spine)** — force doctrine; engineering cross-ref Frontinus B2.
-- **[Entropy (Rome)](../rome-entropy.md)** — shock primary on rupture nodes; science owns text survival cross-ref.
+- **[Military spine](rome-memory.md#military-spine)** — force doctrine; engineering cross-ref Frontinus B2.
+- **[Entropy (Rome)](rome-entropy.md)** — shock primary on rupture nodes; science owns text survival cross-ref.
 
 ## Framework vs History
 
@@ -81,11 +81,11 @@ Many rows are **civ-state placement law**, not neutral history-of-science consen
 
 ## Return Path
 
-- [Science spine (SSOT)](../rome-memory.md#science-spine)
-- [Institutional roster](../rome-empire.md#science-history-empire-lens)
-- [Procedural ethic roster](../rome-civilization.md#science-history-civilization-lens)
-- [Chain spine](../rome-memory.md#chain-spine)
-- [Roman law mirror — science term](theory/rome-science.md)
+- [Science spine (SSOT)](rome-memory.md#science-spine)
+- [Institutional roster](rome-empire.md#science-history-empire-lens)
+- [Procedural ethic roster](rome-civilization.md#science-history-civilization-lens)
+- [Chain spine](rome-memory.md#chain-spine)
+- [Roman law mirror — science term](rome-science.md)
 
 ## Limits of the Frame
 

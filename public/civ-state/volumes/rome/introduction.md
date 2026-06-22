@@ -6,17 +6,17 @@ This volume remains a source-memory case relative to lane-backed volumes: some l
 
 Civilization beautifies through law, citizenship, and imperial universality; empire amplifies through Mediterranean and continental reach; civilizational entropy when universal claim outruns territorial and institutional carry — yet continuity survives as legal, liturgical, and institutional residue rather than as simple collapse.
 
-**Sovereignty chain (narrative):** Republic and republican-imperial universalization; Eastern Roman continuation; fractured branches (France, HRE, Papacy, partial Spain/Italy); papal and legal residue as present carriers. Chain doctrine: [rome-memory — chain spine](rome-memory.md#chain-spine).
+**Sovereignty chain (narrative):** Republic and republican-imperial universalization; Eastern Roman continuation; fractured branches (France, HRE, Papacy, partial Spain/Italy); papal and legal residue as present carriers. Chain doctrine: [rome-memory — chain spine](theory/rome-memory.md#chain-spine).
 
-**Dual language heritage:** Greek and Latin as co-primary media from Republic onward; language placement: [rome-memory — language spine](rome-memory.md#language-spine). Essay: [Dual language heritage Rome](essays/dual-language-heritage-rome.md).
+**Dual language heritage:** Greek and Latin as co-primary media from Republic onward; language placement: [rome-memory — language spine](theory/rome-memory.md#language-spine). Essay: [Dual language heritage Rome](essays/dual-language-heritage-rome.md).
 
-**Military history:** Force-structure parallel dimension; military placement: [rome-memory — military spine](rome-memory.md#military-spine). Essay: [Military history Rome](theory/military-history-rome.md).
+**Military history:** Force-structure parallel dimension; military placement: [rome-memory — military spine](theory/rome-memory.md#military-spine). Essay: [Military history Rome](theory/military-history-rome.md).
 
-**Faith history:** Sacred-order parallel dimension; faith placement: [rome-memory — faith spine](rome-memory.md#faith-spine). Essay: [Faith history Rome](theory/faith-history-rome.md).
+**Faith history:** Sacred-order parallel dimension; faith placement: [rome-memory — faith spine](theory/rome-memory.md#faith-spine). Essay: [Faith history Rome](theory/faith-history-rome.md).
 
-**Science history:** Evidentiary/procedural parallel dimension; science placement: [rome-memory — science spine](rome-memory.md#science-spine). Essay: [Science history Rome](theory/science-history-rome.md).
+**Science history:** Evidentiary/procedural parallel dimension; science placement: [rome-memory — science spine](theory/rome-memory.md#science-spine). Essay: [Science history Rome](theory/science-history-rome.md).
 
-**Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md).
+**Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](theory/rome-faith.md) · [rome-civilization](theory/rome-civilization.md) · [rome-memory](theory/rome-memory.md).
 
 **Present carrier:** Catholic Church as clearest residue; Eastern Roman Empire as indispensable bridge in the chain narrative.
 

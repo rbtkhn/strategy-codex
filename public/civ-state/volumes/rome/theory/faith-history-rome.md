@@ -2,24 +2,24 @@
 
 ## Where This Sits
 
-Interpretive essay for Volume III — Rome. SSOT for faith placement lives on [rome-memory — faith spine](../rome-memory.md#faith-spine), [rome-empire — institutional roster](../rome-empire.md#faith-history-empire-lens), and [rome-civilization — sacred ethic roster](../rome-civilization.md#faith-history-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
+Interpretive essay for Volume III — Rome. SSOT for faith placement lives on [rome-memory — faith spine](rome-memory.md#faith-spine), [rome-empire — institutional roster](rome-empire.md#faith-history-empire-lens), and [rome-civilization — sacred ethic roster](rome-civilization.md#faith-history-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
 
 ## Reading Posture
 
-Rome carries one sacred-order grammar through **truth-order mutation** — state cult and philosophical religion, imperial cult, Christian synthesis, eastern trilogy rivalry, western schism and Reformation, colonial mission — not through an unbroken single church under one flag forever. This is not one religion under one sovereign forever. It is **one political chain** with a **parallel faith dimension** tracking which sacred order authorizes Roman law and continuity at each rupture, alongside [chain spine](../rome-memory.md#chain-spine), [language spine](../rome-memory.md#language-spine), and [military spine](../rome-memory.md#military-spine).
+Rome carries one sacred-order grammar through **truth-order mutation** — state cult and philosophical religion, imperial cult, Christian synthesis, eastern trilogy rivalry, western schism and Reformation, colonial mission — not through an unbroken single church under one flag forever. This is not one religion under one sovereign forever. It is **one political chain** with a **parallel faith dimension** tracking which sacred order authorizes Roman law and continuity at each rupture, alongside [chain spine](rome-memory.md#chain-spine), [language spine](rome-memory.md#language-spine), and [military spine](rome-memory.md#military-spine).
 
 ## Core Thesis
 
 Rome metabolizes sacred authorization by **mutating truth-order carriers** while preserving legitimating grammar: *pax deorum* and Capitoline cult give way to imperial cult and Christianization; patristic councils and schism split East and West; Reformation fractures Latin Christendom; Iberian missions export sacral authorization overseas. The eastern trilogy — Judaism, Eastern Christianity, Islam — indexes **parallel sacred-order legs**, not one historical actor.
 
-Polytheism and Stoic/Epicurean philosophical religion are **co-primary** on the formation sub-table before Christian synthesis. Suppressed pagan persistence after Christianization lives on [Entropy (Rome)](../rome-entropy.md#faith-history-entropy-lens), not on the faith spine tail.
+Polytheism and Stoic/Epicurean philosophical religion are **co-primary** on the formation sub-table before Christian synthesis. Suppressed pagan persistence after Christianization lives on [Entropy (Rome)](rome-entropy.md#faith-history-entropy-lens), not on the faith spine tail.
 
 ## Delineation
 
 - **[Dual language heritage Rome](../essays/dual-language-heritage-rome.md)** — Greek/Latin **medium** and sacred dual-carrier; cross-ref only when liturgical medium governs, not truth-order placement.
-- **[Science (Rome)](theory/rome-science.md)** — canon law, evidentiary procedure, Avicenna/Averroes transmission; cross-ref when procedural truth-order governs.
-- **[Military spine](../rome-memory.md#military-spine)** — faith **licenses** force; crusades and holy war instruments cross-ref here — do not duplicate campaign bodies.
-- **[Entropy (Rome)](../rome-entropy.md)** — heresies, expulsions, Manichaeism, Gnosticism, 1789 sacred rupture; schism shocks that degrade order.
+- **[Science (Rome)](rome-science.md)** — canon law, evidentiary procedure, Avicenna/Averroes transmission; cross-ref when procedural truth-order governs.
+- **[Military spine](rome-memory.md#military-spine)** — faith **licenses** force; crusades and holy war instruments cross-ref here — do not duplicate campaign bodies.
+- **[Entropy (Rome)](rome-entropy.md)** — heresies, expulsions, Manichaeism, Gnosticism, 1789 sacred rupture; schism shocks that degrade order.
 
 ## Sacred Dual-Carrier
 
@@ -46,10 +46,10 @@ The Christianization compound row carries **`operator-synthesis-chain`**: **Phil
 
 ## Return Path
 
-- [Faith spine (SSOT)](../rome-memory.md#faith-spine)
-- [Institutional roster](../rome-empire.md#faith-history-empire-lens)
-- [Sacred ethic roster](../rome-civilization.md#faith-history-civilization-lens)
-- [Chain spine](../rome-memory.md#chain-spine)
+- [Faith spine (SSOT)](rome-memory.md#faith-spine)
+- [Institutional roster](rome-empire.md#faith-history-empire-lens)
+- [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens)
+- [Chain spine](rome-memory.md#chain-spine)
 - [Dual language heritage (essay)](../essays/dual-language-heritage-rome.md)
 
 ## Limits of the Frame

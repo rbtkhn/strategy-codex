@@ -55,8 +55,8 @@ routing:
     - essay-rome-republic.md
   hex_frame: null
   term_depth:
-    - ../rome-memory.md#military-spine
-    - ../rome-empire.md#military-history-empire-lens
+    - ../theory/rome-memory.md#military-spine
+    - ../theory/rome-empire.md#military-history-empire-lens
   constitutional:
     - civilization-rome.md
     - empire-rome.md

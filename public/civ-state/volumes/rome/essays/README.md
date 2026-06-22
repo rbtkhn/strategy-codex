@@ -75,7 +75,7 @@ Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yam
 
 ## Term depth (volume root)
 
-Six whole-work term files — **`../rome-{term}.md`** at volume root (science: [../theory/rome-science.md](../theory/rome-science.md)): [civilization](../rome-civilization.md) · [empire](../rome-empire.md) · [faith](../rome-faith.md) · [science](../theory/rome-science.md) · [memory](../rome-memory.md) · [entropy](../rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
+Six whole-work term files — **`../rome-{term}.md`** at volume root (science: [../theory/rome-science.md](../theory/rome-science.md)): [civilization](../theory/rome-civilization.md) · [empire](../theory/rome-empire.md) · [faith](../theory/rome-faith.md) · [science](../theory/rome-science.md) · [memory](../theory/rome-memory.md) · [entropy](../theory/rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
 
 ## Keep at volume root
 

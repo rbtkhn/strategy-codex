@@ -6,7 +6,7 @@ Operator routing map for the six volume-local **`rome-{term}.md`** theory files.
 
 ## Reading Posture
 
-Each term file **deepens** one whole-work lens from [theory shelf](../../../theory/README.md). [`rome-memory.md`](../rome-memory.md) indexes the **five spines**; siblings **cross-read** via segment **`Cross-reads:`** lines and Bridge blocks — they do not duplicate full spine tables.
+Each term file **deepens** one whole-work lens from [theory shelf](../../../theory/README.md). [`rome-memory.md`](../theory/rome-memory.md) indexes the **five spines**; siblings **cross-read** via segment **`Cross-reads:`** lines and Bridge blocks — they do not duplicate full spine tables.
 
 **Membrane laws:**
 
@@ -19,12 +19,12 @@ Each term file **deepens** one whole-work lens from [theory shelf](../../../theo
 
 | File | Governing question | Owns | Defers to siblings |
 |------|-------------------|------|-------------------|
-| [`rome-memory`](../rome-memory.md) | Where on the spine? | `#chain-spine` · `#language-spine` · `#military-spine` · `#faith-spine` · `#science-spine` | Ethic rosters · institutional chronicle · rupture prose depth |
-| [`rome-civilization`](../rome-civilization.md) | What **inheritance** is at stake? | Chain node-type vocabulary; Greek/Latin **rosters SSOT**; military/faith/science **ethic** rosters | Command chronicle · pontificate machinery · academies → empire |
-| [`rome-empire`](../rome-empire.md) | What **outward instrument** carries this? | Sovereignty hinge chronicle; parallel carriers; campaign / institutional rosters | Language rosters · *virtus* ethic · public cult ethic → civilization |
-| [`rome-faith`](../rome-faith.md) | What **sacred truth-order** authorizes? | **1054 primary**; faith-spine routing; sacred dual-medium present doctrine | Institutional sacred roster → empire; sacred ethic → civilization |
+| [`rome-memory`](../theory/rome-memory.md) | Where on the spine? | `#chain-spine` · `#language-spine` · `#military-spine` · `#faith-spine` · `#science-spine` | Ethic rosters · institutional chronicle · rupture prose depth |
+| [`rome-civilization`](../theory/rome-civilization.md) | What **inheritance** is at stake? | Chain node-type vocabulary; Greek/Latin **rosters SSOT**; military/faith/science **ethic** rosters | Command chronicle · pontificate machinery · academies → empire |
+| [`rome-empire`](../theory/rome-empire.md) | What **outward instrument** carries this? | Sovereignty hinge chronicle; parallel carriers; campaign / institutional rosters | Language rosters · *virtus* ethic · public cult ethic → civilization |
+| [`rome-faith`](../theory/rome-faith.md) | What **sacred truth-order** authorizes? | **1054 primary**; faith-spine routing; sacred dual-medium present doctrine | Institutional sacred roster → empire; sacred ethic → civilization |
 | [`rome-science`](../theory/rome-science.md) | What **procedural truth-order** encodes? | Science-lens diagnosis; tri-spine footnotes (1204/1453); faith↔science choreography pointers | Spine tables → memory; institutional science → empire |
-| [`rome-entropy`](../rome-entropy.md) | Which **shock** broke carry? | Rupture-primary rows (476 · 1204 · 1453 · Reformation · 1789 · …); Italian Wars / Sack 1527 | Empire-overreach rhythm → empire + civilization |
+| [`rome-entropy`](../theory/rome-entropy.md) | Which **shock** broke carry? | Rupture-primary rows (476 · 1204 · 1453 · Reformation · 1789 · …); Italian Wars / Sack 1527 | Empire-overreach rhythm → empire + civilization |
 
 ## Six×six cross-read matrix
 
@@ -59,14 +59,14 @@ Direct links for routing — one anchor per cell above.
 
 | Term | Sovereignty chain | Dual language | Military history | Faith history | Science history |
 |------|-------------------|---------------|------------------|---------------|-----------------|
-| **Civilization** | [link](../rome-civilization.md#sovereignty-chain-civilization-lens) | [link](../rome-civilization.md#dual-language-heritage-civilization-lens) | [link](../rome-civilization.md#military-history-civilization-lens) | [link](../rome-civilization.md#faith-history-civilization-lens) | [link](../rome-civilization.md#science-history-civilization-lens) |
-| **Empire** | [link](../rome-empire.md#sovereignty-chain-empire-lens) | [link](../rome-empire.md#dual-language-heritage-empire-lens) | [link](../rome-empire.md#military-history-empire-lens) | [link](../rome-empire.md#faith-history-empire-lens) | [link](../rome-empire.md#science-history-empire-lens) |
-| **Faith** | [link](../rome-faith.md#sovereignty-chain-faith-lens) | [link](../rome-faith.md#dual-language-heritage-faith-lens) | [link](../rome-faith.md#military-history-faith-lens) | [link](../rome-faith.md#faith-history-faith-lens) | [link](../rome-faith.md#faith-history-science-lens) |
+| **Civilization** | [link](../theory/rome-civilization.md#sovereignty-chain-civilization-lens) | [link](../theory/rome-civilization.md#dual-language-heritage-civilization-lens) | [link](../theory/rome-civilization.md#military-history-civilization-lens) | [link](../theory/rome-civilization.md#faith-history-civilization-lens) | [link](../theory/rome-civilization.md#science-history-civilization-lens) |
+| **Empire** | [link](../theory/rome-empire.md#sovereignty-chain-empire-lens) | [link](../theory/rome-empire.md#dual-language-heritage-empire-lens) | [link](../theory/rome-empire.md#military-history-empire-lens) | [link](../theory/rome-empire.md#faith-history-empire-lens) | [link](../theory/rome-empire.md#science-history-empire-lens) |
+| **Faith** | [link](../theory/rome-faith.md#sovereignty-chain-faith-lens) | [link](../theory/rome-faith.md#dual-language-heritage-faith-lens) | [link](../theory/rome-faith.md#military-history-faith-lens) | [link](../theory/rome-faith.md#faith-history-faith-lens) | [link](../theory/rome-faith.md#faith-history-science-lens) |
 | **Science** | [link](../theory/rome-science.md#sovereignty-chain-science-lens) | [link](../theory/rome-science.md#dual-language-heritage-science-lens) | [link](../theory/rome-science.md#military-history-science-lens) | [link](../theory/rome-science.md#faith-history-science-lens) | [link](../theory/rome-science.md#science-history-science-lens) |
-| **Memory** | [link](../rome-memory.md#sovereignty-chain-memory-lens) | [link](../rome-memory.md#dual-language-heritage-memory-lens) | [link](../rome-memory.md#military-history-memory-lens) | [link](../rome-memory.md#faith-history-memory-lens) | [link](../rome-memory.md#science-history-memory-lens) |
-| **Entropy** | [link](../rome-entropy.md#sovereignty-chain-entropy-lens) | [link](../rome-entropy.md#dual-language-heritage-entropy-lens) | [link](../rome-entropy.md#military-history-entropy-lens) | [link](../rome-entropy.md#faith-history-entropy-lens) | [link](../rome-entropy.md#science-history-entropy-lens) |
+| **Memory** | [link](../theory/rome-memory.md#sovereignty-chain-memory-lens) | [link](../theory/rome-memory.md#dual-language-heritage-memory-lens) | [link](../theory/rome-memory.md#military-history-memory-lens) | [link](../theory/rome-memory.md#faith-history-memory-lens) | [link](../theory/rome-memory.md#science-history-memory-lens) |
+| **Entropy** | [link](../theory/rome-entropy.md#sovereignty-chain-entropy-lens) | [link](../theory/rome-entropy.md#dual-language-heritage-entropy-lens) | [link](../theory/rome-entropy.md#military-history-entropy-lens) | [link](../theory/rome-entropy.md#faith-history-entropy-lens) | [link](../theory/rome-entropy.md#science-history-entropy-lens) |
 
-Spine SSOT anchors on memory: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine).
+Spine SSOT anchors on memory: [chain](../theory/rome-memory.md#chain-spine) · [language](../theory/rome-memory.md#language-spine) · [military](../theory/rome-memory.md#military-spine) · [faith](../theory/rome-memory.md#faith-spine) · [science](../theory/rome-memory.md#science-spine).
 
 ## Rupture ownership
 
@@ -120,7 +120,7 @@ Active civic-chain nodes ship **reader-facing** `essay-rome-{slug}.md` plus edit
 
 - [Rome volume README](../README.md) — era blocks and opener
 - [Essays index](README.md) — constitutional + history sub-lenses
-- Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
+- Five spines: [chain](../theory/rome-memory.md#chain-spine) · [language](../theory/rome-memory.md#language-spine) · [military](../theory/rome-memory.md#military-spine) · [faith](../theory/rome-memory.md#faith-spine) · [science](../theory/rome-memory.md#science-spine)
 - Four history essays: [language](dual-language-heritage-rome.md) · [military](../theory/military-history-rome.md) · [faith](../theory/faith-history-rome.md) · [science](../theory/science-history-rome.md)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
 - hex-frame: [theory registry](../theory/README.md#hex-frame-hexagonal-demonstrators) · [template](_template-hexagonal-rome.md)

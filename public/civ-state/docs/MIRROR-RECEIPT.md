@@ -2,8 +2,8 @@
 
 - **Upstream:** [https://github.com/rbtkhn/civ-state.git](https://github.com/rbtkhn/civ-state.git)
 - **Branch:** `main`
-- **Upstream commit:** `ed4a55f7342a2a60ec0576cbd6a91c232eebf6bd`
-- **Published:** 2026-06-17T22:45:34Z
+- **Upstream commit:** `6c9f783c5b6389ab3a16d6aad754c8a6191773ad`
+- **Published:** 2026-06-22T08:32:48Z
 - **Inbound sync:** `scripts/sync_public_civ_state_mirror.py`
 - **Outbound publish:** `scripts/publish_public_civ_state.py`
 

@@ -61,9 +61,9 @@ routing:
     - essay-rome-napoleon.md
   hex_frame: ../theory/hexagonal-republic-principate-rome.md
   term_depth:
-    - ../rome-memory.md#chain-spine
-    - ../rome-empire.md#sovereignty-chain-empire-lens
-    - ../rome-civilization.md#sovereignty-chain-civilization-lens
+    - ../theory/rome-memory.md#chain-spine
+    - ../theory/rome-empire.md#sovereignty-chain-empire-lens
+    - ../theory/rome-civilization.md#sovereignty-chain-civilization-lens
   constitutional:
     - civilization-rome.md
   sources:
@@ -77,7 +77,7 @@ routing:
     - ../theory/hexagonal-republic-principate-rome.md
     - essay-rome-republic.md
     - essay-rome-augustus.md
-    - ../rome-memory.md
+    - ../theory/rome-memory.md
     - README.md
     - ../README.md
 

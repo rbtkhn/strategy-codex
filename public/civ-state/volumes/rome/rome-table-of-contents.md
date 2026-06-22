@@ -15,7 +15,7 @@ Human-readable navigation for **Civilizational Statecraft**, Volume III. This fi
 | Whole-volume constitutional read | [Path A — Constitutional](#path-a--constitutional) |
 | Republic → principate as standalone civic essays | [Path B — Civic chain](#path-b--civic-chain-essay-rome) |
 | One friction node × six governing terms | [Path C — hex-frame](#path-c--hex-frame) |
-| Chain placement or spine rosters | [rome-memory](rome-memory.md) |
+| Chain placement or spine rosters | [rome-memory](theory/rome-memory.md) |
 | Sources to retrieve or cite | [Sources](#sources) |
 
 ---
@@ -87,10 +87,10 @@ One friction node read through all six `rome-{term}.md` lenses. Template: [_temp
 
 Six whole-work term projections — link rosters here; do not duplicate in essays:
 
-- [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
-- [rome-faith](rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](rome-memory.md)
+- [rome-civilization](theory/rome-civilization.md) · [rome-empire](theory/rome-empire.md) · [rome-entropy](theory/rome-entropy.md)
+- [rome-faith](theory/rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](theory/rome-memory.md)
 
-**Spine index** on memory: [chain](rome-memory.md#chain-spine) · [language](rome-memory.md#language-spine) · [military](rome-memory.md#military-spine) · [faith](rome-memory.md#faith-spine) · [science](rome-memory.md#science-spine)
+**Spine index** on memory: [chain](theory/rome-memory.md#chain-spine) · [language](theory/rome-memory.md#language-spine) · [military](theory/rome-memory.md#military-spine) · [faith](theory/rome-memory.md#faith-spine) · [science](theory/rome-memory.md#science-spine)
 
 **Cross-term routing:** [Connectivity Rome](essays/connectivity-rome.md)
 

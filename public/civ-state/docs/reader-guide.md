@@ -113,7 +113,7 @@ Each volume carries its own **`sacred-grammar.md`** beside introduction, Civiliz
 |--------|------|
 | I — China | [volumes/china/sacred-grammar.md](../volumes/china/sacred-grammar.md) |
 | II — Persia | [volumes/persia/sacred-grammar.md](../volumes/persia/sacred-grammar.md) |
-| III — Rome | [rome-faith.md](../volumes/rome/rome-faith.md) · [rome-civilization.md](../volumes/rome/rome-civilization.md) · [rome-memory.md](../volumes/rome/rome-memory.md) — via [theory cross-cutting table](../theory/README.md#cross-cutting-objects); redirect: [sacred-grammar.md](../volumes/rome/sacred-grammar.md) |
+| III — Rome | [rome-faith.md](../volumes/rome/theory/rome-faith.md) · [rome-civilization.md](../volumes/rome/theory/rome-civilization.md) · [rome-memory.md](../volumes/rome/theory/rome-memory.md) — via [theory cross-cutting table](../theory/README.md#cross-cutting-objects); redirect: [sacred-grammar.md](../volumes/rome/sacred-grammar.md) |
 | IV — Russia | [volumes/russia/sacred-grammar.md](../volumes/russia/sacred-grammar.md) |
 | V — America | [volumes/america/sacred-grammar.md](../volumes/america/sacred-grammar.md) |
 

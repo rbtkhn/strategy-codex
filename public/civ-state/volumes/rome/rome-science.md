@@ -1,7 +1,7 @@
 # Rome — Science (redirect)
 
-The science term lens moved to [theory/rome-science.md](theory/rome-science.md) (v0.1.62+).
+The science term lens lives at [theory/rome-science.md](theory/rome-science.md) (v0.1.63+).
 
-**Sibling term pages:** [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md) · [rome-faith](rome-faith.md) · [rome-memory](rome-memory.md)
+**All six term lenses:** [theory/README.md](theory/README.md)
 
-Orchestration: [theory shelf](../../theory/README.md#cross-cutting-objects) · [theory/ README](theory/README.md).
+Orchestration: [theory shelf](../../theory/README.md#cross-cutting-objects) · [Connectivity Rome](essays/connectivity-rome.md).

@@ -19,7 +19,7 @@ Primary source base: Rome source corpus
 **Opener Block**
 - Volume introduction: [Pax Romana](../../docs/introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
-- Deep grammar retrieval: [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) — via [theory shelf](../../theory/README.md#cross-cutting-objects)
+- Deep grammar retrieval: [rome-faith](theory/rome-faith.md) · [rome-civilization](theory/rome-civilization.md) · [rome-memory](theory/rome-memory.md) — via [theory shelf](../../theory/README.md#cross-cutting-objects)
 - Sovereign opening: **Republic** as political chain opener; Romulus as mythic founding figure (substrate)
 - Current carrier: Catholic Church
 - Civilization chapter: [Rome civilization](essays/civilization-rome.md)
@@ -27,17 +27,17 @@ Primary source base: Rome source corpus
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume retrieve shelf: [Rome bibliography](../../sources/rome/bibliography.md) · volume door [source-shelf.md](source-shelf.md)
 - Essay citation inventory (PD URLs, civic-chain): [rome-bibliography.md](rome-bibliography.md) — see [essays README § Essay-rome](essays/README.md#essay-rome)
-- Sovereign continuity support note: [Rome chain spine](rome-memory.md#chain-spine) · [Rome military spine](rome-memory.md#military-spine) · [Rome faith spine](rome-memory.md#faith-spine) · [Rome science spine](rome-memory.md#science-spine)
+- Sovereign continuity support note: [Rome chain spine](theory/rome-memory.md#chain-spine) · [Rome military spine](theory/rome-memory.md#military-spine) · [Rome faith spine](theory/rome-memory.md#faith-spine) · [Rome science spine](theory/rome-memory.md#science-spine)
 - Optional sub-lenses: [essays](essays/README.md) (dual language heritage) · [theory](theory/README.md) (history sub-lenses · geo-strategy · secret-history · game-theory · hex-frame · rome-science)
 - Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot); shelf [theory/](theory/README.md)
-  - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
-  - [rome-faith](rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](rome-memory.md)
+  - [rome-civilization](theory/rome-civilization.md) · [rome-empire](theory/rome-empire.md) · [rome-entropy](theory/rome-entropy.md)
+  - [rome-faith](theory/rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](theory/rome-memory.md)
 - Term connectivity (six-term membrane): [Connectivity Rome](essays/connectivity-rome.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong but transformed civilization-state whose continuity survives through mutation rather than one unbroken territorial state
-- Sovereignty chain: `Republic -> … -> Pope Leo XIV` — *continuity with fractured sovereignty*; spine: [rome-memory](rome-memory.md#chain-spine)
+- Sovereignty chain: `Republic -> … -> Pope Leo XIV` — *continuity with fractured sovereignty*; spine: [rome-memory](theory/rome-memory.md#chain-spine)
 - Sacred / civilizational grammar: Roman law, citizenship, imperial universality, Christianity, and later papal residue
 - Current carrier: Catholic Church as the clearest surviving residue, with the Eastern Roman Empire as the indispensable bridge
 - Failure mode: Rome is misread either as dead antiquity or as nostalgia detached from actual continuity carriers

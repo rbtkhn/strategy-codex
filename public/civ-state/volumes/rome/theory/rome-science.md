@@ -57,7 +57,7 @@ Procedural military text + siege/engineering. Roster SSOT: [Empire — Vegetius 
 
 **Tri-spine footnotes (N5):** 1204 four-way · 1453 triple-home — SSOT on [Science spine](rome-memory.md#science-spine); **no new `#science-spine` rupture rows**.
 
-**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Empire — military roster](rome-empire.md#military-history-empire-lens) · [Military history (essay)](theory/military-history-rome.md) · [Science history (essay)](theory/science-history-rome.md)
+**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Empire — military roster](rome-empire.md#military-history-empire-lens) · [Military history (essay)](military-history-rome.md) · [Science history (essay)](science-history-rome.md)
 
 ## Faith history — science lens {#faith-history-science-lens}
 
@@ -71,7 +71,7 @@ Canon law hybrid · patristic reason · Avicenna/Averroes cross-ref (E6 science-
 | Avicenna / Averroes | Islamic philosophy — **science-spine primary**; faith one-line cross-ref | `historical-grounded` |
 | Stoic / Epicurean | Philosophical religion — formation co-primary cross-ref | `historical-grounded` |
 
-**Cross-reads:** [Faith spine — formation](rome-memory.md#faith-spine-formation) · [Faith history (essay)](theory/faith-history-rome.md)
+**Cross-reads:** [Faith spine — formation](rome-memory.md#faith-spine-formation) · [Faith history (essay)](faith-history-rome.md)
 
 ## Science history — science lens {#science-history-science-lens}
 
@@ -84,7 +84,7 @@ Full spine routing + codification/engineering depth. Placement SSOT: [Science sp
 | [#science-spine-eastern](rome-memory.md#science-spine-eastern) | Transmission trilogy |
 | [#science-spine-western](rome-memory.md#science-spine-western) | Italy ║ France branches · codification tail |
 
-**Cross-reads:** [Science spine (SSOT)](rome-memory.md#science-spine) · [Institutional roster](rome-empire.md#science-history-empire-lens) · [Procedural ethic roster](rome-civilization.md#science-history-civilization-lens) · [Science history (essay)](theory/science-history-rome.md)
+**Cross-reads:** [Science spine (SSOT)](rome-memory.md#science-spine) · [Institutional roster](rome-empire.md#science-history-empire-lens) · [Procedural ethic roster](rome-civilization.md#science-history-civilization-lens) · [Science history (essay)](science-history-rome.md)
 
 ## Whole-work term
 

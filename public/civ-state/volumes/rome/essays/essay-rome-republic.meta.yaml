@@ -55,9 +55,9 @@ routing:
     - essay-rome-augustus.md
   hex_frame: ../theory/hexagonal-republic-principate-rome.md
   term_depth:
-    - ../rome-memory.md#chain-spine
-    - ../rome-civilization.md#sovereignty-chain-civilization-lens
-    - ../rome-empire.md#sovereignty-chain-empire-lens
+    - ../theory/rome-memory.md#chain-spine
+    - ../theory/rome-civilization.md#sovereignty-chain-civilization-lens
+    - ../theory/rome-empire.md#sovereignty-chain-empire-lens
   constitutional:
     - civilization-rome.md
   sources:
@@ -73,7 +73,7 @@ routing:
     - connectivity-rome.md
     - ../theory/hexagonal-republic-principate-rome.md
     - essay-rome-genesis.md
-    - ../rome-memory.md
+    - ../theory/rome-memory.md
     - README.md
     - ../README.md
 

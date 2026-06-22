@@ -26,16 +26,16 @@ This chapter does not flatten Rome into glorious conquest or late decline melodr
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
 - Return to [Civilization Rome](civilization-rome.md) for the inner logic of law, universality, and transformed continuity.
-- Five spines: [Chain](../rome-memory.md#chain-spine) · [Language](../rome-memory.md#language-spine) · [Military](../rome-memory.md#military-spine) · [Faith](../rome-memory.md#faith-spine) · [Science](../rome-memory.md#science-spine).
+- Five spines: [Chain](../theory/rome-memory.md#chain-spine) · [Language](../theory/rome-memory.md#language-spine) · [Military](../theory/rome-memory.md#military-spine) · [Faith](../theory/rome-memory.md#faith-spine) · [Science](../theory/rome-memory.md#science-spine).
 - Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](../theory/military-history-rome.md) · [Faith history](../theory/faith-history-rome.md) · [Science history](../theory/science-history-rome.md).
-- Term lenses: [Empire](../rome-empire.md) · [Civilization](../rome-civilization.md) · [Faith](../rome-faith.md) · [Science](../theory/rome-science.md) · [Memory](../rome-memory.md) · [Entropy](../rome-entropy.md).
-- Parallel dimension cross-reads: [#military-history-empire-lens](../rome-empire.md#military-history-empire-lens) · [#faith-history-empire-lens](../rome-empire.md#faith-history-empire-lens) · [#science-history-empire-lens](../rome-empire.md#science-history-empire-lens) · [#dual-language-heritage-empire-lens](../rome-empire.md#dual-language-heritage-empire-lens).
+- Term lenses: [Empire](../theory/rome-empire.md) · [Civilization](../theory/rome-civilization.md) · [Faith](../theory/rome-faith.md) · [Science](../theory/rome-science.md) · [Memory](../theory/rome-memory.md) · [Entropy](../theory/rome-entropy.md).
+- Parallel dimension cross-reads: [#military-history-empire-lens](../theory/rome-empire.md#military-history-empire-lens) · [#faith-history-empire-lens](../theory/rome-empire.md#faith-history-empire-lens) · [#science-history-empire-lens](../theory/rome-empire.md#science-history-empire-lens) · [#dual-language-heritage-empire-lens](../theory/rome-empire.md#dual-language-heritage-empire-lens).
 - Return to Rome source corpus for deeper source-memory surfaces.
 - Return to the [statecraft root](../README.md) when the Rome case is being used comparatively rather than lane-locally.
 
 ## Delineation — Civilization ↔ Empire ↔ Entropy
 
-Same seven-node choreography as [Civilization Rome — Delineation](civilization-rome.md#delineation--civilization--empire--entropy). **Empire overreach ≠ entropy.** Italian Wars military term node: [Empire — military lens](../rome-empire.md#military-history-empire-lens). Sack 1527 rupture-primary: [Entropy — faith lens](../rome-entropy.md#faith-history-entropy-lens).
+Same seven-node choreography as [Civilization Rome — Delineation](civilization-rome.md#delineation--civilization--empire--entropy). **Empire overreach ≠ entropy.** Italian Wars military term node: [Empire — military lens](../theory/rome-empire.md#military-history-empire-lens). Sack 1527 rupture-primary: [Entropy — faith lens](../theory/rome-entropy.md#faith-history-entropy-lens).
 
 ## Core Thesis
 
@@ -92,6 +92,6 @@ Open Rome imperially by asking what machinery is actually at issue: incorporatio
 ## Key evidence spine Anchors
 
 - Rome source corpus
-- [rome-faith](../rome-faith.md) · [rome-memory](../rome-memory.md)
+- [rome-faith](../theory/rome-faith.md) · [rome-memory](../theory/rome-memory.md)
 - [Rome source-memory volume](../README.md)
 - [Empire](../../../theory/empire.md) · [theory shelf](../../../theory/README.md)

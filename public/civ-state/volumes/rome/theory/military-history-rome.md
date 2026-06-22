@@ -2,11 +2,11 @@
 
 ## Where This Sits
 
-Interpretive essay for Volume III — Rome. SSOT for military placement lives on [rome-memory — military spine](../rome-memory.md#military-spine), [rome-empire — campaign roster](../rome-empire.md#military-history-empire-lens), and [rome-civilization — civic-military ethic](../rome-civilization.md#military-history-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
+Interpretive essay for Volume III — Rome. SSOT for military placement lives on [rome-memory — military spine](rome-memory.md#military-spine), [rome-empire — campaign roster](rome-empire.md#military-history-empire-lens), and [rome-civilization — civic-military ethic](rome-civilization.md#military-history-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
 
 ## Reading Posture
 
-Rome carries one military grammar through **force-structure mutation** — legion, thematic army, crusader host, standing monarchy, colonial garrison — not through an unbroken legion. This is not one army under one flag forever. It is **one political chain** with a **parallel military dimension** tracking which institution carries Roman war-making at each rupture, alongside [chain spine](../rome-memory.md#chain-spine) and [language spine](../rome-memory.md#language-spine).
+Rome carries one military grammar through **force-structure mutation** — legion, thematic army, crusader host, standing monarchy, colonial garrison — not through an unbroken legion. This is not one army under one flag forever. It is **one political chain** with a **parallel military dimension** tracking which institution carries Roman war-making at each rupture, alongside [chain spine](rome-memory.md#chain-spine) and [language spine](rome-memory.md#language-spine).
 
 ## Core Thesis
 
@@ -37,10 +37,10 @@ Rome inherits Herodotus as a **Rome-facing strategic textbook**: ethnography of 
 
 ## Return Path
 
-- [Military spine (SSOT)](../rome-memory.md#military-spine)
-- [Campaign / command roster](../rome-empire.md#military-history-empire-lens)
-- [Civic-military ethic roster](../rome-civilization.md#military-history-civilization-lens)
-- [Chain spine](../rome-memory.md#chain-spine)
+- [Military spine (SSOT)](rome-memory.md#military-spine)
+- [Campaign / command roster](rome-empire.md#military-history-empire-lens)
+- [Civic-military ethic roster](rome-civilization.md#military-history-civilization-lens)
+- [Chain spine](rome-memory.md#chain-spine)
 
 ## Limits of the Frame
 

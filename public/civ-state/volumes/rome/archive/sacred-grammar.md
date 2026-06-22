@@ -1,6 +1,6 @@
 # Sacred Grammar
 
-**Archived v0.1.23** — book-native prose merged into [rome-faith.md](../rome-faith.md), [rome-civilization.md](../rome-civilization.md), and [rome-memory.md](../rome-memory.md). Active redirect: [../sacred-grammar.md](../sacred-grammar.md).
+**Archived v0.1.23** — book-native prose merged into [rome-faith.md](../theory/rome-faith.md), [rome-civilization.md](../theory/rome-civilization.md), and [rome-memory.md](../theory/rome-memory.md). Active redirect: [../sacred-grammar.md](../sacred-grammar.md).
 
 Volume-local deep grammar for **Civilizational Statecraft**, Volume III — Rome.
 
@@ -14,7 +14,7 @@ Volume-local deep grammar for **Civilizational Statecraft**, Volume III — Rome
   Roman sacred grammar survives the republic-to-empire mutation, Christianization, western collapse, Eastern Roman continuation, schism, papal narrowing, and Vatican residue. The carrier changes repeatedly, but the grammar of universal order through law and sacred legitimacy remains legible.
 
 - **Relation to sovereignty chain**
-  Romulus and Aeneas remain mythic substrate; **Republic** opens the political chain (see active [rome-memory](../rome-memory.md#chain-spine)). The Eastern Roman Empire is the indispensable continuity state, because it keeps Roman universality alive long enough for papal and Catholic residue to remain more than nostalgic symbolism.
+  Romulus and Aeneas remain mythic substrate; **Republic** opens the political chain (see active [rome-memory](../theory/rome-memory.md#chain-spine)). The Eastern Roman Empire is the indispensable continuity state, because it keeps Roman universality alive long enough for papal and Catholic residue to remain more than nostalgic symbolism.
 
 - **Statecraft relevance**
   Rome teaches how law, universality, and sacred continuity can survive institutional mutation. It is most useful when the live question concerns successor-order legitimacy, transformed carriers, and residue that still organizes authority after territorial exhaustion.
