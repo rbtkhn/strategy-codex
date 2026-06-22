@@ -1,0 +1,481 @@
+# Rome PD acquisition manifest (operator library)
+#
+# Index SSOT: rome-bibliography.md
+# Workflow: civ-state-primary-text-acquisition (witness-first; no bulk scrape into git)
+# Default local root — override in operator profile or env ROME_PD_LIBRARY_ROOT
+#
+# Phase 1: scriptable (Gutenberg ebook id · Internet Archive identifier)
+# Phase 2: manual export (Lacus Curtius · Perseus · Latin Library · Livius)
+# Excluded: modern secondary block in bibliography (rights: modern_restricted)
+
+manifest_version: "0.1.0"
+verified_against: rome-bibliography.md
+verified_date: "2026-06-22"
+
+local_root: "C:/dev/rome-pd-library"
+formats_preferred:
+  gutenberg: epub
+  internet_archive: epub
+
+# --- Phase 1: Gutenberg (automatable) ---
+
+gutenberg:
+  - source_id: rome-pd-homer-iliad
+    title: "Homer, Iliad"
+    bibliography: "c. 8th century BC — Homer, *Iliad*."
+    gutenberg_id: 6130
+    local_path: "{local_root}/gutenberg/6130-homer-iliad.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-homer-odyssey
+    title: "Homer, Odyssey"
+    bibliography: "c. 8th century BC — Homer, *Odyssey*."
+    gutenberg_id: 1727
+    local_path: "{local_root}/gutenberg/1727-homer-odyssey.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-twelve-tables
+    title: "The Twelve Tables"
+    bibliography: "c. 451–450 BC — *The Twelve Tables*."
+    gutenberg_id: 14783
+    local_path: "{local_root}/gutenberg/14783-twelve-tables.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-thucydides-peloponnesian-war
+    title: "Thucydides, History of the Peloponnesian War"
+    bibliography: "c. 431–400 BC — Thucydides, *History of the Peloponnesian War*."
+    gutenberg_id: 7142
+    local_path: "{local_root}/gutenberg/7142-thucydides-peloponnesian-war.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-xenophon-cyropaedia
+    title: "Xenophon, Cyropaedia"
+    bibliography: "c. 370s–360s BC — Xenophon, *Cyropaedia*."
+    gutenberg_id: 2085
+    local_path: "{local_root}/gutenberg/2085-xenophon-cyropaedia.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-polybius-histories
+    title: "Polybius, Histories"
+    bibliography: "c. 150 BC — Polybius, *Histories*."
+    gutenberg_id: 44862
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Plb.+1.1"
+    local_path: "{local_root}/gutenberg/44862-polybius-histories.epub"
+    rights: public_domain
+    notes: "Essays may pin Perseus Greek; lock one working translation before quote verification."
+    status: pending
+
+  - source_id: rome-pd-cicero-against-verres
+    title: "Cicero, Against Verres"
+    bibliography: "c. 70 BC — Cicero, *Against Verres*."
+    gutenberg_id: 6576
+    local_path: "{local_root}/gutenberg/6576-cicero-against-verres.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-cicero-de-re-publica
+    title: "Cicero, De Re Publica"
+    bibliography: "c. 54–51 BC — Cicero, *De Re Publica*."
+    gutenberg_id: 26616
+    local_path: "{local_root}/gutenberg/26616-cicero-de-re-publica.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-cicero-pro-milone
+    title: "Cicero, Pro Milone"
+    bibliography: "c. 52 BC — Cicero, *Pro Milone*."
+    gutenberg_id: 6573
+    local_path: "{local_root}/gutenberg/6573-cicero-pro-milone.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-lucretius-de-rerum-natura
+    title: "Lucretius, De Rerum Natura"
+    bibliography: "c. 50s BC — Lucretius, *De Rerum Natura*."
+    gutenberg_id: 7849
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Lucr.+1.1"
+    local_path: "{local_root}/gutenberg/7849-lucretius-de-rerum-natura.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-caesar-civil-war
+    title: "Julius Caesar, Commentarii de Bello Civili"
+    bibliography: "c. 49–48 BC — Julius Caesar, *Commentarii de Bello Civili*."
+    gutenberg_id: 1068
+    local_path: "{local_root}/gutenberg/1068-caesar-civil-war.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-cicero-ad-atticum
+    title: "Cicero, Ad Atticum"
+    bibliography: "1st century BC — Cicero, *Ad Atticum*."
+    gutenberg_id: 6590
+    witness_alt: "https://www.thelatinlibrary.com/cicero/att1.shtml"
+    local_path: "{local_root}/gutenberg/6590-cicero-ad-atticum.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-sallust-catiline
+    title: "Sallust, Bellum Catilinae"
+    bibliography: "c. 40s–30s BC — Sallust, *Bellum Catilinae*."
+    gutenberg_id: 6594
+    local_path: "{local_root}/gutenberg/6594-sallust-catiline.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-horace-odes
+    title: "Horace, Odes (incl. Carmen Saeculare vol)"
+    bibliography:
+      - "c. 23–13 BC — Horace, *Odes*."
+      - "17 BC — Horace, *Carmen Saeculare*."
+    gutenberg_id: 5432
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0024"
+    local_path: "{local_root}/gutenberg/5432-horace-odes.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-ovid-fasti
+    title: "Ovid, Fasti"
+    bibliography: "c. AD 14–17 — Ovid, *Fasti*."
+    gutenberg_id: 8732
+    local_path: "{local_root}/gutenberg/8732-ovid-fasti.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-strabo-geography
+    title: "Strabo, Geography"
+    bibliography: "c. 1st century BC–1st century AD — Strabo, *Geography*."
+    gutenberg_id: 44886
+    local_path: "{local_root}/gutenberg/44886-strabo-geography.epub"
+    rights: public_domain
+    notes: "Egypt essay pins Hamilton/Falconer trad.; verify edition against essay Notes."
+    status: pending
+
+  - source_id: rome-pd-suetonius-lives
+    title: "Suetonius, The Lives of the Twelve Caesars"
+    bibliography:
+      - "c. AD 121 — Suetonius, *Divus Iulius*."
+      - "c. AD 121 — Suetonius, *Divus Augustus*."
+    gutenberg_id: 6400
+    local_path: "{local_root}/gutenberg/6400-suetonius-twelve-caesars.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-appian-roman-history
+    title: "Appian, Roman History / Civil Wars"
+    bibliography: "c. AD 140s–160s — Appian, *Roman History* / *Civil Wars*."
+    gutenberg_id: 9779
+    local_path: "{local_root}/gutenberg/9779-appian-roman-history.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-napoleon-caesar-commentaries
+    title: "Napoleon I, Commentaries on the Wars of Julius Caesar"
+    bibliography: "1830s — Napoleon I, *Commentaries on the Wars of Julius Caesar*."
+    gutenberg_id: 23233
+    local_path: "{local_root}/gutenberg/23233-napoleon-caesar-commentaries.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-mommsen-history-of-rome
+    title: "Theodor Mommsen, History of Rome"
+    bibliography: "1854–1856 — Theodor Mommsen, *History of Rome*."
+    gutenberg_id: 13506
+    local_path: "{local_root}/gutenberg/13506-mommsen-history-of-rome.epub"
+    rights: public_domain
+    notes: "Essay Notes label Mommsen as reception framing — not body SSOT."
+    status: pending
+
+# --- Phase 1: Internet Archive (automatable) ---
+
+internet_archive:
+  - source_id: rome-pd-herodotus-histories
+    title: "Herodotus, Histories"
+    bibliography: "c. 440s–420s BC — Herodotus, *Histories*."
+    ia_identifier: historyofherod02hero
+    witness_url: "https://archive.org/details/historyofherod02hero"
+    local_path: "{local_root}/internet-archive/historyofherod02hero.epub"
+    rights: public_domain
+    notes: "Bibliography links vol 2; may need additional vols for full Histories."
+    status: pending
+
+  - source_id: rome-pd-aristotle-politics
+    title: "Aristotle, Politics"
+    bibliography: "c. 350s–330s BC — Aristotle, *Politics*."
+    ia_identifier: politics00arisuoft
+    witness_url: "https://archive.org/details/politics00arisuoft"
+    local_path: "{local_root}/internet-archive/politics00arisuoft.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-cicero-de-officiis
+    title: "Cicero, De Officiis"
+    bibliography: "c. 44 BC — Cicero, *De Officiis*."
+    ia_identifier: deofficiis00cice
+    witness_url: "https://archive.org/details/deofficiis00cice"
+    local_path: "{local_root}/internet-archive/deofficiis00cice.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-cicero-philippics
+    title: "Cicero, Philippics"
+    bibliography: "c. 44–43 BC — Cicero, *Philippics*."
+    ia_identifier: philippics00cice
+    witness_url: "https://archive.org/details/philippics00cice"
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0020:text=Phil."
+    local_path: "{local_root}/internet-archive/philippics00cice.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-sallust-jugurthine-war
+    title: "Sallust, Bellum Jugurthinum"
+    bibliography: "c. 40s BC — Sallust, *Bellum Jugurthinum*."
+    ia_identifier: jugurthinewar00sall
+    witness_url: "https://archive.org/details/jugurthinewar00sall"
+    local_path: "{local_root}/internet-archive/jugurthinewar00sall.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-virgil-georgics
+    title: "Virgil, Georgics"
+    bibliography: "c. 29 BC — Virgil, *Georgics*."
+    ia_identifier: georgics00virguoft
+    witness_url: "https://archive.org/details/georgics00virguoft"
+    local_path: "{local_root}/internet-archive/georgics00virguoft.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-virgil-aeneid
+    title: "Virgil, Aeneid"
+    bibliography: "c. 29–19 BC — Virgil, *Aeneid*."
+    ia_identifier: aeneid00virg
+    witness_url: "https://archive.org/details/aeneid00virg"
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Verg.+A.+1.1"
+    local_path: "{local_root}/internet-archive/aeneid00virg.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-livy-ab-urbe-condita
+    title: "Livy, Ab Urbe Condita (vol 1 witness)"
+    bibliography: "c. 29 BC–AD 17 — Livy, *Ab Urbe Condita*."
+    ia_identifier: historyofrome01livy
+    witness_url: "https://archive.org/details/historyofrome01livy"
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Liv.+1.1"
+    local_path: "{local_root}/internet-archive/historyofrome01livy.epub"
+    rights: public_domain
+    notes: "Multi-volume work; bibliography links vol 1 only — extend manifest when essays pin later books."
+    status: pending
+
+  - source_id: rome-pd-plutarch-lives-dryden
+    title: "Plutarch, Lives (Dryden trans. vol witness)"
+    bibliography:
+      - "Plutarch, *Life of Numa*."
+      - "Plutarch, *Life of Publicola*."
+      - "Plutarch, *Life of Pyrrhus*."
+      - "Plutarch, *Life of Tiberius Gracchus*."
+      - "Plutarch, *Life of Caesar*."
+      - "Plutarch, *Life of Alexander*."
+      - "Plutarch, *Life of Antony*."
+    ia_identifier: plutarchslives00plut
+    witness_url: "https://archive.org/details/plutarchslives00plut"
+    local_path: "{local_root}/internet-archive/plutarchslives00plut.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-tacitus-annals
+    title: "Tacitus, Annals"
+    bibliography: "c. AD 109–120 — Tacitus, *Annals*."
+    ia_identifier: annals00taciuoft
+    witness_url: "https://archive.org/details/annals00taciuoft"
+    local_path: "{local_root}/internet-archive/annals00taciuoft.epub"
+    rights: public_domain
+    status: pending
+
+  - source_id: rome-pd-cassius-dio-roman-history
+    title: "Cassius Dio, Roman History (vol 1 witness)"
+    bibliography: "c. AD 211–233 — Cassius Dio, *Roman History*."
+    ia_identifier: diosromanhistory01cass
+    witness_url: "https://archive.org/details/diosromanhistory01cass"
+    local_path: "{local_root}/internet-archive/diosromanhistory01cass.epub"
+    rights: public_domain
+    notes: "Multi-volume; Egypt essay pins L.9–12 composite — verify book mapping in locked witness."
+    status: pending
+
+  - source_id: rome-pd-john-of-nikiu-chronicle
+    title: "John of Nikiu, Chronicle"
+    bibliography: "c. 7th century — John of Nikiu, *Chronicle*."
+    ia_identifier: chronicleofjohnb00zote
+    witness_url: "https://archive.org/details/chronicleofjohnb00zote"
+    local_path: "{local_root}/internet-archive/chronicleofjohnb00zote.epub"
+    rights: public_domain
+    notes: "Egypt essay pins Zotenberg trans. — prefer IA scan matching that edition when locking witness."
+    status: pending
+
+  - source_id: rome-pd-gibbon-decline-and-fall
+    title: "Edward Gibbon, Decline and Fall (vol 2 witness)"
+    bibliography: "1776–1789 — Edward Gibbon, *The History of the Decline and Fall of the Roman Empire*."
+    ia_identifier: declineandfallof02gibb
+    witness_url: "https://archive.org/details/declineandfallof02gibb"
+    local_path: "{local_root}/internet-archive/declineandfallof02gibb.epub"
+    rights: public_domain
+    notes: "Bibliography links one volume; full work needs multi-vol IA set for offline completeness."
+    status: pending
+
+# --- Phase 2: manual HTML witnesses (not batch-scripted) ---
+
+manual_html:
+  - source_id: rome-pd-diodorus-library
+    title: "Diodorus Siculus, Library of History"
+    bibliography: "c. 60–30 BC — Diodorus Siculus, *Library of History*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/diodorus-siculus/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-arrian-anabasis
+    title: "Arrian, Anabasis of Alexander"
+    bibliography: "c. AD 130s — Arrian, *Anabasis of Alexander*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Arrian/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/arrian-anabasis/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-varro-de-lingua-latina
+    title: "Varro, De Lingua Latina"
+    bibliography: "c. 45 BC — Varro, *De Lingua Latina*."
+    witness_url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0057"
+    host: perseus
+    local_path: "{local_root}/perseus/varro-de-lingua-latina/"
+    rights: public_domain
+    acquisition: manual_export
+    status: pending
+
+  - source_id: rome-pd-dionysius-roman-antiquities
+    title: "Dionysius of Halicarnassus, Roman Antiquities"
+    bibliography: "c. 20s–7 BC — Dionysius of Halicarnassus, *Roman Antiquities*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/dionysius-roman-antiquities/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-augustus-res-gestae
+    title: "Augustus, Res Gestae Divi Augusti"
+    bibliography: "AD 14 — Augustus, *Res Gestae Divi Augusti*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html"
+    witness_alt: "https://www.perseus.tufts.edu/hopper/text?doc=Aug.+RG"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/augustus-res-gestae/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-velleius-roman-history
+    title: "Velleius Paterculus, Roman History"
+    bibliography: "c. AD 30 — Velleius Paterculus, *Roman History*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Velleius_Paterculus/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/velleius-paterculus/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-plutarch-cato-elder
+    title: "Plutarch, Life of Cato the Elder"
+    bibliography: "c. AD 100–120s — Plutarch, *Life of Cato the Elder*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Lives/Cato_the_Elder*.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/plutarch-cato-elder/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    notes: "May duplicate Dryden vol in IA plutarchslives00plut — lock one witness for essay pins."
+    status: pending
+
+  - source_id: rome-pd-tacitus-histories
+    title: "Tacitus, Histories"
+    bibliography: "c. AD 109–120 — Tacitus, *Histories*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/tacitus-histories/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-appian-punic-wars
+    title: "Appian, Punic Wars (Book VI)"
+    bibliography: "c. AD 140s–160s — Appian, *Punic Wars*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/home.html"
+    witness_alt: "https://www.livius.org/sources/content/appian/appian-the-punic-wars/"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/appian-punic-wars/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-florus-epitome
+    title: "Florus, Epitome of Roman History"
+    bibliography: "c. AD 2nd century — Florus, *Epitome of Roman History*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Florus/Epitome/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/florus-epitome/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+  - source_id: rome-pd-procopius-wars
+    title: "Procopius, Wars of Justinian"
+    bibliography: "c. AD 550s — Procopius, *Wars of Justinian*."
+    witness_url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/home.html"
+    host: lacus_curtius
+    local_path: "{local_root}/lacus-curtius/procopius-wars/"
+    rights: public_domain
+    acquisition: manual_export_or_scrape
+    status: pending
+
+# --- Excluded: modern secondary (metadata only) ---
+
+modern_restricted:
+  acquire: false
+  rights: modern_translation_restricted
+  bibliography_entries:
+    - "1939 — Ronald Syme, *The Roman Revolution*."
+    - "1939 — Will Durant, *The Life of Greece*."
+    - "1944 — Will Durant, *Caesar and Christ*."
+    - "1974 — Erich Gruen, *The Last Generation of the Roman Republic*."
+    - "1982 / English trans. 1995 — Christian Meier, *Caesar*."
+    - "1987 — John Keegan, *The Mask of Command*."
+    - "1999 — Andrew Lintott, *The Constitution of the Roman Republic*."
+    - "2001 — Anthony Everitt, *Cicero*."
+    - "2003 — Adrian Goldsworthy, *In the Name of Rome*."
+    - "2006 — Adrian Goldsworthy, *Caesar: Life of a Colossus*."
+    - "2006 — Anthony Everitt, *Augustus*."
+    - "2012 — Anthony Everitt, *The Rise of Rome*."
+    - "2014 — Adrian Goldsworthy, *Augustus: First Emperor of Rome*."
+    - "2016 — Anthony Everitt, *The Rise of Athens*."
+    - "2018 — Adrian Goldsworthy, *The Rise of Rome*."
+    - "2019 — Anthony Everitt, *Alexander the Great*."
+    - "2000 — Adrian Goldsworthy, *The Punic Wars*."
+    - "2003 — Adrian Goldsworthy, *The Fall of Carthage*."
+    - "2010 — Richard Miles, *Carthage Must Be Destroyed*."
+    - "2011 — Dexter Hoyos, *Mastering the West*."
+    - "1995 — Serge Lancel, *Carthage: A History*."
+    - "1990 — Nigel Bagnall, *The Punic Wars*."
+    - "1970 — H. H. Scullard, *Scipio Africanus*."
+
+# --- Phase 1 download hints (operator / future script) ---
+
+download_hints:
+  gutenberg_epub: "https://www.gutenberg.org/ebooks/{gutenberg_id}.epub3.images"
+  gutenberg_txt: "https://www.gutenberg.org/files/{gutenberg_id}/{gutenberg_id}-0.txt"
+  internet_archive_metadata: "https://archive.org/metadata/{ia_identifier}"
+  internet_archive_download: "https://archive.org/download/{ia_identifier}/{ia_identifier}.epub"
