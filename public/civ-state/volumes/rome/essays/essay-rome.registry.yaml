@@ -123,12 +123,13 @@ essays:
     role: "dependency system · grain · Nile · Alexandria hinge"
     prose_qa:
       class: civic-chain-rome-humanize
-      body_words: 2615
-      quoted_words: 503
-      quote_pct: 19.2
-      footnotes: 25
+      body_words: 2491
+      quoted_words: 455
+      quote_pct: 18.3
+      footnotes: 22
       verified: 2026-06-22
       waiver: ratio-primary-gate
+      pass: dependency-system-revision
 
   - id: francia
     file: essay-rome-francia.md

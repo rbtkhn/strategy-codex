@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.62** — Egypt geo-branch dependency-system revision: `essay-rome-egypt.md` in-place prose — strip Augustus Actium flight/constitutional overlap and Constantinople doctrinal drift; re-anchor grain, Nile logistics, and administrative continuity; Alexandria grain-primary (Library as administrative intelligibility); `essay-rome-egypt.meta.yaml` `proves_here` + registry `prose_qa`; `civic-chain-rome-humanize` QA (body 2,491 · quoted 455 · 18.3% · ratio-primary-gate).
+
 **v0.1.60** — Rome bibliography downstream wiring: essay citation inventory (`rome-bibliography.md`, civic-chain four verified); retrieve redirect renamed `bibliography.md` → `source-shelf.md`; `civ-state-essay` **v0.2.5** (inventory procedure, lattice-growth when next `essay-rome-*` node goes active).
 
 **v0.1.59** — Rome source-discipline pass (four civic-chain essays): remove body `Later reception` blocks; Gibbon, Mommsen, Syme, Goldsworthy, Everitt, Durant → `## Notes` only with SSOT labels; authorial synthesis + ancient quote weave; genesis Athens beat + L55 republic institutions; `civ-state-essay` v0.2.3 + template L7 aligned; `civic-chain-rome-humanize` QA (genesis body 2,734 · quoted 462; republic 2,607 · 461; caesar 2,490 · 450; augustus 2,630 · 451).
