@@ -83,13 +83,9 @@ files:
   - path: skill-steward.md
     category: compatibility
     relocation_target: codex/skill-steward.md
-  - path: how-instances-consume-upgrades.md
-    category: compatibility
   - path: DESIGN.md
     category: compatibility
   - path: grace-mar.code-workspace
-    category: compatibility
-  - path: license-record
     category: compatibility
 
 # Local / untracked noise — ignored by budget checker when present on disk

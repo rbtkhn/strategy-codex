@@ -28,7 +28,7 @@ Living document for **alignment** between this **instance** and the [companion-s
 
 | Layer | Primary surface | Role |
 |------|------------------|------|
-| **Doctrine** | [merging-from-companion-self.md](merging-from-companion-self.md), [how-instances-consume-upgrades.md](../how-instances-consume-upgrades.md) | Policy: what may sync, what must never sync, and how selective merge works |
+| **Doctrine** | [merging-from-companion-self.md](merging-from-companion-self.md), [how-instances-consume-upgrades.md](archive/how-instances-consume-upgrades.md) | Policy: what may sync, what must never sync, and how selective merge works |
 | **Contract** | [instance-contract.json](../instance-contract.json) | Target version / commit grace-mar is aiming to match |
 | **Applied provenance** | [platform/template/template-source.json](../platform/template/template-source.json) | Last actual upstream commit merged, by whom, and on which paths |
 | **Audit** | [work-companion-self/audit-report-manifest.md](skill-work/work-companion-self/audit-report-manifest.md), `scripts/template_diff.py` | Drift visibility and next merge slices |

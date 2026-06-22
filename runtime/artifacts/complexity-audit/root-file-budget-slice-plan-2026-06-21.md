@@ -6,11 +6,11 @@
 
 | Signal | Value |
 |---|---|
-| Root files on disk (non-dot) | **32** (was 34) |
-| Git-tracked root files | **~31** (after template JSON wedge) |
-| `max_root_files` | **25** |
-| Over budget by | **7** (was 9) |
-| Wedge 1 (template JSON) | **Done** 2026-06-21 — `platform/template/template-{manifest,source}.json` |
+| Root files on disk (non-dot) | **30** (was 32) |
+| Git-tracked root files | **~29** (after wedge 2) |
+| Over budget by | **5** (was 7) |
+| Wedge 1 (template JSON) | **Done** 2026-06-21 |
+| Wedge 2 (upgrade doc + license) | **Done** 2026-06-21 |
 
 Preflight: `python scripts/assert_root_file_budget.py` · `--strict` fails.
 
@@ -49,8 +49,8 @@ Move to documented archive/template paths; update links:
 
 | File | Target |
 |---|---|
-| `how-instances-consume-upgrades.md` | `docs/archive/how-instances-consume-upgrades.md` |
-| `license-record` | `docs/archive/license-record` |
+| `how-instances-consume-upgrades.md` | `docs/archive/how-instances-consume-upgrades.md` | **Done** |
+| `license-record` | `docs/archive/license-record` | **Done** |
 | `template-manifest.json` | `platform/template/template-manifest.json` | **Done** |
 | `template-source.json` | `platform/template/template-source.json` | **Done** |
 | `DESIGN.md` | `docs/skill-work/work-dev/DESIGN.md` (update creative-pipeline links) |

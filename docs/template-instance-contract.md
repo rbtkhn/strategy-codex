@@ -12,7 +12,7 @@
 | **Staging (gate)** | Documents the **gate queue** abstraction (`recursion-gate.json`, `recursion-gate.md`, optional legacy names). | Chooses a concrete file (Grace-Mar: `recursion-gate.md`). | **Same contract:** stage → review → approve → merge; no merge without approval. Filename is **not** the contract. |
 | **Material change (post-seed)** | Documents **change-review** (queue, proposals, decisions, diffs) for durable edits that are not simple gate merges. | May maintain `archive/queues/review-queue/` and related artifacts per [change-review](change-review.md). | Gate and change-review are **different** surfaces; see [gate-vs-change-review](gate-vs-change-review.md). |
 | **Seed phase** | Canonical JSON Schemas, stages, readiness rules. | Produces `seed-phase/` artifacts and, after activation, lives in instance paths. | Instance follows template schemas unless a documented migration says otherwise. |
-| **Upgrades** | Version metadata (see root `template-version.json` and upgrade docs). | Tracks alignment (see instance `instance-contract.json` and `docs/template-sync-status.md` in grace-mar). | Instances merge template changes deliberately; see [how-instances-consume-upgrades.md](../how-instances-consume-upgrades.md). |
+| **Upgrades** | Version metadata (see root `template-version.json` and upgrade docs). | Tracks alignment (see instance `instance-contract.json` and `docs/template-sync-status.md` in grace-mar). | Instances merge template changes deliberately; see [how-instances-consume-upgrades.md](archive/how-instances-consume-upgrades.md). |
 
 ---
 
@@ -33,7 +33,7 @@
 
 When the template bumps **seed-phase version**, **schemas**, or **governance docs**, instances should:
 
-1. Read release notes / `template-version.json` (and [how-instances-consume-upgrades.md](../how-instances-consume-upgrades.md)).
+1. Read release notes / `template-version.json` (and [how-instances-consume-upgrades.md](archive/how-instances-consume-upgrades.md)).
 2. Run validation scripts against their artifact paths.
 3. Record intentional divergence in instance docs (for example `docs/template-sync-status.md` in grace-mar) rather than silently drifting.
 

@@ -99,5 +99,5 @@ The ideas behind Grace-Mar draw on the work of: Alexander Wissner-Gross (causal 
 ## License
 
 - **Code and tooling:** Proprietary. All rights reserved.
-- **Record / user data:** See [license-record](license-record) â€” user Records (SELF, EVIDENCE, etc.) are personal data owned by the user; the system holds them in trust.
+- **Record / user data:** See [license-record](docs/archive/license-record) — user Records (SELF, EVIDENCE, etc.) are personal data owned by the user; the system holds them in trust.
 

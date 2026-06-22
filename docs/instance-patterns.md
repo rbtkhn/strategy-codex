@@ -104,7 +104,7 @@ Full governed workflow (identity-diff UI, resolution types, temporal merge, audi
 
 **Use when:** The template bumps `seed_phase.version` or JSON Schemas.
 
-**Pattern:** Preserve existing seed JSON (git tag or copy); run strict validation; if invalid, run a documented migration or re-collect affected stages — do not silently replace files. See [how-instances-consume-upgrades.md](../how-instances-consume-upgrades.md) § Seed-phase upgrade compatibility.
+**Pattern:** Preserve existing seed JSON (git tag or copy); run strict validation; if invalid, run a documented migration or re-collect affected stages — do not silently replace files. See [how-instances-consume-upgrades.md](archive/how-instances-consume-upgrades.md) § Seed-phase upgrade compatibility.
 
 ---
 
@@ -140,7 +140,7 @@ Use this pattern when:
 - the instance has already accumulated reviewed local commitments
 - the cost of silent drift is high
 
-See [how-instances-consume-upgrades.md](../how-instances-consume-upgrades.md) (section **Template upgrade collisions**).
+See [how-instances-consume-upgrades.md](archive/how-instances-consume-upgrades.md) (section **Template upgrade collisions**).
 
 ---
 

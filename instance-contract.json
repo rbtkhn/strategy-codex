@@ -9,7 +9,7 @@
   "syncArchitecture": {
     "doctrinePaths": [
       "docs/merging-from-companion-self.md",
-      "how-instances-consume-upgrades.md",
+      "docs/archive/how-instances-consume-upgrades.md",
       "docs/template-sync-status.md"
     ],
     "appliedProvenancePath": "template-source.json",

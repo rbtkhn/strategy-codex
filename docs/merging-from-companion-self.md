@@ -12,7 +12,7 @@ Template → instance sync in grace-mar uses **four layers**, each with a differ
 
 | Layer | Canonical surface | What it answers |
 |------|-------------------|-----------------|
-| **Doctrine** | This file + [`../how-instances-consume-upgrades.md`](../how-instances-consume-upgrades.md) + [`template-sync-status.md`](template-sync-status.md) | What may sync, what must never sync, and what counts as approved local divergence |
+| **Doctrine** | This file + [`archive/how-instances-consume-upgrades.md`](archive/how-instances-consume-upgrades.md) + [`template-sync-status.md`](template-sync-status.md) | What may sync, what must never sync, and what counts as approved local divergence |
 | **Contract** | [`../instance-contract.json`](../instance-contract.json) | What upstream template version / commit grace-mar is targeting |
 | **Applied provenance** | [`../platform/template/template-source.json`](../platform/template/template-source.json) | Which upstream commit was actually merged most recently, by whom, and on which paths |
 | **Audit / merge workflow** | [`skill-work/work-companion-self/audit-report-manifest.md`](skill-work/work-companion-self/audit-report-manifest.md) + [`../scripts/template_diff.py`](../scripts/template_diff.py) + this checklist | What currently differs and which slice should be reconciled next |
