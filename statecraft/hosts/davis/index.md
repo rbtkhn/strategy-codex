@@ -24,6 +24,12 @@ Open Davis first when the dominant failure mode is:
 
 Use **`source-archive/statecraft/YYYY-MM-DD/day-index.md`** for full day lists.
 
+### 2025-12-12 — Jermy (Venezuela / NSS week)
+
+| Guest | Capture |
+| --- | --- |
+| **Commodore Steve Jermy** | [Oil, drugs Venezuela & Colombia; Weinberger; Trump NSS](../../../source-archive/statecraft/2025-12-12/source-daniel-davis-deep-dive-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · cross-weave [Dec-12 Siversk/NSS](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md) |
+
 ### 2025-11-06 — Jermy (Russia war objectives)
 
 | Guest | Capture |

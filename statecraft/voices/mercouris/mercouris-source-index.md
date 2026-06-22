@@ -64,6 +64,12 @@ November solo run = **energy strikes + Pokrovsk/Kupyansk/Zaporozhye collapse geo
 - [2025-11-14 | Kiev darkest day; gives up Pokrovsk](../../../source-archive/statecraft/2025-11-14/source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md)
 - [2025-11-20 | Istanbul+ / Kellogg quit / EU stunned](../../../source-archive/statecraft/2025-11-20/source-alex-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md)
 
+## 2025-12 — Siversk / NSS same-day
+
+**Cross-weave:** [Jermy × Mercouris × Freeman/Wilkerson Dec-12 (2025-12-12)](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md) · [December benchmark](../../notes/december-2025-benchmark-note.md)
+
+- [2025-12-12 | Siversk falls; Huliaipole falling; West in denial; Donbass is ours](../../../source-archive/statecraft/2025-12-12/source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — **cleaned transcript** (source-clean + manual ASR) · pair with [Davis × Jermy NSS same day](../../source-archive/statecraft/2025-12-12/source-daniel-davis-deep-dive-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) · [Freeman/Wilkerson chain reaction same day](../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) · [three-way weave](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md)
+
 ## 2026-01 Greenland week — Jan 20 cross-weave
 
 Same-day **Greenland crisis** — route Mercouris **solo institutional braid** against guest-pair registers; do **not** collapse into one verdict.
