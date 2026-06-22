@@ -70,7 +70,7 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 
 **Civic-chain read order** (when narrative continuity helps): genesis → republic → caesar → augustus — each active node has a `.meta.yaml` sidecar for routing.
 
-**Essay citation inventory (PD URLs):** [../rome-bibliography.md](../rome-bibliography.md) — downstream of **active** `essay-rome-*` nodes (currently civic-chain four); append new sources when the next node goes active — reuse URL sub-lines when adding quotes or Notes entries. **Retrieve shelf (era doors):** [../../../sources/rome/bibliography.md](../../../sources/rome/bibliography.md) via [../source-shelf.md](../source-shelf.md) — upstream `civ-state` retrieve, not essay inventory.
+**Essay citation inventory (PD URLs):** [../rome-bibliography.md](../rome-bibliography.md) — downstream of **active** `essay-rome-*` nodes (civic-chain four + **carthage**); append new sources when the next node goes active — reuse URL sub-lines when adding quotes or Notes entries. **Retrieve shelf (era doors):** [../../../sources/rome/bibliography.md](../../../sources/rome/bibliography.md) via [../source-shelf.md](../source-shelf.md) — upstream `civ-state` retrieve, not essay inventory.
 
 | slug | essay | meta | status |
 |------|-------|------|--------|
@@ -78,6 +78,7 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 | republic | [essay-rome-republic.md](essay-rome-republic.md) | [essay-rome-republic.meta.yaml](essay-rome-republic.meta.yaml) | active |
 | caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | [essay-rome-caesar.meta.yaml](essay-rome-caesar.meta.yaml) | active |
 | augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | [essay-rome-augustus.meta.yaml](essay-rome-augustus.meta.yaml) | active |
+| carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | [essay-rome-carthage.meta.yaml](essay-rome-carthage.meta.yaml) | active |
 
 Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yaml`](essay-rome.registry.yaml).
 

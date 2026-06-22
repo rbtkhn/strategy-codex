@@ -1,0 +1,86 @@
+﻿# Carthage
+
+On the North African coast, where the sea narrows toward Sicily, Carthage had already built a world Rome had barely entered. Its harbor opened west toward Spain and Sardinia; behind it lay grain lands, pastoral hinterland, and African subjects who supplied men and tribute. Rome in the third century BC was still an Italian federation with legions and treaties. Carthage was a governed city with councils, suffetes, fleets, and colonies tied together by trade routes and mercenary contracts. When the two powers collided, Rome did not defeat a weak neighbor. It defeated the western Mediterranean's strongest commercial and naval city—and in doing so learned what it meant to command beyond Italy.
+
+Carthage offered Rome something more unsettling than enmity. It was another way a civilization could organize power: through ships, harbors, silver from Spain, African estates, and maritime reach rather than through Latin colonies and annual magistrates. The Punic Wars were therefore not an interruption in Roman development. They were the trial by which Rome learned the sea.
+
+## Carthage Before Rome
+
+Carthage began as a Phoenician foundation from Tyre, a city whose memory looked east to Lebanon even as its power faced west toward the strait. Its natural harbor on the North African coast opened toward Sicily and the central Mediterranean; behind it lay grain lands, pastoral hinterland, and the African interior that supplied men and tribute. Carthage did not rule Italy or hold a compact land federation. It commanded networks—colonies, subject cities, treaties, fleets, and the silver of Spain.
+
+Greek observers took its political order seriously. Aristotle ranked Carthage among constitutions worth studying alongside Sparta and Crete: "The Carthaginians are also considered to have an excellent form of government, which differs from that of any other state in several respects, though it is in some very like the Spartan. Indeed, all three states—the Spartan, the Cretan, and the Carthaginian—nearly resemble one another, and are very different from any others. Many of the Carthaginian institutions are excellent. The superiority of their constitution is proved by the fact that the common people remain loyal to the constitution. The Carthaginians have never had any rebellion worth speaking of, and have never been under the rule of a tyrant."[^1] He noted oligarchic tendencies—magistrates chosen with an eye to wealth as well as merit—but he did not treat Carthage as a primitive trading post. It was a governed city with councils, suffetes, and military command woven into civic life.
+
+Virgil fixed the rival city in epic before historians fixed it in annals. When Aeneas reached the Libyan coast, he saw Tyrian Carthage rising at the harbor—"an amphitheatre, vast and high, was built, and scattered cottages and rising towers showed Tyrians busy at their toils."[^2] Roman memory would later reduce that city to an enemy to be feared or destroyed. Before Rome crossed into Sicily, however, Carthage was already a working order: harbor, council, trade route, naval arsenal, African hinterland, Spanish metals, and commitments in Sardinia and western Sicily. It was not Rome's shadow. It was Rome's alternative—a maritime empire whose strength lay in the sea lanes Rome had barely learned to name.
+
+## Sicily
+
+Sicily made the difference between Italian strength and command of the western sea. The island sits between Italy and Africa at the narrowest crossing between the two shores: Greek cities in the east, especially Syracuse, complicated its politics; Carthage had long operated in the west. Grain from Sicilian fields fed cities on both shores; ports on either coast could shelter fleets that controlled the strait. A land power could master Latium and still not hold the water that carried grain and war.
+
+When Roman and Carthaginian interests collided over Messana and the Sicilian cities, Rome entered a maritime sphere it had not built. Distance mattered in a new way. Armies that marched easily through Italy had to be fed, shipped, and relieved across water Rome did not yet own. Convoys could be intercepted; storms could destroy more men than battle. Roman commanders learned to think in sailing seasons and harbor capacity as well as in marching days. A garrison in Messana or Lilybaeum depended on supply lines that a Samnite war in the Apennines had never required. The First Punic War began not as a grand design for empire but as an intervention that forced Rome to think in terms of straits, naval bases, and overseas garrisons. Sicily was the seam where Greek, Punic, and Roman worlds met—and where Rome first discovered that sea power required more than the legion.
+
+## Rome Learns the Sea
+
+Rome entered the First Punic War as a land power with borrowed ships. Polybius marveled at the audacity: "When they first took in hand to send troops across to Messene they not only had no decked vessels but no war-ships at all, not so much as a single galley: but they borrowed quinqueremes and triremes from Tarentum and Locri, and even from Elea and Neapolis; and having thus collected a fleet, boldly sent their men across upon it."[^3] He added that Rome had "not only no resources for it of reasonable sufficiency; but without any resources for it at all, and without having ever entertained an idea of naval war—for it was the first time they had thought of it—they nevertheless handled the enterprise with such extraordinary audacity, that, without so much as a preliminary trial, they took upon themselves there and then to meet the Carthaginians at sea, on which they had for generations held undisputed supremacy."[^4]
+
+Roman shipwrights copied captured Carthaginian vessels; crews trained on mock decks while hawsers held ships ashore. The corvus or boarding bridge—whether Polybius's full account or later Roman legend—turned naval battles into brief land fights where legionaries could excel. Storms wrecked inexperienced fleets at Cape Pachynus and elsewhere; Rome lost ships, rebuilt in months what had taken years to learn, and returned. Carthage began with naval advantage; Rome answered with institutional persistence. The war taught copying, improvisation, and the conversion of Italian manpower into rowers and marines. Victory in 241 BC brought Sicily under Roman oversight—the first province outside Italy—but the deeper change was habit. The Senate's calendar of Italian wars gave way to harbor dues, ship counts, and arguments over how far a consul's *imperium* ran once his camp stood on a foreign shore and his supplies came by sea. Rome's achievement in this war was not that it was already a sea power. It was that it became one under pressure.
+
+## Spain and the Barcid Answer
+
+Carthage did not collapse after losing Sicily. It nearly tore itself apart in the Mercenary War—the Truceless War—when unpaid soldiers and African subjects rose against a city that had relied on hired swords. Polybius treats that ordeal as proof of Carthaginian hardness: the city survived its own revolt and turned west. Hamilcar Barca, who had fought Rome in Sicily without receiving a fleet adequate to his skill, built a new base in Spain. Silver, manpower, and strategic depth there gave Carthage a continental answer to Roman naval strength.
+
+Hamilcar's family—Hasdrubal, then Hannibal—became almost a state within the Carthaginian state. Spain supplied metals and soldiers; the route from New Carthage toward the Alps and Italy offered a path around Roman sea power. Hasdrubal's treaty with Rome fixed the Ebro as a boundary; Saguntum's fall showed how quickly that boundary became a pretext for continental war. Polybius opened his account of the coming catastrophe by naming the scale of the next war: "In Italy, Libya, and the adjacent regions, the war between Rome and Carthage, usually known as the Hannibalic War."[^5] When Saguntum, a city allied to Rome south of the Ebro, fell to Hannibal's siege, that war began not as a fleet action but as a land campaign aimed at the heart of Rome's alliance system. Carthage had produced a strategic reversal: if Rome held the sea after Sicily, the Barcids would strike Italy from the land.
+
+## Hannibal's War
+
+Hannibal crossed the Alps with elephants, cavalry, and veterans who had grown up in the Spanish wars. He shattered Roman armies on the Ticinus, the Trebia, Lake Trasimene, and finally at Cannae in 216 BC. Polybius described the field: "The armour of the Libyans was Roman, for Hannibal had armed them with a selection of the spoils taken in previous battles… The whole strength of the Carthaginian cavalry was ten thousand, but that of their foot was not more than forty thousand, including the Celts."[^6] When the lines closed, the Carthaginian horse drove off the Roman cavalry and wheeled inward; the infantry ring tightened until a consular army was destroyed in an afternoon.
+
+Livy, writing for Roman readers who knew the catastrophe by name, recorded what followed in the city itself—not the street panic of the worst hour, but the Senate's refusal to break: "The senate decreed that no one should speak of peace while Hannibal was in Italy, and that the levy should be held without exemption, even of the boys and old men."[^7] Terror was real; negotiation was refused. Hannibal did almost everything a commander could do. He killed consuls, destroyed armies, and lived for years in Italy without a secure port that could feed his campaign at scale. He won allies at Capua and in southern Italy, yet even at his zenith he could not starve Rome of soldiers. Latin colonies continued to hold; the Senate kept raising legions from a pool Hannibal had meant to detach.
+
+His strategy depended on breaking the treaty network that supplied Rome with men—on turning Capua, Tarentum, and the Latin cities into permanent defectors. Some cities wavered; few delivered the mass defection victory required. Gold and booty flowed, but without a decisive political break the war became a long contest Rome could afford more easily than Carthage could replace its losses. Carthage had produced the greater captain. Rome had produced the harder political machine—one that could lose at Cannae and still field another army.
+
+## Scipio and the War in Africa
+
+Rome's answer was not only delay and attrition under Quintus Fabius Maximus in Italy. Publius Cornelius Scipio, after recovering from disaster in Spain, broke the Barcid base there and then carried the war to Africa. If Hannibal could threaten Rome from Italy, Rome could threaten Carthage at home. Scipio's landing forced the recall of Hannibal from a peninsula where he had won battles but not the war. At Zama in 202 BC, Roman and Carthaginian veterans met on African soil. Polybius records Hannibal's deployment of elephants and veterans, and the Roman response that turned Carthaginian cavalry against its own infantry: "When the Romans had broken the enemy's front line, the main bodies met and fought for a long time without either side gaining the advantage."[^8] In the end the Numidian horse and Roman discipline decided the day. The Second Punic War ended with Carthage stripped of Spain, forced to pay indemnity, and forbidden to make war without Roman consent—but the city still stood.
+
+Scipio's victory changed the geometry of the western Mediterranean. Rome had learned to fight on both elements: the legion that learned the sea in Sicily, and the fleet and African expedition that turned Carthaginian geography against Carthage. Carthage's harbor, which had launched fleets against Rome for generations, now lay under the threat of Roman landing craft. Neither city could any longer treat the sea as a barrier the other would not cross.
+
+## From Shadow to Annihilation
+
+Defeated Carthage became more disturbing to Rome, not less. The city paid tribute, rebuilt its walls, and prospered again while Numidian kings—especially Masinissa—picked at its borders with Roman approval. Each recovery looked like proof that the peace of Zama had left a rival alive. A ruined enemy might be safe; a disciplined, recovering, wealthy enemy was a standing accusation against Roman finality. Virgil had fixed the rivalry in epic before Cato fixed it in the Senate: dying Dido called down "an avenger from my bones, who shall with fire and sword pursue the Dardan settlers."[^9] Roman readers would later read Hannibal in that shadow. Plutarch preserved Cato the Elder's performance in the Senate: "It is said that Cato, when he was speaking in the Senate, brought a fresh fig from Carthage in his hand, and showed it to the senators, saying, 'See how close the enemy is to us!'"[^10] His refrain that Carthage must be destroyed entered Roman political speech.
+
+When Rome demanded that Carthage disarm and then surrender its city to be resettled inland, Carthage chose resistance. Appian describes the final siege under Scipio Aemilianus: house-to-house fighting, starvation, and fire that ran for days. Of the capture he writes: "The city was entirely destroyed, and for seventeen days the fire continued, during which time the soldiers were busy in plunder and slaughter. So great was the destruction that not even the ruins were left to show where Carthage had been, but the whole place was levelled to the ground."[^11] Rome had incorporated many enemies; Carthage was different. The city had become a memory Rome did not trust itself to leave standing. In the same year Corinth fell in Greece, Rome hardened its Mediterranean order toward annihilation as well as absorption.
+
+## Africa After Carthage
+
+Rome destroyed Carthage as a rival but inherited its geography. Africa became a province; grain, estates, ports, and administration followed the legions. Tax farmers, quaestors, and later governors would measure their careers in African harvests and harbor dues as much as in Italian elections. The land that had fed Punic armies would feed Roman cities; the same coastline linked Sicily, Sardinia, and Spain in a western circuit Rome now had to govern rather than merely raid. Strabo, writing when the site was still desolate, described both ruin and enduring value: "Carthage, for a long time remained desolate, about the same length of time as Corinth… but it was restored again at about the same time as Corinth by the deified Caesar."[^12] Even in desolation the land remained "blest by nature" in soil and position—the African inheritance did not end with the Punic Wars. The ports that had fed Punic power would feed Roman power; the same coast would later know Roman colonies, bishops, rebels, and theologians.
+
+Rome did not merely defeat Carthage. It crossed through Carthage into a new scale of power. The Republic entered the Punic Wars as an Italian federation learning the sea; it emerged with provinces, fleets, grain routes, and an African responsibility it could not undo by burning a city. Carthage had been the alternative western Mediterranean order. Once it was gone, Rome no longer had to share the west—but in destroying the rival city, Rome also became steward of the world that rival had once held together.
+
+## Notes
+
+[^1]: Aristotle, *Politics*, II.11 (Jowett trans.): Carthaginian constitution — excellence, loyalty, no tyranny or serious rebellion.
+
+[^2]: Virgil, *Aeneid* I.421–422 (Dryden-era public-domain rendering): Tyrian Carthage rising — amphitheatre, towers, builders at toil. *(Epic memory — harbor city; not chronicle SSOT.)*
+
+[^3]: Polybius, *Histories*, I.20 (Shuckburgh trans.): borrowed ships for Messana; no prior war fleet.
+
+[^4]: Polybius, *Histories*, I.20 (Shuckburgh trans.): no naval resources; audacity to meet Carthaginians at sea.
+
+[^5]: Polybius, *Histories*, III.1 (Shuckburgh trans.): Hannibalic War in Italy, Libya, and adjacent regions.
+
+[^6]: Polybius, *Histories*, III.114 (Shuckburgh trans.): Cannae — Libyan infantry in Roman spoils; cavalry and foot strengths.
+
+[^7]: Livy, *Ab Urbe Condita*, XXII.55 (trad.): no peace while Hannibal in Italy; levy without exemption. *(Not XXII.54 panic passage used in civic-chain Republic essay.)*
+
+[^8]: Polybius, *Histories*, XV.14 (Shuckburgh trans., composite): Zama — main bodies engage; cavalry and discipline decide.
+
+[^9]: Virgil, *Aeneid* IV.625–629 (Dryden-era public-domain rendering): Dido's curse — avenger from bones pursuing Dardan settlers with fire and sword. *(Epic memory — pairs with Cato in Senate; not chronicle SSOT.)*
+
+[^10]: Plutarch, *Life of Cato the Elder*, 27 (trad.): fig from Carthage in the Senate; *Carthago delenda est* tradition.
+
+[^11]: Appian, *Punic Wars*, 132 (White trans.): seventeen days of fire; city levelled; ruins effaced.
+
+[^12]: Strabo, *Geography*, XVII.3 (Hamilton/Falconer trans.): Carthage desolate like Corinth; later restoration under Caesar.
+
+[^13]: Modern framing for Punic strategy and Roman alliance persistence: Adrian Goldsworthy, *The Punic Wars* · *The Fall of Carthage*; Dexter Hoyos, *Mastering the West*; Richard Miles, *Carthage Must Be Destroyed*; Serge Lancel, *Carthage: A History*; Nigel Bagnall, *The Punic Wars*; H. H. Scullard, *Scipio Africanus*. *(Modern / reception framing — not body SSOT.)*
+

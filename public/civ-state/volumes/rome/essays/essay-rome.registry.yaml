@@ -67,13 +67,13 @@ essays:
 
   - id: carthage
     file: essay-rome-carthage.md
-    meta: null
+    meta: essay-rome-carthage.meta.yaml
     h1: Carthage
     tier: geo-branch
     hex_link: null
-    status: planned
-    period: null
-    role: null
+    status: active
+    period: "Phoenician foundation through destruction (146 BC)"
+    role: "rival system · Rome's Mediterranean trial"
 
   - id: charlemagne
     file: essay-rome-charlemagne.md

@@ -1,0 +1,69 @@
+title: Carthage
+volume: rome
+essay_id: carthage
+status: active
+period: "Phoenician foundation through destruction (146 BC)"
+tier: geo-branch
+hex_link: null
+standalone: true
+
+role:
+  type: standalone geo-branch essay
+  function: rival western Mediterranean system — Rome learns sea, chooses annihilation, inherits Africa
+  chain_position: null
+  opens_after: null
+  closes_before: null
+
+where_this_sits: |
+  Essay-rome · tier geo-branch · no hex_link. Standalone rival-system read — not civic-chain genesis→augustus.
+  First active geo-branch lattice node. Defers republican institutional arc and full Africa province depth.
+
+proves_here:
+  - Punic rival grammar (maritime, commercial, African, Phoenician)
+  - Sicily seam · naval learning · Barcid Spain · Hannibal strategic limit
+  - Zama reversal · Third Punic annihilation · African inheritance
+
+defers_to:
+  essay-rome-republic.md:
+    - Conflict of Orders · provincial citizenship · late republic strain
+  essay-rome-africa.md:
+    - full Africa province · Christian African church · long African arc
+
+not_this_file:
+  - republican institutional development essay
+  - civic-chain genesis→augustus continuity
+  - full Africa volume node
+
+reading_posture_scope: |
+  Phoenician foundation through destruction (146 BC). Carthage as rival civilization — maritime grammar,
+  Punic Wars as Rome's Mediterranean trial, annihilation and African inheritance. Standalone — complete without peer essays.
+
+membrane:
+  - empire overreach ≠ entropy
+  - defer Africa depth to essay-rome-africa
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays:
+    - essay-rome-republic.md
+  hex_frame: null
+  term_depth:
+    - ../rome-memory.md#military-spine
+    - ../rome-empire.md#military-history-empire-lens
+  constitutional:
+    - civilization-rome.md
+    - empire-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens:
+    - geo-strategy-rome.md
+    - military-history-rome.md
+  return_path:
+    - connectivity-rome.md
+    - README.md
+    - ../README.md
+
+close_when: Rival system, naval learning, Hannibal's strategic limit, annihilation, and African inheritance are all legible — not when republican office strain is settled

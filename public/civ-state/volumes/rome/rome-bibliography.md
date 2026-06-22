@@ -37,6 +37,9 @@ Where a stable public-domain edition exists online, an indented line links to th
   - https://www.gutenberg.org/ebooks/44862
   - https://www.perseus.tufts.edu/hopper/text?doc=Plb.+1.1
 
+- c. 60–30 BC — Diodorus Siculus, *Library of History* (esp. Bk 25, Mercenary / Truceless War).
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/25*.html
+
 - c. 70 BC — Cicero, *Against Verres*.
   - https://www.gutenberg.org/ebooks/6576
 
