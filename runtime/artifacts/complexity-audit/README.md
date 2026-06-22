@@ -12,6 +12,7 @@ Baseline and final complexity metrics for the mitigation program.
 | Wave 2 path fallback removal | [wave-2-path-fallback-removal-2026-06-21.md](wave-2-path-fallback-removal-2026-06-21.md) |
 | Wave 3 archive placeholder readiness | [wave-3-archive-placeholder-readiness-2026-06-21.md](wave-3-archive-placeholder-readiness-2026-06-21.md) |
 | Wave 3 path fallback removal | [wave-3-path-fallback-removal-2026-06-21.md](wave-3-path-fallback-removal-2026-06-21.md) |
+| Wave 4 Grace-Mar compat readiness | [wave-4-grace-mar-compat-readiness-2026-06-21.md](wave-4-grace-mar-compat-readiness-2026-06-21.md) |
 
 Regenerate:
 

@@ -46,8 +46,8 @@ Readiness audit receipt: [`runtime/artifacts/complexity-audit/wave-3-archive-pla
 | `artifacts` | `active_canonical` | `runtime/artifacts` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `auto-research` | `active_canonical` | `research/auto-research` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `bin` | `active_canonical` | `platform/bin` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
-| `bootstrap` | `grace_mar_compat` | `archive/grace-mar-instance/bootstrap` | `bootstrap` | `move_to_grace_mar_compat` | 4 | Archive-only bootstrap fallback. |
-| `bot` | `grace_mar_compat` | `archive/grace-mar-instance/bot` | `bot` | `move_to_grace_mar_compat` | 4 | Voice archaeology only; relocate to compat module. |
+| `bootstrap` | `grace_mar_compat` | `archive/grace-mar-instance/bootstrap` | `bootstrap` | `move_to_grace_mar_compat` | 4 | **ready** — compat helper in `strategy_codex.compat.grace_mar_paths`. |
+| `bot` | `grace_mar_compat` | `archive/grace-mar-instance/bot` | `bot` | `move_to_grace_mar_compat` | 4 | **ready** — compat helper in `strategy_codex.compat.grace_mar_paths`. |
 | `bridges` | `active_canonical` | `research/bridges` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `config` | `active_canonical` | `platform/config` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `daily-handoff` | `active_canonical` | `runtime/daily-handoff` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
@@ -59,7 +59,7 @@ Readiness audit receipt: [`runtime/artifacts/complexity-audit/wave-3-archive-pla
 | `miniapp` | `active_canonical` | `platform/miniapp` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `prepared-context` | `active_canonical` | `runtime/prepared-context` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `profile` | `active_canonical` | `platform/profile` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
-| `recursion-gate-staging` | `grace_mar_compat` | `archive/grace-mar-instance/recursion-gate-staging` | `recursion-gate-staging` | `move_to_grace_mar_compat` | 4 | Archive-only gate staging. |
+| `recursion-gate-staging` | `grace_mar_compat` | `archive/grace-mar-instance/recursion-gate-staging` | `recursion-gate-staging` | `move_to_grace_mar_compat` | 4 | **ready** — compat helper in `strategy_codex.compat.grace_mar_paths`. |
 | `reflection-proposals` | `archive_placeholder` | `archive/queues/reflection-proposals` | `—` | `keep_no_legacy` | 3 | Wave 3 fallback removed; canonical path only. |
 | `review-queue` | `archive_placeholder` | `archive/queues/review-queue` | `—` | `keep_no_legacy` | 3 | Wave 3 fallback removed; canonical path only. |
 | `runtime-bundle` | `active_canonical` | `runtime/bundle` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
@@ -89,9 +89,17 @@ evidence, reflection-proposals, review-queue
 
 Readiness verified before removal — see [`wave-3-archive-placeholder-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-archive-placeholder-readiness-2026-06-21.md).
 
-### Wave 4 — Grace-Mar compatibility relocation
+### Wave 4 — Grace-Mar compatibility relocation (readiness verified 2026-06-21)
 
-bot, recursion-gate-staging, bootstrap -> future `platform/src/strategy_codex/compat/grace_mar_paths.py` (document only; not moved in this slice).
+bot, recursion-gate-staging, bootstrap — canonical-only helpers in [`platform/src/strategy_codex/compat/grace_mar_paths.py`](../platform/src/strategy_codex/compat/grace_mar_paths.py). **Fallback tuples remain** in `REPO_PATH_MIGRATIONS` until a follow-up removal PR.
+
+| Key | Readiness |
+|---|---|
+| `bot` | ready |
+| `recursion-gate-staging` | ready |
+| `bootstrap` | ready |
+
+Readiness audit: [`wave-4-grace-mar-compat-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-grace-mar-compat-readiness-2026-06-21.md).
 
 `grace-mar-instance` has no legacy tuple (`keep_no_legacy`).
 
@@ -101,3 +109,4 @@ bot, recursion-gate-staging, bootstrap -> future `platform/src/strategy_codex/co
 - `python scripts/check_repo_path_strict.py`
 - `python scripts/check_repo_path_strict.py --wave 2`
 - `python scripts/check_repo_path_strict.py --wave 3`
+- `python scripts/check_repo_path_strict.py --wave 4`

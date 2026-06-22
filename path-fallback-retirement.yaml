@@ -41,7 +41,8 @@ entries:
   legacy:
   - bootstrap
   retirement_status: move_to_grace_mar_compat
-  notes: Archive-only bootstrap fallback.
+  readiness: ready
+  notes: Voice archaeology only; compat helper in strategy_codex.compat.grace_mar_paths.
   wave: 4
 - key: bot
   category: grace_mar_compat
@@ -49,7 +50,8 @@ entries:
   legacy:
   - bot
   retirement_status: move_to_grace_mar_compat
-  notes: Voice archaeology only; relocate to compat module.
+  readiness: ready
+  notes: Voice archaeology only; compat helper in strategy_codex.compat.grace_mar_paths.
   wave: 4
 - key: bridges
   category: active_canonical
@@ -133,7 +135,8 @@ entries:
   legacy:
   - recursion-gate-staging
   retirement_status: move_to_grace_mar_compat
-  notes: Archive-only gate staging.
+  readiness: ready
+  notes: Voice archaeology only; compat helper in strategy_codex.compat.grace_mar_paths.
   wave: 4
 - key: reflection-proposals
   category: archive_placeholder

@@ -255,3 +255,67 @@ def test_check_repo_path_strict_wave_3_strict_readiness():
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
+
+
+WAVE_4_KEYS = frozenset(
+    {
+        "bot",
+        "recursion-gate-staging",
+        "bootstrap",
+    }
+)
+
+
+def test_wave_4_keys_are_expected():
+    assert keys_for_wave(4) == WAVE_4_KEYS
+
+
+def test_wave_4_fallbacks_still_present_for_audit_slice():
+    for key in WAVE_4_KEYS:
+        assert len(REPO_PATH_MIGRATIONS[key]) > 1, key
+
+
+def test_wave_4_canonical_paths_exist():
+    for key in WAVE_4_KEYS:
+        canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
+        assert canonical.exists(), key
+
+
+def test_wave_4_readiness_report_covers_all_keys():
+    report = collect_wave_readiness_report(wave=4)
+    assert set(report["keys"]) == WAVE_4_KEYS
+
+
+def test_wave_4_readiness_all_ready():
+    report = collect_wave_readiness_report(wave=4)
+    retirement = load_path_fallback_retirement()
+    for key, item in report["keys"].items():
+        assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
+        assert retirement[key].get("readiness") == "ready", key
+
+
+def test_check_repo_path_strict_wave_4():
+    proc = subprocess.run(
+        [sys.executable, "scripts/check_repo_path_strict.py", "--wave", "4"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    assert "Wave 4 Grace-Mar compatibility readiness" in proc.stdout
+
+
+def test_check_repo_path_strict_wave_4_strict_readiness():
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/check_repo_path_strict.py",
+            "--wave",
+            "4",
+            "--strict-readiness",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout

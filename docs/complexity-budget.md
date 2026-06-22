@@ -117,9 +117,13 @@ Wave 3 archive placeholder fallback tails removed: **3** keys (`evidence`, `refl
 
 **Fallback tuple count:** 6 → **3** keys with `len(entry) > 1`.
 
-Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until Wave 4 completes (advisory CI).
+### Wave 4 readiness (2026-06-21)
 
-Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 3` (readiness audit).
+Wave 4 Grace-Mar compatibility fallback readiness verified: **3** keys (`bot`, `recursion-gate-staging`, `bootstrap` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Compat module fixed: [`platform/src/strategy_codex/compat/grace_mar_paths.py`](../platform/src/strategy_codex/compat/grace_mar_paths.py). Readiness audit: [`wave-4-grace-mar-compat-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-grace-mar-compat-readiness-2026-06-21.md). **Fallback tuples remain** until follow-up removal PR.
+
+Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until Wave 4 removal completes (advisory CI).
+
+Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 4` (readiness audit).
 
 ## CI rollout policy
 
