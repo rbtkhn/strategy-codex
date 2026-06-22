@@ -60,7 +60,9 @@ def render_route_registry(routes: list[dict[str, Any]]) -> str:
         "|---|---|---|---|---|",
     ]
     for route in sorted(routes, key=lambda r: str(r.get("id", ""))):
-        category = route.get("category") or "—"
+        category = route.get("category")
+        if not category:
+            raise ValueError(f"route missing category: {route.get('id')}")
         lines.append(
             "| {id} | {kind} | {category} | {path} | {hints} |".format(
                 id=route.get("id", ""),

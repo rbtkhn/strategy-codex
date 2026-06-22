@@ -55,36 +55,85 @@ def host_shelf_route_id(slug: str) -> str:
 CATEGORY_ENUM = frozenset({"source", "work", "generated", "archive"})
 
 
-def infer_route_category(kind: str, authority: str) -> str:
-    """Map kind + authority to the four-way category model (Sprint 3 inference)."""
+def _route_path(route: dict[str, Any]) -> str:
+    return str(route.get("path") or route.get("path_pattern") or "").replace("\\", "/")
+
+
+def _is_verbatim_source_capture_path(path: str) -> bool:
+    if not path.startswith("source-archive/statecraft/"):
+        return False
+    if "source-*.md" in path:
+        return True
+    basename = path.rsplit("/", 1)[-1]
+    return basename.startswith("source-") and basename.endswith(".md")
+
+
+def expected_route_category(route: dict[str, Any]) -> str:
+    """Path-first authority category (four-way model)."""
+    path = _route_path(route)
+    kind = str(route.get("kind", ""))
+    if _is_verbatim_source_capture_path(path):
+        return "source"
+    if kind == "source_capture":
+        return "source"
+    if path.startswith(("docs/archive/", "archive/grace-mar-")):
+        return "archive"
+    if path.startswith("runtime/artifacts/"):
+        return "generated"
     if kind in {"generated_inventory", "generated_dashboard"}:
         return "generated"
-    if kind in {"essay", "prose_shelf"}:
-        return "work"
-    if kind == "local_index_script" or authority == "derived_local":
-        return "generated"
-    if authority == "derived":
+    if route.get("id") == "llm-routing":
         return "generated"
     return "work"
 
 
-def validate_route_categories(data: dict[str, Any], errors: list[str]) -> None:
+def validate_route_categories(
+    data: dict[str, Any], errors: list[str], *, strict: bool
+) -> None:
+    seen_categories: set[str] = set()
     for route in data.get("routes", []):
-        kind = str(route.get("kind", ""))
-        authority = str(route.get("authority", ""))
+        route_id = route.get("id", "?")
         declared = route.get("category")
-        inferred = infer_route_category(kind, authority)
+        expected = expected_route_category(route)
+        kind = str(route.get("kind", ""))
+        path = _route_path(route)
+
         if declared is None:
+            if strict:
+                _err(errors, f"repo-map missing category on {route_id}")
+            else:
+                print(
+                    f"warning: repo-map missing category on {route_id} "
+                    f"(expected {expected})",
+                    file=sys.stderr,
+                )
             continue
+
         if declared not in CATEGORY_ENUM:
-            _err(errors, f"repo-map invalid category on {route.get('id')}: {declared}")
+            _err(errors, f"repo-map invalid category on {route_id}: {declared}")
             continue
-        if declared != inferred:
+
+        if declared != expected:
             _err(
                 errors,
-                f"repo-map category mismatch on {route.get('id')}: "
-                f"declared={declared} inferred={inferred} (kind={kind}, authority={authority})",
+                f"repo-map category mismatch on {route_id}: "
+                f"declared={declared} expected={expected} (kind={kind}, path={path})",
             )
+
+        if "generated" in kind and kind != "source_capture" and declared != "generated":
+            _err(
+                errors,
+                f"repo-map kind/category mismatch on {route_id}: kind={kind} requires generated",
+            )
+
+        seen_categories.add(str(declared))
+
+    missing_quadrants = CATEGORY_ENUM - seen_categories
+    if missing_quadrants:
+        _err(
+            errors,
+            f"repo-map missing category quadrant(s): {', '.join(sorted(missing_quadrants))}",
+        )
 
 
 def load_repo_map() -> dict[str, Any]:
@@ -444,7 +493,7 @@ def validate_all(
 
     data = load_repo_map()
     validate_schema(data, errors)
-    validate_route_categories(data, errors)
+    validate_route_categories(data, errors, strict=strict)
     validate_route_paths(data, errors)
     validate_required_routes(data, errors)
 

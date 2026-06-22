@@ -5,6 +5,7 @@ Baseline and final complexity metrics for the mitigation program.
 | Snapshot | Path |
 |----------|------|
 | Baseline (Sprint 1) | [baseline-2026-06-21.md](baseline-2026-06-21.md) |
+| Routing category normalization | [routing-category-normalization-2026-06-21.md](routing-category-normalization-2026-06-21.md) |
 
 Regenerate:
 

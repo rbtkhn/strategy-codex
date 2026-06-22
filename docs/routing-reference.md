@@ -23,29 +23,40 @@ Validate: `python3 scripts/validate_repo_routing.py --strict`
 
 ## Authority categories (four-way model)
 
-Sprint 3 adds optional `category` on repo-map routes. Until migration completes, infer from `kind` + `authority`:
+Every route in [`repo-map.yaml`](../repo-map.yaml) **must** declare `category`: `source`, `work`, `generated`, or `archive`. Validation uses path-first rules in `scripts/validate_repo_routing.py` (`expected_route_category`).
 
-| `category` | Meaning | Typical `kind` / `authority` |
+| `category` | Meaning | Typical routes |
 |---|---|---|
-| `source` | Primary or canonical source material | (reserved — archive captures use path patterns, not repo-map rows today) |
-| `work` | Active operator-authored or routing surfaces | `source_index` + `work_only`; `routing_aid`; `reading_discipline`; `directory_index` + `routing_aid` |
-| `generated` | Derived, rebuildable outputs | `generated_inventory` + `derived`; `generated_dashboard` + `derived`; `local_index_script` + `derived_local` |
-| `archive` | Frozen historical or compatibility material | Grace-Mar corpus pointers; legacy compatibility stubs |
+| `source` | Primary or canonical source material | `statecraft-source-capture` → `source-archive/statecraft/YYYY-MM-DD/source-*.md` |
+| `work` | Active operator-authored or routing surfaces | `source_index` (analyst indexes), `routing_aid`, essays, host shelves |
+| `generated` | Derived, rebuildable outputs | `LLM-ROUTING.md`, thread/day indexes, `runtime/artifacts/library-index.md` |
+| `archive` | Frozen historical or compatibility material | `archive/grace-mar-instance/self-library.md` |
 
-### Inference table (validator default)
+**Load-bearing distinction:** `statecraft/voices/*/*-source-index.md` is **`work`** (routing over captures). Verbatim `source-archive/statecraft/YYYY-MM-DD/source-*.md` is **`source`**. Day `day-index.md` files are **`generated`**.
 
-| `kind` | `authority` | Inferred `category` |
+### Path-first rules (validator)
+
+| Condition | `category` |
+|---|---|
+| `source-archive/statecraft/` + `source-*.md` path_pattern or basename `source-*.md` | `source` |
+| `kind: source_capture` | `source` |
+| Path under `docs/archive/` or `archive/grace-mar-` | `archive` |
+| Path under `runtime/artifacts/` | `generated` |
+| `kind` is `generated_inventory` or `generated_dashboard` | `generated` |
+| Route id `llm-routing` | `generated` |
+| Default | `work` |
+
+### Kind reference (selected)
+
+| `kind` | Typical `category` | Notes |
 |---|---|---|
-| `source_index` | `work_only` | `work` |
-| `routing_aid` | `routing_aid` or `work_only` | `work` |
-| `directory_index` | `routing_aid` | `work` |
-| `reading_discipline` | `work_only` | `work` |
-| `canonical_reference` | `canonical_self_library` | `work` |
-| `generated_inventory` | `derived` | `generated` |
-| `generated_dashboard` | `derived` | `generated` |
-| `local_index_script` | `derived_local` | `generated` |
+| `source_capture` | `source` | Verbatim transcript/wire body path_pattern |
+| `source_index` | `work` | Analyst corpus index — not primary source |
+| `local_index_script` | `work` | Script routing entry (e.g. `scripts/index_record.py`) |
+| `canonical_reference` under `archive/grace-mar-` | `archive` | Path prefix wins over kind |
+| `generated_inventory` | `generated` | Thread index, day-index path_pattern |
 
-When `category` is present on a route, it must match the inferred value or validation warns (Sprint 3) / fails (Sprint 6+).
+Declared `category` must match `expected_route_category()` or validation fails. All four categories must appear at least once in repo-map.
 
 ## Index disambiguation (short)
 

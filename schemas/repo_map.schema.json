@@ -14,7 +14,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "title", "kind", "authority"],
+        "required": ["id", "title", "kind", "authority", "category"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
           "title": { "type": "string", "minLength": 1 },
@@ -27,6 +27,7 @@
               "routing_aid",
               "directory_index",
               "source_index",
+              "source_capture",
               "reading_discipline",
               "canonical_reference",
               "generated_dashboard",

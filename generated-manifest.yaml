@@ -71,3 +71,8 @@ entries:
       patterns:
         - '"generated_at"'
         - "build_statecraft_month_indices.py"
+
+# TODO (manifest gaps — no batch --check yet):
+# - source-archive/statecraft/YYYY-MM-DD/day-index.md (per-day; build_statecraft_day_indices.py)
+# - source-archive/statecraft/YYYY-MM.md month inventory notes
+# - runtime/artifacts/**/latest.md operator dashboards (ephemeral)
