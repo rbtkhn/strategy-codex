@@ -71,8 +71,6 @@ files:
   - path: compute-ledger.jsonl
     category: operator
     relocation_target: runtime/operator-events/compute-ledger.jsonl
-  - path: instance-contract.json
-    category: operator
 
   - path: skill-think.md
     category: compatibility

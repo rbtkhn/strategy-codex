@@ -15,7 +15,7 @@
     "ref": "main"
   },
   "targetReference": {
-    "instanceContract": "instance-contract.json",
+    "instanceContract": "platform/config/instance-contract.json",
     "templateVersionTarget": "0.4.0",
     "templateCommitTarget": "0123456789abcdef0123456789abcdef01234567"
   },

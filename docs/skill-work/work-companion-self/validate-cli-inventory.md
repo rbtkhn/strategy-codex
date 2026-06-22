@@ -13,7 +13,7 @@
 ## After template merge (checklist)
 
 - [ ] `python scripts/validate.py --help` in both repos.
-- [ ] Pin [`template-source.json`](../../../template-source.json) / [`instance-contract.json`](../../../instance-contract.json) to companion-self merge commit.
+- [ ] Pin [`platform/template/template-source.json`](../../../platform/template/template-source.json) / [`platform/config/instance-contract.json`](../../../platform/config/instance-contract.json) to companion-self merge commit.
 - [ ] Run `python3 scripts/template_diff.py` (see merge-from-template workflow).
 - [ ] Confirm `ci` subcommand: template may omit instance-only scripts (`work_dev/validate_control_plane.py` etc.)—orchestrator must **error clearly** when a script path is missing.
 

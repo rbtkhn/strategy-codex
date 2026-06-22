@@ -6,8 +6,8 @@ Living document for **alignment** between this **instance** and the [companion-s
 
 ## Contract target
 
-- **Target template version:** see root [`instance-contract.json`](../instance-contract.json) (`templateVersionTarget`).
-- **Target companion-self commit:** see root [`instance-contract.json`](../instance-contract.json) (`templateCommitTarget`).
+- **Target template version:** see [`platform/config/instance-contract.json`](../platform/config/instance-contract.json) (`templateVersionTarget`).
+- **Target companion-self commit:** see [`platform/config/instance-contract.json`](../platform/config/instance-contract.json) (`templateCommitTarget`).
 - **Canonical upgrade procedure:** [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md).
 - **Template release metadata:** companion-self [`template-version.json`](https://github.com/rbtkhn/companion-self/blob/main/template-version.json) (`compatibilityContract`).
 
@@ -18,7 +18,7 @@ Living document for **alignment** between this **instance** and the [companion-s
 - **Last applied companion-self commit:** see [`platform/template/template-source.json`](../platform/template/template-source.json) (`companionSelfCommit`).
 - **Last applied template version:** see [`platform/template/template-source.json`](../platform/template/template-source.json) (`templateVersion`).
 - **Last applied sync timestamp:** see [`platform/template/template-source.json`](../platform/template/template-source.json) (`syncedAt`).
-- **Historical baseline note:** [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md) remains useful as a historical governance reference, but it is no longer the primary machine pin once [`instance-contract.json`](../instance-contract.json) and [`platform/template/template-source.json`](../platform/template/template-source.json) are kept current.
+- **Historical baseline note:** [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md) remains useful as a historical governance reference, but it is no longer the primary machine pin once [`platform/config/instance-contract.json`](../platform/config/instance-contract.json) and [`platform/template/template-source.json`](../platform/template/template-source.json) are kept current.
 
 **Reading rule:** `instance-contract.json` describes the **target** state grace-mar wants to align to. `platform/template/template-source.json` records the **applied** state that has actually been merged. They may differ temporarily during intentional catch-up work.
 
@@ -29,7 +29,7 @@ Living document for **alignment** between this **instance** and the [companion-s
 | Layer | Primary surface | Role |
 |------|------------------|------|
 | **Doctrine** | [merging-from-companion-self.md](merging-from-companion-self.md), [how-instances-consume-upgrades.md](archive/how-instances-consume-upgrades.md) | Policy: what may sync, what must never sync, and how selective merge works |
-| **Contract** | [instance-contract.json](../instance-contract.json) | Target version / commit grace-mar is aiming to match |
+| **Contract** | [platform/config/instance-contract.json](../platform/config/instance-contract.json) | Target version / commit grace-mar is aiming to match |
 | **Applied provenance** | [platform/template/template-source.json](../platform/template/template-source.json) | Last actual upstream commit merged, by whom, and on which paths |
 | **Audit** | [work-companion-self/audit-report-manifest.md](skill-work/work-companion-self/audit-report-manifest.md), `scripts/template_diff.py` | Drift visibility and next merge slices |
 
@@ -81,7 +81,7 @@ This classification is the default answer when a diff appears: first decide the 
 
 - Push **enriched** `platform/template/archive/queues/review-queue/README.md` to upstream companion-self if you want the template scaffold to match grace-mar validator doctrine (optional PR).
 - Re-run **`template_diff.py --use-manifest`** after the next companion-self `main` pull; add `--include-skill-work` only when you want the broader WORK-tree audit. Update [audit-report-manifest.md](skill-work/work-companion-self/audit-report-manifest.md).
-- Promote the refreshed target/applied pin model into operator habit: update [`instance-contract.json`](../instance-contract.json) when the intended target changes; update [`platform/template/template-source.json`](../platform/template/template-source.json) when a merge actually lands.
+- Promote the refreshed target/applied pin model into operator habit: update [`platform/config/instance-contract.json`](../platform/config/instance-contract.json) when the intended target changes; update [`platform/template/template-source.json`](../platform/template/template-source.json) when a merge actually lands.
 
 ---
 

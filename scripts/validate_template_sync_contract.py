@@ -40,8 +40,10 @@ def _rel(path: Path) -> str:
 
 
 def _matches_path_reference(value: str, path: Path) -> bool:
-    candidates = {_rel(path), path.name}
-    return value in candidates
+    rel = _rel(path).replace("\\", "/")
+    normalized = value.replace("\\", "/")
+    candidates = {rel, path.name, normalized}
+    return normalized in candidates
 
 
 def _require_string(obj: dict, key: str, label: str, errors: list[str]) -> str:
@@ -192,7 +194,7 @@ def validate_sync_contract(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate template sync contract vs applied provenance.")
-    parser.add_argument("--instance-contract", type=Path, default=REPO_ROOT / "instance-contract.json")
+    parser.add_argument("--instance-contract", type=Path, default=REPO_ROOT / "platform/config/instance-contract.json")
     parser.add_argument("--template-source", type=Path, default=REPO_ROOT / "platform/template/template-source.json")
     parser.add_argument("--template-manifest", type=Path, default=REPO_ROOT / "platform/template/template-manifest.json")
     parser.add_argument("--require-target-applied-match", action="store_true")

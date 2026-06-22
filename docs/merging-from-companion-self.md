@@ -13,11 +13,11 @@ Template → instance sync in grace-mar uses **four layers**, each with a differ
 | Layer | Canonical surface | What it answers |
 |------|-------------------|-----------------|
 | **Doctrine** | This file + [`archive/how-instances-consume-upgrades.md`](archive/how-instances-consume-upgrades.md) + [`template-sync-status.md`](template-sync-status.md) | What may sync, what must never sync, and what counts as approved local divergence |
-| **Contract** | [`../instance-contract.json`](../instance-contract.json) | What upstream template version / commit grace-mar is targeting |
+| **Contract** | [`../platform/config/instance-contract.json`](../platform/config/instance-contract.json) | What upstream template version / commit grace-mar is targeting |
 | **Applied provenance** | [`../platform/template/template-source.json`](../platform/template/template-source.json) | Which upstream commit was actually merged most recently, by whom, and on which paths |
 | **Audit / merge workflow** | [`skill-work/work-companion-self/audit-report-manifest.md`](skill-work/work-companion-self/audit-report-manifest.md) + [`../scripts/template_diff.py`](../scripts/template_diff.py) + this checklist | What currently differs and which slice should be reconciled next |
 
-**Important split:** [`../instance-contract.json`](../instance-contract.json) is the **target** contract. [`../platform/template/template-source.json`](../platform/template/template-source.json) is the **applied** provenance record. They may differ temporarily during intentional drift or staged catch-up work; do not collapse them into one concept.
+**Important split:** [`../platform/config/instance-contract.json`](../platform/config/instance-contract.json) is the **target** contract. [`../platform/template/template-source.json`](../platform/template/template-source.json) is the **applied** provenance record. They may differ temporarily during intentional drift or staged catch-up work; do not collapse them into one concept.
 
 ---
 
@@ -119,7 +119,7 @@ Use this when you have updates in companion-self that should flow into grace-mar
 
 | Step | Action |
 |------|--------|
-| 1 | **Check target contract** — Read [`../instance-contract.json`](../instance-contract.json) so you know the intended upstream version / commit grace-mar is trying to match. |
+| 1 | **Check target contract** — Read [`../platform/config/instance-contract.json`](../platform/config/instance-contract.json) so you know the intended upstream version / commit grace-mar is trying to match. |
 | 2 | **Get template state** — Clone or pull companion-self (e.g. `git clone https://github.com/rbtkhn/companion-self.git companion-self` at repo root per §0, or another path with `GRACE_MAR_COMPANION_SELF`). Note the commit or tag you're syncing from. |
 | 3 | **Read template inventory** — Check `template-manifest.json`, `template-version.json`, and `how-instances-consume-upgrades.md` in companion-self so you know the current upstream surface before comparing individual files. |
 | 4 | **Diff mapped paths** — Compare template files with grace-mar's same-name copies or instance-side equivalents. `docs/skill-work/work-companion-self/audit-report-manifest.md` and `scripts/template_diff.py --use-manifest` can help. Add `--include-skill-work` only when you intentionally want the larger WORK-tree audit. |
@@ -138,7 +138,7 @@ When companion-self moves quickly, prefer **small, scoped merges** over rare “
 
 | Step | Action |
 |------|--------|
-| 1 | **Pin** — `git -C companion-self pull` (or fetch); note `HEAD` and `template-version.json` (`templateVersion`, `gitTag`). If this changes the intended target, update [`../instance-contract.json`](../instance-contract.json) deliberately. |
+| 1 | **Pin** — `git -C companion-self pull` (or fetch); note `HEAD` and `template-version.json` (`templateVersion`, `gitTag`). If this changes the intended target, update [`../platform/config/instance-contract.json`](../platform/config/instance-contract.json) deliberately. |
 | 2 | **Diff** — `python3 scripts/template_diff.py --use-manifest -o docs/skill-work/work-companion-self/audit-report-manifest.md` for exact manifest scope; add `--include-skill-work` only when you want the larger WORK-tree audit. |
 | 3 | **Choose one slice** — e.g. one `docs/` file, `schemas/registry/` file, or validator; skip `platform/app/` unless you run the template student app. |
 | 4 | **Merge by hand** — copy or edit per §2; never bulk-overwrite ``. |
@@ -148,7 +148,7 @@ When companion-self moves quickly, prefer **small, scoped merges** over rare “
 
 **Alignment triage:** For governance-first review (behavior vs wording-only diffs, manifest rhythm, optional DESIGN/validator upstream), see [work-companion-self/README.md § Three-track alignment](skill-work/work-companion-self/README.md#three-track-alignment-operator-policy).
 
-**Operator verification (ongoing):** There is **no** `validate-template-sync.py` in companion-self as of template **0.4.0**; template **manifest integrity** is `node scripts/validate-template.js` (see companion-self `how-instances-consume-upgrades.md` § Auditability). Instances record **target contract** in [`../instance-contract.json`](../instance-contract.json) and **applied provenance** in [`../platform/template/template-source.json`](../platform/template/template-source.json); do not assume tools from informal narratives until they exist on `main`.
+**Operator verification (ongoing):** There is **no** `validate-template-sync.py` in companion-self as of template **0.4.0**; template **manifest integrity** is `node scripts/validate-template.js` (see companion-self `how-instances-consume-upgrades.md` § Auditability). Instances record **target contract** in [`../platform/config/instance-contract.json`](../platform/config/instance-contract.json) and **applied provenance** in [`../platform/template/template-source.json`](../platform/template/template-source.json); do not assume tools from informal narratives until they exist on `main`.
 
 ---
 
