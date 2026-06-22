@@ -30,12 +30,16 @@ def work_root() -> Path:
         shutil.rmtree(root, ignore_errors=True)
 
 
-def test_harness_event_appends_at_root(work_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+def test_harness_event_appends_under_operator_events(work_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    import repo_io
+
     monkeypatch.setattr(he, "REPO_ROOT", work_root)
+    monkeypatch.setattr(repo_io, "REPO_ROOT", work_root)
+    monkeypatch.setattr(repo_io, "OPERATOR_EVENTS_DIR", work_root / "runtime" / "operator-events")
 
     he.append_harness_event("strategy-codex", "unit", "root_write", path=str(work_root))
 
-    path = work_root / "harness-events.jsonl"
+    path = work_root / "runtime" / "operator-events" / "harness-events.jsonl"
     assert path.is_file()
     assert not (work_root / "platform/users" / "strategy-codex").exists()
     row = json.loads(path.read_text(encoding="utf-8").strip())

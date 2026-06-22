@@ -21,9 +21,9 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 try:
-    from repo_io import profile_dir as canonical_profile_dir
+    from repo_io import operator_ledger_write_path
 except ImportError:
-    from scripts.repo_io import profile_dir as canonical_profile_dir
+    from scripts.repo_io import operator_ledger_write_path
 
 
 def _integration_token_fields_from_env() -> dict[str, Any]:
@@ -65,7 +65,7 @@ def append_integration_ledger(
 ) -> None:
     root = repo_root or REPO_ROOT
     if repo_root is None and root == REPO_ROOT:
-        path = canonical_profile_dir(user_id) / "compute-ledger.jsonl"
+        path = operator_ledger_write_path(user_id, "compute-ledger.jsonl")
     else:
         path = root / "compute-ledger.jsonl"
     channel_key = os.getenv("GRACE_MAR_LEDGER_CHANNEL_KEY", f"{runtime}:integration")

@@ -65,13 +65,6 @@ files:
     category: generated
     generator: scripts/generate_llm_routing.py
 
-  - path: harness-events.jsonl
-    category: operator
-    relocation_target: runtime/operator-events/harness-events.jsonl
-  - path: compute-ledger.jsonl
-    category: operator
-    relocation_target: runtime/operator-events/compute-ledger.jsonl
-
   - path: skill-think.md
     category: compatibility
     relocation_target: codex/skill-think.md
@@ -85,3 +78,5 @@ files:
 # Local / untracked noise — ignored by budget checker when present on disk
 ignore_local:
   - gcm-diagnose.log
+  - harness-events.jsonl
+  - compute-ledger.jsonl

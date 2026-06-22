@@ -6,9 +6,8 @@
 
 | Signal | Value |
 |---|---|
-| Root files on disk (non-dot) | **27** (was 28) |
-| Over budget by | **2** (was 3) |
-| Wedge 5 (instance-contract) | **Done** 2026-06-21 |
+| Root files on disk (non-dot) | **25** (at target) |
+| Over budget by | **0** |
 
 Preflight: `python scripts/assert_root_file_budget.py` · `--strict` fails.
 
@@ -57,13 +56,13 @@ Move to documented archive/template paths; update links:
 
 **Est. reduction:** 7–8 tracked root files → **~25–26** on disk.
 
-### Phase 2 — Operator ledgers (local hygiene)
+### Phase 2 — Operator ledgers (local hygiene) — **Done** 2026-06-21
 
-- Stop counting gitignored root jsonl toward operator relocation (document as local-only).
-- Update [`scripts/emit_compute_ledger.py`](../../../scripts/emit_compute_ledger.py) / [`scripts/harness_events.py`](../../../scripts/harness_events.py) fallbacks to prefer `runtime/operator-events/` over repo root.
-- Remove root copies from operator machines; update [`root-file-budget.yaml`](../../../root-file-budget.yaml) allowlist after relocation.
+- Ledgers write via `operator_ledger_write_path` → `runtime/operator-events/`.
+- Root `harness-events.jsonl` / `compute-ledger.jsonl` moved to `ignore_local` (legacy root copies ignored by budget).
+- Removed operator ledger entries from `root-file-budget.yaml` allowlist.
 
-**Est. reduction:** 2 local files (not tracked in CI).
+**Outcome:** root count **25** (at `max_root_files` target).
 
 ### Phase 3 — Target reconciliation
 

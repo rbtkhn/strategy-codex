@@ -15,19 +15,19 @@ from pathlib import Path
 
 try:
     from pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
-    from repo_io import profile_dir as canonical_profile_dir
+    from repo_io import operator_ledger_write_path, resolve_ledger_path
 except ImportError:
     from scripts.pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
-    from scripts.repo_io import profile_dir as canonical_profile_dir
+    from scripts.repo_io import operator_ledger_write_path, resolve_ledger_path
 
 _lock = threading.Lock()
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
-def harness_events_path(user_id: str) -> Path:
-    if REPO_ROOT == Path(__file__).resolve().parent.parent:
-        return canonical_profile_dir(user_id) / "harness-events.jsonl"
-    return REPO_ROOT / "harness-events.jsonl"
+def harness_events_path(user_id: str, *, for_write: bool = False) -> Path:
+    if for_write:
+        return operator_ledger_write_path(user_id, "harness-events.jsonl")
+    return resolve_ledger_path(user_id, "harness-events.jsonl")
 
 
 def append_harness_event(
@@ -56,7 +56,7 @@ def append_harness_event(
         for k, v in kwargs.items():
             if v is not None:
                 rec[k] = v
-        p = harness_events_path(user_id)
+        p = harness_events_path(user_id, for_write=True)
         p.parent.mkdir(parents=True, exist_ok=True)
         line = json.dumps(rec, ensure_ascii=True) + "\n"
         with _lock:
@@ -89,7 +89,7 @@ def main() -> int:
         candidate_id=args.candidate_id,
         **extras,
     )
-    print(harness_events_path(args.user))
+    print(harness_events_path(args.user, for_write=True))
     return 0
 
 
