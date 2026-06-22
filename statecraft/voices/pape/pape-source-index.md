@@ -28,6 +28,16 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-04-22 Within 10 Days, Shortages Are Already Here](../../../source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md)
 - [2026-04-24 2 Blockades, 2 Clocks](../../../source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md)
 
+### China, Industrial AI, and Relative Power
+
+Distinct from Iran trap clocks — bounded synthesis: [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) · [China AI implementation watch](../../notes/china-ai-implementation-watch.md). Field tour (Wuhan, Hangzhou, Shenzhen, Beijing) referenced in Apr–May captures; not a separate arc on disk yet.
+
+- [2026-05-13 With China, It's Getting Late Early](../../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md) — Wuhan model; integrated AI/robotics/EV ecosystems; elite perception lag
+- [2026-05-14 It's Getting Late Early for Trump](../../../source-archive/statecraft/2026-05-14/source-pape-its-getting-late-early-for-trump-2026-05-14.md) — Trump–Xi Beijing; Taiwan red line; Thucydides-trap signaling; Iran war exposes structural weakness
+- **Interview primary (same tour):** [2026-04-20 Redacted — Collapse Ahead of Schedule](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) — ~80% non-oil economy; Hormuz as US quagmire / China glide-up; “hastening China #1” (also under Interview-Pressure Anchors)
+
+**Iran-adjacent only:** relative China gain and fourth-center thesis live under [Global Contraction](#global-contraction-and-fourth-center-thesis) and [Escalation Trap arc](../../notes/arc-pape-escalation-trap.md) — do not substitute for this lane.
+
 ### Global Contraction and Fourth-Center Thesis
 
 - [2026-05-03 What the First 60 Days Actually Changed](../../../source-archive/statecraft/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md)
@@ -62,7 +72,7 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 ## Interview-Pressure Anchors
 
 - [2026-03-10 Davis x Pape - The Escalation Trap](../../../source-archive/statecraft/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
-- [2026-04-20 Redacted x Pape - The Collapse Is Now Ahead of Schedule](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md)
+- [2026-04-20 Redacted x Pape - The Collapse Is Now Ahead of Schedule](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) — **China-primary block** (field tour, relative power); see [China, Industrial AI](#china-industrial-ai-and-relative-power)
 - [2026-04-29 Breaking Points / Ryan Grim x Pape - Why a Nuclear Iran Is Inevitable](../../../source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
 - [2026-05-12 Mario Nawfal x Pape - Trump's Next Iran Steps Revealed](../../../source-archive/statecraft/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 - [2026-05-20 Mario Nawfal x Pape - Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing](../../../source-archive/statecraft/2026-05-20/source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
