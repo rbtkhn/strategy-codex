@@ -27,7 +27,7 @@ Do not introduce new authority labels without updating this table and the audit 
 
 | Metric | Baseline (2026-06-21) | Target | Fail CI (phase) |
 |--------|----------------------:|-------:|-----------------|
-| Root files | 33 | ≤ 20 (doctrine floor ~25 — see [root-file-budget-slice-plan](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md)) | Phase 9 (`assert_root_file_budget.py --strict`) |
+| Root files | 33 | ≤ 25 (doctrine floor; reconciled 2026-06-21) | Phase 9 (`assert_root_file_budget.py --strict`) |
 | Root directories (contract) | 20 | ≤ 20 | Enforced (`assert_root_folder_layout`) |
 | Primary routing front doors | 8 listed | ≤ 3 | Phase 9 |
 | Always-read agent doc lines (`AGENTS.md`) | ~286 | ≤ 150 | Phase 5 |
@@ -131,7 +131,7 @@ Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 
 ### Root file budget (Phase 9 — in progress)
 
-Active root file count **34** on disk (**33** tracked); target **≤ 20** with documented doctrine floor ~**25** skill/build/routing minimum. Phased plan: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). `assert_root_file_budget.py --strict` remains advisory until relocation phases complete.
+**Target reconciled (2026-06-21):** `max_root_files` raised **20 → 25** to match documented doctrine floor ([`docs/canonical-paths.md`](canonical-paths.md) skill splits at root + build/routing minimum). Active count **34** on disk (**33** tracked) — **9 over** reconciled target until Phase 1–2 relocations. Plan: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). `assert_root_file_budget.py --strict` remains advisory until count ≤ 25.
 
 ## CI rollout policy
 

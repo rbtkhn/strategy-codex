@@ -1,7 +1,8 @@
 # Root file budget — inventory + allowlist for scripts/assert_root_file_budget.py
 # Authority: work (governance). Target: max_root_files after relocation passes (Phase 9 fail).
+# Doctrine floor (2026-06-21): 25 — see docs/canonical-paths.md and root-file-budget-slice-plan.
 schema_version: "1.0"
-max_root_files: 20
+max_root_files: 25
 
 categories:
   required_public: Public / onboarding surfaces

@@ -65,7 +65,7 @@ ALWAYS_READ_CANDIDATES = (
 )
 
 THRESHOLDS = {
-    "root_files_max": 20,
+    "root_files_max": 25,
     "root_dirs_max": len(TARGET_ROOT_FOLDERS),
     "primary_routing_docs_max": 3,
     "always_read_agent_docs_max": 1,

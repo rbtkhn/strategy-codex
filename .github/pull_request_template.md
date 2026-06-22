@@ -52,4 +52,4 @@ CI: [`.github/workflows/repo-health.yml`](.github/workflows/repo-health.yml) —
 - [ ] **Routing / repo-map** — `validate_repo_routing.py --strict` and `generate_llm_routing.py --check`
 - [ ] **New root file** — added to [`root-file-budget.yaml`](root-file-budget.yaml) with category + relocation note if applicable
 - [ ] **Grace-Mar / fork mentions** — primary-path docs use short pointers only ([`docs/archive/grace-mar.md`](docs/archive/grace-mar.md))
-- [ ] **Root count / budget** — acknowledged over-budget state (33/20) or reduced count toward target ≤ 20
+- [ ] **Root count / budget** — acknowledged over-budget state (33/25) or reduced count toward target ≤ 25

@@ -8,8 +8,8 @@
 |---|---|
 | Root files on disk (non-dot) | **34** |
 | Git-tracked root files | **33** |
-| `max_root_files` | **20** |
-| Over budget by | **14** |
+| `max_root_files` | **25** (reconciled 2026-06-21) |
+| Over budget by | **9** (34 on disk; 33 tracked) |
 | Unlisted | `path-fallback-retirement.yaml` (fixed in Phase 0 manifest) |
 | Local-only (gitignored) | `harness-events.jsonl`, `compute-ledger.jsonl` |
 
@@ -70,9 +70,10 @@ Move to documented archive/template paths; update links:
 
 ### Phase 3 — Target reconciliation
 
-Pick one:
+**Done (2026-06-21):** Option **A** — raised `max_root_files` to **25** with documented doctrine floor in [`root-file-budget.yaml`](../../../root-file-budget.yaml) and [`docs/complexity-budget.md`](../../../docs/complexity-budget.md). [`scripts/audit_repo_complexity.py`](../../../scripts/audit_repo_complexity.py) threshold aligned.
 
-- **A)** Raise `max_root_files` to **25** with documented doctrine floor (pragmatic).
+Remaining options if count must fall further:
+
 - **B)** Relocate skill splits to `codex/` + update [`docs/canonical-paths.md`](../../../docs/canonical-paths.md) (doctrine change).
 - **C)** Consolidate build manifests under `platform/deployment/` (higher risk for CI/Docker).
 
