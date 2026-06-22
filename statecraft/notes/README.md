@@ -220,17 +220,24 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
 - [assistant-session-state-clarity-contract.md](./assistant-session-state-clarity-contract.md) - reusable session-governance note defining the corrective operating contract that pairs with the UX friction audit
 
+### Artificial intelligence cluster
+
+Cross-speaker AI object set — **do not merge speaker bodies**. Open [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) first for **risk register + agent routing**; open [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) for **chronology + falsifiers**.
+
+| Role | Note |
+| --- | --- |
+| **Entry / risk routing** | [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) |
+| **Time-series hub** | [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) |
+| **Speaker depth** | [pape-on-china-ai.md](./pape-on-china-ai.md) · [jiang-on-ai.md](./jiang-on-ai.md) · [barnes-on-ai.md](./barnes-on-ai.md) · [ritter-on-ai.md](./ritter-on-ai.md) · [weichert-on-ai.md](./weichert-on-ai.md) · [sachs-on-ai.md](./sachs-on-ai.md) |
+| **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
+| **Incident compare** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) |
+| **Access governance** | [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
+
+Legacy redirect: [jiang-on-china-ai.md](./jiang-on-china-ai.md) → `jiang-on-ai.md`.
+
 ### Speaker-Derived And Machine Notes
 
-- [barnes-on-ai.md](./barnes-on-ai.md) - speaker-derived bounded note: Barnes corpus AI thesis + operator reconsideration read (absorbed legacy essay)
-- [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) - high-priority rolling watch: China AI implementation, speaker lanes, chronological log, falsifiers
-- [pape-on-china-ai.md](./pape-on-china-ai.md) - Pape field-observation thesis on China industrial AI / Wuhan model (paired with watch)
-- [jiang-on-ai.md](./jiang-on-ai.md) - Jiang GT-24–28 + FM-01 full AI thesis (bubble, Stargate, occult, surveillance; China strand); paired with watch
-- [ritter-on-ai.md](./ritter-on-ai.md) - Ritter kill-chain / LOAC thesis: CHMR removal, Claude–Minab, Palantir–Lugansk (paired with watch)
-- [weichert-on-ai.md](./weichert-on-ai.md) - Weichert surveillance architecture, Minab kill chain, Palantir panopticon, China applied AI (paired with watch); codex entry [weichert-profile.md](../../codex/profiles/weichert-profile.md) → [weichert shelf](../voices/weichert/README.md)
-- [sachs-on-ai.md](./sachs-on-ai.md) - Sachs first AI wars, Palantir–Minab moral read, IDF cloud stack, China factory AI (paired with watch)
-- [gulf-ai-architecture.md](./gulf-ai-architecture.md) - mechanism note: Gulf data centers, petrodollar AI bubble, Escobar 2030 plan (Crooke/Escobar)
-- [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) - Minab/Palantir compare: Ritter · Weichert · Sachs · Jiang (linked from watch verify)
+- **AI cluster** — canonical set at [§ Artificial intelligence cluster](#artificial-intelligence-cluster); entry [risk-artificial-intelligence.md](./risk-artificial-intelligence.md)
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
 - [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - month-scale watchlist separating healthy coverage from thin presence and backfill candidates
 - [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.md) - bounded doctrine note on how solo Mercouris and Duran/Mercouris compound rather than duplicate
@@ -337,15 +344,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - shelf-native America-side mechanism note
 - [june-2026-vance-lightning-rod-rubio-optionality-note.md](./june-2026-vance-lightning-rod-rubio-optionality-note.md) - shelf-native CIV-STATE-bridge note (Helmer × wire; **`civ-state-note`** v0.1.0)
 - [2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md](./2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md) - shelf-native CIV-STATE-bridge + wire-audit (Starobilsk tier-A; Ritter *Trail of Tears*)
-- [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
-- [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) - shelf-native rolling watch / time-series tracker
-- [pape-on-china-ai.md](./pape-on-china-ai.md) - shelf-native speaker-derived bounded thematic note
-- [jiang-on-ai.md](./jiang-on-ai.md) - shelf-native speaker-derived bounded thematic note
-- [ritter-on-ai.md](./ritter-on-ai.md) - shelf-native speaker-derived bounded thematic note
-- [weichert-on-ai.md](./weichert-on-ai.md) - shelf-native speaker-derived bounded thematic note
-- [sachs-on-ai.md](./sachs-on-ai.md) - shelf-native speaker-derived bounded thematic note
-- [gulf-ai-architecture.md](./gulf-ai-architecture.md) - shelf-native mechanism note
-- [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) - shelf-native speaker-comparison note
+- **AI cluster** (shelf-native) — [risk-artificial-intelligence.md](./risk-artificial-intelligence.md), [china-ai-implementation-watch.md](./china-ai-implementation-watch.md), six `*-on-ai.md` speaker notes, [gulf-ai-architecture.md](./gulf-ai-architecture.md), [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md); full index at [§ Artificial intelligence cluster](#artificial-intelligence-cluster)
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
 - [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) - shelf-native recursive-learning method note

@@ -2,9 +2,11 @@ WORK only; not Record.
 
 # China AI implementation — rolling watch
 
+*Scope subtitle:* China deployment, relative power, Western bubble, surveillance/kill chain, and **access governance** — five lanes; cluster entry for risk routing → [risk-artificial-intelligence.md](./risk-artificial-intelligence.md).
+
 ## Priority
 
-**High-importance, time-series object.** Track how China organizes **AI + robotics + energy + manufacturing** at scale, how Western speakers read that implementation, and how the read connects to **relative power**, **US industrial decline**, and **AI bubble / surveillance** lanes.
+**High-importance, time-series object.** Track how China organizes **AI + robotics + energy + manufacturing** at scale, how Western speakers read that implementation, and how the read connects to **relative power**, **US industrial decline**, **AI bubble / surveillance**, and **frontier access / export control** lanes.
 
 This note is the **cross-speaker chronology and falsifier surface**. Speaker-specific bounded notes ([`pape-on-china-ai.md`](./pape-on-china-ai.md), [`jiang-on-ai.md`](./jiang-on-ai.md), [`ritter-on-ai.md`](./ritter-on-ai.md), [`barnes-on-ai.md`](./barnes-on-ai.md), [`weichert-on-ai.md`](./weichert-on-ai.md), [`sachs-on-ai.md`](./sachs-on-ai.md)) and the mechanism note [`gulf-ai-architecture.md`](./gulf-ai-architecture.md) hold depth; this file holds **what changed when** and **what to verify next**.
 
@@ -12,15 +14,16 @@ This note is the **cross-speaker chronology and falsifier surface**. Speaker-spe
 
 | Layer | Object | Holds |
 |-------|--------|-------|
-| **Hub** | this file | Four lanes, speaker registry, chronological log, verify receipts, open falsifiers |
+| **Risk / routing** | [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) | Cross-voice risk register + allocation; agent open-first entry |
+| **Hub** | this file | Five lanes, speaker registry, chronological log, verify receipts, open falsifiers |
 | **Speaker** | six `*-on-ai.md` notes | Bounded thesis depth per voice — **canonical prose** for that speaker's AI frame |
 | **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) | Crooke/Escobar Gulf–petrodollar–China nexus (not a seventh speaker) |
-| **Compare** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | Minab/Palantir four-voice routing (Ritter · Weichert · Sachs · Jiang) |
+| **Compare (incident)** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | Minab/Palantir four-voice routing (Ritter · Weichert · Sachs · Jiang) |
 | **Codex entry** | [weichert-profile.md](../../codex/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `voices/weichert/` shelf |
 
 **Pointer law:** bounded notes link **back** to this watch; this watch **does not** mirror note bodies. Minab/Palantir vendor forks defer to [verify receipts](#verify-receipts-2026-06-10). Shelf front doors: [Pape](../voices/pape/README.md) · [Jiang](../voices/jiang/README.md) · [Ritter](../voices/ritter/README.md) · [Sachs](../voices/sachs/README.md) · [Barnes](../voices/barnes/README.md) · Weichert → profile above.
 
-## What we are tracking (four lanes)
+## What we are tracking (five lanes)
 
 | Lane | Question | Primary speakers |
 |------|----------|------------------|
@@ -28,6 +31,7 @@ This note is the **cross-speaker chronology and falsifier surface**. Speaker-spe
 | **Relative power** | Does Hormuz / tariff / decoupling accelerate China #1? | Pape, Jiang (Diesen Jan-05), Sachs |
 | **Bubble / finance** | Is Western AI capex circular, unprofitable, bailout-prone? | Jiang, Barnes, Crooke (May-30 Gulf bubble) |
 | **Surveillance / war** | Is AI primarily control, kill chain, data-center architecture? | Jiang, Weichert, Ritter, Sachs (Palantir) |
+| **Access governance** | Who may use frontier models — export control, nationality, sovereign crash programs? | Moonshots crossover (panel); Jiang partner strand |
 
 Lanes **overlap**; do not collapse them in the log — tag each capture by dominant lane.
 
@@ -43,6 +47,8 @@ Lanes **overlap**; do not collapse them in the log — tag each capture by domin
 | **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) · [Barnes README](../voices/barnes/README.md) |
 | **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) · profile: [weichert-profile.md](../../codex/profiles/weichert-profile.md) |
 | **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) · [Ritter README](../voices/ritter/README.md) |
+
+**Access governance lane — not a seventh speaker.** Export-control / sovereign-AI access hooks route to [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) (singularity-primary capture; statecraft crossover only). Risk register row → [risk-artificial-intelligence.md](./risk-artificial-intelligence.md).
 
 ## Stable baseline claims (verify before quotation-grade)
 
@@ -82,6 +88,8 @@ Append a row when a **new capture** materially moves implementation, relative-po
 | 2026-06-10 | — | Verify | Minab/Palantir/Lugansk/IDF cloud triage pass — receipts below | this file |
 | 2026-06-10 | — | Meta | Cluster authority block + cross-link audit (Karajan andante) | this file |
 | 2026-06-10 | — | Meta | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | this file |
+| 2026-06-19 | Moonshots ep. 265 (crossover) | Access governance | Anthropic export-control / nationality / sovereign-AI access seam — statecraft hooks only | [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
+| 2026-06-22 | — | Meta | [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) cluster risk register + agent routing | this file |
 
 ## Verify receipts (2026-06-10)
 
@@ -126,12 +134,15 @@ On **new relevant capture** (statecraft intake, Substack paste, stream):
 
 Open this note when the task is:
 
-- what moved this month on **China AI implementation** vs **Western AI bubble**
+- what moved this month on **China AI implementation** vs **Western AI bubble** vs **access / export control**
 - which speaker to read for which lane
 - what claims still need wire-verify before promotion to lane drafting or daily synthesis
 
+For **AI risk overview / voice allocation** without chronology, open [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) first.
+
 ## Return paths
 
+- [Risk — artificial intelligence](./risk-artificial-intelligence.md) — cluster entry / risk register
 - [Pape on China AI](./pape-on-china-ai.md)
 - [Jiang on AI](./jiang-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)
@@ -140,6 +151,7 @@ Open this note when the task is:
 - [Sachs on AI](./sachs-on-ai.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Minab / Palantir four-voice compare](./minab-palantir-four-voice-compare.md)
+- [Moonshots export-control crossover](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md)
 - [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [China statecraft lane](../china/README.md)
 - [Pape arc](../voices/pape/pape-arc.md)
