@@ -55,6 +55,7 @@ The Cyrus-founded sovereignty chain, with Zoroaster as deeper sacred grammar ben
 The classical hinge and transformed-continuity case.
 
 - [Volume front door](../volumes/rome/README.md)
+- [Rome table of contents](../volumes/rome/rome-table-of-contents.md) — human-readable volume map
 - [Pax Romana](../volumes/rome/introduction.md)
 - [Civilization](../volumes/rome/essays/civilization-rome.md)
 - [Empire](../volumes/rome/essays/empire-rome.md)
