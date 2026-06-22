@@ -145,6 +145,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 - [substack-ritter-the-revenge-tour-2026-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md)
 - [substack-ritter-shoot-the-dog-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md)
+- [substack-ritter-a-trail-of-tears-2026-06-19](../../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) — https://scottritter.substack.com/p/a-trail-of-tears — **Substack** · SMO field series **opener** · Starobilsk May 22 (**verify:tier-A**; Rubicon-HQ allegation **contradicted**)
 
 **Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/ritter-karaganov-doctrine-arc-2026.md) · [Ritter × India Global Left Iran war (Feb 20→Apr 9 2026)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter × IGL Trump pivot (Feb 22→Mar 28 2025)](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) · [**2025 vs 2026 IGL register seam**](../../notes/2025-vs-2026-ritter-india-global-left-register-seam.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md)
 

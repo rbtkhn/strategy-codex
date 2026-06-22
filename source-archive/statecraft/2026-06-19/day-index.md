@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `11`
+- Source files: `12`
 - Channel sources: `11`
-- Writer sources: `0`
+- Writer sources: `1`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (11)
-- Source form mix: `interview` (9), `solo` (2)
-- Distinct channels/shows: `6`
-- Distinct hosts: `5`
+- Body kind mix: `transcript` (11), `substack-post` (1)
+- Source form mix: `interview` (9), `solo` (2), `newsletter` (1)
+- Distinct channels/shows: `7`
+- Distinct hosts: `6`
 - Distinct guests: `10`
-- Distinct threads: `16`
+- Distinct threads: `17`
 
 ## Channel / Show Rollup
 
-- `Mario Nawfal` (3), `Dialogue Works` (2), `Glenn Diesen` (2), `Judging Freedom` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1)
+- `Mario Nawfal` (3), `Dialogue Works` (2), `Glenn Diesen` (2), `Judging Freedom` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `scottritter.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Mario Nawfal` (3), `Andrew Napolitano` (2), `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Daniel Davis` (1)
+- Hosts: `Mario Nawfal` (3), `Andrew Napolitano` (2), `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Daniel Davis` (1), `Scott Ritter` (1)
 - Guests: `Larry Johnson` (2), `Alastair Crooke` (1), `Alex Krainer` (1), `Brandon Weichert` (1), `Charles Freeman` (1), `John Mearsheimer` (1), `Max Blumenthal` (1), `Ray McGovern` (1), `Seyed Mohammad Marandi` (1), `Trita Parsi` (1)
-- Threads: `nawfal` (3), `diesen` (2), `johnson` (2), `napolitano` (2), `nima` (2), `blumenthal` (1), `crooke` (1), `davis` (1), `freeman` (1), `krainer` (1), `marandi` (1), `mcgovern` (1), `mearsheimer` (1), `mercouris` (1), `parsi` (1), `weichert` (1)
+- Threads: `nawfal` (3), `diesen` (2), `johnson` (2), `napolitano` (2), `nima` (2), `blumenthal` (1), `crooke` (1), `davis` (1), `freeman` (1), `krainer` (1), `marandi` (1), `mcgovern` (1), `mearsheimer` (1), `mercouris` (1), `parsi` (1), `ritter` (1), `weichert` (1)
 
 ## Channel sources
 
@@ -50,7 +50,7 @@ _Configured prose / check-written roster captures for this day._
 
 | Writer slug | Thread | Feed host | Source link | File |
 | --- | --- | --- | --- | --- |
-| _none_ | — | — | — | — |
+| `ritter` | `ritter` | `scottritter.substack.com` | [watch](https://scottritter.substack.com/p/a-trail-of-tears) | `source-ritter-a-trail-of-tears-2026-06-19.md` |
 
 ## Other sources
 
@@ -73,3 +73,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md`
 - `source-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md`
 - `source-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md`
+- `source-ritter-a-trail-of-tears-2026-06-19.md`

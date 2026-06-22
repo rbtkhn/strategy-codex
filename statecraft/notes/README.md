@@ -107,6 +107,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) - statecraft crossover cite for Moonshots ep. 265 export-control / sovereign-AI access seam (singularity-primary capture; geopolitical hooks only)
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - mechanism note on when command remains formal but discretion thins from inside the machinery
 - [june-2026-vance-lightning-rod-rubio-optionality-note.md](./june-2026-vance-lightning-rod-rubio-optionality-note.md) - first **`civ-state-note`**: Helmer succession pair/split/compress × MOU-week wire routing (Vance pushback magnet, Rubio State optionality, Adelson→Trump fracture)
+- [2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md](./2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md) - **`civ-state-note`**: Starobilsk May 22 tier-A terror row × Ritter witness × Russia shelf bridge; Rubicon-HQ allegation contradicted; Chonhar/M-18 held separate
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
 - [assistant-session-state-clarity-contract.md](./assistant-session-state-clarity-contract.md) - reusable session-governance note defining the corrective operating contract that pairs with the UX friction audit
@@ -227,6 +228,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [june-17-2026-mou-dem-co-ownership-torpedo-note.md](./june-17-2026-mou-dem-co-ownership-torpedo-note.md) - shelf-native mechanism note (J17 Parsi×Hoh Dem MOU torpedo seam)
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - shelf-native America-side mechanism note
 - [june-2026-vance-lightning-rod-rubio-optionality-note.md](./june-2026-vance-lightning-rod-rubio-optionality-note.md) - shelf-native CIV-STATE-bridge note (Helmer × wire; **`civ-state-note`** v0.1.0)
+- [2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md](./2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md) - shelf-native CIV-STATE-bridge + wire-audit (Starobilsk tier-A; Ritter *Trail of Tears*)
 - [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
 - [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) - shelf-native rolling watch / time-series tracker
 - [pape-on-china-ai.md](./pape-on-china-ai.md) - shelf-native speaker-derived bounded thematic note
