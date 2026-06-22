@@ -3,7 +3,7 @@ name: civ-state-essay
 preferred_activation: civ-state essay
 description: Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake.
 portable: true
-version: 0.2.5
+version: 0.2.6
 tags:
 - operator
 - work-strategy
@@ -44,6 +44,7 @@ Procedure skill for **reader-facing essay prose** under the staged public CIV-ST
 | Class | File pattern (typical) | Primary scaffold | Prose / QA in v0.2 |
 |-------|----------------------|------------------|-------------------|
 | **Civic-chain** | `essay-{vol}-{slug}.md` | Generic essay template + `{vol}` meta sidecar + registry | ~2,400–2,600 body words; ~450–550 quoted primary/pre-modern in `"…"` (Rome genesis–augustus) |
+| **Geo-branch (Rome)** | `essay-{vol}-{slug}.md` · tier geo-branch | Same template + meta + registry | **Same word + quote bands** as civic-chain when operator sets Rome pilot QA; standalone rival/place arc — not genesis→augustus chain order |
 | **Hex-frame** | `hexagonal-*-{vol}.md` | Hexagonal template + connectivity / essay-types | Six-lens table + membrane laws; **not** civic-chain word/quote band |
 | **Sub-lens** | `{lens}-{vol}.md` | Volume essays README + existing essay shape | Prose voice + citation; geo-strategic when lens is place-based; no forced civic-chain length |
 | **Constitutional** | `civilization-{vol}.md` · `empire-{vol}.md` | Part scale | New work → part-writer skills; bounded prose QA only here |
@@ -65,16 +66,24 @@ For **`essay-{vol}-{slug}.md`** civic-chain nodes, pick **one pass** before edit
 
 **Quoted band (all civic-chain passes):** **450–550** words in `"…"` — humanize band does **not** waive quote limits.
 
-### Rome civic-chain essay state (QA class — check before edit)
+### Rome essay-rome state (QA class — check before edit)
 
 Pin from target file + [`release-history.md`](../../public/civ-state/docs/release-history.md) when unsure.
 
+**Civic-chain four:**
+
 | Essay | File | QA `--class` (current) | Pass notes |
 |-------|------|------------------------|------------|
-| Genesis | `essay-rome-genesis.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · Gibbon Notes-only |
-| Republic | `essay-rome-republic.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · L55 institutions |
+| Genesis | `essay-rome-genesis.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · Gibbon Notes-only · *Aeneid* I.1–2 |
+| Republic | `essay-rome-republic.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · L55 institutions · Punic compress (no Virgil body) |
 | Caesar | `essay-rome-caesar.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · reception → Notes |
-| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · reception → Notes |
+| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · reception → Notes · *Aeneid* VI · *Georgics* I |
+
+**Geo-branch (Rome pilot — civic-chain bands, no chain read order):**
+
+| Essay | File | QA `--class` (current) | Pass notes |
+|-------|------|------------------------|------------|
+| Carthage | `essay-rome-carthage.md` | **`civic-chain-rome-humanize`** | rival-system · historiography + epic memory · *Aeneid* I + IV · anti-dup vs republic Livy XXII.54 |
 
 After any **humanizing** pass on a node, default QA class for later edits on that file → **humanize** until operator folds bands.
 
@@ -91,11 +100,41 @@ After any **humanizing** pass on a node, default QA class for later edits on tha
 - **Florus / epitome witnesses:** embed ancient `"…"` in body; do not describe compression in meta voice only.
 - **Band floor after reception removal:** expand **ancient** quotes and embodied beats in the same turn — do not backfill quoted band with modern reception.
 
+### Literary / epic witnesses (Rome — poets in body)
+
+Poets count as **primary ancient** body sources — same `"…"` weave as historians — but they witness **literary memory and legitimation**, not battle chronology. Do not substitute epic for Polybius/Livy on dates, orders of battle, or treaty text.
+
+**Three witness types (classify before QA):**
+
+| Type | Examples | Body job |
+|------|----------|----------|
+| **Chronicle / oratory** | Polybius, Livy, Appian, Cicero, Plutarch lives | What happened; institutions; turning points |
+| **Law / inscription / document** | Twelve Tables refs, *Res Gestae*, official language | Public rule and formula |
+| **Epic / literary memory** | Virgil, Horace, Ovid when load-bearing | How Romans **imagined** rivals, foundation, settlement — pairs with chronicle |
+
+**Epic audit triggers** — before humanize QA on Rome `essay-rome-*`, grep body for: *Roman memory* · *memory Rome* · *annihilation* · *readers would* · rival-place mythology · *delenda* / curse / avenger tradition. If triggers fire and no epic/poet quote is woven, check volume map below — do not ship historiography-only when prose claims literary memory.
+
+**Rome volume map (quote homes — dedupe by book, not by author):**
+
+| Material | Primary essay | Notes |
+|----------|---------------|-------|
+| *Aeneid* **I.1–2** — arms and the man, Troy → Lavinium | `essay-rome-genesis` | Foundation epic frame |
+| *Aeneid* **I** — Dido's Carthage / harbor city | `essay-rome-carthage` | Rival place (Book I harbor beat) |
+| *Aeneid* **IV** — Dido's curse / avenger | `essay-rome-carthage` | Epic memory of Punic rival; pair with Cato/Appian |
+| *Aeneid* **VI** — shield, *imperium sine fine* | `essay-rome-augustus` | Augustan legitimation |
+| *Georgics* **I** — renewal / agriculture idiom | `essay-rome-augustus` | Peace idiom |
+| Republic § Punic Wars (compress) | `essay-rome-republic` | **No Virgil body** — depth defers to carthage geo-branch |
+
+**Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../public/civ-state/volumes/rome/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../public/civ-state/volumes/rome/essays/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
+
+**Embed rules:** one **short** epic quote at a memory or legitimation turn; **swap-don't-pad** at quote band; pair epic with chronicle or oratory (e.g. Dido curse → Cato fig); active intro in authorial voice — avoid meta-only wrappers (*moralized rhetoric*, *One modern analyst*). Optional Notes label: `*(Epic memory — not chronicle SSOT)*`. Reuse PD edition from [`rome-bibliography.md`](../../public/civ-state/volumes/rome/rome-bibliography.md); book-level routing may also live in essay `.meta.yaml` — skill does not duplicate full lattice.
+
+
 ### Essay citation inventory (Rome — downstream of active essays)
 
 **SSOT:** `public/civ-state/volumes/rome/rome-bibliography.md` — flat chronological list of sources **used across active `essay-rome-*` nodes**, with public-domain URL sub-lines (English default; Latin/Greek second line when essays quote heavily in original). **Derived from essays** (body authorial references + `## Notes`) — not imported from the retrieve shelf. **Not** the upstream retrieve shelf — that remains [`sources/rome/bibliography.md`](../../public/civ-state/sources/rome/bibliography.md) (`civ-state` Frame/Retrieve); volume door [`source-shelf.md`](../../public/civ-state/volumes/rome/source-shelf.md).
 
-**Current coverage (v0.2):** civic-chain four — genesis · republic · caesar · augustus.
+**Current coverage (v0.2.6):** civic-chain four — genesis · republic · caesar · augustus · geo-branch **carthage**.
 
 - **Before source-bearing or new ancient quotes:** check the inventory for an existing PD edition; reuse its URL sub-line.
 - **After a pass adds a new cited work in `## Notes` or body:** append the work to `rome-bibliography.md` in the same turn if not already listed (plain title bullet + indented URL sub-lines; copyrighted modern secondary = plain text, no link).
