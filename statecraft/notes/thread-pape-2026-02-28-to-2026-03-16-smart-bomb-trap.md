@@ -14,6 +14,7 @@ nodes:
   - source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md
   - source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md
   - source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md
+  - source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md
 ```
 
 **Pub span:** 2026-02-28 → 2026-03-16 (~16 days; **thread** tier)  
@@ -28,7 +29,7 @@ nodes:
 | **II — Illusion** | Feb 28 | [The Illusion of Control](../../source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md) |
 | **III — Confirmed** | Mar 1 | [Smart Bomb Trap Confirmed: Decapitation](../../source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md) |
 | **IV — Attrition ledger** (bridge) | Mar 3 | [The Air-Power Illusion](../../source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md) — see [Crooke × Pape × Simplicius bench](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) |
-| **V — Global battlefield** (mature) | Mar 16 | [Mar 16 daily synthesis § Pape](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md#pape) — economic-center-of-gravity stages |
+| **V — Global battlefield** (mature) | Mar 16 | [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) — compare [Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md#pape) | economic-center-of-gravity stages; *That was 16 days ago* |
 
 **Hook prefix (essay tier):** **JF28-T1** (mirage) · **J01-T1** (trap confirmed) · forward **J16-T*** on Mar 16 matrix when run.
 

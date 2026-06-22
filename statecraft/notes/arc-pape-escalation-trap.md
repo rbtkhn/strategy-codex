@@ -16,12 +16,15 @@ nodes:
   - source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md
   - source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md
   - source-archive/statecraft/2026-03-07/source-pape-the-escalation-trap-widens-russias-2026-03-07.md
+  - source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md
   - source-archive/statecraft/2026-03-27/source-pape-the-marine-threshold-5000-marines-2026-03-27.md
   - source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md
   - source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md
   - source-archive/statecraft/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md
   - source-archive/statecraft/2026-05-23/source-pape-trump-may-be-approaching-the-biggest-2026-05-23.md
   - source-archive/statecraft/2026-06-01/source-pape-the-trap-gets-worse-2026-06-01.md
+  - source-archive/statecraft/2026-06-02/source-pape-bombing-while-talking-2026-06-02.md
+  - source-archive/statecraft/2026-06-03/source-pape-bombing-while-talking-ii-2026-06-03.md
   - source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md
   - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md
   - source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md
@@ -59,7 +62,7 @@ VII  Mar 27     THRESHOLD — Marine deployment line; ground-escalation fork
 VIII Apr 16–24  SUPPLY + DUAL CLOCK — supply wall; two blockades / two clocks
 IX   May 3      LEDGER — first 60 days changed; next 30 worse (contraction bridge)
 X    May 23     RE-ENTRY — biggest Smart Bomb Trap yet (tactical intel → strategic disaster)
-XI   Jun 1–4    CEASEFIRE TRAP — trap gets worse; bombing while talking; Lebanon fuse
+XI   Jun 1–4    CEASEFIRE TRAP — trap gets worse; Jun 2–3 bombing while talking; Lebanon fuse
 XII  Jun 6–8    SURVIVAL→DOMINANCE — new phase; Day 100 expanding strategy; ceasefire breakdown
 XIII Jun 15     MAX LEVERAGE — uncertain deal; Iran's peak bargaining window
 XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 governance deadline
@@ -73,7 +76,8 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 | --- | --- | --- | --- |
 | **0 — Name** | Feb 25 | [The Smart Bomb Trap](../../source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md) | Precision expands wars it aims to contain; Stage I ≠ nuclear objective met |
 | **0 — Pattern** | Feb 27 | [From Kosovo to Iran](../../source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md) | Century template before kinetic proof |
-| **I–V — Opening** | Feb 28 → Mar 16 | [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) | Mirage → confirmed trap → Hormuz economic clock |
+| **I–IV — Opening** | Feb 28 → Mar 3 | [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) | Mirage → confirmed trap → air-power attrition |
+| **V — Global battlefield** | Mar 16 | [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) | **16 days** vs **2–3 day** rhetoric; Hormuz → economic shock → political pressure — compare [trap × mosaic lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) |
 | **VI — Widen** | Mar 7 | [Escalation Trap Widens](../../source-archive/statecraft/2026-03-07/source-pape-the-escalation-trap-widens-russias-2026-03-07.md) | Wars expand through quiet decisions, not announcements |
 | **VII — Threshold** | Mar 27 | [Marine Threshold](../../source-archive/statecraft/2026-03-27/source-pape-the-marine-threshold-5000-marines-2026-03-27.md) | Ground-escalation line; 5k Marines as strategic fork |
 | **VIII — Clocks** | Apr 16 | [Supply Wall](../../source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md) | Industrial/supply constraint enters center of gravity |
@@ -81,6 +85,8 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 | **IX — Ledger** | May 3 | [First 60 Days](../../source-archive/statecraft/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md) | What actually changed vs rhetoric; forward deterioration |
 | **X — Re-entry** | May 23 | [Biggest Smart Bomb Trap Yet](../../source-archive/statecraft/2026-05-23/source-pape-trump-may-be-approaching-the-biggest-2026-05-23.md) | Memorial Day posture; tactical intelligence → strategic disaster |
 | **XI — Ceasefire trap** | Jun 1 | [The Trap Gets Worse](../../source-archive/statecraft/2026-06-01/source-pape-the-trap-gets-worse-2026-06-01.md) | Diplomacy under fire; instability favors Tehran |
+| **XI — Bombing while talking** | Jun 2 | [Bombing While Talking](../../source-archive/statecraft/2026-06-02/source-pape-bombing-while-talking-2026-06-02.md) | Strikes continue under negotiation theater |
+| **XI — Bombing while talking II** | Jun 3 | [Bombing While Talking II](../../source-archive/statecraft/2026-06-03/source-pape-bombing-while-talking-ii-2026-06-03.md) | Diplomacy-under-fire ratchet deepens |
 | **XI — Horizontal** | Jun 4 | [Lebanon Fuse](../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) | Front widens beyond Iran core |
 | **XII — New phase** | Jun 6 | [The New Phase](../../source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md) | Iran **no longer fighting for survival** — fighting for **dominance** |
 | **XII — Day 100** | Jun 8 | [Day 100: Expanding Strategy](../../source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md) | Ceasefire breakdown; three watch indicators; strategy **expands** not contracts |
@@ -89,7 +95,7 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 | **XIV — Stage IV** | Jun 17 | [Stage IV Begins — Bloomberg MOU](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md) | MOU as **Iranian sphere-of-influence** architecture; negotiation = power maximization |
 | **XIV — Day 60** | Jun 17 | [Day 60 — Hidden Deadline](../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) | Official MOU = **armistice not settlement**; 60-day toll-free → **governance crisis** on Hormuz admin/fees |
 
-**Adjacent (index only — not arc nodes):** Jun 2–3 bombing-while-talking pair · May 27 oil repricing · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
+**Adjacent (index only — not arc nodes):** May 27 oil repricing · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
 
 ## Reconciliation (arc tier)
 
@@ -108,7 +114,7 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 2. **Clean 48h / 72h war** — falsifies clock migration (Leg V + arc Phases VIII–IX)
 3. **Hormuz sustained open + no Gulf entanglement** — narrows Phases VI–VIII
 4. **No ground threshold crossed by Apr** — softens Phase VII
-5. **Durable ceasefire holding through Jun** — falsifies Phases XI–XII; watch Jun 2–3 bombing-while-talking captures
+5. **Durable ceasefire holding through Jun** — falsifies Phases XI–XII; Jun 2–3 **bombing-while-talking** nodes load-bear
 6. **May 23 strike wave absent** — Phase X **warning branch** only (forecast tier)
 7. **Iran still in pure survival mode at Day 100** — falsifies Phase XII dominance pivot
 8. **US secures favorable deal before leverage peak** — falsifies Phase XIII; **partially falsified** if MOU ratified on Iranian terms (Phase XIV)

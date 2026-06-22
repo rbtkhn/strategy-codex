@@ -40,7 +40,7 @@ March 1 smart-bomb trap essay ([Leg III — thread](../notes/thread-pape-2026-02
 - "The greater the tactical success, the stronger the political necessity to answer it."
 - "Control was the premise. Momentum is the reality."
 
-March 16 global battlefield essay ([Leg V — thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md#mature-form--mar-16-lattice-pape-leg-only) · [arc Phase I–V](../notes/arc-pape-escalation-trap.md)):
+March 16 global battlefield essay ([capture](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) · [Leg V — thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md#mature-form--mar-16-lattice-pape-leg-only) · [arc Phase V](../notes/arc-pape-escalation-trap.md)):
 
 - War opened "almost exactly as military planners expected" — shock-and-awe grammar
 - "That was 16 days ago" after Trump said war could end in two or three days
