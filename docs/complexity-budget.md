@@ -80,7 +80,7 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 
 ## Path fallback retirement budget
 
-Active resolver fallback tuples should trend to zero.
+Active resolver fallback tuples are retired. CI must prevent reintroduction.
 
 **SSOT:** [`path-fallback-retirement.yaml`](../path-fallback-retirement.yaml) (machine) · [`docs/path-fallback-retirement.md`](path-fallback-retirement.md) (human mirror).
 
@@ -96,10 +96,16 @@ No new fallback tuple may be added without:
 
 | Metric | Current | Target |
 |---|---:|---:|
-| `REPO_PATH_MIGRATIONS` keys | 29 | 0 active legacy fallbacks |
-| Keys with legacy fallback tuples (`len(entry) > 1`) | 0 | 0 |
+| `REPO_PATH_MIGRATIONS` keys | 29 | 29 canonical-only keys |
+| Fallback-bearing resolver keys | 0 | 0 |
 | Unclassified migration keys | 0 | 0 |
-| Grace-Mar compatibility fallbacks in active resolver | 0 | moved to compat module (Wave 4) |
+| Grace-Mar compatibility fallbacks in active resolver | 0 | 0 |
+
+### Enforcement
+
+`python scripts/check_repo_path_strict.py --strict` is required CI.
+
+No new fallback tuple may be added without an explicit operator-approved exception and an expiry date in this document.
 
 ### Wave 1 removal (2026-06-21)
 
@@ -129,7 +135,9 @@ Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 2. **Fail mode** — promote to required after proof-slice gate (post Sprint 3) and operator legibility check.
 3. **Exceptions** — time-boxed allowlist entries in this file with expiry date; no permanent exceptions.
 
-**Workflow:** [`.github/workflows/repo-health.yml`](../.github/workflows/repo-health.yml) — **Required** job (routing, generated headers, layout, path adoption) + **Advisory** job (archive boundary, root budget, complexity `--check`, drift orchestrator). Mirrors `python3 scripts/check_repo_health.py --quick` / `--full`.
+**Workflow:** [`.github/workflows/repo-health.yml`](../.github/workflows/repo-health.yml) — **Required** job (routing, generated headers, layout, path adoption, **strict path scan**, path regression pytest) + **Advisory** job (archive boundary, root budget, complexity `--check`, drift orchestrator). Mirrors `python3 scripts/check_repo_health.py --quick` / `--full`.
+
+**Promoted (2026-06-21):** `python3 scripts/check_repo_path_strict.py --strict` — required; no longer in advisory job.
 
 ## Related
 
@@ -137,7 +145,7 @@ Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 - `scripts/audit_repo_complexity.py`
 - `scripts/check_archive_boundary.py` (warn mode; `--strict` after Phase 5)
 - `scripts/generate_llm_routing.py` — hybrid [`LLM-ROUTING.md`](../LLM-ROUTING.md) from [`repo-map.yaml`](../repo-map.yaml)
-- `scripts/check_repo_path_strict.py` (warn mode; `--strict` Sprint 6+)
+- `scripts/check_repo_path_strict.py` (**required** `--strict` in CI; promoted 2026-06-21)
 - `scripts/check_generated_surfaces.py` — manifest + header + drift (`--strict` Sprint 9 fail)
 - [`root-file-budget.yaml`](../root-file-budget.yaml) + `scripts/assert_root_file_budget.py` (warn; `--strict` Phase 9)
 - Phase 8 doc trim plan: [complexity-readme-start-here-trim-plan.md](complexity-readme-start-here-trim-plan.md) · `scripts/check_doc_duplication.py` (warn)

@@ -1,5 +1,5 @@
 # Complexity mitigation CI — consolidated preflight (Sprint 9 scaffold).
-# Rollout: advisory steps use continue-on-error until promoted in docs/complexity-budget.md.
+# Strict repo path scan is required; other advisory steps use continue-on-error until promoted.
 # Local mirror: python3 scripts/check_repo_health.py --quick | --full
 name: Repo health
 
@@ -35,6 +35,9 @@ jobs:
       - name: Repo path adoption (zero literals)
         run: python3 scripts/check_repo_path_adoption.py --max-literals 0
 
+      - name: Repo path strict scan
+        run: python3 scripts/check_repo_path_strict.py --strict
+
       - name: Generated manifest schema
         run: python3 scripts/check_generated_surfaces.py --manifest-only
 
@@ -47,6 +50,8 @@ jobs:
             tests/test_routing_generated.py \
             tests/test_check_generated_surfaces.py \
             tests/test_assert_root_file_budget.py \
+            tests/test_repo_path_strict.py \
+            tests/test_grace_mar_paths.py \
             -q
 
   advisory:
@@ -67,9 +72,6 @@ jobs:
       - name: Archive boundary
         run: python3 scripts/check_archive_boundary.py
 
-      - name: Repo path strict scan
-        run: python3 scripts/check_repo_path_strict.py
-
       - name: Root file budget
         run: python3 scripts/assert_root_file_budget.py
 
@@ -82,10 +84,9 @@ jobs:
       - name: Doc duplication (warn)
         run: python3 scripts/check_doc_duplication.py
 
-      - name: Pytest — path strict and archive boundary
+      - name: Pytest — archive boundary and CLI
         run: |
           python3 -m pytest \
-            tests/test_repo_path_strict.py \
             tests/test_check_archive_boundary.py \
             tests/test_strategy_codex_cli.py \
             -q

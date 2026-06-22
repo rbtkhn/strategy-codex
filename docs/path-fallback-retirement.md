@@ -13,6 +13,16 @@ No new fallback tuple may be added without:
 2. Entry in `path-fallback-retirement.yaml`
 3. Test coverage in `tests/test_repo_path_strict.py`
 
+## Status
+
+Path fallback retirement is complete as of 2026-06-21.
+
+All `REPO_PATH_MIGRATIONS` entries are canonical-only. Legacy fallback tuple tails removed across Waves 1–4.
+
+Invariant: `len(entry) == 1` for every migration key.
+
+Required guard: `python scripts/check_repo_path_strict.py --strict`
+
 ## Retired fallbacks
 
 ### Wave 1 — completed 2026-06-21

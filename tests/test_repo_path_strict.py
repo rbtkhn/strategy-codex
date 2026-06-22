@@ -116,6 +116,16 @@ def test_legacy_fallback_keys_have_retirement_policy():
     assert issues == [], issues
 
 
+def test_path_fallback_retirement_policy_has_no_legacy_entries():
+    retirement = load_path_fallback_retirement()
+    legacy_entries = {
+        key: entry.get("legacy")
+        for key, entry in retirement.items()
+        if entry.get("legacy")
+    }
+    assert legacy_entries == {}
+
+
 def test_grace_mar_compat_keys_are_isolated():
     compat_keys = {k for k, v in REPO_PATH_CLASSIFICATION.items() if v == "grace_mar_compat"}
     assert compat_keys == set(GRACE_MAR_COMPAT_KEYS)
@@ -300,8 +310,12 @@ def test_wave_4_readiness_all_ready():
 
 
 def test_no_legacy_fallback_tuples_remain():
-    count = sum(1 for entry in REPO_PATH_MIGRATIONS.values() if len(entry) > 1)
-    assert count == 0
+    fallback_keys = {
+        key: entry
+        for key, entry in REPO_PATH_MIGRATIONS.items()
+        if len(entry) > 1
+    }
+    assert fallback_keys == {}
 
 
 def test_check_repo_path_strict_wave_4():

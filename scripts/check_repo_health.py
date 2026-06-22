@@ -32,7 +32,7 @@ def run_quick() -> int:
         (["python3", "scripts/assert_root_file_budget.py"], "root file budget"),
         (["python3", "scripts/check_doc_duplication.py"], "doc duplication"),
         (["python3", "scripts/check_archive_boundary.py"], "archive boundary"),
-        (["python3", "scripts/check_repo_path_strict.py"], "path strict scan"),
+        (["python3", "scripts/check_repo_path_strict.py", "--strict"], "path strict scan"),
         (["python3", "scripts/check_repo_path_adoption.py", "--max-literals", "0"], "path adoption"),
     ]
     rc = 0
