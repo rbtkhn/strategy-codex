@@ -2,9 +2,9 @@
 
 ## Where This Sits
 
-**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay types — do not conflate](connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
+**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](../essays/connectivity-rome.md). Machine law: [essay types — do not conflate](../essays/connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
 
-**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#optional-sub-lenses)).
+**Not:** constitutional continuity ([Civilization Rome](../essays/civilization-rome.md) · [Empire Rome](../essays/empire-rome.md)) · single-dimension depth ([history essays](../essays/README.md#optional-sub-lenses)).
 
 ## Reading Posture
 
@@ -46,7 +46,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 - **Primary rupture:** **faith** (1054) — entropy and memory **cross-ref only** (connectivity rupture-ownership row).
 - **Not a political chain terminus:** East bridge continues to **1453** — do not merge 1054 with 1453 or 476 universal rupture class.
 - **Dual encode:** 1054 on **faith-spine** and **language-spine** (`contested-weight`) — one primary home on faith lens, language co-primary cross-ref.
-- **Choreography:** [Delineation — Civilization ↔ Empire ↔ Entropy](civilization-rome.md#delineation--civilization--empire--entropy) — schism precedes East terminus; cross-ref [1453 hexagonal](hexagonal-1453-rome.md) for bridge end.
+- **Choreography:** [Delineation — Civilization ↔ Empire ↔ Entropy](../essays/civilization-rome.md#delineation--civilization--empire--entropy) — schism precedes East terminus; cross-ref [1453 hexagonal](hexagonal-1453-rome.md) for bridge end.
 
 ## Short synthesis
 
@@ -58,8 +58,8 @@ The hexagonal lesson paired with **1453**: 1054 splits **sacred carry** while th
 
 ## Return Path
 
-- [Connectivity Rome](connectivity-rome.md) · [Essays index](README.md)
-- [Hexagonal demonstrators registry](README.md#hexagonal-demonstrators)
+- [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
+- [Hexagonal demonstrators registry](../essays/README.md#hexagonal-demonstrators)
 - Wave 1 peers: [1453](hexagonal-1453-rome.md) · [Italian Wars / Sack](hexagonal-italian-wars-rome.md) · [Justinian 529](hexagonal-justinian-codification-rome.md)
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
-- Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
+- Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)

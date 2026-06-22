@@ -2,9 +2,9 @@
 
 ## Where This Sits
 
-**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay types — do not conflate](connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
+**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](../essays/connectivity-rome.md). Machine law: [essay types — do not conflate](../essays/connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
 
-**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#optional-sub-lenses)).
+**Not:** constitutional continuity ([Civilization Rome](../essays/civilization-rome.md) · [Empire Rome](../essays/empire-rome.md)) · single-dimension depth ([history essays](../essays/README.md#optional-sub-lenses)).
 
 ## Reading Posture
 
@@ -38,7 +38,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 | **Empire** | What outward instrument? | **Owns hinge chronicle** — Caesar · Augustus **primary hinges**; principate institutionalizes universal imperium; Appian civil-wars cross-ref | Full emperor roster | [sovereignty chain — empire](../rome-empire.md#sovereignty-chain-empire-lens) · [military history — empire](../rome-empire.md#military-history-empire-lens) |
 | **Faith** | What sacred truth-order? | **Cross-ref only** — public cult and magistracy-sacred overlap pre-Christian empire; no schism at this node | Sacred ethic roster | [faith history — faith](../rome-faith.md#faith-history-faith-lens) |
 | **Science** | What procedural truth-order? | **Cross-ref only** — Twelve Tables / Gaius juridical opener lineage toward later codification; republican **procedural birth** | `#science-spine` formation | [science history — civilization](../rome-civilization.md#science-history-civilization-lens) · cross-ref [memory science-spine formation](../rome-memory.md#science-spine-formation) |
-| **Entropy** | Which shock broke carry? | **— (not entropy-primary)** | Transformation ≠ rupture; 476 is later western rupture | [sovereignty chain — entropy](../rome-entropy.md#sovereignty-chain-entropy-lens) — compare [476 node](civilization-rome.md#delineation--civilization--empire--entropy) |
+| **Entropy** | Which shock broke carry? | **— (not entropy-primary)** | Transformation ≠ rupture; 476 is later western rupture | [sovereignty chain — entropy](../rome-entropy.md#sovereignty-chain-entropy-lens) — compare [476 node](../essays/civilization-rome.md#delineation--civilization--empire--entropy) |
 
 ## Cross-ref law (this node)
 
@@ -46,7 +46,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 - **Primary homes:** **memory** (chain placement) + **empire** (hinge chronicle) + **civilization** (inheritance ethic) — **entropy empty**.
 - **Not a rupture:** do not assign `rupture-primary` on entropy for republic→principate — contrasts with **476** (delineation node 2).
 - **Empire overreach ≠ entropy:** later expansion pathology is a **different node** (delineation node 4) — do not preload it here.
-- **Choreography:** [Delineation — Civilization ↔ Empire ↔ Entropy](civilization-rome.md#delineation--civilization--empire--entropy) node **1** · pair-read [Justinian 529](hexagonal-justinian-codification-rome.md) (codification restitution) and [1453](hexagonal-1453-rome.md) (bridge terminus) as **later** chain beats.
+- **Choreography:** [Delineation — Civilization ↔ Empire ↔ Entropy](../essays/civilization-rome.md#delineation--civilization--empire--entropy) node **1** · pair-read [Justinian 529](hexagonal-justinian-codification-rome.md) (codification restitution) and [1453](hexagonal-1453-rome.md) (bridge terminus) as **later** chain beats.
 
 ## Short synthesis
 
@@ -58,8 +58,8 @@ The hexagonal lesson: continuity can **mutate form** without a shock row — the
 
 ## Return Path
 
-- [Connectivity Rome](connectivity-rome.md) · [Essays index](README.md)
-- [Hexagonal demonstrators registry](README.md#hexagonal-demonstrators)
+- [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
+- [Hexagonal demonstrators registry](../essays/README.md#hexagonal-demonstrators)
 - Wave 1: [1453](hexagonal-1453-rome.md) · [Italian Wars / Sack](hexagonal-italian-wars-rome.md) · [Justinian 529](hexagonal-justinian-codification-rome.md) · Wave 2: [1054](hexagonal-1054-schism-rome.md)
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
-- Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
+- Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)

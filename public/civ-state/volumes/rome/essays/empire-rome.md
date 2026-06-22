@@ -27,7 +27,7 @@ This chapter does not flatten Rome into glorious conquest or late decline melodr
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
 - Return to [Civilization Rome](civilization-rome.md) for the inner logic of law, universality, and transformed continuity.
 - Five spines: [Chain](../rome-memory.md#chain-spine) · [Language](../rome-memory.md#language-spine) · [Military](../rome-memory.md#military-spine) · [Faith](../rome-memory.md#faith-spine) · [Science](../rome-memory.md#science-spine).
-- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md).
+- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](../misc/military-history-rome.md) · [Faith history](../misc/faith-history-rome.md) · [Science history](../misc/science-history-rome.md).
 - Term lenses: [Empire](../rome-empire.md) · [Civilization](../rome-civilization.md) · [Faith](../rome-faith.md) · [Science](../rome-science.md) · [Memory](../rome-memory.md) · [Entropy](../rome-entropy.md).
 - Parallel dimension cross-reads: [#military-history-empire-lens](../rome-empire.md#military-history-empire-lens) · [#faith-history-empire-lens](../rome-empire.md#faith-history-empire-lens) · [#science-history-empire-lens](../rome-empire.md#science-history-empire-lens) · [#dual-language-heritage-empire-lens](../rome-empire.md#dual-language-heritage-empire-lens).
 - Return to Rome source corpus for deeper source-memory surfaces.

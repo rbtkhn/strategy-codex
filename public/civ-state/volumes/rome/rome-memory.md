@@ -180,7 +180,7 @@ When **which force structure carries Roman military grammar** governs, open [Mil
 | NATO stretch | `operator-present-residue-stretch` | Frontier-maintenance analogy — [Entropy military lens](rome-entropy.md#military-history-entropy-lens) footnote only |
 | Eastern rivals | `civ-state-placement` | Persia · Arab · Turk = parallel placement rows |
 | Unified east field | `operator-unified-east-*` | East frontier grammar to 1453 — Constantinople-centric |
-| Herodotus synthesis | `operator-synthesis-chain` | Intellectual chain on Persia row — [essay](essays/military-history-rome.md) |
+| Herodotus synthesis | `operator-synthesis-chain` | Intellectual chain on Persia row — [essay](misc/military-history-rome.md) |
 | Dual-year 1453 | `operator-dual-1453-span` | Castillon ║ Constantinople — cross-link, not merged |
 | Dual-year 1815 | `operator-dual-1815-nodes` | Waterloo ║ Congress of Vienna |
 | Faith genealogy | `operator-tyw-faith-fracture` | Crusade → Reformation → TYW — **genealogy not causation** |
@@ -199,7 +199,7 @@ When **which force structure carries Roman military grammar** governs, open [Mil
 | **1453** | East bridge military terminus — dual cross-link Castillon |
 | post-1815 | Comparative memory — France/HRE branch terminus |
 
-**Cross-reads:** [Empire roster](rome-empire.md#military-history-empire-lens) · [Civilization ethic](rome-civilization.md#military-history-civilization-lens) · [Faith](rome-faith.md#military-history-faith-lens) · [Science](rome-science.md#military-history-science-lens) · [Entropy](rome-entropy.md#military-history-entropy-lens) · [Military history (essay)](essays/military-history-rome.md)
+**Cross-reads:** [Empire roster](rome-empire.md#military-history-empire-lens) · [Civilization ethic](rome-civilization.md#military-history-civilization-lens) · [Faith](rome-faith.md#military-history-faith-lens) · [Science](rome-science.md#military-history-science-lens) · [Entropy](rome-entropy.md#military-history-entropy-lens) · [Military history (essay)](misc/military-history-rome.md)
 
 **Boundary rules (military-spine):**
 - Full rosters live on **empire + civilization** — do not duplicate here.
@@ -298,7 +298,7 @@ When **which sacred order carries Roman faith grammar** governs, open [Faith spi
 | No dual-year faith index | `historical-grounded` | No faith dual-year rows; 1453 cross-ref military `operator-dual-1453-span` |
 | Heresies / dualist rivals | `historical-grounded` | Gnosticism · Manichaeism → **entropy**; Mithraism formation footnote only |
 | Non-Chalcedonian churches | `contested-weight` | Mini-leg row — not fourth trilogy peer |
-| Philo–Augustine–Aquinas | `operator-synthesis-chain` | Intellectual lineage on Christianization cluster — [essay](essays/faith-history-rome.md) |
+| Philo–Augustine–Aquinas | `operator-synthesis-chain` | Intellectual lineage on Christianization cluster — [essay](misc/faith-history-rome.md) |
 | Parallel rupture index | `historical-grounded` | Fourth spine — volume architecture pilot |
 
 ### Term-filtered nodes (faith)
@@ -317,7 +317,7 @@ When **which sacred order carries Roman faith grammar** governs, open [Faith spi
 | **1453** | Sacral East terminus — cross-ref military dual 1453 |
 | post-1815 | Comparative sacred memory |
 
-**Cross-reads:** [Empire roster](rome-empire.md#faith-history-empire-lens) · [Civilization ethic](rome-civilization.md#faith-history-civilization-lens) · [Faith](rome-faith.md#faith-history-faith-lens) · [Science](rome-science.md#faith-history-science-lens) · [Entropy](rome-entropy.md#faith-history-entropy-lens) · [Faith history (essay)](essays/faith-history-rome.md)
+**Cross-reads:** [Empire roster](rome-empire.md#faith-history-empire-lens) · [Civilization ethic](rome-civilization.md#faith-history-civilization-lens) · [Faith](rome-faith.md#faith-history-faith-lens) · [Science](rome-science.md#faith-history-science-lens) · [Entropy](rome-entropy.md#faith-history-entropy-lens) · [Faith history (essay)](misc/faith-history-rome.md)
 
 **Boundary rules (faith-spine):**
 - Full rosters live on **empire + civilization** — do not duplicate here.
@@ -412,7 +412,7 @@ When **which procedural/evidentiary order carries Roman science grammar** govern
 | Synthesis chain | `operator-synthesis-chain` | Greek→Islamic→scholastic→Galileo→Descartes→Lavoisier (E5) |
 | Galileo trial | `historical-grounded` | Science observation · faith/entropy trial/Index (E3) |
 | No present science row | `historical-grounded` | Mirror military NATO discipline (E2) |
-| Faith↔Science | `operator-faith-science-choreography` | Nine-node table — [essay](essays/science-history-rome.md) |
+| Faith↔Science | `operator-faith-science-choreography` | Nine-node table — [essay](misc/science-history-rome.md) |
 | Science↔Entropy | `operator-science-entropy-choreography` | Shock primary / carry cross-ref (M1) |
 | Science↔Language | `operator-science-language-choreography` | Medium vs content split (O1–O4) |
 | 1204 four-way | `historical-grounded` | Military crusade · faith wound · entropy rupture · science codex cross-ref (N1) |
@@ -437,7 +437,7 @@ When **which procedural/evidentiary order carries Roman science grammar** govern
 | **1804** | Code civil terminus |
 | **1822** | Champollion |
 
-**Cross-reads:** [Empire roster](rome-empire.md#science-history-empire-lens) · [Civilization ethic](rome-civilization.md#science-history-civilization-lens) · [Science](rome-science.md#science-history-science-lens) · [Faith](rome-faith.md#science-history-faith-lens) · [Entropy](rome-entropy.md#science-history-entropy-lens) · [Science history (essay)](essays/science-history-rome.md)
+**Cross-reads:** [Empire roster](rome-empire.md#science-history-empire-lens) · [Civilization ethic](rome-civilization.md#science-history-civilization-lens) · [Science](rome-science.md#science-history-science-lens) · [Faith](rome-faith.md#science-history-faith-lens) · [Entropy](rome-entropy.md#science-history-entropy-lens) · [Science history (essay)](misc/science-history-rome.md)
 
 **Boundary rules (science-spine):**
 - Full rosters live on **empire + civilization** — do not duplicate here.

@@ -55,7 +55,7 @@ Faith licenses force; does not replace political head (Papacy on `#chain-spine`)
 | Thirty Years' War | Post-crusade intra-Latin-Christian war | `operator-tyw-faith-fracture` · **`contested-weight`** |
 | Reconquista | Cross-ref — chain retrieval-primary | cross-ref Iberia row |
 
-**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](essays/military-history-rome.md)
+**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](misc/military-history-rome.md)
 
 ## Faith history — faith lens {#faith-history-faith-lens}
 
@@ -81,7 +81,7 @@ Full spine routing + council depth. Placement SSOT: [Faith spine](rome-memory.md
 | Orthodox present | `operator-sacred-doctrine` — pairs language spine | `operator-sacred-doctrine` |
 | Christianization (324–380) | `operator-supersessionism-boundary` · `operator-synthesis-chain` | `historical-grounded` |
 
-**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Institutional roster](rome-empire.md#faith-history-empire-lens) · [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens) · [Faith history (essay)](essays/faith-history-rome.md)
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Institutional roster](rome-empire.md#faith-history-empire-lens) · [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens) · [Faith history (essay)](misc/faith-history-rome.md)
 
 ## Science history — faith lens {#science-history-faith-lens}
 
@@ -94,7 +94,7 @@ Cross-ref when procedural truth-order hybridizes with sacred order. SSOT on [Sci
 | Galileo trial / Index | Sacred boundary — science owns observation (E3) | cross-ref entropy |
 | Trent | Faith western primary — science scholastic cross-ref only (K1) | cross-ref |
 
-**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — faith lens](rome-science.md#faith-history-science-lens) · [Science history (essay)](essays/science-history-rome.md)
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — faith lens](rome-science.md#faith-history-science-lens) · [Science history (essay)](misc/science-history-rome.md)
 
 ## Whole-work term
 

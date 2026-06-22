@@ -58,7 +58,7 @@ Medium → `#language-spine` first. Content/procedure → `#science-spine` first
 | 4 | Rosetta | Script medium | Decipherment procedure |
 | 5 | Ecclesiastical vs civil Latin | Sacred/liturgical taxonomy | codification_medium |
 
-- **[Dual language heritage Rome](dual-language-heritage-rome.md)** — medium SSOT; cross-ref when script or reception governs.
+- **[Dual language heritage Rome](../essays/dual-language-heritage-rome.md)** — medium SSOT; cross-ref when script or reception governs.
 - **[Faith history Rome](faith-history-rome.md)** — sacred synthesis and trial/Index; cross-ref when canon theology governs.
 - **[Military spine](../rome-memory.md#military-spine)** — force doctrine; engineering cross-ref Frontinus B2.
 - **[Entropy (Rome)](../rome-entropy.md)** — shock primary on rupture nodes; science owns text survival cross-ref.

@@ -7,12 +7,12 @@ chains:
     description: formation → scale → command hinge → institutionalizer
 
 hex_link_map:
-  "1453": hexagonal-1453-rome.md
-  "1054-schism": hexagonal-1054-schism-rome.md
-  republic-principate: hexagonal-republic-principate-rome.md
-  justinian-529: hexagonal-justinian-codification-rome.md
-  italian-wars: hexagonal-italian-wars-rome.md
-  colonial-tail: hexagonal-colonial-tail-rome.md
+  "1453": ../misc/hexagonal-1453-rome.md
+  "1054-schism": ../misc/hexagonal-1054-schism-rome.md
+  republic-principate: ../misc/hexagonal-republic-principate-rome.md
+  justinian-529: ../misc/hexagonal-justinian-codification-rome.md
+  italian-wars: ../misc/hexagonal-italian-wars-rome.md
+  colonial-tail: ../misc/hexagonal-colonial-tail-rome.md
 
 essays:
   - id: abraham

@@ -21,17 +21,12 @@ Optional sub-lenses open **after** Civilization and Empire when the seam needs t
 
 ## Optional sub-lenses
 
-Maturing interpretive chapters — open after Civilization and Empire:
+Maturing interpretive chapters — open after Civilization and Empire. **Dual language heritage** stays here; other history sub-lenses and geo/strategy lenses live under [misc](../misc/README.md#history-sub-lenses).
 
 | Lens | File |
 |------|------|
 | Dual language heritage | [dual-language-heritage-rome.md](dual-language-heritage-rome.md) |
-| Military history | [military-history-rome.md](military-history-rome.md) |
-| Faith history | [faith-history-rome.md](faith-history-rome.md) |
-| Science history | [science-history-rome.md](science-history-rome.md) |
-| Geo-strategy | [geo-strategy-rome.md](geo-strategy-rome.md) |
-| Secret-history | [secret-history-rome.md](secret-history-rome.md) |
-| Game-theory | [game-theory-rome.md](game-theory-rome.md) |
+| Military · faith · science · geo · secret · game | [misc](../misc/README.md#history-sub-lenses) |
 
 ## Routing essays
 
@@ -48,21 +43,12 @@ Maturing interpretive chapters — open after Civilization and Empire:
 |-------|----------|-----|
 | **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Volume Parts 1–2 — read first |
 | **Term depth** | [volume root `rome-{term}.md`](../README.md#term-depth-volume-root) | Whole-work term projection · roster SSOT |
-| **hex-frame** | [§ below](#hex-frame-hexagonal-demonstrators) | One friction node × six term passes |
+| **hex-frame** | [misc § hex-frame](../misc/README.md#hex-frame-hexagonal-demonstrators) | One friction node × six term passes |
 | **Essay-rome** | [§ below](#essay-rome) | Standalone lattice — **no global read order** |
 
 ## hex-frame (hexagonal demonstrators)
 
-Informal name: **hex-frame**. On-disk: `hexagonal-*-rome.md`. One friction node × six term passes — membrane visible; link term SSOT, do not duplicate rosters. Template: [_template-hexagonal-rome.md](_template-hexagonal-rome.md). **Wave 1 (first ship):** 1453 · Italian Wars · Justinian 529.
-
-| Node | File | Status |
-|------|------|--------|
-| 1453 East terminus | [hexagonal-1453-rome.md](hexagonal-1453-rome.md) | active |
-| Italian Wars / Sack 1527 | [hexagonal-italian-wars-rome.md](hexagonal-italian-wars-rome.md) | active |
-| Justinian codification (529) | [hexagonal-justinian-codification-rome.md](hexagonal-justinian-codification-rome.md) | active |
-| 1054 Great Schism | [hexagonal-1054-schism-rome.md](hexagonal-1054-schism-rome.md) | active (wave 2) |
-| Republic → principate | [hexagonal-republic-principate-rome.md](hexagonal-republic-principate-rome.md) | active (wave 2) |
-| Colonial procedural tail | [hexagonal-colonial-tail-rome.md](hexagonal-colonial-tail-rome.md) | active (wave 2) |
+On-disk under [misc/](../misc/README.md#hex-frame-hexagonal-demonstrators) — `hexagonal-*-rome.md`. Copy scaffold: [_template-hexagonal-rome.md](_template-hexagonal-rome.md).
 
 ## Essay-rome
 

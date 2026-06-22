@@ -1,6 +1,6 @@
 # Hexagonal {Friction node title} (Rome)
 
-<!-- Copy this file to hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in essays/README.md § hex-frame. -->
+<!-- Copy this file to ../misc/hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in misc/README.md § hex-frame. -->
 
 ## Where This Sits
 

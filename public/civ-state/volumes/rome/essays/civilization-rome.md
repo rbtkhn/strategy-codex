@@ -26,7 +26,7 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
 - Five spines: [Chain](../rome-memory.md#chain-spine) · [Language](../rome-memory.md#language-spine) · [Military](../rome-memory.md#military-spine) · [Faith](../rome-memory.md#faith-spine) · [Science](../rome-memory.md#science-spine).
-- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md).
+- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](../misc/military-history-rome.md) · [Faith history](../misc/faith-history-rome.md) · [Science history](../misc/science-history-rome.md).
 - Term lenses: [Civilization](../rome-civilization.md) · [Empire](../rome-empire.md) · [Faith](../rome-faith.md) · [Science](../rome-science.md) · [Memory](../rome-memory.md) · [Entropy](../rome-entropy.md).
 - Parallel dimension cross-reads: [#military-history-civilization-lens](../rome-civilization.md#military-history-civilization-lens) · [#faith-history-civilization-lens](../rome-civilization.md#faith-history-civilization-lens) · [#science-history-civilization-lens](../rome-civilization.md#science-history-civilization-lens) · [#dual-language-heritage-civilization-lens](../rome-civilization.md#dual-language-heritage-civilization-lens).
 - Return to [Empire Rome](empire-rome.md) when outward instrument governs.

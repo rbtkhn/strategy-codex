@@ -96,7 +96,7 @@ Legions, logistics, garrison, incorporation-by-force. Campaign/command roster SS
 | `professional_legion` | Marian–Principate standing legion |
 | `imperial_field_army` | Comitatenses / Eastern Roman mobile thematic armies |
 | `frontier_limitanei` | Rhine/Danube/limes garrison grammar |
-| `naval_maritime` | Mediterranean fleet-coherence (cross-ref [geo-strategy](essays/geo-strategy-rome.md)) |
+| `naval_maritime` | Mediterranean fleet-coherence (cross-ref [geo-strategy](misc/geo-strategy-rome.md)) |
 | `procedural_doctrine` | Codified operational art (*Strategikon*, Vegetius, Frontinus) |
 | `successor_instrument` | Frankish, crusader, Habsburg carry — not chain head |
 | `rupture_defeat` | Adrianople-class shocks — entropy-primary |
@@ -140,7 +140,7 @@ Legions, logistics, garrison, incorporation-by-force. Campaign/command roster SS
 
 **Boundary (empire · military):** Do not duplicate civic *virtus* — point to [civilization ethic roster](rome-civilization.md#military-history-civilization-lens).
 
-**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Science — military lens](rome-science.md#military-history-science-lens) · [Military history (essay)](essays/military-history-rome.md)
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Science — military lens](rome-science.md#military-history-science-lens) · [Military history (essay)](misc/military-history-rome.md)
 
 ## Faith history — empire lens {#faith-history-empire-lens}
 
@@ -180,7 +180,7 @@ Institutional sacred carriers — pontificate, patriarchates, caliphal court, cr
 
 **Boundary (empire · faith):** Do not duplicate civic cult ethic — point to [civilization sacred ethic roster](rome-civilization.md#faith-history-civilization-lens).
 
-**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](misc/faith-history-rome.md)
 
 ## Science history — empire lens {#science-history-empire-lens}
 
@@ -216,7 +216,7 @@ Institutional procedural carriers — codification commissions, translation bure
 
 **Boundary (empire · science):** Do not duplicate civic procedural ethic — point to [civilization science roster](rome-civilization.md#science-history-civilization-lens).
 
-**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science history (essay)](essays/science-history-rome.md)
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science history (essay)](misc/science-history-rome.md)
 
 ## Whole-work term
 
@@ -250,9 +250,9 @@ Fall and fracture of imperial carry — [Entropy (Rome)](rome-entropy.md).
 
 - [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Empire Rome](essays/empire-rome.md)
-- [Geo-strategy Rome](essays/geo-strategy-rome.md)
+- [Geo-strategy Rome](misc/geo-strategy-rome.md)
 - [Memory (Rome)](rome-memory.md) — five spines SSOT
-- History essays: [Dual language heritage](essays/dual-language-heritage-rome.md) · [Military history](essays/military-history-rome.md) · [Faith history](essays/faith-history-rome.md) · [Science history](essays/science-history-rome.md)
+- History essays: [Dual language heritage](essays/dual-language-heritage-rome.md) · [Military history](misc/military-history-rome.md) · [Faith history](misc/faith-history-rome.md) · [Science history](misc/science-history-rome.md)
 - Spine cross-reads: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine)
 
 ## Return paths
