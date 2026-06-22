@@ -55,7 +55,7 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 
 | Guest | Lane | Relation to Ritter 2025 | Relation to Ritter 2026 |
 | --- | --- | --- | --- |
-| **Freeman** | [IGL Iran arc](./2026-02-freeman-india-global-left-iran-war-arc.md) | Out of year (starts Feb 2026) | **Order / toll** vs Ritter **attrition** — **pair, don’t merge** |
+| **Freeman** | [IGL Iran arc](./2026-02-freeman-india-global-left-iran-war-arc.md) · [2025 vs 2026 Freeman seam](./2025-vs-2026-freeman-igl-register-seam.md) | Out of year (starts Feb 2026) | **Order / toll** vs Ritter **attrition** — **pair, don’t merge** |
 | **Parsi** | [Sep 2025 IGL](../voices/parsi/parsi-interview-appearances-2025-2026.md) | **Between** 2025 Ritter pair and 2026 war — **E3/Europe escalatory** | **Upstream** of 2026 Freeman/Ritter Iran lanes |
 | **Marandi** | May 2026 IGL capture | — | Same **Iran war** calendar — **different guest register** |
 

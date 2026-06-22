@@ -29,8 +29,19 @@ opening_tier: host-tease
 transcript_wrapper_tier: clean
 india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
+verify_receipt: 2026-06-21
+verify:
+  - claim: Trump–Zelensky Oval Office meeting (28 Feb 2025) — public confrontation; minerals deal signing canceled
+    verdict: supported
+    note: AP/BBC/C-SPAN Feb 28 · capture aired 1 Mar 2025 post-event
+  - claim: Vance challenged Zelensky on diplomacy; accused Ukraine of manpower/conscript problems and ingratitude
+    verdict: supported
+    note: AP transcript Feb 28 · Vance "manpower problems" / "thank the president" lines on wire
+  - claim: Istanbul March 2022 draft framework; Boris Johnson persuaded Zelensky to repudiate and refuse Putin ratification meeting
+    verdict: partial
+    note: Istanbul communiqué/drafts documented (Reuters/NYT) — Johnson April 9 Kyiv visit urged fight on; Zelensky/Arakhamia deny Johnson blocked a signed deal; Freeman tier-4 causation read
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation. Wire-verify header pass 2026-06-21."
 ---
 # Chas Freeman EXPLAINS Why Trump and Zelensky Argued
 

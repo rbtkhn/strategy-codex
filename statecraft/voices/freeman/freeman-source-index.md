@@ -48,7 +48,7 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 ### India and Global Left
 
-**Arc:** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **2025 pre-kinetic bridge:** May 15 Gulf · Jun 21 war push · **Oct 10 Gaza ceasefire skepticism** (below) · **Cross-register:** [Ritter × IGL Iran arc (Feb 20→Apr 9)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter 2025 Trump pivot](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) · [Ritter source index](../ritter/ritter-source-index.md) · [channel index](../../../source-archive/statecraft/channel-index.md) (`india-and-global-left`, 20 files)
+**Arc:** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **2025 registers:** [Jun Iran push](../../notes/2025-freeman-igl-iran-war-push-register.md) · [Oct Gaza ceasefire](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) · [2025 vs 2026 seam](../../notes/2025-vs-2026-freeman-igl-register-seam.md) · **Cross-register:** [Ritter × IGL Iran arc (Feb 20→Apr 9)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter 2025 Trump pivot](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) · [Ritter 2025 vs 2026 seam](../../notes/2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter source index](../ritter/ritter-source-index.md) · [channel index](../../../source-archive/statecraft/channel-index.md) (`india-and-global-left`, 20 files)
 
 #### 2025-03 (Oval Office — out of Iran arc)
 
@@ -64,7 +64,7 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 #### 2025-10 (Gaza ceasefire — hostage frame skepticism)
 
-- [2025-10-10 — Why This Gaza Ceasefire Won't Last](../../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) — https://www.youtube.com/watch?v=jm1kxCygFmw — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · Lebanon 4,600 violations; Trump 20-point phases; Barghouti withheld; Arab raison d'état pivot · **Out of** 2026 Iran arc
+- [2025-10-10 — Why This Gaza Ceasefire Won't Last](../../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) — https://www.youtube.com/watch?v=jm1kxCygFmw — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Register:** [2025 IGL Gaza ceasefire](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) (`verify_receipt: 2026-06-21`, 4 hooks) · **Out of** 2026 Iran arc
 
 #### 2025-12 (NSS / China — out of Iran arc)
 

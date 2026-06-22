@@ -180,6 +180,7 @@ Named **outcomes** while war **impasse**:
 - [Feb 17 Freeman × Diesen — empire on Eurasia](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) — **multi-war bundle** (same week as Feb 24 IGL opener)
 - [Helmer Feb 3→Mar 24 arc](./2026-02-helmer-feb3-mar24-power-terms-arc.md) — **parallel clock** on **money/votes/bullets**
 - [Dec 2025 Freeman — China/NSS](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **separate lane** (Indo-Pacific / Monroe); do not merge into Iran arc body
+- [2025 vs 2026 Freeman IGL register seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year routing** for 2025 bridge vs 2026 arc
 - [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **13** files: **7** Freeman · **5** Ritter · **1** Marandi (`2025-02-22` → `2026-06-11`)
 
 ## Falsifiers

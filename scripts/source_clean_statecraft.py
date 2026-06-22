@@ -41,6 +41,11 @@ from source_clean_tiers import (  # noqa: E402
 from statecraft_day_archive import DEFAULT_ROOT  # noqa: E402
 
 
+def _has_source_clean_provenance(fm_block: str) -> bool:
+    """True when capture already received a source-clean provenance patch."""
+    return "source-clean pass" in fm_block or "AI-assisted source-clean" in fm_block
+
+
 def _landed_files_for_day(day: str) -> list[Path]:
     day_dir = DEFAULT_ROOT / day
     if not day_dir.is_dir():
@@ -88,6 +93,7 @@ def clean_capture(
 
     prior_editorial = None
     fm_match = FM_RE.match(raw)
+    already_clean = bool(fm_match and _has_source_clean_provenance(fm_match.group(0)))
     if fm_match:
         for line in fm_match.group(0).splitlines():
             if line.startswith("editorial_note:"):
@@ -95,13 +101,19 @@ def clean_capture(
                 prior_editorial = raw_val
                 break
 
-    should_patch_fm = write and fm_match is not None and (total_n > 0 or body_changed)
+    needs_first_provenance = total_n > 0 and not already_clean
+    should_patch_fm = (
+        write
+        and fm_match is not None
+        and (body_changed or needs_first_provenance)
+    )
+    effective_n = total_n if body_changed else (total_n if needs_first_provenance else 0)
     if should_patch_fm:
         keys_label = ", ".join(tier_key_preview[:4]) or "none"
         detail = f"scaffold + ph-civ series + entity + thread tiers ({keys_label})"
         new_fm = patch_frontmatter(
             fm_match.group(0).rstrip("\n"),
-            sub_count=total_n,
+            sub_count=effective_n if effective_n else total_n,
             prior_editorial=prior_editorial,
             pass_name="source-clean",
             pass_detail=detail,
@@ -111,10 +123,12 @@ def clean_capture(
 
     new_text = head + (new_body if body_changed else body)
 
+    idempotent = already_clean and not body_changed and not needs_first_provenance
     print(
-        f"{path}: source-clean total={total_n} "
+        f"{path}: source-clean total={effective_n} "
         f"(series={series_n}, entity={entity_n}, thread={tier_n}, series_key={series_resolved!r}); "
-        f"body_changed={body_changed}; scaffold={scaffold}; write={write and not dry_run}"
+        f"matched={total_n}; body_changed={body_changed}; idempotent={idempotent}; "
+        f"scaffold={scaffold}; write={write and not dry_run and (body_changed or should_patch_fm)}"
     )
     if tier_detail:
         print(f"  thread_hits={tier_detail}")

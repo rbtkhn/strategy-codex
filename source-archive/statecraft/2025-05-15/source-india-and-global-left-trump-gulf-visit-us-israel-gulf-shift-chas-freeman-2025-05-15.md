@@ -30,7 +30,18 @@ transcript_wrapper_tier: clean
 india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-and-global-left, channel:india-and-global-left)); 9 substitutions; not human-verified verbatim; verify before quotation."
+verify_receipt: 2026-06-21
+verify:
+  - claim: Fourth round Witkoff–Araghchi US–Iran nuclear talks in Muscat, Oman (11 May 2025); Oman mediating
+    verdict: supported
+    note: AP/Reuters/BBC May 11 · The National May 9 — capture aired 15 May during Trump Gulf visit week
+  - claim: Iran holds uranium enriched to ~60%; Freeman cites stock sufficient for ~six bombs in days
+    verdict: partial
+    note: IAEA 60% stockpile well documented May 2025 — exact "six bombs / days" breakout timeline contested vs Freeman shorthand
+  - claim: Trump administration divided — America-first (Vance) vs Israel-first demand zero enrichment
+    verdict: partial
+    note: Witkoff "no enrichment" red line May 9–11 wire · Vance America-first framing in capture is Freeman tier-4 synthesis of admin split
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-and-global-left, channel:india-and-global-left)); 9 substitutions; not human-verified verbatim; verify before quotation. Wire-verify header pass 2026-06-21."
 ---
 # Trump's Gulf Visit: Chas Freeman Explains the US–Israel–Gulf Shift | Deep Dive into Middle East
 
