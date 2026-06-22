@@ -70,7 +70,7 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 
 **Civic-chain read order** (when narrative continuity helps): genesis → republic → caesar → augustus — each active node has a `.meta.yaml` sidecar for routing.
 
-**Essay citation inventory (PD URLs):** [../rome-bibliography.md](../rome-bibliography.md) — downstream of **active** `essay-rome-*` nodes (civic-chain four + **carthage**); append new sources when the next node goes active — reuse URL sub-lines when adding quotes or Notes entries. **Retrieve shelf (era doors):** [../../../sources/rome/bibliography.md](../../../sources/rome/bibliography.md) via [../source-shelf.md](../source-shelf.md) — upstream `civ-state` retrieve, not essay inventory.
+**Essay citation inventory (PD URLs):** [../rome-bibliography.md](../rome-bibliography.md) — downstream of **active** `essay-rome-*` nodes (civic-chain four + **carthage** + **egypt**); append new sources when the next node goes active — reuse URL sub-lines when adding quotes or Notes entries. **Retrieve shelf (era doors):** [../../../sources/rome/bibliography.md](../../../sources/rome/bibliography.md) via [../source-shelf.md](../source-shelf.md) — upstream `civ-state` retrieve, not essay inventory.
 
 | slug | essay | meta | status |
 |------|-------|------|--------|
@@ -79,8 +79,11 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 | caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | [essay-rome-caesar.meta.yaml](essay-rome-caesar.meta.yaml) | active |
 | augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | [essay-rome-augustus.meta.yaml](essay-rome-augustus.meta.yaml) | active |
 | carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | [essay-rome-carthage.meta.yaml](essay-rome-carthage.meta.yaml) | active (geo-branch · QA 2026-06-22) |
+| egypt | [essay-rome-egypt.md](essay-rome-egypt.md) | [essay-rome-egypt.meta.yaml](essay-rome-egypt.meta.yaml) | active (geo-branch · QA 2026-06-22 · quote_pct 19.4%) |
 
 **Carthage activation (2026-06-22):** first active geo-branch node — humanized rival-system read; Polybius mercenary witnesses I.66/I.65/I.76; epic *Aeneid* I + IV; Appian *Punic Wars* 133 SSOT; quoted 521w / body 2782 (humanize ceiling waived). Registry `prose_qa` on carthage row in YAML.
+
+**Egypt activation (2026-06-22):** second active geo-branch — dependency-system read (Nile → Alexandria → lockbox → Eastern Roman → Islamic continuity → modern recurrence); Herodotus II · Strabo XVII · Arrian · Plutarch *Alexander*/*Antony* · Dio L.12 · Tacitus *Histories* I · Procopius · John of Nikiu; quoted 532w / body 2748 (**ratio-primary** gate 19.4%).
 
 Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yaml`](essay-rome.registry.yaml).
 

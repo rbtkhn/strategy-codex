@@ -114,13 +114,21 @@ essays:
 
   - id: egypt
     file: essay-rome-egypt.md
-    meta: null
+    meta: essay-rome-egypt.meta.yaml
     h1: Egypt
     tier: geo-branch
     hex_link: null
-    status: planned
-    period: null
-    role: null
+    status: active
+    period: "Pharaonic hydraulic state through Rosetta"
+    role: "dependency system · grain · Nile · Alexandria hinge"
+    prose_qa:
+      class: civic-chain-rome-humanize
+      body_words: 2615
+      quoted_words: 503
+      quote_pct: 19.2
+      footnotes: 25
+      verified: 2026-06-22
+      waiver: ratio-primary-gate
 
   - id: francia
     file: essay-rome-francia.md

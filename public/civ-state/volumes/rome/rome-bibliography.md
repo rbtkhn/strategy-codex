@@ -2,7 +2,7 @@
 
 **Downstream citation inventory** — sources used in **active `essay-rome-*` nodes** (body + `## Notes`). Append-only from essay work; do not bulk-import from the retrieve shelf.
 
-**Current coverage:** civic-chain four + **carthage** — genesis · republic · caesar · augustus · carthage (verified 2026-06-22).
+**Current coverage:** civic-chain four + **carthage** + **egypt** — genesis · republic · caesar · augustus · carthage · egypt (verified 2026-06-22).
 
 For the upstream retrieve shelf (era doors, full corpus), see [source-shelf.md](source-shelf.md) → [`sources/rome/bibliography.md`](../../sources/rome/bibliography.md).
 
@@ -37,8 +37,11 @@ Where a stable public-domain edition exists online, an indented line links to th
   - https://www.gutenberg.org/ebooks/44862
   - https://www.perseus.tufts.edu/hopper/text?doc=Plb.+1.1
 
-- c. 60–30 BC — Diodorus Siculus, *Library of History* (esp. Bk 25, Mercenary / Truceless War).
-  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/25*.html
+- c. 60–30 BC — Diodorus Siculus, *Library of History* (Bk I Egypt; Bk 25 Mercenary / Truceless War).
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/home.html
+
+- c. AD 130s — Arrian, *Anabasis of Alexander*.
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Arrian/home.html
 
 - c. 70 BC — Cicero, *Against Verres*.
   - https://www.gutenberg.org/ebooks/6576
@@ -129,6 +132,15 @@ Where a stable public-domain edition exists online, an indented line links to th
 - c. AD 100–120s — Plutarch, *Life of Caesar*.
   - https://archive.org/details/plutarchslives00plut
 
+- c. AD 100–120s — Plutarch, *Life of Alexander*.
+  - https://archive.org/details/plutarchslives00plut
+
+- c. AD 100–120s — Plutarch, *Life of Antony*.
+  - https://archive.org/details/plutarchslives00plut
+
+- c. AD 109–120 — Tacitus, *Histories*.
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/home.html
+
 - c. AD 109–120 — Tacitus, *Annals*.
   - https://archive.org/details/annals00taciuoft
 
@@ -150,6 +162,12 @@ Where a stable public-domain edition exists online, an indented line links to th
 
 - c. AD 211–233 — Cassius Dio, *Roman History*.
   - https://archive.org/details/diosromanhistory01cass
+
+- c. AD 550s — Procopius, *Wars of Justinian*.
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/home.html
+
+- c. 7th century — John of Nikiu, *Chronicle* (medieval chronicle witness).
+  - https://archive.org/details/chronicleofjohnb00zote
 
 ## Early Modern, Modern, and Secondary Sources
 

@@ -60,6 +60,7 @@ Each active civic-chain node has a `.meta.yaml` sidecar (scope, deferrals, retur
 | Essay | Period (approx.) | Role |
 |-------|------------------|------|
 | [Carthage](essays/essay-rome-carthage.md) | Phoenician foundation through destruction (146 BC) | rival system · Rome's Mediterranean trial |
+| [Egypt](essays/essay-rome-egypt.md) | Pharaonic hydraulic state through Rosetta | dependency system · grain · Nile · Alexandria hinge |
 
 **Other planned lattice nodes** (africa, constantinople, schism, and others): see [`essay-rome.registry.yaml`](essays/essay-rome.registry.yaml).
 

@@ -1,0 +1,82 @@
+title: Egypt
+volume: rome
+essay_id: egypt
+status: active
+period: "Pharaonic hydraulic state through Rosetta (strategic recurrence frame)"
+tier: geo-branch
+hex_link: null
+standalone: true
+
+role:
+  type: standalone geo-branch essay
+  function: persistent imperial constraint system — grain, Nile logistics, Alexandria, eastern Mediterranean hinge
+  chain_position: null
+  opens_after: null
+  closes_before: null
+
+where_this_sits: |
+  Essay-rome · tier geo-branch · no hex_link. Standalone dependency-system read — not civic-chain genesis→augustus.
+  Second active geo-branch lattice node. Rome inside Egypt's longer imperial gravity field — not Egypt as Roman province chapter.
+
+proves_here:
+  - Nile hydraulic state logic (taxation, bureaucracy, sacred kingship)
+  - Alexander reorientation — pharaoh legitimation, Alexandria founding
+  - Alexandria dual machine (grain + knowledge)
+  - Civil-war entanglement · Actium as eastern Mediterranean decision
+  - Imperial lockbox (equestrian prefect, annona)
+  - Eastern Roman Empire grain artery to Constantinople
+  - Islamic administrative continuity — hydraulic logic survives language change
+  - Cairo/Mamluk hinge · Ottoman strategic core · modern recurrence (Napoleon/Nelson/Rosetta)
+
+defers_to:
+  essay-rome-carthage.md:
+    - rival-system grammar · Punic naval trial
+  essay-rome-caesar.md:
+    - Pompey flight to Egypt · Pharsalus epilogue
+  essay-rome-augustus.md:
+    - principate settlement · Actium fleet-flight scene
+  essay-rome-constantinople.md:
+    - capital-transfer theory · New Rome institutional depth
+  essay-rome-africa.md:
+    - full Africa province · Christian African church arc
+
+not_this_file:
+  - republican institutional development essay
+  - civic-chain genesis→augustus continuity
+  - Egyptology tourism or archaeological digression without strategic function
+  - deep Constantinople capital theory
+
+reading_posture_scope: |
+  Pharaonic foundation through Rosetta (strategic recurrence). Egypt as Mediterranean's persistent strategic object —
+  grain, Nile, Alexandria, eastern hinge. Standalone — complete without peer essays.
+
+membrane:
+  - Carthage = rival system; Egypt = dependency / constraint system
+  - defer Constantinople capital depth · defer Africa province church arc
+  - Eastern Roman Empire (not Byzantine) in operator framing
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays:
+    - essay-rome-carthage.md
+    - essay-rome-augustus.md
+  hex_frame: null
+  term_depth:
+    - ../rome-empire.md
+    - ../rome-memory.md
+  constitutional:
+    - civilization-rome.md
+    - empire-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens:
+    - geo-strategy-rome.md
+  return_path:
+    - connectivity-rome.md
+    - README.md
+    - ../README.md
+
+close_when: Reader sees Egypt as what empires repeatedly organize around — rival contrast to Carthage clear, Roman phase legible without Augustus settlement re-proof

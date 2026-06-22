@@ -3,7 +3,7 @@ name: civ-state-essay
 preferred_activation: civ-state essay
 description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
 portable: true
-version: 0.2.6
+version: 0.2.7
 tags:
   - operator
   - work-strategy
@@ -83,6 +83,7 @@ Pin from target file + [`release-history.md`](../../public/civ-state/docs/releas
 | Essay | File | QA `--class` (current) | Pass notes |
 |-------|------|------------------------|------------|
 | Carthage | `essay-rome-carthage.md` | **`civic-chain-rome-humanize`** | rival-system · historiography + epic memory · *Aeneid* I + IV · anti-dup vs republic Livy XXII.54 |
+| Egypt | `essay-rome-egypt.md` | **`civic-chain-rome-humanize`** | dependency-system · Nile → Alexandria → lockbox → Eastern Roman → Islamic recurrence · **ratio-primary** QA (`quote_pct` ≥18%; registry `waiver: ratio-primary-gate`) · anti-dup vs augustus Actium flight pins |
 
 After any **humanizing** pass on a node, default QA class for later edits on that file → **humanize** until operator folds bands.
 
@@ -123,6 +124,7 @@ Poets count as **primary ancient** body sources — same `"…"` weave as histor
 | *Aeneid* **VI** — shield, *imperium sine fine* | `essay-rome-augustus` | Augustan legitimation |
 | *Georgics* **I** — renewal / agriculture idiom | `essay-rome-augustus` | Peace idiom |
 | Republic § Punic Wars (compress) | `essay-rome-republic` | **No Virgil body** — depth defers to carthage geo-branch |
+| Actium fleet-flight (Dio/Suetonius) | `essay-rome-augustus` | Egypt essay uses different Dio/Plutarch pins — grain/eastern coalition |
 
 **Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../public/civ-state/volumes/rome/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../public/civ-state/volumes/rome/essays/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
 
@@ -133,7 +135,7 @@ Poets count as **primary ancient** body sources — same `"…"` weave as histor
 
 **SSOT:** `public/civ-state/volumes/rome/rome-bibliography.md` — flat chronological list of sources **used across active `essay-rome-*` nodes**, with public-domain URL sub-lines (English default; Latin/Greek second line when essays quote heavily in original). **Derived from essays** (body authorial references + `## Notes`) — not imported from the retrieve shelf. **Not** the upstream retrieve shelf — that remains [`sources/rome/bibliography.md`](../../public/civ-state/sources/rome/bibliography.md) (`civ-state` Frame/Retrieve); volume door [`source-shelf.md`](../../public/civ-state/volumes/rome/source-shelf.md).
 
-**Current coverage (v0.2.6):** civic-chain four — genesis · republic · caesar · augustus · geo-branch **carthage**.
+**Current coverage (v0.2.7):** civic-chain four — genesis · republic · caesar · augustus · geo-branch **carthage** · **egypt**.
 
 - **Before source-bearing or new ancient quotes:** check the inventory for an existing PD edition; reuse its URL sub-line.
 - **After a pass adds a new cited work in `## Notes` or body:** append the work to `rome-bibliography.md` in the same turn if not already listed (plain title bullet + indented URL sub-lines; copyrighted modern secondary = plain text, no link).

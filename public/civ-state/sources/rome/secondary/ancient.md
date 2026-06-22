@@ -19,7 +19,7 @@ Use this shelf after the ancient Rome primary shelf when republic-to-empire conv
 - Adrian Goldsworthy, *Augustus: First Emperor of Rome*, for **Augustus hinge** vacancy and anti-Caesar concealment — pair with *Res Gestae*, Suetonius, Syme. Tier B only.
 - Anthony Everitt, *Augustus*, for institutionalizer read — force then concealment; revolution disguised as restoration. Tier B; pair with Syme.
 - Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*, for comparative polis-to-empire framing.
-- Napoleon I, *Commentaries on the Wars of Julius Caesar* (trans. R. A. Maguire, Pen & Sword, 2018; orig. *Précis des guerres de César*, 1836), for **peer military analysis** of Caesar’s campaigns — especially Civil War **Ch. 11** (Thessaly / Pharsalus reserve cohorts, pp. 67–68) and **Ch. 16** (assassination / failed restoration, pp. 103–107). Tier B only; pair with primaries. Cross-ref [essay-rome-napoleon](../../../volumes/rome/essays/essay-rome-napoleon.md) for full comparative essay.
+- Napoleon I, *Commentaries on the Wars of Julius Caesar* (trans. R. A. Maguire, Pen & Sword, 2018; orig. *Précis des guerres de César*, 1836), for **peer military analysis** of Caesar’s campaigns — especially Civil War **Ch. 11** (Thessaly / Pharsalus reserve cohorts, pp. 67–68) and **Ch. 16** (assassination / failed restoration, pp. 103–107). Tier B only; pair with primaries. Cross-ref [essay-rome-caesar](../../../volumes/rome/essays/essay-rome-caesar.md) for Caesar hinge; dedicated `essay-rome-napoleon` lattice node remains planned ([registry](../../../volumes/rome/essays/essay-rome.registry.yaml) — no reader essay yet).
 
 ## Counterweights And Corrections
 
