@@ -42,6 +42,7 @@ The mature core is 2026, especially:
 - [2026-06-14 With One Strike, Netanyahu Tries to Kill Two Peace Deals](../../../source-archive/statecraft/2026-06-14/source-parsi-with-one-strike-netanyahu-tries-to-kill-two-peace-deals-2026-06-14.md) — authored
 - [2026-06-15 Trump's Iran Peace Deal, Israel's Sabotage](../../../source-archive/statecraft/2026-06-15/source-tucker-parsi-trump-iran-peace-deal-israel-sabotage-2026-06-15.md) — Tucker Carlson interview
 - [2026-06-16 Ben Shapiro Melts Down Over Iran Deal](../../../source-archive/statecraft/2026-06-16/source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md) — Breaking Points interview
+- [2026-06-21 Can the US-Iran peace deal hold?](../../../source-archive/statecraft/2026-06-21/source-switzer-mearsheimer-parsi-us-iran-peace-deal-hold-2026-06-21.md) — **Switzerland with Tom Switzer** · cleaned-transcript · https://www.youtube.com/watch?v=okSltilmp-o · × `mearsheimer` bench · honeypot timing vs precipice; negotiation theatrics; three-pillars / despecialize Israel; Lebanon compliance lever; Katz no-restrictions · **Tier A profile anchor** ([`parsi-profile.md`](parsi-profile.md))
 
 ## Boundary notes
 
