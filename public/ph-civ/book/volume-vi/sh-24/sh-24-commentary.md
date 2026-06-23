@@ -81,11 +81,6 @@ This section is the working surface for enhancing and leveraging the chapter ove
 - Relationship to Volume I law discovery or Volume II law application:
 - Bridge/support role, if any:
 
-### Museum Hooks
-
-- Objects, maps, artworks, documents, timelines, or media that would make the chapter legible:
-- Suggested exhibit rooms or visitor path:
-- Rights/provenance cautions:
 
 ### Strategy / Present-Day Application
 

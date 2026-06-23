@@ -292,9 +292,6 @@ Scholarship-grade alternatives; sources in [bibliography](./part-02-hellenic-wor
 
 - Volume I law-discovery: how symbolic orders (epic, theater, dialogue) precede and survive imperial machinery.
 
-### Museum Hooks
-
-- Iliad oral performance; theater mask; Academy/Lyceum; Alexander mosaic; Library of Alexandria shelf.
 
 ### Strategy / Present-Day Application
 

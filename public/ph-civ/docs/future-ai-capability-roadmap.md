@@ -1,11 +1,11 @@
 ﻿# Future AI Capability Roadmap
 
-`ph-civ`, `ph-apo`, and `ph-mus` should be treated not merely as static exports, but as future-facing public context layers that become more useful as AI interfaces mature.
+`ph-civ` and `ph-apo` should be treated not merely as static exports, but as future-facing public context layers that become more useful as AI interfaces mature.
 
 ## Likely Capability Unlocks
 
 1. **Native context-pack import**
-   AI systems may increasingly support structured project memory, MCP resources, knowledge packs, or app connectors. `ph-civ`, `ph-apo`, and `ph-mus` should remain easy to ingest as JSONL, Markdown, schema-valid cards, exhibit manifests, and eventually MCP resources.
+   AI systems may increasingly support structured project memory, MCP resources, knowledge packs, or app connectors. `ph-civ` and `ph-apo` should remain easy to ingest as JSONL, Markdown, schema-valid cards, exhibit manifests, and eventually MCP resources.
 
 2. **Promptless study flows**
    Users should not need to know the right question in advance. Commands like `ph-civ start`, `ph-civ spark`, `ph-civ path`, and `ph-civ today` should generate first questions, guided sessions, and next steps automatically.
@@ -20,7 +20,7 @@
    The same card should eventually render as seminar tutor, skeptical counter-reader, exam prep, creative prompt, or introductory guide. This argues for structured payloads and modular prompt templates.
 
 6. **Citation and provenance enforcement**
-   AI systems will likely improve at source-bounded answers. `ph-civ`, `ph-apo`, and `ph-mus` should preserve clear boundaries between orientation cards, transcripts, commentary, artifact metadata, and quote-grade claims.
+   AI systems will likely improve at source-bounded answers. `ph-civ` and `ph-apo` should preserve clear boundaries between orientation cards, transcripts, commentary, artifact metadata, and quote-grade claims.
 
 7. **Graph navigation**
    Cross-volume corridors may become a core feature: not only searching for a card, but following routes such as Homer to Dante to Dostoevsky, Rome's afterlives, or pressure corridors in World War. Typed edges should remain stable and parseable.
