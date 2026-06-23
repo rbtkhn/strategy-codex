@@ -117,28 +117,6 @@ DEFAULT_SECTIONS: dict[str, dict[str, list[str]]] = {
             "Synthesis",
         ],
     },
-    "ph-mus": {
-        "lesson": [
-            "Museum Orientation",
-            "Visitor Path",
-            "Key Artifacts",
-            "What To Notice",
-            "Cautions",
-        ],
-        "summary": [
-            "Museum Summary",
-            "Visitor Path",
-            "Key Artifacts",
-            "Cautions",
-        ],
-        "comparison": [
-            "Comparison Frame",
-            "Exhibit Side A",
-            "Exhibit Side B",
-            "What To Notice",
-            "Cautions",
-        ],
-    },
 }
 
 DEFAULT_SECTIONS_BY_ARTIFACT_CLASS: dict[str, dict[str, list[str]]] = {
@@ -146,14 +124,6 @@ DEFAULT_SECTIONS_BY_ARTIFACT_CLASS: dict[str, dict[str, list[str]]] = {
         "lesson": ["Opening Thesis", "Reader Orientation", "Pattern", "Evidence", "Study Questions"],
         "summary": ["Summary", "Pattern", "Evidence", "Reader Return Path"],
         "comparison": ["Comparison Frame", "Pattern Side A", "Pattern Side B", "Tensions", "Synthesis"],
-    },
-    "museum_route": {
-        "lesson": ["Museum Orientation", "Visitor Path", "Key Artifacts", "What To Notice", "Cautions"],
-        "summary": ["Museum Summary", "Visitor Path", "Key Artifacts", "Cautions"],
-    },
-    "museum_artifact_set": {
-        "lesson": ["Museum Orientation", "Key Artifacts", "Interpretive Links", "What To Notice", "Cautions"],
-        "comparison": ["Comparison Frame", "Artifact Set A", "Artifact Set B", "What To Notice", "Cautions"],
     },
     "route_comparison": {
         "summary": ["Comparison Summary", "Route Side A", "Route Side B", "Shared Pattern", "Reader Return Path"],
@@ -204,10 +174,6 @@ TEMPLATE_MAP: dict[tuple[str, str, str], str] = {
     ("ph-apo", "chapter_packet", "comparison"): "ph-apo-chapter-packet-comparison",
     ("ph-apo", "route_comparison", "summary"): "ph-apo-route-comparison-summary",
     ("ph-apo", "route_comparison", "comparison"): "ph-apo-route-comparison-comparison",
-    ("ph-mus", "museum_route", "lesson"): "ph-mus-museum-route-lesson",
-    ("ph-mus", "museum_route", "summary"): "ph-mus-museum-route-summary",
-    ("ph-mus", "museum_artifact_set", "lesson"): "ph-mus-museum-artifact-set-lesson",
-    ("ph-mus", "museum_artifact_set", "comparison"): "ph-mus-museum-artifact-set-comparison",
 }
 
 LEGACY_TEMPLATE_MAP: dict[tuple[str, str], str] = {
@@ -228,9 +194,6 @@ LEGACY_TEMPLATE_MAP: dict[tuple[str, str], str] = {
     ("ph-apo", "lesson"): "ph-apo-lesson",
     ("ph-apo", "summary"): "ph-apo-summary",
     ("ph-apo", "comparison"): "ph-apo-comparison",
-    ("ph-mus", "lesson"): "ph-mus-lesson",
-    ("ph-mus", "summary"): "ph-mus-summary",
-    ("ph-mus", "comparison"): "ph-mus-comparison",
 }
 
 

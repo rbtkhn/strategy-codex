@@ -13,12 +13,6 @@ FORBIDDEN_PH_ROOTS = [
     REPO_ROOT / "codex" / "predictive-history",
     REPO_ROOT / "research" / "external" / "youtube-channels" / "predictive-history",
 ]
-PH_MUS_PRIVATE_MARKERS = (
-    "local_vault_path",
-    "shared_cloud_path",
-    "C:\\",
-    "C:/",
-)
 PH_PUBLIC_PACKET_PRIVATE_MARKERS = (
     "local_vault_path",
     "shared_cloud_path",
@@ -44,15 +38,7 @@ DEFAULT_SECTION_ORDERS = {
         "Caveats",
         "Implications",
     ],
-    "ph-mus": [
-        "Museum Orientation",
-        "Visitor Path",
-        "Key Artifacts",
-        "What To Notice",
-        "Cautions",
-    ],
 }
-PH_MUS_ARTIFACT_CLASSES = {"museum_route", "museum_artifact_set"}
 
 
 def _forbidden_local_ph_path(path: Path) -> bool:
@@ -108,7 +94,7 @@ def _base_bundle(
         },
         "presentation_hints": {
             "section_order": default_sections_for(subsurface, intent, artifact_class),
-            "chart_candidates": ["Visitor path" if subsurface == "ph-mus" else "Pattern flow"],
+            "chart_candidates": ["Pattern flow"],
             "visual_notes": ["Reader-facing public style", "Keep citations and ids visible"],
             "template_key": "",
         },
@@ -195,114 +181,4 @@ def build_ph_civ_bundle(
         items=items,
         hashes=hashes,
         source_mode="external-public-packet",
-    )
-
-
-def build_ph_mus_packet_bundle(
-    *,
-    intent: str,
-    title: str,
-    audience: str,
-    packet_path: Path,
-) -> dict[str, object]:
-    resolved = packet_path.resolve()
-    try:
-        packet = json.loads(resolved.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as exc:
-        raise ValueError("ph-mus packet must be valid JSON") from exc
-    packet_blob = json.dumps(packet, ensure_ascii=True, sort_keys=True)
-    for marker in PH_MUS_PRIVATE_MARKERS:
-        if marker in packet_blob:
-            raise ValueError(f"ph-mus packet contains forbidden private marker: {marker}")
-    if str(packet.get("packet_type") or "") != "ph_mus_packet":
-        raise ValueError("ph-mus packet must use packet_type=ph_mus_packet")
-    source_id = _require_source_id(packet.get("source_id"), field="ph-mus packet")
-    packet_subsurface = str(packet.get("subsurface") or "").strip()
-    if packet_subsurface and packet_subsurface != "ph-mus":
-        raise ValueError("ph-mus packet subsurface must be 'ph-mus'")
-    surface = str(packet.get("surface") or "").strip()
-    if surface not in {"ph-civ", "ph-apo"}:
-        raise ValueError("ph-mus packet must include public surface 'ph-civ' or 'ph-apo'")
-    conceptual_volumes = packet.get("conceptual_volumes") or []
-    if not isinstance(conceptual_volumes, list) or not conceptual_volumes:
-        raise ValueError("ph-mus packet must include non-empty conceptual_volumes")
-    if not all(isinstance(x, str) and x.strip() for x in conceptual_volumes):
-        raise ValueError("ph-mus packet conceptual_volumes must be strings")
-    exhibit_path = str(packet.get("museum_exhibit_path") or "").strip()
-    if not exhibit_path:
-        raise ValueError("ph-mus packet must include museum_exhibit_path")
-    if not exhibit_path.startswith("corpus/media-packs/"):
-        raise ValueError("ph-mus packet museum_exhibit_path must point to the public museum corpus")
-    museum_status = str(packet.get("museum_status") or "").strip()
-    if not museum_status:
-        raise ValueError("ph-mus packet must include museum_status")
-    route_type = str(packet.get("route_type") or "").strip()
-    if not route_type:
-        raise ValueError("ph-mus packet must include route_type")
-    visitor_path = packet.get("visitor_path") or []
-    if not isinstance(visitor_path, list) or not visitor_path:
-        raise ValueError("ph-mus packet must include visitor_path")
-    artifact_class = str(packet.get("artifact_class") or "").strip()
-    if artifact_class:
-        if artifact_class not in PH_MUS_ARTIFACT_CLASSES:
-            raise ValueError("ph-mus packet artifact_class must be museum_route or museum_artifact_set")
-    elif intent == "comparison" and packet.get("runtime/artifacts"):
-        artifact_class = "museum_artifact_set"
-    else:
-        artifact_class = "museum_route"
-    items = [
-        {
-            "id": source_id,
-            "title": str(packet.get("title") or source_id),
-            "text": "\n".join(
-                [
-                    f"surface: {surface}",
-                    f"conceptual_volumes: {', '.join(str(x).strip() for x in conceptual_volumes)}",
-                    f"museum_status: {museum_status}",
-                    f"route_type: {route_type}",
-                    f"what_changes_here: {str(packet.get('what_changes_here') or '')}",
-                    f"caveat: {str(packet.get('caveat') or '')}",
-                    "visitor_path:",
-                    *[f"- {room}" for room in visitor_path],
-                ]
-            ).strip(),
-            "citation": exhibit_path,
-            "kind": "museum_route",
-            "source_path": exhibit_path,
-            "public": True,
-        }
-    ]
-    for idx, artifact in enumerate(packet.get("runtime/artifacts") or []):
-        if not isinstance(artifact, dict):
-            raise ValueError(f"ph-mus artifacts[{idx}] must be an object")
-        items.append(
-            {
-                "id": str(artifact.get("artifact_id") or f"{source_id}-artifact-{idx+1}"),
-                "title": str(artifact.get("title") or f"{source_id} artifact {idx+1}"),
-                "text": "\n".join(
-                    [
-                        f"room: {str(artifact.get('room') or '')}",
-                        f"artifact_type: {str(artifact.get('artifact_type') or '')}",
-                        f"what_to_notice: {str(artifact.get('what_to_notice') or '')}",
-                        f"lecture_connection: {str(artifact.get('lecture_connection') or '')}",
-                        f"limit_or_caution: {str(artifact.get('limit_or_caution') or '')}",
-                        f"curator_note: {str(artifact.get('curator_note') or '')}",
-                    ]
-                ).strip(),
-                "citation": exhibit_path,
-                "kind": "museum_artifact",
-                "source_path": exhibit_path,
-                "public": True,
-            }
-        )
-    hashes = {resolved.as_posix(): file_sha256(resolved)}
-    return _base_bundle(
-        subsurface="ph-mus",
-        artifact_class=artifact_class,
-        intent=intent,
-        title=title,
-        audience=audience,
-        items=items,
-        hashes=hashes,
-        source_mode="ph-mus-cli-packet",
     )

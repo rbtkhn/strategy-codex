@@ -15,7 +15,7 @@ The canonical public Predictive History repo is:
 
 - [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ)
 
-`ph-civ` is the two-volume public artifact containing the `ph-civ`, `ph-apo`, and `ph-mus` surfaces: lecture transcripts, companion commentaries, cards, routes, public pattern IDs, and museum manifests. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
+`ph-civ` is the two-volume public artifact containing the `ph-civ` and `ph-apo` surfaces: lecture transcripts, companion commentaries, cards, routes, and public pattern IDs. The vendored mirror under `public/ph-civ/` may lead GitHub between publishes.
 
 Inside `strategy-codex`, Predictive History is now an **external observed public project**, not a local production lane.
 

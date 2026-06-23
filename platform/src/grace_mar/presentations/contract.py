@@ -6,7 +6,7 @@ from typing import Any
 
 FAMILIES = ("ph-civ", "civ-emp")
 SUBSURFACES_BY_FAMILY: dict[str, tuple[str, ...]] = {
-    "ph-civ": ("ph-civ", "ph-apo", "ph-mus"),
+    "ph-civ": ("ph-civ", "ph-apo"),
     "civ-emp": ("ce-civ", "ce-emp", "ce-mus"),
 }
 FAMILY_BY_SUBSURFACE = {
@@ -23,8 +23,6 @@ INTENTS = ("briefing", "lesson", "summary", "roadmap", "comparison")
 SUPPORTED_BUNDLE_TYPES = ("single_bundle",)
 ARTIFACT_CLASSES = (
     "chapter_packet",
-    "museum_route",
-    "museum_artifact_set",
     "route_comparison",
     "civilization_pattern_packet",
     "statecraft_brief",
@@ -34,15 +32,12 @@ ARTIFACT_CLASSES = (
 ARTIFACT_CLASSES_BY_SUBSURFACE: dict[str, tuple[str, ...]] = {
     "ph-civ": ("chapter_packet", "route_comparison"),
     "ph-apo": ("chapter_packet", "route_comparison"),
-    "ph-mus": ("museum_route", "museum_artifact_set"),
     "ce-civ": ("civilization_pattern_packet",),
     "ce-emp": ("statecraft_brief", "decision_comparison"),
     "ce-mus": ("strategic_exhibit",),
 }
 ARTIFACT_CLASS_INTENT_MAP: dict[str, tuple[str, ...]] = {
     "chapter_packet": ("lesson", "summary", "comparison"),
-    "museum_route": ("lesson", "summary"),
-    "museum_artifact_set": ("lesson", "comparison"),
     "route_comparison": ("summary", "comparison"),
     "civilization_pattern_packet": ("briefing", "lesson", "summary", "comparison"),
     "statecraft_brief": ("briefing", "summary", "roadmap"),
@@ -51,8 +46,6 @@ ARTIFACT_CLASS_INTENT_MAP: dict[str, tuple[str, ...]] = {
 }
 ARTIFACT_CLASS_SOURCE_MODE_MAP: dict[str, tuple[str, ...]] = {
     "chapter_packet": ("external-public-packet",),
-    "museum_route": ("ph-mus-cli-packet",),
-    "museum_artifact_set": ("ph-mus-cli-packet",),
     "route_comparison": ("external-public-packet",),
     "civilization_pattern_packet": (
         "strategy-codex-civ-emp-adapter",
@@ -72,12 +65,12 @@ EXPORT_FORMATS = ("pptx", "web")
 
 INTENT_SUBSURFACE_MAP: dict[str, tuple[str, ...]] = {
     "briefing": ("ce-civ", "ce-emp"),
-    "lesson": ("ph-civ", "ph-apo", "ph-mus", "ce-civ", "ce-mus"),
+    "lesson": ("ph-civ", "ph-apo", "ce-civ", "ce-mus"),
     "summary": SUBSURFACES,
     "roadmap": ("ce-emp",),
     "comparison": SUBSURFACES,
 }
-PH_CIV_SOURCE_MODES = ("external-public-packet", "ph-mus-cli-packet")
+PH_CIV_SOURCE_MODES = ("external-public-packet",)
 
 
 class BundleValidationError(ValueError):
@@ -255,14 +248,6 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         if source_mode not in PH_CIV_SOURCE_MODES:
             raise BundleValidationError(
                 f"ph-civ family bundles must use one of {', '.join(PH_CIV_SOURCE_MODES)} as policy.source_mode"
-            )
-        if source_mode == "ph-mus-cli-packet" and subsurface != "ph-mus":
-            raise BundleValidationError(
-                "policy.source_mode='ph-mus-cli-packet' is only valid for subsurface 'ph-mus'"
-            )
-        if source_mode == "external-public-packet" and subsurface == "ph-mus":
-            raise BundleValidationError(
-                "subsurface 'ph-mus' must use policy.source_mode='ph-mus-cli-packet'"
             )
         for row in normalized_items:
             if not row["public"]:

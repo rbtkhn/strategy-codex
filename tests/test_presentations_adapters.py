@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 
 from integrations.presentations.civ_emp_adapter import CIV_EMP_ROOT, build_civ_emp_bundle, build_civ_emp_packet_bundle
-from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle, build_ph_mus_packet_bundle
+from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EXAMPLES_ROOT = REPO_ROOT / "runtime/artifacts" / "presentations" / "examples"
@@ -238,154 +238,6 @@ def test_ph_civ_adapter_rejects_packet_with_private_markers(tmp_path: Path) -> N
         )
 
 
-def test_ph_mus_packet_bundle_rejects_private_markers(tmp_path: Path) -> None:
-    packet = tmp_path / "ph-mus.json"
-    packet.write_text(
-        json.dumps(
-            {
-                "packet_type": "ph_mus_packet",
-                "source_id": "gt-16",
-                "museum_exhibit_path": "corpus/media-packs/gt-16.md",
-                "visitor_path": ["entrance_artifact"],
-                "runtime/artifacts": [{"local_vault_path": "C:/private/file.png"}],
-            }
-        ),
-        encoding="utf-8",
-    )
-    with pytest.raises(ValueError, match="forbidden private marker"):
-        build_ph_mus_packet_bundle(
-            intent="lesson",
-            title="GT-16 museum lesson",
-            audience="Readers",
-            packet_path=packet,
-        )
-
-
-def test_ph_mus_packet_bundle_accepts_public_packet(tmp_path: Path) -> None:
-    packet = tmp_path / "ph-mus.json"
-    packet.write_text(
-        json.dumps(
-            {
-                "packet_type": "ph_mus_packet",
-                "source_id": "gt-16",
-                "title": "GT-16 museum",
-                "surface": "ph-apo",
-                "museum_status": "curated_draft",
-                "museum_exhibit_path": "corpus/media-packs/gt-16.md",
-                "route_type": "application",
-                "what_changes_here": "Pressure shifts become legible through exhibit sequencing.",
-                "caveat": "Public orientation only.",
-                "conceptual_volumes": ["volume_ii"],
-                "visitor_path": ["entrance_artifact", "pressure_systems"],
-                "runtime/artifacts": [
-                    {
-                        "artifact_id": "gt16-map-1",
-                        "title": "Map",
-                        "room": "pressure_systems",
-                        "artifact_type": "map",
-                        "what_to_notice": "Regional pressure nodes.",
-                        "lecture_connection": "Connects to crisis framing.",
-                        "limit_or_caution": "Illustrative, not exhaustive.",
-                        "curator_note": "Use as orientation.",
-                    }
-                ],
-            }
-        ),
-        encoding="utf-8",
-    )
-    bundle = build_ph_mus_packet_bundle(
-        intent="lesson",
-        title="GT-16 museum lesson",
-        audience="Readers",
-        packet_path=packet,
-    )
-    assert bundle["family"] == "ph-civ"
-    assert bundle["subsurface"] == "ph-mus"
-    assert bundle["artifact_class"] == "museum_route"
-    assert bundle["policy"]["source_mode"] == "ph-mus-cli-packet"
-
-
-def test_ph_mus_packet_bundle_rejects_missing_public_route_metadata(tmp_path: Path) -> None:
-    packet = tmp_path / "ph-mus.json"
-    packet.write_text(
-        json.dumps(
-            {
-                "packet_type": "ph_mus_packet",
-                "source_id": "gt-16",
-                "museum_exhibit_path": "corpus/media-packs/gt-16.md",
-                "visitor_path": ["entrance_artifact"],
-            }
-        ),
-        encoding="utf-8",
-    )
-    with pytest.raises(ValueError, match="public surface"):
-        build_ph_mus_packet_bundle(
-            intent="lesson",
-            title="GT-16 museum lesson",
-            audience="Readers",
-            packet_path=packet,
-        )
-
-
-def test_ph_mus_packet_bundle_accepts_artifact_set_comparison(tmp_path: Path) -> None:
-    packet = tmp_path / "ph-mus-artifact-set.json"
-    packet.write_text(
-        json.dumps(
-            {
-                "packet_type": "ph_mus_packet",
-                "subsurface": "ph-mus",
-                "artifact_class": "museum_artifact_set",
-                "source_id": "gt-16",
-                "title": "GT-16 runtime/artifacts",
-                "surface": "ph-apo",
-                "museum_status": "curated_draft",
-                "museum_exhibit_path": "corpus/media-packs/gt-16.md",
-                "route_type": "application",
-                "what_changes_here": "Artifacts carry the comparison.",
-                "caveat": "Public orientation only.",
-                "conceptual_volumes": ["volume_ii"],
-                "visitor_path": ["entrance_artifact", "pressure_systems"],
-                "runtime/artifacts": [
-                    {
-                        "artifact_id": "gt16-map-1",
-                        "title": "Map",
-                        "room": "pressure_systems",
-                        "artifact_type": "map",
-                        "what_to_notice": "Regional pressure nodes.",
-                        "lecture_connection": "Connects to crisis framing.",
-                        "limit_or_caution": "Illustrative, not exhaustive.",
-                        "curator_note": "Use as orientation.",
-                    }
-                ],
-            }
-        ),
-        encoding="utf-8",
-    )
-    bundle = build_ph_mus_packet_bundle(
-        intent="comparison",
-        title="GT-16 museum comparison",
-        audience="Readers",
-        packet_path=packet,
-    )
-    assert bundle["artifact_class"] == "museum_artifact_set"
-    assert bundle["presentation_hints"]["section_order"][0] == "Comparison Frame"
-
-
-def test_example_ph_mus_packet_builds_public_museum_bundle() -> None:
-    bundle = build_ph_mus_packet_bundle(
-        intent="lesson",
-        title="GT-16 Museum Lesson",
-        audience="Readers",
-        packet_path=EXAMPLES_ROOT / "ph-mus-gt16.packet.json",
-    )
-    assert bundle["family"] == "ph-civ"
-    assert bundle["subsurface"] == "ph-mus"
-    assert bundle["artifact_class"] == "museum_route"
-    assert bundle["policy"]["classification"] == "public"
-    assert bundle["source_items"][0]["kind"] == "museum_route"
-    assert any(item["kind"] == "museum_artifact" for item in bundle["source_items"])
-
-
 def test_example_ce_mus_packet_builds_work_safe_museum_bundle() -> None:
     bundle = build_civ_emp_packet_bundle(
         intent="summary",
@@ -402,13 +254,7 @@ def test_example_ce_mus_packet_builds_work_safe_museum_bundle() -> None:
     assert len(bundle["source_items"]) >= 4
 
 
-def test_example_museum_packets_expose_parallel_taxonomy() -> None:
-    ph_bundle = build_ph_mus_packet_bundle(
-        intent="lesson",
-        title="GT-16 Museum Lesson",
-        audience="Readers",
-        packet_path=EXAMPLES_ROOT / "ph-mus-gt16.packet.json",
-    )
+def test_example_ce_mus_packet_exposes_strategic_exhibit_taxonomy() -> None:
     ce_bundle = build_civ_emp_packet_bundle(
         intent="summary",
         title="Hormuz Exhibit Summary",
@@ -416,9 +262,6 @@ def test_example_museum_packets_expose_parallel_taxonomy() -> None:
         subsurface="ce-mus",
         packet_path=EXAMPLES_ROOT / "ce-mus-hormuz.packet.json",
     )
-    assert ph_bundle["family"] == "ph-civ"
-    assert ph_bundle["subsurface"] == "ph-mus"
-    assert ph_bundle["artifact_class"] == "museum_route"
     assert ce_bundle["family"] == "civ-emp"
     assert ce_bundle["subsurface"] == "ce-mus"
     assert ce_bundle["artifact_class"] == "strategic_exhibit"

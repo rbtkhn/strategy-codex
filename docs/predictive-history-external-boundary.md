@@ -2,13 +2,15 @@
 
 `rbtkhn/ph-civ` is the canonical public Predictive History repository.
 
-It is the two-volume public artifact containing the `ph-civ`, `ph-apo`, and `ph-mus` surfaces: public lecture transcripts, companion commentaries, cards, routes, patterns, and museum manifests. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
+It is the two-volume public artifact containing the `ph-civ` and `ph-apo` surfaces: public lecture transcripts, companion commentaries, cards, routes, and patterns. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
 
 Inside `strategy-codex`, Predictive History corpus work uses a **staging mirror → explicit publish** loop:
 
 - **edit** only under [`public/ph-civ/`](../public/ph-civ/) (vendored workspace copy)
 - **pull inbound** with `python scripts/sync_public_ph_civ_mirror.py`
 - **publish outbound** with `python scripts/publish_public_ph_civ.py -m "…" --push` (no automatic push from strategy-codex commits)
+
+The vendored mirror may **lead GitHub** between publishes (for example after retiring `ph-mus` locally). [`MIRROR-RECEIPT.md`](../public/ph-civ/MIRROR-RECEIPT.md) pins the last **published** upstream SHA until the next explicit publish.
 
 Legacy residue trees remain **frozen** (no canonical edits):
 

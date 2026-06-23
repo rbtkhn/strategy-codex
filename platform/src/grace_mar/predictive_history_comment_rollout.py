@@ -1,8 +1,7 @@
-"""Predictive History two-phase YouTube comment rollout.
+"""Predictive History single-phase YouTube comment rollout.
 
 Phase 1 posts a trust-first chapter-folder doorway comment for each public
-Predictive History video. Phase 2 posts a second top-level comment that points
-to the video's corresponding ``ph-mus`` exhibit route when that route exists.
+Predictive History video.
 
 The rollout is review-gated:
 - build a deterministic queue from the public source index
@@ -33,7 +32,6 @@ REPO_ROOT = repo_root()
 PH_CIV_ROOT = REPO_ROOT / "codex" / "academy" / "ph-civ"
 PH_CIV_SRC = PH_CIV_ROOT / "platform/src"
 SOURCE_INDEX_PATH = PH_CIV_ROOT / "docs" / "source-video-index.md"
-MUSEUM_INDEX_PATH = PH_CIV_ROOT / "data" / "museum" / "index.json"
 QUEUE_DIR = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "predictive-history-comment-rollout"
 QUEUE_PATH = QUEUE_DIR / "queue.json"
 DRAFTS_DIR = QUEUE_DIR / "drafts"
@@ -108,12 +106,6 @@ def load_source_videos(path: Path = SOURCE_INDEX_PATH) -> list[SourceVideo]:
     return videos
 
 
-def load_museum_index(path: Path = MUSEUM_INDEX_PATH) -> dict[str, dict[str, Any]]:
-    payload = json.loads(_read_text(path))
-    exhibits = payload.get("exhibits", [])
-    return {row["source_id"]: row for row in exhibits if row.get("source_id")}
-
-
 def _existing_rows(queue_path: Path) -> dict[tuple[str, int], dict[str, Any]]:
     if not queue_path.exists():
         return {}
@@ -130,21 +122,8 @@ def _chapter_folder_url(payload: dict[str, Any]) -> str | None:
     return payload.get("github_folder_url")
 
 
-def _museum_route_url(exhibit_path: str) -> str:
-    return f"{PH_CIV_BLOB_BASE}/{exhibit_path}"
-
-
 def _phase1_comment(payload: dict[str, Any]) -> str:
     return payload["suggested_youtube_comment"]
-
-
-def _phase2_comment(*, title: str, museum_url: str) -> str:
-    return (
-        f"{title} also has a public museum route for readers who want the same chapter in exhibit form.\n\n"
-        f"There is a ph-mus exhibit link for the chapter:\n{museum_url}\n\n"
-        "Paste the exhibit link into ChatGPT, Claude, or Grok and ask for a guided study path through the exhibit route, the chapter materials, and the public guardrails. "
-        "It is part of ph-civ, a public LLM-native Predictive History reader."
-    )
 
 
 def _base_queue_entry(
@@ -207,10 +186,8 @@ def build_queue_rows(
     *,
     queue_path: Path = QUEUE_PATH,
     source_index_path: Path = SOURCE_INDEX_PATH,
-    museum_index_path: Path = MUSEUM_INDEX_PATH,
 ) -> list[dict[str, Any]]:
     ph_cli = _ph_cli()
-    museum_index = load_museum_index(museum_index_path)
     existing = _existing_rows(queue_path)
     rows: list[dict[str, Any]] = []
 
@@ -220,7 +197,6 @@ def build_queue_rows(
         except KeyError:
             card = None
 
-        # Phase 1: chapter-folder doorway comment.
         phase1 = _base_queue_entry(video=video, phase=1, phase_name="chapter_folder_doorway")
         phase1["source_link_type"] = "chapter_folder"
         if card is not None:
@@ -239,55 +215,6 @@ def build_queue_rows(
             phase1["park_reason"] = "no PH card found for source_id"
         phase1 = _merge_state(phase1, existing.get((video.source_id, 1)))
         rows.append(phase1)
-
-        # Phase 2: ph-mus exhibit follow-up comment.
-        phase2 = _base_queue_entry(video=video, phase=2, phase_name="ph_mus_exhibit_followup")
-        phase2["source_link_type"] = "ph_mus"
-        try:
-            route = ph_cli.get_route(video.source_id)
-        except KeyError:
-            route = None
-
-        if route is not None:
-            route_payload = ph_cli.route_public_payload(route)
-            museum_info = route_payload.get("museum", {})
-            exhibit_path = museum_info.get("exhibit_path") or ""
-            museum_status = museum_info.get("status") or ""
-            phase2["museum_status"] = museum_status
-            phase2["museum_exhibit_path"] = exhibit_path
-            if exhibit_path and museum_status.lower() != "unpublished":
-                phase2["status"] = "ready"
-                phase2["target_url"] = _museum_route_url(exhibit_path)
-                phase2["comment_draft"] = _phase2_comment(
-                    title=route_payload["title"],
-                    museum_url=phase2["target_url"],
-                )
-            else:
-                phase2["status"] = "parked"
-                phase2["park_reason"] = "ph-mus exhibit route is missing or unpublished"
-        else:
-            museum_row = museum_index.get(video.source_id)
-            if museum_row:
-                exhibit_path = museum_row.get("museum_exhibit_path", "")
-                museum_status = museum_row.get("museum_status", "")
-                phase2["museum_status"] = museum_status
-                phase2["museum_exhibit_path"] = exhibit_path
-                if exhibit_path and museum_status.lower() != "unpublished":
-                    phase2["status"] = "ready"
-                    phase2["target_url"] = _museum_route_url(exhibit_path)
-                    phase2["comment_draft"] = _phase2_comment(
-                        title=video.title,
-                        museum_url=phase2["target_url"],
-                    )
-                else:
-                    phase2["status"] = "parked"
-                    phase2["park_reason"] = "ph-mus exhibit route is missing or unpublished"
-            else:
-                phase2["status"] = "parked"
-                phase2["park_reason"] = "no ph-mus route exists for this source"
-
-        phase2 = _merge_state(phase2, existing.get((video.source_id, 2)))
-        rows.append(phase2)
 
     rows.sort(key=lambda row: (row["source_id"], int(row["phase"])))
     return rows
@@ -392,13 +319,11 @@ def _status_counts(rows: list[dict[str, Any]], *, phase: int | None = None) -> d
 
 def render_markdown_summary(rows: list[dict[str, Any]]) -> str:
     lines = [
-        "# Predictive History two-phase comment rollout",
+        "# Predictive History chapter-folder comment rollout",
         "",
         f"- Queue rows: {len(rows)}",
         f"- Phase 1 ready: {_status_counts(rows, phase=1).get('ready', 0)}",
         f"- Phase 1 parked: {_status_counts(rows, phase=1).get('parked', 0)}",
-        f"- Phase 2 ready: {_status_counts(rows, phase=2).get('ready', 0)}",
-        f"- Phase 2 parked: {_status_counts(rows, phase=2).get('parked', 0)}",
         "",
         "## Ready rows",
         "",
@@ -426,16 +351,13 @@ def render_markdown_summary(rows: list[dict[str, Any]]) -> str:
 
 def render_telegram_summary(rows: list[dict[str, Any]]) -> str:
     phase1 = _status_counts(rows, phase=1)
-    phase2 = _status_counts(rows, phase=2)
     return "\n".join(
         [
-            "> Predictive History two-phase rollout update:",
+            "> Predictive History chapter-folder rollout update:",
             f"> - Phase 1 ready: {phase1.get('ready', 0)}",
             f"> - Phase 1 parked: {phase1.get('parked', 0)}",
-            f"> - Phase 2 ready: {phase2.get('ready', 0)}",
-            f"> - Phase 2 parked: {phase2.get('parked', 0)}",
             ">",
-            "> Phase 1 uses the chapter-folder doorway comment. Phase 2 uses the matching ph-mus exhibit route when one exists.",
+            "> Phase 1 uses the chapter-folder doorway comment only.",
         ]
     )
 
@@ -538,7 +460,6 @@ def _build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--queue", type=Path, default=QUEUE_PATH, help="Queue state file")
     p.add_argument("--source-index", type=Path, default=SOURCE_INDEX_PATH, help="Public source video index")
-    p.add_argument("--museum-index", type=Path, default=MUSEUM_INDEX_PATH, help="Public museum index")
     sub = p.add_subparsers(dest="command", required=True)
 
     build = sub.add_parser("build", help="Rebuild the queue from public source data.")
@@ -550,17 +471,17 @@ def _build_parser() -> argparse.ArgumentParser:
 
     draft = sub.add_parser("draft", help="Render one phase comment draft for a source id.")
     draft.add_argument("source_id")
-    draft.add_argument("phase", type=int, choices=[1, 2])
+    draft.add_argument("phase", type=int, choices=[1])
     draft.set_defaults(func=_cmd_draft)
 
     state = sub.add_parser("set-state", help="Mark a queue row as approved, rejected, or needs_review.")
     state.add_argument("source_id")
-    state.add_argument("phase", type=int, choices=[1, 2])
+    state.add_argument("phase", type=int, choices=[1])
     state.add_argument("--state", choices=["approved", "rejected", "needs_review"], required=True)
     state.set_defaults(func=_cmd_set_state)
 
     post = sub.add_parser("post", help="Post approved rows to YouTube.")
-    post.add_argument("--phase", type=int, choices=[1, 2], default=None)
+    post.add_argument("--phase", type=int, choices=[1], default=None)
     post.add_argument("--source-id", default=None)
     post.add_argument("--access-token", default=os.environ.get("YOUTUBE_ACCESS_TOKEN", ""))
     post.add_argument("--dry-run", action="store_true")
@@ -569,7 +490,7 @@ def _build_parser() -> argparse.ArgumentParser:
 
 
 def _cmd_build(args: argparse.Namespace) -> int:
-    rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index, museum_index_path=args.museum_index)
+    rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index)
     if args.write:
         save_queue(rows, args.queue)
         draft_paths = render_phase1_drafts(rows)
@@ -583,7 +504,7 @@ def _cmd_build(args: argparse.Namespace) -> int:
 def _cmd_report(args: argparse.Namespace) -> int:
     rows = load_queue(args.queue)
     if not rows:
-        rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index, museum_index_path=args.museum_index)
+        rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index)
     print(render_markdown_summary(rows))
     print("")
     print(render_telegram_summary(rows))
@@ -591,7 +512,7 @@ def _cmd_report(args: argparse.Namespace) -> int:
 
 
 def _cmd_draft(args: argparse.Namespace) -> int:
-    rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index, museum_index_path=args.museum_index)
+    rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index)
     matches = [row for row in rows if row["source_id"] == args.source_id and int(row["phase"]) == args.phase]
     if not matches:
         raise SystemExit(f"No row found for {args.source_id} phase {args.phase}")
