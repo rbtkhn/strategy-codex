@@ -49,7 +49,7 @@ flowchart TB
 
 ### Instruction layers
 
-Skills in `.cursor/skills/` are **invocation-bound** overlays, not always-on tools. Full spec: [layer-architecture.md](layer-architecture.md).
+Skills in `.cursor/skills/` are **invocation-bound** overlays, not always-on tools. Full spec: [layer-architecture.md](layer-architecture.md). **Living files** — durable governed markdown agents and humans reuse as context; living ≠ authoritative: [living-files.md](living-files.md).
 
 ### Membrane classes
 
