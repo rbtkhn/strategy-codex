@@ -1,6 +1,7 @@
 ---
 title: "Lawrence Wilkerson: America Is Retrenching & Alliances Fall Apart"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Lawrence Wilkerson
 date: 2025-09-12
 thread: diesen

@@ -1,6 +1,7 @@
 ---
 title: "Col. Lawrence Wilkerson: From Perpetual Peace to World War"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Lawrence Wilkerson
 date: 2025-06-16
 thread: diesen

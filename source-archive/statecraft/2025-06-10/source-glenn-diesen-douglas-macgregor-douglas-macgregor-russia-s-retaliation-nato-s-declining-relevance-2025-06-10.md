@@ -1,6 +1,7 @@
 ---
 title: "Douglas Macgregor: Russia's Retaliation & NATO's Declining Relevance"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Douglas Macgregor
 date: 2025-06-10
 thread: diesen

@@ -2,6 +2,7 @@
 title: "Scott Ritter: Russia 'Fed Up' With NATO Escalations - Retaliation is Coming"
 show: Glenn Diesen
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Scott Ritter
 pub_date: 2025-10-24
 date: 2025-10-24

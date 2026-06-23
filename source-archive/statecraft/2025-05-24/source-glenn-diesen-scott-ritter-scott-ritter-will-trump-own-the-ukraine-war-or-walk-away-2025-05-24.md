@@ -1,6 +1,7 @@
 ---
 title: "Scott Ritter: Will Trump Own the Ukraine War or Walk Away?"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Scott Ritter
 date: 2025-05-24
 thread: diesen

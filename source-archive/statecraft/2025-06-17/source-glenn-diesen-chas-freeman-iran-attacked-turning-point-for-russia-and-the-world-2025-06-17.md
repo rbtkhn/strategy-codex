@@ -6,6 +6,7 @@ source_form: interview
 thread: freeman
 show: Glenn Diesen
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Chas Freeman
 title: "Chas Freeman: Iran Attacked - Turning Point for Russia & the World"
 source_type: youtube

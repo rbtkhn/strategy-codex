@@ -1,6 +1,7 @@
 ---
 title: "John Mearsheimer: West's Failure to Adjust to a Multipolar World"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: John Mearsheimer
 date: 2025-09-07
 thread: diesen

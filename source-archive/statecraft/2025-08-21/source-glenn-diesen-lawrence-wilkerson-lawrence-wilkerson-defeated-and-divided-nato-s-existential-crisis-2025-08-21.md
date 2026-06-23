@@ -1,6 +1,7 @@
 ---
 title: "Lawrence Wilkerson: Defeated & Divided - NATO's Existential Crisis"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Lawrence Wilkerson
 date: 2025-08-21
 thread: diesen

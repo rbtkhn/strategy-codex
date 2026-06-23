@@ -1,6 +1,7 @@
 ---
 title: "Larry Johnson: Extensive Damage to Israel’s Defense Industry & Economy"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Larry Johnson
 date: 2025-07-02
 thread: diesen

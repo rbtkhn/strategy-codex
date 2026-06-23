@@ -1,6 +1,7 @@
 ---
 title: "Chas Freeman: Age of Wars as Freedom of Navigation Ends"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Chas Freeman
 date: 2025-12-18
 thread: diesen

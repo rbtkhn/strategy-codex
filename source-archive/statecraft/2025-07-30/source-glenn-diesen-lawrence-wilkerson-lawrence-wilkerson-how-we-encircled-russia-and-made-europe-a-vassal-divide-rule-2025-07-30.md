@@ -1,6 +1,7 @@
 ---
 title: "Lawrence Wilkerson: How We Encircled Russia and Made Europe a Vassal – Divide & Rule"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Lawrence Wilkerson
 date: 2025-07-30
 thread: diesen

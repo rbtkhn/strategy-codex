@@ -1,6 +1,7 @@
 ---
 title: "Andrei Martyanov: The End of NATO"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Andrei Martyanov
 date: 2025-04-29
 thread: diesen

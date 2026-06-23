@@ -1,6 +1,7 @@
 ---
 title: "Douglas Macgregor: Decline Out of Control - Ukraine and Venezuela Wars"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Douglas Macgregor
 date: 2025-11-04
 thread: diesen

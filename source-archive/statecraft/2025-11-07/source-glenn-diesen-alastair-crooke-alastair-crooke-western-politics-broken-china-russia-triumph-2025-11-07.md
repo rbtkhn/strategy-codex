@@ -1,6 +1,7 @@
 ---
 title: "Alastair Crooke: Western Politics Broken - China & Russia Triumph"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Alastair Crooke
 date: 2025-11-07
 thread: diesen

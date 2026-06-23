@@ -6,6 +6,7 @@ source_form: interview
 title: "George Beebe: Europe-Russia War as the U.S. Pulls Back?"
 show: Glenn Diesen
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: George Beebe
 thread: diesen
 source_url: "https://www.youtube.com/watch?v=TS6TY75l2Pw"

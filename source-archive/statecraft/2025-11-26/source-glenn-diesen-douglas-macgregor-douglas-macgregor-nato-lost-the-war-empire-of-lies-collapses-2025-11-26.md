@@ -1,6 +1,7 @@
 ---
 title: "Douglas Macgregor: NATO Lost the War - Empire of Lies Collapses"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Douglas Macgregor
 date: 2025-11-26
 thread: diesen

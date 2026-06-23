@@ -1,6 +1,7 @@
 ---
 title: "Scott Ritter: NATO Prepares for War with Russia"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Scott Ritter
 date: 2025-09-17
 thread: diesen

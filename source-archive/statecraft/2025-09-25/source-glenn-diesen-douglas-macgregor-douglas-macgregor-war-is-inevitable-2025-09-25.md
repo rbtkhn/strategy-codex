@@ -1,6 +1,7 @@
 ---
 title: "Douglas Macgregor: 'War is Inevitable'"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Douglas Macgregor
 date: 2025-09-25
 thread: diesen

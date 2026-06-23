@@ -1,6 +1,7 @@
 ---
 title: "Colonel Lawrence Wilkerson: Trump’s Actions Could Ignite a Regional Conflict in the Middle East"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Lawrence Wilkerson
 date: 2025-02-15
 thread: diesen

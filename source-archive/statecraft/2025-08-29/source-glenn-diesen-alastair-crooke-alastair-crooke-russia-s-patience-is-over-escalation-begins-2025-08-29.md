@@ -1,6 +1,7 @@
 ---
 title: "Alastair Crooke: Russia's Patience Is Over, Escalation Begins"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Alastair Crooke
 date: 2025-08-29
 thread: diesen

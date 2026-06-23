@@ -1,6 +1,7 @@
 ---
 title: "Douglas Macgregor: With NATO's Collapse, New World Order Emerges"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Douglas Macgregor
 date: 2025-08-28
 thread: diesen

@@ -1,6 +1,7 @@
 ---
 title: "Col. Lawrence Wilkerson: Washington's Rivalries, Coups, Wars & Cover-Ups"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Lawrence Wilkerson
 date: 2025-04-27
 thread: diesen

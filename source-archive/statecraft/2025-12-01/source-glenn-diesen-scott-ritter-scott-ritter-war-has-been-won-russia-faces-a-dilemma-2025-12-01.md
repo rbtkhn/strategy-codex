@@ -1,6 +1,7 @@
 ---
 title: "Scott Ritter: War Has Been Won & Russia Faces a Dilemma"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Scott Ritter
 date: 2025-12-01
 thread: diesen

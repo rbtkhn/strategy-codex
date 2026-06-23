@@ -4,6 +4,7 @@ pub_date: 2025-12-10
 kind: transcript
 source_form: interview
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Scott Ritter
 date: 2025-12-10
 thread: diesen

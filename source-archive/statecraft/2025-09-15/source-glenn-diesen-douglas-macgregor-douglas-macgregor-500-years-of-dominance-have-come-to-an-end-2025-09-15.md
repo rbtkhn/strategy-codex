@@ -1,6 +1,7 @@
 ---
 title: "Douglas Macgregor: 500 Years of Dominance Have Come to an End"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Col. Douglas Macgregor
 date: 2025-09-15
 thread: diesen

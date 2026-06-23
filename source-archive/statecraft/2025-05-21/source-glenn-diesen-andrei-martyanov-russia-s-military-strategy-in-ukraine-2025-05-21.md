@@ -1,6 +1,7 @@
 ---
 title: "Andrei Martyanov: Russia's Military Strategy in Ukraine"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Andrei Martyanov
 date: 2025-05-21
 thread: diesen

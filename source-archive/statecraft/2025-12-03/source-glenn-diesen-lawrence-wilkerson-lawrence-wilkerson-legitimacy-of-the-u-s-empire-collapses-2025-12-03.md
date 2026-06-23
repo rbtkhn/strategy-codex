@@ -1,6 +1,7 @@
 ---
 title: "Lawrence Wilkerson: Legitimacy of the U.S. Empire Collapses"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Lawrence Wilkerson
 date: 2025-12-03
 thread: diesen

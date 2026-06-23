@@ -2,6 +2,7 @@
 title: "Chas Freeman: Coalition of the Deluded Pursues War with Russia"
 show: Glenn Diesen
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Chas Freeman
 pub_date: 2025-10-06
 date: 2025-10-06

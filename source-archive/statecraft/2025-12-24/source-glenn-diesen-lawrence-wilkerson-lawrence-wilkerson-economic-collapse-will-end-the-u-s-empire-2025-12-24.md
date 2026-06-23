@@ -1,6 +1,7 @@
 ---
 title: "Lawrence Wilkerson: Economic Collapse Will End the U.S. Empire"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Lawrence Wilkerson
 date: 2025-12-24
 thread: diesen

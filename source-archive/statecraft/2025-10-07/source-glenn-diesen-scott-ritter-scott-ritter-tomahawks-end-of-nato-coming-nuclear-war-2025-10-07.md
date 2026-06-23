@@ -2,6 +2,7 @@
 title: "Scott Ritter: Tomahawks, End of NATO & Coming Nuclear War"
 show: Glenn Diesen
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Scott Ritter
 pub_date: 2025-10-07
 date: 2025-10-07

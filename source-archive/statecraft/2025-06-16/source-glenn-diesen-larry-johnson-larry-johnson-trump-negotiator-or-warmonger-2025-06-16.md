@@ -1,6 +1,7 @@
 ---
 title: "Larry Johnson: Trump - Negotiator or Warmonger?"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Larry Johnson
 date: 2025-06-16
 thread: diesen

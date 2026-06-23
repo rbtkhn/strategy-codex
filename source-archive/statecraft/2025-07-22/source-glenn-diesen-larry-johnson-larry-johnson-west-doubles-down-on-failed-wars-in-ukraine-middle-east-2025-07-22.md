@@ -1,6 +1,7 @@
 ---
 title: "Larry Johnson: West Doubles Down on Failed Wars in Ukraine & Middle East"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Larry Johnson
 date: 2025-07-22
 thread: diesen

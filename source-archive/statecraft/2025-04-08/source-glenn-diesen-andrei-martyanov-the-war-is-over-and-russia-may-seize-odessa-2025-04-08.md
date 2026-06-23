@@ -1,6 +1,7 @@
 ---
 title: "Andrei Martyanov: The War is Over and Russia May Seize Odessa"
 host: Glenn Diesen
+channel_slug: glenn-diesen
 guest: Andrei Martyanov
 date: 2025-04-08
 thread: diesen
