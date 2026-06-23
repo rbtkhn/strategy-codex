@@ -43,14 +43,14 @@ Local interview appearance count: 49 captures.
 | Diesen | 2026-04-07 | [raw-input](../../../source-archive/statecraft/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md) | escalation horizon |
 | Diesen | 2026-04-17 | [raw-input](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) | escalation horizon |
 | Diesen | 2026-05-04 | [raw-input](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md) | escalation horizon |
-| Davis | 2026-03-06 | [raw-input](../../../source-archive/statecraft/2026-03-06/source-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md) | operational feasibility |
-| Davis | 2026-03-16 | [raw-input](../../../source-archive/statecraft/2026-03-16/source-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md) | operational feasibility |
-| Davis | 2026-03-31 | [raw-input](../../../source-archive/statecraft/2026-03-31/source-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md) | operational feasibility |
-| Davis | 2026-04-05 | [raw-input](../../../source-archive/statecraft/2026-04-05/source-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md) | operational feasibility |
-| Davis | 2026-04-13 | [raw-input](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md) | operational feasibility |
-| Davis | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md) | operational feasibility |
-| Davis | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md) | operational feasibility |
-| Davis | 2026-05-14 | [raw-input](../../../source-archive/statecraft/2026-05-14/source-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md) | operational feasibility |
+| Davis | 2026-03-06 | [raw-input](../../../source-archive/statecraft/2026-03-06/source-daniel-davis-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md) | operational feasibility |
+| Davis | 2026-03-16 | [raw-input](../../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md) | operational feasibility |
+| Davis | 2026-03-31 | [raw-input](../../../source-archive/statecraft/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md) | operational feasibility |
+| Davis | 2026-04-05 | [raw-input](../../../source-archive/statecraft/2026-04-05/source-daniel-davis-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md) | operational feasibility |
+| Davis | 2026-04-13 | [raw-input](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md) | operational feasibility |
+| Davis | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md) | operational feasibility |
+| Davis | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md) | operational feasibility |
+| Davis | 2026-05-14 | [raw-input](../../../source-archive/statecraft/2026-05-14/source-daniel-davis-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md) | operational feasibility |
 | Dialogue Works | 2025-01-05 | [raw-input](../../../source-archive/statecraft/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md) | live war pressure |
 | Dialogue Works | 2025-10-19 | [raw-input](../../../source-archive/statecraft/2025-10-19/source-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md) | live war pressure |
 | Dialogue Works | 2025-11-05 | [raw-input](../../../source-archive/statecraft/2025-11-05/source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md) | live war pressure |
@@ -106,7 +106,7 @@ This is the crossing table between the interview strand and the authored Substac
 
 ## Open First
 
-- **Best all-around interview entry:** [source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- **Best all-around interview entry:** [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - **Best escalation-horizon entry:** [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - **Best live-pressure entry:** [source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - **Best legality/command-failure entry:** [source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md](../../../source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)

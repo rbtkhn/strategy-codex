@@ -80,7 +80,7 @@ Same-day **Iran war day 4** — **institutional solo** vs **ORBAT/logistics colo
 
 - [Helmer × Marandi — Moscow + Tehran](./2026-03-03-iran-war-weave-helmer-marandi.md)
 - [Marandi solo — obliteration / Hormuz closed](../../source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md)
-- [Davis × Macgregor — US losing position](../../source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md) — Wilkerson cites McGregor **5 a.m.** segment same day
+- [Davis × Macgregor — US losing position](../../source-archive/statecraft/2026-03-03/source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md) — Wilkerson cites McGregor **5 a.m.** segment same day
 
 ## Cross-day return
 

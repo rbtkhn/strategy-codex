@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ZtyzLYvy770) | `source-alex-mercouris-us-prepares-new-war-msm-biden-admin-debates-iran-strike-russia-takes-ukr-2025-01-04.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=8Iqmr5HBuDo) | `source-daniel-davis-deep-dive-las-vegas-cybertruck-explosion-new-evidence-in-the-las-vegas-bomber-stor-2025-01-04.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=eUR4rafwlGw) | `source-daniel-davis-deep-dive-zelensky-is-expendable-he-won-t-survive-2025-01-04.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=8Iqmr5HBuDo) | `source-daniel-davis-las-vegas-cybertruck-explosion-new-evidence-in-the-las-vegas-bomber-stor-2025-01-04.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=eUR4rafwlGw) | `source-daniel-davis-zelensky-is-expendable-he-won-t-survive-2025-01-04.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `wilkerson`, `johnson` | [watch](https://www.youtube.com/watch?v=xfYnEn5gIMU) | `source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md` |
 
 ## Writer sources
@@ -56,6 +56,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-us-prepares-new-war-msm-biden-admin-debates-iran-strike-russia-takes-ukr-2025-01-04.md`
-- `source-daniel-davis-deep-dive-las-vegas-cybertruck-explosion-new-evidence-in-the-las-vegas-bomber-stor-2025-01-04.md`
-- `source-daniel-davis-deep-dive-zelensky-is-expendable-he-won-t-survive-2025-01-04.md`
+- `source-daniel-davis-las-vegas-cybertruck-explosion-new-evidence-in-the-las-vegas-bomber-stor-2025-01-04.md`
+- `source-daniel-davis-zelensky-is-expendable-he-won-t-survive-2025-01-04.md`
 - `source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md`

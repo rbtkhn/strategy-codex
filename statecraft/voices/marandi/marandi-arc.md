@@ -62,7 +62,7 @@ These matter because they show Marandi is not a spring-2026 accident.
 
 By early 2026, the three-host differentiation becomes materially real:
 
-- [2026-02-11 / Davis x Marandi](../../../source-archive/statecraft/2026-02-11/source-daniel-davis-deep-dive-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md)
+- [2026-02-11 / Davis x Marandi](../../../source-archive/statecraft/2026-02-11/source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md)
 - [2026-02-17 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md)
 - [2026-03-03 / Diesen x Marandi](../../../source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md)
 - [2026-03-03 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md)
@@ -74,10 +74,10 @@ The mature center of gravity is April and May 2026.
 Key anchors:
 
 - [2026-04-21 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
-- [2026-04-22 / Davis x Marandi](../../../source-archive/statecraft/2026-04-22/source-daniel-davis-deep-dive-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md)
+- [2026-04-22 / Davis x Marandi](../../../source-archive/statecraft/2026-04-22/source-daniel-davis-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md)
 - [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
 - [2026-05-05 / Diesen x Marandi](../../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
-- [2026-05-10 / Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
+- [2026-05-10 / Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
 - [2026-05-23 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-23/source-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
 
 ### May 26

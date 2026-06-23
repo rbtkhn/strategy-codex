@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zg9UX87dWgY) | `source-alex-mercouris-zelensky-ukraine-army-exhausted-desertions-budanov-war-lost-eu-gas-price-2025-01-03.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TdMXDl7A--o) | `source-daniel-davis-deep-dive-terror-attacks-radicalism-u-s-military-vets-2025-01-03.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=MXJ260UX1YE) | `source-daniel-davis-deep-dive-zelensky-putin-is-scared-of-trump-2025-01-03.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TdMXDl7A--o) | `source-daniel-davis-terror-attacks-radicalism-u-s-military-vets-2025-01-03.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=MXJ260UX1YE) | `source-daniel-davis-zelensky-putin-is-scared-of-trump-2025-01-03.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-zelensky-ukraine-army-exhausted-desertions-budanov-war-lost-eu-gas-price-2025-01-03.md`
-- `source-daniel-davis-deep-dive-terror-attacks-radicalism-u-s-military-vets-2025-01-03.md`
-- `source-daniel-davis-deep-dive-zelensky-putin-is-scared-of-trump-2025-01-03.md`
+- `source-daniel-davis-terror-attacks-radicalism-u-s-military-vets-2025-01-03.md`
+- `source-daniel-davis-zelensky-putin-is-scared-of-trump-2025-01-03.md`

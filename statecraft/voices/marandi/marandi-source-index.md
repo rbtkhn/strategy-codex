@@ -27,7 +27,7 @@ For shelf purposes, the Marandi corpus divides into:
 - [2025-01-15 - Dialogue Works x Marandi](../../../source-archive/statecraft/2025-01-15/source-dialogue-works-prof-mohammad-marandi-breaking-official-gaza-ceasefire-announced-what-ha-2025-01-15.md)
 - [2025-03-20 - Diesen x Marandi](../../../source-archive/statecraft/2025-03-20/source-glenn-diesen-seyed-marandi-is-israel-destroying-itself-2025-03-20.md)
 - [2026-01-02 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md)
-- [2026-02-11 - Davis x Marandi](../../../source-archive/statecraft/2026-02-11/source-daniel-davis-deep-dive-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md)
+- [2026-02-11 - Davis x Marandi](../../../source-archive/statecraft/2026-02-11/source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md)
 - [2026-02-17 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md)
 
 ## Mature three-host core
@@ -71,13 +71,13 @@ Strategic-order and escalation-horizon lane.
 
 Operational-limit and failed-intimidation lane.
 
-- [2026-04-06 - Davis x Marandi](../../../source-archive/statecraft/2026-04-06/source-daniel-davis-deep-dive-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md)
-- [2026-04-13 - Davis x Marandi](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md)
-- [2026-04-17 - Davis x Marandi](../../../source-archive/statecraft/2026-04-17/source-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md)
-- [2026-04-19 - Davis x Marandi](../../../source-archive/statecraft/2026-04-19/source-daniel-davis-deep-dive-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md)
-- [2026-04-22 - Davis x Marandi](../../../source-archive/statecraft/2026-04-22/source-daniel-davis-deep-dive-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md)
+- [2026-04-06 - Davis x Marandi](../../../source-archive/statecraft/2026-04-06/source-daniel-davis-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md)
+- [2026-04-13 - Davis x Marandi](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md)
+- [2026-04-17 - Davis x Marandi](../../../source-archive/statecraft/2026-04-17/source-daniel-davis-iran-more-war-seems-likely-professor-marandi-2026-04-17.md)
+- [2026-04-19 - Davis x Marandi](../../../source-archive/statecraft/2026-04-19/source-daniel-davis-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md)
+- [2026-04-22 - Davis x Marandi](../../../source-archive/statecraft/2026-04-22/source-daniel-davis-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md)
 - [2026-05-07 - Davis x Marandi](../../../source-archive/statecraft/2026-05-07/source-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md)
-- [2026-05-10 - Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
+- [2026-05-10 - Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
 
 ## Support-tier residue
 

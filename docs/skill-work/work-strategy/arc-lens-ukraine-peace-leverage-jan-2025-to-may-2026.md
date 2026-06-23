@@ -75,6 +75,6 @@ Repo-current 2026 continuity anchors:
 - `source-archive/statecraft/2026-04-26/source-alex-mercouris-us-says-eu-has-no-ukraine-plan-ukraine-wants-more-eu-funds-russia-econom-2026-04-26.md` - raw-input file handle for EU plan/funding anxiety
 - `source-archive/statecraft/2026-04-26/source-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md` - transcript handle for Ukraine front, Europe crisis, funding, and sanctions framing
 - `source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` - negotiation/capitulation framing, Russia-give-up-leverage critique, and ceasefire as regrouping/rearming language
-- `source-archive/statecraft/2026-05-16/source-daniel-davis-deep-dive-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` - Russian-side terms, NATO involvement/escalation-risk frame, and "save what can be saved" language
+- `source-archive/statecraft/2026-05-16/source-daniel-davis-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` - Russian-side terms, NATO involvement/escalation-risk frame, and "save what can be saved" language
 
 Primary 2025 receipts live under `runtime/artifacts/cognition-streams/check-streams-2025-01-10-local/`, `check-streams-2025-02-10-local/`, and `check-streams-2025-03-10-local/`, with later Apr-May receipts extending the same arc. The 2026 extension uses repo-current local captures only and should not be read as fresh external verification.

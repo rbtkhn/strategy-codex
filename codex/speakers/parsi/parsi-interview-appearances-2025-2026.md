@@ -36,7 +36,7 @@ Expected v2 count: 13 files.
 | date | title | raw-input | function |
 |---|---|---|---|
 | 2025-10-20 | Iran's Nuclear Dilemma | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-20/source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md) | nuclear pressure and bargaining constraints |
-| 2026-03-16 | Iran Making It Painful for U.S. | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/source-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md) | coercion cost and bargaining leverage |
+| 2026-03-16 | Iran Making It Painful for U.S. | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md) | coercion cost and bargaining leverage |
 
 ### Napolitano
 

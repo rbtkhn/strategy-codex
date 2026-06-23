@@ -69,7 +69,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “different planets… one text… color me skeptical… physical impossibility” · ✗ “Understanding is not to sympathize… Quincy restraint beltway” (Parsi) | Diplomacy-architecture essay without clip matrix |
 | **8 Emulation QA** | Anti-pattern fence | vs Mearsheimer | ✗ Numbered escalation ladder as primary spine without clip/contradiction walk | ✓ Phase-one gate + public-term incompatibility before structural geometry |
 
-**Extended examples:** this table. **Intake receipts:** [MOU skeptical](../../../source-archive/statecraft/2026-06-13/source-daniel-davis-deep-dive-iran-war-deal-skeptical-2026-06-13.md) · [signing scheduled](../../../source-archive/statecraft/2026-06-13/source-daniel-davis-deep-dive-signing-deal-tomorrow-scheduled-2026-06-13.md).
+**Extended examples:** this table. **Intake receipts:** [MOU skeptical](../../../source-archive/statecraft/2026-06-13/source-daniel-davis-iran-war-deal-skeptical-2026-06-13.md) · [signing scheduled](../../../source-archive/statecraft/2026-06-13/source-daniel-davis-signing-deal-tomorrow-scheduled-2026-06-13.md).
 
 ## Convergence fingerprint
 

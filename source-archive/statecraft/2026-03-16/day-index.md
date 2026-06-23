@@ -33,11 +33,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=SpjDePIselg) | `source-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `parsi` | [tiN37-mwA0A](https://www.youtube.com/watch?v=tiN37-mwA0A) | `source-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [VNvP7Xp-bHo](https://www.youtube.com/watch?v=VNvP7Xp-bHo) | `source-daniel-davis-deep-dive-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [6TEMwwVwg8A](https://www.youtube.com/watch?v=6TEMwwVwg8A) | `source-daniel-davis-deep-dive-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=SGX_sE7TkWw) | `source-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [54Y4DYRurwk](https://www.youtube.com/watch?v=54Y4DYRurwk) | `source-daniel-davis-deep-dive-we-can-t-even-think-about-boots-on-the-ground-in-iran-lt-col-daniel-davi-2026-03-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `parsi` | [tiN37-mwA0A](https://www.youtube.com/watch?v=tiN37-mwA0A) | `source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [VNvP7Xp-bHo](https://www.youtube.com/watch?v=VNvP7Xp-bHo) | `source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [6TEMwwVwg8A](https://www.youtube.com/watch?v=6TEMwwVwg8A) | `source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=SGX_sE7TkWw) | `source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [54Y4DYRurwk](https://www.youtube.com/watch?v=54Y4DYRurwk) | `source-daniel-davis-we-can-t-even-think-about-boots-on-the-ground-in-iran-lt-col-daniel-davi-2026-03-16.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `baud` | [LG53jJxWP_A](https://www.youtube.com/watch?v=LG53jJxWP_A) | `source-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md` |
 | `dialogue-works` | — | `dialogue-works` | [1gy4eq8E1g8](https://www.youtube.com/watch?v=1gy4eq8E1g8) | `source-dialogue-works-paul-craig-roberts-iran-is-winning-2026-03-16.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `johnson` | [7ROzzOkmHsY](https://www.youtube.com/watch?v=7ROzzOkmHsY) | `source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md` |
@@ -70,11 +70,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md`
-- `source-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md`
-- `source-daniel-davis-deep-dive-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md`
-- `source-daniel-davis-deep-dive-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md`
-- `source-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md`
-- `source-daniel-davis-deep-dive-we-can-t-even-think-about-boots-on-the-ground-in-iran-lt-col-daniel-davi-2026-03-16.md`
+- `source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md`
+- `source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md`
+- `source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md`
+- `source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md`
+- `source-daniel-davis-we-can-t-even-think-about-boots-on-the-ground-in-iran-lt-col-daniel-davi-2026-03-16.md`
 - `source-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md`
 - `source-dialogue-works-paul-craig-roberts-iran-is-winning-2026-03-16.md`
 - `source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md`

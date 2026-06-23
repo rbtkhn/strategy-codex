@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Larry Johnson` (1)
 - Guests: `Douglas Macgregor` (3)
-- Threads: `macgregor` (3), `davis` (1), `johnson` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `macgregor` (3), `johnson` (1), `mercouris` (1), `napolitano` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_xkR1oV-KfY) | `source-alex-mercouris-europe-leaders-furious-as-trump-backs-putin-rejects-sanctions-supports-istanbul-talks-starmer-out-2025-05-20.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `macgregor`, `davis` | [watch](https://youtu.be/EtSKGuDtVh4) | `source-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/EtSKGuDtVh4) | `source-daniel-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md` |
 | `counter-currents` | Counter Currents | `macgregor`, `johnson` | [watch](https://youtu.be/aF-DZREijN8) | `source-johnson-macgregor-nato-s-collapse-2025-05-20.md` |
 | `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=Xw85_UYjHbU) | `source-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md` |
 
@@ -56,6 +56,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-europe-leaders-furious-as-trump-backs-putin-rejects-sanctions-supports-istanbul-talks-starmer-out-2025-05-20.md`
-- `source-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md`
+- `source-daniel-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md`
 - `source-johnson-macgregor-nato-s-collapse-2025-05-20.md`
 - `source-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md`

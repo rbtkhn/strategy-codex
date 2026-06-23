@@ -15,9 +15,9 @@ Purpose: provide the canonical route map for materialized Martyanov appearances 
 ### Daniel Davis Deep Dive
 
 - [2025-10-20 - Russia: all about demilitarizing NATO](../../../source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md)
-- [2025-12-08 - A JUST and LASTING DEFEAT](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
-- [2025-12-29 - Russia will finish off Ukraine](../../../source-archive/statecraft/2025-12-29/source-daniel-davis-deep-dive-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md)
-- [2026-02-24 - Ukraine Russia war enters the fifth year](../../../source-archive/statecraft/2026-02-24/source-daniel-davis-deep-dive-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
+- [2025-12-08 - A JUST and LASTING DEFEAT](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
+- [2025-12-29 - Russia will finish off Ukraine](../../../source-archive/statecraft/2025-12-29/source-daniel-davis-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md)
+- [2026-02-24 - Ukraine Russia war enters the fifth year](../../../source-archive/statecraft/2026-02-24/source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
 
 ### Dialogue Works / Nima
 

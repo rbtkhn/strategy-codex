@@ -37,7 +37,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Rober
 ## 2026-04
 - [substack-pape-trump-accelerated-the-crisis-2026-04-02](../../years/2026/provenance/2026-04-02/source-pape-trump-accelerated-the-crisis-2026-04-02.md)
 - [substack-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16](../../years/2026/provenance/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md)
-- [transcript-davis](../../years/2026/provenance/2026-04-16/source-davis-2026-04-18.md)
+- [transcript-davis](../../years/2026/provenance/2026-04-16/source-daniel-davis-2026-04-18.md)
 - [transcript-pape](../../years/2026/provenance/2026-04-16/source-pape-2026-04-18.md)
 - [substack-pape-a-real-time-test-of-powerand-why-2026-04-17](../../years/2026/provenance/2026-04-17/source-pape-a-real-time-test-of-powerand-why-2026-04-17.md)
 - [transcript-pape](../../years/2026/provenance/2026-04-17/source-pape-2026-04-18.md)

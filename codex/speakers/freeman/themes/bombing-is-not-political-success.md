@@ -28,7 +28,7 @@ Freeman repeatedly invokes Vietnam, Afghanistan, and adjacent war-memory example
 - [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
   > "We should have learned that in Vietnam, where there were 300,000 Chinese military engineers who kept the railroads operating for the Vietnamese"
 
-- [2025-01-26 Daniel Davis](../../years/2026/provenance/2025-01-26/source-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md)
+- [2025-01-26 Daniel Davis](../../years/2026/provenance/2025-01-26/source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md)
   > "what Ukraine lost in battle can't be regained negotiating"
 
 ## What Freeman Is Arguing

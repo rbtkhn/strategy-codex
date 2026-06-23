@@ -53,7 +53,7 @@ The direct archive run already shows that Martyanov is more than compatibility r
 - [2025-11-30 / Dialogue Works x Martyanov](../../../source-archive/statecraft/2025-11-30/source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md)
 - [2025-12-14 / Dialogue Works x Escobar + Martyanov + Krainer](../../../source-archive/statecraft/2025-12-14/source-dialogue-works-pepe-escobar-andrei-martyanov-alex-krainer-russia-strikes-us-recalculates-eu-draws-the-line-2025-12-14.md)
 - [2025-12-21 / Dialogue Works x Martyanov](../../../source-archive/statecraft/2025-12-21/source-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md)
-- [2025-12-08 / Davis x Martyanov](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
+- [2025-12-08 / Davis x Martyanov](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
 - [2026-01-28 / Dialogue Works x Martyanov](../../../source-archive/statecraft/2026-01-28/source-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md)
 - [2026-02-19 / Dialogue Works x Martyanov](../../../source-archive/statecraft/2026-02-19/source-dialogue-works-andrei-martyanov-iran-bombshell-hypersonic-missile-could-sink-us-navy-carrier-trump-warned-2026-02-19.md)
 - [2026-03-05 / Dialogue Works x Martyanov](../../../source-archive/statecraft/2026-03-05/source-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md)

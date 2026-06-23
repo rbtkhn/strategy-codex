@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=5rfL50lir0g) | `source-alex-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=3mueAlDch2U) | `source-daniel-davis-deep-dive-austin-v-hegseth-who-s-more-qualified-2025-01-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=SaRwAF4XuZs) | `source-daniel-davis-deep-dive-gaza-ceasefire-hostage-deal-in-the-works-2025-01-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=G9O4Ie_aaGM) | `source-daniel-davis-deep-dive-hegseth-the-change-agent-we-need-2025-01-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=3mueAlDch2U) | `source-daniel-davis-austin-v-hegseth-who-s-more-qualified-2025-01-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=SaRwAF4XuZs) | `source-daniel-davis-gaza-ceasefire-hostage-deal-in-the-works-2025-01-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=G9O4Ie_aaGM) | `source-daniel-davis-hegseth-the-change-agent-we-need-2025-01-15.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=DM1Ju_xQhlI) | `source-dialogue-works-prof-mohammad-marandi-breaking-official-gaza-ceasefire-announced-what-ha-2025-01-15.md` |
 
 ## Writer sources
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md`
-- `source-daniel-davis-deep-dive-austin-v-hegseth-who-s-more-qualified-2025-01-15.md`
-- `source-daniel-davis-deep-dive-gaza-ceasefire-hostage-deal-in-the-works-2025-01-15.md`
-- `source-daniel-davis-deep-dive-hegseth-the-change-agent-we-need-2025-01-15.md`
+- `source-daniel-davis-austin-v-hegseth-who-s-more-qualified-2025-01-15.md`
+- `source-daniel-davis-gaza-ceasefire-hostage-deal-in-the-works-2025-01-15.md`
+- `source-daniel-davis-hegseth-the-change-agent-we-need-2025-01-15.md`
 - `source-dialogue-works-prof-mohammad-marandi-breaking-official-gaza-ceasefire-announced-what-ha-2025-01-15.md`

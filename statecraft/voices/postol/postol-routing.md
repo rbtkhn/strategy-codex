@@ -14,7 +14,7 @@ Open [Davis host shelf](../../hosts/davis/README.md) first when the real questio
 - can this target survive
 - is the public coercion claim physically credible
 
-The best current direct anchor is [2026-05-15 / Davis x Postol](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md).
+The best current direct anchor is [2026-05-15 / Davis x Postol](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md).
 
 ## Open Dialogue Works First
 

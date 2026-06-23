@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (2), `Nima Alkhorshid` (1), `Robert Pape` (1), `Trita Parsi` (1)
 - Guests: `John Mearsheimer` (1), `Matthew Ehret` (1), `Robert Barnes` (1), `Scott Ritter` (1)
-- Threads: `davis` (3), `mercouris` (2), `barnes` (1), `mearsheimer` (1), `pape` (1), `parsi` (1), `ritter` (1)
+- Threads: `mercouris` (2), `barnes` (1), `davis` (1), `mearsheimer` (1), `pape` (1), `parsi` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcSgdx6FBAY) | `source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=K7dz4QE8VG8) | `source-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=K7dz4QE8VG8) | `source-daniel-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md` |
 | `dialogue-works` | Dialogue Works | `ritter` | [MWlCgZMYqk8](https://www.youtube.com/watch?v=MWlCgZMYqk8) | `source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=HRu-Z7AsKIY) | `source-mercouris-barnes-open-ended-iran-war-2026-03-04.md` |
 
@@ -52,15 +52,15 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Daniel Davis | `davis` | — | `source-davis-deeper-strikes-in-iran-coming-2026-03-04.md` |
-| Daniel Davis | `davis` | — | `source-davis-iran-war-narrative-battles-2026-03-04.md` |
+| Daniel Davis | — | — | `source-daniel-davis-deeper-strikes-in-iran-coming-2026-03-04.md` |
+| Daniel Davis | — | — | `source-daniel-davis-iran-war-narrative-battles-2026-03-04.md` |
 
 ## Files
 
 - `source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md`
-- `source-davis-deeper-strikes-in-iran-coming-2026-03-04.md`
-- `source-davis-iran-war-narrative-battles-2026-03-04.md`
-- `source-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md`
+- `source-daniel-davis-deeper-strikes-in-iran-coming-2026-03-04.md`
+- `source-daniel-davis-iran-war-narrative-battles-2026-03-04.md`
+- `source-daniel-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md`
 - `source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md`
 - `source-mercouris-barnes-open-ended-iran-war-2026-03-04.md`
 - `source-pape-the-smart-bomb-trap-is-becoming-a-dumb-bomb-2026-03-04.md`

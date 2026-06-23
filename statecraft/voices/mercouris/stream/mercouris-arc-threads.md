@@ -108,8 +108,8 @@ Thesis: Mercouris's Ukraine line is not only battlefield commentary; it is a rec
 
 Anchors:
 
-- 2025-12-10 - Davis x Mercouris, European gamble backing Ukraine: [raw-input](../../../../source-archive/statecraft/2025-12-10/source-daniel-davis-deep-dive-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md)
-- 2026-01-09 - Davis x Mercouris, Oreshnik / Paris-ceasefire fantasy: [raw-input](../../../../source-archive/statecraft/2026-01-09/source-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
+- 2025-12-10 - Davis x Mercouris, European gamble backing Ukraine: [raw-input](../../../../source-archive/statecraft/2025-12-10/source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md)
+- 2026-01-09 - Davis x Mercouris, Oreshnik / Paris-ceasefire fantasy: [raw-input](../../../../source-archive/statecraft/2026-01-09/source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
 - 2026-04-01 - Trump threatens U.S. NATO exit / Russia winning Donbas: [raw-input](../../../../source-archive/statecraft/2026-04-01/source-alex-mercouris-trump-threatens-us-nato-exit-russia-winning-donbas-victory-warns-us-kiev-2026-04-01.md)
 - 2026-04-16 - EU drone factories / Medvedev warning / Iran-Pakistan-China: [raw-input](../../../../source-archive/statecraft/2026-04-16/source-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md)
 - 2026-05-02 - EU/Kiev crisis / U.S. arms delivery halt / troop pullout: [raw-input](../../../../source-archive/statecraft/2026-05-02/source-alex-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md)
@@ -204,7 +204,7 @@ Anchors:
 
 - 2023-01-14 - Diesen × Mercouris × Karaganov, Greater Europe → Greater Eurasia: [raw-input](../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md)
 - 2024-10-21 - Diesen × Mercouris × Karaganov, nuclear doctrine / European fear loss: [raw-input](../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md)
-- 2025-01-16 - Davis x Mercouris, NATO preparing for war with Russia: [raw-input](../../../../source-archive/statecraft/2025-01-16/source-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
+- 2025-01-16 - Davis x Mercouris, NATO preparing for war with Russia: [raw-input](../../../../source-archive/statecraft/2025-01-16/source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
 - 2026-05-16 - Diesen x Mercouris, political legitimacy crisis across Europe: [raw-input](../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 - 2026-05-17 - Russia/Moldova decree / EU assembles Belarus force: [raw-input](../../../../source-archive/statecraft/2026-05-17/source-alex-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md)
 - 2026-05-18 - EU split on Russia talks / Dnipro weapon report / Iran: [raw-input](../../../../source-archive/statecraft/2026-05-18/source-alex-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md)

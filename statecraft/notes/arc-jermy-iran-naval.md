@@ -21,7 +21,7 @@ span_end: 2026-03-18
 | 2 | **Mar 01** | Diesen | [Iran war endgame & global fallout](../../source-archive/statecraft/2026-03-01/source-glenn-diesen-steve-jermy-iran-war-endgame-global-fallout-2026-03-01.md) | https://www.youtube.com/watch?v=ALZxMPIjg6M |
 | 3 | **Mar 18** | Neutrality | [US already lost the naval war (spoken 16 Mar)](../../source-archive/statecraft/2026-03-18/source-neutrality-studies-us-already-lost-naval-war-steve-jermy-2026-03-18.md) | https://www.youtube.com/watch?v=1MN7nECum_w |
 
-**Adjacent (do not collapse):** [Jermy energy arc](./arc-jermy-iran-energy.md) · [Mar-18 Davis energy same day](../../source-archive/statecraft/2026-03-18/source-daniel-davis-deep-dive-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md)
+**Adjacent (do not collapse):** [Jermy energy arc](./arc-jermy-iran-energy.md) · [Mar-18 Davis energy same day](../../source-archive/statecraft/2026-03-18/source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md)
 
 **Reconciled:** 2026-06-22 · Prior `arc-jermy-2026-01-to-2026-03-iran-naval.md` → `arc-jermy-iran-naval.md` (dates out of filename; span in YAML)
 

@@ -49,7 +49,7 @@ Open the Davis lane first when the real question is:
 
 Best current anchor:
 
-- [2025-10-10 / Daniel Davis Deep Dive x Matt Hoh](../../../source-archive/statecraft/2025-10-10/source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
+- [2025-10-10 / Daniel Davis Deep Dive x Matt Hoh](../../../source-archive/statecraft/2025-10-10/source-daniel-davis-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
 
 ## Current shelf rule
 

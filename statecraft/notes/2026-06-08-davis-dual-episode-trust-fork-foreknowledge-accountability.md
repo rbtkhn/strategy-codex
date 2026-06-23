@@ -6,8 +6,8 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Davis / Iran war expands, Houthis declare war (morning)](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md) — `SRCgVFPIxwM`
-- [Davis / We've always known the truth of war (evening)](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-weve-always-known-truth-of-war-iran-2026-06-08.md) — `yu1H2bORJPM`
+- [Davis / Iran war expands, Houthis declare war (morning)](../../source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md) — `SRCgVFPIxwM`
+- [Davis / We've always known the truth of war (evening)](../../source-archive/statecraft/2026-06-08/source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md) — `yu1H2bORJPM`
 
 ## Purpose
 

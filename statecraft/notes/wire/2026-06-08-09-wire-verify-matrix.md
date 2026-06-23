@@ -65,7 +65,7 @@ WORK only; not Record.
 | `source-alex-mercouris-moscow-*` | Y (prior + harmonized) | S6 + S9 UK SSN |
 | `source-alkorshid-stanislav-krapivnik-*` | Y | **S9 mesh** (Ukraine block) + S2 Iran interrupt (see physics-fork) |
 | `source-alkorshid-iran-launches-immediate-retaliation-*` | Y | S1 developing + S2 partial |
-| `source-daniel-davis-deep-dive-breaking-us-strikes-iran-qeshm-*` | Y | S2 pretext chain + strike package |
+| `source-daniel-davis-breaking-us-strikes-iran-qeshm-*` | Y | S2 pretext chain + strike package |
 
 **S9 commentary mesh:** [Helmer · Mercouris · Krapivnik — 9 Jun](statecraft/notes/2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
 

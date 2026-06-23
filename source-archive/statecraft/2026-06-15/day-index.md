@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [h2TwG48Kib0](https://www.youtube.com/watch?v=h2TwG48Kib0) | `source-alkorshid-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `nima` | [IY1BU0bKEgM](https://www.youtube.com/watch?v=IY1BU0bKEgM) | `source-alkorshid-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [aaXKX3cPZSg](https://www.youtube.com/watch?v=aaXKX3cPZSg) | `source-daniel-davis-deep-dive-whats-the-deal-with-iran-2026-06-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [S9ROJmN0HQ4](https://www.youtube.com/watch?v=S9ROJmN0HQ4) | `source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [aaXKX3cPZSg](https://www.youtube.com/watch?v=aaXKX3cPZSg) | `source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md` |
 | `glenn-diesen` | Glenn Diesen | `sachs`, `diesen` | [vkhJdxpbz_g](https://www.youtube.com/watch?v=vkhJdxpbz_g) | `source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md` |
 | `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [eiEH9Lww67A](https://www.youtube.com/watch?v=eiEH9Lww67A) | `source-napolitano-crooke-us-empire-is-crashing-2026-06-15.md` |
 | `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [5z21jBNP0xo](https://www.youtube.com/watch?v=5z21jBNP0xo) | `source-napolitano-johnson-is-this-any-way-to-negotiate-2026-06-15.md` |
@@ -63,8 +63,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alkorshid-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md`
 - `source-alkorshid-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md`
-- `source-daniel-davis-deep-dive-whats-the-deal-with-iran-2026-06-15.md`
 - `source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md`
+- `source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md`
 - `source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md`
 - `source-napolitano-crooke-us-empire-is-crashing-2026-06-15.md`
 - `source-napolitano-johnson-is-this-any-way-to-negotiate-2026-06-15.md`

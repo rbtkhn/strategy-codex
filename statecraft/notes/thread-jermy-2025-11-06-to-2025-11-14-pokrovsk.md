@@ -9,7 +9,7 @@ topic: pokrovsk
 span_start: 2025-11-06
 span_end: 2025-11-14
 nodes:
-  - source-archive/statecraft/2025-11-06/source-daniel-davis-deep-dive-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md
+  - source-archive/statecraft/2025-11-06/source-daniel-davis-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md
   - source-archive/statecraft/2025-11-10/source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md
   - source-archive/statecraft/2025-11-11/source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md
   - source-archive/statecraft/2025-11-14/source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md
@@ -22,7 +22,7 @@ nodes:
 
 **Sources:**
 
-- [Davis × Jermy — Russia true war objectives revealed](../../source-archive/statecraft/2025-11-06/source-daniel-davis-deep-dive-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md) — https://www.youtube.com/watch?v=H086Spnczmc — **full transcript** (ingest 2026-06-22)
+- [Davis × Jermy — Russia true war objectives revealed](../../source-archive/statecraft/2025-11-06/source-daniel-davis-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md) — https://www.youtube.com/watch?v=H086Spnczmc — **full transcript** (ingest 2026-06-22)
 - [Mercouris solo — Kiev faces worst defeat; Pokrovsk surrender; Zaporozhye/Kharkov](../../source-archive/statecraft/2025-11-10/source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md) — **inflection opener**
 - [Mercouris solo — Kiev defeat worsens; Syrsky admits Pokrovsk crisis](../../source-archive/statecraft/2025-11-11/source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md)
 - [Mercouris solo — Kiev's darkest day; Zelensky begs missiles; gives up Pokrovsk](../../source-archive/statecraft/2025-11-14/source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md) — **tactical confirmation week**
@@ -75,7 +75,7 @@ nodes:
 
 - [November 2025 benchmark note](./november-2025-benchmark-note.md) — month-scale fragmentation field
 - [Mercouris November repair note](./mercouris-november-2025-repair-note.md) — full Nov solo run through 2025-11-30
-- [Davis × Mearsheimer 2025-11-14](../../source-archive/statecraft/2025-11-14/source-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md) — **danger/feasibility** companion in same host month
+- [Davis × Mearsheimer 2025-11-14](../../source-archive/statecraft/2025-11-14/source-daniel-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md) — **danger/feasibility** companion in same host month
 - [Jermy 2026-06-20 Neutrality macro](../voices/jermy/jermy-source-index.md) — **industrial/energy** seam continues into MOU/Hormuz month
 
 ## Falsifiers

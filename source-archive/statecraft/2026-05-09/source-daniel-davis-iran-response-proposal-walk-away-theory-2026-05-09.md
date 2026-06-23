@@ -8,7 +8,7 @@ show: Daniel Davis / Deep Dive
 host: Daniel Davis
 title: "Iran Response, Walk-Away Theory, and the Cost of Escalation"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
-channel_slug: "daniel-davis-deep-dive"
+channel_slug: daniel-davis
 source_url: "https://www.youtube.com/watch?v=MYL36jQgHGw"
 source_note: "Cleaned transcript pasted by operator."
 ---

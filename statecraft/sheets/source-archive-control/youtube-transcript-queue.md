@@ -59,7 +59,7 @@ Discovery `file_prefix` on each channel and archive land names are **different s
 | `channel_key` | `file_prefix` (raw-input) | Archive land pattern |
 |---------------|---------------------------|----------------------|
 | `dialogue-works` | `transcript-dialogue-works` | `source-dialogue-works-*` or `source-alkorshid-*` |
-| `daniel-davis` | `youtube-daniel-davis-deep-dive` | `source-davis-*` |
+| `daniel-davis` | `youtube-daniel-davis-deep-dive` | `source-daniel-davis-*` |
 | `glenn-diesen` | `youtube-glenn-diesen` | `source-diesen-*` / `source-glenn-diesen-*` |
 | `alexander-mercouris` | `youtube-alex-mercouris` | `source-mercouris-*` |
 | `judging-freedom` | `transcript-napolitano` | `source-napolitano-*` |

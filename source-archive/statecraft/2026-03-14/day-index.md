@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xLfY2QGWklM) | `source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [TyKZyu8M2Bg](https://www.youtube.com/watch?v=TyKZyu8M2Bg) | `source-daniel-davis-deep-dive-deep-dive-intel-briefing-what-we-learned-this-week-2026-03-14.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [TyKZyu8M2Bg](https://www.youtube.com/watch?v=TyKZyu8M2Bg) | `source-daniel-davis-intel-briefing-what-we-learned-this-week-2026-03-14.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=u5-E6huRJGM) | `source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [sxMrNecpBjM](https://www.youtube.com/watch?v=sxMrNecpBjM) | `source-glenn-diesen-yanis-varoufakis-iran-war-collapses-u-s-neoliberal-economy-2026-03-14.md` |
 
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md`
-- `source-daniel-davis-deep-dive-deep-dive-intel-briefing-what-we-learned-this-week-2026-03-14.md`
+- `source-daniel-davis-intel-briefing-what-we-learned-this-week-2026-03-14.md`
 - `source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md`
 - `source-glenn-diesen-yanis-varoufakis-iran-war-collapses-u-s-neoliberal-economy-2026-03-14.md`
 - `source-ritter-the-backpack-girls-2026-03-14.md`

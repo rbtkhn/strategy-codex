@@ -20,8 +20,8 @@ Same host, same escalation week:
 
 | Capture | Slug |
 |---------|------|
-| Barnes | [`source-daniel-davis-deep-dive-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md`](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md) |
-| Mearsheimer | [`source-daniel-davis-deep-dive-john-mearsheimer-iran-war-strategy-changes-again-2026-06-11.md`](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-john-mearsheimer-iran-war-strategy-changes-again-2026-06-11.md) |
+| Barnes | [`source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md`](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md) |
+| Mearsheimer | [`source-daniel-davis-john-mearsheimer-iran-war-strategy-changes-again-2026-06-11.md`](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-john-mearsheimer-iran-war-strategy-changes-again-2026-06-11.md) |
 
 **Shared object:** Apache pretext, deal vs ceasefire confusion, escalation ladder, shifting demands.
 

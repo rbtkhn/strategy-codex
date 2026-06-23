@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Davis × Jermy — Fate of Greenland & Venezuela (post-Maduro snatch)](../../source-archive/statecraft/2026-01-08/source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md) — https://www.youtube.com/watch?v=BgPKfkTK_p4 — **cleaned full transcript** (ingest 2026-06-22)
+- [Davis × Jermy — Fate of Greenland & Venezuela (post-Maduro snatch)](../../source-archive/statecraft/2026-01-08/source-daniel-davis-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md) — https://www.youtube.com/watch?v=BgPKfkTK_p4 — **cleaned full transcript** (ingest 2026-06-22)
 - [Crooke — The Rubicon Crossed; Team Trump's nihilistic anti-values paradigm](../../source-archive/statecraft/2026-01-08/source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md) — https://conflictsforum.substack.com/p/the-rubican-crossed-team-trumps-nihilistic — **full Substack** (8 Jan 2026)
 - [Mercouris solo — Moscow strikes US assets in Ukraine; Starmer/Macron axis of war](../../source-archive/statecraft/2026-01-08/source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md) — https://www.youtube.com/watch?v=tH6Llc4xGBk — **cleaned full transcript** (ingest 2026-06-22; source-clean + manual ASR)
 

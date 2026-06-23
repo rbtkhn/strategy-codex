@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=t9mWIKdlWU4) | `source-alkorshid-freeman-israels-free-fall-on-all-fronts-2026-06-05.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson`, `wilkerson` | [o6b4KXMS1aw](https://www.youtube.com/watch?v=o6b4KXMS1aw) | `source-alkorshid-johnson-wilkerson-iran-fires-missiles-at-us-destroyers-us-ships-flee-to-indian-ocean-2026-06-05.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=CtNtxF4LPKo) | `source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [MjGbYbqMJ1E](https://www.youtube.com/watch?v=MjGbYbqMJ1E) | `source-daniel-davis-deep-dive-zelensky-s-letter-to-putin-lt-col-daniel-davis-2026-06-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [MjGbYbqMJ1E](https://www.youtube.com/watch?v=MjGbYbqMJ1E) | `source-daniel-davis-zelensky-s-letter-to-putin-lt-col-daniel-davis-2026-06-05.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [CtNtxF4LPKo](https://www.youtube.com/watch?v=CtNtxF4LPKo) | `source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md` |
 | `judging-freedom` | Judging Freedom | `johnson`, `napolitano`, `mcgovern` | [9mOCqLYJOaM](https://www.youtube.com/watch?v=9mOCqLYJOaM) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md` |
 | `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=4p1phpcrjoQ) | `source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md` |
@@ -67,7 +67,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-freeman-israels-free-fall-on-all-fronts-2026-06-05.md`
 - `source-alkorshid-johnson-wilkerson-iran-fires-missiles-at-us-destroyers-us-ships-flee-to-indian-ocean-2026-06-05.md`
 - `source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md`
-- `source-daniel-davis-deep-dive-zelensky-s-letter-to-putin-lt-col-daniel-davis-2026-06-05.md`
+- `source-daniel-davis-zelensky-s-letter-to-putin-lt-col-daniel-davis-2026-06-05.md`
 - `source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md`
 - `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md`
 - `source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md`

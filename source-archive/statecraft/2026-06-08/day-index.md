@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [aXsYSfAc7ks](https://www.youtube.com/watch?v=aXsYSfAc7ks) | `source-alex-mercouris-kiev-odessa-oreshnik-fortifications-iran-israel-strikes-2026-06-08.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `baud` | [CEXkLl7pVzo](https://www.youtube.com/watch?v=CEXkLl7pVzo) | `source-alkorshid-baud-iran-israel-new-war-front-mediterranean-2026-06-08.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [SRCgVFPIxwM](https://www.youtube.com/watch?v=SRCgVFPIxwM) | `source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [yu1H2bORJPM](https://www.youtube.com/watch?v=yu1H2bORJPM) | `source-daniel-davis-deep-dive-weve-always-known-truth-of-war-iran-2026-06-08.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [SRCgVFPIxwM](https://www.youtube.com/watch?v=SRCgVFPIxwM) | `source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [yu1H2bORJPM](https://www.youtube.com/watch?v=yu1H2bORJPM) | `source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `nima` | [-jfbieXSiH0](https://www.youtube.com/watch?v=-jfbieXSiH0) | `source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md` |
 | `glenn-diesen` | Glenn Diesen | `wilkerson`, `diesen` | [a2nQnLcTNuo](https://www.youtube.com/watch?v=a2nQnLcTNuo) | `source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [kcjU0rN6a2k](https://www.youtube.com/watch?v=kcjU0rN6a2k) | `source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md` |
@@ -68,8 +68,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-kiev-odessa-oreshnik-fortifications-iran-israel-strikes-2026-06-08.md`
 - `source-alkorshid-baud-iran-israel-new-war-front-mediterranean-2026-06-08.md`
-- `source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md`
-- `source-daniel-davis-deep-dive-weve-always-known-truth-of-war-iran-2026-06-08.md`
+- `source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md`
+- `source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md`
 - `source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md`
 - `source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md`
 - `source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md`

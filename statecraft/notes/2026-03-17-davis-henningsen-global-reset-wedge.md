@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Henningsen × Davis — IRAN WAR GLOBAL RESET](../../source-archive/statecraft/2026-03-17/source-daniel-davis-deep-dive-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) — https://www.youtube.com/watch?v=EV6WOiBj5HA — **full yt-dlp manual subs** (~21 KB)
+- [Henningsen × Davis — IRAN WAR GLOBAL RESET](../../source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) — https://www.youtube.com/watch?v=EV6WOiBj5HA — **full yt-dlp manual subs** (~21 KB)
 
 **Format:** **Henningsen** (journalist / regional-war map) + **Davis** (host / retired colonel bridge) — same show, Mar 17 **Global Reset** episode.
 

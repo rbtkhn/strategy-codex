@@ -72,12 +72,12 @@ This means the lane should be read in two ways:
 
 If the operator needs only one file:
 
-- open [source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- open [source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
 
 If the operator needs the best paired read:
 
-- open [source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
-- then [source-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-19/source-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md)
+- open [source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- then [source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-19/source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md)
 
 That pair still gives the clearest combination of:
 

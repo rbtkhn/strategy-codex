@@ -25,9 +25,9 @@ So July is still thin for Mearsheimer, but it has moved further into a real repa
 Five July 2025 Mearsheimer captures are now on disk:
 
 - `2025-07-10` - [source-napolitano-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-10/source-napolitano-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md)
-- `2025-07-14` - [source-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-14/source-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md)
+- `2025-07-14` - [source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-14/source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md)
 - `2025-07-15` - [source-napolitano-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-15/source-napolitano-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md)
-- `2025-07-20` - [source-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/source-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md)
+- `2025-07-20` - [source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md)
 - `2025-07-25` - [source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-25/source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md)
 
 ## Current July Archive Shape

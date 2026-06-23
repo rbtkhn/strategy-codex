@@ -8,7 +8,7 @@ April is where March's escalation run turns into blockade theater, ceasefire con
 
 Best openings:
 
-- [2026-04-08 Davis](../../../../source-archive/statecraft/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- [2026-04-08 Davis](../../../../source-archive/statecraft/2026-04-08/source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
 - [2026-04-15 Diesen](../../../../source-archive/statecraft/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
 - [2026-04-20 Dialogue Works](../../../../source-archive/statecraft/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
 - [2026-04-20 Judging Freedom](../../../../source-archive/statecraft/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)

@@ -33,10 +33,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [8L21nezG_ZU](https://www.youtube.com/watch?v=8L21nezG_ZU) | `source-alex-mercouris-zelensky-panics-says-russia-will-attack-kiev-decision-centres-slaviansk-2026-05-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [yFfSXup5nEw](https://www.youtube.com/watch?v=yFfSXup5nEw) | `source-daniel-davis-deep-dive-bombs-away-or-walk-away-in-iran-lt-col-daniel-davis-2026-05-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [JRNzCOQTTDo](https://www.youtube.com/watch?v=JRNzCOQTTDo) | `source-daniel-davis-deep-dive-deep-dive-intel-briefing-5-16-2026-lt-col-daniel-davis-2026-05-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [Uqt5ZW2MxFc](https://www.youtube.com/watch?v=Uqt5ZW2MxFc) | `source-daniel-davis-deep-dive-iran-war-post-china-trip-lt-col-daniel-davis-mario-nawfal-2026-05-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=PYOxyv46-6k) | `source-daniel-davis-deep-dive-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [yFfSXup5nEw](https://www.youtube.com/watch?v=yFfSXup5nEw) | `source-daniel-davis-bombs-away-or-walk-away-in-iran-lt-col-daniel-davis-2026-05-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [JRNzCOQTTDo](https://www.youtube.com/watch?v=JRNzCOQTTDo) | `source-daniel-davis-intel-briefing-5-16-2026-lt-col-daniel-davis-2026-05-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [Uqt5ZW2MxFc](https://www.youtube.com/watch?v=Uqt5ZW2MxFc) | `source-daniel-davis-iran-war-post-china-trip-lt-col-daniel-davis-mario-nawfal-2026-05-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=PYOxyv46-6k) | `source-daniel-davis-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=XfTAxhCrWqQ) | `source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md` |
 | `dialogue-works` | Dialogue Works | `marandi`, `nima` | [watch](https://www.youtube.com/watch?v=cA1vwusUpfY) | `source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mercouris` | [watch](https://www.youtube.com/watch?v=Wjb4vFK37t0) | `source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` |
@@ -62,10 +62,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-zelensky-panics-says-russia-will-attack-kiev-decision-centres-slaviansk-2026-05-16.md`
-- `source-daniel-davis-deep-dive-bombs-away-or-walk-away-in-iran-lt-col-daniel-davis-2026-05-16.md`
-- `source-daniel-davis-deep-dive-deep-dive-intel-briefing-5-16-2026-lt-col-daniel-davis-2026-05-16.md`
-- `source-daniel-davis-deep-dive-iran-war-post-china-trip-lt-col-daniel-davis-mario-nawfal-2026-05-16.md`
-- `source-daniel-davis-deep-dive-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md`
+- `source-daniel-davis-bombs-away-or-walk-away-in-iran-lt-col-daniel-davis-2026-05-16.md`
+- `source-daniel-davis-intel-briefing-5-16-2026-lt-col-daniel-davis-2026-05-16.md`
+- `source-daniel-davis-iran-war-post-china-trip-lt-col-daniel-davis-mario-nawfal-2026-05-16.md`
+- `source-daniel-davis-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md`
 - `source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md`
 - `source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md`
 - `source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md`

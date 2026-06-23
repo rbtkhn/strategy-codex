@@ -36,8 +36,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima` | [OVcXeOl-LSw](https://www.youtube.com/watch?v=OVcXeOl-LSw) | `source-alkorshid-helmer-irans-unthinkable-move-middle-east-never-same-2026-06-02.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `marandi` | [gfUh61RczdQ](https://www.youtube.com/watch?v=gfUh61RczdQ) | `source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `wilkerson` | [frZDd7KM3Fo](https://www.youtube.com/watch?v=frZDd7KM3Fo) | `source-alkorshid-wilkerson-irans-quds-force-chief-red-sea-chokepoint-next-hormuz-2026-06-02.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [5dY4pJQGZ0k](https://www.youtube.com/watch?v=5dY4pJQGZ0k) | `source-daniel-davis-deep-dive-americas-old-world-war-mentality-lt-col-daniel-davis-2026-06-02.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [Styvw9Ovzvo](https://www.youtube.com/watch?v=Styvw9Ovzvo) | `source-daniel-davis-deep-dive-col-douglas-macgregor-the-israel-first-white-house-2026-06-02.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [5dY4pJQGZ0k](https://www.youtube.com/watch?v=5dY4pJQGZ0k) | `source-daniel-davis-americas-old-world-war-mentality-lt-col-daniel-davis-2026-06-02.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [Styvw9Ovzvo](https://www.youtube.com/watch?v=Styvw9Ovzvo) | `source-daniel-davis-col-douglas-macgregor-the-israel-first-white-house-2026-06-02.md` |
 | `glenn-diesen` | Diesen | `diesen`, `krapivnik` | [watch](https://www.youtube.com/watch?v=5xtnwhdIp_k) | `source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=dClwePAEoRw) | `source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [watch](https://www.youtube.com/watch?v=FWoseXWGX5Y) | `source-napolitano-freeman-how-the-us-lost-geopolitical-primacy-2026-06-02.md` |
@@ -69,8 +69,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-helmer-irans-unthinkable-move-middle-east-never-same-2026-06-02.md`
 - `source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md`
 - `source-alkorshid-wilkerson-irans-quds-force-chief-red-sea-chokepoint-next-hormuz-2026-06-02.md`
-- `source-daniel-davis-deep-dive-americas-old-world-war-mentality-lt-col-daniel-davis-2026-06-02.md`
-- `source-daniel-davis-deep-dive-col-douglas-macgregor-the-israel-first-white-house-2026-06-02.md`
+- `source-daniel-davis-americas-old-world-war-mentality-lt-col-daniel-davis-2026-06-02.md`
+- `source-daniel-davis-col-douglas-macgregor-the-israel-first-white-house-2026-06-02.md`
 - `source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md`
 - `source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md`
 - `source-napolitano-freeman-how-the-us-lost-geopolitical-primacy-2026-06-02.md`

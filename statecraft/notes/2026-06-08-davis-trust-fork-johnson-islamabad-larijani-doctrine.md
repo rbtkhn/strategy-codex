@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Davis solo / Iran war expands, Houthis declare war](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md)
+- [Davis solo / Iran war expands, Houthis declare war](../../source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md)
 - [Johnson × Nima / Iran missiles northern Israel](../../source-archive/statecraft/2026-06-08/source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md)
 
 ## Purpose

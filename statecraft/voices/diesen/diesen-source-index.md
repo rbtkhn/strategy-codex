@@ -56,7 +56,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [youtube-glenn-diesen-brian-berletic-is-the-us-setting-a-trap-for-russia-in-alaska-2025-08-10](../../../source-archive/statecraft/2025-08-10/source-glenn-diesen-brian-berletic-is-the-us-setting-a-trap-for-russia-in-alaska-2025-08-10.md)
 - [youtube-glenn-diesen-jeffrey-sachs-trump-putin-meeting-peace-or-deception-2025-08-11](../../../source-archive/statecraft/2025-08-11/source-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
 - [youtube-glenn-diesen-larry-johnson-what-to-expect-from-putin-trump-meeting-in-alaska-2025-08-14](../../../source-archive/statecraft/2025-08-14/source-glenn-diesen-larry-johnson-what-to-expect-from-putin-trump-meeting-in-alaska-2025-08-14.md)
-- [youtube-glenn-diesen-daniel-davis-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18](../../../source-archive/statecraft/2025-08-18/source-glenn-diesen-daniel-davis-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18.md)
+- [youtube-diesen-host-davis-guest-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18](../../../source-archive/statecraft/2025-08-18/source-glenn-diesen-daniel-davis-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18.md) — **Diesen host** / Davis guest (glenn-diesen channel)
 - [youtube-glenn-diesen-george-beebe-the-end-of-russia-s-exclusion-from-europe-2025-08-21](../../../source-archive/statecraft/2025-08-21/source-glenn-diesen-george-beebe-the-end-of-russia-s-exclusion-from-europe-2025-08-21.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21](../../../source-archive/statecraft/2025-08-21/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md)
 - [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-with-nato-s-collapse-new-world-order-emerges-2025-08-28](../../../source-archive/statecraft/2025-08-28/source-glenn-diesen-douglas-macgregor-douglas-macgregor-with-nato-s-collapse-new-world-order-emerges-2025-08-28.md)
@@ -117,7 +117,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31](../../../source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 
 ## 2026-02
-- [transcript-davis-diesen-iran-knife-edge-2026-02-07](../../../source-archive/statecraft/2026-02-07/source-davis-diesen-iran-knife-edge-2026-02-07.md)
+- [transcript-diesen-host-davis-guest-iran-knife-edge-2026-02-07](../../../source-archive/statecraft/2026-02-07/source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md) — **Diesen host** / Davis guest (`glenn-diesen` channel)
 - [youtube-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17](../../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md)
 - [youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19](../../../source-archive/statecraft/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
 - [youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24](../../../source-archive/statecraft/2026-02-24/source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md)
@@ -127,20 +127,20 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28](../../../source-archive/statecraft/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
 
 ## 2026-03
-- [transcript-davis-diesen-iran-miscalculation-2026-03-01](../../../source-archive/statecraft/2026-03-01/source-davis-diesen-iran-miscalculation-2026-03-01.md)
+- [transcript-diesen-host-davis-guest-iran-miscalculation-2026-03-01](../../../source-archive/statecraft/2026-03-01/source-glenn-diesen-daniel-davis-iran-miscalculation-2026-03-01.md) — **Diesen host** / Davis guest (`glenn-diesen` channel)
 - [youtube-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01](../../../source-archive/statecraft/2026-03-01/source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md)
 - [youtube-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02](../../../source-archive/statecraft/2026-03-02/source-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02.md)
 - [youtube-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02](../../../source-archive/statecraft/2026-03-02/source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
 - [youtube-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03](../../../source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md)
 - [transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10](../../../source-archive/statecraft/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
-- [transcript-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11](../../../source-archive/statecraft/2026-03-11/source-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md)
+- [transcript-davis-host-diesen-guest-iranian-hatred-overblown-2026-03-11](../../../source-archive/statecraft/2026-03-11/source-daniel-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md) — **Davis host** / Diesen guest (`daniel-davis` channel; not Glenn Diesen upload)
 - [youtube-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11](../../../source-archive/statecraft/2026-03-11/source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md)
 - [youtube-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14](../../../source-archive/statecraft/2026-03-14/source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md)
 - [youtube-glenn-diesen-yanis-varoufakis-iran-war-collapses-u-s-neoliberal-economy-2026-03-14](../../../source-archive/statecraft/2026-03-14/source-glenn-diesen-yanis-varoufakis-iran-war-collapses-u-s-neoliberal-economy-2026-03-14.md)
 - [youtube-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15](../../../source-archive/statecraft/2026-03-15/source-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md)
 - [youtube-glenn-diesen-alex-krainer-iran-war-goes-global-economic-energy-food-crisis-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-glenn-diesen-alex-krainer-iran-war-goes-global-economic-energy-food-crisis-2026-03-16.md)
 - [youtube-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md)
-- [transcript-davis-diesen-military-options-kent-2026-03-18](../../../source-archive/statecraft/2026-03-18/source-davis-diesen-military-options-kent-2026-03-18.md)
+- [transcript-diesen-host-davis-guest-military-options-kent-2026-03-18](../../../source-archive/statecraft/2026-03-18/source-glenn-diesen-daniel-davis-military-options-kent-2026-03-18.md) — **Diesen host** / Davis guest (`glenn-diesen` channel)
 - [youtube-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18](../../../source-archive/statecraft/2026-03-18/source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md)
 - [transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20](../../../source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
 - [transcript-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20](../../../source-archive/statecraft/2026-03-20/source-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20.md)
@@ -154,7 +154,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [transcript-diesen-marandi-yemen-joins-the-war-red-sea-could-be-blocked-next-2026-03-29](../../../source-archive/statecraft/2026-03-29/source-diesen-marandi-yemen-joins-the-war-red-sea-could-be-blocked-next-2026-03-29.md)
 
 ## 2026-04
-- [transcript-davis-diesen-trump-war-speech-2026-04-02](../../../source-archive/statecraft/2026-04-02/source-davis-diesen-trump-war-speech-2026-04-02.md)
+- [transcript-diesen-host-davis-guest-trump-war-speech-2026-04-02](../../../source-archive/statecraft/2026-04-02/source-glenn-diesen-daniel-davis-trump-war-speech-2026-04-02.md) — **Diesen host** / Davis guest (`glenn-diesen` channel)
 - [youtube-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02](../../../source-archive/statecraft/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
 - [youtube-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03](../../../source-archive/statecraft/2026-04-03/source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md)
 - [youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05](../../../source-archive/statecraft/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)

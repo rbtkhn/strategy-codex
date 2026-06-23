@@ -11,20 +11,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3), `substack-post` (1)
 - Source form mix: `post` (2), `newsletter` (1), `solo` (1)
-- Distinct channels/shows: `2`
+- Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `0`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Daniel Davis` (2), `Mercouris` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (1), `Robert Pape` (1)
 - Guests: (none)
-- Threads: `davis` (2), `crooke` (1), `mercouris` (1), `pape` (1)
+- Threads: `davis` (2), `mercouris` (1), `pape` (1)
 
 ## Channel sources
 
@@ -48,12 +48,12 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Iran's Asymmetrical War /Alastair Crooke & Lt Col Daniel Davis | `davis`, `crooke` | — | `source-davis-crooke-irans-asymmetrical-war-2026-03-13.md` |
-| Iran War: Finishing the Job /Lt Col Daniel Davis | `davis` | — | `source-davis-finishing-the-job-2026-03-13.md` |
+| Iran's Asymmetrical War /Alastair Crooke & Lt Col Daniel Davis | `davis` | — | `source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md` |
+| Iran War: Finishing the Job /Lt Col Daniel Davis | `davis` | — | `source-daniel-davis-finishing-the-job-2026-03-13.md` |
 
 ## Files
 
 - `source-alex-mercouris-russia-blamed-for-iran-missile-strikes-drones-smash-bases-ships-burn-in-2026-03-13.md`
-- `source-davis-crooke-irans-asymmetrical-war-2026-03-13.md`
-- `source-davis-finishing-the-job-2026-03-13.md`
+- `source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md`
+- `source-daniel-davis-finishing-the-job-2026-03-13.md`
 - `source-pape-strategic-briefings-iran-war-and-2026-03-13.md`

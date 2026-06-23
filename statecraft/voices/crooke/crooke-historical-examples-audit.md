@@ -309,7 +309,7 @@ Coverage basis:
 ### 8. Ben-Gurion and Clausewitz as the lost alternative to permanent war
 
 - Example: `Ben-Gurion / Clausewitz`
-- Source: [2026-05-11 Daniel Davis](../../../source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- Source: [2026-05-11 Daniel Davis](../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 - Exact quote:
 
 > "Ben-Gurion said we also ... our army is not about if you like warfare it is a means to finding solutions."

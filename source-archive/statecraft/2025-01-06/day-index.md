@@ -33,10 +33,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=y0lZasZNflE) | `source-alex-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=O2QRgSVpLow) | `source-daniel-davis-deep-dive-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=uUAXxlonWFo) | `source-daniel-davis-deep-dive-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=lxQzi1tmo68) | `source-daniel-davis-deep-dive-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=0SqhyNoQISk) | `source-daniel-davis-deep-dive-ukraine-launches-new-kursk-offensive-2025-01-06.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=O2QRgSVpLow) | `source-daniel-davis-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=uUAXxlonWFo) | `source-daniel-davis-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=lxQzi1tmo68) | `source-daniel-davis-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=0SqhyNoQISk) | `source-daniel-davis-ukraine-launches-new-kursk-offensive-2025-01-06.md` |
 
 ## Writer sources
 
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md`
-- `source-daniel-davis-deep-dive-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md`
-- `source-daniel-davis-deep-dive-ukraine-launches-new-kursk-offensive-2025-01-06.md`
+- `source-daniel-davis-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md`
+- `source-daniel-davis-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md`
+- `source-daniel-davis-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md`
+- `source-daniel-davis-ukraine-launches-new-kursk-offensive-2025-01-06.md`

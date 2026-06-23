@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ruB41Qv8NyM) | `source-alex-mercouris-kiev-s-catastrophe-day-pokrovsk-volchansk-fall-ecb-no-to-eu-s-russian-as-2025-12-02.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=yYgVZ-ZLuoM) | `source-daniel-davis-deep-dive-col-doug-macgregor-nato-sit-down-shut-up-that-s-what-trump-should-be-telling-them-2025-12-02.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=yYgVZ-ZLuoM) | `source-daniel-davis-col-doug-macgregor-nato-sit-down-shut-up-that-s-what-trump-should-be-telling-them-2025-12-02.md` |
 | `dialogue-works` | — | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=QDXCudThUvg) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-red-alerts-everywhere-the-u-s-just-hit-a-point-of-no-return-2025-12-02.md` |
 
 ## Writer sources
@@ -55,6 +55,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-kiev-s-catastrophe-day-pokrovsk-volchansk-fall-ecb-no-to-eu-s-russian-as-2025-12-02.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-nato-sit-down-shut-up-that-s-what-trump-should-be-telling-them-2025-12-02.md`
+- `source-daniel-davis-col-doug-macgregor-nato-sit-down-shut-up-that-s-what-trump-should-be-telling-them-2025-12-02.md`
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-red-alerts-everywhere-the-u-s-just-hit-a-point-of-no-return-2025-12-02.md`
 - `source-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md`

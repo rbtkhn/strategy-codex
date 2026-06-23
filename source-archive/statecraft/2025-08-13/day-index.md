@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (1)
 - Source form mix: `interview` (1)
-- Distinct channels/shows: `0`
+- Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
 - Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Daniel Davis` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -48,8 +48,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `davis`, `mearsheimer` | — | `source-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md` |
+| John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md` |
 
 ## Files
 
-- `source-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md`
+- `source-daniel-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md`

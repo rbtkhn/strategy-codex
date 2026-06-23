@@ -17,9 +17,9 @@ span_end: 2026-04-28
 
 | # | Day | Capture | URL |
 | --- | --- | --- | --- |
-| 1 | **Feb 27** | [Iran not buckling / not giving in](../../source-archive/statecraft/2026-02-27/source-daniel-davis-deep-dive-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md) | https://www.youtube.com/watch?v=9y7cQS6Zmzg |
-| 2 | **Mar 18** | [Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-deep-dive-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) | https://www.youtube.com/watch?v=HHLYXJDooZE |
-| 3 | **Apr 28** | [Iran war's real ticking timebomb](../../source-archive/statecraft/2026-04-28/source-daniel-davis-deep-dive-iran-wars-real-ticking-timebomb-imminent-energy-food-crisis-steve-jermy-lt-col-daniel-davis-2026-04-28.md) | https://www.youtube.com/watch?v=cjUPUniAKlo |
+| 1 | **Feb 27** | [Iran not buckling / not giving in](../../source-archive/statecraft/2026-02-27/source-daniel-davis-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md) | https://www.youtube.com/watch?v=9y7cQS6Zmzg |
+| 2 | **Mar 18** | [Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) | https://www.youtube.com/watch?v=HHLYXJDooZE |
+| 3 | **Apr 28** | [Iran war's real ticking timebomb](../../source-archive/statecraft/2026-04-28/source-daniel-davis-iran-wars-real-ticking-timebomb-imminent-energy-food-crisis-steve-jermy-lt-col-daniel-davis-2026-04-28.md) | https://www.youtube.com/watch?v=cjUPUniAKlo |
 
 **Adjacent (do not collapse):** [Jermy × Mercouris Mar-18 energy/arsenal](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md) · [Diesen × Marandi × Jermy infrastructure](./2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md) · [Jermy naval arc](./arc-jermy-iran-naval.md)
 

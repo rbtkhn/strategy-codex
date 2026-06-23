@@ -35,7 +35,7 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 #### 2026-01
 
-- [2026-01-20 — Iran, EU & Trump; Greenland](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — https://www.youtube.com/watch?v=JXeWGaFIp3k — **full transcript** · `thread: davis`, `freeman`
+- [2026-01-20 — Iran, EU & Trump; Greenland](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — https://www.youtube.com/watch?v=JXeWGaFIp3k — **full transcript** · `thread: davis`, `freeman`
 
 **Mechanism lane (Jan 20):** **alliance-law / US credibility** — Trump **serious** on Greenland force; NATO **rupture** if Denmark invaded; Rasmussen–WH messaging **misalignment**; Archbishop **refusal-of-orders** line; Board of Peace / international-law register; Venezuela **intimidation-without-regime-change** rhyme.
 
@@ -43,8 +43,8 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 #### 2026-03 · 2026-04 (adjacent Davis lands — not Greenland week)
 
-- [2026-03-06 — Diplomacy is dead w/ Iran](../../../source-archive/statecraft/2026-03-06/source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
-- [2026-04-13 — Iran war: whoever drops most bombs wins](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md)
+- [2026-03-06 — Diplomacy is dead w/ Iran](../../../source-archive/statecraft/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- [2026-04-13 — Iran war: whoever drops most bombs wins](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md)
 
 ### India and Global Left
 
@@ -85,7 +85,7 @@ Same-day **Greenland crisis** — route Freeman **alliance-law / credibility** a
 
 | Register | Shelf | Capture / note |
 | --- | --- | --- |
-| **Freeman** (alliance law) | this index · [Jan 2026 shelf](stream/freeman-shelf-2026-01.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — **full transcript** |
+| **Freeman** (alliance law) | this index · [Jan 2026 shelf](stream/freeman-shelf-2026-01.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — **full transcript** |
 | **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
 | **Mercouris** (institutional solo) | [Mercouris index](../mercouris/mercouris-source-index.md) | [2026-01-20 solo — Starmer/Macron; Greenland; Kiev AD](../../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) |
 

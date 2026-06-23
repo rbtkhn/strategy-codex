@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `1`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1)
 - Guests: `Douglas Macgregor` (1)
-- Threads: `davis` (1), `macgregor` (1)
+- Threads: `macgregor` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `macgregor`, `davis` | [watch](https://www.youtube.com/watch?v=4UhLXqOH87w) | `source-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://www.youtube.com/watch?v=4UhLXqOH87w) | `source-daniel-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03.md`
+- `source-daniel-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03.md`

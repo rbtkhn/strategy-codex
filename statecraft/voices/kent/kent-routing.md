@@ -33,8 +33,8 @@ Open the Daniel Davis lane first when the real question is:
 
 Best current anchors:
 
-- [2026-05-08 / Daniel Davis Deep Dive x Joe Kent](../../../source-archive/statecraft/2026-05-08/source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
-- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](../../../source-archive/statecraft/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
+- [2026-05-08 / Daniel Davis Deep Dive x Joe Kent](../../../source-archive/statecraft/2026-05-08/source-daniel-davis-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
+- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](../../../source-archive/statecraft/2026-05-08/source-daniel-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
 
 ## Open Mario Nawfal First
 

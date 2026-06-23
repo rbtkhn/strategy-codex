@@ -39,9 +39,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `marandi` | [12vCzfDomoE](https://www.youtube.com/watch?v=12vCzfDomoE) | `source-alkorshid-marandi-iran-drops-new-equation-israel-goes-against-trump-escapes-2026-06-09.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `krapivnik` | [Cg-cFVQ55S8](https://www.youtube.com/watch?v=Cg-cFVQ55S8) | `source-alkorshid-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `wilkerson` | [3oGkrjCzzYI](https://www.youtube.com/watch?v=3oGkrjCzzYI) | `source-alkorshid-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [TlcHuoC86JQ](https://www.youtube.com/watch?v=TlcHuoC86JQ) | `source-daniel-davis-deep-dive-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [xP9lW4aYJx8](https://www.youtube.com/watch?v=xP9lW4aYJx8) | `source-daniel-davis-deep-dive-professor-seyed-marandi-expect-escalation-of-war-in-iran-2026-06-09.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [TlcHuoC86JQ](https://www.youtube.com/watch?v=TlcHuoC86JQ) | `source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [1wXByp3EexE](https://www.youtube.com/watch?v=1wXByp3EexE) | `source-daniel-davis-douglas-macgregor-world-backs-iran-2026-06-09.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [xP9lW4aYJx8](https://www.youtube.com/watch?v=xP9lW4aYJx8) | `source-daniel-davis-professor-seyed-marandi-expect-escalation-of-war-in-iran-2026-06-09.md` |
 | `glenn-diesen` | Glenn Diesen | `macgregor`, `diesen` | [wZ-lE4hSM80](https://www.youtube.com/watch?v=wZ-lE4hSM80) | `source-glenn-diesen-douglas-macgregor-new-world-israel-dying-nato-dead-us-defeated-iran-2026-06-09.md` |
 | `tucker-carlson` | Tucker Carlson | `mearsheimer`, `carlson` | [TQvZaBQuT80](https://www.youtube.com/watch?v=TQvZaBQuT80) | `source-mearsheimer-carlson-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [KSbb4c2JxRE](https://www.youtube.com/watch?v=KSbb4c2JxRE) | `source-napolitano-freeman-can-netanyahu-defy-trump-2026-06-09.md` |
@@ -74,9 +74,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-marandi-iran-drops-new-equation-israel-goes-against-trump-escapes-2026-06-09.md`
 - `source-alkorshid-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md`
 - `source-alkorshid-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md`
-- `source-daniel-davis-deep-dive-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md`
-- `source-daniel-davis-deep-dive-professor-seyed-marandi-expect-escalation-of-war-in-iran-2026-06-09.md`
+- `source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md`
 - `source-daniel-davis-douglas-macgregor-world-backs-iran-2026-06-09.md`
+- `source-daniel-davis-professor-seyed-marandi-expect-escalation-of-war-in-iran-2026-06-09.md`
 - `source-glenn-diesen-douglas-macgregor-new-world-israel-dying-nato-dead-us-defeated-iran-2026-06-09.md`
 - `source-mearsheimer-carlson-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md`
 - `source-napolitano-freeman-can-netanyahu-defy-trump-2026-06-09.md`

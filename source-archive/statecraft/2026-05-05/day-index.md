@@ -35,9 +35,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=WLQeC8gOp-k) | `source-alkorshid-helmer-hormuz-beijing-2026-05-05.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=TLKl_IOhQDQ) | `source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=3UPreelfuU4) | `source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=S5qPBCuD8iY) | `source-davis-adams-famine-food-chain-2026-05-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=1otls52eUFM) | `source-davis-johnson-hormuz-freedom-2026-05-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=pGjhvHh1Hu4) | `source-davis-macgregor-project-freedom-hormuz-2026-05-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=S5qPBCuD8iY) | `source-daniel-davis-adams-famine-food-chain-2026-05-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=1otls52eUFM) | `source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=pGjhvHh1Hu4) | `source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md` |
 | `glenn-diesen` | Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=obDEtGXH7rY) | `source-diesen-marandi-hormuz-all-out-war-2026-05-05.md` |
 | `glenn-diesen` | Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=jW3RnY_7GYk) | `source-diesen-varoufakis-europe-decline-2026-05-05.md` |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MZkXR2swEd0) | `source-mercouris-hormuz-uae-russia-china-2026-05-05.md` |
@@ -64,9 +64,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md`
 - `source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md`
 - `source-codex-session-2026-05-05.md`
-- `source-davis-adams-famine-food-chain-2026-05-05.md`
-- `source-davis-johnson-hormuz-freedom-2026-05-05.md`
-- `source-davis-macgregor-project-freedom-hormuz-2026-05-05.md`
+- `source-daniel-davis-adams-famine-food-chain-2026-05-05.md`
+- `source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md`
+- `source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md`
 - `source-diesen-marandi-hormuz-all-out-war-2026-05-05.md`
 - `source-diesen-varoufakis-europe-decline-2026-05-05.md`
 - `source-mercouris-hormuz-uae-russia-china-2026-05-05.md`

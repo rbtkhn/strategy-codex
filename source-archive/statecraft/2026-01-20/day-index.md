@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uoMt5q2mXzU) | `source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md` |
 | `dialogue-works` | — | `nima` | [watch](https://www.youtube.com/watch?v=6uV3p9nD8D8) | `source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=JXeWGaFIp3k) | `source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=JXeWGaFIp3k) | `source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md` |
 
 ## Writer sources
 
@@ -56,6 +56,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md`
 - `source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md`
-- `source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md`
+- `source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md`
 - `source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md`
 - `source-ritter-getting-it-wrong-on-russia-2026-01-20.md`

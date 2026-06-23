@@ -8,7 +8,7 @@ show: Daniel Davis Deep Dive
 host: Daniel Davis
 title: "Iran Attack On Hold /Lt Col Daniel Davis"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
-channel_slug: "daniel-davis-deep-dive"
+channel_slug: daniel-davis
 source_url: "https://www.youtube.com/watch?v=lcyeEwExzXI"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript

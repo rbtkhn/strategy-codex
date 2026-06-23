@@ -8,7 +8,7 @@ transcript_type: operator_pasted_transcript
 title: "Russia Ukraine Trade More Drones, Pressure Building in Moscow for Escalation /Lt Col Daniel Davis"
 source_url: https://www.youtube.com/watch?v=q5l_vCHU4xI
 youtube_id: q5l_vCHU4xI
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 source_note: Transcript pasted manually by operator after automated yt-dlp discovery and fetch were blocked by YouTube bot/auth checks.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Daniel Davis Deep Dive

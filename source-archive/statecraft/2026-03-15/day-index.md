@@ -33,10 +33,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oLZZaa8GN8M) | `source-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [71u5rtj3hEA](https://www.youtube.com/watch?v=71u5rtj3hEA) | `source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [LGCjDWZthk0](https://www.youtube.com/watch?v=LGCjDWZthk0) | `source-daniel-davis-deep-dive-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [WcOiSr-7vkE](https://www.youtube.com/watch?v=WcOiSr-7vkE) | `source-daniel-davis-deep-dive-iran-trump-who-will-blink-first-psychological-economic-warfare-2026-03-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [dJh590-l7V4](https://www.youtube.com/watch?v=dJh590-l7V4) | `source-daniel-davis-deep-dive-us-israel-hit-over-15-000-targets-in-iran-lt-col-daniel-davis-2026-03-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [71u5rtj3hEA](https://www.youtube.com/watch?v=71u5rtj3hEA) | `source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [LGCjDWZthk0](https://www.youtube.com/watch?v=LGCjDWZthk0) | `source-daniel-davis-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [WcOiSr-7vkE](https://www.youtube.com/watch?v=WcOiSr-7vkE) | `source-daniel-davis-iran-trump-who-will-blink-first-psychological-economic-warfare-2026-03-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [dJh590-l7V4](https://www.youtube.com/watch?v=dJh590-l7V4) | `source-daniel-davis-us-israel-hit-over-15-000-targets-in-iran-lt-col-daniel-davis-2026-03-15.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `mcgovern` | [ldPsthjx8r0](https://www.youtube.com/watch?v=ldPsthjx8r0) | `source-dialogue-works-ray-mcgovern-cia-attacks-tucker-carlson-iran-closer-to-obliterating-israel-in-weeks-then-what-2026-03-15.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `krapivnik` | [9GVD2vm0Z1A](https://www.youtube.com/watch?v=9GVD2vm0Z1A) | `source-dialogue-works-stanislav-krapivnik-iran-to-uae-evacuate-now-after-us-kharg-island-strike-2026-03-15.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=h-VYTKzDMZ0) | `source-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md` |
@@ -60,10 +60,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md`
-- `source-daniel-davis-deep-dive-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md`
-- `source-daniel-davis-deep-dive-iran-trump-who-will-blink-first-psychological-economic-warfare-2026-03-15.md`
-- `source-daniel-davis-deep-dive-us-israel-hit-over-15-000-targets-in-iran-lt-col-daniel-davis-2026-03-15.md`
+- `source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md`
+- `source-daniel-davis-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md`
+- `source-daniel-davis-iran-trump-who-will-blink-first-psychological-economic-warfare-2026-03-15.md`
+- `source-daniel-davis-us-israel-hit-over-15-000-targets-in-iran-lt-col-daniel-davis-2026-03-15.md`
 - `source-dialogue-works-ray-mcgovern-cia-attacks-tucker-carlson-iran-closer-to-obliterating-israel-in-weeks-then-what-2026-03-15.md`
 - `source-dialogue-works-stanislav-krapivnik-iran-to-uae-evacuate-now-after-us-kharg-island-strike-2026-03-15.md`
 - `source-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md`

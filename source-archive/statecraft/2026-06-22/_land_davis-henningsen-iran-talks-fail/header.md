@@ -20,7 +20,7 @@ show: Daniel Davis Deep Dive
 host: Daniel Davis
 guest: Patrick Henningsen
 title: "WHY IRAN TALKS WILL FAIL /Patrick Henningsen & Lt Col Daniel Davis"
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=7ZNxxHp6UKE"
 youtube_id: 7ZNxxHp6UKE

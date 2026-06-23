@@ -49,8 +49,8 @@ Open [Davis x Martyanov](../../../codex/speakers/davis/stream/davis-martyanov-sp
 
 Best direct anchors:
 
-- [2025-12-08 / Davis x Martyanov](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
-- [2026-02-24 / Davis x Martyanov](../../../source-archive/statecraft/2026-02-24/source-daniel-davis-deep-dive-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
+- [2025-12-08 / Davis x Martyanov](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
+- [2026-02-24 / Davis x Martyanov](../../../source-archive/statecraft/2026-02-24/source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
 
 ## Open Diesen First
 

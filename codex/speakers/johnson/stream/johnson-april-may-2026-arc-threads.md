@@ -44,11 +44,11 @@ Thesis: Johnson's first dense-core continuity line is that each new coercive mov
 
 Anchors:
 
-- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
-- 2026-04-16 - Davis, *IRAN DEMANDS NOT CHANGING*: [raw-input](../../../years/2026/provenance/2026-04-16/source-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md)
-- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
-- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
-- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
+- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- 2026-04-16 - Davis, *IRAN DEMANDS NOT CHANGING*: [raw-input](../../../years/2026/provenance/2026-04-16/source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md)
+- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
+- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
+- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md)
 
 Arc-thread motion: April opens with ceasefire language failing to hide strategic incoherence, then hardens into the view that Iran's demands are not moving, best-case outcomes are already worse than official narratives admit, and coercion is now generating more blowback than usable leverage. May consolidates that logic into an outright claim of stupidity and lies replacing strategic control.
 
@@ -63,9 +63,9 @@ Thesis: Johnson repeatedly treats military threats as outrunning realistic polit
 
 Anchors:
 
-- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
-- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
-- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
+- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
+- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md)
 
 Arc-thread motion: the Davis lane carries this most clearly: ceasefire, blockade, and escalation language all imply objectives that force can no longer realistically recover. The later May file turns that into a mature diagnosis of military talk outrunning policy attainability altogether.
 
@@ -122,7 +122,7 @@ Thesis: Johnson's fifth strand is that ceasefire, blockade, and White House proc
 
 Anchors:
 
-- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
 - 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
 - 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
 - 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
@@ -142,7 +142,7 @@ Thesis: Johnson's sixth strand is that the war no longer stays local; its meanin
 Anchors:
 
 - 2026-04-15 - Diesen, *Trump's Naval Blockade & Ceasefire Collapse*: [raw-input](../../../years/2026/provenance/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
-- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
+- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
 - 2026-04-30 - Diesen, *Iran Is Winning*: [raw-input](../../../years/2026/provenance/2026-04-30/source-diesen-johnson-iran-winning-2026-04-30.md)
 - 2026-05-08 - Diesen, *Iran War Creates a New Middle East*: [raw-input](../../../years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
 - 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)

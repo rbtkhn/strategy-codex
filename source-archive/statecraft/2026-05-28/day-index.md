@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (4), `Mario Nawfal` (3), `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Garland Nixon` (1), `Tom Switzer` (1)
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Joe Kent` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Max Blumenthal` (1), `Mohammad Marandi` (1), `Robert Barnes` (1), `Robert Pape` (1), `Scott Ritter` (1), `Trita Parsi` (1)
-- Threads: `napolitano` (4), `nawfal` (3), `davis` (2), `nima` (2), `[davis, baud]` (1), `barnes` (1), `baud` (1), `blumenthal` (1), `crooke` (1), `kent` (1), `krainer` (1), `macgregor` (1), `marandi` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `napolitano` (4), `nawfal` (3), `nima` (2), `[davis, baud]` (1), `barnes` (1), `baud` (1), `blumenthal` (1), `crooke` (1), `davis` (1), `kent` (1), `krainer` (1), `macgregor` (1), `marandi` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -59,16 +59,16 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jacques Baud | `baud`, `[davis, baud]`, `davis` | — | `source-davis-baud-europe-provokes-war-russia-2026-05-28.md` |
-| John Mearsheimer | `mearsheimer`, `davis` | — | `source-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md` |
+| Jacques Baud | `baud`, `[davis, baud]` | — | `source-daniel-davis-baud-europe-provokes-war-russia-2026-05-28.md` |
+| John Mearsheimer | `mearsheimer`, `davis` | — | `source-daniel-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md` |
 
 ## Files
 
 - `source-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md`
 - `source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md`
 - `source-crooke-iran-war-effect-marks-the-resetting-2026-05-28.md`
-- `source-davis-baud-europe-provokes-war-russia-2026-05-28.md`
-- `source-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md`
+- `source-daniel-davis-baud-europe-provokes-war-russia-2026-05-28.md`
+- `source-daniel-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md`
 - `source-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md`
 - `source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md`
 - `source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md`

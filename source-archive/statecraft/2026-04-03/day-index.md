@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [jS42akaMR6Q](https://www.youtube.com/watch?v=jS42akaMR6Q) | `source-alex-mercouris-trump-threatens-wider-bombing-sacks-general-iran-defiant-f15-lost-medved-2026-04-03.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=0lgCUTAjeRA) | `source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=0lgCUTAjeRA) | `source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=wJcTHrczIgA) | `source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md` |
 | `dialogue-works` | Dialogue Works | `postol`, `nima` | [ab1cfVNWF48](https://www.youtube.com/watch?v=ab1cfVNWF48) | `source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=Rb0vegr3nf0) | `source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-threatens-wider-bombing-sacks-general-iran-defiant-f15-lost-medved-2026-04-03.md`
-- `source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md`
+- `source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md`
 - `source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md`
 - `source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md`
 - `source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md`

@@ -98,7 +98,7 @@ Coverage basis:
 ### 1. Budapest Memorandum and Minsk as false guarantees and failed political carriers
 
 - Example: `Budapest Memorandum / Minsk Accords`
-- Source: [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- Source: [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
 - Exact quote:
 
 > "the Minsk accords were doomed from the get-go."
@@ -128,7 +128,7 @@ Coverage basis:
 ### 2. NATO expansion after de-nuclearization as a prescription for disaster
 
 - Example: `NATO expansion after Budapest`
-- Source: [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- Source: [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
 - Exact quote:
 
 > "This was a prescription for disaster because the Russians made it clear that this was not going to happen and that they would destroy Ukraine before they would let it come into the alliance."
@@ -213,7 +213,7 @@ Coverage basis:
 
 - Example: `Japan / Germany / Iraq / maximum pressure / big battalions`
 - Sources:
-  - [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+  - [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
   - [2026-03-29 authored Mearsheimer](../../years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
 - Exact quote:
 

@@ -38,8 +38,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `marandi` | [g9JLKwdg1Jc](https://www.youtube.com/watch?v=g9JLKwdg1Jc) | `source-alkorshid-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md` |
 | `dialogue-works` | Dialogue Works | `henningsen`, `nima` | [F_ngNnPGbTs](https://www.youtube.com/watch?v=F_ngNnPGbTs) | `source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` |
 | `breaking-points` | Breaking Points | `parsi`, `breaking-points` | [YJjkK-T6nnk](https://www.youtube.com/watch?v=YJjkK-T6nnk) | `source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [t57WKaBn5GY](https://www.youtube.com/watch?v=t57WKaBn5GY) | `source-daniel-davis-deep-dive-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [y8zhwctLKfI](https://www.youtube.com/watch?v=y8zhwctLKfI) | `source-daniel-davis-deep-dive-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [t57WKaBn5GY](https://www.youtube.com/watch?v=t57WKaBn5GY) | `source-daniel-davis-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [y8zhwctLKfI](https://www.youtube.com/watch?v=y8zhwctLKfI) | `source-daniel-davis-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md` |
 | `judging-freedom` | Judging Freedom | `escobar`, `napolitano` | [hPaW0kHj7-0](https://www.youtube.com/watch?v=hPaW0kHj7-0) | `source-napolitano-escobar-how-iran-outsmarted-trump-2026-06-16.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [ki_x_N3lsAY](https://www.youtube.com/watch?v=ki_x_N3lsAY) | `source-napolitano-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md` |
 | `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [3WQaITZvPno](https://www.youtube.com/watch?v=3WQaITZvPno) | `source-napolitano-hoh-people-should-know-when-theyre-conquered-2026-06-16.md` |
@@ -73,8 +73,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md`
 - `source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md`
 - `source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md`
-- `source-daniel-davis-deep-dive-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md`
-- `source-daniel-davis-deep-dive-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md`
+- `source-daniel-davis-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md`
+- `source-daniel-davis-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md`
 - `source-napolitano-escobar-how-iran-outsmarted-trump-2026-06-16.md`
 - `source-napolitano-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md`
 - `source-napolitano-hoh-people-should-know-when-theyre-conquered-2026-06-16.md`

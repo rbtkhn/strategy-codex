@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5)
 - Source form mix: `interview` (2), `post` (2), `solo` (1)
-- Distinct channels/shows: `3`
+- Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `1`
 - Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1)
+- `Daniel Davis` (2), `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -50,13 +50,13 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| IRANIAN HATRED for THEIR GOV OVERBLOWN /Glenn Diesen & Lt Col Daniel Davis | `davis`, `diesen` | — | `source-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md` |
-| IRAN WAR: Trump's LOST CONTROL /fmr CIA Analyst Larry Johnson | `davis`, `johnson` | — | `source-davis-johnson-trumps-lost-control-2026-03-11.md` |
+| IRANIAN HATRED for THEIR GOV OVERBLOWN /Glenn Diesen & Lt Col Daniel Davis | `davis`, `diesen` | — | `source-daniel-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md` |
+| IRAN WAR: Trump's LOST CONTROL /fmr CIA Analyst Larry Johnson | `davis`, `johnson` | — | `source-daniel-davis-johnson-trumps-lost-control-2026-03-11.md` |
 
 ## Files
 
 - `source-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md`
-- `source-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md`
-- `source-davis-johnson-trumps-lost-control-2026-03-11.md`
+- `source-daniel-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md`
+- `source-daniel-davis-johnson-trumps-lost-control-2026-03-11.md`
 - `source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md`
 - `source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md`

@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2jmB10WNMsY) | `source-alex-mercouris-china-hits-back-trump-wants-deal-tariffs-explode-russian-offensive-gains-speed-afd-overtakes-cdu-2025-04-09.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=HLTV0AfJxRw) | `source-daniel-davis-deep-dive-trade-tensions-explode-trump-v-china-2025-04-09.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=HLTV0AfJxRw) | `source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md` |
 
 ## Writer sources
 
@@ -54,5 +54,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-china-hits-back-trump-wants-deal-tariffs-explode-russian-offensive-gains-speed-afd-overtakes-cdu-2025-04-09.md`
-- `source-daniel-davis-deep-dive-trade-tensions-explode-trump-v-china-2025-04-09.md`
+- `source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md`
 - `source-sachs-an-evening-with-professor-jeffrey-d-sachs-2025-04-09.md`

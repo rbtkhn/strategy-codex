@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (2), `source` (1)
 - Source form mix: `interview` (3)
-- Distinct channels/shows: `1`
+- Distinct channels/shows: `2`
 - Distinct hosts: `1`
 - Distinct guests: `3`
 - Distinct threads: `4`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2)
+- `Daniel Davis Deep Dive` (2), `Daniel Davis` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,9 +32,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=rgA1BVTw2us) | `source-daniel-davis-deep-dive-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=S09xJI92NDc) | `source-daniel-davis-deep-dive-larry-johnson-ukraine-russia-war-update-just-back-from-russia-larry-johnson-2025-10-30.md` |
-| `daniel-davis` | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=T1rrKDpySTI) | `source-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=rgA1BVTw2us) | `source-daniel-davis-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=S09xJI92NDc) | `source-daniel-davis-larry-johnson-ukraine-russia-war-update-just-back-from-russia-larry-johnson-2025-10-30.md` |
+| `daniel-davis` | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=T1rrKDpySTI) | `source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md` |
 
 ## Writer sources
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-daniel-davis-deep-dive-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md`
-- `source-daniel-davis-deep-dive-larry-johnson-ukraine-russia-war-update-just-back-from-russia-larry-johnson-2025-10-30.md`
-- `source-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md`
+- `source-daniel-davis-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md`
+- `source-daniel-davis-larry-johnson-ukraine-russia-war-update-just-back-from-russia-larry-johnson-2025-10-30.md`
+- `source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md`

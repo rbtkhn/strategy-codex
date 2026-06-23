@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=B1Db6F594Nw) | `source-alex-mercouris-trump-backs-starmer-macron-ultimatum-moscow-says-no-defies-sanctions-uk-labour-mps-turn-on-starmer-2025-05-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=CF-Egc9c6UY) | `source-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=CF-Egc9c6UY) | `source-daniel-davis-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-backs-starmer-macron-ultimatum-moscow-says-no-defies-sanctions-uk-labour-mps-turn-on-starmer-2025-05-10.md`
-- `source-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md`
+- `source-daniel-davis-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md`

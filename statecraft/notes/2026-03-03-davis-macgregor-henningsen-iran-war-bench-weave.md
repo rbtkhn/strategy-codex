@@ -7,9 +7,9 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Macgregor × Davis — IRAN WAR: U.S. Losing Position in the World](../../source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md) — https://www.youtube.com/watch?v=zGa_x6Is4QE — **full transcript**
-- [Henningsen × Davis — U.S.–Iran War Engulfs Middle East](../../source-archive/statecraft/2026-03-03/source-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md) — https://www.youtube.com/watch?v=jgUGDr57yxU — **full transcript**
-- [Davis solo — U.S. Navy May Secure Strait of Hormuz](../../source-archive/statecraft/2026-03-03/source-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md) — https://www.youtube.com/watch?v=lOSj9Esl5X8 — **full transcript**
+- [Macgregor × Davis — IRAN WAR: U.S. Losing Position in the World](../../source-archive/statecraft/2026-03-03/source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md) — https://www.youtube.com/watch?v=zGa_x6Is4QE — **full transcript**
+- [Henningsen × Davis — U.S.–Iran War Engulfs Middle East](../../source-archive/statecraft/2026-03-03/source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md) — https://www.youtube.com/watch?v=jgUGDr57yxU — **full transcript**
+- [Davis solo — U.S. Navy May Secure Strait of Hormuz](../../source-archive/statecraft/2026-03-03/source-daniel-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md) — https://www.youtube.com/watch?v=lOSj9Esl5X8 — **full transcript**
 
 ## Purpose
 

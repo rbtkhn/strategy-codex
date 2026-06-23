@@ -8,7 +8,7 @@ transcript_type: operator_pasted_transcript
 title: "IRAN, TRUMP & TRUST /Lt Col Daniel Davis"
 source_url: https://www.youtube.com/watch?v=jcARR_UKX_A
 youtube_id: jcARR_UKX_A
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 source_note: Transcript pasted manually by operator after automated yt-dlp discovery and fetch were blocked by YouTube bot/auth checks.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Daniel Davis Deep Dive

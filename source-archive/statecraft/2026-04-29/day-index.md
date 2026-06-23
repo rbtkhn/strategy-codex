@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=irI2s-HuG0g) | `source-alex-mercouris-uae-quits-opec-as-gulf-states-buckle-putin-debates-smo-upgrade-kiev-tuap-2026-04-29.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=YHIlsUIWSfc) | `source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=J2ralmo4PkI) | `source-davis-macgregor-trump-dangerous-2026-04-29.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=YHIlsUIWSfc) | `source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=J2ralmo4PkI) | `source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `aguilar` | [watch](https://www.youtube.com/watch?v=SoMzkVMD3Tw) | `source-dialogue-works-anthony-aguilar-why-everything-you-knew-about-the-middle-east-just-colla-2026-04-29.md` |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=irI2s-HuG0g) | `source-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md` |
 | `breaking-points` | Breaking Points | `pape` | [watch](https://www.youtube.com/watch?v=OjH35ZKmF48) | `source-pape-grim-nuclear-iran-inevitable-2026-04-29.md` |
@@ -59,8 +59,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-uae-quits-opec-as-gulf-states-buckle-putin-debates-smo-upgrade-kiev-tuap-2026-04-29.md`
-- `source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md`
-- `source-davis-macgregor-trump-dangerous-2026-04-29.md`
+- `source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md`
+- `source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md`
 - `source-dialogue-works-anthony-aguilar-why-everything-you-knew-about-the-middle-east-just-colla-2026-04-29.md`
 - `source-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md`
 - `source-pape-grim-nuclear-iran-inevitable-2026-04-29.md`

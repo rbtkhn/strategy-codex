@@ -94,4 +94,4 @@ Full verbatim block: [Pape Day 60 capture](../../source-archive/statecraft/2026-
 - [Pape Phase XV — Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
 - [Johnson×Marandi 14-pt](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md)
 - [Escobar MOU beat](../../source-archive/statecraft/2026-06-17/source-alkorshid-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md)
-- [Davis J18 mechanics](../../source-archive/statecraft/2026-06-18/source-daniel-davis-deep-dive-tough-road-iran-deal-lays-out-2026-06-18.md)
+- [Davis J18 mechanics](../../source-archive/statecraft/2026-06-18/source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md)

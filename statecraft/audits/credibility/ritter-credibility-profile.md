@@ -42,7 +42,7 @@ Ritter is a mechanism-heavy escalation and war-feasibility speaker whose credibi
 
 1. [ritter-helix.md](../../speakers/ritter/ritter-helix.md)
 2. [2026-03-11 Ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md)
-3. [2026-05-14 Ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md)
+3. [2026-05-14 Ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-daniel-davis-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md)
 4. [2026-05-20 Ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md)
 
 ## Disconfirming or stress-test anchors

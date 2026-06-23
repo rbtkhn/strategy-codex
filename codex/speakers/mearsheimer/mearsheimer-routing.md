@@ -44,7 +44,7 @@ This is the main reason Mearsheimer remains a codex-side exception shelf rather 
 ## Best entry points
 
 - **Best single opening file:** [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
-- **Best Davis opening file:** [source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- **Best Davis opening file:** [source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
 - **Best Napolitano opening file:** [source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
 
 ## By shelf function

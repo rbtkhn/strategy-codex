@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=q9WML5g3P1Q) | `source-alex-mercouris-zelensky-doubles-down-failed-kursk-atacms-attacks-baerbock-syria-humilia-2025-01-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TWaR9AVkVzw) | `source-daniel-davis-deep-dive-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-46i-jba34o) | `source-daniel-davis-deep-dive-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=aD27i9K8k98) | `source-daniel-davis-deep-dive-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TWaR9AVkVzw) | `source-daniel-davis-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-46i-jba34o) | `source-daniel-davis-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=aD27i9K8k98) | `source-daniel-davis-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `marandi`, `ritter` | [watch](https://www.youtube.com/watch?v=zpXOdy0guJM) | `source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md` |
 
 ## Writer sources
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-zelensky-doubles-down-failed-kursk-atacms-attacks-baerbock-syria-humilia-2025-01-05.md`
-- `source-daniel-davis-deep-dive-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md`
-- `source-daniel-davis-deep-dive-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md`
-- `source-daniel-davis-deep-dive-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md`
+- `source-daniel-davis-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md`
+- `source-daniel-davis-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md`
+- `source-daniel-davis-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md`
 - `source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md`

@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (1)
 - Source form mix: `interview` (1)
-- Distinct channels/shows: `0`
+- Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
 - Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Daniel Davis` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=o_GmTbH7E_g) | `source-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md` |
+| `daniel-davis` | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=o_GmTbH7E_g) | `source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md`
+- `source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md`

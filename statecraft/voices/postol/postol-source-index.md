@@ -14,7 +14,7 @@ Purpose: provide the canonical route map for materialized Postol appearances and
 
 ### Daniel Davis Deep Dive
 
-- [2026-05-15 - Bombs will not end Iran war](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md)
+- [2026-05-15 - Bombs will not end Iran war](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md)
 
 ## Host-Arc Entries
 

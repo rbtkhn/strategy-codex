@@ -29,13 +29,13 @@ Expected v1 count: 21 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2025-10-30 | Trump, China: Who's Coming Out on Top? | [raw-input](../../../source-archive/statecraft/2025-10-30/source-daniel-davis-deep-dive-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md) | strategic-room realism |
-| 2025-11-21 | Trump's Ukraine Peace Plan, EU/Zelensky Resisting | [raw-input](../../../source-archive/statecraft/2025-11-21/source-daniel-davis-deep-dive-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md) | bargaining room |
-| 2025-12-17 | Putin Says There Is Hysteria from the West | [raw-input](../../../source-archive/statecraft/2025-12-17/source-daniel-davis-deep-dive-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md) | strategic-room realism |
-| 2026-03-13 | Iran's Asymmetrical War | [raw-input](../../../source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | operational leverage |
-| 2026-04-23 | Iranians Only Getting Tougher | [raw-input](../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality |
-| 2026-05-11 | Diplomatic Solution or More War | [raw-input](../../../source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test |
-| 2026-05-22 | Nuclear Fear of Russia Can Bring Stability | [raw-input](../../../source-archive/statecraft/2026-05-22/source-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) | deterrence fear and escalation ceiling |
+| 2025-10-30 | Trump, China: Who's Coming Out on Top? | [raw-input](../../../source-archive/statecraft/2025-10-30/source-daniel-davis-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md) | strategic-room realism |
+| 2025-11-21 | Trump's Ukraine Peace Plan, EU/Zelensky Resisting | [raw-input](../../../source-archive/statecraft/2025-11-21/source-daniel-davis-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md) | bargaining room |
+| 2025-12-17 | Putin Says There Is Hysteria from the West | [raw-input](../../../source-archive/statecraft/2025-12-17/source-daniel-davis-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md) | strategic-room realism |
+| 2026-03-13 | Iran's Asymmetrical War | [raw-input](../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | operational leverage |
+| 2026-04-23 | Iranians Only Getting Tougher | [raw-input](../../../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality |
+| 2026-05-11 | Diplomatic Solution or More War | [raw-input](../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test |
+| 2026-05-22 | Nuclear Fear of Russia Can Bring Stability | [raw-input](../../../source-archive/statecraft/2026-05-22/source-daniel-davis-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) | deterrence fear and escalation ceiling |
 
 ### Dialogue Works / Nima
 

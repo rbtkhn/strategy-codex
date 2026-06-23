@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ELoEkpXm4nc) | `source-alex-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=KJp2F8mFhuk) | `source-daniel-davis-deep-dive-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=9CFhQy-yUgw) | `source-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=KZH6IAoCg-k) | `source-daniel-davis-deep-dive-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=KJp2F8mFhuk) | `source-daniel-davis-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=9CFhQy-yUgw) | `source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=KZH6IAoCg-k) | `source-daniel-davis-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=hV6_6hkYpwM) | `source-dialogue-works-can-trump-outdo-biden-s-worst-amb-chas-freeman-richard-d-wolff-michael-h-2025-01-19.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=B4hvxNVl714) | `source-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19.md` |
 
@@ -58,8 +58,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md`
-- `source-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md`
-- `source-daniel-davis-deep-dive-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md`
+- `source-daniel-davis-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md`
+- `source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md`
+- `source-daniel-davis-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md`
 - `source-dialogue-works-can-trump-outdo-biden-s-worst-amb-chas-freeman-richard-d-wolff-michael-h-2025-01-19.md`
 - `source-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19.md`

@@ -50,7 +50,7 @@ Two date-truth details should remain explicit:
 
 April also has one real `Daniel Davis Deep Dive + Mearsheimer` reinforcement object:
 
-- `2025-04-09` - [trade-tensions-explode-trump-v-china](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-09/source-daniel-davis-deep-dive-trade-tensions-explode-trump-v-china-2025-04-09.md)
+- `2025-04-09` - [trade-tensions-explode-trump-v-china](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md)
 
 That matters because it keeps April from being a pure single-format Mearsheimer month. The month is still thin, but it is not thin in only one host lane.
 

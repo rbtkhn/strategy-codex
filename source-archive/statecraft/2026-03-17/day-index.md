@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Mercouris | `mercouris` | [kcd_Y41tPFI](https://www.youtube.com/watch?v=kcd_Y41tPFI) | `source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=bfZMcqICySg) | `source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=yD13qVxL73I) | `source-alkorshid-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [EV6WOiBj5HA](https://www.youtube.com/watch?v=EV6WOiBj5HA) | `source-daniel-davis-deep-dive-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [EV6WOiBj5HA](https://www.youtube.com/watch?v=EV6WOiBj5HA) | `source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [cmRk47ySaps](https://www.youtube.com/watch?v=cmRk47ySaps) | `source-napolitano-freeman-will-china-dump-trump-2026-03-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano` | [OtAj89I_yjw](https://www.youtube.com/watch?v=OtAj89I_yjw) | `source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano` | [Uwz0eR4THnc](https://www.youtube.com/watch?v=Uwz0eR4THnc) | `source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md` |
@@ -62,7 +62,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md`
 - `source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md`
 - `source-alkorshid-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md`
-- `source-daniel-davis-deep-dive-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md`
+- `source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md`
 - `source-napolitano-freeman-will-china-dump-trump-2026-03-17.md`
 - `source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md`
 - `source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md`

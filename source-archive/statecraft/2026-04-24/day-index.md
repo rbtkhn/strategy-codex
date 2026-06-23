@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=Pcd4tM5ai6o) | `source-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=Pcd4tM5ai6o) | `source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=OOSWi1usPB4) | `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md` |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=fie-q0V82_E) | `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md`
-- `source-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`
+- `source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`
 - `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md`
 - `source-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md`
 - `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`

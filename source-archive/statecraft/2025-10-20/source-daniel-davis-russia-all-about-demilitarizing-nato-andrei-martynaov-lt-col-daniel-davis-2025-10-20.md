@@ -9,7 +9,7 @@ host: Daniel Davis
 guest: Andrei Martyanov
 title: "Russia: All About DEMILITARIZING NATO /Andrei Martyanov & Lt Col Daniel Davis"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
-channel_slug: "daniel-davis-deep-dive"
+channel_slug: daniel-davis
 source_url: "https://www.youtube.com/watch?v=Jc8t8SBhmCo"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript

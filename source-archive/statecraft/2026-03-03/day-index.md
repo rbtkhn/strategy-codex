@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `7`
 - Distinct hosts: `6`
 - Distinct guests: `8`
-- Distinct threads: `13`
+- Distinct threads: `12`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Robert Pape` (1)
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Helmer` (1), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1), `Patrick Henningsen` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (3), `marandi` (2), `napolitano` (2), `crooke` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `nima` (1), `pape` (1), `sachs` (1), `simplicius` (1), `wilkerson` (1)
+- Threads: `marandi` (2), `napolitano` (2), `crooke` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `nima` (1), `pape` (1), `sachs` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -55,9 +55,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Patrick Henningsen | `davis` | — | `source-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md` |
-| Douglas Macgregor | `davis`, `macgregor` | — | `source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md` |
-| Daniel Davis | `davis` | — | `source-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md` |
+| Patrick Henningsen | — | — | `source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md` |
+| Douglas Macgregor | `macgregor` | — | `source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md` |
+| Daniel Davis | — | — | `source-daniel-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md` |
 | Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-napolitano-sachs-did-trump-just-start-wwiii-2026-03-03.md` |
 
 ## Files
@@ -65,9 +65,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md`
 - `source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md`
 - `source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md`
-- `source-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md`
-- `source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md`
-- `source-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md`
+- `source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md`
+- `source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md`
+- `source-daniel-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md`
 - `source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md`
 - `source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md`
 - `source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md`

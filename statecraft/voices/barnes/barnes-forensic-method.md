@@ -24,7 +24,7 @@ The recurring sequence looks like this:
 
 `trigger event -> legal frame -> constitutional exposure -> factional map -> liability forecast`
 
-This method is visible in the mature Davis anchor [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md), where a strike is not read first as a military event but as:
+This method is visible in the mature Davis anchor [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md), where a strike is not read first as a military event but as:
 
 - war-powers violation
 - war-crimes exposure

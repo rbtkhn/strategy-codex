@@ -111,7 +111,7 @@ Status: mature dense-core month
 Open:
 
 - [stream/ritter-shelf-2026-04.md](stream/ritter-shelf-2026-04.md)
-- [2026-04-13 Davis](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- [2026-04-13 Davis](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - [2026-04-08 Dialogue Works](../../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
 - [2026-04-17 Diesen](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 - [2026-04-20 Judging Freedom](../../../source-archive/statecraft/2026-04-20/source-trump-hegseth-2026-04-20.md)
@@ -128,7 +128,7 @@ Open:
 
 - [stream/ritter-shelf-2026-05.md](stream/ritter-shelf-2026-05.md)
 - [2026-05-04 Diesen](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
-- [2026-05-06 Davis](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [2026-05-06 Davis](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
 - [2026-05-13 Dialogue Works](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - [2026-05-18 Judging Freedom](../../../source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
 

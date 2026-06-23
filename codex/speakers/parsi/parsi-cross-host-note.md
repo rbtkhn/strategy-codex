@@ -16,7 +16,7 @@ The clearest current examples on disk are:
 - [2025-08-15 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-08-15/source-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
 - [2025-10-20 Davis x Parsi](../../years/2026/provenance/2025-10-20/source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md)
 - [2025-12-19 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
-- [2026-03-16 Davis x Parsi](../../years/2026/provenance/2026-03-16/source-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
+- [2026-03-16 Davis x Parsi](../../years/2026/provenance/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
 - [2026-03-16 Napolitano x Parsi](../../years/2026/provenance/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
 - [2026-05-06 Duran/Mercouris x Parsi](../../years/2026/provenance/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
 - [2026-05-18 Diesen x Parsi](../../years/2026/provenance/2026-05-18/source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)

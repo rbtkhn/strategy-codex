@@ -93,7 +93,7 @@ WORK only; not Record.
 | `source-alkorshid-chas-freeman-*` | Y | J12-1 supported · J12-5 partial |
 | `source-alkorshid-anthony-aguilar-*` | Y | J12-6 supported · J12-2 partial |
 | `source-nawfal-parsi-*` | Y | J12-4 contested · J12-5 supported |
-| `source-daniel-davis-deep-dive-*` | Y | J12-1 supported · J12-3 partial |
+| `source-daniel-davis-*` | Y | J12-1 supported · J12-3 partial |
 | `source-moral-resistance-anthony-aguilar-*` | Y | J12-7 supported · J12-8 partial/contested · J12-9 supported |
 
 ---

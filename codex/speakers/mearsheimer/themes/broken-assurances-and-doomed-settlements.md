@@ -22,7 +22,7 @@ Mearsheimer repeatedly invokes Budapest, Minsk, and JCPOA-class settlement memor
 
 ## Exact Quote Anchors
 
-- [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
   > "the Minsk accords were doomed from the get-go."
 
   > "No, we explicitly did not give them security guarantees."

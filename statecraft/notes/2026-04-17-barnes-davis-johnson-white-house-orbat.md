@@ -7,7 +7,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Barnes × Johnson / Countercurrent verbatim](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md>) — operator-transcript excerpt
-- [Davis × Johnson / conflicting messages](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md>)
+- [Davis × Johnson / conflicting messages](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-daniel-davis-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md>)
 - [Johnson × Wilkerson / Hormuz open](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md>)
 
 ## Purpose

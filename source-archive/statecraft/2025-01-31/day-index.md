@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=v0uY3ZoDwYs) | `source-alex-mercouris-rubio-unipolar-era-over-us-lied-to-kiev-eu-debates-russian-gas-return-uk-2025-01-31.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=rRVBCs6tSjw) | `source-daniel-davis-deep-dive-2025-ukraine-russia-war-foreign-policy-lt-col-daniel-davis-2025-01-31.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=8cVSI8mwK5g) | `source-daniel-davis-deep-dive-dc-plane-crash-disaster-2025-01-31.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=rRVBCs6tSjw) | `source-daniel-davis-2025-ukraine-russia-war-foreign-policy-lt-col-daniel-davis-2025-01-31.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=8cVSI8mwK5g) | `source-daniel-davis-dc-plane-crash-disaster-2025-01-31.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-rubio-unipolar-era-over-us-lied-to-kiev-eu-debates-russian-gas-return-uk-2025-01-31.md`
-- `source-daniel-davis-deep-dive-2025-ukraine-russia-war-foreign-policy-lt-col-daniel-davis-2025-01-31.md`
-- `source-daniel-davis-deep-dive-dc-plane-crash-disaster-2025-01-31.md`
+- `source-daniel-davis-2025-ukraine-russia-war-foreign-policy-lt-col-daniel-davis-2025-01-31.md`
+- `source-daniel-davis-dc-plane-crash-disaster-2025-01-31.md`

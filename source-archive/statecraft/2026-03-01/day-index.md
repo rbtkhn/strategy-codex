@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Robert Pape` (2), `Alexander Mercouris` (1)
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Commodore Steve Jermy` (1), `Daniel Davis` (1), `Scott Ritter` (1)
-- Threads: `diesen` (3), `mercouris` (2), `pape` (2), `davis` (1), `freeman` (1), `jermy` (1), `ritter` (1), `simplicius` (1)
+- Threads: `diesen` (2), `mercouris` (2), `pape` (2), `davis` (1), `freeman` (1), `jermy` (1), `ritter` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -54,13 +54,13 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Daniel Davis | `diesen`, `davis` | — | `source-davis-diesen-iran-miscalculation-2026-03-01.md` |
+| Daniel Davis | `davis` | — | `source-glenn-diesen-daniel-davis-iran-miscalculation-2026-03-01.md` |
 
 ## Files
 
 - `source-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
-- `source-davis-diesen-iran-miscalculation-2026-03-01.md`
 - `source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md`
+- `source-glenn-diesen-daniel-davis-iran-miscalculation-2026-03-01.md`
 - `source-glenn-diesen-steve-jermy-iran-war-endgame-global-fallout-2026-03-01.md`
 - `source-khamenei-strike-hormuz-russia-2026-03-01.md`
 - `source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md`

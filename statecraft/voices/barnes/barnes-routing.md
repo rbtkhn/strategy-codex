@@ -20,7 +20,7 @@ The default first-open lane is still the [Davis host shelf](../../hosts/davis/RE
 | If the notebook needs... | Open first | Why |
 |---|---|---|
 | the clearest mature Barnes lane, especially for war powers, war-crimes framing, and domestic survivability under Iran-war pressure | [davis-lane-map-2026-05.md](../../hosts/davis/davis-lane-map-2026-05.md) | Davis gives Barnes his cleanest mature host-local shape. |
-| the best single Barnes file | [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md) | It is the clearest one-file anchor for the core Barnes job. |
+| the best single Barnes file | [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md) | It is the clearest one-file anchor for the core Barnes job. |
 | executive-decline, magical-thinking, negotiation incoherence, and White House room-dynamics outside the Davis framing | [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | Mercouris gives the strongest non-Davis reinforcement and proves the object survives host translation. |
 | the late-stage Iran / executive-instability / domestic-liability lane in a cross-theater frame that also touches Ukraine and China | [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | The May 26 Dialogue Works file is the best Barnes entry when the question is late-May pressure, Trump decline, Israel-lobby capture, and broader geopolitical spillover together. |
 | fast public-pressure translation of Iran-war pressure into electoral collapse, corruption, surveillance-state, and Israel-lobby capture claims | [2026-05-28 / Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md) | The Mario Nawfal file is the quickest first-open when the notebook needs Barnes in mass-audience domestic-liability mode rather than a mature host-local lane. |
@@ -30,7 +30,7 @@ The default first-open lane is still the [Davis host shelf](../../hosts/davis/RE
 
 ## Best entry points
 
-- **Best single opening file:** [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md)
+- **Best single opening file:** [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md)
 - **Best non-Davis opening file:** [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - **Best late-May opening file:** [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - **Best fast public-pressure opening file:** [2026-05-28 / Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)

@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (11), `substack-post` (2), `operator-transcript` (1), `verbatim-sidecar` (1)
 - Source form mix: `post` (9), `interview` (4), `newsletter` (2)
-- Distinct channels/shows: `5`
+- Distinct channels/shows: `6`
 - Distinct hosts: `3`
 - Distinct guests: `4`
 - Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Dialogue Works` (1), `Diesen (Greater Eurasia)` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (2), `Daniel Davis` (1), `Dialogue Works` (1), `Diesen (Greater Eurasia)` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=uDovYahftB4) | `source-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=mMWAWVyRqiw) | `source-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=uDovYahftB4) | `source-daniel-davis-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=mMWAWVyRqiw) | `source-daniel-davis-iran-more-war-seems-likely-professor-marandi-2026-04-17.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | [ionE4H44LUA](https://www.youtube.com/watch?v=ionE4H44LUA) | `source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04) | `source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | --- | --- | --- | --- |
 | — | `barnes` | — | `source-barnes-2026-04-17.md` |
 | — | — | — | `source-countercurrent-2026-04-17-verbatim-2026-04-17.md` |
-| — | `davis` | — | `source-davis-2026-04-17.md` |
+| — | `davis` | — | `source-daniel-davis-2026-04-17.md` |
 | — | `diesen` | — | `source-diesen-2026-04-17.md` |
 | — | `johnson` | — | `source-johnson-2026-04-17.md` |
 | — | `marandi` | — | `source-marandi-2026-04-17.md` |
@@ -66,9 +66,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-barnes-2026-04-17.md`
 - `source-countercurrent-2026-04-17-verbatim-2026-04-17.md`
-- `source-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md`
-- `source-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md`
-- `source-davis-2026-04-17.md`
+- `source-daniel-davis-2026-04-17.md`
+- `source-daniel-davis-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md`
+- `source-daniel-davis-iran-more-war-seems-likely-professor-marandi-2026-04-17.md`
 - `source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md`
 - `source-diesen-2026-04-17.md`
 - `source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`

@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Davis × Jermy — Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-deep-dive-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) — https://www.youtube.com/watch?v=HHLYXJDooZE — **cleaned full transcript** (ingest 2026-06-22; Kharg ASR patch; `source-clean`)
+- [Davis × Jermy — Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) — https://www.youtube.com/watch?v=HHLYXJDooZE — **cleaned full transcript** (ingest 2026-06-22; Kharg ASR patch; `source-clean`)
 - [Mercouris solo — Zelensky panics; Iran war depletes US arsenal, nothing for Kiev; USS Ford retreats](../../source-archive/statecraft/2026-03-18/source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md) — https://www.youtube.com/watch?v=3uMTdj3YhXk — **cleaned full transcript** (ingest 2026-06-22; `source-clean`; promo trimmed)
 
 **Same-day weaves:** [Diesen × Marandi × Jermy — infrastructure / economic-war ladder](./2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md) · [Jermy × Mercouris — arsenal drain / Kiev](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md)

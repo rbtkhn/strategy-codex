@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `aguilar` | [bZxS4saKQAY](https://www.youtube.com/watch?v=bZxS4saKQAY) | `source-alkorshid-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `nima`, `marandi` | [t1MaItycdFc](https://www.youtube.com/watch?v=t1MaItycdFc) | `source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [BlK5ONxCrg8](https://www.youtube.com/watch?v=BlK5ONxCrg8) | `source-alkorshid-nima-beirut-attack-wont-go-unanswered-deputy-commander-2026-06-14.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [9G1MmiwmGx0](https://www.youtube.com/watch?v=9G1MmiwmGx0) | `source-daniel-davis-deep-dive-marandi-iran-deal-complete-trump-says-2026-06-14.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [9G1MmiwmGx0](https://www.youtube.com/watch?v=9G1MmiwmGx0) | `source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [dD-FxfqKIwA](https://www.youtube.com/watch?v=dD-FxfqKIwA) | `source-glenn-diesen-seyed-m-marandi-israels-attack-on-beirut-sabotage-us-iran-deal-2026-06-14.md` |
 
 ## Writer sources
@@ -61,6 +61,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md`
 - `source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md`
 - `source-alkorshid-nima-beirut-attack-wont-go-unanswered-deputy-commander-2026-06-14.md`
-- `source-daniel-davis-deep-dive-marandi-iran-deal-complete-trump-says-2026-06-14.md`
+- `source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md`
 - `source-glenn-diesen-seyed-m-marandi-israels-attack-on-beirut-sabotage-us-iran-deal-2026-06-14.md`
 - `source-parsi-with-one-strike-netanyahu-tries-to-kill-two-peace-deals-2026-06-14.md`

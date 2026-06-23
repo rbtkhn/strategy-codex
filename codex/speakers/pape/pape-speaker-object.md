@@ -68,7 +68,7 @@ The point is not to inflate Pape into a thicker interview shelf than the corpus 
 
 The clearest current cross-host reinforcement on disk is:
 
-- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
+- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-daniel-davis-pape-escalation-trap-2026-03-10.md)
 
 Useful wider reinforcement also exists in:
 
@@ -85,7 +85,7 @@ If the operator needs the best current stream entry:
 
 If the operator needs the clearest guest-distributed entry:
 
-- open [source-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
+- open [source-daniel-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-daniel-davis-pape-escalation-trap-2026-03-10.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

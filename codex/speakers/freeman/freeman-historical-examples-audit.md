@@ -135,7 +135,7 @@ Legacy provenance note:
 ### 2. Austrian State Treaty as a neutral-state and minority-rights settlement precedent
 
 - Example: `Austrian State Treaty`
-- Source: [2025-01-10 Daniel Davis](../../years/2026/provenance/2025-01-10/source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
+- Source: [2025-01-10 Daniel Davis](../../years/2026/provenance/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
 - Exact quote:
 
 > "that would mean applying the precedent of the Austrian State Treaty of 19555 ... which guaranteed rights to minorities in Austria as it created a neutral Austrian state"

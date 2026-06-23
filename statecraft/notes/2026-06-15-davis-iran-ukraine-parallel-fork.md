@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Sources (same host, same day, paired solos):**
 
-- [Davis / Deep Dive — Iran](../../source-archive/statecraft/2026-06-15/source-daniel-davis-deep-dive-whats-the-deal-with-iran-2026-06-15.md) (`aaXKX3cPZSg`)
+- [Davis / Deep Dive — Iran](../../source-archive/statecraft/2026-06-15/source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md) (`aaXKX3cPZSg`)
 - [Davis / Deep Dive — Ukraine/G7](../../source-archive/statecraft/2026-06-15/source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md) (`S9ROJmN0HQ4`)
 
 ## Purpose

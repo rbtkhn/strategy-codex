@@ -53,7 +53,7 @@ Verbatim anchors:
 
 ## Geopolitical thesis
 
-[2026-04-03 / Davis × Barnes](../source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md) — AI as capital-and-energy machine tied to Gulf money, campaign finance, and regime pressure.
+[2026-04-03 / Davis × Barnes](../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md) — AI as capital-and-energy machine tied to Gulf money, campaign finance, and regime pressure.
 
 Verbatim anchors:
 
@@ -76,7 +76,7 @@ Verbatim anchors:
 | Date | File | Lane |
 |------|------|------|
 | 2026-01-13 | [Mercouris × Barnes](../source-archive/statecraft/2026-01-13/source-mercouris-barnes-regime-change-escalator-2026-01-13.md) | Bubble, circular finance, LLM skepticism |
-| 2026-04-03 | [Davis × Barnes](../source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md) | Energy, Gulf, campaign network |
+| 2026-04-03 | [Davis × Barnes](../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md) | Energy, Gulf, campaign network |
 | 2026-05-28 | [Nawfal × Barnes](../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md) | Crisis compression |
 
 ---

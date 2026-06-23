@@ -29,7 +29,7 @@ Six April 2025 Mearsheimer captures are currently on disk:
 - `2025-04-10` - [source-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
   Date note: `the landed transcript self-dates to April 10, 2025, while the external Judging Freedom transcript index lists the episode under April 9, 2025; retain the landed April 10 filing unless a stronger contrary source appears`
 - `2025-04-24` - [source-napolitano-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-24/source-napolitano-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
-- `2025-04-09` - [source-daniel-davis-deep-dive-trade-tensions-explode-trump-v-china-2025-04-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-09/source-daniel-davis-deep-dive-trade-tensions-explode-trump-v-china-2025-04-09.md)
+- `2025-04-09` - [source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md)
 - `2025-04-17` - [source-napolitano-mearsheimer-china-and-trade-2025-04-17.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-napolitano-mearsheimer-china-and-trade-2025-04-17.md)
 
 That means April already has:

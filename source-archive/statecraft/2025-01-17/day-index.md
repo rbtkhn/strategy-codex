@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Ib-qNLk6JU8) | `source-daniel-davis-deep-dive-john-mearsheimer-russia-iran-a-new-nuclear-alliance-2025-01-17.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Ib-qNLk6JU8) | `source-daniel-davis-john-mearsheimer-russia-iran-a-new-nuclear-alliance-2025-01-17.md` |
 | `dialogue-works` | — | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=udfXX3QoJeI) | `source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-daniel-davis-deep-dive-john-mearsheimer-russia-iran-a-new-nuclear-alliance-2025-01-17.md`
+- `source-daniel-davis-john-mearsheimer-russia-iran-a-new-nuclear-alliance-2025-01-17.md`
 - `source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md`

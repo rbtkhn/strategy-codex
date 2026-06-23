@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8qhhSUet9uQ) | `source-alex-mercouris-medvedev-no-freeze-russia-should-take-all-ukraine-us-russia-summit-looms-2025-01-13.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=8vK1BR-MeV0) | `source-daniel-davis-deep-dive-biden-s-foreign-policy-legacy-w-fmr-cia-analyst-larry-johnson-2025-01-13.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=UmV4sq9j7Qg) | `source-daniel-davis-deep-dive-putin-s-other-options-in-2022-2025-01-13.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=8vK1BR-MeV0) | `source-daniel-davis-biden-s-foreign-policy-legacy-w-fmr-cia-analyst-larry-johnson-2025-01-13.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=UmV4sq9j7Qg) | `source-daniel-davis-putin-s-other-options-in-2022-2025-01-13.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-medvedev-no-freeze-russia-should-take-all-ukraine-us-russia-summit-looms-2025-01-13.md`
-- `source-daniel-davis-deep-dive-biden-s-foreign-policy-legacy-w-fmr-cia-analyst-larry-johnson-2025-01-13.md`
-- `source-daniel-davis-deep-dive-putin-s-other-options-in-2022-2025-01-13.md`
+- `source-daniel-davis-biden-s-foreign-policy-legacy-w-fmr-cia-analyst-larry-johnson-2025-01-13.md`
+- `source-daniel-davis-putin-s-other-options-in-2022-2025-01-13.md`

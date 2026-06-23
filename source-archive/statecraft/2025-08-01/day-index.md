@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=XnwRxZ-JIXA) | `source-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=XnwRxZ-JIXA) | `source-daniel-davis-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | — | `source-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md` |
 
 ## Writer sources
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md`
+- `source-daniel-davis-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md`
 - `source-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md`
 - `source-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md`

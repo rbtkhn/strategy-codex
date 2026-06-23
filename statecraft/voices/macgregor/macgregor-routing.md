@@ -29,7 +29,7 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 
 ## Best entry points
 
-- **Best single opening file:** [source-davis-macgregor-project-freedom-hormuz-2026-05-05.md](../../../source-archive/statecraft/2026-05-05/source-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- **Best single opening file:** [source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md](../../../source-archive/statecraft/2026-05-05/source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 - **Best geopolitical-altitude opening file:** [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 - **Best Napolitano opening file:** [source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
 - **Best mature monthly synthesis opening file:** [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)

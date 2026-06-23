@@ -9,7 +9,7 @@ host: Daniel Davis
 guest: Trita Parsi
 title: "IRAN's NUCLEAR DILEMMA /Trita Parsi & Lt Col Daniel Davis"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
-channel_slug: "daniel-davis-deep-dive"
+channel_slug: daniel-davis
 source_url: "https://www.youtube.com/watch?v=CYcmm9KmMO4"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript

@@ -26,13 +26,13 @@ For shelf purposes, the Barnes corpus now divides into:
 
 Primary mature lane. Open here first unless a later section gives a more specific reason not to.
 
-- [2026-02-16 - transcript - Robert Barnes on Pam Bondi, Epstein, and Iran](../../../source-archive/statecraft/2026-02-16/source-davis-deep-dive-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md)
-- [2026-02-16 - transcript-bearing companion capture - ALERT: What Trump Must Understand EPSTEIN CLASS v. WORKING CLASS /Robert Barnes](../../../source-archive/statecraft/2026-02-16/source-daniel-davis-deep-dive-alert-what-trump-must-understand-epstein-class-v-working-class-2026-02-16.md)
-- [2026-04-03 - transcript - Robert Barnes on war crimes, Iran, and Hormuz](../../../source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md)
-- [2026-04-24 - transcript - Robert Barnes on Iran, market manipulation, and behavioral dementia](../../../source-archive/statecraft/2026-04-24/source-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md)
-- [2026-05-12 - transcript-bearing capture - Iran War Plans on the Table / Robert Barnes and Lt Col Daniel Davis](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-deep-dive-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md)
-- [2026-05-30 - transcript-bearing capture - Iran War: NO DECISION Made? / Lt Col Daniel Davis & Robert Barnes](../../../source-archive/statecraft/2026-05-30/source-daniel-davis-deep-dive-iran-war-no-decision-made-lt-col-daniel-davis-robert-barnes-2026-05-30.md)
-- [2026-06-11 - transcript - Robert Barnes: Shifting Goal Posts w/Iran War](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
+- [2026-02-16 - transcript - Robert Barnes on Pam Bondi, Epstein, and Iran](../../../source-archive/statecraft/2026-02-16/source-daniel-davis-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md)
+- [2026-02-16 - transcript-bearing companion capture - ALERT: What Trump Must Understand EPSTEIN CLASS v. WORKING CLASS /Robert Barnes](../../../source-archive/statecraft/2026-02-16/source-daniel-davis-alert-what-trump-must-understand-epstein-class-v-working-class-2026-02-16.md)
+- [2026-04-03 - transcript - Robert Barnes on war crimes, Iran, and Hormuz](../../../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md)
+- [2026-04-24 - transcript - Robert Barnes on Iran, market manipulation, and behavioral dementia](../../../source-archive/statecraft/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md)
+- [2026-05-12 - transcript-bearing capture - Iran War Plans on the Table / Robert Barnes and Lt Col Daniel Davis](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md)
+- [2026-05-30 - transcript-bearing capture - Iran War: NO DECISION Made? / Lt Col Daniel Davis & Robert Barnes](../../../source-archive/statecraft/2026-05-30/source-daniel-davis-iran-war-no-decision-made-lt-col-daniel-davis-robert-barnes-2026-05-30.md)
+- [2026-06-11 - transcript - Robert Barnes: Shifting Goal Posts w/Iran War](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
 
 ### Mercouris x Barnes / The Duran
 
@@ -87,7 +87,7 @@ Helpful as pressure-cluster residue and exit-ramp signal, but not part of the pr
 - **Best non-Davis lane:** [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - **Best late-May reinforcement:** [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - **Best fast public-pressure entry:** [2026-06-03 / Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-06-03/source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md)
-- **Best latest mature lane:** [2026-06-11 / Davis x Barnes — Shifting Goal Posts](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
+- **Best latest mature lane:** [2026-06-11 / Davis x Barnes — Shifting Goal Posts](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
 - **Best June public-pressure cluster:** [2026-06-10 / Napolitano x Barnes](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md) + [2026-06-10 / Nima x Barnes](../../../source-archive/statecraft/2026-06-10/source-alkorshid-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
 
 ## Boundary

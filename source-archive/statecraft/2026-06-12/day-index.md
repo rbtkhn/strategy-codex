@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `aguilar` | [DbJjR6YmGUY](https://www.youtube.com/watch?v=DbJjR6YmGUY) | `source-alkorshid-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `freeman` | [_gMBZwg4HGQ](https://www.youtube.com/watch?v=_gMBZwg4HGQ) | `source-alkorshid-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson`, `wilkerson` | [Cry4rCIXiVM](https://www.youtube.com/watch?v=Cry4rCIXiVM) | `source-alkorshid-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [VjI4y1ZcYug](https://www.youtube.com/watch?v=VjI4y1ZcYug) | `source-daniel-davis-deep-dive-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [VjI4y1ZcYug](https://www.youtube.com/watch?v=VjI4y1ZcYug) | `source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [v7tyJIc7U3A](https://www.youtube.com/watch?v=v7tyJIc7U3A) | `source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md` |
 | `moral-resistance` | Moral Resistance | `aguilar`, `moral-resistance` | [7ilV1wVU05Q](https://www.youtube.com/watch?v=7ilV1wVU05Q) | `source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [ILZhqQQf-UY](https://www.youtube.com/watch?v=ILZhqQQf-UY) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md` |
@@ -65,7 +65,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md`
 - `source-alkorshid-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md`
 - `source-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12.md`
-- `source-daniel-davis-deep-dive-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md`
+- `source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md`
 - `source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md`
 - `source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md`
 - `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md`

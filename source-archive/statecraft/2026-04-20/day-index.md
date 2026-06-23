@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_YFxPQ7bq1Y) | `source-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `baud`, `davis` | [Vbmtt9LkJLo](https://www.youtube.com/watch?v=Vbmtt9LkJLo) | `source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `baud`, `davis` | [Vbmtt9LkJLo](https://www.youtube.com/watch?v=Vbmtt9LkJLo) | `source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [UrEuENJ13UA](https://www.youtube.com/watch?v=UrEuENJ13UA) | `source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=aUIRaWUtgTA) | `source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md` |
 | `judging-freedom` | — | `johnson` | [watch](https://www.youtube.com/watch?v=geWpX8w7BNU) | `source-johnson-who-controls-hormuz-2026-04-20.md` |
@@ -67,7 +67,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md`
 - `source-araghchi-april-2026-posts-bundle-2026-04-20.md`
-- `source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md`
+- `source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`
 - `source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md`
 - `source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md`
 - `source-drpezeshkian-april-2026-posts-bundle-2026-04-20.md`

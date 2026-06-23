@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kOY9J1ZEic0) | `source-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md` |
-| `glenn-diesen` | Glenn Diesen (channel / program — pin canonical series title when pinned) | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=StIeZ7QY7Wk) | `source-davis-diesen-iran-knife-edge-2026-02-07.md` |
+| `glenn-diesen` | Glenn Diesen (channel / program — pin canonical series title when pinned) | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=StIeZ7QY7Wk) | `source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md` |
 
 ## Writer sources
 
@@ -56,5 +56,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md`
 - `source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md`
-- `source-davis-diesen-iran-knife-edge-2026-02-07.md`
+- `source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md`
 - `source-parsi-irans-despair-is-us-policy-2026-02-07.md`

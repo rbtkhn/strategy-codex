@@ -19,7 +19,7 @@ The lane is useful because:
 1. [Joe Kent: Iran War, Israeli Influence & Creating ISIS](../../../../codex/years/2026/provenance/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
    Why it anchors the arc: currently the transcript-grade Diesen-Kent core. It brings out the long causal chain from Iraq/Syria/ISIS to Iran and Israeli influence.
 
-2. [Daniel Davis x Glenn Diesen - Iran's aims, Hormuz, military options, Joe Kent](../../../../codex/years/2026/provenance/2026-03-18/source-davis-diesen-military-options-kent-2026-03-18.md)
+2. [Daniel Davis x Glenn Diesen - Iran's aims, Hormuz, military options, Joe Kent](../../../../codex/years/2026/provenance/2026-03-18/source-glenn-diesen-daniel-davis-military-options-kent-2026-03-18.md)
    Why it matters: bridge context where Diesen uses Kent's resignation as a signal inside the wider Iran/Hormuz pressure discussion.
 
 ## Open first

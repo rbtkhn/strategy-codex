@@ -16,7 +16,7 @@ show: Daniel Davis Deep Dive
 host: Daniel Davis
 guest: Douglas Macgregor
 title: Col Douglas Macgregor THE WORLD BACKS IRAN in this War
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=1wXByp3EexE"
 youtube_id: 1wXByp3EexE

@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=yFDDoQ5T33Q) | `source-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=blbNPtKe83Q) | `source-daniel-davis-deep-dive-ukraine-crimea-the-future-lt-col-daniel-davis-2025-01-14.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=X7m4MQ4FDYM) | `source-daniel-davis-deep-dive-why-the-dc-elite-are-trying-to-kill-tulsi-s-nomination-2025-01-14.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=blbNPtKe83Q) | `source-daniel-davis-ukraine-crimea-the-future-lt-col-daniel-davis-2025-01-14.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=X7m4MQ4FDYM) | `source-daniel-davis-why-the-dc-elite-are-trying-to-kill-tulsi-s-nomination-2025-01-14.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=XxjbLg-dkFw) | `source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md` |
 
@@ -57,8 +57,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md`
-- `source-daniel-davis-deep-dive-ukraine-crimea-the-future-lt-col-daniel-davis-2025-01-14.md`
-- `source-daniel-davis-deep-dive-why-the-dc-elite-are-trying-to-kill-tulsi-s-nomination-2025-01-14.md`
+- `source-daniel-davis-ukraine-crimea-the-future-lt-col-daniel-davis-2025-01-14.md`
+- `source-daniel-davis-why-the-dc-elite-are-trying-to-kill-tulsi-s-nomination-2025-01-14.md`
 - `source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md`
 - `source-napolitano-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md`
 - `source-napolitano-sachs-peace-2025-01-14.md`

@@ -10,7 +10,7 @@ January is a bounded entry shelf, not a chronology owner. Use it to enter the Fr
 
 - [2026-01-07 — Diesen × Freeman: collapse of law/reason, return to war](../../../../source-archive/statecraft/2026-01-07/source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md)
   - Law/reason erosion frame before Davos week.
-- [2026-01-20 — Davis Deep Dive: Iran, EU & Trump; Greenland](../../../../source-archive/statecraft/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
+- [2026-01-20 — Davis Deep Dive: Iran, EU & Trump; Greenland](../../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
   - **Greenland week anchor** — alliance-law / credibility register. Cross-weave: [Jan 20 Greenland three-way](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) × Helmer × Mercouris.
 - [2026-01-22 — Dialogue Works: Iran vows huge response to US/Israel attack](../../../../source-archive/statecraft/2026-01-22/source-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md)
   - Iran escalation carry after Davos/Greenland week.

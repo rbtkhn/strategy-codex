@@ -457,7 +457,7 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md](provenance/2026-04-24/source-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md)
+- [source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md](provenance/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md)
 - [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](provenance/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - [source-barnes-kent-exit-ramp-qt-2026-04-21.md](provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
 

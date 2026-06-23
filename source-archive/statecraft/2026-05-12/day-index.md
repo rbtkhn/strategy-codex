@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ayN1VXz4QtM) | `source-alex-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=tfgfSubAEJM) | `source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=klvztvA37b8) | `source-daniel-davis-deep-dive-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=22cOVLIatOw) | `source-daniel-davis-deep-dive-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=tfgfSubAEJM) | `source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=klvztvA37b8) | `source-daniel-davis-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=22cOVLIatOw) | `source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=Uhgd6vRsPxA) | `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=8nsxuB3Vsts) | `source-game-theory-24-the-ai-apocalypse-2026-05-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=YKvzjkOfyWQ) | `source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md` |
@@ -61,9 +61,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md`
-- `source-daniel-davis-deep-dive-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md`
-- `source-daniel-davis-deep-dive-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md`
+- `source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md`
+- `source-daniel-davis-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md`
+- `source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md`
 - `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md`
 - `source-game-theory-24-the-ai-apocalypse-2026-05-12.md`
 - `source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md`

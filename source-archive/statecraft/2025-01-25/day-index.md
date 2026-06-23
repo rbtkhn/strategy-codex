@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-WAD3XfbawA) | `source-alex-mercouris-trump-fiery-call-dane-pm-eu-shocked-rubio-stops-kiev-aid-putin-zelensky-2025-01-25.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=cpXyh04oSH4) | `source-daniel-davis-deep-dive-looks-like-ukraine-aid-is-stopped-2025-01-25.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ilmRB_W_KCY) | `source-daniel-davis-deep-dive-the-new-sec-of-defense-what-hegseth-is-up-against-2025-01-25.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=cpXyh04oSH4) | `source-daniel-davis-looks-like-ukraine-aid-is-stopped-2025-01-25.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ilmRB_W_KCY) | `source-daniel-davis-the-new-sec-of-defense-what-hegseth-is-up-against-2025-01-25.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=JqCBYf-eiXo) | `source-dialogue-works-pepe-escobar-trump-in-dire-straits-as-putin-china-s-brics-mega-deal-rock-2025-01-25.md` |
 
 ## Writer sources
@@ -56,6 +56,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-fiery-call-dane-pm-eu-shocked-rubio-stops-kiev-aid-putin-zelensky-2025-01-25.md`
-- `source-daniel-davis-deep-dive-looks-like-ukraine-aid-is-stopped-2025-01-25.md`
-- `source-daniel-davis-deep-dive-the-new-sec-of-defense-what-hegseth-is-up-against-2025-01-25.md`
+- `source-daniel-davis-looks-like-ukraine-aid-is-stopped-2025-01-25.md`
+- `source-daniel-davis-the-new-sec-of-defense-what-hegseth-is-up-against-2025-01-25.md`
 - `source-dialogue-works-pepe-escobar-trump-in-dire-straits-as-putin-china-s-brics-mega-deal-rock-2025-01-25.md`

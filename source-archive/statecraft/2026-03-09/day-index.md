@@ -11,20 +11,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5), `substack-post` (2)
 - Source form mix: `post` (3), `newsletter` (2), `interview` (1), `solo` (1)
-- Distinct channels/shows: `4`
+- Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `1`
-- Distinct threads: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
+- `Daniel Davis` (3), `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Robert Pape` (1), `Trita Parsi` (1)
 - Guests: `Jacques Baud` (1)
-- Threads: `davis` (3), `baud` (1), `henningsen` (1), `mercouris` (1), `nima` (1), `pape` (1), `parsi` (1)
+- Threads: `davis` (3), `baud` (1), `mercouris` (1), `nima` (1), `pape` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -50,16 +50,16 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| IRAN WAR: Where's the War Going? /Patrick Henningsen & Lt Col Daniel Davis | `davis`, `henningsen` | — | `source-davis-henningsen-wheres-the-war-going-2026-03-09.md` |
-| IRAN Has a NEW LEADER /Lt Col Daniel Davis | `davis` | — | `source-davis-iran-has-a-new-leader-2026-03-09.md` |
-| TRUMP: IRAN WAR BASICALLY OVER & ENDING SOON /Generals Argue for Ground Forces | `davis` | — | `source-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md` |
+| IRAN WAR: Where's the War Going? /Patrick Henningsen & Lt Col Daniel Davis | `davis` | — | `source-daniel-davis-henningsen-wheres-the-war-going-2026-03-09.md` |
+| IRAN Has a NEW LEADER /Lt Col Daniel Davis | `davis` | — | `source-daniel-davis-iran-has-a-new-leader-2026-03-09.md` |
+| TRUMP: IRAN WAR BASICALLY OVER & ENDING SOON /Generals Argue for Ground Forces | `davis` | — | `source-daniel-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md` |
 
 ## Files
 
 - `source-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md`
-- `source-davis-henningsen-wheres-the-war-going-2026-03-09.md`
-- `source-davis-iran-has-a-new-leader-2026-03-09.md`
-- `source-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md`
+- `source-daniel-davis-henningsen-wheres-the-war-going-2026-03-09.md`
+- `source-daniel-davis-iran-has-a-new-leader-2026-03-09.md`
+- `source-daniel-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md`
 - `source-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md`
 - `source-pape-answers-to-questions-our-community-2026-03-09.md`
 - `source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md`

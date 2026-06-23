@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Mercouris | `mercouris` | [vm8AsfGNlxM](https://www.youtube.com/watch?v=vm8AsfGNlxM) | `source-alex-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `freeman` | [BwsYAUshJ80](https://www.youtube.com/watch?v=BwsYAUshJ80) | `source-alkorshid-chas-freeman-israel-agenda-major-collapse-2026-06-19.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `marandi`, `johnson` | [z_O55bdqHFA](https://www.youtube.com/watch?v=z_O55bdqHFA) | `source-alkorshid-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [9mGWb0tO13o](https://www.youtube.com/watch?v=9mGWb0tO13o) | `source-daniel-davis-deep-dive-israel-hezbollah-agree-ceasefire-2026-06-19.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [9mGWb0tO13o](https://www.youtube.com/watch?v=9mGWb0tO13o) | `source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md` |
 | `glenn-diesen` | Glenn Diesen | `crooke`, `diesen` | [GkiCgI8QwiM](https://www.youtube.com/watch?v=GkiCgI8QwiM) | `source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md` |
 | `glenn-diesen` | Glenn Diesen | `krainer`, `diesen` | [TXjSfNZ2xCI](https://www.youtube.com/watch?v=TXjSfNZ2xCI) | `source-glenn-diesen-alex-krainer-decline-of-the-west-war-against-russia-2026-06-19.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [A1ic3tpmRtk](https://www.youtube.com/watch?v=A1ic3tpmRtk) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md` |
@@ -65,7 +65,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md`
 - `source-alkorshid-chas-freeman-israel-agenda-major-collapse-2026-06-19.md`
 - `source-alkorshid-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md`
-- `source-daniel-davis-deep-dive-israel-hezbollah-agree-ceasefire-2026-06-19.md`
+- `source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md`
 - `source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md`
 - `source-glenn-diesen-alex-krainer-decline-of-the-west-war-against-russia-2026-06-19.md`
 - `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md`

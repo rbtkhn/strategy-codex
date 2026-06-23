@@ -21,14 +21,14 @@ Promotion rule:
 - if it is only found or operator-pasted without raw-input, keep it in cross-host `discovery memory`, not here
 
 ## 2025-01
-- [youtube-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10](../../years/2026/provenance/2025-01-10/source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
+- [youtube-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10](../../years/2026/provenance/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
 - [transcript-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17](../../years/2026/provenance/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md)
 - [transcript-dialogue-works-can-trump-outdo-biden-s-worst-amb-chas-freeman-richard-d-wolff-michael-h-2025-01-19](../../years/2026/provenance/2025-01-19/source-dialogue-works-can-trump-outdo-biden-s-worst-amb-chas-freeman-richard-d-wolff-michael-h-2025-01-19.md)
-- [youtube-daniel-davis-deep-dive-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23](../../years/2026/provenance/2025-01-23/source-daniel-davis-deep-dive-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md)
-- [youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26](../../years/2026/provenance/2025-01-26/source-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md)
+- [youtube-daniel-davis-deep-dive-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23](../../years/2026/provenance/2025-01-23/source-daniel-davis-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md)
+- [youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26](../../years/2026/provenance/2025-01-26/source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md)
 
 ## 2025-02
-- [youtube-daniel-davis-deep-dive-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05](../../years/2026/provenance/2025-02-05/source-daniel-davis-deep-dive-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05.md)
+- [youtube-daniel-davis-deep-dive-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05](../../years/2026/provenance/2025-02-05/source-daniel-davis-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05.md)
 
 ## 2025-03
 - [youtube-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12](../../years/2026/provenance/2025-03-12/source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md)
@@ -41,14 +41,14 @@ Promotion rule:
 - [youtube-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31](../../years/2026/provenance/2025-05-31/source-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md)
 
 ## 2025-08
-- [youtube-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01](../../years/2026/provenance/2025-08-01/source-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md)
+- [youtube-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01](../../years/2026/provenance/2025-08-01/source-daniel-davis-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md)
 - [transcript-dialogue-works-amb-chas-freeman-u-s-on-the-brink-of-disaster-2025-08-22](../../years/2026/provenance/2025-08-22/source-dialogue-works-amb-chas-freeman-u-s-on-the-brink-of-disaster-2025-08-22.md)
 
 ## 2025-09
 - [transcript-dialogue-works-amb-chas-freeman-the-end-of-western-dominance-is-here-2025-09-05](../../years/2026/provenance/2025-09-05/source-dialogue-works-amb-chas-freeman-the-end-of-western-dominance-is-here-2025-09-05.md)
 - [youtube-glenn-diesen-chas-freeman-the-old-world-is-dying-the-new-world-struggles-to-be-born-2025-09-11](../../years/2026/provenance/2025-09-11/source-glenn-diesen-chas-freeman-the-old-world-is-dying-the-new-world-struggles-to-be-born-2025-09-11.md)
-- [youtube-daniel-davis-deep-dive-no-fly-zone-over-ukraine-lt-col-daniel-davis-and-chas-freeman-2025-09-15](../../years/2026/provenance/2025-09-15/source-daniel-davis-deep-dive-no-fly-zone-over-ukraine-lt-col-daniel-davis-and-chas-freeman-2025-09-15.md)
-- [youtube-daniel-davis-deep-dive-u-s-foreign-policy-bad-under-biden-worse-with-trump-lt-col-daniel-davis-and-chas-freeman-2025-09-15](../../years/2026/provenance/2025-09-15/source-daniel-davis-deep-dive-u-s-foreign-policy-bad-under-biden-worse-with-trump-lt-col-daniel-davis-and-chas-freeman-2025-09-15.md)
+- [youtube-daniel-davis-deep-dive-no-fly-zone-over-ukraine-lt-col-daniel-davis-and-chas-freeman-2025-09-15](../../years/2026/provenance/2025-09-15/source-daniel-davis-no-fly-zone-over-ukraine-lt-col-daniel-davis-and-chas-freeman-2025-09-15.md)
+- [youtube-daniel-davis-deep-dive-u-s-foreign-policy-bad-under-biden-worse-with-trump-lt-col-daniel-davis-and-chas-freeman-2025-09-15](../../years/2026/provenance/2025-09-15/source-daniel-davis-u-s-foreign-policy-bad-under-biden-worse-with-trump-lt-col-daniel-davis-and-chas-freeman-2025-09-15.md)
 
 ## 2025-10
 - [youtube-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06](../../years/2026/provenance/2025-10-06/source-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md)
@@ -82,7 +82,7 @@ Promotion rule:
 - [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md)
 - [transcript-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06](../../years/2026/provenance/2026-01-06/source-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
 - [youtube-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07](../../years/2026/provenance/2026-01-07/source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md)
-- [youtube-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20](../../years/2026/provenance/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
+- [youtube-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20](../../years/2026/provenance/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
 - [transcript-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22](../../years/2026/provenance/2026-01-22/source-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md)
 
 ## 2026-02
@@ -95,7 +95,7 @@ Promotion rule:
 - [youtube-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01](../../years/2026/provenance/2026-03-01/source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md)
 - [transcript-napolitano-freeman-what-makes-a-war-just-2026-03-03](../../years/2026/provenance/2026-03-03/source-napolitano-freeman-what-makes-a-war-just-2026-03-03.md)
 - [transcript-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06](../../years/2026/provenance/2026-03-06/source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md)
-- [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06](../../years/2026/provenance/2026-03-06/source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06](../../years/2026/provenance/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
 - [youtube-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14](../../years/2026/provenance/2026-03-14/source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md)
 - [transcript-napolitano-freeman-will-china-dump-trump-2026-03-17](../../years/2026/provenance/2026-03-17/source-napolitano-freeman-will-china-dump-trump-2026-03-17.md)
 - [transcript-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20](../../years/2026/provenance/2026-03-20/source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md)
@@ -106,9 +106,9 @@ Promotion rule:
 - [transcript-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03](../../years/2026/provenance/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md)
 - [youtube-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03](../../years/2026/provenance/2026-04-03/source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md)
 - [transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10](../../years/2026/provenance/2026-04-10/source-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md)
-- [youtube-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13](../../years/2026/provenance/2026-04-13/source-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md)
+- [youtube-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13](../../years/2026/provenance/2026-04-13/source-daniel-davis-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md)
 - [transcript-napolitano-freeman-israels-strategy-collapsing-2026-04-14](../../years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md)
-- [transcript-davis](../../years/2026/provenance/2026-04-16/source-davis-2026-04-18.md)
+- [transcript-davis](../../years/2026/provenance/2026-04-16/source-daniel-davis-2026-04-18.md)
 - [transcript-pape](../../years/2026/provenance/2026-04-16/source-pape-2026-04-18.md)
 - [transcript-freeman](../../years/2026/provenance/2026-04-17/transcript-freeman.md)
 - [freeman-diesen-2026-04-18-verbatim](../../years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)

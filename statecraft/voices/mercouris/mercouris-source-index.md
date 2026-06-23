@@ -32,7 +32,7 @@ Use these when the task is early-strand continuity rather than the live 2026 rep
 
 - [2025-01-08 | Trump shock / Greenland / no Ukraine in NATO / Europe shock / Iran](../../../source-archive/statecraft/2025-01-08/source-alex-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md)
 - [2025-01-10 | Trump-Putin summit / sanctions / NATO troops / Europe fret](../../../source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
-- [2025-01-16 | Davis x Mercouris | NATO preparing for war with Russia](../../../source-archive/statecraft/2025-01-16/source-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
+- [2025-01-16 | Davis x Mercouris | NATO preparing for war with Russia](../../../source-archive/statecraft/2025-01-16/source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
 - [2025-01-24 | Trump threats backfire / Moscow hardens stance / China and Saudi ignore calls](../../../source-archive/statecraft/2025-01-24/source-alex-mercouris-trump-threats-backfire-moscow-trump-bluffing-hardens-stance-china-saudi-2025-01-24.md)
 - [2025-01-26 | Kiev wrong to reject Istanbul / agree Putin terms](../../../source-archive/statecraft/2025-01-26/source-alex-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md)
 
@@ -68,7 +68,7 @@ November solo run = **energy strikes + Pokrovsk/Kupyansk/Zaporozhye collapse geo
 
 **Cross-weave:** [Jermy × Mercouris × Freeman/Wilkerson Dec-12 (2025-12-12)](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md) · [December benchmark](../../notes/december-2025-benchmark-note.md)
 
-- [2025-12-12 | Siversk falls; Huliaipole falling; West in denial; Donbass is ours](../../../source-archive/statecraft/2025-12-12/source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — **cleaned transcript** (source-clean + manual ASR) · pair with [Davis × Jermy NSS same day](../../source-archive/statecraft/2025-12-12/source-daniel-davis-deep-dive-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) · [Freeman/Wilkerson chain reaction same day](../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) · [three-way weave](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md)
+- [2025-12-12 | Siversk falls; Huliaipole falling; West in denial; Donbass is ours](../../../source-archive/statecraft/2025-12-12/source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — **cleaned transcript** (source-clean + manual ASR) · pair with [Davis × Jermy NSS same day](../../source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) · [Freeman/Wilkerson chain reaction same day](../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) · [three-way weave](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md)
 
 ## 2026-01 Greenland week — Jan 20 cross-weave
 
@@ -78,7 +78,7 @@ Same-day **Greenland crisis** — route Mercouris **solo institutional braid** a
 | --- | --- | --- |
 | **Mercouris** (solo) | this index · [Jan 2026 shelf](stream/mercouris-shelf-2026-01.md) | [2026-01-20 — Starmer/Macron humiliation; Greenland; Kiev AD/offensive](../../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — **full transcript** (2026-06-20 intake) |
 | **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
-| **Freeman** (alliance law) | [Freeman index](../freeman/freeman-source-index.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) |
+| **Freeman** (alliance law) | [Freeman index](../freeman/freeman-source-index.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) |
 
 **Synthesis object:** [Jan 20 Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Dmitriev lane — Mercouris arc](../../notes/arc-mercouris-dmitriev-lane.md) · [Dmitriev lane — Helmer arc](../../notes/arc-helmer-dmitriev-lane.md)
 
@@ -86,7 +86,7 @@ Same-day **Greenland crisis** — route Mercouris **solo institutional braid** a
 
 ## 2026-01-30 — Iran buildup / Kiev energy truce same-day
 
-- [2026-01-30 | Iran long-war warning; carriers vulnerable; Kiev truce sham; Lavrov guarantees trash](../../../source-archive/statecraft/2026-01-30/source-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) — **cleaned transcript** (source-clean 18 + manual ASR ~48; ingest 2026-05-24 / pass 2026-06-22) · Akraminia / Crooke long-war braid; Hormuz stakes; Trump–Putin **letter** truce; Zelensky loop-out; Lavrov/Ushakov spin pushback · **cross-weave:** [Jermy × Mercouris Jan-30](../../notes/2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · same-day [Davis × Jermy Lincoln CSG](../../../source-archive/statecraft/2026-01-30/source-daniel-davis-deep-dive-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md)
+- [2026-01-30 | Iran long-war warning; carriers vulnerable; Kiev truce sham; Lavrov guarantees trash](../../../source-archive/statecraft/2026-01-30/source-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) — **cleaned transcript** (source-clean 18 + manual ASR ~48; ingest 2026-05-24 / pass 2026-06-22) · Akraminia / Crooke long-war braid; Hormuz stakes; Trump–Putin **letter** truce; Zelensky loop-out; Lavrov/Ushakov spin pushback · **cross-weave:** [Jermy × Mercouris Jan-30](../../notes/2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · same-day [Davis × Jermy Lincoln CSG](../../../source-archive/statecraft/2026-01-30/source-daniel-davis-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md)
 
 ## 2026-06 — Konstantinovka / Oreshnik / MOU month
 

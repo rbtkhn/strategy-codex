@@ -22,7 +22,7 @@ Mearsheimer repeatedly frames NATO expansion and post-Cold-War Western choices a
 
 ## Exact Quote Anchors
 
-- [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
   > "This was a prescription for disaster"
 
 - [2026-05-04 Glenn Diesen](../../years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)

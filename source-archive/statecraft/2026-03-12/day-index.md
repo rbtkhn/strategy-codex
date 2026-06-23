@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (4), `paste-bundle` (1), `source` (1), `substack-post` (1)
 - Source form mix: `newsletter` (3), `post` (3), `interview` (1)
-- Distinct channels/shows: `2`
+- Distinct channels/shows: `3`
 - Distinct hosts: `1`
 - Distinct guests: `1`
 - Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis` (3), `Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -50,16 +50,16 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Iran's Unwavering Attacks / Lt Col Daniel Davis & Col Jacques Baud | `davis`, `baud` | — | `source-davis-baud-irans-unwavering-attacks-2026-03-12.md` |
-| IRAN VOWS REVENGE /Lt Col Daniel Davis | `davis` | — | `source-davis-iran-vows-revenge-2026-03-12.md` |
-| IRAN WAR SEA BATTLE The Battle for Persian Gulf /Lt Col Daniel Davis | `davis` | — | `source-davis-iran-war-sea-battle-the-battle-for-persian-gulf-2026-03-12.md` |
+| Iran's Unwavering Attacks / Lt Col Daniel Davis & Col Jacques Baud | `davis`, `baud` | — | `source-daniel-davis-baud-irans-unwavering-attacks-2026-03-12.md` |
+| IRAN VOWS REVENGE /Lt Col Daniel Davis | `davis` | — | `source-daniel-davis-iran-vows-revenge-2026-03-12.md` |
+| IRAN WAR SEA BATTLE The Battle for Persian Gulf /Lt Col Daniel Davis | `davis` | — | `source-daniel-davis-iran-war-sea-battle-the-battle-for-persian-gulf-2026-03-12.md` |
 
 ## Files
 
 - `source-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md`
 - `source-crooke-is-having-no-war-plan-trumps-plan-2026-03-12.md`
-- `source-davis-baud-irans-unwavering-attacks-2026-03-12.md`
-- `source-davis-iran-vows-revenge-2026-03-12.md`
-- `source-davis-iran-war-sea-battle-the-battle-for-persian-gulf-2026-03-12.md`
+- `source-daniel-davis-baud-irans-unwavering-attacks-2026-03-12.md`
+- `source-daniel-davis-iran-vows-revenge-2026-03-12.md`
+- `source-daniel-davis-iran-war-sea-battle-the-battle-for-persian-gulf-2026-03-12.md`
 - `source-pape-four-strategic-patterns-now-visible-2026-03-12.md`
 - `source-simplicius-iran-cows-us-navy-into-submission-2026-03-12.md`

@@ -72,7 +72,7 @@ Distinct from Iran trap clocks — bounded synthesis: [pape-on-china-ai.md](../.
 
 ## Interview-Pressure Anchors
 
-- [2026-03-10 Davis x Pape - The Escalation Trap](../../../source-archive/statecraft/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
+- [2026-03-10 Davis x Pape - The Escalation Trap](../../../source-archive/statecraft/2026-03-10/source-daniel-davis-pape-escalation-trap-2026-03-10.md)
 - [2026-04-20 Redacted x Pape - The Collapse Is Now Ahead of Schedule](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) — **China-primary block** (field tour, relative power); see [China, Industrial AI](#china-industrial-ai-and-relative-power)
 - [2026-04-29 Breaking Points / Ryan Grim x Pape - Why a Nuclear Iran Is Inevitable](../../../source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
 - [2026-05-12 Mario Nawfal x Pape - Trump's Next Iran Steps Revealed](../../../source-archive/statecraft/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)

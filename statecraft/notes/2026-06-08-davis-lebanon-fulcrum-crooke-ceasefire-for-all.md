@@ -8,7 +8,7 @@ WORK only; not Record.
 
 - [Crooke / Iran Takes Its Chances with War — 2026-06-04](../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md) — **written upstream** (three pillars; Dahieh; Citrinowicz link)
 - [Crooke three-date arc — Jun 4 Substack × Jun 5 Dialogue × Jun 8 Judging Freedom](statecraft/synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md)
-- [Davis solo / Iran war expands, Houthis declare war](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md)
+- [Davis solo / Iran war expands, Houthis declare war](../../source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md)
 - [Crooke × Napolitano / Ceasefire for all or ceasefire for no one](../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) — **Jun 8 in-voice echo** of Substack architecture
 
 ## Purpose

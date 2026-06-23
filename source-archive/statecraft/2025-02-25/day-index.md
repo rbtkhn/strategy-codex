@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://youtu.be/Wb7dJsv8AoM) | `source-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://youtu.be/Wb7dJsv8AoM) | `source-daniel-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou`, `krapivnik` | [watch](https://www.youtube.com/watch?v=_uf68mUJLz8) | `source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-trump-and-angry-europe-2025-02-25.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md`
+- `source-daniel-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md`
 - `source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md`
 - `source-napolitano-amb-chas-freeman-trump-and-angry-europe-2025-02-25.md`

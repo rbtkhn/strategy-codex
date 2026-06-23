@@ -16,7 +16,7 @@ Expected v1 count: 4 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
+| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-daniel-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
 
 ### Redacted
 

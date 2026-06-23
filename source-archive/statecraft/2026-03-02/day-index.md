@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `6`
 - Distinct hosts: `6`
 - Distinct guests: `6`
-- Distinct threads: `10`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Judish Raj` (1), `Robert Pape` (1)
 - Guests: `Alastair Crooke` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Pepe Escobar` (1), `Scott Ritter` (1)
-- Threads: `diesen` (2), `baud` (1), `crooke` (1), `davis` (1), `india-global-left` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1), `ritter` (1)
+- Threads: `diesen` (2), `baud` (1), `crooke` (1), `india-global-left` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -53,12 +53,12 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Daniel Davis | `davis` | — | `source-davis-iran-war-new-phase-oil-in-the-persian-gulf-2026-03-02.md` |
+| Daniel Davis | — | — | `source-daniel-davis-iran-war-new-phase-oil-in-the-persian-gulf-2026-03-02.md` |
 
 ## Files
 
 - `source-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md`
-- `source-davis-iran-war-new-phase-oil-in-the-persian-gulf-2026-03-02.md`
+- `source-daniel-davis-iran-war-new-phase-oil-in-the-persian-gulf-2026-03-02.md`
 - `source-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md`
 - `source-dialogue-works-pepe-escobar-larry-c-johnson-us-israel-hit-tehran-iran-destroys-tel-aviv-hezbollah-now-joins-2026-03-02.md`
 - `source-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02.md`

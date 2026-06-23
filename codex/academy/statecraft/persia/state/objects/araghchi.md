@@ -62,7 +62,7 @@ When a new Araghchi hit appears, classify it before using it:
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Ritter / Iran agreement and grand bargain:** [2026-05-06 Davis / Ritter](../../../../../years/2026/raw-input/2026-05-06/source-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
+- **Ritter / Iran agreement and grand bargain:** [2026-05-06 Davis / Ritter](../../../../../years/2026/raw-input/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
 - **Ritter / sanctions and eastern pivot:** [2026-05-06 Alkorshid / Ritter](../../../../../years/2026/raw-input/2026-05-06/source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md)
 - **Parsi / blockade and bargaining pressure:** [2026-05-01 Substack](../../../../../years/2026/raw-input/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
 - **Parsi / regional architecture proposal:** [2026-05-03 Substack](../../../../../years/2026/raw-input/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)

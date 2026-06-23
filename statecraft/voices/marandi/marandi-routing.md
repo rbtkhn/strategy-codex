@@ -31,7 +31,7 @@ The default first-open lane is usually [Dialogue Works x Marandi](../../../codex
 
 - **Best single opening file:** [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
 - **Best strategic-altitude opening file:** [2026-05-05 / Diesen x Marandi](../../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
-- **Best operational-limit opening file:** [2026-05-10 / Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
+- **Best operational-limit opening file:** [2026-05-10 / Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
 - **Best late-May opening file:** [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 
 ## When not to open Marandi first

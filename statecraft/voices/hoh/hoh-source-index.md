@@ -6,7 +6,7 @@ Purpose: provide the current canonical route map for materialized Matthew Hoh ap
 
 ## 2025-10
 
-- [youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10](../../../source-archive/statecraft/2025-10-10/source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
+- [youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10](../../../source-archive/statecraft/2025-10-10/source-daniel-davis-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
 
 ## 2026-03
 

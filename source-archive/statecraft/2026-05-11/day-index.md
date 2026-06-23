@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6aV9-8xxcEk) | `source-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `baud` | [watch](https://www.youtube.com/watch?v=5D-OD0iezZ8) | `source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=0cw2HmMpvDQ) | `source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=0cw2HmMpvDQ) | `source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md` |
 | `glenn-diesen` | Diesen - Greater Eurasia Podcast | `diesen` | [watch](https://www.youtube.com/watch?v=RWTvTzWYG0o) | `source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [x1JHpJ4Glt8](https://www.youtube.com/watch?v=x1JHpJ4Glt8) | `source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md` |
 
@@ -59,7 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md`
 - `source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md`
 - `source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md`
-- `source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md`
+- `source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md`
 - `source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md`
 - `source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md`
 - `source-pape-the-5-warning-signs-that-the-iran-war-is-escalating-2026-05-11.md`

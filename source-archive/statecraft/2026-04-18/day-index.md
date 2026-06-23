@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (11), `verbatim-sidecar` (2), `paste-bundle` (1)
 - Source form mix: `post` (11), `interview` (1), `newsletter` (1), `solo` (1)
-- Distinct channels/shows: `2`
+- Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
 - Distinct threads: `11`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1)
+- `Daniel Davis` (1), `Dialogue Works` (1), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -50,7 +50,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
 | — | `barnes` | — | `source-barnes-2026-04-18.md` |
-| — | `davis` | — | `source-davis-2026-04-18.md` |
+| — | `davis` | — | `source-daniel-davis-2026-04-18.md` |
 | — | — | — | `source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md` |
 | — | — | — | `source-diesen-2026-04-18-verbatim-2026-04-18.md` |
 | — | `diesen` | — | `source-diesen-2026-04-18.md` |
@@ -66,7 +66,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md`
 - `source-barnes-2026-04-18.md`
 - `source-crooke-markets-prematurely-may-celebrate-2026-04-18.md`
-- `source-davis-2026-04-18.md`
+- `source-daniel-davis-2026-04-18.md`
 - `source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md`
 - `source-dialogue-works-seyed-m-marandi-iran-just-put-the-strait-of-hormuz-on-limited-mode-signs-2026-04-18.md`
 - `source-diesen-2026-04-18-verbatim-2026-04-18.md`

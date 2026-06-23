@@ -35,8 +35,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=_HTvSIymOg8) | `source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=gFqQmy5DAuM) | `source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `postol` | [watch](https://www.youtube.com/watch?v=zUYhhZwU5R0) | `source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [aaTDL0kXKjk](https://www.youtube.com/watch?v=aaTDL0kXKjk) | `source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [watch](https://www.youtube.com/watch?v=YoD6i1L1Dak) | `source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [aaTDL0kXKjk](https://www.youtube.com/watch?v=aaTDL0kXKjk) | `source-daniel-davis-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [watch](https://www.youtube.com/watch?v=YoD6i1L1Dak) | `source-daniel-davis-kent-hormuz-blockade-walkaway-2026-05-08.md` |
 | `glenn-diesen` | Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=ZuVeSI4FnEA) | `source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md` |
 | `glenn-diesen` | Diesen | `diesen`, `krainer` | [watch](https://www.youtube.com/watch?v=E_wNsHwWYyk) | `source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md` |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ao0O9HQnYJg) | `source-mercouris-russia-makes-strongest-threats-kiev-eu-refuses-may-truce-2026-05-08.md` |
@@ -62,8 +62,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md`
 - `source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md`
 - `source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md`
-- `source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md`
-- `source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md`
+- `source-daniel-davis-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md`
+- `source-daniel-davis-kent-hormuz-blockade-walkaway-2026-05-08.md`
 - `source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md`
 - `source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md`
 - `source-mercouris-russia-makes-strongest-threats-kiev-eu-refuses-may-truce-2026-05-08.md`

@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oprur4voQCk) | `source-alex-mercouris-trump-aid-stop-kiev-panics-pleads-for-eu-help-experts-russia-military-no-2025-01-30.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=hTgTDsi132k) | `source-daniel-davis-deep-dive-tulsi-sets-her-record-straight-dni-confirmation-hearing-2025-01-30.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=NISC6qftR_A) | `source-daniel-davis-deep-dive-ukrainian-cities-keep-falling-w-patrick-henningsen-2025-01-30.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=hTgTDsi132k) | `source-daniel-davis-tulsi-sets-her-record-straight-dni-confirmation-hearing-2025-01-30.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=NISC6qftR_A) | `source-daniel-davis-ukrainian-cities-keep-falling-w-patrick-henningsen-2025-01-30.md` |
 
 ## Writer sources
 
@@ -55,6 +55,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-aid-stop-kiev-panics-pleads-for-eu-help-experts-russia-military-no-2025-01-30.md`
-- `source-daniel-davis-deep-dive-tulsi-sets-her-record-straight-dni-confirmation-hearing-2025-01-30.md`
-- `source-daniel-davis-deep-dive-ukrainian-cities-keep-falling-w-patrick-henningsen-2025-01-30.md`
+- `source-daniel-davis-tulsi-sets-her-record-straight-dni-confirmation-hearing-2025-01-30.md`
+- `source-daniel-davis-ukrainian-cities-keep-falling-w-patrick-henningsen-2025-01-30.md`
 - `source-sachs-on-us-arrogance-global-power-and-why-we-cant-trust-our-leaders-2025-01-30.md`

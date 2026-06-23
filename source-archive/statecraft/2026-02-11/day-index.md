@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pHCWOPCq2hA) | `source-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=pxg73Ck5e-A) | `source-daniel-davis-deep-dive-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=pxg73Ck5e-A) | `source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=DCZn8RZS9Zk) | `source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md` |
 
 ## Writer sources
@@ -55,6 +55,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md`
-- `source-daniel-davis-deep-dive-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md`
+- `source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md`
 - `source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md`
 - `source-sachs-us-economic-coercion-and-the-death-of-the-dollar-2026-02-11.md`

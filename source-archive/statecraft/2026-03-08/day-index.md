@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `substack-post` (3), `transcript` (3)
 - Source form mix: `newsletter` (3), `interview` (1), `post` (1), `solo` (1)
-- Distinct channels/shows: `5`
+- Distinct channels/shows: `6`
 - Distinct hosts: `4`
 - Distinct guests: `1`
 - Distinct threads: `7`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1), `substack.com/@tritaparsi` (1)
+- `Daniel Davis` (1), `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -51,12 +51,12 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| TRUMP: IRAN WAR BASICALLY OVER & ENDING SOON /Generals Argue for Ground Forces | `davis` | — | `source-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-08.md` |
+| TRUMP: IRAN WAR BASICALLY OVER & ENDING SOON /Generals Argue for Ground Forces | `davis` | — | `source-daniel-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-08.md` |
 
 ## Files
 
 - `source-alex-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md`
-- `source-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-08.md`
+- `source-daniel-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-08.md`
 - `source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md`
 - `source-pape-three-signals-to-watch-after-irans-2026-03-08.md`
 - `source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md`

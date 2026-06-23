@@ -10,7 +10,7 @@ Month status: `mature retrieval month`
 
 - [2026-05-04 Diesen](../../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
   - Cleanest post-Hormuz escalation-horizon opening.
-- [2026-05-06 Davis](../../../../source-archive/statecraft/2026-05-06/source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [2026-05-06 Davis](../../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
   - Continuing operational-reality opening.
 - [2026-05-13 Dialogue Works](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
   - Sharpest live-pressure and resilience articulation.

@@ -42,7 +42,7 @@ Mearsheimer is a high-structure, low-cleanup speaker whose credibility is rooted
 
 1. [mearsheimer-structural-realist-scoreboard.md](../../sheets/mearsheimer-structural-realist-scoreboard.md)
 2. [2025-08-01 Mearsheimer](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-01/source-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md)
-3. [2025-01-29 Mearsheimer](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/source-daniel-davis-deep-dive-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md)
+3. [2025-01-29 Mearsheimer](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/source-daniel-davis-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md)
 
 ## Disconfirming or stress-test anchors
 

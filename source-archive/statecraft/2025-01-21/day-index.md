@@ -32,11 +32,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=qPMa63pPJSk) | `source-daniel-davis-deep-dive-re-built-tunnels-in-gaza-ukraine-s-bleak-future-2025-01-21.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=gHuUpqL5B2Y) | `source-daniel-davis-deep-dive-trump-not-confident-ceasefire-will-hold-2025-01-21.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Vtgin1YbO-k) | `source-daniel-davis-deep-dive-trump-putin-is-grinding-it-out-2025-01-21.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TKhTj6tEIM8) | `source-daniel-davis-deep-dive-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=I0usuaj-9hs) | `source-daniel-davis-deep-dive-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=qPMa63pPJSk) | `source-daniel-davis-re-built-tunnels-in-gaza-ukraine-s-bleak-future-2025-01-21.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=gHuUpqL5B2Y) | `source-daniel-davis-trump-not-confident-ceasefire-will-hold-2025-01-21.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Vtgin1YbO-k) | `source-daniel-davis-trump-putin-is-grinding-it-out-2025-01-21.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TKhTj6tEIM8) | `source-daniel-davis-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=I0usuaj-9hs) | `source-daniel-davis-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md` |
 
 ## Writer sources
@@ -57,9 +57,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-daniel-davis-deep-dive-re-built-tunnels-in-gaza-ukraine-s-bleak-future-2025-01-21.md`
-- `source-daniel-davis-deep-dive-trump-not-confident-ceasefire-will-hold-2025-01-21.md`
-- `source-daniel-davis-deep-dive-trump-putin-is-grinding-it-out-2025-01-21.md`
-- `source-daniel-davis-deep-dive-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md`
-- `source-daniel-davis-deep-dive-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md`
+- `source-daniel-davis-re-built-tunnels-in-gaza-ukraine-s-bleak-future-2025-01-21.md`
+- `source-daniel-davis-trump-not-confident-ceasefire-will-hold-2025-01-21.md`
+- `source-daniel-davis-trump-putin-is-grinding-it-out-2025-01-21.md`
+- `source-daniel-davis-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md`
+- `source-daniel-davis-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md`
 - `source-napolitano-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md`

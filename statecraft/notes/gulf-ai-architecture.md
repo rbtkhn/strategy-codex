@@ -59,7 +59,7 @@ Verbatim anchor:
 Not LLM doctrine — **AI-enabled weapons** in Hormuz/Iran stack:
 
 - [2026-05-09 Crooke essay](../source-archive/statecraft/2026-05-09/source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md) — loitering submersibles, **AI targeting**
-- [2026-04-23 Davis × Crooke](../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) — Hormuz drones, **AI to select target**
+- [2026-04-23 Davis × Crooke](../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) — Hormuz drones, **AI to select target**
 
 Route to [ritter-on-ai.md](./ritter-on-ai.md) / [weichert-on-ai.md](./weichert-on-ai.md) for US kill-chain; this note holds **Gulf financial-architecture** only.
 

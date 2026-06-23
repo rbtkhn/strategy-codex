@@ -8,7 +8,7 @@ WORK only; not Record.
 
 - [Johnson / Dialogue Works](../../source-archive/statecraft/2026-06-15/source-alkorshid-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md)
 - [Johnson / Judging Freedom](../../source-archive/statecraft/2026-06-15/source-napolitano-johnson-is-this-any-way-to-negotiate-2026-06-15.md)
-- [Davis / Deep Dive (solo)](../../source-archive/statecraft/2026-06-15/source-daniel-davis-deep-dive-whats-the-deal-with-iran-2026-06-15.md)
+- [Davis / Deep Dive (solo)](../../source-archive/statecraft/2026-06-15/source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md)
 
 ## Purpose
 

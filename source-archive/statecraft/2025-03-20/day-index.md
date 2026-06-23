@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=F2Uy1kGrVKQ) | `source-alex-mercouris-trump-no-as-zelensky-begs-patriots-wants-power-plants-moscow-all-4-regions-ours-sanctions-to-stay-2025-03-20.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=BWbDO4UJ0wg) | `source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=BWbDO4UJ0wg) | `source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=Z2j4d9brMPc) | `source-glenn-diesen-seyed-marandi-is-israel-destroying-itself-2025-03-20.md` |
 
 ## Writer sources
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-no-as-zelensky-begs-patriots-wants-power-plants-moscow-all-4-regions-ours-sanctions-to-stay-2025-03-20.md`
-- `source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md`
+- `source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md`
 - `source-glenn-diesen-seyed-marandi-is-israel-destroying-itself-2025-03-20.md`

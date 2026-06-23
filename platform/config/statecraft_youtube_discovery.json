@@ -57,23 +57,74 @@
     "Breaking Points": "breaking-points"
   },
   "filename_prefix_index_canonical": [
-    ["source-dialogue-works-", "dialogue-works"],
-    ["source-glenn-diesen-", "glenn-diesen"],
-    ["source-diesen-", "glenn-diesen"],
-    ["source-napolitano-", "judging-freedom"],
-    ["transcript-napolitano-", "judging-freedom"],
-    ["source-davis-", "daniel-davis"],
-    ["source-alkorshid-", "dialogue-works"],
-    ["source-redacted-", "redacted-news"],
-    ["source-kiriakou-", "john-kiriakou"],
-    ["source-lascaris-", "reason-resist"],
-    ["source-india-global-left-", "india-global-left"],
-    ["source-moral-resistance-", "moral-resistance"],
-    ["source-game-theory-", "predictive-history"],
-    ["source-interviews-", "predictive-history"],
-    ["source-breaking-points-", "breaking-points"],
-    ["source-nawfal-", "mario-nawfal"],
-    ["source-neutrality-studies-", "neutrality-studies"]
+    [
+      "source-daniel-davis-",
+      "daniel-davis"
+    ],
+    [
+      "source-dialogue-works-",
+      "dialogue-works"
+    ],
+    [
+      "source-glenn-diesen-",
+      "glenn-diesen"
+    ],
+    [
+      "source-diesen-",
+      "glenn-diesen"
+    ],
+    [
+      "source-napolitano-",
+      "judging-freedom"
+    ],
+    [
+      "transcript-napolitano-",
+      "judging-freedom"
+    ],
+    [
+      "source-alkorshid-",
+      "dialogue-works"
+    ],
+    [
+      "source-redacted-",
+      "redacted-news"
+    ],
+    [
+      "source-kiriakou-",
+      "john-kiriakou"
+    ],
+    [
+      "source-lascaris-",
+      "reason-resist"
+    ],
+    [
+      "source-india-global-left-",
+      "india-global-left"
+    ],
+    [
+      "source-moral-resistance-",
+      "moral-resistance"
+    ],
+    [
+      "source-game-theory-",
+      "predictive-history"
+    ],
+    [
+      "source-interviews-",
+      "predictive-history"
+    ],
+    [
+      "source-breaking-points-",
+      "breaking-points"
+    ],
+    [
+      "source-nawfal-",
+      "mario-nawfal"
+    ],
+    [
+      "source-neutrality-studies-",
+      "neutrality-studies"
+    ]
   ],
   "channel_index_misc_slugs": [
     "jeffrey-sachs",
@@ -103,7 +154,7 @@
       "show": "Daniel Davis Deep Dive",
       "host": "Daniel Davis",
       "thread": "davis",
-      "file_prefix": "youtube-daniel-davis-deep-dive",
+      "file_prefix": "source-daniel-davis",
       "daily_watchlist": true,
       "discovery_priority": [
         "uploads_playlist",

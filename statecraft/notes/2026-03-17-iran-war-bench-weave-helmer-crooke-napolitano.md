@@ -18,7 +18,7 @@ WORK only; not Record.
 | **Parsi** (Larijani assassination logic) | [Parsi — Why was Larijani targeted?](../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md) | Substack | newsletter |
 | **Mercouris** (institutional solo) | [Mercouris — US Mulls Iran Ground Invasion… Larijani Dead](../../source-archive/statecraft/2026-03-17/source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md) | https://www.youtube.com/watch?v=kcd_Y41tPFI | **full yt-dlp manual subs** (~49 KB; tri-line deduped) |
 
-| **Davis × Henningsen** (practitioner) | [Global Reset wedge](./2026-03-17-davis-henningsen-global-reset-wedge.md) ← [capture](../../source-archive/statecraft/2026-03-17/source-daniel-davis-deep-dive-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) | https://www.youtube.com/watch?v=EV6WOiBj5HA | full (~21 KB) |
+| **Davis × Henningsen** (practitioner) | [Global Reset wedge](./2026-03-17-davis-henningsen-global-reset-wedge.md) ← [capture](../../source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) | https://www.youtube.com/watch?v=EV6WOiBj5HA | full (~21 KB) |
 
 **Practitioner lane:** [Davis × Henningsen — Global Reset wedge](./2026-03-17-davis-henningsen-global-reset-wedge.md) — escort/NATO politics, **Keane** 15k- strike clip, **info-ops** continuity, empire-decline; couples to bench above.
 

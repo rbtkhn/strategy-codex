@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RsMRz7UrbC8) | `source-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `postol` | [watch](https://www.youtube.com/watch?v=-CBfkTMoCA0) | `source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Oy9lqRxquAk) | `source-daniel-davis-deep-dive-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=M0fQsI6L6Lo) | `source-daniel-davis-deep-dive-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `postol` | [watch](https://www.youtube.com/watch?v=-CBfkTMoCA0) | `source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Oy9lqRxquAk) | `source-daniel-davis-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=M0fQsI6L6Lo) | `source-daniel-davis-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=HO-Z7dmhHPM) | `source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md` |
 | `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [hJuCBS9jPn0](https://www.youtube.com/watch?v=hJuCBS9jPn0) | `source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md` |
 
@@ -58,9 +58,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md`
-- `source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md`
-- `source-daniel-davis-deep-dive-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md`
-- `source-daniel-davis-deep-dive-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md`
+- `source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md`
+- `source-daniel-davis-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md`
+- `source-daniel-davis-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md`
 - `source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md`
 - `source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md`
 - `source-vatican-magnifica-humanitas-leo-xiv-2026-05-15.md`

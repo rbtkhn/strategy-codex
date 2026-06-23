@@ -17,7 +17,7 @@ Month status: `mature retrieval month`
   - Support-tier continuation node.
   - Support-tier continuation node.
   - Support-tier continuation node.
-- [source-davis-macgregor-trump-dangerous-2026-04-29.md](../../../../source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
+- [source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md](../../../../source-archive/statecraft/2026-04-29/source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md)
   - Davis lane caps the month with feasibility, danger, and overreach cost language.
 
 ## Reading note

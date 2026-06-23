@@ -3,7 +3,7 @@ kind: transcript
 source_form: solo
 pub_date: 2025-12-20
 ingest_date: 2026-05-20
-thread: daniel-davis
+thread: davis
 show: Daniel Davis / Deep Dive
 host: Daniel Davis
 title: "Ukraine Russia War Reporting Hoax /Lt Col Daniel Davis"
@@ -11,7 +11,7 @@ source_url: "https://www.youtube.com/watch?v=szgmI1Zw2bQ"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 source_note: "Operator-pasted YouTube transcript captured from local Codex session log."
 ---
 # Ukraine Russia War Reporting Hoax /Lt Col Daniel Davis

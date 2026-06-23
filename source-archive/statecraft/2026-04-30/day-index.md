@@ -51,12 +51,12 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `davis`, `mearsheimer` | — | `source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md` |
+| John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md` |
 
 ## Files
 
 - `source-alex-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-euro-2026-04-30.md`
-- `source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md`
+- `source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md`
 - `source-diesen-johnson-iran-winning-2026-04-30.md`
 - `source-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-europe-risks-world-war-donbas-2026-04-30.md`
 - `source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md`

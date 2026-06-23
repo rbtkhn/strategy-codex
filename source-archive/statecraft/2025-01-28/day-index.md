@@ -33,13 +33,13 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_EAAGhhLXPE) | `source-alex-mercouris-trump-delays-putin-call-zelensky-again-demands-nato-sacks-top-general-uk-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=A9xAqY5CIUw) | `source-daniel-davis-deep-dive-breaking-trump-s-new-military-executive-orders-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ck7k2GMU_7I) | `source-daniel-davis-deep-dive-chances-of-us-civil-war-greater-than-you-realize-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=ANYntBr7fD8) | `source-daniel-davis-deep-dive-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=kJnjvqCCZgE) | `source-daniel-davis-deep-dive-col-doug-magregor-ukraine-russia-war-trump-s-limited-options-for-peace-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=uVSWyLnN0B4) | `source-daniel-davis-deep-dive-exclusive-russian-partisans-prepare-to-rise-up-in-ukraine-cities-w-col-j-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=wqu_9TlLlKg) | `source-daniel-davis-deep-dive-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=hs5S8Wc3G60) | `source-daniel-davis-deep-dive-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=A9xAqY5CIUw) | `source-daniel-davis-breaking-trump-s-new-military-executive-orders-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ck7k2GMU_7I) | `source-daniel-davis-chances-of-us-civil-war-greater-than-you-realize-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=ANYntBr7fD8) | `source-daniel-davis-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=kJnjvqCCZgE) | `source-daniel-davis-col-doug-magregor-ukraine-russia-war-trump-s-limited-options-for-peace-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=uVSWyLnN0B4) | `source-daniel-davis-exclusive-russian-partisans-prepare-to-rise-up-in-ukraine-cities-w-col-j-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=wqu_9TlLlKg) | `source-daniel-davis-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=hs5S8Wc3G60) | `source-daniel-davis-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-netanyahu-on-the-ropes-2025-01-28.md` |
 
 ## Writer sources
@@ -61,12 +61,12 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-delays-putin-call-zelensky-again-demands-nato-sacks-top-general-uk-2025-01-28.md`
-- `source-daniel-davis-deep-dive-breaking-trump-s-new-military-executive-orders-2025-01-28.md`
-- `source-daniel-davis-deep-dive-chances-of-us-civil-war-greater-than-you-realize-2025-01-28.md`
-- `source-daniel-davis-deep-dive-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md`
-- `source-daniel-davis-deep-dive-col-doug-magregor-ukraine-russia-war-trump-s-limited-options-for-peace-2025-01-28.md`
-- `source-daniel-davis-deep-dive-exclusive-russian-partisans-prepare-to-rise-up-in-ukraine-cities-w-col-j-2025-01-28.md`
-- `source-daniel-davis-deep-dive-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md`
-- `source-daniel-davis-deep-dive-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md`
+- `source-daniel-davis-breaking-trump-s-new-military-executive-orders-2025-01-28.md`
+- `source-daniel-davis-chances-of-us-civil-war-greater-than-you-realize-2025-01-28.md`
+- `source-daniel-davis-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md`
+- `source-daniel-davis-col-doug-magregor-ukraine-russia-war-trump-s-limited-options-for-peace-2025-01-28.md`
+- `source-daniel-davis-exclusive-russian-partisans-prepare-to-rise-up-in-ukraine-cities-w-col-j-2025-01-28.md`
+- `source-daniel-davis-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md`
+- `source-daniel-davis-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md`
 - `source-napolitano-amb-chas-freeman-netanyahu-on-the-ropes-2025-01-28.md`
 - `source-vatican-antiqua-et-nova-ai-2025-01-28.md`

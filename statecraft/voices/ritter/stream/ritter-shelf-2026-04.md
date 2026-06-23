@@ -8,11 +8,11 @@ Month status: `mature dense-core month`
 
 ## April index
 
-- [2026-04-05 Davis](../../../../source-archive/statecraft/2026-04-05/source-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md)
+- [2026-04-05 Davis](../../../../source-archive/statecraft/2026-04-05/source-daniel-davis-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md)
   - Practical air-war falsifier.
 - [2026-04-08 Dialogue Works](../../../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
   - Ceasefire-collapse and live-pressure acceleration.
-- [2026-04-13 Davis](../../../../source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- [2026-04-13 Davis](../../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
   - Cleanest blockade-practicality opening.
 - [2026-04-17 Diesen](../../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
   - Europe spillover and widened escalation horizon.

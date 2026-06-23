@@ -88,9 +88,9 @@ Anchors:
 - 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../years/2026/provenance/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
 - 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
-- 2026-01-20 - Daniel Davis / Deep Dive, *Iran, EU & Trump, Greenland*: [raw-input](../../../years/2026/provenance/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
+- 2026-01-20 - Daniel Davis / Deep Dive, *Iran, EU & Trump, Greenland*: [raw-input](../../../years/2026/provenance/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
 - 2026-02-06 - Dialogue Works, *Negotiations or the Brink of All-Out War?*: [raw-input](../../../years/2026/provenance/2026-02-06/source-dialogue-works-amb-chas-freeman-negotiations-or-the-brink-of-all-out-war-2026-02-06.md)
-- 2026-03-06 - Daniel Davis / Deep Dive, *Diplomacy is DEAD w/IRAN*: [raw-input](../../../years/2026/provenance/2026-03-06/source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- 2026-03-06 - Daniel Davis / Deep Dive, *Diplomacy is DEAD w/IRAN*: [raw-input](../../../years/2026/provenance/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
 - 2026-04-14 - Judging Freedom, *Israel's Strategy Collapsing*: [raw-input](../../../years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md)
 - 2026-04-18 - Glenn Diesen, *Diplomacy Fails - Strait of Hormuz Shut Down Again*: [raw-input](../../../years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
 

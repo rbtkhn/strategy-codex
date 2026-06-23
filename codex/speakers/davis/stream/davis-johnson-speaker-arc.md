@@ -46,12 +46,12 @@ This lane is now materially present on disk as a 2026 Iran-war run. It should be
 
 If the operator needs only one file:
 
-- open [source-davis-johnson-hormuz-freedom-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
+- open [source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md)
 
 If the operator needs the best paired read:
 
-- open [source-davis-johnson-hormuz-freedom-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
-- then [source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-22/source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
+- open [source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md)
+- then [source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-22/source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
 
 That pair gives the clearest mature lane shape:
 

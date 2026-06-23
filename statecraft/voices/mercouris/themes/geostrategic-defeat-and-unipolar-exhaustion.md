@@ -24,7 +24,7 @@ Mercouris repeatedly uses Vietnam, the end of the Cold War, and broader invasion
 
 - [2025-01-10 native raw-input](../../../../source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "a far bigger defeat potentially than the defeat that the United States experienced in Vietnam"
 - same source: "reverses to a great extent the glow of victory that the United States gave itself at the end of the Cold War"
-- [2025-04-10 Daniel Davis raw-input](../../../../source-archive/statecraft/2025-04-10/source-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md): "they don't understand or at least they don't want to understand Russian history"
+- [2025-04-10 Daniel Davis raw-input](../../../../source-archive/statecraft/2025-04-10/source-daniel-davis-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md): "they don't understand or at least they don't want to understand Russian history"
 
 ## What Mercouris Is Arguing
 

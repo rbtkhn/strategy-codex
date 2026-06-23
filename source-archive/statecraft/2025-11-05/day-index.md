@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=weBSPW0_3K4) | `source-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=weBSPW0_3K4) | `source-daniel-davis-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md` |
 | `dialogue-works` | — | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=UMTrfuXVD4g) | `source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md` |
 | `jeffrey-sachs` | Jeffrey Sachs | `sachs` | [watch](https://www.youtube.com/watch?v=XwGXSKe3ZeY) | `source-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md`
+- `source-daniel-davis-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md`
 - `source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md`
 - `source-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md`

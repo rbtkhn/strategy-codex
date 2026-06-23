@@ -122,7 +122,7 @@ Material ceiling **forces** the off-ramp; sabotage register **predicates** where
 |---|---|
 | Macgregor | `source-archive/statecraft/2026-06-18/source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md` |
 | Blumenthal | `source-archive/statecraft/2026-06-18/source-napolitano-blumenthal-israel-in-panic-2026-06-18.md` |
-| Davis | `source-archive/statecraft/2026-06-18/source-daniel-davis-deep-dive-tough-road-iran-deal-lays-out-2026-06-18.md` |
+| Davis | `source-archive/statecraft/2026-06-18/source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md` |
 | Henningsen | `source-archive/statecraft/2026-06-18/source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md` |
 | Henningsen prior | `source-archive/statecraft/2026-06-16/source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` |
 | Day index | `source-archive/statecraft/2026-06-18/README.md` |

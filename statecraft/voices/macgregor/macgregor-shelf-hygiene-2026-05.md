@@ -71,9 +71,9 @@ Open:
 
 - [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
 - [2026-03-02 Diesen x Macgregor](../../../source-archive/statecraft/2026-03-02/source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
-- [2026-03-03 Davis x Macgregor](../../../source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
-- [2026-03-10 Davis x Macgregor](../../../source-archive/statecraft/2026-03-10/source-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
-- [2026-03-15 Davis x Macgregor](../../../source-archive/statecraft/2026-03-15/source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
+- [2026-03-03 Davis x Macgregor](../../../source-archive/statecraft/2026-03-03/source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
+- [2026-03-10 Davis x Macgregor](../../../source-archive/statecraft/2026-03-10/source-daniel-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
+- [2026-03-15 Davis x Macgregor](../../../source-archive/statecraft/2026-03-15/source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
 - [2026-03-26 Napolitano x Macgregor](../../../source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
 
 ### 2026-04
@@ -85,7 +85,7 @@ Open:
 - [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
 - [2026-04-21 Diesen x Macgregor](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 - [2026-04-23 Judging Freedom x Macgregor](../../../source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- [2026-04-29 Davis x Macgregor](../../../source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
+- [2026-04-29 Davis x Macgregor](../../../source-archive/statecraft/2026-04-29/source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md)
 
 ### 2026-05
 
@@ -94,8 +94,8 @@ Status: `support-only month`
 Open:
 
 - [stream/macgregor-shelf-2026-05.md](stream/macgregor-shelf-2026-05.md)
-- [2026-05-05 Davis x Macgregor](../../../source-archive/statecraft/2026-05-05/source-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
-- [2026-05-12 Davis x Macgregor](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
+- [2026-05-05 Davis x Macgregor](../../../source-archive/statecraft/2026-05-05/source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- [2026-05-12 Davis x Macgregor](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md)
 
 ## Source-boundary audit
 

@@ -24,7 +24,7 @@ _(Stub.)_
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-29/source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md](../../../years/2026/provenance/2026-04-29/source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
+- **Full verbatim (capture):** [provenance/2026-04-29/source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md](../../../years/2026/provenance/2026-04-29/source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:johnson`, 2026-04-29)
 - **`thread:johnson`** · **verify:** `pub_date:2026-04-29` + full-text under raw-input path above (+ **`thread:davis`** Deep Dive host seam as needed)
 - **Canonical primary:** https://www.youtube.com/watch?v=YHIlsUIWSfc

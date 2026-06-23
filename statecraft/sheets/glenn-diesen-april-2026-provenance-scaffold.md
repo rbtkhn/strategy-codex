@@ -18,7 +18,7 @@ This file is a month-scoped scaffold for the April 2026 strategy backlog. In the
 
 | pub_date | status | kind | title / stub | source_url | raw-input file |
 |----------|--------|------|--------------|------------|----------------|
-| 2026-04-02 | needs canonical URL | operator-transcript | davis-diesen-trump-war-speech-nato-2026-04-02 | ? | [2026-04-02/source-davis-diesen-trump-war-speech-2026-04-02.md](./2026-04-02/source-davis-diesen-trump-war-speech-2026-04-02.md) |
+| 2026-04-02 | needs canonical URL | operator-transcript | davis-diesen-trump-war-speech-nato-2026-04-02 | ? | [2026-04-02/source-glenn-diesen-daniel-davis-trump-war-speech-2026-04-02.md](./2026-04-02/source-glenn-diesen-daniel-davis-trump-war-speech-2026-04-02.md) |
 | 2026-04-10 | ready | operator-transcript | John Mearsheimer: World Changed Forever as Iran Defeated the U.S. | [https://www.youtube.com/watch?v=H2K3qDshr70](https://www.youtube.com/watch?v=H2K3qDshr70) | [2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](./2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md) |
 | 2026-04-17 | ready | operator-transcript | Scott Ritter: Russia Threatens Strike on Finland & Baltic States | [https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04](https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04) | [2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](./2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) |
 | 2026-04-17 | needs canonical URL | transcript | transcript-diesen | ? | [2026-04-17/source-diesen-2026-04-18.md](./2026-04-17/source-diesen-2026-04-18.md) |

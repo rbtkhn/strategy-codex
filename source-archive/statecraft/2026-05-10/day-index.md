@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=4YnCu_xC4rQ) | `source-alex-mercouris-putin-press-conference-britain-germany-ukraine-hormuz-2026-05-10.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou`, `krapivnik` | [watch](https://www.youtube.com/watch?v=sNkFbQZnKG0) | `source-alex-mercouris-stanislav-krapivnik-russia-ukraine-drones-world-war-2026-05-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=2dBcaSFuPUg) | `source-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=2dBcaSFuPUg) | `source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `karaganov` | [watch](https://www.youtube.com/watch?v=2Gd5jdl36cg) | `source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md` |
 | `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=HcCJpGh9M54) | `source-nima-alkorshid-patrick-henningsen-iran-us-blockade-china-israel-2026-05-10.md` |
 | `let-s-talk-geopolitics` | Let's Talk Geopolitics | `ritter` | [watch](https://www.youtube.com/watch?v=-idI5zKO1M8) | `source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md` |
@@ -59,7 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-putin-press-conference-britain-germany-ukraine-hormuz-2026-05-10.md`
 - `source-alex-mercouris-stanislav-krapivnik-russia-ukraine-drones-world-war-2026-05-10.md`
-- `source-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md`
+- `source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md`
 - `source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md`
 - `source-nima-alkorshid-patrick-henningsen-iran-us-blockade-china-israel-2026-05-10.md`
 - `source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md`

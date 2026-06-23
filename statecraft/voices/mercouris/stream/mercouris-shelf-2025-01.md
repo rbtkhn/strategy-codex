@@ -20,7 +20,7 @@ Month status: `prehistory setup month`
   - Iran pressure, Israel-side instability, and Russia-front movement continue to braid rather than split into separate lanes.
 - [source-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md](../../../../source-archive/statecraft/2025-01-14/source-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md)
   - January now clearly carries negotiation geometry, strike escalation, and Gaza-side instability in one field.
-- [source-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md](../../../../source-archive/statecraft/2025-01-16/source-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
+- [source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md](../../../../source-archive/statecraft/2025-01-16/source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
   - Early Davis reinforcement shows that the legitimacy-crisis and war-rhetoric strand is already reusable outside the native channel.
 - [source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md](../../../../source-archive/statecraft/2025-01-18/source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md)
   - Escalation fear, British and Ukrainian theater, and the mismatch between rhetoric and executable power intensify.

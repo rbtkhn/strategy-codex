@@ -15,7 +15,7 @@ thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 title: Putin & Macron Try to Persuade Trump to Their Side in RU/UKR War
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=S9ROJmN0HQ4"
 youtube_id: S9ROJmN0HQ4

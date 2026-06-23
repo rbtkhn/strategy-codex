@@ -23,7 +23,7 @@ Mearsheimer repeatedly argues that negotiation with Russia is damaged not only b
 
 ## Exact Quote Anchors
 
-- [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
   > "the West wants to tell everybody is that Putin is the ultimate bad guy"
 
   > "the Russians today say they don't trust the West"
@@ -33,7 +33,7 @@ Mearsheimer repeatedly argues that negotiation with Russia is damaged not only b
 
   > "I don't think the Russians can trust the United States"
 
-- [2025-05-10 Daniel Davis](../../years/2026/provenance/2025-05-10/source-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md)
+- [2025-05-10 Daniel Davis](../../years/2026/provenance/2025-05-10/source-daniel-davis-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md)
   > "he's showing great disrespect to Russia and to the former Soviet Union"
 
   > "Is he a reliable negotiating partner?"

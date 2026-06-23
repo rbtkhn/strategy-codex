@@ -23,7 +23,7 @@ Mearsheimer repeatedly invokes World War II, Iraq, maximum-pressure Iran, and Na
 
 ## Exact Quote Anchors
 
-- [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
   > "We saw this in World War II with the bombing campaigns against Japan and Germany."
 
   > "they wouldn't surrender from a punishment campaign."

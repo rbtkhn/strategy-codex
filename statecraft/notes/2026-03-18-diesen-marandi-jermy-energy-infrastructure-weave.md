@@ -8,7 +8,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Diesen × Marandi — U.S. attacked world's largest gas field; Iran declares economic war](../../source-archive/statecraft/2026-03-18/source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md) — https://www.youtube.com/watch?v=AYLACkCWXRA — **cleaned full transcript** (`source-clean` + **wire-verify** 2026-06-22; `## Transcript` scaffold added)
-- [Davis × Jermy — Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-deep-dive-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) — https://www.youtube.com/watch?v=HHLYXJDooZE — **cleaned full transcript** (ingest 2026-06-22; Kharg patch; `source-clean`)
+- [Davis × Jermy — Iran war & global energy markets](../../source-archive/statecraft/2026-03-18/source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md) — https://www.youtube.com/watch?v=HHLYXJDooZE — **cleaned full transcript** (ingest 2026-06-22; Kharg patch; `source-clean`)
 
 **Related same-day weave (dual-front, not collapsed):** [Jermy × Mercouris — energy shock vs arsenal drain](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md)
 

@@ -119,7 +119,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 - [`2026-06-02` Napolitano — Israel veto peace](../../../source-archive/statecraft/2026-06-02/source-napolitano-mearsheimer-will-israel-veto-an-american-peace-2026-06-02.md)
 - [`2026-06-09` Carlson — clean exit unlikely](../../../source-archive/statecraft/2026-06-09/source-mearsheimer-carlson-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md)
-- [`2026-06-11` Davis — strategy changes again](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-john-mearsheimer-iran-war-strategy-changes-again-2026-06-11.md)
+- [`2026-06-11` Davis — strategy changes again](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-john-mearsheimer-iran-war-strategy-changes-again-2026-06-11.md)
 
 ---
 

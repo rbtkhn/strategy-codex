@@ -33,11 +33,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=t5Y8iaJPYEA) | `source-alex-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2-yrlT91t28) | `source-daniel-davis-deep-dive-devastating-failure-in-ukraine-s-kursk-offensive-2025-01-07.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=zw2tTf_aB8Y) | `source-daniel-davis-deep-dive-over-100k-ukraine-troops-charged-with-desertion-2025-01-07.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oxDI-Ralqy8) | `source-daniel-davis-deep-dive-trump-on-ukraine-russia-iran-israel-2025-01-07.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=9EH9P415wHk) | `source-daniel-davis-deep-dive-trump-s-ukraine-dilemma-2025-01-07.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=fwgquSSc4NE) | `source-daniel-davis-deep-dive-trump-tells-zelensky-nato-will-not-be-ukraine-s-future-2025-01-07.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2-yrlT91t28) | `source-daniel-davis-devastating-failure-in-ukraine-s-kursk-offensive-2025-01-07.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=zw2tTf_aB8Y) | `source-daniel-davis-over-100k-ukraine-troops-charged-with-desertion-2025-01-07.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oxDI-Ralqy8) | `source-daniel-davis-trump-on-ukraine-russia-iran-israel-2025-01-07.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=9EH9P415wHk) | `source-daniel-davis-trump-s-ukraine-dilemma-2025-01-07.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=fwgquSSc4NE) | `source-daniel-davis-trump-tells-zelensky-nato-will-not-be-ukraine-s-future-2025-01-07.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md` |
 
 ## Writer sources
@@ -59,9 +59,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md`
-- `source-daniel-davis-deep-dive-devastating-failure-in-ukraine-s-kursk-offensive-2025-01-07.md`
-- `source-daniel-davis-deep-dive-over-100k-ukraine-troops-charged-with-desertion-2025-01-07.md`
-- `source-daniel-davis-deep-dive-trump-on-ukraine-russia-iran-israel-2025-01-07.md`
-- `source-daniel-davis-deep-dive-trump-s-ukraine-dilemma-2025-01-07.md`
-- `source-daniel-davis-deep-dive-trump-tells-zelensky-nato-will-not-be-ukraine-s-future-2025-01-07.md`
+- `source-daniel-davis-devastating-failure-in-ukraine-s-kursk-offensive-2025-01-07.md`
+- `source-daniel-davis-over-100k-ukraine-troops-charged-with-desertion-2025-01-07.md`
+- `source-daniel-davis-trump-on-ukraine-russia-iran-israel-2025-01-07.md`
+- `source-daniel-davis-trump-s-ukraine-dilemma-2025-01-07.md`
+- `source-daniel-davis-trump-tells-zelensky-nato-will-not-be-ukraine-s-future-2025-01-07.md`
 - `source-napolitano-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md`

@@ -8,7 +8,7 @@ March is the bridge month where Johnson stops being just a recurring cross-host 
 
 Best openings:
 
-- [2026-03-11 Davis](../../../../source-archive/statecraft/2026-03-11/source-davis-johnson-trumps-lost-control-2026-03-11.md)
+- [2026-03-11 Davis](../../../../source-archive/statecraft/2026-03-11/source-daniel-davis-johnson-trumps-lost-control-2026-03-11.md)
 - [2026-03-15 Diesen](../../../../source-archive/statecraft/2026-03-15/source-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md)
 - [2026-03-16 Dialogue Works](../../../../source-archive/statecraft/2026-03-16/source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md)
 

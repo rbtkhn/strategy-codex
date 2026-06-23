@@ -8,7 +8,7 @@ transcript_type: operator_pasted_transcript
 title: "Clock is Ticking: Next Round of Iran War /Lt Col Daniel Davis"
 source_url: https://www.youtube.com/watch?v=XgIgxiJimaE
 youtube_id: XgIgxiJimaE
-channel_slug: daniel-davis-deep-dive
+channel_slug: daniel-davis
 source_note: Transcript pasted manually by operator after automated yt-dlp discovery and fetch were blocked by YouTube bot/auth checks.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Daniel Davis Deep Dive

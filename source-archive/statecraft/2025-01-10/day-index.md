@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 - Guests: `Chas Freeman` (1), `Drones UPDATE` (1), `Jeffrey Sachs` (1)
-- Threads: `davis` (3), `daniel-davis-deep-dive` (2), `alex-mercouris` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `sachs` (1)
+- Threads: `davis` (3), `alex-mercouris` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=W6ovr7VbO2k) | `source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=K3dcHstbdrE) | `source-daniel-davis-deep-dive-drones-update-trump-promises-report-in-days-2025-01-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis` | [watch](https://www.youtube.com/watch?v=XrYqSMN6icw) | `source-daniel-davis-deep-dive-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=_AZiZJf5ZgQ) | `source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=K3dcHstbdrE) | `source-daniel-davis-drones-update-trump-promises-report-in-days-2025-01-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=XrYqSMN6icw) | `source-daniel-davis-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=_AZiZJf5ZgQ) | `source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md` |
 
 ## Writer sources
 
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md`
-- `source-daniel-davis-deep-dive-drones-update-trump-promises-report-in-days-2025-01-10.md`
-- `source-daniel-davis-deep-dive-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md`
-- `source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md`
+- `source-daniel-davis-drones-update-trump-promises-report-in-days-2025-01-10.md`
+- `source-daniel-davis-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md`
+- `source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md`
 - `source-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md`

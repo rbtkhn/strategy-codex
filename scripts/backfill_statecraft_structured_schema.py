@@ -17,7 +17,7 @@ FRONTMATTER_RE = sda.FRONTMATTER_RE
 STRUCTURED_KEYS = ("host_people", "guest_people", "show_title", "channel_name")
 
 HOST_OVERRIDES: dict[str, tuple[str, ...]] = {
-    "source-daniel-davis-deep-dive-col-douglas-macgregor-the-israel-first-white-house-2026-06-02.md": ("Daniel Davis",),
+    "source-daniel-davis-col-douglas-macgregor-the-israel-first-white-house-2026-06-02.md": ("Daniel Davis",),
     "source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md": ("Glenn Diesen",),
 }
 

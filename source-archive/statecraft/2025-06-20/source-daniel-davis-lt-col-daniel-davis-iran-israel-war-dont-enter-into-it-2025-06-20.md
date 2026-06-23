@@ -8,7 +8,7 @@ show: Daniel Davis Deep Dive
 host: Daniel Davis
 title: "Lt Col Daniel Davis: Iran-Israel War - DON'T ENTER into IT"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
-channel_slug: "daniel-davis-deep-dive"
+channel_slug: daniel-davis
 source_url: "https://www.youtube.com/watch?v=ksStl8ytXzk"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript

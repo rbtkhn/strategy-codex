@@ -59,7 +59,7 @@ Where newer intake landed directly into the live archive without a parallel prov
 - [substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08](../../years/2026/provenance/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md)
 - [substack-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09](../../years/2026/provenance/2026-03-09/source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md)
 - [transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16](../../years/2026/provenance/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
-- [youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16](../../years/2026/provenance/2026-03-16/source-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
+- [youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16](../../years/2026/provenance/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
 - [substack-parsi-why-was-larijani-targeted-2026-03-17](../../years/2026/provenance/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md)
 
 ## 2026-04

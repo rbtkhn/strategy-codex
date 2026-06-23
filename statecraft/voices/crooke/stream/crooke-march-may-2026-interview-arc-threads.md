@@ -30,9 +30,9 @@ Crooke repeatedly treats coercive theater as a trap, not a solution. The intervi
 
 Primary files:
 
-- [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
+- [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
 - [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 2. Iran's steadfastness turns pressure into bargaining and strategic leverage
 
@@ -40,9 +40,9 @@ The interview strand keeps returning to Iranian preparedness, strategic patience
 
 Primary files:
 
-- [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
+- [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
 - [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 3. Hormuz and system exposure turn local war into wider dependency shock
 
@@ -52,7 +52,7 @@ Primary files:
 
 - [2026-03-20 Diesen x Crooke](../../../../source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
 - [2026-04-07 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
-- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 4. the Western war model and mechanistic reading of conflict are breaking down
 
@@ -69,8 +69,8 @@ Across the dense core, Crooke keeps distinguishing public motion from real settl
 
 Primary files:
 
-- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
-- [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 6. regional war widens into order-transition and civilizational consequence
 

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1)
 - Guests: `Commodore Steve Jermy` (1)
-- Threads: `crooke` (1), `davis` (1), `jermy` (1), `mercouris` (1), `simplicius` (1)
+- Threads: `crooke` (1), `jermy` (1), `mercouris` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [tH6Llc4xGBk](https://www.youtube.com/watch?v=tH6Llc4xGBk) | `source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `jermy`, `davis` | [BgPKfkTK_p4](https://www.youtube.com/watch?v=BgPKfkTK_p4) | `source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `jermy` | [BgPKfkTK_p4](https://www.youtube.com/watch?v=BgPKfkTK_p4) | `source-daniel-davis-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md` |
 
 ## Writer sources
 
@@ -56,5 +56,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md`
 - `source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md`
-- `source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md`
+- `source-daniel-davis-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md`
 - `source-simplicius-escalation-mad-trumps-coast-guard-2026-01-08.md`

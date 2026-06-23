@@ -117,7 +117,7 @@ Summary (do not duplicate full cites here):
 | Episode | Timestamp | Deal (Marandi) | Lebanon |
 |---------|-----------|----------------|---------|
 | [Diesen×Marandi](../../source-archive/statecraft/2026-06-14/source-glenn-diesen-seyed-m-marandi-israels-attack-on-beirut-sabotage-us-iran-deal-2026-06-14.md) | Sun afternoon | No final text; delayed | Retaliation expected |
-| [Davis×Marandi](../../source-archive/statecraft/2026-06-14/source-daniel-davis-deep-dive-marandi-iran-deal-complete-trump-says-2026-06-14.md) | ~02:41 Mon | Same post-close receipt | Withheld strike frame |
+| [Davis×Marandi](../../source-archive/statecraft/2026-06-14/source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md) | ~02:41 Mon | Same post-close receipt | Withheld strike frame |
 | ×Johnson (above) | ~03:00 Mon | Same | SNSC institutional read |
 
 **Method lock:**

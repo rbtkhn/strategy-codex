@@ -15,7 +15,7 @@ Use this file before opening host-local arcs when the question is about Johnson'
 | Date | Host | Title | Raw-input | Arc job |
 |---|---|---|---|---|
 | 2026-05-04 | Dialogue Works | *Hormuz, Canberra, Blockade* | [raw-input](../../../years/2026/provenance/2026-05-04/source-alkorshid-larry-johnson-hormuz-canberra-blockade-2026-05-04.md) | blockade continuation under live pressure |
-| 2026-05-05 | Daniel Davis / Deep Dive | *Iran War: Buffet of Stupidity & Lies* | [raw-input](../../../years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md) | coercive incoherence and shrinking realism |
+| 2026-05-05 | Daniel Davis / Deep Dive | *Iran War: Buffet of Stupidity & Lies* | [raw-input](../../../years/2026/provenance/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md) | coercive incoherence and shrinking realism |
 | 2026-05-08 | Dialogue Works | *Hormuz, Qatar, BRICS, Trump, China* | [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md) | Gulf/Qatar/BRICS/China repositioning |
 | 2026-05-08 | Glenn Diesen | *Iran War Creates a New Middle East* | [raw-input](../../../years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md) | regional-order redraw |
 | 2026-05-11 | Dialogue Works | *Netanyahu, Hormuz, China, Israel* | [raw-input](../../../years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md) | Israeli exposure and China angle under live pressure |

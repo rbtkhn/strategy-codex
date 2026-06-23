@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=yHqOBrFyCqA) | `source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=J1FnZp1N5po) | `source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=YzCI7IDtzXg) | `source-diesen-wilkerson-hormuz-brics-2026-05-06.md` |
 | `alexander-mercouris` | Mercouris | `mercouris`, `parsi` | [watch](https://www.youtube.com/watch?v=Pv7003ksQQ4) | `source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md` |
@@ -60,8 +60,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md`
-- `source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md`
-- `source-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md`
+- `source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md`
+- `source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md`
 - `source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md`
 - `source-diesen-wilkerson-hormuz-brics-2026-05-06.md`
 - `source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md`

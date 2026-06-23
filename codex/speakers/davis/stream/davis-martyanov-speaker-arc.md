@@ -49,12 +49,12 @@ This is enough to treat `Davis x Martyanov` as a real recurring host-local branc
 
 If the operator needs only one file:
 
-- open [2025-12-08 Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-08/source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
+- open [2025-12-08 Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
 
 If the operator needs the best paired read:
 
-- open [2025-12-08 Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-08/source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
-- then [2026-02-24 Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/source-daniel-davis-deep-dive-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
+- open [2025-12-08 Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
+- then [2026-02-24 Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
 
 That pair gives the clearest current lane shape:
 

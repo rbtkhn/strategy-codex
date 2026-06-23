@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (3)
 - Source form mix: `interview` (3)
-- Distinct channels/shows: `0`
+- Distinct channels/shows: `1`
 - Distinct hosts: `3`
 - Distinct guests: `2`
 - Distinct threads: `5`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Daniel Davis` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -48,11 +48,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `davis`, `mearsheimer` | — | `source-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md` |
+| John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md` |
 | John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md` |
 
 ## Files
 
-- `source-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md`
+- `source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md`
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-with-nato-s-collapse-new-world-order-emerges-2025-08-28.md`
 - `source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md`

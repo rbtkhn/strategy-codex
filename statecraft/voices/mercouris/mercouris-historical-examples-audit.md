@@ -101,7 +101,7 @@ Coverage basis:
 ### 1. Minsk as the failed ceasefire-first model that exhausted Russian trust
 
 - Example: `Minsk agreement`
-- Source: [2025-04-10 Daniel Davis](../../../source-archive/statecraft/2025-04-10/source-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md)
+- Source: [2025-04-10 Daniel Davis](../../../source-archive/statecraft/2025-04-10/source-daniel-davis-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md)
 - Exact quote:
 
 > "we've been there before. We tried that. That was what the Minsk agreement was all about and it didn't work"

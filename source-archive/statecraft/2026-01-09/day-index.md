@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Tn7BGPdzU9g) | `source-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](TBD) | `source-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](TBD) | `source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md` |
 
 ## Writer sources
 
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md`
-- `source-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md`
+- `source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md`
 - `source-parsi-as-tehran-cracks-down-trumps-likely-instincts-are-to-stay-out-2026-01-09.md`
 - `source-ritter-the-camels-bloody-nose-2026-01-09.md`
 - `source-simplicius-swift-retaliation-putin-launches-2026-01-09.md`

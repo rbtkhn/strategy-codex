@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=41dKk_qYOvE) | `source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=76W9pyG4Scs) | `source-daniel-davis-deep-dive-deep-dive-intel-briefing-what-we-learned-this-week-more-2025-01-18.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=7cauctJTefA) | `source-daniel-davis-deep-dive-did-israel-just-admit-defeat-to-hamas-2025-01-18.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=OpvenLHtSNY) | `source-daniel-davis-deep-dive-prepared-to-say-israel-committed-war-crimes-2025-01-18.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=7cauctJTefA) | `source-daniel-davis-did-israel-just-admit-defeat-to-hamas-2025-01-18.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=76W9pyG4Scs) | `source-daniel-davis-intel-briefing-what-we-learned-this-week-more-2025-01-18.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=OpvenLHtSNY) | `source-daniel-davis-prepared-to-say-israel-committed-war-crimes-2025-01-18.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `krainer`, `wilkerson` | [watch](https://www.youtube.com/watch?v=y5om65Go7yk) | `source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md` |
 
 ## Writer sources
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md`
-- `source-daniel-davis-deep-dive-deep-dive-intel-briefing-what-we-learned-this-week-more-2025-01-18.md`
-- `source-daniel-davis-deep-dive-did-israel-just-admit-defeat-to-hamas-2025-01-18.md`
-- `source-daniel-davis-deep-dive-prepared-to-say-israel-committed-war-crimes-2025-01-18.md`
+- `source-daniel-davis-did-israel-just-admit-defeat-to-hamas-2025-01-18.md`
+- `source-daniel-davis-intel-briefing-what-we-learned-this-week-more-2025-01-18.md`
+- `source-daniel-davis-prepared-to-say-israel-committed-war-crimes-2025-01-18.md`
 - `source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md`

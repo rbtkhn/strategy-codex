@@ -26,7 +26,7 @@ Freeman repeatedly invokes earlier treaties, armistices, and negotiation histori
 
 ## Exact Quote Anchors
 
-- [2025-01-10 Daniel Davis](../../years/2026/provenance/2025-01-10/source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
+- [2025-01-10 Daniel Davis](../../years/2026/provenance/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
   > "that would mean applying the precedent of the Austrian State Treaty ... which guaranteed rights to minorities in Austria as it created a neutral Austrian state"
 
 - [2025-03-12 Glenn Diesen](../../years/2026/provenance/2025-03-12/source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md)

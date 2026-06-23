@@ -47,9 +47,9 @@ A fresh Davis-stream search shows that the 2026 lane is larger than the currentl
 | Date | Title | Status |
 |---|---|---|
 | 2026-03-12 | *BOMBSHELL: FATAL FLAW in US WAR STRATEGY v Iran /Col Jacques Baud* | likely same-window companion; not materialized |
-| 2026-03-31 | *IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis* | materialized: [source-davis-baud-iran-war-latest-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-davis-baud-iran-war-latest-2026-03-31.md) |
+| 2026-03-31 | *IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis* | materialized: [source-daniel-davis-baud-iran-war-latest-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-daniel-davis-baud-iran-war-latest-2026-03-31.md) |
 | 2026-04-20 | *More Like Blackmail, Than Peace Talks w/Iran / Col Jacques Baud & Lt Col Daniel Davis* | likely companion to the mature Apr 20 anchor |
-| 2026-04-20 | *Reigniting the Iran War /Col Jacques Baud & Lt Col Daniel Davis* | materialized: [source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md) |
+| 2026-04-20 | *Reigniting the Iran War /Col Jacques Baud & Lt Col Daniel Davis* | materialized: [source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) |
 
 This means the lane should be read two ways:
 
@@ -60,13 +60,13 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md)
+- open [source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md)
 
 If the operator needs the best sequence:
 
-- open [source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-deep-dive-baud-iran-pakistan-diplomacy-2026-04-20.md)
-- then [source-davis-baud-irans-unwavering-attacks-2026-03-12.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-12/source-davis-baud-irans-unwavering-attacks-2026-03-12.md)
-- then [source-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-24/source-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md)
+- open [source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md)
+- then [source-daniel-davis-baud-irans-unwavering-attacks-2026-03-12.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-12/source-daniel-davis-baud-irans-unwavering-attacks-2026-03-12.md)
+- then [source-daniel-davis-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-24/source-daniel-davis-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md)
 
 That sequence gives the clearest full lane shape:
 

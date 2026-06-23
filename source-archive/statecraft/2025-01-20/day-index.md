@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=FerlWCEP3AM) | `source-alex-mercouris-trump-president-biden-blinken-exit-russia-china-summits-zelensky-fumes-s-2025-01-20.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=cPwcothN9tI) | `source-daniel-davis-deep-dive-trump-2-0-launches-a-blizzard-of-execorders-2025-01-20.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-M4iMZGaMH4) | `source-daniel-davis-deep-dive-ukraine-eastern-front-in-danger-of-collapse-as-trump-takes-reigns-2025-01-20.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=cPwcothN9tI) | `source-daniel-davis-trump-2-0-launches-a-blizzard-of-execorders-2025-01-20.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-M4iMZGaMH4) | `source-daniel-davis-ukraine-eastern-front-in-danger-of-collapse-as-trump-takes-reigns-2025-01-20.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-trump-president-biden-blinken-exit-russia-china-summits-zelensky-fumes-s-2025-01-20.md`
-- `source-daniel-davis-deep-dive-trump-2-0-launches-a-blizzard-of-execorders-2025-01-20.md`
-- `source-daniel-davis-deep-dive-ukraine-eastern-front-in-danger-of-collapse-as-trump-takes-reigns-2025-01-20.md`
+- `source-daniel-davis-trump-2-0-launches-a-blizzard-of-execorders-2025-01-20.md`
+- `source-daniel-davis-ukraine-eastern-front-in-danger-of-collapse-as-trump-takes-reigns-2025-01-20.md`

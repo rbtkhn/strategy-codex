@@ -36,8 +36,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `baud` | [watch](https://www.youtube.com/watch?v=LD3uX3lj0-Y) | `source-alkorshid-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `johnson` | [bgmx1Uz_QT0](https://www.youtube.com/watch?v=bgmx1Uz_QT0) | `source-alkorshid-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `kent` | [watch](https://www.youtube.com/watch?v=hQCziFanWf8) | `source-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [ACq6ZXOP314](https://www.youtube.com/watch?v=ACq6ZXOP314) | `source-daniel-davis-deep-dive-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [8ZKnRMc1m00](https://www.youtube.com/watch?v=8ZKnRMc1m00) | `source-daniel-davis-deep-dive-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [ACq6ZXOP314](https://www.youtube.com/watch?v=ACq6ZXOP314) | `source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [8ZKnRMc1m00](https://www.youtube.com/watch?v=8ZKnRMc1m00) | `source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=Pk15Ov0v98U) | `source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=NPNNM3ehgvE) | `source-duran-mercouris-seeking-war-with-russia-2026-06-01.md` |
 | `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [v3pyzLWMzJw](https://www.youtube.com/watch?v=v3pyzLWMzJw) | `source-napolitano-mcgovern-what-putin-is-thinking-2026-06-01.md` |
@@ -68,8 +68,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md`
 - `source-alkorshid-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md`
 - `source-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md`
-- `source-daniel-davis-deep-dive-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md`
-- `source-daniel-davis-deep-dive-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md`
+- `source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md`
+- `source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md`
 - `source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md`
 - `source-diesen-sachs-germany-is-leading-europe-toward-world-war-three-2026-06-01.md`
 - `source-duran-mercouris-seeking-war-with-russia-2026-06-01.md`
