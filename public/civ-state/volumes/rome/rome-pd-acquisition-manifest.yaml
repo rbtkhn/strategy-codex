@@ -2,7 +2,7 @@
 #
 # Index SSOT: rome-bibliography.md
 # Workflow: civ-state-primary-text-acquisition (witness-first; no bulk scrape into git)
-# Default local root — override in operator profile or env ROME_PD_LIBRARY_ROOT
+# Default local root (repo-relative) — override via env ROME_PD_LIBRARY_ROOT or absolute path
 #
 # Phase 1: scriptable (Gutenberg ebook id · Internet Archive identifier)
 # Phase 2: manual export (Lacus Curtius · Perseus · Latin Library · Livius)
@@ -12,7 +12,7 @@ manifest_version: "0.1.0"
 verified_against: rome-bibliography.md
 verified_date: "2026-06-22"
 
-local_root: "C:/dev/rome-pd-library"
+local_root: "library/rome"
 formats_preferred:
   gutenberg: epub
   internet_archive: epub

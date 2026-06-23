@@ -35,6 +35,25 @@ docs/skill-work/work-strategy/strategy-notebook/compiled-views/expert-polyphony-
 # Remove this line if you use `git submodule add … companion-self` and want it tracked.
 /companion-self/
 
+# Operator civilization primary shelf (PD text/binaries off-git; see library/README.md)
+/library/*
+!library/README.md
+!library/rome/
+library/rome/*
+!library/rome/.gitkeep
+!library/persia/
+library/persia/*
+!library/persia/.gitkeep
+!library/china/
+library/china/*
+!library/china/.gitkeep
+!library/russia/
+library/russia/*
+!library/russia/.gitkeep
+!library/america/
+library/america/*
+!library/america/.gitkeep
+
 # IDE
 .idea/
 .vscode/
