@@ -16,7 +16,7 @@ thread_expert: lascaris
 show: Reason to Resist
 host: Dimitri Lascaris
 title: "Russian Strikes on Europe's NATO Members Now Inevitable"
-channel_slug: reason-to-resist
+channel_slug: reason-resist
 source_url: "https://www.youtube.com/watch?v=515Tm5Tmfd0"
 youtube_id: 515Tm5Tmfd0
 source_note: "Operator-pasted transcript; host self-dates Kalamata Greece May 18 2026. Solo prediction: EU NATO MII strikes before end 2026; May 17 drone barrage (verify partial on 1500 count); MOD list 2026-04-15; Levada govt ~74%→63% (transcript patched); Karaganov clip = Diesen solo 2026-05-10. Cross-ref Karaganov ladder May 10 → Jun 13. · ASR pass 2026-06-17 · verify receipt 2026-06-17."

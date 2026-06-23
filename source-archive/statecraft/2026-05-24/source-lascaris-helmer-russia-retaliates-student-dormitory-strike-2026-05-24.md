@@ -20,7 +20,7 @@ show: Reason to Resist
 host: Dimitri Lascaris
 guest: John Helmer
 title: "Russia Retaliates After Ukrainian Strike On Student Dormitory w/ John Helmer"
-channel_slug: reason-to-resist
+channel_slug: reason-resist
 source_url: "https://www.youtube.com/watch?v=FkUVUxvUkl0"
 youtube_id: FkUVUxvUkl0
 source_note: "Operator-pasted transcript; host self-dates Kalamata Greece May 24 2026. Luhansk/Starobilsk dormitory 21 killed; Bila Tserkva/Kiev Oreshnik retaliation; Putin quotes vs street consensus; Dmitriev bribery thesis; Rubio Sweden; Xi Beijing; NATO rear / Lefkada drone; no NATO-state strike prediction. verify:wire-needed dormitory toll, Bila Tserkva target, Rubio Sweden quote. · ASR pass 2026-06-17."

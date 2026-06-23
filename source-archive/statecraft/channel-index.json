@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-23T12:13:25+00:00",
+  "generated_at": "2026-06-23T12:18:05+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
@@ -167,7 +167,7 @@
       "channel_id": "UCGttrUON87gWfU6dMWm1fcA"
     },
     {
-      "slug": "reason-to-resist",
+      "slug": "reason-resist",
       "label": "Reason to Resist",
       "file_count": 5,
       "day_count": 5,

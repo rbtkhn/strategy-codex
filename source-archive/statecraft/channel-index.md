@@ -35,7 +35,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | `predictive-history` | Predictive History | 11 | 9 |  | [open](https://www.youtube.com/@PredictiveHistory) | `2026-04-14` | `2026-06-10` |
 | `breaking-points` | Breaking Points | 7 | 6 |  | [open](https://www.youtube.com/@BreakingPoints) | `2026-04-29` | `2026-06-17` |
 | `tucker-carlson` | Tucker Carlson | 6 | 6 |  | [open](https://www.youtube.com/@TuckerCarlson) | `2025-03-11` | `2026-06-15` |
-| `reason-to-resist` | Reason to Resist | 5 | 5 |  | [open](https://www.youtube.com/@reason2resist) | `2026-05-18` | `2026-06-18` |
+| `reason-resist` | Reason to Resist | 5 | 5 |  | [open](https://www.youtube.com/@reason2resist) | `2026-05-18` | `2026-06-18` |
 | `redacted-news` | Redacted News | 5 | 4 | yes | [open](https://www.youtube.com/@RedactedNews) | `2026-04-20` | `2026-06-16` |
 | `moral-resistance` | Moral Resistance | 3 | 3 |  | [open](https://www.youtube.com/@MoralResistance) | `2026-05-31` | `2026-06-18` |
 

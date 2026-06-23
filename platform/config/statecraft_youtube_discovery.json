@@ -34,7 +34,7 @@
     "Dialogue Works": "dialogue-works",
     "Nima Alkhorshid": "dialogue-works",
     "Jiang Xueqin": "predictive-history",
-    "Dimitri Lascaris": "reason-to-resist",
+    "Dimitri Lascaris": "reason-resist",
     "Judish Raj": "india-global-left",
     "Sulaiman Ahmed": "moral-resistance",
     "Moral Resistance": "moral-resistance",
@@ -51,7 +51,7 @@
     "Redacted News": "redacted-news",
     "Ritter's Rant": "scott-ritter",
     "Predictive History": "predictive-history",
-    "Reason to Resist": "reason-to-resist",
+    "Reason to Resist": "reason-resist",
     "India and Global Left": "india-global-left",
     "Moral Resistance": "moral-resistance",
     "Breaking Points": "breaking-points"
@@ -66,7 +66,7 @@
     ["source-alkorshid-", "dialogue-works"],
     ["source-redacted-", "redacted-news"],
     ["source-kiriakou-", "john-kiriakou"],
-    ["source-lascaris-", "reason-to-resist"],
+    ["source-lascaris-", "reason-resist"],
     ["source-india-global-left-", "india-global-left"],
     ["source-moral-resistance-", "moral-resistance"],
     ["source-game-theory-", "predictive-history"],
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "channel_key": "reason-to-resist",
+      "channel_key": "reason-resist",
       "channel_name": "Reason to Resist",
       "channel_id": "UCcLnmCiZ691HyvB6UvZq69A",
       "uploads_playlist_id": "UUcLnmCiZ691HyvB6UvZq69A",

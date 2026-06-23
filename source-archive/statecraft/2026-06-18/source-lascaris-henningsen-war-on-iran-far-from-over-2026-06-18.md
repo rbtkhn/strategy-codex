@@ -20,7 +20,7 @@ show: Reason to Resist
 host: Dimitri Lascaris
 guest: Patrick Henningsen
 title: "The War On Iran Is Far From Over w/ Patrick Henningsen"
-channel_slug: reason-to-resist
+channel_slug: reason-resist
 source_url: "https://www.youtube.com/watch?v=H3mKBIsfVdE"
 youtube_id: H3mKBIsfVdE
 source_note: Operator-pasted YouTube transcript; host self-dates Kalamata Greece 18 June 2026 (ASR typo 20126 in opening). Lebanon FPV/IED casualties post-MOU; Iran Katam al-Anbia warning; Henningsen on MOU ambiguity, tail-wags-dog symbiosis, Oslo sabotage pattern, Hezbollah disarmament trap, Horamuz/frozen-assets sequencing; Trump Soleimani joint-venture anecdote; Times of Israel Horowitz capitulation op-ed. Cross-ref 2026-06-16 alkorshid-henningsen MOU capture.

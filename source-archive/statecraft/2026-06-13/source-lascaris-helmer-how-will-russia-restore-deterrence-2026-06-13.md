@@ -20,7 +20,7 @@ show: Reason to Resist
 host: Dimitri Lascaris
 guest: John Helmer
 title: How Will Russia Restore Deterrence? w/ John Helmer
-channel_slug: reason-to-resist
+channel_slug: reason-resist
 source_url: "https://www.youtube.com/watch?v=0OzMRXVs00A"
 youtube_id: 0OzMRXVs00A
 source_note: "Operator-pasted transcript; host self-dates Kamata Greece June 14 recording, June 13 North America publish. Lanes: domestic recession, internet repression, Duma Sep 18-20; Delagin/Glaziev/Razgin vs Nabiullina/Siluanov; Anchorage-Dmitriev-Witkoff blocks NATO-target strikes; Lavrov May 25 systemic Kiev strikes repudiated by Peskov/Ushakov; Oreshnik Bila Tserkva as trial; Karaganov via Lascaris/Oslo Glendes; Lefkada NATO drone; Greece 2015 referendum aside. verify:wire-needed Levada youth poll, May 25 MFA Kiev warning, Karaganov Glendes appearance. · ASR pass 2026-06-17."

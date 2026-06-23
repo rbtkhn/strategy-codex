@@ -38,7 +38,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [OKpzUEn5U9A](https://www.youtube.com/watch?v=OKpzUEn5U9A) | `source-daniel-davis-deep-dive-signing-deal-tomorrow-scheduled-2026-06-13.md` |
 | `glenn-diesen` | Glenn Diesen | `karaganov`, `diesen`, `mearsheimer` | [Q8PT0jiemKc](https://www.youtube.com/watch?v=Q8PT0jiemKc) | `source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md` |
 | `glenn-diesen` | Glenn Diesen | `parsi`, `diesen` | [JuWnqnN3lpk](https://www.youtube.com/watch?v=JuWnqnN3lpk) | `source-glenn-diesen-trita-parsi-iran-war-mou-deportation-threat-2026-06-13.md` |
-| `reason-to-resist` | Reason to Resist | `helmer`, `lascaris` | [0OzMRXVs00A](https://www.youtube.com/watch?v=0OzMRXVs00A) | `source-lascaris-helmer-how-will-russia-restore-deterrence-2026-06-13.md` |
+| `reason-resist` | Reason to Resist | `helmer`, `lascaris` | [0OzMRXVs00A](https://www.youtube.com/watch?v=0OzMRXVs00A) | `source-lascaris-helmer-how-will-russia-restore-deterrence-2026-06-13.md` |
 
 ## Writer sources
 

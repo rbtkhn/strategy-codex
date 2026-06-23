@@ -44,7 +44,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=otyUpKhpTYM) | `source-gb-11-dantes-revolution-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=FspDllFoiDE) | `source-gb-12-dante-in-paradise-2026-05-26.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=WJhaFypj9f4) | `source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md` |
-| `reason-to-resist` | Reason to Resist | `lascaris` | [4IBLtJ8jLas](https://www.youtube.com/watch?v=4IBLtJ8jLas) | `source-lascaris-trump-sabotages-peace-talks-gaza-flotilla-2026-05-26.md` |
+| `reason-resist` | Reason to Resist | `lascaris` | [4IBLtJ8jLas](https://www.youtube.com/watch?v=4IBLtJ8jLas) | `source-lascaris-trump-sabotages-peace-talks-gaza-flotilla-2026-05-26.md` |
 | `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [watch](https://www.youtube.com/watch?v=wPvk5SuQ8rw) | `source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=5tmuUtDqh7g) | `source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md` |
 | `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [watch](https://www.youtube.com/watch?v=_gFjPdbP5lY) | `source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md` |

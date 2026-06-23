@@ -20,7 +20,7 @@ show: Reason to Resist
 host: Dimitri Lascaris
 guest: Matilda Malle; Ihab Layf
 title: Trump Sabotages Peace Talks / Israel Brutalizes Gaza Flotilla
-channel_slug: reason-to-resist
+channel_slug: reason-resist
 source_url: "https://www.youtube.com/watch?v=4IBLtJ8jLas"
 youtube_id: 4IBLtJ8jLas
 source_note: "Operator-pasted transcript; host self-dates Kalamata Greece May 26 2026. Lanes: Iran ceasefire USCENTCOM Bandar Abbas; MFA Farsi (Cradle); Tabnak casualties; FARS MQ-9/RQ-4/F-35; Araghchi/Ghalibaf Qatar assets; Lebanon yellow-line; Brent/Guardian; Project Freedom; Gaza flotilla Malle/Layf; Carney-Herzog May 25. verify:wire-needed USCENTCOM self-defense, Tabnak deaths. · ASR pass 2026-06-17."
