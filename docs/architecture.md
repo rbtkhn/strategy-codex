@@ -8,7 +8,7 @@ This document describes the **active** system design for **strategy-codex**. Leg
 
 **strategy-codex** is a **governed interpretive machine**: verbatim sources land in archive; bounded synthesis and judgment objects carry operator work under **statecraft** and **singularity**. It is an **intelligence harness** around frontier models — not a substitute for them. See [`product-identity.md`](product-identity.md) and [`essays/from-accumulation-to-governed-interpretive-machine.md`](../essays/from-accumulation-to-governed-interpretive-machine.md).
 
-Growing a personal cognitive fork (Grace-Mar Record) is **not** a system objective. The Record bundle under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is a **frozen sidecar** for archaeology and explicit **`fork revive`** only.
+Growing a personal interpretive machine (Grace-Mar Record) is **not** a system objective. The Record bundle under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is a **frozen sidecar** for archaeology and explicit **`fork revive`** only.
 
 ## Operator channels
 
@@ -95,8 +95,8 @@ For **model vs harness**, membranes, queues, AFK, and channel routing, read [`ha
 |---|---|---|
 | Record identity / evidence / gate | `archive/grace-mar-instance/` | Frozen |
 | Voice bots | `archive/grace-mar-instance/bot/` | Deprecated |
-| SELF-LIBRARY reference | `archive/grace-mar-instance/self-library.md` | Active **reference** routing |
-| Session continuity | `self-memory.md` | WORK only — not Record |
+| removed operator-books symlink reference | `archive/grace-mar-instance/self-library.md` | Active **reference** routing |
+| Session continuity | `memory.md` | WORK only — not Record |
 
 Full fork doctrine: [`docs/archive/grace-mar.md`](archive/grace-mar.md).
 

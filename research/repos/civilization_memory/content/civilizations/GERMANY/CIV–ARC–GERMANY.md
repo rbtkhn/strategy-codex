@@ -292,7 +292,7 @@ IX. VERSIONING
 • Discovery framework may be refined
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 Germania. STATE draws Layer 3 information through these sources

@@ -1,6 +1,6 @@
 # work-human-teacher
 
-**Objective:** Provide personalized education for Grace-Mar's companion — the child whose Record it is — and their family/caregiver. The human teacher (or Record-derived lesson prompt) uses IX-A (knowledge), IX-B (curiosity), IX-C (personality), and skill-think/skill-work edge to shape lessons. Human augments the system by reading skill-think, modulating focus and gate, and respecting identity.
+**Objective:** Provide personalized education for Grace-Mar's companion — the child whose Record it is — and their family/caregiver. The human teacher (or Record-derived lesson prompt) uses museum knowledge section A (knowledge), museum knowledge section B (curiosity), museum knowledge section C (personality), and skill-think/skill-work edge to shape lessons. Human augments the system by reading skill-think, modulating focus and gate, and respecting identity.
 
 **Different measure of success:** work-human-teacher emphasizes **personalized growth and engagement** for the companion. Economic outcomes (mastery-learning) may be downstream but are not the primary metric.
 
@@ -31,7 +31,7 @@
 ## Principles
 
 1. **Knowledge boundary** — Lesson prompts are built only from the Record. The LLM does not write into the Record; evidence flows via "we did X" and the gated pipeline.
-2. **Respect identity** — IX-C shapes tone, values, and constraints. No pushing content that conflicts with the Record. Meet where they are (AGENTS rule 7).
+2. **Respect identity** — museum knowledge section C shapes tone, values, and constraints. No pushing content that conflicts with the Record. Meet where they are (AGENTS rule 7).
 3. **One prompt per day** — Target UX: human runs generator once, pastes once, runs 3–5 lessons in one LLM thread (2-hour design).
 4. **Formative loop** — After "we did X" merges, run the generator again so the next day's prompt reflects the updated Record.
 

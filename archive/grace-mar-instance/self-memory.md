@@ -1,3 +1,5 @@
+<!-- MUSEUM: Not active SSOT for strategy-codex. See docs/archive/grace-mar-record-museum.md -->
+
 ﻿# MEMORY â€” Self-memory (short / medium / long)
 
 > Not part of the Record. SELF is authoritative. "Ephemeral" = non-gated and rotatable, not "only short-term." See docs/memory-template.md v2.0 (three horizons).

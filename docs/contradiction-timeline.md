@@ -21,7 +21,7 @@
 
 | Timeline row | Meaning |
 |--------------|---------|
-| **merged_identity** | Gate approved → IX-A/B/C or prompt line; evidence **ACT-*** |
+| **merged_identity** | Gate approved → museum knowledge section A/B/C or prompt line; evidence **ACT-*** |
 | **merged_library** | LIB or civ-mem perimeter change (future explicit event) |
 | **merged_skills** | SKILLS claim upgrade (often same gate or manual) |
 | **contradiction_flagged** | Candidate carried `conflicts_detected` (staged, not yet merged) |
@@ -62,7 +62,7 @@ Prints a **markdown digest**: applied / rejected pipeline events plus recent **g
 
 ## UI (future)
 
-- Filter by surface: SELF-KNOWLEDGE · SELF-LIBRARY · SKILLS.
+- Filter by surface: museum knowledge · removed operator-books symlink · SKILLS.
 - Click row → candidate snippet + ACT summary + link to commit.
 - Badge: **resolved** / **deferred** / **open**.
 

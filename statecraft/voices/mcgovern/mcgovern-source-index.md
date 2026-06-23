@@ -14,6 +14,7 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 - [2026-01-17 - The road to war, arms control collapsing](../../../source-archive/statecraft/2026-01-17/source-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
 - [2026-04-05 - The death of NATO, time for a new strategy](../../../source-archive/statecraft/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 - [2026-05-27 - Russia escalates with new strategy](../../../source-archive/statecraft/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
+- [2026-06-22 - Putin under pressure to retaliate against NATO](../../../source-archive/statecraft/2026-06-22/source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md)
 
 ### Dialogue Works / Nima
 

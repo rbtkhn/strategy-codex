@@ -38,7 +38,7 @@ The extraction produces a JSON object with seven top-level keys:
 | `artifact_rationale` | array of objects | What you've built and why: demonstrated capability with provenance |
 | `candidate_examples` | array of objects | Concrete examples that illustrate any of the above |
 | `sensitivity_flags` | array of objects | Items that may contain sensitive, employer-bound, or non-portable content |
-| `merge_targets` | array of strings | Suggested companion-self surfaces for review: `SELF`, `SELF-LIBRARY`, `SKILLS`, `EVIDENCE` |
+| `merge_targets` | array of strings | Suggested companion-self surfaces for review: `SELF`, `removed operator-books symlink`, `SKILLS`, `EVIDENCE` |
 
 Each object in the arrays should include at minimum:
 
@@ -81,7 +81,7 @@ Output valid JSON with these top-level keys:
 
 6. sensitivity_flags — anything that might contain sensitive, employer-bound, or non-portable content. Flag it so I can review before importing.
 
-7. merge_targets — which categories of my personal record these observations should be reviewed against. Use these values: SELF, SELF-LIBRARY, SKILLS, EVIDENCE.
+7. merge_targets — which categories of my personal record these observations should be reviewed against. Use these values: SELF, removed operator-books symlink, SKILLS, EVIDENCE.
 
 For each item in sections 1-6, include:
 - claim: one sentence describing the observation

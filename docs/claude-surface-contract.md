@@ -33,7 +33,7 @@ This is intentionally small: legibility, not a heavy metadata schema.
 Grace-Mar’s canonical Record surfaces are:
 
 - **SELF**
-- **SELF-LIBRARY**
+- **removed operator-books symlink**
 - **SKILLS**
 - **EVIDENCE**
 

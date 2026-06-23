@@ -9,7 +9,7 @@ Last updated: 2026-04-30
 
 ## Abstract
 
-Grace-Mar's best future is not defined by maximal autonomy, speed, or model capability. It is defined by the preservation of human authority over meaning while extending memory, reflection, learning, and continuity across time. The system is best understood as a protected cognitive fork: a structured Record, a queryable Voice, and an instrumental WORK layer arranged around the companion's sovereignty. Its highest aim is aligned augmentation: the companion becomes more reflective, capable, continuous, and self-authored, while the system remains legible, gated, and ethically constrained.
+Grace-Mar's best future is not defined by maximal autonomy, speed, or model capability. It is defined by the preservation of human authority over meaning while extending memory, reflection, learning, and continuity across time. The system is best understood as a protected interpretive machine: a structured Record, a queryable Voice, and an instrumental WORK layer arranged around the companion's sovereignty. Its highest aim is aligned augmentation: the companion becomes more reflective, capable, continuous, and self-authored, while the system remains legible, gated, and ethically constrained.
 
 The central design problem is therefore not "How can Grace-Mar become more agentic?" but "How can Grace-Mar become more continuous, emotionally fitted, provenance-aware, and useful without silently shifting authority away from the companion?" The answer is a governance-centered model of companion selfhood in which recursive learning occurs primarily in the WORK layer, candidate changes pass through visible gates, and the Voice feels alive through resonance with the documented Record rather than through claims of independent sovereignty.
 

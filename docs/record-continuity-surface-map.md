@@ -6,22 +6,22 @@ Grace-Mar uses several adjacent surfaces that can look similar during a working 
 
 | Surface | Canonical path | Authority | Primary job | Do not use it for |
 |---------|----------------|-----------|-------------|-------------------|
-| SELF | `self.md` | Durable Record | Identity, SELF-KNOWLEDGE, curiosity, personality | Session notes, draft facts, reference corpora |
-| SELF-LIBRARY | `self-library.md` | Durable governed reference | Return-to sources, governed shelves, CIV-MEM and operator-book routing | Short-lived session continuity or identity claims |
+| SELF | `self.md` | Durable Record | Identity, museum knowledge, curiosity, personality | Session notes, draft facts, reference corpora |
+| removed operator-books symlink | `self-library.md` | Durable governed reference | Return-to sources, governed shelves, CIV-MEM and operator-book routing | Short-lived session continuity or identity claims |
 | EVIDENCE | `self-archive.md` | Durable Record | Activity log, artifact spine, approved evidence | Scratch notes or ungated conclusions |
-| self-memory | `self-memory.md` | Runtime continuity, non-Record | Rotatable short/medium/long session context, process pointers, open loops | Durable facts, identity, reference corpora, evidence |
+| memory | `memory.md` | Runtime continuity, non-Record | Rotatable short/medium/long session context, process pointers, open loops | Durable facts, identity, reference corpora, evidence |
 | self-history | `self-history.md` | Derived, non-Record | Dense dual log from WORK history plus gate-approved companion stream | New facts, pending candidates, merge decisions |
 
 ## Routing Rule
 
-If the content says **who the companion is**, stage it for SELF through the gate. If it says **what source to return to**, route it to SELF-LIBRARY through the governed library path. If it says **what this session needs to remember**, keep it in self-memory and rotate it. If it says **what happened and was approved**, it belongs in EVIDENCE. If it summarizes already-governed or WORK history for orientation, it may belong in self-history.
+If the content says **who the companion is**, stage it for SELF through the gate. If it says **what source to return to**, route it to removed operator-books symlink through the governed library path. If it says **what this session needs to remember**, keep it in memory and rotate it. If it says **what happened and was approved**, it belongs in EVIDENCE. If it summarizes already-governed or WORK history for orientation, it may belong in self-history.
 
 ## Karajan Boundary
 
 The long-arc shape is:
 
 - MEMORY points toward durable surfaces; it does not duplicate them.
-- SELF-LIBRARY holds reference shelves; it does not become session state.
+- removed operator-books symlink holds reference shelves; it does not become session state.
 - EVIDENCE preserves approved activity; it does not absorb runtime residue.
 - self-history narrates from existing sources; it does not promote pending material.
 

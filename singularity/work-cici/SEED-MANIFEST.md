@@ -9,6 +9,6 @@
 | work-politics | [work-politics/](../../work-politics/) | grace-mar canonical; [work-politics-mirror/](work-politics-mirror/) holds Cici-facing copy rules |
 | work-dev | [work-dev/](../../work-dev/) | grace-mar canonical; [work-dev-mirror/](work-dev-mirror/) beginner-safe mirror |
 | work-cici | This folder | Operator interface; portable pattern for other companion-self agent workspaces |
-| SELF-LIBRARY governance | [library-schema.md](../../library-schema.md), [boundary doc](../../boundary-self-knowledge-self-library.md) | Her `self-library.md` lives **in her repo**; align with [work-companion-self/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md](../work-companion-self/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md) |
+| removed operator-books symlink governance | [library-schema.md](../../library-schema.md), [boundary doc](../../archive/boundary-museum-knowledge-self-library.md) | Her `self-library.md` lives **in her repo**; align with [work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md](../work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md) |
 
 **Tooling:** `validate-integrity.py -u xavier` runs only **in her repository**, not in grace-mar (grace-mar uses `-u grace-mar`).

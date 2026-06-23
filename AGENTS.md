@@ -67,7 +67,7 @@ Full protocol: [`LLM-ROUTING.md`](LLM-ROUTING.md) · [`docs/source-lattice-beyon
 2. **Gated pipeline** — default **frozen**; stage/merge only on explicit **`fork revive`** ([`docs/archive/grace-mar.md`](docs/archive/grace-mar.md)).
 3. **Record frozen default** — `"we [did X]"` in WORK lanes is normal phrasing; do not auto-stage gate candidates.
 4. **Contradiction preservation** — do not flatten conflicting evidence.
-5. **MEMORY ≠ Record** — `self-memory.md` is continuity only ([`docs/memory-template.md`](docs/memory-template.md)).
+5. **MEMORY ≠ Record** — `memory.md` is continuity only ([`docs/memory-template.md`](docs/memory-template.md)).
 6. **Agent turn discipline (Windows)** — one write path + one Shell per turn; no parallel tool storms ([`.cursor/rules/agent-tool-latency-discipline.mdc`](.cursor/rules/agent-tool-latency-discipline.mdc)).
 
 Rules 1–11 detail, triadic cognition, Lexile, humane purpose: [`docs/agent-rules/deep-rules.md`](docs/agent-rules/deep-rules.md).

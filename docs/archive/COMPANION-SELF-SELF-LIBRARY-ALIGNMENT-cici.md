@@ -1,3 +1,3 @@
-# companion-self SELF-LIBRARY alignment (pointer)
+# companion-self removed operator-books symlink alignment (pointer)
 
-**Canonical:** [work-companion-self/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md](../work-companion-self/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md).
+**Canonical:** [work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md](../work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md).

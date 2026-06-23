@@ -83,7 +83,7 @@ ARC governs THREE things:
 3. INSTITUTIONAL SOURCE ADMISSIBILITY
    Which institutional sources (official, research, news,
    specialist) are authorized for STATE mode analysis of a
-   given civilization. See Section IX-B.
+   given civilization. See Section museum knowledge section B.
 
 ARC does NOT govern:
 • How much to quote (see MEM-TEMPLATE)
@@ -117,7 +117,7 @@ Government websites, research institutes, news outlets,
 specialist publications. Does not participate in temporal
 precedence (governs present events and ongoing institutional
 analysis, not historical interpretation).
-See Section IX-B for full structure and rules.
+See Section museum knowledge section B for full structure and rules.
 
 ────────────────────────────────────────────────────────────
 III. TEMPORAL PRECEDENCE RULE (ABSOLUTE)
@@ -175,7 +175,7 @@ ARC-T-MODERN:
 • [Author Name] ([Birth year]) — [Major Work(s)] [N]
 
 ARC-T-INSTITUTIONAL:
-See Section IX-B for entry format (Name, URL, Type,
+See Section museum knowledge section B for entry format (Name, URL, Type,
 Authoritative For, Editorial Note). Institutional entries
 do not require [N] (citation count applies to author lists).
 
@@ -334,7 +334,7 @@ IX. VERSIONING
 • Namespace alignment is permanent
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 ARC-T-INSTITUTIONAL lists authorized institutional sources for
 STATE mode analysis. This covers both real-time news sources and
@@ -407,7 +407,7 @@ RULES:
   be flagged using the ARC Discovery Framework (Section V).
 
 ────────────────────────────────────────────────────────────
-IX-C. CROSS-ENTITY INSTITUTIONAL SOURCE ACCESS
+museum knowledge section C. CROSS-ENTITY INSTITUTIONAL SOURCE ACCESS
 ────────────────────────────────────────────────────────────
 When STATE mode analysis of one entity requires assessing an
 adversary's or partner's behaviour, intent, or capabilities,

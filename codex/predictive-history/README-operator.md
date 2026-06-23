@@ -13,7 +13,7 @@ This file now documents the **local review/stewardship boundary** around a froze
 
 Historical purpose of this local tree was to deliver a multivolume **Predictive History** book/site corpus. That canonical build now lives externally; this repo may only observe, review, and critique migrated PH work.
 
-**Canonical library index:** The book is catalogued in [self-library](self-library.md) as **LIB-0149** (SELF-LIBRARY is reference-facing; the local `codex/predictive-history/` tree is now frozen reference residue rather than the working manuscript).
+**Canonical library index:** The book is catalogued in [self-library](self-library.md) as **predictive-history (`codex/predictive-history/`)** (removed operator-books symlink is reference-facing; the local `codex/predictive-history/` tree is now frozen reference residue rather than the working manuscript).
 
 **Design lens:** Alpha-style mastery vocabulary (gates, “no Swiss cheese,” 2-hour pacing) mapped to this fork’s gate and WORK tools — [alpha-mastery-adaptation.md](../../docs/alpha-mastery-adaptation.md).
 

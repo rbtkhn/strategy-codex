@@ -89,7 +89,7 @@ Template defines the full schema and example activities (lemonade stand, food tr
 |------|----------|----------|
 | **THINK (SAT)** | When WORK has SAT goal, THINK can have sat_readiness block; WORK reads for progress | skill-think.md Â§ SAT READINESS; work_goals.horizon includes SAT â‰¥ 1200 |
 | **SELF** | life_mission in self.md; WORK goals align | life_mission_ref in skill-work; self.md Â§ VI VALUES |
-| **Analyst / IX-A,B,C** | Analyst stages knowledge/curiosity/personality from same inputs; WORK does not stage | Same; CREATE/ACT yield self_signals that go to SELF via pipeline |
+| **Analyst / museum knowledge section A,B,C** | Analyst stages knowledge/curiosity/personality from same inputs; WORK does not stage | Same; CREATE/ACT yield self_signals that go to SELF via pipeline |
 
 ---
 

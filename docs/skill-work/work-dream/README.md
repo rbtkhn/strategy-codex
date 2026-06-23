@@ -12,8 +12,8 @@
 |------|-------------|
 | **Consolidation architecture** | Defines the shape of end-of-day maintenance: memory normalization, integrity, governance, contradiction digest, artifact drafts. |
 | **Night-to-morning handoff** | Documents the `last-dream.json` data contract that bridges dream output to coffee Step 1. |
-| **Strategy notebook (LIB-0153)** | **`dream` does not** own notebook production. Fold runs in **`strategy`** or on explicit **fold**; `auto_dream.py` may report **`strategy_notebook_missing_day_headers`** as optional FYI. See [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *Entry model* and [.cursor/skills/dream/SKILL.md](../../.cursor/skills/dream/SKILL.md) Â§ *Strategy notebook*. |
-| **Cici notebook (LIB-0154)** | Dream **initiates generation** of the calendar dayâ€™s [`cici-notebook`](../work-cici/cici-notebook/) file via [`cici_journal_ob1_digest.py`](../../../scripts/cici_journal_ob1_digest.py) `--write` (GitHub network; optional token). Not her Record; WORK lane. See dream SKILL Â§ *Cici notebook*. |
+| **Strategy notebook (strategy-codex (`codex/`))** | **`dream` does not** own notebook production. Fold runs in **`strategy`** or on explicit **fold**; `auto_dream.py` may report **`strategy_notebook_missing_day_headers`** as optional FYI. See [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *Entry model* and [.cursor/skills/dream/SKILL.md](../../.cursor/skills/dream/SKILL.md) Â§ *Strategy notebook*. |
+| **Cici notebook (cici notebook (`singularity/work-cici/cici-notebook/`))** | Dream **initiates generation** of the calendar dayâ€™s [`cici-notebook`](../work-cici/cici-notebook/) file via [`cici_journal_ob1_digest.py`](../../../scripts/cici_journal_ob1_digest.py) `--write` (GitHub network; optional token). Not her Record; WORK lane. See dream SKILL Â§ *Cici notebook*. |
 | **Boundary surface** | Explains what belongs in WORK-only docs/history versus what must escalate to `RECURSION-GATE`. |
 | **Choreography with coffee** | Holds the rationale for the dreamâ†’coffee pairing: sequence, timing, data flow. |
 
@@ -62,7 +62,7 @@ This territory never creates a second merge path. `RECURSION-GATE` remains the m
 ```
 auto_dream.py
   â”œâ”€ dream_catchup.py              since-previous-dream window + strategy-notebook gap list
-  â”œâ”€ maintain_self_memory()        normalize self-memory.md
+  â”œâ”€ maintain_self_memory()        normalize memory.md
   â”œâ”€ validate-integrity.py         integrity checks (--json)
   â”œâ”€ governance_checker.py         governance scan
   â”œâ”€ contradiction_digest.py       derived contradiction digest
@@ -113,7 +113,7 @@ Cici notebook (work-cici) â€” `cici_journal_ob1_digest.py --catch-up-from-l
 | `civmem_suppressed_reason` | string | Present when echoes were cleared by budget or checks (e.g. `disabled_by_budget`, `suppressed_integrity_fail`, `suppressed_governance_alert`) |
 | `frontier_source_hint` | object | Metadata-only AI frontier watch from The Innermost Loop RSS (`title`, `url`, `published_at`, `status`, `source_mode=live_lookup`). Dream does not store the post body, generate a summary, create raw-input, or compose strategy from it. |
 
-**Civ-mem query source:** Echoes are computed from the **pre-persist** self-memory snapshot used in the same `auto_dream` run (`memory_result.before`), which can differ from on-disk `self-memory.md` after normalization writes in that run.
+**Civ-mem query source:** Echoes are computed from the **pre-persist** memory snapshot used in the same `auto_dream` run (`memory_result.before`), which can differ from on-disk `memory.md` after normalization writes in that run.
 
 **Context budgets:** Write-path caps and suppress rules live in [`platform/config/context_budgets/dream.json`](../../../platform/config/context_budgets/dream.json); display defaults for the collapsed Last dream block live in [`platform/config/context_budgets/coffee.json`](../../../platform/config/context_budgets/coffee.json). See [`platform/config/context_budgets/README.md`](../../../platform/config/context_budgets/README.md).
 
@@ -137,7 +137,7 @@ Coffee Step 1 (`operator_daily_warmup.py`) reads this file and renders a **colla
 
 - **Raw continuity:** `session-transcript.md`
 - **Lane breadcrumbs:** `docs/skill-work/work-dream/work-dream-history.md`
-- **Optional continuity memory:** `self-memory.md`
+- **Optional continuity memory:** `memory.md`
 - **Governed durable changes:** `recursion-gate.md`
 
 ---

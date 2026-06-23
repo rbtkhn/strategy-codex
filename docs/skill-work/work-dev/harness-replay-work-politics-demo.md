@@ -56,7 +56,7 @@ Report header and gate excerpt (structure only â€” run the command above fo
   channel_key: operator:wap:us-ky4-massie
   territory: work-politics
   summary: work-politics â€” triangulated analytical lenses â€¦
-  profile_target: IX-A. KNOWLEDGE
+  profile_target: museum knowledge section A. KNOWLEDGE
 ```
 
 Pipeline rows include **intent_constitutional_critique** and **`applied`** with work-politics `channel_key` and `ACT-0048`. Harness lists **`merge_applied`** batches; receipts show **`territory": "wap"`** and paired candidate IDs (e.g. with CANDIDATE-0088 in the same batch).
@@ -70,7 +70,7 @@ Merges **after** the pipeline envelope work add per-line metadata. When present 
 - **`event_id`**, **`fork_id`**, **`envelope_version`**
 - **`replay_mode`** (`proposal` / `merge` / `gate`, â€¦)
 - **`parent_event_id`** (links **`applied`** to the earlier **`staged`** row when both have ids)
-- **`record_refs`** on **`applied`** (repo paths such as `self.md#IX-A`, `self-evidence.md`)
+- **`record_refs`** on **`applied`** (repo paths such as `self.md#museum knowledge section A`, `self-evidence.md`)
 
 **Work-politics** rows are identifiable through **`channel_key`** / **`territory`** in the gate block and pipeline JSON â€” the envelope adds **stable ids** for tickets and replay.
 

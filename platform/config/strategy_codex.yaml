@@ -2,8 +2,12 @@
 # SSOT for operator defaults and Grace-Mar instance freeze posture.
 schema_version: "1.0.0"
 
-# Grace-Mar cognitive fork is operator-archived; growing the fork is not a system objective.
+# Grace-Mar Record is museum-only; strategy-codex is a governed interpretive machine.
 record_frozen: true
+record_surfaces: museum_only
+continuity_file: memory.md
+museum_doc: docs/archive/grace-mar-record-museum.md
+operator_books_routing: misc_folders
 
 # Default harness / coffee / warmup user id (not the legacy grace-mar instance label).
 default_operator_user: strategy-codex

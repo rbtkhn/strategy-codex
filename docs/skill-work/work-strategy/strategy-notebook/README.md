@@ -1,7 +1,9 @@
-# Deprecated: strategy-notebook
+# strategy-notebook (legacy path)
 
-`strategy-notebook` is a deprecated compatibility namespace.
+**SSOT moved to [`codex/`](../../../../codex/README.md).**
 
-The active strategy-codex corpus now lives at [`../../../../codex/`](../../../../codex/). New work should be added under root `/codex`, where the polyphonic cognition streams, raw inputs, chapters, compiled views, and related strategy-codex artifacts are first-class rather than buried under work-strategy documentation.
+This directory is a **compatibility redirect** only. Do not add new notebook artifacts here.
 
-This directory remains only as a pointer for older scripts, links, and operator habits during migration. Do not add new canonical strategy-codex material here.
+- **Strategy codex home:** `codex/`
+- **Raw input:** `codex/raw-input/`
+- **Architecture:** `codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`

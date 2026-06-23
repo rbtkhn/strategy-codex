@@ -75,7 +75,7 @@
 | **Direction** | System captures *from* you | Student teaches *to* system |
 | **Function** | Productivity/memory tool | Living credential |
 | **Target** | Adults/professionals | Children → adults |
-| **Core metaphor** | "Second brain" | "Cognitive fork" |
+| **Core metaphor** | "Second brain" | "Interpretive machine" |
 | **Portability** | Single system | Cross-border, cross-curriculum |
 | **Time horizon** | Recent memory | 12+ year relationship |
 

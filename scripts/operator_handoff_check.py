@@ -47,7 +47,7 @@ RUNTIME_NOISE_MARKERS = (
     "harness-events.jsonl",
     "cadence-learning-events.jsonl",
     "last-dream.json",
-    "self-memory.md",
+    "memory.md",
     "night-handoff.json",
     "runtime/daily-handoff/",
     "work-cadence-events.md",

@@ -13,7 +13,7 @@ The module may observe, classify, map, and propose. It may not merge, authorize,
 ## Immutable boundaries
 
 1. WORK may not directly alter SELF.
-2. WORK may not directly alter SELF-LIBRARY.
+2. WORK may not directly alter removed operator-books symlink.
 3. WORK may not directly alter SKILLS.
 4. WORK may not directly alter EVIDENCE.
 5. WORK may not bypass the recursion-gate or Approval Inbox.
@@ -54,7 +54,7 @@ The Moonshot Orchestration module may analyze or model such infrastructure. It m
 
 ## Record promotion rule
 
-Successful moonshot work may produce candidate updates for SELF-LIBRARY, SKILLS, or EVIDENCE, but only through the normal proposal, review, and merge process.
+Successful moonshot work may produce candidate updates for removed operator-books symlink, SKILLS, or EVIDENCE, but only through the normal proposal, review, and merge process.
 
 No dashboard row, contribution map, or source note is automatically promotable.
 

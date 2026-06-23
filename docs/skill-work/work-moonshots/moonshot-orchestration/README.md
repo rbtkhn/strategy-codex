@@ -2,7 +2,7 @@
 
 **Status:** **WORK-only** â€” not Record truth, not a **canonical** Cursor skill, and not an authority on external systems or orgs. This subfolder is part of the broader **[work-moonshots](../README.md)** lane (which also holds PMOS: personal program templates, `self-moonshots` staging, missions).
 
-**Not:** SELF, SELF-LIBRARY, SKILLS, or EVIDENCE. **Not** automatic approval or merge. **Not** a substitute for the companion gate.
+**Not:** SELF, removed operator-books symlink, SKILLS, or EVIDENCE. **Not** automatic approval or merge. **Not** a substitute for the companion gate.
 
 ---
 
@@ -12,7 +12,7 @@ Moonshot Orchestration is a **WORK-layer module** for converting high-variance *
 
 **Relationship to [runtime complements](../../../runtime/runtime-complements.md):** **Runtime** exports and complements are **non-canonical** context paths; this moduleâ€™s outputs stay **file-based WORK** until any durable claim is **staged** through the normal process.
 
-**Relationship to the gate ([recursion-gate](../../../../recursion-gate.md) Â· [AGENTS.md](../../../../AGENTS.md)):** Any **candidate** that would touch SELF, SELF-LIBRARY, SKILLS, or EVIDENCE is **inbox + approval** only â€” never auto-merged from this module.
+**Relationship to the gate ([recursion-gate](../../../../recursion-gate.md) Â· [AGENTS.md](../../../../AGENTS.md)):** Any **candidate** that would touch SELF, removed operator-books symlink, SKILLS, or EVIDENCE is **inbox + approval** only â€” never auto-merged from this module.
 
 ## Artifacts in this subfolder
 

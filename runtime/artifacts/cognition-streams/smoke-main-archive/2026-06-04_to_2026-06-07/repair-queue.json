@@ -1,0 +1,23 @@
+{
+  "must-capture": [
+    {
+      "date": "2026-06-04",
+      "channel_key": "glenn-diesen",
+      "channel_name": "Glenn Diesen",
+      "youtube_id": "K6sOEhWL0W4",
+      "title": "Sean Foo: Chip War Escalates, China Sells U.S. Treasuries & the AI Bubble Begins to Crack",
+      "url": "https://www.youtube.com/watch?v=K6sOEhWL0W4",
+      "duration_seconds": null,
+      "discovery_source": "channel_feed",
+      "classification": "uncaptured-main",
+      "classification_confidence": "high",
+      "priority": "must-capture",
+      "captured": 0,
+      "raw_input_path": "",
+      "raw_input_paths": [],
+      "same_day_parent_id": "",
+      "notes": "main upload missing from capture index"
+    }
+  ],
+  "probably-capture": []
+}

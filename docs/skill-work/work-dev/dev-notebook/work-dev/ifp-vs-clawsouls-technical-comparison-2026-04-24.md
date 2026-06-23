@@ -17,7 +17,7 @@
 
 | Aspect | ClawSouls / SoulSpec / SoulClaw | Grace-Mar IFP |
 |--------|----------------------------------|-----------------|
-| **Core Files** | `soul.json` (metadata) + `SOUL.md` (personality, principles, boundaries) + `IDENTITY.md`, `STYLE.md`, `AGENTS.md` | Structured Record directories: `self.md`, `SELF-LIBRARY/`, `SKILLS/`, `EVIDENCE/` (plus supporting docs) â€” see repo layout, not a literal re-list here |
+| **Core Files** | `soul.json` (metadata) + `SOUL.md` (personality, principles, boundaries) + `IDENTITY.md`, `STYLE.md`, `AGENTS.md` | Structured Record directories: `self.md`, ``, `SKILLS/`, `EVIDENCE/` (plus supporting docs) â€” see repo layout, not a literal re-list here |
 | **Format** | Lightweight Markdown package (Soul Spec v0.5) | Plain Markdown + git (human-readable, versioned) |
 | **Loading** | Injected fresh **every session** (tiered bootstrap in SoulClaw for token savings) | Canonical Record is the single source of truth; runtime complements use explicit exports |
 | **Mutability** | T0 identity (`SOUL.md`/`IDENTITY.md`) declared immutable in SoulClaw; requires human authorization | Strictly immutable without human/companion merge via recursion-gate |

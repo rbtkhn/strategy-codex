@@ -2,7 +2,7 @@
 
 **Parent:** [Work notebook (multi-lane)](../../README.md) â†’ **work-dev** lane â€” this subfolder is the **day-scale journal**; other lanes hold prompts/specs by territory. **Lane index (map + history):** [../README.md](../README.md).
 
-**Discoverability:** The same tree is linked from **`SELF-LIBRARY/dev-journal`** (repo-relative symlink) for agents and tools that prioritize the companion tree. **LIB:** [LIB-0155](../../../../../../self-library.md#operator-analytical-books) in [`self-library.md`](../../../../../../self-library.md) (Operator analytical books).
+**Discoverability:** The same tree is linked from **`dev-journal`** (repo-relative symlink) for agents and tools that prioritize the companion tree. **LIB:** [dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)](../../../../../../self-library.md#operator-analytical-books) in [`self-library.md`](../../../../../../self-library.md) (Operator analytical books).
 
 **Book:** Short daily notes on **learning and building** the **work-dev** lane in grace-mar: OpenClaw / exportâ€“stageâ€“merge discipline, harness and cadence wiring, integration scripts, capability contracts, portable skills, OB1 â†” companion-self bridge thinking, and adjacent operator infrastructure â€” **without** treating WORK drafts as Record truth.
 

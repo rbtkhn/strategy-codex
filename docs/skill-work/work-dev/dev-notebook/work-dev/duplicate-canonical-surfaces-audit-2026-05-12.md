@@ -44,19 +44,19 @@ Per [canonical-paths.md](../../../../canonical-paths.md), `self-history.md` is a
 Its existence is legitimate.
 The membrane risk is only if someone mistakes it for a merge-authority surface.
 
-### 3. `SELF-LIBRARY/` is not a duplicate of `self-library.md`
+### 3. `` is not a duplicate of `self-library.md`
 
 The architecture docs distinguish:
 
 - `self-library.md` = governed library file
-- `SELF-LIBRARY/` = navigator / discoverability tree
+- `` = navigator / discoverability tree
 
 So the directory and the file are not duplicates in purpose.
 They only become a membrane problem if one is treated as authoritative over the other without that distinction being stated.
 
 ### 4. `self-work.md` is adjacent, not identity-canonical
 
-`self-work.md` is explicitly a coordination surface, not SELF-KNOWLEDGE.
+`self-work.md` is explicitly a coordination surface, not museum knowledge.
 
 Its root presence is not itself the duplicate-canonical hazard.
 
@@ -122,9 +122,9 @@ This means the membrane problem is partly semantic:
 ### Legitimate canonical or standard surfaces
 
 - `self.md`
-- `self-knowledge.md`
+- `archive/grace-mar-instance/museum-knowledge.md`
 - `self-archive.md`
-- `self-memory.md`
+- `memory.md`
 - `self-skills.md`
 - `recursion-gate.md`
 - `self-moonshots.md`
@@ -134,7 +134,7 @@ This means the membrane problem is partly semantic:
 - `self-evidence.md` - compatibility pointer
 - `self-history.md` - derived dual log
 - `self-work.md` - coordination surface
-- `SELF-LIBRARY/` - navigator tree beside `self-library.md`
+- `` - navigator tree beside `self-library.md`
 
 ### Membrane hazard surfaces
 

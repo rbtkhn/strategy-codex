@@ -14,7 +14,7 @@
 
 **For educators:** "Feed the Record; get playlists you can drop into lessons or send home. Media that supports learning targets."
 
-The Record (SELF, SKILLS, IX-A/B) already captures goals and curiosity. This design turns that into actionable video suggestions — pre-filtered, staged for approval, aligned with what the fork knows.
+The Record (SELF, SKILLS, museum knowledge section A/B) already captures goals and curiosity. This design turns that into actionable video suggestions — pre-filtered, staged for approval, aligned with what the fork knows.
 
 ---
 
@@ -22,8 +22,8 @@ The Record (SELF, SKILLS, IX-A/B) already captures goals and curiosity. This des
 
 | Source | Section | Use in playlist building |
 |--------|---------|--------------------------|
-| **IX-B. Curiosity** | Topics, interests (CUR-*) | Primary driver — search for videos on these topics |
-| **IX-A. Knowledge** | Already-learned facts (LEARN-*) | Avoid pure repetition; allow "next level" depth |
+| **museum knowledge section B. Curiosity** | Topics, interests (CUR-*) | Primary driver — search for videos on these topics |
+| **museum knowledge section A. Knowledge** | Already-learned facts (LEARN-*) | Avoid pure repetition; allow "next level" depth |
 | **II. Preferences** | Favorites (movies, books) | Related content — e.g. Madeline → read-alouds |
 | **LIBRARY** | Book titles, topics | Videos that extend reading (read-alouds, summaries) |
 | **SKILLS THINK edge** | "Longer text, inference, retelling" | Suggest content at the edge of capability |
@@ -36,10 +36,10 @@ The Record (SELF, SKILLS, IX-A/B) already captures goals and curiosity. This des
 
 ### 2.1 `build_curiosity_playlist(topics: list[str], max_videos: int = 10) -> list[VideoCandidate]`
 
-Builds a playlist from IX-B curiosity topics.
+Builds a playlist from museum knowledge section B curiosity topics.
 
 **Logic:**
-1. Extract topics from IX-B (and optionally IX-A for "next level").
+1. Extract topics from museum knowledge section B (and optionally museum knowledge section A for "next level").
 2. For each topic, generate search phrases via `topics_to_search_queries()`.
 3. Call YouTube Data API `search.list` with `type=video`, `safeSearch=strict`, `videoDuration=short|medium`.
 4. Filter by channel reputation, view count, recency.
@@ -66,7 +66,7 @@ Content at the SKILLS edge — stretches capability.
 **Logic:**
 1. Read `edge` for module (e.g. THINK: "Longer text, inference, retelling").
 2. Map edge phrases → search terms: "read aloud chapter book", "reading comprehension for kids".
-3. Optionally intersect with IX-B topics.
+3. Optionally intersect with museum knowledge section B topics.
 4. Search; filter; return.
 
 ---

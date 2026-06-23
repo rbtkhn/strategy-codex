@@ -1,0 +1,158 @@
+{
+  "main_total": 697,
+  "captured_main": 145,
+  "overall_pct": 0.208,
+  "recent_main_total": 20,
+  "recent_captured_main": 5,
+  "recent_pct": 0.25,
+  "must_capture_remaining": 15,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "overall_backlog_status": "below-threshold",
+  "target_window": {
+    "start": "2026-06-18",
+    "end": "2026-06-20"
+  },
+  "target_window_status": "below-threshold",
+  "target_window_main_total": 20,
+  "target_window_captured_main": 5,
+  "target_window_pct": 0.25,
+  "target_window_must_capture_remaining": 15,
+  "per_date": {
+    "": {
+      "rows": 873,
+      "main_total": 677,
+      "captured_main": 140,
+      "coverage_pct": 0.2068,
+      "must_capture_remaining": 0
+    },
+    "2026-06-18": {
+      "rows": 11,
+      "main_total": 8,
+      "captured_main": 1,
+      "coverage_pct": 0.125,
+      "must_capture_remaining": 7
+    },
+    "2026-06-19": {
+      "rows": 11,
+      "main_total": 8,
+      "captured_main": 2,
+      "coverage_pct": 0.25,
+      "must_capture_remaining": 6
+    },
+    "2026-06-20": {
+      "rows": 4,
+      "main_total": 4,
+      "captured_main": 2,
+      "coverage_pct": 0.5,
+      "must_capture_remaining": 2
+    }
+  },
+  "per_channel": {
+    "alexander-mercouris": {
+      "rows": 7,
+      "main_total": 3,
+      "captured_main": 3,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    },
+    "breaking-points": {
+      "rows": 8,
+      "main_total": 8,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 8
+    },
+    "daniel-davis": {
+      "rows": 61,
+      "main_total": 33,
+      "captured_main": 11,
+      "coverage_pct": 0.3333,
+      "must_capture_remaining": 7
+    },
+    "dialogue-works": {
+      "rows": 75,
+      "main_total": 75,
+      "captured_main": 52,
+      "coverage_pct": 0.6933,
+      "must_capture_remaining": 0
+    },
+    "glenn-diesen": {
+      "rows": 75,
+      "main_total": 37,
+      "captured_main": 23,
+      "coverage_pct": 0.6216,
+      "must_capture_remaining": 0
+    },
+    "india-and-global-left": {
+      "rows": 75,
+      "main_total": 68,
+      "captured_main": 2,
+      "coverage_pct": 0.0294,
+      "must_capture_remaining": 0
+    },
+    "judging-freedom": {
+      "rows": 74,
+      "main_total": 42,
+      "captured_main": 18,
+      "coverage_pct": 0.4286,
+      "must_capture_remaining": 0
+    },
+    "mario-nawfal": {
+      "rows": 75,
+      "main_total": 71,
+      "captured_main": 8,
+      "coverage_pct": 0.1127,
+      "must_capture_remaining": 0
+    },
+    "moral-resistance": {
+      "rows": 75,
+      "main_total": 60,
+      "captured_main": 3,
+      "coverage_pct": 0.05,
+      "must_capture_remaining": 0
+    },
+    "neutrality-studies": {
+      "rows": 75,
+      "main_total": 75,
+      "captured_main": 4,
+      "coverage_pct": 0.0533,
+      "must_capture_remaining": 0
+    },
+    "predictive-history": {
+      "rows": 75,
+      "main_total": 75,
+      "captured_main": 10,
+      "coverage_pct": 0.1333,
+      "must_capture_remaining": 0
+    },
+    "reason-to-resist": {
+      "rows": 74,
+      "main_total": 68,
+      "captured_main": 5,
+      "coverage_pct": 0.0735,
+      "must_capture_remaining": 0
+    },
+    "redacted-news": {
+      "rows": 75,
+      "main_total": 74,
+      "captured_main": 4,
+      "coverage_pct": 0.0541,
+      "must_capture_remaining": 0
+    },
+    "tucker-carlson": {
+      "rows": 75,
+      "main_total": 8,
+      "captured_main": 2,
+      "coverage_pct": 0.25,
+      "must_capture_remaining": 0
+    }
+  },
+  "roster_scope": "main",
+  "roster_channel_count": 14,
+  "capture_surface": "archive"
+}

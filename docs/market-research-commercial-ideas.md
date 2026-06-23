@@ -11,7 +11,7 @@
 | Category | Size / trend | Relevance to Grace-Mar |
 |----------|--------------|------------------------|
 | **AI persistent memory / identity** | 2026 framed as "year of persistent context"; Mem0, Weaviate, long-context; enterprise wants memory layer | Grace-Mar = *user-approved* persistent identity + evidence, not stateless or RAG-only — differentiator |
-| **AI-enabled personality development** | ~$6.76B (2025) → ~$44.73B (2035), 20.8% CAGR; motivation, coaching, soft skills | IX-B/IX-C + evidence + gate = "personality with provenance" |
+| **AI-enabled personality development** | ~$6.76B (2025) → ~$44.73B (2035), 20.8% CAGR; motivation, coaching, soft skills | museum knowledge section B/museum knowledge section C + evidence + gate = "personality with provenance" |
 | **Digital identity as asset** | High-value deals (e.g. creator digital identity ~$975M); avatar, voice, digital twins | Sovereign, evidence-based identity for agents = protocol-layer play |
 | **Personalized learning** | ~$6B–$62B depending on scope; 22–26% CAGR | Curriculum + Record + skill gaps = existing wedge; market supports premium for personalization |
 | **Homeschool curriculum** | ~$3.24B (2024) → ~$6.76B (2033), ~8% CAGR | Direct fit for homeschool/microschool wedge |
@@ -51,7 +51,7 @@
 
 ### 3. **"Personality with provenance" for coaches and creators**
 
-**Why:** AI-enabled personality development is a $6B+ growth market; motivation and coaching are top use cases. Most systems infer personality from behavior. Grace-Mar's IX-B/IX-C are *curated and approved* — personality with provenance.
+**Why:** AI-enabled personality development is a $6B+ growth market; motivation and coaching are top use cases. Most systems infer personality from behavior. Grace-Mar's museum knowledge section B/museum knowledge section C are *curated and approved* — personality with provenance.
 
 **Idea:** Target coaches, creator-educators, and small teams who want a **portable, evidence-backed profile** of a person's interests, style, and growth (e.g. for handoffs, continuity, or personalized content). Not a replacement for coaching tools; a **profile substrate** that "this person's documented interests and style" can be consumed by other tools. Monetize via hosted Record + export API or white-label.
 
@@ -77,9 +77,9 @@
 
 ### 5. **Curriculum + Record bundle (homeschool)**
 
-**Why:** Homeschool curriculum market ~$3.24B→$6.76B; personalized learning 22–26% CAGR. Grace-Mar already has curriculum generator, skill gaps, IX-B signals. Competitors sell curriculum or placement; few sell "curriculum that adapts to *your documented* interests and gaps."
+**Why:** Homeschool curriculum market ~$3.24B→$6.76B; personalized learning 22–26% CAGR. Grace-Mar already has curriculum generator, skill gaps, museum knowledge section B signals. Competitors sell curriculum or placement; few sell "curriculum that adapts to *your documented* interests and gaps."
 
-**Idea:** **Curriculum that reads the Record**: generate modules/plans from IX-A/B/C and skill gaps; market as "curriculum that knows your kid — because you approved what goes in." Revenue: premium tier (hosted family + curriculum) or one-time curriculum pack. Differentiator: curriculum is driven by the *same* evidence-grounded Record the family owns.
+**Idea:** **Curriculum that reads the Record**: generate modules/plans from museum knowledge section A/B/C and skill gaps; market as "curriculum that knows your kid — because you approved what goes in." Revenue: premium tier (hosted family + curriculum) or one-time curriculum pack. Differentiator: curriculum is driven by the *same* evidence-grounded Record the family owns.
 
 **Fit:** Builds on existing generate_curriculum, load_mastery_learning_benchmarks; aligns with "low-cost alternative" and homeschool wedge.
 

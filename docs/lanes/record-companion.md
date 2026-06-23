@@ -20,7 +20,7 @@
 | Staging | `recursion-gate.md` |
 | Identity + IX | `self.md` |
 | Activity log | `self-evidence.md` |
-| Continuity / tone (non-Record) | `self-memory.md` â€” short/medium/long horizons; rotatable |
+| Continuity / tone (non-Record) | `memory.md` â€” short/medium/long horizons; rotatable |
 
 ## Weekly minimum
 

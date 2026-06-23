@@ -1,6 +1,6 @@
 ﻿# work-business-history â€” operator log
 
-> **Append-only** log for the **work-business** territory (market research, Grace Gems, competitive notes). **Not** Record truth; **not** companion [self-memory](../../../self-memory.md). **Rotatable.**
+> **Append-only** log for the **work-business** territory (market research, Grace Gems, competitive notes). **Not** Record truth; **not** companion [memory](../../../memory.md). **Rotatable.**
 
 **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane milestones:** this file â€” see [work-modules-history-principle.md](../work-modules-history-principle.md).
 

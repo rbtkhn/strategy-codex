@@ -53,7 +53,7 @@ Without the gate, personalized AI becomes soft capture: systems infer, persist, 
 
 Companion Self distinguishes between three kinds of structured surface:
 
-- **SELF**: who the companion is. This includes self-knowledge, self-curiosity, and self-personality.
+- **SELF**: who the companion is. This includes museum identity knowledge (archive), self-curiosity, and self-personality.
 - **SKILLS**: what the Record can evidence the companion can do. In the current architecture these Record-bound skill modules are **THINK** and **WRITE**.
 - **WORK**: adjacent execution territory. Planning, making, delivery, and tool-using work may use the full power of models and systems, but it does not become Record truth automatically.
 

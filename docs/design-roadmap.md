@@ -32,7 +32,7 @@
 **Concept:** Grace-Mar generates a periodic digest (e.g. weekly) and sends it to the fork's email.
 
 **Content sources:**
-- **IX-B Curiosity** — Topics and interests → 2–3 recommended links (YouTube, read-alouds, Khan)
+- **museum knowledge section B Curiosity** — Topics and interests → 2–3 recommended links (YouTube, read-alouds, Khan)
 - **LIBRARY** — Extensions of books: read-alouds, related videos, "if you liked X…"
 - **SKILLS edge** — One "stretch" item per issue (e.g. longer read-aloud, slightly harder activity)
 
@@ -49,7 +49,7 @@
 **Flow:**
 1. **Subscribe** — Grace-Mar email receives newsletters from allowlisted sources (e.g. Khan Kids, Common Sense Media, Smithsonian for Kids, book/series newsletters)
 2. **Ingest** — Cron polls inbox; fetches new messages; extracts links, titles, topics
-3. **Match** — Score each item against IX-B, LIBRARY, SKILLS edge
+3. **Match** — Score each item against museum knowledge section B, LIBRARY, SKILLS edge
 4. **Stage** — Matches above threshold → RECURSION-GATE: "Newsletter X recommended this on [topic]; matches curiosity in Y"
 5. **Approve** — Parent approves → add to playlists, LIBRARY, or feed back into curiosity
 
@@ -104,7 +104,7 @@
 - **Record as identity source** — Export SELF → `symbolic_identity.json` via `scripts/export_symbolic.py` (cache-oriented, Familiar-ready).
 - **Session continuity** — Intersignal reads SESSION-LOG, RECURSION-GATE, EVIDENCE before startup.
 - **Staging contract** — Braid agents may stage to RECURSION-GATE; **never** merge. User remains the gate.
-- **Cache-level symbolic sharing** — Structured primitives (interests, IX-A/B/C summaries, evidence anchors, checksum) for Mesh Cache.
+- **Cache-level symbolic sharing** — Structured primitives (interests, museum knowledge section A/B/C summaries, evidence anchors, checksum) for Mesh Cache.
 
 **Workspace patterns:** grace-mar as sibling to Intersignal mesh; export to `../intersignal-mesh/identity/`.
 
@@ -123,7 +123,7 @@ python platform/integrations/export_hook.py --target intersignal -u grace-mar -o
 
 **Scope:**
 - **Designs as evidence** — User creates in Canva → export → "we designed X" → pipeline stages → EVIDENCE
-- **Template population** — IX-B, LIBRARY, or JOURNAL highlights → insert into Canva template → operator-approved output
+- **Template population** — museum knowledge section B, LIBRARY, or JOURNAL highlights → insert into Canva template → operator-approved output
 - **Newsletter layout** — Outbound digest rendered via Canva for visual polish
 
 **APIs:** Connect API (workflow integration, asset sync), App SDK (content import, design automation). Admin/SCIM for org management if needed.
@@ -152,15 +152,15 @@ python platform/integrations/export_hook.py --target intersignal -u grace-mar -o
 
 ## 10. Homeschool / Adaptive Curriculum Integration
 
-**Rationale:** Grace-Mar's Voice teaches and tutors. External curriculum systems (homeschool bots, adaptive platforms like Khan, IXL, custom Glide/Zapier stacks) can use the Record as the **identity layer** to personalize lessons and activities. The Record tells the curriculum engine: what the student knows (IX-A), what they're curious about (IX-B), their skills edge (SKILLS), and their Lexile level.
+**Rationale:** Grace-Mar's Voice teaches and tutors. External curriculum systems (homeschool bots, adaptive platforms like Khan, IXL, custom Glide/Zapier stacks) can use the Record as the **identity layer** to personalize lessons and activities. The Record tells the curriculum engine: what the student knows (museum knowledge section A), what they're curious about (museum knowledge section B), their skills edge (SKILLS), and their Lexile level.
 
 **Scope:**
-- **Record as identity source** — Export a curriculum-oriented view: IX-B (curiosity), SKILLS edge, Lexile, knowledge gaps. Use `scripts/export_engagement_profile.py -u [id]` for a motivation/engagement slice (interests, curiosity_topics, personality_snippets, talent_stack) in JSON or `--md` for markdown. Curriculum engines read this to tailor content.
+- **Record as identity source** — Export a curriculum-oriented view: museum knowledge section B (curiosity), SKILLS edge, Lexile, knowledge gaps. Use `scripts/export_engagement_profile.py -u [id]` for a motivation/engagement slice (interests, curiosity_topics, personality_snippets, talent_stack) in JSON or `--md` for markdown. Curriculum engines read this to tailor content.
 - **Activity/lesson personalization** — "She's curious about reptiles and gemstones" → suggest crystal formation lab. "She just learned Jupiter's Red Spot" → extend with storm systems.
 - **Grace-Mar Voice does tutoring** — Core tutoring happens in Grace-Mar. Curriculum systems can *supplement* (deliver structured lessons, labs, activities) while Grace-Mar answers questions and explains in-character.
 - **Evidence loop** — Curriculum outputs (writing, photos, completion) flow back via "we did X" → pipeline stages → user approves → EVIDENCE, SELF.
 - **Access needs** — Curriculum export includes `access_needs` (explanation level, dyslexia-friendly font, read speed) for assistive tools (e.g. World Pen Scan).
-- **Assistive tools as signal source** — Reading pens, speech-to-text: vocabulary lookups and "tell me more" curiosity can flow into pipeline as IX-A/IX-B candidates.
+- **Assistive tools as signal source** — Reading pens, speech-to-text: vocabulary lookups and "tell me more" curiosity can flow into pipeline as museum knowledge section A/museum knowledge section B candidates.
 
 **Workspace patterns:** Grace-Mar as sibling to curriculum stack; export `symbolic_identity.json` or a curriculum-specific schema; curriculum engine queries on schedule or at lesson generation.
 
@@ -170,12 +170,12 @@ python platform/integrations/export_hook.py --target intersignal -u grace-mar -o
 
 ## 11. Learning Path from Record
 
-**Rationale:** Curriculum platforms (SparkPath, Khan, homeschool stacks) use "learning paths" — sequences of lessons. Grace-Mar's Record can *drive* those paths: IX-B (curiosity) + SKILLS edge suggest what to assign next.
+**Rationale:** Curriculum platforms (SparkPath, Khan, homeschool stacks) use "learning paths" — sequences of lessons. Grace-Mar's Record can *drive* those paths: museum knowledge section B (curiosity) + SKILLS edge suggest what to assign next.
 
 **Scope:**
 - **Path generation** — Given `curriculum_profile.json`, generate a suggested sequence: "Curious about reptiles, WRITE edge for narrative → reptile fact sheet (read) → short story prompt (write)." Curriculum engine maps suggestions to its lesson library.
 - **Skills-aware sequencing** — THINK edge + curiosity topic → suggest text. WRITE edge + topic → suggest writing prompt. WORK (creation) edge → suggest creative task.
-- **Knowledge-avoidance** — IX-A (knowledge) filters out already-learned content; path builds on gaps and stretches at the edge.
+- **Knowledge-avoidance** — museum knowledge section A (knowledge) filters out already-learned content; path builds on gaps and stretches at the edge.
 
 **Output:** Suggested path (lesson IDs or descriptors) that a curriculum platform consumes. Grace-Mar does not hold lessons; it holds the identity that *selects* them.
 

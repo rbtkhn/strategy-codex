@@ -12,7 +12,7 @@ Review supplement for candidates with `territory: portable-working-identity`. Th
 | 2 | **Is it durable** enough to preserve (`stable` / `recurring`), or just temporary residue? | Ephemeral habits shouldn't enter the Record unless they reveal something persistent underneath. |
 | 3 | **Does it contain sensitive or employer-bound content?** | Proprietary processes, internal tooling names, or employer IP must not enter a portable Record. |
 | 4 | **Is it portable** across tools and roles, or locked to a specific context? | Claims that only apply to one codebase or one employer are `role_specific` or `employer_bound`, not `cross_tool`. |
-| 5 | **Is the proposed target surface correct?** | Domain knowledge → SELF-LIBRARY. Workflows → SKILLS. Behavioral patterns → SELF. Artifact evidence → EVIDENCE. Misplaced candidates lose value. |
+| 5 | **Is the proposed target surface correct?** | Domain knowledge → removed operator-books symlink. Workflows → SKILLS. Behavioral patterns → SELF. Artifact evidence → EVIDENCE. Misplaced candidates lose value. |
 | 6 | **Should it be exportable by default or internal-only?** | Some patterns are real but private (e.g. anxiety responses, health-related work rhythms). Mark `non_portable` if appropriate. |
 
 ---

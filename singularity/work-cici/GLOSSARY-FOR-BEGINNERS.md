@@ -7,7 +7,7 @@ Short, plain-language definitions used in `work-cici`.
 - **Record**  
   The durable identity files for a companion (what is treated as true after approval).
 
-- **self-knowledge**  
+- **museum identity knowledge (archive)**  
   The "facts and understanding" part of durable Record growth.
 
 - **self-identity**  
@@ -54,8 +54,8 @@ Short, plain-language definitions used in `work-cici`.
 - **Skill-work agent**  
   A **work agent** scoped to **`docs/skill-work/`** and **WORK territories** (runbooks, mirrors, **lanes**). Meant to be **replicated** (same playbook in another module) and run **in parallel** (separate branch, lane, or session). Same rule: **no silent merge** into the Record.
 
-- **Cognitive fork vs Git fork**  
-  **Cognitive fork** = the Record (governed self). **Git fork** = a separate repository on GitHub (or similar). Same English word, different layers.
+- **Interpretive machine vs Git fork**  
+  **Interpretive machine** = the Record (governed self). **Git fork** = a separate repository on GitHub (or similar). Same English word, different layers.
 
 - **Leakage**  
   Accidental copy of one companion’s identity content into another companion’s files.

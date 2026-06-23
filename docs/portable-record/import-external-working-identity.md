@@ -55,7 +55,7 @@ python3 scripts/import_working_identity_candidates.py \
 
 | Layer | Target surface |
 |---|---|
-| `domain_encoding` | SELF-LIBRARY |
+| `domain_encoding` | removed operator-books symlink |
 | `workflow_calibration` | SKILLS |
 | `behavioral_calibration` | SELF |
 | `artifact_rationale` | EVIDENCE |
@@ -64,7 +64,7 @@ python3 scripts/import_working_identity_candidates.py \
 
 ## Governance
 
-All staged candidates are **non-canonical** until reviewed and approved through the gated pipeline. The import script writes to `recursion-gate.md` only — it does not touch SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py`.
+All staged candidates are **non-canonical** until reviewed and approved through the gated pipeline. The import script writes to `recursion-gate.md` only — it does not touch SELF, removed operator-books symlink, SKILLS, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py`.
 
 After staging, use the standard review workflow: review each candidate, set `status: approved` or `status: rejected`, then tell the assistant to process. For portability-specific review criteria, see the [portability review checklist](portability-review-checklist.md).
 

@@ -66,7 +66,7 @@ Encode **jurisdiction + client slug** so milestones stay sortable without new te
 
 ### IX vs ACT (policy)
 
-- **Default for work-politics merges:** prefer **ACT- + minimal IX** unless the companion wants campaign substance in Abbyâ€™s IX-A/B/C. Opposition and strategy need not become the childâ€™s self-knowledge.
+- **Default for work-politics merges:** prefer **ACT- + minimal IX** unless the companion wants campaign substance in Abbyâ€™s museum knowledge section A/B/C. Opposition and strategy need not become the childâ€™s museum identity knowledge (archive).
 - **INTENT:** When campaign posture shifts materially, consider a separate candidate or INTENT edit **through the gate** so long agents align â€” optional but high leverage.
 
 ### Civ-mem â†’ drafts (human-always-approves)

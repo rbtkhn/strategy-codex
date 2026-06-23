@@ -48,4 +48,4 @@
 - **PRC:** Encyclopedia of China; people.cn / gov.cn for policy narrative; CASS/CIIS for strategic framing where relevant.  
 - **Niche (Xiongnu, Zhenghe, Marco Polo):** Encyclopedia of China where an entry exists; otherwise document "No Chinese-language source added; [reason]."
 
-Reference: Plan *Major Upgrade: MEM–CHINA Corpus × Chinese-Language Sources*; AUDIT–SESSION–MEMS–CHINESE–LANGUAGE–SOURCES–2026–02–13; CIV–ARC–CHINA v3.3 § IX-B; CHECKLIST–MEM–CHINA–CHINESE–LANGUAGE–INTEGRATION.md.
+Reference: Plan *Major Upgrade: MEM–CHINA Corpus × Chinese-Language Sources*; AUDIT–SESSION–MEMS–CHINESE–LANGUAGE–SOURCES–2026–02–13; CIV–ARC–CHINA v3.3 § museum knowledge section B; CHECKLIST–MEM–CHINA–CHINESE–LANGUAGE–INTEGRATION.md.

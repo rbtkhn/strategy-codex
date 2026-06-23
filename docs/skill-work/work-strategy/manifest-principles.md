@@ -5,7 +5,7 @@
 ## Principles
 
 1. **Truth > Persuasion** — Accuracy and clarity before rhetorical effect.
-2. **No SELF modification** — Work-strategy outputs do not modify SELF, SELF-LIBRARY, or identity layers; any Record change goes through RECURSION-GATE + companion approval.
+2. **No SELF modification** — Work-strategy outputs do not modify SELF, removed operator-books symlink, or identity layers; any Record change goes through RECURSION-GATE + companion approval.
 3. **Triangulation mandatory** — For current-events and persuasive content, use the three analytical lenses ([work-politics/analytical-lenses](../work-politics/analytical-lenses/manifest.md)); contradictions are surfaced, not hidden.
 4. **Final synthesis human** — the operator performs final synthesis; nothing ships without human sign-off.
 5. **CIV-MEM when relevant** — Cite governed library / CMC lookups for historical precedent; citations do not auto-enter the Record.

@@ -30,7 +30,7 @@ Source tier summary:
 ## 4. Grace-Mar relevance
 
 Relevant WORK lanes:  
-Relevant SELF-LIBRARY shelves, if any:  
+Relevant removed operator-books symlink shelves, if any:  
 Relevant skills, if any:  
 Relevant evidence, if any:  
 Relevant runtime complements, if any:  
@@ -46,7 +46,7 @@ Path E — Propose collaboration:
 ## 6. Boundary checks
 
 Does this alter SELF? yes/no  
-Does this alter SELF-LIBRARY? yes/no  
+Does this alter removed operator-books symlink? yes/no  
 Does this alter SKILLS? yes/no  
 Does this alter EVIDENCE? yes/no  
 Does this require recursion-gate? yes/no  

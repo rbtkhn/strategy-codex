@@ -4,7 +4,7 @@ e# STATE–Germany · Doctrine Audit (ARC-Sourced)
 **Audit date:** 11 February 2026  
 **Evidence window:** Official and research outputs through early 2026 (forecasts and policy for 2026)
 
-**Source rule:** All current-event and institutional evidence in this audit is drawn from **CIV–ARC–GERMANY v3.0, Section IX-B (ARC-T-INSTITUTIONAL)**. Non-ARC sources are not used for factual claims. Attribution format: *(Source: [name], ARC–GERMANY–[category]; Editorial note: [from ARC file].)*
+**Source rule:** All current-event and institutional evidence in this audit is drawn from **CIV–ARC–GERMANY v3.0, Section museum knowledge section B (ARC-T-INSTITUTIONAL)**. Non-ARC sources are not used for factual claims. Attribution format: *(Source: [name], ARC–GERMANY–[category]; Editorial note: [from ARC file].)*
 
 ---
 
@@ -157,4 +157,4 @@ e# STATE–Germany · Doctrine Audit (ARC-Sourced)
 
 ---
 
-**Reference:** CIV–ARC–GERMANY v3.0 Section IX-B (ARC-T-INSTITUTIONAL); CIV–DOCTRINE–GERMANY v3.0; CIV–STATE–GERMANY v1.1; cmc-arc-source-coverage.
+**Reference:** CIV–ARC–GERMANY v3.0 Section museum knowledge section B (ARC-T-INSTITUTIONAL); CIV–DOCTRINE–GERMANY v3.0; CIV–STATE–GERMANY v1.1; cmc-arc-source-coverage.

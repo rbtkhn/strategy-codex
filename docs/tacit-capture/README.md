@@ -1,6 +1,6 @@
 ﻿# Tacit capture (Grace-Mar)
 
-**Runtime / WORK only.** Markdown-first intake for lived observations, normalized to JSON, then optional **review-only** candidate objects. **Not** SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or Voice prompt truth.
+**Runtime / WORK only.** Markdown-first intake for lived observations, normalized to JSON, then optional **review-only** candidate objects. **Not** SELF, removed operator-books symlink, SKILLS, EVIDENCE, or Voice prompt truth.
 
 **Related:** [runtime vs Record](../runtime-vs-record.md), [prepared-context layer](../prepared-context-layer.md), [moonshot operating model](../moonshot-operating-model.md).
 
@@ -60,8 +60,8 @@ python3 scripts/tacit/render_tacit_candidates_md.py runtime/tacit/candidates/*.j
 
 ## SELF vs MEMORY
 
-- **SELF (`self.md`):** IX / self-knowledge updates **only** via gate + merge. This pipeline **does not** write `self.md`.
-- **MEMORY (`self-memory.md`):** Optional continuity; **not** authoritative vs SELF. You may **manually** log follow-ups; no automatic tacit â†’ MEMORY link in v1.
+- **SELF (`self.md`):** IX / museum identity knowledge (archive) updates **only** via gate + merge. This pipeline **does not** write `self.md`.
+- **MEMORY (`memory.md`):** Optional continuity; **not** authoritative vs SELF. You may **manually** log follow-ups; no automatic tacit â†’ MEMORY link in v1.
 
 ---
 

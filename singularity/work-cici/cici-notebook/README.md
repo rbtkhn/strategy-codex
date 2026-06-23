@@ -2,7 +2,7 @@
 
 **Book:** Daily notes on **learning and building** the **Open Brain** / **Cici** stack: **instance** ([`Cici`](https://github.com/Xavier-x01/Cici)), upstream ([NateBJones-Projects/OB1](https://github.com/NateBJones-Projects/OB1)), and how that ties to **BrewMind** work.
 
-**Discoverability:** The same tree is linked from **`SELF-LIBRARY/cici-notebook`** (repo-relative symlink) for agents and tools that prioritize the companion tree. **LIB:** [LIB-0154](../../../../self-library.md#operator-analytical-books) in [`self-library.md`](../../../../self-library.md) (Operator analytical books).
+**Discoverability:** The same tree is linked from **`cici-notebook`** (repo-relative symlink) for agents and tools that prioritize the companion tree. **LIB:** [cici notebook (`singularity/work-cici/cici-notebook/`)](../../../../self-library.md#operator-analytical-books) in [`self-library.md`](../../../../self-library.md) (Operator analytical books).
 
 **Territory:** `singularity/work-cici/cici-notebook/` in grace-mar â€” **WORK / operator coaching**, not Ciciâ€™s **Record** in grace-mar, not companion Voice knowledge.
 

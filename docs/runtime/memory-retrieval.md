@@ -36,7 +36,7 @@ Grace-Mar runtime observations support a **progressive disclosure** workflow ove
 
 ## Rules
 
-- Runtime retrieval does **not** mutate SELF, SELF-LIBRARY, SKILLS, or EVIDENCE.
+- Runtime retrieval does **not** mutate SELF, removed operator-books symlink, SKILLS, or EVIDENCE.
 - Runtime retrieval does **not** auto-stage changes into `recursion-gate.md`.
 - Cross-lane retrieval must be **explicit** (`lane-search` without `--lane` searches all lanes; `lane-timeline` uses `--cross-lane` for a global chronological pool).
 - Compact retrieval comes before full-detail expansion.

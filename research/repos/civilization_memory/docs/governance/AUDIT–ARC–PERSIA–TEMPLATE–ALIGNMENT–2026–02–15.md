@@ -18,8 +18,8 @@
 | **Author lists** | Populated; format aligned |
 | **Discovery / V-A / ERC / What ARC does not** | Present ✓ |
 | **Mirroring (VIII)** | Content correct; **CORE and SCHOLAR cite v2.0** (ARC is v3.0) → fix |
-| **IX-B ARC-T-INSTITUTIONAL** | Present; OFFICIAL, RESEARCH, NEWS, SPECIALIST; ≥2 per sub-type ✓ |
-| **IX-C Cross-Entity** | Not present (template optional for STATE cross-entity use) |
+| **museum knowledge section B ARC-T-INSTITUTIONAL** | Present; OFFICIAL, RESEARCH, NEWS, SPECIALIST; ≥2 per sub-type ✓ |
+| **museum knowledge section C Cross-Entity** | Not present (template optional for STATE cross-entity use) |
 
 **Verdict:** CIV–ARC–PERSIA v3.0 is **compliant** with the template. **Recommended fix:** Update CIV–CORE–PERSIA and CIV–SCHOLAR–PERSIA to reference CIV–ARC–PERSIA **v3.0** (they currently cite v2.0). Optional: header governance refs to v3.3/v3.2.
 
@@ -42,7 +42,7 @@
 
 ## III. SECTION ORDER AND CONTENT
 
-Template v3.2 requires: I Purpose & Scope, II ARC-Temporal Categories, III Temporal Precedence Rule, IV Author Admissibility Lists, V Discovery Framework, V-A Cross-ARC Citation for TSP, VI Orthogonality with ERC, VII What ARC Does Not Govern, VIII Mirroring Rule, IX Versioning, IX-B ARC-T-INSTITUTIONAL, IX-C Cross-Entity (optional), X Living ARC (optional).
+Template v3.2 requires: I Purpose & Scope, II ARC-Temporal Categories, III Temporal Precedence Rule, IV Author Admissibility Lists, V Discovery Framework, V-A Cross-ARC Citation for TSP, VI Orthogonality with ERC, VII What ARC Does Not Govern, VIII Mirroring Rule, IX Versioning, museum knowledge section B ARC-T-INSTITUTIONAL, museum knowledge section C Cross-Entity (optional), X Living ARC (optional).
 
 | Template section | CIV–ARC–PERSIA | Status |
 |------------------|----------------|--------|
@@ -56,15 +56,15 @@ Template v3.2 requires: I Purpose & Scope, II ARC-Temporal Categories, III Tempo
 | VII. What ARC Does Not Govern | VII. WHAT ARC DOES NOT GOVERN | ✓ |
 | VIII. Mirroring Rule | VIII. MIRRORING / REFERENCE | ✓ |
 | IX. Versioning | IX. VERSIONING | ✓ |
-| IX-B. ARC-T-INSTITUTIONAL | IX-B. ARC-T-INSTITUTIONAL | ✓ |
-| IX-C. Cross-Entity | — | Optional; not present |
+| museum knowledge section B. ARC-T-INSTITUTIONAL | museum knowledge section B. ARC-T-INSTITUTIONAL | ✓ |
+| museum knowledge section C. Cross-Entity | — | Optional; not present |
 | X. Living ARC | — | Optional; not present |
 
 Content for all required sections is present. Precedence rule is embedded in Section II; section-numbering variant is acceptable.
 
 ---
 
-## IV. ARC-T-INSTITUTIONAL (IX-B)
+## IV. ARC-T-INSTITUTIONAL (museum knowledge section B)
 
 Template: four sub-types (OFFICIAL, RESEARCH, NEWS, SPECIALIST); minimum 2 sources per sub-type for active STATE file.
 
@@ -96,7 +96,7 @@ ARC file states:
 ## VI. OPTIONAL UPDATES
 
 1. **Header:** "Governed by: CIV–MEM–CORE v3.0 · CIV–ARC–TEMPLATE v3.0" → v3.3 / v3.2 for parity with VERSION–MANIFEST (version decoupling allows current wording).
-2. **IX-C Cross-Entity:** Add Section IX-C (Cross-Entity Institutional Source Access) if STATE mode will assess other entities using their ARC-T-INSTITUTIONAL; template format and rules are in CIV–ARC–TEMPLATE § IX-C.
+2. **museum knowledge section C Cross-Entity:** Add Section museum knowledge section C (Cross-Entity Institutional Source Access) if STATE mode will assess other entities using their ARC-T-INSTITUTIONAL; template format and rules are in CIV–ARC–TEMPLATE § museum knowledge section C.
 
 ---
 
@@ -104,7 +104,7 @@ ARC file states:
 
 1. **Mirroring fix (recommended):** In CIV–CORE–PERSIA and CIV–SCHOLAR–PERSIA, change "ARC Reference: CIV–ARC–PERSIA v2.0" to "ARC Reference: CIV–ARC–PERSIA v3.0".
 2. **Optional:** Update ARC header "Governed by" to CIV–MEM–CORE v3.3 · CIV–ARC–TEMPLATE v3.2.
-3. **Optional:** Add IX-C if cross-entity STATE use is desired.
+3. **Optional:** Add museum knowledge section C if cross-entity STATE use is desired.
 
 ---
 

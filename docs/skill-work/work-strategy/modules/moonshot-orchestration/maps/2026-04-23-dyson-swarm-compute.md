@@ -53,7 +53,7 @@ Dashboard status: Not auto-added
 
 **Relevant WORK lanes:**
 
-**Relevant SELF-LIBRARY shelves, if any:**
+**Relevant removed operator-books symlink shelves, if any:**
 
 **Relevant skills, if any:**
 
@@ -77,7 +77,7 @@ Dashboard status: Not auto-added
 
 **Does this alter SELF?** yes/no
 
-**Does this alter SELF-LIBRARY?** yes/no
+**Does this alter removed operator-books symlink?** yes/no
 
 **Does this alter SKILLS?** yes/no
 

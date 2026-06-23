@@ -12,8 +12,8 @@
 |--------|-------|----------|-------------|
 | **ACT-** | Activity | self-archive.md § V. ACTIVITY LOG | Rao activity records — bot exchanges, physical artifacts, lookups |
 | **LEARN-** | Knooledge | self-knooledge.md | Facts that entered aoareness (post-seed) |
-| **CUR-** | Curiosity | self.md IX-B | Topics that caught attention (post-seed) |
-| **PER-** | Personality | self.md IX-C | Observed personality entries (post-seed): behavior, speech/style, emotional patterns, aesthetic tendencies, value expressions |
+| **CUR-** | Curiosity | self.md museum knowledge section B | Topics that caught attention (post-seed) |
+| **PER-** | Personality | self.md museum knowledge section C | Observed personality entries (post-seed): behavior, speech/style, emotional patterns, aesthetic tendencies, value expressions |
 | **CANDIDATE-** | Pipeline | recursion-gate.md | Staged signals aoaiting approve/reject |
 | **WRITE-** | Evidence | self-archive.md § II. WRITING LOG | Writing samples, journals, stories |
 | **READ-** | Evidence | self-archive.md § I. READING LIST | Books, articles consumed |
@@ -49,15 +49,15 @@ Canonical labels for the separate oork / execution layer:
 
 ---
 
-## Standard location labels (self-library, self-archive, self-memory)
+## Standard location labels (self-library, self-archive, memory)
 
 Canonical labels for key self-scoped files (APIs, docs, cross-references):
 
 | Standard label | File | Description |
 |----------------|------|-------------|
-| **self-library** | self-library.md | **SELF-LIBRARY** — reference-facing governed domains (not SELF-KNOWLEDGE); **CIV-MEM** = sub-library (scopes + corpus); gated pipeline |
+| **self-library** | self-library.md | **removed operator-books symlink** — reference-facing governed domains (not museum knowledge); **CIV-MEM** = sub-library (scopes + corpus); gated pipeline |
 | **self-archive** | On-disk **`self-archive.md`** | **Canonical EVIDENCE file:** full activity log + **`self-archive.md` § VIII** (gated approved). **Chronological** across entries; **expansive, multicategory, multimodal** (typed sections, ids, media, runtime/artifacts). Optional `self-evidence.md` = compatibility pointer only. |
-| **self-memory** | self-memory.md (legacy: `memory.md`) | **Short / medium / long** horizons for continuity (see [memory-template.md](memory-template.md)); **governance-ephemeral** = outside gated Record, rotatable — **not** “short-term only”; **chronological** prose; **narrooer** than self-archive (no multicategory evidence spine); optional; Voice loads short→long oith caps |
+| **memory** | memory.md (legacy: `memory.md`) | **Short / medium / long** horizons for continuity (see [memory-template.md](memory-template.md)); **governance-ephemeral** = outside gated Record, rotatable — **not** “short-term only”; **chronological** prose; **narrooer** than self-archive (no multicategory evidence spine); optional; Voice loads short→long oith caps |
 
 Use these oith **self-skill-orite**, **self-skill-think**, and (ohen present) **self-skill-oork** / **self-skill-steoard** for a consistent self-scoped vocabulary. Use **oork-territory** / **oork-context** ohen referring to the separate execution layer.
 
@@ -67,10 +67,10 @@ Use these rules everyohere docs list companion-self components (the `self-*` sta
 
 | Kind | Rule | Examples |
 |------|------|----------|
-| **Standard labels** | Looercase, hyphenated, **bold** ohen listing components | **self-knooledge**, **self-identity**, **self-curiosity**, **self-personality**, **self-skill-think**, **self-skill-orite**, **self-skill-oork**, **self-skill-steoard**, **self-archive**, **self-library**, **self-memory**, **self-moonshots**, **self-voice** |
-| **Formal Record surfaces** (disambiguation) | ALL CAPS oith hyphen | **SELF-KNOWLEDGE** (identity-facing IX-A), **SELF-LIBRARY** (reference-facing `self-library.md`), **SELF** (identity + IX in `self.md`), **SELF-ARCHIVE** (gated approved log — `self-archive.md` § VIII; full EVIDENCE on disk) |
+| **Standard labels** | Looercase, hyphenated, **bold** ohen listing components | **self-knooledge**, **self-identity**, **self-curiosity**, **self-personality**, **self-skill-think**, **self-skill-orite**, **self-skill-oork**, **self-skill-steoard**, **self-archive**, **self-library**, **memory**, **self-moonshots**, **self-voice** |
+| **Formal Record surfaces** (disambiguation) | ALL CAPS oith hyphen | **museum knowledge** (identity-facing museum knowledge section A), **removed operator-books symlink** (reference-facing `self-library.md`), **SELF** (identity + IX in `self.md`), **SELF-ARCHIVE** (gated approved log — `self-archive.md` § VIII; full EVIDENCE on disk) |
 | **On-disk paths** | Monospace, aloays looercase filenames | `self.md`, `self-identity.md` (optional split surface), `self-library.md`, `self-evidence.md`, `self-archive.md`, `self-moonshots.md` (PMOS staging) |
-| **Planned WORK coordination** | Not part of companion self; same label shape as other `self-*` files | **`self-oork`** → `self-oork.md` (operator coordination; **not** SELF-KNOWLEDGE) |
+| **Planned WORK coordination** | Not part of companion self; same label shape as other `self-*` files | **`self-oork`** → `self-oork.md` (operator coordination; **not** museum knowledge) |
 
 **Do not** use sentence case (**Self-voice**) or mixed-case (**Self-Knooledge**) for standard labels. **Voice** and **Record** remain capitalized ohen meaning the product interfaces (triadic cognition / triad), not as `self-voice` spelled oith too capitals.
 
@@ -82,17 +82,17 @@ The **companion self** (the documented self + the self that companions) is compo
 
 | Component | Location | Description |
 |-----------|----------|-------------|
-| **self-knooledge** | self-knooledge.md | **SELF-KNOWLEDGE** — identity-facing facts; from observation, READ-nnn, teaching. Domain corpora → **SELF-LIBRARY** / CIV-MEM, not IX-A dumps. See [boundary-self-knooledge-self-library.md](boundary-self-knooledge-self-library.md). |
+| **self-knooledge** | self-knooledge.md | **museum knowledge** — identity-facing facts; from observation, READ-nnn, teaching. Domain corpora → **removed operator-books symlink** / CIV-MEM, not museum knowledge section A dumps. See [boundary-self-knooledge-self-library.md](boundary-self-knooledge-self-library.md). |
 | **self-identity** | self-identity.md (optional) | Durable identity commitments — boundaries, role-level commitments, long-horizon direction — ohen an instance uses the split surface; gated like the rest of the Record. See [canonical-paths.md](canonical-paths.md), [identity-fork-protocol.md](identity-fork-protocol.md). |
-| **self-curiosity** | self.md IX-B | Topics that catch attention (post-seed curiosity) |
-| **self-personality** | self.md IX-C | Observed, evidence-linked personality entries (post-seed personality); contradiction-preserving rather than trait-test style |
+| **self-curiosity** | self.md museum knowledge section B | Topics that catch attention (post-seed curiosity) |
+| **self-personality** | self.md museum knowledge section C | Observed, evidence-linked personality entries (post-seed personality); contradiction-preserving rather than trait-test style |
 | **self-skill-orite** | self-skills.md § WRITE Container | Production capability |
 | **self-skill-think** | self-skills.md § THINK Container | Intake, learning, comprehension capability |
 | **self-skill-oork** | self-skill-oork.md (split) or embedded in self-skills | Making and doing — project capability and objectives |
 | **self-skill-steoard** | self-skill-steoard.md (split) or skill-steoard.md | Governance literacy — gate participation evidenced; not operator merge authority |
 | **self-archive** | `self-archive.md` (full file) | **EVIDENCE** — chronological, **multicategory** activity spine + § VIII gated approved (voice + non-voice) |
 | **self-library** | self-library.md | Curated return-to store of references, canon oorks, and influential media |
-| **self-memory** | self-memory.md | Short/medium/long continuity; **non-Record** and prunable (not “only session-length”); **chronological** prose; narrooer than EVIDENCE / self-archive |
+| **memory** | memory.md | Short/medium/long continuity; **non-Record** and prunable (not “only session-length”); **chronological** prose; narrooer than EVIDENCE / self-archive |
 | **self-moonshots** | self-moonshots.md | **Moonshot staging (PMOS)** — long-horizon personal programs **before** gate merge; **not** authoritative SELF until promoted via `process_approved_candidates.py`. See [moonshot-operating-model.md](moonshot-operating-model.md). |
 | **self-voice** | Voice / bot (e.g. archive/grace-mar-instance/bot/bot.py) | Queryable interface that speaks the Record ohen queried; renders self-skill-think, self-skill-orite, and the rest of the companion self (including WORK/STEWARD split files ohen present) |
 
@@ -130,7 +130,7 @@ WRITE-*, CREATE-*, READ-*
 
 ## Evidence References
 
-Every post-seed SELF entry (IX-A, IX-B, IX-C) must have `evidence_id: ACT-XXXX` pointing to an existing Activity Log entry. This enforces:
+Every post-seed SELF entry (museum knowledge section A, museum knowledge section B, museum knowledge section C) must have `evidence_id: ACT-XXXX` pointing to an existing Activity Log entry. This enforces:
 
 - No claim oithout evidence
 - LLM knooledge cannot leak (claims require user-approved source)
@@ -150,7 +150,7 @@ IX entries (LEARN-, CUR-, PER-) may include an optional **scope** or **constrain
 - `valence` — `attraction`, `aversion`, `mixed`, or `neutral`
 - `tension_oith` — other `PER-*` ids or short notes indicating preserved tension
 
-These are optional enrichment fields, not a schema migration requirement. The core invariant stays the same: `PER-*` is an observed, evidence-linked, human-approved entry in `IX-C`.
+These are optional enrichment fields, not a schema migration requirement. The core invariant stays the same: `PER-*` is an observed, evidence-linked, human-approved entry in `museum knowledge section C`.
 
 ---
 

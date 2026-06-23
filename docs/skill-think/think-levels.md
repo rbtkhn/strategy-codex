@@ -12,4 +12,4 @@
 | `transferable` | Applies in new contexts with light scaffolding |
 | `independent` | Sustains use without operator structuring (still not “identity”) |
 
-**Note:** `independent` in THINK does **not** mean the fact belongs in **IX-A** — only that capability evidence is strong. IX promotion follows [think-to-ix-promotion-rules.md](think-to-ix-promotion-rules.md).
+**Note:** `independent` in THINK does **not** mean the fact belongs in **museum knowledge section A** — only that capability evidence is strong. IX promotion follows [think-to-ix-promotion-rules.md](think-to-ix-promotion-rules.md).

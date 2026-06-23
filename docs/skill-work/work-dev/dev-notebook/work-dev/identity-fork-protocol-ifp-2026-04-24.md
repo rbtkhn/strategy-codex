@@ -14,7 +14,7 @@ Extensive web and GitHub research (as of April 24, 2026) confirms no prior or id
 
 ## Core Components of Grace-Mar IFP
 
-- **Sovereign Merge Rule**: Agents/runtimes **stage only** (inbox, recursion-gate proposals). Human/companion alone performs the merge into canonical surfaces (`SELF`, `SELF-LIBRARY`, `SKILLS`, `EVIDENCE`).
+- **Sovereign Merge Rule**: Agents/runtimes **stage only** (inbox, recursion-gate proposals). Human/companion alone performs the merge into canonical surfaces (`SELF`, `removed operator-books symlink`, `SKILLS`, `EVIDENCE`).
 - **Runtime vs Record Membrane (Membrane v1)**: External runtimes (e.g., Letta research/bridges) operate via defined export/import paths with mandatory receipts. No direct canonical mutation.
 - **Git/Markdown-First Durable Record**: Identity lives in plain, version-controlled Markdown files â€” fully forkable, human-readable, and portable without blockchain.
 - **Artifact Interface Protocol**: All derived outputs (`/runtime/artifacts/`) are explicitly non-canonical, rebuildable, and accompanied by standardized receipts/schemas (e.g., `artifact-rationale.v1.json`, `runtime-complement-receipt.v1.json`). Policy modes (Scratch / Pre-gate / Rebuild / Derived) govern behavior.

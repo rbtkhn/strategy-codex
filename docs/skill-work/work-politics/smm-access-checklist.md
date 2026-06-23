@@ -18,7 +18,7 @@
 
 ## Task 2: Companion-self instance (priority development track)
 
-**Purpose:** Xavier runs the **companion-self** template to build **her own** cognitive fork (private Record + Voice) — **co-primary** with @usa_first_ky, with an explicit **posting floor** (see handbook §6a). Learning by doing is the main path to **business**-aligned product literacy. This does **not** block Day 1 X access (Task 1 still comes first for login).
+**Purpose:** Xavier runs the **companion-self** template to build **her own** interpretive machine (private Record + Voice) — **co-primary** with @usa_first_ky, with an explicit **posting floor** (see handbook §6a). Learning by doing is the main path to **business**-aligned product literacy. This does **not** block Day 1 X access (Task 1 still comes first for login).
 
 | Step | Action | Done |
 |------|--------|------|

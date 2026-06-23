@@ -1,128 +1,45 @@
-# MEMORY–TEMPLATE v2.0
+# MEMORY template — strategy-codex continuity
 
-Self-memory · Short / medium / long horizons · Not part of the Record
-
-Status: ACTIVE  
-Version: 2.0  
-Last Update: March 2026
-
-**Governed by**: [GRACE-MAR-CORE v2.0](grace-mar-core.md)
+**File:** `memory.md` at repo root  
+**Status:** ACTIVE (WORK continuity; not museum Record)
 
 ---
 
-## I. PURPOSE
+## Purpose
 
-The MEMORY module (**self-memory**, canonical file **`self-memory.md`** under ``; legacy **`memory.md`** is still read by tooling until migrated — see [canonical-paths.md](canonical-paths.md)) holds **continuity context** at **three horizons** — short, medium, and long — used to prime the Voice and improve continuity. Content is **mostly chronological**: within each horizon, entries read as a **time-ordered prose thread** (what happened lately, what is open now). That is a **slim** chronology — not **multicategory** structured evidence (no READ-/ACT- sections, no artifact spine). MEMORY is **not part of the Record**. It refines; it does not override SELF.
+`memory.md` holds **session continuity** at three horizons — short, medium, and long. It primes assistants and operators; it does **not** override governed surfaces or museum Record.
 
-**“Ephemeral” in governance docs** means **outside the gated Record** and **intended to be rotated or pruned** — **not** a synonym for “short-term only.” All three horizons (including **long**) are still MEMORY, not SELF; **long** is for **meta** (pointers, habits, where truth lives), not for smuggling durable identity or facts without the gate.
+**Horizon ≠ authority.** Long-term here means **how you run sessions** (pointers, habits, rotation policy), not durable identity or facts.
 
-**Horizon ≠ authority.** Long-term here means **how you run sessions** (pointers, habits, rotation policy), **not** a second copy of durable identity or facts. Those belong in **SELF**, **EVIDENCE** (`self-archive.md`), and the **gate**.
+## Horizons
 
-**Contrast with self-archive (EVIDENCE).** Canonical **self-archive.md** is **also chronological** (dated entries, list ordering, ACT/READ progression within each log) but **far more expansive**: **multicategory** (separate sections and id families for reading, writing, creation, activity, media, § VIII) and **multimodal** (artifact paths, YAML, gated approved blocks) — all **durable Record** once merged. **MEMORY** is deliberately **narrow**: mostly prose across three horizons for session continuity and meta pointers — chronology without that **category spine** or multimodal evidence shape. It does not substitute for evidence, artifacts, or the activity log.
-
-### MEMORY is
-
-- **Short-term** — session / day: tone, immediate thread, calibrations, resistance for *this* stretch
-- **Medium-term** — days to a few weeks: open loops, sprint-level notes, hypotheses **explicitly labeled** as such
-- **Long-term (still non-Record)** — months: **meta only** — rotation habits, pointers to where durable truth lives (`self.md`, `self-work.md`), standing *process* preferences — not stable facts
-
-### MEMORY is NOT
-
-- A shadow Record — no durable facts, identity claims, or knowledge (use IX-A/B/C + gate)
-- A staging area for the pipeline — that is RECURSION-GATE
-- A substitute for SELF — SELF is authoritative; MEMORY defers
-
----
-
-## II. HIERARCHY
-
-**SELF is authoritative.** When MEMORY conflicts with SELF, follow SELF.
-
-**Promotion rule:** If a line **survives weeks** or **repeats across sessions** and sounds like Record content, **stage a candidate** (LEARN / CUR / PER / self-identity per protocol) — do **not** “upgrade” it to long-term MEMORY instead of the gate.
-
----
-
-## III. CONTENT SCOPE
-
-| Horizon | Allowed | Avoid |
+| Horizon | Use for | Avoid |
 |---------|---------|--------|
-| **Short-term** | Tone, recent thread topics, session calibrations, resistance notes | Facts that belong in IX-A; interests that belong in IX-B |
-| **Medium-term** | Open loops, “mid-project” reminders, operator coordination cues | Copy-pasting SELF; internals as if public truth |
-| **Long-term** | “Last rotated” policy, links to canonical files, session *process* | Knowledge claims, personality claims, user quotes |
+| **Short-term** | Tone, immediate thread, calibrations | Facts that belong in statecraft synthesis or museum archive |
+| **Medium-term** | Open loops, sprint notes, labeled hypotheses | Copying durable doctrine |
+| **Long-term** | Rotation habits, pointers to canonical WORK paths | Knowledge claims, identity claims |
 
-MEMORY must NOT contain (any horizon):
+## Hierarchy
 
-- Facts or knowledge claims that belong in **SELF**
-- Identity or personality claims that belong in **SELF** or **self-identity.md**
-- User quotes or verbatim content intended as Record
-- Anything that would require the gated pipeline if it were true in-character
+When `memory.md` conflicts with active WORK doctrine (`statecraft/`, `codex/`, skills), follow the WORK surface.
 
----
+If a line survives weeks and sounds like museum Record content, **do not** upgrade it in `memory.md` — use explicit **`fork revive`** archaeology only.
 
-## IV. LIFESPAN & DECAY
+## Lifespan and decay
 
-| Horizon | Suggested span | Action |
-|---------|----------------|--------|
-| **Short** | Hours–2 days | Clear or trim at session end / daily |
-| **Medium** | Days–few weeks | Weekly prune; promote to gate if it’s really Record |
-| **Long** | Until you revise | Quarterly review; must stay meta/pointers only |
+When the file grows past budget, run:
 
-Document policy in the file header / **Long-term** block. Optional: `expires: YYYY-MM-DD` on bullets (operator honor system).
-
-**Automated length prune (optional, operator-run):** When `self-memory.md` grows past a **higher** character budget than the strategy / Xavier inbox scratch pads (defaults: prune if **> 16000** chars, target **~12000** after), run:
-
-`python3 scripts/prune_self_memory.py -u <id> --dry-run` then `--apply`
-
-Removed text is written to **`runtime/artifacts/memory-prune/`**. With **`--archive`**, the same excerpt is also appended under **`self-archive.md` § IX** (continuity housekeeping — not a substitute for gated merges). This does **not** bypass RECURSION-GATE for identity or knowledge claims; it preserves **continuity buffer** text that would otherwise be discarded.
-
-The Voice loads horizons in order (**short → medium → long**) with **per-section line caps** in code to limit prompt size.
-
----
-
-## V. WRITE RULES
-
-- The analyst does NOT write to MEMORY. Analysts stage to RECURSION-GATE only.
-- MEMORY may be written by: operator (manual), future session summarizer, or user.
-- Nothing in MEMORY may become a claim in SELF or EVIDENCE without going through the gated pipeline.
-
----
-
-## VI. TEMPLATE STRUCTURE (three horizons)
-
-Use these **exact** top-level headers so the bot can bucket content: `## Short-term`, `## Medium-term`, `## Long-term`.
-
-Legacy files that only use `## Tone`, `## Recent Topics`, etc. (no horizon headers) still work: the whole file is treated as one block (backward compatible).
-
-```markdown
-# MEMORY — Ephemeral Session Context
-
-> Not part of the Record. SELF is authoritative.
-
-Last rotated: YYYY-MM-DD
-
-## Short-term
-
-(session / day — tone, thread, calibrations, resistance)
-
-## Medium-term
-
-(days–weeks — open loops, labeled hypotheses)
-
-## Long-term
-
-(meta — rotation policy, pointers to self.md / self-work.md; no durable facts)
+```bash
+python3 scripts/prune_memory.py -u strategy-codex --dry-run
+python3 scripts/prune_memory.py -u strategy-codex --apply
 ```
 
-Optional: keep **## Resistance Notes** under **Short-term** or as its own `##` subsection under Short-term (subsections stay inside Short-term).
+Pruned excerpts land under `runtime/artifacts/memory-prune/`.
 
----
+**Dream** (`auto_dream.py`) may normalize horizons during end-of-day maintenance; see `.cursor/skills/dream/SKILL.md`.
 
-## VII. LEGACY (v1.0) — single block
+## Related
 
-If you omit horizon headers, you may keep the older shape (`## Tone`, `## Recent Topics`, `## Calibrations`, `## Resistance Notes`). The loader will pass the filtered file through as before.
-
----
-
-## VIII. Operator audit (optional)
-
-Multi-dimension review checklist and example run log: [memory-self-audit.md](memory-self-audit.md).
+- Museum Record: [`docs/archive/grace-mar-record-museum.md`](archive/grace-mar-record-museum.md)
+- Path resolution: `scripts/repo_io.py` → `resolve_memory_path()`
+- Statecraft **memory skill** (CIV-MEM / arc-lens): `.cursor/skills/memory/SKILL.md` — different object family

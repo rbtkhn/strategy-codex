@@ -94,7 +94,7 @@ _Interpretation only — not Record, not upstream doctrine._
 
 ## Possible Grace-Mar gate candidates
 
-Eligible candidates from a topic trace are **only** things like: **process learnings**, **reusable routing rules**, **boundary clarifications**, or **template / contract improvements**. They are **not** topic doctrine, not “CIV-MEM proves X,” and not automatic IX-A or profile merges.
+Eligible candidates from a topic trace are **only** things like: **process learnings**, **reusable routing rules**, **boundary clarifications**, or **template / contract improvements**. They are **not** topic doctrine, not “CIV-MEM proves X,” and not automatic museum knowledge section A or profile merges.
 
 - _(Optional)_ **None this trace** — or list draft stubs below for later staging (still require companion/operator gate before merge):
 

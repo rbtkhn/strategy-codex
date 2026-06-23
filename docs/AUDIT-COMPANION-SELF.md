@@ -2,7 +2,7 @@
 
 > Audit timestamp note: this audit predates the work-layer refactor. Where it lists `self-skill-work`, read that as the older taxonomy snapshot rather than current canon.
 
-**Purpose:** Assess how well Grace-Mar (docs, prompts, code, platform/profile) aligns with the **companion-self** concept: the dual meaning (companion's self + self that companions), the **self-\*** taxonomy (self-knowledge, self-curiosity, self-personality, self-skill-*, self-archive, self-library, self-memory, self-voice), and **triadic cognition** (Mind, Record, Voice; synonym tricameral mind). Companion-self is both the concept and the **template repository** ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)), the origin for Grace-Mar and future instances.
+**Purpose:** Assess how well Grace-Mar (docs, prompts, code, platform/profile) aligns with the **companion-self** concept: the dual meaning (companion's self + self that companions), the **self-\*** taxonomy (museum identity knowledge (archive), self-curiosity, self-personality, self-skill-*, self-archive, self-library, memory, self-voice), and **triadic cognition** (Mind, Record, Voice; synonym tricameral mind). Companion-self is both the concept and the **template repository** ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)), the origin for Grace-Mar and future instances.
 
 **Scope:** Conceptual and terminology alignment. Structure/template compliance (instance vs repo) is in [AUDIT-GRACE-MAR-VS-COMPANION-SELF-TEMPLATE](audit-grace-mar-vs-companion-self-template.md).
 
@@ -15,7 +15,7 @@
 ## 1. Canonical Definition (Reference)
 
 - **Companion self** = (1) the companion's self (human's self, externalized in the Record) + (2) the self that companions (Record + Voice that accompany the human). Ambiguity intentional. **Companion self = human–computer triadic cognition** (synonym: *tricameral mind*).
-- **Companion self contains:** **self-knowledge** (IX-A), **self-curiosity** (IX-B), **self-personality** (IX-C), **self-skill-think**, **self-skill-write**, **self-archive**, **self-library**, **self-memory**, **self-voice** — see [ID-TAXONOMY](id-taxonomy.md) § Companion self contains and § Capitalization. (Legacy docs may cite **self-skill-work**; current canon uses work territories and `work-*.md`, not a self-skill for WORK.)
+- **Companion self contains:** **museum identity knowledge (archive)** (museum knowledge section A), **self-curiosity** (museum knowledge section B), **self-personality** (museum knowledge section C), **self-skill-think**, **self-skill-write**, **self-archive**, **self-library**, **memory**, **self-voice** — see [ID-TAXONOMY](id-taxonomy.md) § Companion self contains and § Capitalization. (Legacy docs may cite **self-skill-work**; current canon uses work territories and `work-*.md`, not a self-skill for WORK.)
 
 ---
 
@@ -25,12 +25,12 @@
 |----------|-------------------------------|--------|
 | **AGENTS.md** | Defines companion self, lists self-* components, points to ID-TAXONOMY; triadic cognition | ✅ Strong |
 | **CONCEPTUAL-FRAMEWORK** | § companion self, "Companion self contains" list, self-voice as output channel; §8 triadic cognition | ✅ Strong |
-| **ID-TAXONOMY** | "Companion self contains" table; standard labels self-skill-*, self-library, self-archive, self-memory, self-voice | ✅ Canonical |
-| **SKILLS-MODULARITY** | Full module set (self-knowledge, self-personality, self-curiosity, self-library, self-skill-*); links to ID-TAXONOMY | ✅ Strong |
+| **ID-TAXONOMY** | "Companion self contains" table; standard labels self-skill-*, self-library, self-archive, memory, self-voice | ✅ Canonical |
+| **SKILLS-MODULARITY** | Full module set (museum identity knowledge (archive), self-personality, self-curiosity, self-library, self-skill-*); links to ID-TAXONOMY | ✅ Strong |
 | **GRACE-MAR-CORE** | companion-self.com reference | ✅ Present |
 | **IDENTITY-FORK-PROTOCOL** | self-skill-* labels; no "companion self" phrase (protocol is mechanism-focused) | ✅ Adequate |
-| **ARCHITECTURE** | self-skill-*, self-memory, self-archive, self-library in file map | ✅ Adequate |
-| **SKILLS-TEMPLATE** | self-skill-* and self-knowledge/curiosity/personality in analyst context | ✅ Adequate |
+| **ARCHITECTURE** | self-skill-*, memory, self-archive, self-library in file map | ✅ Adequate |
+| **SKILLS-TEMPLATE** | self-skill-* and museum identity knowledge (archive)/curiosity/personality in analyst context | ✅ Adequate |
 | **OPERATOR-WEEKLY-REVIEW** | "companion-self (template)" in template-sync step | ✅ Clear |
 
 **Verdict:** Core docs and governance are aligned with the companion-self concept and self-* taxonomy. ID-TAXONOMY is the single source of truth for "companion self contains."

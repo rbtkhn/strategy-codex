@@ -19,7 +19,7 @@ Extract tacit operator knowledge into explicit, reviewable WORK artifacts. The t
 - Grounding a downstream lane (cadence, strategy, think, write) with operator-specific context it currently lacks.
 - Operator says "elicit," "interview me," "extract my workflow," or equivalent.
 
-**Not for:** Record/SELF updates (use RECURSION-GATE), personality profiling (use IX-C pipeline), or abstract values work.
+**Not for:** Record/SELF updates (use RECURSION-GATE), personality profiling (use museum knowledge section C pipeline), or abstract values work.
 
 ---
 

@@ -25,7 +25,7 @@ When the companion reports "Voice didn't know X" or "that was wrong", stage a ca
 python scripts/calibrate_from_miss.py -u grace-mar --miss "Voice didn't know we went to the aquarium"
 
 **Framing:** Rejecting bad AI output + staging a fix = **encoding taste** (see [design-notes §11.10](design-notes.md#1110-rejection-as-skill--recognition-articulation-encoding), [implementable-insights §13](implementable-insights.md#13-rejection-as-skill--recognition-articulation-encoding)).
-python scripts/calibrate_from_miss.py -u grace-mar --miss "Voice gave wrong Casa Bonita date" --suggested "Add to IX-A: Casa Bonita reopened 2023"
+python scripts/calibrate_from_miss.py -u grace-mar --miss "Voice gave wrong Casa Bonita date" --suggested "Add to museum knowledge section A: Casa Bonita reopened 2023"
 ```
 
 See [rejection-feedback.md](rejection-feedback.md) for rejection reasons.
@@ -75,7 +75,7 @@ See [openclaw-integration.md](openclaw-integration.md) § Oversight cadence.
 
 **Bronze reference mode:** Every merge still goes through companion approval; this path is **low-friction UX** inside [identity-fork-protocol.md](identity-fork-protocol.md) §9.3 **Bronze** (manual each change). Future **Silver/Gold** batch modes are separate and not the same as “fast lane.”
 
-**Machine eligibility** matches `ready_for_quick_merge` in [scripts/recursion_gate_review.py](../scripts/recursion_gate_review.py): among other checks, **`profile_target` must match IX-A/B/C** (`^IX-[ABC]\.`), with no multi-target, conflict markers, advisory flags, or duplicate hints. See [recursion-gate-three-tier.md](recursion-gate-three-tier.md) § Tier 1.
+**Machine eligibility** matches `ready_for_quick_merge` in [scripts/recursion_gate_review.py](../scripts/recursion_gate_review.py): among other checks, **`profile_target` must match museum knowledge section A/B/C** (`^IX-[ABC]\.`), with no multi-target, conflict markers, advisory flags, or duplicate hints. See [recursion-gate-three-tier.md](recursion-gate-three-tier.md) § Tier 1.
 
 For eligible candidates, operators can one-tap approve:
 

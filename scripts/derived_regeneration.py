@@ -201,20 +201,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
         ),
         depends_on=("repo-surgeon", "statecraft-war-room", "operator-command-deck"),
     ),
-    RebuildTarget(
-        target_id="library-index",
-        description="SELF-LIBRARY-derived operator dashboard",
-        producer_script="scripts/build_library_index.py",
-        policy_mode="Surface",
-        rationale="Surface SELF-LIBRARY coverage as a derived navigation dashboard without changing canonical library truth.",
-        watch_patterns=(
-            "self-library.md",
-            "scripts/build_library_index.py",
-            "docs/operator-dashboards.md",
-        ),
-        command_templates=(("python3", "scripts/build_library_index.py"),),
-        outputs=("runtime/artifacts/library-index.md",),
-    ),
+    # library-index target retired — see codex/README.md § Operator books
     RebuildTarget(
         target_id="work-lanes-dashboard-json",
         description="work-lane JSON aggregate for lane dashboards",

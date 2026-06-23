@@ -47,7 +47,7 @@ python scripts/export_symbolic.py -u grace-mar
 python scripts/export_symbolic.py -u grace-mar -o ../intersignal-mesh/
 ```
 
-Output: `symbolic_identity.json` â€” structured primitives (interests, values, IX-A/B/C summaries, evidence anchors, checksum).
+Output: `symbolic_identity.json` â€” structured primitives (interests, values, museum knowledge section A/B/C summaries, evidence anchors, checksum).
 
 ### Schema (Cache-Oriented)
 

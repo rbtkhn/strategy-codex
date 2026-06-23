@@ -1,6 +1,6 @@
 ﻿# Searching the upstream civilization_memory checkout
 
-**Scope:** Full local tree at [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” [LIB-0157](../../../../self-library.md#operator-analytical-books). **Not** the Grace-Mar satellite under `docs/civilization-memory/` (that is [LIB-0132](../../../../self-library.md) and [`build_civmem_inrepo_index.py`](../../../../scripts/build_civmem_inrepo_index.py)).
+**Scope:** Full local tree at [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” [](../../../../self-library.md#operator-analytical-books). **Not** the Grace-Mar satellite under `docs/civilization-memory/` (that is [](../../../../self-library.md) and [`build_civmem_inrepo_index.py`](../../../../scripts/build_civmem_inrepo_index.py)).
 
 **Tri-frame first opens** (which files matter before search): [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md).
 
@@ -40,5 +40,5 @@ Output path: `research/repos/civilization_memory/.cache/upstream_index.json` (gi
 
 ## Governance
 
-Upstream text is **WORK / reference retrieval** â€” not SELF until gated. See [`docs/cmc-routing.md`](../../../cmc-routing.md) and [`SELF-LIBRARY/CIV-MEM.md`](../../../../SELF-LIBRARY/CIV-MEM.md).
+Upstream text is **WORK / reference retrieval** â€” not SELF until gated. See [`docs/cmc-routing.md`](../../../cmc-routing.md) and [`CIV-MEM.md`](../../../../CIV-MEM.md).
 

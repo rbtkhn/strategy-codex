@@ -161,7 +161,7 @@ IX. VERSIONING
 • Per CIV–ARC–TEMPLATE v3.0
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 Persia and its civilizational successor state (Islamic Republic

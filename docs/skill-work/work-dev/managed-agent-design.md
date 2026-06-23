@@ -26,7 +26,7 @@ The repo already has substantial agentic infrastructure. A managed-agent lifecyc
 | Environment principles | [agentic-environment-principles.md](agentic-environment-principles.md) | Debug order (environment before prompt), bounded execution (§5b), pipeline discipline (§5c: local memory is not the Record) |
 | Agent surface template | [agent-surface-template.yaml](agent-surface-template.yaml) | Structured evaluation: runtime placement, orchestration, interface, Grace-Mar trust fields, `agent_species` |
 | Agentic receipt map | [agentic-receipt-map.md](agentic-receipt-map.md) | Existing WORK-layer audit surfaces and the future universal Agent Action Log gap |
-| Runtime-vs-Record boundary | [runtime-vs-record.md](../../runtime-vs-record.md) | Canonical map: what is governed (SELF, SKILLS, EVIDENCE, SELF-LIBRARY) vs runtime-only (session paste, MEMORY, skill cards, observations ledger) |
+| Runtime-vs-Record boundary | [runtime-vs-record.md](../../runtime-vs-record.md) | Canonical map: what is governed (SELF, SKILLS, EVIDENCE, removed operator-books symlink) vs runtime-only (session paste, MEMORY, skill cards, observations ledger) |
 | Governance unbundling | [governance-unbundling.md](../../governance-unbundling.md) | Routing (automatable) vs sensemaking (human) vs accountability (human) — agents may route; they may not sense-make or merge |
 | Gated pipeline | [AGENTS.md](../../../AGENTS.md) §2 | Sovereign merge rule: stage to recursion-gate, companion approves, `process_approved_candidates.py --apply` |
 | Compute ledger | [sandbox-adapter-spec.md](sandbox-adapter-spec.md) §Data shapes | Per-invocation cost and outcome tracking via `append_integration_ledger()` |
@@ -107,7 +107,7 @@ status: pending
 timestamp: YYYY-MM-DDTHH:MM:SSZ
 channel_key: managed-agent
 source: agent:[agent-name]
-mind_category: IX-A | IX-B | IX-C
+mind_category: museum knowledge section A | museum knowledge section B | museum knowledge section C
 signal_type: knowledge | curiosity | personality
 summary: [one line]
 profile_target: [self.md section or self-archive.md]

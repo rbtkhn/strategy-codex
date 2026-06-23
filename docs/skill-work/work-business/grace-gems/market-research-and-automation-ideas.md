@@ -69,7 +69,7 @@ Design principles: **companion sovereignty**, **gated pipeline**, **Record as co
 
 **Idea:** Ingest Etsy events (new order, new message, review, listing sold) and turn them into **staged candidates** for the Record, not auto-merge.
 
-- **Flow:** Etsy webhook or poll (Receipt, Message, Review) → script normalizes event → analyst or rule-based stage → **RECURSION-GATE** → companion approves → merge into EVIDENCE (e.g. ACT- “order fulfilled”, “new 5-star review”) and optionally SELF (e.g. IX-A “Grace Gems has 916 reviews”).
+- **Flow:** Etsy webhook or poll (Receipt, Message, Review) → script normalizes event → analyst or rule-based stage → **RECURSION-GATE** → companion approves → merge into EVIDENCE (e.g. ACT- “order fulfilled”, “new 5-star review”) and optionally SELF (e.g. museum knowledge section A “Grace Gems has 916 reviews”).
 - **Why Grace-Mar:** Business milestones become part of the Record only when the companion approves. “We did X” for the shop (e.g. “We hit 2,000 sales”) is evidence; handback keeps it one-way and gated.
 - **Implementation sketch:** `scripts/etsy_handback.py` or similar: OAuth + poll Receipts/Messages/Reviews → emit synthetic “we did [X]” lines → call existing `analyze_activity_report` or stage to recursion-gate. No direct write to SELF/EVIDENCE.
 

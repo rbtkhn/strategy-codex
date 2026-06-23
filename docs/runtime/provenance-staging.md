@@ -57,11 +57,11 @@ Staging inserts a standard gate block: **`### CANDIDATE-NNNN`** with fenced **`y
 
 ## Merge behavior
 
-Candidates with **`proposal_class: RUNTIME_OBSERVATION_PROPOSAL`** are **not** auto-merged into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py`. When approved, `process_approved_candidates.py` moves the block to **Processed** and prints a reminder to **apply the change manually** to the intended surface (SKILLS, SELF-LIBRARY, etc.). See [`process_approved_candidates.py`](../../scripts/process_approved_candidates.py) (same pattern as `META_INFRA` for non-Record infra proposals).
+Candidates with **`proposal_class: RUNTIME_OBSERVATION_PROPOSAL`** are **not** auto-merged into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py`. When approved, `process_approved_candidates.py` moves the block to **Processed** and prints a reminder to **apply the change manually** to the intended surface (SKILLS, removed operator-books symlink, etc.). See [`process_approved_candidates.py`](../../scripts/process_approved_candidates.py) (same pattern as `META_INFRA` for non-Record infra proposals).
 
 ## Non-goals
 
-- Does **not** edit `self.md`, `self-skills.md`, `self-archive.md`, SELF-LIBRARY paths, or `archive/grace-mar-instance/bot/prompt.py`.
+- Does **not** edit `self.md`, `self-skills.md`, `self-archive.md`, removed operator-books symlink paths, or `archive/grace-mar-instance/bot/prompt.py`.
 - Does **not** approve or merge; companion review and merge tooling still apply.
 - Does **not** infer proposals from a search query alone — you pass explicit **`--id`** values.
 

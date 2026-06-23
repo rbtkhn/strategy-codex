@@ -30,9 +30,9 @@
 
 | Content | Destination |
 |---------|-------------|
-| Durable **why** / values / identity-relevant commitments | `self.md` IX-B / IX-C (or IX-A if factual), with provenance |
+| Durable **why** / values / identity-relevant commitments | `self.md` museum knowledge section B / museum knowledge section C (or museum knowledge section A if factual), with provenance |
 | **Dated outcomes** (milestones, launches) | `self-archive.md` (ACT / CREATE / structured evidence per instance conventions) |
-| Running experiments / next steps | Stay in `self-moonshots.md` or **self-memory** until promoted |
+| Running experiments / next steps | Stay in `self-moonshots.md` or **memory** until promoted |
 
 **EVIDENCE in v0.1:** Optional habit when a milestone is merged â€” **not** required to ship the scaffold.
 
@@ -43,7 +43,7 @@
 
 ## Life portfolio / cross-moonshot synthesis (deferred)
 
-- Overlaps between moonshots may be noted in **self-memory** (continuity) or a future **WORK** index â€” **not** a parallel Record.
+- Overlaps between moonshots may be noted in **memory** (continuity) or a future **WORK** index â€” **not** a parallel Record.
 
 ## Example: recursion-gate block (moonshot promotion)
 
@@ -54,7 +54,7 @@ Use the same **`### CANDIDATE-XXXX`** + **```yaml** shape as [recursion-gate.md]
 ```yaml
 mind_category: curiosity
 signal_type: moonshot_promotion
-profile_target: IX-B. CURIOSITY
+profile_target: museum knowledge section B. CURIOSITY
 status: pending
 channel_key: operator:cursor
 source: self-moonshots.md

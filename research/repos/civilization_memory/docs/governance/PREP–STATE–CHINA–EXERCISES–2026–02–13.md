@@ -97,7 +97,7 @@ Legitimacy / Mandate Stability • Fiscal / Industrial Pressure • Internal Ord
 
 **Steps:**
 1. Choose a **factual claim** relevant to STATE–CHINA (e.g. “PLA naval readiness” or “domestic consumption growth”).
-2. Consult CIV–ARC–CHINA § IX-B (ARC-T-INSTITUTIONAL): pick one OFFICIAL, one RESEARCH or NEWS, and optionally one SPECIALIST source.
+2. Consult CIV–ARC–CHINA § museum knowledge section B (ARC-T-INSTITUTIONAL): pick one OFFICIAL, one RESEARCH or NEWS, and optionally one SPECIALIST source.
 3. For each source, write one sentence of **claim + attribution**: “(Source: [name], ARC–CHINA–T-INSTITUTIONAL/[type]; Editorial note: [from ARC].)"
 4. If two sources conflict, write **both** claims with attribution; do not silently prefer one. Add one line: “Contradiction: [A] says X; [B] says Y; decision-maker resolves.”
 
@@ -160,7 +160,7 @@ Before going live, run a **Pattern Audit** (X-H) on the draft Section VII: extra
 - **STATE structure:** CIV–STATE–TEMPLATE v3.3 (Sections I–XIV; X-A recursive options; X-B Decision Points; X-C–X-H session activities)
 - **MEM grounding:** cmc-state-mem-grounding (MEM SCAN, connection discovery, three-source principle)
 - **Source coverage:** cmc-arc-source-coverage (multi-category, contradiction surfacing)
-- **China assets:** CIV–CORE–CHINA v3.0, CIV–SCHOLAR–CHINA, CIV–DOCTRINE–CHINA v1.0, CIV–ARC–CHINA v3.0 (incl. IX-B ARC-T-INSTITUTIONAL), CIV–INDEX–CHINA (69 MEMs)
+- **China assets:** CIV–CORE–CHINA v3.0, CIV–SCHOLAR–CHINA, CIV–DOCTRINE–CHINA v1.0, CIV–ARC–CHINA v3.0 (incl. museum knowledge section B ARC-T-INSTITUTIONAL), CIV–INDEX–CHINA (69 MEMs)
 - **Missing asset:** MEM–RELEVANCE–CHINA (create in Exercise 1)
 
 ---

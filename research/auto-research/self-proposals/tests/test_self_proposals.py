@@ -38,7 +38,7 @@ def _sample_payload() -> dict:
             "mind_category": "knowledge",
             "signal_type": "auto_research_proposal",
             "priority_score": 3,
-            "profile_target": "IX-A. KNOWLEDGE",
+            "profile_target": "museum knowledge section A. KNOWLEDGE",
             "suggested_entry": "Grounded proposals should carry source exchange and a concise suggested entry.",
             "prompt_section": "YOUR KNOWLEDGE",
             "prompt_addition": "You only learn new things through grounded, reviewed updates.",

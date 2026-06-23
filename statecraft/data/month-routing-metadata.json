@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T16:03:12+00:00",
+  "generated_at": "2026-06-23T09:39:55+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -157,10 +157,10 @@
     },
     "2025-04": {
       "captured_days": 30,
-      "source_count": 60,
-      "thread_count": 14,
-      "channel_or_show_count": 7,
-      "host_count": 7,
+      "source_count": 61,
+      "thread_count": 15,
+      "channel_or_show_count": 8,
+      "host_count": 8,
       "guest_count": 13,
       "guest_label_variants": [
         {
@@ -401,12 +401,12 @@
       "needs_label_normalization": true
     },
     "2025-11": {
-      "captured_days": 24,
-      "source_count": 57,
-      "thread_count": 19,
+      "captured_days": 25,
+      "source_count": 59,
+      "thread_count": 20,
       "channel_or_show_count": 8,
       "host_count": 7,
-      "guest_count": 16,
+      "guest_count": 17,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -446,11 +446,11 @@
     },
     "2025-12": {
       "captured_days": 29,
-      "source_count": 79,
-      "thread_count": 23,
+      "source_count": 80,
+      "thread_count": 24,
       "channel_or_show_count": 10,
       "host_count": 8,
-      "guest_count": 21,
+      "guest_count": 22,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -490,11 +490,11 @@
     },
     "2026-01": {
       "captured_days": 31,
-      "source_count": 107,
-      "thread_count": 22,
-      "channel_or_show_count": 14,
+      "source_count": 110,
+      "thread_count": 23,
+      "channel_or_show_count": 15,
       "host_count": 9,
-      "guest_count": 19,
+      "guest_count": 20,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -521,11 +521,11 @@
     },
     "2026-02": {
       "captured_days": 28,
-      "source_count": 100,
-      "thread_count": 26,
+      "source_count": 101,
+      "thread_count": 27,
       "channel_or_show_count": 15,
       "host_count": 11,
-      "guest_count": 24,
+      "guest_count": 25,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -552,11 +552,11 @@
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 206,
-      "thread_count": 31,
-      "channel_or_show_count": 18,
+      "source_count": 209,
+      "thread_count": 32,
+      "channel_or_show_count": 19,
       "host_count": 11,
-      "guest_count": 42,
+      "guest_count": 43,
       "guest_label_variants": [
         {
           "signature": "crooke",
@@ -666,11 +666,11 @@
     },
     "2026-04": {
       "captured_days": 30,
-      "source_count": 202,
-      "thread_count": 33,
+      "source_count": 203,
+      "thread_count": 34,
       "channel_or_show_count": 27,
       "host_count": 24,
-      "guest_count": 40,
+      "guest_count": 41,
       "guest_label_variants": [
         {
           "signature": "barnes",
@@ -752,7 +752,7 @@
     "2026-05": {
       "captured_days": 31,
       "source_count": 244,
-      "thread_count": 42,
+      "thread_count": 43,
       "channel_or_show_count": 26,
       "host_count": 22,
       "guest_count": 46,
@@ -843,12 +843,12 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 20,
-      "source_count": 231,
-      "thread_count": 44,
-      "channel_or_show_count": 23,
-      "host_count": 23,
-      "guest_count": 36,
+      "captured_days": 23,
+      "source_count": 245,
+      "thread_count": 46,
+      "channel_or_show_count": 24,
+      "host_count": 24,
+      "guest_count": 38,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -873,6 +873,19 @@
             {
               "label": "Matthew Hoh",
               "count": 3
+            }
+          ]
+        },
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry Johnson",
+              "count": 24
+            },
+            {
+              "label": "Larry C. Johnson",
+              "count": 1
             }
           ]
         },

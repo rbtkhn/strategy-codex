@@ -4,7 +4,7 @@
 
 This audit reviews every file under [`skills`](/C:/dev/strategy-codex/skills) against two portable-core principles:
 
-1. [`self-llm.txt`](/C:/dev/strategy-codex/self-llm.txt) currently resolves to a missing-profile fallback, which means portable skills must not assume repo-local Record files such as `self.md` or `self-knowledge.md` exist in a new host.
+1. [`self-llm.txt`](/C:/dev/strategy-codex/self-llm.txt) currently resolves to a missing-profile fallback, which means portable skills must not assume repo-local Record files such as `self.md` or `archive/grace-mar-instance/museum-knowledge.md` exist in a new host.
 2. [`recursion-gate.md`](/C:/dev/strategy-codex/recursion-gate.md) keeps four rules load-bearing:
    - grounded before elegant
    - the agent may stage but may not merge

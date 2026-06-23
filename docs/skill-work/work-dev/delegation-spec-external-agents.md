@@ -12,7 +12,7 @@
 
 | Outcome-agent dimension | Risk if weak | Companion-self answer |
 |-------------------------|--------------|------------------------|
-| **Persistent memory** | Re-explaining; drift | **Record** persists only via gate + merge. **Exports** (`export_user_identity.py`, OpenClaw hooks, PRP) are the **context payload** for tools that forget. **self-memory.md** holds operator continuity — not SELF. |
+| **Persistent memory** | Re-explaining; drift | **Record** persists only via gate + merge. **Exports** (`export_user_identity.py`, OpenClaw hooks, PRP) are the **context payload** for tools that forget. **memory.md** holds operator continuity — not SELF. |
 | **Inspectable surfaces** | Black-box “done” | **Git + markdown**: gate blocks, `runtime/artifacts/`, WORK docs. Prefer **file handback** over chat-only deliverables for anything that might feed the Record. |
 | **Compounding context** | Day 30 feels like day 1 | **Loop 1** compounds through **approved** merges. Vendor thread “learning” is **not** Record compounding until staged and merged ([three-compounding-loops.md](three-compounding-loops.md)). |
 

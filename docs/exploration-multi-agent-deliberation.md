@@ -1,7 +1,7 @@
 # Exploration: Multi-Agent Deliberation (AutoGen-style)
 
 **Status:** Exploration — design and optional prototype. Not part of the core pipeline.  
-**Purpose:** Capture a possible evolution of the cognitive fork toward internal multi-agent deliberation while preserving the Sovereign Merge Rule and knowledge boundary.  
+**Purpose:** Capture a possible evolution of the interpretive machine toward internal multi-agent deliberation while preserving the Sovereign Merge Rule and knowledge boundary.  
 **Source:** [feedback-autogen-exploration-2026-03.md](feedback-autogen-exploration-2026-03.md); assessment: [feedback-autogen-exploration-2026-03-assessment.md](feedback-autogen-exploration-2026-03-assessment.md).
 
 ---
@@ -43,7 +43,7 @@ All exploration paths must preserve:
 
 ### Path 2: Runtime consumption experiment
 
-- **Idea:** Export fork manifest; initialize a ConversableAgent with system prompt from PRP (`grace-mar-llm.txt`); short sessions (e.g. Telegram wrapper); agent queries SELF-LIBRARY read-only.
+- **Idea:** Export fork manifest; initialize a ConversableAgent with system prompt from PRP (`grace-mar-llm.txt`); short sessions (e.g. Telegram wrapper); agent queries removed operator-books symlink read-only.
 - **Output:** Session outputs logged as EVIDENCE candidates → fed into **existing** pipeline (operator or analyst stages; companion approves).
 - **Constraint:** Runtime must not merge; staging policy (who stages, how often) must be explicit.
 

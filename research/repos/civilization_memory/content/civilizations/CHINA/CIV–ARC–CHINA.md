@@ -169,7 +169,7 @@ IX. VERSIONING
 • Per CIV–ARC–TEMPLATE v3.0
 
 ────────────────────────────────────────────────────────────
-IX-C. CHANGELOG
+museum knowledge section C. CHANGELOG
 ────────────────────────────────────────────────────────────
 • v3.3 (2026-02-13): White Papers/SCIO; SIIS; dynastic histories (Yuan/Jin/Song/Liao Shi); Qian Mu; MEM authoring note (Chinese-language preference); changelog.
 • v3.2 (2026-02-13): Encyclopedia of China (中国大百科全书) — ARC-T-MODERN and ARC-T-INSTITUTIONAL (RESEARCH).
@@ -177,7 +177,7 @@ IX-C. CHANGELOG
 • v3.0: Baseline; CORE consolidation.
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 China. Covers both real-time news and longer-term official

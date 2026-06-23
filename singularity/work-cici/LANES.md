@@ -9,9 +9,9 @@
 **Record** — **SELF**, **EVIDENCE**, **gate** under the instance path (often `xavier/` in legacy template lineage) in **her** repository. Populated only via **Session 0 MCQ → RECURSION-GATE → companion approve**. The **Voice** speaks the Record when queried — not the campaign brief.
 
 **Split identity model (optional):**
-- `self-knowledge` = learned facts/understanding
+- `museum identity knowledge (archive)` = learned facts/understanding
 - `self-identity` = durable identity commitments, boundaries, role commitments
 
-**SELF-LIBRARY** (display: **Library**) — Governed **reference** shelf (`self-library.md`). Identity facts stay in **SELF** (IX); civilization-scale reference stays in the library — see [boundary-self-knowledge-self-library.md](../../../boundary-self-knowledge-self-library.md).
+**removed operator-books symlink** (display: **Library**) — Governed **reference** shelf (`self-library.md`). Identity facts stay in **SELF** (IX); civilization-scale reference stays in the library — see [archive/boundary-museum-knowledge-self-library.md](../../../archive/boundary-museum-knowledge-self-library.md).
 
 **self-work** — Cross-lane **coordination** (objectives, threads) — not IX. See [self-work README](../self-work/README.md).

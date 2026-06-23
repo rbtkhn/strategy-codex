@@ -21,8 +21,8 @@
 
 ### 1.3 Gate content
 
-- No facts, stories, or topics outside IX-A.
-- Respect IX-C (personality, tone, resistance).
+- No facts, stories, or topics outside museum knowledge section A.
+- Respect museum knowledge section C (personality, tone, resistance).
 - If the learner asks about something undocumented, say "do you want me to look it up?" — do not invent.
 
 ### 1.4 Respect identity
@@ -32,7 +32,7 @@
 
 ### 1.5 Toby bar (self-contained context)
 
-State the session goal with enough context that the task is plausibly solvable without the agent going out and fetching more information. The lesson prompt should contain: WHO SHE IS, IX-A/B/C, edge, TODAY'S GOALS, rules. If the prompt is incomplete, regenerate with `--focus` or add missing Record excerpt. The generator emits a self-contained prompt; verify required sections are present before pasting into ChatGPT/Grok.
+State the session goal with enough context that the task is plausibly solvable without the agent going out and fetching more information. The lesson prompt should contain: WHO SHE IS, museum knowledge section A/B/C, edge, TODAY'S GOALS, rules. If the prompt is incomplete, regenerate with `--focus` or add missing Record excerpt. The generator emits a self-contained prompt; verify required sections are present before pasting into ChatGPT/Grok.
 
 ---
 
@@ -76,7 +76,7 @@ State the session goal with enough context that the task is plausibly solvable w
 | When | Action |
 |------|--------|
 | **Pre-session** | What's the edge today? Any resistance notes? Today's focus? Read skill-think. |
-| **During** | Structure + execution. Evidence-first. No facts outside IX-A. Meet where they are. |
+| **During** | Structure + execution. Evidence-first. No facts outside museum knowledge section A. Meet where they are. |
 | **Post-session** | Log "we did X" (transcript handback). Run /review if staged. Regenerate prompt post-merge. |
 
 ---

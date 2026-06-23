@@ -77,7 +77,7 @@
 
 **Issue:** Upgrades are noted in the header (Supersedes, Upgrade Type) but there is no in-file changelog. Future editors may want to see v3.0 → v3.1 → v3.2 at a glance.
 
-**Suggestion:** Add a brief **IX-C. CHANGELOG** (or under IX. VERSIONING):
+**Suggestion:** Add a brief **museum knowledge section C. CHANGELOG** (or under IX. VERSIONING):
 • v3.2 (2026-02-13): Encyclopedia of China (中国大百科全书) added to ARC-T-MODERN and ARC-T-INSTITUTIONAL (RESEARCH).
 • v3.1 (2026-02-13): Chinese-language institutional sources; language note; State Council www.gov.cn; People's Daily; CIIS; Caixin Chinese.
 • v3.0: Baseline; CORE consolidation.
@@ -91,9 +91,9 @@ PRIORITY (RECOMMENDED ORDER) — IMPLEMENTATION STATUS
 | # | Suggestion | Status |
 |---|------------|--------|
 | 1 | Fix version in dependents (VIII) | DONE: ARC VIII updated; CORE, SCHOLAR, INDEX now reference v3.3 |
-| 7 | Changelog in ARC | DONE: IX-C. CHANGELOG added |
+| 7 | Changelog in ARC | DONE: museum knowledge section C. CHANGELOG added |
 | 2 | PRC White Papers / SCIO | DONE: State Council Information Office / White Papers added (OFFICIAL) |
-| 5 | MEM authoring note (Chinese-language preference) | DONE: Note added in IX-B after Language |
+| 5 | MEM authoring note (Chinese-language preference) | DONE: Note added in museum knowledge section B after Language |
 | 3 | One more research body (SIIS or CICIR) | DONE: SIIS added (RESEARCH) |
 | 4 | Dynastic histories as named works | DONE: Yuan/Jin/Song/Liao Shi in ARC-T-MEDIEVAL |
 | 6 | 20th-c. Chinese historians | DONE: Qian Mu (钱穆) added to ARC-T-MODERN |

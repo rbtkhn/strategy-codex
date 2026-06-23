@@ -80,7 +80,7 @@ CIV–STATE–RUSSIA satisfies the mandatory structure, content, and register re
 
 ---
 
-## 5. Opponent Constraint Assessment (Template § IX-B)
+## 5. Opponent Constraint Assessment (Template § museum knowledge section B)
 
 | Check | Status | Note |
 |-------|--------|------|

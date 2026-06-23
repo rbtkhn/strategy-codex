@@ -34,7 +34,7 @@ Tier labels in this doc **map to** these values where noted.
 
 - `status == pending`
 - **Not** `has_multi_target`, **not** `has_conflict_markers`, **not** `advisory_flagged`
-- **`profile_target` must match** `^IX-[ABC]\.` — **IX-A, IX-B, or IX-C only** (not EVIDENCE-only rows, SKILLS-only, or prompt-only targets without that pattern)
+- **`profile_target` must match** `^IX-[ABC]\.` — **museum knowledge section A, museum knowledge section B, or museum knowledge section C only** (not EVIDENCE-only rows, SKILLS-only, or prompt-only targets without that pattern)
 - **Not** `duplicate_hints` (overlap with existing Record text / duplicate signals)
 
 **Important:** Candidates can be “low risk” informally but **fail** Tier 1 if they are not IX-[ABC]-targeted as above. Extending quick-merge to other surfaces would require **code + governance** change.
@@ -81,9 +81,9 @@ There is **no** `/escalate` Telegram command in the reference bot; use the CLI (
 
 | Question | Stay on gate (Tier 2 / gate-heavy Tier 3) | `export_gate_to_review_queue` |
 |----------|---------------------------------------------|----------------------------------|
-| Routine IX-A/B/C line, evidence-linked | Yes | No |
+| Routine museum knowledge section A/B/C line, evidence-linked | Yes | No |
 | Wording-only refinement | Usually yes | Rarely |
-| Cross-surface (SELF vs SELF-LIBRARY vs CIV-MEM) | Only after classification | Often yes |
+| Cross-surface (SELF vs removed operator-books symlink vs CIV-MEM) | Only after classification | Often yes |
 | Prompt / policy behavior change | Risky on gate alone | Prefer change-review |
 | Needs before/after diff + decision record | Prefer change-review | Yes |
 

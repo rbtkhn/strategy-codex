@@ -404,6 +404,16 @@ def main() -> int:
         help=f"Output Markdown (default: {DEFAULT_CLASSIFICATION_DIR}/<id>.md)",
     )
     args = ap.parse_args()
+    try:
+        from strategy_codex_config import record_frozen as _record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen as _record_frozen  # type: ignore
+    if _record_frozen():
+        print(
+            "INFO: Record frozen — surface misclassification detector is museum archaeology only; "
+            "use fork revive for gate proposals."
+        )
+        return 0
     repo_root = args.repo_root.resolve() if args.repo_root else None
     has_direct = (
         bool(args.target_surface and str(args.target_surface).strip())

@@ -107,7 +107,7 @@ python3 scripts/operator_end_of_day.py
 
 The ritual should:
 
-1. normalize `self-memory.md` (optional **length prune** when the file is very large: `python3 scripts/prune_self_memory.py -u <id> --dry-run` then `--apply`; see [memory-template.md](../../../docs/memory-template.md) § *Lifespan & decay*)
+1. normalize `memory.md` (optional **length prune** when the file is very large: `python3 scripts/prune_memory.py -u <id> --dry-run` then `--apply`; see [memory-template.md](../../../docs/memory-template.md) § *Lifespan & decay*)
 2. run integrity checks
 3. run governance checks
 4. refresh the derived contradiction digest
@@ -137,7 +137,7 @@ Use a **short default brief** every time. Add **Details** only when load-bearing
 ### Default brief (always)
 
 - **Recent rhythm:** Step 0 synthesis — **first**.
-- **Run status:** phase (`both` | `recent` | `structural`), whether the run **ok** / quiet; **self-memory** changed yes/no; integrity / governance **pass | fail | skipped** (when a phase skips those checks, say so).
+- **Run status:** phase (`both` | `recent` | `structural`), whether the run **ok** / quiet; **memory** changed yes/no; integrity / governance **pass | fail | skipped** (when a phase skips those checks, say so).
 - **One closing sentence** — e.g. quiet run is success, or what needs attention tomorrow (no merge authority).
 
 ### Primary tomorrow hint
@@ -171,7 +171,7 @@ If nothing important changed, say so plainly. A quiet run is success.
 ## Dream
 
 - Recent rhythm: (short felt closeout from Step 0 — no timestamps)
-- Run status: phase=both; ok; self-memory changed: no; integrity: pass; governance: pass
+- Run status: phase=both; ok; memory changed: no; integrity: pass; governance: pass
 
 Tonight's pass was quiet; handoff is fresh for tomorrow's coffee.
 ```
@@ -182,7 +182,7 @@ Tonight's pass was quiet; handoff is fresh for tomorrow's coffee.
 ## Dream
 
 - Recent rhythm: (short felt closeout from Step 0)
-- Run status: phase=both; self-memory changed: yes; integrity: pass; governance: pass
+- Run status: phase=both; memory changed: yes; integrity: pass; governance: pass
 - Details: contradiction digest — reviewable 2, contradiction 1; artifact drafts: 1 prepared; capability shift: 1 REVIEW (ASSUME-007)
 
 Tomorrow: skim reviewable digest rows; nothing was merged automatically.
@@ -192,7 +192,7 @@ Tomorrow: skim reviewable digest rows; nothing was merged automatically.
 
 Dream's maintenance pass separates work into two phases, inspired by Kjaerby et al. (Nature 2024) showing that non-REM sleep alternates between substates that replay recent vs. older memories in distinct temporal windows to prevent catastrophic forgetting.
 
-**Phase A — Recent:** Memory normalization + contradiction digest entries from today. Focuses on what this session or day introduced — fresh signals, new candidates, recent changes to `self-memory.md`. This phase runs quickly (no subprocess calls to integrity or governance checkers).
+**Phase A — Recent:** Memory normalization + contradiction digest entries from today. Focuses on what this session or day introduced — fresh signals, new candidates, recent changes to `memory.md`. This phase runs quickly (no subprocess calls to integrity or governance checkers).
 
 **Phase B — Structural:** Integrity checks + governance checks + contradiction digest entries from before today. Focuses on long-horizon health — file parity, export freshness, template drift, rule compliance. This phase runs the full validation sub-processes.
 
@@ -235,7 +235,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 - A quiet run is normal; do not manufacture significance.
 - If **integrity** fails with **stale derived export** (not contradictions), refresh exports: `python3 scripts/refresh_derived_exports.py` from repo root, then `python3 scripts/validate-integrity.py --json` — see [`docs/skill-work/work-cadence/README.md`](../../../docs/skill-work/work-cadence/README.md) § *When integrity reports stale derived exports*.
 
-## Strategy notebook (LIB-0153) — optional FYI; **not** owned by `dream`
+## Strategy notebook (strategy-codex (`codex/`)) — optional FYI; **not** owned by `dream`
 
 **Contract (repo):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Entry model* / § *End-of-day strategy session* — **hybrid** dated + episodic sections; **inbox + `raw-input/` = capture**, **notebook = synthesized** in the **EOD strategy session** when the operator says **`strategy page`**, **`strategy page compose`**, or runs **`strategy`** with **notebook compose** intent — **not** because night close ran. *Deprecated:* operator token **`weave`**.
 
@@ -265,7 +265,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 
 **Return brief:** **Strategy notebook:** `deferred` / `FYI missing headers: …` / `composed (operator asked)` — as applicable.
 
-## Cici notebook (LIB-0154) — page generation (**since previous dream**)
+## Cici notebook (cici notebook (`singularity/work-cici/cici-notebook/`)) — page generation (**since previous dream**)
 
 **Purpose:** At **`dream`**, **generate** (or confirm) **one journal file per local day** in the **same since-previous-dream window** as strategy-notebook (see above). Different artifact; same temporal contract.
 
@@ -290,7 +290,7 @@ This reads **`last-dream.json` before overwrite**, computes the same local dates
 
 **Return brief:** **Cici notebook:** `catch-up written N file(s)` / `skipped (exists|network)` — list paths or dates.
 
-## Dev journal (LIB-0155) — optional fold
+## Dev journal (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)) — optional fold
 
 **Purpose:** Same **rolling inbox → fold** contract as strategy-notebook and the Cici notebook (no mandatory nightly reset; length-based prune) — see [daily-dev-journal-inbox.md](../../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/daily-dev-journal-inbox.md) and [dev-journal README](../../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md). No digest script; the agent **synthesizes** into **`docs/skill-work/work-dev/dev-notebook/work-dev/journal/YYYY-MM-DD-day-NN.md`** when the operator uses the buffer.
 

@@ -6,11 +6,11 @@
 
 ## What work-politics is
 
-`work-politics` is Grace-Mar’s dedicated **political consulting territory**, not a general identity layer. The architecture distinguishes identity, skills, self-library, and evidence as separate surfaces, and work-politics sits in the WORK lane as an execution domain rather than as SELF or SELF-KNOWLEDGE. See [architecture.md](../../architecture.md).
+`work-politics` is Grace-Mar’s dedicated **political consulting territory**, not a general identity layer. The architecture distinguishes identity, skills, self-library, and evidence as separate surfaces, and work-politics sits in the WORK lane as an execution domain rather than as SELF or museum knowledge. See [architecture.md](../../architecture.md).
 
 Its declared scope is broad: U.S. federal, state, and local political consulting, with international work allowed only after compliance sign-off. The [README](README.md) defines the core service as AI-assisted briefs, opposition tracking, message discipline, and content operations, with the operator retaining decision authority and approving all public-facing output. In Phase 1, the primary client is a Thomas Massie shadow campaign.
 
-The territory is also designed to integrate with the recursion gate. Campaign work can produce ACT evidence and, in limited cases, minimal IX changes, but the default policy is to prefer ACT plus minimal IX so that campaign strategy and opposition research do not silently become part of the fork’s self-knowledge. See [README § Sync with RECURSION-GATE](README.md#sync-with-recursion-gate) and [README § IX vs ACT](README.md#ix-vs-act-policy).
+The territory is also designed to integrate with the recursion gate. Campaign work can produce ACT evidence and, in limited cases, minimal IX changes, but the default policy is to prefer ACT plus minimal IX so that campaign strategy and opposition research do not silently become part of the fork’s museum identity knowledge (archive). See [README § Sync with RECURSION-GATE](README.md#sync-with-recursion-gate) and [README § IX vs ACT](README.md#ix-vs-act-policy).
 
 ---
 
@@ -18,7 +18,7 @@ The territory is also designed to integrate with the recursion gate. Campaign wo
 
 This territory matters because it is one of the system’s clearest attempts to turn Grace-Mar from a memory architecture into a **real-world professional operating system**. It is not just storing facts; it is organizing briefs, client structure, deliverables, compliance questions, content queues, revenue tracking, and work rhythms around a live advisory function. See [README](README.md) (Purpose, Lifecycle, workspace).
 
-It also matters because it is a stress test of the project’s core philosophical claim: that a cognitive fork can help with consequential external work without losing the boundary between **who the fork is** and **what the fork is helping do**. The README is explicit that the companion is the decision-maker, the agent drafts and tracks, and nothing ships without human approval. That is the system trying to preserve sovereignty under pressure.
+It also matters because it is a stress test of the project’s core philosophical claim: that a interpretive machine can help with consequential external work without losing the boundary between **who the fork is** and **what the fork is helping do**. The README is explicit that the companion is the decision-maker, the agent drafts and tracks, and nothing ships without human approval. That is the system trying to preserve sovereignty under pressure.
 
 Economically, work-politics is treated as a monetizable wedge. The territory includes revenue language, pricing-adjacent framing, Bitcoin-preferred payment rails, and a recorded “first revenue achieved” event on March 11, 2026. Whether or not that evolves into a robust business, the repo clearly treats this territory as one of the first serious paths from architecture to income. See [README § Revenue](README.md#revenue--monetization) and [revenue-log.md](revenue-log.md).
 

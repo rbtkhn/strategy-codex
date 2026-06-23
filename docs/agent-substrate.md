@@ -14,13 +14,13 @@ Grace-Mar already has the primitives agent systems need for long-running work:
 - **Status machine:** `recursion-gate.md` separates proposed changes from approved Record truth.
 - **Audit trail:** git history, merge receipts, pipeline events, runtime bundles, and cadence logs make changes replayable.
 - **Work lanes:** `docs/skill-work/` gives agents bounded operating surfaces for strategy, development, Cici, politics, coffee, dream, and related WORK.
-- **Runtime boundary:** `self-memory.md`, handoffs, prepared context, MCP receipts, and runtime complements improve continuity without becoming Record truth.
+- **Runtime boundary:** `memory.md`, handoffs, prepared context, MCP receipts, and runtime complements improve continuity without becoming Record truth.
 
 The substrate is useful because state is outside any one model context window. An agent can enter late, read the governed surfaces, and understand what is canonical, what is proposed, and what is only runtime continuity.
 
 ## Issue-Tracker Pattern
 
-Enterprise issue trackers work as agent substrates because they provide ownership, status, permissions, comments, history, and handoffs. Grace-Mar maps those coordination primitives onto a personal cognitive fork:
+Enterprise issue trackers work as agent substrates because they provide ownership, status, permissions, comments, history, and handoffs. Grace-Mar maps those coordination primitives onto a personal interpretive machine:
 
 - **Owner:** the companion holds authority over Record incorporation.
 - **Status:** proposals move from staged candidate to approved merge only through the gate.

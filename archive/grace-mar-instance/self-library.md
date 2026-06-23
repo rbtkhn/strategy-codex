@@ -1,3 +1,5 @@
+<!-- MUSEUM: Not active SSOT for strategy-codex. See docs/archive/grace-mar-record-museum.md -->
+
 # LIBRARY â€” grace-mar
 
 **Continuity boundary:** SELF-LIBRARY is the governed return-to reference layer. It is not the rotatable session/process buffer; that role belongs to [`self-memory.md`](self-memory.md). Add or reroute reference domains here only through the appropriate governed path; leave short-lived continuity, open loops, and session calibration in MEMORY.

@@ -80,7 +80,7 @@ TARGET_ROOT_FOLDERS: frozenset[str] = frozenset(
     {
         ".cursor",
         ".github",
-        "SELF-LIBRARY",
+        "library",
         "archive",
         "codex",
         "docs",
@@ -748,12 +748,22 @@ def resolve_surface_markdown_path(
     return canon
 
 
+def resolve_memory_path(user_dir: Path | None = None) -> Path:
+    """Strategy-codex continuity buffer at repo-root memory.md."""
+    root_mem = REPO_ROOT / "memory.md"
+    if root_mem.is_file():
+        return root_mem
+    if user_dir is not None:
+        for name in ("memory.md", "self-memory.md"):
+            leg = user_dir / name
+            if leg.is_file():
+                return leg
+    return root_mem
+
+
 def resolve_self_memory_path(user_dir: Path) -> Path:
-    """
-    Canonical continuity file: self-memory.md. Legacy memory.md is still read if present
-    and self-memory.md is absent (same pattern as skills.md → self-skills.md).
-    """
-    return resolve_surface_markdown_path(user_dir, "self_memory", prefer_existing=True)
+    """Deprecated alias — use resolve_memory_path()."""
+    return resolve_memory_path(user_dir)
 
 
 def read_surface_markdown(user_dir: Path, canonical_key: str) -> str:

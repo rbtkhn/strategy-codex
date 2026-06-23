@@ -47,7 +47,7 @@ mind_category: knowledge
 signal_type: we_did / pol_milestone
 priority_score: 3
 summary: work-politics â€” <artifact> v<N> | optional revenue-log row REF
-profile_target: IX-A. KNOWLEDGE
+profile_target: museum knowledge section A. KNOWLEDGE
 suggested_entry: "Milestone only â€” see WORK doc path (minimal IX if needed)"
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none

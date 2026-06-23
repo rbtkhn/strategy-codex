@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-22T15:17:03+00:00",
+  "generated_at": "2026-06-23T09:40:05+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
   "stats": {
     "main_channel_count": 14,
-    "file_count": 1453,
+    "file_count": 1459,
     "watchlist_count": 6,
     "discoverable_count": 14,
     "explicit_slug_count": 14
@@ -15,15 +15,15 @@
     {
       "slug": "alexander-mercouris",
       "label": "Alexander Mercouris",
-      "file_count": 366,
-      "day_count": 337,
+      "file_count": 368,
+      "day_count": 338,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@AlexMercouris",
       "first_day": "2025-01-03",
-      "last_day": "2026-06-21",
+      "last_day": "2026-06-22",
       "channel_id": "UCwGpHa6rMLjSSCBlckm5khw"
     },
     {
@@ -43,35 +43,35 @@
     {
       "slug": "daniel-davis",
       "label": "Daniel Davis / Deep Dive",
-      "file_count": 252,
-      "day_count": 148,
+      "file_count": 253,
+      "day_count": 149,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@DanielDavisDeepDive",
       "first_day": "2025-01-01",
-      "last_day": "2026-06-20",
+      "last_day": "2026-06-22",
       "channel_id": "UCWDN5zr5ttctoIAhZwW6tcQ"
     },
     {
       "slug": "glenn-diesen",
       "label": "Glenn Diesen",
-      "file_count": 211,
-      "day_count": 172,
+      "file_count": 212,
+      "day_count": 173,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@GDiesen1",
       "first_day": "2023-01-14",
-      "last_day": "2026-06-19",
+      "last_day": "2026-06-22",
       "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g"
     },
     {
       "slug": "judging-freedom",
       "label": "Judge Napolitano - Judging Freedom",
-      "file_count": 205,
+      "file_count": 206,
       "day_count": 136,
       "watchlist": true,
       "check_sources": true,
@@ -111,6 +111,20 @@
       "channel_id": "UCBqd_VSxqDngXahpcRp7daA"
     },
     {
+      "slug": "neutrality-studies",
+      "label": "Neutrality Studies",
+      "file_count": 11,
+      "day_count": 9,
+      "watchlist": false,
+      "check_sources": true,
+      "discoverable": true,
+      "explicit_slug": true,
+      "channel_url": "https://www.youtube.com/@neutralitystudies",
+      "first_day": "2025-02-06",
+      "last_day": "2026-06-22",
+      "channel_id": "UCHdLVKdAeG6zAeZMGZh91bg"
+    },
+    {
       "slug": "predictive-history",
       "label": "Predictive History",
       "file_count": 11,
@@ -123,20 +137,6 @@
       "first_day": "2026-04-14",
       "last_day": "2026-06-10",
       "channel_id": "UC11aHtNnc5bEPLI4jf6mnYg"
-    },
-    {
-      "slug": "neutrality-studies",
-      "label": "Neutrality Studies",
-      "file_count": 10,
-      "day_count": 8,
-      "watchlist": false,
-      "check_sources": true,
-      "discoverable": true,
-      "explicit_slug": true,
-      "channel_url": "https://www.youtube.com/@neutralitystudies",
-      "first_day": "2025-02-06",
-      "last_day": "2026-06-20",
-      "channel_id": "UCHdLVKdAeG6zAeZMGZh91bg"
     },
     {
       "slug": "breaking-points",

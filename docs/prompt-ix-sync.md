@@ -1,6 +1,6 @@
-﻿# Prompt parity for IX-A / IX-B / IX-C (Voice and analyst)
+﻿# Prompt parity for museum knowledge section A / museum knowledge section B / museum knowledge section C (Voice and analyst)
 
-**Purpose:** Operator-facing truth about how **Section IX** entries in [`self-knowledge.md`](../self-knowledge.md) and [`self.md`](../self.md) relate to **[`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
+**Purpose:** Operator-facing truth about how **Section IX** entries in [`archive/grace-mar-instance/museum-knowledge.md`](../archive/grace-mar-instance/museum-knowledge.md) and [`self.md`](../self.md) relate to **[`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
 
 **Scope:** Documentation only. Does not change merge behavior or prompts.
 
@@ -12,8 +12,8 @@
 
 | Layer | Role |
 |-------|------|
-| **`self-knowledge.md`** | **Canonical Record** for merged IX-A (Knowledge) YAML list; `self.md` keeps the overview shell while IX-B/IX-C remain in `self.md` during the transition. |
-| **`scripts/process_approved_candidates.py`** | On approved merge, updates `self-knowledge.md`, evidence, and optionally **`archive/grace-mar-instance/bot/prompt.py`** (see below). `self.md` keeps the compact overview shell. |
+| **`archive/grace-mar-instance/museum-knowledge.md`** | **Canonical Record** for merged museum knowledge section A (Knowledge) YAML list; `self.md` keeps the overview shell while museum knowledge section B/museum knowledge section C remain in `self.md` during the transition. |
+| **`scripts/process_approved_candidates.py`** | On approved merge, updates `archive/grace-mar-instance/museum-knowledge.md`, evidence, and optionally **`archive/grace-mar-instance/bot/prompt.py`** (see below). `self.md` keeps the compact overview shell. |
 | **`archive/grace-mar-instance/bot/prompt.py`** | **`SYSTEM_PROMPT`** â€” Voice emulation inline text; **`ANALYST_PROMPT`** â€” signal detection and **deduplication** against embedded IX snapshots. |
 | **`python scripts/export_prp.py -o self-llm.txt`** | Compact PRP export; [instance doctrine](../instance-doctrine.md) expects refresh after SELF/prompt merges when output changes. |
 
@@ -25,11 +25,11 @@ Nothing in the Voice runtime reads `self.md` directly at inference time; the **p
 
 1. **`SYSTEM_PROMPT`** â€” What the **Voice** uses in chat: narrative identity, **Curiosity** / **Personality** (and related) lines under **`## RECORD STATE`** in the current root layout.
 
-2. **`ANALYST_PROMPT`** â€” Embeds **### IX-A / IX-B / IX-C** blocks so the analyst can **deduplicate** staging against â€œwhatâ€™s already in the profile.â€
+2. **`ANALYST_PROMPT`** â€” Embeds **### museum knowledge section A / museum knowledge section B / museum knowledge section C** blocks so the analyst can **deduplicate** staging against â€œwhatâ€™s already in the profile.â€
 
-These are **separate copies** of IX-shaped text. Updating **`self-knowledge.md`** alone does **not** automatically refresh both unless the merge path or a manual edit brings them in sync.
+These are **separate copies** of IX-shaped text. Updating **`archive/grace-mar-instance/museum-knowledge.md`** alone does **not** automatically refresh both unless the merge path or a manual edit brings them in sync.
 
-**Honest default:** After IX-A merges that should affect dedup, verify **`ANALYST_PROMPT`**â€™s IX-A block matches **`self-knowledge.md`** (or accept stale dedup until updated).
+**Honest default:** After museum knowledge section A merges that should affect dedup, verify **`ANALYST_PROMPT`**â€™s museum knowledge section A block matches **`archive/grace-mar-instance/museum-knowledge.md`** (or accept stale dedup until updated).
 
 ---
 
@@ -43,7 +43,7 @@ That function **only replaces** spans bounded by these **exact** headers in **`S
 - `## YOUR CURIOSITY (what catches your attention)` â†’ next `## YOUR PERSONALITY (observed)`
 - `## YOUR PERSONALITY (observed)` â†’ next `## IMPORTANT CONSTRAINTS`
 
-It rebuilds bullets from **`self-knowledge.md`** YAML for IX-A `topic:` lines and from **`self.md`** YAML for IX-B `topic:` / IX-C `observation:` lines. If a header is **missing**, that span is **skipped** (no error).
+It rebuilds bullets from **`archive/grace-mar-instance/museum-knowledge.md`** YAML for museum knowledge section A `topic:` lines and from **`self.md`** YAML for museum knowledge section B `topic:` / museum knowledge section C `observation:` lines. If a header is **missing**, that span is **skipped** (no error).
 
 **Current layout today:** [`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py) uses **`## RECORD STATE`** with narrative **Curiosity** / **Personality** lists, **not** the `YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY` header triple above. So **`rebuild_ix` does not rewrite the current default `SYSTEM_PROMPT` layout** unless the prompt file is refactored to include those headers.
 
@@ -53,24 +53,24 @@ It rebuilds bullets from **`self-knowledge.md`** YAML for IX-A `topic:` lines an
 
 ---
 
-## Drift checklist (after IX-A / IX-B / IX-C-affecting merges)
+## Drift checklist (after museum knowledge section A / museum knowledge section B / museum knowledge section C-affecting merges)
 
 Use this when you need **prompt parity** with the Record:
 
-1. **`self-knowledge.md`** â€” IX-A entries merged as intended (YAML ids, `topic:`, provenance).
-2. **`self.md`** â€” compact overview shell remains in sync with the split; IX-B / IX-C entries stay aligned where present.
+1. **`archive/grace-mar-instance/museum-knowledge.md`** â€” museum knowledge section A entries merged as intended (YAML ids, `topic:`, provenance).
+2. **`self.md`** â€” compact overview shell remains in sync with the split; museum knowledge section B / museum knowledge section C entries stay aligned where present.
 3. **`archive/grace-mar-instance/bot/prompt.py` â€” `SYSTEM_PROMPT`** â€” Narrative under **`## RECORD STATE`** (or your future section layout) reflects new curiosity/personality lines **if** the Voice should speak them.
 4. **PRP** â€” Run `python scripts/export_prp.py -o self-llm.txt` (or repo default); commit if diff (per [instance doctrine](../instance-doctrine.md)).
 5. **Harnesses (optional but relevant)** â€” Counterfactual / voice / **judgment probes** import prompt text from **`prompt.py`**; rerun when you care about regression signal after prompt edits.
 
 ---
 
-## IX-B vs IX-C scope (identity vs WORK)
+## museum knowledge section B vs museum knowledge section C scope (identity vs WORK)
 
-- **IX-B (Curiosity)** â€” Durable **topics and engagement signals** that belong in the companionâ€™s **documented** interests after gate approvalâ€”not every transient link or inbox item.
-- **IX-C (Personality)** â€” **Observed patterns**, speech habits, **tensions** suitable for Voice texture and [judgment probes](../scripts/run_judgment_probes.py)â€”not a substitute for **operator cadence**, **skill-work** rituals, or **work-cadence** logs unless the companion explicitly treats those as **identity**.
+- **museum knowledge section B (Curiosity)** â€” Durable **topics and engagement signals** that belong in the companionâ€™s **documented** interests after gate approvalâ€”not every transient link or inbox item.
+- **museum knowledge section C (Personality)** â€” **Observed patterns**, speech habits, **tensions** suitable for Voice texture and [judgment probes](../scripts/run_judgment_probes.py)â€”not a substitute for **operator cadence**, **skill-work** rituals, or **work-cadence** logs unless the companion explicitly treats those as **identity**.
 
-**Work is adjacent:** [`conceptual-framework.md`](conceptual-framework.md) â€” WORK crosses into the Record **through the gate**. Pending governance discussions (e.g. moving **work rhythm** lines out of IX-C) live in **`recursion-gate.md`**; this doc does not resolve them.
+**Work is adjacent:** [`conceptual-framework.md`](conceptual-framework.md) â€” WORK crosses into the Record **through the gate**. Pending governance discussions (e.g. moving **work rhythm** lines out of museum knowledge section C) live in **`recursion-gate.md`**; this doc does not resolve them.
 
 ---
 
@@ -84,7 +84,7 @@ Use this when you need **prompt parity** with the Record:
 
 When IX lists grow, [instance doctrine](../instance-doctrine.md) calls for **summarization tiers** on **`SYSTEM_PROMPT`**. Practically:
 
-- **Compress** grouped facts into category lines without dropping **warrants** or **named tensions** where IX-C depends on them.
+- **Compress** grouped facts into category lines without dropping **warrants** or **named tensions** where museum knowledge section C depends on them.
 - **Avoid** duplicating the same bullet in **`SYSTEM_PROMPT`** and **`ANALYST_PROMPT`** if one side can stay shorter (analyst needs dedup fidelity; Voice needs readable voice).
 
 ---

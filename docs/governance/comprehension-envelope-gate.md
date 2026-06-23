@@ -72,7 +72,7 @@ Use **`required`** when the change is high-impact, including examples such as:
 - **Promotes** strategy-notebook material to durable promoted arcs (e.g. [STRATEGY.md](../skill-work/work-strategy/STRATEGY.md)) â€” tie to explicit operator tags or paths in the candidate.
 - Produces **export / handoff** artifacts intended for downstream operators or forks.
 
-**Not** for: routine IX-A/B/C lines that already satisfy `ready_for_quick_merge` unless companion policy says otherwise.
+**Not** for: routine museum knowledge section A/B/C lines that already satisfy `ready_for_quick_merge` unless companion policy says otherwise.
 
 ---
 

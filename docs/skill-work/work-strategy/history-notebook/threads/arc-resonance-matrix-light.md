@@ -1,6 +1,6 @@
 # Arc resonance matrix (light)
 
-**History Notebook (LIB-0156)** — derived WORK. **Last updated:** 2026-04-25  
+**History Notebook (`docs/skill-work/work-strategy/history-notebook/`)** — derived WORK. **Last updated:** 2026-04-25  
 **Sources (labels):** Durant (*Lessons of History* / *Story of Civilization*) + Gibbon (*Decline and Fall*), integrated with operator `MC-*` tags.
 
 **Purpose:** A **one-page** set of the five strongest **cross-arc** resonance lines for Strategy Notebook `### History resonance` — no per-arc expansion here (see threads below). Ladder and provenance: treat as **guidance**; [history-civ-*.md](.) files remain SSOT for arc mechanism state.

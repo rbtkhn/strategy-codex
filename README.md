@@ -41,7 +41,7 @@ This repository has multiple index surfaces. For LLM agents and coding assistant
 - [`repo-map.yaml`](repo-map.yaml) — machine-readable navigation hints.
 - [`statecraft/voices/INDEX.md`](statecraft/voices/INDEX.md) — analyst/source-corpus route maps.
 
-For analyst or source-corpus questions such as "Barnes index," start with `statecraft/voices/`, not SELF-LIBRARY or generated dashboards. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
+For analyst or source-corpus questions such as "Barnes index," start with `statecraft/voices/`, not removed operator-books symlink or generated dashboards. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
 
 If you come from **OB1-style** memory systems, see [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md) for the **legacy** Grace-Mar gate mapping. **Default onboarding:** [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 
@@ -55,9 +55,9 @@ Model-portable harness (not a single-vendor stack): [docs/intelligence-harness.m
 
 ## Concept
 
-**Active objective:** Operate a governed interpretive machine — [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → [statecraft/](statecraft/README.md) lane objects under **statecraft** and **singularity** channels. Cross-channel theses: [essays/](essays/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
+**Active objective:** Operate a governed interpretive machine — [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/synthesis/day/](statecraft/synthesis/METHOD.md) → [statecraft/](statecraft/README.md) lane objects under **statecraft** and **singularity** channels. Cross-channel theses: [essays/](essays/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
 
-**Frozen legacy:** The Grace-Mar cognitive fork (SELF, EVIDENCE, recursion-gate) and Voice bots remain for archaeology and explicit **`fork revive`** only. `self-library.md` / CIV-MEM stay active as **reference** for statecraft retrieval. [`self-memory.md`](self-memory.md) is WORK continuity, not Record.
+**Frozen legacy:** The Grace-Mar interpretive machine (SELF, EVIDENCE, recursion-gate) and Voice bots remain for archaeology and explicit **`fork revive`** only. `self-library.md` / CIV-MEM stay active as **reference** for statecraft retrieval. [`memory.md`](memory.md) is WORK continuity, not Record.
 
 ## Architecture
 
@@ -77,7 +77,7 @@ Gated pipeline, Record bundle, Voice hosts, portability, export/attestation, and
 
 1. Read [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 2. Run **`coffee`** in Cursor — default user `strategy-codex`; Steward **A** favors boundary/git, not gate.
-3. Statecraft front door: [statecraft/README.md](statecraft/README.md). Daily synthesis: [statecraft/daily/METHOD.md](statecraft/daily/METHOD.md).
+3. Statecraft front door: [statecraft/README.md](statecraft/README.md). Daily synthesis: [statecraft/synthesis/METHOD.md](statecraft/synthesis/METHOD.md).
 
 ```bash
 python3 scripts/harness_warmup.py -u strategy-codex --compact

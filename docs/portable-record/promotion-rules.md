@@ -15,13 +15,13 @@ Where approved portable working-identity candidates belong in the four canonical
 - "Responds to ambiguity with hypothesis-first probing" → SELF (cognitive pattern)
 - "Low tolerance for filler explanations" → SELF (interaction tolerance)
 
-### SELF-LIBRARY
+### removed operator-books symlink
 
 **What belongs here:** Durable domains, vocabularies, reference ecosystems, conceptual maps, knowledge substrates.
 
 **Examples:**
-- "Deep familiarity with geopolitical analysis frameworks" → SELF-LIBRARY (domain knowledge)
-- "Maintains structured reading/lecture intake across multiple languages" → SELF-LIBRARY (knowledge ecosystem)
+- "Deep familiarity with geopolitical analysis frameworks" → removed operator-books symlink (domain knowledge)
+- "Maintains structured reading/lecture intake across multiple languages" → removed operator-books symlink (knowledge ecosystem)
 
 ### SKILLS
 
@@ -38,7 +38,7 @@ Where approved portable working-identity candidates belong in the four canonical
 
 **Examples:**
 - "Produced a 12-part analytical series on post-Cold War institutional decay" → EVIDENCE (artifact trace)
-- "Built a gated pipeline system for cognitive forks from scratch" → EVIDENCE (demonstrated capability)
+- "Built a gated pipeline system for interpretive machines from scratch" → EVIDENCE (demonstrated capability)
 
 ---
 
@@ -46,11 +46,11 @@ Where approved portable working-identity candidates belong in the four canonical
 
 | Candidate claim | Wrong surface | Correct surface | Why |
 |---|---|---|---|
-| "Knows game theory deeply" | SKILLS | SELF-LIBRARY | This is a knowledge domain, not a reusable workflow |
+| "Knows game theory deeply" | SKILLS | removed operator-books symlink | This is a knowledge domain, not a reusable workflow |
 | "Always reviews PRs with a 3-step checklist" | SELF | SKILLS | This is a repeatable procedure, not a personality trait |
-| "Built the companion-self template repo" | SELF-LIBRARY | EVIDENCE | This is a concrete artifact, not a knowledge domain |
+| "Built the companion-self template repo" | removed operator-books symlink | EVIDENCE | This is a concrete artifact, not a knowledge domain |
 | "Dislikes verbose agent output" | SKILLS | SELF | This is a behavioral preference, not a workflow |
-| "Reads Jiang lectures in Mandarin" | EVIDENCE | SELF-LIBRARY | This is a knowledge-intake pattern, not a one-time artifact |
+| "Reads Jiang lectures in Mandarin" | EVIDENCE | removed operator-books symlink | This is a knowledge-intake pattern, not a one-time artifact |
 
 ---
 
@@ -64,7 +64,7 @@ Where approved portable working-identity candidates belong in the four canonical
 
 4. **Abstraction before promotion** is sometimes the right move. If a claim references an employer, client, or proprietary system by name, abstract it to the underlying pattern before approving.
 
-5. **Deduplication against existing Record.** Before approving, check whether SELF, SELF-LIBRARY, SKILLS, or EVIDENCE already contain equivalent content. Fold into existing entries rather than stacking duplicates.
+5. **Deduplication against existing Record.** Before approving, check whether SELF, removed operator-books symlink, SKILLS, or EVIDENCE already contain equivalent content. Fold into existing entries rather than stacking duplicates.
 
 ---
 

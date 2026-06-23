@@ -22,7 +22,7 @@ Optional, file-based, **runtime-only**, **non-canonical**. This is not a live Le
 - `operator_instructions`
 - `runtime_session_notes`
 
-These are **not** Record surfaces. Do not treat them as SELF, EVIDENCE, SKILLS, or SELF-LIBRARY.
+These are **not** Record surfaces. Do not treat them as SELF, EVIDENCE, SKILLS, or removed operator-books symlink.
 
 **Promotion (short):** Letta summary â†’ **inbox** + **receipt** â†’ **human review** â†’ optional **recursion-gate** â†’ normal approved merge.
 

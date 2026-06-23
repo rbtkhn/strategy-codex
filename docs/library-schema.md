@@ -28,7 +28,7 @@ Each LIBRARY entry uses the **LIB-** prefix.
 
 ```yaml
 entries:
-  - id: LIB-0001
+  - id: 
     title: "Example Book Title"
     author: "Author Name"
     isbn: ""                      # optional: 10- or 13-digit ISBN (for lookup, disambiguation)

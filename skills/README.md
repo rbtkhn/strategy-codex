@@ -18,7 +18,7 @@
 
 Portable skills should reflect the same core boundary rules that govern the repo:
 
-- **Host-equivalents, not assumed files.** `self-llm.txt` currently proves that some hosts may not have `self.md` or `self-knowledge.md` at all. Portable cores should ask for host equivalents or placeholders, not assume a Grace-Mar-shaped Record tree.
+- **Host-equivalents, not assumed files.** `self-llm.txt` currently proves that some hosts may not have `self.md` or `archive/grace-mar-instance/museum-knowledge.md` at all. Portable cores should ask for host equivalents or placeholders, not assume a Grace-Mar-shaped Record tree.
 - **Propose or stage only; never merge.** A portable skill may help draft approval packets or stage-only review material, but it must not imply direct Record editing or approval bypass.
 - **Grounded before elegant.** If a skill cannot point to operator-provided assets, current receipts, or source-bound material, it should narrow the claim or say the evidence is thin.
 - **No duplicate-lane sprawl.** When a similar lane, note, or asset already exists, the skill should prefer reuse, extension, or explicit comparison over silently spawning a near-duplicate.

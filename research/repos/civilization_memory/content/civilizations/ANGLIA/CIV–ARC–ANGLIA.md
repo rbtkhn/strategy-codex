@@ -146,7 +146,7 @@ v1.12 — Template alignment: V-A Cross-ARC Citation for TSP; VI Orthogonality w
 v3.0 — ALIGNMENT · CORE v3.0 CONSOLIDATION. 2026-02-02.
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 Anglia. Covers both real-time news sources and longer-term

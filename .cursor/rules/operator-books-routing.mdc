@@ -1,0 +1,35 @@
+---
+description: Hyphenated operator book phrases resolve to misc folder homes under codex, docs/skill-work, singularity, research — not removed operator-books symlink or LIB-* ids
+alwaysApply: true
+---
+
+# Operator books — misc folder routing
+
+Operator-authored books live in **existing misc folders**. There is **no** central operator-books registry or `LIB-*` id layer.
+
+## `predictive-history`
+
+**`predictive-history`** (hyphenated) → multivolume corpus under **`codex/predictive-history/`** (`BOOK-ARCHITECTURE.md`, `STATUS.md`).
+
+**Do not** default to **`research/external/youtube-channels/predictive-history/`** (YouTube transcript bundle). For that, say **Predictive History YouTube transcript library** or the full **`youtube-channels/predictive-history`** path.
+
+## `strategy-codex` / `strategy-notebook`
+
+**`strategy-codex`** (preferred) or legacy **`strategy-notebook`** → **`codex/`** (`STATUS.md`, `chapters/`, `daily-strategy-inbox.md`, `STRATEGY-NOTEBOOK-ARCHITECTURE.md`).
+
+Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only**.
+
+**Do not** treat **`strategy-codex`** as **`STRATEGY.md`** (milestone ledger).
+
+## Other books (misc homes)
+
+| Phrase | Path |
+|--------|------|
+| cici notebook | `singularity/work-cici/cici-notebook/` |
+| dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |
+| history notebook | `docs/skill-work/work-strategy/history-notebook/` |
+| theology notebook | `docs/skill-work/work-strategy/theology-notebook/` |
+| civilization memory (upstream) | `research/repos/civilization_memory/` |
+| bookshelf (owned print) | `docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md` |
+
+Index table: **`codex/README.md`** § Operator books (misc homes).

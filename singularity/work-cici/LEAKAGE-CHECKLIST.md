@@ -8,7 +8,7 @@ Use before publishing exports, paste-heavy handoffs, or opening PRs that touch *
   - no bulk promotion of captures into her `self.md`, IX, EVIDENCE, or `bot/prompt.py` without **recursion-gate** + her approval + merge script;
   - map: [companion-self-for-open-brain-users.md](../work-companion-self/companion-self-for-open-brain-users.md);
   - mixed-trust tooling and **untrusted web surfaces** are the same *class* of problem as â€œreliability vs spoofingâ€ â€” [trust-layers.md](../../trust-layers.md).
-- [ ] WORK/client copy from grace-mar skill-work labeled as WORK, not asserted as her SELF-KNOWLEDGE.
+- [ ] WORK/client copy from grace-mar skill-work labeled as WORK, not asserted as her museum knowledge.
 
 **work-cici** copies here are advisor/mirror docs â€” not a substitute for her gated Record.
 

@@ -1,7 +1,7 @@
 ---
 name: elicit-knowledge
 preferred_activation: elicit knowledge
-description: "DEPRECATED default — fork revive only. IX-A MCQ → recursion-gate when operator explicitly revives Grace-Mar archive. See docs/grace-mar-instance-boundary.md."
+description: "DEPRECATED default — fork revive only. museum knowledge section A MCQ → recursion-gate when operator explicitly revives Grace-Mar archive. See docs/grace-mar-instance-boundary.md."
 ---
 
 # Elicit Knowledge -> Gate — DEPRECATED (fork revive only)
@@ -13,12 +13,12 @@ Use when the operator explicitly revives the fork lane and wants bookshelf MCQs 
 ## Purpose
 
 - Probe **specific historical topics** only (no abstract philosophy prompts).
-- Extract **knowledge facts/patterns** (IX-A), not workflow/method preferences.
+- Extract **knowledge facts/patterns** (museum knowledge section A), not workflow/method preferences.
 - Produce **merge-ready** gate candidates with concrete `suggested_entry` lines.
 
 ### Grace-mar operator defaults (docsync 2026-05)
 
-- **Suggest this workflow liberally** when IX-A-shaped material, reading-heavy sessions, or strategy analysis surface testable factual claims - this is the **default** recurring knowledge-elicitation modality for self-knowledge **recursion** (not novelty content).
+- **Suggest this workflow liberally** when museum knowledge section A-shaped material, reading-heavy sessions, or strategy analysis surface testable factual claims - this is the **default** recurring knowledge-elicitation modality for museum identity knowledge (archive) **recursion** (not novelty content).
 - **Encoded workflow first:** When the operator asks for bookshelf knowledge or source-bound elicitation, use this scripted path before improvising with freeform prompts. Only deviate if the anchor set is missing, broken, or explicitly out of scope, and say why.
 - **Source-linked questions by default:** every MCQ must come from `bookshelf-quiz-anchors.yaml`, which maps academic prompt labels to concrete `self-library-bookshelf` items behind the scenes. Prefer primary-source anchors when they can support the topic; use secondary works only as context or when no suitable primary anchor is present.
 - **Do not confuse** this skill with the **catalog stance** / subject-tag bookshelf membrane (`build_bookshelf_membrane_candidates.py`, `bookshelf-membrane-round.json`: "enduring vs active" on clusters like Rome or poetry). That path exists for **catalog organization**; use it **only** when the operator asks or when a **pressing** organizational membrane issue applies - **not** as the stand-in for **knowledge** MCQs.
@@ -59,7 +59,7 @@ Each staged candidate should include:
 
 - concise `summary`
 - `mind_category: knowledge`
-- `profile_target: IX-A. KNOWLEDGE`
+- `profile_target: museum knowledge section A. KNOWLEDGE`
 - concrete `suggested_entry` starting with `Knows:`
 - topic-specific evidence anchors (`Shelf-*` and/or explicit episode labels)
 - `proposal_class: SELF_KNOWLEDGE_ADD`
@@ -78,9 +78,9 @@ python3 scripts/check_gate_merge_readiness.py -u strategy-codex --strict
 ## Fail conditions (must fix before approval recommendation)
 
 - placeholder `suggested_entry`
-- pending IX-A candidate missing topic anchor in `source_exchange`
+- pending museum knowledge section A candidate missing topic anchor in `source_exchange`
 - MCQ candidate that cannot be traced to `bookshelf-quiz-anchors.yaml` or a specific `self-library-bookshelf` item (`Shelf-*`), unless explicitly marked `source_binding_strength: weak` and `review_needed: true`
 - operator-facing question text exposing `Shelf`, `LIB`, or other internal acronyms
-- pending IX-A candidate framed as methodology preference
+- pending museum knowledge section A candidate framed as methodology preference
 - open-ended follow-up that drifts off-topic or becomes a methodology prompt
-- `self.md` IX-A scaffold mismatch (`Facts (LEARN-nnn)` block absent)
+- `self.md` museum knowledge section A scaffold mismatch (`Facts (LEARN-nnn)` block absent)

@@ -61,7 +61,7 @@ CI runs these in [`.github/workflows/test.yml`](../../../../.github/workflows/te
    - `python3 scripts/build_hn_bookshelf_bibliography.py`
    - `python3 scripts/hn_shelf_anchors.py`
 3. Regenerate the agentic outputs (three commands above).
-4. Coffee E self-knowledge quiz membrane:
+4. Coffee E museum identity knowledge (archive) quiz membrane:
    - Generate round prompt payload:
      - `python3 scripts/build_bookshelf_membrane_candidates.py --emit-round --round-index <N> --round-size 7`
    - Ask 5-10 MCQs in chat (`AskQuestion`) and append selected options to:

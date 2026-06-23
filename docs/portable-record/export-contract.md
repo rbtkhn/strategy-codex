@@ -6,7 +6,7 @@ Grace-Mar's outward portability layer: a coherent set of governed export classes
 
 ## Principle
 
-Grace-Mar exports are **governed views** over companion-approved content — not raw memory dumps, not unreviewed runtime residue, not unfiltered candidate queues. Every export draws from the four canonical Record surfaces (SELF, SELF-LIBRARY, SKILLS, EVIDENCE) after content has passed through the gated pipeline.
+Grace-Mar exports are **governed views** over companion-approved content — not raw memory dumps, not unreviewed runtime residue, not unfiltered candidate queues. Every export draws from the four canonical Record surfaces (SELF, removed operator-books symlink, SKILLS, EVIDENCE) after content has passed through the gated pipeline.
 
 Runtime-only material (warmup, memory briefs, skill cards, lane compression) may appear in runtime-aware export modes but is clearly marked as derived and non-canonical.
 
@@ -30,7 +30,7 @@ Runtime-only material (warmup, memory briefs, skill cards, lane compression) may
 | Surface | Full governed | Task-limited | Tool bootstrap | Demonstrated capability | Internal-only |
 |---|---|---|---|---|---|
 | **SELF** | Yes (sensitivity-filtered) | Relevant slices | Partial (core identity) | Minimal (context only) | May include non-portable entries |
-| **SELF-LIBRARY** | Yes (sensitivity-filtered) | Relevant domains | Partial (key domains) | Minimal | May include non-portable entries |
+| **removed operator-books symlink** | Yes (sensitivity-filtered) | Relevant domains | Partial (key domains) | Minimal | May include non-portable entries |
 | **SKILLS** | Yes | Relevant workflows | Selected skills | Yes — primary surface | May include non-portable entries |
 | **EVIDENCE** | Yes (sensitivity-filtered) | Relevant artifacts | No (too large) | Yes — primary surface | May include non-portable entries |
 | **Runtime** | Yes (marked derived) | No | No | No | N/A |

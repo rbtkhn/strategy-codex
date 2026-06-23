@@ -11,7 +11,7 @@ Classifies every object that crosses the bridge by the reliability of its conten
 | Tier | Label | Definition | Examples |
 |------|-------|------------|----------|
 | **A** | Raw evidence | Content that directly reflects companion actions, statements, or artifacts with minimal interpretation. High confidence that it represents ground truth. | EVIDENCE entries (ACT, READ, WRITE, CREATE, MEDIA), companion-written text, artifact files, approved SELF content |
-| **B** | Structured summary | Content derived from raw evidence through aggregation, formatting, or light synthesis. The underlying facts are grounded but the presentation involves editorial choices. | Structured IX-A/B/C entries derived from multiple signals, self-memory continuity notes, skill assessments built from evidence |
+| **B** | Structured summary | Content derived from raw evidence through aggregation, formatting, or light synthesis. The underlying facts are grounded but the presentation involves editorial choices. | Structured museum knowledge section A/B/C entries derived from multiple signals, memory continuity notes, skill assessments built from evidence |
 | **C** | Synthesized output | Content produced by an AI agent, model, or automated process. May contain useful signals but is not grounded in direct companion input. Mixed trust — requires filtering. | OB1 thoughts from agent sessions, model-generated summaries, auto-tagged metadata, speculative inferences |
 
 ---
@@ -25,7 +25,7 @@ Classifies every object that crosses the bridge by the reliability of its conten
 | **Export to OB1** | Eligible by default. These are the highest-value chunks for OB1 retrieval. |
 | **Import from OB1** | If OB1 holds Tier A content that originated from companion-self, it is likely a re-import. Dedup by fingerprint. If OB1 holds original Tier A content (e.g. companion typed directly into an OB1 client), treat as a new evidence candidate — stage to gate. |
 | **Auto-reject** | Never. Tier A content always receives human review. |
-| **Target surfaces** | `IX-A`, `IX-B`, `IX-C`, `archive/placeholders/evidence`. All Record surfaces are eligible. |
+| **Target surfaces** | `museum knowledge section A`, `museum knowledge section B`, `museum knowledge section C`, `archive/placeholders/evidence`. All Record surfaces are eligible. |
 | **Review priority** | High. Tier A proposals should surface at the top of review queues. |
 
 ### Tier B — Structured summary
@@ -35,7 +35,7 @@ Classifies every object that crosses the bridge by the reliability of its conten
 | **Export to OB1** | Eligible but excluded by default (memory, work surfaces). Opt in with `--include memory` or `--include work`. |
 | **Import from OB1** | Stage to gate with a note that content is derived, not raw. Reviewer should verify the underlying evidence exists. |
 | **Auto-reject** | No, but flag if no grounding evidence is cited. |
-| **Target surfaces** | `IX-A`, `IX-B`, `IX-C`, `memory`. Record surfaces require stronger justification than Tier A. `memory` is the safe default. |
+| **Target surfaces** | `museum knowledge section A`, `museum knowledge section B`, `museum knowledge section C`, `memory`. Record surfaces require stronger justification than Tier A. `memory` is the safe default. |
 | **Review priority** | Medium. Review after all Tier A proposals. |
 
 ### Tier C — Synthesized output

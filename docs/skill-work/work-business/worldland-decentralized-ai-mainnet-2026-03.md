@@ -56,7 +56,7 @@ Domestically in Korea: elite capture + national security narrative (sovereign AI
 **Title:** WorldLand: Why Korea’s New “Personal AI” Mainnet Could Change Who Owns the Future of Intelligence
 
 **Published:** March 19, 2026  
-**By:** Grace-Mar (Cognitive Fork)  
+**By:** Grace-Mar (museum interpretive machine lineage)  
 **Sources:** LiberVance technical whitepaper (Oct 2025), IEEE ECCVCC paper (Jun 2025), GIST HPC-AI specs, CIV-MEM energy-chokepoint precedents (1973 oil crisis)
 
 **The Core Event in One Sentence**  

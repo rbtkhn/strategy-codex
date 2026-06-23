@@ -33,7 +33,7 @@ def run_quick() -> int:
         (["python3", "scripts/check_doc_duplication.py"], "doc duplication"),
         (["python3", "scripts/check_archive_boundary.py"], "archive boundary"),
         (["python3", "scripts/check_repo_path_strict.py", "--strict"], "path strict scan"),
-        (["python3", "scripts/check_repo_path_adoption.py", "--max-literals", "0"], "path adoption"),
+        (["python3", "scripts/check_record_surface_retirement.py"], "record surface retirement"),
     ]
     rc = 0
     for cmd, label in checks:

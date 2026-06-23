@@ -146,5 +146,5 @@ In Grace-Mar terms, the important distinction is that **runtime assistance does 
 
 ## Boundary reminder
 
-This demo does **not** update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE directly. It shows how runtime memory can **support** reviewable change without becoming governed truth on its own.
+This demo does **not** update SELF, removed operator-books symlink, SKILLS, or EVIDENCE directly. It shows how runtime memory can **support** reviewable change without becoming governed truth on its own.
 

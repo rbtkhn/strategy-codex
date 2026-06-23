@@ -6,7 +6,7 @@
   - `civilization/objects/state-memory.md`
   - `statecraft/templates/state-memory.md`
   - migration and inventory object-class keys
-- Do not blur this skill with repo meanings such as `self-memory`, runtime memory, or speaker-memory.
+- Do not blur this skill with repo meanings such as `memory`, runtime memory, or speaker-memory.
 
 **Preferred maintenance commands after skill edits**
 

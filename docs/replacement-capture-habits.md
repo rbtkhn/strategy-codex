@@ -6,9 +6,9 @@ When the operator would have used fork-growth habits, use these **instead** unle
 
 | Was (fork growth) | Now (interpretive machine) |
 |-------------------|----------------------------|
-| **"We did X"** → RECURSION-GATE staging | Lane history (`docs/skill-work/work-*/…-history.md`), [`self-memory.md`](../self-memory.md), [`cadence-learning-events.jsonl`](../cadence-learning-events.jsonl) |
+| **"We did X"** → RECURSION-GATE staging | Lane history (`docs/skill-work/work-*/…-history.md`), [`memory.md`](../memory.md), [`cadence-learning-events.jsonl`](../cadence-learning-events.jsonl) |
 | Book completion → LEARN/READ gate candidate | `codex/` / bookshelf WORK, strategy inbox, or statecraft archive intake |
-| Wisdom questions → IX merge | Singularity or statecraft synthesis notes; **fork revive only** for IX-A/B/C gate |
+| Wisdom questions → IX merge | Singularity or statecraft synthesis notes; **fork revive only** for museum knowledge section A/B/C gate |
 | Weekly gate review rhythm | `python3 scripts/operator_handoff_check.py`, integrity scripts, ship receipt |
 | Voice / Telegram as primary channel | WORK menus (`coffee`, conductor), state synthesis |
 | Pipeline will grow the Record | Explicit WORK artifacts with git audit trail |
@@ -40,7 +40,7 @@ Use when material is useful for the session but **not** worth verbatim retention
 
 **Do not:** force `source-archive/` capture “because we looked”; stage gate candidates for ambient reading.
 
-**Optional breadcrumb:** one line in [`self-memory.md`](../self-memory.md) short horizon — continuity only, not Record.
+**Optional breadcrumb:** one line in [`memory.md`](../memory.md) short horizon — continuity only, not Record.
 
 ---
 

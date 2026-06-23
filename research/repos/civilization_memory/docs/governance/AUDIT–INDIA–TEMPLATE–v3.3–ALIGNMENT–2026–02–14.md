@@ -69,7 +69,7 @@
 | Requirement | Template (v3.2) | India | Status |
 |-------------|-----------------|-------|--------|
 | ARC-T categories | ANCIENT, MEDIEVAL, EARLY-MOD, MODERN | Present | ✓ |
-| ARC-T-INSTITUTIONAL | Required for STATE mode | Present (§ IX-B) | ✓ |
+| ARC-T-INSTITUTIONAL | Required for STATE mode | Present (§ museum knowledge section B) | ✓ |
 | Cross-ARC (TSP) | V-A | Present | ✓ |
 | Governed by | CIV–ARC–TEMPLATE v3.2 | v3.0 | Minor — templates now CMC 3.3 |
 

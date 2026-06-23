@@ -175,7 +175,7 @@ Why:
 Improve the distinction and observability across:
 
 - Record truth
-- self-memory / continuity
+- memory / continuity
 - WORK notebooks and lane artifacts
 - execution-local temporary state
 

@@ -4,7 +4,7 @@ This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`sch
 
 ## Principles
 
-1. **Runtime memory is assistance, not truth.** Observations in the runtime ledger, prepared context, and memory briefs are **operator scaffolding**. They are **not** SELF, SELF-LIBRARY, SKILLS, or EVIDENCE until merged through the gated pipeline with companion approval.
+1. **Runtime memory is assistance, not truth.** Observations in the runtime ledger, prepared context, and memory briefs are **operator scaffolding**. They are **not** SELF, removed operator-books symlink, SKILLS, or EVIDENCE until merged through the gated pipeline with companion approval.
 
 2. **Weakly supported claims** should be labeled **partial**, **insufficient**, or **hold** at promotion time—not polished as if they were proven.
 

@@ -2,17 +2,17 @@
 
 **WORK only;** not Record.
 
-**Collection name:** **self-library-bookshelf** â€” the operatorâ€™s **physical print library** (300-title-class scale), cataloged under this heading and in [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) as `Shelf-*` rows. Same thing as â€œBookshelfâ€ / [LIB-0158](../../../../self-library.md#bookshelf) in the self-library index; the name **self-library-bookshelf** stresses **self-library** as the home for the **shelf** list.
+**Collection name:** **self-library-bookshelf** â€” the operatorâ€™s **physical print library** (300-title-class scale), cataloged under this heading and in [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) as `Shelf-*` rows. Same thing as â€œBookshelfâ€ / [](../../../../self-library.md#bookshelf) in the self-library index; the name **self-library-bookshelf** stresses **self-library** as the home for the **shelf** list.
 
 **Bookshelf** is the operatorâ€™s **owned print library** expressed as an **enhanced bibliography**: **title-level metadata** (and optional planning hints) for physical books you keep â€” **not** full text, not a reading corpus, and **not** an operator-authored â€œbookâ€ in the [Operator analytical books](../../../../self-library.md#operator-analytical-books) sense.
 
 ## Distinct from operator books
 
-| | **Bookshelf (this doc)** | **Operator analytical books** (e.g. [LIB-0156](../../../../self-library.md#operator-analytical-books) History notebook, [LIB-0153](../../../../self-library.md#operator-analytical-books) strategy notebook) |
+| | **Bookshelf (this doc)** | **Operator analytical books** (e.g. [`docs/skill-work/work-strategy/history-notebook/`](../../../../self-library.md#operator-analytical-books) History notebook, [strategy-codex (`codex/`)](../../../../self-library.md#operator-analytical-books) strategy notebook) |
 |---|-------------------------|----------------------------------|
 | **What it is** | Third-party print you own; bibliographic rows + optional `Shelf-*` hooks to drafting | **Operator-authored** structured corpora (chapters, journals, multivolume spines) under grace-mar |
 | **Grain** | Citation / shelf / era / tags â€” *enhanced bib*, not a repository of page content | Prose, meta, and README SSOTs meant for **analysis, judgment, and synthesis** |
-| **Self-library** | [LIB-0158 â€” Bookshelf](../../../../self-library.md#bookshelf) Â· `shelf_intent: working_reference` (not `operator_book`) | `shelf_intent: operator_book` + `operator_analytical` scope where applicable |
+| **Self-library** | [ â€” Bookshelf](../../../../self-library.md#bookshelf) Â· `shelf_intent: working_reference` (not `operator_book`) | `shelf_intent: operator_book` + `operator_analytical` scope where applicable |
 
 **Rule of thumb:** If it would live in a zotero row or a library catalog card, it belongs on **Bookshelf**. If *you* are writing the â€œbookâ€ in-repo, it belongs under **Operator analytical books**.
 
@@ -41,5 +41,5 @@ Bookshelf rows **inform** [History Notebook](../README.md) chapter drafting (whi
 ## See also
 
 - [History Notebook â€” STYLE-GUIDE Â§ Bookshelf era buckets](../STYLE-GUIDE.md#bookshelf-era-buckets) â€” era vocabulary in prose.
-- [runtime/artifacts/library-index.md](../../../../../runtime/artifacts/library-index.md) â€” operator dashboard; includes **LIB-0158** in entry summaries, not the Shelf title list.
+- [runtime/artifacts/library-index.md](../../../../../runtime/artifacts/library-index.md) â€” operator dashboard; includes **** in entry summaries, not the Shelf title list.
 

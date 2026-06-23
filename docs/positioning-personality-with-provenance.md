@@ -51,7 +51,7 @@ Or:
 ## 5. Product fit (no pipeline change)
 
 - **Same pipeline:** Signal detection → stage in recursion-gate → human approval → merge. No new merge path.
-- **Same schema:** SELF (IX-A knowledge, IX-B curiosity, IX-C personality), EVIDENCE, skills. Optional: lighter onboarding (e.g. emphasize IX-B/IX-C for "style and interests").
+- **Same schema:** SELF (museum knowledge section A knowledge, museum knowledge section B curiosity, museum knowledge section C personality), EVIDENCE, skills. Optional: lighter onboarding (e.g. emphasize museum knowledge section B/museum knowledge section C for "style and interests").
 - **Export:** PRP, JSON, Obsidian, or API — already in place or on roadmap. Add **segment-specific export** (e.g. "coach handoff pack": one-pager + structured JSON of interests and style).
 - **Hosted / white-label:** Same hosted family product pattern; positioning and onboarding tailored to coaches/creators. Optional: "Record for teams" (multiple Records under one org).
 

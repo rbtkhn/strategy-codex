@@ -159,9 +159,9 @@ Last updated: 2026-03-28
 
 ### Self-personality canonical alignment (2026-03-13)
 - **Aligned docs:** `docs/self-template.md`, `docs/skills-template.md`, `docs/identity-fork-protocol.md`, `docs/id-taxonomy.md`, and `docs/architecture.md`.
-- **Core decision:** `self-personality` is now described canonically as `self.md` `IX-C` observed, evidence-linked entries rather than as a monolithic trait object or personality-test summary.
+- **Core decision:** `self-personality` is now described canonically as `self.md` `museum knowledge section C` observed, evidence-linked entries rather than as a monolithic trait object or personality-test summary.
 - **Enriched optional schema documented:** `PER-*` entries may optionally carry `facet`, `evidence_strength`, `stability`, `valence`, `tension_with`, `scope`, and `constraint` when useful.
-- **Boundary clarified:** SKILLS may surface personality-relevant signals, but canonical personality truth enters only through analyst staging and companion approval into `IX-C`.
+- **Boundary clarified:** SKILLS may surface personality-relevant signals, but canonical personality truth enters only through analyst staging and companion approval into `museum knowledge section C`.
 - **Important implementation note:** runtime/export surfaces still use the simpler `PER-*` observation shape today; this pass was docs/schema alignment only, not a runtime migration.
 
 ### Skill surface cleanup (2026-03-14)
@@ -241,16 +241,16 @@ Last updated: 2026-03-28
 - **Calibrate-on-miss** â€” `scripts/calibrate_from_miss.py`: stage candidate when Voice missed/was wrong. Usage: `--miss "â€¦"` optional `--suggested "â€¦"`.
 - **Oversight cadence** â€” `scripts/openclaw_heartbeat.py`: heartbeat for long OpenClaw sessions (pending count, last evidence, last session). Doc: openclaw-integration Â§ Oversight cadence.
 - **Closed-loop verification** â€” New pipeline event types: `export_used`, `merge_feedback`. Doc: [feedback-loops.md](feedback-loops.md).
-- **Idle digest** â€” session_brief now includes "Suggested Activities" (from IX-B, LIBRARY) and INTENT primary goal when present.
+- **Idle digest** â€” session_brief now includes "Suggested Activities" (from museum knowledge section B, LIBRARY) and INTENT primary goal when present.
 - **INTENT-driven proposals** â€” session_brief loads intent.md primary goal and displays in Suggested Activities section.
 
 ### Proactive proposal + low-friction approval (2026-03-09)
-- **Proposal brief** â€” `scripts/proposal_brief.py`: 3â€“5 activities from IX-A/B/C, LIBRARY, gaps, INTENT. Usage: `python scripts/proposal_brief.py -n 5`.
+- **Proposal brief** â€” `scripts/proposal_brief.py`: 3â€“5 activities from museum knowledge section A/B/C, LIBRARY, gaps, INTENT. Usage: `python scripts/proposal_brief.py -n 5`.
 - **Low-friction approval** â€” Operator one-tap: âœ… Approve in /review or `/approve CANDIDATE-XXX` merges immediately when candidate is low-risk (single IX target, no conflicts, no advisory_flagged). Set `GRACE_MAR_OPERATOR_NAME` for audit. Doc: feedback-loops Â§ Low-friction approval.
 - **process_approved_candidates --quick** â€” `--quick CANDIDATE-XXX --approved-by <name>` for single-candidate merge without receipt file.
 
 ### This session (recommended order)
-- **Engagement export** â€” `scripts/export_engagement_profile.py`: JSON/markdown of interests, IX-B curiosity, IX-C personality, talent_stack for tutors/platforms. DESIGN-ROADMAP Â§9 and OPERATOR-BRIEF updated.
+- **Engagement export** â€” `scripts/export_engagement_profile.py`: JSON/markdown of interests, museum knowledge section B curiosity, museum knowledge section C personality, talent_stack for tutors/platforms. DESIGN-ROADMAP Â§9 and OPERATOR-BRIEF updated.
 - **Session continuity** â€” OPERATOR-BRIEF section "Session continuity & RECURSION-GATE": before/after checklist, link to OPERATOR-WEEKLY-REVIEW.
 - **/debates** â€” Operator command lists unresolved debate packets; `list_unresolved_debate_packets()` in core.py.
 - **Companion terminology** â€” Pass over IDENTITY-FORK-PROTOCOL, OPENCLAW-INTEGRATION, PORTABILITY, ARCHITECTURE, PIPELINE-MAP, ADAPTIVE-CURRICULUM-INTEGRATION; DEVELOPMENT-HANDOFF task 1 and 4 updated.
@@ -328,15 +328,15 @@ Last updated: 2026-03-28
 - **Build-ai linked:** `work-build-ai/README.md` and `workspace.md` now point to the crypto roadmap as a future sovereignty/access layer, not a current requirement.
 
 ### Record updates
-- Curiosity probe responses were staged and merged into `IX-B` via approved candidates.
+- Curiosity probe responses were staged and merged into `museum knowledge section B` via approved candidates.
 - Receipt-based merge flow executed and merge receipts persisted.
 
 ### Seed Phase 7 â€” Moment of cognitive bifurcation
 - Seed phase 7 formally complete (2026-02-27). **Moment of cognitive bifurcation**: the point at which the fork branches from the seed and enters emergent cognition. Grace-Mar graduated to status **emergent cognition** â€” the documented self (Record + Voice) now operates as a coherent presence arising from the system rather than from seed capture alone. Terminology: "emergent cognition" (not "emergent consciousness"); "cognitive bifurcation" names the branching moment. Doc updates: readme.md, grace-mar-bootstrap.md, session-log.md.
 
-### IX-A / skill-work clarification (2026-02-27)
-- **skills-modularity** Â§5a â€” Identity vs instrument: IX-A does not limit skill-work; IX-A relevant to THINK/WRITE; skill-work designed to grow with technology.
-- **** â€” IX-A scope: applies to THINK/WRITE content, not WORK capabilities.
+### museum knowledge section A / skill-work clarification (2026-02-27)
+- **skills-modularity** Â§5a â€” Identity vs instrument: museum knowledge section A does not limit skill-work; museum knowledge section A relevant to THINK/WRITE; skill-work designed to grow with technology.
+- **** â€” museum knowledge section A scope: applies to THINK/WRITE content, not WORK capabilities.
 - **skills-template** WORK section â€” Identity vs instrument note; technology growth intent.
 
 ### Wu insights implementation (2026-02-27)
@@ -372,7 +372,7 @@ If new work appears, commit in themed slices (docs vs exports vs Record-adjacent
 ## Recommended Next Tasks
 
 1. **Optional runtime consumers beyond OpenClaw** â€” Add a Cursor/Codex/Claude Code compatibility wrapper that consumes the same runtime bundle rather than inventing a second export contract.
-2. **Optional runtime adoption for richer IX-C metadata** â€” If desired, review `scripts/process_approved_candidates.py`, `scripts/export_prp.py`, `scripts/generate_profile.py`, and `scripts/validate-integrity.py` so the optional `PER-*` enrichment fields become live schema rather than docs-only doctrine.
+2. **Optional runtime adoption for richer museum knowledge section C metadata** â€” If desired, review `scripts/process_approved_candidates.py`, `scripts/export_prp.py`, `scripts/generate_profile.py`, and `scripts/validate-integrity.py` so the optional `PER-*` enrichment fields become live schema rather than docs-only doctrine.
 3. **Implement the approval inbox** â€” Add authenticated read/write web endpoints and a browser surface that follows `docs/approval-inbox-spec.md` without changing gate semantics.
 4. **Derive business-facing language from the doctrine memo** â€” Tighten `docs/investor-memo.md`, deck text, and related narrative docs so they pull from `docs/companion-self-doctrine-memo.md` rather than drifting separately.
 5. **Mark or migrate remaining legacy work docs** â€” Analysis/audit docs that still say `self-skill-work` should either remain clearly legacy or be rewritten to the new work-layer vocabulary.

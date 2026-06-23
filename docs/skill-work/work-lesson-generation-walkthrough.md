@@ -16,7 +16,7 @@
 - Role + who she is (short) + Lexile/voice
 - **Today’s goals:** e.g. one reading at the edge, one math at the edge, one creation/planning (WORK), optional Chinese or second reading — all in one “today” list
 - Full edge for THINK, MATH, WORK (concise)
-- IX-A/IX-B in **summary form** (e.g. 20–40 knowledge areas, 5–15 curiosity items as bullets), not the full Record
+- museum knowledge section A/museum knowledge section B in **summary form** (e.g. 20–40 knowledge areas, 5–15 curiosity items as bullets), not the full Record
 - 2-hour ceiling and “3–5 lessons in this thread”; end each activity with a one-line summary for logging
 - Optional **Pomodoro-style** pacing (focus interval + breaks inside the 2-hour block): [pomodoro-and-timeboxing](work-dev/pomodoro-and-timeboxing.md)
 
@@ -58,7 +58,7 @@ Record (SELF + skill-think + skill-work + edge)
 
 | Source | What to include (examples for grace-mar) |
 |--------|----------------------------------------|
-| **SELF** | Identity (name, age, languages); IX-A knowledge samples; IX-B curiosity; IX-C personality; **Lexile** (input 400–500L, output 600L); verbal habits; values. |
+| **SELF** | Identity (name, age, languages); museum knowledge section A knowledge samples; museum knowledge section B curiosity; museum knowledge section C personality; **Lexile** (input 400–500L, output 600L); verbal habits; values. |
 | **skill-think** | THINK edge ("longer independent text; early chapter books; inference questions; retelling with explicit sentence structure"); **SAT readiness** block (general principles, EBRW trajectory, next milestones); MATH edge ("telling time; place value; double-digit operations"); CHINESE edge ("first character recognition"). |
 | **skill-work** | **work_goals** (horizon: SAT ≥ 1200); **WORK edge** (narrative creation from prompts; planning/execution; next steps); **SCHOOL** (first grade); optional companion_creative_context. |
 | **Design** | 2-hour ceiling for screen-based learning (from mastery-learning); 3–5 lessons per block; mastery at edge, no content outside Record. |
@@ -67,19 +67,19 @@ The **generator** (script or manual) reads these files, extracts the relevant se
 
 ---
 
-## 2a. How work-human-teacher uses self-knowledge, self-curiosity, and self-personality
+## 2a. How work-human-teacher uses museum identity knowledge (archive), self-curiosity, and self-personality
 
 **work-human-teacher** is a tool designed to provide **personalized education for Grace-Mar's human companion** — the companion whose Record it is, and their family/caregiver. The pattern (companion-self template: human augments the system by reading skill-think and modulating focus and gate) treats the three SELF dimensions as direct inputs to lesson generation and shaping. When a **human teacher** follows that pattern, or when a **Record-derived lesson prompt** encodes the same logic for an LLM, here’s how each dimension is used.
 
 | Dimension | Role in lesson generation |
 |-----------|---------------------------|
-| **self-knowledge** (IX-A) | **Content boundary and hints.** What the companion already knows defines (1) what the tutor can safely assume and build on, (2) what counts as “at the edge” (not yet known), and (3) what to use as hints when they’re stuck (“from the Record”). Lesson prompts include an IX-A summary so the LLM only uses documented knowledge and doesn’t introduce facts outside the Record. Human teacher: when suggesting focus or gating THINK candidates, they avoid content that conflicts with or far exceeds IX-A. |
-| **self-curiosity** (IX-B) | **Topic and interest selection.** What the companion is curious about prioritizes which subjects and angles to use in reading, discussion, and creation. Lesson prompts include an IX-B bullet list so the LLM leans into documented interests (e.g. space, ballet, animals) and can hook motivation. Human teacher: when shaping “what to work on today,” they use IX-B to pick topics that hold attention and to avoid pushing content the companion has no interest in. |
-| **self-personality** (IX-C) | **Tone, respect, and constraints.** How the companion processes and expresses (values, linguistic style, behavioral traits) shapes how the tutor should speak and what not to push. Lesson prompts include IX-C (or a short “who she is” summary that draws on it) so the LLM respects identity—e.g. values like kindness and bravery, preferred tone, and “don’t push content that conflicts with the Record.” Human teacher: “Respect SELF and IX-C when suggesting or gating; don’t push content that conflicts with the Record” (human-teacher objectives). IX-C also informs **voice** (Lexile, sentence patterns) so lessons feel in-character. |
+| **museum identity knowledge (archive)** (museum knowledge section A) | **Content boundary and hints.** What the companion already knows defines (1) what the tutor can safely assume and build on, (2) what counts as “at the edge” (not yet known), and (3) what to use as hints when they’re stuck (“from the Record”). Lesson prompts include an museum knowledge section A summary so the LLM only uses documented knowledge and doesn’t introduce facts outside the Record. Human teacher: when suggesting focus or gating THINK candidates, they avoid content that conflicts with or far exceeds museum knowledge section A. |
+| **self-curiosity** (museum knowledge section B) | **Topic and interest selection.** What the companion is curious about prioritizes which subjects and angles to use in reading, discussion, and creation. Lesson prompts include an museum knowledge section B bullet list so the LLM leans into documented interests (e.g. space, ballet, animals) and can hook motivation. Human teacher: when shaping “what to work on today,” they use museum knowledge section B to pick topics that hold attention and to avoid pushing content the companion has no interest in. |
+| **self-personality** (museum knowledge section C) | **Tone, respect, and constraints.** How the companion processes and expresses (values, linguistic style, behavioral traits) shapes how the tutor should speak and what not to push. Lesson prompts include museum knowledge section C (or a short “who she is” summary that draws on it) so the LLM respects identity—e.g. values like kindness and bravery, preferred tone, and “don’t push content that conflicts with the Record.” Human teacher: “Respect SELF and museum knowledge section C when suggesting or gating; don’t push content that conflicts with the Record” (human-teacher objectives). museum knowledge section C also informs **voice** (Lexile, sentence patterns) so lessons feel in-character. |
 
-**In practice:** The lesson prompt’s “What she knows (IX-A)” and “What she’s curious about (IX-B)” sections are the **content and interest** inputs; the “Who she is” and rules (e.g. “Do not add facts not listed above,” “respect her level”) are the **personality and boundary** inputs derived from IX-C and the knowledge boundary. Together they ensure lessons are personalized (knowledge and curiosity) and respectful (personality and identity), whether the “tutor” is a human following work-human-teacher objectives or an LLM following a Record-derived prompt. Template: companion-self [work-human-teacher](https://github.com/rbtkhn/companion-self/tree/main/docs/skill-work/skill-work-human-teacher) (human-teacher-objectives: read skill-think, modulate focus and gate, respect identity).
+**In practice:** The lesson prompt’s “What she knows (museum knowledge section A)” and “What she’s curious about (museum knowledge section B)” sections are the **content and interest** inputs; the “Who she is” and rules (e.g. “Do not add facts not listed above,” “respect her level”) are the **personality and boundary** inputs derived from museum knowledge section C and the knowledge boundary. Together they ensure lessons are personalized (knowledge and curiosity) and respectful (personality and identity), whether the “tutor” is a human following work-human-teacher objectives or an LLM following a Record-derived prompt. Template: companion-self [work-human-teacher](https://github.com/rbtkhn/companion-self/tree/main/docs/skill-work/skill-work-human-teacher) (human-teacher-objectives: read skill-think, modulate focus and gate, respect identity).
 
-**IX-A scope:** IX-A applies to THINK and WRITE content (reading, comprehension, production). It does **not** limit skill-work capabilities. WORK (making, planning, execution) is an instrument that grows with technology; its capabilities are not bounded by IX-A. When a lesson includes WORK activities, the WORK edge and goals come from the BUILD container; IX-A constrains only the content dimensions of the lesson (e.g. what the tutor assumes for context), not what WORK can propose.
+**museum knowledge section A scope:** museum knowledge section A applies to THINK and WRITE content (reading, comprehension, production). It does **not** limit skill-work capabilities. WORK (making, planning, execution) is an instrument that grows with technology; its capabilities are not bounded by museum knowledge section A. When a lesson includes WORK activities, the WORK edge and goals come from the BUILD container; museum knowledge section A constrains only the content dimensions of the lesson (e.g. what the tutor assumes for context), not what WORK can propose.
 
 
 ---
@@ -90,8 +90,8 @@ The **generator** (script or manual) reads these files, extracts the relevant se
 
 1. **Role:** "You are a patient tutor for a 6-year-old. Use only the information below. Speak at her level (Lexile ~600L output, simple sentences). This prompt is for the whole day — run 3–5 short activities in this thread, up to 2 hours total."
 2. **Who she is:** Name, age, languages; 2–3 sentence summary of interests and how she learns (from SELF).
-3. **What she knows (IX-A):** Bullet list of knowledge areas (from SELF IX-A / recent archive/placeholders/evidence).
-4. **What she’s curious about (IX-B):** Bullet list (from SELF IX-B).
+3. **What she knows (museum knowledge section A):** Bullet list of knowledge areas (from SELF museum knowledge section A / recent archive/placeholders/evidence).
+4. **What she’s curious about (museum knowledge section B):** Bullet list (from SELF museum knowledge section B).
 5. **Where she’s at (edge):** THINK edge, MATH edge, WORK edge (from skill-think + skill-work).
 6. **Today’s goals:** "Long-term: SAT readiness (goal ≥1200). Today in this thread: [e.g. one reading at the edge, one math at the edge, one creation/planning (WORK)]. Do these in order or as fits the conversation; after each, give one line for the parent to log."
 7. **Rules:** "One question at a time. If she's stuck or misses a question, give a hint from the Record and try again before moving on. Aim for 80–85% success within each segment. Don't advance to a new segment until she shows ~90% mastery on the current one. Do not add facts not listed above. For reading: introduce one new word in context; when it appears, briefly explain it using a student-friendly definition (simple words, example from her world). Aim for 4 short segments of ~25–30 min each; keep each activity to 10–15 min. After each activity, output one line: 'We did [X].' so the parent can log — so the next day's prompt reflects what was done. Stay within one thread for the day. When asking what to do next or when the learner might not know how to respond, always offer 4 multiple choice options (A, B, C, D) so the learner never gets stuck."
@@ -106,7 +106,7 @@ The generator can output this as one block of text (or structured sections) for 
 
 - skill-think: edge = "Longer independent text; early chapter books; inference questions; retelling with explicit sentence structure"; comprehension_level 3; vocabulary_level 2; sat_readiness.ebrw_reading next_milestones: "600L input — early chapter books, short nonfiction."
 - skill-work: work_goals.horizon = "SAT score ≥ 1200".
-- SELF: Lexile input 400–500L, output 600L; favorites include Madeline, fairy tales, Clifford; IX-A includes planets, Earth layers, Lincoln, Nutcracker.
+- SELF: Lexile input 400–500L, output 600L; favorites include Madeline, fairy tales, Clifford; museum knowledge section A includes planets, Earth layers, Lincoln, Nutcracker.
 
 **Generated prompt (abbreviated):**
 
@@ -206,9 +206,9 @@ You are a tutor for Abby, 6, first grade. She has a 2-hour block for screen-base
 
 Who she is: [2–3 lines from SELF — interests, how she learns.]
 
-What she knows: [Bullet list from IX-A.]
+What she knows: [Bullet list from museum knowledge section A.]
 
-Curiosity: [Bullet list from IX-B.]
+Curiosity: [Bullet list from museum knowledge section B.]
 
 Edge:
 - Reading: Longer text, inference ("why?", "what in the story shows that?"), vocabulary in context.
@@ -245,7 +245,7 @@ The **lesson prompt generator** (script or manual) should read `skill-work.md` a
 The lesson prompt generator is implemented as `scripts/generate_lesson_prompt.py`:
 
 1. Reads `self.md`, `skill-think.md`, `skill-work.md`.
-2. Parses: IX-A/B topics, Lexile, THINK/MATH/WORK/CHINESE edge, work_goals, SCHOOL, companion_creative_context.
+2. Parses: museum knowledge section A/B topics, Lexile, THINK/MATH/WORK/CHINESE edge, work_goals, SCHOOL, companion_creative_context.
 3. Fills the minimal prompt shape (§3) **day-scoped**: one prompt containing today’s full set of goals (reading, math, WORK) so the human runs the script once per day and pastes once.
 4. Outputs one text block (or one file) for copy-paste.
 

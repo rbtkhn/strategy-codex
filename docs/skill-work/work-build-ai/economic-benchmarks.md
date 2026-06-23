@@ -61,7 +61,7 @@ Do not treat **planned** or **blocked** metrics as observable until instrumentat
 |--------|-------------|--------|--------|
 | Record → OpenClaw delivery | Exports actually consumed in OpenClaw sessions | export events + external OpenClaw session logs | blocked |
 | OpenClaw → Record capture | ACT-* entries or merge artifacts attributable to OpenClaw handback | self-evidence.md + event trail | blocked |
-| IX growth from handback | New IX-A/B/C entries merged from OpenClaw-sourced candidates | self.md + event trail | blocked |
+| IX growth from handback | New museum knowledge section A/B/C entries merged from OpenClaw-sourced candidates | self.md + event trail | blocked |
 | Merge rate from OpenClaw | Approved / total OpenClaw-sourced candidates | recursion-gate.md + candidate_source | instrumented |
 
 ### Gate health

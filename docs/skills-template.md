@@ -12,7 +12,7 @@ Last Update: February 2026
 
 ## I. PURPOSE
 
-This template governs the SKILLS module of the cognitive fork.
+This template governs the SKILLS module of the interpretive machine.
 
 The SKILLS module:
 - Captures what the user CAN DO
@@ -65,9 +65,9 @@ Constitutional constraints (mandatory):
 - User gate: conflicts between executors are resolved by user approval, not by executor arbitration.
 
 Behavior shaping from SELF (three-dimension mind):
-- IX-A Knowledge influences factual confidence and abstention thresholds.
-- IX-B Curiosity influences exploration priority and query selection.
-- IX-C Personality influences tone, framing, and interaction style.
+- museum knowledge section A Knowledge influences factual confidence and abstention thresholds.
+- museum knowledge section B Curiosity influences exploration priority and query selection.
+- museum knowledge section C Personality influences tone, framing, and interaction style.
 
 Suggested default emphasis profile:
 
@@ -165,15 +165,15 @@ The Record-bound skill modules are not isolated. Most activities engage multiple
 
 **Tagging rule:** Tag the primary Record skill when the artifact demonstrates THINK or WRITE capability. Otherwise treat it as work-layer activity that may later produce evidence or staged candidates.
 
-### Skill modules vs. self (IX-A/B/C)
+### Skill modules vs. self (museum knowledge section A/B/C)
 
 **Skill modules (THINK, WRITE) update only capability** — comprehension and production. They do *not* extract or write knowledge, curiosity, or personality into SELF.
 
-**The analyst** (see ARCHITECTURE, pipeline) extracts patterns for **self-knowledge (IX-A), curiosity (IX-B), and personality (IX-C)** from the same inputs and stages candidates to RECURSION-GATE → SELF after companion approval.
+**The analyst** (see ARCHITECTURE, pipeline) extracts patterns for **museum identity knowledge (archive) (museum knowledge section A), curiosity (museum knowledge section B), and personality (museum knowledge section C)** from the same inputs and stages candidates to RECURSION-GATE → SELF after companion approval.
 
-So **one input** (e.g. art, music, journal, conversation, work artifact) can update both: (1) a Record skill container (THINK/WRITE) when it demonstrates Record-bound capability, and (2) SELF (IX-A/B/C) via analyst-staged candidates. Work-layer activity may also stage evidence or candidates, but it does not become a self-skill automatically. The analyst serves SELF; the skill modules serve SKILLS.
+So **one input** (e.g. art, music, journal, conversation, work artifact) can update both: (1) a Record skill container (THINK/WRITE) when it demonstrates Record-bound capability, and (2) SELF (museum knowledge section A/B/C) via analyst-staged candidates. Work-layer activity may also stage evidence or candidates, but it does not become a self-skill automatically. The analyst serves SELF; the skill modules serve SKILLS.
 
-**Personality boundary:** SKILLS may reveal tone, affect, follow-through, collaboration posture, or aesthetic tendency, but those are not canonical personality truth until they are staged and approved into IX-C.
+**Personality boundary:** SKILLS may reveal tone, affect, follow-through, collaboration posture, or aesthetic tendency, but those are not canonical personality truth until they are staged and approved into museum knowledge section C.
 
 **Identity vs capability rule:** If a claim answers **who the companion is / how they come across**, it belongs to SELF. If it answers **what the companion can reliably do / how well / with what support**, it belongs to SKILLS. The same artifact may justify both paths, but the two surfaces should not pretend to be doing the same job.
 
@@ -976,8 +976,8 @@ SKILLS and SELF interact bidirectionally, but **through analyst interpretation a
 |-----------------|-------------------------------|
 | vocabulary | linguistic_style range and level |
 | complexity | sentence-pattern observations |
-| style | tone, verbal habits, `IX-C` style markers |
-| expression | emotional or interpersonal patterns staged to `IX-C` when identity-relevant |
+| style | tone, verbal habits, `museum knowledge section C` style markers |
+| expression | emotional or interpersonal patterns staged to `museum knowledge section C` when identity-relevant |
 | topics | interests and curiosity signals |
 | content | linguistic_style samples and evidence-linked examples |
 
@@ -997,7 +997,7 @@ Journal Entry → WRITE Analysis → analyst reviews identity signals → RECURS
 | content chosen | interests and curiosity topics |
 | genres preferred | preferences.favorites |
 | themes returned to | values or value expressions |
-| emotional reactions | `IX-C` emotional patterns when evidenced |
+| emotional reactions | `museum knowledge section C` emotional patterns when evidenced |
 | re-reads | recurring taste or attachment patterns |
 
 **Example:**
@@ -1008,14 +1008,14 @@ THINK Activity: Finished "Charlotte's Web" (2nd read)
         ├── interests: animals, farm life, friendship
         ├── preferences.favorites.books: "Charlotte's Web"
         ├── values: loyalty, sacrifice
-        └── IX-C: recurring attachment to tender friendship stories
+        └── museum knowledge section C: recurring attachment to tender friendship stories
 ```
 
 ### Work Activity → SELF
 
 - Planning/collaboration style → possible reasoning or interpersonal observations
 - Financial/values signals → possible values or value-expression candidates
-- Execution approach → possible `IX-C` personality candidates (e.g. follow-through)
+- Execution approach → possible `museum knowledge section C` personality candidates (e.g. follow-through)
 - Creative content (artwork, inventions) → possible interests, aesthetic tendencies, or curiosity signals
 
 ### Key Insight

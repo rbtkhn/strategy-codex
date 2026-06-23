@@ -39,7 +39,7 @@ Named follow-on: **`civ-state`** is also valid after **C. Statecraft** when the 
 
 It is analysis-first, not default book-authoring.
 
-**Legacy C compatibility:** Older docs may map Daily Brief, Intel, Bookshelf quiz, or Bridge ideas to Coffee C. Those are explicit named routes now: `check streams` / daily brief for stream work, verified recent-event intake through `state-deploy` or a direct lane handoff for event-shaped statecraft work, `elicit-knowledge` / survey for Record-bound self-knowledge, and work-strategy / Predictive History requests for notebook synthesis. Coffee C owns them only when the operator asks to convert source material into a statecraft lane object or a downstream treaty, policy memo, negotiation brief, sanctions/alliance design, sovereignty argument, or institutional statecraft artifact.
+**Legacy C compatibility:** Older docs may map Daily Brief, Intel, Bookshelf quiz, or Bridge ideas to Coffee C. Those are explicit named routes now: `check streams` / daily brief for stream work, verified recent-event intake through `state-deploy` or a direct lane handoff for event-shaped statecraft work, `elicit-knowledge` / survey for Record-bound museum identity knowledge (archive), and work-strategy / Predictive History requests for notebook synthesis. Coffee C owns them only when the operator asks to convert source material into a statecraft lane object or a downstream treaty, policy memo, negotiation brief, sanctions/alliance design, sovereignty argument, or institutional statecraft artifact.
 
 **Daily brief / `last30days` / `check streams` / named recent event:** still valid by explicit request, but not a new Coffee C submenu and not automatic during Step 1. Default output remains a short brief / provenance note / selected raw-input path / verified event object, not a `days.md`, author-thread, strategy-page, or Record edit.
 
@@ -50,7 +50,7 @@ It is analysis-first, not default book-authoring.
 <a id="conductor-fork-d-menu"></a>
 <a id="conductor-fork-d1-d5"></a>
 
-The sections below retain **legacy A–G workload detail** (seven letters) for **scope** descriptions; map to the coffee SKILL current **A–D** hub (**Statecraft -> C**, **Build -> B Engineer**, **Steward -> A**, singularity-academy module -> **D Singularity**). Daily Brief / Intel, Bookshelf self-knowledge quiz, bridge ideas, Book / Jiang / Predictive History, and commercial/write work now route by explicit request unless they are being converted into statecraft instruments. **Conductor** is standalone only and is handled separately. **Signing-off** add-ons, cadence tables, explicit phrase modifiers, and companion survey track follow.
+The sections below retain **legacy A–G workload detail** (seven letters) for **scope** descriptions; map to the coffee SKILL current **A–D** hub (**Statecraft -> C**, **Build -> B Engineer**, **Steward -> A**, singularity-academy module -> **D Singularity**). Daily Brief / Intel, Bookshelf museum identity knowledge (archive) quiz, bridge ideas, Book / Jiang / Predictive History, and commercial/write work now route by explicit request unless they are being converted into statecraft instruments. **Conductor** is standalone only and is handled separately. **Signing-off** add-ons, cadence tables, explicit phrase modifiers, and companion survey track follow.
 
 **Exit:** There is **no** "close hub" letter. The operator leaves coffee by **C** (normal workflow unless **`stay in coffee`**), by **Later** on the [steward follow-up fork](#steward-follow-up-fork-implement-now-vs-later) (which returns to the full menu), or by starting a non-coffee task. **A**, **B**, and **D** re-offer the full **coffee** hub **A–D** after the branch completes. If a standalone **Conductor** turn was opened, keep it on the Conductor track and do not interleave the coffee menu in that same reply. The coffee ritual does **not** use a **no menu** opt-out.
 
@@ -102,7 +102,7 @@ If the operator says **`coffee`** on a **Sunday** (or legacy **`hey`**), default
 **`coffee survey`** (or **`coffee + survey`** / clear equivalent; legacy **`hey survey`** still works):
 
 - Run **Step 1** using the same cadence or explicit phrases as if they had said plain **coffee** (they may combine with **coffee light** or **minimal** — apply both: thin work-politics steps *and* survey intent).
-- In the **Step 1 warmup brief**, add a short **Companion survey** block (2–4 lines): purpose (IX-B / IX-C refinement), suggested cadence hint (e.g. **monthly micro** 3–5 questions vs **quarterly** deeper pass), pointer that survey is an explicit override, not the default **C. Statecraft** branch.
+- In the **Step 1 warmup brief**, add a short **Companion survey** block (2–4 lines): purpose (museum knowledge section B / museum knowledge section C refinement), suggested cadence hint (e.g. **monthly micro** 3–5 questions vs **quarterly** deeper pass), pointer that survey is an explicit override, not the default **C. Statecraft** branch.
 - **Step 2** remains the **same fixed menu** (do not drop letters). If the operator says **coffee survey** and then chooses **C**, run the [Companion survey track](#companion-survey-track) for that turn as the explicit override; otherwise **C** is Statecraft. After the survey turn, exit to normal workflow by default unless the operator says **`stay in coffee`**.
 - **Pipeline:** survey work **stages** `recursion-gate.md` candidates only — **no merge** without companion approval; same rule as the rest of this skill.
 
@@ -112,7 +112,7 @@ If the operator says **`coffee`** on a **Sunday** (or legacy **`hey`**), default
 
 ## Legacy A–G workload table (detail; canonical menu is the current coffee menu)
 
-**Canonical Step 2** today: [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md) -> **A-D** (hub only). **Standalone Conductor** is name-only -> [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). The **rows below** keep **historical seven-letter labels** for workload scope. **Map:** **Statecraft -> current C**; old Daily Brief / Bookshelf self-knowledge quiz / Book / Jiang / Predictive History now require explicit requests unless converted into statecraft instruments; old **Build -> current B**; old **Steward -> current A**; singularity-academy -> **D**. Conductor is standalone only.
+**Canonical Step 2** today: [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md) -> **A-D** (hub only). **Standalone Conductor** is name-only -> [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). The **rows below** keep **historical seven-letter labels** for workload scope. **Map:** **Statecraft -> current C**; old Daily Brief / Bookshelf museum identity knowledge (archive) quiz / Book / Jiang / Predictive History now require explicit requests unless converted into statecraft instruments; old **Build -> current B**; old **Steward -> current A**; singularity-academy -> **D**. Conductor is standalone only.
 
 The **first** coffee reply ends **Step 2** with the fixed menu. **Follow-up behavior (canonical letters):** **A**, **B**, and **D** re-offer the full menu once the branch settles (**A** uses the [steward follow-up fork](#steward-follow-up-fork-implement-now-vs-later); **C** exits to normal workflow by default after the reply). If a standalone Conductor turn was opened, stay on the Conductor track rather than re-offering coffee in the same reply. Wording may vary; **roles must not**.
 
@@ -122,7 +122,7 @@ The **first** coffee reply ends **Step 2** with the fixed menu. **Follow-up beha
 | **B** | **Build** | **work-dev execution + skills/meta** — **not** git/ship ( **E — Steward**, **git/ship** track); **not** Record/template/integrity audits ( **E — integrity/exports** ). **(1) Work-dev** — `docs/skill-work/work-dev/`, [work-dev-sources.md](../work-dev/work-dev-sources.md) spot-check when in scope; **one** implementation next step (specs, integration, tooling). **(2) Skills / meta** — [skills/skill-candidates.md](../../../skills/skill-candidates.md), [extract-skill-from-session](../../../.cursor/skills/extract-skill-from-session/SKILL.md), [portable-skills-sync](../../../.cursor/skills/portable-skills-sync/SKILL.md) when the operator says **skills** / **meta** with **B** or asks after Build. **Pending RECURSION-GATE candidates** are **not** Build — use **E — Steward** (gate). **Not** **G** — **G** is **only** the first open line in [workspace.md](../work-dev/workspace.md) § **Next actions**. Full layer breakdown: [Build (B) — detailed scope](#build-b--detailed-scope). |
 | **C** | **Compass** | Current hub **C** is **Statecraft**: America, China, Persia, or Russia as civilizational-state lanes. Treaty, policy, negotiation, and Richelieu/Bismarck drafting happen after the lane pick. Legacy compass/bridge/current-events work is explicit unless converted into a statecraft lane object or downstream instrument. WORK only; no SELF/EVIDENCE/prompt merge without gate + companion approval. |
 | **D** | **Book** | Legacy work-jiang / Predictive History detail is explicit notebook work unless converted into statecraft output. D in the current hub is **Singularity**, so activate singularity-academy instead: name acceleration, name agent, test alignment, test substrate, test displacement, and produce reuse. |
-| **Conductor** | **Legacy only** | Historical self-knowledge quiz detail. Live coffee hub ends at **D**; Conductor is standalone only.
+| **Conductor** | **Legacy only** | Historical museum identity knowledge (archive) quiz detail. Live coffee hub ends at **D**; Conductor is standalone only.
 | **F** | **Cici next** | **work-cici → one next task** when chosen. Ground in Step 1 **`lane next hints`** from `scripts/coffee_lane_next_hints.py` (also runnable alone). Canonical docs: [INDEX.md](../work-cici/INDEX.md), [SYNC-DAILY.md](../work-cici/SYNC-DAILY.md), [WORK-LEDGER.md](../work-cici/WORK-LEDGER.md), [DAILY-OPS-CARD.md](../work-cici/DAILY-OPS-CARD.md). Deliver **one** prescribed step; expand mirrors / BrewMind / runbooks only if needed for that step. In the canonical menu, this workload is not a coffee-hub choice. **Re-offer** the full menu after the turn unless the operator exits.
 | **G** | **Dev next** | **work-dev → next task only** from [workspace.md](../work-dev/workspace.md) — **Next actions**: the first **open** numbered line (not leading with `~~`). **One** concrete step — **no** default piggyback of a full legacy **B** (Build / work-dev+skills) or **ship** pass. In the canonical menu, this workload is not a coffee-hub choice. **Re-offer** the full menu after the turn unless the operator exits.
 
@@ -150,7 +150,7 @@ When the operator asks for the daily main-stream update, route through the expli
 
 When the operator names one recent event and wants statecraft judgment, do not open a separate `current-event` skill. Verify the event, separate fact from interpretation, classify the crisis object, then route through `state-deploy` or the owning lane and keep any follow-up options calibrated to that event's actors and crisis object. Do not use generic A-D template labels as the option text.
 
-When statecraft drafting is blocked by missing intent, ask one bounded clarifier about the instrument: treaty, policy paper, negotiation brief, or stress test. Do not ask Record/self-knowledge elicitation questions from the coffee hub itself.
+When statecraft drafting is blocked by missing intent, ask one bounded clarifier about the instrument: treaty, policy paper, negotiation brief, or stress test. Do not ask Record/museum identity knowledge (archive) elicitation questions from the coffee hub itself.
 
 <a id="statecraft-intake-closeout"></a>
 
@@ -247,9 +247,9 @@ After **`A — Steward`** (legacy tables below may still say **`B`** or **`E —
 
 ## Companion survey track
 
-**When:** Operator explicitly began with **coffee survey** and then chose **C**, or otherwise asks for survey/self-knowledge elicitation by name. Survey is an explicit override, not the default **C. Statecraft** branch. **Signing-off intent + A** without a sub-track may include survey as the one recommendation.
+**When:** Operator explicitly began with **coffee survey** and then chose **C**, or otherwise asks for survey/museum identity knowledge (archive) elicitation by name. Survey is an explicit override, not the default **C. Statecraft** branch. **Signing-off intent + A** without a sub-track may include survey as the one recommendation.
 
-**Goal:** Refresh **self-curiosity (IX-B)** and **self-personality (IX-C)** on a **cadence** (typical: **monthly micro** 3–5 questions, or **quarterly** longer refinement), without bypassing the gated pipeline.
+**Goal:** Refresh **self-curiosity (museum knowledge section B)** and **self-personality (museum knowledge section C)** on a **cadence** (typical: **monthly micro** 3–5 questions, or **quarterly** longer refinement), without bypassing the gated pipeline.
 
 **Operator / agent actions (read-only unless operator switches to ship):**
 

@@ -94,4 +94,4 @@ The claim is useful as imagination fuel or a weak signal, but not as evidence.
 5. All public-facing claims require stronger evidence than internal watch notes.
 6. If source quality is ambiguous, classify downward.
 7. If the claim is exciting but weakly sourced, create a hype / contradiction flag.
-8. If the claim would alter SELF, SELF-LIBRARY, SKILLS, or EVIDENCE, stage it separately through gate review.
+8. If the claim would alter SELF, removed operator-books symlink, SKILLS, or EVIDENCE, stage it separately through gate review.

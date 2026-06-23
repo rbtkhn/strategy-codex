@@ -11,9 +11,9 @@
 | Deliverable | Status | Description |
 |-------------|--------|-------------|
 | **Lesson prompt generator** | Done | `scripts/generate_lesson_prompt.py` — reads SELF, skill-think, skill-work; outputs one-prompt-per-day. |
-| **Minimal prompt shape** | Done | §3 of [work-lesson-generation-walkthrough](../work-lesson-generation-walkthrough.md): role, who she is, IX-A, IX-B, edge, today's goals, rules. |
+| **Minimal prompt shape** | Done | §3 of [work-lesson-generation-walkthrough](../work-lesson-generation-walkthrough.md): role, who she is, museum knowledge section A, museum knowledge section B, edge, today's goals, rules. |
 | **Sample prompt** | Done | [sample-lesson-prompt-grace-mar.txt](../sample-lesson-prompt-grace-mar.txt) — curated demo. Regenerate with generator. |
-| **Walkthrough** | Done | [work-lesson-generation-walkthrough](../work-lesson-generation-walkthrough.md) — flow, examples A–D, IX-A/B/C usage. |
+| **Walkthrough** | Done | [work-lesson-generation-walkthrough](../work-lesson-generation-walkthrough.md) — flow, examples A–D, museum knowledge section A/B/C usage. |
 
 **Usage:** `python scripts/generate_lesson_prompt.py -u grace-mar -n Robert -o lesson.txt` — run once per day; regenerate after "we did X" merges.
 

@@ -16,13 +16,13 @@ provenance:
   sources:
     - "[source URL or repo path]"
 target_surfaces:
-  - "IX-B curiosity"
+  - "museum knowledge section B curiosity"
   - "SKILLS archive/placeholders/evidence"
-  - "SELF-LIBRARY reference"
+  - "removed operator-books symlink reference"
 status: "pending human review"
 ```
 
-## Proposed IX-B Curiosity Candidate
+## Proposed museum knowledge section B Curiosity Candidate
 
 - New or strengthened curiosity pattern:
   - [pattern]
@@ -40,7 +40,7 @@ status: "pending human review"
 - Boundary:
   - This does not mean upstream skill text is part of SELF.
 
-## Proposed SELF-LIBRARY Reference Candidate
+## Proposed removed operator-books symlink Reference Candidate
 
 - Reference:
   - [repo, paper, run artifact, or Agent-Native Research Artifact]

@@ -4,7 +4,7 @@ These templates support faster, more consistent **operator capture** in Grace-Ma
 
 ## What they are not
 
-- **Not** canonical Record surfaces. They do **not** update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE directly.
+- **Not** canonical Record surfaces. They do **not** update SELF, removed operator-books symlink, SKILLS, or EVIDENCE directly.
 - **Not** a substitute for the Approval Inbox — candidate drafts are **pre-gate** thinking aids only.
 
 ## Scripts

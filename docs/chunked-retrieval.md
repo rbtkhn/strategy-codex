@@ -8,7 +8,7 @@ A chunk generation script (`scripts/runtime/generate_chunks.py`) that splits lar
 
 ## What it is NOT
 
-- **Not Record.** Does not touch SELF, EVIDENCE, SKILLS, SELF-LIBRARY, or `recursion-gate.md`.
+- **Not Record.** Does not touch SELF, EVIDENCE, SKILLS, removed operator-books symlink, or `recursion-gate.md`.
 - **Not promotion logic.** Does not stage candidates, auto-merge, or mutate canonical surfaces.
 - **Not a replacement** for source files — chunks are derived retrieval aids, rebuildable at any time.
 - **Not a vector database.** No embedding model, no vector store, no external indexing service.

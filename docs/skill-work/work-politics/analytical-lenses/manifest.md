@@ -1,6 +1,6 @@
 # Analytical lenses manifest — work-politics (WORK only)
 
-**Status:** Operator methodology. **Not** part of SELF, SELF-LIBRARY identity, or Voice unless the companion explicitly approves merges through RECURSION-GATE.
+**Status:** Operator methodology. **Not** part of SELF, removed operator-books symlink identity, or Voice unless the companion explicitly approves merges through RECURSION-GATE.
 
 **Purpose:** Triangulated read-only **editorial lenses** for current-events and brief work. They enrich perspective; they do not replace human strategy, compliance review, or final approval for anything public-facing.
 
@@ -41,7 +41,7 @@ Lens labels reference **well-known analytical styles** for operator clarity only
 
 ## Optional Record pointer (`skills.md`)
 
-If the companion wants a **capability note** linking to this methodology, add it via **RECURSION-GATE** (stage → approve → `process_approved_candidates.py`). Do **not** edit `skills.md` directly without that path. A pending work-politics candidate may exist for a minimal IX-A WORK line + audit; a dedicated skills claim would require a candidate shaped for whatever the merge script supports (today: primarily SELF IX / prompt / EVIDENCE).
+If the companion wants a **capability note** linking to this methodology, add it via **RECURSION-GATE** (stage → approve → `process_approved_candidates.py`). Do **not** edit `skills.md` directly without that path. A pending work-politics candidate may exist for a minimal museum knowledge section A WORK line + audit; a dedicated skills claim would require a candidate shaped for whatever the merge script supports (today: primarily SELF IX / prompt / EVIDENCE).
 
 ---
 

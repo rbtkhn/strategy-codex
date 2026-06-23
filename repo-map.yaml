@@ -329,36 +329,43 @@ routes:
   - civ transcript floor
   - commentary canvas order
   category: work
-- id: self-library
-  title: SELF-LIBRARY
-  path: archive/grace-mar-instance/self-library.md
-  kind: canonical_reference
-  authority: canonical_self_library
+- id: memory
+  title: Operator continuity buffer
+  path: memory.md
+  kind: work_continuity
+  authority: work_only
   tags:
-  - self-library
-  - library
-  - reference
-  - canon
-  - books
+  - memory
+  - continuity
   search_hints:
-  - self library
-  - library index
-  - books canon
+  - session continuity
+  - operator memory buffer
+  category: work
+- id: grace-mar-self-library
+  title: Museum self-library (archive)
+  path: archive/grace-mar-instance/self-library.md
+  kind: museum_reference
+  authority: archive
+  tags:
+  - museum
+  - library
+  - archive
+  search_hints:
+  - grace mar library
+  - museum books index
   category: archive
-- id: library-index
-  title: Library index dashboard
+- id: library-index-retired
+  title: Library index (retired stub)
   path: runtime/artifacts/library-index.md
   kind: generated_dashboard
   authority: derived
-  canonical_source: archive/grace-mar-instance/self-library.md
+  canonical_source: codex/README.md
   tags:
   - generated
   - dashboard
-  - library-index
-  - self-library
+  - retired
   search_hints:
-  - library dashboard
-  - generated library index
+  - operator books misc homes
   category: generated
 - id: record-vector-index-script
   title: Record vector index builder

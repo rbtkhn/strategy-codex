@@ -19,7 +19,7 @@ Edit only the JSON block below. Keep the rest of this file stable so `prepare.py
     "mind_category": "knowledge",
     "signal_type": "auto_research_proposal",
     "priority_score": 3,
-    "profile_target": "IX-A. KNOWLEDGE",
+    "profile_target": "museum knowledge section A. KNOWLEDGE",
     "suggested_entry": "A grounded candidate should carry explicit source exchange, a concise summary, and a reviewable suggested entry.",
     "prompt_section": "YOUR KNOWLEDGE",
     "prompt_addition": "You only learn new things when they are grounded, reviewed, and merged through the gate.",

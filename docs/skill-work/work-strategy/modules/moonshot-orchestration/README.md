@@ -25,7 +25,7 @@ Examples may include:
 - recursive self-improvement infrastructure
 - abundance engineering
 - civilization-scale scientific or economic projects
-- personal cognitive fork scaling pathways
+- personal interpretive machine scaling pathways
 
 Mentioning a moonshot here does not imply endorsement, feasibility, capability, or authorization.
 
@@ -49,7 +49,7 @@ This module belongs under `work-strategy` because moonshot assessment is a form 
 2. canonical skill creation
 3. autonomous external execution
 4. unsupported capability claims
-5. unreviewed promotion into SELF, SELF-LIBRARY, SKILLS, or EVIDENCE
+5. unreviewed promotion into SELF, removed operator-books symlink, SKILLS, or EVIDENCE
 
 ## Relationship to runtime complements
 
@@ -104,7 +104,7 @@ The module exists to make Grace-Mar better at asking:
 - Is this moonshot real, speculative, or mostly narrative?
 - What evidence tier supports it?
 - What would a sane small experiment look like?
-- Which part belongs in strategy, work-dev, CIV-MEM, SELF-LIBRARY, or nowhere?
+- Which part belongs in strategy, work-dev, CIV-MEM, removed operator-books symlink, or nowhere?
 - What would prove this deserves more attention?
 - What would falsify it?
 - What can the operator safely do next?

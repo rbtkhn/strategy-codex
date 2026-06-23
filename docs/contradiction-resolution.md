@@ -47,7 +47,7 @@ superseded_entry:
 
 ## Conflict Detection (instance option)
 
-Before merge, an instance may run an **advisory** conflict check: compare staged content to existing Record (e.g. IX-A, IX-B, IX-C). Surface for resolution; **do not block staging** unless instance policy explicitly requires it. The companion still decides at the gate.
+Before merge, an instance may run an **advisory** conflict check: compare staged content to existing Record (e.g. museum knowledge section A, museum knowledge section B, museum knowledge section C). Surface for resolution; **do not block staging** unless instance policy explicitly requires it. The companion still decides at the gate.
 
 Reference implementation: Grace-Mar `archive/grace-mar-instance/bot/conflict_check.py` + `archive/grace-mar-instance/bot/conflict_rules.yaml`.
 

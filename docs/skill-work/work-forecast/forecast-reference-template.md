@@ -59,4 +59,4 @@ This template is not for:
 - [ ] no action yet
 
 **Boundary note:**  
-This forecast artifact is a WORK-layer planning object. It does not update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE directly.
+This forecast artifact is a WORK-layer planning object. It does not update SELF, removed operator-books symlink, SKILLS, or EVIDENCE directly.

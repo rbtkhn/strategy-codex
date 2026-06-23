@@ -7,7 +7,7 @@
 | **Locals — VivaBarnesLaw** | Forum posts (e.g. [vivabarneslaw.beta.locals.com](https://vivabarneslaw.beta.locals.com/)); **Grace‑Mar** house style for this surface (see [grace-mar-locals-voice.md](grace-mar-locals-voice.md)), liability-adjacent framing when useful. |
 | **Locals — Duran** | **Recorded:** **Same defaults as VivaBarnes** (same **Grace‑Mar** Locals voice) unless you override. **Intent:** over time, develop **one distinct style** tuned for **both** communities (not two permanently separate personas). |
 | **X** | Short posts / threads; topic-first and density per [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc). |
-| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **LIB-0151** — not the **LIB-0149** operator book; see [self-library-operator-books](../../.cursor/rules/self-library-operator-books.mdc) if ambiguous). |
+| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)** — not the **predictive-history (`codex/predictive-history/`)** operator book; see [self-library-operator-books](../../.cursor/rules/self-library-operator-books.mdc) if ambiguous). |
 
 **Scope (recorded):** **All public operator writing** is in scope **unless** you exclude a surface or class by name. **First-class workflow:** **Locals first** (VivaBarnes / Duran), then **X** and **Predictive History comments** as **shortened or derived follow-ons** unless you direct otherwise.
 
@@ -25,7 +25,7 @@
 
 ### Visibility (recorded)
 
-**`docs/skill-write/`** is **operator- and agent-facing** only — **no** companion-facing pointer in **SELF-LIBRARY** or similar unless you **explicitly** add one later.
+**`docs/skill-write/`** is **operator- and agent-facing** only — **no** companion-facing pointer in **removed operator-books symlink** or similar unless you **explicitly** add one later.
 
 ### Recorded design (2026-04-11)
 
@@ -42,7 +42,7 @@ Snapshot from operator Q&A; revise this table if decisions change.
 | 7 | **A** — VivaBarnes + Duran **same defaults**; evolve **one** style optimized for **both** over time. |
 | 8 | **B** — PH comments: **top-level**; **short paragraph** OK. |
 | 9 | **B** — On rule changes: update **`docs/skill-write/`** and **`.cursor/rules/`** in **lockstep**. |
-| 10 | **A** — **No** companion-facing SELF-LIBRARY pointer (unless you add later). |
+| 10 | **A** — **No** companion-facing removed operator-books symlink pointer (unless you add later). |
 | 11 | **A** — **Chat delivery:** Paste-ready operator copy is echoed **in the Cursor thread** (full text); on-disk writes are **audit trail**, not a substitute for clipboard. |
 | 12 | **A** — **PH YouTube virality:** optimize for curious lurkers via one tailored, quietly useful top-level comment with an exact chapter-folder link and a paste-into-LLM action. |
 

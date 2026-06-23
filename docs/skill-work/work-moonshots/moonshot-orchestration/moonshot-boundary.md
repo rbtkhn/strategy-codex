@@ -4,7 +4,7 @@
 
 ## Immutable boundaries
 
-- This module **never** auto-writes to **SELF**, **SELF-LIBRARY**, **SKILLS**, or **EVIDENCE**.  
+- This module **never** auto-writes to **SELF**, **removed operator-books symlink**, **SKILLS**, or **EVIDENCE**.  
 - This module **never** **merge**-authorizes; only **inbox** + **human** + [recursion-gate](../../../../recursion-gate.md) per [AGENTS.md](../../../../AGENTS.md).  
 - **No** Merkle or cryptographic â€œproof of contributionâ€ â€” auditability is **provenance + markdown**, not hash theatrics.  
 - **No** affiliation claims with external orgs, prizes, or programs unless **evidenced** and **gated** like any other serious claim.  
@@ -22,7 +22,7 @@
 
 ## Record promotion rule
 
-- **SELF-LIBRARY**, **SKILLS**, and **EVIDENCE** updates are **candidates** only until **companion** + pipeline approval. **Orchestration** output is **not** a merge ticket by itself.
+- **removed operator-books symlink**, **SKILLS**, and **EVIDENCE** updates are **candidates** only until **companion** + pipeline approval. **Orchestration** output is **not** a merge ticket by itself.
 
 ## Hype-control rule
 
@@ -45,5 +45,5 @@
 - **WORK** may **not** **claim** capability without **evidence** matching the claim tier.  
 - **WORK** may **not** **autonomously** join **external** infrastructure.  
 - **Tier 3** or **Tier 4** **inspiration** cannot **justify** **execution** without **stronger** evidence.  
-- **Any** **candidate** update to **SELF-LIBRARY**, **SKILLS**, or **EVIDENCE** must be **separately** **staged** through **gate** review.
+- **Any** **candidate** update to **removed operator-books symlink**, **SKILLS**, or **EVIDENCE** must be **separately** **staged** through **gate** review.
 

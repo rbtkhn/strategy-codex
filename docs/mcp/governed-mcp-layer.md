@@ -49,7 +49,7 @@ Illustrative capability **classes** live in [`platform/config/mcp-capabilities.y
 |--------|-----------------|------------|
 | Browse repo / docs | Read-only paths, export views | Writing into `self.md` without gate |
 | SCM | Read issues/PRs; draft branches as **proposals** | Merge to default branch as Record truth |
-| Web | Fetch/summarize with citations | Treating fetched text as merged IX-A |
+| Web | Fetch/summarize with citations | Treating fetched text as merged museum knowledge section A |
 | Shell | **Policy default:** not enabled for governed MCP (`shell_execution_prohibited` class) | Arbitrary subprocess on operator machine |
 | External memory | Policy class rejects silent sync | Implying retrieval = gate approval |
 

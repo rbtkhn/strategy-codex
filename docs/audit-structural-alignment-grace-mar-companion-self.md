@@ -2,13 +2,13 @@
 
 **Purpose:** Compare **structure** (paths, repos) and **formatting** (terminology, capitalization, naming) across the **grace-mar** instance and the **companion-self** template. **Normative boundaries:** [audit-boundary-grace-mar-companion-self.md](audit-boundary-grace-mar-companion-self.md). **Governed by:** [glossary.md](glossary.md), [canonical-paths.md](canonical-paths.md), [id-taxonomy.md](id-taxonomy.md), [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md).
 
-**Scope:** Layout expectations, canonical filenames, hyphenated system names, **SELF-LIBRARY** merge policy, and **Record** boundaries. Not a security or UX audit.
+**Scope:** Layout expectations, canonical filenames, hyphenated system names, **removed operator-books symlink** merge policy, and **Record** boundaries. Not a security or UX audit.
 
 **Status key:** âœ… aligned Â· âš ï¸ partial / drift risk Â· ðŸ”² not yet done
 
 **As of:** 2026-03-27 (updated: additional instances are **not** hosted in this repo).
 
-**companion-self baseline:** [`main` @ `288b438`](https://github.com/rbtkhn/companion-self/commit/288b4386684e076df894536624308e69305ae229) â€” SELF-LIBRARY template governance (see [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md), [COMPANION-SELF-SELF-LIBRARY-ALIGNMENT](skill-work/work-companion-self/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md)).
+**companion-self baseline:** [`main` @ `288b438`](https://github.com/rbtkhn/companion-self/commit/288b4386684e076df894536624308e69305ae229) â€” removed operator-books symlink template governance (see [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md), [COMPANION-SELF-museum library shelf-ALIGNMENT](skill-work/work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md)).
 
 ---
 
@@ -47,8 +47,8 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 |------|-----------|----------------|
 | **companion-self** (hyphenated) | [AGENTS.md](../AGENTS.md), [glossary.md](glossary.md) | System/repo name |
 | **companion self** (two words) | Conceptual dyad only | Same |
-| **self-*** labels ([id-taxonomy.md](id-taxonomy.md#capitalization-and-format)) | **self-knowledge**, **self-library**, â€¦ | Template + docs should match |
-| **SELF-KNOWLEDGE** / **SELF-LIBRARY** (formal surfaces) | Boundary docs | IFP + template |
+| **self-*** labels ([id-taxonomy.md](id-taxonomy.md#capitalization-and-format)) | **museum identity knowledge (archive)**, **self-library**, â€¦ | Template + docs should match |
+| **museum knowledge** / **removed operator-books symlink** (formal surfaces) | Boundary docs | IFP + template |
 
 **Verdict (formatting):** Rules are **centralized** in glossary + id-taxonomy.
 
@@ -64,7 +64,7 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 
 ---
 
-## 5. SELF-LIBRARY check
+## 5. removed operator-books symlink check
 
 | Check | Status |
 |-------|--------|
@@ -90,7 +90,7 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 | Dimension | Result |
 |-----------|--------|
 | **Canonical paths** | âœ… Aligned naming; sync via [MERGING-FROM](merging-from-companion-self.md) |
-| **SELF-LIBRARY (governance)** | âœ… Template updated on `main` (`288b438`); grace-mar retains **live** LIB rows |
+| **removed operator-books symlink (governance)** | âœ… Template updated on `main` (`288b438`); grace-mar retains **live** LIB rows |
 | **Terminology** | âœ… Glossary + id-taxonomy |
 | **Upstream** | grace-mar pulls template per merge doc; [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md) pins companion-self **commit** for governance merges |
 

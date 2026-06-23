@@ -1,6 +1,6 @@
 ﻿# work-companion-self-history â€” operator log
 
-> **Append-only** log for the **work-companion-self** territory (template sync, audit manifest, grace-mar âŸ· companion-self reconciliation). **Not** Record truth; **not** companion [self-memory](../../../self-memory.md). **Rotatable.**
+> **Append-only** log for the **work-companion-self** territory (template sync, audit manifest, grace-mar âŸ· companion-self reconciliation). **Not** Record truth; **not** companion [memory](../../../memory.md). **Rotatable.**
 
 **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane milestones:** this file â€” see [work-modules-history-principle.md](../work-modules-history-principle.md).
 

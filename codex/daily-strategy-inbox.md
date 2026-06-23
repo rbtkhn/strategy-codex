@@ -755,7 +755,7 @@ Islamabad and **Hormuz** coverage this week is carrying **three** **audience** s
 
 ### Strategy ingest â€” work-jiang PH Volume VI (2026-04-14)
 
-**Corpus:** [LIB-0149](../../../../self-library.md#operator-analytical-books) â€” curated lectures + analysis memos under `codex/predictive-history/` (`vi-14`, `vi-15`).
+**Corpus:** [predictive-history (`codex/predictive-history/`)](../../../../self-library.md#operator-analytical-books) â€” curated lectures + analysis memos under `codex/predictive-history/` (`vi-14`, `vi-15`).
 
 `YT | cold: Jiang Ã— Glenn Diesen â€” Iran war as petrodollar / Treasury stress / Hormuzâ€“Malacca chokepoint story; Islamabad 10-point frame vs US walk-away; maritime â€œtollâ€ extraction // hook: **vi-14** for Â§1c Jiang layer + Islamabad / energy spine; cite lecture not headlines | https://www.youtube.com/watch?v=P_DHMUdOVdo | verify:work-jiang-vi-14+../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md | thread:diesen`
 
@@ -765,7 +765,7 @@ Islamabad and **Hormuz** coverage this week is carrying **three** **audience** s
 
 ### Strategy ingest â€” work-jiang PH Volume IV (2026-04-28)
 
-**Corpus:** [LIB-0149](../../../../self-library.md#operator-analytical-books) â€” **`gt-21`** transcript + analysis stub under `codex/predictive-history/`.
+**Corpus:** [predictive-history (`codex/predictive-history/`)](../../../../self-library.md#operator-analytical-books) â€” **`gt-21`** transcript + analysis stub under `codex/predictive-history/`.
 
 `YT | cold: Jiang â€” Game Theory #21 *World War Trump* â€” Iran-war / Islamabad ceiling vs US â€œempire maintenanceâ€ frame; chokepoints (Hormuz, Malacca, Panama, Gibraltar); Jan 2026 strategy-doc read-through; wartime economy / draft overlay // hook: **gt-21** for Â§1c Jiang layer + Hormuzâ€“Islamabad continuity; cite transcript not headlines | https://www.youtube.com/watch?v=Ts-AA6LQf6I | verify:work-jiang-gt-21+../../../codex/predictive-history/lectures/game-theory-21-world-war-trump.md | thread:jiang`
 

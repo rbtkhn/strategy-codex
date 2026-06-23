@@ -21,7 +21,7 @@
       "type": "string",
       "enum": ["pending_review", "resolved", "deferred", "superseded"]
     },
-    "profile_target": { "type": "string", "description": "e.g. IX-A, IX-B, IX-C, SKILLS" },
+    "profile_target": { "type": "string", "description": "e.g. museum knowledge section A, museum knowledge section B, museum knowledge section C, SKILLS" },
     "mind_category": { "type": "string" },
     "existing_entry_id": { "type": "string" },
     "existing_claim_text": { "type": "string" },

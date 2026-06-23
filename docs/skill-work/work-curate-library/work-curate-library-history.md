@@ -1,6 +1,6 @@
 ﻿# work-curate-library-history â€” operator log
 
-> **Append-only** log for the **work-curate-library** territory (self-library curation, canon returns, LIBRARY_LOOKUP-facing work). **Not** Record truth until gated; **not** [self-memory](../../../self-memory.md) substitute. **Rotatable.**
+> **Append-only** log for the **work-curate-library** territory (self-library curation, canon returns, LIBRARY_LOOKUP-facing work). **Not** Record truth until gated; **not** [memory](../../../memory.md) substitute. **Rotatable.**
 
 **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane milestones:** this file â€” see [work-modules-history-principle.md](../work-modules-history-principle.md).
 

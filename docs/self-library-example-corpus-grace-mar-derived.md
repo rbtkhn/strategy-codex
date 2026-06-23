@@ -20,7 +20,7 @@ Governanced by the instance. Use: lookup from these sources when answering; do n
 
 ```yaml
 entries:
-  - id: LIB-0004
+  - id: 
     title: "Greek Myths (Bulfinch, PG 22381)"
     author: "Usborne"
     isbn: "9781474986441"
@@ -32,9 +32,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/22381"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0064 to LIB-0077 (Bulfinch 3327, Odyssey 1727)."
+    notes: "Replaced by story-level entries  to  (Bulfinch 3327, Odyssey 1727)."
 
-  - id: LIB-0005
+  - id: 
     title: "The Odyssey (Homer, PG 1727)"
     author: "Usborne"
     isbn: "9781409598930"
@@ -48,7 +48,7 @@ entries:
     added_at: 2026-02-20
     notes: "Ordered Sept 2025."
 
-  - id: LIB-0006
+  - id: 
     title: "Stories from India (PG 2388)"
     author: "Usborne"
     isbn: "9781409596714"
@@ -60,9 +60,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/2388"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entry LIB-0078 (PD 2388)."
+    notes: "Replaced by story-level entry  (PD 2388)."
 
-  - id: LIB-0007
+  - id: 
     title: "Adventure classics (PG 521, 120, 829)"
     author: "Usborne"
     isbn: "9781409522300"
@@ -74,9 +74,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/1184"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0079 to LIB-0081 (PD 521, 120, 829)."
+    notes: "Replaced by story-level entries  to  (PD 521, 120, 829)."
 
-  - id: LIB-0008
+  - id: 
     title: "Bible stories (KJV, PG 10)"
     author: "Usborne"
     isbn: "9781409580980"
@@ -88,9 +88,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0082 to LIB-0088 (KJV 10)."
+    notes: "Replaced by story-level entries  to  (KJV 10)."
 
-  - id: LIB-0009
+  - id: 
     title: "Stories from China (PG 25240)"
     author: "Usborne"
     isbn: "9781474947077"
@@ -102,9 +102,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/25240"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entry LIB-0089 (PD 25240)."
+    notes: "Replaced by story-level entry  (PD 25240)."
 
-  - id: LIB-0010
+  - id: 
     title: "Myths from around the world (Bulfinch, PG 3327)"
     author: "Usborne"
     isbn: "9781409596738"
@@ -116,9 +116,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0064 to LIB-0077 (Greek/Roman in 3327)."
+    notes: "Replaced by story-level entries  to  (Greek/Roman in 3327)."
 
-  - id: LIB-0011
+  - id: 
     title: "Ballet stories (PG 38733)"
     author: "Usborne"
     isbn: "9781474922050"
@@ -130,9 +130,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/38733"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0052 to LIB-0063. Ordered Sept 2025."
+    notes: "Replaced by story-level entries  to . Ordered Sept 2025."
 
-  - id: LIB-0012
+  - id: 
     title: "The Secret Garden (PG 17396)"
     author: "Usborne"
     isbn: "9781409586562"
@@ -144,9 +144,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/17396"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entry LIB-0090 (Secret Garden 17396)."
+    notes: "Replaced by story-level entry  (Secret Garden 17396)."
 
-  - id: LIB-0013
+  - id: 
     title: "Aesop's Fables (PG 21)"
     author: "Usborne"
     isbn: "9781409538875"
@@ -158,9 +158,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/21"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0091 to LIB-0095 (Aesop 21)."
+    notes: "Replaced by story-level entries  to  (Aesop 21)."
 
-  - id: LIB-0014
+  - id: 
     title: "Greek myths (PG 11582)"
     author: "Usborne"
     isbn: "9781409531678"
@@ -172,9 +172,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/11582"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0064 to LIB-0076 (Bulfinch 3327)."
+    notes: "Replaced by story-level entries  to  (Bulfinch 3327)."
 
-  - id: LIB-0015
+  - id: 
     title: "Norse myths (Guerber, PG 28497)"
     author: "Usborne"
     isbn: "9781409550723"
@@ -186,9 +186,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/28497"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0096 to LIB-0100 (Guerber 28497)."
+    notes: "Replaced by story-level entries  to  (Guerber 28497)."
 
-  - id: LIB-0016
+  - id: 
     title: "Andersen's Fairy Tales (PG 27200)"
     author: "Usborne"
     isbn: "9781409523390"
@@ -200,9 +200,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/27200"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0040 to LIB-0051. Ordered Sept 2025."
+    notes: "Replaced by story-level entries  to . Ordered Sept 2025."
 
-  - id: LIB-0017
+  - id: 
     title: "King Arthur (Malory, PG 610)"
     author: "Usborne"
     isbn: "9781409563266"
@@ -214,9 +214,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/610"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entry LIB-0101 (Malory 610)."
+    notes: "Replaced by story-level entry  (Malory 610)."
 
-  - id: LIB-0018
+  - id: 
     title: "Stories from Shakespeare (PG 100)"
     author: "Usborne"
     isbn: "9781409522232"
@@ -228,9 +228,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0102 to LIB-0114 (Complete Works 100)."
+    notes: "Replaced by story-level entries  to  (Complete Works 100)."
 
-  - id: LIB-0019
+  - id: 
     title: "Grimm's Fairy Tales (PG 2591)"
     author: "Usborne"
     isbn: "9780746098547"
@@ -242,9 +242,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/2591"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0025 to LIB-0039. Ordered Sept 2025."
+    notes: "Replaced by story-level entries  to . Ordered Sept 2025."
 
-  - id: LIB-0020
+  - id: 
     title: "Dickens (PG author 37)"
     author: "Usborne"
     isbn: "9781474938136"
@@ -256,9 +256,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/author/37"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0115 to LIB-0120 (per-novel PD links)."
+    notes: "Replaced by story-level entries  to  (per-novel PD links)."
 
-  - id: LIB-0021
+  - id: 
     title: "Arabian Nights (Lang, PG 128)"
     author: "Anna Milbourne"
     isbn: "9781409533009"
@@ -270,9 +270,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/128"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0121 to LIB-0125 (Lang 128)."
+    notes: "Replaced by story-level entries  to  (Lang 128)."
 
-  - id: LIB-0022
+  - id: 
     title: "Shakespeare, Complete Works (PG 100)"
     author: "Usborne"
     isbn: "9781409598770"
@@ -284,9 +284,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0102 to LIB-0114 (Complete Works 100)."
+    notes: "Replaced by story-level entries  to  (Complete Works 100)."
 
-  - id: LIB-0023
+  - id: 
     title: "Jane Austen (PG author 68)"
     author: "Usborne"
     isbn: "9781474938143"
@@ -298,9 +298,9 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/author/68"
     source: manual
     added_at: 2026-02-20
-    notes: "Replaced by story-level entries LIB-0126 to LIB-0131 (per-novel PD links)."
+    notes: "Replaced by story-level entries  to  (per-novel PD links)."
 
-  - id: LIB-0025
+  - id: 
     title: "Snow White and Rose Red"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -312,7 +312,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0026
+  - id: 
     title: "Little Red Riding Hood"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -324,7 +324,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0027
+  - id: 
     title: "Rapunzel"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -336,7 +336,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0028
+  - id: 
     title: "Sleeping Beauty"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -348,7 +348,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0029
+  - id: 
     title: "The Frog Prince"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -360,7 +360,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0030
+  - id: 
     title: "The Musicians of Bremen"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -372,7 +372,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0031
+  - id: 
     title: "Rumpelstiltskin"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -384,7 +384,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0032
+  - id: 
     title: "Tom Thumb"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -396,7 +396,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0033
+  - id: 
     title: "Hansel and Gretel"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -408,7 +408,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0034
+  - id: 
     title: "The Twelve Dancing Princesses"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -420,7 +420,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0035
+  - id: 
     title: "The Bear and the Wren"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -432,7 +432,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0036
+  - id: 
     title: "King Thrushbeard"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -444,7 +444,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0037
+  - id: 
     title: "The Goose Girl"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -456,7 +456,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0038
+  - id: 
     title: "The Elves and the Shoemaker"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -468,7 +468,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0039
+  - id: 
     title: "Snow White and the Seven Dwarfs"
     type: story
     volume: "Grimm's Fairy Tales (PG 2591)"
@@ -480,7 +480,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0040
+  - id: 
     title: "The Princess and the Pea"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -492,7 +492,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0041
+  - id: 
     title: "The Emperor's New Clothes"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -504,7 +504,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0042
+  - id: 
     title: "Thumbelina"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -516,7 +516,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0043
+  - id: 
     title: "The Ugly Duckling"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -528,7 +528,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0044
+  - id: 
     title: "The Little Mermaid"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -540,7 +540,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0045
+  - id: 
     title: "The Emperor and the Nightingale"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -552,7 +552,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0046
+  - id: 
     title: "The Flying Trunk"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -564,7 +564,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0047
+  - id: 
     title: "The Brave Tin Soldier"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -576,7 +576,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0048
+  - id: 
     title: "The Wild Swans"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -588,7 +588,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0049
+  - id: 
     title: "The Little Fir Tree"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -600,7 +600,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0050
+  - id: 
     title: "The Tinderbox"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -612,7 +612,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0051
+  - id: 
     title: "The Snow Queen"
     type: story
     volume: "Andersen's Fairy Tales (PG 27200)"
@@ -624,7 +624,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0052
+  - id: 
     title: "Cinderella"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -636,7 +636,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0053
+  - id: 
     title: "Swan Lake"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -648,7 +648,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0054
+  - id: 
     title: "Sleeping Beauty"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -660,7 +660,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0055
+  - id: 
     title: "Don Quixote"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -672,7 +672,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0056
+  - id: 
     title: "Coppélia"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -684,7 +684,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0057
+  - id: 
     title: "The Nutcracker"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -696,7 +696,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0058
+  - id: 
     title: "The Firebird"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -708,7 +708,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0059
+  - id: 
     title: "Giselle"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -720,7 +720,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0060
+  - id: 
     title: "Ondine"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -732,7 +732,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0061
+  - id: 
     title: "La Sylphide"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -744,7 +744,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0062
+  - id: 
     title: "La Fille Mal Gardée"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -756,7 +756,7 @@ entries:
     source: manual
     added_at: 2026-02-22
 
-  - id: LIB-0063
+  - id: 
     title: "Romeo and Juliet"
     type: story
     volume: "Ballet stories (PG 38733)"
@@ -769,7 +769,7 @@ entries:
     added_at: 2026-02-22
 
   # --- Greek myths (Bulfinch 3327) ---
-  - id: LIB-0064
+  - id: 
     title: "Prometheus and Pandora"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -780,7 +780,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0065
+  - id: 
     title: "Apollo and Daphne"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -791,7 +791,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0066
+  - id: 
     title: "Phaeton"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -802,7 +802,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0067
+  - id: 
     title: "Midas, Baucis and Philemon"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -813,7 +813,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0068
+  - id: 
     title: "Proserpine (Persephone)"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -824,7 +824,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0069
+  - id: 
     title: "Pygmalion and Dryope"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -835,7 +835,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0070
+  - id: 
     title: "Cupid and Psyche"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -846,7 +846,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0071
+  - id: 
     title: "Cadmus and the Myrmidons"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -857,7 +857,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0072
+  - id: 
     title: "Minerva and Arachne, Niobe"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -868,7 +868,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0073
+  - id: 
     title: "Perseus and Medusa"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -879,7 +879,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0074
+  - id: 
     title: "The Golden Fleece and Medea"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -890,7 +890,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0075
+  - id: 
     title: "Hercules"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -901,7 +901,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0076
+  - id: 
     title: "Theseus and the Minotaur"
     type: story
     volume: "Greek myths (Bulfinch, PG 3327)"
@@ -912,7 +912,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/3327"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0077
+  - id: 
     title: "The Odyssey"
     type: story
     volume: "Homer, Odyssey (PG 1727)"
@@ -924,7 +924,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Stories from India (PD 2388) ---
-  - id: LIB-0078
+  - id: 
     title: "Stories from India (collection)"
     type: story
     volume: "Stories from India (PG 2388)"
@@ -936,7 +936,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Adventure (PD 521, 120, 829) ---
-  - id: LIB-0079
+  - id: 
     title: "Robinson Crusoe"
     type: story
     volume: "Adventure classics (PG 521, 120, 829)"
@@ -947,7 +947,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/521"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0080
+  - id: 
     title: "Treasure Island"
     type: story
     volume: "Adventure classics (PG 521, 120, 829)"
@@ -958,7 +958,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/120"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0081
+  - id: 
     title: "Gulliver's Travels"
     type: story
     volume: "Adventure classics (PG 521, 120, 829)"
@@ -970,7 +970,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Bible stories (KJV 10) ---
-  - id: LIB-0082
+  - id: 
     title: "Creation and Eden"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -981,7 +981,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0083
+  - id: 
     title: "Noah and the Flood"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -992,7 +992,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0084
+  - id: 
     title: "Abraham and Isaac"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -1003,7 +1003,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0085
+  - id: 
     title: "Moses and the Exodus"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -1014,7 +1014,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0086
+  - id: 
     title: "David and Goliath"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -1025,7 +1025,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0087
+  - id: 
     title: "Daniel in the Lions' Den"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -1036,7 +1036,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/10"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0088
+  - id: 
     title: "The Nativity"
     type: story
     volume: "Bible, KJV (PG 10)"
@@ -1048,7 +1048,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Stories from China (PD 25240) ---
-  - id: LIB-0089
+  - id: 
     title: "Stories from China (collection)"
     type: story
     volume: "Stories from China (PG 25240)"
@@ -1060,7 +1060,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Secret Garden ---
-  - id: LIB-0090
+  - id: 
     title: "The Secret Garden"
     type: story
     volume: "The Secret Garden (PG 17396)"
@@ -1072,7 +1072,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Aesop fables (PD 21) ---
-  - id: LIB-0091
+  - id: 
     title: "The Lion and the Mouse"
     type: story
     volume: "Aesop's Fables (PG 21)"
@@ -1083,7 +1083,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/21"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0092
+  - id: 
     title: "The Hare and the Tortoise"
     type: story
     volume: "Aesop's Fables (PG 21)"
@@ -1094,7 +1094,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/21"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0093
+  - id: 
     title: "The Wolf and the Lamb"
     type: story
     volume: "Aesop's Fables (PG 21)"
@@ -1105,7 +1105,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/21"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0094
+  - id: 
     title: "The Shepherd's Boy and the Wolf"
     type: story
     volume: "Aesop's Fables (PG 21)"
@@ -1116,7 +1116,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/21"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0095
+  - id: 
     title: "The Dog and the Shadow"
     type: story
     volume: "Aesop's Fables (PG 21)"
@@ -1128,7 +1128,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Norse myths (Guerber 28497) ---
-  - id: LIB-0096
+  - id: 
     title: "The Creation (Norse)"
     type: story
     volume: "Norse myths (Guerber, PG 28497)"
@@ -1139,7 +1139,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/28497"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0097
+  - id: 
     title: "Odin and the Norse Gods"
     type: story
     volume: "Norse myths (Guerber, PG 28497)"
@@ -1150,7 +1150,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/28497"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0098
+  - id: 
     title: "Thor and Loki"
     type: story
     volume: "Norse myths (Guerber, PG 28497)"
@@ -1161,7 +1161,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/28497"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0099
+  - id: 
     title: "The Death of Baldur"
     type: story
     volume: "Norse myths (Guerber, PG 28497)"
@@ -1172,7 +1172,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/28497"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0100
+  - id: 
     title: "Ragnarok"
     type: story
     volume: "Norse myths (Guerber, PG 28497)"
@@ -1184,7 +1184,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- King Arthur (Malory 610) ---
-  - id: LIB-0101
+  - id: 
     title: "Tales of King Arthur (collection)"
     type: story
     volume: "Usborne Illustrated Tales of King Arthur"
@@ -1195,7 +1195,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Shakespeare plays (Complete Works 100) ---
-  - id: LIB-0102
+  - id: 
     title: "Hamlet"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1206,7 +1206,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0103
+  - id: 
     title: "Macbeth"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1217,7 +1217,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0104
+  - id: 
     title: "Romeo and Juliet"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1228,7 +1228,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0105
+  - id: 
     title: "A Midsummer Night's Dream"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1239,7 +1239,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0106
+  - id: 
     title: "The Tempest"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1250,7 +1250,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0107
+  - id: 
     title: "Othello"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1261,7 +1261,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0108
+  - id: 
     title: "King Lear"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1272,7 +1272,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0109
+  - id: 
     title: "The Merchant of Venice"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1283,7 +1283,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0110
+  - id: 
     title: "Twelfth Night"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1294,7 +1294,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0111
+  - id: 
     title: "As You Like It"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1305,7 +1305,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0112
+  - id: 
     title: "Much Ado About Nothing"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1316,7 +1316,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0113
+  - id: 
     title: "Julius Caesar"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1327,7 +1327,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/100"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0114
+  - id: 
     title: "Stories from Shakespeare (all plays)"
     type: story
     volume: "Shakespeare, Complete Works (PG 100)"
@@ -1339,7 +1339,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Dickens novels (per-novel PD) ---
-  - id: LIB-0115
+  - id: 
     title: "Oliver Twist"
     type: story
     volume: "Dickens (PG author 37)"
@@ -1350,7 +1350,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/730"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0116
+  - id: 
     title: "David Copperfield"
     type: story
     volume: "Dickens (PG author 37)"
@@ -1361,7 +1361,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/766"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0117
+  - id: 
     title: "Great Expectations"
     type: story
     volume: "Dickens (PG author 37)"
@@ -1372,7 +1372,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/1400"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0118
+  - id: 
     title: "A Tale of Two Cities"
     type: story
     volume: "Dickens (PG author 37)"
@@ -1383,7 +1383,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/98"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0119
+  - id: 
     title: "Bleak House"
     type: story
     volume: "Dickens (PG author 37)"
@@ -1394,7 +1394,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/1023"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0120
+  - id: 
     title: "Dickens (other novels)"
     type: story
     volume: "Dickens (PG author 37)"
@@ -1406,7 +1406,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Arabian Nights (Lang 128) ---
-  - id: LIB-0121
+  - id: 
     title: "Aladdin and the Wonderful Lamp"
     type: story
     volume: "Arabian Nights (Lang, PG 128)"
@@ -1417,7 +1417,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/128"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0122
+  - id: 
     title: "Sindbad the Sailor"
     type: story
     volume: "Arabian Nights (Lang, PG 128)"
@@ -1428,7 +1428,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/128"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0123
+  - id: 
     title: "Ali Baba and the Forty Thieves"
     type: story
     volume: "Arabian Nights (Lang, PG 128)"
@@ -1439,7 +1439,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/128"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0124
+  - id: 
     title: "The Fisherman and the Jinni"
     type: story
     volume: "Arabian Nights (Lang, PG 128)"
@@ -1450,7 +1450,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/128"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0125
+  - id: 
     title: "Arabian Nights (full collection)"
     type: story
     volume: "Arabian Nights (Lang, PG 128)"
@@ -1462,7 +1462,7 @@ entries:
     source: manual
     added_at: 2026-02-26
   # --- Jane Austen novels (per-novel PD) ---
-  - id: LIB-0126
+  - id: 
     title: "Pride and Prejudice"
     type: story
     volume: "Jane Austen (PG author 68)"
@@ -1473,7 +1473,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/1342"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0127
+  - id: 
     title: "Sense and Sensibility"
     type: story
     volume: "Jane Austen (PG author 68)"
@@ -1484,7 +1484,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/161"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0128
+  - id: 
     title: "Emma"
     type: story
     volume: "Jane Austen (PG author 68)"
@@ -1495,7 +1495,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/158"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0129
+  - id: 
     title: "Mansfield Park"
     type: story
     volume: "Jane Austen (PG author 68)"
@@ -1506,7 +1506,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/141"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0130
+  - id: 
     title: "Northanger Abbey"
     type: story
     volume: "Jane Austen (PG author 68)"
@@ -1517,7 +1517,7 @@ entries:
     pd_url: "https://www.gutenberg.org/ebooks/121"
     source: manual
     added_at: 2026-02-26
-  - id: LIB-0131
+  - id: 
     title: "Persuasion"
     type: story
     volume: "Jane Austen (PG author 68)"

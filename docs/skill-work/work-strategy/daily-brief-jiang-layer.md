@@ -2,7 +2,7 @@
 
 **Purpose:** Slow-moving research hooks for the same dated file as [daily-brief-template.md](daily-brief-template.md). Not breaking news. Complements section 2 RSS (fast) and section 2b civ-mem overlap.
 
-**Lane:** [Predictive History](../../../codex/predictive-history/) under `codex/predictive-history/`, compressions, lecture extractors, comparative sweeps. SELF-LIBRARY may index books (e.g. Predictive History); this file is operator pointers only. Legacy `work-jiang` wording remains as a compatibility alias.
+**Lane:** [Predictive History](../../../codex/predictive-history/) under `codex/predictive-history/`, compressions, lecture extractors, comparative sweeps. removed operator-books symlink may index books (e.g. Predictive History); this file is operator pointers only. Legacy `work-jiang` wording remains as a compatibility alias.
 
 **Predictive History (work-strategy spine):** Canonical YouTube caption pulls for that channel live under [youtube-channels/predictive-history/](../../../research/external/youtube-channels/predictive-history/README.md). Curated lecture bodies that usually populate this slow layer are under [codex/predictive-history/lectures/](../../../codex/predictive-history/lectures/). Wired explicitly for work-strategy in [common-inputs.md section PH](common-inputs.md).
 
@@ -10,7 +10,7 @@
 
 ## Active Predictive History hooks
 
-_Edit between brief runs. SELF-LIBRARY (Predictive History): [LIB-0149](../../../self-library.md#operator-analytical-books) - `lookup_priority: preferred`; canonical URL in YAML -> [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
+_Edit between brief runs. removed operator-books symlink (Predictive History): [predictive-history (`codex/predictive-history/`)](../../../self-library.md#operator-analytical-books) - `lookup_priority: preferred`; canonical URL in YAML -> [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
 
 - [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) - multivolume spine; Volume I Geo-Strategy (Part I ch01-ch20, Part II prediction adjudication).
 - [STATUS.md](../../../codex/predictive-history/STATUS.md) - corpus counts, missing analysis backlog, `outline_in_progress`, production nudges.

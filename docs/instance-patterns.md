@@ -22,7 +22,7 @@ The template stays code-light and protocol-first; Grace-Mar diverges in several 
 | Staging contract | Gate queue abstraction; instance may choose file encoding | `recursion-gate.md` under canonical instance paths. |
 | Analyst | Out of scope for 6 weeks | LLM analyst runs on conversation and “we did X”; stages candidates automatically. |
 | Voice | Not implemented | Telegram + WeChat bots. |
-| Archive | `self-memory.md` (ephemeral, optional) | `self-archive.md` (gated log, rotation when large). |
+| Archive | `memory.md` (ephemeral, optional) | `self-archive.md` (gated log, rotation when large). |
 | Lesson delivery | Optional: prompt generator + any LLM | **LLM-lesson method:** Record-derived prompts pasted into ChatGPT, Grok, or any LLM; 3–5 personalized lessons per day; transcript flows into skill-think for processing. No bot install; often easier for many users than a dedicated bot. Grace-Mar may offer both. 1. |
 
 * * *
@@ -62,10 +62,10 @@ When an instance adds an **LLM analyst** that stages candidates from conversatio
 
 | Field | Meaning |
 |-------|---------|
-| mind_category | One of: knowledge, curiosity, personality (maps to IX-A, IX-B, IX-C). |
+| mind_category | One of: knowledge, curiosity, personality (maps to museum knowledge section A, museum knowledge section B, museum knowledge section C). |
 | signal_type | Kind of signal (e.g. lookup, knowledge, teach, new_interest, personality). |
 | summary | Brief description of what was observed. |
-| profile_target | Target dimension/section (e.g. IX-A, IX-B, IX-C). |
+| profile_target | Target dimension/section (e.g. museum knowledge section A, museum knowledge section B, museum knowledge section C). |
 | suggested_entry | Proposed line for the dimension file. |
 | prompt_section | Section of prompt/Record this relates to. |
 | prompt_addition | Proposed addition to that section. |
@@ -86,7 +86,7 @@ Instances that support it can expose: pending count, list of candidate summaries
 
 ## Conflict check (optional)
 
-Before merge, an instance may run a **conflict check** on a candidate: compare suggested content against existing Record (e.g. IX-A, IX-B, IX-C) and flag potential contradictions or overlap. Surfaces for user resolution; does not block staging. The companion still decides at the gate; conflict check is advisory.
+Before merge, an instance may run a **conflict check** on a candidate: compare suggested content against existing Record (e.g. museum knowledge section A, museum knowledge section B, museum knowledge section C) and flag potential contradictions or overlap. Surfaces for user resolution; does not block staging. The companion still decides at the gate; conflict check is advisory.
 
 Full governed workflow (identity-diff UI, resolution types, temporal merge, audit): [CONTRADICTION-ENGINE-SPEC](CONTRADICTION-ENGINE-SPEC.md). Resolution vocabulary: [contradiction-resolution](contradiction-resolution.md).
 

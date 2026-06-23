@@ -7,7 +7,7 @@
 ```yaml
 id: CANDIDATE-9701
 status: pending
-summary: "America is a stable self-knowledge pattern with broad shelf support."
+summary: "America is a stable museum identity knowledge (archive) pattern with broad shelf support."
 kind: self_knowledge_refinement
 profile_target_suggestion: ix-b
 session_id: bookshelf-membrane-demo
@@ -32,7 +32,7 @@ rationale: |
 ```yaml
 id: CANDIDATE-9702
 status: pending
-summary: "Library of America is a stable self-knowledge pattern with broad shelf support."
+summary: "Library of America is a stable museum identity knowledge (archive) pattern with broad shelf support."
 kind: self_knowledge_refinement
 profile_target_suggestion: ix-b
 session_id: bookshelf-membrane-demo
@@ -57,12 +57,12 @@ rationale: |
 ```yaml
 id: CANDIDATE-9703
 status: pending
-summary: "fiction is an active self-knowledge pattern with bounded evidence support."
+summary: "fiction is an active museum identity knowledge (archive) pattern with bounded evidence support."
 kind: self_knowledge_refinement
 profile_target_suggestion: ix-b
 session_id: bookshelf-membrane-demo
 tier: medium
-proposed_statement: "fiction is a live knowledge track in the current phase and should remain explicit in the self-knowledge map."
+proposed_statement: "fiction is a live knowledge track in the current phase and should remain explicit in the museum identity knowledge (archive) map."
 evidence:
   - Shelf-0119
   - Shelf-0131
@@ -82,12 +82,12 @@ rationale: |
 ```yaml
 id: CANDIDATE-9704
 status: pending
-summary: "England is an active self-knowledge pattern with bounded evidence support."
+summary: "England is an active museum identity knowledge (archive) pattern with bounded evidence support."
 kind: self_knowledge_refinement
 profile_target_suggestion: ix-b
 session_id: bookshelf-membrane-demo
 tier: medium
-proposed_statement: "England is a live knowledge track in the current phase and should remain explicit in the self-knowledge map."
+proposed_statement: "England is a live knowledge track in the current phase and should remain explicit in the museum identity knowledge (archive) map."
 evidence:
   - Shelf-0071
   - Shelf-0081
@@ -107,12 +107,12 @@ rationale: |
 ```yaml
 id: CANDIDATE-9705
 status: pending
-summary: "Everyman's Library is an active self-knowledge pattern with bounded evidence support."
+summary: "Everyman's Library is an active museum identity knowledge (archive) pattern with bounded evidence support."
 kind: self_knowledge_refinement
 profile_target_suggestion: ix-b
 session_id: bookshelf-membrane-demo
 tier: medium
-proposed_statement: "Everyman's Library is a live knowledge track in the current phase and should remain explicit in the self-knowledge map."
+proposed_statement: "Everyman's Library is a live knowledge track in the current phase and should remain explicit in the museum identity knowledge (archive) map."
 evidence:
   - Shelf-0110
   - Shelf-0111
@@ -132,12 +132,12 @@ rationale: |
 ```yaml
 id: CANDIDATE-9706
 status: pending
-summary: "biography is an active self-knowledge pattern with bounded evidence support."
+summary: "biography is an active museum identity knowledge (archive) pattern with bounded evidence support."
 kind: self_knowledge_refinement
 profile_target_suggestion: ix-b
 session_id: bookshelf-membrane-demo
 tier: medium
-proposed_statement: "biography is a live knowledge track in the current phase and should remain explicit in the self-knowledge map."
+proposed_statement: "biography is a live knowledge track in the current phase and should remain explicit in the museum identity knowledge (archive) map."
 evidence:
   - Shelf-0011
   - Shelf-0019

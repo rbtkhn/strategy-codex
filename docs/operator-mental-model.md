@@ -10,7 +10,7 @@
 flowchart LR
   subgraph durable [Durable_Record]
     SELF[SELF]
-    Lib[SELF-LIBRARY]
+    Lib[removed operator-books symlink]
     Skills[SKILLS]
     Ev[EVIDENCE]
   end

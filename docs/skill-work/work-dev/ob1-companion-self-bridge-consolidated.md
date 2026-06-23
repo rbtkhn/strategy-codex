@@ -45,7 +45,7 @@ Evolving an OB1 deployment toward companion-self–grade governance is **increme
 
 | System | Canonical shape (relevant here) |
 |--------|----------------------------------|
-| **companion-self** | Git repo: `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `archive/grace-mar-instance/bot/prompt.py`, optional `self-memory.md` — **human-gated Record** in markdown. |
+| **companion-self** | Git repo: `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `archive/grace-mar-instance/bot/prompt.py`, optional `memory.md` — **human-gated Record** in markdown. |
 | **OB1** | **Supabase + thoughts** (and related), vector search, MCP — exports/recipes produce **portable dumps** (JSON, markdown) depending on upstream tooling. |
 
 Grace-mar already has **read-only exports** for other runtimes (`docs/openclaw-integration.md`); there is **no** current bidirectional OB1 script in this repo.
@@ -61,7 +61,7 @@ flowchart LR
   subgraph cs [companion-self repo]
     Self[self.md]
     Evid[self-archive.md]
-    Mem[self-memory.md]
+    Mem[memory.md]
   end
   subgraph tier1 [Tier 1 - portable]
     Export[export script read-only]
@@ -113,7 +113,7 @@ flowchart LR
   end
   subgraph cs [companion-self]
     Gate[recursion-gate.md pending]
-    Mem[self-memory.md optional]
+    Mem[memory.md optional]
     Merge[process_approved_candidates.py]
   end
   DB --> Export
@@ -133,7 +133,7 @@ flowchart LR
 
 **Optional — MEMORY / WORK (non-Record)**
 
-- Append to **`self-memory.md`** only per `docs/memory-template.md` (ephemeral, non-authoritative); OB1-sourced lines are **pointers**, not new SELF facts.
+- Append to **`memory.md`** only per `docs/memory-template.md` (ephemeral, non-authoritative); OB1-sourced lines are **pointers**, not new SELF facts.
 - **WORK** markdown (e.g. `work-*.md`) can hold methodology mirrors — not Record until gated.
 
 **Tier 2 — Suggest EVIDENCE-shaped entries**
@@ -165,7 +165,7 @@ flowchart LR
 
 **OB1 → CS**
 
-1. Spec: OB1 thought fields → gate YAML; IX-A/B/C mapping vs reject-as-raw.
+1. Spec: OB1 thought fields → gate YAML; museum knowledge section A/B/C mapping vs reject-as-raw.
 2. Tier 1: `import-stage` CLI → appends gate blocks + prints next steps (review / approve / `process_approved_candidates.py`).
 3. Optional: MEMORY-only flag with explicit banner.
 

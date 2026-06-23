@@ -121,7 +121,7 @@ This document defines the **formation pipeline** before a companion instance is 
 
 ## Relationship to the live Record
 
-Stages 0–7 produce **pre-activation** artifacts only. **Merging into** `self.md`, self-knowledge, self-evidence, etc., happens **after** activation via the instance **identity fork protocol**, not by renaming seed JSON into Record files.
+Stages 0–7 produce **pre-activation** artifacts only. **Merging into** `self.md`, museum identity knowledge (archive), self-evidence, etc., happens **after** activation via the instance **identity fork protocol**, not by renaming seed JSON into Record files.
 
 ---
 

@@ -1,7 +1,7 @@
 # History Notebook â€” Bookshelf catalog (title-level seed; Shelf-* rows)
-# Operator collection name: self-library-bookshelf (physical library + this Shelf list; LIB-0158 in self-library).
+# Operator collection name: self-library-bookshelf (physical library + this Shelf list;  in self-library).
 # WORK only; not Record. Does not replace book-architecture.yaml or cross-book-map.yaml.
-# Self-library pointer: LIB-0158 â€” self-library.md#bookshelf (owned Shelf-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
+# Self-library pointer:  â€” self-library.md#bookshelf (owned Shelf-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
 #
 # Schema (items[]):
 #   id: Shelf-NNNN (zero-padded 4 digits, unique)
@@ -1528,7 +1528,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
     notes: "Iberian world monarchy â€” France chapter id is imperfect proxy; adjust when drafting."
-  # --- Industrial / modern shelf â€” personal library photos 2026-04-18 (LIB-0158) ---
+  # --- Industrial / modern shelf â€” personal library photos 2026-04-18 () ---
   - id: Shelf-0129
     title: The Sonnets and A Lover's Complaint
     author: William Shakespeare

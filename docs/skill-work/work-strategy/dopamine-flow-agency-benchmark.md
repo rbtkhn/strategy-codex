@@ -166,7 +166,7 @@ That run scored a written strategy-page. Future agency benchmark runs should add
 After adding or running this benchmark, verify governed Record surfaces were not changed for this work:
 
 ```bash
-git diff -- self.md self-archive.md recursion-gate.md session-log.md archive/grace-mar-instance/bot/prompt.py self-memory.md self-history.md
+git diff -- self.md self-archive.md recursion-gate.md session-log.md archive/grace-mar-instance/bot/prompt.py memory.md self-history.md
 ```
 
 Any output must be explained as pre-existing residue or reverted if introduced by benchmark work.

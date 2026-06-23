@@ -75,7 +75,7 @@ This template also uses **Record** and **Voice** in [concept.md](concept.md):
 | State model layer | Typical instance mapping |
 |-------------------|---------------------------|
 | **Evidence** | Raw session transcripts, uploads, operator logs, external docs, unmerged intake â€” before or outside the gated Record. |
-| **Prepared context** | Analyst drafts, PRP bundles, normalized markdown for tools, retrieval chunks, **self-memory** (ephemeral continuity â€” not the Record). |
+| **Prepared context** | Analyst drafts, PRP bundles, normalized markdown for tools, retrieval chunks, **memory** (ephemeral continuity â€” not the Record). |
 | **Governed state** | **Record** (e.g. `self.md`, split SELF files, skills, **EVIDENCE** spine after merge), approved seed outputs at activation, outcomes of **change review**. |
 
 **Voice** renders the Record when queried; it is not a fourth layer â€” it reflects **governed state** under the knowledge boundary.

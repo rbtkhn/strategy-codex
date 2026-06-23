@@ -40,7 +40,7 @@ All workflows are **manual and operator-initiated**. No background process, no w
 |---------|--------|
 | `recursion-gate.md` (pending candidates) | Unapproved content is not Record |
 | `session-log.md` | Operational log, not identity |
-| `self-memory.md` | Ephemeral continuity, not durable knowledge |
+| `memory.md` | Ephemeral continuity, not durable knowledge |
 | `archive/grace-mar-instance/bot/prompt.py` | Derivative of SELF; not a primary source |
 | `.git/`, `scripts/`, `tests/` | Infrastructure, not Record |
 
@@ -97,7 +97,7 @@ Override with `--include <surface>` if specific surfaces are needed for a use ca
 |---------|-------------|--------|
 | Export produces different fingerprints on repeated runs | Non-deterministic content (timestamps in output?) | Check export script for time-dependent fields |
 | Import stages duplicates | Dedup key mismatch (OB1 id changed?) | Verify OB1 thought IDs are stable across exports |
-| Proposals reference unknown IX-A/B/C targets | Mapping rules need updating for new Record structure | Review [mapping.md](mapping.md) target surface rules |
+| Proposals reference unknown museum knowledge section A/B/C targets | Mapping rules need updating for new Record structure | Review [mapping.md](mapping.md) target surface rules |
 | OB1 ingest rejects export bundle | OB1 schema version mismatch | Pin OB1 version; check recipe compatibility |
 
 ---

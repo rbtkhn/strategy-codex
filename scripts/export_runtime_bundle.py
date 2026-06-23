@@ -36,7 +36,7 @@ try:
     from harness_events import append_harness_event
     from recursion_gate_review import parse_review_candidates
     from repo_io import profile_dir as canonical_profile_dir
-    from repo_io import resolve_ledger_path, resolve_self_memory_path, resolve_surface_markdown_path
+    from repo_io import resolve_ledger_path, resolve_memory_path, resolve_surface_markdown_path
     from grace_mar_compat_paths import BOT_DIR
 except ImportError:
     from scripts.export_fork import export_fork
@@ -164,12 +164,12 @@ def _session_log_tail(user_id: str, max_lines: int = 20) -> str:
 
 
 def _memory_snapshot(user_id: str) -> str:
-    memory_path = resolve_self_memory_path(_profile_dir(user_id))
+    memory_path = resolve_memory_path(_profile_dir(user_id))
     content = _read(memory_path).strip()
     return (
         "# MEMORY SNAPSHOT\n\n"
         "> Non-canonical runtime continuity aid. This is not Record truth.\n\n"
-        f"{content or '(self-memory.md / legacy memory.md missing or empty)'}\n"
+        f"{content or '(memory.md missing or empty)'}\n"
     )
 
 
@@ -218,7 +218,7 @@ def export_runtime_bundle(
     _write_text(runtime_dir / "warmup.md", _warmup_text(user_id))
     _write_text(runtime_dir / "session-log-tail.md", _session_log_tail(user_id))
     if RUNTIME_MODES[runtime_mode]["include_memory"]:
-        _write_text(runtime_dir / "self-memory.md", _memory_snapshot(user_id))
+        _write_text(runtime_dir / "memory.md", _memory_snapshot(user_id))
 
     audit_sources = [
         "pipeline-events.jsonl",
@@ -254,7 +254,7 @@ def export_runtime_bundle(
         "library": profile_dir / "self-library.md",
         "intent": profile_dir / "intent.md",
         "session_log": profile_dir / "session-log.md",
-        "memory": resolve_self_memory_path(profile_dir),
+        "memory": resolve_memory_path(profile_dir),
         "prompt": BOT_DIR / "prompt.py",
     }
 
@@ -270,8 +270,8 @@ def export_runtime_bundle(
     ]
     if include_user_json:
         derived_paths.append(record_dir / "USER.json")
-    if (runtime_dir / "self-memory.md").exists():
-        derived_paths.append(runtime_dir / "self-memory.md")
+    if (runtime_dir / "memory.md").exists():
+        derived_paths.append(runtime_dir / "memory.md")
     for rel_path in copied_audit_paths:
         derived_paths.append(out_dir / rel_path)
 

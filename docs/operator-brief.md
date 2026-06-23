@@ -6,7 +6,7 @@ For the operator or facilitator (e.g. parent, guardian, or family member) of the
 
 ## What is Grace-Mar?
 
-A **cognitive emulator** is a system the user teaches. Unlike typical apps that teach the user, this one learns *from* them. Over time it becomes a **cognitive fork** â€” a versioned record of how they think, what they know, and who they are, growing independently from a snapshot in time.
+A **cognitive emulator** is a system the user teaches. Unlike typical apps that teach the user, this one learns *from* them. Over time it becomes a **interpretive machine** â€” a versioned record of how they think, what they know, and who they are, growing independently from a snapshot in time.
 
 The companion is the teacher. The system only grows through their activity.
 
@@ -85,7 +85,7 @@ Keep the loop closed so the Record and the review queue stay in sync.
 - **Safety story (not â€œtrust the chatâ€):** Comfort comes from **visible state** â€” whatâ€™s **pending** vs **approved**, **merge receipts**, **last evidence / merge** â€” and knowing **OpenClaw only stages** until the companion approves. Same fear class as silent prod drift; treat **audit continuity** as a primary story. See [safety-story-ux.md](skill-work/work-dev/safety-story-ux.md).
 
 - **Before each session:** Skim SESSION-LOG and **RECURSION-GATE** (or run `python3 scripts/session_brief.py -u grace-mar` for a short brief, or `python3 scripts/operator_blocker_report.py -u grace-mar` for a fuller blocker report â€” includes **stale pending** so old candidates donâ€™t sit forever). Note how many candidates are waiting.
-- **Three-tier traffic (review depth):** Tier 1 = quick-merge eligible (narrow: **IX-A/B/C `profile_target`**, see [recursion-gate-three-tier.md](recursion-gate-three-tier.md)); Tier 2 = normal gate review; Tier 3 = gate-heavy escalation vs **change-review** queue. This is **how hard you look**, not which folder the YAML lives in.
+- **Three-tier traffic (review depth):** Tier 1 = quick-merge eligible (narrow: **museum knowledge section A/B/C `profile_target`**, see [recursion-gate-three-tier.md](recursion-gate-three-tier.md)); Tier 2 = normal gate review; Tier 3 = gate-heavy escalation vs **change-review** queue. This is **how hard you look**, not which folder the YAML lives in.
 - **work-politics vs companion lens:** Pending split by territory â€” **`--territory work-politics`** (aliases `wap`, `wp`) = work-politics only (`territory: work-politics` or `channel_key: operator:wap` on the YAML); **`--territory companion`** = companion Record only. Same on `session_brief`, `harness_warmup`, `operator_blocker_report`. Default `all` shows both sections in the blocker report. **Orthogonal to tiers:** territory filters **which batch** merges; tiers describe **fast vs normal vs escalated review** â€” same candidate can be Tier 2 and work-politics.
 - **Lookup usage (optional):** `python3 scripts/report_lookup_sources.py -u grace-mar` â€” shows whether Voice lookups used library vs full prompt (what actually gets used, not raw model capability).
 - **Minimal brief:** `python3 scripts/session_brief.py -u grace-mar --minimal` â€” pending count + IDs + last activity + next action + recovery links. Add `--territory work-politics` or `companion` to filter.
@@ -108,7 +108,7 @@ All instance files live in the repo under **``**. The Record itself is:
 
 | File | What it is |
 |------|------------|
-| **self.md** | Who the companion is â€” identity, preferences, interests, knowledge (IX-A), curiosity (IX-B), personality (IX-C). |
+| **self.md** | Who the companion is â€” identity, preferences, interests, knowledge (museum knowledge section A), curiosity (museum knowledge section B), personality (museum knowledge section C). |
 | **self-skills.md** | What the Record can show they can do â€” THINK and WRITE capability and edges (legacy `skills.md` still resolved). |
 | **self-evidence.md** | Activity log â€” ACT-*, WRITE-*, CREATE-* entries; raw evidence the Record is built on. |
 | **recursion-gate.md** | **Multi-channel staging** (Telegram, WeChat, operator, tests â€” see each rowâ€™s `channel_key`). One queue per user; **nothing is in the Record until you approve and merge.** |

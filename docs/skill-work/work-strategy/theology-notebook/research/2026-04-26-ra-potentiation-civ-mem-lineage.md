@@ -134,4 +134,4 @@ The **Law of One / Ra Material** (early 1980s) is **not** in `civilization_memor
 
 ---
 
-**Links back:** [`scripts/route_civ_mem_topic.py`](../../../../../scripts/route_civ_mem_topic.py) (BFS), [`docs/skill-work/work-civ-mem/TOPIC-ROUTING.md`](../../../work-civ-mem/TOPIC-ROUTING.md). **Not Record**; **not** gated IX-A unless you later promote a distinct candidate.
+**Links back:** [`scripts/route_civ_mem_topic.py`](../../../../../scripts/route_civ_mem_topic.py) (BFS), [`docs/skill-work/work-civ-mem/TOPIC-ROUTING.md`](../../../work-civ-mem/TOPIC-ROUTING.md). **Not Record**; **not** gated museum knowledge section A unless you later promote a distinct candidate.

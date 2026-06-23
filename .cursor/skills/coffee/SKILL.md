@@ -170,7 +170,7 @@ When the operator asks for the daily main-stream update (Davis, Diesen, Alkorshi
 
 When the operator asks for daily brief, Polymarket/polling, `last30days`, or broad current-events judgment, use explicit daily-brief / strategy / check-streams routes. When the operator names a specific recent event for statecraft analysis, verify the unstable fact pattern, name the crisis object, then route through `state-deploy` or the owning lane rather than opening a separate event skill.
 
-Bookshelf/self-knowledge elicitation, survey work, and Record candidates are explicit routes outside Statecraft unless the operator asks to turn source knowledge into a policy/treaty instrument. Never merge Record material from Coffee C; preserve WORK-only boundaries.
+Bookshelf/museum identity knowledge (archive) elicitation, survey work, and Record candidates are explicit routes outside Statecraft unless the operator asks to turn source knowledge into a policy/treaty instrument. Never merge Record material from Coffee C; preserve WORK-only boundaries.
 **Signing-off Step 1** — handoff-weighted (same trigger **`coffee`**, not a second ritual name):
 
 ```bash
@@ -286,7 +286,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 **Legacy Capitalist / bookshelf product use:**
 
 - Bookshelf may support offer design, teaching angles, grace-gems packaging, course/product framing, or public copy.
-- Do **not** use D or C as the default route for IX-A bookshelf recursion; route that to explicit `elicit-knowledge`, survey, or bookshelf membrane workflows unless the operator asks to convert bookshelf material into a statecraft artifact.
+- Do **not** use D or C as the default route for museum knowledge section A bookshelf recursion; route that to explicit `elicit-knowledge`, survey, or bookshelf membrane workflows unless the operator asks to convert bookshelf material into a statecraft artifact.
 - **Catalog stance membrane** (`bookshelf-membrane-round.json` + `build_bookshelf_membrane_candidates.py`) remains secondary and scripted: use it only when the operator requests catalog organization or a pressing organizational membrane issue applies.
 
 **Legacy Capitalist routing:** commercial, bookshelf-product, grace-gems, offer, and `skill-write` work no longer owns coffee D. Route explicit commercial or write-shaped requests by named lane/request outside coffee, or through **B. Engineer** when the operator asks for implementation. Use **C. Statecraft** only when the requested output is treaty, policy, negotiation, institutional, sanctions, alliance, sovereignty, or state-interest shaped.
@@ -353,7 +353,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 **Ending discipline:** When `coffee` or a downstream branch ends in a bounded menu or MCQ, stop on that menu. Do **not** append open-ended closers such as "if you want" after the menu; the choice list is the operator-facing close.
 
-Legacy **A-G** detail tables in [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md) still describe historical workloads. Current map: Statecraft -> C; Build -> B; Steward -> A; singularity-academy module -> D. Daily Brief / `check streams`, self-knowledge elicitation, Book / Jiang / Predictive History, and commercial / teaching bookshelf work now route by explicit request unless the operator asks to turn them into a statecraft artifact. Symphony conductors are standalone by `conductor` / master name without `coffee`.
+Legacy **A-G** detail tables in [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md) still describe historical workloads. Current map: Statecraft -> C; Build -> B; Steward -> A; singularity-academy module -> D. Daily Brief / `check streams`, museum identity knowledge (archive) elicitation, Book / Jiang / Predictive History, and commercial / teaching bookshelf work now route by explicit request unless the operator asks to turn them into a statecraft artifact. Symphony conductors are standalone by `conductor` / master name without `coffee`.
 
 **Done when:** The operator has picked **A-D** (or a named standalone Conductor), the selected branch has been executed, and the re-offer or exit rule has been applied.
 
@@ -361,7 +361,7 @@ Legacy **A-G** detail tables in [menu-reference.md](../../../docs/skill-work/wor
 
 ## Session trail (optional)
 
-Sessions begin when the operator says **`coffee`** (optional modifiers). To keep a trail: use **`session-transcript.md`** and/or append dated bullets to **`docs/skill-work/work-*/*-history.md`**. **Not** the gated Record; **not** `self-memory`. See [work-menu-conventions.md](../../../docs/skill-work/work-menu-conventions.md).
+Sessions begin when the operator says **`coffee`** (optional modifiers). To keep a trail: use **`session-transcript.md`** and/or append dated bullets to **`docs/skill-work/work-*/*-history.md`**. **Not** the gated Record; **not** `memory`. See [work-menu-conventions.md](../../../docs/skill-work/work-menu-conventions.md).
 
 <a id="cadence-audit"></a>
 
@@ -390,4 +390,4 @@ For conductor-backed closes, add `--picked conductor --conductor <slug> --conduc
 - `docs/skill-work/work-strategy/daily-brief-minds-menu.md` - archived Tri-Frame **three minds** (Barnes / Mearsheimer / Mercouris) by explicit synthesis request, not Coffee C by default.
 - `docs/skill-work/work-politics/america-first-ky/guardrail-stress-test.md` — messaging discipline
 - `.cursor/skills/state-deploy/SKILL.md` - verified named recent events now dissolve into lane deployment rather than opening a separate event function.
-- `.cursor/skills/elicit-knowledge/SKILL.md` - explicit MCQs toward IX-A / gate staging, outside Coffee C unless converted into a statecraft artifact.
+- `.cursor/skills/elicit-knowledge/SKILL.md` - explicit MCQs toward museum knowledge section A / gate staging, outside Coffee C unless converted into a statecraft artifact.

@@ -4,7 +4,7 @@
 
 **Phase 1 roster (8 threads):** All eight files use the same **9-section governed** template (identity, continuity, contradiction log, distilled learnings, mechanism ladder, polyphonic slots, chapter targets/bridges, resonance lines, next actions, governance receipt). **Russia** remains **Phase 1 (salience pilot)** in its Identity header â€” [operational exit](#russia-salience-pilot-phase-1) targets ladder, chapter, and strategy-use evidence for that arc first. **Folds:** Francia and France fold into **Rome**; **Anglia** folds into **America** (see those threadsâ€™ Identity sections).
 
-**Reservoir:** Read and distill from `SELF-LIBRARY/civilization_memory` (upstream `rbtkhn/civilization_memory`) â€” **pointers and patterns only**, no bulk copy.
+**Reservoir:** Read and distill from `civilization_memory` (upstream `rbtkhn/civilization_memory`) â€” **pointers and patterns only**, no bulk copy.
 
 **Downstream:** Threads inform **chapter** drafting only; finished prose lives in [../chapters/](../chapters/) under ids from [../book-architecture.yaml](../book-architecture.yaml). (No separate legacy history-page file layer.)
 

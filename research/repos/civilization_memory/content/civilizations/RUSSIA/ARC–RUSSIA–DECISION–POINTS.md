@@ -164,7 +164,7 @@ binding constraint (manpower) is binding sooner than Russia's
 with structural logic on this option, making it overdetermined.
 
 Template fix applied: CIV–STATE–TEMPLATE upgraded v1.5 → v1.6.
-New mandatory Section IX-B (Opponent Constraint Assessment),
+New mandatory Section museum knowledge section B (Opponent Constraint Assessment),
 relative binding constraint rule, and two new completeness
 audit items. Gap cannot recur in any civilisation's STATE file.
 

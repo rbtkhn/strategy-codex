@@ -57,7 +57,7 @@ That produced a tree where several surfaces could be read incorrectly even when 
 Examples of this pattern:
 
 - `self-archive.md` versus `self-evidence.md`
-- `self-library.md` versus `SELF-LIBRARY/`
+- `self-library.md` versus ``
 - `skill-think.md` / `skill-write.md` / `skill-steward.md` versus `self-skill-*` language in doctrine
 
 These are not all "duplicates" in the same sense.

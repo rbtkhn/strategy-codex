@@ -6,7 +6,7 @@
 
 Use this wrapper when a work-dev research question needs structured exploration and a visible checkpoint rhythm.
 
-Do not use it to claim Grace-Mar has an autonomous research agent. Do not use it to update SELF, SKILLS, EVIDENCE, SELF-LIBRARY, Voice, or `recursion-gate.md`.
+Do not use it to claim Grace-Mar has an autonomous research agent. Do not use it to update SELF, SKILLS, EVIDENCE, removed operator-books symlink, Voice, or `recursion-gate.md`.
 
 ## Invocation
 

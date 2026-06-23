@@ -99,7 +99,7 @@ If the operator enables an **experimental** â€œconfidenceâ€ or â€œe
 
 ## 6. Auditing picks (Choice journal)
 
-**Do not** auto-append operator menu picks to **`memory.md`** / **self-memory** from the Voice or analyst without governance change ([`docs/memory-template.md`](../../memory-template.md)).
+**Do not** auto-append operator menu picks to **`memory.md`** / **memory** from the Voice or analyst without governance change ([`docs/memory-template.md`](../../memory-template.md)).
 
 **Do** log picks **explicitly** when the operator wants a trail:
 
@@ -109,7 +109,7 @@ python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked A --
 
 Appends `### [WORK-choice]` blocks to **`session-transcript.md`** (operator continuity, not gated Record).
 
-**`coffee` session trail:** Sessions started with **`coffee`** (work-start vs signing-off Step 1; optional light, minimal, survey; legacy **`hey`** still works) can leave traces in **`session-transcript.md`** (raw lines and **`[WORK-choice]`** via `log_operator_choice.py`) and/or dated bullets under **`docs/skill-work/work-*/*-history.md`** (per-lane milestones â€” [work-modules-history-principle.md](work-modules-history-principle.md)). Distinct from **`self-memory.md`** (companion continuity). See [canonical paths](../canonical-paths.md).
+**`coffee` session trail:** Sessions started with **`coffee`** (work-start vs signing-off Step 1; optional light, minimal, survey; legacy **`hey`** still works) can leave traces in **`session-transcript.md`** (raw lines and **`[WORK-choice]`** via `log_operator_choice.py`) and/or dated bullets under **`docs/skill-work/work-*/*-history.md`** (per-lane milestones â€” [work-modules-history-principle.md](work-modules-history-principle.md)). Distinct from **`memory.md`** (companion continuity). See [canonical paths](../canonical-paths.md).
 
 **Aggregate after ~30 days:**
 

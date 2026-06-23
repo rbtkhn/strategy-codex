@@ -66,7 +66,7 @@ Runtime SCM reads within **`runtime_only`** / **`bridge_packets`** (`ephemeral_o
 
 ### `web_research`
 
-Fetch/summarize with citations (**`work_artifact`** / **`prepared_context`**, **`draftable`**). Receipt summarizes fetched excerpts as WORK artifact posture â€” **not** merged IX-A facts without gate.
+Fetch/summarize with citations (**`work_artifact`** / **`prepared_context`**, **`draftable`**). Receipt summarizes fetched excerpts as WORK artifact posture â€” **not** merged museum knowledge section A facts without gate.
 
 ### `evidence_stub_operator_template`
 

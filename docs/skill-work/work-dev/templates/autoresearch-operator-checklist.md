@@ -44,4 +44,4 @@
 - [ ] Leave inconclusive results WORK-only unless the human asks to stage them.
 - [ ] Record the next wedge in the run note.
 - [ ] If a full candidate is drafted, mark it as pending human review.
-- [ ] Do not edit SELF, SKILLS, EVIDENCE, SELF-LIBRARY, Voice, `recursion-gate.md`, or `archive/grace-mar-instance/bot/prompt.py` from this checklist.
+- [ ] Do not edit SELF, SKILLS, EVIDENCE, removed operator-books symlink, Voice, `recursion-gate.md`, or `archive/grace-mar-instance/bot/prompt.py` from this checklist.

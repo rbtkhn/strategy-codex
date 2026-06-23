@@ -1,8 +1,8 @@
-﻿# Bookshelf to Self-Knowledge Membrane
+﻿# Bookshelf to knowledge membrane
 
-WORK-only implementation contract for promoting validated bookshelf signals into draft Record candidates.
+WORK-only implementation contract for promoting validated bookshelf signals into draft museum candidates.
 
-This membrane is integrated into `coffee` as a fixed branch under `E` (system choice): **Self-knowledge quiz**.
+This membrane is integrated into `coffee` as a fixed branch under `E` (system choice): **bookshelf knowledge quiz**.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ This membrane is integrated into `coffee` as a fixed branch under `E` (system ch
 
 ## Coffee Integration
 
-- Entry: `coffee` -> Step 2 -> `E` -> choose **self-knowledge quiz**.
+- Entry: `coffee` -> Step 2 -> `E` -> choose **museum identity knowledge (archive) quiz**.
 - Session mode: **multi-round** (5-10 MCQs per round).
 - After each round, ask: continue or stop.
 - On stop, emit:
@@ -54,7 +54,7 @@ Tiering evaluates both evidence and companion response strength.
 
 ## Claim Selection Model (v2)
 
-Each answered tag produces one explicit proposed self-knowledge statement.
+Each answered tag produces one explicit proposed museum identity knowledge (archive) statement.
 
 Decision path:
 
@@ -86,7 +86,7 @@ Before approving any membrane-derived draft:
 
 1. Grounded in companion answers, not model inference.
 2. Supported by cited bookshelf evidence.
-3. Appropriate destination (`self-library` vs `self-knowledge`).
+3. Appropriate destination (`self-library` vs `museum identity knowledge (archive)`).
 4. Non-duplicative with existing `self.md` claims.
 5. Wording remains proportional to evidence strength.
 

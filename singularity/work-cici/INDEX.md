@@ -71,7 +71,7 @@ Use [README](README.md) for narrative order; this table is a flat lookup.
 | [TEMPLATE-BASELINE.md](TEMPLATE-BASELINE.md) | Pointer → [work-companion-self/TEMPLATE-BASELINE.md](../work-companion-self/TEMPLATE-BASELINE.md) |
 | [LANES.md](LANES.md) | WORK (client) vs Record (fork) vs library |
 | [TERMS-XAVIER.md](TERMS-XAVIER.md) | Short glossary |
-| [COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md](COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md) | Pointer → work-companion-self (canonical) |
+| [COMPANION-SELF-museum library shelf-ALIGNMENT.md](COMPANION-SELF-museum library shelf-ALIGNMENT.md) | Pointer → work-companion-self (canonical) |
 | [SESSION-0-OPERATOR.md](SESSION-0-OPERATOR.md) | Operator checklist after MCQ (**in her repo**) |
 | [GOOD-MORNING.md](GOOD-MORNING.md) | Session 0 prerequisite + rhythm |
 | [first-good-morning-runbook.md](first-good-morning-runbook.md) | First-load onboarding (her repo + advisor view) |

@@ -41,7 +41,7 @@ By default, next-state signals may improve:
 They must **not** directly update:
 
 - **SELF / Record truth**
-- **IX-A / IX-B / IX-C**
+- **museum knowledge section A / museum knowledge section B / museum knowledge section C**
 - **prompt knowledge**
 - any other companion-owned identity surface
 

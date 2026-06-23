@@ -157,7 +157,7 @@ v3.2 — English reference works added to ARC-T-MODERN (ENGLISH REFERENCE): Ency
 v2.0 — Version milestone; template alignment (V-A, VI Orthogonality, VII What ARC Does Not Govern). February 2026.
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 India. Covers both real-time news and longer-term official

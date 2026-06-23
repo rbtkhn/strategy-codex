@@ -18,7 +18,7 @@
 - **Engagement** (Duolingo streaks, Deci & Ryan SDT) — autonomy, competence, relatedness. 4-option rule supports autonomy. Avoid extrinsic overload; meet where they are (AGENTS rule 7).
 - **AI tutor pattern** (Khanmigo) — guide, do not give answers. Grace-Mar prompt encodes tutor-as-guide; knowledge boundary = Record only.
 - **Vocabulary in context** (Beck, NRP) — differentiator vs drill apps. Curate-library supplies texts at edge Lexile.
-- **No universal solution** (Cornell MOOC study, Tomlinson) — differentiate by readiness, interest, profile. IX-A/B/C + edge implement this.
+- **No universal solution** (Cornell MOOC study, Tomlinson) — differentiate by readiness, interest, profile. museum knowledge section A/B/C + edge implement this.
 - **Platform evolution** — CD-ROM → web → mobile → AI. Delivery-agnostic prompt design future-proofs Grace-Mar.
 - **Rosetta Stone vs Duolingo** — bite-sized, low-friction, formative loop, engagement mechanics matter more than immersion alone.
 
@@ -168,9 +168,9 @@ flowchart LR
 
 - **Cornell MOOC study:** No single intervention works for all learners. Target by circumstance.
 - **Tomlinson (differentiation):** Readiness, interest, learning profile.
-- **Grace-Mar:** IX-A (readiness), IX-B (interest), IX-C (platform/profile). Edge = readiness.
+- **Grace-Mar:** museum knowledge section A (readiness), museum knowledge section B (interest), museum knowledge section C (platform/profile). Edge = readiness.
 
-**Insight for Grace-Mar:** Record-driven personalization (IX-A/B/C, edge) implements differentiation. Human-teacher modulates; agentic proposals (Phase 5) support, do not compel.
+**Insight for Grace-Mar:** Record-driven personalization (museum knowledge section A/B/C, edge) implements differentiation. Human-teacher modulates; agentic proposals (Phase 5) support, do not compel.
 
 ### I. Platform Evolution and Delivery
 
@@ -191,7 +191,7 @@ flowchart LR
 Synthesized from market and agent-orchestration discourse (All-In podcast, 2025):
 
 - **Agent maestro as skill** — The person who creates agents, trains them, and manages them (not a developer) is an emerging high-leverage role. Change management and leading adoption of new tools create career opportunity. Grace-Mar: human-teacher is the maestro; the lesson prompt structures what the agent does; the Record documents outcomes.
-- **Record as skills file** — Agents have a "skills file" refined weekly from external sources; the Record parallels this: IX-A/B/C + EVIDENCE grow each cycle. "We did X" feeds back; the next prompt reflects what was done. Recursive refinement.
+- **Record as skills file** — Agents have a "skills file" refined weekly from external sources; the Record parallels this: museum knowledge section A/B/C + EVIDENCE grow each cycle. "We did X" feeds back; the next prompt reflects what was done. Recursive refinement.
 - **Evidence over narrative** — AI discourse is "dueling science fiction narratives." Serious analysis favors observed outcomes over speculative takes. Grace-Mar: EVIDENCE and "We did X" over abstract claims; analyst and prompts prefer observable evidence.
 - **Jevons paradox** — When the cost of something supply-constrained falls, demand rises. AI augments; it doesn't replace. Tutor + agent = leverage, not elimination. Grace-Mar: human-teacher + LLM = augmentation; Record documents growth.
 - **Structure + execution** — Human provides structure (what to do, when, how); agent executes. Lesson prompt = structure; LLM = execution. Human-teacher modulates; system runs the session.
@@ -209,7 +209,7 @@ Synthesized from market and agent-orchestration discourse (All-In podcast, 2025)
 | **human-teacher** | Formative loop (Black & Wiliam, "We did X"); one prompt per day; tutor-as-guide (Khanmigo); 4-option autonomy; meet where they are (Deci & Ryan, agency). |
 | **curate-library** | Vocabulary-in-context (Beck, NRP); texts at edge Lexile; LIBRARY as lookup source for lessons. |
 | **health-fitness** | Meet where they are; no compulsion; agency. |
-| **lesson generator** | IX-A/B/C + edge = differentiation (Tomlinson); short activities (CLT); mastery threshold in rules. |
+| **lesson generator** | museum knowledge section A/B/C + edge = differentiation (Tomlinson); short activities (CLT); mastery threshold in rules. |
 
 
 **human-teacher:** The formative loop ("We did X" → Record → next prompt) is the core feedback mechanism. One prompt per day reduces friction; 4-option rule supports autonomy. Tutor-as-guide aligns with Khanmigo; knowledge boundary = Record only. See [work-human-teacher roadmap](work-human-teacher/roadmap.md).
@@ -218,7 +218,7 @@ Synthesized from market and agent-orchestration discourse (All-In podcast, 2025)
 
 **health-fitness:** Meet where they are; no compulsion. Agency and autonomy apply across work. See [work-health-fitness](work-health-fitness/README.md).
 
-**lesson generator:** IX-A/B/C + edge implement Tomlinson-style differentiation. Short activities and mastery threshold in rules align with CLT and Bloom. See [work-lesson-generation-walkthrough](work-lesson-generation-walkthrough.md).
+**lesson generator:** museum knowledge section A/B/C + edge implement Tomlinson-style differentiation. Short activities and mastery threshold in rules align with CLT and Bloom. See [work-lesson-generation-walkthrough](work-lesson-generation-walkthrough.md).
 
 ---
 
@@ -233,7 +233,7 @@ Actionable principles distilled from the history and insights:
 5. **Teach at the edge (ZPD).** Use THINK/MATH/WORK edge from Record. 90% mastery to advance; 80–85% in-lesson success.
 6. **Short activities.** 10–15 min per activity; 4 segments of 25–30 min; 2-hour ceiling. Respects cognitive load (Sweller).
 7. **Vocabulary in context.** One new word per reading; student-friendly definition; hint from Record. Curate-library supplies texts at edge Lexile.
-8. **Differentiate by IX-A/B/C + edge.** Readiness = edge; interest = IX-B; profile = IX-C. No universal solution; personalize from Record.
+8. **Differentiate by museum knowledge section A/B/C + edge.** Readiness = edge; interest = museum knowledge section B; profile = museum knowledge section C. No universal solution; personalize from Record.
 9. **Delivery-agnostic.** Prompt + any LLM; no proprietary stack. Future-proofs against platform shifts.
 10. **Meet where they are.** Avoid extrinsic overload; companion sovereign; proposals, not prescriptions (AGENTS rule 7).
 
@@ -267,4 +267,4 @@ Actionable principles distilled from the history and insights:
 **Related Grace-Mar docs**
 
 - [work-human-teacher/roadmap](work-human-teacher/roadmap.md) — Phases 1–5, formative loop, agentic proposals.
-- [work-lesson-generation-walkthrough](work-lesson-generation-walkthrough.md) — Flow, prompt shape, IX-A/B/C usage.
+- [work-lesson-generation-walkthrough](work-lesson-generation-walkthrough.md) — Flow, prompt shape, museum knowledge section A/B/C usage.

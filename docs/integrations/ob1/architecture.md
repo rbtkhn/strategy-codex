@@ -34,7 +34,7 @@ companion-self repo          Bridge (export)              OB1
 ┌──────────────────┐    ┌──────────────────────┐    ┌──────────────┐
 │ self.md           │    │ Export script         │    │ Recipe or    │
 │ self-archive.md   │───>│  - read-only walk    │───>│ manual       │
-│ self-memory.md    │    │  - include/exclude    │    │ ingest       │
+│ memory.md    │    │  - include/exclude    │    │ ingest       │
 │ (governed files)  │    │  - fingerprint + id   │    │              │
 └──────────────────┘    │  - metadata sidecars  │    │ Supabase     │
                         │  - deterministic      │    │ thoughts     │

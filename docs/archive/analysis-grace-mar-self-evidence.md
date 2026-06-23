@@ -13,13 +13,13 @@
 
 **"Self-archive/placeholders/evidence"** is not a canonical term in grace-mar. ID-TAXONOMY and CONCEPTUAL-FRAMEWORK define companion self as:
 
-- self-knowledge, self-curiosity, self-personality  
+- museum identity knowledge (archive), self-curiosity, self-personality  
 - self-skill-write, self-skill-think, self-skill-work  
-- self-archive, self-library, self-memory, self-voice  
+- self-archive, self-library, memory, self-voice  
 
 There is no **self-evidence** label. The Record module that holds raw activity is **EVIDENCE** (`self-evidence.md`).
 
-**EVIDENCE** = the canonical activity log. It is the *source* for SELF (IX-A/B/C via `evidence_id`) and SKILLS (WRITE/THINK/WORK samples). It holds:
+**EVIDENCE** = the canonical activity log. It is the *source* for SELF (museum knowledge section A/B/C via `evidence_id`) and SKILLS (WRITE/THINK/WORK samples). It holds:
 
 | Section | Prefix | Description |
 |---------|--------|-------------|
@@ -59,7 +59,7 @@ Raw evidence â†’ pipeline â†’ SELF/SKILLS. EVIDENCE is canonical; SELF
 
 | File | Purpose | Redundancy |
 |------|---------|------------|
-| self.md | Identity, IX-A/B/C | None |
+| self.md | Identity, museum knowledge section A/B/C | None |
 | skills.md | WRITE, THINK, BUILD containers | None |
 | self-evidence.md | Raw activity logs | None |
 | self-library.md | Curated references, canon, and influential media | None |
@@ -73,7 +73,7 @@ Raw evidence â†’ pipeline â†’ SELF/SKILLS. EVIDENCE is canonical; SELF
 | File | Purpose | Redundancy |
 |------|---------|------------|
 | session-transcript.md | Raw conversation log, operator continuity | None â€” different lifecycle from self-archive |
-| self-memory.md | Self-memory: short/medium/long continuity; non-Record, rotatable | None |
+| memory.md | Self-memory: short/medium/long continuity; non-Record, rotatable | None |
 | companion-context.md | Companion artistic style, personality | None â€” human context, not Record |
 
 ### Seed / Survey

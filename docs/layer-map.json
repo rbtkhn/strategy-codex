@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "layers": {
-    "self": ["self-personality", "self-curiosity", "self-memory", "self-identity", "self-knowledge"],
+    "self": ["self-personality", "self-curiosity", "memory", "self-identity", "museum identity knowledge (archive)"],
     "skill": ["self-skill-think", "self-skill-write", "self-skill-work", "self-skill-steward"],
     "work_coordination": ["self-work"],
     "record_concept": ["core-truth", "operational", "archive/placeholders/evidence", "transient"],

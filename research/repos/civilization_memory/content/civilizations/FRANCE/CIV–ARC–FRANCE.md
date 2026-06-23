@@ -502,7 +502,7 @@ Future versions may add:
 • Regional specialists (Provence, Brittany, Alsace)
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 Francia. Covers both real-time news sources and longer-term

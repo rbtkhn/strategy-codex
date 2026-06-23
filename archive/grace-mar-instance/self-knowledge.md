@@ -1,3 +1,5 @@
+<!-- MUSEUM: Not active SSOT for strategy-codex. See docs/archive/grace-mar-record-museum.md -->
+
 # SELF-KNOWLEDGE — grace-mar
 
 Canonical IX-A knowledge surface for the fork. Durable LEARN entries live here; `self.md` keeps the compact overview and pointer.

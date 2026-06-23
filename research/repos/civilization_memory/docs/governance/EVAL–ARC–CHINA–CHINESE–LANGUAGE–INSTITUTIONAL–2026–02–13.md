@@ -1,7 +1,7 @@
 # Evaluation: CIV–ARC–CHINA — Adequacy of Chinese-Language Institutional Sources
 
 **Date:** 2026-02-13  
-**Scope:** ARC-T-INSTITUTIONAL (Section IX-B) and implied language of listed sources  
+**Scope:** ARC-T-INSTITUTIONAL (Section museum knowledge section B) and implied language of listed sources  
 **Question:** Is ARC–CHINA adequate for Chinese-language institutional sources when STATE or MEM work requires institutional voice from China in Chinese?
 
 ────────────────────────────────────────────────────────────
@@ -83,7 +83,7 @@ V. RECOMMENDATIONS
 ────────────────────────────────────────────────────────────
 
 **A. Minimal (clarify without adding sources)**  
-- In Section IX-B, add a short **language note**: “Where a listed PRC institution (MFA, PBC, NPC, Xinhua, CASS) publishes in both Chinese and English, both language versions are authorised. Prefer the language version that matches the primary document or statement being cited.”  
+- In Section museum knowledge section B, add a short **language note**: “Where a listed PRC institution (MFA, PBC, NPC, Xinhua, CASS) publishes in both Chinese and English, both language versions are authorised. Prefer the language version that matches the primary document or statement being cited.”  
 - For State Council, add the Chinese portal: **www.gov.cn** (or gov.cn) with note “Chinese-language; for English see english.gov.cn.”
 
 **B. Add explicit Chinese-language institutional sources**  

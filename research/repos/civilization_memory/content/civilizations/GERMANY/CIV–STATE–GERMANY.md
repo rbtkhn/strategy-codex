@@ -854,7 +854,7 @@ Doctrine audit (11 Feb 2026, ARC-sourced) | No doctrine contradicted;
 01, 02, 05, 06, 07, 08 consistent with ARC evidence | File:
 STATE–GERMANY–DOCTRINE–AUDIT–ARC–2026–02–11.md | Sources: Bundesregierung,
 Bundestag, Bundesbank, European Commission, ifo, SWP, IISS (CIV–ARC–
-GERMANY IX-B). Doctrines 03 (closure), 04 (discipline inversion)
+GERMANY museum knowledge section B). Doctrines 03 (closure), 04 (discipline inversion)
 untested in window. Precedent used: MEM–GERMANY–WEIMAR–HYPERINFLATION,
 MEM–GERMANY–WEIMAR, MEM–GERMANY–BISMARCK, MEM–GERMANY–CONGRESS–VIENNA.
 Session also applied three-perspective assessment to coalition cohesion

@@ -4,7 +4,7 @@
 
 **Purpose:** Route **Mercouris**, **Mearsheimer**, and **Barnes** to the right **civilization_memory** (civ-mem) slices so analysis is **grounded**, not vibes-only. **Minds** = lenses ([`strategy-notebook/minds/CIV-MIND-*.md`](../strategy-notebook/minds/)); **civ-mem** = MEM / STATE / SCHOLAR / ARC / CORE evidence.
 
-**Where the repo lives:** [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” also symlinked as [`SELF-LIBRARY/civilization_memory`](../../../../SELF-LIBRARY/civilization_memory). **LIB:** [LIB-0157](../../../../self-library.md#operator-analytical-books). **Not** the same as [LIB-0132](../../../../self-library.md) (`docs/civilization-memory/` satellite essays).
+**Where the repo lives:** [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” also symlinked as [`civilization_memory`](../../../../civilization_memory). **LIB:** [](../../../../self-library.md#operator-analytical-books). **Not** the same as [](../../../../self-library.md) (`docs/civilization-memory/` satellite essays).
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## Governance
 
-- CIV-MEM retrieval is **reference / WORK** â€” not SELF-KNOWLEDGE until gated. See [`docs/cmc-routing.md`](../../../cmc-routing.md), [`SELF-LIBRARY/CIV-MEM.md`](../../../../SELF-LIBRARY/CIV-MEM.md).
+- CIV-MEM retrieval is **reference / WORK** â€” not museum knowledge until gated. See [`docs/cmc-routing.md`](../../../cmc-routing.md), [`CIV-MEM.md`](../../../../CIV-MEM.md).
 
 ---
 

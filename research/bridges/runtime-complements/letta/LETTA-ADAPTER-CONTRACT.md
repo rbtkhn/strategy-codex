@@ -42,7 +42,7 @@ Runtime complement only.
 
 Letta **memory blocks** (if you map them in a Letta runtime) are **runtime
 context** only. They may help a Letta agent stay consistent in-session. They
-are not Grace-Mar **SELF**, **EVIDENCE**, **SKILLS**, or **SELF-LIBRARY**.
+are not Grace-Mar **SELF**, **EVIDENCE**, **SKILLS**, or **removed operator-books symlink**.
 
 ## Import boundary
 

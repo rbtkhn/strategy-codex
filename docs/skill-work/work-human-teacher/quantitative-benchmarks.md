@@ -8,7 +8,7 @@ Benchmarks to track personalized growth, engagement, formative loop health, and 
 
 | Metric | Description | Source |
 |--------|-------------|--------|
-| **IX growth per week** | IX-A/B/C entries merged per week | self.md evolution log |
+| **IX growth per week** | museum knowledge section A/B/C entries merged per week | self.md evolution log |
 | **Evidence rate** | ACT-*, WRITE-*, CREATE-* entries per week | self-evidence.md |
 | **Lesson-sourced merge rate** | Approved / total lesson-sourced candidates | recursion-gate.md |
 | **Handback → merge latency** | Days from "we did X" stage to merge | recursion-gate.md, pipeline-events |
@@ -23,7 +23,7 @@ Benchmarks to track personalized growth, engagement, formative loop health, and 
 
 | Metric | Description | Source |
 |--------|-------------|--------|
-| IX growth per week | IX-A/B/C entries merged per week | self.md evolution log |
+| IX growth per week | museum knowledge section A/B/C entries merged per week | self.md evolution log |
 | Evidence rate | ACT-*, WRITE-*, CREATE-* entries per week | self-evidence.md |
 | Activity mix | Ratio of WRITE vs CREATE vs ACT (curated observation) | self-evidence.md |
 | Lookup approval rate | Knowledge lookups approved / total requested | recursion-gate.md, ACT entries |
@@ -59,7 +59,7 @@ Benchmarks to track personalized growth, engagement, formative loop health, and 
 | Metric | Description | Source |
 |--------|-------------|--------|
 | Evidence diversity | Distinct activity types per month (WRITE, CREATE, ACT, lookup) | self-evidence.md |
-| Curiosity uptake | IX-B entries merged per month | self.md IX-B |
+| Curiosity uptake | museum knowledge section B entries merged per month | self.md museum knowledge section B |
 | Lexile trajectory | Writing sample Lexile over time (if analyzed) | WRITE evidence, scripts |
 | Wisdom-question responses | Count of wisdom questions answered in bot | session-transcript, self-archive.md |
 

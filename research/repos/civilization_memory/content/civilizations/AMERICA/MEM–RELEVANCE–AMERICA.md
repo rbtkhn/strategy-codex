@@ -677,7 +677,7 @@ Secondary MEMs:
 • MEM–ANGLIA–CHURCHILL — Coalition leadership and narrative
 
 ────────────────────────────────────────────────────────────
-IX-B. CAPITAL CONCENTRATION / GILDED AGE / PROCEDURAL RESPONSE
+museum knowledge section B. CAPITAL CONCENTRATION / GILDED AGE / PROCEDURAL RESPONSE
 ────────────────────────────────────────────────────────────
 Relevant when: Private authority vs. state procedure; concentration
 before regulation; legitimacy of capital; trust-busting, Fed, ICC.
@@ -698,7 +698,7 @@ Secondary MEMs:
 • MEM–AMERICA–GREAT–DEPRESSION — Contrast: no single private rescuer; New Deal as procedural response
 
 ────────────────────────────────────────────────────────────
-IX-C. HEIRS / SECOND GENERATION / SECTIONAL CONFLICT
+museum knowledge section C. HEIRS / SECOND GENERATION / SECTIONAL CONFLICT
 ────────────────────────────────────────────────────────────
 Relevant when: Second generation after founding; Union preservation
 vs state sovereignty; compromise and sectional rivalry; slavery and

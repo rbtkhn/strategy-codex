@@ -1,6 +1,6 @@
 ﻿# Coming from OB1? Start here
 
-> **Record frozen (2026):** Growing the Grace-Mar cognitive fork is **not** a `strategy-codex` objective. Default onboarding: [start-here.md](start-here.md) (interpretive machine). This page maps **legacy** OB1 → Grace-Mar gate surfaces for **`fork revive`** only. See [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md).
+> **Record frozen (2026):** Growing the Grace-Mar interpretive machine is **not** a `strategy-codex` objective. Default onboarding: [start-here.md](start-here.md) (interpretive machine). This page maps **legacy** OB1 → Grace-Mar gate surfaces for **`fork revive`** only. See [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md).
 
 Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Precise legacy doctrine: [glossary.md](glossary.md), [conceptual-framework.md](conceptual-framework.md).
 
@@ -10,7 +10,7 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 
 | If you think inâ€¦ | In Grace-Mar |
 |------------------|--------------|
-| **Library** | **SELF-LIBRARY** â€” display label **Library** ([scripts/surface_aliases.py](../scripts/surface_aliases.py)) |
+| **Library** | **removed operator-books symlink** â€” display label **Library** ([scripts/surface_aliases.py](../scripts/surface_aliases.py)) |
 | **Skills** (executable packs) | Two layers: **SKILLS** (Record capability in `self-skills.md`) vs **portable skills** (`skills/`). See [skills-explained.md](skills-explained.md). |
 | **Evidence / activity log** | **EVIDENCE** â€” canonical body on `self-archive.md` |
 | **Pending approvals / review queue** | **Approval Inbox** â€” user-facing name for pending candidates in [`recursion-gate.md`](../recursion-gate.md) (canonical file name: **recursion-gate**). **Boundary Review** (classification hints) is related but not the whole inbox; see [boundary-review-queue.md](boundary-review-queue.md). |
@@ -31,9 +31,9 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 
 ## What is different
 
-- **Four Record surfaces** â€” SELF, SELF-LIBRARY, SKILLS, EVIDENCE â€” not a single undifferentiated DB ([README.md](../README.md) Concept).
+- **Four Record surfaces** â€” SELF, removed operator-books symlink, SKILLS, EVIDENCE â€” not a single undifferentiated DB ([README.md](../README.md) Concept).
 - **No silent merge into the Record** â€” staging is not adoption; merge runs only after approval (`process_approved_candidates.py`).
-- **Identity vs library** â€” SELF-KNOWLEDGE (who she is) vs SELF-LIBRARY (reference corpora) â€” [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
+- **Identity vs library** â€” museum knowledge (who she is) vs removed operator-books symlink (reference corpora) â€” [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md).
 - **Template state model** â€” evidence vs prepared context vs governed state complements the four surfaces ([state-model.md](state-model.md)).
 
 ---

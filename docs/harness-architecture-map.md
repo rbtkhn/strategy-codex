@@ -114,7 +114,7 @@ Routing law: *what system is emerging* (singularity) vs *what object must be jud
 
 ## Record frozen (default)
 
-Growing the Grace-Mar cognitive fork is **not** a system objective. Embedded Record under `archive/grace-mar-instance/` is archaeology; gate promotion applies only on explicit **`fork revive`**. [docs/archive/grace-mar.md](archive/grace-mar.md) · [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)
+Growing the Grace-Mar interpretive machine is **not** a system objective. Embedded Record under `archive/grace-mar-instance/` is archaeology; gate promotion applies only on explicit **`fork revive`**. [docs/archive/grace-mar.md](archive/grace-mar.md) · [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)
 
 ---
 

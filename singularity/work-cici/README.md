@@ -149,8 +149,8 @@ Regression rule: if a runbook, source list, script constant, workshop link, or o
 
 ## Words we use (avoid confusion)
 
-- **Cognitive fork / Record** â€” The governed self (Identity Fork Protocol). Not â€œa copy of someone elseâ€™s markdown tree.â€
-- **Git repository / instance repo** â€” Where that Record lives: **Ciciâ€™s companion or chosen instance repo** (on GitHub it is **often** still the literal name `companion-xavier`). â€œForkâ€ on GitHub is **hosting**; it is not the same word as **cognitive fork**.
+- **Interpretive machine / Record** â€” The governed self (Identity Fork Protocol). Not â€œa copy of someone elseâ€™s markdown tree.â€
+- **Git repository / instance repo** â€” Where that Record lives: **Ciciâ€™s companion or chosen instance repo** (on GitHub it is **often** still the literal name `companion-xavier`). â€œForkâ€ on GitHub is **hosting**; it is not the same word as **interpretive machine**.
 - **Mirror / track / sync** â€” Use for `work-*` **advisor** layouts you keep **aligned over time** with a golden source. Prefer this over **â€œfork onceâ€** when you mean **ongoing** alignment.
 
 **External Open Brain / instance repo:** the [**Cici**](https://github.com/Xavier-x01/Cici) repo (OB1 **instance** layer on GitHub â€” config, docs, governed state) is Ciciâ€™s public instance (**@Xavier-x01** on GitHub); digest and cross-links: [cici-notebook](cici-notebook/README.md), [work-cici-history](work-cici-history.md) `### 2026-04-10`. That is distinct from the **companion-self** `companion-*` Record repo and from **this** advisor folder.

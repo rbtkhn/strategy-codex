@@ -14,7 +14,7 @@ Candidates are the **input** to the review pipeline. They are not facts until re
 
 ## What candidates are not
 
-- Not canonical Record content. A candidate in `pending` state has no authority over SELF, SELF-LIBRARY, SKILLS, or EVIDENCE.
+- Not canonical Record content. A candidate in `pending` state has no authority over SELF, removed operator-books symlink, SKILLS, or EVIDENCE.
 - Not a second memory system. Candidates enter the existing gated pipeline — `recursion-gate.md` staging, companion approval, `process_approved_candidates.py` merge.
 - Not auto-merged. No candidate becomes Record truth without explicit human review.
 
@@ -36,7 +36,7 @@ The formal schema is at [`schemas/registry/working-identity-candidate.v1.json`](
 | `durability_class` | enum | `ephemeral`, `recurring`, `stable` |
 | `sensitivity_class` | enum | `safe`, `review_required`, `non_portable` |
 | `portability_class` | enum | `cross_tool`, `role_specific`, `employer_bound`, `non_exportable` |
-| `proposed_target_surface` | enum | `SELF`, `SELF-LIBRARY`, `SKILLS`, `EVIDENCE` |
+| `proposed_target_surface` | enum | `SELF`, `removed operator-books symlink`, `SKILLS`, `EVIDENCE` |
 
 ### Recommended fields
 

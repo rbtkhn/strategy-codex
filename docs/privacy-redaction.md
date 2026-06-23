@@ -17,7 +17,7 @@
 
 ## school view
 
-**Included:** Identity (name, age, languages — but birthdate and location redacted), preferences, linguistic style, personality, interests, values, reasoning, narrative (with redactions), post-seed growth (IX-A/B/C).
+**Included:** Identity (name, age, languages — but birthdate and location redacted), preferences, linguistic style, personality, interests, values, reasoning, narrative (with redactions), post-seed growth (museum knowledge section A/B/C).
 
 **Excluded / redacted:**
 - `birthdate` → `[redacted]`

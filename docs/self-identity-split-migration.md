@@ -1,4 +1,4 @@
-# self-knowledge -> self-knowledge + self-identity migration (grace-mar)
+# museum identity knowledge (archive) -> museum identity knowledge (archive) + self-identity migration (grace-mar)
 
 Purpose: propagate the template split safely in the instance without risky direct rewrites of existing Record truth.
 
@@ -18,7 +18,7 @@ Purpose: propagate the template split safely in the instance without risky direc
 2. **Scaffold**: add `self-identity.md` only when companion approves activation for that instance.
 3. **Gated reclassification**:
    - New identity-commitment signals stage to `self-identity.md` targets.
-   - Knowledge facts continue to stage to IX-A / self-knowledge.
+   - Knowledge facts continue to stage to museum knowledge section A / museum identity knowledge (archive).
 4. **Optional backfill**:
    - Only move legacy lines if companion explicitly approves candidate-by-candidate migration.
 
@@ -26,7 +26,7 @@ Purpose: propagate the template split safely in the instance without risky direc
 
 ## Classification rule of thumb
 
-- Put in `self-knowledge`:
+- Put in `museum identity knowledge (archive)`:
   - factual understanding, learned topics, observations
 - Put in `self-identity`:
   - durable "who I am / who I am becoming"

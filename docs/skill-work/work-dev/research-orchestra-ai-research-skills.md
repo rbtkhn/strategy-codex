@@ -24,7 +24,7 @@ For Grace-Mar, the stakes are project judgment: Autoresearch should make work-de
 | **WORK** | Strong fit. Autoresearch and domain skills can help plan, execute, draft, and evaluate research projects. | Use selected categories as project templates or agent prompts. Keep outputs in `docs/skill-work/` unless separately staged. |
 | **SKILLS / Record-bound capability** | Possible only after real use produces personal capability evidence. | Gate only companion-specific learnings, proof traces, or reflected capability claims. Do not import upstream skill text into SELF. |
 | **Voice** | Possible as a rendering layer after the Record supports it. | Voice may surface options in the companion's style, but should not pretend the companion has mastered a skill because the repo exists. |
-| **SELF-LIBRARY** | Possible governed reference if the companion approves it later. | Treat the repo like a reference collection, not identity. Preserve dated use traces and provenance if it enters the library. |
+| **removed operator-books symlink** | Possible governed reference if the companion approves it later. | Treat the repo like a reference collection, not identity. Preserve dated use traces and provenance if it enters the library. |
 
 ## Best Borrowable Ideas
 
@@ -77,7 +77,7 @@ The detailed lifecycle lives in the templates: bootstrap, optimization vs discov
 | **Inner loop** | Bounded WORK exploration: inspect sources, run small analyses, draft one artifact, and record logs. |
 | **Outer loop** | Milestone checkpoints: question framed, sources gathered, first synthesis, candidate decision. |
 | **Research output** | Dated WORK research note by default. Gate candidate only when warranted. |
-| **Research memory** | WORK notes and logs only; no automatic SELF, SKILLS, EVIDENCE, SELF-LIBRARY, or Voice update. |
+| **Research memory** | WORK notes and logs only; no automatic SELF, SKILLS, EVIDENCE, removed operator-books symlink, or Voice update. |
 
 Invocation shape:
 
@@ -93,7 +93,7 @@ A full candidate may be prepared only when the run has:
 
 1. cited sources,
 2. a dated WORK log or run artifact,
-3. a clear target surface such as IX-B curiosity, SKILLS evidence, or SELF-LIBRARY reference,
+3. a clear target surface such as museum knowledge section B curiosity, SKILLS evidence, or removed operator-books symlink reference,
 4. an explicit distinction between draft, documented-only, and implemented status.
 
 Rejected or inconclusive runs remain WORK-only unless the human separately chooses to stage an EVIDENCE candidate. The gate example is a drafting aid, not approval.
@@ -132,4 +132,4 @@ Forbidden claims:
 
 ## Integration Guardrail
 
-This repo can deepen Grace-Mar's research scaffolding, especially for reflective, long-horizon, or academic-style projects. Its role is instrumental: it can help WORK produce better candidates, drafts, and proofs. The companion gate remains the only route by which any personal learning, capability evidence, or SELF-LIBRARY reference becomes durable Record material.
+This repo can deepen Grace-Mar's research scaffolding, especially for reflective, long-horizon, or academic-style projects. Its role is instrumental: it can help WORK produce better candidates, drafts, and proofs. The companion gate remains the only route by which any personal learning, capability evidence, or removed operator-books symlink reference becomes durable Record material.

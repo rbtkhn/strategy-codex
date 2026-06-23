@@ -22,8 +22,8 @@ A **governed interpretive machine** — archive → synthesis → judgment objec
 |---------|--------|
 | `archive/grace-mar-instance/` Record files | **Frozen** — no default growth |
 | Voice bots / Telegram / WeChat | **Deprecated** |
-| `self-library.md`, CIV-MEM routing | **Active reference** — not IX-A identity growth |
-| `self-memory.md` | **WORK continuity** — not Record |
+| `self-library.md`, CIV-MEM routing | **Active reference** — not museum knowledge section A identity growth |
+| `memory.md` | **WORK continuity** — not Record |
 
 ---
 

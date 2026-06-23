@@ -42,8 +42,8 @@
 | Surface / law | Canonical paths | Rationale |
 |---------------|-----------------|-----------|
 | Gated pipeline | `recursion-gate.md`, `scripts/process_approved_candidates.py`, `scripts/stage_gate_candidate.py` | Sovereign merge is the killer feature |
-| Record surface partition | `self.md`, `self-knowledge.md`, `self-skills.md`, `self-archive.md`, `self-library.md` — [canonical-paths.md](canonical-paths.md) | File authority prevents bleed (who / can do / did / reference) |
-| Runtime ≠ Record | `self-memory.md`, `session-log.md`, `runtime/artifacts/context/`, [runtime-vs-record.md](runtime-vs-record.md) | Portable harness without vendor lock-in |
+| Record surface partition | `self.md`, `archive/grace-mar-instance/museum-knowledge.md`, `self-skills.md`, `self-archive.md`, `self-library.md` — [canonical-paths.md](canonical-paths.md) | File authority prevents bleed (who / can do / did / reference) |
+| Runtime ≠ Record | `memory.md`, `session-log.md`, `runtime/artifacts/context/`, [runtime-vs-record.md](runtime-vs-record.md) | Portable harness without vendor lock-in |
 | Markdown + git audit trail | repo root, `.github/workflows/` | Institutional memory in diffs |
 | Two operator channels | `statecraft/`, `singularity/`, [operator-two-channel-architecture.md](operator-two-channel-architecture.md) | “System emerging” vs “object to judge” |
 | Work membrane typing | [work-membrane-v2.md](work-membrane-v2.md), `statecraft/work-membrane.md`, `singularity/work-membrane.md` | Stops “one vague non-Record blob” |
@@ -63,10 +63,10 @@
 | **Schema-validated proposals** | `scripts/stage_gate_candidate.py`, `schemas/registry/`, `archive/queues/review-queue/boundary-classifications/` | Machine-first candidates; human-readable gate board renders from JSON | Promote gate blocks to validated JSON; keep markdown export view |
 | **Context budgets declarative** | `platform/config/context_budgets/`, `scripts/compress_active_lane.py`, `scripts/build_skill_cards.py` | Config-driven prepared context; fewer one-off scripts | One manifest: lane → budget → builders |
 | **Instance packaging** | repo-root `self.md`, `archive/grace-mar-instance/bot/`, `grace-mar-llm.txt` | **FROZEN** — operator backup; not growth objective | [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md); optional future `instances/grace-mar/` move |
-| **Voice render split** | `archive/grace-mar-instance/bot/prompt.py`, `scripts/generate_profile.py` | Prompt = policy + render; knowledge loaded from Record surfaces at query time | New candidates stop duplicating IX-A rows into prompt; render layer reads `self-knowledge.md` |
+| **Voice render split** | `archive/grace-mar-instance/bot/prompt.py`, `scripts/generate_profile.py` | Prompt = policy + render; knowledge loaded from Record surfaces at query time | New candidates stop duplicating museum knowledge section A rows into prompt; render layer reads `archive/grace-mar-instance/museum-knowledge.md` |
 | **Skill consolidation** | `.cursor/skills/*` (50+), `skills/manifest.yaml` | ~8–12 primitives; recipes as thin manifests | Audit per [skills-portable-drift-audit-2026-05-22.md](../skills/skills-portable-drift-audit-2026-05-22.md); merge overlapping statecraft-* intake/synthesis skills |
 | **Start-here map** | `docs/architecture.md`, `docs/layer-architecture.md`, scattered ADRs | One `docs/START-HERE.md` + system mermaid + links | This brief + membrane + two-channel as chapter 1 |
-| **MEMORY contract enforcement** | `self-memory.md`, [memory-template.md](memory-template.md) | Explicit regenerable flag + prune checks in `validate-integrity.py` | Add horizon TTL hints in template; wire `scripts/validate-integrity.py` |
+| **MEMORY contract enforcement** | `memory.md`, [memory-template.md](memory-template.md) | Explicit regenerable flag + prune checks in `validate-integrity.py` | Add horizon TTL hints in template; wire `scripts/validate-integrity.py` |
 
 ### FREEZE (read / cite; do not extend)
 
@@ -163,7 +163,7 @@ Bidirectional Obsidian/Notion/Logseq sync is **export-first**; inbound paths are
 ### Phase D — Packaging (optional, high churn)
 
 1. Scaffold `instances/grace-mar/` (or document sibling-repo layout) without breaking `assert_canonical_record_layout()`.
-2. Voice: read knowledge from `self-knowledge.md` at render time; shrink prompt duplication.
+2. Voice: read knowledge from `archive/grace-mar-instance/museum-knowledge.md` at render time; shrink prompt duplication.
 
 ---
 

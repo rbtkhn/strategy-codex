@@ -4,7 +4,7 @@
 
 **Contract — read before adding files**
 
-This folder is **not** a second **strategy-notebook** or **cici-notebook**. **Day-scale, fold-at-dream surfaces** (days.md, `daily-*-inbox`, chapter threads) stay in their home territories. Here we only keep **reusable text** (paste-ready prompts, migration specs, “how we implemented X” references) and the **inward work-dev journal** (LIB-0155). **No secrets** in prose — env var names and paths only. **WORK only**; not Record, not Voice knowledge.
+This folder is **not** a second **strategy-notebook** or **cici-notebook**. **Day-scale, fold-at-dream surfaces** (days.md, `daily-*-inbox`, chapter threads) stay in their home territories. Here we only keep **reusable text** (paste-ready prompts, migration specs, “how we implemented X” references) and the **inward work-dev journal** (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)). **No secrets** in prose — env var names and paths only. **WORK only**; not Record, not Voice knowledge.
 
 | Lane subfolder | Holds | Does **not** replace |
 |----------------|-------|----------------------|
@@ -24,7 +24,7 @@ dev-notebook/
     HISTORY-ANCHORS.md
     identity-fork-protocol-ifp-2026-04-24.md   ← IFP spec (WORK)
     ifp-vs-clawsouls-technical-comparison-2026-04-24.md
-    journal/                 ← dev journal (LIB-0155) + inbox + day-*.md
+    journal/                 ← dev journal (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)) + inbox + day-*.md
   work-cici/
     README.md
     UPSTREAM-MAP.md
@@ -37,7 +37,7 @@ dev-notebook/
     ← add *.md prompts here when they belong in strategy but not the rolling notebook
 ```
 
-**Compatibility:** Older links to `dev-journal/` → [dev-journal/README.md](../dev-journal/README.md). **`SELF-LIBRARY/dev-journal`** symlink → `work-dev/journal/`.
+**Compatibility:** Older links to `dev-journal/` → [dev-journal/README.md](../dev-journal/README.md). **`dev-journal`** symlink → `work-dev/journal/`.
 
 ## Conductor (work-dev)
 

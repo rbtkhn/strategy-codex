@@ -17,7 +17,7 @@ tags:
 
 **Purpose:** Apply three operating modes derived from Persian civilizational continuity (Achaemenid → Parthian → Sassanid) to current strategy work. Each mode is a lens for evaluating posture, not a prescription. The operator selects the mode; the agent applies its logic to the material at hand.
 
-**Source corpus:** `CIV–CORE–PERSIA` / `state-persia` via SELF-LIBRARY / CIV-MEM. This is WORK territory content — not Record, not Voice, not companion identity.
+**Source corpus:** `CIV–CORE–PERSIA` / `state-persia` via removed operator-books symlink / CIV-MEM. This is WORK territory content — not Record, not Voice, not companion identity.
 
 ## Three operating modes
 

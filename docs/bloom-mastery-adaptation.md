@@ -14,7 +14,7 @@
 - **Formative use of evidence** Ã¢â‚¬” Ongoing checks and corrections, not only a final exam.
 - **2 Sigma** Ã¢â‚¬” Bloom’s summary that **one-to-one mastery tutoring** (plus mastery pacing) produced effect sizes near two standard deviations vs conventional group instruction in his studies; later work debates replication and conditions. Here it is an **analogy**: the **Voice** and **operator tools** can play a tutoring-like role **grounded in the Record**, not unbounded model knowledge.
 
-This codebase is **not** a learning management system. The analogy is **adult, self-directed, sovereign** practice on a **cognitive fork**.
+This codebase is **not** a learning management system. The analogy is **adult, self-directed, sovereign** practice on a **interpretive machine**.
 
 ---
 

@@ -10,7 +10,7 @@ These capabilities are live in the grace-mar instance.
 
 | Capability | Implementation | Status |
 |---|---|---|
-| **Governed canonical Record** | Four first-class surfaces: SELF, SELF-LIBRARY, SKILLS, EVIDENCE. Companion approval required for all durable changes. | Live |
+| **Governed canonical Record** | Four first-class surfaces: SELF, removed operator-books symlink, SKILLS, EVIDENCE. Companion approval required for all durable changes. | Live |
 | **Runtime vs Record split** | Durable Record governed by the pipeline; runtime artifacts (skill cards, lane compression, memory briefs, warmup output) are derived and rebuildable. | Live â€” [runtime-vs-record.md](../runtime-vs-record.md) |
 | **Prepared selective retrieval** | Progressive-disclosure index, budgeted context builds, memory briefs. Runtime-only; not Record. | Live â€” [runtime/prepared-context/](../../runtime/prepared-context/), [progressive-disclosure.md](../runtime/prepared-context/progressive-disclosure.md) |
 | **PRP export** | Single pasteable prompt encoding the Record for any LLM. URL bootstrap supported. | Live â€” [`scripts/export_prp.py`](../../scripts/export_prp.py), [portable-record-prompt.md](../portable-record-prompt.md) |

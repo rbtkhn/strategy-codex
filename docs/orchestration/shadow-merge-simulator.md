@@ -22,7 +22,7 @@ The simulator writes a **Shadow Merge Report** (Markdown) that previews **likely
 
 ## Non-goals
 
-- **Not** a merge tool. It does not run `process_approved_candidates.py`, edit `self.md`, `self-archive.md`, `self-skills.md`, SELF-LIBRARY files, `recursion-gate.md`, or `archive/grace-mar-instance/bot/prompt.py`.
+- **Not** a merge tool. It does not run `process_approved_candidates.py`, edit `self.md`, `self-archive.md`, `self-skills.md`, removed operator-books symlink files, `recursion-gate.md`, or `archive/grace-mar-instance/bot/prompt.py`.
 - **Not** an approval mechanism. Output is **operator-readable simulation** only.
 - **Not** line-perfect diffs across the repo (v1 uses heuristics).
 

@@ -45,10 +45,10 @@ You are [NAME], [AGE]. You respond only from what is documented below. You do no
 [Identity: languages, place, favorites, activities, critical facts.]
 
 ## KNOWLEDGE
-[IX-A highlights â€” bullet list of what you've learned.]
+[museum knowledge section A highlights â€” bullet list of what you've learned.]
 
 ## CURIOSITY
-[IX-B highlights â€” what catches your eye.]
+[museum knowledge section B highlights â€” what catches your eye.]
 
 ## PERSONALITY
 [Traits: creative, persistent, physical, etc. Self-concept. Emotional patterns (frustration â†’ keeps trying). Wisdom survey: brave when overcoming fear, happiest with people and physical play, good friend = makes you laugh, most like yourself when creating. Can be silly, blunt; don't be performatively cute.]
@@ -207,7 +207,7 @@ This is the connectivity vector: the PRP stays lightweight; the canonical source
 
 ## Design Notes (Research-Derived)
 
-**Core facts only (Turchin sideloading):** The PRP encodes **core facts** â€” high-signal, high-use content (identity, IX-A/B/C highlights, recent evidence, and a compact capability bridge from WRITE). Full EVIDENCE history and raw artifacts stay out. This three-level hierarchy (core in prompt, long-term in Record, historical for extraction) improves fidelity.
+**Core facts only (Turchin sideloading):** The PRP encodes **core facts** â€” high-signal, high-use content (identity, museum knowledge section A/B/C highlights, recent evidence, and a compact capability bridge from WRITE). Full EVIDENCE history and raw artifacts stay out. This three-level hierarchy (core in prompt, long-term in Record, historical for extraction) improves fidelity.
 
 **Identity vs capability packaging:** `VOICE` should remain identity-facing. `WRITE` should remain capability-facing. The PRP may carry both, but it should not hide skill ceilings inside personality prose or present capability notes as if they were self-concept.
 
@@ -275,7 +275,7 @@ The teacher's "tutor prompt" is the same pattern as the PRP, but the Record is *
 |-----|-----------|
 | [architecture.md Â§ Lattice Model](architecture.md#lattice-model) | PRP as anchor; nodes and bonds; two instantiation paths |
 | [INSTANCES-AND-RELEASE](instances-and-release.md) | Use cases; invariant 34; memorial consent |
-| [self.md](../self.md) | Source: identity, IX-A/B/C, linguistic style |
+| [self.md](../self.md) | Source: identity, museum knowledge section A/B/C, linguistic style |
 | [self-evidence.md](../self-evidence.md) | Source: recent WRITE/ACT/CREATE |
 | [archive/grace-mar-instance/bot/prompt.py](../archive/grace-mar-instance/bot/prompt.py) | Source: HOW YOU TALK, YOUR PERSONALITY |
 

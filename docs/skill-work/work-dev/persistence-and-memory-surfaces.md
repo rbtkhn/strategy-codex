@@ -2,7 +2,7 @@
 
 **Status:** Operator WORK. **Not** Record truth. Template-portable companion-self guidance.
 
-**Purpose:** Map **what persists where** so operators and template adopters do not confuse **vendor chat memory**, **session paste**, **self-memory**, **RECURSION-GATE**, and **merged SELF/EVIDENCE**. Aligns the “outcome agent trap” dimensions (persistent memory, inspectable surfaces, compounding context) with this architecture.
+**Purpose:** Map **what persists where** so operators and template adopters do not confuse **vendor chat memory**, **session paste**, **memory**, **RECURSION-GATE**, and **merged SELF/EVIDENCE**. Aligns the “outcome agent trap” dimensions (persistent memory, inspectable surfaces, compounding context) with this architecture.
 
 **Related:** [session-continuity-contract.md](session-continuity-contract.md), [three-compounding-loops.md](three-compounding-loops.md), [openclaw-integration.md](../../openclaw-integration.md), [identity-fork-protocol.md](../../identity-fork-protocol.md), [delegation-spec-external-agents.md](delegation-spec-external-agents.md).
 
@@ -14,7 +14,7 @@
 |--------|---------------|------------|----------------------------|----------------------|
 | **Merged SELF, EVIDENCE (`self-archive.md`), `archive/grace-mar-instance/bot/prompt.py`** | Canonical identity, activity log, Voice prompt | **Only** via `scripts/process_approved_candidates.py` (or receipt flow) after companion approval | Yes — markdown + git history | **Yes** — Loop 1 |
 | **`recursion-gate.md`** | Staged candidates (not yet Record) | Analyst, operators, `openclaw_stage`, integrations — **stage only** | Yes | **No** until approved and merged |
-| **`self-memory.md`** | Short/medium/long **continuity** (tone, loops, pointers) | Operator/companion per [memory-template.md](../../memory-template.md); not pipeline output | Yes | **No** — MEMORY is explicitly non-authoritative vs SELF ([AGENTS.md](../../../AGENTS.md)) |
+| **`memory.md`** | Short/medium/long **continuity** (tone, loops, pointers) | Operator/companion per [memory-template.md](../../memory-template.md); not pipeline output | Yes | **No** — MEMORY is explicitly non-authoritative vs SELF ([AGENTS.md](../../../AGENTS.md)) |
 | **Session transcript / chat UI** | Raw conversation (instance-dependent) | Bot/Mini App append | Often yes as a file | **No** — not gated Record |
 | **Harness / new thread paste** | Nothing unless saved — ephemeral model context | Human pastes warmup output | N/A | **No** |
 | **External outcome agent** (Lindy, Opal, SaaS thread, etc.) | Vendor-controlled memory + artifacts **outside** repo until imported | Third-party product | Varies — often **partial** (final answer only) | **No** — hand back → stage → merge if it should touch Record |

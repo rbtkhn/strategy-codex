@@ -23,8 +23,8 @@ Grace-Mar now names four portable harness lanes:
 
 | Lane | Role | Canonical status | Primary surfaces |
 |------|------|------------------|------------------|
-| **record** | Companion-owned truth | Canonical | `self.md` (identity + SELF-KNOWLEDGE), `self-skills.md`, **`self-archive.md`** (EVIDENCE body), optional `self-evidence.md` pointer, `self-library.md` (SELF-LIBRARY; CIV-MEM subdomain), PRP â€” see [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md); library domains indexed in [self-library-domains.md](self-library-domains.md) |
-| **runtime** | Live-session continuity | Non-canonical | `self-memory.md`, `session-transcript.md`, warmup output, session-log tail |
+| **record** | Companion-owned truth | Canonical | `self.md` (identity + museum knowledge), `self-skills.md`, **`self-archive.md`** (EVIDENCE body), optional `self-evidence.md` pointer, `self-library.md` (removed operator-books symlink; CIV-MEM subdomain), PRP â€” see [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md); library domains indexed in [self-library-domains.md](self-library-domains.md) |
+| **runtime** | Live-session continuity | Non-canonical | `memory.md`, `session-transcript.md`, warmup output, session-log tail |
 | **audit** | Replay, integrity, provenance | Append-only operational history | `pipeline-events.jsonl`, `merge-receipts.jsonl`, `compute-ledger.jsonl`, `harness-events.jsonl`, `fork-manifest.json` |
 | **policy** | Intent and constitutional constraints | Canonical policy, not identity | `intent.md`, `intent_snapshot.json`, manifest-declared rules |
 
@@ -114,7 +114,7 @@ flowchart TB
 | `homework-ledger.jsonl` | append | Homework probe ledger |
 | Temp file | write + delete | Whisper transcription only |
 
-**Read-only from bot for Record context:** `self.md`, **`self-archive.md`** (EVIDENCE; optional `self-evidence.md` pointer), `self-library.md`, `self-memory.md` (lookup / library / conflict checks). **No direct write** to SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` from core.py.
+**Read-only from bot for Record context:** `self.md`, **`self-archive.md`** (EVIDENCE; optional `self-evidence.md` pointer), `self-library.md`, `memory.md` (lookup / library / conflict checks). **No direct write** to SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` from core.py.
 
 ---
 

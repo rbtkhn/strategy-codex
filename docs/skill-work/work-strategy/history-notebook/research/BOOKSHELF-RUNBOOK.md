@@ -1,6 +1,6 @@
 ﻿# Bookshelf runbook (History Notebook)
 
-**WORK only;** not Record. This runbook describes **Bookshelf** (collection name: **self-library-bookshelf**) â€” the **title-level seed catalog** (`bookshelf-catalog.yaml`) for the operatorâ€™s physical library (target ~500 works) that **informs** [History Notebook](../README.md) chapter drafting. **Human overview (Bookshelf vs operator books):** [BOOKSHELF.md](BOOKSHELF.md). **Self-library container:** [LIB-0158 â€” Bookshelf](../../../../self-library.md#bookshelf) (owned print catalog â€” separate from [LIB-0156](../../../../self-library.md#operator-analytical-books) operator-authored chapters). It does **not** replace:
+**WORK only;** not Record. This runbook describes **Bookshelf** (collection name: **self-library-bookshelf**) â€” the **title-level seed catalog** (`bookshelf-catalog.yaml`) for the operatorâ€™s physical library (target ~500 works) that **informs** [History Notebook](../README.md) chapter drafting. **Human overview (Bookshelf vs operator books):** [BOOKSHELF.md](BOOKSHELF.md). **Self-library container:** [ â€” Bookshelf](../../../../self-library.md#bookshelf) (owned print catalog â€” separate from [`docs/skill-work/work-strategy/history-notebook/`](../../../../self-library.md#operator-analytical-books) operator-authored chapters). It does **not** replace:
 
 - [`book-architecture.yaml`](../book-architecture.yaml) â€” chapter SSOT  
 - [`cross-book-map.yaml`](../cross-book-map.yaml) â€” Predictive History â†” HN coverage truth  
@@ -74,7 +74,7 @@ If a title straddles (e.g. one volume covers 400â€“600 AD, or 1400â€“1
 4. **Within-era pass:** dedupe, cluster tags, adjust `candidate_hn_chapters` only as **planning** hints.
 5. **When an era slice feels complete:** optional short summary in this file (dated bullet) or in git commit message â€” not required for v1.
 
-## Relation to SELF-LIBRARY (`LIB-*`)
+## Relation to removed operator-books symlink (`LIB-*`)
 
 Promoting a work to the global companion library ([`docs/library-schema.md`](../../../../library-schema.md)) is **optional**. If you add a `lib_id` on a catalog row, keep `self-library.md` as SSOT for the `LIB-*` entry; the catalog row is a **History-Notebookâ€“scoped** mirror for drafting.
 

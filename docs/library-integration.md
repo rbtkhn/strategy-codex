@@ -3,7 +3,7 @@
 **Canonical file:** `self-library.md`  
 **Schema:** [library-schema.md](library-schema.md)
 
-**Ontology:** **SELF-LIBRARY** is the **reference-facing** Record surface (governed domains, return-to sources). It is **not** SELF-KNOWLEDGE (identity). **CIV-MEM** is a **sub-library** here: LIB rows + hybrid corpus under `docs/civilization-memory/`, not identity content. See [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md). **Declared domains:** [self-library-domains.md](self-library-domains.md) and [self-library-domains.json](self-library-domains.json).
+**Ontology:** **removed operator-books symlink** is the **reference-facing** Record surface (governed domains, return-to sources). It is **not** museum knowledge (identity). **CIV-MEM** is a **sub-library** here: LIB rows + hybrid corpus under `docs/civilization-memory/`, not identity content. See [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md). **Declared domains:** [self-library-domains.md](self-library-domains.md) and [self-library-domains.json](self-library-domains.json).
 
 ---
 
@@ -12,7 +12,7 @@
 | Surface | Role |
 |---------|------|
 | **`archive/grace-mar-instance/bot/core.py`** | Loads **active** LIB entries from `self-library.md` (`_load_library`). |
-| **Lookup order** | **`SELF-LIBRARY → CIV-MEM (CMC) → full web`** (`_lookup_with_library_first`). After library miss, CMC is **the CIV-MEM domain of SELF-LIBRARY** (reference path), not an identity authority. Analyst prompt sees a **text summary** of every active entry: lane, lookup_priority, title, scope. If the analyst returns a hit, Voice rephrases from that text only — **no full web** for that turn. |
+| **Lookup order** | **`removed operator-books symlink → CIV-MEM (CMC) → full web`** (`_lookup_with_library_first`). After library miss, CMC is **the CIV-MEM domain of removed operator-books symlink** (reference path), not an identity authority. Analyst prompt sees a **text summary** of every active entry: lane, lookup_priority, title, scope. If the analyst returns a hit, Voice rephrases from that text only — **no full web** for that turn. |
 | **Scope + priority** | Entries sort into the summary by **lane** (reference first) then **lookup_priority** (`preferred` first, then `high`, `medium`, `low`, `none`). **Scope** tags steer which questions match which sources. |
 
 So: **adding or editing LIB rows with good `scope` and `lookup_priority` directly changes lookup behavior** without prompt merges.

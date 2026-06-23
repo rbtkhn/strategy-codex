@@ -420,7 +420,7 @@ CHANGES:
 • Created docs/governance/CHECKLIST–MEM–CHINA–CHINESE–LANGUAGE–INTEGRATION.md — one-page checklist (source-selection by type, attribution format, exception rule) for Phase 2/3 and new MEMs.
 
 RATIONALE:
-Plan *Major Upgrade: MEM–CHINA Corpus × Chinese-Language Sources*; audit AUDIT–SESSION–MEMS–CHINESE–LANGUAGE–SOURCES–2026–02–13; ARC–CHINA v3.3 MEM authoring note (IX-B). Additive only; no change to RLLs or existing English quotes.
+Plan *Major Upgrade: MEM–CHINA Corpus × Chinese-Language Sources*; audit AUDIT–SESSION–MEMS–CHINESE–LANGUAGE–SOURCES–2026–02–13; ARC–CHINA v3.3 MEM authoring note (museum knowledge section B). Additive only; no change to RLLs or existing English quotes.
 
 ────────────────────────────────────────────────────────────
 00014-B. MEM–CHINA CHINESE-LANGUAGE SOURCE INTEGRATION — PHASE 2 (10 HIGH-PRIORITY MEMs) (13 FEB 2026)

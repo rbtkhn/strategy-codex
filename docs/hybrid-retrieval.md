@@ -8,7 +8,7 @@ A single CLI (`scripts/runtime/hybrid_retrieve.py`) that dispatches queries to t
 
 ## What it is NOT
 
-- **Not Record.** Does not touch SELF, EVIDENCE, SKILLS, SELF-LIBRARY, or `recursion-gate.md`.
+- **Not Record.** Does not touch SELF, EVIDENCE, SKILLS, removed operator-books symlink, or `recursion-gate.md`.
 - **Not promotion logic.** Does not stage candidates, auto-merge, or mutate canonical surfaces.
 - **Not canonical truth.** Search results are retrieval aids, not durable facts.
 - **Not a vector database.** No embedding model, no vector store, no external search backend.

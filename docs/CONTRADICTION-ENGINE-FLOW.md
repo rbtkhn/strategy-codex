@@ -8,7 +8,7 @@
 
 ```
 function on_candidate_staged(candidate, user_id):
-    active_claims = load_active_self_and_skills(user_id)  # IX-A/B/C + skills as applicable
+    active_claims = load_active_self_and_skills(user_id)  # museum knowledge section A/B/C + skills as applicable
     related = retrieve_overlapping_claims(candidate, active_claims)
     if related.empty:
         return classify_only(candidate, "reinforcement")  # or unknown

@@ -11,17 +11,17 @@ This document defines the Record schema, recursion-gate shape, and API contracts
 | Component | File | Fields / structure |
 |-----------|------|--------------------|
 | **SELF** | self.md | Identity baseline (I–VIII); optional pointer to IX. |
-| **KNOWLEDGE** | self-knowledge.md | Topics, facts, understanding; one line per entry; optional evidence id. |
+| **KNOWLEDGE** | archive/grace-mar-instance/museum-knowledge.md | Topics, facts, understanding; one line per entry; optional evidence id. |
 | **IDENTITY** | self-identity.md | Durable identity commitments, boundaries, role commitments, long-horizon identity direction. |
-| **IX-B** | self-curiosity.md | Interests, questions; one line per entry; optional evidence id. |
-| **IX-C** | self-personality.md | Voice, preferences, values, narrative; one line per entry; optional evidence id. |
+| **museum knowledge section B** | self-curiosity.md | Interests, questions; one line per entry; optional evidence id. |
+| **museum knowledge section C** | self-personality.md | Voice, preferences, values, narrative; one line per entry; optional evidence id. |
 | **THINK** | self-skill-think.md | Intake and comprehension; evidence links. |
 | **WRITE** | self-skill-write.md | Expression and voice; evidence links. |
 | **WORK** | self-skill-work.md | Making and doing; evidence links. See **WORK objectives and tasks** below. |
 | **STEWARD** | self-skill-steward.md | Governance literacy — gate participation, boundary vocabulary; evidence links. Does not grant merge authority. |
 | **self-evidence** | self-evidence.md | Activity log entries: `id`, `date`, `summary`, `skill_tag` (THINK \| WRITE \| WORK \| STEWARD). |
 
-All Record files live under ``. Split growth files (`self-knowledge`, `self-identity`, `self-curiosity`, `self-personality`) are the source of truth for post-seed growth.
+All Record files live under ``. Split growth files (`museum identity knowledge (archive)`, `self-identity`, `self-curiosity`, `self-personality`) are the source of truth for post-seed growth.
 
 ---
 
@@ -78,7 +78,7 @@ Array of candidates. Each candidate:
 | raw_text | string | Raw "we did X" or activity text. |
 | skill_tag | string | THINK, WRITE, WORK, or STEWARD. |
 | mind_category | string | knowledge, curiosity, or personality (keyword or default). |
-| suggested_ix_section | string | IX-A, IX-B, or IX-C (target dimension). |
+| suggested_ix_section | string | museum knowledge section A, museum knowledge section B, or museum knowledge section C (target dimension). |
 | created_at | string | ISO date or timestamp. |
 | status | string | "pending" until approved/rejected. |
 
@@ -90,10 +90,10 @@ When staging or merging, the default mapping from **skill_tag** to **suggested_i
 
 | skill_tag | suggested_ix_section | Dimension file |
 |-----------|----------------------|----------------|
-| THINK     | IX-A                 | self-knowledge.md |
-| WRITE     | IX-C                 | self-personality.md |
-| WORK      | IX-B                 | self-curiosity.md |
-| STEWARD   | IX-C                 | self-personality.md (default: values, boundaries, consent vocabulary) |
+| THINK     | museum knowledge section A                 | archive/grace-mar-instance/museum-knowledge.md |
+| WRITE     | museum knowledge section C                 | self-personality.md |
+| WORK      | museum knowledge section B                 | self-curiosity.md |
+| STEWARD   | museum knowledge section C                 | self-personality.md (default: values, boundaries, consent vocabulary) |
 
 Instances may override (e.g. per-activity or LLM-suggested section); this is the template default.
 
@@ -106,13 +106,13 @@ Instances may override (e.g. per-activity or LLM-suggested section); this is the
 **Staged candidate (good):**
 
 1. **Self-contained** — `raw_text` describes what was done with enough context that a reviewer who wasn’t present can understand the activity and reason about where it belongs (dimension/skill).
-2. **Schema-valid** — Has required fields (id, raw_text, skill_tag, mind_category, suggested_ix_section, created_at, status) and values are in allowed sets (THINK/WRITE/WORK/STEWARD; IX-A/IX-B/IX-C).
+2. **Schema-valid** — Has required fields (id, raw_text, skill_tag, mind_category, suggested_ix_section, created_at, status) and values are in allowed sets (THINK/WRITE/WORK/STEWARD; museum knowledge section A/museum knowledge section B/museum knowledge section C).
 3. **Merge-ready** — After approve, the merge logic can write exactly one evidence entry and, when applicable, one dimension line to the correct file without guessing.
 
 **Merge outcome (good):**
 
 1. **Evidence** — One new activity log entry in self-evidence with id, date, summary, skill_tag; id is stable and referenceable (format e.g. ACT-YYYY-MM-DD-&lt;suffix&gt;).
-2. **Dimension (if applicable)** — One new line in the correct growth file (`self-knowledge`, `self-identity`, `self-curiosity`, or `self-personality`) when target section was set; line format matches existing bullets; no duplicate or overwrite of unrelated lines.
+2. **Dimension (if applicable)** — One new line in the correct growth file (`museum identity knowledge (archive)`, `self-identity`, `self-curiosity`, or `self-personality`) when target section was set; line format matches existing bullets; no duplicate or overwrite of unrelated lines.
 3. **Skill file** — One new line in the matching skill file (THINK → self-skill-think.md, WRITE → self-skill-write.md, WORK → self-skill-work.md, STEWARD → self-skill-steward.md); line includes evidence id for linking.
 4. **Gate** — Candidate removed from recursion-gate; no other candidates modified.
 5. **Receipt** — One line appended to merge-receipts.jsonl (candidate_id, raw_text, suggested_ix_section, merged_at).
@@ -129,7 +129,7 @@ GET `/api/edge` returns suggested next focus per THINK, WRITE, WORK, and optiona
 |-------|------|--------------|
 | THINK | string | Suggested next focus for intake/comprehension (e.g. "Keep reading", "Continue with: topic"). |
 | WRITE | string | Suggested next focus for expression (e.g. "Try a short story", "Build on: …"). |
-| WORK | string | Suggested next focus for making/doing. Phrased using self-personality (IX-C) when available. See [CONCEPT](concept.md) §4 "How WORK utilizes self-personality (IX-C)". |
+| WORK | string | Suggested next focus for making/doing. Phrased using self-personality (museum knowledge section C) when available. See [CONCEPT](concept.md) §4 "How WORK utilizes self-personality (museum knowledge section C)". |
 | STEWARD | string (optional) | Suggested next focus for gate literacy (e.g. "Review one pending candidate with a trusted adult"). Omit if the instance does not use STEWARD. |
 
 **Example:** `{ "THINK": "Keep reading", "WRITE": "Try a short story", "WORK": "One small project", "STEWARD": "Name the gate in your own words" }`
@@ -140,7 +140,7 @@ GET `/api/edge` returns suggested next focus per THINK, WRITE, WORK, and optiona
 
 For **Record-driven prompts** (paste into any LLM to trigger a personalized lesson), the template defines a minimal prompt shape. 1 for context and typical flow (3–5 lessons per day, transcript → skill-think).
 
-**Required Record fields for the prompt:** knowledge (IX-A), curiosity (IX-B), personality (IX-C), edge (what’s next per THINK/WRITE/WORK). Optional but useful: skills (THINK, WRITE, WORK arrays) for level and recent activity.
+**Required Record fields for the prompt:** knowledge (museum knowledge section A), curiosity (museum knowledge section B), personality (museum knowledge section C), edge (what’s next per THINK/WRITE/WORK). Optional but useful: skills (THINK, WRITE, WORK arrays) for level and recent activity.
 
 **Data source:** Use **GET `/api/record`** to build the prompt; it returns knowledge, curiosity, personality, skills, edge, and pending count. **GET `/api/export`** returns the curriculum profile (knowledge, curiosity, personality, edge, evidenceCount, exportDate, screen_time_target_minutes) for tutor/curriculum consumers; use it when a single portable payload is needed and skills are not required.
 

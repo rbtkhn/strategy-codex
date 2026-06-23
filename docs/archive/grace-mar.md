@@ -73,7 +73,7 @@ source-archive → synthesis → lane judgment object
 ```
 
 - Archive: [`source-archive/statecraft/`](../../source-archive/statecraft/README.md)
-- Synthesis: [`statecraft/daily/`](../statecraft/daily/METHOD.md)
+- Synthesis: [`statecraft/synthesis/day/`](../statecraft/synthesis/METHOD.md)
 - Channels: [`statecraft/`](../../statecraft/README.md), [`singularity/`](../../singularity/README.md)
 
 See [`../start-here.md`](../start-here.md).

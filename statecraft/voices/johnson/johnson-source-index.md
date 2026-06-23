@@ -49,6 +49,11 @@ Johnson's earlier foundation and backward-extension material is already on disk 
 - [2026-05-14 Mario Nawfal](../../../source-archive/statecraft/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
 - [2026-05-18 Dialogue Works](../../../source-archive/statecraft/2026-05-18/source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md)
 
+## 2026-06
+
+- [2026-06-22 Napolitano](../../../source-archive/statecraft/2026-06-22/source-napolitano-johnson-why-iran-still-controls-hormuz-2026-06-22.md)
+- [2026-06-22 Neutrality Studies](../../../source-archive/statecraft/2026-06-22/source-neutrality-studies-larry-johnson-iran-negotiation-disaster-russia-full-war-mode-2026-06-22.md)
+
 ## Boundary Notes
 
 - host-local arcs still own chronology

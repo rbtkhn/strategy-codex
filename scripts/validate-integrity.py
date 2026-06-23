@@ -630,15 +630,25 @@ def run_validation(
         }
 
     all_errors: list[str] = []
-    all_errors.extend(validate_library_domain_registry(REPO_ROOT))
+    record_frozen = False
+    try:
+        from strategy_codex_config import record_frozen as _record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen as _record_frozen  # type: ignore
+    record_frozen = _record_frozen()
+
+    if not record_frozen:
+        all_errors.extend(validate_library_domain_registry(REPO_ROOT))
 
     ix_boundary: list[str] = []
-    for ud in user_dirs:
-        ix_boundary.extend(collect_identity_library_violations(ud, repo_root=REPO_ROOT))
+    if not record_frozen:
+        for ud in user_dirs:
+            ix_boundary.extend(collect_identity_library_violations(ud, repo_root=REPO_ROOT))
 
     library_warnings: list[str] = []
-    for ud in user_dirs:
-        library_warnings.extend(collect_self_library_file_warnings(ud, REPO_ROOT))
+    if not record_frozen:
+        for ud in user_dirs:
+            library_warnings.extend(collect_self_library_file_warnings(ud, REPO_ROOT))
 
     surface_layout_warnings: list[str] = []
     for ud in user_dirs:
@@ -764,8 +774,10 @@ def main() -> int:
                 "fork revive via docs/grace-mar-instance-boundary.md."
             )
             print()
-        print("=== Identity / library boundary (SELF-KNOWLEDGE vs SELF-LIBRARY) ===")
-        if boundary.get("ix_a_ok"):
+        print("=== Identity / library boundary (museum archive — skipped when Record frozen) ===")
+        if record_frozen:
+            print("  Skipped — strategy-codex Record frozen (fork revive only).")
+        elif boundary.get("ix_a_ok"):
             print("  IX-A / SELF-KNOWLEDGE: OK (no corpus dumps or CIV-MEM path leakage in topics).")
         else:
             for v in boundary.get("ix_a_violations") or []:

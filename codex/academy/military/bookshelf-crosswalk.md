@@ -7,7 +7,7 @@ This crosswalk wires academy-military into the Bookshelf as a study path, not a 
 ## Reading Path
 
 1. **The Iliad (Shelf-0046)** - Rage, honor, mortality, heroic violence, sacrifice, and the moral imagination underneath war.
-2. **The Art of War (Shelf-0302)** - Strategy, deception, indirectness, economy of force, self-knowledge, enemy knowledge, and victory before battle.
+2. **The Art of War (Shelf-0302)** - Strategy, deception, indirectness, economy of force, museum identity knowledge (archive), enemy knowledge, and victory before battle.
 3. **The Landmark Herodotus (Shelf-0002)** - Empire, expedition, hubris, geography, ethnography, and war as civilizational encounter.
 4. **The Landmark Thucydides (Shelf-0003)** - War as fear, interest, honor, alliance logic, maritime empire, faction, and escalation.
 5. **The Landmark Xenophon's Anabasis (Shelf-0005)** - Retreat, command under stress, expeditionary fragility, cohesion, and leadership after strategic collapse.

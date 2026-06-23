@@ -19,7 +19,7 @@
 
 | API area | Relevance to Grace-Mar | Notes |
 |----------|------------------------|--------|
-| **Read: timeline, list timeline, bookmarks** | Feed consumption for match → stage | Free tier: 100 reads/month; Basic: 10k reads/month. Sufficient for "follow list + match to IX-B/LIBRARY" at low volume. |
+| **Read: timeline, list timeline, bookmarks** | Feed consumption for match → stage | Free tier: 100 reads/month; Basic: 10k reads/month. Sufficient for "follow list + match to museum knowledge section B/LIBRARY" at low volume. |
 | **Read: user lookup, follows** | Resolve followed accounts, filter by list | Needed to know *what* to pull into the feed. |
 | **Read: search / filtered stream** | Optional: keyword or topic filters | Pro tier+. Not required for MVP. |
 | **Read: DMs** | Optional: X as observation window (like Telegram) | Would require DM as input channel; same pipeline as Telegram/WeChat (get_response, archive, analyst). Higher complexity and ToS/age considerations. |
@@ -42,7 +42,7 @@ So: **X as read-only feed into the Record (gated), not as a Voice channel.**
 
 1. **Auth** — OAuth 2.0 user context (or app-only for a single "Grace-Mar" account). Store token per user or per instance.
 2. **Pull** — Periodically (cron) or on-demand: fetch home timeline, or list timeline, or bookmarks (depending on product choice). Stay within rate limits (Free: 100 reads/month; Basic: 10k).
-3. **Match** — Score items against Record: IX-B (curiosity), LIBRARY, SKILLS edge. Same style as inbound newsletter matching (Design Roadmap §3).
+3. **Match** — Score items against Record: museum knowledge section B (curiosity), LIBRARY, SKILLS edge. Same style as inbound newsletter matching (Design Roadmap §3).
 4. **Stage** — Matches above threshold → RECURSION-GATE with provenance (e.g. "X: @author, link, excerpt"). Use existing staging path (e.g. `/stage` or script analogous to `openclaw_stage.py`).
 5. **Approve** — Mind approves in existing pipeline; merge into Record/LIBRARY/playlists as today.
 
@@ -92,7 +92,7 @@ No change to `archive/grace-mar-instance/bot/core.py` for feed-only: no X channe
 
 ## 6. Recommendation
 
-1. **Implement feed consumer only** — Follow/list or bookmarks → match to Record (IX-B, LIBRARY) → stage to RECURSION-GATE → Mind approves. Aligns with Design Roadmap §4 and triadic cognition (X feeds RECORD, gated by MIND; VOICE not on X).
+1. **Implement feed consumer only** — Follow/list or bookmarks → match to Record (museum knowledge section B, LIBRARY) → stage to RECURSION-GATE → Mind approves. Aligns with Design Roadmap §4 and triadic cognition (X feeds RECORD, gated by MIND; VOICE not on X).
 2. **Reuse patterns** — Staging like OpenClaw (stage-only script or `/stage`), existing pipeline and merge flow, `channel_key` for X.
 3. **Defer** — X as conversational channel (DM), Voice posting, and any write path until there is a clear product need and compliance path.
 4. **Document** — Add "X feed" to DESIGN-ROADMAP §4 and any integration table (e.g. OPENCLAW-INTEGRATION style) once we add an implementation ticket.

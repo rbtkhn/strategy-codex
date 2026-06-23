@@ -49,7 +49,7 @@
   ],
   "merge_targets": [
     "SELF",
-    "SELF-LIBRARY",
+    "removed operator-books symlink",
     "SKILLS",
     "EVIDENCE"
   ]

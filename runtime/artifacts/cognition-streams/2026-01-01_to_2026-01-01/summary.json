@@ -1,0 +1,122 @@
+{
+  "main_total": 258,
+  "captured_main": 84,
+  "overall_pct": 0.3256,
+  "recent_main_total": 0,
+  "recent_captured_main": 0,
+  "recent_pct": 0.0,
+  "must_capture_remaining": 0,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "overall_backlog_status": "below-threshold",
+  "target_window": {
+    "start": "2026-01-01",
+    "end": "2026-01-01"
+  },
+  "target_window_status": "no-target-items",
+  "target_window_main_total": 0,
+  "target_window_captured_main": 0,
+  "target_window_pct": 0.0,
+  "target_window_must_capture_remaining": 0,
+  "per_date": {
+    "": {
+      "rows": 373,
+      "main_total": 258,
+      "captured_main": 84,
+      "coverage_pct": 0.3256,
+      "must_capture_remaining": 0
+    }
+  },
+  "per_channel": {
+    "breaking-points": {
+      "rows": 2,
+      "main_total": 2,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 0
+    },
+    "daniel-davis": {
+      "rows": 60,
+      "main_total": 30,
+      "captured_main": 11,
+      "coverage_pct": 0.3667,
+      "must_capture_remaining": 0
+    },
+    "dialogue-works": {
+      "rows": 60,
+      "main_total": 60,
+      "captured_main": 35,
+      "coverage_pct": 0.5833,
+      "must_capture_remaining": 0
+    },
+    "glenn-diesen": {
+      "rows": 59,
+      "main_total": 35,
+      "captured_main": 21,
+      "coverage_pct": 0.6,
+      "must_capture_remaining": 0
+    },
+    "india-and-global-left": {
+      "rows": 60,
+      "main_total": 53,
+      "captured_main": 8,
+      "coverage_pct": 0.1509,
+      "must_capture_remaining": 0
+    },
+    "judging-freedom": {
+      "rows": 16,
+      "main_total": 10,
+      "captured_main": 4,
+      "coverage_pct": 0.4,
+      "must_capture_remaining": 0
+    },
+    "moral-resistance": {
+      "rows": 2,
+      "main_total": 2,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 0
+    },
+    "predictive-history": {
+      "rows": 2,
+      "main_total": 2,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 0
+    },
+    "reason-to-resist": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 0
+    },
+    "redacted-news": {
+      "rows": 59,
+      "main_total": 58,
+      "captured_main": 4,
+      "coverage_pct": 0.069,
+      "must_capture_remaining": 0
+    },
+    "tucker-carlson": {
+      "rows": 52,
+      "main_total": 5,
+      "captured_main": 1,
+      "coverage_pct": 0.2,
+      "must_capture_remaining": 0
+    }
+  },
+  "target_date": "2026-01-01",
+  "target_date_status": "no-target-items",
+  "target_date_main_total": 0,
+  "target_date_captured_main": 0,
+  "target_date_pct": 0.0,
+  "target_date_must_capture_remaining": 0,
+  "roster_scope": "main",
+  "roster_channel_count": 14,
+  "capture_surface": "archive"
+}

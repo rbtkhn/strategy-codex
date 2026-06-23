@@ -29,7 +29,7 @@ For the normal operator routing model, see `docs/operator-two-channel-architectu
 
 Assistants and automation in this repo are limited to the **routing** layer unless a human explicitly runs a merge:
 
-- **Allowed (routing):** Statecraft/singularity WORK routing, archive→synthesis promotion, integrity/boundary/git stewardship. **Fork revive only:** detect signals; stage IX-A/B/C in `recursion-gate.md` when operator says **`fork revive`**, **`grace-mar archive`**, or equivalent (see boundary doc).
+- **Allowed (routing):** Statecraft/singularity WORK routing, archive→synthesis promotion, integrity/boundary/git stewardship. **Fork revive only:** detect signals; stage museum knowledge section A/B/C in `recursion-gate.md` when operator says **`fork revive`**, **`grace-mar archive`**, or equivalent (see boundary doc).
 - **Prohibited without human gate (sensemaking and accountability):** Auto-approve, auto-merge, or silently resolve conflicting candidates; substitute deep personal or ethical judgment for companion review; overwrite user intent.
 
 When uncertain, stage with an explicit note that **human sensemaking** may be requiredâ€”never merge without companion approval. Full framing: [`docs/governance-unbundling.md`](docs/governance-unbundling.md).
@@ -40,12 +40,12 @@ When uncertain, stage with an explicit note that **human sensemaking** may be re
 
 A **governed interpretive machine** — verbatim sources land in archive; bounded synthesis and transaction objects carry judgment under **statecraft** and **singularity**. Durable operator work ends at **governed adjacent** surfaces unless the operator explicitly revives the Grace-Mar fork lane. See [`docs/product-identity.md`](docs/product-identity.md) and [`essays/from-accumulation-to-governed-interpretive-machine.md`](essays/from-accumulation-to-governed-interpretive-machine.md).
 
-**Legacy — Grace-Mar cognitive fork (frozen sidecar):** A versioned personal Record (`archive/grace-mar-instance/self.md`, `self-archive.md`, …) and deprecated Voice (`archive/grace-mar-instance/bot/`) remain for archaeology and explicit revive only. Do not treat fork growth as the product objective. [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+**Legacy — Grace-Mar interpretive machine (frozen sidecar):** A versioned personal Record (`archive/grace-mar-instance/self.md`, `self-archive.md`, …) and deprecated Voice (`archive/grace-mar-instance/bot/`) remain for archaeology and explicit revive only. Do not treat fork growth as the product objective. [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
 
 **Legacy conceptual distinctions** (Grace-Mar instance; fork revive only — see conceptual-framework.md):
 - **Companion** â€” The person whose Record it is (the human in **triadic cognition** â€” Mind in the triad). Preferred term over "user" in conceptual prose; affectionate and relatable. **Framing:** The human is Grace-Mar's companion â€” the Record and Voice are accompanied by the human, who holds authority and meaning. Grace-Mar serves the companion; the companion serves Grace-Mar.
 - **Record and Voice** â€” The Record is the documented self; the Voice speaks the Record when queried. Self = Record + Voice (the thing you can talk to).
-- **Companion self** â€” One phrase for both sides of the dyad: the companion's self (the human's self, externalized in the Record) and the self that companions (the Record and Voice that accompany the human). The ambiguity is intentional; see CONCEPTUAL-FRAMEWORK (companion self). **Companion self contains:** **self-knowledge** (**SELF-KNOWLEDGE**, IX-A), **self-curiosity** (IX-B), **self-personality** (IX-C), **self-skill-think**, **self-skill-write**, **self-skill-work**, **self-skill-steward** (optional STEWARD split), **self-archive**, **self-library** (**SELF-LIBRARY**; CIV-MEM subdomain), **self-memory**, **self-voice** (see [ID-TAXONOMY â€” Capitalization and format](docs/id-taxonomy.md#capitalization-and-format), [boundary-self-knowledge-self-library.md](docs/boundary-self-knowledge-self-library.md)). Work territories are adjacent execution surfaces, not self-skills.
+- **Companion self** â€” One phrase for both sides of the dyad: the companion's self (the human's self, externalized in the Record) and the self that companions (the Record and Voice that accompany the human). The ambiguity is intentional; see CONCEPTUAL-FRAMEWORK (companion self). **Companion self contains:** **museum identity knowledge (archive)** (**museum knowledge**, museum knowledge section A), **self-curiosity** (museum knowledge section B), **self-personality** (museum knowledge section C), **self-skill-think**, **self-skill-write**, **self-skill-work**, **self-skill-steward** (optional STEWARD split), **self-archive**, **self-library** (**removed operator-books symlink**; CIV-MEM subdomain), **memory**, **self-voice** (see [ID-TAXONOMY â€” Capitalization and format](docs/id-taxonomy.md#capitalization-and-format), [archive/boundary-museum-knowledge-self-library.md](docs/archive/boundary-museum-knowledge-self-library.md)). Work territories are adjacent execution surfaces, not self-skills.
 - **companion-self** / **companion-xavier** â€” **Always hyphenated** when naming a **system or instance** (template repo, named fork, intelligence-system platform/deployment). **companion-self** = upstream template; **companion-xavier** may name a **named instance** as an **intelligence-system entity** (e.g. a companionâ€™s repo created from the template). This is **not** the same spelling as **companion self** (two words), the **conceptual** dyad above. See [glossary.md](docs/glossary.md).
 - **Fork, not twin** â€” The Record diverges by design; it is its own entity, not a mirror.
 - **Emulation** â€” Applies to the Voice (renders the Record in conversation), not to the Record's relationship to the real person.
@@ -188,9 +188,9 @@ Nothing enters the Record without being written and approved. If it isn't docume
 
 On the Windows Cursor harness, treat **parallel agent tools as forbidden by default** — they cause multi-minute stalls and failed writes, not speedups. **One agent turn:** at most **one** write path (`StrReplace` / `Write` / in-process sequential patch per file) and **one** `Shell` (chain subcommands with `;` inside it). Do **not** batch parallel `Shell` calls, parallel `StrReplace` on one file, or `Read`+write on the same path in the same turn. Operator bypass for that turn only: **`parallel ok`**. Observability: `python scripts/check_agent_turn_discipline.py --latest` and `python scripts/operator_handoff_check.py --fast` (§ Agent turn discipline). SSOT: [agent-tool-latency-discipline.mdc](.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship).
 
-### 11. MEMORY (Self-memory â€” continuity, not Record)
+### 11. MEMORY (memory.md â€” continuity, not Record)
 
-MEMORY (**self-memory**, canonical path `self-memory.md`; legacy `memory.md` still read until migrated â€” see [canonical-paths.md](docs/canonical-paths.md)) holds **continuity context** at **short / medium / long** horizons (session â†’ weeks â†’ long-term **meta/pointers and process only** â€” see `docs/memory-template.md`). It is **mostly chronological** (time-ordered prose within those horizons). **EVIDENCE** (`self-archive.md`) is **also chronological** (dated spine across logs) but **more expansive** â€” **multicategory** (READ / WRITE / CREATE / ACT / media / Â§ VIII) and **multimodal** (structured entries, runtime/artifacts). MEMORY is **not part of the Record**; it is **narrower and mostly textual** than EVIDENCE.
+MEMORY (**memory**, canonical path `memory.md`; legacy `memory.md` still read until migrated â€” see [canonical-paths.md](docs/canonical-paths.md)) holds **continuity context** at **short / medium / long** horizons (session â†’ weeks â†’ long-term **meta/pointers and process only** â€” see `docs/memory-template.md`). It is **mostly chronological** (time-ordered prose within those horizons). **EVIDENCE** (`self-archive.md`) is **also chronological** (dated spine across logs) but **more expansive** â€” **multicategory** (READ / WRITE / CREATE / ACT / media / Â§ VIII) and **multimodal** (structured entries, runtime/artifacts). MEMORY is **not part of the Record**; it is **narrower and mostly textual** than EVIDENCE.
 
 - **â€œEphemeralâ€ (governance):** Means **outside the gated Record** and **expected to rotate or prune** â€” **not** â€œonly short-term.â€ Long-horizon MEMORY is still non-authoritative versus SELF; durable facts and identity belong in SELF + gate, not in MEMORY as substitute Record.
 - **Scope:** Tone, thread continuity, calibrations, open loops, and long-horizon **process/pointers** â€” not durable facts or identity (those stay in SELF + gate). See `docs/memory-template.md` v2.0.
@@ -255,9 +255,9 @@ Instance-specific. See [instance-doctrine.md](instance-doctrine.md) for the full
 
 Post-seed growth in self.md Section IX is organized into:
 
-- **IX-A. Knowledge** â€” Facts entering awareness through observation
-- **IX-B. Curiosity** â€” Topics that catch attention, engagement signals
-- **IX-C. Personality** â€” Observed behavioral patterns, art style, speech traits
+- **museum knowledge section A. Knowledge** â€” Facts entering awareness through observation
+- **museum knowledge section B. Curiosity** â€” Topics that catch attention, engagement signals
+- **museum knowledge section C. Personality** â€” Observed behavioral patterns, art style, speech traits
 
 A single artifact can populate all three dimensions.
 
@@ -278,7 +278,7 @@ Instance-specific. See [instance-doctrine.md](instance-doctrine.md) for the full
 - Raise the Lexile ceiling without writing sample evidence
 - Reference books, media, or experiences not in the profile
 - Treat the Voice as the Record (it's the observation window and queryable voice, not the Record itself)
-- Use "cognitive twin" (use "cognitive fork")
+- Use "cognitive twin" (use "interpretive machine")
 - Call the Voice an "oracle" or the Record "commanding" â€” use mirror, reflect, voice, record
 - Let terminology drift â€” when editing CONCEPTUAL-FRAMEWORK, AGENTS, or templates, prefer Record (not fork) and Voice (not archive/grace-mar-instance/bot) in conceptual prose; correct inconsistencies
 - **Do not** use legacy on-disk names (`SELF.md`, `EVIDENCE.md`, `PENDING-REVIEW.md`, â€¦) â€” canonical paths are **`self.md`**, **`self-skills.md`** (capability index; legacy `skills.md` until migrated), **`self-archive.md`** (EVIDENCE), **`recursion-gate.md`** ([canonical-paths.md](docs/canonical-paths.md))

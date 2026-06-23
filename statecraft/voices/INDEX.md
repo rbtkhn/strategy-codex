@@ -52,7 +52,7 @@ Tier-4 commentary cannot substantiate tier-3 wire claims without receipts. See s
 
 ## Search guidance for LLM agents
 
-If a user asks for an analyst, speaker, commentator, source corpus, transcript map, or "source index," start here before searching SELF-LIBRARY or generated dashboards.
+If a user asks for an analyst, speaker, commentator, source corpus, transcript map, or "source index," start here before searching removed operator-books symlink or generated dashboards.
 
 | Query | Expected path family |
 |---|---|

@@ -12,7 +12,7 @@
 | [workbench/](../../workbench/README.md) | Workbench harness (receipts, no merge authority). | â€” |
 | [control-plane/](../../control-plane/) (as indexed in README) | Contracts, checklists, tier policy. | See README Contents. |
 | [scripts/](../../../../../scripts/) (selected) | Cross-cutting scripts (`detect_capability_shift.py`, `emit_compute_ledger.py`, `journal_habit_snapshot.py`, â€¦) | Many paths are cited in work-dev-history. |
-| [dev-notebook/journal/](./journal/) | Inward day journal (this tree). | Symlink: `SELF-LIBRARY/dev-journal` â†’ here. |
+| [dev-notebook/journal/](./journal/) | Inward day journal (this tree). | Symlink: `dev-journal` â†’ here. |
 | [identity-fork-protocol-ifp-2026-04-24.md](./identity-fork-protocol-ifp-2026-04-24.md) | **IFP** spec snapshot (WORK): identity fork + merge sovereignty + membrane (links to gate, workbench). | Not SELF/EVIDENCE. |
 | [ifp-vs-clawsouls-technical-comparison-2026-04-24.md](./ifp-vs-clawsouls-technical-comparison-2026-04-24.md) | **IFP vs. ClawSouls** deep compare (ecosystem research as of 2026-04-24). | Paired with IFP spec. |
 | [journal-metrics-habit.md](../../journal-metrics-habit.md) | Light habit / telemetry (optional). | â€” |

@@ -1,6 +1,6 @@
 # Uare.ai (formerly Eternos) — Competitive notes and excerpts
 
-**Purpose:** Blog excerpts and investor/founder quotes for pitch comparison and positioning. Uare.ai is the closest funded, commercial analog to a controlled personal cognitive fork / digital self.
+**Purpose:** Blog excerpts and investor/founder quotes for pitch comparison and positioning. Uare.ai is the closest funded, commercial analog to a controlled personal interpretive machine / digital self.
 
 **Source:** Public blog (uare.ai/blog), TechCrunch Nov 2025, BusinessWire Nov 2025. No paywalled or non-public content.
 

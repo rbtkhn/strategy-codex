@@ -24,7 +24,7 @@ Dashboards are **derived views** and can become **stale** when **source inputs**
 
 ## What they are not
 
-- **Not** canonical Record surfaces (not SELF, SELF-LIBRARY, SKILLS, or EVIDENCE).
+- **Not** canonical Record surfaces (not SELF, removed operator-books symlink, SKILLS, or EVIDENCE).
 - **Not** a replacement for [`recursion-gate.md`](../recursion-gate.md) or structured review-queue JSON â€” they **summarize** and **link**, they do not hold merge authority.
 - **Not** runtime truth â€” [`runtime/observations/`](../runtime/observations/README.md) remains non-canonical; dashboards may quote it as **hints** only.
 

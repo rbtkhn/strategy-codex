@@ -22,7 +22,7 @@ Each entry should answer:
 
 ### Trigger
 
-June 8 intake landed **14** archive sources while `statecraft/daily/2026-06-08.md` stayed at **13** until a manual Kleiber diff caught the Sachs slug missing from the primary list.
+June 8 intake landed **14** archive sources while `statecraft/synthesis/day/2026-06-08.md` stayed at **13** until a manual Kleiber diff caught the Sachs slug missing from the primary list.
 
 ### Extracted law
 
@@ -36,7 +36,7 @@ June 8 intake landed **14** archive sources while `statecraft/daily/2026-06-08.m
 
 ### Guardrail
 
-Checker is read-only — never auto-rewrite `statecraft/daily/`. Anchor-trio links listed separately are not auto-flagged as omissions.
+Checker is read-only — never auto-rewrite `statecraft/synthesis/day/`. Anchor-trio links listed separately are not auto-flagged as omissions.
 
 ---
 
@@ -3341,7 +3341,7 @@ Density target: nearest hinge synthesis (e.g. Feb 28 / Mar 3), not stub length.
 When arc spans months, patch THREE surfaces on tier upgrade:
   1. daily Source Base Return/Forward
   2. monthly fold (e.g. 2026-02.md / 2026-03.md opening-week return)
-  3. statecraft/daily/README.md hinge ladder
+  3. statecraft/synthesis/day/README.md hinge ladder
 Also patch weave Parent / Cross-day lines — or nav drifts (Feb 3 "register" lingered in Iran bench after synthesis).
 ```
 
@@ -3405,7 +3405,7 @@ triple-nav when the arc crosses months,
 bounded commit before push — wire matrices can follow.
 ```
 
-Routing: [statecraft/daily/README.md](../statecraft/daily/README.md) · [state-synthesis SKILL](../.cursor/skills/state-synthesis/SKILL.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
+Routing: [statecraft/synthesis/day/README.md](../statecraft/synthesis/day/README.md) · [state-synthesis SKILL](../.cursor/skills/state-synthesis/SKILL.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
 
 **Pattern promotion:** defer until second cross-month hinge week reuses triple-nav without new law.
 
@@ -3469,7 +3469,7 @@ Cross-link civ-state essay git handoff (2026-06-19); PowerShell uses ; not hered
 
 - **Next MOU/Lebanon/Hormuz day** with IRGC + MFA lines: run attribution duel subroutine; preserve contested mesh in daily falsifiers until physical-closure row resolves.
 - **Pre-synthesis gate:** wire-verify batch before promoting Hormuz/Lebanon claims into notebook Judgment.
-- **Archive receipts:** patch `verify:` + `verify_receipt:` only in frontmatter; link `../../../statecraft/daily/YYYY-MM-DD-wire-verify-matrix.md`.
+- **Archive receipts:** patch `verify:` + `verify_receipt:` only in frontmatter; link `../../../statecraft/synthesis/day/YYYY-MM-DD-wire-verify-matrix.md`.
 - **New Cursor threads on this repo:** paste workspace-aligned User Rules block; do not rely on generic “batch parallel tools” alone.
 - **Jun 20 verify YAML slice:** commit as bounded slice when operator picks — separate from unrelated statecraft WIP dailies.
 
@@ -3504,7 +3504,7 @@ couple matrix → daily spine → archive verify: so contested tiers survive syn
 Workspace harness beats generic parallel User Rules on EXECUTE.
 ```
 
-Routing: [2026-06-20 wire matrix](../statecraft/daily/2026-06-20-wire-verify-matrix.md) · [2026-06-20 daily](../statecraft/daily/2026-06-20.md) · [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts)
+Routing: [2026-06-20 wire matrix](../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md) · [2026-06-20 daily](../statecraft/synthesis/day/2026-06-20.md) · [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts)
 
 **Pattern promotion:** defer until second distinct MOU week reuses J20 dual-grammar rows without new law beyond (1)(2).
 
@@ -3584,3 +3584,89 @@ not a second python -c batch.
 Routing: [source-clean SKILL v1.0.0](../.cursor/skills/source-clean/SKILL.md) · [statecraft-source-intake SKILL v0.4.12](../.cursor/skills/statecraft-source-intake/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [agent-execution-hygiene.mdc](../.cursor/rules/agent-execution-hygiene.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
 
 **Pattern promotion:** defer until second distinct capture hits the same `python -c` hang + Write fail-over without new law.
+
+---
+
+## 2026-06-22 - civ-state-note vs state-note — retrieve load-bearing gate
+
+**Tag:** `civ-state-note-gate` · `state-note-risk-register` · `note-type-router` · `wrong-validator-class`  
+**Cross-link:** [§ One-way public corpus + asymmetric skill graph (2026-06-18)](#2026-06-18---one-way-public-corpus--asymmetric-skill-graph-civ-state-wiring) · [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · AI cluster ship `076907941` (`risk-artificial-intelligence.md` as state-note negative control)
+
+### Trigger
+
+Operator invoked **`recursive learn civ-state-note skill`** after two same-week objects clarified the prose-class boundary [`civ-state-note` SKILL v0.1.0](../.cursor/skills/civ-state-note/SKILL.md) defines but had not yet journal-encoded:
+
+1. **Negative control (correct):** [`risk-artificial-intelligence.md`](../statecraft/notes/risk-artificial-intelligence.md) — multi-register AI risk taxonomy + agent anti-flatten routing; shipped via **`state-note`** (`076907941`). No `Retrieve posture` / `Public anchors` because `public/civ-state/` does not change falsifiers or placement.
+2. **Positive controls:** [`2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md`](../statecraft/notes/2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md) · [`june-2026-vance-lightning-rod-rubio-optionality-note.md`](../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md) — wire-audit + **CIV-STATE-bridge** with mandatory pre-pass (Russia occupied-rear / America succession rhymes).
+
+### Extracted law
+
+**1. civ-state-note gate — retrieve must be load-bearing**
+
+```text
+Use civ-state-note when opening ≤2 public/civ-state/ surfaces would change:
+  · falsifier tier, OR
+  · civilizational placement (memory / empire / geo-strategy / sacred-grammar rhyme), OR
+  · wire-bridge verdict framing on a live seam
+
+Use state-note when the object is:
+  · multi-voice routing / risk register / watch pointer law / citation-split / mechanism
+  · and public shelf is optional context, not a required anchor block
+
+Mandatory header when civ-state-note:
+  Retrieve posture: · Public anchors: (paths only — no essay paste)
+
+Wrong-class signals:
+  · risk register + agent routing without civ retrieve → state-note (not civ-state-note)
+  · CIV-STATE-bridge without Retrieve posture block → incomplete civ-state-note
+  · check_civ_state_essay_prose.py on statecraft/notes/ → wrong validator class
+  · public/civ-state/ body paste in note → belongs in civ-state-essay
+```
+
+**2. Note-type router — pick one before draft**
+
+| Dominant job | Type | Skill |
+|--------------|------|-------|
+| Live event ↔ volume rhyme | CIV-STATE-bridge | civ-state-note |
+| Tier table + lane sweep | Wire-audit | civ-state-note |
+| Multi-voice allocation, no civ spine | Risk / compare / route | state-note |
+| Reader-facing book prose | Essay | civ-state-essay |
+
+### Reapplication
+
+- **Next MOU / succession / occupied-rear seam** with Russia or Rome/America shelf rhymes → `civ-state-note` + wire pre-pass + `Retrieve posture` block (Vance / Starobilsk pattern).
+- **Next cluster consolidation** (AI, Section 224 bench, Minab compare family) → `state-note` unless operator explicitly wants civilizational placement.
+- **Agent daily synthesis:** if note lacks `Public anchors` and task was not wire-only → route to speaker notes or risk register; do not invoke civ-state retrieve mid-paragraph.
+- **Skill wire (defer):** add Starobilsk, Vance, and risk-register negative example to `civ-state-note` CURSOR_APPENDIX after second misroute on same boundary.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| AI cluster risk register | `076907941` — `risk-artificial-intelligence.md` (state-note class) |
+| civ-state-note SKILL | v0.1.0 — router + pre-pass; appendix examples lag shelf-native patterns |
+| RLJ append | this entry |
+
+### Guardrail
+
+```text
+Do not classify every statecraft/notes/ object as civ-state-note because CIV-STATE exists upstream;
+Do not skip Retrieve posture when note type is CIV-STATE-bridge or wire-audit with shelf rhyme;
+Do not run essay prose validator on notes shelf;
+Do not paste public/civ-state/ body into WORK notes;
+Do not duplicate prose-class law in skill body and RLJ without cross-link — narrow scope here.
+```
+
+**Falsification:** If a multi-voice risk register **requires** a public volume falsifier to score Supported, reclassify as **hybrid** — state-note body + mandatory `Public anchors` block; still not civ-state-essay.
+
+### Current lesson
+
+```text
+civ-state-note = civilizational retrieve changes the note's falsifier or placement;
+state-note = routing law that survives without opening public/civ-state/.
+AI risk register was the right negative control.
+```
+
+Routing: [civ-state-note SKILL v0.1.0](../.cursor/skills/civ-state-note/SKILL.md) · [state-note SKILL v0.1.0](../.cursor/skills/state-note/SKILL.md) · [risk-artificial-intelligence.md](../statecraft/notes/risk-artificial-intelligence.md) · [notes README § Artificial intelligence cluster](../statecraft/notes/README.md)
+
+**Pattern promotion:** defer until second distinct object misroutes risk-register → civ-state-note without new law beyond (1).

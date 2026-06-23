@@ -1,0 +1,62 @@
+{
+  "main_total": 3,
+  "captured_main": 2,
+  "overall_pct": 0.6667,
+  "recent_main_total": 3,
+  "recent_captured_main": 2,
+  "recent_pct": 0.6667,
+  "must_capture_remaining": 1,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "overall_backlog_status": "below-threshold",
+  "target_window": {
+    "start": "2026-06-04",
+    "end": "2026-06-07"
+  },
+  "target_window_status": "below-threshold",
+  "target_window_main_total": 3,
+  "target_window_captured_main": 2,
+  "target_window_pct": 0.6667,
+  "target_window_must_capture_remaining": 1,
+  "per_date": {
+    "2026-06-04": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 1
+    },
+    "2026-06-05": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 1,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    },
+    "2026-06-06": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 1,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "per_channel": {
+    "glenn-diesen": {
+      "rows": 3,
+      "main_total": 3,
+      "captured_main": 2,
+      "coverage_pct": 0.6667,
+      "must_capture_remaining": 1
+    }
+  },
+  "roster_scope": "main",
+  "roster_channel_count": 14,
+  "capture_surface": "archive",
+  "receipts_present": 1,
+  "receipts_missing": 13
+}

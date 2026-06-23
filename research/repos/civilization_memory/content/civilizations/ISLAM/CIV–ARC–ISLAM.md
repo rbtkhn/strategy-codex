@@ -143,7 +143,7 @@ IX. VERSIONING
 • Per CIV–ARC–TEMPLATE v3.0
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of
 Islamic civilization. Because Islam spans many states, this

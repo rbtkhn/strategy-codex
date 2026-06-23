@@ -8,7 +8,7 @@ Lessons drawn from the **content** of civilization_memory CHINA files (CIV–COR
 
 **CMC:** CORE opens with "Civilizational Identity & Prime Axioms" (continuity, mandate, absorption, harmony-over-freedom, civilization-as-administration). They are **locked** — they define what the entity *is*, not episodic facts.
 
-**Grace-Mar application:** Treat the Record as two layers: (1) **Stable identity** — who the companion is (values, reasoning style, linguistic fingerprint), updated rarely and only through the gate; (2) **Accreted knowledge/curiosity** — IX-A, IX-B, EVIDENCE, updated by pipeline. Identity is axiom-like; knowledge is derived and evidence-linked.
+**Grace-Mar application:** Treat the Record as two layers: (1) **Stable identity** — who the companion is (values, reasoning style, linguistic fingerprint), updated rarely and only through the gate; (2) **Accreted knowledge/curiosity** — museum knowledge section A, museum knowledge section B, EVIDENCE, updated by pipeline. Identity is axiom-like; knowledge is derived and evidence-linked.
 
 ---
 
@@ -96,7 +96,7 @@ Lessons drawn from the **content** of civilization_memory CHINA files (CIV–COR
 
 | # | CMC idea | Grace-Mar application |
 |---|----------|------------------------|
-| 1 | Identity = locked axioms; knowledge = derived | Stable identity layer vs accreted IX-A/B/C |
+| 1 | Identity = locked axioms; knowledge = derived | Stable identity layer vs accreted museum knowledge section A/B/C |
 | 2 | Stack layers; interpret through inherited memory | Additive Record; new input through existing SELF |
 | 3 | Doctrine = synthesis + human acceptance only | Stage → approve → merge; canonical file doesn't learn |
 | 4 | Hard constraints per doctrine | Optional scope/constraint on IX entries |

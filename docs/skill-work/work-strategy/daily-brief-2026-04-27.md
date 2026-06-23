@@ -43,11 +43,11 @@ _From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus.
 
 **Fast (same brief):** Ã‚§**2** RSS headlines + Ã‚§**1** snapshot Ã¢â‚¬” news cycle, principal-adjacent hooks, scored **W / S / G**.
 
-**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
+**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [removed operator-books symlink](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
 
 _From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 
-- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../self-library.md#operator-analytical-books) Ã¢â‚¬” `lookup_priority: preferred`; canonical URL in YAML Ã¢â€ ’ [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
+- _Edit between brief runs. **removed operator-books symlink (Predictive History):** [predictive-history (`codex/predictive-history/`)](../../../self-library.md#operator-analytical-books) Ã¢â‚¬” `lookup_priority: preferred`; canonical URL in YAML Ã¢â€ ’ [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
 - [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md) Ã¢â‚¬” multivolume spine; Volume I Geo-Strategy (Part I ch01Ã¢â‚¬“ch20, Part II prediction adjudication).
 - [STATUS.md](../../codex/predictive-history/STATUS.md) Ã¢â‚¬” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
 - [CHAPTER-QUEUE.md](../../codex/predictive-history/CHAPTER-QUEUE.md) Ã¢â‚¬” next chapter front (queue vs blockers).
@@ -146,7 +146,7 @@ Gate snapshot in Ã‚§1 stays quiet (zero pending work-politics candidates); t
 
 ### Slow structural layer (work-jiang)
 
-Today’s fast **W** weight (Norway pledging drone scale to Kiev, Ukraine deep-strike storylines) rhymes with Predictive History Volume I patterns of **alliance cargo as credibility** (who ships what, on what timeline) and escalation geometryÃ¢â‚¬”use [SELF-LIBRARY Ã¢â‚¬” Predictive History](../../../self-library.md#operator-analytical-books) when a chapter anchor is needed for copy that ships. If operator work stays Iran and Hormuz first, treat Ukraine RSS as **parallel pressure** on European capacity and US attention budget, not as the slow-layer primary unless you open a Geo-Strategy thread explicitly.
+Today’s fast **W** weight (Norway pledging drone scale to Kiev, Ukraine deep-strike storylines) rhymes with Predictive History Volume I patterns of **alliance cargo as credibility** (who ships what, on what timeline) and escalation geometryÃ¢â‚¬”use [removed operator-books symlink Ã¢â‚¬” Predictive History](../../../self-library.md#operator-analytical-books) when a chapter anchor is needed for copy that ships. If operator work stays Iran and Hormuz first, treat Ukraine RSS as **parallel pressure** on European capacity and US attention budget, not as the slow-layer primary unless you open a Geo-Strategy thread explicitly.
 
 ## 4. Triangulation (when lead is political)
 

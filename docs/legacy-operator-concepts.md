@@ -12,7 +12,7 @@ Obsolete or frozen operator patterns in strategy-codex. **Do not** use as defaul
 
 | Legacy concept | Was | Use instead |
 |----------------|-----|-------------|
-| **Cognitive fork growth** | Grow embedded Record via pipeline | **Fork revive only** — [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md); else statecraft/singularity WORK |
+| **Interpretive machine growth** | Grow embedded Record via pipeline | **Fork revive only** — [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md); else statecraft/singularity WORK |
 | **`tri-mind` / `tri-frame` / `tutti`** | A/B/C Mercouris–Mearsheimer–Barnes choreography | [`statecraft-multi-lens`](../.cursor/skills/statecraft-multi-lens/SKILL.md) or **one named mind** — [`TRI-MIND-DEPRECATED.md`](skill-work/work-strategy/TRI-MIND-DEPRECATED.md) |
 | **Voice / Telegram / WeChat default** | Primary operator channel | Cursor + **statecraft** / **singularity** — [`deprecated-surfaces.md`](deprecated-surfaces.md) |
 | **`we did X` → RECURSION-GATE** | Ambient gate staging | [`replacement-capture-habits.md`](replacement-capture-habits.md); gate **only** on **fork revive** |

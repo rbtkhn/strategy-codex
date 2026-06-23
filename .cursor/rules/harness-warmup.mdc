@@ -7,7 +7,7 @@ alwaysApply: true
 
 New Cursor threads have **no memory** of prior operator state. Warmup fixes that.
 
-**Record frozen:** Grace-Mar fork growth is not a system objective. Default user is **`strategy-codex`**. See [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md) · [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md). Extended agent fork/gate rules: [`docs/agent-rules/deep-rules.md`](../../docs/agent-rules/deep-rules.md). Use `--territory companion` only on explicit fork revive.
+**Museum Record frozen:** Grace-Mar bundle is archaeology only — not a system objective to grow it. Default user is **`strategy-codex`**. See [`docs/archive/grace-mar-record-museum.md`](../../docs/archive/grace-mar-record-museum.md) · [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md). Use `--territory companion` only on explicit fork revive.
 
 ## When to run
 

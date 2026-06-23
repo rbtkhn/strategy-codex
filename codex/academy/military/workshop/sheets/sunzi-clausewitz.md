@@ -8,7 +8,7 @@ Use Sunzi and Clausewitz as a paired theory sheet: victory before battle, decept
 
 ## Bookshelf Anchors
 
-- **The Art of War (Shelf-0302)** - deception, self-knowledge, enemy knowledge, economy of force, and winning before battle.
+- **The Art of War (Shelf-0302)** - deception, museum identity knowledge (archive), enemy knowledge, economy of force, and winning before battle.
 - **On War (Shelf-0146)** - friction, fog, moral forces, escalation, and political purpose.
 
 ## Writer-Lane Companions

@@ -16,7 +16,7 @@
 |--------|------|
 | `.cursor` | Cursor rules, skills, agent overlays |
 | `.github` | CI workflows (includes layout cap + path-adoption check) |
-| `SELF-LIBRARY` | Symlink index into operator book corpus |
+| `removed operator-books symlink` | Symlink index into operator book corpus |
 | `archive` | Grace-Mar instance bundle, placeholders, review queues |
 | `codex` | Chronology and strategy-codex corpus |
 | `docs` | Doctrine, skill-work, workflows |

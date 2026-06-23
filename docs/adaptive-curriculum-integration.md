@@ -13,7 +13,7 @@ How to connect Grace-Mar (Record / Identity Fork Protocol) with adaptive curricu
 
 | Use Case | What it does | Permission |
 |----------|--------------|------------|
-| **Record as identity source** | Export curriculum-oriented view (IX-B, SKILLS edge, Lexile) | Export script (read-only) |
+| **Record as identity source** | Export curriculum-oriented view (museum knowledge section B, SKILLS edge, Lexile) | Export script (read-only) |
 | **Lesson/activity personalization** | Curriculum engine reads Record to tailor content | Read-only |
 | **Grace-Mar Voice tutoring** | Core tutoring in Grace-Mar (answers, explains) | Built-in |
 | **Evidence loop** | Curriculum outputs â†’ "we did X" â†’ pipeline stages | User invokes pipeline |
@@ -26,9 +26,9 @@ How to connect Grace-Mar (Record / Identity Fork Protocol) with adaptive curricu
 
 Curriculum systems (homeschool bots, adaptive platforms) typically deliver *content* â€” lessons, activities, quizzes. They often lack a rich model of *who the student is*. Grace-Mar's Record provides:
 
-- **IX-A (Knowledge)** â€” What the student has learned; avoids redundancy, surfaces gaps
-- **IX-B (Curiosity)** â€” What they're drawn to; personalization hooks
-- **IX-C (Personality)** â€” Behavioral patterns, style; tone alignment
+- **museum knowledge section A (Knowledge)** â€” What the student has learned; avoids redundancy, surfaces gaps
+- **museum knowledge section B (Curiosity)** â€” What they're drawn to; personalization hooks
+- **museum knowledge section C (Personality)** â€” Behavioral patterns, style; tone alignment
 - **SKILLS edge** â€” What they're ready to stretch into
 - **Lexile** â€” Output ceiling; content must match
 - **LIBRARY** â€” What they've read; extensions and "if you liked X"
@@ -57,9 +57,9 @@ Output: `curriculum_profile.json` â€” Lexile, knowledge/curiosity/personali
 | `lexile_output` | Content level; match output ceiling (e.g. 600L) |
 | `access_needs` | Assistive tool config: explanation_level_lexile, explanation_grade, dyslexia_friendly_font, preferred_read_speed. Tools like World Pen Scan can use these. |
 | `identity` | Name, age â€” content level |
-| `knowledge` | IX-A topics â€” don't repeat; build on |
-| `curiosity` | IX-B topics â€” prioritize in activity suggestions |
-| `personality` | IX-C summaries â€” tone, engagement style |
+| `knowledge` | museum knowledge section A topics â€” don't repeat; build on |
+| `curiosity` | museum knowledge section B topics â€” prioritize in activity suggestions |
+| `personality` | museum knowledge section C summaries â€” tone, engagement style |
 | `skills_edge` | THINK/WRITE/WORK/MATH/CHINESE edges â€” what to stretch into |
 | `interests` | Topics to weave into lessons |
 | `evidence_anchors` | Traceability; avoid duplicate evidence |
@@ -76,7 +76,7 @@ For lighter footprint, `export_symbolic.py` (or `--target intersignal`) produces
 **SparkPath** (sparkpath.uk) is a microlesson library for homeschool parents and tutors: 120+ lessons across British, IB, Australian, Indian, Cambridge curricula, with AI marking and instant feedback on student work.
 
 **Integration flow:**
-- **Identity in** â€” SparkPath (or a lesson-selector) reads `curriculum_profile.json`. Curiosity (IX-B), knowledge (IX-A), skills edge, and Lexile drive which lessons to suggest. E.g. "Curious about reptiles, WRITE edge for narrative â†’ suggest reptile fact sheet, then short story prompt."
+- **Identity in** â€” SparkPath (or a lesson-selector) reads `curriculum_profile.json`. Curiosity (museum knowledge section B), knowledge (museum knowledge section A), skills edge, and Lexile drive which lessons to suggest. E.g. "Curious about reptiles, WRITE edge for narrative â†’ suggest reptile fact sheet, then short story prompt."
 - **Evidence out** â€” When the student completes a SparkPath lesson (creative task, quiz), the tutor or operator invokes "we did X" with the completion/feedback. Pipeline stages â†’ companion approves â†’ EVIDENCE, SELF. SparkPath does the delivery and marking; Grace-Mar holds the long-term Record.
 
 **Why it fits:** SparkPath provides structure, instant feedback, and progress summaries. Grace-Mar provides who the student *is* â€” the identity layer that personalizes which SparkPath lessons to assign and absorbs completion as evidence.
@@ -89,7 +89,7 @@ For lighter footprint, `export_symbolic.py` (or `--target intersignal`) produces
 
 **Identity out** â€” Tools read `curriculum_profile.json` for `access_needs`: explanation grade level (from Lexile), dyslexia-friendly font preference, read-aloud speed. Tools adapt their output (e.g. "explain at 2nd grade") without exposing the full Record. *Example: World Pen Scan* uses `access_needs.explanation_grade` to set the AI reading buddy level.
 
-**Evidence in** â€” Tools generate signals: **Vocabulary lookups** (words looked up) â†’ "we looked up X, Y, Z" â†’ pipeline stages. **"Tell me more" / curiosity** (topics explored) â†’ IX-B candidates. **Session summaries** â†’ EVIDENCE. Parent/tutor invokes "we did X" with the summary if the tool has no API.
+**Evidence in** â€” Tools generate signals: **Vocabulary lookups** (words looked up) â†’ "we looked up X, Y, Z" â†’ pipeline stages. **"Tell me more" / curiosity** (topics explored) â†’ museum knowledge section B candidates. **Session summaries** â†’ EVIDENCE. Parent/tutor invokes "we did X" with the summary if the tool has no API.
 
 ---
 

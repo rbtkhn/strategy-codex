@@ -8,7 +8,7 @@ Grace-Mar already functions as a governed portable working-identity system. The 
 
 | Capability | Implementation |
 |---|---|
-| Canonical Record surfaces | Four first-class surfaces: **SELF**, **SELF-LIBRARY**, **SKILLS**, **EVIDENCE** ([runtime-vs-record.md](runtime-vs-record.md)) |
+| Canonical Record surfaces | Four first-class surfaces: **SELF**, **removed operator-books symlink**, **SKILLS**, **EVIDENCE** ([runtime-vs-record.md](runtime-vs-record.md)) |
 | Runtime vs Record separation | Durable Record governed by the pipeline; runtime artifacts derived and rebuildable ([runtime-vs-record.md](runtime-vs-record.md)) |
 | Prepared selective retrieval | Progressive-disclosure index, budgeted context, memory briefs ([runtime/prepared-context/](../runtime/prepared-context/), [progressive-disclosure.md](runtime/prepared-context/progressive-disclosure.md)) |
 | PRP export | Single pasteable prompt encoding Record surfaces for any LLM ([portable-record-prompt.md](portable-record-prompt.md), [`scripts/export_prp.py`](../scripts/export_prp.py)) |
@@ -25,9 +25,9 @@ Portable working identity maps to four layers. Each layer has a canonical Grace-
 
 | Layer | What it captures | Grace-Mar surface |
 |---|---|---|
-| **Domain encoding** | Reference knowledge, domain corpora, governed sources | SELF-LIBRARY (`self-library.md`, CIV-MEM scopes) |
+| **Domain encoding** | Reference knowledge, domain corpora, governed sources | removed operator-books symlink (`self-library.md`, CIV-MEM scopes) |
 | **Workflow calibration** | How the operator works: skills, lane defaults, prepared context, tool patterns | SKILLS (`self-skills.md`) + `runtime/prepared-context/` + `docs/skill-work/` lanes |
-| **Behavioral calibration** | Identity, personality, knowledge, curiosity — who the companion is | SELF (`self.md`, IX-A / IX-B / IX-C) |
+| **Behavioral calibration** | Identity, personality, knowledge, curiosity — who the companion is | SELF (`self.md`, museum knowledge section A / museum knowledge section B / museum knowledge section C) |
 | **Artifact / demonstrated capability** | Evidence of what happened, what was produced, what was observed | EVIDENCE (`self-archive.md`) + artifact exports |
 
 ---

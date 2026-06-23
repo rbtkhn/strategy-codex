@@ -41,7 +41,7 @@ Only then treat it as **prompt / model** behavior.
 Rob Pike’s rule applies here as: **structure the repo so algorithms (and agents) stay obvious.**
 
 - **Authoritative:** `self.md`, `recursion-gate.md`, `self-evidence.md` (per [AGENTS](../../../AGENTS.md) and the gated pipeline).
-- **Non-Record continuity:** `self-memory.md` (short/medium/long horizons; rotatable; legacy `memory.md`), chat — **not** Record truth until merged through the gate.
+- **Non-Record continuity:** `memory.md` (short/medium/long horizons; rotatable; legacy `memory.md`), chat — **not** Record truth until merged through the gate.
 
 Clever retrieval does not replace **clean canonical files** and **explicit staging**.
 
@@ -79,7 +79,7 @@ Products that advertise **100% local** models, **Docker** sandboxes, or **chat v
 
 - **Vector stores, markdown scratchpads, or long-session agent memory** (local or cloud) are **not** **`self.md`** and **not** evidence until they pass **[AGENTS](../../../AGENTS.md)** pipeline.
 - **Nothing** becomes durable identity because an agent “remembered” it offline. **Companion-approved merge** through RECURSION-GATE (and `process_approved_candidates.py`) is the only path into the Record.
-- **self-memory** (`self-memory.md`) remains **outside the gated Record** (prunable continuity); **SELF** remains authoritative after merge.
+- **memory** (`memory.md`) remains **outside the gated Record** (prunable continuity); **SELF** remains authoritative after merge.
 
 ---
 

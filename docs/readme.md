@@ -5,7 +5,7 @@
 | Need | Document | Role |
 |------|----------|------|
 | **Protocol (the compact)** | [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md) | Canonical spec: schema, staging contract, evidence, export. Mechanism only. |
-| **SELF-KNOWLEDGE vs SELF-LIBRARY** | [BOUNDARY-SELF-KNOWLEDGE-SELF-LIBRARY](boundary-self-knowledge-self-library.md) | Identity-facing vs reference-facing; CIV-MEM as library subdomain; proposal classes. |
+| **museum knowledge vs removed operator-books symlink** | [BOUNDARY-museum knowledge-removed operator-books symlink](archive/boundary-museum-knowledge-self-library.md) | Identity-facing vs reference-facing; CIV-MEM as library subdomain; proposal classes. |
 | **Boundary Review Queue** | [BOUNDARY-REVIEW-QUEUE](boundary-review-queue.md) | Classify proposals by surface; misfiled hints; inbox; audit trail (phased). |
 | **Contradiction timeline** | [CONTRADICTION-TIMELINE](contradiction-timeline.md) | When beliefs/claims changed; evidence (ACT-*); resolved / deferred / open; git + pipeline. |
 | **Governance** | [GRACE-MAR-CORE](grace-mar-core.md) | Global governance, prime directive, invariants. |

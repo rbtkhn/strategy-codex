@@ -1,14 +1,14 @@
 # Boundary Review Queue
 
-**Purpose:** Make **classification and review at the Record boundary** a first-class product surface — not just storage. **Governed by:** gated pipeline, [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md), [identity-fork-protocol.md](identity-fork-protocol.md) `proposal_class`.
+**Purpose:** Make **classification and review at the Record boundary** a first-class product surface — not just storage. **Governed by:** gated pipeline, [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md), [identity-fork-protocol.md](identity-fork-protocol.md) `proposal_class`.
 
-**Not a replacement for the gate:** **`recursion-gate.md`** remains the **default staging surface** for routine candidates (IX-A/B/C lines, analyst output). The **boundary review** story is about **where a staged line belongs** (SELF vs SELF-LIBRARY vs CIV-MEM, etc.) and **when** to escalate to **material change-review** — not about deleting or bypassing the gate. For the split between gate workflow and change-review queue, see [gate-vs-change-review.md](gate-vs-change-review.md) and IFP §4.3 (material change escalation).
+**Not a replacement for the gate:** **`recursion-gate.md`** remains the **default staging surface** for routine candidates (museum knowledge section A/B/C lines, analyst output). The **boundary review** story is about **where a staged line belongs** (SELF vs removed operator-books symlink vs CIV-MEM, etc.) and **when** to escalate to **material change-review** — not about deleting or bypassing the gate. For the split between gate workflow and change-review queue, see [gate-vs-change-review.md](gate-vs-change-review.md) and IFP §4.3 (material change escalation).
 
 ---
 
 ## Problem
 
-As the fork grows, the main risk is **right data, wrong surface** (identity vs library vs civ-mem vs skills vs work). The architecture already splits SELF, SELF-LIBRARY, SKILLS, EVIDENCE, and work territories; the scaling bottleneck is **review at the boundary**, not another memory channel.
+As the fork grows, the main risk is **right data, wrong surface** (identity vs library vs civ-mem vs skills vs work). The architecture already splits SELF, removed operator-books symlink, SKILLS, EVIDENCE, and work territories; the scaling bottleneck is **review at the boundary**, not another memory channel.
 
 ---
 
@@ -16,8 +16,8 @@ As the fork grows, the main risk is **right data, wrong surface** (identity vs l
 
 | Review bucket | Typical `proposal_class` | Canonical home |
 |---------------|--------------------------|------------------|
-| **SELF-KNOWLEDGE** | `SELF_KNOWLEDGE_ADD` / `REVISE` | `self.md` IX-A/B/C |
-| **SELF-LIBRARY** | `SELF_LIBRARY_ADD` / `REVISE` | `self-library.md` |
+| **museum knowledge** | `SELF_KNOWLEDGE_ADD` / `REVISE` | `self.md` museum knowledge section A/B/C |
+| **removed operator-books symlink** | `SELF_LIBRARY_ADD` / `REVISE` | `self-library.md` |
 | **CIV-MEM** | `CIV_MEM_ADD` / `REVISE` | LIB rows + civ-mem corpus |
 | **SKILLS** | (future explicit class or evidence-linked) | `self-skills.md`, skill-think/write |
 | **WORK-LAYER** | Work-politics / operator work artifacts | `work-*.md`, territories |
@@ -74,7 +74,7 @@ Escalation **does not** auto-merge; it adds **process** before governed state ch
 
 ## Related
 
-- [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md) — ontology.
+- [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md) — ontology.
 - [harness-replay-spec.md](harness-replay-spec.md) — causal replay (why the system routed here); complements boundary queue (where things should go).
 - [operator-weekly-review.md](operator-weekly-review.md) — rhythm.
 - `scripts/recursion_gate_review.py` — `boundary_review` on each candidate row.

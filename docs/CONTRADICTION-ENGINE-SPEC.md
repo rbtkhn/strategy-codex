@@ -81,7 +81,7 @@ This spec formalizes that distinction.
 
 A **contradiction** becomes a **first-class identity-diff object** when:
 
-- there is an active existing claim in SELF (unified or split: self-knowledge, self-identity, self-curiosity, self-personality) or skill containers
+- there is an active existing claim in SELF (unified or split: museum identity knowledge (archive), self-identity, self-curiosity, self-personality) or skill containers
 - a staged candidate materially overlaps the same domain, topic, or trait
 - the relationship is not best explained as simple reinforcement or duplication
 - a human reviewer would reasonably need to decide how the active model should change
@@ -105,7 +105,7 @@ Classify each staged candidate against relevant active entries:
 Per instance layout (see [instance-patterns.md](instance-patterns.md)):
 
 - `recursion-gate.md` **or** `recursion-gate.json`
-- SELF: `self.md` and/or `self-knowledge.md`, `self-identity.md`, `self-curiosity.md`, `self-personality.md`
+- SELF: `self.md` and/or `archive/grace-mar-instance/museum-knowledge.md`, `self-identity.md`, `self-curiosity.md`, `self-personality.md`
 - `self-evidence.md`
 - skill files as used (`self-skill-think.md`, etc.)
 - `pipeline-events.jsonl` (or instance audit log)
@@ -129,7 +129,7 @@ Same field model as Grace-Mar reference. Example:
   "conflict_id": "CONFLICT-0007",
   "candidate_id": "CANDIDATE-0142",
   "status": "pending_review",
-  "profile_target": "IX-C",
+  "profile_target": "museum knowledge section C",
   "mind_category": "personality",
   "existing_entry_id": "PER-0018",
   "existing_claim_text": "fearful of swimming in deep water",

@@ -19,7 +19,7 @@ One paragraph: what â€œdoneâ€ looks like (measurable where possible).
 
 ### Why (alignment)
 
-Why this moonshot matters â€” ties to **SELF** IX-B / IX-C themes without assuming merge (staging language OK).
+Why this moonshot matters â€” ties to **SELF** museum knowledge section B / museum knowledge section C themes without assuming merge (staging language OK).
 
 ### Success metrics
 

@@ -30,12 +30,12 @@
 
 ## Phase 2 — Curriculum / lesson integration (future)
 
-**Scope:** Optional integration with lesson prompts when the companion documents interest in the business (IX-B curiosity, WORK edge).
+**Scope:** Optional integration with lesson prompts when the companion documents interest in the business (museum knowledge section B curiosity, WORK edge).
 
 | Deliverable | Description |
 |-------------|-------------|
 | **WORK edge** | If companion documents Grace Gems as WORK focus, lesson generator can include business-related planning/creation activities (e.g., "plan 3 steps for a new listing"). |
-| **IX-B alignment** | Business curiosity (gemstones, craftsmanship, design) can feed lesson topics when documented. |
+| **museum knowledge section B alignment** | Business curiosity (gemstones, craftsmanship, design) can feed lesson topics when documented. |
 
 ---
 
@@ -56,7 +56,7 @@
 |-------|-------|------------------|
 | **0 — Record context** | Document business in Record | Business profile in SELF/skill-work; WORK evidence for milestones |
 | **1 — Operator flows** | Human-led management | Operator checklist, handback for business events |
-| **2 — Curriculum** | Lesson integration | WORK edge, IX-B alignment when documented |
+| **2 — Curriculum** | Lesson integration | WORK edge, museum knowledge section B alignment when documented |
 | **3 — External** | Etsy integration | API, handback from Etsy events |
 
 ---

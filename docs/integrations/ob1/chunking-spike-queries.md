@@ -21,9 +21,9 @@ Anchors match current `self.md` section headings (reseeded April 2026). If `self
 | 5 | What is the life mission reference and list of intellectual values? | `## VI. PHILOSOPHY` |
 | 6 | When was Self reseeded and what companion-freeze pointer exists? | `## VII. METADATA` |
 | 7 | How do gated approvals merge into the Record? | `## VIII. GATED APPROVED LOG` |
-| 8 | What knowledge entries are listed in IX-A? | `## IX-A. KNOWLEDGE` |
-| 9 | What curiosity labels and lanes appear in IX-B? | `## IX-B. CURIOSITY` |
-| 10 | What personality observations are listed in IX-C? | `## IX-C. PERSONALITY` |
+| 8 | What knowledge entries are listed in museum knowledge section A? | `## museum knowledge section A. KNOWLEDGE` |
+| 9 | What curiosity labels and lanes appear in museum knowledge section B? | `## museum knowledge section B. CURIOSITY` |
+| 10 | What personality observations are listed in museum knowledge section C? | `## museum knowledge section C. PERSONALITY` |
 
 ## Run sheet
 
@@ -58,9 +58,9 @@ Then evaluate retrieval against the 10 fixed queries above.
 | 5 | mission + intellectual values | `## VI. PHILOSOPHY` |  |  |
 | 6 | reseed + companion freeze | `## VII. METADATA` |  |  |
 | 7 | gated merge path | `## VIII. GATED APPROVED LOG` |  |  |
-| 8 | IX-A knowledge entries | `## IX-A. KNOWLEDGE` |  |  |
-| 9 | IX-B curiosity labels | `## IX-B. CURIOSITY` |  |  |
-| 10 | IX-C personality observations | `## IX-C. PERSONALITY` |  |  |
+| 8 | museum knowledge section A knowledge entries | `## museum knowledge section A. KNOWLEDGE` |  |  |
+| 9 | museum knowledge section B curiosity labels | `## museum knowledge section B. CURIOSITY` |  |  |
+| 10 | museum knowledge section C personality observations | `## museum knowledge section C. PERSONALITY` |  |  |
 
 Result summary:
 
@@ -87,9 +87,9 @@ Then evaluate retrieval against the same 10 fixed queries above.
 | 5 | mission + intellectual values | `## VI. PHILOSOPHY` |  |  |
 | 6 | reseed + companion freeze | `## VII. METADATA` |  |  |
 | 7 | gated merge path | `## VIII. GATED APPROVED LOG` |  |  |
-| 8 | IX-A knowledge entries | `## IX-A. KNOWLEDGE` |  |  |
-| 9 | IX-B curiosity labels | `## IX-B. CURIOSITY` |  |  |
-| 10 | IX-C personality observations | `## IX-C. PERSONALITY` |  |  |
+| 8 | museum knowledge section A knowledge entries | `## museum knowledge section A. KNOWLEDGE` |  |  |
+| 9 | museum knowledge section B curiosity labels | `## museum knowledge section B. CURIOSITY` |  |  |
+| 10 | museum knowledge section C personality observations | `## museum knowledge section C. PERSONALITY` |  |  |
 
 Result summary:
 
@@ -116,9 +116,9 @@ Then evaluate retrieval against the same 10 fixed queries above.
 | 5 | mission + intellectual values | `## VI. PHILOSOPHY` |  |  |
 | 6 | reseed + companion freeze | `## VII. METADATA` |  |  |
 | 7 | gated merge path | `## VIII. GATED APPROVED LOG` |  |  |
-| 8 | IX-A knowledge entries | `## IX-A. KNOWLEDGE` |  |  |
-| 9 | IX-B curiosity labels | `## IX-B. CURIOSITY` |  |  |
-| 10 | IX-C personality observations | `## IX-C. PERSONALITY` |  |  |
+| 8 | museum knowledge section A knowledge entries | `## museum knowledge section A. KNOWLEDGE` |  |  |
+| 9 | museum knowledge section B curiosity labels | `## museum knowledge section B. CURIOSITY` |  |  |
+| 10 | museum knowledge section C personality observations | `## museum knowledge section C. PERSONALITY` |  |  |
 
 Result summary:
 

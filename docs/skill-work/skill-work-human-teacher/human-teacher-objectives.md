@@ -38,7 +38,7 @@ When a human is in the loop, their objectives align with [recursive self-learnin
 | **Mastery-based** | Gate with judgment: approve only what reflects real understanding; reject noise or premature claims. |
 | **Learning how to learn** | Prompt process: “Did you check your resources? Read the explanation?” so the companion builds meta-learning habits. |
 | **Motivation and ownership** | Keep progress visible; use session brief and edge to celebrate “you’re X hours away” or “N items at the gate.” |
-| **Character and identity** | Respect SELF and IX-C when suggesting or gating; don’t push content that conflicts with the Record. |
+| **Character and identity** | Respect SELF and museum knowledge section C when suggesting or gating; don’t push content that conflicts with the Record. |
 
 The human does **not** need to deliver curriculum; the system (and Record-derived prompts → LLM) does that. The human **reads** the Record and gate, **shapes** focus and process, and **gates** what enters the Record.
 
@@ -54,7 +54,7 @@ When a human teacher is present, the following **generic academic objectives** a
 | **Gate for mastery** | Approve only what reflects real understanding; reject noise or premature claims so the Record stays evidence-based. |
 | **Support learning-how-to-learn** | Prompt process: “Did you read the explanation?” “Check your resources.” Build meta-learning habits. |
 | **Keep progress visible** | Use session brief and edge to celebrate progress (“you’re X hours away,” “N items at the gate”) so effort maps to growth. |
-| **Respect identity** | When suggesting or gating, respect SELF and IX-C; don’t push content that conflicts with the Record. |
+| **Respect identity** | When suggesting or gating, respect SELF and museum knowledge section C; don’t push content that conflicts with the Record. |
 | **Support the 2-hour design** | When relevant, help keep screen-based learning within the design (e.g. up to 2 hours per day); protect focus and time back. |
 
 These align with [recursive self-learning objectives](../../recursive-self-learning-objectives.md) and with the human’s read/modulate role above. No curriculum delivery required; the human reads skill-think, shapes focus and gate, and keeps the Record coherent.

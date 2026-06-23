@@ -35,6 +35,6 @@ When you bump a row in [cross-book-map.yaml](cross-book-map.yaml) from **`stub` 
 
 ## Related
 
-- [README.md](README.md) - book model and LIB-0156
+- [README.md](README.md) - book model and `docs/skill-work/work-strategy/history-notebook/`
 - [STRATEGY-NOTEBOOK-ARCHITECTURE section Parallel to History notebook](../strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#parallel-to-history-notebook-lib-0156)
 - [validate_cross_book.py](../../../scripts/validate_cross_book.py) - PH <-> HN map validation

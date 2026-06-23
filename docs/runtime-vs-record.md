@@ -18,8 +18,8 @@ These change only through the **gated pipeline** and companion-approved merge ([
 
 | Surface | On-disk anchors (typical) | Holds |
 |---------|---------------------------|--------|
-| **SELF** | `self.md` | Identity, SELF-KNOWLEDGE (IX-A/B/C), narrative |
-| **SELF-LIBRARY** | `self-library.md` | Governed reference, CIV-MEM scopes |
+| **SELF** | `self.md` | Identity, museum knowledge (museum knowledge section A/B/C), narrative |
+| **removed operator-books symlink** | `self-library.md` | Governed reference, CIV-MEM scopes |
 | **SKILLS** | `self-skills.md` | Capability index (THINK / WRITE / work skills as documented) |
 | **EVIDENCE** | `self-archive.md` | Activity log, artifacts log, approved evidence |
 
@@ -38,7 +38,7 @@ Work lanes are for planning, judgment, notebooks, and execution support. They ar
 | Kind | Examples | Rule |
 |------|------------|------|
 | **Session / harness paste** | Warmup output, operator menus, chat context | Weather, not policy; do not treat as SELF |
-| **MEMORY** | `self-memory.md` | Continuity; **not** a substitute for gated facts |
+| **MEMORY** | `memory.md` | Continuity; **not** a substitute for gated facts |
 | **Skill cards** | `runtime/artifacts/skill-cards/*.json` from [`build_skill_cards.py`](../scripts/build_skill_cards.py) | Derived from portable skills; [spec](skills/skill-card-spec.md) |
 | **Active lane compression** | `runtime/artifacts/context/active-lane-*.md` from [`compress_active_lane.py`](../scripts/compress_active_lane.py) | Points back to lane README and `self-work.md`; [doc](skill-work/active-lane-compression.md) |
 | **Vector index** | `.chroma` | Retrieval aid; rebuild from Record |
@@ -60,7 +60,7 @@ External runtimes (Letta, Mem0, Thoth, etc.) exchange material with this repo on
 
 When preferred helpers or regeneration paths are unavailable:
 
-- **Record authority does not move.** SELF, SELF-LIBRARY, SKILLS, EVIDENCE, and the approval inbox remain authoritative even if every derived convenience surface is stale or absent.
+- **Record authority does not move.** SELF, removed operator-books symlink, SKILLS, EVIDENCE, and the approval inbox remain authoritative even if every derived convenience surface is stale or absent.
 - **Derived surfaces must fail visibly.** A skill card, lane compression, runtime memory payload, or dashboard may become incomplete, stale, or unavailable; it must not silently posture as current Record truth.
 - **Runtime layers may narrow, not promote.** If continuity aids are thin, the system may abstain, shorten output, or fall back to direct source reading. It must not compensate by treating runtime material as canonical.
 - **Provenance outranks fluency.** Under constraint, it is better to name the missing regeneration or missing source than to keep a polished surface that has lost its evidentiary footing.

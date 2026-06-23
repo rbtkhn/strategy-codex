@@ -36,8 +36,8 @@ They may:
 
 They may not:
 
-- edit **SELF** (`self.md`, SELF-knowledge, identity tables)
-- edit **SELF-LIBRARY** / CIV-MEM in canonical form
+- edit **SELF** (`self.md`, museum knowledge, identity tables)
+- edit **removed operator-books symlink** / CIV-MEM in canonical form
 - edit **SKILLS** (capability evidence files)
 - edit **EVIDENCE** (`self-archive.md` and gated archive/placeholders/evidence) directly
 - edit **`recursion-gate.md`** except through normal operator + companion **approve** + `process_approved_candidates` (or equivalent) workflows

@@ -124,7 +124,7 @@ Do not promote verbatim:
 1. **Territory entry discipline** â€” belongs in `AGENTS.md` because it applies across hosts and lanes.
 2. **Short prompts are intentional** â€” belongs in instance doctrine because it is a durable operator preference.
 3. **Message lanes (`PLAN`, `EXECUTE`, `DOCSYNC`, `EXECUTE_LOCAL`)** â€” now promoted as cross-host doctrine. The prefixes are host-neutral scope signals; detailed behavior should live in `docs/operator-agent-lanes.md`, not only in `.cursor` rules.
-4. **Repository search protocol** â€” promoted in `AGENTS.md`; routing aid at [LLM-ROUTING.md](../LLM-ROUTING.md) and [statecraft/voices/INDEX.md](../statecraft/voices/INDEX.md) for analyst/source-index discovery (distinct from SELF-LIBRARY dashboards and from source-lattice reading discipline).
+4. **Repository search protocol** â€” promoted in `AGENTS.md`; routing aid at [LLM-ROUTING.md](../LLM-ROUTING.md) and [statecraft/voices/INDEX.md](../statecraft/voices/INDEX.md) for analyst/source-index discovery (distinct from removed operator-books symlink dashboards and from source-lattice reading discipline).
 
 ### `territory-awareness.mdc`
 

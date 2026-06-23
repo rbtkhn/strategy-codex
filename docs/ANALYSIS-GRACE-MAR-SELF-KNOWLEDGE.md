@@ -1,9 +1,9 @@
-﻿# Analysis: Grace-Mar self-knowledge (IX-A)
+﻿# Analysis: Grace-Mar museum identity knowledge (archive) (museum knowledge section A)
 
-**Purpose:** Analyze the **self-knowledge** dimension (IX-A) of the Grace-Mar Record â€” scope, sources, evidence linkage, and alignment with the companion-self model.
+**Purpose:** Analyze the **museum identity knowledge (archive)** dimension (museum knowledge section A) of the Grace-Mar Record â€” scope, sources, evidence linkage, and alignment with the companion-self model.
 
-**Source:** `self.md` Â§ IX-A. KNOWLEDGE.  
-**Canonical definition:** Facts that entered awareness through observation (AGENTS.md, ID-TAXONOMY, CONCEPTUAL-FRAMEWORK). **self-knowledge** = `self.md` IX-A. IX-A includes books and media consumed (from self-evidence.md Â§ I. READING LIST (READ-nnn) or self-library engagement/influence state).
+**Source:** `self.md` Â§ museum knowledge section A. KNOWLEDGE.  
+**Canonical definition:** Facts that entered awareness through observation (AGENTS.md, ID-TAXONOMY, CONCEPTUAL-FRAMEWORK). **museum identity knowledge (archive)** = `self.md` museum knowledge section A. museum knowledge section A includes books and media consumed (from self-evidence.md Â§ I. READING LIST (READ-nnn) or self-library engagement/influence state).
 
 **Date:** 2026-02-26
 
@@ -13,7 +13,7 @@
 
 | Metric | Value |
 |--------|--------|
-| **IX-A entries** | 36 (LEARN-0001 through LEARN-0036) |
+| **museum knowledge section A entries** | 36 (LEARN-0001 through LEARN-0036) |
 | **Evidence-linked** | 36/36 (every entry has `evidence_id: ACT-XXXX`) |
 | **Provenance** | Mix: `curated_by: user` (early); `provenance: human_approved` (from LEARN-0026 onward, plus some earlier) |
 | **Date range** | 2026-02-19 to 2026-02-24 |
@@ -24,7 +24,7 @@ All entries conform to the protocol: facts only, traceable to an activity (ACT-*
 
 ## 2. Topic Clusters
 
-**self-knowledge** in the Record clusters as follows:
+**museum identity knowledge (archive)** in the Record clusters as follows:
 
 | Cluster | LEARN IDs | Count | Representative topics |
 |---------|-----------|--------|------------------------|
@@ -40,7 +40,7 @@ All entries conform to the protocol: facts only, traceable to an activity (ACT-*
 **Observations:**
 - **Space** dominates (13 entries), largely from one school workbook (ACT-0013) â€” one artifact, many facts; protocol allows multiple LEARN entries per ACT when distinct facts.
 - **Presidents, ballet/music, and culture/place** show variety of sources: bot lookup, conversation, KBCP probes, companion report.
-- **Reptiles** appear in both knowledge (LEARN-0011) and curiosity (IX-B); **gemstones** in knowledge and curiosity. No conflict â€” knowledge = â€œlearnedâ€; curiosity = â€œdrawn to.â€ Same topic can sit in both dimensions.
+- **Reptiles** appear in both knowledge (LEARN-0011) and curiosity (museum knowledge section B); **gemstones** in knowledge and curiosity. No conflict â€” knowledge = â€œlearnedâ€; curiosity = â€œdrawn to.â€ Same topic can sit in both dimensions.
 
 ---
 
@@ -62,17 +62,17 @@ Evidence linkage is consistent: every LEARN entry has exactly one `evidence_id` 
 
 - **Required fields per entry:** `id`, `date`, `topic`, `source`, `her_understanding`, `evidence_id`.
 - **Optional:** `curated_by: user`, `provenance: human_approved`. Newer entries tend to include `provenance: human_approved` (File Update Protocol).
-- **No scope/constraint** on any IX-A entry in the current set; optional per IDENTITY-FORK-PROTOCOL / KNOWLEDGE-BOUNDARY-FRAMEWORK when a belief has a boundary.
+- **No scope/constraint** on any museum knowledge section A entry in the current set; optional per IDENTITY-FORK-PROTOCOL / KNOWLEDGE-BOUNDARY-FRAMEWORK when a belief has a boundary.
 
 ---
 
 ## 5. Downstream Consumption
 
-| Consumer | How IX-A is used |
+| Consumer | How museum knowledge section A is used |
 |----------|-------------------|
 | **SYSTEM_PROMPT (archive/grace-mar-instance/bot/prompt.py)** | Section â€œYOUR KNOWLEDGE (from observations)â€ â€” compressed bullet list. Not a 1:1 dump of all 36 LEARN entries; summarized by topic (e.g. â€œGeorge Washington as first president, John Adams as 2nd, Abraham Lincoln as 16thâ€). |
 | **ANALYST_PROMPT** | Dedup list and â€œKnown topicsâ€ plus â€œIX-A. Knowledge (post-seed)â€ bullets so analyst does not re-stage existing knowledge. |
-| **PRP (export_prp.py)** | PRP embeds a compressed knowledge section; source is self.md (IX-A/B/C). |
+| **PRP (export_prp.py)** | PRP embeds a compressed knowledge section; source is self.md (museum knowledge section A/B/C). |
 | **scripts/metrics.py** | `RecordCompleteness.ix_a` = count of `id: LEARN-NNNN` in self.md (36). Reported in pipeline health. |
 
 **Prompt sync:** The ANALYST â€œIX-A. Knowledge (post-seed)â€ block in prompt.py is a maintained summary. If new LEARN entries are merged into self.md but the prompt section is not updated, the Voice and analyst dedup can drift. Per File Update Protocol, prompt and SELF must be updated together on merge.
@@ -83,7 +83,7 @@ Evidence linkage is consistent: every LEARN entry has exactly one `evidence_id` 
 
 | Criterion | Status |
 |----------|--------|
-| **self-knowledge** (= IX-A) | âœ… ID-TAXONOMY and CONCEPTUAL-FRAMEWORK: **self-knowledge** is `self.md` IX-A. |
+| **museum identity knowledge (archive)** (= museum knowledge section A) | âœ… ID-TAXONOMY and CONCEPTUAL-FRAMEWORK: **museum identity knowledge (archive)** is `self.md` museum knowledge section A. |
 | **Evidence linkage** | âœ… Every LEARN entry has `evidence_id`. |
 | **Knowledge boundary** | âœ… Only documented facts; no LLM leak. Sources are bot lookup, conversation, school, KBCP, companion report. |
 | **Gated pipeline** | âœ… All entries merged after staging and approval (SESSION-LOG and SELF-ARCHIVE reflect this). |
@@ -93,11 +93,11 @@ Evidence linkage is consistent: every LEARN entry has exactly one `evidence_id` 
 
 ## 7. Summary
 
-- **Grace-Mar self-knowledge (IX-A)** consists of **36 evidence-linked facts** (LEARN-0001â€“LEARN-0036) across space, US history, gemstones, ballet/music, books/media, biology, and culture/place.
+- **Grace-Mar museum identity knowledge (archive) (museum knowledge section A)** consists of **36 evidence-linked facts** (LEARN-0001â€“LEARN-0036) across space, US history, gemstones, ballet/music, books/media, biology, and culture/place.
 - **Sources** are diverse: bot lookups, school worksheets, conversation, KBCP probes, and companion reports. Each entry traces to an ACT-* in EVIDENCE.
-- **Protocol and companion-self alignment:** Evidence linkage, knowledge boundary, and gated merge are satisfied. Downstream (prompt, PRP, metrics) consume IX-A in compressed form; keeping prompt and SELF in sync on merge remains important.
+- **Protocol and companion-self alignment:** Evidence linkage, knowledge boundary, and gated merge are satisfied. Downstream (prompt, PRP, metrics) consume museum knowledge section A in compressed form; keeping prompt and SELF in sync on merge remains important.
 
 ---
 
-*Analysis based on self.md Â§ IX-A, self-evidence.md, archive/grace-mar-instance/bot/prompt.py, scripts/metrics.py, and AGENTS.md / ID-TAXONOMY.*
+*Analysis based on self.md Â§ museum knowledge section A, self-evidence.md, archive/grace-mar-instance/bot/prompt.py, scripts/metrics.py, and AGENTS.md / ID-TAXONOMY.*
 

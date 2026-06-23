@@ -78,7 +78,7 @@ Compute dyad health from PIPELINE-EVENTS, COMPUTE-LEDGER, and optionally SELF-AR
 Extend `scripts/session_brief.py`:
 
 **New section: "From the Record"**
-- Parse self.md for 1–3 recent or salient IX-A/IX-B/IX-C topics (e.g. last merged, or sample from each dimension).
+- Parse self.md for 1–3 recent or salient museum knowledge section A/museum knowledge section B/museum knowledge section C topics (e.g. last merged, or sample from each dimension).
 - Output: "The Record currently holds: [topic 1], [topic 2], [topic 3]. Ask Grace-Mar to recall any of these."
 - Encourages the user to *consult* the other chamber.
 
@@ -111,7 +111,7 @@ Or a small "Dyad" subsection: "Consultations / Integrations / Reports" with 7-da
 ### 6.1 Mini App suggested prompts
 
 Add to `platform/miniapp/index.html` (or equivalent) a row of suggested prompts:
-- "What do I know about [X]?" (with X from IX-B sample, e.g. "dinosaurs", "space")
+- "What do I know about [X]?" (with X from museum knowledge section B sample, e.g. "dinosaurs", "space")
 - "What would I say about [Y]?"
 - "What's in my Record?"
 

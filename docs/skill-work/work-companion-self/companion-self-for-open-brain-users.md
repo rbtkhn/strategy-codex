@@ -1,6 +1,6 @@
 # companion-self for Open Brain users
 
-**Audience:** People who already know **Open Brain**–style systems (Slack or MCP **capture**, **embeddings**, **semantic search** in a database, Nate B Jones stack, etc.) and are starting **companion-self** as a **cognitive fork** template.
+**Audience:** People who already know **Open Brain**–style systems (Slack or MCP **capture**, **embeddings**, **semantic search** in a database, Nate B Jones stack, etc.) and are starting **companion-self** as a **interpretive machine** template.
 
 **What this is:** WORK-only orientation in **grace-mar** — not the Record, not Voice knowledge. It **maps** concepts so you do **not** treat “searchable memory” and “governed identity” as the same thing.
 
@@ -10,9 +10,9 @@
 
 ## Comparison — one screen
 
-Open Brain here means the common pattern: **capture → embed → retrieve** (e.g. `thoughts` table, MCP `search_thoughts` / `capture_thought`). **Record** means **`self.md`**, **EVIDENCE**, IX, and the **gated pipeline** in a companion-self **instance**. **MEMORY** is **`self-memory.md`** (continuity, not authoritative vs SELF). **WORK** is **`docs/skill-work/**`** and operator staging — not the triad seat “Voice.”
+Open Brain here means the common pattern: **capture → embed → retrieve** (e.g. `thoughts` table, MCP `search_thoughts` / `capture_thought`). **Record** means **`self.md`**, **EVIDENCE**, IX, and the **gated pipeline** in a companion-self **instance**. **MEMORY** is **`memory.md`** (continuity, not authoritative vs SELF). **WORK** is **`docs/skill-work/**`** and operator staging — not the triad seat “Voice.”
 
-| | **Open Brain** | **companion-self Record** | **MEMORY** (`self-memory.md`) | **WORK / operator docs** |
+| | **Open Brain** | **companion-self Record** | **MEMORY** (`memory.md`) | **WORK / operator docs** |
 |---|----------------|----------------------------|-------------------------------|---------------------------|
 | **What it is for** | Fast **find** and **store** of notes for AI retrieval | **Who the companion is** — durable, approved identity and evidence | **Session / continuity** — pointers, tone, open loops | **Plans, mirrors, drafts** — instrumental layer |
 | **Who owns “truth”** | You; database is **source** for captured rows | **Companion** (human) via **approval**; SELF is authoritative | **Operator** rotatable prose; **loses** to SELF if they conflict | **Operator**; not identity truth |

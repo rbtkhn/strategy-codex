@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bounded self-memory maintenance and contradiction digest refresh."""
+"""Bounded memory.md maintenance and contradiction digest refresh."""
 
 from __future__ import annotations
 
@@ -40,7 +40,7 @@ from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
 from cadence_learning import log_dream_stage
 from harness_warmup import _pending_candidates
-from repo_io import DEFAULT_USER_ID, profile_dir, resolve_self_memory_path, last_dream_write_path
+from repo_io import DEFAULT_USER_ID, profile_dir, resolve_memory_path, last_dream_write_path
 
 DEFAULT_USER = DEFAULT_USER_ID
 
@@ -315,7 +315,7 @@ def maintain_self_memory(
 ) -> MemoryMaintenanceResult:
     user_dir = _user_root(users_dir, user_id)
     user_dir.mkdir(parents=True, exist_ok=True)
-    memory_path = resolve_self_memory_path(user_dir)
+    memory_path = resolve_memory_path(user_dir)
     before = memory_path.read_text(encoding="utf-8") if memory_path.exists() else ""
     after, added_sections, deduped_lines, blank_lines_collapsed = normalize_self_memory_content(before)
     changed = after != before
@@ -1132,7 +1132,7 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
             "strict autoDream" if summary.get("ok") else "strict autoDream FAILED",
             f"user: {summary.get('user_id', DEFAULT_USER)}",
             f"phase: {phase_label}",
-            f"self-memory changed: {memory.get('changed', False)}",
+            f"memory changed: {memory.get('changed', False)}",
             f"integrity ok: {bool((summary.get('integrity') or {}).get('ok'))}",
             f"governance ok: {bool((summary.get('governance') or {}).get('ok'))}",
         ]
@@ -1266,11 +1266,11 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Run bounded self-memory maintenance and contradiction digest refresh.")
+    parser = argparse.ArgumentParser(description="Run bounded memory.md maintenance and contradiction digest refresh.")
     parser.add_argument("--user", "-u", default=DEFAULT_USER, help=f"User id (default: {DEFAULT_USER})")
     parser.add_argument("--users-dir", type=Path, default=DEFAULT_USERS_DIR, help="Users directory root")
     parser.add_argument("--json", action="store_true", help="Emit JSON summary")
-    parser.add_argument("--dry-run", action="store_true", help="Do not write self-memory, derived digest, or events")
+    parser.add_argument("--dry-run", action="store_true", help="Do not write memory.md, derived digest, or events")
     parser.add_argument("--no-event", action="store_true", help="Skip pipeline-events emission")
     parser.add_argument("--no-artifacts", action="store_true", help="Skip contradiction artifact draft writes")
     parser.add_argument("--strict", action="store_true", help="Use strict maintenance semantics and fail fast on checks")

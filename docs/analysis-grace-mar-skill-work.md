@@ -19,7 +19,7 @@
 | **Evidence prefixes** | CREATE-*, ACT-* |
 | **Scope** | Making, planning, execution, creation (originality, elaboration, flexibility), decision-making, exchange |
 
-Per SKILLS-MODULARITY: WORK = making, planning, execution, exchange, creation. It starts from zero and grows through pipeline input (human-gated). It does not stage IX-A/B/C; the analyst does that. WORK captures capability only.
+Per SKILLS-MODULARITY: WORK = making, planning, execution, exchange, creation. It starts from zero and grows through pipeline input (human-gated). It does not stage museum knowledge section A/B/C; the analyst does that. WORK captures capability only.
 
 ---
 
@@ -109,7 +109,7 @@ companion_creative_context: pencil/pen on paper; most days; finishes pieces; sha
 
 | Relationship | How |
 |--------------|-----|
-| **SELF (IX-A/B/C)** | Analyst stages knowledge/curiosity/personality from CREATE/ACT; WORK does not stage. CREATE entries yield self_signals (interests, values, personality) that go to SELF via pipeline. |
+| **SELF (museum knowledge section A/B/C)** | Analyst stages knowledge/curiosity/personality from CREATE/ACT; WORK does not stage. CREATE entries yield self_signals (interests, values, personality) that go to SELF via pipeline. |
 | **self-skill-write** | Text integration in art (labels, signatures) â€” WRITE and WORK overlap at artifact level. |
 | **self-skill-think** | Source stories (Nine-Colored Deer, Lilo & Stitch) feed creation; THINK intake â†’ WORK output. |
 | **companion_creative_context** | ACT-0036 (companion artistic style) informs household creative environment; not the child's capability but context. |

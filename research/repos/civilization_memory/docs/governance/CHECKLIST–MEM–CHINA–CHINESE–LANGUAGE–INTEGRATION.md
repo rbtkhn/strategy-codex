@@ -1,6 +1,6 @@
 # MEM–CHINA Chinese-Language Integration Checklist
 
-**Purpose:** Ensure consistent application of ARC–CHINA v3.3 and the MEM authoring note (IX-B) when creating or editing MEM–CHINA files. Use for Phase 2/3 upgrades and for new MEMs.
+**Purpose:** Ensure consistent application of ARC–CHINA v3.3 and the MEM authoring note (museum knowledge section B) when creating or editing MEM–CHINA files. Use for Phase 2/3 upgrades and for new MEMs.
 
 **Reference:** CIV–ARC–CHINA v3.3; Plan *Major Upgrade: MEM–CHINA Corpus × Chinese-Language Sources*; AUDIT–SESSION–MEMS–CHINESE–LANGUAGE–SOURCES–2026–02–13.
 

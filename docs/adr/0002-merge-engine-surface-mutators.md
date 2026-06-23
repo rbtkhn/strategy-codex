@@ -6,7 +6,7 @@
 
 ## Context
 
-Pipeline merges used regex splice for `self.md` IX-A/B/C YAML blocks, ACT fragments in `self-evidence.md`, and line append for `archive/grace-mar-instance/bot/prompt.py`. That is safe but not semantically named, hard to test in isolation, and blocks richer behavior (READ/WRITE routing, optional IX-driven prompt sync).
+Pipeline merges used regex splice for `self.md` museum knowledge section A/B/C YAML blocks, ACT fragments in `self-evidence.md`, and line append for `archive/grace-mar-instance/bot/prompt.py`. That is safe but not semantically named, hard to test in isolation, and blocks richer behavior (READ/WRITE routing, optional IX-driven prompt sync).
 
 ## Decision
 

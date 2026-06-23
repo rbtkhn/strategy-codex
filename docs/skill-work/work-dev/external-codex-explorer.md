@@ -107,9 +107,9 @@ No embeddings; no semantic â€œfamilyâ€ beyond path/filename tokens.
 
 ---
 
-## Recursion-gate and self-knowledge (RECORD boundaries)
+## Recursion-gate and museum identity knowledge (archive) (RECORD boundaries)
 
-Neighborhood JSON is **lighter than** curated CIV-MEM references for Record purposes: same broad family as **[SELF-LIBRARY / CIV-MEM](../../../SELF-LIBRARY/CIV-MEM.md)** (*not* IX-A), but **more derived** â€” structural maps of upstream paths, **not** companion-endorsed world facts.
+Neighborhood JSON is **lighter than** curated CIV-MEM references for Record purposes: same broad family as **[removed operator-books symlink / CIV-MEM](../../../CIV-MEM.md)** (*not* museum knowledge section A), but **more derived** â€” structural maps of upstream paths, **not** companion-endorsed world facts.
 
 ### [`recursion-gate.md`](../../../recursion-gate.md)
 
@@ -119,11 +119,11 @@ Neighborhood JSON is **lighter than** curated CIV-MEM references for Record purp
 
 Merge discipline matches [`instance-doctrine.md`](../../../instance-doctrine.md) (script-driven merge after approval).
 
-### [`self.md`](../../../self.md) IX-A / IX-B / IX-C
+### [`self.md`](../../../self.md) museum knowledge section A / museum knowledge section B / museum knowledge section C
 
-- **IX-A:** Do **not** merge **substantive** claims mined from neighborhood graphs. **Rare exception:** companion-approved **meta** one-liner about **how** they work with civ paths (**human prose**, not schema dumps).
-- **IX-B:** Only if the companion **initiates** curiosity about tooling â€” **not** assistant-inferred from artifacts.
-- **IX-C:** Possible home for **working-style** lines **if** approved â€” **one sentence**, no file dumps.
+- **museum knowledge section A:** Do **not** merge **substantive** claims mined from neighborhood graphs. **Rare exception:** companion-approved **meta** one-liner about **how** they work with civ paths (**human prose**, not schema dumps).
+- **museum knowledge section B:** Only if the companion **initiates** curiosity about tooling â€” **not** assistant-inferred from artifacts.
+- **museum knowledge section C:** Possible home for **working-style** lines **if** approved â€” **one sentence**, no file dumps.
 - **`archive/grace-mar-instance/bot/prompt.py`:** No explorer-derived injection unless the companion **explicitly** requests a minimal boundary line â€” **default: omit.**
 
 ---

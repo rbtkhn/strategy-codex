@@ -25,7 +25,7 @@
 **Grace-Mar application:**
 - **RECURSION-GATE** is the inbox. Analyst stages candidates; user processes during review.
 - **Sovereign Merge Rule** — The agent may stage; it may not merge. See [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md).
-- **Design rule:** Never require the user to decide IX-A vs IX-B vs IX-C at capture time. Staging proposes; review assigns.
+- **Design rule:** Never require the user to decide museum knowledge section A vs museum knowledge section B vs museum knowledge section C at capture time. Staging proposes; review assigns.
 
 ---
 
@@ -34,7 +34,7 @@
 **Pattern:** Notes and tasks link to structure (projects, areas, resources). Items aren't floating—they're connected to what matters now.
 
 **Grace-Mar application:**
-- **Evidence linking** — Every IX-A, IX-B, IX-C entry references `evidence_id: ACT-XXXX`. Claims trace to artifacts.
+- **Evidence linking** — Every museum knowledge section A, museum knowledge section B, museum knowledge section C entry references `evidence_id: ACT-XXXX`. Claims trace to artifacts.
 - **LIBRARY → lookup** — Books and sources connect to knowledge; lookups route through them.
 - **Design rule:** Stage candidates with proposed `profile_target` and `evidence_id`. Reviewer sees the link before approving.
 
@@ -88,7 +88,7 @@
 
 | Second Brain Concept | Why Grace-Mar Skips It |
 |----------------------|------------------------|
-| **PARA (Projects, Areas, Resources, Archives)** | Grace-Mar organizes by IX-A/B/C (knowledge, curiosity, personality). Identity, not productivity. |
+| **PARA (Projects, Areas, Resources, Archives)** | Grace-Mar organizes by museum knowledge section A/B/C (knowledge, curiosity, personality). Identity, not productivity. |
 | **Task management** | No tasks, deadlines, or project tracking. Invariant 5: identity beyond productivity. |
 | **Read later** | LIBRARY serves a different role—curated sources for lookup, not a consumption queue. |
 | **Recurring tasks** | No recurring to-dos. Optional: recurring wisdom questions or checkpoints as session prompts. |

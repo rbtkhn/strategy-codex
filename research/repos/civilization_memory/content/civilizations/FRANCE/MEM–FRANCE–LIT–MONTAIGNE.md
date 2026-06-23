@@ -14,7 +14,7 @@ I. MEMORY PURPOSE & SCOPE
 ────────────────────────────────────────────────────────────
 This file preserves Montaigne as **Francia's skeptical humanist
 stabilizer**: the thinker who confronted civilizational fracture not by
-rebuilding certainty, but by cultivating restraint, self-knowledge,
+rebuilding certainty, but by cultivating restraint, museum identity knowledge (archive),
 and tolerance in the absence of reliable authority.
 
 Montaigne does not reconstruct truth.

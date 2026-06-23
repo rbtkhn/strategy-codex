@@ -64,7 +64,7 @@ See [Design Notes](design-notes.md) for full white-paper narrative and different
 
 | Metric | Target | How to Verify |
 |--------|--------|---------------|
-| Record completeness | IX-A, IX-B, IX-C populated | Dashboard, growth script |
+| Record completeness | museum knowledge section A, museum knowledge section B, museum knowledge section C populated | Dashboard, growth script |
 | Pipeline health | Candidates processed, not stale | RECURSION-GATE queue |
 | Knowledge boundary | No undocumented references | Counterfactual harness |
 | Export adoption | Integrations using identity export | OpenClaw, other agents |

@@ -16,7 +16,7 @@ Witness store for **third-party primary-source text** used in CIV-STATE volume w
 
 ## Not the same as
 
-- **`SELF-LIBRARY/`** — operator book index (LIB-0149, LIB-0153, …); symlinks to in-repo corpora
+- **Operator books** — misc folder homes; see [`codex/README.md`](../codex/README.md) § Operator books
 - **`source-archive/statecraft/`** — verbatim modern captures in git
 - **`public/civ-state/sources/`** — retrieve shelf / bibliography doors (metadata in repo)
 

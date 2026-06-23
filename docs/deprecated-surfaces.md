@@ -25,7 +25,7 @@
 | Voice / bots | `archive/grace-mar-instance/bot/`, `platform/apps/miniapp_server.py` | Cursor operator + channels |
 | `thanks` beat | `.cursor/skills/thanks/SKILL.md` | `coffee` / `conductor` |
 | Gate review pass | `.cursor/skills/gate-review-pass/SKILL.md` | Explicit `fork revive` only |
-| Elicit-knowledge → IX-A | `.cursor/skills/elicit-knowledge/SKILL.md` | Statecraft / bookshelf as WORK |
+| Elicit-knowledge → museum knowledge section A | `.cursor/skills/elicit-knowledge/SKILL.md` | Statecraft / bookshelf as WORK |
 | companion-self template sync | archived docs | strategy-codex-native routing |
 | Local PH corpus editing | `codex/predictive-history/` | [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ) observe-only |
 | strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | `codex/` + `source-archive/statecraft/` |
@@ -37,7 +37,7 @@
 | Surface | Notes |
 |---------|-------|
 | `self-library.md` / CIV-MEM | Reference retrieval for statecraft — not identity growth |
-| `self-memory.md` | WORK continuity — not Record |
+| `memory.md` | WORK continuity — not Record |
 | Cici / BrewMind governed state | Separate membrane — not Grace-Mar fork |
 | Statecraft **gate** transactions | Judgment objects — unrelated to `recursion-gate` |
 

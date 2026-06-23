@@ -38,7 +38,7 @@ Index (tri-frame expert bundles): [`docs/skill-work/work-strategy/minds/README.m
 ### 1.4 Operator preference already in-repo (constraints for your ideas)
 
 - **Granular control:** Cursor rule `.cursor/rules/strategy-minds-granular.mdc` — **no automatic tri-frame** on every `strategy` pass; use **0, 1, 2, or 3** lenses as the operator specifies, or **no** explicit lens labels unless useful.
-- **SELF-LIBRARY naming:** `.cursor/rules/self-library-operator-books.mdc` — hyphenated **`predictive-history`** / **`strategy-notebook`** resolve to **LIB-0149** / **LIB-0153** when the operator uses those strings.
+- **removed operator-books symlink naming:** `.cursor/rules/self-library-operator-books.mdc` — hyphenated **`predictive-history`** / **`strategy-notebook`** resolve to **predictive-history (`codex/predictive-history/`)** / **strategy-codex (`codex/`)** when the operator uses those strings.
 
 Your brainstorm should **respect** granular control: favor **optional, composable** patterns over “always run all three.”
 

@@ -20,7 +20,7 @@
     {
       "label": "operator_instructions",
       "description": "How the human operator wants this session run; review-first; no auto-merge into Record.",
-      "value": "All durable Grace-Mar changes go through the gate. Import summaries only to runtime-complements via import_runtime_observation.py; do not treat this block as SELF, EVIDENCE, SKILLS, or SELF-LIBRARY."
+      "value": "All durable Grace-Mar changes go through the gate. Import summaries only to runtime-complements via import_runtime_observation.py; do not treat this block as SELF, EVIDENCE, SKILLS, or removed operator-books symlink."
     },
     {
       "label": "runtime_session_notes",

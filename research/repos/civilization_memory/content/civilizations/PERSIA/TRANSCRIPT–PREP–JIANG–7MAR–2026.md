@@ -27,7 +27,7 @@
 | **BRICS** | "BRICS doesn't matter"; "law of the jungle"; "who is strong wins"; "might makes right" | Contrast with Pattern 8; note in source |
 | **Outcome** | "Pre-ordained": kill as many as possible, destroy economy, destroy Iran, US out of ME, destroy Gulf, Turkey in, Greater Israel, Pax Judeaica, then Gog and Magog; "scripted"; ground troops will go in, disaster, Iran shattered | Prediction; not observable short-term |
 | **US not in control** | 80%/99% Americans against war; Congress scheduled War Powers four days before attack when irrelevant; "Congress enabling"; Assange: "never-ending wars" for MIC; America = host, "parasite" = transnational capital; "intend America to lose" | GT10-2, Pattern 12 |
-| **Iran will destroy invasion** | "US will invade, Iranians will destroy invasion force" — but "that's what they want you to focus on... none of this actually matters"; real war = "self-knowledge," "who pulls strings," Plato's cave | GT10-3 interpretation |
+| **Iran will destroy invasion** | "US will invade, Iranians will destroy invasion force" — but "that's what they want you to focus on... none of this actually matters"; real war = "museum identity knowledge (archive)," "who pulls strings," Plato's cave | GT10-3 interpretation |
 
 ---
 

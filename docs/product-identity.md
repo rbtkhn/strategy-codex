@@ -8,7 +8,7 @@
 
 **External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
 
-It is **not** primarily a system for growing a personal cognitive fork. The embedded Grace-Mar Record is a **frozen legacy sidecar** — [`docs/archive/grace-mar.md`](archive/grace-mar.md) · [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md). Gate promotion: explicit **`fork revive`** only.
+It is **not** primarily a system for growing a personal interpretive machine. The embedded Grace-Mar Record is a **frozen legacy sidecar** — [`docs/archive/grace-mar.md`](archive/grace-mar.md) · [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md). Gate promotion: explicit **`fork revive`** only.
 
 ## System map
 

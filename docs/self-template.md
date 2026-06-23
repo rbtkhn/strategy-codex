@@ -12,7 +12,7 @@ Last Update: February 2026
 
 ## I. PURPOSE
 
-This template governs the SELF module of the cognitive fork.
+This template governs the SELF module of the interpretive machine.
 
 The SELF module:
 - Records WHO the user IS
@@ -77,14 +77,14 @@ identity: {
 }
 ```
 
-### 2. Personality (IX-C)
+### 2. Personality (museum knowledge section C)
 
-Observed personality belongs in **Section IX-C of `self.md`** as evidence-linked entries, not as a single nested trait object.
+Observed personality belongs in **Section museum knowledge section C of `self.md`** as evidence-linked entries, not as a single nested trait object.
 
 **Doctrine:**
 - Personality is documented from **observed behavior**, not declared by test or polished self-description.
 - Contradictions are preserved with provenance; the Record does not force one smooth personality story.
-- IX-C holds **identity-relevant observations**. Neighboring SELF sections may still summarize language, values, reasoning, or interests, but personality truth lives in IX-C.
+- museum knowledge section C holds **identity-relevant observations**. Neighboring SELF sections may still summarize language, values, reasoning, or interests, but personality truth lives in museum knowledge section C.
 
 ```typescript
 personality_entries: {
@@ -112,7 +112,7 @@ personality_entries: {
 }[];
 ```
 
-**Recommended IX-C facets:**
+**Recommended museum knowledge section C facets:**
 - `behavioral_tendency` — recurring ways of acting (playful, persistent, cautious, improvisational)
 - `emotional_pattern` — notable affective responses and triggers
 - `interpersonal_posture` — how they relate to others (help-seeking, leading, accommodating, resisting)
@@ -122,7 +122,7 @@ personality_entries: {
 
 ### 3. Linguistic Style
 
-How they communicate. **Primary data source: WRITE activities.** This section tracks language patterns and samples; identity-relevant speech observations may also appear in IX-C as `style_marker` entries when they belong in personality.
+How they communicate. **Primary data source: WRITE activities.** This section tracks language patterns and samples; identity-relevant speech observations may also appear in museum knowledge section C as `style_marker` entries when they belong in personality.
 
 ```typescript
 linguistic_style: {
@@ -252,7 +252,7 @@ preferences: {
 
 ### 6. Values
 
-What matters to them. This section summarizes values content; observed value expressions may also stage into IX-C when they function as personality evidence.
+What matters to them. This section summarizes values content; observed value expressions may also stage into museum knowledge section C when they function as personality evidence.
 
 ```typescript
 values: {
@@ -277,7 +277,7 @@ values: {
 
 ### 7. Reasoning Patterns
 
-How they think. This section summarizes cognitive approach; recurring identity-relevant reasoning posture may also appear in IX-C when it is being documented as personality.
+How they think. This section summarizes cognitive approach; recurring identity-relevant reasoning posture may also appear in museum knowledge section C when it is being documented as personality.
 
 ```typescript
 reasoning_patterns: {
@@ -444,7 +444,7 @@ SELF–SNAPSHOT–[NAME]–AGE–[X]
 Created: [YYYY-MM-DD]
 Status: ARCHIVED
 
-IX-C PERSONALITY SUMMARY:
+museum knowledge section C PERSONALITY SUMMARY:
 [Observed personality patterns at this age]
 
 LINGUISTIC MARKERS:
@@ -480,7 +480,7 @@ When browsing or querying the fork:
 
 | Query | Source |
 |-------|--------|
-| "What kind of person is [user]?" | IX-C pattern summary + evidence |
+| "What kind of person is [user]?" | museum knowledge section C pattern summary + evidence |
 | "How does [user] communicate?" | Linguistic markers + samples from Writing Log |
 | "What does [user] care about?" | Values and interests + evidence |
 | "Tell me about [user]'s background" | Life narrative |
@@ -579,7 +579,7 @@ Before creating SELF SNAPSHOT:
 - [ ] All components reviewed
 - [ ] Historical changes preserved
 - [ ] Linguistic samples current
-- [ ] IX-C summary reviewed for tensions, contradictions, and recency
+- [ ] museum knowledge section C summary reviewed for tensions, contradictions, and recency
 - [ ] Interests updated
 - [ ] Timestamp recorded
 - [ ] Marked as ARCHIVED (immutable)
@@ -598,7 +598,7 @@ Before creating SELF SNAPSHOT:
 
 - What user produces reveals interests
 - How they express reveals linguistic style
-- Repeated behavior can surface IX-C personality observations through the analyst
+- Repeated behavior can surface museum knowledge section C personality observations through the analyst
 
 ### Full Record Requires Both
 

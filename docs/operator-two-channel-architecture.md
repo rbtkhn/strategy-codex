@@ -37,7 +37,14 @@ Use that distinction first before reaching for older lane labels.
 | `docs/skill-work/work-business/` | `singularity` | Deployment, compression, and venture testbed for whether AI compounds real commercial work |
 | `statecraft/<lane>/` and `statecraft/compact/` | `statecraft` | Subchannels and drafting surfaces inside the statecraft judgment channel |
 | `codex/` | beneath both | Chronology, accumulation, and continuity infrastructure beneath both channels |
-| Record / governed identity surfaces | outside both | Governed identity truth; not part of the two-channel operator model |
+| Record / governed identity surfaces | outside both | Museum archaeology under `archive/grace-mar-instance/`; not part of the two-channel operator model |
+
+## Museum (Grace-Mar Record)
+
+The Grace-Mar bundle is **frozen museum** — not a growth target for strategy-codex. See [`docs/archive/grace-mar-record-museum.md`](archive/grace-mar-record-museum.md) and [`docs/grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md).
+
+- **Default:** route WORK through `statecraft/` and `singularity/`; use repo-root [`memory.md`](../memory.md) for session continuity.
+- **`fork revive` only:** explicit operator tokens may open museum merge archaeology (`--territory companion`, gate pipeline).
 
 ## Overlay Rule
 

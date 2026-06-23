@@ -4,8 +4,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 ## Stats
 
-- Distinct threads: `69`
-- Thread-linked source files: `2848`
+- Distinct threads: `70`
+- Thread-linked source files: `2857`
 - Covered days: `469`
 - Covered months: `22`
 
@@ -13,17 +13,17 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 | Thread | Files | Days | Months | Top channels/shows | Top hosts | First day | Last day |
 | --- | ---: | ---: | ---: | --- | --- | --- | --- |
-| `mercouris` | 387 | 343 | 21 | `Mercouris` (199), `Alexander Mercouris` (135), `The Duran` (25) | `Alexander Mercouris` (328), `Alex Christoforou` (20), `Glenn Diesen` (13) | `2023-01-14` | `2026-06-21` |
-| `davis` | 291 | 166 | 18 | `Daniel Davis Deep Dive` (250), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (3), `Deep Dive` (2) | `Daniel Davis` (235), `Glenn Diesen` (5), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-06-20` |
+| `mercouris` | 388 | 344 | 21 | `Mercouris` (199), `Alexander Mercouris` (136), `The Duran` (26) | `Alexander Mercouris` (328), `Alex Christoforou` (20), `Glenn Diesen` (12) | `2023-01-14` | `2026-06-22` |
+| `davis` | 292 | 167 | 18 | `Daniel Davis Deep Dive` (251), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (3), `Deep Dive` (2) | `Daniel Davis` (235), `Glenn Diesen` (5), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-06-22` |
 | `nima` | 281 | 175 | 16 | `Dialogue Works` (257) | `Nima Alkhorshid` (262) | `2025-01-04` | `2026-06-22` |
-| `diesen` | 227 | 179 | 21 | `Glenn Diesen` (145), `Diesen` (11), `Diesen (Greater Eurasia)` (9) | `Glenn Diesen` (192), `Diesen` (25), `Mario Nawfal` (1) | `2023-01-14` | `2026-06-19` |
-| `napolitano` | 220 | 147 | 18 | `Judging Freedom` (183), `Judging Freedom (Judge Napolitano)` (1) | `Andrew Napolitano` (196), `napolitano` (3) | `2025-01-07` | `2026-06-22` |
+| `diesen` | 228 | 180 | 21 | `Glenn Diesen` (146), `Diesen` (11), `Diesen (Greater Eurasia)` (9) | `Glenn Diesen` (193), `Diesen` (25), `Mario Nawfal` (1) | `2023-01-14` | `2026-06-22` |
+| `napolitano` | 221 | 147 | 18 | `Judging Freedom` (184), `Judging Freedom (Judge Napolitano)` (1) | `Andrew Napolitano` (196), `napolitano` (3) | `2025-01-07` | `2026-06-22` |
 | `freeman` | 148 | 135 | 18 | `Dialogue Works` (50), `Judging Freedom` (43), `Glenn Diesen` (23) | `Nima Alkhorshid` (51), `Andrew Napolitano` (46), `Glenn Diesen` (24) | `2025-01-07` | `2026-06-19` |
-| `johnson` | 106 | 87 | 16 | `Dialogue Works` (51), `Daniel Davis Deep Dive` (14), `Judging Freedom` (9) | `Nima Alkhorshid` (52), `Daniel Davis` (14), `Andrew Napolitano` (11) | `2025-01-04` | `2026-06-22` |
+| `johnson` | 107 | 87 | 16 | `Dialogue Works` (51), `Daniel Davis Deep Dive` (14), `Judging Freedom` (9) | `Nima Alkhorshid` (52), `Daniel Davis` (14), `Andrew Napolitano` (11) | `2025-01-04` | `2026-06-22` |
 | `ritter` | 100 | 84 | 16 | `Dialogue Works` (19), `Daniel Davis Deep Dive` (11), `Glenn Diesen` (9) | `Nima Alkhorshid` (24), `Glenn Diesen` (14), `Daniel Davis` (11) | `2025-01-05` | `2026-06-19` |
 | `wilkerson` | 95 | 92 | 17 | `Dialogue Works` (46), `Judging Freedom` (18), `Glenn Diesen` (5) | `Nima Alkhorshid` (50), `Andrew Napolitano` (21), `Glenn Diesen` (13) | `2025-01-04` | `2026-06-12` |
 | `mearsheimer` | 92 | 87 | 18 | `Judging Freedom` (24), `Daniel Davis Deep Dive` (19), `Diesen (Greater Eurasia)` (7) | `Andrew Napolitano` (31), `Daniel Davis` (25), `Glenn Diesen` (14) | `2025-01-17` | `2026-06-21` |
-| `sachs` | 90 | 85 | 18 | `Judging Freedom` (36), `Jeffrey Sachs` (21), `Glenn Diesen` (20) | `Andrew Napolitano` (34), `Glenn Diesen` (24), `Jeffrey Sachs` (21) | `2025-01-08` | `2026-06-15` |
+| `sachs` | 91 | 86 | 18 | `Judging Freedom` (37), `Jeffrey Sachs` (21), `Glenn Diesen` (20) | `Andrew Napolitano` (34), `Glenn Diesen` (24), `Jeffrey Sachs` (21) | `2025-01-08` | `2026-06-22` |
 | `macgregor` | 83 | 70 | 17 | `Daniel Davis Deep Dive` (33), `Judging Freedom` (21), `Glenn Diesen` (7) | `Daniel Davis` (30), `Andrew Napolitano` (26), `Glenn Diesen` (16) | `2025-01-06` | `2026-06-18` |
 | `pape` | 70 | 54 | 5 | `escalationtrap.substack.com` (43), `Mario Nawfal` (6), `Breaking Points` (4) | `Robert Pape` (45), `Mario Nawfal` (4), `Clayton Morris` (2) | `2026-02-25` | `2026-06-22` |
 | `marandi` | 68 | 52 | 10 | `Dialogue Works` (34), `Glenn Diesen` (13), `Daniel Davis Deep Dive` (11) | `Nima Alkhorshid` (32), `Glenn Diesen` (13), `Daniel Davis` (10) | `2025-01-05` | `2026-06-19` |
@@ -33,8 +33,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `nawfal` | 46 | 27 | 2 | `Mario Nawfal` (46) | `Mario Nawfal` (25) | `2026-05-12` | `2026-06-19` |
 | `martyanov` | 35 | 34 | 13 | `Dialogue Works` (28), `Daniel Davis Deep Dive` (3), `Deep Dive` (1) | `Nima Alkhorshid` (28), `Daniel Davis` (4), `Glenn Diesen` (3) | `2025-01-26` | `2026-06-18` |
 | `baud` | 32 | 31 | 12 | `Dialogue Works` (21), `Daniel Davis Deep Dive` (6), `Glenn Diesen` (4) | `Nima Alkhorshid` (19), `Daniel Davis` (5), `Glenn Diesen` (4) | `2025-01-24` | `2026-06-22` |
-| `mcgovern` | 24 | 23 | 11 | `Dialogue Works` (9), `Judging Freedom` (8), `Glenn Diesen` (6) | `Nima Alkhorshid` (8), `Glenn Diesen` (6), `Andrew Napolitano` (3) | `2025-02-05` | `2026-06-19` |
-| `christoforou` | 22 | 22 | 7 | `The Duran` (21), `Mercouris` (1) | `Alex Christoforou` (20) | `2025-02-07` | `2026-06-06` |
+| `mcgovern` | 25 | 24 | 11 | `Dialogue Works` (9), `Judging Freedom` (8), `Glenn Diesen` (7) | `Nima Alkhorshid` (8), `Glenn Diesen` (7), `Andrew Napolitano` (3) | `2025-02-05` | `2026-06-22` |
+| `christoforou` | 23 | 23 | 7 | `The Duran` (22), `Mercouris` (1) | `Alex Christoforou` (20) | `2025-02-07` | `2026-06-22` |
 | `barnes` | 20 | 17 | 6 | `Daniel Davis Deep Dive` (7), `Mario Nawfal` (4), `The Duran` (3) | `Daniel Davis` (6), `Alexander Mercouris` (2), `Nima Alkhorshid` (2) | `2026-01-13` | `2026-06-11` |
 | `india-and-global-left` | 20 | 20 | 13 | `India and Global Left` (20) | `Judish Raj` (20) | `2025-02-22` | `2026-06-11` |
 | `aguilar` | 15 | 14 | 4 | `Dialogue Works` (8), `Mario Nawfal` (3), `Moral Resistance` (3) | `Nima Alkhorshid` (8), `Sulaiman Ahmed` (2), `Mario Nawfal` (1) | `2026-02-27` | `2026-06-20` |
@@ -68,6 +68,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `kiriakou` | 2 | 2 | 2 | (none) | (none) | `2026-02-27` | `2026-04-27` |
 | `lottaz` | 2 | 2 | 2 | `Neutrality Studies` (2) | `Pascal Lottaz` (2) | `2025-02-06` | `2026-06-20` |
 | `moral-resistance` | 2 | 2 | 1 | `Moral Resistance` (2) | `Sulaiman Ahmed` (2) | `2026-06-12` | `2026-06-18` |
+| `[davis, baud]` | 1 | 1 | 1 | `Daniel Davis Deep Dive` (1) | `Daniel Davis` (1) | `2026-05-28` | `2026-05-28` |
 | `anzalone` | 1 | 1 | 1 | (none) | `Andrew Napolitano` (1) | `2026-03-16` | `2026-03-16` |
 | `daniel-davis` | 1 | 1 | 1 | `Daniel Davis / Deep Dive` (1) | `Daniel Davis` (1) | `2025-12-20` | `2025-12-20` |
 | `fidias` | 1 | 1 | 1 | `Fidias Podcast` (1) | `Fidias Panayiotou` (1) | `2025-11-01` | `2025-11-01` |

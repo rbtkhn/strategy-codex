@@ -1,3 +1,5 @@
+<!-- MUSEUM: Not active SSOT for strategy-codex. See docs/archive/grace-mar-record-museum.md -->
+
 # SELF — grace-mar
 
 Cognitive Emulator · User Profile

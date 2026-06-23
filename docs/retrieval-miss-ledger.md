@@ -10,7 +10,7 @@ Each miss is classified with a small failure taxonomy and stored for later debug
 
 ## What it is NOT
 
-- **Not Record.** Does not touch SELF, EVIDENCE, SKILLS, SELF-LIBRARY, or `recursion-gate.md`.
+- **Not Record.** Does not touch SELF, EVIDENCE, SKILLS, removed operator-books symlink, or `recursion-gate.md`.
 - **Not promotion logic.** Does not stage candidates, auto-merge, or mutate canonical surfaces.
 - **Not canonical truth.** A miss record is a debugging observation, not a durable fact about the companion.
 - **Not a governance lane.** No approval workflow; no companion gate. Just structured notes about retrieval failures.

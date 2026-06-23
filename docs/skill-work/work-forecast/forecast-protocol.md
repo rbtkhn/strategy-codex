@@ -22,7 +22,7 @@ They may:
 They may not:
 
 - write directly to SELF
-- write directly to SELF-LIBRARY
+- write directly to removed operator-books symlink
 - write directly to SKILLS
 - write directly to EVIDENCE
 - convert forecasts into facts without review

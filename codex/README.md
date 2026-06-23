@@ -1,12 +1,29 @@
 # strategy-codex
 <!-- word_count: 1347 -->
 
-**Discoverability:** The same tree is linked from the legacy **`SELF-LIBRARY/strategy-codex`** symlink for agents and tools that still prioritize the older companion-tree vocabulary. In strategy-codex doctrine, this tree is part of the notebook's **library** surface rather than an identity-facing layer. **Legacy LIB reference:** [LIB-0153](../self-library.md#operator-analytical-books) in [`self-library.md`](../self-library.md) (Operator analytical books).
+**Canonical home:** `/codex` — strategy-codex operator notebook (chronology, accumulation, continuity). Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only**.
 
-**Current role:** `/codex` is the **chronology, accumulation, and continuity layer** beneath the broader [statecraft](../statecraft/README.md) surface. It is no longer taught as the independent owner of the old `work-strategy` lane. Use `/codex` for dated continuity, thread/page accumulation, and notebook memory; use `statecraft/` for live judgment, mechanism, recursive learning, and first-class prose outputs.
+**Current role:** `/codex` is the **chronology, accumulation, and continuity layer** beneath the broader [statecraft](../statecraft/README.md) surface. Use `/codex` for dated continuity, thread/page accumulation, and notebook memory; use `statecraft/` for live judgment, mechanism, recursive learning, and first-class prose outputs.
 
 **Root-layer stack:** [`archive/`](../archive/README.md) preserves legacy freezes and non-live holdings; [`source-archive/`](../source-archive/README.md) preserves canonical full-source captures for active downstream use; `/codex` carries chronology and continuity; `statecraft/` and `singularity/` consume those lower layers for synthesis, routing, and judgment.
 
+## Operator books (misc homes)
+
+Operator-authored books have **no** central registry or `LIB-*` ids. Discover each book via its misc folder **README** / **STATUS**, [`LLM-ROUTING.md`](../LLM-ROUTING.md), and [`repo-map.yaml`](../repo-map.yaml).
+
+| Operator phrase | Canonical path |
+|-----------------|----------------|
+| `strategy-codex` / `strategy-notebook` | `codex/` (this tree) |
+| `predictive-history` | `codex/predictive-history/` |
+| cici notebook | `singularity/work-cici/cici-notebook/` |
+| dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |
+| history notebook | `docs/skill-work/work-strategy/history-notebook/` |
+| theology notebook | `docs/skill-work/work-strategy/theology-notebook/` |
+| civilization memory (upstream) | `research/repos/civilization_memory/` |
+| bookshelf (owned print) | `docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md` |
+| PH YouTube transcripts | `research/external/youtube-channels/predictive-history/` |
+
+Routing rule: [`.cursor/rules/operator-books-routing.mdc`](../.cursor/rules/operator-books-routing.mdc).
 
 ## Primary 2026 Volume
 
@@ -149,7 +166,7 @@ The **primary written unit** of [work-strategy](../docs/skill-work/work-strategy
 - **Dashboard:** [STATUS.md](STATUS.md)
 - **Chapters:** `chapters/YYYY-MM/` ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â `meta.md` (month) + `days.md` (chronology / continuity ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â names page **`id`s** and weaves). **Substance** lives in **time-scoped author thread files under `codex/years/2026/<channel>/`** (`strategy-page` blocks), not under `chapters/ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦/knots/` (removed; see git history). **Terminology:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Terminology (chapter / day block / page)](STRATEGY-NOTEBOOK-ARCHITECTURE.md#terminology-chapter-day-page) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â one month = one chapter, one committed `days.md` day = one **day block** (vs **`strategy-page`** in author threads). **Sparse-capture months** may be **meta-led retro syntheses** (single episodic `days.md` block; long arc in `meta.md`) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â exemplar: [chapters/2026-01/meta.md](chapters/2026-01/meta.md). **Book-style scaffold:** see the `Volume / book / chapter / page scaffold` doctrine above.
 - **Minds:** [`minds/`](minds/) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â trimmed CIV-MIND files (Barnes, Mearsheimer, Mercouris) for analytical lens work; see [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for recipes
-- **History notebook (parallel, LIB-0156):** [../docs/skill-work/work-strategy/history-notebook/README.md](../docs/skill-work/work-strategy/history-notebook/README.md) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â operator mechanism chapters; [STATUS ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â distillation queue](../docs/skill-work/work-strategy/history-notebook/STATUS.md) (single SSOT for next `hn-*`); per-arc **Reusable Resonance Lines** in [../docs/skill-work/work-strategy/history-notebook/threads/history-civ-*.md](../docs/skill-work/work-strategy/history-notebook/threads/); optional [cross-arc pattern lines](../docs/skill-work/work-strategy/history-notebook/threads/cross-arc-resonance-lines.md) (analogy-audit when load-bearing); **`### History resonance`** tiers + optional **`HN gap:`** (see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ *Parallel to History notebook*); `python3 scripts/validate_strategy_hn_citations.py` warns on unknown `hn-*` tokens
+- **History notebook (parallel, `docs/skill-work/work-strategy/history-notebook/`):** [../docs/skill-work/work-strategy/history-notebook/README.md](../docs/skill-work/work-strategy/history-notebook/README.md) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â operator mechanism chapters; [STATUS ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â distillation queue](../docs/skill-work/work-strategy/history-notebook/STATUS.md) (single SSOT for next `hn-*`); per-arc **Reusable Resonance Lines** in [../docs/skill-work/work-strategy/history-notebook/threads/history-civ-*.md](../docs/skill-work/work-strategy/history-notebook/threads/); optional [cross-arc pattern lines](../docs/skill-work/work-strategy/history-notebook/threads/cross-arc-resonance-lines.md) (analogy-audit when load-bearing); **`### History resonance`** tiers + optional **`HN gap:`** (see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ *Parallel to History notebook*); `python3 scripts/validate_strategy_hn_citations.py` warns on unknown `hn-*` tokens
 - **Demo / calibration:** [notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md](notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â step-by-step `skill-strategy` exercise using three ingested transcripts + explicit tri-frame; run `bash scripts/demo_skill_strategy_transcripts_check.sh` from repo root first ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· [Executive report (implementation & readiness)](notes/DEMO-SKILL-STRATEGY-EXECUTIVE-REPORT.md) ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· [notes/README.md](notes/README.md)
 
 WORK only; not Record unless promoted through RECURSION-GATE.

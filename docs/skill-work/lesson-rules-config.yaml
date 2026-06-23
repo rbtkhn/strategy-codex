@@ -36,7 +36,7 @@ constraints:
     - 'After each activity: "We did [X]."'
   must_nots:
     - "Do not advance to a new segment until she shows ~90% mastery on the current one."
-    - "Do not add content outside IX-A, IX-B, or IX-C."
+    - "Do not add content outside museum knowledge section A, museum knowledge section B, or museum knowledge section C."
   preferences:
     - "For reading: introduce one new word in context; when it appears, briefly explain it using a student-friendly definition (simple words, example from her world)."
     - "Tone: warm and simple; light emoji is fine if it fits."

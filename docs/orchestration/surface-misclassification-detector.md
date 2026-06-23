@@ -20,8 +20,8 @@
 
 Grace-Mar depends on clear distinctions between:
 
-- **SELF** — identity and self-knowledge  
-- **SELF-LIBRARY** — governed reference and return-to sources  
+- **SELF** — identity and museum identity knowledge (archive)  
+- **removed operator-books symlink** — governed reference and return-to sources  
 - **SKILLS** — capability  
 - **EVIDENCE** — activity and artifacts  
 - **WORK_LAYER** (heuristic) — exploratory or under-evidenced material that should not yet be treated as durable Record

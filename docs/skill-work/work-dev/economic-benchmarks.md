@@ -71,7 +71,7 @@ Analyst headlines and third-party TAM figures (e.g. McKinsey-style agent-commerc
 |--------|-------------|--------|--------|
 | Record â†’ OpenClaw delivery | Exports actually consumed in OpenClaw sessions | export events + external OpenClaw session logs | blocked |
 | OpenClaw â†’ Record capture | ACT-* entries or merge artifacts attributable to OpenClaw handback | self-evidence.md + event trail | blocked |
-| IX growth from handback | New IX-A/B/C entries merged from OpenClaw-sourced candidates | self.md + event trail | blocked |
+| IX growth from handback | New museum knowledge section A/B/C entries merged from OpenClaw-sourced candidates | self.md + event trail | blocked |
 | Merge rate from OpenClaw | Approved / total OpenClaw-sourced candidates | recursion-gate.md + candidate_source | manual |
 
 ### Gate health

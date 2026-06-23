@@ -1,6 +1,6 @@
 ﻿# Self-memory audit (multi-dimension)
 
-**Canonical template:** [memory-template.md](memory-template.md) Â· **Path:** `self-memory.md` Â· **Authority:** [AGENTS.md](../AGENTS.md) (MEMORY is not the Record).
+**Canonical template:** [memory-template.md](memory-template.md) Â· **Path:** `memory.md` Â· **Authority:** [AGENTS.md](../AGENTS.md) (MEMORY is not the Record).
 
 Use **one row per dimension** in the summary table. Each dimension is a separate lens so a clean score on one axis does not hide failure on another.
 
@@ -43,7 +43,7 @@ Use **one row per dimension** in the summary table. Each dimension is a separate
 
 **Checks**
 
-- Short-term: tone, thread, calibrations, resistance â€” not IX-A facts or IX-B interests as if permanent.
+- Short-term: tone, thread, calibrations, resistance â€” not museum knowledge section A facts or museum knowledge section B interests as if permanent.
 - Medium-term: open loops, coordination â€” not a copy of SELF.
 - Long-term: process/pointers â€” not knowledge or personality claims.
 
@@ -92,10 +92,10 @@ Use **one row per dimension** in the summary table. Each dimension is a separate
 
 ## Completed run: `grace-mar` (2026-04-05)
 
-**Target file:** [self-memory.md](../self-memory.md)  
+**Target file:** [memory.md](../memory.md)  
 **Cross-checks:** Overlap spot-check vs [self.md](../self.md) and EVIDENCE for **Bach Goldberg Variations** / **Tchaikovsky Andante cantabile** (merged LEARN/CUR; ACT-0038/0039).  
 **Voice load (filtered lines):** short 7 / cap 45, medium 1 / cap 28, long 2 / cap 18 â€” all **under cap** (`archive/grace-mar-instance/bot/core.py` semantics).  
-**Dream dry-run:** `integrity ok`, `governance ok`; `self-memory changed: False`, `blank_lines_collapsed: 3`, `deduped lines: 0` (idempotent normalize; see Telemetry note).
+**Dream dry-run:** `integrity ok`, `governance ok`; `memory changed: False`, `blank_lines_collapsed: 3`, `deduped lines: 0` (idempotent normalize; see Telemetry note).
 
 | Dimension | Result | Notes |
 |-----------|--------|--------|

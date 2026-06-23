@@ -27,7 +27,7 @@ Fast doorway:
 | **Cadence architecture** | Defines work-start vs signing-off **Step 1** weight, **one** fixed **`coffee` hub** (**A-D**: Steward, Engineer, Statecraft, Singularity), **standalone name-only Conductor** sessions, re-entry behavior, and cadence modifiers. |
 | **Operator activation** | Holds the rationale for why the `coffee` ritual exists: activation, rhythm, state shift, and workflow dopamine replacement. |
 | **Boundary surface** | Explains what belongs in WORK-only docs/history versus what must escalate to `RECURSION-GATE` or change review. |
-| **Session trail guidance** | Clarifies how `session-transcript`, `work-*-history.md`, and `self-memory` relate without collapsing into one another. |
+| **Session trail guidance** | Clarifies how `session-transcript`, `work-*-history.md`, and `memory` relate without collapsing into one another. |
 
 ---
 
@@ -81,7 +81,7 @@ Keep changes in docs/history only when they are about:
 
 Stage to **`recursion-gate.md`** only when a `work-coffee` insight would change governed behavior, such as:
 
-- companion-facing IX-B / IX-C intake
+- companion-facing museum knowledge section B / museum knowledge section C intake
 - durable prompt or policy behavior
 - approved survey/cadence structures that alter Record intake
 - enduring governance changes that should not live as docs only
@@ -114,7 +114,7 @@ Default rule: if the insight is still primarily about operator preference or rit
 
 - **Raw continuity:** `session-transcript.md`
 - **Lane breadcrumbs:** `docs/skill-work/work-coffee/work-coffee-history.md`
-- **Optional continuity memory:** `self-memory.md`
+- **Optional continuity memory:** `memory.md`
 - **Governed durable changes:** `recursion-gate.md`
 
 Per [work-menu-conventions.md](../work-menu-conventions.md) and [work-modules-history-principle.md](../work-modules-history-principle.md), `coffee` sessions may leave WORK-choice trails and per-lane breadcrumbs, but those are not Record truth.
@@ -151,7 +151,7 @@ In scope:
 
 - operator cadence design
 - activation rituals
-- work-start / signing-off (merged into one fixed coffee flow; treaty/policy/negotiation drafting lands under **C - Statecraft**; singularity-academy activation lands under **D - Singularity**; Rome / Jiang / notebook synthesis, self-knowledge bookshelf quiz, skill-write, and commercial slices route by explicit request outside the coffee hub unless converted into statecraft output; Conductor is standalone by name; see [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
+- work-start / signing-off (merged into one fixed coffee flow; treaty/policy/negotiation drafting lands under **C - Statecraft**; singularity-academy activation lands under **D - Singularity**; Rome / Jiang / notebook synthesis, museum identity knowledge (archive) bookshelf quiz, skill-write, and commercial slices route by explicit request outside the coffee hub unless converted into statecraft output; Conductor is standalone by name; see [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
 - reorientation and multi-`coffee` behavior
 - survey/cadence workflow design
 - relationship between hub flow and territory execution

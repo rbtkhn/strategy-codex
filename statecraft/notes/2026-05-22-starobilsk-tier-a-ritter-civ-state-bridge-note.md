@@ -13,7 +13,7 @@ Preserve one **bounded wire + CIV-STATE object** from the Ritter *Trail of Tears
 - [2026-06-19 daily](../synthesis/day/2026-06-19.md) — tertiary Russia rear lane (when daily expanded to 12/12)
 - [Ritter capture](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) — archive `verify:` + operator adjudication
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — `substack-ritter-a-trail-of-tears-2026-06-19`
-- [codex days fold](../../codex/chapters/2026/2026-06/days.md#2026-06-21) — LIB-0153 Judgment receipt
+- [codex days fold](../../codex/chapters/2026/2026-06/days.md#2026-06-21) — strategy-codex (`codex/`) Judgment receipt
 
 **Retrieve posture:** `shelf-reader` (Russia occupied-rear witness + corridor carrying conditions; no essay prose paste).
 

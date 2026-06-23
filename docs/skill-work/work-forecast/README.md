@@ -14,11 +14,11 @@ This lane is not for:
 
 - changing identity
 - writing directly to SELF
-- writing directly to SELF-LIBRARY
+- writing directly to removed operator-books symlink
 - treating forecasts as facts
 - bypassing proposal and review workflow
 
-**Core boundary:** Forecast artifacts are WORK-layer decision-support objects. They do not update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE directly. Any forecast-derived conclusion must be separately proposed and human-approved through the existing gated pipeline.
+**Core boundary:** Forecast artifacts are WORK-layer decision-support objects. They do not update SELF, removed operator-books symlink, SKILLS, or EVIDENCE directly. Any forecast-derived conclusion must be separately proposed and human-approved through the existing gated pipeline.
 
 **Read next:** [forecast-protocol.md](forecast-protocol.md) · [GLOSSARY-FOR-BEGINNERS.md](GLOSSARY-FOR-BEGINNERS.md) · [observability.md](observability.md) · [strategy-integration.md](strategy-integration.md) · [forecast-reference-template.md](forecast-reference-template.md)
 

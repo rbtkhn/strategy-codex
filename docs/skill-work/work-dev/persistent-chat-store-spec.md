@@ -7,7 +7,7 @@
 
 ## Problem
 
-`conversations` in `archive/grace-mar-instance/bot/core.py` is an in-memory `defaultdict(list)`. Every restart wipes conversation history. The bot returns with no context beyond `self-memory.md` (manually curated) and the inlined Record in the system prompt. Older conversation turns (beyond the 20-turn window) are permanently lost to the LLM — they exist only in the append-only `session-transcript.md` which is never read back for context.
+`conversations` in `archive/grace-mar-instance/bot/core.py` is an in-memory `defaultdict(list)`. Every restart wipes conversation history. The bot returns with no context beyond `memory.md` (manually curated) and the inlined Record in the system prompt. Older conversation turns (beyond the 20-turn window) are permanently lost to the LLM — they exist only in the append-only `session-transcript.md` which is never read back for context.
 
 ## Solution
 
@@ -39,7 +39,7 @@ OpenBrain uses a 20-day timer. That is too passive for grace-mar's intensive ses
 
 ```
 SYSTEM_PROMPT (character, knowledge, Lexile, Record inline)
-  + MEMORY APPENDIX (from self-memory.md — operator-curated horizons)
+  + MEMORY APPENDIX (from memory.md — operator-curated horizons)
   + CONVERSATION SUMMARY (from chat_summaries — auto-generated)
   + RECENT MESSAGES (last 20 raw turns from chat_messages)
 ```
@@ -67,7 +67,7 @@ SYSTEM_PROMPT (character, knowledge, Lexile, Record inline)
 |-------|---------|----------|
 | **In-memory dict** | Fast cache for current session | Stays — DB is source of truth on restart |
 | **session-transcript.md** | Operator continuity log, append-only | No change |
-| **self-memory.md** | Manually curated short/medium/long context | No change |
+| **memory.md** | Manually curated short/medium/long context | No change |
 | **Chat summary (new)** | Auto-compressed conversation history | New layer |
 | **Record (self.md)** | Governed identity state | No change |
 
@@ -79,7 +79,7 @@ Three commands that bypass the Voice LLM entirely (zero token cost, no hallucina
 |---------|-------------|---------|
 | `/recent [N]` | chat_messages | Show last N conversation turns |
 | `/search <query>` | chat_messages + chat_summaries | Full-text search of conversation history |
-| `/recall <query>` | self.md (IX-A/B/C) + self-archive.md | Direct read access to governed Record state |
+| `/recall <query>` | self.md (museum knowledge section A/B/C) + self-archive.md | Direct read access to governed Record state |
 
 ### Files touched
 
@@ -93,4 +93,4 @@ Three commands that bypass the Voice LLM entirely (zero token cost, no hallucina
 
 ### Files NOT touched
 
-`prompt.py`, `self.md`, `self-memory.md`, `recursion-gate.md`, `session-transcript.md`, analyst pipeline, gated merge pipeline, dream/bridge scripts.
+`prompt.py`, `self.md`, `memory.md`, `recursion-gate.md`, `session-transcript.md`, analyst pipeline, gated merge pipeline, dream/bridge scripts.

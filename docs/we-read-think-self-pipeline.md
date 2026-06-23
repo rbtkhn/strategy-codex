@@ -9,9 +9,9 @@
 | Path | What updates | Gate? |
 |------|----------------|-------|
 | **Intake / THINK** | `self-evidence.md` (READ-*), `skill-think.md`, optionally `skills.md` THINK | No gate for those files (operator edits directly per policy) |
-| **Identity / IX** | `self.md` IX-A, IX-B, IX-C | **Yes** — RECURSION-GATE → approve → merge |
+| **Identity / IX** | `self.md` museum knowledge section A, museum knowledge section B, museum knowledge section C | **Yes** — RECURSION-GATE → approve → merge |
 
-Stable facts she should *know* in-character → **IX-A** (after gate). Fleeting chat about a book → often **IX-B** or nothing. **Do not** duplicate every THINK bullet as IX-A.
+Stable facts she should *know* in-character → **museum knowledge section A** (after gate). Fleeting chat about a book → often **museum knowledge section B** or nothing. **Do not** duplicate every THINK bullet as museum knowledge section A.
 
 **Doctrine hub:** [docs/skill-think/README.md](skill-think/README.md) — THINK vs SELF vs WORK, evidence-backed claims, and **THINK→IX** rules: [think-to-ix-promotion-rules.md](skill-think/think-to-ix-promotion-rules.md), [ix-promotion-examples.md](skill-think/ix-promotion-examples.md).
 
@@ -39,7 +39,7 @@ signal_type: knowledge     # or new_interest, etc.
 priority_score: 3
 summary: After reading [TITLE], companion retained [one concrete fact or theme].
 example_from_exchange: "[short quote or paraphrase]"
-profile_target: IX-A. KNOWLEDGE   # or IX-B / IX-C as appropriate
+profile_target: museum knowledge section A. KNOWLEDGE   # or museum knowledge section B / museum knowledge section C as appropriate
 suggested_entry: "[single line for IX — one claim, not a paragraph]"
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: "[mirror line for prompt] or none"

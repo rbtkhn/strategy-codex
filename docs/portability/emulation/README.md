@@ -46,7 +46,7 @@ Portable emulation is **not**:
 - a second Record
 - a merge path
 - a shortcut around `recursion-gate.md`
-- permission to mutate SELF, SELF-LIBRARY, SKILLS, or EVIDENCE
+- permission to mutate SELF, removed operator-books symlink, SKILLS, or EVIDENCE
 - a replacement for the runtime-complements membrane
 - an executable emulator in this PR
 

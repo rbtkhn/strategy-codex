@@ -4,7 +4,7 @@ Verification / Contradiction vs CIV–DOCTRINE–FRANCE v3.0
 Date: 11 February 2026
 Horizon: Past 30 days (mid-January – mid-February 2026)
 Sources: ARC–FRANCE ARC-T-INSTITUTIONAL where applicable; non-ARC flagged.
-Authority: CIV–DOCTRINE–FRANCE v3.0 (five doctrines); CIV–ARC–FRANCE § IX-B.
+Authority: CIV–DOCTRINE–FRANCE v3.0 (five doctrines); CIV–ARC–FRANCE § museum knowledge section B.
 
 ────────────────────────────────────────────────────────────
 I. SOURCE ATTRIBUTION

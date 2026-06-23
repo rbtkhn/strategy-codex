@@ -46,7 +46,7 @@ Research notes from Moonshots episode #237. Use for work-dev alignment, integrat
 
 **Memory improvement (Alex):** When OpenClaw forgets something, ask: (1) Why did you forget that? (2) What can you fix so you never forget again? It edits its own memory system. Grace-Mar's gated pipeline is the opposite: the companion gates what enters; the agent does not self-edit. Our boundary is stronger.
 
-**Large knowledge bases:** Alex uses Gemma (small local model) for memory retrieval. Custom systems for e.g. 500 YouTube transcripts. Grace-Mar's self-library, IX-A/B/C, and lookup flow serve a similar role — structured, not raw ingestion.
+**Large knowledge bases:** Alex uses Gemma (small local model) for memory retrieval. Custom systems for e.g. 500 YouTube transcripts. Grace-Mar's self-library, museum knowledge section A/B/C, and lookup flow serve a similar role — structured, not raw ingestion.
 
 ---
 

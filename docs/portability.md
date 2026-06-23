@@ -19,7 +19,7 @@ Grace-Mar exports can package four distinct lanes:
 | Lane | Meaning | Canonical? |
 |------|---------|------------|
 | **record** | identity, skills, evidence, library, PRP | Yes |
-| **runtime** | warmup, `self-memory.md`, session continuity aids | No |
+| **runtime** | warmup, `memory.md`, session continuity aids | No |
 | **audit** | event logs, merge receipts, checksum/freshness surfaces | Append-only operational history |
 | **policy** | intent rules and machine-readable alignment surfaces | Canonical policy, not identity |
 
@@ -49,7 +49,7 @@ What the companion gives to the new school depends on integration depth.
 
 | Use case | Contents | How to produce |
 |----------|----------|----------------|
-| **Identity only** | Interests, personality, values, IX-A/B/C, linguistic style | `python scripts/export_user_identity.py -u grace-mar -o handoff-identity.md` |
+| **Identity only** | Interests, personality, values, museum knowledge section A/B/C, linguistic style | `python scripts/export_user_identity.py -u grace-mar -o handoff-identity.md` |
 | **Full fork** | SELF, EVIDENCE, SKILLS, LIBRARY | `python scripts/export_fork.py -u grace-mar -o handoff-fork.json` |
 | **Runtime bundle** | Record + policy + optional runtime/audit lanes for a downstream harness | `python scripts/export_runtime_bundle.py -u grace-mar -o handoff-runtime-bundle` |
 | **Emulation-ready bundle** | Runtime bundle + PRP + fork export + authority map + change-proposal return contract | `python scripts/export.py emulation -- --mode portable_bundle_only -o handoff-emulation-bundle` |
@@ -113,10 +113,10 @@ Exports include a generation timestamp. The Record schema (SELF, SKILLS, EVIDENC
 
 | File | Role in transfer |
 |------|------------------|
-| `self.md` | Identity, interests, personality, IX-A/B/C |
+| `self.md` | Identity, interests, personality, museum knowledge section A/B/C |
 | `skills.md` | THINK and WRITE Record skill status |
 | `self-evidence.md` | Activity log (full fork export only) |
-| `self-memory.md` | Runtime continuity only; not canonical identity |
+| `memory.md` | Runtime continuity only; not canonical identity |
 | `runtime/bundle/` | Portable package for downstream runtimes; includes record/runtime/audit/policy lanes |
 | `emulation-bundle/` | Emulation-oriented wrapper over the existing runtime bundle plus proposal/membrane return references |
 | `pipeline-events.jsonl` | Audit trail for staging, merge, validation, export |

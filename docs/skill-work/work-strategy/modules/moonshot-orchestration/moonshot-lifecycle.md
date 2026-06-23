@@ -43,7 +43,7 @@ This lifecycle converts moonshot signals into bounded strategic artifacts withou
 
 **Output:** Boundary status.
 
-**Allowed action:** Identify whether the item touches SELF, SELF-LIBRARY, SKILLS, EVIDENCE, external infrastructure, or public claims.
+**Allowed action:** Identify whether the item touches SELF, removed operator-books symlink, SKILLS, EVIDENCE, external infrastructure, or public claims.
 
 **Forbidden action:** Continue toward execution if boundary status is unresolved.
 
@@ -101,7 +101,7 @@ This lifecycle converts moonshot signals into bounded strategic artifacts withou
 
 **Input:** Reviewed outcome.
 
-**Output:** Candidate update for SELF-LIBRARY, SKILLS, EVIDENCE, or another surface.
+**Output:** Candidate update for removed operator-books symlink, SKILLS, EVIDENCE, or another surface.
 
 **Allowed action:** Stage a candidate through the normal gate process.
 

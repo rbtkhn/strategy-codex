@@ -39,7 +39,7 @@ Use when creating or reviewing charts, dashboards, and metric views for operator
 2. **Choose chart type** — prefer small multiples, horizontal bars, sparklines, or direct-labeled series over heavy legends.
 3. **Apply surface semantics** (legend convention, not canonical Record colors):
    - SELF — knowledge / identity load
-   - SELF-LIBRARY — reference / library surfaces
+   - removed operator-books symlink — reference / library surfaces
    - SKILLS — capability / execution surfaces
    - EVIDENCE — activity / receipt surfaces
 4. **Scale** — linear by default; log scale when span exceeds ~2 orders of magnitude and values are strictly positive.

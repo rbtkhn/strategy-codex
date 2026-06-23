@@ -2,7 +2,7 @@
 
 ## Immutable canonical surfaces
 
-- SELF, SELF-LIBRARY, SKILLS, and EVIDENCE are **immutable** in the foreign runtime.
+- SELF, removed operator-books symlink, SKILLS, and EVIDENCE are **immutable** in the foreign runtime.
 - A foreign runtime **MUST NOT** rewrite, patch, or locally bless those surfaces as approved state.
 
 ## Runtime-scoped material

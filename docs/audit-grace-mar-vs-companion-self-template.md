@@ -31,7 +31,7 @@ From the bootstrap and merge doc, an **instance** (e.g. grace-mar) is expected t
 | self-archive.md | Present â€” canonical **EVIDENCE** (activity spine + Â§ VIII gated approved log per [canonical-paths.md](canonical-paths.md)) | âœ… |
 | self-evidence.md | Optional compatibility pointer only; tooling prefers `self-archive.md` ([AGENTS.md](../AGENTS.md)) | âœ… (if present) |
 | recursion-gate.md | Present | âœ… |
-| self-memory.md (template: `platform/template/self-memory.md`) | Optional; present | âœ… |
+| memory.md (template: `platform/template/memory.md`) | Optional; present | âœ… |
 | session-transcript.md / SESSION-LOG | Present | âœ… |
 | pipeline-events.jsonl | Present | âœ… |
 | self-library.md | Present | âœ… |
@@ -48,7 +48,7 @@ From the bootstrap and merge doc, an **instance** (e.g. grace-mar) is expected t
 
 ## 3. Concept compliance
 
-The template concept (Mind + Record + Voice; cognitive fork; sovereign merge; knowledge boundary) must be reflected in the instanceâ€™s design and docs.
+The template concept (Mind + Record + Voice; interpretive machine; sovereign merge; knowledge boundary) must be reflected in the instanceâ€™s design and docs.
 
 | Concept | Where in grace-mar | Status |
 |---------|--------------------|--------|
@@ -134,7 +134,7 @@ Grace-mar remains strongly aligned on the first layer. The second layer is now *
 ### 7.3 Naming and consistency
 
 - **WORK vs BUILD:** Prose and standard labels use WORK; internal IDs (BUILD container, CREATE-nnn, ACT-nnn) unchanged. Aligns with the deliberate design; template, when extracted, should use the same convention (WORK in prose, BUILD as internal identifier where relevant).
-- **SKILLS-MODULARITY:** Formal module set (including self-knowledge, self-personality, self-curiosity, self-library, self-skill-*) is documented. Template concept doc could reference this structure when generalizing.
+- **SKILLS-MODULARITY:** Formal module set (including museum identity knowledge (archive), self-personality, self-curiosity, self-library, self-skill-*) is documented. Template concept doc could reference this structure when generalizing.
 
 ### 7.4 Seed phase
 

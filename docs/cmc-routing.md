@@ -6,16 +6,16 @@
 
 ## Routing contract (identity vs reference)
 
-- **CMC hits are reference retrieval** — answers come from material catalogued under the **CIV-MEM** subdomain of **SELF-LIBRARY** (LIB rows + codex), not from `self.md`.
-- **CMC retrieval is not an identity update** — codex text does not become SELF-KNOWLEDGE until separately merged through the gate into IX-A (if ever).
-- **Internal CIV-MEM** lives under **SELF-LIBRARY** (`self-library.md`, hybrid corpus paths) — see [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
+- **CMC hits are reference retrieval** — answers come from material catalogued under the **CIV-MEM** subdomain of **removed operator-books symlink** (LIB rows + codex), not from `self.md`.
+- **CMC retrieval is not an identity update** — codex text does not become museum knowledge until separately merged through the gate into museum knowledge section A (if ever).
+- **Internal CIV-MEM** lives under **removed operator-books symlink** (`self-library.md`, hybrid corpus paths) — see [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md).
 
-**Ontology (summary):** **routing to CMC** = routing into the **CIV-MEM domain of SELF-LIBRARY**, **not** into SELF or SELF-KNOWLEDGE.
+**Ontology (summary):** **routing to CMC** = routing into the **CIV-MEM domain of removed operator-books symlink**, **not** into SELF or museum knowledge.
 
 ## Flow
 
 ```
-SELF-LIBRARY (LIB entries) → miss
+removed operator-books symlink (LIB entries) → miss
     │
     ▼
 should_route_to_cmc(question)?
@@ -27,7 +27,7 @@ should_route_to_cmc(question)?
 
 ## Combined Routing Logic
 
-**Ontology (repeat):** A CMC hit is **CIV-MEM / SELF-LIBRARY reference retrieval** — not an update to SELF or SELF-KNOWLEDGE. The Voice may *say* what the codex returns; that content is **not** identity until separately gated into SELF.
+**Ontology (repeat):** A CMC hit is **CIV-MEM / removed operator-books symlink reference retrieval** — not an update to SELF or museum knowledge. The Voice may *say* what the codex returns; that content is **not** identity until separately gated into SELF.
 
 Three layers work together:
 

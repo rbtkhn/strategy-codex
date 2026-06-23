@@ -29,7 +29,7 @@ The expected repo-root counterparts are present for the major deleted `platform/
 
 - `self.md`
 - `self-library.md`
-- `self-memory.md`
+- `memory.md`
 - `self-skills.md`
 - `self-work.md`
 - `intent.md`

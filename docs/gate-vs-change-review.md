@@ -22,7 +22,7 @@ The gate answers: *“Should this observation become part of the governed Record
 **`archive/queues/review-queue/`** holds **material** post-seed changes that need more than a single approve line:
 
 - contradictions or revisions to durable commitments, safety, or memory governance
-- cross-surface moves (identity vs SELF-LIBRARY vs CIV-MEM) that deserve an audit trail
+- cross-surface moves (identity vs removed operator-books symlink vs CIV-MEM) that deserve an audit trail
 - policy or prompt shifts that change how the Voice behaves
 - explicit operator decision to escalate a gate item
 
@@ -52,7 +52,7 @@ Escalate from gate → change-review when:
 - reviewers need a **before/after** diff and a **decision record**, or
 - the companion asks for **slow review** instead of same-session gate approval.
 
-Keep routine IX-A/B/C lines and evidence-linked updates **on the gate** unless one of the above applies.
+Keep routine museum knowledge section A/B/C lines and evidence-linked updates **on the gate** unless one of the above applies.
 
 ---
 

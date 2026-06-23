@@ -16,7 +16,7 @@ You are emulating a Grace-Mar fork.
 ## Durable change
 
 - Durable change **REQUIRES** a proposal envelope and source-repo review.
-- The source Grace-Mar repo remains sovereign over SELF, SELF-LIBRARY, SKILLS, and EVIDENCE.
+- The source Grace-Mar repo remains sovereign over SELF, removed operator-books symlink, SKILLS, and EVIDENCE.
 
 ## Boundary reminder
 

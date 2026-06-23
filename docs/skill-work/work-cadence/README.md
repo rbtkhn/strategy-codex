@@ -2,7 +2,7 @@
 
 **Purpose:** Template-level doctrine, boundaries, and architecture for the daily cadence triad â€” `coffee` (orientation), `dream` (consolidation), and `bridge` (session handoff) â€” plus **`conductor`** (mid-day emphasis / Symphony or execution recursion; not a `coffee` hub letter) and **`harvest`** as **operator tools on other axes** (harvest: cross-agent extraction; on demand, not a fourth clock). **`thanks`** remains in the repo as a **deprecated** operator beat (legacy telemetry only) â€” see `.cursor/skills/thanks/SKILL.md`. Executable triggers: `.cursor/skills/coffee/SKILL.md`, `.cursor/skills/conductor/SKILL.md`, `.cursor/skills/dream/SKILL.md`, `.cursor/skills/bridge/SKILL.md`, `.cursor/skills/harvest/SKILL.md`, and `.cursor/skills/thanks/SKILL.md` (legacy).
 
-**Record boundary:** **Cadence events** (`work-cadence-events.md`), **which rituals you run**, and **command preferences** are **WORK** â€” primarily **`docs/skill-work/`** (this territory, `work-coffee/`, related skills) and **work-dev** (scripts, `log_cadence_event.py`, `operator_coffee.py`, harness/reentry wiring). They are **not** SELF **IX-C personality**; do not mirror cadence telemetry into the Record except via an explicit gated edit (e.g. removing a misplaced IX-C line).
+**Record boundary:** **Cadence events** (`work-cadence-events.md`), **which rituals you run**, and **command preferences** are **WORK** â€” primarily **`docs/skill-work/`** (this territory, `work-coffee/`, related skills) and **work-dev** (scripts, `log_cadence_event.py`, `operator_coffee.py`, harness/reentry wiring). They are **not** SELF **museum knowledge section C personality**; do not mirror cadence telemetry into the Record except via an explicit gated edit (e.g. removing a misplaced museum knowledge section C line).
 
 **Not** Record truth. **Not** a merge path. **Not** identity-relevant unless gated.
 
@@ -334,7 +334,7 @@ These extensions belong in instance-local skills and territories, not in this te
 
 ## Cadence event audit
 
-Each coffee, dream, bridge, and optional **harvest** run appends one line to [work-cadence-events.md](work-cadence-events.md) via `scripts/log_cadence_event.py`. This is operator-facing telemetry â€” not the Record, not self-memory.
+Each coffee, dream, bridge, and optional **harvest** run appends one line to [work-cadence-events.md](work-cadence-events.md) via `scripts/log_cadence_event.py`. This is operator-facing telemetry â€” not the Record, not memory.
 
 **Emitters (typical):**
 - **coffee** / **dream** / **bridge** â€” runner or agent logs after successful completion (see instance template)
@@ -356,10 +356,10 @@ Which on-disk surfaces each ritual reads, writes, and whether companion approval
 
 | Ritual | Reads | Writes | Gate required? |
 |--------|-------|--------|---------------|
-| **coffee** | self-memory, gate, dream handoff, git status | optional `coffee_close` cadence receipt after branch settlement | No |
-| **dream** | self-memory, SELF, EVIDENCE, gate | self-memory, night handoff JSON, cadence events | No (Maintenance mode) |
-| **bridge** | self-memory, gate, dream handoff, territories, git | git commits, cadence events | No (operational) |
-| **harvest** | same class as coffee (self-memory, gate, dream handoff, territories, git; optional session-transcript) | **default none**; optional operator-requested save under `work-cadence/harvest-packets/` or `last-harvest.md`; optional cadence event line | No |
+| **coffee** | memory, gate, dream handoff, git status | optional `coffee_close` cadence receipt after branch settlement | No |
+| **dream** | memory, SELF, EVIDENCE, gate | memory, night handoff JSON, cadence events | No (Maintenance mode) |
+| **bridge** | memory, gate, dream handoff, territories, git | git commits, cadence events | No (operational) |
+| **harvest** | same class as coffee (memory, gate, dream handoff, territories, git; optional session-transcript) | **default none**; optional operator-requested save under `work-cadence/harvest-packets/` or `last-harvest.md`; optional cadence event line | No |
 | **gate merge** | gate candidates, SELF, EVIDENCE, prompt | SELF, EVIDENCE, prompt, session-log, gate, pipeline events | **Yes â€” companion approval required** |
 
 **Key boundary:** coffee and bridge never write to identity surfaces. Dream writes to ephemeral/operational surfaces only. Only the gated merge path touches the Record.
@@ -430,7 +430,7 @@ If the **same** troubleshooting bullet applies **twice in a short window**, add 
 - **Spec docs:** `docs/good-morning-brief-spec.md`, `docs/good-night-brief-spec.md`, `docs/good-night-template.md`
 - **Sync pack:** `docs/skill-work/self-work/sync-pack/` (optional territory sync module)
 - **Operational handoff:** `runtime/daily-handoff/night-handoff.json`
-- **Ephemeral memory:** `self-memory.md`
+- **Ephemeral memory:** `memory.md`
 - **Governed changes:** Instance-specific gate (`recursion-gate.md` or `archive/queues/review-queue/`)
 
 ---

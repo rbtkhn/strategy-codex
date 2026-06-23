@@ -43,13 +43,13 @@ The boundary is **constitutional**: it preserves the fork as the companion’s d
 
 | Source | Role in boundary | Treatment when answering |
 |--------|-------------------|---------------------------|
-| **self.md** (identity, preferences, IX-A/B/C, HOW YOU TALK, etc.) | Canonical. Compiled into SYSTEM_PROMPT. | Answer in voice from this content only. |
+| **self.md** (identity, preferences, museum knowledge section A/B/C, HOW YOU TALK, etc.) | Canonical. Compiled into SYSTEM_PROMPT. | Answer in voice from this content only. |
 | **self-skills.md** (capability index) | Capability claims; evidence-linked. | Voice may refer to what the Record says the companion can do. |
 | **self-evidence.md** | Provenance for claims; not full-text in prompt. | Voice does not recite raw evidence; prompt summarizes. |
-| **self-library.md** (**SELF-LIBRARY**; CIV-MEM subdomain) | **Reference-facing**, not SELF-KNOWLEDGE. Bounded lookup channel. | Library → CIV-MEM (CMC) → open lookup. Lookup result does not auto-merge into identity. |
-| **self-memory.md** (legacy `memory.md`) | Self-memory: **short/medium/long** horizons; **non-Record** and rotatable (“ephemeral” = not gated truth, not “only short-term”). | Refines tone/context; does not expand factual boundary. |
+| **self-library.md** (**removed operator-books symlink**; CIV-MEM subdomain) | **Reference-facing**, not museum knowledge. Bounded lookup channel. | Library → CIV-MEM (CMC) → open lookup. Lookup result does not auto-merge into identity. |
+| **memory.md** (legacy `memory.md`) | Continuity buffer: **short/medium/long** horizons; **non-Record** and rotatable (“ephemeral” = not gated truth, not “only short-term”). | Refines tone/context; does not expand factual boundary. |
 
-The **effective boundary** at runtime is the union of (1) what is in the compiled SYSTEM_PROMPT (from SELF/SKILLS/summarized archive/placeholders/evidence) and (2) the inference rules we allow (see below). **SELF-LIBRARY** is a separate, bounded **reference** channel — not an expansion of SELF-KNOWLEDGE. See [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
+The **effective boundary** at runtime is the union of (1) what is in the compiled SYSTEM_PROMPT (from SELF/SKILLS/summarized archive/placeholders/evidence) and (2) the inference rules we allow (see below). **removed operator-books symlink** is a separate, bounded **reference** channel — not an expansion of museum knowledge. See [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md).
 
 ---
 
@@ -59,7 +59,7 @@ The **effective boundary** at runtime is the union of (1) what is in the compile
 
 - **Explicit-in-Record:** Entities and facts explicitly listed or stated in SELF/prompt: favorite movies, books, places, foods; school subjects; named knowledge (e.g. Earth layers, Jupiter’s Great Red Spot); personality traits; values; art patterns; etc.
 - **Inferable-from-Record:** Not literally listed but reasonably implied by the Record (documented in inference rules, see §5). Example: "Frozen" in favorites → plot and main characters a real kid who watched would know.
-- **Out-of-scope:** Everything else. Includes: sequels/spin-offs not listed (e.g. Frozen 2 when only Frozen is in list), topics not in IX-A/B or preferences, and any fact not derivable from Record + inference rules.
+- **Out-of-scope:** Everything else. Includes: sequels/spin-offs not listed (e.g. Frozen 2 when only Frozen is in list), topics not in museum knowledge section A/B or preferences, and any fact not derivable from Record + inference rules.
 
 ### 4.2 Strength (Explicitness)
 
@@ -67,7 +67,7 @@ The **effective boundary** at runtime is the union of (1) what is in the compile
 |-------|---------|--------|
 | **Explicit** | Directly stated in prompt/SELF | "Your favorite food: spaghetti and pizza." |
 | **Inferable** | Allowed by documented inference rule | "Moana" in list → may share main character, plot. |
-| **Curiosity (IX-B)** | Topic catches attention; not yet knowledge | "You're curious about X" — can say "I want to learn about that," not "I know that." |
+| **Curiosity (museum knowledge section B)** | Topic catches attention; not yet knowledge | "You're curious about X" — can say "I want to learn about that," not "I know that." |
 | **Outside** | Not in Record and not inferable | "Who wrote Harry Potter?" — abstain. |
 
 ### 4.3 Source layer (Where it came from)
@@ -80,7 +80,7 @@ The **effective boundary** at runtime is the union of (1) what is in the compile
 
 - **Evidence-linked:** Claim tied to EVIDENCE entry (e.g. WRITE, LEARN). Strongest; Voice can say "I learned that" / "that's in my record."
 - **Stated preference:** In SELF but not tied to a specific artifact. Voice can state as preference.
-- **Curiosity only (IX-B):** Interest, not knowledge. Voice should not assert facts; may say "I don’t know yet" or offer lookup.
+- **Curiosity only (museum knowledge section B):** Interest, not knowledge. Voice should not assert facts; may say "I don’t know yet" or offer lookup.
 
 ---
 
@@ -99,7 +99,7 @@ Other inference rules can be added here as they are formalized (e.g. "fairy tale
 ### 6.1 Coverage (What’s inside)
 
 - **Entity counts:** Number of explicit entities per category (movies, books, places, foods, concepts, etc.) in SELF or compiled prompt. Can be derived by parsing self.md / prompt sections or by maintaining a small inventory script.
-- **IX-A / IX-B / IX-C counts:** Number of entries in each dimension (as in profile / OPERATOR-WEEKLY-REVIEW). Growth over time indicates boundary expansion via pipeline only.
+- **museum knowledge section A / museum knowledge section B / museum knowledge section C counts:** Number of entries in each dimension (as in profile / OPERATOR-WEEKLY-REVIEW). Growth over time indicates boundary expansion via pipeline only.
 
 ### 6.2 Boundary hardness (Abstention and leak resistance)
 
@@ -171,7 +171,7 @@ Distilled from the framework and experience-first design. Pick and prioritize as
 |---|--------|------------|--------------------|
 | **1** | **Add experience check to operator rhythm** | In OPERATOR-WEEKLY-REVIEW (or equivalent), add a first question: "Experience check: Did the Voice feel like the companion's Record when it knew, and clearly offer help when it didn't? Did abstention/lookup feel like honesty and support, not failure or deflection?" | Updated OPERATOR-WEEKLY-REVIEW or ops checklist |
 | **2** | **Audit prompt for one principle + micro-copy** | In `archive/grace-mar-instance/bot/prompt.py`, ensure (a) the one principle is stated in plain language ("What's in the Record, the Voice knows; what's not, it offers to find — and never pretends"), and (b) the three micro-copy phrases are explicitly called out: "that's in my record" when drawing from Record; "I looked it up!" after lookup; "do you want me to look it up?" only when the question was not answered. Add or tighten if missing. | Prompt patch; optional one-line summary in KNOWLEDGE-BOUNDARY-FRAMEWORK |
-| **3** | **Boundary coverage script** | Add a small script (e.g. `scripts/boundary_coverage.py`) that parses self.md or the compiled prompt and outputs entity counts per category (movies, books, places, foods, concepts, etc.) and IX-A/IX-B/IX-C entry counts. Run occasionally or in CI for visibility. | New script; optional profile or README note |
+| **3** | **Boundary coverage script** | Add a small script (e.g. `scripts/boundary_coverage.py`) that parses self.md or the compiled prompt and outputs entity counts per category (movies, books, places, foods, concepts, etc.) and museum knowledge section A/museum knowledge section B/museum knowledge section C entry counts. Run occasionally or in CI for visibility. | New script; optional profile or README note |
 | **4** | **Single source of truth for inference rules** | Keep §5 of this doc as the canonical list of inference rules. When adding a new rule (e.g. "fairy tales → which specific tales"), update §5, update SYSTEM_PROMPT, and add at least one counterfactual probe that tests the edge. Document the three-step in §8 (Documentation bullet). | KNOWLEDGE-BOUNDARY-FRAMEWORK §5 + prompt + probes.json |
 | **5** | **Pre-change harness gate** | Require running `scripts/run_counterfactual_harness.py` before any change to `archive/grace-mar-instance/bot/prompt.py` or `scripts/counterfactual_pack/probes.json`. Option A: document in contributing.md or OPERATOR-WEEKLY-REVIEW. Option B: add a CI job or pre-commit hook that runs the harness when those files change and fails on regressions. | contributing.md / CI / or ops doc update |
 | **6** | **Over-offer lookup probe** | Add one or more counterfactual probes that check for *over-offer* of "do you want me to look it up?" — e.g. ask an in-scope question (e.g. "What's your favorite food?") and assert the response does not contain the lookup offer phrase, since the Voice already answered from the Record. | New probe(s) in probes.json; harness run validates |

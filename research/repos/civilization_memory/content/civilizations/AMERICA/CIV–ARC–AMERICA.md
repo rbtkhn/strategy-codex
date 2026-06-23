@@ -63,7 +63,7 @@ ARC-T-ANCIENT — Foundational period; direct witnesses.
 ARC-T-MEDIEVAL — Medieval transmission.
 ARC-T-EARLY-MOD — c. 1500–1900; typically out of copyright.
 ARC-T-MODERN — c. 1900–present; current scholarship.
-ARC-T-INSTITUTIONAL — Institutional sources for STATE mode (see § IX-B).
+ARC-T-INSTITUTIONAL — Institutional sources for STATE mode (see § museum knowledge section B).
 
 ────────────────────────────────────────────────────────────
 III. AUTHOR ADMISSIBILITY LISTS
@@ -308,7 +308,7 @@ IX. VERSION NOTE
 v1.0 — Stub; Category E placeholder only. February 2026.
 v2.0 — Derived from ARC–ANGLIA v3.0. Purpose and scope updated with
   derivation clause. ARC-T categories and ARC-T-MODERN author list
-  carried forward from ARC–ANGLIA. ARC-T-INSTITUTIONAL (§ IX-B)
+  carried forward from ARC–ANGLIA. ARC-T-INSTITUTIONAL (§ museum knowledge section B)
   populated for U.S. entity. Cross-ARC citation rule for derivation.
   February 2026.
 v2.1 — Derivation alignment. Binding derivation clause added to
@@ -328,14 +328,14 @@ v2.18 — John Keegan (1934–2012) added to ARC-T-MODERN: The Face of Battle,
   (as applicable for military/operational framing). February 2026.
 
 ────────────────────────────────────────────────────────────
-IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+museum knowledge section B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
 ────────────────────────────────────────────────────────────
 Authorized institutional sources for STATE mode analysis of the
 United States and Western Hemisphere. Covers real-time news and
 longer-term official and analytical sources. STATE draws Layer 3
 information through these sources first when the entity under
 analysis is America. Non-listed sources require ARC–DISCOVERY flag.
-Derived in structure from ARC–ANGLIA § IX-B; content is U.S.- and
+Derived in structure from ARC–ANGLIA § museum knowledge section B; content is U.S.- and
 hemisphere-specific.
 
 ARC-T-INSTITUTIONAL (OFFICIAL):

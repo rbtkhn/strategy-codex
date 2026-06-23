@@ -10,7 +10,7 @@
 
 System state lives in **markdown files** under ``:
 
-- **self.md** — identity, three-dimension mind (IX-A, IX-B, IX-C); YAML-like blocks.
+- **self.md** — identity, three-dimension mind (museum knowledge section A, museum knowledge section B, museum knowledge section C); YAML-like blocks.
 - **self-evidence.md** — activity log (ACT-*, READ-*, WRITE-*, CREATE-*); structured blocks.
 - **recursion-gate.md** — pipeline staging: candidates above `## Processed`, processed below.
 
@@ -30,7 +30,7 @@ System state lives in **markdown files** under ``:
 
 ### Phase A — Schema and read path
 
-- Define JSON schemas (or SQLite tables) for: **SELF** (IX-A/B/C entries), **EVIDENCE** (ACT, READ, WRITE, CREATE), **recursion-gate** (candidates + processed).
+- Define JSON schemas (or SQLite tables) for: **SELF** (museum knowledge section A/B/C entries), **EVIDENCE** (ACT, READ, WRITE, CREATE), **recursion-gate** (candidates + processed).
 - Add a **read-through** layer: if a JSON/SQLite file exists, use it; else parse markdown and (optional) write JSON once. No change yet to the write path; all writers continue to write markdown.
 
 ### Phase B — Write path for one surface

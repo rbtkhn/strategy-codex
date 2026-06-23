@@ -817,7 +817,7 @@ RULES:
   constraint must be framed as a relative variable — tracking both
   degradation curves. An entity-only binding constraint is
   insufficient for options that are implicitly races. See Section
-  IX-B (Opponent Constraint Assessment) for the full requirement.
+  museum knowledge section B (Opponent Constraint Assessment) for the full requirement.
 
 RATIONALE:
 The decision-maker cannot monitor twenty assumptions simultaneously.
@@ -870,7 +870,7 @@ the legitimacy and institutional continuity perspective carries
 elevated predictive weight in Section IV options.
 
 ────────────────────────────────────────────────────────────
-IX-B. OPPONENT CONSTRAINT ASSESSMENT (MANDATORY WHEN APPLICABLE)
+museum knowledge section B. OPPONENT CONSTRAINT ASSESSMENT (MANDATORY WHEN APPLICABLE)
 ────────────────────────────────────────────────────────────
 When any material option's success or failure depends on the
 capacity of a principal opponent (adversary, partner, or
@@ -1371,7 +1371,7 @@ CIV–ARC file under ARC-T-INSTITUTIONAL (or Category E).
 Non-listed sources are permitted with an ARC discovery flag.
 When assessing an adversary or partner, consult that entity's
 ARC-T-INSTITUTIONAL with cross-entity declaration and visible
-editorial notes. See CIV–ARC–TEMPLATE Sections IX-B and IX-C.
+editorial notes. See CIV–ARC–TEMPLATE Sections museum knowledge section B and museum knowledge section C.
 
 ACTIVITY RECORD (ARC–[CIV]–DECISION–POINTS):
 Each civilization with a STATE file maintains an activity record

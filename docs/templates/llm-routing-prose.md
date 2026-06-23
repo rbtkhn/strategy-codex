@@ -42,8 +42,8 @@ Several surfaces use the word **index**. They are not interchangeable.
 | `statecraft/voices/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | WORK only |
 | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | Front door listing all analyst source indexes | WORK routing aid |
 | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
-| [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical SELF-LIBRARY reference layer | Canonical reference |
-| [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived SELF-LIBRARY **dashboard** | Derived |
+| [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
+| [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [codex/speakers/](codex/speakers/) | Legacy speaker storage during migration | Compatibility |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |

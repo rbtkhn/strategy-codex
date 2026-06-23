@@ -11,8 +11,8 @@ Grace-Mar owns its memory and authority locally. Models may process context, but
 That means:
 
 - SELF and EVIDENCE change only through the gated pipeline.
-- SELF-LIBRARY is the governed reference layer, not a vendor memory store.
-- self-memory is rotatable continuity, not a substitute Record.
+- removed operator-books symlink is the governed reference layer, not a vendor memory store.
+- memory is rotatable continuity, not a substitute Record.
 - runtime observations, complements, exports, and dashboards may accelerate work, but they remain outside canonical truth until staged and approved.
 - derived artifacts are rebuildable operator surfaces, not authority.
 
@@ -29,7 +29,7 @@ Local and deterministic tools are preferred when the task is repetitive, private
 | `docs/runtime-vs-record.md` | Separates canonical Record from runtime and derived surfaces |
 | `docs/runtime/runtime-complements.md` | Defines external/runtime memory as non-authoritative |
 | `docs/trust-layers.md` | Separates reliability failures from trust/adversarial risk |
-| `docs/memory-template.md` | Keeps self-memory scoped to continuity and process |
+| `docs/memory-template.md` | Keeps memory scoped to continuity and process |
 | `docs/runtime/model-tier-routing.md` | Documents runtime-only model tier routing |
 | `docs/skill-work/work-dev/decision-ledger.md` | Records durable operator decisions without claiming Record authority |
 

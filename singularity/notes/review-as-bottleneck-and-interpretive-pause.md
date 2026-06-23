@@ -76,7 +76,7 @@ The failure mode to watch: **review collapse** — treating agent fluency as ver
 | **What still accelerates** | Lab capability, code merge, research loops | Archive intake, synthesis, skills, scripts, validators on governed-adjacent surfaces |
 | **What is capped** | None today — only the *option* is argued | Record truth, Voice emulation, default gate nudges in harness |
 
-**Shared structure:** both are **governance precedents** that separate **capability throughput** from **legitimacy throughput**. Anthropic asks the world to build a pause **before** RSI forces it. This repo implemented a **local pause** on one legitimacy channel (cognitive fork growth) while **keeping the inner loop** on interpretation infrastructure.
+**Shared structure:** both are **governance precedents** that separate **capability throughput** from **legitimacy throughput**. Anthropic asks the world to build a pause **before** RSI forces it. This repo implemented a **local pause** on one legitimacy channel (interpretive machine growth) while **keeping the inner loop** on interpretation infrastructure.
 
 **Not the same:** Anthropic’s pause is **multilateral arms-control design** (hard verification problem). The Record freeze is **unilateral product architecture** (enforceable in git policy and operator habit). No third party must agree for the freeze to bind WORK routing.
 

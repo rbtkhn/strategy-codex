@@ -1,9 +1,9 @@
-﻿# companion-self alignment â€” SELF-LIBRARY template (recommendation 4)
+﻿# companion-self alignment â€” removed operator-books symlink template (recommendation 4)
 
 **Purpose:** Make **`platform/template/self-library.md`** in [companion-self](https://github.com/rbtkhn/companion-self) an **instance-agnostic governance package** (boundary + schema + **empty `entries:`**), aligned with:
 
-- New instances bootstrapped from **companion-self** (SELF-LIBRARY governance on **template** `main`),
-- [boundary-self-knowledge-self-library.md](../../boundary-self-knowledge-self-library.md) (grace-mar canonical ontology),
+- New instances bootstrapped from **companion-self** (removed operator-books symlink governance on **template** `main`),
+- [archive/boundary-museum-knowledge-self-library.md](../../archive/boundary-museum-knowledge-self-library.md) (grace-mar canonical ontology),
 - The companion-self template [`platform/template/self-library.md`](https://github.com/rbtkhn/companion-self/blob/main/platform/template/self-library.md) (governance + empty shelf).
 
 This doc lives in **grace-mar** because the **PR is opened on companion-self**; grace-mar tracks the **intent** and **proposed file body** for operators.
@@ -12,7 +12,7 @@ This doc lives in **grace-mar** because the **PR is opened on companion-self**; 
 
 ## Current upstream state (as of 2026-03)
 
-On **`main`**, companion-selfâ€™s [`platform/template/self-library.md`](https://github.com/rbtkhn/companion-self/blob/main/platform/template/self-library.md) is a **large** file (LIB rows cloned from grace-marâ€™s corpus). That is **useful as a reference corpus** but it is **not** a neutral template for **every** new instance: it bakes in grace-mar-specific rows and obscures the **SELF-KNOWLEDGE vs SELF-LIBRARY** boundary for first-time operators.
+On **`main`**, companion-selfâ€™s [`platform/template/self-library.md`](https://github.com/rbtkhn/companion-self/blob/main/platform/template/self-library.md) is a **large** file (LIB rows cloned from grace-marâ€™s corpus). That is **useful as a reference corpus** but it is **not** a neutral template for **every** new instance: it bakes in grace-mar-specific rows and obscures the **museum knowledge vs removed operator-books symlink** boundary for first-time operators.
 
 **Alignment goal:** Template = **governance + empty shelf**; optional **example / mirror** docs can hold dense LIB lists **outside** `platform/template/self-library.md`.
 
@@ -31,11 +31,11 @@ On **`main`**, companion-selfâ€™s [`platform/template/self-library.md`](htt
 Paths below assume companion-self repo layout (`docs/identity-fork-protocol.md` exists upstream). Adjust links if companion-self uses different filenames.
 
 ```markdown
-# SELF-LIBRARY â€” template scaffold
+# removed operator-books symlink â€” template scaffold
 
-**SELF-LIBRARY** is the **governed reference** layer (lookup-first sources, canon, influence) â€” **not** SELF-KNOWLEDGE (IX-A). Identity-facing facts stay in `self.md` + gate.
+**removed operator-books symlink** is the **governed reference** layer (lookup-first sources, canon, influence) â€” **not** museum knowledge (museum knowledge section A). Identity-facing facts stay in `self.md` + gate.
 
-**Rule (one line):** SELF-KNOWLEDGE is identity-facing; SELF-LIBRARY is reference-facing. Do not store civilization-scale reference as IX-A merely because the companion may use it in lookup.
+**Rule (one line):** museum knowledge is identity-facing; removed operator-books symlink is reference-facing. Do not store civilization-scale reference as museum knowledge section A merely because the companion may use it in lookup.
 
 **Protocol:** [docs/identity-fork-protocol.md](../../docs/identity-fork-protocol.md)
 

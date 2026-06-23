@@ -1,6 +1,6 @@
 # skill-write — doctrine hub
 
-**Purpose:** Operator- and agent-facing documentation for **WRITE** — **your writing preferences**, craft rules, and boundaries — **without** duplicating [skills-modularity.md](../skills-modularity.md) (formal module spec) in full. **Not** companion-indexed in SELF-LIBRARY unless you add that later — see [Visibility (recorded)](write-operator-preferences.md#visibility-recorded).
+**Purpose:** Operator- and agent-facing documentation for **WRITE** — **your writing preferences**, craft rules, and boundaries — **without** duplicating [skills-modularity.md](../skills-modularity.md) (formal module spec) in full. **Not** companion-indexed in removed operator-books symlink unless you add that later — see [Visibility (recorded)](write-operator-preferences.md#visibility-recorded).
 
 **Primary job:** Calibrate **system outputs** (e.g. `tri-mind` passes, strategy ingests, analysis threads) into **operator publishing surfaces** — especially **Locals** ([VivaBarnesLaw](https://vivabarneslaw.beta.locals.com/), **Duran** on Locals), **X**, and **YouTube comments** (especially **Predictive History**). **Recorded pipeline:** **Locals first**; **X / PH** as follow-on trims unless you direct otherwise. **Scope:** all **public operator** writing is covered here **unless** you exclude something by name (see [write-operator-preferences.md](write-operator-preferences.md)).
 

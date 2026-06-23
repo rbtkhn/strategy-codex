@@ -30,8 +30,8 @@ With Canva's APIs you can:
 | Use case | Canva API | Flow |
 |----------|-----------|------|
 | **WORK (creation) evidence** | Connect API | User creates design in Canva → export/retrieve → "we designed X" → pipeline stages → EVIDENCE creation log |
-| **Newsletter layout** | Connect API / App SDK | Outbound digest (IX-B, LIBRARY) → populate Canva template → render as image/PDF → email or JOURNAL |
-| **Template + Record** | App SDK | IX-B curiosity, LIBRARY titles, or JOURNAL highlights → insert into Canva template → parent-approved output |
+| **Newsletter layout** | Connect API / App SDK | Outbound digest (museum knowledge section B, LIBRARY) → populate Canva template → render as image/PDF → email or JOURNAL |
+| **Template + Record** | App SDK | museum knowledge section B curiosity, LIBRARY titles, or JOURNAL highlights → insert into Canva template → parent-approved output |
 | **Shareable content** | Connect API | Designs as JOURNAL daily highlights; shareable portfolio for admissions/family |
 
 ---
@@ -61,7 +61,7 @@ Projecting technology trends (AI-assisted design, personalization, multimodal cr
 **Assumption:** Canva's AI understands user context and design preferences.
 
 - **Voice-to-design** — Child says "I learned about Jupiter's red spot" → AI suggests a simple "fact card" layout (image + text)
-- **Profile-aware templates** — IX-B curiosity, LIBRARY, SKILLS edge feed template selection (e.g. space interests → space-themed layouts)
+- **Profile-aware templates** — museum knowledge section B curiosity, LIBRARY, SKILLS edge feed template selection (e.g. space interests → space-themed layouts)
 - **Lexile-aware copy** — AI generates caption text within the fork's Lexile ceiling
 - **Style memory** — Learns aesthetic preferences (colors, layout density) and reuses them
 
@@ -102,7 +102,7 @@ Projecting technology trends (AI-assisted design, personalization, multimodal cr
 
 **Assumption:** AI content generation and template personalization.
 
-- **Topic packs** — IX-B topic (e.g. reptiles, gemstones) → Canva generates a mini "curiosity pack" (facts, prompts, visuals)
+- **Topic packs** — museum knowledge section B topic (e.g. reptiles, gemstones) → Canva generates a mini "curiosity pack" (facts, prompts, visuals)
 - **LIBRARY extensions** — "If you liked X…" prompts with suggested designs ("Design a poster for your favorite scene")
 - **Output** — Printable activity kits or shareable links
 

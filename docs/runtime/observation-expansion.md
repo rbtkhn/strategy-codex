@@ -43,7 +43,7 @@ python3 scripts/prepared_context/build_context_from_observations.py \
 
 ## Governance
 
-- Expansion and prepared-context files **do not** update SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or `recursion-gate.md`.
+- Expansion and prepared-context files **do not** update SELF, removed operator-books symlink, SKILLS, EVIDENCE, or `recursion-gate.md`.
 - Grace-Mar **does not** auto-inject this material into future sessions as “truth”; operators choose when to paste or commit artifacts.
 - Optional: `GRACE_MAR_RUNTIME_LEDGER_ROOT` isolates the ledger path in tests or sandboxes.
 

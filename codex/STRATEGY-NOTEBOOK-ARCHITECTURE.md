@@ -305,7 +305,7 @@ The word **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â�
 
 **`dream` (night close):** End-of-day maintenance **does not** obligate strategy-notebook production. `auto_dream.py` may still report `strategy_notebook_missing_day_headers` as **FYI**; treat it as optional telemetry unless you adopt calendar-strict habits again. Default **notebook pages** are composed in the **EOD strategy session**; **`dream`** may still **explicitly** direct notebook work in-thread ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â see [.cursor/skills/dream/SKILL.md](../../../../.cursor/skills/dream/SKILL.md) ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ *strategy-codex*.
 
-**Legacy library mirror:** Canonical files live here under `docs/skill-work/work-strategy/strategy-notebook/`. A symlink under `SELF-LIBRARY/strategy-notebook` is a legacy convenience surface only ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â keep mirrors in sync with edits to the canonical tree.
+**Legacy library mirror:** Canonical files live here under `docs/skill-work/work-strategy/strategy-notebook/`. A symlink under `strategy-notebook` is a legacy convenience surface only ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â keep mirrors in sync with edits to the canonical tree.
 
 <a id="eod-mcq-protocol-v1"></a>
 
@@ -415,9 +415,9 @@ Dashed edge: operator-authored [history-notebook](../history-notebook/README.md)
 | Prediction registry | Optional **Bets / watches** in `meta.md` or month-end box in `days.md` |
 | Corpus + adjudication | Links to briefs, `STRATEGY.md`, Islamabad paths ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **WORK only** |
 
-**Maintenance:** When you move the active month in this notebook or change Predictive History queue / volume emphasis, update **`chapters/YYYY-MM/meta.md` ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Polyphony** and **`codex/predictive-history/operator-polyphony.md`** in the **same session** so LIB-0153 and LIB-0149 stay parallel. Do **not** put the polyphony overlay only in `codex/predictive-history/STATUS.md` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â that file is **generated** by `scripts/work_jiang/render_status_dashboard.py`.
+**Maintenance:** When you move the active month in this notebook or change Predictive History queue / volume emphasis, update **`chapters/YYYY-MM/meta.md` ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Polyphony** and **`codex/predictive-history/operator-polyphony.md`** in the **same session** so strategy-codex (`codex/`) and predictive-history (`codex/predictive-history/`) stay parallel. Do **not** put the polyphony overlay only in `codex/predictive-history/STATUS.md` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â that file is **generated** by `scripts/work_jiang/render_status_dashboard.py`.
 
-## Parallel to History notebook (LIB-0156)
+## Parallel to History notebook (`docs/skill-work/work-strategy/history-notebook/`)
 
 **North star:** civilization_memory is the **reservoir**; [History Notebook](../history-notebook/README.md) chapters (`hn-*` ids in [book-architecture.yaml](../history-notebook/book-architecture.yaml)) are **operator-distilled** mechanism text; this notebook holds **dated judgment** and **`### History resonance`** pointers (never full HN paste).
 
@@ -670,7 +670,7 @@ This preserves **liability traceability** (what was settled by **wires** vs **sl
 
 **Jiang / PH** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â optional **`### Jiang resonance`**: if no lecture applies, one honest **deferred** line beats empty filler. Headlines are not ingested PH thesis.
 
-**History notebook (LIB-0156)** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â optional **`### History resonance`**: cite **chapter id(s)** and mechanism when judgment leans on [history-notebook](../history-notebook/README.md) patterns; **never** paste full HN chapters in-page. If no chapter applies, **none** or **deferred** beats filler. Validates against **cross-book-map** / arcs when the operator cares about coverage ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **WORK only**, not Record.
+**History notebook (`docs/skill-work/work-strategy/history-notebook/`)** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â optional **`### History resonance`**: cite **chapter id(s)** and mechanism when judgment leans on [history-notebook](../history-notebook/README.md) patterns; **never** paste full HN chapters in-page. If no chapter applies, **none** or **deferred** beats filler. Validates against **cross-book-map** / arcs when the operator cares about coverage ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **WORK only**, not Record.
 
 #### Cross-artifact alignment (planes and layers)
 

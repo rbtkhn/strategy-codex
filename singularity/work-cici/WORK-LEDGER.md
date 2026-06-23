@@ -15,7 +15,7 @@
 ### Territory identity
 
 - **Lane name:** work-cici  
-- **Purpose:** Coordinate operator/advisor work with Cici (SMM, BrewMind, mirrors, runbooks) in grace-mar â€” without hosting her cognitive fork.  
+- **Purpose:** Coordinate operator/advisor work with Cici (SMM, BrewMind, mirrors, runbooks) in grace-mar â€” without hosting her interpretive machine.  
 - **Primary operator use-case:** Daily sync, mirror alignment, employee work profile / skills portfolio, content plans vs capability rubric, template drift awareness.  
 - **Boundary summary:** See [README.md](README.md) governance block and [LANES.md](LANES.md).  
 - **Promotion gate (her Record):** Her `recursion-gate.md` + `process_approved_candidates.py` **in her repository**. **Grace-Mar** gate only if a change is explicitly for grace-mar identity/Voice.
