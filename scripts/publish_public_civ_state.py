@@ -10,6 +10,11 @@ import sys
 from datetime import UTC, datetime
 from pathlib import Path
 
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
+from academy_mirror_git import git_commit, git_output, push_branch, sync_clone_branch
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MIRROR_REL = "public/civ-state"
 MIRROR_DIR = REPO_ROOT / MIRROR_REL
@@ -18,21 +23,6 @@ RECEIPT_NAME = "docs/MIRROR-RECEIPT.md"
 DEFAULT_CLONE = Path(os.environ.get("CIV_STATE_PUBLISH_CLONE", r"C:\dev\civ-state"))
 EXCLUDE_DIRS = {".git", ".pytest_cache", "__pycache__"}
 WORKSPACE_ONLY_FILES = {RECEIPT_NAME}
-
-
-def git_output(args: list[str], cwd: Path) -> str:
-    proc = subprocess.run(
-        ["git", *args],
-        cwd=str(cwd),
-        text=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        check=False,
-    )
-    if proc.returncode != 0:
-        detail = proc.stderr.strip() or proc.stdout.strip() or "unknown git error"
-        raise RuntimeError(f"git {' '.join(args)} failed in {cwd}: {detail}")
-    return proc.stdout.strip()
 
 
 def robocopy_publish(src: Path, dest: Path, *, dry_run: bool) -> None:
@@ -78,9 +68,7 @@ def write_receipt(upstream_sha: str, branch: str) -> None:
 
 def ensure_clone(clone_dir: Path, branch: str) -> None:
     if (clone_dir / ".git").exists():
-        git_output(["fetch", "origin"], clone_dir)
-        git_output(["checkout", branch], clone_dir)
-        git_output(["pull", "--ff-only", "origin", branch], clone_dir)
+        sync_clone_branch(clone_dir, branch, REMOTE)
         return
     clone_dir.parent.mkdir(parents=True, exist_ok=True)
     git_output(["clone", "--branch", branch, REMOTE, str(clone_dir)], REPO_ROOT)
@@ -112,13 +100,13 @@ def publish(
     if not message:
         raise RuntimeError("commit message required (--message) when publish would commit")
 
-    git_output(["add", "-A"], clone_dir)
-    git_output(["commit", "-m", message], clone_dir)
+    git_commit(clone_dir, message)
     head = git_output(["rev-parse", "HEAD"], clone_dir)
 
     pushed = False
+    push_via = None
     if do_push:
-        git_output(["push", "origin", branch], clone_dir)
+        push_via = push_branch(clone_dir, branch, REMOTE)
         pushed = True
         write_receipt(head, branch)
 
@@ -128,6 +116,7 @@ def publish(
         "clone_dir": str(clone_dir),
         "commit": head,
         "pushed": pushed,
+        "push_via": push_via,
     }
 
 
