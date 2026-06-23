@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Judish Raj` (1), `Robert Pape` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `davis` (2), `freeman` (1), `india-and-global-left` (1), `mercouris` (1), `pape` (1)
+- Threads: `davis` (2), `freeman` (1), `india-global-left` (1), `mercouris` (1), `pape` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=apJGoK1HqIU) | `source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md` |
-| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [gltqzfUnhFg](https://www.youtube.com/watch?v=gltqzfUnhFg) | `source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md` |
+| `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [gltqzfUnhFg](https://www.youtube.com/watch?v=gltqzfUnhFg) | `source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md` |
 
 ## Writer sources
 
@@ -57,5 +57,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md`
 - `source-davis-complete-destruction-and-certain-death-trumps-newest-threat-to-iran-2026-03-07.md`
 - `source-davis-deep-dive-intel-briefing-what-we-learned-this-week-2026-03-07.md`
-- `source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md`
+- `source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md`
 - `source-pape-the-escalation-trap-widens-russias-2026-03-07.md`

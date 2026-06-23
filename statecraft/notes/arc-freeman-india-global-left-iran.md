@@ -9,12 +9,12 @@ topic: india-global-left-iran
 span_start: 2026-02-24
 span_end: 2026-06-11
 nodes:
-  - source-archive/statecraft/2026-02-24/source-india-and-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md
-  - source-archive/statecraft/2026-03-07/source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md
-  - source-archive/statecraft/2026-03-23/source-india-and-global-left-geo-historical-shift-chas-freeman-2026-03-23.md
-  - source-archive/statecraft/2026-05-11/source-india-and-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md
-  - source-archive/statecraft/2026-05-20/source-india-and-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md
-  - source-archive/statecraft/2026-06-11/source-india-and-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md
+  - source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md
+  - source-archive/statecraft/2026-03-07/source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md
+  - source-archive/statecraft/2026-03-23/source-india-global-left-geo-historical-shift-chas-freeman-2026-03-23.md
+  - source-archive/statecraft/2026-05-11/source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md
+  - source-archive/statecraft/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md
+  - source-archive/statecraft/2026-06-11/source-india-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md
 ```
 
 **Reconciled:** 2026-06-22 · Prior `arc-freeman-2026-02-to-2026-06-india-global-left-iran.md` → `arc-freeman-india-global-left-iran.md` (dates out of filename; span in YAML)
@@ -27,14 +27,14 @@ nodes:
 
 | Day | Capture | URL |
 | --- | --- | --- |
-| **Feb 24** | [Is War With Iran Inevitable?](../../source-archive/statecraft/2026-02-24/source-india-and-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md) | https://www.youtube.com/watch?v=E0JqaiO8IQA |
-| **Mar 7** | [Iran Strategy — Pezeshkian Gulf halt](../../source-archive/statecraft/2026-03-07/source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md) | https://www.youtube.com/watch?v=gltqzfUnhFg |
-| **Mar 23** | [A Geo-Historical Shift](../../source-archive/statecraft/2026-03-23/source-india-and-global-left-geo-historical-shift-chas-freeman-2026-03-23.md) | https://www.youtube.com/watch?v=m3J53lNJiFk |
-| **May 11** | [The 4 Endgames of the Iran War](../../source-archive/statecraft/2026-05-11/source-india-and-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md) | https://www.youtube.com/watch?v=x1JHpJ4Glt8 |
-| **May 20** | [Is Iran Now a World Power?](../../source-archive/statecraft/2026-05-20/source-india-and-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md) | https://www.youtube.com/watch?v=Thy3e6ququ8 |
-| **Jun 11** | [Regional Fallout of a US-Iran War](../../source-archive/statecraft/2026-06-11/source-india-and-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md) | https://www.youtube.com/watch?v=X1ulonrAgbo |
+| **Feb 24** | [Is War With Iran Inevitable?](../../source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md) | https://www.youtube.com/watch?v=E0JqaiO8IQA |
+| **Mar 7** | [Iran Strategy — Pezeshkian Gulf halt](../../source-archive/statecraft/2026-03-07/source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md) | https://www.youtube.com/watch?v=gltqzfUnhFg |
+| **Mar 23** | [A Geo-Historical Shift](../../source-archive/statecraft/2026-03-23/source-india-global-left-geo-historical-shift-chas-freeman-2026-03-23.md) | https://www.youtube.com/watch?v=m3J53lNJiFk |
+| **May 11** | [The 4 Endgames of the Iran War](../../source-archive/statecraft/2026-05-11/source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md) | https://www.youtube.com/watch?v=x1JHpJ4Glt8 |
+| **May 20** | [Is Iran Now a World Power?](../../source-archive/statecraft/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md) | https://www.youtube.com/watch?v=Thy3e6ququ8 |
+| **Jun 11** | [Regional Fallout of a US-Iran War](../../source-archive/statecraft/2026-06-11/source-india-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md) | https://www.youtube.com/watch?v=X1ulonrAgbo |
 
-**Out of arc (same channel, different lane):** [Dec 2025 — US NSS / China](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — multinodal order / Monroe Doctrine 2.0; not Iran-kinetic.
+**Out of arc (same channel, different lane):** [Dec 2025 — US NSS / China](../../source-archive/statecraft/2025-12-09/source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — multinodal order / Monroe Doctrine 2.0; not Iran-kinetic.
 
 ## Purpose
 
@@ -103,7 +103,7 @@ Freeman **before** Mar 7 self-reference (~10 days):
 - **War shape:** **Attrition** — US runs out of **Tomahawk/THAAD** before Iran runs out of **salvo**; **China** may welcome US **Taiwan-relevant** depletion
 - **Off-ramp:** Trump **none** — puzzled why Iran won't capitulate (**Witkoff** channel)
 
-→ Self-cited by [Mar 7 episode](../../source-archive/statecraft/2026-03-07/source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md)
+→ Self-cited by [Mar 7 episode](../../source-archive/statecraft/2026-03-07/source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md)
 
 ### Phase 2 — Mar 7: Israeli war, Iranian rope-a-dope, Gulf apology
 
@@ -196,7 +196,7 @@ Named **outcomes** while war **impasse**:
 - [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) — same **Freeman order** register on **negotiation failure**
 - [Feb 17 Freeman × Diesen — empire on Eurasia](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) — **multi-war bundle** (same week as Feb 24 IGL opener)
 - [Helmer Feb 3→Mar 24 arc](./arc-helmer-iran-five-terms.md) — **parallel clock** on **money/votes/bullets**
-- [Dec 2025 Freeman — China/NSS](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **separate lane** (Indo-Pacific / Monroe); do not merge into Iran arc body
+- [Dec 2025 Freeman — China/NSS](../../source-archive/statecraft/2025-12-09/source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **separate lane** (Indo-Pacific / Monroe); do not merge into Iran arc body
 - [2025 vs 2026 Freeman IGL register seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year routing** for 2025 bridge vs 2026 arc
 - [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **13** files: **7** Freeman · **5** Ritter · **1** Marandi (`2025-02-22` → `2026-06-11`)
 

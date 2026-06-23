@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: ritter
 threads:
   - ritter
-  - india-and-global-left
+  - india-global-left
 thread_expert: ritter
 show: India and Global Left
 host: Judish Raj
 guest: Scott Ritter
 title: "Scott Ritter: Will Trump bring peace or chaos to Middle East?"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=5DNyWcXQwRQ"
 youtube_id: 5DNyWcXQwRQ
 source_note: "Operator-pasted YouTube transcript; India Global Left × Ritter 28 Mar 2025. Unified US-interest frame (Ukraine + Middle East); Trump sincere peace on his terms; Sachs parallel; Houthi/Yemen inherited war; Hamas Oct 7 necessary + 53 hostages must release; Trump Gaza depopulation gambit; Iran 60%/one-week breakout/preempt nuclear employment; Diego Garcia B-2; April 20 Ukraine fork. Beat 4 Trump pivot arc; register distinct from 2026 IGL Iran kinetic arc. · ASR pass 2026-06-21. · source-clean pass 2026-06-21."
@@ -30,7 +30,7 @@ transcript_wrapper_tier: clean
 india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (ritter, india-and-global-left, channel:india-and-global-left)); 3 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (ritter, india-global-left, channel:india-global-left)); 3 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Scott Ritter: Will Trump bring peace or chaos to Middle East?
 

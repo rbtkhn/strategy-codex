@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=llyBcKg6tNg"
 youtube_id: llyBcKg6tNg
 kind: transcript
 thread: ritter
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 title: "Scott Ritter Breaks Down Trump & Rubio's Warning: Is the U.S. About to Quit Ukraine Peace Talks?"
 ---
 

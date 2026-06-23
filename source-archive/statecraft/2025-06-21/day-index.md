@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Judish Raj` (1)
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1)
-- Threads: `christoforou` (1), `freeman` (1), `india-and-global-left` (1), `mercouris` (1)
+- Threads: `christoforou` (1), `freeman` (1), `india-global-left` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=mxtKPfDhNzM) | `source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md` |
-| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [4yt1Vq3BruA](https://www.youtube.com/watch?v=4yt1Vq3BruA) | `source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md` |
+| `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [4yt1Vq3BruA](https://www.youtube.com/watch?v=4yt1Vq3BruA) | `source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md`
-- `source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md`
+- `source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md`

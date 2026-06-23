@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Span:** single episode (**Trump Gaza plan phase-1** — hostage/prisoner exchange; **Nobel day**; Freeman **ceasefire won't last**)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
-**Capture:** [Why This Gaza Ceasefire Won't Last](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) — https://www.youtube.com/watch?v=jm1kxCygFmw · `verify_receipt: 2026-06-21`
+**Capture:** [Why This Gaza Ceasefire Won't Last](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) — https://www.youtube.com/watch?v=jm1kxCygFmw · `verify_receipt: 2026-06-21`
 
 **Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./arc-freeman-india-global-left-iran.md) — **2026 Iran kinetic / Hormuz** spine. This register is **Gaza hostage-frame** only.
 
@@ -14,8 +14,8 @@ WORK only; not Record.
 
 | Day | Lane | Note |
 | --- | --- | --- |
-| **Mar 1** | Post–Oval Office | [capture](../../source-archive/statecraft/2025-03-01/source-india-and-global-left-trump-zelensky-oval-office-chas-freeman-2025-03-01.md) — Trump **whimsy** rhymes with Oct **guarantee skepticism** |
-| **May 15** | Gulf visit | [capture](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — **Arab raison d'état** upstream |
+| **Mar 1** | Post–Oval Office | [capture](../../source-archive/statecraft/2025-03-01/source-india-global-left-trump-zelensky-oval-office-chas-freeman-2025-03-01.md) — Trump **whimsy** rhymes with Oct **guarantee skepticism** |
+| **May 15** | Gulf visit | [capture](../../source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — **Arab raison d'état** upstream |
 | **Jun 21** | Israel–Iran push | [Iran-war push register](./2025-freeman-igl-iran-war-push-register.md) — **Iran**, not Gaza |
 
 ## Purpose
@@ -80,7 +80,7 @@ Freeman: Arab state pivot; diaspora/globalization risk; Mizrahim politics
 - [Jun 2025 Iran-war push register](./2025-freeman-igl-iran-war-push-register.md) — **paired** 2025 register
 - [2025 vs 2026 Freeman IGL seam](./2025-vs-2026-freeman-igl-register-seam.md) — **Gaza lane** routing
 - [Freeman × IGL Iran war arc (2026)](./arc-freeman-india-global-left-iran.md) — out of scope for Gaza body
-- [May 15 Freeman Gulf](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
+- [May 15 Freeman Gulf](../../source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
 
 ## Falsifiers
 

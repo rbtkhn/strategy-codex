@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-23T09:40:05+00:00",
+  "generated_at": "2026-06-23T12:13:25+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
@@ -97,7 +97,7 @@
       "channel_id": "UCTWBp-39z6tvz4-LQB-Z_QA"
     },
     {
-      "slug": "india-and-global-left",
+      "slug": "india-global-left",
       "label": "India and Global Left",
       "file_count": 21,
       "day_count": 21,

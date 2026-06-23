@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Span:** single episode (**Israel–Iran kinetic week 2** — Trump **two-week window**; capture **same day** as Gabbard walk-back and Geneva E3 talks)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
-**Capture:** [What's Really Behind the Push for War with Iran?](../../source-archive/statecraft/2025-06-21/source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA · `verify_receipt: 2026-06-21`
+**Capture:** [What's Really Behind the Push for War with Iran?](../../source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA · `verify_receipt: 2026-06-21`
 
 **Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./arc-freeman-india-global-left-iran.md) — **2026 kinetic calendar**, Hormuz toll-governance spine, six-beat arc. This register is **2025 pre-arc bridge only**.
 
@@ -12,9 +12,9 @@ WORK only; not Record.
 
 | Day | Lane | Note |
 | --- | --- | --- |
-| **May 15** | Gulf visit / US–Israel–Gulf shift | [capture](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — upstream **Gulf politics** |
-| **Oct 10** | Gaza ceasefire skepticism | [Gaza ceasefire register](./2025-freeman-igl-gaza-ceasefire-register.md) · [capture](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) · `verify_receipt: 2026-06-21` (4 hooks) |
-| **Dec 9** | NSS / China | [capture](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **Indo-Pacific** lane |
+| **May 15** | Gulf visit / US–Israel–Gulf shift | [capture](../../source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — upstream **Gulf politics** |
+| **Oct 10** | Gaza ceasefire skepticism | [Gaza ceasefire register](./2025-freeman-igl-gaza-ceasefire-register.md) · [capture](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) · `verify_receipt: 2026-06-21` (4 hooks) |
+| **Dec 9** | NSS / China | [capture](../../source-archive/statecraft/2025-12-09/source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **Indo-Pacific** lane |
 
 ## Purpose
 
@@ -75,8 +75,8 @@ Freeman: Capitulation framing at Geneva; Islamic-world unity via MBS; attrition 
 - [Freeman × IGL Iran war arc (Feb 24→Jun 11 2026)](./arc-freeman-india-global-left-iran.md) — **downstream** arc; do not merge
 - [Ritter × IGL Iran arc (Feb 20→Apr 9 2026)](./arc-ritter-india-global-left-iran.md) — same channel, **attrition** register vs Freeman **order**
 - [Ritter 2025 Trump pivot](./arc-ritter-trump-pivot.md) · [2025 vs 2026 Ritter seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [2025 vs 2026 Freeman IGL seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year-discipline**
-- [May 15 Freeman Gulf](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — upstream
-- [Oct 10 Freeman Gaza](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) · [Gaza ceasefire register](./2025-freeman-igl-gaza-ceasefire-register.md) — **paired 2025 register**
+- [May 15 Freeman Gulf](../../source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — upstream
+- [Oct 10 Freeman Gaza](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) · [Gaza ceasefire register](./2025-freeman-igl-gaza-ceasefire-register.md) — **paired 2025 register**
 
 ## Falsifiers
 

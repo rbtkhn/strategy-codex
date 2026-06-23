@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "Chas Freeman: Iran's Strategy in the US-Israel War | Why Pezeshkian Halted Strikes on Gulf States"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=gltqzfUnhFg"
 youtube_id: gltqzfUnhFg
 source_note: "Operator-pasted YouTube transcript; India and Global Left × Freeman 7 Mar 2026. Mar-a-Lago 29 Dec Netanyahu–Trump attack pact; sham Jan–Feb talks; Feb 28 war; rope-a-dope/deplete interceptors; Pezeshkian GCC apology + conditional Gulf strike halt; Khamenei slain/governing council; THAAD/radar + hotel strikes; Hormuz land blockade; Indian cruiser sunk off Sri Lanka; Starlink/Bessent currency regime-change prep; Witkoff/Kushner; mid-Mar hypersonic timing bet; Gaza/genocide Gulf opinion pressure. · ASR pass 2026-06-21."

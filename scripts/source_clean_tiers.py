@@ -115,7 +115,7 @@ THREAD_TIERS: dict[str, list[TierPair]] = {
 }
 
 CHANNEL_TIERS: dict[str, list[TierPair]] = {
-    "india-and-global-left": INDIA_GLOBAL_LEFT_TIER,
+    "india-global-left": INDIA_GLOBAL_LEFT_TIER,
     "judging-freedom": NAPOLITANO_TIER,
 }
 

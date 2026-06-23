@@ -9,9 +9,9 @@ topic: india-global-left-iran
 span_start: 2026-02-20
 span_end: 2026-04-09
 nodes:
-  - source-archive/statecraft/2026-02-20/source-india-and-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md
-  - source-archive/statecraft/2026-03-02/source-india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02.md
-  - source-archive/statecraft/2026-04-09/source-india-and-global-left-no-ceasefire-scott-ritter-2026-04-09.md
+  - source-archive/statecraft/2026-02-20/source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md
+  - source-archive/statecraft/2026-03-02/source-india-global-left-prove-me-wrong-scott-ritter-2026-03-02.md
+  - source-archive/statecraft/2026-04-09/source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md
 ```
 
 **Reconciled:** 2026-06-22 · Prior `arc-ritter-2026-02-to-2026-04-india-global-left-iran.md` → `arc-ritter-india-global-left-iran.md` (dates out of filename; span in YAML)
@@ -24,9 +24,9 @@ nodes:
 
 | Day | Capture | URL |
 | --- | --- | --- |
-| **Feb 20** | [US Foreign Policy, CIA, Venezuela, Iran & Ukraine](../../source-archive/statecraft/2026-02-20/source-india-and-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md) | https://www.youtube.com/watch?v=6ZagJb5RwMA |
-| **Mar 2** | [Prove Me Wrong — US Power in the Middle East](../../source-archive/statecraft/2026-03-02/source-india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02.md) | https://www.youtube.com/watch?v=JOjz-R3twTc |
-| **Apr 9** | [There Is No Ceasefire](../../source-archive/statecraft/2026-04-09/source-india-and-global-left-no-ceasefire-scott-ritter-2026-04-09.md) | https://www.youtube.com/watch?v=W93WyoC-2lQ |
+| **Feb 20** | [US Foreign Policy, CIA, Venezuela, Iran & Ukraine](../../source-archive/statecraft/2026-02-20/source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md) | https://www.youtube.com/watch?v=6ZagJb5RwMA |
+| **Mar 2** | [Prove Me Wrong — US Power in the Middle East](../../source-archive/statecraft/2026-03-02/source-india-global-left-prove-me-wrong-scott-ritter-2026-03-02.md) | https://www.youtube.com/watch?v=JOjz-R3twTc |
+| **Apr 9** | [There Is No Ceasefire](../../source-archive/statecraft/2026-04-09/source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md) | https://www.youtube.com/watch?v=W93WyoC-2lQ |
 
 ## Purpose
 

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # 2025 vs 2026 — Freeman × India Global Left register seam
 
-**Object:** One **channel** (`india-and-global-left`), one **guest** (Freeman), **two non-mergeable Iran registers** — **2025 bridge / adjacent lanes** (Gulf, Jun war-push, Gaza, NSS) vs **2026 kinetic arc** (Feb 24→Jun 11 **order / toll-governance** spine).
+**Object:** One **channel** (`india-global-left`), one **guest** (Freeman), **two non-mergeable Iran registers** — **2025 bridge / adjacent lanes** (Gulf, Jun war-push, Gaza, NSS) vs **2026 kinetic arc** (Feb 24→Jun 11 **order / toll-governance** spine).
 
 **Registers (route separately):**
 
@@ -42,7 +42,7 @@ Prevent **false continuity** when the same host books Freeman on **2025 Israel�
 | **Gulf / MBS** | **MBS–Pezeshkian solidarity** call (Jun 14 wire) | **Pezeshkian Gulf halt**; **must reconcile** with Iran | **Echo** — different **episode objects** |
 | **Maritime** | (thin in 2025 register) | **Hormuz toll booth / fee corridor**; 263y Anglo-American break | **2026 only** for toll spine |
 | **End-state menu** | Attrition **forecast** (~10-day); partition/Azerbaijan tier-4 | **Four endgames** taxonomy (May 11); **ceasefire without defeat** | 2025 **forecast** ≠ 2026 **menu** |
-| **Wire-verify SSOT** | [Jun 21](./2025-freeman-igl-iran-war-push-register.md) · [Oct 10 Gaza capture](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) `verify:` headers | Arc falsifiers on **2026 captures** — do not back-fill 2025 register | **Header receipts per year** |
+| **Wire-verify SSOT** | [Jun 21](./2025-freeman-igl-iran-war-push-register.md) · [Oct 10 Gaza capture](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) `verify:` headers | Arc falsifiers on **2026 captures** — do not back-fill 2025 register | **Header receipts per year** |
 
 ## Shared Freeman spine (legitimate echo — not merge)
 
@@ -69,11 +69,11 @@ Both lanes carry **Freeman-stable** moves — cite as **family resemblance**, no
 | Question | Open first | Not first |
 | --- | --- | --- |
 | Trump **two-week window**, Gabbard/IC Jun 2025, MBS–Pezeshkian call | [2025 Jun register](./2025-freeman-igl-iran-war-push-register.md) | 2026 arc |
-| **Gaza ceasefire won't last**, Barghouti list, Lebanon 4600×, Project 545 $145M, Machado Nobel/media | [2025 Gaza register](./2025-freeman-igl-gaza-ceasefire-register.md) · [Oct 10 capture](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) | 2026 Iran arc |
-| Trump **Gulf visit**, Witkoff Muscat, America-first May 2025 | [May 15 capture](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) | 2026 endgames |
+| **Gaza ceasefire won't last**, Barghouti list, Lebanon 4600×, Project 545 $145M, Machado Nobel/media | [2025 Gaza register](./2025-freeman-igl-gaza-ceasefire-register.md) · [Oct 10 capture](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) | 2026 Iran arc |
+| Trump **Gulf visit**, Witkoff Muscat, America-first May 2025 | [May 15 capture](../../source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) | 2026 endgames |
 | **Four endgames**, Hormuz toll, Braudel/Zeitenwende, ceasefire without defeat | [2026 arc](./arc-freeman-india-global-left-iran.md) | 2025 Jun register |
 | **Mar 4 ruse**, Israeli campaign plan, Pezeshkian halt | [2026 arc](./arc-freeman-india-global-left-iran.md) | Jun 2025 bridge |
-| **NSS / China / Monroe 2.0** | [Dec 2025 capture](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) | Either Iran register |
+| **NSS / China / Monroe 2.0** | [Dec 2025 capture](../../source-archive/statecraft/2025-12-09/source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) | Either Iran register |
 
 ## Reconciliation (preserve tension)
 

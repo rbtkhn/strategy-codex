@@ -16,12 +16,12 @@ source_form: interview
 thread: ritter
 threads:
   - ritter
-  - india-and-global-left
+  - india-global-left
 show: India and Global Left
 host: Judish Raj
 guest: Scott Ritter
 title: "Scott Ritter Gives His FIRST Impression on TRUMP ZELENSKY FIASCO"
-channel_slug: "india-and-global-left"
+channel_slug: "india-global-left"
 source_url: "https://www.youtube.com/watch?v=J15KBqfx1Ic"
 youtube_id: J15KBqfx1Ic
 source_type: user-pasted-youtube-transcript

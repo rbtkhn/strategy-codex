@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Judish Raj` (1), `Pascal Lottaz` (1)
 - Guests: `Chas Freeman` (2), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Manuel Ramos` (1), `Yakov Rabkin` (1)
-- Threads: `freeman` (2), `napolitano` (2), `india-and-global-left` (1), `mearsheimer` (1), `mercouris` (1), `neutrality` (1), `sachs` (1)
+- Threads: `freeman` (2), `napolitano` (2), `india-global-left` (1), `mearsheimer` (1), `mercouris` (1), `neutrality` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=VBsacbeWf2A) | `source-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md` |
-| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [ln_XXosCoi8](https://www.youtube.com/watch?v=ln_XXosCoi8) | `source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md` |
+| `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [ln_XXosCoi8](https://www.youtube.com/watch?v=ln_XXosCoi8) | `source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=RQmrO_UfRTA) | `source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=cIkh_ZXs1Og) | `source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md` |
 | `neutrality-studies` | Neutrality Studies | `neutrality`, `sachs` | [watch](https://www.youtube.com/watch?v=BzU6frsoNoc) | `source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md`
-- `source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md`
+- `source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md`
 - `source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md`
 - `source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md`
 - `source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md`

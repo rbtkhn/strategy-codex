@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Judish Raj` (1), `Robert Pape` (1)
 - Guests: `Alastair Crooke` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Pepe Escobar` (1), `Scott Ritter` (1)
-- Threads: `diesen` (2), `baud` (1), `crooke` (1), `davis` (1), `india-and-global-left` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1), `ritter` (1)
+- Threads: `diesen` (2), `baud` (1), `crooke` (1), `davis` (1), `india-global-left` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `johnson` | [X-MhSSLDibM](https://www.youtube.com/watch?v=X-MhSSLDibM) | `source-dialogue-works-pepe-escobar-larry-c-johnson-us-israel-hit-tehran-iran-destroys-tel-aviv-hezbollah-now-joins-2026-03-02.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `crooke` | [AknMi7th6Uo](https://www.youtube.com/watch?v=AknMi7th6Uo) | `source-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [yd_uJiRcl0Q](https://www.youtube.com/watch?v=yd_uJiRcl0Q) | `source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md` |
-| `india-and-global-left` | India and Global Left | `ritter`, `india-and-global-left` | [JOjz-R3twTc](https://www.youtube.com/watch?v=JOjz-R3twTc) | `source-india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02.md` |
+| `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [JOjz-R3twTc](https://www.youtube.com/watch?v=JOjz-R3twTc) | `source-india-global-left-prove-me-wrong-scott-ritter-2026-03-02.md` |
 
 ## Writer sources
 
@@ -63,5 +63,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-pepe-escobar-larry-c-johnson-us-israel-hit-tehran-iran-destroys-tel-aviv-hezbollah-now-joins-2026-03-02.md`
 - `source-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02.md`
 - `source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md`
-- `source-india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02.md`
+- `source-india-global-left-prove-me-wrong-scott-ritter-2026-03-02.md`
 - `source-pape-the-escalation-ledger-iran-day-3-2026-03-02.md`

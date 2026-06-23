@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Judish Raj` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Scott Ritter` (1)
-- Threads: `freeman` (1), `india-and-global-left` (1), `ritter` (1)
+- Threads: `freeman` (1), `india-global-left` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md` |
-| `india-and-global-left` | India and Global Left | `ritter`, `india-and-global-left` | [5DNyWcXQwRQ](https://www.youtube.com/watch?v=5DNyWcXQwRQ) | `source-india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md` |
+| `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [5DNyWcXQwRQ](https://www.youtube.com/watch?v=5DNyWcXQwRQ) | `source-india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md`
-- `source-india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md`
+- `source-india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md`

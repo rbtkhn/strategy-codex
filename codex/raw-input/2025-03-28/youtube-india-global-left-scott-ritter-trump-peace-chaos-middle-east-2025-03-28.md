@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=5DNyWcXQwRQ"
 youtube_id: 5DNyWcXQwRQ
 kind: transcript
 thread: ritter
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 title: "Scott Ritter: Will Trump bring peace or chaos to Middle East?"
 ---
 

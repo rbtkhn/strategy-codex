@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "\"A Geo-Historical Shift\" – Chas Freeman on Iran, Gulf States & Decline of US Power"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=m3J53lNJiFk"
 youtube_id: m3J53lNJiFk
 source_note: "Operator-pasted YouTube transcript; India and Global Left × Freeman 23 Mar 2026. Pezeshkian-apology frame; Israel annihilation vs US confused objectives; Khamenei killing → hardline/IRGC + nuclear/ICBM break; Natanz/Dimona tit-for-tat; Hormuz toll booth (China/India/Turkey/France/Italy/Japan fees); Gulf vassalage vs Israeli false flags; desalination red line; only Iran can stop war; green-energy/China surge; petrodollar/Bessent/SWIFT; Zeitenwende/Braudel; Norman Finkelstein military-balance viewer Q; pre-Columbian civilizational power return. · ASR pass 2026-06-21."

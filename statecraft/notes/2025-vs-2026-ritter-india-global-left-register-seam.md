@@ -2,13 +2,13 @@ WORK only; not Record.
 
 # 2025 vs 2026 — Ritter × India Global Left register seam
 
-**Object:** One **channel** (`india-and-global-left`), one **guest** (Ritter), **two non-mergeable arcs** — **Trump pivot / Eurasia revolution** (2025) vs **Iran kinetic / Gulf attrition** (2026).
+**Object:** One **channel** (`india-global-left`), one **guest** (Ritter), **two non-mergeable arcs** — **Trump pivot / Eurasia revolution** (2025) vs **Iran kinetic / Gulf attrition** (2026).
 
 **Arcs (route separately):**
 
 | Year lane | Note | Captures | Span |
 | --- | --- | --- | --- |
-| **2025 Trump pivot** | [Feb 22→Mar 2 2025 arc](./arc-ritter-trump-pivot.md) | 2 | OODA forecast → Oval fiasco |
+| **2025 Trump pivot** | [Feb 22→Mar 28 2025 arc](./arc-ritter-trump-pivot.md) | 4 | OODA forecast → Oval fiasco → Rubio/Ukraine → Middle East/Iran preemption |
 | **2026 Iran war** | [Feb 20→Apr 9 2026 arc](./arc-ritter-india-global-left-iran.md) | 3 | Geneva trap → day ~3 → ceasefire fiction |
 
 **Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · **Cross-guest:** [Freeman IGL Iran arc](./arc-freeman-india-global-left-iran.md) · [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md)
@@ -24,7 +24,7 @@ Prevent **false continuity** when the same host books Ritter twice on **Ukraine�
 | **“Mar 2 Ritter IGL”** without year | **2025-03-02** = Zelensky **Oval fiasco** · **2026-03-02** = Iran **prove me wrong** day ~3 — **different captures, different wars** |
 | **“Ritter said Mar 2 inevitable”** | Check **year** — 2025 = **Oval** structural clash; 2026 = **kinetic receipt** + ammo clocks |
 | **Trump transformation** language | **2025 lane** (OODA, DOGE, Big Four) — do not import into **2026 Iran attrition** body without **year tag** |
-| **Geneva / Kushner / decapitation** | **2026 lane** — not the 2025 pair’s spine |
+| **Geneva / Kushner / decapitation** | **2026 lane** — not the 2025 pivot arc’s spine |
 | **Single IGL Ritter arc** | **Forbidden merge** — use **two arc notes** + this seam |
 
 ## Register split (what each lane owns)
@@ -56,7 +56,7 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 | Guest | Lane | Relation to Ritter 2025 | Relation to Ritter 2026 |
 | --- | --- | --- | --- |
 | **Freeman** | [IGL Iran arc](./arc-freeman-india-global-left-iran.md) · [2025 vs 2026 Freeman seam](./2025-vs-2026-freeman-igl-register-seam.md) | Out of year (starts Feb 2026) | **Order / toll** vs Ritter **attrition** — **pair, don’t merge** |
-| **Parsi** | [Sep 2025 IGL](../voices/parsi/parsi-interview-appearances-2025-2026.md) | **Between** 2025 Ritter pair and 2026 war — **E3/Europe escalatory** | **Upstream** of 2026 Freeman/Ritter Iran lanes |
+| **Parsi** | [Sep 2025 IGL](../voices/parsi/parsi-interview-appearances-2025-2026.md) | **Between** 2025 Ritter pivot arc and 2026 war — **E3/Europe escalatory** | **Upstream** of 2026 Freeman/Ritter Iran lanes |
 | **Marandi** | May 2026 IGL capture | — | Same **Iran war** calendar — **different guest register** |
 
 ## Citation split (operator routing)
@@ -65,7 +65,7 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 | --- | --- | --- |
 | Witkoff/Dmitriev/Riyadh, Ukraine-as-economic | [2025 pivot arc](./arc-ritter-trump-pivot.md) | 2026 Iran arc |
 | Oval Office Zelensky blow-up, DOGE/USAID model | [2025 pivot arc](./arc-ritter-trump-pivot.md) | 2026 prove-me-wrong |
-| Geneva trap, Venezuela template, succession thesis | [2026 Iran arc](./arc-ritter-india-global-left-iran.md) | 2025 pair |
+| Geneva trap, Venezuela template, succession thesis | [2026 Iran arc](./arc-ritter-india-global-left-iran.md) | 2025 pivot arc |
 | Interceptor bankruptcy, exit Gulf, no ceasefire | [2026 Iran arc](./arc-ritter-india-global-left-iran.md) | 2025 Big Four |
 
 ## Reconciliation (preserve tension)

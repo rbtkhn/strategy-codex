@@ -10,13 +10,13 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2025-02
 
-- [india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22](../../../source-archive/statecraft/2025-02-22/source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 1 (pair 2025-03-02; **not** 2026 Iran arc)
+- [india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22](../../../source-archive/statecraft/2025-02-22/source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 1 (pair 2025-03-02; **not** 2026 Iran arc)
 
 ## 2025-03
 
-- [india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02](../../../source-archive/statecraft/2025-03-02/source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 2 (Oval fiasco receipt)
-- [india-and-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21](../../../source-archive/statecraft/2025-03-21/source-india-and-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md) — https://www.youtube.com/watch?v=llyBcKg6tNg — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 3 (Rubio walk-away / Ukraine impediment / demilitarization)
-- [india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28](../../../source-archive/statecraft/2025-03-28/source-india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md) — https://www.youtube.com/watch?v=5DNyWcXQwRQ — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 4 (Middle East / Iran preemption + April 20 fork; **not** 2026 Iran kinetic arc)
+- [india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02](../../../source-archive/statecraft/2025-03-02/source-india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 2 (Oval fiasco receipt)
+- [india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21](../../../source-archive/statecraft/2025-03-21/source-india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md) — https://www.youtube.com/watch?v=llyBcKg6tNg — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 3 (Rubio walk-away / Ukraine impediment / demilitarization)
+- [india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28](../../../source-archive/statecraft/2025-03-28/source-india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md) — https://www.youtube.com/watch?v=5DNyWcXQwRQ — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 4 (Middle East / Iran preemption + April 20 fork; **not** 2026 Iran kinetic arc)
 
 ## 2025-05
 
@@ -81,7 +81,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [transcript-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11](../../../source-archive/statecraft/2026-02-11/source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md)
 - [transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18](../../../source-archive/statecraft/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
 - [youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19](../../../source-archive/statecraft/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
-- [india-and-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-india-and-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 1 (pre-kinetic)
+- [india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 1 (pre-kinetic)
 - [substack-ritter-dead-at-27-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
 - [substack-ritter-the-flamingo-effect-2026-02-22](../../../source-archive/statecraft/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
 - [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23](../../../source-archive/statecraft/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
@@ -89,7 +89,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2026-03
 
-- [india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02](../../../source-archive/statecraft/2026-03-02/source-india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 2 (day ~3 kinetic)
+- [india-global-left-prove-me-wrong-scott-ritter-2026-03-02](../../../source-archive/statecraft/2026-03-02/source-india-global-left-prove-me-wrong-scott-ritter-2026-03-02.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 2 (day ~3 kinetic)
 - [substack-ritter-regime-change-double-edged-sword-2026-03-01](../../../source-archive/statecraft/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md)
 - [youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04](../../../source-archive/statecraft/2026-03-04/source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06](../../../source-archive/statecraft/2026-03-06/source-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md)
@@ -107,7 +107,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2026-04
 
-- [india-and-global-left-no-ceasefire-scott-ritter-2026-04-09](../../../source-archive/statecraft/2026-04-09/source-india-and-global-left-no-ceasefire-scott-ritter-2026-04-09.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 3 (ceasefire fiction)
+- [india-global-left-no-ceasefire-scott-ritter-2026-04-09](../../../source-archive/statecraft/2026-04-09/source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 3 (ceasefire fiction)
 - [substack-ritter-why-i-no-longer-stand-with-israel-redux-2026-04-01](../../../source-archive/statecraft/2026-04-01/source-ritter-why-i-no-longer-stand-with-israel-redux-2026-04-01.md)
 - [transcript-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02](../../../source-archive/statecraft/2026-04-02/source-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md)
 - [substack-ritter-combat-search-and-rescue-prequel-2026-04-03](../../../source-archive/statecraft/2026-04-03/source-ritter-combat-search-and-rescue-prequel-2026-04-03.md)

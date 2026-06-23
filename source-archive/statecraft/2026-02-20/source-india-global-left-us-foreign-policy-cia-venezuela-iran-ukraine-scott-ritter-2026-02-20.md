@@ -16,12 +16,12 @@ source_form: interview
 thread: ritter
 threads:
   - ritter
-  - india-and-global-left
+  - india-global-left
 show: India and Global Left
 host: Judish Raj
 guest: Scott Ritter
 title: "Scott Ritter on US Foreign Policy, CIA & What's REALLY Happening in Venezuela, Iran & Ukraine"
-channel_slug: "india-and-global-left"
+channel_slug: "india-global-left"
 source_url: "https://www.youtube.com/watch?v=6ZagJb5RwMA"
 youtube_id: 6ZagJb5RwMA
 source_type: user-pasted-youtube-transcript

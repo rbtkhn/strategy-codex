@@ -9,10 +9,10 @@ topic: trump-pivot
 span_start: 2025-02-22
 span_end: 2025-03-28
 nodes:
-  - source-archive/statecraft/2025-02-22/source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md
-  - source-archive/statecraft/2025-03-02/source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md
-  - source-archive/statecraft/2025-03-21/source-india-and-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md
-  - source-archive/statecraft/2025-03-28/source-india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md
+  - source-archive/statecraft/2025-02-22/source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md
+  - source-archive/statecraft/2025-03-02/source-india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md
+  - source-archive/statecraft/2025-03-21/source-india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md
+  - source-archive/statecraft/2025-03-28/source-india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md
 ```
 
 **Reconciled:** 2026-06-22 · Prior `arc-ritter-2025-02-to-2025-03-trump-pivot.md` → `arc-ritter-trump-pivot.md` (dates out of filename; span in YAML)
@@ -27,10 +27,10 @@ nodes:
 
 | Day | Capture | URL |
 | --- | --- | --- |
-| **Feb 22** | [Why Trump admitted Russia has won the Ukraine war](../../source-archive/statecraft/2025-02-22/source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) | https://www.youtube.com/watch?v=D2zRRr0CkmU |
-| **Mar 2** | [FIRST Impression on TRUMP ZELENSKY FIASCO](../../source-archive/statecraft/2025-03-02/source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) | https://www.youtube.com/watch?v=J15KBqfx1Ic |
-| **Mar 21** | [Rubio warning / quit Ukraine peace talks?](../../source-archive/statecraft/2025-03-21/source-india-and-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md) | https://www.youtube.com/watch?v=llyBcKg6tNg |
-| **Mar 28** | [Will Trump bring peace or chaos to Middle East?](../../source-archive/statecraft/2025-03-28/source-india-and-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md) | https://www.youtube.com/watch?v=5DNyWcXQwRQ |
+| **Feb 22** | [Why Trump admitted Russia has won the Ukraine war](../../source-archive/statecraft/2025-02-22/source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) | https://www.youtube.com/watch?v=D2zRRr0CkmU |
+| **Mar 2** | [FIRST Impression on TRUMP ZELENSKY FIASCO](../../source-archive/statecraft/2025-03-02/source-india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) | https://www.youtube.com/watch?v=J15KBqfx1Ic |
+| **Mar 21** | [Rubio warning / quit Ukraine peace talks?](../../source-archive/statecraft/2025-03-21/source-india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md) | https://www.youtube.com/watch?v=llyBcKg6tNg |
+| **Mar 28** | [Will Trump bring peace or chaos to Middle East?](../../source-archive/statecraft/2025-03-28/source-india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md) | https://www.youtube.com/watch?v=5DNyWcXQwRQ |
 
 ## Purpose
 

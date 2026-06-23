@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=iTn-CqdOA8Y"
 youtube_id: iTn-CqdOA8Y
 kind: transcript
 thread: freeman
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 title: "Trump's Gulf Visit: Chas Freeman Explains the US–Israel–Gulf Shift | Deep Dive into Middle East"
 ---
 

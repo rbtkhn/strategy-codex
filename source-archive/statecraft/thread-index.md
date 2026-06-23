@@ -36,7 +36,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `mcgovern` | 25 | 24 | 11 | `Dialogue Works` (9), `Judging Freedom` (8), `Glenn Diesen` (7) | `Nima Alkhorshid` (8), `Glenn Diesen` (7), `Andrew Napolitano` (3) | `2025-02-05` | `2026-06-22` |
 | `christoforou` | 23 | 23 | 7 | `The Duran` (22), `Mercouris` (1) | `Alex Christoforou` (20) | `2025-02-07` | `2026-06-22` |
 | `barnes` | 20 | 17 | 6 | `Daniel Davis Deep Dive` (7), `Mario Nawfal` (4), `The Duran` (3) | `Daniel Davis` (6), `Alexander Mercouris` (2), `Nima Alkhorshid` (2) | `2026-01-13` | `2026-06-11` |
-| `india-and-global-left` | 20 | 20 | 13 | `India and Global Left` (20) | `Judish Raj` (20) | `2025-02-22` | `2026-06-11` |
+| `india-global-left` | 20 | 20 | 13 | `India and Global Left` (20) | `Judish Raj` (20) | `2025-02-22` | `2026-06-11` |
 | `aguilar` | 15 | 14 | 4 | `Dialogue Works` (8), `Mario Nawfal` (3), `Moral Resistance` (3) | `Nima Alkhorshid` (8), `Sulaiman Ahmed` (2), `Mario Nawfal` (1) | `2026-02-27` | `2026-06-20` |
 | `jiang` | 15 | 13 | 4 | `Predictive History` (11), `Glenn Diesen` (2) | `Jiang Xueqin` (10), `Glenn Diesen` (2), `Predictive History` (2) | `2026-01-05` | `2026-06-13` |
 | `krainer` | 14 | 14 | 8 | `Dialogue Works` (9), `Glenn Diesen` (4), `Diesen` (1) | `Nima Alkhorshid` (9), `Glenn Diesen` (4), `Diesen` (1) | `2025-01-18` | `2026-06-19` |

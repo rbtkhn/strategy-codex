@@ -16,12 +16,12 @@ source_form: interview
 thread: ritter
 threads:
   - ritter
-  - india-and-global-left
+  - india-global-left
 show: India and Global Left
 host: Judish Raj
 guest: Scott Ritter
 title: "\"Prove Me Wrong\" – Scott Ritter Says This War Could End US Power in the Middle East"
-channel_slug: "india-and-global-left"
+channel_slug: "india-global-left"
 source_url: "https://www.youtube.com/watch?v=JOjz-R3twTc"
 youtube_id: JOjz-R3twTc
 source_type: user-pasted-youtube-transcript

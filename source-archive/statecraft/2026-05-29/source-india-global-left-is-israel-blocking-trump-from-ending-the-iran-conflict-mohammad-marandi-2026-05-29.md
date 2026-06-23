@@ -8,7 +8,7 @@ show: India and Global Left
 host: Judish Raj
 guest: Mohammad Marandi
 title: "Is Israel Blocking Trump From Ending the Iran Conflict? | Mohammad Marandi"
-channel_slug: "india-and-global-left"
+channel_slug: "india-global-left"
 source_url: "https://www.youtube.com/watch?v=4yvbGF6vn0I"
 source_type: youtube
 transcript_type: operator_pasted_transcript

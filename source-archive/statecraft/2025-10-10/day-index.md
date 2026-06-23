@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Judish Raj` (1)
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1)
-- Threads: `davis` (1), `diesen` (1), `freeman` (1), `india-and-global-left` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `davis` (1), `diesen` (1), `freeman` (1), `india-global-left` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ijKk7UZjN6w) | `source-alex-mercouris-russias-strongest-strike-kiev-blackout-air-defence-fails-energy-collapse-moscow-pushes-to-dneiper-2025-10-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=iLYX0O1iEoY) | `source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=1E7pBHYby8w) | `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md` |
-| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [jm1kxCygFmw](https://www.youtube.com/watch?v=jm1kxCygFmw) | `source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md` |
+| `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [jm1kxCygFmw](https://www.youtube.com/watch?v=jm1kxCygFmw) | `source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md` |
 
 ## Writer sources
 
@@ -58,4 +58,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-russias-strongest-strike-kiev-blackout-air-defence-fails-energy-collapse-moscow-pushes-to-dneiper-2025-10-10.md`
 - `source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md`
 - `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md`
-- `source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md`
+- `source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md`

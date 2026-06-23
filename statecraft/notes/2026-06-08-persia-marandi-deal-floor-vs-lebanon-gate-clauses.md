@@ -116,7 +116,7 @@ From in-voice close (Jun 8):
 |---|---|---|
 | Jun 8 deal-floor close (companion spine) | Open Hormuz; traffic **"before the war"** | **`D-HORM-01` target band** — qualitative, not a daily count in this clip |
 | [Marandi, 2026-06-02](../../source-archive/statecraft/2026-06-02/source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md) | **"25 to 30 ships"** through Hormuz **every day** (selective passage during war) | **`D-HORM-01` numeric band** — ledger SSOT cites this Marandi corpus line |
-| [Marandi, 2026-05-29](../../source-archive/statecraft/2026-05-29/source-india-and-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md) | **"roughly 25 20 30 ships"** (non-belligerent traffic) | Confirms band is **operating norm**, not one-off negotiation day |
+| [Marandi, 2026-05-29](../../source-archive/statecraft/2026-05-29/source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md) | **"roughly 25 20 30 ships"** (non-belligerent traffic) | Confirms band is **operating norm**, not one-off negotiation day |
 
 Short rule: **Marandi's Jun 8 floor names the destination ("before the war"); Jun 2/May 29 corpus supplies the observable daily band (~25–30) that `D-HORM-01` logs.**
 

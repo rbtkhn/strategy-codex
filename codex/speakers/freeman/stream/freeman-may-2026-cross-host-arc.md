@@ -19,7 +19,7 @@ Use this file before opening host-local arcs when the question is about Freeman'
 | 2026-05-08 | Dialogue Works | *Hormuz, Ceasefire, Gulf States, and China's Role* | [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md) | Gulf repositioning / ceasefire realism / China role |
 | 2026-05-12 | Glenn Diesen | *Trump Goes to Beijing After Historic Defeat in Iran* | [raw-input](../../../years/2026/provenance/2026-05-12/source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md) | defeat management / postwar diplomatic realignment |
 | 2026-05-16 | Neutrality Studies | *Power Moves East: China Teaches USA a Big Lesson* | [raw-input](../../../years/2026/provenance/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) | eastward power shift / non-core reinforcement |
-| 2026-05-20 | India and Global Left | *Is Iran Now a World Power?* | [raw-input](../../../years/2026/provenance/2026-05-20/source-india-and-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md) | Iran as world-power and system lever |
+| 2026-05-20 | India and Global Left | *Is Iran Now a World Power?* | [raw-input](../../../years/2026/provenance/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md) | Iran as world-power and system lever |
 
 ## Found, Not Yet Canonical
 

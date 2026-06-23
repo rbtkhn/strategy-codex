@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=jm1kxCygFmw"
 youtube_id: jm1kxCygFmw
 kind: transcript
 thread: freeman
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 title: "Chas Freeman: Why This Gaza Ceasefire Won't Last"
 ---
 

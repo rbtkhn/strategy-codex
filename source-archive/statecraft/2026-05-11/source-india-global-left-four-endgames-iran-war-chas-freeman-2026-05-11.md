@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "The 4 Endgames of the Iran War | Chas Freeman"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=x1JHpJ4Glt8"
 youtube_id: x1JHpJ4Glt8
 source_note: "Operator-pasted transcript; India and Global Left × Freeman 11 May 2026. Four endgames: Gulf–Iran rapprochement / US military exit; Hormuz control vs Anglo-American maritime rule; sanctions ebb + domestic repression; nuclear galvanization (NK path). Impasse/performative Trump talks; Israel prolongation vs US gasoline/midterm pressure; reservoir-pressure ~Sep vs US summer peak; Netanyahu US-independence rhetoric; Israel vulnerability/unraveling; Gaza yellow-line distraction; EU Palestine sanctions gap. · ASR pass 2026-06-21."

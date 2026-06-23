@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "The Regional Fallout of a US-Iran War | Chas Freeman Analysis"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=X1ulonrAgbo"
 youtube_id: X1ulonrAgbo
 source_note: "Operator-pasted transcript; India and Global Left × Freeman 11 Jun 2026. Impunity ended; Iran disproportionate-reprisal standard mirrors Israel; regional-war doctrine (resistance violence = attack on Iran); Kuwait/Bahrain/Jordan base reciprocation; ceasefire-with-Israeli-characteristics = deescalation not end; Trump transactional deal failure; Kharg threats; CENTCOM Kish Island water-supply strike war-crime frame + Gulf desalination retaliation risk; US blockade closed Hormuz (~3 vs ~100 tankers/day); Iran Hormuz open for non-aggression + fees; supreme-leader office renewed resistance commitment; Saudi–Pakistan–Egypt–Turkey axis; Pakistani extended-deterrence/nuclear-garrison speculation; Gulf base denial + day-one radar loss; trillion-dollar attrition cost; arms depletion/NATO-Japan contract suspensions; Iran goal remove US Gulf presence; Trump–Netanyahu ugly-call leak (Ravid/Mossad-agent read); Epstein-file leverage; MAGA split Tucker/MTG vs Graham/Cotton; Congress cement US–Israel military+intel fusion; Saudi China/yuan oil settlement; Gulf security architecture talks (strategic autonomy, no permanent US/Russia/China/India presence); Khamenei-assassination → nuclear-deterrent push; Israel overstretch/crusader-kingdom analogy; India US-LNG dominance post-Qatar cutoff. Same-day seam with Breaking Points Marandi/Weichert + Napolitano bench. · ASR pass 2026-06-15."

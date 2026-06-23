@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=9YRw0U4wyV4"
 youtube_id: 9YRw0U4wyV4
 kind: transcript
 thread: parsi
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 title: "Trita Parsi: Why Europe's Sanctions Make an Israeli-Western War on Iran Unstoppable"
 ---
 

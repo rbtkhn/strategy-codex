@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Jeffrey Sachs` (1), `Judish Raj` (1)
 - Guests: `Jeffrey Sachs` (1), `Scott Ritter` (1)
-- Threads: `india-and-global-left` (1), `ritter` (1), `sachs` (1)
+- Threads: `india-global-left` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `india-and-global-left` | India and Global Left | `ritter`, `india-and-global-left` | [J15KBqfx1Ic](https://www.youtube.com/watch?v=J15KBqfx1Ic) | `source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md` |
+| `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [J15KBqfx1Ic](https://www.youtube.com/watch?v=J15KBqfx1Ic) | `source-india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md` |
 
 ## Writer sources
 
@@ -52,5 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md`
+- `source-india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md`
 - `source-sachs-trump-zelenskyy-meeting-and-what-comes-next-2025-03-02.md`

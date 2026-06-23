@@ -16,12 +16,12 @@ source_form: interview
 thread: ritter
 threads:
   - ritter
-  - india-and-global-left
+  - india-global-left
 show: India and Global Left
 host: Judish Raj
 guest: Scott Ritter
 title: "\"There Is No Ceasefire\" — Scott Ritter on Iran, Israel & What Comes Next"
-channel_slug: "india-and-global-left"
+channel_slug: "india-global-left"
 source_url: "https://www.youtube.com/watch?v=W93WyoC-2lQ"
 youtube_id: W93WyoC-2lQ
 source_type: user-pasted-youtube-transcript

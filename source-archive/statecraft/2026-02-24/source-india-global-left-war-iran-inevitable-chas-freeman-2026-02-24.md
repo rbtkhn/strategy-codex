@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "Is War With Iran Inevitable? | Chas Freeman on US Military Buildup, Israel, Russia & China"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=E0JqaiO8IQA"
 youtube_id: E0JqaiO8IQA
 source_note: "Operator-pasted YouTube transcript; India and Global Left × Freeman 24 Feb 2026. War very likely; half US Air Force arrayed; Ford carrier en route; Mar 4 Geneva talks as ruse; zero enrichment/missiles/proxy-severance Israeli agenda; Bessent currency protests + Starlink regime-change prep; Ramadan/moon timing; Iran regional war + carrier hypersonic; HQ-9/F-35 radar; Russia/China tech not direct intervention; Sistani fatwa risk; CVoter India poll; Syria/Kurds/Uyghurs coda. · ASR pass 2026-06-21."

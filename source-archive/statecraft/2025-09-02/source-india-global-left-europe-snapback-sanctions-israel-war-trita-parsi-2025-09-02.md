@@ -14,12 +14,12 @@ channel_name: India and Global Left
 thread: parsi
 threads:
   - parsi
-  - india-and-global-left
+  - india-global-left
 show: India and Global Left
 host: Judish Raj
 guest: Trita Parsi
 title: "Trita Parsi: Why Europe's Sanctions Make an Israeli-Western War on Iran Unstoppable"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=9YRw0U4wyV4"
 youtube_id: 9YRw0U4wyV4
 source_note: "Operator-pasted YouTube transcript; India Global Left × Trita Parsi 2 Sep 2025. E3 snapback; 2003 enrichment suspension / Clean Break context; Europe post-Ukraine Iran-as-Russia-aid; vassalage; escalatory not de-escalatory E3 move; Trump May caving vs F-bomb helicopter pushback; Israeli restart before Dec/midterms; snapback arms embargo + disputed legality; zero enrichment cover; balance-of-power not nuclear; regime collapse vs change; Gaza genocide ICC/ICJ multilateral test. · ASR pass 2026-06-21."

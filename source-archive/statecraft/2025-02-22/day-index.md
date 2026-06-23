@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Judish Raj` (1)
 - Guests: `Scott Ritter` (1)
-- Threads: `india-and-global-left` (1), `ritter` (1)
+- Threads: `india-global-left` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `india-and-global-left` | India and Global Left | `ritter`, `india-and-global-left` | [D2zRRr0CkmU](https://www.youtube.com/watch?v=D2zRRr0CkmU) | `source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md` |
+| `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [D2zRRr0CkmU](https://www.youtube.com/watch?v=D2zRRr0CkmU) | `source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md`
+- `source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md`

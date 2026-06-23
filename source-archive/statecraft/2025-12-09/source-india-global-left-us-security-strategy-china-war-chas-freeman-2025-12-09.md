@@ -15,13 +15,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "Chas Freeman Warns US Security Strategy May Spark WAR with China"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=ln_XXosCoi8"
 youtube_id: ln_XXosCoi8
 source_note: "Operator-pasted transcript; India and Global Left × Freeman Dec 2025 (transcript anchors). 2025 NSS: Russia normalization, Europe auxiliaries, China geoeconomic competition, Monroe Doctrine 2.0; Busan Trump–Xi equal peer; multinodal vs multipolar; ASEAN model; Europe sick man; ASPI 57/64 China lead; Venezuela escalation (Rubio/Cuba, oil-China, demand vs supply); Trump senility/JD Vance; Pacific Asia not Indo-Pacific. · ASR pass 2026-06-21."

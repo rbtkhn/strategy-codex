@@ -24,7 +24,7 @@ The mature core is 2026, especially:
 
 ## September 2025 landed sources
 
-- [2025-09-02 — Europe's Sanctions / Israeli-Western War on Iran](../../../source-archive/statecraft/2025-09-02/source-india-and-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md) — **India Global Left** · cleaned-transcript · https://www.youtube.com/watch?v=9YRw0U4wyV4 · E3 snapback; 2003→2025 Europe inversion; Trump May caving; **Israel restart before Dec** forecast; balance-of-power frame
+- [2025-09-02 — Europe's Sanctions / Israeli-Western War on Iran](../../../source-archive/statecraft/2025-09-02/source-india-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md) — **India Global Left** · cleaned-transcript · https://www.youtube.com/watch?v=9YRw0U4wyV4 · E3 snapback; 2003→2025 Europe inversion; Trump May caving; **Israel restart before Dec** forecast; balance-of-power frame
 
 ## June 2026 landed sources
 
@@ -49,4 +49,4 @@ The mature core is 2026, especially:
 - this file is a source bench, not a chronology dump
 - use the authored ledger and interview map as the real source-class routes
 - generic stubs and excluded bundles should not silently become first-open sources
-- **India Global Left** (`thread: parsi`, `india-and-global-left`): [channel index](../../../source-archive/statecraft/channel-index.md) · cross-register Freeman/Ritter IGL arcs above — do not merge Parsi **E3/Europe** register into Freeman **order/toll** or Ritter **attrition** bodies
+- **India Global Left** (`thread: parsi`, `india-global-left`): [channel index](../../../source-archive/statecraft/channel-index.md) · cross-register Freeman/Ritter IGL arcs above — do not merge Parsi **E3/Europe** register into Freeman **order/toll** or Ritter **attrition** bodies

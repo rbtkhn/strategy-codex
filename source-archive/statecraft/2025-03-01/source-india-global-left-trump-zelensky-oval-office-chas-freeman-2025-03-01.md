@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "Chas Freeman EXPLAINS Why Trump and Zelensky Argued"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=ZPyoLPEroOo"
 youtube_id: ZPyoLPEroOo
 source_note: "Operator-pasted YouTube transcript; India Global Left × Freeman 1 Mar 2025 (post–Oval Office ~28 Feb). Oval uncouth/extortionate; Vance charge; manpower not weapons; ceasefire/Korea fight-talk; Istanbul 2022 draft + Johnson; rare-earth foreclosure fiction; Rubio reverse-Nixon pipe dream; Trump whimsy/vengeance; Europe transition/Paris peacekeeping infeasible; three Russian issues 1994–2021; DOGE/state demolition; dynasty 249y; Anchorage parallel; Mehmed II/Trump narcissism. Pair Ritter 2025-03-02; out of 2026 Iran arc. · ASR pass 2026-06-21."

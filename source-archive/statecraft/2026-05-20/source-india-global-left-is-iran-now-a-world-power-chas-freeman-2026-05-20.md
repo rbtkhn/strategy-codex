@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "Is Iran Now a World Power? Chas Freeman on Ceasefire, Israel & West Asia's Future"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=Thy3e6ququ8"
 youtube_id: Thy3e6ququ8
 source_note: "User pasted the YouTube transcript into Codex on 2026-05-20; preserve as transcript-bearing raw-input pending any later title/date pinning from the channel page. Re-intake 2026-06-21 deduped to this object (youtube_id Thy3e6ququ8; operator URL truncated Thy3e6ququ); operator cited pub 2026-04-12 — archive pub_date remains 2026-05-20 pending channel-page pin. · ASR pass 2026-06-21."

@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=ZPyoLPEroOo"
 youtube_id: ZPyoLPEroOo
 kind: transcript
 thread: freeman
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 title: "Chas Freeman EXPLAINS Why Trump and Zelensky Argued"
 ---
 

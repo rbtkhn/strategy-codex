@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: mearsheimer
 threads:
   - mearsheimer
-  - india-and-global-left
+  - india-global-left
 thread_expert: mearsheimer
 show: India and Global Left
 host: Judish Raj
 guest: John Mearsheimer
 title: "Heated US-China Debate: Prof. John Mearsheimer Pulls No Punches"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=NV2FBf_cOg8"
 youtube_id: NV2FBf_cOg8
 source_note: "Operator-pasted YouTube transcript; India Global Left × Mearsheimer 14 Apr 2025. US-China tariffs/containment trilogy; nationalism/Taiwan/India-China border debate with left host; Soviet Union aggressive realism; domestic politics limits of theory; morality/amoral theory; Israel lobby/First Amendment; Trump-Ukraine peace/Russian three demands; Iran JCPOA/enrichment/Oman talks; global south non-alignment; US-Europe fracture/pivot to Asia; Chinese nationalism economism. · ASR pass 2026-06-21; extended pass 2026-06-21. · source-clean pass 2026-06-21."
@@ -31,7 +31,7 @@ normalization_note: "Removed pasted Transcripts marker; AI-assisted ASR cleanup 
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-21; ph-civ replacement SSOT."
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (mearsheimer, india-and-global-left, channel:india-and-global-left)); 1 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (mearsheimer, india-global-left, channel:india-global-left)); 1 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Heated US-China Debate: Prof. John Mearsheimer Pulls No Punches
 

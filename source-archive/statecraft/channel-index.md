@@ -30,7 +30,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | `glenn-diesen` | Glenn Diesen | 212 | 173 | yes | [open](https://www.youtube.com/@GDiesen1) | `2023-01-14` | `2026-06-22` |
 | `judging-freedom` | Judge Napolitano - Judging Freedom | 206 | 136 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-22` |
 | `mario-nawfal` | Mario Nawfal | 46 | 27 |  | [open](https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA) | `2026-05-12` | `2026-06-19` |
-| `india-and-global-left` | India and Global Left | 21 | 21 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2025-02-22` | `2026-06-11` |
+| `india-global-left` | India and Global Left | 21 | 21 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2025-02-22` | `2026-06-11` |
 | `neutrality-studies` | Neutrality Studies | 11 | 9 |  | [open](https://www.youtube.com/@neutralitystudies) | `2025-02-06` | `2026-06-22` |
 | `predictive-history` | Predictive History | 11 | 9 |  | [open](https://www.youtube.com/@PredictiveHistory) | `2026-04-14` | `2026-06-10` |
 | `breaking-points` | Breaking Points | 7 | 6 |  | [open](https://www.youtube.com/@BreakingPoints) | `2026-04-29` | `2026-06-17` |

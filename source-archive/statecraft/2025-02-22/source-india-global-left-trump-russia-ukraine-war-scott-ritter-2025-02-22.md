@@ -16,12 +16,12 @@ source_form: interview
 thread: ritter
 threads:
   - ritter
-  - india-and-global-left
+  - india-global-left
 show: India and Global Left
 host: Judish Raj
 guest: Scott Ritter
 title: "Scott Ritter: Why Trump admitted that Russia has won the Ukraine war?"
-channel_slug: "india-and-global-left"
+channel_slug: "india-global-left"
 source_url: "https://www.youtube.com/watch?v=D2zRRr0CkmU"
 youtube_id: D2zRRr0CkmU
 source_type: user-pasted-youtube-transcript

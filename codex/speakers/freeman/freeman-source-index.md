@@ -128,4 +128,4 @@ Promotion rule:
 - [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08](../../years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
 - [youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12](../../years/2026/provenance/2026-05-12/source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md)
 - [youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16](../../years/2026/provenance/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md)
-- [transcript-india-and-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20](../../years/2026/provenance/2026-05-20/source-india-and-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md)
+- [transcript-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20](../../years/2026/provenance/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md)

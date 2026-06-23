@@ -16,7 +16,7 @@ Purpose: canonical interview-pressure surface for the Parsi shelf.
 
 ## September 2025
 
-- [2025-09-02 India Global Left — E3 snapback / unstoppable Israeli-Western war](../../../source-archive/statecraft/2025-09-02/source-india-and-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md) — https://www.youtube.com/watch?v=9YRw0U4wyV4 · cleaned-transcript · **Load-bearing:** E3 history (2003 suspension); Europe **escalation for escalation**; Trump **May caving** vs helicopter pushback; **Israel restart before Dec**; zero enrichment as cover; Gaza/ICC multilateral close · **Cross-channel:** [Freeman IGL Iran arc](../../notes/arc-freeman-india-global-left-iran.md) · [Ritter IGL](../../notes/arc-ritter-india-global-left-iran.md)
+- [2025-09-02 India Global Left — E3 snapback / unstoppable Israeli-Western war](../../../source-archive/statecraft/2025-09-02/source-india-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md) — https://www.youtube.com/watch?v=9YRw0U4wyV4 · cleaned-transcript · **Load-bearing:** E3 history (2003 suspension); Europe **escalation for escalation**; Trump **May caving** vs helicopter pushback; **Israel restart before Dec**; zero enrichment as cover; Gaza/ICC multilateral close · **Cross-channel:** [Freeman IGL Iran arc](../../notes/arc-freeman-india-global-left-iran.md) · [Ritter IGL](../../notes/arc-ritter-india-global-left-iran.md)
 
 ## Best first openings
 

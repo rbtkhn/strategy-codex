@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Judish Raj` (1)
 - Guests: `Trita Parsi` (1)
-- Threads: `india-and-global-left` (1), `parsi` (1)
+- Threads: `india-global-left` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `india-and-global-left` | India and Global Left | `parsi`, `india-and-global-left` | [9YRw0U4wyV4](https://www.youtube.com/watch?v=9YRw0U4wyV4) | `source-india-and-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md` |
+| `india-global-left` | India and Global Left | `parsi`, `india-global-left` | [9YRw0U4wyV4](https://www.youtube.com/watch?v=9YRw0U4wyV4) | `source-india-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-india-and-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md`
+- `source-india-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md`

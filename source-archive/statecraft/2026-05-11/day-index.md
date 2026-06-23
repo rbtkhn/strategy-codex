@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Diesen` (1), `Judish Raj` (1), `Robert Pape` (1)
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1), `Jacques Baud` (1), `Jiang Xueqin` (1), `Larry Johnson` (1)
-- Threads: `nima` (2), `baud` (1), `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `india-and-global-left` (1), `johnson` (1), `mercouris` (1), `pape` (1)
+- Threads: `nima` (2), `baud` (1), `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `india-global-left` (1), `johnson` (1), `mercouris` (1), `pape` (1)
 
 ## Channel sources
 
@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `baud` | [watch](https://www.youtube.com/watch?v=5D-OD0iezZ8) | `source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=0cw2HmMpvDQ) | `source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md` |
 | `glenn-diesen` | Diesen - Greater Eurasia Podcast | `diesen` | [watch](https://www.youtube.com/watch?v=RWTvTzWYG0o) | `source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md` |
-| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [x1JHpJ4Glt8](https://www.youtube.com/watch?v=x1JHpJ4Glt8) | `source-india-and-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md` |
+| `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [x1JHpJ4Glt8](https://www.youtube.com/watch?v=x1JHpJ4Glt8) | `source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md` |
 
 ## Writer sources
 
@@ -61,5 +61,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md`
 - `source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md`
 - `source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md`
-- `source-india-and-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md`
+- `source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md`
 - `source-pape-the-5-warning-signs-that-the-iran-war-is-escalating-2026-05-11.md`

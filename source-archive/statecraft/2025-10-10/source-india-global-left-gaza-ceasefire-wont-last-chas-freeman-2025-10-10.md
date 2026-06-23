@@ -14,13 +14,13 @@ channel_name: India and Global Left
 thread: freeman
 threads:
   - freeman
-  - india-and-global-left
+  - india-global-left
 thread_expert: freeman
 show: India and Global Left
 host: Judish Raj
 guest: Chas Freeman
 title: "Chas Freeman: Why This Gaza Ceasefire Won't Last"
-channel_slug: india-and-global-left
+channel_slug: india-global-left
 source_url: "https://www.youtube.com/watch?v=jm1kxCygFmw"
 youtube_id: jm1kxCygFmw
 source_note: "Operator-pasted YouTube transcript; India Global Left × Freeman 10 Oct 2025 (Gaza ceasefire skepticism). Hostage exchange not self-determination; Israel ceasefire violation record (Lebanon 4600×); 60% pullback; Netanyahu resume war; Trump 20-point plan phases; Barghouti not released; Khalil al-Hayya Trump guarantee; Arab raison d'état/Iran-Turkey pivot; media hostage framing; diaspora global resistance risk; Mizrahim/Zionism. Out of 2026 Iran arc. · ASR pass 2026-06-21. · source-clean pass 2026-06-21."
@@ -44,7 +44,7 @@ verify:
   - claim: 2025 Nobel Peace Prize to María Corina Machado (announced 10 Oct); Freeman says Washington directed celebratory Gaza-ceasefire media because Trump/Washington "needed" the prize
     verdict: partial
     note: NobelPrize.org/BBC Oct 10 confirms Machado award same day as capture — Freeman Washington-directed-media / prize-motive read has no wire receipt; tier-4 media-celebration seam
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-and-global-left, channel:india-and-global-left)); 7 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-global-left, channel:india-global-left)); 7 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Chas Freeman: Why This Gaza Ceasefire Won't Last
 
