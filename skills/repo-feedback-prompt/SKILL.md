@@ -1,15 +1,18 @@
 ---
 name: repo-feedback-prompt
+description: Compose short, constructive prompts (issues/DMs) for maintainers of external GitHub repos after verifying upstream docs—non-redundant, high-leverage asks, respectful tone, optional PR offer.
 preferred_activation: repo feedback prompt
-description: "Compose short, constructive prompts (issues/DMs) for maintainers of external GitHub repos after verifying upstream docs—non-redundant, high-leverage asks, respectful tone, optional PR offer."
+activation: repo feedback prompt
 portable: true
 version: 1.1.0
+category: operator-coherence
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-dev
   - communication
 ---
-
 # Repo Feedback Prompt
 
 **Preferred activation (operator):** say **`repo feedback prompt`**, **`OSS feedback prompt`**, or **`constructive GitHub prompt`**.

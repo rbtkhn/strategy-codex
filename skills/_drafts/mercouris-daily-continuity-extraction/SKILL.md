@@ -1,9 +1,11 @@
 ---
 name: mercouris-daily-continuity-extraction
-preferred_activation: mercouris-continuity
 description: "Draft workflow for extracting Alexander Mercouris / The Duran long-form updates into disciplined daily continuity: timeline deltas, diplomacy-room reads, Ukraine/Iran/Russia operational claims, elite-politics inferences, source-confidence tiers, comparative speaker seams, and statecraft inputs. Use for Mercouris says, Mercouris daily, Mercouris latest, Duran Mercouris, continuity check, Kiev crisis, Moscow reaction, Geneva talks, Hormuz blockade, and compare Mercouris to another speaker."
+preferred_activation: mercouris-continuity
 portable: true
 version: 0.1.0-draft
+category: domain-pack
+status: draft
 tags:
   - draft
   - work-strategy
@@ -12,7 +14,6 @@ tags:
   - speaker-state
   - statecraft
 ---
-
 # Mercouris daily continuity extraction
 
 Use this draft skill when the operator asks for Mercouris-specific extraction, especially:

@@ -1,16 +1,18 @@
 ---
 name: extract-skill-from-session
-preferred_activation: save skill
 description: "After a successful multi-step task, assess whether the workflow should become a skill candidate or portable skill. Triggers: save skill, skill from session, add a skill from this, turn this into a skill."
+preferred_activation: save skill
+activation: save skill
 portable: true
 version: 1.0.0
+category: operator-coherence
+status: active
 scope_class: repo-governed
 tags:
   - operator
   - work-dev
   - skills
 ---
-
 # Extract Skill From Session
 
 **Preferred activation (operator):** say **`save skill`**. **Alias:** **`skill from session`**.

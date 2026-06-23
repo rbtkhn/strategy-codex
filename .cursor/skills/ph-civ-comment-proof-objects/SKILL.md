@@ -1,9 +1,10 @@
 ---
 name: ph-civ-comment-proof-objects
-description: >-
-  Draft high-density Predictive History Civilization YouTube comments as public proof objects rather than repo doorways. Use when the operator wants comments on civ-* lectures that demonstrate unusual civilizational-statecraft reading power in one paragraph, especially for sequential waves such as civ-01 to civ-06. Require concrete historical reasoning: each comment must argue from at least two specific historical examples, compress toward the lecture thesis, avoid links and internal jargon, and stay thematically arced when multiple comments are produced together.
+description: "Draft high-density Predictive History Civilization YouTube comments as public proof objects rather than repo doorways. Use when the operator wants comments on civ-* lectures that demonstrate unusual civilizational-statecraft reading power in one paragraph, especially for sequential waves such as civ-01 to civ-06. Require concrete historical reasoning: each comment must argue from at least two specific historical examples, compress toward the lecture thesis, avoid links and internal jargon, and stay thematically arced when multiple comments are produced together."
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # ph-civ-comment-proof-objects
 
 Use this skill when drafting `ph-civ` Civilization YouTube comments that are meant to prove analytical capability in public.

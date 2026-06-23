@@ -3,6 +3,9 @@ name: state-note
 description: Promote one bounded statecraft argument from chat, daily synthesis, multi-lens comparison, or archive intake into a reusable statecraft/notes/ object without overpromoting into daily shelf or essay. Use when the operator says state-note, promote to statecraft note, statecraft note, or when a comparison seam or mechanism should survive outside chat with source-archive anchors and citation splits.
 portable: true
 version: 0.1.0
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
@@ -10,7 +13,6 @@ tags:
   - promotion
   - synthesis
 ---
-
 # State Note
 
 Use this skill when one statecraft argument has become **reusable enough to stand alone as a note**, but not yet broad or settled enough for repo-root essay or the full daily shelf.

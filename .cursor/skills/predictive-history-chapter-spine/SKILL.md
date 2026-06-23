@@ -1,8 +1,10 @@
 ---
 name: predictive-history-chapter-spine
 description: Materialize or extend Predictive History chapter spines from a transfer authority into the canonical repo. Use when creating new chapter batches, importing transcripts, wiring corpus entries, commentary placeholders, PH-CIV entries, manifests, and public navigation for predictive-history.
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # Predictive History Chapter Spine
 
 Use this skill when adding or extending chapter batches in

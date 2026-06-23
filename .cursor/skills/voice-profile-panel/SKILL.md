@@ -1,9 +1,13 @@
 ---
 name: voice-profile-panel
-preferred_activation: voice profile panel
 description: 'QA voice profiles through solo smoke lines and sequential fictional roundtables: read Tier A statecraft/voices profiles, enforce orthogonality vs triad SSOT, run Family 8 spot-checks, and apply anti-AI panel checklist. Triggers: voice profile panel, voice panel, profile smoke test, triad roundtable demo. Not tri-mind; not Record merge.'
+preferred_activation: voice profile panel
+activation: voice profile panel
 portable: true
 version: 0.1.0
+category: product-narrative
+status: active
+scope_class: repo-governed
 tags:
 - statecraft
 - voices

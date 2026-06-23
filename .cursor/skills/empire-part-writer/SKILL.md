@@ -1,14 +1,12 @@
 ---
 name: empire-part-writer
+description: "Write or refine Part 2 empire essays in statecraft/states, especially `empire-<civ>.md` chapters. Use when the operator wants the outward-instrument chapter of a CIV-STATE volume: machinery-first, severe-strategic, centered on projection stack, coercion within broader carriage, tragic necessity, and a present-tense imperial instrument rather than a conquest chronicle."
 preferred_activation: empire-part-writer
-description: >-
-  Write or refine Part 2 empire essays in statecraft/states, especially
-  `empire-<civ>.md` chapters. Use when the operator wants the outward-instrument
-  chapter of a CIV-STATE volume: machinery-first, severe-strategic, centered on
-  projection stack, coercion within broader carriage, tragic necessity, and a
-  present-tense imperial instrument rather than a conquest chronicle.
+activation: empire-part-writer
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # Empire Part Writer
 
 Use this skill to write the Part 2 `empire-<civ>.md` layer as the outward-instrument chapter of a CIV-STATE volume.

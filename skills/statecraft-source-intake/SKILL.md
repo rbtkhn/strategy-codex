@@ -1,9 +1,12 @@
 ---
 name: statecraft-source-intake
-preferred_activation: source-intake
 description: "Manual invoke: source-intake. Land operator transcripts via sidecar Write + land_statecraft_source_body.py (Windows-safe). Also: statecraft source intake, statecraft daily intake. Not for synthesis or YouTube fetch."
+preferred_activation: source-intake
+activation: source-intake
 portable: true
 version: 0.4.12
+category: truth-pipeline
+status: active
 scope_class: repo-governed
 tags:
   - operator
@@ -11,7 +14,6 @@ tags:
   - source-archive
   - transcript
 ---
-
 # Source intake (`source-intake`)
 
 **Manual activation (operator):** say **`source-intake`** — one hyphenated token; runs § Default execution order first (sidecar land, no archive template reads).

@@ -1,12 +1,9 @@
 ---
 name: fast-tools-finish
-status: draft-pointer
-description: >-
-  Recovery after Cursor harness timeout on Windows: Read/Write first, one Shell
-  per intent, no parallel Grep/Glob. Trigger: fast tools, read only, fast tools
-  and finish <task>.
+description: "Recovery after Cursor harness timeout on Windows: Read/Write first, one Shell per intent, no parallel Grep/Glob. Trigger: fast tools, read only, fast tools and finish <task>."
+category: domain-pack
+status: draft
 ---
-
 # fast-tools-finish (draft pointer)
 
 **Shipped elsewhere (2026-06-12):**

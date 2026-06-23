@@ -1,9 +1,13 @@
 ---
 name: repo-feedback-prompt
-preferred_activation: repo feedback prompt
 description: Compose short, constructive prompts (issues/DMs) for maintainers of external GitHub repos after verifying upstream docs—non-redundant, high-leverage asks, respectful tone, optional PR offer.
+preferred_activation: repo feedback prompt
+activation: repo feedback prompt
 portable: true
 version: 1.1.0
+category: operator-coherence
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - work-dev
@@ -87,15 +91,4 @@ Subject: <repo or feature> — <one-line theme: doc suggestion / security framin
 
 ## Cursor / strategy-codex instance
 
-Grace-mar paths and discovery ladder (from `.cursor/skills/repo-feedback-prompt/`).
-
-| Topic | Path |
-|--------|------|
-| Portable core | [skills/repo-feedback-prompt/SKILL.md](../../../skills/repo-feedback-prompt/SKILL.md) |
-| Manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
-| Sync | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
-| Skill candidates / backlog | [skills/skill-candidates.md](../../../skills/skill-candidates.md) |
-| Portable skills README (ladder) | [skills/README.md](../../../skills/README.md) |
-| Extract session → skill | [.cursor/skills/extract-skill-from-session/SKILL.md](../extract-skill-from-session/SKILL.md) |
-
-**Example operator reuses** (verify → gap table → outbound prompt): Missouri (`chrisvoncsefalvay/missouri`) — adversarial trust / `__moDispatch` on untrusted pages; Agent-Matrix (`l0r3zz/agent-matrix`) — comparative tone vs attribute-based positioning; README typo nits.
+_(appendix missing: .cursor/skills/repo-feedback-prompt/CURSOR_APPENDIX.md)_

@@ -1,10 +1,12 @@
 ---
 name: bridge
-preferred_activation: bridge
-requires: [handoff-check]
 description: "Session-scale handoff ritual for the current workspace. Primary trigger: bridge. Before Step 1, synthesize the previous four cadence events into Recent rhythm prose. Assess the current repo first, recommend whether it needs commit/push, seal the agreed scope, and generate a structured transfer prompt for a fresh session or thread. In strategy-codex, bridge is codex-only by default and must stay current-workspace unless the operator explicitly broadens scope."
+preferred_activation: bridge
+activation: bridge
+category: operator-coherence
+status: active
+scope_class: repo-governed
 ---
-
 # Bridge
 
 **Preferred activation (operator):** say the exact phrase **`bridge`**. **Aliases:** **`session handoff`**, **`close session`**, **`transfer`**.

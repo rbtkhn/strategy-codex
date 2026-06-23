@@ -1,0 +1,119 @@
+"""Shared category/status maps for skill consolidation (Commit 1–2)."""
+
+from __future__ import annotations
+
+CATEGORY_VALUES = frozenset({
+    "truth-pipeline",
+    "operator-coherence",
+    "judgment-enhancement",
+    "domain-pack",
+    "product-narrative",
+    "legacy-redirect",
+})
+
+STATUS_VALUES = frozenset({
+    "active",
+    "merged",
+    "redirect",
+    "draft",
+    "archived",
+    "deprecated",
+})
+
+_TRUTH = [
+    "statecraft-source-intake", "source-clean", "transcript-cleanup",
+    "transcript-proper-noun-normalization", "youtube-raw-input-transcript",
+    "check-sources", "news-verify", "state-note", "state-synthesis",
+    "packet-before-synthesis", "validator-first", "fact-check",
+]
+_OPERATOR = [
+    "memory", "recursive-learn", "repo-hygiene-pass", "portable-skills-sync",
+    "extract-skill-from-session", "repo-feedback-prompt", "dream", "bridge", "harvest",
+]
+_JUDGMENT = [
+    "statecraft-framework", "statecraft-multi-lens", "statecraft-helix-synthesis",
+    "primary-overhearing-analysis", "statecraft-intelligence-essay", "monthly-deepening",
+    "last30days", "tufte-data-viz", "singularity-monthly-synthesis", "singularity-note-promotion",
+]
+_DOMAIN = [
+    "civ-state", "civ-state-note", "civ-state-essay", "civ-state-volume-harden",
+    "civ-state-primary-text-acquisition", "politics-massie", "jurisdiction-campaign-history",
+    "work-jiang-ingest-fallback", "state-america", "state-china", "state-persia", "state-russia",
+    "state-deploy", "civ-state-volume-architect", "america-art", "america-lit", "china-art",
+    "china-lit", "iran-art", "iran-lit", "russia-art", "russia-god", "russia-lit",
+    "skill-cici", "skill-jiang", "skill-write", "weekly-brief-run", "work-jiang-feature-checklist",
+    "anyang-ai", "brewmind-governed-steward", "hn-bookshelf-lookup", "statecraft-bridge",
+    "statecraft-lane-intake-router", "speaker-shelf-hygiene", "speaker-structural-continuity",
+    "speaker-relations-membrane", "skill-elicitation",
+    "strategy-notebook-lane-split", "lane-survey", "pros-and-cons",
+]
+_PRODUCT = [
+    "product-strategy", "first-wave-service-sales",
+    "arc-to-chapter-seeds", "voice-profile-panel", "skill-narrative", "academy-mirror-sync",
+    "ph-civ-comment-proof-objects", "ph-civ-orientation-harden", "ph-civ-to-civ-state-promoter",
+    "predictive-history-chapter-spine", "civilization-part-writer", "empire-part-writer",
+    "statecraft-guidebook-writer",
+]
+_REDIRECT = [
+    "wire-verify", "check-streams", "cognition-streams",
+    "strategy-notebook-expert-cross-weave", "strategy-notebook-guest-canon-note",
+    "tri-mind", "conductor", "elicit-knowledge", "gate-review-pass", "thanks",
+    "ideation-engine", "mtp", "abundance-native-ventures",
+]
+
+CATEGORY_MAP: dict[str, str] = {}
+STATUS_MAP: dict[str, str] = {}
+REPLACEMENT_MAP: dict[str, str] = {}
+REVIEW_DATE_MAP: dict[str, str] = {}
+
+for n in _TRUTH:
+    CATEGORY_MAP[n] = "truth-pipeline"
+    STATUS_MAP[n] = "active"
+for n in _OPERATOR:
+    CATEGORY_MAP[n] = "operator-coherence"
+    STATUS_MAP[n] = "active"
+for n in _JUDGMENT:
+    CATEGORY_MAP[n] = "judgment-enhancement"
+    STATUS_MAP[n] = "active"
+for n in _DOMAIN:
+    CATEGORY_MAP[n] = "domain-pack"
+    STATUS_MAP[n] = "active"
+for n in _PRODUCT:
+    CATEGORY_MAP[n] = "product-narrative"
+    STATUS_MAP[n] = "active"
+for n in _REDIRECT:
+    CATEGORY_MAP[n] = "legacy-redirect"
+    STATUS_MAP[n] = "redirect"
+
+REPLACEMENT_MAP.update({
+    "wire-verify": "news-verify",
+    "check-streams": "check-sources",
+    "cognition-streams": "check-sources",
+    "strategy-notebook-expert-cross-weave": "strategy-notebook-expert-cross-weave",
+    "strategy-notebook-guest-canon-note": "strategy-notebook-guest-canon-note",
+    "tri-mind": "statecraft-multi-lens",
+    "conductor": "coffee",
+    "elicit-knowledge": "fork-revive",
+    "gate-review-pass": "fork-revive",
+    "thanks": "archive",
+    "civ-state-volume-architect": "civ-state",
+    "ideation-engine": "product-strategy",
+    "mtp": "product-strategy",
+    "abundance-native-ventures": "product-strategy",
+})
+
+REVIEW_DATE_MAP.update({
+    "wire-verify": "2026-12-31",
+    "check-streams": "2026-12-31",
+    "cognition-streams": "2026-12-31",
+    "strategy-notebook-expert-cross-weave": "2026-12-31",
+    "strategy-notebook-guest-canon-note": "2026-12-31",
+    "tri-mind": "2026-12-31",
+    "conductor": "2026-12-31",
+    "elicit-knowledge": "2026-12-31",
+    "gate-review-pass": "2026-12-31",
+    "thanks": "2026-12-31",
+    "ideation-engine": "2026-12-31",
+    "mtp": "2026-12-31",
+    "abundance-native-ventures": "2026-12-31",
+})

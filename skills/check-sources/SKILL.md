@@ -1,9 +1,13 @@
 ---
 name: check-sources
+description: Check the main channel-index YouTube roster (channel-index.json SSOT; misc excluded) for live discovery, repo reconciliation, clip filtering, and handoff to source-intake. Use check sources watchlist for the six daily_watchlist channels. Legacy check streams and cognition streams remain compatibility aliases.
 preferred_activation: check sources
-description: "Check the main channel-index YouTube roster (channel-index.json SSOT; misc excluded) for live discovery, repo reconciliation, clip filtering, and handoff to source-intake. Use check sources watchlist for the six daily_watchlist channels. Legacy check streams and cognition streams remain compatibility aliases."
+activation: check sources
 portable: true
 version: 1.0.0
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - strategy
@@ -14,7 +18,6 @@ tags:
 portable_source: skills/check-sources/SKILL.md
 synced_by: sync_portable_skills.py
 ---
-
 # Check sources
 
 **Preferred activation (operator):** say **`check sources`**.

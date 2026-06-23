@@ -1,16 +1,19 @@
 ---
 name: civ-state
+description: Open CIV-STATE as the upstream analysis bench for frame judgment, retrieval, membrane promotion, and review. Use when the operator says civ-state, statecraft civ-state, or needs a fixed A-D CIV-STATE menu with a live recommendation rather than explicit book-writing.
 preferred_activation: civ-state
-description: "Open CIV-STATE as the upstream analysis bench for frame judgment, retrieval, membrane promotion, and review. Use when the operator says civ-state, statecraft civ-state, or needs a fixed A-D CIV-STATE menu with a live recommendation rather than explicit book-writing."
+activation: civ-state
 portable: true
 version: 0.2.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
   - civ-state
   - architecture
 ---
-
 # CIV-STATE
 
 **WORK only; not Record.**
@@ -178,6 +181,22 @@ Offer **one line** only when the branch actually shipped structural change:
 | One bounded mechanism seam ready for notes shelf | *One mechanism seam ready — say `civ-state-note` when CIV-STATE retrieve is load-bearing, else `state-note`.* |
 
 Do not offer publish unless operator said **ship**, **publish**, or **VERSION**.
+
+## Domain pack
+
+CIV-STATE sub-skills and runbooks (invoke entry skill first):
+
+| Surface | Activation | Role |
+|---------|------------|------|
+| **civ-state** (this skill) | `civ-state` | Entry / A–D menu |
+| **civ-state-note** | `civ state note` | Mechanism note with retrieve posture |
+| **civ-state-essay** | `civ state essay` | Reader-facing prose route |
+| **civ-state-primary-text.runbook.md** | `runbook civ state primary text` | Primary text acquisition chain |
+| **civ-state-volume-hardening.runbook.md** | `runbook civ state harden` | Volume hardening chain |
+| **civ-state-primary-text-acquisition** | skill primitive | Used by primary-text runbook |
+| **civ-state-volume-harden** | skill primitive | Used by hardening runbook |
+
+Runbook-first for acquisition and hardening; keep skills as primitives.
 
 ## Related operations
 

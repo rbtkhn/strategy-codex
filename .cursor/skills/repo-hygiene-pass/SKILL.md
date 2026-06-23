@@ -1,9 +1,13 @@
 ---
 name: repo-hygiene-pass
-preferred_activation: hygiene pass
 description: 'Run a commit-grouping hygiene pass: split changes by intent, stage one bucket at a time, and keep scratch noise out of production commits.'
+preferred_activation: hygiene pass
+activation: hygiene pass
 portable: true
 version: 0.2.0
+category: operator-coherence
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - work-dev
@@ -79,18 +83,4 @@ Use when a grouped commit needs correction without history rewrite:
 
 ## Cursor / strategy-codex instance
 
-Grace-mar paths and command notes for this repository (from `.cursor/skills/repo-hygiene-pass/`).
-
-| Topic | Path |
-|--------|------|
-| Portable manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
-| Skill backlog | [skills/skill-candidates.md](../../../skills/skill-candidates.md) |
-| Sync implementation | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
-| Work-dev module | [docs/skill-work/work-dev/README.md](../../../docs/skill-work/work-dev/README.md) |
-| Git lane conventions | [docs/operator-agent-lanes.md](../../../docs/operator-agent-lanes.md) |
-
-**Commit grouping reminder:** split by intent first, then by destination; keep local scratch dirs in `.git/info/exclude` unless the operator asks for a tracked ignore.
-
-**Push-prep quick check:** `git status -sb` then `git log --oneline origin/main..HEAD` before `git push origin main`.
-
-**Rollback-safe default:** prefer follow-up fix commits or `git revert` on shared branches; avoid reset/force unless explicitly requested.
+_(appendix missing: .cursor/skills/repo-hygiene-pass/CURSOR_APPENDIX.md)_

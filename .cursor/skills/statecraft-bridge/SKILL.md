@@ -1,9 +1,12 @@
 ---
 name: statecraft-bridge
+description: Bridge a live speaker claim into the correct Persia/Iran CIV-STATE retrieval profile. Use when the operator says statecraft-bridge, bridge a speaker claim, recognition-first vs settlement-first, or needs a Marandi-vs-Parsi retrieval choice before Persia/Iran statecraft drafting.
 preferred_activation: statecraft-bridge
-description: "Bridge a live speaker claim into the correct Persia/Iran CIV-STATE retrieval profile. Use when the operator says statecraft-bridge, bridge a speaker claim, recognition-first vs settlement-first, or needs a Marandi-vs-Parsi retrieval choice before Persia/Iran statecraft drafting."
+activation: statecraft-bridge
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Statecraft Bridge
 
 `statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is a retrieval-conditioning surface, not an ownership surface. It is not a fifth lane, not a general coffee submenu, and not a substitute for `state-deploy` or `state-persia`.

@@ -1,8 +1,10 @@
 ---
 name: ph-civ-orientation-harden
 description: Create or harden PH-CIV public orientation entries in Predictive History. Use when updating corpus/ph-civ entries, preserving reader-facing placement, limits, return paths, and internal-scaffold-free public navigation.
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # PH-CIV Orientation Harden
 
 Use this skill when creating or refining `corpus/ph-civ/` entries, route

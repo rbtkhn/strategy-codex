@@ -1,9 +1,11 @@
 ---
 name: academy-statecraft-drafting
+description: Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for statecraft, academy-statecraft (compatibility alias), state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, folder choreography, civilization / empire / state / helix, and Richelieu/Bismarck prompts.
 preferred_activation: statecraft
-description: "Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for statecraft, academy-statecraft (compatibility alias), state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, folder choreography, civilization / empire / state / helix, and Richelieu/Bismarck prompts."
 portable: true
 version: 0.1.0-draft
+category: domain-pack
+status: draft
 tags:
   - draft
   - work-strategy
@@ -11,7 +13,6 @@ tags:
   - drafting
   - speaker-state
 ---
-
 # Statecraft drafting
 
 Use this draft skill when the operator asks for:

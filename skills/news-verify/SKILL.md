@@ -1,15 +1,19 @@
 ---
 name: news-verify
+description: "Triage tier-3 contemporary reported claims (news media, official releases, attributed desk lines) in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: news verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check."
 preferred_activation: news verify
-description: 'Triage tier-3 contemporary reported claims (news media, official releases, attributed desk lines) in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: news verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check.'
+activation: news verify
 portable: true
 version: 1.6.0
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 tags:
-- verification
-- statecraft
-- singularity
-- strategy
-- provenance
+  - verification
+  - statecraft
+  - singularity
+  - strategy
+  - provenance
 portable_source: skills/news-verify/SKILL.md
 synced_by: sync_portable_skills.py
 ---

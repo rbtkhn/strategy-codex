@@ -1,9 +1,12 @@
 ---
 name: skill-elicitation
-preferred_activation: elicit
 description: "Bounded elicitation pass extracting tacit operator knowledge into five structured WORK files (rhythm, decisions, dependencies, friction, thresholds). Review-first; not Record truth. Upstream model: OB1 Work Operating Model Activation."
+preferred_activation: elicit
+activation: elicit
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Elicitation (operator knowledge extraction)
 
 **Preferred activation (operator):** say the exact phrase **`elicit`**. **Aliases:** **`elicit [layer]`**, **`elicitation pass`**.

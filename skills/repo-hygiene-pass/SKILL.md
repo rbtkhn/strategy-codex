@@ -1,15 +1,18 @@
 ---
 name: repo-hygiene-pass
-preferred_activation: hygiene pass
 description: "Run a commit-grouping hygiene pass: split changes by intent, stage one bucket at a time, and keep scratch noise out of production commits."
+preferred_activation: hygiene pass
+activation: hygiene pass
 portable: true
 version: 0.2.0
+category: operator-coherence
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-dev
   - git
 ---
-
 # Repo Hygiene Pass
 
 **Preferred activation (operator):** say **`hygiene pass`**.

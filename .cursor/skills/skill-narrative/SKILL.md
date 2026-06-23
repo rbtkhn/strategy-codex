@@ -1,9 +1,13 @@
 ---
 name: skill-narrative
-preferred_activation: narrative loop
 description: Compile rolling daily briefs into a convergence-led narrative with content outputs and explicit accept/defer/reject decisions for recursive learning.
+preferred_activation: narrative loop
+activation: narrative loop
 portable: true
 version: 0.1.0
+category: product-narrative
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - work-strategy

@@ -1,9 +1,12 @@
 ---
 name: anyang-ai
-preferred_activation: anyang-ai
 description: "Localize the cici-ai cohort pattern for Anyang, China: family learning cell, WeChat + Gitee + domestic AI stack, Foundation/Builder lanes, philanthropist calibration, sponsor pitch artifacts, skills rubric, and renewal gates. Use when the operator says anyang-ai, localize cici-ai, singularity cohort launch China, family AI community Anyang, or sponsor calibration for the Anyang pilot."
+preferred_activation: anyang-ai
+activation: anyang-ai
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # anyang-ai — localized singularity cohort (WORK)
 
 **Primary triggers:** **`anyang-ai`**, **`localize cici-ai`**, **`singularity cohort launch`** (China / Anyang context), **`family AI community`**, **`sponsor calibration`** (Anyang pilot).

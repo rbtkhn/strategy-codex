@@ -1,9 +1,12 @@
 ---
 name: state-persia
+description: Open the Persia statecraft lane directly. Use when the operator says state-persia, Persia state skill, Iran state skill, or wants the Iran/Persia lane to carry a statecraft object through dignity, sovereignty, recognition, anti-humiliation continuity, leverage under pressure, or verification without humiliation.
 preferred_activation: state-persia
-description: "Open the Persia statecraft lane directly. Use when the operator says state-persia, Persia state skill, Iran state skill, or wants the Iran/Persia lane to carry a statecraft object through dignity, sovereignty, recognition, anti-humiliation continuity, leverage under pressure, or verification without humiliation."
+activation: state-persia
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # State Persia
 
 `state-persia` is the primary Persia lane machine. It maps to the Iran lane on disk and is `README`-first and `helix`-default.

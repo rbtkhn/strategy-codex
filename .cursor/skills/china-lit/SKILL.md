@@ -1,9 +1,12 @@
 ---
 name: china-lit
-preferred_activation: china-lit
 description: "Apply the China civilization literature lens to statecraft problems. Use when the operator says china-lit, China lit, Chinese literature lens, or asks to test a China current event, transaction, clause, policy question, or settlement language through Chinese narrative memory: sages, order, harmony, disorder memory, patience, face, moral language, witness, classics, or clause-language stress tests."
+preferred_activation: china-lit
+activation: china-lit
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # China Lit
 
 `china-lit` is a WORK-only academy-statecraft command. It applies China's civilization `lit.md` surface to operational statecraft judgment.

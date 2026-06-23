@@ -1,9 +1,11 @@
 ---
 name: ritter-warning-extraction
-preferred_activation: ritter-warning
 description: "Draft workflow for extracting Scott Ritter's authored and interview warnings into disciplined quote cards, operational mechanisms, escalation paths, authority-carrier reads, falsifiers, comparative speaker reads, and statecraft inputs. Use for Ritter recent streams, Ritter quotes, Ritter on Putin/Zelensky/Trump/Lavrov/Khamenei, Karaganov/Ritter split, Ritter compared to another speaker, Ritter warning, Ritter host lanes, Russia/NATO escalation, operational feasibility, force constraints, and what can we learn/use from Ritter."
+preferred_activation: ritter-warning
 portable: true
 version: 0.1.0-draft
+category: domain-pack
+status: draft
 tags:
   - draft
   - work-strategy
@@ -11,7 +13,6 @@ tags:
   - speaker-state
   - statecraft
 ---
-
 # Ritter warning extraction
 
 Use this draft skill when the operator asks for Ritter-specific extraction, especially:

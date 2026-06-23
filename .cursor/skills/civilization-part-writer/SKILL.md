@@ -1,15 +1,12 @@
 ---
 name: civilization-part-writer
+description: "Write or refine Part 1 civilization essays in statecraft/states, especially `civilization-<civ>.md` chapters. Use when the operator wants the legitimacy-bearing opening of a CIV-STATE volume: operator-orienting, continuity-backed, high-metaphysical but governed, beauty-and-form aware, and closed by a present-tense continuity claim rather than a generic history survey."
 preferred_activation: civilization-part-writer
-description: >-
-  Write or refine Part 1 civilization essays in statecraft/states,
-  especially `civilization-<civ>.md` chapters. Use when the operator wants the
-  legitimacy-bearing opening of a CIV-STATE volume: operator-orienting,
-  continuity-backed, high-metaphysical but governed, beauty-and-form aware, and
-  closed by a present-tense continuity claim rather than a generic history
-  survey.
+activation: civilization-part-writer
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # Civilization Part Writer
 
 Use this skill to write the Part 1 `civilization-<civ>.md` layer as the legitimacy-bearing opening of a CIV-STATE volume.

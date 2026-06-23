@@ -1,15 +1,17 @@
 ---
 name: portable-skills-sync
-preferred_activation: sync skills
 description: "Sync portable skill cores into generated host Cursor SKILL.md files: manifest-driven assembly, optional host appendix, verify step before write. Triggers: skills-portable edit, manifest.yaml, CURSOR_APPENDIX, portable pipeline, run sync, verify portable skills."
+preferred_activation: sync skills
+activation: sync skills
 portable: true
 version: 1.1.0
+category: operator-coherence
+status: active
 scope_class: repo-governed
 tags:
   - operator
   - work-dev
 ---
-
 # Portable skills — sync to Cursor (host)
 
 **Preferred activation (operator):** say **`sync skills`**.

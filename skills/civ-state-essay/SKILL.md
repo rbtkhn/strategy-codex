@@ -1,17 +1,19 @@
 ---
 name: civ-state-essay
+description: Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake.
 preferred_activation: civ-state essay
-description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
+activation: civ-state essay
 portable: true
 version: 0.2.7
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-strategy
   - civ-state
   - prose
-scope_class: repo-governed
 ---
-
 # CIV-STATE Essay
 
 **WORK only; not Record.**

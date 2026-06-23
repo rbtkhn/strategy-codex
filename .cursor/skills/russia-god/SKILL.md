@@ -1,9 +1,12 @@
 ---
 name: russia-god
-preferred_activation: russia-god
 description: "Apply the Russia sacred-boundary lens to statecraft problems. Use when the operator says russia-god, Russia god, Russia sacred boundary, or asks to test a Russia current event, transaction, clause, policy question, or settlement language through sacred legitimacy: Orthodoxy, Rus inheritance, holy endurance, suffering/redemption, civilizational sovereignty, managed-periphery refusal, humiliation, forbidden bargains, sacred-safe clauses, or transaction stress tests."
+preferred_activation: russia-god
+activation: russia-god
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Russia God
 
 `russia-god` is a WORK-only academy-statecraft command. It applies Russia's civilization `god.md` surface to operational statecraft judgment.

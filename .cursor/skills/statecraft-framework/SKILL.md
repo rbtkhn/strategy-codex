@@ -1,9 +1,13 @@
 ---
 name: statecraft-framework
-preferred_activation: statecraft-framework
 description: Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing term named first (civilization, empire, entropy, faith, science, or memory), then memory rhythm/era sections when motion or shelf choice governs, dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting.
+preferred_activation: statecraft-framework
+activation: statecraft-framework
 portable: true
 version: 0.2.2
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - statecraft

@@ -1,11 +1,12 @@
 ---
 name: fact-check
+description: "Triage-first fact check: fast web pass on operator-pasted claims with lean verdicts (supported / contradicted / unclear / out of scope), one solid cite per claim when possible, high abstention; include native/foreign-language official sources (e.g. Persian, Chinese, Russian) when claims are regime- or institution-attributed. Escalation flags when deeper audit is needed. Not Record merge unless gated."
 preferred_activation: fact check
-description: >-
-  Triage-first fact check: fast web pass on operator-pasted claims with lean verdicts (supported / contradicted / unclear / out of scope),
-  one solid cite per claim when possible, high abstention; include native/foreign-language official sources (e.g. Persian, Chinese, Russian) when claims are regime- or institution-attributed. Escalation flags when deeper audit is needed. Not Record merge unless gated.
+activation: fact check
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 ---
-
 # Fact check (operator)
 
 **Preferred activation (operator):** say the exact phrase **`fact check`**. **Aliases:** **`verify this`**, **`check this claim`**.

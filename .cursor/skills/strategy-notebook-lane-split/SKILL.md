@@ -1,15 +1,18 @@
 ---
 name: strategy-notebook-lane-split
-preferred_activation: lane split
 description: Build two strategy-notebook refined pages (host + guest, or A/B expert lanes) from a single multi-expert raw-input transcript, with a shared filename slug, cross-links, and lane-distinct Verbatim. WORK lane, strategy-notebook. Use when the operator says lane split, two-lane refined page, or multi-expert same raw two pages.
+preferred_activation: lane split
+activation: lane split
 portable: false
 version: 0.1.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
-- operator
-- work-strategy
-- strategy-notebook
+  - operator
+  - work-strategy
+  - strategy-notebook
 ---
-
 # Strategy notebook — multi-expert lane split (refined pages)
 
 **Preferred activation (operator):** say the exact phrase **`lane split`**. **Aliases:** **`two-lane refined page`**, **`host + guest refined pages`**, or naming both **`expert_id`s** and the same **`pub_date`**.

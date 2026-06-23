@@ -1,9 +1,12 @@
 ---
 name: lane-survey
-preferred_activation: survey
 description: "Structured landscape scan before building a new work territory. Borrowed from the AI Innovation Radar's baseline-before-building discipline. Use when starting a new lane, evaluating an adjacent tool/framework, or when the operator says 'survey [lane]' or 'lane survey'. Template-portable."
+preferred_activation: survey
+activation: survey
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Lane Survey
 
 **Preferred activation (operator):** say the exact phrase **`lane survey`**. **Alternate form:** **`survey [lane-name]`**.

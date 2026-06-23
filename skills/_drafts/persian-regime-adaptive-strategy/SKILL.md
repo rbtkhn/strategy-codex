@@ -1,16 +1,17 @@
 ---
 name: persian-regime-adaptive-strategy
+description: Apply Persian civilizational regime-switching patterns (tolerance, parity, compression) to operator strategy work.
 preferred_activation: regime strategy
-description: "Apply Persian civilizational regime-switching patterns (tolerance, parity, compression) to operator strategy work."
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - work-strategy
   - civilizational-memory
   - meta-strategy
 ---
-
 # Persian Regime-Adaptive Strategy
 
 **Preferred activation (operator):** say **`regime strategy`**. **Aliases:** **`persian strategy`**, **`regime switch`**.

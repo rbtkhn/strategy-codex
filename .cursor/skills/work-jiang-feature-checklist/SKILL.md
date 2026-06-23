@@ -1,14 +1,12 @@
 ---
 name: work-jiang-feature-checklist
+description: "Structured workflow for Predictive History boundary maintenance and legacy Jiang-lane references inside strategy-codex: branch hygiene, scope boundaries, verify commands, and commit granularity aligned to plan phases. Use when starting or closing a Jiang-related boundary thread, touching scripts/work_jiang guardrails, or reviewing frozen local PH residue."
 preferred_activation: jiang check
-description: >-
-  Structured workflow for Predictive History boundary maintenance and legacy
-  Jiang-lane references inside strategy-codex: branch hygiene, scope
-  boundaries, verify commands, and commit granularity aligned to plan phases.
-  Use when starting or closing a Jiang-related boundary thread, touching
-  scripts/work_jiang guardrails, or reviewing frozen local PH residue.
+activation: jiang check
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # work-jiang feature checklist
 
 This skill is now for **boundary maintenance, review, and historical reference only** inside `strategy-codex`. Canonical writable Predictive History work belongs in [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history); local `codex/predictive-history/` paths are frozen migration residue unless the task is explicitly about docs, validators, or legacy-reference inspection.

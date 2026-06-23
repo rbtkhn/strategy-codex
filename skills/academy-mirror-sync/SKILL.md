@@ -1,17 +1,24 @@
 ---
 name: academy-mirror-sync
+description: Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as public/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer.
 preferred_activation: academy-mirror-sync
-description: "Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as public/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer."
+activation: academy-mirror-sync
 portable: true
 version: 0.1.0
+category: product-narrative
+status: archived
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
   - operator
   - work-strategy
   - git
   - academy
+  - archived
 ---
-
 # Academy Mirror Sync
+
+**Status:** **Archived** — use only when operator explicitly maintains academy mirror folders.
 
 Use this skill to verify that an academy mirror folder, its remote repository, and the parent `strategy-codex` pointer all agree.
 

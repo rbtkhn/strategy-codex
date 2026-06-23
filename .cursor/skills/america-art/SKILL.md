@@ -1,9 +1,12 @@
 ---
 name: america-art
-preferred_activation: america-art
 description: "Apply the America civilization art lens to statecraft problems. Use when the operator says america-art, America art, American art lens, or asks to test an America current event, transaction, clause, policy question, or settlement language through American aesthetic memory: visual art, music, architecture, sculpture, monument, performance, civic ritual, mass culture, landscape/frontier, industrial modernity, technological confidence, spectacle, credibility theater, or transaction stress tests."
+preferred_activation: america-art
+activation: america-art
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # America Art
 
 `america-art` is a WORK-only academy-statecraft command. It applies America's civilization art surface to operational statecraft judgment.

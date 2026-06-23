@@ -3,6 +3,9 @@ name: civ-state-primary-text-acquisition
 description: Acquire, classify, and stage CIV-STATE primary-source text through a rights-first, witness-first workflow. Use when the operator wants source records, excerpt collections, lawful full-text sidecars, or witness-locking discipline for civilization-state primary sources.
 portable: true
 version: 0.1.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - statecraft

@@ -1,9 +1,12 @@
 ---
 name: iran-art
-preferred_activation: iran-art
 description: "Apply the Iran civilization art lens to statecraft problems. Use when the operator says iran-art, Iran art, Persian art lens, or asks to test an Iran current event, transaction, clause, policy question, or settlement language through Iranian/Persian aesthetic memory: architecture, garden, sculpture, relief, miniature, calligraphy, music, sacred geometry, shrine, city, imperial form, Shi'a visual memory, beauty as endurance, dignity, recognition, or transaction stress tests."
+preferred_activation: iran-art
+activation: iran-art
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Iran Art
 
 `iran-art` is a WORK-only academy-statecraft command. It applies Iran's civilization art surface to operational statecraft judgment.

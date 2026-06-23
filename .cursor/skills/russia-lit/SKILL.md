@@ -1,9 +1,12 @@
 ---
 name: russia-lit
-preferred_activation: russia-lit
 description: "Apply the Russia civilization literature lens to statecraft problems. Use when the operator says russia-lit, Russia lit, Russian literature lens, or asks to test a Russia current event, transaction, clause, policy question, or settlement language through Russian narrative memory: humiliation, endurance, suffering, witness, recognition, state-soul language, grievance, or clause-language stress tests."
+preferred_activation: russia-lit
+activation: russia-lit
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Russia Lit
 
 `russia-lit` is a WORK-only academy-statecraft command. It applies Russia's civilization `lit.md` surface to operational statecraft judgment.

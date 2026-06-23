@@ -1,14 +1,12 @@
 ---
 name: statecraft-lane-intake-router
+description: Open transcript-grounded intake menus for repo-root statecraft lanes before helix, state, bridge, or transaction drafting. Use when the operator enters America, China, Persia, or Russia statecraft and the next honest move is to choose the governing transcript-bearing intake family rather than jump straight to polished lane surfaces.
 preferred_activation: statecraft-lane-intake-router
-description: >-
-  Open transcript-grounded intake menus for repo-root statecraft lanes before
-  helix, state, bridge, or transaction drafting. Use when the operator enters
-  America, China, Persia, or Russia statecraft and the next honest move is to
-  choose the governing transcript-bearing intake family rather than jump
-  straight to polished lane surfaces.
+activation: statecraft-lane-intake-router
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Statecraft Lane Intake Router
 
 Use this skill when a statecraft lane is already known, but the lane still needs a truthful first intake menu.

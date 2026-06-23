@@ -1,9 +1,11 @@
 ---
 name: cici-ai-daily-brief
-preferred_activation: cici daily brief
 description: "Generate a daily Telegram-ready operating brief for a beginner-heavy cohort: bounded sources, confidence-tagged movement, digest layer versus public layer, one concrete reply ask, and graceful narrowing when evidence is thin."
+preferred_activation: cici daily brief
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - reporting
@@ -12,7 +14,6 @@ tags:
   - beginner-onboarding
   - confidence
 ---
-
 # cici-ai daily brief
 
 **Preferred activation (operator):** say **`cici daily brief`**. **Aliases:** **`team daily brief`**, **`Telegram operating brief`**, **`cohort brief`**.

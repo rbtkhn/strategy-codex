@@ -1,19 +1,22 @@
 ---
 name: transcript-proper-noun-normalization
+description: DEPRECATED 2026-06-21. Redirect to source-clean for statecraft archive captures. Legacy alias for post-land ASR/proper-noun normalization.
 preferred_activation: proper noun normalization
-description: 'DEPRECATED 2026-06-21. Redirect to source-clean for statecraft archive captures. Legacy alias for post-land ASR/proper-noun normalization.'
+activation: proper noun normalization
 portable: true
 version: 0.2.0
-deprecated: 2026-06-21
-see: skills/source-clean/SKILL.md
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 tags:
   - transcript
   - raw-input
   - quality
   - cleanup
   - deprecated
+deprecated: 2026-06-21
+see: skills/source-clean/SKILL.md
 ---
-
 # DEPRECATED — Transcript proper-noun normalization
 
 **Status:** Deprecated **2026-06-21**. For landed **`source-archive/statecraft/**/source-*.md`** captures, use **[`source-clean`](../source-clean/SKILL.md)** instead.

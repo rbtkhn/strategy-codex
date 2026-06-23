@@ -1,13 +1,12 @@
 ---
 name: speaker-shelf-hygiene
+description: "Audit or repair a strategy-codex speaker shelf when the work is about person arcs, routing stacks, month support, raw-input benches, compatibility residue, or citation hygiene. Use for requests like \"audit the ritter-arc\", \"compare freeman/parsi/ritter\", \"align these arcs\", \"what are the thinnest months\", or \"make sure nothing is wrongly excluded from the arc\"."
 preferred_activation: speaker shelf
-description: >-
-  Audit or repair a strategy-codex speaker shelf when the work is about person
-  arcs, routing stacks, month support, raw-input benches, compatibility residue,
-  or citation hygiene. Use for requests like "audit the ritter-arc", "compare
-  freeman/parsi/ritter", "align these arcs", "what are the thinnest months", or
-  "make sure nothing is wrongly excluded from the arc".
+activation: speaker shelf
 version: 0.1.2
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - strategy-codex
@@ -16,7 +15,6 @@ tags:
   - arcs
   - routing
 ---
-
 # Speaker shelf hygiene
 
 **Preferred activation (operator):** say **`speaker shelf`**.

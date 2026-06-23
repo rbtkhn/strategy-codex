@@ -3,6 +3,9 @@ name: singularity-note-promotion
 description: Promote one bounded argument from a singularity monthly synthesis into a reusable note without overpromoting it into a broad essay. Use when a month memo contains one route-worthy claim that should become a stand-alone singularity note with source anchors, action wedges, and return paths.
 portable: true
 version: 0.1.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - singularity
@@ -10,7 +13,6 @@ tags:
   - notes
   - promotion
 ---
-
 # Singularity Note Promotion
 
 Use this skill when one argument inside a singularity synthesis memo has become reusable enough to stand alone as a **note**, but not yet broad or settled enough to become an essay.

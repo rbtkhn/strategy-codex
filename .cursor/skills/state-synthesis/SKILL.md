@@ -1,9 +1,12 @@
 ---
 name: state-synthesis
-preferred_activation: state synthesis
 description: Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine.
+preferred_activation: state synthesis
+activation: state synthesis
 portable: true
 version: 0.3.1
+category: truth-pipeline
+status: active
 scope_class: repo-governed
 tags:
 - operator
@@ -287,7 +290,7 @@ If verification cannot be completed:
 **strategy-codex instance notes**
 
 - Canonical source day root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
-- Canonical synthesis side for daily reports: [statecraft/synthesis](../synthesis/README.md)
+- Canonical synthesis side for daily reports: [statecraft/synthesis](../../statecraft/synthesis/README.md)
 - Use the day archive inventory first, then write synthesis downstream.
 - Do not place synthesis notes in `source-archive/statecraft/`.
 

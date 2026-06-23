@@ -1,16 +1,17 @@
 ---
 name: expert-forecast-ledger
+description: Draft workflow for building a WORK-only longitudinal expert forecast ledger from a bounded local source corpus, preserving source-class discipline, falsifiers, revisit triggers, and unresolved tensions.
 preferred_activation: forecast ledger for <expert>
-description: "Draft workflow for building a WORK-only longitudinal expert forecast ledger from a bounded local source corpus, preserving source-class discipline, falsifiers, revisit triggers, and unresolved tensions."
 portable: true
 version: 0.1.0-draft
+category: domain-pack
+status: draft
 tags:
   - draft
   - work-strategy
   - forecast
   - source-discipline
 ---
-
 # Expert forecast ledger
 
 Use this draft skill when the operator asks for a longitudinal ledger such as:

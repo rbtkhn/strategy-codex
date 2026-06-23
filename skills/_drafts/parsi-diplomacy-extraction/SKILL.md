@@ -1,9 +1,11 @@
 ---
 name: parsi-diplomacy-extraction
-preferred_activation: parsi-diplomacy
 description: "Draft workflow for extracting Trita Parsi's authored and interview claims into disciplined diplomacy architecture: settlement sequencing, sanctions relief logic, ceasefire/Hormuz bargaining, U.S.-Iran constraints, regional security architecture, comparative speaker reads, and statecraft inputs. Use for Parsi says, diplomacy architecture, Iran off-ramp, sanctions relief, regional security framework, Trump-Iran bargaining, and compare Parsi to another speaker."
+preferred_activation: parsi-diplomacy
 portable: true
 version: 0.1.0-draft
+category: domain-pack
+status: draft
 tags:
   - draft
   - work-strategy
@@ -12,7 +14,6 @@ tags:
   - statecraft
   - speaker-state
 ---
-
 # Parsi diplomacy extraction
 
 Use this draft skill when the operator asks for Parsi-specific extraction, especially:

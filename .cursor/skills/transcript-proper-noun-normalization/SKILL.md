@@ -1,17 +1,21 @@
 ---
 name: transcript-proper-noun-normalization
-preferred_activation: proper noun normalization
 description: DEPRECATED 2026-06-21. Redirect to source-clean for statecraft archive captures. Legacy alias for post-land ASR/proper-noun normalization.
+preferred_activation: proper noun normalization
+activation: proper noun normalization
 portable: true
 version: 0.2.0
-deprecated: 2026-06-21
-see: skills/source-clean/SKILL.md
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 tags:
 - transcript
 - raw-input
 - quality
 - cleanup
 - deprecated
+deprecated: 2026-06-21
+see: skills/source-clean/SKILL.md
 portable_source: skills/transcript-proper-noun-normalization/SKILL.md
 synced_by: sync_portable_skills.py
 ---
@@ -36,21 +40,4 @@ For **raw-input** files under `strategy-notebook/raw-input/` only (not yet archi
 
 ## Cursor / strategy-codex instance
 
-Grace-mar paths and commands for this repository.
-
-| Topic | Path |
-|--------|------|
-| Canonical raw-input tree | [codex/](../../codex/) |
-| Host quality reports | [runtime/artifacts/host-shelf-quality/](../../../runtime/artifacts/host-shelf-quality/) |
-| Materializer / validator | [scripts/materialize_youtube_raw_input.py](../../../scripts/materialize_youtube_raw_input.py) |
-| Quality reporter | [scripts/host_shelf_quality.py](../../../scripts/host_shelf_quality.py) |
-| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
-| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
-
-**Local validation pattern**
-
-```powershell
-python scripts/materialize_youtube_raw_input.py --raw-input "<raw-input-path>" --notebook-root "codex/<year>" --apply --with-appearances --purpose one-off --run-id "<label>"
-```
-
-For check-streams or densification follow-up, preserve the existing `--purpose` and `--tranche-label` from the capture pass.
+_(appendix missing: .cursor/skills/transcript-proper-noun-normalization/CURSOR_APPENDIX.md)_

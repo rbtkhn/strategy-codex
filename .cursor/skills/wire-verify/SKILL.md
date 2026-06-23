@@ -3,6 +3,11 @@ name: wire-verify
 description: Legacy alias for news-verify — tier-3 contemporary report verification. Use news verify for new work.
 portable: true
 version: 1.6.0
+category: legacy-redirect
+status: redirect
+replacement: news-verify
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
 - verification
 - legacy

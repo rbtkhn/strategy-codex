@@ -3,6 +3,9 @@ name: civ-state-volume-harden
 description: Harden or create CIV-STATE front-door and volume architecture surfaces. Use when the operator wants civilization-state diagnostics, sovereignty-chain scaffolds, opener doctrine normalization, or retrieval-oriented volume doctrine in statecraft/states. Do not use for pre-draft governing-pair diagnosis, archive intake, or helix/meta-synthesis above mature lanes.
 portable: true
 version: 0.2.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - work-strategy

@@ -8,6 +8,7 @@ Usage:
   python3 scripts/validate_skills.py
   python3 scripts/validate_skills.py --json
   python3 scripts/validate_skills.py --strict-verification
+  python3 scripts/validate_skills.py --strict-metadata
   python3 scripts/validate_skills.py --fix
 """
 
@@ -26,6 +27,8 @@ if str(_SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path, safe_load_text
 
+from skill_consolidation_maps import CATEGORY_VALUES, STATUS_VALUES  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 REQUIRED_FRONTMATTER = {"name", "description"}
@@ -35,6 +38,16 @@ CURSOR_SKILLS_DIR = ".cursor/skills"
 PORTABLE_SKILLS_DIR = "skills"
 RUNBOOKS_DIR = "skills/runbooks"
 MANIFEST_FILE = "skills/manifest.yaml"
+SYNC_MARKER = "sync_portable_skills.py"
+DRAFT_MAX_AGE_DAYS = 30
+GRACE_MAR_PATH = "archive/grace-mar-instance/"
+
+REDIRECT_STATUSES = frozenset({"redirect", "deprecated", "merged"})
+SPECIAL_REPLACEMENTS = frozenset({
+    "fork-revive", "archive", "coffee",
+    "strategy-codex-expert-cross-weave", "strategy-codex-guest-canon-note",
+    "strategy-notebook-expert-cross-weave", "strategy-notebook-guest-canon-note",
+})
 
 SCOPE_CLASSES = frozenset({"personal", "project-local", "repo-governed", "public-portable"})
 VERIFICATION_HEADING = "## Verification / Proof Standard"
@@ -214,10 +227,138 @@ def _all_cursor_skill_names() -> set[str]:
     return {d.name for d in base.iterdir() if d.is_dir() and (d / "SKILL.md").exists()}
 
 
-def _skill_exists(name: str, manifest_names: set[str]) -> bool:
+def _skill_exists(name: str, manifest_names: set[str], cursor_names: set[str] | None = None) -> bool:
     if name in manifest_names:
         return True
+    if cursor_names and name in cursor_names:
+        return True
     return (REPO_ROOT / PORTABLE_SKILLS_DIR / name / "SKILL.md").is_file()
+
+
+def _replacement_valid(name: str, manifest_names: set[str], cursor_names: set[str]) -> bool:
+    if name in SPECIAL_REPLACEMENTS:
+        return True
+    return _skill_exists(name, manifest_names, cursor_names)
+
+
+def _check_consolidation_metadata(
+    errors: list[dict[str, str]],
+    *,
+    rel: str,
+    fm: dict[str, Any],
+    manifest_entry: dict[str, Any] | None,
+    body: str,
+    is_manifest_listed: bool,
+    is_cursor_only: bool,
+    strict_metadata: bool,
+    manifest_names: set[str],
+    cursor_names: set[str],
+) -> None:
+    level = "error" if strict_metadata else "warn"
+    needs_category = is_manifest_listed or is_cursor_only
+
+    category = fm.get("category")
+    status = fm.get("status", "active")
+
+    if needs_category and not category:
+        errors.append({"path": rel, "level": level, "message": "Missing category frontmatter"})
+    elif category and category not in CATEGORY_VALUES:
+        errors.append({"path": rel, "level": "error", "message": f"Invalid category '{category}'"})
+
+    if needs_category and not fm.get("status"):
+        errors.append({"path": rel, "level": level, "message": "Missing status frontmatter"})
+    elif status and status not in STATUS_VALUES:
+        errors.append({"path": rel, "level": "error", "message": f"Invalid status '{status}'"})
+
+    if status in REDIRECT_STATUSES:
+        replacement = fm.get("replacement")
+        if not replacement:
+            errors.append({
+                "path": rel,
+                "level": level,
+                "message": f"status '{status}' requires replacement frontmatter",
+            })
+        elif not _replacement_valid(str(replacement), manifest_names, cursor_names):
+            errors.append({
+                "path": rel,
+                "level": "error",
+                "message": f"replacement '{replacement}' not found among skills",
+            })
+
+    if manifest_entry:
+        for key in ("category", "status", "replacement"):
+            if manifest_entry.get(key) and fm.get(key) and manifest_entry[key] != fm.get(key):
+                errors.append({
+                    "path": rel,
+                    "level": "warn",
+                    "message": f"{key} '{fm.get(key)}' differs from manifest '{manifest_entry[key]}'",
+                })
+
+    if status == "active" and GRACE_MAR_PATH in body:
+        if not fm.get("fork-revive-only") and not fm.get("review_date"):
+            errors.append({
+                "path": rel,
+                "level": "warn",
+                "message": f"active skill references {GRACE_MAR_PATH} without fork-revive-only or review_date",
+            })
+
+    if status == "active":
+        combined = (body or "").lower()
+        for phrase in FORBIDDEN_AUTHORITY_PHRASES:
+            if phrase not in combined:
+                continue
+            excluded = False
+            for line in combined.splitlines():
+                if phrase in line and any(
+                    token in line for token in ("no ", "not ", "without ", "never ", "does not ")
+                ):
+                    excluded = True
+                    break
+            if not excluded:
+                errors.append({
+                    "path": rel,
+                    "level": "error",
+                    "message": f"Active skill must not claim authority: contains {phrase!r}",
+                })
+
+
+def _check_synced_cursor_target(
+    errors: list[dict[str, str]],
+    *,
+    name: str,
+    entry: dict[str, Any],
+    strict_metadata: bool,
+) -> None:
+    target = REPO_ROOT / str(entry.get("target", ""))
+    if not target.is_file():
+        return
+    fm = _parse_frontmatter(target)
+    if fm is None:
+        return
+    synced = str(fm.get("synced_by", ""))
+    if SYNC_MARKER not in synced:
+        errors.append({
+            "path": str(target.relative_to(REPO_ROOT)),
+            "level": "error" if strict_metadata else "warn",
+            "message": f"Manifest skill '{name}' cursor target missing synced_by: {SYNC_MARKER}",
+        })
+
+
+def _check_draft_age(errors: list[dict[str, str]], path: Path) -> None:
+    import datetime as dt
+
+    rel = str(path.relative_to(REPO_ROOT))
+    try:
+        mtime = path.stat().st_mtime
+    except OSError:
+        return
+    age_days = (dt.datetime.now(tz=dt.timezone.utc) - dt.datetime.fromtimestamp(mtime, tz=dt.timezone.utc)).days
+    if age_days > DRAFT_MAX_AGE_DAYS:
+        errors.append({
+            "path": rel,
+            "level": "info",
+            "message": f"Draft older than {DRAFT_MAX_AGE_DAYS} days ({age_days}d) — promote, merge, archive, or renew",
+        })
 
 
 def _check_scope_class(
@@ -314,6 +455,7 @@ def validate_runbooks(
     errors: list[dict[str, str]],
     *,
     manifest_names: set[str],
+    cursor_names: set[str],
 ) -> None:
     for path in _runbook_paths():
         rel = str(path.relative_to(REPO_ROOT))
@@ -360,7 +502,7 @@ def validate_runbooks(
         skills = fm.get("skills")
         if isinstance(skills, list):
             for skill_name in skills:
-                if not _skill_exists(str(skill_name), manifest_names):
+                if not _skill_exists(str(skill_name), manifest_names, cursor_names):
                     errors.append({
                         "path": rel,
                         "level": "error",
@@ -388,18 +530,29 @@ def validate_runbooks(
                 })
 
 
-def validate(*, verbose: bool = False, strict_verification: bool = False) -> list[dict[str, str]]:
+def validate(
+    *,
+    verbose: bool = False,
+    strict_verification: bool = False,
+    strict_metadata: bool = False,
+) -> list[dict[str, str]]:
     """Run all checks. Returns list of {path, level, message} dicts."""
     errors: list[dict[str, str]] = []
     known_skill_names = _all_cursor_skill_names()
     manifest_entries = _load_manifest_entries()
     manifest_names = set(manifest_entries.keys())
+    portable_names = {d.name for d in _portable_skill_dirs()}
 
     for skill_dir in _cursor_skill_dirs():
         skill_path = skill_dir / "SKILL.md"
         rel = str(skill_path.relative_to(REPO_ROOT))
-        fm = _parse_frontmatter(skill_path)
+        try:
+            text = skill_path.read_text(encoding="utf-8")
+        except (OSError, UnicodeDecodeError):
+            errors.append({"path": rel, "level": "error", "message": "Unreadable skill file"})
+            continue
 
+        fm, body = _split_frontmatter(text)
         if fm is None:
             errors.append({"path": rel, "level": "error", "message": "Missing or unparseable frontmatter"})
             continue
@@ -414,6 +567,30 @@ def validate(*, verbose: bool = False, strict_verification: bool = False) -> lis
                 "level": "warn",
                 "message": f"name '{fm['name']}' does not match directory '{skill_dir.name}'",
             })
+
+        is_cursor_only = skill_dir.name not in portable_names
+        if is_cursor_only:
+            _check_consolidation_metadata(
+                errors,
+                rel=rel,
+                fm=fm,
+                manifest_entry=manifest_entries.get(skill_dir.name),
+                body=body,
+                is_manifest_listed=skill_dir.name in manifest_names,
+                is_cursor_only=True,
+                strict_metadata=strict_metadata,
+                manifest_names=manifest_names,
+                cursor_names=known_skill_names,
+            )
+
+            if fm.get("status", "active") == "active":
+                _check_verification(
+                    errors,
+                    rel=rel,
+                    body=body,
+                    level="promoted" if strict_verification else "listed",
+                    strict_verification=strict_verification and fm.get("status") == "active",
+                )
 
         requires = fm.get("requires")
         if isinstance(requires, list):
@@ -461,12 +638,27 @@ def validate(*, verbose: bool = False, strict_verification: bool = False) -> lis
             forbidden_substrings=forbidden,
             body=body,
         )
+        _check_consolidation_metadata(
+            errors,
+            rel=rel,
+            fm=fm,
+            manifest_entry=entry,
+            body=body,
+            is_manifest_listed=is_listed,
+            is_cursor_only=False,
+            strict_metadata=strict_metadata,
+            manifest_names=manifest_names,
+            cursor_names=known_skill_names,
+        )
+        verify_level = "promoted" if is_listed else "listed"
+        if is_listed and fm.get("status") == "redirect":
+            verify_level = "listed"
         _check_verification(
             errors,
             rel=rel,
             body=body,
-            level="promoted" if is_listed else "listed",
-            strict_verification=strict_verification,
+            level=verify_level,
+            strict_verification=strict_verification and is_listed and fm.get("status", "active") == "active",
         )
 
     for draft_path in _draft_skill_paths():
@@ -475,7 +667,20 @@ def validate(*, verbose: bool = False, strict_verification: bool = False) -> lis
             text = draft_path.read_text(encoding="utf-8")
         except (OSError, UnicodeDecodeError):
             continue
-        _, body = _split_frontmatter(text)
+        fm, body = _split_frontmatter(text)
+        if fm:
+            _check_consolidation_metadata(
+                errors,
+                rel=rel,
+                fm=fm,
+                manifest_entry=None,
+                body=body,
+                is_manifest_listed=False,
+                is_cursor_only=False,
+                strict_metadata=False,
+                manifest_names=manifest_names,
+                cursor_names=known_skill_names,
+            )
         _check_verification(
             errors,
             rel=rel,
@@ -483,8 +688,9 @@ def validate(*, verbose: bool = False, strict_verification: bool = False) -> lis
             level="info",
             strict_verification=strict_verification,
         )
+        _check_draft_age(errors, draft_path)
 
-    for name in manifest_names:
+    for name, entry in manifest_entries.items():
         source_dir = REPO_ROOT / PORTABLE_SKILLS_DIR / name
         if not (source_dir / "SKILL.md").exists():
             errors.append({
@@ -492,8 +698,10 @@ def validate(*, verbose: bool = False, strict_verification: bool = False) -> lis
                 "level": "error",
                 "message": f"Manifest lists '{name}' but {PORTABLE_SKILLS_DIR}/{name}/SKILL.md does not exist",
             })
+        if entry.get("target"):
+            _check_synced_cursor_target(errors, name=name, entry=entry, strict_metadata=strict_metadata)
 
-    validate_runbooks(errors, manifest_names=manifest_names)
+    validate_runbooks(errors, manifest_names=manifest_names, cursor_names=known_skill_names)
 
     if verbose:
         pass
@@ -547,6 +755,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Validate skill metadata.")
     parser.add_argument("--json", action="store_true", help="Output as JSON")
     parser.add_argument("--strict-verification", action="store_true", help="Fail promoted skills missing verification")
+    parser.add_argument("--strict-metadata", action="store_true", help="Fail missing category/status/replacement/sync markers")
     parser.add_argument("--fix", action="store_true", help="Interactive fix mode (not yet implemented)")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
@@ -555,7 +764,11 @@ def main() -> int:
         print("--fix mode is not yet implemented. Run without --fix to see issues.")
         return 1
 
-    errors = validate(verbose=args.verbose, strict_verification=args.strict_verification)
+    errors = validate(
+        verbose=args.verbose,
+        strict_verification=args.strict_verification,
+        strict_metadata=args.strict_metadata,
+    )
     counts = _count_by_level(errors)
 
     if args.json:

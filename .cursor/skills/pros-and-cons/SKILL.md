@@ -1,10 +1,12 @@
 ---
 name: pros-and-cons
+description: When the operator does not understand a proposal—or asks for pros/cons, unpack, or tradeoffs—restate the idea in plain language, then structured pros, cons, disproportion, and a clear recommendation. Default Think lane; no repo edits unless they switch to ship.
 preferred_activation: unpack
-description: >-
-  When the operator does not understand a proposal—or asks for pros/cons, unpack, or tradeoffs—restate the idea in plain language, then structured pros, cons, disproportion, and a clear recommendation. Default Think lane; no repo edits unless they switch to ship.
+activation: unpack
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Pros and cons (unpack a proposal)
 
 **Preferred activation (operator):** say the exact phrase **`unpack`**. **Alias:** **`pros cons`**.

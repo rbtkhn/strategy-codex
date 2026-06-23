@@ -1,9 +1,12 @@
 ---
 name: weekly-brief-run
-preferred_activation: weekly brief
 description: Run the work-politics weekly brief workflow with readiness checks, blocker reporting, and scaffold generation. Use when preparing the weekly brief, checking if sources are fresh enough, or asking for a first-pass campaign brief.
+preferred_activation: weekly brief
+activation: weekly brief
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Weekly Brief Run
 
 **Preferred activation (operator):** say the exact phrase **`weekly brief`**.

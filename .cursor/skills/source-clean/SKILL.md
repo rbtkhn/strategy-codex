@@ -1,9 +1,12 @@
 ---
 name: source-clean
-preferred_activation: source-clean
 description: Post-land ASR and proper-noun cleanup for statecraft source-archive captures — caption/family scaffold, ph-civ series tiers, entity pass, thread/channel tiers, provenance patch. Not synthesis, wire-verify, or first-pass intake.
+preferred_activation: source-clean
+activation: source-clean
 portable: true
 version: 1.1.0
+category: truth-pipeline
+status: active
 scope_class: repo-governed
 tags:
 - operator

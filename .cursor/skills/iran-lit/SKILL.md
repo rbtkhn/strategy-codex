@@ -1,9 +1,12 @@
 ---
 name: iran-lit
-preferred_activation: iran-lit
 description: "Apply the Iran civilization literature lens to statecraft problems. Use when the operator says iran-lit, Iran lit, Persian literature lens, or asks to test an Iran current event, transaction, clause, policy question, or settlement language through Persian narrative memory: dignity, poetry, martyrdom, continuity, grievance, witness, anti-humiliation language, sovereignty, or clause-language stress tests."
+preferred_activation: iran-lit
+activation: iran-lit
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Iran Lit
 
 `iran-lit` is a WORK-only academy-statecraft command. It applies Iran's civilization `lit.md` surface to operational statecraft judgment.

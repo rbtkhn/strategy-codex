@@ -1,9 +1,12 @@
 ---
 name: america-lit
-preferred_activation: america-lit
 description: "Apply the America civilization literature lens to statecraft problems. Use when the operator says america-lit, America lit, American literature lens, or asks to test an America current event, transaction, clause, policy question, or settlement language through American narrative memory: dissent, rights language, republic conscience, anti-imperial critique, covenantal voice, frontier story, witness, legitimacy, or clause-language stress tests."
+preferred_activation: america-lit
+activation: america-lit
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # America Lit
 
 `america-lit` is a WORK-only academy-statecraft command. It applies America's civilization `lit.md` surface to operational statecraft judgment.

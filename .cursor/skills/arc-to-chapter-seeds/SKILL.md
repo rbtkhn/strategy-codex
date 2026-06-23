@@ -3,6 +3,9 @@ name: arc-to-chapter-seeds
 description: Extract additive chapter-seed ideas from an upstream arc without letting the arc govern the destination work. Use when the operator wants chapter ideas harvested from a speaker arc, lane arc, cross-host arc, or historical arc, especially for statecraft volume buildout inside strategy-codex.
 portable: true
 version: 0.1.0
+category: product-narrative
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - work-strategy

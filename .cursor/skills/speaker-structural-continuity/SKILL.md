@@ -1,8 +1,10 @@
 ---
 name: speaker-structural-continuity
-description: Verify that a speaker shelf's front door, speaker object, arc, thread atlas, and month-support surfaces agree on route stack, month ladder, and maturity progression. Use when auditing structural continuity, checking for drift between canonical speaker surfaces, or confirming that setup/bridge/dense-core segment doctrine stays aligned across a speaker shelf.
+description: "Verify that a speaker shelf's front door, speaker object, arc, thread atlas, and month-support surfaces agree on route stack, month ladder, and maturity progression. Use when auditing structural continuity, checking for drift between canonical speaker surfaces, or confirming that setup/bridge/dense-core segment doctrine stays aligned across a speaker shelf."
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Speaker Structural Continuity
 
 Use this skill when the question is not "is this month mature?" but "do the canonical speaker surfaces still agree with each other?"

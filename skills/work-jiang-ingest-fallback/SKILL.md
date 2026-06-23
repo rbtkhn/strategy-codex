@@ -1,15 +1,18 @@
 ---
 name: work-jiang-ingest-fallback
+description: Recover lecture ingest when channel-wide transcript fetch hits rate limits by using a targeted local index row, then ingest and validate in a bounded pass.
 preferred_activation: jiang ingest fallback
-description: "Recover lecture ingest when channel-wide transcript fetch hits rate limits by using a targeted local index row, then ingest and validate in a bounded pass."
+activation: jiang ingest fallback
 portable: true
 version: 0.1.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-jiang
   - ingest
 ---
-
 # Work-jiang ingest fallback (rate limit path)
 
 **Preferred activation (operator):** say **`jiang ingest fallback`**.

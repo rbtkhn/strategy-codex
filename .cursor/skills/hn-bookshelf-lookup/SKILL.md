@@ -1,11 +1,10 @@
 ---
 name: hn-bookshelf-lookup
-description: >-
-  History notebook writer ergonomics — resolve Shelf ids to catalog cards, list
-  print anchors for an hn-* chapter, or generate paste lines and cited-fragments.
-  Triggers: hn shelf, shelf lookup, Shelf-NNNN, shelf anchors, bookshelf chapter.
+description: "History notebook writer ergonomics — resolve Shelf ids to catalog cards, list print anchors for an hn-* chapter, or generate paste lines and cited-fragments. Triggers: hn shelf, shelf lookup, Shelf-NNNN, shelf anchors, bookshelf chapter."
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # History notebook — Bookshelf writer lookup
 
 **WORK only;** not Record. **SSOT:** [bookshelf-catalog.yaml](docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).

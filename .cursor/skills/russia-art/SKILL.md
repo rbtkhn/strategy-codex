@@ -1,9 +1,12 @@
 ---
 name: russia-art
-preferred_activation: russia-art
 description: "Apply the Russia civilization art lens to statecraft problems. Use when the operator says russia-art, Russia art, Russian art lens, or asks to test a Russia current event, transaction, clause, policy question, or settlement language through Russian aesthetic memory: icon, liturgy, architecture, music, ballet, monument, museum, ceremony, Soviet monumental form, wartime endurance, sacred/imperial form, beauty under pressure, recognition, sacrifice, or transaction stress tests."
+preferred_activation: russia-art
+activation: russia-art
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # Russia Art
 
 `russia-art` is a WORK-only academy-statecraft command. It applies Russia's civilization art surface to operational statecraft judgment.

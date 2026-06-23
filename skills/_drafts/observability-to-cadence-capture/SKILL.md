@@ -1,18 +1,19 @@
 ---
 name: observability-to-cadence-capture
-title: Observability to Cadence Capture
+description: Capture repeated observability and regeneration patterns into governed WORK or portable-skill workflows.
 preferred_activation: observability capture
-description: "Capture repeated observability and regeneration patterns into governed WORK or portable-skill workflows."
-version: 0.1.0
 portable: true
+version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - work-dev
   - cadence
   - observability
   - recursive-improvement
+title: Observability to Cadence Capture
 ---
-
 # Observability to Cadence Capture
 
 **Preferred activation (operator):** say **`observability capture`**. **Aliases:** **`Hermes skill capture`**, **`cadence observability pattern`**.

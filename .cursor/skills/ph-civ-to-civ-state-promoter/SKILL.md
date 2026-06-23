@@ -1,15 +1,12 @@
 ---
 name: ph-civ-to-civ-state-promoter
+description: Promote or evaluate public PH-CIV insight for CIV-STATE use. Use when the operator wants to decide whether a `ph-civ` chapter, card, corridor, commentary, or pattern should become a reusable `civ-state` mechanism; when a destination family must be chosen; or when a counterweight is needed before escalating into bridge doctrine, the promotion ledger, or the CIV-STATE review queue.
 preferred_activation: ph-civ-to-civ-state-promoter
-description: >-
-  Promote or evaluate public PH-CIV insight for CIV-STATE use. Use when the
-  operator wants to decide whether a `ph-civ` chapter, card, corridor,
-  commentary, or pattern should become a reusable `civ-state` mechanism; when a
-  destination family must be chosen; or when a counterweight is needed before
-  escalating into bridge doctrine, the promotion ledger, or the CIV-STATE
-  review queue.
+activation: ph-civ-to-civ-state-promoter
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # PH-CIV to CIV-STATE Promoter
 
 Use this skill to decide whether a public `ph-civ` insight deserves promotion into `civ-state`, and if so, where it should land.

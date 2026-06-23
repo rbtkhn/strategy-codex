@@ -1,9 +1,13 @@
 ---
 name: last30days
-preferred_activation: last30days
 description: Research a recent topic with last-30-days discipline, source-class routing, provenance, uncertainty labels, and stage-only governance boundaries.
+preferred_activation: last30days
+activation: last30days
 portable: true
 version: 1.0.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
 - research
 - strategy

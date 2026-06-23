@@ -1,9 +1,13 @@
 ---
 name: statecraft-intelligence-essay
-preferred_activation: statecraft intelligence essay
 description: Write synthetic singularity-statecraft intelligence essays from archive-grounded statecraft material without visible speaker-shelf scaffolding in the prose. Use for paired essays, actor-perception essays, and strategic-historical interpretation surfaces where the archive remains substrate rather than the visible frame.
+preferred_activation: statecraft intelligence essay
+activation: statecraft intelligence essay
 portable: true
 version: 0.1.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - statecraft
@@ -127,7 +131,7 @@ The result is a durable downstream essay that reads as singularity-statecraft in
 
 **strategy-codex instance notes**
 
-- Canonical daily shelf for downstream statecraft essays: [statecraft/synthesis](../synthesis/README.md)
+- Canonical daily shelf for downstream statecraft essays: [statecraft/synthesis](../../statecraft/synthesis/README.md)
 - Canonical archive substrate for these essays: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
 - Use archive-grounded notes and day/month synthesis surfaces as substrate, but do not leave speaker-shelf scaffolding visible in the essay prose.
 

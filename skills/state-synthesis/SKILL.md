@@ -1,9 +1,12 @@
 ---
 name: state-synthesis
+description: Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine.
 preferred_activation: state synthesis
-description: "Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine."
+activation: state synthesis
 portable: true
 version: 0.3.1
+category: truth-pipeline
+status: active
 scope_class: repo-governed
 tags:
   - operator
@@ -12,7 +15,6 @@ tags:
   - daily
   - monthly
 ---
-
 # State synthesis
 
 **Preferred activation (operator):** say **`state synthesis`**.

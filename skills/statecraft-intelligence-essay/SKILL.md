@@ -1,9 +1,13 @@
 ---
 name: statecraft-intelligence-essay
+description: Write synthetic singularity-statecraft intelligence essays from archive-grounded statecraft material without visible speaker-shelf scaffolding in the prose. Use for paired essays, actor-perception essays, and strategic-historical interpretation surfaces where the archive remains substrate rather than the visible frame.
 preferred_activation: statecraft intelligence essay
-description: "Write synthetic singularity-statecraft intelligence essays from archive-grounded statecraft material without visible speaker-shelf scaffolding in the prose. Use for paired essays, actor-perception essays, and strategic-historical interpretation surfaces where the archive remains substrate rather than the visible frame."
+activation: statecraft intelligence essay
 portable: true
 version: 0.1.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
@@ -11,7 +15,6 @@ tags:
   - intelligence
   - synthesis
 ---
-
 # Statecraft intelligence essay
 
 **Preferred activation (operator):** say **`statecraft intelligence essay`**.

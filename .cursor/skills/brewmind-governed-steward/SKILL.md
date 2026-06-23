@@ -1,9 +1,12 @@
 ---
 name: brewmind-governed-steward
-preferred_activation: brewmind governed steward
 description: "BrewMind × Cici: route business facts through evidence → prepared context → proposals → governed state (owner-approved). Triggers: brewmind steward, governed state steward, BrewMind gate, Cici proposal, promote BrewMind fact."
+preferred_activation: brewmind governed steward
+activation: brewmind governed steward
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # brewmind-governed-steward — BrewMind business × Cici Git truth
 
 **Primary triggers:** **`brewmind governed steward`**, **`BrewMind steward`**, **`governed state steward`**, **`Cici proposal`**, **`promote BrewMind fact`**.

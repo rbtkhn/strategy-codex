@@ -1,9 +1,12 @@
 ---
 name: state-russia
+description: Open the Russia statecraft lane directly. Use when the operator says state-russia, Russia state skill, or wants Russia to carry a statecraft object through depth, parity, anti-managed humiliation, disruption without entrapment, or equilibrium-bearing recognition.
 preferred_activation: state-russia
-description: "Open the Russia statecraft lane directly. Use when the operator says state-russia, Russia state skill, or wants Russia to carry a statecraft object through depth, parity, anti-managed humiliation, disruption without entrapment, or equilibrium-bearing recognition."
+activation: state-russia
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # State Russia
 
 `state-russia` is the primary Russia lane machine. It is `README`-first and `helix`-default.

@@ -1,9 +1,11 @@
 ---
 name: graceful-constraint-reporting
-preferred_activation: graceful report
 description: "Apply graceful-constraint doctrine to an automated brief or reporting surface: preserve authority, narrow claims under thin evidence, keep digest and public layers distinct, and prefer visible degradation over polished bluffing."
+preferred_activation: graceful report
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - reporting
@@ -11,7 +13,6 @@ tags:
   - graceful-constraint
   - source-hygiene
 ---
-
 # Graceful constraint reporting
 
 **Preferred activation (operator):** say **`graceful report`**. **Aliases:** **`constraint-safe brief`**, **`degraded reporting`**, **`report under thin evidence`**.

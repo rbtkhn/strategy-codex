@@ -1,16 +1,17 @@
 ---
 name: daily-brief-regen-merge
-preferred_activation: daily brief regen
 description: "Regenerate work-strategy daily briefs for a chosen calendar day, preserve Grok-mirror post-process tails (from the ## 2c narrative retrofit anchor), and emit paste-ready inbox handoff lines."
+preferred_activation: daily brief regen
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - work-strategy
   - daily-brief
   - evidence
 ---
-
 # Daily brief regen + post-process merge
 
 **Preferred activation (operator):** **`daily brief regen`**. **Aliases:** **`merge daily brief tail`**, **`brief-date regen`**, **`regen brief keep 2c`**.

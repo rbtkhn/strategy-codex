@@ -1,16 +1,17 @@
 ---
 name: context-folder-assembly
+description: Assemble a bounded working folder from NL source discovery, questions-as-spec PLAN, and task-shape seal — then fresh-thread EXECUTE; WORK-only, not bridge or harvest.
 preferred_activation: context folder
-description: "Assemble a bounded working folder from NL source discovery, questions-as-spec PLAN, and task-shape seal — then fresh-thread EXECUTE; WORK-only, not bridge or harvest."
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - work-dev
   - context
   - plan
 ---
-
 # Context Folder Assembly
 
 **Preferred activation (operator):** say **`context folder`**. **Aliases:** **`assemble working folder`**, **`assemble context`**, **`clean context window`**.

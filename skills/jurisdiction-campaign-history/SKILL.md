@@ -1,14 +1,17 @@
 ---
 name: jurisdiction-campaign-history
-preferred_activation: jurisdiction history
 description: "WORK-politics: derive campaign framing from jurisdictional history (House district, U.S. Senate, governor) using repo chronology markdown; modes house | senate | governor | stack; optional handoff to politics-massie (draft X only). Triggers: jurisdiction history, district history pass, senate history pass, governor history pass, political stack brief."
+preferred_activation: jurisdiction history
+activation: jurisdiction history
 portable: true
 version: 1.0.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-politics
 ---
-
 # Jurisdiction campaign history — framing pass
 
 **Preferred activation (operator):** say **`jurisdiction history`** (optionally with **`house`**, **`senate`**, **`governor`**, or **`stack`**).

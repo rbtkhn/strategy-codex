@@ -1,17 +1,21 @@
 ---
 name: youtube-raw-input-transcript
+description: "DEPRECATED 2026-06-20. Do not use for new strategy-codex capture. Redirect: source-intake for archive land; check sources for daily roster. See YOUTUBE-MATERIALIZE-DEPRECATED.md."
 preferred_activation: youtube transcript
-description: 'DEPRECATED 2026-06-20. Do not use for new strategy-codex capture. Redirect: source-intake for archive land; check sources for daily roster. See YOUTUBE-MATERIALIZE-DEPRECATED.md.'
+activation: youtube transcript
 portable: true
 version: 0.2.0
-deprecated: 2026-06-20
-see: docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 tags:
-- operator
-- deprecated
-- youtube
+  - operator
+  - deprecated
+  - youtube
 portable_source: skills/youtube-raw-input-transcript/SKILL.md
 synced_by: sync_portable_skills.py
+deprecated: 2026-06-20
+see: docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md
 ---
 # DEPRECATED — YouTube raw-input / materialize skill
 

@@ -1,9 +1,13 @@
 ---
 name: primary-overhearing-analysis
-preferred_activation: primary overhearing
 description: Analyzes high-symbolism speeches, visits, and rituals using primary vs overhearing audiences, speech-act function, and second-order spillover (soft power, who gains moral authority vs rivals who claim to solve the problem). Use when the operator asks for audience optics, primary/overhearing frame, papal or diplomatic visits, interfaith stops, migration messaging, or narrative competition over the solver role.
+preferred_activation: primary overhearing
+activation: primary overhearing
 portable: true
 version: 1.0.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - analysis

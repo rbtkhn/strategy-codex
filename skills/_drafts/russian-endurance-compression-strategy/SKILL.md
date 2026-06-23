@@ -1,16 +1,17 @@
 ---
 name: russian-endurance-compression-strategy
+description: Apply Russian civilizational endurance patterns (temporal compression, marginal-power resilience, rupture-regeneration) to operator strategy work.
 preferred_activation: endurance strategy
-description: "Apply Russian civilizational endurance patterns (temporal compression, marginal-power resilience, rupture-regeneration) to operator strategy work."
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - work-strategy
   - civilizational-memory
   - meta-strategy
 ---
-
 # Russian Endurance & Compression Strategy
 
 **Preferred activation (operator):** say **`endurance strategy`**. **Aliases:** **`russian strategy`**, **`compression strategy`**.

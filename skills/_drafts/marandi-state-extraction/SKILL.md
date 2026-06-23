@@ -1,9 +1,11 @@
 ---
 name: marandi-state-extraction
-preferred_activation: marandi-state
 description: "Draft workflow for extracting Seyed Mohammad Marandi's interview claims into disciplined inside-Iran state-position notes, red-line maps, institutional authority checks, retaliation logic, comparative speaker reads, and statecraft inputs. Use for Marandi says, Iranian position, inside Iran, Iran red lines, Supreme National Security Council, Hormuz from Iran's view, Iran retaliation doctrine, and compare Marandi to another speaker."
+preferred_activation: marandi-state
 portable: true
 version: 0.1.0-draft
+category: domain-pack
+status: draft
 tags:
   - draft
   - work-strategy
@@ -12,7 +14,6 @@ tags:
   - speaker-state
   - statecraft
 ---
-
 # Marandi state extraction
 
 Use this draft skill when the operator asks for Marandi-specific extraction, especially:

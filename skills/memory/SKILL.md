@@ -1,9 +1,13 @@
 ---
 name: memory
+description: Build, mirror, audit, or backfill repo-root statecraft state-memory, civilization arc-lens, and CIV-STATE book-apparatus surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, wants deep CIV-MEM search without biography drift, or wants CIV-MEM to evaluate or sharpen glossary, bibliography, references, or index surfaces.
 preferred_activation: memory
-description: "Build, mirror, audit, or backfill repo-root statecraft state-memory, civilization arc-lens, and CIV-STATE book-apparatus surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, wants deep CIV-MEM search without biography drift, or wants CIV-MEM to evaluate or sharpen glossary, bibliography, references, or index surfaces."
+activation: memory
 portable: true
 version: 0.1.1
+category: operator-coherence
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
@@ -11,7 +15,6 @@ tags:
   - state-memory
   - civilization
 ---
-
 # Memory
 
 **Preferred activation (operator):** say **`memory`**.

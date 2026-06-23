@@ -1,9 +1,12 @@
 ---
 name: state-deploy
+description: Deploy a live object to the right statecraft lane. Use when the operator says state-deploy, deploy statecraft, which lane, which state skill, or asks whether a problem or named recent event belongs to America, China, Persia, Russia, a two-lane comparison, or a cross-lane compact.
 preferred_activation: state-deploy
-description: "Deploy a live object to the right statecraft lane. Use when the operator says state-deploy, deploy statecraft, which lane, which state skill, or asks whether a problem or named recent event belongs to America, China, Persia, Russia, a two-lane comparison, or a cross-lane compact."
+activation: state-deploy
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # State Deploy
 
 `state-deploy` is the repo-root statecraft deployment skill. It is a router with judgment, not a fifth civilizational lane.

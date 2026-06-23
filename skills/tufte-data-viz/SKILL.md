@@ -1,16 +1,19 @@
 ---
 name: tufte-data-viz
-preferred_activation: tufte viz
 description: "Tufte-style chart and dashboard discipline for operator observability: high data-ink, direct labels, log scales when warranted, chart-review mode; inspection-only, not Record merge."
+preferred_activation: tufte viz
+activation: tufte viz
 portable: true
 version: 0.1.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-dev
   - observability
   - visualization
 ---
-
 # Tufte Data Visualization
 
 **Preferred activation (operator):** say **`tufte viz`** or **`tufte review`**.

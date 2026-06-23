@@ -1,18 +1,26 @@
 ---
 name: academy-mirror-sync
-preferred_activation: academy-mirror-sync
 description: Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as public/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer.
+preferred_activation: academy-mirror-sync
+activation: academy-mirror-sync
 portable: true
 version: 0.1.0
+category: product-narrative
+status: archived
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
 - operator
 - work-strategy
 - git
 - academy
+- archived
 portable_source: skills/academy-mirror-sync/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Academy Mirror Sync
+
+**Status:** **Archived** — use only when operator explicitly maintains academy mirror folders.
 
 Use this skill to verify that an academy mirror folder, its remote repository, and the parent `strategy-codex` pointer all agree.
 
@@ -66,9 +74,4 @@ python scripts/check_academy_mirror_sync.py --json
 
 ## Cursor / strategy-codex instance
 
-## strategy-codex instance
-
-- Run from the repository root: `C:\dev\strategy-codex`.
-- Preferred command: `python scripts/check_academy_mirror_sync.py`.
-- For the public Predictive History mirror, keep `public/ph-civ` as the default mirror path.
-- If the check reports only unrelated parent dirt, say the mirror is synced and list parent dirt as separate background noise.
+_(appendix missing: .cursor/skills/academy-mirror-sync/CURSOR_APPENDIX.md)_

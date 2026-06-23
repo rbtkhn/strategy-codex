@@ -1,11 +1,9 @@
 ---
 name: voice-profile-panel
-status: draft-pointer
-description: >-
-  Promoted to portable core. Use skill voice-profile-panel
-  (.cursor/skills/voice-profile-panel/SKILL.md).
+description: Promoted to portable core. Use skill voice-profile-panel (.cursor/skills/voice-profile-panel/SKILL.md).
+category: product-narrative
+status: draft
 ---
-
 # voice-profile-panel (draft pointer)
 
 **Shipped (2026-06-13):**

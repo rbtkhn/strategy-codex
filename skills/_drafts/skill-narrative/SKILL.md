@@ -1,16 +1,17 @@
 ---
 name: skill-narrative
+description: Compile rolling daily briefs into a convergence-led narrative with content outputs and explicit accept/defer/reject decisions for recursive learning.
 preferred_activation: narrative loop
-description: "Compile rolling daily briefs into a convergence-led narrative with content outputs and explicit accept/defer/reject decisions for recursive learning."
 portable: true
 version: 0.1.0
+category: product-narrative
+status: draft
 tags:
   - operator
   - work-strategy
   - narrative
   - feedback
 ---
-
 # Skill-Narrative (Convergence Ledger v2)
 
 **Preferred activation (operator):** say **`narrative loop`**.

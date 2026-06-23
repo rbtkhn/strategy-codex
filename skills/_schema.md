@@ -20,6 +20,24 @@ skills/<skill-name>/
 | `tags` | no | e.g. `[operator, work-politics]` for mirrors. |
 | `requires` | no | Skill dependencies, e.g. `[handoff-check]`. Validator checks that listed skills exist under `.cursor/skills/`. |
 | `scope_class` | recommended | Where the procedure belongs: `personal`, `project-local`, `repo-governed`, `public-portable`. Default implied: `repo-governed` for manifest-listed skills. Skill frontmatter is SSOT; optional manifest copy must match. |
+| `category` | recommended (required for promoted) | Consolidation tier: `truth-pipeline`, `operator-coherence`, `judgment-enhancement`, `domain-pack`, `product-narrative`, `legacy-redirect`. |
+| `status` | recommended (required for promoted) | `active`, `merged`, `redirect`, `draft`, `archived`, `deprecated`. |
+| `replacement` | required when redirect/merged/deprecated | Skill name or doc id of active replacement. |
+| `activation` | no | Operator trigger phrase; mirrors `preferred_activation` when set. |
+| `outputs` | no | Short list of primary output surfaces. |
+| `proof_standard` | no | Optional label; body `## Verification / Proof Standard` remains SSOT. |
+| `review_date` | no | ISO date for redirect/draft review (e.g. `2026-12-31`). |
+
+### `category` values
+
+| Value | Meaning |
+|-------|---------|
+| `truth-pipeline` | Source intake, verification, synthesis ladder |
+| `operator-coherence` | Cadence, memory, repo hygiene |
+| `judgment-enhancement` | Interpretation quality (not intake) |
+| `domain-pack` | Lane-specific when domain is active |
+| `product-narrative` | Commercial, book, voice product work |
+| `legacy-redirect` | Thin compatibility alias only |
 
 ### `scope_class` definitions
 
@@ -30,7 +48,7 @@ skills/<skill-name>/
 | `repo-governed` | strategy-codex governed workflows (default for listed skills) |
 | `public-portable` | Generic procedure safe for reuse outside this repo |
 
-Drafts under `skills/_drafts/` may omit `scope_class` until promotion. Catalog **promoted** / **listed** labels in [catalog.md](catalog.md) are human discovery tags only — not validator input until an optional `status` frontmatter field exists.
+Drafts under `skills/_drafts/` should set `status: draft` and may omit `scope_class` until promotion. Catalog **promoted** / **listed** labels in [catalog.md](catalog.md) are human discovery tags only — validator uses `status` frontmatter when present.
 
 ## Body rules (portable core)
 

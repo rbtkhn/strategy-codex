@@ -1,15 +1,16 @@
 ---
 name: printing-press-scrape-creators
-description: "Govern public YouTube transcript acquisition through Printing Press scrape-creators, preserving receipts and WORK-only routing."
+description: Govern public YouTube transcript acquisition through Printing Press scrape-creators, preserving receipts and WORK-only routing.
 portable: true
 version: 0.1.0
+category: domain-pack
+status: draft
 tags:
   - operator
   - work-strategy
   - transcript-ingest
   - printing-press
 ---
-
 # Printing Press scrape-creators intake
 
 Use this draft skill when the operator wants to acquire public YouTube transcript or video metadata through Printing Press `scrape-creators` for cognition-stream work.

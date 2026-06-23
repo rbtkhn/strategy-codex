@@ -1,100 +1,33 @@
 ---
 name: strategy-notebook-expert-cross-weave
+description: Legacy alias for strategy-codex expert cross-weave. Redirect to codex weave architecture and check-sources/source-intake handoff.
 preferred_activation: weave expert cross
-description: 'Legacy alias for strategy-codex expert cross-weave: fold two expert-thread ingests into one host-equivalent daily seam (Chronicle/Reflection/References/Open), with optional batch-analysis rows and a month-level grep anchor; WORK lane only.'
+activation: weave expert cross
 portable: true
-version: 0.2.0
+version: 0.3.0
+category: legacy-redirect
+status: redirect
+replacement: strategy-codex-expert-cross-weave
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
 - operator
-- work-strategy
 - strategy-codex
 - strategy-notebook-legacy
 portable_source: skills/strategy-notebook-expert-cross-weave/SKILL.md
 synced_by: sync_portable_skills.py
 ---
-# Strategy-codex expert cross-weave
+# Strategy-codex expert cross-weave (legacy slug)
 
-**Naming:** This portable skill keeps the legacy slug `strategy-notebook-expert-cross-weave` for compatibility. The active concept is **strategy-codex expert cross-weave** and the portable core should use host-equivalent notebook surfaces.
+**Legacy slug:** `strategy-notebook-expert-cross-weave` (manifest compatibility only).
 
-**Preferred activation (operator):** **`weave <expert-a> <expert-b>`**, **`expert cross-weave`**, **`crosses:expert-a+expert-b`**.
+**Active concept:** **strategy-codex expert cross-weave** — fold two expert-thread ingests into one host-equivalent daily seam.
 
-Use this skill when two indexed **`thread:<expert_id>`** lines in a host daily inbox should become **one explicit judgment seam** on a dated notebook page without collapsing distinct evidence chains.
+**SSOT:** [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) (weave / EOD compose).
 
-## Required host equivalents
+**Activation:** `weave expert cross`, `expert cross-weave`, `crosses:expert-a+expert-b` — follow codex weave rules; use [check-sources](../check-sources/SKILL.md) and [statecraft-source-intake](../statecraft-source-intake/SKILL.md) for intake handoff.
 
-| Purpose | Portable placeholder |
-|---------|----------------------|
-| Commentator roster with stable expert ids | `<expert-roster>` |
-| Daily inbox or ingest queue | `<daily-inbox>` |
-| Calendar notebook or daily page surface | `<calendar-notebook>` |
-| Month-level meta or summary surface | `<month-meta>` |
-| Status or recent-work receipt surface | `<status-surface>` |
-
-## Preconditions
-
-1. Both experts appear in the host's commentator roster with stable **`expert_id`** values.
-2. Source lines exist, or are recoverable, in the host's daily inbox - including any **`crosses:`** or **`batch-analysis`** tails you intend to preserve.
-3. You know the calendar date for the target **`## YYYY-MM-DD`** section.
-
-## Procedure
-
-### 0) Page-shape fork (before any file write)
-
-When the operator invokes **expert cross-weave** or **`crosses:`** without naming a single shape, present **4-6** labeled options that describe this session's thesis or page shape.
-
-Examples:
-
-- cross-expert seam
-- continuity-only daily seam
-- judgment-heavy / links-light
-- verify-first open
-
-Stub only. Do not write developed prose until the operator picks. If the operator already names both experts or says **`no menu`**, skip or shorten this fork per the host's notebook architecture.
-
-### 1) Name the seam
-
-- Use **`crosses:<expert-a>+<expert-b>`** with consistent expert-id ordering.
-- Write one sentence each for what A answers versus what B answers.
-- Keep tension visible. Do not pretend they are solving the same question if they are not.
-
-### 2) Write the daily seam
-
-Under the host's calendar notebook, in the correct **`## YYYY-MM-DD`** block:
-
-1. **Signal** - one bullet naming the source objects and the before -> after move.
-2. **Judgment** - one bullet naming the **`crosses:`** seam, the convergence if any, and the tension that must not be merged away.
-3. **Links** - inbox pointer, transcript or episode links, profile URLs, and any verify reminders.
-4. **Open** - optional explicit **`batch-analysis | YYYY-MM-DD | A x B | crosses:...`** suggestion for grep membership.
-
-Do not add a second top-level **`##`** for the same day if that heading already exists. Append to the day's existing sections.
-
-### 3) Optional - daily inbox update
-
-- Add or extend a **`batch-analysis`** line when the host architecture expects it.
-- Append a minimal grep stub on its own line when you want a pure search hit:
-
-  `batch-analysis | YYYY-MM-DD | Short label | crosses:expert-a+expert-b`
-
-### 4) Optional - month meta update
-
-- Add one grep anchor line under the month's one-screen summary linking the exact **`batch-analysis`** stub to the daily seam anchor.
-
-### 5) Status receipt
-
-- Update the host's status or recent-work receipt surface when this weave closes real notebook work.
-
-## Guardrails
-
-- **WORK only** - not SELF, not EVIDENCE, not Voice, and not Record staging.
-- Do not treat digest or transcript quantities as wire-grade without the host's verify discipline.
-- Do not fold unrelated third experts into the seam without an explicit **`batch-analysis`** or operator request.
-- Do not write false convergence. The seam exists to place two experts in tension or coordination, not to pretend they now say the same thing.
-
-## See also
-
-- The host's notebook architecture for daily composition.
-- The host's expert-thread continuity surface.
-- The host's stable **`expert_id`** roster and crossing rules.
+**Preferred name (new work):** **`weave expert cross`** in strategy-codex / codex surfaces.
 
 
 ## Cursor / strategy-codex instance

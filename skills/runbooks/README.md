@@ -28,13 +28,21 @@ Validate with:
 python3 scripts/validate_skills.py
 ```
 
-## Catalog (initial)
+## Catalog
 
 | Runbook | Trigger (operator phrase) | Skills chain |
 |---------|---------------------------|--------------|
 | `source-to-daily-synthesis` | `runbook source to daily` / landed transcript → daily candidate | `statecraft-source-intake` → `state-synthesis` |
 | `source-to-transaction-fit` | `runbook transaction fit` / verified source → fit class | `statecraft-source-intake`, `state-synthesis` + transaction router sheet |
 | `transcript-to-state-note` | `runbook state note` / transcript wedge → one note | `statecraft-source-intake` → `state-note` |
+| `transcript-intake` | `runbook transcript intake` / ASR cleanup chain | `youtube-raw-input-transcript` → `transcript-cleanup` → `transcript-proper-noun-normalization` → `source-clean` |
+| `periodic-statecraft-review` | `runbook periodic review` / `runbook last30` | `last30days` or `monthly-deepening` → `statecraft-framework` → optional `statecraft-multi-lens` |
+| `civ-state-primary-text` | `runbook civ state primary text` | `civ-state` → `civ-state-primary-text-acquisition` |
+| `civ-state-volume-hardening` | `runbook civ state harden` | `civ-state` → `civ-state-volume-harden` |
+| `venture-ideation` | `runbook venture ideation` | `ideation-engine` → `mtp` → `abundance-native-ventures` |
+| `chapter-seeding` | `runbook chapter seed` | `arc-to-chapter-seeds` + PH/book Cursor skills |
+| `voice-profile-review` | `runbook voice profile review` | `voice-profile-panel` |
+| `mtp-coffee-dream` | `runbook mtp coffee dream` (reference) | → `venture-ideation` cadence table |
 
 ## Discovery ladder
 
@@ -48,4 +56,5 @@ Portable runbook markdown can be pasted into any agent host. See [docs/skills/cr
 
 - [skills/README.md](../README.md)
 - [skills/_schema.md](../_schema.md)
+- [docs/skills-map.md](../../docs/skills-map.md)
 - [docs/harness-architecture-map.md](../../docs/harness-architecture-map.md)

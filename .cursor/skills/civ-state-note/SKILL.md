@@ -1,9 +1,13 @@
 ---
 name: civ-state-note
-preferred_activation: civ-state note
 description: Promote one bounded CIV-STATE-adjacent argument from chat, daily synthesis, wire-verify, or archive intake into a reusable statecraft/notes/ object — with mandatory retrieve framing and source discipline parallel to civ-state-essay, but without public essay prose bands. Use when the operator says civ-state note, civ-state-note, promote civ-state note, or when a mechanism seam needs civilizational shelf anchors before it belongs on public/civ-state/.
+preferred_activation: civ-state note
+activation: civ-state note
 portable: true
 version: 0.1.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - work-strategy
@@ -11,7 +15,6 @@ tags:
 - statecraft
 - notes
 - promotion
-scope_class: repo-governed
 portable_source: skills/civ-state-note/SKILL.md
 synced_by: sync_portable_skills.py
 ---

@@ -1,9 +1,12 @@
 ---
 name: state-america
+description: Open the America statecraft lane directly. Use when the operator says state-america, America state skill, or wants America to carry a statecraft object through lawful authority, constitutional carry, bounded coercion, burden-sharing, or successor-stable settlement.
 preferred_activation: state-america
-description: "Open the America statecraft lane directly. Use when the operator says state-america, America state skill, or wants America to carry a statecraft object through lawful authority, constitutional carry, bounded coercion, burden-sharing, or successor-stable settlement."
+activation: state-america
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # State America
 
 `state-america` is the primary America lane machine. It is `README`-first and `helix`-default.

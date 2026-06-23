@@ -1,9 +1,12 @@
 ---
 name: state-china
+description: Open the China statecraft lane directly. Use when the operator says state-china, China state skill, or wants China to carry a statecraft object through order, continuity, anti-disorder legitimacy, administrative carry, route stability, or quiet leverage.
 preferred_activation: state-china
-description: "Open the China statecraft lane directly. Use when the operator says state-china, China state skill, or wants China to carry a statecraft object through order, continuity, anti-disorder legitimacy, administrative carry, route stability, or quiet leverage."
+activation: state-china
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # State China
 
 `state-china` is the primary China lane machine. It is `README`-first and `helix`-default.

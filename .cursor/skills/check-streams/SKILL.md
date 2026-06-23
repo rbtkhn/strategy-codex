@@ -1,17 +1,23 @@
 ---
 name: check-streams
-preferred_activation: check streams
 description: DEPRECATED 2026-06-21. Legacy alias for check-sources. Redirect to check sources / check sources watchlist. See CHECK-STREAMS-DEPRECATED.md.
+preferred_activation: check streams
+activation: check streams
 portable: true
 version: 0.5.0
-deprecated: 2026-06-21
-see: docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md
+category: legacy-redirect
+status: redirect
+replacement: check-sources
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
 - operator
 - deprecated
 - youtube
 portable_source: skills/check-streams/SKILL.md
 synced_by: sync_portable_skills.py
+deprecated: 2026-06-21
+see: docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md
 ---
 # DEPRECATED — Check streams
 
@@ -37,8 +43,4 @@ When the operator says **`check streams`**, say you are following **`check sourc
 
 ## Cursor / strategy-codex instance
 
-Grace-mar paths and commands for this repository (from `.cursor/skills/check-streams/`).
-
-**Deprecated 2026-06-21** — redirect to [check-sources](../check-sources/SKILL.md). See [CHECK-STREAMS-DEPRECATED.md](../../../docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md).
-
-When **`check streams`** triggers, follow **`check sources`** per the canonical skill.
+_(appendix missing: .cursor/skills/check-streams/CURSOR_APPENDIX.md)_

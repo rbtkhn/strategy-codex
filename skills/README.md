@@ -55,7 +55,7 @@ python3 scripts/sync_portable_skills.py --verify
 2. Add your own appendix: paths to *your* policy docs, account rules, and compliance notes.
 3. Keep `description` as **one line** (many hosts break multi-line YAML).
 
-**Spec:** [_schema.md](_schema.md) · **Manifest:** [manifest.yaml](manifest.yaml) · **Validate:** `python3 scripts/validate_skills.py` (default check after skill edits).
+**Spec:** [_schema.md](_schema.md) · **Manifest:** [manifest.yaml](manifest.yaml) · **Validate:** `python3 scripts/validate_skills.py` (default check after skill edits). Strict gates: `--strict-metadata`, `--strict-verification`. Inventory: `python3 scripts/generate_skill_inventory.py` → `runtime/artifacts/skill-inventory.md`. Map: [docs/skills-map.md](../docs/skills-map.md).
 
 **Runbooks:** [runbooks/](runbooks/) — composed multi-skill workflows (orchestration only; methodology stays in skills).
 
@@ -84,6 +84,8 @@ Goal: **skills are discovered** from repeated success; the repo makes capture **
 | **1 — Pointer** | [skill-candidates.md](skill-candidates.md) | One table row: date, working name, trigger phrase, pointer (commit / “this thread”). |
 | **2 — Draft** | [_drafts/](_drafts/) | Full near-final portable `SKILL.md`; no manifest yet. |
 | **3 — Listed** | `skills/<skill>/` + `manifest.yaml` | Portable core + appendix path; run `sync_portable_skills.py`. |
+
+**Draft expiration:** A draft under `_drafts/` older than **30 days** must be **promoted**, **merged**, **archived**, or **explicitly renewed** (validator emits info). See [docs/skills-map.md](../docs/skills-map.md).
 
 **Extract from session:** Use portable skill **`extract-skill-from-session`** (trigger **`save skill`**) — assessment + optional [skill-candidates.md](skill-candidates.md) row; full skill only on explicit operator ask. See `skills/extract-skill-from-session/SKILL.md` when listed in manifest.
 

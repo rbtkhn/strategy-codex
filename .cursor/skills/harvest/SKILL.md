@@ -1,9 +1,12 @@
 ---
 name: harvest
-preferred_activation: harvest
 description: "Cross-agent extraction ritual. Primary trigger: harvest. Reads the same on-disk class as bridge/coffee (instance paths + WORK territory history + git), then emits a structured Session Harvest Packet for pasting into a midstream agent session — analysis import, not cold start. Soft thread-depth heuristics (visible arc ~15–25 exchanges; optional session-transcript tail 200 lines or deep read). Does not end with coffee."
+preferred_activation: harvest
+activation: harvest
+category: operator-coherence
+status: active
+scope_class: repo-governed
 ---
-
 # Session Harvest (`harvest`)
 
 **Preferred activation (operator):** say the exact phrase **`harvest`**. **Aliases:** **`session harvest`**, **`export session`**, **`analysis handoff`**.

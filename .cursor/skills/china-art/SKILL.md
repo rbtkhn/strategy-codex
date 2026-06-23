@@ -1,9 +1,12 @@
 ---
 name: china-art
-preferred_activation: china-art
 description: "Apply the China civilization art lens to statecraft problems. Use when the operator says china-art, China art, Chinese art lens, or asks to test a China current event, transaction, clause, policy question, or settlement language through Chinese aesthetic memory: calligraphy, painting, music, architecture, sculpture, ritual object, garden, city, landscape, ceremony, infrastructure beauty, disciplined form, imperial continuity, refinement, face, harmony, or transaction stress tests."
+preferred_activation: china-art
+activation: china-art
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # China Art
 
 `china-art` is a WORK-only academy-statecraft command. It applies China's civilization art surface to operational statecraft judgment.

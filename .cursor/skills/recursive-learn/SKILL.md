@@ -1,9 +1,13 @@
 ---
 name: recursive-learn
-preferred_activation: recursive learn
 description: 'Governed session review and journal entry for reusable machine laws. SSOT journal: statecraft/recursive-learning-journal.md.'
+preferred_activation: recursive learn
+activation: recursive learn
 portable: true
 version: 0.2.5
+category: operator-coherence
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - statecraft

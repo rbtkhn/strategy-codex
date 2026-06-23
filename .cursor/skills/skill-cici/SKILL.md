@@ -1,9 +1,12 @@
 ---
 name: skill-cici
-preferred_activation: skill-cici
 description: "Cici / OB1 learning rhythm and day journal — distilled from cici-notebook. Two modes: (A) mentor in grace-mar with GitHub digest + inbox + optional full-day synthesis; (B) Xavier in Cici repo with the same section template, manual commit spine, governed-state checks. Triggers: skill-cici, cici journal, Cici day, OB1 learning log (legacy phrasing: xavier journal)."
+preferred_activation: skill-cici
+activation: skill-cici
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # skill-cici — Cici notebook baseline
 
 **Primary triggers:** **`skill-cici`**, **`cici journal`**, **`Cici day`**, **`OB1 learning log`**.

@@ -1,19 +1,24 @@
 ---
 name: check-streams
+description: DEPRECATED 2026-06-21. Legacy alias for check-sources. Redirect to check sources / check sources watchlist. See CHECK-STREAMS-DEPRECATED.md.
 preferred_activation: check streams
-description: 'DEPRECATED 2026-06-21. Legacy alias for check-sources. Redirect to check sources / check sources watchlist. See CHECK-STREAMS-DEPRECATED.md.'
+activation: check streams
 portable: true
 version: 0.5.0
-deprecated: 2026-06-21
-see: docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md
+category: legacy-redirect
+status: redirect
+replacement: check-sources
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
   - operator
   - deprecated
   - youtube
 portable_source: skills/check-streams/SKILL.md
 synced_by: sync_portable_skills.py
+deprecated: 2026-06-21
+see: docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md
 ---
-
 # DEPRECATED — Check streams
 
 **Status:** Deprecated **2026-06-21**. Do not treat **`check streams`** as the canonical skill name for new work.

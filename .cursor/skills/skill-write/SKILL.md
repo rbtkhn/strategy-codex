@@ -1,12 +1,12 @@
 ---
 name: skill-write
+description: "Primary activation tokens (strong): skill-write, strategy write, publish to Locals, VivaBarnesLaw / Duran, X trim, PH comment -> then read docs/skill-write/write-operator-preferences.md + write-shipping-checklist.md. Weak alias: bare \"write\" (ambiguous with code tasks) -> use strong tokens when you mean operator public copy. Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn -> substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested."
 preferred_activation: skill-write
-description: >-
-  Primary activation tokens (strong): skill-write, strategy write, publish to Locals, VivaBarnesLaw / Duran, X trim, PH comment -> then read docs/skill-write/write-operator-preferences.md + write-shipping-checklist.md.
-  Weak alias: bare "write" (ambiguous with code tasks) -> use strong tokens when you mean operator public copy.
-  Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn -> substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested.
+activation: skill-write
+category: domain-pack
+status: active
+scope_class: repo-governed
 ---
-
 # skill-write - operator publishing
 
 **Read first:** [`docs/skill-write/write-operator-preferences.md`](../../../docs/skill-write/write-operator-preferences.md)

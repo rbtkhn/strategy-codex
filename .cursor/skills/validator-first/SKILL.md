@@ -1,12 +1,10 @@
 ---
 name: validator-first
-description: >-
-  Run repo validators and check scripts before reading their source. Use when
-  the operator picks a menu letter for validate_*, sync_*, handoff-check,
-  routing pass, pin-cite validate, study-edition validate, or says run/check/pass
-  on a named script under scripts/.
+description: Run repo validators and check scripts before reading their source. Use when the operator picks a menu letter for validate_*, sync_*, handoff-check, routing pass, pin-cite validate, study-edition validate, or says run/check/pass on a named script under scripts/.
+category: truth-pipeline
+status: active
+scope_class: repo-governed
 ---
-
 # Validator-first
 
 **Goal:** Deliver **exit code + summary** in the **same turn** as the operator's pick. Avoid read/grep archaeology before the first run.

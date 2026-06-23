@@ -1,184 +1,29 @@
 ---
 name: ideation-engine
+description: Legacy alias for product-strategy ideation mode. Use product strategy or runbook venture ideation for new work.
 preferred_activation: ideation engine
-description: Generate approval-first Top 3 opportunity briefs from existing lanes, current assets, and source-backed signals for a solo operator.
+activation: ideation engine
 portable: true
-version: 0.2.0
+version: 0.3.0
+category: legacy-redirect
+status: redirect
+replacement: product-strategy
+scope_class: repo-governed
+review_date: 2026-12-31
 tags:
 - operator
 - entrepreneurship
-- strategy
-- opportunity
+- legacy-alias
 portable_source: skills/ideation-engine/SKILL.md
 synced_by: sync_portable_skills.py
 ---
-# Ideation Engine
+# Ideation engine (legacy alias)
 
-**Preferred activation (operator):** say **`ideation engine`**, **`weekly opportunity brief`**, **`new lane ideas`**, or **`opportunity scan`**.
+**Superseded by:** [product-strategy](../product-strategy/SKILL.md) **Ideation mode** · [venture-ideation.runbook.md](../runbooks/venture-ideation.runbook.md)
 
-Use this skill to generate grounded opportunity briefs from what already exists: active lanes, current assets, source-backed signals, operator constraints, and reusable capabilities.
+**Activation:** `ideation engine`, `opportunity scan`, `weekly opportunity brief` — execute product-strategy Ideation mode or venture-ideation runbook.
 
-The default posture is **approval-first**. This skill proposes. It does not stage, execute, spend money, create public posts, spawn lanes, or start automations.
-
-## When To Use
-
-- You want a weekly opportunity brief.
-- You want new project, micro-business, product, or service ideas grounded in existing work.
-- You have many active lanes and need to find the highest-leverage next opportunity.
-- You want a concise approval memo before investing time, tokens, or reputation.
-
-## Inputs
-
-Inspect the host's available equivalents:
-
-| Input | Portable placeholder |
-|-------|----------------------|
-| Operator identity / values / risk appetite | `<operator-profile>` |
-| Existing lanes, projects, or assets | `<active-lanes>` |
-| Source library or evidence base | `<source-library>` |
-| Recent work logs or cadence notes | `<recent-work>` |
-| Budget / time / compute constraints | `<budget-policy>` |
-| Approval inbox or decision process | `<approval-process>` |
-
-Prioritize existing lanes before new abstractions. An opportunity is stronger when it reuses something already built, documented, trusted, or connected.
-
-## Workflow
-
-1. **Gather signals**
-   - Read current lanes, recent work, source-backed notes, and constraints.
-   - If source signal is thin, say so and recommend a broader scan instead of inventing demand.
-   - Check whether the strongest opportunity is actually an extension of an existing lane rather than a new surface.
-2. **Generate candidates**
-   - Produce a small set of plausible opportunities.
-   - Prefer ideas that connect at least two existing assets, lanes, skills, or relationships.
-3. **Score simply**
-   - Score each candidate from 1-5 on the rubric below.
-   - Use short explanations instead of false precision.
-4. **Select Top 3**
-   - Return exactly three opportunity briefs unless the operator asks for a wider portfolio.
-   - Include one recommended winner when the evidence supports it.
-5. **Prepare approval memo**
-   - Recommend approve, refine, extend-existing, or archive.
-   - Name the first reversible next step.
-
-## Grounding checks
-
-Before ranking, ask:
-
-1. Is the demand signal sourced, observed, or merely analogical?
-2. Is there already an owning lane, memo, or experiment that should be extended instead of cloned?
-3. Are time, budget, reputation, or trust constraints strong enough to change the ranking?
-4. Would a thinner but more reversible move be more honest than a fresh project claim?
-
-## Fatigue and Residue Handling
-
-Use decision-fatigue safeguards to keep creative generation useful rather than sprawling.
-
-- **Default to Top 3.** Do not expand into a long idea list unless the operator asks for a wider portfolio.
-- **Use single-idea mode when load is high.** If recent work shows heavy context, many open lanes, or repeated re-routing, return one best idea plus one reversible next step.
-- **Park residue explicitly.** If useful ideas do not fit the Top 3, name them as parked runners-up or a brief closeout note for the host's normal dream, bridge, or handoff surface.
-- **Do not auto-route.** Dream, bridge, and conductor rollups may carry residue when the host already supports that, but this skill does not trigger them or write handoff manifests by itself.
-- **Keep the gate boundary.** Ideation outputs are WORK approval memos by default. Do not stage them to a Record gate unless the operator explicitly asks for a Record-bearing candidate.
-
-## Scoring Rubric
-
-Score 1-5:
-
-| Dimension | Question |
-|-----------|----------|
-| **Existing-lane leverage** | Does this reuse current assets, documents, relationships, scripts, or habits? |
-| **Identity fit** | Does it fit the operator's documented taste, values, risk appetite, and constraints? |
-| **Feasibility** | Can the first useful version happen with available time, tools, and budget? |
-| **Proof strength** | Are there sources, receipts, or observed demand rather than vibes alone? |
-| **Risk** | Are reputational, financial, regulatory, or trust risks bounded and visible? |
-
-Risk scoring convention:
-
-- `5` = low / bounded risk,
-- `1` = high / poorly understood risk.
-
-## Output Template
-
-```markdown
-## Weekly Opportunity Brief - [Date]
-
-**Inputs checked:** [active lanes, recent work, source library, budget constraints]
-**Cycle quality:** strong / mixed / thin
-**Duplicate-lane check:** clear / extend existing / unresolved
-
-### Top 3 Opportunities
-
-#### 1. [One-line hook]
-
-**Why this fits now:** [source-backed reason]
-
-| Dimension | Score | Note |
-|-----------|-------|------|
-| Existing-lane leverage | 1-5 |  |
-| Identity fit | 1-5 |  |
-| Feasibility | 1-5 |  |
-| Proof strength | 1-5 |  |
-| Risk | 1-5 |  |
-
-**First reversible step:** [smallest useful action]
-**Estimated effort / budget:** [rough range]
-**Success metric:** [what would count as early proof]
-**Kill criteria:** [when to stop]
-**Evidence basis:** [observed / sourced / analogical / mixed]
-**Approval memo:** approve / refine / extend-existing / archive - [reason]
-
-#### 2. [One-line hook]
-
-[same compact shape]
-
-#### 3. [One-line hook]
-
-[same compact shape]
-
-**Recommended operator move:** [one sentence]
-**Residue / parked runners-up:** [optional one-line note; no automatic handoff]
-```
-
-## Guardrails
-
-- **Approval-first** - Do not execute, stage, spend, publish, create lanes, or start automations.
-- **Fatigue-aware bounds** - Prefer Top 3 or single-idea mode; do not keep branching after a clear recommended move.
-- **Source discipline** - Do not invent market size, demand, pricing, or competitor facts.
-- **Existing-lane bias** - Prefer leverage from current assets before proposing new surfaces.
-- **No duplicate-lane sprawl** - If an existing lane or note already owns the opportunity, prefer extending it and say so explicitly.
-- **Thin-cycle honesty** - If evidence is weak, say "thin cycle" and recommend what to inspect next.
-- **Risk visibility** - Public-facing ideas must flag verification, identity, trust, regulatory, and reputation issues.
-- **No silent proliferation** - New lanes or projects require explicit human approval through the host's decision process.
-- **No automatic residue pipeline** - Do not trigger dream, bridge, conductor, regeneration, or Record staging from an ideation burst.
-
-## Unresolved Tensions
-
-Keep these tensions visible instead of smoothing them into false certainty:
-
-| Tension | Watchpoint |
-|---------|------------|
-| **Optimism vs proof** | Strong ideas should feel energizing, but the brief must still separate observed demand from hope, analogy, or taste. |
-| **Existing-lane leverage vs fresh opportunity** | Reusing current assets is preferred, but do not overfit to stale lanes when a source-backed opening clearly points elsewhere. |
-| **Speed vs authority** | The skill can shorten decision cycles, but approval remains a human act; faster packaging is not permission to execute. |
-| **Risk visibility vs risk paralysis** | Name financial, reputational, regulatory, and trust risks without turning every uncertainty into a veto. |
-| **Top 3 clarity vs portfolio richness** | The default answer is three briefs, but the notes may preserve promising runners-up when they explain the shape of the opportunity field. |
-
-## Collaboration Norms
-
-- Keep the first answer concise: Top 3 first, details second.
-- Use grounded builder language: practical, optimistic, and allergic to fake certainty.
-- Treat approval memos as decision support, not authorization.
-- Ask for more context only when missing constraints would materially change the ranking.
-
-## Related Future Skills
-
-Future companion skills may include:
-
-- `opportunity-scoring` for deeper weighted scoring,
-- `model-router` for budget-aware model selection,
-- `work-lane-spawner` for approved lane-start packets.
-
-Do not assume those skills exist unless the host provides them.
+**Preferred name (new work):** **`product strategy`** or **`runbook venture ideation`**
 
 
 ## Cursor / strategy-codex instance

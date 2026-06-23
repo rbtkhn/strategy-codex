@@ -1,9 +1,13 @@
 ---
 name: first-wave-service-sales
-preferred_activation: first-wave sales
 description: 'Turn a bounded service offer into the first live sales wave: shape a close-fit shortlist, draft and personalize outreach, run a send checklist, log real contact, route first replies, capture objections, and hand off cleanly to call or proposal.'
+preferred_activation: first-wave sales
+activation: first-wave sales
 portable: true
 version: 0.1.0
+category: product-narrative
+status: active
+scope_class: repo-governed
 tags:
 - operator
 - sales

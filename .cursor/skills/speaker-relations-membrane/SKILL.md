@@ -1,13 +1,12 @@
 ---
 name: speaker-relations-membrane
+description: Audit or repair the membrane between speaker continuity folders and neutral cross-speaker relation notes in strategy-codex. Use when a note looks like `speaker A vs speaker B`, when comparison/tension material is living inside one speaker shelf, or when a move to `codex/speakers/relations/` should be paired with README, index, and orthogonality-review rewiring.
 preferred_activation: speaker membrane
-description: >-
-  Audit or repair the membrane between speaker continuity folders and neutral
-  cross-speaker relation notes in strategy-codex. Use when a note looks like
-  `speaker A vs speaker B`, when comparison/tension material is living inside one
-  speaker shelf, or when a move to `codex/speakers/relations/` should be paired
-  with README, index, and orthogonality-review rewiring.
+activation: speaker membrane
 version: 0.1.0
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - strategy-codex
@@ -15,7 +14,6 @@ tags:
   - membrane
   - relations
 ---
-
 # speaker-relations-membrane
 
 **Preferred activation (operator):** say **`speaker membrane`**.

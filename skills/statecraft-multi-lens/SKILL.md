@@ -1,9 +1,13 @@
 ---
 name: statecraft-multi-lens
+description: Compare one live statecraft object through a broad bench of dual-lens and tri-lens presets to separate trap, threshold, architecture, legitimacy, order-transition, and practical-room questions. Defaults to bounded analysis in chat and includes a built-in review loop so presets can later be judged, merged, demoted, or retired.
 preferred_activation: statecraft multi-lens
-description: "Compare one live statecraft object through a broad bench of dual-lens and tri-lens presets to separate trap, threshold, architecture, legitimacy, order-transition, and practical-room questions. Defaults to bounded analysis in chat and includes a built-in review loop so presets can later be judged, merged, demoted, or retired."
+activation: statecraft multi-lens
 portable: true
 version: 0.2.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
@@ -11,7 +15,6 @@ tags:
   - lenses
   - doctrine
 ---
-
 # Statecraft multi-lens
 
 **Preferred activation (operator):** say **`statecraft multi-lens`**.

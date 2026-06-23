@@ -1,17 +1,17 @@
 ---
 name: skill-jiang
+description: "Blind forward prediction on Jiang Predictive History: prefix-only lectures (NN ≤ k), predict k+1, reveal, score. Canonical audit: lecture-forward-chain-gt-BLIND-prefix-only.md. Volume IV game-theory-NN. WORK only; not Record."
 preferred_activation: skill-jiang
-description: >-
-  Blind forward prediction on Jiang Predictive History: prefix-only lectures (NN ≤ k),
-  predict k+1, reveal, score. Canonical audit: lecture-forward-chain-gt-BLIND-prefix-only.md.
-  Volume IV game-theory-NN. WORK only; not Record.
+activation: skill-jiang
 version: 0.5.1
+category: domain-pack
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-jiang
   - predictive-history
 ---
-
 # skill-jiang (forward chain)
 
 **Preferred activation (operator):** say the exact phrase **`skill-jiang`**. **Aliases:** **`jiang next lecture`**, **`gt forward chain`**.

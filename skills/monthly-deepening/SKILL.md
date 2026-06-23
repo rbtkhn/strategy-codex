@@ -3,6 +3,9 @@ name: monthly-deepening
 description: Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, month-route judgment, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write.
 portable: true
 version: 0.5.1
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - strategy
@@ -11,7 +14,6 @@ tags:
   - transcript
   - inventory
 ---
-
 # Monthly Deepening
 
 ## Overview

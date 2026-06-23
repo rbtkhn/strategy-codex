@@ -1,15 +1,17 @@
 ---
 name: statecraft-helix-synthesis
-description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above already-mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/states. Do not use for first-wave lane construction, governing-pair diagnosis, or CIV-STATE front-door/volume hardening."
+description: Build helix-first repo-root statecraft synthesis and retrieval surfaces above already-mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/states. Do not use for first-wave lane construction, governing-pair diagnosis, or CIV-STATE front-door/volume hardening.
 portable: true
 version: 0.1.0
+category: judgment-enhancement
+status: active
+scope_class: repo-governed
 tags:
   - operator
   - work-strategy
   - statecraft
   - synthesis
 ---
-
 # Statecraft Helix Synthesis
 
 Use this skill to build the helix-first synthesis and retrieval layer above mature repo-root statecraft lanes.

@@ -1,15 +1,12 @@
 ---
 name: statecraft-guidebook-writer
+description: "Write or refine Part 3 statecraft synthesis essays in statecraft/states, especially `statecraft-<civ>.md` chapters. Use when the operator wants a present-tense guidebook for modern statesmen: operational synthesis that turns Civilization and Empire into a live diplomatic read through order, legitimacy, equilibrium, and judgment under pressure without collapsing into recap or policy memo."
 preferred_activation: statecraft-guidebook-writer
-description: >-
-  Write or refine Part 3 statecraft synthesis essays in statecraft/states,
-  especially `statecraft-<civ>.md` chapters. Use when the operator wants a
-  present-tense guidebook for modern statesmen: operational synthesis that turns
-  Civilization and Empire into a live diplomatic read through order,
-  legitimacy, equilibrium, and judgment under pressure without collapsing into
-  recap or policy memo.
+activation: statecraft-guidebook-writer
+category: product-narrative
+status: active
+scope_class: repo-governed
 ---
-
 # Statecraft Guidebook Writer
 
 Use this skill to write the Part 3 `statecraft-<civ>.md` layer as a real statesman's guidebook chapter.
