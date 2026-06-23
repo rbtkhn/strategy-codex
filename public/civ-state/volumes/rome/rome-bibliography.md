@@ -4,7 +4,7 @@
 
 **Current coverage:** civic-chain four + **carthage** + **egypt** — genesis · republic · caesar · augustus · carthage · egypt (verified 2026-06-22).
 
-For the upstream retrieve shelf (era doors, full corpus), see [source-shelf.md](source-shelf.md) → [`sources/rome/bibliography.md`](../../sources/rome/bibliography.md). For operator offline PD acquisition (witness manifest; files stay outside git), see [rome-pd-acquisition-manifest.yaml](rome-pd-acquisition-manifest.yaml).
+For the upstream retrieve shelf (era doors, full corpus), see [source-shelf.md](source-shelf.md) → [`sources/rome/bibliography.md`](../../sources/rome/bibliography.md). For operator offline PD acquisition (witness manifest; files stay outside git), see [rome-pd-acquisition-manifest.yaml](rome-pd-acquisition-manifest.yaml) and local disk layout [library/README.md](../../../../library/README.md).
 
 **When the next `essay-rome-*` node goes active:** scan that essay for new sources; append deduped entries here in the same ship turn (`civ-state-essay` § Essay citation inventory).
 
