@@ -9,10 +9,13 @@ host: Glenn Diesen
 guest: Col. Jacques Baud
 title: "Col. Jacques Baud: Russia Pursues Military Solution as Diplomacy Fails"
 channel_url: "https://www.youtube.com/@GlennDiesen/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=Fp-h0EoT-QI"
-source_note: "Automated YouTube transcript fetch for Glenn Diesen."
+source_note: Automated YouTube transcript fetch for Glenn Diesen.
+transcript_wrapper_tier: clean
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
+
 # Col. Jacques Baud: Russia Pursues Military Solution as Diplomacy Fails
 Hi everyone and welcome. I'm joined today by Colonel Jax Bow, a retired general staff's colonel and uh in the Swiss Strategic Intelligence Services and also um a very prolific author as many of you have probably read at least some of his books. So uh yeah, welcome back to the program. You for having me in your show. Thank you. So uh Trump tends to go a bit back and forth. uh it's uh he seemingly genuinely wants to end this proxy war, but he doesn't seem to be making any headway. So um he speaks about this being Biden's
 
@@ -74,7 +77,7 @@ of permanent state of war with the rest of the world. They managed to have war a
 
 a little bit less today, but nevertheless this new Europe Europe was the the the this Europe that would require to have an enemy. And in fact, I spent five years into in NATO within NATO and I could see the influence of the new Europe in the thinking that you have within NATO because in in NATO when you talk and when I talk to my peers basically other colonels. So that's that's a rather high level in in NATO by the way. And when we talked about the situation, we could see a difference between the French, Italian, even
 
-British by the way or Germans uh uh as it comes to international relations. whereas the eastern European countries had a much more aggressive stance towards Russia and all that. So we we see that NATO is very strongly influenced by those countries and it's probably not a coincidence that you have Kayakalas as member of one of the smallest country of the European Union which is nevertheless leading the uh foreign policy of the European Union. So that shows the importance of this and that's a a massive change in in the
+British by the way or Germans uh uh as it comes to international relations. whereas the eastern European countries had a much more aggressive stance towards Russia and all that. So we we see that NATO is very strongly influenced by those countries and it's probably not a coincidence that you have Kaja Kallas as member of one of the smallest country of the European Union which is nevertheless leading the uh foreign policy of the European Union. So that shows the importance of this and that's a a massive change in in the
 
 whole both European and NATO mindset uh and and that change our perspective. So today we we feel that we have an enemy which is Russia. And suddenly this Russia which used to be weak, bad le, no weapons, no ammunition and things like this for three years today has become the first military threat to Europe and therefore we should have 800 billion euros to reconstruct a military-industrial complex. So we we there is a lot of intellectual dishonesty into that. We see that the the in who to say that politics in fact takes over the
 

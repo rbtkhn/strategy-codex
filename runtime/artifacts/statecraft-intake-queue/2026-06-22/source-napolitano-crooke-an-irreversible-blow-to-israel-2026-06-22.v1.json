@@ -1,0 +1,20 @@
+{
+  "schema_version": "statecraft-intake-sidecar.v1",
+  "source_path": "source-archive/statecraft/2026-06-22/source-napolitano-crooke-an-irreversible-blow-to-israel-2026-06-22.md",
+  "pub_date": "2026-06-22",
+  "synthesis_status": "queued",
+  "rated_at": "2026-06-22T15:17:11Z",
+  "non_canonical": true,
+  "source_url": "https://www.youtube.com/watch?v=enmsuDrZdqw",
+  "actors": [
+    "Judge Andrew Napolitano",
+    "Alastair Crooke"
+  ],
+  "regions": [],
+  "mechanisms": [],
+  "strategic_relevance": null,
+  "confidence": null,
+  "transaction_candidate": null,
+  "reasoning": "source_form=interview; threads=crooke; thread_expert=crooke",
+  "digest_rank": null
+}

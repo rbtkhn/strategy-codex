@@ -14,7 +14,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 ## Stats
 
 - Distinct YouTube channel keys: `14`
-- YouTube source files mapped: `1436`
+- YouTube source files mapped: `1453`
 - Rows with explicit `channel_slug`: `14`
 - Watchlist channels (matched): `6`
 - Check-sources roster (main, misc excluded): `14` — [channel-index.json](./channel-index.json)
@@ -24,16 +24,16 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 
 | Channel slug | Label | Files | Days | Watchlist | Channel URL | First day | Last day |
 | --- | --- | ---: | ---: | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | 365 | 336 | yes | [open](https://www.youtube.com/@AlexMercouris) | `2025-01-03` | `2026-06-20` |
-| `dialogue-works` | Dialogue Works | 304 | 192 | yes | [open](https://www.youtube.com/@dialogueworks01) | `2025-01-04` | `2026-06-20` |
-| `daniel-davis` | Daniel Davis / Deep Dive | 245 | 141 | yes | [open](https://www.youtube.com/@DanielDavisDeepDive) | `2025-01-01` | `2026-06-20` |
-| `glenn-diesen` | Glenn Diesen | 209 | 171 | yes | [open](https://www.youtube.com/@GDiesen1) | `2023-01-14` | `2026-06-19` |
-| `judging-freedom` | Judge Napolitano - Judging Freedom | 203 | 135 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-19` |
+| `alexander-mercouris` | Alexander Mercouris | 366 | 337 | yes | [open](https://www.youtube.com/@AlexMercouris) | `2025-01-03` | `2026-06-21` |
+| `dialogue-works` | Dialogue Works | 305 | 193 | yes | [open](https://www.youtube.com/@dialogueworks01) | `2025-01-04` | `2026-06-22` |
+| `daniel-davis` | Daniel Davis / Deep Dive | 252 | 148 | yes | [open](https://www.youtube.com/@DanielDavisDeepDive) | `2025-01-01` | `2026-06-20` |
+| `glenn-diesen` | Glenn Diesen | 211 | 172 | yes | [open](https://www.youtube.com/@GDiesen1) | `2023-01-14` | `2026-06-19` |
+| `judging-freedom` | Judge Napolitano - Judging Freedom | 205 | 136 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-22` |
 | `mario-nawfal` | Mario Nawfal | 46 | 27 |  | [open](https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA) | `2026-05-12` | `2026-06-19` |
-| `india-and-global-left` | India and Global Left | 20 | 20 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2025-02-22` | `2026-06-11` |
+| `india-and-global-left` | India and Global Left | 21 | 21 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2025-02-22` | `2026-06-11` |
 | `predictive-history` | Predictive History | 11 | 9 |  | [open](https://www.youtube.com/@PredictiveHistory) | `2026-04-14` | `2026-06-10` |
+| `neutrality-studies` | Neutrality Studies | 10 | 8 |  | [open](https://www.youtube.com/@neutralitystudies) | `2025-02-06` | `2026-06-20` |
 | `breaking-points` | Breaking Points | 7 | 6 |  | [open](https://www.youtube.com/@BreakingPoints) | `2026-04-29` | `2026-06-17` |
-| `neutrality-studies` | Neutrality Studies | 7 | 6 |  | [open](https://www.youtube.com/@neutralitystudies) | `2025-02-06` | `2026-06-20` |
 | `tucker-carlson` | Tucker Carlson | 6 | 6 |  | [open](https://www.youtube.com/@TuckerCarlson) | `2025-03-11` | `2026-06-15` |
 | `reason-to-resist` | Reason to Resist | 5 | 5 |  | [open](https://www.youtube.com/@reason2resist) | `2026-05-18` | `2026-06-18` |
 | `redacted-news` | Redacted News | 5 | 4 | yes | [open](https://www.youtube.com/@RedactedNews) | `2026-04-20` | `2026-06-16` |

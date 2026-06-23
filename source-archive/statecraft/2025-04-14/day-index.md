@@ -9,12 +9,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (2)
+- Body kind mix: `cleaned-transcript` (1), `transcript` (1)
 - Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
-- Distinct hosts: `1`
+- Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -22,9 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1)
+- Hosts: `Alexander Mercouris` (1), `Judish Raj` (1)
 - Guests: `John Mearsheimer` (1)
-- Threads: `mearsheimer` (1), `mercouris` (1)
+- Threads: `india-and-global-left` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=n3rEcfGf1T4) | `source-alex-mercouris-moscow-says-300-kiev-troops-trapped-in-church-more-russian-advances-us-china-standoff-grows-2025-04-14.md` |
-| `india-and-global-left` | India and Global Left | `mearsheimer` | [NV2FBf_cOg8](https://www.youtube.com/watch?v=NV2FBf_cOg8) | `source-india-and-global-left-heated-us-china-debate-john-mearsheimer-2025-04-14.md` |
+| `india-and-global-left` | India and Global Left | `mearsheimer`, `india-and-global-left` | [NV2FBf_cOg8](https://www.youtube.com/watch?v=NV2FBf_cOg8) | `source-india-and-global-left-heated-us-china-debate-john-mearsheimer-2025-04-14.md` |
 
 ## Writer sources
 

@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-20
 pub_date: 2025-09-20
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: glenn-diesen
 show: Glenn Diesen
@@ -9,17 +9,21 @@ host: Glenn Diesen
 guest: Michael Hudson
 title: "Michael Hudson: Europe's Stockholm Syndrome"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=PCDcpc2UNTE"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 body_word_count: 8092
 body_chars: 44241
 verification_ok: true
-verification_reason: "sourceChars=44241; bodyChars=44241; exactMatch=True before normalized repairs"
+verification_reason: sourceChars=44241; bodyChars=44241; exactMatch=True before normalized repairs
 evidence_grade: transcript-bearing
-source_note: "Mechanically extracted from local Codex session log after operator pasted the YouTube transcript; not independently fetched from YouTube subtitles."
+source_note: "Mechanically extracted from local Codex session log after operator pasted the YouTube transcript; not independently fetched from YouTube subtitles. · source-clean pass 2026-06-22."
+transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (glenn-diesen, channel:glenn-diesen)); 1 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-22; ph-civ replacement SSOT."
 ---
 # Michael Hudson: Europe's Stockholm Syndrome
 
@@ -78,7 +82,7 @@ That's a crime in Germany because uh you're saying that the Palestinians are hum
  uh the Europeans imagined that somehow they or really the Americans won World War II and uh all the Americans did was pretty much put them on rations. It's it uh uh it charged for the effort. Uh and it it it they came in at the end. Uh they they very quickly ended uh World War II in Japan by using the atom bomb in Japan before the Russians had a chance to drive the Japanese out and uh lead to a uh communist uh domination of Japan and uh they the same thing happened in uh uh in in Western Europe.
  The Americans delayed and delayed and delayed. The Americans wanted the European war to continue as long as it could, as long as it was killing Russians and Japanese. And the Europeans went along with this. This is how the Russian histories see the war. It's how the Chinese histories see the war. That's not how the Europeans see the war.
  They think, well, we beat Russia before with American help. We can do it again with American help. in this way just as we carved up uh the Near East uh after World War II and Africa uh between uh France, Germany, France, England uh and the United States uh we can do it all again. This is there's this myth uh of that has somehow created a false narrative guiding how Europeans think about what they can achieve in the future.
- And it's a false narrative that is almost suicidally selfdeceptive. Well, uh on on that fact and it has to be stressed as a fact that the uh Russians and the Chinese or more correctly the Soviets and the Chinese were the ones who uh yeah did a heavy burden carried the heavy burden in terms of defeating fascism. But recently you have the Kayakalas the EU foreign policy chief mocking it saying oh this uh Chinese and Russians they're claiming that they defeat fascism.
+ And it's a false narrative that is almost suicidally selfdeceptive. Well, uh on on that fact and it has to be stressed as a fact that the uh Russians and the Chinese or more correctly the Soviets and the Chinese were the ones who uh yeah did a heavy burden carried the heavy burden in terms of defeating fascism. But recently you have the Kaja Kallas the EU foreign policy chief mocking it saying oh this uh Chinese and Russians they're claiming that they defeat fascism.
  Oh, they don't read books over there. Like, we know that uh I'm not sure, you know, I think she watches a lot of movies perhaps as well, thinking maybe World War II was won by Tom Hanks. I'm not sure where her information comes from, but she even mocked the idea in front of camera that this was the case. There's a different set of books.
 There's one set of books for the majority of the world population. The German history books and the French history books and the American the English history books have all been rewritten from uh in a more and more extreme distortion of uh what actually happened. But there was uh there's been um polls over the decades since World War II from France and other countries where they ask you know who is who was most um who was who cared the greatest well who more or less did the most to liberate France and save Europe from from fascism and
 immediately after World War II in France I think it's like 85 90% who said well obviously it was the Soviets and then you see through the decades of powerful propaganda and it ends up now the most recent one with a tiny minority. I think it's like 18 or 21% who believed it's uh the Soviet Union who did the most to defeat Nazi Germany.

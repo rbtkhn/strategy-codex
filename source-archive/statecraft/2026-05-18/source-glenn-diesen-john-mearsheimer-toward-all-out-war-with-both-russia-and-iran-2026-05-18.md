@@ -9,12 +9,15 @@ host: Glenn Diesen
 guest: John Mearsheimer
 title: "John Mearsheimer: Toward All-Out War With Both Russia & Iran"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=Dx7osj5gCmo"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim."
+source_note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
+transcript_wrapper_tier: clean
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
+
 # John Mearsheimer: Toward All-Out War With Both Russia & Iran
 
 Welcome back. We are joined again by Professor John Mirshimer to discuss the events of the world. Uh thank you as always for coming back on. You're welcome, Glenn. I'm glad to be here. So, uh, it's starting to feel like we're already in a third world war, third world war here because, uh, as you saw the weekend attacks on Moscow, they were quite extensive and, uh, I at least go with the assumption that this had some form of Western assistance.
@@ -37,7 +40,7 @@ And if that means we have to pursue a really risky strategy, so be it. So I thin
  They're desperate to keep the Europeans involved in the fight and therefore they want to convince the Europeans that they can do things to the Russians that will turn the tide one way or another. So the Ukraine eur excuse me, so the Ukrainians have very powerful incentives uh to up the ante. Uh and the Russians now have very powerful incentives to up the ante.
  The Europeans have powerful incentives to up the ante. And there's no bargaining space here. So this just tells you we're going to go up the escalation ladder. And as you and I both know, this is not going to have a happy ending. Uh and if we go back to Iran, which I don't want to get into it any detail at this point in time, you can tell a similar story.
  Uh so we're in deep trouble both in the Middle East and in Ukraine. Well, like I said, another commonality though between Iran war and the Ukraine war is uh uh the the absence of diplomacy. I think uh well if you look in in Europe they they're still discussing whether or not they should talk to Russia if they should talk to Russia who should represent the Europeans.
- Um you have people you have I saw Politico publishing that Kayakalas should uh not uh according to some EU diplomats given that uh well she's highly problematic. she's not going to be able to get anywhere with the Russians. And uh you know, if if you decide to talk to the Russians, decide on who should represent the Europeans, then they also have to agree on a common position.
+ Um you have people you have I saw Politico publishing that Kaja Kallas should uh not uh according to some EU diplomats given that uh well she's highly problematic. she's not going to be able to get anywhere with the Russians. And uh you know, if if you decide to talk to the Russians, decide on who should represent the Europeans, then they also have to agree on a common position.
  And again, we seem to be very very far away from even sitting down and talking to the Russians. Meanwhile, while this is so difficult to make diplomacy work, uh going up the escalation ladder seem to happen without any debate or a second thought at all. Uh it's yeah it's quite hard to believe this is actually real but how do you make sense of this though the the breakdown in diplomacy overall because it's a it's a common theme we've seen around the world that is uh it's not work we're not able to negotiate anything with the significant with the
 Chinese at least that's how I saw it with the Russians the Iranians uh is it simply too many changes happening at once or how do you make sense of the consistent failure of diplomacy >> well I think if you look at the Ukraine conflict. Um the key to understanding why there's zero bargaining space is that from Russia's point of view, uh the Ukrainian and European positions represent an existential threat.
  Um, and obviously from Ukraine's point of view, and I think increasingly from Europe's point of view, Russia's position, Russia's success in Ukraine represents an existential threat. So you have two sides here, the Europeans and the Ukrainians on one side and the Russians on the other side who see this as a war between two sides that are determined to fight to the finish and there's no room for bargaining here with an existential threat.

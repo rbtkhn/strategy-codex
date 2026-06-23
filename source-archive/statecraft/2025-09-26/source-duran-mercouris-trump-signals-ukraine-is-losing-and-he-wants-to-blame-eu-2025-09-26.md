@@ -7,17 +7,20 @@ show: The Duran
 host: Alex Christoforou
 guest: Alexander Mercouris
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=1_VGoONLNYQ
+source_url: "https://www.youtube.com/watch?v=1_VGoONLNYQ"
 source_note: User-pasted cleaned YouTube transcript. Pub date assigned as 2025-09-26 from external podcast mirrors because the transcript body does not carry a spoken date.
 title_slug: transcript-duran-mercouris-trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu-2025-09-26
 editorial_note: Preserve as raw cleaned transcript. Routes to Mercouris because this is a Duran-hosted Mercouris object with Christoforou prompts and Mercouris analysis.
+transcript_wrapper_tier: clean
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
+
 # The Duran / Alexander Mercouris - Trump signals Ukraine is losing and he wants to blame EU
 
 All right, Alexander, let's uh talk about Trump's truth social post and uh the comments that he made during meetings he held on the sidelines of the UN General Assembly uh event. So uh the the debate about that Trump Truth Social Post uh which is which is getting everyone's attention is whether Trump meant it or whether he was uh being sarcastic.
 What's what's your take on it? Well, I have no doubt at all that he was being sarcastic. In fact, I think if you read it carefully. Uh um it's absolutely clear that that is what he think he he intends. I mean, he starts the true social post by saying that he's now finally got to fully understand the military re and economic realities of this conflict.
  Now, I mean, that is absurd. I mean, I don't think anybody takes that seriously, and I don't think we it's we are intended to take it seriously. We've just had this whole procession of claims and statements from Kellogg, from Zelensky, from various European officials that in fact it is Ukraine that is winning the war, that it is Russia that is losing it.
- We have endless claims from Kaakalis Usulon the lion and others about how uh the sanctions have brought the Russian economy to the point of crisis and total collapse. What Trump is doing here is he's taking all that narrative and he's turning it round and he's throwing it into the faces of those who are saying it.
+ We have endless claims from Kaja Kallas Usulon the lion and others about how uh the sanctions have brought the Russian economy to the point of crisis and total collapse. What Trump is doing here is he's taking all that narrative and he's turning it round and he's throwing it into the faces of those who are saying it.
  He's saying to them, "Look, if things are as you say, if Ukraine is really winning the war, if Russia's economy is really in the mess that you say, why do you need security guarantees, more weapons from me, and extra sanctions?" Because um all of that is unnecessary. just go on just go on pushing a little longer and you will win and you'll get all the things you want and you don't need any further help from me.
  And there is a very interesting article today in the Financial Times in which they the it says that that is what European officials and leaders are saying to each other. They were they um heard what Trump said to Zelensky. They read that truth social post, but they're all saying to each other what Trump is doing is that he's walking away from the conflict in Ukraine and is preparing to blame them for the eventual defeat that is going to happen there.
  And it is in the financial times. Yeah, it's a clumsy way of uh of walking away, I have to admit. And it's not a very uh strong way to to walk away. It's a it's a bit of of uh of trickery in in a way, right? He's he wants to present uh his his position as being pro- Ukraine when uh when in fact he's he's um he's trying to extract himself from uh from project Ukraine at least at least himself.

@@ -121,6 +121,45 @@ def test_apply_replacements_fixes_residual_hegseth_context_variants() -> None:
     assert counts["hegseth_tail_token"] == 9
 
 
+def test_apply_replacements_fixes_eu_iran_negotiation_cluster() -> None:
+    text = (
+        "Keith Stormer and Kayak Kalas met while Kayakalas spoke.\n"
+        "theuou and noou were discussed; the theou was planned; sign theou later.\n"
+        "Lean River and Leani River; Benavir; in the EES; Enquury; Tatari government.\n"
+    )
+
+    updated, counts = fix.apply_replacements(text)
+
+    assert "Keith Stormer" not in updated
+    assert "Kayak Kalas" not in updated
+    assert "Kayakalas" not in updated
+    assert "theuou" not in updated
+    assert "noou" not in updated
+    assert "the theou was" not in updated
+    assert "sign theou" not in updated
+    assert "Lean River" not in updated
+    assert "Leani River" not in updated
+    assert "Benavir" not in updated
+    assert "in the EES" not in updated
+    assert "Enquury" not in updated
+    assert "Tatari government" not in updated
+    assert "Keith Starmer" in updated
+    assert updated.count("Kaja Kallas") == 2
+    assert "MOU" in updated
+    assert updated.count("Litani River") == 2
+    assert "Netanyahu" in updated
+    assert "in the EEAS" in updated
+    assert "Anchorage" in updated
+    assert "Qatar government" in updated
+    assert counts["starmer_keith_stormer"] == 1
+    assert counts["kallas_kayak_kalas"] == 1
+    assert counts["kallas_kayakalas"] == 1
+    assert counts["mou_theuou"] == 1
+    assert counts["mou_noou"] == 1
+    assert counts["litani_lean_river"] == 1
+    assert counts["litani_leani_river"] == 1
+
+
 def test_apply_replacements_skips_markdown_link_paths_and_urls() -> None:
     line = (
         "- [source-mercouris-oil-crisis-aragchi-russia-2026-03-06.md]"

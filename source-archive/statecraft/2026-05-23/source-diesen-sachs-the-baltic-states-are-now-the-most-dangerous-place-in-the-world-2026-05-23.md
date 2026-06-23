@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-24
 pub_date: 2026-05-23
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: diesen
 show: Glenn Diesen
@@ -12,12 +12,13 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=3EfEitDQPj4"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-editorial_note: Direct YouTube watch URL and full transcript body supplied by operator in Codex chat. Treated as an in-review transcript-grade capture rather than an auto-subtitles object.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 status: in-review
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (diesen, channel:glenn-diesen)); 1 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-22; ph-civ replacement SSOT."
 ---
-
 # Jeffrey Sachs: The Baltic States Are Now the "Most Dangerous Place" in the World
 
 **Channel:** Glenn Diesen  
@@ -104,7 +105,7 @@ It's backed by the UN Security Council. We are responsible for enforcement. it w
 
 And so all of this is to say we've come to a point of hatred and we've come to a complete amnesia about actual events and we've come to a point where this could easily boil over into open war in the Baltics or other parts of Europe. In other words, the potential for complete disaster. And so maybe maybe maybe this is why Chancellor Merkel among others I mean it's surely why Chancellor Merkel is saying we need to talk but maybe it's why some others are also uh perhaps agreeing that Europe needs to talk.
 
-It's quite notable by the way in this discussion of search for the individual that would be the counterpart where Chancellor Merkel herself is named as a potential uh European representative or Mario Draghi is mentioned as a possible European representative. It's taken for granted that their own real uh external affairs chief Kaakalis could not be that person because her rousophobia is so so blatant uh so uh so so basic that she cannot serve the role of diplomat.
+It's quite notable by the way in this discussion of search for the individual that would be the counterpart where Chancellor Merkel herself is named as a potential uh European representative or Mario Draghi is mentioned as a possible European representative. It's taken for granted that their own real uh external affairs chief Kaja Kallas could not be that person because her rousophobia is so so blatant uh so uh so so basic that she cannot serve the role of diplomat.
 
 They know that that by itself is very very sad. It's like saying we need diplomacy, but in the US context it can't be the secretary of state. He's no diplomat. That's what it would be like saying. But Europe is implicitly acknowledging that fact.
 

@@ -1,0 +1,17 @@
+{
+  "schema_version": "statecraft-intake-sidecar.v1",
+  "source_path": "source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md",
+  "pub_date": "2026-06-22",
+  "synthesis_status": "queued",
+  "rated_at": "2026-06-22T15:17:11Z",
+  "non_canonical": true,
+  "source_url": "https://escalationtrap.substack.com/p/getting-the-framework-right-why-iran",
+  "actors": [],
+  "regions": [],
+  "mechanisms": [],
+  "strategic_relevance": null,
+  "confidence": null,
+  "transaction_candidate": null,
+  "reasoning": "source_form=newsletter; threads=pape",
+  "digest_rank": null
+}

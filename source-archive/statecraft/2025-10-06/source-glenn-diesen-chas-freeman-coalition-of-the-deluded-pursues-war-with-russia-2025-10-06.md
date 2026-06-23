@@ -8,10 +8,13 @@ date: 2025-10-06
 kind: transcript
 source_form: interview
 thread: diesen
-source_url: https://www.youtube.com/watch?v=gRwzQdWoVAg
+source_url: "https://www.youtube.com/watch?v=gRwzQdWoVAg"
 source_type: youtube-auto-captions
 status: raw-input
+transcript_wrapper_tier: clean
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
+
 # Chas Freeman: Coalition of the Deluded Pursues War with Russia
 
 Hi everyone and welcome back. We are
@@ -1634,7 +1637,7 @@ of this. Um but you know I think the
 
 basic I'm not sure despite the existence
 
-of kayakalas I'm not sure that we should
+of Kaja Kallas I'm not sure that we should
 
 blame the Baltics for um ideological
 

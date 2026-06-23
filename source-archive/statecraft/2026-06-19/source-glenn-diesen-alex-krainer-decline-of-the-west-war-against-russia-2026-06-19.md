@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-19
 pub_date: 2026-06-19
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Glenn Diesen
 guest_people:
@@ -25,14 +25,15 @@ channel_slug: glenn-diesen
 channel_url: "https://www.youtube.com/channel/UCZFCDIHTe9HGxtIuVDpBz7g"
 source_url: "https://www.youtube.com/watch?v=TXjSfNZ2xCI"
 youtube_id: TXjSfNZ2xCI
-source_note: Operator-pasted YouTube transcript; no spoken self-date — pub_date from ingest day. US–Iran MOU as US humiliating defeat; NATO/Europe direct Russia strikes + Moscow drone apocalypse; two-systems governance clash; Rupert Lowe grooming-gangs inquiry; King Charles WWIII / 150k UK drones; SAS tanker piracy English Channel; Haig/WWI deliberate slaughter; David Betts civil-war horizon; Iran MOU regroup not peace; Wesley Clark seven countries; Burns Ukraine-NATO cable; Schönbach fired; paste may truncate at close.
+source_note: "Operator-pasted YouTube transcript; no spoken self-date — pub_date from ingest day. US–Iran MOU as US humiliating defeat; NATO/Europe direct Russia strikes + Moscow drone apocalypse; two-systems governance clash; Rupert Lowe grooming-gangs inquiry; King Charles WWIII / 150k UK drones; SAS tanker piracy English Channel; Haig/WWI deliberate slaughter; David Betts civil-war horizon; Iran MOU regroup not peace; Wesley Clark seven countries; Burns Ukraine-NATO cable; Schönbach fired; paste may truncate at close. · source-clean pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (krainer, diesen, channel:glenn-diesen)); 1 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-22; ph-civ replacement SSOT."
 ---
-
 # Alex Krainer: The Decline of the West & War Against Russia
 
 **Channel:** Glenn Diesen  
@@ -140,7 +141,7 @@ be in NATO especially in the East. So, you're going to have a civil war, which t
  Uh just before the outbreak of war in uh in Ukraine, there was a there was a military um some kind of military exercises were organized in India and there were NATO there were NATO uh officials there and one of them was uh German Admiral of the Navy uh Admiral Kayakim Shongb and uh there's a there's a video of this discussion at a large round table with other military brass including Indians and and and with regards to the to the crisis in Ukraine which was just about to erupt into a war. He was saying the lowcost solution
 to this crisis is to simply acknowledge and respect Russia's security concern to address them and to find a way to uh to to make an agreement with the Russians that that addresses their own legitimate security concern. His career ended that very day. he was immediately fired. He tried to backtrack, you know, no, you're out.
  And so the person who is going to replace him is going to be somebody who's going to say uh yes to war, who's going to be a jingoist, who who will perpetuate the lies, and who will understand that if he um makes the mistake of acknowledging the truth and reality that he's out. And so those types of decisions have been made thousands of times in every key decision-making node in our in our whole empire of lies.
- And so every key decision-making node is populated by these types of politicians, generals, judges, policemen, uh um intelligence agents and so forth. And so you end up having uh president of European Union who is also of you. You have to you have uh foreign foreign policy commissioner Kaakalis whose I think only qualification in life is rabid incurable rousophobia and our whole system is like that.
+ And so every key decision-making node is populated by these types of politicians, generals, judges, policemen, uh um intelligence agents and so forth. And so you end up having uh president of European Union who is also of you. You have to you have uh foreign foreign policy commissioner Kaja Kallas whose I think only qualification in life is rabid incurable rousophobia and our whole system is like that.
  But I think that the the encouraging part is that this is a very very thin crust on top that below the surface people are waking up and people are understanding what is going on. And so um it remains to be seen whether they will be able to do to European populations what they've done to Ukraine. you know, march military age men to war against their will.
 And that I think we have to we have to push back against that with all with everything we have because it's the difference between peace and war. It's the difference between having your sons alive at home or having them under under the flag of your country as as so many hundreds of thousands of maybe maybe more than a million Ukrainian parents now have.
  So that's that's what you know that's what this conflict is is about now directly for every person living in the west including the United States you know because maybe Americans will not be uh participating in a war against Ukraine but you know the same preparations are being made by the same structures of power to confront China eventually Trump doesn't want to do it but you know after Trump somebody else will be in power maybe some Anthony Blinken or or Jake Soliv than somebody like that.

@@ -9,10 +9,13 @@ host: Glenn Diesen
 guest: Col. Jacques Baud
 title: "Col. Jacques Baud: America Bombs Iran’s Nuclear Facilities"
 channel_url: "https://www.youtube.com/@GlennDiesen/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=D26_5bxSAaA"
-source_note: "Automated YouTube transcript fetch for Glenn Diesen."
+source_note: Automated YouTube transcript fetch for Glenn Diesen.
+transcript_wrapper_tier: clean
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
+
 # Col. Jacques Baud: America Bombs Iran’s Nuclear Facilities
 Hi everyone and welcome. Today we're joined by Colonel Jax Bow, a former Swiss strategic intelligence official and author of countless books on uh both Russia and the Middle East. So, welcome back to the program. Thank you for inviting me again. Happy to be with you today. Uh even if it's a a sad a tragic day, let's say. Yeah. So we both woke up this morning I guess noticed that yeah United States had taken the very yeah I would say radical decision to attack Iran and u attacking Iran's nuclear facilities. So I'm not sure how they're
 
@@ -44,7 +47,7 @@ what is effectively as you said nuclear terrorism. So do you see a similar probl
 
 mean as you rightly said in the conflict in Palestine where EU is totally absent. We have we have seen the EU in the framework of the Ukrainian conflict but only to provide weapons not as uh let's say a peacemaker somehow not as a bridge maker but on the contrary it's a wall builder and not um a bridge maker or bridge builder and not even in other conflict. I mean we have other issues that affected that have affected I mean in Armenia, Azaraijan. We had also we and we still have the conflict in China
 
-and we see the European Union is totally absent. But on the other hand we have also to say that EU has absolutely no credibility whatsoever. I mean EU lacks intelligence but not intelligence in the military sense. intelligence in defense. The brain there is absolutely no brain and and Kayakalas is definitely not the best example of a person who is able to think. Sometimes you you wonder how these people reach the position they have. But it's a this is not the the the discussion here. What we see uh and from what you just
+and we see the European Union is totally absent. But on the other hand we have also to say that EU has absolutely no credibility whatsoever. I mean EU lacks intelligence but not intelligence in the military sense. intelligence in defense. The brain there is absolutely no brain and and Kaja Kallas is definitely not the best example of a person who is able to think. Sometimes you you wonder how these people reach the position they have. But it's a this is not the the the discussion here. What we see uh and from what you just
 
 mentioned about Kai Kal is also another thing that we distort the words. I mean Iran has never claimed he wanted nuclear bomb and in the discussion process that we have seen and that was interrupted by the Israeli intervent uh uh attack on the 13th of June. You remember that last Sunday uh the sixth uh round of negotiation was due in Oman. Now in this discussion the problem was not whether or not Iran should have nuclear weapons. Iran has said very clearly first of all it has signed the non-prololiferation
 
@@ -58,7 +61,7 @@ better said it would be more a problem to have nuclear weapons that non- having 
 
 treaty and we abandoned the project although the project was officially abandoned in the early 90s in Switzerland. So the neutral Switzerland had a project to have nuclear weapons and even if the project was abandoned well before it was officially uh terminated uh we we had this project for almost 30 years. Um so we Iran is a very similar situation. It made this study even the Swiss went further than the Iranians. In fact this this is the irony of the history but um so they made a physics but they
 
-never had a nuclear program a nuclear military program. Therefore, we continue to promote this narrative in order to find a weak point in the um in Iran and to justify in fact activities or attacks such as the one that happened on the 13th of June and just yesterday by the US and that's and and this kind of narrative is even um disseminated further by people like Kayak Kalas who has absolutely not the slightest, not even an an atom of knowledge, which is totally stupid. And in fact, she just propagates propaganda and as you rightly
+never had a nuclear program a nuclear military program. Therefore, we continue to promote this narrative in order to find a weak point in the um in Iran and to justify in fact activities or attacks such as the one that happened on the 13th of June and just yesterday by the US and that's and and this kind of narrative is even um disseminated further by people like Kaja Kallas who has absolutely not the slightest, not even an an atom of knowledge, which is totally stupid. And in fact, she just propagates propaganda and as you rightly
 
 said, not even having some ethics in the politics because they even reacted to all the massacres that have been made by Israel in Palestine, which is in my view a scandal in itself. But this is beyond the point today. But I um I was also wondering how you see this escalating further because uh in my opinion one of the weaknesses of the United States is they haven't really adjusted properly to the the loss of this very strong global primacy because in the hegemonic era after the cold war the United States it could enjoy almost
 

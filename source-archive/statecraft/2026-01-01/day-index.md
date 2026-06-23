@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (1), `transcript` (1)
+- Body kind mix: `cleaned-transcript` (2)
 - Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`

@@ -11,6 +11,7 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=J7JDMRg_rJ4"
 source_note: "Automated YouTube transcript fetch for Glenn Diesen."
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
 # Ray McGovern: The Death of NATO - Time for a New Strategy?
 
@@ -1472,7 +1473,7 @@ negotiators, one of them's name is
 
 Davidid Ara,
 
-best friend of Zalinski was the lead
+best friend of Zelensky was the lead
 
 negotiator. He came back a couple years
 
@@ -1528,7 +1529,7 @@ have others do unto you.
 
 >> Well, not to come to the defense of
 
-Kayakalas, but she did say on on in
+Kaja Kallas, but she did say on on in
 
 front of camera that she was planning to
 

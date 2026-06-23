@@ -8,14 +8,15 @@ Slug list: `channel_index_misc_slugs` in [statecraft_youtube_discovery.json](../
 ## Stats
 
 - Miscellaneous channel keys: `16`
-- YouTube source files mapped: `17`
-- Rows with explicit `channel_slug`: `6`
+- YouTube source files mapped: `18`
+- Rows with explicit `channel_slug`: `7`
 
 ## Channels
 
 | Channel slug | Label | Files | Days | Watchlist | Channel URL | First day | Last day |
 | --- | --- | ---: | ---: | --- | --- | --- | --- |
 | `jeffrey-sachs` | Jeffrey Sachs | 2 | 2 |  | [open](https://www.jeffsachs.org/) | `2025-11-05` | `2025-11-21` |
+| `switzerland-with-tom-switzer` | Switzerland with Tom Switzer | 2 | 2 |  |  | `2026-05-28` | `2026-06-21` |
 | `al-arabiya-english` | Counterpoints | 1 | 1 |  | [open](https://www.youtube.com/@AlArabiyaEnglish/videos) | `2025-04-01` | `2025-04-01` |
 | `americano` * | Americano | 1 | 1 |  |  | `2025-02-12` | `2025-02-12` |
 | `cirsd` | HORIZONS Discussion | 1 | 1 |  | [open](https://www.cirsd.org/) | `2025-12-19` | `2025-12-19` |
@@ -28,7 +29,6 @@ Slug list: `channel_index_misc_slugs` in [statecraft_youtube_discovery.json](../
 | `reinvent-money` | Reinvent Money | 1 | 1 |  |  | `2026-06-05` | `2026-06-05` |
 | `scott-ritter` * | Ritter's Rant | 1 | 1 |  |  | `2026-04-20` | `2026-04-20` |
 | `shaun-attwood` * | Shaun Attwood | 1 | 1 |  |  | `2026-04-29` | `2026-04-29` |
-| `switzerland-with-tom-switzer` * | Switzerland with Tom Switzer | 1 | 1 |  |  | `2026-05-28` | `2026-05-28` |
 | `the-chris-hedges-report` * | The Chris Hedges Report | 1 | 1 |  |  | `2026-06-08` | `2026-06-08` |
 | `the-source` * | The Source | 1 | 1 |  |  | `2025-06-19` | `2025-06-19` |
 

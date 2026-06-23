@@ -9,12 +9,15 @@ host: Glenn Diesen
 guest: Alexander Mercouris
 title: "Alexander Mercouris: The Political Legitimacy Crisis Across Europe"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=Wjb4vFK37t0"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim."
+source_note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
+transcript_wrapper_tier: clean
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
+
 # Alexander Mercouris: The Political Legitimacy Crisis Across Europe
 
 Welcome back. We are joined today by Alexander Mccuris, the host of the very popular Dean and also host of the Alexander Mccur's podcast. And I will leave a link to both of them in the description. So, thank you for coming back on the program.
@@ -141,7 +144,7 @@ But again, they've not had a discussion about that. So given that there is reall
 
 They have to decide what they're going to talk about and who is going to represent Yeah. No, it's uh it's it's a bit strange to watch because it's well, it's the same logic the the Europeans are arguing that they need a seat at the table. It's not fair that this is being discussed by the Americans and the Russians over the heads of the Europeans.
 
-So, they want to seat at the table, but nobody wants to talk to Russia. And the ones who say, well, perhaps, you know, people like Kayak Kalas, you know, she should lead the talks, but that seems like the effort is simply to make sure it doesn't move forward. I mean, this is the same Kayak Kalas who said it's no point to talk to Putin.
+So, they want to seat at the table, but nobody wants to talk to Russia. And the ones who say, well, perhaps, you know, people like Kaja Kallas, you know, she should lead the talks, but that seems like the effort is simply to make sure it doesn't move forward. I mean, this is the same Kaja Kallas who said it's no point to talk to Putin.
 
 And of course, Russia should be broken up into many smaller countries because they're also easier to manage. So, I I don't see the the genuine diplomacy coming forth. And even Mertz, he seems to go on Twitter daily now, uh, at least quite often. Every time there's a strike by by Russia against Ukraine, the argument, not just him, other EU leaders as well, is well, look what the Russians did.
 

@@ -4,15 +4,15 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 ## Stats
 
-- Day indices: `ok` (466)
+- Day indices: `ok` (469)
 - Month indices: `ok` (22)
 - Year indices: `ok` (4)
 - Thread index: `ok`
 - Channel index: `ok`
 - Channel index JSON: `ok`
 - Channel index (misc): `ok`
-- Writer index: `ok`
-- Writer index JSON: `ok`
+- Writer index: `stale`
+- Writer index JSON: `stale`
 
 ## Day Index Status
 
@@ -264,6 +264,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `2025-11-02` | `ok` | `ok` | `ok` |
 | `2025-11-04` | `ok` | `ok` | `ok` |
 | `2025-11-05` | `ok` | `ok` | `ok` |
+| `2025-11-06` | `ok` | `ok` | `ok` |
 | `2025-11-07` | `ok` | `ok` | `ok` |
 | `2025-11-08` | `ok` | `ok` | `ok` |
 | `2025-11-09` | `ok` | `ok` | `ok` |
@@ -484,6 +485,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `2026-06-18` | `ok` | `ok` | `ok` |
 | `2026-06-19` | `ok` | `ok` | `ok` |
 | `2026-06-20` | `ok` | `ok` | `ok` |
+| `2026-06-21` | `ok` | `ok` | `ok` |
+| `2026-06-22` | `ok` | `ok` | `ok` |
 
 ## Month Index Status
 
@@ -527,8 +530,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 - `channel-index.md`: `ok`
 - `channel-index.json`: `ok`
 - `channel-index-misc.md`: `ok`
-- `writer-index.md`: `ok`
-- `writer-index.json`: `ok`
+- `writer-index.md`: `stale`
+- `writer-index.json`: `stale`
 
 ## Return
 

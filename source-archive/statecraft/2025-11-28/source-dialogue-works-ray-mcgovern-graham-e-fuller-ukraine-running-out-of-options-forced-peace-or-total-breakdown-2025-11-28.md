@@ -9,9 +9,12 @@ host: Nima Alkhorshid
 guest: Ray McGovern
 title: "Ray McGovern & Graham E. Fuller: Ukraine Running Out of Options, Forced Peace or Total Breakdown?"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=yC-8zhTEtb8"
-source_note: "Automated YouTube transcript fetch for Dialogue Works."
+source_note: Automated YouTube transcript fetch for Dialogue Works.
+transcript_wrapper_tier: clean
+opening_tier: host-tease
+entity_asr_pass: 2026-06-22 — kallas cluster via fix_statecraft_common_asr_entities
 ---
 # Ray McGovern & Graham E. Fuller: Ukraine Running Out of Options, Forced Peace or Total Breakdown?
 
@@ -1837,7 +1840,7 @@ here these these are the states that are
 
 saying we got to work with Russia.
 
-They're not saying like Kayakalas that
+They're not saying like Kaja Kallas that
 
 you know this is the enemy. We've got to
 
