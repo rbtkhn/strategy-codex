@@ -3,7 +3,7 @@ name: source-clean
 preferred_activation: source-clean
 description: Post-land ASR and proper-noun cleanup for statecraft source-archive captures — caption/family scaffold, ph-civ series tiers, entity pass, thread/channel tiers, provenance patch. Not synthesis, wire-verify, or first-pass intake.
 portable: true
-version: 1.0.0
+version: 1.1.0
 scope_class: repo-governed
 tags:
 - operator
@@ -75,7 +75,69 @@ Report:
 - whether **body** and **frontmatter** changed
 - tier keys resolved from frontmatter
 - idempotent re-run (expect **0** subs when already clean)
+- **residual ASR** — pattern grep hits after pass (see below); do not imply "fully clean" when hits remain
 - git durability: on disk / not committed / not pushed
+
+## Intake ladder (automated → manual)
+
+Default post-land sequence:
+
+```text
+source-intake land → source-clean → residual gap scan → optional manual ASR spot-fix → optional wire-verify → synthesis
+```
+
+- **`source-clean`** = tier-backed mechanical pass only.
+- **`manual ASR spot-fix`** = operator/agent pass for **ambiguous** or **family-host** garbles tiers should not auto-fix (see below).
+- Do **not** fold manual spot-fix into `source-clean` automation for ambiguous political names.
+
+**Dialogue Works / EU–Iran lane:** thread tiers often run, but **EU leadership + MOU homophones + host address ASR** (`Kayakalas`, `Stormer`, `theou`, `carl`) may still need manual spot-fix even after a successful `source-clean` — especially on Baud-class episodes.
+
+## Residual ASR gap scan (post-`source-clean`)
+
+After `source-clean` (same turn or closeout), scan transcript body for high-signal residual patterns:
+
+| Pattern (regex) | Typical fix lane |
+| --- | --- |
+| `Stormer\|Kayak\|theou\|theuou\|noou` | entity tier or manual Starmer/Kallas/MOU |
+| `Lean River\|Leani River` | Litani (entity tier) |
+| `Benavir\|Barau\|terrib Israel` | manual (Netanyahu; Baerbock?; context) |
+| `carl the leader\|Welcome EL` | manual host-address (Colonel) |
+
+**Offer manual spot-fix when:**
+
+- automated **total < ~5** on a long interview capture, **or**
+- any gap-scan pattern matches **and** the capture is headed to synthesis / quotation
+
+Report: `automated N subs · residual hits: <list or none>`.
+
+## `manual_asr_spot_fix` convention
+
+Mirror Napolitano/Crooke receipt style on the capture frontmatter:
+
+```yaml
+manual_asr_spot_fix: YYYY-MM-DD — Starmer; Kaja Kallas; MOU/theou; Litani; …; tentative: Baerbock (Barau)
+editorial_note: "Manual ASR spot-fix YYYY-MM-DD (N substitutions; see manual_asr_spot_fix); AI-assisted source-clean …"
+```
+
+Rules:
+
+- List **fixed forms** and mark **tentative** guesses (`Barau→Baerbock`) — never upgrade to human-verified verbatim.
+- Append `· manual ASR spot-fix YYYY-MM-DD` to `source_note` when disk landing manual work.
+- Windows: one in-process Python patch pass or bounded `StrReplace` hunks — no Shell retry loops after interrupt.
+
+Entity-tier SSOT for high-confidence repeats: `scripts/fix_statecraft_common_asr_entities.py` (labels `starmer_*`, `kallas_*`, `mou_*`, `litani_*`, …).
+
+## Legacy captures and VTT guardrails
+
+**Legacy heading shape:** some older captures use `# Raw Transcript` instead of `## Transcript`. Full `source_clean_statecraft.py` exits with `no transcript heading found`. **Fail-over:** entity-only `apply_replacements` from `fix_statecraft_common_asr_entities` + optional `entity_asr_pass` frontmatter receipt — do not force scaffold.
+
+**VTT / manual subtitle captures:** `transcript_type: manual_subtitles_vtt` with large `body_word_count` and `verification_ok: true` — **do not** run full scaffold on these. Full `source-clean` can **truncate** the body (e.g. 1065 → 85 lines). Use **`--no-scaffold`** or entity-only pass; verify line count before and after (`abort` if body shrinks >5%).
+
+```bash
+python scripts/source_clean_statecraft.py --path <vtt-capture> --no-scaffold
+```
+
+Agents: import `fix_statecraft_common_asr_entities.apply_replacements` in-process; assert line count stable before write.
 
 ## Cursor / strategy-codex instance
 
