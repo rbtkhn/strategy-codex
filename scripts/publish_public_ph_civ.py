@@ -74,6 +74,21 @@ def ensure_clone(clone_dir: Path, branch: str) -> None:
     git_output(["clone", "--branch", branch, REMOTE, str(clone_dir)], REPO_ROOT)
 
 
+def refresh_ph_civ_index() -> None:
+    env = os.environ.copy()
+    env["PYTHONPATH"] = str(MIRROR_DIR / "src")
+    proc = subprocess.run(
+        [sys.executable, "-m", "civ_ph.cli", "index"],
+        cwd=MIRROR_DIR,
+        env=env,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(proc.stderr or proc.stdout or "ph-civ index failed")
+
+
 def publish(
     *,
     clone_dir: Path,
@@ -90,6 +105,7 @@ def publish(
             robocopy_publish(MIRROR_DIR, clone_dir, dry_run=True)
         return {"status": "dry_run", "mirror_path": MIRROR_REL, "clone_dir": str(clone_dir)}
 
+    refresh_ph_civ_index()
     ensure_clone(clone_dir, branch)
     robocopy_publish(MIRROR_DIR, clone_dir, dry_run=False)
 
