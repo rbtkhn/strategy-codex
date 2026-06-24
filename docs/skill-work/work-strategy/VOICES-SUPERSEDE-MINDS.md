@@ -14,7 +14,7 @@ WORK only; not Record.
 | **`CIV-MIND-*.md`** as corpus body | **Redirect only** → mind file → **voice profile** (do not duplicate) |
 | **`work-strategy/minds/README.md`** as entry hub | **[`statecraft/voices/README.md`](../../../statecraft/voices/README.md)** § Speaker profile law |
 | Mind § IV as structured register SSOT | Profile 8-family tables; mind § IV = **frozen quote bank** until rows migrate, then archive |
-| “Mind pass” / “tri-mind lens” vocabulary (legacy) | **Voice pass** — one named **speaker profile** or **statecraft-multi-lens** |
+| “Mind pass” / “tri-mind lens” vocabulary (legacy) | **Voice pass** — one named **speaker profile**, **`state-synthesis`** comparison subroutine, or **`periodic-statecraft-review`** runbook |
 
 ## Read order (agents)
 

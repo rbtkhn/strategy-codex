@@ -100,7 +100,7 @@ Replace five master slugs with **plain phrases** (legacy mapping in §10):
 | Falsifier + notebook anchor | Extended `coffee_close` | `--object-ref`, `--falsify`, `--verdict` |
 | Machine law from arc | **recursive-learn** | RLJ trigger #3; primary post-close for stopping rules |
 | Kleiber benchmark | [kleiber-composition-benchmark.md](../work-dev/kleiber-composition-benchmark.md) | Via `one object only` + work-dev |
-| Long arc finish | **C** + `long arc pass`; [monthly-deepening](../../../.cursor/skills/monthly-deepening/SKILL.md) | Without persona |
+| Long arc finish | **C** + `long arc pass`; [**periodic-statecraft-review** runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md) (`monthly-deepening` deprecated) | Without persona |
 | Coding-agent posture | [conductor-proposal-lenses.md](../work-dev/conductor-proposal-lenses.md) | Keep; not conductor ritual |
 | Notebook paste close | [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) → Work close template | Attention phrase field |
 | Dream handoff | `dream_coffee_rollup.py` | Phase 3: object closes; Phase 1b: warmup echo |
@@ -129,7 +129,7 @@ See [menu-reference — intake closeout](menu-reference.md#statecraft-intake-clo
 | **Confirm / ship slice** | [start-here ship loop](../../../docs/start-here.md#operator-ship-loop) | **A** | *(none)* | optional `falsify` if push blocked |
 | **Work close paste** | CONDUCTOR-CLOSE-TEMPLATE | any substantive | from §4 | notebook + matching `coffee_close` |
 | **Compact / tension** | `statecraft/compact/` | **C** | hold tension | compact note path |
-| **Long arc / shelf** | essay shelf, monthly-deepening | **C** + `long arc pass` | long arc override | `verdict=shaped` + RLJ |
+| **Long arc / shelf** | essay shelf, **`periodic-statecraft-review`** runbook | **C** + `long arc pass` | long arc override | `verdict=shaped` + RLJ |
 
 ### 5.3 Ritual selection (assistant rules)
 

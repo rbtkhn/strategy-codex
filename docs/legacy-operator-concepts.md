@@ -13,11 +13,11 @@ Obsolete or frozen operator patterns in strategy-codex. **Do not** use as defaul
 | Legacy concept | Was | Use instead |
 |----------------|-----|-------------|
 | **Interpretive machine growth** | Grow embedded Record via pipeline | **Fork revive only** — [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md); else statecraft/singularity WORK |
-| **`tri-mind` / `tri-frame` / `tutti`** | A/B/C Mercouris–Mearsheimer–Barnes choreography | [`statecraft-multi-lens`](../.cursor/skills/statecraft-multi-lens/SKILL.md) or **one named mind** — [`TRI-MIND-DEPRECATED.md`](skill-work/work-strategy/TRI-MIND-DEPRECATED.md) |
+| **`tri-mind` / `tri-frame` / `tutti`** | A/B/C Mercouris–Mearsheimer–Barnes choreography | **`periodic-statecraft-review`** runbook, **`state-synthesis`**, or **one named mind** — [`TRI-MIND-DEPRECATED.md`](skill-work/work-strategy/TRI-MIND-DEPRECATED.md) |
 | **Voice / Telegram / WeChat default** | Primary operator channel | Cursor + **statecraft** / **singularity** — [`deprecated-surfaces.md`](deprecated-surfaces.md) |
 | **`we did X` → RECURSION-GATE** | Ambient gate staging | [`replacement-capture-habits.md`](replacement-capture-habits.md); gate **only** on **fork revive** |
 | **Wisdom questions → IX merge** | Identity elicitation ritual | Fork revive or WORK synthesis — corpus in [`archive/grace-mar-corpus/operator-habits/`](../archive/grace-mar-corpus/operator-habits/) |
-| **Tri-mind post-entry B→M→M menu** | Three one-liners every notebook pass | Optional **single** lens or **statecraft-multi-lens** — [`skill-strategy`](../.cursor/skills/skill-strategy/SKILL.md) |
+| **Tri-mind post-entry B→M→M menu** | Three one-liners every notebook pass | Optional **single** lens or **`state-synthesis`** / runbook — [`skill-strategy`](../.cursor/skills/skill-strategy/SKILL.md) |
 | **Grace-Mar as live instance** | Pipeline running, bots live | **Frozen embedded sidecar** — [`archive/grace-mar-frozen.md`](../archive/grace-mar-frozen.md) |
 | **Cici cognitive-fork Record** | (same words, different scope) | **Her instance repo** — not strategy-codex growth — `singularity/work-cici/` |
 

@@ -2,7 +2,7 @@
 
 > **Voices supersede minds** — [VOICES-SUPERSEDE-MINDS.md](../VOICES-SUPERSEDE-MINDS.md). **Open [`statecraft/voices/`](../../../statecraft/voices/README.md)** for canonical speaker profiles. This folder is a **compatibility index** during migration.
 
-> **`tri-mind` / tri-frame choreography is deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Use **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)** for multi-preset comparison, or invoke **one** named speaker voice below.
+> **`tri-mind` / tri-frame choreography is deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Use **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md)** for comparison; or invoke **one** named speaker voice below.
 
 **Canonical SSOT (new work):** [`statecraft/voices/<speaker>/<speaker>-profile.md`](../../../statecraft/voices/) — Identity, Tier A `#linguistic-style-fingerprint-detailed`, convergence/tension, failure modes. Shape law: [voice-profile-template.md](../../../statecraft/voices/voice-profile-template.md).
 

@@ -149,6 +149,6 @@ Material ceiling **forces** the off-ramp; sabotage register **predicates** where
 
 - **`state-synthesis`** for `2026-06-18` — use fuse vs process columns; parent convergence for seams; pair note for episode clips.
 - **`wire-verify` / `verify:` YAML** on Henningsen + Davis when process-clock hooks need archive receipts.
-- **`statecraft-multi-lens`** — preset **Macgregor / Davis** for coercive-collapse objects; add **Blumenthal / Henningsen** when sabotage register is the contested axis.
+- **`primary-overhearing-analysis`** or **`state-synthesis`** comparison — reuse **Macgregor / Davis** vs **Blumenthal / Henningsen** preset pairing from the archived multi-lens pass for coercive-collapse / sabotage-register splits.
 
 **Not in scope:** Johnson ops prescription, Mercouris trap read, Martyanov material triage — see convergence note and optional Martyanov J11↔J18 continuity note.

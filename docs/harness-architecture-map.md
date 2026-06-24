@@ -6,6 +6,8 @@
 
 **Bridge docs:** [intelligence-harness.md](intelligence-harness.md) (external legibility) · [product-identity.md](product-identity.md) (internal product name)
 
+**Membrane** = an authority boundary that defines what a surface may contain, cite, mutate, promote, export, or regenerate. Full SSOT: [work-membrane-v2.md](work-membrane-v2.md). Engineering translation: [work-membrane-v2.md § Engineering translation](work-membrane-v2.md#engineering-translation).
+
 ---
 
 ## Two names, one system
@@ -55,13 +57,13 @@ Skills in `.cursor/skills/` are **invocation-bound** overlays, not always-on too
 
 One-line reading rules — full table: [work-membrane-v2.md](work-membrane-v2.md). Live examples: [work-membrane-live-examples.md](work-membrane-live-examples.md).
 
-| Class | Question it answers |
-|-------|---------------------|
-| `Record` | What is canonically true? (gated only) |
-| `governed adjacent` | What durable non-Record object should exist? |
-| `instrumental work` | What are we actively doing? |
-| `runtime / derived` | What can be regenerated to help? |
-| `external complements` | What may cross the repo boundary without collapsing authority? |
+| Class | Public gloss | Question it answers |
+|-------|--------------|---------------------|
+| `Record` | Canonical truth | What is canonically true? (gated only) |
+| `governed adjacent` | Durable non-canonical doctrine | What durable non-Record object should exist? |
+| `instrumental work` | Active workspace | What are we actively doing? |
+| `runtime / derived` | Generated helper artifacts | What can be regenerated to help? |
+| `external complements` | Boundary-crossing interop artifacts | What may cross the repo boundary without collapsing authority? |
 
 ### Model / harness / operator / transaction
 
@@ -70,6 +72,8 @@ See [intelligence-harness.md — Model / harness / operator / transaction](intel
 ---
 
 ## Queue vs loop
+
+**Promotion is governed, not ambient.** No artifact becomes more authoritative merely because it was summarized, reused, exported, or generated.
 
 **Promotion is a queue problem, not a summarization problem.** Intake sidecars classify and route before daily synthesis — [statecraft-intake-queue.md](statecraft-intake-queue.md).
 
@@ -104,11 +108,34 @@ Routing law: *what system is emerging* (singularity) vs *what object must be jud
 
 **External runtimes:** import/export/inbox only via [runtime/runtime-complements.md](runtime/runtime-complements.md) — not by walking Record trees.
 
+### Membrane crossing
+
+Full SSOT: [work-membrane-v2.md § What can cross](work-membrane-v2.md#what-can-cross).
+
+```mermaid
+flowchart TB
+  subgraph vertical [Authority ladder]
+    SA[source archive]
+    RD[runtime / derived]
+    IW[instrumental work]
+    GA[governed adjacent]
+    Gate[gate]
+    Rec[Record]
+    SA --> RD --> IW --> GA --> Gate --> Rec
+  end
+  subgraph lateral [External complement lane]
+  EC[external complements]
+  Inbox[import / export inbox]
+  NC[normalized candidate]
+  EC <--> Inbox <--> NC
+  end
+```
+
 ---
 
 ## Legacy overlays
 
-**Strategy-notebook / work-strategy** remain **compatibility** namespaces — not the primary public strategy surface. Architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Active routing: [DEFAULT-PATH.md](skill-work/work-strategy/DEFAULT-PATH.md).
+**Strategy-notebook / work-strategy** remain **compatibility** namespaces — not the primary public strategy surface. Architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Active routing: [DEFAULT-PATH.md](skill-work/work-strategy/DEFAULT-PATH.md).
 
 ---
 
@@ -135,7 +162,6 @@ Review **outputs** and **the system that produced them**. Surfaces: [orchestrati
 
 ## Future work (deferred)
 
-- Link test for this map (`tests/test_harness_architecture_map_links.py`)
 - `harness_warmup.py --receipt` one-liner pointing here
 - Prose-only unified task vocabulary across intake sidecars and execution receipts
 - LangGraph / Agents SDK mapping as external complement runbooks

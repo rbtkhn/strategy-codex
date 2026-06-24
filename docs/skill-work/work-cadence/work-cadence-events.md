@@ -832,3 +832,5 @@ _(Append below this line.)_
 - **2026-06-22 12:14 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-22 15:28 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-06-23 08:53 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-23 15:22 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-06-23 23:58 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown

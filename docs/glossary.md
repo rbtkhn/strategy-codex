@@ -41,6 +41,7 @@ Short definitions for contributors and tooling. **Governed by:** [GRACE-MAR-CORE
 | **Intelligence harness** | **Product term** — the governed structure around models in **strategy-codex**: source truth, context routing, artifact authority, review, transaction ceilings. Not a specific vendor or model. See [intelligence-harness.md](intelligence-harness.md). |
 | **Harness script** | **Tooling term** — operational scripts (`harness_warmup.py`, eval/replay harnesses) that implement parts of the product harness; distinct from the product identity itself. |
 | **Intake queue sidecar** | **Derived JSON** under `runtime/artifacts/statecraft-intake-queue/` tracking `synthesis_status` and routing hints for an archive capture; **not** archive SSOT. See [statecraft-intake-queue.md](statecraft-intake-queue.md). |
+| **Membrane** | An **authority boundary** that defines what a surface may contain, cite, mutate, promote, export, or regenerate. Membrane **classes** (`Record`, `governed adjacent`, `instrumental work`, `runtime / derived`, `external complements`) classify artifact authority. SSOT: [work-membrane-v2.md](work-membrane-v2.md). |
 
 ## Cadence shortcuts (FAQ)
 

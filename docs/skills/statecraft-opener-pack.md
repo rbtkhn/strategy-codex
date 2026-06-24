@@ -13,7 +13,7 @@
 ## Related
 
 - **CIV-STATE pack:** [skills/civ-state/SKILL.md](../../skills/civ-state/SKILL.md) (portable entry + runbooks)
-- **Statecraft framework:** [skills/statecraft-framework/SKILL.md](../../skills/statecraft-framework/SKILL.md)
+- **Statecraft frame (archived skill):** [six-term checklist](../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) · **`periodic-statecraft-review`** runbook · [skills/statecraft-framework/SKILL.md](../../skills/statecraft-framework/SKILL.md) *(stub only)*
 - **Skills map:** [docs/skills-map.md](../skills-map.md)
 
 ## Rule

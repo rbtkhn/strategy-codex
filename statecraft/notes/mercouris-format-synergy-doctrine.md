@@ -74,7 +74,7 @@ If a month has both, that is not just `more files`. It means the archive can see
 
 Use this doctrine in three places:
 
-- `monthly-deepening`
+- **`periodic-statecraft-review`** runbook (legacy: `monthly-deepening`)
   keep `native solo Mercouris` and `Duran / Mercouris co-hosted` as separate recovery queues
 - `statecraft-source-intake`
   resolve family by channel/show identity, not by topic overlap or speaker name alone

@@ -159,7 +159,7 @@ After a substantive **`strategy`** pass with **load-bearing** Judgment-style pro
 Skill-write handoff commonly starts from:
 
 - **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
-- **Named-mind analysis** (single lens) or **`statecraft-multi-lens`** output — not legacy **`tri-mind`** ([TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
+- **Named-mind analysis** (single lens) or **`state-synthesis`** / **`primary-overhearing-analysis`** output — not legacy **`tri-mind`** ([TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
 - **Work-politics daily brief** — generator and lane per [work-strategy README](../skill-work/work-strategy/README.md) / coffee **C**
 - **Predictive History / work-jiang** — lecture hooks, analysis memos under [`codex/predictive-history/`](../../codex/predictive-history/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus
 
@@ -193,4 +193,4 @@ When paste-ready copy **anchors** to paths under [`research/repos/civilization_m
 - [grace-mar-locals-voice.md](grace-mar-locals-voice.md) — **Grace‑Mar** Locals (VivaBarnes / Duran) do / do not; gears and prudence
 - [README.md](README.md) — skill-write doctrine hub
 - [skills-modularity.md](../skills-modularity.md) §4 — Voice and profile as f(skill-write)
-- [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md) — **`tri-mind` obsolete**; use **`statecraft-multi-lens`** or a **named single mind** for analysis before skill-write handoff
+- [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md) — **`tri-mind` obsolete**; use **`periodic-statecraft-review`** runbook, **`state-synthesis`**, or a **named single mind** for analysis before skill-write handoff

@@ -228,7 +228,7 @@ Terminology note:
 
 - `civ-state` means the **civilization-state** object being interpreted and drafted for
 - **Civilizational Statecraft Framework** is the doctrine that helps interpret that object
-- `statecraft-framework` is the operational skill/interface for running that diagnosis
+- `statecraft-framework` was the operational skill/interface for that diagnosis (**archived** — use [six-term checklist](civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) or **`periodic-statecraft-review`** runbook)
 - `statecraft` remains the downstream operating layer
 
 ## Source Flow

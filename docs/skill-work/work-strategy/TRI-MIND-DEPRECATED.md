@@ -10,7 +10,7 @@ WORK only; not Record.
 
 | Old | Use instead |
 |---|---|
-| **`tri-mind`**, **`tri-frame`**, **`tutti`**, **`abc`** / **`ab+c`** | **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)** for preset multi-lens comparison on a live object |
+| **`tri-mind`**, **`tri-frame`**, **`tutti`**, **`abc`** / **`ab+c`** | **`state-synthesis`** comparison subroutine, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md)** (`statecraft-multi-lens` archived) |
 | One analyst voice | Name the speaker directly (**Mercouris**, **Mearsheimer**, **Barnes**, or any voices shelf) — read **[`statecraft/voices/<speaker>/<speaker>-profile.md`](../../../statecraft/voices/)** when in-voice register matters ([`minds-authentic-voice.mdc`](../../../.cursor/rules/minds-authentic-voice.mdc); minds superseded — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)) |
 | Strategy notebook pass | **[`skill-strategy`](../../../.cursor/skills/skill-strategy/SKILL.md)** — optional **single** post-entry lens; no default tri-frame |
 | Live statecraft object | **Repo-root [`statecraft/`](../../../statecraft/)** lanes, daily synthesis, voices shelves |
@@ -24,5 +24,5 @@ WORK only; not Record.
 
 ## Migration notes for agents
 
-- Treat **`tri-mind`** triggers as **legacy aliases** — redirect once to **statecraft-multi-lens** or a **named single voice profile**; do not run the A/B/C menu ritual.
+- Treat **`tri-mind`** triggers as **legacy aliases** — redirect once to **`state-synthesis`**, **`periodic-statecraft-review` runbook**, or a **named single voice profile**; do not run the A/B/C menu ritual.
 - **LEARN MODE** tri-frame ordering is legacy; new LEARN sessions should not assume three-mind roundtables unless the operator explicitly revives archive protocol.

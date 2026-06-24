@@ -69,10 +69,10 @@ Only where there is a **single structured consumer** and clear **active implemen
 |-----------|------|
 | **coffee** menu **A-D**, **Steward** | Session navigation, gate/template/integrity/git tracks; **Implement now vs Later** after steward. |
 | **Impact preview** (`scripts/preview_candidate_impact.py`, gate-review platform/app) | Inspects **candidate merge surface** for staged itemsâ€”tooling, not a full execution wedge. |
-| **Strategy menu** then optional **named mind** or **`statecraft-multi-lens`** | Lens choice after intel (**tri-frame deprecated** — [TRI-MIND-DEPRECATED.md](work-strategy/TRI-MIND-DEPRECATED.md)); not the same as compressing a finished plan into one action path. |
+| **Strategy menu** then optional **named mind** or **`state-synthesis`** / runbook | Lens choice after intel (**tri-frame deprecated** — [TRI-MIND-DEPRECATED.md](work-strategy/TRI-MIND-DEPRECATED.md)); not the same as compressing a finished plan into one action path. |
 | **Reality Sprint Block** | Applied **after** there is a substantive plan: **one** primary path, **one** reality step, prune, failure check, evidence cadence. |
 
-Use both where useful: e.g. **statecraft-multi-lens** or a **single named mind** to choose lens, then RSB to commit the week's executable slice.
+Use both where useful: e.g. **`state-synthesis`** or a **single named mind** to choose lens, then RSB to commit the week's executable slice.
 
 ---
 

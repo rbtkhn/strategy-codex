@@ -19,7 +19,7 @@ All LEARN MODE sessions **must** reference the three primary CMC analytical lens
 - **[`strategy-expert-mearsheimer-mind.md`](strategy-notebook/strategy-expert-mearsheimer-mind.md)** — Power distribution, security dilemmas, offensive/defensive realism, alliance dynamics, and great-power competition geometry.
 - **[`strategy-expert-barnes-mind.md`](strategy-notebook/strategy-expert-barnes-mind.md)** — Material foundations, liability chains, extraction/defection logic, fiscal and resource constraints, and structural economic realities.
 
-These three minds formed the **Tri-Frame Synthesis** (legacy). **Deprecated** as mandatory choreography — apply **one** mind at a time or use [`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md) unless explicitly running archive LEARN MODE.
+These three minds formed the **Tri-Frame Synthesis** (legacy). **Deprecated** as mandatory choreography — apply **one** mind at a time or use [**periodic-statecraft-review** runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md) / **`state-synthesis`** unless explicitly running archive LEARN MODE.
 
 ## LEARN MODE protocol (strict order)
 

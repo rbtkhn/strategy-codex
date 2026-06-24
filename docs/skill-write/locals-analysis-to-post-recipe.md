@@ -10,7 +10,7 @@
 
 - strategy analysis reports
 - notebook lines or `days.md` synthesis
-- **named-mind** or **`statecraft-multi-lens`** output (not legacy **`tri-mind`** — [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
+- **named-mind** or **`state-synthesis`** / runbook output (not legacy **`tri-mind`** — [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
 - transcript / raw-input excerpts
 - historical expert context artifacts
 

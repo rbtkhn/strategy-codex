@@ -20,9 +20,9 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 | **`strategy + verify`** | wire-verify / fact-check |
 | **`strategy write`** | skill-write + codex substance |
 | **`strategy input`** | strategy-input-raw-ingest.mdc + codex/raw-input/ |
-| **Voice / lens** | statecraft handoff or compose — VOICES-SUPERSEDE-MINDS.md; statecraft-multi-lens |
+| **Voice / lens** | statecraft handoff or compose — VOICES-SUPERSEDE-MINDS.md; **`state-synthesis`** / **`primary-overhearing-analysis`** / named speaker (`statecraft-multi-lens` archived) |
 | **Live crisis / intake** | statecraft-* lanes — not DEFAULT-PATH body |
-| **`tri-mind` / `tri-frame`** | Deprecated — TRI-MIND-DEPRECATED.md; statecraft-multi-lens or one voice profile |
+| **`tri-mind` / `tri-frame`** | Deprecated — TRI-MIND-DEPRECATED.md; **`periodic-statecraft-review`** runbook or one voice profile |
 | **Weekly brief** | weekly-brief-run |
 | **Speaker shelf audit** | speaker-shelf-hygiene |
 

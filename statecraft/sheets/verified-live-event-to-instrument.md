@@ -125,7 +125,7 @@ The ladder is reusable anywhere the system is tempted to sound persuasive before
 - **Transaction threshold**
   Use it before promoting an event into a compact or framework. One wrong pass assumes it obviously deserves transaction form; the corrected pass checks whether the crisis object and settlement spine are real.
 - **Framework diagnosis**
-  Use it before or alongside `statecraft-framework` when the operator may be confusing the civilization-state object, the doctrine, and the downstream drafting layer.
+  Use the six-term checklist or **`periodic-statecraft-review`** runbook when the operator may be confusing the civilization-state object, the doctrine, and the downstream drafting layer (`statecraft-framework` archived).
 - **Sacred Grammar retrieval**
   Use it when a read risks collapsing deep legitimacy into either official religion or generic culture.
 - **State-memory and arc-lens backfills**

@@ -56,7 +56,7 @@ Valid inputs include:
 - transcript or long-form digest
 - strategic note requiring a refresh
 - energy or chokepoint event
-- event cluster requiring **multi-lens** review (prefer **`statecraft-multi-lens`** — tri-frame deprecated per [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md))
+- event cluster requiring **multi-lens** review (prefer **`state-synthesis`** / **`primary-overhearing-analysis`** — tri-frame deprecated per [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md))
 
 Long-form transcript ingest is allowed, including Predictive History and work-strategy transcript digests, but the first output must still be a neutral fact summary rather than lecturer rhetoric restated as fact. See `common-inputs.md`.
 

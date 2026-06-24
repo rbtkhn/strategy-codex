@@ -1,8 +1,10 @@
 # last30days Research Skill Example
 
+> **Deprecated (2026-06):** The `last30days` skill stub redirects to [`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md). This page remains a **research workflow example** only.
+
 **Status:** WORK / skill example. This page demonstrates usage only; it does not add live connectors, scheduled research, or Record authority.
 
-Use `last30days` when a strategy topic needs a short current frontier scan with dates, links, uncertainty labels, and one optional inbox-ready line.
+Use **`runbook periodic review`** (or legacy `last30days` trigger → runbook redirect) when a strategy topic needs a short current frontier scan with dates, links, uncertainty labels, and one optional inbox-ready line.
 
 ## Workflow Hooks
 

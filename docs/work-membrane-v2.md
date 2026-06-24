@@ -11,6 +11,29 @@ This doc upgrades the old binary `Record vs work` framing into a typed membrane 
 
 ---
 
+## Membrane (definition)
+
+**Membrane** = an authority boundary that defines what a surface may contain, cite, mutate, promote, export, or regenerate.
+
+---
+
+## Engineering translation
+
+| Repo term | Standard engineering translation |
+|-----------|-----------------------------------|
+| Membrane | Trust boundary / authority boundary |
+| Membrane class | Artifact authority class |
+| Promotion | Controlled state transition |
+| Gate | Human-approved canonical write path |
+| Runtime / derived | Generated artifact / rebuildable cache |
+| External complement | Import/export adapter with no authority transfer |
+
+### Term discipline
+
+Use **membrane** only when authority, durability, promotion, import/export, or mutation rights are at stake. Do not use it as a synonym for folder, module, topic, lane, or layer. See also [Anti-confusion law](#anti-confusion-law).
+
+---
+
 ## Core invariants
 
 - `Record` stays gated.
@@ -23,13 +46,13 @@ This doc upgrades the old binary `Record vs work` framing into a typed membrane 
 
 ## Membrane classes
 
-| Class | What it holds | Durability | Promotion right |
-|-------|----------------|------------|-----------------|
-| `Record` | canonical identity-bearing truth | canonical | gated only |
-| `governed adjacent` | durable non-Record doctrine, synthesis, comparisons, benchmarks | durable | may stage governed promotion candidates, but is not itself Record |
-| `instrumental work` | planning, drafts, execution lanes, notebooks, experiment surfaces | durable or disposable by lane | may stage or support promotion, never merge directly |
-| `runtime / derived` | rebuildable summaries, payloads, indexes, receipts, convenience views | generated / rebuild-required | none by default |
-| `external complements` | explicit import/export bundles and interop surfaces for outside runtimes | freshness-sensitive / transport-oriented | import may stage candidates after normalization; export does not imply Record authority |
+| Class | Public gloss | What it holds | Durability | Promotion right |
+|-------|--------------|----------------|------------|-----------------|
+| `Record` | Canonical truth | canonical identity-bearing truth | canonical | gated only |
+| `governed adjacent` | Durable non-canonical doctrine | durable non-Record doctrine, synthesis, comparisons, benchmarks | durable | may stage governed promotion candidates, but is not itself Record |
+| `instrumental work` | Active workspace | planning, drafts, execution lanes, notebooks, experiment surfaces | durable or disposable by lane | may stage or support promotion, never merge directly |
+| `runtime / derived` | Generated helper artifacts | rebuildable summaries, payloads, indexes, receipts, convenience views | generated / rebuild-required | none by default |
+| `external complements` | Boundary-crossing interop artifacts | explicit import/export bundles and interop surfaces for outside runtimes | freshness-sensitive / transport-oriented | import may stage candidates after normalization; export does not imply Record authority |
 
 ### Short reading rule
 
@@ -70,6 +93,8 @@ The same source material may support more than one egress, but each egress produ
 
 ### Promotion
 
+**Promotion is governed, not ambient.** No artifact becomes more authoritative merely because it was summarized, reused, exported, or generated.
+
 Common promotion shapes:
 
 - `draft -> doctrine`
@@ -79,6 +104,51 @@ Common promotion shapes:
 - `external import -> inbox -> normalized -> candidate`
 
 Promotion is not automatic graduation. It is a governed route from one class of work object to another.
+
+---
+
+## What can cross
+
+Vertical promotion ladder (authority increases only through governed routes):
+
+```text
+source archive
+   ↓
+runtime / derived  ── no authority
+   ↓
+instrumental work ── drafts, plans, experiments
+   ↓
+governed adjacent ── durable doctrine / judgment
+   ↓
+gate
+   ↓
+Record ── canonical truth
+```
+
+Lateral external-complement lane (import/export without authority transfer):
+
+```text
+external complements ⇄ import/export inbox ⇄ normalized candidate
+```
+
+```mermaid
+flowchart TB
+  subgraph vertical [Authority ladder]
+    SA[source archive]
+    RD[runtime / derived]
+    IW[instrumental work]
+    GA[governed adjacent]
+    Gate[gate]
+    Rec[Record]
+    SA --> RD --> IW --> GA --> Gate --> Rec
+  end
+  subgraph lateral [External complement lane]
+  EC[external complements]
+  Inbox[import / export inbox]
+  NC[normalized candidate]
+  EC <--> Inbox <--> NC
+  end
+```
 
 ---
 
@@ -137,6 +207,8 @@ At the operator-routing layer, these are also the repo's two primary **channels*
 ---
 
 ## Anti-confusion law
+
+See also [Term discipline](#term-discipline).
 
 - `governed adjacent` is durable without becoming Record.
 - `instrumental work` may be rich, ambitious, and recursive without becoming identity truth.

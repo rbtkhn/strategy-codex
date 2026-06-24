@@ -10,7 +10,7 @@
 | Routing / disambiguation | [README.md](README.md) — Activation + Routing |
 | EOD compose / page-first | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | §1d–§1h watch threads | [FIVE-THREAD-WATCH-TAGS.md](FIVE-THREAD-WATCH-TAGS.md) |
-| Voice / lens | [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md) + **statecraft** handoff; [statecraft-multi-lens](../../.cursor/skills/statecraft-multi-lens/SKILL.md) |
+| Voice / lens | [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md) + **statecraft** handoff; **`state-synthesis`** / [**periodic-statecraft-review** runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md) |
 | Verify | [wire-verify](../../.cursor/skills/wire-verify/SKILL.md) / [fact-check](../../.cursor/skills/fact-check/SKILL.md) |
 | Public copy | [skill-write](../../.cursor/skills/skill-write/SKILL.md) |
 
