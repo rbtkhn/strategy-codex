@@ -347,6 +347,38 @@ For the full decision tree including signing-off **`coffee`** (lightweight alter
 
 Each successful dream run appends one line to `docs/skill-work/work-cadence/work-cadence-events.md` via `scripts/log_cadence_event.py`. This is automatic — no operator action required; the line includes **`cursor_model=…`** (see **Morning handoff** above for how to set it). **`operator_end_of_day.py`** forwards **`--cursor-model`** to `auto_dream.py`.
 
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- name the consolidation window
+- state which artifacts were compressed, generated, or left untouched
+- identify any open loops that remain after consolidation
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** dream is complete only when the day/session window, generated artifacts, and remaining open loops are named.
+
+**Avoid:** Do not make dream a general maintenance sweep unless the operator explicitly expands scope.
+
 ## Related files
 
 - `docs/skill-work/work-dream/README.md` — territory doctrine and boundaries

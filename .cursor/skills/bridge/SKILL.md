@@ -211,6 +211,38 @@ Bridge is complete when:
 - **Narrative arc matters.** `Session Arc` should explain what happened, not just list files.
 - **Stop on conflict.** If push/rebase conflicts appear, stop and report.
 
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- name the source session state used for the bridge
+- confirm whether a transfer packet was created
+- state whether commit/push happened or was intentionally not done
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** bridge is complete only when the transfer packet or handoff surface is named and authority boundaries are explicit.
+
+**Avoid:** Do not imply bridge is the same as Record merge, dream consolidation, or background persistence.
+
 ## Related files
 
 - `docs/skill-work/work-cadence/README.md`

@@ -155,6 +155,38 @@ Default: packet **only in chat**. If the operator says **save:** suggest `docs/s
 
 ---
 
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- name the target recipient or downstream agent/context
+- state whether the packet is midstream advisory material or authoritative handoff
+- confirm that the packet does not end with coffee unless the relevant contract requires it
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** harvest is complete only when the packet scope, recipient context, and non-authority status are clear.
+
+**Avoid:** Do not confuse harvest with bridge or dream.
+
 ## Revision log
 
 | Date | Change |

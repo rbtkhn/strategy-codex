@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T00:24:59Z`
+Generated: `2026-06-24T00:26:14Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -16,7 +16,7 @@ Total rows: **114**
 | anyang-ai | cursor-only | False | .cursor/skills/anyang-ai/SKILL.md |  | domain-pack | active |  | anyang-ai | missing | 2026-06-23 |  |
 | arc-to-chapter-seeds | both | True | .cursor/skills/arc-to-chapter-seeds/SKILL.md | arc-to-chapter-seeds/SKILL.md | product-narrative | active |  |  | missing | 2026-06-23 |  |
 | brewmind-governed-steward | cursor-only | False | .cursor/skills/brewmind-governed-steward/SKILL.md |  | domain-pack | active |  | brewmind governed steward | missing | 2026-06-23 |  |
-| bridge | cursor-only | False | .cursor/skills/bridge/SKILL.md |  | operator-coherence | active |  | bridge | missing | 2026-06-23 |  |
+| bridge | cursor-only | False | .cursor/skills/bridge/SKILL.md |  | operator-coherence | active |  | bridge | present | 2026-06-23 |  |
 | check-sources | both | True | .cursor/skills/check-sources/SKILL.md | check-sources/SKILL.md | truth-pipeline | active |  | check sources | present | 2026-06-23 |  |
 | check-streams | both | True | .cursor/skills/check-streams/SKILL.md | check-streams/SKILL.md | legacy-redirect | redirect | check-sources | check streams | missing | 2026-06-23 |  |
 | china-art | cursor-only | False | .cursor/skills/china-art/SKILL.md |  | domain-pack | active |  | china-art | missing | 2026-06-23 |  |
@@ -34,7 +34,7 @@ Total rows: **114**
 | conductor | cursor-only | False | .cursor/skills/conductor/SKILL.md |  | legacy-redirect | redirect | coffee | conductor | missing | 2026-06-23 |  |
 | context-folder-assembly | draft | False |  |  | domain-pack | draft |  | context folder | n/a | 2026-06-23 |  |
 | daily-brief-regen-merge | draft | False |  |  | domain-pack | draft |  | daily brief regen | n/a | 2026-06-23 |  |
-| dream | cursor-only | False | .cursor/skills/dream/SKILL.md |  | operator-coherence | active |  | dream | missing | 2026-06-23 |  |
+| dream | cursor-only | False | .cursor/skills/dream/SKILL.md |  | operator-coherence | active |  | dream | present | 2026-06-23 |  |
 | elicit-knowledge | cursor-only | False | .cursor/skills/elicit-knowledge/SKILL.md |  | legacy-redirect | redirect | fork-revive | elicit knowledge | missing | 2026-06-23 |  |
 | empire-part-writer | cursor-only | False | .cursor/skills/empire-part-writer/SKILL.md |  | product-narrative | active |  | empire-part-writer | missing | 2026-06-23 |  |
 | expert-forecast-ledger | draft | False |  |  | domain-pack | draft |  | forecast ledger for <expert> | n/a | 2026-06-23 |  |
@@ -45,7 +45,7 @@ Total rows: **114**
 | gate-review-pass | cursor-only | False | .cursor/skills/gate-review-pass/SKILL.md |  | legacy-redirect | redirect | fork-revive | gate review | missing | 2026-06-23 |  |
 | graceful-constraint-reporting | draft | False |  |  | domain-pack | draft |  | graceful report | n/a | 2026-06-23 |  |
 | handoff-check | cursor-only | False | .cursor/skills/handoff-check/SKILL.md |  |  | active |  | handoff check | missing | 2026-06-19 |  |
-| harvest | cursor-only | False | .cursor/skills/harvest/SKILL.md |  | operator-coherence | active |  | harvest | missing | 2026-06-23 |  |
+| harvest | cursor-only | False | .cursor/skills/harvest/SKILL.md |  | operator-coherence | active |  | harvest | present | 2026-06-23 |  |
 | hn-bookshelf-lookup | cursor-only | False | .cursor/skills/hn-bookshelf-lookup/SKILL.md |  | domain-pack | active |  |  | missing | 2026-06-23 |  |
 | ideation-engine | both | True | .cursor/skills/ideation-engine/SKILL.md | ideation-engine/SKILL.md | legacy-redirect | redirect | product-strategy | ideation engine | missing | 2026-06-23 |  |
 | iran-art | cursor-only | False | .cursor/skills/iran-art/SKILL.md |  | domain-pack | active |  | iran-art | missing | 2026-06-23 |  |
