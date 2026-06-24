@@ -136,8 +136,10 @@ skills:
   verify_forbidden_substrings:
   - platform/users/grace-mar/
   - process_approved_candidates
-  category: judgment-enhancement
-  status: active
+  category: legacy-redirect
+  status: deprecated
+  replacement: periodic-statecraft-review
+  review_date: 2026-12-31
 - name: youtube-raw-input-transcript
   source: youtube-raw-input-transcript/SKILL.md
   appendix: .cursor/skills/youtube-raw-input-transcript/CURSOR_APPENDIX.md
@@ -238,7 +240,8 @@ skills:
   - platform/users/grace-mar/
   - process_approved_candidates
   category: judgment-enhancement
-  status: active
+  status: archived
+  review_date: 2026-12-31
 - name: statecraft-source-intake
   source: statecraft-source-intake/SKILL.md
   appendix: .cursor/skills/statecraft-source-intake/CURSOR_APPENDIX.md
@@ -283,7 +286,8 @@ skills:
   - platform/users/grace-mar/
   - process_approved_candidates
   category: judgment-enhancement
-  status: active
+  status: archived
+  review_date: 2026-12-31
 - name: memory
   source: memory/SKILL.md
   appendix: .cursor/skills/memory/CURSOR_APPENDIX.md
@@ -346,7 +350,8 @@ skills:
   - platform/users/grace-mar/
   - process_approved_candidates
   category: judgment-enhancement
-  status: active
+  status: archived
+  review_date: 2026-12-31
 - name: arc-to-chapter-seeds
   source: arc-to-chapter-seeds/SKILL.md
   appendix: .cursor/skills/arc-to-chapter-seeds/CURSOR_APPENDIX.md
@@ -372,8 +377,10 @@ skills:
   verify_forbidden_substrings:
   - platform/users/grace-mar/
   - process_approved_candidates
-  category: judgment-enhancement
-  status: active
+  category: legacy-redirect
+  status: deprecated
+  replacement: periodic-statecraft-review
+  review_date: 2026-12-31
 - name: singularity-monthly-synthesis
   source: singularity-monthly-synthesis/SKILL.md
   appendix: .cursor/skills/singularity-monthly-synthesis/CURSOR_APPENDIX.md

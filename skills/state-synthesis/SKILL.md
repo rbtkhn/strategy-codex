@@ -247,7 +247,7 @@ Agent-filled when wire-ins land; no script required in v1.
 |-----------|--------------|
 | **civ-state** | When civilizational layer unsettled after synthesis — offer wire-bridge handoff (see below) |
 | **state-note** | One promotable wedge after synthesis when method-bearing |
-| **statecraft-multi-lens** | Live comparison before synthesis when speakers unsettled |
+| **statecraft-multi-lens** | **Archived** — use built-in mechanism-comparison subroutine here or **`periodic-statecraft-review`** runbook when comparison unsettled |
 
 ## After synthesis close
 

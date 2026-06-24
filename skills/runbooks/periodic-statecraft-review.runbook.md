@@ -1,14 +1,13 @@
 ---
 name: periodic-statecraft-review
-description: Compose time-windowed statecraft review passes from last30days through framework and multi-lens.
+description: Compose time-windowed statecraft review passes using active synthesis and judgment skills (replaces deprecated last30days/monthly-deepening and archived framework/multi-lens).
 portable: true
-version: 0.1.0
+version: 0.2.0
 scope_class: repo-governed
 skills:
-  - last30days
-  - monthly-deepening
-  - statecraft-framework
-  - statecraft-multi-lens
+  - state-synthesis
+  - primary-overhearing-analysis
+  - statecraft-intelligence-essay
 outputs:
   - bounded review memo or watchlist upgrade
 authority: advisory_only
@@ -20,11 +19,13 @@ risk_tier: medium
 
 ## Purpose
 
-Run a periodic review chain selecting time window (30-day vs month-scale) then judgment enhancers.
+Run a periodic review chain for a named time window using **active** statecraft skills — not retired judgment-method stubs.
 
 ## Trigger
 
 **Operator phrases:** `runbook periodic review`, `runbook last30`, `runbook monthly deepen`.
+
+**Legacy triggers:** `last30days`, `monthly deepening` — route here (deprecated skill stubs redirect to this runbook).
 
 **Use when:**
 
@@ -34,15 +35,17 @@ Run a periodic review chain selecting time window (30-day vs month-scale) then j
 **Do not use when:**
 
 - archive land incomplete — run intake first
-- single-object lens suffices — use one skill only
+- single-day synthesis suffices — use **`state-synthesis`** only
 
 ## Skills Composed
 
-| Mode | Skills | When |
-|------|--------|------|
-| Fast | `last30days` → `statecraft-framework` | Rolling 30-day scan |
-| Month | `monthly-deepening` → `statecraft-framework` | Calendar month closure |
-| Compare | prior output → `statecraft-multi-lens` | Multi-preset comparison on live object |
+| Mode | Active chain | When |
+|------|--------------|------|
+| Fast | archive/wire scan → **`state-synthesis`** for window | Rolling ~30-day scan |
+| Month | month batch under `source-archive/statecraft/` → **`state-synthesis`** | Calendar month closure |
+| Compare | prior synthesis → **`primary-overhearing-analysis`** or **`statecraft-intelligence-essay`** | Layered comparison when object unsettled |
+
+Do **not** invoke `last30days`, `monthly-deepening`, `statecraft-framework`, `statecraft-multi-lens`, or `statecraft-helix-synthesis` — those skills are retired.
 
 ## Inputs Required
 
@@ -53,9 +56,9 @@ Run a periodic review chain selecting time window (30-day vs month-scale) then j
 ## Workflow Steps
 
 1. Pick mode (30-day vs month vs compare).
-2. Run window skill (`last30days` or `monthly-deepening`).
-3. Run **`statecraft-framework`** on findings.
-4. Optionally run **`statecraft-multi-lens`** when comparison adds value.
+2. Name the window and list archive/synthesis inputs for that window.
+3. Run **`state-synthesis`** (or bounded chat review if archive batch incomplete — state gap explicitly).
+4. Optionally run **`primary-overhearing-analysis`** or **`statecraft-intelligence-essay`** when comparison or register work adds value.
 5. Report receipts and falsifiers; do not auto-promote synthesis.
 
 ## Human Approval Points
@@ -74,8 +77,8 @@ Stop if:
 
 Do not call this runbook complete unless:
 
-- window skill produced bounded output
-- framework pass applied to that output
+- time window and scope are named
+- synthesis or bounded review output is produced or deferral is stated
 - links/receipts cited or gaps named
 
 Evidence to report:
@@ -87,7 +90,7 @@ Evidence to report:
 ## Outputs
 
 - Review memo (chat or notebook candidate)
-- Optional multi-lens comparison block
+- Optional comparison block from active judgment skills
 
 ## Return Paths
 

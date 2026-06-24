@@ -48,7 +48,7 @@ Terminology note:
 
 - `civ-state` means the civilization-state object being interpreted
 - **Civilizational Statecraft Framework** is the doctrine
-- `statecraft-framework` is the operational skill for running that diagnosis before subordinate family selection
+- `statecraft-framework` is **archived** — use [`periodic-statecraft-review` runbook](../runbooks/periodic-statecraft-review.runbook.md) or the six-term checklist under `statecraft/states/` for governing-pair diagnosis before subordinate family selection
 
 It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
@@ -61,7 +61,7 @@ Second rule: every major civilization object is an arc-lens, not a topic page. A
 Use this order when the right entry point is unclear:
 
 1. `state-deploy` if the object is still a live-event intake, ownership dispute, or lane-routing problem.
-2. `statecraft-framework` if the lane is known but the governing pair is still unclear.
+2. **`periodic-statecraft-review` runbook** or six-term checklist if the lane is known but the governing pair is still unclear (`statecraft-framework` archived).
 3. Sacred Grammar if deep legitimacy, covenant, ritual order, sacred boundary, or truth-order conflict is load-bearing.
 4. `memory` when the continuity-bearing or legitimacy-bearing substrate is thin, stale, or contested and needs rebuilding before drafting can be trusted.
 
@@ -75,7 +75,7 @@ Do not use `memory` to replace an unresolved lane judgment or an unresolved gove
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.
 - Preserve unrelated dirty files. Memory-skill edits should stay inside `statecraft/` unless the operator explicitly expands scope.
 - Do not build civilization arc-lens backfills only from existing lane summaries. Use direct CIV-MEM discovery, `MEM CONNECTIONS`, and opened source bodies before drafting.
-- If the object still sounds elegant but under-grounded, stop and kick back to `statecraft-framework` or Sacred Grammar rather than padding the backfill.
+- If the object still sounds elegant but under-grounded, stop and kick back to the **periodic-statecraft-review** runbook, six-term checklist, or Sacred Grammar rather than padding the backfill.
 
 ## Workflow
 

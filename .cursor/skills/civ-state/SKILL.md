@@ -209,7 +209,7 @@ Runbook-first for acquisition and hardening; keep skills as primitives.
 | **civ-state-note** | Downstream when seam needs **retrieve posture + public anchors** on `statecraft/notes/` |
 | **civ-state-essay** | When note graduates to reader-facing `public/civ-state/` prose |
 | **recursive-learn** | Post-encode machine law; close offer only — not mid-menu |
-| **statecraft-framework** | Secondary frame supplement when public theory insufficient |
+| **statecraft-framework** | **Archived** — use public theory / six-term checklist when frame supplement needed |
 
 ## Non-Replacement Rule
 

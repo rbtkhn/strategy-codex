@@ -31,9 +31,8 @@ _OPERATOR = [
     "extract-skill-from-session", "repo-feedback-prompt", "dream", "bridge", "harvest",
 ]
 _JUDGMENT = [
-    "statecraft-framework", "statecraft-multi-lens", "statecraft-helix-synthesis",
-    "primary-overhearing-analysis", "statecraft-intelligence-essay", "monthly-deepening",
-    "last30days", "tufte-data-viz", "singularity-monthly-synthesis", "singularity-note-promotion",
+    "primary-overhearing-analysis", "statecraft-intelligence-essay",
+    "tufte-data-viz", "singularity-monthly-synthesis", "singularity-note-promotion",
 ]
 _DOMAIN = [
     "civ-state", "civ-state-note", "civ-state-essay", "civ-state-volume-harden",
@@ -59,6 +58,7 @@ _REDIRECT = [
     "strategy-notebook-expert-cross-weave", "strategy-notebook-guest-canon-note",
     "tri-mind", "conductor", "elicit-knowledge", "gate-review-pass", "thanks",
     "ideation-engine", "mtp", "abundance-native-ventures",
+    "last30days", "monthly-deepening",
 ]
 
 CATEGORY_MAP: dict[str, str] = {}
@@ -91,7 +91,7 @@ REPLACEMENT_MAP.update({
     "cognition-streams": "check-sources",
     "strategy-notebook-expert-cross-weave": "strategy-notebook-expert-cross-weave",
     "strategy-notebook-guest-canon-note": "strategy-notebook-guest-canon-note",
-    "tri-mind": "statecraft-multi-lens",
+    "tri-mind": "periodic-statecraft-review",
     "conductor": "coffee",
     "elicit-knowledge": "fork-revive",
     "gate-review-pass": "fork-revive",
@@ -100,6 +100,21 @@ REPLACEMENT_MAP.update({
     "ideation-engine": "product-strategy",
     "mtp": "product-strategy",
     "abundance-native-ventures": "product-strategy",
+    "last30days": "periodic-statecraft-review",
+    "monthly-deepening": "periodic-statecraft-review",
+})
+
+STATUS_MAP.update({
+    "statecraft-framework": "archived",
+    "statecraft-multi-lens": "archived",
+    "statecraft-helix-synthesis": "archived",
+    "last30days": "deprecated",
+    "monthly-deepening": "deprecated",
+})
+
+CATEGORY_MAP.update({
+    "last30days": "legacy-redirect",
+    "monthly-deepening": "legacy-redirect",
 })
 
 REVIEW_DATE_MAP.update({
@@ -116,4 +131,9 @@ REVIEW_DATE_MAP.update({
     "ideation-engine": "2026-12-31",
     "mtp": "2026-12-31",
     "abundance-native-ventures": "2026-12-31",
+    "last30days": "2026-12-31",
+    "monthly-deepening": "2026-12-31",
+    "statecraft-framework": "2026-12-31",
+    "statecraft-multi-lens": "2026-12-31",
+    "statecraft-helix-synthesis": "2026-12-31",
 })

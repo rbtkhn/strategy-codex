@@ -39,7 +39,7 @@ Use when **all** of the following are true:
 
 - the job is still **source intake** only
 - the object is the **whole day** — use `state-synthesis` first, then promote one wedge
-- multiple competing claims are unsettled — stay in synthesis or `statecraft-multi-lens` first
+- multiple competing claims are unsettled — stay in synthesis or use **`state-synthesis`** mechanism-comparison subroutine first (`statecraft-multi-lens` archived)
 - the object is a **stand-alone thesis** that no longer needs parent context — route toward repo-root essay via `docs/prose-index.md`
 
 ## When not to confuse with adjacent skills
@@ -49,7 +49,7 @@ Use when **all** of the following are true:
 | **state-note** (this) | One bounded note under `statecraft/notes/` |
 | **civ-state-note** | Same shelf; **mandatory CIV-STATE retrieve pre-pass** when civilizational shelf is load-bearing — parallel to **`civ-state-essay`** |
 | **state-synthesis** | Operator daily surface for a full archive day |
-| **statecraft-multi-lens** | Live comparison across named lenses; may **hand off** here when method-bearing |
+| **statecraft-multi-lens** | **Archived** — use **`state-synthesis`** comparison subroutine or **`primary-overhearing-analysis`**; may **hand off** here when method-bearing |
 | **statecraft-intelligence-essay** | Synthetic essay-class object, not a bounded note |
 | **singularity-note-promotion** | Same promotion shape; **singularity** shelf only |
 

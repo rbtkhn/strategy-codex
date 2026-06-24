@@ -47,6 +47,7 @@ SPECIAL_REPLACEMENTS = frozenset({
     "fork-revive", "archive", "coffee",
     "strategy-codex-expert-cross-weave", "strategy-codex-guest-canon-note",
     "strategy-notebook-expert-cross-weave", "strategy-notebook-guest-canon-note",
+    "periodic-statecraft-review",
 })
 
 SCOPE_CLASSES = frozenset({"personal", "project-local", "repo-governed", "public-portable"})

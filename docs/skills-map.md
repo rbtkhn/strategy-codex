@@ -21,10 +21,10 @@ Operator-facing index for the skill system. Pipeline detail: [skills/README.md](
 |----------|---------|----------|
 | `truth-pipeline` | Source accuracy, intake, verification, synthesis | `statecraft-source-intake`, `check-sources`, `news-verify`, `state-synthesis` |
 | `operator-coherence` | Cadence, memory, repo hygiene | `coffee` (external), `dream`, `bridge`, `memory`, `recursive-learn` |
-| `judgment-enhancement` | Interpretation quality (not intake) | `statecraft-framework`, `statecraft-multi-lens`, `monthly-deepening` |
+| `judgment-enhancement` | Interpretation quality (not intake) | `primary-overhearing-analysis`, `statecraft-intelligence-essay`, `tufte-data-viz` |
 | `domain-pack` | Lane-specific when domain is active | `civ-state`, `politics-massie`, `state-america` (cursor) |
 | `product-narrative` | Commercial, book, voice product | `product-strategy`, `skill-narrative`, `arc-to-chapter-seeds` |
-| `legacy-redirect` | Thin compatibility alias only | `wire-verify` → `news-verify`, `tri-mind` → `statecraft-multi-lens` |
+| `legacy-redirect` | Thin compatibility alias only | `wire-verify` → `news-verify`, `tri-mind` → `periodic-statecraft-review`, `last30days` → runbook |
 
 ## Skill vs runbook
 
@@ -69,9 +69,9 @@ Rough promoted set (~45 manifest skills including redirects):
 
 - **Truth:** intake, clean, check-sources, news-verify, state-note, state-synthesis, packet-before-synthesis
 - **Operator:** memory, recursive-learn, repo-hygiene-pass, portable-skills-sync, extract-skill-from-session
-- **Judgment:** statecraft-framework, statecraft-multi-lens, statecraft-helix-synthesis, primary-overhearing-analysis, tufte-data-viz
+- **Judgment:** primary-overhearing-analysis, statecraft-intelligence-essay, tufte-data-viz; periodic review via **`periodic-statecraft-review`** runbook
 - **Domain:** civ-state, politics-massie, jurisdiction-campaign-history, work-jiang-ingest-fallback
 - **Product:** product-strategy, voice-profile-panel, skill-narrative
-- **Legacy redirects:** wire-verify, check-streams, cognition-streams, strategy-notebook-*, ideation-engine, mtp, abundance-native-ventures
+- **Legacy redirects:** wire-verify, check-streams, cognition-streams, strategy-notebook-*, ideation-engine, mtp, abundance-native-ventures, last30days, monthly-deepening
 
 Full inventory: `runtime/artifacts/skill-inventory.md`.

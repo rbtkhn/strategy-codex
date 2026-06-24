@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T00:26:14Z`
+Generated: `2026-06-24T00:35:51Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -52,11 +52,11 @@ Total rows: **114**
 | iran-lit | cursor-only | False | .cursor/skills/iran-lit/SKILL.md |  | domain-pack | active |  | iran-lit | missing | 2026-06-23 |  |
 | jurisdiction-campaign-history | both | True | .cursor/skills/jurisdiction-campaign-history/SKILL.md | jurisdiction-campaign-history/SKILL.md | domain-pack | active |  | jurisdiction history | missing | 2026-06-23 |  |
 | lane-survey | cursor-only | False | .cursor/skills/lane-survey/SKILL.md |  | domain-pack | active |  | survey | missing | 2026-06-23 | Review: likely runbook or archived |
-| last30days | both | True | .cursor/skills/last30days/SKILL.md | last30days/SKILL.md | judgment-enhancement | active |  | last30days | missing | 2026-06-23 |  |
+| last30days | both | True | .cursor/skills/last30days/SKILL.md | last30days/SKILL.md | legacy-redirect | deprecated | periodic-statecraft-review | last30days | missing | 2026-06-23 |  |
 | marandi-state-extraction | draft | False |  |  | domain-pack | draft |  | marandi-state | n/a | 2026-06-23 |  |
 | memory | both | True | .cursor/skills/memory/SKILL.md | memory/SKILL.md | operator-coherence | active |  | memory | present | 2026-06-23 |  |
 | mercouris-daily-continuity-extraction | draft | False |  |  | domain-pack | draft |  | mercouris-continuity | n/a | 2026-06-23 |  |
-| monthly-deepening | both | True | .cursor/skills/monthly-deepening/SKILL.md | monthly-deepening/SKILL.md | judgment-enhancement | active |  |  | missing | 2026-06-23 |  |
+| monthly-deepening | both | True | .cursor/skills/monthly-deepening/SKILL.md | monthly-deepening/SKILL.md | legacy-redirect | deprecated | periodic-statecraft-review | monthly deepening | missing | 2026-06-23 |  |
 | mtp | both | True | .cursor/skills/mtp/SKILL.md | mtp/SKILL.md | legacy-redirect | redirect | product-strategy | mtp | missing | 2026-06-23 |  |
 | news-verify | both | True | .cursor/skills/news-verify/SKILL.md | news-verify/SKILL.md | truth-pipeline | active |  | news verify | present | 2026-06-23 |  |
 | observability-to-cadence-capture | draft | False |  |  | domain-pack | draft |  | observability capture | n/a | 2026-06-23 |  |
@@ -100,12 +100,12 @@ Total rows: **114**
 | state-russia | cursor-only | False | .cursor/skills/state-russia/SKILL.md |  | domain-pack | active |  | state-russia | missing | 2026-06-23 |  |
 | state-synthesis | both | True | .cursor/skills/state-synthesis/SKILL.md | state-synthesis/SKILL.md | truth-pipeline | active |  | state synthesis | present | 2026-06-23 |  |
 | statecraft-bridge | cursor-only | False | .cursor/skills/statecraft-bridge/SKILL.md |  | domain-pack | active |  | statecraft-bridge | missing | 2026-06-23 |  |
-| statecraft-framework | both | True | .cursor/skills/statecraft-framework/SKILL.md | statecraft-framework/SKILL.md | judgment-enhancement | active |  | statecraft-framework | present | 2026-06-23 |  |
+| statecraft-framework | both | True | .cursor/skills/statecraft-framework/SKILL.md | statecraft-framework/SKILL.md | judgment-enhancement | archived |  | statecraft framework | missing | 2026-06-23 |  |
 | statecraft-guidebook-writer | cursor-only | False | .cursor/skills/statecraft-guidebook-writer/SKILL.md |  | product-narrative | active |  | statecraft-guidebook-writer | missing | 2026-06-23 |  |
-| statecraft-helix-synthesis | both | True | .cursor/skills/statecraft-helix-synthesis/SKILL.md | statecraft-helix-synthesis/SKILL.md | judgment-enhancement | active |  |  | present | 2026-06-23 |  |
+| statecraft-helix-synthesis | both | True | .cursor/skills/statecraft-helix-synthesis/SKILL.md | statecraft-helix-synthesis/SKILL.md | judgment-enhancement | archived |  | statecraft helix synthesis | missing | 2026-06-23 |  |
 | statecraft-intelligence-essay | both | True | .cursor/skills/statecraft-intelligence-essay/SKILL.md | statecraft-intelligence-essay/SKILL.md | judgment-enhancement | active |  | statecraft intelligence essay | present | 2026-06-23 |  |
 | statecraft-lane-intake-router | cursor-only | False | .cursor/skills/statecraft-lane-intake-router/SKILL.md |  | domain-pack | active |  | statecraft-lane-intake-router | missing | 2026-06-23 |  |
-| statecraft-multi-lens | both | True | .cursor/skills/statecraft-multi-lens/SKILL.md | statecraft-multi-lens/SKILL.md | judgment-enhancement | active |  | statecraft multi-lens | present | 2026-06-23 |  |
+| statecraft-multi-lens | both | True | .cursor/skills/statecraft-multi-lens/SKILL.md | statecraft-multi-lens/SKILL.md | judgment-enhancement | archived |  | statecraft multi-lens | missing | 2026-06-23 |  |
 | statecraft-source-intake | both | True | .cursor/skills/statecraft-source-intake/SKILL.md | statecraft-source-intake/SKILL.md | truth-pipeline | active |  | source-intake | present | 2026-06-23 |  |
 | strategy-notebook-expert-cross-weave | both | True | .cursor/skills/strategy-notebook-expert-cross-weave/SKILL.md | strategy-notebook-expert-cross-weave/SKILL.md | legacy-redirect | redirect | strategy-codex-expert-cross-weave | weave expert cross | missing | 2026-06-23 |  |
 | strategy-notebook-guest-canon-note | both | True | .cursor/skills/strategy-notebook-guest-canon-note/SKILL.md | strategy-notebook-guest-canon-note/SKILL.md | legacy-redirect | redirect | strategy-codex-guest-canon-note | speaker arc | missing | 2026-06-23 |  |
@@ -113,7 +113,7 @@ Total rows: **114**
 | thanks | cursor-only | False | .cursor/skills/thanks/SKILL.md |  | legacy-redirect | redirect | archive | thanks | missing | 2026-06-23 |  |
 | transcript-cleanup | both | True | .cursor/skills/transcript-cleanup/SKILL.md | transcript-cleanup/SKILL.md | truth-pipeline | active |  | transcript cleanup | present | 2026-06-23 |  |
 | transcript-proper-noun-normalization | both | True | .cursor/skills/transcript-proper-noun-normalization/SKILL.md | transcript-proper-noun-normalization/SKILL.md | truth-pipeline | active |  | proper noun normalization | present | 2026-06-23 |  |
-| tri-mind | cursor-only | False | .cursor/skills/tri-mind/SKILL.md |  | legacy-redirect | redirect | statecraft-multi-lens | tri-mind | missing | 2026-06-23 |  |
+| tri-mind | cursor-only | False | .cursor/skills/tri-mind/SKILL.md |  | legacy-redirect | redirect | periodic-statecraft-review | tri-mind | missing | 2026-06-23 |  |
 | tufte-data-viz | both | True | .cursor/skills/tufte-data-viz/SKILL.md | tufte-data-viz/SKILL.md | judgment-enhancement | active |  | tufte viz | missing | 2026-06-23 |  |
 | validator-first | cursor-only | False | .cursor/skills/validator-first/SKILL.md |  | truth-pipeline | active |  |  | present | 2026-06-23 |  |
 | voice-profile-panel | both | True | .cursor/skills/voice-profile-panel/SKILL.md | voice-profile-panel/SKILL.md | product-narrative | draft |  |  | missing | 2026-06-23 |  |

@@ -454,7 +454,7 @@ If a single-source intake or batch checkpoint clearly creates a pattern that wan
 Valid next routes include:
 
 - `state-synthesis`
-- `statecraft-multi-lens`
+- `primary-overhearing-analysis` or **`periodic-statecraft-review`** runbook (`statecraft-multi-lens` archived)
 - bounded note preservation under `statecraft/notes/`
 
 Do not widen intake into analysis-by-default. The handoff should stay explicit and downstream.
