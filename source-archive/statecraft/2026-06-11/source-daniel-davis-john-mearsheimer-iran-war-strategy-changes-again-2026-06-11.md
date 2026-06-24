@@ -28,6 +28,21 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body preserved verbatim from parent paste. ASR artifacts retained (Mirshimeber, Sitcom, Hegseth, Parse/Parsey, Zelensky, etc.). Subscribe/like close stripped at tail. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 davis_close_promo_trim_applied: true
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump cancels tonight strikes (Truth Social breaking same day)
+    verdict: supported
+    note: J11-1 - Axios 11 Jun cancel; Mearsheimer cites live-breaking mesh
+  - claim: Four-element ceasefire frame stop shooting Hormuz assets sanctions
+    verdict: partial
+    note: J11-5 J11-11 J11-17 - draft shape partial; Lebanon bundle unresolved
+  - claim: Kharg / Car Island oil-barons delusion (Kellogg Keane register)
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; analyst delusion read tier-4 overlay
+  - claim: Iran war strategy changes again (incentive-shift structural read)
+    verdict: partial
+    note: tier-4 structural bench - not wire-primary authority per matrix fence
 ---
 
 # Prof John Mearsheimer Iran War Strategy CHANGES AGAIN!

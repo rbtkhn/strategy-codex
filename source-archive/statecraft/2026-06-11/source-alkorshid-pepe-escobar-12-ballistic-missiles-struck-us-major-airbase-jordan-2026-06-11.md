@@ -31,6 +31,21 @@ transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Twelve ballistic missiles struck US major airbase Jordan
+    verdict: partial
+    note: J11-14 - Escobar in-voice; pair J10-7 Jordan intercept line; damage tier contested
+  - claim: IRGC retaliation across Bahrain Kuwait Jordan base cluster
+    verdict: supported
+    note: J10-3 - Al Jazeera/Pajhwok 10 Jun; attempt scale supported, damage partial
+  - claim: Jordan airbase F-15/16/35 asset dust from strike package
+    verdict: contested
+    note: J10-8 - IRGC claim vs host denial fork; no imagery/DoD primary in pass
+  - claim: GCC fifth-fleet / host-nation attack cycle same window
+    verdict: supported
+    note: J10-4 J10-5 - Bahrain sirens; Kuwait intercept line
 ---
 # Pepe Escobar: 12 Ballistic Missiles Struck a US Major Airbase (Jordan)
 

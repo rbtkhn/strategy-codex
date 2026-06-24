@@ -33,6 +33,18 @@ napolitano_leading_noise_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 30 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Marandi, Tehran, Hormos, etc.). Ideological cold open trimmed in place."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Iran no final decision on deal Trump hopes to sign
+    verdict: supported
+    note: J11-2 - Straits Times 11 Jun; Marandi Tehran floor reinforces denial grammar
+  - claim: Pakistan message channel paused over US ceasefire violations and Lebanon
+    verdict: partial
+    note: J11-9 - in-voice; pair NYT Pakistan pre-cancel cite in Aguilar Nawfal
+  - claim: No deal without Lebanon/Gaza restraint; bundled gate
+    verdict: partial
+    note: J11-11 - five-demand shape; Trump public bundle omits bundle vs J11-19
 ---
 # Prof. Mohammad Marandi : FROM TEHRAN. Why Iran Risks War
 

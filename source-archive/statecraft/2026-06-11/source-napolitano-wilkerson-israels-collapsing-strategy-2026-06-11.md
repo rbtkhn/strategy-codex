@@ -34,6 +34,21 @@ napolitano_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; ideological cold open, sponsor block, and closing lineup promo omitted. ASR artifacts retained (Npalitaniano, Sanders/Wilkerson slip, Hexseth, etc.)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: 8:30 Kharg total-control Truth vs 2pm cancel-strikes roller coaster
+    verdict: supported
+    note: J11-1 J11-3 J11-20 - Axios Kharg + cancel; #39 cycle on wire facts
+  - claim: Pakistan-only intermediaries; Iran won't front US directly
+    verdict: partial
+    note: J11-9 J11-11 - pair Marandi Pakistan pause
+  - claim: Israel multi-front collapse / Netanyahu polls-jail pressure
+    verdict: partial
+    note: tier-4 Palestine-root carry; not Jun 11 wire-primary
+  - claim: Kharg seizure operational insanity (climate/troop scale)
+    verdict: partial
+    note: J11-3 supported threat; invasion feasibility tier-4
 ---
 # COL. Lawrence Wilkerson : Israel's Collapsing Strategy
 

@@ -31,6 +31,21 @@ transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: US renewed strikes southern Iran / Karaj Tomahawk package
+    verdict: supported
+    note: J10-1 - carry Al Jazeera 10 Jun; third strike night J11-10
+  - claim: Iranian retaliation Kuwait Jordan Bahrain (not UAE/SA)
+    verdict: supported
+    note: J10-3 J10-5 J10-7 - attempt scale supported; host intercept lines partial damage
+  - claim: Overnight US strikes widened Iranian suspicion / trust fracture
+    verdict: supported
+    note: J11-8 - Axios three-source brief; delegation-in-Iran during attack mesh
+  - claim: Apache-helicopter pretext fragility (strike justification)
+    verdict: partial
+    note: carry Jun 9 physics fork; accident vs retaliation politics not wire-scored here
 ---
 # Alex Krainer: US STRIKES Iran – Iran RETALIATES Against Kuwait, Bahrain & Jordan!
 

@@ -32,6 +32,24 @@ breaking_points_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Tyrron, homos, Batar, Barack Ravit, etc.). Breaking Points subscribe close stripped at tail."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Iran five demands / bundled Lebanon-Gaza gate shape
+    verdict: partial
+    note: J11-11 - cross-ref Napolitano Marandi Hg7FvDUzi6c; signed text not wire-closed
+  - claim: Deal general terms on paper vs Trump public denials
+    verdict: partial
+    note: J11-4 J11-2 mesh - near-text partial; Tehran no-final-decision grammar
+  - claim: Pakistan message channel / Qatar assets lane seriousness
+    verdict: partial
+    note: J11-9 - pair JF Marandi and Aguilar NYT Pakistan cite
+  - claim: Trump Kharg occupation threats unite Iran (Tehran reaction)
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; invasion-trap read tier-4 vs Weichert Gallipoli fork
+  - claim: Iran welcomes US territorial occupation as hardest-hit window
+    verdict: partial
+    note: in-voice adversary floor; not wire event - interpretive register only
 ---
 # Professor Marandi: Iran WELCOMES US Invasion
 

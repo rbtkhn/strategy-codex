@@ -34,6 +34,21 @@ napolitano_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hexseth, etc.). Ideological cold open and closing lineup promo trimmed in place."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump Truth Social Kharg / oil infrastructure escalation
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun
+  - claim: Trump stuck - electoral/institutional bind without clean exit
+    verdict: partial
+    note: tier-4 executive-bind lens; pair Barnes J11-21 routing
+  - claim: Israel restraint as binding constraint on US Iran policy
+    verdict: partial
+    note: J11-19 - client mesh; signed MOU text not wire-closed
+  - claim: Declare-victory-and-leave vs Carter trap end-state menu
+    verdict: partial
+    note: tier-4 bench; not same-day wire authority
 ---
 # Joe Kent: Why Trump Is Stuck
 

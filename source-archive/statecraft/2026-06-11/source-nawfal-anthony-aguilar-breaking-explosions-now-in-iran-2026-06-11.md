@@ -28,6 +28,21 @@ opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 30 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Kag/Car/Kharg, Harmmoose, etc.). Nawfal closing lineup/Tucker promo trimmed at tail. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump cancel-strikes / MOU approval oscillation same day
+    verdict: supported
+    note: J11-1 - Axios/BBC carry; Aguilar brinksmanship vs Nawfal carrot-stick
+  - claim: Kharg / Bandar Abbas strike-threat pincher (not deal-close)
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; Aguilar isolate-not-invade read
+  - claim: Near-final mediator draft; Trump added conditions
+    verdict: partial
+    note: J11-4 - Fars two-week draft in-voice; pair Johnson J11-13
+  - claim: Pakistan channel pre-cancel (NYT cite in-body)
+    verdict: partial
+    note: J11-9 - pair Marandi Pakistan pause; not IRNA-primary
 ---
 # BREAKING: EXPLOSIONS NOW IN IRAN – w/ Green Beret Lt. Col. Anthony Aguilar
 

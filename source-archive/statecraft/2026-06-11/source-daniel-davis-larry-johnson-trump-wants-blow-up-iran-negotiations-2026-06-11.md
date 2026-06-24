@@ -28,6 +28,24 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 davis_close_promo_trim_applied: true
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump wants to blow up / sabotage Iran negotiations (live noon bench)
+    verdict: partial
+    note: J11-21 - pattern mesh with Barnes; Truth Social strike theater same day
+  - claim: US added conditions / negotiator bad-faith after near-text window
+    verdict: partial
+    note: J11-13 - pair Alkorshid Johnson oVIpH5FQF3Y J11-4
+  - claim: Jordan Bahrain Kuwait retaliation cycle
+    verdict: supported
+    note: J10-3 J10-7 - carry Jun 10 matrix; pair Krainer -7gGIjs0STg
+  - claim: Overnight strikes widened Iranian suspicion
+    verdict: supported
+    note: J11-8 - Axios three-source brief mesh
+  - claim: Deal-imminent cycle continues (negotiations not sovereign over kinetics)
+    verdict: supported
+    note: J11-20 - wire-anchored cancel/denial facts; blow-up framing tier-4
 ---
 
 # Larry Johnson: Trump Wants to Blow Up Iran Negotiations

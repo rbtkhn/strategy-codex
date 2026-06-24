@@ -31,6 +31,24 @@ transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: US night strikes Karaj / southern Iran fighters and Tomahawks
+    verdict: supported
+    note: J10-1 - Al Jazeera 10 Jun coastal/cluster strike package
+  - claim: Asaluyeh petrochemical site Tomahawk intercept
+    verdict: partial
+    note: J10-2 mesh - infra category; intent not wire-scored
+  - claim: Iranian immediate retaliation Kuwait Bahrain Jordan
+    verdict: supported
+    note: J10-3 J10-7 - attempt supported; footage vs intercept claims partial
+  - claim: Trump Kharg invasion threat then reversal / framework oscillation
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; same-day cancel carry J11-1
+  - claim: Third consecutive US strike night
+    verdict: supported
+    note: J11-10 - carry J10-1 Jun 10-11 ladder
 ---
 # Andrei Martyanov: US Strikes Iran – Iran Hits Back at CRITICAL Targets IMMEDIATELY
 

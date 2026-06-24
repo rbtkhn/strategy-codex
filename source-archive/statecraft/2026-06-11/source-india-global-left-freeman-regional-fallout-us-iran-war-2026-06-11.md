@@ -31,6 +31,21 @@ india_global_left_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 9 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Chess Freeman, Husbollah, unansa Houthi, etc.). India and Global Left opening subscribe + closing donate promo trimmed."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: US blockade closed Hormuz; ~3 vs ~100 tankers/day band failure
+    verdict: supported
+    note: J11-18 - UANI/J11-6 mesh; D-HORM-01 failed row
+  - claim: Kuwait Bahrain Jordan base reciprocation / regional-war doctrine
+    verdict: supported
+    note: J10-3 J10-7 - attempt scale supported; Freeman multipolar framing tier-4
+  - claim: Kharg threats and transactional deal failure
+    verdict: partial
+    note: J11-3 supported; J11-4 near-text partial
+  - claim: Gulf hedging / strategic-autonomy architecture talks
+    verdict: partial
+    note: tier-4 multipolar fallout; no dated Jun 11 wire-primary
 ---
 # The Regional Fallout of a US-Iran War | Chas Freeman Analysis
 

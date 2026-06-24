@@ -34,6 +34,18 @@ napolitano_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hegseth, Car/Kharg Island, etc.). Ideological cold open and closing lineup promo trimmed in place."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump Kharg Island seizure / bluff cycle same day
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; Macgregor no-live-negotiations mesh
+  - claim: Trump 100M bbl Hormuz sneak claim
+    verdict: contradicted
+    note: J11-7 - Al Jazeera 11 Jun; SPR/Hormuz bench not wire for sneak claim
+  - claim: Iran won't deal without Israel restraint (bundled gate)
+    verdict: partial
+    note: J11-11 - convergence with Marandi; signed text not wire-closed
 ---
 # COL. Douglas Macgregor : Trump's Biggest Mistake
 

@@ -34,6 +34,21 @@ napolitano_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 32 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Qarq, Hexseth, etc.). Ideological cold open and closing Macgregor lineup promo trimmed in place."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump Truth Social delay-bombing / MOU move blindsides Israel
+    verdict: supported
+    note: J11-1 - Axios cancel 11 Jun; dual-channel fracture mesh
+  - claim: Kharg / Qarq morning threat then reversal same day
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; pair Wilkerson 8:30 vs 2pm roller coaster
+  - claim: Israel client mesh jeopardizes US troops (enforceability liability)
+    verdict: partial
+    note: J11-19 - tier-4 troop-jeopardy lens; GCC host exposure via J10 carry
+  - claim: DIA elevated Israel CI threat to critical
+    verdict: supported
+    note: Military.com ~6 Jun carry; guest frames Mossad admin targeting mesh
 ---
 # Max Blumenthal : Israel Jeopardizes US Troops
 

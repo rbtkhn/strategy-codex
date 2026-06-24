@@ -28,6 +28,18 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Tail re-ingested from operator YouTube paste 2026-06-17; close promo trimmed post-ingest. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT. Tail re-ingest 2026-06-17."
 mercouris_close_promo_trim_applied: true
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Iran-US war resumes / continuity with Jun 9-10 block
+    verdict: supported
+    note: J11-8 J11-10 - carry J10-1 third strike night; MOU near-text partial J11-4
+  - claim: Russia brushes off EU sanctions; complains to China over drones
+    verdict: partial
+    note: tier-4 peripheral - verify:russia-lane-absent on Jun 11 MOU seam
+  - claim: Conference-source battlefield / drone-component reads
+    verdict: unclear
+    note: attributed not wire-primary; Ukraine adjacent only
 ---
 # Iran US War Resumes; Russia Brushes Off EU Sanctions, Complains To China Over Drones
 

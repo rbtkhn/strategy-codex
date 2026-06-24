@@ -32,6 +32,27 @@ dialogue_works_close_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Moshtava Kami, Moafik Salty, Clark/Kharg, etc.). Host closing Wilkerson-schedule + cigar banter trimmed at tail."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Near-text Qatar-Iran mediator draft (not signed)
+    verdict: partial
+    note: J11-4 - Axios three-source brief; Pakistan channel / US added conditions mesh
+  - claim: Overnight US strikes widened Iranian suspicion
+    verdict: supported
+    note: J11-8 - J11-10 carry J10-1 third strike night
+  - claim: Iran five demands incl Lebanon/Gaza bundled gate
+    verdict: partial
+    note: J11-11 - in-voice convergence with Marandi; signed text not wire-closed
+  - claim: Khamenei approval gate before signature
+    verdict: partial
+    note: J11-12 - mediator geometry; no same-day leader wire-primary
+  - claim: US added conditions after near-agreed text
+    verdict: partial
+    note: J11-13 - pair Daniel Davis Johnson Dj7QDmiaaj4
+  - claim: Deal-imminent cycle strike threat then cancel then denial
+    verdict: supported
+    note: J11-20 - pattern on Axios/BBC/ST facts anchored in batch
 ---
 # Larry Johnson: BREAKING: Iran Forces Trump Into Concession – War Price Unbearable
 

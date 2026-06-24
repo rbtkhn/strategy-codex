@@ -28,6 +28,21 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 davis_close_promo_trim_applied: true
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump cancels evening strikes; claims leadership approved draft terms
+    verdict: supported
+    note: J11-1 - Axios 11 Jun cancel; BBC live; Barnes rug-pull routing mesh
+  - claim: Blockade / Hormuz closure holds until MOU finalized
+    verdict: supported
+    note: J11-6 - Axios cancel post body; Barnes blockade-until-finalized read
+  - claim: Trump 100M bbl Hormuz sneak claim
+    verdict: contradicted
+    note: J11-7 - Al Jazeera 11 Jun; Barnes fantasy-exit framing
+  - claim: Vance deal lane vs Truth Social / Fox sabotage pattern
+    verdict: partial
+    note: J11-21 - pattern-supported; Vance frustrated by name unclear at wire pass
 ---
 
 # Robert Barnes: Shifting Goal Posts w/Iran War

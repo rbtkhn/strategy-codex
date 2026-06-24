@@ -28,6 +28,21 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 38 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 davis_close_promo_trim_applied: true
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Ceasefire-for-all-or-none grammar incl Lebanon resistance link
+    verdict: partial
+    note: J11-11 - structural bench; signed text not wire-closed
+  - claim: More Iran attacks weaken US (escalatory deterrence failure)
+    verdict: partial
+    note: tier-4 structural lens - not same-day wire authority per matrix fence
+  - claim: Trump-Netanyahu trap / client mesh sabotage MOU track
+    verdict: partial
+    note: J11-19 J11-21 mesh - pattern-supported; Keane finish-the-job clip desk carry
+  - claim: GCC / energy-infra tit-for-tat escalation window
+    verdict: supported
+    note: J10-1 J10-2 carry - infra category supported; intent tier-4
 ---
 
 # Alastair Crooke: More Iran Attacks WEAKEN the US

@@ -32,6 +32,21 @@ breaking_points_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Wert, CarG, Marandi, Raisen Kaine, etc.). Breaking Points subscribe close stripped at tail."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify:
+  - claim: Trump strongly considered nuclear option on Iran
+    verdict: unclear
+    note: J11-15 - Weichert/Hersh analyst tier; no WH or nuclear wire-primary in triage
+  - claim: Trump Kharg / Car Island occupation threats same morning
+    verdict: supported
+    note: J11-3 - Axios Kharg 11 Jun; Truth Social/Fox carry mesh
+  - claim: JCS Caine invasion-failure / Gallipoli amphibious warning
+    verdict: partial
+    note: tier-4 institutional read; Caine clip not wire-primary in pass
+  - claim: Netanyahu deal-sabotage survival motive (escalation ceiling probe)
+    verdict: partial
+    note: analyst mesh; pair Barnes J11-21 routing pattern
 ---
 # REPORT: Trump Strongly Considered NUKING Iran
 
