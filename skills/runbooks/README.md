@@ -42,6 +42,7 @@ python3 scripts/validate_skills.py
 | `venture-ideation` | `runbook venture ideation` | `ideation-engine` → `mtp` → `abundance-native-ventures` |
 | `chapter-seeding` | `runbook chapter seed` | `arc-to-chapter-seeds` + PH/book Cursor skills |
 | `voice-profile-review` | `runbook voice profile review` | `voice-profile-panel` |
+| `domain-lane-survey` | `runbook lane survey` / `survey [lane]` | Landscape scan → `work-template` checklist |
 | `mtp-coffee-dream` | `runbook mtp coffee dream` (reference) | → `venture-ideation` cadence table |
 
 ## Discovery ladder

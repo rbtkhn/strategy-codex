@@ -160,26 +160,19 @@ skills:
     risk: low
     cluster: country-culture
 
-  # --- General domain helpers ---
-  lane-survey:
-    proposed_disposition: CONVERT_TO_RUNBOOK
-    replacement_or_runbook: domain-lane-survey
-    reason: Composed landscape scan; not a single primitive
+  # --- General domain helpers — Commit 5 executed ---
+  pros-and-cons:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: operator-style.mdc + domain-lane-survey step 7
+    reason: Archived Commit 5; Think-lane unpack lives in operator-style
     risk: low
     cluster: domain-helpers
 
-  pros-and-cons:
-    proposed_disposition: REDIRECT
-    replacement_or_runbook: domain-lane-survey
-    reason: Overlaps lane-survey / think-lane fork; redirect or archive
-    risk: medium
-    cluster: domain-helpers
-
   strategy-notebook-lane-split:
-    proposed_disposition: REDIRECT
-    replacement_or_runbook: null
-    reason: Legacy notebook routing; redirect to current docs or archive
-    risk: medium
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: codex/refined-page-template.md + codex/raw-input/README.md
+    reason: Archived Commit 5; strategy-codex notebook SSOT replaces cursor skill
+    risk: low
     cluster: domain-helpers
 
   # --- Speaker / intake / bridge ---

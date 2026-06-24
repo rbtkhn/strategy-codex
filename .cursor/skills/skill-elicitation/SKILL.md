@@ -129,7 +129,7 @@ Default shape: ask 3-5 concrete MCQs or short-answer prompts, summarize the capt
 | **`strategy` / DEFAULT-PATH** | Decisions + thresholds layers inform codex judgment quality |
 | **strategy-codex** | Optional checkpoint for stream calibration, routing, EOD page shape, contrapuntal comparison, and civ-mem lens choice |
 | **work-cadence** | Telemetry-grounded mode reads cadence events as input |
-| **lane-survey** | Run a lane survey before creating work-elicitation if evaluating alternatives |
+| **domain-lane-survey** | Run **`runbook lane survey`** before creating work-elicitation if evaluating alternatives |
 
 ---
 

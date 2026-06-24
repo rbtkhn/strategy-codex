@@ -43,7 +43,6 @@ _DOMAIN = [
     "anyang-ai", "brewmind-governed-steward", "hn-bookshelf-lookup", "statecraft-bridge",
     "statecraft-lane-intake-router", "speaker-shelf-hygiene", "speaker-structural-continuity",
     "speaker-relations-membrane", "skill-elicitation",
-    "strategy-notebook-lane-split", "lane-survey", "pros-and-cons",
 ]
 _PRODUCT = [
     "product-strategy", "first-wave-service-sales",
@@ -59,6 +58,7 @@ _REDIRECT = [
     "ideation-engine", "mtp", "abundance-native-ventures",
     "last30days", "monthly-deepening",
     "civ-state-primary-text-acquisition", "civ-state-volume-harden",
+    "lane-survey",
 ]
 
 CATEGORY_MAP: dict[str, str] = {}
@@ -104,6 +104,7 @@ REPLACEMENT_MAP.update({
     "monthly-deepening": "periodic-statecraft-review",
     "civ-state-primary-text-acquisition": "civ-state-primary-text",
     "civ-state-volume-harden": "civ-state-volume-hardening",
+    "lane-survey": "domain-lane-survey",
 })
 
 STATUS_MAP.update({
@@ -114,6 +115,9 @@ STATUS_MAP.update({
     "monthly-deepening": "deprecated",
     "civ-state-primary-text-acquisition": "deprecated",
     "civ-state-volume-harden": "deprecated",
+    "lane-survey": "deprecated",
+    "pros-and-cons": "archived",
+    "strategy-notebook-lane-split": "archived",
     "america-art": "archived",
     "america-lit": "archived",
     "china-art": "archived",
@@ -130,6 +134,7 @@ CATEGORY_MAP.update({
     "monthly-deepening": "legacy-redirect",
     "civ-state-primary-text-acquisition": "legacy-redirect",
     "civ-state-volume-harden": "legacy-redirect",
+    "lane-survey": "legacy-redirect",
 })
 
 REVIEW_DATE_MAP.update({
@@ -150,6 +155,9 @@ REVIEW_DATE_MAP.update({
     "monthly-deepening": "2026-12-31",
     "civ-state-primary-text-acquisition": "2026-12-31",
     "civ-state-volume-harden": "2026-12-31",
+    "lane-survey": "2026-12-31",
+    "pros-and-cons": "2026-12-31",
+    "strategy-notebook-lane-split": "2026-12-31",
     "statecraft-framework": "2026-12-31",
     "statecraft-multi-lens": "2026-12-31",
     "statecraft-helix-synthesis": "2026-12-31",

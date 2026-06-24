@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-24T01:03:31.047066+00:00",
-  "inventory_generated_at": "2026-06-24T01:03:30.916879+00:00",
+  "generated_at": "2026-06-24T01:05:50.902752+00:00",
+  "inventory_generated_at": "2026-06-24T01:05:40.793032+00:00",
   "dispositions_source": "scripts/domain_pack_dispositions.yaml",
   "summary": {
-    "total_domain_pack_rows": 52,
+    "total_domain_pack_rows": 51,
     "by_disposition": {
-      "ARCHIVE": 9,
-      "CONVERT_TO_RUNBOOK": 3,
+      "ARCHIVE": 11,
+      "CONVERT_TO_RUNBOOK": 2,
       "KEEP_ACTIVE": 10,
       "PROMOTE_TO_PORTABLE": 1,
-      "REDIRECT": 3,
+      "REDIRECT": 1,
       "REVIEW_WITH_OPERATOR": 26
     },
-    "active_proof_missing": 25
+    "active_proof_missing": 22
   },
   "missing_yaml_entries": [],
   "skills": [
@@ -377,39 +377,21 @@
       "cluster": "country-culture"
     },
     {
-      "name": "lane-survey",
-      "location": "cursor-only",
-      "manifest_listed": false,
-      "cursor_only": true,
-      "skill_path": ".cursor/skills/lane-survey/SKILL.md",
-      "category": "domain-pack",
-      "status": "active",
-      "proof_standard": "missing",
-      "current_trigger": "survey",
-      "inventory_notes": "Review: likely runbook or archived",
-      "proposed_disposition": "CONVERT_TO_RUNBOOK",
-      "post_disposition": "",
-      "replacement_or_runbook": "domain-lane-survey",
-      "reason": "Composed landscape scan; not a single primitive",
-      "risk": "low",
-      "cluster": "domain-helpers"
-    },
-    {
       "name": "pros-and-cons",
       "location": "cursor-only",
       "manifest_listed": false,
       "cursor_only": true,
       "skill_path": ".cursor/skills/pros-and-cons/SKILL.md",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "proof_standard": "missing",
       "current_trigger": "unpack",
       "inventory_notes": "Review: likely runbook or archived",
-      "proposed_disposition": "REDIRECT",
+      "proposed_disposition": "ARCHIVE",
       "post_disposition": "",
-      "replacement_or_runbook": "domain-lane-survey",
-      "reason": "Overlaps lane-survey / think-lane fork; redirect or archive",
-      "risk": "medium",
+      "replacement_or_runbook": "operator-style.mdc + domain-lane-survey step 7",
+      "reason": "Archived Commit 5; Think-lane unpack lives in operator-style",
+      "risk": "low",
       "cluster": "domain-helpers"
     },
     {
@@ -419,15 +401,15 @@
       "cursor_only": true,
       "skill_path": ".cursor/skills/strategy-notebook-lane-split/SKILL.md",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "proof_standard": "missing",
       "current_trigger": "lane split",
       "inventory_notes": "Review: likely runbook or archived",
-      "proposed_disposition": "REDIRECT",
+      "proposed_disposition": "ARCHIVE",
       "post_disposition": "",
-      "replacement_or_runbook": "",
-      "reason": "Legacy notebook routing; redirect to current docs or archive",
-      "risk": "medium",
+      "replacement_or_runbook": "codex/refined-page-template.md + codex/raw-input/README.md",
+      "reason": "Archived Commit 5; strategy-codex notebook SSOT replaces cursor skill",
+      "risk": "low",
       "cluster": "domain-helpers"
     },
     {
@@ -966,7 +948,7 @@
     },
     {
       "name": "domain-lane-survey",
-      "status": "planned Commit 5",
+      "status": "exists",
       "path": "skills/runbooks/domain-lane-survey.runbook.md"
     },
     {

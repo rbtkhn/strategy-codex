@@ -34,7 +34,7 @@ Each `.cursor/skills/*/SKILL.md` declares YAML **`preferred_activation`** (one o
 | `work-jiang-feature-checklist` | **jiang check** | |
 | `portable-skills-sync` | **sync skills** | Portable core: `skills/portable-skills-sync/`. |
 | `extract-skill-from-session` | **save skill** | Alt: **skill from session**. |
-| `pros-and-cons` | **unpack** | Alt: **pros cons**. |
+| `pros-and-cons` | **unpack** | **Archived.** Use [operator-style.mdc](../.cursor/rules/operator-style.mdc) Think-lane unpack; legacy stub only. |
 | `fact-check` | **fact check** | Alt: **verify this**, **check this claim**. |
 | `pol-dashboard` (doc/runbook) | **pol dash** | No `SKILL.md`; miniapp + [pol-dashboard.md](pol-dashboard.md). |
 
@@ -50,7 +50,7 @@ Each `.cursor/skills/*/SKILL.md` declares YAML **`preferred_activation`** (one o
 | `weekly-brief-run` | Weekly brief readiness pass plus scaffold generation for `work-politics` | `python3 scripts/operator_weekly_brief_run.py -u grace-mar` |
 | `gate-review-pass` | Recommendation-oriented review pass over pending `RECURSION-GATE` candidates | `python3 scripts/operator_gate_review_pass.py -u grace-mar` |
 | `handoff-check` | Stop/resume summary with **RECURSION-GATE** (frozen unless fork revive), **Predictive History night closeout** (work-jiang), recent commits, local work, runtime noise, and a re-entry prompt | `python3 scripts/operator_handoff_check.py -u strategy-codex`; cold paste stack: `python3 scripts/operator_reentry_stack.py -u strategy-codex` (`--compact` optional); one-liner: `python3 scripts/harness_warmup.py -u strategy-codex --receipt` |
-| `pros-and-cons` | When a proposal is **unclear** or the operator wants **pros/cons / unpack / tradeoffs**: plain-language **restate**, then **pros**, **cons**, **disproportion**, **recommendation** (Think lane; no ship unless asked) | Agent: follow `.cursor/skills/pros-and-cons/SKILL.md` |
+| `pros-and-cons` | **Archived.** Think-lane **unpack** when a proposal is unclear: restate, pros, cons, disproportion, recommendation — follow [operator-style.mdc](../.cursor/rules/operator-style.mdc) | Agent: operator-style unpack (legacy stub archived) |
 | `fact-check` | **Triage-first** check on pasted/named claims: **lean** verdict table, **one cite** per claim when enough, **high abstention** + **Escalate** when stakes need deeper audit; **not** Record merge unless gated pipeline | Agent: follow `.cursor/skills/fact-check/SKILL.md` |
 | **`strategy` (doc-first)** | **Strategy / codex pass** — [DEFAULT-PATH.md](skill-work/work-strategy/DEFAULT-PATH.md); promote to [STRATEGY.md](skill-work/work-strategy/STRATEGY.md) when stable; **not** work-politics pulse | Agent: [strategy-codex-pass.mdc](../.cursor/rules/strategy-codex-pass.mdc) + DEFAULT-PATH |
 | `tri-mind` | **Deprecated (2026-06).** Legacy tri-lens A/B/C pass — use **`periodic-statecraft-review`** runbook, **`state-synthesis`**, or a **named single mind**. [TRI-MIND-DEPRECATED.md](skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · legacy [tri-mind/SKILL.md](../../.cursor/skills/tri-mind/SKILL.md) | Agent (legacy only): `.cursor/skills/tri-mind/SKILL.md` |
@@ -117,9 +117,9 @@ Must answer:
 - What likely duplicates existing Record content?
 - What needs manual escalation instead of quick review?
 
-### `pros-and-cons`
+### `pros-and-cons` (archived)
 
-Must answer:
+Must answer (via [operator-style.mdc](../.cursor/rules/operator-style.mdc), not the archived skill stub):
 
 - What is the proposal **in one plain sentence** (and rough in/out scope)?
 - What are the **pros** and **cons** as concrete bullets?

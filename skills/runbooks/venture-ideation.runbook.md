@@ -33,7 +33,7 @@ Generate venture options, filter through MTP purpose alignment, and shape abunda
 | 2 | `mtp` | Purpose alignment and governor filter |
 | 3 | `abundance-native-ventures` | Abundance-native venture framing on winner |
 
-**Cadence overlays (Cursor-only):** `coffee`, `dream`, `repo-hygiene-pass`, `pros-and-cons` — see sequences below.
+**Cadence overlays (Cursor-only):** `coffee`, `dream`, `repo-hygiene-pass` — see sequences below. Think-lane unpack uses [operator-style.mdc](../../.cursor/rules/operator-style.mdc) (legacy `pros-and-cons` archived).
 
 ## Inputs Required
 
@@ -46,14 +46,14 @@ Generate venture options, filter through MTP purpose alignment, and shape abunda
 2. Operator picks winner or combo.
 3. Run **`mtp`** on winner — purpose/governor pass.
 4. Run **`abundance-native-ventures`** when abundance-native framing applies.
-5. Optional: **`pros-and-cons`** on final thesis (Cursor skill).
+5. Optional: **operator-style unpack** on final thesis (Think lane; legacy `pros-and-cons` archived).
 
 ### Cadence sequences (from legacy mtp-coffee-dream)
 
 | Order | When |
 |-------|------|
 | `coffee` → **A Confirm** → `mtp` → `repo-hygiene-pass` | Pre-ship wedge on large dirty tree |
-| `ideation-engine` → `mtp` → `pros-and-cons` | Venture filter after Top 3 |
+| `ideation-engine` → `mtp` → operator-style unpack | Venture filter after Top 3 |
 | `dream` → next `coffee` → `mtp` | Morning after noisy day when purpose drift flagged |
 
 ## Human Approval Points

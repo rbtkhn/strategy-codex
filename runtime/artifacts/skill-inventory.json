@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T01:03:30.916879+00:00",
+  "generated_at": "2026-06-24T01:05:40.793032+00:00",
   "row_count": 114,
   "skills": [
     {
@@ -610,9 +610,9 @@
       "manifest_listed": false,
       "cursor_target": ".cursor/skills/lane-survey/SKILL.md",
       "portable_source": "",
-      "category": "domain-pack",
-      "status": "active",
-      "replacement_or_parent": "",
+      "category": "legacy-redirect",
+      "status": "deprecated",
+      "replacement_or_parent": "domain-lane-survey",
       "activation_trigger": "survey",
       "proof_standard": "missing",
       "last_modified": "2026-06-23",
@@ -905,7 +905,7 @@
       "cursor_target": ".cursor/skills/pros-and-cons/SKILL.md",
       "portable_source": "",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "replacement_or_parent": "",
       "activation_trigger": "unpack",
       "proof_standard": "missing",
@@ -1423,7 +1423,7 @@
       "cursor_target": ".cursor/skills/strategy-notebook-lane-split/SKILL.md",
       "portable_source": "",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "replacement_or_parent": "",
       "activation_trigger": "lane split",
       "proof_standard": "missing",

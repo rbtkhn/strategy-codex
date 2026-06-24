@@ -1,83 +1,28 @@
 ---
 name: lane-survey
-description: "Structured landscape scan before building a new work territory. Borrowed from the AI Innovation Radar's baseline-before-building discipline. Use when starting a new lane, evaluating an adjacent tool/framework, or when the operator says 'survey [lane]' or 'lane survey'. Template-portable."
+description: Deprecated domain helper — use domain-lane-survey runbook for new work.
 preferred_activation: survey
 activation: survey
-category: domain-pack
-status: active
+category: legacy-redirect
+status: deprecated
+replacement: domain-lane-survey
 scope_class: repo-governed
+review_date: 2026-12-31
+tags:
+  - operator
+  - deprecated
+  - domain-pack
 ---
-# Lane Survey
+# Deprecated — lane-survey
 
-**Preferred activation (operator):** say the exact phrase **`lane survey`**. **Alternate form:** **`survey [lane-name]`**.
+**Status:** Deprecated. Do not invoke this skill for new work.
 
-Use this skill before creating a new work territory or when evaluating the landscape for an existing one. The goal is to avoid rebuilding what already exists and to enter a lane with grounded awareness of the space.
+**Use instead:** [`skills/runbooks/domain-lane-survey.runbook.md`](../../../skills/runbooks/domain-lane-survey.runbook.md).
 
-## When to use
+## Legacy activation
 
-- Starting a new `work-*` lane
-- Evaluating whether a tool, framework, or approach already solves the problem
-- Operator asks "what's out there for [domain]?" before committing to build
+When the operator says **`lane survey`** or **`survey [lane]`**, route once to **`runbook lane survey`**.
 
-## Steps
+## No independent entry surface
 
-1. **Read the lane's README or stated objective.** If `docs/skill-work/work-[lane]/README.md` exists, read it. Otherwise use the operator's stated goal.
-
-2. **Web search for existing tools, frameworks, and approaches** in that domain. Use 3–5 targeted queries. Focus on:
-   - Open-source tools and libraries
-   - Commercial products or SaaS
-   - Published frameworks, methodologies, or standards
-   - Community projects or prior art
-
-3. **For each significant finding, assess fit:**
-   - Does it already solve the problem?
-   - Does it partially solve it (useful reference but not drop-in)?
-   - Does it address a different problem (ignore)?
-
-4. **Classify each finding:**
-
-   | Verdict | Meaning |
-   |---------|---------|
-   | **Adopt** | Use it directly — don't rebuild |
-   | **Reference** | Learn from it, build your own version |
-   | **Ignore** | Different problem or low quality |
-
-5. **Write results** to `docs/skill-work/work-[lane]/SURVEY_[lane].md` with:
-   - Landscape summary (2–3 sentences)
-   - Key tools found (table: name, verdict, notes)
-   - Gaps and opportunities (what nothing covers)
-   - Recommendations (what to adopt, what to build)
-
-6. **Proceed to the lane creation checklist** in [work-template.md](../../../docs/skill-work/work-template.md).
-
-## Guardrails
-
-- Survey findings are **WORK-layer only** — they do not enter the Record.
-- The survey does not commit to adoption; the operator decides.
-- If no web search is available, structure the operator's existing knowledge into the survey format instead.
-- Keep the survey document short (aim for one page). This is a decision aid, not a research paper.
-
-## Output format
-
-```markdown
-# Survey: work-[lane]
-
-## Landscape
-[2–3 sentence summary of what exists]
-
-## Findings
-
-| Tool / Approach | Verdict | Notes |
-|-----------------|---------|-------|
-| ...             | Adopt / Reference / Ignore | ... |
-
-## Gaps
-[What nothing covers — where you need to build]
-
-## Recommendations
-[Concrete next steps based on verdicts]
-```
-
-## Related files
-
-- `docs/skill-work/work-template.md` — lane creation checklist (step 4 references this skill)
+Landscape scan methodology executes inside the runbook. Do not treat this file as a separate operator entrypoint.

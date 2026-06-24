@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T01:03:31Z`
+Generated: `2026-06-24T01:05:50Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:03:30Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:05:40Z`)
 
 Regenerate:
 
@@ -15,9 +15,9 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 ## Summary
 
-- **Total domain-pack rows:** 52
-- **By disposition:** ARCHIVE: 9 | CONVERT_TO_RUNBOOK: 3 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 3 | REVIEW_WITH_OPERATOR: 26
-- **Active + proof_standard missing:** 25 (target after full pass: 0–3)
+- **Total domain-pack rows:** 51
+- **By disposition:** ARCHIVE: 11 | CONVERT_TO_RUNBOOK: 2 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 26
+- **Active + proof_standard missing:** 22 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -65,9 +65,8 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| lane-survey | cursor-only | False | True | active | missing | survey | CONVERT_TO_RUNBOOK | domain-lane-survey | Composed landscape scan; not a single primitive | low |
-| pros-and-cons | cursor-only | False | True | active | missing | unpack | REDIRECT | domain-lane-survey | Overlaps lane-survey / think-lane fork; redirect or archive | medium |
-| strategy-notebook-lane-split | cursor-only | False | True | active | missing | lane split | REDIRECT |  | Legacy notebook routing; redirect to current docs or archive | medium |
+| pros-and-cons | cursor-only | False | True | archived | missing | unpack | ARCHIVE | operator-style.mdc + domain-lane-survey step 7 | Archived Commit 5; Think-lane unpack lives in operator-style | low |
+| strategy-notebook-lane-split | cursor-only | False | True | archived | missing | lane split | ARCHIVE | codex/refined-page-template.md + codex/raw-input/README.md | Archived Commit 5; strategy-codex notebook SSOT replaces cursor skill | low |
 
 ## Speaker / intake / bridge
 
@@ -124,5 +123,5 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 | --- | --- | --- |
 | `civ-state-primary-text` | **exists** | `skills/runbooks/civ-state-primary-text.runbook.md` |
 | `civ-state-volume-hardening` | **exists** | `skills/runbooks/civ-state-volume-hardening.runbook.md` |
-| `domain-lane-survey` | **planned Commit 5** | `skills/runbooks/domain-lane-survey.runbook.md` |
+| `domain-lane-survey` | **exists** | `skills/runbooks/domain-lane-survey.runbook.md` |
 | `speaker-shelf-maintenance` | **planned Commit 6** | `skills/runbooks/speaker-shelf-maintenance.runbook.md` |

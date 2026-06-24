@@ -54,7 +54,7 @@ CLUSTER_TITLES = {
 RUNBOOK_REF = [
     ("civ-state-primary-text", "exists", "skills/runbooks/civ-state-primary-text.runbook.md"),
     ("civ-state-volume-hardening", "exists", "skills/runbooks/civ-state-volume-hardening.runbook.md"),
-    ("domain-lane-survey", "planned Commit 5", "skills/runbooks/domain-lane-survey.runbook.md"),
+    ("domain-lane-survey", "exists", "skills/runbooks/domain-lane-survey.runbook.md"),
     ("speaker-shelf-maintenance", "planned Commit 6", "skills/runbooks/speaker-shelf-maintenance.runbook.md"),
 ]
 

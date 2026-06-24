@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T01:03:30Z`
+Generated: `2026-06-24T01:05:40Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -51,7 +51,7 @@ Total rows: **114**
 | iran-art | cursor-only | False | .cursor/skills/iran-art/SKILL.md |  | domain-pack | archived |  | iran-art | missing | 2026-06-23 |  |
 | iran-lit | cursor-only | False | .cursor/skills/iran-lit/SKILL.md |  | domain-pack | archived |  | iran-lit | missing | 2026-06-23 |  |
 | jurisdiction-campaign-history | both | True | .cursor/skills/jurisdiction-campaign-history/SKILL.md | jurisdiction-campaign-history/SKILL.md | domain-pack | active |  | jurisdiction history | missing | 2026-06-23 |  |
-| lane-survey | cursor-only | False | .cursor/skills/lane-survey/SKILL.md |  | domain-pack | active |  | survey | missing | 2026-06-23 | Review: likely runbook or archived |
+| lane-survey | cursor-only | False | .cursor/skills/lane-survey/SKILL.md |  | legacy-redirect | deprecated | domain-lane-survey | survey | missing | 2026-06-23 | Review: likely runbook or archived |
 | last30days | both | True | .cursor/skills/last30days/SKILL.md | last30days/SKILL.md | legacy-redirect | deprecated | periodic-statecraft-review | last30days | missing | 2026-06-23 |  |
 | marandi-state-extraction | draft | False |  |  | domain-pack | draft |  | marandi-state | n/a | 2026-06-23 |  |
 | memory | both | True | .cursor/skills/memory/SKILL.md | memory/SKILL.md | operator-coherence | active |  | memory | present | 2026-06-23 |  |
@@ -72,7 +72,7 @@ Total rows: **114**
 | primary-overhearing-analysis | both | True | .cursor/skills/primary-overhearing-analysis/SKILL.md | primary-overhearing-analysis/SKILL.md | judgment-enhancement | active |  | primary overhearing | present | 2026-06-23 |  |
 | printing-press-scrape-creators | draft | False |  |  | domain-pack | draft |  |  | n/a | 2026-06-23 |  |
 | product-strategy | both | True | .cursor/skills/product-strategy/SKILL.md | product-strategy/SKILL.md | product-narrative | active |  | product strategy | present | 2026-06-23 |  |
-| pros-and-cons | cursor-only | False | .cursor/skills/pros-and-cons/SKILL.md |  | domain-pack | active |  | unpack | missing | 2026-06-23 | Review: likely runbook or archived |
+| pros-and-cons | cursor-only | False | .cursor/skills/pros-and-cons/SKILL.md |  | domain-pack | archived |  | unpack | missing | 2026-06-23 | Review: likely runbook or archived |
 | recursive-learn | both | True | .cursor/skills/recursive-learn/SKILL.md | recursive-learn/SKILL.md | operator-coherence | active |  | recursive learn | present | 2026-06-23 |  |
 | repo-feedback-prompt | both | True | .cursor/skills/repo-feedback-prompt/SKILL.md | repo-feedback-prompt/SKILL.md | operator-coherence | active |  | repo feedback prompt | present | 2026-06-23 |  |
 | repo-hygiene-pass | both | True | .cursor/skills/repo-hygiene-pass/SKILL.md | repo-hygiene-pass/SKILL.md | operator-coherence | active |  | hygiene pass | present | 2026-06-23 |  |
@@ -109,7 +109,7 @@ Total rows: **114**
 | statecraft-source-intake | both | True | .cursor/skills/statecraft-source-intake/SKILL.md | statecraft-source-intake/SKILL.md | truth-pipeline | active |  | source-intake | present | 2026-06-23 |  |
 | strategy-notebook-expert-cross-weave | both | True | .cursor/skills/strategy-notebook-expert-cross-weave/SKILL.md | strategy-notebook-expert-cross-weave/SKILL.md | legacy-redirect | redirect | strategy-codex-expert-cross-weave | weave expert cross | missing | 2026-06-23 |  |
 | strategy-notebook-guest-canon-note | both | True | .cursor/skills/strategy-notebook-guest-canon-note/SKILL.md | strategy-notebook-guest-canon-note/SKILL.md | legacy-redirect | redirect | strategy-codex-guest-canon-note | speaker arc | missing | 2026-06-23 |  |
-| strategy-notebook-lane-split | cursor-only | False | .cursor/skills/strategy-notebook-lane-split/SKILL.md |  | domain-pack | active |  | lane split | missing | 2026-06-23 | Review: likely runbook or archived |
+| strategy-notebook-lane-split | cursor-only | False | .cursor/skills/strategy-notebook-lane-split/SKILL.md |  | domain-pack | archived |  | lane split | missing | 2026-06-23 | Review: likely runbook or archived |
 | thanks | cursor-only | False | .cursor/skills/thanks/SKILL.md |  | legacy-redirect | redirect | archive | thanks | missing | 2026-06-23 |  |
 | transcript-cleanup | both | True | .cursor/skills/transcript-cleanup/SKILL.md | transcript-cleanup/SKILL.md | truth-pipeline | active |  | transcript cleanup | present | 2026-06-23 |  |
 | transcript-proper-noun-normalization | both | True | .cursor/skills/transcript-proper-noun-normalization/SKILL.md | transcript-proper-noun-normalization/SKILL.md | truth-pipeline | active |  | proper noun normalization | present | 2026-06-23 |  |

@@ -9,13 +9,13 @@
 ## Sequence
 
 ```
-lane-survey  -->  work-template checklist  -->  repo-hygiene-pass
-(landscape)       (create files)                (clean commit)
+runbook lane survey  -->  work-template checklist  -->  repo-hygiene-pass
+(landscape)               (create files)                (clean commit)
 ```
 
 ### Step 1: Lane Survey
 
-Run `.cursor/skills/lane-survey/SKILL.md` with the lane name.
+Run [`skills/runbooks/domain-lane-survey.runbook.md`](../../skills/runbooks/domain-lane-survey.runbook.md) with the lane name.
 
 **Input:** Operator's stated objective for the lane.
 **Output:** `docs/skill-work/work-[lane]/SURVEY_[lane].md` — landscape summary, key tools, gaps, recommendations.
@@ -62,6 +62,6 @@ The lane has a survey (or acknowledged skip), all required scaffolding files, te
 
 ## Related
 
-- `.cursor/skills/lane-survey/SKILL.md`
+- [`skills/runbooks/domain-lane-survey.runbook.md`](../../skills/runbooks/domain-lane-survey.runbook.md)
 - `docs/skill-work/work-template.md`
 - `.cursor/skills/repo-hygiene-pass/SKILL.md`

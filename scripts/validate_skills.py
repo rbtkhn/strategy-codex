@@ -50,6 +50,7 @@ SPECIAL_REPLACEMENTS = frozenset({
     "periodic-statecraft-review",
     "civ-state-primary-text",
     "civ-state-volume-hardening",
+    "domain-lane-survey",
 })
 
 SCOPE_CLASSES = frozenset({"personal", "project-local", "repo-governed", "public-portable"})
