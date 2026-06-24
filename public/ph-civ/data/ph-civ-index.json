@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fingerprint": "324fbea89a9aad4d",
+  "fingerprint": "2938f573efef67d0",
   "card_count": 150,
   "ssot": "data/cards.jsonl",
   "markdown_index": "docs/ph-civ-index.md",
@@ -1332,8 +1332,9 @@
         "folder_readme": "book/volume-v/gb-03/README.md"
       },
       "source_video_url": "https://www.youtube.com/watch?v=XRP407WsA0w",
-      "commentary_maturity": "scaffold",
-      "scaffold_version": "ph_civ_commentary_canvas_v1",
+      "commentary_maturity": "l3_falsifiers",
+      "scaffold_version": "ph_civ_commentary_canvas_v2",
+      "migration_source": "extracted_from_part",
       "deprecated_part_routing": true
     },
     {
@@ -1372,8 +1373,9 @@
         "folder_readme": "book/volume-v/gb-05/README.md"
       },
       "source_video_url": "https://www.youtube.com/watch?v=gXlcR7uHHdA",
-      "commentary_maturity": "scaffold",
-      "scaffold_version": "ph_civ_commentary_canvas_v1",
+      "commentary_maturity": "l3_falsifiers",
+      "scaffold_version": "ph_civ_commentary_canvas_v2",
+      "migration_source": "extracted_from_part",
       "deprecated_part_routing": true
     },
     {
@@ -1412,8 +1414,9 @@
         "folder_readme": "book/volume-v/gb-07/README.md"
       },
       "source_video_url": "https://www.youtube.com/watch?v=EBWTRvjZ1dw",
-      "commentary_maturity": "scaffold",
-      "scaffold_version": "ph_civ_commentary_canvas_v1",
+      "commentary_maturity": "l3_falsifiers",
+      "scaffold_version": "ph_civ_commentary_canvas_v2",
+      "migration_source": "extracted_from_part",
       "deprecated_part_routing": true
     },
     {
@@ -1432,8 +1435,9 @@
         "folder_readme": "book/volume-v/gb-08/README.md"
       },
       "source_video_url": "https://www.youtube.com/watch?v=YXTRlvFIRt8",
-      "commentary_maturity": "scaffold",
-      "scaffold_version": "ph_civ_commentary_canvas_v1",
+      "commentary_maturity": "l3_falsifiers",
+      "scaffold_version": "ph_civ_commentary_canvas_v2",
+      "migration_source": "extracted_from_part",
       "deprecated_part_routing": true
     },
     {
@@ -1452,8 +1456,9 @@
         "folder_readme": "book/volume-v/gb-09/README.md"
       },
       "source_video_url": "https://www.youtube.com/watch?v=4EZUrGPgAos",
-      "commentary_maturity": "scaffold",
-      "scaffold_version": "ph_civ_commentary_canvas_v1",
+      "commentary_maturity": "l3_falsifiers",
+      "scaffold_version": "ph_civ_commentary_canvas_v2",
+      "migration_source": "extracted_from_part",
       "deprecated_part_routing": true
     },
     {
@@ -1472,8 +1477,9 @@
         "folder_readme": "book/volume-v/gb-10/README.md"
       },
       "source_video_url": "https://www.youtube.com/watch?v=wGpdMYa2bME",
-      "commentary_maturity": "scaffold",
-      "scaffold_version": "ph_civ_commentary_canvas_v1",
+      "commentary_maturity": "l3_falsifiers",
+      "scaffold_version": "ph_civ_commentary_canvas_v2",
+      "migration_source": "extracted_from_part",
       "deprecated_part_routing": true
     },
     {

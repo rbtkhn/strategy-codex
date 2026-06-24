@@ -1,4 +1,4 @@
-<!-- ph-civ-index-fingerprint: 324fbea89a9aad4d -->
+<!-- ph-civ-index-fingerprint: 2938f573efef67d0 -->
 # ph-civ Chapter Index
 
 Canonical catalog of every public Predictive History lecture chapter in this repository.
