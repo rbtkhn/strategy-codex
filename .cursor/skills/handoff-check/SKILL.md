@@ -10,6 +10,9 @@ description: >-
   [coffee/SKILL.md](../coffee/SKILL.md) and [menu-reference — signing-off
   intent](../../../docs/skill-work/work-coffee/menu-reference.md#signing-off-intent).
   Also use when resuming work or checking safe-to-ignore before commit/push.
+category: operator-coherence
+status: active
+scope_class: repo-governed
 ---
 
 # Handoff Check

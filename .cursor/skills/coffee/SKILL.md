@@ -3,6 +3,9 @@ name: coffee
 preferred_activation: coffee
 requires: [handoff-check]
 description: "Strategy-codex operator cadence and tempo. Primary trigger: coffee. Step 2 = hub A-D only (Confirm / Test / Deepen / Reframe), each line naming one specific repo-grounded suggested action (not bare labels). Default attention inferred from hub letter (CONDUCTOR-COMPRESSION-SPEC §4). Legacy master slugs redirect to coffee. Before Step 1, Recent rhythm. Signing-off: same A-D action menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
+category: operator-coherence
+status: active
+scope_class: repo-governed
 ---
 
 # Coffee
