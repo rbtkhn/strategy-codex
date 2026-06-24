@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T00:35:51Z`
+Generated: `2026-06-24T00:57:19Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -22,14 +22,14 @@ Total rows: **114**
 | china-art | cursor-only | False | .cursor/skills/china-art/SKILL.md |  | domain-pack | active |  | china-art | missing | 2026-06-23 |  |
 | china-lit | cursor-only | False | .cursor/skills/china-lit/SKILL.md |  | domain-pack | active |  | china-lit | missing | 2026-06-23 |  |
 | cici-ai-daily-brief | draft | False |  |  | domain-pack | draft |  | cici daily brief | n/a | 2026-06-23 |  |
-| civ-state | both | True | .cursor/skills/civ-state/SKILL.md | civ-state/SKILL.md | domain-pack | active |  | civ-state | missing | 2026-06-23 |  |
+| civ-state | both | True | .cursor/skills/civ-state/SKILL.md | civ-state/SKILL.md | domain-pack | active |  | civ-state | present | 2026-06-23 |  |
 | civ-state-essay | both | True | .cursor/skills/civ-state-essay/SKILL.md | civ-state-essay/SKILL.md | domain-pack | active |  | civ-state essay | present | 2026-06-23 |  |
 | civ-state-note | both | True | .cursor/skills/civ-state-note/SKILL.md | civ-state-note/SKILL.md | domain-pack | active |  | civ-state note | present | 2026-06-23 |  |
-| civ-state-primary-text-acquisition | both | True | .cursor/skills/civ-state-primary-text-acquisition/SKILL.md | civ-state-primary-text-acquisition/SKILL.md | domain-pack | active |  |  | missing | 2026-06-23 |  |
+| civ-state-primary-text-acquisition | both | True | .cursor/skills/civ-state-primary-text-acquisition/SKILL.md | civ-state-primary-text-acquisition/SKILL.md | legacy-redirect | deprecated | civ-state-primary-text |  | missing | 2026-06-23 |  |
 | civ-state-volume-architect | cursor-only | False | .cursor/skills/civ-state-volume-architect/SKILL.md |  | legacy-redirect | redirect | civ-state | civ state volume architect | missing | 2026-06-23 |  |
-| civ-state-volume-harden | both | True | .cursor/skills/civ-state-volume-harden/SKILL.md | civ-state-volume-harden/SKILL.md | domain-pack | active |  |  | missing | 2026-06-23 |  |
+| civ-state-volume-harden | both | True | .cursor/skills/civ-state-volume-harden/SKILL.md | civ-state-volume-harden/SKILL.md | legacy-redirect | deprecated | civ-state-volume-hardening |  | missing | 2026-06-23 |  |
 | civilization-part-writer | cursor-only | False | .cursor/skills/civilization-part-writer/SKILL.md |  | product-narrative | active |  | civilization-part-writer | missing | 2026-06-23 |  |
-| coffee | cursor-only | False | .cursor/skills/coffee/SKILL.md |  |  | active |  | coffee | n/a | 2026-06-23 | External host skill (~/.codex/skills/coffee/); not in repo manifest |
+| coffee | cursor-only | False | .cursor/skills/coffee/SKILL.md |  | operator-coherence | active |  | coffee | n/a | 2026-06-23 | External host skill (~/.codex/skills/coffee/); not in repo manifest |
 | cognition-streams | both | True | .cursor/skills/cognition-streams/SKILL.md | cognition-streams/SKILL.md | legacy-redirect | redirect | check-sources | cognition streams | missing | 2026-06-23 |  |
 | conductor | cursor-only | False | .cursor/skills/conductor/SKILL.md |  | legacy-redirect | redirect | coffee | conductor | missing | 2026-06-23 |  |
 | context-folder-assembly | draft | False |  |  | domain-pack | draft |  | context folder | n/a | 2026-06-23 |  |
@@ -44,7 +44,7 @@ Total rows: **114**
 | first-wave-service-sales | both | True | .cursor/skills/first-wave-service-sales/SKILL.md | first-wave-service-sales/SKILL.md | product-narrative | active |  | first-wave sales | missing | 2026-06-23 |  |
 | gate-review-pass | cursor-only | False | .cursor/skills/gate-review-pass/SKILL.md |  | legacy-redirect | redirect | fork-revive | gate review | missing | 2026-06-23 |  |
 | graceful-constraint-reporting | draft | False |  |  | domain-pack | draft |  | graceful report | n/a | 2026-06-23 |  |
-| handoff-check | cursor-only | False | .cursor/skills/handoff-check/SKILL.md |  |  | active |  | handoff check | missing | 2026-06-19 |  |
+| handoff-check | cursor-only | False | .cursor/skills/handoff-check/SKILL.md |  | operator-coherence | active |  | handoff check | missing | 2026-06-23 |  |
 | harvest | cursor-only | False | .cursor/skills/harvest/SKILL.md |  | operator-coherence | active |  | harvest | present | 2026-06-23 |  |
 | hn-bookshelf-lookup | cursor-only | False | .cursor/skills/hn-bookshelf-lookup/SKILL.md |  | domain-pack | active |  |  | missing | 2026-06-23 |  |
 | ideation-engine | both | True | .cursor/skills/ideation-engine/SKILL.md | ideation-engine/SKILL.md | legacy-redirect | redirect | product-strategy | ideation engine | missing | 2026-06-23 |  |

@@ -38,7 +38,7 @@ Procedure skill for **reader-facing essay prose** under the staged public CIV-ST
 
 - the task is upstream **Frame / Retrieve / Promote / Review** — use **`civ-state`**
 - the task is volume README law, chapter-family design, or sovereignty-chain scaffold — use **`civ-state-volume-architect`**
-- the task is hardening an already-defined volume front door — use **`civ-state-volume-harden`**
+- the task is hardening an already-defined volume front door — use **`runbook civ state harden`**
 - the task is **new** civilization or empire **part** authoring at scale — hand off to **civilization-part-writer** / **empire-part-writer** (this skill may still do bounded prose QA on existing parts)
 - the task is archive intake, lane-local synthesis, or PH-CIV manuscript work outside `<public-civ-state>/`
 

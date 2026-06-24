@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T00:54:03Z`
+Generated: `2026-06-24T00:57:32Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T00:53:05Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T00:57:19Z`)
 
 Regenerate:
 
@@ -15,9 +15,9 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 ## Summary
 
-- **Total domain-pack rows:** 54
-- **By disposition:** ARCHIVE: 9 | CONVERT_TO_RUNBOOK: 5 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 3 | REVIEW_WITH_OPERATOR: 26
-- **Active + proof_standard missing:** 37 (target after full pass: 0–3)
+- **Total domain-pack rows:** 52
+- **By disposition:** ARCHIVE: 9 | CONVERT_TO_RUNBOOK: 3 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 3 | REVIEW_WITH_OPERATOR: 26
+- **Active + proof_standard missing:** 34 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -25,11 +25,9 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| civ-state | both | True | False | active | missing | civ-state | KEEP_ACTIVE |  | Umbrella CIV-STATE entry; A-D menu router | low |
+| civ-state | both | True | False | active | present | civ-state | KEEP_ACTIVE |  | Umbrella CIV-STATE entry; A-D menu router; proof present | low |
 | civ-state-essay | both | True | False | active | present | civ-state essay | KEEP_ACTIVE |  | Distinct public essay path; proof present | low |
 | civ-state-note | both | True | False | active | present | civ-state note | KEEP_ACTIVE |  | Atomic CIV-STATE note promotion; proof present | low |
-| civ-state-primary-text-acquisition | both | True | False | active | missing |  | CONVERT_TO_RUNBOOK | civ-state-primary-text | Multi-step acquisition chain; runbook exists | low |
-| civ-state-volume-harden | both | True | False | active | missing |  | CONVERT_TO_RUNBOOK | civ-state-volume-hardening | Multi-step volume hardening; runbook exists | low |
 
 ## Portable domain skills (manifest-listed)
 

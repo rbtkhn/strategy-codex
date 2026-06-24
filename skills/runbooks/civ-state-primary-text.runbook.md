@@ -2,11 +2,10 @@
 name: civ-state-primary-text
 description: Compose civ-state entry with primary text acquisition workflow.
 portable: true
-version: 0.1.0
+version: 0.2.0
 scope_class: repo-governed
 skills:
   - civ-state
-  - civ-state-primary-text-acquisition
 outputs:
   - acquired primary text receipt under civ-state volume tree
 authority: advisory_only
@@ -24,12 +23,14 @@ Open the CIV-STATE domain pack and run primary text acquisition for one bounded 
 
 **Operator phrases:** `runbook civ state primary text`, `acquire primary text` with civ-state scope.
 
+Legacy **`civ-state-primary-text-acquisition`** triggers redirect here.
+
 ## Skills Composed
 
-| Step | Skill | Role |
+| Step | Surface | Role |
 |---:|---|---|
 | 1 | `civ-state` | Orient volume, lane, and authority boundaries |
-| 2 | `civ-state-primary-text-acquisition` | Acquire, classify, store primary text |
+| 2 | **Primary-text workflow** (this runbook) | Acquire, classify, store primary text |
 
 ## Inputs Required
 
@@ -40,8 +41,12 @@ Open the CIV-STATE domain pack and run primary text acquisition for one bounded 
 ## Workflow Steps
 
 1. Run **`civ state`** entry — confirm volume and lane.
-2. Run **`civ-state-primary-text-acquisition`** with bounded scope.
-3. Report storage path and classification; stop before canon claims.
+2. **Fix source identity** — civilization, era, branch, title, author/body, source type.
+3. **Create or refine source record** — stable `source_id`; rights, witness, storage metadata before text.
+4. **Classify rights early** — `public_domain`, `official_government_text`, `operator_authored_transcription`, `modern_translation_restricted`, or `unclear`; narrow if unclear.
+5. **Locate lawful witness** — official archive → PD library → academic edition → stable transcription → rights-safe scan → bounded manual transcription.
+6. **Lock witness and working translation** — one canonical working translation; alternates as metadata only.
+7. **Store by class** — `metadata_only`, `excerpt_only`, or `full_text_sidecar`; report path and classification; stop before canon claims.
 
 ## Human Approval Points
 

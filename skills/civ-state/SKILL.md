@@ -4,7 +4,7 @@ description: Open CIV-STATE as the upstream analysis bench for frame judgment, r
 preferred_activation: civ-state
 activation: civ-state
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: domain-pack
 status: active
 scope_class: repo-governed
@@ -193,10 +193,33 @@ CIV-STATE sub-skills and runbooks (invoke entry skill first):
 | **civ-state-essay** | `civ state essay` | Reader-facing prose route |
 | **civ-state-primary-text.runbook.md** | `runbook civ state primary text` | Primary text acquisition chain |
 | **civ-state-volume-hardening.runbook.md** | `runbook civ state harden` | Volume hardening chain |
-| **civ-state-primary-text-acquisition** | skill primitive | Used by primary-text runbook |
-| **civ-state-volume-harden** | skill primitive | Used by hardening runbook |
+| **civ-state-primary-text-acquisition** | *(redirect)* | Legacy trigger → primary-text runbook |
+| **civ-state-volume-harden** | *(redirect)* | Legacy trigger → volume-hardening runbook |
 
-Runbook-first for acquisition and hardening; keep skills as primitives.
+Runbook-first for acquisition and hardening; legacy skill names redirect to runbooks only.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the domain object or civilization-state question is named
+- the source floor is named
+- the output class is named: note, essay, runbook handoff, source acquisition, volume hardening, or advisory memo
+- the skill states whether it is acting as umbrella, note path, essay path, or runbook router
+- unresolved source gaps or interpretive uncertainties are stated
+
+**Evidence to report:**
+
+- source files, primary texts, archive captures, or existing civ-state surfaces read
+- files touched or produced
+- runbooks invoked
+- confidence level and open questions
+
+**If verification cannot be completed:**
+
+- state what was not verified
+- avoid turning advisory synthesis into doctrine
+- return a bounded partial result for operator review
 
 ## Related operations
 

@@ -11,9 +11,9 @@ skills:
   # --- CIV-STATE family ---
   civ-state:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
+    post_disposition: null
     replacement_or_runbook: null
-    reason: Umbrella CIV-STATE entry; A-D menu router
+    reason: Umbrella CIV-STATE entry; A-D menu router; proof present
     risk: low
     cluster: civ-state
 
@@ -28,20 +28,6 @@ skills:
     proposed_disposition: KEEP_ACTIVE
     replacement_or_runbook: null
     reason: Distinct public essay path; proof present
-    risk: low
-    cluster: civ-state
-
-  civ-state-primary-text-acquisition:
-    proposed_disposition: CONVERT_TO_RUNBOOK
-    replacement_or_runbook: civ-state-primary-text
-    reason: Multi-step acquisition chain; runbook exists
-    risk: low
-    cluster: civ-state
-
-  civ-state-volume-harden:
-    proposed_disposition: CONVERT_TO_RUNBOOK
-    replacement_or_runbook: civ-state-volume-hardening
-    reason: Multi-step volume hardening; runbook exists
     risk: low
     cluster: civ-state
 

@@ -37,8 +37,8 @@ python3 scripts/validate_skills.py
 | `transcript-to-state-note` | `runbook state note` / transcript wedge → one note | `statecraft-source-intake` → `state-note` |
 | `transcript-intake` | `runbook transcript intake` / ASR cleanup chain | `youtube-raw-input-transcript` → `transcript-cleanup` → `transcript-proper-noun-normalization` → `source-clean` |
 | `periodic-statecraft-review` | `runbook periodic review` / `runbook last30` | `state-synthesis` · `primary-overhearing-analysis` · optional `statecraft-intelligence-essay` (`last30days` / `monthly-deepening` redirect here) |
-| `civ-state-primary-text` | `runbook civ state primary text` | `civ-state` → `civ-state-primary-text-acquisition` |
-| `civ-state-volume-hardening` | `runbook civ state harden` | `civ-state` → `civ-state-volume-harden` |
+| `civ-state-primary-text` | `runbook civ state primary text` | `civ-state` → primary-text runbook workflow |
+| `civ-state-volume-hardening` | `runbook civ state harden` | `civ-state` → volume-hardening runbook workflow |
 | `venture-ideation` | `runbook venture ideation` | `ideation-engine` → `mtp` → `abundance-native-ventures` |
 | `chapter-seeding` | `runbook chapter seed` | `arc-to-chapter-seeds` + PH/book Cursor skills |
 | `voice-profile-review` | `runbook voice profile review` | `voice-profile-panel` |

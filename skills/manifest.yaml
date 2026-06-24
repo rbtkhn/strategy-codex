@@ -313,8 +313,10 @@ skills:
   verify_forbidden_substrings:
   - platform/users/grace-mar/
   - process_approved_candidates
-  category: domain-pack
-  status: active
+  category: legacy-redirect
+  status: deprecated
+  replacement: civ-state-volume-hardening
+  review_date: 2026-12-31
 - name: civ-state-essay
   source: civ-state-essay/SKILL.md
   appendix: .cursor/skills/civ-state-essay/CURSOR_APPENDIX.md
@@ -340,8 +342,10 @@ skills:
   verify_forbidden_substrings:
   - platform/users/grace-mar/
   - process_approved_candidates
-  category: domain-pack
-  status: active
+  category: legacy-redirect
+  status: deprecated
+  replacement: civ-state-primary-text
+  review_date: 2026-12-31
 - name: statecraft-framework
   source: statecraft-framework/SKILL.md
   appendix: .cursor/skills/statecraft-framework/CURSOR_APPENDIX.md

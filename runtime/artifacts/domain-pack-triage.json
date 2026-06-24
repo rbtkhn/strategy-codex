@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-24T00:54:03.933882+00:00",
-  "inventory_generated_at": "2026-06-24T00:53:05.728269+00:00",
+  "generated_at": "2026-06-24T00:57:32.416320+00:00",
+  "inventory_generated_at": "2026-06-24T00:57:19.553338+00:00",
   "dispositions_source": "scripts/domain_pack_dispositions.yaml",
   "summary": {
-    "total_domain_pack_rows": 54,
+    "total_domain_pack_rows": 52,
     "by_disposition": {
       "ARCHIVE": 9,
-      "CONVERT_TO_RUNBOOK": 5,
+      "CONVERT_TO_RUNBOOK": 3,
       "KEEP_ACTIVE": 10,
       "PROMOTE_TO_PORTABLE": 1,
       "REDIRECT": 3,
       "REVIEW_WITH_OPERATOR": 26
     },
-    "active_proof_missing": 37
+    "active_proof_missing": 34
   },
   "missing_yaml_entries": [],
   "skills": [
@@ -24,13 +24,13 @@
       "skill_path": ".cursor/skills/civ-state/SKILL.md",
       "category": "domain-pack",
       "status": "active",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "current_trigger": "civ-state",
       "inventory_notes": "",
       "proposed_disposition": "KEEP_ACTIVE",
-      "post_disposition": "ADD_PROOF_STANDARD",
+      "post_disposition": null,
       "replacement_or_runbook": "",
-      "reason": "Umbrella CIV-STATE entry; A-D menu router",
+      "reason": "Umbrella CIV-STATE entry; A-D menu router; proof present",
       "risk": "low",
       "cluster": "civ-state"
     },
@@ -67,42 +67,6 @@
       "post_disposition": "",
       "replacement_or_runbook": "",
       "reason": "Atomic CIV-STATE note promotion; proof present",
-      "risk": "low",
-      "cluster": "civ-state"
-    },
-    {
-      "name": "civ-state-primary-text-acquisition",
-      "location": "both",
-      "manifest_listed": true,
-      "cursor_only": false,
-      "skill_path": ".cursor/skills/civ-state-primary-text-acquisition/SKILL.md",
-      "category": "domain-pack",
-      "status": "active",
-      "proof_standard": "missing",
-      "current_trigger": "",
-      "inventory_notes": "",
-      "proposed_disposition": "CONVERT_TO_RUNBOOK",
-      "post_disposition": "",
-      "replacement_or_runbook": "civ-state-primary-text",
-      "reason": "Multi-step acquisition chain; runbook exists",
-      "risk": "low",
-      "cluster": "civ-state"
-    },
-    {
-      "name": "civ-state-volume-harden",
-      "location": "both",
-      "manifest_listed": true,
-      "cursor_only": false,
-      "skill_path": ".cursor/skills/civ-state-volume-harden/SKILL.md",
-      "category": "domain-pack",
-      "status": "active",
-      "proof_standard": "missing",
-      "current_trigger": "",
-      "inventory_notes": "",
-      "proposed_disposition": "CONVERT_TO_RUNBOOK",
-      "post_disposition": "",
-      "replacement_or_runbook": "civ-state-volume-hardening",
-      "reason": "Multi-step volume hardening; runbook exists",
       "risk": "low",
       "cluster": "civ-state"
     },
