@@ -40,24 +40,12 @@ def test_all_cards_have_local_transcript_and_commentary():
 
 
 def test_all_commentaries_have_open_project_canvas():
-    required = [
-        "canvas_status: open",
-        "analysis_depth: seed",
-        "scaffold_version: ph_civ_commentary_canvas_v1",
-        "## Project Canvas",
-        "### Project Leverage",
-        "### Laws / Patterns Exposed",
-        "### Volume Role",
-        "### Strategy / Present-Day Application",
-        "### Counter-Readings",
-        "### Open Questions",
-        "### Build Notes / Future Enhancements",
-    ]
+    from civ_ph.cli import validate_commentary_canvas
+
     for card in load_cards():
         commentary_path = ROOT / card["source_paths"]["commentary_path"]
-        text = commentary_path.read_text(encoding="utf-8")
-        for marker in required:
-            assert marker in text, f"{card['source_id']} missing {marker}"
+        errors = validate_commentary_canvas(card["source_id"], commentary_path)
+        assert not errors, f"{card['source_id']}: " + "; ".join(errors)
 
 
 def test_folder_backed_chapters_have_reader_doorways():

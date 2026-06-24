@@ -49,9 +49,12 @@ VOLUME_ALIASES = {
 
 COMMENTARY_CANVAS_FIELDS = {
     "canvas_status": "open",
-    "analysis_depth": "seed",
     "scaffold_version": "ph_civ_commentary_canvas_v1",
 }
+
+ALLOWED_ANALYSIS_DEPTHS = frozenset(
+    {"seed", "layer2_slimmed", "layer2_drafted", "stub_routed_to_part"}
+)
 
 COMMENTARY_CANVAS_HEADINGS = [
     "## Project Canvas",
@@ -81,6 +84,7 @@ PUBLIC_BOUNDARY_SCAN_PATHS = [
 
 PUBLIC_BOUNDARY_SCAN_EXCLUDES = {
     "docs/strategy-codex-bridge.md",
+    "docs/jiang-analysis-index.md",
 }
 
 PUBLIC_BOUNDARY_FORBIDDEN_MARKERS = [
@@ -157,6 +161,20 @@ def validate_commentary_canvas(source_id: str, commentary_path) -> list[str]:
     for key, expected in COMMENTARY_CANVAS_FIELDS.items():
         if frontmatter.get(key) != expected:
             errors.append(f"{source_id} invalid {key}: {frontmatter.get(key)}")
+    depth = frontmatter.get("analysis_depth", "")
+    if depth not in ALLOWED_ANALYSIS_DEPTHS:
+        errors.append(f"{source_id} invalid analysis_depth: {depth}")
+    if depth == "stub_routed_to_part":
+        return errors
+    if "## Project Canvas (chapter-local)" in text or depth == "layer2_slimmed":
+        thin_headings = ["## Project Canvas (chapter-local)", "### Open Questions"]
+        build_note_headings = ("### Build Notes", "### Build Notes / Future Enhancements")
+        for heading in thin_headings:
+            if heading not in text:
+                errors.append(f"{source_id} missing thin commentary canvas heading: {heading}")
+        if not any(marker in text for marker in build_note_headings):
+            errors.append(f"{source_id} missing thin commentary canvas heading: ### Build Notes")
+        return errors
     for heading in COMMENTARY_CANVAS_HEADINGS:
         if heading not in text:
             errors.append(f"{source_id} missing commentary canvas heading: {heading}")
