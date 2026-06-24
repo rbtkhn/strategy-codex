@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T00:57:32Z`
+Generated: `2026-06-24T01:03:31Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T00:57:19Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:03:30Z`)
 
 Regenerate:
 
@@ -17,7 +17,7 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 - **Total domain-pack rows:** 52
 - **By disposition:** ARCHIVE: 9 | CONVERT_TO_RUNBOOK: 3 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 3 | REVIEW_WITH_OPERATOR: 26
-- **Active + proof_standard missing:** 34 (target after full pass: 0–3)
+- **Active + proof_standard missing:** 25 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -51,15 +51,15 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| america-art | cursor-only | False | True | active | missing | america-art | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| america-lit | cursor-only | False | True | active | missing | america-lit | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| china-art | cursor-only | False | True | active | missing | china-art | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| china-lit | cursor-only | False | True | active | missing | china-lit | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| iran-art | cursor-only | False | True | active | missing | iran-art | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| iran-lit | cursor-only | False | True | active | missing | iran-lit | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| russia-art | cursor-only | False | True | active | missing | russia-art | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| russia-god | cursor-only | False | True | active | missing | russia-god | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
-| russia-lit | cursor-only | False | True | active | missing | russia-lit | ARCHIVE |  | Low-frequency subordinate lens; confirm before Commit 4 | confirm_before_commit_4 |
+| america-art | cursor-only | False | True | archived | missing | america-art | ARCHIVE | state-america + civilization/art.md | Archived Commit 4; lane opener + art.md surfaces replace subordinate lens | low |
+| america-lit | cursor-only | False | True | archived | missing | america-lit | ARCHIVE | state-america + civilization/lit.md | Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens | low |
+| china-art | cursor-only | False | True | archived | missing | china-art | ARCHIVE | state-china + civilization/art.md | Archived Commit 4; lane opener + art.md surfaces replace subordinate lens | low |
+| china-lit | cursor-only | False | True | archived | missing | china-lit | ARCHIVE | state-china + civilization/lit.md | Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens | low |
+| iran-art | cursor-only | False | True | archived | missing | iran-art | ARCHIVE | state-persia + civilization/art.md | Archived Commit 4; lane opener + art.md surfaces replace subordinate lens | low |
+| iran-lit | cursor-only | False | True | archived | missing | iran-lit | ARCHIVE | state-persia + civilization/lit.md | Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens | low |
+| russia-art | cursor-only | False | True | archived | missing | russia-art | ARCHIVE | state-russia + civilization/art.md | Archived Commit 4; lane opener + art.md surfaces replace subordinate lens | low |
+| russia-god | cursor-only | False | True | archived | missing | russia-god | ARCHIVE | state-russia + civilization/god.md | Archived Commit 4; lane opener + god.md surfaces replace subordinate lens | low |
+| russia-lit | cursor-only | False | True | archived | missing | russia-lit | ARCHIVE | state-russia + civilization/lit.md | Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens | low |
 
 ## General domain helpers
 

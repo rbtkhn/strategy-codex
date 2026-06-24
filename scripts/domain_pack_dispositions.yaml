@@ -96,68 +96,68 @@ skills:
     risk: medium
     cluster: state-lane
 
-  # --- Country culture (art/lit/god) ---
+  # --- Country culture (art/lit/god) — archived Commit 4 ---
   america-art:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-america + civilization/art.md
+    reason: Archived Commit 4; lane opener + art.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   america-lit:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-america + civilization/lit.md
+    reason: Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   china-art:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-china + civilization/art.md
+    reason: Archived Commit 4; lane opener + art.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   china-lit:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-china + civilization/lit.md
+    reason: Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   iran-art:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-persia + civilization/art.md
+    reason: Archived Commit 4; lane opener + art.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   iran-lit:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-persia + civilization/lit.md
+    reason: Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   russia-art:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-russia + civilization/art.md
+    reason: Archived Commit 4; lane opener + art.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   russia-lit:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-russia + civilization/lit.md
+    reason: Archived Commit 4; lane opener + lit.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   russia-god:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: null
-    reason: Low-frequency subordinate lens; confirm before Commit 4
-    risk: confirm_before_commit_4
+    replacement_or_runbook: state-russia + civilization/god.md
+    reason: Archived Commit 4; lane opener + god.md surfaces replace subordinate lens
+    risk: low
     cluster: country-culture
 
   # --- General domain helpers ---

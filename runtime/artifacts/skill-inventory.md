@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T00:57:19Z`
+Generated: `2026-06-24T01:03:30Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -11,16 +11,16 @@ Total rows: **114**
 | abundance-native-ventures | both | True | .cursor/skills/abundance-native-ventures/SKILL.md | abundance-native-ventures/SKILL.md | legacy-redirect | redirect | product-strategy | abundance ventures | missing | 2026-06-23 |  |
 | academy-mirror-sync | both | True | .cursor/skills/academy-mirror-sync/SKILL.md | academy-mirror-sync/SKILL.md | product-narrative | archived |  | academy-mirror-sync | missing | 2026-06-23 | Candidate archived unless operator confirms active mirror |
 | academy-statecraft-drafting | draft | False |  |  | domain-pack | draft |  | statecraft | n/a | 2026-06-23 |  |
-| america-art | cursor-only | False | .cursor/skills/america-art/SKILL.md |  | domain-pack | active |  | america-art | missing | 2026-06-23 |  |
-| america-lit | cursor-only | False | .cursor/skills/america-lit/SKILL.md |  | domain-pack | active |  | america-lit | missing | 2026-06-23 |  |
+| america-art | cursor-only | False | .cursor/skills/america-art/SKILL.md |  | domain-pack | archived |  | america-art | missing | 2026-06-23 |  |
+| america-lit | cursor-only | False | .cursor/skills/america-lit/SKILL.md |  | domain-pack | archived |  | america-lit | missing | 2026-06-23 |  |
 | anyang-ai | cursor-only | False | .cursor/skills/anyang-ai/SKILL.md |  | domain-pack | active |  | anyang-ai | missing | 2026-06-23 |  |
 | arc-to-chapter-seeds | both | True | .cursor/skills/arc-to-chapter-seeds/SKILL.md | arc-to-chapter-seeds/SKILL.md | product-narrative | active |  |  | missing | 2026-06-23 |  |
 | brewmind-governed-steward | cursor-only | False | .cursor/skills/brewmind-governed-steward/SKILL.md |  | domain-pack | active |  | brewmind governed steward | missing | 2026-06-23 |  |
 | bridge | cursor-only | False | .cursor/skills/bridge/SKILL.md |  | operator-coherence | active |  | bridge | present | 2026-06-23 |  |
 | check-sources | both | True | .cursor/skills/check-sources/SKILL.md | check-sources/SKILL.md | truth-pipeline | active |  | check sources | present | 2026-06-23 |  |
 | check-streams | both | True | .cursor/skills/check-streams/SKILL.md | check-streams/SKILL.md | legacy-redirect | redirect | check-sources | check streams | missing | 2026-06-23 |  |
-| china-art | cursor-only | False | .cursor/skills/china-art/SKILL.md |  | domain-pack | active |  | china-art | missing | 2026-06-23 |  |
-| china-lit | cursor-only | False | .cursor/skills/china-lit/SKILL.md |  | domain-pack | active |  | china-lit | missing | 2026-06-23 |  |
+| china-art | cursor-only | False | .cursor/skills/china-art/SKILL.md |  | domain-pack | archived |  | china-art | missing | 2026-06-23 |  |
+| china-lit | cursor-only | False | .cursor/skills/china-lit/SKILL.md |  | domain-pack | archived |  | china-lit | missing | 2026-06-23 |  |
 | cici-ai-daily-brief | draft | False |  |  | domain-pack | draft |  | cici daily brief | n/a | 2026-06-23 |  |
 | civ-state | both | True | .cursor/skills/civ-state/SKILL.md | civ-state/SKILL.md | domain-pack | active |  | civ-state | present | 2026-06-23 |  |
 | civ-state-essay | both | True | .cursor/skills/civ-state-essay/SKILL.md | civ-state-essay/SKILL.md | domain-pack | active |  | civ-state essay | present | 2026-06-23 |  |
@@ -48,8 +48,8 @@ Total rows: **114**
 | harvest | cursor-only | False | .cursor/skills/harvest/SKILL.md |  | operator-coherence | active |  | harvest | present | 2026-06-23 |  |
 | hn-bookshelf-lookup | cursor-only | False | .cursor/skills/hn-bookshelf-lookup/SKILL.md |  | domain-pack | active |  |  | missing | 2026-06-23 |  |
 | ideation-engine | both | True | .cursor/skills/ideation-engine/SKILL.md | ideation-engine/SKILL.md | legacy-redirect | redirect | product-strategy | ideation engine | missing | 2026-06-23 |  |
-| iran-art | cursor-only | False | .cursor/skills/iran-art/SKILL.md |  | domain-pack | active |  | iran-art | missing | 2026-06-23 |  |
-| iran-lit | cursor-only | False | .cursor/skills/iran-lit/SKILL.md |  | domain-pack | active |  | iran-lit | missing | 2026-06-23 |  |
+| iran-art | cursor-only | False | .cursor/skills/iran-art/SKILL.md |  | domain-pack | archived |  | iran-art | missing | 2026-06-23 |  |
+| iran-lit | cursor-only | False | .cursor/skills/iran-lit/SKILL.md |  | domain-pack | archived |  | iran-lit | missing | 2026-06-23 |  |
 | jurisdiction-campaign-history | both | True | .cursor/skills/jurisdiction-campaign-history/SKILL.md | jurisdiction-campaign-history/SKILL.md | domain-pack | active |  | jurisdiction history | missing | 2026-06-23 |  |
 | lane-survey | cursor-only | False | .cursor/skills/lane-survey/SKILL.md |  | domain-pack | active |  | survey | missing | 2026-06-23 | Review: likely runbook or archived |
 | last30days | both | True | .cursor/skills/last30days/SKILL.md | last30days/SKILL.md | legacy-redirect | deprecated | periodic-statecraft-review | last30days | missing | 2026-06-23 |  |
@@ -77,9 +77,9 @@ Total rows: **114**
 | repo-feedback-prompt | both | True | .cursor/skills/repo-feedback-prompt/SKILL.md | repo-feedback-prompt/SKILL.md | operator-coherence | active |  | repo feedback prompt | present | 2026-06-23 |  |
 | repo-hygiene-pass | both | True | .cursor/skills/repo-hygiene-pass/SKILL.md | repo-hygiene-pass/SKILL.md | operator-coherence | active |  | hygiene pass | present | 2026-06-23 |  |
 | ritter-warning-extraction | draft | False |  |  | domain-pack | draft |  | ritter-warning | n/a | 2026-06-23 |  |
-| russia-art | cursor-only | False | .cursor/skills/russia-art/SKILL.md |  | domain-pack | active |  | russia-art | missing | 2026-06-23 |  |
-| russia-god | cursor-only | False | .cursor/skills/russia-god/SKILL.md |  | domain-pack | active |  | russia-god | missing | 2026-06-23 |  |
-| russia-lit | cursor-only | False | .cursor/skills/russia-lit/SKILL.md |  | domain-pack | active |  | russia-lit | missing | 2026-06-23 |  |
+| russia-art | cursor-only | False | .cursor/skills/russia-art/SKILL.md |  | domain-pack | archived |  | russia-art | missing | 2026-06-23 |  |
+| russia-god | cursor-only | False | .cursor/skills/russia-god/SKILL.md |  | domain-pack | archived |  | russia-god | missing | 2026-06-23 |  |
+| russia-lit | cursor-only | False | .cursor/skills/russia-lit/SKILL.md |  | domain-pack | archived |  | russia-lit | missing | 2026-06-23 |  |
 | russian-endurance-compression-strategy | draft | False |  |  | domain-pack | draft |  | endurance strategy | n/a | 2026-06-23 |  |
 | singularity-monthly-synthesis | both | True | .cursor/skills/singularity-monthly-synthesis/SKILL.md | singularity-monthly-synthesis/SKILL.md | judgment-enhancement | active |  |  | missing | 2026-06-23 |  |
 | singularity-note-promotion | both | True | .cursor/skills/singularity-note-promotion/SKILL.md | singularity-note-promotion/SKILL.md | judgment-enhancement | active |  |  | missing | 2026-06-23 |  |
