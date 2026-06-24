@@ -11,7 +11,7 @@ scope_class: repo-governed
 
 `iran-lit` is a WORK-only academy-statecraft command. It applies Iran's civilization `lit.md` surface to operational statecraft judgment.
 
-Compatibility note: `iran-lit` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first, using `statecraft-framework` if needed; then use this skill only when `lit` is the right downstream expression surface rather than the governing ontology itself.
+Compatibility note: `iran-lit` is a **secondary lane-lens skill** beneath the **Civilizational Statecraft Framework**. Identify the governing pair first, using the six-term checklist if needed (`statecraft-framework` archived); then use this skill only when `lit` is the right downstream expression surface rather than the governing ontology itself.
 
 It is not literary criticism, author biography, or cultural commentary for its own sake. It converts Persian narrative memory into tests for dignity, anti-humiliation language, continuity beyond regime, grievance capture, martyrdom tone, and whether settlement wording preserves sovereignty without sanctifying refusal.
 

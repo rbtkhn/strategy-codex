@@ -293,7 +293,7 @@ Hand off to [state-synthesis](../state-synthesis/SKILL.md).
 
 | Family | Route toward |
 |--------|----------------|
-| **A. Frame** | [statecraft-framework](../statecraft-framework/SKILL.md) · public theory/skills · [six-term checklist](../../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) |
+| **A. Frame** | [six-term checklist](../../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) · **`periodic-statecraft-review`** runbook · public theory/skills (`statecraft-framework` archived) |
 | **B. Retrieve** | public shelf-reader · primary/secondary-sources · volumes · sacred grammar · de-prioritize [source-retrieval matrix](../../../statecraft/states/indexes/source-retrieval-matrix.md) unless public exhausted |
 | **C. Promote** | bridge · ledger · [ph-civ-to-civ-state-promoter](../ph-civ-to-civ-state-promoter/SKILL.md) |
 | **D. Review** | review-queue · public edit target · [civ-state-volume-harden](../civ-state-volume-harden/SKILL.md) only if explicit book work |

@@ -171,7 +171,7 @@ After routing, treaty frameworks, policy papers, negotiation briefs, and Richeli
 
 When the operator asks for the daily main-stream update (Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, Mercouris), route that through the explicit **`check streams`** skill, not through Coffee C by default. `cognition streams` remains a legacy alias.
 
-When the operator asks for daily brief, Polymarket/polling, `last30days`, or broad current-events judgment, use explicit daily-brief / strategy / check-streams routes. When the operator names a specific recent event for statecraft analysis, verify the unstable fact pattern, name the crisis object, then route through `state-deploy` or the owning lane rather than opening a separate event skill.
+When the operator asks for daily brief, Polymarket/polling, **`periodic-statecraft-review`** / legacy `last30days`, or broad current-events judgment, use explicit daily-brief / strategy / check-streams routes. When the operator names a specific recent event for statecraft analysis, verify the unstable fact pattern, name the crisis object, then route through `state-deploy` or the owning lane rather than opening a separate event skill.
 
 Bookshelf/museum identity knowledge (archive) elicitation, survey work, and Record candidates are explicit routes outside Statecraft unless the operator asks to turn source knowledge into a policy/treaty instrument. Never merge Record material from Coffee C; preserve WORK-only boundaries.
 **Signing-off Step 1** — handoff-weighted (same trigger **`coffee`**, not a second ritual name):

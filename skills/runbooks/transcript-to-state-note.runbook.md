@@ -33,7 +33,7 @@ Convert a landed transcript or daily synthesis wedge into **one** bounded statec
 
 - archive land incomplete — `statecraft-source-intake` first
 - whole-day synthesis still needed — `state-synthesis` first
-- multiple unsettled claims — `statecraft-multi-lens` or daily synthesis
+- multiple unsettled claims — **`state-synthesis`** comparison subroutine, **`periodic-statecraft-review`** runbook, or daily synthesis (`statecraft-multi-lens` archived)
 - essay-class prose intended — `docs/prose-index.md` route
 - lane intake unresolved — `statecraft-lane-intake-router` or `state-deploy`
 

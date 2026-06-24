@@ -36,7 +36,7 @@ Core test: what kind of American authority can still carry this tomorrow?
 - Decide what America can legitimately draft, carry, accept, reject, and institutionalize.
 - If the object is obviously cross-lane or not honestly America-owned, say so and hand back toward `state-deploy` or a comparison path.
 
-Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending. If the pair is not already obvious, run `statecraft-framework` first.
+Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending. If the pair is not already obvious, use the [six-term checklist](../../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) or **`periodic-statecraft-review`** runbook (`statecraft-framework` archived).
 
 ## Source Surfaces
 
@@ -75,7 +75,7 @@ Compact `faith / science` rule:
 - Once America is clearly the lane, diagnose the governing pair immediately.
 - Descend to `helix.md` by default after the governing pair is named.
 - Descend further only when the object is narrower and name the reason briefly in governing-pair terms.
-- If the governing pair still feels smoother than the retrieval consequences, run `statecraft-framework` before narrower descent.
+- If the governing pair still feels smoother than the retrieval consequences, use the six-term checklist before narrower descent (`statecraft-framework` archived).
 
 ## Subordinate Families
 

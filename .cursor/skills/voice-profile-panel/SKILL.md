@@ -24,7 +24,7 @@ synced_by: sync_portable_skills.py
 
 **Not in scope:**
 
-- **`tri-mind` / tri-frame choreography** — deprecated; use **statecraft-multi-lens** for analytic comparison, not A/B/C menu revival.
+- **`tri-mind` / tri-frame choreography** — deprecated; use **`state-synthesis`** comparison subroutine or a **named single speaker** for analytic comparison (`statecraft-multi-lens` archived), not A/B/C menu revival.
 - **Record merge** or wire-grade fact promotion.
 - **Substituting mind-file précis** for profile-grounded speech — read profiles + host **minds-authentic-voice** rule when a mapped mind is named.
 
@@ -91,7 +91,7 @@ Full checklist lives in triad scratch **§8**. Before claiming panel pass, scan 
 
 | Skill | Role |
 |-------|------|
-| **statecraft-multi-lens** | Analytic preset comparison on one object — not fictional transcript |
+| **state-synthesis** / **primary-overhearing-analysis** | Analytic comparison on one object — not fictional transcript (`statecraft-multi-lens` archived) |
 | **minds-authentic-voice** | Register law when CIV-MIND / strategy-expert mind files ground output |
 | **wire-verify / fact-check** | Claim truth — run **before** treating panel hooks as settled fact |
 
@@ -135,7 +135,7 @@ Strategy-codex routing and SSOT paths for voice-profile-panel.
 
 | Skill | When |
 |-------|------|
-| [statecraft-multi-lens](../statecraft-multi-lens/SKILL.md) | Analytic comparison — not fictional roundtable |
+| [state-synthesis](../state-synthesis/SKILL.md) / [primary-overhearing-analysis](../primary-overhearing-analysis/SKILL.md) | Analytic comparison — not fictional roundtable (`statecraft-multi-lens` archived) |
 | [wire-verify](../wire-verify/SKILL.md) | Grade MOU/wire hooks before treating panel claims as settled |
 
 ## Demo scratch path

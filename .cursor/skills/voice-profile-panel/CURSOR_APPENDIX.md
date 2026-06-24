@@ -21,7 +21,7 @@ Strategy-codex routing and SSOT paths for voice-profile-panel.
 
 | Skill | When |
 |-------|------|
-| [statecraft-multi-lens](../statecraft-multi-lens/SKILL.md) | Analytic comparison — not fictional roundtable |
+| [state-synthesis](../state-synthesis/SKILL.md) / [primary-overhearing-analysis](../primary-overhearing-analysis/SKILL.md) | Analytic comparison — not fictional roundtable (`statecraft-multi-lens` archived) |
 | [wire-verify](../wire-verify/SKILL.md) | Grade MOU/wire hooks before treating panel claims as settled |
 
 ## Demo scratch path

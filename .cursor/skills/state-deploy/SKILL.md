@@ -66,7 +66,7 @@ When the operator names a recent event, absorb it here:
 
 If lane ownership is already obvious after verification, hand directly to the owning `state-*` lane. If not, keep the deployer in charge.
 
-If the event is verified but the governing layer is still being confused with lane ownership, use `statecraft-framework` as the pre-handoff diagnosis rather than guessing from salience.
+If the event is verified but the governing layer is still being confused with lane ownership, use the six-term checklist or **`periodic-statecraft-review`** runbook as the pre-handoff diagnosis rather than guessing from salience (`statecraft-framework` archived).
 
 ## Decision Rules
 
@@ -82,7 +82,7 @@ Ask one transaction-aware reuse question before you widen the pass:
 
 - does this object already resemble a known transit, guarantee, sanctions, quarantine, recognition, or settlement bundle strongly enough that the honest next move is fit-check or reuse rather than a fresh framework?
 
-Use `statecraft-framework` only after the deployer can already name the live object honestly. Use it to clarify the governing pair, not to replace lane judgment.
+Use the six-term checklist or **`periodic-statecraft-review`** runbook only after the deployer can already name the live object honestly. Use it to clarify the governing pair, not to replace lane judgment (`statecraft-framework` archived).
 
 ## Misdeployment Warnings
 
@@ -133,7 +133,7 @@ If the crisis object is already strongly mechanism-shaped, the deployer should s
 
 Do not call `statecraft-bridge` from the deployer unless Persia/Iran ownership is already clear. If ownership is still contested, hand back to a lane judgment or comparison call first.
 
-When ownership is clear but pair diagnosis is not, hand to the owning lane with an explicit note to run `statecraft-framework` before narrow descent.
+When ownership is clear but pair diagnosis is not, hand to the owning lane with an explicit note to use the six-term checklist before narrow descent (`statecraft-framework` archived).
 
 ## Default Output
 

@@ -196,9 +196,9 @@ Canonical method: [skills/statecraft-intelligence-essay/SKILL.md](statecraft-int
 - **Boundary**
   - Does not replace governing-pair diagnosis, archive intake, or day-batch synthesis, keeps canonical packs intentionally small, and treats presets as reviewable hypotheses rather than permanent doctrine.
 - **Current status**
-  - `promoted`
+  - `archived` — use **`state-synthesis`** comparison subroutine or **`periodic-statecraft-review`** runbook
 
-Canonical method: [skills/statecraft-multi-lens/SKILL.md](statecraft-multi-lens/SKILL.md)
+Canonical method: [skills/statecraft-multi-lens/SKILL.md](statecraft-multi-lens/SKILL.md) *(stub only)*
 
 ---
 
@@ -234,9 +234,9 @@ Canonical method: [skills/state-note/SKILL.md](state-note/SKILL.md)
 - **Boundary**
   - Keeps `speaker-only` separate from `speaker-adjacent`, does not guess unrecovered URLs, treats transcript uploads as materialization requests unless reporting-only was explicit, and does not let benchmark months quietly turn into closure campaigns.
 - **Current status**
-  - `promoted`
+  - `deprecated` — redirect to **`periodic-statecraft-review`** runbook
 
-Canonical method: [skills/monthly-deepening/SKILL.md](monthly-deepening/SKILL.md)
+Canonical method: [skills/monthly-deepening/SKILL.md](monthly-deepening/SKILL.md) *(stub only)*
 
 ---
 
@@ -272,9 +272,9 @@ Canonical method: [skills/strategy-notebook-expert-cross-weave/SKILL.md](strateg
 - **Boundary**
   - WORK only; not Record, not PH-CIV authoring, and not raw CIV-MEM backfill.
 - **Current status**
-  - `promoted`
+  - `archived`
 
-Canonical method: [skills/statecraft-helix-synthesis/SKILL.md](statecraft-helix-synthesis/SKILL.md)
+Canonical method: [skills/statecraft-helix-synthesis/SKILL.md](statecraft-helix-synthesis/SKILL.md) *(stub only)*
 
 ---
 

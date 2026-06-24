@@ -174,7 +174,7 @@ Ask once when note dense enough: *Graduate to **`civ-state-essay`** on named pub
 | **state-note** | Same shelf, no mandatory CIV-STATE pre-pass |
 | **state-synthesis** | Upstream full day; promote one wedge here |
 | **wire-verify** | Same-week wire hooks before Supported claims |
-| **statecraft-multi-lens** | Comparison handoff when method-bearing |
+| **statecraft-multi-lens** | **Archived** — use **`state-synthesis`** comparison subroutine or **`primary-overhearing-analysis`** when method-bearing |
 | **recursive-learn** | Post-ship machine law |
 
 Host-specific paths, examples, and maintenance: **CURSOR_APPENDIX** (sync target).

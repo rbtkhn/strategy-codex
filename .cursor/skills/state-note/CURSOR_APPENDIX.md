@@ -2,7 +2,7 @@
 
 - Notes shelf SSOT: [statecraft/notes/README.md](/C:/dev/strategy-codex/statecraft/notes/README.md)
 - Prose-class chooser: [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md)
-- Multi-lens handoff source: [.cursor/skills/statecraft-multi-lens/SKILL.md](/C:/dev/strategy-codex/.cursor/skills/statecraft-multi-lens/SKILL.md) — bounded `statecraft/notes/` when comparison is method-bearing
+- Multi-lens handoff: use **`state-synthesis`** comparison subroutine or **`primary-overhearing-analysis`** — bounded `statecraft/notes/` when comparison is method-bearing (`statecraft-multi-lens` archived)
 - Daily parent (when promoting from a full day): [state-synthesis](/C:/dev/strategy-codex/.cursor/skills/state-synthesis/SKILL.md)
 - **civ-state return:** when note exposes civilizational retrieval gap → [civ-state skill](../civ-state/SKILL.md) **D. Review** with named `public/civ-state/` edit target (operator appendix only — do not embed in note prose unless claim is explicitly civilizational)
 - **CIV-STATE note (retrieve required):** [civ-state-note](../civ-state-note/SKILL.md) — same shelf; mandatory retrieve pre-pass when civilizational framing is load-bearing
