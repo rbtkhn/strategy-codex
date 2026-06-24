@@ -4,7 +4,7 @@ description: Compare one live statecraft object through a broad bench of dual-le
 preferred_activation: statecraft multi-lens
 activation: statecraft multi-lens
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: judgment-enhancement
 status: active
 scope_class: repo-governed
@@ -489,6 +489,29 @@ This skill succeeds when:
 - the combined read says something no single lens says alone
 - the next routing move is clearer than before
 - preset breadth remains governable because weak presets can later be merged, demoted, rewritten, or retired
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- lenses used and preset scope must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance

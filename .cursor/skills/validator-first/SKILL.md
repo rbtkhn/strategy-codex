@@ -72,3 +72,26 @@ If Shell hangs or interrupts:
 1. Retry **only** the run command (no parallel reads).
 2. If still blocked, switch to **`fast tools`**: Read/Write the target files, then one narrow Shell (see [coffee SKILL — Harness hang recovery](../coffee/SKILL.md#harness-hang-recovery)).
 3. If still blocked, report and suggest operator run locally with the exact one-liner.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- validator or check command and exit code must be reported
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review

@@ -4,7 +4,7 @@ description: Analyzes high-symbolism speeches, visits, and rituals using primary
 preferred_activation: primary overhearing
 activation: primary overhearing
 portable: true
-version: 1.0.0
+version: 1.0.1
 category: judgment-enhancement
 status: active
 scope_class: repo-governed
@@ -69,6 +69,28 @@ Use for **public symbolic events**: papal or other religious leaders’ trips, m
 - **fact-check** — When claims about what was said or signed need web verification.
 - **skill-strategy** — When the operator wants the same insight folded into strategy-codex judgment with civ-mem grounding.
 
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- primary vs overhearing audiences must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 ## Cursor / strategy-codex instance
 

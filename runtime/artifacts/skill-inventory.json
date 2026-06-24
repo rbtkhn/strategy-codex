@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T00:17:36.949098+00:00",
+  "generated_at": "2026-06-24T00:19:55.959889+00:00",
   "row_count": 114,
   "skills": [
     {
@@ -446,7 +446,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "fact check",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -866,7 +866,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "primary overhearing",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1300,7 +1300,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-framework",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1328,7 +1328,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1342,7 +1342,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "statecraft intelligence essay",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1370,7 +1370,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "statecraft multi-lens",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1510,7 +1510,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },

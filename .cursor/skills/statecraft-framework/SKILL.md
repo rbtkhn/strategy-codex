@@ -4,7 +4,7 @@ description: Diagnose a live statecraft object through the Civilizational Statec
 preferred_activation: statecraft-framework
 activation: statecraft-framework
 portable: true
-version: 0.2.2
+version: 0.2.3
 category: judgment-enhancement
 status: active
 scope_class: repo-governed
@@ -134,6 +134,29 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 ## Success condition
 
 The next move becomes obvious: governing term, dominant failure, misread, and retrieval surface.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- governing term and dominant failure layer must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 ## Repo notes
 

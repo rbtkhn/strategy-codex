@@ -163,3 +163,25 @@ If the thread is clearly **WORK** and the operator did not say **no menu**, end 
 - **Massie news hooks:** If your Cursor install includes **massie-x-news-search-draft** (optional user skill), use it for **today's** KY-4 / Massie-relevant cited briefs; **fact check** stays **claim-neutral**.
 - [pros-and-cons](../pros-and-cons/SKILL.md) — tradeoffs when the question is **should we**, not **is it true**.
 
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- each checked claim and verdict tier (supported / contradicted / unclear / out of scope) must be stated
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review

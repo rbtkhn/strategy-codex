@@ -2,7 +2,7 @@
 name: statecraft-helix-synthesis
 description: Build helix-first repo-root statecraft synthesis and retrieval surfaces above already-mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/states. Do not use for first-wave lane construction, governing-pair diagnosis, or CIV-STATE front-door/volume hardening.
 portable: true
-version: 0.1.0
+version: 0.1.1
 category: judgment-enhancement
 status: active
 scope_class: repo-governed
@@ -144,3 +144,26 @@ When you finish a pass, summarize:
 - what the next highest-leverage move is
 
 Keep the close-out compact. The point of this layer is to improve navigation and judgment, not to bury the operator in inventory.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- helix layer and control-plane surfaces touched must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review

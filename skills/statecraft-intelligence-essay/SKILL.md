@@ -4,7 +4,7 @@ description: Write synthetic singularity-statecraft intelligence essays from arc
 preferred_activation: statecraft intelligence essay
 activation: statecraft intelligence essay
 portable: true
-version: 0.1.0
+version: 0.1.1
 category: judgment-enhancement
 status: active
 scope_class: repo-governed
@@ -123,3 +123,26 @@ It should usually do five things:
 ## Success condition
 
 The result is a durable downstream essay that reads as singularity-statecraft intelligence, remains anchored to real archive substrate, and explains the live object without visible speaker-shelf scaffolding.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- archive substrate paths and essay output path must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
