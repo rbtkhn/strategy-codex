@@ -2,8 +2,8 @@
 
 - **Upstream:** [https://github.com/rbtkhn/ph-civ.git](https://github.com/rbtkhn/ph-civ.git)
 - **Branch:** `main`
-- **Upstream commit:** `8067480b19807669e3d121ea25c1d1208bda495c`
-- **Published:** 2026-06-24T00:39:30Z
+- **Upstream commit:** `6dcf7472e05d1fd2b73b57ce0d8b73c7dd6bcf3e`
+- **Published:** 2026-06-24T00:45:04Z
 - **Inbound sync:** `scripts/sync_public_ph_civ_mirror.py`
 - **Outbound publish:** `scripts/publish_public_ph_civ.py`
 
