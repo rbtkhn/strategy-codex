@@ -1,11 +1,11 @@
 ---
-description: strategy-notebook — days.md dates are compose/EOD anchors, not inbox clock or upload receipts; anti-split
+description: strategy-codex codex — days.md dates are compose/EOD anchors, not inbox clock or upload receipts; anti-split
 alwaysApply: true
 ---
 
-# Strategy notebook — `days.md` date semantics (anti-split)
+# Strategy codex — `days.md` date semantics (anti-split)
 
-**SSOT:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — `days.md` date keys](../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics).
+**SSOT:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — `days.md` date keys](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics). Namespace **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
 
 **Invariants (WORK / `strategy` / **EOD compose**):**
 

@@ -4,7 +4,7 @@
 
 **Activation (no skill):** The **`skill-strategy` Cursor skill is dissolved** — see [SKILL-STRATEGY-DEPRECATED.md](SKILL-STRATEGY-DEPRECATED.md). Agents follow [.cursor/rules/strategy-codex-pass.mdc](../../.cursor/rules/strategy-codex-pass.mdc) and this file.
 
-**Naming:** `strategy-codex` is the active operator surface and `/codex` is the canonical corpus. `strategy-notebook` is a deprecated compatibility namespace only.
+**Naming:** `strategy-codex` is the active operator surface and `/codex` is the canonical corpus. **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md).
 
 **When:** Normal day. Operator says **`strategy`** or **`strategy pass`**. **`strategy page read`** — read-only frontier (no `days.md` / **`strategy-page`** writes); see [architecture § *End-of-day strategy session* — *Read-only variant*](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology).
 

@@ -16,7 +16,7 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 |----------|------|
 | **`strategy`** / **`strategy pass`** | DEFAULT-PATH.md |
 | **`recursive learn`** / **`recursive-learn`** / **`RLJ`** / session review through RLJ | [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) → journal SSOT first |
-| **`strategy page` / compose** | STRATEGY-NOTEBOOK-ARCHITECTURE.md EOD section |
+| **`strategy page` / compose** | [`codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) EOD section — not `docs/.../strategy-notebook/` |
 | **`strategy + verify`** | wire-verify / fact-check |
 | **`strategy write`** | skill-write + codex substance |
 | **`strategy input`** | [strategy-input-raw-ingest.mdc](../../.cursor/rules/strategy-input-raw-ingest.mdc) + **`source-intake`** → [source-archive/statecraft/](../../../source-archive/statecraft/README.md) · [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md) |
@@ -30,7 +30,7 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 
 **Legacy status:** `docs/skill-work/work-strategy/` is now a **legacy compatibility surface**, not the canonical operator judgment owner. The active public/operator-facing successor is [statecraft/](../../../statecraft/README.md). Use [Legacy Successor Map](LEGACY-SUCCESSOR-MAP.md) when an older strategy path still exists on disk and you need the current conceptual destination.
 
-**Naming:** `strategy-codex` remains the repo and notebook identity, but the old `work-strategy` lane terminology is obsolete as a canonical live surface. The canonical chronology corpus lives under root [`/codex`](../../../codex/README.md), while live judgment, prose, and mechanism now belong under [statecraft/](../../../statecraft/README.md). `strategy-notebook` is a deprecated compatibility namespace for old links, script aliases, fixtures, and historical logs; do not add new canonical material there.
+**Naming:** `strategy-codex` is the active operator surface and `/codex` is the canonical corpus. **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md); compat namespace only for old links and scripts.
 
 **Current role (one sentence):** This tree is now primarily a **legacy holding surface** for still-unmigrated notebook machinery, operator doctrine, and historical strategy memos that have not yet been re-homed into `statecraft/`, `/codex`, or `singularity/`.
 

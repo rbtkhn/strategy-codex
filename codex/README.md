@@ -1,7 +1,7 @@
 # strategy-codex
 <!-- word_count: 1347 -->
 
-**Canonical home:** `/codex` — strategy-codex operator notebook (chronology, accumulation, continuity). Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only**.
+**Canonical home:** `/codex` — strategy-codex operator notebook (chronology, accumulation, continuity). **`strategy-notebook`** namespace is **deprecated** — [STRATEGY-NOTEBOOK-DEPRECATED.md](../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md). Compat path `docs/skill-work/work-strategy/strategy-notebook/` is redirect only.
 
 **Current role:** `/codex` is the **chronology, accumulation, and continuity layer** beneath the broader [statecraft](../statecraft/README.md) surface. Use `/codex` for dated continuity, thread/page accumulation, and notebook memory; use `statecraft/` for live judgment, mechanism, recursive learning, and first-class prose outputs.
 
@@ -13,7 +13,8 @@ Operator-authored books have **no** central registry or `LIB-*` ids. Discover ea
 
 | Operator phrase | Canonical path |
 |-----------------|----------------|
-| `strategy-codex` / `strategy-notebook` | `codex/` (this tree) |
+| `strategy-codex` | `codex/` (this tree) |
+| `strategy-notebook` (legacy alias) | `codex/` — [STRATEGY-NOTEBOOK-DEPRECATED.md](../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) |
 | `predictive-history` | `codex/predictive-history/` |
 | cici notebook | `singularity/work-cici/cici-notebook/` |
 | dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |

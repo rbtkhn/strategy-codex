@@ -15,9 +15,11 @@ Operator-authored books live in **existing misc folders**. There is **no** centr
 
 ## `strategy-codex` / `strategy-notebook`
 
-**`strategy-codex`** (preferred) or legacy **`strategy-notebook`** → **`codex/`** (`STATUS.md`, `chapters/`, `daily-strategy-inbox.md`, `STRATEGY-NOTEBOOK-ARCHITECTURE.md`).
+**`strategy-codex`** (preferred) → **`codex/`** (`STATUS.md`, `chapters/`, `daily-strategy-inbox.md`, `STRATEGY-NOTEBOOK-ARCHITECTURE.md`).
 
-Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only**.
+**`strategy-notebook`** (legacy phrase) → same destination **`codex/`** — do **not** use for new paths or docs. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
+
+Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only** — do not add artifacts.
 
 **Do not** treat **`strategy-codex`** as **`STRATEGY.md`** (milestone ledger).
 

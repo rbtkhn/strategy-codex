@@ -64,6 +64,7 @@ Do **not** delete or bulk-migrate legacy captures in a deprecation pass unless t
 
 ## Related deprecation
 
+- Strategy-notebook namespace: [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md)
 - YouTube materialize path: [YOUTUBE-MATERIALIZE-DEPRECATED.md](YOUTUBE-MATERIALIZE-DEPRECATED.md)
 - Notebook preferences (inbox vs archive): [NOTEBOOK-PREFERENCES.md](../../../codex/NOTEBOOK-PREFERENCES.md)
 

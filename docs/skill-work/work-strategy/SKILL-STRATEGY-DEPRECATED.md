@@ -1,6 +1,6 @@
 # skill-strategy — dissolved (2026-06)
 
-**Status:** The Cursor skill **`.cursor/skills/skill-strategy/`** is **removed**. Do not invoke or recreate it. **`strategy-codex`** activation is doc-first; **`strategy-notebook`** is **deprecated compatibility** namespace only.
+**Status:** The Cursor skill **`.cursor/skills/skill-strategy/`** is **removed**. Do not invoke or recreate it. **`strategy-codex`** activation is doc-first. **`strategy-notebook`** namespace is **deprecated** — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md).
 
 ## What to use instead
 
