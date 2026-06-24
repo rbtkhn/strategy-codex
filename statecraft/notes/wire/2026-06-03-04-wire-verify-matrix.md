@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Parent dailies:** [2026-06-03](statecraft/synthesis/day/2026-06-03.md) · [2026-06-04](statecraft/synthesis/day/2026-06-04.md) · **Archive:** [Jun 3 day-index](../../source-archive/statecraft/2026-06-03/day-index.md) · [Jun 4 day-index](../../source-archive/statecraft/2026-06-04/day-index.md) · **Cross-ref:** [2026-06-01-02 matrix](2026-06-01-02-wire-verify-matrix.md) · [Pape Lebanon fuse](../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) · [08–09 S1](2026-06-08-09-wire-verify-matrix.md#shared-seam-anchors-s1s10)
 
-**Mode:** combo window (9 + 10 ingests, **bombing-while-talking × Lebanon pseudo-deal × §224**) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 0/19
+**Mode:** combo window (9 + 10 ingests, **bombing-while-talking × Lebanon pseudo-deal × §224**) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 3/19 (Nima · Hoh · Pape Lebanon fuse · `verify:` 2026-06-24)
 
 ## Lane sweep receipts
 
@@ -54,6 +54,15 @@ WORK only; not Record.
 **Adjacent:** Hezbollah line **supported** (doctrine); Beirut provocation **partial**.
 
 **Mesh:** **Supported** W34-1 · W34-2 · W34-5 (frame) · W34-6 · **Partial** majority · **Unclear** W34-4.
+
+## Capture receipt map
+
+| Capture | `verify:` on disk | Matrix hooks |
+| --- | --- | --- |
+| Nima solo Jun 3 `PQWhsrD4XhY` | **Yes** | W34-1 · W34-2 |
+| Hoh §224 Jun 4 `7nRoD1Kxdr8` | **Yes** | W34-5 · W34-6 · W34-7 · W34-8 · W34-9 |
+| Pape Lebanon fuse Substack | **Yes** | W34-1 · W34-10 |
+| Remaining Jun 3–4 batch (16) | No | W34-* mesh / tier-4 |
 
 ## Synthesis guardrails
 

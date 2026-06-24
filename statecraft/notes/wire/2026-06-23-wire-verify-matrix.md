@@ -4,9 +4,9 @@ WORK only; not Record.
 
 **Parent daily:** [2026-06-23](statecraft/synthesis/day/2026-06-23.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-23/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-wire-verify-matrix.md) · [2026-06-22 wire matrix](2026-06-22-wire-verify-matrix.md) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
-**Mode:** batch (10 ingests, MOU **implementation** seam — IAEA duel · Hormuz partial · Lebanon ridge) · **Hooks:** 30 (core 20 + Hoh 2 + Ukraine 8) · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 5/10 (`verify:` Dialogue Works trio + Hoh polls + Ukraine sub-hook · `verify_receipt_deep` on Dialogue Works trio · `verify_receipt: 2026-06-24` on all five)
+**Mode:** batch (11 ingests, MOU **implementation** seam — IAEA duel · Hormuz partial · Lebanon ridge · **Ritter Europe/Ukraine desk**) · **Hooks:** 41 (core 20 + Hoh 2 + Ukraine 8 + **Ritter 11**) · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 5/11 (`verify:` Dialogue Works trio + Hoh polls + Ukraine sub-hook · `verify_receipt_deep` on Dialogue Works trio · `verify_receipt: 2026-06-24` on all five · **Ritter matrix-only** pending optional Ship)
 
-## Independent source register (10)
+## Independent source register (11)
 
 | # | Guest / voice | Show | YouTube | Hook use |
 | --- | --- | --- | --- | --- |
@@ -20,6 +20,7 @@ WORK only; not Record.
 | 8 | Macgregor | Daniel Davis | `_3mct6e9u60` | tier-4 mesh |
 | 9 | Mearsheimer | Breaking Points (Iran) | `IK25PzvdgpU` | MOU tier-4 · companion to #10 |
 | 10 | Mearsheimer | Breaking Points (Ukraine) | `Q-AiLUd4E8Q` | J23-23–J23-30 |
+| 11 | Ritter | Judging Freedom | `UICIxIPb9iI` | J23-31–J23-41 |
 
 ## Lane sweep receipts
 
@@ -113,23 +114,60 @@ J20-6 Supported (US blockade lifted 18 Jun)
 | **J23-29** | **NYT:** Ukraine desperate for Patriot / PAC-3 interceptors | America | en | **Supported** | [NYT syndication Jun 13](https://dnyuz.com/2026/06/13/russia-is-rich-in-ballistic-missiles-ukraine-is-short-of-ways-to-stop-them/) |
 | **J23-30** | **US has no Patriots left** to give Ukraine after Iran war | America | en | **Partial** | Shortage **supported**; absolute “none to give” = extrapolation — CFR/WSJ **>50%** Patriot inventory spent in Iran theater |
 
+## Sub-hook — Ritter / Napolitano (J23-31 – J23-41)
+
+**Capture:** `source-napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md` · news-verify batch pass (operator **E** · 2026-06-24) · cross-ref core MOU rows **J23-1–J23-12** — do not duplicate IAEA/Hormuz/Geneva table
+
+| ID | Claim | Lane | Lang | Verdict | Cite |
+| --- | --- | --- | --- | --- | --- |
+| **J23-31** | **Senate 50–48** adopts **H.Con.Res. 86** — instruct Trump remove US forces from Iran hostilities; **first** both-chambers war-powers direction since 1973 | America | en | **Partial** | [CNN Jun 23](https://www.cnn.com/2026/06/23/politics/senate-iran-war-powers-vote) · [Military Times Jun 24](https://www.militarytimes.com/news/pentagon-congress/2026/06/24/us-senate-joins-house-in-voting-to-halt-iran-war/) — **symbolic** concurrent resolution; WH: hostilities ended 7 Apr |
+| **J23-32** | **Keir Starmer “out”** / UK political collapse (Ritter) | UK desk | en | **Partial** | [BBC Jun 22](https://www.bbc.com/news/articles/cdxd00lg599o) — resignation announced; **remains PM** until Labour contest |
+| **J23-33** | **Merz “gone”** as German Chancellor (Ritter) | Europe | en | **Contradicted** | [MNI Jun 23](https://www.mnimarkets.com/articles/merz-says-no-minority-govt-or-new-coalition-amid-pension-reform-row-1782210783333) · [GOV.UK G7 Jun 15](https://www.gov.uk/government/news/pm-meeting-with-chancellor-merz-of-germany-15-june-2026) |
+| **J23-34** | **Project Brakestop** — UK flight-tests long-range strike; **~250 kg**; reach Moscow from Kiev (Napolitano desk read) | UK desk | en | **Supported** | [Yahoo syndication](https://ca.news.yahoo.com/britain-tests-long-range-missiles-050000415.html) · [Independent](https://www.independent.co.uk/news/uk/politics/uk-ukraine-long-range-strike-missiles-project-brakestop-b2999312.html) · [Army-Technology](https://www.army-technology.com/news/uk-mod-project-brakestop/) |
+| **J23-35** | **British direct operational role** in Storm Shadow strikes (Peskov / Ritter — intel, guidance, “everything but button”) | Russia / UK | en | **Contested** | [Reuters Peskov Mar 11](https://www.reuters.com/world/europe/kremlin-says-britain-was-involved-ukraines-missile-strike-russia-2026-03-11/) · [Perception Daily Voronezh Jun 23](https://www.perceptiondaily.com/ukraine-storm-shadow-missiles-strike-russian-defense-electronics-plant-in-voronezh/) — **no UK MoD 3a confirm** in pass |
+| **J23-36** | **SPIEF opening day (3 Jun)** — St Petersburg drone strikes during forum | Russia / wire | en | **Supported** | [France24 Jun 3](https://www.france24.com/en/live-news/20260603-ukraine-drones-hit-saint-petersburg-as-flagship-economic-forum-opens) · [BBC Rosenberg Jun 7](https://www.bbc.com/news/articles/c9q2gp52rgro) |
+| **J23-37** | **Starobelsk 21 killed** (Ritter: “slaughter of 21 teenagers”) | Russia / Ukraine | en | **Contested** | [Wikipedia / EMERCOM](https://en.wikipedia.org/wiki/2026_Starobilsk_strike) — 21 dead ages 18–22 · [Kyiv Independent](https://kyivindependent.com/what-we-know-about-starobilsk-strike-russia-turned-into-propaganda-flashpoint/) — military-target framing |
+| **J23-38** | **MoU no-threat / no-use-of-force** during negotiations vs **Trump post-sign threats** (“bomb into dirt,” resume bombing) | America / Persia | en | **Contested** | MOU text [BBC Pt 1](https://www.bbc.co.uk/news/articles/c4gy700j0eko) · [Time Jun 17](https://time.com/article/2026/06/17/trump-iran-peace-agreement-terms-lebanon-bombing-threat/) · [Swissinfo Baghaei violation](https://www.swissinfo.ch/eng/swiss-diplomacy/swiss-hosted-middle-east-peace-talks-hang-by-thread/91621889) · `verify:executive-investigative-split` |
+| **J23-39** | Trump **negotiator threat** — “won’t even make it back” (21 Jun, Hormuz/Lebanon context) | America | en | **Supported** | [Islamabad Memorandum chronology](https://en.wikipedia.org/wiki/Islamabad_Memorandum) · [The Hill Jun 23](https://thehill.com/homenews/senate/5936650-iran-war-powers-senate/) |
+| **J23-40** | **Lavrov:** US **“agreement incapable”** on MoU execution (Ritter attribution) | Russia | en | **Unclear** | Thematic: [Straits Times Lavrov Jun 23](https://www.straitstimes.com/world/europe/russia-says-us-hasnt-followed-through-on-trump-putin-understandings) — **exact English MoU phrase not located** |
+| **J23-41** | **AGM-188** prototypes not scheduled before **Oct 2026** (Ritter vs Storm Shadow identification) | America | en | **Unclear** | not corroborated in batch pass — escalate defense procurement primary |
+
+### Ritter Europe-collapse fork (J23-32 × J23-33 × tier-4)
+
+| Layer | Hooks | Synthesis rule |
+| --- | --- | --- |
+| **Starmer resignation** | J23-32 | **Partial** — political crisis **supported**; “out of office” **overstates** Jun 23 status |
+| **Merz gone** | J23-33 | **Contradicted** — cite unpopularity separately (tier 4) without wire “gone” |
+| **Macron dead / Europe dissolving** | — | **tier 4** — not matrix rows |
+
+### MoU compliance duel (Ritter × core matrix)
+
+```
+J23-8 Supported (Geneva round underway)
+  → J23-38 Contested (text no-threat vs executive threats)
+  → J23-39 Supported (negotiator threat line)
+  → J23-40 Unclear (Lavrov “agreement incapable” gloss)
+```
+
+**Synthesis guardrail:** Ritter **Versailles / 60-day / enrichment** claims route to **J23-1–J23-9** — do not mint parallel MOU IDs.
+
 ## CIV-STATE mesh
 
-**America:** Geneva round **supported**; IAEA **executive vs Persia denial contested**; deconfliction cell **supported**; Hormuz **partial**; G7/Patriot hooks **supported/partial**; CBS war-end **supported**.
+**America:** Geneva round **supported**; IAEA **executive vs Persia denial contested**; deconfliction cell **supported**; Hormuz **partial**; G7/Patriot hooks **supported/partial**; CBS war-end **supported**; **Senate H.Con.Res. 86 partial** (**J23-31**); **MoU compliance contested** (**J23-38/39**).
 
-**Persia:** Baghaei denial **supported**; Oman Hormuz mechanism **supported**; MOU talks **supported**; Hormuz traffic **partial**.
+**Persia:** Baghaei denial **supported**; Oman Hormuz mechanism **supported**; MOU talks **supported**; Hormuz traffic **partial**; **US violation framing** on Lebanon/Hormuz (**J23-38** mesh).
 
 **PRC:** Xinhua Oman–Iran stmt **supported**; Dalio Asia desk **absent** on Jun 23 pull.
 
-**Russia:** GL 134C lapse **supported**; IEA/Crimea/Kapotnya **supported** on Ukraine sub-hook.
+**Russia:** GL 134C lapse **supported**; IEA/Crimea/Kapotnya **supported** on Ukraine sub-hook; **Peskov Storm Shadow accusation contested** (**J23-35**); **Lavrov US-unreliable thematic** (**J23-40 unclear** on exact MoU phrase).
 
 **Rome:** absent Jun 23 MOU enforcement line.
 
-**Mesh:** **Supported** on MOU occurrence · Oman mechanism · Aoun line · ridge **two killed** · waiver lapse · G7 rhetoric · IEA/Crimea/Kapotnya events · CBS 78% · **Partial** on Hormuz normalization · ceasefire hold · Netanyahu restrictions · Patriot absolute zero · **Contested** on IAEA composite · ridge attribution · Trump 19M bbl · interceptor causation.
+**Mesh:** **Supported** on MOU occurrence · Oman mechanism · Aoun line · ridge **two killed** · waiver lapse · G7 rhetoric · IEA/Crimea/Kapotnya events · CBS 78% · **Brakestop desk** (**J23-34**) · **SPIEF strike** (**J23-36**) · **negotiator threat** (**J23-39**) · **Partial** on Hormuz normalization · ceasefire hold · Netanyahu restrictions · Patriot absolute zero · **Senate war-powers** (**J23-31**) · **Starmer partial** (**J23-32**) · **Contested** on IAEA composite · ridge attribution · Trump 19M bbl · interceptor causation · **Storm Shadow UK role** (**J23-35**) · **Starobelsk count/targeting** (**J23-37**) · **MoU no-threat compliance** (**J23-38**) · **Contradicted** on **Merz gone** (**J23-33**) · **Unclear** on **Lavrov phrase** (**J23-40**) · **AGM-188 schedule** (**J23-41**).
 
 ## Interpretation fence (tier 4 — not wire-scored)
 
-Mercouris **West war trajectory** · Helmer **Vance credibility** · Henningsen **restraint test** · Freeman **Trump trust** · Mearsheimer **decline / Iran spoils / nuclear ladder** · Macgregor **removal pressure** · Hoh **empire recruitment** — synthesis lenses only.
+Mercouris **West war trajectory** · Helmer **Vance credibility** · Henningsen **restraint test** · Freeman **Trump trust** · Mearsheimer **decline / Iran spoils / nuclear ladder** · Macgregor **removal pressure** · Hoh **empire recruitment** · **Ritter** Russia-winning / Donbas summer fall / Europe rabid-dog / Israel parasite-host / Schmidt–Musk terrorism culpability / Putin pragmatic escalation trap — synthesis lenses only.
 
 ## Capture receipt map
 
@@ -140,14 +178,17 @@ Mercouris **West war trajectory** · Helmer **Vance credibility** · Henningsen 
 | Henningsen `XnjPtNVbaAQ` | Yes (`verify_receipt_deep`) | J23-8 · J23-15–J23-18 · J23-20 |
 | Hoh `J-PWkY08P84` | Yes | J23-21 · J23-22 |
 | Mearsheimer Ukraine `Q-AiLUd4E8Q` | Yes | J23-23–J23-30 |
+| Ritter `UICIxIPb9iI` | No (matrix SSOT) | J23-31–J23-41 |
 | Freeman · Mearsheimer (JF + BP Iran) · Mercouris · Macgregor | No | tier-4 / mesh only |
 
 ## Escalate
 
-- **`fa` MFA/IRNA** primary on **J23-3** / **J23-6**
+- **`fa` MFA/IRNA** primary on **J23-3** / **J23-6** / **J23-38**
 - **IAEA DG** statement on bombed-site protocol vs **J23-4**
 - **CENTCOM / Lloyd's** Hormuz traffic bulletin — upgrade **J23-11** vs **J23-12**
 - **IDF Spokesperson Hebrew** on Nabatieh — **J23-16**
+- **UK MoD 3a** on Storm Shadow custody vs Kremlin — **J23-35**
+- **Defense procurement primary** on **AGM-188** delivery schedule — **J23-41**
 
 ## Synthesis guardrails (load-bearing)
 
@@ -156,3 +197,4 @@ Mercouris **West war trajectory** · Helmer **Vance credibility** · Henningsen 
 - Lebanon ridge: deaths **supported** (**J23-15**); civilian vs militant **contested** (**J23-16**).
 - Hoh: **CBS 78%** + **Pew 60%** separately (**J23-21/22**).
 - Ukraine: **IEA 10% below May target** (**J23-25**); tank lid **supported** (**J23-27**); interceptor causation **contested** (**J23-28**).
+- **Ritter:** **Starmer partial** (**J23-32**) not “PM gone”; **Merz contradicted** (**J23-33**); **Brakestop supported** (**J23-34**); route MoU structure to **J23-1–J23-9** not duplicate; **J23-38 contested** compliance — do not upgrade to supported in Judgment.
