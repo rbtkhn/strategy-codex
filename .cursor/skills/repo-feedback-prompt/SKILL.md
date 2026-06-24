@@ -4,7 +4,7 @@ description: Compose short, constructive prompts (issues/DMs) for maintainers of
 preferred_activation: repo feedback prompt
 activation: repo feedback prompt
 portable: true
-version: 1.1.0
+version: 1.1.1
 category: operator-coherence
 status: active
 scope_class: repo-governed
@@ -87,6 +87,37 @@ Subject: <repo or feature> — <one-line theme: doc suggestion / security framin
 |---------|------|
 | **Maintainer DM** | 3–5 sentences; single highest-leverage gap only. |
 | **Verification appendix** | For your own notes: files read, URLs — **omit** from the outbound message unless the maintainer likes receipts. |
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- identify whether feedback is about repo structure, skill behavior, source workflow, operator cadence, or product direction
+- state whether the feedback creates a candidate, draft, issue, runbook edit, or no action
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** repo-feedback-prompt is complete only when feedback is classified and the next surface is named.
+
+**Avoid:** Do not turn feedback capture into automatic implementation.
 
 
 ## Cursor / strategy-codex instance

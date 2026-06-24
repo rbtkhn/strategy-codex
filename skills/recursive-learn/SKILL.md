@@ -4,7 +4,7 @@ description: "Governed session review and journal entry for reusable machine law
 preferred_activation: recursive learn
 activation: recursive learn
 portable: true
-version: 0.2.5
+version: 0.2.6
 category: operator-coherence
 status: active
 scope_class: repo-governed
@@ -326,3 +326,34 @@ recursive learning ≠ template repetition
 - **Entry:** dated block in journal; no silent duplicate.
 - **Checkpoint:** law + guardrail stated; full entry deferred.
 - **Promotion review:** explicit output (`append` | `defer` | `promote` | `wire`).
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- name the concrete incident, failed pattern, or repeated friction that justifies the learning
+- state whether the output is a candidate, doctrine patch, runbook edit, validator change, or no-change lesson
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** recursive-learn is complete only when the lesson is tied to a specific observed pattern and the proposed change has an explicit surface.
+
+**Avoid:** Do not generalize from one incident into global doctrine unless recurrence or severity is named.

@@ -4,7 +4,7 @@ description: Build, mirror, audit, or backfill repo-root statecraft state-memory
 preferred_activation: memory
 activation: memory
 portable: true
-version: 0.1.1
+version: 0.1.2
 category: operator-coherence
 status: active
 scope_class: repo-governed
@@ -458,3 +458,34 @@ When answering without file edits, provide a compact architecture recommendation
 - carrier files moved or linked, if relevant;
 - stale links checked;
 - validation result.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- confirm whether the memory action is read-only, update, compression, or continuity handoff
+- distinguish MEMORY / continuity from Record truth
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** memory is complete only when the continuity source and any changed memory surface are named, and the closeout does not imply Record authority.
+
+**Avoid:** Do not let memory updates silently become SELF, EVIDENCE, or canonical Record changes.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T00:19:55.959889+00:00",
+  "generated_at": "2026-06-24T00:24:59.080975+00:00",
   "row_count": 114,
   "skills": [
     {
@@ -656,7 +656,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "memory",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -922,7 +922,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "recursive learn",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -936,7 +936,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "repo feedback prompt",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -950,7 +950,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "hygiene pass",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },

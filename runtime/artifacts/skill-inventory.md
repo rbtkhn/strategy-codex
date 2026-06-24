@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T00:19:55Z`
+Generated: `2026-06-24T00:24:59Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -54,7 +54,7 @@ Total rows: **114**
 | lane-survey | cursor-only | False | .cursor/skills/lane-survey/SKILL.md |  | domain-pack | active |  | survey | missing | 2026-06-23 | Review: likely runbook or archived |
 | last30days | both | True | .cursor/skills/last30days/SKILL.md | last30days/SKILL.md | judgment-enhancement | active |  | last30days | missing | 2026-06-23 |  |
 | marandi-state-extraction | draft | False |  |  | domain-pack | draft |  | marandi-state | n/a | 2026-06-23 |  |
-| memory | both | True | .cursor/skills/memory/SKILL.md | memory/SKILL.md | operator-coherence | active |  | memory | missing | 2026-06-23 |  |
+| memory | both | True | .cursor/skills/memory/SKILL.md | memory/SKILL.md | operator-coherence | active |  | memory | present | 2026-06-23 |  |
 | mercouris-daily-continuity-extraction | draft | False |  |  | domain-pack | draft |  | mercouris-continuity | n/a | 2026-06-23 |  |
 | monthly-deepening | both | True | .cursor/skills/monthly-deepening/SKILL.md | monthly-deepening/SKILL.md | judgment-enhancement | active |  |  | missing | 2026-06-23 |  |
 | mtp | both | True | .cursor/skills/mtp/SKILL.md | mtp/SKILL.md | legacy-redirect | redirect | product-strategy | mtp | missing | 2026-06-23 |  |
@@ -73,9 +73,9 @@ Total rows: **114**
 | printing-press-scrape-creators | draft | False |  |  | domain-pack | draft |  |  | n/a | 2026-06-23 |  |
 | product-strategy | both | True | .cursor/skills/product-strategy/SKILL.md | product-strategy/SKILL.md | product-narrative | active |  | product strategy | present | 2026-06-23 |  |
 | pros-and-cons | cursor-only | False | .cursor/skills/pros-and-cons/SKILL.md |  | domain-pack | active |  | unpack | missing | 2026-06-23 | Review: likely runbook or archived |
-| recursive-learn | both | True | .cursor/skills/recursive-learn/SKILL.md | recursive-learn/SKILL.md | operator-coherence | active |  | recursive learn | missing | 2026-06-23 |  |
-| repo-feedback-prompt | both | True | .cursor/skills/repo-feedback-prompt/SKILL.md | repo-feedback-prompt/SKILL.md | operator-coherence | active |  | repo feedback prompt | missing | 2026-06-23 |  |
-| repo-hygiene-pass | both | True | .cursor/skills/repo-hygiene-pass/SKILL.md | repo-hygiene-pass/SKILL.md | operator-coherence | active |  | hygiene pass | missing | 2026-06-23 |  |
+| recursive-learn | both | True | .cursor/skills/recursive-learn/SKILL.md | recursive-learn/SKILL.md | operator-coherence | active |  | recursive learn | present | 2026-06-23 |  |
+| repo-feedback-prompt | both | True | .cursor/skills/repo-feedback-prompt/SKILL.md | repo-feedback-prompt/SKILL.md | operator-coherence | active |  | repo feedback prompt | present | 2026-06-23 |  |
+| repo-hygiene-pass | both | True | .cursor/skills/repo-hygiene-pass/SKILL.md | repo-hygiene-pass/SKILL.md | operator-coherence | active |  | hygiene pass | present | 2026-06-23 |  |
 | ritter-warning-extraction | draft | False |  |  | domain-pack | draft |  | ritter-warning | n/a | 2026-06-23 |  |
 | russia-art | cursor-only | False | .cursor/skills/russia-art/SKILL.md |  | domain-pack | active |  | russia-art | missing | 2026-06-23 |  |
 | russia-god | cursor-only | False | .cursor/skills/russia-god/SKILL.md |  | domain-pack | active |  | russia-god | missing | 2026-06-23 |  |

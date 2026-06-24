@@ -4,7 +4,7 @@ description: "Run a commit-grouping hygiene pass: split changes by intent, stage
 preferred_activation: hygiene pass
 activation: hygiene pass
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: operator-coherence
 status: active
 scope_class: repo-governed
@@ -77,3 +77,35 @@ Use when a grouped commit needs correction without history rewrite:
 - Local Git writes are fine in this repo (`git add`, `git commit`, `git switch`, `git branch`); keep `git push` manual and separately approved.
 - Keep generated churn in separate commits from logic/docs changes.
 - If uncertain whether a file is scratch or real, ask before excluding.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input context or trigger is named
+- the output surface, if any, is named
+- the action is classified as read-only, staged, generated, committed, or advisory
+- skipped steps are explicitly marked with a reason
+- uncertainty, stale context, or unresolved follow-up is stated
+- name the hygiene scope before acting
+- list files changed and files intentionally left untouched
+- state whether validation was run
+
+Evidence to report:
+
+- files read
+- files touched or produced
+- scripts or commands run
+- generated artifacts, receipts, or handoff packets created
+- operator approval points, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- stop before merge, commit, push, publication, or Record-facing change
+- return a bounded partial result for operator review
+
+**Completion standard:** repo-hygiene-pass is complete only when the cleanup scope is bounded, touched files are named, and validation or skipped validation is reported.
+
+**Avoid:** Do not widen hygiene into feature work, doctrine rewrite, or unrelated refactor.
