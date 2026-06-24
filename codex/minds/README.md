@@ -17,7 +17,7 @@ Optional upstream (diff / governance-only; if civ-mem present): `docs/templates/
 
 **CIV-MEM (upstream repo) × mind grounding (legacy tri-frame table):** [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md) — **deprecated** as tri-frame choreography; column hints still apply per mind. **Search / index:** [CIV-MEM-UPSTREAM-SEARCH.md](../../minds/CIV-MEM-UPSTREAM-SEARCH.md).
 
-**Tri-mind:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Prefer **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)**.
+**Tri-mind:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Prefer **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md)**.
 
 **Recipes and post-entry lens offer:** [MINDS-SKILL-STRATEGY-PATTERNS.md](../../minds/MINDS-SKILL-STRATEGY-PATTERNS.md)
 

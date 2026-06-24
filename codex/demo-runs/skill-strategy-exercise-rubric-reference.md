@@ -1,7 +1,7 @@
 # skill-strategy exercise series — extended rubric reference
 <!-- word_count: 490 -->
 
-> **Legacy rubric.** **Tri-frame** criteria (row **TF**) apply only when replaying **2026-04** demo/exercise prompts. New lens work → [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · **`statecraft-multi-lens`**.
+> **Legacy rubric.** **Tri-frame** criteria (row **TF**) apply only when replaying **2026-04** demo/exercise prompts. New lens work → [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · **`state-synthesis`** / **`periodic-statecraft-review`** runbook.
 
 **Use:** Score each run (demo, exercise, or combined session). Pair with [`skill-strategy-exercise-log.md`](skill-strategy-exercise-log.md) and [`EXERCISE-PROMPTS.md`](EXERCISE-PROMPTS.md).
 

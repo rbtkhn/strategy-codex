@@ -11,7 +11,7 @@ When the operator or task calls for a **named speaker lens** (Mercouris, Mearshe
 
 **Voices supersede minds:** [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). **`strategy-expert-*-mind.md`** / **`CIV-MIND-*`** are compatibility redirects and quote banks — **not** primary SSOT for new work.
 
-**`tri-mind` / `tri-frame` choreography is deprecated** — see [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Multi-lens → [`statecraft-multi-lens`](../../.cursor/skills/statecraft-multi-lens/SKILL.md).
+**`tri-mind` / `tri-frame` choreography is deprecated** — see [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Structured comparison → **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md)** (`statecraft-multi-lens` archived).
 
 **Default:** There is **no** opt-out from authentic voice for named-speaker blocks. Rubrics or diff tables go **after** in-voice material — **never** as a replacement.
 
@@ -39,7 +39,7 @@ Index: [`statecraft/voices/README.md`](../../statecraft/voices/README.md) · com
 2. **Mercouris:** layered, institutional / civilizational framing, recursive qualification — **flat / unhurried**.
 3. **Mearsheimer:** structural / incentive spine; **is–isn't** and **numbered** clarity; minimal moralizing.
 4. **Barnes:** **liability, jurisdiction, who pays**; sardonic, sequential constraint-mapping — in-voice Barnes, not meta “Barnes angle.”
-5. **Single-lens only** in new sessions unless **statecraft-multi-lens** presets request comparison.
+5. **Single-lens only** in new sessions unless the operator explicitly requests structured comparison (`state-synthesis`, `primary-overhearing-analysis`, or **`periodic-statecraft-review`** runbook).
 
 ## Do not
 
