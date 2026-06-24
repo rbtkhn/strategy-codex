@@ -4,7 +4,7 @@ description: Recover lecture ingest when channel-wide transcript fetch hits rate
 preferred_activation: jiang ingest fallback
 activation: jiang ingest fallback
 portable: true
-version: 0.1.0
+version: 0.2.0
 category: domain-pack
 status: active
 scope_class: repo-governed
@@ -78,3 +78,27 @@ python3 scripts/work_jiang/validate_work_jiang.py --require-analysis-frontmatter
 python3 scripts/work_jiang/validate_argument_layer.py
 python3 scripts/work_jiang/validate_comparative_layer.py
 ```
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- rate-limit or channel-fetch failure is stated as the trigger
+- **series**, **episode**, and **video_id** (or equivalent metadata) are named
+- intake transcript path and one-row **index override** path are named
+- `ingest_lecture.py` command (with `--file`, `--index`, flags) is reported with **target lecture path** printed by the script
+- post-ingest validators were run and **exit codes** reported (or skipped with reason)
+- changed files are classified: core lecture artifacts vs temporary fallback scaffolding
+- keep/drop recommendation for the temporary index override is stated
+
+Evidence to report:
+
+- commands run (ingest + validators)
+- lecture file path produced
+- validator stdout summary or top errors if fail
+
+If verification cannot be completed:
+
+- state whether ingest or validation failed
+- do not treat fallback index as canonical registry
+- do not commit unrelated WIP with ingest slice

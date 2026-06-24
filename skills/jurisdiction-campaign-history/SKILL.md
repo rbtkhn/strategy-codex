@@ -4,7 +4,7 @@ description: "WORK-politics: derive campaign framing from jurisdictional history
 preferred_activation: jurisdiction history
 activation: jurisdiction history
 portable: true
-version: 1.0.0
+version: 1.1.0
 category: domain-pack
 status: active
 scope_class: repo-governed
@@ -71,6 +71,30 @@ Map paths in the **Cursor appendix** for this repository (default Kentucky work-
 ## Verify next (if any)
 ## Optional — Handoff notes for politics-massie
 ```
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- **office** mode is named (`house` | `senate` | `governor` | `stack`)
+- chronology file path(s) read are listed with sections used
+- output uses the **verbatim headings** from the template (snapshot through boundaries)
+- each campaign insight row includes **source (doc section or VERIFY)**
+- **stack** mode includes **Jurisdiction** on every insight row
+- any publishable hook line is marked **`DRAFT — NOT POSTED`**
+- **Do not say** boundaries are present
+
+Evidence to report:
+
+- chronology markdown paths and section anchors
+- VERIFY items queued in **Verify next**
+- optional politics-massie handoff block when operator requested posts
+
+If verification cannot be completed:
+
+- state which chronology file or section was missing
+- label speculative rows **VERIFY**; do not present as documented fact
+- stop before public copy or massie handoff without operator scope
 
 ## Related portable skills
 

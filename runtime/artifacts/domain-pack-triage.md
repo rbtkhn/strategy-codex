@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T01:05:50Z`
+Generated: `2026-06-24T01:06:58Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:05:40Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:06:58Z`)
 
 Regenerate:
 
@@ -17,7 +17,7 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 - **Total domain-pack rows:** 51
 - **By disposition:** ARCHIVE: 11 | CONVERT_TO_RUNBOOK: 2 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 26
-- **Active + proof_standard missing:** 22 (target after full pass: 0–3)
+- **Active + proof_standard missing:** 19 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -33,9 +33,9 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| jurisdiction-campaign-history | both | True | False | active | missing | jurisdiction history | KEEP_ACTIVE |  | work-politics campaign history primitive | medium |
-| politics-massie | both | True | False | active | missing | massie x | KEEP_ACTIVE |  | Standing work-politics domain skill; practical output | low |
-| work-jiang-ingest-fallback | both | True | False | active | missing | jiang ingest fallback | KEEP_ACTIVE |  | Narrow ingest fallback; keep if still invoked | medium |
+| jurisdiction-campaign-history | both | True | False | active | present | jurisdiction history | KEEP_ACTIVE |  | work-politics campaign history primitive; proof standard present (Commit 3) | low |
+| politics-massie | both | True | False | active | present | massie x | KEEP_ACTIVE |  | Standing work-politics domain skill; proof standard present (Commit 3) | low |
+| work-jiang-ingest-fallback | both | True | False | active | present | jiang ingest fallback | KEEP_ACTIVE |  | Narrow ingest fallback; proof standard present (Commit 3) | low |
 
 ## State-lane openers
 

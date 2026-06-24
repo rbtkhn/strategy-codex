@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T01:05:40.793032+00:00",
+  "generated_at": "2026-06-24T01:06:58.794620+00:00",
   "row_count": 114,
   "skills": [
     {
@@ -600,7 +600,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "jurisdiction history",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -824,7 +824,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "massie x",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1580,7 +1580,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "jiang ingest fallback",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },

@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T01:05:40Z`
+Generated: `2026-06-24T01:06:58Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -50,7 +50,7 @@ Total rows: **114**
 | ideation-engine | both | True | .cursor/skills/ideation-engine/SKILL.md | ideation-engine/SKILL.md | legacy-redirect | redirect | product-strategy | ideation engine | missing | 2026-06-23 |  |
 | iran-art | cursor-only | False | .cursor/skills/iran-art/SKILL.md |  | domain-pack | archived |  | iran-art | missing | 2026-06-23 |  |
 | iran-lit | cursor-only | False | .cursor/skills/iran-lit/SKILL.md |  | domain-pack | archived |  | iran-lit | missing | 2026-06-23 |  |
-| jurisdiction-campaign-history | both | True | .cursor/skills/jurisdiction-campaign-history/SKILL.md | jurisdiction-campaign-history/SKILL.md | domain-pack | active |  | jurisdiction history | missing | 2026-06-23 |  |
+| jurisdiction-campaign-history | both | True | .cursor/skills/jurisdiction-campaign-history/SKILL.md | jurisdiction-campaign-history/SKILL.md | domain-pack | active |  | jurisdiction history | present | 2026-06-23 |  |
 | lane-survey | cursor-only | False | .cursor/skills/lane-survey/SKILL.md |  | legacy-redirect | deprecated | domain-lane-survey | survey | missing | 2026-06-23 | Review: likely runbook or archived |
 | last30days | both | True | .cursor/skills/last30days/SKILL.md | last30days/SKILL.md | legacy-redirect | deprecated | periodic-statecraft-review | last30days | missing | 2026-06-23 |  |
 | marandi-state-extraction | draft | False |  |  | domain-pack | draft |  | marandi-state | n/a | 2026-06-23 |  |
@@ -66,7 +66,7 @@ Total rows: **114**
 | ph-civ-comment-proof-objects | cursor-only | False | .cursor/skills/ph-civ-comment-proof-objects/SKILL.md |  | product-narrative | active |  |  | missing | 2026-06-23 |  |
 | ph-civ-orientation-harden | cursor-only | False | .cursor/skills/ph-civ-orientation-harden/SKILL.md |  | product-narrative | active |  |  | missing | 2026-06-23 |  |
 | ph-civ-to-civ-state-promoter | cursor-only | False | .cursor/skills/ph-civ-to-civ-state-promoter/SKILL.md |  | product-narrative | active |  | ph-civ-to-civ-state-promoter | missing | 2026-06-23 |  |
-| politics-massie | both | True | .cursor/skills/politics-massie/SKILL.md | politics-massie/SKILL.md | domain-pack | active |  | massie x | missing | 2026-06-23 |  |
+| politics-massie | both | True | .cursor/skills/politics-massie/SKILL.md | politics-massie/SKILL.md | domain-pack | active |  | massie x | present | 2026-06-23 |  |
 | portable-skills-sync | both | True | .cursor/skills/portable-skills-sync/SKILL.md | portable-skills-sync/SKILL.md | operator-coherence | active |  | sync skills | present | 2026-06-23 |  |
 | predictive-history-chapter-spine | cursor-only | False | .cursor/skills/predictive-history-chapter-spine/SKILL.md |  | product-narrative | active |  |  | missing | 2026-06-23 |  |
 | primary-overhearing-analysis | both | True | .cursor/skills/primary-overhearing-analysis/SKILL.md | primary-overhearing-analysis/SKILL.md | judgment-enhancement | active |  | primary overhearing | present | 2026-06-23 |  |
@@ -120,5 +120,5 @@ Total rows: **114**
 | weekly-brief-run | cursor-only | False | .cursor/skills/weekly-brief-run/SKILL.md |  | domain-pack | active |  | weekly brief | missing | 2026-06-23 |  |
 | wire-verify | both | True | .cursor/skills/wire-verify/SKILL.md | wire-verify/SKILL.md | legacy-redirect | redirect | news-verify |  | missing | 2026-06-23 |  |
 | work-jiang-feature-checklist | cursor-only | False | .cursor/skills/work-jiang-feature-checklist/SKILL.md |  | domain-pack | active |  | jiang check | missing | 2026-06-23 |  |
-| work-jiang-ingest-fallback | both | True | .cursor/skills/work-jiang-ingest-fallback/SKILL.md | work-jiang-ingest-fallback/SKILL.md | domain-pack | active |  | jiang ingest fallback | missing | 2026-06-23 |  |
+| work-jiang-ingest-fallback | both | True | .cursor/skills/work-jiang-ingest-fallback/SKILL.md | work-jiang-ingest-fallback/SKILL.md | domain-pack | active |  | jiang ingest fallback | present | 2026-06-23 |  |
 | youtube-raw-input-transcript | both | True | .cursor/skills/youtube-raw-input-transcript/SKILL.md | youtube-raw-input-transcript/SKILL.md | truth-pipeline | active |  | youtube transcript | present | 2026-06-23 |  |

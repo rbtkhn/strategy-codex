@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T01:05:50.902752+00:00",
-  "inventory_generated_at": "2026-06-24T01:05:40.793032+00:00",
+  "generated_at": "2026-06-24T01:06:58.897367+00:00",
+  "inventory_generated_at": "2026-06-24T01:06:58.794620+00:00",
   "dispositions_source": "scripts/domain_pack_dispositions.yaml",
   "summary": {
     "total_domain_pack_rows": 51,
@@ -12,7 +12,7 @@
       "REDIRECT": 1,
       "REVIEW_WITH_OPERATOR": 26
     },
-    "active_proof_missing": 22
+    "active_proof_missing": 19
   },
   "missing_yaml_entries": [],
   "skills": [
@@ -78,14 +78,14 @@
       "skill_path": ".cursor/skills/jurisdiction-campaign-history/SKILL.md",
       "category": "domain-pack",
       "status": "active",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "current_trigger": "jurisdiction history",
       "inventory_notes": "",
       "proposed_disposition": "KEEP_ACTIVE",
-      "post_disposition": "ADD_PROOF_STANDARD",
+      "post_disposition": "",
       "replacement_or_runbook": "",
-      "reason": "work-politics campaign history primitive",
-      "risk": "medium",
+      "reason": "work-politics campaign history primitive; proof standard present (Commit 3)",
+      "risk": "low",
       "cluster": "portable-domain"
     },
     {
@@ -96,13 +96,13 @@
       "skill_path": ".cursor/skills/politics-massie/SKILL.md",
       "category": "domain-pack",
       "status": "active",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "current_trigger": "massie x",
       "inventory_notes": "",
       "proposed_disposition": "KEEP_ACTIVE",
-      "post_disposition": "ADD_PROOF_STANDARD",
+      "post_disposition": "",
       "replacement_or_runbook": "",
-      "reason": "Standing work-politics domain skill; practical output",
+      "reason": "Standing work-politics domain skill; proof standard present (Commit 3)",
       "risk": "low",
       "cluster": "portable-domain"
     },
@@ -114,14 +114,14 @@
       "skill_path": ".cursor/skills/work-jiang-ingest-fallback/SKILL.md",
       "category": "domain-pack",
       "status": "active",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "current_trigger": "jiang ingest fallback",
       "inventory_notes": "",
       "proposed_disposition": "KEEP_ACTIVE",
-      "post_disposition": "ADD_PROOF_STANDARD",
+      "post_disposition": "",
       "replacement_or_runbook": "",
-      "reason": "Narrow ingest fallback; keep if still invoked",
-      "risk": "medium",
+      "reason": "Narrow ingest fallback; proof standard present (Commit 3)",
+      "risk": "low",
       "cluster": "portable-domain"
     },
     {

@@ -34,26 +34,23 @@ skills:
   # --- Portable domain (manifest-listed) ---
   politics-massie:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: Standing work-politics domain skill; practical output
+    reason: Standing work-politics domain skill; proof standard present (Commit 3)
     risk: low
     cluster: portable-domain
 
   jurisdiction-campaign-history:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: work-politics campaign history primitive
-    risk: medium
+    reason: work-politics campaign history primitive; proof standard present (Commit 3)
+    risk: low
     cluster: portable-domain
 
   work-jiang-ingest-fallback:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: Narrow ingest fallback; keep if still invoked
-    risk: medium
+    reason: Narrow ingest fallback; proof standard present (Commit 3)
+    risk: low
     cluster: portable-domain
 
   # --- State-lane openers (cursor-only) ---

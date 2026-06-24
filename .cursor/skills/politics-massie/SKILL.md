@@ -4,7 +4,7 @@ description: 'Draft-only X copy for @usa_first_ky (unofficial KY-4 analysis): re
 preferred_activation: massie x
 activation: massie x
 portable: true
-version: 1.1.0
+version: 1.2.0
 category: domain-pack
 status: active
 scope_class: repo-governed
@@ -127,6 +127,30 @@ For each idea:
 ## When search is thin
 
 Say so plainly. Offer: (1) broaden query, (2) pivot to evergreen wedge from your asymmetry doc with a fresh headline from search, or (3) wait for next news cycle.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- search queries used and **as-of date** are named
+- news brief bullets each carry **outlet + date + URL**
+- every suggested post block is labeled **`DRAFT — NOT POSTED — @usa_first_ky`**
+- each tweet variant lists **Sources** URLs the copy depends on
+- **Skip / monitor** items are separated from post-ready drafts
+- doctrine / account checklist pass is applied or explicitly skipped with reason
+- **no autonomous posting** is implied or performed
+
+Evidence to report:
+
+- search queries and result URLs cited
+- account checklist or profile docs consulted
+- risk notes on stale, single-source, or quote-check items
+
+If verification cannot be completed:
+
+- state that search was thin or sources missing
+- do not fabricate hooks; offer broaden / wait / context-only paths
+- stop before any publish or queue commit
 
 ---
 
