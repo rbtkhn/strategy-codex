@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Wire Verify Matrix — 2026-06-23
 
-**Parent daily:** [2026-06-23](statecraft/synthesis/day/2026-06-23.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-23/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-wire-verify-matrix.md) · [2026-06-22 daily](../synthesis/day/2026-06-22.md) (no Jun 22 matrix — carry J20 where noted) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
+**Parent daily:** [2026-06-23](statecraft/synthesis/day/2026-06-23.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-23/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-wire-verify-matrix.md) · [2026-06-22 wire matrix](2026-06-22-wire-verify-matrix.md) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
 **Mode:** batch (10 ingests, MOU **implementation** seam — IAEA duel · Hormuz partial · Lebanon ridge) · **Hooks:** 30 (core 20 + Hoh 2 + Ukraine 8) · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 5/10 (`verify:` Dialogue Works trio + Hoh polls + Ukraine sub-hook · `verify_receipt_deep` on Dialogue Works trio · `verify_receipt: 2026-06-24` on all five)
 
