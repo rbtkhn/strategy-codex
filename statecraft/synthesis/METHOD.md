@@ -35,6 +35,10 @@ Same path family: `statecraft/synthesis/day/YYYY-MM-DD.md`. Two explicit tiers:
 
 **Upgrade verb:** *expand register to synthesis* (same file path, richer shape).
 
+### News-verify ↔ synthesis gate
+
+Full daily synthesis on day **D** requires `statecraft/notes/wire/D-wire-verify-matrix.md` or `verify_gate: waived` in the daily header. The matrix is the **daily tier-3 fact ledger**; synthesis cites **J{D}-*** hooks and does not upgrade verdicts. Register-tier dailies may link matrix as **OPEN** or carry a prior-day matrix with explicit stale note. SSOT: [NEWS-VERIFY-SYNTHESIS-GATE.md](NEWS-VERIFY-SYNTHESIS-GATE.md).
+
 **Intake digest (precursor):** An [intake digest](intake-digest-TEMPLATE.md) ranks queue-eligible sources before the daily note exists. It is **not** a substitute for daily synthesis — use [statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md) and `statecraft_intake_queue.py --write-digest`.
 
 ### Monthly note

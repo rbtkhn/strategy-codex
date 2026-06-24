@@ -94,6 +94,12 @@ Doctrine: [statecraft/synthesis/METHOD.md § Daily register vs daily synthesis](
 
 ## Workflow
 
+0. **News-verify gate (when load-bearing)**
+   - Before **full** synthesis on same-week / MOU-war batches: open `statecraft/notes/wire/YYYY-MM-DD-wire-verify-matrix.md` or confirm `verify_gate: waived` in the daily header.
+   - If matrix is **absent** and gate applies: stop at **register-only** (`verify_matrix: OPEN`) or run **`news verify`** batch Ship first.
+   - Cite **`J{D}-*`** in Judgment / falsifiers; do not upgrade matrix verdicts without a new verify pass.
+   - SSOT: [NEWS-VERIFY-SYNTHESIS-GATE.md](../../statecraft/synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md).
+
 1. **Open the landed day archive**
    - Start from the touched day `README.md`.
    - Confirm the batch is materially real and source-bearing.

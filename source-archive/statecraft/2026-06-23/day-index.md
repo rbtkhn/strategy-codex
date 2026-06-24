@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `0`
-- Channel sources: `0`
+- Source files: `10`
+- Channel sources: `10`
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: (none)
-- Source form mix: (none)
-- Distinct channels/shows: `0`
-- Distinct hosts: `0`
-- Distinct guests: `0`
-- Distinct threads: `0`
+- Body kind mix: `transcript` (10)
+- Source form mix: `interview` (9), `solo` (1)
+- Distinct channels/shows: `5`
+- Distinct hosts: `3`
+- Distinct guests: `7`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Dialogue Works` (3), `Judging Freedom` (3), `Breaking Points` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: (none)
-- Guests: (none)
-- Threads: (none)
+- Hosts: `Breaking Points` (2), `Daniel Davis` (1), `Nima Alkhorshid` (1)
+- Guests: `John Mearsheimer` (3), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Seyed M. Marandi` (1)
+- Threads: `mearsheimer` (3), `napolitano` (3), `nima` (3), `breaking-points` (2), `davis` (1), `freeman` (1), `hoh` (1), `macgregor` (1), `marandi` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -32,7 +32,16 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| _none_ | — | — | — | — |
+| `dialogue-works` | Dialogue Works | `nima` | [PCxAw-E310U](https://www.youtube.com/watch?v=PCxAw-E310U) | `source-alkorshid-helmer-vance-lebanon-mou-hormuz-putin-ukraine-2026-06-23.md` |
+| `dialogue-works` | Dialogue Works | `nima` | [XnjPtNVbaAQ](https://www.youtube.com/watch?v=XnjPtNVbaAQ) | `source-alkorshid-henningsen-israels-losses-lebanon-hezbollah-iran-geneva-talks-2026-06-23.md` |
+| `dialogue-works` | Dialogue Works | `nima`, `marandi` | [ZpDiFvNs1PY](https://www.youtube.com/watch?v=ZpDiFvNs1PY) | `source-alkorshid-marandi-new-hormuz-mechanism-iaea-access-put-on-hold-2026-06-23.md` |
+| `breaking-points` | Breaking Points | `mearsheimer`, `breaking-points` | [Q-AiLUd4E8Q](https://www.youtube.com/watch?v=Q-AiLUd4E8Q) | `source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md` |
+| `breaking-points` | Breaking Points | `mearsheimer`, `breaking-points` | [IK25PzvdgpU](https://www.youtube.com/watch?v=IK25PzvdgpU) | `source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [_3mct6e9u60](https://www.youtube.com/watch?v=_3mct6e9u60) | `source-daniel-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [XMKCnPsESMQ](https://www.youtube.com/watch?v=XMKCnPsESMQ) | `source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [WbL3HQBEIVg](https://www.youtube.com/watch?v=WbL3HQBEIVg) | `source-napolitano-freeman-should-iran-trust-trump-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [J-PWkY08P84](https://www.youtube.com/watch?v=J-PWkY08P84) | `source-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [dTOhamHI_bk](https://www.youtube.com/watch?v=dTOhamHI_bk) | `source-napolitano-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md` |
 
 ## Writer sources
 
@@ -52,3 +61,13 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
+- `source-alkorshid-helmer-vance-lebanon-mou-hormuz-putin-ukraine-2026-06-23.md`
+- `source-alkorshid-henningsen-israels-losses-lebanon-hezbollah-iran-geneva-talks-2026-06-23.md`
+- `source-alkorshid-marandi-new-hormuz-mechanism-iaea-access-put-on-hold-2026-06-23.md`
+- `source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md`
+- `source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md`
+- `source-daniel-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23.md`
+- `source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md`
+- `source-napolitano-freeman-should-iran-trust-trump-2026-06-23.md`
+- `source-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23.md`
+- `source-napolitano-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md`

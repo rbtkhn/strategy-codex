@@ -59,6 +59,7 @@ Turn an operator-supplied transcript-bearing source into a landed archive object
 2. Confirm archive file exists under `source-archive/statecraft/<day>/` with frontmatter and provenance.
 3. Refresh day source-index (`README.md`) or explicitly defer with reason in the receipt.
 4. Run intake queue report or explicitly defer.
+4.5. When the day batch is real and the [news-verify ↔ synthesis gate](../../statecraft/synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md) applies, run **`news verify`** batch **Ship** → `statecraft/notes/wire/YYYY-MM-DD-wire-verify-matrix.md` before full synthesis (register-only may link matrix as OPEN).
 5. When the day batch is real, run **`state synthesis`** on that day.
 6. If promotion to daily shelf is intended, pass **`packet-before-synthesis`** gate or mark synthesis as **candidate only**.
 
