@@ -26,7 +26,7 @@
 | [locals-analysis-to-post-recipe.md](locals-analysis-to-post-recipe.md) | Canonical **analysis → Locals** production recipe: choose one angle, reduce to one claim spine, curate proof, draft, ship |
 | [locals-post-scaffold.md](locals-post-scaffold.md) | Reusable drafting scaffold for transcript- and analysis-derived Locals posts |
 | [locals-barnes-arc-worked-example.md](locals-barnes-arc-worked-example.md) | Reference implementation: Barnes/Davis arc turned into one medium **VivaBarnesLaw** Locals post, with optional X / PH follow-ons |
-| [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md) | Trust-first **Predictive History YouTube comment** profile: phase 1 chapter-folder doorway plus phase 2 `ph-mus` follow-up |
+| [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md) | Trust-first **Predictive History YouTube comment** profile: single-phase chapter-folder doorway (retired `ph-mus` follow-up) |
 | [brief-vs-spec.md](brief-vs-spec.md) | **Brief vs spec** — when to use a WORK job brief for writing / strategy / delegation vs a system spec for implementation |
 | [write-no-abstract-stacked-closers.md](write-no-abstract-stacked-closers.md) | Craft: avoid bloaty abstract stacked closers in short public copy |
 | [write-memorable-closer.md](write-memorable-closer.md) | Craft: end on one strong sentence that encapsulates the core argument |

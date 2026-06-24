@@ -76,7 +76,7 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 
 **Predictive History CIV-MEM context transfer package (optional):** [predictive-history-civmem-context/README.md](predictive-history-civmem-context/README.md) â€” transfer-ready doctrine, templates, voice rules, calibration examples, and a consolidated [implementation handoff](predictive-history-civmem-context/implementation-handoff.md) for later application in the external PH repo.
 
-**Predictive History comment rollout (optional):** [predictive-history-comment-rollout/README.md](predictive-history-comment-rollout/README.md) â€” two-phase public YouTube comment pipeline: chapter-folder doorway first, then `ph-mus` exhibit follow-up when the route exists.
+**Predictive History comment rollout (optional):** [predictive-history-comment-rollout/README.md](predictive-history-comment-rollout/README.md) — single-phase public YouTube comment pipeline: trust-first chapter-folder doorway per video (retired `ph-mus` exhibit follow-up; see [ph-mus-retired.md](../../../public/ph-civ/docs/archive/ph-mus-retired.md)).
 
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 

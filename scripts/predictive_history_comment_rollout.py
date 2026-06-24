@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Wrapper for the Predictive History two-phase comment rollout."""
+"""Wrapper for the Predictive History chapter-folder comment rollout."""
 
 from __future__ import annotations
 
