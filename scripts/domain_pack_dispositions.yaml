@@ -1,0 +1,404 @@
+# Domain-pack triage dispositions (Commit 1 SSOT)
+# Regenerate artifacts: python3 scripts/generate_domain_pack_triage.py
+# One entry per inventory row with category: domain-pack (54 skills)
+
+defaults:
+  proposed_disposition: REVIEW_WITH_OPERATOR
+  reason: No curated disposition yet
+  risk: medium
+
+skills:
+  # --- CIV-STATE family ---
+  civ-state:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Umbrella CIV-STATE entry; A-D menu router
+    risk: low
+    cluster: civ-state
+
+  civ-state-note:
+    proposed_disposition: KEEP_ACTIVE
+    replacement_or_runbook: null
+    reason: Atomic CIV-STATE note promotion; proof present
+    risk: low
+    cluster: civ-state
+
+  civ-state-essay:
+    proposed_disposition: KEEP_ACTIVE
+    replacement_or_runbook: null
+    reason: Distinct public essay path; proof present
+    risk: low
+    cluster: civ-state
+
+  civ-state-primary-text-acquisition:
+    proposed_disposition: CONVERT_TO_RUNBOOK
+    replacement_or_runbook: civ-state-primary-text
+    reason: Multi-step acquisition chain; runbook exists
+    risk: low
+    cluster: civ-state
+
+  civ-state-volume-harden:
+    proposed_disposition: CONVERT_TO_RUNBOOK
+    replacement_or_runbook: civ-state-volume-hardening
+    reason: Multi-step volume hardening; runbook exists
+    risk: low
+    cluster: civ-state
+
+  # --- Portable domain (manifest-listed) ---
+  politics-massie:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Standing work-politics domain skill; practical output
+    risk: low
+    cluster: portable-domain
+
+  jurisdiction-campaign-history:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: work-politics campaign history primitive
+    risk: medium
+    cluster: portable-domain
+
+  work-jiang-ingest-fallback:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Narrow ingest fallback; keep if still invoked
+    risk: medium
+    cluster: portable-domain
+
+  # --- State-lane openers (cursor-only) ---
+  state-america:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Active lane opener; frequently invoked
+    risk: low
+    cluster: state-lane
+
+  state-china:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Active lane opener; frequently invoked
+    risk: low
+    cluster: state-lane
+
+  state-persia:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Active lane opener; frequently invoked
+    risk: low
+    cluster: state-lane
+
+  state-russia:
+    proposed_disposition: KEEP_ACTIVE
+    post_disposition: ADD_PROOF_STANDARD
+    replacement_or_runbook: null
+    reason: Active lane opener; frequently invoked
+    risk: low
+    cluster: state-lane
+
+  state-deploy:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Lane router; archive unless operator confirms active use
+    risk: medium
+    cluster: state-lane
+
+  # --- Country culture (art/lit/god) ---
+  america-art:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  america-lit:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  china-art:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  china-lit:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  iran-art:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  iran-lit:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  russia-art:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  russia-lit:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  russia-god:
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: null
+    reason: Low-frequency subordinate lens; confirm before Commit 4
+    risk: confirm_before_commit_4
+    cluster: country-culture
+
+  # --- General domain helpers ---
+  lane-survey:
+    proposed_disposition: CONVERT_TO_RUNBOOK
+    replacement_or_runbook: domain-lane-survey
+    reason: Composed landscape scan; not a single primitive
+    risk: low
+    cluster: domain-helpers
+
+  pros-and-cons:
+    proposed_disposition: REDIRECT
+    replacement_or_runbook: domain-lane-survey
+    reason: Overlaps lane-survey / think-lane fork; redirect or archive
+    risk: medium
+    cluster: domain-helpers
+
+  strategy-notebook-lane-split:
+    proposed_disposition: REDIRECT
+    replacement_or_runbook: null
+    reason: Legacy notebook routing; redirect to current docs or archive
+    risk: medium
+    cluster: domain-helpers
+
+  # --- Speaker / intake / bridge ---
+  speaker-shelf-hygiene:
+    proposed_disposition: CONVERT_TO_RUNBOOK
+    replacement_or_runbook: speaker-shelf-maintenance
+    reason: Repeatable shelf maintenance step
+    risk: low
+    cluster: speaker-shelf
+
+  speaker-structural-continuity:
+    proposed_disposition: CONVERT_TO_RUNBOOK
+    replacement_or_runbook: speaker-shelf-maintenance
+    reason: Multi-step continuity check; compose in runbook
+    risk: low
+    cluster: speaker-shelf
+
+  speaker-relations-membrane:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: speaker-shelf-maintenance
+    reason: Specialized membrane audit; keep or fold into runbook
+    risk: medium
+    cluster: speaker-shelf
+
+  statecraft-lane-intake-router:
+    proposed_disposition: PROMOTE_TO_PORTABLE
+    replacement_or_runbook: null
+    reason: Active routing primitive for lane intake
+    risk: low
+    cluster: speaker-shelf
+
+  statecraft-bridge:
+    proposed_disposition: REDIRECT
+    replacement_or_runbook: bridge
+    reason: Overlaps operator bridge skill; redirect or archive
+    risk: medium
+    cluster: speaker-shelf
+
+  # --- Work-lane cursor skills ---
+  skill-cici:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Cici lane entry; may need category review (not pure domain-pack)
+    risk: medium
+    cluster: work-lane
+
+  skill-jiang:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: work-jiang lane entry; may need category review
+    risk: medium
+    cluster: work-lane
+
+  skill-write:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Likely mis-categorized; product-narrative candidate
+    risk: medium
+    cluster: work-lane
+
+  weekly-brief-run:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: work-politics weekly brief; confirm keep vs runbook
+    risk: medium
+    cluster: work-lane
+
+  work-jiang-feature-checklist:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Jiang feature checklist; confirm active use
+    risk: medium
+    cluster: work-lane
+
+  # --- Other cursor-only domain-pack ---
+  anyang-ai:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Cici cohort localization; confirm keep or archive
+    risk: medium
+    cluster: other-cursor
+
+  brewmind-governed-steward:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: BrewMind × Cici steward; confirm active use
+    risk: medium
+    cluster: other-cursor
+
+  hn-bookshelf-lookup:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: History notebook lookup helper; low-frequency
+    risk: medium
+    cluster: other-cursor
+
+  skill-elicitation:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Bounded elicitation pass; confirm vs operator-coherence
+    risk: medium
+    cluster: other-cursor
+
+  # --- Drafts (domain-pack) — defer to Commit 7 ---
+  academy-statecraft-drafting:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer promote/archive to Commit 7
+    risk: low
+    cluster: drafts
+
+  cici-ai-daily-brief:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  context-folder-assembly:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  daily-brief-regen-merge:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  expert-forecast-ledger:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  fast-tools-finish:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  graceful-constraint-reporting:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  marandi-state-extraction:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft extraction skill; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  mercouris-daily-continuity-extraction:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft extraction skill; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  observability-to-cadence-capture:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  parsi-diplomacy-extraction:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft extraction skill; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  persian-regime-adaptive-strategy:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  printing-press-scrape-creators:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  ritter-warning-extraction:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft extraction skill; defer to Commit 7
+    risk: low
+    cluster: drafts
+
+  russian-endurance-compression-strategy:
+    proposed_disposition: REVIEW_WITH_OPERATOR
+    replacement_or_runbook: null
+    reason: Draft; defer to Commit 7
+    risk: low
+    cluster: drafts
