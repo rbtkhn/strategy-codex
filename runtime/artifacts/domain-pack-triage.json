@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-06-24T01:17:37.290480+00:00",
-  "inventory_generated_at": "2026-06-24T01:17:37.173750+00:00",
+  "generated_at": "2026-06-24T07:20:57.455074+00:00",
+  "inventory_generated_at": "2026-06-24T07:20:57.337427+00:00",
   "dispositions_source": "scripts/domain_pack_dispositions.yaml",
   "summary": {
     "total_domain_pack_rows": 48,
     "by_disposition": {
-      "ARCHIVE": 12,
-      "KEEP_ACTIVE": 10,
-      "PROMOTE_TO_PORTABLE": 1,
-      "REDIRECT": 1,
+      "ARCHIVE": 13,
+      "KEEP_ACTIVE": 11,
       "REVIEW_WITH_OPERATOR": 24
     },
-    "active_proof_missing": 11
+    "active_proof_missing": 9
   },
   "missing_yaml_entries": [],
   "skills": [
@@ -418,15 +416,15 @@
       "cursor_only": true,
       "skill_path": ".cursor/skills/statecraft-bridge/SKILL.md",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "proof_standard": "missing",
       "current_trigger": "statecraft-bridge",
       "inventory_notes": "",
-      "proposed_disposition": "REDIRECT",
+      "proposed_disposition": "ARCHIVE",
       "post_disposition": "",
-      "replacement_or_runbook": "bridge",
-      "reason": "Overlaps operator bridge skill; redirect or archive",
-      "risk": "medium",
+      "replacement_or_runbook": "statecraft/bridges + state-persia",
+      "reason": "Specialized Persia retrieval; archived; doctrine on disk in bridges surfaces",
+      "risk": "low",
       "cluster": "speaker-shelf"
     },
     {
@@ -437,13 +435,13 @@
       "skill_path": ".cursor/skills/statecraft-lane-intake-router/SKILL.md",
       "category": "domain-pack",
       "status": "active",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "current_trigger": "statecraft-lane-intake-router",
       "inventory_notes": "",
-      "proposed_disposition": "PROMOTE_TO_PORTABLE",
+      "proposed_disposition": "KEEP_ACTIVE",
       "post_disposition": "",
       "replacement_or_runbook": "",
-      "reason": "Active routing primitive for lane intake",
+      "reason": "Active routing primitive; proof standard present. Portable promotion deferred.",
       "risk": "low",
       "cluster": "speaker-shelf"
     },

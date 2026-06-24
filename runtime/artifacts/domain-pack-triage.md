@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T01:17:37Z`
+Generated: `2026-06-24T07:20:57Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:17:37Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T07:20:57Z`)
 
 Regenerate:
 
@@ -16,8 +16,8 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 ## Summary
 
 - **Total domain-pack rows:** 48
-- **By disposition:** ARCHIVE: 12 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 24
-- **Active + proof_standard missing:** 11 (target after full pass: 0–3)
+- **By disposition:** ARCHIVE: 13 | KEEP_ACTIVE: 11 | REVIEW_WITH_OPERATOR: 24
+- **Active + proof_standard missing:** 9 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -72,8 +72,8 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| statecraft-bridge | cursor-only | False | True | active | missing | statecraft-bridge | REDIRECT | bridge | Overlaps operator bridge skill; redirect or archive | medium |
-| statecraft-lane-intake-router | cursor-only | False | True | active | missing | statecraft-lane-intake-router | PROMOTE_TO_PORTABLE |  | Active routing primitive for lane intake | low |
+| statecraft-bridge | cursor-only | False | True | archived | missing | statecraft-bridge | ARCHIVE | statecraft/bridges + state-persia | Specialized Persia retrieval; archived; doctrine on disk in bridges surfaces | low |
+| statecraft-lane-intake-router | cursor-only | False | True | active | present | statecraft-lane-intake-router | KEEP_ACTIVE |  | Active routing primitive; proof standard present. Portable promotion deferred. | low |
 
 ## Work-lane cursor skills
 

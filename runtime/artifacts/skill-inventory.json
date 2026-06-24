@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T01:17:37.173750+00:00",
+  "generated_at": "2026-06-24T07:20:57.337427+00:00",
   "row_count": 114,
   "skills": [
     {
@@ -1283,7 +1283,7 @@
       "cursor_target": ".cursor/skills/statecraft-bridge/SKILL.md",
       "portable_source": "",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-bridge",
       "proof_standard": "missing",
@@ -1356,7 +1356,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-lane-intake-router",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },

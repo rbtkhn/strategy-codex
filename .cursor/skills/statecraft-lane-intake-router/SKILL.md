@@ -33,7 +33,7 @@ The first honest submenu should ask which transcript-grounded intake family gove
 
 ## Do not use this skill when
 
-- lane ownership is unresolved and `state-deploy` should still govern
+- lane ownership is unresolved — use inline deploy judgment via [`transaction-router.md`](../../../statecraft/sheets/transaction-router.md), a direct `state-*` lane pick, or archived [`state-deploy`](../state-deploy/SKILL.md) legacy one-turn routing
 - the object is already clearly cross-lane or objection-shaped and belongs in `compact`
 - the operator explicitly wants a downstream lane surface such as `helix`, `state`, or `transactions`
 - the operator is explicitly asking for CIV-STATE retrieval rather than lane intake
@@ -189,3 +189,35 @@ Avoid these:
   - [China](../../../statecraft/china/README.md)
   - [Persia](../../../statecraft/persia/README.md)
   - [Russia](../../../statecraft/russia/README.md)
+
+## Routing law
+
+This skill routes objects; it does not process them.
+
+A successful route names the next surface or skill. It does not silently perform the downstream work.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the incoming object is named
+- the candidate lane or route family is named
+- the source floor or evidence basis is named
+- the output class is named: routing recommendation, lane handoff, no-route verdict, runbook handoff, or advisory memo
+- the authority boundary is stated: advisory routing only, no archive write, no synthesis write, no transaction creation, no Record-facing change
+- uncertainty, missing evidence, stale context, or competing route candidates are stated
+
+Evidence to report:
+
+- files, indexes, or route maps read
+- candidate lanes considered
+- final recommended route and rejected alternatives
+- downstream skill, runbook, or surface named
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- do not create or modify lane surfaces
+- do not publish, promote, merge, or create a transaction object
+- return a bounded routing recommendation for operator review

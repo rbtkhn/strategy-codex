@@ -40,7 +40,7 @@ _DOMAIN = [
     "work-jiang-ingest-fallback", "state-america", "state-china", "state-persia", "state-russia",
     "civ-state-volume-architect",
     "skill-cici", "skill-jiang", "skill-write", "weekly-brief-run", "work-jiang-feature-checklist",
-    "anyang-ai", "brewmind-governed-steward", "hn-bookshelf-lookup", "statecraft-bridge",
+    "anyang-ai", "brewmind-governed-steward", "hn-bookshelf-lookup",
     "statecraft-lane-intake-router", "skill-elicitation",
 ]
 _PRODUCT = [
@@ -123,6 +123,7 @@ STATUS_MAP.update({
     "speaker-structural-continuity": "deprecated",
     "speaker-relations-membrane": "deprecated",
     "state-deploy": "archived",
+    "statecraft-bridge": "archived",
     "pros-and-cons": "archived",
     "strategy-notebook-lane-split": "archived",
     "america-art": "archived",
@@ -170,6 +171,7 @@ REVIEW_DATE_MAP.update({
     "speaker-structural-continuity": "2026-12-31",
     "speaker-relations-membrane": "2026-12-31",
     "state-deploy": "2026-12-31",
+    "statecraft-bridge": "2026-12-31",
     "pros-and-cons": "2026-12-31",
     "strategy-notebook-lane-split": "2026-12-31",
     "statecraft-framework": "2026-12-31",

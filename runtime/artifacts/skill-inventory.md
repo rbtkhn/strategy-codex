@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T01:17:37Z`
+Generated: `2026-06-24T07:20:57Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -99,12 +99,12 @@ Total rows: **114**
 | state-persia | cursor-only | False | .cursor/skills/state-persia/SKILL.md |  | domain-pack | active |  | state-persia | present | 2026-06-23 |  |
 | state-russia | cursor-only | False | .cursor/skills/state-russia/SKILL.md |  | domain-pack | active |  | state-russia | present | 2026-06-23 |  |
 | state-synthesis | both | True | .cursor/skills/state-synthesis/SKILL.md | state-synthesis/SKILL.md | truth-pipeline | active |  | state synthesis | present | 2026-06-23 |  |
-| statecraft-bridge | cursor-only | False | .cursor/skills/statecraft-bridge/SKILL.md |  | domain-pack | active |  | statecraft-bridge | missing | 2026-06-23 |  |
+| statecraft-bridge | cursor-only | False | .cursor/skills/statecraft-bridge/SKILL.md |  | domain-pack | archived |  | statecraft-bridge | missing | 2026-06-23 |  |
 | statecraft-framework | both | True | .cursor/skills/statecraft-framework/SKILL.md | statecraft-framework/SKILL.md | judgment-enhancement | archived |  | statecraft framework | missing | 2026-06-23 |  |
 | statecraft-guidebook-writer | cursor-only | False | .cursor/skills/statecraft-guidebook-writer/SKILL.md |  | product-narrative | active |  | statecraft-guidebook-writer | missing | 2026-06-23 |  |
 | statecraft-helix-synthesis | both | True | .cursor/skills/statecraft-helix-synthesis/SKILL.md | statecraft-helix-synthesis/SKILL.md | judgment-enhancement | archived |  | statecraft helix synthesis | missing | 2026-06-23 |  |
 | statecraft-intelligence-essay | both | True | .cursor/skills/statecraft-intelligence-essay/SKILL.md | statecraft-intelligence-essay/SKILL.md | judgment-enhancement | active |  | statecraft intelligence essay | present | 2026-06-23 |  |
-| statecraft-lane-intake-router | cursor-only | False | .cursor/skills/statecraft-lane-intake-router/SKILL.md |  | domain-pack | active |  | statecraft-lane-intake-router | missing | 2026-06-23 |  |
+| statecraft-lane-intake-router | cursor-only | False | .cursor/skills/statecraft-lane-intake-router/SKILL.md |  | domain-pack | active |  | statecraft-lane-intake-router | present | 2026-06-23 |  |
 | statecraft-multi-lens | both | True | .cursor/skills/statecraft-multi-lens/SKILL.md | statecraft-multi-lens/SKILL.md | judgment-enhancement | archived |  | statecraft multi-lens | missing | 2026-06-23 |  |
 | statecraft-source-intake | both | True | .cursor/skills/statecraft-source-intake/SKILL.md | statecraft-source-intake/SKILL.md | truth-pipeline | active |  | source-intake | present | 2026-06-23 |  |
 | strategy-notebook-expert-cross-weave | both | True | .cursor/skills/strategy-notebook-expert-cross-weave/SKILL.md | strategy-notebook-expert-cross-weave/SKILL.md | legacy-redirect | redirect | strategy-codex-expert-cross-weave | weave expert cross | missing | 2026-06-23 |  |

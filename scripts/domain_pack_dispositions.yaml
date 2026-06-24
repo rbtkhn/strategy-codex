@@ -170,17 +170,17 @@ skills:
 
   # --- Speaker / intake / bridge — Commit 6 executed ---
   statecraft-lane-intake-router:
-    proposed_disposition: PROMOTE_TO_PORTABLE
+    proposed_disposition: KEEP_ACTIVE
     replacement_or_runbook: null
-    reason: Active routing primitive for lane intake
+    reason: Active routing primitive; proof standard present. Portable promotion deferred.
     risk: low
     cluster: speaker-shelf
 
   statecraft-bridge:
-    proposed_disposition: REDIRECT
-    replacement_or_runbook: bridge
-    reason: Overlaps operator bridge skill; redirect or archive
-    risk: medium
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: statecraft/bridges + state-persia
+    reason: Specialized Persia retrieval; archived; doctrine on disk in bridges surfaces
+    risk: low
     cluster: speaker-shelf
 
   # --- Work-lane cursor skills ---
