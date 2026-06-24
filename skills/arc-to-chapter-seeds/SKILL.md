@@ -7,11 +7,13 @@ category: product-narrative
 status: active
 scope_class: repo-governed
 tags:
-  - operator
-  - work-strategy
-  - statecraft
-  - chapter-seeds
-  - extraction
+- operator
+- work-strategy
+- statecraft
+- chapter-seeds
+- extraction
+portable_source: skills/arc-to-chapter-seeds/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Arc To Chapter Seeds
 
@@ -159,3 +161,25 @@ When finishing a pass, summarize:
 - which seeds were added or corrected
 - what attribution issue mattered most
 - which seed now looks strongest for later chapter materialization
+
+
+## Cursor / strategy-codex instance
+
+## strategy-codex instance
+
+- Root working areas for this skill:
+  - [codex/speakers](/C:/dev/strategy-codex/codex/speakers)
+  - [codex/academy/statecraft](/C:/dev/strategy-codex/codex/academy/statecraft)
+- Preferred source stack for China- or statecraft-facing seed extraction:
+  - canonical speaker or host arc notes under [codex/speakers](/C:/dev/strategy-codex/codex/speakers)
+  - strongest supporting **source archive** captures under [source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft/) (legacy pre-migration files may still appear under [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input) — archaeology only)
+  - lane destination or upstream seed files such as [China volume seeds](/C:/dev/strategy-codex/codex/academy/statecraft/china/china-volume-seeds.md)
+- Preferred validation commands after listed-skill edits:
+
+```powershell
+python scripts/sync_portable_skills.py --skill arc-to-chapter-seeds
+python scripts/sync_portable_skills.py --verify --skill arc-to-chapter-seeds
+python scripts/validate_skills.py
+```
+
+- Keep this skill upstream. Do not let it write destination-corpus doctrine or imply that a seed list has already become a chapter architecture.

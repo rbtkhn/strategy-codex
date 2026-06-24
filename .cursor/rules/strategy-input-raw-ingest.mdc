@@ -1,43 +1,46 @@
 ﻿---
-description: Strategy input â€” verbatim capture to strategy-notebook raw-input before synthesis (explicit or contextual)
+description: Strategy input — verbatim capture to source-archive/statecraft via source-intake before synthesis (explicit or contextual)
 alwaysApply: true
 ---
 
-# Strategy input â†’ `raw-input/` (mandatory verbatim capture)
+# Strategy input → source archive (mandatory verbatim capture)
 
-**SSOT:** [`docs/skill-work/work-strategy/strategy-notebook/raw-input/README.md`](../../docs/skill-work/work-strategy/strategy-notebook/raw-input/README.md) Â· [`NOTEBOOK-PREFERENCES.md`](../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md) (inbox vs notebook table).
+**SSOT:** [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md) · [NOTEBOOK-PREFERENCES.md](../../codex/NOTEBOOK-PREFERENCES.md) · [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [statecraft-source-intake SKILL](../../.cursor/skills/statecraft-source-intake/SKILL.md)
 
-**Capture types:** When material is clearly **essay** (Substack, long web), **transcript** (YouTube, podcast), **social** (X, Locals, threads), or **wire / institutional PDF**, read **[`CAPTURE-TYPES.md`](../../docs/skill-work/work-strategy/strategy-notebook/raw-input/CAPTURE-TYPES.md)** before choosing **`kind:`**, **`thread:`**, and inbox-stub shape â€” do not default blindly to **`paste-bundle`** / **`mixed`** without checking that calibration.
+**Deprecated:** `codex/raw-input/`, `codex/years/*/raw-input/`, and compat `docs/.../strategy-notebook/raw-input/` — do not write new captures there. See [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
+
+**Capture types:** When material is clearly **essay** (Substack, long web), **transcript** (YouTube, podcast), **social** (X, Locals, threads), or **wire / institutional PDF**, read the **source-intake** family table before choosing **`kind:`**, **`source_form:`**, and inbox-stub shape — do not default blindly to **`paste-bundle`** / **`mixed`** without checking that calibration.
 
 ## When this applies
 
 Treat as **strategy input** when **any** of the following is true:
 
 - The operator says **strategy input** (or obvious variants: **strategy input crooke**, **ingest this**, **notebook ingest**, **capture this for strategy**) **and** supplies or points at **external source material**.
-- **Same intent without the exact phrase:** in **`docs/skill-work/work-strategy/`** or clear **work-strategy** lane work, the operator pastes **full or substantial verbatim** (article, essay, statement, long excerpt) **with** a **URL** or **identifiable publication date/title**, expecting analysis â€” **not** a one-line headline-only prompt.
+- **Same intent without the exact phrase:** in **`docs/skill-work/work-strategy/`**, **`codex/`**, or clear **work-strategy** lane work, the operator pastes **full or substantial verbatim** (article, essay, statement, long excerpt) **with** a **URL** or **identifiable publication date/title**, expecting analysis — **not** a one-line headline-only prompt.
 
-**Out of scope:** casual links with no paste and no request to retain text; pure **PLAN** / hypothesis threads where the operator declined disk writes; **Record** surfaces (`*`) â€” different pipeline.
+**Out of scope:** casual links with no paste and no request to retain text; pure **PLAN** / hypothesis threads where the operator declined disk writes; **Record** surfaces (`*`) — different pipeline.
 
 ## Required assistant behavior
 
-1. **Create** a markdown file under  
-   `docs/skill-work/work-strategy/strategy-notebook/raw-input/<pub_date>/`  
-   using the layout and YAML conventions in **`raw-input/README.md`** ( **`pub_date`** folder = source publication day, **`ingest_date`** = day saved if useful, **`source_url`**, **`kind:`** â€” pick **`transcript`**, **`rss-item`**, **`x-post-text`**, **`paste-bundle`**, **`mixed`**, etc. per **[`CAPTURE-TYPES.md`](../../docs/skill-work/work-strategy/strategy-notebook/raw-input/CAPTURE-TYPES.md)** and README â€” optional **`thread:`** when a **`strategy-commentator`** lane applies).
+1. **Land** via **`source-intake`** to  
+   `source-archive/statecraft/<pub_date>/source-<slug>.md`  
+   using the sidecar recipe in [statecraft-source-intake SKILL](../../.cursor/skills/statecraft-source-intake/SKILL.md) § Default execution order (`header.md` + body sidecar(s) + `land_statecraft_source_body.py`). **`pub_date`** = source publication day; optional **`ingest_date`** in YAML when useful; **`source_url`** when known.
 
-2. **Filename:** `kebab-case` slug, unique that day â€” e.g. `substack-crooke-<short-slug>-YYYY-MM-DD.md` mirroring existing **`substack-*`** captures.
+2. **Filename:** always **`source-`** prefix — e.g. `source-crooke-<short-slug>.md` under the dated day folder — not legacy `substack-*` / `youtube-*` / `transcript-*` notebook names.
 
-3. **Body:** **verbatim** operator-supplied text (or text fetched only if the operator clearly authorized fetch). **Do not** substitute synthesis for verbatim in this file.
+3. **Body:** **verbatim** operator-supplied text (or text fetched only if the operator clearly authorized fetch). **Do not** substitute synthesis for verbatim in the archive file.
 
-4. **Same turn:** After the file write (or in one batched edit), **then** deliver digest, tiers, seams, or **`days.md`** synthesis â€” notebook layers remain **synthesis + links**, not full mirrors.
+4. **Same turn:** After the land (or in one batched edit), **then** deliver digest, tiers, seams, or **`days.md`** synthesis — notebook layers remain **synthesis + links**, not full mirrors.
 
-5. **Optional:** Add a **short stub** to [`daily-strategy-inbox.md`](../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) pointing at the **`raw-input`** path when the operator uses the inbox as a registry.
+5. **Optional:** Add a **short stub** to [`daily-strategy-inbox.md`](../../codex/daily-strategy-inbox.md) pointing at the **archive path** when the operator uses the inbox as a registry.
 
 ## If publication date is unknown
 
-Use **`raw-input/_aired-pending/`** until **`pub_date`** is pinned; then move into **`raw-input/<pub_date>/`**.
+Use **`source-archive/statecraft/_aired-pending/`** until **`pub_date`** is pinned; then land under **`source-archive/statecraft/YYYY-MM-DD/`**.
 
 ## Do not
 
-- Skip **`raw-input/`** because the reply already contains a good summary.
-- Put **full source mirrors** only in **`chapters/â€¦/days.md`** â€” violates NOTEBOOK-PREFERENCES (**notebook â‰  verbatim SSOT**).
-
+- Skip **source-archive** land because the reply already contains a good summary.
+- Write new verbatim captures to **`codex/raw-input/`** or **`docs/.../strategy-notebook/raw-input/`**.
+- Put **full source mirrors** only in **`chapters/…/days.md`** — violates NOTEBOOK-PREFERENCES (**notebook ≠ verbatim SSOT**).
+- Synthesize or interpret **into** the archive capture — route interpretation to `statecraft/`, codex pages, or chat.

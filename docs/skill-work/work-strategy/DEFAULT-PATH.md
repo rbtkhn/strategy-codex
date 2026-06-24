@@ -53,7 +53,7 @@ Append paste-ready lines to [`codex/daily-strategy-inbox.md`](../../../codex/dai
 
 Do **not** touch `days.md` unless the operator says **`strategy page`**, **`strategy page compose`**, or **EOD notebook compose**.
 
-Verbatim **`strategy input`** → [`codex/raw-input/`](../../../codex/raw-input/README.md) first per [strategy-input-raw-ingest.mdc](../../.cursor/rules/strategy-input-raw-ingest.mdc).
+Verbatim **`strategy input`** → **`source-intake`** → [`source-archive/statecraft/`](../../../source-archive/statecraft/README.md) first per [strategy-input-raw-ingest.mdc](../../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md). Do **not** write new captures to deprecated [`codex/raw-input/`](../../../codex/raw-input/README.md).
 
 **Time:** Variable (5–30 min depending on ingest volume).
 
@@ -63,7 +63,7 @@ End the pass with **3–5 options** (standard WORK menu). Typical forks:
 
 | Letter | Option |
 |--------|--------|
-| **A** | **`strategy page`** / **`strategy page compose`** — inbox + **`raw-input/`** → **`strategy-page`** + `days.md`; voice/lens **may** appear in Reflection on compose days only |
+| **A** | **`strategy page`** / **`strategy page compose`** — inbox + **source archive** → **`strategy-page`** + `days.md`; voice/lens **may** appear in Reflection on compose days only |
 | **B** | **Verify** — `strategy + verify` on a claim (`wire-verify` / `fact-check`) |
 | **C** | **Pivot statecraft** — hand off to [statecraft](../../../statecraft/README.md), **`coffee` C**, or named statecraft skill — **not** voice menu on codex pass |
 | **D** | **Promote** — stabilized arc → [STRATEGY.md](STRATEGY.md) |

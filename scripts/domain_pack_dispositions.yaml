@@ -163,7 +163,7 @@ skills:
 
   strategy-notebook-lane-split:
     proposed_disposition: ARCHIVE
-    replacement_or_runbook: codex/refined-page-template.md + codex/raw-input/README.md
+    replacement_or_runbook: codex/refined-page-template.md + source-archive/statecraft/README.md + docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md
     reason: Archived Commit 5; strategy-codex notebook SSOT replaces cursor skill
     risk: low
     cluster: domain-helpers

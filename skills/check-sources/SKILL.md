@@ -9,12 +9,12 @@ category: truth-pipeline
 status: active
 scope_class: repo-governed
 tags:
-  - operator
-  - strategy
-  - raw-input
-  - youtube
-  - daily
-  - source-archive
+- operator
+- strategy
+- source-archive
+- youtube
+- daily
+- source-archive
 portable_source: skills/check-sources/SKILL.md
 synced_by: sync_portable_skills.py
 ---
@@ -72,7 +72,7 @@ Treat **`check sources`** as the intake gate, not the durable interpretation lay
 
 - **`check sources`** = roster-scoped discovery, clip filtering, operator selection, archive reconciliation
 - **`youtube transcript`** = subtitle/materialization layer for approved URLs
-- **appearance** = one normalized host/speaker/date/source event derived from verified `raw-input`
+- **appearance** = one normalized host/speaker/date/source event derived from a verified **source archive** capture
 - **speaker folders** = durable accumulation layer for speaker objects, speaker arcs, helixes, and cross-year notes
 - **lattice / cognition-streams surfaces** = secondary lookup and analysis views over accumulated speaker material
 
@@ -114,7 +114,7 @@ Default behavior:
 
 Do **not** satisfy an episode-object request with only:
 
-- repo-local raw-input counts
+- repo-local source archive capture counts
 - prior receipts
 - secondary mirrors
 - web snippets
@@ -145,8 +145,8 @@ If the operator asks for **episode objects**, **missing episode recovery**, or *
 Explicitly distinguish these three modes in your own reasoning and in operator-facing results when useful:
 
 - **YouTube discovery** = what appears to exist on the live source side for the requested day, month, stream, or speaker
-- **Repo audit** = what is already present locally in `raw-input`, receipts, inventories, and adjacent artifacts
-- **Repair / materialization** = taking an approved or operator-pasted item and turning it into canonical `raw-input`
+- **Repo audit** = what is already present locally in **`source-archive/statecraft/`**, receipts, inventories, and adjacent artifacts
+- **Repair / materialization** = taking an approved or operator-pasted item and landing it via **`source-intake`** into a canonical **`source-*`** archive capture
 
 Short rule:
 
@@ -169,8 +169,8 @@ When returning results, label each item or group with one of these statuses when
 
 Do not blur these states together in prose. In particular:
 
-- `already captured` means a local `raw-input` artifact already exists
-- `found externally, missing locally` means the item is evidenced outside the repo but not yet present in local `raw-input`
+- `already captured` means a local **`source-*`** archive capture already exists under **`source-archive/statecraft/`**
+- `found externally, missing locally` means the item is evidenced outside the repo but not yet present in the source archive
 - `materialized from operator paste` means the operator supplied the transcript body and you used that to create or strengthen the local artifact
 - `discovered but unresolved` means the title/date/source shape appears real, but transcript-grade or canonical-source conditions are not yet satisfied
 - `missing direct watch URL` means exactly that: you found external evidence, but not a trustworthy direct YouTube watch URL
@@ -188,33 +188,31 @@ Do not blur these states together in prose. In particular:
 
 Treat repo inventories, `needs capture` labels, and prior receipts as useful but non-authoritative hints.
 
-- A row marked `needs capture` may already exist in `raw-input`
+- A row marked `needs capture` may already exist in **`source-archive/statecraft/`**
 - A row marked `mirrored` may still be weak, stale, or incomplete
 - A missing inventory row does not prove the item never existed
 
-Before reporting an item as missing locally, check the actual date folders and likely filename variants in `raw-input`.
+Before reporting an item as missing locally, check the actual date folders and likely **`source-*`** filename variants under **`source-archive/statecraft/`**.
 
 Short rule:
 
-`inventory is a hint, raw-input tree is the authority`
+`inventory is a hint, source-archive tree is the authority`
 
-The maintained helper surface for quick repo-wide lookup is `codex/years/2026/raw-input/raw-input-master-index.md` with `raw-input-master-index.json` as the machine-readable companion. Use it as a fast route map, but if the index and the tree ever disagree, the dated raw-input folders win.
-
-The companion audit surfaces are `codex/years/2026/raw-input/raw-input-index-audit.md/json`. They are heuristic architecture checks, not authority and not a hard gate.
+**Legacy (archaeology only):** `codex/years/2026/raw-input/raw-input-master-index.md` and companion audit JSON may still help locate pre-migration captures. If the legacy index and **`source-archive/statecraft/`** disagree, the **source archive** wins for new work.
 
 ## Index hierarchy and routing choice
 
 After materialization, treat the routing stack this way:
 
-- the raw-input master index is the maintained corpus-wide route map
-- a speaker raw-input index is added only when it functions as a real `non-core appearance bench`
+- the **source archive** day-index and thread-index surfaces are the maintained corpus-wide route maps
+- a speaker **source bench** (`*-raw-input-index.md` legacy filename) is updated only when it functions as a real `non-core appearance bench`
 - arc files remain interpretive surfaces by default
 
 Do not split an arc into a dedicated index surface unless the speaker-map threshold is met: the arc is no longer a practical front door, the items form a distinct retrieval domain, and the new surface would answer a different operator question than the neighboring bench or arc.
 
 If a speaker is touched during ingest or routing, choose one of these outcomes explicitly:
 
-- existing speaker raw-input index
+- existing speaker source bench (legacy `*-raw-input-index.md` when present)
 - existing host / core lane
 - existing arc / object / routing surface
 - explicit note that no new index is justified
@@ -269,11 +267,11 @@ Do **not** silently rewrite or ignore date tensions.
 
 ## Operator-paste recovery rule
 
-If the operator pastes a full transcript body for a discovered item, that is sufficient to perform **local raw-input recovery** even when the direct YouTube watch URL remains unresolved.
+If the operator pastes a full transcript body for a discovered item, that is sufficient to perform **local source archive recovery** even when the direct YouTube watch URL remains unresolved.
 
 In that situation:
 
-- create the canonical raw-input file
+- land the canonical **`source-*`** capture via **`source-intake`**
 - mark `transcript_type: operator_pasted_transcript`
 - keep `source_type: youtube` if the appearance is clearly a YouTube stream item
 - state in `source_note` that the transcript was operator-pasted and the direct watch URL is not yet recovered
@@ -313,17 +311,17 @@ The archive must preserve the strongest truthful provenance, not the most flatte
 
 ## Source-archive closeout rule
 
-When a check-stream or one-off recovery **adds or strengthens canonical `source-archive/statecraft/` raw-input**, close the ingest loop at every still-live index layer touched by that capture.
+When a check-stream or one-off recovery **adds or strengthens a canonical `source-archive/statecraft/` capture**, close the ingest loop at every still-live index layer touched by that capture.
 
 Minimum required follow-ons:
 
 - refresh the touched day folder `README.md`
 - verify whether the capture belongs to an existing live `statecraft/<speaker>/` shelf with a `*-raw-input-index.md` provenance bench
-- if such a shelf exists and the new capture is route-relevant for that speaker, update the speaker raw-input bench in the same pass before closing
+- if such a shelf exists and the new capture is route-relevant for that speaker, update the speaker source bench in the same pass before closing
 
 Short rule:
 
-`source-archive upload -> day index refresh -> touched speaker raw-input bench refresh -> close`
+`source-archive upload -> day index refresh -> touched speaker source bench refresh -> close`
 
 Do not assume day-index regeneration is enough. If the live speaker shelf owns a provenance bench, that bench is part of canonical ingest completion.
 
@@ -361,7 +359,7 @@ The goal is not perfect ontology. The goal is stable month-ledger accounting and
 Keep this distinction sharp:
 
 - **missing direct watch URL** does **not** mean the appearance is fake
-- **found externally, missing locally** means the appearance is evidenced but not yet recovered in `raw-input`
+- **found externally, missing locally** means the appearance is evidenced but not yet recovered in the **source archive**
 - **materialized from operator paste** means local transcript presence is now solved even if URL provenance is not fully solved
 
 Do not let URL incompleteness erase transcript completeness.
@@ -406,8 +404,8 @@ For this skill, **discovery should be YouTube-first whenever possible**.
 
 - Start with **`check sources watchlist`** when the task is "what went up today across the six daily watchlist channels?"
 - Start with **`check sources`** when the task is "what went up across the full main channel-index roster?"
-- Start with **`youtube transcript`** when the task is "turn this specific YouTube URL into canonical raw-input."
-- If the daily roster check produces approved URLs, hand each selected item down to the lower-layer YouTube transcript workflow for the actual materialization step.
+- Start with **`source-intake`** when the task is "turn this specific YouTube URL (or pasted body) into a canonical **source archive** capture."
+- If the daily roster check produces approved URLs, hand each selected item to **`source-intake`** for the actual land step.
 - After materialization, produce speaker-folder routing hints when the transcript clearly names a recurring speaker, guest lane, or existing `codex/<year>/speakers/<speaker>/` folder; treat the verified capture as an appearance before making interpretation claims.
 - If the operator approves a guest-and-host backlog such as `Glenn x Marandi`, treat that as a valid batched handoff shape and pass the exact approved URLs down as one tranche.
 
@@ -625,9 +623,9 @@ When the capture path is noisy, distinguish the failure layer plainly:
 
 - **Online discovery failed:** the channel or YouTube surface was blocked, timed out, or undercounted.
 - **Cached/offline audit worked:** local discovery receipts were sufficient to identify missing videos and repair queue state.
-- **Exact-URL materialization worked:** a specific approved watch URL produced verified raw-input even if broad discovery was brittle.
+- **Exact-URL materialization worked:** a specific approved watch URL produced a verified **source archive** capture even if broad discovery was brittle.
 - **Metadata-bypass materialization worked:** YouTube metadata fetch failed, but the operator-provided title/date/lane metadata let the exact URL proceed to subtitle extraction and verification.
-- **Operator-paste materialization worked:** YouTube fetch or patch ergonomics failed, but a full operator-pasted transcript was mechanically extracted from the local session log, written to canonical raw-input, and exact-match verified.
+- **Operator-paste materialization worked:** YouTube fetch or patch ergonomics failed, but a full operator-pasted transcript was mechanically extracted from the local session log, written to a canonical **`source-*`** capture, and exact-match verified.
 
 Prefer exact-URL materialization for repair queue items once the operator has named or approved them.
 
@@ -725,3 +723,41 @@ If verification cannot be completed:
 - state what was not verified
 - stop before archive land, synthesis, publication, or promotion
 - return a bounded partial result for operator review
+
+
+## Cursor / strategy-codex instance
+
+Grace-mar paths and commands for this repository (from `.cursor/skills/check-sources/`).
+
+| Topic | Path |
+|--------|------|
+| Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
+| Check-sources roster (machine) | [channel-index.json](../../source-archive/statecraft/channel-index.json) |
+| Check-sources roster (human) | [channel-index.md](../../source-archive/statecraft/channel-index.md) |
+| Roster loader | [statecraft_youtube_discovery.py](../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
+| Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
+| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
+| Legacy check-streams stub | [check-streams/SKILL.md](../check-streams/SKILL.md) |
+| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../../codex/raw-input/README.md) |
+| Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
+| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
+| Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
+| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
+
+**Repo notes**
+
+- **`check sources`** is canonical; **`check streams`** and **`cognition streams`** are legacy aliases.
+- Roster SSOT: **`channel-index.json`** (main only; misc excluded). Watchlist fast pass = six `daily_watchlist` channels.
+- Approved captures close with **`source-intake`**, not `materialize_youtube_raw_input.py --apply`.
+
+**Common local command pattern**
+
+```powershell
+python scripts/sync_portable_skills.py --skill check-sources
+python scripts/sync_portable_skills.py --verify --skill check-sources
+python -c "from pathlib import Path; import sys; sys.path.insert(0,'scripts'); from statecraft_youtube_discovery import load_check_sources_roster; print(len(load_check_sources_roster()))"
+python scripts/refresh_statecraft_archive_indices.py
+python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
+python scripts/validate_skills.py
+```

@@ -19,7 +19,7 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 | **`strategy page` / compose** | STRATEGY-NOTEBOOK-ARCHITECTURE.md EOD section |
 | **`strategy + verify`** | wire-verify / fact-check |
 | **`strategy write`** | skill-write + codex substance |
-| **`strategy input`** | strategy-input-raw-ingest.mdc + codex/raw-input/ |
+| **`strategy input`** | [strategy-input-raw-ingest.mdc](../../.cursor/rules/strategy-input-raw-ingest.mdc) + **`source-intake`** → [source-archive/statecraft/](../../../source-archive/statecraft/README.md) · [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md) |
 | **Voice / lens** | statecraft handoff or compose — VOICES-SUPERSEDE-MINDS.md; **`state-synthesis`** / **`primary-overhearing-analysis`** / named speaker (`statecraft-multi-lens` archived) |
 | **Live crisis / intake** | statecraft-* lanes — not DEFAULT-PATH body |
 | **`tri-mind` / `tri-frame`** | Deprecated — TRI-MIND-DEPRECATED.md; **`periodic-statecraft-review`** runbook or one voice profile |

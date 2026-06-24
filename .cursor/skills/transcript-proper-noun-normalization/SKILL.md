@@ -35,7 +35,7 @@ synced_by: sync_portable_skills.py
 
 When the operator says **`proper noun normalization`** on a **statecraft archive** file, say you are following **`source-clean`** and execute [source-clean/SKILL.md](../source-clean/SKILL.md).
 
-For **raw-input** files under `strategy-notebook/raw-input/` only (not yet archived), apply the same **conservative proper-noun** contract manually or land via intake first, then **`source-clean`**.
+For captures not yet in the archive, land via **`source-intake`** first, then **`source-clean`**. Do not write new files to deprecated **`codex/raw-input/`** — [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
 
 ## Verification / Proof Standard
 

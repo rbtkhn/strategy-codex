@@ -1,7 +1,9 @@
-# Deprecated raw-input pointer
+# Deprecated raw-input pointer (2026-06-23)
 
-The canonical statecraft source archive moved to [../../../../source-archive/statecraft/README.md](/C:/dev/strategy-codex/source-archive/statecraft/README.md).
+**Status:** **Deprecated** for new strategy-codex capture. Do not add new files here.
 
-Do not add new captures here.
+Full spec: [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
 
-Use `source-archive/statecraft/` for full source captures, and use repo-root `statecraft/` for live routing, intake control, bridge, and drafting surfaces.
+Use **`source-intake`** → [`source-archive/statecraft/`](../../../source-archive/statecraft/README.md) for all new verbatim captures.
+
+Legacy files in this tree remain **read-only archaeology**.

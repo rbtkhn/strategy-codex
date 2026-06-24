@@ -6,6 +6,9 @@
 > [!IMPORTANT]
 > Path contract update: `codex/years/2026/` is no longer a live people-lane volume. It is reserved for dated provenance via `source-archive/statecraft/`. Canonical people shelves now live under `codex/speakers/<name>/`, with host-local guest arcs owned by the host shelf, typically under `stream/`.
 
+> [!NOTE]
+> **Raw-input deprecated (2026-06-23):** Verbatim strategy capture SSOT is **`source-archive/statecraft/`** via **`source-intake`**, not **`codex/raw-input/`**. Inbox = registry; notebook = synthesis. Full spec: [RAW-INPUT-DEPRECATED.md](../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md). Bulk inline `raw-input/` mentions in this file are being retired in a follow-up pass.
+
 **Relation to `skill-strategy`:** [`.cursor/skills/skill-strategy/SKILL.md`](../../../../.cursor/skills/skill-strategy/SKILL.md) is the **activation surface** for **`strategy`**. **This document**, [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md), and [daily-strategy-inbox.md](daily-strategy-inbox.md) (paste-ready line SSOT) are **incorporated by reference** into that skill ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **one contract**, split across files for readability and maintenance, **not** a parallel ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“architecture-onlyÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â track beside the skill.
 
 ## Volume / book / chapter / page scaffold

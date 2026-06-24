@@ -5,5 +5,5 @@
 This directory is a **compatibility redirect** only. Do not add new notebook artifacts here.
 
 - **Strategy codex home:** `codex/`
-- **Raw input:** `codex/raw-input/`
+- **Verbatim capture (deprecated raw-input):** [source-archive/statecraft/](../../../source-archive/statecraft/README.md) via **`source-intake`** — see [RAW-INPUT-DEPRECATED.md](../RAW-INPUT-DEPRECATED.md)
 - **Architecture:** `codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`

@@ -34,3 +34,4 @@ WORK only; not Record.
 
 - Deprecated skill stub: [`skills/youtube-raw-input-transcript/SKILL.md`](../../../skills/youtube-raw-input-transcript/SKILL.md)
 - Script (legacy): [`scripts/materialize_youtube_raw_input.py`](../../../scripts/materialize_youtube_raw_input.py)
+- Strategy notebook raw-input (deprecated): [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md)

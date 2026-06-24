@@ -47,6 +47,6 @@ Use when material is useful for the session but **not** worth verbatim retention
 ## When consumption becomes work
 
 - **Verbatim statecraft source** → `source-archive/statecraft/`
-- **Strategy essay / transcript bundle** → `raw-input/` per [strategy-input rule](../.cursor/rules/strategy-input-raw-ingest.mdc)
+- **Strategy essay / transcript bundle** → **`source-intake`** → `source-archive/statecraft/` per [strategy-input rule](../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) — not deprecated `codex/raw-input/`
 - **Judgment to keep** → `statecraft/synthesis/day/` or lane transaction
 - **Identity / IX** → **fork revive** + gate only

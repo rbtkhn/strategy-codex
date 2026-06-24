@@ -172,7 +172,7 @@ When finishing a pass, summarize:
   - [codex/academy/statecraft](/C:/dev/strategy-codex/codex/academy/statecraft)
 - Preferred source stack for China- or statecraft-facing seed extraction:
   - canonical speaker or host arc notes under [codex/speakers](/C:/dev/strategy-codex/codex/speakers)
-  - strongest supporting raw-input transcript files under [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
+  - strongest supporting **source archive** captures under [source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft/) (legacy pre-migration files may still appear under [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input) — archaeology only)
   - lane destination or upstream seed files such as [China volume seeds](/C:/dev/strategy-codex/codex/academy/statecraft/china/china-volume-seeds.md)
 - Preferred validation commands after listed-skill edits:
 
