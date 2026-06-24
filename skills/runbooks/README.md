@@ -43,6 +43,7 @@ python3 scripts/validate_skills.py
 | `chapter-seeding` | `runbook chapter seed` | `arc-to-chapter-seeds` + PH/book Cursor skills |
 | `voice-profile-review` | `runbook voice profile review` | `voice-profile-panel` |
 | `domain-lane-survey` | `runbook lane survey` / `survey [lane]` | Landscape scan → `work-template` checklist |
+| `speaker-shelf-maintenance` | `runbook speaker shelf` / `speaker membrane` | Hygiene · continuity · membrane modes for speaker shelves |
 | `mtp-coffee-dream` | `runbook mtp coffee dream` (reference) | → `venture-ideation` cadence table |
 
 ## Discovery ladder

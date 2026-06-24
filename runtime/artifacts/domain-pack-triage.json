@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-06-24T01:06:58.897367+00:00",
-  "inventory_generated_at": "2026-06-24T01:06:58.794620+00:00",
+  "generated_at": "2026-06-24T01:08:38.564206+00:00",
+  "inventory_generated_at": "2026-06-24T01:08:38.469694+00:00",
   "dispositions_source": "scripts/domain_pack_dispositions.yaml",
   "summary": {
-    "total_domain_pack_rows": 51,
+    "total_domain_pack_rows": 48,
     "by_disposition": {
       "ARCHIVE": 11,
-      "CONVERT_TO_RUNBOOK": 2,
       "KEEP_ACTIVE": 10,
       "PROMOTE_TO_PORTABLE": 1,
       "REDIRECT": 1,
-      "REVIEW_WITH_OPERATOR": 26
+      "REVIEW_WITH_OPERATOR": 25
     },
-    "active_proof_missing": 19
+    "active_proof_missing": 16
   },
   "missing_yaml_entries": [],
   "skills": [
@@ -411,60 +410,6 @@
       "reason": "Archived Commit 5; strategy-codex notebook SSOT replaces cursor skill",
       "risk": "low",
       "cluster": "domain-helpers"
-    },
-    {
-      "name": "speaker-relations-membrane",
-      "location": "cursor-only",
-      "manifest_listed": false,
-      "cursor_only": true,
-      "skill_path": ".cursor/skills/speaker-relations-membrane/SKILL.md",
-      "category": "domain-pack",
-      "status": "active",
-      "proof_standard": "missing",
-      "current_trigger": "speaker membrane",
-      "inventory_notes": "",
-      "proposed_disposition": "REVIEW_WITH_OPERATOR",
-      "post_disposition": "",
-      "replacement_or_runbook": "speaker-shelf-maintenance",
-      "reason": "Specialized membrane audit; keep or fold into runbook",
-      "risk": "medium",
-      "cluster": "speaker-shelf"
-    },
-    {
-      "name": "speaker-shelf-hygiene",
-      "location": "cursor-only",
-      "manifest_listed": false,
-      "cursor_only": true,
-      "skill_path": ".cursor/skills/speaker-shelf-hygiene/SKILL.md",
-      "category": "domain-pack",
-      "status": "active",
-      "proof_standard": "missing",
-      "current_trigger": "speaker shelf",
-      "inventory_notes": "",
-      "proposed_disposition": "CONVERT_TO_RUNBOOK",
-      "post_disposition": "",
-      "replacement_or_runbook": "speaker-shelf-maintenance",
-      "reason": "Repeatable shelf maintenance step",
-      "risk": "low",
-      "cluster": "speaker-shelf"
-    },
-    {
-      "name": "speaker-structural-continuity",
-      "location": "cursor-only",
-      "manifest_listed": false,
-      "cursor_only": true,
-      "skill_path": ".cursor/skills/speaker-structural-continuity/SKILL.md",
-      "category": "domain-pack",
-      "status": "active",
-      "proof_standard": "missing",
-      "current_trigger": "",
-      "inventory_notes": "",
-      "proposed_disposition": "CONVERT_TO_RUNBOOK",
-      "post_disposition": "",
-      "replacement_or_runbook": "speaker-shelf-maintenance",
-      "reason": "Multi-step continuity check; compose in runbook",
-      "risk": "low",
-      "cluster": "speaker-shelf"
     },
     {
       "name": "statecraft-bridge",
@@ -953,7 +898,7 @@
     },
     {
       "name": "speaker-shelf-maintenance",
-      "status": "planned Commit 6",
+      "status": "exists",
       "path": "skills/runbooks/speaker-shelf-maintenance.runbook.md"
     }
   ]

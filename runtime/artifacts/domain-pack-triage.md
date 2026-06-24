@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T01:06:58Z`
+Generated: `2026-06-24T01:08:38Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:06:58Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:08:38Z`)
 
 Regenerate:
 
@@ -15,9 +15,9 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 ## Summary
 
-- **Total domain-pack rows:** 51
-- **By disposition:** ARCHIVE: 11 | CONVERT_TO_RUNBOOK: 2 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 26
-- **Active + proof_standard missing:** 19 (target after full pass: 0–3)
+- **Total domain-pack rows:** 48
+- **By disposition:** ARCHIVE: 11 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 25
+- **Active + proof_standard missing:** 16 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -72,9 +72,6 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| speaker-relations-membrane | cursor-only | False | True | active | missing | speaker membrane | REVIEW_WITH_OPERATOR | speaker-shelf-maintenance | Specialized membrane audit; keep or fold into runbook | medium |
-| speaker-shelf-hygiene | cursor-only | False | True | active | missing | speaker shelf | CONVERT_TO_RUNBOOK | speaker-shelf-maintenance | Repeatable shelf maintenance step | low |
-| speaker-structural-continuity | cursor-only | False | True | active | missing |  | CONVERT_TO_RUNBOOK | speaker-shelf-maintenance | Multi-step continuity check; compose in runbook | low |
 | statecraft-bridge | cursor-only | False | True | active | missing | statecraft-bridge | REDIRECT | bridge | Overlaps operator bridge skill; redirect or archive | medium |
 | statecraft-lane-intake-router | cursor-only | False | True | active | missing | statecraft-lane-intake-router | PROMOTE_TO_PORTABLE |  | Active routing primitive for lane intake | low |
 
@@ -124,4 +121,4 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 | `civ-state-primary-text` | **exists** | `skills/runbooks/civ-state-primary-text.runbook.md` |
 | `civ-state-volume-hardening` | **exists** | `skills/runbooks/civ-state-volume-hardening.runbook.md` |
 | `domain-lane-survey` | **exists** | `skills/runbooks/domain-lane-survey.runbook.md` |
-| `speaker-shelf-maintenance` | **planned Commit 6** | `skills/runbooks/speaker-shelf-maintenance.runbook.md` |
+| `speaker-shelf-maintenance` | **exists** | `skills/runbooks/speaker-shelf-maintenance.runbook.md` |

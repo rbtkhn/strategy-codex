@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T01:06:58Z`
+Generated: `2026-06-24T01:08:38Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -89,9 +89,9 @@ Total rows: **114**
 | skill-narrative | both | True | .cursor/skills/skill-narrative/SKILL.md | skill-narrative/SKILL.md | product-narrative | draft |  | narrative loop | missing | 2026-06-23 |  |
 | skill-write | cursor-only | False | .cursor/skills/skill-write/SKILL.md |  | domain-pack | active |  | skill-write | missing | 2026-06-23 |  |
 | source-clean | both | True | .cursor/skills/source-clean/SKILL.md | source-clean/SKILL.md | truth-pipeline | active |  | source-clean | present | 2026-06-23 |  |
-| speaker-relations-membrane | cursor-only | False | .cursor/skills/speaker-relations-membrane/SKILL.md |  | domain-pack | active |  | speaker membrane | missing | 2026-06-23 |  |
-| speaker-shelf-hygiene | cursor-only | False | .cursor/skills/speaker-shelf-hygiene/SKILL.md |  | domain-pack | active |  | speaker shelf | missing | 2026-06-23 |  |
-| speaker-structural-continuity | cursor-only | False | .cursor/skills/speaker-structural-continuity/SKILL.md |  | domain-pack | active |  |  | missing | 2026-06-23 |  |
+| speaker-relations-membrane | cursor-only | False | .cursor/skills/speaker-relations-membrane/SKILL.md |  | legacy-redirect | deprecated | speaker-shelf-maintenance | speaker membrane | missing | 2026-06-23 |  |
+| speaker-shelf-hygiene | cursor-only | False | .cursor/skills/speaker-shelf-hygiene/SKILL.md |  | legacy-redirect | deprecated | speaker-shelf-maintenance | speaker shelf | missing | 2026-06-23 |  |
+| speaker-structural-continuity | cursor-only | False | .cursor/skills/speaker-structural-continuity/SKILL.md |  | legacy-redirect | deprecated | speaker-shelf-maintenance | speaker continuity | missing | 2026-06-23 |  |
 | state-america | cursor-only | False | .cursor/skills/state-america/SKILL.md |  | domain-pack | active |  | state-america | missing | 2026-06-23 |  |
 | state-china | cursor-only | False | .cursor/skills/state-china/SKILL.md |  | domain-pack | active |  | state-china | missing | 2026-06-23 |  |
 | state-deploy | cursor-only | False | .cursor/skills/state-deploy/SKILL.md |  | domain-pack | active |  | state-deploy | missing | 2026-06-23 |  |

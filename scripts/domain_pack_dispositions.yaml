@@ -172,28 +172,7 @@ skills:
     risk: low
     cluster: domain-helpers
 
-  # --- Speaker / intake / bridge ---
-  speaker-shelf-hygiene:
-    proposed_disposition: CONVERT_TO_RUNBOOK
-    replacement_or_runbook: speaker-shelf-maintenance
-    reason: Repeatable shelf maintenance step
-    risk: low
-    cluster: speaker-shelf
-
-  speaker-structural-continuity:
-    proposed_disposition: CONVERT_TO_RUNBOOK
-    replacement_or_runbook: speaker-shelf-maintenance
-    reason: Multi-step continuity check; compose in runbook
-    risk: low
-    cluster: speaker-shelf
-
-  speaker-relations-membrane:
-    proposed_disposition: REVIEW_WITH_OPERATOR
-    replacement_or_runbook: speaker-shelf-maintenance
-    reason: Specialized membrane audit; keep or fold into runbook
-    risk: medium
-    cluster: speaker-shelf
-
+  # --- Speaker / intake / bridge — Commit 6 executed ---
   statecraft-lane-intake-router:
     proposed_disposition: PROMOTE_TO_PORTABLE
     replacement_or_runbook: null

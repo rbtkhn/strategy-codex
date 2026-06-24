@@ -41,8 +41,7 @@ _DOMAIN = [
     "state-deploy", "civ-state-volume-architect",
     "skill-cici", "skill-jiang", "skill-write", "weekly-brief-run", "work-jiang-feature-checklist",
     "anyang-ai", "brewmind-governed-steward", "hn-bookshelf-lookup", "statecraft-bridge",
-    "statecraft-lane-intake-router", "speaker-shelf-hygiene", "speaker-structural-continuity",
-    "speaker-relations-membrane", "skill-elicitation",
+    "statecraft-lane-intake-router", "skill-elicitation",
 ]
 _PRODUCT = [
     "product-strategy", "first-wave-service-sales",
@@ -59,6 +58,7 @@ _REDIRECT = [
     "last30days", "monthly-deepening",
     "civ-state-primary-text-acquisition", "civ-state-volume-harden",
     "lane-survey",
+    "speaker-shelf-hygiene", "speaker-structural-continuity", "speaker-relations-membrane",
 ]
 
 CATEGORY_MAP: dict[str, str] = {}
@@ -105,6 +105,9 @@ REPLACEMENT_MAP.update({
     "civ-state-primary-text-acquisition": "civ-state-primary-text",
     "civ-state-volume-harden": "civ-state-volume-hardening",
     "lane-survey": "domain-lane-survey",
+    "speaker-shelf-hygiene": "speaker-shelf-maintenance",
+    "speaker-structural-continuity": "speaker-shelf-maintenance",
+    "speaker-relations-membrane": "speaker-shelf-maintenance",
 })
 
 STATUS_MAP.update({
@@ -116,6 +119,9 @@ STATUS_MAP.update({
     "civ-state-primary-text-acquisition": "deprecated",
     "civ-state-volume-harden": "deprecated",
     "lane-survey": "deprecated",
+    "speaker-shelf-hygiene": "deprecated",
+    "speaker-structural-continuity": "deprecated",
+    "speaker-relations-membrane": "deprecated",
     "pros-and-cons": "archived",
     "strategy-notebook-lane-split": "archived",
     "america-art": "archived",
@@ -135,6 +141,9 @@ CATEGORY_MAP.update({
     "civ-state-primary-text-acquisition": "legacy-redirect",
     "civ-state-volume-harden": "legacy-redirect",
     "lane-survey": "legacy-redirect",
+    "speaker-shelf-hygiene": "legacy-redirect",
+    "speaker-structural-continuity": "legacy-redirect",
+    "speaker-relations-membrane": "legacy-redirect",
 })
 
 REVIEW_DATE_MAP.update({
@@ -156,6 +165,9 @@ REVIEW_DATE_MAP.update({
     "civ-state-primary-text-acquisition": "2026-12-31",
     "civ-state-volume-harden": "2026-12-31",
     "lane-survey": "2026-12-31",
+    "speaker-shelf-hygiene": "2026-12-31",
+    "speaker-structural-continuity": "2026-12-31",
+    "speaker-relations-membrane": "2026-12-31",
     "pros-and-cons": "2026-12-31",
     "strategy-notebook-lane-split": "2026-12-31",
     "statecraft-framework": "2026-12-31",

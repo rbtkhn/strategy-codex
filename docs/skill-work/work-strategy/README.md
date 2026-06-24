@@ -24,7 +24,7 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 | **Live crisis / intake** | statecraft-* lanes — not DEFAULT-PATH body |
 | **`tri-mind` / `tri-frame`** | Deprecated — TRI-MIND-DEPRECATED.md; **`periodic-statecraft-review`** runbook or one voice profile |
 | **Weekly brief** | weekly-brief-run |
-| **Speaker shelf audit** | speaker-shelf-hygiene |
+| **Speaker shelf audit** | [`speaker-shelf-maintenance` runbook](../../../skills/runbooks/speaker-shelf-maintenance.runbook.md) — legacy `speaker shelf` / `speaker membrane` |
 
 ---
 
