@@ -136,5 +136,5 @@ This section is the working surface for enhancing and leveraging the chapter ove
 ### Build Notes / Future Enhancements
 
 - Next concrete enhancement pass:
-- Needed links, manifests, patterns, or museum entries:
+- Needed links, manifests, or pattern entries:
 - Completion blockers:

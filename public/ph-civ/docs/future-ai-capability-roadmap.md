@@ -29,7 +29,7 @@
    As local models improve, the public surfaces should work well as small portable packages that can be installed once and used by local agents without dependence on any single AI provider.
 
 9. **Community contribution workflows**
-   Human curators can contribute museum exhibits, artifact metadata, prompt improvements, path refinements, and guardrail notes. Schemas and validators should make contribution review straightforward.
+   Human curators can contribute prompt improvements, path refinements, commentary canvas notes, and guardrail updates. Schemas and validators should make contribution review straightforward.
 
 10. **Adaptive learning metrics**
     Later versions may track which cards confuse users, which paths are most used, where sparks fail, and what questions people ask. These metrics can improve the context layer without altering source materials.
@@ -38,4 +38,4 @@
 
 Structured context now, richer interfaces later.
 
-Future work should bias toward stable IDs, plain JSON/JSONL, schema validation, Markdown readability, MCP readiness, promptless commands, museum-manifest compatibility, no source-text leakage, strong provenance boundaries, and first-good-question generation as a core user experience.
+Future work should bias toward stable IDs, plain JSON/JSONL, schema validation, Markdown readability, MCP readiness, promptless commands, no source-text leakage, strong provenance boundaries, and first-good-question generation as a core user experience.

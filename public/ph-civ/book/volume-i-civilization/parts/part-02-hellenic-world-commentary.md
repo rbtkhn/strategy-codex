@@ -281,7 +281,7 @@ Scholarship-grade alternatives; sources in [bibliography](./part-02-hellenic-wor
 
 ### Project Leverage
 
-- Unifies Hellenic arc for interwoven reader, Homer corridor, and museum epic-theater rooms.
+- Unifies Hellenic arc for interwoven reader and Homer corridor study paths.
 - Single bibliography for Homer, tragedy, Plato, Macedon, Hellenistic education.
 
 ### Laws / Patterns Exposed

@@ -21,7 +21,6 @@ Public learning and navigation decks.
 
 - `ph-civ`: civilization orientation
 - `ph-apo`: apocalypse / crisis application
-- `ph-mus`: museum / exhibit routes
 
 Typical jobs:
 
@@ -62,8 +61,9 @@ Short formula:
 Supported now:
 
 - `ph-civ` vs `ph-civ`
-- `ph-mus` artifact set vs artifact set
+- `ph-apo` route vs route
 - `ce-emp` decision path vs decision path
+- `ce-mus` artifact set vs artifact set
 
 Not supported yet:
 
@@ -86,7 +86,7 @@ Prefer product-surface language over infrastructure language.
 Say:
 
 - "generate a `ph-civ` lesson deck"
-- "generate a `ph-mus` museum deck"
+- "generate a `ph-apo` application deck"
 - "generate a `ce-emp` briefing deck"
 - "generate a `ce-mus` exhibit deck"
 
@@ -98,7 +98,8 @@ That wiring still exists, but it is implementation detail rather than the primar
 
 ## Symmetry Examples
 
-The checked-in examples make the two museum lanes feel parallel rather than hypothetical:
+The checked-in example shows a WORK-safe exhibit deck path:
 
-- `ph-mus-gt16.packet.json`: public museum route -> reader-facing museum deck
 - `ce-mus-hormuz.packet.json`: WORK-safe strategic object sequence -> operator-facing exhibit deck
+
+Legacy public museum packet example (`ph-mus-gt16.packet.json`) remains in the examples folder for archaeology only; the `ph-mus` subsurface was retired. See [`public/ph-civ/docs/archive/ph-mus-retired.md`](../../../public/ph-civ/docs/archive/ph-mus-retired.md).

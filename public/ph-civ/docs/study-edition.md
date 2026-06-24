@@ -228,7 +228,7 @@ Requirements specific to ph-civ:
 - Launch packet copy from `data/growth-goals.json` first_live_wedge
 - Human approval before distribution push
 
-**Out of pilot scope:** Volume II Apocalypse pressure spine, ph-mus exhibit binaries, translation mirrors, strategy-codex imports.
+**Out of pilot scope:** Volume II Apocalypse pressure spine, large media exhibit binaries, translation mirrors, strategy-codex imports.
 
 ---
 

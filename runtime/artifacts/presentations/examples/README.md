@@ -2,25 +2,15 @@
 
 These examples make the `family + subsurface + intent` taxonomy concrete.
 
-- `ph-mus-gt16.packet.json`: public museum packet for the `ph-civ` family
 - `ce-mus-hormuz.packet.json`: WORK-safe museum packet for the `civ-emp` family
+- `ph-mus-gt16.packet.json`: **legacy** public museum packet (retired subsurface; kept for archaeology)
 
 Use them to sanity-check packet shape, adapter expectations, and the product story:
 
-- `ph-mus` turns public exhibit routes into reader-facing museum decks
 - `ce-mus` turns strategic object sequences into operator-facing exhibit decks
+- `ph-mus` adapter support was removed; see [`public/ph-civ/docs/archive/ph-mus-retired.md`](../../../../public/ph-civ/docs/archive/ph-mus-retired.md)
 
-Example bundle commands:
-
-```bash
-python scripts/build_ph_civ_presentation_bundle.py \
-  --subsurface ph-mus \
-  --intent lesson \
-  --title "GT-16 Museum Lesson" \
-  --audience Readers \
-  --packet-json runtime/artifacts/presentations/examples/ph-mus-gt16.packet.json \
-  --output runtime/artifacts/presentations/examples/ph-mus-gt16.bundle.json
-```
+Example bundle command:
 
 ```bash
 python scripts/build_civ_emp_presentation_bundle.py \

@@ -101,5 +101,5 @@ This commentary is a seed canvas, not final analysis. It preserves the essay's i
 ### Build Notes / Future Enhancements
 
 - Next concrete enhancement pass:
-- Needed links, manifests, patterns, or museum entries:
+- Needed links, manifests, or pattern entries:
 - Completion blockers:

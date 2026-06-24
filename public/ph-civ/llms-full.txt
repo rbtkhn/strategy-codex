@@ -133,14 +133,13 @@ The localization roadmap also reserves `ph-civ-ru` as a future Russian-language 
 - `docs/source-video-index.md`: public Predictive History YouTube source URL index.
 - `book/`: transcripts and commentaries.
 - `docs/archive/ph-mus-retired.md`: retired museum layer note.
-- `schemas/`: museum exhibit and artifact schemas.
+- `schemas/`: public card, route, and validation schemas.
 
 ## What Not To Claim
 
 - Do not claim this repo is official course material or endorsement.
-- 
 - Do not claim the commentaries are complete final analysis.
-- Do not claim large museum binaries are stored in Git.
+- Do not claim large media binaries are stored in Git.
 - Do not claim live geopolitical certainty from application routes.
 - Do not claim audience growth targets have been achieved merely because the repo names them.
 
