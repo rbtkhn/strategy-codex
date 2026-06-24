@@ -4,7 +4,7 @@ description: Post-land ASR and proper-noun cleanup for statecraft source-archive
 preferred_activation: source-clean
 activation: source-clean
 portable: true
-version: 1.1.0
+version: 1.1.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -148,14 +148,31 @@ Agents: import `fix_statecraft_common_asr_entities.apply_replacements` in-proces
 
 ## Verification / Proof Standard
 
-**Pass when:**
+Do not call this complete unless:
 
-1. `python scripts/source_clean_statecraft.py --path <capture>` exits 0 (or `--dry-run` preview matches intent).
-2. Closeout reports **series / entity / thread** substitution counts and whether body/frontmatter changed.
-3. Re-run on same file yields **0** new substitutions when already clean.
-4. Transcript argument preserved; `editorial_note` still marks not human-verified verbatim.
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- source body preservation must be checked (line/word count stable; no scaffold truncation)
 
-**Fail when:** synthesis or summarization in body; upgraded to human-verified without audio check; Shell/`python -c` batch retried on same path after interrupt (use Cursor fail-over above).
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+- `python scripts/source_clean_statecraft.py --path <capture>` exit 0 (or `--dry-run` preview matches intent)
+- series / entity / thread substitution counts and whether body/frontmatter changed
+- re-run on same file yields 0 new substitutions when already clean
+- transcript argument preserved; `editorial_note` still marks not human-verified verbatim
+- VTT/manual-subtitle captures used `--no-scaffold` when full scaffold would truncate
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 ## Related
 

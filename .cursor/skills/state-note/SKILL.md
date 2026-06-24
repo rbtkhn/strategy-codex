@@ -2,7 +2,7 @@
 name: state-note
 description: Promote one bounded statecraft argument from chat, daily synthesis, multi-lens comparison, or archive intake into a reusable statecraft/notes/ object without overpromoting into daily shelf or essay. Use when the operator says state-note, promote to statecraft note, statecraft note, or when a comparison seam or mechanism should survive outside chat with source-archive anchors and citation splits.
 portable: true
-version: 0.1.0
+version: 0.1.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -145,6 +145,29 @@ Template reference: host appendix example `barnes-johnson-aguilar-kent-on-sectio
 ## Success condition
 
 The new note is a **reusable statecraft argument** with clear archive anchors and clear return paths; chat synthesis does not remain the only SSOT for citation splits or mechanism seams.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- note class and source floor must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 ## Preferred maintenance after skill edits
 

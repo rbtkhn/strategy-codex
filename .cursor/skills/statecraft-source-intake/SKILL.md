@@ -4,7 +4,7 @@ description: 'Manual invoke: source-intake. Land operator transcripts via sideca
 preferred_activation: source-intake
 activation: source-intake
 portable: true
-version: 0.4.12
+version: 0.4.13
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -726,23 +726,30 @@ The source ends as a **real full-source archive object** in the canonical statec
 
 Do not call this complete unless:
 
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- archive path and publication date must be verified
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
 - `source-archive/statecraft/<day>/source-*.md` exists with non-empty body (not stub-only)
 - YAML frontmatter includes honest `kind`, provenance, and source URL or explicit unknown
 - family/filename pattern matches the intake family decision
 - sidecar merge completed when chunked land applied (`land_statecraft_source_body.py` receipt or equivalent)
-
-Evidence to report:
-
-- final archive path
-- frontmatter keys present
 - day-index refresh run or explicit deferral stated
 - land command exit code when script path used
 
 If verification cannot be completed:
 
-- state which check failed (missing file, incomplete body, missing provenance)
-- do not claim intake complete
-- ask operator to supply missing source or approve deferral
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance

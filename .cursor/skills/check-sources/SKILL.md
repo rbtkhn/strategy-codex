@@ -4,7 +4,7 @@ description: Check the main channel-index YouTube roster (channel-index.json SSO
 preferred_activation: check sources
 activation: check sources
 portable: true
-version: 1.0.0
+version: 1.0.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -702,6 +702,29 @@ Use "candidate" when the target does not exist yet or would require a new speake
 ## Success condition
 
 The operator gets a clean upload list for the active roster scope (watchlist or full main index), with obvious clips filtered into a secondary bucket, only the approved subset landed via **`source-intake`** into provenance-safe canonical **`source-*`** archive captures that pass non-stub body verification, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- watchlist/roster source and selected candidates must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance

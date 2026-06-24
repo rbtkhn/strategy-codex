@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T15:00:57.026752+00:00",
-  "row_count": 113,
+  "generated_at": "2026-06-24T00:10:40.885046+00:00",
+  "row_count": 114,
   "skills": [
     {
       "name": "abundance-native-ventures",
@@ -13,7 +13,7 @@
       "replacement_or_parent": "product-strategy",
       "activation_trigger": "abundance ventures",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -27,7 +27,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "academy-mirror-sync",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": "Candidate archived unless operator confirms active mirror"
     },
     {
@@ -41,7 +41,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -55,7 +55,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "america-art",
       "proof_standard": "missing",
-      "last_modified": "2026-05-28",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -69,7 +69,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "america-lit",
       "proof_standard": "missing",
-      "last_modified": "2026-05-26",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -83,7 +83,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "anyang-ai",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -97,7 +97,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -111,7 +111,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "brewmind governed steward",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -125,7 +125,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "bridge",
       "proof_standard": "missing",
-      "last_modified": "2026-05-06",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -138,8 +138,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "check sources",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -153,7 +153,7 @@
       "replacement_or_parent": "check-sources",
       "activation_trigger": "check streams",
       "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -167,7 +167,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "china-art",
       "proof_standard": "missing",
-      "last_modified": "2026-05-28",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -181,7 +181,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "china-lit",
       "proof_standard": "missing",
-      "last_modified": "2026-05-26",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -195,7 +195,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "cici daily brief",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -209,7 +209,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "civ-state",
       "proof_standard": "missing",
-      "last_modified": "2026-06-20",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -223,7 +223,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "civ-state essay",
       "proof_standard": "present",
-      "last_modified": "2026-06-22",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -237,7 +237,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "civ-state note",
       "proof_standard": "present",
-      "last_modified": "2026-06-20",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -251,7 +251,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -265,7 +265,7 @@
       "replacement_or_parent": "civ-state",
       "activation_trigger": "civ state volume architect",
       "proof_standard": "missing",
-      "last_modified": "2026-06-22",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -279,7 +279,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -293,21 +293,21 @@
       "replacement_or_parent": "",
       "activation_trigger": "civilization-part-writer",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
       "name": "coffee",
-      "location": "unknown",
+      "location": "cursor-only",
       "manifest_listed": false,
-      "cursor_target": "",
+      "cursor_target": ".cursor/skills/coffee/SKILL.md",
       "portable_source": "",
       "category": "",
       "status": "active",
       "replacement_or_parent": "",
-      "activation_trigger": "",
+      "activation_trigger": "coffee",
       "proof_standard": "n/a",
-      "last_modified": "",
+      "last_modified": "2026-06-23",
       "notes": "External host skill (~/.codex/skills/coffee/); not in repo manifest"
     },
     {
@@ -321,7 +321,7 @@
       "replacement_or_parent": "check-sources",
       "activation_trigger": "cognition streams",
       "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -335,7 +335,7 @@
       "replacement_or_parent": "coffee",
       "activation_trigger": "conductor",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -349,7 +349,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "context folder",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -363,7 +363,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "daily brief regen",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -405,7 +405,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "empire-part-writer",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -419,7 +419,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "forecast ledger for <expert>",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -433,7 +433,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "save skill",
       "proof_standard": "present",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -447,7 +447,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "fact check",
       "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -461,7 +461,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -475,7 +475,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "first-wave sales",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -489,7 +489,7 @@
       "replacement_or_parent": "fork-revive",
       "activation_trigger": "gate review",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -503,6 +503,20 @@
       "replacement_or_parent": "",
       "activation_trigger": "graceful report",
       "proof_standard": "n/a",
+      "last_modified": "2026-06-23",
+      "notes": ""
+    },
+    {
+      "name": "handoff-check",
+      "location": "cursor-only",
+      "manifest_listed": false,
+      "cursor_target": ".cursor/skills/handoff-check/SKILL.md",
+      "portable_source": "",
+      "category": "",
+      "status": "active",
+      "replacement_or_parent": "",
+      "activation_trigger": "handoff check",
+      "proof_standard": "missing",
       "last_modified": "2026-06-19",
       "notes": ""
     },
@@ -531,7 +545,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -545,7 +559,7 @@
       "replacement_or_parent": "product-strategy",
       "activation_trigger": "ideation engine",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -559,7 +573,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "iran-art",
       "proof_standard": "missing",
-      "last_modified": "2026-05-28",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -573,7 +587,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "iran-lit",
       "proof_standard": "missing",
-      "last_modified": "2026-05-26",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -587,7 +601,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "jurisdiction history",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -601,7 +615,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "survey",
       "proof_standard": "missing",
-      "last_modified": "2026-05-04",
+      "last_modified": "2026-06-23",
       "notes": "Review: likely runbook or archived"
     },
     {
@@ -615,7 +629,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "last30days",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -629,7 +643,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "marandi-state",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -643,7 +657,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "memory",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -657,7 +671,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "mercouris-continuity",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -671,7 +685,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -685,7 +699,7 @@
       "replacement_or_parent": "product-strategy",
       "activation_trigger": "mtp",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -698,8 +712,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "news verify",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -713,7 +727,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "observability capture",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -726,8 +740,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "packet-first",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -741,7 +755,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "parsi-diplomacy",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -769,7 +783,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-05-28",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -783,7 +797,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-03",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -797,7 +811,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "ph-civ-to-civ-state-promoter",
       "proof_standard": "missing",
-      "last_modified": "2026-06-17",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -811,7 +825,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "massie x",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -825,7 +839,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "sync skills",
       "proof_standard": "present",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -839,7 +853,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-03",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -853,7 +867,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "primary overhearing",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -867,7 +881,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -895,7 +909,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "unpack",
       "proof_standard": "missing",
-      "last_modified": "2026-05-04",
+      "last_modified": "2026-06-23",
       "notes": "Review: likely runbook or archived"
     },
     {
@@ -909,7 +923,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "recursive learn",
       "proof_standard": "missing",
-      "last_modified": "2026-06-22",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -923,7 +937,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "repo feedback prompt",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -937,7 +951,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "hygiene pass",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -951,7 +965,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "ritter-warning",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -965,7 +979,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "russia-art",
       "proof_standard": "missing",
-      "last_modified": "2026-05-28",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -979,7 +993,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "russia-god",
       "proof_standard": "missing",
-      "last_modified": "2026-05-26",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -993,7 +1007,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "russia-lit",
       "proof_standard": "missing",
-      "last_modified": "2026-05-26",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1007,7 +1021,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "endurance strategy",
       "proof_standard": "n/a",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1021,7 +1035,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1035,7 +1049,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1049,7 +1063,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "skill-cici",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1077,7 +1091,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "skill-jiang",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1091,7 +1105,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "narrative loop",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1105,7 +1119,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "skill-write",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1133,7 +1147,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "speaker membrane",
       "proof_standard": "missing",
-      "last_modified": "2026-05-22",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1147,7 +1161,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "speaker shelf",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1161,7 +1175,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1175,7 +1189,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "state-america",
       "proof_standard": "missing",
-      "last_modified": "2026-05-27",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1189,7 +1203,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "state-china",
       "proof_standard": "missing",
-      "last_modified": "2026-05-27",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1203,7 +1217,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "state-deploy",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1216,8 +1230,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-20",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1231,7 +1245,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "state-persia",
       "proof_standard": "missing",
-      "last_modified": "2026-05-27",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1245,7 +1259,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "state-russia",
       "proof_standard": "missing",
-      "last_modified": "2026-05-27",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1259,7 +1273,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "state synthesis",
       "proof_standard": "present",
-      "last_modified": "2026-06-22",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1273,7 +1287,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-bridge",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1287,7 +1301,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-framework",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1301,7 +1315,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-guidebook-writer",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1315,7 +1329,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1329,7 +1343,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft intelligence essay",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1343,7 +1357,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft-lane-intake-router",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1357,7 +1371,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "statecraft multi-lens",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1371,7 +1385,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "source-intake",
       "proof_standard": "present",
-      "last_modified": "2026-06-22",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1385,7 +1399,7 @@
       "replacement_or_parent": "strategy-codex-expert-cross-weave",
       "activation_trigger": "weave expert cross",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1399,7 +1413,7 @@
       "replacement_or_parent": "strategy-codex-guest-canon-note",
       "activation_trigger": "speaker arc",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1413,7 +1427,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "lane split",
       "proof_standard": "missing",
-      "last_modified": "2026-06-04",
+      "last_modified": "2026-06-23",
       "notes": "Review: likely runbook or archived"
     },
     {
@@ -1427,7 +1441,7 @@
       "replacement_or_parent": "archive",
       "activation_trigger": "thanks",
       "proof_standard": "missing",
-      "last_modified": "2026-06-08",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1440,8 +1454,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "transcript cleanup",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1454,8 +1468,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "proper noun normalization",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1469,7 +1483,7 @@
       "replacement_or_parent": "statecraft-multi-lens",
       "activation_trigger": "tri-mind",
       "proof_standard": "missing",
-      "last_modified": "2026-06-13",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1511,7 +1525,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1525,7 +1539,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "weekly brief",
       "proof_standard": "missing",
-      "last_modified": "2026-05-04",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1539,7 +1553,7 @@
       "replacement_or_parent": "news-verify",
       "activation_trigger": "",
       "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1553,7 +1567,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "jiang check",
       "proof_standard": "missing",
-      "last_modified": "2026-06-08",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1567,7 +1581,7 @@
       "replacement_or_parent": "",
       "activation_trigger": "jiang ingest fallback",
       "proof_standard": "missing",
-      "last_modified": "2026-06-19",
+      "last_modified": "2026-06-23",
       "notes": ""
     },
     {
@@ -1580,8 +1594,8 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "youtube transcript",
-      "proof_standard": "missing",
-      "last_modified": "2026-06-21",
+      "proof_standard": "present",
+      "last_modified": "2026-06-23",
       "notes": ""
     }
   ]

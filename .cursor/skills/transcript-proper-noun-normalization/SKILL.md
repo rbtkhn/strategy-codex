@@ -4,7 +4,7 @@ description: DEPRECATED 2026-06-21. Redirect to source-clean for statecraft arch
 preferred_activation: proper noun normalization
 activation: proper noun normalization
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -36,6 +36,29 @@ synced_by: sync_portable_skills.py
 When the operator says **`proper noun normalization`** on a **statecraft archive** file, say you are following **`source-clean`** and execute [source-clean/SKILL.md](../source-clean/SKILL.md).
 
 For **raw-input** files under `strategy-notebook/raw-input/` only (not yet archived), apply the same **conservative proper-noun** contract manually or land via intake first, then **`source-clean`**.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- unresolved names must be listed
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance

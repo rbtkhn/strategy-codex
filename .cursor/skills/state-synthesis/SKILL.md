@@ -4,7 +4,7 @@ description: Turn a landed statecraft archive day batch into a bounded daily syn
 preferred_activation: state synthesis
 activation: state synthesis
 portable: true
-version: 0.3.1
+version: 0.3.2
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -267,22 +267,29 @@ The day or month ends with a bounded, reusable synthesis note under `statecraft/
 
 Do not call this complete unless:
 
-- day batch exists under `source-archive/statecraft/<day>/` with at least one landed source
-- synthesis output path under `statecraft/synthesis/day/` (or explicit month surface) is named
-- crisis object is stated in one line in the synthesis
-- synthesis does not mirror verbatim archive bodies
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- synthesis date/window and archive inputs must be named
 
 Evidence to report:
 
-- archive day path and source count
-- synthesis file path
-- one-line crisis object
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+- archive day path and source count under `source-archive/statecraft/<day>/`
+- synthesis file path under `statecraft/synthesis/day/` (or explicit month surface)
+- one-line crisis object stated in the synthesis
+- synthesis does not mirror verbatim archive bodies
 - optional receipt ledger rows when wire-ins applied
 
 If verification cannot be completed:
 
-- state whether archive batch or synthesis file is missing
-- downgrade to candidate-only language; do not claim daily promotion
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance

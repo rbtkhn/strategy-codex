@@ -4,7 +4,7 @@ description: 'DEPRECATED 2026-06-20. Do not use for new strategy-codex capture. 
 preferred_activation: youtube transcript
 activation: youtube transcript
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -34,6 +34,29 @@ Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strate
 ## Legacy script (no new archive writes)
 
 `python scripts/materialize_youtube_raw_input.py` remains on disk for archaeology and receipt replay only. New captures must use **`source-*`** filenames under `source-archive/statecraft/`.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- transcript provenance must be stated
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance

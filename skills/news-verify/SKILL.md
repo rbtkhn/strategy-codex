@@ -4,7 +4,7 @@ description: "Triage tier-3 contemporary reported claims (news media, official r
 preferred_activation: news verify
 activation: news verify
 portable: true
-version: 1.6.0
+version: 1.6.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -479,6 +479,29 @@ Existing thread weaves use **news-verify** informally for roster/title checks (e
 | Iran/PRC/Russia wording | Native primary per **fact-check** + `daily-brief-*-watch.md` |
 | Full day batch | **`state synthesis`** with verify column |
 | Public copy | **`skill-write`** after verify — do not skip |
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- claim tier and source class must be stated
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 ## Sync
 

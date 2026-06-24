@@ -4,7 +4,7 @@ description: 'Apply packet-first strategist discipline to a mixed live seam: ide
 preferred_activation: packet-first
 activation: packet-first
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -171,6 +171,29 @@ That is the feel of this skill: protect the seam from elegance before it earns i
 ## Success condition
 
 The seam is easier to reuse later, the evidence boundary is clearer, and future synthesis is less likely to flatten layered signals into false certainty.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- packet scope and excluded material must be named
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 
 ## Cursor / strategy-codex instance
