@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T01:08:38.469694+00:00",
+  "generated_at": "2026-06-24T01:17:37.173750+00:00",
   "row_count": 114,
   "skills": [
     {
@@ -1188,7 +1188,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "state-america",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1202,7 +1202,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "state-china",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1213,7 +1213,7 @@
       "cursor_target": ".cursor/skills/state-deploy/SKILL.md",
       "portable_source": "",
       "category": "domain-pack",
-      "status": "active",
+      "status": "archived",
       "replacement_or_parent": "",
       "activation_trigger": "state-deploy",
       "proof_standard": "missing",
@@ -1244,7 +1244,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "state-persia",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },
@@ -1258,7 +1258,7 @@
       "status": "active",
       "replacement_or_parent": "",
       "activation_trigger": "state-russia",
-      "proof_standard": "missing",
+      "proof_standard": "present",
       "last_modified": "2026-06-23",
       "notes": ""
     },

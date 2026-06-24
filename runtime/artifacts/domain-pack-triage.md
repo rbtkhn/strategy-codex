@@ -1,8 +1,8 @@
 # Domain-pack triage (generated)
 
-Generated: `2026-06-24T01:08:38Z`
+Generated: `2026-06-24T01:17:37Z`
 
-Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:08:38Z`)
+Inventory source: `runtime/artifacts/skill-inventory.json` (generated `2026-06-24T01:17:37Z`)
 
 Regenerate:
 
@@ -16,8 +16,8 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 ## Summary
 
 - **Total domain-pack rows:** 48
-- **By disposition:** ARCHIVE: 11 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 25
-- **Active + proof_standard missing:** 16 (target after full pass: 0–3)
+- **By disposition:** ARCHIVE: 12 | KEEP_ACTIVE: 10 | PROMOTE_TO_PORTABLE: 1 | REDIRECT: 1 | REVIEW_WITH_OPERATOR: 24
+- **Active + proof_standard missing:** 11 (target after full pass: 0–3)
 
 > **Note:** `civ-state-volume-architect` is **not** domain-pack — it is `legacy-redirect` → `civ-state` in the skill inventory.
 
@@ -41,11 +41,11 @@ Disposition SSOT: [`scripts/domain_pack_dispositions.yaml`](../scripts/domain_pa
 
 | name | location | manifest_listed | cursor_only | status | proof_standard | current_trigger | proposed_disposition | replacement_or_runbook | reason | risk |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| state-america | cursor-only | False | True | active | missing | state-america | KEEP_ACTIVE |  | Active lane opener; frequently invoked | low |
-| state-china | cursor-only | False | True | active | missing | state-china | KEEP_ACTIVE |  | Active lane opener; frequently invoked | low |
-| state-deploy | cursor-only | False | True | active | missing | state-deploy | REVIEW_WITH_OPERATOR |  | Lane router; archive unless operator confirms active use | medium |
-| state-persia | cursor-only | False | True | active | missing | state-persia | KEEP_ACTIVE |  | Active lane opener; frequently invoked | low |
-| state-russia | cursor-only | False | True | active | missing | state-russia | KEEP_ACTIVE |  | Active lane opener; frequently invoked | low |
+| state-america | cursor-only | False | True | active | present | state-america | KEEP_ACTIVE |  | Active state lane opener; proof standard present. | low |
+| state-china | cursor-only | False | True | active | present | state-china | KEEP_ACTIVE |  | Active state lane opener; proof standard present. | low |
+| state-deploy | cursor-only | False | True | archived | missing | state-deploy | ARCHIVE | operator ship loop / transaction path | Unconfirmed deployment helper; archived Commit 7. | low |
+| state-persia | cursor-only | False | True | active | present | state-persia | KEEP_ACTIVE |  | Active state lane opener; proof standard present. | low |
+| state-russia | cursor-only | False | True | active | present | state-russia | KEEP_ACTIVE |  | Active state lane opener; proof standard present. | low |
 
 ## Country culture (art / lit / god)
 

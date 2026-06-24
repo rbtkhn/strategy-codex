@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T01:08:38Z`
+Generated: `2026-06-24T01:17:37Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 
@@ -92,12 +92,12 @@ Total rows: **114**
 | speaker-relations-membrane | cursor-only | False | .cursor/skills/speaker-relations-membrane/SKILL.md |  | legacy-redirect | deprecated | speaker-shelf-maintenance | speaker membrane | missing | 2026-06-23 |  |
 | speaker-shelf-hygiene | cursor-only | False | .cursor/skills/speaker-shelf-hygiene/SKILL.md |  | legacy-redirect | deprecated | speaker-shelf-maintenance | speaker shelf | missing | 2026-06-23 |  |
 | speaker-structural-continuity | cursor-only | False | .cursor/skills/speaker-structural-continuity/SKILL.md |  | legacy-redirect | deprecated | speaker-shelf-maintenance | speaker continuity | missing | 2026-06-23 |  |
-| state-america | cursor-only | False | .cursor/skills/state-america/SKILL.md |  | domain-pack | active |  | state-america | missing | 2026-06-23 |  |
-| state-china | cursor-only | False | .cursor/skills/state-china/SKILL.md |  | domain-pack | active |  | state-china | missing | 2026-06-23 |  |
-| state-deploy | cursor-only | False | .cursor/skills/state-deploy/SKILL.md |  | domain-pack | active |  | state-deploy | missing | 2026-06-23 |  |
+| state-america | cursor-only | False | .cursor/skills/state-america/SKILL.md |  | domain-pack | active |  | state-america | present | 2026-06-23 |  |
+| state-china | cursor-only | False | .cursor/skills/state-china/SKILL.md |  | domain-pack | active |  | state-china | present | 2026-06-23 |  |
+| state-deploy | cursor-only | False | .cursor/skills/state-deploy/SKILL.md |  | domain-pack | archived |  | state-deploy | missing | 2026-06-23 |  |
 | state-note | both | True | .cursor/skills/state-note/SKILL.md | state-note/SKILL.md | truth-pipeline | active |  |  | present | 2026-06-23 |  |
-| state-persia | cursor-only | False | .cursor/skills/state-persia/SKILL.md |  | domain-pack | active |  | state-persia | missing | 2026-06-23 |  |
-| state-russia | cursor-only | False | .cursor/skills/state-russia/SKILL.md |  | domain-pack | active |  | state-russia | missing | 2026-06-23 |  |
+| state-persia | cursor-only | False | .cursor/skills/state-persia/SKILL.md |  | domain-pack | active |  | state-persia | present | 2026-06-23 |  |
+| state-russia | cursor-only | False | .cursor/skills/state-russia/SKILL.md |  | domain-pack | active |  | state-russia | present | 2026-06-23 |  |
 | state-synthesis | both | True | .cursor/skills/state-synthesis/SKILL.md | state-synthesis/SKILL.md | truth-pipeline | active |  | state synthesis | present | 2026-06-23 |  |
 | statecraft-bridge | cursor-only | False | .cursor/skills/statecraft-bridge/SKILL.md |  | domain-pack | active |  | statecraft-bridge | missing | 2026-06-23 |  |
 | statecraft-framework | both | True | .cursor/skills/statecraft-framework/SKILL.md | statecraft-framework/SKILL.md | judgment-enhancement | archived |  | statecraft framework | missing | 2026-06-23 |  |

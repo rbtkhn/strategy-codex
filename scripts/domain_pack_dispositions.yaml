@@ -56,41 +56,37 @@ skills:
   # --- State-lane openers (cursor-only) ---
   state-america:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: Active lane opener; frequently invoked
+    reason: Active state lane opener; proof standard present.
     risk: low
     cluster: state-lane
 
   state-china:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: Active lane opener; frequently invoked
+    reason: Active state lane opener; proof standard present.
     risk: low
     cluster: state-lane
 
   state-persia:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: Active lane opener; frequently invoked
+    reason: Active state lane opener; proof standard present.
     risk: low
     cluster: state-lane
 
   state-russia:
     proposed_disposition: KEEP_ACTIVE
-    post_disposition: ADD_PROOF_STANDARD
     replacement_or_runbook: null
-    reason: Active lane opener; frequently invoked
+    reason: Active state lane opener; proof standard present.
     risk: low
     cluster: state-lane
 
   state-deploy:
-    proposed_disposition: REVIEW_WITH_OPERATOR
-    replacement_or_runbook: null
-    reason: Lane router; archive unless operator confirms active use
-    risk: medium
+    proposed_disposition: ARCHIVE
+    replacement_or_runbook: operator ship loop / transaction path
+    reason: Unconfirmed deployment helper; archived Commit 7.
+    risk: low
     cluster: state-lane
 
   # --- Country culture (art/lit/god) — archived Commit 4 ---

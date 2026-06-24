@@ -13,7 +13,7 @@ scope_class: repo-governed
 
 Open this lane when the live object turns on strategic depth, parity, recognition, disruption under control, or how Russia preserves optionality without becoming trapped by another actor's escalation calendar.
 
-Short doctrine: `state-deploy` decides the lane. `state-russia` decides what Russia can legitimately draft, carry, accept, reject, and institutionalize.
+Short doctrine: when invoked directly, Russia owns the object. For unresolved lane ownership, use inline deploy judgment via [`transaction-router.md`](../../../statecraft/sheets/transaction-router.md) or a direct lane pick — do not assume an active deployment skill.
 
 Fast lane rule: classify the object first as `parity`, `depth`, `timing`, or `entrapment`, then draft from the dominant failure mode rather than from generic Russia posture.
 
@@ -43,7 +43,7 @@ Secondary tests:
 
 - Assume Russia already owns the object unless the operator explicitly asks for deployment or comparison.
 - Decide what Russia can legitimately draft, carry, accept, reject, and institutionalize.
-- If the object is obviously cross-lane or not honestly Russia-owned, say so and hand back toward `state-deploy` or a comparison path.
+- If the object is obviously cross-lane or not honestly Russia-owned, say so and hand to lane comparison, [`transaction-router.md`](../../../statecraft/sheets/transaction-router.md), or a direct owning-lane pick.
 
 Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending. If the pair is not already obvious, use the [six-term checklist](../../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) or **`periodic-statecraft-review`** runbook (`statecraft-framework` archived).
 
@@ -160,3 +160,34 @@ Do not directly rewrite:
 - `empire/`
 - `state/`
 - `transactions/`
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- the state lane is named
+- the source floor or current evidence basis is named
+- the output class is named: opener, routing note, advisory memo, source-intake handoff, synthesis handoff, transaction candidate, or no-change review
+- the authority boundary is stated: advisory, work-only, generated, source, or transaction candidate
+- the next route is named, or explicitly marked `no next route`
+- uncertainty, stale context, missing sources, or unresolved contradictions are stated
+- identify whether the Russia question is military, industrial, diplomatic, economic, civilizational, domestic-political, or escalation-control related
+- distinguish Moscow official posture from analyst interpretation
+
+Evidence to report:
+
+- files or surfaces read
+- sources, indexes, or syntheses consulted
+- files touched or produced
+- runbooks or skills invoked
+- confidence downgrade, if any
+
+If verification cannot be completed:
+
+- state what was not verified
+- do not publish, promote, merge, or create a transaction object
+- return a bounded partial result for operator review
+
+**Completion standard:** `state-russia` is complete only when the Russia lane object, source basis, and official-vs-interpretive boundary are explicit.
+
+**Avoid:** Do not treat analyst claims about Russia as official Russian posture without verification.
