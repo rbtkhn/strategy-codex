@@ -4,7 +4,7 @@ description: "Manual invoke: source-intake. Land operator transcripts via sideca
 preferred_activation: source-intake
 activation: source-intake
 portable: true
-version: 0.4.13
+version: 0.4.14
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -370,7 +370,7 @@ python scripts/statecraft_day_source_index.py --latest --queue
 
 Routing SSOT: [LLM-ROUTING.md](../../../LLM-ROUTING.md) · bounded-path rule: [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
 
-## Verification and closeout
+## Verification / Proof Standard
 
 Use a simple Windows-safe verification sequence matched to the active mode.
 
@@ -719,32 +719,3 @@ Do not add speculative speaker lanes for unresolved names. If a participant does
 ## Success condition
 
 The source ends as a **real full-source archive object** in the canonical statecraft source archive, filed under the right family, with honest provenance and no archive/control-plane drift.
-
-## Verification / Proof Standard
-
-Do not call this complete unless:
-
-- the input source, file, paste, URL, or archive path is named
-- the output surface is named
-- skipped steps are explicitly marked with a reason
-- uncertainty, missing evidence, or unresolved source defects are stated
-- archive path and publication date must be verified
-
-Evidence to report:
-
-- files touched or produced
-- scripts or commands run
-- source URLs, archive paths, or transcript identifiers used
-- confidence downgrade, if any
-- `source-archive/statecraft/<day>/source-*.md` exists with non-empty body (not stub-only)
-- YAML frontmatter includes honest `kind`, provenance, and source URL or explicit unknown
-- family/filename pattern matches the intake family decision
-- sidecar merge completed when chunked land applied (`land_statecraft_source_body.py` receipt or equivalent)
-- day-index refresh run or explicit deferral stated
-- land command exit code when script path used
-
-If verification cannot be completed:
-
-- state what was not verified
-- stop before archive land, synthesis, publication, or promotion
-- return a bounded partial result for operator review

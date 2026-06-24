@@ -1,6 +1,6 @@
 # Skill inventory (generated)
 
-Generated: `2026-06-24T00:10:40Z`
+Generated: `2026-06-24T00:17:36Z`
 
 Regenerate: `python3 scripts/generate_skill_inventory.py`
 

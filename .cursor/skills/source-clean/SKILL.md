@@ -4,7 +4,7 @@ description: Post-land ASR and proper-noun cleanup for statecraft source-archive
 preferred_activation: source-clean
 activation: source-clean
 portable: true
-version: 1.1.1
+version: 1.1.2
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -70,7 +70,7 @@ Agents: import `source_clean_statecraft.clean_capture` in-process for batch work
 - Preserve prior `editorial_note` provenance markers (trim/sponsor/cold-open) when merging
 - Never hide uncertainty — leave ambiguous terms or note in `editorial_note`
 
-## Closeout
+## Verification / Proof Standard
 
 Report:
 
@@ -80,6 +80,28 @@ Report:
 - idempotent re-run (expect **0** subs when already clean)
 - **residual ASR** — pattern grep hits after pass (see below); do not imply "fully clean" when hits remain
 - git durability: on disk / not committed / not pushed
+
+Do not call this complete unless:
+
+- the input source, file, paste, URL, or archive path is named
+- the output surface is named
+- skipped steps are explicitly marked with a reason
+- uncertainty, missing evidence, or unresolved source defects are stated
+- source body preservation must be checked (line/word count stable; no scaffold truncation)
+
+Evidence to report:
+
+- files touched or produced
+- scripts or commands run
+- source URLs, archive paths, or transcript identifiers used
+- confidence downgrade, if any
+- `python scripts/source_clean_statecraft.py --path <capture>` exit 0 (or `--dry-run` preview matches intent)
+
+If verification cannot be completed:
+
+- state what was not verified
+- stop before archive land, synthesis, publication, or promotion
+- return a bounded partial result for operator review
 
 ## Intake ladder (automated → manual)
 
@@ -145,34 +167,6 @@ Agents: import `fix_statecraft_common_asr_entities.apply_replacements` in-proces
 ## Cursor / strategy-codex instance
 
 **Windows fail-over (manual ASR after `source-clean`):** if Shell or `python -c` batch replace **interrupts** on the capture path, stop Shell for that thread and patch via `StrReplace` or one full-file `Write` (post-land cleanup only — not initial sidecar intake); do not retry the same batch shape. RLJ: [§ 2026-06-21 post-land ASR fail-over](../../statecraft/recursive-learning-journal.md#2026-06-21---post-land-asr-cleanup-shell-fail-over-windows) · [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
-
-## Verification / Proof Standard
-
-Do not call this complete unless:
-
-- the input source, file, paste, URL, or archive path is named
-- the output surface is named
-- skipped steps are explicitly marked with a reason
-- uncertainty, missing evidence, or unresolved source defects are stated
-- source body preservation must be checked (line/word count stable; no scaffold truncation)
-
-Evidence to report:
-
-- files touched or produced
-- scripts or commands run
-- source URLs, archive paths, or transcript identifiers used
-- confidence downgrade, if any
-- `python scripts/source_clean_statecraft.py --path <capture>` exit 0 (or `--dry-run` preview matches intent)
-- series / entity / thread substitution counts and whether body/frontmatter changed
-- re-run on same file yields 0 new substitutions when already clean
-- transcript argument preserved; `editorial_note` still marks not human-verified verbatim
-- VTT/manual-subtitle captures used `--no-scaffold` when full scaffold would truncate
-
-If verification cannot be completed:
-
-- state what was not verified
-- stop before archive land, synthesis, publication, or promotion
-- return a bounded partial result for operator review
 
 ## Related
 
