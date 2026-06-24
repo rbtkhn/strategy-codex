@@ -77,16 +77,17 @@ def ensure_clone(clone_dir: Path, branch: str) -> None:
 def refresh_ph_civ_index() -> None:
     env = os.environ.copy()
     env["PYTHONPATH"] = str(MIRROR_DIR / "src")
-    proc = subprocess.run(
-        [sys.executable, "-m", "civ_ph.cli", "index"],
-        cwd=MIRROR_DIR,
-        env=env,
-        text=True,
-        capture_output=True,
-        check=False,
-    )
-    if proc.returncode != 0:
-        raise RuntimeError(proc.stderr or proc.stdout or "ph-civ index failed")
+    for command in ("index", "surface-inventory", "surface-triage"):
+        proc = subprocess.run(
+            [sys.executable, "-m", "civ_ph.cli", command],
+            cwd=MIRROR_DIR,
+            env=env,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if proc.returncode != 0:
+            raise RuntimeError(proc.stderr or proc.stdout or f"ph-civ {command} failed")
 
 
 def publish(
