@@ -56,5 +56,5 @@ def test_violation_message_points_to_external_repo() -> None:
 
     assert "canonical public Predictive History repo" in message
     assert "public ph-civ source_id, pattern_id, and route references" in message
-    assert "Move canonical public Predictive History edits to `rbtkhn/ph-civ` instead." in message
+    assert "Move canonical public Predictive History edits to `rbtkhn/predictive-history` instead." in message
     assert "codex/predictive-history/STATUS.md" in message

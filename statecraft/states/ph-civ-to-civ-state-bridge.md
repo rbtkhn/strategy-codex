@@ -115,4 +115,4 @@ Use `civ-state` when you need:
 - Return to [PH-CIV Era Overlay Options](ph-civ-era-overlay-options.md) for future-facing overlay shapes that preserve `ph-civ`'s native architecture.
 - Return to the [Volume map](volumes/README.md) for the five civilization-state cases.
 - Return to the [Source retrieval matrix](indexes/source-retrieval-matrix.md) for default object lookup.
-- Return to the public `ph-civ` mirror at [public/ph-civ/README.md](../../public/ph-civ/README.md) when the insight still needs public chapter context rather than compressed doctrine.
+- Return to the public Predictive History corpus at [public/predictive-history/README.md](../../public/predictive-history/README.md) when the insight still needs public chapter context rather than compressed doctrine.

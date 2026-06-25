@@ -41,6 +41,9 @@ jobs:
       - name: Root file budget (strict)
         run: python3 scripts/assert_root_file_budget.py --strict
 
+      - name: Predictive History inbound mirror guard
+        run: python3 scripts/check_predictive_history_inbound_mirror.py --base origin/main
+
       - name: Generated manifest schema
         run: python3 scripts/check_generated_surfaces.py --manifest-only
 

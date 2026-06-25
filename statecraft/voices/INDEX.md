@@ -40,14 +40,14 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Wilkerson | [wilkerson/wilkerson-source-index.md](wilkerson/wilkerson-source-index.md) |
 | Weichert | [weichert/weichert-source-index.md](weichert/weichert-source-index.md) |
 
-**Jiang special case:** [jiang/jiang-source-index.md](jiang/jiang-source-index.md) is the provenance bench. PH reading lattice lives at [public/ph-civ/docs/source-lattice.md](../../public/ph-civ/docs/source-lattice.md) (repo-root mirror).
+**Jiang special case:** [jiang/jiang-source-index.md](jiang/jiang-source-index.md) is the provenance bench. PH reading lattice lives at [public/predictive-history/docs/source-lattice.md](../../public/predictive-history/docs/source-lattice.md) (inbound snapshot).
 
 ## Source index vs source-lattice
 
 - **Source index** (this file and `*-source-index.md`) answers **where**: which materialized captures exist and which file to open first.
 - **Source-lattice** answers **how / when**: layer order so summary, commentary, and synthesis do not replace the source floor.
 
-After routing through a source index into [source-archive/statecraft/](../../source-archive/statecraft/), apply [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers). PH chapter objects additionally use [public/ph-civ/docs/source-lattice.md](../../public/ph-civ/docs/source-lattice.md).
+After routing through a source index into [source-archive/statecraft/](../../source-archive/statecraft/), apply [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers). PH chapter objects additionally use [public/predictive-history/docs/source-lattice.md](../../public/predictive-history/docs/source-lattice.md).
 
 Tier-4 commentary cannot substantiate tier-3 wire claims without receipts. See source-lattice doctrine for blocking rules.
 

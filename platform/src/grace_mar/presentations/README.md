@@ -102,4 +102,4 @@ The checked-in example shows a WORK-safe exhibit deck path:
 
 - `ce-mus-hormuz.packet.json`: WORK-safe strategic object sequence -> operator-facing exhibit deck
 
-Legacy public museum packet example (`ph-mus-gt16.packet.json`) remains in the examples folder for archaeology only; the `ph-mus` subsurface was retired. See [`public/ph-civ/docs/archive/ph-mus-retired.md`](../../../public/ph-civ/docs/archive/ph-mus-retired.md).
+Legacy public museum packet example (`ph-mus-gt16.packet.json`) remains in the examples folder for archaeology only; the `ph-mus` subsurface was retired. See [`public/predictive-history/docs/archive/ph-mus-retired.md`](../../../public/predictive-history/docs/archive/ph-mus-retired.md).

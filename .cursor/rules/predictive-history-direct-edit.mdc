@@ -1,0 +1,41 @@
+---
+description: Predictive History corpus — direct-edit in canonical repo; inbound-only mirror in strategy-codex
+globs:
+  - public/predictive-history/**
+  - codex/predictive-history/**
+  - docs/predictive-history*.md
+  - scripts/sync_predictive_history_mirror.py
+  - scripts/check_predictive_history_inbound_mirror.py
+---
+
+# Predictive History — direct edit (inbound mirror)
+
+**Canonical repo:** [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) · operator workspace: [docs/predictive-history-operator-workspace.md](../../docs/predictive-history-operator-workspace.md)
+
+## Forbidden in strategy-codex
+
+- Corpus edits under **`public/predictive-history/`** except inbound-sync maintenance (`MIRROR-RECEIPT.md`, `DO-NOT-EDIT.md`) or commits tagged **`[predictive-history-sync]`** from `sync_predictive_history_mirror.py`
+- Using **`publish_public_ph_civ.py`** (deprecated — exits with error)
+- Treating **`codex/predictive-history/`** as a live ship surface
+
+## EXECUTE path for PH corpus
+
+- Set **`PREDICTIVE_HISTORY_ROOT`** (default `C:\dev\predictive-history`; shims: `PH_CIV_ROOT`, `PREDICTIVE_HISTORY_ROOT`)
+- Edit, validate, commit, push in the **canonical clone**
+- Refresh snapshot: `python scripts/sync_predictive_history_mirror.py` → commit **`[predictive-history-sync]`**
+
+## Unchanged names (do not conflate)
+
+- In-repo surfaces **`ph-civ/`**, **`ph-apo/`** — Volume I/II directories inside the canonical repo
+- Card IDs **`civ-07`**, **`essay-01`**, **`gt-24`** — unchanged
+- CLI **`ph-civ validate`** — unchanged
+
+## Public links
+
+Use **`https://github.com/rbtkhn/predictive-history/...`** — not `rbtkhn/predictive-history` (redirect only).
+
+## Allowed in strategy-codex
+
+- Read/cite **`public/predictive-history/`** for review packets and synthesis
+- Boundary docs, rollout queues, strategy commentary referencing public IDs
+- Inbound sync commits only via the sync script + tagged commit

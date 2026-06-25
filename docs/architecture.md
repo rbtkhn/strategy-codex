@@ -102,7 +102,7 @@ Full fork doctrine: [`docs/archive/grace-mar.md`](archive/grace-mar.md).
 
 ## External boundaries
 
-- **Predictive History public corpus:** [`public/ph-civ/`](../public/ph-civ/) only; ship via `scripts/publish_public_ph_civ.py` — see [`predictive-history-external-boundary.md`](predictive-history-external-boundary.md).
+- **Predictive History public corpus:** read [`public/predictive-history/`](../public/predictive-history/) (inbound snapshot); author in canonical repo — see [`predictive-history-external-boundary.md`](predictive-history-external-boundary.md).
 - **Legacy strategy-notebook path:** compatibility only — [`skill-work/work-strategy/DEFAULT-PATH.md`](skill-work/work-strategy/DEFAULT-PATH.md).
 
 ## Related

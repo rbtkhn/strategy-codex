@@ -17,16 +17,20 @@ RECEIPT_NAME = "MIRROR-RECEIPT.md"
 UPSTREAM_SHA_RE = re.compile(r"^\-\s\*\*Upstream commit:\*\*\s`([0-9a-f]{7,40})`", re.MULTILINE)
 
 PUBLIC_MIRRORS = {
+    "predictive-history": {
+        "path": "public/predictive-history",
+        "remote": "https://github.com/rbtkhn/predictive-history.git",
+    },
     "ph-civ": {
-        "path": "public/ph-civ",
-        "remote": "https://github.com/rbtkhn/ph-civ.git",
+        "path": "public/predictive-history",
+        "remote": "https://github.com/rbtkhn/predictive-history.git",
     },
     "civ-state": {
         "path": "public/civ-state",
         "remote": "https://github.com/rbtkhn/civ-state.git",
     },
 }
-DEFAULT_MIRROR = PUBLIC_MIRRORS["ph-civ"]["path"]
+DEFAULT_MIRROR = PUBLIC_MIRRORS["predictive-history"]["path"]
 
 
 def run_git(args: list[str], cwd: Path) -> tuple[int, str, str]:
@@ -132,15 +136,15 @@ def resolve_mirror(mirror: str, remote_url: str | None) -> tuple[str, str]:
     if mirror in PUBLIC_MIRRORS:
         spec = PUBLIC_MIRRORS[mirror]
         return spec["path"], remote_url or spec["remote"]
-    return mirror, remote_url or PUBLIC_MIRRORS["ph-civ"]["remote"]
+    return mirror, remote_url or PUBLIC_MIRRORS["predictive-history"]["remote"]
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--mirror",
-        default="ph-civ",
-        help="Mirror slug (ph-civ, civ-state) or path (public/ph-civ)",
+        default="predictive-history",
+        help="Mirror slug (predictive-history, ph-civ alias, civ-state) or mirror path",
     )
     parser.add_argument("--remote-url", default=None)
     parser.add_argument("--branch", default="main")

@@ -8,7 +8,7 @@ The default model remains the trust-first doorway rollout. A separate local pilo
 
 - **Phase 1:** one top-level trust-first comment per video, using the chapter-folder doorway packet from `ph-civ`.
 
-The retired `ph-mus` exhibit follow-up phase was removed from the mirror vision. See [`public/ph-civ/docs/archive/ph-mus-retired.md`](../../../../public/ph-civ/docs/archive/ph-mus-retired.md).
+The retired `ph-mus` exhibit follow-up phase was removed from the mirror vision. See [`public/predictive-history/docs/archive/ph-mus-retired.md`](../../../../public/predictive-history/docs/archive/ph-mus-retired.md).
 
 ## Canonical sources
 

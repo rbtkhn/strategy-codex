@@ -8,7 +8,7 @@ These examples make the `family + subsurface + intent` taxonomy concrete.
 Use them to sanity-check packet shape, adapter expectations, and the product story:
 
 - `ce-mus` turns strategic object sequences into operator-facing exhibit decks
-- `ph-mus` adapter support was removed; see [`public/ph-civ/docs/archive/ph-mus-retired.md`](../../../../public/ph-civ/docs/archive/ph-mus-retired.md)
+- `ph-mus` adapter support was removed; see [`public/predictive-history/docs/archive/ph-mus-retired.md`](../../../../public/predictive-history/docs/archive/ph-mus-retired.md)
 
 Example bundle command:
 

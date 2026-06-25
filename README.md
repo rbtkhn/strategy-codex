@@ -8,6 +8,8 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **strategy-codex** is that harness for **statecraft** and **singularity** work — a **governed interpretive machine** that does not try to be the model; it governs how models, operators, sources, and judgment objects interact.
 
+**Membrane** = an authority boundary that defines what a surface may contain, cite, mutate, promote, export, or regenerate. See [docs/work-membrane-v2.md](docs/work-membrane-v2.md).
+
 **Deeper read:** [docs/intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md)
 
 **Grace-Mar fork (frozen archaeology):** Not a system objective. Record under [`archive/grace-mar-instance/`](archive/grace-mar-instance/). **Canonical archive doctrine:** [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · boundary [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md) · CLI [`docs/archive/grace-mar-compatibility.md`](docs/archive/grace-mar-compatibility.md).
@@ -64,6 +66,8 @@ Model-portable harness (not a single-vendor stack): [docs/intelligence-harness.m
 **System map (mermaid), promotion ladder, and operator ship loop:** [docs/start-here.md](docs/start-here.md) — do not duplicate here.
 
 **Active system design:** [docs/architecture.md](docs/architecture.md) · [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md) · [docs/harness-architecture-map.md](docs/harness-architecture-map.md)
+
+**Promotion is governed, not ambient.** No artifact becomes more authoritative merely because it was summarized, reused, exported, or generated. Membrane SSOT: [docs/work-membrane-v2.md](docs/work-membrane-v2.md).
 
 **Frozen Grace-Mar Record (fork revive only):** [docs/archive/grace-mar.md](docs/archive/grace-mar.md) · [docs/canonical-paths.md](docs/canonical-paths.md) · extended rules: [docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md)
 

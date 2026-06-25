@@ -48,7 +48,7 @@ Full permission table: [`docs/agent-rules/deep-rules.md`](docs/agent-rules/deep-
 |---|---|
 | Generated outputs | Regenerate via documented scripts; do not hand-edit drift-prone indexes |
 | `archive/grace-mar-instance/` Record | No direct edits unless **`fork revive`**; merge via `process_approved_candidates.py --apply` only |
-| `public/ph-civ/` | Publish only via `scripts/publish_public_ph_civ.py` |
+| `public/predictive-history/` | Inbound read-only — edit canonical `rbtkhn/predictive-history`; refresh via `sync_predictive_history_mirror.py` |
 
 **Record merge invariant:** do not edit `archive/grace-mar-instance/self.md`, `self-archive.md`, `recursion-gate.md`, or `bot/prompt.py` by hand — merge through the gated pipeline after approval.
 

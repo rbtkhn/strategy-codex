@@ -82,7 +82,7 @@ def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
     lines = handoff_mod.build_ship_receipt(
         status_lines=[
             " M statecraft/synthesis/day/2026-06-08.md",
-            " M public/ph-civ/README.md",
+            " M public/predictive-history/README.md",
             "?? singularity/workshop/README.md",
         ],
         branch_lines=["main"],

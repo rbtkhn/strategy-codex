@@ -44,7 +44,7 @@ Turn a bounded arc into chapter seeds and optional PH-CIV spine extensions.
 1. Run **`arc-to-chapter-seeds`** on bounded arc.
 2. When PH lane active, invoke **`predictive-history-chapter-spine`** (Cursor).
 3. Route drafts to part writers only on explicit operator pick.
-4. Stop before public publish — use `publish_public_ph_civ.py` when shipping.
+4. Stop before public publish — edit and push `rbtkhn/predictive-history`; optional inbound sync in strategy-codex.
 
 ## Human Approval Points
 

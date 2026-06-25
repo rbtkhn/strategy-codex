@@ -317,7 +317,7 @@ routes:
   category: work
 - id: ph-civ-source-lattice
   title: PH-CIV source-lattice
-  path: public/ph-civ/docs/source-lattice.md
+  path: public/predictive-history/docs/source-lattice.md
   kind: reading_discipline
   authority: work_only
   domain:

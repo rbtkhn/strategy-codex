@@ -16,16 +16,16 @@ from validate_ph_civ_transcript_boundary import (  # noqa: E402
 def test_blocks_mirror_prefixed_transcript_paths() -> None:
     blocked, allowed = classify_paths(
         [
-            "public/ph-civ/book/volume-ii/civ-07/civ-07-transcript.md",
-            "public/ph-civ/book/volume-ii/civ-07/civ-07-commentary.md",
+            "public/predictive-history/book/volume-ii/civ-07/civ-07-transcript.md",
+            "public/predictive-history/book/volume-ii/civ-07/civ-07-commentary.md",
         ]
     )
 
     assert blocked == [
-        "public/ph-civ/book/volume-ii/civ-07/civ-07-transcript.md"
+        "public/predictive-history/book/volume-ii/civ-07/civ-07-transcript.md"
     ]
     assert allowed == [
-        "public/ph-civ/book/volume-ii/civ-07/civ-07-commentary.md"
+        "public/predictive-history/book/volume-ii/civ-07/civ-07-commentary.md"
     ]
 
 
@@ -61,7 +61,7 @@ def test_allows_boundary_maintenance_paths() -> None:
 
 def test_violation_message_documents_escape_hatch() -> None:
     message = format_violation_message(
-        ["public/ph-civ/book/volume-ii/civ-09/civ-09-transcript.md"]
+        ["public/predictive-history/book/volume-ii/civ-09/civ-09-transcript.md"]
     )
 
     assert "PH-CIV transcript boundary violation" in message

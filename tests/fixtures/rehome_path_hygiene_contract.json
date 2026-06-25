@@ -10,14 +10,14 @@
     "codex/years/2025",
     "codex/years/2026",
     "public",
-    "public/ph-civ"
+    "public/predictive-history"
   ],
   "forbidden_roots": [
     "codex/2025",
     "codex/2026"
   ],
   "mirror_receipt": {
-    "path": "public/ph-civ/MIRROR-RECEIPT.md",
+    "path": "public/predictive-history/MIRROR-RECEIPT.md",
     "forbidden_file": ".gitmodules"
   },
   "stale_content_patterns": [

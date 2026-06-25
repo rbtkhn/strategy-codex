@@ -14,7 +14,7 @@ def test_build_queue_rows_resolves_phase_one_and_phase_two(tmp_path: Path) -> No
 
     phase1 = next(row for row in rows if row["source_id"] == "gt-16" and row["phase"] == 1)
     assert phase1["status"] == "ready"
-    assert phase1["target_url"].startswith("https://github.com/rbtkhn/ph-civ/tree/main/")
+    assert phase1["target_url"].startswith("https://github.com/rbtkhn/predictive-history/tree/main/")
     assert "ChatGPT, Claude, or Grok" in phase1["comment_draft"]
     assert "ph-civ" in phase1["comment_draft"]
 

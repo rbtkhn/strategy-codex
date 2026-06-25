@@ -13,9 +13,9 @@ The original freeze boundary landed in two commits on `main`:
 
 The canonical public Predictive History repo is:
 
-- [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ)
+- [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)
 
-`ph-civ` is the two-volume public artifact containing the `ph-civ` and `ph-apo` surfaces: lecture transcripts, companion commentaries, cards, routes, and public pattern IDs. The vendored mirror under `public/ph-civ/` may lead GitHub between publishes.
+`ph-civ` is the two-volume public artifact containing the `ph-civ` and `ph-apo` surfaces. **`public/predictive-history/`** in strategy-codex is an **inbound read-only snapshot** — author in the canonical repo; refresh via `sync_predictive_history_mirror.py`.
 
 Inside `strategy-codex`, Predictive History is now an **external observed public project**, not a local production lane.
 
@@ -60,7 +60,7 @@ Allowed Predictive History work in `strategy-codex` now looks like:
 
 The standard flow is:
 
-1. Do public writing and curation in [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ).
+1. Do public writing and curation in [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history).
 2. Bring a bounded packet or public ID into `strategy-codex`.
 3. Ask for one or more of:
    - editorial critique
