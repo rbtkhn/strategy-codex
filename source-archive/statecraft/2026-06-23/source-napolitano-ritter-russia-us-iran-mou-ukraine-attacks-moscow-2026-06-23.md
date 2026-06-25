@@ -28,6 +28,43 @@ quality_note: Fresh intake 2026-06-23.
 napolitano_cold_open_trim_applied: true
 napolitano_close_promo_trim_applied: true
 napolitano_leading_noise_trim_applied: true
+
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-23-wire-verify-matrix.md
+verify:
+  - claim: Senate 50-48 adopts H.Con.Res. 86 — instruct Trump remove US forces from Iran hostilities
+    verdict: partial
+    note: J23-31 CNN Jun 23; Military Times Jun 24 — symbolic concurrent resolution; WH hostilities-ended frame
+  - claim: Keir Starmer out / UK political collapse (Ritter)
+    verdict: partial
+    note: J23-32 BBC Jun 22 — resignation announced; remains PM until Labour contest
+  - claim: Merz gone as German Chancellor (Ritter)
+    verdict: contradicted
+    note: J23-33 MNI Jun 23; GOV.UK G7 Jun 15 — do not wire-upgrade tier-4 gone
+  - claim: Project Brakestop — UK long-range strike tests; reach Moscow from Kiev
+    verdict: supported
+    note: J23-34 Yahoo syndication; Independent; Army-Technology
+  - claim: British direct operational role in Storm Shadow strikes (Peskov / Ritter)
+    verdict: contested
+    note: J23-35 Reuters Peskov Mar 11; Perception Daily Voronezh Jun 23 — no UK MoD 3a confirm
+  - claim: SPIEF opening day St Petersburg drone strikes (3 Jun)
+    verdict: supported
+    note: J23-36 France24 Jun 3; BBC Rosenberg Jun 7
+  - claim: Starobelsk 21 killed — slaughter of teenagers (Ritter)
+    verdict: contested
+    note: J23-37 Wikipedia/EMERCOM vs Kyiv Independent military-target framing
+  - claim: MoU no-threat during negotiations vs Trump post-sign bomb/resume threats
+    verdict: contested
+    note: J23-38 MOU text BBC; Time Jun 17; Swissinfo Baghaei violation — verify:executive-investigative-split
+  - claim: Trump negotiator threat — won't even make it back (21 Jun)
+    verdict: supported
+    note: J23-39 Islamabad Memorandum chronology; The Hill Jun 23
+  - claim: Lavrov US agreement incapable on MoU execution (Ritter attribution)
+    verdict: unclear
+    note: J23-40 Straits Times Lavrov Jun 23 thematic — exact English MoU phrase not located
+  - claim: AGM-188 prototypes not scheduled before Oct 2026 (Ritter)
+    verdict: unclear
+    note: J23-41 not corroborated in batch pass — escalate defense procurement primary
 ---
 
 # Scott Ritter: Russia and US/Iran MoU; Ukraine Attacks Moscow
