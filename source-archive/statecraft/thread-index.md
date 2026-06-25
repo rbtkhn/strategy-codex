@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 ## Stats
 
 - Distinct threads: `70`
-- Thread-linked source files: `3073`
+- Thread-linked source files: `3075`
 - Covered days: `471`
 - Covered months: `22`
 
@@ -41,13 +41,13 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `aguilar` | 15 | 14 | 4 | `Dialogue Works` (8), `Mario Nawfal` (3), `Moral Resistance` (3) | `Nima Alkhorshid` (8), `Sulaiman Ahmed` (2), `Mario Nawfal` (1) | `2026-02-27` | `2026-06-20` |
 | `jiang` | 15 | 13 | 4 | `Predictive History` (11), `Glenn Diesen` (2) | `Jiang Xueqin` (10), `Glenn Diesen` (2), `Predictive History` (2) | `2026-01-05` | `2026-06-13` |
 | `krainer` | 14 | 14 | 8 | `Dialogue Works` (9), `Glenn Diesen` (4), `Diesen` (1) | `Nima Alkhorshid` (9), `Glenn Diesen` (4), `Diesen` (1) | `2025-01-18` | `2026-06-19` |
+| `weichert` | 14 | 12 | 2 | `Mario Nawfal` (11), `Breaking Points` (1), `Redacted News` (1) | `Mario Nawfal` (7), `Breaking Points` (1), `Clayton Morris` (1) | `2026-05-17` | `2026-06-24` |
 | `kent` | 13 | 10 | 4 | `Daniel Davis Deep Dive` (4), `Mario Nawfal` (4), `Tucker Carlson` (1) | `Daniel Davis` (4), `Mario Nawfal` (2), `Tucker Carlson` (1) | `2026-03-18` | `2026-06-16` |
-| `weichert` | 13 | 11 | 2 | `Mario Nawfal` (11), `Breaking Points` (1), `Redacted News` (1) | `Mario Nawfal` (7), `Breaking Points` (1), `Clayton Morris` (1) | `2026-05-17` | `2026-06-23` |
 | `jermy` | 12 | 11 | 7 | `Daniel Davis Deep Dive` (7), `Neutrality Studies` (3), `Glenn Diesen` (2) | (none) | `2025-11-06` | `2026-06-20` |
 | `beebe` | 10 | 10 | 10 | `Glenn Diesen` (10) | `Glenn Diesen` (10) | `2025-04-16` | `2026-05-14` |
 | `krapivnik` | 10 | 10 | 4 | `Dialogue Works` (4), `The Duran` (2), `Glenn Diesen` (2) | `Nima Alkhorshid` (4), `Alex Christoforou` (2), `Glenn Diesen` (2) | `2025-02-25` | `2026-06-20` |
 | `armstrong` | 9 | 9 | 7 | `Dialogue Works` (7), `Glenn Diesen` (1), `Reinvent Money` (1) | `Nima Alkhorshid` (7), `Glenn Diesen` (1), `Paul Buitink` (1) | `2025-02-19` | `2026-06-05` |
-| `carlson` | 8 | 8 | 6 | `Tucker Carlson` (6), `The Tucker Carlson Show` (1) | `Tucker Carlson` (7) | `2025-03-11` | `2026-06-15` |
+| `carlson` | 9 | 9 | 6 | `Tucker Carlson` (7), `The Tucker Carlson Show` (1) | `Tucker Carlson` (7) | `2025-03-11` | `2026-06-24` |
 | `blumenthal` | 7 | 7 | 3 | `Judging Freedom` (4), `YouTube` (1), `Mario Nawfal` (1) | `Andrew Napolitano` (4), `Nemo` (1), `Mario Nawfal` (1) | `2026-04-21` | `2026-06-24` |
 | `dialogue-works` | 7 | 3 | 2 | `Dialogue Works` (7) | `Nima Alkhorshid` (7) | `2025-07-20` | `2026-03-16` |
 | `hoh` | 7 | 7 | 2 | `Judging Freedom` (4), `Dialogue Works` (3) | `Nima Alkhorshid` (3), `Andrew Napolitano` (2) | `2026-05-20` | `2026-06-23` |

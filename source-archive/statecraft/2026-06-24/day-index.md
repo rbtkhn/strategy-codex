@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
-- Channel sources: `9`
+- Source files: `10`
+- Channel sources: `10`
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (8), `cleaned-transcript` (1)
-- Source form mix: `interview` (9)
-- Distinct channels/shows: `6`
-- Distinct hosts: `6`
-- Distinct guests: `8`
-- Distinct threads: `13`
+- Body kind mix: `transcript` (9), `cleaned-transcript` (1)
+- Source form mix: `interview` (10)
+- Distinct channels/shows: `7`
+- Distinct hosts: `7`
+- Distinct guests: `9`
+- Distinct threads: `15`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (3), `Daniel Davis Deep Dive` (2), `Dialogue Works` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Moral Resistance` (1)
+- `Judging Freedom` (3), `Daniel Davis Deep Dive` (2), `Dialogue Works` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Moral Resistance` (1), `Tucker Carlson` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (3), `Daniel Davis` (2), `Glenn Diesen` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1), `Sulaiman Ahmed` (1)
-- Guests: `Trita Parsi` (2), `Aaron Maté` (1), `Alastair Crooke` (1), `Glenn Diesen` (1), `Larry C. Johnson` (1), `Larry Johnson` (1), `Max Blumenthal` (1), `Mohammad Marandi` (1)
-- Threads: `napolitano` (3), `davis` (2), `diesen` (2), `johnson` (2), `parsi` (2), `alkorshid` (1), `blumenthal` (1), `crooke` (1), `marandi` (1), `mate` (1), `moral-resistance` (1), `nawfal` (1), `nima` (1)
+- Hosts: `Andrew Napolitano` (3), `Daniel Davis` (2), `Glenn Diesen` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1), `Sulaiman Ahmed` (1), `Tucker Carlson` (1)
+- Guests: `Trita Parsi` (2), `Aaron Maté` (1), `Alastair Crooke` (1), `Brandon J. Weichert` (1), `Glenn Diesen` (1), `Larry C. Johnson` (1), `Larry Johnson` (1), `Max Blumenthal` (1), `Mohammad Marandi` (1)
+- Threads: `napolitano` (3), `davis` (2), `diesen` (2), `johnson` (2), `parsi` (2), `alkorshid` (1), `blumenthal` (1), `carlson` (1), `crooke` (1), `marandi` (1), `mate` (1), `moral-resistance` (1), `nawfal` (1), `nima` (1), `weichert` (1)
 
 ## Channel sources
 
@@ -41,6 +41,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [_t-06g6fEXk](https://www.youtube.com/watch?v=_t-06g6fEXk) | `source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md` |
 | `judging-freedom` | Judging Freedom | `mate`, `napolitano` | [yUMgg-xaeQs](https://www.youtube.com/watch?v=yUMgg-xaeQs) | `source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md` |
 | `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [VaXq6HQAaMM](https://www.youtube.com/watch?v=VaXq6HQAaMM) | `source-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md` |
+| `tucker-carlson` | Tucker Carlson | `weichert`, `carlson` | [q72s8zwwGg4](https://www.youtube.com/watch?v=q72s8zwwGg4) | `source-weichert-carlson-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md` |
 
 ## Writer sources
 
@@ -69,3 +70,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md`
 - `source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md`
 - `source-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md`
+- `source-weichert-carlson-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md`

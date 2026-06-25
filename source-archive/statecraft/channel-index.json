@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-25T12:13:43+00:00",
+  "generated_at": "2026-06-25T14:15:38+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
   "stats": {
     "main_channel_count": 14,
-    "file_count": 1482,
+    "file_count": 1483,
     "watchlist_count": 6,
     "discoverable_count": 14,
     "explicit_slug_count": 14
@@ -155,15 +155,15 @@
     {
       "slug": "tucker-carlson",
       "label": "Tucker Carlson",
-      "file_count": 6,
-      "day_count": 6,
+      "file_count": 7,
+      "day_count": 7,
       "watchlist": false,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@TuckerCarlson",
       "first_day": "2025-03-11",
-      "last_day": "2026-06-15",
+      "last_day": "2026-06-24",
       "channel_id": "UCGttrUON87gWfU6dMWm1fcA"
     },
     {
