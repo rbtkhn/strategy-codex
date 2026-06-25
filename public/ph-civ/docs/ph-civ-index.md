@@ -1,4 +1,4 @@
-<!-- ph-civ-index-fingerprint: 12e4fcd6b4f2c767 -->
+<!-- ph-civ-index-fingerprint: a95b3e3c42359c9a -->
 # ph-civ Chapter Index
 
 Canonical catalog of every public Predictive History lecture chapter in this repository.
@@ -19,7 +19,7 @@ YouTube and Substack source URLs appear in the **Video** column below and in [`d
 
 ## Volume I — Civilization (law discovery)
 
-**Surface:** `ph-civ` · **Chapters:** 78
+**Surface:** `ph-civ` · **Chapters:** 83
 
 ### Civilization
 
@@ -116,7 +116,7 @@ YouTube and Substack source URLs appear in the **Video** column below and in [`d
 
 ## Volume II — Apocalypse (law application)
 
-**Surface:** `ph-apo` · **Chapters:** 73
+**Surface:** `ph-apo` · **Chapters:** 68
 
 ### Geo-Strategy
 
@@ -200,16 +200,6 @@ YouTube and Substack source URLs appear in the **Video** column below and in [`d
 | `sh-26` | Secret History #26: Faith of Evil | `in_review` | 13,914 | [transcript](../book/volume-vi/sh-26/sh-26-transcript.md) | [commentary](../book/volume-vi/sh-26/sh-26-commentary.md) | [folder](../book/volume-vi/sh-26/README.md) | [video](https://www.youtube.com/watch?v=kULUM_eB8KI) |
 | `sh-27` | Secret History #27: Empire of Evil | `in_review` | 13,607 | [transcript](../book/volume-vi/sh-27/sh-27-transcript.md) | [commentary](../book/volume-vi/sh-27/sh-27-commentary.md) | [folder](../book/volume-vi/sh-27/README.md) | [video](https://www.youtube.com/watch?v=ZPrecJHUOUs) |
 | `sh-28` | Secret History #28: Pax Judaica | `in_review` | 15,120 | [transcript](../book/volume-vi/sh-28/sh-28-transcript.md) | [commentary](../book/volume-vi/sh-28/sh-28-commentary.md) | [folder](../book/volume-vi/sh-28/README.md) | [video](https://www.youtube.com/watch?v=WFWizN3QoPg) |
-
-### Essays
-
-| Source ID | Title | Review | Words | Transcript | Commentary | Folder | Video |
-| --- | --- | --- | ---: | --- | --- | --- | --- |
-| `sub-33` | World War Trump | `in_review` | 1,300 | [transcript](../book/volume-vii/sub-33/sub-33-transcript.md) | [commentary](../book/volume-vii/sub-33/sub-33-commentary.md) | [folder](../book/volume-vii/sub-33/README.md) | [video](https://predictivehistory.substack.com/p/world-war-trump) |
-| `sub-34` | The US-Iran War, Round Two | `in_review` | 1,251 | [transcript](../book/volume-vii/sub-34/sub-34-transcript.md) | [commentary](../book/volume-vii/sub-34/sub-34-commentary.md) | [folder](../book/volume-vii/sub-34/README.md) | [video](https://predictivehistory.substack.com/p/the-us-iran-war-round-two) |
-| `sub-35` | The Trump New Deal | `in_review` | 1,296 | [transcript](../book/volume-vii/sub-35/sub-35-transcript.md) | [commentary](../book/volume-vii/sub-35/sub-35-commentary.md) | [folder](../book/volume-vii/sub-35/README.md) | [video](https://predictivehistory.substack.com/p/the-trump-new-deal) |
-| `sub-36` | God Emperor Trump | `in_review` | 1,207 | [transcript](../book/volume-vii/sub-36/sub-36-transcript.md) | [commentary](../book/volume-vii/sub-36/sub-36-commentary.md) | [folder](../book/volume-vii/sub-36/README.md) | [video](https://predictivehistory.substack.com/p/god-emperor-trump) |
-| `sub-37` | China's Third Center Strategy | `in_review` | 1,928 | [transcript](../book/volume-vii/sub-37/sub-37-transcript.md) | [commentary](../book/volume-vii/sub-37/sub-37-commentary.md) | [folder](../book/volume-vii/sub-37/README.md) | [video](https://predictivehistory.substack.com/p/chinas-third-center-strategy) |
 
 ## Full alphabetical index
 
@@ -361,8 +351,8 @@ YouTube and Substack source URLs appear in the **Video** column below and in [`d
 | `sh-26` | Secret History #26: Faith of Evil | `in_review` | 13,914 | [transcript](../book/volume-vi/sh-26/sh-26-transcript.md) | [commentary](../book/volume-vi/sh-26/sh-26-commentary.md) | [folder](../book/volume-vi/sh-26/README.md) | [video](https://www.youtube.com/watch?v=kULUM_eB8KI) |
 | `sh-27` | Secret History #27: Empire of Evil | `in_review` | 13,607 | [transcript](../book/volume-vi/sh-27/sh-27-transcript.md) | [commentary](../book/volume-vi/sh-27/sh-27-commentary.md) | [folder](../book/volume-vi/sh-27/README.md) | [video](https://www.youtube.com/watch?v=ZPrecJHUOUs) |
 | `sh-28` | Secret History #28: Pax Judaica | `in_review` | 15,120 | [transcript](../book/volume-vi/sh-28/sh-28-transcript.md) | [commentary](../book/volume-vi/sh-28/sh-28-commentary.md) | [folder](../book/volume-vi/sh-28/README.md) | [video](https://www.youtube.com/watch?v=WFWizN3QoPg) |
-| `sub-33` | World War Trump | `in_review` | 1,300 | [transcript](../book/volume-vii/sub-33/sub-33-transcript.md) | [commentary](../book/volume-vii/sub-33/sub-33-commentary.md) | [folder](../book/volume-vii/sub-33/README.md) | [video](https://predictivehistory.substack.com/p/world-war-trump) |
-| `sub-34` | The US-Iran War, Round Two | `in_review` | 1,251 | [transcript](../book/volume-vii/sub-34/sub-34-transcript.md) | [commentary](../book/volume-vii/sub-34/sub-34-commentary.md) | [folder](../book/volume-vii/sub-34/README.md) | [video](https://predictivehistory.substack.com/p/the-us-iran-war-round-two) |
-| `sub-35` | The Trump New Deal | `in_review` | 1,296 | [transcript](../book/volume-vii/sub-35/sub-35-transcript.md) | [commentary](../book/volume-vii/sub-35/sub-35-commentary.md) | [folder](../book/volume-vii/sub-35/README.md) | [video](https://predictivehistory.substack.com/p/the-trump-new-deal) |
-| `sub-36` | God Emperor Trump | `in_review` | 1,207 | [transcript](../book/volume-vii/sub-36/sub-36-transcript.md) | [commentary](../book/volume-vii/sub-36/sub-36-commentary.md) | [folder](../book/volume-vii/sub-36/README.md) | [video](https://predictivehistory.substack.com/p/god-emperor-trump) |
-| `sub-37` | China's Third Center Strategy | `in_review` | 1,928 | [transcript](../book/volume-vii/sub-37/sub-37-transcript.md) | [commentary](../book/volume-vii/sub-37/sub-37-commentary.md) | [folder](../book/volume-vii/sub-37/README.md) | [video](https://predictivehistory.substack.com/p/chinas-third-center-strategy) |
+| `sub-33` | World War Trump | `in_review` | 1,300 | [transcript](../essays/sub-33/sub-33-transcript.md) | [commentary](../essays/sub-33/sub-33-commentary.md) | [folder](../essays/sub-33/README.md) | [video](https://predictivehistory.substack.com/p/world-war-trump) |
+| `sub-34` | The US-Iran War, Round Two | `in_review` | 1,251 | [transcript](../essays/sub-34/sub-34-transcript.md) | [commentary](../essays/sub-34/sub-34-commentary.md) | [folder](../essays/sub-34/README.md) | [video](https://predictivehistory.substack.com/p/the-us-iran-war-round-two) |
+| `sub-35` | The Trump New Deal | `in_review` | 1,296 | [transcript](../essays/sub-35/sub-35-transcript.md) | [commentary](../essays/sub-35/sub-35-commentary.md) | [folder](../essays/sub-35/README.md) | [video](https://predictivehistory.substack.com/p/the-trump-new-deal) |
+| `sub-36` | God Emperor Trump | `in_review` | 1,207 | [transcript](../essays/sub-36/sub-36-transcript.md) | [commentary](../essays/sub-36/sub-36-commentary.md) | [folder](../essays/sub-36/README.md) | [video](https://predictivehistory.substack.com/p/god-emperor-trump) |
+| `sub-37` | China's Third Center Strategy | `in_review` | 1,928 | [transcript](../essays/sub-37/sub-37-transcript.md) | [commentary](../essays/sub-37/sub-37-commentary.md) | [folder](../essays/sub-37/README.md) | [video](https://predictivehistory.substack.com/p/chinas-third-center-strategy) |

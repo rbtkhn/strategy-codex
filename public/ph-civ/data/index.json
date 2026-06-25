@@ -1316,7 +1316,7 @@
       "title": "Secret History #28: Pax Judaica"
     },
     {
-      "part": "world-war",
+      "part": "civilization",
       "path": "data/cards/sub-33.md",
       "placement_weight": "strong",
       "review_status": "in_review",
@@ -1325,7 +1325,7 @@
       "title": "World War Trump"
     },
     {
-      "part": "world-war",
+      "part": "civilization",
       "path": "data/cards/sub-34.md",
       "placement_weight": "strong",
       "review_status": "in_review",
@@ -1334,7 +1334,7 @@
       "title": "The US-Iran War, Round Two"
     },
     {
-      "part": "world-war",
+      "part": "civilization",
       "path": "data/cards/sub-35.md",
       "placement_weight": "strong",
       "review_status": "in_review",
@@ -1343,7 +1343,7 @@
       "title": "The Trump New Deal"
     },
     {
-      "part": "world-war",
+      "part": "civilization",
       "path": "data/cards/sub-36.md",
       "placement_weight": "medium",
       "review_status": "in_review",
@@ -1352,7 +1352,7 @@
       "title": "God Emperor Trump"
     },
     {
-      "part": "world-war",
+      "part": "civilization",
       "path": "data/cards/sub-37.md",
       "placement_weight": "strong",
       "review_status": "in_review",

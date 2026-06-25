@@ -3,15 +3,15 @@ source_id: sub-36
 title: "God Emperor Trump"
 source_series: "Predictive History Essays"
 publication_date: 2026-05-01
-source_chapter_path: book/volume-vii/sub-36/sub-36-transcript.md
+source_chapter_path: essays/sub-36/sub-36-transcript.md
 source_corpus_path: corpus/essays/sub-36.md
 commentary_status: in-review
 review_status: source_reviewed
 annotation_status: drafted
 source_reviewed_at: 2026-05-19
 template_family: world-war-strategic-commentary
-part: world-war
-part_role: world-war
+part: civilization
+part_role: civilization
 representation_not_endorsement: true
 canvas_status: open
 analysis_depth: seed

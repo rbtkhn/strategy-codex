@@ -1207,40 +1207,40 @@
       "source_id": "sub-33",
       "bucket": "NEEDS_COMMENTARY_REVIEW",
       "review_status": "in_review",
-      "part": "world-war",
+      "part": "civilization",
       "series": "essays"
     },
     {
       "source_id": "sub-34",
       "bucket": "NEEDS_COMMENTARY_REVIEW",
       "review_status": "in_review",
-      "part": "world-war",
+      "part": "civilization",
       "series": "essays"
     },
     {
       "source_id": "sub-35",
       "bucket": "NEEDS_COMMENTARY_REVIEW",
       "review_status": "in_review",
-      "part": "world-war",
+      "part": "civilization",
       "series": "essays"
     },
     {
       "source_id": "sub-36",
       "bucket": "NEEDS_COMMENTARY_REVIEW",
       "review_status": "in_review",
-      "part": "world-war",
+      "part": "civilization",
       "series": "essays"
     },
     {
       "source_id": "sub-37",
       "bucket": "NEEDS_COMMENTARY_REVIEW",
       "review_status": "in_review",
-      "part": "world-war",
+      "part": "civilization",
       "series": "essays"
     }
   ],
-  "fingerprint": "7d1a8474f32ab6de",
-  "generated_at": "2026-06-24T14:54:31Z",
+  "fingerprint": "042b7cb4ab3acbb5",
+  "generated_at": "2026-06-25T00:36:56Z",
   "markdown_summary": "runtime/artifacts/public-surface-triage.md",
   "inventory_json": "data/public-surface-inventory.json"
 }

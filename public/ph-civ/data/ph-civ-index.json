@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "fingerprint": "12e4fcd6b4f2c767",
+  "fingerprint": "a95b3e3c42359c9a",
   "card_count": 151,
   "transcript_word_total": 1231850,
   "ssot": "data/cards.jsonl",
@@ -53,25 +53,25 @@
     "ph-civ": {
       "part": "civilization",
       "volume_label": "Volume I — Civilization (law discovery)",
-      "chapter_count": 78,
+      "chapter_count": 83,
       "series_counts": {
         "civilization": 60,
+        "essays": 5,
         "game-theory": 8,
         "great-books": 10
       },
-      "transcript_word_total": 643164
+      "transcript_word_total": 650146
     },
     "ph-apo": {
       "part": "world-war",
       "volume_label": "Volume II — Apocalypse (law application)",
-      "chapter_count": 73,
+      "chapter_count": 68,
       "series_counts": {
-        "essays": 5,
         "game-theory": 20,
         "geo-strategy": 20,
         "secret-history": 28
       },
-      "transcript_word_total": 588686
+      "transcript_word_total": 581704
     }
   },
   "chapters": [
@@ -3116,17 +3116,17 @@
     {
       "source_id": "sub-33",
       "title": "World War Trump",
-      "part": "world-war",
-      "surface": "ph-apo",
-      "volume_label": "Volume II — Apocalypse (law application)",
+      "part": "civilization",
+      "surface": "ph-civ",
+      "volume_label": "Volume I — Civilization (law discovery)",
       "series": "essays",
       "review_status": "in_review",
       "placement_weight": "strong",
       "paths": {
-        "transcript": "book/volume-vii/sub-33/sub-33-transcript.md",
-        "commentary": "book/volume-vii/sub-33/sub-33-commentary.md",
-        "folder": "book/volume-vii/sub-33",
-        "folder_readme": "book/volume-vii/sub-33/README.md"
+        "transcript": "essays/sub-33/sub-33-transcript.md",
+        "commentary": "essays/sub-33/sub-33-commentary.md",
+        "folder": "essays/sub-33",
+        "folder_readme": "essays/sub-33/README.md"
       },
       "transcript_word_count": 1300,
       "source_video_url": "https://predictivehistory.substack.com/p/world-war-trump",
@@ -3137,17 +3137,17 @@
     {
       "source_id": "sub-34",
       "title": "The US-Iran War, Round Two",
-      "part": "world-war",
-      "surface": "ph-apo",
-      "volume_label": "Volume II — Apocalypse (law application)",
+      "part": "civilization",
+      "surface": "ph-civ",
+      "volume_label": "Volume I — Civilization (law discovery)",
       "series": "essays",
       "review_status": "in_review",
       "placement_weight": "strong",
       "paths": {
-        "transcript": "book/volume-vii/sub-34/sub-34-transcript.md",
-        "commentary": "book/volume-vii/sub-34/sub-34-commentary.md",
-        "folder": "book/volume-vii/sub-34",
-        "folder_readme": "book/volume-vii/sub-34/README.md"
+        "transcript": "essays/sub-34/sub-34-transcript.md",
+        "commentary": "essays/sub-34/sub-34-commentary.md",
+        "folder": "essays/sub-34",
+        "folder_readme": "essays/sub-34/README.md"
       },
       "transcript_word_count": 1251,
       "source_video_url": "https://predictivehistory.substack.com/p/the-us-iran-war-round-two",
@@ -3158,17 +3158,17 @@
     {
       "source_id": "sub-35",
       "title": "The Trump New Deal",
-      "part": "world-war",
-      "surface": "ph-apo",
-      "volume_label": "Volume II — Apocalypse (law application)",
+      "part": "civilization",
+      "surface": "ph-civ",
+      "volume_label": "Volume I — Civilization (law discovery)",
       "series": "essays",
       "review_status": "in_review",
       "placement_weight": "strong",
       "paths": {
-        "transcript": "book/volume-vii/sub-35/sub-35-transcript.md",
-        "commentary": "book/volume-vii/sub-35/sub-35-commentary.md",
-        "folder": "book/volume-vii/sub-35",
-        "folder_readme": "book/volume-vii/sub-35/README.md"
+        "transcript": "essays/sub-35/sub-35-transcript.md",
+        "commentary": "essays/sub-35/sub-35-commentary.md",
+        "folder": "essays/sub-35",
+        "folder_readme": "essays/sub-35/README.md"
       },
       "transcript_word_count": 1296,
       "source_video_url": "https://predictivehistory.substack.com/p/the-trump-new-deal",
@@ -3179,17 +3179,17 @@
     {
       "source_id": "sub-36",
       "title": "God Emperor Trump",
-      "part": "world-war",
-      "surface": "ph-apo",
-      "volume_label": "Volume II — Apocalypse (law application)",
+      "part": "civilization",
+      "surface": "ph-civ",
+      "volume_label": "Volume I — Civilization (law discovery)",
       "series": "essays",
       "review_status": "in_review",
       "placement_weight": "medium",
       "paths": {
-        "transcript": "book/volume-vii/sub-36/sub-36-transcript.md",
-        "commentary": "book/volume-vii/sub-36/sub-36-commentary.md",
-        "folder": "book/volume-vii/sub-36",
-        "folder_readme": "book/volume-vii/sub-36/README.md"
+        "transcript": "essays/sub-36/sub-36-transcript.md",
+        "commentary": "essays/sub-36/sub-36-commentary.md",
+        "folder": "essays/sub-36",
+        "folder_readme": "essays/sub-36/README.md"
       },
       "transcript_word_count": 1207,
       "source_video_url": "https://predictivehistory.substack.com/p/god-emperor-trump",
@@ -3200,17 +3200,17 @@
     {
       "source_id": "sub-37",
       "title": "China's Third Center Strategy",
-      "part": "world-war",
-      "surface": "ph-apo",
-      "volume_label": "Volume II — Apocalypse (law application)",
+      "part": "civilization",
+      "surface": "ph-civ",
+      "volume_label": "Volume I — Civilization (law discovery)",
       "series": "essays",
       "review_status": "in_review",
       "placement_weight": "strong",
       "paths": {
-        "transcript": "book/volume-vii/sub-37/sub-37-transcript.md",
-        "commentary": "book/volume-vii/sub-37/sub-37-commentary.md",
-        "folder": "book/volume-vii/sub-37",
-        "folder_readme": "book/volume-vii/sub-37/README.md"
+        "transcript": "essays/sub-37/sub-37-transcript.md",
+        "commentary": "essays/sub-37/sub-37-commentary.md",
+        "folder": "essays/sub-37",
+        "folder_readme": "essays/sub-37/README.md"
       },
       "transcript_word_count": 1928,
       "source_video_url": "https://predictivehistory.substack.com/p/chinas-third-center-strategy",

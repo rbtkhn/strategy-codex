@@ -19,8 +19,8 @@ rights_note: "Operator-sourced copy for research; Substack is canonical. Do not 
 representation_not_endorsement: true
 review_status: source_reviewed
 source_reviewed_at: 2026-05-19
-part: world-war
-part_role: world-war
+part: civilization
+part_role: civilization
 capture_note: "Operator paste from Substack home permalink; public body preserved verbatim from companion capture."
 ---
 

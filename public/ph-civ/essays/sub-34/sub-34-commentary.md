@@ -3,15 +3,15 @@ source_id: sub-34
 title: "The US-Iran War, Round Two"
 source_series: "Predictive History Essays"
 publication_date: 2026-04-18
-source_chapter_path: book/volume-vii/sub-34/sub-34-transcript.md
+source_chapter_path: essays/sub-34/sub-34-transcript.md
 source_corpus_path: corpus/essays/sub-34.md
 commentary_status: in-review
 review_status: source_reviewed
 annotation_status: drafted
 source_reviewed_at: 2026-05-19
 template_family: world-war-strategic-commentary
-part: world-war
-part_role: world-war
+part: civilization
+part_role: civilization
 representation_not_endorsement: true
 canvas_status: open
 analysis_depth: seed
