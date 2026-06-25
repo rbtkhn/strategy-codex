@@ -80,13 +80,13 @@ Operational and adjacent artifacts that are **not** synthesis live in typed subf
 | [`watch/`](watch/) | Bounded operational watch windows | `*-72h-watch-run.md` |
 | [`reentry/`](reentry/) | Week hinges (navigation, not synthesis) | `YYYY-MM-weekN-start-here.md` |
 | [`intake/`](intake/) | Pre-synthesis queue surfaces | `*-intake-readiness.md`, digest template |
-| *(root)* | Compare, mechanism, arc, thread, risk | `YYYY-MM-DD-<slug>.md`, `arc-*`, `thread-*` |
+| *(root)* | Compare, mechanism, arc, thread, trend, conflict, risk | `YYYY-MM-DD-<slug>.md`, `arc-*`, `thread-*`, `trend-*`, `conflict-*`, `risk-*` |
 
 Legacy redirect stub: [`daily/`](../daily/README.md).
 
 ## Thread and arc (canonical draft)
 
-**Status:** shelf-native type law for temporal companions. **Forward-only** filenames (`thread-` / `arc-` prefixes); legacy `*-weave.md` and `*-arc-weave.md` paths may persist until recanonicalization ([Later Phases](#later-phases)).
+**Status:** shelf-native type law for temporal companions. **Forward-only** filenames (`thread-` / `arc-` / `trend-` / `conflict-` prefixes); legacy `*-weave.md` and `*-arc-weave.md` paths may persist until recanonicalization ([Later Phases](#later-phases)).
 
 ### Placement
 
@@ -103,7 +103,7 @@ Legacy redirect stub: [`daily/`](../daily/README.md).
 | **Shape** | **Solo** (primary alone across time) **or** **hosted/braided** (primary + hosts/interlocutors on the **same topic** across time). Other voices are receipt or counter-register layers, not co-primary owners |
 | **Evidence** | Each node anchors to a **landed archive capture** (or a named phase row that cites one) |
 
-**Not thread/arc:** same-moment multi-voice allocation → **compare**; two-beat continuity only → **compare** or a section inside a parent thread/arc; rolling open-ended chronology → **watch** / benchmark surfaces.
+**Not thread/arc:** same-moment multi-voice allocation → **compare**; two-beat continuity only → **compare** or a section inside a parent thread/arc; cross-voice directional movement over time → **trend**; bounded **war theater / kinetic contest** across phases and fronts → **conflict-**; operational watch windows → [`watch/`](#subfolder-taxonomy-2026-06); month coverage audit → benchmark / watchlist surfaces.
 
 ### Span split
 
@@ -192,6 +192,226 @@ Before `thread-` or `arc-` promotion:
 
 If step 3 fails, use **compare** or fold into an existing qualified parent.
 
+## Trend (canonical)
+
+**Status:** shelf-native type law for **topic-owned time series**. **Forward-only** filenames (`trend-` prefix).
+
+### Job
+
+Track **directional movement** of a cross-cutting phenomenon across time and voices — accelerating, stalling, reversing, or mixed — with:
+
+- a **current direction verdict** (provisional, revisable)
+- a **chronological log** (append one row per material beat)
+- **multi-voice receipt** without collapsing registers
+- **falsifiers** that would break or flip the trend read
+
+A trend note answers: *Is this object moving, and in which direction, across the corpus?*
+
+### Placement
+
+- **All trend notes live in `statecraft/notes/`** at the root (same as `arc-` / `thread-` / `risk-`).
+- Do **not** place trend companions under `statecraft/voices/<guest>/`.
+- Daily synthesis **links to** trend objects; it does **not** replace them when the phenomenon spans more than one day.
+
+### Grammar
+
+| Invariant | Rule |
+| --- | --- |
+| **Primary voice** | **None** — the **topic** owns the object (like **compare**, unlike **thread** / **arc**) |
+| **Topic** | One **bounded** phenomenon (kebab slug in filename) |
+| **Voices** | **Multi-voice** allowed — use a speaker/lane registry; tag each log row by dominant register |
+| **Nodes** | **≥ 3** material beats — landed archive captures and/or dated log rows that move direction or falsifier status |
+| **Evidence** | Each log row anchors to a **landed** `source-archive/statecraft/…` capture or a named synthesis day with explicit archive links |
+| **Span** | Open-ended or bounded; optional `span_start` / `span_end` in YAML; use `status: open` while the trend is live |
+
+**Minimum:** fewer than three beats → **not** a trend. Use **compare** (one day), a **daily synthesis** section, or fold into a parent **risk-** / **arc-** object.
+
+### Filename shape
+
+```text
+trend-<topic-slug>.md
+```
+
+Calendar span belongs in **YAML + prose**, not the filename (same convention as `arc-`). Add a suffix only when two trends share the same topic slug (e.g. `-gulf` vs `-implementation`).
+
+Examples:
+
+- `trend-china-ai-implementation.md`
+- `trend-regional-security-architecture.md`
+- `trend-us-gulf-base-drawdown.md`
+
+### Optional YAML (recommended on promote)
+
+```yaml
+note_type: trend
+topic: <kebab-slug>
+span_start: YYYY-MM-DD       # optional
+span_end: YYYY-MM-DD         # optional; omit when open
+status: open | closed | paused
+direction: accelerating | stalling | reversing | mixed   # current verdict; revise in prose
+parent_risk: <notes-relative-path>   # optional — when a risk register owns failure modes
+parent_arc: <notes-relative-path>    # optional — when a voice arc owns one register lane
+lanes: [<lane-slug>, ...]            # optional — when multiple sub-tracks exist
+```
+
+### Required sections (promotion shape)
+
+1. **Purpose** — what phenomenon is tracked; what “direction” means here
+2. **Direction verdict** — one paragraph + optional table (current read; last revised date)
+3. **Chronological log** — append-only table: date · voice/source · lane · signal (one line) · archive path
+4. **Falsifiers / direction breaks** — what would flip or kill the trend read
+5. **Pointer law** — links to **risk-** routers, **compare** incidents, **arc-** / **thread-** primary-voice depth; **do not** mirror speaker note bodies
+
+Optional: **speaker/lane registry**, **stable baseline claims** (verify-before-quote tier).
+
+### vs adjacent types
+
+| | **Trend** | **Arc / thread** | **Risk-** | **Compare** | **`watch/` subfolder** |
+| --- | --- | --- | --- | --- | --- |
+| **Owner** | Topic | One primary voice | Topic (failure register) | Moment / day | Operational window |
+| **Time** | **≥ 3 beats**, often open-ended | Phased spine (≤30d thread; >30d arc) | Cross-time registers | One moment or one day | Bounded (e.g. 72h) |
+| **Job** | **Direction** + chronology | How **one register** moves | **What breaks** + routing law | **Who owns what here** | Live retest cadence |
+| **Voices** | Multi-voice | One primary (+ receipts) | Multi-voice | Multi-voice | Usually single incident |
+
+**Legacy `*-weave.md` absorption:** when the braid is multi-voice and **time-direction** is load-bearing → **trend-**; when the braid is a **live war theater** (phases, fronts, parties, kinetic vs negotiated mode) → **conflict-**; when same-day allocation only → **compare** or **daily synthesis**; when one voice phased → **thread-** / **arc-**; when failure registers dominate → **risk-**.
+
+### Qualification checklist
+
+Before `trend-` promotion:
+
+1. One bounded topic named?
+2. Count material beats (≥ 3)?
+3. Is **direction over time** the load-bearing question (not just risk allocation or one-voice phase)?
+4. Confirm path is `statecraft/notes/` and filename is `trend-<topic-slug>.md`.
+5. Link parent **risk-** or **arc-** when one exists — do not duplicate register routers.
+
+If step 2 fails → **compare** or daily section. If step 3 fails but registers + failure modes dominate → **risk-** instead.
+
+### Recanonicalization candidates (Phase 3)
+
+| Legacy path | Target prefix | Status |
+| --- | --- | --- |
+| ~~`china-ai-implementation-watch.md`~~ | `trend-china-ai-implementation.md` | **Merged 2026-06-24** — redirect stub remains |
+| Rolling `*-watch.md` at notes root (non-`watch/` subfolder) | `trend-*` when direction + chronology is the job | open |
+
+## Conflict (canonical)
+
+**Status:** shelf-native type law for **bounded war theaters**. **Forward-only** filenames (`conflict-` prefix).
+
+### Job
+
+Track a **live kinetic contest** — parties, **phases**, **fronts**, and **theater state** (kinetic / negotiated / hybrid / frozen) — across time and voices, with:
+
+- a **current theater verdict** (provisional, revisable)
+- a **phase log** (append one row per material escalation, ceasefire, MOU, or front shift)
+- **front map** — which geographic or policy fronts are active, coupled, or dormant
+- **multi-voice receipt** without collapsing registers
+- **falsifiers** that would change phase or theater state
+
+A conflict note answers: *Who is fighting whom, where, in what phase, and is the theater escalating or settling?*
+
+### Placement
+
+- **All conflict notes live in `statecraft/notes/`** at the root (same as `trend-` / `risk-`).
+- Do **not** place conflict companions under `statecraft/voices/<guest>/` or under CIV lane folders — lane notes (`america-*`, `persia-*`, `russia-*`) hold **volume-specific mechanism**; **conflict-** holds the **cross-lane theater object**.
+- Daily synthesis **links to** conflict objects when the day moves a theater; it does **not** replace a multi-day theater map.
+
+### Grammar
+
+| Invariant | Rule |
+| --- | --- |
+| **Primary voice** | **None** — the **theater** owns the object |
+| **Topic** | One **bounded** war theater (kebab slug in filename) |
+| **Voices** | **Multi-voice** — tag phase rows by dominant register; use speaker-function table when fronts split by register |
+| **Nodes** | **≥ 3** phase beats — landed captures and/or dated rows that move phase, front status, or theater verdict |
+| **Evidence** | Each phase row anchors to **landed** archive captures, wire hooks, or synthesis days with explicit links |
+| **Span** | Usually open while the theater is live; `status: open | frozen | closed` in YAML |
+
+**Minimum:** fewer than three phase beats → **not** a conflict. Use **compare**, a **daily synthesis** section, or a dated mechanism note (`persia-*`, `america-*`).
+
+### Filename shape
+
+```text
+conflict-<theater-slug>.md
+```
+
+Calendar span in **YAML + prose**, not the filename. Disambiguate with suffix when theaters overlap (e.g. `-mou` vs `-kinetic`).
+
+Examples:
+
+- `conflict-iran-mou-theater.md`
+- `conflict-ukraine-donbas-hinge.md`
+- `conflict-russia-europe-theater.md`
+- `conflict-lebanon-enforcement-front.md`
+
+### Optional YAML (recommended on promote)
+
+```yaml
+note_type: conflict
+topic: <kebab-slug>
+theater: <short label>          # e.g. Iran–US–Israel MOU theater
+span_start: YYYY-MM-DD
+span_end: YYYY-MM-DD            # optional
+status: open | frozen | closed
+theater_state: kinetic | negotiated | hybrid | frozen
+parent_risk: <notes-relative-path>
+parent_trend: <notes-relative-path>
+fronts: [<front-slug>, ...]
+parties: [<party-slug>, ...]     # optional — US, Iran, Israel, Hezbollah, etc.
+```
+
+### Required sections (promotion shape)
+
+1. **Purpose** — theater boundary; what counts as a phase shift
+2. **Theater verdict** — current phase + state (one paragraph; optional table)
+3. **Front map** — active / coupled / dormant fronts with one-line status each
+4. **Phase log** — append-only: date · phase label · front(s) · signal · archive/synthesis link
+5. **Party / register allocation** — who owns which front read (optional table)
+6. **Falsifiers / phase breaks** — what would advance phase or collapse theater state
+7. **Pointer law** — links to **risk-** (enforcement), **trend-** (macro direction), **compare** / **convergence** (same-day), CIV lane mechanism notes; **do not** mirror bodies
+
+### vs adjacent types
+
+| | **Conflict-** | **Trend-** | **Risk-** | **Compare** | **CIV lane note** (`america-*` / `persia-*`) |
+| --- | --- | --- | --- | --- | --- |
+| **Owner** | Theater | Topic phenomenon | Topic (failure register) | Moment / day | One CIV volume |
+| **Job** | **Phases + fronts + parties** | **Direction** + chronology | **What breaks** + routing | **Who owns what here** | Volume mechanism |
+| **Kinetic** | **Required** — armed/coercive contest | Optional | Optional | Optional | Optional |
+| **Time** | Phase log, often open | ≥ 3 beats | Cross-time registers | One moment | Usually one seam |
+
+**Legacy `*-weave.md` absorption:** MOU-week / Ukraine / Russia-Europe braids with **phase and front load-bearing** → **conflict-**; macro non-kinetic direction (e.g. regional security architecture maturing) → **trend-**; enforcement register routing → **risk-**.
+
+### Qualification checklist
+
+Before `conflict-` promotion:
+
+1. One bounded theater named?
+2. Count phase beats (≥ 3)?
+3. Is **phase / front / theater state** the load-bearing question?
+4. Confirm path is `statecraft/notes/` and filename is `conflict-<theater-slug>.md`.
+5. Link **parent risk-** and **parent trend-** when they exist — conflict owns the theater map, not duplicate registers.
+
+If step 3 fails but only direction matters → **trend-**. If only failure modes matter → **risk-**. If one CIV volume mechanism only → lane note, not conflict.
+
+### Recanonicalization candidates (Phase 3)
+
+| Legacy cluster / pattern | Target prefix |
+| --- | --- |
+| MOU-week multi-weave + round-3 child notes | `conflict-iran-mou-theater.md` (theater entry; cluster bodies stay) |
+| Cross-day Ukraine Donbas / Belarus escalation braids | `conflict-ukraine-donbas-hinge.md` |
+| Russia–collective-West theater (Mercouris/Diesen Jun 23–24) | `conflict-russia-europe-theater.md` |
+
+## Typed prefixes (quick routing)
+
+| Prefix | Owner | Time | Job |
+| --- | --- | --- | --- |
+| `thread-` | One primary voice | ≤ 30 days | Phased register spine |
+| `arc-` | One primary voice | > 30 days | Long phased register spine |
+| `trend-` | Topic | ≥ 3 beats, often open | Direction + chronology across voices |
+| `conflict-` | Theater | ≥ 3 phases, often open | Phases + fronts + kinetic state |
+| `risk-` | Topic | Cross-time | Failure registers + do-not-flatten routing |
+| *(dated slug)* | Varies | One day / seam | Compare, convergence, mechanism |
+
 ## Best Entry Points
 
 Read this shelf through a few live clusters rather than as one flat list.
@@ -236,12 +456,13 @@ Read this shelf through a few live clusters rather than as one flat list.
 
 ### Artificial intelligence cluster
 
-Cross-speaker AI object set — **do not merge speaker bodies**. Open [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) first for **risk register + agent routing**; open [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) for **chronology + falsifiers**.
+Cross-speaker AI object set — **do not merge speaker bodies**. Open [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) first for **risk register + agent routing**; open [trend-china-ai-implementation.md](./trend-china-ai-implementation.md) for **direction + chronology** (single hub).
 
 | Role | Note |
 | --- | --- |
 | **Entry / risk routing** | [risk-artificial-intelligence.md](./risk-artificial-intelligence.md) |
-| **Time-series hub** | [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) |
+| **Entry / trend routing** | [trend-china-ai-implementation.md](./trend-china-ai-implementation.md) |
+| **Legacy redirect** | [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) → trend (do not edit) |
 | **Speaker depth** | [pape-on-china-ai.md](./pape-on-china-ai.md) · [jiang-on-ai.md](./jiang-on-ai.md) · [barnes-on-ai.md](./barnes-on-ai.md) · [ritter-on-ai.md](./ritter-on-ai.md) · [weichert-on-ai.md](./weichert-on-ai.md) · [sachs-on-ai.md](./sachs-on-ai.md) |
 | **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
 | **Incident compare** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) |
@@ -251,10 +472,11 @@ Legacy redirect: [jiang-on-china-ai.md](./jiang-on-china-ai.md) → `jiang-on-ai
 
 ### MOU enforcement cluster (J18+)
 
-Cross-speaker MOU / settlement enforcement — **do not merge guest registers**. Open [risk-mou-enforcement.md](./risk-mou-enforcement.md) first for **risk register + agent routing**; open [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) for **J18 convergence spine**.
+Cross-speaker MOU / settlement enforcement — **do not merge guest registers**. Open [conflict-iran-mou-theater.md](./conflict-iran-mou-theater.md) first for **theater phases + fronts**; open [risk-mou-enforcement.md](./risk-mou-enforcement.md) for **risk register + agent routing**; open [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) for **J18 convergence spine**.
 
 | Role | Note |
 | --- | --- |
+| **Entry / conflict routing** | [conflict-iran-mou-theater.md](./conflict-iran-mou-theater.md) |
 | **Entry / risk routing** | [risk-mou-enforcement.md](./risk-mou-enforcement.md) |
 | **Convergence spine** | [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) |
 | **Episode / citation splits** | [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) |
@@ -388,12 +610,13 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - shelf-native America-side mechanism note
 - [june-2026-vance-lightning-rod-rubio-optionality-note.md](./june-2026-vance-lightning-rod-rubio-optionality-note.md) - shelf-native CIV-STATE-bridge note (Helmer × wire; **`civ-state-note`** v0.1.0)
 - [2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md](./2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md) - shelf-native CIV-STATE-bridge + wire-audit (Starobilsk tier-A; Ritter *Trail of Tears*)
-- **AI cluster** (shelf-native) — [risk-artificial-intelligence.md](./risk-artificial-intelligence.md), [china-ai-implementation-watch.md](./china-ai-implementation-watch.md), six `*-on-ai.md` speaker notes, [gulf-ai-architecture.md](./gulf-ai-architecture.md), [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md); full index at [§ Artificial intelligence cluster](#artificial-intelligence-cluster)
+- **AI cluster** (shelf-native) — [risk-artificial-intelligence.md](./risk-artificial-intelligence.md), [trend-china-ai-implementation.md](./trend-china-ai-implementation.md), six `*-on-ai.md` speaker notes, [gulf-ai-architecture.md](./gulf-ai-architecture.md), [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md); full index at [§ Artificial intelligence cluster](#artificial-intelligence-cluster)
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
 - [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) - shelf-native recursive-learning method note
 - [iran-war-inquiry-ladder-stress-test.md](./iran-war-inquiry-ladder-stress-test.md) - shelf-native recursive-learning stress-test note
-- [assistant-session-state-clarity-contract.md](./assistant-session-state-clarity-contract.md) - shelf-native reusable session-governance note
+- [trend-china-ai-implementation.md](./trend-china-ai-implementation.md) - shelf-native trend note (China AI; prefix exemplar)
+- [conflict-iran-mou-theater.md](./conflict-iran-mou-theater.md) - shelf-native conflict note (Iran MOU theater; prefix exemplar)
 
 ### Mirrored Legacy Promotion
 

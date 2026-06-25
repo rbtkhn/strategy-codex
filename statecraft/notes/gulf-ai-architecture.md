@@ -80,7 +80,7 @@ Route to [ritter-on-ai.md](./ritter-on-ai.md) / [weichert-on-ai.md](./weichert-o
 | 2026-05-30 | Crooke — Gulf data centers + AI bubble + abandonment |
 | 2026-06-09+ | Weichert — Gulf data centers in surveillance frame |
 
-Append rows in [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) when new captures move these falsifiers.
+Append rows in [trend-china-ai-implementation.md](./trend-china-ai-implementation.md) when new captures move these falsifiers.
 
 ## Best use
 
@@ -92,7 +92,7 @@ Open when the task is:
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md)
+- [China AI implementation watch](./trend-china-ai-implementation.md)
 - [Pape on China AI](./pape-on-china-ai.md)
 - [Jiang on AI](./jiang-on-ai.md)
 - [Weichert on AI](./weichert-on-ai.md)

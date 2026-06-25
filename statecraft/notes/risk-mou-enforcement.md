@@ -8,9 +8,9 @@ Preserve **load-bearing MOU / Iran-war settlement enforcement risks** in the sta
 
 **Primary reader:** agent routing (daily synthesis, MOU-week compare passes) — stop flattening non-substitutable registers.
 
-**Not this note:** J18 day convergence map ([june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md)), episode citation splits, wire-verify matrices, archive truth, or Pape arc depth ([arc-pape-escalation-trap.md](./arc-pape-escalation-trap.md)).
+**Not this note:** J18 day convergence map ([june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md)), episode citation splits, wire-verify matrices, archive truth, Pape arc depth ([arc-pape-escalation-trap.md](./arc-pape-escalation-trap.md)), or theater phase map ([conflict-iran-mou-theater.md](./conflict-iran-mou-theater.md)).
 
-**Cluster entry:** open here first when the task is **MOU enforcement risk in this corpus**; open convergence when the task is **what agreed / diverged on J18**; open falsifier watch when the task is **what to retest when**.
+**Cluster entry:** open [conflict-iran-mou-theater.md](./conflict-iran-mou-theater.md) when the task is **phases + fronts**; open **this note** when the task is **MOU enforcement risk registers**; open convergence when the task is **what agreed / diverged on J18**; open falsifier watch when the task is **what to retest when**.
 
 ## Risk register
 

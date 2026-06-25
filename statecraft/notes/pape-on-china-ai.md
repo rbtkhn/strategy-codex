@@ -85,7 +85,7 @@ Open when the task is:
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md) — time-series log and falsifiers
+- [China AI implementation watch](./trend-china-ai-implementation.md) — time-series log and falsifiers
 - [Jiang on AI](./jiang-on-ai.md)
 - [Barnes on AI](./barnes-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)

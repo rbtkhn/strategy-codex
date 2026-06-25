@@ -8,7 +8,7 @@ Preserve Scott Ritter's **bounded AI thesis** in the statecraft corpus: **AI-ass
 
 This is the canonical note-class prose home for this object. The Ritter shelf may point here for continuity; do not retain a parallel full-authority copy on the shelf.
 
-Verify tier: **analyst / investigative scenario** on Minab (Backpack Girls cites Anthropic/Claude — **speculative scenario** per source frontmatter); interview claims on Palantir/Lugansk are **assertion tier** until independently corroborated — see [watch verify receipt](./china-ai-implementation-watch.md#verify-receipts-2026-06-10).
+Verify tier: **analyst / investigative scenario** on Minab (Backpack Girls cites Anthropic/Claude — **speculative scenario** per source frontmatter); interview claims on Palantir/Lugansk are **assertion tier** until independently corroborated — see [watch verify receipt](./trend-china-ai-implementation.md#verify-receipts-2026-06-10).
 
 ## Core claim
 
@@ -106,7 +106,7 @@ Daily synthesis (implementation trap, **not** AI-specific): [2026-03-16-ritter-i
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md) — surveillance / war lane
+- [China AI implementation watch](./trend-china-ai-implementation.md) — surveillance / war lane
 - [Weichert on AI](./weichert-on-ai.md) — surveillance architecture; shared Minab/Palantir
 - [Sachs on AI](./sachs-on-ai.md) — moral / MIC read on Palantir–Minab
 - [Jiang on AI](./jiang-on-ai.md) — shared Minab/Palantir references, different frame

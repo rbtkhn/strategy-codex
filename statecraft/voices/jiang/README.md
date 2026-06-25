@@ -8,7 +8,7 @@ Use it for Jiang-facing statecraft routing, Predictive History mirror access, an
 
 ## Open First
 
-- [jiang-on-ai.md](../../notes/jiang-on-ai.md) — full AI thesis (GT-24–28, FM-01): bubble, Stargate, occult, surveillance; China partner strand; watch: [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
+- [jiang-on-ai.md](../../notes/jiang-on-ai.md) — full AI thesis (GT-24–28, FM-01): bubble, Stargate, occult, surveillance; China partner strand; watch: [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - [jiang-routing.md](jiang-routing.md)
 - [jiang-arc.md](jiang-arc.md)

@@ -22,7 +22,7 @@ For Barnes-facing analysis of method, rhetoric, and cross-host speaker function,
 For speaker-derived bounded prose that has been recanonicalized out of the
 shelf, open:
 
-- [barnes-on-ai.md](../../notes/barnes-on-ai.md) — bubble / liability / energy; watch: [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
+- [barnes-on-ai.md](../../notes/barnes-on-ai.md) — bubble / liability / energy; watch: [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 
 ## Canonical Structure
 

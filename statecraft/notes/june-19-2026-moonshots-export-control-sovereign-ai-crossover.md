@@ -66,7 +66,7 @@ Default tier for headline metrics and dates: **contested / panel-only** until wi
 
 - **Reach here when:** daily or MOU synthesis needs a **crossover pointer** on frontier access control without ingesting the full Moonshots abundance stack.
 - **Do not reach here when:** the job is RSI workshop doctrine — use singularity workshop sheet on the same capture instead.
-- **Pair with:** [`china-ai-implementation-watch.md`](./china-ai-implementation-watch.md) for sovereign/open-weight pivot; America/Persia/Rome lanes on export-control **primary** when wire-verify runs.
+- **Pair with:** [`trend-china-ai-implementation.md`](./trend-china-ai-implementation.md) for sovereign/open-weight pivot; America/Persia/Rome lanes on export-control **primary** when wire-verify runs.
 
 ## Next use
 

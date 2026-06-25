@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Bounded comparison note for **Feb 28 2026 Minab school strike** and **Palantir / Claude / Maven** bench across **Ritter**, **Weichert**, **Sachs**, and **Jiang** — without collapsing forensic, architecture, moral, and metaphysical frames.
 
-**Verify SSOT:** [china-ai-implementation-watch.md § verify receipts](./china-ai-implementation-watch.md#verify-receipts-2026-06-10). Speaker depth: [ritter-on-ai.md](./ritter-on-ai.md), [weichert-on-ai.md](./weichert-on-ai.md), [sachs-on-ai.md](./sachs-on-ai.md), [jiang-on-ai.md](./jiang-on-ai.md).
+**Verify SSOT:** [trend-china-ai-implementation.md § verify receipts](./trend-china-ai-implementation.md#verify-receipts-2026-06-10). Speaker depth: [ritter-on-ai.md](./ritter-on-ai.md), [weichert-on-ai.md](./weichert-on-ai.md), [sachs-on-ai.md](./sachs-on-ai.md), [jiang-on-ai.md](./jiang-on-ai.md).
 
 ## Load-bearing question (by voice)
 
@@ -51,7 +51,7 @@ Bounded comparison note for **Feb 28 2026 Minab school strike** and **Palantir /
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md)
+- [China AI implementation watch](./trend-china-ai-implementation.md)
 - [Ritter on AI](./ritter-on-ai.md)
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)

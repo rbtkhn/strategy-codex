@@ -8,7 +8,7 @@ Preserve Jiang Xueqin's **bounded AI thesis** across the **Game Theory #24–28*
 
 This is the canonical note-class prose home for this object. The Jiang shelf may point here for continuity; do not retain a parallel full-authority copy on the shelf.
 
-**China is one strand**, not the title object. For field-tour **implementation** read → [pape-on-china-ai.md](./pape-on-china-ai.md). For **forensic liability** → [barnes-on-ai.md](./barnes-on-ai.md). Cross-speaker chronology → [china-ai-implementation-watch.md](./china-ai-implementation-watch.md).
+**China is one strand**, not the title object. For field-tour **implementation** read → [pape-on-china-ai.md](./pape-on-china-ai.md). For **forensic liability** → [barnes-on-ai.md](./barnes-on-ai.md). Cross-speaker chronology → [trend-china-ai-implementation.md](./trend-china-ai-implementation.md).
 
 Verify tier: **analyst / game-theory speculation** per source frontmatter — lecture and livestream register; verify operational claims before quotation-grade use.
 
@@ -133,7 +133,7 @@ Open when the task is:
 ## Return paths
 
 - [Leo, Barnes, and Jiang on AI](../../essays/leo-barnes-jiang-on-ai.md)
-- [China AI implementation watch](./china-ai-implementation-watch.md)
+- [China AI implementation watch](./trend-china-ai-implementation.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Barnes on AI](./barnes-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)

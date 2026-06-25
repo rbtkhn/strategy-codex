@@ -25,7 +25,7 @@ Sachs is **not** a technical AI theorist; he connects AI to **imperial finance**
 Sources: [2026-04-20 Napolitano](../source-archive/statecraft/2026-04-20/source-napolitano-sachs-is-the-war-over-2026-04-20.md), [2026-06-01 Napolitano](../source-archive/statecraft/2026-06-01/source-napolitano-sachs-how-the-best-military-and-intel-failed-2026-06-01.md), [2026-04-24 Carlson](../source-archive/statecraft/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md), [2025-11-01 Fidias](../source-archive/statecraft/2025-11-01/source-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
 
 - War **literally a video game** for people in power — test drones, targeting systems
-- **Palantir** targeted Minab schoolgirls day one — `Palantir's mistake`; **Maven stack** (Palantir-built) + Claude per wire; Sachs overspecifies vendor — verify receipt in [watch](./china-ai-implementation-watch.md#verify-receipts-2026-06-10)
+- **Palantir** targeted Minab schoolgirls day one — `Palantir's mistake`; **Maven stack** (Palantir-built) + Claude per wire; Sachs overspecifies vendor — verify receipt in [watch](./trend-china-ai-implementation.md#verify-receipts-2026-06-10)
 - **Silicon Valley tech titans** testing weapons and surveillance in Iran war
 - **$1.5T war machine** + **AI boom** — Palantir, SpaceX, etc. on Pentagon budgets
 - **First AI wars** — trying out weapons now
@@ -101,7 +101,7 @@ Open when the task is:
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md)
+- [China AI implementation watch](./trend-china-ai-implementation.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Weichert on AI](./weichert-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)

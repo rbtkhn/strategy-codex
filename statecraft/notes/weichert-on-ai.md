@@ -8,7 +8,7 @@ Preserve Brandon Weichert's **bounded AI thesis** in the statecraft corpus: **su
 
 This is the canonical note-class prose home for this object. Cross-link [ritter-on-ai.md](./ritter-on-ai.md) (LOAC/targeteer) and [jiang-on-ai.md](./jiang-on-ai.md) (bubble/occult) without duplicating their frames.
 
-Verify tier: **opinion / analyst** — Weichert explicitly flags contention on data centers (`my opinion`, `my contention`). **Minab Palantir/metadata** = **unclear** (stale-label reporting consistent; no primary at decision node) — see [watch verify receipt](./china-ai-implementation-watch.md#verify-receipts-2026-06-10).
+Verify tier: **opinion / analyst** — Weichert explicitly flags contention on data centers (`my opinion`, `my contention`). **Minab Palantir/metadata** = **unclear** (stale-label reporting consistent; no primary at decision node) — see [watch verify receipt](./trend-china-ai-implementation.md#verify-receipts-2026-06-10).
 
 ## Core claim
 
@@ -114,7 +114,7 @@ Open when the task is:
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md)
+- [China AI implementation watch](./trend-china-ai-implementation.md)
 - [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Ritter on AI](./ritter-on-ai.md)

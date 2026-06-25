@@ -9,7 +9,7 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 ## Open First
 
 - [Speaker profile](ritter-profile.md) — identity, **Tier A** in-voice fingerprint, routing card; continuity → [ritter-arc.md](ritter-arc.md)
-- [ritter-on-ai.md](../../notes/ritter-on-ai.md) — AI targeting / CHMR / Claude–Minab / Palantir–Lugansk; watch: [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
+- [ritter-on-ai.md](../../notes/ritter-on-ai.md) — AI targeting / CHMR / Claude–Minab / Palantir–Lugansk; watch: [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [ritter-arc.md](ritter-arc.md)
 - [ritter-routing.md](ritter-routing.md)
 - [ritter-source-index.md](ritter-source-index.md)

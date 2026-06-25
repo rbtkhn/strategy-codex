@@ -8,9 +8,9 @@ Preserve **load-bearing AI risk types** in the statecraft corpus and **which voi
 
 **Primary reader:** agent routing (daily synthesis, compare passes) — stop flattening non-substitutable registers.
 
-**Not this note:** chronology ([china-ai-implementation-watch.md](./china-ai-implementation-watch.md)), speaker depth (six `*-on-ai.md` notes), Minab strike forensics ([minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md)), or Gulf mechanism detail ([gulf-ai-architecture.md](./gulf-ai-architecture.md)).
+**Not this note:** chronology ([trend-china-ai-implementation.md](./trend-china-ai-implementation.md)), speaker depth (six `*-on-ai.md` notes), Minab strike forensics ([minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md)), or Gulf mechanism detail ([gulf-ai-architecture.md](./gulf-ai-architecture.md)).
 
-**Cluster entry:** open here first when the task is **AI risk in this corpus**; open the watch when the task is **what changed when**.
+**Cluster entry:** open here first when the task is **AI risk in this corpus**; open the **trend-** entry when the task is **direction + what changed when**.
 
 ## Risk register
 
@@ -46,7 +46,7 @@ Forbidden merges in daily synthesis and compare passes:
 
 | Do not write | Keep separate because |
 | --- | --- |
-| **Palantir vs Claude** as single vendor at Minab | Wire composite: **Maven (Palantir-built) + Claude**; open question is stale human coding vs AI launder — [watch verify receipts](./china-ai-implementation-watch.md#verify-receipts-2026-06-10) |
+| **Palantir vs Claude** as single vendor at Minab | Wire composite: **Maven (Palantir-built) + Claude**; open question is stale human coding vs AI launder — [trend verify receipts](./trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
 | **Ritter forensic chain** = **Jiang bailout theater** | Ritter = institutional LOAC/targeteer; Jiang = macro bubble + occult register — same war, different analytic units |
 | **Pape field optimism** = **Jiang "AI doesn't exist"** | Pape = deployment / Wuhan; Jiang = supervised ML + persuasion — complementary tension, not one thesis |
 | **Weichert panopticon** = **Sachs moral MIC read** only | Weichert = architecture + domestic surveillance; Sachs = moral-industrial + IDF cloud — route both, merge neither |
@@ -82,7 +82,7 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 | Task | Open first |
 | --- | --- |
 | AI risk overview / which register? | **This note** |
-| What moved this month on AI? | [china-ai-implementation-watch](./china-ai-implementation-watch.md) |
+| What moved this month on AI? | [trend-china-ai-implementation](./trend-china-ai-implementation.md) |
 | Pape Wuhan / field tour | [pape-on-china-ai](./pape-on-china-ai.md) |
 | Jiang GT / Stargate / occult | [jiang-on-ai](./jiang-on-ai.md) |
 | Barnes bubble / GDP / Burry circular finance | [barnes-on-ai](./barnes-on-ai.md) |
@@ -92,11 +92,11 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 | Minab vendor fork / four-voice strike compare | [minab-palantir-four-voice-compare](./minab-palantir-four-voice-compare.md) |
 | Gulf–China–bubble nexus | [gulf-ai-architecture](./gulf-ai-architecture.md) |
 | Export control / sovereign AI access | [moonshots crossover](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
-| Wire-verify / Minab receipts | [watch § verify receipts](./china-ai-implementation-watch.md#verify-receipts-2026-06-10) |
+| Wire-verify / Minab receipts | [trend § verify receipts](./trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
 
 ## Return paths
 
-- [China AI implementation watch](./china-ai-implementation-watch.md) — chronology + falsifiers
+- [Trend — China AI implementation](./trend-china-ai-implementation.md) — chronology + direction + falsifiers
 - [Pape on China AI](./pape-on-china-ai.md) · [Jiang on AI](./jiang-on-ai.md) · [Barnes on AI](./barnes-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md) · [Weichert on AI](./weichert-on-ai.md) · [Sachs on AI](./sachs-on-ai.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md) · [Minab / Palantir four-voice compare](./minab-palantir-four-voice-compare.md)

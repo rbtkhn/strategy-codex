@@ -197,7 +197,7 @@ Open when the task is:
 - [Leo, Barnes, and Jiang on AI](../../essays/leo-barnes-jiang-on-ai.md)
 - [Barnes README](../voices/barnes/README.md)
 - [barnes-analysis-index.md](../voices/barnes/barnes-analysis-index.md)
-- [China AI implementation watch](./china-ai-implementation-watch.md)
+- [China AI implementation watch](./trend-china-ai-implementation.md)
 - [Jiang on AI](./jiang-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)
 - [Weichert on AI](./weichert-on-ai.md)

@@ -30,7 +30,7 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 
 ### China, Industrial AI, and Relative Power
 
-Distinct from Iran trap clocks — bounded synthesis: [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) · [China AI implementation watch](../../notes/china-ai-implementation-watch.md). Field tour (Wuhan, Hangzhou, Shenzhen, Beijing) referenced in Apr–May captures; not a separate arc on disk yet.
+Distinct from Iran trap clocks — bounded synthesis: [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) · [China AI implementation watch](../../notes/trend-china-ai-implementation.md). Field tour (Wuhan, Hangzhou, Shenzhen, Beijing) referenced in Apr–May captures; not a separate arc on disk yet.
 
 - [2026-05-13 With China, It's Getting Late Early](../../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md) — Wuhan model; integrated AI/robotics/EV ecosystems; elite perception lag
 - [2026-05-14 It's Getting Late Early for Trump](../../../source-archive/statecraft/2026-05-14/source-pape-its-getting-late-early-for-trump-2026-05-14.md) — Trump–Xi Beijing; Taiwan red line; Thucydides-trap signaling; Iran war exposes structural weakness

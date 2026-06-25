@@ -43,7 +43,7 @@ If the operator needs the mechanism first:
 If the operator needs China industrial AI / implementation (not Iran trap):
 
 - open [pape-on-china-ai.md](../../notes/pape-on-china-ai.md)
-- open [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md) for the rolling log
+- open [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md) for the rolling log
 
 If the operator needs the public-pressure map:
 

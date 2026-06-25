@@ -77,7 +77,7 @@ Inside that state bench, use [Xi](state/xi.md) and the [party-state carrier](sta
 
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.
 
-**China AI implementation (rolling watch):** [china-ai-implementation-watch.md](../notes/china-ai-implementation-watch.md) — high-priority time-series tracker for industrial AI + robotics + relative-power reads (Pape field tour, Escobar 2030 plan, Crooke productive-AI line, Jiang bubble/surveillance). Append the chronological log on each material capture.
+**China AI implementation (rolling watch):** [trend-china-ai-implementation.md](../notes/trend-china-ai-implementation.md) — high-priority time-series tracker for industrial AI + robotics + relative-power reads (Pape field tour, Escobar 2030 plan, Crooke productive-AI line, Jiang bubble/surveillance). Append the chronological log on each material capture.
 
 Transcript-grounded intake law:
 
