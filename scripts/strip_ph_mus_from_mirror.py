@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-off: strip ph-mus from public/ph-civ mirror (strategy-codex only)."""
+"""One-off: strip ph-mus from public/predictive-history mirror (strategy-codex only)."""
 
 from __future__ import annotations
 

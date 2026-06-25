@@ -44,7 +44,7 @@ Do not treat `statecraft/states/` as silently updating `public/civ-state/` or `r
 - no bridge pages or shared navigation
 - no PH chapter / pattern IDs in public shelves or apparatus
 
-strategy-codex **observes** [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ) per [predictive-history-external-boundary.md](predictive-history-external-boundary.md). Internal operator files such as [`ph-civ-promotion-ledger.md`](../statecraft/states/ph-civ-promotion-ledger.md) and [`ph-civ-to-civ-state-bridge.md`](../statecraft/states/ph-civ-to-civ-state-bridge.md) are **not exported** and are **not** a public-book pipe.
+strategy-codex **observes** [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) per [predictive-history-external-boundary.md](predictive-history-external-boundary.md). Internal operator files such as [`ph-civ-promotion-ledger.md`](../statecraft/states/ph-civ-promotion-ledger.md) and [`ph-civ-to-civ-state-bridge.md`](../statecraft/states/ph-civ-to-civ-state-bridge.md) are **not exported** and are **not** a public-book pipe.
 
 ## What belongs in strategy-codex
 

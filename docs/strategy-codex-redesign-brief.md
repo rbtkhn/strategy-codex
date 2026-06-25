@@ -48,7 +48,7 @@
 | Two operator channels | `statecraft/`, `singularity/`, [operator-two-channel-architecture.md](operator-two-channel-architecture.md) | “System emerging” vs “object to judge” |
 | Work membrane typing | [work-membrane-v2.md](work-membrane-v2.md), `statecraft/work-membrane.md`, `singularity/work-membrane.md` | Stops “one vague non-Record blob” |
 | Verbatim SSOT (statecraft) | `source-archive/statecraft/<pub_date>/` | Notebook ≠ mirror; synthesis cites receipts |
-| PH observe-only boundary | [predictive-history-external-boundary.md](predictive-history-external-boundary.md), public `rbtkhn/ph-civ` | Mutation belongs external |
+| PH observe-only boundary | [predictive-history-external-boundary.md](predictive-history-external-boundary.md), public `rbtkhn/predictive-history` | Mutation belongs external |
 | Polyphonic codex continuity | `codex/`, `codex/years/`, `codex/profiles/` | Chronology beneath both channels |
 | Portable skill cores | `skills/`, `skills/manifest.yaml`, `scripts/sync_portable_skills.py` | Host-neutral methodology; Cursor appendix split |
 
@@ -82,7 +82,7 @@
 
 | Surface | Current paths | Target |
 |---------|---------------|--------|
-| Public PH artifact | frozen local trees above | `rbtkhn/ph-civ` sole canonical corpus |
+| Public PH artifact | frozen local trees above | `rbtkhn/predictive-history` sole canonical corpus |
 | Public Civilizational Statecraft book | `statecraft/states/` (workshop SSOT) | `rbtkhn/civ-state` sole canonical public book — export via [`scripts/export_civilizational_statecraft_public.py`](../scripts/export_civilizational_statecraft_public.py); see [civilizational-statecraft-external-boundary.md](civilizational-statecraft-external-boundary.md) |
 | CIV-MEM bulk reference | `research/repos/civilization_memory/`, CIV-MEM indexes | Versioned submodule or sibling; strategy-codex holds routing + mirrors only |
 | Academy mirrors | `statecraft/voices/jiang/ph-civ`, `scripts/check_academy_mirror_sync.py` | Gitlink discipline; parent repo does not own upstream manuscript |
@@ -200,7 +200,7 @@ flowchart TB
   end
 
   subgraph external [EXTERNALIZE]
-    PHCIV[rbtkhn/ph-civ]
+    PHCIV[rbtkhn/predictive-history]
     CIVMEM[CIV-MEM submodule]
   end
 

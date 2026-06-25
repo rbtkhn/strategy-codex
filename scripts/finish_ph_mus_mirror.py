@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Finish ph-mus removal in public/ph-civ mirror (strategy-codex only)."""
+"""Finish ph-mus removal in public/predictive-history mirror (strategy-codex only)."""
 
 from __future__ import annotations
 

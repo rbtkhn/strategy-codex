@@ -29,7 +29,7 @@ Pick **one letter**. **Default:** **C**. Seed calibration: [seed-phase-survey §
 
 ### Door F — public-safe orientation {#door-f}
 
-No seed intake or private operator material. [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · [essays/README.md](../essays/README.md) · [ph-civ](https://github.com/rbtkhn/ph-civ).
+No seed intake or private operator material. [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · [essays/README.md](../essays/README.md) · [ph-civ](https://github.com/rbtkhn/predictive-history).
 
 ---
 

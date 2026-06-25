@@ -17,7 +17,7 @@ from asr_transcript_replacements import FOUNDING_MEMBERS_REPLACEMENTS  # noqa: E
 
 OUT = (
     REPO_ROOT
-    / "public/ph-civ/data/asr-blocklist/founding-members-pilot.json"
+    / "public/predictive-history/data/asr-blocklist/founding-members-pilot.json"
 )
 
 # Chat handles / uncertain tokens — presence is OK after cleanup.

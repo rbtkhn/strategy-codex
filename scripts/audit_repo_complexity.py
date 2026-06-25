@@ -127,7 +127,7 @@ SCAN_ROOTS = (
 )
 
 SKIP_PREFIXES = (
-    "public/ph-civ/",
+    "public/predictive-history/",
     "research/",
     "codex/predictive-history/",
 )

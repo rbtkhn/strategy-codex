@@ -8,10 +8,10 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PILOT = REPO_ROOT / "public/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py"
+PILOT = REPO_ROOT / "public/predictive-history/scripts/_pilot_asr_normalize_civ01_civ07.py"
 OUT = (
     REPO_ROOT
-    / "public/ph-civ/data/asr-blocklist/volume-ii-pilot.json"
+    / "public/predictive-history/data/asr-blocklist/volume-ii-pilot.json"
 )
 
 SKIP_LITERALS = frozenset(
@@ -93,7 +93,7 @@ def main() -> None:
         "version": "2026-06-09",
         "scope": "volume-ii civ-01..18",
         "pilot_slugs": PILOT_SLUGS,
-        "source_script": "public/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py",
+        "source_script": "public/predictive-history/scripts/_pilot_asr_normalize_civ01_civ07.py",
         "allowed_residuals": ALLOWED_RESIDUALS,
         "entries": build_entries(extract_pairs(source)),
     }

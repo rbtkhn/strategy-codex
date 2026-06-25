@@ -12,7 +12,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-MIRROR_REL = "public/ph-civ"
+MIRROR_REL = "public/predictive-history"
 MIRROR_ROOT = REPO_ROOT / MIRROR_REL
 
 ESCAPE_ENV = "PH_CIV_TRANSCRIPT_EDIT"
@@ -28,7 +28,7 @@ ALLOWED_MAINTENANCE_PATHS = frozenset(
         ".pre-commit-config.yaml",
         ".cursor/rules/ph-civ-transcript-immutability.mdc",
         "statecraft/voices/jiang/jiang-routing.md",
-        "public/ph-civ/data/asr-blocklist/volume-ii-pilot.json",
+        "public/predictive-history/data/asr-blocklist/volume-ii-pilot.json",
     }
 )
 

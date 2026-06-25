@@ -85,7 +85,7 @@ def get_changed_files_from_staged() -> list[str]:
 def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
     lines = [
         "Predictive History boundary violation:",
-        "  `rbtkhn/ph-civ` is now the canonical public Predictive History repo.",
+        "  `rbtkhn/predictive-history` is now the canonical public Predictive History repo.",
         "  It contains the public two-volume PH artifact: ph-civ, ph-apo, and ph-mus.",
         "  `strategy-codex` may review, observe, critique, and cite public ph-civ IDs,",
         "  but it must not mutate the frozen legacy PH trees in this repo.",
@@ -106,7 +106,7 @@ def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
             "  - review packets and critique outside the frozen PH trees",
             "  - public ph-civ source_id, pattern_id, and route references",
             "",
-            "Move canonical public Predictive History edits to `rbtkhn/ph-civ` instead.",
+            "Move canonical public Predictive History edits to `rbtkhn/predictive-history` instead.",
         ]
     )
     return "\n".join(lines)

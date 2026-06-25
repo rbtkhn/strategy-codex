@@ -128,7 +128,7 @@ legacy_archive:
 forbidden_patterns:
   - "ph-civ"
   - "PH-CIV"
-  - "rbtkhn/ph-civ"
+  - "rbtkhn/predictive-history"
   - "ph-civ-to-civ-state-bridge"
   - "ph-civ-promotion-ledger"
   - "ph-civ-era-overlay"

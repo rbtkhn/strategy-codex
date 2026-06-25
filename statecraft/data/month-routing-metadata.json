@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:13:42+00:00",
+  "generated_at": "2026-06-25T14:15:31+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -844,7 +844,7 @@
     },
     "2026-06": {
       "captured_days": 24,
-      "source_count": 268,
+      "source_count": 269,
       "thread_count": 49,
       "channel_or_show_count": 24,
       "host_count": 24,
@@ -911,7 +911,7 @@
           "labels": [
             {
               "label": "Brandon J. Weichert",
-              "count": 7
+              "count": 8
             },
             {
               "label": "Brandon Weichert",
