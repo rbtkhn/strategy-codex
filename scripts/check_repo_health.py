@@ -34,6 +34,7 @@ def run_quick() -> int:
         (["python3", "scripts/check_archive_boundary.py"], "archive boundary"),
         (["python3", "scripts/check_repo_path_strict.py", "--strict"], "path strict scan"),
         (["python3", "scripts/check_record_surface_retirement.py"], "record surface retirement"),
+        (["python3", "scripts/check_membrane_policy_light.py"], "membrane policy light"),
     ]
     rc = 0
     for cmd, label in checks:
@@ -57,6 +58,8 @@ def run_full() -> int:
                 "tests/test_check_generated_surfaces.py",
                 "tests/test_assert_root_file_budget.py",
                 "tests/test_check_doc_duplication.py",
+                "tests/test_check_membrane_policy_light.py",
+                "tests/test_harness_architecture_map_links.py",
                 "tests/test_strategy_codex_cli.py",
                 "-q",
             ],
