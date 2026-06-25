@@ -12,7 +12,7 @@
   - [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
   - [codex/years/2026/provenance](/C:/dev/strategy-codex/codex/years/2026/provenance)
 - Primary neighboring families this skill should check before writing:
-  - `Dialogue Works / Nima`
+  - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](/C:/dev/strategy-codex/statecraft/hosts/nima/dialogue-works-disambiguation.md)
   - `Judging Freedom / Napolitano`
   - `Glenn Diesen`
   - `The Duran / Mercouris`
@@ -20,7 +20,7 @@
 **Current live examples**
 
 - Nima / Dialogue Works:
-  - [source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - Napolitano / Judging Freedom:
   - [source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
   - [source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
@@ -50,4 +50,5 @@
 python scripts/sync_portable_skills.py --skill statecraft-source-intake
 python scripts/sync_portable_skills.py --verify --skill statecraft-source-intake
 python scripts/validate_skills.py
+Copy-Item -Force .cursor/skills/statecraft-source-intake/SKILL.md $env:USERPROFILE\.codex\skills\statecraft-source-intake\SKILL.md
 ```

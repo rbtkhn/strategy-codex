@@ -4,7 +4,7 @@ description: "Manual invoke: source-intake. Land operator transcripts via sideca
 preferred_activation: source-intake
 activation: source-intake
 portable: true
-version: 0.4.14
+version: 0.4.15
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -624,7 +624,9 @@ python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM
 
 ### Nima / Dialogue Works
 
-- Prefer `source-alkorshid-*` or `source-nima-alkorshid-*` when the object belongs to Nima Alkhorshid / Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`).
+- Prefer `source-dialogue-works-<guest>-*` when Nima Alkorshid **hosts** on Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`). Legacy `source-alkorshid-*` / `source-nima-alkorshid-*` are read-compat only — do not create new captures under those prefixes.
+- When Nima is **guest** on another channel: `source-nawfal-alkorshid-*` (Mario Nawfal) or `source-daniel-davis-alkorshid-*` (Daniel Davis). **Do not** land cross-host captures as `source-dialogue-works-*` when `channel_slug` is not `dialogue-works`.
+- Person thread on all appearances: **`alkorshid`** (plus guest thread). `thread:nima` is legacy compat; `expert_id: nima` remains MCQ/EOD compat only (host appendix may link full disambiguation law).
 - Resolve by host/show identity first, not by guest fame or topic overlap.
 - Classify each landed capture with `opening_tier` in frontmatter:
   - `full-scaffold` — date intro + guest welcome + separable mid-intro Substack/CTA still present before first crisis question

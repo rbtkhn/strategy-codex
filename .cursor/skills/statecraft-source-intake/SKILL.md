@@ -4,7 +4,7 @@ description: 'Manual invoke: source-intake. Land operator transcripts via sideca
 preferred_activation: source-intake
 activation: source-intake
 portable: true
-version: 0.4.14
+version: 0.4.15
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -626,7 +626,9 @@ python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM
 
 ### Nima / Dialogue Works
 
-- Prefer `source-alkorshid-*` or `source-nima-alkorshid-*` when the object belongs to Nima Alkhorshid / Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`).
+- Prefer `source-dialogue-works-<guest>-*` when Nima Alkorshid **hosts** on Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`). Legacy `source-alkorshid-*` / `source-nima-alkorshid-*` are read-compat only — do not create new captures under those prefixes.
+- When Nima is **guest** on another channel: `source-nawfal-alkorshid-*` (Mario Nawfal) or `source-daniel-davis-alkorshid-*` (Daniel Davis). **Do not** land cross-host captures as `source-dialogue-works-*` when `channel_slug` is not `dialogue-works`.
+- Person thread on all appearances: **`alkorshid`** (plus guest thread). `thread:nima` is legacy compat; `expert_id: nima` remains MCQ/EOD compat only (host appendix may link full disambiguation law).
 - Resolve by host/show identity first, not by guest fame or topic overlap.
 - Classify each landed capture with `opening_tier` in frontmatter:
   - `full-scaffold` — date intro + guest welcome + separable mid-intro Substack/CTA still present before first crisis question
@@ -735,10 +737,11 @@ The source ends as a **real full-source archive object** in the canonical statec
   - `statecraft daily intake`
   - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:
+  - [codex/raw-input/README.md](/C:/dev/strategy-codex/codex/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](/C:/dev/strategy-codex/docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
   - [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
   - [codex/years/2026/provenance](/C:/dev/strategy-codex/codex/years/2026/provenance)
 - Primary neighboring families this skill should check before writing:
-  - `Dialogue Works / Nima`
+  - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](/C:/dev/strategy-codex/statecraft/hosts/nima/dialogue-works-disambiguation.md)
   - `Judging Freedom / Napolitano`
   - `Glenn Diesen`
   - `The Duran / Mercouris`
@@ -746,7 +749,7 @@ The source ends as a **real full-source archive object** in the canonical statec
 **Current live examples**
 
 - Nima / Dialogue Works:
-  - [source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - Napolitano / Judging Freedom:
   - [source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
   - [source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
@@ -776,4 +779,5 @@ The source ends as a **real full-source archive object** in the canonical statec
 python scripts/sync_portable_skills.py --skill statecraft-source-intake
 python scripts/sync_portable_skills.py --verify --skill statecraft-source-intake
 python scripts/validate_skills.py
+Copy-Item -Force .cursor/skills/statecraft-source-intake/SKILL.md $env:USERPROFILE\.codex\skills\statecraft-source-intake\SKILL.md
 ```
