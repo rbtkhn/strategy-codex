@@ -119,13 +119,14 @@ def convert_index_to_raw_input(
     source_note: str,
     infer_guest: bool,
     index_only: bool,
+    source_archive_layout: bool = False,
 ) -> int:
     index_path = output_dir / "index.json"
     if not index_path.exists():
         print(f"Missing index: {index_path}", file=sys.stderr)
         return 1
     videos = load_index_videos(index_path)
-    raw_root = notebook_root / "raw-input"
+    raw_root = notebook_root if source_archive_layout else notebook_root / "raw-input"
     written = 0
 
     for v in videos:
@@ -179,18 +180,19 @@ def convert_index_to_raw_input(
             + body
         )
 
+        rel_base = notebook_root if source_archive_layout else notebook_root
         if out_path.exists():
             existing = out_path.read_text(encoding="utf-8", errors="replace")
             if existing == content:
-                print(f"skip unchanged: {out_path.relative_to(notebook_root)}")
+                print(f"skip unchanged: {out_path.relative_to(rel_base)}")
                 continue
         if not apply:
-            print(f"would write: {out_path.relative_to(notebook_root)}")
+            print(f"would write: {out_path.relative_to(rel_base)}")
             written += 1
             continue
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path.write_text(content, encoding="utf-8")
-        print(f"wrote: {out_path.relative_to(notebook_root)}")
+        print(f"wrote: {out_path.relative_to(rel_base)}")
         written += 1
 
     if not apply and written:
@@ -257,6 +259,7 @@ def backfill_channel(
     apply: bool = False,
     infer_guest: bool = False,
     index_only: bool = False,
+    source_archive_layout: bool = False,
     stop_before_date: date | None = None,
     enrich_concurrency: int = 8,
     slice_start: int | None = None,
@@ -413,6 +416,7 @@ def backfill_channel(
         source_note=source_note,
         infer_guest=infer_guest,
         index_only=index_only,
+        source_archive_layout=source_archive_layout,
     )
 
 
@@ -433,6 +437,11 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--sleep", type=float, default=0.25)
     ap.add_argument("--infer-guest", action="store_true")
     ap.add_argument("--index-only", action="store_true")
+    ap.add_argument(
+        "--source-archive-layout",
+        action="store_true",
+        help="Write captures under notebook-root/YYYY-MM-DD/ (source-intake paths) instead of raw-input/",
+    )
     ap.add_argument("--stop-before-date", type=str, default="")
     ap.add_argument("--enrich-concurrency", type=int, default=8)
     ap.add_argument("--slice-start", type=int, default=None)
@@ -456,6 +465,7 @@ def main(argv: list[str] | None = None) -> int:
         apply=args.apply,
         infer_guest=args.infer_guest,
         index_only=args.index_only,
+        source_archive_layout=args.source_archive_layout,
         stop_before_date=date.fromisoformat(args.stop_before_date) if args.stop_before_date.strip() else None,
         enrich_concurrency=args.enrich_concurrency,
         slice_start=args.slice_start,

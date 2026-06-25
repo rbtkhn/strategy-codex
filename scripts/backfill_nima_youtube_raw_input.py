@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Backfill Dialogue Works YouTube transcripts into strategy-notebook raw-input/.
+"""Backfill Dialogue Works YouTube transcripts into source-archive/statecraft/.
 
 This wrapper fetches the public Dialogue Works YouTube channel into a temporary
-transcript corpus, then mirrors the transcript text into raw-input markdown with
-Dialogue Works frontmatter. Host-side capture is the primary goal; guest lanes
-can still be mirrored separately when needed.
+transcript corpus, then mirrors transcript text into source-intake captures
+(`source-dialogue-works-*` under `source-archive/statecraft/YYYY-MM-DD/`).
+Host-side capture is the primary goal; guest lanes can still be mirrored
+separately when needed.
+
+See skills/statecraft-source-intake/SKILL.md for land conventions.
 WORK only; not Record.
 """
 
@@ -17,7 +20,7 @@ from backfill_youtube_channel_raw_input import main as youtube_main
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CHANNEL_URL = "https://www.youtube.com/@dialogueworks01/videos"
-DEFAULT_THREAD = "nima"
+DEFAULT_THREAD = "alkorshid"
 DEFAULT_SHOW = "Dialogue Works"
 DEFAULT_HOST = "Nima Alkhorshid"
 
@@ -36,13 +39,14 @@ def main() -> int:
             "--thread",
             DEFAULT_THREAD,
             "--file-prefix",
-            "transcript-dialogue-works",
+            "source-dialogue-works",
             "--source-note",
-            "Automated YouTube transcript fetch for Dialogue Works host capture.",
+            "Automated YouTube transcript fetch for Dialogue Works host capture (source-intake layout).",
             "--work-dir",
             str(REPO_ROOT / ".codex-tmp" / "nima-dialogue-works"),
             "--notebook-root",
-            str(REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"),
+            str(REPO_ROOT / "source-archive" / "statecraft"),
+            "--source-archive-layout",
             "--limit",
             "20",
             "--sleep",
