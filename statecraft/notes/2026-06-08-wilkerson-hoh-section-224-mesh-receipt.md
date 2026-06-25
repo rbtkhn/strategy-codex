@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Hoh / Dialogue Works — Section 224](../../source-archive/statecraft/2026-06-04/source-alkorshid-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md) (`7nRoD1Kxdr8`) — **mechanism pass**
+- [Hoh / Dialogue Works — Section 224](../../source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md) (`7nRoD1Kxdr8`) — **mechanism pass**
 - [Wilkerson / Diesen — Israel bet everything on war with Iran and lost](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md) (`a2nQnLcTNuo`) — **consequence + oversight pass**
 
 ## Purpose

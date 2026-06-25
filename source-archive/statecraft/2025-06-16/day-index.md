@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (2)
 - Source form mix: `interview` (2)
-- Distinct channels/shows: `0`
+- Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
 - Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Glenn Diesen` (2)
 
 ## Host / Guest / Thread Rollup
 

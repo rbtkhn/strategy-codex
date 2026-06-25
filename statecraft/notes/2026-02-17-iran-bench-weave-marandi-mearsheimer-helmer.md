@@ -9,7 +9,7 @@ WORK only; not Record.
 
 - [Marandi × Nima — Iran JUST Closed the Strait of Hormuz](../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md) — https://www.youtube.com/watch?v=7Oy1q6zGcQs — **full transcript**
 - [Mearsheimer × Napolitano — How Trump Has Boxed Himself Into a Corner on Iran](../../source-archive/statecraft/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) — https://www.youtube.com/watch?v=f9o5eiyKsOs — **full transcript**
-- [Helmer × Nima — Geneva interview **Iran coda** only](../../source-archive/statecraft/2026-02-17/source-alkorshid-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — https://www.youtube.com/watch?v=YQrBhZf2TXI — **coda segment** (lines ~109–131)
+- [Helmer × Nima — Geneva interview **Iran coda** only](../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — https://www.youtube.com/watch?v=YQrBhZf2TXI — **coda segment** (lines ~109–131)
 
 ## Purpose
 

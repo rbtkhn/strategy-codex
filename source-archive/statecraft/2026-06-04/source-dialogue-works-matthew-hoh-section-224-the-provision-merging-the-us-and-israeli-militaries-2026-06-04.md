@@ -4,7 +4,9 @@ pub_date: 2026-06-04
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 kind: cleaned-transcript
 source_form: interview
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Matthew Hoh
@@ -18,6 +20,24 @@ opening_tier: host-tease
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 34 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-wire-verify-matrix.md
+verify:
+  - claim: Lebanon pseudo-agreement Jun 4 excludes Hezbollah from construction
+    verdict: supported
+    note: W34-5 - press frame; Hoh meaningless/PR read
+  - claim: Hezbollah red line - Israel must leave southern Lebanon
+    verdict: supported
+    note: W34-6 - axis doctrine; occupier need not leave in pseudo-deal
+  - claim: NDAA Section 224 US-Israel military merger in House mark
+    verdict: partial
+    note: W34-7 - H.R.8800 mark supported; Khanna clip; not enacted
+  - claim: Netanyahu provokes Iran restart via Beirut bombing trap
+    verdict: partial
+    note: W34-8 - Hoh triangle; wire strike chain developing
+  - claim: Trump trapped - cannot win or exit Iran war
+    verdict: partial
+    note: W34-9 - tier-4; Axios daylight leak partial same week
 ---
 # Matthew Hoh: Section 224 the provision merging the US and Israeli militaries
 

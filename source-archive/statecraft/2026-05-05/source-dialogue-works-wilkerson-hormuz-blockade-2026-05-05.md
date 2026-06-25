@@ -4,9 +4,11 @@ pub_date: 2026-05-05
 kind: transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Wilkerson
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 source_url: "https://www.youtube.com/watch?v=3UPreelfuU4"
 source_note: User-pasted cleaned YouTube transcript.
 title_slug: alkorshid-wilkerson-hormuz-blockade-2026-05-05

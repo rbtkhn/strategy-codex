@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: johnson
 threads:
-  - nima
+  - alkorshid
   - johnson
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry C. Johnson
 title: "Larry Johnson: Israel Just Triggered the NEXT WAR - Preparing to Bomb Yemen"
 channel_slug: dialogue-works

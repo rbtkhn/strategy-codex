@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `9`
 - Distinct hosts: `5`
 - Distinct guests: `11`
-- Distinct threads: `15`
+- Distinct threads: `16`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Robert Pape` (1), `Trita Parsi` (1)
 - Guests: `Jeffrey Sachs` (2), `Alexander Mercouris` (1), `Jacques Baud` (1), `Jiang Xueqin` (1), `Joe Kent` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Ray McGovern` (1), `Scott Ritter` (1), `Trita Parsi` (1), `[]` (1)
-- Threads: `nima` (3), `davis` (2), `diesen` (2), `mercouris` (2), `napolitano` (2), `parsi` (2), `sachs` (2), `baud` (1), `christoforou` (1), `johnson` (1), `kent` (1), `mcgovern` (1), `nawfal` (1), `pape` (1), `ritter` (1)
+- Threads: `alkorshid` (3), `nima` (3), `davis` (2), `diesen` (2), `mercouris` (2), `napolitano` (2), `parsi` (2), `sachs` (2), `baud` (1), `christoforou` (1), `johnson` (1), `kent` (1), `mcgovern` (1), `nawfal` (1), `pape` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,11 +33,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=T1uIFLuYOrg) | `source-alex-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `baud` | [watch](https://www.youtube.com/watch?v=LD3uX3lj0-Y) | `source-alkorshid-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `johnson` | [bgmx1Uz_QT0](https://www.youtube.com/watch?v=bgmx1Uz_QT0) | `source-alkorshid-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `kent` | [watch](https://www.youtube.com/watch?v=hQCziFanWf8) | `source-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [ACq6ZXOP314](https://www.youtube.com/watch?v=ACq6ZXOP314) | `source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [8ZKnRMc1m00](https://www.youtube.com/watch?v=8ZKnRMc1m00) | `source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [watch](https://www.youtube.com/watch?v=LD3uX3lj0-Y) | `source-dialogue-works-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [bgmx1Uz_QT0](https://www.youtube.com/watch?v=bgmx1Uz_QT0) | `source-dialogue-works-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `kent` | [watch](https://www.youtube.com/watch?v=hQCziFanWf8) | `source-dialogue-works-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=Pk15Ov0v98U) | `source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=NPNNM3ehgvE) | `source-duran-mercouris-seeking-war-with-russia-2026-06-01.md` |
 | `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [v3pyzLWMzJw](https://www.youtube.com/watch?v=v3pyzLWMzJw) | `source-napolitano-mcgovern-what-putin-is-thinking-2026-06-01.md` |
@@ -65,11 +65,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md`
-- `source-alkorshid-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md`
-- `source-alkorshid-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md`
-- `source-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md`
 - `source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md`
 - `source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md`
+- `source-dialogue-works-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md`
+- `source-dialogue-works-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md`
+- `source-dialogue-works-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md`
 - `source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md`
 - `source-diesen-sachs-germany-is-leading-europe-toward-world-war-three-2026-06-01.md`
 - `source-duran-mercouris-seeking-war-with-russia-2026-06-01.md`

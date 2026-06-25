@@ -56,7 +56,7 @@ Heavy-week adds:
 | Which ceasefire label still applied Jun 8? | [2026-06-08](statecraft/synthesis/day/2026-06-08.md) |
 | Apache down → Qeshm strikes — accident or pretext? | [physics fork](statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) |
 | Wire-supported vs contested rows? | [Jun 12 matrix](statecraft/notes/wire/2026-06-12-wire-verify-matrix.md) · [8–9 batch](statecraft/notes/wire/2026-06-08-09-wire-verify-matrix.md) |
-| GCC retaliation developing? | [Nima solo Bahrain brief](../../source-archive/statecraft/2026-06-09/source-alkorshid-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) + [2026-06-09](statecraft/synthesis/day/2026-06-09.md) §5 |
+| GCC retaliation developing? | [Nima solo Bahrain brief](../../source-archive/statecraft/2026-06-09/source-dialogue-works-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) + [2026-06-09](statecraft/synthesis/day/2026-06-09.md) §5 |
 | Ukraine secondary (not primary)? | [S9 mesh](statecraft/notes/2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md) |
 | Pape trap indicators this week? | [Day 100 watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) |
 | What carried from week1? | [Prior week carry](#prior-week-carry) below |

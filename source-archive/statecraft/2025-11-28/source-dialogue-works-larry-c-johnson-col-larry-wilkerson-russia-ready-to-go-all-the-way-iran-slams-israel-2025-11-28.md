@@ -3,7 +3,7 @@ ingest_date: 2026-05-29
 pub_date: 2025-11-28
 kind: transcript
 source_form: panel
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guests:

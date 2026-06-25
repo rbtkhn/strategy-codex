@@ -23,7 +23,7 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | John Helmer | [Trump Furious — allies reject Hormuz escort](../../source-archive/statecraft/2026-03-17/source-alkorshid-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | **J17-A1 – A4**, **J17-C1 – C3**, **J17-E1 – E2**, **J17-F1 – F2**, **J17-G1 – G2** |
+| 1 | John Helmer | [Trump Furious — allies reject Hormuz escort](../../source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | **J17-A1 – A4**, **J17-C1 – C3**, **J17-E1 – E2**, **J17-F1 – F2**, **J17-G1 – G2** |
 | 2 | Alexander Mercouris | [Ground invasion / Larijani dead](../../source-archive/statecraft/2026-03-17/source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md) | **J17-B1 – B3**, **J17-D1 – D2** |
 | 3 | Chas Freeman | [Will China Dump Trump?](../../source-archive/statecraft/2026-03-17/source-napolitano-freeman-will-china-dump-trump-2026-03-17.md) | **J17-A2**, **J17-C1** (cross) |
 | 4 | Patrick Henningsen × Daniel Davis | [Global Reset](../../source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) | **J17-A3**, **J17-H2** |

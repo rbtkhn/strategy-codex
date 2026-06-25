@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: hoh
 threads:
+  - alkorshid
   - hoh
-  - nima
 thread_expert: hoh
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Matthew Hoh
 title: "Matthew Hoh: \"CHANGE COURSE OR ELSE!\" – Trump to Israel"
 channel_url: "https://www.youtube.com/@dialogueworks01"

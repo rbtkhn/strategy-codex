@@ -3,7 +3,7 @@ title: "Col. Larry Wilkerson: No Way Out for Israel - Iran & Russia — NATO’s
 host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
 date: 2025-11-04
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=KivkUkCCQ60
 source_type: youtube-auto-captions
 source_form: interview

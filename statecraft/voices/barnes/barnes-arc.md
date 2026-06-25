@@ -33,7 +33,7 @@ That role survives host translation strongly enough that Barnes now reads as a s
 |---|---|---|
 | [Davis host shelf](../../hosts/davis/README.md) | mature primary lane | war powers, law-of-war exposure, White House process fracture, coalition sell, and domestic survivability under Iran-war pressure |
 | [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | real reinforcing lane | carries the Barnes executive-decline and regime-chaos reading outside Davis and into a more overtly geopolitical host environment |
-| [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | thin but meaningful reinforcing lane | confirms late-stage Barnes continuity on Iran, executive instability, Israel-lobby capture, and domestic political danger in a cross-theater setting that also touches Ukraine |
+| [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | thin but meaningful reinforcing lane | confirms late-stage Barnes continuity on Iran, executive instability, Israel-lobby capture, and domestic political danger in a cross-theater setting that also touches Ukraine |
 | [Johnson x Barnes support](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md) | support-tier adjunct | useful for White House room dynamics and domestic-fork emphasis, but not yet a cleanly materialized host-local Barnes strand |
 
 ## Recurring retrieval jobs
@@ -73,7 +73,7 @@ This is the Barnes consolidation run.
 May confirms continuation rather than ending the object in April.
 
 - [2026-05-12 / Davis x Barnes](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md) extends the mature Davis lane.
-- [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) is the required late-May anchor. It matters because it confirms that Barnes’s object survives outside Davis in a high-pressure setting where Iran escalation, Trump behavioral decline, Israel-lobby capture, Gulf economics, and Ukraine escalation are being read together.
+- [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) is the required late-May anchor. It matters because it confirms that Barnes’s object survives outside Davis in a high-pressure setting where Iran escalation, Trump behavioral decline, Israel-lobby capture, Gulf economics, and Ukraine escalation are being read together.
 
 The May 26 source does not make `Nima x Barnes` co-equal with Davis. It does make the broader Barnes object harder to reduce back down to a Davis-only shelf.
 
@@ -90,7 +90,7 @@ If the operator needs the cleanest pair:
 
 If the operator specifically needs the late-stage May pressure cluster:
 
-- open [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- open [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 
 ## Boundary
 

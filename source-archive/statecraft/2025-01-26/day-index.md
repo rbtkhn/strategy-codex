@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `What Ukraine Lost in Battle CAN'T be Regained Negotiating w/Amb Chas Freeman` (1)
-- Threads: `davis` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
+- Threads: `alkorshid` (1), `davis` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1dXh4Y_OLyc) | `source-alex-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=Bsk30tThKeU) | `source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=wx8APuZxMFc) | `source-dialogue-works-andrei-martyanov-nato-is-collapsing-right-before-our-eyes-2025-01-26.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=wx8APuZxMFc) | `source-dialogue-works-andrei-martyanov-nato-is-collapsing-right-before-our-eyes-2025-01-26.md` |
 
 ## Writer sources
 

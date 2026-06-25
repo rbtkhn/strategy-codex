@@ -14,11 +14,10 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: johnson
 threads:
-  - nima
+  - alkorshid
   - johnson
-  - marandi
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
 guest_2: Seyed M. Marandi
 title: "Larry Johnson & Mohammad Marandi: BREAKING: US and Iran Reach Deal – Full Details Inside"

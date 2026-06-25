@@ -124,8 +124,8 @@ This statecraft note sharpens one tension the parent note surfaced in `Dominant 
 
 ## Source Anchors
 
-- [Marandi / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Marandi / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>)
+- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
 
 Related:
 

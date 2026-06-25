@@ -11,13 +11,12 @@ guest_people:
   - Lt. Col. Anthony Aguilar
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - aguilar
+  - alkorshid
 thread_expert: aguilar
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Lt. Col. Anthony Aguilar
 title: "Anthony Aguilar: BREAKING: Iran SUSPENDS All Flights in Western Region – Attack on Israel Imminent"
 channel_slug: dialogue-works

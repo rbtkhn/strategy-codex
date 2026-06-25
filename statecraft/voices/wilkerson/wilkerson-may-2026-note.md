@@ -30,7 +30,7 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-05-05 - Hormuz Blockade](../../../source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+1. [2026-05-05 - Hormuz Blockade](../../../source-archive/statecraft/2026-05-05/source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md)
    Status: `Dialogue Works`-adjacent May opener already materialized.
 
 2. [2026-05-06 - Hormuz, BRICS](../../../source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)

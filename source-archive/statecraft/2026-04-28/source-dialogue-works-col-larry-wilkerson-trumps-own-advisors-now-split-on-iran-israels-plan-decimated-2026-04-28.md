@@ -3,7 +3,7 @@ ingest_date: 2026-06-02
 pub_date: 2026-04-28
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Dialogue Works
 guest: Col. Larry Wilkerson

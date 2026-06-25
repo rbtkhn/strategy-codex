@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (2), `source` (1), `youtube` (1)
 - Source form mix: `interview` (2), `lecture` (1), `solo` (1)
-- Distinct channels/shows: `3`
+- Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `3`
 - Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `Judging Freedom` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 

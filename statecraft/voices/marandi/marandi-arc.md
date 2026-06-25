@@ -75,14 +75,14 @@ Key anchors:
 
 - [2026-04-21 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
 - [2026-04-22 / Davis x Marandi](../../../source-archive/statecraft/2026-04-22/source-daniel-davis-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md)
-- [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
+- [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md)
 - [2026-05-05 / Diesen x Marandi](../../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
 - [2026-05-10 / Davis x Marandi](../../../source-archive/statecraft/2026-05-10/source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
-- [2026-05-23 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-23/source-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
+- [2026-05-23 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-23/source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
 
 ### May 26
 
-- [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is required shelf evidence. It belongs inside the mature pressure cluster because it shows Marandi reading mixed U.S. signals, Israeli efforts to wreck ceasefire paths, Hormuz leverage, Gulf-state repositioning, and Iranian distrust in one dense late-stage frame.
+- [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is required shelf evidence. It belongs inside the mature pressure cluster because it shows Marandi reading mixed U.S. signals, Israeli efforts to wreck ceasefire paths, Hormuz leverage, Gulf-state repositioning, and Iranian distrust in one dense late-stage frame.
 
 The May 26 file confirms that the mature core runs through the end of the current archive window rather than topping out at mid-May.
 
@@ -90,16 +90,16 @@ The May 26 file confirms that the mature core runs through the end of the curren
 
 If the operator needs one file:
 
-- open [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
+- open [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md)
 
 If the operator needs the cleanest host-spanning pair:
 
-- open [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
+- open [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md)
 - then [2026-05-05 / Diesen x Marandi](../../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
 
 If the operator specifically needs the late-May pressure cluster:
 
-- add [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- add [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 
 ## Boundary
 

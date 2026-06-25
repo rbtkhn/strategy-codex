@@ -10,11 +10,11 @@ host_people:
 guest_people: []
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
+  - alkorshid
 show: Dialogue Works
-host: Nima R. Alkhorshid
+host: Nima Alkorshid
 title: "Iran LAUNCHES Immediate Retaliation: Explosions Rock Bahrain After US Strikes"
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works

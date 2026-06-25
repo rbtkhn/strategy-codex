@@ -2,11 +2,11 @@ WORK only; not Record.
 
 # Johnson × Davis — MOU Skepticism Fork — 2026-06-15
 
-**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Cross-day:** [2026-06-08 Davis Trust × Johnson Islamabad](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) · **Sun 14 anchor:** [Johnson × Marandi MOU close](../../source-archive/statecraft/2026-06-14/source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md)
+**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Cross-day:** [2026-06-08 Davis Trust × Johnson Islamabad](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) · **Sun 14 anchor:** [Johnson × Marandi MOU close](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md)
 
 **Sources:**
 
-- [Johnson / Dialogue Works](../../source-archive/statecraft/2026-06-15/source-alkorshid-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md)
+- [Johnson / Dialogue Works](../../source-archive/statecraft/2026-06-15/source-dialogue-works-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md)
 - [Johnson / Judging Freedom](../../source-archive/statecraft/2026-06-15/source-napolitano-johnson-is-this-any-way-to-negotiate-2026-06-15.md)
 - [Davis / Deep Dive (solo)](../../source-archive/statecraft/2026-06-15/source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md)
 
@@ -118,7 +118,7 @@ June 15 is the day **document skepticism** (Johnson ×2) and **survival skeptici
 
 - **Parent daily** `2026-06-15.md`: cite this note for **speaker-function row** on johnson/davis skepticism pair.
 - **Wire-verify:** bilateral text, $12B transfer, Lebanon halt, Hormuz tracker — rows map directly to falsifier table above.
-- **Cross-read:** [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md) + [Johnson × Marandi](../../source-archive/statecraft/2026-06-14/source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) — Johnson wedding/prenup **origin**; Marandi close timing.
+- **Cross-read:** [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md) + [Johnson × Marandi](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) — Johnson wedding/prenup **origin**; Marandi close timing.
 - **Cross-read:** [2026-06-08 trust fork](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) — Davis trust plane **matured** from upfront-goods table to MOU survival math.
 
 ## Attribution discipline

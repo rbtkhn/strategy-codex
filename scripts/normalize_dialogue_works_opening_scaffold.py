@@ -216,6 +216,22 @@ def build_output_text(original_text: str, meta: dict[str, Any], body: str) -> st
     return (fm_match.group(0) if fm_match else "") + body
 
 
+DIALOGUE_WORKS_SLUGS = frozenset({"dialogue-works", "dialogueworks"})
+DANIEL_DAVIS_CHANNEL_IDS = frozenset({"UCkF-6h_Zgf9zXNUmUB-MzTw"})
+
+
+def _channel_is_dialogue_works(meta: dict[str, Any]) -> bool:
+    slug = str(meta.get("channel_slug") or "").strip().lower()
+    url = str(meta.get("channel_url") or meta.get("source_url") or "").lower()
+    if slug and slug not in DIALOGUE_WORKS_SLUGS:
+        if any(ch.lower() in url for ch in DANIEL_DAVIS_CHANNEL_IDS):
+            return False
+        return False
+    if any(ch.lower() in url for ch in DANIEL_DAVIS_CHANNEL_IDS):
+        return False
+    return True
+
+
 def is_dialogue_works_capture(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
     if not (
@@ -224,11 +240,13 @@ def is_dialogue_works_capture(meta: dict[str, Any], path: Path) -> bool:
         or name.startswith("source-dialogue-works-")
     ):
         return False
+    if not _channel_is_dialogue_works(meta):
+        return False
     show = str(meta.get("show") or meta.get("show_title") or "").strip().lower()
     slug = str(meta.get("channel_slug") or "").strip().lower()
     if show and "dialogue works" not in show:
         return False
-    if slug and slug != "dialogue-works":
+    if slug and slug not in DIALOGUE_WORKS_SLUGS:
         return False
     return True
 

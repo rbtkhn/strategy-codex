@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Scott Ritter` (1)
-- Threads: `mercouris` (1), `nima` (1), `ritter` (1)
+- Threads: `alkorshid` (1), `mercouris` (1), `nima` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2V_Reg8vQ6U) | `source-alex-mercouris-kiev-military-crisis-badly-worsens-big-russian-gains-pokrovsk-kherson-2025-10-19.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=AupNaa-bj3M) | `source-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=AupNaa-bj3M) | `source-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md` |
 
 ## Writer sources
 

@@ -1,11 +1,13 @@
 ---
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 pub_date: 2026-05-04
 ingest_date: 2026-05-04
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 source_url: "https://www.youtube.com/watch?v=HUg0fyqLmGI"
 title: "Lt. Col. Anthony Aguilar: Project Freedom, the USS Canberra, Hormuz, and the Strait Blockade"
 interviewer: Nima Alkhorshid

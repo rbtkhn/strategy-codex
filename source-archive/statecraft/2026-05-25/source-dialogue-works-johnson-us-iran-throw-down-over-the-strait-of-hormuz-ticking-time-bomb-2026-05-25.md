@@ -4,9 +4,11 @@ pub_date: 2026-05-25
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 source_url: "https://www.youtube.com/watch?v=qShS2y0N9Ys"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25

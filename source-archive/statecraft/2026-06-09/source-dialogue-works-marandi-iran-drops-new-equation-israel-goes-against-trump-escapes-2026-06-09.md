@@ -11,12 +11,11 @@ guest_people:
   - Seyed M. Marandi
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - marandi
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Drops a New Equation on the Face of War – Israel Goes Against, Trump Escapes"
 channel_url: "https://www.youtube.com/@dialogueworks01"

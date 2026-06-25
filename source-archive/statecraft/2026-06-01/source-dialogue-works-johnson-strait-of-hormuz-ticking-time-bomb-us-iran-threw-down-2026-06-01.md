@@ -9,9 +9,11 @@ guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 source_url: "https://www.youtube.com/watch?v=bgmx1Uz_QT0"
 source_type: youtube
 youtube_id: bgmx1Uz_QT0

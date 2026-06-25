@@ -9,10 +9,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
-threads: ""
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima R. Alkhorshid
+host: Nima Alkorshid
 guest: Jacques Baud
 title: "Col. Jacques Baud: Iran & Israel Just Opened a NEW WAR FRONT in the Mediterranean"
 channel_url: "https://www.youtube.com/@dialogueworks01"

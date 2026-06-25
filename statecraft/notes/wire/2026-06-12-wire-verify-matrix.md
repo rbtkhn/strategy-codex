@@ -89,9 +89,9 @@ WORK only; not Record.
 |------|---------|----------------|
 | `source-glenn-diesen-larry-johnson-*` | Y | J12-4 contested · J12-2 partial |
 | `source-napolitano-johnson-mcgovern-*` | Y | J12-1 supported (cycle) · J12-3 partial |
-| `source-alkorshid-johnson-wilkerson-*` | Y | J12-2 partial · J12-6 supported |
-| `source-alkorshid-chas-freeman-*` | Y | J12-1 supported · J12-5 partial |
-| `source-alkorshid-anthony-aguilar-*` | Y | J12-6 supported · J12-2 partial |
+| `source-dialogue-works-johnson-wilkerson-*` | Y | J12-2 partial · J12-6 supported |
+| `source-dialogue-works-chas-freeman-*` | Y | J12-1 supported · J12-5 partial |
+| `source-dialogue-works-anthony-aguilar-*` | Y | J12-6 supported · J12-2 partial |
 | `source-nawfal-parsi-*` | Y | J12-4 contested · J12-5 supported |
 | `source-daniel-davis-*` | Y | J12-1 supported · J12-3 partial |
 | `source-moral-resistance-anthony-aguilar-*` | Y | J12-7 supported · J12-8 partial/contested · J12-9 supported |

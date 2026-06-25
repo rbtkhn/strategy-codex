@@ -3,7 +3,9 @@ ingest_date: 2026-05-11
 pub_date: 2026-05-11
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Col. Jacques Baud

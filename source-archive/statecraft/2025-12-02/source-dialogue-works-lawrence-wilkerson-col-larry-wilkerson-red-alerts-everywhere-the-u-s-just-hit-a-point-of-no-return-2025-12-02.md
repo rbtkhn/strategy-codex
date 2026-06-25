@@ -3,7 +3,7 @@ title: "Col. Larry Wilkerson: Red Alerts Everywhere: The U.S. Just Hit a Point o
 host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
 date: 2025-12-02
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=QDXCudThUvg
 source_type: youtube-auto-captions
 source_form: interview

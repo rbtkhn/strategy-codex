@@ -64,7 +64,7 @@ Local interview appearance count: 49 captures.
 | Dialogue Works | 2026-03-04 | [raw-input](../../../source-archive/statecraft/2026-03-04/source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md) | live war pressure |
 | Dialogue Works | 2026-03-11 | [raw-input](../../../source-archive/statecraft/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md) | live war pressure |
 | Dialogue Works | 2026-04-08 | [raw-input](../../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md) | live war pressure |
-| Dialogue Works | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md) | live war pressure |
+| Dialogue Works | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md) | live war pressure |
 | Dialogue Works | 2026-05-13 | [raw-input](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md) | live war pressure |
 | Napolitano | 2025-11-04 | [raw-input](../../../source-archive/statecraft/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md) | legality and command failure |
 | Napolitano | 2025-12-01 | [raw-input](../../../source-archive/statecraft/2025-12-01/source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md) | legality and command failure |

@@ -46,7 +46,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Tension fingerprint
 
-*Seed — operator extends when upgraded.* **Helmer** “crisis of confidence” / no-NATO-strike reads — Krapivnik cites Helmer as rebuttal target ([Jun 09 Dialogue Works](../../../source-archive/statecraft/2026-06-09/source-alkorshid-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md)). Orthogonal to **Jermy** macro energetics and **Mercouris** institutional braid — Krapivnik = Moscow military contrarian first.
+*Seed — operator extends when upgraded.* **Helmer** “crisis of confidence” / no-NATO-strike reads — Krapivnik cites Helmer as rebuttal target ([Jun 09 Dialogue Works](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md)). Orthogonal to **Jermy** macro energetics and **Mercouris** institutional braid — Krapivnik = Moscow military contrarian first.
 
 ## Links
 

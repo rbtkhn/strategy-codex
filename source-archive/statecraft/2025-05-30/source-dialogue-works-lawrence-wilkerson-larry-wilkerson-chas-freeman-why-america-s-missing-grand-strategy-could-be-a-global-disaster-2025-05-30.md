@@ -3,7 +3,7 @@ title: "Larry Wilkerson & Chas Freeman: Why America’s Missing Grand Strategy C
 host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
 date: 2025-05-30
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=1rsuGiI1_Ms
 source_type: youtube-auto-captions
 source_form: interview

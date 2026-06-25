@@ -160,8 +160,8 @@ Use **Macgregor** when the question is:
 
 | Need | Archive path |
 |---|---|
-| Johnson Vance | `source-archive/statecraft/2026-06-18/source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
-| Johnson Lebanon | `source-archive/statecraft/2026-06-18/source-alkorshid-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
+| Johnson Vance | `source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
+| Johnson Lebanon | `source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
 | Blumenthal | `source-archive/statecraft/2026-06-18/source-napolitano-blumenthal-israel-in-panic-2026-06-18.md` |
 | Macgregor | `source-archive/statecraft/2026-06-18/source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md` |
 | Day index | `source-archive/statecraft/2026-06-18/README.md` |

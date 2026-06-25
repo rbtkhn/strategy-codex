@@ -8,9 +8,9 @@ WORK only; not Record.
 
 **Archive anchors (victory grammar):**
 
-- [Johnson solo — surrender / total victory](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md) (`enmrP08J_Fo`)
-- [Johnson × Marandi — clause walk + reciprocity](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md) (`pDVwed9QDRk`)
-- [Hoh — defeat exit](../../source-archive/statecraft/2026-06-17/source-alkorshid-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) (`YgI1FnQSZj0`)
+- [Johnson solo — surrender / total victory](../../source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md) (`enmrP08J_Fo`)
+- [Johnson × Marandi — clause walk + reciprocity](../../source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md) (`pDVwed9QDRk`)
+- [Hoh — defeat exit](../../source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) (`YgI1FnQSZj0`)
 
 ---
 

@@ -9,11 +9,12 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
-threads: ""
+thread: alkorshid
+threads:
+  - alkorshid
 thread_expert: henningsen
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Patrick Henningsen
 title: "Patrick Henningsen: Israel's Losses Continue to Get Worse – New Numbers Just Dropped"
 channel_slug: dialogue-works

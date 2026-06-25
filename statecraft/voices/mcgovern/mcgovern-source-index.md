@@ -25,7 +25,7 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 - [2026-03-08 - Does Armageddon Loom](../../../source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
 - [2026-03-15 - CIA attacks Tucker Carlson](../../../source-archive/statecraft/2026-03-15/source-dialogue-works-ray-mcgovern-cia-attacks-tucker-carlson-iran-closer-to-obliterating-israel-in-weeks-then-what-2026-03-15.md)
 - [2026-05-20 - Ukraine to hit Russia from Latvia territory](../../../source-archive/statecraft/2026-05-20/source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md)
-- [2026-06-06 - West Asia changing fast, Israel loses big, Putin rejects Zelensky](../../../source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
+- [2026-06-06 - West Asia changing fast, Israel loses big, Putin rejects Zelensky](../../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
 
 ### Judging Freedom
 

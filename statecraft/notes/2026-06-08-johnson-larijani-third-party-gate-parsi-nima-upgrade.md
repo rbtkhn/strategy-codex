@@ -9,8 +9,8 @@ WORK only; not Record.
 - [Johnson × Nima / Iran missiles northern Israel](../../source-archive/statecraft/2026-06-08/source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md)
 - [Parsi / profound geopolitical implications](../../source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md)
 - [Parsi / After Israel strikes Beirut](../../source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md)
-- [Nima solo / urgent Iran–Israel trade blows](../../source-archive/statecraft/2026-06-07/source-alkorshid-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md)
-- [McGovern / West Asia changing fast (June 6)](../../source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
+- [Nima solo / urgent Iran–Israel trade blows](../../source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md)
+- [McGovern / West Asia changing fast (June 6)](../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
 
 ## Purpose
 

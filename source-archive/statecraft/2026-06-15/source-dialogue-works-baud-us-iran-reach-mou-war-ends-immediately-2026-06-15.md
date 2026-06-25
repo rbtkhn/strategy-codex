@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: baud
 threads:
-  - nima
+  - alkorshid
   - baud
 thread_expert: baud
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Jacques Baud
 title: "Col. Jacques Baud: US & Iran Reach MoU – War Ends IMMEDIATELY on All Fronts (Lebanon Included)"
 channel_slug: dialogue-works

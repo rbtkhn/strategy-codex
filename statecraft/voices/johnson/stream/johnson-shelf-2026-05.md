@@ -10,7 +10,7 @@ Best openings:
 
 - [2026-05-05 Davis](../../../../source-archive/statecraft/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md)
 - [2026-05-08 Diesen](../../../../source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- [2026-05-11 Dialogue Works](../../../../source-archive/statecraft/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- [2026-05-11 Dialogue Works](../../../../source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
 
 Month spine:
 

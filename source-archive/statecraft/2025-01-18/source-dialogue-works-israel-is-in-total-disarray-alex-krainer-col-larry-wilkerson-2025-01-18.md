@@ -3,7 +3,7 @@ ingest_date: 2026-05-02
 pub_date: 2025-01-18
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson

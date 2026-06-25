@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Lawrence Wilkerson` (1)
-- Threads: `nima` (1), `wilkerson` (1)
+- Threads: `alkorshid` (1), `nima` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=tQ1lpkzeTHY) | `source-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=tQ1lpkzeTHY) | `source-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md` |
 
 ## Writer sources
 

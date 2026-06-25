@@ -3,7 +3,7 @@ ingest_date: 2026-05-27
 pub_date: 2025-11-30
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Andrei Martyanov

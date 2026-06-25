@@ -13,8 +13,8 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: martyanov
 threads:
+  - alkorshid
   - martyanov
-  - nima
 thread_expert: martyanov
 show: Dialogue Works
 host: Nima Alkorshid

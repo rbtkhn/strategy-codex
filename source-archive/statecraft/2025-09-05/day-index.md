@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `3`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2)
 - Guests: `Chas Freeman` (1), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
-- Threads: `nima` (2), `freeman` (1), `johnson` (1), `wilkerson` (1)
+- Threads: `alkorshid` (2), `nima` (2), `freeman` (1), `johnson` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=WPd2CZBpMwA) | `source-dialogue-works-amb-chas-freeman-the-end-of-western-dominance-is-here-2025-09-05.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=VFIk299GRH0) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=WPd2CZBpMwA) | `source-dialogue-works-amb-chas-freeman-the-end-of-western-dominance-is-here-2025-09-05.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=VFIk299GRH0) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md` |
 
 ## Writer sources
 

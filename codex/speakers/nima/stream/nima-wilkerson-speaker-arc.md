@@ -23,7 +23,7 @@ What makes this a real speaker arc is that the same shape keeps returning:
 
 ### Materialized on disk
 
-1. [source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+1. [source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
    Best materialized anchor. Strong on Hormuz escort impossibility, blockade logic, market and logistics strain, and the claim that no one can win the war cleanly.
 
 ### Stream-discovered 2026 run
@@ -63,7 +63,7 @@ That makes the second-half 2025 Dialogue Works Wilkerson run feel materially den
 
 ## Open first
 
-Open [source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md) first when you want the cleanest materialized statement of why this host x guest run matters on its own.
+Open [source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md) first when you want the cleanest materialized statement of why this host x guest run matters on its own.
 
 Open [2025-12-12 Wilkerson/Freeman](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) first when you need the joint-speaker origin of the live-pressure lane: piracy and Venezuela, Monroe Doctrine revival, no policy process, China-war complacency, and the U.S./Israel responsibility split.
 

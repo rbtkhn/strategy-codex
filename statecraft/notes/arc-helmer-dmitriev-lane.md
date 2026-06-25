@@ -18,11 +18,11 @@ span_end: 2026-03-24
 
 | # | Day | Capture | URL |
 | --- | --- | --- | --- |
-| 1 | **Jan 20** | [Two Fronts / Greenland / Ukraine](../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) | https://www.youtube.com/watch?v=6uV3p9nD8D8 |
-| 2 | **Feb 3** | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-alkorshid-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | https://www.youtube.com/watch?v=N4DM3Nu3AhY |
-| 3 | **Feb 17** | [Kremlin strategy before Geneva](../../source-archive/statecraft/2026-02-17/source-alkorshid-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) | https://www.youtube.com/watch?v=YQrBhZf2TXI |
-| 4 | **Mar 3** | [China, Russia & Iran War: Nuclear Option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | https://www.youtube.com/watch?v=cds5p875iNs |
-| 5 | **Mar 24** | [Lavrov Sounds Alarm / five terms / Witkoff indirect](../../source-archive/statecraft/2026-03-24/source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | https://www.youtube.com/watch?v=qc8vYcD_dtM |
+| 1 | **Jan 20** | [Two Fronts / Greenland / Ukraine](../../source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) | https://www.youtube.com/watch?v=6uV3p9nD8D8 |
+| 2 | **Feb 3** | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | https://www.youtube.com/watch?v=N4DM3Nu3AhY |
+| 3 | **Feb 17** | [Kremlin strategy before Geneva](../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) | https://www.youtube.com/watch?v=YQrBhZf2TXI |
+| 4 | **Mar 3** | [China, Russia & Iran War: Nuclear Option](../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | https://www.youtube.com/watch?v=cds5p875iNs |
+| 5 | **Mar 24** | [Lavrov Sounds Alarm / five terms / Witkoff indirect](../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | https://www.youtube.com/watch?v=qc8vYcD_dtM |
 
 **Split from:** `arc-helmer-dmitriev-lane.md` (2026-06-22) — **Mercouris register:** [companion arc](./arc-mercouris-dmitriev-lane.md)
 

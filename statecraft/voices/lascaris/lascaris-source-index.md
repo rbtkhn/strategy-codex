@@ -35,7 +35,7 @@ Purpose: canonical route map for **Reason to Resist / Dimitri Lascaris** materia
 
 **Cross-weave (May 24):** Same-day [Mercouris Oreshnik/Kiev revenge](../../../source-archive/statecraft/2026-05-24/source-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md); Diesen/Nawfal batch on May 24 register.
 
-**Cross-weave (May 26):** Same-day [Helmer on Nima](../../../source-archive/statecraft/2026-05-26/source-alkorshid-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md); [Marandi Iran opens fire](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md); Napolitano/Crooke/Mearsheimer batch.
+**Cross-weave (May 26):** Same-day [Helmer on Nima](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md); [Marandi Iran opens fire](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md); Napolitano/Crooke/Mearsheimer batch.
 
 ## Reading rule
 

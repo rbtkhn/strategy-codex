@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1)
-- Threads: `krainer` (1), `martyanov` (1), `nima` (1)
+- Threads: `alkorshid` (1), `krainer` (1), `martyanov` (1), `nima` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `nima`, `martyanov`, `krainer` | [watch](https://www.youtube.com/watch?v=31Oig0FmVX4) | `source-dialogue-works-andrei-martyanov-alex-krainer-its-over-global-arms-control-collapses-2025-11-09.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov`, `krainer` | [watch](https://www.youtube.com/watch?v=31Oig0FmVX4) | `source-dialogue-works-andrei-martyanov-alex-krainer-its-over-global-arms-control-collapses-2025-11-09.md` |
 
 ## Writer sources
 

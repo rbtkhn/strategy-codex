@@ -12,14 +12,12 @@ guest_people:
   - Larry Wilkerson
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - johnson
-  - wilkerson
+  - alkorshid
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson; Larry Wilkerson
 title: "Larry Johnson & Col. Wilkerson: Iran Just Fired at U.S.-Guided Ships: Trump REVEALS Final Decision"
 channel_url: "https://www.youtube.com/@dialogueworks01"

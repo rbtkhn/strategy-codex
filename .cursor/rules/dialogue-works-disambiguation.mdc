@@ -1,0 +1,22 @@
+# Dialogue Works disambiguation (alkorshid / nima / venue)
+
+When routing, ingesting, or titling **Nima Alkorshid** / **Dialogue Works** captures:
+
+## SSOT
+
+- Law: [dialogue-works-disambiguation.md](../../statecraft/hosts/nima/dialogue-works-disambiguation.md)
+- Host-law: [nima-host-law.md](../../statecraft/hosts/nima/nima-host-law.md)
+- Appearances index: [alkorshid-source-index.md](../../statecraft/voices/alkorshid/alkorshid-source-index.md)
+
+## Rules
+
+1. **Person thread:** `alkorshid` on all appearances (host + guest). Deprecate `thread:nima` for archive routing; keep `expert_id: nima` for MCQ/EOD compat only.
+2. **Own show filename:** `source-dialogue-works-<guest>-*` — not `source-alkorshid-*` / `source-nima-*`.
+3. **Cross-host guest:** `source-nawfal-alkorshid-*`, `source-daniel-davis-alkorshid-*`.
+4. **Venue-first titles:** `Dialogue Works × Johnson`, `Daniel Davis × Alkorshid`, `Mario Nawfal × Alkorshid` — never `Johnson × Alkorshid`, `Alkhorshid Johnson`, or bare `× Nima`.
+5. **Intake guard:** Apply Dialogue Works normalize only when `channel_slug: dialogue-works`. Do not infer DW from guest surname in filename.
+
+## Shelf split
+
+- `statecraft/hosts/nima/` — Dialogue Works **host-law** only
+- `statecraft/voices/alkorshid/` — **all appearances** index (Diesen parity)

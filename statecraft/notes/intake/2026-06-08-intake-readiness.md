@@ -26,7 +26,7 @@ Diff: [source-archive/statecraft/2026-06-08/README.md](../../source-archive/stat
 | `source-napolitano-mcgovern-*` | Primary captures | ✓ Theme 4 |
 | `source-nawfal-barnes-*` | Primary captures | ✓ Theme 4 |
 | `source-alex-mercouris-*` | Primary captures | ✓ Theme 7 |
-| `source-alkorshid-baud-*` | Primary captures | ✓ Theme 7 |
+| `source-dialogue-works-baud-*` | Primary captures | ✓ Theme 7 |
 | `source-glenn-diesen-wilkerson-*` | Primary captures | ✓ Themes 4, 5 |
 | `source-napolitano-sachs-*` | Primary captures (post-fix) | ✓ Theme 4 + RCPT-03 |
 
@@ -93,7 +93,7 @@ Draft statecraft notes only if the batch supports them:
 
 - **Davis trust fork × Johnson Islamabad / Larijani** — [statecraft note](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) ✓
 - **Davis dual episode — trust fork × foreknowledge accountability** — [statecraft note](statecraft/notes/2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md) ✓ · [morning](../../source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md) · [evening](../../source-archive/statecraft/2026-06-08/source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md)
-- **Wilkerson × Hoh — Section 224 mesh receipt** — [statecraft note](statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) ✓ · [Wilkerson June 8](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md) · [Hoh June 4](../../source-archive/statecraft/2026-06-04/source-alkorshid-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
+- **Wilkerson × Hoh — Section 224 mesh receipt** — [statecraft note](statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) ✓ · [Wilkerson June 8](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md) · [Hoh June 4](../../source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
 - **Davis Lebanon fulcrum × Crooke ceasefire-for-all** — [statecraft note](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) ✓
 - **America USS Liberty legitimacy seam × McGovern June 8** — [statecraft note](statecraft/notes/2026-06-08-america-uss-liberty-legitimacy-seam.md) ✓
 - **Pape Day 100 × New Phase × Lebanon Fuse** — [statecraft note](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) ✓

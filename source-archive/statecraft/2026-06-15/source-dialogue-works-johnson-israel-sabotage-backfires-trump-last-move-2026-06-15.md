@@ -13,10 +13,10 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: johnson
 threads:
-  - nima
+  - alkorshid
   - johnson
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
 title: "Larry Johnson: Israel's Sabotage Backfires – Trump's Last Move ENDS Israel's Agenda"
 channel_slug: dialogue-works

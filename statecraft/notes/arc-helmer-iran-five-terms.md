@@ -19,11 +19,11 @@ span_end: 2026-03-24
 
 | Day | Capture | URL |
 | --- | --- | --- |
-| **Feb 3** | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-alkorshid-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | https://www.youtube.com/watch?v=N4DM3Nu3AhY |
-| **Feb 17** | [The Kremlin's New Strategy Before Geneva — Iran coda](../../source-archive/statecraft/2026-02-17/source-alkorshid-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) | https://www.youtube.com/watch?v=YQrBhZf2TXI |
-| **Mar 3** | [China, Russia & the Iran War: The Nuclear Option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | https://www.youtube.com/watch?v=cds5p875iNs |
-| **Mar 17** | [Trump Furious as Allies Reject U.S. Plan to Escort Ships in Hormuz](../../source-archive/statecraft/2026-03-17/source-alkorshid-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | https://www.youtube.com/watch?v=yD13qVxL73I |
-| **Mar 24** | [Lavrov Sounds Alarm: US-Israel Attack Could Trigger Regional DISASTER](../../source-archive/statecraft/2026-03-24/source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | https://www.youtube.com/watch?v=qc8vYcD_dtM |
+| **Feb 3** | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | https://www.youtube.com/watch?v=N4DM3Nu3AhY |
+| **Feb 17** | [The Kremlin's New Strategy Before Geneva — Iran coda](../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) | https://www.youtube.com/watch?v=YQrBhZf2TXI |
+| **Mar 3** | [China, Russia & the Iran War: The Nuclear Option](../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | https://www.youtube.com/watch?v=cds5p875iNs |
+| **Mar 17** | [Trump Furious as Allies Reject U.S. Plan to Escort Ships in Hormuz](../../source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | https://www.youtube.com/watch?v=yD13qVxL73I |
+| **Mar 24** | [Lavrov Sounds Alarm: US-Israel Attack Could Trigger Regional DISASTER](../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | https://www.youtube.com/watch?v=qc8vYcD_dtM |
 
 ## Purpose
 

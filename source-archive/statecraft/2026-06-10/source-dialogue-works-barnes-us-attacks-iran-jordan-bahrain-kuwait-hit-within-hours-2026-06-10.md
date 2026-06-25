@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: barnes
 threads:
+  - alkorshid
   - barnes
-  - nima
 thread_expert: barnes
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Robert Barnes
 title: "Robert Barnes: US Attacks Iran: Jordan, Bahrain & Kuwait Were Hit Within Hours"
 channel_url: "https://www.youtube.com/@dialogueworks01"

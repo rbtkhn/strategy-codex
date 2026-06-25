@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `6`
 - Distinct hosts: `4`
 - Distinct guests: `6`
-- Distinct threads: `11`
+- Distinct threads: `12`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Robert Pape` (1)
 - Guests: `Charles Freeman` (2), `Alexander Mercouris` (1), `Dmitry Polyanskiy` (1), `Douglas Macgregor` (1), `Ray McGovern` (1), `Seyed M. Marandi` (1)
-- Threads: `nima` (3), `freeman` (2), `mercouris` (2), `nawfal` (2), `christoforou` (1), `diesen` (1), `macgregor` (1), `marandi` (1), `mcgovern` (1), `pape` (1), `polyanskiy` (1)
+- Threads: `alkorshid` (3), `nima` (3), `freeman` (2), `mercouris` (2), `nawfal` (2), `christoforou` (1), `diesen` (1), `macgregor` (1), `marandi` (1), `mcgovern` (1), `pape` (1), `polyanskiy` (1)
 
 ## Channel sources
 
@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ah-ThpeGDu0) | `source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=HuhJinByAEg) | `source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=RDXTQO2JNhk) | `source-alkorshid-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=njK5kxdDNdE) | `source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=HuhJinByAEg) | `source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=RDXTQO2JNhk) | `source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=njK5kxdDNdE) | `source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=1f5IhQk6lX0) | `source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [HuhJinByAEg](https://www.youtube.com/watch?v=HuhJinByAEg) | `source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md` |
 | `mario-nawfal` | Mario Nawfal | `macgregor`, `nawfal` | [watch](https://www.youtube.com/watch?v=di3VvTTJEYo) | `source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md` |
@@ -60,9 +60,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md`
-- `source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md`
-- `source-alkorshid-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md`
-- `source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md`
+- `source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md`
+- `source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md`
+- `source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md`
 - `source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md`
 - `source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md`
 - `source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md`

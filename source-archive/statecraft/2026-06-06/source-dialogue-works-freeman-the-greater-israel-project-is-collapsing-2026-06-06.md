@@ -7,9 +7,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Charles Freeman
 title: "Chas Freeman: The Greater Israel Project Is Collapsing"
 channel_url: "https://www.youtube.com/@dialogueworks01"

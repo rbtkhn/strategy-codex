@@ -35,7 +35,7 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [substack-crooke-deciphering-trumps-externalised-internal-2026-01-15](../../../source-archive/statecraft/2026-01-15/source-crooke-deciphering-trumps-externalised-internal-2026-01-15.md)
 - [substack-crooke-what-may-be-the-greenland-endgame-2026-01-21](../../../source-archive/statecraft/2026-01-21/source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md)
 - [substack-crooke-will-he-wont-he-taco-on-iran-2026-01-24](../../../source-archive/statecraft/2026-01-24/source-crooke-will-he-wont-he-taco-on-iran-2026-01-24.md)
-- [transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25](../../../source-archive/statecraft/2026-01-25/source-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
+- [transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25](../../../source-archive/statecraft/2026-01-25/source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
 - [substack-crooke-gaza-reconstruction-ukraine-reconstruction-2026-01-28](../../../source-archive/statecraft/2026-01-28/source-crooke-gaza-reconstruction-ukraine-reconstruction-2026-01-28.md)
 - [substack-crooke-trump-dithers-to-find-an-exploitable-2026-01-31](../../../source-archive/statecraft/2026-01-31/source-crooke-trump-dithers-to-find-an-exploitable-2026-01-31.md)
 
@@ -44,7 +44,7 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [substack-crooke-trapping-trump-into-an-iran-strike-2026-02-07](../../../source-archive/statecraft/2026-02-07/source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md)
 - [substack-crooke-trump-kabuki-theatre-in-ukraine-nothing-2026-02-12](../../../source-archive/statecraft/2026-02-12/source-crooke-trump-kabuki-theatre-in-ukraine-nothing-2026-02-12.md)
 - [substack-crooke-who-can-halt-the-america-first-ambition-2026-02-18](../../../source-archive/statecraft/2026-02-18/source-crooke-who-can-halt-the-america-first-ambition-2026-02-18.md)
-- [transcript-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md)
+- [transcript-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md)
 - [substack-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28](../../../source-archive/statecraft/2026-02-28/source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md)
 
 ## 2026-03
@@ -54,7 +54,7 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [transcript-davis-crooke-irans-asymmetrical-war-2026-03-13](../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
 - [youtube-daniel-davis-deep-dive-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15](../../../source-archive/statecraft/2026-03-15/source-daniel-davis-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md)
 - [transcript-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md)
-- [transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17](../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17](../../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
 - [substack-crooke-as-the-wheels-come-off-the-iran-conflict-2026-03-19](../../../source-archive/statecraft/2026-03-19/source-crooke-as-the-wheels-come-off-the-iran-conflict-2026-03-19.md)
 - [transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20](../../../source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
 - [substack-crooke-irans-audacious-strategic-moves-declared-2026-03-23](../../../source-archive/statecraft/2026-03-23/source-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md)
@@ -76,14 +76,14 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [substack-crooke-a-negotiated-settlement-for-a-sovereign-2026-05-02](../../../source-archive/statecraft/2026-05-02/source-crooke-a-negotiated-settlement-for-a-sovereign-2026-05-02.md)
 - [substack-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09](../../../source-archive/statecraft/2026-05-09/source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md)
 - [transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11](../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
-- [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13](../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 - [substack-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14](../../../source-archive/statecraft/2026-05-14/source-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14.md)
 - [transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md)
 - [substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md)
 
 ## 2026-06
 - [substack-crooke-iran-takes-its-chances-with-war-2026-06-04](../../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
-- [transcript-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05](../../../source-archive/statecraft/2026-06-05/source-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md)
+- [transcript-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05](../../../source-archive/statecraft/2026-06-05/source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md)
 - [transcript-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
 - [transcript-hedges-crooke-is-ceasefire-dead-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md)
 - [youtube-daniel-davis-deep-dive-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11.md)

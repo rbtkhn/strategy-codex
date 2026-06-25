@@ -40,7 +40,7 @@ The real hierarchy on disk is:
 - `Diesen x Marandi` is a mature co-supporting lane for strategic-order altitude and escalation horizon.
 - `Davis x Marandi` is a mature co-supporting lane for operational limits and failed intimidation.
 - the dense spring 2026 run makes Marandi a true three-host speaker shelf rather than a single-host guest pattern.
-- [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is part of the mature pressure cluster and must be read as canonical shelf evidence, not as a late appendix.
+- [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is part of the mature pressure cluster and must be read as canonical shelf evidence, not as a late appendix.
 
 ## Compatibility Shape
 

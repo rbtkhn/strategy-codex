@@ -121,10 +121,10 @@ Parent daily: [State Synthesis - 2026-06-07](statecraft/synthesis/day/2026-06-07
 
 ## Source Anchors
 
-- [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-alkorshid-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
+- [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
 - [Macgregor / Mario Nawfal - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
-- [Freeman / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>)
+- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Freeman / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>)
 
 Related:
 

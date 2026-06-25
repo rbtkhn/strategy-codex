@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Helmer × Nima — China, Russia & the Iran War: The Nuclear Option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — https://www.youtube.com/watch?v=cds5p875iNs — **full transcript** (2026-06-20 intake)
+- [Helmer × Nima — China, Russia & the Iran War: The Nuclear Option](../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — https://www.youtube.com/watch?v=cds5p875iNs — **full transcript** (2026-06-20 intake)
 - [Marandi × Nima — Tehran Under FIRE & Israel Faces OBLITERATION](../../source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md) — https://www.youtube.com/watch?v=EhBb6F7tPps — **full transcript**
 
 ## Purpose

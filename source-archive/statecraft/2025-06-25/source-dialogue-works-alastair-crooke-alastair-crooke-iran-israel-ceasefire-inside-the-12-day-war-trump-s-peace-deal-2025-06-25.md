@@ -3,7 +3,7 @@ title: "Alastair Crooke: Iran–Israel Ceasefire? Inside the 12‑Day War & Trum
 host: Nima Alkhorshid
 guest: Alastair Crooke
 date: 2025-06-25
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=51vdLreNqWc
 source_type: youtube-auto-captions
 source_form: interview

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Judging Freedom` (1), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 

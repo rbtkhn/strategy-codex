@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (2), `source` (1), `youtube-transcript` (1)
 - Source form mix: `interview` (4)
-- Distinct channels/shows: `2`
+- Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
 - Distinct threads: `5`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 

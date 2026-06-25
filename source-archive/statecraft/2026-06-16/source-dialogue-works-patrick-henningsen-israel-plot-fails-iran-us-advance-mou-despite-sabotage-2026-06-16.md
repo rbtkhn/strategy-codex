@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: henningsen
 threads:
+  - alkorshid
   - henningsen
-  - nima
 thread_expert: henningsen
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Patrick Henningsen
 title: "Patrick Henningsen: Israel's Plot FAILS – Iran and US Advance MoU Despite Sabotage Attempt"
 channel_url: "https://www.youtube.com/@dialogueworks01"

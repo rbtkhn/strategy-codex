@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `5`
-- Distinct threads: `8`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1)
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1)
-- Threads: `diesen` (2), `nima` (2), `crooke` (1), `freeman` (1), `johnson` (1), `mercouris` (1), `sachs` (1), `wilkerson` (1)
+- Threads: `alkorshid` (2), `diesen` (2), `nima` (2), `crooke` (1), `freeman` (1), `johnson` (1), `mercouris` (1), `sachs` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=7_8P3JHYXhk) | `source-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=gwobyOxdf08) | `source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `johnson`, `wilkerson` | [O8nDFUPG0Hs](https://www.youtube.com/watch?v=O8nDFUPG0Hs) | `source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=gwobyOxdf08) | `source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [O8nDFUPG0Hs](https://www.youtube.com/watch?v=O8nDFUPG0Hs) | `source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md` |
 | `glenn-diesen` | Diesen | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=UlELBkB1bQE) | `source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md` |
 | `glenn-diesen` | Diesen | `diesen`, `sachs` | [gmtJZvmOOes](https://www.youtube.com/watch?v=gmtJZvmOOes) | `source-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20.md` |
 

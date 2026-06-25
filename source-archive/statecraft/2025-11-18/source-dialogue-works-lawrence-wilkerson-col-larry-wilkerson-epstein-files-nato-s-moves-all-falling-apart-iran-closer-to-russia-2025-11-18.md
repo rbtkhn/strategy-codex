@@ -3,7 +3,7 @@ title: "Col. Larry Wilkerson: Epstein Files - NATO's Moves ALL FALLING APART - I
 host: Dialogue Works
 guest: Col. Larry Wilkerson
 date: 2025-11-18
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=WzA3A9h3oqk
 source_type: youtube-auto-captions
 source_form: interview

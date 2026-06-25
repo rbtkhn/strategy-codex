@@ -8,9 +8,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: John Helmer
 title: "John Helmer: Iran's Unthinkable Move Triggers US & Israel - The Middle East Will Never Be the Same"
 channel_url: "https://www.youtube.com/@dialogueworks01"

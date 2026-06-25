@@ -6,8 +6,8 @@ WORK only; not Record.
 
 **Archive anchors:**
 
-- [Johnson × Wilkerson](../../source-archive/statecraft/2026-06-12/source-alkorshid-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md)
-- [Aguilar (Dialogue Works)](../../source-archive/statecraft/2026-06-12/source-alkorshid-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)
+- [Johnson × Wilkerson](../../source-archive/statecraft/2026-06-12/source-dialogue-works-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md)
+- [Aguilar (Dialogue Works)](../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)
 - [Aguilar (Moral Resistance)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
 - [Diesen × Johnson](../../source-archive/statecraft/2026-06-12/source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md) (mediator carrier — cross-ref only)
 

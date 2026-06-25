@@ -82,7 +82,7 @@ Append a row when a **new capture** materially moves implementation, relative-po
 
 | Date | Speaker / source | Lane | Signal (one line) | Archive path |
 | --- | --- | --- | --- | --- |
-| 2026-02-20 | Crooke × Alkorshid | Implementation | China "used artificial intelligence not as the West has done" — productive vs hype frame | [source-alkorshid-crooke-trumps-final-gamble…](../source-archive/statecraft/2026-02-20/source-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) |
+| 2026-02-20 | Crooke × Alkorshid | Implementation | China "used artificial intelligence not as the West has done" — productive vs hype frame | [source-dialogue-works-crooke-trumps-final-gamble…](../source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) |
 | 2026-04-20 | Pape × Redacted | Implementation + relative power | Two-week China industrial tour; ~80% non-oil; execs see Hormuz as US quagmire / China glide-up | [source-pape-collapse-ahead-of-schedule…](../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) |
 | 2026-05-12–26 | Jiang GT-24–28 | Bubble + surveillance | AI apocalypse arc; holy empire; Trump–China visit; techno-metaphysics | [GT-24](../source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md) … [GT-28](../source-archive/statecraft/2026-05-26/source-game-theory-28-predictive-history-2026-05-26.md) |
 | 2026-05-13 | Pape Substack | Implementation | "Getting late early"; Wuhan model; Xiaomi integration; AI+transport solar sizing | [source-pape-with-china-its-getting-late-early…](../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md) |

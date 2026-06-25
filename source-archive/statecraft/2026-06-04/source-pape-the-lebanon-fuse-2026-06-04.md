@@ -14,6 +14,21 @@ publication: escalationtrap.substack.com
 slug: the-lebanon-fuse
 author: Prof Robert Pape
 capture_note: Operator paste; public Substack body preserved verbatim. Same-day companion to Dialogue Works interview capture; escalation-trap / horizontal-escalation frame for Lebanon gate.
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-wire-verify-matrix.md
+verify:
+  - claim: Lebanon fuse - horizontal escalation can reignite full Iran war
+    verdict: partial
+    note: W34-10 - Pape framework; upstream Day 100 indicator sheet
+  - claim: Ceasefire that was not - diplomacy headlines vs continued fighting
+    verdict: supported
+    note: W34-1 W34-5 mesh - bombing-while-talking / pseudo-deal fracture
+  - claim: Trump intervened with Netanyahu after Iran Lebanon warning
+    verdict: partial
+    note: W34-8 - reported confrontation; pair Hoh pseudo-deal same day
+  - claim: Third-party deterrence / boundary expansion thesis
+    verdict: partial
+    note: tier-4; develops W57-8 Jun 7 hardware spend
 ---
 # The Lebanon Fuse
 

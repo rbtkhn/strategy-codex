@@ -3,7 +3,7 @@ title: "Scott Ritter: This Is How It All COLLAPSES — Russia’s Role Explained
 host: Nima Alkhorshid
 guest: Scott Ritter
 date: 2025-12-24
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=mDKeva-bBow
 source_type: youtube-auto-captions
 source_form: interview

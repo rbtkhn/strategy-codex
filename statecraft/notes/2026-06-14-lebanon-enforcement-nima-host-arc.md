@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Lebanon Enforcement × Nima Host Arc — 2026-06-14
+# Lebanon Enforcement × Dialogue Works Host Arc — 2026-06-14
 
 **Parent:** [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md) · [J14-1–J14-12 wire matrix](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md) · [J12-6 72h watch run](statecraft/notes/watch/2026-06-12-72h-watch-run.md) · [Marandi×J12-6×Aguilar bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Marandi deal floor × Clauses A–D](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
@@ -8,7 +8,7 @@ WORK only; not Record.
 
 **Bounded question:** After Jun 14 **SNSC / Sharif “halt tonight”** language, does **Lebanon enforcement** pass at the **ops layer** (IDF + Israeli policy) — and how does **Nima’s three Dialogue Works episodes** (solo pre-close · Aguilar · Johnson×Marandi post-close) function as a **host timeline** without collapsing into one deal probability?
 
-**Method:** Lebanon sub-hook (pass #1 chat) + Nima pre/post-close compare (pass #1 chat) + wire pass #2 (IDF spokesperson · fa SNSC · 72h ops window).
+**Method:** Lebanon sub-hook (pass #1 chat) + Dialogue Works pre/post-close compare (pass #1 chat) + wire pass #2 (IDF spokesperson · fa SNSC · 72h ops window).
 
 ---
 
@@ -17,7 +17,7 @@ WORK only; not Record.
 | Fork | Pass #1 | Pass #2 upgrade |
 |------|---------|-----------------|
 | **Lebanon enforcement** | Pseudo-gate persists (ops continue post-SNSC) | **Hardened** — Katz/Gvir **policy rejection** + IDF **continued kinetic** in first 72h; not silence-only |
-| **Nima host arc** | Pre-close pessimism vs post-close receipt | **Locked** — same channel, **phase change**; solo+Aguilar align pre-close; ×Johnson pivots after Marandi |
+| **Dialogue Works host arc** | Pre-close pessimism vs post-close receipt | **Locked** — same channel, **phase change**; solo+Aguilar align pre-close; ×Johnson pivots after Marandi |
 | **Post-close Marandi** | Win either way | Pass #2 weights **diplomatic-victory / paper gate** over **implementation pass** until 72h ops silence |
 
 **One line:** **Declarative halt supported** (Persia/Pakistan/US statements) · **Israeli policy + ops contradict halt** · **Nima channel tracks the seam** from “will hit Israel” → “deal closed / withheld strike” without speaker error.
@@ -63,7 +63,7 @@ Summary (do not duplicate full cites here):
 |---------|---------------|------|
 | **Trump** | Peace on all fronts incl. Lebanon; rebuke Bibi on Dahieh timing | [J14-3](https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening) · [Axios](https://www.axios.com/2026/06/14/israel-beirut-strike-iran-deal-signing) |
 | **Senior Israeli source (CBS)** | Must retain **operational freedom in Lebanon** if US–Iran deal | [CBS live](https://www.cbsnews.com/live-updates/iran-war-trump-us-peace-talks-strait-of-hormuz-control/) |
-| **WSJ / Aguilar carry** | Trump says **Bibi OK** with deal while strikes continue | [Aguilar capture](../../source-archive/statecraft/2026-06-14/source-alkorshid-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) · [Irish Independent Trump rebuke](https://www.independent.ie/world-news/trump-warns-israeli-strike-on-lebanon-could-make-draft-peace-deal-with-iran-more-difficult/a/157195560.html) |
+| **WSJ / Aguilar carry** | Trump says **Bibi OK** with deal while strikes continue | [Aguilar capture](../../source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) · [Irish Independent Trump rebuke](https://www.independent.ie/world-news/trump-warns-israeli-strike-on-lebanon-could-make-draft-peace-deal-with-iran-more-difficult/a/157195560.html) |
 
 **Captured-command read:** Executive US rhetoric **≠** Israeli policy layer **≠** IDF kinetic layer — [J12-6 pseudo-gate](statecraft/notes/watch/2026-06-12-72h-watch-run.md) **extends** through Jun 14 close.
 
@@ -73,11 +73,11 @@ Summary (do not duplicate full cites here):
 |------------|----------------------|
 | [Marandi Clause A](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) | Post-close occupation-end language **does not green** ops falsifier |
 | [J12-6 bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) | **Gate red** — Katz refusal + south ops during MOU talks **confirms** pseudo-ceasefire |
-| [Aguilar lever floor](../../source-archive/statecraft/2026-06-14/source-alkorshid-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) | Lebanon unaddressed in live ops; Israel spoiler; **aid-cut absent** unchanged |
+| [Aguilar lever floor](../../source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) | Lebanon unaddressed in live ops; Israel spoiler; **aid-cut absent** unchanged |
 
 ---
 
-## Part 2 — Nima host arc (three episodes, one channel)
+## Part 2 — Dialogue Works host arc (three episodes, one channel)
 
 **Rule:** Same host (`nima` ×3 on Jun 14 batch). Treat as **timeline**, not one probability.
 
@@ -85,9 +85,9 @@ Summary (do not duplicate full cites here):
 
 | Episode | ID | Air window | Primary capture |
 |---------|-----|------------|-----------------|
-| **Solo pre-close** | `BlK5ONxCrg8` | Sun **daytime** | [Nima solo](../../source-archive/statecraft/2026-06-14/source-alkorshid-nima-beirut-attack-wont-go-unanswered-deputy-commander-2026-06-14.md) |
-| **× Aguilar** | `bZxS4saKQAY` | Pre-close → evening | [Aguilar](../../source-archive/statecraft/2026-06-14/source-alkorshid-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) |
-| **× Johnson × Marandi** | `t1MaItycdFc` | ~**03:00** Mon Tehran | [Johnson×Marandi](../../source-archive/statecraft/2026-06-14/source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) |
+| **Solo pre-close** | `BlK5ONxCrg8` | Sun **daytime** | [Nima solo](../../source-archive/statecraft/2026-06-14/source-dialogue-works-nima-beirut-attack-wont-go-unanswered-deputy-commander-2026-06-14.md) |
+| **× Aguilar** | `bZxS4saKQAY` | Pre-close → evening | [Aguilar](../../source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) |
+| **× Johnson × Marandi** | `t1MaItycdFc` | ~**03:00** Mon Tehran | [Johnson×Marandi](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) |
 
 ### Comparison table
 

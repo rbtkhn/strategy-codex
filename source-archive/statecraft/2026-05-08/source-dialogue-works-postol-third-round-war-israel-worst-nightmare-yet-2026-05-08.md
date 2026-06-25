@@ -4,9 +4,11 @@ pub_date: 2026-05-08
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Ted Postol
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 source_url: "https://www.youtube.com/watch?v=zUYhhZwU5R0"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08

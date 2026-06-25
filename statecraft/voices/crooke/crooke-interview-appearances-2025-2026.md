@@ -44,10 +44,10 @@ Expected v1 count: 21 files.
 | 2025-06-25 | Iran-Israel Ceasefire: Inside the 12-Day War | [raw-input](../../../source-archive/statecraft/2025-06-25/source-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md) | live crisis pressure |
 | 2025-07-30 | Two Fronts, No Escape, Collapse Is Spreading Fast | [raw-input](../../../source-archive/statecraft/2025-07-30/source-dialogue-works-alastair-crooke-alastair-crooke-two-fronts-no-escape-collapse-is-spreading-fast-2025-07-30.md) | live crisis pressure |
 | 2025-09-12 | Middle East on the Brink, Russia Rains Down Drones and Missiles | [raw-input](../../../source-archive/statecraft/2025-09-12/source-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md) | event meaning |
-| 2026-01-25 | Systemic Collapse Explained: Why Two Fronts Matter | [raw-input](../../../source-archive/statecraft/2026-01-25/source-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md) | systemic pressure |
-| 2026-02-20 | Trump's Final Gamble, Iran Dares to Strike Back | [raw-input](../../../source-archive/statecraft/2026-02-20/source-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) | escalation pressure |
-| 2026-03-17 | Iran Was Ready for This War | [raw-input](../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | readiness and consequence |
-| 2026-05-13 | Iran Smashed the U.S. Military Model, China Is Watching | [raw-input](../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md) | war-model failure |
+| 2026-01-25 | Systemic Collapse Explained: Why Two Fronts Matter | [raw-input](../../../source-archive/statecraft/2026-01-25/source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md) | systemic pressure |
+| 2026-02-20 | Trump's Final Gamble, Iran Dares to Strike Back | [raw-input](../../../source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) | escalation pressure |
+| 2026-03-17 | Iran Was Ready for This War | [raw-input](../../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | readiness and consequence |
+| 2026-05-13 | Iran Smashed the U.S. Military Model, China Is Watching | [raw-input](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md) | war-model failure |
 
 ## Host Function Map
 

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (4), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1), `Scott Ritter` (1)
 - Guests: `Patrick Henningsen` (2), `Robert Barnes` (2), `Joe Kent` (1), `Larry Johnson` (1), `Matthew Hoh` (1)
-- Threads: `nima` (4), `barnes` (2), `henningsen` (2), `diesen` (1), `hoh` (1), `jiang` (1), `johnson` (1), `kent` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1), `ritter` (1)
+- Threads: `alkorshid` (4), `nima` (4), `barnes` (2), `henningsen` (2), `diesen` (1), `jiang` (1), `johnson` (1), `kent` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,10 +33,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [DL9jL_zWhuI](https://www.youtube.com/watch?v=DL9jL_zWhuI) | `source-alex-mercouris-putin-ignores-eu-demand-for-russian-surrender-russia-confirms-kiev-troops-surrounded-iran-us-war-2026-06-10.md` |
-| `dialogue-works` | Dialogue Works | `barnes`, `nima` | [PFZb3MWFY4w](https://www.youtube.com/watch?v=PFZb3MWFY4w) | `source-alkorshid-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `nima` | [YE7JBvJ-h6M](https://www.youtube.com/watch?v=YE7JBvJ-h6M) | `source-alkorshid-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `hoh` | [ojt4b8ivJ7o](https://www.youtube.com/watch?v=ojt4b8ivJ7o) | `source-alkorshid-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md` |
-| `dialogue-works` | Dialogue Works | `henningsen`, `nima` | [WusN5OkSwfg](https://www.youtube.com/watch?v=WusN5OkSwfg) | `source-alkorshid-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md` |
+| `dialogue-works` | Dialogue Works | `barnes`, `alkorshid`, `nima` | [PFZb3MWFY4w](https://www.youtube.com/watch?v=PFZb3MWFY4w) | `source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [YE7JBvJ-h6M](https://www.youtube.com/watch?v=YE7JBvJ-h6M) | `source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [ojt4b8ivJ7o](https://www.youtube.com/watch?v=ojt4b8ivJ7o) | `source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md` |
+| `dialogue-works` | Dialogue Works | `henningsen`, `alkorshid`, `nima` | [WusN5OkSwfg](https://www.youtube.com/watch?v=WusN5OkSwfg) | `source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md` |
 | `glenn-diesen` | Glenn Diesen | `henningsen`, `diesen` | [hOL1Hb2gdLI](https://www.youtube.com/watch?v=hOL1Hb2gdLI) | `source-glenn-diesen-patrick-henningsen-us-defeat-makes-iran-world-power-2026-06-10.md` |
 | `judging-freedom` | Judging Freedom | `barnes`, `napolitano` | [mdoNyGGEztI](https://www.youtube.com/watch?v=mdoNyGGEztI) | `source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md` |
 | `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [_pQ2Ia-rBIA](https://www.youtube.com/watch?v=_pQ2Ia-rBIA) | `source-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md` |
@@ -61,10 +61,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-putin-ignores-eu-demand-for-russian-surrender-russia-confirms-kiev-troops-surrounded-iran-us-war-2026-06-10.md`
-- `source-alkorshid-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md`
-- `source-alkorshid-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md`
-- `source-alkorshid-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md`
-- `source-alkorshid-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md`
+- `source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md`
+- `source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md`
+- `source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md`
+- `source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md`
 - `source-glenn-diesen-patrick-henningsen-us-defeat-makes-iran-world-power-2026-06-10.md`
 - `source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md`
 - `source-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md`

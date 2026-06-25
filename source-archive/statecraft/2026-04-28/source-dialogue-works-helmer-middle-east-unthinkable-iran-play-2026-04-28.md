@@ -1,5 +1,7 @@
 ---
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 pub_date: 2026-04-28
 ingest_date: 2026-04-28
 kind: cleaned-transcript

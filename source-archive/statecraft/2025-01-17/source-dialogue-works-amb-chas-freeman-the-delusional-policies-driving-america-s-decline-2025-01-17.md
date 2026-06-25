@@ -3,7 +3,7 @@ title: "Amb. Chas Freeman: The Delusional Policies Driving America's Decline"
 host: Dialogue Works
 guest: Amb. Chas Freeman
 date: 2025-01-17
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=udfXX3QoJeI
 source_type: youtube-auto-captions
 source_form: interview

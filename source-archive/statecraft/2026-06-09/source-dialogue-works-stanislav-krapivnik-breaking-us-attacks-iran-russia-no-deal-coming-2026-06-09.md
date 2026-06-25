@@ -11,10 +11,9 @@ guest_people:
   - Stanislav Krapivnik
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - krapivnik
+  - alkorshid
 thread_expert: krapivnik
 show: Dialogue Works
 host: Nima Alkorshid

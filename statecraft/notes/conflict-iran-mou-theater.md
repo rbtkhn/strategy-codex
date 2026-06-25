@@ -74,7 +74,7 @@ Append one row when a capture materially moves phase or front status.
 | Register | Primary voices | Owns |
 | --- | --- | --- |
 | **Lebanon ground truth** | Martyanov, Johnson, Parsi (Nawfal + Moral Resistance), Henningsen | Withdrawal vs Kabuki · counter-escalation menu |
-| **Regional order / pact** | Parsi (Moral Resistance), Alkhorshid Johnson | Umbrella vs Abraham Accords containment |
+| **Regional order / pact** | Parsi (Moral Resistance), Dialogue Works × Johnson | Umbrella vs Abraham Accords containment |
 | **Material fuse** | Macgregor, Martyanov, Davis | SPR / munitions ceiling |
 | **Process sabotage** | Henningsen, Blumenthal | Oslo-pattern unwind |
 | **Power-not-money** | Pape | Tripwires on MOU text |

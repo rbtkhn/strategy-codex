@@ -11,13 +11,12 @@ guest_people:
   - Larry Johnson
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - johnson
+  - alkorshid
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
 title: "Larry Johnson: Iran Closes Hormuz AND Ends Israel's Combat Ops - US Rushes to Talks!"
 channel_slug: dialogue-works

@@ -46,12 +46,12 @@ This lane is now materially present on disk as a 2025-2026 pressure run. It shou
 
 If the operator needs only one file:
 
-- open [source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- open [source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
 
 If the operator needs the best paired read:
 
-- open [source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
-- then [source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- open [source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- then [source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
 
 That pair gives the clearest lane shape:
 

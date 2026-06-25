@@ -8,13 +8,16 @@ transcript_type: operator_pasted_transcript
 title: "Iran War Never Stops While Israel Attacks Lebanon /Nima Alkhorshid & Lt Col Daniel Davis"
 source_url: https://www.youtube.com/watch?v=4NqmfOYz55w
 youtube_id: 4NqmfOYz55w
-channel_slug: dialogue-works
+channel_slug: daniel-davis
 source_note: Transcript pasted manually by operator for canonical May 29, 2026 Dialogue Works raw-input capture.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Dialogue Works
-host: Nima Alkhorshid
-guest: Lt Col Daniel Davis
+host: Daniel Davis
+guest: Nima Alkorshid
 thread: davis
+threads:
+  - davis
+  - alkorshid
 channel_url: https://www.youtube.com/channel/UCkF-6h_Zgf9zXNUmUB-MzTw
 evidence_grade: transcript-bearing
 ---

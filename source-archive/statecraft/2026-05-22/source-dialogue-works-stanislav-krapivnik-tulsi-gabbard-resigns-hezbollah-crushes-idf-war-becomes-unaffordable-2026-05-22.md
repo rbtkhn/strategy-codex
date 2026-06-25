@@ -3,7 +3,7 @@ ingest_date: 2026-05-22
 pub_date: 2026-05-22
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Dialogue Works
 guest: Stanislav Krapivnik

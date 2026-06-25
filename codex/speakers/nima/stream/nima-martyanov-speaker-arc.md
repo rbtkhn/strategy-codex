@@ -58,11 +58,11 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [2026-05-07 Alkorshid x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/source-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md)
+- open [2026-05-07 Alkorshid x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/source-dialogue-works-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md)
 
 If the operator needs the best paired read:
 
-- open [2026-05-07 Alkorshid x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/source-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md)
+- open [2026-05-07 Alkorshid x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/source-dialogue-works-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md)
 - then [2025-11-13 Dialogue Works x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-13/source-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md)
 
 That pair gives the clearest mature lane shape:

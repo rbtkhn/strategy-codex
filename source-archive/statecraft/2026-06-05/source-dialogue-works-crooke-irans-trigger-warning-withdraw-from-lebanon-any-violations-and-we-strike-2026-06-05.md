@@ -8,9 +8,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: IRAN'S TRIGGER WARNING: 'Withdraw from Lebanon... Any Violations and We Strike"
 channel_url: "https://www.youtube.com/@dialogueworks01"

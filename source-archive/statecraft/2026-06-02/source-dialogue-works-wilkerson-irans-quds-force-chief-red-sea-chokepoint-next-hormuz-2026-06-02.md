@@ -8,9 +8,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Wilkerson
 title: "Col. Larry Wilkerson: Iran's Quds Force chief: Red Sea Chokepoint next Hormuz"
 channel_url: "https://www.youtube.com/@dialogueworks01"

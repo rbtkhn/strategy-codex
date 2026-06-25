@@ -22,9 +22,9 @@ Lebanon third-party recognition gate with coupled transit-restraint sequencing.
   - [Marandi deal floor × gate clauses — 2026-06-08](../../notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
 - Archive receipts:
   - [Parsi Substack 2026-06-07](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md)
-  - [Nima solo 2026-06-07](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-alkorshid-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md)
-  - [McGovern 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
-  - [Marandi 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md)
+  - [Nima solo 2026-06-07](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md)
+  - [McGovern 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
+  - [Marandi 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md)
   - [Marandi 2026-06-08](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md)
 - Paired Persia instrument: [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md)
 

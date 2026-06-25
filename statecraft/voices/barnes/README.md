@@ -57,7 +57,7 @@ The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
 
 - [Davis host shelf](../../hosts/davis/README.md)
 - [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
-- [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - [Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
 - [Johnson x Barnes support](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)
 

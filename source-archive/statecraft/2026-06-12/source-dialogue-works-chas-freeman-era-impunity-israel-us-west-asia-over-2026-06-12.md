@@ -11,13 +11,12 @@ guest_people:
   - Charles Freeman
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - freeman
+  - alkorshid
 thread_expert: freeman
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Charles Freeman
 title: "Amb. Chas Freeman: The Era of Impunity for Israel & the US in West Asia Is OVER"
 channel_url: "https://www.youtube.com/@dialogueworks01"

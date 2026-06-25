@@ -53,7 +53,7 @@ Each residue folder should land in one of three buckets:
 ### `aguilar`
 
 - reason: currently too thin for live shelf priority
-- current signal: a direct 2026 appearance exists at [2026-05-04 Dialogue Works x Anthony Aguilar](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/source-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md), but not enough to justify promotion pressure
+- current signal: a direct 2026 appearance exists at [2026-05-04 Dialogue Works x Anthony Aguilar](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md), but not enough to justify promotion pressure
 
 ### `carlson`
 

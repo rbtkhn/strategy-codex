@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Lawrence Wilkerson` (1)
-- Threads: `mercouris` (1), `nima` (1), `wilkerson` (1)
+- Threads: `alkorshid` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xUviIH3-FRU) | `source-alex-mercouris-ukraine-faces-catastrophe-as-pokrovsk-front-collapses-eu-in-denial-merz-calls-alaska-crisis-talks-2025-08-12.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=Vzj-w0Rj7Pc) | `source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=Vzj-w0Rj7Pc) | `source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md` |
 
 ## Writer sources
 

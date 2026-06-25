@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `5`
-- Distinct threads: `7`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (3), `Alexander Mercouris` (1), `Daniel Davis` (1)
 - Guests: `Chas Freeman` (1), `Larry C. Johnson` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Ray McGovern` (1)
-- Threads: `nima` (3), `johnson` (2), `davis` (1), `freeman` (1), `mcgovern` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `alkorshid` (3), `johnson` (2), `nima` (2), `davis` (1), `freeman` (1), `mcgovern` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,9 +34,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=mudzrAT3Egc) | `source-alex-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28.md` |
 | `daniel-davis` | — | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=pkumguEuscw) | `source-daniel-davis-larry-johnson-putin-to-ukraine-withdraw-or-we-ll-take-it-by-force-larry-johnson-2025-11-28.md` |
-| `dialogue-works` | — | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=T3oEqTNHrXI) | `source-dialogue-works-amb-chas-freeman-national-guard-shooting-israel-s-force-first-approach-failing-russia-ukraine-2025-11-28.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=3ipcIrJACMk) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-ready-to-go-all-the-way-iran-slams-israel-2025-11-28.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=yC-8zhTEtb8) | `source-dialogue-works-ray-mcgovern-graham-e-fuller-ukraine-running-out-of-options-forced-peace-or-total-breakdown-2025-11-28.md` |
+| `dialogue-works` | — | `alkorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=T3oEqTNHrXI) | `source-dialogue-works-amb-chas-freeman-national-guard-shooting-israel-s-force-first-approach-failing-russia-ukraine-2025-11-28.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=3ipcIrJACMk) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-ready-to-go-all-the-way-iran-slams-israel-2025-11-28.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=yC-8zhTEtb8) | `source-dialogue-works-ray-mcgovern-graham-e-fuller-ukraine-running-out-of-options-forced-peace-or-total-breakdown-2025-11-28.md` |
 
 ## Writer sources
 

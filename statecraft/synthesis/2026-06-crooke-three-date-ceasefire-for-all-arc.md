@@ -9,7 +9,7 @@ WORK only; not Record.
 | Date | Carrier | Archive |
 |------|---------|---------|
 | **Jun 4** | Conflicts Forum Substack — *Iran Takes Its Chances with War* | [source-crooke-iran-takes-its-chances-with-war-2026-06-04.md](../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md) |
-| **Jun 5** | Dialogue Works — *IRAN'S TRIGGER WARNING* | [source-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md](../../source-archive/statecraft/2026-06-05/source-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md) |
+| **Jun 5** | Dialogue Works — *IRAN'S TRIGGER WARNING* | [source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md](../../source-archive/statecraft/2026-06-05/source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md) |
 | **Jun 8** | Judging Freedom — *Ceasefire for All or Ceasefire for No One* | [source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md](../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) |
 
 ## Purpose

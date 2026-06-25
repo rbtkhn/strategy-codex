@@ -3,7 +3,7 @@ title: "Larry C. Johnson & Col. Larry Wilkerson: The WARNING Signs Are Clear: WA
 host: Nima Alkhorshid
 guest: Larry C. Johnson
 date: 2025-11-21
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=Z1dwapyc82Y
 source_type: youtube-auto-captions
 source_form: interview

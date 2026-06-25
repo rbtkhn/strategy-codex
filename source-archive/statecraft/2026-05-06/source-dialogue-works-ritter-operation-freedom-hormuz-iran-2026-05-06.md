@@ -4,9 +4,11 @@ pub_date: 2026-05-06
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Scott Ritter
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 source_url: "https://www.youtube.com/watch?v=yHqOBrFyCqA"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06

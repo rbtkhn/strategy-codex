@@ -23,6 +23,21 @@ source_note: "Operator-pasted YouTube transcript for Nima-hosted Dialogue Works 
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-wire-verify-matrix.md
+verify:
+  - claim: Bombing while talking - ceasefire claim vs live Gulf strikes Jun 3
+    verdict: supported
+    note: W34-1 - Pape frame; Trump ceasefire still on after Kuwait/Bahrain hits
+  - claim: Kuwait airport / Bahrain / Gulf host retaliation package
+    verdict: supported
+    note: W34-2 - Nima live; Patriot failure/airport damage tier partial
+  - claim: Iran hit targets because attacks originated from Kuwait and Bahrain
+    verdict: supported
+    note: W34-2 mesh - origins-in-host thesis; pair Barnes Jun 3
+  - claim: Hezbollah ops in Lebanon parallel to Gulf escalation
+    verdict: partial
+    note: W34-6 mesh - seven Hezbollah ops in title; gate develops Jun 4-7
 ---
 # US Bases & Airport HIT! Iran RETALIATES - Gulf Stocks CRASH + 7 Hezbollah Ops
 

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Scott Ritter` (1)
-- Threads: `mercouris` (1), `nima` (1), `ritter` (1), `simplicius` (1)
+- Threads: `alkorshid` (1), `mercouris` (1), `nima` (1), `ritter` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [PSEDW6dEf-s](https://www.youtube.com/watch?v=PSEDW6dEf-s) | `source-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=iuc_pPvcFC0) | `source-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=iuc_pPvcFC0) | `source-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md` |
 
 ## Writer sources
 

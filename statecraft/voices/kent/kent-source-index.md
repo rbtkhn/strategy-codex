@@ -24,7 +24,7 @@ Purpose: provide the current canonical route map for materialized Joe Kent appea
 
 - [youtube-napolitano-kent-why-trump-is-stuck-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-napolitano-kent-why-trump-is-stuck-2026-06-11.md)
 - [youtube-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md)
-- [youtube-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md)
+- [youtube-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-dialogue-works-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md)
 - [youtube-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md)
 - [youtube-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md)
 

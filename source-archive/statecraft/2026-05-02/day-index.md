@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Trita Parsi` (1)
 - Guests: `Seyed M. Marandi` (1)
-- Threads: `crooke` (1), `marandi` (1), `mercouris` (1), `nima` (1), `parsi` (1)
+- Threads: `alkorshid` (1), `crooke` (1), `marandi` (1), `mercouris` (1), `nima` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uWJYIebZhOI) | `source-alex-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=2SO5aVzFUUE) | `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=2SO5aVzFUUE) | `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md` |
 
 ## Writer sources
 

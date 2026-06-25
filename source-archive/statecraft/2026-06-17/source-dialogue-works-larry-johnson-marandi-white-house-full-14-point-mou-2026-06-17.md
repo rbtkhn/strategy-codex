@@ -14,13 +14,12 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: johnson
 threads:
+  - alkorshid
   - johnson
-  - marandi
-  - nima
 thread_expert: johnson
 cross_guest_thread: marandi
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
 title: "Larry Johnson & Mohammad Marandi: The White House has released the full text of the 14-point MoU"
 channel_url: "https://www.youtube.com/@dialogueworks01"

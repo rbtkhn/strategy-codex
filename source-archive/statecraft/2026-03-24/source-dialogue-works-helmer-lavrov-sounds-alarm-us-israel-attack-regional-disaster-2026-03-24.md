@@ -1,5 +1,7 @@
 ---
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 pub_date: 2026-03-24
 ingest_date: 2026-06-20
 kind: operator-transcript

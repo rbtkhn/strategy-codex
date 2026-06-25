@@ -6,10 +6,10 @@ WORK only; not Record.
 
 **Archive anchors (same host, same calendar day, same published text):**
 
-- [Johnson × Marandi](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md) (`pDVwed9QDRk`)
-- [Aguilar](../../source-archive/statecraft/2026-06-17/source-alkorshid-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md) (`P1ZvwC2YWtI`)
-- [Hoh](../../source-archive/statecraft/2026-06-17/source-alkorshid-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) (`YgI1FnQSZj0`)
-- [Escobar](../../source-archive/statecraft/2026-06-17/source-alkorshid-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md) (`bhlKeCbwWOo`)
+- [Johnson × Marandi](../../source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md) (`pDVwed9QDRk`)
+- [Aguilar](../../source-archive/statecraft/2026-06-17/source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md) (`P1ZvwC2YWtI`)
+- [Hoh](../../source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) (`YgI1FnQSZj0`)
+- [Escobar](../../source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md) (`bhlKeCbwWOo`)
 
 **Bounded question:** On the **same object** (official 14-point MOU released 17 Jun), what **distinct explanatory function** does each Nima-host guest perform — and where do they **converge** on **J17-4** (Lebanon Pt. 1) vs **diverge** on **mechanism**?
 

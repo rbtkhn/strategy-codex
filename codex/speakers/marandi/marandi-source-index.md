@@ -62,17 +62,17 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Moham
 
 - [youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01](../../years/2026/provenance/2026-05-01/source-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md)
 - [transcript-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02](../../years/2026/provenance/2026-05-02/source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md)
-- [transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05](../../years/2026/provenance/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
+- [transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05](../../years/2026/provenance/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md)
 - [transcript-diesen-marandi-hormuz-all-out-war-2026-05-05](../../years/2026/provenance/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
 - [davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07](../../years/2026/provenance/2026-05-07/source-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md)
 - [youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09](../../years/2026/provenance/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
-- [youtube-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09](../../years/2026/provenance/2026-05-09/source-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
+- [youtube-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09](../../years/2026/provenance/2026-05-09/source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
 - [youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10](../../years/2026/provenance/2026-05-10/source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
 - [transcript-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12](../../years/2026/provenance/2026-05-12/source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md)
 - [transcript-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16](../../years/2026/provenance/2026-05-16/source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md)
 - [youtube-glenn-diesen-seyed-m-marandi-iran-ready-with-overwhelming-retaliation-2026-05-16](../../years/2026/provenance/2026-05-16/source-glenn-diesen-seyed-m-marandi-iran-ready-with-overwhelming-retaliation-2026-05-16.md)
 - [youtube-glenn-diesen-seyed-m-marandi-iran-closes-its-airspace-as-negotiations-fail-and-the-u-s-prepares-to-strike-2026-05-23](../../years/2026/provenance/2026-05-23/source-glenn-diesen-seyed-m-marandi-iran-closes-its-airspace-as-negotiations-fail-and-the-u-s-prepares-to-strike-2026-05-23.md)
-- [youtube-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23](../../years/2026/provenance/2026-05-23/source-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
+- [youtube-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23](../../years/2026/provenance/2026-05-23/source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
 
 ## Discovery Surfaces
 

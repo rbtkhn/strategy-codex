@@ -170,8 +170,8 @@ Parent daily: [State Synthesis - 2026-06-07](statecraft/synthesis/day/2026-06-07
 
 - [Parsi / Substack (structural) - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>)
 - [Parsi / Substack (operational) - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>)
-- [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-alkorshid-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
+- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
 
 Related:
 

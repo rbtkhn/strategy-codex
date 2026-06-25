@@ -85,8 +85,8 @@ Anchors:
 - 2026-04-20 - Dialogue Works, *The Strait of Hormuz Just Became a Graveyard for U.S. Dominance*: [raw-input](../../../years/2026/provenance/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
 - 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
 - 2026-04-24 - Dialogue Works, *Iran Just Escorted Tankers Past U.S. Blockade*: [raw-input](../../../years/2026/provenance/2026-04-24/source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md)
-- 2026-05-04 - Dialogue Works, *Hormuz, Canberra, Blockade*: [raw-input](../../../years/2026/provenance/2026-05-04/source-alkorshid-larry-johnson-hormuz-canberra-blockade-2026-05-04.md)
-- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- 2026-05-04 - Dialogue Works, *Hormuz, Canberra, Blockade*: [raw-input](../../../years/2026/provenance/2026-05-04/source-dialogue-works-larry-johnson-hormuz-canberra-blockade-2026-05-04.md)
+- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
 - 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
 
 Arc-thread motion: what begins as blockade talk quickly becomes a story about reverse pressure: Hormuz exposure, escorted tankers, Canberra and Gulf-state consequences, and outside opening channels all show that maritime pressure is turning back against the U.S. camp.
@@ -106,7 +106,7 @@ Anchors:
 - 2026-04-20 - Dialogue Works, *The Strait of Hormuz Just Became a Graveyard for U.S. Dominance*: [raw-input](../../../years/2026/provenance/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
 - 2026-04-24 - Dialogue Works, *Iran Just Escorted Tankers Past U.S. Blockade*: [raw-input](../../../years/2026/provenance/2026-04-24/source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md)
 - 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
-- 2026-05-11 - Dialogue Works, *Netanyahu, Hormuz, China, Israel*: [raw-input](../../../years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- 2026-05-11 - Dialogue Works, *Netanyahu, Hormuz, China, Israel*: [raw-input](../../../years/2026/provenance/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
 - 2026-05-18 - Dialogue Works, *Giant Mushroom Cloud Blasts Over Israeli Defense Company*: [raw-input](../../../years/2026/provenance/2026-05-18/source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md)
 
 Arc-thread motion: the live-pressure lane repeatedly treats escalatory displays as humiliating, not restoring, with wiped-out aircraft, escorted tankers, stand-down panic, and exposed Israeli vulnerability all reinforcing public loss of control.
@@ -145,7 +145,7 @@ Anchors:
 - 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-daniel-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
 - 2026-04-30 - Diesen, *Iran Is Winning*: [raw-input](../../../years/2026/provenance/2026-04-30/source-diesen-johnson-iran-winning-2026-04-30.md)
 - 2026-05-08 - Diesen, *Iran War Creates a New Middle East*: [raw-input](../../../years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
 - 2026-05-16 - Dialogue Works, *Most Embarrassing Prediction Exposed* (Jiang x Johnson x Nima): [raw-input](../../../years/2026/provenance/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md)
 
 Arc-thread motion: what begins as blockade and Hormuz pressure widens quickly into economic shock, new Middle East consequence, and China/BRICS/Gulf repositioning. The war is no longer a local bombing story; it is becoming a wider system-redraw story.

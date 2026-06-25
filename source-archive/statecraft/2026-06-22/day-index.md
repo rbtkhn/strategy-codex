@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `7`
 - Distinct hosts: `4`
 - Distinct guests: `8`
-- Distinct threads: `12`
+- Distinct threads: `13`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1), `Pascal Lottaz` (1), `Robert Pape` (1)
 - Guests: `Alastair Crooke` (1), `Alexander Mercouris` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `Larry C. Johnson` (1), `Larry Johnson` (1), `Patrick Henningsen` (1), `Ray McGovern` (1)
-- Threads: `napolitano` (3), `johnson` (2), `mercouris` (2), `baud` (1), `christoforou` (1), `crooke` (1), `davis` (1), `diesen` (1), `mcgovern` (1), `nima` (1), `pape` (1), `sachs` (1)
+- Threads: `napolitano` (3), `johnson` (2), `mercouris` (2), `alkorshid` (1), `baud` (1), `christoforou` (1), `crooke` (1), `davis` (1), `diesen` (1), `mcgovern` (1), `nima` (1), `pape` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [W1ahOFuZju4](https://www.youtube.com/watch?v=W1ahOFuZju4) | `source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md` |
-| `dialogue-works` | Dialogue Works | `baud`, `nima` | [8f61k163LgQ](https://www.youtube.com/watch?v=8f61k163LgQ) | `source-alkorshid-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [7ZNxxHp6UKE](https://www.youtube.com/watch?v=7ZNxxHp6UKE) | `source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md` |
+| `dialogue-works` | Dialogue Works | `baud`, `alkorshid`, `nima` | [8f61k163LgQ](https://www.youtube.com/watch?v=8f61k163LgQ) | `source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [vph0eVBwrmU](https://www.youtube.com/watch?v=vph0eVBwrmU) | `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mcgovern` | [Xgcv0PiLJTY](https://www.youtube.com/watch?v=Xgcv0PiLJTY) | `source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md` |
 | `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [enmsuDrZdqw](https://www.youtube.com/watch?v=enmsuDrZdqw) | `source-napolitano-crooke-an-irreversible-blow-to-israel-2026-06-22.md` |
@@ -61,8 +61,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md`
-- `source-alkorshid-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md`
 - `source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md`
+- `source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md`
 - `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md`
 - `source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md`
 - `source-napolitano-crooke-an-irreversible-blow-to-israel-2026-06-22.md`

@@ -11,13 +11,12 @@ guest_people:
   - Matthew Hoh
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - hoh
+  - alkorshid
 thread_expert: hoh
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Matthew Hoh
 title: "Matthew Hoh: US & Iran Exchange Heavy Attacks"
 channel_url: "https://www.youtube.com/@dialogueworks01"

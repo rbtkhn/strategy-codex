@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `6`
 - Distinct hosts: `4`
 - Distinct guests: `7`
-- Distinct threads: `11`
+- Distinct threads: `12`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Robert Pape` (1)
 - Guests: `Alexander Mercouris` (1), `Anthony Aguilar` (1), `Chas Freeman` (1), `Commodore Steve Jermy` (1), `George Beebe` (1), `John Kiriakou` (1), `Martin Armstrong` (1)
-- Threads: `mercouris` (2), `nima` (2), `aguilar` (1), `armstrong` (1), `beebe` (1), `diesen` (1), `freeman` (1), `jermy` (1), `kiriakou` (1), `pape` (1), `simplicius` (1)
+- Threads: `alkorshid` (2), `mercouris` (2), `nima` (2), `aguilar` (1), `armstrong` (1), `beebe` (1), `diesen` (1), `freeman` (1), `jermy` (1), `kiriakou` (1), `pape` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=HQyttm7M-oE) | `source-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `jermy` | [9y7cQS6Zmzg](https://www.youtube.com/watch?v=9y7cQS6Zmzg) | `source-daniel-davis-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=Vt84YYBocq0) | `source-dialogue-works-amb-chas-freeman-emergency-diplomacy-oman-s-fm-flies-to-washington-to-av-2026-02-27.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=1TUEY_XBD30) | `source-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=Vt84YYBocq0) | `source-dialogue-works-amb-chas-freeman-emergency-diplomacy-oman-s-fm-flies-to-washington-to-av-2026-02-27.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=1TUEY_XBD30) | `source-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=pGWNs7aNGHE) | `source-glenn-diesen-george-beebe-window-of-opportunity-for-peace-in-ukraine-2026-02-27.md` |
 | `john-kiriakou` | — | `kiriakou`, `aguilar` | [watch](https://www.youtube.com/watch?v=DuZALiYzcmA) | `source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md` |
 | `alexander-mercouris` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=HQyttm7M-oE) | `source-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md` |

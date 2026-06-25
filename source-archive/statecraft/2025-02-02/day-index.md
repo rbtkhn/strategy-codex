@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `nima` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `alkorshid` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `nima`, `wilkerson`, `ritter` | [watch](https://www.youtube.com/watch?v=zwdTG0xxlf8) | `source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson`, `ritter` | [watch](https://www.youtube.com/watch?v=zwdTG0xxlf8) | `source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md` |
 
 ## Writer sources
 

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Larry C. Johnson` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `diesen` (1), `johnson` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `alkorshid` (1), `diesen` (1), `johnson` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=aCnRKqguAYk) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=aCnRKqguAYk) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=_mupHuF2It4) | `source-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md` |
 
 ## Writer sources

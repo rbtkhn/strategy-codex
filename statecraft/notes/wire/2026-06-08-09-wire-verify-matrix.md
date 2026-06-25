@@ -37,7 +37,7 @@ WORK only; not Record.
 | `source-hedges-crooke-is-ceasefire-dead-*` | Y | S1 + S8 partial |
 | `source-nawfal-parsi-israel-torpedoes-*` | Y | S1 + S4 contested + S7 |
 | `source-pape-day-100-*` | Y (capture_note) | S1 + S7 + S8 |
-| `source-alkorshid-baud-*` | Y | S1 partial Mediterranean |
+| `source-dialogue-works-baud-*` | Y | S1 partial Mediterranean |
 | `source-glenn-diesen-marandi-*` | Y | S1 + S3 |
 | `source-daniel-davis-houthis-*` | Y | S3 partial declare-war |
 | `source-napolitano-sachs-*` | Y | S5 + S4 partial |
@@ -52,19 +52,19 @@ WORK only; not Record.
 
 | File | Receipt | Dominant mix |
 |------|---------|--------------|
-| `source-alkorshid-marandi-*` | Y | S1 + S3 + refuel partial |
+| `source-dialogue-works-marandi-*` | Y | S1 + S3 + refuel partial |
 | `source-pape-breaking-points-*` | Y | S1 + S3 + S4 contested |
 | `source-nawfal-pape-*` | Y (prior + harmonized) | S2 + S3 + S4 contested |
 | `source-daniel-davis-marandi-*` | Y (prior + harmonized) | S2 contested + S7 |
-| `source-alkorshid-wilkerson-*` | Y (prior + harmonized) | S4 + S5 + Ramat David partial |
+| `source-dialogue-works-wilkerson-*` | Y (prior + harmonized) | S4 + S5 + Ramat David partial |
 | `source-napolitano-freeman-*` | Y | S4 + S7 + refuel partial |
 | `source-napolitano-hoh-*` | Y | S2 + S4 contested + S5 |
 | `source-daniel-davis-macgregor-*` | Y | Tyre supported; 51 Reapers partial (24 CRS) |
 | `source-glenn-diesen-macgregor-*` | Y | S3 + out-of-scope multipolar |
-| `source-alkorshid-helmer-*` | Y | S10 partial + S9 Abramovich |
+| `source-dialogue-works-helmer-*` | Y | S10 partial + S9 Abramovich |
 | `source-alex-mercouris-moscow-*` | Y (prior + harmonized) | S6 + S9 UK SSN |
-| `source-alkorshid-stanislav-krapivnik-*` | Y | **S9 mesh** (Ukraine block) + S2 Iran interrupt (see physics-fork) |
-| `source-alkorshid-iran-launches-immediate-retaliation-*` | Y | S1 developing + S2 partial |
+| `source-dialogue-works-stanislav-krapivnik-*` | Y | **S9 mesh** (Ukraine block) + S2 Iran interrupt (see physics-fork) |
+| `source-dialogue-works-iran-launches-immediate-retaliation-*` | Y | S1 developing + S2 partial |
 | `source-daniel-davis-breaking-us-strikes-iran-qeshm-*` | Y | S2 pretext chain + strike package |
 
 **S9 commentary mesh:** [Helmer · Mercouris · Krapivnik — 9 Jun](statecraft/notes/2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
@@ -127,7 +127,7 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 | **Claim** | Johnson in-voice: Islamabad accords **dead** |
 | **Verdict** | **Contested / overstated** |
 | **Wire** | Pakistan FM **11 Jun**: channels **open** (Al Jazeera); **Apr 11–12** Islamabad round **failed**; Marandi **11 Jun**: Iran **paused replies**, not closed lane |
-| **Archive** | [Johnson breaking attack](../source-archive/statecraft/2026-06-10/source-alkorshid-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md) |
+| **Archive** | [Johnson breaking attack](../source-archive/statecraft/2026-06-10/source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md) |
 
 **Read:** Johnson **channel-death** rhetoric ahead of wire; Jun 11 mediator geometry (Qatar/Pakistan) still live — do not treat as settled closure.
 
@@ -138,7 +138,7 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 | **Claim** | Henningsen: Israel **accepted** Ramat David hit |
 | **Verdict** | **Supported** (severity **partial**) |
 | **Wire** | IDF confirmed **minor damage** **7–8 Jun**; fragment vs direct hit **under investigation** (Times of Israel, Jerusalem Post) |
-| **Archive** | [Henningsen Jordan retaliation](../source-archive/statecraft/2026-06-10/source-alkorshid-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../source-archive/statecraft/2026-06-09/source-alkorshid-colonel-douglas-macgregor-wilkerson-ramat-david-2026-06-09.md) |
+| **Archive** | [Henningsen Jordan retaliation](../source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../source-archive/statecraft/2026-06-09/source-dialogue-works-colonel-douglas-macgregor-wilkerson-ramat-david-2026-06-09.md) |
 
 **Read:** Hit **occurred**; asset-loss / hangar-destruction tier still **escalate** (see Escalate table above).
 
@@ -149,6 +149,6 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 | **Claim** | Henningsen: F-35 **refuel over Saudi** for Iran strikes |
 | **Verdict** | **Contested** (lean **contradicted** this week) |
 | **Wire** | Kan / Times of Israel: **regional country blocked** Israel airspace for **recent** Iran strikes — conflicts with Johnson in-voice Saudi-refuel line same period |
-| **Archive** | [Henningsen Jordan retaliation](../source-archive/statecraft/2026-06-10/source-alkorshid-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) |
+| **Archive** | [Henningsen Jordan retaliation](../source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) |
 
 **Read:** Treat Saudi **corridor** as **live fork** — block vs refuel — not settled from single guest voice; pair Jun 11 executive–kinetic dual channel.

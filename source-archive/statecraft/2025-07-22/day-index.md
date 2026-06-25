@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1)
+- `Glenn Diesen` (2)
 
 ## Host / Guest / Thread Rollup
 

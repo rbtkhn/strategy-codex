@@ -44,6 +44,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
 | davis-host-shelf | routing_aid | work | [statecraft/hosts/davis/README.md](statecraft/hosts/davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
+| alkorshid-source-index | source_index | work | [statecraft/voices/alkorshid/alkorshid-source-index.md](statecraft/voices/alkorshid/alkorshid-source-index.md) | Alkorshid index, Nima appearances, Dialogue Works index |
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index |
@@ -95,6 +96,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | barnes | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | barnes-source-index |
 | crooke | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | crooke-source-index |
 | diesen | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | diesen-source-index |
+| alkorshid | [statecraft/voices/alkorshid/alkorshid-source-index.md](statecraft/voices/alkorshid/alkorshid-source-index.md) | alkorshid-source-index |
 | freeman | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | freeman-source-index |
 | helmer | [statecraft/voices/helmer/helmer-source-index.md](statecraft/voices/helmer/helmer-source-index.md) | helmer-source-index |
 | hoh | [statecraft/voices/hoh/hoh-source-index.md](statecraft/voices/hoh/hoh-source-index.md) | hoh-source-index |

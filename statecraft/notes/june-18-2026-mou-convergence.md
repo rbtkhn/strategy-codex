@@ -150,10 +150,10 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 
 | Guest | Prior anchor | Adds on J18 |
 |---|---|---|
-| **Martyanov** | `source-archive/statecraft/2026-06-11/source-alkorshid-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md` | MOU text triage, SPR four-week, GAO F-35, two-week re-war ceiling, Channel 14 |
-| **Henningsen** | `source-archive/statecraft/2026-06-16/source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` | J18 Lascaris Lebanon desk + legal/process sabotage depth |
+| **Martyanov** | `source-archive/statecraft/2026-06-11/source-dialogue-works-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md` | MOU text triage, SPR four-week, GAO F-35, two-week re-war ceiling, Channel 14 |
+| **Henningsen** | `source-archive/statecraft/2026-06-16/source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` | J18 Lascaris Lebanon desk + legal/process sabotage depth |
 | **Aguilar** | `source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md` | J18 **§224/§622** action test; Huckabee split; Switzerland pause; coupled-track enforcement |
-| **Krainer** | `source-archive/statecraft/2026-06-11/source-alkorshid-alex-krainer-us-strikes-iran-retaliates-kuwait-bahrain-jordan-2026-06-11.md` | J18 **capitulation register**; sanctions lift timing; al-Mayadeen quote; **§224/622** + Lebanon survival; 60-day suspicion |
+| **Krainer** | `source-archive/statecraft/2026-06-11/source-dialogue-works-alex-krainer-us-strikes-iran-retaliates-kuwait-bahrain-jordan-2026-06-11.md` | J18 **capitulation register**; sanctions lift timing; al-Mayadeen quote; **§224/622** + Lebanon survival; 60-day suspicion |
 
 ## Best use
 
@@ -192,9 +192,9 @@ Load-bearing **operational red lines** from [Getting the Framework Right](../../
 | Capture | Path |
 |---|---|
 | Day index | `source-archive/statecraft/2026-06-18/README.md` |
-| Martyanov | `source-alkorshid-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` |
-| Johnson Lebanon | `source-alkorshid-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
-| Johnson Vance | `source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
+| Martyanov | `source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` |
+| Johnson Lebanon | `source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
+| Johnson Vance | `source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
 | Blumenthal | `source-napolitano-blumenthal-israel-in-panic-2026-06-18.md` |
 | Macgregor | `source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md` |
 | Henningsen | `source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md` |
@@ -203,7 +203,7 @@ Load-bearing **operational red lines** from [Getting the Framework Right](../../
 | Diesen/Krapivnik | `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md` |
 | Crooke | `source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md` |
 | Aguilar | `source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md` |
-| Krainer | `source-alkorshid-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md` |
+| Krainer | `source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md` |
 
 All paths under `source-archive/statecraft/2026-06-18/`.
 
@@ -246,7 +246,7 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 | **Berman “total victory illusions over”** (Crooke embed) | **Partial** | Times of Israel correspondent attribution in capture; full Berman piece **not wire-primary** in pass |
 | **NDAA §224 / IAA §622 advance while Vance talks tough** (falsifier #10; Aguilar) | **Partial** | **Supported** — H.R.8800 §224 US–Israel Defense Technology Cooperation Initiative ([Quincy](https://quincyinst.org/research/cooperation-without-oversight-the-united-states-israel-defense-technology-cooperation-initiative/) · [Military.com](https://www.military.com/israel-ndaa-provision-section-219-faces-bipartisan-blowback-from-house-lawmakers)); S.4615 §622 SSCI 20 May ([SSCI](https://www.intelligence.senate.gov/2026/05/20/intelligence-authorization-act-for-fiscal-year-2027-as-reported-on-may-20-2026/) · [Military.com](https://www.military.com/section-622-amendment-make-israel-intelligence-sharing-harder-to-reduce)); HASC kept §224 — **not enacted**. **Unclear** — VP/WH move to block either provision. Aguilar Mossad–CIA “permanent bind” = capture characterization (tier 4). Cross-ref [Aguilar Moral Resistance capture](../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) |
 | **Huckabee “no America without Israel” vs Vance same-cycle** (Aguilar seam 7) | **Supported** | [JPost 16–17 Jun](https://www.jpost.com/american-politics/article-899637) · [JNS](https://www.jns.org/news/u-s-news/us-envoy-ties-israels-heritage-to-americas-founding) · [MEM 18 Jun](https://www.middleeastmonitor.com/20260618-us-envoy-says-without-israel-there-would-be-no-america/) vs Vance 18 Jun ([AP](https://apnews.com/article/israel-vance-iran-us-trump-1e04959ec2dc43f367412d488b567e02)) |
-| **Midnight ET oil/gas/petrochemical sanctions lift** (Krainer/host) | **Partial** | Treasury/OFAC relief cycle 17–18 Jun in batch wire; exact **midnight ET** stamp not wire-primary; cross-ref [Krainer capture](../../source-archive/statecraft/2026-06-18/source-alkorshid-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md) |
+| **Midnight ET oil/gas/petrochemical sanctions lift** (Krainer/host) | **Partial** | Treasury/OFAC relief cycle 17–18 Jun in batch wire; exact **midnight ET** stamp not wire-primary; cross-ref [Krainer capture](../../source-archive/statecraft/2026-06-18/source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md) |
 | **Al Mayadeen ex–Israeli Navy cmdr strike-damage quote** (Krainer read) | **Partial** | Secondary citation on stream; Al Mayadeen 18 Jun Israeli damage reporting **partial** align — exact attribution **not wire-pulled** |
 | **Trump–Netanyahu acrimony / Israeli hysteria** (Krainer) | **Partial** | Axios/WSJ/i24 rift relay **partial**; hysteria tone = guest register (tier 4) |
 

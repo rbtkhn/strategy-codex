@@ -14,6 +14,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 |---|---|
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
+| Alkorshid | [alkorshid/alkorshid-source-index.md](alkorshid/alkorshid-source-index.md) |
 | Diesen | [diesen/diesen-source-index.md](diesen/diesen-source-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |

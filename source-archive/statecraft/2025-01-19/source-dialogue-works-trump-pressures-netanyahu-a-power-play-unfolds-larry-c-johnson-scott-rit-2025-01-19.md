@@ -3,7 +3,7 @@ ingest_date: 2026-05-02
 pub_date: 2025-01-19
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Trump Pressures Netanyahu

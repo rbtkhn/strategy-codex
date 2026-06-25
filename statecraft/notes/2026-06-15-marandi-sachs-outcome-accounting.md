@@ -2,11 +2,11 @@ WORK only; not Record.
 
 # Marandi × Sachs — Outcome Accounting Fork — 2026-06-15
 
-**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Cross-day anchor:** [Sun 14 Johnson × Marandi](../../source-archive/statecraft/2026-06-14/source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) · **Related:** [Johnson × Davis MOU skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) · [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md)
+**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Cross-day anchor:** [Sun 14 Johnson × Marandi](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) · **Related:** [Johnson × Davis MOU skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) · [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md)
 
 **Sources:**
 
-- [Marandi / Dialogue Works (Sun 14)](../../source-archive/statecraft/2026-06-14/source-alkorshid-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md)
+- [Marandi / Dialogue Works (Sun 14)](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md)
 - [Sachs / Glenn Diesen (Mon 15)](../../source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md)
 - [Sachs / Judging Freedom (Mon 15)](../../source-archive/statecraft/2026-06-15/source-napolitano-sachs-netanyahu-vs-trump-2026-06-15.md)
 

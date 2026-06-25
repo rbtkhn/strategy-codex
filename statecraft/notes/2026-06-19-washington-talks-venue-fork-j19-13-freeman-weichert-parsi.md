@@ -8,7 +8,7 @@ WORK only; not Record.
 
 **Sources (Jun 19 — venue / pressure lane):**
 
-- [Freeman — Israel agenda collapse / Washington vs Geneva](../../source-archive/statecraft/2026-06-19/source-alkorshid-chas-freeman-israel-agenda-major-collapse-2026-06-19.md)
+- [Freeman — Israel agenda collapse / Washington vs Geneva](../../source-archive/statecraft/2026-06-19/source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md)
 - [Weichert — WaPo sabotage / Washington talks carry](../../source-archive/statecraft/2026-06-19/source-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md)
 - [Parsi — Bennett rival / diametric US–Israel interests](../../source-archive/statecraft/2026-06-19/source-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md)
 

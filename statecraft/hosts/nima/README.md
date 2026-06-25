@@ -4,13 +4,15 @@ WORK only; not Record.
 
 This is the canonical live Nima / Dialogue Works host shelf for repo-root `statecraft/`.
 
-Use it when a statecraft read needs **Dialogue Works** as a host transformation surface — long-form interview framing, dual `thread:nima` + `thread:<guest>` routing, and guest-lane discovery — rather than as a retired `codex/speakers/nima/` front door.
+Use it when a statecraft read needs **Dialogue Works** as a host transformation surface — long-form interview framing, dual `thread:alkorshid` + `thread:<guest>` routing, and guest-lane discovery — rather than as a retired `codex/speakers/nima/` front door.
 
 ## Open First
 
 - [Speaker profile](nima-profile.md) — identity, episode inventory, automation targets, links hub
 - [index.md](index.md)
 - [nima-host-law.md](nima-host-law.md)
+- [dialogue-works-disambiguation.md](dialogue-works-disambiguation.md)
+- [Alkorshid appearances index](../../voices/alkorshid/alkorshid-source-index.md)
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Host Role
@@ -18,7 +20,7 @@ Use it when a statecraft read needs **Dialogue Works** as a host transformation 
 Dialogue Works is the live statecraft host for:
 
 - interview framing and follow-up pressure
-- dual-thread ingest discipline (`thread:nima` beside `thread:<guest>`)
+- dual-thread ingest discipline (`thread:alkorshid` beside `thread:<guest>`; `thread:nima` legacy compat)
 - guest-discovery routing across restraint, force, diplomacy, and spoiler lanes
 - host-prompt load-bearing seams on shared episodes
 

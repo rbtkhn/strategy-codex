@@ -7,7 +7,7 @@ pub_date: 2025-10-19
 date: 2025-10-19
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=AupNaa-bj3M
 source_type: youtube-auto-captions
 status: raw-input

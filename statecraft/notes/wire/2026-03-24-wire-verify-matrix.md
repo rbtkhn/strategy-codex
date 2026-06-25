@@ -24,7 +24,7 @@ WORK only; not Record.
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
 | 1 | Alexander Mercouris | [Dimona / AD fails / 4-division ground / Lavrov WW3](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) | **J24-A1 – A5**, **J24-B2 – B3**, **J24-C1 – C4**, **J24-D1 – D4**, **J24-E1 – E3** |
-| 2 | John Helmer | [Lavrov alarm / five terms / Witkoff indirect](../../source-archive/statecraft/2026-03-24/source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | **J24-A2 – A4**, **J24-B1**, **J24-F1 – F2** |
+| 2 | John Helmer | [Lavrov alarm / five terms / Witkoff indirect](../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | **J24-A2 – A4**, **J24-B1**, **J24-F1 – F2** |
 | 3 | Seyed M. Marandi | [Energy sites / Gulf gas tit-for-tat](../../source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md) | **J24-E1 – E2**, **J24-C3**, **J24-D3** |
 | 4 | Robert Pape | [Gamblers conceit · Trump's words](../../source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md) | *(interpretation tier — not wire-scored)* |
 

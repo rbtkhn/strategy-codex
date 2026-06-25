@@ -27,8 +27,8 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 **Other June anchors:**
 
 - [2026-06-18 | Diesen × Krapivnik | Russia offensive gains speed; anger Moscow](../../../source-archive/statecraft/2026-06-18/source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md)
-- [2026-06-09 | Dialogue Works × Krapivnik | US attacks Iran; Russia no deal coming](../../../source-archive/statecraft/2026-06-09/source-alkorshid-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) — Helmer rebuttal lane
-- [2026-06-04 | Dialogue Works × Krapivnik | Firepower broke two wars](../../../source-archive/statecraft/2026-06-04/source-alkorshid-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md)
+- [2026-06-09 | Dialogue Works × Krapivnik | US attacks Iran; Russia no deal coming](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) — Helmer rebuttal lane
+- [2026-06-04 | Dialogue Works × Krapivnik | Firepower broke two wars](../../../source-archive/statecraft/2026-06-04/source-dialogue-works-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md)
 - [2026-06-02 | Diesen × Krapivnik | Kiev attacked; frontlines fall; Belarus enters war](../../../source-archive/statecraft/2026-06-02/source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md)
 
 ## 2026-05

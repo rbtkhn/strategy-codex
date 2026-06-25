@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T11:24:09+00:00",
+  "generated_at": "2026-06-25T12:13:42+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -66,7 +66,7 @@
     "2025-01": {
       "captured_days": 31,
       "source_count": 137,
-      "thread_count": 20,
+      "thread_count": 21,
       "channel_or_show_count": 7,
       "host_count": 6,
       "guest_count": 90,
@@ -95,7 +95,7 @@
     "2025-02": {
       "captured_days": 18,
       "source_count": 35,
-      "thread_count": 19,
+      "thread_count": 20,
       "channel_or_show_count": 11,
       "host_count": 10,
       "guest_count": 12,
@@ -203,7 +203,7 @@
     "2025-05": {
       "captured_days": 31,
       "source_count": 64,
-      "thread_count": 18,
+      "thread_count": 19,
       "channel_or_show_count": 8,
       "host_count": 8,
       "guest_count": 14,
@@ -232,7 +232,7 @@
     "2025-06": {
       "captured_days": 22,
       "source_count": 43,
-      "thread_count": 23,
+      "thread_count": 24,
       "channel_or_show_count": 13,
       "host_count": 11,
       "guest_count": 15,
@@ -263,7 +263,7 @@
     "2025-07": {
       "captured_days": 16,
       "source_count": 27,
-      "thread_count": 16,
+      "thread_count": 17,
       "channel_or_show_count": 8,
       "host_count": 6,
       "guest_count": 14,
@@ -311,7 +311,7 @@
     "2025-08": {
       "captured_days": 23,
       "source_count": 42,
-      "thread_count": 18,
+      "thread_count": 19,
       "channel_or_show_count": 7,
       "host_count": 6,
       "guest_count": 15,
@@ -340,7 +340,7 @@
     "2025-09": {
       "captured_days": 23,
       "source_count": 46,
-      "thread_count": 18,
+      "thread_count": 19,
       "channel_or_show_count": 8,
       "host_count": 7,
       "guest_count": 13,
@@ -358,7 +358,7 @@
     "2025-10": {
       "captured_days": 25,
       "source_count": 57,
-      "thread_count": 21,
+      "thread_count": 22,
       "channel_or_show_count": 10,
       "host_count": 7,
       "guest_count": 18,
@@ -403,7 +403,7 @@
     "2025-11": {
       "captured_days": 25,
       "source_count": 59,
-      "thread_count": 20,
+      "thread_count": 21,
       "channel_or_show_count": 9,
       "host_count": 7,
       "guest_count": 17,
@@ -447,7 +447,7 @@
     "2025-12": {
       "captured_days": 29,
       "source_count": 80,
-      "thread_count": 23,
+      "thread_count": 24,
       "channel_or_show_count": 11,
       "host_count": 8,
       "guest_count": 22,
@@ -491,7 +491,7 @@
     "2026-01": {
       "captured_days": 31,
       "source_count": 110,
-      "thread_count": 23,
+      "thread_count": 24,
       "channel_or_show_count": 15,
       "host_count": 9,
       "guest_count": 20,
@@ -522,7 +522,7 @@
     "2026-02": {
       "captured_days": 28,
       "source_count": 101,
-      "thread_count": 27,
+      "thread_count": 28,
       "channel_or_show_count": 15,
       "host_count": 11,
       "guest_count": 25,
@@ -553,7 +553,7 @@
     "2026-03": {
       "captured_days": 31,
       "source_count": 209,
-      "thread_count": 31,
+      "thread_count": 32,
       "channel_or_show_count": 20,
       "host_count": 11,
       "guest_count": 44,
@@ -667,7 +667,7 @@
     "2026-04": {
       "captured_days": 30,
       "source_count": 203,
-      "thread_count": 34,
+      "thread_count": 35,
       "channel_or_show_count": 28,
       "host_count": 24,
       "guest_count": 41,
@@ -752,10 +752,10 @@
     "2026-05": {
       "captured_days": 31,
       "source_count": 244,
-      "thread_count": 43,
+      "thread_count": 44,
       "channel_or_show_count": 26,
       "host_count": 22,
-      "guest_count": 46,
+      "guest_count": 47,
       "guest_label_variants": [
         {
           "signature": "davis",
@@ -766,7 +766,7 @@
             },
             {
               "label": "Daniel Davis",
-              "count": 2
+              "count": 1
             }
           ]
         },
@@ -843,12 +843,12 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 23,
-      "source_count": 255,
-      "thread_count": 46,
+      "captured_days": 24,
+      "source_count": 268,
+      "thread_count": 49,
       "channel_or_show_count": 24,
       "host_count": 24,
-      "guest_count": 38,
+      "guest_count": 41,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -881,11 +881,11 @@
           "labels": [
             {
               "label": "Larry Johnson",
-              "count": 24
+              "count": 25
             },
             {
               "label": "Larry C. Johnson",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -898,7 +898,7 @@
             },
             {
               "label": "Mohammad Marandi",
-              "count": 3
+              "count": 4
             },
             {
               "label": "Seyed Mohammad Marandi",
@@ -911,7 +911,7 @@
           "labels": [
             {
               "label": "Brandon J. Weichert",
-              "count": 6
+              "count": 7
             },
             {
               "label": "Brandon Weichert",

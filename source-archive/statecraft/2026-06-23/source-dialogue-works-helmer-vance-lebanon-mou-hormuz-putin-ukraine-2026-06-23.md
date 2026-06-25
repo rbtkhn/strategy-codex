@@ -9,11 +9,12 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
-threads: ""
+thread: alkorshid
+threads:
+  - alkorshid
 thread_expert: helmer
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: John Helmer
 title: "John Helmer: Vance DESTROYS Netanyahu's Cabinet in FIERY Rant - Putin's Shaking Move"
 channel_slug: dialogue-works

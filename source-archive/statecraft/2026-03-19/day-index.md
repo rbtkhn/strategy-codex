@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1)
-- Threads: `crooke` (1), `martyanov` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
+- Threads: `alkorshid` (1), `crooke` (1), `martyanov` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_H0lhMUoq0s) | `source-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `martyanov` | [Dp5FDSAgjiY](https://www.youtube.com/watch?v=Dp5FDSAgjiY) | `source-dialogue-works-andrei-martyanov-iran-hits-us-f-35-massive-retaliation-after-isra-2026-03-19.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [Dp5FDSAgjiY](https://www.youtube.com/watch?v=Dp5FDSAgjiY) | `source-dialogue-works-andrei-martyanov-iran-hits-us-f-35-massive-retaliation-after-isra-2026-03-19.md` |
 
 ## Writer sources
 

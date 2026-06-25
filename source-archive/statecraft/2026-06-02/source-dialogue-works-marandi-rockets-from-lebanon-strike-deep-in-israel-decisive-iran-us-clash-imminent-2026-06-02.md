@@ -8,9 +8,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Rockets from Lebanon Strike Deep in Israel - Decisive Iran-US Clash Imminent"
 channel_url: "https://www.youtube.com/@dialogueworks01"

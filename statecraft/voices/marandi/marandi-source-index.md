@@ -45,11 +45,11 @@ Primary lane for legitimacy, red lines, selective Hormuz, and Gulf complicity.
 - [2026-04-21 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
 - [2026-04-28 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
 - [2026-05-02 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-02/source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md)
-- [2026-05-05 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
-- [2026-05-09 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-09/source-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
+- [2026-05-05 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md)
+- [2026-05-09 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-09/source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
 - [2026-05-16 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-16/source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md)
-- [2026-05-23 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-23/source-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
-- [2026-05-26 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- [2026-05-23 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-23/source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
+- [2026-05-26 - Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 
 ### Diesen x Marandi
 
@@ -95,7 +95,7 @@ Useful for auditability or nearby continuity, but not shelf-defining:
 - **Best mature lane:** [Dialogue Works x Marandi](../../../codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 - **Best strategic-altitude lane:** [Diesen x Marandi](../../../codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
 - **Best operational-limit lane:** [Davis host shelf](../../hosts/davis/README.md)
-- **Best late-May reinforcement and mature-cluster endpoint:** [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- **Best late-May reinforcement and mature-cluster endpoint:** [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - **Best support-tier U.S.-audience translation:** [2026-06-24 / Judging Freedom x Marandi](../../../source-archive/statecraft/2026-06-24/source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md) · prior: [2026-05-28](../../../source-archive/statecraft/2026-05-28/source-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
 
 ## Boundary

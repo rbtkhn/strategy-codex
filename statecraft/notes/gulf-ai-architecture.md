@@ -37,7 +37,7 @@ Verbatim anchors:
 - `the AI and may I call it the bubble because that's what I think it is um in the US is with the Gulf`
 - `this whole nexus between the tech brothers and the Gulf brothers on AI`
 
-Secondary: [2026-02-20 Alkorshid × Crooke](../source-archive/statecraft/2026-02-20/source-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) — China used AI **not as the West has done** to build **self-sufficient, price-deflating** economy vs Western inflation.
+Secondary: [2026-02-20 Alkorshid × Crooke](../source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) — China used AI **not as the West has done** to build **self-sufficient, price-deflating** economy vs Western inflation.
 
 ## Escobar — China 2030 AI economy link
 

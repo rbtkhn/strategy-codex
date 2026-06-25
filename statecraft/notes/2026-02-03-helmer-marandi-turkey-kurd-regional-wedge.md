@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Helmer × Nima — Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-alkorshid-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) — https://www.youtube.com/watch?v=N4DM3Nu3AhY — **operator transcript** (2026-06-20 intake)
+- [Helmer × Nima — Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) — https://www.youtube.com/watch?v=N4DM3Nu3AhY — **operator transcript** (2026-06-20 intake)
 - [Marandi × Nima + Larry Johnson — U.S. & Iran on the Brink](../../source-archive/statecraft/2026-02-10/source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md) — https://www.youtube.com/watch?v=-CAqyFWDBbQ — **operator transcript**
 - [Marandi × Nima — Iran JUST Closed the Strait of Hormuz](../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md) — https://www.youtube.com/watch?v=7Oy1q6zGcQs — **operator transcript**
 

@@ -115,7 +115,7 @@ From in-voice close (Jun 8):
 | Source | Line | Instrument use |
 |---|---|---|
 | Jun 8 deal-floor close (companion spine) | Open Hormuz; traffic **"before the war"** | **`D-HORM-01` target band** — qualitative, not a daily count in this clip |
-| [Marandi, 2026-06-02](../../source-archive/statecraft/2026-06-02/source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md) | **"25 to 30 ships"** through Hormuz **every day** (selective passage during war) | **`D-HORM-01` numeric band** — ledger SSOT cites this Marandi corpus line |
+| [Marandi, 2026-06-02](../../source-archive/statecraft/2026-06-02/source-dialogue-works-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md) | **"25 to 30 ships"** through Hormuz **every day** (selective passage during war) | **`D-HORM-01` numeric band** — ledger SSOT cites this Marandi corpus line |
 | [Marandi, 2026-05-29](../../source-archive/statecraft/2026-05-29/source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md) | **"roughly 25 20 30 ships"** (non-belligerent traffic) | Confirms band is **operating norm**, not one-off negotiation day |
 
 Short rule: **Marandi's Jun 8 floor names the destination ("before the war"); Jun 2/May 29 corpus supplies the observable daily band (~25–30) that `D-HORM-01` logs.**
@@ -178,7 +178,7 @@ Short rule: **Marandi's Jun 8 floor names the destination ("before the war"); Ju
 - [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md) — activation rule × this note §Hormuz Activation
 - [Pape Day 100 indicator watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) — `D-HORM-01` weekly row
 - [Davis Lebanon fulcrum × Crooke](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
-- [Marandi, 2026-06-02 — 25–30 ships/day](../../source-archive/statecraft/2026-06-02/source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md)
+- [Marandi, 2026-06-02 — 25–30 ships/day](../../source-archive/statecraft/2026-06-02/source-dialogue-works-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md)
 - Parent daily (when written): [2026-06-08.md](statecraft/synthesis/day/2026-06-08.md)
 - **Jun 12 bridge:** [Marandi clauses × J12-6 × Aguilar FM floor](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
 - **72h watch:** [2026-06-12-72h-watch-run.md](statecraft/notes/watch/2026-06-12-72h-watch-run.md)

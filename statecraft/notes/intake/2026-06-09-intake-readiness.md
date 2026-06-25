@@ -31,14 +31,14 @@ June 8 asked **which ceasefire label** still holds — alive, dead, or theatrica
 
 | File | Channel | Guest | Thread |
 | --- | --- | --- | --- |
-| [Marandi × Alkorshid](../../source-archive/statecraft/2026-06-09/source-alkorshid-marandi-iran-drops-new-equation-israel-goes-against-trump-escapes-2026-06-09.md) | Dialogue Works | Seyed M. Marandi | `nima`, `marandi` |
+| [Marandi × Alkorshid](../../source-archive/statecraft/2026-06-09/source-dialogue-works-marandi-iran-drops-new-equation-israel-goes-against-trump-escapes-2026-06-09.md) | Dialogue Works | Seyed M. Marandi | `nima`, `marandi` |
 | [Freeman × Napolitano](../../source-archive/statecraft/2026-06-09/source-napolitano-freeman-can-netanyahu-defy-trump-2026-06-09.md) | Judging Freedom | Chas Freeman | `freeman`, `napolitano` |
 | [Pape × Nawfal](../../source-archive/statecraft/2026-06-09/source-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md) | Mario Nawfal | Robert Pape | `pape`, `nawfal` |
 | [Mearsheimer × Carlson](../../source-archive/statecraft/2026-06-09/source-mearsheimer-carlson-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md) | Tucker Carlson | John Mearsheimer | `mearsheimer`, `carlson` |
-| [Aguilar × Alkorshid](../../source-archive/statecraft/2026-06-09/source-alkorshid-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md) | Dialogue Works | Lt. Col. Anthony Aguilar | `nima`, `aguilar` |
+| [Aguilar × Alkorshid](../../source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md) | Dialogue Works | Lt. Col. Anthony Aguilar | `nima`, `aguilar` |
 | [Davis breaking — Qeshm / Apache](../../source-archive/statecraft/2026-06-09/source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md) | Daniel Davis Deep Dive | Daniel Davis (solo) | `davis` |
-| [Krapivnik × Alkorshid — Breaking US attacks Iran](../../source-archive/statecraft/2026-06-09/source-alkorshid-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) | Dialogue Works | Stanislav Krapivnik | `nima`, `krapivnik` |
-| [Nima solo — Bahrain retaliation](../../source-archive/statecraft/2026-06-09/source-alkorshid-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) | Dialogue Works | (solo) | `nima` |
+| [Krapivnik × Alkorshid — Breaking US attacks Iran](../../source-archive/statecraft/2026-06-09/source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) | Dialogue Works | Stanislav Krapivnik | `nima`, `krapivnik` |
+| [Nima solo — Bahrain retaliation](../../source-archive/statecraft/2026-06-09/source-dialogue-works-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) | Dialogue Works | (solo) | `nima` |
 
 **Cross-day Weichert** (not in June 9 folder): [profile + receipts](../../codex/profiles/weichert-profile.md) — e.g. [command fracture 2026-06-08](../../source-archive/statecraft/2026-06-08/source-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md).
 

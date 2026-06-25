@@ -23,7 +23,7 @@ Use [next-questions.md](next-questions.md) when the shelf is organized but the n
 ## Shelves
 
 - [military/](military/) - war studies, campaign reading, escalation, logistics, command responsibility, and interpretive writer lanes.
-- [ph-civ/](ph-civ/) - local mirror checkout of the public `rbtkhn/ph-civ` repo.
+- [ph-civ/](ph-civ/) - local mirror checkout of the public `rbtkhn/predictive-history` repo.
 - [politics/](politics/) - parties, elections, regimes, coalitions, legitimacy, public opinion, media power, and mass persuasion.
 - [statecraft/](statecraft/) - political order and strategy shelf; early placeholder awaiting canon/workshop/bridge maturity.
 - [singularity/](singularity/) - AI takeoff, alignment, agency, automation, cognitive infrastructure, and human meaning under acceleration.

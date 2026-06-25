@@ -10,7 +10,7 @@ Purpose: seal `statecraft/civ-lens` → `statecraft/voices` and `statecraft/civ-
 - Canonical source-memory path: `statecraft/states/`
 - Profile template: `statecraft/voices/voice-profile-template.md` (legacy `voices-profile-template.md` redirects)
 - `statecraft/speakers/README.md` is the **only** compatibility stub → `voices/`
-- Submodule gitlink: `public/ph-civ` (`.gitmodules` + `git ls-files --stage`)
+- Submodule gitlink: `public/predictive-history` (`.gitmodules` + `git ls-files --stage`)
 - ph-civ submodule: 48 chapter README bridge URLs updated to `statecraft/states/` (submodule commit `0e3cade`)
 
 ## Checks run (2026-06-13)
@@ -35,7 +35,7 @@ pytest tests/test_rehome_path_hygiene_contract.py tests/test_speaker_orthogonali
 # 10 passed; 2 failed (pre-existing Record-frozen gate tests — not rename-related)
 
 python scripts/check_academy_mirror_sync.py
-# parent_gitlink_matches_nested: ok (ca7bf04); nested_matches_remote: fail until submodule pushed to rbtkhn/ph-civ
+# parent_gitlink_matches_nested: ok (ca7bf04); nested_matches_remote: fail until submodule pushed to rbtkhn/predictive-history
 ```
 
 Second `--apply` pass added **72** relative-link replacements in **32** files (`../../civ-state/` → `../../states/`, etc.).
@@ -49,7 +49,7 @@ Parent gitlink: `ca7bf04d72ec781b7229ff3dfb9db36b583cf0da`
 
 ## Windows submodule note
 
-After path move: `git submodule sync --recursive` from repo root. If gitlink desyncs, re-init `public/ph-civ`.
+After path move: `git submodule sync --recursive` from repo root. If gitlink desyncs, re-init `public/predictive-history`.
 
 ## Intentional exclusions
 

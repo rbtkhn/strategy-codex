@@ -3,7 +3,7 @@ title: "Scott Ritter: Russia & Iran Just Triggered It All!"
 host: Nima Alkhorshid
 guest: Scott Ritter
 date: 2025-11-05
-thread: nima
+thread: alkorshid
 source_url: https://www.youtube.com/watch?v=UMTrfuXVD4g
 source_type: youtube-auto-captions
 source_form: interview

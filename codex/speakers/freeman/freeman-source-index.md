@@ -125,7 +125,7 @@ Promotion rule:
 ## 2026-05
 - [transcript-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01](../../years/2026/provenance/2026-05-01/source-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01.md)
 - [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
-- [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08](../../years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+- [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08](../../years/2026/provenance/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
 - [youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12](../../years/2026/provenance/2026-05-12/source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md)
 - [youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16](../../years/2026/provenance/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md)
 - [transcript-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20](../../years/2026/provenance/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md)

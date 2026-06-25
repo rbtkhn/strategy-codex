@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `5`
 - Distinct guests: `6`
-- Distinct threads: `9`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Mario Nawfal` (5), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Moral Resistance` (1), `Nima Alkhorshid` (1)
 - Guests: `Brandon J. Weichert` (2), `Anthony Aguilar` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1)
-- Threads: `nawfal` (5), `diesen` (2), `weichert` (2), `aguilar` (1), `barnes` (1), `johnson` (1), `mercouris` (1), `nima` (1), `sachs` (1)
+- Threads: `nawfal` (5), `diesen` (2), `weichert` (2), `aguilar` (1), `alkorshid` (1), `barnes` (1), `johnson` (1), `mercouris` (1), `nima` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-wmKK5PaiZg) | `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md` |
-| `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=Zqs4c_dOCog) | `source-alkorshid-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=Zqs4c_dOCog) | `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=WgOJXWqk0io) | `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md` |
 | `moral-resistance` | Moral Resistance | `aguilar` | [jtXOttZ6J_0](https://www.youtube.com/watch?v=jtXOttZ6J_0) | `source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md` |
 | `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [LPdeT4kf0HU](https://www.youtube.com/watch?v=LPdeT4kf0HU) | `source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md` |
@@ -61,7 +61,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
-- `source-alkorshid-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
+- `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
 - `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md`
 - `source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md`
 - `source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`

@@ -149,7 +149,7 @@ Short rule:
 
 ## 2026-05
 
-- [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+- [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md)
 - [transcript-diesen-wilkerson-hormuz-brics-2026-05-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
 - [transcript-napolitano-wilkerson-checkmate-in-iran-2026-05-14](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)

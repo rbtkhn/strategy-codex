@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `7`
 - Distinct hosts: `6`
 - Distinct guests: `10`
-- Distinct threads: `17`
+- Distinct threads: `18`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Mario Nawfal` (3), `Andrew Napolitano` (2), `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Daniel Davis` (1), `Scott Ritter` (1)
 - Guests: `Larry Johnson` (2), `Alastair Crooke` (1), `Alex Krainer` (1), `Brandon Weichert` (1), `Charles Freeman` (1), `John Mearsheimer` (1), `Max Blumenthal` (1), `Ray McGovern` (1), `Seyed Mohammad Marandi` (1), `Trita Parsi` (1)
-- Threads: `nawfal` (3), `diesen` (2), `johnson` (2), `napolitano` (2), `nima` (2), `blumenthal` (1), `crooke` (1), `davis` (1), `freeman` (1), `krainer` (1), `marandi` (1), `mcgovern` (1), `mearsheimer` (1), `mercouris` (1), `parsi` (1), `ritter` (1), `weichert` (1)
+- Threads: `nawfal` (3), `alkorshid` (2), `diesen` (2), `johnson` (2), `napolitano` (2), `nima` (2), `blumenthal` (1), `crooke` (1), `davis` (1), `freeman` (1), `krainer` (1), `marandi` (1), `mcgovern` (1), `mearsheimer` (1), `mercouris` (1), `parsi` (1), `ritter` (1), `weichert` (1)
 
 ## Channel sources
 
@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [vm8AsfGNlxM](https://www.youtube.com/watch?v=vm8AsfGNlxM) | `source-alex-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [BwsYAUshJ80](https://www.youtube.com/watch?v=BwsYAUshJ80) | `source-alkorshid-chas-freeman-israel-agenda-major-collapse-2026-06-19.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `marandi`, `johnson` | [z_O55bdqHFA](https://www.youtube.com/watch?v=z_O55bdqHFA) | `source-alkorshid-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [9mGWb0tO13o](https://www.youtube.com/watch?v=9mGWb0tO13o) | `source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [BwsYAUshJ80](https://www.youtube.com/watch?v=BwsYAUshJ80) | `source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi`, `johnson` | [z_O55bdqHFA](https://www.youtube.com/watch?v=z_O55bdqHFA) | `source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md` |
 | `glenn-diesen` | Glenn Diesen | `crooke`, `diesen` | [GkiCgI8QwiM](https://www.youtube.com/watch?v=GkiCgI8QwiM) | `source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md` |
 | `glenn-diesen` | Glenn Diesen | `krainer`, `diesen` | [TXjSfNZ2xCI](https://www.youtube.com/watch?v=TXjSfNZ2xCI) | `source-glenn-diesen-alex-krainer-decline-of-the-west-war-against-russia-2026-06-19.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [A1ic3tpmRtk](https://www.youtube.com/watch?v=A1ic3tpmRtk) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md` |
@@ -63,9 +63,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md`
-- `source-alkorshid-chas-freeman-israel-agenda-major-collapse-2026-06-19.md`
-- `source-alkorshid-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md`
 - `source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md`
+- `source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md`
+- `source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md`
 - `source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md`
 - `source-glenn-diesen-alex-krainer-decline-of-the-west-war-against-russia-2026-06-19.md`
 - `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md`

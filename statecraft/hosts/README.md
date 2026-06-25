@@ -37,7 +37,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 - `Davis` = feasibility, bargaining geometry, and settlement-room pressure
 - `Napolitano` = legal, constitutional, and process pressure
 
-[Nima](nima/README.md) owns Dialogue Works interview framing, dual-thread ingest discipline, and guest-discovery routing. Stream chronology and source-index remain under `codex/speakers/nima/` until a fuller transfer pass.
+[Nima](nima/README.md) owns Dialogue Works interview framing, dual-thread ingest discipline (`thread:alkorshid`), and guest-discovery routing. All appearances index: [voices/alkorshid/](../voices/alkorshid/alkorshid-source-index.md). Legacy codex stream remains compatibility residue.
 
 Their shared comparison note remains in [host-backbone-napolitano-davis-orthogonality-2026-05.md](../sheets/host-backbone-napolitano-davis-orthogonality-2026-05.md).
 

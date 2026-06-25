@@ -22,7 +22,7 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | John Helmer | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-alkorshid-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | **JF03-A1 – A3**, **JF03-C1 – C2**, **JF03-D1 – D2**, **JF03-F1 – F6** |
+| 1 | John Helmer | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | **JF03-A1 – A3**, **JF03-C1 – C2**, **JF03-D1 – D2**, **JF03-F1 – F6** |
 
 ## Sub-seam A — Power formula / retreat (Helmer **JF03-A1 – A3**)
 

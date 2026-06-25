@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `freeman` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
+- Threads: `alkorshid` (1), `freeman` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=f89gRvfBjAg) | `source-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=AdJzX_YXSEU) | `source-dialogue-works-amb-chas-freeman-negotiations-or-the-brink-of-all-out-war-2026-02-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=AdJzX_YXSEU) | `source-dialogue-works-amb-chas-freeman-negotiations-or-the-brink-of-all-out-war-2026-02-06.md` |
 
 ## Writer sources
 

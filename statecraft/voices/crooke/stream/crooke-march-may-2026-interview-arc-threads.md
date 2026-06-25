@@ -31,7 +31,7 @@ Crooke repeatedly treats coercive theater as a trap, not a solution. The intervi
 Primary files:
 
 - [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
-- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
 - [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 2. Iran's steadfastness turns pressure into bargaining and strategic leverage
@@ -41,7 +41,7 @@ The interview strand keeps returning to Iranian preparedness, strategic patience
 Primary files:
 
 - [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
-- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
 - [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 3. Hormuz and system exposure turn local war into wider dependency shock
@@ -61,7 +61,7 @@ Crooke uses the interview core to show that the military and intellectual model 
 Primary files:
 
 - [2026-04-27 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [2026-05-13 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [2026-05-13 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 ### 5. diplomatic process degrades into settlement theater and room without an off-ramp
 
@@ -78,10 +78,10 @@ The mature interview sequence repeatedly widens the conflict beyond the local wa
 
 Primary files:
 
-- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
 - [2026-04-07 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
 - [2026-04-27 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [2026-05-13 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [2026-05-13 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 ## How to use this atlas
 

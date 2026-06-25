@@ -104,7 +104,7 @@ Coverage basis:
 ### 1. End-of-Cold-War verbal assurances as a warning against stakeholder theater without treaty form
 
 - Example: `end of the Cold War verbal assurance / not one inch further`
-- Source: [2026-01-25 Dialogue Works / Nima](../../../source-archive/statecraft/2026-01-25/source-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
+- Source: [2026-01-25 Dialogue Works / Nima](../../../source-archive/statecraft/2026-01-25/source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
 - Exact quote:
 
 > "that has to be agreed formally, state to state, in a treaty or in a legal document, not ... the end of the Cold War ... done verbally"
@@ -162,7 +162,7 @@ Coverage basis:
 ### 3. The Cold War outspend-the-USSR model as the dead inheritance of the American way of war
 
 - Example: `Cold War overmatch against the Soviet Union`
-- Source: [2026-05-13 Dialogue Works / Nima](../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- Source: [2026-05-13 Dialogue Works / Nima](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 - Exact quote:
 
 > "the American way of war is as dead as the dodo. It was conceived during the cold war against the Soviet Union. It was about outspending Russia"

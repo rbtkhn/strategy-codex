@@ -8,9 +8,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima R. Alkhorshid
+host: Nima Alkorshid
 guest: Jacques Baud
 title: "Nima R. Alkhorshid: Col. Jacques Baud: Trump Just Pulled His Last Card... And Israel Is in SHAMBLES"
 channel_url: "https://www.youtube.com/@dialogueworks01"

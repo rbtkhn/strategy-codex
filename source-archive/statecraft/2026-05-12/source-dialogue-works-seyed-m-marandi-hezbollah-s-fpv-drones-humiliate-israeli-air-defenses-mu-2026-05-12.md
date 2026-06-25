@@ -3,7 +3,7 @@ ingest_date: 2026-05-13
 pub_date: 2026-05-12
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Seyed M. Marandi

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `7`
-- Distinct threads: `8`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (4), `Nima Alkhorshid` (2), `Daniel Davis` (1), `Trita Parsi` (1)
 - Guests: `Aaron Maté` (1), `Alastair Crooke` (1), `Chas Freeman` (1), `Henningsen` (1), `John Helmer` (1), `Matt Hoh` (1), `Scott Ritter` (1)
-- Threads: `napolitano` (4), `nima` (2), `crooke` (1), `davis` (1), `freeman` (1), `mercouris` (1), `parsi` (1), `ritter` (1)
+- Threads: `napolitano` (4), `alkorshid` (2), `nima` (2), `crooke` (1), `davis` (1), `freeman` (1), `mercouris` (1), `parsi` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [kcd_Y41tPFI](https://www.youtube.com/watch?v=kcd_Y41tPFI) | `source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=bfZMcqICySg) | `source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md` |
-| `dialogue-works` | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=yD13qVxL73I) | `source-alkorshid-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [EV6WOiBj5HA](https://www.youtube.com/watch?v=EV6WOiBj5HA) | `source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=bfZMcqICySg) | `source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=yD13qVxL73I) | `source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [cmRk47ySaps](https://www.youtube.com/watch?v=cmRk47ySaps) | `source-napolitano-freeman-will-china-dump-trump-2026-03-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano` | [OtAj89I_yjw](https://www.youtube.com/watch?v=OtAj89I_yjw) | `source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano` | [Uwz0eR4THnc](https://www.youtube.com/watch?v=Uwz0eR4THnc) | `source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md` |
@@ -60,9 +60,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md`
-- `source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md`
-- `source-alkorshid-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md`
 - `source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md`
+- `source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md`
+- `source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md`
 - `source-napolitano-freeman-will-china-dump-trump-2026-03-17.md`
 - `source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md`
 - `source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md`

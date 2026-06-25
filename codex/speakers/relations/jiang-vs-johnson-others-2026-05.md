@@ -15,7 +15,7 @@ Primary local anchors:
 - [Alex Krainer on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/source-dialogue-works-alex-krainer-the-middle-east-and-europe-just-shifted-overnight-2026-05-21.md)
 - [Andrei Martyanov on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md)
 - [Pepe Escobar on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md)
-- [Jacques Baud on Dialogue Works, 2026-05-11](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- [Jacques Baud on Dialogue Works, 2026-05-11](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md)
 
 Bounded claim:
 

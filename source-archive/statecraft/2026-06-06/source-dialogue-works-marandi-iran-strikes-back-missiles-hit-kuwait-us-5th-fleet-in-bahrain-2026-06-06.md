@@ -7,9 +7,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Strikes BACK – Missiles Hit Kuwait & U.S. 5th Fleet in Bahrain!"
 channel_url: "https://www.youtube.com/@dialogueworks01"

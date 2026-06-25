@@ -6,7 +6,7 @@ source_form: panel
 threads:
   - freeman
   - wilkerson
-  - nima
+  - alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guests:

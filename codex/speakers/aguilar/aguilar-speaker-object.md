@@ -48,7 +48,7 @@ If the operator needs the clearest live lane:
 
 If the operator needs the strongest current anchor file:
 
-- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
+- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
 
 If the operator needs the object doctrine rather than the live branch:
 

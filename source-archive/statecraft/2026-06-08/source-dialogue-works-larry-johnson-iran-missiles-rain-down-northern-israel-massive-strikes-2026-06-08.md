@@ -14,7 +14,7 @@ channel_name: Dialogue Works
 thread: johnson
 threads:
   - johnson
-  - nima
+  - alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Johnson

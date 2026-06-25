@@ -64,7 +64,7 @@ Johnson's orthogonality-bearing structure is:
 
 - [2026-05-05 Davis x Johnson](../../../source-archive/statecraft/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md)
 - [2026-05-08 Diesen x Johnson](../../../source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- [2026-05-11 Dialogue Works x Johnson](../../../source-archive/statecraft/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- [2026-05-11 Dialogue Works x Johnson](../../../source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
 - [2026-04-20 Judging Freedom x Johnson](../../../source-archive/statecraft/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
 
 ## Boundary

@@ -12,14 +12,12 @@ guest_people:
   - Larry Johnson
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - marandi
-  - johnson
+  - alkorshid
 thread_expert: marandi
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Seyed Mohammad Marandi; Larry Johnson
 title: "Seyed M. Marandi & Larry Johnson: BREAKING: Iran SHUTS DOWN Geneva Talks Over MoU Implementation"
 channel_slug: dialogue-works

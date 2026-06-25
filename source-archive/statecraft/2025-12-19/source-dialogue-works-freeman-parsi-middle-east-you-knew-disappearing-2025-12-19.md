@@ -7,7 +7,7 @@ thread: freeman
 threads:
   - freeman
   - parsi
-  - nima
+  - alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guests:

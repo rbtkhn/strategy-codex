@@ -13,7 +13,7 @@ The aim is not to re-synthesize J17 or collapse “Democrats” into one voice. 
 - [2026-06-17 daily](../synthesis/day/2026-06-17.md) — Theme 6 (America domestic politics)
 - [Nawfal×Parsi capture](../../source-archive/statecraft/2026-06-17/source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md) — same-day **inverse-2015** warning (video)
 - [Parsi Substack capture](../../source-archive/statecraft/2026-06-17/source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md) — essay depth
-- [Hoh capture](../../source-archive/statecraft/2026-06-17/source-alkorshid-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) — Dem lane contrast
+- [Hoh capture](../../source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md) — Dem lane contrast
 
 **J18 cross-ref:** [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) — Blumenthal/Henningsen **process clock**; this note owns **Dem MOU-protection** fork on J17.
 
@@ -96,4 +96,4 @@ Video capture already carries:
 
 - [Parsi Substack](../../source-archive/statecraft/2026-06-17/source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md)
 - [Nawfal×Parsi](../../source-archive/statecraft/2026-06-17/source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md)
-- [Hoh / Dialogue Works](../../source-archive/statecraft/2026-06-17/source-alkorshid-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md)
+- [Hoh / Dialogue Works](../../source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md)

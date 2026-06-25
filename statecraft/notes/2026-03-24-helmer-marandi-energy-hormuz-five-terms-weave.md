@@ -3,11 +3,11 @@ WORK only; not Record.
 # Mar 24 2026 — Helmer × Marandi weave (five terms / energy / Hormuz)
 
 **Pub date:** 2026-03-24  
-**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · [Feb 3→Mar 24 Helmer power-to-terms arc — Phase 3.5→4](./arc-helmer-iran-five-terms.md#phase-35--mar-17-two-week-exit-bet-week-3) · [Mar 3 Helmer × Marandi opening weave](./2026-03-03-iran-war-weave-helmer-marandi.md) · [Helmer Mar 24 capture](../../source-archive/statecraft/2026-03-24/source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md)
+**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · [Feb 3→Mar 24 Helmer power-to-terms arc — Phase 3.5→4](./arc-helmer-iran-five-terms.md#phase-35--mar-17-two-week-exit-bet-week-3) · [Mar 3 Helmer × Marandi opening weave](./2026-03-03-iran-war-weave-helmer-marandi.md) · [Helmer Mar 24 capture](../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md)
 
 **Sources:**
 
-- [Helmer × Nima — Lavrov Sounds Alarm: US-Israel Attack Could Trigger Regional DISASTER](../../source-archive/statecraft/2026-03-24/source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) — https://www.youtube.com/watch?v=qc8vYcD_dtM — **operator transcript** (2026-06-20 intake)
+- [Helmer × Nima — Lavrov Sounds Alarm: US-Israel Attack Could Trigger Regional DISASTER](../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) — https://www.youtube.com/watch?v=qc8vYcD_dtM — **operator transcript** (2026-06-20 intake)
 - [Marandi × Nima — Israel Hits Iran Energy Sites; Iran's Next Move: Israel's Energy & Water Systems](../../source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md) — https://www.youtube.com/watch?v=b3h1gOSKR_E — **automated transcript**
 
 **Arc:** **~week 4** after opening strike — moves [Mar 3 opening bench](./2026-03-03-iran-war-weave-helmer-marandi.md) from **attrition hypothesis** to **named Iranian terms + energy tit-for-tat + Hormuz dual regime + Trump talk-track fiction**. **Back:** [Mar 17 two-week clock arc](./arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice) (Mojtaba preview → five terms) · [Feb 3→Mar 24 master arc — Phase 3.5→4](./arc-helmer-iran-five-terms.md#phase-4--mar-24-terms-named-week-4) (money/votes/bullets → **clock miss** → terms named).
@@ -93,7 +93,7 @@ Same-day Dialogue Works pair — two registers on **US–Israel–Iran war ~day 
 - [Mar 17 two-week clock arc](./arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice) — **Mar 31 bet** → **clock miss** → this shelf
 - [Mar 3 Helmer × Marandi — opening week](./2026-03-03-iran-war-weave-helmer-marandi.md) — **Anchorage dead** · underground **unused** → Mar 24 **five terms named**
 - [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](./arc-helmer-iran-five-terms.md#russiachina-two-track-mar-324-slice) — cross-week compression
-- [Mar 3 Helmer capture — nuclear option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — Lavrov **proliferation** → Mar 24 **Bushehr** warning
+- [Mar 3 Helmer capture — nuclear option](../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — Lavrov **proliferation** → Mar 24 **Bushehr** warning
 - [Mar 16 Pape × Crooke mosaic trap](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — **survive=win** lattice mid-month
 - [Dmitriev arc Jan 20 → Mar 24](./arc-helmer-dmitriev-lane.md) — **Witkoff indirect** / GCC mediation / market layer (Mar 24 §)
 

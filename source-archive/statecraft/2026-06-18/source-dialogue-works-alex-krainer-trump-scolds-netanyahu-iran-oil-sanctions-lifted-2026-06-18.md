@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: krainer
 threads:
+  - alkorshid
   - krainer
-  - nima
 thread_expert: krainer
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Alex Krainer
 title: "Alex Krainer: Trump SCOLDS Netanyahu as Iran Oil Sanctions LIFTED"
 channel_url: "https://www.youtube.com/@dialogueworks01"

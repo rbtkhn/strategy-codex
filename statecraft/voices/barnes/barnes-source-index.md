@@ -46,9 +46,9 @@ Real reinforcing lane. Not yet primary, but strong enough to matter for cross-ho
 
 Thin but meaningful late-stage reinforcement. This required source is part of the canonical shelf, not an appendix.
 
-- [2026-05-26 - transcript - Robert Barnes: US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
-- [2026-06-03 - transcript - Robert Barnes: The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman](../../../source-archive/statecraft/2026-06-03/source-alkorshid-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md)
-- [2026-06-10 - transcript - Robert Barnes: US Attacks Iran: Jordan, Bahrain & Kuwait Were Hit Within Hours](../../../source-archive/statecraft/2026-06-10/source-alkorshid-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
+- [2026-05-26 - transcript - Robert Barnes: US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- [2026-06-03 - transcript - Robert Barnes: The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman](../../../source-archive/statecraft/2026-06-03/source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md)
+- [2026-06-10 - transcript - Robert Barnes: US Attacks Iran: Jordan, Bahrain & Kuwait Were Hit Within Hours](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
 
 ### Mario Nawfal x Barnes
 
@@ -85,10 +85,10 @@ Helpful as pressure-cluster residue and exit-ramp signal, but not part of the pr
 
 - **Best mature lane:** [Davis host shelf](../../hosts/davis/README.md)
 - **Best non-Davis lane:** [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
-- **Best late-May reinforcement:** [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- **Best late-May reinforcement:** [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - **Best fast public-pressure entry:** [2026-06-03 / Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-06-03/source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md)
 - **Best latest mature lane:** [2026-06-11 / Davis x Barnes — Shifting Goal Posts](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
-- **Best June public-pressure cluster:** [2026-06-10 / Napolitano x Barnes](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md) + [2026-06-10 / Nima x Barnes](../../../source-archive/statecraft/2026-06-10/source-alkorshid-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
+- **Best June public-pressure cluster:** [2026-06-10 / Napolitano x Barnes](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md) + [2026-06-10 / Nima x Barnes](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
 
 ## Boundary
 

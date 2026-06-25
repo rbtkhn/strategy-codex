@@ -3,7 +3,7 @@ ingest_date: 2026-05-28
 pub_date: 2025-10-17
 kind: transcript
 source_form: interview
-thread: nima
+thread: alkorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: "Larry C. Johnson; Col. Larry Wilkerson"

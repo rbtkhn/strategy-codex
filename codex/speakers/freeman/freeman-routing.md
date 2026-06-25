@@ -60,7 +60,7 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 
 - [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
 - [source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
-- [source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+- [source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
 - [source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md)
 
 ## Host lanes by function

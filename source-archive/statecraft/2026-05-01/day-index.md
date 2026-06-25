@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `2`
-- Distinct threads: `6`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1), `Trita Parsi` (1)
 - Guests: `Chas Freeman` (1), `Seyed M. Marandi` (1)
-- Threads: `diesen` (1), `freeman` (1), `marandi` (1), `mercouris` (1), `nima` (1), `parsi` (1)
+- Threads: `alkorshid` (1), `diesen` (1), `freeman` (1), `marandi` (1), `mercouris` (1), `nima` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=eU6mhg4GKjs) | `source-alex-mercouris-gulf-states-follow-uae-beg-us-aid-kiev-eu-row-russia-tells-kiev-troops-k-2026-05-01.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=xjRDqdqEl4Y) | `source-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=xjRDqdqEl4Y) | `source-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=g8h8IFWuNE8) | `source-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md` |
 
 ## Writer sources

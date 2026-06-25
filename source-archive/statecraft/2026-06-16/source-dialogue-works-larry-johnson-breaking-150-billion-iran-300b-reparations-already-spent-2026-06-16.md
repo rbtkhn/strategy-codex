@@ -13,11 +13,11 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: johnson
 threads:
+  - alkorshid
   - johnson
-  - nima
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Larry Johnson
 title: "Larry Johnson: BREAKING: $150 Billion of Iran's $300B Reparations Is ALREADY Spent!"
 channel_url: "https://www.youtube.com/@dialogueworks01"

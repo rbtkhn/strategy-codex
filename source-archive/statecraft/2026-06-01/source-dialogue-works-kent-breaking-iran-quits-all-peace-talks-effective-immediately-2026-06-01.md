@@ -8,9 +8,11 @@ host_people: ""
 guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
+threads:
+  - alkorshid
 show: Dialogue Works
-host: Nima R. Alkhorshid
+host: Nima Alkorshid
 guest: Joe Kent
 title: "Nima R. Alkhorshid: BREAKING: IRAN QUITS ALL PEACE TALKS EFFECTIVE IMMEDIATELY - w/ Joe Kent"
 channel_url: "https://www.youtube.com/@dialogueworks01"

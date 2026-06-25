@@ -11,13 +11,12 @@ guest_people:
   - Seyed M. Marandi
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: nima
+thread: alkorshid
 threads:
-  - nima
-  - marandi
+  - alkorshid
 thread_expert: marandi
 show: Dialogue Works
-host: Nima Alkhorshid
+host: Nima Alkorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Steps In – Israel Refuses to Withdraw as Hezbollah CRUSHES the Buffer Zone"
 channel_url: "https://www.youtube.com/@dialogueworks01"

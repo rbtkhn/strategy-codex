@@ -21,7 +21,7 @@ What makes this a real pair arc is that the same shape keeps returning:
 
 ## Arc set
 
-1. [source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+1. [source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
    Best mature anchor. Strong on why repeated attacks make Iranian deterrence more rational, why Hormuz becomes managed rather than open, and why French or European "peacekeeping" talk is strategically unserious.
 
 2. [source-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-baud-dialogue-works-nima-2026-05-04.md)
@@ -51,7 +51,7 @@ Captured or mirrored on disk:
 - 2026-04-20 - [source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md)
 - 2026-04-27 - [source-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md)
 - 2026-05-04 - [source-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-baud-dialogue-works-nima-2026-05-04.md)
-- 2026-05-11 - [source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- 2026-05-11 - [source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
 - 2026-05-18 - [source-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md)
 
 So the current state is:

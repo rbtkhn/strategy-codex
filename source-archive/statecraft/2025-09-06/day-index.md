@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Scott Ritter` (1)
-- Threads: `martyanov` (1), `nima` (1), `ritter` (1)
+- Threads: `alkorshid` (1), `martyanov` (1), `nima` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `nima`, `martyanov`, `ritter` | [watch](https://www.youtube.com/watch?v=02fGQz-JB-Q) | `source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov`, `ritter` | [watch](https://www.youtube.com/watch?v=02fGQz-JB-Q) | `source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md` |
 
 ## Writer sources
 

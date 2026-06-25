@@ -10,7 +10,7 @@ Purpose: provide the canonical route map for materialized Postol appearances and
 
 - [2026-03-23 - Israel's air defense in total collapse](../../../source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md)
 - [2026-04-03 - Iran already achieved nuclear deterrence against Israel](../../../source-archive/statecraft/2026-04-03/source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md)
-- [2026-05-08 - Third round war, Israel worst nightmare yet](../../../source-archive/statecraft/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- [2026-05-08 - Third round war, Israel worst nightmare yet](../../../source-archive/statecraft/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 ### Daniel Davis Deep Dive
 

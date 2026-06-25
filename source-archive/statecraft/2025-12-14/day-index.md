@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `3`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Pepe Escobar` (1)
-- Threads: `krainer` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
+- Threads: `alkorshid` (1), `krainer` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=SaHpo6ORlTg) | `source-alex-mercouris-confident-moscow-trashes-zelensky-proposals-turkey-tells-kiev-stop-tanke-2025-12-14.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `martyanov`, `krainer` | [watch](https://www.youtube.com/watch?v=EjbnJ1ogS3c) | `source-dialogue-works-pepe-escobar-andrei-martyanov-alex-krainer-russia-strikes-us-recalculates-eu-draws-the-line-2025-12-14.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov`, `krainer` | [watch](https://www.youtube.com/watch?v=EjbnJ1ogS3c) | `source-dialogue-works-pepe-escobar-andrei-martyanov-alex-krainer-russia-strikes-us-recalculates-eu-draws-the-line-2025-12-14.md` |
 
 ## Writer sources
 

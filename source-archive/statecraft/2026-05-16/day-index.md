@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `5`
 - Distinct guests: `6`
-- Distinct threads: `7`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (4), `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Pascal Lottaz` (1)
 - Guests: `Davis` (3), `Seyed M. Marandi` (2), `Alexander Mercouris` (1), `Chas Freeman` (1), `Dmitry Polyanskiy` (1), `Larry Johnson` (1)
-- Threads: `davis` (4), `diesen` (2), `marandi` (2), `mercouris` (2), `nima` (2), `freeman` (1), `johnson` (1)
+- Threads: `davis` (4), `diesen` (2), `marandi` (2), `mercouris` (2), `nima` (2), `alkorshid` (1), `freeman` (1), `johnson` (1)
 
 ## Channel sources
 
@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [JRNzCOQTTDo](https://www.youtube.com/watch?v=JRNzCOQTTDo) | `source-daniel-davis-intel-briefing-5-16-2026-lt-col-daniel-davis-2026-05-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [Uqt5ZW2MxFc](https://www.youtube.com/watch?v=Uqt5ZW2MxFc) | `source-daniel-davis-iran-war-post-china-trip-lt-col-daniel-davis-mario-nawfal-2026-05-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=PYOxyv46-6k) | `source-daniel-davis-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` |
-| `dialogue-works` | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=XfTAxhCrWqQ) | `source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=XfTAxhCrWqQ) | `source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md` |
 | `dialogue-works` | Dialogue Works | `marandi`, `nima` | [watch](https://www.youtube.com/watch?v=cA1vwusUpfY) | `source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mercouris` | [watch](https://www.youtube.com/watch?v=Wjb4vFK37t0) | `source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=0yA6_tWLp2w) | `source-glenn-diesen-seyed-m-marandi-iran-ready-with-overwhelming-retaliation-2026-05-16.md` |

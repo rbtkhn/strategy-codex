@@ -151,7 +151,7 @@ Parent daily (when written): [State Synthesis - 2026-06-08](statecraft/synthesis
 ## Source Anchors
 
 - [McGovern / Judging Freedom - USS Liberty + Putin + Middle East - 2026-06-08](../../source-archive/statecraft/2026-06-08/source-napolitano-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md) · [watch](https://www.youtube.com/watch?v=kiWqcTeLaIQ)
-- [McGovern / Dialogue Works - 2026-06-06](../../source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md) (capture baseline)
+- [McGovern / Dialogue Works - 2026-06-06](../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md) (capture baseline)
 
 Related:
 

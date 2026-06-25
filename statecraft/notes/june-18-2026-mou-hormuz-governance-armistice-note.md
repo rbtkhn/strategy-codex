@@ -92,6 +92,6 @@ Full verbatim block: [Pape Day 60 capture](../../source-archive/statecraft/2026-
 
 - [Pape Day 60](../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) · [Pape Stage IV Bloomberg](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md)
 - [Pape Phase XV — Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
-- [Johnson×Marandi 14-pt](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md)
-- [Escobar MOU beat](../../source-archive/statecraft/2026-06-17/source-alkorshid-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md)
+- [Johnson×Marandi 14-pt](../../source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md)
+- [Escobar MOU beat](../../source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md)
 - [Davis J18 mechanics](../../source-archive/statecraft/2026-06-18/source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md)

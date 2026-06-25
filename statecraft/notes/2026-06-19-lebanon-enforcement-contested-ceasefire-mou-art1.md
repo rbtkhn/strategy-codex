@@ -8,7 +8,7 @@ WORK only; not Record.
 
 **Sources (Jun 19 — hook-dense):**
 
-- [Marandi × Johnson — Geneva suspended / MOU para 1](../../source-archive/statecraft/2026-06-19/source-alkorshid-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md)
+- [Marandi × Johnson — Geneva suspended / MOU para 1](../../source-archive/statecraft/2026-06-19/source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md)
 - [Davis — Israel–Hezbollah ceasefire deep dive](../../source-archive/statecraft/2026-06-19/source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md)
 - [Parsi — Netanyahu rival / MOU sabotage logic](../../source-archive/statecraft/2026-06-19/source-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md)
 - [Blumenthal — Katz defies Trump](../../source-archive/statecraft/2026-06-19/source-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md)
@@ -119,7 +119,7 @@ Do **not** merge: **brokered ceasefire ≠ Art. 1 implemented ≠ forward-defens
 - [Jun 19 wire matrix — Lebanon fork](statecraft/notes/wire/2026-06-19-wire-verify-matrix.md#lebanon-enforcement-fork-j17-4--j19-4--j19-5--j19-9)
 - [Jun 19 parent daily — MOU implementation suspension](statecraft/synthesis/day/2026-06-19.md)
 - [Persia — Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
-- Archive `verify:` — [Davis](../../source-archive/statecraft/2026-06-19/source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md) · [Marandi×Johnson](../../source-archive/statecraft/2026-06-19/source-alkorshid-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md)
+- Archive `verify:` — [Davis](../../source-archive/statecraft/2026-06-19/source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md) · [Marandi×Johnson](../../source-archive/statecraft/2026-06-19/source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md)
 
 ## Source anchors
 

@@ -71,7 +71,7 @@ If the operator needs the clearest live-pressure branch already on disk:
 
 If the operator needs the strongest current materialized raw-input file:
 
-- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 If the operator needs the object doctrine rather than a live lane:
 
