@@ -44,7 +44,7 @@ verify:
     note: Falsifier not triggered — spine holds; AP/NST/Malay Mail 16–18 Jun fighting eased not stopped; Yedioth 18 Jun strike decline = absent political instructions not policy shift; 7-day window not elapsed at wire pass
   - claim: Mark Levin / pro-Israel podcaster lane rips Trump over MOU (same-cycle hawk pushback mesh)
     verdict: partial
-    note: Ingest tier-4 — Macgregor names Levin ripping Trump from pillar to post; not J19-17 direct Levin→Vance row · cross-ref [J19-17 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md) · primary anchor [Johnson sEoIzK51T3U](./source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md)
+    note: Ingest tier-4 — Macgregor names Levin ripping Trump from pillar to post; not J19-17 direct Levin→Vance row · cross-ref [J19-17 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md) · primary anchor [Johnson sEoIzK51T3U](./source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md)
 ---
 # COL. Douglas Macgregor : Israel The Real Loser
 

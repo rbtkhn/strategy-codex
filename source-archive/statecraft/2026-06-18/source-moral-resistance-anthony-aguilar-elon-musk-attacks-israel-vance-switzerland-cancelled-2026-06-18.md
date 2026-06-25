@@ -41,7 +41,7 @@ verify:
     note: S.4615 Sec. 622 reported 20 May 2026 · SSCI · Military.com · congress.gov PDF; expands sharing + limits suspension — not enacted; Aguilar Mossad-CIA permanent bind = characterization (tier 4)
   - claim: Vance twothirds defensive weapons / smell the reality (18 Jun White House briefing)
     verdict: supported
-    note: AP 18 Jun · JTA 18 Jun · Washington Examiner 18 Jun; cross-ref source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
+    note: AP 18 Jun · JTA 18 Jun · Washington Examiner 18 Jun; cross-ref source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
   - claim: Iran and Vance skip Switzerland travel; MOU talks paused (same-day host seam)
     verdict: partial
     note: MOU digitally signed 17–18 Jun; Iran no Switzerland ceremony (CNN 17 Jun); Burgenstock delayed 19 Jun (SCMP); cross-ref Johnson CkCnhwTp5Rw — travel deferred not abandoned

@@ -46,7 +46,7 @@ verify:
     note: MOU framework language **supported**; upfront $12–24B Iranian spin **contested** (Iran International 17 Jun); US pay-for-performance **Contradicted** upfront release — falsifier #2 holds; $300B fund = GCC/trust frame not US cash transfer (tier 4 until wire)
   - claim: Trump ~four weeks from running out of oil reserves / SPR crisis motive
     verdict: supported
-    note: The Hill G7 · Reuters SPR 15 Jun; cross-ref source-alkorshid-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md
+    note: The Hill G7 · Reuters SPR 15 Jun; cross-ref source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md
   - claim: Former Israeli Navy commander quote (Al Mayadeen English) on limited Iranian strike damage/censorship
     verdict: partial
     note: Krainer reads Al Mayadeen English on stream — secondary citation; Al Mayadeen 18 Jun cycle carries Israeli strike-damage reporting — exact Navy ex-commander attribution **not wire-pulled** in pass

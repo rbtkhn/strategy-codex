@@ -23,7 +23,7 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=CtNtxF4LPKo"
 youtube_id: CtNtxF4LPKo
-cross_host_alias: source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md
+cross_host_alias: source-dialogue-works-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md
 source_note: "Host re-file from mis-attributed Dialogue Works capture; same @GDiesen1 episode (CtNtxF4LPKo). Transcript body alias; guest close addresses Glenn Diesen. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 opening_tier: clean
@@ -37,7 +37,7 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 **Date:** Friday, June 5, 2026  
 **Guest:** Seyed M. Marandi  
 **URL:** https://www.youtube.com/watch?v=CtNtxF4LPKo  
-**Alias:** [Dialogue Works mis-file](source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) (same episode)
+**Alias:** [Dialogue Works mis-file](source-dialogue-works-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) (same episode; legacy prefix `source-alkorshid-*`)
 
 ---
 

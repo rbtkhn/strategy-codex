@@ -23,7 +23,7 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=HuhJinByAEg"
 youtube_id: HuhJinByAEg
-cross_host_alias: source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md
+cross_host_alias: source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md
 source_note: "Host re-file from mis-attributed Dialogue Works capture; same @GDiesen1 episode (HuhJinByAEg). Transcript body alias. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 opening_tier: clean
@@ -37,7 +37,7 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 **Date:** Saturday, June 6, 2026  
 **Guest:** Charles Freeman  
 **URL:** https://www.youtube.com/watch?v=HuhJinByAEg  
-**Alias:** [Dialogue Works mis-file](source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) (same episode)
+**Alias:** [Dialogue Works mis-file](source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) (same episode; legacy prefix `source-alkorshid-*`)
 
 ---
 
