@@ -21,7 +21,7 @@ Purpose: front door for the canonical Weichert statecraft shelf (seed maturity).
 ## Adjacent notes
 
 - [weichert-on-ai.md](../../notes/weichert-on-ai.md)
-- [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
+- [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 
 ## Boundary
 

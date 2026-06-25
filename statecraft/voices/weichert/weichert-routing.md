@@ -20,7 +20,7 @@ Purpose: fast-routing note for the canonical Weichert shelf (**Nawfal-first**, s
   - open [weichert-source-index.md](weichert-source-index.md) → 2026-06-02 Trump fed up
 - **AI architecture / Utah cover / Minab kill chain / Palantir testbed**
   - open [weichert-on-ai.md](../../notes/weichert-on-ai.md) — **not** a second `thread:` slug
-  - cross-voice chronology: [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
+  - cross-voice chronology: [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
   - archive anchors: 2026-06-05 NDAA/CIA merge · 2026-06-02 Palantir panopticon rows in [source index](weichert-source-index.md)
 - **speaker identity / mechanism table / failure modes**
   - open [weichert-profile.md](weichert-profile.md)
@@ -39,7 +39,7 @@ Purpose: fast-routing note for the canonical Weichert shelf (**Nawfal-first**, s
 
 - **Weichert × Pape** (hawkish dominance vs middle-game steps) — same Nawfal week when both appear
 - **Weichert × Marandi / Freeman** — command-fracture and disobedience register days
-- **Weichert × Ritter × Sachs** — Minab / Palantir stack days; see watch verify block in [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md#verify-receipts-2026-06-10)
+- **Weichert × Ritter × Sachs** — Minab / Palantir stack days; see watch verify block in [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md#verify-receipts-2026-06-10)
 
 ## Best Entry Points (current corpus)
 

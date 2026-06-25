@@ -26,6 +26,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Krapivnik | [krapivnik/krapivnik-source-index.md](krapivnik/krapivnik-source-index.md) |
 | Lascaris | [lascaris/lascaris-source-index.md](lascaris/lascaris-source-index.md) |
 | Macgregor | [macgregor/macgregor-source-index.md](macgregor/macgregor-source-index.md) |
+| Maté | [mate/mate-source-index.md](mate/mate-source-index.md) |
 | Marandi | [marandi/marandi-source-index.md](marandi/marandi-source-index.md) |
 | Martyanov | [martyanov/martyanov-source-index.md](martyanov/martyanov-source-index.md) |
 | Mearsheimer | [mearsheimer/mearsheimer-source-index.md](mearsheimer/mearsheimer-source-index.md) |

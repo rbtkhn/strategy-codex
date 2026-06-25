@@ -72,7 +72,7 @@ Do not open Weichert first for wire-grade ORBAT, neutral process memo, or Irania
 | **Weichert × Pape** | hawkish dominance / no durable peace vs middle-game steps and trap clocks |
 | **Weichert × Marandi** | US junior-partner / Israeli rogue vs Iranian red-line and endurance register |
 | **Weichert × Freeman** | command fracture vs gauntlet / disobedience reads on the same rupture days |
-| **Weichert × Ritter × Sachs** | Minab / Palantir / kill-chain stack — see [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md#verify-receipts-2026-06-10) |
+| **Weichert × Ritter × Sachs** | Minab / Palantir / kill-chain stack — see [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
 
 ## Open first
 

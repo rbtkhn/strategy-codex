@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `12`
-- Channel sources: `12`
+- Source files: `14`
+- Channel sources: `14`
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (12)
-- Source form mix: `interview` (11), `solo` (1)
-- Distinct channels/shows: `5`
-- Distinct hosts: `3`
-- Distinct guests: `9`
-- Distinct threads: `12`
+- Body kind mix: `transcript` (14)
+- Source form mix: `interview` (13), `solo` (1)
+- Distinct channels/shows: `7`
+- Distinct hosts: `5`
+- Distinct guests: `11`
+- Distinct threads: `15`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (4), `Dialogue Works` (3), `Breaking Points` (2), `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1)
+- `Judging Freedom` (4), `Dialogue Works` (3), `Breaking Points` (2), `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Mario Nawfal` (1), `The Duran` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Breaking Points` (2), `Daniel Davis` (1), `Nima Alkhorshid` (1)
-- Guests: `John Mearsheimer` (3), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1), `Ted Postol` (1)
-- Threads: `napolitano` (4), `mearsheimer` (3), `nima` (3), `breaking-points` (2), `davis` (2), `freeman` (1), `hoh` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `postol` (1), `ritter` (1)
+- Hosts: `Breaking Points` (2), `Daniel Davis` (2), `Alex Christoforou` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1)
+- Guests: `John Mearsheimer` (3), `Alexander Mercouris` (1), `Brandon J. Weichert` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1), `Ted Postol` (1)
+- Threads: `napolitano` (4), `mearsheimer` (3), `nima` (3), `breaking-points` (2), `davis` (2), `mercouris` (2), `christoforou` (1), `freeman` (1), `hoh` (1), `macgregor` (1), `marandi` (1), `nawfal` (1), `postol` (1), `ritter` (1), `weichert` (1)
 
 ## Channel sources
 
@@ -38,12 +38,14 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `breaking-points` | Breaking Points | `mearsheimer`, `breaking-points` | [Q-AiLUd4E8Q](https://www.youtube.com/watch?v=Q-AiLUd4E8Q) | `source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md` |
 | `breaking-points` | Breaking Points | `mearsheimer`, `breaking-points` | [IK25PzvdgpU](https://www.youtube.com/watch?v=IK25PzvdgpU) | `source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [_3mct6e9u60](https://www.youtube.com/watch?v=_3mct6e9u60) | `source-daniel-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `postol` | [eHLOC1UPNlo](https://www.youtube.com/watch?v=eHLOC1UPNlo) | `source-daniel-davis-postol-patriot-missile-capabilities-2026-06-23.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `postol`, `davis` | [eHLOC1UPNlo](https://www.youtube.com/watch?v=eHLOC1UPNlo) | `source-daniel-davis-postol-patriot-missile-capabilities-2026-06-23.md` |
+| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [-6oJNKA4HrQ](https://www.youtube.com/watch?v=-6oJNKA4HrQ) | `source-duran-mercouris-rubicon-crossed-zelensky-targets-belarus-2026-06-23.md` |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [XMKCnPsESMQ](https://www.youtube.com/watch?v=XMKCnPsESMQ) | `source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [WbL3HQBEIVg](https://www.youtube.com/watch?v=WbL3HQBEIVg) | `source-napolitano-freeman-should-iran-trust-trump-2026-06-23.md` |
 | `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [J-PWkY08P84](https://www.youtube.com/watch?v=J-PWkY08P84) | `source-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23.md` |
 | `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [dTOhamHI_bk](https://www.youtube.com/watch?v=dTOhamHI_bk) | `source-napolitano-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md` |
 | `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [UICIxIPb9iI](https://www.youtube.com/watch?v=UICIxIPb9iI) | `source-napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [sS-hjYvck-M](https://www.youtube.com/watch?v=sS-hjYvck-M) | `source-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md` |
 
 ## Writer sources
 
@@ -70,8 +72,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md`
 - `source-daniel-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23.md`
 - `source-daniel-davis-postol-patriot-missile-capabilities-2026-06-23.md`
+- `source-duran-mercouris-rubicon-crossed-zelensky-targets-belarus-2026-06-23.md`
 - `source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md`
 - `source-napolitano-freeman-should-iran-trust-trump-2026-06-23.md`
 - `source-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23.md`
 - `source-napolitano-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md`
 - `source-napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md`
+- `source-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md`

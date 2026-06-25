@@ -13,7 +13,7 @@ Use it for speaker identity, Nawfal-first source routing, Iran-war hawk mechanis
 - [Weichert routing](weichert-routing.md) — Nawfal-first task routes and source-class split
 - [Source index](weichert-source-index.md) — materialized Nawfal captures (2026-05 through 2026-06)
 - [weichert-on-ai.md](../../notes/weichert-on-ai.md) — surveillance stack, Minab kill chain, Palantir panopticon, China applied AI
-- [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md) — cross-speaker AI chronology
+- [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md) — cross-speaker AI chronology
 
 ## Maturity (honest)
 

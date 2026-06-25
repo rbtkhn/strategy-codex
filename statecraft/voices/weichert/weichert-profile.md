@@ -13,7 +13,7 @@ WORK only; not Record.
 
 Brandon J. Weichert is the US hawk-analyst lane for Iran-war command fracture: who owns escalation when ceasefire grammar frays, whether Tehran has strategic dominance, and how Netanyahu–Trump asymmetry shapes the next rung. Primary recurring surface is **Mario Nawfal** interviews; Substack and X carry the same mechanism vocabulary at shorter length.
 
-**AI adjunct lane (statecraft):** Utah/data-center surveillance cover, automated kill chain (Minab), Palantir Israel panopticon, China applied AI vs US software hype — bounded note at [weichert-on-ai.md](../../notes/weichert-on-ai.md); cross-speaker chronology at [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md). **Source bench:** [weichert-source-index.md](weichert-source-index.md).
+**AI adjunct lane (statecraft):** Utah/data-center surveillance cover, automated kill chain (Minab), Palantir Israel panopticon, China applied AI vs US software hype — bounded note at [weichert-on-ai.md](../../notes/weichert-on-ai.md); cross-speaker chronology at [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md). **Source bench:** [weichert-source-index.md](weichert-source-index.md).
 
 ## Identity
 
@@ -67,20 +67,20 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 - Treating unverified Hebrew clip translations or Kushner-bunker rumor as floor truth.
 - Collapsing contested US tanker/ISR support into proven US kinetic participation without wire receipt.
 - Gaza-linkage live claims without Hamas/IRI primary.
-- Collapsing **Maven (Palantir) + Claude** stack into “Palantir alone” on Minab — wire triage favors combined stack; vendor-specific Minab node **unclear** ([watch verify receipt](../../notes/china-ai-implementation-watch.md#verify-receipts-2026-06-10)).
+- Collapsing **Maven (Palantir) + Claude** stack into “Palantir alone” on Minab — wire triage favors combined stack; vendor-specific Minab node **unclear** ([watch verify receipt](../../notes/trend-china-ai-implementation.md#verify-receipts-2026-06-10)).
 
 ## Active weave cues
 
 - Pair same-week **Nawfal** guests: **Weichert** (hawkish dominance / no peace) vs **Pape** (middle-game steps).
 - Cross **Freeman** gauntlet and **Marandi** disobedience register on command-fracture days.
-- AI days: pair **Weichert** (architecture / Terminator) vs **Ritter** (CHMR / targeteer) vs **Sachs** (MIC moral) on Minab/Palantir — see [four-voice compare](../../notes/china-ai-implementation-watch.md#verify-receipts-2026-06-10) in watch verify block.
+- AI days: pair **Weichert** (architecture / Terminator) vs **Ritter** (CHMR / targeteer) vs **Sachs** (MIC moral) on Minab/Palantir — see [four-voice compare](../../notes/trend-china-ai-implementation.md#verify-receipts-2026-06-10) in watch verify block.
 
 ## Statecraft / AI (bounded notes)
 
 | Object | Path |
 |--------|------|
 | **Weichert on AI** | [statecraft/notes/weichert-on-ai.md](../../notes/weichert-on-ai.md) |
-| **China AI watch** | [statecraft/notes/china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md) |
+| **China AI watch** | [statecraft/notes/trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md) |
 | **Gulf AI mechanism** | [statecraft/notes/gulf-ai-architecture.md](../../notes/gulf-ai-architecture.md) |
 | **Cross-voice (Minab)** | Ritter · Sachs · Jiang return paths from `weichert-on-ai.md` |
 

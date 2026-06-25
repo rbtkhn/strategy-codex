@@ -18,9 +18,10 @@ Boundary: seed shelf — arc, routing, helix, and month ladders are **Phase 2+**
 - [Trump fed up / hostilities resume](../../../source-archive/statecraft/2026-06-02/source-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md)
 - [NDAA/CIA merge + Utah/Minab](../../../source-archive/statecraft/2026-06-05/source-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md)
 - [command fracture](../../../source-archive/statecraft/2026-06-08/source-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
+- [Tucker/MTG leave GOP / MAGA split / depletion bench](../../../source-archive/statecraft/2026-06-23/source-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md) — Hormuz TSS lane fight; SPR ~100M usable; 14 systems depleted; Tucker/MTG abandon Republican party; Conricus tether clip; Channel 13 Lebanon pilot; Albanese debanking; Putin Istanbul 2.0
 
 ## Adjacent notes (not source floor)
 
 - [weichert-on-ai.md](../../notes/weichert-on-ai.md)
-- [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
+- [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [Speaker profile](weichert-profile.md)
