@@ -30,7 +30,7 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 - 2026-03-20 *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy* - captured on disk.
 - 2026-03-27 *If Troops Enter Iran... Israel's Entire Strategy FALLS APART* - captured on disk.
 
-1. [source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+1. [source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
    Best mature anchor. Strong on "ceasefire with Israeli characteristics," Gulf-state distancing, Hormuz control, and the claim that Anglo-American maritime order is breaking down.
 
 2. [source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md)

@@ -23,10 +23,10 @@ What makes this a real speaker arc rather than just repeated guest appearances i
 
 ## Arc set
 
-1. [source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
+1. [source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md)
    Best mature anchor. Strong on selective Hormuz passage, UAE exposure, siege logic, and why Iran treats time as being on its side.
 
-2. [source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-09/source-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
+2. [source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-09/source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
    Best culmination file. Strong on the claim that Hormuz has fundamentally changed and that a regional security architecture should exclude the United States.
 
 3. [source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
@@ -35,7 +35,7 @@ What makes this a real speaker arc rather than just repeated guest appearances i
 4. [source-marandi-blockade-trump-nima-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
    Best early anchor for Islamabad refusal, blockade escalation, and the warning that Gulf infrastructure would become fair game if the siege continued.
 
-5. [source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-23/source-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
+5. [source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-23/source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
    Best late-May alert-state file. Strong on full-alert war expectation, urgency asymmetry, and the claim that messages are moving faster without changing Iran's distrust posture.
 
 ## Open first
