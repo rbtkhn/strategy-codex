@@ -30,6 +30,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 - [Napolitano](napolitano/README.md)
 - [Nima (Dialogue Works)](nima/README.md)
 - [Neutrality Studies](neutrality-studies/README.md)
+- [Moral Resistance](moral-resistance/README.md) — Sulaiman Ahmed; Aguilar legislative-action · Parsi architecture lane
 
 [Davis](davis/README.md) and [Napolitano](napolitano/README.md) are the highest-leverage hosts for feasibility vs legal/process pressure:
 
