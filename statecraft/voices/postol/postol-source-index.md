@@ -15,6 +15,7 @@ Purpose: provide the canonical route map for materialized Postol appearances and
 ### Daniel Davis Deep Dive
 
 - [2026-05-15 - Bombs will not end Iran war](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md)
+- [2026-06-23 - Patriot missile capabilities (Pack 3 / THAAD / Iron Dome)](../../../source-archive/statecraft/2026-06-23/source-daniel-davis-postol-patriot-missile-capabilities-2026-06-23.md) — Warsaw missile-defense coalition presentation; <5% intercept claim; Gulf War 1991 déjà vu; 1,200 PAC-3 / $4.8B replacement debate; Iron Dome zero vs Iranian IRBM; Larry Johnson inventory cite; Russia S-300/400/500 vs ATACMS; Graham Hormuz fantasy clip
 
 ## Host-Arc Entries
 

@@ -5,12 +5,16 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people: ""
-guest_people: ""
+host_people:
+  - Daniel Davis
+guest_people:
+  - Ted Postol
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
-thread: davis
-threads: ""
+thread: postol
+threads:
+  - davis
+  - postol
 thread_expert: postol
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -27,6 +31,22 @@ capture_note: Operator paste; full interview body preserved from user-supplied Y
 editorial_note: Operator-pasted transcript; ASR artifacts retained (Rathon/Raytheon, Loheed/Lockheed, Scott/Scud, Hormone/Hormuz, etc.); not human-verified verbatim against audio. Closing subscribe promo may be trimmed by post-land normalizers.
 quality_note: Fresh intake 2026-06-23.
 transcript_wrapper_tier: clean
+
+verify_receipt: 2026-06-24
+verify_matrix_ref: statecraft/notes/wire/2026-06-23-wire-verify-matrix.md
+verify:
+  - claim: US Patriot inventory strain / NYT shortage after Iran war
+    verdict: supported
+    note: J23-29 NYT Jun 22-23; Postol cites as PAC-3 economics context — wire hook only
+  - claim: PAC-3 intercept ~2-4% vs 90% marketing (Warsaw coalition brief)
+    verdict: tier-4-analyst
+    note: Postol video forensics; do not merge with J23-30 partial or executive 90% claims
+  - claim: ~1,200 PAC-3 fired; ~$4.8B replacement debate
+    verdict: tier-4-analyst
+    note: Johnson inventory cite in show; mesh Weichert 14-system restore (tier 4 until DOD receipt)
+  - claim: Iron Dome / THAAD cannot reliably kill IRBM warheads (front-end kill required)
+    verdict: tier-4-analyst
+    note: Physics framing; not wire-scored
 ---
 
 # MIT Professor Ted Postol: Patriot Missile Capabilities
