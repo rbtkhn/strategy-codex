@@ -53,6 +53,8 @@ Johnson's earlier foundation and backward-extension material is already on disk 
 
 - [2026-06-22 Napolitano](../../../source-archive/statecraft/2026-06-22/source-napolitano-johnson-why-iran-still-controls-hormuz-2026-06-22.md)
 - [2026-06-22 Neutrality Studies](../../../source-archive/statecraft/2026-06-22/source-neutrality-studies-larry-johnson-iran-negotiation-disaster-russia-full-war-mode-2026-06-22.md)
+- [2026-06-24 Dialogue Works](../../../source-archive/statecraft/2026-06-24/source-alkorshid-johnson-israel-next-war-preparing-bomb-yemen-2026-06-24.md) — **operator-pasted transcript** (`sV1lTSNqjQc`) · UN Gaza child report; Channel 14 Yemen prep; Pakistan regional security architecture; Lebanon talks/Katz no-withdraw; Hormuz MarineTraffic outbound; $76 vs $106 oil; Rutte EU flights; CBS Kuwait wounded; Putin Barbarossa cadets; Starlink EW; pairs Jun 22 Hormuz lane
+- [2026-06-24 Davis Deep Dive](../../../source-archive/statecraft/2026-06-24/source-daniel-davis-larry-johnson-iran-deal-trump-making-it-up-2026-06-24.md) — **operator-pasted transcript** (`ETLzoyzPYr0`) · Trump 19M bbl lie; mines/Lloyd's; aviation-diesel ~2wk; Rubio Lebanon fish vs MOU §1; MOU §5 only 60 days; futures vs spot oil; five Iranian wins/$12B Gulf bypass; US squadron rotation; degenerate-gambler round-3; Karaganov/Ushakov; UK strikes by Sep; pairs Crooke same-day Davis stack
 
 ## Boundary Notes
 

@@ -89,6 +89,7 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [youtube-daniel-davis-deep-dive-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11.md)
 - [substack-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12](../../../source-archive/statecraft/2026-06-12/source-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12.md)
 - [transcript-napolitano-crooke-us-empire-is-crashing-2026-06-15](../../../source-archive/statecraft/2026-06-15/source-napolitano-crooke-us-empire-is-crashing-2026-06-15.md)
+- [youtube-daniel-davis-deep-dive-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24](../../../source-archive/statecraft/2026-06-24/source-daniel-davis-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24.md)
 
 ## Source-boundary reminders
 
