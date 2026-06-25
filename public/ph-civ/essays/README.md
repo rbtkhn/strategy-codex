@@ -15,8 +15,8 @@ Reader rollup under [`book/volume-ii-apocalypse/sub/`](book/volume-ii-apocalypse
 
 ## Corpus scope
 
-- **Public today:** five `sub-*` chapter packets (promoted from Substack; paths migrating here).
-- **Workshop residue (intake backlog):** ~35 curated files in frozen `codex/predictive-history/substack/essays/` — promote through `public/ph-civ/` intake, not by editing the frozen tree.
+- **Public today:** 37 `sub-*` chapter packets on repo-root `essays/`.
+- **Workshop residue (intake backlog):** remaining workshop essays promote through intake; frozen tree is read-only.
 
 ## Packet shape
 
