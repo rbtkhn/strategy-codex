@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/KCPG7fUZ8YE) | `source-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=n69N9h4A8N4) | `source-napolitano-mearsheimer-killing-without-purpose-2025-03-27.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/KCPG7fUZ8YE) | `source-judging-freedom-macgregor-readying-for-war-with-iran-2025-03-27.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=n69N9h4A8N4) | `source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md` |
 
 ## Writer sources
 
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md`
-- `source-napolitano-mearsheimer-killing-without-purpose-2025-03-27.md`
+- `source-judging-freedom-macgregor-readying-for-war-with-iran-2025-03-27.md`
+- `source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md`

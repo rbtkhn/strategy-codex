@@ -124,4 +124,4 @@ Transaction implication: firewall drafting must assume **executive levers are re
 ## Source Anchors
 
 - [Barnes / Dialogue Works - 2026-06-03](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-03/source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md>)
-- [Aguilar / Mario Nawfal - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>)
+- [Aguilar / Mario Nawfal - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>)

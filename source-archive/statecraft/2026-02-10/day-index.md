@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qdAx8H1RwdI) | `source-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi`, `johnson` | [watch](https://www.youtube.com/watch?v=-CAqyFWDBbQ) | `source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md` |
-| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=NAfUTVwcaCs) | `source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md` |
+| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=NAfUTVwcaCs) | `source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md` |
 
 ## Writer sources
 
@@ -56,5 +56,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md`
 - `source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md`
-- `source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md`
+- `source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md`
 - `source-simplicius-europes-triumvirate-of-lame-stooges-2026-02-10.md`

@@ -16,7 +16,7 @@ Month status: `mature retrieval month`
   - Practical severity lane thickens into attritional realism.
 - [source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md](../../../../source-archive/statecraft/2026-03-15/source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
   - Davis lane consolidates unsustainable-war reading.
-- [source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md](../../../../source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
+- [source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md](../../../../source-archive/statecraft/2026-03-26/source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md)
   - Napolitano branch closes the month by sharpening desperation and elite-war-planning indictment.
 
 ## Reading note

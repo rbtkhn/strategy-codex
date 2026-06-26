@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-3K2avV1DTg) | `source-daniel-davis-las-vegas-cybertruck-explosion-answers-still-needed-2025-01-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2lcgYDyzbNc) | `source-daniel-davis-negotiating-bridge-to-nowhere-trump-zelensky-at-odds-over-nato-2025-01-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=odn9UowksqM) | `source-daniel-davis-russia-advancing-on-all-fronts-toretsk-hangs-by-a-thread-w-patrick-henni-2025-01-08.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [uM0dZtQSk-8](https://www.youtube.com/watch?v=uM0dZtQSk-8) | `source-napolitano-sachs-does-trump-want-peace-2025-01-08.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [uM0dZtQSk-8](https://www.youtube.com/watch?v=uM0dZtQSk-8) | `source-judging-freedom-sachs-does-trump-want-peace-2025-01-08.md` |
 
 ## Writer sources
 
@@ -60,4 +60,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-las-vegas-cybertruck-explosion-answers-still-needed-2025-01-08.md`
 - `source-daniel-davis-negotiating-bridge-to-nowhere-trump-zelensky-at-odds-over-nato-2025-01-08.md`
 - `source-daniel-davis-russia-advancing-on-all-fronts-toretsk-hangs-by-a-thread-w-patrick-henni-2025-01-08.md`
-- `source-napolitano-sachs-does-trump-want-peace-2025-01-08.md`
+- `source-judging-freedom-sachs-does-trump-want-peace-2025-01-08.md`

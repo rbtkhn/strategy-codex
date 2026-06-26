@@ -38,7 +38,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=7nRoD1Kxdr8) | `source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=Ha9elCUGl-E) | `source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `krapivnik` | [watch](https://www.youtube.com/watch?v=SYlTn-et5KI) | `source-dialogue-works-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=vOjEQTXT9kQ) | `source-napolitano-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=vOjEQTXT9kQ) | `source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md` |
 | `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [6VaTuSpPisE](https://www.youtube.com/watch?v=6VaTuSpPisE) | `source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md` |
 
 ## Writer sources
@@ -67,6 +67,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md`
 - `source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md`
 - `source-dialogue-works-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md`
-- `source-napolitano-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md`
+- `source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md`
 - `source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md`
 - `source-pape-the-lebanon-fuse-2026-06-04.md`

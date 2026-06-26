@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=Bw9YXwNtW2I) | `source-dialogue-works-amb-chas-freeman-how-the-u-s-is-spiraling-toward-disaster-2025-10-17.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=f1MYt24aWWQ) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=2doNMLV8Ji8) | `source-napolitano-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=2doNMLV8Ji8) | `source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-dialogue-works-amb-chas-freeman-how-the-u-s-is-spiraling-toward-disaster-2025-10-17.md`
 - `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17.md`
-- `source-napolitano-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md`
+- `source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md`

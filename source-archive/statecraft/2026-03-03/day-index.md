@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `wilkerson` | [VSM5yjbYrbY](https://www.youtube.com/watch?v=VSM5yjbYrbY) | `source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md` |
 | `dialogue-works` | Dialogue Works | `marandi` | [EhBb6F7tPps](https://www.youtube.com/watch?v=EhBb6F7tPps) | `source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=IZFVTfNQjnA) | `source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md` |
-| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=EbzgbnxtCzU) | `source-napolitano-freeman-what-makes-a-war-just-2026-03-03.md` |
+| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=EbzgbnxtCzU) | `source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md` |
 
 ## Writer sources
 
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | Patrick Henningsen | — | — | `source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md` |
 | Douglas Macgregor | `macgregor` | — | `source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md` |
 | Daniel Davis | — | — | `source-daniel-davis-us-navy-may-secure-strait-of-hormuz-2026-03-03.md` |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-napolitano-sachs-did-trump-just-start-wwiii-2026-03-03.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-judging-freedom-sachs-did-trump-just-start-wwiii-2026-03-03.md` |
 
 ## Files
 
@@ -71,7 +71,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md`
 - `source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md`
 - `source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md`
-- `source-napolitano-freeman-what-makes-a-war-just-2026-03-03.md`
-- `source-napolitano-sachs-did-trump-just-start-wwiii-2026-03-03.md`
+- `source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md`
+- `source-judging-freedom-sachs-did-trump-just-start-wwiii-2026-03-03.md`
 - `source-pape-the-air-power-illusion-2026-03-03.md`
 - `source-simplicius-us-suffers-worst-day-of-air-losses-2026-03-03.md`

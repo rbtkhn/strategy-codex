@@ -912,7 +912,7 @@ and do joint work together. But this
 concept of 30 nations working handin
 glove is absurd. It's a fantasy. It's a
 fiction. So NATO is collapsing. uh when
-Mark Ruthie became the um secretary
+Mark Rutte became the um secretary
 general I said he will be the last
 secretary general of NATO that's that
 prediction may in fact come true because

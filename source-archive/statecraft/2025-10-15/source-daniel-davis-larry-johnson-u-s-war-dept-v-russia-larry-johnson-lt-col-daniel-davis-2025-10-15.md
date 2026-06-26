@@ -682,7 +682,7 @@ useful idiots uh in the media that are
 going to amplify this. Not only do we
 want to go after Russia, but we want to
 go after Russia and China
-simultaneously. Here's Mark Rut,
+simultaneously. Here's Mark Rutte,
 Secretary General, talking about
 expanding this alliance into a global
 military one.

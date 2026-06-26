@@ -32,12 +32,12 @@ That is why this lane is real reinforcement rather than a third helix strand: it
 
 ## Open first
 
-- [2026-04-28 John Mearsheimer - How Trump Lost His War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
-- [2026-03-31 John Mearsheimer - Will Trump Go Kamikaze?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
-- [2026-02-17 John Mearsheimer - How Trump Has Boxed Himself Into a Corner on Iran](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
-- [2026-01-15 John Mearsheimer - Foreign Wars, Domestic Crackdowns](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-15/source-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
-- [2025-12-24 John Mearsheimer - An Incoherent Foreign Policy](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-24/source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
-- [2025-11-17 John Mearsheimer - Israel's Nightmare](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-17/source-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
+- [2026-04-28 John Mearsheimer - How Trump Lost His War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [2026-03-31 John Mearsheimer - Will Trump Go Kamikaze?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
+- [2026-02-17 John Mearsheimer - How Trump Has Boxed Himself Into a Corner on Iran](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
+- [2026-01-15 John Mearsheimer - Foreign Wars, Domestic Crackdowns](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-15/source-judging-freedom-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
+- [2025-12-24 John Mearsheimer - An Incoherent Foreign Policy](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- [2025-11-17 John Mearsheimer - Israel's Nightmare](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-17/source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md)
 
 ## Best use
 

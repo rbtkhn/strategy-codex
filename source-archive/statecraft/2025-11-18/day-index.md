@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | — | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=WzA3A9h3oqk) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-epstein-files-nato-s-moves-all-falling-apart-iran-closer-to-russia-2025-11-18.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [CvA4TXxVxlQ](https://www.youtube.com/watch?v=CvA4TXxVxlQ) | `source-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [CvA4TXxVxlQ](https://www.youtube.com/watch?v=CvA4TXxVxlQ) | `source-judging-freedom-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-epstein-files-nato-s-moves-all-falling-apart-iran-closer-to-russia-2025-11-18.md`
-- `source-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md`
+- `source-judging-freedom-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md`

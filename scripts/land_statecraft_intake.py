@@ -54,9 +54,9 @@ def _detect_family(out_path: Path, explicit: str) -> str:
         return "mercouris-solo"
     if "source-duran-mercouris" in name or "transcript-duran-mercouris" in name:
         return "duran-mercouris"
-    if "source-napolitano" in name:
+    if "source-judging-freedom" in name:
         return "napolitano"
-    if "source-nawfal" in name:
+    if "source-mario-nawfal" in name:
         return "nawfal"
     return "generic"
 

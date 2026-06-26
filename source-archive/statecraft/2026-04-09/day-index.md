@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=V93i8GOIi-U) | `source-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md` |
 | `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [W93WyoC-2lQ](https://www.youtube.com/watch?v=W93WyoC-2lQ) | `source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=FrwWSR1IzXo) | `source-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=FrwWSR1IzXo) | `source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md`
 - `source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md`
-- `source-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md`
+- `source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md`

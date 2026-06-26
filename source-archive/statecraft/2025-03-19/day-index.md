@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/NkvaukA0438) | `source-napolitano-macgregor-will-us-attack-iran-2025-03-19.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/NkvaukA0438) | `source-judging-freedom-macgregor-will-us-attack-iran-2025-03-19.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-macgregor-will-us-attack-iran-2025-03-19.md`
+- `source-judging-freedom-macgregor-will-us-attack-iran-2025-03-19.md`

@@ -19,13 +19,13 @@ So April should currently be read as a **real month with only one minor URL seam
 
 ### Materialized on disk
 
-1. [2025-04-10 - *COL. Lawrence Wilkerson : Will Trump Deport Americans?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-napolitano-wilkerson-will-trump-deport-americans-2025-04-10.md)
+1. [2025-04-10 - *COL. Lawrence Wilkerson : Will Trump Deport Americans?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-judging-freedom-wilkerson-will-trump-deport-americans-2025-04-10.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized.
 
-2. [2025-04-03 - *COL. Lawrence Wilkerson : Trump Delusional over Tariffs and Iran.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-napolitano-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md)
+2. [2025-04-03 - *COL. Lawrence Wilkerson : Trump Delusional over Tariffs and Iran.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-judging-freedom-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized.
 
-3. [2025-04-17 - *COL. Lawrence Wilkerson : Are Neocons Ascendant?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-napolitano-wilkerson-are-neocons-ascendant-2025-04-17.md)
+3. [2025-04-17 - *COL. Lawrence Wilkerson : Are Neocons Ascendant?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-judging-freedom-wilkerson-are-neocons-ascendant-2025-04-17.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized; direct YouTube watch URL still unrecovered locally.
 
 4. [2025-04-04 - *Mohammad Marandi, Larry Wilkerson & Chas Freeman on Middle East Erupts: Iran Challenges Ultimatum*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md)

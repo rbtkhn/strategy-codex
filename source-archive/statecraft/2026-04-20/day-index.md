@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [UrEuENJ13UA](https://www.youtube.com/watch?v=UrEuENJ13UA) | `source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=aUIRaWUtgTA) | `source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md` |
 | `judging-freedom` | — | `johnson` | [watch](https://www.youtube.com/watch?v=geWpX8w7BNU) | `source-johnson-who-controls-hormuz-2026-04-20.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [OA1YCYflWeg]('https://www.youtube.com/watch?v=OA1YCYflWeg') | `source-napolitano-sachs-is-the-war-over-2026-04-20.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [OA1YCYflWeg]('https://www.youtube.com/watch?v=OA1YCYflWeg') | `source-judging-freedom-sachs-is-the-war-over-2026-04-20.md` |
 | `redacted-news` | — | `pape` | [watch](https://www.youtube.com/watch?v=WemB-vfoMaw) | `source-pape-collapse-ahead-of-schedule-2026-04-20.md` |
 | `scott-ritter` | — | `ritter` | [watch](https://www.youtube.com/watch?v=7pXI52jKcOU) | `source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md` |
 | `alexander-mercouris` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20) | `source-russia-blockade-40-ships-hormuz-2026-04-20.md` |
@@ -74,7 +74,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md`
 - `source-hedges-mearsheimer-iran-2026-04-20.md`
 - `source-johnson-who-controls-hormuz-2026-04-20.md`
-- `source-napolitano-sachs-is-the-war-over-2026-04-20.md`
+- `source-judging-freedom-sachs-is-the-war-over-2026-04-20.md`
 - `source-pape-collapse-ahead-of-schedule-2026-04-20.md`
 - `source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md`
 - `source-russia-blockade-40-ships-hormuz-2026-04-20.md`

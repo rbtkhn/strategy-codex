@@ -49,10 +49,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
 | John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md` |
-| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md` |
+| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-judging-freedom-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md` |
 
 ## Files
 
 - `source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md`
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-with-nato-s-collapse-new-world-order-emerges-2025-08-28.md`
-- `source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md`
+- `source-judging-freedom-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md`

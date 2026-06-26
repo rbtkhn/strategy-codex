@@ -65,7 +65,7 @@ Why:
   - [2026-03-08 - *Why the Iranian Theocracy Will Likely Survive*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md)
   - [2026-03-09 - *Can Trump Declare Unilateral Victory and End the Iran War?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-09/source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md)
   - [2026-03-16 - *Iran: Making It Painful for U.S.*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
-  - [2026-03-16 - *How Washington Underestimated Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+  - [2026-03-16 - *How Washington Underestimated Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md)
   - [2026-03-17 - *Why Was Larijani Targeted?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md)
 - the existing cross-context note already describes a coherent month object rather than a thin or obviously broken one
 - current evidence does not yet isolate one clear missing March source whose landing would materially repair the month

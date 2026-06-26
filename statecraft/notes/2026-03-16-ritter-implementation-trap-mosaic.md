@@ -9,7 +9,7 @@ WORK only; not Record.
 - [Ritter / Hormuz](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>)
 - [Ritter / Marines](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>)
 - [Ritter / stockpiles](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md>)
-- [Johnson / trapped](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-napolitano-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — intercept inventory cross-check
+- [Johnson / trapped](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — intercept inventory cross-check
 
 ## Purpose
 

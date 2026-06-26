@@ -7,9 +7,9 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Crooke × Napolitano — US empire crashing](../../source-archive/statecraft/2026-06-15/source-napolitano-crooke-us-empire-is-crashing-2026-06-15.md)
-- [McGovern × Napolitano — Will Russia escalate?](../../source-archive/statecraft/2026-06-15/source-napolitano-mcgovern-will-russia-escalate-2026-06-15.md)
-- [Sachs × Napolitano — Netanyahu vs Trump](../../source-archive/statecraft/2026-06-15/source-napolitano-sachs-netanyahu-vs-trump-2026-06-15.md)
+- [Crooke × Napolitano — US empire crashing](../../source-archive/statecraft/2026-06-15/source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md)
+- [McGovern × Napolitano — Will Russia escalate?](../../source-archive/statecraft/2026-06-15/source-judging-freedom-mcgovern-will-russia-escalate-2026-06-15.md)
+- [Sachs × Napolitano — Netanyahu vs Trump](../../source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md)
 - [Pape — Uncertain deal / maximum leverage (Substack)](../../source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md)
 
 ## Purpose

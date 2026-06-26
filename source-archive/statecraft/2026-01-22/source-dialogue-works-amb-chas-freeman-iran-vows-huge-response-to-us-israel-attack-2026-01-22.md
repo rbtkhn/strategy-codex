@@ -600,7 +600,7 @@ we were having earlier about Israel and
 so forth. Um there are active
 discussions among Europeans quietly
 about ridding Europe of American bases.
-Now, Mark Ruto appears to have reached
+Now, Mark Rutte appears to have reached
 an agreement with the president that
 more bases could be established in
 Greenland and they would be under US

@@ -34,9 +34,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | — | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=KivkUkCCQ60) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-no-way-out-for-israel-iran-russia-nato-s-worst-fear-2025-11-04.md` |
 | `glenn-diesen` | — | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=JffIjn8HbXE) | `source-glenn-diesen-douglas-macgregor-douglas-macgregor-decline-out-of-control-ukraine-and-venezuela-wars-2025-11-04.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [SWg6IdcsUFg](https://www.youtube.com/watch?v=SWg6IdcsUFg) | `source-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md` |
-| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=WXtjMDaj-gE) | `source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=W-db27pQ2rM') | `source-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [SWg6IdcsUFg](https://www.youtube.com/watch?v=SWg6IdcsUFg) | `source-judging-freedom-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md` |
+| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=WXtjMDaj-gE) | `source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=W-db27pQ2rM') | `source-judging-freedom-sachs-regime-change-in-venezuela-2025-11-04.md` |
 
 ## Writer sources
 
@@ -58,6 +58,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-no-way-out-for-israel-iran-russia-nato-s-worst-fear-2025-11-04.md`
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-decline-out-of-control-ukraine-and-venezuela-wars-2025-11-04.md`
-- `source-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md`
-- `source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md`
-- `source-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md`
+- `source-judging-freedom-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md`
+- `source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md`
+- `source-judging-freedom-sachs-regime-change-in-venezuela-2025-11-04.md`

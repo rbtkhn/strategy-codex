@@ -741,7 +741,7 @@ intelligence community on their staffs.
 We even handpicked from time to time the
 director generals
 just as we handpicked Jan Stolenberg and
-we handpicked his successor Mark Rut.
+we handpicked his successor Mark Rutte.
 Both of whom are brain dead for the
 empire and you know so pursuing the idea
 that NATO is all powerful and all

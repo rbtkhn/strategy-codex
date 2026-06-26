@@ -36,10 +36,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=luKckIs53_w) | `source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md` |
 | `dialogue-works` | Dialogue Works | `escobar`, `nima` | [watch](https://www.youtube.com/watch?v=CyrrA-UkY8o) | `source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=x83HcLWvHI8) | `source-game-theory-27-putin-enters-the-chat-2026-05-21.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=OOaOHDcC1V4) | `source-judging-freedom-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=sSm949RgJGs) | `source-judging-freedom-wilkerson-trump-trapped-in-a-corner-2026-05-21.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=UPvsjgQ73YM) | `source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=OOaOHDcC1V4) | `source-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=sSm949RgJGs) | `source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [Yao4_QgZSsg](https://www.youtube.com/watch?v=Yao4_QgZSsg) | `source-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [Yao4_QgZSsg](https://www.youtube.com/watch?v=Yao4_QgZSsg) | `source-mario-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md` |
 
 ## Writer sources
 
@@ -63,7 +63,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md`
 - `source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md`
 - `source-game-theory-27-putin-enters-the-chat-2026-05-21.md`
+- `source-judging-freedom-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md`
+- `source-judging-freedom-wilkerson-trump-trapped-in-a-corner-2026-05-21.md`
 - `source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md`
-- `source-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md`
-- `source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md`
-- `source-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md`
+- `source-mario-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md`

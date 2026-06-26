@@ -801,7 +801,7 @@ the heads of these companies are saying
 that they're not able to increase
 production unless they given definite
 signed cast iron costed contracts to do
-so. But Mark Rut apparently is saying
+so. But Mark Rutte apparently is saying
 that they should dispense with all of
 that. They should just incre increase
 production. Forget about contracts or

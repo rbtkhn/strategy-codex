@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=5_-J3uyS1Rg) | `source-dialogue-works-martin-armstrong-the-cold-reality-peace-with-russia-will-never-happen-2025-08-21.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=cF-QT8VMeTg) | `source-glenn-diesen-george-beebe-the-end-of-russia-s-exclusion-from-europe-2025-08-21.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=nwfprr7kV54) | `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=5LBUbzpbZsE') | `source-napolitano-sachs-netanyahu-ready-to-invade-2025-08-21.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=5LBUbzpbZsE') | `source-judging-freedom-sachs-netanyahu-ready-to-invade-2025-08-21.md` |
 
 ## Writer sources
 
@@ -58,4 +58,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-martin-armstrong-the-cold-reality-peace-with-russia-will-never-happen-2025-08-21.md`
 - `source-glenn-diesen-george-beebe-the-end-of-russia-s-exclusion-from-europe-2025-08-21.md`
 - `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md`
-- `source-napolitano-sachs-netanyahu-ready-to-invade-2025-08-21.md`
+- `source-judging-freedom-sachs-netanyahu-ready-to-invade-2025-08-21.md`

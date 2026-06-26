@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=dpgWdd1leQc) | `source-alex-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=V0IIiN_Pz2o) | `source-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md` |
-| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=tOPA0ZrK3Xo) | `source-napolitano-macgregor-war-is-coming-soon-2025-11-13.md` |
-| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=eZiezQfSt9Q) | `source-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md` |
+| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=tOPA0ZrK3Xo) | `source-judging-freedom-macgregor-war-is-coming-soon-2025-11-13.md` |
+| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=eZiezQfSt9Q) | `source-judging-freedom-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md` |
 
 ## Writer sources
 
@@ -57,5 +57,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md`
 - `source-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md`
-- `source-napolitano-macgregor-war-is-coming-soon-2025-11-13.md`
-- `source-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md`
+- `source-judging-freedom-macgregor-war-is-coming-soon-2025-11-13.md`
+- `source-judging-freedom-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md`

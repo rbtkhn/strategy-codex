@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [dibo37W3Lhc](https://www.youtube.com/watch?v=dibo37W3Lhc) | `source-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [dibo37W3Lhc](https://www.youtube.com/watch?v=dibo37W3Lhc) | `source-judging-freedom-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md`
+- `source-judging-freedom-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md`

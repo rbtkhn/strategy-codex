@@ -47,7 +47,7 @@ The legacy `codex/speakers/mcgovern/` path is now front-door compatibility only.
 
 - [Diesen x McGovern](../../../codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
 - [Dialogue Works x McGovern](../../../codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
-- [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
+- [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
 
 ## Boundary
 

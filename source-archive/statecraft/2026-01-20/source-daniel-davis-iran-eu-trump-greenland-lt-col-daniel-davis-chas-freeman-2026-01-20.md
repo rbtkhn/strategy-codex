@@ -221,7 +221,7 @@ of things that that he also posted on
 Truth Social just this morning also
 indicate just how how much of a problem
 that we're in in that apparently leaders
-Mark Rut and Manuel Macron sent notes,
+Mark Rutte and Manuel Macron sent notes,
 private text messages to Trump and he
 just posted them on his truth social
 here and you see this one here. This is
@@ -235,7 +235,7 @@ He's talking about what he wants to do.
 Let's have dinner. And and Trump just
 puts that out in the open. Just let
 people know this private message that he
-sent to him. And the one from Mark Rut
+sent to him. And the one from Mark Rutte
 might even be a little bit worse in my
 view for a couple of reasons. doesn't
 reflect well on Mark Root either because
@@ -256,7 +256,7 @@ you're awesome. But let's talk about
 this stuff. I mean, do do you think that
 this is what he's doing? And if he is,
 can it work?
-&gt;&gt; Mark Rut um [clears throat] is on record
+&gt;&gt; Mark Rutte um [clears throat] is on record
 as calling Trump daddy. I mean, it's his
 behavior is totally contemptable.
 he and other Europeans, even Macron, who

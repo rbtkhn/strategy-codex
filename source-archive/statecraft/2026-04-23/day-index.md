@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Judging Freedom (Judge Napolitano) | `macgregor`, `napolitano` | — | `source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md` |
+| Judging Freedom (Judge Napolitano) | `macgregor`, `napolitano` | — | `source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md` |
 
 ## Files
 
@@ -65,7 +65,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md`
 - `source-dialogue-works-andrei-martyanov-iran-just-shot-down-trump-s-blockade-and-israel-s-strategy-is-in-tatters-2026-04-23.md`
 - `source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`
+- `source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md`
 - `source-mercouris-barnes-fractured-iran-trump-2026-04-23.md`
 - `source-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md`
-- `source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md`
 - `source-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md`

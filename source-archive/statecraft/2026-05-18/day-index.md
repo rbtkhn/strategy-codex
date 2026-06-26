@@ -39,11 +39,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [kIlLKqPzY8Y](https://www.youtube.com/watch?v=kIlLKqPzY8Y) | `source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Dx7osj5gCmo) | `source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `parsi` | [watch](https://www.youtube.com/watch?v=7QUx7GjIOBo) | `source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md` |
+| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [tOfZZaWHyHM](https://www.youtube.com/watch?v=tOfZZaWHyHM) | `source-judging-freedom-crooke-israels-war-unraveling-america-2026-05-18.md` |
+| `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [zpX2t1KWNbo](https://www.youtube.com/watch?v=zpX2t1KWNbo) | `source-judging-freedom-johnson-us-getting-ready-for-more-war-2026-05-18.md` |
+| `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [z968wCMjRec](https://www.youtube.com/watch?v=z968wCMjRec) | `source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md` |
+| `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [Y0W2vpjIQoM](https://www.youtube.com/watch?v=Y0W2vpjIQoM) | `source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md` |
 | `reason-resist` | Reason to Resist | `lascaris` | [515Tm5Tmfd0](https://www.youtube.com/watch?v=515Tm5Tmfd0) | `source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md` |
-| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [tOfZZaWHyHM](https://www.youtube.com/watch?v=tOfZZaWHyHM) | `source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md` |
-| `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [zpX2t1KWNbo](https://www.youtube.com/watch?v=zpX2t1KWNbo) | `source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md` |
-| `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [z968wCMjRec](https://www.youtube.com/watch?v=z968wCMjRec) | `source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md` |
-| `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [Y0W2vpjIQoM](https://www.youtube.com/watch?v=Y0W2vpjIQoM) | `source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md` |
 
 ## Writer sources
 
@@ -71,9 +71,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md`
 - `source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md`
 - `source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md`
+- `source-judging-freedom-crooke-israels-war-unraveling-america-2026-05-18.md`
+- `source-judging-freedom-johnson-us-getting-ready-for-more-war-2026-05-18.md`
+- `source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md`
+- `source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md`
 - `source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md`
-- `source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md`
-- `source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md`
-- `source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md`
-- `source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md`
 - `source-pape-june-could-be-the-most-brutal-month-2026-05-18.md`

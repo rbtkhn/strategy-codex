@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aU4Pk9h0cRk) | `source-alex-mercouris-russia-seeks-ukraine-victory-deploys-2-new-armies-gives-up-on-talks-us-opts-to-invest-in-ukraine-2025-05-01.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/GkO0rA7zaYk) | `source-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=V-CEnF0ZV2k) | `source-napolitano-mearsheimer-are-russia-and-china-a-threat-to-the-us-2025-05-01.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/GkO0rA7zaYk) | `source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=V-CEnF0ZV2k) | `source-judging-freedom-mearsheimer-are-russia-and-china-a-threat-to-the-us-2025-05-01.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-russia-seeks-ukraine-victory-deploys-2-new-armies-gives-up-on-talks-us-opts-to-invest-in-ukraine-2025-05-01.md`
-- `source-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md`
-- `source-napolitano-mearsheimer-are-russia-and-china-a-threat-to-the-us-2025-05-01.md`
+- `source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md`
+- `source-judging-freedom-mearsheimer-are-russia-and-china-a-threat-to-the-us-2025-05-01.md`

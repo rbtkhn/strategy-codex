@@ -6,14 +6,14 @@ Purpose: route the November 2025 `Judging Freedom` balanced-core guest set insid
 
 ## Core anchors
 
-- [2025-11-04 Scott Ritter - NATO's Ukraine Strategy Is Collapsing](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
-- [2025-11-04 Chas Freeman - Trump and Xi: Who Won?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
-- [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-10/source-napolitano-freeman-trump-israel-or-america-first-2025-11-10.md)
-- [2025-11-13 Douglas Macgregor - War Is Coming Soon](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-13/source-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
-- [2025-11-17 John Mearsheimer - Israel's Nightmare](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-17/source-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
-- [2025-11-18 Chas Freeman - MI6 and Venezuela: What The Brits Know](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-18/source-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md)
-- [2025-11-24 Larry Johnson - 28-Point Plan Is Dead on Arrival](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-24/source-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md)
-- [2025-11-25 Chas Freeman - Zelensky's Self-Caused Dilemma](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-25/source-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md)
+- [2025-11-04 Scott Ritter - NATO's Ukraine Strategy Is Collapsing](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
+- [2025-11-04 Chas Freeman - Trump and Xi: Who Won?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-judging-freedom-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
+- [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-10/source-judging-freedom-freeman-trump-israel-or-america-first-2025-11-10.md)
+- [2025-11-13 Douglas Macgregor - War Is Coming Soon](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-13/source-judging-freedom-macgregor-war-is-coming-soon-2025-11-13.md)
+- [2025-11-17 John Mearsheimer - Israel's Nightmare](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-17/source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md)
+- [2025-11-18 Chas Freeman - MI6 and Venezuela: What The Brits Know](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-18/source-judging-freedom-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md)
+- [2025-11-24 Larry Johnson - 28-Point Plan Is Dead on Arrival](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-24/source-judging-freedom-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md)
+- [2025-11-25 Chas Freeman - Zelensky's Self-Caused Dilemma](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-25/source-judging-freedom-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md)
 - [2025-11-25 Lawrence Wilkerson - No One Can Trust Netanyahu](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-25/transcript-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-25.md)
 
 ## Boundary

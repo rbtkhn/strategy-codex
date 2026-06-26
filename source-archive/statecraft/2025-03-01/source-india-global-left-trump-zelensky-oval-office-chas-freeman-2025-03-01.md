@@ -41,7 +41,7 @@ verify:
   - claim: Istanbul March 2022 draft framework; Boris Johnson persuaded Zelensky to repudiate and refuse Putin ratification meeting
     verdict: partial
     note: Istanbul communiqué/drafts documented (Reuters/NYT) — Johnson April 9 Kyiv visit urged fight on; Zelensky/Arakhamia deny Johnson blocked a signed deal; Freeman tier-4 causation read
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation. Wire-verify header pass 2026-06-21."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation. News-verify header pass 2026-06-21."
 ---
 # Chas Freeman EXPLAINS Why Trump and Zelensky Argued
 

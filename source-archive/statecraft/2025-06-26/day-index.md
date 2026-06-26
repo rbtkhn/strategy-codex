@@ -48,8 +48,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md` |
+| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-judging-freedom-mearsheimer-why-israel-will-fail-2025-06-26.md` |
 
 ## Files
 
-- `source-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md`
+- `source-judging-freedom-mearsheimer-why-israel-will-fail-2025-06-26.md`

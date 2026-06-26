@@ -252,7 +252,7 @@ demonstrations even though Sweden is a
 new member of NATO. Um uh I think uh
 we're beginning to see the unraveling uh
 but we haven't seen it go its full
-course and I think Mark Rut is not
+course and I think Mark Rutte is not
 faithfully reflecting the emerging
 attitudes of the members of NATO.
 Well, uh the the thinking though in in

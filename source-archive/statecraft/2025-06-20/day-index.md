@@ -51,7 +51,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md` |
+| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-judging-freedom-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md` |
 
 ## Files
 
@@ -59,4 +59,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md`
 - `source-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md`
 - `source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md`
-- `source-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md`
+- `source-judging-freedom-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md`

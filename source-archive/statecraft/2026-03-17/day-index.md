@@ -36,10 +36,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [EV6WOiBj5HA](https://www.youtube.com/watch?v=EV6WOiBj5HA) | `source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=bfZMcqICySg) | `source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=yD13qVxL73I) | `source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [cmRk47ySaps](https://www.youtube.com/watch?v=cmRk47ySaps) | `source-napolitano-freeman-will-china-dump-trump-2026-03-17.md` |
-| `judging-freedom` | Judging Freedom | `napolitano` | [OtAj89I_yjw](https://www.youtube.com/watch?v=OtAj89I_yjw) | `source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md` |
-| `judging-freedom` | Judging Freedom | `napolitano` | [Uwz0eR4THnc](https://www.youtube.com/watch?v=Uwz0eR4THnc) | `source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `ritter` | [-49oaeHDMH4](https://www.youtube.com/watch?v=-49oaeHDMH4) | `source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [cmRk47ySaps](https://www.youtube.com/watch?v=cmRk47ySaps) | `source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md` |
+| `judging-freedom` | Judging Freedom | `napolitano` | [OtAj89I_yjw](https://www.youtube.com/watch?v=OtAj89I_yjw) | `source-judging-freedom-hoh-trump-believes-his-own-propaganda-2026-03-17.md` |
+| `judging-freedom` | Judging Freedom | `napolitano` | [Uwz0eR4THnc](https://www.youtube.com/watch?v=Uwz0eR4THnc) | `source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `ritter` | [-49oaeHDMH4](https://www.youtube.com/watch?v=-49oaeHDMH4) | `source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md` |
 
 ## Writer sources
 
@@ -63,8 +63,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md`
 - `source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md`
 - `source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md`
-- `source-napolitano-freeman-will-china-dump-trump-2026-03-17.md`
-- `source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md`
-- `source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md`
-- `source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md`
+- `source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md`
+- `source-judging-freedom-hoh-trump-believes-his-own-propaganda-2026-03-17.md`
+- `source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md`
+- `source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md`
 - `source-parsi-why-was-larijani-targeted-2026-03-17.md`

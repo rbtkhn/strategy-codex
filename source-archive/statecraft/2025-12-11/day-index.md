@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zjm6xQL1-P4) | `source-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=CtMwRfJok38) | `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md` |
-| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=YE0vke89ZAc) | `source-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md` |
+| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=YE0vke89ZAc) | `source-judging-freedom-macgregor-why-threaten-venezuela-2025-12-11.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md`
 - `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md`
-- `source-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md`
+- `source-judging-freedom-macgregor-why-threaten-venezuela-2025-12-11.md`

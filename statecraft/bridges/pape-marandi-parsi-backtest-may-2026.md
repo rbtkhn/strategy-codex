@@ -32,8 +32,8 @@ High-value backtest anchors:
 - [Parsi - May 01](../../source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
 - [Parsi - May 03](../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
 - [Marandi - May 01](../../source-archive/statecraft/2026-05-01/source-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md)
-- [Parsi - May 28](../../source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
-- [Pape - May 29](../../source-archive/statecraft/2026-05-29/source-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md)
+- [Parsi - May 28](../../source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+- [Pape - May 29](../../source-archive/statecraft/2026-05-29/source-mario-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md)
 - [Marandi - May 29](../../source-archive/statecraft/2026-05-29/source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md)
 
 ## What The Month Confirms

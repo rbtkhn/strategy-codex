@@ -70,5 +70,5 @@ Default tier for headline metrics and dates: **contested / panel-only** until wi
 
 ## Next use
 
-- Wire-verify: Friday directive time, export-control legal hook, Anthropic global disable (primary > panel).
+- News-verify: Friday directive time, export-control legal hook, Anthropic global disable (primary > panel).
 - Optional: one row in `statecraft/synthesis/day/` when June 19 daily exists — link this note + singularity archive path; do not mirror transcript.

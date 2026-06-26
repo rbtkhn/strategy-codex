@@ -83,7 +83,7 @@ Read the ladder in this order when routing:
 
 - [2026-05-18 Diesen x Mearsheimer](../../years/2026/provenance/2026-05-18/source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
 - [2026-04-30 Davis x Mearsheimer](../../years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
-- [2026-04-28 Judging Freedom x Mearsheimer](../../years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [2026-04-28 Judging Freedom x Mearsheimer](../../years/2026/provenance/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
 - [2026-03-29 Authored Mearsheimer](../../years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
 
 ## Raw-Input Coverage

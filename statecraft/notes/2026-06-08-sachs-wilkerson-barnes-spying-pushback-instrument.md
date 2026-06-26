@@ -6,11 +6,11 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Sachs / Napolitano — Is Trump Losing It?](../../source-archive/statecraft/2026-06-08/source-napolitano-sachs-is-trump-losing-it-2026-06-08.md) (`-vbRhB69TEY`) — **narrative / pushback pass**
+- [Sachs / Napolitano — Is Trump Losing It?](../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md) (`-vbRhB69TEY`) — **narrative / pushback pass**
 - [Wilkerson / Diesen — Israel bet everything on war with Iran and lost](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md) (`a2nQnLcTNuo`) — **statutory mesh + consent pass**
-- [Barnes / Nawfal — IRAN LAUNCHES ATTACK ON U.S. BASES](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md) (`bPP1SPCAegU`) — **operational CI pass**
+- [Barnes / Nawfal — IRAN LAUNCHES ATTACK ON U.S. BASES](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md) (`bPP1SPCAegU`) — **operational CI pass**
 
-**Supporting echoes (same week, not triangulated here):** [McGovern / Napolitano](../../source-archive/statecraft/2026-06-08/source-napolitano-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md) (DIA timing leak); [Johnson / Dialogue Works](../../source-archive/statecraft/2026-06-08/source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md) (Colby-side orchestration claim).
+**Supporting echoes (same week, not triangulated here):** [McGovern / Napolitano](../../source-archive/statecraft/2026-06-08/source-judging-freedom-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md) (DIA timing leak); [Johnson / Dialogue Works](../../source-archive/statecraft/2026-06-08/source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md) (Colby-side orchestration claim).
 
 ## Purpose
 
@@ -214,6 +214,6 @@ Extends [Wilkerson × Hoh receipt](statecraft/notes/2026-06-08-wilkerson-hoh-sec
 
 ## Source anchors
 
-- [Sachs 2026-06-08](../../source-archive/statecraft/2026-06-08/source-napolitano-sachs-is-trump-losing-it-2026-06-08.md)
+- [Sachs 2026-06-08](../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md)
 - [Wilkerson 2026-06-08](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md)
-- [Barnes 2026-06-08](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+- [Barnes 2026-06-08](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)

@@ -168,7 +168,7 @@ def classify(meta: dict[str, Any], path: Path, body: str) -> tuple[str, str, str
     if effective == "daniel-davis" and open_role in ("nima-guest", "unknown"):
         return "davis-guest", "; ".join(notes), "source-daniel-davis-alkorshid"
     if effective == "nawfal" and open_role in ("nima-guest", "unknown"):
-        return "nawfal-guest", "; ".join(notes), "source-nawfal-alkorshid"
+        return "nawfal-guest", "; ".join(notes), "source-mario-nawfal-alkorshid"
     if effective == "dialogue-works":
         if solo:
             return "dw-solo", "; ".join(notes), "source-dialogue-works"

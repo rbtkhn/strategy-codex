@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-can-trump-control-netanyahu-2025-10-13.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=ZQSLjWvtHdw') | `source-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-can-trump-control-netanyahu-2025-10-13.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=ZQSLjWvtHdw') | `source-judging-freedom-sachs-who-would-trust-netanyahu-2025-10-13.md` |
 
 ## Writer sources
 
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-amb-chas-freeman-can-trump-control-netanyahu-2025-10-13.md`
-- `source-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md`
+- `source-judging-freedom-amb-chas-freeman-can-trump-control-netanyahu-2025-10-13.md`
+- `source-judging-freedom-sachs-who-would-trust-netanyahu-2025-10-13.md`

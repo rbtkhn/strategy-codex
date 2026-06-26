@@ -83,8 +83,8 @@ Operational-limit and failed-intimidation lane.
 
 Useful for auditability or nearby continuity, but not shelf-defining:
 
-- [2026-06-24 - Judging Freedom x Marandi](../../../source-archive/statecraft/2026-06-24/source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md) — live Tehran; Hormuz control / fee pause; MOU vs Lebanon/Gaza restraint; Switzerland negotiations; Ashura domestic pressure
-- [2026-05-28 - Judging Freedom x Marandi](../../../source-archive/statecraft/2026-05-28/source-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
+- [2026-06-24 - Judging Freedom x Marandi](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md) — live Tehran; Hormuz control / fee pause; MOU vs Lebanon/Gaza restraint; Switzerland negotiations; Ashura domestic pressure
+- [2026-05-28 - Judging Freedom x Marandi](../../../source-archive/statecraft/2026-05-28/source-judging-freedom-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
 - [2026-04-16 - transcript-marandi shorthand](../../../source-archive/statecraft/2026-04-16/source-marandi-2026-04-16.md)
 - [2026-04-17 - transcript-marandi shorthand](../../../source-archive/statecraft/2026-04-18/source-marandi-2026-04-18.md)
 - [2026-04-18 - transcript-marandi shorthand](../../../source-archive/statecraft/2026-04-18/source-marandi-2026-04-18.md)
@@ -96,7 +96,7 @@ Useful for auditability or nearby continuity, but not shelf-defining:
 - **Best strategic-altitude lane:** [Diesen x Marandi](../../../codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
 - **Best operational-limit lane:** [Davis host shelf](../../hosts/davis/README.md)
 - **Best late-May reinforcement and mature-cluster endpoint:** [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
-- **Best support-tier U.S.-audience translation:** [2026-06-24 / Judging Freedom x Marandi](../../../source-archive/statecraft/2026-06-24/source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md) · prior: [2026-05-28](../../../source-archive/statecraft/2026-05-28/source-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
+- **Best support-tier U.S.-audience translation:** [2026-06-24 / Judging Freedom x Marandi](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md) · prior: [2026-05-28](../../../source-archive/statecraft/2026-05-28/source-judging-freedom-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
 
 ## Boundary
 

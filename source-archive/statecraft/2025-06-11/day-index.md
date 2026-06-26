@@ -48,9 +48,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `carlson`, `sachs` | [watch](https://podscripts.co/podcasts/the-tucker-carlson-show/jeffrey-sachs-ukrainerussia-dangerous-new-escalation-the-dark-forces-pushing-for-war-with-iran?show_ads=true) | `source-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md` |
+| Jeffrey Sachs | `carlson`, `sachs` | [watch](https://podscripts.co/podcasts/the-tucker-carlson-show/jeffrey-sachs-ukrainerussia-dangerous-new-escalation-the-dark-forces-pushing-for-war-with-iran?show_ads=true) | `source-tucker-carlson-sachs-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md` |
 
 ## Files
 
 - `source-alex-mercouris-moscow-tough-response-kiev-uk-dirty-war-russia-arms-output-soars-nato-fearful-us-cuts-kiev-aid-2025-06-11.md`
-- `source-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md`
+- `source-tucker-carlson-sachs-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md`

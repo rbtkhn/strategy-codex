@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=OOSWi1usPB4) | `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md` |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=fie-q0V82_E) | `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md` |
-| `tucker-carlson` | Tucker Carlson | `carlson`, `sachs` | — | `source-sachs-carlson-iran-war-origins-2026-04-24.md` |
+| `tucker-carlson` | Tucker Carlson | `carlson`, `sachs` | — | `source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md` |
 
 ## Writer sources
 
@@ -64,7 +64,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`
 - `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`
 - `source-pape-2-blockades-2-clocks-2026-04-24.md`
-- `source-sachs-carlson-iran-war-origins-2026-04-24.md`
+- `source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`
 
 ## Helper Notes
 

@@ -55,15 +55,15 @@ Thin but meaningful late-stage reinforcement. This required source is part of th
 Public-pressure reinforcement. Useful when the notebook needs Barnes in mass-audience electoral, corruption, or Israel-lobby pressure mode rather than a mature host-local lane.
 
 - [2026-05-28 - transcript - Reports: IRAN ATTACKS U.S. SHIPS - w/ Political Analyst Robert Barnes](../../../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
-- [2026-05-31 - transcript - BREAKING: U.S. To Merge Military With Israel?! - w/ Robert Barnes](../../../source-archive/statecraft/2026-05-31/source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md)
+- [2026-05-31 - transcript - BREAKING: U.S. To Merge Military With Israel?! - w/ Robert Barnes](../../../source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md)
 - [2026-06-03 - transcript-bearing capture - Trump informed Iran may have nukes](../../../source-archive/statecraft/2026-06-03/source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md)
-- [2026-06-08 - transcript - BREAKING: IRAN LAUNCHES ATTACK ON U.S. BASES – w/ Political Analyst Robert Barnes](../../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+- [2026-06-08 - transcript - BREAKING: IRAN LAUNCHES ATTACK ON U.S. BASES – w/ Political Analyst Robert Barnes](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
 
 ### Napolitano x Barnes / Judging Freedom
 
 Public-pressure reinforcement. Useful for White House cognition, Vance rug-pull, and domestic-liability framing in a fast-turn legal-commentator register — not yet a mature host-local lane.
 
-- [2026-06-10 - transcript - Robert Barnes: How Trump Makes Decisions](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md)
+- [2026-06-10 - transcript - Robert Barnes: How Trump Makes Decisions](../../../source-archive/statecraft/2026-06-10/source-judging-freedom-barnes-how-trump-makes-decisions-2026-06-10.md)
 
 ## Support-tier Barnes-adjacent captures
 
@@ -88,7 +88,7 @@ Helpful as pressure-cluster residue and exit-ramp signal, but not part of the pr
 - **Best late-May reinforcement:** [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - **Best fast public-pressure entry:** [2026-06-03 / Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-06-03/source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md)
 - **Best latest mature lane:** [2026-06-11 / Davis x Barnes — Shifting Goal Posts](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
-- **Best June public-pressure cluster:** [2026-06-10 / Napolitano x Barnes](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md) + [2026-06-10 / Nima x Barnes](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
+- **Best June public-pressure cluster:** [2026-06-10 / Napolitano x Barnes](../../../source-archive/statecraft/2026-06-10/source-judging-freedom-barnes-how-trump-makes-decisions-2026-06-10.md) + [2026-06-10 / Nima x Barnes](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
 
 ## Boundary
 

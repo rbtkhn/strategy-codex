@@ -16,7 +16,7 @@ Month status: `bridge month`
   - Gives the first strong Hormuz and missile-pressure crisis node.
 - [source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md](../../../../source-archive/statecraft/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
   - Expands the same month into U.S./Europe order consequence.
-- [source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md](../../../../source-archive/statecraft/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md](../../../../source-archive/statecraft/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
   - Legal-command and war-shape compression before the full March run.
 - [source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](../../../../source-archive/statecraft/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
   - Caps the month with full-war framing.

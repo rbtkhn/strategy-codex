@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=OJsrJhA0mTw) | `source-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=0nfBJGatAhM') | `source-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md` |
+| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=OJsrJhA0mTw) | `source-judging-freedom-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=0nfBJGatAhM') | `source-judging-freedom-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md` |
 
 ## Writer sources
 
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md`
-- `source-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md`
+- `source-judging-freedom-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md`
+- `source-judging-freedom-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md`

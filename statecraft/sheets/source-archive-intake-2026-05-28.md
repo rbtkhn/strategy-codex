@@ -46,10 +46,10 @@ This was not just another day of "Iran war bad" material. The intake thickened a
 
 Today the Napolitano lane became the clearest legal-moral indictment surface.
 
-- [Blumenthal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md) framed sabotage, corruption, and anti-dissent pressure
-- [Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md) widened the frame into international-law collapse and domestic blowback
-- [Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md) fused anti-war realism with explicit control / veto language
-- [Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md) remains the Tehran-side trust and sovereignty pressure surface inside the same host family
+- [Blumenthal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md) framed sabotage, corruption, and anti-dissent pressure
+- [Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md) widened the frame into international-law collapse and domestic blowback
+- [Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md) fused anti-war realism with explicit control / veto language
+- [Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md) remains the Tehran-side trust and sovereignty pressure surface inside the same host family
 
 Short reading:
 
@@ -59,8 +59,8 @@ Short reading:
 
 The Mario Nawfal lane became the fastest public-pressure lane of the day.
 
-- [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md) stress-tested deal proximity, Lebanon-for-UAE escalation logic, and U.S. inability to restrain Israel
-- [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md) translated entrapment, influence pressure, and Trump vulnerability into a mass-audience register
+- [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md) stress-tested deal proximity, Lebanon-for-UAE escalation logic, and U.S. inability to restrain Israel
+- [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md) translated entrapment, influence pressure, and Trump vulnerability into a mass-audience register
 - [Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md) reinforced the public corruption / lobby / domestic-liability strand
 
 Short reading:
@@ -89,32 +89,32 @@ These are the most reusable forward-looking claims from the day, not necessarily
    Source: [Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-pape-switzer-the-mirage-of-peace-2026-05-28.md)
 
 2. "If the United States cannot deliver on restraining Israel, then what's the value of a deal with the United States?"  
-   Source: [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+   Source: [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
 
 3. "There will essentially be a Lebanon for UAE formula."  
-   Source: [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+   Source: [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
 
 4. "Trump is stuck in this position where he's got no way out."  
-   Source: [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+   Source: [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 5. "Eventually that's going to go sideways and we're going to lose some people."  
-   Source: [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+   Source: [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 6. "We're just delaying the inevitable."  
-   Source: [Kent / Nawfal late-truce reading](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+   Source: [Kent / Nawfal late-truce reading](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 7. "I don't think we're going back. I don't think we can repair the damage we've done."  
-   Source: [Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+   Source: [Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## Best bounded reading order
 
 If the operator wants the fastest truthful reconstruction of May 28, open in this order:
 
-1. [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
-2. [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
-3. [Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
-4. [Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
-5. [Blumenthal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md)
+1. [Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+2. [Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+3. [Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md)
+4. [Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
+5. [Blumenthal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md)
 
 Why this order:
 

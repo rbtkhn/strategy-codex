@@ -14,7 +14,7 @@ Month status: `mature retrieval month`
   - Continuing operational-reality opening.
 - [2026-05-13 Dialogue Works](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
   - Sharpest live-pressure and resilience articulation.
-- [2026-05-18 Judging Freedom](../../../../source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [2026-05-18 Judging Freedom](../../../../source-archive/statecraft/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md)
   - Legal-command lane remains fully active.
 - [2026-05-10 Cyrus Janssen](../../../../source-archive/statecraft/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
   - Support-tier energy-shock extension.

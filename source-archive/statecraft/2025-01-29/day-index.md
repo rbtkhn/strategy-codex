@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=70i16VsAdGc) | `source-daniel-davis-col-doug-macgregor-what-has-all-our-effort-all-our-money-added-up-to-in-2025-01-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=35WbCScleKE) | `source-daniel-davis-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=tfumWjxYTV8) | `source-daniel-davis-military-executive-orders-lt-col-daniel-davis-2025-01-29.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=Oowabedqnks) | `source-napolitano-macgregor-trump-and-war-2025-01-29.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=Oowabedqnks) | `source-judging-freedom-macgregor-trump-and-war-2025-01-29.md` |
 
 ## Writer sources
 
@@ -60,4 +60,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-col-doug-macgregor-what-has-all-our-effort-all-our-money-added-up-to-in-2025-01-29.md`
 - `source-daniel-davis-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md`
 - `source-daniel-davis-military-executive-orders-lt-col-daniel-davis-2025-01-29.md`
-- `source-napolitano-macgregor-trump-and-war-2025-01-29.md`
+- `source-judging-freedom-macgregor-trump-and-war-2025-01-29.md`

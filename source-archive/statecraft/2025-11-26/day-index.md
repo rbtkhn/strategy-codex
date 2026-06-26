@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `glenn-diesen` | — | `mearsheimer`, `diesen` | [watch](https://www.youtube.com/watch?v=e7hAS_8kThs) | `source-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md` |
 | `glenn-diesen` | — | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=K6yxxQIX-64) | `source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=1IzeBYlOdNU) | `source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=R25gw5f21VE) | `source-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=R25gw5f21VE) | `source-judging-freedom-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md` |
 
 ## Writer sources
 
@@ -60,4 +60,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md`
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md`
 - `source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md`
-- `source-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md`
+- `source-judging-freedom-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md`

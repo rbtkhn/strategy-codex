@@ -12,7 +12,7 @@ Month status: `continuity carryover`
   - Opens the year with Russia deep-structure and strategic-culture warning.
 - [source-ritter-the-sanctions-shield-2026-01-05.md](../../../../source-archive/statecraft/2026-01-05/source-ritter-the-sanctions-shield-2026-01-05.md)
   - Establishes resilience-under-pressure logic that later feeds the Iran run.
-- [source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md](../../../../source-archive/statecraft/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md](../../../../source-archive/statecraft/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
   - First 2026 legal-command and escalation-pressure interview node.
 - [source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md](../../../../source-archive/statecraft/2026-01-13/source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md)
   - Restarts the 2026 Diesen escalation-horizon branch.

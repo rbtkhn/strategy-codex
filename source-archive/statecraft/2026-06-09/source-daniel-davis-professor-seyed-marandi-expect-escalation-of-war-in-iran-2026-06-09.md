@@ -29,7 +29,7 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 24 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Marandi, Tehran, hormones, ethnosremacism, NetA, etc.). Podcast subscribe close stripped at tail. Wire-verify batch 2026-06-08–09 harmonized — developing-story timing: Davis/Marandi aired as Trump Truth Social landed; cause seam moved from under-investigation toward drone-hit (Axios) same day."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 24 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Marandi, Tehran, hormones, ethnosremacism, NetA, etc.). Podcast subscribe close stripped at tail. News-verify batch 2026-06-08–09 harmonized — developing-story timing: Davis/Marandi aired as Trump Truth Social landed; cause seam moved from under-investigation toward drone-hit (Axios) same day."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Professor Seyed Marandi: EXPECT ESCALATION OF WAR IN IRAN

@@ -44,13 +44,13 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 ## 2025-11
 
 - [transcript-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02](../../../source-archive/statecraft/2025-11-02/source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md)
-- [transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04](../../../source-archive/statecraft/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
+- [transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04](../../../source-archive/statecraft/2025-11-04/source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
 - [transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05](../../../source-archive/statecraft/2025-11-05/source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md)
 
 ## 2025-12
 
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01](../../../source-archive/statecraft/2025-12-01/source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md)
-- [transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01](../../../source-archive/statecraft/2025-12-01/source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md)
+- [transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01](../../../source-archive/statecraft/2025-12-01/source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md)
 - [transcript-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03](../../../source-archive/statecraft/2025-12-03/source-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md)
 - [transcript-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06](../../../source-archive/statecraft/2025-12-06/source-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md)
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10](../../../source-archive/statecraft/2025-12-10/source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md)
@@ -64,7 +64,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [substack-ritter-the-battle-of-new-york-2026-01-06](../../../source-archive/statecraft/2026-01-06/source-ritter-the-battle-of-new-york-2026-01-06.md)
 - [substack-ritter-the-camels-bloody-nose-2026-01-09](../../../source-archive/statecraft/2026-01-09/source-ritter-the-camels-bloody-nose-2026-01-09.md)
 - [substack-ritter-the-end-of-a-dream-2026-01-10](../../../source-archive/statecraft/2026-01-10/source-ritter-the-end-of-a-dream-2026-01-10.md)
-- [transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12](../../../source-archive/statecraft/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12](../../../source-archive/statecraft/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
 - [substack-ritter-iranian-resilience-2026-01-12](../../../source-archive/statecraft/2026-01-12/source-ritter-iranian-resilience-2026-01-12.md)
 - [youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13](../../../source-archive/statecraft/2026-01-13/source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md)
 - [substack-ritter-losing-the-republic-2026-01-13](../../../source-archive/statecraft/2026-01-13/source-ritter-losing-the-republic-2026-01-13.md)
@@ -84,7 +84,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/arc-ritter-india-global-left-iran.md) beat 1 (pre-kinetic)
 - [substack-ritter-dead-at-27-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
 - [substack-ritter-the-flamingo-effect-2026-02-22](../../../source-archive/statecraft/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
-- [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23](../../../source-archive/statecraft/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23](../../../source-archive/statecraft/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
 - [youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28](../../../source-archive/statecraft/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
 
 ## 2026-03
@@ -99,11 +99,11 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [youtube-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md)
-- [transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17](../../../source-archive/statecraft/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
+- [transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17](../../../source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
 - [substack-ritter-zionism-human-parasitoid-revisited-2026-03-18](../../../source-archive/statecraft/2026-03-18/source-ritter-zionism-human-parasitoid-revisited-2026-03-18.md)
 - [substack-ritter-chechen-miracle-path-redemption-2026-03-25](../../../source-archive/statecraft/2026-03-25/source-ritter-chechen-miracle-path-redemption-2026-03-25.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31](../../../source-archive/statecraft/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
-- [transcript-napolitano-ritter-why-iran-is-winning-2026-03-31](../../../source-archive/statecraft/2026-03-31/source-napolitano-ritter-why-iran-is-winning-2026-03-31.md)
+- [transcript-napolitano-ritter-why-iran-is-winning-2026-03-31](../../../source-archive/statecraft/2026-03-31/source-judging-freedom-ritter-why-iran-is-winning-2026-03-31.md)
 
 ## 2026-04
 
@@ -135,7 +135,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14](../../../source-archive/statecraft/2026-05-14/source-daniel-davis-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md)
 - [transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
-- [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md)
 - [youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19](../../../source-archive/statecraft/2026-05-19/source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md)
 - [youtube-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md)
 - [transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27](../../../source-archive/statecraft/2026-05-27/source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
@@ -146,7 +146,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [substack-ritter-the-revenge-tour-2026-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md)
 - [substack-ritter-shoot-the-dog-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md)
 - [substack-ritter-a-trail-of-tears-2026-06-19](../../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) — https://scottritter.substack.com/p/a-trail-of-tears — **Substack** · SMO field series **opener** · Starobilsk May 22 (**verify:tier-A**; Rubicon-HQ allegation **contradicted**)
-- [napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23](../../../source-archive/statecraft/2026-06-23/source-napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md) — https://www.youtube.com/watch?v=UICIxIPb9iI — **Judging Freedom** · Russia trip ground truth; Donbas advance; Europe collapse / “then what?”; Storm Shadow Britain attacking; **agreement incapable** MOU read; Israel parasite frame; Hormuz Pentagon 2019 warning; wire sub-hooks **J23-31–J23-41**
+- [napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23](../../../source-archive/statecraft/2026-06-23/source-judging-freedom-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md) — https://www.youtube.com/watch?v=UICIxIPb9iI — **Judging Freedom** · Russia trip ground truth; Donbas advance; Europe collapse / “then what?”; Storm Shadow Britain attacking; **agreement incapable** MOU read; Israel parasite frame; Hormuz Pentagon 2019 warning; wire sub-hooks **J23-31–J23-41**
 
 **Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/arc-ritter-karaganov-doctrine.md) · [Ritter × India Global Left Iran war (Feb 20→Apr 9 2026)](../../notes/arc-ritter-india-global-left-iran.md) · [Ritter × IGL Trump pivot (Feb 22→Mar 28 2025)](../../notes/arc-ritter-trump-pivot.md) · [**2025 vs 2026 IGL register seam**](../../notes/2025-vs-2026-ritter-india-global-left-register-seam.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](../../notes/arc-freeman-india-global-left-iran.md)
 

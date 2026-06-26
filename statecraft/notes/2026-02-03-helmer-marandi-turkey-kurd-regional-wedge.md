@@ -81,7 +81,7 @@ Three registers on **regional mediation fiction** before kinetic opening:
 ## Same-day bench (Feb 3 — not in this weave)
 
 - [Mercouris — Moscow/Zelensky Valdai harder stance](../../source-archive/statecraft/2026-02-03/source-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md)
-- [Napolitano × Sachs — Global Cost of MAGA Politics](../../source-archive/statecraft/2026-02-03/source-napolitano-sachs-the-global-cost-of-maga-politics-2026-02-03.md) — front door only (no body)
+- [Napolitano × Sachs — Global Cost of MAGA Politics](../../source-archive/statecraft/2026-02-03/source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md) — front door only (no body)
 
 ## Cross-day return
 

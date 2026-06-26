@@ -36,7 +36,7 @@ Unlike August and September, October is still thinner on disk, but it now shows 
    Status: transcript-bearing solo `Dialogue Works` October 7 aftermath anchor now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=vSsEGyyzwTM](https://www.youtube.com/watch?v=vSsEGyyzwTM)
 
-4. [2025-10-09 - *COL. Lawrence Wilkerson : US War on Iran Is Imminent!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/source-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md)
+4. [2025-10-09 - *COL. Lawrence Wilkerson : US War on Iran Is Imminent!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/source-judging-freedom-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md)
    Status: transcript-bearing `Judging Freedom` October bridge now materialized from the operator-pasted transcript.
    URL status: direct YouTube watch ID unrecovered in this pass.
 
@@ -56,7 +56,7 @@ Unlike August and September, October is still thinner on disk, but it now shows 
    Status: transcript-bearing solo `Dialogue Works` late-October continuation now materialized from the operator-pasted transcript.
    Date note: some recovery mirrors had a nearby `2025-10-22` publication surface, but the transcript itself self-dates the episode as `Tuesday, October 21st, 2025`, so the on-disk anchor resolves to `2025-10-21`.
 
-9. [2025-10-23 - *COL. Lawrence Wilkerson : What Ceasefire?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/source-napolitano-wilkerson-what-ceasefire-2025-10-23.md)
+9. [2025-10-23 - *COL. Lawrence Wilkerson : What Ceasefire?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/source-judging-freedom-wilkerson-what-ceasefire-2025-10-23.md)
    Status: transcript-bearing `Judging Freedom` late-October continuation now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=kx-3RfjPvMo](https://www.youtube.com/watch?v=kx-3RfjPvMo)
 

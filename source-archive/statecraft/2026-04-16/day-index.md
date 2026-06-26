@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=FAZdq7X98lA) | `source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [9QGnItz7CsU](https://www.youtube.com/watch?v=9QGnItz7CsU) | `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=BwUL5ftAi38) | `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=ih7CYro5gGs) | `source-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=ih7CYro5gGs) | `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md` |
 
 ## Writer sources
 
@@ -64,8 +64,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md`
 - `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md`
 - `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md`
+- `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md`
 - `source-marandi-2026-04-16.md`
 - `source-mercouris-2026-04-16.md`
-- `source-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md`
 - `source-pape-2026-04-16.md`
 - `source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md`

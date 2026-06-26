@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=F3aIyWOQm6A) | `source-napolitano-mearsheimer-israels-nightmare-2025-11-17.md` |
+| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=F3aIyWOQm6A) | `source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md` |
 
 ## Writer sources
 
@@ -48,9 +48,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podbay.fm/p/judging-freedom-audio-only/e/1763413200') | `source-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podbay.fm/p/judging-freedom-audio-only/e/1763413200') | `source-judging-freedom-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md` |
 
 ## Files
 
-- `source-napolitano-mearsheimer-israels-nightmare-2025-11-17.md`
-- `source-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md`
+- `source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md`
+- `source-judging-freedom-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md`

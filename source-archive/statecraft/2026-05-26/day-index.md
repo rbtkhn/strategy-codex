@@ -44,13 +44,13 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=otyUpKhpTYM) | `source-gb-11-dantes-revolution-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=FspDllFoiDE) | `source-gb-12-dante-in-paradise-2026-05-26.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=WJhaFypj9f4) | `source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md` |
+| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [watch](https://www.youtube.com/watch?v=wPvk5SuQ8rw) | `source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=5tmuUtDqh7g) | `source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md` |
+| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [watch](https://www.youtube.com/watch?v=_gFjPdbP5lY) | `source-judging-freedom-hoh-why-the-pentagon-lies-2026-05-26.md` |
+| `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [rqbdQDSFBxw](https://www.youtube.com/watch?v=rqbdQDSFBxw) | `source-judging-freedom-johnson-trump-afraid-of-the-zionists-2026-05-26.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=VS8qkhd-2Cw) | `source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md` |
+| `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [7u8xEdmI_hQ](https://www.youtube.com/watch?v=7u8xEdmI_hQ) | `source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md` |
 | `reason-resist` | Reason to Resist | `lascaris` | [4IBLtJ8jLas](https://www.youtube.com/watch?v=4IBLtJ8jLas) | `source-lascaris-trump-sabotages-peace-talks-gaza-flotilla-2026-05-26.md` |
-| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [watch](https://www.youtube.com/watch?v=wPvk5SuQ8rw) | `source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=5tmuUtDqh7g) | `source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md` |
-| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [watch](https://www.youtube.com/watch?v=_gFjPdbP5lY) | `source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md` |
-| `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [rqbdQDSFBxw](https://www.youtube.com/watch?v=rqbdQDSFBxw) | `source-napolitano-johnson-trump-afraid-of-the-zionists-2026-05-26.md` |
-| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=VS8qkhd-2Cw) | `source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md` |
-| `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [7u8xEdmI_hQ](https://www.youtube.com/watch?v=7u8xEdmI_hQ) | `source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md` |
 
 ## Writer sources
 
@@ -82,10 +82,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-gb-11-dantes-revolution-2026-05-26.md`
 - `source-gb-12-dante-in-paradise-2026-05-26.md`
 - `source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md`
+- `source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md`
+- `source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md`
+- `source-judging-freedom-hoh-why-the-pentagon-lies-2026-05-26.md`
+- `source-judging-freedom-johnson-trump-afraid-of-the-zionists-2026-05-26.md`
+- `source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md`
+- `source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md`
 - `source-lascaris-trump-sabotages-peace-talks-gaza-flotilla-2026-05-26.md`
-- `source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md`
-- `source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md`
-- `source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`
-- `source-napolitano-johnson-trump-afraid-of-the-zionists-2026-05-26.md`
-- `source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md`
-- `source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md`

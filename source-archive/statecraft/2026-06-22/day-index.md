@@ -37,9 +37,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `baud`, `alkorshid`, `nima` | [8f61k163LgQ](https://www.youtube.com/watch?v=8f61k163LgQ) | `source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [vph0eVBwrmU](https://www.youtube.com/watch?v=vph0eVBwrmU) | `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mcgovern` | [Xgcv0PiLJTY](https://www.youtube.com/watch?v=Xgcv0PiLJTY) | `source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md` |
-| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [enmsuDrZdqw](https://www.youtube.com/watch?v=enmsuDrZdqw) | `source-napolitano-crooke-an-irreversible-blow-to-israel-2026-06-22.md` |
-| `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [yEjvpgDoNH8](https://www.youtube.com/watch?v=yEjvpgDoNH8) | `source-napolitano-johnson-why-iran-still-controls-hormuz-2026-06-22.md` |
-| `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [OcCt3MuWS0E](https://www.youtube.com/watch?v=OcCt3MuWS0E) | `source-napolitano-sachs-why-iran-cant-trust-trump-2026-06-22.md` |
+| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [enmsuDrZdqw](https://www.youtube.com/watch?v=enmsuDrZdqw) | `source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md` |
+| `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [yEjvpgDoNH8](https://www.youtube.com/watch?v=yEjvpgDoNH8) | `source-judging-freedom-johnson-why-iran-still-controls-hormuz-2026-06-22.md` |
+| `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [OcCt3MuWS0E](https://www.youtube.com/watch?v=OcCt3MuWS0E) | `source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md` |
 | `neutrality-studies` | Neutrality Studies | `johnson` | [1ThlHZBk5C4](https://www.youtube.com/watch?v=1ThlHZBk5C4) | `source-neutrality-studies-larry-johnson-iran-negotiation-disaster-russia-full-war-mode-2026-06-22.md` |
 
 ## Writer sources
@@ -65,8 +65,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md`
 - `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md`
 - `source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md`
-- `source-napolitano-crooke-an-irreversible-blow-to-israel-2026-06-22.md`
-- `source-napolitano-johnson-why-iran-still-controls-hormuz-2026-06-22.md`
-- `source-napolitano-sachs-why-iran-cant-trust-trump-2026-06-22.md`
+- `source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md`
+- `source-judging-freedom-johnson-why-iran-still-controls-hormuz-2026-06-22.md`
+- `source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md`
 - `source-neutrality-studies-larry-johnson-iran-negotiation-disaster-russia-full-war-mode-2026-06-22.md`
 - `source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md`

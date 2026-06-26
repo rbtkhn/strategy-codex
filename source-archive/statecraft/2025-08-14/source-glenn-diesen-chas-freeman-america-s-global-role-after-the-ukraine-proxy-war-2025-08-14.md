@@ -80,7 +80,7 @@ Zelensky and he clearly did not intend to be put in the position he has been put
 
 He is the main loser from the event because if he agrees to something sensible like the territorial swaps you just outlined, I think he will fall victim to his own ultraist backers. And if he doesn't agree, u President Trump will walk away from him, leaving him even more naked on the battlefield. You're absolutely correct.
 
-We are seeing now um the collapse of the Ukrainian front uh as the Russians advance uh beyond fortified positions uh into Ukraine and uh and reach particularly for all of Donetsk. So um I think this for Mr. Zelensky, this is a disaster. One last point. Um although Europeans have begun to be a little more realistic, we've heard Mark Rut, for example, admit the possibility of territorial exchanges grudgingly.
+We are seeing now um the collapse of the Ukrainian front uh as the Russians advance uh beyond fortified positions uh into Ukraine and uh and reach particularly for all of Donetsk. So um I think this for Mr. Zelensky, this is a disaster. One last point. Um although Europeans have begun to be a little more realistic, we've heard Mark Rutte, for example, admit the possibility of territorial exchanges grudgingly.
 
 Um the fact is that um uh sanctions relief which is another Russian requirement is in the hands of Europeans who show no inclination whatsoever uh to relax the sanctions and explore a more positive relationship with Russia. So the fly in the ointment is not just Zelensky's future but also the question of what how Europe whether Europe will take the initiative to come up with some sort of proposal uh for peace and stability on the subcontinent or whether it will continue to be objecturate in which case it will suffer the
 

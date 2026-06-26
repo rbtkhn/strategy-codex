@@ -28,7 +28,7 @@ source_note: Operator-pasted YouTube transcript; Dialogue Works host self-dates 
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained (Marandi/Miranda/Mendi spellings); not human-verified verbatim against audio. Misfiled Nawfal host corrected to Dialogue Works (Nima Alkhorshid). Wire-verify header pass 2026-06-19.
+editorial_note: Operator-pasted transcript; ASR artifacts retained (Marandi/Miranda/Mendi spellings); not human-verified verbatim against audio. Misfiled Nawfal host corrected to Dialogue Works (Nima Alkhorshid). News-verify header pass 2026-06-19.
 transcript_wrapper_tier: clean
 verify_receipt: 2026-06-19
 verify:

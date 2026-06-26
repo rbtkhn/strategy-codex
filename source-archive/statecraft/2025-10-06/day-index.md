@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=gRwzQdWoVAg) | `source-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=8TwTKPRe2yw') | `source-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=8TwTKPRe2yw') | `source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md` |
 
 ## Writer sources
 
@@ -55,4 +55,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md`
 - `source-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md`
-- `source-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md`
+- `source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md`

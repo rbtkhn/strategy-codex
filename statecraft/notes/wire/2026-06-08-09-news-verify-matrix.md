@@ -1,8 +1,8 @@
 WORK only; not Record.
 
-# Wire-verify matrix — 8–9 Jun 2026 statecraft batch
+# News-verify matrix — 8–9 Jun 2026 statecraft batch
 
-**Batch window:** 7–9 Jun 2026 (developing-story) · **Files:** 25 (14 on 2026-06-08 + 11 on 2026-06-09) · **Procedure:** [wire-verify SKILL](../../.cursor/skills/wire-verify/SKILL.md) triage · **Receipts:** all `source_note` / `capture_note` / `editorial_note` stamped `Wire-verify batch 2026-06-08–09`
+**Batch window:** 7–9 Jun 2026 (developing-story) · **Files:** 25 (14 on 2026-06-08 + 11 on 2026-06-09) · **Procedure:** [wire-verify SKILL](../../.cursor/skills/wire-verify/SKILL.md) triage · **Receipts:** all `source_note` / `capture_note` / `editorial_note` stamped `News-verify batch 2026-06-08–09`
 
 **Parent:** [2026-06-08 intake readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **8 Jun synthesis:** [2026-06-08.md](statecraft/synthesis/day/2026-06-08.md) · **9 Jun synthesis:** [2026-06-09.md](statecraft/synthesis/day/2026-06-09.md)
 

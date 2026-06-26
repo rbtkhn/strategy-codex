@@ -25,7 +25,7 @@ The honest reading is:
 
 ## Materialized on disk
 
-1. [2025-06-05 - *COL. Lawrence Wilkerson : What Did Trump Know of Drone Attacks?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-05/source-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md)
+1. [2025-06-05 - *COL. Lawrence Wilkerson : What Did Trump Know of Drone Attacks?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-05/source-judging-freedom-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized with recovered direct YouTube watch URL.
 
 2. [2025-06-09 - *Israel's Mossad is everywhere and all over Ukraine, Russia has won! - Col. Lawrence Wilkerson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-09/source-going-underground-wilkerson-israels-mossad-is-everywhere-and-all-over-ukraine-russia-has-won-2025-06-09.md)
@@ -35,7 +35,7 @@ The honest reading is:
    Status: full operator-pasted `Dialogue Works` transcript materialized.
    URL recovery status: direct YouTube watch URL now recoverable from secondary evidence.
 
-4. [2025-06-13 - *COL. Lawrence Wilkerson : Foreign Policy in Chaos.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-13/source-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md)
+4. [2025-06-13 - *COL. Lawrence Wilkerson : Foreign Policy in Chaos.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-13/source-judging-freedom-wilkerson-foreign-policy-in-chaos-2025-06-13.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized with recovered direct YouTube watch URL.
 
 5. [2025-06-16 - *Col. Lawrence Wilkerson: From Perpetual Peace to World War*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-16/source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16.md)

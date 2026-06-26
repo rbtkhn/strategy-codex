@@ -34,10 +34,10 @@ So April should no longer be read as a barely represented Mearsheimer month. It 
 
 The currently landed `Judging Freedom / Napolitano + Mearsheimer` April captures are:
 
-- `2025-04-03` - [ukraine-cannot-survive](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-napolitano-mearsheimer-ukraine-cannot-survive-2025-04-03.md)
-- `2025-04-10` - [trump-netanyahu-and-iran](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
-- `2025-04-17` - [china-and-trade](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-napolitano-mearsheimer-china-and-trade-2025-04-17.md)
-- `2025-04-24` - [can-ukraine-and-israel-embrace-peace](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-24/source-napolitano-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
+- `2025-04-03` - [ukraine-cannot-survive](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md)
+- `2025-04-10` - [trump-netanyahu-and-iran](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
+- `2025-04-17` - [china-and-trade](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md)
+- `2025-04-24` - [can-ukraine-and-israel-embrace-peace](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-24/source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
 
 The key change from the opening watchlist is that April no longer depends on one direct Napolitano anchor plus speculative recovery claims. It now has a visible four-item lane across early, mid, and late April.
 

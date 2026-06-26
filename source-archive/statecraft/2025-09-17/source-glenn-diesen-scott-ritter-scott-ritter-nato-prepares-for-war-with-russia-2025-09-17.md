@@ -379,7 +379,7 @@ land on our roof, and Santa Claus will
 come down the uh, chimney and put gifts
 under the tree. And I did this as long
 as the kids were willing to believe it.
-Uh, this is Mark Rut today because any
+Uh, this is Mark Rutte today because any
 notion that NATO is going to intervene
 is like selling the story of Santa
 Claus. It's just it's not real. It's not

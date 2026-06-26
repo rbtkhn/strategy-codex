@@ -50,11 +50,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podcasts.apple.com/nl/podcast/prof-jeffrey-sachs-is-trump-planning-more-wars/id1591962689?i=1000739375806&l=en-GB') | `source-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podcasts.apple.com/nl/podcast/prof-jeffrey-sachs-is-trump-planning-more-wars/id1591962689?i=1000739375806&l=en-GB') | `source-judging-freedom-sachs-is-trump-planning-more-wars-2025-12-02.md` |
 
 ## Files
 
 - `source-alex-mercouris-kiev-s-catastrophe-day-pokrovsk-volchansk-fall-ecb-no-to-eu-s-russian-as-2025-12-02.md`
 - `source-daniel-davis-col-doug-macgregor-nato-sit-down-shut-up-that-s-what-trump-should-be-telling-them-2025-12-02.md`
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-red-alerts-everywhere-the-u-s-just-hit-a-point-of-no-return-2025-12-02.md`
-- `source-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md`
+- `source-judging-freedom-sachs-is-trump-planning-more-wars-2025-12-02.md`

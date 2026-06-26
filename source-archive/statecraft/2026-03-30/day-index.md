@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1L-HI4zDBHs) | `source-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [-e4HBuhGbrE](https://www.youtube.com/watch?v=-e4HBuhGbrE) | `source-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `nima` | [EpnEi-bLyRQ](https://www.youtube.com/watch?v=EpnEi-bLyRQ) | `source-dialogue-works-larry-c-johnson-full-escalation-yemen-joins-hezbollah-crushes-tanks-us-iran-on-brink-2026-03-30.md` |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=BSezLaNm8xY) | `source-napolitano-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md` |
+| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=BSezLaNm8xY) | `source-judging-freedom-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md` |
 
 ## Writer sources
 
@@ -58,4 +58,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md`
 - `source-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md`
 - `source-dialogue-works-larry-c-johnson-full-escalation-yemen-joins-hezbollah-crushes-tanks-us-iran-on-brink-2026-03-30.md`
-- `source-napolitano-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md`
+- `source-judging-freedom-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md`

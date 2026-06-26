@@ -441,7 +441,7 @@ information operations by Russia on UK
 interests have gone up 50% in the last
 year alone this message has been
 underscored by NATO civilian boss uh
-Secretary General Mark Ruta hugely
+Secretary General Mark Rutte hugely
 experienced Dut statesman he said Europe
 and NATO must be ready for conflict with
 Russia on a scale our grandparents and
@@ -787,7 +787,7 @@ on a shorter timeline. It needs to
 survive the next months and the
 Europeans must step up in the delivery
 of weapons and technology and training
-as Mark Rut are are exorting." So his
+as Mark Rutte are are exorting." So his
 claim here is that all we have to do
 now, forget about what happened the last
 four years, all we got to do is just get

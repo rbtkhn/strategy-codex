@@ -967,7 +967,7 @@ you know, into being 2027 or 2029 or
 it's a virtual brigade. It doesn't
 really exist. Um and but this is the
 thing, all of Europe's power potential
-is virtual. You had Mark Rut acknowledge
+is virtual. You had Mark Rutte acknowledge
 that Russia is producing four times the
 amount of artillery ammunition than all
 of NATO combined. And that includes the

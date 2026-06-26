@@ -38,8 +38,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=njK5kxdDNdE) | `source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=1f5IhQk6lX0) | `source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [HuhJinByAEg](https://www.youtube.com/watch?v=HuhJinByAEg) | `source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md` |
-| `mario-nawfal` | Mario Nawfal | `macgregor`, `nawfal` | [watch](https://www.youtube.com/watch?v=di3VvTTJEYo) | `source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md` |
-| `mario-nawfal` | Mario Nawfal | `polyanskiy`, `nawfal` | [watch](https://www.youtube.com/watch?v=R5jhGeaW4DQ) | `source-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md` |
+| `mario-nawfal` | Mario Nawfal | `macgregor`, `nawfal` | [watch](https://www.youtube.com/watch?v=di3VvTTJEYo) | `source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md` |
+| `mario-nawfal` | Mario Nawfal | `polyanskiy`, `nawfal` | [watch](https://www.youtube.com/watch?v=R5jhGeaW4DQ) | `source-mario-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md` |
 
 ## Writer sources
 
@@ -65,6 +65,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md`
 - `source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md`
 - `source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md`
-- `source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md`
-- `source-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md`
+- `source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md`
+- `source-mario-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md`
 - `source-pape-the-new-phase-2026-06-06.md`

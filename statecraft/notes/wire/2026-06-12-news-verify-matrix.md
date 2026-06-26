@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Wire-verify matrix — 12 Jun 2026 statecraft batch
+# News-verify matrix — 12 Jun 2026 statecraft batch
 
 **Batch window:** 12 Jun 2026 (developing-story) · **Files:** 9 · **Procedure:** [wire-verify SKILL](../../.cursor/skills/wire-verify/SKILL.md) triage · **Parent:** [2026-06-12 daily](statecraft/synthesis/day/2026-06-12.md) · [Jun 12 archive README](../../source-archive/statecraft/2026-06-12/README.md)
 

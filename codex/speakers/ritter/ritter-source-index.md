@@ -32,13 +32,13 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2025-11
 
-- [transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04](../../years/2026/provenance/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
+- [transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04](../../years/2026/provenance/2025-11-04/source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
 - [transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05](../../years/2026/provenance/2025-11-05/source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md)
 
 ## 2025-12
 
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01](../../years/2026/provenance/2025-12-01/source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md)
-- [transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01](../../years/2026/provenance/2025-12-01/source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md)
+- [transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01](../../years/2026/provenance/2025-12-01/source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md)
 - [transcript-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03](../../years/2026/provenance/2025-12-03/source-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md)
 - [transcript-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06](../../years/2026/provenance/2025-12-06/source-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md)
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10](../../years/2026/provenance/2025-12-10/source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md)
@@ -52,7 +52,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [substack-ritter-the-battle-of-new-york-2026-01-06](../../years/2026/provenance/2026-01-06/source-ritter-the-battle-of-new-york-2026-01-06.md)
 - [substack-ritter-the-camels-bloody-nose-2026-01-09](../../years/2026/provenance/2026-01-09/source-ritter-the-camels-bloody-nose-2026-01-09.md)
 - [substack-ritter-the-end-of-a-dream-2026-01-10](../../years/2026/provenance/2026-01-10/source-ritter-the-end-of-a-dream-2026-01-10.md)
-- [transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12](../../years/2026/provenance/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12](../../years/2026/provenance/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
 - [substack-ritter-iranian-resilience-2026-01-12](../../years/2026/provenance/2026-01-12/source-ritter-iranian-resilience-2026-01-12.md)
 - [youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13](../../years/2026/provenance/2026-01-13/source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md)
 - [substack-ritter-losing-the-republic-2026-01-13](../../years/2026/provenance/2026-01-13/source-ritter-losing-the-republic-2026-01-13.md)
@@ -71,7 +71,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19](../../years/2026/provenance/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
 - [substack-ritter-dead-at-27-2026-02-20](../../years/2026/provenance/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
 - [substack-ritter-the-flamingo-effect-2026-02-22](../../years/2026/provenance/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
-- [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23](../../years/2026/provenance/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23](../../years/2026/provenance/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
 - [youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28](../../years/2026/provenance/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
 
 ## 2026-03
@@ -85,11 +85,11 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [youtube-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16](../../years/2026/provenance/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16](../../years/2026/provenance/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16](../../years/2026/provenance/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md)
-- [transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17](../../years/2026/provenance/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
+- [transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17](../../years/2026/provenance/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
 - [substack-ritter-zionism-human-parasitoid-revisited-2026-03-18](../../years/2026/provenance/2026-03-18/source-ritter-zionism-human-parasitoid-revisited-2026-03-18.md)
 - [substack-ritter-chechen-miracle-path-redemption-2026-03-25](../../years/2026/provenance/2026-03-25/source-ritter-chechen-miracle-path-redemption-2026-03-25.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31](../../years/2026/provenance/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
-- [transcript-napolitano-ritter-why-iran-is-winning-2026-03-31](../../years/2026/provenance/2026-03-31/source-napolitano-ritter-why-iran-is-winning-2026-03-31.md)
+- [transcript-napolitano-ritter-why-iran-is-winning-2026-03-31](../../years/2026/provenance/2026-03-31/source-judging-freedom-ritter-why-iran-is-winning-2026-03-31.md)
 
 ## 2026-04
 
@@ -124,7 +124,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13](../../years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14](../../years/2026/provenance/2026-05-14/source-daniel-davis-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md)
 - [transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18](../../years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
-- [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18](../../years/2026/provenance/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18](../../years/2026/provenance/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md)
 - [youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19](../../years/2026/provenance/2026-05-19/source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md)
 - [youtube-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20](../../years/2026/provenance/2026-05-20/source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md)
 

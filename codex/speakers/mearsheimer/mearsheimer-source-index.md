@@ -39,7 +39,7 @@ When the question is already clearly `Diesen` or `Davis` shaped, open the host-l
 ## 2025-04
 
 - [youtube-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01](../../years/2026/provenance/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md)
-- [transcript-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10](../../years/2026/provenance/2025-04-10/source-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
+- [transcript-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10](../../years/2026/provenance/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
 
 ## 2025-05
 
@@ -50,17 +50,17 @@ When the question is already clearly `Diesen` or `Davis` shaped, open the host-l
 ## 2025-06
 
 - [transcript-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04](../../years/2026/provenance/2025-06-04/source-daniel-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md)
-- [transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20](../../years/2026/provenance/2025-06-20/source-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md)
+- [transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20](../../years/2026/provenance/2025-06-20/source-judging-freedom-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md)
 - [transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20](../../years/2026/provenance/2025-06-20/source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md)
-- [transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26](../../years/2026/provenance/2025-06-26/source-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md)
+- [transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26](../../years/2026/provenance/2025-06-26/source-judging-freedom-mearsheimer-why-israel-will-fail-2025-06-26.md)
 
 ## 2025-08
 
 - [transcript-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01](../../years/2026/provenance/2025-08-01/source-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md)
-- [transcript-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07](../../years/2026/provenance/2025-08-07/source-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07.md)
+- [transcript-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07](../../years/2026/provenance/2025-08-07/source-judging-freedom-mearsheimer-a-brief-history-of-israel-2025-08-07.md)
 - [transcript-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13](../../years/2026/provenance/2025-08-13/source-daniel-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md)
 - [transcript-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28](../../years/2026/provenance/2025-08-28/source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md)
-- [transcript-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28](../../years/2026/provenance/2025-08-28/source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md)
+- [transcript-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28](../../years/2026/provenance/2025-08-28/source-judging-freedom-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md)
 
 ## 2025-09
 
@@ -75,29 +75,29 @@ When the question is already clearly `Diesen` or `Davis` shaped, open the host-l
 ## 2025-11
 
 - [transcript-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26](../../years/2026/provenance/2025-11-26/source-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md)
-- [transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20](../../years/2026/provenance/2025-11-20/source-napolitano-mearsheimer-ukraine-and-reality-2025-11-20.md)
-- [transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17](../../years/2026/provenance/2025-11-17/source-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
+- [transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20](../../years/2026/provenance/2025-11-20/source-judging-freedom-mearsheimer-ukraine-and-reality-2025-11-20.md)
+- [transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17](../../years/2026/provenance/2025-11-17/source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md)
 - [transcript-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14](../../years/2026/provenance/2025-11-14/source-daniel-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md)
-- [transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13](../../years/2026/provenance/2025-11-13/source-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md)
+- [transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13](../../years/2026/provenance/2025-11-13/source-judging-freedom-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md)
 
 ## 2025-12
 
 - [transcript-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19](../../years/2026/provenance/2025-12-19/source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md)
-- [transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24](../../years/2026/provenance/2025-12-24/source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- [transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24](../../years/2026/provenance/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
 
 ## 2026-01
 
 - [transcript-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07](../../years/2026/provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 - [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14](../../years/2026/provenance/2026-01-14/source-daniel-davis-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md)
 - [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15](../../years/2026/provenance/2026-01-15/source-daniel-davis-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md)
-- [transcript-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15](../../years/2026/provenance/2026-01-15/source-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
+- [transcript-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15](../../years/2026/provenance/2026-01-15/source-judging-freedom-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
 - [substack-mearsheimer-the-tag-team-fails-in-iran-2026-01-20](../../years/2026/provenance/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md)
 - [youtube-daniel-davis-deep-dive-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29](../../years/2026/provenance/2026-01-29/source-daniel-davis-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29.md)
 - [transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31](../../years/2026/provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 
 ## 2026-02
 
-- [transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17](../../years/2026/provenance/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
+- [transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17](../../years/2026/provenance/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
 - [transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25](../../years/2026/provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 
 ## 2026-03
@@ -106,7 +106,7 @@ When the question is already clearly `Diesen` or `Davis` shaped, open the host-l
 - [transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10](../../years/2026/provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
 - [transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27](../../years/2026/provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 - [substack-mearsheimer-will-trump-go-kamikaze-2026-03-29](../../years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
-- [transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31](../../years/2026/provenance/2026-03-31/source-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
+- [transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31](../../years/2026/provenance/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
 
 ## 2026-04
 
@@ -118,7 +118,7 @@ When the question is already clearly `Diesen` or `Davis` shaped, open the host-l
 - [2026-04-25-mearsheimer](../../years/2026/provenance/2026-04-25/2026-04-25-mearsheimer.md)
 - [2026-04-26-mearsheimer](../../years/2026/provenance/2026-04-26/2026-04-26-mearsheimer.md)
 - [2026-04-27-mearsheimer](../../years/2026/provenance/2026-04-27/2026-04-27-mearsheimer.md)
-- [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28](../../years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28](../../years/2026/provenance/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
 - [2026-04-28-mearsheimer](../../years/2026/provenance/2026-04-28/2026-04-28-mearsheimer.md)
 - [transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30](../../years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
 
@@ -131,19 +131,19 @@ When the question is already clearly `Diesen` or `Davis` shaped, open the host-l
 
 ## Reinforcing orbit
 
-- [transcript-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10](../../years/2026/provenance/2025-04-10/source-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
-- [transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20](../../years/2026/provenance/2025-06-20/source-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md)
-- [transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26](../../years/2026/provenance/2025-06-26/source-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md)
-- [transcript-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07](../../years/2026/provenance/2025-08-07/source-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07.md)
-- [transcript-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28](../../years/2026/provenance/2025-08-28/source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md)
-- [transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20](../../years/2026/provenance/2025-11-20/source-napolitano-mearsheimer-ukraine-and-reality-2025-11-20.md)
-- [transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17](../../years/2026/provenance/2025-11-17/source-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
-- [transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13](../../years/2026/provenance/2025-11-13/source-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md)
-- [transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24](../../years/2026/provenance/2025-12-24/source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
-- [transcript-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15](../../years/2026/provenance/2026-01-15/source-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
-- [transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17](../../years/2026/provenance/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
-- [transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31](../../years/2026/provenance/2026-03-31/source-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
-- [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28](../../years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [transcript-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10](../../years/2026/provenance/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
+- [transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20](../../years/2026/provenance/2025-06-20/source-judging-freedom-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md)
+- [transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26](../../years/2026/provenance/2025-06-26/source-judging-freedom-mearsheimer-why-israel-will-fail-2025-06-26.md)
+- [transcript-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07](../../years/2026/provenance/2025-08-07/source-judging-freedom-mearsheimer-a-brief-history-of-israel-2025-08-07.md)
+- [transcript-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28](../../years/2026/provenance/2025-08-28/source-judging-freedom-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md)
+- [transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20](../../years/2026/provenance/2025-11-20/source-judging-freedom-mearsheimer-ukraine-and-reality-2025-11-20.md)
+- [transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17](../../years/2026/provenance/2025-11-17/source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md)
+- [transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13](../../years/2026/provenance/2025-11-13/source-judging-freedom-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md)
+- [transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24](../../years/2026/provenance/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- [transcript-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15](../../years/2026/provenance/2026-01-15/source-judging-freedom-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
+- [transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17](../../years/2026/provenance/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
+- [transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31](../../years/2026/provenance/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
+- [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28](../../years/2026/provenance/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
 
 ## Non-core appearance bench
 

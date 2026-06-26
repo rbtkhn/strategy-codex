@@ -39,7 +39,7 @@ December is therefore not just denser than November; it is also cleaner, because
 5. [2025-12-16 - *Col. Larry Wilkerson: The Alarms Are Blazing Red - The U.S. Is Heading Straight Into This*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-16/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md)
    Status: transcript-grade solo `Dialogue Works` continuation already materialized.
 
-6. [2025-12-18 - *COL. Lawrence Wilkerson : A Disaster to Invade Venezuela.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-napolitano-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
+6. [2025-12-18 - *COL. Lawrence Wilkerson : A Disaster to Invade Venezuela.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
    Status: transcript-grade `Judging Freedom` bridge now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=tmUHlOmTu2A](https://www.youtube.com/watch?v=tmUHlOmTu2A)
 

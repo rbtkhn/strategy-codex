@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/m8-NRj7MLgk) | `source-daniel-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10.md` |
 | `glenn-diesen` | — | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=OsjQZHUvg-M) | `source-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=MM7sOk8lwZA) | `source-glenn-diesen-scott-ritter-scott-ritter-dangerous-endgame-in-ukraine-collapse-or-escalation-2025-06-10.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-israel-destroying-itself-2025-06-10.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-israel-destroying-itself-2025-06-10.md` |
 
 ## Writer sources
 
@@ -60,4 +60,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10.md`
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10.md`
 - `source-glenn-diesen-scott-ritter-scott-ritter-dangerous-endgame-in-ukraine-collapse-or-escalation-2025-06-10.md`
-- `source-napolitano-amb-charles-freeman-israel-destroying-itself-2025-06-10.md`
+- `source-judging-freedom-amb-charles-freeman-israel-destroying-itself-2025-06-10.md`

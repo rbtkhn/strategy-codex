@@ -140,7 +140,7 @@ This statecraft note sharpens the parent note's tertiary Russia lane and `Mechan
 
 ## Source Anchors
 
-- [Polyanskiy / Mario Nawfal - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md>)
+- [Polyanskiy / Mario Nawfal - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-mario-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md>)
 - [Mercouris / The Duran - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md>)
 - [Mercouris / Alexander Mercouris - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>)
 

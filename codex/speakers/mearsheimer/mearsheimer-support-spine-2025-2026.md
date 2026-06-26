@@ -100,7 +100,7 @@ Status: continuity carryover
 Open:
 
 - [source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
-- [source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
+- [source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
 
 Why:
 
@@ -123,7 +123,7 @@ Best raw-input cluster:
 - [2026-03-10 Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
 - [2026-03-27 Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 - [2026-03-29 authored Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
-- [2026-03-31 Napolitano x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
+- [2026-03-31 Napolitano x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
 
 Why still no native month file:
 
@@ -137,7 +137,7 @@ Status: mature retrieval month, host-led
 Open:
 
 - [source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
-- [source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
 - [source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
 - [source-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)
 - [source-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md)

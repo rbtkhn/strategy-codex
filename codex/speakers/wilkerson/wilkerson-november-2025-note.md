@@ -35,7 +35,7 @@ November is still smaller than October or December, but it is no longer structur
    Status: transcript-grade Johnson/Wilkerson `Dialogue Works` crossover already materialized.
    URL: [https://www.youtube.com/watch?v=Z1dwapyc82Y](https://www.youtube.com/watch?v=Z1dwapyc82Y)
 
-4. [2025-11-26 - *COL. Lawrence Wilkerson : No One Can Trust Netanyahu.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/source-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md)
+4. [2025-11-26 - *COL. Lawrence Wilkerson : No One Can Trust Netanyahu.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/source-judging-freedom-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md)
    Status: transcript-grade `Judging Freedom` bridge now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=R25gw5f21VE](https://www.youtube.com/watch?v=R25gw5f21VE)
    Date note: transcript self-dates the episode as `Wednesday, November 26th, 2025`, so the old `2025-11-25` summary anchor was corrected and moved.

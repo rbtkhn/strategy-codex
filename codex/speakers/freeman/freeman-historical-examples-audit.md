@@ -257,7 +257,7 @@ Legacy provenance note:
 ### 6. Vietnam and Afghanistan as repeated proof that bombing is not political success
 
 - Example: `Vietnam / Afghanistan`
-- Source: [2026-04-21 Judging Freedom](../../years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
+- Source: [2026-04-21 Judging Freedom](../../years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md)
 - Exact quote:
 
 > "We should have learned from Vietnam, from Afghanistan, from other experiences that is not the case."

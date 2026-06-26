@@ -112,7 +112,7 @@ def test_normalize_text_sets_receipt_fields():
         "Professor Sachs, good day to you, my friend. Why is Israel at war?"
     )
     text = _wrap_capture("Jeffrey Sachs", body)
-    path = Path("source-archive/statecraft/2026-05-29/source-napolitano-sachs-test-2026-05-29.md")
+    path = Path("source-archive/statecraft/2026-05-29/source-judging-freedom-sachs-test-2026-05-29.md")
     changed, new_text, file_change = normalize_text(path, text)
     assert changed
     assert file_change is not None

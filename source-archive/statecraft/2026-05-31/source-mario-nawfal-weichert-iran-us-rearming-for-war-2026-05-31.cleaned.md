@@ -6,7 +6,7 @@ source_type: youtube
 transcript_type: machine_assisted_caption_cleanup
 title: IRAN & U.S. REARMING FOR WAR - w/ Geopolitics Expert Brandon Weichert
 source_url: https://www.youtube.com/watch?v=3gG-bMVOgYg
-source_raw_input: source-archive/statecraft/2026-05-31/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md
+source_raw_input: source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md
 cleanup_score: 92
 cleanup_grade: cleaned-transcript-80
 cleanup_receipt: artifacts/transcript-cleanup/20260616T143837Z/details/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleanup.json

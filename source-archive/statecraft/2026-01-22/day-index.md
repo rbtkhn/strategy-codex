@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=gKq8NfSV8gw) | `source-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=AtJJohRHHV0) | `source-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md` |
-| `judging-freedom` | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=p34m7DvSudw) | `source-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md` |
+| `judging-freedom` | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=p34m7DvSudw) | `source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md` |
 | `neutrality-studies` | Neutrality Studies | `jermy` | [D8PgiPZzrsM](https://www.youtube.com/watch?v=D8PgiPZzrsM) | `source-neutrality-studies-crisis-western-decision-making-steve-jermy-2026-01-22.md` |
 
 ## Writer sources
@@ -57,6 +57,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md`
 - `source-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md`
+- `source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md`
 - `source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md`
-- `source-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md`
 - `source-neutrality-studies-crisis-western-decision-making-steve-jermy-2026-01-22.md`

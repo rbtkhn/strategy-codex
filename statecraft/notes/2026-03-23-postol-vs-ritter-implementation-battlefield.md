@@ -9,7 +9,7 @@ WORK only; not Record.
 - [Postol / Dialogue Works — air defense collapse](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md>) — March 23
 - [Ritter / Hormuz gauntlet](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>) — March 16
 - [Ritter / Marines graveyard](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>) — March 16
-- [Johnson / intercept inventory](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-napolitano-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — March 16 cross-check
+- [Johnson / intercept inventory](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — March 16 cross-check
 
 ## Purpose
 

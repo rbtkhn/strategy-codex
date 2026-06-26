@@ -2016,7 +2016,7 @@ elections. Um Macron is a dead man
 
 walking. Starmer's a dead man walking. I
 
-think Mark Rut has sold his soul to NATO
+think Mark Rutte has sold his soul to NATO
 
 and when NATO goes his soul will go with
 

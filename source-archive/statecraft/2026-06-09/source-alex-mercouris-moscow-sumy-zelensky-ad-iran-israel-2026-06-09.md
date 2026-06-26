@@ -25,7 +25,7 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Zelensky, Sunumi, Hikov, Karakov, oresnik, Pinian, etc.). Duran subscribe/shop close stripped at tail. Wire-verify batch 2026-06-08–09 harmonized — developing-story Iran–Israel pause vs Lebanon; Patriot inventory + UK SSN readiness second pass included. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Zelensky, Sunumi, Hikov, Karakov, oresnik, Pinian, etc.). Duran subscribe/shop close stripped at tail. News-verify batch 2026-06-08–09 harmonized — developing-story Iran–Israel pause vs Lebanon; Patriot inventory + UK SSN readiness second pass included. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 mercouris_close_promo_trim_applied: true
 ---

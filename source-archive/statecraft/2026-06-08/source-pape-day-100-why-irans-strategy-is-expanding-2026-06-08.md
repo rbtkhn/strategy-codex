@@ -20,7 +20,7 @@ subtitle: "Escalation Trap This Week: Staying Ahead of the Risks that Matter."
 access: paid
 capture_note: Operator paste; paid Substack briefing body preserved verbatim. Day-100 frame; three watch indicators. verify:wire-supported first Iran missiles Israel since April after Beirut red line 7–8 Jun (AJ/BBC); Rezaei $24B + wider-war expansion interview CNN 5 Jun; IEA inventory draws Mar 129mb Apr 117mb + 500mb industry-stock deficit path (IEA May OM R); Kuwait/Bahrain airport disruption cited in-body (AP relay); verify:wire-partial 16mb weekly US crude+SPR draw week ending 29 May — directional EIA-class not re-pulled this pass; 500mb/900mb figures match IEA not verbatim Pape rounding; verify:wire-out-of-scope Pape survival-to-ambition framework three watch indicators escalation-trap doctrine.
 evidence_grade: substack-bearing
-editorial_note: Operator-pasted paid-tier body; not independently verified against live Substack HTML. Wire-verify batch 2026-06-08–09.
+editorial_note: Operator-pasted paid-tier body; not independently verified against live Substack HTML. News-verify batch 2026-06-08–09.
 ---
 
 # Day 100: Why Iran's Strategy Is Expanding – and the Ceasefire is Breaking Down

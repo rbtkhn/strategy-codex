@@ -2019,7 +2019,7 @@ I've had that those we've been recent
 
 shows shown some recent comments by uh
 
-Mark Ruta the Secretary General for NATO
+Mark Rutte the Secretary General for NATO
 
 of kajak Callis the foreign minister for
 

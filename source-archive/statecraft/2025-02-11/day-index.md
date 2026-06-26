@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-is-trump-afraid-of-netanyahu-2025-02-11.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/jCAQkysP2Os) | `source-napolitano-macgregor-fall-of-the-american-empire-2025-02-11.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-is-trump-afraid-of-netanyahu-2025-02-11.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/jCAQkysP2Os) | `source-judging-freedom-macgregor-fall-of-the-american-empire-2025-02-11.md` |
 
 ## Writer sources
 
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-amb-chas-freeman-is-trump-afraid-of-netanyahu-2025-02-11.md`
-- `source-napolitano-macgregor-fall-of-the-american-empire-2025-02-11.md`
+- `source-judging-freedom-amb-chas-freeman-is-trump-afraid-of-netanyahu-2025-02-11.md`
+- `source-judging-freedom-macgregor-fall-of-the-american-empire-2025-02-11.md`

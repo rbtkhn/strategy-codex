@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9-p8I4p07uE) | `source-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md` |
 | `dialogue-works` | — | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=HgTMbRrchsM) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=n05ufH9BHjw) | `source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=n05ufH9BHjw) | `source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md`
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md`
-- `source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md`
+- `source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md`

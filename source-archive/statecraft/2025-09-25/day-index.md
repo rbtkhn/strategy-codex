@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | — | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=k1FkIZaAhHE) | `source-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=PzUSkCIiBCs') | `source-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=PzUSkCIiBCs') | `source-judging-freedom-sachs-al-qaeda-at-the-un-2025-09-25.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md`
-- `source-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md`
+- `source-judging-freedom-sachs-al-qaeda-at-the-un-2025-09-25.md`

@@ -14,7 +14,7 @@ Month status: `mature dense-core month`
   - Establishes the first full Davis operational-feasibility node.
 - [2026-03-11 Diesen](../../../../source-archive/statecraft/2026-03-11/source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md)
   - Opens the off-ramp and escalation-horizon widening.
-- [2026-03-17 Judging Freedom](../../../../source-archive/statecraft/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
+- [2026-03-17 Judging Freedom](../../../../source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
   - Legal-command seam becomes explicit.
 - [2026-03-31 Davis](../../../../source-archive/statecraft/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
   - End-of-month operational summary.

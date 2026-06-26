@@ -42,7 +42,7 @@ WORK only; not Record.
 ## Best proving anchors
 
 1. [macgregor-helix.md](../../speakers/macgregor/macgregor-helix.md)
-2. [2026-02-10 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+2. [2026-02-10 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
 3. [2026-04-21 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 ## Disconfirming or stress-test anchors

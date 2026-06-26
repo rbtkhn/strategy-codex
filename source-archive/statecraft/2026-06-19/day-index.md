@@ -38,11 +38,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi`, `johnson` | [z_O55bdqHFA](https://www.youtube.com/watch?v=z_O55bdqHFA) | `source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md` |
 | `glenn-diesen` | Glenn Diesen | `crooke`, `diesen` | [GkiCgI8QwiM](https://www.youtube.com/watch?v=GkiCgI8QwiM) | `source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md` |
 | `glenn-diesen` | Glenn Diesen | `krainer`, `diesen` | [TXjSfNZ2xCI](https://www.youtube.com/watch?v=TXjSfNZ2xCI) | `source-glenn-diesen-alex-krainer-decline-of-the-west-war-against-russia-2026-06-19.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [A1ic3tpmRtk](https://www.youtube.com/watch?v=A1ic3tpmRtk) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md` |
-| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [YNME3CUvYpk](https://www.youtube.com/watch?v=YNME3CUvYpk) | `source-napolitano-mearsheimer-israel-undermining-us-iran-deal-2026-06-19.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [ij5Gbq3BKvI](https://www.youtube.com/watch?v=ij5Gbq3BKvI) | `source-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md` |
-| `mario-nawfal` | Mario Nawfal | `blumenthal`, `nawfal` | [gXhVdK7l-9A](https://www.youtube.com/watch?v=gXhVdK7l-9A) | `source-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [RsbsRQn1umk](https://www.youtube.com/watch?v=RsbsRQn1umk) | `source-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [A1ic3tpmRtk](https://www.youtube.com/watch?v=A1ic3tpmRtk) | `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [YNME3CUvYpk](https://www.youtube.com/watch?v=YNME3CUvYpk) | `source-judging-freedom-mearsheimer-israel-undermining-us-iran-deal-2026-06-19.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [ij5Gbq3BKvI](https://www.youtube.com/watch?v=ij5Gbq3BKvI) | `source-mario-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md` |
+| `mario-nawfal` | Mario Nawfal | `blumenthal`, `nawfal` | [gXhVdK7l-9A](https://www.youtube.com/watch?v=gXhVdK7l-9A) | `source-mario-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [RsbsRQn1umk](https://www.youtube.com/watch?v=RsbsRQn1umk) | `source-mario-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md` |
 
 ## Writer sources
 
@@ -68,9 +68,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md`
 - `source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md`
 - `source-glenn-diesen-alex-krainer-decline-of-the-west-war-against-russia-2026-06-19.md`
-- `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md`
-- `source-napolitano-mearsheimer-israel-undermining-us-iran-deal-2026-06-19.md`
-- `source-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md`
-- `source-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md`
-- `source-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md`
+- `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md`
+- `source-judging-freedom-mearsheimer-israel-undermining-us-iran-deal-2026-06-19.md`
+- `source-mario-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md`
+- `source-mario-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md`
+- `source-mario-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md`
 - `source-ritter-a-trail-of-tears-2026-06-19.md`

@@ -162,7 +162,10 @@ def dump_frontmatter(data: dict[str, Any]) -> str:
 
 def is_napolitano_capture(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
-    if not name.startswith("source-napolitano-"):
+    channel = str(meta.get("channel_slug") or "").strip().lower()
+    if channel in ("judging-freedom", "napolitano", "judge-napolitano-judging-freedom"):
+        return True
+    if not name.startswith("source-judging-freedom-"):
         return False
     show = str(meta.get("show") or meta.get("show_title") or "").strip().lower()
     if show and "judging freedom" not in show:
@@ -587,7 +590,7 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
     if explicit:
         return sorted({p.resolve() for p in explicit})
     paths: list[Path] = []
-    for path in root.rglob("source-napolitano-*.md"):
+    for path in root.rglob("source-judging-freedom-*.md"):
         if ".cleaned." in path.name:
             continue
         try:

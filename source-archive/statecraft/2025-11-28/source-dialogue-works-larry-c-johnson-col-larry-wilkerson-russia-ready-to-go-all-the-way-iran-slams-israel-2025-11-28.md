@@ -123,7 +123,7 @@ He did an interview debate with General Ben Hodes. And so I'm I got to go get a 
 
 military situation and on the on the rats leaving this sinking ship uh front. We then just got the news today that Andre Yermach the, you know, the the Rasputin behind Zelensky, you know, his his former uh, you know, business manager, film producer, you know, the now his number one security guy, chief of staff, he's gone.
 
->> Yeah. Now, now the fact that he w got to walk out on, you know, upright, wasn't going out feet first, that tells me that he's going to start singing because I bet you he's got some receipts about Western politicians, maybe Boris Johnson, for example, Kayakalis, for example, uh Mark Ruth, that have taken money that have financially benefited by supporting this war in Ukraine.
+>> Yeah. Now, now the fact that he w got to walk out on, you know, upright, wasn't going out feet first, that tells me that he's going to start singing because I bet you he's got some receipts about Western politicians, maybe Boris Johnson, for example, Kayakalis, for example, uh Mark Rutte, that have taken money that have financially benefited by supporting this war in Ukraine.
 
 Okay? He's not going out alone. He's not going to be the fall guy. I guarantee you that. Unless, and the only way you prevent him from being a fall guy is you kill him. So, we'll see if he survives this week. If he if he survives, if he's still alive by, you know, next week, then, you know, I think you can recognize that Zelensky's Zelensky's time is not long either.
 

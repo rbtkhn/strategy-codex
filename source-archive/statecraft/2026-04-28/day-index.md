@@ -36,8 +36,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `wilkerson` | [786X0CXFctA](https://www.youtube.com/watch?v=786X0CXFctA) | `source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md` |
 | `dialogue-works` | — | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=HfIxqx3QAVE) | `source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=h19ssmpSIEE) | `source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md` |
-| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=7hRlKqCWRl8) | `source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md` |
-| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=VHXJxEU7Ses) | `source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md` |
+| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=7hRlKqCWRl8) | `source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md` |
+| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=VHXJxEU7Ses) | `source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md` |
 
 ## Writer sources
 
@@ -61,6 +61,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md`
 - `source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`
 - `source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md`
+- `source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md`
+- `source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md`
 - `source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`
-- `source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md`
-- `source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md`

@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9KA_hbYSQ38) | `source-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [qJRF7sd1Yvs](https://www.youtube.com/watch?v=qJRF7sd1Yvs) | `source-daniel-davis-joe-kent-the-truth-of-the-iran-war-2026-03-26.md` |
-| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=m_hL84kCcgA) | `source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md` |
-| `judging-freedom` | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=aq32fmNwp9A) | `source-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md` |
+| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=m_hL84kCcgA) | `source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md` |
+| `judging-freedom` | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=aq32fmNwp9A) | `source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md` |
 
 ## Writer sources
 
@@ -59,6 +59,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md`
 - `source-crooke-are-there-or-will-there-be-us-negotiations-2026-03-26.md`
 - `source-daniel-davis-joe-kent-the-truth-of-the-iran-war-2026-03-26.md`
-- `source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md`
-- `source-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md`
+- `source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md`
+- `source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md`
 - `source-simplicius-russian-smo-enters-doldrums-under-2026-03-26.md`

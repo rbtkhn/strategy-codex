@@ -38,18 +38,18 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 
 ## Open first
 
-- [2026-04-28 Chas Freeman - What Russia Can Do For Iran](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md)
-- [2026-04-21 Chas Freeman - US Diplomacy Is Dead](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
-- [2026-04-14 Chas Freeman - Israel's Strategy Collapsing](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md)
-- [2026-03-03 Chas Freeman - What Makes a War Just?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-03/source-napolitano-freeman-what-makes-a-war-just-2026-03-03.md)
-- [2026-02-24 Chas Freeman - Israel Pushes US into Another Endless War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
-- [2026-01-06 Chas Freeman - China and Russia view Trump as a Kidnapper](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-06/source-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
-- [2025-12-16 Chas Freeman - Trump and US Hegemony](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-16/source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
-- [2025-12-09 Chas Freeman - Does Anyone Want Peace?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-09/source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
-- [2025-11-25 Chas Freeman - Zelensky's Self-Caused Dilemma](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-25/source-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md)
-- [2025-11-18 Chas Freeman - MI6 and Venezuela: What The Brits Know](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-18/source-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md)
-- [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-10/source-napolitano-freeman-trump-israel-or-america-first-2025-11-10.md)
-- [2025-11-04 Chas Freeman - Trump and Xi: Who Won?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
+- [2026-04-28 Chas Freeman - What Russia Can Do For Iran](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md)
+- [2026-04-21 Chas Freeman - US Diplomacy Is Dead](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md)
+- [2026-04-14 Chas Freeman - Israel's Strategy Collapsing](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-14/source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md)
+- [2026-03-03 Chas Freeman - What Makes a War Just?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-03/source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md)
+- [2026-02-24 Chas Freeman - Israel Pushes US into Another Endless War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
+- [2026-01-06 Chas Freeman - China and Russia view Trump as a Kidnapper](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-06/source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
+- [2025-12-16 Chas Freeman - Trump and US Hegemony](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-16/source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md)
+- [2025-12-09 Chas Freeman - Does Anyone Want Peace?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md)
+- [2025-11-25 Chas Freeman - Zelensky's Self-Caused Dilemma](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-25/source-judging-freedom-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md)
+- [2025-11-18 Chas Freeman - MI6 and Venezuela: What The Brits Know](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-18/source-judging-freedom-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md)
+- [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-10/source-judging-freedom-freeman-trump-israel-or-america-first-2025-11-10.md)
+- [2025-11-04 Chas Freeman - Trump and Xi: Who Won?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-judging-freedom-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
 
 ## Orthogonality guide
 

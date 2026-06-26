@@ -48,9 +48,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch](https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-can-the-kremlin-trust-trump) | `source-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch](https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-can-the-kremlin-trust-trump) | `source-judging-freedom-sachs-can-the-kremlin-trust-trump-2025-05-07.md` |
 
 ## Files
 
 - `source-alex-mercouris-india-pakistan-conflict-russia-s-kherson-bridgehead-kiev-drones-aim-to-disrupt-9-may-2025-05-07.md`
-- `source-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md`
+- `source-judging-freedom-sachs-can-the-kremlin-trust-trump-2025-05-07.md`

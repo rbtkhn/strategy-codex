@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nXVR821uPJw) | `source-alex-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [dnwkC2sIMQA](https://www.youtube.com/watch?v=dnwkC2sIMQA) | `source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=xj8ocoG-nDw) | `source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md` |
-| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) | `source-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md` |
+| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) | `source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md` |
 
 ## Writer sources
 
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md`
 - `source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md`
 - `source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md`
-- `source-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md`
+- `source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md`
 - `source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md`
 - `source-parsi-netanyahu-defies-trump-and-strikes-back-at-iran-2026-06-07.md`
 - `source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md`

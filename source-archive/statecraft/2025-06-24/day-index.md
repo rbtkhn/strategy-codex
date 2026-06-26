@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=I2y8UaYyacY) | `source-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-why-presidents-love-war-2025-06-24.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-why-presidents-love-war-2025-06-24.md` |
 
 ## Writer sources
 
@@ -49,10 +49,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch](https://podscripts.co/podcasts/judging-freedom/special-prof-jeffrey-sachs-is-the-us-subordinated-to-israel) | `source-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch](https://podscripts.co/podcasts/judging-freedom/special-prof-jeffrey-sachs-is-the-us-subordinated-to-israel) | `source-judging-freedom-sachs-is-the-us-subordinated-to-israel-2025-06-24.md` |
 
 ## Files
 
 - `source-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md`
-- `source-napolitano-amb-charles-freeman-why-presidents-love-war-2025-06-24.md`
-- `source-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md`
+- `source-judging-freedom-amb-charles-freeman-why-presidents-love-war-2025-06-24.md`
+- `source-judging-freedom-sachs-is-the-us-subordinated-to-israel-2025-06-24.md`

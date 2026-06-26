@@ -38,7 +38,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [enmrP08J_Fo](https://www.youtube.com/watch?v=enmrP08J_Fo) | `source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md` |
 | `dialogue-works` | Dialogue Works | `hoh`, `alkorshid`, `nima` | [YgI1FnQSZj0](https://www.youtube.com/watch?v=YgI1FnQSZj0) | `source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md` |
 | `dialogue-works` | Dialogue Works | `escobar`, `alkorshid`, `nima` | [bhlKeCbwWOo](https://www.youtube.com/watch?v=bhlKeCbwWOo) | `source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [qlnq3I7QVr4](https://www.youtube.com/watch?v=qlnq3I7QVr4) | `source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [qlnq3I7QVr4](https://www.youtube.com/watch?v=qlnq3I7QVr4) | `source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md` |
 | `breaking-points` | Breaking Points | `pape` | [s88aryNUMhE](https://www.youtube.com/watch?v=s88aryNUMhE) | `source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md` |
 
 ## Writer sources
@@ -67,7 +67,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md`
 - `source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md`
 - `source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md`
-- `source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md`
+- `source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md`
 - `source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md`
 - `source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md`
 - `source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md`

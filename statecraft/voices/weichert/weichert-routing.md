@@ -43,9 +43,9 @@ Purpose: fast-routing note for the canonical Weichert shelf (**Nawfal-first**, s
 
 ## Best Entry Points (current corpus)
 
-- **Best command-fracture file:** [source-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md](../../../source-archive/statecraft/2026-06-08/source-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
-- **Best AI / institutional-lock-in file:** [source-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md)
-- **Best rearm-not-deal file:** [source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md](../../../source-archive/statecraft/2026-05-31/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md)
+- **Best command-fracture file:** [source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
+- **Best AI / institutional-lock-in file:** [source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md)
+- **Best rearm-not-deal file:** [source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md](../../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md)
 
 ## Boundaries
 

@@ -35,12 +35,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-wmKK5PaiZg) | `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=Zqs4c_dOCog) | `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=WgOJXWqk0io) | `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md` |
+| `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [LPdeT4kf0HU](https://www.youtube.com/watch?v=LPdeT4kf0HU) | `source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md` |
+| `mario-nawfal` | Mario Nawfal | `diesen`, `nawfal` | [RlG35-5j6GY](https://www.youtube.com/watch?v=RlG35-5j6GY) | `source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md` |
+| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [MjXkaxgk1EE](https://www.youtube.com/watch?v=MjXkaxgk1EE) | `source-mario-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [3gG-bMVOgYg](https://www.youtube.com/watch?v=3gG-bMVOgYg) | `source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [3gG-bMVOgYg](https://www.youtube.com/watch?v=3gG-bMVOgYg) | `source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md` |
 | `moral-resistance` | Moral Resistance | `aguilar` | [jtXOttZ6J_0](https://www.youtube.com/watch?v=jtXOttZ6J_0) | `source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md` |
-| `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [LPdeT4kf0HU](https://www.youtube.com/watch?v=LPdeT4kf0HU) | `source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md` |
-| `mario-nawfal` | Mario Nawfal | `diesen`, `nawfal` | [RlG35-5j6GY](https://www.youtube.com/watch?v=RlG35-5j6GY) | `source-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md` |
-| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [MjXkaxgk1EE](https://www.youtube.com/watch?v=MjXkaxgk1EE) | `source-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [3gG-bMVOgYg](https://www.youtube.com/watch?v=3gG-bMVOgYg) | `source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [3gG-bMVOgYg](https://www.youtube.com/watch?v=3gG-bMVOgYg) | `source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md` |
 
 ## Writer sources
 
@@ -63,9 +63,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
 - `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
 - `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md`
+- `source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`
+- `source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md`
+- `source-mario-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md`
+- `source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md`
+- `source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md`
 - `source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md`
-- `source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`
-- `source-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md`
-- `source-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md`
-- `source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md`
-- `source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md`

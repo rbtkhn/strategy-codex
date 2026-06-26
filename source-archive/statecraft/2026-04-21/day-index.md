@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6BdVF67o-y8) | `source-alex-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md` |
-| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=JaLC4HBB7pM) | `source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md` |
+| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=JaLC4HBB7pM) | `source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md` |
 
 ## Writer sources
 
@@ -62,10 +62,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md`
 - `source-barnes-kent-exit-ramp-qt-2026-04-21.md`
 - `source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`
+- `source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md`
 - `source-macgregor-diesen-total-war-iran-2026-04-21.md`
 - `source-marandi-blockade-trump-nima-2026-04-21.md`
 - `source-mearsheimer-redacted-trump-iran-2026-04-21.md`
-- `source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md`
 - `source-pape-zero-sum-escalation-ladder-2026-04-21.md`
 - `source-simplicius-gimmicks-trump-iran-bluff-2026-04-21.md`
 - `source-simplicius-power-again-rebalanced-in-europe-2026-04-21.md`

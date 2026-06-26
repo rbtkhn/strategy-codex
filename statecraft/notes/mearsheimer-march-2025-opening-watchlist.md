@@ -24,11 +24,11 @@ So March is not empty overall. It is specifically thin in Mearsheimer thread-cou
 
 Five March 2025 Mearsheimer appearances are currently on disk:
 
-- `2025-03-06` - [source-napolitano-mearsheimer-lavrov-and-russia-2025-03-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-06/source-napolitano-mearsheimer-lavrov-and-russia-2025-03-06.md)
+- `2025-03-06` - [source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-06/source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md)
 - `2025-03-08` - [source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
-- `2025-03-13` - [source-napolitano-mearsheimer-how-close-to-a-regional-war-2025-03-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-13/source-napolitano-mearsheimer-how-close-to-a-regional-war-2025-03-13.md)
+- `2025-03-13` - [source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-13/source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md)
 - `2025-03-20` - [source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
-- `2025-03-27` - [source-napolitano-mearsheimer-killing-without-purpose-2025-03-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-napolitano-mearsheimer-killing-without-purpose-2025-03-27.md)
+- `2025-03-27` - [source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md)
 
 That means March already has:
 

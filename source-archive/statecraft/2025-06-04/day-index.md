@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=1n2dVgTrbM8) | `source-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=1n2dVgTrbM8) | `source-judging-freedom-macgregor-is-russia-on-the-ropes-2025-06-04.md` |
 
 ## Writer sources
 
@@ -56,5 +56,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-daniel-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md`
 - `source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md`
-- `source-napolitano-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md`
-- `source-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md`
+- `source-judging-freedom-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md`
+- `source-judging-freedom-macgregor-is-russia-on-the-ropes-2025-06-04.md`

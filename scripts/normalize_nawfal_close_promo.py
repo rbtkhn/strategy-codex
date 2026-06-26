@@ -190,7 +190,7 @@ def main() -> int:
             }
         )
     else:
-        paths = sorted(args.root.rglob("source-nawfal-*.md"))
+        paths = sorted(args.root.rglob("source-mario-nawfal-*.md"))
 
     changes: list[ClosePromoChange] = []
     skipped = 0

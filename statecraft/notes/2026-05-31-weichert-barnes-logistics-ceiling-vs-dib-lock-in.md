@@ -109,8 +109,8 @@ That is the gain for statecraft routing:
 
 ## Source Anchors
 
-- Weichert: [source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md) · [cleaned](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md)
-- Barnes: [source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md)
+- Weichert: [source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md) · [cleaned](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md)
+- Barnes: [source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md)
 
 ## June Extension
 

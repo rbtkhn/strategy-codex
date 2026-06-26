@@ -48,8 +48,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/krat3xc328x5cbbr8zle49m62fgjx5') | `source-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/krat3xc328x5cbbr8zle49m62fgjx5') | `source-judging-freedom-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md` |
 
 ## Files
 
-- `source-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md`
+- `source-judging-freedom-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md`

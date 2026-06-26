@@ -52,7 +52,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-napolitano-sachs-trump-reveals-his-desperation-2026-04-06.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-judging-freedom-sachs-trump-reveals-his-desperation-2026-04-06.md` |
 
 ## Files
 
@@ -61,4 +61,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md`
 - `source-dialogue-works-larry-c-johnson-irans-dead-defense-wipes-out-us-jets-and-black-hawks-2026-04-06.md`
 - `source-glenn-diesen-larry-johnson-iran-destroys-u-s-aircraft-trump-will-expand-the-war-2026-04-06.md`
-- `source-napolitano-sachs-trump-reveals-his-desperation-2026-04-06.md`
+- `source-judging-freedom-sachs-trump-reveals-his-desperation-2026-04-06.md`

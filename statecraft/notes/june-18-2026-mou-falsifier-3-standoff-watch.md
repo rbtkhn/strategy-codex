@@ -56,7 +56,7 @@ Score each retest with **Supported / Partial / Contradicted / Unclear** — head
 | Voice | Archive path | Owns |
 |---|---|---|
 | **Martyanov** | `source-archive/statecraft/2026-06-18/source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` | **Two-week re-war** band; material defeat frame |
-| **Macgregor** | `source-archive/statecraft/2026-06-18/source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md` | SPR **2.5–3 wk**; commodity quant |
+| **Macgregor** | `source-archive/statecraft/2026-06-18/source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md` | SPR **2.5–3 wk**; commodity quant |
 | **Johnson** | `source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` | Fifth Fleet / Oman management lane |
 | **Pape Day 60** | `source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md` | **Governance** fuse post-60d — sibling note |
 | **Convergence** | [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) | #3 tier row · post-wire SSOT |

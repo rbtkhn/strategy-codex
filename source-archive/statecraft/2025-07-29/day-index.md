@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md`
+- `source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md`

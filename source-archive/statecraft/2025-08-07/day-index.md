@@ -48,9 +48,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07.md` |
+| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-judging-freedom-mearsheimer-a-brief-history-of-israel-2025-08-07.md` |
 
 ## Files
 
 - `source-alex-mercouris-us-blinks-withdraws-deadline-offers-trump-putin-meeting-putin-says-yes-but-no-to-meeting-zelensky-2025-08-07.md`
-- `source-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07.md`
+- `source-judging-freedom-mearsheimer-a-brief-history-of-israel-2025-08-07.md`

@@ -58,7 +58,7 @@ Where newer intake landed directly into the live archive without a parallel prov
 - [substack-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04](../../years/2026/provenance/2026-03-04/source-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md)
 - [substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08](../../years/2026/provenance/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md)
 - [substack-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09](../../years/2026/provenance/2026-03-09/source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md)
-- [transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16](../../years/2026/provenance/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+- [transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16](../../years/2026/provenance/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md)
 - [youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16](../../years/2026/provenance/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
 - [substack-parsi-why-was-larijani-targeted-2026-03-17](../../years/2026/provenance/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md)
 
@@ -84,13 +84,13 @@ Where newer intake landed directly into the live archive without a parallel prov
 - [transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06](../../years/2026/provenance/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
 - [youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18](../../years/2026/provenance/2026-05-18/source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
 - [substack-parsi-a-new-regional-logic-if-israel-strikes-lebanon-iran-strikes-back-at-the-uae-2026-05-25](../../../../source-archive/statecraft/2026-05-25/source-parsi-a-new-regional-logic-if-israel-strikes-lebanon-iran-strikes-back-at-the-uae-2026-05-25.md)
-- [transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28](../../../../source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+- [transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28](../../../../source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
 
 ## 2026-06
 
 - [substack-parsi-why-trump-may-actually-have-told-netanyahu-everybody-hates-you-2026-06-01](../../../../source-archive/statecraft/2026-06-01/source-parsi-why-trump-may-actually-have-told-netanyahu-everybody-hates-you-2026-06-01.md)
-- [transcript-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01](../../../../source-archive/statecraft/2026-06-01/source-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md)
-- [transcript-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05](../../../../source-archive/statecraft/2026-06-05/source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md)
+- [transcript-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01](../../../../source-archive/statecraft/2026-06-01/source-mario-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md)
+- [transcript-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05](../../../../source-archive/statecraft/2026-06-05/source-mario-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md)
 
 ## Boundary Notes
 

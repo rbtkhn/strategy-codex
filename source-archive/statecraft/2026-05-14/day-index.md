@@ -38,8 +38,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `aguilar` | [watch](https://www.youtube.com/watch?v=4m5yv6gKM4Q) | `source-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=BIl5vJn6ohI) | `source-game-theory-25-trump-visits-china-2026-05-14.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=TS6TY75l2Pw) | `source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=Ai48FpArr8Q) | `source-judging-freedom-wilkerson-checkmate-in-iran-2026-05-14.md` |
 | `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [watch](https://www.youtube.com/watch?v=kQe3NRbWz4U) | `source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=Ai48FpArr8Q) | `source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md` |
 
 ## Writer sources
 
@@ -68,7 +68,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md`
 - `source-game-theory-25-trump-visits-china-2026-05-14.md`
 - `source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md`
+- `source-judging-freedom-wilkerson-checkmate-in-iran-2026-05-14.md`
 - `source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md`
-- `source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md`
 - `source-pape-its-getting-late-early-for-trump-2026-05-14.md`
 - `source-pape-the-damage-you-cant-hide-2026-05-14.md`

@@ -43,12 +43,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `johnson` | [7ROzzOkmHsY](https://www.youtube.com/watch?v=7ROzzOkmHsY) | `source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `krainer` | [WzWBIS17aqY](https://www.youtube.com/watch?v=WzWBIS17aqY) | `source-glenn-diesen-alex-krainer-iran-war-goes-global-economic-energy-food-crisis-2026-03-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [gmtJZvmOOes](https://www.youtube.com/watch?v=gmtJZvmOOes) | `source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md` |
-| `judging-freedom` | — | `anzalone`, `napolitano` | [watch](https://www.youtube.com/watch?v=qwFatIERfpI) | `source-napolitano-anzalone-war-just-for-fun-2026-03-16.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `crooke` | [MvGS6u-WcvM](https://www.youtube.com/watch?v=MvGS6u-WcvM) | `source-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `johnson` | [Ip-7CuiBIE0](https://www.youtube.com/watch?v=Ip-7CuiBIE0) | `source-napolitano-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mcgovern` | [PbiY9tyUZ2A](https://www.youtube.com/watch?v=PbiY9tyUZ2A) | `source-napolitano-mcgovern-trumps-war-putins-advantage-2026-03-16.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `parsi` | [btfqR-LV7sk](https://www.youtube.com/watch?v=btfqR-LV7sk) | `source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [1n0Lt1MExlw](https://www.youtube.com/watch?v=1n0Lt1MExlw) | `source-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md` |
+| `judging-freedom` | — | `anzalone`, `napolitano` | [watch](https://www.youtube.com/watch?v=qwFatIERfpI) | `source-judging-freedom-anzalone-war-just-for-fun-2026-03-16.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `crooke` | [MvGS6u-WcvM](https://www.youtube.com/watch?v=MvGS6u-WcvM) | `source-judging-freedom-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `johnson` | [Ip-7CuiBIE0](https://www.youtube.com/watch?v=Ip-7CuiBIE0) | `source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mcgovern` | [PbiY9tyUZ2A](https://www.youtube.com/watch?v=PbiY9tyUZ2A) | `source-judging-freedom-mcgovern-trumps-war-putins-advantage-2026-03-16.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `parsi` | [btfqR-LV7sk](https://www.youtube.com/watch?v=btfqR-LV7sk) | `source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [1n0Lt1MExlw](https://www.youtube.com/watch?v=1n0Lt1MExlw) | `source-judging-freedom-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md` |
 
 ## Writer sources
 
@@ -80,11 +80,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md`
 - `source-glenn-diesen-alex-krainer-iran-war-goes-global-economic-energy-food-crisis-2026-03-16.md`
 - `source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md`
-- `source-napolitano-anzalone-war-just-for-fun-2026-03-16.md`
-- `source-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md`
-- `source-napolitano-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md`
-- `source-napolitano-mcgovern-trumps-war-putins-advantage-2026-03-16.md`
-- `source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md`
-- `source-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md`
+- `source-judging-freedom-anzalone-war-just-for-fun-2026-03-16.md`
+- `source-judging-freedom-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md`
+- `source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md`
+- `source-judging-freedom-mcgovern-trumps-war-putins-advantage-2026-03-16.md`
+- `source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md`
+- `source-judging-freedom-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md`
 - `source-pape-irans-new-battlefield-the-global-2026-03-16.md`
 - `source-simplicius-frustrated-by-failure-an-unhinged-2026-03-16.md`

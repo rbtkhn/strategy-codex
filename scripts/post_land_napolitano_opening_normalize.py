@@ -72,7 +72,7 @@ def _napolitano_capture_paths(folder: Path) -> list[Path]:
         return []
     paths = sorted(
         p
-        for p in folder.glob("source-napolitano-*.md")
+        for p in folder.glob("source-judging-freedom-*.md")
         if p.is_file() and ".cleaned." not in p.name
     )
     return paths

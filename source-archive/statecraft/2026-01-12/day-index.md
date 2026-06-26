@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jUHRwX2843U) | `source-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md` |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=938lwWOtXhM) | `source-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md` |
-| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=AVhJpCqNECg) | `source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md` |
+| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=938lwWOtXhM) | `source-judging-freedom-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md` |
+| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=AVhJpCqNECg) | `source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md` |
 
 ## Writer sources
 
@@ -55,6 +55,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md`
-- `source-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md`
-- `source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md`
+- `source-judging-freedom-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md`
+- `source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md`
 - `source-ritter-iranian-resilience-2026-01-12.md`

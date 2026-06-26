@@ -615,7 +615,7 @@ peace? You already you know pointed out
 that Anchorage is seems to be dead but
 is there any other pathway now? Well,
 first of all, I mean, with all due
-respect to Mark Rutle, Madinsky is a a
+respect to Mark Rutte, Madinsky is a a
 very serious person. You know, it's not
 my job to get into um you know, the
 internal domestic politics of Russia. Uh

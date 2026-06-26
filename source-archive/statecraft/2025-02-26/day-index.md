@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/cC0PQQ4Yn-Y) | `source-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/cC0PQQ4Yn-Y) | `source-judging-freedom-macgregor-why-is-trump-arming-ukraine-2025-02-26.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md`
+- `source-judging-freedom-macgregor-why-is-trump-arming-ukraine-2025-02-26.md`

@@ -36,8 +36,8 @@ Open the Judging Freedom lane first when the real question is:
 
 Best current anchors:
 
-- [2026-03-17 / Judging Freedom x Hoh](../../../source-archive/statecraft/2026-03-17/source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md)
-- [2026-05-26 / Judging Freedom x Hoh](../../../source-archive/statecraft/2026-05-26/source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md)
+- [2026-03-17 / Judging Freedom x Hoh](../../../source-archive/statecraft/2026-03-17/source-judging-freedom-hoh-trump-believes-his-own-propaganda-2026-03-17.md)
+- [2026-05-26 / Judging Freedom x Hoh](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-hoh-why-the-pentagon-lies-2026-05-26.md)
 
 ## Open Davis First
 

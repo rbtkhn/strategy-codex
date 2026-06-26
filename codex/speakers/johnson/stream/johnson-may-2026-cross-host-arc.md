@@ -22,7 +22,7 @@ Use this file before opening host-local arcs when the question is about Johnson'
 | 2026-05-14 | Mario Nawfal | *Trump & Xi Offered to Help Open Strait of Hormuz* | [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md) | non-core process and opening-channel reinforcement |
 | 2026-05-16 | Dialogue Works | *Most Embarrassing Prediction Exposed* (Jiang x Johnson x Nima) | [raw-input](../../../years/2026/provenance/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md) | comparison-driven pressure and post-control reality |
 | 2026-05-18 | Dialogue Works | *Giant Mushroom Cloud Blasts Over Israeli Defense Company* | [raw-input](../../../years/2026/provenance/2026-05-18/source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md) | continued humiliation-tempo and exposed vulnerability |
-| 2026-05-18 | Judging Freedom | *US Getting Ready for More War* | [raw-input](../../../years/2026/provenance/2026-05-18/source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md) | Napolitano reinforcement under continued process absurdity |
+| 2026-05-18 | Judging Freedom | *US Getting Ready for More War* | [raw-input](../../../years/2026/provenance/2026-05-18/source-judging-freedom-johnson-us-getting-ready-for-more-war-2026-05-18.md) | Napolitano reinforcement under continued process absurdity |
 
 ## Found, Not Yet Canonical
 

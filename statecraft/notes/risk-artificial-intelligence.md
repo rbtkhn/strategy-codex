@@ -92,7 +92,7 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 | Minab vendor fork / four-voice strike compare | [minab-palantir-four-voice-compare](./minab-palantir-four-voice-compare.md) |
 | Gulf–China–bubble nexus | [gulf-ai-architecture](./gulf-ai-architecture.md) |
 | Export control / sovereign AI access | [moonshots crossover](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
-| Wire-verify / Minab receipts | [trend § verify receipts](./trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
+| News-verify / Minab receipts | [trend § verify receipts](./trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
 
 ## Return paths
 

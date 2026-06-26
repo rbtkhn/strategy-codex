@@ -26,7 +26,7 @@ Canonical path for **archive-grounded synthesis** (day / month cadence). Adjacen
 
 | Subfolder | Class |
 | --- | --- |
-| [`notes/wire/`](../notes/wire/) | Wire-verify matrices |
+| [`notes/wire/`](../notes/wire/) | News-verify matrices |
 | [`notes/watch/`](../notes/watch/) | 72h watch runs |
 | [`notes/reentry/`](../notes/reentry/) | Week hinges |
 | [`notes/intake/`](../notes/intake/) | Intake readiness / digest |

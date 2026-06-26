@@ -44,10 +44,10 @@ Captured on disk:
 
 - 2025-12-04 - Glenn Diesen, *Thucydides Trap & US Reaction to China's Rise*: [raw-input](../../../years/2026/provenance/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
 - 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md)
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md)
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../years/2026/provenance/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
 - 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
-- 2025-12-16 - Judging Freedom, *Trump and US Hegemony*: [raw-input](../../../years/2026/provenance/2025-12-16/source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
+- 2025-12-16 - Judging Freedom, *Trump and US Hegemony*: [raw-input](../../../years/2026/provenance/2025-12-16/source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md)
 - 2025-12-18 - Glenn Diesen, *Age of Wars as Freedom of Navigation Ends*: [raw-input](../../../years/2026/provenance/2025-12-18/source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
 - 2025-12-19 - Dialogue Works, *The Middle East You Knew Is Disappearing* (Freeman + Trita Parsi): [raw-input](../../../years/2026/provenance/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
 
@@ -59,14 +59,14 @@ Thesis: Freeman's first continuity line is that U.S. and Israeli practice has mo
 
 Anchors:
 
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md)
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../years/2026/provenance/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
 - 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
-- 2025-12-16 - Judging Freedom, *Trump and US Hegemony*: [raw-input](../../../years/2026/provenance/2025-12-16/source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
-- 2026-01-06 - Judging Freedom, *China and Russia view Trump as a Kidnapper*: [raw-input](../../../years/2026/provenance/2026-01-06/source-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
+- 2025-12-16 - Judging Freedom, *Trump and US Hegemony*: [raw-input](../../../years/2026/provenance/2025-12-16/source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md)
+- 2026-01-06 - Judging Freedom, *China and Russia view Trump as a Kidnapper*: [raw-input](../../../years/2026/provenance/2026-01-06/source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
 - 2026-01-07 - Glenn Diesen, *Collapse of Law & Reason - Return to War*: [raw-input](../../../years/2026/provenance/2026-01-07/source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md)
-- 2026-03-03 - Judging Freedom, *What Makes a War "Just"?*: [raw-input](../../../years/2026/provenance/2026-03-03/source-napolitano-freeman-what-makes-a-war-just-2026-03-03.md)
-- 2026-04-21 - Judging Freedom, *US Diplomacy Is Dead - And the World Knows It*: [raw-input](../../../years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
+- 2026-03-03 - Judging Freedom, *What Makes a War "Just"?*: [raw-input](../../../years/2026/provenance/2026-03-03/source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md)
+- 2026-04-21 - Judging Freedom, *US Diplomacy Is Dead - And the World Knows It*: [raw-input](../../../years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md)
 - 2026-05-06 - Glenn Diesen, *Maritime dominance / Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
 
 Arc-thread motion: December opens with hegemony under stress, fictional peace ceremonies, piracy/theft language around Venezuela, Caribbean naval seizures, and force substituting for legitimacy; Dec. 16 adds frozen-asset theft and consensus-based rules versus hegemonic rules; January frames the sovereignty breach as a watershed; March translates that into just-war and legitimacy collapse; April adds piracy, blockade, and ambassadorial clientitis; May moves the same question to maritime order and Hormuz.
@@ -85,13 +85,13 @@ Thesis: Freeman repeatedly treats U.S. diplomacy as theater: envoys without auth
 Anchors:
 
 - 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md)
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md)
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../years/2026/provenance/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
 - 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
 - 2026-01-20 - Daniel Davis / Deep Dive, *Iran, EU & Trump, Greenland*: [raw-input](../../../years/2026/provenance/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
 - 2026-02-06 - Dialogue Works, *Negotiations or the Brink of All-Out War?*: [raw-input](../../../years/2026/provenance/2026-02-06/source-dialogue-works-amb-chas-freeman-negotiations-or-the-brink-of-all-out-war-2026-02-06.md)
 - 2026-03-06 - Daniel Davis / Deep Dive, *Diplomacy is DEAD w/IRAN*: [raw-input](../../../years/2026/provenance/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
-- 2026-04-14 - Judging Freedom, *Israel's Strategy Collapsing*: [raw-input](../../../years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md)
+- 2026-04-14 - Judging Freedom, *Israel's Strategy Collapsing*: [raw-input](../../../years/2026/provenance/2026-04-14/source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md)
 - 2026-04-18 - Glenn Diesen, *Diplomacy Fails - Strait of Hormuz Shut Down Again*: [raw-input](../../../years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
 
 Arc-thread motion: December already treats peace plans and ceasefires as nominal forms that fail when the underlying strategy remains coercive; the Dec. 9 Napolitano file sharpens the distinction between ceasefires that paper over war and peace that creates durable security; the Dec. 12 Dialogue Works bridge adds the no-policy-process / amateur-statecraft layer; Dec. 15 extends it through the State Department/diplomatic-service collapse and "political theater" critique; February's negotiation-brink frame becomes March's diplomacy-dead line; April hardens it into Islamabad as performative diplomacy, the door-vs-padlock Hormuz vocabulary, and the claim that the United States no longer knows how to negotiate a credible end state.
@@ -111,7 +111,7 @@ Anchors:
 
 - 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md)
 - 2025-12-19 - Dialogue Works, *The Middle East You Knew Is Disappearing* (Freeman + Trita Parsi): [raw-input](../../../years/2026/provenance/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
-- 2026-02-24 - Judging Freedom, *Israel Pushes US into Another Endless War*: [raw-input](../../../years/2026/provenance/2026-02-24/source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
+- 2026-02-24 - Judging Freedom, *Israel Pushes US into Another Endless War*: [raw-input](../../../years/2026/provenance/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
 - 2026-03-20 - Dialogue Works, *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy*: [raw-input](../../../years/2026/provenance/2026-03-20/source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md)
 - 2026-04-10 - Dialogue Works, *Israel's STRATEGY in TATTERS - Trump TAKES OVER*: [raw-input](../../../years/2026/provenance/2026-04-10/source-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md)
 - 2026-04-24 - Dialogue Works, *Israel's Agenda Is Collapsing Faster Than Anyone Expected*: [raw-input](../../../years/2026/provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
@@ -156,15 +156,15 @@ Thesis: Freeman links constitutional disorder at home to strategic incoherence a
 
 Anchors:
 
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md)
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../years/2026/provenance/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
 - 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
-- 2025-12-16 - Judging Freedom, *Trump and US Hegemony*: [raw-input](../../../years/2026/provenance/2025-12-16/source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
+- 2025-12-16 - Judging Freedom, *Trump and US Hegemony*: [raw-input](../../../years/2026/provenance/2025-12-16/source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md)
 - 2025-12-19 - Dialogue Works, *The Middle East You Knew Is Disappearing* (Freeman + Trita Parsi): [raw-input](../../../years/2026/provenance/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
-- 2026-02-24 - Judging Freedom, *Israel Pushes US into Another Endless War*: [raw-input](../../../years/2026/provenance/2026-02-24/source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
+- 2026-02-24 - Judging Freedom, *Israel Pushes US into Another Endless War*: [raw-input](../../../years/2026/provenance/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
 - 2026-03-01 - Glenn Diesen, *The War Against Iran Could Destroy the U.S. Republic*: [raw-input](../../../years/2026/provenance/2026-03-01/source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md)
-- 2026-04-14 - Judging Freedom, *Israel's Strategy Collapsing*: [raw-input](../../../years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md)
-- 2026-04-21 - Judging Freedom, *US Diplomacy Is Dead - And the World Knows It*: [raw-input](../../../years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
+- 2026-04-14 - Judging Freedom, *Israel's Strategy Collapsing*: [raw-input](../../../years/2026/provenance/2026-04-14/source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md)
+- 2026-04-21 - Judging Freedom, *US Diplomacy Is Dead - And the World Knows It*: [raw-input](../../../years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md)
 - 2026-05-12 - Glenn Diesen, *Trump Goes to Beijing After Historic Defeat in Iran*: [raw-input](../../../years/2026/provenance/2026-05-12/source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md)
 
 Arc-thread motion: December supplies the hegemony-decay prelude: declining legitimacy, executive indulgence, illegal-order anxiety, no policy process, political theater replacing strategic reasoning, and force replacing consent. Dec. 16 makes the hegemony frame explicit: the United States has not renounced hegemony so much as changed targets from transatlantic management toward open Western Hemisphere dominance. Dec. 19 adds the bank-reserves/BlackRock/amateur-diplomacy layer and treats European Ukraine financing as denial rather than strategy. February treats war extension as a domestic constitutional problem; March names republic-level damage; April ties that to executive irrationality, Vance/Netanyahu process failure, and nuclear-command anxiety; May folds it into visible defeat management.
@@ -187,9 +187,9 @@ Anchors:
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../years/2026/provenance/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
 - 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
 - 2025-12-18 - Glenn Diesen, *Age of Wars as Freedom of Navigation Ends*: [raw-input](../../../years/2026/provenance/2025-12-18/source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
-- 2026-01-06 - Judging Freedom, *China and Russia view Trump as a Kidnapper*: [raw-input](../../../years/2026/provenance/2026-01-06/source-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
+- 2026-01-06 - Judging Freedom, *China and Russia view Trump as a Kidnapper*: [raw-input](../../../years/2026/provenance/2026-01-06/source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
 - 2026-03-14 - Glenn Diesen, *The Emerging Iran-Russia-China Axis & Israel's Possible Demise*: [raw-input](../../../years/2026/provenance/2026-03-14/source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md)
-- 2026-03-17 - Judging Freedom, *Will China Dump Trump?*: [raw-input](../../../years/2026/provenance/2026-03-17/source-napolitano-freeman-will-china-dump-trump-2026-03-17.md)
+- 2026-03-17 - Judging Freedom, *Will China Dump Trump?*: [raw-input](../../../years/2026/provenance/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md)
 - 2026-05-08 - Dialogue Works, *Hormuz, Ceasefire, Gulf States, and China's Role*: [raw-input](../../../years/2026/provenance/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
 - 2026-05-16 - Neutrality Studies, *Power Moves East: China Teaches USA a Big Lesson*: [raw-input](../../../years/2026/provenance/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md)
 

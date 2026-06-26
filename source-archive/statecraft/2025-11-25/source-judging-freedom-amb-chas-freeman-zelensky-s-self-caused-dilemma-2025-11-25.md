@@ -8,7 +8,7 @@ transcript_type: manual_subtitles_vtt
 title: "AMB. Chas Freeman: Zelensky's Self-Caused Dilemma"
 source_url: "https://www.youtube.com/watch?v=dibo37W3Lhc"
 youtube_id: dibo37W3Lhc
-channel_slug: napolitano
+channel_slug: judging-freedom
 source_note: Manual YouTube subtitles extracted with yt_dlp. Not human-verified verbatim.
 editorial_note: Atomic materialization verified a non-stub subtitle body before success was reported.
 show: Judging Freedom

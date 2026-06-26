@@ -44,32 +44,32 @@ Open [Napolitano host shelf](../../hosts/napolitano/README.md) or the direct Sac
 
 Best current direct anchors:
 
-- [2025-01-08 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-01-08/source-napolitano-sachs-does-trump-want-peace-2025-01-08.md)
-- [2025-02-03 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-02-03/source-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
-- [2025-05-07 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-05-07/source-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
-- [2025-06-24 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-06-24/source-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
-- [2025-07-08 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-07-08/source-napolitano-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md)
-- [2025-08-04 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-04/source-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md)
-- [2025-08-21 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-21/source-napolitano-sachs-netanyahu-ready-to-invade-2025-08-21.md)
-- [2025-08-27 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-27/source-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md)
-- [2025-08-29 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-29/source-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md)
-- [2025-09-10 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-10/source-napolitano-sachs-how-israel-blackmails-washington-2025-09-10.md)
-- [2025-09-17 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-17/source-napolitano-sachs-definitely-genocide-2025-09-17.md)
-- [2025-09-25 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-25/source-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md)
-- [2025-09-30 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-30/source-napolitano-sachs-netanyahu-stumbles-2025-09-30.md)
-- [2025-10-06 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-06/source-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md)
-- [2025-10-13 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-13/source-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
-- [2025-10-22 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-22/source-napolitano-sachs-israels-next-moves-2025-10-22.md)
-- [2025-10-27 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-27/source-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
-- [2025-11-04 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-04/source-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md)
-- [2025-11-11 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-11/source-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
-- [2025-11-17 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-17/source-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
-- [2025-11-24 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-24/source-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
-- [2025-12-02 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-12-02/source-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md)
-- [2025-12-10 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-12-10/source-napolitano-sachs-underestimating-russia-2025-12-10.md)
-- [2025-12-15 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-12-15/source-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md)
-- [2026-03-16 / Judging Freedom x Sachs](../../../source-archive/statecraft/2026-03-16/source-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
-- [2026-05-27 / Judging Freedom x Sachs](../../../source-archive/statecraft/2026-05-27/source-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
+- [2025-01-08 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-01-08/source-judging-freedom-sachs-does-trump-want-peace-2025-01-08.md)
+- [2025-02-03 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-02-03/source-judging-freedom-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
+- [2025-05-07 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-05-07/source-judging-freedom-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
+- [2025-06-24 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-06-24/source-judging-freedom-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
+- [2025-07-08 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-07-08/source-judging-freedom-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md)
+- [2025-08-04 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-04/source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md)
+- [2025-08-21 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-21/source-judging-freedom-sachs-netanyahu-ready-to-invade-2025-08-21.md)
+- [2025-08-27 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-27/source-judging-freedom-sachs-a-very-dangerous-foreign-policy-2025-08-27.md)
+- [2025-08-29 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-08-29/source-judging-freedom-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md)
+- [2025-09-10 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-10/source-judging-freedom-sachs-how-israel-blackmails-washington-2025-09-10.md)
+- [2025-09-17 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-17/source-judging-freedom-sachs-definitely-genocide-2025-09-17.md)
+- [2025-09-25 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-25/source-judging-freedom-sachs-al-qaeda-at-the-un-2025-09-25.md)
+- [2025-09-30 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-09-30/source-judging-freedom-sachs-netanyahu-stumbles-2025-09-30.md)
+- [2025-10-06 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-06/source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md)
+- [2025-10-13 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-13/source-judging-freedom-sachs-who-would-trust-netanyahu-2025-10-13.md)
+- [2025-10-22 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-22/source-judging-freedom-sachs-israels-next-moves-2025-10-22.md)
+- [2025-10-27 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-10-27/source-judging-freedom-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
+- [2025-11-04 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-04/source-judging-freedom-sachs-regime-change-in-venezuela-2025-11-04.md)
+- [2025-11-11 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-11/source-judging-freedom-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
+- [2025-11-17 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-17/source-judging-freedom-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
+- [2025-11-24 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-11-24/source-judging-freedom-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
+- [2025-12-02 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-12-02/source-judging-freedom-sachs-is-trump-planning-more-wars-2025-12-02.md)
+- [2025-12-10 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-12-10/source-judging-freedom-sachs-underestimating-russia-2025-12-10.md)
+- [2025-12-15 / Judging Freedom x Sachs](../../../source-archive/statecraft/2025-12-15/source-judging-freedom-sachs-trumps-empire-of-hubris-2025-12-15.md)
+- [2026-03-16 / Judging Freedom x Sachs](../../../source-archive/statecraft/2026-03-16/source-judging-freedom-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
+- [2026-05-27 / Judging Freedom x Sachs](../../../source-archive/statecraft/2026-05-27/source-judging-freedom-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
 Treat the `2025-02-03` anchor as a confirmed full front door below transcript-grade, not as a transcript-bearing local body.
 
@@ -124,10 +124,10 @@ Open the Mercouris or Tucker anchors first when the real question is:
 
 Best current anchors:
 
-- [2025-06-11 / Tucker x Sachs](../../../source-archive/statecraft/2025-06-11/source-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
-- [2025-10-01 / Tucker x Sachs](../../../source-archive/statecraft/2025-10-01/source-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md)
+- [2025-06-11 / Tucker x Sachs](../../../source-archive/statecraft/2025-06-11/source-tucker-carlson-sachs-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
+- [2025-10-01 / Tucker x Sachs](../../../source-archive/statecraft/2025-10-01/source-tucker-carlson-sachs-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md)
 - [2026-05-07 / Mercouris x Sachs](../../../source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
-- [2026-04-24 / Tucker x Sachs](../../../source-archive/statecraft/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [2026-04-24 / Tucker x Sachs](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md)
 
 These are reinforcement lanes, not primary openers.
 

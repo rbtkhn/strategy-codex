@@ -38,9 +38,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [_gMBZwg4HGQ](https://www.youtube.com/watch?v=_gMBZwg4HGQ) | `source-dialogue-works-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [Cry4rCIXiVM](https://www.youtube.com/watch?v=Cry4rCIXiVM) | `source-dialogue-works-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [v7tyJIc7U3A](https://www.youtube.com/watch?v=v7tyJIc7U3A) | `source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [ILZhqQQf-UY](https://www.youtube.com/watch?v=ILZhqQQf-UY) | `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [SpKrNyFMtVg](https://www.youtube.com/watch?v=SpKrNyFMtVg) | `source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md` |
 | `moral-resistance` | Moral Resistance | `aguilar`, `moral-resistance` | [7ilV1wVU05Q](https://www.youtube.com/watch?v=7ilV1wVU05Q) | `source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [ILZhqQQf-UY](https://www.youtube.com/watch?v=ILZhqQQf-UY) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [SpKrNyFMtVg](https://www.youtube.com/watch?v=SpKrNyFMtVg) | `source-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md` |
 
 ## Writer sources
 
@@ -67,6 +67,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md`
 - `source-dialogue-works-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md`
 - `source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md`
+- `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md`
+- `source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md`
 - `source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md`
-- `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md`
-- `source-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md`

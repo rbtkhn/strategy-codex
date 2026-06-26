@@ -33,10 +33,10 @@ So December should no longer be read as a barely represented Mearsheimer month. 
 
 The currently landed `Judging Freedom / Napolitano + Mearsheimer` December captures are:
 
-- `2025-12-04` - [are-trumps-killings-and-threats-a-bluff](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-04/source-napolitano-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md)
-- `2025-12-09` - [can-europe-save-ukraine](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md)
-- `2025-12-18` - [unintended-consequences-of-a-meaningless-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-napolitano-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md)
-- `2025-12-24` - [an-incoherent-foreign-policy](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-24/source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- `2025-12-04` - [are-trumps-killings-and-threats-a-bluff](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-04/source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md)
+- `2025-12-09` - [can-europe-save-ukraine](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md)
+- `2025-12-18` - [unintended-consequences-of-a-meaningless-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md)
+- `2025-12-24` - [an-incoherent-foreign-policy](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
 
 The key change from the opening watchlist is that December no longer depends on just one or two Napolitano anchors. It now has a visible mini-run across early, mid, and late December.
 

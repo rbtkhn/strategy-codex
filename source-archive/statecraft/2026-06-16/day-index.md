@@ -40,12 +40,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [7mPS8rP_Oxc](https://www.youtube.com/watch?v=7mPS8rP_Oxc) | `source-dialogue-works-larry-johnson-breaking-150-billion-iran-300b-reparations-already-spent-2026-06-16.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [g9JLKwdg1Jc](https://www.youtube.com/watch?v=g9JLKwdg1Jc) | `source-dialogue-works-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md` |
 | `dialogue-works` | Dialogue Works | `henningsen`, `alkorshid`, `nima` | [F_ngNnPGbTs](https://www.youtube.com/watch?v=F_ngNnPGbTs) | `source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` |
-| `judging-freedom` | Judging Freedom | `escobar`, `napolitano` | [hPaW0kHj7-0](https://www.youtube.com/watch?v=hPaW0kHj7-0) | `source-napolitano-escobar-how-iran-outsmarted-trump-2026-06-16.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [ki_x_N3lsAY](https://www.youtube.com/watch?v=ki_x_N3lsAY) | `source-napolitano-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md` |
-| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [3WQaITZvPno](https://www.youtube.com/watch?v=3WQaITZvPno) | `source-napolitano-hoh-people-should-know-when-theyre-conquered-2026-06-16.md` |
-| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [staieGr89Jg](https://www.youtube.com/watch?v=staieGr89Jg) | `source-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md` |
-| `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [QA0tz7yt7NI](https://www.youtube.com/watch?v=QA0tz7yt7NI) | `source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [V7OY8cLGyjs](https://www.youtube.com/watch?v=V7OY8cLGyjs) | `source-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md` |
+| `judging-freedom` | Judging Freedom | `escobar`, `napolitano` | [hPaW0kHj7-0](https://www.youtube.com/watch?v=hPaW0kHj7-0) | `source-judging-freedom-escobar-how-iran-outsmarted-trump-2026-06-16.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [ki_x_N3lsAY](https://www.youtube.com/watch?v=ki_x_N3lsAY) | `source-judging-freedom-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md` |
+| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [3WQaITZvPno](https://www.youtube.com/watch?v=3WQaITZvPno) | `source-judging-freedom-hoh-people-should-know-when-theyre-conquered-2026-06-16.md` |
+| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [staieGr89Jg](https://www.youtube.com/watch?v=staieGr89Jg) | `source-mario-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md` |
+| `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [QA0tz7yt7NI](https://www.youtube.com/watch?v=QA0tz7yt7NI) | `source-mario-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [V7OY8cLGyjs](https://www.youtube.com/watch?v=V7OY8cLGyjs) | `source-mario-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md` |
 | `redacted-news` | Redacted News | `weichert`, `redacted` | [LnwU2nk2byE](https://www.youtube.com/watch?v=LnwU2nk2byE) | `source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md` |
 | `redacted-news` | Redacted News | `kent`, `redacted` | [NfJbbcVNJmo](https://www.youtube.com/watch?v=NfJbbcVNJmo) | `source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md` |
 
@@ -75,11 +75,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-johnson-breaking-150-billion-iran-300b-reparations-already-spent-2026-06-16.md`
 - `source-dialogue-works-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md`
 - `source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md`
-- `source-napolitano-escobar-how-iran-outsmarted-trump-2026-06-16.md`
-- `source-napolitano-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md`
-- `source-napolitano-hoh-people-should-know-when-theyre-conquered-2026-06-16.md`
-- `source-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md`
-- `source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md`
-- `source-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md`
+- `source-judging-freedom-escobar-how-iran-outsmarted-trump-2026-06-16.md`
+- `source-judging-freedom-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md`
+- `source-judging-freedom-hoh-people-should-know-when-theyre-conquered-2026-06-16.md`
+- `source-mario-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md`
+- `source-mario-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md`
+- `source-mario-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md`
 - `source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md`
 - `source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md`

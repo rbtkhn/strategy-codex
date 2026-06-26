@@ -157,8 +157,8 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 ## June 2026 intake receipts
 
 - [`2026-06-03` Alkorshid + Nawfal](../../../source-archive/statecraft/2026-06-03/)
-- [`2026-06-08` Nawfal breaking](../../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
-- [`2026-06-10` Napolitano cognition](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md)
+- [`2026-06-08` Nawfal breaking](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+- [`2026-06-10` Napolitano cognition](../../../source-archive/statecraft/2026-06-10/source-judging-freedom-barnes-how-trump-makes-decisions-2026-06-10.md)
 - [`2026-06-10` Nima alkorshid](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
 - [`2026-06-11` Davis shifting goal posts](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
 

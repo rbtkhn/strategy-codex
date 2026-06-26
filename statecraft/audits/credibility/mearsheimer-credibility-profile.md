@@ -47,7 +47,7 @@ Mearsheimer is a high-structure, low-cleanup speaker whose credibility is rooted
 ## Disconfirming or stress-test anchors
 
 1. [2025-05-29 Mearsheimer x Mercouris x Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-29/source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md)
-2. [2026-05-26 Mearsheimer](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
+2. [2026-05-26 Mearsheimer](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md)
 
 ## Native adjustment notes
 

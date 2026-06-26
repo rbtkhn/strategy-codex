@@ -43,4 +43,4 @@ Grow by **density**, not by symmetry with multi-host shelves.
 Next likely steps:
 
 1. Optional **voice profile** when operator promotes Tier A identity work.
-2. Wire-verify or synthesis passes on the **2023→2026** doctrine arc as a single continuity object.
+2. News-verify or synthesis passes on the **2023→2026** doctrine arc as a single continuity object.

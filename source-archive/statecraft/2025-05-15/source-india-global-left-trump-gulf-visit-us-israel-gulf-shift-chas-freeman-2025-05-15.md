@@ -41,7 +41,7 @@ verify:
   - claim: Trump administration divided — America-first (Vance) vs Israel-first demand zero enrichment
     verdict: partial
     note: Witkoff "no enrichment" red line May 9–11 wire · Vance America-first framing in capture is Freeman tier-4 synthesis of admin split
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-global-left, channel:india-global-left)); 9 substitutions; not human-verified verbatim; verify before quotation. Wire-verify header pass 2026-06-21."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (freeman, india-global-left, channel:india-global-left)); 9 substitutions; not human-verified verbatim; verify before quotation. News-verify header pass 2026-06-21."
 ---
 # Trump's Gulf Visit: Chas Freeman Explains the US–Israel–Gulf Shift | Deep Dive into Middle East
 

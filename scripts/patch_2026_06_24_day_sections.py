@@ -18,7 +18,7 @@ from transcript_section_curation import (  # noqa: E402
 DAY = ROOT / "source-archive/statecraft/2026-06-24"
 
 CAPTURES: dict[str, dict] = {
-    "source-napolitano-diesen-europe-preparing-war-2026-06-24.md": {
+    "source-judging-freedom-diesen-europe-preparing-war-2026-06-24.md": {
         "titles": [
             "Show Open — Europe and War",
             "Putin Warning — West Preparing for War",
@@ -43,7 +43,7 @@ CAPTURES: dict[str, dict] = {
             "Professor Diesen, thank you very much",
         ],
     },
-    "source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md": {
+    "source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md": {
         "titles": [
             "Show Open — Negotiations and Tehran",
             "Life in Tehran — Oil and the Economy",
@@ -68,7 +68,7 @@ CAPTURES: dict[str, dict] = {
             "Thank you, Professor Miranda",
         ],
     },
-    "source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md": {
+    "source-judging-freedom-mate-iran-deal-pause-not-peace-2026-06-24.md": {
         "titles": [
             "Show Open — Goldman Primary Defeat",
             "Poetica — Coffee Shop and Civil Rights Probe",
@@ -135,7 +135,7 @@ CAPTURES: dict[str, dict] = {
             "new security umbrella that has been created",
         ],
     },
-    "source-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md": {
+    "source-mario-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md": {
         "titles": [
             "Open — Lebanon Withdrawal Reports",
             "Israeli Rhetoric — Bennett and Ben-Gvir",
@@ -221,7 +221,7 @@ CAPTURES: dict[str, dict] = {
             "Ian Proud",
         ],
     },
-    "source-weichert-carlson-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md": {
+    "source-tucker-carlson-weichert-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md": {
         "titles": [
             "Monologue — Lebanon Casualties and Betrayal",
             "Monologue — Iran War Justification and Lebanon",

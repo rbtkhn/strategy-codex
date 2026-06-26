@@ -37,12 +37,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `krainer`, `nima` | [watch](https://www.youtube.com/watch?v=8ELGP4iroAg) | `source-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=g_h7pvyO2Fs) | `source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md` |
 | `garland-nixon` | Garland Nixon | `ritter` | [watch](https://www.youtube.com/watch?v=ouQIIqiLqOM) | `source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md` |
-| `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [watch](https://www.youtube.com/watch?v=oCMxJGVoT_M) | `source-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=--BJXEtpXEQ) | `source-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md` |
-| `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [Cs9lmF9-Olc](https://www.youtube.com/watch?v=Cs9lmF9-Olc) | `source-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=cbAjV-mAZCU) | `source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md` |
-| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [watch](https://www.youtube.com/watch?v=pwT2ipwrUJs) | `source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=aM0_O97UwrM) | `source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md` |
+| `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [watch](https://www.youtube.com/watch?v=oCMxJGVoT_M) | `source-judging-freedom-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=--BJXEtpXEQ) | `source-judging-freedom-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md` |
+| `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [Cs9lmF9-Olc](https://www.youtube.com/watch?v=Cs9lmF9-Olc) | `source-judging-freedom-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=cbAjV-mAZCU) | `source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md` |
+| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [watch](https://www.youtube.com/watch?v=pwT2ipwrUJs) | `source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=aM0_O97UwrM) | `source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md` |
 | `switzerland-with-tom-switzer` | Switzerland with Tom Switzer | `pape` | [watch](https://www.youtube.com/watch?v=cWmuMnJLPnM) | `source-pape-switzer-the-mirage-of-peace-2026-05-28.md` |
 
 ## Writer sources
@@ -72,10 +72,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md`
 - `source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md`
 - `source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md`
-- `source-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md`
-- `source-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md`
-- `source-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md`
-- `source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md`
-- `source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md`
-- `source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md`
+- `source-judging-freedom-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md`
+- `source-judging-freedom-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md`
+- `source-judging-freedom-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md`
+- `source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md`
+- `source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md`
+- `source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md`
 - `source-pape-switzer-the-mirage-of-peace-2026-05-28.md`

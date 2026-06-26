@@ -36,8 +36,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=q7734pjxlws) | `source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md` |
 | `glenn-diesen` | — | `diesen`, `armstrong` | [watch](https://www.youtube.com/watch?v=JB3YL6cyjqE) | `source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [E0JqaiO8IQA](https://www.youtube.com/watch?v=E0JqaiO8IQA) | `source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md` |
-| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=g-zo08G3Ot4) | `source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md` |
-| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=bvKzn-2JHr8) | `source-napolitano-mearsheimer-trump-has-no-offramp-2026-02-24.md` |
+| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=g-zo08G3Ot4) | `source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=bvKzn-2JHr8) | `source-judging-freedom-mearsheimer-trump-has-no-offramp-2026-02-24.md` |
 
 ## Writer sources
 
@@ -61,5 +61,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md`
 - `source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md`
 - `source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md`
-- `source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md`
-- `source-napolitano-mearsheimer-trump-has-no-offramp-2026-02-24.md`
+- `source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md`
+- `source-judging-freedom-mearsheimer-trump-has-no-offramp-2026-02-24.md`

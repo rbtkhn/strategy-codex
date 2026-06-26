@@ -8,7 +8,7 @@ Month status: `continuity carryover month`
 
 ## February index
 
-- [source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md](../../../../source-archive/statecraft/2026-02-10/source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+- [source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md](../../../../source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
   - Auxiliary indictment lane centers escalation risk and illegitimate-war pressure.
 - [source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md](../../../../source-archive/statecraft/2026-02-26/source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
   - Altitude lane turns the same pressure into broader order-consequence and diplomacy-failure language.

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-22T15:28:33.039758+00:00",
+  "generated_at": "2026-06-25T15:46:21.341412+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
   },
   "strict_mode": false,
   "phase": "both",
-  "ok": true,
-  "integrity_ok": true,
+  "ok": false,
+  "integrity_ok": false,
   "governance_ok": true,
   "self_memory_changed": false,
   "reviewable_count": 0,
@@ -15,8 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "Capture gap: Record hasn't grown in 32 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
-    "AI frontier watch: The Innermost Loop latest - Welcome to June 21, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Statecraft scaffold would_trim \u2014 run post_land_statecraft_batch for catch-up day(s)",
+    "Capture gap: Record hasn't grown in 35 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence"
   ],
   "phases": {
     "recent": {
@@ -25,26 +25,26 @@
       "relation_counts": {}
     },
     "structural": {
-      "integrity": "pass",
+      "integrity": "fail",
       "governance": "pass",
       "entry_count": 0,
       "relation_counts": {}
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-06-21T15:28:16.635137+00:00",
-    "window_end_utc": "2026-06-22T15:28:16.635137+00:00",
+    "window_start_utc": "2026-06-24T15:46:03.355983+00:00",
+    "window_end_utc": "2026-06-25T15:46:03.355983+00:00",
     "window_hours": 24.0,
     "count": 1,
-    "first_ts": "2026-06-22T12:14:00+00:00",
-    "last_ts": "2026-06-22T12:14:00+00:00",
+    "first_ts": "2026-06-24T23:50:00+00:00",
+    "last_ts": "2026-06-24T23:50:00+00:00",
     "span_hours": null,
     "by_mode": {
       "work-start": 1
     },
     "runs": [
       {
-        "ts_iso": "2026-06-22T12:14:00+00:00",
+        "ts_iso": "2026-06-24T23:50:00+00:00",
         "ok": true,
         "mode": "work-start",
         "kv": {
@@ -57,8 +57,8 @@
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-06-21T15:28:16.635137+00:00",
-    "window_end_utc": "2026-06-22T15:28:16.635137+00:00",
+    "window_start_utc": "2026-06-24T15:46:03.355983+00:00",
+    "window_end_utc": "2026-06-25T15:46:03.355983+00:00",
     "window_hours": 24.0,
     "completed_passes": 0,
     "orientation_only": 0,
@@ -116,87 +116,165 @@
       ]
     }
   ],
-  "suggested_execution_path_index": 0,
-  "execution_path_suggestion_reason": "validated_follow_through",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: mercouris-land-or-civ-state-mirror; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
-  "learning_action_recommendation": "confirm",
-  "learning_action_reason": "recent receipts suggest clean follow-through",
-  "carry_forward_object": "mercouris-land-or-civ-state-mirror",
-  "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
-  "confidence_class": "medium",
-  "bias_strength": "soft",
-  "civmem_echoes": [
-    {
-      "path": "book\\APPLIED-THEOLOGY-INSIGHTS-MERCOURIS-LENS.md",
-      "overlap": 4,
-      "snippet_preview": "**Purpose:** Identify structural and procedural insights from CIV\u2013MIND\u2013MERCOURIS (legitimacy, delegation/format, faction persistence, time horizon, asymmetric information) that the book does not yet s",
-      "analogy_label": "Analogy candidate only \u2014 not evidence, not recommendation, not Record.",
-      "specificity_pass": true,
-      "score": 6.0
-    }
-  ],
+  "suggested_execution_path_index": 1,
+  "execution_path_suggestion_reason": "integrity_or_governance_pressure",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Test** - object: integrity / governance repair; next test: Do the checks pass cleanly on the next coffee?; integrity or governance pressure is still live; not policy or Record.",
+  "learning_action_recommendation": "test",
+  "learning_action_reason": "integrity or governance pressure is still live",
+  "carry_forward_object": "integrity / governance repair",
+  "carry_forward_test": "Do the checks pass cleanly on the next coffee?",
+  "confidence_class": "high",
+  "bias_strength": "strong",
+  "civmem_echoes": [],
   "civmem_disclaimer": "Analogical / historical depth from in-repo civ-mem (token overlap); not current truth, not Voice knowledge, not part of the Record.",
   "civmem_index_missing": false,
+  "civmem_suppressed_reason": "suppressed_integrity_fail",
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 32,
+    "days_since_evidence": 35,
     "last_merge_date": null,
     "days_since_merge": null,
     "pending_count": 1,
     "level": "alert",
-    "message": "Record hasn't grown in 32 days (last: ACT-0038, 2026-05-21)"
+    "message": "Record hasn't grown in 35 days (last: ACT-0038, 2026-05-21)"
+  },
+  "capability_shift": {
+    "category": "model",
+    "sources_checked": 0,
+    "sources_total": 6,
+    "alert_count": 0,
+    "review_count": 0,
+    "monitor_count": 0,
+    "variant_count": 0,
+    "fetch_errors": [
+      {
+        "name": "Anthropic",
+        "error": "Remote end closed connection without response"
+      },
+      {
+        "name": "OpenAI",
+        "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      },
+      {
+        "name": "xAI",
+        "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      },
+      {
+        "name": "Google",
+        "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      },
+      {
+        "name": "DeepSeek",
+        "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      },
+      {
+        "name": "Qwen",
+        "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      }
+    ]
   },
   "frontier_source_hint": {
     "source_id": "the-innermost-loop",
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-06-22T15:28:31.032667+00:00",
-    "status": "ok",
-    "title": "Welcome to June 21, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-21-2026",
-    "published_at": "2026-06-22T00:13:38+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 21, 2026\" (2026-06-22T00:13:38+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "fetched_at": "2026-06-25T15:46:19.316081+00:00",
+    "status": "unavailable",
+    "error": "URLError: "
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
-    "previous_dream_generated_at": "2026-06-21T16:25:08.063100+00:00",
+    "previous_dream_generated_at": "2026-06-22T15:28:33.039758+00:00",
     "local_calendar_dates": [
-      "2026-06-22"
+      "2026-06-23",
+      "2026-06-24",
+      "2026-06-25"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-06-22"
+      "2026-06-23",
+      "2026-06-24",
+      "2026-06-25"
     ],
     "statecraft_scaffold_catchup": {
       "semantics": "since_previous_dream",
       "mode": "report",
       "max_apply": null,
-      "days_scanned": 1,
-      "files_scanned": 4,
-      "skipped_no_folder": 0,
+      "days_scanned": 2,
+      "files_scanned": 24,
+      "skipped_no_folder": 1,
       "summary": {
-        "would_trim": 0,
+        "would_trim": 6,
         "applied": 0,
         "blocked_truncated": 0,
         "stale_flags": 0,
         "needs_caption_wrapper": 0,
-        "needs_manual_review": 0,
+        "needs_manual_review": 2,
         "read_error": 0,
         "deferred_over_cap": 0
       },
       "by_day": {
-        "2026-06-22": {
-          "files": 4,
-          "actions": []
+        "2026-06-23": {
+          "files": 14,
+          "actions": [
+            {
+              "path": "source-archive/statecraft/2026-06-23/source-daniel-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23.md",
+              "status": "would_trim",
+              "family": "davis-deep-dive",
+              "flags": "see-you-then-show,-266c"
+            },
+            {
+              "path": "source-archive/statecraft/2026-06-23/source-daniel-davis-postol-patriot-missile-capabilities-2026-06-23.md",
+              "status": "would_trim",
+              "family": "davis-deep-dive",
+              "flags": "appreciate-you-guys-close,-1034c"
+            },
+            {
+              "path": "source-archive/statecraft/2026-06-23/source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md",
+              "status": "needs_manual_review"
+            },
+            {
+              "path": "source-archive/statecraft/2026-06-23/source-mario-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md",
+              "status": "would_trim",
+              "family": "nawfal",
+              "flags": "metadata"
+            }
+          ]
+        },
+        "2026-06-24": {
+          "files": 10,
+          "actions": [
+            {
+              "path": "source-archive/statecraft/2026-06-24/source-daniel-davis-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24.md",
+              "status": "would_trim",
+              "family": "davis-deep-dive",
+              "flags": "gold-stock-cta,-227c"
+            },
+            {
+              "path": "source-archive/statecraft/2026-06-24/source-daniel-davis-larry-johnson-iran-deal-trump-making-it-up-2026-06-24.md",
+              "status": "would_trim",
+              "family": "davis-deep-dive",
+              "flags": "thanks-folks-close,-265c"
+            },
+            {
+              "path": "source-archive/statecraft/2026-06-24/source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md",
+              "status": "needs_manual_review"
+            },
+            {
+              "path": "source-archive/statecraft/2026-06-24/source-mario-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md",
+              "status": "would_trim",
+              "family": "nawfal",
+              "flags": "metadata"
+            }
+          ]
         }
       },
       "exit_code": 0
     }
   },
   "last_coffee_echo": {
-    "timestamp": "2026-06-22T12:14:00+00:00",
+    "timestamp": "2026-06-24T23:50:00+00:00",
     "conductor": null,
     "mode": "work-start",
     "menu_letter": null,
@@ -204,13 +282,13 @@
     "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
-  "topActionReason": "validated_follow_through",
+  "topActionReason": "integrity_or_governance_pressure",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "Capture gap: Record hasn't grown in 32 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "must_resume": "Statecraft scaffold would_trim \u2014 run post_land_statecraft_batch for catch-up day(s)",
     "safe_to_drop": "",
-    "blocked": "",
-    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 21, 2026 - consider explicit source hygiene if relevant t"
+    "blocked": "Dream reported not ok \u2014 review integrity/governance before new work.",
+    "watch_later": "Capture gap: Record hasn't grown in 35 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

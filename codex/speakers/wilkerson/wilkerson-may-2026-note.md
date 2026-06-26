@@ -32,13 +32,13 @@ It is better read as:
 3. [2026-05-15 - *Trump-Xi Meeting After U.S. Defeat in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
    Status: YouTube-primary `Diesen` continuation already materialized.
 
-4. [2026-05-14 - *Checkmate in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
+4. [2026-05-14 - *Checkmate in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-judging-freedom-wilkerson-checkmate-in-iran-2026-05-14.md)
    Status: transcript-grade `Judging Freedom` anchor now materialized.
 
 5. [2026-05-20 - *Heated Arguments in White House*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
    Status: `Mario Nawfal` crossover already materialized.
 
-6. [2026-05-21 - *Trump Trapped In a Corner*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
+6. [2026-05-21 - *Trump Trapped In a Corner*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-judging-freedom-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
    Status: transcript-grade `Judging Freedom` reinforcement now materialized.
 
 7. [2026-05-22 - *Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
@@ -47,7 +47,7 @@ It is better read as:
 8. [2026-05-26 - *Failing to Adjust to a Multipolar World*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
    Status: YouTube-primary `Diesen` reinforcement already materialized.
 
-9. [2026-05-28 - *What Remains of International Law*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+9. [2026-05-28 - *What Remains of International Law*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md)
    Status: transcript-grade `Judging Freedom` month closer already materialized.
 
 Companion structural surface:

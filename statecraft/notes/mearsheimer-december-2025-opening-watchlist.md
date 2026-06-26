@@ -24,11 +24,11 @@ So December is not sparse overall. It is specifically thin in Mearsheimer presen
 
 Five December 2025 Mearsheimer-thread captures are currently on disk:
 
-- `2025-12-04` - [source-napolitano-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-04/source-napolitano-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md)
-- `2025-12-09` - [source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md)
-- `2025-12-18` - [source-napolitano-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-napolitano-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md)
+- `2025-12-04` - [source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-04/source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md)
+- `2025-12-09` - [source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md)
+- `2025-12-18` - [source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md)
 - `2025-12-19` - [source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-19/source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md)
-- `2025-12-24` - [source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-24/source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- `2025-12-24` - [source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
 
 The December 24 anchor matters, but it is currently a `summary-grade` rather than `clean transcript-grade` Mearsheimer object. Its frontmatter already preserves that truth explicitly through `source_type: web-transcript-derived-summary` and the accompanying editorial note.
 

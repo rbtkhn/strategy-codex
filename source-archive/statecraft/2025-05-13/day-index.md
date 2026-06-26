@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=gzWVK3yb4Mc) | `source-alex-mercouris-putin-calls-uk-eu-bluff-no-sanctions-as-moscow-ignores-ultimatum-won-t-meet-zelensky-in-istanbul-2025-05-13.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-who-won-the-us-yemen-war-2025-05-13.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=8nBYb63nmZk) | `source-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-who-won-the-us-yemen-war-2025-05-13.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=8nBYb63nmZk) | `source-judging-freedom-macgregor-is-us-generous-or-murderous-2025-05-13.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-putin-calls-uk-eu-bluff-no-sanctions-as-moscow-ignores-ultimatum-won-t-meet-zelensky-in-istanbul-2025-05-13.md`
-- `source-napolitano-amb-charles-freeman-who-won-the-us-yemen-war-2025-05-13.md`
-- `source-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md`
+- `source-judging-freedom-amb-charles-freeman-who-won-the-us-yemen-war-2025-05-13.md`
+- `source-judging-freedom-macgregor-is-us-generous-or-murderous-2025-05-13.md`

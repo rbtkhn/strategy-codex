@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | — | `source-dialogue-works-amb-chas-freeman-america-s-fatal-mistake-a-disaster-in-the-making-2025-08-29.md` |
 | `glenn-diesen` | — | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=7KtGLsO9u00) | `source-glenn-diesen-alastair-crooke-alastair-crooke-russia-s-patience-is-over-escalation-begins-2025-08-29.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=c-8JlGkA9XQ') | `source-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=c-8JlGkA9XQ') | `source-judging-freedom-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-dialogue-works-amb-chas-freeman-america-s-fatal-mistake-a-disaster-in-the-making-2025-08-29.md`
 - `source-glenn-diesen-alastair-crooke-alastair-crooke-russia-s-patience-is-over-escalation-begins-2025-08-29.md`
-- `source-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md`
+- `source-judging-freedom-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md`

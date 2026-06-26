@@ -39,9 +39,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [o6b4KXMS1aw](https://www.youtube.com/watch?v=o6b4KXMS1aw) | `source-dialogue-works-johnson-wilkerson-iran-fires-missiles-at-us-destroyers-us-ships-flee-to-indian-ocean-2026-06-05.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=CtNtxF4LPKo) | `source-dialogue-works-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [CtNtxF4LPKo](https://www.youtube.com/watch?v=CtNtxF4LPKo) | `source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md` |
-| `judging-freedom` | Judging Freedom | `johnson`, `napolitano`, `mcgovern` | [9mOCqLYJOaM](https://www.youtube.com/watch?v=9mOCqLYJOaM) | `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=4p1phpcrjoQ) | `source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [p1w0nJwdILU](https://www.youtube.com/watch?v=p1w0nJwdILU) | `source-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md` |
+| `judging-freedom` | Judging Freedom | `johnson`, `napolitano`, `mcgovern` | [9mOCqLYJOaM](https://www.youtube.com/watch?v=9mOCqLYJOaM) | `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=4p1phpcrjoQ) | `source-mario-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [p1w0nJwdILU](https://www.youtube.com/watch?v=p1w0nJwdILU) | `source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md` |
 | `reinvent-money` | Reinvent Money | `paul`, `armstrong` | [UUz7YOLVy9o](https://www.youtube.com/watch?v=UUz7YOLVy9o) | `source-reinvent-money-martin-armstrong-things-will-escalate-next-week-iran-ukraine-peace-gold-bitcoin-2026-06-05.md` |
 
 ## Writer sources
@@ -69,7 +69,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-johnson-wilkerson-iran-fires-missiles-at-us-destroyers-us-ships-flee-to-indian-ocean-2026-06-05.md`
 - `source-dialogue-works-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md`
 - `source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md`
-- `source-napolitano-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md`
-- `source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md`
-- `source-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md`
+- `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md`
+- `source-mario-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md`
+- `source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md`
 - `source-reinvent-money-martin-armstrong-things-will-escalate-next-week-iran-ukraine-peace-gold-bitcoin-2026-06-05.md`

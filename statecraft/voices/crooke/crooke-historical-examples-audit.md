@@ -338,7 +338,7 @@ Coverage basis:
 ### 9. German Second World War "permanent security" and Nuremberg as the warning against redemptive extermination logic
 
 - Example: `German Second World War permanent security / Nuremberg`
-- Source: [2026-05-18 Judging Freedom](../../../source-archive/statecraft/2026-05-18/source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md)
+- Source: [2026-05-18 Judging Freedom](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-crooke-israels-war-unraveling-america-2026-05-18.md)
 - Exact quote:
 
 > "permanent security is a sort of idea that came from, in fact, from Germany in the Second World War"

@@ -199,7 +199,7 @@ not the 200 billions of their money that is frozen there, but 200 additional bil
 
 >> Yeah. Just amazing to see these days of NATO.
 
-NATO is done. You know, we've been talking about NATO and looking at the situation with NATO and nobody's hearing anything about Mark Rut. You know,
+NATO is done. You know, we've been talking about NATO and looking at the situation with NATO and nobody's hearing anything about Mark Rutte. You know,
 
 >> I remember for four years I was talking about, you know, the former, you know, secretary general of NATO.
 

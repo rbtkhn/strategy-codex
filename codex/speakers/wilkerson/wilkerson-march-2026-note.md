@@ -30,7 +30,7 @@ It is better read as:
 3. [2026-03-20 - *Second F-35 Down? Iran War Spirals*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md)
    Status: transcript-grade `Dialogue Works` crossover already materialized.
 
-4. [2026-03-26 - *Why Trump Is Wedded to Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
+4. [2026-03-26 - *Why Trump Is Wedded to Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
    Status: `Judging Freedom` reinforcement already materialized.
 
 5. [2026-03-27 - *U.S.-Iran Ground Conflict Could Devastate Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-27/source-dialogue-works-larry-johnson-col-wilkerson-us-iran-ground-conflict-could-devastate-is-2026-03-27.md)

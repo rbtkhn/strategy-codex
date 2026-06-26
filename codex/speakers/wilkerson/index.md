@@ -52,7 +52,7 @@ The orthogonality-bearing structure on this shelf is:
 
 - [2026-03-31 Dialogue Works x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
 - [2026-05-06 Diesen x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- [2026-05-28 Judging Freedom x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+- [2026-05-28 Judging Freedom x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## Raw-Input Coverage
 

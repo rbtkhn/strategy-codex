@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=aKQRrJtGIEc) | `source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=53WFaEMvcs8) | `source-glenn-diesen-george-beebe-us-russia-agreement-to-end-nato-expansionism-or-accept-an-ugly-russian-victory-2025-10-22.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=7Wrd2J1pLqk) | `source-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=bBTysTskytw') | `source-napolitano-sachs-israels-next-moves-2025-10-22.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=bBTysTskytw') | `source-judging-freedom-sachs-israels-next-moves-2025-10-22.md` |
 
 ## Writer sources
 
@@ -60,4 +60,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md`
 - `source-glenn-diesen-george-beebe-us-russia-agreement-to-end-nato-expansionism-or-accept-an-ugly-russian-victory-2025-10-22.md`
 - `source-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md`
-- `source-napolitano-sachs-israels-next-moves-2025-10-22.md`
+- `source-judging-freedom-sachs-israels-next-moves-2025-10-22.md`

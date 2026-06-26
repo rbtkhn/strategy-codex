@@ -126,7 +126,7 @@ Anchors:
 - 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
 - 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
 - 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
-- 2026-05-18 - Judging Freedom, *US Getting Ready for More War*: [raw-input](../../../years/2026/provenance/2026-05-18/source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md)
+- 2026-05-18 - Judging Freedom, *US Getting Ready for More War*: [raw-input](../../../years/2026/provenance/2026-05-18/source-judging-freedom-johnson-us-getting-ready-for-more-war-2026-05-18.md)
 
 Arc-thread motion: the process lane keeps turning strategy into contradiction: ceasefires that are not ceasefires, blockades that do not control Hormuz, stand-down and more-war signals arriving together, and auxiliary hosts reinforcing that process itself has become absurd.
 

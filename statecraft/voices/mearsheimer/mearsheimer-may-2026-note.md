@@ -34,7 +34,7 @@ It is better read as:
 4. [2026-05-18 - Toward All-Out War With Both Russia & Iran](../../../source-archive/statecraft/2026-05-18/source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
    Status: `Diesen` reinforcement that turns the month into a cross-theater escalation and no-bargaining-space object.
 
-5. [2026-05-26 - Neocons Want More War](../../../source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
+5. [2026-05-26 - Neocons Want More War](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md)
    Status: transcript-grade `Napolitano` reinforcement orbit, sharpening defeat accounting and neocon sequence pressure.
 
 6. [2026-05-28 - Iran Ceasefire Hangs by a Thread](../../../source-archive/statecraft/2026-05-28/source-daniel-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md)

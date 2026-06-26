@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=KKAmexZdcLM) | `source-alex-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md` |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=S85lXEX9WXM) | `source-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md` |
+| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=S85lXEX9WXM) | `source-judging-freedom-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md`
-- `source-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md`
+- `source-judging-freedom-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md`

@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Crooke × Napolitano / Ceasefire for all or ceasefire for no one](../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
+- [Crooke × Napolitano / Ceasefire for all or ceasefire for no one](../../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
 - [Crooke × Hedges / Is the ceasefire dead?](../../source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md)
 
 ## Purpose

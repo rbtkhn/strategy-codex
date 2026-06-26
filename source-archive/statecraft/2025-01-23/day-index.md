@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OKNKbp7xl4U) | `source-alex-mercouris-trump-blocks-ukraine-arms-threatens-russia-moscow-rejects-threats-zelens-2025-01-23.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=NCfyWNZVkUI) | `source-daniel-davis-israel-drunk-on-their-own-power-2025-01-23.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=-YX2OUdts9k) | `source-daniel-davis-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=z8VAEiuv7Cw) | `source-napolitano-macgregor-the-coming-world-war-iii-2025-01-23.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=z8VAEiuv7Cw) | `source-judging-freedom-macgregor-the-coming-world-war-iii-2025-01-23.md` |
 
 ## Writer sources
 
@@ -58,4 +58,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alex-mercouris-trump-blocks-ukraine-arms-threatens-russia-moscow-rejects-threats-zelens-2025-01-23.md`
 - `source-daniel-davis-israel-drunk-on-their-own-power-2025-01-23.md`
 - `source-daniel-davis-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md`
-- `source-napolitano-macgregor-the-coming-world-war-iii-2025-01-23.md`
+- `source-judging-freedom-macgregor-the-coming-world-war-iii-2025-01-23.md`

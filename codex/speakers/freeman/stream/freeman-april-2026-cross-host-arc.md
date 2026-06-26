@@ -16,12 +16,12 @@ April is where the March war threshold turns into settlement failure, Hormuz con
 | 2026-04-03 | Glenn Diesen | *World Disorder - Global Nuclear Proliferation Coming* | [raw-input](../../../years/2026/provenance/2026-04-03/source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md) | proliferation and order breakdown |
 | 2026-04-10 | Dialogue Works | *Israel's STRATEGY in TATTERS - Trump TAKES OVER* | [raw-input](../../../years/2026/provenance/2026-04-10/source-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md) | Trump takeover of failing Israeli war logic |
 | 2026-04-13 | Daniel Davis / Deep Dive | *Iran War: Whoever Drops the Most Bombs Wins?* | [raw-input](../../../years/2026/provenance/2026-04-13/source-daniel-davis-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md) | bombing-power fallacy |
-| 2026-04-14 | Judging Freedom | *Israel's Strategy Collapsing* | [raw-input](../../../years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md) | Islamabad performative talks / blockade-of-blockade |
+| 2026-04-14 | Judging Freedom | *Israel's Strategy Collapsing* | [raw-input](../../../years/2026/provenance/2026-04-14/source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md) | Islamabad performative talks / blockade-of-blockade |
 | 2026-04-17 | Dialogue Works | *Israel's Strategy Just COLLAPSED - Trump Steps In* | [raw-input](../../../years/2026/provenance/2026-04-17/transcript-freeman.md) | phony ceasefire / U.S. decay |
 | 2026-04-18 | Glenn Diesen | *Diplomacy Fails - Strait of Hormuz Shut Down Again* | [raw-input](../../../years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) | Hormuz door-vs-padlock / blockade sustainability |
-| 2026-04-21 | Judging Freedom | *US Diplomacy Is Dead - And the World Knows It* | [raw-input](../../../years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md) | Islamabad hoax / Hormuz control / clientitis |
+| 2026-04-21 | Judging Freedom | *US Diplomacy Is Dead - And the World Knows It* | [raw-input](../../../years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md) | Islamabad hoax / Hormuz control / clientitis |
 | 2026-04-24 | Dialogue Works | *Israel's Agenda Is Collapsing Faster Than Anyone Expected* | [raw-input](../../../years/2026/provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) / [YouTube](https://www.youtube.com/watch?v=fie-q0V82_E) | agenda collapse / Greater Israel failure |
-| 2026-04-28 | Judging Freedom | *What Russia Can Do For Iran* | [raw-input](../../../years/2026/provenance/2026-04-28/source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md) | Russia backing / settlement ordering |
+| 2026-04-28 | Judging Freedom | *What Russia Can Do For Iran* | [raw-input](../../../years/2026/provenance/2026-04-28/source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md) | Russia backing / settlement ordering |
 
 ## Found, Not Yet Canonical
 

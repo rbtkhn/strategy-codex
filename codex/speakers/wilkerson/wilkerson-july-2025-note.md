@@ -21,7 +21,7 @@ The honest reading is:
 
 ## Materialized on disk
 
-1. [2025-07-09 - *COL. Lawrence Wilkerson : Does The Deep State Control Trump?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-09/source-napolitano-wilkerson-does-the-deep-state-control-trump-2025-07-09.md)
+1. [2025-07-09 - *COL. Lawrence Wilkerson : Does The Deep State Control Trump?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-09/source-judging-freedom-wilkerson-does-the-deep-state-control-trump-2025-07-09.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized.
    URL: [https://www.youtube.com/watch?v=qo9JCvTbu-Q](https://www.youtube.com/watch?v=qo9JCvTbu-Q)
    Date note: transcript opening states Wednesday, July 9th, 2025; some secondary podcast-release mirrors surface the episode as July 10, 2025, so the spoken in-episode date is preserved as canonical archive date.

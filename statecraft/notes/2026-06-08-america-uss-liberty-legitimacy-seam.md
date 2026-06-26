@@ -141,7 +141,7 @@ This statecraft note extends the June 6–7 America capture chain; it does not r
 
 - [America: Captured Command - 2026-06-06](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
 - [America: Trump Humiliation - 2026-06-07](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
-- [Crooke: Ceasefire for All - source 2026-06-08](../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) (same-day bench; McGovern cites Crooke phrase in same episode)
+- [Crooke: Ceasefire for All - source 2026-06-08](../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) (same-day bench; McGovern cites Crooke phrase in same episode)
 - [America transaction — command firewall + successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 - [June 8 intake readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md)
 - [Davis trust fork statecraft note](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) (same-day; deal-trust plane)
@@ -150,7 +150,7 @@ Parent daily (when written): [State Synthesis - 2026-06-08](statecraft/synthesis
 
 ## Source Anchors
 
-- [McGovern / Judging Freedom - USS Liberty + Putin + Middle East - 2026-06-08](../../source-archive/statecraft/2026-06-08/source-napolitano-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md) · [watch](https://www.youtube.com/watch?v=kiWqcTeLaIQ)
+- [McGovern / Judging Freedom - USS Liberty + Putin + Middle East - 2026-06-08](../../source-archive/statecraft/2026-06-08/source-judging-freedom-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md) · [watch](https://www.youtube.com/watch?v=kiWqcTeLaIQ)
 - [McGovern / Dialogue Works - 2026-06-06](../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md) (capture baseline)
 
 Related:

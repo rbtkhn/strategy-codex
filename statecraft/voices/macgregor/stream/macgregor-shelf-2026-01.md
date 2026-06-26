@@ -8,7 +8,7 @@ Month status: `continuity carryover month`
 
 ## January index
 
-- [source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md](../../../../source-archive/statecraft/2026-01-07/source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
+- [source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md](../../../../source-archive/statecraft/2026-01-07/source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
   - Auxiliary indictment lane opens 2026 with undeclared-war and elite-war-planning pressure.
 - [source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md](../../../../source-archive/statecraft/2026-01-22/source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
   - Altitude lane reasserts order-consequence and NATO-fracture framing.

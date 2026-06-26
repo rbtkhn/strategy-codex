@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=YY89Hvc2GDY) | `source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md`
-- `source-napolitano-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md`
+- `source-judging-freedom-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md`

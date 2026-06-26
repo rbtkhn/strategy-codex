@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=hMHRe022ECM) | `source-dialogue-works-martin-armstrong-trump-vs-brics-is-he-leading-the-u-s-to-power-or-collapse-2025-02-19.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ftHf27aLPno) | `source-napolitano-macgregor-israel-egypt-and-riyadh-2025-02-19.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ftHf27aLPno) | `source-judging-freedom-macgregor-israel-egypt-and-riyadh-2025-02-19.md` |
 
 ## Writer sources
 
@@ -54,5 +54,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-dialogue-works-martin-armstrong-trump-vs-brics-is-he-leading-the-u-s-to-power-or-collapse-2025-02-19.md`
-- `source-napolitano-macgregor-israel-egypt-and-riyadh-2025-02-19.md`
+- `source-judging-freedom-macgregor-israel-egypt-and-riyadh-2025-02-19.md`
 - `source-sachs-speech-at-the-eu-parliament-2025-02-19.md`

@@ -20,7 +20,7 @@ subtitle: "I spent ten days travelling through the territories that are at the h
 access: public
 capture_note: "Operator paste; SMO field journey series opener — Starobelsk May 22 drone attack; Burevestnik/Krivonos/Archanglesk drone units; Rogozhin; children memorials; June 2026 travel under Iskander security team."
 evidence_grade: substack-bearing
-editorial_note: "Operator-pasted body; publication line Jun 19, 2026. First in promised multi-part SMO series. Wire-verify header pass 2026-06-21. Operator adjudication 2026-06-21: Starobilsk May 22 Ukrainian terrorist attack on college dormitory — confirmed (verify:tier-A); Rubicon-HQ-at-college allegation — no evidence (contradicted); reduce credibility of sources that entertain the allegation."
+editorial_note: "Operator-pasted body; publication line Jun 19, 2026. First in promised multi-part SMO series. News-verify header pass 2026-06-21. Operator adjudication 2026-06-21: Starobilsk May 22 Ukrainian terrorist attack on college dormitory — confirmed (verify:tier-A); Rubicon-HQ-at-college allegation — no evidence (contradicted); reduce credibility of sources that entertain the allegation."
 operator_adjudication: 2026-06-21
 operator_verdict: "Starobilsk May 22 2026 — Ukrainian terrorist drone attack on Starobilsk college dormitory (21 dead) confirmed for operator synthesis. Rubicon HQ at college site — no evidence provided; allegation contradicted for Judgment; downweight any source that entertains it."
 source_weight_downgrade:

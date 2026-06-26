@@ -82,8 +82,8 @@ Distinct from Iran trap clocks — bounded synthesis: [pape-on-china-ai.md](../.
 - [2026-06-03 Redacted x Pape - We Are in the End Game Now (Ukraine / Russia)](../../../source-archive/statecraft/2026-06-03/source-pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03.md)
 - [2026-06-04 Mario Nawfal x Pape - Iran Has Become Fourth World Superpower](../../../source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md)
 - [2026-06-09 Breaking Points x Pape - Axis of Resistance Security Belt](../../../source-archive/statecraft/2026-06-09/source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md)
-- [2026-06-09 Mario Nawfal x Pape - Hezbollah Infiltrates Israel, Apache Shot Down](../../../source-archive/statecraft/2026-06-09/source-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md)
-- [2026-06-16 Mario Nawfal x Pape - CIA Chief Warns Iran Not Serious About MoU](../../../source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md)
+- [2026-06-09 Mario Nawfal x Pape - Hezbollah Infiltrates Israel, Apache Shot Down](../../../source-archive/statecraft/2026-06-09/source-mario-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md)
+- [2026-06-16 Mario Nawfal x Pape - CIA Chief Warns Iran Not Serious About MoU](../../../source-archive/statecraft/2026-06-16/source-mario-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md)
 
 ## Support-Tier Bench
 

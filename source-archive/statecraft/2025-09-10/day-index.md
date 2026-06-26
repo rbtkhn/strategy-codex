@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2G52wFryBLU) | `source-alex-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=93FyLG-5rrI) | `source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=uxaBNRuydgw) | `source-napolitano-mearsheimer-israels-true-goals-2025-09-10.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=lGrooy41n1E') | `source-napolitano-sachs-how-israel-blackmails-washington-2025-09-10.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=uxaBNRuydgw) | `source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=lGrooy41n1E') | `source-judging-freedom-sachs-how-israel-blackmails-washington-2025-09-10.md` |
 
 ## Writer sources
 
@@ -57,5 +57,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md`
 - `source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md`
-- `source-napolitano-mearsheimer-israels-true-goals-2025-09-10.md`
-- `source-napolitano-sachs-how-israel-blackmails-washington-2025-09-10.md`
+- `source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md`
+- `source-judging-freedom-sachs-how-israel-blackmails-washington-2025-09-10.md`

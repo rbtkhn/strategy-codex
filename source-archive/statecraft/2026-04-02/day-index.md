@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [3EzbLrujYzY](https://www.youtube.com/watch?v=3EzbLrujYzY) | `source-dialogue-works-andrei-martyanov-it-s-over-the-u-s-just-lost-to-iran-here-s-why-2026-04-02.md` |
 | `dialogue-works` | Dialogue Works | `ritter`, `nima` | [ALxr05y5YaE](https://www.youtube.com/watch?v=ALxr05y5YaE) | `source-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `kent` | [teapZxaBgDI](https://www.youtube.com/watch?v=teapZxaBgDI) | `source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=f5Nja-30V-w) | `source-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=f5Nja-30V-w) | `source-judging-freedom-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md` |
 
 ## Writer sources
 
@@ -66,6 +66,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md`
 - `source-glenn-diesen-daniel-davis-trump-war-speech-2026-04-02.md`
 - `source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md`
-- `source-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md`
+- `source-judging-freedom-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md`
 - `source-pape-trump-accelerated-the-crisis-2026-04-02.md`
 - `source-sachs-incoherent-illegal-reckless-2026-04-02.md`

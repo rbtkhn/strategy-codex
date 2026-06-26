@@ -48,7 +48,7 @@ Parsi is a diplomacy-architecture speaker whose main value comes from settlement
 ## Disconfirming or stress-test anchors
 
 1. [2025-08-15 Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/source-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
-2. [2026-03-16 Napolitano x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+2. [2026-03-16 Napolitano x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md)
 
 ## Native adjustment notes
 

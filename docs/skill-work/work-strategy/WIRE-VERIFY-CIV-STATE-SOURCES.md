@@ -1,4 +1,4 @@
-# Wire-verify — CIV-STATE source registry (legacy)
+# News-verify — CIV-STATE source registry (legacy)
 
 **Moved to:** [NEWS-VERIFY-CIV-STATE-SOURCES.md](./NEWS-VERIFY-CIV-STATE-SOURCES.md)
 

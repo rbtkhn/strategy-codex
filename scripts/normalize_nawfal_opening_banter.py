@@ -176,12 +176,15 @@ def is_nawfal_hosted(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
     if "daniel-davis-deep-dive" in name and "mario-nawfal" in name:
         return False
+    channel = str(meta.get("channel_slug") or "").strip().lower()
+    if channel in ("mario-nawfal", "nawfal"):
+        return True
     show = str(meta.get("show") or meta.get("show_title") or "").strip().lower()
     host = str(meta.get("host") or "").strip().lower()
     if "mario nawfal" in show or "mario nawfal" in host:
         return True
-    return name.startswith("source-nawfal-") or (
-        "mario-nawfal" in name and not name.startswith("source-daniel-davis")
+    return name.startswith("source-mario-nawfal-") and not name.startswith(
+        "source-daniel-davis"
     )
 
 

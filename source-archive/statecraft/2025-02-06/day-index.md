@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ndT3ZWvjmCY) | `source-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ndT3ZWvjmCY) | `source-judging-freedom-macgregor-can-the-us-own-gaza-2025-02-06.md` |
 | `neutrality-studies` | Neutrality Studies | `lottaz`, `wilkerson` | [watch](https://www.youtube.com/watch?v=FUp3BaPdHIY) | `source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md`
+- `source-judging-freedom-macgregor-can-the-us-own-gaza-2025-02-06.md`
 - `source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md`

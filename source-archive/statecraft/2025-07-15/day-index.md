@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [VusbFzvhsf4](https://www.youtube.com/watch?v=VusbFzvhsf4) | `source-diesen-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=ObN01ent7w0) | `source-napolitano-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=ObN01ent7w0) | `source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-diesen-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md`
-- `source-napolitano-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md`
-- `source-napolitano-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md`
+- `source-judging-freedom-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md`
+- `source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md`

@@ -36,12 +36,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `johnson`, `davis` | [ETLzoyzPYr0](https://www.youtube.com/watch?v=ETLzoyzPYr0) | `source-daniel-davis-larry-johnson-iran-deal-trump-making-it-up-2026-06-24.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [sV1lTSNqjQc](https://www.youtube.com/watch?v=sV1lTSNqjQc) | `source-dialogue-works-johnson-israel-next-war-preparing-bomb-yemen-2026-06-24.md` |
 | `glenn-diesen` | Glenn Diesen | `blumenthal`, `diesen` | [2llCTE7Nf6w](https://www.youtube.com/watch?v=2llCTE7Nf6w) | `source-glenn-diesen-max-blumenthal-iran-deal-divides-us-triggers-panic-israel-2026-06-24.md` |
+| `judging-freedom` | Judging Freedom | `diesen`, `napolitano` | [8yMa_qVXHGM](https://www.youtube.com/watch?v=8yMa_qVXHGM) | `source-judging-freedom-diesen-europe-preparing-war-2026-06-24.md` |
+| `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [_t-06g6fEXk](https://www.youtube.com/watch?v=_t-06g6fEXk) | `source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md` |
+| `judging-freedom` | Judging Freedom | `mate`, `napolitano` | [yUMgg-xaeQs](https://www.youtube.com/watch?v=yUMgg-xaeQs) | `source-judging-freedom-mate-iran-deal-pause-not-peace-2026-06-24.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [VaXq6HQAaMM](https://www.youtube.com/watch?v=VaXq6HQAaMM) | `source-mario-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md` |
 | `moral-resistance` | Moral Resistance | `parsi`, `moral-resistance` | [hXPGF0L44qQ](https://www.youtube.com/watch?v=hXPGF0L44qQ) | `source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md` |
-| `judging-freedom` | Judging Freedom | `diesen`, `napolitano` | [8yMa_qVXHGM](https://www.youtube.com/watch?v=8yMa_qVXHGM) | `source-napolitano-diesen-europe-preparing-war-2026-06-24.md` |
-| `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [_t-06g6fEXk](https://www.youtube.com/watch?v=_t-06g6fEXk) | `source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md` |
-| `judging-freedom` | Judging Freedom | `mate`, `napolitano` | [yUMgg-xaeQs](https://www.youtube.com/watch?v=yUMgg-xaeQs) | `source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [VaXq6HQAaMM](https://www.youtube.com/watch?v=VaXq6HQAaMM) | `source-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md` |
-| `tucker-carlson` | Tucker Carlson | `weichert`, `carlson` | [q72s8zwwGg4](https://www.youtube.com/watch?v=q72s8zwwGg4) | `source-weichert-carlson-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md` |
+| `tucker-carlson` | Tucker Carlson | `weichert`, `carlson` | [q72s8zwwGg4](https://www.youtube.com/watch?v=q72s8zwwGg4) | `source-tucker-carlson-weichert-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md` |
 
 ## Writer sources
 
@@ -65,9 +65,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-larry-johnson-iran-deal-trump-making-it-up-2026-06-24.md`
 - `source-dialogue-works-johnson-israel-next-war-preparing-bomb-yemen-2026-06-24.md`
 - `source-glenn-diesen-max-blumenthal-iran-deal-divides-us-triggers-panic-israel-2026-06-24.md`
+- `source-judging-freedom-diesen-europe-preparing-war-2026-06-24.md`
+- `source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md`
+- `source-judging-freedom-mate-iran-deal-pause-not-peace-2026-06-24.md`
+- `source-mario-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md`
 - `source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md`
-- `source-napolitano-diesen-europe-preparing-war-2026-06-24.md`
-- `source-napolitano-marandi-iran-stands-firm-negotiations-2026-06-24.md`
-- `source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md`
-- `source-nawfal-parsi-israel-will-not-withdraw-lebanon-2026-06-24.md`
-- `source-weichert-carlson-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md`
+- `source-tucker-carlson-weichert-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md`

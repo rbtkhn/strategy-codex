@@ -53,7 +53,7 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [substack-crooke-is-having-no-war-plan-trumps-plan-2026-03-12](../../../source-archive/statecraft/2026-03-12/source-crooke-is-having-no-war-plan-trumps-plan-2026-03-12.md)
 - [transcript-davis-crooke-irans-asymmetrical-war-2026-03-13](../../../source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
 - [youtube-daniel-davis-deep-dive-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15](../../../source-archive/statecraft/2026-03-15/source-daniel-davis-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md)
-- [transcript-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md)
+- [transcript-napolitano-crooke-trumps-plan-is-to-have-no-plan-2026-03-16](../../../source-archive/statecraft/2026-03-16/source-judging-freedom-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md)
 - [transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17](../../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
 - [substack-crooke-as-the-wheels-come-off-the-iran-conflict-2026-03-19](../../../source-archive/statecraft/2026-03-19/source-crooke-as-the-wheels-come-off-the-iran-conflict-2026-03-19.md)
 - [transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20](../../../source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
@@ -78,17 +78,17 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11](../../../source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 - [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 - [substack-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14](../../../source-archive/statecraft/2026-05-14/source-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14.md)
-- [transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md)
+- [transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-crooke-israels-war-unraveling-america-2026-05-18.md)
 - [substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md)
 
 ## 2026-06
 - [substack-crooke-iran-takes-its-chances-with-war-2026-06-04](../../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
 - [transcript-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05](../../../source-archive/statecraft/2026-06-05/source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md)
-- [transcript-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
+- [transcript-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
 - [transcript-hedges-crooke-is-ceasefire-dead-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md)
 - [youtube-daniel-davis-deep-dive-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11.md)
 - [substack-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12](../../../source-archive/statecraft/2026-06-12/source-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12.md)
-- [transcript-napolitano-crooke-us-empire-is-crashing-2026-06-15](../../../source-archive/statecraft/2026-06-15/source-napolitano-crooke-us-empire-is-crashing-2026-06-15.md)
+- [transcript-napolitano-crooke-us-empire-is-crashing-2026-06-15](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md)
 - [youtube-daniel-davis-deep-dive-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24](../../../source-archive/statecraft/2026-06-24/source-daniel-davis-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24.md)
 
 ## Source-boundary reminders

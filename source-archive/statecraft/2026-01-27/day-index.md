@@ -49,11 +49,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-napolitano-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') | `source-judging-freedom-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md` |
 
 ## Files
 
 - `source-alex-mercouris-eu-bans-all-russian-gas-imports-denies-hungary-veto-furious-orban-fico-s-2026-01-27.md`
 - `source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md`
-- `source-napolitano-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md`
+- `source-judging-freedom-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md`
 - `source-simplicius-mark-carneys-watershed-davos-speech-2026-01-27.md`

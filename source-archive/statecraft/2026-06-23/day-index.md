@@ -40,12 +40,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [XnjPtNVbaAQ](https://www.youtube.com/watch?v=XnjPtNVbaAQ) | `source-dialogue-works-henningsen-israels-losses-lebanon-hezbollah-iran-geneva-talks-2026-06-23.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [ZpDiFvNs1PY](https://www.youtube.com/watch?v=ZpDiFvNs1PY) | `source-dialogue-works-marandi-new-hormuz-mechanism-iaea-access-put-on-hold-2026-06-23.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [-6oJNKA4HrQ](https://www.youtube.com/watch?v=-6oJNKA4HrQ) | `source-duran-mercouris-rubicon-crossed-zelensky-targets-belarus-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [WbL3HQBEIVg](https://www.youtube.com/watch?v=WbL3HQBEIVg) | `source-judging-freedom-freeman-should-iran-trust-trump-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [J-PWkY08P84](https://www.youtube.com/watch?v=J-PWkY08P84) | `source-judging-freedom-hoh-how-empire-recruits-soldiers-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [dTOhamHI_bk](https://www.youtube.com/watch?v=dTOhamHI_bk) | `source-judging-freedom-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md` |
+| `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [UICIxIPb9iI](https://www.youtube.com/watch?v=UICIxIPb9iI) | `source-judging-freedom-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [sS-hjYvck-M](https://www.youtube.com/watch?v=sS-hjYvck-M) | `source-mario-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md` |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [XMKCnPsESMQ](https://www.youtube.com/watch?v=XMKCnPsESMQ) | `source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [WbL3HQBEIVg](https://www.youtube.com/watch?v=WbL3HQBEIVg) | `source-napolitano-freeman-should-iran-trust-trump-2026-06-23.md` |
-| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [J-PWkY08P84](https://www.youtube.com/watch?v=J-PWkY08P84) | `source-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23.md` |
-| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [dTOhamHI_bk](https://www.youtube.com/watch?v=dTOhamHI_bk) | `source-napolitano-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md` |
-| `judging-freedom` | Judging Freedom | `ritter`, `napolitano` | [UICIxIPb9iI](https://www.youtube.com/watch?v=UICIxIPb9iI) | `source-napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [sS-hjYvck-M](https://www.youtube.com/watch?v=sS-hjYvck-M) | `source-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md` |
 
 ## Writer sources
 
@@ -73,9 +73,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-henningsen-israels-losses-lebanon-hezbollah-iran-geneva-talks-2026-06-23.md`
 - `source-dialogue-works-marandi-new-hormuz-mechanism-iaea-access-put-on-hold-2026-06-23.md`
 - `source-duran-mercouris-rubicon-crossed-zelensky-targets-belarus-2026-06-23.md`
+- `source-judging-freedom-freeman-should-iran-trust-trump-2026-06-23.md`
+- `source-judging-freedom-hoh-how-empire-recruits-soldiers-2026-06-23.md`
+- `source-judging-freedom-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md`
+- `source-judging-freedom-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md`
+- `source-mario-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md`
 - `source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md`
-- `source-napolitano-freeman-should-iran-trust-trump-2026-06-23.md`
-- `source-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23.md`
-- `source-napolitano-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md`
-- `source-napolitano-ritter-russia-us-iran-mou-ukraine-attacks-moscow-2026-06-23.md`
-- `source-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md`

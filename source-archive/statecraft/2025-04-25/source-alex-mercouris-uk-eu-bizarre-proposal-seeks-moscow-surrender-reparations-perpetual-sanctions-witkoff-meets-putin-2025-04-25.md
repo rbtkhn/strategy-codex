@@ -1112,7 +1112,7 @@ have scrambled to support them. So Mark
 Rut the NATO secretary general now he's
 reasons for going to for trying to speak
 with Trump administration officials are
-becoming clear. Mark Rut is trying to
+becoming clear. Mark Rutte is trying to
 lobby on the Ukrainians behalf. He's
 presumably trying to get the Americans
 to go back on this final proposal of the

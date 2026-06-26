@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=fao5idZI928) | `source-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=fao5idZI928) | `source-judging-freedom-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md`
+- `source-judging-freedom-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md`

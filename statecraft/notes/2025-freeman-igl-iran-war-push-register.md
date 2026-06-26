@@ -22,7 +22,7 @@ Bounded **register** for one **Jun 2025** IGL beat — separates **header wire r
 
 Answers: *What is wire-supported on this capture?* *What is Freeman-only?* *What echoes Feb 2026 IGL without being the same arc?*
 
-## Wire-verify receipts (YAML — SSOT on capture)
+## News-verify receipts (YAML — SSOT on capture)
 
 | Hook | Verdict | Operator use |
 | --- | --- | --- |

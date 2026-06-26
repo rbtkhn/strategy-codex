@@ -28,7 +28,7 @@
 |------|------|
 | [manifest.md](manifest.md) | Scope, triggers, integration points, boundaries. |
 | [ROME-PASS.md](ROME-PASS.md) | Repeatable pre-skill pass: triggers, source order, boundaries, output shape, micro-checklist. |
-| [WIRE-VERIFY-CIV-STATE-SOURCES.md § Rome](../WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) | Wire-verify outlet SSOT — Holy See primaries + **it / es / fr / pt** overhearing set. |
+| [WIRE-VERIFY-CIV-STATE-SOURCES.md § Rome](../WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) | News-verify outlet SSOT — Holy See primaries + **it / es / fr / pt** overhearing set. |
 | [notes/](notes/) | Dated stubs — e.g. [2026-04-03-modern-rome-papacy-thesis-stub.md](notes/2026-04-03-modern-rome-papacy-thesis-stub.md), [2026-04-05-leo-xiv-civ-mem-historical-context.md](notes/2026-04-05-leo-xiv-civ-mem-historical-context.md) (CIV-MEM scaffold × Leo XIV OSINT). |
 | [notes/exemplars/](notes/exemplars/) | Finished pass examples (shape reference for future `strategy-rome` skill). |
 | [notes/exemplars/2026-04-14-rome-pass-exemplar-case-backed.md](notes/exemplars/2026-04-14-rome-pass-exemplar-case-backed.md) | End-to-end proof: case-index check, analogy audit, watch-support decision, three-minds synthesis. |

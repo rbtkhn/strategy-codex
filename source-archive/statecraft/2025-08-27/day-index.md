@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=LrbMw6U1dJE') | `source-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=LrbMw6U1dJE') | `source-judging-freedom-sachs-a-very-dangerous-foreign-policy-2025-08-27.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md`
+- `source-judging-freedom-sachs-a-very-dangerous-foreign-policy-2025-08-27.md`

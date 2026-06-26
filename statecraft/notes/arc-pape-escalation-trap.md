@@ -29,7 +29,7 @@ nodes:
   - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md
   - source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md
   - source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md
-  - source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-mario-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md
   - source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
   - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
@@ -90,7 +90,7 @@ XV   Jun 22      MIDDLE GAME — power-not-money framework; MOU as rising-power 
 | **XII — New phase** | Jun 6 | [The New Phase](../../source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md) | Iran **no longer fighting for survival** — fighting for **dominance** |
 | **XII — Day 100** | Jun 8 | [Day 100: Expanding Strategy](../../source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md) | Ceasefire breakdown; three watch indicators; strategy **expands** not contracts |
 | **XIII — Leverage** | Jun 15 | [Maximum Leverage](../../source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md) | Uncertain deal frame; Iran enters **period of maximum leverage** |
-| **XIV — MoU pressure** | Jun 16 | [CIA: Iran Not Serious on MoU](../../source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md) | Ratcliffe/CIA vs Vance/Witkoff split; Iran **driver's seat**; inventory drawdown amplifies mid-Aug leverage |
+| **XIV — MoU pressure** | Jun 16 | [CIA: Iran Not Serious on MoU](../../source-archive/statecraft/2026-06-16/source-mario-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md) | Ratcliffe/CIA vs Vance/Witkoff split; Iran **driver's seat**; inventory drawdown amplifies mid-Aug leverage |
 | **XIV — Stage IV** | Jun 17 | [Stage IV Begins — Bloomberg MOU](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md) | MOU as **Iranian sphere-of-influence** architecture; negotiation = power maximization |
 | **XIV — Day 60** | Jun 17 | [Day 60 — Hidden Deadline](../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) | Official MOU = **armistice not settlement**; 60-day toll-free → **governance crisis** on Hormuz admin/fees |
 | **XIV — Interview** (adjacent) | Jun 17 | [Breaking Points — Unconditional Surrender](../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) | G7 live reaction to MOU leak; **Trump lost bombing → at risk of losing deal**; Iran gains power **through** deal terms |

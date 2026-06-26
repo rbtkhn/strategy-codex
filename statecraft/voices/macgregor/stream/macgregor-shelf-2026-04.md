@@ -10,7 +10,7 @@ Month status: `mature retrieval month`
 
 - [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
   - Altitude lane gives the clearest order-consequence and total-war framing node.
-- [source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../../source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- [source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../../source-archive/statecraft/2026-04-23/source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
   - Auxiliary indictment lane sharpens undeclared-war and elite-planning critique.
   - Support-tier shorthand node that preserves local April continuity.
   - Support-tier continuation node.

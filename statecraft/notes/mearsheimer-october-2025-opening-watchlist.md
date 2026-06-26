@@ -27,8 +27,8 @@ However, that live `4` count still understates what is already on disk. October 
 Four October 2025 Mearsheimer-thread captures are currently on disk:
 
 - `2025-10-08` - [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
-- `2025-10-09` - [source-napolitano-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/source-napolitano-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md)
-- `2025-10-17` - [source-napolitano-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/source-napolitano-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md)
+- `2025-10-09` - [source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md)
+- `2025-10-17` - [source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md)
 - `2025-10-30` - [source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md)
 
 There is also one already-landed October panel object with real Mearsheimer participation that is not currently reflected in the live Mearsheimer thread count:

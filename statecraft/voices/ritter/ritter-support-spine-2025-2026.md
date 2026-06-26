@@ -63,7 +63,7 @@ Open:
 
 - [stream/ritter-shelf-2026-01.md](stream/ritter-shelf-2026-01.md)
 - [2026-01-27 Diesen](../../../source-archive/statecraft/2026-01-27/source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md)
-- [2026-01-12 Judging Freedom](../../../source-archive/statecraft/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [2026-01-12 Judging Freedom](../../../source-archive/statecraft/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
 - [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md)
 
 Monthly shelf rule:
@@ -80,7 +80,7 @@ Open:
 - [stream/ritter-shelf-2026-02.md](stream/ritter-shelf-2026-02.md)
 - [2026-02-18 Dialogue Works](../../../source-archive/statecraft/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
 - [2026-02-19 Diesen](../../../source-archive/statecraft/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
-- [2026-02-23 Judging Freedom](../../../source-archive/statecraft/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [2026-02-23 Judging Freedom](../../../source-archive/statecraft/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
 
 Monthly shelf rule:
 
@@ -130,7 +130,7 @@ Open:
 - [2026-05-04 Diesen](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - [2026-05-06 Davis](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
 - [2026-05-13 Dialogue Works](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- [2026-05-18 Judging Freedom](../../../source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [2026-05-18 Judging Freedom](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md)
 
 Why:
 

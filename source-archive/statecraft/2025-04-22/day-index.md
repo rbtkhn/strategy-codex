@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TwJu2SSzYmY) | `source-alex-mercouris-russia-says-kellogg-plan-totally-unacceptable-targets-odessa-drone-plant-us-won-t-talk-to-zelensky-2025-04-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/52TP6vfKxBA) | `source-daniel-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-russia-says-kellogg-plan-totally-unacceptable-targets-odessa-drone-plant-us-won-t-talk-to-zelensky-2025-04-22.md`
 - `source-daniel-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md`
-- `source-napolitano-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md`
+- `source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md`

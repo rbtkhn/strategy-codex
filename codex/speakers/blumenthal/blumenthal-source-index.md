@@ -15,7 +15,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Max B
 ## 2026-05
 
 - [youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20](../../years/2026/provenance/2026-05-20/source-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md)
-- [transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28](../../years/2026/provenance/2026-05-28/source-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md)
+- [transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28](../../years/2026/provenance/2026-05-28/source-judging-freedom-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md)
 
 ## Inventory / Discovery Surface
 

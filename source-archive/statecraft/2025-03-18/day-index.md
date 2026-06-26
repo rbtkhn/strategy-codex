@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/fUVYf3PMpY8) | `source-daniel-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-daniel-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md`
-- `source-napolitano-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md`
+- `source-judging-freedom-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md`

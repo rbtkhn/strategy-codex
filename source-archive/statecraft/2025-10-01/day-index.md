@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=4-amxxQ1Ltk) | `source-daniel-davis-col-doug-macgregor-u-s-prepares-for-war-2025-10-01.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=hlrP9H9GN6U) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md` |
-| `tucker-carlson` | The Tucker Carlson Show | `carlson`, `sachs` | [watch](https://www.youtube.com/watch?v=1pDRbwI4R0I) | `source-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md` |
+| `tucker-carlson` | The Tucker Carlson Show | `carlson`, `sachs` | [watch](https://www.youtube.com/watch?v=1pDRbwI4R0I) | `source-tucker-carlson-sachs-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-daniel-davis-col-doug-macgregor-u-s-prepares-for-war-2025-10-01.md`
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md`
-- `source-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md`
+- `source-tucker-carlson-sachs-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md`

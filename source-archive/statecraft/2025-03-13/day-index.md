@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Xb_yxQPpo08) | `source-napolitano-mearsheimer-how-close-to-a-regional-war-2025-03-13.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Xb_yxQPpo08) | `source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-mearsheimer-how-close-to-a-regional-war-2025-03-13.md`
+- `source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md`

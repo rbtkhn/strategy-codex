@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ycCFBcitPQs) | `source-alex-mercouris-moscow-hits-back-ukraine-intel-chief-killed-strike-rocks-kiev-trump-told-sanctions-dont-scare-us-2025-07-10.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=RFFzClxBmb8) | `source-napolitano-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=RFFzClxBmb8) | `source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-alex-mercouris-moscow-hits-back-ukraine-intel-chief-killed-strike-rocks-kiev-trump-told-sanctions-dont-scare-us-2025-07-10.md`
-- `source-napolitano-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md`
+- `source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md`

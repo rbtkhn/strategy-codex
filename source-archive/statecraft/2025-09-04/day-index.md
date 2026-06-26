@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=YUWr7SW_7CI) | `source-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=YUWr7SW_7CI) | `source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md`
+- `source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md`

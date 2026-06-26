@@ -16,16 +16,16 @@ Purpose: canonical route map for materialized **Aaron Maté** guest appearances 
 
 #### 2026-03
 
-- [2026-03-17 — Is Kushner Netanyahu's Agent?](../../../source-archive/statecraft/2026-03-17/source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md) — Joe Kent resignation; Israel fed Iran threat intel; Kushner bedroom / Netanyahu intimacy; Witkoff verklempt at Mossad clap; Tulsi silence; Cuba starvation policy; Araghchi no-ceasefire ask; Larijani assassination sabotage; deterrence lesson frame
+- [2026-03-17 — Is Kushner Netanyahu's Agent?](../../../source-archive/statecraft/2026-03-17/source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md) — Joe Kent resignation; Israel fed Iran threat intel; Kushner bedroom / Netanyahu intimacy; Witkoff verklempt at Mossad clap; Tulsi silence; Cuba starvation policy; Araghchi no-ceasefire ask; Larijani assassination sabotage; deterrence lesson frame
 
 #### 2026-06
 
-- [2026-06-24 — Iran Deal a Pause Not Peace](../../../source-archive/statecraft/2026-06-24/source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md) — Goldman vs Lander NYC-12 (AIPAC defeat); Poetica civil-rights probe; Mamdani dark-money denunciation; MOU performative pause; Lebanon/Netanyahu IDF stay; Pakistan PM spoiler wall; Channel 13 US restrain message; Waltz Hezbollah-as-cancer; Syria proxy rejected; Marandi patience cross-cite; Vance restrainer; oil-sanctions waiver; reflecting-pool coda
+- [2026-06-24 — Iran Deal a Pause Not Peace](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-mate-iran-deal-pause-not-peace-2026-06-24.md) — Goldman vs Lander NYC-12 (AIPAC defeat); Poetica civil-rights probe; Mamdani dark-money denunciation; MOU performative pause; Lebanon/Netanyahu IDF stay; Pakistan PM spoiler wall; Channel 13 US restrain message; Waltz Hezbollah-as-cancer; Syria proxy rejected; Marandi patience cross-cite; Vance restrainer; oil-sanctions waiver; reflecting-pool coda
 
 ## Open first
 
-- **Best MOU-week domestic + pause thesis:** [2026-06-24](../../../source-archive/statecraft/2026-06-24/source-napolitano-mate-iran-deal-pause-not-peace-2026-06-24.md)
-- **Best Israel-first / negotiation-deception anchor:** [2026-03-17](../../../source-archive/statecraft/2026-03-17/source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md)
+- **Best MOU-week domestic + pause thesis:** [2026-06-24](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-mate-iran-deal-pause-not-peace-2026-06-24.md)
+- **Best Israel-first / negotiation-deception anchor:** [2026-03-17](../../../source-archive/statecraft/2026-03-17/source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md)
 
 ## Boundary
 

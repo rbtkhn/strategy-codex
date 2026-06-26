@@ -47,7 +47,7 @@ Open the Mario Nawfal lane first when the real question is:
 Best current anchors:
 
 - [2026-05-15 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
-- [2026-05-28 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+- [2026-05-28 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-28/source-mario-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 ## Open Diesen First
 

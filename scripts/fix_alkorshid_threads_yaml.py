@@ -68,7 +68,7 @@ def patch_file(path: Path) -> bool:
 
 
 def main() -> int:
-    patterns = ("source-dialogue-works-*", "source-daniel-davis-alkorshid-*", "source-nawfal-alkorshid-*")
+    patterns = ("source-dialogue-works-*", "source-daniel-davis-alkorshid-*", "source-mario-nawfal-alkorshid-*")
     n = 0
     for pat in patterns:
         for path in ARCHIVE.rglob(pat):

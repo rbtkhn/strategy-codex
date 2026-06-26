@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Vtgin1YbO-k) | `source-daniel-davis-trump-putin-is-grinding-it-out-2025-01-21.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TKhTj6tEIM8) | `source-daniel-davis-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=I0usuaj-9hs) | `source-daniel-davis-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md` |
 
 ## Writer sources
 
@@ -62,4 +62,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-trump-putin-is-grinding-it-out-2025-01-21.md`
 - `source-daniel-davis-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md`
 - `source-daniel-davis-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md`
-- `source-napolitano-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md`
+- `source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md`

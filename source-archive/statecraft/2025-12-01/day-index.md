@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JNiEB7GedGE) | `source-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=-7_XtZ64VG4) | `source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md` |
-| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=Ey_zCsoFeAo) | `source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md` |
+| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=Ey_zCsoFeAo) | `source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md` |
 
 ## Writer sources
 
@@ -56,4 +56,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md`
 - `source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md`
-- `source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md`
+- `source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md`

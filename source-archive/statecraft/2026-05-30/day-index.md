@@ -37,8 +37,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `marandi`, `nima` | [fku0svs5mgk](https://www.youtube.com/watch?v=fku0svs5mgk) | `source-dialogue-works-seyed-m-marandi-iran-dropped-the-hammer-in-strait-of-hormuz-trump-s-no-tolls-plan-backfires-2026-05-30.md` |
 | `glenn-diesen` | Glenn Diesen | `crooke`, `diesen` | [tOfXe6ry5UE](https://www.youtube.com/watch?v=tOfXe6ry5UE) | `source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md` |
 | `glenn-diesen` | Glenn Diesen | `krainer`, `diesen` | [Oo2hAdtEmso](https://www.youtube.com/watch?v=Oo2hAdtEmso) | `source-glenn-diesen-alex-krainer-russia-attacks-romania-ukrainian-false-flag-or-russian-warning-shot-2026-05-30.md` |
+| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [5jtUBd7QDR0](https://www.youtube.com/watch?v=5jtUBd7QDR0) | `source-mario-nawfal-larry-johnson-iran-ceasefire-on-edge-w-fmr-cia-larry-johnson-2026-05-30.md` |
 | `dialogue-works` | Dialogue Works | `mcgovern`, `nima` | [dYBIB3EH2sc](https://www.youtube.com/watch?v=dYBIB3EH2sc) | `source-mcgovern-dialogue-works-iron-dome-humiliated-again-ukrainian-uav-hits-zaporozhye-npp-2026-05-30.md` |
-| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [5jtUBd7QDR0](https://www.youtube.com/watch?v=5jtUBd7QDR0) | `source-nawfal-larry-johnson-iran-ceasefire-on-edge-w-fmr-cia-larry-johnson-2026-05-30.md` |
 
 ## Writer sources
 
@@ -63,5 +63,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-seyed-m-marandi-iran-dropped-the-hammer-in-strait-of-hormuz-trump-s-no-tolls-plan-backfires-2026-05-30.md`
 - `source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md`
 - `source-glenn-diesen-alex-krainer-russia-attacks-romania-ukrainian-false-flag-or-russian-warning-shot-2026-05-30.md`
+- `source-mario-nawfal-larry-johnson-iran-ceasefire-on-edge-w-fmr-cia-larry-johnson-2026-05-30.md`
 - `source-mcgovern-dialogue-works-iron-dome-humiliated-again-ukrainian-uav-hits-zaporozhye-npp-2026-05-30.md`
-- `source-nawfal-larry-johnson-iran-ceasefire-on-edge-w-fmr-cia-larry-johnson-2026-05-30.md`

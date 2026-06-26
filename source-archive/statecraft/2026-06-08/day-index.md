@@ -40,12 +40,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `glenn-diesen` | Glenn Diesen | `wilkerson`, `diesen` | [a2nQnLcTNuo](https://www.youtube.com/watch?v=a2nQnLcTNuo) | `source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [kcjU0rN6a2k](https://www.youtube.com/watch?v=kcjU0rN6a2k) | `source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md` |
 | `the-chris-hedges-report` | The Chris Hedges Report | `crooke` | [bW5YD1XQA6o](https://www.youtube.com/watch?v=bW5YD1XQA6o) | `source-hedges-crooke-is-ceasefire-dead-2026-06-08.md` |
-| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [cNMGfil1Iso](https://www.youtube.com/watch?v=cNMGfil1Iso) | `source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md` |
-| `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [kiWqcTeLaIQ](https://www.youtube.com/watch?v=kiWqcTeLaIQ) | `source-napolitano-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md` |
-| `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [-vbRhB69TEY](https://www.youtube.com/watch?v=-vbRhB69TEY) | `source-napolitano-sachs-is-trump-losing-it-2026-06-08.md` |
-| `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [bPP1SPCAegU](https://www.youtube.com/watch?v=bPP1SPCAegU) | `source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md` |
-| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [a_GzAcbxs10](https://www.youtube.com/watch?v=a_GzAcbxs10) | `source-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [g8QReaWLXSk](https://www.youtube.com/watch?v=g8QReaWLXSk) | `source-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md` |
+| `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [cNMGfil1Iso](https://www.youtube.com/watch?v=cNMGfil1Iso) | `source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md` |
+| `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [kiWqcTeLaIQ](https://www.youtube.com/watch?v=kiWqcTeLaIQ) | `source-judging-freedom-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md` |
+| `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [-vbRhB69TEY](https://www.youtube.com/watch?v=-vbRhB69TEY) | `source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md` |
+| `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [bPP1SPCAegU](https://www.youtube.com/watch?v=bPP1SPCAegU) | `source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md` |
+| `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [a_GzAcbxs10](https://www.youtube.com/watch?v=a_GzAcbxs10) | `source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [g8QReaWLXSk](https://www.youtube.com/watch?v=g8QReaWLXSk) | `source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md` |
 
 ## Writer sources
 
@@ -74,11 +74,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md`
 - `source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md`
 - `source-hedges-crooke-is-ceasefire-dead-2026-06-08.md`
-- `source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md`
-- `source-napolitano-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md`
-- `source-napolitano-sachs-is-trump-losing-it-2026-06-08.md`
-- `source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md`
-- `source-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md`
-- `source-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md`
+- `source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md`
+- `source-judging-freedom-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md`
+- `source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md`
+- `source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md`
+- `source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md`
+- `source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md`
 - `source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md`
 - `source-parsi-did-iran-establish-a-new-equation-2026-06-08.md`

@@ -43,11 +43,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `krapivnik` | [Cg-cFVQ55S8](https://www.youtube.com/watch?v=Cg-cFVQ55S8) | `source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [3oGkrjCzzYI](https://www.youtube.com/watch?v=3oGkrjCzzYI) | `source-dialogue-works-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md` |
 | `glenn-diesen` | Glenn Diesen | `macgregor`, `diesen` | [wZ-lE4hSM80](https://www.youtube.com/watch?v=wZ-lE4hSM80) | `source-glenn-diesen-douglas-macgregor-new-world-israel-dying-nato-dead-us-defeated-iran-2026-06-09.md` |
-| `tucker-carlson` | Tucker Carlson | `mearsheimer`, `carlson` | [TQvZaBQuT80](https://www.youtube.com/watch?v=TQvZaBQuT80) | `source-mearsheimer-carlson-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [KSbb4c2JxRE](https://www.youtube.com/watch?v=KSbb4c2JxRE) | `source-napolitano-freeman-can-netanyahu-defy-trump-2026-06-09.md` |
-| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [ZsCmk-H7TiE](https://www.youtube.com/watch?v=ZsCmk-H7TiE) | `source-napolitano-hoh-why-the-resistance-wont-end-2026-06-09.md` |
-| `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [4wfVXkp9eGs](https://www.youtube.com/watch?v=4wfVXkp9eGs) | `source-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [KSbb4c2JxRE](https://www.youtube.com/watch?v=KSbb4c2JxRE) | `source-judging-freedom-freeman-can-netanyahu-defy-trump-2026-06-09.md` |
+| `judging-freedom` | Judging Freedom | `hoh`, `napolitano` | [ZsCmk-H7TiE](https://www.youtube.com/watch?v=ZsCmk-H7TiE) | `source-judging-freedom-hoh-why-the-resistance-wont-end-2026-06-09.md` |
+| `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [4wfVXkp9eGs](https://www.youtube.com/watch?v=4wfVXkp9eGs) | `source-mario-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md` |
 | `breaking-points` | Breaking Points | `pape` | [6SQnX9QRu9o](https://www.youtube.com/watch?v=6SQnX9QRu9o) | `source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md` |
+| `tucker-carlson` | Tucker Carlson | `mearsheimer`, `carlson` | [TQvZaBQuT80](https://www.youtube.com/watch?v=TQvZaBQuT80) | `source-tucker-carlson-mearsheimer-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md` |
 
 ## Writer sources
 
@@ -78,8 +78,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md`
 - `source-dialogue-works-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md`
 - `source-glenn-diesen-douglas-macgregor-new-world-israel-dying-nato-dead-us-defeated-iran-2026-06-09.md`
-- `source-mearsheimer-carlson-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md`
-- `source-napolitano-freeman-can-netanyahu-defy-trump-2026-06-09.md`
-- `source-napolitano-hoh-why-the-resistance-wont-end-2026-06-09.md`
-- `source-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md`
+- `source-judging-freedom-freeman-can-netanyahu-defy-trump-2026-06-09.md`
+- `source-judging-freedom-hoh-why-the-resistance-wont-end-2026-06-09.md`
+- `source-mario-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md`
 - `source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md`
+- `source-tucker-carlson-mearsheimer-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md`

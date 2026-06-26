@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | — | `source-glenn-diesen-chas-freeman-israel-is-overextended-exhausted-and-facing-blowback-2025-08-04.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=GheVaaGLZYw') | `source-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=GheVaaGLZYw') | `source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-glenn-diesen-chas-freeman-israel-is-overextended-exhausted-and-facing-blowback-2025-08-04.md`
-- `source-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md`
+- `source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md`

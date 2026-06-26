@@ -66,14 +66,14 @@ Local interview appearance count: 48 captures.
 | Dialogue Works | 2026-04-08 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md) | live war pressure |
 | Dialogue Works | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md) | live war pressure |
 | Dialogue Works | 2026-05-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md) | live war pressure |
-| Napolitano | 2025-11-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md) | legality and command failure |
-| Napolitano | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md) | legality and command failure |
-| Napolitano | 2026-01-12 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md) | legality and command failure |
-| Napolitano | 2026-02-23 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md) | legality and command failure |
-| Napolitano | 2026-03-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | legality and command failure |
-| Napolitano | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-napolitano-ritter-why-iran-is-winning-2026-03-31.md) | legality and command failure |
+| Napolitano | 2025-11-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md) | legality and command failure |
+| Napolitano | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md) | legality and command failure |
+| Napolitano | 2026-01-12 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md) | legality and command failure |
+| Napolitano | 2026-02-23 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md) | legality and command failure |
+| Napolitano | 2026-03-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | legality and command failure |
+| Napolitano | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-judging-freedom-ritter-why-iran-is-winning-2026-03-31.md) | legality and command failure |
 | Napolitano | 2026-04-20 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-trump-hegseth-2026-04-20.md) | legality and command failure |
-| Napolitano | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md) | legality and command failure |
+| Napolitano | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md) | legality and command failure |
 | Cyrus Janssen | 2026-05-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md) | energy and Hormuz shock |
 | Consortium News | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md) | adversarial debate / Russia-policy stress test |
 
@@ -107,7 +107,7 @@ This is the crossing table between the interview strand and the authored Substac
 - **Best all-around interview entry:** [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - **Best escalation-horizon entry:** [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - **Best live-pressure entry:** [source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- **Best legality/command-failure entry:** [source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- **Best legality/command-failure entry:** [source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md)
 - **Best auxiliary energy-shock entry:** [source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
 - **Best debate-stress entry:** [source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 

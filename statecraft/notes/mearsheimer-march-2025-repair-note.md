@@ -34,9 +34,9 @@ So March should no longer be read as a barely represented Mearsheimer month. It 
 
 The currently landed `Judging Freedom / Napolitano + Mearsheimer` March captures are:
 
-- `2025-03-06` - [lavrov-and-russia](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-06/source-napolitano-mearsheimer-lavrov-and-russia-2025-03-06.md)
-- `2025-03-13` - [how-close-to-a-regional-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-13/source-napolitano-mearsheimer-how-close-to-a-regional-war-2025-03-13.md)
-- `2025-03-27` - [killing-without-purpose](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-napolitano-mearsheimer-killing-without-purpose-2025-03-27.md)
+- `2025-03-06` - [lavrov-and-russia](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-06/source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md)
+- `2025-03-13` - [how-close-to-a-regional-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-13/source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md)
+- `2025-03-27` - [killing-without-purpose](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md)
 
 The key change from the opening watchlist is that March no longer lacks a direct Napolitano lane on disk. It now has a visible three-item lane across early, mid, and late March.
 

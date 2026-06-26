@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=dZdnC1btS4M) | `source-glenn-diesen-douglas-macgregor-douglas-macgregor-broken-nato-escalates-war-on-russia-2025-10-23.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=kx-3RfjPvMo) | `source-napolitano-wilkerson-what-ceasefire-2025-10-23.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=kx-3RfjPvMo) | `source-judging-freedom-wilkerson-what-ceasefire-2025-10-23.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-glenn-diesen-douglas-macgregor-douglas-macgregor-broken-nato-escalates-war-on-russia-2025-10-23.md`
-- `source-napolitano-wilkerson-what-ceasefire-2025-10-23.md`
+- `source-judging-freedom-wilkerson-what-ceasefire-2025-10-23.md`

@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [aJjVq25qqCM](https://www.youtube.com/watch?v=aJjVq25qqCM) | `source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-trump-and-usaid-2025-02-04.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=ynys-ZMQnN4) | `source-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md` |
-| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=K4gqGvhWJb4) | `source-napolitano-mearsheimer-can-trump-control-netanyahu-2025-02-04.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-trump-and-usaid-2025-02-04.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=ynys-ZMQnN4) | `source-judging-freedom-macgregor-trump-and-his-oligarchs-2025-02-04.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=K4gqGvhWJb4) | `source-judging-freedom-mearsheimer-can-trump-control-netanyahu-2025-02-04.md` |
 
 ## Writer sources
 
@@ -56,6 +56,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md`
-- `source-napolitano-amb-chas-freeman-trump-and-usaid-2025-02-04.md`
-- `source-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md`
-- `source-napolitano-mearsheimer-can-trump-control-netanyahu-2025-02-04.md`
+- `source-judging-freedom-amb-chas-freeman-trump-and-usaid-2025-02-04.md`
+- `source-judging-freedom-macgregor-trump-and-his-oligarchs-2025-02-04.md`
+- `source-judging-freedom-mearsheimer-can-trump-control-netanyahu-2025-02-04.md`

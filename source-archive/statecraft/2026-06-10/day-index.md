@@ -38,8 +38,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [ojt4b8ivJ7o](https://www.youtube.com/watch?v=ojt4b8ivJ7o) | `source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md` |
 | `dialogue-works` | Dialogue Works | `henningsen`, `alkorshid`, `nima` | [WusN5OkSwfg](https://www.youtube.com/watch?v=WusN5OkSwfg) | `source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md` |
 | `glenn-diesen` | Glenn Diesen | `henningsen`, `diesen` | [hOL1Hb2gdLI](https://www.youtube.com/watch?v=hOL1Hb2gdLI) | `source-glenn-diesen-patrick-henningsen-us-defeat-makes-iran-world-power-2026-06-10.md` |
-| `judging-freedom` | Judging Freedom | `barnes`, `napolitano` | [mdoNyGGEztI](https://www.youtube.com/watch?v=mdoNyGGEztI) | `source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md` |
-| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [_pQ2Ia-rBIA](https://www.youtube.com/watch?v=_pQ2Ia-rBIA) | `source-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md` |
+| `judging-freedom` | Judging Freedom | `barnes`, `napolitano` | [mdoNyGGEztI](https://www.youtube.com/watch?v=mdoNyGGEztI) | `source-judging-freedom-barnes-how-trump-makes-decisions-2026-06-10.md` |
+| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [_pQ2Ia-rBIA](https://www.youtube.com/watch?v=_pQ2Ia-rBIA) | `source-mario-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md` |
 | `predictive-history` | Predictive History | `jiang` | [kFH4AujWqtI](https://www.youtube.com/watch?v=kFH4AujWqtI) | `source-predictive-history-founding-members-01-livestream-2026-06-10.md` |
 
 ## Writer sources
@@ -66,7 +66,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md`
 - `source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md`
 - `source-glenn-diesen-patrick-henningsen-us-defeat-makes-iran-world-power-2026-06-10.md`
-- `source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md`
-- `source-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md`
+- `source-judging-freedom-barnes-how-trump-makes-decisions-2026-06-10.md`
+- `source-mario-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md`
 - `source-predictive-history-founding-members-01-livestream-2026-06-10.md`
 - `source-ritter-shoot-the-dog-2026-06-10.md`

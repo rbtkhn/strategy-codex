@@ -33,7 +33,7 @@ Best direct anchors:
 
 ## Open Judging Freedom First
 
-Open [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md) first when the real question is:
+Open [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md) first when the real question is:
 
 - how legal-process pressure interacts with intelligence dissent
 - how to read Trump, China, or war continuation through anti-war constitutional framing

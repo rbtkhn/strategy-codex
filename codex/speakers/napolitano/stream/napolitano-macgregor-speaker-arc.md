@@ -30,68 +30,68 @@ Douglas Macgregor matters here as a **force-balance and imperial-overreach** gue
 
 April 2025 is no longer a gap on this branch. It now has a real bridge file on disk:
 
-- [2025-04-15 Douglas Macgregor - Will Zelenskyy and Neocons Reject Peace?](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-15/source-napolitano-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md)
+- [2025-04-15 Douglas Macgregor - Will Zelenskyy and Neocons Reject Peace?](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-15/source-judging-freedom-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md)
 
 That transcript strengthens the native Napolitano lane by tying together Trump owning the Ukraine war unless aid stops, U.S. incoherence on Iran and tariffs, anti-proxy-war critique in Yemen, and Macgregor's warning that the president can still halt wider disaster if he decisively says no.
 
 April 2025 now also has a second native bridge file on disk:
 
-- [2025-04-29 Douglas Macgregor - How Close to a Regional War?](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-29/source-napolitano-macgregor-how-close-to-a-regional-war-2025-04-29.md)
+- [2025-04-29 Douglas Macgregor - How Close to a Regional War?](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-29/source-judging-freedom-macgregor-how-close-to-a-regional-war-2025-04-29.md)
 
 That late-April extension sharpens the same branch from the Napolitano side: Ukraine negotiation theater collapsing into battlefield fact, Trump being played into owning the war, and the risk that Netanyahu can still trigger a regional war that drags the United States into direct conflict with Iran.
 
 May 2025 is no longer a gap on this branch. It now has a real first native May bridge file on disk:
 
-- [2025-05-01 Douglas Macgregor - US/Ukraine Mineral/Security Deal: Insane or Provocative?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/source-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
+- [2025-05-01 Douglas Macgregor - US/Ukraine Mineral/Security Deal: Insane or Provocative?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
 
 That early-May special strengthens the lane by tying the Ukraine minerals/security deal to negotiation self-sabotage with Moscow, renewed critique of Trump-team amateurism, tariff incoherence, and the still-open danger that Washington's Israel-first posture can trigger regional war with Iran.
 
 May 2025 now also has a second native bridge file on disk:
 
-- [2025-05-20 Douglas Macgregor - Is War with Iran Inevitable?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/source-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
+- [2025-05-20 Douglas Macgregor - Is War with Iran Inevitable?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/source-judging-freedom-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
 
 That late-May extension sharpens the same branch from the Napolitano side: Trump still funding the Ukraine war while denying ownership, Gaza collapse under U.S.-shielded Israeli policy, and the warning that zero-enrichment maximalism is making direct U.S.-Iran war harder and harder to avoid.
 
 May 2025 now also has a third native bridge file on disk:
 
-- [2025-05-13 Douglas Macgregor - Is US Generous or Murderous?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/source-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md)
+- [2025-05-13 Douglas Macgregor - Is US Generous or Murderous?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/source-judging-freedom-macgregor-is-us-generous-or-murderous-2025-05-13.md)
 
 That mid-May bridge thickens the same lane between the May 1 Ukraine-minerals hinge and the May 20 Iran hinge: Trump’s Saudi trip as reset theater, Netanyahu friction without strategic break, zero-enrichment deadlock with Iran, and Macgregor’s direct attack on trillion-dollar defense spending as both war-seeking and fiscally suicidal.
 
 June 2025 is no longer a gap on this branch. It now has a real first native June bridge file on disk:
 
-- [2025-06-04 Douglas Macgregor - Is Russia on the Ropes?](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/source-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md)
+- [2025-06-04 Douglas Macgregor - Is Russia on the Ropes?](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/source-judging-freedom-macgregor-is-russia-on-the-ropes-2025-06-04.md)
 
 That early-June extension sharpens the native Napolitano lane under the Russia-airfield strike shock: Trump’s disclaimers as strategically meaningless, pressure on Putin to push west toward Odessa and the Dnieper, NATO as facade rather than real warfighting alliance, tariff and capital-flight self-harm, and the claim that unconditional U.S. backing remains the key enabler of Israel’s regional policy.
 
 May 2026 now extends this branch beyond the April 2026 native anchor:
 
-- [2026-05-21 Douglas Macgregor - The Pentagon and Decapitation Strikes.](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
-- [2026-05-28 Douglas Macgregor - Iran Stronger Now / Putin Takes Off the Gloves.](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
+- [2026-05-21 Douglas Macgregor - The Pentagon and Decapitation Strikes.](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-judging-freedom-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
+- [2026-05-28 Douglas Macgregor - Iran Stronger Now / Putin Takes Off the Gloves.](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
 
 Those files preserve the same native Napolitano lane under a hotter Iran-war frame: failed coercive diplomacy, decapitation logic, undeclared-war normalization, and Macgregor’s claim that elite planning is still detached from the actual costs and likely outcomes of escalation.
 
 ## Open first
 
-- [2026-04-23 Douglas Macgregor - The Pentagon's Terrible War Planning.](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- [2026-03-26 Douglas Macgregor - Why Trump Is Now Desperate.](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
-- [2026-02-10 Douglas Macgregor - A U.S. - Iran War Could Spiral Out of Control.](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
-- [2026-01-07 Douglas Macgregor - Trump Is Sleepwalking Into Another War.](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
-- [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-11/source-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md)
-- [2025-11-13 Douglas Macgregor - War Is Coming Soon.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/source-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
-- [2025-05-20 Douglas Macgregor - Is War with Iran Inevitable?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/source-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
-- [2025-05-13 Douglas Macgregor - Is US Generous or Murderous?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/source-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md)
-- [2025-05-01 Douglas Macgregor - US/Ukraine Mineral/Security Deal: Insane or Provocative?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/source-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
-- [2025-03-19 Douglas Macgregor - Will US Attack Iran?](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-19/source-napolitano-macgregor-will-us-attack-iran-2025-03-19.md)
-- [2025-03-27 Douglas Macgregor - Readying For War With Iran.](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md)
-- [2025-02-26 Douglas Macgregor - Why Is Trump Arming Ukraine?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-26/source-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md)
-- [2025-02-19 Douglas Macgregor - Israel, Egypt, and Riyadh.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-19/source-napolitano-macgregor-israel-egypt-and-riyadh-2025-02-19.md)
-- [2025-02-11 Douglas Macgregor - Fall of the American Empire.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/source-napolitano-macgregor-fall-of-the-american-empire-2025-02-11.md)
-- [2025-02-06 Douglas Macgregor - Can the US Own Gaza?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/source-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md)
-- [2025-02-04 Douglas Macgregor - Trump and His Oligarchs.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/source-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md)
-- [2025-01-29 Douglas Macgregor - Trump and War.](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/source-napolitano-macgregor-trump-and-war-2025-01-29.md)
-- [2025-01-23 Douglas Macgregor - The Coming World War III.](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-23/source-napolitano-macgregor-the-coming-world-war-iii-2025-01-23.md)
-- [2025-01-16 Douglas Macgregor - Trump and American Expansion.](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-16/source-napolitano-macgregor-trump-and-american-expansion-2025-01-16.md)
+- [2026-04-23 Douglas Macgregor - The Pentagon's Terrible War Planning.](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- [2026-03-26 Douglas Macgregor - Why Trump Is Now Desperate.](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md)
+- [2026-02-10 Douglas Macgregor - A U.S. - Iran War Could Spiral Out of Control.](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+- [2026-01-07 Douglas Macgregor - Trump Is Sleepwalking Into Another War.](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
+- [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-11/source-judging-freedom-macgregor-why-threaten-venezuela-2025-12-11.md)
+- [2025-11-13 Douglas Macgregor - War Is Coming Soon.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/source-judging-freedom-macgregor-war-is-coming-soon-2025-11-13.md)
+- [2025-05-20 Douglas Macgregor - Is War with Iran Inevitable?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/source-judging-freedom-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
+- [2025-05-13 Douglas Macgregor - Is US Generous or Murderous?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/source-judging-freedom-macgregor-is-us-generous-or-murderous-2025-05-13.md)
+- [2025-05-01 Douglas Macgregor - US/Ukraine Mineral/Security Deal: Insane or Provocative?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
+- [2025-03-19 Douglas Macgregor - Will US Attack Iran?](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-19/source-judging-freedom-macgregor-will-us-attack-iran-2025-03-19.md)
+- [2025-03-27 Douglas Macgregor - Readying For War With Iran.](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-judging-freedom-macgregor-readying-for-war-with-iran-2025-03-27.md)
+- [2025-02-26 Douglas Macgregor - Why Is Trump Arming Ukraine?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-26/source-judging-freedom-macgregor-why-is-trump-arming-ukraine-2025-02-26.md)
+- [2025-02-19 Douglas Macgregor - Israel, Egypt, and Riyadh.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-19/source-judging-freedom-macgregor-israel-egypt-and-riyadh-2025-02-19.md)
+- [2025-02-11 Douglas Macgregor - Fall of the American Empire.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/source-judging-freedom-macgregor-fall-of-the-american-empire-2025-02-11.md)
+- [2025-02-06 Douglas Macgregor - Can the US Own Gaza?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/source-judging-freedom-macgregor-can-the-us-own-gaza-2025-02-06.md)
+- [2025-02-04 Douglas Macgregor - Trump and His Oligarchs.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/source-judging-freedom-macgregor-trump-and-his-oligarchs-2025-02-04.md)
+- [2025-01-29 Douglas Macgregor - Trump and War.](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/source-judging-freedom-macgregor-trump-and-war-2025-01-29.md)
+- [2025-01-23 Douglas Macgregor - The Coming World War III.](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-23/source-judging-freedom-macgregor-the-coming-world-war-iii-2025-01-23.md)
+- [2025-01-16 Douglas Macgregor - Trump and American Expansion.](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-16/source-judging-freedom-macgregor-trump-and-american-expansion-2025-01-16.md)
 
 ## Orthogonality guide
 

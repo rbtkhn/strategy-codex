@@ -49,10 +49,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-the-global-cost-of-maga-politics') | `source-napolitano-sachs-the-global-cost-of-maga-politics-2026-02-03.md` |
+| Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-the-global-cost-of-maga-politics') | `source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md` |
 
 ## Files
 
 - `source-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md`
 - `source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md`
-- `source-napolitano-sachs-the-global-cost-of-maga-politics-2026-02-03.md`
+- `source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md`

@@ -46,11 +46,11 @@ Long-form investigative narrative:
 - Claude recommended **Shajareh Tayyebeh** school — past affiliation with abandoned **Sayyid al-Shuhada** / Asef Missile Brigade compound
 - **Feb 28, 2026**: four TLAMs; structure-dimension matching; BDA camera **re-strike** on collapsed school during survivor assembly in prayer room
 
-Interview echo: [2026-03-17 / Napolitano — war crime charges](../source-archive/statecraft/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) — same chain in spoken form (`Cloud` / Claude, CHMR gone, shock-and-awe target hunger, fuel-air secondary).
+Interview echo: [2026-03-17 / Napolitano — war crime charges](../source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) — same chain in spoken form (`Cloud` / Claude, CHMR gone, shock-and-awe target hunger, fuel-air secondary).
 
 ## Palantir / Ukraine parallel
 
-Primary source: [2026-05-26 / Napolitano — why bother to negotiate](../source-archive/statecraft/2026-05-26/source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md)
+Primary source: [2026-05-26 / Napolitano — why bother to negotiate](../source-archive/statecraft/2026-05-26/source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md)
 
 - **6,000 drone impact-point campaign** exceeds human/MI6 target-generation capacity
 - **`The CEO of Palanteer has come in working with the British, with the CIA, and the Ukrainians to generate targets using artificial intelligence`**
@@ -98,9 +98,9 @@ Open when the task is:
 | Date | File | Weight |
 |------|------|--------|
 | 2026-03-14 | [source-ritter-the-backpack-girls…](../source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md) | **Primary** — CHMR, Claude, Minab narrative |
-| 2026-03-17 | [source-napolitano-ritter-could-us-officials-face-war-crime-charges…](../source-archive/statecraft/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | Interview — same Minab chain |
+| 2026-03-17 | [source-napolitano-ritter-could-us-officials-face-war-crime-charges…](../source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | Interview — same Minab chain |
 | 2026-03-11 | [source-dialogue-works-scott-ritter-the-u-s-has-lost…](../source-archive/statecraft/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md) | **Professional** — AI vs human targeteer |
-| 2026-05-26 | [source-napolitano-ritter-why-bother-to-negotiate…](../source-archive/statecraft/2026-05-26/source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md) | Palantir + Lugansk parallel |
+| 2026-05-26 | [source-napolitano-ritter-why-bother-to-negotiate…](../source-archive/statecraft/2026-05-26/source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md) | Palantir + Lugansk parallel |
 
 Daily synthesis (implementation trap, **not** AI-specific): [2026-03-16-ritter-implementation-trap-mosaic.md](../notes/2026-03-16-ritter-implementation-trap-mosaic.md).
 

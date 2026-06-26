@@ -88,7 +88,7 @@ def test_orphan_second_pass_on_trimmed_file():
         ">> Yes, this is an outcome.",
     )
     path = Path(
-        "source-archive/statecraft/2026-05-29/source-nawfal-anthony-aguilar-breaking-trump-orders-military-action-2026-05-29.md"
+        "source-archive/statecraft/2026-05-29/source-mario-nawfal-anthony-aguilar-breaking-trump-orders-military-action-2026-05-29.md"
     )
     base = text.replace(
         "editorial_note: Light cleanup only.",
@@ -165,7 +165,7 @@ def test_production_second_pass_on_trimmed_file():
         ">> Not in Trump's mind, no.",
     )
     path = Path(
-        "source-archive/statecraft/2026-05-31/source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md"
+        "source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md"
     )
     base = text.replace(
         "editorial_note: Light cleanup only.",
@@ -196,7 +196,7 @@ def test_normalize_text_updates_metadata_on_apply_shape():
         "Glenn Diesen",
         "Hey man. >> Hi. How are you?\n\nWell, the reality that we're dealing with now is Iran controls Hormuz.",
     )
-    path = Path("source-archive/statecraft/2026-05-31/source-nawfal-diesen-test.md")
+    path = Path("source-archive/statecraft/2026-05-31/source-mario-nawfal-diesen-test.md")
     changed, new_text, file_change = normalize_text(path, text, include_side_quests=False)
     assert changed
     assert file_change is not None
@@ -213,7 +213,7 @@ def test_reapply_on_trimmed_file_is_noop():
         "Glenn Diesen",
         "Hey man. >> Hi. How are you?\n\nWell, the reality that we're dealing with now is Iran controls Hormuz.",
     )
-    path = Path("source-archive/statecraft/2026-05-31/source-nawfal-diesen-test.md")
+    path = Path("source-archive/statecraft/2026-05-31/source-mario-nawfal-diesen-test.md")
     _, trimmed_text, first_change = normalize_text(path, text, include_side_quests=False)
     assert first_change is not None
     assert first_change.intro_removed
@@ -233,7 +233,7 @@ def test_tag_only_sets_opening_tier_without_trim():
         "Douglas Macgregor",
         "So, cuz Trump is praising the Islamic Republic. Iran controls the Strait of Hormuz.",
     )
-    path = Path("source-archive/statecraft/2026-06-06/source-nawfal-macgregor-test.md")
+    path = Path("source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-test.md")
     changed, new_text, file_change = normalize_text(
         path, text, include_side_quests=False, tag_only=True
     )

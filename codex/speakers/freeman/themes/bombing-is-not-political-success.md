@@ -22,7 +22,7 @@ Freeman repeatedly invokes Vietnam, Afghanistan, and adjacent war-memory example
 
 ## Exact Quote Anchors
 
-- [2026-04-21 Judging Freedom](../../years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
+- [2026-04-21 Judging Freedom](../../years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md)
   > "We should have learned from Vietnam, from Afghanistan, from other experiences that is not the case."
 
 - [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)

@@ -40,12 +40,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [frZDd7KM3Fo](https://www.youtube.com/watch?v=frZDd7KM3Fo) | `source-dialogue-works-wilkerson-irans-quds-force-chief-red-sea-chokepoint-next-hormuz-2026-06-02.md` |
 | `glenn-diesen` | Diesen | `diesen`, `krapivnik` | [watch](https://www.youtube.com/watch?v=5xtnwhdIp_k) | `source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md` |
 | `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=dClwePAEoRw) | `source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [watch](https://www.youtube.com/watch?v=FWoseXWGX5Y) | `source-napolitano-freeman-how-the-us-lost-geopolitical-primacy-2026-06-02.md` |
-| `judging-freedom` | Judging Freedom | `napolitano` | [watch](https://www.youtube.com/watch?v=KVEE4zcp-p0) | `source-napolitano-hoh-military-spending-into-oblivion-2026-06-02.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Ns7777oBj4U) | `source-napolitano-mearsheimer-will-israel-veto-an-american-peace-2026-06-02.md` |
-| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [uchIKTuLAUo](https://www.youtube.com/watch?v=uchIKTuLAUo) | `source-nawfal-larry-johnson-breaking-iran-attacks-kuwait-2026-06-02.md` |
-| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [a2Lqc7m0SfE](https://www.youtube.com/watch?v=a2Lqc7m0SfE) | `source-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md` |
-| `mario-nawfal` | Mario Nawfal | `wilkerson`, `nawfal` | [X1BVrPUOu5Y](https://www.youtube.com/watch?v=X1BVrPUOu5Y) | `source-nawfal-wilkerson-breaking-pakistan-offered-iran-nukes-2026-06-02.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `freeman` | [watch](https://www.youtube.com/watch?v=FWoseXWGX5Y) | `source-judging-freedom-freeman-how-the-us-lost-geopolitical-primacy-2026-06-02.md` |
+| `judging-freedom` | Judging Freedom | `napolitano` | [watch](https://www.youtube.com/watch?v=KVEE4zcp-p0) | `source-judging-freedom-hoh-military-spending-into-oblivion-2026-06-02.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Ns7777oBj4U) | `source-judging-freedom-mearsheimer-will-israel-veto-an-american-peace-2026-06-02.md` |
+| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [uchIKTuLAUo](https://www.youtube.com/watch?v=uchIKTuLAUo) | `source-mario-nawfal-larry-johnson-breaking-iran-attacks-kuwait-2026-06-02.md` |
+| `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [a2Lqc7m0SfE](https://www.youtube.com/watch?v=a2Lqc7m0SfE) | `source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md` |
+| `mario-nawfal` | Mario Nawfal | `wilkerson`, `nawfal` | [X1BVrPUOu5Y](https://www.youtube.com/watch?v=X1BVrPUOu5Y) | `source-mario-nawfal-wilkerson-breaking-pakistan-offered-iran-nukes-2026-06-02.md` |
 
 ## Writer sources
 
@@ -73,11 +73,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-wilkerson-irans-quds-force-chief-red-sea-chokepoint-next-hormuz-2026-06-02.md`
 - `source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md`
 - `source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md`
-- `source-napolitano-freeman-how-the-us-lost-geopolitical-primacy-2026-06-02.md`
-- `source-napolitano-hoh-military-spending-into-oblivion-2026-06-02.md`
-- `source-napolitano-mearsheimer-will-israel-veto-an-american-peace-2026-06-02.md`
-- `source-nawfal-larry-johnson-breaking-iran-attacks-kuwait-2026-06-02.md`
-- `source-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md`
-- `source-nawfal-wilkerson-breaking-pakistan-offered-iran-nukes-2026-06-02.md`
+- `source-judging-freedom-freeman-how-the-us-lost-geopolitical-primacy-2026-06-02.md`
+- `source-judging-freedom-hoh-military-spending-into-oblivion-2026-06-02.md`
+- `source-judging-freedom-mearsheimer-will-israel-veto-an-american-peace-2026-06-02.md`
+- `source-mario-nawfal-larry-johnson-breaking-iran-attacks-kuwait-2026-06-02.md`
+- `source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md`
+- `source-mario-nawfal-wilkerson-breaking-pakistan-offered-iran-nukes-2026-06-02.md`
 - `source-pape-bombing-while-talking-2026-06-02.md`
 - `source-sachs-an-open-letter-to-chancellor-friedrich-merz-2026-06-02.md`

@@ -36,10 +36,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [jcARR_UKX_A](https://www.youtube.com/watch?v=jcARR_UKX_A) | `source-daniel-davis-iran-trump-and-trust-2026-05-29.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | [J91TtI--ANQ](https://www.youtube.com/watch?v=J91TtI--ANQ) | `source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md` |
 | `india-global-left` | India and Global Left | `marandi` | [watch](https://www.youtube.com/watch?v=4yvbGF6vn0I) | `source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md` |
-| `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [Es4VF57_VAU](https://www.youtube.com/watch?v=Es4VF57_VAU) | `source-napolitano-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md` |
-| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [watch](https://www.youtube.com/watch?v=-B78m8F_2SQ) | `source-nawfal-anthony-aguilar-breaking-trump-orders-military-action-2026-05-29.md` |
-| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [watch](https://www.youtube.com/watch?v=mRgCzrreKu4) | `source-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md` |
-| `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [watch](https://www.youtube.com/watch?v=49oYoBv-9pM) | `source-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md` |
+| `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [Es4VF57_VAU](https://www.youtube.com/watch?v=Es4VF57_VAU) | `source-judging-freedom-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md` |
+| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [watch](https://www.youtube.com/watch?v=-B78m8F_2SQ) | `source-mario-nawfal-anthony-aguilar-breaking-trump-orders-military-action-2026-05-29.md` |
+| `mario-nawfal` | Mario Nawfal | `johnson`, `nawfal` | [watch](https://www.youtube.com/watch?v=mRgCzrreKu4) | `source-mario-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md` |
+| `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [watch](https://www.youtube.com/watch?v=49oYoBv-9pM) | `source-mario-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md` |
 | `neutrality-studies` | Neutrality Studies | `macgregor` | [xTO_QDVulkQ](https://www.youtube.com/watch?v=xTO_QDVulkQ) | `source-neutrality-studies-usa-collapsing-washingtons-soviet-moment-is-here-col-douglas-macgregor-2026-05-29.md` |
 
 ## Writer sources
@@ -64,8 +64,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-iran-trump-and-trust-2026-05-29.md`
 - `source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md`
 - `source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md`
-- `source-napolitano-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md`
-- `source-nawfal-anthony-aguilar-breaking-trump-orders-military-action-2026-05-29.md`
-- `source-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md`
-- `source-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md`
+- `source-judging-freedom-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md`
+- `source-mario-nawfal-anthony-aguilar-breaking-trump-orders-military-action-2026-05-29.md`
+- `source-mario-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md`
+- `source-mario-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md`
 - `source-neutrality-studies-usa-collapsing-washingtons-soviet-moment-is-here-col-douglas-macgregor-2026-05-29.md`

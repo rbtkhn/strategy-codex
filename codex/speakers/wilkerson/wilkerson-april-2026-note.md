@@ -21,16 +21,16 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-04-02 - *Is Netanyahu Getting Desperate?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/source-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md)
+1. [2026-04-02 - *Is Netanyahu Getting Desperate?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/source-judging-freedom-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md)
    Status: `Judging Freedom` early-month reinforcement now materialized.
 
-2. [2026-04-09 - *How Iran Brought Trump to His Knees.*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-09/source-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md)
+2. [2026-04-09 - *How Iran Brought Trump to His Knees.*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-09/source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md)
    Status: `Judging Freedom` mid-month reinforcement now materialized.
 
 3. [2026-04-10 - *Ceasefire Fails, NATO Died & the U.S. Risks Civil War*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-10/source-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md)
    Status: early-month `Diesen` reinforcement now materialized.
 
-4. [2026-04-16 - *Will Israel Go Nuclear?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/source-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md)
+4. [2026-04-16 - *Will Israel Go Nuclear?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md)
    Status: added `Judging Freedom` late-mid-month reinforcement now materialized.
 
 5. [2026-04-17 - *Iran Just FULLY Opened the Strait of Hormuz - It's OVER for Trump*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md)

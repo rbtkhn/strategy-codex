@@ -110,7 +110,7 @@ The Freeman correction is the model case for why this query needs a standard.
 
 Using the proper rolling window `2026-05-26` through `2026-06-01`, Freeman is not a one-hit speaker. He has at least these landed appearances:
 
-- [source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
+- [source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md)
 - [source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-29/source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md)
 
 And if the operator intended a softer recent-week sense that includes `2026-05-25`, there is also:

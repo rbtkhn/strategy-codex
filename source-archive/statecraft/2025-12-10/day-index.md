@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=46L9v4qUuEw) | `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=FW7vyCwyw84) | `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=m_tHqXt44sU) | `source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=UNdEunkOuSk') | `source-napolitano-sachs-underestimating-russia-2025-12-10.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=UNdEunkOuSk') | `source-judging-freedom-sachs-underestimating-russia-2025-12-10.md` |
 
 ## Writer sources
 
@@ -62,4 +62,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md`
 - `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md`
 - `source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md`
-- `source-napolitano-sachs-underestimating-russia-2025-12-10.md`
+- `source-judging-freedom-sachs-underestimating-russia-2025-12-10.md`

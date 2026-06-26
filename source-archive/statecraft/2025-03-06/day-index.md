@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=GiBVTf0L2mk) | `source-napolitano-mearsheimer-lavrov-and-russia-2025-03-06.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=GiBVTf0L2mk) | `source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-mearsheimer-lavrov-and-russia-2025-03-06.md`
+- `source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md`

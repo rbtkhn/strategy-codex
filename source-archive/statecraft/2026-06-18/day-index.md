@@ -39,10 +39,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [CkCnhwTp5Rw](https://www.youtube.com/watch?v=CkCnhwTp5Rw) | `source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [sEoIzK51T3U](https://www.youtube.com/watch?v=sEoIzK51T3U) | `source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
 | `glenn-diesen` | Glenn Diesen | `krapivnik`, `diesen` | [DpVf1p9vbLM](https://www.youtube.com/watch?v=DpVf1p9vbLM) | `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md` |
+| `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [gqGpIngzUis](https://www.youtube.com/watch?v=gqGpIngzUis) | `source-judging-freedom-blumenthal-israel-in-panic-2026-06-18.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [1CJPok38hYA](https://www.youtube.com/watch?v=1CJPok38hYA) | `source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md` |
 | `reason-resist` | Reason to Resist | `lascaris`, `henningsen` | [H3mKBIsfVdE](https://www.youtube.com/watch?v=H3mKBIsfVdE) | `source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md` |
 | `moral-resistance` | Moral Resistance | `aguilar`, `moral-resistance` | [hMSgCq55cKA](https://www.youtube.com/watch?v=hMSgCq55cKA) | `source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md` |
-| `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [gqGpIngzUis](https://www.youtube.com/watch?v=gqGpIngzUis) | `source-napolitano-blumenthal-israel-in-panic-2026-06-18.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [1CJPok38hYA](https://www.youtube.com/watch?v=1CJPok38hYA) | `source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md` |
 
 ## Writer sources
 
@@ -70,7 +70,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md`
 - `source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md`
 - `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md`
+- `source-judging-freedom-blumenthal-israel-in-panic-2026-06-18.md`
+- `source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md`
 - `source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md`
 - `source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md`
-- `source-napolitano-blumenthal-israel-in-panic-2026-06-18.md`
-- `source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md`

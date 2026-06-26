@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **Prior:** [Barnes × Aguilar enforceability](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) · [Trump humiliation extension](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
 
-**Source:** [Barnes / Nawfal — IRAN LAUNCHES ATTACK ON U.S. BASES](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md) (`bPP1SPCAegU`)
+**Source:** [Barnes / Nawfal — IRAN LAUNCHES ATTACK ON U.S. BASES](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md) (`bPP1SPCAegU`)
 
 ## Purpose
 
@@ -144,4 +144,4 @@ Bounded question:
 
 ## Source Anchor
 
-- [Barnes / Nawfal 2026-06-08](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+- [Barnes / Nawfal 2026-06-08](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)

@@ -174,6 +174,6 @@ So those things still exist and Russia is still building up its forces for that.
 >> It is a pmpkin force today,
 >> but it is capable of doing it because there are some brilliant people and every NATO country I've ever met, there's some brilliant people in there.
 But it's the guys at the top
->> that are oified in their thinking and and and have this this rigidity of mind that won't allow them to do I mean just look at Macron uh Meritt Starmer uh Mark Ruta Ursuland etc. All these guys are at the top are just blinded by anything except for a hatred of Russia and they're they're blinded by modernity.
+>> that are oified in their thinking and and and have this this rigidity of mind that won't allow them to do I mean just look at Macron uh Meritt Starmer uh Mark Rutte Ursuland etc. All these guys are at the top are just blinded by anything except for a hatred of Russia and they're they're blinded by modernity.
 They don't want to do anything different. And so even if there are and by the way you can add some generals into that same category unfortunately because you've had to be a political animal to get up there but there are plenty of people at the front and especially at the medium level that are well aware of what's happening here and they're just in anguish about recognizing what's not being done.
 So we could do it but I guess circling back to what you said at the beginning of this episode here I don't think we will. I think that we're gonna those that oified leadership I think is going to take us all down with

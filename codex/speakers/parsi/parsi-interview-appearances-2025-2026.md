@@ -42,7 +42,7 @@ Expected v2 count: 13 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-03-16 | How Washington Underestimated Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md) | Washington misread and legal-political responsibility |
+| 2026-03-16 | How Washington Underestimated Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md) | Washington misread and legal-political responsibility |
 
 ### Duran / Mercouris
 
@@ -60,9 +60,9 @@ Expected v2 count: 13 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-28 | BREAKING: Trump & Iran Close to Deal | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md) | fast-turn deal-proximity stress test |
-| 2026-06-01 | BREAKING: Iran Walks Away, Trump Scrambles, Israel Says Betrayal | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-01/source-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md) | walkaway volatility and Israel entanglement |
-| 2026-06-05 | IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-05/source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md) | frozen-assets bridge and live mediator signal |
+| 2026-05-28 | BREAKING: Trump & Iran Close to Deal | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-mario-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md) | fast-turn deal-proximity stress test |
+| 2026-06-01 | BREAKING: Iran Walks Away, Trump Scrambles, Israel Says Betrayal | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-01/source-mario-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md) | walkaway volatility and Israel entanglement |
+| 2026-06-05 | IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-05/source-mario-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md) | frozen-assets bridge and live mediator signal |
 
 ## Host Function Map
 

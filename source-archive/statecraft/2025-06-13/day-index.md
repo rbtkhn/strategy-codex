@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0oGP6bj1F8Q) | `source-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0oGP6bj1F8Q) | `source-judging-freedom-wilkerson-foreign-policy-in-chaos-2025-06-13.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md`
+- `source-judging-freedom-wilkerson-foreign-policy-in-chaos-2025-06-13.md`

@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=FdZQnJjZq8c) | `source-alex-mercouris-russia-wants-odessa-return-zelensky-gloats-at-russian-general-s-death-eu-fears-us-quitting-ukraine-2025-04-29.md` |
 | `glenn-diesen` | — | `diesen`, `martyanov` | [watch](https://www.youtube.com/watch?v=dYYPYZUUpRU) | `source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-charles-freeman-will-zelenskyy-concede-crimea-2025-04-29.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/MOzQgXEQrEk) | `source-napolitano-macgregor-how-close-to-a-regional-war-2025-04-29.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-will-zelenskyy-concede-crimea-2025-04-29.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/MOzQgXEQrEk) | `source-judging-freedom-macgregor-how-close-to-a-regional-war-2025-04-29.md` |
 
 ## Writer sources
 
@@ -57,5 +57,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-russia-wants-odessa-return-zelensky-gloats-at-russian-general-s-death-eu-fears-us-quitting-ukraine-2025-04-29.md`
 - `source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md`
-- `source-napolitano-amb-charles-freeman-will-zelenskyy-concede-crimea-2025-04-29.md`
-- `source-napolitano-macgregor-how-close-to-a-regional-war-2025-04-29.md`
+- `source-judging-freedom-amb-charles-freeman-will-zelenskyy-concede-crimea-2025-04-29.md`
+- `source-judging-freedom-macgregor-how-close-to-a-regional-war-2025-04-29.md`

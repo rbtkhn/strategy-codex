@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-napolitano-amb-chas-freeman-trump-stumbles-at-the-un-2025-09-30.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=YiLifxQJtUQ') | `source-napolitano-sachs-netanyahu-stumbles-2025-09-30.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-trump-stumbles-at-the-un-2025-09-30.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=YiLifxQJtUQ') | `source-judging-freedom-sachs-netanyahu-stumbles-2025-09-30.md` |
 
 ## Writer sources
 
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-napolitano-amb-chas-freeman-trump-stumbles-at-the-un-2025-09-30.md`
-- `source-napolitano-sachs-netanyahu-stumbles-2025-09-30.md`
+- `source-judging-freedom-amb-chas-freeman-trump-stumbles-at-the-un-2025-09-30.md`
+- `source-judging-freedom-sachs-netanyahu-stumbles-2025-09-30.md`

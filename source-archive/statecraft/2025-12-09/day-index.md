@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=VBsacbeWf2A) | `source-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [ln_XXosCoi8](https://www.youtube.com/watch?v=ln_XXosCoi8) | `source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=RQmrO_UfRTA) | `source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=cIkh_ZXs1Og) | `source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md` |
+| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=RQmrO_UfRTA) | `source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=cIkh_ZXs1Og) | `source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md` |
 | `neutrality-studies` | Neutrality Studies | `neutrality`, `sachs` | [watch](https://www.youtube.com/watch?v=BzU6frsoNoc) | `source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md` |
 
 ## Writer sources
@@ -58,6 +58,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md`
 - `source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md`
-- `source-napolitano-freeman-does-anyone-want-peace-2025-12-09.md`
-- `source-napolitano-mearsheimer-can-europe-save-ukraine-2025-12-09.md`
+- `source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md`
+- `source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md`
 - `source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md`

@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=2w5lDU92CEw) | `source-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=xg0Xs0Volfw) | `source-napolitano-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | — | `source-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=xg0Xs0Volfw) | `source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md` |
+| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | — | `source-judging-freedom-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md` |
 
 ## Writer sources
 
@@ -55,5 +55,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md`
-- `source-napolitano-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md`
-- `source-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md`
+- `source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md`
+- `source-judging-freedom-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md`

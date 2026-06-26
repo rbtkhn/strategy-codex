@@ -44,12 +44,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [oVIpH5FQF3Y](https://www.youtube.com/watch?v=oVIpH5FQF3Y) | `source-dialogue-works-larry-johnson-iran-forces-trump-into-concession-2026-06-11.md` |
 | `dialogue-works` | Dialogue Works | `escobar`, `alkorshid`, `nima` | [YkoZh2fhMRs](https://www.youtube.com/watch?v=YkoZh2fhMRs) | `source-dialogue-works-pepe-escobar-12-ballistic-missiles-struck-us-major-airbase-jordan-2026-06-11.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [X1ulonrAgbo](https://www.youtube.com/watch?v=X1ulonrAgbo) | `source-india-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md` |
-| `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [CSQ5rwTv2p4](https://www.youtube.com/watch?v=CSQ5rwTv2p4) | `source-napolitano-blumenthal-israel-jeopardizes-us-troops-2026-06-11.md` |
-| `judging-freedom` | Judging Freedom | `kent`, `napolitano` | [v-PwVY70s0U](https://www.youtube.com/watch?v=v-PwVY70s0U) | `source-napolitano-kent-why-trump-is-stuck-2026-06-11.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [ar9V-pip-_Q](https://www.youtube.com/watch?v=ar9V-pip-_Q) | `source-napolitano-macgregor-trumps-biggest-mistake-2026-06-11.md` |
-| `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [Hg7FvDUzi6c](https://www.youtube.com/watch?v=Hg7FvDUzi6c) | `source-napolitano-marandi-from-tehran-why-iran-risks-war-2026-06-11.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [0qNpuJ_vQh4](https://www.youtube.com/watch?v=0qNpuJ_vQh4) | `source-napolitano-wilkerson-israels-collapsing-strategy-2026-06-11.md` |
-| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [VCBy7TELSXY](https://www.youtube.com/watch?v=VCBy7TELSXY) | `source-nawfal-anthony-aguilar-breaking-explosions-now-in-iran-2026-06-11.md` |
+| `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [CSQ5rwTv2p4](https://www.youtube.com/watch?v=CSQ5rwTv2p4) | `source-judging-freedom-blumenthal-israel-jeopardizes-us-troops-2026-06-11.md` |
+| `judging-freedom` | Judging Freedom | `kent`, `napolitano` | [v-PwVY70s0U](https://www.youtube.com/watch?v=v-PwVY70s0U) | `source-judging-freedom-kent-why-trump-is-stuck-2026-06-11.md` |
+| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [ar9V-pip-_Q](https://www.youtube.com/watch?v=ar9V-pip-_Q) | `source-judging-freedom-macgregor-trumps-biggest-mistake-2026-06-11.md` |
+| `judging-freedom` | Judging Freedom | `marandi`, `napolitano` | [Hg7FvDUzi6c](https://www.youtube.com/watch?v=Hg7FvDUzi6c) | `source-judging-freedom-marandi-from-tehran-why-iran-risks-war-2026-06-11.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [0qNpuJ_vQh4](https://www.youtube.com/watch?v=0qNpuJ_vQh4) | `source-judging-freedom-wilkerson-israels-collapsing-strategy-2026-06-11.md` |
+| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [VCBy7TELSXY](https://www.youtube.com/watch?v=VCBy7TELSXY) | `source-mario-nawfal-anthony-aguilar-breaking-explosions-now-in-iran-2026-06-11.md` |
 | `redacted-news` | Redacted News | `macgregor`, `redacted` | [1tqCXZFIfOI](https://www.youtube.com/watch?v=1tqCXZFIfOI) | `source-redacted-douglas-macgregor-this-all-about-to-collapse-trump-knows-it-2026-06-11.md` |
 
 ## Writer sources
@@ -82,10 +82,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-johnson-iran-forces-trump-into-concession-2026-06-11.md`
 - `source-dialogue-works-pepe-escobar-12-ballistic-missiles-struck-us-major-airbase-jordan-2026-06-11.md`
 - `source-india-global-left-freeman-regional-fallout-us-iran-war-2026-06-11.md`
-- `source-napolitano-blumenthal-israel-jeopardizes-us-troops-2026-06-11.md`
-- `source-napolitano-kent-why-trump-is-stuck-2026-06-11.md`
-- `source-napolitano-macgregor-trumps-biggest-mistake-2026-06-11.md`
-- `source-napolitano-marandi-from-tehran-why-iran-risks-war-2026-06-11.md`
-- `source-napolitano-wilkerson-israels-collapsing-strategy-2026-06-11.md`
-- `source-nawfal-anthony-aguilar-breaking-explosions-now-in-iran-2026-06-11.md`
+- `source-judging-freedom-blumenthal-israel-jeopardizes-us-troops-2026-06-11.md`
+- `source-judging-freedom-kent-why-trump-is-stuck-2026-06-11.md`
+- `source-judging-freedom-macgregor-trumps-biggest-mistake-2026-06-11.md`
+- `source-judging-freedom-marandi-from-tehran-why-iran-risks-war-2026-06-11.md`
+- `source-judging-freedom-wilkerson-israels-collapsing-strategy-2026-06-11.md`
+- `source-mario-nawfal-anthony-aguilar-breaking-explosions-now-in-iran-2026-06-11.md`
 - `source-redacted-douglas-macgregor-this-all-about-to-collapse-trump-knows-it-2026-06-11.md`

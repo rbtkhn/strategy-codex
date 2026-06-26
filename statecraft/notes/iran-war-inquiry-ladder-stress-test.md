@@ -27,7 +27,7 @@ The live object was the June 3 to June 4 Iran-war batch centered on:
 The core source carriers were:
 
 - [Pape June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md)
-- [Macgregor June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-napolitano-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md)
+- [Macgregor June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md)
 - [Krainer June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-alex-krainer-iran-us-on-retaliatory-mode-war-imminent-2026-06-04.md)
 - [Henningsen June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md)
 - [Nima June 3](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-03/source-nima-alkhorshid-us-bases-airport-hit-iran-retaliates-gulf-stocks-crash-7-hezbollah-ops-2026-06-03.md)
@@ -187,5 +187,5 @@ Do **not** use this note to claim that all war objects have equivalent hinge or 
 - Return to [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) for the original territorial-war proof object.
 - Return to [recursive-learning-journal.md](../recursive-learning-journal.md) for the larger recursive-learning chronology.
 - Return to [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) for the phase-two interpretive frame that justifies this test.
-- Return to [Pape June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md) and [Macgregor June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-napolitano-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md) for the hinge and campaign-theory core.
+- Return to [Pape June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md) and [Macgregor June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md) for the hinge and campaign-theory core.
 - Return to [Henningsen June 4](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md) for the supporting-arm mutation.

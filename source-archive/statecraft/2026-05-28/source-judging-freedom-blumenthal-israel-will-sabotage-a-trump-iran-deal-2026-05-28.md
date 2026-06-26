@@ -11,7 +11,7 @@ title: "Max Blumenthal : Israel Will Sabotage a Trump/Iran Deal"
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Max Blumenthal
-channel_slug: judge-napolitano-judging-freedom
+channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 series: Judging Freedom
 air_day: Thursday, May 28, 2026

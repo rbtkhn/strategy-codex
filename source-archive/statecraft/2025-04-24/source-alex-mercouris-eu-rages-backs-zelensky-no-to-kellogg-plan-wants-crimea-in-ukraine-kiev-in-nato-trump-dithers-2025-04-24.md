@@ -667,7 +667,7 @@ that, of course, we're talking about the
 EU, but I've also been reading in the
 Financial
 Times that the NATO secretary general,
-Mark Rut, is now also apparently in
+Mark Rutte, is now also apparently in
 Washington and he's going to meet with
 Trump administration officials and he
 also is going to tell Trump
