@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: route map for **Nima Alkorshid** as **guest / interviewed analyst on other hosts and channels** — not Dialogue Works host or solo work.
 
-**Host channel (Dialogue Works):** [`dialogue-works-index.md`](../../channels/dialogue-works/dialogue-works-index.md) · host-law: [`nima-host-law.md`](../../channels/dialogue-works/nima-host-law.md)
+**Host channel (Dialogue Works):** [`dialogue-works-channel-index.md`](../../channels/dialogue-works/dialogue-works-channel-index.md) · host-law: [`nima-host-law.md`](../../channels/dialogue-works/nima-host-law.md)
 
 ## Boundary
 
@@ -33,4 +33,4 @@ Do **not** dedupe by calendar day alone — same person on Davis vs Dialogue Wor
 ## Reading rule
 
 - **Guest mechanism / cross-host Nima** → this index
-- **Nima as host or solo on Dialogue Works** → [`dialogue-works-index.md`](../../channels/dialogue-works/dialogue-works-index.md)
+- **Nima as host or solo on Dialogue Works** → [`dialogue-works-channel-index.md`](../../channels/dialogue-works/dialogue-works-channel-index.md)

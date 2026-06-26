@@ -7,7 +7,7 @@ Voice shelf for **Nima Alkorshid** as analyst — **guest appearances on other c
 ## Open first
 
 - [alkorshid-index.md](alkorshid-index.md) — cross-host guest captures (`channel_slug` ≠ `dialogue-works`)
-- [Dialogue Works channel shelf](../../channels/dialogue-works/README.md) — Nima as **host** (`dialogue-works-index.md`, `nima-host-law.md`)
+- [Dialogue Works channel shelf](../../channels/dialogue-works/README.md) — Nima as **host** (`dialogue-works-channel-index.md`, `nima-host-law.md`)
 
 ## Split
 

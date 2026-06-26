@@ -23,7 +23,7 @@ HOSTS = REPO_ROOT / "statecraft" / "channels"  # legacy name in API: host slugs
 RECEIPT_PATH = REPO_ROOT / "runtime" / "artifacts" / "statecraft" / "codex-speakers-migration-receipt.json"
 
 HOST_SLUGS = frozenset({"daniel-davis", "judging-freedom", "dialogue-works"})
-SKIP_DIRS = frozenset({"alkorshid"})  # compat pointer only; links target dialogue-works-index
+SKIP_DIRS = frozenset({"alkorshid"})  # compat pointer only; links target dialogue-works-channel-index
 META_DIRS = frozenset({"_templates", "relations", "map"})
 ROOT_FILES = (
     "authored-pressure-quartet.md",

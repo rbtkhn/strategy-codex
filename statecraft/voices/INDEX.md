@@ -14,7 +14,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 |---|---|
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
-| Dialogue Works | [../channels/dialogue-works/dialogue-works-index.md](../channels/dialogue-works/dialogue-works-index.md) |
+| Dialogue Works | [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Diesen | [diesen/diesen-source-index.md](diesen/diesen-source-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |

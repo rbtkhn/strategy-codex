@@ -299,9 +299,9 @@ routes:
   - Dialogue Works routing
   - Alkorshid
   category: work
-- id: dialogue-works-index
+- id: dialogue-works-channel-index
   title: Dialogue Works channel index
-  path: statecraft/channels/dialogue-works/dialogue-works-index.md
+  path: statecraft/channels/dialogue-works/dialogue-works-channel-index.md
   kind: source_index
   authority: work_only
   domain:
@@ -319,6 +319,7 @@ routes:
   - statecraft
   search_hints:
   - Dialogue Works index
+  - dialogue-works-channel-index
   - dialogue-works-index
   - source-dialogue-works
   - Dialogue Works channel

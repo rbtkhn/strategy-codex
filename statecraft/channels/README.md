@@ -31,7 +31,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 | `channel_slug` | Shelf | Watchlist | Notes |
 | --- | --- | --- | --- |
 | `alexander-mercouris` | [alexander-mercouris/](alexander-mercouris/README.md) | yes | Solo Mercouris channel; analyst SSOT → [voices/mercouris](../voices/mercouris/) |
-| `dialogue-works` | [dialogue-works/](dialogue-works/README.md) | yes | Nima / Dialogue Works; [dialogue-works-index.md](dialogue-works/dialogue-works-index.md) |
+| `dialogue-works` | [dialogue-works/](dialogue-works/README.md) | yes | Nima / Dialogue Works; [dialogue-works-channel-index.md](dialogue-works/dialogue-works-channel-index.md) |
 | `daniel-davis` | [daniel-davis/](daniel-davis/README.md) | yes | Feasibility / settlement-room host law |
 | `glenn-diesen` | [glenn-diesen/](glenn-diesen/README.md) | yes | Diesen channel; analyst SSOT → [voices/diesen](../voices/diesen/) |
 | `judging-freedom` | [judging-freedom/](judging-freedom/README.md) | yes | Legal / constitutional / process pressure |

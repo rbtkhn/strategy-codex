@@ -12,7 +12,7 @@ Use it when a statecraft read needs **Dialogue Works** as a host transformation 
 - [index.md](index.md)
 - [nima-host-law.md](nima-host-law.md)
 - [dialogue-works-disambiguation.md](dialogue-works-disambiguation.md)
-- [Dialogue Works index](dialogue-works-index.md)
+- [Dialogue Works index](dialogue-works-channel-index.md)
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Host Role
@@ -30,7 +30,7 @@ The question Nima answers is usually not `what does the guest believe?` alone bu
 
 The older [statecraft/channels/dialogue-works/README.md](../../../statecraft/channels/dialogue-works/README.md) tree remains compatibility residue for:
 
-- [dialogue-works-index.md](dialogue-works-index.md) (provenance route map)
+- [dialogue-works-channel-index.md](dialogue-works-channel-index.md) (provenance route map)
 - [stream/](../../../statecraft/channels/dialogue-works/stream/) guest arcs, monthly shelves, thread/transcript continuity
 
 Use this repo-root shelf for live host-law and profile SSOT; descend into codex `stream/` and source-index when you need chronology or provenance breadth.

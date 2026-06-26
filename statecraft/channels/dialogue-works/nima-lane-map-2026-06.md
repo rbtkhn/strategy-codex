@@ -22,7 +22,7 @@ Canonical guest arcs (compatibility paths) live under [statecraft/channels/dialo
 ## Routing default
 
 1. Open [nima-profile.md](nima-profile.md) or episode row in the profile inventory when the job is roster/backfill.
-2. Open [dialogue-works-index.md](dialogue-works-index.md) when the job is provenance location.
+2. Open [dialogue-works-channel-index.md](dialogue-works-channel-index.md) when the job is provenance location.
 3. Open the guest voices shelf when the job is whole-speaker judgment.
 4. Open the host-local arc in `statecraft/channels/dialogue-works/stream/` when the job is Dialogue Works–specific transformation on that guest.
 

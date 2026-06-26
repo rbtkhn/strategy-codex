@@ -9,7 +9,7 @@ Purpose: front door for the canonical live Dialogue Works host shelf in repo-roo
 - [Speaker profile](nima-profile.md)
 - [README.md](README.md)
 - [nima-host-law.md](nima-host-law.md)
-- [dialogue-works-index.md](dialogue-works-index.md)
+- [dialogue-works-channel-index.md](dialogue-works-channel-index.md)
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Current Live Rule
@@ -23,7 +23,7 @@ Open Nima / Dialogue Works first when:
 
 ## Provenance and stream (compatibility)
 
-- [dialogue-works-index.md](dialogue-works-index.md) — exhaustive Dialogue Works route map
+- [dialogue-works-channel-index.md](dialogue-works-channel-index.md) — exhaustive Dialogue Works route map
 - [stream/nima-thread.md](../../../statecraft/channels/dialogue-works/stream/nima-thread.md) — legacy host continuity
 - [stream/nima-shelf-2026-04.md](../../../statecraft/channels/dialogue-works/stream/nima-shelf-2026-04.md) — bounded monthly synthesis shelf
 

@@ -10,7 +10,7 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkorshid** (person) vs lega
 |-------|--------|------|
 | Archive person thread | **`alkorshid`** | ingest, indices, dual `threads` on every appearance |
 | Host shelf | **`hosts/nima/`** | Dialogue Works **host-law** only — not whole-speaker index |
-| Voices shelf | **`hosts/nima/dialogue-works-index.md`** | **Dialogue Works** channel route map (`source-dialogue-works-*`) |
+| Voices shelf | **`hosts/nima/dialogue-works-channel-index.md`** | **Dialogue Works** channel route map (`source-dialogue-works-*`) |
 | MCQ / EOD `expert_id` | **`nima`** (compat) | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | Script read aliases | `alkorshid`, `alkhorshid`, `nima alkhorshid` | one release cycle after rename ship |
 | Deprecated archive thread | **`thread:nima`** | replace with **`thread:alkorshid`** on new/edited captures |
@@ -48,7 +48,7 @@ Full channel display names: **Daniel Davis**, **Mario Nawfal**, **Judging Freedo
 | Surface | Owns |
 |---------|------|
 | [nima-host-law.md](nima-host-law.md) | DW host transformation, lane map pointers |
-| [dialogue-works-index.md](dialogue-works-index.md) | Dialogue Works channel route map (`source-dialogue-works-*`) |
+| [dialogue-works-channel-index.md](dialogue-works-channel-index.md) | Dialogue Works channel route map (`source-dialogue-works-*`) |
 
 ## Script touchpoints
 

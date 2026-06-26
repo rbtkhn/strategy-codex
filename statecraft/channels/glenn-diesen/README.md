@@ -17,7 +17,7 @@ Glenn Diesen channel — whole-analyst SSOT lives under `statecraft/voices/diese
 
 ## Open first
 
-- [glenn-diesen-index.md](glenn-diesen-index.md)
+- [glenn-diesen-channel-index.md](glenn-diesen-channel-index.md)
 - [index.md](index.md)
 
 ## Host role
