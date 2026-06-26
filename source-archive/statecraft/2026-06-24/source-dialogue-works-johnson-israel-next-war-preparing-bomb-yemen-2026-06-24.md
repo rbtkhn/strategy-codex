@@ -27,8 +27,9 @@ youtube_id: sV1lTSNqjQc
 source_note: "Operator source-intake 2026-06-24; operator-pasted YouTube transcript; host self-dates Thu 24 Jun 2026. UN Gaza Khan Yunis 14yo boy war crimes/crimes against humanity/genocide report; Danon UN bias probe; Channel 14 IDF Yemen/Houthi op prep; Iran president Pakistan regional security architecture; Pakistan post-Feb-28 intel help Larijani; Switzerland Pakistan keep Iran at table; Egypt/Saudi/Turkey FM meeting; Lebanon-Israel talks no progress; Katz won't withdraw Lebanon; Rubio UAE/Kuwait Hormuz toll; Qatar rejects toll; MarineTraffic Hormuz outbound; mines/hull idle; $76 vs $106 landed oil; Netanyahu informed Trump Iran strike; Knesset poll 61 opposition; Bennett 70% Gaza control; FT regional security pact; Medvedev Russia; Azerbaijan/Armenia CIA MI6; China Fri Saudi; GM weapons rare earth Armenia; Le Pen Lebanon; Rutte 4000-5000 EU flights Italy denial; CBS Kuwait wounded cover-up; Putin cadets Barbarossa; Starlink EW Ukraine; Orban/Magyar Hungary; Trump fleet not repatriated."
 evidence_grade: transcript-bearing
 opening_tier: host-intro
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim; ASR artifacts retained (Kanunas/Khan Yunis, Hermus/Hormuz, Zalinski, etc.).
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim; ASR artifacts retained (Kanunas/Khan Yunis, Hermus/Hormuz, Zalinski, etc.). · source-section pass 2026-06-25 (8 sections)."
 transcript_wrapper_tier: clean
+transcript_curation: curated_sectioned
 ---
 
 # Larry Johnson: Israel Just Triggered the NEXT WAR – Preparing to Bomb Yemen
@@ -40,8 +41,16 @@ transcript_wrapper_tier: clean
 **URL:** https://www.youtube.com/watch?v=sV1lTSNqjQc
 
 ## Transcript
+
+
+### Open — Gaza UN Report and Yemen Prep
+
 Hi everybody. Today is Thursday, June 24th, 2026 and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> Well, thank you. And let me just acknowledge for the group, for the people watching that uh Nema has a shirt exemption today out of religious observance. So for Ashura uh it is he is entitled to wear black.
- So he's he's not turning into Johnny Cash but he is he is observing a religious uh principle. So >> I'm not going to make any comment any insults about where's the damn shirt. >> Yeah, Larry. I want to start with a somehow a tragedy that has happened in Gaza in Kanunas. A 14-year-old kid boy was killed by Israelis and there is a report by the UN on that and here is what they said.
+ So he's he's not turning into Johnny Cash but he is he is observing a religious uh principle. So >> I'm not going to make any comment any insults about where's the damn shirt. >> Yeah, Larry. I want to start with a somehow a tragedy that has happened in Gaza in Kanunas. A
+
+### Yemen Operations — Channel 14 Prep
+
+14-year-old kid boy was killed by Israelis and there is a report by the UN on that and here is what they said.
 >> Three questions today for Israeli people. A 14year-old boy. He was shot by an Israeli military patrol as he was leaving his house, but at the time there had been no fighting taking place. He was shot, badly injured and was lying on the ground. He was surrounded by a company of Israeli soldiers who were chatting and probably some of them smoking over a period of 45 minutes while this 14year-old boy bled to death.
 as the mother sought to leave the house to go to the child to rescue him or she was shot at by the Israeli military patrol. What kind of people are your soldiers would allow a 14-year-old child to bleed to death over a 40 45minute period? What kind of people are your military leaders that would inculcate a culture that soldiers feel free to do this? What kind of people are your leaders? When they give orders, they make statements.
 >> The commission's findings are that Israel targets children to weaken demographic vitality and deny the Palestinian people's right. Based on all the evidence gathered, the report makes legal findings and concludes that the Israeli authorities and the Israeli security forces have deliberately targeted and killed Palestinian children and destroyed their childhood.
@@ -51,15 +60,26 @@ And now instead of, you know, they vowed never again, here they are engaged in d
 Yeah, we had the Israeli ambassador Danny Dannon. He says, "I'm calling on the office of the Secretary General to launch Yeah. to launch an an official investigation into anti-Israeli bias among UN officials and in UN reports and in an an investigation into how anti-semitism is normalized.
 " You know what's so amazing to me that you know the the way that Israel is behaving I think as time goes by many people are coming out and saying who are these people >> what is the main goal because they're behing behind anti-semitism and most >> I I every Jew I know is condemning Israel >> right >> every Jews basically every Jew that is my friend that that I know in my And these people, but these people are so unbelievably out of their minds.
 >> Well, there's a there's a prominent Jewish physician here in the United States who's an ardent Zionist and he was condemning this was in a private group chat. He was condemning Norman Finkelstein as an anti-semite. Norman, who is Jewish, whose parents uh survived the Holocaust but nonetheless were incarcerated.
-U again, it's just typical when you know these Zionist extremists try to assert the right to declare who's Jewish, who's not Jewish, and then in the course of that justify these kinds of horrific attacks on children. >> Yeah. Larry, Channel 14 in Israel reported that Israeli defense establishment is preparing for the possible resumption of military operation against Houthis and SA in Yemen and they're updating operation plans.
+U again, it's just typical when you know these Zionist extremists try to assert the right to declare who's Jewish, who's not Jewish, and then in the course of that justify these kinds of horrific attacks on children. >> Yeah. Larry,
+
+### Pakistan — Regional Security Architecture
+
+Channel 14 in Israel reported that Israeli defense establishment is preparing for the possible resumption of military operation against Houthis and SA in Yemen and they're updating operation plans.
  What is happening? What is the reason to attack Yemen again? >> Well, uh they have no reason right now. uh they could possibly jin up a reason if they said that uh if the Houthis launched ballistic missiles into uh Israel uh you know which they potentially could do but uh this is again there's there's no no justification for it right now >> it seems because of Lebanon they're not you know because of what's going on between Iran and the United States, they're not able to do any more attacks on Lebanon. Let's go after Yemen.
  Let's see how we can sabotage the whole thing, the whole talks, the whole whatever it is. But that that'd probably be foolish on their part to do so simply because uh the Yemenes will fight back and in the fight back they will be causing some significant uh damage uh to uh to Israel and you know is again it's a case of Israel biting off more than it could chew.
->> Yeah. Larry, finally we had the Iranian president going to Pakistan and what was mentioned there is important and the same thing that we were talking about it on this podcast. I think various times, many times we talk about it about the new security structure of the region and it was mentioned by the Iranian president in Pakistan.
+>> Yeah. Larry, finally we had the
+
+### Lebanon Talks — No Progress
+
+Iranian president going to Pakistan and what was mentioned there is important and the same thing that we were talking about it on this podcast. I think various times, many times we talk about it about the new security structure of the region and it was mentioned by the Iranian president in Pakistan.
  But when you look at the relationship between the two countries and how the reaction I don't know what is from your sources you talk with you know some Pakistani sources how do they feel about the situation between Iran and Pakistan and how is that going to somehow help the whole security structure in the region? Yeah, actually you know the the relations between Pakistan and Iran were not always great.
  Uh there were always some tensions uh sometimes over Pakistan's feeling that Iran was not acting aggressively enough against the Beluchcci uh terrorist threats etc. But once uh once the attack was uh launched on Iran on the 28th of February, Pakistan changed uh changed its attitude and particularly after the assassination of uh then head of the parliament Larani Ali Larani.
 uh Pakistan contacted uh Iranian both intelligence officials and political officials and said look we know we know how the you're being targeted we know what the Israelis are doing to locate your people and to kill them. So, um, Iran accepted that help and you'll notice that since then there have not been any of these high-profile assassinations.
 Uh, so Pakistan has played a prominent role in preventing that. Uh, their role in the talks back in Switzerland last last Sunday also played a critical role. They they intervened uh three times just to keep the Iranians from walking out in the face of insults from Donald Trump. Uh at the same time they convened a meeting of the other foreign ministers of Egypt, Saudi Arabia, Turkey and Egypt for the express purpose of talking about constructing this new inter new security architecture for the Gulf.
 So um Pakistan I think is the Iranians have come to recognize that Pakistan is an honest broker in this deal and it is no longer willing to carry water for the United States and that it is quite serious and sincere about both helping uh Iran survive but in addition to surviving creating a new security architecture that will protect not just Iran but Saudi Arabia, Turkey and Egypt.
+
+### Rubio — UAE and Kuwait Visit
+
 Axis reported today there was a meeting between the two sides, Lebanon and Israel. It says it says that it ended without progress and I would be curious what is the main goal of talk between the two sides when the is when the government in Lebanon is not basically responsible for any sort of fight against Israel. Mhm.
 >> So do you see the moment that they would bring maybe Hezbollah or some players important players in Lebanon into the discussion into the sort of you know talks they they have and the other point is Larry that as we we've seen the president of Lebanon came out and said Israel has to withdraw totally from Lebanon and this could have done maybe the United States is pushing for that because the guy is not independent and we know that >> how do you see the situation between the two as Israel is denying maybe they're
 going to get back to 2024 the same the sort of ceasefire they had withdrawing from some regions not you know totally from Lebanon. Well, I I look I I think their initial goal was to see if they could get make any progress with the Lebanese on you know going after Hezbollah and you know I think the government of President O was like no we're not going to do that.
@@ -72,8 +92,16 @@ So this is I said this is Pak Pakistan is uh you know they're playing a major ro
 government you don't see any sort of sign that they want to do anything against any of these countries that were used against Iran during the war. >> Right. >> And the agenda, how is that going to be perceived by Pakistani government in your opinion? Do they understand the Iranian position or >> which agenda? >> Agenda dominating the region.
  That's not going to >> who? Iran. Iran dominating the region. >> Dominating the region because that's Well, that's the Western narrative, but that's not that's not Iran's. >> Not only Western narrative, you hear it in Kuwait, in in the UAE, and maybe in Bahrain. >> Yeah. They're just par they're just paring.
  They're repeating what they hear from the West. But, you know, Ron has demonstrated that it's not seeking to dominate uh any country there in the Persian Persian Gulf. Um you know, it's it's looking for partnership in particular with Qatar. Uh that would be the least likely of any of them to be ins snared in a let's call it a a slave trap or become a lackey of of Iran.
- That's not Iran. That's not how Iran operates. >> What is the mission of Rubio going to UAE and Kuwait? It seems that during the talks or the negotiations, they were somehow kept in the dark. They don't know what's going on. That's why he's there or is something beyond that there? >> No. No. I think that's why he's there.
->> Did you hear Mark Route Larry today talking about >> No, I I I I haven't I haven't heard that. I saw that he was on uh TV with Trump. I you know, I just saw it in the background. But what did he say? Yeah. He said that five military bases, five 500 US military aircrafts took off from bases in Italy to participate in attacks by the United States and Israel against Iran.
+ That's not Iran. That's not how Iran operates. >>
+
+### Rutte — EU Flights and Italy Denial
+
+What is the mission of Rubio going to UAE and Kuwait? It seems that during the talks or the negotiations, they were somehow kept in the dark. They don't know what's going on. That's why he's there or is something beyond that there? >> No. No. I think that's why he's there.
+>>
+
+### Hungary — Orban and EU Politics
+
+Did you hear Mark Rutte today talking about >> No, I I I I haven't I haven't heard that. I saw that he was on uh TV with Trump. I you know, I just saw it in the background. But what did he say? Yeah. He said that five military bases, five 500 US military aircrafts took off from bases in Italy to participate in attacks by the United States and Israel against Iran.
 And later on Italy said, "No, that's wrong. He's he's just lying." And when he's it's >> I think they used they it was this way and he he's he's giving us the information that we haven't we didn't know about it before. >> Mhm. >> And Italy is somehow in some sort of panic because of that.
  Right now they need a straight of hormones. And you see the head of the secretary general of NATO coming out and talking this way. That's a huge blow. That's a huge sort of problem making for Italy. >> Well, I'm just trying to see what the what the flight distance is. Okay. So, 1,480 mi. Uh if uh if an F-35 took off from Italy or an F-16 for that matter, um the F the F35's range is five.
 Uh, so they're trying to just fly home as without combat loads, say maybe 600 miles. So they're going to have to be in refueled at least twice if they took off from there and flew to Iran and then tried to fly back. So you know, at least four total u air refuelings each direction. you know, two going east, two going west, or vice versa.
@@ -134,7 +162,11 @@ What is the solution, Larry, for Russians? Today I talked with Scott Ritter. He 
  But when it comes to Eurasia, what would be the move on part? Donald Trump, you remember before coming to power, he was talking about we need to make a better relationship with Russia. we need and even he talked about G7 being G8 and Russia join in that which was you know >> but but he send a mix mixed messages on the one hand he says that then on the other hand he talks about giving more lethal weapons to Ukraine and so you know if you're the if you're Russia you look at that trying to figure out well which guy is it Dr. Jackekal or
 Mr. hide. >> He's like a split personality. Um, so I uh I I don't hold out any hopes that Trump Well, let me hold out this hope. The key is going to be if they start redeploying the US air assets uh this week. And hang on, I may have a update on that. Stand by. Uh no, no major mo movements yet. So they still haven't uh Trump still hasn't ordered all this fleet of air aircraft to come back to the United States.
  So they're they're still in a place where they would be able to respond or launch attacks on Iran if Trump decides to do it again. I don't see any sort of change in Europe being that much substantial for the war in Ukraine. Let's assume Stormer is out, Macron is out, Mer is out. That's not going to change anything in Europe.
-Yeah, it may or may not. Depends on who replaces him. reportedly this Burnham guy that's going to replace Starmer is just as crazy about supporting uh um I guess he he's just as crazy about going after Iran as uh uh as Starmer both supporting Israel and backing Ukraine same apparently no real Because we had in the eastern part of Europe, we had Orban together with Pitsu. Orban is out.
+Yeah, it may or may not. Depends on who replaces him. reportedly this Burnham guy that's going to replace Starmer is just as crazy about supporting uh um I guess he he's just as crazy about going after Iran as uh uh as Starmer both supporting Israel and backing Ukraine same apparently no real Because we had in the eastern part of Europe, we had
+
+### Close — Farewell
+
+Orban together with Pitsu. Orban is out.
  That was a huge loss for Russia in my opinion. >> Yeah. Yeah. >> The guy who came the new prime minister of you know Hungary is so much in line or aligned with European policies. >> No, no, no, no, no. saw today he voted against he actually took the same stance that Orban had. >> No, in terms of what military aid to Ukraine.
 >> Yeah, I think Hang on here. That's what I I thought I maybe I misread that. The last time I heard that he's supporting the European policy on on Ukraine. >> Wow. >> But they're dependent on Russian energy. By the way, that's important on their part. Hungary is so dependent on Russia and they have to decide.
 >> Yeah. Hungary has blocked the next stage of negotiation on Ukraine's uh where is that? >> Yeah, it just said uh Hungary has blocked the next stage negotiation on Ukraine's EU membership. Prime Minister Peter Maguar was forced to consider the antipathy of a significant part of Hungarian society towards Vimir Zalinski.

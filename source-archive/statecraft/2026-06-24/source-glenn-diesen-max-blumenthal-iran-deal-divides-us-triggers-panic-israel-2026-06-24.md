@@ -29,8 +29,9 @@ evidence_grade: transcript-bearing
 opening_tier: host-intro
 transcript_wrapper_tier: clean
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. · source-section pass 2026-06-25 (9 sections)."
 quality_note: Fresh intake 2026-06-24.
+transcript_curation: curated_sectioned
 ---
 
 # Max Blumenthal: 'Iran Deal' Divides the U.S. & Triggers Panic in Israel
@@ -42,13 +43,27 @@ quality_note: Fresh intake 2026-06-24.
 **URL:** https://www.youtube.com/watch?v=2llCTE7Nf6w
 
 ## Transcript
+
+
+### Open — MOU and US-Israel Relationship
+
 Welcome back. We are joined today by Max Blumenthal, the editor and chief at the Grey Zone uh to discuss uh yeah theou and uh what is happening to the USIsraeli relationship. So thank you for coming back on. >> Great to see you Glenn. So uh I guess yeah my first question was uh yeah very specific that is the memorandum of understanding which uh I assume the US had to sign quite reluctantly given that it reads as a well as a declaration of surrender almost.
  Uh but again I understand why it had to be signed but at the same time it's hard to imagine the US having to uh well being able to accept the terms of this. Again the US has his own complicated political system even though Trump recognizes that it's necessary to put an end to this. Uh you know he he doesn't have necessarily have the final say or the only say in this matter.
- So, I was wondering if you could speak to some of the domestic politics, how people in the United States are reacting to, well, what I would define as a defeat at least. Well, this was also a major political defeat for Donald Trump and he's heading toward catastrophe. And that's why Donald Trump is trying to sell a different deal.
- there actually is no deal but a differentou uh to his base and to the American public than the one that Iran understands was agreed upon today. Donald Trump is declaring that there will be IAEA inspectors heading to Iran to inspect the nuclear sites and that's something that Iran has rejected so far. Uh and why would they accept that given um the assassinations of Mosen Fakriad, the Openheimr of Iran on down how down to um you know lesserk known quantum physicists and scientists who were assassinated during the 12-day war and afterwards how did uh Israel get these
+
+### Domestic Politics — Defeat and Trump Spin
+
+So, I was wondering if you could speak to some of the domestic politics, how people in the United States are reacting to, well, what I would define as a defeat at least. Well, this was also a major political defeat for Donald Trump and he's heading toward catastrophe. And that's why Donald Trump is trying to sell a different deal.
+ there actually is no deal but a differentou uh to his base and to the American public than the one that Iran understands was agreed upon today.
+
+### IAEA — Scientists and a Different MOU
+
+Donald Trump is declaring that there will be IAEA inspectors heading to Iran to inspect the nuclear sites and that's something that Iran has rejected so far. Uh and why would they accept that given um the assassinations of Mosen Fakriad, the Openheimr of Iran on down how down to um you know lesserk known quantum physicists and scientists who were assassinated during the 12-day war and afterwards how did uh Israel get these
 names and put them in its target bank? Uh well, we know Israel hacked into the private accounts of Raphael Gross, the general secretary of the IAEA, and it got these names through previous inspections that Iran had to hand over the names of scientists. So, it doesn't seem like Donald Trump is putting forward the actualou to his own base that he has to sign because the US was dealt the worst, I think, strategic defeat possibly in its history.
  military uh defeat in many ways a worse defeat than Vietnam because the economic damage has not been contained and won't be contained even if the conflict ends right now. Um the situ the the situation going through this summer looks bleak and I'm being told by people who are you know investors that oil is a really good bet right now because the prices will not stay down.
- So, Donald Trump has to has to do this and at the same and and and you know, in some ways he has um won back he's he's he's won back some of the support of his base. He's put JD Vance out as the salesman for theou. Vance was always sold to um the public as one of the restrainers on Iran. He wasn't able to res obviously do anything when Benjamin Netanyahu came to town and told Donald Trump gave basically gave Donald Trump his marching orders in February.
+
+### Vance — Restrainers and Israel Panic
+
+So, Donald Trump has to has to do this and at the same and and and you know, in some ways he has um won back he's he's he's won back some of the support of his base. He's put JD Vance out as the salesman for theou. Vance was always sold to um the public as one of the restrainers on Iran. He wasn't able to res obviously do anything when Benjamin Netanyahu came to town and told Donald Trump gave basically gave Donald Trump his marching orders in February.
  But now JD Vance is kind of having a little bit of a comeback. He's earning a little bit of his credibility back. Marco Rubio is nowhere to be seen. Donald Trump is backing up JD Vance publicly, but and and Donald Trump is facing a rift within the Republican party elite. The kind of George W. Bush neoconoriented Republicans are up in arms about theou.
 the is the Israel first Republicans like Ted Cruz, Roger Wicker on the uh foreign relations committee, they're obviously up in arms. And then and you have like the Zionist movement that supported Trump attacking him, including in Miriam Ad's paper in Israel, Israel Hyome, the pro- Netanyahu propaganda sheet, which we can talk about next, is is now going after Donald Trump.
  Donald Trump's unpopular in Israel suddenly they're just so entitled uh that they would turn on him in a second. But I think one of the most cynical, insidious elements in American politics that is now attempting to turn the screws on Trump for signing this and doing so in Versailles. the symbolism of signing basically a declaration of surrender in Versailles are the Democrats and the Democrats are doing so because theou is actually unpopular among the American public not because they don't want peace with Iran. It's because they
@@ -62,7 +77,11 @@ Kushner actually brought uh Nick Stewart from the Foundation for the Defense of 
 
 You know, the MOU is quite specific. It argues he's threatened Hezbollah to to stop uh well, what do you call disruptive behavior, I think. But it's the but it's the Israelis who are still occupying Lebanon. So all of these points in the MOU and of course threatening Iran during the negotiation. This is also prohibited.
  So uh he doesn't appear to want to live uh live up to it. Indeed. It does seem that he might be buying time though just to get some oil through stabilized markets. Um but it's it's hard to see this actually be implemented in full. Uh h how do you see Israel though? uh h it seems to be in a difficult spot now. That is it's been pushing for this war with Iran for decades.
- It finally got its man in the White House. Trump >> did it and then obviously did not go as planned. Iran has come out on top, you know, despite all the death and destruction. But where does that where does that place Israel at this point? I mean, how bad is the panic and what's plan B? Essentially, >> Israel uh reportedly proposed to destroy all of Iran's infrastructure in 48 hours to the US and the US rejected that because it's just simply it's something something they can't do.
+ It finally got its man in the White House. Trump >> did it and then obviously did not go as planned. Iran has come out on top, you know, despite all the death and destruction. But where does that
+
+### Military Defeat — Kaine and Hormuz
+
+where does that place Israel at this point? I mean, how bad is the panic and what's plan B? Essentially, >> Israel uh reportedly proposed to destroy all of Iran's infrastructure in 48 hours to the US and the US rejected that because it's just simply it's something something they can't do.
 I think, you know, even the Trump administration, as buffoonish as they are, recognized that this was just another ploy to drag the US back into a war that it can't win, in which it achieved zero military objectives, stated from the outset. And it was none other than the uh chairman of the Joint Chiefs, Dan Kaine, who opposed the war before it even began and began leaking to the Washington Post and the New York Times that the US would experience a munitions shortage, which it did.
 Dan Kaine then testified before the Senate Foreign Relations Committee, I think in an exchange with Senator Dick Durban, that uh Iran's navy had not been destroyed and that the US could not militarily open the Straight of Hormuz. This was as Donald Trump was he's even stating today uh their military was decimated, the Navy's destroyed.
  It could be that that's what Donald Trump's being told in his echo chamber, but I think that's just the case Donald Trump wants to make to his base so he can continue to sell theou uh following this defeat. So the US can't go can't it it there's there's no clear way for the US to achieve military objectives that it did not before unless unless it's willing to commit massive amounts of air power and lose scores of planes uh possibly pilots get pilots taken hostage in order to uh destroy Iran's missile cities and deterrence and
@@ -85,8 +104,16 @@ So, you see this massive Israel has become a polarized issue, it seems. But how 
  And you know, even the arch zionist CNN anchor Jake Tapper felt compelled to condemn this. This is what's being brought out of Israel's u demented soul through its failures in Lebanon. But it has to stay in Lebanon in order now to sabotage theou. Apac, the main arm of the Israel lobby in the US, attempted to portray those four invading Israeli soldiers who were attempting to attack Hezbollah inside Lebanese territory as victims of a crystal knock like poggram, declaring that Hezbollah just killed four Jews because it enjoys killing four
 Jew. It enjoys killing Jews. They're actually trying to elicit sympathy for invading Israeli soldiers. And every time they do so on X, those posts get ratioed with thousands of comments, essentially mocking and taunting them. There is no sympathy for what Israel is doing there. JD Vance was asked in Switzerland uh by an Arab reporter about Israel's genocidal rampage in Leb Lebanon.
  actually using the term genocide and JD Vance uh declared he didn't you know in in the past you would have seen uh Joe Biden or Barack Obama or whoever their uh underlings were denounce that reporter for using the term genocide but JD Vance simply shrugged and said no one is doing more than us to try to tamp down on the violence in Lebanon and if theou is to be enforced Israel is going to be restricted in Lebanon and that will be a military failure unlike that could actually be a more devastating military failure for Israel than Iran was. Iran was a more
-catastrophic failure for the United States. But it at this point it looks like that's where they're heading and that Lebanon will be the main lever for unraveling theou. Uh and to the extent that Hezbollah is going to is is is going to continue to inflict losses with FPV drones with cornet missiles and other anti-tank weapons on the Israelis.
-Uh theou survives. Now, just another quick point because you brought up brought up Tucker Carlson. Tucker Carlson declared, I think yesterday in an interview with the podcast that he was done with the Republican party. Um, you know, Tucker Carlson comes out of the the real center of the Republican party, the mainstream of the Republican party.
+catastrophic failure for the United States. But it at this point it looks like that's where they're heading and that
+
+### Lebanon — Sabotage Lever and Apac
+
+Lebanon will be the main lever for unraveling theou. Uh and to the extent that Hezbollah is going to is is is going to continue to inflict losses with FPV drones with cornet missiles and other anti-tank weapons on the Israelis.
+Uh theou survives. Now, just another quick point because you brought up brought up Tucker Carlson.
+
+### Tucker — GOP Exit and Third Party
+
+Tucker Carlson declared, I think yesterday in an interview with the podcast that he was done with the Republican party. Um, you know, Tucker Carlson comes out of the the real center of the Republican party, the mainstream of the Republican party.
 uh he was never he was actually not considered like an extremist or a far-right person or a populist until just a few years ago. His father was a major Republican figure uh who served as an ambassador on in Republican administrations, was close to the Reagan administration. You know, this is like Republican party elite and he's declaring that he can't be part of the Republican party anymore because it doesn't serve the United States.
  It essentially serves Israel. Tucker Carlson could potentially form a third party. Uh that would include figures like Marjgery Taylor Green, uh Matt Gates and Thomas Massie. many of the figures who've been pushed out by the Israel lobby who have a lot of cache within the conservative grassroots and also have a lot of respect on what I would call the populist left which uh Representative Ro Kana of California is attempting to to to lead right now and he'll probably run for I think he'll run in the Democratic primary. So, let let's just say they do
 that, they're going to kneecap the Republican candidate uh in 2028, unless that candidate is JD Vance, who Tucker Carlson has been close to. Uh Tucker Carlson's son worked under JD Vance until he was forced out by the Israel lobby. and that but but having that contingent, the Tucker contingent you could call it, will will will force JD Vance to take a harder line against Israel.
@@ -103,9 +130,17 @@ state. It's a high-tech nuclearized colonial state that exists out of place in h
  And then you have this whole global phenomenon from Australia to the UK. I mean, it's mainly in the Commonwealth states, Australia, the UK, and now Canada, where there are these gun for hire anti-semitism attacks in which mostly youth who are from poor backgrounds, like mostly like lumpin proletariat types are being paid in crypto through anonymous online foreign actors to carry out low-level property damage attacks outside Jewish communal sites as well as like the US consulate in Toronto.
  Um, and strange telegram channels are claiming credit for them for these attacks under the name of something called Ashabyamin al-Islamia or like the right hand of Islam and claiming that they're part of the Iran sponsored resistance. And it all looks very shady to me. It all looks very shady.
  When we consider that in 2016 and 2017, in 2016 a wave of thousands of anti-semitic rooc calls to Australian Jewish centers actually originated from Israel and an Israeli teen was arrested uh after Australian intelligence fingered the culprit. But Iran is blamed for all of it. Iran's ambassador had been removed from Australia after being blamed for these strange payfor-play anti-semitism attacks.
-Iran was blamed by Kier Starmer for a stabbing in London by a mentally ill man who had previous who had stabbed two Jews after stabbing a Muslim flatmate. Iran's being blamed, but Iran doesn't gain anything from this. Iran gains nothing. There's only one state which gains from these strange pay-for-play anti-semitism attacks, and it's the one with a long history of false flag attacks.
+Iran was blamed by Kier Starmer for a stabbing in London by a mentally ill man who had previous who had stabbed two Jews after stabbing a Muslim flatmate. Iran's being blamed, but Iran doesn't gain anything from this. Iran gains nothing. There's only one state which gains from these strange
+
+### Desperation — False Flags and Nuclear Israel
+
+pay-for-play anti-semitism attacks, and it's the one with a long history of false flag attacks.
  For example, bombing synagogues in Iraq to compel the Iraqi Jewish community to move to Israel in the early 1950s. uh crimes that were documented and confirmed by the Israeli revisionist historian Avi Schlime or the Leavan affair in Egypt which actually collapsed Egypt's Jewish community and set the stage for the 1956 war. It's Israel.
- And so we really have to be asking what they're capable of with their backs increasingly against the wall. And we have to be documenting it and pushing our leadership to do something to restrain this psychotic state. And I think one idea that I had that I put forward in an interview I did earlier this week or last week, I'm losing track, is uh United Against a Nuclear Israel campaign.
+ And so we really have to be asking what they're capable of with their backs increasingly against the wall. And we have to be documenting it and pushing our leadership to do something to restrain this psychotic state. And I think one idea that I had that I put forward in an interview I did earlier this week or last week, I'm losing track, is uh
+
+### Close — Greyzone Link
+
+United Against a Nuclear Israel campaign.
  There was uh throughout the United States, United Against a Nuclear Iran run by Israeli cutouts like Jason Broaddsky and there were big billboards in Times Square, but Iran didn't even have a active nuclear program. Israel has a secret nuclear program. Its Samson option in which it could direct use that nuclear program as blackmail against the West has been well documented and it's time to educate the public about the threat Israel poses.
  It's an apocalyptic threat. uh as we also explain how necessary it is to dismantle its apartheid system which really is at the core of the global economic crisis that's afflicting almost everyone on the planet right now. >> Well, Max, uh thank you so much for taking time out of your very busy schedule and uh I will leave a link uh to the gray zone in the description.
  So, thank you very much. Yeah, we've got a new piece up about these uh gun for hire attacks at the grreyzone. So, the greyzzone.com is where you'll find it. >> I'll leave a link to that as well. Thank you. >> Thanks a lot.
