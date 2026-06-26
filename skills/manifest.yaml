@@ -166,6 +166,15 @@ skills:
   - process_approved_candidates
   category: truth-pipeline
   status: active
+- name: source-section
+  source: source-section/SKILL.md
+  appendix: .cursor/skills/source-section/CURSOR_APPENDIX.md
+  target: .cursor/skills/source-section/SKILL.md
+  verify_forbidden_substrings:
+  - platform/users/grace-mar/
+  - process_approved_candidates
+  category: truth-pipeline
+  status: active
 - name: transcript-cleanup
   source: transcript-cleanup/SKILL.md
   appendix: .cursor/skills/transcript-cleanup/CURSOR_APPENDIX.md
@@ -448,4 +457,13 @@ skills:
   - platform/users/grace-mar/
   - process_approved_candidates
   category: operator-coherence
+  status: active
+- name: ph-interview-transcript-curation
+  source: ph-interview-transcript-curation/SKILL.md
+  appendix: .cursor/skills/ph-interview-transcript-curation/CURSOR_APPENDIX.md
+  target: .cursor/skills/ph-interview-transcript-curation/SKILL.md
+  verify_forbidden_substrings:
+  - platform/users/grace-mar/
+  - process_approved_candidates
+  category: truth-pipeline
   status: active
