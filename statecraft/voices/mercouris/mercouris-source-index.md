@@ -10,11 +10,7 @@ Purpose: act as the canonical statecraft-side source index for Mercouris while r
 - **Surface role:** source bench for breadth-first Mercouris retrieval
 - **Surface interior:** materialized Mercouris appearances plus prehistory and repaired-run entry points
 
-The detailed legacy bench remains available at:
-
-- [statecraft/voices/mercouris/mercouris-source-index.md](../../../statecraft/voices/mercouris/mercouris-source-index.md)
-
-Use this statecraft-side file as the canonical opening route. Use the codex-side bench only as detailed compatibility residue during migration.
+The detailed legacy bench is retired; this file is the canonical opening route.
 
 ## 2023–2024 guest-host anchors (Diesen × Karaganov × Mercouris)
 

@@ -6,10 +6,10 @@ WORK only; not Record.
 
 Surfaces reviewed:
 
-- [mercouris-arc.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-arc.md)
-- [mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-arc-threads.md)
-- [davis-mercouris-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-mercouris-speaker-arc.md)
-- [diesen-mercouris-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mercouris-speaker-arc.md)
+- [mercouris-arc.md](stream/mercouris-arc.md)
+- [mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
+- [davis-mercouris-speaker-arc.md](../../hosts/davis/stream/davis-mercouris-speaker-arc.md)
+- [diesen-mercouris-speaker-arc.md](../diesen/stream/diesen-mercouris-speaker-arc.md)
 
 Bounded claim:
 

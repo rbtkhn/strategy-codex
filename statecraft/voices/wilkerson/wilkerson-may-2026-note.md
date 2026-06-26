@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Wilkerson May 2026 note
 
-Purpose: preserve what May 2026 currently means on the canonical Wilkerson shelf as the second major 2026 hinge month and bind that month-level reading to the existing structural audit in [legacy Wilkerson surface orthogonality](../../../statecraft/voices/wilkerson/wilkerson-surface-orthogonality-2026-05.md).
+Purpose: preserve what May 2026 currently means on the canonical Wilkerson shelf as the second major 2026 hinge month and bind that month-level reading to the existing structural audit in [wilkerson-surface-orthogonality-2026-05.md](wilkerson-surface-orthogonality-2026-05.md).
 
 Current audit state:
 

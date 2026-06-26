@@ -8,7 +8,7 @@ Model note: this file is a **thread atlas**, not the arc itself. It names the re
 
 Boundary: Mercouris remains primarily stream-native. These arc-threads are operator synthesis over captured and indexed appearances. Open linked pages or raw-input before quoting or making claim-grade use.
 
-Compatibility note: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md) remains as a legacy continuity surface from the older expert-thread machinery. It is not a second canonical thread atlas. For Mercouris, the orthogonality-bearing thread structure lives here.
+Compatibility note: [mercouris-thread.md](mercouris-thread.md) remains as a legacy continuity surface from the older expert-thread machinery. It is not a second canonical thread atlas. For Mercouris, the orthogonality-bearing thread structure lives here.
 
 ## Orthogonality guide
 

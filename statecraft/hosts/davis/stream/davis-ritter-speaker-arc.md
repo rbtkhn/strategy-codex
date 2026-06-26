@@ -43,12 +43,12 @@ This lane is now materially present on disk as a seven-appearance 2026 run. It s
 
 If the operator needs only one file:
 
-- open [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- open [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](../../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 
 If the operator needs the best paired read:
 
-- open [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
-- then [source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
+- open [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](../../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- then [source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md](../../../../source-archive/statecraft/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
 
 That pair gives the clearest mature lane shape:
 
@@ -86,7 +86,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about legal absurdity, piracy framing, or war-crime exposure rather than material feasibility, route outward to [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-ritter-speaker-arc.md).
+- If the question is mainly about legal absurdity, piracy framing, or war-crime exposure rather than material feasibility, route outward to [napolitano-ritter-speaker-arc.md](../../napolitano/stream/napolitano-ritter-speaker-arc.md).
 
 - Ritter is strongest here on war-feasibility, stockpiles, skies, and operational implausibility, not on calm diplomatic framing.
 - Prefer this lane when the notebook needs the Davis-side military test; prefer the Diesen lane for broader escalation consequence and the Dialogue Works lane for the sharpest live-pressure reading.

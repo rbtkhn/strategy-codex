@@ -8,7 +8,7 @@ Month status: `mature dense-core month`
 
 ## March dense-core index
 
-- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-03-01.md)
+- [mercouris-page-2026-03-01.md](mercouris-page-2026-03-01.md)
   - Opening dense-core node: Khamenei aftermath, de facto Hormuz closure, regime-survival reading, and Russia-linked crisis geometry.
 - [source-alexander-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md](../../../../source-archive/statecraft/2026-03-02/source-alexander-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md)
   - Early war-read: attritional logic, failed coercion, and rising energy consequences.
@@ -42,7 +42,7 @@ Month status: `mature dense-core month`
   - Russia-China-Iran room and European legitimacy stress stay coupled.
 - [source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md](../../../../source-archive/statecraft/2026-03-28/source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
   - Regional widening keeps the dense-core object coherent.
-- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-03-31.md)
+- [mercouris-page-2026-03-31.md](mercouris-page-2026-03-31.md)
   - Closing dense-core node: failed ultimatum, Lavrov warning, Hormuz persistence, and world-war register.
 
 ## Reading note
