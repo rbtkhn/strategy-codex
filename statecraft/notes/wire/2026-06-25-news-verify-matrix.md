@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Parent daily:** [2026-06-25](../synthesis/day/2026-06-25.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
-**Mode:** batch (3 ingests — Rutte/NATO · Vance channel · Hormuz dual-authority) · **Hooks:** 17 core + 10 J25-6 sub · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 0/3 (matrix SSOT; optional `verify:` Ship later)
+**Mode:** batch (3 ingests — Rutte/NATO · Vance channel · Hormuz dual-authority) · **Hooks:** 17 core + 10 J25-6 sub · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 1/3 (Johnson `verify:` 2026-06-26; matrix SSOT)
 
 ## Independent source register (3)
 
@@ -128,7 +128,7 @@ Johnson **Meloni ingrate** · **BRICS/CIPS** · **$40B toll revenue** · **inter
 
 | Capture | `verify:` on disk | Matrix hooks |
 | --- | --- | --- |
-| Johnson `yUfZrrLILiM` | No | J25-1–J25-3 · J25-5–J25-6* |
+| Johnson `yUfZrrLILiM` | **Yes** (2026-06-26) | J25-1–J25-3 · J25-5–J25-6* |
 | Blumenthal `Nxs5CwKNb60` | No | J25-3 · J25-4 · J25-7 |
 | Mercouris `dg6OXH8EI7A` | No | tier-4 mesh |
 

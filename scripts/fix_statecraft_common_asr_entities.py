@@ -409,6 +409,49 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\bLucena\b", re.IGNORECASE), "Lukashenko", "lukashenko_lucena_asr"),
     ReplacementSpec(re.compile(r"\bLucanka\b", re.IGNORECASE), "Lukashenko", "lukashenko_lucanka_asr"),
     ReplacementSpec(re.compile(r"\bSunumi\b", re.IGNORECASE), "Sumy", "sumy_sunumi_asr"),
+    # Marat Khairullin war correspondent (Mercouris Ukraine-front ASR cluster; 2026-06).
+    ReplacementSpec(
+        re.compile(
+            r"\bMarat\s+(?:Kaiulin|Kaouin|Karulin|Huluin|Kulan|Kulgin|Kaiin|Kain|Hierin|Hyruin|Huin|Hyin|Hulin|Khulin|Kulin|Kyulin)\b",
+            re.IGNORECASE,
+        ),
+        "Marat Khairullin",
+        "khairullin_marat_full",
+    ),
+    ReplacementSpec(
+        re.compile(r"\bMarat\s+Hulu's\b", re.IGNORECASE),
+        "Marat Khairullin's",
+        "khairullin_marat_poss",
+    ),
+    ReplacementSpec(re.compile(r"\bMaratulin\b", re.IGNORECASE), "Marat Khairullin", "khairullin_maratulin"),
+    ReplacementSpec(
+        re.compile(r"\bMarad\s+Khulin\b", re.IGNORECASE),
+        "Marat Khairullin",
+        "khairullin_marad_typo",
+    ),
+    ReplacementSpec(
+        re.compile(r"\bMarat\s+Marat\s+Hyruin\b", re.IGNORECASE),
+        "Marat Khairullin",
+        "khairullin_marat_double",
+    ),
+    ReplacementSpec(re.compile(r"\bKyuin's\b", re.IGNORECASE), "Khairullin's", "khairullin_poss"),
+    ReplacementSpec(re.compile(r"\bKulin's\b", re.IGNORECASE), "Khairullin's", "khairullin_poss"),
+    ReplacementSpec(re.compile(r"\bKhulin's\b", re.IGNORECASE), "Khairullin's", "khairullin_poss"),
+    ReplacementSpec(
+        re.compile(
+            r"\b(?:Kyoulin|Kaioulin|Kyulin|Kuluin|Hyruin|Kyuid|Kaiin|Kyuin|Khulin|Kulgin|Huin|Hyin|Hierin|Karulin)\b",
+            re.IGNORECASE,
+        ),
+        "Khairullin",
+        "khairullin_surname_asr",
+    ),
+    ReplacementSpec(re.compile(r"\bKulin\b", re.IGNORECASE), "Khairullin", "khairullin_kulin"),
+    ReplacementSpec(
+        re.compile(r"\bHulu\s+said\b", re.IGNORECASE),
+        "Khairullin said",
+        "khairullin_hulu_said",
+    ),
+    ReplacementSpec(re.compile(r"/Khulin\b", re.IGNORECASE), "/Khairullin", "khairullin_source_note"),
     # Mark Rutte / NATO SG ASR cluster (2026-06 Dialogue Works calibration).
     ReplacementSpec(re.compile(r"\bMark Rut\b", re.IGNORECASE), "Mark Rutte", "rutte_mark_rut"),
     ReplacementSpec(re.compile(r"\bLarry Marut\b", re.IGNORECASE), "Mark Rutte", "rutte_larry_marut"),

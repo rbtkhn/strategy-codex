@@ -49,6 +49,18 @@ def test_detect_body_marker_statecraft_transcript():
     assert detect_body_marker(doc) == "## Transcript\n"
 
 
+def test_detect_body_marker_cleaned_transcript():
+    doc = "---\ntitle: x\n---\n\n## Cleaned Transcript\n\nHello."
+    assert detect_body_marker(doc) == "## Cleaned Transcript\n"
+
+
+def test_split_transcript_document_cleaned_transcript():
+    doc = "---\n---\n\n## Cleaned Transcript\n\nBody here."
+    head, marker, body = split_transcript_document(doc)
+    assert marker == "## Cleaned Transcript\n"
+    assert body.strip() == "Body here."
+
+
 def test_split_transcript_document():
     doc = "---\n---\n\n## Transcript\n\nBody here."
     head, marker, body = split_transcript_document(doc)

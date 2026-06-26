@@ -32,6 +32,27 @@ transcript_wrapper_tier: clean
 opening_tier: host-tease
 editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (johnson, alkorshid, channel:dialogue-works)); 11 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-25 (14 sections). · source-section even-chunk pass 2026-06-26 (15 sections; close merged; BRICS/Pakistan split). · Foundation of Lies merged into Rutte White House 2026-06-26 (14 sections)."
 transcript_curation: curated_sectioned
+verify_receipt: 2026-06-26
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Rutte Fox ~500 US aircraft / Epic Fury Europe sorties / Bucharest tanker cuts
+    verdict: contested
+    note: J25-1 — Rutte said it; Italy MoD misleading; do not adopt as NATO kinetic fact
+  - claim: Vance direct US–Iran military channel (IRGC ↔ CENTCOM Doha)
+    verdict: partial
+    note: J25-3 — UnHerd agreement in principle; **J25-3a** shipping hotline supported ≠ **J25-3b** Doha cell; Persia 3a absent
+  - claim: Hormuz ~1% traffic / 7–12 tankers / marinetra no exits / IRGC total-control snapshot
+    verdict: partial
+    note: J25-5 — Lloyd's 125/wk · 78 Wed transits; Johnson near-zero snapshot **contradicted**
+  - claim: Iran struck commercial vessel Hormuz approaches 25 Jun (Ever Lovely)
+    verdict: supported
+    note: J25-6a — AP/CBS IRGC drone; host/Johnson **tanker** label **J25-6b contradicted**
+  - claim: Oman–IMO corridor vs IRGC designated-route veto; Iran rejected unauthorized lane
+    verdict: supported
+    note: J25-6d/e — dual-clock seam; **J25-6i** IMO evac pause; authority conflict not toll fight
+  - claim: US covert pressure on Oman (host/Johnson)
+    verdict: partial
+    note: J25-6g — public Rubio no-tolls supported; covert leg unclear
 ---
 # Larry Johnson: The U.S. Is Now Directly Calling Iran (Vance's Switzerland Bombshell)
 

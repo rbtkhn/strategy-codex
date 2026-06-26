@@ -208,3 +208,25 @@ def test_fix_root_only_touches_transcript_like_files(tmp_path: Path) -> None:
     assert "Araghchi" in body
     assert "Pezeshkian" in body
     assert note.read_text(encoding="utf-8") == "Xiinping should stay untouched here.\n"
+
+
+def test_apply_replacements_fixes_khairullin_mercouris_asr_cluster() -> None:
+    text = (
+        "Marat Kulin on Substack; Marat Khulin and Kyuin compared notes.\n"
+        "Kyuin's map; Kulin puts troops at 3,000. Kharkov/Khulin Konstantinovka.\n"
+        "Marat Kaiin confirmed; Marad Khulin laid out Odessa. Hulu said fall by year-end.\n"
+    )
+    updated, counts = fix.apply_replacements(text)
+    assert "Kulin" not in updated
+    assert "Khulin" not in updated
+    assert "Kyuin" not in updated
+    assert "Kaiin" not in updated
+    assert "Marad Khulin" not in updated
+    assert "Hulu said" not in updated
+    assert updated.count("Khairullin") >= 6
+    assert updated.count("Marat Khairullin") >= 3
+    assert "Kharkov/Khairullin" in updated
+    assert counts["khairullin_marat_full"] >= 2
+    assert counts["khairullin_surname_asr"] >= 1
+    assert counts["khairullin_kulin"] >= 1
+    assert counts["khairullin_hulu_said"] == 1
