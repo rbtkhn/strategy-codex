@@ -9,6 +9,7 @@ Use it when a statecraft read needs **Pascal Lottaz / Neutrality Studies** as a 
 ## Open First
 
 - [index.md](index.md)
+- [neutrality-studies-index.md](neutrality-studies-index.md)
 - [neutrality-studies-host-law.md](neutrality-studies-host-law.md)
 
 ## Host Role

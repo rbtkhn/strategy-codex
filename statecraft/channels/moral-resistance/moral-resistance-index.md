@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Moral Resistance — source index
+# Moral Resistance Index
 
 Purpose: route map for materialized **Moral Resistance** captures on disk (`channel_slug: moral-resistance` · host **Sulaiman Ahmed**).
 

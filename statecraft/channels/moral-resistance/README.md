@@ -7,7 +7,7 @@ Canonical live host shelf for **Moral Resistance** — Sulaiman Ahmed's YouTube 
 ## Open First
 
 - [index.md](index.md)
-- [moral-resistance-source-index.md](moral-resistance-source-index.md)
+- [moral-resistance-index.md](moral-resistance-index.md)
 
 ## Host Role
 

@@ -8,6 +8,7 @@ Purpose: front door for the canonical live Davis host shelf in repo-root `statec
 
 - [Speaker profile](davis-profile.md)
 - [README.md](README.md)
+- [daniel-davis-index.md](daniel-davis-index.md)
 - [davis-host-law.md](davis-host-law.md)
 - [davis-lane-map-2026-05.md](davis-lane-map-2026-05.md)
 

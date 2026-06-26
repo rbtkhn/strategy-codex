@@ -9,6 +9,7 @@ Use it when a statecraft read needs `Judging Freedom` as a host transformation s
 ## Open First
 
 - [index.md](index.md)
+- [judging-freedom-index.md](judging-freedom-index.md)
 - [napolitano-host-law.md](napolitano-host-law.md)
 - [napolitano-lane-map-2026-05.md](napolitano-lane-map-2026-05.md)
 
