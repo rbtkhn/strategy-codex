@@ -323,6 +323,28 @@ routes:
   - source-dialogue-works
   - Dialogue Works channel
   category: work
+- id: channel-index-roster
+  title: Statecraft YouTube channel index (check-sources roster)
+  path: statecraft/channels/channel-index.json
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  tags:
+  - channel-index
+  - check-sources
+  - youtube
+  - channel_slug
+  search_hints:
+  - channel index
+  - channel-index.json
+  - channel-index.md
+  - check sources roster
+  - YouTube channel roster
+  - main channel roster
+  - channel_slug roster
+  category: work
 - id: source-lattice-doctrine
   title: Source-lattice doctrine (statecraft + general)
   path: docs/source-lattice-beyond-the-repo.md

@@ -18,6 +18,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/synthesis/day/](statecraft/synthesis/day/) — **after** archive + source-index |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/channels/](statecraft/channels/) |
+| **YouTube channel roster** / check-sources / `channel_slug` | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) · [channel-index.md](statecraft/channels/channel-index.md) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
 | singularity lane / acceleration work | [singularity/](singularity/) |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
@@ -47,6 +48,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
 | [statecraft/channels/](statecraft/channels/) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
+| [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |

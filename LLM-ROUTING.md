@@ -23,6 +23,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/synthesis/day/](statecraft/synthesis/day/) — **after** archive + source-index |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/channels/](statecraft/channels/) |
+| **YouTube channel roster** / check-sources / `channel_slug` | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) · [channel-index.md](statecraft/channels/channel-index.md) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
 | singularity lane / acceleration work | [singularity/](singularity/) |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
@@ -42,6 +43,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | america-sovereign-command-allied-capture-essay | essay | work | [essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) | section 224 NDAA, allied capture command, sovereign command under allied capture, … |
 | archive-synthesis-law-essay | essay | work | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) | archive synthesis law, statecraft archive synthesis, vertical law stack, … |
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
+| channel-index-roster | routing_aid | work | `statecraft/channels/channel-index.json` | channel index, channel-index.json, channel-index.md, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
 | davis-host-shelf | routing_aid | work | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
 | dialogue-works-index | source_index | work | [statecraft/channels/dialogue-works/dialogue-works-index.md](statecraft/channels/dialogue-works/dialogue-works-index.md) | Dialogue Works index, dialogue-works-index, source-dialogue-works, … |
@@ -126,22 +128,32 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | host | path | repo-map id |
 |---|---|---|
-| davis | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | davis-host-shelf |
+| alexander-mercouris | [statecraft/channels/alexander-mercouris/README.md](statecraft/channels/alexander-mercouris/README.md) | — |
+| breaking-points | [statecraft/channels/breaking-points/README.md](statecraft/channels/breaking-points/README.md) | — |
+| daniel-davis | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | davis-host-shelf |
+| dialogue-works | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | nima-host-shelf |
+| glenn-diesen | [statecraft/channels/glenn-diesen/README.md](statecraft/channels/glenn-diesen/README.md) | — |
+| india-global-left | [statecraft/channels/india-global-left/README.md](statecraft/channels/india-global-left/README.md) | — |
+| judging-freedom | [statecraft/channels/judging-freedom/README.md](statecraft/channels/judging-freedom/README.md) | napolitano-host-shelf |
+| mario-nawfal | [statecraft/channels/mario-nawfal/README.md](statecraft/channels/mario-nawfal/README.md) | — |
 | moral-resistance | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | — |
-| napolitano | [statecraft/channels/judging-freedom/README.md](statecraft/channels/judging-freedom/README.md) | napolitano-host-shelf |
 | neutrality-studies | [statecraft/channels/neutrality-studies/README.md](statecraft/channels/neutrality-studies/README.md) | — |
-| nima | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | nima-host-shelf |
+| predictive-history | [statecraft/channels/predictive-history/README.md](statecraft/channels/predictive-history/README.md) | — |
+| reason-resist | [statecraft/channels/reason-resist/README.md](statecraft/channels/reason-resist/README.md) | — |
+| redacted-news | [statecraft/channels/redacted-news/README.md](statecraft/channels/redacted-news/README.md) | — |
+| the-duran | [statecraft/channels/the-duran/README.md](statecraft/channels/the-duran/README.md) | — |
+| tucker-carlson | [statecraft/channels/tucker-carlson/README.md](statecraft/channels/tucker-carlson/README.md) | — |
 
 ## Repo routing metrics
 
 - source indexes (disk): 28
-- host shelves (disk): 5
+- host shelves (disk): 15
 - markdown links (INDEX + source-index files): 1094
-- repo-map routes: 50 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=6, source_capture=1, source_index=25, work_continuity=1)
+- repo-map routes: 51 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=25, work_continuity=1)
 - source_index routes in repo-map: 25
 - host_shelf routes in repo-map: 3
 - registry: INDEX lists 27/28, repo-map lists 24/28 (85.7% bijection when both match)
-- host shelves: repo-map lists 3/5 (60.0%)
+- host shelves: repo-map lists 3/15 (20.0%)
 - absolute path violations (INDEX + source-index): 0
 - broken links (--strict resolution): 0
 - required surfaces present: True
@@ -162,6 +174,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
 | [statecraft/channels/](statecraft/channels/) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
+| [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
