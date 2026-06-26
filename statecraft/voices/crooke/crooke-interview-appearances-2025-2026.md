@@ -86,7 +86,7 @@ This is the crossing table between the interview strand and the authored Substac
 - Authored Substack captures stay in [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md), not this Source Set.
 - Article, rant, unhosted date-named, and generic stub files are excluded until a separate authored-support or cleanup layer is designed.
 - A pending untracked Napolitano/Crooke capture exists in this worktree; leave it for a follow-up source-boundary decision rather than mixing it into this v1 count.
-- Host-local interpretation remains canonical for stream-specific work: [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md), [Davis x Crooke](../../../statecraft/hosts/davis/stream/davis-crooke-speaker-arc.md), and [Dialogue Works x Crooke](../../../statecraft/hosts/nima/stream/nima-crooke-speaker-arc.md).
+- Host-local interpretation remains canonical for stream-specific work: [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md), [Davis x Crooke](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md), and [Dialogue Works x Crooke](../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md).
 
 ## Verification Notes
 

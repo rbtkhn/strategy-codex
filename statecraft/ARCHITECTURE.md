@@ -41,7 +41,7 @@ Support material should strengthen that route, not compete with it.
 
 Keep these layers distinct:
 
-- `statecraft/hosts/` = live host-family continuity, host-law, and guest-lane routing for migrated hosts
+- `statecraft/channels/` = live host-family continuity, host-law, and guest-lane routing for migrated hosts
 - `statecraft/voices/` = speaker-state continuity surfaces, month ladders, routing notes, thread atlases, and theme activators used by live statecraft work
 - `statecraft/bridges/` = retrieval adapters that regulate how speaker-state material conditions `civ-state` retrieval
 - lane benches = substantive state interest, authority-carrier, and instrument drafting surfaces

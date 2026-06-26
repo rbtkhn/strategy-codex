@@ -18,7 +18,7 @@ if str(SCRIPTS) not in sys.path:
 from yaml_compat import safe_load_path
 
 VOICES = REPO_ROOT / "statecraft" / "voices"
-HOSTS = REPO_ROOT / "statecraft" / "hosts"
+CHANNELS = REPO_ROOT / "statecraft" / "channels"
 REPO_MAP_PATH = REPO_ROOT / "repo-map.yaml"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "repo_map.schema.json"
 LLM_ROUTING = REPO_ROOT / "LLM-ROUTING.md"
@@ -43,9 +43,9 @@ def discover_source_indexes() -> list[Path]:
 
 
 def discover_host_shelves() -> list[Path]:
-    if not HOSTS.is_dir():
+    if not CHANNELS.is_dir():
         return []
-    return sorted(HOSTS.glob("*/README.md"))
+    return sorted(CHANNELS.glob("*/README.md"))
 
 
 def host_shelf_route_id(slug: str) -> str:

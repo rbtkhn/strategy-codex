@@ -13,16 +13,16 @@ Marandi should usually be opened when a crisis needs to be translated into:
 - selective Hormuz leverage and Gulf complicity
 - sovereignty, endurance, and postwar regional-order claims
 
-The default first-open lane is usually [Dialogue Works x Marandi](../../../statecraft/hosts/nima/stream/nima-marandi-speaker-arc.md), but not every Marandi question is best opened there.
+The default first-open lane is usually [Dialogue Works x Marandi](../../../statecraft/channels/nima/stream/nima-marandi-speaker-arc.md), but not every Marandi question is best opened there.
 
 ## Open by task
 
 | If the notebook needs... | Open first | Why |
 |---|---|---|
-| the cleanest Marandi lane for legitimacy, selective-Hormuz signaling, and Gulf complicity | [nima-marandi-speaker-arc.md](../../../statecraft/hosts/nima/stream/nima-marandi-speaker-arc.md) | Dialogue Works gives Marandi his sharpest Tehran-facing live-pressure register. |
+| the cleanest Marandi lane for legitimacy, selective-Hormuz signaling, and Gulf complicity | [nima-marandi-speaker-arc.md](../../../statecraft/channels/nima/stream/nima-marandi-speaker-arc.md) | Dialogue Works gives Marandi his sharpest Tehran-facing live-pressure register. |
 | the best single Marandi file | [2026-05-05 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md) | It is the clearest one-file anchor for the strongest Marandi host lane. |
 | strategic-order altitude, escalation horizon, and blockade logic as wider order consequence | [diesen-marandi-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md) | Diesen gives the highest-altitude Marandi lane. |
-| operational limits, failed intimidation, and shrinking U.S. coercive room | [davis-lane-map-2026-05.md](../../hosts/davis/davis-lane-map-2026-05.md) | Davis gives the cleanest force-versus-resilience test. |
+| operational limits, failed intimidation, and shrinking U.S. coercive room | [davis-lane-map-2026-05.md](../../channels/davis/davis-lane-map-2026-05.md) | Davis gives the cleanest force-versus-resilience test. |
 | the late-stage May pressure cluster, especially mixed U.S. signals, ceasefire sabotage, and Hormuz leverage | [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) | The May 26 file is the best entry when the question is the end-of-window pressure cluster. |
 | the provenance route map rather than a substantive lane | [marandi-source-index.md](marandi-source-index.md) | Use the source index when the question is what exists and how thick each branch really is. |
 | the host-conditioned structure answer | [marandi-helix.md](marandi-helix.md) | The helix note explains how the three host transformations differ without flattening them. |
@@ -47,7 +47,7 @@ Open another lane first in those cases, such as:
 
 - [Barnes shelf](../barnes/README.md) for U.S. domestic-liability, executive-process, and war-powers exposure
 - [Mercouris shelf](../mercouris/README.md) for document-centered diplomatic and escalation interpretation
-- [Davis host shelf](../../hosts/davis/README.md) for engineering-adjacent, operational-feasibility, and coercive-failure routing from the U.S. side
+- [Davis host shelf](../../channels/davis/README.md) for engineering-adjacent, operational-feasibility, and coercive-failure routing from the U.S. side
 
 ## Boundaries
 

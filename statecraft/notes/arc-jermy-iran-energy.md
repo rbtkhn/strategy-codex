@@ -11,7 +11,7 @@ span_end: 2026-04-28
 ```
 
 **Pub dates:** 2026-02-27 → 2026-04-28 (~60 days)  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Davis host index](../hosts/davis/index.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Davis host index](../channels/davis/index.md)
 
 **Sources (Davis × Jermy — same register):**
 

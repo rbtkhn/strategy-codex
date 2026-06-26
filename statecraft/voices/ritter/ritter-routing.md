@@ -23,10 +23,10 @@ The efficient structure is therefore:
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| operational feasibility, stockpiles, skies, basing pressure, or blockade impracticality | [davis-lane-map-2026-05.md](../../hosts/davis/davis-lane-map-2026-05.md) | Davis gives Ritter his clearest military-practicality and war-feasibility testing ground. |
+| operational feasibility, stockpiles, skies, basing pressure, or blockade impracticality | [davis-lane-map-2026-05.md](../../channels/davis/davis-lane-map-2026-05.md) | Davis gives Ritter his clearest military-practicality and war-feasibility testing ground. |
 | escalation horizon, sea-control pressure, cross-theater spillover, or mechanics beneath geopolitical framing | [diesen-ritter-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md) | Diesen gives the highest-altitude Ritter lane while still preserving the military-mechanics seam. |
-| live war pressure, rapid inversion claims, Hormuz vulnerability, or immediate crisis motion | [nima-ritter-speaker-arc.md](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md) | Dialogue Works pushes Ritter into his sharpest present-tense war-pressure register. |
-| blockade legality, piracy framing, or a compact auxiliary legal-libertarian reinforcement lane | [napolitano-lane-map-2026-05.md](../../hosts/napolitano/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on legality, command absurdity, and war-power critique. |
+| live war pressure, rapid inversion claims, Hormuz vulnerability, or immediate crisis motion | [nima-ritter-speaker-arc.md](../../../statecraft/channels/nima/stream/nima-ritter-speaker-arc.md) | Dialogue Works pushes Ritter into his sharpest present-tense war-pressure register. |
+| blockade legality, piracy framing, or a compact auxiliary legal-libertarian reinforcement lane | [napolitano-lane-map-2026-05.md](../../channels/napolitano/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on legality, command absurdity, and war-power critique. |
 | the year's opening authored/interview membrane | [stream/ritter-shelf-2026-01.md](stream/ritter-shelf-2026-01.md) | January is the authored-heavy continuity opener for the 2026 ladder. |
 | the bridge from opening setup into the full 2026 war object | [stream/ritter-shelf-2026-02.md](stream/ritter-shelf-2026-02.md) | February is the bridge month where the live interview object thickens before full Davis maturity. |
 | the first full dense-core month | [stream/ritter-shelf-2026-03.md](stream/ritter-shelf-2026-03.md) | March is the first month where all core functions are clearly shelf-real together. |

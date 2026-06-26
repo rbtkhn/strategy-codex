@@ -46,9 +46,9 @@ not:
 
 | Host lane | Speaker-owned role | Best use |
 |---|---|---|
-| [davis-macgregor-speaker-arc.md](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md) | practical severity lane | force-feasibility failure, imperial overreach, inflation/logistics pain, domestic political danger |
+| [davis-macgregor-speaker-arc.md](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md) | practical severity lane | force-feasibility failure, imperial overreach, inflation/logistics pain, domestic political danger |
 | [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md) | altitude lane | NATO fracture, imperial distance, order consequence, Europe-Gulf linkage |
-| [napolitano-macgregor-speaker-arc.md](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md) | auxiliary indictment lane | undeclared-war normality, elite war-planning indictment, anti-aggression pressure |
+| [napolitano-macgregor-speaker-arc.md](../../../statecraft/channels/napolitano/stream/napolitano-macgregor-speaker-arc.md) | auxiliary indictment lane | undeclared-war normality, elite war-planning indictment, anti-aggression pressure |
 | Mario Nawfal raw-input surfaces | public-compression lane | fast public-facing translation of unconquerability, Netanyahu-veto pressure, energy shock, and domestic-legitimacy danger |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
@@ -62,8 +62,8 @@ Status: real opening run, not prehistory
 Open:
 
 - [macgregor-source-index.md](macgregor-source-index.md)
-- [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 - [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
 - [source-archive/statecraft/2025-03.md](../../../source-archive/statecraft/2025-03.md)
 - [source-archive/statecraft/2025-04.md](../../../source-archive/statecraft/2025-04.md)
@@ -82,7 +82,7 @@ Best reading:
 
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
 - [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
 
 Why:
 
@@ -126,8 +126,8 @@ Status: mature retrieval month
 Open:
 
 - [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
-- [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
-- [Napolitano x Macgregor](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
+- [Napolitano x Macgregor](../../../statecraft/channels/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 - [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
 
 Best raw-input cluster:

@@ -6,8 +6,11 @@ WORK only; not Record.
 
 Strategy-codex now uses a strict split:
 
-- [`codex/speakers/`](C:/dev/strategy-codex/codex/speakers) is the canonical home for every recurring person lane, including hosts.
-- [`source-archive/statecraft/`](C:/dev/strategy-codex/source-archive/statecraft) is the dated provenance layer.
+- [`statecraft/voices/`](../../statecraft/voices/) is the canonical home for whole-analyst continuity shelves.
+- [`statecraft/channels/`](../../statecraft/channels/) is the canonical home for host-family continuity (Davis, Napolitano, Nima, …).
+- [`source-archive/statecraft/`](../../source-archive/statecraft/) is the dated provenance layer.
+
+Legacy **`codex/speakers/`** is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
 
 Do not treat `codex/years/2026/<person>/` as a live notebook lane model. That pattern is retired.
 
@@ -15,9 +18,10 @@ Do not treat `codex/years/2026/<person>/` as a live notebook lane model. That pa
 
 The default pattern is:
 
-- person shelf in `codex/speakers/<name>/`
+- analyst shelf in `statecraft/voices/<name>/`
+- host-family shelf in `statecraft/channels/<host>/` when guest-on-host law applies
 - source capture in `source-archive/statecraft/YYYY-MM-DD/`
-- host-local guest transformations owned by the host shelf, typically under `codex/speakers/<host>/stream/`
+- host-local guest transformations owned by the channel shelf, typically under `statecraft/channels/<host>/stream/`
 
 ## Promotion question
 
@@ -25,17 +29,17 @@ The promotion decision is no longer "should this person get a year-lane?"
 
 The real question is:
 
-- should the person remain a lightweight speaker shelf over shared raw-input
-- or should the person gain a richer speaker-owned corpus inside `codex/speakers/<name>/stream/`
+- should the person remain a lightweight speaker shelf over shared archive captures
+- or should the person gain a richer speaker-owned corpus inside `statecraft/voices/<name>/stream/`
 - or, in rarer cases, should work also justify a dedicated external research corpus outside the speaker shelf
 
-## Promote within `codex/speakers` when
+## Promote within `statecraft/voices` when
 
 A speaker should gain richer `stream/` structure when most of the payoff comes from continuity rather than single captures:
 
 - sustained source volume
 - repeated reuse in notebook work
-- recurring host transformations worth preserving
+- recurring host transformations worth preserving (route guest arcs under the relevant `statecraft/channels/<host>/stream/` shelf)
 - chronology or quote pressure that a thin route map no longer handles well
 - clear savings from lane-specific manifests, ledgers, shelves, or cross-host notes
 
@@ -45,12 +49,12 @@ These are not enough by themselves:
 
 - importance or popularity
 - one strong week or month
-- a burst of raw-input activity
+- a burst of archive activity
 - the fact that another speaker already has a richer shelf
 
 ## External corpus threshold
 
-Move beyond `codex/speakers/<name>/` only when the work clearly needs a separate research world with its own maintenance burden, such as:
+Move beyond `statecraft/voices/<name>/` only when the work clearly needs a separate research world with its own maintenance burden, such as:
 
 - dedicated source registries
 - heavy quote-bank discipline

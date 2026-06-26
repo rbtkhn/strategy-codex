@@ -56,6 +56,6 @@ Those files are enough to confirm that Postol is no longer just residue or one-h
 
 ## Open First
 
-Open [Davis host shelf](../../hosts/davis/README.md) first when the question is whether a strike plan, weapon claim, or destruction narrative is physically plausible.
+Open [Davis host shelf](../../channels/davis/README.md) first when the question is whether a strike plan, weapon claim, or destruction narrative is physically plausible.
 
 Open [postol-routing.md](postol-routing.md) first when the question is which host transformation best matches the task.

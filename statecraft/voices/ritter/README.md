@@ -65,9 +65,9 @@ The legacy `statecraft/voices/ritter/` path is now front-door compatibility only
 ## Host Lanes
 
 - [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Davis host shelf](../../hosts/davis/README.md)
-- [Dialogue Works x Ritter](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md)
-- [Napolitano host shelf](../../hosts/napolitano/README.md)
+- [Davis host shelf](../../channels/davis/README.md)
+- [Dialogue Works x Ritter](../../../statecraft/channels/nima/stream/nima-ritter-speaker-arc.md)
+- [Napolitano host shelf](../../channels/napolitano/README.md)
 
 ## Boundary
 

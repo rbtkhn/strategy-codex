@@ -102,7 +102,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what intimidation can no longer practically achieve rather than how escalation propagates through the wider system, route outward to [davis-marandi-speaker-arc.md](../../../../statecraft/hosts/davis/stream/davis-marandi-speaker-arc.md).
+- If the question is mainly about what intimidation can no longer practically achieve rather than how escalation propagates through the wider system, route outward to [davis-marandi-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-marandi-speaker-arc.md).
 
 - Marandi is strongest here on red lines, retaliation logic, and strategic consequence, not on neutral tactical verification.
 - This is now a real on-disk 2026 lane, but it remains distinct from the more operational Davis-side Marandi and the more pressurized Dialogue Works Marandi.

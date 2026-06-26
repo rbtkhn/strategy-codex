@@ -25,9 +25,9 @@ Johnson now has a full native continuity stack of his own.
 | the bounded April 2026 cross-host sequence | [stream/johnson-shelf-2026-04.md](stream/johnson-shelf-2026-04.md) | Month-synthesis surface for ceasefire contradiction, blockade theater, and widening shock. |
 | the bounded May 2026 cross-host sequence | [stream/johnson-shelf-2026-05.md](stream/johnson-shelf-2026-05.md) | Month-synthesis surface for Gulf repositioning, BRICS/China angle, and post-control reality. |
 | geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [diesen-johnson-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md) | Diesen gives the highest-altitude Johnson lane. |
-| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](../../hosts/davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
-| live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [nima-johnson-speaker-arc.md](../../../statecraft/hosts/nima/stream/nima-johnson-speaker-arc.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
-| blockade skepticism, process pressure, or auxiliary reinforcement | [napolitano-lane-map-2026-05.md](../../hosts/napolitano/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on process irrationality. |
+| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](../../channels/davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
+| live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [nima-johnson-speaker-arc.md](../../../statecraft/channels/nima/stream/nima-johnson-speaker-arc.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
+| blockade skepticism, process pressure, or auxiliary reinforcement | [napolitano-lane-map-2026-05.md](../../channels/napolitano/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on process irrationality. |
 
 ## Best Entry Points
 

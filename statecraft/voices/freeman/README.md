@@ -60,9 +60,9 @@ The legacy `statecraft/voices/freeman/` path is now front-door compatibility onl
 ## Host Lanes
 
 - [Diesen x Freeman](../../../statecraft/voices/diesen/stream/diesen-freeman-arc.md)
-- [Davis host shelf](../../hosts/davis/README.md)
-- [Dialogue Works x Freeman](../../../statecraft/hosts/nima/stream/nima-freeman-arc.md)
-- [Napolitano host shelf](../../hosts/napolitano/README.md)
+- [Davis host shelf](../../channels/davis/README.md)
+- [Dialogue Works x Freeman](../../../statecraft/channels/nima/stream/nima-freeman-arc.md)
+- [Napolitano host shelf](../../channels/napolitano/README.md)
 
 ## Boundary
 

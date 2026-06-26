@@ -33,7 +33,7 @@ Jermy carries a distinct utility profile:
 
 Jermy should currently be read as a **triple-speaker-helix**:
 
-- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
+- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md)
 - [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
 - [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
 
@@ -60,7 +60,7 @@ See [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/je
 
 If the operator needs the clearest current host-local entry:
 
-- open [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
+- open [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md)
 
 If the operator needs the complementary strategic branch:
 

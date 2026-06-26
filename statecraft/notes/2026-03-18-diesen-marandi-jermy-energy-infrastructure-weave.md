@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 18 2026 — Diesen × Marandi × Jermy weave (gas-field strike / economic-war ladder vs Western macro constraint)
 
 **Pub date:** 2026-03-18  
-**Parent:** [Marandi source index](../voices/marandi/marandi-source-index.md) · [Diesen source index](../voices/diesen/diesen-source-index.md) · [Jermy source index](../voices/jermy/jermy-source-index.md) · [Davis host index](../hosts/davis/index.md)
+**Parent:** [Marandi source index](../voices/marandi/marandi-source-index.md) · [Diesen source index](../voices/diesen/diesen-source-index.md) · [Jermy source index](../voices/jermy/jermy-source-index.md) · [Davis host index](../channels/davis/index.md)
 
 **Sources:**
 

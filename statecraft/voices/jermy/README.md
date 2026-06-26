@@ -19,7 +19,7 @@ Open here first when the question is not merely "what did Jermy say," but **whic
 
 This shelf already has a genuine canonical structure:
 
-- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md)
 - [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
 - [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
 - [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md) defines the triple-helix shape
@@ -30,7 +30,7 @@ Do not treat `jermy-thread.md` as competing with the triple helix or the host-lo
 
 ## Host lanes
 
-- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
+- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md)
 - [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
 - [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
 

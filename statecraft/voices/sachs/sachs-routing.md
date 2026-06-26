@@ -35,7 +35,7 @@ Best current direct anchors:
 
 ## Open Napolitano First
 
-Open [Napolitano host shelf](../../hosts/napolitano/README.md) or the direct Sachs/Napolitano transcript anchors first when the real question is:
+Open [Napolitano host shelf](../../channels/napolitano/README.md) or the direct Sachs/Napolitano transcript anchors first when the real question is:
 
 - war powers and constitutional breakdown
 - command incoherence or executive illegitimacy
@@ -136,7 +136,7 @@ These are reinforcement lanes, not primary openers.
 Do not open Sachs first when the real question is:
 
 - detailed legal mechanics or litigation-grade constitutional exposure
-  - open [Napolitano host shelf](../../hosts/napolitano/README.md) or [Johnson](../johnson/README.md)
+  - open [Napolitano host shelf](../../channels/napolitano/README.md) or [Johnson](../johnson/README.md)
 - precise military feasibility or strike engineering
   - open [Postol](../postol/README.md)
 - regime-internal Iran reading or civilizational resolve from inside that lane

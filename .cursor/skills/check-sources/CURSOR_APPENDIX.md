@@ -10,7 +10,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 | Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
 | Legacy check-streams stub | [check-streams/SKILL.md](../check-streams/SKILL.md) |
 | Legacy raw-input tree (staging) | [docs/skill-work/work-strategy/strategy-notebook/raw-input/](../../../docs/skill-work/work-strategy/strategy-notebook/raw-input/) |
-| Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
+| Analyst shelves | [statecraft/voices/](../../../statecraft/voices/) |
+| Channel shelves | [statecraft/channels/](../../../statecraft/channels/) |
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
 | Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
 | Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |

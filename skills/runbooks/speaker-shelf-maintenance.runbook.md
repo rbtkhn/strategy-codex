@@ -50,7 +50,7 @@ Legacy skills **`speaker-shelf-hygiene`**, **`speaker-structural-continuity`**, 
 
 ## Inputs Required
 
-- Speaker name(s) and shelf path (`statecraft/voices/<speaker>/` and/or `statecraft/hosts/<host>/`)
+- Speaker name(s) and shelf path (`statecraft/voices/<speaker>/` and/or `statecraft/channels/<host>/`)
 - Mode: `hygiene` | `continuity` | `membrane` | `full` (default from operator phrase)
 - Optional month range or comparison peer (Freeman / Parsi / Ritter, etc.)
 

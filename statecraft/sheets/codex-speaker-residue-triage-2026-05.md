@@ -21,7 +21,7 @@ Each residue folder should land in one of three buckets:
 ### `alkorshid`
 
 - reason: this is primarily a **host / channel identity problem**, not a speaker-shelf problem
-- current signal: the live repo has already started solving this through repo-root `statecraft/hosts/`, not through speaker promotion
+- current signal: the live repo has already started solving this through repo-root `statecraft/channels/`, not through speaker promotion
 - migration reading: should eventually be rehomed as host-family continuity, not promoted as if it were a guest speaker shelf
 
 ### `nawfal`

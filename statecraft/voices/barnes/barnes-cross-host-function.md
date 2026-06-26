@@ -59,7 +59,7 @@ The Barnes shelf should therefore not copy Jiang's analysis shape too aggressive
 
 Barnes is also not reducible to one host.
 
-The [Davis host shelf](../../hosts/davis/README.md) remains primary because it gives Barnes the clearest mature lane. But the Mercouris and Nima appearances prove the role is not Davis-only.
+The [Davis host shelf](../../channels/davis/README.md) remains primary because it gives Barnes the clearest mature lane. But the Mercouris and Nima appearances prove the role is not Davis-only.
 
 That is the shelf's current sweet spot:
 

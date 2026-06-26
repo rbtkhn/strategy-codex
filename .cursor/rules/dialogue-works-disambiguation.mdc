@@ -4,9 +4,9 @@ When routing, ingesting, or titling **Nima Alkorshid** / **Dialogue Works** capt
 
 ## SSOT
 
-- Law: [dialogue-works-disambiguation.md](../../statecraft/hosts/nima/dialogue-works-disambiguation.md)
-- Host-law: [nima-host-law.md](../../statecraft/hosts/nima/nima-host-law.md)
-- Channel index: [dialogue-works-index.md](../../statecraft/hosts/nima/dialogue-works-index.md)
+- Law: [dialogue-works-disambiguation.md](../../statecraft/channels/nima/dialogue-works-disambiguation.md)
+- Host-law: [nima-host-law.md](../../statecraft/channels/nima/nima-host-law.md)
+- Channel index: [dialogue-works-index.md](../../statecraft/channels/nima/dialogue-works-index.md)
 
 ## Rules
 
@@ -18,5 +18,5 @@ When routing, ingesting, or titling **Nima Alkorshid** / **Dialogue Works** capt
 
 ## Shelf split
 
-- `statecraft/hosts/nima/` — Dialogue Works **host-law** and **dialogue-works-index**
+- `statecraft/channels/nima/` — Dialogue Works **host-law** and **dialogue-works-index**
 - `statecraft/voices/alkorshid/` — person profile / compat pointer only (no separate channel index)

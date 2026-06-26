@@ -162,7 +162,7 @@ def test_unregistered_speaker_folder_warns_without_failure(tmp_path: Path) -> No
     errors, warnings = validator.validate_all(
         repo_root=tmp_path,
         voices_dir=tmp_path / "statecraft" / "voices",
-        hosts_dir=tmp_path / "statecraft" / "hosts",
+        hosts_dir=tmp_path / "statecraft" / "channels",
         speaker="example",
     )
 
@@ -281,7 +281,7 @@ def test_current_repo_registered_state_sets_validate() -> None:
 
 def test_current_repo_manifests_load_and_counts_are_registered() -> None:
     speakers_dir = REPO / "statecraft" / "voices"
-    hosts_dir = REPO / "statecraft" / "hosts"
+    hosts_dir = REPO / "statecraft" / "channels"
     crooke, crooke_errors = validator.load_manifest("crooke", REPO, speakers_dir, hosts_dir)
     ritter, ritter_errors = validator.load_manifest("ritter", REPO, speakers_dir, hosts_dir)
     davis, davis_errors = validator.load_manifest("davis", REPO, speakers_dir, hosts_dir)

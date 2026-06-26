@@ -24,7 +24,7 @@ If the operator needs the cleanest single introduction:
 If the operator needs the best comparative pair:
 
 - open [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- then [Dialogue Works x Wilkerson](../../../statecraft/hosts/nima/stream/nima-wilkerson-speaker-arc.md)
+- then [Dialogue Works x Wilkerson](../../../statecraft/channels/nima/stream/nima-wilkerson-speaker-arc.md)
 
 ## Routing use
 

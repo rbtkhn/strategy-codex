@@ -18,7 +18,7 @@ Do not use this file as a substitute for:
 
 - [crooke-thread.md](../../../../statecraft/voices/crooke/stream/crooke-thread.md) for full Crooke continuity
 - [baud-thread-international-law.md](../../../../statecraft/voices/baud/baud-thread-international-law.md) for tighter law-of-war and due-process framing
-- [davis-baud-arc.md](../../../../statecraft/hosts/davis/stream/davis-baud-arc.md) when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
+- [davis-baud-arc.md](../../../../statecraft/channels/davis/stream/davis-baud-arc.md) when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
 - [diesen-baud-arc.md](../../../../statecraft/voices/diesen/stream/diesen-baud-arc.md) when the question is order-level legitimacy collapse through a more explicit legal register
 
 ## Orthogonality guide
@@ -65,7 +65,7 @@ Closest neighboring voices when this topic needs reinforcement or contrast:
 
 - [baud-thread-international-law.md](../../../../statecraft/voices/baud/baud-thread-international-law.md)
 - [parsi-thread.md](../../../../statecraft/voices/parsi/stream/parsi-thread.md)
-- [davis-thread.md](../../../../statecraft/hosts/davis/stream/davis-thread.md)
+- [davis-thread.md](../../../../statecraft/channels/davis/stream/davis-thread.md)
 
 ## Recurring claims
 

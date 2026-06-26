@@ -3,7 +3,7 @@ WORK only; not Record.
 # Jan 8 2026 — Jermy × Mercouris × Crooke weave (post-Maduro / Greenland / Rubicon)
 
 **Pub date:** 2026-01-08  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Crooke source index](../voices/crooke/crooke-source-index.md) · [Davis host index](../hosts/davis/index.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Crooke source index](../voices/crooke/crooke-source-index.md) · [Davis host index](../channels/davis/index.md)
 
 **Sources:**
 

@@ -30,7 +30,7 @@ Postol's canonical statecraft shelf currently has five speaker-owned layers:
 
 The real hierarchy on disk is:
 
-- [Davis host shelf](../../hosts/davis/README.md) is the clearest mature first-open lane for engineering constraint, bunker-buster skepticism, and strike-feasibility correction.
+- [Davis host shelf](../../channels/davis/README.md) is the clearest mature first-open lane for engineering constraint, bunker-buster skepticism, and strike-feasibility correction.
 - `Diesen x Postol` is a real co-supporting lane for escalation horizon, deterrence consequence, and the strategic meaning of physical limits.
 - `Dialogue Works x Postol` is a real co-supporting lane for live-pressure missile-effects and air-defense-collapse reads, with the clearest materialized anchors on March 23, April 3, and May 8, 2026.
 - the shelf is stronger than compatibility residue but still lighter than a month ladder because host arcs and direct transcript files own most chronology.
@@ -45,9 +45,9 @@ The legacy `statecraft/voices/postol/` path is now front-door compatibility only
 
 ## Host Lanes
 
-- [Davis host shelf](../../hosts/davis/README.md)
+- [Davis host shelf](../../channels/davis/README.md)
 - [Diesen x Postol](../../../statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md)
-- [Dialogue Works x Postol](../../../statecraft/hosts/nima/stream/nima-postol-speaker-arc.md)
+- [Dialogue Works x Postol](../../../statecraft/channels/nima/stream/nima-postol-speaker-arc.md)
 
 ## Boundary
 

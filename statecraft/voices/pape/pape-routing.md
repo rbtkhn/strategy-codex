@@ -28,7 +28,7 @@ Purpose: fast-routing note for the canonical Pape shelf.
 - **Best single mechanism file:** [source-pape-the-smart-bomb-trap-2026-02-25.md](../../../source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md)
 - **Best blockade / shortage file:** [source-pape-2-blockades-2-clocks-2026-04-24.md](../../../source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md)
 - **Best interview-pressure file:** [source-daniel-davis-pape-escalation-trap-2026-03-10.md](../../../source-archive/statecraft/2026-03-10/source-daniel-davis-pape-escalation-trap-2026-03-10.md)
-- **Best host-law companion for that pressure test:** [Davis host shelf](../../hosts/davis/README.md)
+- **Best host-law companion for that pressure test:** [Davis host shelf](../../channels/davis/README.md)
 
 ## Boundaries
 

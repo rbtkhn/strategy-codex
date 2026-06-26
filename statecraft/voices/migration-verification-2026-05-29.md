@@ -28,4 +28,6 @@ Purpose: seal the namespace migration from `statecraft/speakers/` to `statecraft
 
 No further action recommended for the namespace migration itself.
 
+**Post-cutover (2026-06-26):** Removed `statecraft/speakers/` compatibility stub; canonical entry is `statecraft/voices/` only.
+
 If a later pass wants to modernize benchmark fixtures, treat that as separate benchmark-maintenance work rather than as unfinished `civ-lens` migration cleanup.

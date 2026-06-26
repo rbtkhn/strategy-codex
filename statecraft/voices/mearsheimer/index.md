@@ -18,11 +18,11 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 ### Core host lanes
 
 - [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../statecraft/hosts/davis/stream/davis-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../statecraft/channels/davis/stream/davis-mearsheimer-arc.md)
 
 ### Reinforcing orbit
 
-- [Judging Freedom x Mearsheimer](../../../statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../../statecraft/channels/napolitano/stream/napolitano-mearsheimer-arc.md)
 
 ### Non-core appearance bench
 

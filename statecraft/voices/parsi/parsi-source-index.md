@@ -51,4 +51,4 @@ The mature core is 2026, especially:
 - this file is a source bench, not a chronology dump
 - use the authored ledger and interview map as the real source-class routes
 - generic stubs and excluded bundles should not silently become first-open sources
-- **Moral Resistance** (`Sulaiman Ahmed`): host shelf [moral-resistance](../../hosts/moral-resistance/README.md) — do not merge same-day **Nawfal × Parsi** and **Moral Resistance × Parsi** host functions
+- **Moral Resistance** (`Sulaiman Ahmed`): host shelf [moral-resistance](../../channels/moral-resistance/README.md) — do not merge same-day **Nawfal × Parsi** and **Moral Resistance × Parsi** host functions

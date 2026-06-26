@@ -11,7 +11,7 @@ This file should be read as the **anti-hubris and public-indictment** Jermy bran
 Quick separation rule:
 
 - `Peacemonger x Jermy` = strategy failure, hubris, public-facing indictment, and maritime consequence widened into elite vanity critique
-- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md) = closure geometry, reopening lag, shipping choke, and operational system consequence
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md) = closure geometry, reopening lag, shipping choke, and operational system consequence
 - [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fallout, alliance divorce, and Europe/system consequence
 - [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine tying the host transformations together
 
@@ -84,7 +84,7 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md), which is stronger on blockade operations, reopening timelines, and shipping-system consequence
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md), which is stronger on blockade operations, reopening timelines, and shipping-system consequence
 - [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md), which is stronger on Europe-order fracture and maritime-system fallout at strategic altitude
 - the legacy [jermy-thread.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-thread.md), which is continuity residue rather than a competing canonical strand
 

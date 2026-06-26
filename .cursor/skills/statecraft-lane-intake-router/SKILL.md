@@ -183,7 +183,7 @@ Avoid these:
 - source-truth layer: [source-archive/README.md](../../../source-archive/README.md)
 - continuity layer: [codex/README.md](../../../codex/README.md)
 - speaker synthesis home: [statecraft/voices/README.md](../../../statecraft/voices/README.md)
-- host-law layer: [statecraft/hosts/README.md](../../../statecraft/hosts/README.md)
+- host-law layer: [statecraft/channels/README.md](../../../statecraft/channels/README.md)
 - lane front doors:
   - [America](../../../statecraft/america/README.md)
   - [China](../../../statecraft/china/README.md)

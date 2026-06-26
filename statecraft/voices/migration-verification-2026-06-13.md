@@ -60,3 +60,5 @@ After path move: `git submodule sync --recursive` from repo root. If gitlink des
 ## Boundary
 
 No further namespace action required for this cutover.
+
+**Post-cutover (2026-06-26):** Removed `statecraft/speakers/` compatibility stub; canonical entry is `statecraft/voices/` only.

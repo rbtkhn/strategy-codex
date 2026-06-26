@@ -20,11 +20,11 @@ Quick separation rule:
 Its core embodied lanes are:
 
 1. [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md) - structural altitude and order-transition architecture
-2. [Davis x Mearsheimer](../../../statecraft/hosts/davis/stream/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
+2. [Davis x Mearsheimer](../../../statecraft/channels/davis/stream/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
 
 Reinforcing orbit:
 
-- [Napolitano x Mearsheimer](../../../statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [Napolitano x Mearsheimer](../../../statecraft/channels/napolitano/stream/napolitano-mearsheimer-arc.md)
 - additional shelf material outside the two main host strands
 
 ## What makes this an arc

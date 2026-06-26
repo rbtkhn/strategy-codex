@@ -18,7 +18,7 @@ nodes:
 **Reconciled:** 2026-06-22 · **Renamed from** `2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md` per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
 
 **Pub date (Jermy):** 2025-11-06 · **Mercouris cluster:** 2025-11-10 → 2025-11-14 (Pokrovsk/Kiev inflection)  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Davis host index](../hosts/davis/index.md) · [November 2025 benchmark](./november-2025-benchmark-note.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Davis host index](../channels/davis/index.md) · [November 2025 benchmark](./november-2025-benchmark-note.md)
 
 **Sources:**
 

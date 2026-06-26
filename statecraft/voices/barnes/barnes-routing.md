@@ -13,13 +13,13 @@ Barnes should usually be opened when a crisis needs to be translated into:
 - executive-process fracture
 - donor, lobby, or electoral survivability
 
-The default first-open lane is still the [Davis host shelf](../../hosts/davis/README.md), but not every Barnes question is best opened there.
+The default first-open lane is still the [Davis host shelf](../../channels/davis/README.md), but not every Barnes question is best opened there.
 
 ## Open by task
 
 | If the notebook needs... | Open first | Why |
 |---|---|---|
-| the clearest mature Barnes lane, especially for war powers, war-crimes framing, and domestic survivability under Iran-war pressure | [davis-lane-map-2026-05.md](../../hosts/davis/davis-lane-map-2026-05.md) | Davis gives Barnes his cleanest mature host-local shape. |
+| the clearest mature Barnes lane, especially for war powers, war-crimes framing, and domestic survivability under Iran-war pressure | [davis-lane-map-2026-05.md](../../channels/davis/davis-lane-map-2026-05.md) | Davis gives Barnes his cleanest mature host-local shape. |
 | the best single Barnes file | [2026-04-03 / Davis x Barnes](../../../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md) | It is the clearest one-file anchor for the core Barnes job. |
 | executive-decline, magical-thinking, negotiation incoherence, and White House room-dynamics outside the Davis framing | [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | Mercouris gives the strongest non-Davis reinforcement and proves the object survives host translation. |
 | the late-stage Iran / executive-instability / domestic-liability lane in a cross-theater frame that also touches Ukraine and China | [2026-05-26 / Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | The May 26 Dialogue Works file is the best Barnes entry when the question is late-May pressure, Trump decline, Israel-lobby capture, and broader geopolitical spillover together. |
@@ -46,8 +46,8 @@ Do not open Barnes first when the task is primarily:
 
 Open another lane first in those cases, such as:
 
-- [Davis host shelf](../../hosts/davis/README.md) for engineering-adjacent, intelligence-political, and force-feasibility routing on the U.S. side
-- [Napolitano host shelf](../../hosts/napolitano/README.md) for process-pressure, constitutional absurdity, and blockade skepticism as institutional irrationality
+- [Davis host shelf](../../channels/davis/README.md) for engineering-adjacent, intelligence-political, and force-feasibility routing on the U.S. side
+- [Napolitano host shelf](../../channels/napolitano/README.md) for process-pressure, constitutional absurdity, and blockade skepticism as institutional irrationality
 - [Mercouris statecraft shelf](../mercouris/README.md) for document-centered diplomatic and escalation interpretation
 - [Macgregor statecraft shelf](../macgregor/README.md) for force-feasibility and wider geopolitical overreach
 
@@ -55,7 +55,7 @@ Open another lane first in those cases, such as:
 
 - Use this note for routing speed, not for chronology ownership.
 - Barnes is best when the question is `who authorizes, who pays, who survives, and which faction can carry the line politically`.
-- If the question is instead `why the process itself is institutionally absurd or constitutionally self-entrapping`, open the [Napolitano host shelf](../../hosts/napolitano/README.md) first.
+- If the question is instead `why the process itself is institutionally absurd or constitutionally self-entrapping`, open the [Napolitano host shelf](../../channels/napolitano/README.md) first.
 - If the question is direct readout comparison, diplomatic text discipline, or stream-native escalation interpretation, open the [Mercouris shelf](../mercouris/README.md) first and treat `Mercouris x Barnes` as reinforcement inside a stronger Mercouris-native object.
 - The May 26 Nima file is a real Barnes entry point, but not proof that the Nima branch is yet co-equal with Davis.
 - The May 28 Mario Nawfal file is real reinforcement and a useful first-open for political-pressure framing, but it is not proof of a mature Mario-host Barnes lane.

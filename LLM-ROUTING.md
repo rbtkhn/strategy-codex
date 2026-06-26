@@ -22,7 +22,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | transcript / capture / source file | [source-archive/statecraft/](source-archive/statecraft/) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/synthesis/day/](statecraft/synthesis/day/) — **after** archive + source-index |
-| host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/hosts/](statecraft/hosts/) |
+| host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/channels/](statecraft/channels/) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
 | singularity lane / acceleration work | [singularity/](singularity/) |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
@@ -43,8 +43,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | archive-synthesis-law-essay | essay | work | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) | archive synthesis law, statecraft archive synthesis, vertical law stack, … |
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
-| davis-host-shelf | routing_aid | work | [statecraft/hosts/davis/README.md](statecraft/hosts/davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
-| dialogue-works-index | source_index | work | [statecraft/hosts/nima/dialogue-works-index.md](statecraft/hosts/nima/dialogue-works-index.md) | Dialogue Works index, dialogue-works-index, source-dialogue-works, … |
+| davis-host-shelf | routing_aid | work | [statecraft/channels/davis/README.md](statecraft/channels/davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
+| dialogue-works-index | source_index | work | [statecraft/channels/nima/dialogue-works-index.md](statecraft/channels/nima/dialogue-works-index.md) | Dialogue Works index, dialogue-works-index, source-dialogue-works, … |
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index |
@@ -67,8 +67,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | mearsheimer-source-index | source_index | work | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | Mearsheimer index, mearsheimer source index |
 | memory | work_continuity | work | [memory.md](memory.md) | session continuity, operator memory buffer |
 | mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index |
-| napolitano-host-shelf | routing_aid | work | [statecraft/hosts/napolitano/README.md](statecraft/hosts/napolitano/README.md) | Napolitano host, Judging Freedom, Napolitano profile, … |
-| nima-host-shelf | routing_aid | work | [statecraft/hosts/nima/README.md](statecraft/hosts/nima/README.md) | Nima host, Dialogue Works host, Nima profile, … |
+| napolitano-host-shelf | routing_aid | work | [statecraft/channels/napolitano/README.md](statecraft/channels/napolitano/README.md) | Napolitano host, Judging Freedom, Napolitano profile, … |
+| nima-host-shelf | routing_aid | work | [statecraft/channels/nima/README.md](statecraft/channels/nima/README.md) | Nima host, Dialogue Works host, Nima profile, … |
 | operator-uses-statecraft-machine-essay | essay | work | [essays/how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) | how operator uses statecraft, memory to mechanism, lane membrane test, … |
 | pape-source-index | source_index | work | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | Pape index, pape source index |
 | parsi-source-index | source_index | work | [statecraft/voices/parsi/parsi-source-index.md](statecraft/voices/parsi/parsi-source-index.md) | Parsi index, parsi source index |
@@ -126,17 +126,17 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | host | path | repo-map id |
 |---|---|---|
-| davis | [statecraft/hosts/davis/README.md](statecraft/hosts/davis/README.md) | davis-host-shelf |
-| moral-resistance | [statecraft/hosts/moral-resistance/README.md](statecraft/hosts/moral-resistance/README.md) | — |
-| napolitano | [statecraft/hosts/napolitano/README.md](statecraft/hosts/napolitano/README.md) | napolitano-host-shelf |
-| neutrality-studies | [statecraft/hosts/neutrality-studies/README.md](statecraft/hosts/neutrality-studies/README.md) | — |
-| nima | [statecraft/hosts/nima/README.md](statecraft/hosts/nima/README.md) | nima-host-shelf |
+| davis | [statecraft/channels/davis/README.md](statecraft/channels/davis/README.md) | davis-host-shelf |
+| moral-resistance | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | — |
+| napolitano | [statecraft/channels/napolitano/README.md](statecraft/channels/napolitano/README.md) | napolitano-host-shelf |
+| neutrality-studies | [statecraft/channels/neutrality-studies/README.md](statecraft/channels/neutrality-studies/README.md) | — |
+| nima | [statecraft/channels/nima/README.md](statecraft/channels/nima/README.md) | nima-host-shelf |
 
 ## Repo routing metrics
 
 - source indexes (disk): 28
 - host shelves (disk): 5
-- markdown links (INDEX + source-index files): 1095
+- markdown links (INDEX + source-index files): 1094
 - repo-map routes: 50 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=6, source_capture=1, source_index=25, work_continuity=1)
 - source_index routes in repo-map: 25
 - host_shelf routes in repo-map: 3
@@ -161,7 +161,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
-| [statecraft/hosts/](statecraft/hosts/) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
+| [statecraft/channels/](statecraft/channels/) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |

@@ -7,7 +7,7 @@
 | Role | Path |
 |------|------|
 | Analyst / guest speaker shelves | [`statecraft/voices/`](../../statecraft/voices/README.md) |
-| Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | [`statecraft/hosts/`](../../statecraft/hosts/README.md) |
+| Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | [`statecraft/channels/`](../../statecraft/channels/README.md) |
 | Full-source captures | [`source-archive/statecraft/`](../../source-archive/statecraft/README.md) |
 
 ## Migration receipt
@@ -21,6 +21,6 @@ Script: `python scripts/migrate_codex_speakers_to_statecraft.py --plan` (histori
 Replace **`codex/speakers/<slug>/`** with:
 
 - **`statecraft/voices/<slug>/`** for analyst shelves
-- **`statecraft/hosts/<slug>/`** for **`davis`**, **`napolitano`**, **`nima`**
+- **`statecraft/channels/<slug>/`** for **`davis`**, **`napolitano`**, **`nima`**
 
 Shared tooling moved to **`statecraft/voices/_templates/`**, **`relations/`**, **`map/`**.

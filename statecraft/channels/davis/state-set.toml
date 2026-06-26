@@ -1,0 +1,18 @@
+version = 1
+slug = "davis"
+
+compact_state_files = [
+  "statecraft/channels/davis/README.md",
+  "statecraft/channels/davis/davis-speaker-object.md",
+  "statecraft/channels/davis/davis-cross-host-note.md",
+  "statecraft/channels/davis/davis-host-wiring-2026.md",
+]
+
+provenance_roots = [
+  "source-archive/statecraft",
+]
+
+[[guest_matrices]]
+file = "statecraft/channels/davis/davis-host-wiring-2026.md"
+arc_glob = "statecraft/channels/davis/stream/davis-*-speaker-arc.md"
+expected_count = 13

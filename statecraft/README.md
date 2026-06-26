@@ -41,7 +41,7 @@ For the canonical source/synthesis stack, open [Statecraft Archive and Statecraf
 |---|---|---|
 | **voices** | `statecraft/voices/` | Statecraft Synthesis; `*-profile.md`; was `civ-lens` |
 | **states** | `statecraft/states/` | CIV-STATE concept; `civ-state-america/` volumes; was `civ-state` path |
-| **hosts** | `statecraft/hosts/` | host-conditioned guests (not in `voices/`) |
+| **hosts** | `statecraft/channels/` | host-conditioned guests (not in `voices/`) |
 | **synthesis** | `statecraft/synthesis/` | day/month cadence; legacy `daily/` redirect stub |
 | **notes** | `statecraft/notes/` | bounded interpretive + operational subfolders (`wire/`, `watch/`, `reentry/`, `intake/`) |
 
@@ -58,7 +58,7 @@ Why it matters:
 - **states** = upstream CIV-STATE retrieval memory (not `state-*` lane skills)
 
 What not to worry about:
-- `statecraft/speakers/` is the **only** allowed redirect stub → `voices/`
+- legacy `statecraft/speakers/` redirect stub removed 2026-06-26 — canonical path is `statecraft/voices/`
 - inner volume folders still use `civ-state-america/` naming
 - benchmark residue under `artifacts/benchmarks/` may still cite old paths
 
@@ -116,7 +116,7 @@ That means the first honest lane menu should ask which transcript-bearing intake
 
 Speaker-state continuity that belongs to live statecraft now opens from [statecraft/voices/](voices/README.md), not from an external speaker shelf by default.
 
-Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
+Host-native continuity that belongs to live statecraft now opens from [statecraft/channels/](channels/README.md), not from retired `codex/speakers/<host>/...` paths.
 
 One live bridge worth keeping in view across this stack is **high-skill labor compression**. When synthetic cognition starts compressing analytical, legal, diplomatic, intelligence, or policy-forming work, do not leave the object stranded as a generic singularity or labor-market note. It usually means judgment infrastructure is starting to thin. Route it as:
 
@@ -155,7 +155,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
-- Need live host-law for `Davis` or `Napolitano`? Open [statecraft/hosts/](hosts/README.md).
+- Need live host-law for `Davis` or `Napolitano`? Open [statecraft/channels/](hosts/README.md).
 - Need live speaker trust or track-record work? Open [statecraft/audits/](audits/README.md).
 - Need durable receipts of how statecraft is learning from its own objects? Say **`recursive learn`** / **`recursive-learn`** / **`RLJ`** → [recursive-learn skill](../.cursor/skills/recursive-learn/SKILL.md); journal SSOT: [recursive-learning-journal.md](recursive-learning-journal.md).
 - Need reusable laws extracted from those learning events? Open [patterns/](patterns/README.md).

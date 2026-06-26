@@ -18,18 +18,17 @@ This subtree is speaker-organized rather than lane-organized so the same speaker
 ## Canonical Rule
 
 - `statecraft/voices/` is the canonical home for speaker-state surfaces that belong to live statecraft work.
-- canonical shelf paths take the form `statecraft/voices/<speaker>/` or, for migrated hosts, `statecraft/hosts/<host>/`
+- canonical shelf paths take the form `statecraft/voices/<speaker>/` or, for migrated hosts, `statecraft/channels/<host>/`
 - the long-run target is the whole live speaker corpus, not only a pilot subset
 - **`codex/speakers/` is terminated** — see [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
 - Do not silently duplicate authority between voices and hosts; each slug has one canonical shelf root.
-- `statecraft/speakers/` is compatibility-only after the namespace move; its front door should redirect here rather than carry parallel shelf authority.
+- Legacy `statecraft/speakers/` redirect stub removed 2026-06-26; use `statecraft/voices/` only.
 
 Short constitutional split:
 
 - `source-archive/statecraft/` = **Statecraft Archive**, the canonical source-bearing layer
 - `statecraft/voices/` = **Statecraft Synthesis**, the canonical live analyst speaker continuity layer above that archive
-- `statecraft/hosts/` = canonical live host-family continuity (Davis, Napolitano, Nima / Dialogue Works)
-- `statecraft/speakers/` = namespace-redirect stub only, retained to keep old links legible during migration
+- `statecraft/channels/` = canonical live host-family continuity (Davis, Napolitano, Nima / Dialogue Works)
 
 Boundary law:
 
@@ -129,7 +128,7 @@ Pointer law for future migrations:
 - when a speaker-derived file is recanonicalized into `statecraft/notes/` or `statecraft/essays/`, the originating speaker shelf should keep only routing pointers or curated index mentions
 - do not maintain duplicate full-authority prose copies in both places
 
-When the real question is host-law rather than speaker identity, open [statecraft/hosts/](../hosts/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
+When the real question is host-law rather than speaker identity, open [statecraft/channels/](../channels/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
 
 ## Speaker profile law
 
@@ -144,11 +143,11 @@ A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: ex
 Canonical placement:
 
 - **Migrated canonical shelf** → `statecraft/voices/<speaker>/<speaker>-profile.md` (SSOT). List it in the shelf `README.md` **Open first** block before arc/routing when identity or voice tier is the job.
-- **Migrated canonical host** → `statecraft/hosts/<host>/<host>-profile.md` (SSOT) when the live host shelf has moved under `statecraft/hosts/`.
+- **Migrated canonical host** → `statecraft/channels/<host>/<host>-profile.md` (SSOT) when the live host shelf has moved under `statecraft/channels/`.
 - **Profile-only / commentator-thread lane** (no first-class shelf yet) → `codex/profiles/<speaker>-profile.md` until real on-disk continuity warrants a shelf.
 - **Legacy paths** (`codex/profiles/`, `codex/speakers/<speaker>/`) → thin compatibility redirects after migration; **do not** duplicate the profile corpus in both places.
 
-Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Mearsheimer](mearsheimer/mearsheimer-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md), [Weichert](weichert/weichert-profile.md) (seed). Host profiles: [Davis](../hosts/davis/davis-profile.md), [Nima](../hosts/nima/nima-profile.md). Profile-only lanes: [codex/profiles/README.md](../../codex/profiles/README.md).
+Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Mearsheimer](mearsheimer/mearsheimer-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md), [Weichert](weichert/weichert-profile.md) (seed). Host profiles: [Davis](../channels/davis/davis-profile.md), [Nima](../channels/nima/nima-profile.md). Profile-only lanes: [codex/profiles/README.md](../../codex/profiles/README.md).
 
 **Triad orthogonality (June 2026):** [_scratch/triad-voice-orthogonality-june-2026.md](_scratch/triad-voice-orthogonality-june-2026.md) — Barnes × Mercouris × Mearsheimer; Tier A profiles link Family 8 here.
 

@@ -50,7 +50,7 @@ Use **`python`** or **`python3`** per host; Windows repo root paths as in sessio
 
 ## Civ-lens profile SSOT wedge (strategy-codex)
 
-Use when shipping **speaker profile migration** (`codex/profiles/` → `statecraft/voices/<speaker>/` or `statecraft/hosts/<host>/` + redirect stub). One **pair or single speaker** per commit — not the whole migration wave.
+Use when shipping **speaker profile migration** (`codex/profiles/` → `statecraft/voices/<speaker>/` or `statecraft/channels/<host>/` + redirect stub). One **pair or single speaker** per commit — not the whole migration wave.
 
 **Procedure (one validator run + one git Shell when executing):**
 

@@ -47,7 +47,7 @@ Wilkerson is an imperial-decline and military-statecraft warning speaker whose s
 ## Disconfirming or stress-test anchors
 
 1. [2025-06-22 Wilkerson x Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
-2. [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-wilkerson-speaker-arc.md)
+2. [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-wilkerson-speaker-arc.md)
 
 ## Native adjustment notes
 

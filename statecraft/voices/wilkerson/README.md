@@ -32,9 +32,9 @@ That means:
 
 ## Host lanes
 
-- [Dialogue Works x Wilkerson](../../../statecraft/hosts/nima/stream/nima-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](../../../statecraft/channels/nima/stream/nima-wilkerson-speaker-arc.md)
 - [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- [Judging Freedom x Wilkerson](../../../statecraft/hosts/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
+- [Judging Freedom x Wilkerson](../../../statecraft/channels/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 
 ## Compatibility shape
 

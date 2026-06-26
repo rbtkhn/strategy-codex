@@ -35,8 +35,8 @@
     "codex/speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md": "statecraft/voices/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md",
     "codex/speakers/crooke/themes/README.md": "statecraft/voices/crooke/themes/README.md",
     "codex/speakers/crooke/themes/treaty-form-vs-transactional-settlement.md": "statecraft/voices/crooke/themes/treaty-form-vs-transactional-settlement.md",
-    "codex/speakers/davis/index.md": "statecraft/hosts/davis/index.md",
-    "codex/speakers/davis/README.md": "statecraft/hosts/davis/README.md",
+    "codex/speakers/davis/index.md": "statecraft/channels/davis/index.md",
+    "codex/speakers/davis/README.md": "statecraft/channels/davis/README.md",
     "codex/speakers/diesen/diesen-cross-host-note.md": "statecraft/voices/diesen/diesen-cross-host-note.md",
     "codex/speakers/diesen/diesen-host-wiring-2026.md": "statecraft/voices/diesen/diesen-host-wiring-2026.md",
     "codex/speakers/diesen/diesen-raw-input-index.md": "statecraft/voices/diesen/diesen-raw-input-index.md",
@@ -164,10 +164,10 @@
     "codex/speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md": "statecraft/voices/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md",
     "codex/speakers/mercouris/themes/README.md": "statecraft/voices/mercouris/themes/README.md",
     "codex/speakers/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md": "statecraft/voices/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md",
-    "codex/speakers/napolitano/index.md": "statecraft/hosts/napolitano/index.md",
-    "codex/speakers/napolitano/README.md": "statecraft/hosts/napolitano/README.md",
-    "codex/speakers/nima/index.md": "statecraft/hosts/nima/index.md",
-    "codex/speakers/nima/README.md": "statecraft/hosts/nima/README.md",
+    "codex/speakers/napolitano/index.md": "statecraft/channels/napolitano/index.md",
+    "codex/speakers/napolitano/README.md": "statecraft/channels/napolitano/README.md",
+    "codex/speakers/nima/index.md": "statecraft/channels/nima/index.md",
+    "codex/speakers/nima/README.md": "statecraft/channels/nima/README.md",
     "codex/speakers/pape/index.md": "statecraft/voices/pape/index.md",
     "codex/speakers/pape/pape-arc.md": "statecraft/voices/pape/pape-arc.md",
     "codex/speakers/pape/pape-cross-host-note.md": "statecraft/voices/pape/pape-cross-host-note.md",
@@ -378,12 +378,12 @@
     },
     {
       "source": "codex/speakers/davis/index.md",
-      "dest": "statecraft/hosts/davis/index.md",
+      "dest": "statecraft/channels/davis/index.md",
       "action": "skipped_duplicate"
     },
     {
       "source": "codex/speakers/davis/README.md",
-      "dest": "statecraft/hosts/davis/README.md",
+      "dest": "statecraft/channels/davis/README.md",
       "action": "skipped_duplicate"
     },
     {
@@ -1023,22 +1023,22 @@
     },
     {
       "source": "codex/speakers/napolitano/index.md",
-      "dest": "statecraft/hosts/napolitano/index.md",
+      "dest": "statecraft/channels/napolitano/index.md",
       "action": "skipped_duplicate"
     },
     {
       "source": "codex/speakers/napolitano/README.md",
-      "dest": "statecraft/hosts/napolitano/README.md",
+      "dest": "statecraft/channels/napolitano/README.md",
       "action": "skipped_duplicate"
     },
     {
       "source": "codex/speakers/nima/index.md",
-      "dest": "statecraft/hosts/nima/index.md",
+      "dest": "statecraft/channels/nima/index.md",
       "action": "skipped_duplicate"
     },
     {
       "source": "codex/speakers/nima/README.md",
-      "dest": "statecraft/hosts/nima/README.md",
+      "dest": "statecraft/channels/nima/README.md",
       "action": "skipped_duplicate"
     },
     {

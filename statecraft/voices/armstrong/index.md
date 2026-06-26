@@ -14,7 +14,7 @@ Purpose: front door for the canonical Armstrong shelf.
 
 The orthogonality-bearing structure on this shelf is:
 
-- [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-armstrong-speaker-arc.md), which is the mature host-local branch
+- [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-armstrong-speaker-arc.md), which is the mature host-local branch
 - [armstrong-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-speaker-object.md), which defines Armstrong as a single-helix object
 - [armstrong-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-cross-host-note.md), which keeps the reinforcement claim honest
 

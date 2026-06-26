@@ -14,7 +14,7 @@ Purpose: front door for the canonical Jermy shelf.
 
 The orthogonality-bearing structure on this shelf is:
 
-- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md)
 - [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
 - [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
 - [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md), which defines Jermy as a triple-speaker-helix object

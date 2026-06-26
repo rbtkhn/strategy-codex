@@ -74,9 +74,9 @@ The legacy `statecraft/voices/johnson/` path is now front-door compatibility onl
 ## Host Lanes
 
 - [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md)
-- [Davis host shelf](../../hosts/davis/README.md)
-- [Dialogue Works x Johnson](../../../statecraft/hosts/nima/stream/nima-johnson-speaker-arc.md)
-- [Napolitano host shelf](../../hosts/napolitano/README.md)
+- [Davis host shelf](../../channels/davis/README.md)
+- [Dialogue Works x Johnson](../../../statecraft/channels/nima/stream/nima-johnson-speaker-arc.md)
+- [Napolitano host shelf](../../channels/napolitano/README.md)
 
 ## Boundary
 

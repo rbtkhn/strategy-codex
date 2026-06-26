@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-Channel index: [dialogue-works-index.md](../../hosts/nima/dialogue-works-index.md)
+Channel index: [dialogue-works-index.md](../../channels/nima/dialogue-works-index.md)
 
-Host-law (Dialogue Works only): [../hosts/nima/nima-host-law.md](../hosts/nima/nima-host-law.md)
+Host-law (Dialogue Works only): [../channels/nima/nima-host-law.md](../channels/nima/nima-host-law.md)

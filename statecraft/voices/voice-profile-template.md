@@ -2,14 +2,14 @@ WORK only; not Record.
 
 # Voice profile template
 
-Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-profile.md` and `statecraft/hosts/<host>/<host>-profile.md` after migration. Placement law lives in [README.md § Speaker profile law](README.md#speaker-profile-law). Upstream minimal scaffold: [strategy-codex-template-profile.md](../../../codex/strategy-codex-template-profile.md).
+Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-profile.md` and `statecraft/channels/<host>/<host>-profile.md` after migration. Placement law lives in [README.md § Speaker profile law](README.md#speaker-profile-law). Upstream minimal scaffold: [strategy-codex-template-profile.md](../../../codex/strategy-codex-template-profile.md).
 
 **Exemplars:**
 
 - **Full (Tier A linguistic):** [barnes/barnes-profile.md](barnes/barnes-profile.md) · [mercouris/mercouris-profile.md](mercouris/mercouris-profile.md) · [mearsheimer/mearsheimer-profile.md](mearsheimer/mearsheimer-profile.md)
 - **Seed:** [weichert/weichert-profile.md](weichert/weichert-profile.md) · [pape/pape-profile.md](pape/pape-profile.md)
 
-**Host profiles** reuse the same spine; swap shelf pointers and role framing for host-law / guest-transformation jobs. Exemplar: [../hosts/davis/davis-profile.md](../hosts/davis/davis-profile.md).
+**Host profiles** reuse the same spine; swap shelf pointers and role framing for host-law / guest-transformation jobs. Exemplar: [../channels/davis/davis-profile.md](../channels/davis/davis-profile.md).
 
 ---
 

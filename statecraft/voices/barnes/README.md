@@ -38,7 +38,7 @@ Barnes's canonical statecraft shelf currently has five speaker-owned layers:
 
 The real hierarchy on disk is:
 
-- [Davis host shelf](../../hosts/davis/README.md) is the clearest mature Barnes host entry.
+- [Davis host shelf](../../channels/davis/README.md) is the clearest mature Barnes host entry.
 - `Mercouris x Barnes` is a real reinforcing lane with January, March, and April guest captures.
 - `Nima x Barnes` is still thin, but the May 26, 2026 Dialogue Works appearance is strong enough to matter as a late-stage reinforcing entry, not just an appendix.
 - `Mario Nawfal x Barnes` is now a real public-pressure reinforcement branch: useful for mass-audience translation of lobby, corruption, and electoral-liability claims, but not yet a mature host-local Barnes lane.
@@ -55,7 +55,7 @@ The legacy `statecraft/voices/barnes/` path is now front-door compatibility only
 
 ## Host Lanes
 
-- [Davis host shelf](../../hosts/davis/README.md)
+- [Davis host shelf](../../channels/davis/README.md)
 - [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - [Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)

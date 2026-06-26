@@ -747,7 +747,7 @@ The source ends as a **real full-source archive object** in the canonical statec
   - [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
   - [codex/years/2026/provenance](/C:/dev/strategy-codex/codex/years/2026/provenance)
 - Primary neighboring families this skill should check before writing:
-  - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](/C:/dev/strategy-codex/statecraft/hosts/nima/dialogue-works-disambiguation.md)
+  - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](/C:/dev/strategy-codex/statecraft/channels/nima/dialogue-works-disambiguation.md)
   - `Judging Freedom / Napolitano`
   - `Glenn Diesen`
   - `The Duran / Mercouris`

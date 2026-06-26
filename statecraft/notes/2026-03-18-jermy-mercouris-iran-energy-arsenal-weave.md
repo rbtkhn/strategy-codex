@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 18 2026 — Jermy × Mercouris weave (Iran energy shock / Hormuz economics vs arsenal drain + Kiev spillover)
 
 **Pub date:** 2026-03-18  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Mercouris shelf — March dense core](../voices/mercouris/stream/mercouris-shelf-2026-03.md) · [Davis host index](../hosts/davis/index.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Mercouris shelf — March dense core](../voices/mercouris/stream/mercouris-shelf-2026-03.md) · [Davis host index](../channels/davis/index.md)
 
 **Sources:**
 

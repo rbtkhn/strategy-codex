@@ -14,7 +14,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 |---|---|
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
-| Dialogue Works | [../hosts/nima/dialogue-works-index.md](../hosts/nima/dialogue-works-index.md) |
+| Dialogue Works | [../channels/nima/dialogue-works-index.md](../channels/nima/dialogue-works-index.md) |
 | Diesen | [diesen/diesen-source-index.md](diesen/diesen-source-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |
@@ -61,8 +61,8 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Barnes index | [barnes/](barnes/) |
 | Robert Barnes corpus | [barnes/barnes-source-index.md](barnes/barnes-source-index.md), `source-archive/statecraft/**/source-*barnes*` |
 | Mercouris index | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
-| Daniel Davis × guest | Guest source-index + [statecraft/hosts/davis/](../hosts/davis/README.md) |
+| Daniel Davis × guest | Guest source-index + [statecraft/channels/davis/](../channels/davis/README.md) |
 | Generic "source index" | This file → lens row → `*-source-index.md` |
 | source-lattice / reading order | [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) — not this file |
 
-Legacy **`codex/speakers/`** is terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md). Prefer `statecraft/voices/` and `statecraft/hosts/` for live statecraft routing.
+Legacy **`codex/speakers/`** is terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md). Prefer `statecraft/voices/` and `statecraft/channels/` for live statecraft routing.

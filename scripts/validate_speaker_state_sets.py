@@ -19,8 +19,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGISTERED_SPEAKER_SLUGS = ("pape", "crooke", "ritter", "parsi", "davis", "diesen")
 DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
-DEFAULT_HOSTS_DIR = REPO_ROOT / "statecraft" / "hosts"
-HOST_SLUGS = frozenset({"davis", "napolitano", "nima"})
+DEFAULT_CHANNELS_DIR = REPO_ROOT / "statecraft" / "channels"
+HOST_SLUGS = frozenset({"davis", "napolitano", "nima"})  # channel shelves (legacy name: host)
 
 HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -656,7 +656,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.speakers_dir
         else repo_root / "statecraft" / "voices"
     )
-    hosts_dir = repo_root / "statecraft" / "hosts"
+    hosts_dir = DEFAULT_CHANNELS_DIR
 
     if args.list:
         list_registered(repo_root, voices_dir, hosts_dir)

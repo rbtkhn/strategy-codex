@@ -8,7 +8,7 @@
 
 Canonical definition: [product-identity.md](product-identity.md). **Default path:** **C** (operator). Record under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is **frozen**; [museum `self-library.md`](../archive/grace-mar-instance/self-library.md) stays active for reference; [`memory.md`](../memory.md) is session continuity — not Record.
 
-**Namespace (voices / states / hosts):** [routing-reference.md](routing-reference.md) · `statecraft/voices/` · `statecraft/states/` · `statecraft/hosts/`
+**Namespace (voices / states / hosts):** [routing-reference.md](routing-reference.md) · `statecraft/voices/` · `statecraft/states/` · `statecraft/channels/`
 
 ---
 

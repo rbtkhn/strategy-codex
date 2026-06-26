@@ -61,9 +61,9 @@ The legacy `statecraft/voices/macgregor/` path is now compatibility-only.
 
 ## Host Lanes
 
-- [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
 - [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 
 ## Boundary
 

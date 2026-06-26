@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Migrate codex/speakers/ into statecraft/voices/ and statecraft/hosts/.
+"""Migrate codex/speakers/ into statecraft/voices/ and statecraft/channels/.
 
 WORK only. Emits a JSON receipt for link rewrite. Use --plan before --apply.
 """
@@ -19,7 +19,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CODEX_SPEAKERS = REPO_ROOT / "codex" / "speakers"
 VOICES = REPO_ROOT / "statecraft" / "voices"
-HOSTS = REPO_ROOT / "statecraft" / "hosts"
+HOSTS = REPO_ROOT / "statecraft" / "channels"  # legacy name in API: host slugs
 RECEIPT_PATH = REPO_ROOT / "runtime" / "artifacts" / "statecraft" / "codex-speakers-migration-receipt.json"
 
 HOST_SLUGS = frozenset({"davis", "napolitano", "nima"})
@@ -213,18 +213,18 @@ def rewrite_links(receipt_path: Path) -> int:
             text = text.replace(broken + ")", dest_norm + ")")
         # generic prefix fallback for anything missed
         text = re.sub(
-            r"statecraft/hosts/davis/",
-            "statecraft/hosts/davis/",
+            r"statecraft/channels/davis/",
+            "statecraft/channels/davis/",
             text,
         )
         text = re.sub(
-            r"statecraft/hosts/napolitano/",
-            "statecraft/hosts/napolitano/",
+            r"statecraft/channels/napolitano/",
+            "statecraft/channels/napolitano/",
             text,
         )
         text = re.sub(
-            r"statecraft/hosts/nima/",
-            "statecraft/hosts/nima/",
+            r"statecraft/channels/nima/",
+            "statecraft/channels/nima/",
             text,
         )
         text = re.sub(

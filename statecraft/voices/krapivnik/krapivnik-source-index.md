@@ -22,7 +22,7 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 
 **June hinge (Neutrality Studies triple — 2026-06-20):**
 
-- [2026-06-20 | Neutrality Studies × Krapivnik | Drone escalation; Russia will strike NATO](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-drone-escalation-russia-will-strike-nato-stanislav-krapivnik-2026-06-20.md) — Moscow drone mood; Europe drone production; Konstantinovka/Slavyansk; terrorism register; NATO spillover (Romania); Slovakia ladder; Iran MOU · host: [Neutrality Studies](../hosts/neutrality-studies/index.md)
+- [2026-06-20 | Neutrality Studies × Krapivnik | Drone escalation; Russia will strike NATO](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-drone-escalation-russia-will-strike-nato-stanislav-krapivnik-2026-06-20.md) — Moscow drone mood; Europe drone production; Konstantinovka/Slavyansk; terrorism register; NATO spillover (Romania); Slovakia ladder; Iran MOU · host: [Neutrality Studies](../channels/neutrality-studies/index.md)
 
 **Other June anchors:**
 
@@ -49,8 +49,8 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 
 | Host | Index |
 | --- | --- |
-| Neutrality Studies | [neutrality-studies host](../hosts/neutrality-studies/index.md) |
-| Dialogue Works / Nima | [nima host](../hosts/nima/index.md) · [dialogue-works-index](../../hosts/nima/dialogue-works-index.md) |
+| Neutrality Studies | [neutrality-studies host](../channels/neutrality-studies/index.md) |
+| Dialogue Works / Nima | [nima host](../channels/nima/index.md) · [dialogue-works-index](../../channels/nima/dialogue-works-index.md) |
 | Glenn Diesen | [diesen source index](../diesen/diesen-source-index.md) |
 | The Duran / Mercouris co-host | [mercouris source index](../mercouris/mercouris-source-index.md) |
 

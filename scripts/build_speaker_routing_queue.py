@@ -30,7 +30,7 @@ from yaml_compat import safe_load_text  # noqa: E402
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
-DEFAULT_HOSTS_DIR = REPO_ROOT / "statecraft" / "hosts"
+DEFAULT_CHANNELS_DIR = REPO_ROOT / "statecraft" / "channels"
 DEFAULT_SPEAKERS_DIR = DEFAULT_VOICES_DIR
 DEFAULT_OUT_DIR = ARTIFACTS_DIR / "speaker-routing"
 EVIDENCE_GRADES = {
@@ -199,7 +199,7 @@ def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInven
     speaker_folders: dict[str, Path] = {}
     speaker_objects: dict[str, Path] = {}
     roots: list[Path] = []
-    for candidate in (speakers_dir, DEFAULT_HOSTS_DIR):
+    for candidate in (speakers_dir, DEFAULT_CHANNELS_DIR):
         if candidate.exists() and candidate not in roots:
             roots.append(candidate)
     for root in roots:

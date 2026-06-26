@@ -34,8 +34,8 @@ March 2026 is where the Crooke interview strand first locks into a real three-ho
 
 ## Host-local routes
 
-- [Davis x Crooke](../../../../statecraft/hosts/davis/stream/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](../../../../statecraft/hosts/nima/stream/nima-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](../../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md)
 - [Diesen x Crooke](../../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
 
 ## Boundary

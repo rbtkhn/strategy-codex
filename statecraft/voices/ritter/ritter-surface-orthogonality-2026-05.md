@@ -10,9 +10,9 @@ Local surfaces under review:
 - [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md)
 - [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md)
 - [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
-- [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-ritter-speaker-arc.md)
-- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md)
-- [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-ritter-speaker-arc.md)
+- [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-ritter-speaker-arc.md)
+- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-ritter-speaker-arc.md)
+- [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/napolitano/stream/napolitano-ritter-speaker-arc.md)
 - [ritter-thread.md](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/ritter-thread.md)
 
 Bounded claim:
@@ -26,9 +26,9 @@ Bounded claim:
 Arcs under review:
 
 - [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
-- [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-ritter-speaker-arc.md)
-- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md)
-- [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-ritter-speaker-arc.md)
+- [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-ritter-speaker-arc.md)
+- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-ritter-speaker-arc.md)
+- [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/napolitano/stream/napolitano-ritter-speaker-arc.md)
 
 Threads under review:
 

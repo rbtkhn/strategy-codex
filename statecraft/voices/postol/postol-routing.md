@@ -6,7 +6,7 @@ Use Postol when the notebook needs engineering truth, not when it mainly needs d
 
 ## Open Davis First
 
-Open [Davis host shelf](../../hosts/davis/README.md) first when the real question is:
+Open [Davis host shelf](../../channels/davis/README.md) first when the real question is:
 
 - can this strike work
 - can this bunker be destroyed
@@ -47,7 +47,7 @@ Do not open Postol first when the real question is:
 - domestic liability, factional coherence, or White House room failure
   - open [Barnes](../barnes/README.md)
 - legal / constitutional absurdity or blockade-process irrationality
-  - open [Johnson](../johnson/README.md) or [Napolitano host shelf](../../hosts/napolitano/README.md)
+  - open [Johnson](../johnson/README.md) or [Napolitano host shelf](../../channels/napolitano/README.md)
 - Iranian legitimacy, red-line framing, or civilizational resolve
   - open [Marandi](../marandi/README.md)
 - coercion theory or strategy-level forecast architecture

@@ -31,7 +31,7 @@ Open **Joe Kent: Iran War, Israeli Influence & Creating ISIS** first when the op
 
 ## Best paired read
 
-Best paired read: [Davis x Kent](../../../../statecraft/hosts/davis/stream/davis-kent-speaker-arc.md)
+Best paired read: [Davis x Kent](../../../../statecraft/channels/davis/stream/davis-kent-speaker-arc.md)
 
 Why: Davis shows Kent as a walkaway/force-feasibility voice; Diesen shows Kent as an order-transition and institutional-capture voice.
 
@@ -63,4 +63,4 @@ Use `Diesen x Kent` when the notebook needs:
 - This is a real but thin arc: one transcript-grade core plus bridge context.
 - Do not let the Diesen strand outweigh the thicker Davis strand until more Diesen-Kent appearances are materialized.
 - Do not promote claims about Israeli influence, ISIS creation, or internal U.S. pressure beyond commentary tier without separate verification.
-- If the question is mainly about present feasibility or exit sequencing, route outward to [davis-kent-speaker-arc.md](../../../../statecraft/hosts/davis/stream/davis-kent-speaker-arc.md) rather than stretching this structural arc into operational work.
+- If the question is mainly about present feasibility or exit sequencing, route outward to [davis-kent-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-kent-speaker-arc.md) rather than stretching this structural arc into operational work.

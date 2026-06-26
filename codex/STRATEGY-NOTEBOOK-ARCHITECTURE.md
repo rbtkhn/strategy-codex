@@ -4,7 +4,7 @@
 **Project:** Operator strategy-codex (grace-mar work-strategy)
 
 > [!IMPORTANT]
-> Path contract update: `codex/years/2026/` is no longer a live people-lane volume. It is reserved for dated provenance via `source-archive/statecraft/`. Canonical people shelves live under `statecraft/voices/<name>/` and host-family continuity under `statecraft/hosts/<name>/`, with host-local guest arcs typically under `stream/`. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
+> Path contract update: `codex/years/2026/` is no longer a live people-lane volume. It is reserved for dated provenance via `source-archive/statecraft/`. Canonical people shelves live under `statecraft/voices/<name>/` and host-family continuity under `statecraft/channels/<name>/`, with host-local guest arcs typically under `stream/`. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
 
 > [!NOTE]
 > **Strategy-notebook namespace deprecated (2026-06-23):** Say **`strategy-codex`** / **`codex/`** for new work. Compat **`docs/.../strategy-notebook/`** is redirect-only. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md). Bulk inline **`strategy-notebook`** path tokens in this file are being retired in a follow-up pass.
