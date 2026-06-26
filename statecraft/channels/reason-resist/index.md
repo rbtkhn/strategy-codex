@@ -6,6 +6,7 @@ Purpose: front door for **`reason-resist`** on the statecraft channel shelf laye
 
 ## Open first
 
+- [reason-resist-index.md](reason-resist-index.md)
 - [README.md](README.md)
 
 ## Current live rule

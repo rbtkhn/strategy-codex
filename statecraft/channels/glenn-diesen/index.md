@@ -6,6 +6,7 @@ Purpose: front door for **`glenn-diesen`** on the statecraft channel shelf layer
 
 ## Open first
 
+- [glenn-diesen-index.md](glenn-diesen-index.md)
 - [README.md](README.md)
 
 ## Current live rule

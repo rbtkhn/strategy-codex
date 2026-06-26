@@ -6,6 +6,7 @@ Purpose: front door for **`alexander-mercouris`** on the statecraft channel shel
 
 ## Open first
 
+- [alexander-mercouris-index.md](alexander-mercouris-index.md)
 - [README.md](README.md)
 
 ## Current live rule

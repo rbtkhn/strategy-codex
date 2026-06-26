@@ -11,6 +11,7 @@ Canonical live **channel shelf** for archive key **`breaking-points`** (`channel
 
 ## Open first
 
+- [breaking-points-index.md](breaking-points-index.md)
 - [index.md](index.md)
 
 ## Host role

@@ -11,6 +11,7 @@ Canonical live **channel shelf** for archive key **`india-global-left`** (`chann
 
 ## Open first
 
+- [india-global-left-index.md](india-global-left-index.md)
 - [index.md](index.md)
 
 ## Host role

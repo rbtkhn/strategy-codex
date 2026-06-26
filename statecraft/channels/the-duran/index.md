@@ -6,6 +6,7 @@ Purpose: front door for **`the-duran`** on the statecraft channel shelf layer.
 
 ## Open first
 
+- [the-duran-index.md](the-duran-index.md)
 - [README.md](README.md)
 
 ## Current live rule

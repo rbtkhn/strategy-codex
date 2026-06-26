@@ -17,6 +17,7 @@ Alexander Mercouris solo channel — whole-analyst SSOT lives under `statecraft/
 
 ## Open first
 
+- [alexander-mercouris-index.md](alexander-mercouris-index.md)
 - [index.md](index.md)
 
 ## Host role

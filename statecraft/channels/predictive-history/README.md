@@ -11,6 +11,7 @@ Canonical live **channel shelf** for archive key **`predictive-history`** (`chan
 
 ## Open first
 
+- [predictive-history-index.md](predictive-history-index.md)
 - [index.md](index.md)
 
 ## Host role

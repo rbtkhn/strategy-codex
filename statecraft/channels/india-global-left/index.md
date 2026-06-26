@@ -6,6 +6,7 @@ Purpose: front door for **`india-global-left`** on the statecraft channel shelf 
 
 ## Open first
 
+- [india-global-left-index.md](india-global-left-index.md)
 - [README.md](README.md)
 
 ## Current live rule

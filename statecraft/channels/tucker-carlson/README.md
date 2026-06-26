@@ -11,6 +11,7 @@ Canonical live **channel shelf** for archive key **`tucker-carlson`** (`channel_
 
 ## Open first
 
+- [tucker-carlson-index.md](tucker-carlson-index.md)
 - [index.md](index.md)
 
 ## Host role

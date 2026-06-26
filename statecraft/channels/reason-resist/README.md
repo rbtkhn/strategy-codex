@@ -11,6 +11,7 @@ Canonical live **channel shelf** for archive key **`reason-resist`** (`channel_s
 
 ## Open first
 
+- [reason-resist-index.md](reason-resist-index.md)
 - [index.md](index.md)
 
 ## Host role

@@ -11,6 +11,7 @@ Canonical live **channel shelf** for archive key **`the-duran`** (`channel_slug`
 
 ## Open first
 
+- [the-duran-index.md](the-duran-index.md)
 - [index.md](index.md)
 
 ## Host role
