@@ -36,9 +36,9 @@ The check-sources roster is **not** a hard-coded channel list in this skill.
 
 | Surface | Role |
 |---------|------|
-| [`channel-index.json`](../../source-archive/statecraft/channel-index.json) | Machine roster — **main index only**; each row has `check_sources: true` |
-| [`channel-index.md`](../../source-archive/statecraft/channel-index.md) | Human inventory + stats (regenerated together) |
-| [`channel-index-misc.md`](../../source-archive/statecraft/channel-index-misc.md) | **Excluded** from check-sources |
+| [`channel-index.json`](../../statecraft/channels/channel-index.json) | Machine roster — **main index only**; each row has `check_sources: true` |
+| [`channel-index.md`](../../statecraft/channels/channel-index.md) | Human inventory + stats (regenerated together) |
+| [`channel-index-misc.md`](../../statecraft/channels/channel-index-misc.md) | **Excluded** from check-sources |
 | [`statecraft_youtube_discovery.json`](../../platform/config/statecraft_youtube_discovery.json) | Discovery metadata (`channel_id`, `handle_url`, routing rules) |
 
 **Loader (Python):** `load_check_sources_roster()` in [`scripts/statecraft_youtube_discovery.py`](../../scripts/statecraft_youtube_discovery.py) — reads `channel-index.json` or rebuilds live via `build_channel_index_json()`.
@@ -732,8 +732,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 | Topic | Path |
 |--------|------|
 | Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
-| Check-sources roster (machine) | [channel-index.json](../../source-archive/statecraft/channel-index.json) |
-| Check-sources roster (human) | [channel-index.md](../../source-archive/statecraft/channel-index.md) |
+| Check-sources roster (machine) | [channel-index.json](../../statecraft/channels/channel-index.json) |
+| Check-sources roster (human) | [channel-index.md](../../statecraft/channels/channel-index.md) |
 | Roster loader | [statecraft_youtube_discovery.py](../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
 | Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
@@ -771,8 +771,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 | Topic | Path |
 |--------|------|
 | Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
-| Check-sources roster (machine) | [channel-index.json](../../source-archive/statecraft/channel-index.json) |
-| Check-sources roster (human) | [channel-index.md](../../source-archive/statecraft/channel-index.md) |
+| Check-sources roster (machine) | [channel-index.json](../../statecraft/channels/channel-index.json) |
+| Check-sources roster (human) | [channel-index.md](../../statecraft/channels/channel-index.md) |
 | Roster loader | [statecraft_youtube_discovery.py](../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
 | Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |

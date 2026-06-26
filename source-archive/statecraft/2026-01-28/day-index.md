@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1)
-- Threads: `crooke` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
+- Threads: `crooke` (1), `martyanov` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=DuOP68rBeLc) | `source-alexander-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md` |
-| `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [PB6wU2l1wv8](https://www.youtube.com/watch?v=PB6wU2l1wv8) | `source-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md` |
+| `dialogue-works` | Dialogue Works | `martyanov` | [PB6wU2l1wv8](https://www.youtube.com/watch?v=PB6wU2l1wv8) | `source-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md` |
 
 ## Writer sources
 

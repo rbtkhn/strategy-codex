@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (2), `John Mearsheimer` (1)
-- Threads: `freeman` (2), `davis` (1), `diesen` (1), `mearsheimer` (1), `nima` (1)
+- Threads: `freeman` (2), `davis` (1), `diesen` (1), `mearsheimer` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=XnwRxZ-JIXA) | `source-daniel-davis-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md` |
-| `dialogue-works` | Dialogue Works | `freeman`, `nima` | — | `source-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md` |
+| `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md` |
 
 ## Writer sources
 

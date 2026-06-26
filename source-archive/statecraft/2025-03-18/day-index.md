@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1)
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1)
-- Threads: `freeman` (1), `macgregor` (1), `napolitano` (1)
+- Threads: `freeman` (1), `macgregor` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/fUVYf3PMpY8) | `source-daniel-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md` |
 
 ## Writer sources
 

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `1`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1)
-- Threads: `martyanov` (1), `nima` (1)
+- Threads: `martyanov` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [9zqRNDWkiGU](https://www.youtube.com/watch?v=9zqRNDWkiGU) | `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md` |
+| `dialogue-works` | Dialogue Works | `martyanov` | [9zqRNDWkiGU](https://www.youtube.com/watch?v=9zqRNDWkiGU) | `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md` |
 
 ## Writer sources
 

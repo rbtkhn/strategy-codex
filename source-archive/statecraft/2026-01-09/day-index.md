@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Trita Parsi` (1)
 - Guests: `Alexander Mercouris` (1), `Scott Ritter` (1)
-- Threads: `mercouris` (2), `davis` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
+- Threads: `alexander-mercouris` (1), `davis` (1), `mercouris` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Tn7BGPdzU9g) | `source-alexander-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](TBD) | `source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `alexander-mercouris` | [watch](TBD) | `source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md` |
 
 ## Writer sources
 

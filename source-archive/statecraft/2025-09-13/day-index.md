@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1)
 - Guests: `Alexander Mercouris` (1)
-- Threads: `christoforou` (1), `mercouris` (1)
+- Threads: `alexander-mercouris` (1), `christoforou` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=glXEVpH27hc) | `source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=glXEVpH27hc) | `source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md` |
 
 ## Writer sources
 

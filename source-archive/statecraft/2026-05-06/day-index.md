@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `7`
 - Distinct hosts: `6`
 - Distinct guests: `4`
-- Distinct threads: `11`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (2), `Glenn Diesen` (2), `Daniel Davis` (1), `Jiang Xueqin` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
 - Guests: `Scott Ritter` (2), `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Trita Parsi` (1)
-- Threads: `diesen` (2), `mercouris` (2), `ritter` (2), `alkorshid` (1), `davis` (1), `freeman` (1), `jiang` (1), `nima` (1), `pape` (1), `parsi` (1), `wilkerson` (1)
+- Threads: `diesen` (2), `mercouris` (2), `ritter` (2), `alkorshid` (1), `davis` (1), `freeman` (1), `jiang` (1), `pape` (1), `parsi` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=x1xKkvi1wVQ) | `source-alexander-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [yeSOZPgNars](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=yHqOBrFyCqA) | `source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=yHqOBrFyCqA) | `source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=J1FnZp1N5po) | `source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=YzCI7IDtzXg) | `source-diesen-wilkerson-hormuz-brics-2026-05-06.md` |
 | `alexander-mercouris` | Mercouris | `mercouris`, `parsi` | [watch](https://www.youtube.com/watch?v=Pv7003ksQQ4) | `source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md` |

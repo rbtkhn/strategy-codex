@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2)
 - Guests: `Ukraine Russia War MILITARY UPDATE / Lt. Col Daniel Davis` (1)
-- Threads: `davis` (2)
+- Threads: `davis` (2), `daniel-davis` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=K2v-hTmxCCQ) | `source-daniel-davis-ukraine-russia-war-military-update-lt-col-daniel-davis-2025-01-27.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=K2v-hTmxCCQ) | `source-daniel-davis-ukraine-russia-war-military-update-lt-col-daniel-davis-2025-01-27.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=QcUaqhi0W6E) | `source-daniel-davis-will-ukraine-be-at-the-table-for-peace-talks-w-harry-kazianis-of-19forty-2025-01-27.md` |
 
 ## Writer sources

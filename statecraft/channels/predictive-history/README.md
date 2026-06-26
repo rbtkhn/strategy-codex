@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`predictive-history`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `11` files · `source-predictive-history-*` filename family
 - **YouTube:** [Predictive History](https://www.youtube.com/@PredictiveHistory)
 - **Watchlist:** no

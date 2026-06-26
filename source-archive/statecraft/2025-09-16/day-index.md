@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `1`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `freeman` (1), `napolitano` (1)
+- Threads: `freeman` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-how-dark-are-these-days-2025-09-16.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-how-dark-are-these-days-2025-09-16.md` |
 
 ## Writer sources
 

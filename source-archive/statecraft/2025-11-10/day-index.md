@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `freeman` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `freeman` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=sA5nmgx0Uys) | `source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=lhvwsU2ab7E) | `source-judging-freedom-freeman-trump-israel-or-america-first-2025-11-10.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | [watch](https://www.youtube.com/watch?v=lhvwsU2ab7E) | `source-judging-freedom-freeman-trump-israel-or-america-first-2025-11-10.md` |
 
 ## Writer sources
 

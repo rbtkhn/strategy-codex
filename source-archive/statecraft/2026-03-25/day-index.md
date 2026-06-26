@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `1`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Scott Ritter` (1)
-- Threads: `davis` (1), `diesen` (1), `mercouris` (1), `nima` (1), `pape` (1), `ritter` (1)
+- Threads: `davis` (1), `diesen` (1), `mercouris` (1), `pape` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TNeJaVeEC3U) | `source-alexander-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md` |
-| `dialogue-works` | Dialogue Works | `davis`, `nima` | [watch](https://www.youtube.com/watch?v=_6_8JvP6Y9Y) | `source-dialogue-works-lt-col-daniel-davis-iran-s-trap-is-already-set-and-the-u-s-is-2026-03-25.md` |
+| `dialogue-works` | Dialogue Works | `davis` | [watch](https://www.youtube.com/watch?v=_6_8JvP6Y9Y) | `source-dialogue-works-lt-col-daniel-davis-iran-s-trap-is-already-set-and-the-u-s-is-2026-03-25.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=OcqIEJEk4MY) | `source-glenn-diesen-jeffrey-sachs-iran-is-the-graveyard-of-american-hegemony-2026-03-25.md` |
 
 ## Writer sources

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1)
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
-- Threads: `mercouris` (2), `napolitano` (2), `christoforou` (1), `mearsheimer` (1), `sachs` (1)
+- Threads: `mercouris` (2), `napolitano` (2), `alexander-mercouris` (1), `christoforou` (1), `mearsheimer` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2G52wFryBLU) | `source-alexander-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md` |
-| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=93FyLG-5rrI) | `source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=93FyLG-5rrI) | `source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=uxaBNRuydgw) | `source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=lGrooy41n1E') | `source-judging-freedom-sachs-how-israel-blackmails-washington-2025-09-10.md` |
 

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Glenn Diesen` (1), `Trita Parsi` (1)
 - Guests: `Daniel Davis` (1)
-- Threads: `crooke` (1), `davis` (1), `diesen` (1), `mercouris` (1), `parsi` (1)
+- Threads: `crooke` (1), `daniel-davis` (1), `diesen` (1), `mercouris` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kOY9J1ZEic0) | `source-alexander-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md` |
-| `glenn-diesen` | Glenn Diesen (channel / program — pin canonical series title when pinned) | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=StIeZ7QY7Wk) | `source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md` |
+| `glenn-diesen` | Glenn Diesen (channel / program — pin canonical series title when pinned) | `diesen`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=StIeZ7QY7Wk) | `source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md` |
 
 ## Writer sources
 

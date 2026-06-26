@@ -76,7 +76,7 @@ Use the generic helper for the majority of cases:
 
 - `scripts/backfill_youtube_channel_raw_input.py`
 
-Discovery config (replaces deprecated `cognition-streams-watchlist.json`): `platform/config/statecraft_youtube_discovery.json`. Channel listing: `source-archive/statecraft/channel-index.md`. See [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../../docs/skill-work/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md).
+Discovery config (replaces deprecated `cognition-streams-watchlist.json`): `platform/config/statecraft_youtube_discovery.json`. Channel listing: `statecraft/channels/channel-index.md`. See [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../../docs/skill-work/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md).
 
 Thin wrappers exist for the common rollout targets:
 

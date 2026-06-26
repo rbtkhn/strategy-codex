@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `12`
+- Distinct threads: `11`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Seyed M. Marandi` (1)
-- Threads: `marandi` (2), `mercouris` (2), `alkorshid` (1), `barnes` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `nima` (1), `pape` (1), `parsi` (1), `ritter` (1)
+- Threads: `marandi` (2), `mercouris` (2), `alkorshid` (1), `barnes` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `pape` (1), `parsi` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nJhaW_x14Bw) | `source-alexander-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=ap41RA_DqRk) | `source-dialogue-works-seyed-m-marandi-iran-just-put-the-strait-of-hormuz-on-limited-mode-signs-2026-04-18.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=ap41RA_DqRk) | `source-dialogue-works-seyed-m-marandi-iran-just-put-the-strait-of-hormuz-on-limited-mode-signs-2026-04-18.md` |
 
 ## Writer sources
 

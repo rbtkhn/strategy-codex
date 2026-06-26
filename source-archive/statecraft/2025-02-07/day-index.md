@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Nima Alkhorshid` (1)
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1)
-- Threads: `christoforou` (1), `freeman` (1), `mercouris` (1)
+- Threads: `alexander-mercouris` (1), `christoforou` (1), `freeman` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-can-the-u-s-take-control-of-gaza-2025-02-07.md` |
-| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=bp90d0kSVUA) | `source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=bp90d0kSVUA) | `source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md` |
 
 ## Writer sources
 

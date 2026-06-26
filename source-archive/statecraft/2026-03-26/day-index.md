@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `8`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
 - Guests: `Douglas Macgregor` (1), `Joe Kent` (1), `Lawrence Wilkerson` (1)
-- Threads: `napolitano` (2), `crooke` (1), `davis` (1), `kent` (1), `macgregor` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
+- Threads: `crooke` (1), `davis` (1), `kent` (1), `macgregor` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9KA_hbYSQ38) | `source-alexander-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [qJRF7sd1Yvs](https://www.youtube.com/watch?v=qJRF7sd1Yvs) | `source-daniel-davis-joe-kent-the-truth-of-the-iran-war-2026-03-26.md` |
-| `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=m_hL84kCcgA) | `source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md` |
-| `judging-freedom` | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=aq32fmNwp9A) | `source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md` |
+| `judging-freedom` | — | `macgregor` | [watch](https://www.youtube.com/watch?v=m_hL84kCcgA) | `source-judging-freedom-macgregor-why-trump-is-now-desperate-2026-03-26.md` |
+| `judging-freedom` | — | `wilkerson` | [watch](https://www.youtube.com/watch?v=aq32fmNwp9A) | `source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md` |
 
 ## Writer sources
 

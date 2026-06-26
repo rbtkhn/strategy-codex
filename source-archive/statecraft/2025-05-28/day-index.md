@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Charles Freeman` (1)
-- Threads: `freeman` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `freeman` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YIj082aG0Rk) | `source-alexander-mercouris-us-europe-argue-on-sanctions-taurus-missiles-west-despair-over-russian-advances-kiev-ad-collapse-2025-05-28.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-does-putin-fear-trump-2025-05-28.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-charles-freeman-does-putin-fear-trump-2025-05-28.md` |
 
 ## Writer sources
 

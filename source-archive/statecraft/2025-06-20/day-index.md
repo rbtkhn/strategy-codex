@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `3`
-- Distinct threads: `6`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1)
 - Guests: `John Mearsheimer` (2), `Alexander Mercouris` (1), `Douglas Macgregor` (1)
-- Threads: `diesen` (2), `mearsheimer` (2), `mercouris` (2), `davis` (1), `macgregor` (1), `napolitano` (1)
+- Threads: `diesen` (2), `mearsheimer` (2), `mercouris` (2), `alexander-mercouris` (1), `davis` (1), `macgregor` (1), `napolitano` (1)
 
 ## Channel sources
 
@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=QVURQCEMKUI) | `source-alexander-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ksStl8ytXzk) | `source-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md` |
 | `glenn-diesen` | Glenn Diesen - Greater Eurasia Podcast | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=wLWXoSI7IFM) | `source-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md` |
-| `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=dalbnR8vNvs) | `source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md` |
+| `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=dalbnR8vNvs) | `source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md` |
 
 ## Writer sources
 

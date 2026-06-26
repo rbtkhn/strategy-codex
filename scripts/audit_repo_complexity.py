@@ -56,7 +56,7 @@ ROUTING_SURFACES = (
     REPO_ROOT / "LLM-ROUTING.md",
     REPO_ROOT / "statecraft" / "voices" / "INDEX.md",
     REPO_ROOT / "source-archive" / "statecraft" / "thread-index.md",
-    REPO_ROOT / "source-archive" / "statecraft" / "channel-index.md",
+    REPO_ROOT / "statecraft" / "channels" / "channel-index.md",
 )
 
 ALWAYS_READ_CANDIDATES = (

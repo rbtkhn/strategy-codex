@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1)
-- Threads: `freeman` (1), `nima` (1), `wilkerson` (1)
+- Threads: `freeman` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `freeman`, `wilkerson`, `nima` | [watch](https://www.youtube.com/watch?v=r2Oarv9DrqQ) | `source-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18.md` |
+| `dialogue-works` | Dialogue Works | `freeman`, `wilkerson` | [watch](https://www.youtube.com/watch?v=r2Oarv9DrqQ) | `source-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18.md` |
 
 ## Writer sources
 

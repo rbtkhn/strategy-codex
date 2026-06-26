@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
-- Threads: `mercouris` (1), `napolitano` (1), `sachs` (1)
+- Threads: `alexander-mercouris` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6T1scXDXQ1Y) | `source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=6T1scXDXQ1Y) | `source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=ogRcUAU0j4o') | `source-judging-freedom-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md` |
 
 ## Writer sources

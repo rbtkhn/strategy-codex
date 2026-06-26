@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1), `Glenn Diesen` (1), `napolitano` (1)
 - Guests: `John Mearsheimer` (2), `Douglas Macgregor` (1)
-- Threads: `mearsheimer` (2), `davis` (1), `diesen` (1), `macgregor` (1), `napolitano` (1)
+- Threads: `mearsheimer` (2), `diesen` (1), `macgregor` (1)
 
 ## Channel sources
 
@@ -48,8 +48,8 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md` |
-| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-judging-freedom-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md` |
+| John Mearsheimer | `mearsheimer` | — | `source-daniel-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md` |
+| John Mearsheimer | `mearsheimer` | — | `source-judging-freedom-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md` |
 
 ## Files
 

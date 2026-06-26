@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `5`
-- Distinct threads: `7`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Alexander Mercouris` (1), `Daniel Davis` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
-- Threads: `davis` (2), `diesen` (2), `mercouris` (2), `macgregor` (1), `napolitano` (1), `ritter` (1), `sachs` (1)
+- Threads: `davis` (2), `diesen` (2), `alexander-mercouris` (1), `daniel-davis` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AEkT3DPfVMU) | `source-alexander-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](https://www.youtube.com/watch?v=L21I2qFdS9M) | `source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=46L9v4qUuEw) | `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=L21I2qFdS9M) | `source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=46L9v4qUuEw) | `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=FW7vyCwyw84) | `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=m_tHqXt44sU) | `source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=UNdEunkOuSk') | `source-judging-freedom-sachs-underestimating-russia-2025-12-10.md` |

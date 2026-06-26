@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `George Beebe` (1)
-- Threads: `beebe` (1), `christoforou` (1), `diesen` (1), `mercouris` (1)
+- Threads: `alexander-mercouris` (1), `beebe` (1), `christoforou` (1), `diesen` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=aoB8fUihexQ) | `source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=aoB8fUihexQ) | `source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=a8qG8O3Zl10) | `source-glenn-diesen-george-beebe-negotiations-attack-on-russia-s-nuclear-forces-2025-06-02.md` |
 
 ## Writer sources

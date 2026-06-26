@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Chaz Freeman` (1)
-- Threads: `freeman` (2), `diesen` (1), `nima` (1)
+- Threads: `freeman` (2), `diesen` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `freeman`, `nima` | — | `source-dialogue-works-amb-chas-freeman-war-zones-can-china-ukraine-gaza-and-iran-ever-achieve-peace-2025-07-11.md` |
+| `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-war-zones-can-china-ukraine-gaza-and-iran-ever-achieve-peace-2025-07-11.md` |
 | `glenn-diesen` | Glenn Diesen | `freeman`, `diesen` | — | `source-glenn-diesen-chas-freeman-the-old-world-is-dying-and-the-new-world-struggles-to-be-born-2025-07-11.md` |
 
 ## Writer sources

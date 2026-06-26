@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1)
 - Guests: `John Mearsheimer` (2)
-- Threads: `mearsheimer` (2), `crooke` (1), `davis` (1), `mercouris` (1), `napolitano` (1), `simplicius` (1)
+- Threads: `mearsheimer` (2), `crooke` (1), `davis` (1), `mercouris` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [g2n-3yALThM](https://www.youtube.com/watch?v=g2n-3yALThM) | `source-alexander-mercouris-moscow-steps-in-us-iran-conflict-trump-backs-off-kiev-admits-odessa-russ-2026-01-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=vZe1ujSljbw) | `source-daniel-davis-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md` |
-| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=5xDiEaRUsUo) | `source-judging-freedom-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md` |
+| `judging-freedom` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=5xDiEaRUsUo) | `source-judging-freedom-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md` |
 
 ## Writer sources
 

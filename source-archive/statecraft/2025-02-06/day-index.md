@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Pascal Lottaz` (1)
 - Guests: `Douglas Macgregor` (1), `Lawrence Wilkerson` (1)
-- Threads: `lottaz` (1), `macgregor` (1), `napolitano` (1), `wilkerson` (1)
+- Threads: `lottaz` (1), `macgregor` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ndT3ZWvjmCY) | `source-judging-freedom-macgregor-can-the-us-own-gaza-2025-02-06.md` |
+| `judging-freedom` | Judging Freedom | `macgregor` | [watch](https://youtu.be/ndT3ZWvjmCY) | `source-judging-freedom-macgregor-can-the-us-own-gaza-2025-02-06.md` |
 | `neutrality-studies` | Neutrality Studies | `lottaz`, `wilkerson` | [watch](https://www.youtube.com/watch?v=FUp3BaPdHIY) | `source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md` |
 
 ## Writer sources

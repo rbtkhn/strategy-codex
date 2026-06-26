@@ -19,9 +19,10 @@ DISCOVERY_CONFIG_PATH = REPO_ROOT / "platform" / "config" / "statecraft_youtube_
 LEGACY_WATCHLIST_PATH = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "cognition-streams-watchlist.json"
 
 try:
-    from statecraft_day_archive import DEFAULT_ROOT as ARCHIVE_DEFAULT_ROOT
+    from statecraft_day_archive import CHANNEL_INDEX_DIR, DEFAULT_ROOT as ARCHIVE_DEFAULT_ROOT
 except ImportError:  # pragma: no cover - script import order
     ARCHIVE_DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
+    CHANNEL_INDEX_DIR = REPO_ROOT / "statecraft" / "channels"
 
 
 def resolve_discovery_config_path() -> Path:
@@ -213,8 +214,8 @@ def is_discoverable_channel(
 
 
 def channel_index_json_path(root: Path | None = None) -> Path:
-    archive_root = (root or ARCHIVE_DEFAULT_ROOT).resolve()
-    return archive_root / "channel-index.json"
+    _ = root  # archive root used only when rebuilding roster live
+    return CHANNEL_INDEX_DIR / "channel-index.json"
 
 
 def load_channel_index_json(path: Path | None = None) -> dict[str, Any]:

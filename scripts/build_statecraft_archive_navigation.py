@@ -20,6 +20,7 @@ from build_statecraft_month_indices import (
     write_json_payload,
 )
 from statecraft_day_archive import (
+    CHANNEL_INDEX_DIR,
     DEFAULT_ROOT,
     REPO_ROOT,
     ArchiveFile,
@@ -354,7 +355,7 @@ def build_channel_index_json(root: Path) -> dict[str, Any]:
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "check_sources_scope": "main",
         "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
-        "source_markdown": "channel-index.md",
+        "source_markdown": "statecraft/channels/channel-index.md",
         "stats": {
             "main_channel_count": len(channels),
             "file_count": sum(item["file_count"] for item in channels),
@@ -402,9 +403,11 @@ def build_channel_index(root: Path) -> str:
     discoverable_count = _count_discoverable_main(main_stats)
 
     lines = [
-        "# Statecraft Archive - YouTube Channel Index",
+        "# Statecraft Channels — YouTube Channel Index",
         "",
         "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
+        "",
+        "SSOT for the main **check-sources** roster lives under `statecraft/channels/` (one shelf folder per `channel_slug`).",
         "",
         "Flat registry of **YouTube channels** seen in `source-*.md` captures (`source_type: youtube`,",
         "`youtube_id`, or YouTube `source_url`). Articles, Substack, and other non-YouTube surfaces are excluded.",
@@ -440,8 +443,9 @@ def build_channel_index(root: Path) -> str:
             "",
             "## Return",
             "",
-            "- Root archive: [source-archive/statecraft/README.md](./README.md)",
-            "- Thread index: [thread-index.md](./thread-index.md)",
+            "- Channels layer: [statecraft/channels/README.md](./README.md)",
+            "- Source archive: [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md)",
+            "- Thread index: [thread-index.md](../../source-archive/statecraft/thread-index.md)",
             "- Miscellaneous channels: [channel-index-misc.md](./channel-index-misc.md)",
             "",
         ]
@@ -458,7 +462,7 @@ def build_channel_index_misc(root: Path) -> str:
     explicit_slug_count = sum(1 for entry in misc_stats.values() if entry.explicit_slug)
 
     lines = [
-        "# Statecraft Archive - YouTube Channel Index (Miscellaneous)",
+        "# Statecraft Channels — YouTube Channel Index (Miscellaneous)",
         "",
         "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
         "",
@@ -486,7 +490,8 @@ def build_channel_index_misc(root: Path) -> str:
             "## Return",
             "",
             "- Main channel index: [channel-index.md](./channel-index.md)",
-            "- Root archive: [source-archive/statecraft/README.md](./README.md)",
+            "- Channels layer: [statecraft/channels/README.md](./README.md)",
+            "- Source archive: [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md)",
             "",
         ]
     )
@@ -597,15 +602,15 @@ def build_stale_index_audit(root: Path) -> str:
 
     thread_path = root / "thread-index.md"
     thread_status = _render_compare_status(thread_path, build_thread_index(root))
-    channel_path = root / "channel-index.md"
+    channel_path = CHANNEL_INDEX_DIR / "channel-index.md"
     channel_status = _render_compare_status(channel_path, build_channel_index(root))
-    channel_json_path = root / "channel-index.json"
+    channel_json_path = CHANNEL_INDEX_DIR / "channel-index.json"
     channel_json_status = (
         "ok"
         if not _json_payload_semantically_changed(channel_json_path, build_channel_index_json(root))
         else ("missing" if not channel_json_path.exists() else "stale")
     )
-    channel_misc_path = root / "channel-index-misc.md"
+    channel_misc_path = CHANNEL_INDEX_DIR / "channel-index-misc.md"
     channel_misc_status = _render_compare_status(channel_misc_path, build_channel_index_misc(root))
     writer_path = root / "writer-index.md"
     writer_status = _render_compare_status(writer_path, build_writer_index(root))
@@ -728,14 +733,16 @@ def main() -> int:
         if args.check:
             print(f"stale {thread_path}")
 
-    channel_path, channel_changed = write_rendered(root / "channel-index.md", build_channel_index(root), check=args.check)
+    channel_path, channel_changed = write_rendered(
+        CHANNEL_INDEX_DIR / "channel-index.md", build_channel_index(root), check=args.check
+    )
     if channel_changed:
         changed_paths.append(channel_path)
         if args.check:
             print(f"stale {channel_path}")
 
     channel_json_path, channel_json_changed = write_channel_index_json(
-        root / "channel-index.json",
+        CHANNEL_INDEX_DIR / "channel-index.json",
         root,
         check=args.check,
     )
@@ -745,7 +752,7 @@ def main() -> int:
             print(f"stale {channel_json_path}")
 
     channel_misc_path, channel_misc_changed = write_rendered(
-        root / "channel-index-misc.md",
+        CHANNEL_INDEX_DIR / "channel-index-misc.md",
         build_channel_index_misc(root),
         check=args.check,
     )

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2)
 - Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1)
-- Threads: `napolitano` (2), `freeman` (1), `sachs` (1)
+- Threads: `freeman` (1), `napolitano` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-can-trump-control-netanyahu-2025-10-13.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-can-trump-control-netanyahu-2025-10-13.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=ZQSLjWvtHdw') | `source-judging-freedom-sachs-who-would-trust-netanyahu-2025-10-13.md` |
 
 ## Writer sources

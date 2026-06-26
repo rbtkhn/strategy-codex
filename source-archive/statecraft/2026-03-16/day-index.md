@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (6), `Daniel Davis` (5), `Nima Alkhorshid` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1)
 - Guests: `Jeffrey Sachs` (2), `Ritter` (2), `Alastair Crooke` (1), `Alex Krainer` (1), `Jacques Baud` (1), `Kyle Anzalone` (1), `Larry C. Johnson` (1), `Larry Johnson` (1), `Parsi` (1), `Paul Craig Roberts` (1), `Pepe Escobar` (1), `Ray McGovern` (1), `Scott Ritter` (1), `Trita Parsi` (1)
-- Threads: `napolitano` (6), `davis` (5), `dialogue-works` (3), `ritter` (3), `diesen` (2), `johnson` (2), `parsi` (2), `sachs` (2), `anzalone` (1), `baud` (1), `crooke` (1), `krainer` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `simplicius` (1)
+- Threads: `davis` (5), `napolitano` (5), `dialogue-works` (3), `ritter` (3), `diesen` (2), `johnson` (2), `parsi` (2), `sachs` (2), `anzalone` (1), `baud` (1), `crooke` (1), `krainer` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -43,7 +43,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `johnson` | [7ROzzOkmHsY](https://www.youtube.com/watch?v=7ROzzOkmHsY) | `source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `krainer` | [WzWBIS17aqY](https://www.youtube.com/watch?v=WzWBIS17aqY) | `source-glenn-diesen-alex-krainer-iran-war-goes-global-economic-energy-food-crisis-2026-03-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [gmtJZvmOOes](https://www.youtube.com/watch?v=gmtJZvmOOes) | `source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md` |
-| `judging-freedom` | — | `anzalone`, `napolitano` | [watch](https://www.youtube.com/watch?v=qwFatIERfpI) | `source-judging-freedom-anzalone-war-just-for-fun-2026-03-16.md` |
+| `judging-freedom` | — | `anzalone` | [watch](https://www.youtube.com/watch?v=qwFatIERfpI) | `source-judging-freedom-anzalone-war-just-for-fun-2026-03-16.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `crooke` | [MvGS6u-WcvM](https://www.youtube.com/watch?v=MvGS6u-WcvM) | `source-judging-freedom-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `johnson` | [Ip-7CuiBIE0](https://www.youtube.com/watch?v=Ip-7CuiBIE0) | `source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mcgovern` | [PbiY9tyUZ2A](https://www.youtube.com/watch?v=PbiY9tyUZ2A) | `source-judging-freedom-mcgovern-trumps-war-putins-advantage-2026-03-16.md` |

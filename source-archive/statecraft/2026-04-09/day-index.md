@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Judish Raj` (1)
 - Guests: `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `india-global-left` (1), `mercouris` (1), `napolitano` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `india-global-left` (1), `mercouris` (1), `ritter` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=V93i8GOIi-U) | `source-alexander-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md` |
 | `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [W93WyoC-2lQ](https://www.youtube.com/watch?v=W93WyoC-2lQ) | `source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=FrwWSR1IzXo) | `source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson` | [watch](https://www.youtube.com/watch?v=FrwWSR1IzXo) | `source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md` |
 
 ## Writer sources
 

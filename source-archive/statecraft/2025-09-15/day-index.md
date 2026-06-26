@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 - Guests: `Chas Freeman` (2), `Alexander Mercouris` (1), `Douglas Macgregor` (1)
-- Threads: `davis` (2), `freeman` (2), `diesen` (1), `macgregor` (1), `mercouris` (1)
+- Threads: `davis` (2), `freeman` (2), `alexander-mercouris` (1), `diesen` (1), `macgregor` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=d3UnDzMJLBY) | `source-alexander-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=d3UnDzMJLBY) | `source-alexander-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=5VdkxjJ2APs) | `source-daniel-davis-no-fly-zone-over-ukraine-lt-col-daniel-davis-and-chas-freeman-2025-09-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=KFLnORKKaUk) | `source-daniel-davis-u-s-foreign-policy-bad-under-biden-worse-with-trump-lt-col-daniel-davis-and-chas-freeman-2025-09-15.md` |
 | `glenn-diesen` | — | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=I-CT0dn6sDc) | `source-glenn-diesen-douglas-macgregor-douglas-macgregor-500-years-of-dominance-have-come-to-an-end-2025-09-15.md` |

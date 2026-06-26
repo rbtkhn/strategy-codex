@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `6`
 - Distinct hosts: `6`
 - Distinct guests: `6`
-- Distinct threads: `12`
+- Distinct threads: `11`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Alexander Mercouris` (1), `Dimitri Lascaris` (1), `Nima Alkhorshid` (1), `Predictive History` (1), `Trita Parsi` (1)
 - Guests: `[]` (2), `John Helmer` (1), `John Mearsheimer` (1), `Sergey Karaganov` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
-- Threads: `davis` (2), `diesen` (2), `parsi` (2), `alkorshid` (1), `helmer` (1), `jiang` (1), `karaganov` (1), `lascaris` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `nima` (1)
+- Threads: `davis` (2), `diesen` (2), `parsi` (2), `alkorshid` (1), `helmer` (1), `jiang` (1), `karaganov` (1), `lascaris` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Mercouris | `mercouris` | [Lg5cWw3gvk8](https://www.youtube.com/watch?v=Lg5cWw3gvk8) | `source-alexander-mercouris-putin-meets-military-warns-west-drone-dominance-victory-us-china-trap-2026-06-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [R0-0SB0DATU](https://www.youtube.com/watch?v=R0-0SB0DATU) | `source-daniel-davis-iran-war-deal-skeptical-2026-06-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [OKpzUEn5U9A](https://www.youtube.com/watch?v=OKpzUEn5U9A) | `source-daniel-davis-signing-deal-tomorrow-scheduled-2026-06-13.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [_3iHaKgppTg](https://www.youtube.com/watch?v=_3iHaKgppTg) | `source-dialogue-works-marandi-breaking-us-iran-brink-final-deal-2026-06-13.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [_3iHaKgppTg](https://www.youtube.com/watch?v=_3iHaKgppTg) | `source-dialogue-works-marandi-breaking-us-iran-brink-final-deal-2026-06-13.md` |
 | `glenn-diesen` | Glenn Diesen | `karaganov`, `diesen`, `mearsheimer` | [Q8PT0jiemKc](https://www.youtube.com/watch?v=Q8PT0jiemKc) | `source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md` |
 | `glenn-diesen` | Glenn Diesen | `parsi`, `diesen` | [JuWnqnN3lpk](https://www.youtube.com/watch?v=JuWnqnN3lpk) | `source-glenn-diesen-trita-parsi-iran-war-mou-deportation-threat-2026-06-13.md` |
 | `reason-resist` | Reason to Resist | `helmer`, `lascaris` | [0OzMRXVs00A](https://www.youtube.com/watch?v=0OzMRXVs00A) | `source-lascaris-helmer-how-will-russia-restore-deterrence-2026-06-13.md` |

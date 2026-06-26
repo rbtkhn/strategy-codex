@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `0`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `1`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `napolitano` (1)
 - Guests: `John Mearsheimer` (1)
-- Threads: `mearsheimer` (1), `napolitano` (1)
+- Threads: `mearsheimer` (1)
 
 ## Channel sources
 
@@ -48,7 +48,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `napolitano`, `mearsheimer` | — | `source-judging-freedom-mearsheimer-why-israel-will-fail-2025-06-26.md` |
+| John Mearsheimer | `mearsheimer` | — | `source-judging-freedom-mearsheimer-why-israel-will-fail-2025-06-26.md` |
 
 ## Files
 

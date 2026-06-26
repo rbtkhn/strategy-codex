@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Nima Alkhorshid` (3), `Diesen` (2), `Alexander Mercouris` (1)
 - Guests: `Seyed M. Marandi` (2), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Mike Adams` (1), `Yanis Varoufakis` (1)
-- Threads: `alkorshid` (3), `davis` (3), `nima` (3), `diesen` (2), `marandi` (2), `johnson` (1), `macgregor` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `alkorshid` (3), `davis` (3), `diesen` (2), `marandi` (2), `helmer` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -36,9 +36,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=S5qPBCuD8iY) | `source-daniel-davis-adams-famine-food-chain-2026-05-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=1otls52eUFM) | `source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=pGjhvHh1Hu4) | `source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=WLQeC8gOp-k) | `source-dialogue-works-helmer-hormuz-beijing-2026-05-05.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=TLKl_IOhQDQ) | `source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=3UPreelfuU4) | `source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=WLQeC8gOp-k) | `source-dialogue-works-helmer-hormuz-beijing-2026-05-05.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=TLKl_IOhQDQ) | `source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=3UPreelfuU4) | `source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md` |
 | `glenn-diesen` | Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=obDEtGXH7rY) | `source-diesen-marandi-hormuz-all-out-war-2026-05-05.md` |
 | `glenn-diesen` | Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=jW3RnY_7GYk) | `source-diesen-varoufakis-europe-decline-2026-05-05.md` |
 

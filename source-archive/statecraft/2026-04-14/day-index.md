@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `4`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Sneako` (1), `Trita Parsi` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `freeman` (1), `jiang` (1), `mercouris` (1), `napolitano` (1), `parsi` (1)
+- Threads: `freeman` (1), `jiang` (1), `mercouris` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0cYL9G9krlc) | `source-alexander-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=n44OF1Y7zgo) | `source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md` |
-| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=ukac5hPECKE) | `source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md` |
+| `judging-freedom` | — | `freeman` | [watch](https://www.youtube.com/watch?v=ukac5hPECKE) | `source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md` |
 
 ## Writer sources
 

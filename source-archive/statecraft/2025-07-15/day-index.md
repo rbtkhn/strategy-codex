@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Glenn Diesen` (1)
 - Guests: `Charles Freeman` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
-- Threads: `napolitano` (2), `diesen` (1), `freeman` (1), `mearsheimer` (1), `sachs` (1)
+- Threads: `diesen` (1), `freeman` (1), `mearsheimer` (1), `napolitano` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [VusbFzvhsf4](https://www.youtube.com/watch?v=VusbFzvhsf4) | `source-diesen-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=ObN01ent7w0) | `source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md` |
 
 ## Writer sources

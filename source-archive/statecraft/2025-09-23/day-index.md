@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `alkorshid` (1), `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `alexander-mercouris` (1), `alkorshid` (1), `freeman` (1), `mercouris` (1), `ritter` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,9 +32,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=F244qeivxcI) | `source-alexander-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter`, `wilkerson` | [watch](https://www.youtube.com/watch?v=aBTVtOp3Xaw) | `source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-is-iran-next-2025-09-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=F244qeivxcI) | `source-alexander-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `ritter`, `wilkerson` | [watch](https://www.youtube.com/watch?v=aBTVtOp3Xaw) | `source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-is-iran-next-2025-09-23.md` |
 
 ## Writer sources
 

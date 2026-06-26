@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `5`
 - Distinct guests: `6`
-- Distinct threads: `9`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Judish Raj` (1)
 - Guests: `Chas Freeman` (2), `Andrei Martyanov` (1), `John Mearsheimer` (1), `Martin Armstrong` (1), `Medvedev Wants Kiev` (1), `Moscow` (1)
-- Threads: `freeman` (2), `napolitano` (2), `armstrong` (1), `davis` (1), `diesen` (1), `india-global-left` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1)
+- Threads: `freeman` (2), `armstrong` (1), `davis` (1), `diesen` (1), `india-global-left` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -36,8 +36,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=q7734pjxlws) | `source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md` |
 | `glenn-diesen` | — | `diesen`, `armstrong` | [watch](https://www.youtube.com/watch?v=JB3YL6cyjqE) | `source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [E0JqaiO8IQA](https://www.youtube.com/watch?v=E0JqaiO8IQA) | `source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md` |
-| `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=g-zo08G3Ot4) | `source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md` |
-| `judging-freedom` | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=bvKzn-2JHr8) | `source-judging-freedom-mearsheimer-trump-has-no-offramp-2026-02-24.md` |
+| `judging-freedom` | — | `freeman` | [watch](https://www.youtube.com/watch?v=g-zo08G3Ot4) | `source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md` |
+| `judging-freedom` | Judging Freedom | `mearsheimer` | [watch](https://www.youtube.com/watch?v=bvKzn-2JHr8) | `source-judging-freedom-mearsheimer-trump-has-no-offramp-2026-02-24.md` |
 
 ## Writer sources
 

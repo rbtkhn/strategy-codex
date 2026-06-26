@@ -11,7 +11,7 @@ WORK only; not Record.
 | **2025 bridge + adjacent** | [Jun 21 Iran-war push register](./2025-freeman-igl-iran-war-push-register.md) · May 15 Gulf · Oct 10 Gaza · Mar 1 Oval · Dec 9 NSS (each **out of** 2026 arc body) | 5+ | Jun 2025 **week-2** Israel–Iran push + **non-Iran** 2025 beats |
 | **2026 Iran war arc** | [Feb 24→Jun 11 2026 arc](./arc-freeman-india-global-left-iran.md) | 6 | Pre-kinetic → Hormuz toll → four endgames → ceasefire-without-defeat |
 
-**Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · **Cross-guest:** [Ritter 2025 vs 2026 seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter × IGL Iran arc (2026)](./arc-ritter-india-global-left-iran.md)
+**Channel bench:** [India Global Left channel index](../../statecraft/channels/channel-index.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · **Cross-guest:** [Ritter 2025 vs 2026 seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter × IGL Iran arc (2026)](./arc-ritter-india-global-left-iran.md)
 
 ## Purpose
 

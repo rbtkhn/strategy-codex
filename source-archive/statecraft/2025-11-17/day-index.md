@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2)
 - Guests: `Jeffrey Sachs` (1), `John Mearsheimer` (1)
-- Threads: `napolitano` (2), `mearsheimer` (1), `sachs` (1)
+- Threads: `mearsheimer` (1), `napolitano` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=F3aIyWOQm6A) | `source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md` |
+| `judging-freedom` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=F3aIyWOQm6A) | `source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md` |
 
 ## Writer sources
 

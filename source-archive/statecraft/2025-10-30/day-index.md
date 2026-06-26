@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3)
 - Guests: `Alastair Crooke` (1), `John Mearsheimer` (1), `Larry Johnson` (1)
-- Threads: `davis` (3), `crooke` (1), `johnson` (1), `mearsheimer` (1)
+- Threads: `davis` (2), `crooke` (1), `johnson` (1), `mearsheimer` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=rgA1BVTw2us) | `source-daniel-davis-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=S09xJI92NDc) | `source-daniel-davis-larry-johnson-ukraine-russia-war-update-just-back-from-russia-larry-johnson-2025-10-30.md` |
-| `daniel-davis` | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=T1rrKDpySTI) | `source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md` |
+| `daniel-davis` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=T1rrKDpySTI) | `source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md` |
 
 ## Writer sources
 

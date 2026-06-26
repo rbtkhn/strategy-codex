@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2)
 - Guests: `Jeffrey Sachs` (1), `Larry Johnson` (1)
-- Threads: `napolitano` (2), `johnson` (1), `sachs` (1)
+- Threads: `johnson` (1), `napolitano` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=OJsrJhA0mTw) | `source-judging-freedom-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md` |
+| `judging-freedom` | — | `johnson` | [watch](https://www.youtube.com/watch?v=OJsrJhA0mTw) | `source-judging-freedom-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=0nfBJGatAhM') | `source-judging-freedom-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md` |
 
 ## Writer sources

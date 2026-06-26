@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `8`
 - Distinct hosts: `7`
 - Distinct guests: `8`
-- Distinct threads: `13`
+- Distinct threads: `12`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Robert Pape` (1)
 - Guests: `Alexander Mercouris` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Matthew Hoh` (1), `Ray McGovern` (1), `Robert Pape` (1), `Scott Ritter` (1)
-- Threads: `davis` (2), `mercouris` (2), `nima` (2), `pape` (2), `diesen` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `mcgovern` (1), `napolitano` (1), `nawfal` (1), `ritter` (1), `sachs` (1)
+- Threads: `davis` (2), `pape` (2), `alexander-mercouris` (1), `diesen` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `mcgovern` (1), `mercouris` (1), `napolitano` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -34,12 +34,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [toos2hmB_TM](https://www.youtube.com/watch?v=toos2hmB_TM) | `source-alexander-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [OvC52FSOldM](https://www.youtube.com/watch?v=OvC52FSOldM) | `source-daniel-davis-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [sPQcmLV6XvQ](https://www.youtube.com/watch?v=sPQcmLV6XvQ) | `source-daniel-davis-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md` |
-| `dialogue-works` | Dialogue Works | `ritter`, `nima` | [watch](https://www.youtube.com/watch?v=XOgN0w9DgqU) | `source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `alexander-mercouris` | [sPQcmLV6XvQ](https://www.youtube.com/watch?v=sPQcmLV6XvQ) | `source-daniel-davis-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md` |
+| `dialogue-works` | Dialogue Works | `ritter` | [watch](https://www.youtube.com/watch?v=XOgN0w9DgqU) | `source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mcgovern` | [xVVyS7NtB5k](https://www.youtube.com/watch?v=xVVyS7NtB5k) | `source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md` |
-| `dialogue-works` | Dialogue Works | `hoh`, `nima` | [lDoKpIAtUSs](https://www.youtube.com/watch?v=lDoKpIAtUSs) | `source-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md` |
+| `dialogue-works` | Dialogue Works | `hoh` | [lDoKpIAtUSs](https://www.youtube.com/watch?v=lDoKpIAtUSs) | `source-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [15Z1pTg6q-c](https://www.youtube.com/watch?v=15Z1pTg6q-c) | `source-judging-freedom-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md` |
-| `mario-nawfal` | Mario Nawfal | `macgregor`, `nawfal` | [djTgK37H3w0](https://www.youtube.com/watch?v=djTgK37H3w0) | `source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md` |
+| `mario-nawfal` | Mario Nawfal | `macgregor` | [djTgK37H3w0](https://www.youtube.com/watch?v=djTgK37H3w0) | `source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md` |
 | `breaking-points` | Breaking Points | `pape` | [watch](https://www.youtube.com/watch?v=4_wMLwkzBLs) | `source-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md` |
 
 ## Writer sources

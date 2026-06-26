@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `4`
-- Distinct threads: `6`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Alex Christoforou` (1)
 - Guests: `Alexander Mercouris` (1), `Brian Berletic` (1), `Chas Freeman` (1), `Jeffrey Sachs` (1)
-- Threads: `diesen` (2), `berletic` (1), `christoforou` (1), `freeman` (1), `mercouris` (1), `sachs` (1)
+- Threads: `diesen` (2), `alexander-mercouris` (1), `berletic` (1), `christoforou` (1), `freeman` (1), `mercouris` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `the-duran` | The Duran | `mercouris`, `berletic`, `christoforou` | [watch](https://www.youtube.com/watch?v=hmvxLZ_jkyc) | `source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md` |
+| `the-duran` | The Duran | `mercouris`, `berletic`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=hmvxLZ_jkyc) | `source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md` |
 | `glenn-diesen` | Glenn Diesen | `freeman`, `diesen` | — | `source-glenn-diesen-chas-freeman-iran-attacked-turning-point-for-russia-and-the-world-2025-06-17.md` |
 
 ## Writer sources

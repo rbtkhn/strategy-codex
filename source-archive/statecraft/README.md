@@ -29,8 +29,8 @@ Useful indices:
 
 - Year indices: [2025.md](/C:/dev/strategy-codex/source-archive/statecraft/2025.md), [2026.md](/C:/dev/strategy-codex/source-archive/statecraft/2026.md)
 - Thread index: [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
-- Channel index: [channel-index.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index.md)
-- Miscellaneous channel index: [channel-index-misc.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index-misc.md)
+- Channel index: [channel-index.md](/C:/dev/strategy-codex/statecraft/channels/channel-index.md)
+- Miscellaneous channel index: [channel-index-misc.md](/C:/dev/strategy-codex/statecraft/channels/channel-index-misc.md)
 - Writer index (Substack roster v1): [writer-index.md](/C:/dev/strategy-codex/source-archive/statecraft/writer-index.md) · [writer-index-spec.md](/C:/dev/strategy-codex/source-archive/statecraft/writer-index-spec.md)
 - Day index spec: [day-index-spec.md](/C:/dev/strategy-codex/source-archive/statecraft/day-index-spec.md)
 - Stale audit: [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)

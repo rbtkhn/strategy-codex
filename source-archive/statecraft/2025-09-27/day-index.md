@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
-- Threads: `christoforou` (1), `diesen` (1), `mercouris` (1), `sachs` (1)
+- Threads: `alexander-mercouris` (1), `christoforou` (1), `diesen` (1), `mercouris` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=qwmaoa-uaDw) | `source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=qwmaoa-uaDw) | `source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=FDac1qw4Zfs) | `source-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md` |
 
 ## Writer sources

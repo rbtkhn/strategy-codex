@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Larry Johnson` (1)
-- Threads: `johnson` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `johnson` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=KKAmexZdcLM) | `source-alexander-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md` |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=S85lXEX9WXM) | `source-judging-freedom-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md` |
+| `judging-freedom` | — | `johnson` | [watch](https://www.youtube.com/watch?v=S85lXEX9WXM) | `source-judging-freedom-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md` |
 
 ## Writer sources
 

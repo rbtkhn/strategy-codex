@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `4`
 - Distinct guests: `3`
-- Distinct threads: `8`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Chas Freeman` (1), `John Mearsheimer` (1)
-- Threads: `alkorshid` (1), `diesen` (1), `freeman` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `nima` (1)
+- Threads: `alkorshid` (1), `diesen` (1), `freeman` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,9 +33,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=c8ldFIMPrx4) | `source-alexander-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=rCalPQD48bc) | `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=rCalPQD48bc) | `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=rEeZPr0p6lI) | `source-glenn-diesen-chas-freeman-fake-peace-political-collapse-and-major-wars-2025-11-20.md` |
-| `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=CwQ46qPoKKM) | `source-judging-freedom-mearsheimer-ukraine-and-reality-2025-11-20.md` |
+| `judging-freedom` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=CwQ46qPoKKM) | `source-judging-freedom-mearsheimer-ukraine-and-reality-2025-11-20.md` |
 
 ## Writer sources
 

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Douglas Macgregor` (1), `Israel` (1), `Ukraine Russia War SHOWDOWN w/Chas Freeman` (1)
-- Threads: `davis` (2), `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `davis` (2), `freeman` (1), `macgregor` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OKNKbp7xl4U) | `source-alexander-mercouris-trump-blocks-ukraine-arms-threatens-russia-moscow-rejects-threats-zelens-2025-01-23.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=NCfyWNZVkUI) | `source-daniel-davis-israel-drunk-on-their-own-power-2025-01-23.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=-YX2OUdts9k) | `source-daniel-davis-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=z8VAEiuv7Cw) | `source-judging-freedom-macgregor-the-coming-world-war-iii-2025-01-23.md` |
+| `judging-freedom` | Judging Freedom | `macgregor` | [watch](https://www.youtube.com/watch?v=z8VAEiuv7Cw) | `source-judging-freedom-macgregor-the-coming-world-war-iii-2025-01-23.md` |
 
 ## Writer sources
 

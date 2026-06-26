@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1)
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1)
-- Threads: `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `freeman` (1), `macgregor` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TwJu2SSzYmY) | `source-alexander-mercouris-russia-says-kellogg-plan-totally-unacceptable-targets-odessa-drone-plant-us-won-t-talk-to-zelensky-2025-04-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/52TP6vfKxBA) | `source-daniel-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md` |
 
 ## Writer sources
 

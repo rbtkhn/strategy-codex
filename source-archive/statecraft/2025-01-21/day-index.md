@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `6`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (5), `Andrew Napolitano` (1)
 - Guests: `Chas Freeman` (1), `Re` (1), `Trump` (1), `Trump Not Confident Ceasefire Will Hold` (1), `Trump's Return` (1), `Zelensky Stirs the Pot at World Economic Forum` (1)
-- Threads: `davis` (5), `freeman` (1), `napolitano` (1)
+- Threads: `davis` (5), `freeman` (1)
 
 ## Channel sources
 
@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Vtgin1YbO-k) | `source-daniel-davis-trump-putin-is-grinding-it-out-2025-01-21.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TKhTj6tEIM8) | `source-daniel-davis-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=I0usuaj-9hs) | `source-daniel-davis-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md` |
 
 ## Writer sources
 

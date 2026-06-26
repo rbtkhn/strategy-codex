@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1)
-- Threads: `alkorshid` (1), `freeman` (1), `napolitano` (1), `wilkerson` (1)
+- Threads: `alkorshid` (1), `freeman` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | — | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=WzA3A9h3oqk) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-epstein-files-nato-s-moves-all-falling-apart-iran-closer-to-russia-2025-11-18.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [CvA4TXxVxlQ](https://www.youtube.com/watch?v=CvA4TXxVxlQ) | `source-judging-freedom-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | [CvA4TXxVxlQ](https://www.youtube.com/watch?v=CvA4TXxVxlQ) | `source-judging-freedom-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md` |
 
 ## Writer sources
 

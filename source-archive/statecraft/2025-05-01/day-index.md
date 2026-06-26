@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1)
 - Guests: `Douglas Macgregor` (1), `John Mearsheimer` (1)
-- Threads: `napolitano` (2), `macgregor` (1), `mearsheimer` (1), `mercouris` (1)
+- Threads: `macgregor` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aU4Pk9h0cRk) | `source-alexander-mercouris-russia-seeks-ukraine-victory-deploys-2-new-armies-gives-up-on-talks-us-opts-to-invest-in-ukraine-2025-05-01.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/GkO0rA7zaYk) | `source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md` |
+| `judging-freedom` | Judging Freedom | `macgregor` | [watch](https://youtu.be/GkO0rA7zaYk) | `source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=V-CEnF0ZV2k) | `source-judging-freedom-mearsheimer-are-russia-and-china-a-threat-to-the-us-2025-05-01.md` |
 
 ## Writer sources

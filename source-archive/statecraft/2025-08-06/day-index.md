@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Ray McGovern` (1)
-- Threads: `alkorshid` (1), `mcgovern` (1), `nima` (1)
+- Threads: `alkorshid` (1), `mcgovern` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=-6xGWBSWcnI) | `source-dialogue-works-ray-mcgovern-graham-e-fuller-who-is-trump-2-0-2025-08-06.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `mcgovern` | [watch](https://www.youtube.com/watch?v=-6xGWBSWcnI) | `source-dialogue-works-ray-mcgovern-graham-e-fuller-who-is-trump-2-0-2025-08-06.md` |
 
 ## Writer sources
 

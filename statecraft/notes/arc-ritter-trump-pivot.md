@@ -18,7 +18,7 @@ nodes:
 **Reconciled:** 2026-06-22 · Prior `arc-ritter-2025-02-to-2025-03-trump-pivot.md` → `arc-ritter-trump-pivot.md` (dates out of filename; span in YAML)
 
 **Span:** ~5 weeks (**forecast → Oval fiasco → Rubio/Ukraine talks lane → Middle East/Iran preemption + April 20 fork**)  
-**Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: ritter`)  
+**Channel:** [India and Global Left](../../statecraft/channels/channel-index.md) (`thread: ritter`)  
 **Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9 2026)](./arc-ritter-india-global-left-iran.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Parsi IGL E3 snapback (Sep 2025)](../voices/parsi/parsi-interview-appearances-2025-2026.md) — **separate lane**
 
 **Out of arc:** [2026 IGL Iran kinetic series](./arc-ritter-india-global-left-iran.md) — do **not** merge Trump-pivot register into Iran attrition body.
@@ -152,7 +152,7 @@ Mar 2:   RECEIPT — inevitable Oval fiasco; opposed trajectories; DOGE/USAID; E
 - [Freeman × IGL Iran arc (2026)](./arc-freeman-india-global-left-iran.md) — same channel; **different year/register**
 - [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md) — **E3 snapback** after **2025 kinetic window** (different guest)
 - [Ritter source index](../voices/ritter/ritter-source-index.md)
-- [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **14** files (`2025-02-22` → `2026-06-11`)
+- [India Global Left channel index](../../statecraft/channels/channel-index.md) — **14** files (`2025-02-22` → `2026-06-11`)
 
 ## Falsifiers
 

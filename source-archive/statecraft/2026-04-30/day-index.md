@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `4`
-- Distinct threads: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Diesen` (1)
 - Guests: `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `null` (1)
-- Threads: `davis` (1), `diesen` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `wilkerson` (1)
+- Threads: `davis` (1), `diesen` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [YLjZXnUqkPg](https://www.youtube.com/watch?v=YLjZXnUqkPg) | `source-alexander-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-europe-risks-world-war-donbas-2026-04-30.md` |
 | `glenn-diesen` | Diesen | `johnson`, `diesen` | [watch](https://www.youtube.com/watch?v=ptmxmBOVgSI) | `source-diesen-johnson-iran-winning-2026-04-30.md` |
-| `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0SRam9rvSug) | `source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson` | [watch](https://www.youtube.com/watch?v=0SRam9rvSug) | `source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md` |
 
 ## Writer sources
 

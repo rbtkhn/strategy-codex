@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `4`
-- Distinct threads: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1)
 - Guests: `Chas Freeman` (1), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1)
-- Threads: `nima` (2), `freeman` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
+- Threads: `freeman` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [3C8k0XL8qa8](https://www.youtube.com/watch?v=3C8k0XL8qa8) | `source-alexander-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md` |
-| `dialogue-works` | Dialogue Works | `marandi`, `nima`, `freeman` | [ZTblriezXv0](https://www.youtube.com/watch?v=ZTblriezXv0) | `source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `nima`, `wilkerson` | [dqMTzR4vYek](https://www.youtube.com/watch?v=dqMTzR4vYek) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md` |
+| `dialogue-works` | Dialogue Works | `marandi`, `freeman` | [ZTblriezXv0](https://www.youtube.com/watch?v=ZTblriezXv0) | `source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | [dqMTzR4vYek](https://www.youtube.com/watch?v=dqMTzR4vYek) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md` |
 
 ## Writer sources
 

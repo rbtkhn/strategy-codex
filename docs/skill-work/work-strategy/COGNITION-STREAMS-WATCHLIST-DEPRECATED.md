@@ -8,7 +8,7 @@ WORK only; not Record.
 
 | Old | Use instead |
 |---|---|
-| **`cognition-streams-watchlist.json`** (flat five-channel JSON) | **[`source-archive/statecraft/channel-index.md`](../../../source-archive/statecraft/channel-index.md)** — derived **YouTube-only** channel registry (slug, counts, first/last day, URLs). Rebuild: `python scripts/refresh_statecraft_archive_indices.py` |
+| **`cognition-streams-watchlist.json`** (flat five-channel JSON) | **[`statecraft/channels/channel-index.md`](../../../statecraft/channels/channel-index.md)** — derived **YouTube-only** channel registry (slug, counts, first/last day, URLs). Rebuild: `python scripts/refresh_statecraft_archive_indices.py` |
 | Machine-readable discovery metadata (`channel_id`, playlist IDs, `handle_url`, `file_prefix`) | **[`platform/config/statecraft_youtube_discovery.json`](../../../platform/config/statecraft_youtube_discovery.json)** — daily watchlist flag + YouTube discovery fields for automation |
 | Human rollout / backfill channel list | **[`statecraft/sheets/source-archive-control/youtube-transcript-queue.md`](../../../statecraft/sheets/source-archive-control/youtube-transcript-queue.md)** |
 

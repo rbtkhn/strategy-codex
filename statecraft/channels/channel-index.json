@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-26T15:08:38+00:00",
+  "check_sources_scope": "main",
+  "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
+  "source_markdown": "statecraft/channels/channel-index.md",
+  "stats": {
+    "main_channel_count": 1,
+    "file_count": 1,
+    "watchlist_count": 1,
+    "discoverable_count": 1,
+    "explicit_slug_count": 1
+  },
+  "channels": [
+    {
+      "slug": "judging-freedom",
+      "label": "Judge Napolitano - Judging Freedom",
+      "file_count": 1,
+      "day_count": 1,
+      "watchlist": true,
+      "check_sources": true,
+      "discoverable": true,
+      "explicit_slug": true,
+      "channel_url": "https://www.youtube.com/@judgingfreedom",
+      "first_day": "2026-05-26",
+      "last_day": "2026-05-26",
+      "channel_id": "UCDkEYb-TXJVWLvOokshtlsw"
+    }
+  ]
+}

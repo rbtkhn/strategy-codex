@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`glenn-diesen`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `214` files · `source-glenn-diesen-*` filename family
 - **YouTube:** [Glenn Diesen](https://www.youtube.com/@GDiesen1)
 - **Watchlist:** yes

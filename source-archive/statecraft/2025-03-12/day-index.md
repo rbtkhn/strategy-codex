@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (1)
 - Guests: `Charles Freeman` (1), `Chas Freeman` (1)
-- Threads: `freeman` (2), `diesen` (1), `napolitano` (1)
+- Threads: `freeman` (2), `diesen` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=YY89Hvc2GDY) | `source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md` |
 
 ## Writer sources
 

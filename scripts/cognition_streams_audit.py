@@ -195,7 +195,9 @@ def _load_roster(
 ) -> dict[str, ChannelSpec]:
     """Build audit channel specs from check-sources roster + discovery config."""
     discovery = _load_discovery_specs(watchlist_path)
-    json_path = archive_root / "channel-index.json"
+    from statecraft_day_archive import CHANNEL_INDEX_DIR
+
+    json_path = CHANNEL_INDEX_DIR / "channel-index.json"
     if not json_path.is_file():
         specs = discovery
         if watchlist_only:

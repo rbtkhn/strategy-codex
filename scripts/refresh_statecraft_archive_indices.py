@@ -105,7 +105,7 @@ def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
             print(f"stale {thread_path}")
 
     channel_path, channel_changed = nav.write_rendered(
-        root / "channel-index.md",
+        nav.CHANNEL_INDEX_DIR / "channel-index.md",
         nav.build_channel_index(root),
         check=check,
     )
@@ -115,7 +115,7 @@ def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
             print(f"stale {channel_path}")
 
     channel_json_path, channel_json_changed = nav.write_channel_index_json(
-        root / "channel-index.json",
+        nav.CHANNEL_INDEX_DIR / "channel-index.json",
         root,
         check=check,
     )
@@ -125,7 +125,7 @@ def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
             print(f"stale {channel_json_path}")
 
     channel_misc_path, channel_misc_changed = nav.write_rendered(
-        root / "channel-index-misc.md",
+        nav.CHANNEL_INDEX_DIR / "channel-index-misc.md",
         nav.build_channel_index_misc(root),
         check=check,
     )

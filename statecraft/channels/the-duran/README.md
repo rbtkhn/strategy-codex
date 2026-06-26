@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`the-duran`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `32` files · `source-the-duran-*` filename family
 - **YouTube:** [The Duran](https://www.youtube.com/@TheDuran)
 - **Watchlist:** yes

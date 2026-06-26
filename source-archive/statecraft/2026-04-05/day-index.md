@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `6`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `Ray McGovern` (1), `Scott Ritter` (1)
-- Threads: `mercouris` (2), `davis` (1), `diesen` (1), `mcgovern` (1), `ritter` (1), `simplicius` (1)
+- Threads: `mercouris` (2), `alexander-mercouris` (1), `davis` (1), `diesen` (1), `mcgovern` (1), `ritter` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [dL2NsBX8RCg](https://www.youtube.com/watch?v=dL2NsBX8RCg) | `source-alexander-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=1ieO54XH7a4) | `source-daniel-davis-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md` |
-| `the-duran` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-05) | `source-f15-rescue-hormuz-nato-kiev-2026-04-05.md` |
+| `the-duran` | — | `mercouris`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-05) | `source-f15-rescue-hormuz-nato-kiev-2026-04-05.md` |
 | `glenn-diesen` | — | `diesen`, `mcgovern` | [watch](https://www.youtube.com/watch?v=J7JDMRg_rJ4) | `source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md` |
 
 ## Writer sources

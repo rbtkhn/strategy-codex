@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`breaking-points`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `9` files · `source-breaking-points-*` filename family
 - **YouTube:** [Breaking Points](https://www.youtube.com/@BreakingPoints)
 - **Watchlist:** no

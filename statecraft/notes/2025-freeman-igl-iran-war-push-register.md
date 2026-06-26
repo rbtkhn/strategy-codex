@@ -3,7 +3,7 @@ WORK only; not Record.
 # 21 Jun 2025 — Freeman × India Global Left Iran-war push register
 
 **Span:** single episode (**Israel–Iran kinetic week 2** — Trump **two-week window**; capture **same day** as Gabbard walk-back and Geneva E3 talks)  
-**Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
+**Channel:** [India and Global Left](../../statecraft/channels/channel-index.md) (`thread: freeman`)  
 **Capture:** [What's Really Behind the Push for War with Iran?](../../source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA · `verify_receipt: 2026-06-21`
 
 **Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./arc-freeman-india-global-left-iran.md) — **2026 kinetic calendar**, Hormuz toll-governance spine, six-beat arc. This register is **2025 pre-arc bridge only**.

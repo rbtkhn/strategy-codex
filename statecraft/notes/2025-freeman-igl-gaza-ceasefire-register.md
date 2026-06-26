@@ -3,7 +3,7 @@ WORK only; not Record.
 # 10 Oct 2025 — Freeman × India Global Left Gaza-ceasefire register
 
 **Span:** single episode (**Trump Gaza plan phase-1** — hostage/prisoner exchange; **Nobel day**; Freeman **ceasefire won't last**)  
-**Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
+**Channel:** [India and Global Left](../../statecraft/channels/channel-index.md) (`thread: freeman`)  
 **Capture:** [Why This Gaza Ceasefire Won't Last](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) — https://www.youtube.com/watch?v=jm1kxCygFmw · `verify_receipt: 2026-06-21`
 
 **Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./arc-freeman-india-global-left-iran.md) — **2026 Iran kinetic / Hormuz** spine. This register is **Gaza hostage-frame** only.

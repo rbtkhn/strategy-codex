@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Alastair Crooke` (1)
-- Threads: `alkorshid` (1), `crooke` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
+- Threads: `alkorshid` (1), `crooke` (1), `mercouris` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r1W2yUccMC8) | `source-alexander-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=IAKqyzQen04) | `source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=IAKqyzQen04) | `source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md` |
 
 ## Writer sources
 

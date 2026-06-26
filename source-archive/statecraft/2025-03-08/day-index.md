@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `0`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `John Mearsheimer` (1)
-- Threads: `diesen` (1), `mearsheimer` (1), `mercouris` (1)
+- Threads: `alexander-mercouris` (1), `diesen` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=Rh9CtLw_poA) | `source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md` |
+| `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=Rh9CtLw_poA) | `source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md` |
 
 ## Writer sources
 

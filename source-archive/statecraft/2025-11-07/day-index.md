@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1)
-- Threads: `crooke` (1), `diesen` (1), `freeman` (1), `nima` (1)
+- Threads: `crooke` (1), `diesen` (1), `freeman` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `freeman`, `nima` | [WjFnv_rr6Lk](https://www.youtube.com/watch?v=WjFnv_rr6Lk) | `source-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md` |
+| `dialogue-works` | Dialogue Works | `freeman` | [WjFnv_rr6Lk](https://www.youtube.com/watch?v=WjFnv_rr6Lk) | `source-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md` |
 | `glenn-diesen` | — | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=VtSyIXu9ZbU) | `source-glenn-diesen-alastair-crooke-alastair-crooke-western-politics-broken-china-russia-triumph-2025-11-07.md` |
 
 ## Writer sources

@@ -10,7 +10,7 @@ Purpose: front door for **`alexander-mercouris`** on the statecraft channel shel
 
 ## Current live rule
 
-Route here when capture frontmatter has **`channel_slug: alexander-mercouris`** (or equivalent show/host label in [channel-index.md](../../../source-archive/statecraft/channel-index.md)).
+Route here when capture frontmatter has **`channel_slug: alexander-mercouris`** (or equivalent show/host label in [channel-index.md](../../../statecraft/channels/channel-index.md)).
 
 ## Boundary
 

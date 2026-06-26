@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `8`
 - Distinct hosts: `5`
 - Distinct guests: `5`
-- Distinct threads: `10`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Russia` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (2), `marandi` (2), `mercouris` (2), `pape` (2), `diesen` (1), `johnson` (1), `martyanov` (1), `napolitano` (1), `nima` (1), `wilkerson` (1)
+- Threads: `davis` (2), `marandi` (2), `mercouris` (2), `pape` (2), `diesen` (1), `johnson` (1), `martyanov` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,9 +34,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=7k6Igz-l7rc) | `source-alexander-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=FAZdq7X98lA) | `source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md` |
-| `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [9QGnItz7CsU](https://www.youtube.com/watch?v=9QGnItz7CsU) | `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md` |
+| `dialogue-works` | Dialogue Works | `martyanov` | [9QGnItz7CsU](https://www.youtube.com/watch?v=9QGnItz7CsU) | `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=BwUL5ftAi38) | `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md` |
-| `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=ih7CYro5gGs) | `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md` |
+| `judging-freedom` | Judging Freedom | `wilkerson` | [watch](https://www.youtube.com/watch?v=ih7CYro5gGs) | `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md` |
 
 ## Writer sources
 

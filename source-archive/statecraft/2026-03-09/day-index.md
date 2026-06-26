@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `1`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Robert Pape` (1), `Trita Parsi` (1)
 - Guests: `Jacques Baud` (1)
-- Threads: `davis` (3), `baud` (1), `mercouris` (1), `nima` (1), `pape` (1), `parsi` (1)
+- Threads: `davis` (3), `baud` (1), `mercouris` (1), `pape` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=4Mutk9asuxs) | `source-alexander-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md` |
-| `dialogue-works` | Dialogue Works | `baud`, `nima` | [iYcnztEdjq0](https://www.youtube.com/watch?v=iYcnztEdjq0) | `source-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md` |
+| `dialogue-works` | Dialogue Works | `baud` | [iYcnztEdjq0](https://www.youtube.com/watch?v=iYcnztEdjq0) | `source-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md` |
 
 ## Writer sources
 

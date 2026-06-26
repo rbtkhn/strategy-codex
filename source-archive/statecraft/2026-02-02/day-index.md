@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `Nima Alkhorshid` (1)
 - Guests: `Jacques Baud` (1), `Jeffrey Sachs` (1)
-- Threads: `baud` (1), `mercouris` (1), `nima` (1), `sachs` (1), `simplicius` (1)
+- Threads: `baud` (1), `mercouris` (1), `sachs` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pISn4n_CMZM) | `source-alexander-mercouris-trump-backs-off-iran-attack-as-talks-begin-russia-seeks-kiev-regime-chan-2026-02-02.md` |
-| `dialogue-works` | Dialogue Works | `baud`, `nima` | [3Q4PNfLiGv8](https://www.youtube.com/watch?v=3Q4PNfLiGv8) | `source-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md` |
+| `dialogue-works` | Dialogue Works | `baud` | [3Q4PNfLiGv8](https://www.youtube.com/watch?v=3Q4PNfLiGv8) | `source-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md` |
 
 ## Writer sources
 

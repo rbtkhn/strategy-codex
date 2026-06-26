@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: hold the canonical live **channel-family** continuity surfaces that belong to repo-root `statecraft/`.
 
-**Folder rule:** one subdirectory per **`channel_slug`** on the [main channel-index roster](../../source-archive/statecraft/channel-index.md) (`source-archive/statecraft/channel-index.json`). Archive `channel_slug` and shelf folder name must match.
+**Folder rule:** one subdirectory per **`channel_slug`** on the [main channel-index roster](channel-index.md) ([`channel-index.json`](channel-index.json)). Archive `channel_slug` and shelf folder name must match.
 
 This layer exists so live channel-law, channel-native routing pressure, and guest-lane classification no longer depend on retired `codex/speakers/<host>/...` paths for active statecraft work.
 
@@ -46,7 +46,13 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 | `redacted-news` | [redacted-news/](redacted-news/README.md) | yes | |
 | `moral-resistance` | [moral-resistance/](moral-resistance/README.md) | | Sulaiman Ahmed; MOU / legislative-action lane |
 
-Low-volume channels: [channel-index-misc.md](../../source-archive/statecraft/channel-index-misc.md) (misc roster — add shelves when promoted).
+Low-volume channels: [channel-index-misc.md](channel-index-misc.md) (misc roster — add shelves when promoted).
+
+## Channel index (SSOT)
+
+- [channel-index.md](channel-index.md) — human roster + stats (regenerated from archive captures)
+- [channel-index.json](channel-index.json) — machine roster for **check-sources**
+- [channel-index-misc.md](channel-index-misc.md) — low-volume channels excluded from main roster
 
 ## High-leverage host orthogonality
 

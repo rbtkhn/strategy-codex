@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Ray McGovern` (1)
-- Threads: `alkorshid` (1), `davis` (1), `martyanov` (1), `mcgovern` (1), `mercouris` (1), `nima` (1)
+- Threads: `alkorshid` (1), `davis` (1), `martyanov` (1), `mcgovern` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1jxZRCYYLhU) | `source-alexander-mercouris-ukraine-calamitous-month-mirnograd-huliaipole-rodinska-stepnogorsk-fall-2025-12-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=u_SEVApCr9k) | `source-daniel-davis-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=w24parHs8_U) | `source-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `mcgovern` | [watch](https://www.youtube.com/watch?v=w24parHs8_U) | `source-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md` |
 
 ## Writer sources
 

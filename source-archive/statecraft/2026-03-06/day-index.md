@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `4`
-- Distinct threads: `9`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Nima Alkhorshid` (2), `Robert Pape` (2), `Alexander Mercouris` (1)
 - Guests: `Chas Freeman` (2), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `davis` (2), `freeman` (2), `nima` (2), `pape` (2), `johnson` (1), `mercouris` (1), `ritter` (1), `simplicius` (1), `wilkerson` (1)
+- Threads: `davis` (2), `freeman` (2), `pape` (2), `johnson` (1), `mercouris` (1), `ritter` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -35,8 +35,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=5-KWpHfq5FQ) | `source-alexander-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=kS_9Jp0Htg4) | `source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=y_jALjcNodU) | `source-daniel-davis-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md` |
-| `dialogue-works` | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=FM1WOmbdzmA) | `source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0eEFS75Z6pY) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md` |
+| `dialogue-works` | Dialogue Works | `freeman` | [watch](https://www.youtube.com/watch?v=FM1WOmbdzmA) | `source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0eEFS75Z6pY) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md` |
 
 ## Writer sources
 

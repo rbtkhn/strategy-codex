@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1)
 - Guests: `Douglas Macgregor` (2)
-- Threads: `macgregor` (2), `mercouris` (1), `napolitano` (1)
+- Threads: `macgregor` (2), `mercouris` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zYpQKccY_es) | `source-alexander-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/gyyciD6K31s) | `source-daniel-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=qWanSWG3wDY) | `source-judging-freedom-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md` |
+| `judging-freedom` | Judging Freedom | `macgregor` | [watch](https://www.youtube.com/watch?v=qWanSWG3wDY) | `source-judging-freedom-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md` |
 
 ## Writer sources
 

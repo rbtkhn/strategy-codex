@@ -11,7 +11,7 @@ WORK only; not Record.
 | **2025 Trump pivot** | [Feb 22→Mar 28 2025 arc](./arc-ritter-trump-pivot.md) | 4 | OODA forecast → Oval fiasco → Rubio/Ukraine → Middle East/Iran preemption |
 | **2026 Iran war** | [Feb 20→Apr 9 2026 arc](./arc-ritter-india-global-left-iran.md) | 3 | Geneva trap → day ~3 → ceasefire fiction |
 
-**Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · **Cross-guest:** [Freeman IGL Iran arc](./arc-freeman-india-global-left-iran.md) · [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md)
+**Channel bench:** [India Global Left channel index](../../statecraft/channels/channel-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · **Cross-guest:** [Freeman IGL Iran arc](./arc-freeman-india-global-left-iran.md) · [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md)
 
 ## Purpose
 

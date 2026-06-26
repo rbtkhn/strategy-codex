@@ -15,6 +15,7 @@ import build_speaker_routing_queue as speaker_routing
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
+CHANNEL_INDEX_DIR = REPO_ROOT / "statecraft" / "channels"
 DEFAULT_YEAR = "2026"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*(?:\n|$)", re.DOTALL)
 HONORIFIC_RE = re.compile(

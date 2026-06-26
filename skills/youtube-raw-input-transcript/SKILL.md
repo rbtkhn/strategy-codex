@@ -29,7 +29,7 @@ Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strate
 |------|----------------|
 | Land pasted or fetched transcript to canonical archive | **`source-intake`** ([`statecraft-source-intake`](../statecraft-source-intake/SKILL.md)) |
 | Daily YouTube roster → source-intake | **`check sources`** ([`check-sources`](../check-sources/SKILL.md)) → approved URLs → **`source-intake`** |
-| Channel inventory | [`source-archive/statecraft/channel-index.md`](../../source-archive/statecraft/channel-index.md) · [`channel-index.json`](../../source-archive/statecraft/channel-index.json) |
+| Channel inventory | [`statecraft/channels/channel-index.md`](../../statecraft/channels/channel-index.md) · [`channel-index.json`](../../statecraft/channels/channel-index.json) |
 
 ## Legacy script (no new archive writes)
 

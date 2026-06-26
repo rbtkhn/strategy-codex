@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `1`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1)
 - Guests: `Douglas Macgregor` (1)
-- Threads: `macgregor` (1), `napolitano` (1)
+- Threads: `macgregor` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/cC0PQQ4Yn-Y) | `source-judging-freedom-macgregor-why-is-trump-arming-ukraine-2025-02-26.md` |
+| `judging-freedom` | Judging Freedom | `macgregor` | [watch](https://youtu.be/cC0PQQ4Yn-Y) | `source-judging-freedom-macgregor-why-is-trump-arming-ukraine-2025-02-26.md` |
 
 ## Writer sources
 

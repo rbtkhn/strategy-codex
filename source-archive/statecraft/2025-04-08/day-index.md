@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `3`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1)
 - Guests: `Andrei Martyanov` (1), `Charles Freeman` (1), `Jeffrey Sachs` (1)
-- Threads: `diesen` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
+- Threads: `diesen` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=BxTvdJ0fECM) | `source-alexander-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md` |
 | `glenn-diesen` | — | `diesen`, `martyanov` | [watch](https://www.youtube.com/watch?v=VT43w4T8wF4) | `source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-donald-and-bibi-need-a-war-2025-04-08.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-charles-freeman-donald-and-bibi-need-a-war-2025-04-08.md` |
 
 ## Writer sources
 

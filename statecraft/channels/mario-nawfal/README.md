@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`mario-nawfal`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `49` files · `source-mario-nawfal-*` filename family
 - **YouTube:** [Mario Nawfal](https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA)
 - **Watchlist:** no

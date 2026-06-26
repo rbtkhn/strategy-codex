@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `7`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Trita Parsi` (3), `Alexander Mercouris` (1)
 - Guests: `[]` (2), `Anthony Aguilar` (1)
-- Threads: `parsi` (3), `aguilar` (1), `alkorshid` (1), `davis` (1), `mercouris` (1), `nawfal` (1), `nima` (1)
+- Threads: `parsi` (3), `aguilar` (1), `alkorshid` (1), `davis` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nXVR821uPJw) | `source-alexander-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [dnwkC2sIMQA](https://www.youtube.com/watch?v=dnwkC2sIMQA) | `source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=xj8ocoG-nDw) | `source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md` |
-| `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) | `source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid` | [watch](https://www.youtube.com/watch?v=xj8ocoG-nDw) | `source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md` |
+| `mario-nawfal` | Mario Nawfal | `aguilar` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) | `source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md` |
 
 ## Writer sources
 

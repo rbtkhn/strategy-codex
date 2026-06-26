@@ -338,7 +338,7 @@ def build_writer_index(root: Path, config_path: Path | None = None) -> str:
         "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
         "",
         "Flat registry of **configured written-source outlets** (Substack feeds in v1). "
-        "YouTube channels live in [channel-index.md](./channel-index.md). "
+        "YouTube channels live in [channel-index.md](../../statecraft/channels/channel-index.md). "
         "Cross-modal speaker rollups: [thread-index.md](./thread-index.md).",
         "",
         "Inclusion law: [writer-index-spec.md](./writer-index-spec.md). "
@@ -367,7 +367,7 @@ def build_writer_index(root: Path, config_path: Path | None = None) -> str:
             "",
             "## Return",
             "",
-            "- YouTube roster: [channel-index.md](./channel-index.md)",
+            "- YouTube roster: [channel-index.md](../../statecraft/channels/channel-index.md)",
             "- Spec: [writer-index-spec.md](./writer-index-spec.md)",
             "- Root archive: [source-archive/statecraft/README.md](./README.md)",
             "",

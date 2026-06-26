@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `1`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Robert Pape` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1)
-- Threads: `pape` (3), `martyanov` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
+- Threads: `pape` (3), `martyanov` (1), `mercouris` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tUbc17SsVS8) | `source-alexander-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md` |
-| `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=V7W6hk-vyok) | `source-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md` |
+| `dialogue-works` | Dialogue Works | `martyanov` | [watch](https://www.youtube.com/watch?v=V7W6hk-vyok) | `source-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md` |
 
 ## Writer sources
 

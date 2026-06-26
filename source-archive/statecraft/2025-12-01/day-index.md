@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `1`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1)
 - Guests: `Scott Ritter` (2)
-- Threads: `ritter` (2), `diesen` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `ritter` (2), `diesen` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JNiEB7GedGE) | `source-alexander-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=-7_XtZ64VG4) | `source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md` |
-| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=Ey_zCsoFeAo) | `source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md` |
+| `judging-freedom` | — | `ritter` | [watch](https://www.youtube.com/watch?v=Ey_zCsoFeAo) | `source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md` |
 
 ## Writer sources
 

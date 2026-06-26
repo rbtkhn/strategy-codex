@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T13:02:36+00:00",
+  "generated_at": "2026-06-26T15:05:35+00:00",
   "check_written_scope": "configured_roster",
   "check_written_notes": "Writer-index v1 lists configured Substack feeds only; see statecraft_writer_discovery.json.",
   "source_markdown": "writer-index.md",
   "stats": {
     "writer_count": 6,
-    "file_count": 196
+    "file_count": 198
   },
   "writers": [
     {
@@ -31,18 +31,18 @@
       "label": "Prof Robert Pape / Escalation Trap",
       "thread": "pape",
       "feed_url": "https://escalationtrap.substack.com/",
-      "file_count": 53,
-      "day_count": 44,
+      "file_count": 54,
+      "day_count": 45,
       "source_types": {
         "substack-post": 36,
         "(none)": 6,
         "x-post-text": 1,
-        "substack": 10
+        "substack": 11
       },
       "check_written": true,
       "discoverable": false,
       "first_day": "2026-02-25",
-      "last_day": "2026-06-17"
+      "last_day": "2026-06-22"
     },
     {
       "writer_slug": "crooke",
@@ -65,19 +65,19 @@
       "label": "Scott Ritter / Real Scott Ritter",
       "thread": "ritter",
       "feed_url": "https://scottritter.substack.com/",
-      "file_count": 26,
-      "day_count": 25,
+      "file_count": 27,
+      "day_count": 26,
       "source_types": {
         "operator-transcript": 22,
         "transcript": 1,
         "article": 1,
         "cleaned-transcript": 1,
-        "substack": 1
+        "substack": 2
       },
       "check_written": true,
       "discoverable": false,
       "first_day": "2026-01-03",
-      "last_day": "2026-06-10"
+      "last_day": "2026-06-19"
     },
     {
       "writer_slug": "parsi",

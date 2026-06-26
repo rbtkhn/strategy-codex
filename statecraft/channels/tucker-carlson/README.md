@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`tucker-carlson`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `7` files · `source-tucker-carlson-*` filename family
 - **YouTube:** [Tucker Carlson](https://www.youtube.com/@TuckerCarlson)
 - **Watchlist:** no

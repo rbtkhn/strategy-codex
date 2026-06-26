@@ -38,7 +38,7 @@ entries:
         - "refresh_statecraft_archive_indices.py"
 
   - id: statecraft-channel-index-md
-    path: source-archive/statecraft/channel-index.md
+    path: statecraft/channels/channel-index.md
     category: generated
     generator: scripts/refresh_statecraft_archive_indices.py
     check_args: ["--check"]
@@ -50,7 +50,7 @@ entries:
         - "refresh_statecraft_archive_indices.py"
 
   - id: statecraft-channel-index-json
-    path: source-archive/statecraft/channel-index.json
+    path: statecraft/channels/channel-index.json
     category: generated
     generator: scripts/refresh_statecraft_archive_indices.py
     check_args: ["--check"]

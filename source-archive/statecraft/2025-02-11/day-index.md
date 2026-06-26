@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2)
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1)
-- Threads: `napolitano` (2), `freeman` (1), `macgregor` (1)
+- Threads: `freeman` (1), `macgregor` (1)
 
 ## Channel sources
 
@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-is-trump-afraid-of-netanyahu-2025-02-11.md` |
-| `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/jCAQkysP2Os) | `source-judging-freedom-macgregor-fall-of-the-american-empire-2025-02-11.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-is-trump-afraid-of-netanyahu-2025-02-11.md` |
+| `judging-freedom` | Judging Freedom | `macgregor` | [watch](https://youtu.be/jCAQkysP2Os) | `source-judging-freedom-macgregor-fall-of-the-american-empire-2025-02-11.md` |
 
 ## Writer sources
 

@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2)
 - Guests: `Chas Freeman` (1), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
-- Threads: `nima` (2), `alkorshid` (1), `freeman` (1), `johnson` (1), `wilkerson` (1)
+- Threads: `alkorshid` (1), `freeman` (1), `johnson` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `freeman`, `nima` | — | `source-dialogue-works-amb-chas-freeman-trump-s-next-move-does-he-even-know-2025-08-08.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=a5w8JR5bi9Q) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md` |
+| `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-trump-s-next-move-does-he-even-know-2025-08-08.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=a5w8JR5bi9Q) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md` |
 
 ## Writer sources
 

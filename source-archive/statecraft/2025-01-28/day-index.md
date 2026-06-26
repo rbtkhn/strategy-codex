@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (7), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Douglas Macgregor` (2), `BREAKING` (1), `Chances of US Civil War Greater than You Realize` (1), `Chas Freeman` (1), `EXCLUSIVE` (1), `Rapid Change at the Pentagon w/Lt. Col Daniel Davis` (1), `Trump’s Opportunity to have an Historic Presidency w/Larry Johnson` (1)
-- Threads: `davis` (7), `macgregor` (2), `ai` (1), `freeman` (1), `johnson` (1), `mercouris` (1), `napolitano` (1), `pope-leo` (1), `vatican` (1)
+- Threads: `davis` (7), `macgregor` (2), `ai` (1), `daniel-davis` (1), `freeman` (1), `johnson` (1), `mercouris` (1), `pope-leo` (1), `vatican` (1)
 
 ## Channel sources
 
@@ -38,9 +38,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=ANYntBr7fD8) | `source-daniel-davis-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=kJnjvqCCZgE) | `source-daniel-davis-col-doug-magregor-ukraine-russia-war-trump-s-limited-options-for-peace-2025-01-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=uVSWyLnN0B4) | `source-daniel-davis-exclusive-russian-partisans-prepare-to-rise-up-in-ukraine-cities-w-col-j-2025-01-28.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=wqu_9TlLlKg) | `source-daniel-davis-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=wqu_9TlLlKg) | `source-daniel-davis-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=hs5S8Wc3G60) | `source-daniel-davis-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md` |
-| `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-netanyahu-on-the-ropes-2025-01-28.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-netanyahu-on-the-ropes-2025-01-28.md` |
 
 ## Writer sources
 

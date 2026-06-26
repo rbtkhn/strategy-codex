@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`redacted-news`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `5` files · `source-redacted-news-*` filename family
 - **YouTube:** [Redacted News](https://www.youtube.com/@RedactedNews)
 - **Watchlist:** yes

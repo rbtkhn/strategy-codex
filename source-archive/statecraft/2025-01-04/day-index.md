@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Larry C. Johnson` (1), `Las Vegas Cybertruck Explosion` (1), `Lawrence Wilkerson` (1), `Zelensky is Expendable` (1)
-- Threads: `davis` (2), `alkorshid` (1), `johnson` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
+- Threads: `davis` (2), `alkorshid` (1), `johnson` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ZtyzLYvy770) | `source-alexander-mercouris-us-prepares-new-war-msm-biden-admin-debates-iran-strike-russia-takes-ukr-2025-01-04.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=8Iqmr5HBuDo) | `source-daniel-davis-las-vegas-cybertruck-explosion-new-evidence-in-the-las-vegas-bomber-stor-2025-01-04.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=eUR4rafwlGw) | `source-daniel-davis-zelensky-is-expendable-he-won-t-survive-2025-01-04.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson`, `johnson` | [watch](https://www.youtube.com/watch?v=xfYnEn5gIMU) | `source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `wilkerson`, `johnson` | [watch](https://www.youtube.com/watch?v=xfYnEn5gIMU) | `source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md` |
 
 ## Writer sources
 

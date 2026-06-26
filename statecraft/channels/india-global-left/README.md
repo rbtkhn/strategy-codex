@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Canonical live **channel shelf** for archive key **`india-global-left`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
 - **Archive captures:** `21` files · `source-india-global-left-*` filename family
 - **YouTube:** [India and Global Left](https://www.youtube.com/@IndiaGlobalLeft)
 - **Watchlist:** no

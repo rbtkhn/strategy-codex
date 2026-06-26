@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
 - Guests: `John Helmer` (1), `Seyed M. Marandi` (1)
-- Threads: `alkorshid` (2), `nima` (2), `pape` (2), `marandi` (1), `mercouris` (1)
+- Threads: `alkorshid` (2), `pape` (2), `helmer` (1), `marandi` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hiz6KpkaSM8) | `source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md` |
-| `dialogue-works` | — | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=qc8vYcD_dtM) | `source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=b3h1gOSKR_E) | `source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md` |
+| `dialogue-works` | — | `alkorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=qc8vYcD_dtM) | `source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=b3h1gOSKR_E) | `source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md` |
 
 ## Writer sources
 

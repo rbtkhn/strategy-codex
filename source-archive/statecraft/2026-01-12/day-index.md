@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1)
 - Guests: `Scott Ritter` (2), `Larry Johnson` (1)
-- Threads: `napolitano` (2), `ritter` (2), `johnson` (1), `mercouris` (1)
+- Threads: `ritter` (2), `johnson` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jUHRwX2843U) | `source-alexander-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md` |
-| `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=938lwWOtXhM) | `source-judging-freedom-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md` |
-| `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=AVhJpCqNECg) | `source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md` |
+| `judging-freedom` | — | `johnson` | [watch](https://www.youtube.com/watch?v=938lwWOtXhM) | `source-judging-freedom-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md` |
+| `judging-freedom` | — | `ritter` | [watch](https://www.youtube.com/watch?v=AVhJpCqNECg) | `source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md` |
 
 ## Writer sources
 

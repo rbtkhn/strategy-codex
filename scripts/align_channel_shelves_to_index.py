@@ -14,7 +14,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 CHANNELS = REPO / "statecraft" / "channels"
-INDEX_JSON = REPO / "source-archive" / "statecraft" / "channel-index.json"
+INDEX_JSON = REPO / "statecraft" / "channels" / "channel-index.json"
 
 RENAME_MAP = {
     "davis": "daniel-davis",
@@ -74,7 +74,7 @@ Whole-analyst continuity: [`statecraft/voices/{voice_slug}/`](../../voices/{voic
 
 Canonical live **channel shelf** for archive key **`{slug}`** (`channel_slug` in source captures).
 
-- **Channel index roster:** [`channel-index.json`](../../../source-archive/statecraft/channel-index.json)
+- **Channel index roster:** [`channel-index.json`](../channel-index.json)
 - **Archive captures:** `{file_count}` files · `source-{slug}-*` filename family
 - **YouTube:** [{label}]({channel_url})
 - **Watchlist:** {"yes" if watchlist else "no"}
@@ -111,7 +111,7 @@ Purpose: front door for **`{slug}`** on the statecraft channel shelf layer.
 
 ## Current live rule
 
-Route here when capture frontmatter has **`channel_slug: {slug}`** (or equivalent show/host label in [channel-index.md](../../../source-archive/statecraft/channel-index.md)).
+Route here when capture frontmatter has **`channel_slug: {slug}`** (or equivalent show/host label in [channel-index.md](../channel-index.md)).
 
 ## Boundary
 

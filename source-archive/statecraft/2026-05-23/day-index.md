@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `6`
 - Distinct guests: `2`
-- Distinct threads: `9`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Nima Alkhorshid` (1), `Predictive History` (1), `Robert Pape` (1)
 - Guests: `Seyed M. Marandi` (2), `Jeffrey Sachs` (1)
-- Threads: `diesen` (2), `marandi` (2), `alkorshid` (1), `davis` (1), `jiang` (1), `mercouris` (1), `nima` (1), `pape` (1), `sachs` (1)
+- Threads: `diesen` (2), `marandi` (2), `alkorshid` (1), `davis` (1), `jiang` (1), `mercouris` (1), `pape` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=z5f8biIKc6M) | `source-alexander-mercouris-russia-vows-starobelsk-retaliation-nato-says-russia-hijacking-kiev-s-drones-msm-us-losing-iran-war-2026-05-23.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [E1hNNQvGPGs](https://www.youtube.com/watch?v=E1hNNQvGPGs) | `source-daniel-davis-intel-briefing-5-23-2026-lt-col-daniel-davis-2026-05-23.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=3CWFQOwYh0M) | `source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=3CWFQOwYh0M) | `source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=3EfEitDQPj4) | `source-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=igXSXxqMRfc) | `source-glenn-diesen-seyed-m-marandi-iran-closes-its-airspace-as-negotiations-fail-and-the-u-s-prepares-to-strike-2026-05-23.md` |
 

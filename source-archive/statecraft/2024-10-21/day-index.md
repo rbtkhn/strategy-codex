@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `Sergey Karaganov` (1)
-- Threads: `diesen` (1), `karaganov` (1), `mercouris` (1)
+- Threads: `alexander-mercouris` (1), `diesen` (1), `karaganov` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `glenn-diesen` | Glenn Diesen | `karaganov`, `diesen`, `mercouris` | [x_Bpa_Ysx3w](https://www.youtube.com/watch?v=x_Bpa_Ysx3w) | `source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md` |
+| `glenn-diesen` | Glenn Diesen | `karaganov`, `diesen`, `mercouris`, `alexander-mercouris` | [x_Bpa_Ysx3w](https://www.youtube.com/watch?v=x_Bpa_Ysx3w) | `source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md` |
 
 ## Writer sources
 

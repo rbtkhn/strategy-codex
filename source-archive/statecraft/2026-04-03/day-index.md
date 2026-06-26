@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `4`
-- Distinct threads: `10`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1)
 - Guests: `Chas Freeman` (2), `Robert Barnes` (1), `Scott Ritter` (1), `Ted Postol` (1)
-- Threads: `freeman` (2), `nima` (2), `alkorshid` (1), `barnes` (1), `davis` (1), `diesen` (1), `mercouris` (1), `postol` (1), `ritter` (1), `simplicius` (1)
+- Threads: `freeman` (2), `alkorshid` (1), `barnes` (1), `davis` (1), `diesen` (1), `mercouris` (1), `postol` (1), `ritter` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [jS42akaMR6Q](https://www.youtube.com/watch?v=jS42akaMR6Q) | `source-alexander-mercouris-trump-threatens-wider-bombing-sacks-general-iran-defiant-f15-lost-medved-2026-04-03.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=0lgCUTAjeRA) | `source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=wJcTHrczIgA) | `source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md` |
-| `dialogue-works` | Dialogue Works | `postol`, `nima` | [ab1cfVNWF48](https://www.youtube.com/watch?v=ab1cfVNWF48) | `source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md` |
+| `dialogue-works` | Dialogue Works | `alkorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=wJcTHrczIgA) | `source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md` |
+| `dialogue-works` | Dialogue Works | `postol` | [ab1cfVNWF48](https://www.youtube.com/watch?v=ab1cfVNWF48) | `source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=Rb0vegr3nf0) | `source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md` |
 
 ## Writer sources

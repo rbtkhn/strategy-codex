@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Robert Barnes` (2), `Jacques Baud` (1)
-- Threads: `barnes` (2), `davis` (2), `baud` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
+- Threads: `barnes` (2), `davis` (2), `baud` (1), `mercouris` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r_N9YwOCJfM) | `source-alexander-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=E85kNWM9_04) | `source-daniel-davis-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md` |
-| `dialogue-works` | Dialogue Works | `baud`, `nima` | [0ZGC4Uswerk](https://www.youtube.com/watch?v=0ZGC4Uswerk) | `source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md` |
+| `dialogue-works` | Dialogue Works | `baud` | [0ZGC4Uswerk](https://www.youtube.com/watch?v=0ZGC4Uswerk) | `source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md` |
 
 ## Writer sources
 

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Mario Nawfal` (1)
 - Guests: `Daniel Davis` (1), `Dmitry Polyanskiy` (1), `Joe Kent` (1), `Lawrence Wilkerson` (1), `Ted Postol` (1)
-- Threads: `davis` (3), `ai` (1), `diesen` (1), `kent` (1), `mercouris` (1), `nawfal` (1), `pope-leo` (1), `postol` (1), `vatican` (1), `wilkerson` (1)
+- Threads: `davis` (3), `ai` (1), `daniel-davis` (1), `diesen` (1), `kent` (1), `mercouris` (1), `pope-leo` (1), `postol` (1), `vatican` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,10 +34,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RsMRz7UrbC8) | `source-alexander-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `postol` | [watch](https://www.youtube.com/watch?v=-CBfkTMoCA0) | `source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Oy9lqRxquAk) | `source-daniel-davis-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `davis`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=Oy9lqRxquAk) | `source-daniel-davis-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=M0fQsI6L6Lo) | `source-daniel-davis-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=HO-Z7dmhHPM) | `source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md` |
-| `mario-nawfal` | Mario Nawfal | `kent`, `nawfal` | [hJuCBS9jPn0](https://www.youtube.com/watch?v=hJuCBS9jPn0) | `source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md` |
+| `mario-nawfal` | Mario Nawfal | `kent` | [hJuCBS9jPn0](https://www.youtube.com/watch?v=hJuCBS9jPn0) | `source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md` |
 
 ## Writer sources
 

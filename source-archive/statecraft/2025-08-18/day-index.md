@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1)
 - Guests: `Daniel Davis` (1)
-- Threads: `davis` (1), `diesen` (1)
+- Threads: `daniel-davis` (1), `diesen` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `glenn-diesen` | Glenn Diesen | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=RzvynWcMfc0) | `source-glenn-diesen-daniel-davis-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18.md` |
+| `glenn-diesen` | Glenn Diesen | `diesen`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=RzvynWcMfc0) | `source-glenn-diesen-daniel-davis-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18.md` |
 
 ## Writer sources
 

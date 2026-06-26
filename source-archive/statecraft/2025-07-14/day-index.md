@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct threads: `1`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1)
 - Guests: `John Mearsheimer` (1)
-- Threads: `davis` (1), `mearsheimer` (1)
+- Threads: `mearsheimer` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=o_GmTbH7E_g) | `source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md` |
+| `daniel-davis` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=o_GmTbH7E_g) | `source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md` |
 
 ## Writer sources
 

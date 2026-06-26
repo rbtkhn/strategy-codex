@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `7`
 - Distinct hosts: `2`
 - Distinct guests: `5`
-- Distinct threads: `9`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (2), `Tucker Carlson` (1)
 - Guests: `Commodore Steve Jermy` (2), `Daniel Davis` (1), `Joe Kent` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
-- Threads: `jermy` (2), `carlson` (1), `davis` (1), `diesen` (1), `kent` (1), `marandi` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
+- Threads: `jermy` (2), `daniel-davis` (1), `diesen` (1), `kent` (1), `marandi` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `jermy` | [HHLYXJDooZE](https://www.youtube.com/watch?v=HHLYXJDooZE) | `source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=AYLACkCWXRA) | `source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md` |
 | `neutrality-studies` | Neutrality Studies | `jermy` | [1MN7nECum_w](https://www.youtube.com/watch?v=1MN7nECum_w) | `source-neutrality-studies-us-already-lost-naval-war-steve-jermy-2026-03-18.md` |
-| `tucker-carlson` | Tucker Carlson | `kent`, `carlson` | [1cbw1utqzHg](https://www.youtube.com/watch?v=1cbw1utqzHg) | `source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md` |
+| `tucker-carlson` | Tucker Carlson | `kent` | [1cbw1utqzHg](https://www.youtube.com/watch?v=1cbw1utqzHg) | `source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md` |
 
 ## Writer sources
 
@@ -53,7 +53,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| Daniel Davis | `davis` | — | `source-glenn-diesen-daniel-davis-military-options-kent-2026-03-18.md` |
+| Daniel Davis | `daniel-davis` | — | `source-glenn-diesen-daniel-davis-military-options-kent-2026-03-18.md` |
 
 ## Files
 
