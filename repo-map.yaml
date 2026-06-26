@@ -324,6 +324,53 @@ routes:
   - source-dialogue-works
   - Dialogue Works channel
   category: work
+- id: alexander-mercouris-channel-index
+  title: Alexander Mercouris channel index
+  path: statecraft/channels/alexander-mercouris/alexander-mercouris-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - alexander-mercouris
+  people:
+  - Alexander Mercouris
+  tags:
+  - alexander-mercouris
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Alexander Mercouris index
+  - alexander-mercouris-channel-index
+  - alexander-mercouris-index
+  - Mercouris channel
+  category: work
+- id: the-duran-channel-index
+  title: The Duran channel index
+  path: statecraft/channels/the-duran/the-duran-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - the-duran
+  hosts:
+  - The Duran
+  people:
+  - Alexander Mercouris
+  - Alex Christoforou
+  tags:
+  - the-duran
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - The Duran index
+  - the-duran-channel-index
+  - the-duran-index
+  - Duran channel
+  category: work
 - id: channel-index-roster
   title: Statecraft YouTube channel index (check-sources roster)
   path: statecraft/channels/channel-index.json
@@ -710,6 +757,21 @@ routes:
   search_hints:
   - Mearsheimer index
   - mearsheimer source index
+  category: work
+- id: mercouris-index
+  title: Mercouris index (guest)
+  path: statecraft/voices/mercouris/mercouris-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - mercouris
+  - guest-index
+  - statecraft
+  - voices
+  search_hints:
+  - Mercouris guest index
+  - mercouris cross-host
+  - Alexander Mercouris guest
   category: work
 - id: mercouris-source-index
   title: Mercouris source index

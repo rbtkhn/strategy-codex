@@ -2,7 +2,14 @@
 
 WORK only; not Record.
 
-Purpose: act as the canonical statecraft-side source index for Mercouris while raw-text authority stays in the Statecraft Archive.
+Purpose: analytical route bench for Mercouris — curated month hinges, cross-weaves, and prehistory anchors. **Capture route maps split:**
+
+| Surface | Path | Job |
+|---|---|---|
+| **Guest / voice** | [mercouris-index.md](mercouris-index.md) | Cross-host guest captures (`channel_slug` ≠ `alexander-mercouris`) |
+| **Host / channel** | [alexander-mercouris-channel-index.md](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md) | Solo `@AlexMercouris` channel uploads |
+
+Do not add new exhaustive guest rows here — land on [mercouris-index.md](mercouris-index.md). This file keeps synthesis routing and hinge anchors only.
 
 ## Surface Grammar
 

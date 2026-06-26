@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Compatibility pointer only.
 
-The canonical Mercouris source route map now lives at [mercouris-source-index.md](mercouris-source-index.md).
+Guest captures: [mercouris-index.md](mercouris-index.md). Host channel: [alexander-mercouris-channel-index.md](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md). Analytical bench: [mercouris-source-index.md](mercouris-source-index.md).
 
-Use the `source-index` name going forward; this file remains only as a stable back-compat entry for older links and notes.
+Use the split indexes going forward; this file remains only as a stable back-compat entry for older links and notes.

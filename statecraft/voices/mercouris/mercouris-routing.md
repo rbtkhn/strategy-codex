@@ -32,8 +32,8 @@ Use the shelf this way:
 | recurring durable strands | [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md) | This is the canonical inner atlas of recurring strands. |
 | origin tracing across the bounded 2025-present arc | [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md) | Start in January for the broad setup month, then move to February for the thinner hinge into the live negotiation-strain grammar. |
 | month-level synthesis across the live 2026 run | [stream/README.md](stream/README.md) | The month ladder gives bounded Jan-May synthesis without replacing stream chronology. |
-| reinforcement beyond the native stream | [mercouris-cross-host-note.md](mercouris-cross-host-note.md) | This explains the secondary cross-host reinforcement. |
-| provenance-first routing | [mercouris-source-index.md](mercouris-source-index.md) | This is the canonical statecraft-side source bench. |
+| reinforcement beyond the native stream | [mercouris-cross-host-note.md](mercouris-cross-host-note.md) · guest list [mercouris-index.md](mercouris-index.md) | Cross-host reinforcement and exhaustive guest capture map. |
+| provenance-first routing | [mercouris-source-index.md](mercouris-source-index.md) | Analytical bench (hinges / weaves); guest exhaust → [mercouris-index.md](mercouris-index.md); host channel → [alexander-mercouris-channel-index.md](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md). |
 
 ## Boundaries
 

@@ -9,10 +9,19 @@ Use it for speaker identity, stream-native continuity, route maps, bounded 2026 
 ## Open First
 
 - [Speaker profile](mercouris-profile.md) — identity, voice fingerprint, convergence/tension, links hub
+- [mercouris-index.md](mercouris-index.md) — cross-host **guest** captures (`channel_slug` ≠ `alexander-mercouris`)
+- [Alexander Mercouris channel shelf](../../channels/alexander-mercouris/README.md) — solo channel (`alexander-mercouris-channel-index.md`)
 - [mercouris-arc.md](mercouris-arc.md)
 - [mercouris-routing.md](mercouris-routing.md)
-- [mercouris-source-index.md](mercouris-source-index.md)
+- [mercouris-source-index.md](mercouris-source-index.md) — analytical bench + compat pointers
 - [mercouris-helix.md](mercouris-helix.md)
+
+## Split
+
+| Surface | Path | Job |
+|---|---|---|
+| **Guest / voice** | `mercouris-index.md` | Mercouris interviewed elsewhere (Davis, Diesen, Duran, …) |
+| **Host / channel** | `channels/alexander-mercouris/` | Solo `@AlexMercouris` uploads (`alexander-mercouris-channel-index.md`) |
 - [mercouris-support-spine-2025-2026.md](mercouris-support-spine-2025-2026.md)
 - [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md)
 - [stream/mercouris-shelf-2025-02.md](stream/mercouris-shelf-2025-02.md)

@@ -40,6 +40,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | id | kind | category | path | search hints |
 |---|---|---|---|---|
 | ai-consciousness-essay | essay | work | [essays/ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) | expansion of human consciousness, ai medium writing print, cognition-changing medium, … |
+| alexander-mercouris-channel-index | source_index | work | [statecraft/channels/alexander-mercouris/alexander-mercouris-channel-index.md](statecraft/channels/alexander-mercouris/alexander-mercouris-channel-index.md) | Alexander Mercouris index, alexander-mercouris-channel-index, alexander-mercouris-index, … |
 | alkorshid-index | source_index | work | [statecraft/voices/alkorshid/alkorshid-index.md](statecraft/voices/alkorshid/alkorshid-index.md) | Alkorshid guest index, Nima Alkorshid cross-host, alkorshid index |
 | america-sovereign-command-allied-capture-essay | essay | work | [essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) | section 224 NDAA, allied capture command, sovereign command under allied capture, … |
 | archive-synthesis-law-essay | essay | work | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) | archive synthesis law, statecraft archive synthesis, vertical law stack, … |
@@ -70,6 +71,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | mcgovern-source-index | source_index | work | [statecraft/voices/mcgovern/mcgovern-source-index.md](statecraft/voices/mcgovern/mcgovern-source-index.md) | McGovern index, mcgovern source index |
 | mearsheimer-source-index | source_index | work | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | Mearsheimer index, mearsheimer source index |
 | memory | work_continuity | work | [memory.md](memory.md) | session continuity, operator memory buffer |
+| mercouris-index | source_index | work | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | Mercouris guest index, mercouris cross-host, Alexander Mercouris guest |
 | mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index |
 | napolitano-host-shelf | routing_aid | work | [statecraft/channels/judging-freedom/README.md](statecraft/channels/judging-freedom/README.md) | Napolitano host, Judging Freedom, Napolitano profile, … |
 | nima-host-shelf | routing_aid | work | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | Nima host, Dialogue Works host, Nima profile, … |
@@ -89,6 +91,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | statecraft-day-source-index | generated_inventory | generated | [source-archive/statecraft/YYYY-MM-DD/day-index.md](source-archive/statecraft/YYYY-MM-DD/day-index.md) | day index, day-index, june 17 day index, … |
 | statecraft-source-capture | source_capture | source | [source-archive/statecraft/YYYY-MM-DD/source-*.md](source-archive/statecraft/YYYY-MM-DD/source-*.md) | source capture, verbatim transcript, statecraft source file, … |
 | statecraft-thread-index | generated_inventory | generated | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | thread index, archive inventory |
+| the-duran-channel-index | source_index | work | [statecraft/channels/the-duran/the-duran-channel-index.md](statecraft/channels/the-duran/the-duran-channel-index.md) | The Duran index, the-duran-channel-index, the-duran-index, … |
 | voices-index | directory_index | work | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | voices index, civ-lens legacy, analyst source index |
 | weichert-source-index | source_index | work | [statecraft/voices/weichert/weichert-source-index.md](statecraft/voices/weichert/weichert-source-index.md) | Weichert index, weichert source index, Nawfal Weichert |
 | wilkerson-source-index | source_index | work | [statecraft/voices/wilkerson/wilkerson-source-index.md](statecraft/voices/wilkerson/wilkerson-source-index.md) | Wilkerson index, wilkerson source index |
@@ -150,9 +153,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 - source indexes (disk): 28
 - host shelves (disk): 15
-- markdown links (INDEX + source-index files): 927
-- repo-map routes: 53 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=27, work_continuity=1)
-- source_index routes in repo-map: 27
+- markdown links (INDEX + source-index files): 934
+- repo-map routes: 56 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=30, work_continuity=1)
+- source_index routes in repo-map: 30
 - host_shelf routes in repo-map: 3
 - registry: INDEX lists 26/28, repo-map lists 24/28 (85.7% bijection when both match)
 - host shelves: repo-map lists 3/15 (20.0%)

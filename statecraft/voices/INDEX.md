@@ -33,7 +33,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Martyanov | [martyanov/martyanov-source-index.md](martyanov/martyanov-source-index.md) |
 | Mearsheimer | [mearsheimer/mearsheimer-source-index.md](mearsheimer/mearsheimer-source-index.md) |
 | McGovern | [mcgovern/mcgovern-source-index.md](mcgovern/mcgovern-source-index.md) |
-| Mercouris | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
+| Mercouris | guest: [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host: [../channels/alexander-mercouris/alexander-mercouris-channel-index.md](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) · bench: [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
 | Pape | [pape/pape-source-index.md](pape/pape-source-index.md) |
 | Parsi | [parsi/parsi-source-index.md](parsi/parsi-source-index.md) |
 | Postol | [postol/postol-source-index.md](postol/postol-source-index.md) |
@@ -64,6 +64,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Mercouris index | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
 | Daniel Davis × guest | Guest source-index + [statecraft/channels/daniel-davis/](../channels/daniel-davis/README.md) |
 | Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |
 | Generic "source index" | This file → lens row → `*-source-index.md` |
 | source-lattice / reading order | [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) — not this file |
 

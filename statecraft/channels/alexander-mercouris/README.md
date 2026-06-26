@@ -11,13 +11,14 @@ Canonical live **channel shelf** for archive key **`alexander-mercouris`** (`cha
 
 ## Analyst shelf (primary)
 
-Whole-analyst continuity: [`statecraft/voices/mercouris/`](../../voices/mercouris/README.md).
+Whole-analyst continuity: [`statecraft/voices/mercouris/`](../../voices/mercouris/README.md) · **guest elsewhere:** [`mercouris-index.md`](../../voices/mercouris/mercouris-index.md).
 
-Alexander Mercouris solo channel — whole-analyst SSOT lives under `statecraft/voices/mercouris/`.
+Alexander Mercouris channel — host captures on this shelf; cross-host guest appearances on [`mercouris-index.md`](../../voices/mercouris/mercouris-index.md).
 
 ## Open first
 
-- [alexander-mercouris-index.md](alexander-mercouris-index.md)
+- [alexander-mercouris-channel-index.md](alexander-mercouris-channel-index.md)
+- [alexander-mercouris-index.md](alexander-mercouris-index.md) — compat redirect
 - [index.md](index.md)
 
 ## Host role
