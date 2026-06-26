@@ -23,7 +23,7 @@ evidence_grade: transcript-bearing
 opening_tier: host-tease
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: Operator-pasted transcript body; ideological cold open and closing lineup promo may be trimmed by post-land normalizers. ASR artifacts retained. Not human-verified verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: Operator-pasted transcript body; ideological cold open and closing lineup promo may be trimmed by post-land normalizers. ASR artifacts retained. Not human-verified verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-25 (10 sections)."
 quality_note: Fresh intake 2026-06-23.
 napolitano_cold_open_trim_applied: true
 napolitano_close_promo_trim_applied: true
@@ -65,6 +65,7 @@ verify:
   - claim: AGM-188 prototypes not scheduled before Oct 2026 (Ritter)
     verdict: unclear
     note: J23-41 not corroborated in batch pass — escalate defense procurement primary
+transcript_curation: curated_sectioned
 ---
 
 # Scott Ritter: Russia and US/Iran MoU; Ukraine Attacks Moscow
@@ -76,13 +77,25 @@ verify:
 **URL:** https://www.youtube.com/watch?v=UICIxIPb9iI
 
 ## Transcript
+
+
+### Show Open — Russia Trip Impressions
+
 >> >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
- Today is Tuesday, June 23rd, 2026. Our good friend and world traveler, Scott Ritter, joins us now. Scott, a pleasure, my dear man. It's good to see you. Welcome back to the United States. I am glad you're well, and we're anxious to hear about your trip. I want to start with your general impressions from your time in Russia and the environments, your interactions with Russian leaders, thinkers, elites, and ordinary folks.
+ Today is Tuesday, June 23rd, 2026. Our good friend and world traveler, Scott Ritter, joins us now. Scott, a pleasure, my dear man. It's good to see you. Welcome back to the United States. I am glad you're well, and we're anxious to hear about your trip.
+
+### Donbas Front — Drones and Morale
+
+I want to start with your general impressions from your time in Russia and the environments, your interactions with Russian leaders, thinkers, elites, and ordinary folks.
 >> Well, the first thing I would say is that um >> [clears throat] >> if you're getting your impression of Russia from Western mainstream media, from uh social media, um you're getting the wrong impression. The uh I mean, I'm familiar with what's been being bandied about in mainstream media and uh been following uh social media.
  It's Whatever algorithm you use to uh decide what goes in front of people, um it's heavily weighted in favor of a pro-Ukrainian uh narrative. And um the pro-Ukrainian narrative has been carefully crafted by the uh British and American intelligence services. Uh it's an ongoing psychological warfare operation uh that designed to create the impression that Ukraine um is not just, you know, standing firm but winning, that Ukraine has turned the corner, that Russia's faltering, that Russian leadership is weak, and that the Russian people are starting to
 lose faith, and that uh there's a chance if we just keep on putting the pressure on Russia that they'll break, and there will be a Western victory, and Ukraine will be the democracy everybody wants it to be. Um it's all false. You know, yes, there are drone attacks. I was in Moscow and St. Petersburg when both of the cities were attacked, and there's no doubt that uh drones got through and they struck some targets.
 Uh the notion that these uh targets that were struck represented strategic targets of immense value to Russia, and that the Russian economy uh took a heavy hit is absurd in the extreme. The notion that the people of Russia are broken by these uh ongoing attacks is likewise absurd in the extreme.
- Uh Uh you know, on the same day that Russia was that Moscow was attacked, the streets of Moscow were full of people just living their life as they as they do. Um I was also I spent a considerable amount of time in the uh Donbas, in Lugansk and Donetsk and Zaporizhzhia. Um very different situation, and it's very serious situation.
+ Uh Uh you know, on the same day that Russia was that Moscow was attacked, the streets of Moscow were full of people just living their life as they as they do. Um I was also
+
+### Europe Collapse — Then What Trap
+
+I spent a considerable amount of time in the uh Donbas, in Lugansk and Donetsk and Zaporizhzhia. Um very different situation, and it's very serious situation.
  Um the Ukrainian drones are a ever-present threat. Uh I myself was attacked twice. Um You know, it it it it it's just part of the new reality of war, but let's not be mistaken. Uh, the drone pressure being put on Russia by Ukraine is because that's the only vector of pressure that Ukraine has left. They are losing badly on the battlefield.
  It's a very bloody war. I will tell you this that, uh, talking with the Russian soldiers, talking with their commanders, um, the Ukrainians are putting up a hell of a fight. And, uh, the drones make life miserable for the Russians. They admit it. They are taking casualties. Uh, but they are prevailing. Uh, they're inflicting more casualties than they're taking, and they're advancing, making significant advances.
  Uh, and they're very confident, um, that they will secure the Donbas region, um, this summer. Um, and there's no reason to doubt them. Um, you know, what Ukraine is doing is targeting civilian infrastructure, targeting civilians, acts of terrorism, um, that, you know, is designed to break the will of the Russians who live in the in the Donbas, et cetera.
@@ -90,11 +103,19 @@ Uh the notion that these uh targets that were struck represented strategic targe
  Um, the Russian leadership, you know, what I what I'll say for this is all the people out there pounding the table saying that Russia needs to attack, uh, that, you know, Russia is a sitting duck, Europe is doing this, and Europe must be punished. There's a question you have to ask yourself.
  And if you can't come up with the answer, then you shouldn't, uh, ask the question. What next? Then what? Okay, so let's say, for instance, that Russia strikes, uh, a Polish airfield that serves as the major conduit of these Western weapons that are assisting the Ukrainians. Then what? What's next? And if you don't know the answer to that, then you shouldn't be asking the question because right now what I can tell you is that none of this matters. Russia is winning.
  Russia is on a trajectory of victory. The Ukrainians are not turning the table. They are not having a meaningful impact on Russia or the Russians. And that the Russian leadership is um you know, they are very pragmatic and very wise. They understand that they're trying to be lured into a trap by the West. That if they take these actions that everybody wants them to take to strike Europe, to you know, to to escalate, that this is exactly what the Ukrainians and the West want because as things stand, that you know, Europe is
-crumbling. Uh Keir Starmer's out. Merz is not long to follow. He's gone. That's the German Chancellor. And Macron is politically dead. These are the big three in Europe that support uh Zelensky. Their economies, respective economies, are collapsing. Their societies are dissolving.
+crumbling. Uh
+
+### Storm Shadow — British Red Line
+
+Keir Starmer's out. Merz is not long to follow. He's gone. That's the German Chancellor. And Macron is politically dead. These are the big three in Europe that support uh Zelensky. Their economies, respective economies, are collapsing. Their societies are dissolving.
  Why would Russia do anything that could serve as a rallying point to sustain that which is collapsing? Russia's winning against Europe without doing anything. This is all propaganda. Yes, there are things going boom. Yes, there is temporary disadvantages for the Russians, temporary discomfort for the Russians.
  But the idea that the Russian people have lost faith in their government is absolutely absurd. Of course, there is a certain minority on both the right and the left in Russia who are articulating uh the need to either stop the war or to accelerate the war. But the vast majority of Russians are satisfied with the job that Vladimir Putin's doing.
 >> What uh European nations are known to be assisting the Ukrainians uh in attacking inside Russia, Russian assets and Russian people. >> Well, we know for a fact that you know that England has been called out with the Storm Shadow missiles that were used. Um at least that's the initial assessment of some people that say they may have been an early batch of a new American air-launched cruise missile, the AGM-188.
-Uh But uh there's no evidence that that has actually been delivered. In fact, the first prototypes weren't scheduled to be delivered until October of this year. So, they'd have to be way ahead of schedule in order to reach that operational capability. Most likely it was Storm Shadow that Keir Starmer signed off on.
+Uh But uh there's no evidence that that has actually been delivered. In fact, the first prototypes weren't scheduled to be delivered until October of this year. So, they'd have to be way ahead of schedule in order to reach that operational capability.
+
+### Rabid Dog — To Kill a Mockingbird Panel
+
+Most likely it was Storm Shadow that Keir Starmer signed off on.
  I want to remind people this is the back in September 2024, Keir Starmer was coming to Joe Biden with a red briefcase with the paperwork to get the United States to sign off on using Storm Shadow in such a fashion. In a phone call from Anatoly Antonov, he was then the ambassador, a warning what the consequences would be prompted the Biden administration to back down.
  Here we have the British boldly crossing this red line. And this letter in Putin has said they know that this isn't something where the British provide a weapon to Ukraine and then Ukraine acts on it. Russia knows that it was the British who gathered the intelligence, it was the British who enabled the the guidance, it was the British that basically did everything but push the button. So, Britain is attacking Russia.
 This is a a big problem. But again, the people that say, "Well, then Putin needs to attack Great Britain." Uh then he does that and the next question is, "And then what?" You see, Keir Starmer just collapsed. Britain right now is in political chaos. They may not come out of this political chaos.
@@ -109,9 +130,17 @@ This is a a big problem. But again, the people that say, "Well, then Putin needs
  Petersburg was attacked by drones on the opening day of the forum. Um there was the ongoing threat of attacks. Um the the the Starobelsk slaughter of 21 um you know, innocent uh you know, teenagers uh was fresh in everybody's mind. And I'm listening to this listening to this. And I had prepared a a a statement and I was going to call the um Europeans nihilists.
  And I was going to get into a Frederick Nietzsche-laced uh discussion of nihilism, part of my effort to be academic. Um but a British guy on the panel had invoked nihilism first. And um I was getting angrier and angrier. So, I said the hell with it. I'm just going to bring up To Kill a Mockingbird. I said, "Look, um you know, Atticus Finch was an American lawyer.
  He believed in the rule of law, just like these men do. Believe in the rule of law. And law is important. And we don't have civilized society without the rule of law. But what the hell good does law do you when a rabid dog is running loose in the streets? And in To Kill a Mockingbird, they turned to Atticus Finch to kill the dog, not because of his legal pedigree, but because during World War I, he was the best shot in the unit and killed more Germans than anybody else.
- And when a rabid dog's running in the street, the only solution is to shoot the dog. And I said, Europe is the equivalent of a rabid dog, and eventually it's going to need to be shot. Um that caused alarm amongst everybody in the audience. Um and I thought I would be kicked out of Russia, but apparently when they translated it, it was sent up to higher levels, um I received an invitation to attend the plenary session, and I got a second row seat, which is a very honorable place.
+ And when a rabid dog's running in the street, the only solution is to shoot the dog. And I said,
+
+### SMO Endgame — Donetsk This Summer
+
+Europe is the equivalent of a rabid dog, and eventually it's going to need to be shot. Um that caused alarm amongst everybody in the audience. Um and I thought I would be kicked out of Russia, but apparently when they translated it, it was sent up to higher levels, um I received an invitation to attend the plenary session, and I got a second row seat, which is a very honorable place.
  So, some people were apparently happy with uh what I was saying. But, that's what I meant. And Europe is behaving irresponsibly, but as I've pointed out, my name isn't Vladimir Putin, and I don't have the weight of uh of Russia on my shoulders. I'm a military man, and I see a rabid dog in the street, and I want to shoot the dog.
-But, the question that has to ask be asked is, then what? After you shoot the dog, then what? And if you're going to attack Europe, then what? >> What are the prospects for a conclusion to the uh special military operation? >> The Russia's going to win. 100%. The question is, how that victory will be achieved.
+But, the question that has to ask be asked is, then what? After you shoot the dog, then what? And if you're going to attack Europe, then what? >>
+
+### Brakestop — Long-Range Missile Tests
+
+What are the prospects for a conclusion to the uh special military operation? >> The Russia's going to win. 100%. The question is, how that victory will be achieved.
  Um will it be achieved by continuing the special military operation as it's going now? Um you know, we're we're we're very close to to seeing the collapse of the Ukrainian I know there's going to be people in the audience saying, "Scott, you've been saying this for years." Yeah, I have, and I've been right for years.
  Um it's just that Putin operates on a timetable that Scott Ritter doesn't get to influence, and uh it's based upon factors that are out sky outside of my, you know, scope of control. Um but, you know, the final urban belt, defensive belt, uh that uh exists in the Donetsk People's Republic, um where Ukraine is, you know, Sloviansk, Kramatorsk, and uh third city below that's the 60% under the control of the Russians today, whose name I forget.
  Um these cities are about to fall. And they're going to fall this summer. When that happens, um, the Russians will have liberated uh the net the net people's republic and the Ukrainian army will have broken. And, um, you know, then then the war will continue to unravel for Ukraine if Russia can keep Europe from getting engaged.
@@ -120,14 +149,22 @@ But, the question that has to ask be asked is, then what? After you shoot the do
  Russia has no plans to attack Europe. They don't want to expand this war. They want to win this war and they are winning this war. And I think you're going to see, um, the the the Donetsk People's Republic liberated um this summer and you may see Zaporizhzhia um the the the the the oblast there uh just south of Donetsk liberated.
  Um, and then you're going to have a very, very difficult winter for Ukraine. They they may not survive this winter. Um, their their infrastructure is bad. And the Russians will are preparing forces uh that are capable of winter offensive and they may go ahead and retake uh all of Kherson over the course of this winter so that when you roll into next spring, next summer, um, you know, you're probably looking at uh the war either ending on terms acceptable to Russia or Russia advancing onto Odessa um um, and maybe linking it to the Transnistria
 uh region. Um, you know, Sumy may fall, Kharkiv may fall, um, but the Ukrainians can't sustain this uh this resistance. They're putting up a hell of a fight. Every Russian I spoke to said that they uh you know, they're Ukrainians are are hard fighters. Uh but they're Ukrainians are losing and they're they're losing fairly badly.
->> Before we transition over to uh Israel uh and Iran, here's one of the last things that uh Keir Starmer signed off on while he was still uh Prime Minister. Britain tests long-range missiles to help Ukraine bomb Moscow. Experimental systems each carrying a 250 kg warhead could potentially reach the Russian capital from Kyiv.
+>> Before we transition over to uh Israel uh and Iran, here's one of the last things that uh Keir Starmer signed off on while he was still uh Prime Minister.
+
+### Israel Host — MOU and Economy
+
+Britain tests long-range missiles to help Ukraine bomb Moscow. Experimental systems each carrying a 250 kg warhead could potentially reach the Russian capital from Kyiv.
 What can you tell us about this? Well, there's Maverick. It's good to hear him. >> Well, Maverick is uh excited by I think someone is mowing the lawn across the street. So, sorry about that. Um, they you know, this is an ongoing European project because the Germans are doing the same thing. They're building uh the United States is doing the same thing.
  You know, this this AGM-188 that I uh spoke about earlier is is an American equivalent of this. Basically, long-range strike weapons um that are being built that can be just handed over to the Ukrainians and used without, you know, any other fingerprints on board. You know, the Storm Shadow requires England to uh to to to you know, load in the data, etc.
  Uh the SCALP is the French equivalent, requires French engagement. Taurus, the German missile, required German intervention. The new weapons they're building are designed basically, you build the weapon, you give it to the Ukrainians, and the Ukrainians get to target it and do everything on their own. So, this is what the British are doing.
  They're trying to create an analog to Storm Shadow, uh which is the current uh cruise missile used by the Ukrainians that could just be handed over to the Ukrainians and be hands-free uh from that point on. And like I said, we know the Germans are doing the same thing, the United States is doing the same thing.
  The idea is to give Ukraine the ability to continue these long-range strikes to bring harm to Russia um and basically to break Russia's will to uh continue the fight.
 
->> Switching over to uh Iran and the memorandum of understanding, is Israel turning on its last and best ally? >> Turning on the Oh, you mean the United States? >> Yes. >> The United States has never been their ally.
+>>
+
+### Hormuz Planning — Hegseth Cheerleaders
+
+Switching over to uh Iran and the memorandum of understanding, is Israel turning on its last and best ally? >> Turning on the Oh, you mean the United States? >> Yes. >> The United States has never been their ally.
  Israel's never viewed the United States as an ally. Uh Israel has just been the number United States is the number one espionage target of Israel and has been for decades. Uh the Israelis view the United States as a as as the way that a parasite views a host. Um you know, you you need to keep the host alive, you need to keep the host strong as long as necessary while you suck the life out of the host.
  But that's all Israel's been doing to the United States and until the American people recognize that, uh we're going to be in a lot of trouble. Hopefully people are seeing it now where Israel has no desire for peace. Israel simply wants to, you know, pursue conflict against Hezbollah, against Iran.
  Um and you know, it's not in the United States' interest to do so. And unless you're one of those people who are willing to subordinate American national security interests to the state of Israel, um you have to understand how insulting it is for Israel to insist that the United States continue to back them in these wars that they cannot win without the United States.
@@ -138,7 +175,11 @@ people care about what's in their wallet what's in their bank account what the p
 won't exist if uh the Strait of Hormuz is not kicked open for a long period of time >> How uh decrepit how backward how incompetent was American military planning that they didn't take into account that the Iranians might strangle oil at the Strait of Hormuz >> Well the interesting thing is we go back to um Trump's first term if you remember the Global Hawk was shot down the big drone over the Strait of Hormuz, or the Strait of Hormuz.
  And um Trump wanted to retaliate by bombing Iranian air defense systems. And the Pentagon said, "Look, if you do that, we're going to get into an escalation with the Iranians that will end with them closing the Strait of Hormuz." He said, "Oh, we'll just open it up." And the military at that time said, "We can't." We we cannot open it up if the Iranians shut it down, we can't open it up with the forces available.
  And uh it would take us months, if not years, to assemble those forces. And by the time we brought them to bear, um you know, we'd have to fight through a, you know, line after line of Iranian missiles. It's a war that um we're not certain of the outcome. Meaning, we can't guarantee you that we're going to win this thing. So, Trump pulled back and you know, he claimed that he had mercy in his eyes and didn't want to kill the Iranians.
-But the bottom line is he pulled back because he knew they were going to get involved in a a cycle of escalation that we could not manage successfully. Now, if he knew that then, why did he think What what changed in his mind? This is This is the the inanity of it. The difference is Pete Hegseth.
+But the bottom line is he pulled back because he knew they were going to get involved in a a cycle of escalation that we could not manage successfully. Now, if he knew that then, why did he think What what changed in his mind? This is This is the the inanity of it.
+
+### Lavrov — Agreement Incapable
+
+The difference is Pete Hegseth.
  Back then, um you know, you had a chairman of the Joint Chiefs of Staff, uh Lloyd Austin, and you had uh I mean, Secretary of Defense, Lloyd Austin, and Chairman of the Joint Chiefs of Staff, uh I think Mark Milley, who um you know, were honest and said, "We we can't do this. This is not We can't guarantee the outcome.
 " Um now he has cheerleaders, you know, uh you know, raising Cain. Uh the chairman was picked because he's a cheerleader. Um you know, Pete Hegseth was picked because he's a cheerleader. And these are guys who basically are going to say yes to any military misadventure that Donald Trump wants to engage in because it's tough.
 We're tough. We can do this. We can rock. We got it. Well, we don't have it. We got our butts kicked because we miscalculated, because we didn't factor in reality. Um we didn't realize that what we realized a few years ago that if we engage with Iran, this thing's going to escalate beyond our ability to contain it.

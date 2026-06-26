@@ -25,7 +25,7 @@ source_note: Operator source-intake 2026-06-23; operator-pasted YouTube transcri
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained (Nemo, Nema, 20126, etc.); not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained (Nemo, Nema, 20126, etc.); not human-verified verbatim against audio. · source-section pass 2026-06-25 (8 sections)."
 quality_note: Fresh intake 2026-06-23.
 transcript_wrapper_tier: clean
 
@@ -68,6 +68,7 @@ verify:
   - claim: Lebanon-Israel direct talks round 5 Washington 23-25 Jun
     verdict: supported
     note: TRT World - MEE - WDEF 23 Jun
+transcript_curation: curated_sectioned
 ---
 
 # Patrick Henningsen: Israel's Losses Continue to Get Worse – New Numbers Just Dropped
@@ -80,8 +81,19 @@ verify:
 
 ## Transcript
 
-Hi everybody. Today's Tuesday, June 23rd, 20126 and our dear friend, our brother Patrick Henningson is here with us. Welcome back, Patrick. >> It's great to be with you, Nema. >> Patrick, we had Iranian negotiations, the the negotiations between Iranians and Americans in Switzerland. And one of the main issues, the major issues was the case of Lebanon and the ceasefire in Lebanon.
- for more than 48 hours we haven't heard anything from Lebanon in the terms of the ceasefire it was all everything was somehow calm there then moments ago just an hour ago we've learned from Lebanon that Israelis again are killing Lebanese people and what is the story is that Israel military said Israeli military said its forces struck a group of armed Hezbollah operatives near the Ali Taher ridge in southern Lebanon early today.
+
+### Show Open — Geneva and Lebanon
+
+Hi everybody. Today's Tuesday, June 23rd, 20126 and our dear friend, our brother Patrick Henningson is here with us.
+
+### Hezbollah Losses — Southern Lebanon
+
+Welcome back, Patrick. >> It's great to be with you, Nema. >> Patrick, we had Iranian negotiations, the the negotiations between Iranians and Americans in Switzerland. And one of the main issues, the major issues was the case of Lebanon and the ceasefire in Lebanon.
+ for more than 48 hours we haven't heard anything from Lebanon in the terms of the ceasefire it was all everything was somehow calm there then moments ago just an hour ago we've learned from Lebanon that Israelis again are killing Lebanese people and what is the story is that Israel military said Israeli military said its forces struck a group of armed
+
+### Israel Predictability — Escalation Pattern
+
+Hezbollah operatives near the Ali Taher ridge in southern Lebanon early today.
  And the Hezbollah forces, the Hezbollah rejected rejected the Israeli account saying that the strike targeted a group of civilians who were clearing roads and recovering bodies from beneath rubble near Nabatia. It's the whole region Nabatia Aliar you know that fortress and many people were killed in that region.
  You remember Israel tried to capture that fortress which was filled six times they tried to capture that fortress that was you know totally filled and many casualties on the part of Hezbollah and the part of Israelis so they're clearing out the region somehow taking out the bodies from the region but that was the case and that was the excuse on the part of Israelis to attack and killing I don't know so far we haven't learned about the casualties of this attack.
  It seems two people were killed and some people were injured. We don't know that. We don't have the full picture. And here is what going on in Lebanon. What is how far the negotiation the talks between Iran and the United States could put restrictions on Israelis and their actions in southern part of Lebanon? >> Yeah. >> How do you see what is the extent of the fac you know the the the negotiations? how how it how these negotiations can help the situation in Lebanon as we see Israel is killing more people.
@@ -120,7 +132,11 @@ The the US prohibits it. Why does the US prohibit it? Not because people America
  This is what the uh big tech companies do on when they censor you. They send you a thing saying uh if you explain historically the history of Hezbollah, you then get a strike or you get censored for uh uh somehow glorifying or supporting a terrorist group when in fact this is exactly what's in Wikipedia.
  You know what I'm telling you now is in Wikipedia. It's not secret. You know, it's not from Hezbollah as like press releases. This is like historical fact which I'm explaining. But uh it's too hot for even politicians to even uh debate and discuss. So if we want a solution to this issue, Nema, this deadlock, we've got a deadlock right now, right? We've got a deadlock.
  If we want a solution, we need to tackle that issue. That is first and foremost is to me the most important issue of all. Otherwise, you're going to be spinning your wheels. And Israel's loving this because they love to get the West spinning its wheels on this. and and meanwhile they just go on and get get on with their business, their business of expansion, their business of massacring uh the native populations uh in Palestine and in in Lebanon and in Syria as well.
- That's that's that's what they're that's what they're doing. They're very predictable, by the way. That, you know, they don't hide their agenda. Israel is very upfront. They're not they're not there's no secrets with Israel but everyone's terrified in the west of like holding them accountable you know according to the UN or international law.
+ That's that's that's what they're that's what they're doing.
+
+### Farmers Clause — Frozen Assets Spin
+
+They're very predictable, by the way. That, you know, they don't hide their agenda. Israel is very upfront. They're not they're not there's no secrets with Israel but everyone's terrified in the west of like holding them accountable you know according to the UN or international law.
  So Nema, these talks are going to fail. These talks are going to fail until the US and the problem is the US is so guilty of this administration has has so thoroughly trashed international law through its piracy, through the kidnapping of heads of state, through the theft of oil, through through undeclared wars of aggression, through attacking Iran, through arming a genocidal rogue state of Israel in the midst of a genocide, enthusiastically sending them weapons and uh doing everything possible to enable them.
  the the the US has so thoroughly trashed international law that it's it's really almost impossible for them to uh to to try to impose an international law undergirling to these negotiations because that would be the solution to everything. It would be Israel leave Israel leave Lebanon. Why are you there? You started the war on October 8th.
 Israel did. And now you've you've used that as a pretext to start a conflict as a pretext to invade. And that's the second time you've done that uh with Lebanon. And a third time if you really want to go down to some of the other previous incidents. So fire. So the Americans have framed this Nema. Back to your original question that you know if you fire on Israeli positions in Lebanon that's a violation of the ceasefire by Hezbollah. That's ridiculous.
@@ -134,7 +150,11 @@ And Netanyahu just made a statement the last 24 hours saying they'll not they're
  And he's Vance is telling lies at Geneva like oh the Iranians have agreed to you know uh they're going to allow the IAEA in to inspect the dust and you know this is ridiculous. He's lying on a world stage and he wants to be president. He wants to be president. They don't they don't care if what they say is true or not.
 All they're into the Trump administration and this whole presidency is about producing content for social media and media sound bites. That's all they that's all they're doing. That's that's their number one priority. It's not like getting to the truth, trying to figure out what's actually going on. What's the best way to solve this problem? You know, how do you fashion the the key that's going to fit into that lock and turn and work for people? They're not interested in that.
  They just want to produce content for their brand, their personal brand. whether it's Trump with MAGA or it's JD Vance for his 2028 presidential campaign. He's already doing all the podcasts this week. JD Vance, he's already begun his campaign uh for 2028. That's ex it's obvious what we're looking at here. Uh so he's not really working for the American people.
- He's working for himself, but he he's he's confident in his rhetoric to make people believe that he's like uh doing stuff on behalf of the American people. Then he's putting out stupid statements. Is it like, oh, oh, we got a classic Jared Kushner came up with a classic Trump deal where we're going to take the Iranian frozen assets and buy soya and wheat from US farmers and then we're going to send that food to feed the Iranian people and get American farmers rich.
+ He's working for himself, but he he's he's confident in his rhetoric to make people believe that he's like uh doing stuff on behalf of the American people. Then he's putting out stupid statements. Is it like, oh, oh, we got a classic Jared Kushner came up with a classic Trump deal where we're going to take the Iranian frozen assets and buy soya and wheat from US farmers and then we're going to send that
+
+### Trump Vance — Poll-Driven Policy
+
+food to feed the Iranian people and get American farmers rich.
  Why the soya farmers broke in America? because Trump totally uh uh fumbled his his tariff wars uh visa v China and it it made a lot of the soya farmers go bankrupt in in America. And so Vance wants to use Iranian frozen assets to bail out the the farmers that he and Trump ripped off and destroyed by this stupid tariff wars that they waged.
  And and then they'll sell that to the American people like this is a win-win. this is why, you know, we can we can free up those Iranian frozen assets because it's going to make American farmers rich, just stealing, piracy, scams. And it was like Jared Kushner's idea. And he he says, "Oh, Jared Kushner came up with a good idea.
 " Jared Kushner went to Albania and and caused a national revolution because he tried to steal uh uh t take public land via the corrupt prime minister Eddie Rama. And it's like Well, these guys are obsessed with the land. They want to grab land. >> Yeah. So, it's he's a disaster. Jared Kushner's brand is so bad globally. And Vance has talked they still carry these two clowns on the negotiation team, Tweedle D and Tweedle Dumb, Dellboy and Rodney to go around uh you know, two very shady property uh con artists.
@@ -164,7 +184,11 @@ So they justified assassinating the head of state uh and and many many other Ira
 that leave us Nemo that leaves us with Iran will institute a force major on the region you know they're going they're just going to carry on and do what they need to do and then reality will eventually settle around Iran's steadfast position and the Gulf Arabs will have to conform to Iran and ultimately I think Israel will have no choice but to do that uh as well as uh some of the other actors in the region and that's just you know and the US isn't going to have a whole lot of say in that you see and and but that that's
 going to be a long painful process I I I fear and uh so the US isn't going going to help expedite this. They there is some positive things. They the OFFAC has released uh Iranian oil. You know, they've lifted some of the restrictions on licensing and so forth. So, they the Trump administration has put their money where their mouth is on a couple of those key points.
  But, like you said, with sanctions relief and unfreezing assets, that is an uphill battle in Washington because you're you're you're going against the Israel lobby in Washington on that. Very, very difficult. the media will also chime in and make sure that that doesn't happen. And of course that and Israel is a huge obstacle as well.
-They're going to do what they're going to do in South Lebanon. So we're we're we're at a kind of stalemate there and the US isn't going to be able to tie break it. I don't think so. I I think that they can push a little bit. But why why JD Vance and Trump are pushing is because the poll numbers are showing that Israel's approval rate among American voters is at an all-time low.
+They're going to do what they're going to do in South Lebanon. So we're we're we're at a kind of stalemate there and the US isn't going to be able to tie break it. I don't think so. I I think that they can push a little bit. But why why JD
+
+### Hezbollah Contained — Escalation Risk
+
+Vance and Trump are pushing is because the poll numbers are showing that Israel's approval rate among American voters is at an all-time low.
 as is Trump's completely cratering poll numbers. And it's because he has tied himself to Israel. It's one of the reasons why he is really failing in the polls. That's the only reason you're seeing this little pivot from JD Vance and Trump. It's not because they care about the Lebanese or the Iranians or the Palestinians.
  It's because they're taking a absolute bath uh with the electorate with this war. And everyone knows it was a war for Israel. Everyone knows in America whether they'll admit it or not. And so so that's why they've pivoted a little bit and and I'll make a prediction. and Nema JD Vance will it will be when he starts campaigning when he starts getting momentum towards the end of the term he will then distance himself from Trump and there'll be this disagreement and he'll he'll try to distance himself from Trump because Trump will be uh he'll go down in
 history as a running joke for American presidents you know the people will make fun of Trump for generations he he's the he'll be the archetype complete idiot savant of a president that absolutely destroyed everything he touched you who failed on every conceivable level including the economy by the way uh which we haven't seen the worst of yet but we will this summer.
@@ -178,7 +202,11 @@ JD Vance only did two years in the Senate, rushed on to the national stage uh to
  But, uh, the other thing is a false flag attack. Uh the other thing is it is an assassination. And uh you know look at you remember the Lebanese civil war uh and you had the assassination of uh uh the newly elected president Bashir uh Jelo and that that assassination triggered the Sabran Shatila massacre which really was one of the things that led to the inspired formation of of Chhatila is just was huge in repercussions of that >> massive >> and so but that was an assassination that did that.
  So this is and and many people were assassinated during the Lebanese civil war and then afterwards the assassination of Rafi Kreri which is still debated. You know the US of course went to say that the Syrian government did it. Okay. And the Israelis went to say the Syrian government did it. But the Israelis had just as much of a motive as anybody uh to carry out that assassination and so probably did the Americans as well.
 Um not least of all because it got Syria out of Lebanon. Okay. So, but but these are sort of what I call gamecher events and in in a in a really fragile sectarian uh powder keg like Lebanon. Uh it would some kind of a targeted assassination or false flag could change could create a lot of chaos and things could very quickly spin out of control.
- And so any of the we have some stability right now al but although the aggression is contained at the moment between Hezbollah and uh Israel but things can expand and spin out of control and then all of a sudden uh it it becomes very difficult to manage for the Iranians and then Israel will take advantage of the chaos especially if they're the ones who did it who triggered it and they have throughout history.
+ And so any of the we have some stability right now al but although the aggression
+
+### Israeli Perception — War Fatigue
+
+is contained at the moment between Hezbollah and uh Israel but things can expand and spin out of control and then all of a sudden uh it it becomes very difficult to manage for the Iranians and then Israel will take advantage of the chaos especially if they're the ones who did it who triggered it and they have throughout history.
  Israel has a history of false flag attacks, a history, documented history. So that's that's one of the dangers. So when you when you see this event in Qatar, it can be viewed uh in that way is that an operation was launched and the Qataris were smart enough not to react to it because it's it's also all about how you react to it.
  But then to to say this was a move to discipline Qar or to punish Qatar, that's also plausible because whenever there's high level uh uh negotiations or meetings like the G7 uh or you know Munich security conference or NATO meetings, you'll see Zalinski immediately like that day or the day before uh launching some massive drone attack or any peace negotiations.
 So So the idea is they they don't want any negotiations to develop. They just want to keep the war going basically. And and I think Israel has a motivation that they don't want to see this settlement go anywhere. They want to keep their wars going. They they've they're the openly the Israeli establishment's openly shilling to for the US to continue to to fight Iran.
@@ -192,7 +220,11 @@ I would say they're trying to do everything. He's he said that he's trying to do
 The two sections they want to merge the US military with the Israeli one, US intelligence with the Israeli one. The two important sectors when it comes to the when it comes to the United States and the power it possesses as a superpower. And you you merge your military and intelligence. It seems that Israel has access to everything.
  While you see the tone, the atmosphere has been changing and is changing drastically toward Israel. So you have to officialize what has happened, you know, in the c in terms of the military power and intelligence, the way that you can facilitate the Israeli agenda in the Middle East. I don't know how far that could be effective, Patrick, because the region has grown tremendously in my opinion.
  That's why you see when you have the war in Ukraine, who's going to host the negotiations, it's going to be Turkey in that region >> with Iran and the United States. You see Pakistan mediating between Iran and the United States and Qatar the same way. That's why the if that explosion was related to the way was behaving and participating in facilitating the negotiations and with Iranian frozen assets the same is playing a very important role with the frozen assets.
-You see the region is somehow reshaping itself that it is not only in the United States but in the region you remember Abraham Accords and normalizing the relationship with Israel. Those days are gone. I think Israelis are perceived are getting to that point. I don't know what the United States can do for them.
+You see the region is somehow reshaping itself that it is not only in the United States but in the region you remember Abraham Accords and normalizing the relationship with Israel. Those days are gone. I think
+
+### Close — Farewell
+
+Israelis are perceived are getting to that point. I don't know what the United States can do for them.
  There is nothing there anymore for the United States to put pressure on Saudi Arabia or Iran that this is the outcome of what Israel has done so far. What what do you make of it? and the way Israel desperately is trying to move to to change the game, change the equation in the Middle East in favor of the their state.
 >> Yeah, you're right. The Abraham Accords are completely dead. And I don't there's no chance it Lindsey Graham and others will say, "No, Saudi Arabian is going to join the Abraham Accords next week or whatever." And I think just delusional. These people are so desperate. It was it was a hollow idea from the beginning, but they only managed to halfell it because there was a chance of uh you know stability.
  But once this war once the US and Israel launched this war, then that that was that all bets are off. Abraham Accords is basically laying at the bottom of the Persian Gulf somewhere. It's it's it's over because the US showed the Arab Gulf Arab states that the US is a liability to their to their existence basically that the the the US is not going to be uh conducive to their future uh in any meaningful sense.
