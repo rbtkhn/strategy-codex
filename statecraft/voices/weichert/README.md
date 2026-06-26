@@ -23,7 +23,7 @@ Phase 1 shipped **profile SSOT + source bench**. Phase 2 adds **[weichert-routin
 
 ## Ingest law
 
-- Primary intake family: `source-nawfal-weichert-*` under [`source-archive/statecraft/`](../../../source-archive/statecraft/)
+- Primary intake family: `source-mario-nawfal-weichert-*` under [`source-archive/statecraft/`](../../../source-archive/statecraft/)
 - Run `post_land_nawfal_opening_normalize.py` on every Nawfal land
 - Standalone X/Substack: `thread:weichert` — verify operational claims
 

@@ -84,7 +84,7 @@ Jun 10 *Shoot the Dog* is the **written walk-back** from May 18 live alarm: same
 - `source-ritter-russia-dark-sage-karaganov-2026-01-03`
 - `source-ritter-the-flamingo-effect-2026-02-22`
 - `source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18`
-- `source-napolitano-ritter-the-us-will-never-learn-2026-05-18` (same week lane)
+- `source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18` (same week lane)
 - `source-ritter-shoot-the-dog-2026-06-10`
 - `source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13` (non-Ritter compare)
 

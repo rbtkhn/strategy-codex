@@ -32,7 +32,7 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkorshid** (person) vs lega
 |------|----------|-----------|-------|
 | DW interview | `source-dialogue-works-<guest>-*` | `[alkorshid, guest]` | **Dialogue Works × Guest** |
 | DW solo | `source-dialogue-works-<slug>-*` | `[alkorshid]` | **Dialogue Works** |
-| Guest on Mario Nawfal | `source-nawfal-alkorshid-*` | `[nawfal, alkorshid]` | **Mario Nawfal × Alkorshid** |
+| Guest on Mario Nawfal | `source-mario-nawfal-alkorshid-*` | `[nawfal, alkorshid]` | **Mario Nawfal × Alkorshid** |
 | Guest on Daniel Davis | `source-daniel-davis-alkorshid-*` | `[davis, alkorshid]` | **Daniel Davis × Alkorshid** |
 
 ## Venue-first titles (synthesis)

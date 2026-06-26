@@ -78,7 +78,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 1. `2026-05-14`
    Host/source family: `Judging Freedom / Napolitano`
-   Likely canonical archive filename: `source-napolitano-wilkerson-*`
+   Likely canonical archive filename: `source-judging-freedom-wilkerson-*`
    Working title discovered in hunt: `Trump Is Checkmate in Iran`
    Status: `missing`
    Why it matters: if real and transcript-grade, this would directly break the current seven-anchor completeness claim and strengthen the auxiliary Napolitano branch inside the month.
@@ -86,7 +86,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 2. `2026-05-21`
    Host/source family: `Judging Freedom / Napolitano`
-   Likely canonical archive filename: `source-napolitano-wilkerson-*`
+   Likely canonical archive filename: `source-judging-freedom-wilkerson-*`
    Working title discovered in hunt: `Trump Trapped in a Corner by Iran`
    Status: `missing`
    Why it matters: this is a second allowed-lane contradiction candidate inside the same month and would make the old `0 known missing May anchors` line untenable.

@@ -62,7 +62,7 @@ Discovery `file_prefix` on each channel and archive land names are **different s
 | `daniel-davis` | `youtube-daniel-davis-deep-dive` | `source-daniel-davis-*` |
 | `glenn-diesen` | `youtube-glenn-diesen` | `source-diesen-*` / `source-glenn-diesen-*` |
 | `alexander-mercouris` | `youtube-alex-mercouris` | `source-mercouris-*` |
-| `judging-freedom` | `transcript-napolitano` | `source-napolitano-*` |
+| `judging-freedom` | `transcript-napolitano` | `source-judging-freedom-*` |
 | `redacted-news` | `source-redacted` | `source-redacted-*` |
 
 Channel-index routing also reads legacy raw-input prefixes and explicit `source-*` rules in discovery config (`filename_prefix_index_canonical`) so thin-YAML archive captures still roll up correctly. New **source-archive** lands: use `source-*` only; keep shape in frontmatter (`kind`, `source_form`, `channel_slug`).
