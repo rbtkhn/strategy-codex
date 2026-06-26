@@ -56,7 +56,7 @@ If the operator needs the object map:
 
 If the operator needs the cleanest host-local entry:
 
-- open [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-kent-speaker-arc.md)
+- open [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-kent-speaker-arc.md)
 
 If the operator needs the resignation-letter spine:
 

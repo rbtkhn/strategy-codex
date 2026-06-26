@@ -106,7 +106,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about 2026 coercive feasibility or Gulf-base liability rather than the 2025 cross-year correction, route outward to [davis-baud-arc.md](../../../../statecraft/channels/davis/stream/davis-baud-arc.md).
+- If the question is mainly about 2026 coercive feasibility or Gulf-base liability rather than the 2025 cross-year correction, route outward to [davis-baud-arc.md](../../../../statecraft/channels/daniel-davis/stream/davis-baud-arc.md).
 
 - This is a real host-local arc, but it is primarily a **2025** lane.
 - Do not use this note to promote the **2026** Baud object into a triple helix.

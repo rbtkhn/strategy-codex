@@ -36,8 +36,8 @@ That means:
 ## Host lanes
 
 - [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../statecraft/channels/davis/stream/davis-mearsheimer-arc.md)
-- [Judging Freedom x Mearsheimer](../../../statecraft/channels/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/stream/davis-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/stream/napolitano-mearsheimer-arc.md)
 
 ## Compatibility shape
 

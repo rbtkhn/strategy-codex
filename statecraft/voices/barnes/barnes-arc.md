@@ -13,7 +13,7 @@ Barnes is a real cross-host statecraft speaker object because he repeatedly perf
 - turn negotiation stories into **executive-chaos and room-dynamics** arguments
 - turn foreign-policy crises into **coalition, donor, lobby, and electoral-liability** readings
 
-The dominant Barnes lane is still the [Davis host shelf](../../channels/davis/README.md), but the broader object is no longer honestly described as `Davis only`.
+The dominant Barnes lane is still the [Davis host shelf](../../channels/daniel-davis/README.md), but the broader object is no longer honestly described as `Davis only`.
 
 ## Durable cross-host role
 
@@ -31,7 +31,7 @@ That role survives host translation strongly enough that Barnes now reads as a s
 
 | Lane | Status | What it contributes |
 |---|---|---|
-| [Davis host shelf](../../channels/davis/README.md) | mature primary lane | war powers, law-of-war exposure, White House process fracture, coalition sell, and domestic survivability under Iran-war pressure |
+| [Davis host shelf](../../channels/daniel-davis/README.md) | mature primary lane | war powers, law-of-war exposure, White House process fracture, coalition sell, and domestic survivability under Iran-war pressure |
 | [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | real reinforcing lane | carries the Barnes executive-decline and regime-chaos reading outside Davis and into a more overtly geopolitical host environment |
 | [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | thin but meaningful reinforcing lane | confirms late-stage Barnes continuity on Iran, executive instability, Israel-lobby capture, and domestic political danger in a cross-theater setting that also touches Ukraine |
 | [Johnson x Barnes support](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md) | support-tier adjunct | useful for White House room dynamics and domestic-fork emphasis, but not yet a cleanly materialized host-local Barnes strand |

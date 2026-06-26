@@ -17,10 +17,16 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-REGISTERED_SPEAKER_SLUGS = ("pape", "crooke", "ritter", "parsi", "davis", "diesen")
+REGISTERED_SPEAKER_SLUGS = ("pape", "crooke", "ritter", "parsi", "daniel-davis", "diesen")
 DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 DEFAULT_CHANNELS_DIR = REPO_ROOT / "statecraft" / "channels"
-HOST_SLUGS = frozenset({"davis", "napolitano", "nima"})  # channel shelves (legacy name: host)
+# Folder names under statecraft/channels/ (channel-index slugs + legacy alias keys)
+HOST_SLUGS = frozenset({"daniel-davis", "judging-freedom", "dialogue-works"})
+CHANNEL_OBJECT_PREFIX = {
+    "daniel-davis": "davis",
+    "judging-freedom": "napolitano",
+    "dialogue-works": "nima",
+}
 
 HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")

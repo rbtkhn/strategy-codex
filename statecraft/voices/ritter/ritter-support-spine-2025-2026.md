@@ -46,10 +46,10 @@ not:
 
 | Host lane | Speaker-owned role | Best use |
 |---|---|---|
-| [Davis host shelf](../../channels/davis/README.md) | practical military lane | stockpiles, skies, basing pressure, blockade impracticality, force-feasibility failure |
+| [Davis host shelf](../../channels/daniel-davis/README.md) | practical military lane | stockpiles, skies, basing pressure, blockade impracticality, force-feasibility failure |
 | [diesen-ritter-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md) | escalation-horizon lane | Hormuz return-to-war pressure, Europe spillover, sea-control consequence, Russia/NATO widening |
-| [nima-ritter-speaker-arc.md](../../../statecraft/channels/nima/stream/nima-ritter-speaker-arc.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
-| [Napolitano host shelf](../../channels/napolitano/README.md) | auxiliary legal-command lane | war powers, piracy/blockade illegitimacy, command absurdity, command-failure reinforcement |
+| [nima-ritter-speaker-arc.md](../../../statecraft/channels/dialogue-works/stream/nima-ritter-speaker-arc.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
+| [Napolitano host shelf](../../channels/judging-freedom/README.md) | auxiliary legal-command lane | war powers, piracy/blockade illegitimacy, command absurdity, command-failure reinforcement |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
 
@@ -94,10 +94,10 @@ Status: mature dense-core month
 Open:
 
 - [stream/ritter-shelf-2026-03.md](stream/ritter-shelf-2026-03.md)
-- [Davis host shelf](../../channels/davis/README.md)
+- [Davis host shelf](../../channels/daniel-davis/README.md)
 - [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../../../statecraft/channels/nima/stream/nima-ritter-speaker-arc.md)
-- [Napolitano host shelf](../../channels/napolitano/README.md)
+- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/stream/nima-ritter-speaker-arc.md)
+- [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 Why March matters:
 

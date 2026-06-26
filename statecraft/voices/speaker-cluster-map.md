@@ -29,7 +29,7 @@ Each non-quartet speaker folder appears once in this register. The secondary col
 | [Sachs](sachs/README.md) | Pape | Parsi | Political-economy consequence and institutional breakdown strengthen the macro and settlement-cost side of the Pape frame. |
 | [Berletic](berletic/README.md) | Pape | Ritter | Industrial capacity and proxy-war logistics help test whether forecasted pressure can be materially absorbed. |
 | [Jiang](jiang/README.md) | Pape | Crooke | China and industrial-state perspective helps read relative gain, reserves, and system adaptation. |
-| [Davis](../channels/davis/README.md) | Ritter | Pape | Operational feasibility and policy-risk translation make Davis the main native host satellite for force constraints. |
+| [Davis](../channels/daniel-davis/README.md) | Ritter | Pape | Operational feasibility and policy-risk translation make Davis the main native host satellite for force constraints. |
 | [Postol](postol/README.md) | Ritter | Pape | Technical destruction, missile effects, and deterrence realism sharpen what force can actually do. |
 | [Martyanov](martyanov/README.md) | Ritter | Crooke | Military-systems realism and force-assessment discipline sit closest to Ritter's operational warning role. |
 | [Macgregor](macgregor/README.md) | Ritter | Crooke | Force balance, logistics burden, and imperial-overreach warnings strengthen the hard military-feasibility side. |
@@ -40,7 +40,7 @@ Each non-quartet speaker folder appears once in this register. The secondary col
 | [Freeman](freeman/README.md) | Parsi | Crooke | Diplomatic memory, settlement realism, and West Asia statecraft strengthen the bargain-and-architecture engine. |
 | [Beebe](beebe/README.md) | Parsi | Crooke | Intelligence-statecraft, escalation management, and settlement geometry sit closest to Parsi's off-ramp discipline. |
 | [Mearsheimer](mearsheimer/README.md) | Parsi | Crooke | Bargaining geometry and coercive-failure realism make Mearsheimer a strong settlement-constraints satellite. |
-| [Napolitano](../channels/napolitano/README.md) | Parsi | Ritter | Legal legitimacy and war-powers pressure define what a settlement or war path can claim as lawful authority. |
+| [Napolitano](../channels/judging-freedom/README.md) | Parsi | Ritter | Legal legitimacy and war-powers pressure define what a settlement or war path can claim as lawful authority. |
 | [Barnes](barnes/README.md) | Parsi | Ritter | Legal-process and executive-chaos critique help evaluate domestic feasibility of a bargain or exit. |
 | [Baud](baud/README.md) | Parsi | Ritter | Law-of-war and alliance-mandate critique clarify which coercive threats have lawful or strategic end states. |
 | [Mercouris](mercouris/README.md) | Parsi | Crooke | Diplomatic sequencing and institutional statecraft narrative make Mercouris a depth-stable settlement-context satellite. |

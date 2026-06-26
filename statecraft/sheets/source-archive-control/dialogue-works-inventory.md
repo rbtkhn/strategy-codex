@@ -5,7 +5,7 @@
 
 **Last audited:** 2026-05-12 Ã¢â‚¬â€ YouTube index-only crawl plus targeted inventory reconciliation against captured raw-input files.
 
-**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter — see [alkorshid-profile.md](../../voices/alkorshid/alkorshid-profile.md) and [dialogue-works-disambiguation.md](../../channels/nima/dialogue-works-disambiguation.md).
+**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter — see [alkorshid-profile.md](../../voices/alkorshid/alkorshid-profile.md) and [dialogue-works-disambiguation.md](../../channels/dialogue-works/dialogue-works-disambiguation.md).
 
 | pub_date | Title | Guest | URL | Routing / note | raw-input |
 |----------|-------|-------|-----|----------------|-----------|

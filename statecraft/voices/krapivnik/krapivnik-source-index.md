@@ -50,7 +50,7 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 | Host | Index |
 | --- | --- |
 | Neutrality Studies | [neutrality-studies host](../channels/neutrality-studies/index.md) |
-| Dialogue Works / Nima | [nima host](../channels/nima/index.md) · [dialogue-works-index](../../channels/nima/dialogue-works-index.md) |
+| Dialogue Works / Nima | [nima host](../channels/dialogue-works/index.md) · [dialogue-works-index](../../channels/dialogue-works/dialogue-works-index.md) |
 | Glenn Diesen | [diesen source index](../diesen/diesen-source-index.md) |
 | The Duran / Mercouris co-host | [mercouris source index](../mercouris/mercouris-source-index.md) |
 

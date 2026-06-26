@@ -11,7 +11,7 @@ This file should be read as the **order-transition and arms-control** McGovern b
 Quick separation rule:
 
 - `Diesen x McGovern` = NATO decay, arms-control collapse, strategic-restraint failure, and intelligence memory at order-transition altitude
-- [nima-mcgovern-speaker-arc.md](../../../../statecraft/channels/nima/stream/nima-mcgovern-speaker-arc.md) = live Iran/Russia escalation and imperial-unreality warning under present-tense pressure
+- [nima-mcgovern-speaker-arc.md](../../../../statecraft/channels/dialogue-works/stream/nima-mcgovern-speaker-arc.md) = live Iran/Russia escalation and imperial-unreality warning under present-tense pressure
 - [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md) = bargaining architecture and statecraft design rather than dissident insider warning
 - [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md) = civilizational-legitimacy and sovereignty crisis rather than arms-control memory
 
@@ -87,7 +87,7 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [nima-mcgovern-speaker-arc.md](../../../../statecraft/channels/nima/stream/nima-mcgovern-speaker-arc.md), which is stronger on live escalation and Iran-war immediacy
+- [nima-mcgovern-speaker-arc.md](../../../../statecraft/channels/dialogue-works/stream/nima-mcgovern-speaker-arc.md), which is stronger on live escalation and Iran-war immediacy
 - [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md), which is stronger on negotiation architecture than on intelligence-dissent memory
 - [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md), which is stronger on legitimacy and sovereignty than on restraint-system collapse
 

@@ -25,9 +25,9 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Main Host Arcs
 
-- [Dialogue Works x Wilkerson](../../../statecraft/channels/nima/stream/nima-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](../../../statecraft/channels/dialogue-works/stream/nima-wilkerson-speaker-arc.md)
 - [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- [Judging Freedom x Wilkerson](../../../statecraft/channels/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
+- [Judging Freedom x Wilkerson](../../../statecraft/channels/judging-freedom/stream/napolitano-wilkerson-speaker-arc.md)
 
 ## Boundary
 

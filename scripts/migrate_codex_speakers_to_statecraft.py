@@ -22,7 +22,7 @@ VOICES = REPO_ROOT / "statecraft" / "voices"
 HOSTS = REPO_ROOT / "statecraft" / "channels"  # legacy name in API: host slugs
 RECEIPT_PATH = REPO_ROOT / "runtime" / "artifacts" / "statecraft" / "codex-speakers-migration-receipt.json"
 
-HOST_SLUGS = frozenset({"davis", "napolitano", "nima"})
+HOST_SLUGS = frozenset({"daniel-davis", "judging-freedom", "dialogue-works"})
 SKIP_DIRS = frozenset({"alkorshid"})  # compat pointer only; links target dialogue-works-index
 META_DIRS = frozenset({"_templates", "relations", "map"})
 ROOT_FILES = (
@@ -213,18 +213,18 @@ def rewrite_links(receipt_path: Path) -> int:
             text = text.replace(broken + ")", dest_norm + ")")
         # generic prefix fallback for anything missed
         text = re.sub(
-            r"statecraft/channels/davis/",
-            "statecraft/channels/davis/",
+            r"statecraft/channels/daniel-davis/",
+            "statecraft/channels/daniel-davis/",
             text,
         )
         text = re.sub(
-            r"statecraft/channels/napolitano/",
-            "statecraft/channels/napolitano/",
+            r"statecraft/channels/judging-freedom/",
+            "statecraft/channels/judging-freedom/",
             text,
         )
         text = re.sub(
-            r"statecraft/channels/nima/",
-            "statecraft/channels/nima/",
+            r"statecraft/channels/dialogue-works/",
+            "statecraft/channels/dialogue-works/",
             text,
         )
         text = re.sub(

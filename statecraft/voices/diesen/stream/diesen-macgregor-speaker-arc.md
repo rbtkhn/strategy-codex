@@ -81,7 +81,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether Washington can materially sustain its preferred war outcome rather than what imperial distance does to the whole system, route outward to [davis-macgregor-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md).
+- If the question is mainly about whether Washington can materially sustain its preferred war outcome rather than what imperial distance does to the whole system, route outward to [davis-macgregor-speaker-arc.md](../../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md).
 
 - This guest run is no longer just a thin prehistory. It is still narrower than the very dense Davis branch, but the 2025 shelf is now materially real.
 - An additional Diesen x Macgregor file exists under `_aired-pending`, but it is excluded from the arc set until a publish date is pinned and it is promoted into the canonical date tree.

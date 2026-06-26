@@ -52,9 +52,9 @@ The legacy `statecraft/voices/marandi/` path is now front-door compatibility onl
 
 ## Host Lanes
 
-- [Dialogue Works x Marandi](../../../statecraft/channels/nima/stream/nima-marandi-speaker-arc.md)
+- [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/stream/nima-marandi-speaker-arc.md)
 - [Diesen x Marandi](../../../statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md)
-- [Davis host shelf](../../channels/davis/README.md)
+- [Davis host shelf](../../channels/daniel-davis/README.md)
 
 ## Boundary
 

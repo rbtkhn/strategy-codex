@@ -42,7 +42,7 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 
 | host | function | best use |
 |---|---|---|
-| [Davis](../../channels/davis/README.md) | strategic substance and military feasibility | test escalation trap, ground thresholds, and the gap between victory narrative and escalation reality |
+| [Davis](../../channels/daniel-davis/README.md) | strategic substance and military feasibility | test escalation trap, ground thresholds, and the gap between victory narrative and escalation reality |
 | Redacted | public macro shock translation | translate shortage clocks and contraction mechanisms into consumer-facing energy and commodity stress |
 | Breaking Points | political-system framing and public negotiation translation | draw out U.S. loss of control, fourth-center stakes, and public-facing deal compression |
 | Mario Nawfal | fast public forecast compression | compress warning signs, Trump options, and near-term escalation branches |

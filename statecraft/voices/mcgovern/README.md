@@ -46,7 +46,7 @@ The legacy `statecraft/voices/mcgovern/` path is now front-door compatibility on
 ## Host Lanes
 
 - [Diesen x McGovern](../../../statecraft/voices/diesen/stream/diesen-mcgovern-speaker-arc.md)
-- [Dialogue Works x McGovern](../../../statecraft/channels/nima/stream/nima-mcgovern-speaker-arc.md)
+- [Dialogue Works x McGovern](../../../statecraft/channels/dialogue-works/stream/nima-mcgovern-speaker-arc.md)
 - [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
 
 ## Boundary

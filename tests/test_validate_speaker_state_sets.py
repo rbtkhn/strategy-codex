@@ -274,7 +274,7 @@ required_prefixes = ["substack-pape-"]
 
 
 def test_current_repo_registered_state_sets_validate() -> None:
-    for slug in ("pape", "crooke", "ritter", "parsi", "davis", "diesen"):
+    for slug in ("pape", "crooke", "ritter", "parsi", "daniel-davis", "diesen"):
         result = run_validator("--speaker", slug)
         assert result.returncode == 0, result.stderr
 
@@ -284,7 +284,7 @@ def test_current_repo_manifests_load_and_counts_are_registered() -> None:
     hosts_dir = REPO / "statecraft" / "channels"
     crooke, crooke_errors = validator.load_manifest("crooke", REPO, speakers_dir, hosts_dir)
     ritter, ritter_errors = validator.load_manifest("ritter", REPO, speakers_dir, hosts_dir)
-    davis, davis_errors = validator.load_manifest("davis", REPO, speakers_dir, hosts_dir)
+    davis, davis_errors = validator.load_manifest("daniel-davis", REPO, speakers_dir, hosts_dir)
     diesen, diesen_errors = validator.load_manifest("diesen", REPO, speakers_dir, hosts_dir)
 
     assert crooke_errors == []

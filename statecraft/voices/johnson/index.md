@@ -55,10 +55,10 @@ Johnson's orthogonality-bearing structure is:
 
 ## Main Host Arcs
 
-- [Davis host shelf](../../channels/davis/README.md)
+- [Davis host shelf](../../channels/daniel-davis/README.md)
 - [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md)
-- [Dialogue Works x Johnson](../../../statecraft/channels/nima/stream/nima-johnson-speaker-arc.md)
-- [Napolitano host shelf](../../channels/napolitano/README.md)
+- [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/stream/nima-johnson-speaker-arc.md)
+- [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Best Live Entry Files
 

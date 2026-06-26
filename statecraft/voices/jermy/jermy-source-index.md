@@ -61,7 +61,7 @@ Best first-open for June 2026:
 | --- | --- |
 | Neutrality Studies / Pascal Lottaz | primary — `source-neutrality-studies-*-steve-jermy-*` |
 | Glenn Diesen | [diesen source index](../diesen/diesen-source-index.md) — guest rows when landed |
-| Daniel Davis Deep Dive | [davis host](../channels/davis/README.md) · `source-daniel-davis-*-steve-jermy-*` |
+| Daniel Davis Deep Dive | [davis host](../channels/daniel-davis/README.md) · `source-daniel-davis-*-steve-jermy-*` |
 
 ## Reading rule
 

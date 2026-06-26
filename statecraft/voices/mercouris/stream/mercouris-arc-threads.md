@@ -39,7 +39,7 @@ If a new Mercouris item can live equally well in several of these without changi
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
 - [Diesen x Mercouris host-local arc](../../diesen/stream/diesen-mercouris-speaker-arc.md)
-- [Davis x Mercouris host-local arc](../../../../statecraft/channels/davis/stream/davis-mercouris-speaker-arc.md)
+- [Davis x Mercouris host-local arc](../../../../statecraft/channels/daniel-davis/stream/davis-mercouris-speaker-arc.md)
 - [Mercouris source index](../mercouris-source-index.md)
 
 ## 1. Institutional Narrative Turns Signals Into Statecraft

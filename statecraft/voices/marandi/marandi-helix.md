@@ -21,9 +21,9 @@ Dialogue Works is still the strongest single lane, but the shelf is not honestly
 
 | Lane | Structural status | Distinct register |
 |---|---|---|
-| [Dialogue Works x Marandi](../../../statecraft/channels/nima/stream/nima-marandi-speaker-arc.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
+| [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/stream/nima-marandi-speaker-arc.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
 | [Diesen x Marandi](../../../statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md) | mature co-supporting strand | strategic-order altitude, blockade logic, escalation horizon, anti-hegemonic consequence |
-| [Davis host shelf](../../channels/davis/README.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
+| [Davis host shelf](../../channels/daniel-davis/README.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
 
 ## What May 26 changes
 
@@ -51,7 +51,7 @@ Also keep the cross-speaker seams explicit:
 
 - Marandi = Iran-facing legitimacy, sovereignty, endurance, and selective leverage
 - [Barnes](../barnes/README.md) = U.S. domestic liability, executive-process fracture, and war-powers exposure
-- [Davis host shelf](../../channels/davis/README.md) = operational-feasibility and coercive-failure interpretation from the U.S. side
+- [Davis host shelf](../../channels/daniel-davis/README.md) = operational-feasibility and coercive-failure interpretation from the U.S. side
 
 That overlap is real on some crisis days, but the first-open jobs are different.
 
@@ -59,9 +59,9 @@ That overlap is real on some crisis days, but the first-open jobs are different.
 
 If the operator needs the cleanest Marandi helix entry:
 
-- open [Dialogue Works x Marandi](../../../statecraft/channels/nima/stream/nima-marandi-speaker-arc.md)
+- open [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/stream/nima-marandi-speaker-arc.md)
 - then [Diesen x Marandi](../../../statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md)
-- then the [Davis host shelf](../../channels/davis/README.md)
+- then the [Davis host shelf](../../channels/daniel-davis/README.md)
 
 If the operator specifically needs the late-May endpoint:
 

@@ -9,7 +9,7 @@ Local surfaces under review:
 - [kent-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-speaker-object.md)
 - [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
 - [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/carlson-kent-speaker-arc.md)
-- [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-kent-speaker-arc.md)
+- [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-kent-speaker-arc.md)
 - [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md)
 - [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/nawfal-kent-speaker-arc.md)
 - [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
@@ -25,7 +25,7 @@ Bounded claim:
 Arcs under review:
 
 - [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/carlson-kent-speaker-arc.md)
-- [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-kent-speaker-arc.md)
+- [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-kent-speaker-arc.md)
 - [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md)
 - [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/nawfal-kent-speaker-arc.md)
 
@@ -101,7 +101,7 @@ Main confusion zones:
 ## Recommended actions
 
 - keep Kent as a **cross-host reinforced object**, not a mature equal-strand helix
-- keep [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-kent-speaker-arc.md) as the thickest branch and default retrieval lane for Iran-war exit logic
+- keep [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-kent-speaker-arc.md) as the thickest branch and default retrieval lane for Iran-war exit logic
 - keep [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/carlson-kent-speaker-arc.md) as the witness spine
 - keep [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md) as the structural-history branch without overstating its density
 - keep [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/nawfal-kent-speaker-arc.md) as a real but thinner political-pressure branch

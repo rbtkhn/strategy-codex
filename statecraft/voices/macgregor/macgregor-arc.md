@@ -25,12 +25,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
+1. [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
 2. [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
 
 Reinforcing outer branch:
 
-- [Judging Freedom x Macgregor](../../../statecraft/channels/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
 
 ## What makes this an arc
 
@@ -51,7 +51,7 @@ That motion is broad enough that Macgregor deserves a person arc rather than onl
 
 Core host transformations:
 
-- [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
 - [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
 
 Supporting surfaces:
@@ -86,7 +86,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest direct branch:
 
-- open [Davis x Macgregor](../../../statecraft/channels/davis/stream/davis-macgregor-speaker-arc.md)
+- open [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
 
 ## Boundary
 

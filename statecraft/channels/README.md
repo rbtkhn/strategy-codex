@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: hold the canonical live **channel-family** continuity surfaces that belong to repo-root `statecraft/`.
 
+**Folder rule:** one subdirectory per **`channel_slug`** on the [main channel-index roster](../../source-archive/statecraft/channel-index.md) (`source-archive/statecraft/channel-index.json`). Archive `channel_slug` and shelf folder name must match.
+
 This layer exists so live channel-law, channel-native routing pressure, and guest-lane classification no longer depend on retired `codex/speakers/<host>/...` paths for active statecraft work.
 
 ## Vertical stack (archive → voices → channels → states)
@@ -17,39 +19,53 @@ Read live work in this order when layers blur:
 
 Do not flatten guest-on-host reads into `voices/` when host law changes retrieval posture.
 
-## Canonical Rule
+## Canonical rule
 
-- `statecraft/channels/` is the canonical home for live host-family continuity in repo-root `statecraft/`
-- `statecraft/sheets/` still owns cross-host comparison notes and compact routing law
-- `statecraft/voices/` still owns speaker-state identity, support spines, and speaker-native routing
-- `codex/speakers/<host>/...` is compatibility residue only; it may preserve chronology or archive material, but it is not the live authority for host-law
+- `statecraft/channels/<channel_slug>/` — one folder per main roster channel
+- `statecraft/sheets/` — cross-host comparison notes and compact routing law
+- `statecraft/voices/` — speaker-state identity, support spines, speaker-native routing
+- Legacy **`codex/speakers/`** terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
 
-## Current Migration Front
+## Main roster (15 channels)
 
-- [Davis](davis/README.md)
-- [Napolitano](napolitano/README.md)
-- [Nima (Dialogue Works)](nima/README.md)
-- [Neutrality Studies](neutrality-studies/README.md)
-- [Moral Resistance](moral-resistance/README.md) — Sulaiman Ahmed; Aguilar legislative-action · Parsi architecture lane
+| `channel_slug` | Shelf | Watchlist | Notes |
+| --- | --- | --- | --- |
+| `alexander-mercouris` | [alexander-mercouris/](alexander-mercouris/README.md) | yes | Solo Mercouris channel; analyst SSOT → [voices/mercouris](../voices/mercouris/) |
+| `dialogue-works` | [dialogue-works/](dialogue-works/README.md) | yes | Nima / Dialogue Works; [dialogue-works-index.md](dialogue-works/dialogue-works-index.md) |
+| `daniel-davis` | [daniel-davis/](daniel-davis/README.md) | yes | Feasibility / settlement-room host law |
+| `glenn-diesen` | [glenn-diesen/](glenn-diesen/README.md) | yes | Diesen channel; analyst SSOT → [voices/diesen](../voices/diesen/) |
+| `judging-freedom` | [judging-freedom/](judging-freedom/README.md) | yes | Legal / constitutional / process pressure |
+| `mario-nawfal` | [mario-nawfal/](mario-nawfal/README.md) | | Breaking-headline register (≠ Moral Resistance) |
+| `the-duran` | [the-duran/](the-duran/README.md) | yes | Duran channel (Mercouris + Christoforou) |
+| `india-global-left` | [india-global-left/](india-global-left/README.md) | | |
+| `neutrality-studies` | [neutrality-studies/](neutrality-studies/README.md) | | Pascal Lottaz neutralist host frame |
+| `predictive-history` | [predictive-history/](predictive-history/README.md) | | Operator PH YouTube (≠ `codex/predictive-history/` book) |
+| `breaking-points` | [breaking-points/](breaking-points/README.md) | | |
+| `tucker-carlson` | [tucker-carlson/](tucker-carlson/README.md) | | |
+| `reason-resist` | [reason-resist/](reason-resist/README.md) | | |
+| `redacted-news` | [redacted-news/](redacted-news/README.md) | yes | |
+| `moral-resistance` | [moral-resistance/](moral-resistance/README.md) | | Sulaiman Ahmed; MOU / legislative-action lane |
 
-[Davis](davis/README.md) and [Napolitano](napolitano/README.md) are the highest-leverage hosts for feasibility vs legal/process pressure:
+Low-volume channels: [channel-index-misc.md](../../source-archive/statecraft/channel-index-misc.md) (misc roster — add shelves when promoted).
 
-- `Davis` = feasibility, bargaining geometry, and settlement-room pressure
-- `Napolitano` = legal, constitutional, and process pressure
+## High-leverage host orthogonality
 
-[Nima](nima/README.md) owns Dialogue Works interview framing, dual-thread ingest discipline (`thread:alkorshid`), and guest-discovery routing. Channel index: [dialogue-works-index.md](nima/dialogue-works-index.md). Legacy codex stream remains compatibility residue.
+[Davis](daniel-davis/README.md) and [Napolitano](judging-freedom/README.md):
 
-Their shared comparison note remains in [host-backbone-napolitano-davis-orthogonality-2026-05.md](../sheets/host-backbone-napolitano-davis-orthogonality-2026-05.md).
+- **Daniel Davis** — feasibility, bargaining geometry, settlement-room pressure
+- **Judging Freedom** — legal, constitutional, process pressure
 
-## What Belongs Here
+Shared comparison: [host-backbone-napolitano-davis-orthogonality-2026-05.md](../sheets/host-backbone-napolitano-davis-orthogonality-2026-05.md).
 
-- host front doors
+## What belongs here
+
+- channel front doors (`README.md`, `index.md`)
 - host-law notes
-- host identity profiles (`<host>-profile.md`) when the live host shelf is canonical here
-- host-native guest-lane maps
+- host identity profiles when the live channel shelf is canonical here
+- host-native guest-lane maps (`stream/` when justified)
 - live routing distinctions that apply across multiple speaker shelves
 
-## What Does Not Belong Here
+## What does not belong here
 
 - raw transcript authority
 - lane judgment
@@ -58,12 +74,14 @@ Their shared comparison note remains in [host-backbone-napolitano-davis-orthogon
 
 ## Boundary
 
-Use this layer when the real question is how a host changes a guest, not when the real question is whole-speaker identity or raw-source chronology.
+Use this layer when the real question is how a **channel** changes a guest, not when the real question is whole-speaker identity or raw-source chronology.
 
-## Intake Law
+## Intake law
 
-In live lane entry, host law sits between speaker synthesis and downstream drafting:
+`Statecraft Archive → Statecraft Synthesis → channel / host law → bridge if needed → lane drafting`
 
-`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+Open the **`channel_slug`** shelf matching capture frontmatter before jumping to helix, state, or bridge splits when the bottleneck is still transcript-conditioned reading.
 
-That means a lane menu should open hosts such as [Davis](davis/README.md) or [Napolitano](napolitano/README.md) before jumping straight to `helix`, `state`, `transactions`, or a polished bridge split when the real bottleneck is still transcript-conditioned reading.
+## Maintenance
+
+Align shelves to index: `python scripts/align_channel_shelves_to_index.py` (after `channel-index.json` changes).

@@ -19,16 +19,16 @@ The dense April-May 2026 thread atlas lives in [stream/johnson-april-may-2026-ar
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
 | [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, and wider order consequence |
-| [Davis host shelf](../../channels/davis/README.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage |
-| [Dialogue Works x Johnson](../../../statecraft/channels/nima/stream/nima-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, and humiliation tempo |
+| [Davis host shelf](../../channels/daniel-davis/README.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage |
+| [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/stream/nima-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, and humiliation tempo |
 
 Auxiliary reinforcement:
 
-- the [Napolitano host shelf](../../channels/napolitano/README.md) is a real auxiliary branch, but not a fourth canonical strand
+- the [Napolitano host shelf](../../channels/judging-freedom/README.md) is a real auxiliary branch, but not a fourth canonical strand
 
 ## Open First
 
-- best single helix introduction: [Davis host shelf](../../channels/davis/README.md)
+- best single helix introduction: [Davis host shelf](../../channels/daniel-davis/README.md)
 - best comparative pair: Davis then Diesen
 - add Dialogue Works when the task needs the sharpest present-tense crisis surface
 

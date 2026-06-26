@@ -22,7 +22,7 @@
 **Broader bench grounding surfaces**
 
 - `Davis` practical-room law:
-  - [statecraft/channels/davis/davis-host-law.md](/C:/dev/strategy-codex/statecraft/channels/davis/davis-host-law.md)
+  - [statecraft/channels/daniel-davis/davis-host-law.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-host-law.md)
 - `Ritter` person arc:
   - [statecraft/voices/ritter/ritter-arc.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-arc.md)
 - `Diesen` speaker object:

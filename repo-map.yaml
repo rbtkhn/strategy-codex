@@ -221,7 +221,7 @@ routes:
   category: work
 - id: davis-host-shelf
   title: Davis (Deep Dive) host shelf
-  path: statecraft/channels/davis/README.md
+  path: statecraft/channels/daniel-davis/README.md
   kind: routing_aid
   authority: work_only
   domain:
@@ -248,7 +248,7 @@ routes:
   category: work
 - id: napolitano-host-shelf
   title: Napolitano (Judging Freedom) host shelf
-  path: statecraft/channels/napolitano/README.md
+  path: statecraft/channels/judging-freedom/README.md
   kind: routing_aid
   authority: work_only
   domain:
@@ -274,7 +274,7 @@ routes:
   category: work
 - id: nima-host-shelf
   title: Nima (Dialogue Works) host shelf
-  path: statecraft/channels/nima/README.md
+  path: statecraft/channels/dialogue-works/README.md
   kind: routing_aid
   authority: work_only
   domain:
@@ -301,7 +301,7 @@ routes:
   category: work
 - id: dialogue-works-index
   title: Dialogue Works channel index
-  path: statecraft/channels/nima/dialogue-works-index.md
+  path: statecraft/channels/dialogue-works/dialogue-works-index.md
   kind: source_index
   authority: work_only
   domain:

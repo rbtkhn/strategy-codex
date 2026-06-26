@@ -43,8 +43,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | archive-synthesis-law-essay | essay | work | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) | archive synthesis law, statecraft archive synthesis, vertical law stack, … |
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
-| davis-host-shelf | routing_aid | work | [statecraft/channels/davis/README.md](statecraft/channels/davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
-| dialogue-works-index | source_index | work | [statecraft/channels/nima/dialogue-works-index.md](statecraft/channels/nima/dialogue-works-index.md) | Dialogue Works index, dialogue-works-index, source-dialogue-works, … |
+| davis-host-shelf | routing_aid | work | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
+| dialogue-works-index | source_index | work | [statecraft/channels/dialogue-works/dialogue-works-index.md](statecraft/channels/dialogue-works/dialogue-works-index.md) | Dialogue Works index, dialogue-works-index, source-dialogue-works, … |
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index |
@@ -67,8 +67,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | mearsheimer-source-index | source_index | work | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | Mearsheimer index, mearsheimer source index |
 | memory | work_continuity | work | [memory.md](memory.md) | session continuity, operator memory buffer |
 | mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index |
-| napolitano-host-shelf | routing_aid | work | [statecraft/channels/napolitano/README.md](statecraft/channels/napolitano/README.md) | Napolitano host, Judging Freedom, Napolitano profile, … |
-| nima-host-shelf | routing_aid | work | [statecraft/channels/nima/README.md](statecraft/channels/nima/README.md) | Nima host, Dialogue Works host, Nima profile, … |
+| napolitano-host-shelf | routing_aid | work | [statecraft/channels/judging-freedom/README.md](statecraft/channels/judging-freedom/README.md) | Napolitano host, Judging Freedom, Napolitano profile, … |
+| nima-host-shelf | routing_aid | work | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | Nima host, Dialogue Works host, Nima profile, … |
 | operator-uses-statecraft-machine-essay | essay | work | [essays/how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) | how operator uses statecraft, memory to mechanism, lane membrane test, … |
 | pape-source-index | source_index | work | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | Pape index, pape source index |
 | parsi-source-index | source_index | work | [statecraft/voices/parsi/parsi-source-index.md](statecraft/voices/parsi/parsi-source-index.md) | Parsi index, parsi source index |
@@ -126,11 +126,11 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | host | path | repo-map id |
 |---|---|---|
-| davis | [statecraft/channels/davis/README.md](statecraft/channels/davis/README.md) | davis-host-shelf |
+| davis | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | davis-host-shelf |
 | moral-resistance | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | — |
-| napolitano | [statecraft/channels/napolitano/README.md](statecraft/channels/napolitano/README.md) | napolitano-host-shelf |
+| napolitano | [statecraft/channels/judging-freedom/README.md](statecraft/channels/judging-freedom/README.md) | napolitano-host-shelf |
 | neutrality-studies | [statecraft/channels/neutrality-studies/README.md](statecraft/channels/neutrality-studies/README.md) | — |
-| nima | [statecraft/channels/nima/README.md](statecraft/channels/nima/README.md) | nima-host-shelf |
+| nima | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | nima-host-shelf |
 
 ## Repo routing metrics
 

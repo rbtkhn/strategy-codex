@@ -20,11 +20,11 @@ Quick separation rule:
 Its core embodied lanes are:
 
 1. [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md) - imperial-decline altitude and systemic consequence
-2. [Dialogue Works x Wilkerson](../../../statecraft/channels/nima/stream/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
+2. [Dialogue Works x Wilkerson](../../../statecraft/channels/dialogue-works/stream/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
 
 Auxiliary reinforcement:
 
-- [Napolitano x Wilkerson](../../../statecraft/channels/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
+- [Napolitano x Wilkerson](../../../statecraft/channels/judging-freedom/stream/napolitano-wilkerson-speaker-arc.md)
 
 ## What makes this an arc
 

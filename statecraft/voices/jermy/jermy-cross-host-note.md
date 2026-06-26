@@ -8,7 +8,7 @@ Purpose: make the Jermy object legible as a real triple-speaker-helix rather tha
 
 Jermy is not only a Davis-side blockade guest. There is now clear evidence for three real host-local branches:
 
-- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-jermy-speaker-arc.md)
+- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-jermy-speaker-arc.md)
 - [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
 - [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
 

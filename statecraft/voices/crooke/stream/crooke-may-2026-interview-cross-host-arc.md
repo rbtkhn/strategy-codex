@@ -26,8 +26,8 @@ May 2026 shows the interview strand after the coercive fantasy has already broke
 
 ## Host-local routes
 
-- [Davis x Crooke](../../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](../../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](../../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md)
 
 ## Boundary
 

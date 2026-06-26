@@ -8,7 +8,7 @@ Surfaces reviewed:
 
 - [mercouris-arc.md](stream/mercouris-arc.md)
 - [mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
-- [davis-mercouris-speaker-arc.md](../../channels/davis/stream/davis-mercouris-speaker-arc.md)
+- [davis-mercouris-speaker-arc.md](../../channels/daniel-davis/stream/davis-mercouris-speaker-arc.md)
 - [diesen-mercouris-speaker-arc.md](../diesen/stream/diesen-mercouris-speaker-arc.md)
 
 Bounded claim:

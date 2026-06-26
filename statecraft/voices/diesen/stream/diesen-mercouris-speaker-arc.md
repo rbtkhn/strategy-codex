@@ -15,7 +15,7 @@ Quick separation rule:
 - `Diesen x Mercouris` = order-transition and legitimacy-crisis pressure on Mercouris's institutional read
 - [mercouris-arc.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc.md) = native bounded arc shape
 - [mercouris-arc-threads.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc-threads.md) = canonical recurring-strand atlas
-- [davis-mercouris-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-mercouris-speaker-arc.md) = force-feasibility and restraint-policy branch
+- [davis-mercouris-speaker-arc.md](../../../../statecraft/channels/daniel-davis/stream/davis-mercouris-speaker-arc.md) = force-feasibility and restraint-policy branch
 
 If a Mercouris item matters mainly because Diesen is asking what Europe's crisis means for order transition, sovereignty, and post-unipolar placement, it belongs here. If it matters mainly because Mercouris is extending one of his native recurring strands independent of host pressure, prefer the native arc or thread atlas.
 
@@ -98,7 +98,7 @@ Distinct from:
 
 - the native [mercouris-arc.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc.md), which carries the broader stream-native motion
 - [mercouris-arc-threads.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc-threads.md), which separates recurring Mercouris strands regardless of host
-- [davis-mercouris-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-mercouris-speaker-arc.md), which is less about European legitimacy and more about execution, sustainability, and force reality
+- [davis-mercouris-speaker-arc.md](../../../../statecraft/channels/daniel-davis/stream/davis-mercouris-speaker-arc.md), which is less about European legitimacy and more about execution, sustainability, and force reality
 
 ## Boundaries
 

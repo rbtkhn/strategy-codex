@@ -50,9 +50,9 @@ not:
 
 | Lane | Speaker-owned role | Best use |
 |---|---|---|
-| [Dialogue Works x Marandi](../../../statecraft/channels/nima/stream/nima-marandi-speaker-arc.md) | legitimacy and red-line lane | selective Hormuz, Gulf complicity, regional signaling, security architecture claims |
+| [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/stream/nima-marandi-speaker-arc.md) | legitimacy and red-line lane | selective Hormuz, Gulf complicity, regional signaling, security architecture claims |
 | [Diesen x Marandi](../../../statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md) | altitude lane | escalation horizon, blockade consequence, anti-hegemonic and wider-order framing |
-| [Davis host shelf](../../channels/davis/README.md) | practical severity lane | failed intimidation, coercive limits, political resilience, shrinking U.S. room |
+| [Davis host shelf](../../channels/daniel-davis/README.md) | practical severity lane | failed intimidation, coercive limits, political resilience, shrinking U.S. room |
 
 ## Why this shelf is not Barnes-shaped
 

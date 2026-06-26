@@ -10,7 +10,7 @@ Armstrong is now a real speaker object on the shelf, and he now has one clearly 
 
 The main mature branch is:
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-armstrong-speaker-arc.md)
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-armstrong-speaker-arc.md)
 
 The native Armstrong shelf still matters as a real body and orientation surface:
 
@@ -24,7 +24,7 @@ There is also one materially real outside-host reinforcement on disk:
 
 And there are real page-level and thread-level reinforcements elsewhere in the Codex:
 
-- [armstrong-cash-hormuz-digital-dollar-arc](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-thread.md:495)
+- [armstrong-cash-hormuz-digital-dollar-arc](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-thread.md:495)
 - recurring pairings against `jermy`, `diesen`, `sachs`, and `pape`
 
 That matters because the Armstrong object is clearly reusable. But it still does not yet justify a stable second host-local branch doctrine or a full double-helix claim.

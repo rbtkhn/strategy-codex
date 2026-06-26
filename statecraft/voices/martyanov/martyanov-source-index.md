@@ -57,8 +57,8 @@ These rows are not yet materialized into `source-archive/statecraft`, but the di
 
 ## Host-Arc Entries
 
-- [Dialogue Works x Martyanov](../../../statecraft/channels/nima/stream/nima-martyanov-speaker-arc.md)
-- [Davis x Martyanov](../../../statecraft/channels/davis/stream/davis-martyanov-speaker-arc.md)
+- [Dialogue Works x Martyanov](../../../statecraft/channels/dialogue-works/stream/nima-martyanov-speaker-arc.md)
+- [Davis x Martyanov](../../../statecraft/channels/daniel-davis/stream/davis-martyanov-speaker-arc.md)
 - [Diesen x Martyanov](../../../statecraft/voices/diesen/stream/diesen-martyanov-speaker-arc.md)
 
 ## Reading Rule

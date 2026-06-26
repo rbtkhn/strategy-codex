@@ -84,7 +84,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether a target can actually be penetrated, intercepted, or destroyed rather than what that means for wider strategic stability, route outward to [davis-postol-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-postol-speaker-arc.md).
+- If the question is mainly about whether a target can actually be penetrated, intercepted, or destroyed rather than what that means for wider strategic stability, route outward to [davis-postol-speaker-arc.md](../../../../statecraft/channels/daniel-davis/stream/davis-postol-speaker-arc.md).
 
 - Postol is strongest here on technical correction and deterrence consequence, not on bargaining-room diplomacy or domestic process.
 - This arc is clearly real in the stream, but most of it is still not materialized to canonical raw-input on disk.

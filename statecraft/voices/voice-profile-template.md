@@ -9,7 +9,7 @@ Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-pr
 - **Full (Tier A linguistic):** [barnes/barnes-profile.md](barnes/barnes-profile.md) · [mercouris/mercouris-profile.md](mercouris/mercouris-profile.md) · [mearsheimer/mearsheimer-profile.md](mearsheimer/mearsheimer-profile.md)
 - **Seed:** [weichert/weichert-profile.md](weichert/weichert-profile.md) · [pape/pape-profile.md](pape/pape-profile.md)
 
-**Host profiles** reuse the same spine; swap shelf pointers and role framing for host-law / guest-transformation jobs. Exemplar: [../channels/davis/davis-profile.md](../channels/davis/davis-profile.md).
+**Host profiles** reuse the same spine; swap shelf pointers and role framing for host-law / guest-transformation jobs. Exemplar: [../channels/daniel-davis/davis-profile.md](../channels/daniel-davis/davis-profile.md).
 
 ---
 

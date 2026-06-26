@@ -11,9 +11,9 @@ Local surfaces under review:
 - [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md)
 - [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md)
-- [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-marandi-speaker-arc.md)
+- [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-marandi-speaker-arc.md)
 - [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md)
-- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-marandi-speaker-arc.md)
+- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-marandi-speaker-arc.md)
 - [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md)
 
 Bounded claim:
@@ -26,9 +26,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/davis/stream/davis-marandi-speaker-arc.md)
+- [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-marandi-speaker-arc.md)
 - [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md)
-- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/nima/stream/nima-marandi-speaker-arc.md)
+- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-marandi-speaker-arc.md)
 
 Threads under review:
 

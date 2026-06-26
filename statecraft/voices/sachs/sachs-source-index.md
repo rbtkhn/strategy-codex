@@ -105,7 +105,7 @@ These bounded additions were landed to bring every live Sachs month from `2025-0
 ## Host-Arc Entries
 
 - [Diesen x Sachs](../../../source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
-- [Napolitano host shelf](../../channels/napolitano/README.md)
+- [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Reading Rule
 

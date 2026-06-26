@@ -3,7 +3,7 @@ WORK only; not Record.
 # Jan 30 2026 — Jermy × Mercouris weave (Iran armada / Lincoln CSG vs institutional Iran–Kiev lane)
 
 **Pub date:** 2026-01-30  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Davis host index](../channels/davis/index.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Davis host index](../channels/daniel-davis/index.md)
 
 **Sources:**
 

@@ -4,6 +4,6 @@ WORK only; not Record.
 
 The canonical Dialogue Works host profile now lives here:
 
-- [statecraft/channels/nima/nima-profile.md](../../statecraft/channels/nima/nima-profile.md)
+- [statecraft/channels/dialogue-works/nima-profile.md](../../statecraft/channels/dialogue-works/nima-profile.md)
 
 Use `nima` as the canonical host/thread id in new routing and doctrine. `alkorshid` remains a compatibility spelling only.

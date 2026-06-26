@@ -48,7 +48,7 @@ Do not open McGovern first when the real question is:
 - domestic liability, room-failure, or survivability of the White House coalition
   - open [Barnes](../barnes/README.md)
 - constitutional absurdity or blockade irrationality without the intelligence-memory layer
-  - open [Johnson](../johnson/README.md) or [Napolitano host shelf](../../channels/napolitano/README.md)
+  - open [Johnson](../johnson/README.md) or [Napolitano host shelf](../../channels/judging-freedom/README.md)
 - Iranian legitimacy, resolve, or civilizational red lines
   - open [Marandi](../marandi/README.md)
 

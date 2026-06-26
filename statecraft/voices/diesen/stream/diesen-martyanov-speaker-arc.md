@@ -80,7 +80,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether the battlefield has already decided the issue rather than how that outcome reshapes wider order, route outward to [davis-martyanov-speaker-arc.md](../../../../statecraft/channels/davis/stream/davis-martyanov-speaker-arc.md).
+- If the question is mainly about whether the battlefield has already decided the issue rather than how that outcome reshapes wider order, route outward to [davis-martyanov-speaker-arc.md](../../../../statecraft/channels/daniel-davis/stream/davis-martyanov-speaker-arc.md).
 
 - Martyanov is strongest here on strategic consequence grounded in military outcome, not on diplomacy-first sequence or legitimacy framing.
 - This branch is materially real on disk, but thinner than the Alkorshid and Davis branches in the current shelf.

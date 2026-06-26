@@ -29,6 +29,20 @@ from yaml_compat import safe_load_text  # noqa: E402
 
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
+DEFAULT_CHANNELS_DIR = REPO_ROOT / "statecraft" / "channels"
+
+# channel-index folder slug -> legacy file prefix inside shelf
+CHANNEL_OBJECT_PREFIX = {
+    "daniel-davis": "davis",
+    "judging-freedom": "napolitano",
+    "dialogue-works": "nima",
+}
+# legacy host slug -> channel-index folder name
+CHANNEL_FOLDER_ALIASES = {
+    "davis": "daniel-davis",
+    "napolitano": "judging-freedom",
+    "nima": "dialogue-works",
+}
 DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 DEFAULT_CHANNELS_DIR = REPO_ROOT / "statecraft" / "channels"
 DEFAULT_SPEAKERS_DIR = DEFAULT_VOICES_DIR
@@ -207,7 +221,8 @@ def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInven
             if folder.name.startswith("_") or folder.name in {"relations", "map"}:
                 continue
             speaker_folders[folder.name] = folder
-            obj = folder / f"{folder.name}-speaker-object.md"
+            prefix = CHANNEL_OBJECT_PREFIX.get(folder.name, folder.name)
+            obj = folder / f"{prefix}-speaker-object.md"
             if obj.exists():
                 speaker_objects[folder.name] = obj
     speaker_comparative_notes: dict[str, list[Path]] = {}
@@ -254,11 +269,17 @@ def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInven
 def _match_speaker(value: object, inventory: SpeakerInventory) -> str | None:
     candidates = _slug_candidates(value)
     for candidate in candidates:
+        folder_key = CHANNEL_FOLDER_ALIASES.get(candidate, candidate)
+        if folder_key in inventory.speaker_folders:
+            return folder_key
         if candidate in inventory.speaker_folders:
             return candidate
     for speaker in inventory.speaker_folders:
         if speaker in candidates:
             return speaker
+        for candidate in candidates:
+            if CHANNEL_FOLDER_ALIASES.get(candidate) == speaker:
+                return speaker
     return None
 
 

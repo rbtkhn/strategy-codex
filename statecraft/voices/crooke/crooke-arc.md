@@ -30,8 +30,8 @@ If the question is mainly "what is Crooke's mechanism?", open the authored ledge
 Its main interview lanes are:
 
 1. [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) - order-transition altitude and system-shock consequence
-2. [Davis x Crooke](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
-3. [Dialogue Works x Crooke](../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
+2. [Davis x Crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
+3. [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
 
 Its authored mechanism spine is:
 
@@ -57,8 +57,8 @@ That motion is why Crooke now deserves a person arc rather than only a helix plu
 Interview transformations:
 
 - [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) - best for order-transition altitude
-- [Davis x Crooke](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md) - best for bargaining-room realism
-- [Dialogue Works x Crooke](../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md) - best for live crisis meaning
+- [Davis x Crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md) - best for bargaining-room realism
+- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) - best for live crisis meaning
 
 Authored mechanism:
 
@@ -95,7 +95,7 @@ If the operator needs the mechanism first:
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
 
 ## Boundary
 

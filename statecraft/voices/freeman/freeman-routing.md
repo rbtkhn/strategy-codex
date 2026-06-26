@@ -21,9 +21,9 @@ Freeman now has a canonical statecraft shelf of his own, but the efficient readi
 | If the Codex needs... | Open first | Why |
 |---|---|---|
 | order-transition consequence, diplomatic memory, or maritime-system altitude | [diesen-freeman-arc.md](../../../statecraft/voices/diesen/stream/diesen-freeman-arc.md) | Diesen carries the highest-altitude Freeman transformation. |
-| settlement realism, coercive failure, or diplomacy under military pressure | [davis-lane-map-2026-05.md](../../channels/davis/davis-lane-map-2026-05.md) | Davis is the cleanest strategic-room and end-state testing lane. |
-| live crisis pressure, Gulf positioning, or alliance strain | [nima-freeman-arc.md](../../../statecraft/channels/nima/stream/nima-freeman-arc.md) | Dialogue Works sharpens present-tense crisis pressure. |
-| legal-moral critique, legitimacy stress, or anti-war framing | [napolitano-lane-map-2026-05.md](../../channels/napolitano/napolitano-lane-map-2026-05.md) | Judging Freedom is the cleanest legitimacy lane. |
+| settlement realism, coercive failure, or diplomacy under military pressure | [davis-lane-map-2026-05.md](../../channels/daniel-davis/davis-lane-map-2026-05.md) | Davis is the cleanest strategic-room and end-state testing lane. |
+| live crisis pressure, Gulf positioning, or alliance strain | [nima-freeman-arc.md](../../../statecraft/channels/dialogue-works/stream/nima-freeman-arc.md) | Dialogue Works sharpens present-tense crisis pressure. |
+| legal-moral critique, legitimacy stress, or anti-war framing | [napolitano-lane-map-2026-05.md](../../channels/judging-freedom/napolitano-lane-map-2026-05.md) | Judging Freedom is the cleanest legitimacy lane. |
 | cross-host orientation to Freeman as one object | [freeman-helix.md](freeman-helix.md) | The helix explains how the four lanes and bench fit together. |
 | month-level synthesis across hosts | [stream/README.md](stream/README.md) | The month ladder gives bounded Jan-May synthesis without replacing host chronology. |
 | provenance-first routing, including non-core appearances | [freeman-source-index.md](freeman-source-index.md) | This is the canonical source bench. |

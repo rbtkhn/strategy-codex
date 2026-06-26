@@ -65,8 +65,8 @@ The legacy `statecraft/voices/crooke/` path is now front-door compatibility only
 ## Host Lanes
 
 - [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md)
 
 ## Boundary
 

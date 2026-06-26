@@ -39,8 +39,8 @@ Reading rule: open the authored row first when the question is "what is Crooke's
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
 | [diesen x crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) | Order-transition altitude | Multipolar consequence, strategic irrationality at the center, supply-line and Hormuz system shock, and how a regional war becomes a world-order event |
-| [davis x crooke](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
-| [dialogue works x crooke](../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
+| [davis x crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
+| [dialogue works x crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
 
 ## Orthogonality guide
 
@@ -56,14 +56,14 @@ Do not use `Diesen` as a shortcut for bargaining structure, `Davis` as a shortcu
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/davis/stream/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
 - then [diesen-crooke-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
 
-Add [nima-crooke-speaker-arc.md](../../../statecraft/channels/nima/stream/nima-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
+Add [nima-crooke-speaker-arc.md](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
 
 ## Routing use
 
