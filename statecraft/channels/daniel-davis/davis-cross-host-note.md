@@ -44,6 +44,8 @@ That is enough to justify a speaker folder even before any broader cross-host do
 
 ## Future trigger
 
+Cross-host guest routing is now materialized: [`davis-index.md`](davis-index.md) (6 captures as of 2026-06). Host Deep Dive shelf: [`daniel-davis-channel-index.md`](daniel-davis-channel-index.md).
+
 Create stronger Davis cross-host doctrine only if one or more of the following becomes materially useful:
 
 - real outside-host appearances begin to matter for routing

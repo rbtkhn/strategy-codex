@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Compatibility pointer only.
 
-The canonical route map now lives at [daniel-davis-index.md](daniel-davis-index.md).
+Guest captures: [davis-index.md](davis-index.md). Host channel: [daniel-davis-channel-index.md](daniel-davis-channel-index.md).
 
-Use the `{channel_slug}-index` name going forward; this file remains only as a stable back-compat entry for older links and notes.
+Use the split indexes going forward; this file remains only as a stable back-compat entry for older links and notes.

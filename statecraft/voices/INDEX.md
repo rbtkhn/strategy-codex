@@ -62,7 +62,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Barnes index | [barnes/](barnes/) |
 | Robert Barnes corpus | [barnes/barnes-source-index.md](barnes/barnes-source-index.md), `source-archive/statecraft/**/source-*barnes*` |
 | Mercouris index | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
-| Daniel Davis × guest | Guest source-index + [statecraft/channels/daniel-davis/](../channels/daniel-davis/README.md) |
+| Daniel Davis × guest | [davis-index.md](../channels/daniel-davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
 | Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |
 | Generic "source index" | This file → lens row → `*-source-index.md` |

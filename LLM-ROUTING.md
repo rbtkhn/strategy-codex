@@ -47,7 +47,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
 | channel-index-roster | routing_aid | work | `statecraft/channels/channel-index.json` | channel index, channel-index.json, channel-index.md, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
+| daniel-davis-channel-index | source_index | work | [statecraft/channels/daniel-davis/daniel-davis-channel-index.md](statecraft/channels/daniel-davis/daniel-davis-channel-index.md) | Daniel Davis index, daniel-davis-channel-index, daniel-davis-index, … |
 | davis-host-shelf | routing_aid | work | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
+| davis-index | source_index | work | [statecraft/channels/daniel-davis/davis-index.md](statecraft/channels/daniel-davis/davis-index.md) | Davis guest index, davis-index, Daniel Davis guest, … |
 | dialogue-works-channel-index | source_index | work | [statecraft/channels/dialogue-works/dialogue-works-channel-index.md](statecraft/channels/dialogue-works/dialogue-works-channel-index.md) | Dialogue Works index, dialogue-works-channel-index, dialogue-works-index, … |
 | diesen-index | source_index | work | [statecraft/voices/diesen/diesen-index.md](statecraft/voices/diesen/diesen-index.md) | Diesen guest index, diesen cross-host |
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
@@ -153,9 +155,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 - source indexes (disk): 28
 - host shelves (disk): 15
-- markdown links (INDEX + source-index files): 934
-- repo-map routes: 56 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=30, work_continuity=1)
-- source_index routes in repo-map: 30
+- markdown links (INDEX + source-index files): 935
+- repo-map routes: 58 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=32, work_continuity=1)
+- source_index routes in repo-map: 32
 - host_shelf routes in repo-map: 3
 - registry: INDEX lists 26/28, repo-map lists 24/28 (85.7% bijection when both match)
 - host shelves: repo-map lists 3/15 (20.0%)

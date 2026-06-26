@@ -246,6 +246,52 @@ routes:
   - Davis profile
   - feasibility host
   category: work
+- id: daniel-davis-channel-index
+  title: Daniel Davis channel index
+  path: statecraft/channels/daniel-davis/daniel-davis-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - deep-dive
+  hosts:
+  - Daniel Davis Deep Dive
+  people:
+  - Daniel Davis
+  tags:
+  - daniel-davis
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Daniel Davis index
+  - daniel-davis-channel-index
+  - daniel-davis-index
+  - source-daniel-davis
+  - Deep Dive index
+  category: work
+- id: davis-index
+  title: Davis index (guest)
+  path: statecraft/channels/daniel-davis/davis-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - deep-dive
+  people:
+  - Daniel Davis
+  tags:
+  - davis
+  - guest-index
+  - statecraft
+  search_hints:
+  - Davis guest index
+  - davis-index
+  - Daniel Davis guest
+  - Davis cross-host
+  category: work
 - id: napolitano-host-shelf
   title: Napolitano (Judging Freedom) host shelf
   path: statecraft/channels/judging-freedom/README.md
