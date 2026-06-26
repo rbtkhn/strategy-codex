@@ -4,6 +4,7 @@ pub_date: 2026-04-24
 kind: operator-transcript
 source_form: interview
 show: Dialogue Works
+channel_slug: dialogue-works
 host: Nima
 guest: Chas W. Freeman
 thread: freeman

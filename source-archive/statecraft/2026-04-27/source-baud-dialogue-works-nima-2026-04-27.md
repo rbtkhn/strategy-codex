@@ -5,6 +5,7 @@ kind: transcript
 source_form: interview
 thread: baud
 show: Dialogue Works
+channel_slug: dialogue-works
 host: Nima Alkhorshid
 guest: Col. Jacques Baud
 title: "Trump's Final Card Just Ended Israel — Full Breakdown"

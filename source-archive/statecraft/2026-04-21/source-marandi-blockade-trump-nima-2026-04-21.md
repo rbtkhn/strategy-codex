@@ -4,6 +4,7 @@ pub_date: 2026-04-21
 kind: operator-transcript
 source_form: interview
 show: Dialogue Works
+channel_slug: dialogue-works
 host: Nima
 guest: Seyed Mohammad Marandi
 thread_expert: marandi

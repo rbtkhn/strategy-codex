@@ -479,6 +479,22 @@ routes:
   - verbatim transcript
   - statecraft source file
   - source-archive source
+- id: alkorshid-index
+  title: Alkorshid index (guest)
+  path: statecraft/voices/alkorshid/alkorshid-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - alkorshid
+  - nima
+  - guest-index
+  - statecraft
+  - voices
+  search_hints:
+  - Alkorshid guest index
+  - Nima Alkorshid cross-host
+  - alkorshid index
+  category: work
 - id: barnes-source-index
   title: Barnes source index
   path: statecraft/voices/barnes/barnes-source-index.md
@@ -527,8 +543,22 @@ routes:
   - Crooke index
   - crooke source index
   category: work
+- id: diesen-index
+  title: Diesen index (guest)
+  path: statecraft/voices/diesen/diesen-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - diesen
+  - guest-index
+  - statecraft
+  - voices
+  search_hints:
+  - Diesen guest index
+  - diesen cross-host
+  category: work
 - id: diesen-source-index
-  title: Diesen source index
+  title: Diesen source index (compat redirect)
   path: statecraft/voices/diesen/diesen-source-index.md
   kind: source_index
   authority: work_only

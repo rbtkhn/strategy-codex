@@ -69,5 +69,5 @@ Apply Dialogue Works normalize / `source-dialogue-works-*` prefix **only** when 
 ## Related
 
 - [nima-host-law.md](nima-host-law.md)
-- [diesen-source-index.md](../../voices/diesen/diesen-source-index.md) — exemplar index
+- [diesen-index.md](../../voices/diesen/diesen-index.md) — exemplar guest-only voice index (host → channel shelf)
 - Audit artifacts: `statecraft/audits/dialogue-works-alkorshid-audit-*.csv`

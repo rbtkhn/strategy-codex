@@ -11,7 +11,9 @@ Purpose: front door for the canonical first-pass Diesen `civ-lens` shelf.
 - [diesen-speaker-object.md](diesen-speaker-object.md)
 - [diesen-cross-host-note.md](diesen-cross-host-note.md)
 - [diesen-host-wiring-2026.md](diesen-host-wiring-2026.md)
-- [diesen-source-index.md](diesen-source-index.md)
+- [diesen-index.md](diesen-index.md) — cross-host **guest** captures
+- [glenn-diesen-channel-index.md](../../channels/glenn-diesen/glenn-diesen-channel-index.md) — host channel (via [channel shelf](../../channels/glenn-diesen/README.md))
+- [diesen-source-index.md](diesen-source-index.md) — compat redirect to split above
 - [stream/diesen-thread.md](stream/diesen-thread.md) - legacy host-continuity surface; not a canonical topical thread
 
 ## Canonical Structure
@@ -21,7 +23,7 @@ The orthogonality-bearing structure on this shelf is:
 - the host shelf front door in [README.md](README.md)
 - the speaker-object orientation surfaces in [diesen-speaker-object.md](diesen-speaker-object.md), [diesen-cross-host-note.md](diesen-cross-host-note.md), and [diesen-host-wiring-2026.md](diesen-host-wiring-2026.md)
 - the distinct guest arcs under `stream/`
-- the source route map in [diesen-source-index.md](diesen-source-index.md)
+- the source route maps: guest → [diesen-index.md](diesen-index.md); host channel → [glenn-diesen-channel-index.md](../../channels/glenn-diesen/glenn-diesen-channel-index.md)
 
 The older [stream/diesen-thread.md](stream/diesen-thread.md) file is a legacy host-continuity compatibility surface, not a canonical topical-thread atlas.
 

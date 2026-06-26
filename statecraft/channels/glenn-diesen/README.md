@@ -11,9 +11,9 @@ Canonical live **channel shelf** for archive key **`glenn-diesen`** (`channel_sl
 
 ## Analyst shelf (primary)
 
-Whole-analyst continuity: [`statecraft/voices/diesen/`](../../voices/diesen/README.md).
+Whole-analyst continuity: [`statecraft/voices/diesen/`](../../voices/diesen/README.md) · **guest elsewhere:** [`diesen-index.md`](../../voices/diesen/diesen-index.md).
 
-Glenn Diesen channel — whole-analyst SSOT lives under `statecraft/voices/diesen/`.
+Glenn Diesen channel — host captures on this shelf; cross-host guest appearances on [`diesen-index.md`](../../voices/diesen/diesen-index.md).
 
 ## Open first
 

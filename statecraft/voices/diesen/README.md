@@ -11,9 +11,20 @@ Open here when the question is not merely which Diesen episode to read, but how 
 ## Start here
 
 - [Speaker profile](diesen-profile.md) — identity, voice fingerprint, guest-stream ledgers, links hub
+- [diesen-index.md](diesen-index.md) — cross-host **guest** captures (`channel_slug` ≠ `glenn-diesen`)
+- [Glenn Diesen channel shelf](../../channels/glenn-diesen/README.md) — Diesen as **host** (`glenn-diesen-channel-index.md`)
 - [diesen-speaker-object.md](diesen-speaker-object.md)
 - [diesen-cross-host-note.md](diesen-cross-host-note.md)
 - [diesen-host-wiring-2026.md](diesen-host-wiring-2026.md)
+
+## Split
+
+| Surface | Path | Job |
+|---|---|---|
+| **Guest / voice** | `diesen-index.md` | Diesen interviewed elsewhere (Davis, Judging Freedom, Mario Nawfal, …) |
+| **Host / channel** | `channels/glenn-diesen/` | Diesen hosting guests · solo on Glenn Diesen channel |
+
+Compat redirect: [diesen-source-index.md](diesen-source-index.md) → split above.
 
 ## Native stream
 

@@ -6,11 +6,13 @@ Purpose: route map for materialized **Glenn Diesen** captures on disk (`channel_
 
 Channel: [Glenn Diesen](https://www.youtube.com/@GDiesen1)
 
-## Analyst shelf (primary)
+## Analyst shelf
 
-Whole-analyst continuity: [`statecraft/voices/diesen/`](../../voices/diesen/README.md) · [`diesen-source-index.md`](../../voices/diesen/diesen-source-index.md).
+Whole-analyst continuity: [`statecraft/voices/diesen/`](../../voices/diesen/README.md) · profile · stream arcs.
 
-This channel index lists **host-channel captures** (`channel_slug: glenn-diesen`). Mechanism depth for Glenn Diesen solo work lives on the voice shelf.
+**Guest elsewhere:** [`diesen-index.md`](../../voices/diesen/diesen-index.md) — Diesen on other hosts only; do not duplicate those rows here.
+
+This channel index lists **host-channel captures** (`channel_slug: glenn-diesen` and Diesen-as-host uploads). Mechanism depth for Glenn Diesen solo work lives on the voice shelf.
 
 ## 2023-01
 

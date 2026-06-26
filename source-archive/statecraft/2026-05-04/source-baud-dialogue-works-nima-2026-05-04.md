@@ -5,6 +5,7 @@ kind: cleaned-transcript
 source_form: interview
 thread: baud
 show: Dialogue Works
+channel_slug: dialogue-works
 host: Nima Alkhorshid
 guest: Col. Jacques Baud
 title: "Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions"

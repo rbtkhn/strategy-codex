@@ -67,6 +67,6 @@ Bounded pass: `source-dialogue-works-*` whose `source_url` **youtube_id** also a
 
 **Repo-wide collision scan (alkorshid × diesen youtube_id):** **2 hits** — both June 2026 above; no other `source-dialogue-works-*` shares a `source_url` with an on-disk `source-glenn-diesen-*` / `source-diesen-*` capture.
 
-**Routing rule:** Keep alkorshid copies for **Nima / Dialogue Works** lane pressure; open **Diesen-host** paths for `diesen-source-index`, `diesen-*-speaker-arc`, and cognition-stream host continuity.
+**Routing rule:** Keep alkorshid copies for **Nima / Dialogue Works** lane pressure; open **Diesen-host** paths for [`glenn-diesen-channel-index.md`](../../channels/glenn-diesen/glenn-diesen-channel-index.md), `diesen-*-speaker-arc`, and cognition-stream host continuity. **Diesen-guest** on other hosts → [`diesen-index.md`](diesen-index.md).
 
 **Still open:** `K6sOEhWL0W4` (Sean Foo, 2026-06-04) — @GDiesen1 main upload with **no** statecraft capture yet.

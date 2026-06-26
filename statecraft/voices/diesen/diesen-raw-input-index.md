@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Compatibility pointer only.
 
-The canonical Diesen source route map now lives at [diesen-source-index.md](diesen-source-index.md).
+Guest captures: [diesen-index.md](diesen-index.md). Host channel: [glenn-diesen-channel-index.md](../../channels/glenn-diesen/glenn-diesen-channel-index.md). Redirect hub: [diesen-source-index.md](diesen-source-index.md).
 
-Use the `source-index` name going forward; this file remains only as a stable back-compat entry for older links and notes.
+Use the split indexes going forward; this file remains only as a stable back-compat entry for older links and notes.

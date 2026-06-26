@@ -40,6 +40,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | id | kind | category | path | search hints |
 |---|---|---|---|---|
 | ai-consciousness-essay | essay | work | [essays/ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) | expansion of human consciousness, ai medium writing print, cognition-changing medium, … |
+| alkorshid-index | source_index | work | [statecraft/voices/alkorshid/alkorshid-index.md](statecraft/voices/alkorshid/alkorshid-index.md) | Alkorshid guest index, Nima Alkorshid cross-host, alkorshid index |
 | america-sovereign-command-allied-capture-essay | essay | work | [essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) | section 224 NDAA, allied capture command, sovereign command under allied capture, … |
 | archive-synthesis-law-essay | essay | work | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) | archive synthesis law, statecraft archive synthesis, vertical law stack, … |
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
@@ -47,6 +48,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
 | davis-host-shelf | routing_aid | work | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
 | dialogue-works-channel-index | source_index | work | [statecraft/channels/dialogue-works/dialogue-works-channel-index.md](statecraft/channels/dialogue-works/dialogue-works-channel-index.md) | Dialogue Works index, dialogue-works-channel-index, dialogue-works-index, … |
+| diesen-index | source_index | work | [statecraft/voices/diesen/diesen-index.md](statecraft/voices/diesen/diesen-index.md) | Diesen guest index, diesen cross-host |
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index |
@@ -148,11 +150,11 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 - source indexes (disk): 28
 - host shelves (disk): 15
-- markdown links (INDEX + source-index files): 1094
-- repo-map routes: 51 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=25, work_continuity=1)
-- source_index routes in repo-map: 25
+- markdown links (INDEX + source-index files): 927
+- repo-map routes: 53 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=7, source_capture=1, source_index=27, work_continuity=1)
+- source_index routes in repo-map: 27
 - host_shelf routes in repo-map: 3
-- registry: INDEX lists 27/28, repo-map lists 24/28 (85.7% bijection when both match)
+- registry: INDEX lists 26/28, repo-map lists 24/28 (85.7% bijection when both match)
 - host shelves: repo-map lists 3/15 (20.0%)
 - absolute path violations (INDEX + source-index): 0
 - broken links (--strict resolution): 0

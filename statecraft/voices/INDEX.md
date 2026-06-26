@@ -12,10 +12,11 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 
 | Lens | Index file |
 |---|---|
+| Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
 | Dialogue Works | [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
-| Diesen | [diesen/diesen-source-index.md](diesen/diesen-source-index.md) |
+| Diesen | guest: [diesen/diesen-index.md](diesen/diesen-index.md) · host: [../channels/glenn-diesen/glenn-diesen-channel-index.md](../channels/glenn-diesen/glenn-diesen-channel-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |
 | Hoh | [hoh/hoh-source-index.md](hoh/hoh-source-index.md) |
@@ -62,6 +63,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Robert Barnes corpus | [barnes/barnes-source-index.md](barnes/barnes-source-index.md), `source-archive/statecraft/**/source-*barnes*` |
 | Mercouris index | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
 | Daniel Davis × guest | Guest source-index + [statecraft/channels/daniel-davis/](../channels/daniel-davis/README.md) |
+| Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Generic "source index" | This file → lens row → `*-source-index.md` |
 | source-lattice / reading order | [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) — not this file |
 
