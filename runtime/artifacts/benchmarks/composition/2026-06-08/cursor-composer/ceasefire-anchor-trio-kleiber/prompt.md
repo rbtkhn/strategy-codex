@@ -6,9 +6,9 @@ Kleiber composition benchmark — session-calibrated adaptation of Task 6 (bound
 
 Write a bounded WORK-layer statecraft synthesis (max 650 words) for the **June 8 dominant object** using **three** archive carriers only — the daily's **anchor trio**:
 
-- `source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md` (**alive-conditional**)
+- `source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md` (**alive-conditional**)
 - `source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md` (**dead** as unified ceasefire)
-- `source-archive/statecraft/2026-06-08/source-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md` (**theatrical** / operational read)
+- `source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md` (**theatrical** / operational read)
 
 ## Constraints
 

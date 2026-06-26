@@ -31,7 +31,7 @@ Purpose: fast-routing note for the canonical Weichert shelf (**Nawfal-first**, s
 
 | Class | Route | Ingest |
 |-------|--------|--------|
-| **Nawfal interview (primary)** | [weichert-source-index.md](weichert-source-index.md) | `source-nawfal-weichert-*`; run `post_land_nawfal_opening_normalize.py` on land |
+| **Nawfal interview (primary)** | [weichert-source-index.md](weichert-source-index.md) | `source-mario-nawfal-weichert-*`; run `post_land_nawfal_opening_normalize.py` on land |
 | **Standalone X / Substack** | [weichert-profile.md](weichert-profile.md) § Links | `thread:weichert`; verify operational claims |
 | **AI thematic synthesis** | [weichert-on-ai.md](../../notes/weichert-on-ai.md) | inbox `grep:AI` or cold Utah / Palantir / Minab on Weichert lines |
 

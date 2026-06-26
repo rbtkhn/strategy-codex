@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-25
 
-**Parent daily:** [2026-06-25](../synthesis/day/2026-06-25.md) *(stub until synthesis lands)* · **Archive:** [day-index](../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
+**Parent daily:** [2026-06-25](../synthesis/day/2026-06-25.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
 **Mode:** batch (3 ingests — Rutte/NATO · Vance channel · Hormuz dual-authority) · **Hooks:** 17 core + 10 J25-6 sub · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 0/3 (matrix SSOT; optional `verify:` Ship later)
 
@@ -31,9 +31,9 @@ WORK only; not Record.
 | --- | --- | --- | --- | --- | --- |
 | **J25-1** | **Rutte (Fox 24 Jun):** ~**500 US aircraft** from Italy for Epic Fury; **4–5k** sorties from Europe; **Bucharest** commercial cuts for tankers | America / NATO | en | **Contested** | [Fox](https://www.foxnews.com/media/nato-secretary-mark-rutte-praises-trumps-iran-strategy-addresses-presidents-frustration-allies) · [POLITICO](https://www.politico.eu/article/nato-mark-rutte-italy-us-bases-iran-war/) · Italy MoD **misleading** ([ANSA](https://www.ansa.it/english/news/world/2026/06/24/ruttes-statements-on-us-flights-from-italy-misleading-says-defence-ministry_ffa265ea-4475-4367-afd5-9b4724a8cae1.html)) |
 | **J25-2** | **Iran FM (Baghaei):** Rutte = **“active complicity”** in **unlawful war**; NATO/members **held accountable** | Persia | en (`fa` via Tasnim) | **Supported** | [Tasnim](https://www.tasnimnews.ir/en/news/2026/06/25/3625769/spokesman-slams-italy-romania-over-role-in-aggression-against-iran) · [Al Jazeera](https://www.aljazeera.com/news/2026/6/25/iran-accuses-nato-of-complicity-in-us-war-what-role-did-eu-nations-play) |
-| **J25-3** | **Vance / UnHerd:** **agreement in principle** for **direct US–Iran military channel** (IRGC ↔ CENTCOM, **Doha**) | America | en | **Partial** | [UnHerd](https://unherd.com/2026/06/jd-vance-our-new-relationship-with-iran/) · [Iran International](https://www.iranintl.com/en/202606257889) · mediators’ Hormuz **shipping** line ≠ confirmed Doha cell ([Meaww](https://news.meaww.com/us-iran-report-encouraging-progress-in-first-talks-agree-on-hormuz-and-lebanon-frameworks)) |
+| **J25-3** | **Vance / UnHerd:** **agreement in principle** for **direct US–Iran military channel** (IRGC ↔ CENTCOM, **Doha**) | America | en | **Partial** | [UnHerd](https://unherd.com/2026/06/jd-vance-our-new-relationship-with-iran/) · **Persia 3a absent** (escalate 26 Jun) · Geneva **shipping** hotline ≠ Doha military cell ([National](https://www.thenationalnews.com/news/mena/2026/06/22/usiran-talks-and-mou-explained-what-happened-and-whats-next/)) |
 | **J25-4** | **Quinnipiac:** **48%** US **too supportive of Israel**; **~38%** “about right” (Blumenthal said **34%**) | America | en | **Supported** | [Quinnipiac 3961](https://poll.qu.edu/poll-release?releaseid=3961) (18–22 Jun) · [JTA](https://www.jta.org/2026/06/24/united-states/half-of-americans-think-the-u-s-is-too-supportive-of-israel) |
-| **J25-5** | Hormuz **~1% normal** traffic; **125–138**/day pre-war vs **7–12** tankers; **IRGC total control**; marinetra **no exits** | America mesh | en | **Contested** | Pre-war volume plausible ([BBC/Kpler](https://www.bbc.com/news/articles/cx23rnzdgl8o)) · post-MOU crossings **recovering** not near-zero · IRGC closure vs continued transits ([The National](https://www.thenationalnews.com/news/mena/2026/06/21/irans-irgc-says-hormuz-is-shut-shipping-data-suggests-otherwise/)) |
+| **J25-5** | Hormuz **~1% normal** traffic; **125–138**/day pre-war vs **7–12** tankers; **IRGC total control**; marinetra **no exits** | America mesh | en | **Partial** | **Johnson near-zero contradicted** — [Lloyd's](https://www.pbs.org/newshour/world/un-agency-pauses-evacuation-of-ships-through-strait-of-hormuz-after-uk-says-a-vessel-was-hit) **125/wk** (vs 33 prior) · **78** transits Wed ([Al Jazeera](https://www.aljazeera.com/news/2026/6/25/un-agency-pauses-hormuz-ship-evacuation-initiative-after-vessel-attacked) / S&P) · **70** Oman-route Wed ([MarineTraffic](https://www.aljazeera.com/news/2026/6/25/un-agency-pauses-hormuz-ship-evacuation-initiative-after-vessel-attacked)) · pre-war **~130/day** · post-strike **turn-back** risk ([gCaptain](https://gcaptain.com/ships-turn-back-in-strait-of-hormuz-as-irgc-renews-transit-warnings/)) |
 | **J25-6** | **Oman mechanism + tanker strike** seam (parent) — see sub-table | Persia / Oman | en · `fa` · `ar` | **Supported (core)** + **Partial (capture specifics)** | Sub-hooks **J25-6a–j** · legal **§ MOU P5** · bilateral **§ dual-clock** |
 | **J25-7** | **Quinnipiac:** Netanyahu **20%** favorable / **48%** unfavorable | America | en | **Supported** | [Quinnipiac 3961](https://poll.qu.edu/poll-release?releaseid=3961) |
 
@@ -95,7 +95,7 @@ J23-10 Supported (Oman–Iran WG announced 23 Jun)
 | **O1** | Corridor **MOU-aligned**, **fee-free**, UNCLOS-framed | **Supported** | [ar/49066](https://www.fm.gov.om/ar/49066/) · [en/49077](https://www.fm.gov.om/en/49077/) |
 | **O2** | Oman claimed **Iranian prior approval** for corridor | **Absent** | No line in `48927`/`49066`/`49077` |
 | **O3** | Joint stmt + corridor **complementary** (Muscat framing) | **Supported** | 23 Jun WG + 24 Jun “outcomes… US and Iran” |
-| **O4** | **25 Jun** FMs stress **ongoing coordination** | **Partial** | 3b [Reuters/Araghchi Telegram](https://whtc.com/2026/06/25/iran-oman-stress-need-for-coordination-on-strait-of-hormuz-traffic-in-foreign-minister-call/) · Oman FM news stub |
+| **O4** | **25 Jun** FMs stress **ongoing coordination** | **Supported** | **3a** [MFA en/787258](https://en.mfa.ir/portal/newsview/787258) (call) · **3a** [fm.gov.om ar/49066](https://www.fm.gov.om/ar/49066/) news index **25 Jun** call item · **3b** [Reuters](https://www.al-monitor.com/originals/2026/06/iran-oman-stress-need-coordination-strait-hormuz-traffic-foreign-minister-call) (Hormuz traffic + 60-day measures) · **3b** [Tasnim via Javan](https://www.javanonline.ir/fa/news/1365445/) (a Hormuz + 60-day coordination) |
 
 ### Dual-clock seam (bilateral SSOT)
 
@@ -103,7 +103,7 @@ J23-10 Supported (Oman–Iran WG announced 23 Jun)
 23 Jun — Oman–Iran joint WG (future admin)     [J25-6d]
 24 Jun — Oman–IMO corridor (present evac)      [J25-6e · O1]
 25 Jun — IRGC route veto + Ever Lovely         [J25-6a · J25-6c]
-25 Jun — Badr–Araghchi coordination call       [O4 partial]
+25 Jun — Badr–Araghchi coordination call       [O4 supported]
 ```
 
 **Load-bearing:** **Two coastal states, two clocks** — fees are **not** the fight; **lane designation without coordination** is.
@@ -118,7 +118,7 @@ J23-10 Supported (Oman–Iran WG announced 23 Jun)
 
 **PRC / Russia / Rome:** absent on hook set.
 
-**Mesh:** **Supported** — Baghaei NATO backlash · Quinnipiac · Ever Lovely strike · IMO pause · Oman–Iran WG · Oman–IMO corridor · PGSA guarantee withdrawal · **Partial** — Vance Doha cell · Hormuz volume snapshot · Baghaei mechanism timing · US–Oman covert pressure · **Contested** — Rutte 500 planes kinetic framing · Hormuz open/closed binary · IRGC legal veto over Oman segment · non-response motive · **Contradicted** — “tanker” label (**J25-6b**).
+**Mesh:** **Supported** — Baghaei NATO backlash · Quinnipiac · Ever Lovely strike · IMO pause · Oman–Iran WG · Oman–IMO corridor · PGSA guarantee withdrawal · **Partial** — Vance Doha cell · Hormuz volume snapshot (**J25-5 partial** post-escalate) · Baghaei mechanism timing · US–Oman covert pressure · **Contested** — Rutte 500 planes kinetic framing · Hormuz open/closed binary · IRGC legal veto over Oman segment · non-response motive · **Contradicted** — “tanker” label (**J25-6b**).
 
 ## Interpretation fence (tier 4 — not wire-scored)
 
@@ -142,7 +142,7 @@ Johnson **Meloni ingrate** · **BRICS/CIPS** · **$40B toll revenue** · **inter
 
 ## Synthesis guardrails (load-bearing)
 
-- Do **not** treat Hormuz as binary open/closed — **J25-5 contested**; cite **J25-6e** dual-authority.
+- Do **not** treat Hormuz as binary open/closed — **J25-5 partial** (recovery real; Johnson snapshot contradicted); cite **J25-6e** dual-authority.
 - **J25-6b:** container ship — do not quote host “tanker” as wire fact.
 - **J25-1:** Rutte **said** it; Italy/NATO **walk back** kinetic framing — stay **contested**.
 - **J25-3:** distinguish **shipping hotline** vs **IRGC–CENTCOM Doha** until Persia **3a** confirms.

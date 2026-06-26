@@ -25,12 +25,12 @@ def sync_mod():
 def test_parse_daily_checkpoint_and_slugs(sync_mod):
     text = """
 Archive checkpoint: **14** source-bearing captures.
-- [Sachs](../../source-archive/statecraft/2026-06-08/source-napolitano-sachs-is-trump-losing-it-2026-06-08.md)
-- [Crooke](../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
+- [Sachs](../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md)
+- [Crooke](../../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
 """
     assert sync_mod._parse_daily_checkpoint(text) == 14
     slugs = sync_mod._parse_daily_source_slugs(text, "2026-06-08")
-    assert "source-napolitano-sachs-is-trump-losing-it-2026-06-08.md" in slugs
+    assert "source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md" in slugs
     assert len(slugs) == 2
 
 

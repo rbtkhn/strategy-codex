@@ -33,20 +33,20 @@ WORK only; not Record.
 
 | File | Receipt | Dominant mix |
 |------|---------|--------------|
-| `source-napolitano-crooke-ceasefire-for-all-*` | Y | S1 supported + doctrine out-of-scope |
+| `source-judging-freedom-crooke-ceasefire-for-all-*` | Y | S1 supported + doctrine out-of-scope |
 | `source-hedges-crooke-is-ceasefire-dead-*` | Y | S1 + S8 partial |
-| `source-nawfal-parsi-israel-torpedoes-*` | Y | S1 + S4 contested + S7 |
+| `source-mario-nawfal-parsi-israel-torpedoes-*` | Y | S1 + S4 contested + S7 |
 | `source-pape-day-100-*` | Y (capture_note) | S1 + S7 + S8 |
 | `source-dialogue-works-baud-*` | Y | S1 partial Mediterranean |
 | `source-glenn-diesen-marandi-*` | Y | S1 + S3 |
 | `source-daniel-davis-houthis-*` | Y | S3 partial declare-war |
-| `source-napolitano-sachs-*` | Y | S5 + S4 partial |
+| `source-judging-freedom-sachs-*` | Y | S5 + S4 partial |
 | `source-glenn-diesen-wilkerson-*` | Y | S5 Pew partial + S3 |
 | `source-dialogue-works-johnson-*` | Y | S1 + Escobar unclear |
-| `source-napolitano-mcgovern-*` | Y | historical USS Liberty + out-of-scope |
+| `source-judging-freedom-mcgovern-*` | Y | historical USS Liberty + out-of-scope |
 | `source-alex-mercouris-kiev-*` | Y | S1 + S9 partial |
 | `source-daniel-davis-truth-of-war-*` | Y (prior + harmonized) | S5 DiMino + casualties |
-| `source-nawfal-barnes-*` | Y (prior + harmonized) | S4 contested + S5 |
+| `source-mario-nawfal-barnes-*` | Y (prior + harmonized) | S4 contested + S5 |
 
 ### 2026-06-09 (11)
 
@@ -54,11 +54,11 @@ WORK only; not Record.
 |------|---------|--------------|
 | `source-dialogue-works-marandi-*` | Y | S1 + S3 + refuel partial |
 | `source-pape-breaking-points-*` | Y | S1 + S3 + S4 contested |
-| `source-nawfal-pape-*` | Y (prior + harmonized) | S2 + S3 + S4 contested |
+| `source-mario-nawfal-pape-*` | Y (prior + harmonized) | S2 + S3 + S4 contested |
 | `source-daniel-davis-marandi-*` | Y (prior + harmonized) | S2 contested + S7 |
 | `source-dialogue-works-wilkerson-*` | Y (prior + harmonized) | S4 + S5 + Ramat David partial |
-| `source-napolitano-freeman-*` | Y | S4 + S7 + refuel partial |
-| `source-napolitano-hoh-*` | Y | S2 + S4 contested + S5 |
+| `source-judging-freedom-freeman-*` | Y | S4 + S7 + refuel partial |
+| `source-judging-freedom-hoh-*` | Y | S2 + S4 contested + S5 |
 | `source-daniel-davis-macgregor-*` | Y | Tyre supported; 51 Reapers partial (24 CRS) |
 | `source-glenn-diesen-macgregor-*` | Y | S3 + out-of-scope multipolar |
 | `source-dialogue-works-helmer-*` | Y | S10 partial + S9 Abramovich |

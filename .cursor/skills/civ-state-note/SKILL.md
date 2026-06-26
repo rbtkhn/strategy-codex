@@ -206,7 +206,7 @@ Cursor-only wiring for [civ-state-note/SKILL.md](../../../skills/civ-state-note/
 | Rome connectivity | [public/civ-state/volumes/rome/theory/connectivity-rome.md](../../../public/civ-state/volumes/rome/theory/connectivity-rome.md) |
 | Reader guide (geo-strategic habit pointer) | [public/civ-state/docs/reader-guide.md](../../../public/civ-state/docs/reader-guide.md) |
 | Archive day index | `source-archive/statecraft/<YYYY-MM-DD>/README.md` |
-| Wire-verify registry | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) |
+| News-verify registry | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) |
 
 ## Examples (shelf-native patterns)
 

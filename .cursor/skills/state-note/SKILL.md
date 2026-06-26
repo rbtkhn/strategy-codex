@@ -95,18 +95,6 @@ Do **not** bloat into a pseudo-essay. Tables are fine when they preserve **dispr
 
 **Filename:** kebab-case, date or topic slug, unique on shelf — e.g. `june-18-2026-mou-guest-pair-citation-split.md`.
 
-**Typed prefixes (forward-only):** when the object qualifies, use shelf-native prefixes per [statecraft/notes/README.md](../../statecraft/notes/README.md) ([Trend](../../statecraft/notes/README.md#trend-canonical) · [Conflict](../../statecraft/notes/README.md#conflict-canonical) · thread/arc sections):
-
-| Prefix | Use when |
-| --- | --- |
-| `thread-` | One primary voice · ≤30d · ≥3 nodes |
-| `arc-` | One primary voice · >30d · ≥3 nodes |
-| `trend-` | Topic-owned · ≥3 beats · **direction over time** across voices |
-| `conflict-` | Theater-owned · ≥3 phases · **kinetic contest** (phases + fronts + parties) |
-| `risk-` | Topic-owned · failure registers + do-not-flatten routing |
-
-Legacy `*-weave.md` → retype to **conflict-**, **trend-**, **compare**, **daily synthesis**, or **thread-** / **arc-** — do not create new weave filenames.
-
 **Header fence:** first line `WORK only; not Record.`
 
 ### 4. Preserve source anchors

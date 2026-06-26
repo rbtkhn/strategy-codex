@@ -88,7 +88,7 @@ Primary AI captures: [NDAA/CIA merge + Utah/Minab](../../../source-archive/state
 
 ## Ingest note
 
-- Primary intake: `source-nawfal-weichert-*.md` under `source-archive/statecraft/`.
+- Primary intake: `source-mario-nawfal-weichert-*.md` under `source-archive/statecraft/`.
 - **AI routing:** inbox `grep:AI` or cold **Utah / data center / Palantir / Minab** on Weichert lines → statecraft [weichert-on-ai](../../notes/weichert-on-ai.md) (not a second `thread:` slug).
 - Run `post_land_nawfal_opening_normalize.py` on every Nawfal land.
 - Standalone X/Substack lines use `thread:weichert`; analyst tier — verify operational claims.

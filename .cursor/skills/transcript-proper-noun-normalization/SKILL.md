@@ -64,3 +64,8 @@ If verification cannot be completed:
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/transcript-proper-noun-normalization/CURSOR_APPENDIX.md)_
+
+
+## Cursor / strategy-codex instance
+
+_(appendix missing: .cursor/skills/transcript-proper-noun-normalization/CURSOR_APPENDIX.md)_

@@ -16,19 +16,19 @@ Diff: [source-archive/statecraft/2026-06-08/README.md](../../source-archive/stat
 
 | Archive file | Daily listing | Synthesis body |
 |--------------|---------------|----------------|
-| `source-napolitano-crooke-*` | Anchor trio | ✓ Executive read + Theme 1 |
+| `source-judging-freedom-crooke-*` | Anchor trio | ✓ Executive read + Theme 1 |
 | `source-hedges-crooke-*` | Anchor trio | ✓ Executive read + Theme 1 |
-| `source-nawfal-parsi-*` | Anchor trio | ✓ Executive read + Theme 1 |
+| `source-mario-nawfal-parsi-*` | Anchor trio | ✓ Executive read + Theme 1 |
 | `source-pape-day-100-*` | Primary captures | ✓ Theme 2 |
 | `source-daniel-davis-*` (×2) | Primary captures | ✓ Themes 1, 6 |
 | `source-glenn-diesen-marandi-*` | Primary captures | ✓ Themes 1, 3 |
 | `source-dialogue-works-johnson-*` | Primary captures | ✓ Themes 1, 6 |
-| `source-napolitano-mcgovern-*` | Primary captures | ✓ Theme 4 |
-| `source-nawfal-barnes-*` | Primary captures | ✓ Theme 4 |
+| `source-judging-freedom-mcgovern-*` | Primary captures | ✓ Theme 4 |
+| `source-mario-nawfal-barnes-*` | Primary captures | ✓ Theme 4 |
 | `source-alex-mercouris-*` | Primary captures | ✓ Theme 7 |
 | `source-dialogue-works-baud-*` | Primary captures | ✓ Theme 7 |
 | `source-glenn-diesen-wilkerson-*` | Primary captures | ✓ Themes 4, 5 |
-| `source-napolitano-sachs-*` | Primary captures (post-fix) | ✓ Theme 4 + RCPT-03 |
+| `source-judging-freedom-sachs-*` | Primary captures (post-fix) | ✓ Theme 4 + RCPT-03 |
 
 **Pre-fix omission:** Sachs only — archive README already counted 14; daily said 13 and omitted Sachs from primary list and America mesh paragraph.
 
