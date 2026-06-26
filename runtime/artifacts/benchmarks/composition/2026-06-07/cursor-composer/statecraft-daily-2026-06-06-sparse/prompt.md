@@ -6,7 +6,7 @@ Kleiber composition benchmark — session-calibrated adaptation of Task 6 (bound
 
 Write a complete `statecraft/daily/2026-06-06.md` daily synthesis from **one** landed archive carrier only:
 
-- `source-archive/statecraft/2026-06-06/source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md`
+- `source-archive/statecraft/2026-06-06/source-alexander-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md`
 
 ## Constraints
 

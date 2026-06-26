@@ -38,4 +38,4 @@ Barnes is best read as a **cross-host person arc with a dominant Davis branch**.
 
 ## Compatibility residue
 
-- [codex/speakers/barnes/barnes-profile.md](../../../codex/speakers/barnes/barnes-profile.md) — compatibility redirect only.
+- [statecraft/voices/barnes/barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) — compatibility redirect only.

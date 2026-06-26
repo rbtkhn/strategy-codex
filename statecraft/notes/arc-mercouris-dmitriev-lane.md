@@ -18,10 +18,10 @@ span_end: 2026-03-24
 
 | # | Day | Capture | URL |
 | --- | --- | --- | --- |
-| 1 | **Jan 20** | [Starmer/Macron; Greenland; Kiev AD](../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) | https://www.youtube.com/watch?v=uoMt5q2mXzU |
-| 2 | **Feb 17** | [Annexation float; Geneva; Konstantinovka](../../source-archive/statecraft/2026-02-17/source-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) | https://www.youtube.com/watch?v=8PGeNwFTTwc |
-| 3 | **Mar 3** | [Attrition; stockpiles; Gulf panic; MBS–Putin](../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | https://www.youtube.com/watch?v=p2kBG8i_Knw |
-| 4 | **Mar 24** | [Dimona; 4-division ground; Lavrov WW3; talk mirage](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) | https://www.youtube.com/watch?v=hiz6KpkaSM8 |
+| 1 | **Jan 20** | [Starmer/Macron; Greenland; Kiev AD](../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) | https://www.youtube.com/watch?v=uoMt5q2mXzU |
+| 2 | **Feb 17** | [Annexation float; Geneva; Konstantinovka](../../source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) | https://www.youtube.com/watch?v=8PGeNwFTTwc |
+| 3 | **Mar 3** | [Attrition; stockpiles; Gulf panic; MBS–Putin](../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | https://www.youtube.com/watch?v=p2kBG8i_Knw |
+| 4 | **Mar 24** | [Dimona; 4-division ground; Lavrov WW3; talk mirage](../../source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) | https://www.youtube.com/watch?v=hiz6KpkaSM8 |
 
 **Split from:** `arc-helmer-dmitriev-lane.md` (2026-06-22) — **Helmer register:** [companion arc](./arc-helmer-dmitriev-lane.md)
 

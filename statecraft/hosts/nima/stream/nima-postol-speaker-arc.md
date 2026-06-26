@@ -95,7 +95,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what can physically be destroyed or intercepted rather than live crisis pressure around those systems, route outward to [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md).
+- If the question is mainly about what can physically be destroyed or intercepted rather than live crisis pressure around those systems, route outward to [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-postol-speaker-arc.md).
 
 - Postol is strongest here on technical correction, deterrence realism, and destructive-capacity analysis, not on diplomatic sequencing or bargaining-room logic.
 - The materialized shelf is still a conservative subset of the broader stream-discovered run.

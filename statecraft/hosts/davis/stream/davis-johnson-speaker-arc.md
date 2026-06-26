@@ -89,7 +89,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about blockade skepticism as process absurdity or executive-quality failure rather than operational practicality, route outward to [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md).
+- If the question is mainly about blockade skepticism as process absurdity or executive-quality failure rather than operational practicality, route outward to [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-johnson-speaker-arc.md).
 
 - Johnson is strongest here on feasibility, coercive failure, and impractical objectives, not on neutral tactical verification.
 - Prefer this lane when the notebook needs the Davis-side operational test; prefer the Diesen lane for broader order consequence and the Dialogue Works lane for highest-pressure event-surface interpretation.

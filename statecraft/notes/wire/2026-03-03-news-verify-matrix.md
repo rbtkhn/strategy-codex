@@ -22,7 +22,7 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | Alexander Mercouris | [Attrition / stockpiles / Gulf panic](../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | **J03-A1 – A6**, **J03-B1 – B3**, **J03-C1 – C4**, **J03-D1 – D3**, **J03-E1 – E2** |
+| 1 | Alexander Mercouris | [Attrition / stockpiles / Gulf panic](../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | **J03-A1 – A6**, **J03-B1 – B3**, **J03-C1 – C4**, **J03-D1 – D3**, **J03-E1 – E2** |
 | 2 | Lawrence Wilkerson | [Warplanes downed / bases rocked](../../source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md) | **J03-A1**, **J03-B2**, **J03-D2**, **J03-E3** |
 | 3 | Mohammad Marandi | [Tehran under fire / Hormuz closed](../../source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md) | **J03-C1 – C2** (cross) |
 | 4 | John Helmer | [China Russia Iran nuclear option](../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | **J03-E1** (Putin calls) |

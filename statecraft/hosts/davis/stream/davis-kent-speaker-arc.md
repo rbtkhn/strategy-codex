@@ -40,11 +40,11 @@ Open **Joe Kent: The Truth of the Iran War** first when the operator needs:
 
 ## Best paired read
 
-Best paired read: [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
+Best paired read: [Diesen x Kent](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md)
 
 Why: Diesen pulls Kent upward into historical/structural order claims, while Davis keeps him closer to force, exit, and military-political feasibility.
 
-Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
+Second-best paired read: [Kent helix](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
 
 Why: the helix explains how Davis differs from Diesen, Nawfal, and Barnes quote-surface reinforcement.
 
@@ -77,4 +77,4 @@ Do not overuse this arc as:
 - proof that every Kent claim is verified beyond transcript-grade commentary
 - a reason to treat Kent as a technical military verifier in the Postol sense
 
-If the question is mainly about what Kent says happened inside the administration rather than whether the war can be exited, route outward to [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md).
+If the question is mainly about what Kent says happened inside the administration rather than whether the war can be exited, route outward to [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/carlson-kent-speaker-arc.md).

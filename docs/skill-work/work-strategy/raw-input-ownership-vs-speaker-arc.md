@@ -93,7 +93,7 @@ If you reverse those questions, the notebook starts to blur:
 
 - [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../source-archive/statecraft/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
   - source-archive ownership: **Diesen-first**
-  - later supports [diesen-freeman-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md) because the recurring host-local run is real
+  - later supports [diesen-freeman-arc.md](../../../statecraft/voices/diesen/stream/diesen-freeman-arc.md) because the recurring host-local run is real
 
 ## Bottom line
 

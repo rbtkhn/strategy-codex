@@ -99,7 +99,7 @@ def _speaker_helix_target(speaker_slug: str, speaker_rows: list[dict[str, Any]])
         if match:
             year = match.group(1)
             break
-    return f"codex/speakers/{speaker_slug}/{speaker_slug}-helix.md"
+    return f"statecraft/voices/{speaker_slug}/{speaker_slug}-helix.md"
 
 
 def _candidate_arc_target(row: dict[str, Any]) -> str:

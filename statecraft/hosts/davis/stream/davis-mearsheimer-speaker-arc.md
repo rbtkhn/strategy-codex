@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Compatibility note: this legacy `*-speaker-arc.md` path now redirects to the canonical relational arc:
 
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-mearsheimer-arc.md)
 
 Do not treat this as a second arc class.

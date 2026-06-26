@@ -9,6 +9,13 @@ guest: Scott Ritter
 thread: davis
 channel_slug: daniel-davis
 source_url: https://www.youtube.com/watch?v=yeSOZPgNars
+youtube_id: yeSOZPgNars
+source_type: youtube
+verify_receipt: 2026-06-25
+verify:
+  - claim: youtube_id yeSOZPgNars
+    verdict: confirmed
+    note: oEmbed title SCOTT RITTER We've Not Impacted Iran As We're Being Told; auto-VTT duplicate removed 2026-06-25
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Davis host-stream ownership.
 title_slug: davis-ritter-skirmish-persian-gulf-iran-2026-05-06
 editorial_note: Preserve as raw cleaned transcript; verify claims about the Persian Gulf, Strait of Hormuz, military posture, and economic effects before promotion beyond analyst tier.

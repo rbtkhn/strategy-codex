@@ -33,9 +33,9 @@ Jermy carries a distinct utility profile:
 
 Jermy should currently be read as a **triple-speaker-helix**:
 
-- [Davis x Jermy](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md)
-- [Diesen x Jermy](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md)
-- [Peacemonger x Jermy](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md)
+- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
+- [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
+- [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
 
 That means:
 
@@ -54,21 +54,21 @@ The main reinforcement now comes from how the three branches cover distinct uses
 - Diesen gives Jermy the broader NATO, Europe, and world-order consequence lane
 - Peacemonger gives Jermy the blunt anti-hubris, strategy-failure, and public-facing critique lane
 
-See [jermy-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-cross-host-note.md).
+See [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current host-local entry:
 
-- open [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md)
+- open [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-jermy-speaker-arc.md)
 
 If the operator needs the complementary strategic branch:
 
-- open [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md)
+- open [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md)
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [jermy-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-cross-host-note.md)
+- stay here, then read [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-cross-host-note.md)
 
 ## Routing use
 

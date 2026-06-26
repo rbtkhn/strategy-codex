@@ -24,8 +24,8 @@ codex/<year>/<stream>/<stream>-page-YYYY-MM-DD[-slug].md
 
 Examples:
 
-- `codex/speakers/mercouris/stream/mercouris-page-2026-05-01.md`
-- `codex/speakers/pape/stream/pape-page-2026-05-01-escalation-trap.md`
+- `statecraft/voices/mercouris/stream/mercouris-page-2026-05-01.md`
+- `statecraft/voices/pape/stream/pape-page-2026-05-01-escalation-trap.md`
 
 The old distinction between `codex-page` and thread-fenced `strategy-page` is legacy compatibility only. Existing files and `<!-- strategy-page:start ... -->` blocks remain readable/importable, but new writing should use the standalone strategy-page shape above.
 

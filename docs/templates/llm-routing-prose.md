@@ -45,7 +45,8 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
 | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
-| [codex/speakers/](codex/speakers/) | Legacy speaker storage during migration | Compatibility |
+| [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
+| [statecraft/hosts/](statecraft/hosts/) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |

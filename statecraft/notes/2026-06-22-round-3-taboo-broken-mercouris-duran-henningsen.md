@@ -7,7 +7,7 @@ WORK only; not Record.
 **Sources (cross-weave core):**
 
 - [Mercouris × Christoforou / Duran — *Conflict Round 3 Is Coming*](../../source-archive/statecraft/2026-06-22/source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md) (`vph0eVBwrmU`)
-- [Mercouris solo — *Neocons Iran Rage* / Geraghty defeat](../../source-archive/statecraft/2026-06-22/source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md) (`W1ahOFuZju4`)
+- [Mercouris solo — *Neocons Iran Rage* / Geraghty defeat](../../source-archive/statecraft/2026-06-22/source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md) (`W1ahOFuZju4`)
 - [Henningsen × Davis — *Why Iran Talks Will Fail*](../../source-archive/statecraft/2026-06-22/source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md) (`7ZNxxHp6UKE`)
 - [Pape / Escalation Trap — *Power, Not Just Money*](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) (Substack)
 - [Sachs × Napolitano / Judging Freedom — *Why Iran Can't Trust Trump*](../../source-archive/statecraft/2026-06-22/source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md) (`OcCt3MuWS0E`)

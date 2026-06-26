@@ -2,10 +2,10 @@ version = 1
 slug = "crooke"
 
 compact_state_files = [
-  "codex/speakers/crooke/README.md",
-  "codex/speakers/crooke/crooke-helix.md",
-  "codex/speakers/crooke/crooke-interview-appearances-2025-2026.md",
-  "codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md",
+  "statecraft/voices/crooke/README.md",
+  "statecraft/voices/crooke/crooke-helix.md",
+  "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md",
+  "statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -13,9 +13,9 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md"
+file = "statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md"
 expected_count = 24
-required_prefixes = ["substack-crooke-"]
+required_prefixes = ["substack-crooke-", "source-crooke-"]
 excluded_patterns = [
   "transcript-",
   "youtube-",
@@ -25,8 +25,8 @@ excluded_patterns = [
 ]
 
 [[source_sets]]
-file = "codex/speakers/crooke/crooke-interview-appearances-2025-2026.md"
-expected_count = 21
+file = "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md"
+expected_count = 22
 excluded_patterns = [
   "substack-crooke-",
   "article-crooke-",

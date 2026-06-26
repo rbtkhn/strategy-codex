@@ -11,9 +11,9 @@ This file should be read as the **macro-war convergence and sovereign-stress** A
 Quick separation rule:
 
 - `Dialogue Works x Armstrong` = debt, capital stress, tariffs/BRICS pressure, and macro-war convergence
-- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fracture and alliance divorce at order-transition altitude
-- [sachs/README.md](/C:/dev/strategy-codex/codex/speakers/sachs/README.md) surfaces = development, macro-policy, and system-design critique rather than cycle-stress prophecy
-- [pape/README.md](/C:/dev/strategy-codex/codex/speakers/pape/README.md) surfaces = coercion, war aims, and strategic pressure mechanics rather than sovereign-debt and systemic reset language
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fracture and alliance divorce at order-transition altitude
+- [sachs/README.md](/C:/dev/strategy-codex/statecraft/voices/sachs/README.md) surfaces = development, macro-policy, and system-design critique rather than cycle-stress prophecy
+- [pape/README.md](/C:/dev/strategy-codex/statecraft/voices/pape/README.md) surfaces = coercion, war aims, and strategic pressure mechanics rather than sovereign-debt and systemic reset language
 
 If the notebook needs to widen a conflict into sovereign stress, fiscal consequence, and macro-order fracture, route here. If it needs maritime-system fallout, policy-design critique, or coercion mechanics, route to those neighboring surfaces instead.
 

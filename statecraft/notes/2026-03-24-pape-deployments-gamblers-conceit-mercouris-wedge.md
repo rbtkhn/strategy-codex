@@ -9,7 +9,7 @@ WORK only; not Record.
 
 - [Pape — The Gambler's Conceit in War](../../source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md) — https://escalationtrap.substack.com/p/the-gamblers-conceit-in-war — **newsletter** (Escalation Trap · paid tier)
 - [Pape — Trump's Words Don't Predict War. His Deployments Do](../../source-archive/statecraft/2026-03-24/source-pape-trumps-words-dont-predict-war-his-2026-03-24.md) — https://escalationtrap.substack.com/p/trumps-words-dont-predict-war-his — **newsletter**
-- [Mercouris solo — Dimona / 4-division ground / talk fiction](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) — https://www.youtube.com/watch?v=hiz6KpkaSM8 — **solo transcript**
+- [Mercouris solo — Dimona / 4-division ground / talk fiction](../../source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) — https://www.youtube.com/watch?v=hiz6KpkaSM8 — **solo transcript**
 
 **Series context:** [Mar 16 Pape × Crooke mosaic trap](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Mar 3 Crooke × Pape air-power bench](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md) · [Mar 23 Pape questions](../../source-archive/statecraft/2026-03-23/source-pape-the-questions-that-matter-now-2026-03-23.md) (provenance)
 

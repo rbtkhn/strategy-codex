@@ -45,7 +45,7 @@ not:
 | Lane | Speaker-owned role | Best use |
 |---|---|---|
 | [Davis host shelf](../../hosts/davis/README.md) | primary severity lane | war powers, domestic liability, legal architecture, executive-process fracture |
-| [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | reinforcing geopolitical lane | regime-change skepticism, executive decline, wider anti-war and political-chaos framing outside Davis |
+| [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | reinforcing geopolitical lane | regime-change skepticism, executive decline, wider anti-war and political-chaos framing outside Davis |
 | [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | late-stage pressure lane | Israel-lobby pressure, Trump decline, Gulf pain, and Iran/Ukraine overlap in a late-May pressure cluster |
 | [Johnson support](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md) | adjunct domestic-process residue | room dynamics and work-politics adjacency when needed, without host-lane inflation |
 

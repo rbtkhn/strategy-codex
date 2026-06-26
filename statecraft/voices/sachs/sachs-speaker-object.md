@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Sachs Speaker Object
 
-This legacy `codex/speakers/sachs/sachs-speaker-object.md` file is now a compatibility pointer.
+This legacy `statecraft/voices/sachs/sachs-speaker-object.md` file is now a compatibility pointer.
 
 Canonical live Sachs speaker-state work has moved to:
 

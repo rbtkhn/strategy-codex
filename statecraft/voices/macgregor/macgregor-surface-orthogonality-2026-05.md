@@ -10,11 +10,11 @@ Local surfaces under review:
 - [macgregor-routing.md](macgregor-routing.md)
 - [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
 - [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
-- [davis-macgregor-speaker-arc.md](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
-- [diesen-macgregor-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [napolitano-macgregor-speaker-arc.md](../../../codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [davis-macgregor-speaker-arc.md](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
+- [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [napolitano-macgregor-speaker-arc.md](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
-- [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md)
+- [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md)
 
 Bounded claim:
 
@@ -58,7 +58,7 @@ These files are justified only because they stay bounded. If they begin retellin
 
 There is no current canonical topical thread inside the Macgregor shelf. That is still the right choice for now.
 
-The older [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) does not isolate a mechanism that the host arcs, support spine, and monthly synthesis shelves fail to carry. It remains useful only as compatibility continuity.
+The older [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) does not isolate a mechanism that the host arcs, support spine, and monthly synthesis shelves fail to carry. It remains useful only as compatibility continuity.
 
 ## Redundancy findings
 

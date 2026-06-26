@@ -2,12 +2,12 @@ version = 1
 slug = "ritter"
 
 compact_state_files = [
-  "codex/speakers/ritter/README.md",
-  "codex/speakers/ritter/ritter-speaker-object.md",
-  "codex/speakers/ritter/ritter-routing.md",
-  "codex/speakers/ritter/ritter-helix.md",
-  "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md",
-  "codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md",
+  "statecraft/voices/ritter/README.md",
+  "statecraft/voices/ritter/ritter-speaker-object.md",
+  "statecraft/voices/ritter/ritter-routing.md",
+  "statecraft/voices/ritter/ritter-helix.md",
+  "statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md",
+  "statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -15,9 +15,9 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md"
+file = "statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md"
 expected_count = 22
-required_prefixes = ["substack-ritter-"]
+required_prefixes = ["substack-ritter-", "source-ritter-"]
 excluded_patterns = [
   "transcript-",
   "youtube-",
@@ -27,7 +27,7 @@ excluded_patterns = [
 ]
 
 [[source_sets]]
-file = "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md"
+file = "statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md"
 expected_count = 48
 excluded_patterns = [
   "substack-ritter-",

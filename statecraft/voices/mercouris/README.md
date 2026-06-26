@@ -58,9 +58,9 @@ Mercouris now has a full canonical 2026 month ladder for the live year, plus bou
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/mercouris/` path is now front-door compatibility only.
+The legacy `statecraft/voices/mercouris/` path is now front-door compatibility only.
 
-- [codex/speakers/mercouris/README.md](../../../codex/speakers/mercouris/README.md) and [index.md](../../../codex/speakers/mercouris/index.md) are compatibility pointers.
+- [statecraft/voices/mercouris/README.md](../../../statecraft/voices/mercouris/README.md) and [index.md](../../../statecraft/voices/mercouris/index.md) are compatibility pointers.
 - older codex-side thread, transcript, and page files remain compatibility residue.
 - [codex/profiles/mercouris-profile.md](../../../codex/profiles/mercouris-profile.md) is a compatibility redirect only.
 - this statecraft shelf is now the canonical opening path for Mercouris statecraft work.

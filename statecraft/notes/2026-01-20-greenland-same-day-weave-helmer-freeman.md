@@ -9,7 +9,7 @@ WORK only; not Record.
 
 - [Helmer × Nima — Two Fronts, One Collapsing EU? Greenland's Choice & Ukraine's War](../../source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) — https://www.youtube.com/watch?v=6uV3p9nD8D8 — **full transcript**
 - [Davis × Freeman — Iran, EU & Trump, Greenland](../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — https://www.youtube.com/watch?v=JXeWGaFIp3k — **full transcript**
-- [Mercouris solo — Trump Humiliates Starmer Macron; Again Demands Greenland; Russia Destroys Kiev AD…](../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — https://www.youtube.com/watch?v=uoMt5q2mXzU — **full transcript** (upgraded 2026-06-20)
+- [Mercouris solo — Trump Humiliates Starmer Macron; Again Demands Greenland; Russia Destroys Kiev AD…](../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — https://www.youtube.com/watch?v=uoMt5q2mXzU — **full transcript** (upgraded 2026-06-20)
 
 ## Purpose
 

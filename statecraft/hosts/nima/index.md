@@ -9,6 +9,7 @@ Purpose: front door for the canonical live Dialogue Works host shelf in repo-roo
 - [Speaker profile](nima-profile.md)
 - [README.md](README.md)
 - [nima-host-law.md](nima-host-law.md)
+- [dialogue-works-index.md](dialogue-works-index.md)
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Current Live Rule
@@ -22,12 +23,12 @@ Open Nima / Dialogue Works first when:
 
 ## Provenance and stream (compatibility)
 
-- [nima-source-index.md](../../../codex/speakers/nima/nima-source-index.md) — exhaustive Dialogue Works route map (legacy path; provenance links)
-- [stream/nima-thread.md](../../../codex/speakers/nima/stream/nima-thread.md) — legacy host continuity
-- [stream/nima-shelf-2026-04.md](../../../codex/speakers/nima/stream/nima-shelf-2026-04.md) — bounded monthly synthesis shelf
+- [dialogue-works-index.md](dialogue-works-index.md) — exhaustive Dialogue Works route map
+- [stream/nima-thread.md](../../../statecraft/hosts/nima/stream/nima-thread.md) — legacy host continuity
+- [stream/nima-shelf-2026-04.md](../../../statecraft/hosts/nima/stream/nima-shelf-2026-04.md) — bounded monthly synthesis shelf
 
-Guest arcs and additional stream surfaces live under [codex/speakers/nima/stream/](../../../codex/speakers/nima/stream/).
+Guest arcs and additional stream surfaces live under [statecraft/hosts/nima/stream/](../../../statecraft/hosts/nima/stream/).
 
 ## Compatibility Note
 
-Legacy chronology and source benches remain under `codex/speakers/nima/` until a fuller chronology transfer pass is clearer than the current split. This index is the live authority for host-family routing.
+Legacy chronology and source benches remain under `statecraft/hosts/nima/` until a fuller chronology transfer pass is clearer than the current split. This index is the live authority for host-family routing.

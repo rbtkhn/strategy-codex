@@ -8,11 +8,11 @@ Month status: `mature dense-core month`
 
 ## May dense-core frontier index
 
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-30-to-2026-05-02.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-30-to-2026-05-02.md)
   - Transition from warning and blockade rhetoric into coalition-stress sequencing across Gulf, EU, and Ukraine.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-04-to-2026-05-07.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-05-04-to-2026-05-07.md)
   - Failed-coercion cluster: Kremlin panic narratives, Hormuz rollback theater, and the gap between rhetoric and executable power.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
   - Dense-core frontier: Victory Day deterrence, coalition brittleness, corruption signals, and command stress inside Kiev.
 
 ## Late-May reinforcement
@@ -37,5 +37,5 @@ The `2026-05-24`, `2026-05-27`, and `2026-05-28` Mercouris captures strengthen t
 ## Adjacent shelf
 
 - Previous month: [mercouris-shelf-2026-04.md](mercouris-shelf-2026-04.md)
-- Thread compatibility: [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md)
-- Transcript compatibility: [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-transcript.md)
+- Thread compatibility: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md)
+- Transcript compatibility: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-transcript.md)

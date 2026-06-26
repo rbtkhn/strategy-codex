@@ -28,9 +28,9 @@ Shared shelf law:
 
 The normalization did not erase all codex residue.
 
-- Freeman still has legacy continuity residue like [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md) and [freeman-transcript.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-transcript.md).
-- Crooke still has verbatim carryover residue like [crooke-transcript.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-transcript.md).
-- Ritter still has the largest remaining codex-side pressure under [codex/speakers/ritter/stream/](/C:/dev/strategy-codex/codex/speakers/ritter/stream/), where month cross-host arcs, forecast surfaces, thread files, transcript files, pages, and manifests still coexist beside the new canonical statecraft shelf.
+- Freeman still has legacy continuity residue like [freeman-thread.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-thread.md) and [freeman-transcript.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-transcript.md).
+- Crooke still has verbatim carryover residue like [crooke-transcript.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-transcript.md).
+- Ritter still has the largest remaining codex-side pressure under [statecraft/voices/ritter/stream/](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/), where month cross-host arcs, forecast surfaces, thread files, transcript files, pages, and manifests still coexist beside the new canonical statecraft shelf.
 
 ## Next migration pressure point
 
@@ -38,7 +38,7 @@ The next clean wedge is Ritter codex-stream residue, not more outer-shelf archit
 
 Smallest credible next pass:
 
-- decide which Ritter `codex/speakers/ritter/stream/` files are true compatibility residue
+- decide which Ritter `statecraft/voices/ritter/stream/` files are true compatibility residue
 - demote those files explicitly
 - preserve only the minimum continuity needed while keeping the canonical shelf in `statecraft/voices/civ-lens-ritter/` as the first-open route
 

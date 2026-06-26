@@ -136,11 +136,9 @@ canonical_url: {escape_yaml(url)}
 deck: {escape_yaml(str(deck))}
 paid: {str(paid).lower()}
 ingested_at: "{INGESTED_AT}"
-transcript_status: curated_transcript_pending_rights_review
+transcript_status: curated_transcript
 transcript_fidelity: exact_body_match
 transcript_source: workshop_promotion
-rights_review: required_before_long_excerpt
-rights_note: "Operator-sourced copy for research; Substack is canonical. Do not redistribute without clearing rights."
 representation_not_endorsement: true
 review_status: source_reviewed
 source_reviewed_at: {INGESTED_AT}
@@ -162,7 +160,7 @@ def build_commentary(source_id: str, title: str) -> str:
 source_id: {source_id}
 title: {escape_yaml(title)}
 source_series: "Predictive History Essays"
-source_chapter_path: essays/{source_id}/{source_id}-transcript.md
+source_chapter_path: essays/{source_id}/{source_id}.md
 source_corpus_path: corpus/essays/{source_id}.md
 commentary_status: in-review
 review_status: source_reviewed
@@ -224,42 +222,42 @@ This chapter folder is a public study doorway for `{source_id}`.
 
 ## Start Here
 
-Use this folder when someone shares the GitHub chapter link in a YouTube comment or an LLM chat. Start with the transcript, then use the commentary canvas and orientation card to keep the reading bounded.
+Use this folder when someone shares the GitHub chapter link in a YouTube comment or an LLM chat. Start with the essay, then use the commentary canvas and orientation card to keep the reading bounded.
 
 ## Source-Lattice Reading Order
 
 Treat this chapter folder as a small source-lattice:
 
 1. `Doorway` - this README tells you what the packet is and what limits apply.
-2. `Primary source floor` - read the transcript and public source capture first.
+2. `Primary source floor` - read the essay and public source capture first.
 3. `Secondary support` - use the commentary canvas, orientation payload, and public card only after the source floor is open.
 4. `Widened interpretation` - draw comparisons or broader claims only after keeping the review status in view.
 
-## Source Video
+## Source
 
 - Substack: {url}
 
 ## Files
 
-- [Transcript]({source_id}-transcript.md)
+- [Essay]({source_id}.md)
 - [Commentary canvas]({source_id}-commentary.md)
 - [Public card](../../data/cards/{source_id}.md)
 
 ## Review Status
 
-`in_review`. Do not treat provisional transcript text, named claims, quotations, or current-event predictions as final until review is complete.
+`in_review`. Do not treat provisional essay text, named claims, quotations, or current-event predictions as final until review is complete.
 
 ## LLM Prompt
 
 Paste this folder link into ChatGPT, Claude, or Grok and ask:
 
-> Guide me through this chapter folder as a public study packet. Start with the transcript, then use the commentary canvas and orientation/card guardrails. Keep provisional claims bounded and separate lecture representation from verification.
+> Guide me through this chapter folder as a public study packet. Start with the essay, then use the commentary canvas and orientation/card guardrails. Keep provisional claims bounded and separate source representation from verification.
 >
-> Use a source-lattice reading order: README first, transcript and source capture second, commentary/orientation/card third, and broader interpretation only after the source floor is stable.
+> Use a source-lattice reading order: README first, essay and source capture second, commentary/orientation/card third, and broader interpretation only after the source floor is stable.
 
 ## Guardrails
 
-This folder represents the public lecture material and companion study apparatus. It is not a private note dump, not an endorsement layer, and not a substitute for source review.
+This folder represents the public essay material and companion study apparatus. It is not a private note dump, not an endorsement layer, and not a substitute for source review.
 """
 
 
@@ -281,12 +279,12 @@ review_status: in_review
 
 ## Reading Posture
 
-Read this as an orientation card, not as a substitute for the essay transcript or commentary canvas. Separate lecture representation from verification.
+Read this as an orientation card, not as a substitute for the essay body or commentary canvas. Separate source representation from verification.
 
 ## Historical Pressure Points
 
 - Seed pressure points pending commentary pass
-- Civilizational framing and present-day application hooks to be extracted from the transcript
+- Civilizational framing and present-day application hooks to be extracted from the essay
 
 ## Limits of the Frame
 
@@ -294,7 +292,7 @@ This entry is in review. Do not treat interpretive frames, hidden-intention clai
 
 ## Return Path
 
-Return through `essays/{source_id}/{source_id}-transcript.md` for exact essay wording and `essays/{source_id}/{source_id}-commentary.md` for bounded analysis.
+Return through `essays/{source_id}/{source_id}.md` for exact essay wording and `essays/{source_id}/{source_id}-commentary.md` for bounded analysis.
 """
 
 
@@ -309,10 +307,10 @@ def build_card_jsonl(source_id: str, meta: dict) -> dict:
         "publication_date": pub,
         "review_status": "in_review",
         "sections": {
-            "Historical Pressure Points": "- Seed pressure points pending commentary pass\n- Civilizational framing hooks to be extracted from the transcript",
+            "Historical Pressure Points": "- Seed pressure points pending commentary pass\n- Civilizational framing hooks to be extracted from the essay",
             "Limits of the Frame": "This entry is in review. Do not treat interpretive frames or forecasts as verified fact without external review.",
-            "Reading Posture": "Read this as an orientation card, not as a substitute for the essay transcript or commentary canvas.",
-            "Return Path": f"Return through `essays/{source_id}/`, the commentary canvas, and `essays/{source_id}/{source_id}-transcript.md`.",
+            "Reading Posture": "Read this as an orientation card, not as a substitute for the essay body or commentary canvas.",
+            "Return Path": f"Return through `essays/{source_id}/`, the commentary canvas, and `essays/{source_id}/{source_id}.md`.",
             "Where This Sits": f"`{source_id}` is a public essay packet on the ph-civ essays surface (`part: civilization`).",
         },
         "series": "essays",
@@ -320,7 +318,7 @@ def build_card_jsonl(source_id: str, meta: dict) -> dict:
         "source_paths": {
             "commentary_path": f"essays/{source_id}/{source_id}-commentary.md",
             "orientation_payload_path": "",
-            "source_chapter_path": f"essays/{source_id}/{source_id}-transcript.md",
+            "source_chapter_path": f"essays/{source_id}/{source_id}.md",
             "source_corpus_path": f"corpus/essays/{source_id}.md",
         },
         "source_snapshot": {
@@ -351,7 +349,7 @@ def intake_essay(meta: dict) -> str:
     title = meta["title"]
     url = meta["canonical_url"]
 
-    (target / f"{source_id}-transcript.md").write_text(
+    (target / f"{source_id}.md").write_text(
         build_transcript(source_id, meta, workshop_meta, body), encoding="utf-8", newline="\n"
     )
     (target / f"{source_id}-commentary.md").write_text(
@@ -444,7 +442,6 @@ def main() -> int:
         new_cards.append(build_card_jsonl(source_id, meta))
 
     merge_cards_jsonl(new_cards)
-    sync_index_json()
     public_count = 5 + len(created)  # essay-33..37 minus overlap: 33-35 were phase1, 36-37 extra
     # public essay folders = essay-01..32 + essay-33..37 = 37
     update_essays_readme(37)

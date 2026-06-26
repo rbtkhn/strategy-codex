@@ -10,7 +10,7 @@ WORK only; not Record.
 
 ## §1 Duet calibration (2026-04-23)
 
-[`source-mercouris-barnes-fractured-iran-trump-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md) — same Duran room, same Iran object. Mercouris layers chronology and institutional room; Barnes interjects liability and domestic exposure. **Strongest direct orthogonality signal** in corpus.
+[`source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md) — same Duran room, same Iran object. Mercouris layers chronology and institutional room; Barnes interjects liability and domestic exposure. **Strongest direct orthogonality signal** in corpus.
 
 ---
 
@@ -31,7 +31,7 @@ Same host, same escalation week:
 
 ## §3 Parallel Iran seam (Mercouris solo, Jun 10–11)
 
-[`source-alex-mercouris-iran-us-war-resumes-...-2026-06-11.md`](../../../source-archive/statecraft/2026-06-11/source-alex-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md) — conference travel frame, Hormuz tanker skepticism, Hersh source downgrade, Lebanon flank, multipolar spillover (China drones, EU).
+[`source-alex-mercouris-iran-us-war-resumes-...-2026-06-11.md`](../../../source-archive/statecraft/2026-06-11/source-alexander-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md) — conference travel frame, Hormuz tanker skepticism, Hersh source downgrade, Lebanon flank, multipolar spillover (China drones, EU).
 
 No June M×B co-host; orthogonality is **parallel same-week**, not duet.
 

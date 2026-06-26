@@ -20,9 +20,9 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| force-feasibility failure, imperial overreach, inflation/logistics pain, or domestic political danger | [davis-macgregor-speaker-arc.md](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md) | Davis gives Macgregor his sharpest force-versus-delusion and political-danger testing ground. |
-| geopolitical altitude, NATO fracture, logistics burden, or order consequence across Europe and the Gulf | [diesen-macgregor-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md) | Diesen gives the highest-altitude Macgregor lane and best translates crisis into imperial-distance and order-consequence terms. |
-| anti-war planning critique, undeclared-war normality, or a compact auxiliary branch outside the durable pair | [napolitano-macgregor-speaker-arc.md](../../../codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md) | Napolitano gives a real but secondary anti-aggression and elite-delusion framing layer. |
+| force-feasibility failure, imperial overreach, inflation/logistics pain, or domestic political danger | [davis-macgregor-speaker-arc.md](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md) | Davis gives Macgregor his sharpest force-versus-delusion and political-danger testing ground. |
+| geopolitical altitude, NATO fracture, logistics burden, or order consequence across Europe and the Gulf | [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md) | Diesen gives the highest-altitude Macgregor lane and best translates crisis into imperial-distance and order-consequence terms. |
+| anti-war planning critique, undeclared-war normality, or a compact auxiliary branch outside the durable pair | [napolitano-macgregor-speaker-arc.md](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md) | Napolitano gives a real but secondary anti-aggression and elite-delusion framing layer. |
 | the cleanest all-around first orientation to Macgregor as an object | [macgregor-helix.md](macgregor-helix.md) | The helix note explains how the durable double structure fits together before you descend into a lane. |
 | the maturity law or month-status answer | [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md) | The support spine owns the maturity and month-support explanation at speaker scope. |
 | a bounded monthly synthesis of what one 2026 month contributes to the speaker object | [stream/README.md](stream/README.md) | The monthly shelf files summarize each month without stealing chronology from the host-local arcs. |
@@ -36,9 +36,9 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 
 ## By shelf function
 
-- **Best host for force-feasibility / political-danger reading:** [davis](../../../codex/speakers/davis/stream)
-- **Best host for geopolitical-altitude / order-consequence reading:** [diesen](../../../codex/speakers/diesen/stream)
-- **Best host for auxiliary month-by-month anti-war reinforcement:** [napolitano](../../../codex/speakers/napolitano/stream)
+- **Best host for force-feasibility / political-danger reading:** [davis](../../../statecraft/hosts/davis/stream)
+- **Best host for geopolitical-altitude / order-consequence reading:** [diesen](../../../statecraft/voices/diesen/stream)
+- **Best host for auxiliary month-by-month anti-war reinforcement:** [napolitano](../../../statecraft/hosts/napolitano/stream)
 - **Best speaker-owned maturity surface:** [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
 - **Best bounded month syntheses:** [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md) and [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
 

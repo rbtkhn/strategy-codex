@@ -1,23 +1,393 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T02:12:04Z",
+  "generated_at": "2026-06-26T14:12:03Z",
   "raw_root": "source-archive/statecraft",
-  "speakers_root": "C:/dev/speakers",
+  "speakers_root": "statecraft/voices",
   "master_index": {
     "expected_markdown": 1,
     "found_markdown": 1,
     "expected_json": 1,
     "found_json": 1
   },
-  "speaker_raw_input_indexes": [],
-  "candidate_arc_index_surfaces": [],
-  "weak_justification_signals": [],
-  "missing_bench_candidates": [],
-  "speaker_signal_counts": {},
+  "speaker_raw_input_indexes": [
+    {
+      "speaker": "barnes",
+      "path": "statecraft/voices/barnes/barnes-raw-input-index.md"
+    },
+    {
+      "speaker": "blumenthal",
+      "path": "statecraft/voices/blumenthal/blumenthal-raw-input-index.md"
+    },
+    {
+      "speaker": "crooke",
+      "path": "statecraft/voices/crooke/crooke-raw-input-index.md"
+    },
+    {
+      "speaker": "diesen",
+      "path": "statecraft/voices/diesen/diesen-raw-input-index.md"
+    },
+    {
+      "speaker": "freeman",
+      "path": "statecraft/voices/freeman/freeman-raw-input-index.md"
+    },
+    {
+      "speaker": "hoh",
+      "path": "statecraft/voices/hoh/hoh-raw-input-index.md"
+    },
+    {
+      "speaker": "jiang",
+      "path": "statecraft/voices/jiang/jiang-raw-input-index.md"
+    },
+    {
+      "speaker": "johnson",
+      "path": "statecraft/voices/johnson/johnson-raw-input-index.md"
+    },
+    {
+      "speaker": "kent",
+      "path": "statecraft/voices/kent/kent-raw-input-index.md"
+    },
+    {
+      "speaker": "macgregor",
+      "path": "statecraft/voices/macgregor/macgregor-raw-input-index.md"
+    },
+    {
+      "speaker": "marandi",
+      "path": "statecraft/voices/marandi/marandi-raw-input-index.md"
+    },
+    {
+      "speaker": "martyanov",
+      "path": "statecraft/voices/martyanov/martyanov-raw-input-index.md"
+    },
+    {
+      "speaker": "mcgovern",
+      "path": "statecraft/voices/mcgovern/mcgovern-raw-input-index.md"
+    },
+    {
+      "speaker": "mearsheimer",
+      "path": "statecraft/voices/mearsheimer/mearsheimer-raw-input-index.md"
+    },
+    {
+      "speaker": "mercouris",
+      "path": "statecraft/voices/mercouris/mercouris-raw-input-index.md"
+    },
+    {
+      "speaker": "pape",
+      "path": "statecraft/voices/pape/pape-raw-input-index.md"
+    },
+    {
+      "speaker": "parsi",
+      "path": "statecraft/voices/parsi/parsi-raw-input-index.md"
+    },
+    {
+      "speaker": "postol",
+      "path": "statecraft/voices/postol/postol-raw-input-index.md"
+    },
+    {
+      "speaker": "ritter",
+      "path": "statecraft/voices/ritter/ritter-raw-input-index.md"
+    },
+    {
+      "speaker": "sachs",
+      "path": "statecraft/voices/sachs/sachs-raw-input-index.md"
+    },
+    {
+      "speaker": "wilkerson",
+      "path": "statecraft/voices/wilkerson/wilkerson-raw-input-index.md"
+    }
+  ],
+  "candidate_arc_index_surfaces": [
+    {
+      "speaker": "crooke",
+      "path": "statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md"
+    },
+    {
+      "speaker": "freeman",
+      "path": "statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md"
+    },
+    {
+      "speaker": "johnson",
+      "path": "statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md"
+    },
+    {
+      "speaker": "marandi",
+      "path": "statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md"
+    },
+    {
+      "speaker": "mercouris",
+      "path": "statecraft/voices/mercouris/stream/mercouris-arc-threads.md"
+    },
+    {
+      "speaker": "parsi",
+      "path": "statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md"
+    }
+  ],
+  "weak_justification_signals": [
+    {
+      "speaker": "crooke",
+      "path": "statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md",
+      "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
+    },
+    {
+      "speaker": "freeman",
+      "path": "statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md",
+      "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
+    },
+    {
+      "speaker": "johnson",
+      "path": "statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md",
+      "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
+    },
+    {
+      "speaker": "marandi",
+      "path": "statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md",
+      "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
+    },
+    {
+      "speaker": "mercouris",
+      "path": "statecraft/voices/mercouris/stream/mercouris-arc-threads.md",
+      "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
+    },
+    {
+      "speaker": "parsi",
+      "path": "statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md",
+      "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
+    }
+  ],
+  "missing_bench_candidates": [
+    {
+      "speaker": "aguilar",
+      "reason": "transcript mentions=5; speaker markdown=2"
+    },
+    {
+      "speaker": "armstrong",
+      "reason": "transcript mentions=7; speaker markdown=8"
+    },
+    {
+      "speaker": "baud",
+      "reason": "transcript mentions=29; speaker markdown=11"
+    },
+    {
+      "speaker": "karaganov",
+      "reason": "transcript mentions=5; speaker markdown=9"
+    },
+    {
+      "speaker": "krainer",
+      "reason": "transcript mentions=9; speaker markdown=2"
+    },
+    {
+      "speaker": "krapivnik",
+      "reason": "transcript mentions=3; speaker markdown=3"
+    },
+    {
+      "speaker": "mate",
+      "reason": "transcript mentions=5; speaker markdown=7"
+    },
+    {
+      "speaker": "weichert",
+      "reason": "transcript mentions=6; speaker markdown=6"
+    }
+  ],
+  "speaker_signal_counts": {
+    "_scratch": {
+      "transcript_mentions": 0,
+      "stream_markdown": 0,
+      "local_markdown": 4
+    },
+    "aguilar": {
+      "transcript_mentions": 5,
+      "stream_markdown": 0,
+      "local_markdown": 2
+    },
+    "alkorshid": {
+      "transcript_mentions": 123,
+      "stream_markdown": 0,
+      "local_markdown": 1
+    },
+    "armstrong": {
+      "transcript_mentions": 7,
+      "stream_markdown": 0,
+      "local_markdown": 8
+    },
+    "barnes": {
+      "transcript_mentions": 12,
+      "stream_markdown": 0,
+      "local_markdown": 20
+    },
+    "baud": {
+      "transcript_mentions": 29,
+      "stream_markdown": 0,
+      "local_markdown": 11
+    },
+    "beebe": {
+      "transcript_mentions": 1,
+      "stream_markdown": 0,
+      "local_markdown": 4
+    },
+    "berletic": {
+      "transcript_mentions": 2,
+      "stream_markdown": 0,
+      "local_markdown": 8
+    },
+    "blumenthal": {
+      "transcript_mentions": 4,
+      "stream_markdown": 0,
+      "local_markdown": 10
+    },
+    "christoforou": {
+      "transcript_mentions": 2,
+      "stream_markdown": 0,
+      "local_markdown": 2
+    },
+    "crooke": {
+      "transcript_mentions": 19,
+      "stream_markdown": 39,
+      "local_markdown": 14
+    },
+    "diesen": {
+      "transcript_mentions": 122,
+      "stream_markdown": 37,
+      "local_markdown": 8
+    },
+    "freeman": {
+      "transcript_mentions": 115,
+      "stream_markdown": 10,
+      "local_markdown": 18
+    },
+    "helmer": {
+      "transcript_mentions": 2,
+      "stream_markdown": 0,
+      "local_markdown": 2
+    },
+    "hoh": {
+      "transcript_mentions": 6,
+      "stream_markdown": 0,
+      "local_markdown": 5
+    },
+    "jermy": {
+      "transcript_mentions": 0,
+      "stream_markdown": 0,
+      "local_markdown": 10
+    },
+    "jiang": {
+      "transcript_mentions": 14,
+      "stream_markdown": 0,
+      "local_markdown": 15
+    },
+    "johnson": {
+      "transcript_mentions": 66,
+      "stream_markdown": 10,
+      "local_markdown": 18
+    },
+    "karaganov": {
+      "transcript_mentions": 5,
+      "stream_markdown": 0,
+      "local_markdown": 9
+    },
+    "kent": {
+      "transcript_mentions": 7,
+      "stream_markdown": 2,
+      "local_markdown": 10
+    },
+    "kiriakou": {
+      "transcript_mentions": 2,
+      "stream_markdown": 0,
+      "local_markdown": 1
+    },
+    "krainer": {
+      "transcript_mentions": 9,
+      "stream_markdown": 0,
+      "local_markdown": 2
+    },
+    "krapivnik": {
+      "transcript_mentions": 3,
+      "stream_markdown": 0,
+      "local_markdown": 3
+    },
+    "lascaris": {
+      "transcript_mentions": 1,
+      "stream_markdown": 0,
+      "local_markdown": 1
+    },
+    "macgregor": {
+      "transcript_mentions": 58,
+      "stream_markdown": 7,
+      "local_markdown": 16
+    },
+    "marandi": {
+      "transcript_mentions": 46,
+      "stream_markdown": 3,
+      "local_markdown": 18
+    },
+    "martyanov": {
+      "transcript_mentions": 27,
+      "stream_markdown": 0,
+      "local_markdown": 10
+    },
+    "mate": {
+      "transcript_mentions": 5,
+      "stream_markdown": 0,
+      "local_markdown": 7
+    },
+    "matlock": {
+      "transcript_mentions": 0,
+      "stream_markdown": 0,
+      "local_markdown": 2
+    },
+    "mcgovern": {
+      "transcript_mentions": 13,
+      "stream_markdown": 0,
+      "local_markdown": 10
+    },
+    "mearsheimer": {
+      "transcript_mentions": 43,
+      "stream_markdown": 0,
+      "local_markdown": 34
+    },
+    "mercouris": {
+      "transcript_mentions": 300,
+      "stream_markdown": 32,
+      "local_markdown": 13
+    },
+    "pape": {
+      "transcript_mentions": 11,
+      "stream_markdown": 38,
+      "local_markdown": 12
+    },
+    "parsi": {
+      "transcript_mentions": 15,
+      "stream_markdown": 15,
+      "local_markdown": 15
+    },
+    "postol": {
+      "transcript_mentions": 4,
+      "stream_markdown": 0,
+      "local_markdown": 10
+    },
+    "ritter": {
+      "transcript_mentions": 50,
+      "stream_markdown": 44,
+      "local_markdown": 14
+    },
+    "sachs": {
+      "transcript_mentions": 49,
+      "stream_markdown": 0,
+      "local_markdown": 14
+    },
+    "weichert": {
+      "transcript_mentions": 6,
+      "stream_markdown": 0,
+      "local_markdown": 6
+    },
+    "wilkerson": {
+      "transcript_mentions": 68,
+      "stream_markdown": 0,
+      "local_markdown": 26
+    }
+  },
   "summary": {
-    "speaker_raw_input_index_count": 0,
-    "candidate_arc_index_surface_count": 0,
-    "weak_justification_signal_count": 0,
-    "missing_bench_candidate_count": 0
+    "speaker_raw_input_index_count": 21,
+    "candidate_arc_index_surface_count": 6,
+    "weak_justification_signal_count": 6,
+    "missing_bench_candidate_count": 8
   }
 }

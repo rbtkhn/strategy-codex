@@ -44,16 +44,16 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/marandi/` path is now front-door compatibility only.
+The legacy `statecraft/voices/marandi/` path is now front-door compatibility only.
 
-- [codex/speakers/marandi/README.md](../../../codex/speakers/marandi/README.md) and [index.md](../../../codex/speakers/marandi/index.md) are compatibility pointers.
+- [statecraft/voices/marandi/README.md](../../../statecraft/voices/marandi/README.md) and [index.md](../../../statecraft/voices/marandi/index.md) are compatibility pointers.
 - codex-side thread, transcript, speaker-object, page, and theme files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Marandi statecraft work.
 
 ## Host Lanes
 
-- [Dialogue Works x Marandi](../../../codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
-- [Diesen x Marandi](../../../codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
+- [Dialogue Works x Marandi](../../../statecraft/hosts/nima/stream/nima-marandi-speaker-arc.md)
+- [Diesen x Marandi](../../../statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md)
 - [Davis host shelf](../../hosts/davis/README.md)
 
 ## Boundary

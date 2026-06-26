@@ -48,13 +48,13 @@ Use these existing surfaces as the benchmark spine:
 - [2025-12 month archive rollup](/C:/dev/strategy-codex/source-archive/statecraft/2025-12.md)
   Preserves the month’s real density, host spread, and late-2025 multi-lane footprint.
 
-- [wilkerson-december-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-december-2025-note.md)
+- [wilkerson-december-2025-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-december-2025-note.md)
   Shows December as an already-materialized eight-anchor Wilkerson month with real host diversity rather than a weak bridge.
 
 - [sachs-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-support-spine-2025-2026.md)
   Makes the December Sachs cluster visible across Napolitano, Neutrality Studies, and HORIZONS, which helps prove that December carries system-level breadth beyond one repeating host lane.
 
-- [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md)
+- [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md)
   Preserves December as a real pre-2026 entanglement and escalation hinge through the late-month Netanyahu/U.S. handoff concern.
 
 ## What December Is Good For

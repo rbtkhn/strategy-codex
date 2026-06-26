@@ -24,7 +24,7 @@ Matlock should currently be read as a **single-helix speaker object with one mat
 
 The direct branch is:
 
-- [Diesen x Matlock](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md)
+- [Diesen x Matlock](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-matlock-speaker-arc.md)
 
 The direct raw-input set is:
 
@@ -40,7 +40,7 @@ References to Matlock inside Freeman, Sachs, McGovern, Johnson, or other host fi
 
 If the operator needs Matlock's mature thesis:
 
-- open [Diesen x Matlock](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md)
+- open [Diesen x Matlock](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-matlock-speaker-arc.md)
 
 If the operator needs one direct source:
 
@@ -65,11 +65,11 @@ Use this speaker object when the Codex needs to:
 
 Typical neighboring lanes:
 
-- [Diesen](/C:/dev/strategy-codex/codex/speakers/diesen/)
-- [Parsi](/C:/dev/strategy-codex/codex/speakers/parsi/)
-- [Freeman](/C:/dev/strategy-codex/codex/speakers/freeman/)
-- [Mearsheimer](/C:/dev/strategy-codex/codex/speakers/mearsheimer/)
-- [Sachs](/C:/dev/strategy-codex/codex/speakers/sachs/)
+- [Diesen](/C:/dev/strategy-codex/statecraft/voices/diesen/)
+- [Parsi](/C:/dev/strategy-codex/statecraft/voices/parsi/)
+- [Freeman](/C:/dev/strategy-codex/statecraft/voices/freeman/)
+- [Mearsheimer](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/)
+- [Sachs](/C:/dev/strategy-codex/statecraft/voices/sachs/)
 
 ## Boundaries
 

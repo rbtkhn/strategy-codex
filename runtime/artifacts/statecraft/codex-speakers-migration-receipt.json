@@ -1,0 +1,1325 @@
+{
+  "generated_at": "2026-06-26T14:11:27.530132+00:00",
+  "source_root": "codex/speakers",
+  "counts": {
+    "skipped_duplicate": 219
+  },
+  "path_map": {
+    "codex/speakers/authored-pressure-quartet.md": "statecraft/voices/authored-pressure-quartet.md",
+    "codex/speakers/speaker-cluster-map.md": "statecraft/voices/speaker-cluster-map.md",
+    "codex/speakers/barnes/barnes-profile.md": "statecraft/voices/barnes/barnes-profile.md",
+    "codex/speakers/barnes/index.md": "statecraft/voices/barnes/index.md",
+    "codex/speakers/barnes/README.md": "statecraft/voices/barnes/README.md",
+    "codex/speakers/crooke/crooke-arc.md": "statecraft/voices/crooke/crooke-arc.md",
+    "codex/speakers/crooke/crooke-cross-year-note.md": "statecraft/voices/crooke/crooke-cross-year-note.md",
+    "codex/speakers/crooke/crooke-helix.md": "statecraft/voices/crooke/crooke-helix.md",
+    "codex/speakers/crooke/crooke-historical-examples-audit.md": "statecraft/voices/crooke/crooke-historical-examples-audit.md",
+    "codex/speakers/crooke/crooke-interview-appearances-2025-2026.md": "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md",
+    "codex/speakers/crooke/crooke-raw-input-index.md": "statecraft/voices/crooke/crooke-raw-input-index.md",
+    "codex/speakers/crooke/crooke-routing.md": "statecraft/voices/crooke/crooke-routing.md",
+    "codex/speakers/crooke/crooke-shelf-hygiene-2026-05.md": "statecraft/voices/crooke/crooke-shelf-hygiene-2026-05.md",
+    "codex/speakers/crooke/crooke-source-index.md": "statecraft/voices/crooke/crooke-source-index.md",
+    "codex/speakers/crooke/crooke-surface-orthogonality-2026-05.md": "statecraft/voices/crooke/crooke-surface-orthogonality-2026-05.md",
+    "codex/speakers/crooke/index.md": "statecraft/voices/crooke/index.md",
+    "codex/speakers/crooke/README.md": "statecraft/voices/crooke/README.md",
+    "codex/speakers/crooke/stream/crooke-april-2026-interview-cross-host-arc.md": "statecraft/voices/crooke/stream/crooke-april-2026-interview-cross-host-arc.md",
+    "codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md": "statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md",
+    "codex/speakers/crooke/stream/crooke-march-2026-interview-cross-host-arc.md": "statecraft/voices/crooke/stream/crooke-march-2026-interview-cross-host-arc.md",
+    "codex/speakers/crooke/stream/crooke-march-may-2026-interview-arc-threads.md": "statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md",
+    "codex/speakers/crooke/stream/crooke-may-2026-interview-cross-host-arc.md": "statecraft/voices/crooke/stream/crooke-may-2026-interview-cross-host-arc.md",
+    "codex/speakers/crooke/stream/crooke-thread-international-law.md": "statecraft/voices/crooke/stream/crooke-thread-international-law.md",
+    "codex/speakers/crooke/themes/ben-gurion-clausewitz-and-redemptive-permanent-war.md": "statecraft/voices/crooke/themes/ben-gurion-clausewitz-and-redemptive-permanent-war.md",
+    "codex/speakers/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md": "statecraft/voices/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md",
+    "codex/speakers/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md": "statecraft/voices/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md",
+    "codex/speakers/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md": "statecraft/voices/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md",
+    "codex/speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md": "statecraft/voices/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md",
+    "codex/speakers/crooke/themes/README.md": "statecraft/voices/crooke/themes/README.md",
+    "codex/speakers/crooke/themes/treaty-form-vs-transactional-settlement.md": "statecraft/voices/crooke/themes/treaty-form-vs-transactional-settlement.md",
+    "codex/speakers/davis/index.md": "statecraft/hosts/davis/index.md",
+    "codex/speakers/davis/README.md": "statecraft/hosts/davis/README.md",
+    "codex/speakers/diesen/diesen-cross-host-note.md": "statecraft/voices/diesen/diesen-cross-host-note.md",
+    "codex/speakers/diesen/diesen-host-wiring-2026.md": "statecraft/voices/diesen/diesen-host-wiring-2026.md",
+    "codex/speakers/diesen/diesen-raw-input-index.md": "statecraft/voices/diesen/diesen-raw-input-index.md",
+    "codex/speakers/diesen/diesen-source-index.md": "statecraft/voices/diesen/diesen-source-index.md",
+    "codex/speakers/diesen/diesen-speaker-object.md": "statecraft/voices/diesen/diesen-speaker-object.md",
+    "codex/speakers/diesen/index.md": "statecraft/voices/diesen/index.md",
+    "codex/speakers/diesen/README.md": "statecraft/voices/diesen/README.md",
+    "codex/speakers/diesen/state-set.toml": "statecraft/voices/diesen/state-set.toml",
+    "codex/speakers/diesen/stream/diesen-baud-arc.md": "statecraft/voices/diesen/stream/diesen-baud-arc.md",
+    "codex/speakers/diesen/stream/diesen-baud-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-baud-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-berletic-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-chapter-2026-04-01.md": "statecraft/voices/diesen/stream/diesen-chapter-2026-04-01.md",
+    "codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-freeman-arc.md": "statecraft/voices/diesen/stream/diesen-freeman-arc.md",
+    "codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-jiang-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-karaganov-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-kent-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-krainer-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-martyanov-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-matlock-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-mcgovern-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-mearsheimer-arc.md": "statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md",
+    "codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-mearsheimer-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-mercouris-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md": "statecraft/voices/diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md": "statecraft/voices/diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md": "statecraft/voices/diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md": "statecraft/voices/diesen/stream/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md": "statecraft/voices/diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-04-01-civ-mem-scaffold.md": "statecraft/voices/diesen/stream/diesen-page-2026-04-01-civ-mem-scaffold.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md": "statecraft/voices/diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md": "statecraft/voices/diesen/stream/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md",
+    "codex/speakers/diesen/stream/diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md": "statecraft/voices/diesen/stream/diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md",
+    "codex/speakers/diesen/stream/diesen-page-template.md": "statecraft/voices/diesen/stream/diesen-page-template.md",
+    "codex/speakers/diesen/stream/diesen-postol-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md",
+    "codex/speakers/diesen/stream/diesen-shelf-2026-04.md": "statecraft/voices/diesen/stream/diesen-shelf-2026-04.md",
+    "codex/speakers/diesen/stream/diesen-thread.md": "statecraft/voices/diesen/stream/diesen-thread.md",
+    "codex/speakers/diesen/stream/diesen-transcript.md": "statecraft/voices/diesen/stream/diesen-transcript.md",
+    "codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md": "statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md",
+    "codex/speakers/freeman/freeman-arc.md": "statecraft/voices/freeman/freeman-arc.md",
+    "codex/speakers/freeman/freeman-cross-year-note.md": "statecraft/voices/freeman/freeman-cross-year-note.md",
+    "codex/speakers/freeman/freeman-helix.md": "statecraft/voices/freeman/freeman-helix.md",
+    "codex/speakers/freeman/freeman-historical-examples-audit.md": "statecraft/voices/freeman/freeman-historical-examples-audit.md",
+    "codex/speakers/freeman/freeman-raw-input-index.md": "statecraft/voices/freeman/freeman-raw-input-index.md",
+    "codex/speakers/freeman/freeman-routing.md": "statecraft/voices/freeman/freeman-routing.md",
+    "codex/speakers/freeman/freeman-source-index.md": "statecraft/voices/freeman/freeman-source-index.md",
+    "codex/speakers/freeman/freeman-surface-orthogonality-2026-05.md": "statecraft/voices/freeman/freeman-surface-orthogonality-2026-05.md",
+    "codex/speakers/freeman/index.md": "statecraft/voices/freeman/index.md",
+    "codex/speakers/freeman/README.md": "statecraft/voices/freeman/README.md",
+    "codex/speakers/freeman/themes/README.md": "statecraft/voices/freeman/themes/README.md",
+    "codex/speakers/jermy/jermy-profile.md": "statecraft/voices/jermy/jermy-profile.md",
+    "codex/speakers/jiang/index.md": "statecraft/voices/jiang/index.md",
+    "codex/speakers/jiang/README.md": "statecraft/voices/jiang/README.md",
+    "codex/speakers/johnson/index.md": "statecraft/voices/johnson/index.md",
+    "codex/speakers/johnson/johnson-arc.md": "statecraft/voices/johnson/johnson-arc.md",
+    "codex/speakers/johnson/johnson-backward-extension-note.md": "statecraft/voices/johnson/johnson-backward-extension-note.md",
+    "codex/speakers/johnson/johnson-cross-year-note.md": "statecraft/voices/johnson/johnson-cross-year-note.md",
+    "codex/speakers/johnson/johnson-helix.md": "statecraft/voices/johnson/johnson-helix.md",
+    "codex/speakers/johnson/johnson-raw-input-index.md": "statecraft/voices/johnson/johnson-raw-input-index.md",
+    "codex/speakers/johnson/johnson-routing.md": "statecraft/voices/johnson/johnson-routing.md",
+    "codex/speakers/johnson/johnson-source-index.md": "statecraft/voices/johnson/johnson-source-index.md",
+    "codex/speakers/johnson/johnson-support-spine-2025-2026.md": "statecraft/voices/johnson/johnson-support-spine-2025-2026.md",
+    "codex/speakers/johnson/johnson-surface-orthogonality-2026-05.md": "statecraft/voices/johnson/johnson-surface-orthogonality-2026-05.md",
+    "codex/speakers/johnson/README.md": "statecraft/voices/johnson/README.md",
+    "codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md": "statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md",
+    "codex/speakers/karaganov/README.md": "statecraft/voices/karaganov/README.md",
+    "codex/speakers/kent/index.md": "statecraft/voices/kent/index.md",
+    "codex/speakers/kent/README.md": "statecraft/voices/kent/README.md",
+    "codex/speakers/macgregor/index.md": "statecraft/voices/macgregor/index.md",
+    "codex/speakers/macgregor/macgregor-arc.md": "statecraft/voices/macgregor/macgregor-arc.md",
+    "codex/speakers/macgregor/macgregor-cross-year-note.md": "statecraft/voices/macgregor/macgregor-cross-year-note.md",
+    "codex/speakers/macgregor/macgregor-helix.md": "statecraft/voices/macgregor/macgregor-helix.md",
+    "codex/speakers/macgregor/macgregor-raw-input-index.md": "statecraft/voices/macgregor/macgregor-raw-input-index.md",
+    "codex/speakers/macgregor/macgregor-routing.md": "statecraft/voices/macgregor/macgregor-routing.md",
+    "codex/speakers/macgregor/macgregor-shelf-hygiene-2026-05.md": "statecraft/voices/macgregor/macgregor-shelf-hygiene-2026-05.md",
+    "codex/speakers/macgregor/macgregor-source-index.md": "statecraft/voices/macgregor/macgregor-source-index.md",
+    "codex/speakers/macgregor/macgregor-support-spine-2025-2026.md": "statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md",
+    "codex/speakers/macgregor/macgregor-surface-orthogonality-2026-05.md": "statecraft/voices/macgregor/macgregor-surface-orthogonality-2026-05.md",
+    "codex/speakers/macgregor/README.md": "statecraft/voices/macgregor/README.md",
+    "codex/speakers/marandi/index.md": "statecraft/voices/marandi/index.md",
+    "codex/speakers/marandi/marandi-arc.md": "statecraft/voices/marandi/marandi-arc.md",
+    "codex/speakers/marandi/marandi-helix.md": "statecraft/voices/marandi/marandi-helix.md",
+    "codex/speakers/marandi/marandi-raw-input-index.md": "statecraft/voices/marandi/marandi-raw-input-index.md",
+    "codex/speakers/marandi/marandi-routing.md": "statecraft/voices/marandi/marandi-routing.md",
+    "codex/speakers/marandi/marandi-source-index.md": "statecraft/voices/marandi/marandi-source-index.md",
+    "codex/speakers/marandi/README.md": "statecraft/voices/marandi/README.md",
+    "codex/speakers/martyanov/index.md": "statecraft/voices/martyanov/index.md",
+    "codex/speakers/martyanov/README.md": "statecraft/voices/martyanov/README.md",
+    "codex/speakers/mate/README.md": "statecraft/voices/mate/README.md",
+    "codex/speakers/mcgovern/index.md": "statecraft/voices/mcgovern/index.md",
+    "codex/speakers/mcgovern/README.md": "statecraft/voices/mcgovern/README.md",
+    "codex/speakers/mearsheimer/index.md": "statecraft/voices/mearsheimer/index.md",
+    "codex/speakers/mearsheimer/mearsheimer-arc.md": "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+    "codex/speakers/mearsheimer/mearsheimer-helix.md": "statecraft/voices/mearsheimer/mearsheimer-helix.md",
+    "codex/speakers/mearsheimer/mearsheimer-profile.md": "statecraft/voices/mearsheimer/mearsheimer-profile.md",
+    "codex/speakers/mearsheimer/mearsheimer-raw-input-index.md": "statecraft/voices/mearsheimer/mearsheimer-raw-input-index.md",
+    "codex/speakers/mearsheimer/mearsheimer-routing.md": "statecraft/voices/mearsheimer/mearsheimer-routing.md",
+    "codex/speakers/mearsheimer/mearsheimer-source-index.md": "statecraft/voices/mearsheimer/mearsheimer-source-index.md",
+    "codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md": "statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md",
+    "codex/speakers/mearsheimer/README.md": "statecraft/voices/mearsheimer/README.md",
+    "codex/speakers/mercouris/index.md": "statecraft/voices/mercouris/index.md",
+    "codex/speakers/mercouris/mercouris-cross-host-note.md": "statecraft/voices/mercouris/mercouris-cross-host-note.md",
+    "codex/speakers/mercouris/mercouris-historical-examples-audit.md": "statecraft/voices/mercouris/mercouris-historical-examples-audit.md",
+    "codex/speakers/mercouris/mercouris-raw-input-index.md": "statecraft/voices/mercouris/mercouris-raw-input-index.md",
+    "codex/speakers/mercouris/mercouris-source-index.md": "statecraft/voices/mercouris/mercouris-source-index.md",
+    "codex/speakers/mercouris/mercouris-speaker-object.md": "statecraft/voices/mercouris/mercouris-speaker-object.md",
+    "codex/speakers/mercouris/README.md": "statecraft/voices/mercouris/README.md",
+    "codex/speakers/mercouris/stream/mercouris-arc-threads.md": "statecraft/voices/mercouris/stream/mercouris-arc-threads.md",
+    "codex/speakers/mercouris/stream/mercouris-arc.md": "statecraft/voices/mercouris/stream/mercouris-arc.md",
+    "codex/speakers/mercouris/stream/mercouris-shelf-2026-01.md": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-01.md",
+    "codex/speakers/mercouris/stream/mercouris-shelf-2026-02.md": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-02.md",
+    "codex/speakers/mercouris/stream/mercouris-shelf-2026-03.md": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-03.md",
+    "codex/speakers/mercouris/stream/mercouris-shelf-2026-04.md": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-04.md",
+    "codex/speakers/mercouris/stream/mercouris-shelf-2026-05.md": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-05.md",
+    "codex/speakers/mercouris/themes/broken-settlement-minsk-and-istanbul-sequencing.md": "statecraft/voices/mercouris/themes/broken-settlement-minsk-and-istanbul-sequencing.md",
+    "codex/speakers/mercouris/themes/cold-war-contact-deterrence-and-arms-control-inheritance.md": "statecraft/voices/mercouris/themes/cold-war-contact-deterrence-and-arms-control-inheritance.md",
+    "codex/speakers/mercouris/themes/geostrategic-defeat-and-unipolar-exhaustion.md": "statecraft/voices/mercouris/themes/geostrategic-defeat-and-unipolar-exhaustion.md",
+    "codex/speakers/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md": "statecraft/voices/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md",
+    "codex/speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md": "statecraft/voices/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md",
+    "codex/speakers/mercouris/themes/README.md": "statecraft/voices/mercouris/themes/README.md",
+    "codex/speakers/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md": "statecraft/voices/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md",
+    "codex/speakers/napolitano/index.md": "statecraft/hosts/napolitano/index.md",
+    "codex/speakers/napolitano/README.md": "statecraft/hosts/napolitano/README.md",
+    "codex/speakers/nima/index.md": "statecraft/hosts/nima/index.md",
+    "codex/speakers/nima/README.md": "statecraft/hosts/nima/README.md",
+    "codex/speakers/pape/index.md": "statecraft/voices/pape/index.md",
+    "codex/speakers/pape/pape-arc.md": "statecraft/voices/pape/pape-arc.md",
+    "codex/speakers/pape/pape-cross-host-note.md": "statecraft/voices/pape/pape-cross-host-note.md",
+    "codex/speakers/pape/pape-helix.md": "statecraft/voices/pape/pape-helix.md",
+    "codex/speakers/pape/pape-raw-input-index.md": "statecraft/voices/pape/pape-raw-input-index.md",
+    "codex/speakers/pape/pape-source-index.md": "statecraft/voices/pape/pape-source-index.md",
+    "codex/speakers/pape/pape-speaker-object.md": "statecraft/voices/pape/pape-speaker-object.md",
+    "codex/speakers/pape/README.md": "statecraft/voices/pape/README.md",
+    "codex/speakers/pape/stream/pape-forecast-ledger-2026.md": "statecraft/voices/pape/stream/pape-forecast-ledger-2026.md",
+    "codex/speakers/parsi/index.md": "statecraft/voices/parsi/index.md",
+    "codex/speakers/parsi/parsi-arc.md": "statecraft/voices/parsi/parsi-arc.md",
+    "codex/speakers/parsi/parsi-backward-extension-note.md": "statecraft/voices/parsi/parsi-backward-extension-note.md",
+    "codex/speakers/parsi/parsi-cross-host-note.md": "statecraft/voices/parsi/parsi-cross-host-note.md",
+    "codex/speakers/parsi/parsi-cross-year-note.md": "statecraft/voices/parsi/parsi-cross-year-note.md",
+    "codex/speakers/parsi/parsi-helix.md": "statecraft/voices/parsi/parsi-helix.md",
+    "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md": "statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md",
+    "codex/speakers/parsi/parsi-raw-input-index.md": "statecraft/voices/parsi/parsi-raw-input-index.md",
+    "codex/speakers/parsi/parsi-routing.md": "statecraft/voices/parsi/parsi-routing.md",
+    "codex/speakers/parsi/parsi-source-index.md": "statecraft/voices/parsi/parsi-source-index.md",
+    "codex/speakers/parsi/parsi-speaker-object.md": "statecraft/voices/parsi/parsi-speaker-object.md",
+    "codex/speakers/parsi/parsi-surface-orthogonality-2026-05.md": "statecraft/voices/parsi/parsi-surface-orthogonality-2026-05.md",
+    "codex/speakers/parsi/README.md": "statecraft/voices/parsi/README.md",
+    "codex/speakers/parsi/stream/parsi-2025-present-arc-threads.md": "statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md",
+    "codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md": "statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md",
+    "codex/speakers/parsi/stream/parsi-march-2026-cross-context-arc.md": "statecraft/voices/parsi/stream/parsi-march-2026-cross-context-arc.md",
+    "codex/speakers/parsi/stream/parsi-may-2026-cross-context-arc.md": "statecraft/voices/parsi/stream/parsi-may-2026-cross-context-arc.md",
+    "codex/speakers/parsi/themes/blockade-failure-versus-silver-bullet-thinking.md": "statecraft/voices/parsi/themes/blockade-failure-versus-silver-bullet-thinking.md",
+    "codex/speakers/parsi/themes/ceasefire-sanctions-relief-and-guarantee-logic.md": "statecraft/voices/parsi/themes/ceasefire-sanctions-relief-and-guarantee-logic.md",
+    "codex/speakers/parsi/themes/coercion-failure-and-bargaining-leverage.md": "statecraft/voices/parsi/themes/coercion-failure-and-bargaining-leverage.md",
+    "codex/speakers/parsi/themes/implementation-over-symbolism.md": "statecraft/voices/parsi/themes/implementation-over-symbolism.md",
+    "codex/speakers/parsi/themes/israel-as-escalation-engine-and-u-s-entanglement.md": "statecraft/voices/parsi/themes/israel-as-escalation-engine-and-u-s-entanglement.md",
+    "codex/speakers/parsi/themes/README.md": "statecraft/voices/parsi/themes/README.md",
+    "codex/speakers/parsi/themes/regional-security-architecture-and-post-primacy-settlement.md": "statecraft/voices/parsi/themes/regional-security-architecture-and-post-primacy-settlement.md",
+    "codex/speakers/postol/index.md": "statecraft/voices/postol/index.md",
+    "codex/speakers/postol/README.md": "statecraft/voices/postol/README.md",
+    "codex/speakers/ritter/index.md": "statecraft/voices/ritter/index.md",
+    "codex/speakers/ritter/README.md": "statecraft/voices/ritter/README.md",
+    "codex/speakers/ritter/ritter-arc.md": "statecraft/voices/ritter/ritter-arc.md",
+    "codex/speakers/ritter/ritter-cross-year-note.md": "statecraft/voices/ritter/ritter-cross-year-note.md",
+    "codex/speakers/ritter/ritter-helix.md": "statecraft/voices/ritter/ritter-helix.md",
+    "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md": "statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md",
+    "codex/speakers/ritter/ritter-raw-input-index.md": "statecraft/voices/ritter/ritter-raw-input-index.md",
+    "codex/speakers/ritter/ritter-routing.md": "statecraft/voices/ritter/ritter-routing.md",
+    "codex/speakers/ritter/ritter-source-index.md": "statecraft/voices/ritter/ritter-source-index.md",
+    "codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md": "statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md",
+    "codex/speakers/sachs/index.md": "statecraft/voices/sachs/index.md",
+    "codex/speakers/sachs/README.md": "statecraft/voices/sachs/README.md",
+    "codex/speakers/wilkerson/index.md": "statecraft/voices/wilkerson/index.md",
+    "codex/speakers/wilkerson/README.md": "statecraft/voices/wilkerson/README.md",
+    "codex/speakers/wilkerson/wilkerson-arc.md": "statecraft/voices/wilkerson/wilkerson-arc.md",
+    "codex/speakers/wilkerson/wilkerson-cross-year-note.md": "statecraft/voices/wilkerson/wilkerson-cross-year-note.md",
+    "codex/speakers/wilkerson/wilkerson-helix.md": "statecraft/voices/wilkerson/wilkerson-helix.md",
+    "codex/speakers/wilkerson/wilkerson-may-2026-note.md": "statecraft/voices/wilkerson/wilkerson-may-2026-note.md",
+    "codex/speakers/wilkerson/wilkerson-raw-input-index.md": "statecraft/voices/wilkerson/wilkerson-raw-input-index.md",
+    "codex/speakers/wilkerson/wilkerson-routing.md": "statecraft/voices/wilkerson/wilkerson-routing.md",
+    "codex/speakers/wilkerson/wilkerson-source-index.md": "statecraft/voices/wilkerson/wilkerson-source-index.md"
+  },
+  "entries": [
+    {
+      "source": "codex/speakers/authored-pressure-quartet.md",
+      "dest": "statecraft/voices/authored-pressure-quartet.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/speaker-cluster-map.md",
+      "dest": "statecraft/voices/speaker-cluster-map.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/barnes/barnes-profile.md",
+      "dest": "statecraft/voices/barnes/barnes-profile.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/barnes/index.md",
+      "dest": "statecraft/voices/barnes/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/barnes/README.md",
+      "dest": "statecraft/voices/barnes/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-arc.md",
+      "dest": "statecraft/voices/crooke/crooke-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-cross-year-note.md",
+      "dest": "statecraft/voices/crooke/crooke-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-helix.md",
+      "dest": "statecraft/voices/crooke/crooke-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-historical-examples-audit.md",
+      "dest": "statecraft/voices/crooke/crooke-historical-examples-audit.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-interview-appearances-2025-2026.md",
+      "dest": "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-raw-input-index.md",
+      "dest": "statecraft/voices/crooke/crooke-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-routing.md",
+      "dest": "statecraft/voices/crooke/crooke-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-shelf-hygiene-2026-05.md",
+      "dest": "statecraft/voices/crooke/crooke-shelf-hygiene-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-source-index.md",
+      "dest": "statecraft/voices/crooke/crooke-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/crooke-surface-orthogonality-2026-05.md",
+      "dest": "statecraft/voices/crooke/crooke-surface-orthogonality-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/index.md",
+      "dest": "statecraft/voices/crooke/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/README.md",
+      "dest": "statecraft/voices/crooke/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/stream/crooke-april-2026-interview-cross-host-arc.md",
+      "dest": "statecraft/voices/crooke/stream/crooke-april-2026-interview-cross-host-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md",
+      "dest": "statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/stream/crooke-march-2026-interview-cross-host-arc.md",
+      "dest": "statecraft/voices/crooke/stream/crooke-march-2026-interview-cross-host-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/stream/crooke-march-may-2026-interview-arc-threads.md",
+      "dest": "statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/stream/crooke-may-2026-interview-cross-host-arc.md",
+      "dest": "statecraft/voices/crooke/stream/crooke-may-2026-interview-cross-host-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/stream/crooke-thread-international-law.md",
+      "dest": "statecraft/voices/crooke/stream/crooke-thread-international-law.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/ben-gurion-clausewitz-and-redemptive-permanent-war.md",
+      "dest": "statecraft/voices/crooke/themes/ben-gurion-clausewitz-and-redemptive-permanent-war.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md",
+      "dest": "statecraft/voices/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md",
+      "dest": "statecraft/voices/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md",
+      "dest": "statecraft/voices/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md",
+      "dest": "statecraft/voices/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/README.md",
+      "dest": "statecraft/voices/crooke/themes/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/crooke/themes/treaty-form-vs-transactional-settlement.md",
+      "dest": "statecraft/voices/crooke/themes/treaty-form-vs-transactional-settlement.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/davis/index.md",
+      "dest": "statecraft/hosts/davis/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/davis/README.md",
+      "dest": "statecraft/hosts/davis/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/diesen-cross-host-note.md",
+      "dest": "statecraft/voices/diesen/diesen-cross-host-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/diesen-host-wiring-2026.md",
+      "dest": "statecraft/voices/diesen/diesen-host-wiring-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/diesen-raw-input-index.md",
+      "dest": "statecraft/voices/diesen/diesen-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/diesen-source-index.md",
+      "dest": "statecraft/voices/diesen/diesen-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/diesen-speaker-object.md",
+      "dest": "statecraft/voices/diesen/diesen-speaker-object.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/index.md",
+      "dest": "statecraft/voices/diesen/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/README.md",
+      "dest": "statecraft/voices/diesen/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/state-set.toml",
+      "dest": "statecraft/voices/diesen/state-set.toml",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-baud-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-baud-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-baud-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-baud-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-berletic-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-chapter-2026-04-01.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-chapter-2026-04-01.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-freeman-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-freeman-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-jermy-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-jiang-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-karaganov-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-kent-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-krainer-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-martyanov-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-matlock-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-mcgovern-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-mearsheimer-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-mearsheimer-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-mercouris-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-04-01-civ-mem-scaffold.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-04-01-civ-mem-scaffold.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-page-template.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-page-template.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-postol-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-shelf-2026-04.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-shelf-2026-04.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-thread.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-thread.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-transcript.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-transcript.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md",
+      "dest": "statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-arc.md",
+      "dest": "statecraft/voices/freeman/freeman-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-cross-year-note.md",
+      "dest": "statecraft/voices/freeman/freeman-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-helix.md",
+      "dest": "statecraft/voices/freeman/freeman-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-historical-examples-audit.md",
+      "dest": "statecraft/voices/freeman/freeman-historical-examples-audit.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-raw-input-index.md",
+      "dest": "statecraft/voices/freeman/freeman-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-routing.md",
+      "dest": "statecraft/voices/freeman/freeman-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-source-index.md",
+      "dest": "statecraft/voices/freeman/freeman-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/freeman-surface-orthogonality-2026-05.md",
+      "dest": "statecraft/voices/freeman/freeman-surface-orthogonality-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/index.md",
+      "dest": "statecraft/voices/freeman/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/README.md",
+      "dest": "statecraft/voices/freeman/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/freeman/themes/README.md",
+      "dest": "statecraft/voices/freeman/themes/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/jermy/jermy-profile.md",
+      "dest": "statecraft/voices/jermy/jermy-profile.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/jiang/index.md",
+      "dest": "statecraft/voices/jiang/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/jiang/README.md",
+      "dest": "statecraft/voices/jiang/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/index.md",
+      "dest": "statecraft/voices/johnson/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-arc.md",
+      "dest": "statecraft/voices/johnson/johnson-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-backward-extension-note.md",
+      "dest": "statecraft/voices/johnson/johnson-backward-extension-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-cross-year-note.md",
+      "dest": "statecraft/voices/johnson/johnson-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-helix.md",
+      "dest": "statecraft/voices/johnson/johnson-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-raw-input-index.md",
+      "dest": "statecraft/voices/johnson/johnson-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-routing.md",
+      "dest": "statecraft/voices/johnson/johnson-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-source-index.md",
+      "dest": "statecraft/voices/johnson/johnson-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-support-spine-2025-2026.md",
+      "dest": "statecraft/voices/johnson/johnson-support-spine-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/johnson-surface-orthogonality-2026-05.md",
+      "dest": "statecraft/voices/johnson/johnson-surface-orthogonality-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/README.md",
+      "dest": "statecraft/voices/johnson/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md",
+      "dest": "statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/karaganov/README.md",
+      "dest": "statecraft/voices/karaganov/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/kent/index.md",
+      "dest": "statecraft/voices/kent/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/kent/README.md",
+      "dest": "statecraft/voices/kent/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/index.md",
+      "dest": "statecraft/voices/macgregor/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-arc.md",
+      "dest": "statecraft/voices/macgregor/macgregor-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-cross-year-note.md",
+      "dest": "statecraft/voices/macgregor/macgregor-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-helix.md",
+      "dest": "statecraft/voices/macgregor/macgregor-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-raw-input-index.md",
+      "dest": "statecraft/voices/macgregor/macgregor-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-routing.md",
+      "dest": "statecraft/voices/macgregor/macgregor-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-shelf-hygiene-2026-05.md",
+      "dest": "statecraft/voices/macgregor/macgregor-shelf-hygiene-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-source-index.md",
+      "dest": "statecraft/voices/macgregor/macgregor-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-support-spine-2025-2026.md",
+      "dest": "statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/macgregor-surface-orthogonality-2026-05.md",
+      "dest": "statecraft/voices/macgregor/macgregor-surface-orthogonality-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/macgregor/README.md",
+      "dest": "statecraft/voices/macgregor/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/index.md",
+      "dest": "statecraft/voices/marandi/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/marandi-arc.md",
+      "dest": "statecraft/voices/marandi/marandi-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/marandi-helix.md",
+      "dest": "statecraft/voices/marandi/marandi-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/marandi-raw-input-index.md",
+      "dest": "statecraft/voices/marandi/marandi-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/marandi-routing.md",
+      "dest": "statecraft/voices/marandi/marandi-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/marandi-source-index.md",
+      "dest": "statecraft/voices/marandi/marandi-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/marandi/README.md",
+      "dest": "statecraft/voices/marandi/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/martyanov/index.md",
+      "dest": "statecraft/voices/martyanov/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/martyanov/README.md",
+      "dest": "statecraft/voices/martyanov/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mate/README.md",
+      "dest": "statecraft/voices/mate/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mcgovern/index.md",
+      "dest": "statecraft/voices/mcgovern/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mcgovern/README.md",
+      "dest": "statecraft/voices/mcgovern/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/index.md",
+      "dest": "statecraft/voices/mearsheimer/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-arc.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-helix.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-profile.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-profile.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-raw-input-index.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-routing.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-source-index.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md",
+      "dest": "statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mearsheimer/README.md",
+      "dest": "statecraft/voices/mearsheimer/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/index.md",
+      "dest": "statecraft/voices/mercouris/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/mercouris-cross-host-note.md",
+      "dest": "statecraft/voices/mercouris/mercouris-cross-host-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/mercouris-historical-examples-audit.md",
+      "dest": "statecraft/voices/mercouris/mercouris-historical-examples-audit.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/mercouris-raw-input-index.md",
+      "dest": "statecraft/voices/mercouris/mercouris-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/mercouris-source-index.md",
+      "dest": "statecraft/voices/mercouris/mercouris-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/mercouris-speaker-object.md",
+      "dest": "statecraft/voices/mercouris/mercouris-speaker-object.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/README.md",
+      "dest": "statecraft/voices/mercouris/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-arc-threads.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-arc-threads.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-arc.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-shelf-2026-01.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-01.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-shelf-2026-02.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-02.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-shelf-2026-03.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-03.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-shelf-2026-04.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-04.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/stream/mercouris-shelf-2026-05.md",
+      "dest": "statecraft/voices/mercouris/stream/mercouris-shelf-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/broken-settlement-minsk-and-istanbul-sequencing.md",
+      "dest": "statecraft/voices/mercouris/themes/broken-settlement-minsk-and-istanbul-sequencing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/cold-war-contact-deterrence-and-arms-control-inheritance.md",
+      "dest": "statecraft/voices/mercouris/themes/cold-war-contact-deterrence-and-arms-control-inheritance.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/geostrategic-defeat-and-unipolar-exhaustion.md",
+      "dest": "statecraft/voices/mercouris/themes/geostrategic-defeat-and-unipolar-exhaustion.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md",
+      "dest": "statecraft/voices/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md",
+      "dest": "statecraft/voices/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/README.md",
+      "dest": "statecraft/voices/mercouris/themes/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md",
+      "dest": "statecraft/voices/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/napolitano/index.md",
+      "dest": "statecraft/hosts/napolitano/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/napolitano/README.md",
+      "dest": "statecraft/hosts/napolitano/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/nima/index.md",
+      "dest": "statecraft/hosts/nima/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/nima/README.md",
+      "dest": "statecraft/hosts/nima/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/index.md",
+      "dest": "statecraft/voices/pape/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/pape-arc.md",
+      "dest": "statecraft/voices/pape/pape-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/pape-cross-host-note.md",
+      "dest": "statecraft/voices/pape/pape-cross-host-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/pape-helix.md",
+      "dest": "statecraft/voices/pape/pape-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/pape-raw-input-index.md",
+      "dest": "statecraft/voices/pape/pape-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/pape-source-index.md",
+      "dest": "statecraft/voices/pape/pape-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/pape-speaker-object.md",
+      "dest": "statecraft/voices/pape/pape-speaker-object.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/README.md",
+      "dest": "statecraft/voices/pape/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/pape/stream/pape-forecast-ledger-2026.md",
+      "dest": "statecraft/voices/pape/stream/pape-forecast-ledger-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/index.md",
+      "dest": "statecraft/voices/parsi/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-arc.md",
+      "dest": "statecraft/voices/parsi/parsi-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-backward-extension-note.md",
+      "dest": "statecraft/voices/parsi/parsi-backward-extension-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-cross-host-note.md",
+      "dest": "statecraft/voices/parsi/parsi-cross-host-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-cross-year-note.md",
+      "dest": "statecraft/voices/parsi/parsi-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-helix.md",
+      "dest": "statecraft/voices/parsi/parsi-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md",
+      "dest": "statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-raw-input-index.md",
+      "dest": "statecraft/voices/parsi/parsi-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-routing.md",
+      "dest": "statecraft/voices/parsi/parsi-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-source-index.md",
+      "dest": "statecraft/voices/parsi/parsi-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-speaker-object.md",
+      "dest": "statecraft/voices/parsi/parsi-speaker-object.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/parsi-surface-orthogonality-2026-05.md",
+      "dest": "statecraft/voices/parsi/parsi-surface-orthogonality-2026-05.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/README.md",
+      "dest": "statecraft/voices/parsi/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/stream/parsi-2025-present-arc-threads.md",
+      "dest": "statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md",
+      "dest": "statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/stream/parsi-march-2026-cross-context-arc.md",
+      "dest": "statecraft/voices/parsi/stream/parsi-march-2026-cross-context-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/stream/parsi-may-2026-cross-context-arc.md",
+      "dest": "statecraft/voices/parsi/stream/parsi-may-2026-cross-context-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/blockade-failure-versus-silver-bullet-thinking.md",
+      "dest": "statecraft/voices/parsi/themes/blockade-failure-versus-silver-bullet-thinking.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/ceasefire-sanctions-relief-and-guarantee-logic.md",
+      "dest": "statecraft/voices/parsi/themes/ceasefire-sanctions-relief-and-guarantee-logic.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/coercion-failure-and-bargaining-leverage.md",
+      "dest": "statecraft/voices/parsi/themes/coercion-failure-and-bargaining-leverage.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/implementation-over-symbolism.md",
+      "dest": "statecraft/voices/parsi/themes/implementation-over-symbolism.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/israel-as-escalation-engine-and-u-s-entanglement.md",
+      "dest": "statecraft/voices/parsi/themes/israel-as-escalation-engine-and-u-s-entanglement.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/README.md",
+      "dest": "statecraft/voices/parsi/themes/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/parsi/themes/regional-security-architecture-and-post-primacy-settlement.md",
+      "dest": "statecraft/voices/parsi/themes/regional-security-architecture-and-post-primacy-settlement.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/postol/index.md",
+      "dest": "statecraft/voices/postol/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/postol/README.md",
+      "dest": "statecraft/voices/postol/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/index.md",
+      "dest": "statecraft/voices/ritter/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/README.md",
+      "dest": "statecraft/voices/ritter/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-arc.md",
+      "dest": "statecraft/voices/ritter/ritter-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-cross-year-note.md",
+      "dest": "statecraft/voices/ritter/ritter-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-helix.md",
+      "dest": "statecraft/voices/ritter/ritter-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md",
+      "dest": "statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-raw-input-index.md",
+      "dest": "statecraft/voices/ritter/ritter-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-routing.md",
+      "dest": "statecraft/voices/ritter/ritter-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/ritter-source-index.md",
+      "dest": "statecraft/voices/ritter/ritter-source-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md",
+      "dest": "statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/sachs/index.md",
+      "dest": "statecraft/voices/sachs/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/sachs/README.md",
+      "dest": "statecraft/voices/sachs/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/index.md",
+      "dest": "statecraft/voices/wilkerson/index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/README.md",
+      "dest": "statecraft/voices/wilkerson/README.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-arc.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-arc.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-cross-year-note.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-cross-year-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-helix.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-helix.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-may-2026-note.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-may-2026-note.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-raw-input-index.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-raw-input-index.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-routing.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-routing.md",
+      "action": "skipped_duplicate"
+    },
+    {
+      "source": "codex/speakers/wilkerson/wilkerson-source-index.md",
+      "dest": "statecraft/voices/wilkerson/wilkerson-source-index.md",
+      "action": "skipped_duplicate"
+    }
+  ]
+}

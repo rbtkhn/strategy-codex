@@ -86,7 +86,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about legal absurdity, piracy framing, or war-crime exposure rather than material feasibility, route outward to [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md).
+- If the question is mainly about legal absurdity, piracy framing, or war-crime exposure rather than material feasibility, route outward to [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-ritter-speaker-arc.md).
 
 - Ritter is strongest here on war-feasibility, stockpiles, skies, and operational implausibility, not on calm diplomatic framing.
 - Prefer this lane when the notebook needs the Davis-side military test; prefer the Diesen lane for broader escalation consequence and the Dialogue Works lane for the sharpest live-pressure reading.

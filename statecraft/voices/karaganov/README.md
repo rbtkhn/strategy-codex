@@ -45,9 +45,9 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/karaganov/` path is now front-door compatibility only.
+The legacy `statecraft/voices/karaganov/` path is now front-door compatibility only.
 
-- [codex/speakers/karaganov/README.md](../../../codex/speakers/karaganov/README.md) and [karaganov-speaker-object.md](../../../codex/speakers/karaganov/karaganov-speaker-object.md) are compatibility residue.
+- [statecraft/voices/karaganov/README.md](../../../statecraft/voices/karaganov/README.md) and [karaganov-speaker-object.md](../../../statecraft/voices/karaganov/karaganov-speaker-object.md) are compatibility residue.
 - this statecraft shelf is the canonical opening path for Karaganov statecraft work.
 
 ## Host Lanes

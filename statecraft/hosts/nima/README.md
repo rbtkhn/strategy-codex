@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This is the canonical live Nima / Dialogue Works host shelf for repo-root `statecraft/`.
 
-Use it when a statecraft read needs **Dialogue Works** as a host transformation surface — long-form interview framing, dual `thread:alkorshid` + `thread:<guest>` routing, and guest-lane discovery — rather than as a retired `codex/speakers/nima/` front door.
+Use it when a statecraft read needs **Dialogue Works** as a host transformation surface — long-form interview framing, dual `thread:alkorshid` + `thread:<guest>` routing, and guest-lane discovery — rather than as a retired `statecraft/hosts/nima/` front door.
 
 ## Open First
 
@@ -12,7 +12,7 @@ Use it when a statecraft read needs **Dialogue Works** as a host transformation 
 - [index.md](index.md)
 - [nima-host-law.md](nima-host-law.md)
 - [dialogue-works-disambiguation.md](dialogue-works-disambiguation.md)
-- [Alkorshid appearances index](../../voices/alkorshid/alkorshid-source-index.md)
+- [Dialogue Works index](dialogue-works-index.md)
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Host Role
@@ -28,10 +28,10 @@ The question Nima answers is usually not `what does the guest believe?` alone bu
 
 ## Compatibility
 
-The older [codex/speakers/nima/README.md](../../../codex/speakers/nima/README.md) tree remains compatibility residue for:
+The older [statecraft/hosts/nima/README.md](../../../statecraft/hosts/nima/README.md) tree remains compatibility residue for:
 
-- [nima-source-index.md](../../../codex/speakers/nima/nima-source-index.md) (provenance route map)
-- [stream/](../../../codex/speakers/nima/stream/) guest arcs, monthly shelves, thread/transcript continuity
+- [dialogue-works-index.md](dialogue-works-index.md) (provenance route map)
+- [stream/](../../../statecraft/hosts/nima/stream/) guest arcs, monthly shelves, thread/transcript continuity
 
 Use this repo-root shelf for live host-law and profile SSOT; descend into codex `stream/` and source-index when you need chronology or provenance breadth.
 

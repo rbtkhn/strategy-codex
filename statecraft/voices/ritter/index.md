@@ -25,9 +25,9 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../codex/speakers/ritter/stream/ritter-thread.md)
-- [Transcript compatibility file](../../../codex/speakers/ritter/stream/ritter-transcript.md)
-- [Legacy page and manifest residue](../../../codex/speakers/ritter/stream)
+- [Thread compatibility file](../../../statecraft/voices/ritter/stream/ritter-thread.md)
+- [Transcript compatibility file](../../../statecraft/voices/ritter/stream/ritter-transcript.md)
+- [Legacy page and manifest residue](../../../statecraft/voices/ritter/stream)
 
 ## Monthly Shelf Layer
 
@@ -49,8 +49,8 @@ This wave does not yet promote individual Ritter theme files. The shelf now has 
 ## Host Arcs
 
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Diesen x Ritter](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md)
 - [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary

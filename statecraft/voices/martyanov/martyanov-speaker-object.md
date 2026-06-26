@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Martyanov Speaker Object
 
-This legacy `codex/speakers/martyanov/martyanov-speaker-object.md` file is now a compatibility pointer.
+This legacy `statecraft/voices/martyanov/martyanov-speaker-object.md` file is now a compatibility pointer.
 
 Canonical live Martyanov speaker-state work has moved to:
 

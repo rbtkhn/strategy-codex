@@ -23,35 +23,35 @@ Each non-quartet speaker folder appears once in this register. The secondary col
 
 | satellite | primary anchor | secondary anchor | why this placement |
 |---|---|---|---|
-| [Jermy](../../codex/speakers/jermy) | Pape | Parsi | Maritime closure, energy-system consequence, and rough-order macro strengthen Pape's clock and threshold work. |
-| [Armstrong](../../codex/speakers/armstrong) | Pape | Crooke | Macro-war convergence and payment-plumbing provocation extend Pape's system-buffer and shock logic. |
-| [Krainer](../../codex/speakers/krainer) | Pape | Crooke | Macro-financial widening and imperial-breakdown interpretation help convert forecast clocks into economic-system consequence. |
+| [Jermy](jermy/README.md) | Pape | Parsi | Maritime closure, energy-system consequence, and rough-order macro strengthen Pape's clock and threshold work. |
+| [Armstrong](armstrong/README.md) | Pape | Crooke | Macro-war convergence and payment-plumbing provocation extend Pape's system-buffer and shock logic. |
+| [Krainer](krainer/README.md) | Pape | Crooke | Macro-financial widening and imperial-breakdown interpretation help convert forecast clocks into economic-system consequence. |
 | [Sachs](sachs/README.md) | Pape | Parsi | Political-economy consequence and institutional breakdown strengthen the macro and settlement-cost side of the Pape frame. |
-| [Berletic](../../codex/speakers/berletic) | Pape | Ritter | Industrial capacity and proxy-war logistics help test whether forecasted pressure can be materially absorbed. |
+| [Berletic](berletic/README.md) | Pape | Ritter | Industrial capacity and proxy-war logistics help test whether forecasted pressure can be materially absorbed. |
 | [Jiang](jiang/README.md) | Pape | Crooke | China and industrial-state perspective helps read relative gain, reserves, and system adaptation. |
 | [Davis](../hosts/davis/README.md) | Ritter | Pape | Operational feasibility and policy-risk translation make Davis the main native host satellite for force constraints. |
 | [Postol](postol/README.md) | Ritter | Pape | Technical destruction, missile effects, and deterrence realism sharpen what force can actually do. |
 | [Martyanov](martyanov/README.md) | Ritter | Crooke | Military-systems realism and force-assessment discipline sit closest to Ritter's operational warning role. |
 | [Macgregor](macgregor/README.md) | Ritter | Crooke | Force balance, logistics burden, and imperial-overreach warnings strengthen the hard military-feasibility side. |
-| [Aguilar](../../codex/speakers/aguilar) | Ritter | Pape | Operational-military realism and war-conduct witness value support concrete force and crisis-risk checks. |
+| [Aguilar](aguilar/README.md) | Ritter | Pape | Operational-military realism and war-conduct witness value support concrete force and crisis-risk checks. |
 | [Johnson](johnson/README.md) | Ritter | Crooke | Operational feasibility plus live crisis pressure make Johnson a pressure-interpreting bridge near Ritter. |
-| [Wilkerson](../../codex/speakers/wilkerson/README.md) | Ritter | Crooke | Military-statecraft warning and imperial-decline consequence fit the force-danger and elite-delusion boundary. |
+| [Wilkerson](wilkerson/README.md) | Ritter | Crooke | Military-statecraft warning and imperial-decline consequence fit the force-danger and elite-delusion boundary. |
 | [Kent](kent/README.md) | Ritter | Parsi | Inside-system witness and war-pressure reading help test operational exit logic and domestic legitimacy. |
 | [Freeman](freeman/README.md) | Parsi | Crooke | Diplomatic memory, settlement realism, and West Asia statecraft strengthen the bargain-and-architecture engine. |
-| [Beebe](../../codex/speakers/beebe) | Parsi | Crooke | Intelligence-statecraft, escalation management, and settlement geometry sit closest to Parsi's off-ramp discipline. |
-| [Mearsheimer](../../codex/speakers/mearsheimer) | Parsi | Crooke | Bargaining geometry and coercive-failure realism make Mearsheimer a strong settlement-constraints satellite. |
+| [Beebe](beebe/README.md) | Parsi | Crooke | Intelligence-statecraft, escalation management, and settlement geometry sit closest to Parsi's off-ramp discipline. |
+| [Mearsheimer](mearsheimer/README.md) | Parsi | Crooke | Bargaining geometry and coercive-failure realism make Mearsheimer a strong settlement-constraints satellite. |
 | [Napolitano](../hosts/napolitano/README.md) | Parsi | Ritter | Legal legitimacy and war-powers pressure define what a settlement or war path can claim as lawful authority. |
 | [Barnes](barnes/README.md) | Parsi | Ritter | Legal-process and executive-chaos critique help evaluate domestic feasibility of a bargain or exit. |
-| [Baud](../../codex/speakers/baud/README.md) | Parsi | Ritter | Law-of-war and alliance-mandate critique clarify which coercive threats have lawful or strategic end states. |
+| [Baud](baud/README.md) | Parsi | Ritter | Law-of-war and alliance-mandate critique clarify which coercive threats have lawful or strategic end states. |
 | [Mercouris](mercouris/README.md) | Parsi | Crooke | Diplomatic sequencing and institutional statecraft narrative make Mercouris a depth-stable settlement-context satellite. |
-| [Matlock](../../codex/speakers/matlock) | Parsi | Crooke | Cold War settlement memory and anti-NATO-expansion witness strengthen the diplomacy/off-ramp engine while grounding Crooke-style order rupture historically. |
+| [Matlock](matlock/README.md) | Parsi | Crooke | Cold War settlement memory and anti-NATO-expansion witness strengthen the diplomacy/off-ramp engine while grounding Crooke-style order rupture historically. |
 | [Diesen](diesen/README.md) | Crooke | Pape | Order-transition framing and multipolar interpretation make Diesen the native host satellite for structural rupture. |
-| [Karaganov](../../codex/speakers/karaganov) | Crooke | Ritter | Russian elite strategic and civilizational doctrine strengthens Crooke's order-rupture frame while forcing Ritter-style nuclear-escalation scrutiny. |
+| [Karaganov](karaganov/README.md) | Crooke | Ritter | Russian elite strategic and civilizational doctrine strengthens Crooke's order-rupture frame while forcing Ritter-style nuclear-escalation scrutiny. |
 | [Marandi](marandi/README.md) | Crooke | Parsi | Legitimacy, Iranian state red lines, and regional-order pressure clarify the adaptive adversary side of Crooke's frame. |
 | [McGovern](mcgovern/README.md) | Crooke | Ritter | Intelligence-memory correction and elite self-deception sit closest to structural misreading. |
-| [Blumenthal](../../codex/speakers/blumenthal) | Crooke | Parsi | Media-legitimacy critique and elite-access suspicion support the metapolitical and narrative-control layer. |
+| [Blumenthal](blumenthal/README.md) | Crooke | Parsi | Media-legitimacy critique and elite-access suspicion support the metapolitical and narrative-control layer. |
 | [Greenwald profile](../../codex/profiles/greenwald-profile.md) | Crooke | Parsi | Civil-libertarian and media-power critique are best treated as narrative-legitimacy support around structural misreading. |
-| [Mate](../../codex/speakers/mate) | Crooke | Parsi | Media, propaganda, and anti-establishment critique reinforce the narrative and legitimacy side of Crooke's engine. |
+| [Mate](mate/README.md) | Crooke | Parsi | Media, propaganda, and anti-establishment critique reinforce the narrative and legitimacy side of Crooke's engine. |
 
 ## When To Open
 

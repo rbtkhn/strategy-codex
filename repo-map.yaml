@@ -299,6 +299,30 @@ routes:
   - Dialogue Works routing
   - Alkorshid
   category: work
+- id: dialogue-works-index
+  title: Dialogue Works channel index
+  path: statecraft/hosts/nima/dialogue-works-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - hosts
+  - dialogue-works
+  hosts:
+  - Dialogue Works
+  people:
+  - Nima Alkhorshid
+  tags:
+  - dialogue-works
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Dialogue Works index
+  - dialogue-works-index
+  - source-dialogue-works
+  - Dialogue Works channel
+  category: work
 - id: source-lattice-doctrine
   title: Source-lattice doctrine (statecraft + general)
   path: docs/source-lattice-beyond-the-repo.md

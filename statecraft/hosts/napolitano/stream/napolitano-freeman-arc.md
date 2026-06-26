@@ -75,4 +75,4 @@ Use this arc when the notebook needs:
 - The November 4, November 10, November 18, November 25, December 9, and December 16, 2025 Freeman files are now transcript-bearing; November 4/November 18/November 25 are manual YouTube captions, while November 10/December 9/December 16 are operator-pasted transcripts.
 - The April 14 and April 21, 2026 Freeman files are transcript-bearing operator paste and should be opened before relying on the April 28 summary-grade settlement file alone.
 - This arc reinforces Freeman's existing object rather than changing the larger Freeman triple-helix doctrine.
-- If the question is mainly about phony ceasefire tempo, Gulf-state repositioning, or immediate crisis messaging, route outward to [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md) instead of stretching this arc into live-pressure work.
+- If the question is mainly about phony ceasefire tempo, Gulf-state repositioning, or immediate crisis messaging, route outward to [nima-freeman-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-freeman-arc.md) instead of stretching this arc into live-pressure work.

@@ -9,8 +9,15 @@ host: Alexander Mercouris
 title: "Russia Warns US Will 'Intensify' Iran War; China Warns Navy Protect China Oil Tankers; Putin Xi Trip"
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
 channel_slug: alexander-mercouris
-source_url: "https://www.youtube.com/watch?v=6kqD_urUtjA"
-source_note: "Operator transcript merged from source-russia-intensify-china-tankers-putin-xi-2026-04-15.md (ingest 2026-04-21); watch id corrected from index mirror X1lO5Qd47R4."
+source_url: "https://www.youtube.com/watch?v=X1lO5Qd47R4"
+youtube_id: X1lO5Qd47R4
+source_type: youtube
+verify_receipt: 2026-06-25
+verify:
+  - claim: prior youtube_id 6kqD_urUtjA
+    verdict: mis-pinned
+    note: oEmbed resolves to unrelated Lakshmi Verma upload; X1lO5Qd47R4 matches Mercouris title and @AlexMercouris
+source_note: "Operator transcript; residue duplicate source-russia-intensify-china-tankers-putin-xi-2026-04-15.md removed 2026-06-25; watch id corrected to X1lO5Qd47R4 after oEmbed verify."
 ---
 # Russia Warns US Will 'Intensify' Iran War; China Warns Navy Will Protect China Oil Tankers; Putin-Xi Trip (operator transcript)
 

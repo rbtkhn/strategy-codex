@@ -29,7 +29,7 @@ Run repeatable **strategy-codex speaker shelf** maintenance: shape audits, cross
 
 - auditing person arcs, routing stacks, month support, or citation hygiene
 - checking whether canonical speaker surfaces still agree (route stack, month ladder, maturity labels)
-- deciding whether a note belongs in one speaker shelf vs `codex/speakers/relations/`
+- deciding whether a note belongs in one speaker shelf vs `statecraft/voices/relations/`
 
 **Do not use when:**
 
@@ -50,16 +50,16 @@ Legacy skills **`speaker-shelf-hygiene`**, **`speaker-structural-continuity`**, 
 
 ## Inputs Required
 
-- Speaker name(s) and shelf path (`statecraft/voices/<speaker>/` and/or `codex/speakers/<speaker>/`)
+- Speaker name(s) and shelf path (`statecraft/voices/<speaker>/` and/or `statecraft/hosts/<host>/`)
 - Mode: `hygiene` | `continuity` | `membrane` | `full` (default from operator phrase)
 - Optional month range or comparison peer (Freeman / Parsi / Ritter, etc.)
 
 ## Canonical references (read before editing)
 
-- [`codex/speakers/README.md`](../../codex/speakers/README.md)
-- [`codex/speakers/map/open-first-routes.md`](../../codex/speakers/map/open-first-routes.md)
-- [`codex/speakers/_templates/speaker-surface-orthogonality-review-template.md`](../../codex/speakers/_templates/speaker-surface-orthogonality-review-template.md)
-- [`codex/speakers/relations/README.md`](../../codex/speakers/relations/README.md)
+- [`statecraft/voices/README.md`](../../statecraft/voices/README.md) — legacy `codex/speakers/` terminated ([codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md))
+- [`statecraft/voices/map/open-first-routes.md`](../../statecraft/voices/map/open-first-routes.md)
+- [`statecraft/voices/_templates/speaker-surface-orthogonality-review-template.md`](../../statecraft/voices/_templates/speaker-surface-orthogonality-review-template.md)
+- [`statecraft/voices/relations/README.md`](../../statecraft/voices/relations/README.md)
 
 Short route rule: `front door -> support spine -> provenance bench -> compatibility last`.
 
@@ -88,7 +88,7 @@ Short route rule: `front door -> support spine -> provenance bench -> compatibil
 1. **Classify object** — continuity, relation, host-local arc, or helix.
 2. **Ownership test** — main question `what does speaker A own?` vs `how do A and B differ?`
 3. **Find footprint** — links across speaker READMEs, indexes, orthogonality reviews.
-4. **Move or create** neutral note under `codex/speakers/relations/` when cross-speaker comparison is load-bearing.
+4. **Move or create** neutral note under `statecraft/voices/relations/` when cross-speaker comparison is load-bearing.
 5. **Rewire shelves** — both speaker READMEs, review notes, indexes; do not stop at file move alone.
 6. **Verify** — no stale shelf-local paths; relations/ does not absorb arcs or helixes.
 

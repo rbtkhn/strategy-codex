@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Mercouris solo — Dimona/Arad; Israel AD Fails; 4-Division Ground; Lavrov WW3](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) — https://www.youtube.com/watch?v=hiz6KpkaSM8 — **automated transcript**
+- [Mercouris solo — Dimona/Arad; Israel AD Fails; 4-Division Ground; Lavrov WW3](../../source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) — https://www.youtube.com/watch?v=hiz6KpkaSM8 — **automated transcript**
 - [Helmer × Marandi bench](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) — Dialogue Works pair same day (see weave for capture links)
 
 ## Purpose

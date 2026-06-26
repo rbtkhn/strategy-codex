@@ -50,7 +50,7 @@ Why:
 - the on-disk host balance is legible: `Dialogue Works` dominance with one `Judging Freedom` and one `Diesen` reinforcement
 - the note explicitly says no bounded March queue remains inside the tracked object
 
-Use [wilkerson-march-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-march-2026-note.md) as the month truth surface.
+Use [wilkerson-march-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-march-2026-note.md) as the month truth surface.
 
 ### Parsi
 

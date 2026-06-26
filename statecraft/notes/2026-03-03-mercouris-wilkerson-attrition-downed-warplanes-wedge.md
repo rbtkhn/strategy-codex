@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Mercouris solo — Iran Fights Attrition War; US Exhausts Stockpiles; Gulf Arabs Panic…](../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) — https://www.youtube.com/watch?v=p2kBG8i_Knw — **full transcript** (2026-06-20 operator paste)
+- [Mercouris solo — Iran Fights Attrition War; US Exhausts Stockpiles; Gulf Arabs Panic…](../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) — https://www.youtube.com/watch?v=p2kBG8i_Knw — **full transcript** (2026-06-20 operator paste)
 - [Wilkerson × Nima — US Warplanes Downed, Tel Aviv & U.S. Bases ROCKED by Missiles](../../source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md) — https://www.youtube.com/watch?v=VSM5yjbYrbY — **full transcript**
 
 ## Purpose

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Sachs Cross-Host Note
 
-This legacy `codex/speakers/sachs/sachs-cross-host-note.md` file is now a compatibility pointer.
+This legacy `statecraft/voices/sachs/sachs-cross-host-note.md` file is now a compatibility pointer.
 
 Canonical live cross-host continuity for Sachs now lives in:
 

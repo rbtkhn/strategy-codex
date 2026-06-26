@@ -18,7 +18,7 @@ What matters most here is not Napolitano's spread across other hosts, but his re
 
 The native body of the object is:
 
-- [codex/speakers/napolitano/README.md](/C:/dev/strategy-codex/codex/speakers/napolitano/README.md)
+- [statecraft/hosts/napolitano/README.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 Within that shelf, the November 2025-April 2026 balanced-core guest set currently gives the clearest shape:
 

@@ -48,9 +48,9 @@ The rule here is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/pape/` path is now front-door compatibility only.
+The legacy `statecraft/voices/pape/` path is now front-door compatibility only.
 
-- [codex/speakers/pape/README.md](../../../codex/speakers/pape/README.md) and [index.md](../../../codex/speakers/pape/index.md) become compatibility pointers.
+- [statecraft/voices/pape/README.md](../../../statecraft/voices/pape/README.md) and [index.md](../../../statecraft/voices/pape/index.md) become compatibility pointers.
 - codex-side stream pages, thread residue, and source-hygiene notes remain support / migration residue.
 - this statecraft shelf is now the canonical opening path for Pape statecraft work.
 

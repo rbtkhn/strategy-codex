@@ -2,10 +2,10 @@ version = 1
 slug = "davis"
 
 compact_state_files = [
-  "codex/speakers/davis/README.md",
-  "codex/speakers/davis/davis-speaker-object.md",
-  "codex/speakers/davis/davis-cross-host-note.md",
-  "codex/speakers/davis/davis-host-wiring-2026.md",
+  "statecraft/hosts/davis/README.md",
+  "statecraft/hosts/davis/davis-speaker-object.md",
+  "statecraft/hosts/davis/davis-cross-host-note.md",
+  "statecraft/hosts/davis/davis-host-wiring-2026.md",
 ]
 
 provenance_roots = [
@@ -13,6 +13,6 @@ provenance_roots = [
 ]
 
 [[guest_matrices]]
-file = "codex/speakers/davis/davis-host-wiring-2026.md"
-arc_glob = "codex/speakers/davis/stream/davis-*-speaker-arc.md"
+file = "statecraft/hosts/davis/davis-host-wiring-2026.md"
+arc_glob = "statecraft/hosts/davis/stream/davis-*-speaker-arc.md"
 expected_count = 13

@@ -52,19 +52,19 @@ This is not yet a mature helix. It is a newly embodied cross-host object whose s
 
 If the operator needs the object map:
 
-- open [kent-helix.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
+- open [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
 
 If the operator needs the cleanest host-local entry:
 
-- open [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
+- open [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-kent-speaker-arc.md)
 
 If the operator needs the resignation-letter spine:
 
-- open [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md)
+- open [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/carlson-kent-speaker-arc.md)
 
 If the operator needs the cleanest political-pressure entry:
 
-- open [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
+- open [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/stream/nawfal-kent-speaker-arc.md)
 
 If the operator needs the strongest existing walkaway anchor:
 

@@ -40,9 +40,9 @@ Goal: extract Ritter's strongest warning value without letting moral heat, prose
 
 Open the speaker surfaces first:
 
-- `codex/speakers/ritter/README.md`
-- `codex/speakers/ritter/ritter-helix.md`
-- `codex/speakers/ritter/ritter-interview-appearances-2025-2026.md`
+- `statecraft/voices/ritter/README.md`
+- `statecraft/voices/ritter/ritter-helix.md`
+- `statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md`
 - `codex/years/2026/ritter/ritter-forecast-ledger-2026.md`
 
 Then choose host lane as needed:
@@ -75,7 +75,7 @@ Use three search passes:
 2. **Event-shape pass:** search mechanism and consequence vocabulary.
    - Example for Minab: `school girls`, `children`, `civilian casualties`, `targeting`, `no strike`, `CHMR`, `Claude`, `war crime`, `distinction`, `proportionality`, `feasible precautions`.
 3. **Corpus-shape pass:** search all Ritter strands, not only the newest transcript.
-   - Include `codex/years/2026/raw-input`, `codex/years/2026/ritter`, and `codex/speakers/ritter`.
+   - Include `codex/years/2026/raw-input`, `codex/years/2026/ritter`, and `statecraft/voices/ritter`.
    - Include authored Substack captures, interview captures, speaker pages, helix notes, and appearance maps.
 
 Negative-answer guard:

@@ -23,7 +23,7 @@ That means:
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-helix.md](wilkerson-helix.md)
 - [wilkerson-source-index.md](wilkerson-source-index.md)
-- [legacy Wilkerson surface orthogonality](../../../codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
+- [legacy Wilkerson surface orthogonality](../../../statecraft/voices/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
 
 ## Structural notes
 
@@ -32,15 +32,15 @@ That means:
 
 ## Host lanes
 
-- [Dialogue Works x Wilkerson](../../../codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
-- [Diesen x Wilkerson](../../../codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- [Judging Freedom x Wilkerson](../../../codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](../../../statecraft/hosts/nima/stream/nima-wilkerson-speaker-arc.md)
+- [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- [Judging Freedom x Wilkerson](../../../statecraft/hosts/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 
 ## Compatibility shape
 
 This shelf is now the canonical statecraft-side opening path for Wilkerson.
 
-- [codex/speakers/wilkerson/README.md](../../../codex/speakers/wilkerson/README.md) remains a compatibility and support doorway during migration
+- [statecraft/voices/wilkerson/README.md](../../../statecraft/voices/wilkerson/README.md) remains a compatibility and support doorway during migration
 - the codex-side structural audit, helix, and raw-input bench remain linked support surfaces until a fuller transfer pass
 - do not treat the codex shelf as a second competing authority tree; use it as linked support beneath this statecraft shelf
 

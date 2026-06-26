@@ -20,8 +20,8 @@ Current shelf jobs after this pass:
 | [stream/](stream/) | bounded month layer | keep; native monthly synthesis without chronology takeover |
 | [macgregor-cross-year-note.md](macgregor-cross-year-note.md) | support surface | keep; supports maturity claim, does not replace the helix |
 | [macgregor-surface-orthogonality-2026-05.md](macgregor-surface-orthogonality-2026-05.md) | support audit | keep; good doctrine support, not the only audit |
-| [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) | compatibility residue | keep demoted |
-| [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) | compatibility residue | keep demoted |
+| [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) | compatibility residue | keep demoted |
+| [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) | compatibility residue | keep demoted |
 
 ## Structural judgment
 
@@ -105,11 +105,11 @@ Current boundary reading:
 - [macgregor-helix.md](macgregor-helix.md) remains the comparison surface
 - host-local arcs remain the best place to read transformation by host
 - monthly shelves remain speaker-side synthesis, not source-of-record chronology
-- [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) are safe to keep only if they are visibly demoted
+- [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) are safe to keep only if they are visibly demoted
 
 ## Compatibility judgment
 
-[macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) should remain compatibility residue.
+[macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) should remain compatibility residue.
 
 Reason:
 

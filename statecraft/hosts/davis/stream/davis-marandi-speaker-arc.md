@@ -93,7 +93,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about Hormuz as order-transition hinge or blockade consequence at strategic altitude, route outward to [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md).
+- If the question is mainly about Hormuz as order-transition hinge or blockade consequence at strategic altitude, route outward to [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-marandi-speaker-arc.md).
 
 - Marandi is strongest here on Iranian resilience, retaliatory logic, and the limits of coercion, not on neutral tactical verification.
 - This is now a real on-disk 2026 lane, but it remains narrower than the Dialogue Works Marandi shelf; do not flatten the host differences.

@@ -81,4 +81,4 @@ Typical pairings around the guest lane:
 - The arc is compact but real: two host-local transcripts on disk, both strong enough to show the recurring Davis x Crooke conversational form.
 - There are broader Crooke materials elsewhere in the repo, including Substack raw-input and a Diesen-hosted interview, but those do not replace the value of this Davis-local lane.
 - Prefer this guest run when the notebook needs the negotiation room, the leverage room, or the state-intent room of the crisis, not when it needs domestic constitutional exposure or pure military mechanics.
-- If the question is mainly about Crooke's wider multipolar-order reading rather than bargaining structure, route outward to [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) instead of stretching this arc beyond its room-dynamics role.
+- If the question is mainly about Crooke's wider multipolar-order reading rather than bargaining structure, route outward to [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) instead of stretching this arc beyond its room-dynamics role.

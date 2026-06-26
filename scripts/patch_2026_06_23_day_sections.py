@@ -299,7 +299,7 @@ CAPTURES: dict[str, dict] = {
             "Tucker and Marjorie Taylor",
         ],
     },
-    "source-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md": {
+    "source-alexander-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md": {
         "titles": [
             "Show Open — Cadets Meeting",
             "Putin Speech — War With West",

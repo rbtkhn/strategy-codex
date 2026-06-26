@@ -185,4 +185,4 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ---
 
-**Companion files:** [barnes-transcript.md](../../../codex/speakers/barnes/barnes-transcript.md) · [barnes-thread.md](../../../codex/speakers/barnes/barnes-thread.md) · [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) (redirect)
+**Companion files:** [barnes-transcript.md](../../../statecraft/voices/barnes/barnes-transcript.md) · [barnes-thread.md](../../../statecraft/voices/barnes/barnes-thread.md) · [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) (redirect)

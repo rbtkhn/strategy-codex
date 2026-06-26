@@ -91,11 +91,11 @@ Do not use this arc as a shortcut for alliance-liability diagnosis, cross-year 2
 
 ## Best paired read
 
-Best paired read: [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
+Best paired read: [nima-freeman-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-freeman-arc.md)
 
 Why: Freeman gives the diplomatic-memory and order-transition lane; Baud gives the law-of-war, treaty-credibility, and strategic-rationality lane. They often touch the same crisis terrain, but they justify their readings differently.
 
-Second-best paired read: [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
+Second-best paired read: [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-marandi-speaker-arc.md)
 
 Why: Marandi gives the regime-adjacent red-line and legitimacy register; Baud gives the legality, deterrence, and European-failure register. Together they show how the same host pressure elicits very different strategic grammars.
 
@@ -110,11 +110,11 @@ Use `Dialogue Works x Baud` when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about co-belligerency, perfidy, mandate, or Gulf-base alliance liability rather than live event pressure, route outward to [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md).
+- If the question is mainly about co-belligerency, perfidy, mandate, or Gulf-base alliance liability rather than live event pressure, route outward to [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-baud-arc.md).
 
 Do not use this arc as:
 
-- a substitute for the broader [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md) continuity record
+- a substitute for the broader [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md) continuity record
 - a wire-grade verifier for battlefield arithmetic, damage estimates, or classified sourcing claims
 - a replacement for Ritter when the notebook specifically needs sea-control or military-mechanics emphasis
 - a claim that Baud's legal framing by itself settles the institutional or factual dispute

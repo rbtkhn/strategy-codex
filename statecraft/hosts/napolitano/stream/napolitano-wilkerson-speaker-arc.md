@@ -51,7 +51,7 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about wider imperial consequence or system-level decline rather than legal-moral illegitimacy and anti-war edge, route outward to [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md).
+- If the question is mainly about wider imperial consequence or system-level decline rather than legal-moral illegitimacy and anti-war edge, route outward to [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md).
 
 - This is a real November 2025-May 2026 Napolitano branch.
 - November 26 and December 18 are now transcript-grade on disk; May 28 is currently the strongest native opening point.

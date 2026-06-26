@@ -8,23 +8,23 @@ Month status: `mature dense-core month`
 
 ## April dense-core index
 
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-05.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-05.md)
   - Hormuz and U.S. force-posture pressure remain live while the month reopens the dense-core field under renewed military stress.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-07.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-07.md)
   - Blockade deadlines, Russian support, and Ukraine spillover keep the same crisis object coherent.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-15.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-15.md)
   - Mature diplomatic-room node: Islamabad failure, Lavrov-Beijing alignment, blockade uncertainty, sanctions pressure, and Ukraine coda all appear inside one integrated Mercouris read.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-16.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-16.md)
   - Europe’s drone and proxy-war posture are read directly inside the wider Iran / Russia / exhaustion field.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-18.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-18.md)
   - Hormuz closure, U.S. denial, and crisis hardening push the dense core forward.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-20.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-20.md)
   - Blockade credibility becomes a central test object rather than a speculative side note.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-21.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-21.md)
   - Iran defiance, ceasefire expiry logic, and Russia’s warning register keep the month structurally continuous.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-27.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-27.md)
   - Putin-Araghchi / enrichment refusal / diplomacy-under-pressure frame deepens the alternative-room strand.
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-29-youtube-uae-opec-putin-tuapse-konstantinovka.md)
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-04-29-youtube-uae-opec-putin-tuapse-konstantinovka.md)
   - UAE / OPEC / Gulf buckling and Ukraine spillover show the dense-core object widening into bargaining-system stress across energy and war theaters.
 
 ## Reading note

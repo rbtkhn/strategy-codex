@@ -51,17 +51,17 @@ Freeman now has a full canonical 2026 month ladder for the live year, but the mo
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/freeman/` path is now front-door compatibility only.
+The legacy `statecraft/voices/freeman/` path is now front-door compatibility only.
 
-- [codex/speakers/freeman/README.md](../../../codex/speakers/freeman/README.md) and [index.md](../../../codex/speakers/freeman/index.md) are compatibility pointers.
+- [statecraft/voices/freeman/README.md](../../../statecraft/voices/freeman/README.md) and [index.md](../../../statecraft/voices/freeman/index.md) are compatibility pointers.
 - codex-side thread, transcript, profile, page-template, and older arc-thread notes remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Freeman statecraft work.
 
 ## Host Lanes
 
-- [Diesen x Freeman](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md)
+- [Diesen x Freeman](../../../statecraft/voices/diesen/stream/diesen-freeman-arc.md)
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Dialogue Works x Freeman](../../../codex/speakers/nima/stream/nima-freeman-arc.md)
+- [Dialogue Works x Freeman](../../../statecraft/hosts/nima/stream/nima-freeman-arc.md)
 - [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary

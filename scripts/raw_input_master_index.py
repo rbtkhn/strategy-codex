@@ -312,7 +312,8 @@ def _day_summary(records: list[RawInputRecord]) -> dict[str, list[RawInputRecord
 
 
 def _speakers_root(raw_root: Path) -> Path:
-    return raw_root.parent.parent.parent / "speakers"
+    del raw_root  # legacy param; voices root is repo-fixed
+    return REPO_ROOT / "statecraft" / "voices"
 
 
 def _speaker_dirs(speakers_root: Path) -> list[Path]:

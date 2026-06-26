@@ -81,8 +81,8 @@ Use when:
 
 Example:
 
-- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/speakers/pape/stream/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-- [pape-source-hygiene-2026-04-29-pape-grim.md](../../../codex/speakers/pape/stream/pape-source-hygiene-2026-04-29-pape-grim.md)
+- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../statecraft/voices/pape/stream/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+- [pape-source-hygiene-2026-04-29-pape-grim.md](../../../statecraft/voices/pape/stream/pape-source-hygiene-2026-04-29-pape-grim.md)
 
 ### 2. Process packet
 
@@ -95,8 +95,8 @@ Use when:
 
 Example:
 
-- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/speakers/parsi/stream/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
-- [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](../../../codex/speakers/parsi/stream/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
+- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../statecraft/voices/parsi/stream/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](../../../statecraft/voices/parsi/stream/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
 
 ### 3. Register packet
 
@@ -109,8 +109,8 @@ Use when:
 
 Example:
 
-- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
-- [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../statecraft/voices/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](../../../statecraft/voices/marandi/marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)
 
 ## Placement rules
 

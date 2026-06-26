@@ -9,7 +9,7 @@ Purpose: define `mearsheimer-arc` as the canonical statecraft-side person-level 
 Quick separation rule:
 
 - `mearsheimer-arc` = Mearsheimer's canonical continuity across hosts, contexts, and time
-- [legacy Mearsheimer helix](../../../codex/speakers/mearsheimer/mearsheimer-helix.md) = cross-host comparison of the main host transformations
+- [legacy Mearsheimer helix](../../../statecraft/voices/mearsheimer/mearsheimer-helix.md) = cross-host comparison of the main host transformations
 - [mearsheimer-routing.md](mearsheimer-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Mearsheimer under one host's pressure
 
@@ -19,12 +19,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Mearsheimer](../../../codex/speakers/diesen/stream/diesen-mearsheimer-arc.md) - structural altitude and order-transition architecture
-2. [Davis x Mearsheimer](../../../codex/speakers/davis/stream/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
+1. [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md) - structural altitude and order-transition architecture
+2. [Davis x Mearsheimer](../../../statecraft/hosts/davis/stream/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
 
 Reinforcing orbit:
 
-- [Napolitano x Mearsheimer](../../../codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [Napolitano x Mearsheimer](../../../statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md)
 - additional shelf material outside the two main host strands
 
 ## What makes this an arc
@@ -46,11 +46,11 @@ That motion is broad enough that Mearsheimer deserves a canonical statecraft-sid
 
 If the operator needs the strongest whole-speaker comparative entry:
 
-- open [legacy Mearsheimer helix](../../../codex/speakers/mearsheimer/mearsheimer-helix.md)
+- open [legacy Mearsheimer helix](../../../statecraft/voices/mearsheimer/mearsheimer-helix.md)
 
 If the operator needs the strongest speaker-owned maturity explanation:
 
-- open [legacy Mearsheimer support spine](../../../codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- open [legacy Mearsheimer support spine](../../../statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md)
 
 If the operator needs the fastest host-conditioned entry:
 
@@ -58,7 +58,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest structural anchor:
 
-- open [Diesen x Mearsheimer](../../../codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- open [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
 
 ## Boundary
 

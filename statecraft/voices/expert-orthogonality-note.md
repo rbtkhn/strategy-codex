@@ -10,10 +10,10 @@ These four speakers should be read as adjacent instruments, not substitutes.
 
 | If the question is mainly about... | Open first | Use this speaker for... |
 |---|---|---|
-| escalation traps, commitment ratchets, shortage clocks, forecast falsifiers, or how limited force turns into a larger system | [Pape](/C:/dev/strategy-codex/codex/speakers/pape/README.md) | mechanism discipline and longitudinal forecast testing |
-| civilizational motive, Western misreading, off-ramp destruction, structural rupture, or why negotiations become theater | [Crooke](/C:/dev/strategy-codex/codex/speakers/crooke/README.md) | order-level interpretation and mechanism/tension tracking |
-| military feasibility, basing, stockpiles, CSAR, operational risk, blockade practicality, or escalation under force stress | [Ritter](/C:/dev/strategy-codex/codex/speakers/ritter/README.md) | military-professional warning and operational reality checks |
-| diplomatic sequencing, sanctions relief, legitimacy, guarantees, ceasefire bargaining, or regional security architecture | [Parsi](/C:/dev/strategy-codex/codex/speakers/parsi/README.md) | diplomacy, bargaining architecture, and policy-process judgment |
+| escalation traps, commitment ratchets, shortage clocks, forecast falsifiers, or how limited force turns into a larger system | [Pape](/C:/dev/strategy-codex/statecraft/voices/pape/README.md) | mechanism discipline and longitudinal forecast testing |
+| civilizational motive, Western misreading, off-ramp destruction, structural rupture, or why negotiations become theater | [Crooke](/C:/dev/strategy-codex/statecraft/voices/crooke/README.md) | order-level interpretation and mechanism/tension tracking |
+| military feasibility, basing, stockpiles, CSAR, operational risk, blockade practicality, or escalation under force stress | [Ritter](/C:/dev/strategy-codex/statecraft/voices/ritter/README.md) | military-professional warning and operational reality checks |
+| diplomatic sequencing, sanctions relief, legitimacy, guarantees, ceasefire bargaining, or regional security architecture | [Parsi](/C:/dev/strategy-codex/statecraft/voices/parsi/README.md) | diplomacy, bargaining architecture, and policy-process judgment |
 
 ## Boundary Tests
 

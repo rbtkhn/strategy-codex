@@ -90,7 +90,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether coercion can still work in practice rather than how structure shapes the whole conflict, route outward to [davis-mearsheimer-arc.md](../../../../codex/speakers/davis/stream/davis-mearsheimer-arc.md).
+- If the question is mainly about whether coercion can still work in practice rather than how structure shapes the whole conflict, route outward to [davis-mearsheimer-arc.md](../../../../statecraft/hosts/davis/stream/davis-mearsheimer-arc.md).
 
 - Mearsheimer is strongest on structure, incentives, and bargaining space, not on fine-grained operational detail.
 - The current run is rich, but the underlying files are operator transcripts with analyst-tier caveats rather than a uniform external corpus.

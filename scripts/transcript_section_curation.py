@@ -10,6 +10,7 @@ from pathlib import Path
 BODY_MARKERS: tuple[str, ...] = (
     "## Transcript\n",
     "## Part I: Full transcript\n",
+    "## Cleaned Transcript\n",
 )
 UNICODE_APOSTROPHE = r"['\u2019]"
 

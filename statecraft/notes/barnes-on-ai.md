@@ -23,7 +23,7 @@ Jiang remains the stronger **`AI bubble` by repetition** speaker; Barnes is the 
 
 ## Financial thesis
 
-Primary source: [2026-01-13 / Mercouris × Barnes](../source-archive/statecraft/2026-01-13/source-mercouris-barnes-regime-change-escalator-2026-01-13.md)
+Primary source: [2026-01-13 / Mercouris × Barnes](../source-archive/statecraft/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md)
 
 The important move is not merely `AI is expensive`; it is `AI may be masking weakness in the broader economy`.
 
@@ -75,7 +75,7 @@ Verbatim anchors:
 
 | Date | File | Lane |
 |------|------|------|
-| 2026-01-13 | [Mercouris × Barnes](../source-archive/statecraft/2026-01-13/source-mercouris-barnes-regime-change-escalator-2026-01-13.md) | Bubble, circular finance, LLM skepticism |
+| 2026-01-13 | [Mercouris × Barnes](../source-archive/statecraft/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md) | Bubble, circular finance, LLM skepticism |
 | 2026-04-03 | [Davis × Barnes](../source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md) | Energy, Gulf, campaign network |
 | 2026-05-28 | [Nawfal × Barnes](../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md) | Crisis compression |
 

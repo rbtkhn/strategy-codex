@@ -49,7 +49,6 @@ Local interview appearance count: 49 captures.
 | Davis | 2026-04-05 | [raw-input](../../../source-archive/statecraft/2026-04-05/source-daniel-davis-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md) | operational feasibility |
 | Davis | 2026-04-13 | [raw-input](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md) | operational feasibility |
 | Davis | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md) | operational feasibility |
-| Davis | 2026-05-06 | [raw-input](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md) | operational feasibility |
 | Davis | 2026-05-14 | [raw-input](../../../source-archive/statecraft/2026-05-14/source-daniel-davis-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md) | operational feasibility |
 | Dialogue Works | 2025-01-05 | [raw-input](../../../source-archive/statecraft/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md) | live war pressure |
 | Dialogue Works | 2025-10-19 | [raw-input](../../../source-archive/statecraft/2025-10-19/source-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md) | live war pressure |
@@ -82,9 +81,9 @@ Local interview appearance count: 49 captures.
 
 | host | function | open when |
 |---|---|---|
-| [Diesen x Ritter](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
+| [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
 | [Davis host shelf](../../hosts/davis/README.md) | operational feasibility | The question needs stockpiles, skies, basing, blockade practicality, or war-plan reality checks. |
-| [Dialogue Works x Ritter](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
+| [Dialogue Works x Ritter](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
 | [Napolitano host shelf](../../hosts/napolitano/README.md) | legality and command failure | The question needs war powers, command absurdity, blockade illegitimacy, or legal-libertarian pressure. |
 | Garland Nixon x Ritter | constitutional decay / Kiev-targeting extension | The question needs anti-constitutional collapse framing fused to late-May Ukraine/Iran convergence from a non-canonical host. |
 | Cyrus Janssen x Ritter | energy and Hormuz shock | The question needs China/Asia-adjacent energy shock, Hormuz, or economic spillover from a non-core host. |

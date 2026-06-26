@@ -75,7 +75,7 @@ Same-day **US–Israel war on Iran** (post-Khamenei assassination) — two Dialo
 ## Same-day bench (not in this weave)
 
 - [Mercouris × Wilkerson — attrition / downed warplanes wedge](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — title-tier solo + ORBAT colonel
-- [Mercouris solo — attrition / Gulf panic (full)](../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md)
+- [Mercouris solo — attrition / Gulf panic (full)](../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md)
 - [Marandi × Diesen — military strategy](../../source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md)
 - [Wilkerson × Nima — warplanes downed](../../source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md)
 - [Davis × Henningsen / Macgregor — US position](../../source-archive/statecraft/2026-03-03/source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md)

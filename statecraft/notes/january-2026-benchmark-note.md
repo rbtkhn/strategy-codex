@@ -48,7 +48,7 @@ Use these existing surfaces as the benchmark spine:
 - [2026-01 month archive rollup](/C:/dev/strategy-codex/source-archive/statecraft/2026-01.md)
   Preserves the month's real density, source-class spread, and early multi-lane footprint.
 
-- [wilkerson-january-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2026-note.md)
+- [wilkerson-january-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-january-2026-note.md)
   Keeps one bounded truth straight: January is a thin opening month for Wilkerson specifically, not a broken month overall.
 
 - [freeman-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-shelf-2026-01.md)

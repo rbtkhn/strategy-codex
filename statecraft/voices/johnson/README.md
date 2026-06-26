@@ -65,17 +65,17 @@ Johnson now has a full canonical January through May 2026 month ladder for the l
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/johnson/` path is now front-door compatibility only.
+The legacy `statecraft/voices/johnson/` path is now front-door compatibility only.
 
-- [codex/speakers/johnson/README.md](../../../codex/speakers/johnson/README.md) and [index.md](../../../codex/speakers/johnson/index.md) are compatibility pointers.
+- [statecraft/voices/johnson/README.md](../../../statecraft/voices/johnson/README.md) and [index.md](../../../statecraft/voices/johnson/index.md) are compatibility pointers.
 - codex-side thread, transcript, profile, page-template, and in-flight legacy notes remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Johnson statecraft work.
 
 ## Host Lanes
 
-- [Diesen x Johnson](../../../codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
+- [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md)
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Dialogue Works x Johnson](../../../codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
+- [Dialogue Works x Johnson](../../../statecraft/hosts/nima/stream/nima-johnson-speaker-arc.md)
 - [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary

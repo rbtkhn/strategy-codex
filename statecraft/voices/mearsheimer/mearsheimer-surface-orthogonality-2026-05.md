@@ -6,12 +6,12 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
-- [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md)
-- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
-- [mearsheimer-thread.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-thread.md)
+- [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
+- [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md)
+- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-mearsheimer-arc.md)
+- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md)
 
 Bounded claim:
 
@@ -23,18 +23,18 @@ Bounded claim:
 
 Arcs under review:
 
-- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-mearsheimer-arc.md)
+- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md)
 
 Threads under review:
 
-- none canonical; [mearsheimer-thread.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-thread.md) remains a compatibility continuity surface
+- none canonical; [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) remains a compatibility continuity surface
 
 Comparison-only notes:
 
-- [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
-- [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md)
+- [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
+- [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md)
 
 ## Arc audit
 
@@ -56,7 +56,7 @@ Comparison-only notes:
 
 There is no current canonical topical thread inside the Mearsheimer shelf. That is the right choice for now.
 
-The older [mearsheimer-thread.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-thread.md) file does not isolate a mechanism that the host arcs and helix fail to carry. It remains useful only as compatibility continuity, not as a real third layer of cognition.
+The older [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) file does not isolate a mechanism that the host arcs and helix fail to carry. It remains useful only as compatibility continuity, not as a real third layer of cognition.
 
 ### Thread distinctness table
 

@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about host transformation, triadic strand separation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Jermy structure now lives in [jermy-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md), [jermy-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-cross-host-note.md), and the three host-local arcs under Davis, Diesen, and Peacemonger. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Jermy structure now lives in [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md), [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-cross-host-note.md), and the three host-local arcs under Davis, Diesen, and Peacemonger. Do not treat this file as a competing canonical topical-thread atlas.
 
 **Source:** Distilled from [`strategy-expert-jermy-transcript.md`](strategy-expert-jermy-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

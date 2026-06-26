@@ -33,7 +33,7 @@ Best materialized anchors:
 
 ## Open Diesen First
 
-Open [Diesen x Postol](../../../codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) first when the notebook already accepts the mechanism question and now needs:
+Open [Diesen x Postol](../../../statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md) first when the notebook already accepts the mechanism question and now needs:
 
 - strategic-order consequence
 - deterrence consequence

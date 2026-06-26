@@ -22,7 +22,7 @@ That is stronger than a Davis-only guest run, but weaker than a co-equal double 
 | Lane | Structural status | Distinct register |
 |---|---|---|
 | [Davis host shelf](../../hosts/davis/README.md) | mature primary strand | war powers, domestic liability, executive-process fracture, coalition sell |
-| [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | reinforcing strand | carries the same executive-chaos and regime-decline voice into a more overt geopolitical host frame |
+| [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | reinforcing strand | carries the same executive-chaos and regime-decline voice into a more overt geopolitical host frame |
 | [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | thin reinforcing strand | adds a late-stage pressure cluster where Iran, Israel-lobby capture, Trump decline, Gulf economics, China, and Ukraine are read together |
 | [Johnson support](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md) | adjunct support | useful room-dynamics residue, but not yet a formalized host-local Barnes strand |
 
@@ -66,7 +66,7 @@ That overlap is real, but the first-open jobs are different.
 If the operator needs the cleanest Barnes helix entry:
 
 - open the [Davis host shelf](../../hosts/davis/README.md)
-- then [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- then [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 
 If the operator specifically needs the late-May reassessment:
 

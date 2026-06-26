@@ -53,17 +53,17 @@ The Macgregor historical scaffold in this wave is intentionally narrow:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/macgregor/` path is now compatibility-only.
+The legacy `statecraft/voices/macgregor/` path is now compatibility-only.
 
-- [codex/speakers/macgregor/README.md](../../../codex/speakers/macgregor/README.md) and [index.md](../../../codex/speakers/macgregor/index.md) are front-door pointers.
+- [statecraft/voices/macgregor/README.md](../../../statecraft/voices/macgregor/README.md) and [index.md](../../../statecraft/voices/macgregor/index.md) are front-door pointers.
 - codex-side stubs preserve compatibility for older references to moved canonical files.
-- [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) remain compatibility residue, not competing canonical surfaces.
+- [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) remain compatibility residue, not competing canonical surfaces.
 
 ## Host Lanes
 
-- [Davis x Macgregor](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 
 ## Boundary
 

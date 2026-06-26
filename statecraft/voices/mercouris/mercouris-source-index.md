@@ -12,7 +12,7 @@ Purpose: act as the canonical statecraft-side source index for Mercouris while r
 
 The detailed legacy bench remains available at:
 
-- [codex/speakers/mercouris/mercouris-source-index.md](../../../codex/speakers/mercouris/mercouris-source-index.md)
+- [statecraft/voices/mercouris/mercouris-source-index.md](../../../statecraft/voices/mercouris/mercouris-source-index.md)
 
 Use this statecraft-side file as the canonical opening route. Use the codex-side bench only as detailed compatibility residue during migration.
 

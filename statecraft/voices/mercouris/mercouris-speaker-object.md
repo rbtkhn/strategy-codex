@@ -80,7 +80,7 @@ If the operator needs the first dense-core crisis month rather than the bridge o
 
 If the operator needs the sharpest current frontier page:
 
-- open [mercouris-page-2026-05-08-to-2026-05-12.md](../../../codex/speakers/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
+- open [mercouris-page-2026-05-08-to-2026-05-12.md](../../../statecraft/voices/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
 
 If the operator needs the object doctrine rather than the live stream:
 

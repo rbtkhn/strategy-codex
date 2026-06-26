@@ -28,7 +28,7 @@ Routing rule: [`.cursor/rules/operator-books-routing.mdc`](../.cursor/rules/oper
 
 ## Primary 2026 Volume
 
-The active full-source layer now lives at repo root under [`../source-archive/statecraft/`](../source-archive/statecraft/README.md). Canonical people shelves, including hosts, live under [`speakers/`](speakers/). Durable channel profiles live in [`profiles/`](profiles/).
+The active full-source layer now lives at repo root under [`../source-archive/statecraft/`](../source-archive/statecraft/README.md). Canonical people shelves live under [`../statecraft/voices/`](../statecraft/voices/README.md) and host-family continuity under [`../statecraft/hosts/`](../statecraft/hosts/README.md). Legacy **`codex/speakers/`** is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md). Durable channel profiles live in [`profiles/`](profiles/).
 
 Use the old `experts/` path only as a deprecated compatibility pointer.
 

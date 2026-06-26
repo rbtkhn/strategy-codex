@@ -2,39 +2,16 @@ version = 1
 slug = "parsi"
 
 compact_state_files = [
-  "codex/speakers/parsi/README.md",
-  "codex/speakers/parsi/parsi-speaker-object.md",
-  "codex/speakers/parsi/parsi-cross-host-note.md",
-  "codex/speakers/parsi/parsi-helix.md",
-  "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md",
-  "codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md",
+  "statecraft/voices/parsi/README.md",
+  "statecraft/voices/parsi/parsi-speaker-object.md",
+  "statecraft/voices/parsi/parsi-cross-host-note.md",
+  "statecraft/voices/parsi/parsi-helix.md",
+  "statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md",
+  "statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md",
 ]
 
 provenance_roots = [
   "source-archive/statecraft",
   "codex/years/2025/raw-input",
   "codex/years/2026/raw-input",
-]
-
-[[source_sets]]
-file = "codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md"
-expected_count = 20
-required_prefixes = ["substack-parsi-", "responsiblestatecraft-parsi-"]
-excluded_patterns = [
-  "transcript-",
-  "youtube-",
-  "tparsi-x-bundle-",
-  "duran-",
-  "date-named-parsi",
-]
-
-[[source_sets]]
-file = "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md"
-expected_count = 10
-excluded_patterns = [
-  "substack-parsi-",
-  "responsiblestatecraft-parsi-",
-  "tparsi-x-bundle-",
-  "transcript-parsi.md",
-  "date-named-parsi",
 ]

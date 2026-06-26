@@ -33,9 +33,9 @@ Compatibility residue:
 
 - [Profile compatibility redirect](../../../codex/profiles/mercouris-profile.md)
 
-- [Thread compatibility file](../../../codex/speakers/mercouris/stream/mercouris-thread.md)
-- [Transcript compatibility file](../../../codex/speakers/mercouris/stream/mercouris-transcript.md)
-- [Legacy page residue](../../../codex/speakers/mercouris/stream)
+- [Thread compatibility file](../../../statecraft/voices/mercouris/stream/mercouris-thread.md)
+- [Transcript compatibility file](../../../statecraft/voices/mercouris/stream/mercouris-transcript.md)
+- [Legacy page residue](../../../statecraft/voices/mercouris/stream)
 
 ## Monthly Shelf Layer
 

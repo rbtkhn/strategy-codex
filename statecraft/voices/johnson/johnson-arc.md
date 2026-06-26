@@ -20,9 +20,9 @@ Purpose: define `johnson-arc` as the canonical person-level continuity surface f
 
 Its main embodied lanes are:
 
-1. [Diesen x Johnson](../../../codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md) for geopolitical altitude and regional-order consequence
+1. [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md) for geopolitical altitude and regional-order consequence
 2. [Davis host shelf](../../hosts/davis/README.md) for operational feasibility and failed coercion
-3. [Dialogue Works x Johnson](../../../codex/speakers/nima/stream/nima-johnson-speaker-arc.md) for live crisis pressure and humiliation tempo
+3. [Dialogue Works x Johnson](../../../statecraft/hosts/nima/stream/nima-johnson-speaker-arc.md) for live crisis pressure and humiliation tempo
 
 Auxiliary reinforcement:
 

@@ -37,17 +37,17 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/postol/` path is now front-door compatibility only.
+The legacy `statecraft/voices/postol/` path is now front-door compatibility only.
 
-- [codex/speakers/postol/README.md](../../../codex/speakers/postol/README.md) and [index.md](../../../codex/speakers/postol/index.md) are compatibility pointers.
+- [statecraft/voices/postol/README.md](../../../statecraft/voices/postol/README.md) and [index.md](../../../statecraft/voices/postol/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Postol statecraft work.
 
 ## Host Lanes
 
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Diesen x Postol](../../../codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
-- [Dialogue Works x Postol](../../../codex/speakers/nima/stream/nima-postol-speaker-arc.md)
+- [Diesen x Postol](../../../statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md)
+- [Dialogue Works x Postol](../../../statecraft/hosts/nima/stream/nima-postol-speaker-arc.md)
 
 ## Boundary
 

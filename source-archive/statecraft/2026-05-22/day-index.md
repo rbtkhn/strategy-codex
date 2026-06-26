@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=27dyhU7YwvM) | `source-alexander-mercouris-eu-says-never-buy-russian-oil-gas-backs-kiev-drone-war-energy-shock-russia-breaks-orekhov-defence-2026-05-22.md` |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=cn-PxBNl-7o) | `source-alexander-mercouris-iran-impasse-trump-wants-airstrikes-as-stockpiles-depleted-2026-05-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=-rwVBXNiXSQ) | `source-daniel-davis-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | [oWXaAN633c0](https://www.youtube.com/watch?v=oWXaAN633c0) | `source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | — | `source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `krapivnik` | [oWXaAN633c0](https://www.youtube.com/watch?v=oWXaAN633c0) | `source-dialogue-works-stanislav-krapivnik-tulsi-gabbard-resigns-hezbollah-crushes-idf-war-becomes-unaffordable-2026-05-22.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=b9gN6iguB1M) | `source-glenn-diesen-larry-johnson-defeat-in-the-iran-war-will-end-the-u-s-empire-2026-05-22.md` |
 

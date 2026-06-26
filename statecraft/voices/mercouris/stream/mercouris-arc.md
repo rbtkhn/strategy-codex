@@ -14,7 +14,7 @@ Quick separation rule:
 
 - `mercouris-arc` = the durable native arc shape and its main motion
 - [mercouris-arc-threads.md](mercouris-arc-threads.md) = the canonical atlas of distinct recurring strands inside that arc
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md) = legacy continuity compatibility, useful for dated browsing but not a second canonical thread system
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md) = legacy continuity compatibility, useful for dated browsing but not a second canonical thread system
 - `Davis x Mercouris` = feasibility-pressure reinforcement branch
 - `Diesen x Mercouris` = legitimacy-order-transition reinforcement branch
 
@@ -54,12 +54,12 @@ March 2026 is the first **mature dense-core month** in that motion: the point wh
 Current reinforcement branches:
 
 - [Diesen x Mercouris](../../diesen/stream/diesen-mercouris-speaker-arc.md) - a deepening host-local branch (2023/2024 Karaganov triads + 2026 legitimacy dyad) that braids order-transition, deterrence-history, and legitimacy-crisis threads with Diesen's frame.
-- [Davis x Mercouris](../../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md) - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
+- [Davis x Mercouris](../../../../statecraft/hosts/davis/stream/davis-mercouris-speaker-arc.md) - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
 
 Distinct from:
 
 - [mercouris-arc-threads.md](mercouris-arc-threads.md), which carries the internal strand differentiation rather than the overall arc shape
-- [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md), which preserves continuity browsing but should not be treated as the orthogonality-bearing thread surface
+- [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md), which preserves continuity browsing but should not be treated as the orthogonality-bearing thread surface
 - the host-local branches above, which show how external host pressure changes the usable Mercouris object
 
 ## Open First
@@ -70,7 +70,7 @@ If the operator needs the durable thesis layer:
 
 If the operator needs dated continuity:
 
-- open [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md)
+- open [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md)
 - open [mercouris-shelf-2026-01.md](mercouris-shelf-2026-01.md)
 - open [mercouris-shelf-2026-02.md](mercouris-shelf-2026-02.md)
 - open [mercouris-shelf-2026-03.md](mercouris-shelf-2026-03.md)

@@ -54,14 +54,14 @@ REPAIR_ROUTING = {
 }
 
 DEFAULT_TARGETS = {
-    "sm-1-speaker-object-repair": "codex/speakers/sachs/sachs-speaker-object.md",
-    "sm-2-speaker-arc-ranking": "codex/speakers/diesen/stream/diesen-freeman-arc.md",
+    "sm-1-speaker-object-repair": "statecraft/voices/sachs/sachs-speaker-object.md",
+    "sm-2-speaker-arc-ranking": "statecraft/voices/diesen/stream/diesen-freeman-arc.md",
     "sm-3-speaker-structure-metrics": "runtime/artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
     "sm-4-speaker-maturity-ranking": "runtime/artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
 }
 
 TARGET_BY_TYPE = {
-    "template": "codex/speakers/_templates/speaker-arc-template.md",
+    "template": "statecraft/voices/_templates/speaker-arc-template.md",
     "fixture": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
     "rubric": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
     "prompt": "runtime/artifacts/benchmarks/speaker-memory/fixtures",

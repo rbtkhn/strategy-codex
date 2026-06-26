@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about host transformation, guest differentiation, or canonical routing, route to those named shelf surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Nima structure now lives in the host shelf front door at [nima/README.md](/C:/dev/strategy-codex/codex/speakers/nima/README.md), the host routing surface at [nima/index.md](/C:/dev/strategy-codex/codex/speakers/nima/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Nima structure now lives in the host shelf front door at [nima/README.md](/C:/dev/strategy-codex/statecraft/hosts/nima/README.md), the host routing surface at [nima/index.md](/C:/dev/strategy-codex/statecraft/hosts/nima/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
 
 **Source:** Distilled from [`transcript.md`](transcript.md) (what the host said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

@@ -8,26 +8,26 @@ Open here first when the question is not merely "what did Armstrong say," but **
 
 ## Start here
 
-- [index.md](/C:/dev/strategy-codex/codex/speakers/armstrong/index.md)
+- [index.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/index.md)
 
 ## Structural notes
 
-- [armstrong-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-speaker-object.md)
-- [armstrong-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-cross-host-note.md)
+- [armstrong-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-speaker-object.md)
+- [armstrong-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-cross-host-note.md)
 
 ## Compatibility shape
 
 This shelf already has a real canonical structure:
 
-- [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-armstrong-speaker-arc.md) is the mature host-local branch
-- [armstrong-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-speaker-object.md) defines the single-helix shape
-- [armstrong-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-cross-host-note.md) preserves the thinner outside-host reinforcement claim
+- [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-armstrong-speaker-arc.md) is the mature host-local branch
+- [armstrong-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-speaker-object.md) defines the single-helix shape
+- [armstrong-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-cross-host-note.md) preserves the thinner outside-host reinforcement claim
 
-The older [armstrong-thread.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical topical-thread system.
+The older [armstrong-thread.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical topical-thread system.
 
 Do not treat `armstrong-thread.md` as competing with the mature Dialogue Works branch or the object doctrine that explains it.
 
 ## Host lanes
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-armstrong-speaker-arc.md)
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-armstrong-speaker-arc.md)
 

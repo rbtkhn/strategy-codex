@@ -2,7 +2,7 @@
 """Extract raw material for per-expert thread distillation.
 
 Legacy machinery note: the canonical people-shelf contract is now
-``codex/speakers/<name>/`` plus ``source-archive/statecraft/`` for provenance.
+``statecraft/voices/<name>/`` plus ``source-archive/statecraft/`` for provenance.
 This script still contains older path assumptions and should not be read as the
 architectural source of truth.
 

@@ -44,8 +44,8 @@ Goal: extract Mercouris's value as a high-frequency continuity and diplomacy-roo
 
 Open speaker and stream surfaces first:
 
-- `codex/speakers/mercouris/mercouris-speaker-object.md`
-- `codex/speakers/mercouris/mercouris-cross-host-note.md`
+- `statecraft/voices/mercouris/mercouris-speaker-object.md`
+- `statecraft/voices/mercouris/mercouris-cross-host-note.md`
 - `codex/years/2026/mercouris/README.md`
 - `codex/years/2026/mercouris/mercouris-shelf-2026-05.md`
 - `codex/years/2026/mercouris/mercouris-thread.md`

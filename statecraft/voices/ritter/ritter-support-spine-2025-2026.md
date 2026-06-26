@@ -47,8 +47,8 @@ not:
 | Host lane | Speaker-owned role | Best use |
 |---|---|---|
 | [Davis host shelf](../../hosts/davis/README.md) | practical military lane | stockpiles, skies, basing pressure, blockade impracticality, force-feasibility failure |
-| [diesen-ritter-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | escalation-horizon lane | Hormuz return-to-war pressure, Europe spillover, sea-control consequence, Russia/NATO widening |
-| [nima-ritter-speaker-arc.md](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
+| [diesen-ritter-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md) | escalation-horizon lane | Hormuz return-to-war pressure, Europe spillover, sea-control consequence, Russia/NATO widening |
+| [nima-ritter-speaker-arc.md](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
 | [Napolitano host shelf](../../hosts/napolitano/README.md) | auxiliary legal-command lane | war powers, piracy/blockade illegitimacy, command absurdity, command-failure reinforcement |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
@@ -95,8 +95,8 @@ Open:
 
 - [stream/ritter-shelf-2026-03.md](stream/ritter-shelf-2026-03.md)
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Diesen x Ritter](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md)
 - [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 Why March matters:
@@ -128,7 +128,7 @@ Open:
 
 - [stream/ritter-shelf-2026-05.md](stream/ritter-shelf-2026-05.md)
 - [2026-05-04 Diesen](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
-- [2026-05-06 Davis](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [2026-05-06 Davis](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
 - [2026-05-13 Dialogue Works](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - [2026-05-18 Judging Freedom](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md)
 

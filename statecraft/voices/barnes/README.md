@@ -46,17 +46,17 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
+The legacy `statecraft/voices/barnes/` path is now front-door compatibility only.
 
-- [codex/speakers/barnes/README.md](../../../codex/speakers/barnes/README.md) and [index.md](../../../codex/speakers/barnes/index.md) are compatibility pointers.
+- [statecraft/voices/barnes/README.md](../../../statecraft/voices/barnes/README.md) and [index.md](../../../statecraft/voices/barnes/index.md) are compatibility pointers.
 - codex-side thread, transcript, speaker-object, cross-host, mind, and profile files remain compatibility residue or migration scaffolds.
-- [codex/profiles/](../../../codex/profiles/) has no Barnes row; legacy profile redirect: [codex/speakers/barnes/barnes-profile.md](../../../codex/speakers/barnes/barnes-profile.md).
+- [codex/profiles/](../../../codex/profiles/) has no Barnes row; legacy profile redirect: [statecraft/voices/barnes/barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md).
 - this statecraft shelf is now the canonical opening path for Barnes statecraft work.
 
 ## Host Lanes
 
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - [Nima x Barnes](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 - [Mario Nawfal x Barnes](../../../source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
 - [Johnson x Barnes support](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)

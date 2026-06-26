@@ -24,10 +24,10 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../codex/speakers/macgregor/macgregor-thread.md)
-- [Transcript compatibility file](../../../codex/speakers/macgregor/macgregor-transcript.md)
-- [Profile residue](../../../codex/speakers/macgregor/macgregor-profile.md)
-- [Page template residue](../../../codex/speakers/macgregor/macgregor-page-template.md)
+- [Thread compatibility file](../../../statecraft/voices/macgregor/macgregor-thread.md)
+- [Transcript compatibility file](../../../statecraft/voices/macgregor/macgregor-transcript.md)
+- [Profile residue](../../../statecraft/voices/macgregor/macgregor-profile.md)
+- [Page template residue](../../../statecraft/voices/macgregor/macgregor-page-template.md)
 
 ## Monthly Shelf Layer
 
@@ -48,9 +48,9 @@ This wave does not yet promote individual Macgregor theme files. The shelf now h
 
 ## Host Arcs
 
-- [Davis x Macgregor](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 
 ## Boundary
 

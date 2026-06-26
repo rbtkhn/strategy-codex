@@ -8,7 +8,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Helmer × Nima — Kremlin's New Strategy Before Geneva; Madness in the Middle East](../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — https://www.youtube.com/watch?v=YQrBhZf2TXI — **full transcript** (2026-06-20 intake)
-- [Mercouris solo — Russian Top General Floats Annexation; Geneva Talks Begin; Konstantinovka Falling](../../source-archive/statecraft/2026-02-17/source-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) — https://www.youtube.com/watch?v=8PGeNwFTTwc — **full transcript** (2026-06-20 intake)
+- [Mercouris solo — Russian Top General Floats Annexation; Geneva Talks Begin; Konstantinovka Falling](../../source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) — https://www.youtube.com/watch?v=8PGeNwFTTwc — **full transcript** (2026-06-20 intake)
 
 ## Purpose
 

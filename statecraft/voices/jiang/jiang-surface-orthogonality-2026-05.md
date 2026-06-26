@@ -8,15 +8,15 @@ This review checks whether the current Jiang shelf is partitioned sharply enough
 
 Local Jiang surfaces reviewed:
 
-- [jiang-profile.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-profile.md)
-- [jiang-thread.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-thread.md)
-- [jiang-transcript.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-transcript.md)
-- [jiang-on-china.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-on-china.md)
+- [jiang-profile.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-profile.md)
+- [jiang-thread.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-thread.md)
+- [jiang-transcript.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-transcript.md)
+- [jiang-on-china.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-on-china.md)
 
 Adjacent neutral relation notes:
 
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
-- [Jiang vs Johnson - Where Other Speakers Stand](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-others-2026-05.md)
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-2026-05.md)
+- [Jiang vs Johnson - Where Other Speakers Stand](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-others-2026-05.md)
 
 Bounded claim:
 

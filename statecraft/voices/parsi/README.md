@@ -69,9 +69,9 @@ Current mature month support:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/parsi/` path is now front-door compatibility only.
+The legacy `statecraft/voices/parsi/` path is now front-door compatibility only.
 
-- [codex/speakers/parsi/README.md](../../../codex/speakers/parsi/README.md) and [index.md](../../../codex/speakers/parsi/index.md) are compatibility pointers.
+- [statecraft/voices/parsi/README.md](../../../statecraft/voices/parsi/README.md) and [index.md](../../../statecraft/voices/parsi/index.md) are compatibility pointers.
 - codex-side thread and transcript residue remain compatibility/support only.
 - this statecraft shelf is now the canonical opening path for Parsi statecraft work.
 

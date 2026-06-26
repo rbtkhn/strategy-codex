@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-This note extends the existing [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md) tension note by locating the **recent core** speakers around that same dispute.
+This note extends the existing [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-2026-05.md) tension note by locating the **recent core** speakers around that same dispute.
 
 It is a bounded **speaker-position audit** for the **May 11-21, 2026** Iran / Middle East escalation window, not a new arc, not a thread, and not a settled adjudication.
 

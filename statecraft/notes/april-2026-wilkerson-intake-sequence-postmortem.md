@@ -23,7 +23,7 @@ Start state:
 
 End state:
 
-- April is now an honest [nine-anchor month](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-april-2026-note.md)
+- April is now an honest [nine-anchor month](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-april-2026-note.md)
 - the bounded [contradiction audit](/C:/dev/strategy-codex/statecraft/notes/wilkerson-april-2026-contradiction-audit.md) is closed
 - host-balance and month-shape claims now match the archive
 

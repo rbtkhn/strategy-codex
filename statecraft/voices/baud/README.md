@@ -12,7 +12,7 @@ Open here when the question is not merely what Baud said in one appearance, but 
 - [baud-thread-international-law.md](baud-thread-international-law.md)
 - [baud-helix.md](baud-helix.md)
 - [baud-surface-orthogonality-2026-05.md](baud-surface-orthogonality-2026-05.md)
-- [Baud-Crooke law cluster review](/C:/dev/strategy-codex/codex/speakers/relations/baud-crooke-international-law-orthogonality-2026-05.md)
+- [Baud-Crooke law cluster review](/C:/dev/strategy-codex/statecraft/voices/relations/baud-crooke-international-law-orthogonality-2026-05.md)
 - [baud-cross-year-note.md](baud-cross-year-note.md)
 - [baud-profile.md](baud-profile.md)
 
@@ -35,9 +35,9 @@ Do not flatten those two thread-shaped files together:
 
 Open the host-local arcs when the question is about how a specific host transforms Baud:
 
-- [Diesen x Baud](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md)
-- [Davis x Baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
+- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-baud-arc.md)
+- [Davis x Baud](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-baud-arc.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-baud-arc.md)
 
 ## Boundary
 

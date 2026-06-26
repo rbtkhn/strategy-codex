@@ -29,11 +29,11 @@ Open **Trump Stuck in a War He Doesn't Want to Continue** first when the operato
 
 ## Best paired read
 
-Best paired read: [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
+Best paired read: [Davis x Kent](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-kent-speaker-arc.md)
 
 Why: Davis keeps the same exit argument grounded in military feasibility and Hormuz consequences.
 
-Second-best paired read: [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
+Second-best paired read: [Diesen x Kent](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-kent-speaker-arc.md)
 
 Why: Diesen supplies the structural-order version of the same institutional-capture problem.
 
@@ -62,4 +62,4 @@ Use `Nawfal x Kent` when the notebook needs:
 - This is a single-appearance arc, not an active host shelf.
 - Treat assassination/security-pressure material as commentary and hypothesis unless independently verified.
 - Do not use this arc to flatten Kent into a generic conspiracy voice; its value is the tension between proximity, speculation, and institutional critique.
-- If the question is mainly about military-political end state or Hormuz exit logic, route outward to [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) instead of overloading this political-pressure lane.
+- If the question is mainly about military-political end state or Hormuz exit logic, route outward to [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-kent-speaker-arc.md) instead of overloading this political-pressure lane.

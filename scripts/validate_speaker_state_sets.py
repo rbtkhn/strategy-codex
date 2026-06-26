@@ -18,6 +18,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGISTERED_SPEAKER_SLUGS = ("pape", "crooke", "ritter", "parsi", "davis", "diesen")
+DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
+DEFAULT_HOSTS_DIR = REPO_ROOT / "statecraft" / "hosts"
+HOST_SLUGS = frozenset({"davis", "napolitano", "nima"})
 
 HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -241,8 +244,14 @@ def is_under_any(path: Path, roots: tuple[Path, ...]) -> bool:
     return False
 
 
-def load_manifest(slug: str, repo_root: Path, speakers_dir: Path) -> tuple[SpeakerSpec | None, list[str]]:
-    manifest_path = speakers_dir / slug / "state-set.toml"
+def speaker_shelf_dir(slug: str, voices_dir: Path, hosts_dir: Path) -> Path:
+    if slug in HOST_SLUGS:
+        return hosts_dir / slug
+    return voices_dir / slug
+
+
+def load_manifest(slug: str, repo_root: Path, voices_dir: Path, hosts_dir: Path) -> tuple[SpeakerSpec | None, list[str]]:
+    manifest_path = speaker_shelf_dir(slug, voices_dir, hosts_dir) / "state-set.toml"
     manifest_rel = repo_rel(manifest_path, repo_root)
     if not manifest_path.exists():
         return None, [f"{manifest_rel}: registered speaker manifest is missing"]
@@ -491,11 +500,12 @@ def validate_guest_matrix(spec: GuestMatrixSpec, repo_root: Path) -> list[str]:
 def validate_registered_speaker(
     slug: str,
     repo_root: Path,
-    speakers_dir: Path,
+    voices_dir: Path,
+    hosts_dir: Path,
 ) -> tuple[list[str], list[str]]:
     errors: list[str] = []
     warnings: list[str] = []
-    spec, manifest_errors = load_manifest(slug, repo_root, speakers_dir)
+    spec, manifest_errors = load_manifest(slug, repo_root, voices_dir, hosts_dir)
     if manifest_errors:
         return manifest_errors, warnings
     assert spec is not None
@@ -550,7 +560,8 @@ def validate_unregistered_speaker(speaker_dir: Path, repo_root: Path) -> list[st
 
 def validate_all(
     repo_root: Path,
-    speakers_dir: Path,
+    voices_dir: Path,
+    hosts_dir: Path,
     speaker: str | None = None,
 ) -> tuple[list[str], list[str]]:
     errors: list[str] = []
@@ -559,11 +570,13 @@ def validate_all(
     if speaker:
         slug = speaker.strip().lower()
         if slug in REGISTERED_SPEAKER_SLUGS:
-            speaker_errors, speaker_warnings = validate_registered_speaker(slug, repo_root, speakers_dir)
+            speaker_errors, speaker_warnings = validate_registered_speaker(
+                slug, repo_root, voices_dir, hosts_dir
+            )
             errors.extend(speaker_errors)
             warnings.extend(speaker_warnings)
         else:
-            speaker_dir = speakers_dir / slug
+            speaker_dir = speaker_shelf_dir(slug, voices_dir, hosts_dir)
             if not speaker_dir.exists():
                 errors.append(f"unknown speaker `{slug}` and no folder at {repo_rel(speaker_dir, repo_root)}")
             else:
@@ -571,22 +584,24 @@ def validate_all(
         return errors, warnings
 
     for slug in REGISTERED_SPEAKER_SLUGS:
-        speaker_errors, speaker_warnings = validate_registered_speaker(slug, repo_root, speakers_dir)
+        speaker_errors, speaker_warnings = validate_registered_speaker(
+            slug, repo_root, voices_dir, hosts_dir
+        )
         errors.extend(speaker_errors)
         warnings.extend(speaker_warnings)
 
-    if speakers_dir.exists():
-        for speaker_dir in sorted(path for path in speakers_dir.iterdir() if path.is_dir()):
+    if voices_dir.exists():
+        for speaker_dir in sorted(path for path in voices_dir.iterdir() if path.is_dir()):
             if speaker_dir.name.lower() not in REGISTERED_SPEAKER_SLUGS:
                 warnings.extend(validate_unregistered_speaker(speaker_dir, repo_root))
 
     return errors, warnings
 
 
-def list_registered(repo_root: Path, speakers_dir: Path) -> None:
+def list_registered(repo_root: Path, voices_dir: Path, hosts_dir: Path) -> None:
     for slug in REGISTERED_SPEAKER_SLUGS:
         print(slug)
-        spec, errors = load_manifest(slug, repo_root, speakers_dir)
+        spec, errors = load_manifest(slug, repo_root, voices_dir, hosts_dir)
         if errors:
             for error in errors:
                 print(f"  manifest error: {error}")
@@ -636,17 +651,18 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     repo_root = args.repo_root.resolve()
-    speakers_dir = (
+    voices_dir = (
         args.speakers_dir.resolve()
         if args.speakers_dir
-        else repo_root / "codex" / "speakers"
+        else repo_root / "statecraft" / "voices"
     )
+    hosts_dir = repo_root / "statecraft" / "hosts"
 
     if args.list:
-        list_registered(repo_root, speakers_dir)
+        list_registered(repo_root, voices_dir, hosts_dir)
         return 0
 
-    errors, warnings = validate_all(repo_root, speakers_dir, speaker=args.speaker)
+    errors, warnings = validate_all(repo_root, voices_dir, hosts_dir, speaker=args.speaker)
     if args.strict_state_boundary:
         promoted, warnings = promote_state_boundary_warnings(warnings)
         errors.extend(promoted)

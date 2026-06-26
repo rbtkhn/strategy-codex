@@ -9,7 +9,7 @@ WORK only; not Record.
 | Voice | File | Ukraine function |
 |-------|------|------------------|
 | **Helmer** | [Putin's crisis of confidence](../../source-archive/statecraft/2026-06-09/source-dialogue-works-helmer-putins-crisis-of-confidence-2026-06-09.md) | Moscow mood + Abramovich channel + Oreshnik test-minimized |
-| **Mercouris** | [Moscow / Sumy / Zelensky ad](../../source-archive/statecraft/2026-06-09/source-alex-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md) | UK Astute alongside + Kiev pressure framing |
+| **Mercouris** | [Moscow / Sumy / Zelensky ad](../../source-archive/statecraft/2026-06-09/source-alexander-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md) | UK Astute alongside + Kiev pressure framing |
 | **Krapivnik** | [Breaking US attacks Iran — opener + Ukraine block](../../source-archive/statecraft/2026-06-09/source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) | Counter-CNN narrative; Dnieper-bridge puzzle; Konstantinovka / Sumy / Zaporizhzhia claims |
 
 **Bounded question:** Does Krapivnik's **counter-Western-PR** read on the Ukraine front **mesh** with Helmer/Mercouris secondary bench and **June ISW** — without treating guest infiltration rhetoric as encirclement fact?

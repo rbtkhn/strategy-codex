@@ -199,7 +199,7 @@ Load-bearing **operational red lines** from [Getting the Framework Right](../../
 | Macgregor | `source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md` |
 | Henningsen | `source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md` |
 | Davis | `source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md` |
-| Mercouris | `source-alex-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
+| Mercouris | `source-alexander-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
 | Diesen/Krapivnik | `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md` |
 | Crooke | `source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md` |
 | Aguilar | `source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md` |

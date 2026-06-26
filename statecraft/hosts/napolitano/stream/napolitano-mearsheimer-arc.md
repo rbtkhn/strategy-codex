@@ -64,8 +64,8 @@ Do not use this arc as a shortcut for full realist world-order theory or Davis-s
 
 Practical separation:
 
-- if the real question is `can the U.S. still force an outcome?`, open [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
-- if the real question is `what larger order logic makes this crisis dangerous?`, open [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- if the real question is `can the U.S. still force an outcome?`, open [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-mearsheimer-arc.md)
+- if the real question is `what larger order logic makes this crisis dangerous?`, open [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
 - if the real question is `how did Washington box itself in and lose sequence control?`, stay here
 
 This also means Barnes remains adjacent rather than overlapping:
@@ -84,9 +84,9 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about coercive leverage and bargaining geometry rather than how Washington boxed itself in and lost sequence control, route outward to [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md).
+- If the question is mainly about coercive leverage and bargaining geometry rather than how Washington boxed itself in and lost sequence control, route outward to [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-mearsheimer-arc.md).
 - If the question is mainly about domestic liability, war-powers exposure, White House factional fracture, or executive survivability, route outward to [Barnes](C:/dev/strategy-codex/statecraft/voices/barnes/README.md).
-- If the question is mainly about order-transition, NATO architecture, or system-level consequence, route outward to [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md).
+- If the question is mainly about order-transition, NATO architecture, or system-level consequence, route outward to [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md).
 
 - The November 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
 - This arc should be treated as real reinforcement for the Mearsheimer object, not as proof of stable triple-helix maturity.

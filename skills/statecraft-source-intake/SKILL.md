@@ -4,7 +4,7 @@ description: "Manual invoke: source-intake. Land operator transcripts via sideca
 preferred_activation: source-intake
 activation: source-intake
 portable: true
-version: 0.4.15
+version: 0.4.16
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -88,7 +88,7 @@ When this skill applies and the operator supplied a transcript body, **start her
    - `python scripts/land_statecraft_source_body.py --header .../_land_<slug>/header.md --body .../body-01.txt [--body .../body-02.txt] --out source-archive/statecraft/YYYY-MM-DD/source-....md`
    - post-land: caption wrapper → family opening normalizer (when applicable) → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`
    - delete `_land_<slug>/` after verify
-5. Report landed path, byte size, queue row — then offer synthesis or checkpoint; do not pre-synthesize in `source-archive/`.
+5. Report landed path, byte size, queue row — then apply **§ Post-land section nudge** when triggers match; offer synthesis or checkpoint; do not pre-synthesize in `source-archive/`.
 
 **After hang or interrupt in an intake thread:** resume at step 2 (sidecar `Write` + step 4 merge only). Never re-open template captures.
 
@@ -260,7 +260,8 @@ Structured-field law:
      - Preview any step with `--dry-run` on that script.
      3. **Optional source-clean (ASR / proper-noun pass):** When YouTube or operator-paste noise blocks search or study, run **`source-clean`** — `python scripts/source_clean_statecraft.py --path <landed-file>` (or `--dry-run` first). Orchestrates scaffold + ph-civ tiers + entity pass + thread tiers + provenance patch. SSOT: [`source-clean`](../source-clean/SKILL.md). Not synthesis; not wire-verify.
      4. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. **News-verify:** run the **five-lane CIV-STATE sweep** per [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **America · Persia · PRC · Russia · Rome** (cite or **`-absent`** per lane) — not English-only wires. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
-     5. **Optional source-section (solo / interview study headings):** When `source_form: solo` or `source_form: interview` and the operator wants Title Case `### … — …` navigation headings (not first-pass land), run **`source-section`** after optional **`source-clean`**. Pin a per-source section map (anchors + titles); set `transcript_curation: curated_sectioned`. SSOT: [`source-section`](../source-section/SKILL.md). Not synthesis; not automatic on every intake.
+     5. **Optional source-section (solo / interview study headings):** When `source_form: solo` or `source_form: interview` and the operator wants Title Case `### … — …` navigation headings (not first-pass land), run **`source-section`** after optional **`source-clean`**. Pin a per-source or day-batch section map (anchors + titles); set `transcript_curation: curated_sectioned`. SSOT: [`source-section`](../source-section/SKILL.md). Not synthesis; not automatic on every intake.
+     - **Post-land section nudge (mandatory when triggers match):** After land, if the body is **flat** and **≥ ~4,000 words**, or headings are **bootstrap slugs** (`Segment N — …`), state explicitly: recommend **`source-section outline`** (or slug **retitle**) **before** `state synthesis` — named jump targets vs monolith scan. One-line payoff: ~90% less expected scan per random topic. See [`source-section` § Post-land nudge](../source-section/SKILL.md#post-land-nudge-mandatory-agent-behavior).
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
@@ -416,6 +417,7 @@ Rules:
 
 - **`ok`** or **`no_daily`** — report sync briefly; run intake queue report and surface `new` / `queued` counts before closeout/menu.
 - **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `state synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/synthesis/day/`.
+- **Section coverage before synthesis:** When routing to `state synthesis` on a **DESYNC** or multi-capture day, run `python scripts/quantify_section_nav.py --day YYYY-MM-DD` (or spot-check captures). If any solo/interview capture is **flat** (≥ ~4k words) or **slug-only**, recommend **`source-section`** for those files **before** daily weave — synthesis should link to thematic `###` seams, not monolith search.
 - **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)).
 - Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
 

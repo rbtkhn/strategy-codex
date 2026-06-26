@@ -42,7 +42,7 @@ It is better read as:
 
 Companion structural surface:
 
-- [legacy Mearsheimer surface orthogonality](../../../codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
+- [legacy Mearsheimer surface orthogonality](../../../statecraft/voices/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
   Status: structural review of whether May pressure should collapse the shelf into a triple helix or leave it as a double helix with reinforcing orbit.
 
 ## What May now proves

@@ -76,7 +76,7 @@ Use these as starting surfaces, not an exhaustive set:
 
 - **Ritter / agreement capability:** [2026-05-18 Consortium News debate](../../../../../years/2026/raw-input/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 - **Ritter / Iran agreement skepticism:** [2026-05-13 Dialogue Works](../../../../../years/2026/raw-input/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- **Mercouris / Russia-China-Iran energy and enrichment mechanism:** [2026-04-15 Mercouris](../../../../../years/2026/raw-input/2026-04-15/source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
+- **Mercouris / Russia-China-Iran energy and enrichment mechanism:** [2026-04-15 Mercouris](../../../../../years/2026/raw-input/2026-04-15/source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md)
 - **Mercouris / Europe war language:** [2026-04-25 Mercouris](../../../../../years/2026/raw-input/2026-04-25/source-alexander-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md)
 - **Helmer / Lavrov as military-side faction signal:** [2026-04-28 Helmer](../../../../../years/2026/raw-input/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)
 - **Baud / Eurasian linkage:** [2026-05-11 Baud](../../../../../years/2026/raw-input/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md)

@@ -156,12 +156,13 @@ WORK only; not Record.
 
 
 def test_unregistered_speaker_folder_warns_without_failure(tmp_path: Path) -> None:
-    speaker_dir = tmp_path / "codex" / "speakers" / "example"
+    speaker_dir = tmp_path / "statecraft" / "voices" / "example"
     speaker_dir.mkdir(parents=True)
 
     errors, warnings = validator.validate_all(
         repo_root=tmp_path,
-        speakers_dir=tmp_path / "codex" / "speakers",
+        voices_dir=tmp_path / "statecraft" / "voices",
+        hosts_dir=tmp_path / "statecraft" / "hosts",
         speaker="example",
     )
 
@@ -171,7 +172,7 @@ def test_unregistered_speaker_folder_warns_without_failure(tmp_path: Path) -> No
 
 
 def test_strict_warnings_convert_warnings_to_failure(tmp_path: Path) -> None:
-    (tmp_path / "codex" / "speakers" / "example").mkdir(parents=True)
+    (tmp_path / "statecraft" / "voices" / "example").mkdir(parents=True)
 
     result = run_validator(
         "--speaker",
@@ -185,7 +186,7 @@ def test_strict_warnings_convert_warnings_to_failure(tmp_path: Path) -> None:
 
 
 def test_strict_state_boundary_converts_boundary_warning_to_failure(tmp_path: Path) -> None:
-    speaker_dir = tmp_path / "codex" / "speakers" / "example"
+    speaker_dir = tmp_path / "statecraft" / "voices" / "example"
     write(
         speaker_dir / "example-speaker-object.md",
         """# Example speaker object
@@ -215,7 +216,7 @@ def test_missing_manifest_fails_for_registered_speaker(tmp_path: Path) -> None:
 
 
 def test_manifest_slug_mismatch_fails(tmp_path: Path) -> None:
-    manifest = tmp_path / "codex" / "speakers" / "crooke" / "state-set.toml"
+    manifest = tmp_path / "statecraft" / "voices" / "crooke" / "state-set.toml"
     write(
         manifest,
         """version = 1
@@ -251,7 +252,7 @@ WORK only; not Record.
 | 2025-01-01 | [one]({rel_link(raw_2025, ledger)}) |
 """,
     )
-    manifest = tmp_path / "codex" / "speakers" / "pape" / "state-set.toml"
+    manifest = tmp_path / "statecraft" / "voices" / "pape" / "state-set.toml"
     write(
         manifest,
         f"""version = 1
@@ -279,17 +280,18 @@ def test_current_repo_registered_state_sets_validate() -> None:
 
 
 def test_current_repo_manifests_load_and_counts_are_registered() -> None:
-    speakers_dir = REPO / "codex" / "speakers"
-    crooke, crooke_errors = validator.load_manifest("crooke", REPO, speakers_dir)
-    ritter, ritter_errors = validator.load_manifest("ritter", REPO, speakers_dir)
-    davis, davis_errors = validator.load_manifest("davis", REPO, speakers_dir)
-    diesen, diesen_errors = validator.load_manifest("diesen", REPO, speakers_dir)
+    speakers_dir = REPO / "statecraft" / "voices"
+    hosts_dir = REPO / "statecraft" / "hosts"
+    crooke, crooke_errors = validator.load_manifest("crooke", REPO, speakers_dir, hosts_dir)
+    ritter, ritter_errors = validator.load_manifest("ritter", REPO, speakers_dir, hosts_dir)
+    davis, davis_errors = validator.load_manifest("davis", REPO, speakers_dir, hosts_dir)
+    diesen, diesen_errors = validator.load_manifest("diesen", REPO, speakers_dir, hosts_dir)
 
     assert crooke_errors == []
     assert ritter_errors == []
     assert davis_errors == []
     assert diesen_errors == []
-    assert crooke is not None and crooke.source_sets[1].expected_count == 21
+    assert crooke is not None and crooke.source_sets[1].expected_count == 22
     assert ritter is not None and ritter.source_sets[1].expected_count == 48
     assert davis is not None and davis.guest_matrices[0].expected_count == 13
     assert diesen is not None and diesen.guest_matrices[0].expected_count == 20
@@ -300,6 +302,6 @@ def test_list_prints_registered_state_files() -> None:
 
     assert result.returncode == 0
     assert "crooke" in result.stdout
-    assert "manifest: codex/speakers/crooke/state-set.toml" in result.stdout
+    assert "manifest: statecraft/voices/crooke/state-set.toml" in result.stdout
     assert "speaker state-set links" not in result.stdout
-    assert "codex/speakers/crooke/crooke-interview-appearances-2025-2026.md" in result.stdout
+    assert "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md" in result.stdout

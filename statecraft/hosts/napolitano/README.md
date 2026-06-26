@@ -25,7 +25,7 @@ The question Napolitano answers is usually not `can this still work?` but `who c
 
 ## Compatibility
 
-The older [codex/speakers/napolitano/README.md](/C:/dev/strategy-codex/codex/speakers/napolitano/README.md) path is compatibility residue only.
+The older [statecraft/hosts/napolitano/README.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md) path is compatibility residue only.
 
 - keep using codex-side Napolitano stream files when you need legacy chronology or archive residue
 - use this repo-root shelf when you need live host-law and guest-lane routing

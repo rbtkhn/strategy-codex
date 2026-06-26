@@ -15,7 +15,7 @@ Open this shelf when the real question is not legality, domestic liability, or i
 - [martyanov-helix.md](martyanov-helix.md) explains the `Dialogue Works + Davis + Diesen` branch structure.
 - [martyanov-support-spine-2025-2026.md](martyanov-support-spine-2025-2026.md) explains why the shelf is canonical but still intentionally lighter than a month ladder.
 
-Treat this `statecraft/voices/martyanov/` shelf as the canonical Martyanov front door. The legacy `codex/speakers/martyanov/` path is compatibility-only.
+Treat this `statecraft/voices/martyanov/` shelf as the canonical Martyanov front door. The legacy `statecraft/voices/martyanov/` path is compatibility-only.
 
 ## Fast Route
 

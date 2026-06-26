@@ -6,7 +6,7 @@ This file gives agents fast entry paths through the speaker map. It is a map of 
 
 ## Default Route
 
-1. Open the relevant speaker folder under [`codex/speakers/`](../).
+1. Open the relevant speaker folder under [`statecraft/voices/`](../) or host folder under [`statecraft/hosts/`](../../hosts/).
 2. Read the `*-speaker-object.md` if present.
 3. If the folder exposes a bare `*-thread.md`, do not assume it is a canonical topical thread; check whether it is a legacy continuity surface or a true topic-suffixed thread.
 4. If the question is host-specific, open the matching `host x speaker` arc.

@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Sources:**
 
-- [Mercouris solo — Starmer; BBC Kostyantynivka; Donbas-before-autumn; proxy→Europe escalation talk](../../source-archive/statecraft/2026-06-22/source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md) (`W1ahOFuZju4`)
+- [Mercouris solo — Starmer; BBC Kostyantynivka; Donbas-before-autumn; proxy→Europe escalation talk](../../source-archive/statecraft/2026-06-22/source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md) (`W1ahOFuZju4`)
 - [Baud × Nima / Dialogue Works — European incompetence; Starmer churn; MOU Israel exclusion; 92% observation-not-acceptance](../../source-archive/statecraft/2026-06-22/source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md) (`8f61k163LgQ`)
 - [Johnson / Neutrality Studies × Lottaz — Kostyantynivka captured; Kramatorsk encirclement; UK factory strikes by Aug; Karaganov deterrence; Ushakov Anchorage dead](../../source-archive/statecraft/2026-06-22/source-neutrality-studies-larry-johnson-iran-negotiation-disaster-russia-full-war-mode-2026-06-22.md) (`1ThlHZBk5C4`)
 - [Diesen × McGovern — Putin retaliation pressure vs NATO; SVR Latvia airfield warning; Article 5 risk calculus; Belousov/Starlink; Anchorage European renege; kerosene-show Moscow drones](../../source-archive/statecraft/2026-06-22/source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md) (`Xgcv0PiLJTY`)

@@ -14,6 +14,6 @@ Use it for tension notes, bounded comparison audits, and routing objects that do
 
 ## Current notes
 
-- [baud-crooke-international-law-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/relations/baud-crooke-international-law-orthogonality-2026-05.md)
-- [jiang-vs-johnson-2026-05.md](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
-- [jiang-vs-johnson-others-2026-05.md](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-others-2026-05.md)
+- [baud-crooke-international-law-orthogonality-2026-05.md](/C:/dev/strategy-codex/statecraft/voices/relations/baud-crooke-international-law-orthogonality-2026-05.md)
+- [jiang-vs-johnson-2026-05.md](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-2026-05.md)
+- [jiang-vs-johnson-others-2026-05.md](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-others-2026-05.md)

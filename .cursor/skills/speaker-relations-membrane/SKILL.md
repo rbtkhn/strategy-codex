@@ -23,7 +23,7 @@ tags:
 
 ## Legacy activation
 
-When the operator says **`speaker membrane`** or asks whether a note belongs in one speaker shelf vs `codex/speakers/relations/`, route once to **`runbook speaker membrane`**.
+When the operator says **`speaker membrane`** or asks whether a note belongs in one speaker shelf vs `statecraft/voices/relations/`, route once to **`runbook speaker membrane`**.
 
 ## No independent entry surface
 

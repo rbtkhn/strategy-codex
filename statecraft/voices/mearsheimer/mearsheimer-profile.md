@@ -113,7 +113,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ### Other links
 
-- Legacy codex profile (redirect): [codex/speakers/mearsheimer/mearsheimer-profile.md](../../../codex/speakers/mearsheimer/mearsheimer-profile.md)
+- Legacy codex profile (redirect): [statecraft/voices/mearsheimer/mearsheimer-profile.md](../../../statecraft/voices/mearsheimer/mearsheimer-profile.md)
 
 ## June 2026 intake receipts
 

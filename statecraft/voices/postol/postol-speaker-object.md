@@ -33,9 +33,9 @@ Postol carries a distinct utility profile:
 
 Postol should currently be read as a **helix-first speaker object with three materially real host-local branches**:
 
-- [Davis x Postol](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md)
+- [Davis x Postol](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-postol-speaker-arc.md)
+- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md)
+- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-postol-speaker-arc.md)
 
 That means:
 
@@ -53,21 +53,21 @@ The broader Postol run is visible in shelf-supporting inventory and profile surf
 - [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
 - [alkorshid-profile.md](/C:/dev/strategy-codex/codex/profiles/alkorshid-profile.md)
 
-See [postol-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/postol/postol-cross-host-note.md).
+See [postol-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/postol/postol-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current host-local entry:
 
-- open [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
+- open [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-postol-speaker-arc.md)
 
 If the operator needs the clearest strategic-order branch:
 
-- open [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
+- open [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md)
 
 If the operator needs the clearest live-pressure branch already on disk:
 
-- open [nima-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md)
+- open [nima-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-postol-speaker-arc.md)
 
 If the operator needs the strongest current materialized raw-input file:
 
@@ -75,7 +75,7 @@ If the operator needs the strongest current materialized raw-input file:
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [postol-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/postol/postol-cross-host-note.md)
+- stay here, then read [postol-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/postol/postol-cross-host-note.md)
 
 ## Routing use
 

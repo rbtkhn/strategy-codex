@@ -33,7 +33,7 @@ Dialogue Works repeatedly pushes guests toward:
 
 - a whole-speaker voices shelf (guest identity still lives in `voices/`)
 - a substitute for guest source-index or arc authority
-- a substitute for the whole-appearance index — use [alkorshid-source-index.md](../../voices/alkorshid/alkorshid-source-index.md) (Diesen parity)
+- a substitute for the channel index — use [dialogue-works-index.md](dialogue-works-index.md)
 
 ## Boundary
 

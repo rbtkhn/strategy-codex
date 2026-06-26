@@ -37,17 +37,17 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/martyanov/` path is now front-door compatibility only.
+The legacy `statecraft/voices/martyanov/` path is now front-door compatibility only.
 
-- [codex/speakers/martyanov/README.md](../../../codex/speakers/martyanov/README.md) and [index.md](../../../codex/speakers/martyanov/index.md) are compatibility pointers.
+- [statecraft/voices/martyanov/README.md](../../../statecraft/voices/martyanov/README.md) and [index.md](../../../statecraft/voices/martyanov/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files are now compatibility pointers back into this shelf, not parallel doctrine surfaces.
 - this statecraft shelf is now the canonical opening path for Martyanov statecraft work.
 
 ## Host Lanes
 
-- [Dialogue Works x Martyanov](../../../codex/speakers/nima/stream/nima-martyanov-speaker-arc.md)
-- [Davis x Martyanov](../../../codex/speakers/davis/stream/davis-martyanov-speaker-arc.md)
-- [Diesen x Martyanov](../../../codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md)
+- [Dialogue Works x Martyanov](../../../statecraft/hosts/nima/stream/nima-martyanov-speaker-arc.md)
+- [Davis x Martyanov](../../../statecraft/hosts/davis/stream/davis-martyanov-speaker-arc.md)
+- [Diesen x Martyanov](../../../statecraft/voices/diesen/stream/diesen-martyanov-speaker-arc.md)
 
 ## Boundary
 

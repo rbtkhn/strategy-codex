@@ -10,10 +10,13 @@ guest: Larry Johnson & Col. Wilkerson
 title: "Larry Johnson & Col. Wilkerson: Iran's Unseen Move: US Laser Destroyers Can't Stop What's Coming"
 channel_url: "https://www.youtube.com/@NimaAlkhorshid"
 channel_slug: "dialogue-works"
-source_url: "https://www.youtube.com/watch?v=oWXaAN633c0"
-youtube_id: "oWXaAN633c0"
 source_type: youtube
 transcript_type: operator_pasted_transcript
+verify_receipt: 2026-06-25
+verify:
+  - claim: operator-supplied youtube_id oWXaAN633c0
+    verdict: mis-pinned
+    note: oEmbed 2026-06-25 resolves to Krapivnik episode same day; transcript body retained; correct youtube_id pending manual pin
 source_note: "Transcript pasted manually by operator after check-streams for canonical May 22 2026 raw-input capture. Operator supplied a YouTube URL that duplicates another May 22 transcript already materialized, so the pasted transcript body is treated as the primary authority for this capture."
 editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation."
 ---

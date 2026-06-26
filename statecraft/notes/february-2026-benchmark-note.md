@@ -48,7 +48,7 @@ Use these existing surfaces as the benchmark spine:
 - [2026-02 month archive rollup](/C:/dev/strategy-codex/source-archive/statecraft/2026-02.md)
   Preserves the month’s real density, channel mix, and thread spread.
 
-- [wilkerson-february-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2026-note.md)
+- [wilkerson-february-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-february-2026-note.md)
   Keeps one important truth straight: February is a thin `bridge month` for Wilkerson specifically, not a broken month overall.
 
 - [freeman-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-shelf-2026-02.md)

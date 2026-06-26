@@ -84,7 +84,7 @@ Same-day Dialogue Works pair — two registers on **US–Israel–Iran war ~day 
 ## Same-day bench (not in this weave)
 
 - [Mercouris × Helmer × Marandi — Dimona / ground / talk-fiction wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
-- [Mercouris — Dimona / 4-division ground prep](../../source-archive/statecraft/2026-03-24/source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md)
+- [Mercouris — Dimona / 4-division ground prep](../../source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md)
 - [Pape — Gamblers conceit + Trump's words](../../source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md) · [Trump words don't predict war](../../source-archive/statecraft/2026-03-24/source-pape-trumps-words-dont-predict-war-his-2026-03-24.md)
 
 ## Cross-day return

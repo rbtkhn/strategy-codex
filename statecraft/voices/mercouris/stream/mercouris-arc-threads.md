@@ -8,7 +8,7 @@ Model note: this file is a **thread atlas**, not the arc itself. It names the re
 
 Boundary: Mercouris remains primarily stream-native. These arc-threads are operator synthesis over captured and indexed appearances. Open linked pages or raw-input before quoting or making claim-grade use.
 
-Compatibility note: [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md) remains as a legacy continuity surface from the older expert-thread machinery. It is not a second canonical thread atlas. For Mercouris, the orthogonality-bearing thread structure lives here.
+Compatibility note: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md) remains as a legacy continuity surface from the older expert-thread machinery. It is not a second canonical thread atlas. For Mercouris, the orthogonality-bearing thread structure lives here.
 
 ## Orthogonality guide
 
@@ -35,11 +35,11 @@ If a new Mercouris item can live equally well in several of these without changi
 - [January setup shelf](mercouris-shelf-2026-01.md)
 - [February bridge shelf](mercouris-shelf-2026-02.md)
 - [March dense-core shelf](mercouris-shelf-2026-03.md)
-- [Mercouris thread](../../../../codex/speakers/mercouris/stream/mercouris-thread.md)
+- [Mercouris thread](../../../../statecraft/voices/mercouris/stream/mercouris-thread.md)
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
 - [Diesen x Mercouris host-local arc](../../diesen/stream/diesen-mercouris-speaker-arc.md)
-- [Davis x Mercouris host-local arc](../../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md)
+- [Davis x Mercouris host-local arc](../../../../statecraft/hosts/davis/stream/davis-mercouris-speaker-arc.md)
 - [Mercouris source index](../mercouris-source-index.md)
 
 ## 1. Institutional Narrative Turns Signals Into Statecraft
@@ -173,7 +173,7 @@ Anchors:
 
 - 2023-01-14 - Diesen × Mercouris × Karaganov, Greater Eurasia / Global South non-alignment: [raw-input](../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md)
 - 2026-04-02 - Russia-China act as Trump Iran-war address fails: [raw-input](../../../../source-archive/statecraft/2026-04-02/source-alexander-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md)
-- 2026-04-15 - Russia warning / China tankers / Putin-Xi: [raw-input](../../../../source-archive/statecraft/2026-04-15/source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
+- 2026-04-15 - Russia warning / China tankers / Putin-Xi: [raw-input](../../../../source-archive/statecraft/2026-04-15/source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md)
 - 2026-04-24 - Russian MoD / Iran alliance / leadership split denial: [raw-input](../../../../source-archive/statecraft/2026-04-24/source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md)
 - 2026-05-15 - China warns U.S. over Taiwan / will not pressure Iran: [raw-input](../../../../source-archive/statecraft/2026-05-15/source-alexander-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
 

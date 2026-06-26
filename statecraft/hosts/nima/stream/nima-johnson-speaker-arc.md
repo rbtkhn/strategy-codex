@@ -89,7 +89,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what force can no longer realistically achieve, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
-- If the question is mainly about wider regional redraw and systemic consequence, route outward to [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md).
+- If the question is mainly about what force can no longer realistically achieve, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-johnson-speaker-arc.md).
+- If the question is mainly about wider regional redraw and systemic consequence, route outward to [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md).
 - Johnson is strongest here on live-pressure collapse tempo, not on neutral tactical verification.
 - The lane is real because the host-local shape repeats across a dense April-May 2026 run, not because every Johnson appearance under Dialogue Works is equally canonical.

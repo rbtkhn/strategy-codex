@@ -53,7 +53,7 @@ This means the lane should be read two ways:
 
 ### 2025 densification
 
-The 2025 Diesen shelf is now materially thicker than the original Wilkerson backfill showed. The earliest anchor is already visible in [2025-02-15 *Trump's Actions Could Ignite a Regional Conflict in the Middle East*](../../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md), which helps show that the Diesen-side Wilkerson lane was present early, not only after midyear. See [wilkerson-february-2025-note.md](../../../../codex/speakers/wilkerson/wilkerson-february-2025-note.md).
+The 2025 Diesen shelf is now materially thicker than the original Wilkerson backfill showed. The earliest anchor is already visible in [2025-02-15 *Trump's Actions Could Ignite a Regional Conflict in the Middle East*](../../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md), which helps show that the Diesen-side Wilkerson lane was present early, not only after midyear. See [wilkerson-february-2025-note.md](../../../../statecraft/voices/wilkerson/wilkerson-february-2025-note.md).
 
 In addition to the already-materialized `2025-02-15`, `2025-04-27`, `2025-06-16`, and `2025-07-30` files, the fuller 2025 continuation now includes:
 
@@ -111,7 +111,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about blockade impossibility, point-of-no-return language, or acute elite incompetence under live pressure rather than wider imperial consequence, route outward to [nima-wilkerson-speaker-arc.md](../../../../codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md).
+- If the question is mainly about blockade impossibility, point-of-no-return language, or acute elite incompetence under live pressure rather than wider imperial consequence, route outward to [nima-wilkerson-speaker-arc.md](../../../../statecraft/hosts/nima/stream/nima-wilkerson-speaker-arc.md).
 
 - Wilkerson is strongest here on imperial consequence, legitimacy collapse, and strategic self-harm, not on technical strike verification or exact fleet arithmetic.
 - The materialized shelf is real but still partial relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

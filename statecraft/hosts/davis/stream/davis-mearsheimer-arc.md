@@ -114,7 +114,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about self-entrapment, incoherent process, or foreign-war-to-domestic-crackdown sequencing rather than bargaining geometry and feasibility, route outward to [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md).
+- If the question is mainly about self-entrapment, incoherent process, or foreign-war-to-domestic-crackdown sequencing rather than bargaining geometry and feasibility, route outward to [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md).
 
 - Mearsheimer is strongest here on structure, incentives, and bargaining geometry, not on fine-grained tactical verification or technical military mechanics.
 - The 2026-04-30 file is the clearest mature anchor, but the deeper channel search shows that the 2026 run is under-materialized locally; absence from canonical raw-input should not be mistaken for absence from the stream.

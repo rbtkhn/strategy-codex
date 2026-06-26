@@ -128,7 +128,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 - [article-ritter-fifth-year-russia-smo-2026-05-03](../../../source-archive/statecraft/2026-05-03/source-ritter-fifth-year-russia-smo-2026-05-03.md)
 - [transcript-diesen-ritter-hormuz-return-to-war-2026-05-04](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
-- [youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
 - [transcript-davis-ritter-skirmish-persian-gulf-iran-2026-05-06](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
 - [transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06](../../../source-archive/statecraft/2026-05-06/source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md)
 - [youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10](../../../source-archive/statecraft/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)

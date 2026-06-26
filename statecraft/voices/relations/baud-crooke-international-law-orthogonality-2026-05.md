@@ -6,12 +6,12 @@ WORK only; not Record.
 
 Local cluster under review:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md)
-- [crooke-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread-international-law.md)
-- [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md)
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md)
-- [baud-helix.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-helix.md)
-- [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
+- [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
+- [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-thread-international-law.md)
+- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
+- [crooke-thread.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-thread.md)
+- [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
+- [crooke-helix.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-helix.md)
 
 Bounded claim:
 
@@ -23,18 +23,18 @@ Bounded claim:
 
 Arcs under review:
 
-- [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md)
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md)
+- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
+- [crooke-thread.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-thread.md)
 
 Threads under review:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md)
-- [crooke-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread-international-law.md)
+- [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
+- [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-thread-international-law.md)
 
 Comparison-only notes:
 
-- [baud-helix.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-helix.md)
-- [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
+- [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
+- [crooke-helix.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-helix.md)
 
 ## Arc audit
 

@@ -33,8 +33,8 @@ McGovern carries a distinct utility profile:
 
 McGovern should currently be read as a **double-helix speaker object**:
 
-- [Diesen x McGovern](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
-- [Alkorshid x McGovern](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
+- [Diesen x McGovern](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mcgovern-speaker-arc.md)
+- [Alkorshid x McGovern](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-mcgovern-speaker-arc.md)
 
 That means:
 
@@ -49,17 +49,17 @@ So the right current language is not merely cross-host reinforced. The Codex now
 
 The strongest currently visible tertiary host is `Judging Freedom`, with dense search-backed 2025-2026 main-channel results. Those results raise confidence that the object is wider than the two embodied branches, but they remain outside the embodied shelf in this pass.
 
-See [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mcgovern/mcgovern-cross-host-note.md).
+See [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/mcgovern/mcgovern-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current strategic branch:
 
-- open [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
+- open [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mcgovern-speaker-arc.md)
 
 If the operator needs the clearest current live-pressure branch:
 
-- open [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
+- open [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-mcgovern-speaker-arc.md)
 
 If the operator needs the strongest current Diesen anchor:
 
@@ -71,7 +71,7 @@ If the operator needs the strongest current Dialogue Works anchor:
 
 If the operator needs the object doctrine rather than a host branch:
 
-- stay here, then read [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mcgovern/mcgovern-cross-host-note.md)
+- stay here, then read [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/mcgovern/mcgovern-cross-host-note.md)
 
 ## Routing use
 

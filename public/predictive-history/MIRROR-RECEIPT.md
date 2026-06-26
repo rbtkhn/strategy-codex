@@ -2,8 +2,8 @@
 
 - **Upstream:** [https://github.com/rbtkhn/predictive-history.git](https://github.com/rbtkhn/predictive-history.git)
 - **Branch:** `main`
-- **Upstream commit:** `f81cf952ea40b204a909ee2fc578ca50e32b524f`
-- **Synced:** 2026-06-25T11:05:53Z
+- **Upstream commit:** `d49d9e96432e637187fc1a246742dd8322fdf599`
+- **Synced:** 2026-06-25T15:35:38Z
 - **Inbound sync:** `scripts/sync_predictive_history_mirror.py`
 - **Operator workspace:** `C:\dev\predictive-history` (`PREDICTIVE_HISTORY_ROOT`)
 

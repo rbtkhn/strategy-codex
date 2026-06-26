@@ -28,8 +28,8 @@ April 2026 is the strongest Crooke interview consequence month. It joins Hormuz 
 
 ## Host-local routes
 
-- [Diesen x Crooke](../../../../codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](../../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
+- [Diesen x Crooke](../../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../../statecraft/hosts/davis/stream/davis-crooke-speaker-arc.md)
 
 ## Boundary
 

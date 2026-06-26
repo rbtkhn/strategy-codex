@@ -34,13 +34,13 @@ Use **`source-archive/statecraft/YYYY-MM-DD/day-index.md`** for full day lists.
 
 | Guest | Capture |
 | --- | --- |
-| **Commodore Steve Jermy** | [Iran not buckling — Ford off Haifa; regime change without ground force](../../../source-archive/statecraft/2026-02-27/source-daniel-davis-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · same-day [Mercouris Iran/embassies](../../../source-archive/statecraft/2026-02-27/source-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md) |
+| **Commodore Steve Jermy** | [Iran not buckling — Ford off Haifa; regime change without ground force](../../../source-archive/statecraft/2026-02-27/source-daniel-davis-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · same-day [Mercouris Iran/embassies](../../../source-archive/statecraft/2026-02-27/source-alexander-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md) |
 
 ### 2026-01-30 — Jermy (Iran armada / Lincoln CSG)
 
 | Guest | Capture |
 | --- | --- |
-| **Commodore Steve Jermy** | [Trump's massive armada to Iran — what it can do](../../../source-archive/statecraft/2026-01-30/source-daniel-davis-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · [Jan-30 Jermy × Mercouris weave](../../notes/2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · same-day [Mercouris Iran/Kiev](../../../source-archive/statecraft/2026-01-30/source-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) |
+| **Commodore Steve Jermy** | [Trump's massive armada to Iran — what it can do](../../../source-archive/statecraft/2026-01-30/source-daniel-davis-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · [Jan-30 Jermy × Mercouris weave](../../notes/2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · same-day [Mercouris Iran/Kiev](../../../source-archive/statecraft/2026-01-30/source-alexander-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) |
 
 ### 2025-12-12 — Jermy (Venezuela / NSS week)
 

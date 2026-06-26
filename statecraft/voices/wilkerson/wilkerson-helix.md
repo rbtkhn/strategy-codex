@@ -19,12 +19,12 @@ The `Napolitano x Wilkerson` branch is real, but auxiliary reinforcement rather 
 
 If the operator needs the cleanest single introduction:
 
-- open [Diesen x Wilkerson](../../../codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- open [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
 
 If the operator needs the best comparative pair:
 
-- open [Diesen x Wilkerson](../../../codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- then [Dialogue Works x Wilkerson](../../../codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
+- open [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- then [Dialogue Works x Wilkerson](../../../statecraft/hosts/nima/stream/nima-wilkerson-speaker-arc.md)
 
 ## Routing use
 

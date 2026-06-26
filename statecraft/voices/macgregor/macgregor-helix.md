@@ -21,8 +21,8 @@ A real April 2026 `Napolitano x Macgregor` branch now exists on disk as a useful
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [Diesen x Macgregor](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md) | geopolitical altitude and imperial-distance consequence | NATO fracture, order consequence, logistics burden, and how Gulf and Europe become linked theaters of imperial exhaustion |
-| [Davis x Macgregor](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md) | force-feasibility and political danger | Project Freedom failure, Hormuz cost, inflation and logistics pain, and the domestic political danger of war rhetoric outrunning reality |
+| [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md) | geopolitical altitude and imperial-distance consequence | NATO fracture, order consequence, logistics burden, and how Gulf and Europe become linked theaters of imperial exhaustion |
+| [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md) | force-feasibility and political danger | Project Freedom failure, Hormuz cost, inflation and logistics pain, and the domestic political danger of war rhetoric outrunning reality |
 
 ## Orthogonality guide
 
@@ -37,12 +37,12 @@ Do not use `Diesen` as a shortcut for near-term force-feasibility diagnosis, or 
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [Davis x Macgregor](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
+- open [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
 
 If the operator needs the best pair:
 
-- open [Davis x Macgregor](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
-- then [Diesen x Macgregor](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
+- open [Davis x Macgregor](../../../statecraft/hosts/davis/stream/davis-macgregor-speaker-arc.md)
+- then [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
 
 That order works because Davis makes the immediate costs and political dangers cleaner, while Diesen widens the same voice into order consequence and imperial-distance framing.
 

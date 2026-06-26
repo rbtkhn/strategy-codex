@@ -18,19 +18,18 @@ This subtree is speaker-organized rather than lane-organized so the same speaker
 ## Canonical Rule
 
 - `statecraft/voices/` is the canonical home for speaker-state surfaces that belong to live statecraft work.
-- canonical migrated shelf paths take the form `statecraft/voices/<speaker>/`
+- canonical shelf paths take the form `statecraft/voices/<speaker>/` or, for migrated hosts, `statecraft/hosts/<host>/`
 - the long-run target is the whole live speaker corpus, not only a pilot subset
-- `codex/speakers/` remains compatibility residue, non-statecraft speaker storage, or upstream archive material during migration and after cutover
-- Do not silently duplicate authority. If a surface has been migrated here, the legacy `codex/speakers/` path should be a compatibility pointer only.
-- `statecraft/speakers/` is also compatibility-only after the namespace move; its front door should redirect here rather than carry parallel shelf authority.
+- **`codex/speakers/` is terminated** — see [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
+- Do not silently duplicate authority between voices and hosts; each slug has one canonical shelf root.
+- `statecraft/speakers/` is compatibility-only after the namespace move; its front door should redirect here rather than carry parallel shelf authority.
 
 Short constitutional split:
 
 - `source-archive/statecraft/` = **Statecraft Archive**, the canonical source-bearing layer
-- `statecraft/voices/` = **Statecraft Synthesis**, the canonical live speaker continuity layer above that archive
+- `statecraft/voices/` = **Statecraft Synthesis**, the canonical live analyst speaker continuity layer above that archive
+- `statecraft/hosts/` = canonical live host-family continuity (Davis, Napolitano, Nima / Dialogue Works)
 - `statecraft/speakers/` = namespace-redirect stub only, retained to keep old links legible during migration
-- `statecraft/hosts/` = canonical live host-family continuity for migrated hosts
-- `codex/speakers/` = compatibility, archive residue, or not-yet-migrated legacy storage
 
 Boundary law:
 

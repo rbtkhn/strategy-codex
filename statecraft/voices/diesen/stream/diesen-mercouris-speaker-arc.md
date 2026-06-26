@@ -13,9 +13,9 @@ This file should be read as the **Diesen-pressure branch** of Mercouris, not as 
 Quick separation rule:
 
 - `Diesen x Mercouris` = order-transition and legitimacy-crisis pressure on Mercouris's institutional read
-- [mercouris-arc.md](../../../../codex/speakers/mercouris/stream/mercouris-arc.md) = native bounded arc shape
-- [mercouris-arc-threads.md](../../../../codex/speakers/mercouris/stream/mercouris-arc-threads.md) = canonical recurring-strand atlas
-- [davis-mercouris-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md) = force-feasibility and restraint-policy branch
+- [mercouris-arc.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc.md) = native bounded arc shape
+- [mercouris-arc-threads.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc-threads.md) = canonical recurring-strand atlas
+- [davis-mercouris-speaker-arc.md](../../../../statecraft/hosts/davis/stream/davis-mercouris-speaker-arc.md) = force-feasibility and restraint-policy branch
 
 If a Mercouris item matters mainly because Diesen is asking what Europe's crisis means for order transition, sovereignty, and post-unipolar placement, it belongs here. If it matters mainly because Mercouris is extending one of his native recurring strands independent of host pressure, prefer the native arc or thread atlas.
 
@@ -68,9 +68,9 @@ If the operator needs the raw source:
 
 If the operator needs Mercouris as speaker object:
 
-- open [mercouris-speaker-object.md](../../../../codex/speakers/mercouris/mercouris-speaker-object.md)
-- open [mercouris-arc.md](../../../../codex/speakers/mercouris/stream/mercouris-arc.md)
-- open [mercouris-arc-threads.md](../../../../codex/speakers/mercouris/stream/mercouris-arc-threads.md)
+- open [mercouris-speaker-object.md](../../../../statecraft/voices/mercouris/mercouris-speaker-object.md)
+- open [mercouris-arc.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc.md)
+- open [mercouris-arc-threads.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc-threads.md)
 
 If the operator needs Diesen as host-native stream object:
 
@@ -96,9 +96,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- the native [mercouris-arc.md](../../../../codex/speakers/mercouris/stream/mercouris-arc.md), which carries the broader stream-native motion
-- [mercouris-arc-threads.md](../../../../codex/speakers/mercouris/stream/mercouris-arc-threads.md), which separates recurring Mercouris strands regardless of host
-- [davis-mercouris-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md), which is less about European legitimacy and more about execution, sustainability, and force reality
+- the native [mercouris-arc.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc.md), which carries the broader stream-native motion
+- [mercouris-arc-threads.md](../../../../statecraft/voices/mercouris/stream/mercouris-arc-threads.md), which separates recurring Mercouris strands regardless of host
+- [davis-mercouris-speaker-arc.md](../../../../statecraft/hosts/davis/stream/davis-mercouris-speaker-arc.md), which is less about European legitimacy and more about execution, sustainability, and force reality
 
 ## Boundaries
 

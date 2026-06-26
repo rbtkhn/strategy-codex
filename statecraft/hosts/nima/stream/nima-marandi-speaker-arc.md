@@ -72,11 +72,11 @@ Do not use this arc as a shortcut for operational-feasibility triage or wider or
 
 ## Best paired read
 
-Best paired read: [diesen-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
+Best paired read: [diesen-freeman-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-freeman-arc.md)
 
 Why: Freeman gives the steadier diplomatic-memory and order-interpretation lane; Marandi on Dialogue Works gives the sharper Tehran-facing red-line and legitimacy lane.
 
-Second-best paired read: [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
+Second-best paired read: [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
 
 Why: Ritter gives the more operational and coercive-mechanics lane on some of the same crisis terrain. Marandi on Dialogue Works gives the legitimacy, red-line, and political-endurance lane.
 
@@ -91,7 +91,7 @@ Use `Dialogue Works x Marandi` when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about what force can still accomplish or whether coercion has already failed, route outward to [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md).
+- If the question is mainly about what force can still accomplish or whether coercion has already failed, route outward to [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-marandi-speaker-arc.md).
 
 Do not use this speaker arc as:
 

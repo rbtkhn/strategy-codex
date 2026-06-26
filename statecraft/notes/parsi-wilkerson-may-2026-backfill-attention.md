@@ -82,7 +82,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
    Working title discovered in hunt: `Trump Is Checkmate in Iran`
    Status: `missing`
    Why it matters: if real and transcript-grade, this would directly break the current seven-anchor completeness claim and strengthen the auxiliary Napolitano branch inside the month.
-   Shelf consequence if landed: repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md), extend [legacy Wilkerson source index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-source-index.md), and revisit the month's host-balance reading.
+   Shelf consequence if landed: repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md), extend [legacy Wilkerson source index](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-source-index.md), and revisit the month's host-balance reading.
 
 2. `2026-05-21`
    Host/source family: `Judging Freedom / Napolitano`
@@ -134,7 +134,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 ### If Wilkerson lands any new May material
 
 - repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md)
-- repair [legacy Wilkerson source index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-source-index.md)
+- repair [legacy Wilkerson source index](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-source-index.md)
 - re-evaluate whether May's host-balance story still reads as `double helix plus one auxiliary branch` or whether the auxiliary branch has become denser inside that month than the current note admits
 
 ### If Wilkerson lands nothing new

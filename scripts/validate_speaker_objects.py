@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_SPEAKERS_DIR = REPO_ROOT / "codex" / "speakers"
+DEFAULT_SPEAKERS_DIR = REPO_ROOT / "statecraft" / "voices"
 
 ALLOWED_SHAPES = {
     "profile-only",
@@ -180,7 +180,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--speakers-dir",
         type=Path,
         default=DEFAULT_SPEAKERS_DIR,
-        help="Speaker shelf to validate (default: codex/speakers).",
+        help="Speaker shelf to validate (default: statecraft/voices).",
     )
     return parser.parse_args(argv)
 

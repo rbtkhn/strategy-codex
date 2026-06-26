@@ -21,4 +21,4 @@ Open Napolitano first when the dominant failure mode is:
 
 ## Compatibility Note
 
-Legacy chronology, stream books, and older guest arcs still exist under [codex/speakers/napolitano/](/C:/dev/strategy-codex/codex/speakers/napolitano/), but they are no longer the live authority for host-family routing.
+Legacy chronology, stream books, and older guest arcs still exist under [statecraft/hosts/napolitano/](/C:/dev/strategy-codex/statecraft/hosts/napolitano/), but they are no longer the live authority for host-family routing.

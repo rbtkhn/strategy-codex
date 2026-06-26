@@ -48,9 +48,9 @@ The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as
 - [2025-01-14 *Israel Shaken: Hypersonic Strike & IDF Ambushed as Ceasefire Nears*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
 - [2025-01-18 *Israel is in Total Disarray*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 
-That January cluster makes the lane's early job visible before the later-year thickening: Nima pushes from immediate escalation, Wilkerson answers with strategic failure, live pressure, and force-limit warning. See [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md).
+That January cluster makes the lane's early job visible before the later-year thickening: Nima pushes from immediate escalation, Wilkerson answers with strategic failure, live pressure, and force-limit warning. See [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-january-2025-note.md).
 
-February 2025 remains thinner on disk than January, but [2025-02-02 *Trump's Weakness Spells Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) now confirms that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
+February 2025 remains thinner on disk than January, but [2025-02-02 *Trump's Weakness Spells Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) now confirms that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-february-2025-note.md).
 
 Beyond that January proving cluster, the fuller 2025 lane now also includes:
 
@@ -79,11 +79,11 @@ Do not use this arc as a shortcut for BRICS / de-dollarization consequence or Na
 
 ## Best paired read
 
-Best paired read: [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
+Best paired read: [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
 
 Why: the same guest becomes legible through two different hosts. Diesen gives the steadier imperial-decline and order-consequence lane; Alkorshid gives the sharper live-pressure lane. Together they show that the Wilkerson voice is stable, but the host changes the contour.
 
-Second-best paired read: [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
+Second-best paired read: [nima-freeman-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-freeman-arc.md)
 
 Why: both runs live in the same host stream, but they split by register. Freeman gives diplomatic-memory and order-language; Wilkerson gives imperial exhaustion, military-statecraft warning, and strategic self-harm.
 
@@ -98,7 +98,7 @@ Use `Dialogue Works x Wilkerson` when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about imperial legitimacy collapse, BRICS consequence, or the wider order-level effects of decline rather than immediate crisis-warning pressure, route outward to [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md).
+- If the question is mainly about imperial legitimacy collapse, BRICS consequence, or the wider order-level effects of decline rather than immediate crisis-warning pressure, route outward to [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md).
 
 Do not use this speaker arc as:
 

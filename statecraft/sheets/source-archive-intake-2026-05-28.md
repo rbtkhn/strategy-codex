@@ -75,7 +75,7 @@ These lanes did not dominate the day's mood, but they stabilized the operational
 - [Davis x Baud](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-daniel-davis-baud-europe-provokes-war-russia-2026-05-28.md) reinforced the Europe / Russia war-causation side
 - [Dialogue Works x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md) preserved the harder military-escalation tone
 - [Dialogue Works x Krainer](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md) reinforced Gulf pressure and sequencing
-- [Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md) kept the Russia / Kiev side on a harsher consequence gradient
+- [Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-alexander-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md) kept the Russia / Kiev side on a harsher consequence gradient
 
 Short reading:
 

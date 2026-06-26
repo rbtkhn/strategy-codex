@@ -79,11 +79,11 @@ Open **2025-12-19** first when the notebook needs the Freeman-Parsi overlap arou
 
 ## Best paired read
 
-Best paired read: [diesen-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
+Best paired read: [diesen-freeman-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-freeman-arc.md)
 
 Why: the same guest becomes legible through two different hosts. Diesen gives the steadier order-and-statecraft lane; Alkorshid gives the more immediate pressure-tested lane. Together they show that the Freeman voice is stable, but the host changes the contour.
 
-Second-best paired read: [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
+Second-best paired read: [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-marandi-speaker-arc.md)
 
 Why: both runs live in the same host stream, but they split sharply by register. Freeman gives diplomatic-memory and order interpretation; Marandi gives red-line, legitimacy, and endurance language.
 
@@ -118,4 +118,4 @@ Do not use this speaker arc as:
 
 This arc is strongest as a **live-pressure diplomatic-memory form**: Alkorshid pushes the crisis forward, Freeman translates it into statecraft decline, alliance strain, and order-language.
 
-If the question is mainly about blockade legality, constitutional war skepticism, or anti-war legitimacy language, route outward to [napolitano-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md) rather than overloading this arc.
+If the question is mainly about blockade legality, constitutional war skepticism, or anti-war legitimacy language, route outward to [napolitano-freeman-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-freeman-arc.md) rather than overloading this arc.

@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the current recurring Baud lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Baud voice, and where to enter the helix without pretending a third canonical cognition-stream strand exists.
 
-Cross-year clarification: a real `Diesen x Baud` branch does exist, but as a **2025** lane rather than a 2026 canonical strand. See [baud-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-cross-year-note.md).
+Cross-year clarification: a real `Diesen x Baud` branch does exist, but as a **2025** lane rather than a 2026 canonical strand. See [baud-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-cross-year-note.md).
 
 ## Core claim
 
@@ -16,8 +16,8 @@ These arcs should be read together because they are not merely repeated appearan
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [davis x baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
-| [alkorshid x baud](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
+| [davis x baud](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-baud-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
+| [alkorshid x baud](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-baud-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
 
 ## Orthogonality guide
 
@@ -32,12 +32,12 @@ Do not use `Davis` as a shortcut for immediate crisis signaling, or `Alkhorshid`
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
+- open [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-baud-arc.md)
 
 If the operator needs the best pair:
 
-- open [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
-- then [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
+- open [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-baud-arc.md)
+- then [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-baud-arc.md)
 
 That order works because Dialogue Works gives the stronger serial lane and sharper present-tense stress, while Davis makes the legal-mandate and coercive-feasibility register cleaner.
 
@@ -57,4 +57,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - This note is not a generic Baud profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
 - The two strands are complementary, not redundant. Do not flatten them into one undifferentiated Baud shelf.
-- For Baud's recurring legal-taxonomic lane across hosts and months, route to [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md) rather than stuffing that work into the helix.
+- For Baud's recurring legal-taxonomic lane across hosts and months, route to [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md) rather than stuffing that work into the helix.

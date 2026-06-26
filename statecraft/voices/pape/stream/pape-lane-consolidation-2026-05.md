@@ -16,7 +16,7 @@ For Pape, the main value of consolidation is mechanism discipline. This lane is 
 This pass reflects the currently recovered Pape material in:
 
 - `codex/years/2026/provenance/`
-- `codex/speakers/pape/stream/`
+- `statecraft/voices/pape/stream/`
 
 with emphasis on the dense February-May 2026 war arc.
 

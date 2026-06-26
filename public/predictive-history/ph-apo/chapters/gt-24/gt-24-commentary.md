@@ -86,7 +86,7 @@ This packet is a source-first placeholder for `gt-24`. It helps a reader follow 
 
 - Verify transcript against public video; add `#anchor` rails before `l2_pinned` promotion.
 - Check named sources, quotations, statistics, and proper nouns.
-- Wire-verify optional for event-timed L3 rows (ph-apo ceiling: `l3_falsifiers` until receipts).
+- News-verify optional for event-timed L3 rows (ph-apo ceiling: `l3_falsifiers` until receipts).
 
 ---
 

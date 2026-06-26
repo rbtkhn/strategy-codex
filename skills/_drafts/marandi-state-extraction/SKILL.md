@@ -35,8 +35,8 @@ Goal: extract Marandi's value as an inside-Iran state-position voice without tre
 
 Open speaker and state surfaces first when available:
 
-- `codex/speakers/marandi/`
-- `codex/speakers/marandi/marandi-thread.md`
+- `statecraft/voices/marandi/`
+- `statecraft/voices/marandi/marandi-thread.md`
 - `codex/academy/statecraft/iran/README.md`
 - `codex/academy/statecraft/iran/state/README.md`
 - `codex/academy/statecraft/iran/state/objects/araghchi.md`

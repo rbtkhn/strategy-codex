@@ -56,17 +56,17 @@ The Ritter historical scaffold in this wave is intentionally narrow:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/ritter/` path is now front-door compatibility only.
+The legacy `statecraft/voices/ritter/` path is now front-door compatibility only.
 
-- [codex/speakers/ritter/README.md](../../../codex/speakers/ritter/README.md) and [index.md](../../../codex/speakers/ritter/index.md) are compatibility pointers.
+- [statecraft/voices/ritter/README.md](../../../statecraft/voices/ritter/README.md) and [index.md](../../../statecraft/voices/ritter/index.md) are compatibility pointers.
 - codex-side core files remain available for migration continuity, but this statecraft shelf is now the canonical opening path.
-- [ritter-thread.md](../../../codex/speakers/ritter/stream/ritter-thread.md) and [ritter-transcript.md](../../../codex/speakers/ritter/stream/ritter-transcript.md) remain compatibility residue, not competing canonical surfaces.
+- [ritter-thread.md](../../../statecraft/voices/ritter/stream/ritter-thread.md) and [ritter-transcript.md](../../../statecraft/voices/ritter/stream/ritter-transcript.md) remain compatibility residue, not competing canonical surfaces.
 
 ## Host Lanes
 
-- [Diesen x Ritter](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
 - [Davis host shelf](../../hosts/davis/README.md)
-- [Dialogue Works x Ritter](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../../statecraft/hosts/nima/stream/nima-ritter-speaker-arc.md)
 - [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary

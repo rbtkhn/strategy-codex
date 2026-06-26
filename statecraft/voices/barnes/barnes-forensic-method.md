@@ -31,7 +31,7 @@ This method is visible in the mature Davis anchor [2026-04-03 / Davis x Barnes](
 - executive overreach
 - future impeachment and prosecution risk
 
-It also appears in the stronger non-Davis reinforcement lane [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md), where strategic developments are reframed through White House instability, decision-path fracture, and institutional incapacity.
+It also appears in the stronger non-Davis reinforcement lane [2026-04-23 / Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md), where strategic developments are reframed through White House instability, decision-path fracture, and institutional incapacity.
 
 ## What makes the method portable
 

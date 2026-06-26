@@ -4,13 +4,13 @@ WORK only; not Record.
 
 Purpose: canonical thread atlas for the dense Crooke **interview** core from `2026-03` through `2026-05`.
 
-This file does **not** replace the authored mechanism spine in [crooke-forecast-ledger-2026.md](../../../../codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md). It exists so the interview strand can carry a Freeman/Johnson-style month-and-strand layer without collapsing Crooke's source-class discipline.
+This file does **not** replace the authored mechanism spine in [crooke-forecast-ledger-2026.md](../../../../statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md). It exists so the interview strand can carry a Freeman/Johnson-style month-and-strand layer without collapsing Crooke's source-class discipline.
 
 ## Canonical status
 
 - this is the canonical thread atlas for the Crooke **interview** dense core
 - the authored ledger remains the canonical Crooke mechanism spine in his own voice
-- [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md) remains legacy compatibility only
+- [crooke-thread.md](../../../../statecraft/voices/crooke/stream/crooke-thread.md) remains legacy compatibility only
 
 ## Dense-core boundary
 
@@ -94,7 +94,7 @@ Primary files:
 - [March 2026 interview cross-host arc](crooke-march-2026-interview-cross-host-arc.md)
 - [April 2026 interview cross-host arc](crooke-april-2026-interview-cross-host-arc.md)
 - [May 2026 interview cross-host arc](crooke-may-2026-interview-cross-host-arc.md)
-- [crooke-forecast-ledger-2026.md](../../../../codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
+- [crooke-forecast-ledger-2026.md](../../../../statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md)
 
 ## Boundary
 

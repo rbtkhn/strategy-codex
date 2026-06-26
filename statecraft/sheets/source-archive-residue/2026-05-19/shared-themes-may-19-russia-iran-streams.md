@@ -4,7 +4,7 @@ Purpose: compact seam note for the three May 19, 2026 stream captures below. Thi
 
 ## Corpus
 
-- [Alexander Mercouris — Russia Warns NATO Baltic War Test Nuclear Forces; Putin To China; Trump Iran Retreat; Konstantinovka](./source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
+- [Alexander Mercouris — Russia Warns NATO Baltic War Test Nuclear Forces; Putin To China; Trump Iran Retreat; Konstantinovka](./source-alexander-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
 - [Glenn Diesen × Scott Ritter — Europe Attacked Russia - Retaliation Is Now Unavoidable](./source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md)
 - [Daniel Davis — Iran Attack On Hold /Lt Col Daniel Davis](./source-daniel-davis-iran-attack-on-hold-2026-05-19.md)
 

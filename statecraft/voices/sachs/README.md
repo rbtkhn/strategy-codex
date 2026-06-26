@@ -38,9 +38,9 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/sachs/` path is now front-door compatibility only.
+The legacy `statecraft/voices/sachs/` path is now front-door compatibility only.
 
-- [codex/speakers/sachs/README.md](../../../codex/speakers/sachs/README.md) and [index.md](../../../codex/speakers/sachs/index.md) are compatibility pointers.
+- [statecraft/voices/sachs/README.md](../../../statecraft/voices/sachs/README.md) and [index.md](../../../statecraft/voices/sachs/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Sachs statecraft work.
 

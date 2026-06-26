@@ -142,7 +142,7 @@ From [week1](statecraft/notes/reentry/2026-06-week1-start-here.md) finalized uns
 
 **Decision trigger (Hormuz/MOU):** Commercial transit restores `D-HORM-01` **or** mutual written terms markets treat as binding — **without** J12-6 passing first, trap row may hold even on Hormuz reopen.
 
-**Routing score vs git receipt:** `validate_repo_routing.py --strict` passes locally while `codex/speakers/mercouris/mercouris-source-index.md` and `statecraft/data/month-routing-metadata.json` remain uncommitted.
+**Routing score vs git receipt:** `validate_repo_routing.py --strict` passes locally while `statecraft/voices/mercouris/mercouris-source-index.md` and `statecraft/data/month-routing-metadata.json` remain uncommitted.
 
 **Orchestration receipts (2026-06-12):** `fd7360d44` Jun 12 promote · `7eef4f229` sync repair · `4757a4618` coffee infra. `main` **ahead 3** — push when operator approves.
 

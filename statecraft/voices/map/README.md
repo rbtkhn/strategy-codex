@@ -4,7 +4,7 @@ WORK only; not Record.
 
 `speaker-map/` is the navigation and route-map layer over the canonical speaker memory shelf.
 
-It does not replace the parent [`codex/speakers/`](../). Speaker folders remain the durable accumulation layer for speaker objects, host-local arcs, helixes, cross-year notes, and routing notes. Speaker-map files should help agents decide what to open next, compare routes, and see cross-host reinforcement without moving interpretation out of the speaker folders.
+It does not replace the parent [`statecraft/voices/`](../). Speaker folders remain the durable accumulation layer for speaker objects, host-local arcs, helixes, cross-year notes, and routing notes. Speaker-map files should help agents decide what to open next, compare routes, and see cross-host reinforcement without moving interpretation out of the speaker folders.
 
 For the storage-side SSOT and the canonical raw-input-side version of the wiring rule, see [provenance/README.md](../../years/2026/provenance/README.md).
 

@@ -4,7 +4,7 @@ description: Post-intake transcript section curation for solo and interview sour
 preferred_activation: source-section
 activation: source-section
 portable: true
-version: 1.0.2
+version: 1.1.0
 category: truth-pipeline
 status: active
 scope_class: public-portable
@@ -25,6 +25,32 @@ outputs:
 **Scope:** Post-land **editorial structure** for long **solo** and **interview** transcript captures — not first-pass intake, not ASR tier cleanup, not synthesis.
 
 **Pipeline position:** **`source-intake`** (land flat verbatim) → optional **`source-clean`** → **`source-section`** (outline → approve → ship) → downstream study / synthesis.
+
+## Why section (operator value)
+
+Sectioning **does not** summarize, clean ASR, or verify wire hooks. It turns one long transcript into a **table of contents with named doors**:
+
+- **Jump, don't scroll** — skim ~6–14 headings, open the seam you need (~700–1,100 words) instead of linear search through 6k–12k words.
+- **Stable link targets** — synthesis, wire-verify receipts, and notebook weave can cite `### Topic — Subtopic` anchors.
+- **Lower cognitive load** — hold one movement at a time instead of the whole interview arc.
+
+Intake lands truth; sectioning organizes reading. Do not substitute synthesis for transcript body in the archive object.
+
+## Post-land nudge (mandatory agent behavior)
+
+After **`source-intake`** land (+ optional **`source-clean`**) on **`source_form: solo`** or **`source_form: interview`**, **say explicitly** (not only as a buried menu fork) when **any** of:
+
+| Trigger | Recommend |
+| --- | --- |
+| Transcript body is **flat** (no `###` headings under the body marker) and **≥ ~4,000 words** | **`source-section outline`** before daily synthesis |
+| Body has **bootstrap slug** headings (`Segment N — …`, `Show Open — Introduction` only) | **`source-section`** slug **retitle** to thematic Title Case |
+| **`check_statecraft_intake_daily_sync.py`** shows **DESYNC** and archive captures are unsectioned or slug-only | Section the archive batch **before** `state synthesis` |
+
+**One-line nudge template (adapt):**
+
+> Recommend **`source-section outline`** before synthesis — ~N thematic jump targets vs one monolith; expect roughly **~90% less scan** per random topic (uniform hop model).
+
+Do **not** auto-section on land — operator approves map on large captures. **Do** surface the payoff when triggers match.
 
 ## Use this skill when
 
@@ -63,18 +89,32 @@ outputs:
 
 Confirm `source_form` from frontmatter after land. If missing, infer from body (one dominant speaker vs turn-taking) and state the assumption.
 
+## Transcript body markers
+
+`detect_body_marker()` in `scripts/transcript_section_curation.py` (`BODY_MARKERS`) accepts:
+
+| Marker | Typical surface |
+| --- | --- |
+| `## Transcript\n` | Default statecraft solo/interview lands |
+| `## Part I: Full transcript\n` | Long-form provenance packets in sibling repos |
+| `## Cleaned Transcript\n` | Post-**`source-clean`** / ASR-normalized captures (e.g. Dialogue Works clean wrapper) |
+
+**Do not** rename `## Cleaned Transcript` → `## Transcript` before sectioning for tooling compatibility — detection handles both; **ship preserves** whichever marker was present (`write_sectioned_capture` rewrites using the detected marker).
+
+Pass `--body-marker` only when auto-detect is ambiguous.
+
 ## Outline phase (plan — required before ship)
 
 **Stop here** when activation is **`source-section outline`** or operator says **`outline only`** / **`plan map`**.
 
-1. **Confirm landed capture** — real transcript body under a standard marker (`## Transcript` or host-equivalent). Not a shell or excerpt-only stub.
+1. **Confirm landed capture** — real transcript body under a standard marker (`## Transcript`, `## Cleaned Transcript`, or `## Part I: Full transcript`). Not a shell or excerpt-only stub.
 2. **Read once** — bounded read of the flat body (after optional **`source-clean`** when ASR would block anchor choice).
 3. **Propose section map in chat** — numbered list (~6–14 rows). Each row:
    - **Title** — Title Case, `Topic — Subtopic` (becomes `### …` on ship)
    - **Anchor** — verbatim phrase expected in body (N−1 anchors for N sections; last section → EOF)
    - **Interview only** — optional speaker label if the anchor splits mid-turn (`Host`, `Guest`, or named labels matching the capture)
 4. **Operator gate** — wait for approve, revise, or reject. Do not call outline complete if anchors were not checked against the body.
-5. **Pin the map** — write or update `scripts/patch_<slug>_sections.py` (or equivalent) holding `SECTION_TITLES`, `SECTION_ANCHORS`, and interview `speaker_cleanup` tuples. Map must survive chat; chat-only maps are not durable.
+5. **Pin the map** — write or update `scripts/patch_<slug>_sections.py` **or** a day batch such as `scripts/patch_YYYY_MM_DD_day_sections.py` when the operator is curating a compose day. Each entry holds `titles`, `anchors`, and optional interview `speaker_cleanup` tuples. Map must survive chat; chat-only maps are not durable.
 
 **Outline deliverable (report even when stopping):**
 
@@ -97,6 +137,20 @@ Run only when the outline is approved or operator supplied a complete map up fro
 3. **Speaker repair (interview)** — prepend `**Speaker:**` at section opens when anchors split mid-turn; strip duplicate speaker lines before `###` headings.
 4. **Frontmatter receipt** — `transcript_curation: curated_sectioned` + dated note tail.
 5. **Verify** — section count, anchor uniqueness, no truncated final section, word count stable ± light ASR deltas only.
+6. **Navigation receipt** — report chunk stats and flag quality warnings (ship phase):
+
+```text
+navigation: sections=N  min=…w  med=…w  max=…w  chunk_cv=…%
+warnings: [section <100w | section >1500w | slug titles remain] | none
+```
+
+Optional CLI for a landed day batch:
+
+```bash
+python scripts/quantify_section_nav.py --day YYYY-MM-DD
+```
+
+**Chunk quality targets (editorial, not hard fail):** prefer sections **~400–1,200 words**; flag any **< 100 w** (micro-sliver) or **> ~1,500 w** (mega-hop). Even chunking may require re-section with new anchors — outline phase again; do not silent-ship uneven maps without naming warnings.
 
 **One-turn shortcut:** When operator passes a pre-approved map and says **ship**, skip re-proposing the outline but still name titles + anchor count in the receipt.
 
@@ -112,11 +166,12 @@ Run only when the outline is approved or operator supplied a complete map up fro
 | Mode | When | Action |
 | --- | --- | --- |
 | **Outline only** | `source-section outline` / `outline only` | Propose map + pin script; **no body edit** |
-| **Anchor insert** | Flat body, approved map | `insert_sections` + speaker fixes |
-| **Slug retitle** | Legacy lowercase slug headings already present | `apply_slug_to_title_headings` only |
-| **Re-section** | Operator explicitly requests new map | outline phase again; new anchors on flat export or manual unsection first |
+| **Anchor insert** | Flat body, approved map | `insert_sections` / `write_sectioned_capture` + speaker fixes |
+| **Slug retitle** | Body already has bootstrap `Segment N — …` or auto-slug headings under `###` | **`write_slug_retitle_capture`** — old heading → thematic Title Case pairs; **no body re-cut** |
+| **Thematic retitle** | Title Case headings present but topic labels wrong | Same as slug retitle with old→new title map |
+| **Re-section** | Operator explicitly requests new map or chunk quality failed | outline phase again; new anchors on flat export or manual unsection first |
 
-Default **reject** if body already starts with `### Title Case` unless operator says re-section.
+Default **reject** full re-section if body already has **thematic** Title Case `### Topic — Subtopic` unless operator says re-section. If headings are **bootstrap slugs**, default next step is **retitle**, not re-section from flat.
 
 ## Relationship to sibling skills
 
@@ -138,7 +193,7 @@ Default **reject** if body already starts with `### Title Case` unless operator 
 
 **Outline-only:** report capture path, `source_form`, numbered titles + anchors, pin path, `body mutated: no`. Word-count and frontmatter receipt fields are **N/A**.
 
-**Ship:** additionally report speaker-fix scope, word count before/after, `transcript_curation` receipt, git durability.
+**Ship:** additionally report speaker-fix scope, word count before/after, `transcript_curation` receipt, **navigation receipt** (min/med/max section words, warnings), git durability.
 
 Report:
 
@@ -148,6 +203,7 @@ Report:
 - anchors used (count matches N−1)
 - speaker-fix passes applied (interview) or skipped (solo) — ship only
 - word count before/after (substance must not shrink) — ship only
+- **navigation receipt** — section word min / median / max; chunk CV; quality warnings — ship only
 - frontmatter receipt field updated — ship only
 - git durability: on disk / not committed / not pushed unless EXECUTE lane
 

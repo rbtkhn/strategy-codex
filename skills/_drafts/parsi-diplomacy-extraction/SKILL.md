@@ -36,10 +36,10 @@ Goal: extract Parsi's value as a diplomacy and settlement-architecture voice wit
 
 Open speaker and authored surfaces first:
 
-- `codex/speakers/parsi/README.md`
-- `codex/speakers/parsi/parsi-speaker-object.md`
-- `codex/speakers/parsi/parsi-helix.md`
-- `codex/speakers/parsi/parsi-interview-appearances-2025-2026.md`
+- `statecraft/voices/parsi/README.md`
+- `statecraft/voices/parsi/parsi-speaker-object.md`
+- `statecraft/voices/parsi/parsi-helix.md`
+- `statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md`
 - `codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md`
 - `codex/years/2026/parsi/parsi-lane-consolidation-2026-05.md`
 

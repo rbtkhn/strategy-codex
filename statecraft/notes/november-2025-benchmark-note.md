@@ -48,7 +48,7 @@ Use these existing surfaces as the benchmark spine:
 - [2025-11 month archive rollup](/C:/dev/strategy-codex/source-archive/statecraft/2025-11.md)
   Preserves the month's real density, host spread, and multi-lane late-2025 footprint.
 
-- [wilkerson-november-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-november-2025-note.md)
+- [wilkerson-november-2025-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-november-2025-note.md)
   Shows November as an honest compact Wilkerson month rather than a weak bridge between October and December.
 
 - [freeman-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-support-spine-2025-2026.md)

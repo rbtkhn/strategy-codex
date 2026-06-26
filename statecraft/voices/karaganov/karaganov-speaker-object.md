@@ -24,7 +24,7 @@ Karaganov should currently be read as a **single-helix speaker object with one m
 
 The direct branch is:
 
-- [Diesen x Karaganov](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md)
+- [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-karaganov-speaker-arc.md)
 
 The strongest direct raw-inputs are:
 
@@ -42,7 +42,7 @@ That Ritter text is not a Karaganov-authored or Karaganov-hosted source. Use it 
 
 If the operator needs Karaganov's live doctrine:
 
-- open [Diesen x Karaganov](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md)
+- open [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-karaganov-speaker-arc.md)
 
 If the operator needs one direct source:
 
@@ -67,11 +67,11 @@ Use this speaker object when the Codex needs to:
 
 Typical neighboring lanes:
 
-- [Diesen](/C:/dev/strategy-codex/codex/speakers/diesen/)
-- [Crooke](/C:/dev/strategy-codex/codex/speakers/crooke/)
-- [Ritter](/C:/dev/strategy-codex/codex/speakers/ritter/)
-- [Mearsheimer](/C:/dev/strategy-codex/codex/speakers/mearsheimer/)
-- [Mercouris](/C:/dev/strategy-codex/codex/speakers/mercouris/)
+- [Diesen](/C:/dev/strategy-codex/statecraft/voices/diesen/)
+- [Crooke](/C:/dev/strategy-codex/statecraft/voices/crooke/)
+- [Ritter](/C:/dev/strategy-codex/statecraft/voices/ritter/)
+- [Mearsheimer](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/)
+- [Mercouris](/C:/dev/strategy-codex/statecraft/voices/mercouris/)
 
 ## Boundaries
 

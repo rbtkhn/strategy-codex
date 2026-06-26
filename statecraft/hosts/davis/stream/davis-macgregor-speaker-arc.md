@@ -164,7 +164,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about undeclared-war normality or anti-aggression indictment rather than force-feasibility and overreach, route outward to [napolitano-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md).
+- If the question is mainly about undeclared-war normality or anti-aggression indictment rather than force-feasibility and overreach, route outward to [napolitano-macgregor-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/stream/napolitano-macgregor-speaker-arc.md).
 
 - Macgregor is strongest here on overreach, force limits, and political-danger severity, not on neutral documentary verification.
 - The shelf on disk is already real, but still partial relative to the very dense fresh live run.

@@ -8,7 +8,7 @@ Purpose: define Chas Freeman as a first-class speaker object while keeping chron
 
 ## Object shape
 
-Freeman should currently be read as a **person-arc-first speaker object**: [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md) holds the canonical speaker continuity, [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
+Freeman should currently be read as a **person-arc-first speaker object**: [freeman-arc.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-arc.md) holds the canonical speaker continuity, [freeman-helix.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
 
 ## Core claim
 
@@ -22,9 +22,9 @@ He should be read primarily as a **person-arc-first** object:
 - host-local arcs hold chronology and pressure context
 - the raw-input shelf holds transcript evidence
 
-This note is a routing-oriented object statement. It does not replace [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md), [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md), or [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md).
+This note is a routing-oriented object statement. It does not replace [freeman-arc.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-arc.md), [freeman-routing.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-routing.md), or [freeman-helix.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-helix.md).
 
-For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md) and [Freeman source index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
+For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/statecraft/voices/freeman/index.md) and [Freeman source index](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-source-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
 
 ## Why Freeman matters
 
@@ -46,25 +46,25 @@ Additional non-core Freeman surfaces are already wired at the year level. The ke
 
 For routing:
 
-- [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md)
+- [freeman-routing.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-routing.md)
 
 For whole-speaker continuity:
 
-- [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md)
+- [freeman-arc.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-arc.md)
 
 For object shape:
 
-- [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md)
+- [freeman-helix.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-helix.md)
 
 For legacy continuity carryover only:
 
-- [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md)
+- [freeman-thread.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-thread.md)
 
 For cross-host discovery and reinforcement beyond the four main host lanes:
 
-- [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
-- [Freeman source index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md)
-- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
+- [2026 Freeman index](/C:/dev/strategy-codex/statecraft/voices/freeman/index.md)
+- [Freeman source index](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-source-index.md)
+- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 
 ## Boundaries
 

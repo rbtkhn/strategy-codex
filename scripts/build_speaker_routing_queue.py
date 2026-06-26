@@ -29,7 +29,9 @@ from yaml_compat import safe_load_text  # noqa: E402
 
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
-DEFAULT_SPEAKERS_DIR = REPO_ROOT / "codex" / "speakers"
+DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
+DEFAULT_HOSTS_DIR = REPO_ROOT / "statecraft" / "hosts"
+DEFAULT_SPEAKERS_DIR = DEFAULT_VOICES_DIR
 DEFAULT_OUT_DIR = ARTIFACTS_DIR / "speaker-routing"
 EVIDENCE_GRADES = {
     "transcript-grade",
@@ -117,7 +119,7 @@ def _rel(path: Path) -> str:
                 if branch == "raw-input":
                     return "source-archive/statecraft" if not tail else f"source-archive/statecraft/{tail}"
                 if branch == "speakers":
-                    return "codex/speakers" if not tail else f"codex/speakers/{tail}"
+                    return "statecraft/voices" if not tail else f"statecraft/voices/{tail}"
                 remainder = "/".join(parts[idx + 2 :])
                 return f"codex/years/2026/{remainder}"
         return rel
@@ -196,8 +198,14 @@ def window_for_raw_paths(paths: list[Path]) -> tuple[date, date]:
 def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInventory:
     speaker_folders: dict[str, Path] = {}
     speaker_objects: dict[str, Path] = {}
-    if speakers_dir.exists():
-        for folder in sorted(path for path in speakers_dir.iterdir() if path.is_dir()):
+    roots: list[Path] = []
+    for candidate in (speakers_dir, DEFAULT_HOSTS_DIR):
+        if candidate.exists() and candidate not in roots:
+            roots.append(candidate)
+    for root in roots:
+        for folder in sorted(path for path in root.iterdir() if path.is_dir()):
+            if folder.name.startswith("_") or folder.name in {"relations", "map"}:
+                continue
             speaker_folders[folder.name] = folder
             obj = folder / f"{folder.name}-speaker-object.md"
             if obj.exists():

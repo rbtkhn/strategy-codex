@@ -548,7 +548,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 ## 2026-05-06
 
 - [transcript-davis-ritter-skirmish-persian-gulf-iran-2026-05-06](../../years/2026/provenance/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
-- [youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06](../../years/2026/provenance/2026-05-06/source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06](../../years/2026/provenance/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
 
 ## 2026-05-07
 

@@ -10,9 +10,9 @@ span_start: 2025-11-06
 span_end: 2025-11-14
 nodes:
   - source-archive/statecraft/2025-11-06/source-daniel-davis-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md
-  - source-archive/statecraft/2025-11-10/source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md
-  - source-archive/statecraft/2025-11-11/source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md
-  - source-archive/statecraft/2025-11-14/source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md
+  - source-archive/statecraft/2025-11-10/source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md
+  - source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md
+  - source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md
 ```
 
 **Reconciled:** 2026-06-22 · **Renamed from** `2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md` per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
@@ -23,9 +23,9 @@ nodes:
 **Sources:**
 
 - [Davis × Jermy — Russia true war objectives revealed](../../source-archive/statecraft/2025-11-06/source-daniel-davis-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md) — https://www.youtube.com/watch?v=H086Spnczmc — **full transcript** (ingest 2026-06-22)
-- [Mercouris solo — Kiev faces worst defeat; Pokrovsk surrender; Zaporozhye/Kharkov](../../source-archive/statecraft/2025-11-10/source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md) — **inflection opener**
-- [Mercouris solo — Kiev defeat worsens; Syrsky admits Pokrovsk crisis](../../source-archive/statecraft/2025-11-11/source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md)
-- [Mercouris solo — Kiev's darkest day; Zelensky begs missiles; gives up Pokrovsk](../../source-archive/statecraft/2025-11-14/source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md) — **tactical confirmation week**
+- [Mercouris solo — Kiev faces worst defeat; Pokrovsk surrender; Zaporozhye/Kharkov](../../source-archive/statecraft/2025-11-10/source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md) — **inflection opener**
+- [Mercouris solo — Kiev defeat worsens; Syrsky admits Pokrovsk crisis](../../source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md)
+- [Mercouris solo — Kiev's darkest day; Zelensky begs missiles; gives up Pokrovsk](../../source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md) — **tactical confirmation week**
 
 ## Purpose
 

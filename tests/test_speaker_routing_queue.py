@@ -73,7 +73,7 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-object"
-    assert row["recommended_route"].endswith("speakers/ritter/ritter-speaker-object.md")
+    assert row["recommended_route"].endswith("statecraft/voices/ritter/ritter-speaker-object.md")
     assert row["primary_route"] == row["recommended_route"]
     assert row["next_action"] == "create-candidate-arc"
     assert row["also_strengthens"][0].endswith("codex/years/2026/nima/nima-ritter-speaker-arc.md")
@@ -118,8 +118,8 @@ def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -
     assert _endswith_all(
         row["also_strengthens"],
         [
-            "codex/speakers/macgregor/macgregor-speaker-object.md",
-            "codex/speakers/macgregor/macgregor-cross-host-note.md",
+            "statecraft/voices/macgregor/macgregor-speaker-object.md",
+            "statecraft/voices/macgregor/macgregor-cross-host-note.md",
         ],
     )
 
@@ -162,7 +162,7 @@ def test_existing_speaker_folder_without_object_routes_to_candidate_object(tmp_p
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "candidate-speaker-object"
-    assert row["recommended_route"].endswith("speakers/freeman/freeman-speaker-object.md")
+    assert row["recommended_route"].endswith("statecraft/voices/freeman/freeman-speaker-object.md")
     assert row["primary_route"] == row["recommended_route"]
     assert row["also_strengthens"] == []
     assert row["next_action"] == "create-candidate-object"

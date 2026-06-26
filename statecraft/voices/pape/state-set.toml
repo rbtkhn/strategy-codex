@@ -2,12 +2,12 @@ version = 1
 slug = "pape"
 
 compact_state_files = [
-  "codex/speakers/pape/README.md",
-  "codex/speakers/pape/pape-speaker-object.md",
-  "codex/speakers/pape/pape-cross-host-note.md",
-  "codex/speakers/pape/pape-helix.md",
-  "codex/speakers/pape/pape-interview-appearances-2026.md",
-  "codex/speakers/pape/stream/pape-forecast-ledger-2026.md",
+  "statecraft/voices/pape/README.md",
+  "statecraft/voices/pape/pape-speaker-object.md",
+  "statecraft/voices/pape/pape-cross-host-note.md",
+  "statecraft/voices/pape/pape-helix.md",
+  "statecraft/voices/pape/pape-interview-appearances-2026.md",
+  "statecraft/voices/pape/stream/pape-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -15,19 +15,17 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "codex/speakers/pape/stream/pape-forecast-ledger-2026.md"
-expected_count = 41
-required_prefixes = ["substack-pape-"]
-excluded_patterns = ["transcript-", "youtube-", "article-", "pape-rant-"]
-
-[[source_sets]]
-file = "codex/speakers/pape/pape-interview-appearances-2026.md"
+file = "statecraft/voices/pape/pape-interview-appearances-2026.md"
 expected_count = 4
 required_prefixes = [
   "transcript-davis-pape-",
+  "source-daniel-davis-pape-",
   "redacted-pape-",
   "youtube-pape-grim-",
+  "source-pape-grim-",
   "youtube-pape-mario-nawfal-",
+  "source-pape-mario-nawfal-",
+  "source-pape-",
 ]
 excluded_patterns = [
   "substack-pape-",

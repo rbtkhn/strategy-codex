@@ -41,14 +41,14 @@ Mercouris is a stream-native depth speaker whose main credibility asset is not m
 ## Best proving anchors
 
 1. [mercouris-speaker-object.md](../../speakers/mercouris/mercouris-speaker-object.md)
-2. [2026-01-24 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-24/source-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md)
-3. [2025-08-16 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-16/source-alex-mercouris-putin-forcefully-restates-moscows-ukraine-terms-alaska-summit-ends-no-ceasefire-neocons-eu-rage-2025-08-16.md)
-4. [2026-03-21 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-21/source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md)
+2. [2026-01-24 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-24/source-alexander-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md)
+3. [2025-08-16 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-16/source-alexander-mercouris-putin-forcefully-restates-moscows-ukraine-terms-alaska-summit-ends-no-ceasefire-neocons-eu-rage-2025-08-16.md)
+4. [2026-03-21 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-21/source-alexander-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md)
 
 ## Disconfirming or stress-test anchors
 
-1. [2026-01-11 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-11/source-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md)
-2. [2026-01-19 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-19/source-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md)
+1. [2026-01-11 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-11/source-alexander-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md)
+2. [2026-01-19 Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-19/source-alexander-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md)
 
 ## Native adjustment notes
 

@@ -44,7 +44,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
 | davis-host-shelf | routing_aid | work | [statecraft/hosts/davis/README.md](statecraft/hosts/davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
-| alkorshid-source-index | source_index | work | [statecraft/voices/alkorshid/alkorshid-source-index.md](statecraft/voices/alkorshid/alkorshid-source-index.md) | Alkorshid index, Nima appearances, Dialogue Works index |
+| dialogue-works-index | source_index | work | [statecraft/hosts/nima/dialogue-works-index.md](statecraft/hosts/nima/dialogue-works-index.md) | Dialogue Works index, dialogue-works-index, source-dialogue-works, … |
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index |
@@ -94,9 +94,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | speaker | path | repo-map id |
 |---|---|---|
 | barnes | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | barnes-source-index |
+| blumenthal | [statecraft/voices/blumenthal/blumenthal-source-index.md](statecraft/voices/blumenthal/blumenthal-source-index.md) | — |
 | crooke | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | crooke-source-index |
 | diesen | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | diesen-source-index |
-| alkorshid | [statecraft/voices/alkorshid/alkorshid-source-index.md](statecraft/voices/alkorshid/alkorshid-source-index.md) | alkorshid-source-index |
 | freeman | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | freeman-source-index |
 | helmer | [statecraft/voices/helmer/helmer-source-index.md](statecraft/voices/helmer/helmer-source-index.md) | helmer-source-index |
 | hoh | [statecraft/voices/hoh/hoh-source-index.md](statecraft/voices/hoh/hoh-source-index.md) | hoh-source-index |
@@ -110,6 +110,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | macgregor | [statecraft/voices/macgregor/macgregor-source-index.md](statecraft/voices/macgregor/macgregor-source-index.md) | macgregor-source-index |
 | marandi | [statecraft/voices/marandi/marandi-source-index.md](statecraft/voices/marandi/marandi-source-index.md) | marandi-source-index |
 | martyanov | [statecraft/voices/martyanov/martyanov-source-index.md](statecraft/voices/martyanov/martyanov-source-index.md) | martyanov-source-index |
+| mate | [statecraft/voices/mate/mate-source-index.md](statecraft/voices/mate/mate-source-index.md) | — |
 | mcgovern | [statecraft/voices/mcgovern/mcgovern-source-index.md](statecraft/voices/mcgovern/mcgovern-source-index.md) | mcgovern-source-index |
 | mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | mearsheimer-source-index |
 | mercouris | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | mercouris-source-index |
@@ -126,20 +127,21 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | host | path | repo-map id |
 |---|---|---|
 | davis | [statecraft/hosts/davis/README.md](statecraft/hosts/davis/README.md) | davis-host-shelf |
+| moral-resistance | [statecraft/hosts/moral-resistance/README.md](statecraft/hosts/moral-resistance/README.md) | — |
 | napolitano | [statecraft/hosts/napolitano/README.md](statecraft/hosts/napolitano/README.md) | napolitano-host-shelf |
 | neutrality-studies | [statecraft/hosts/neutrality-studies/README.md](statecraft/hosts/neutrality-studies/README.md) | — |
 | nima | [statecraft/hosts/nima/README.md](statecraft/hosts/nima/README.md) | nima-host-shelf |
 
 ## Repo routing metrics
 
-- source indexes (disk): 26
-- host shelves (disk): 4
-- markdown links (INDEX + source-index files): 1068
-- repo-map routes: 49 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=6, source_capture=1, source_index=24, work_continuity=1)
-- source_index routes in repo-map: 24
+- source indexes (disk): 28
+- host shelves (disk): 5
+- markdown links (INDEX + source-index files): 1095
+- repo-map routes: 50 (directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, museum_reference=1, prose_shelf=1, reading_discipline=2, routing_aid=6, source_capture=1, source_index=25, work_continuity=1)
+- source_index routes in repo-map: 25
 - host_shelf routes in repo-map: 3
-- registry: INDEX lists 26/26, repo-map lists 24/26 (92.3% bijection when both match)
-- host shelves: repo-map lists 3/4 (75.0%)
+- registry: INDEX lists 27/28, repo-map lists 24/28 (85.7% bijection when both match)
+- host shelves: repo-map lists 3/5 (60.0%)
 - absolute path violations (INDEX + source-index): 0
 - broken links (--strict resolution): 0
 - required surfaces present: True
@@ -158,7 +160,8 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
 | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
-| [codex/speakers/](codex/speakers/) | Legacy speaker storage during migration | Compatibility |
+| [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
+| [statecraft/hosts/](statecraft/hosts/) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |

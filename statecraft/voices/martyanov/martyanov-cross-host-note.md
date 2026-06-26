@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Martyanov Cross-Host Note
 
-This legacy `codex/speakers/martyanov/martyanov-cross-host-note.md` file is now a compatibility pointer.
+This legacy `statecraft/voices/martyanov/martyanov-cross-host-note.md` file is now a compatibility pointer.
 
 Canonical live cross-host continuity for Martyanov now lives in:
 

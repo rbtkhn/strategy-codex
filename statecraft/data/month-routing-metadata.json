@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T14:15:31+00:00",
+  "generated_at": "2026-06-26T13:54:28+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -67,7 +67,7 @@
       "captured_days": 31,
       "source_count": 137,
       "thread_count": 21,
-      "channel_or_show_count": 7,
+      "channel_or_show_count": 6,
       "host_count": 6,
       "guest_count": 90,
       "guest_label_variants": [
@@ -96,7 +96,7 @@
       "captured_days": 18,
       "source_count": 35,
       "thread_count": 20,
-      "channel_or_show_count": 11,
+      "channel_or_show_count": 10,
       "host_count": 10,
       "guest_count": 12,
       "guest_label_variants": [
@@ -233,7 +233,7 @@
       "captured_days": 22,
       "source_count": 43,
       "thread_count": 24,
-      "channel_or_show_count": 13,
+      "channel_or_show_count": 12,
       "host_count": 11,
       "guest_count": 15,
       "guest_label_variants": [
@@ -264,7 +264,7 @@
       "captured_days": 16,
       "source_count": 27,
       "thread_count": 17,
-      "channel_or_show_count": 8,
+      "channel_or_show_count": 7,
       "host_count": 6,
       "guest_count": 14,
       "guest_label_variants": [
@@ -312,7 +312,7 @@
       "captured_days": 23,
       "source_count": 42,
       "thread_count": 19,
-      "channel_or_show_count": 7,
+      "channel_or_show_count": 6,
       "host_count": 6,
       "guest_count": 15,
       "guest_label_variants": [
@@ -341,7 +341,7 @@
       "captured_days": 23,
       "source_count": 46,
       "thread_count": 19,
-      "channel_or_show_count": 8,
+      "channel_or_show_count": 7,
       "host_count": 7,
       "guest_count": 13,
       "guest_label_variants": [],
@@ -359,7 +359,7 @@
       "captured_days": 25,
       "source_count": 57,
       "thread_count": 22,
-      "channel_or_show_count": 10,
+      "channel_or_show_count": 9,
       "host_count": 7,
       "guest_count": 18,
       "guest_label_variants": [
@@ -404,7 +404,7 @@
       "captured_days": 25,
       "source_count": 59,
       "thread_count": 21,
-      "channel_or_show_count": 9,
+      "channel_or_show_count": 8,
       "host_count": 7,
       "guest_count": 17,
       "guest_label_variants": [
@@ -448,7 +448,7 @@
       "captured_days": 29,
       "source_count": 80,
       "thread_count": 24,
-      "channel_or_show_count": 11,
+      "channel_or_show_count": 10,
       "host_count": 8,
       "guest_count": 22,
       "guest_label_variants": [
@@ -490,9 +490,9 @@
     },
     "2026-01": {
       "captured_days": 31,
-      "source_count": 110,
+      "source_count": 106,
       "thread_count": 24,
-      "channel_or_show_count": 15,
+      "channel_or_show_count": 14,
       "host_count": 9,
       "guest_count": 20,
       "guest_label_variants": [
@@ -501,7 +501,7 @@
           "labels": [
             {
               "label": "Larry C. Johnson",
-              "count": 2
+              "count": 1
             },
             {
               "label": "Larry Johnson",
@@ -521,11 +521,11 @@
     },
     "2026-02": {
       "captured_days": 28,
-      "source_count": 101,
+      "source_count": 100,
       "thread_count": 28,
-      "channel_or_show_count": 15,
+      "channel_or_show_count": 14,
       "host_count": 11,
-      "guest_count": 25,
+      "guest_count": 24,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -552,9 +552,9 @@
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 209,
+      "source_count": 208,
       "thread_count": 32,
-      "channel_or_show_count": 20,
+      "channel_or_show_count": 19,
       "host_count": 11,
       "guest_count": 44,
       "guest_label_variants": [
@@ -666,7 +666,7 @@
     },
     "2026-04": {
       "captured_days": 30,
-      "source_count": 203,
+      "source_count": 198,
       "thread_count": 35,
       "channel_or_show_count": 28,
       "host_count": 24,
@@ -742,7 +742,7 @@
       "existing_month_surfaces": [
         "statecraft/notes/wilkerson-april-2026-contradiction-audit.md",
         "statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md",
-        "codex/speakers/wilkerson/wilkerson-april-2026-note.md"
+        "statecraft/voices/wilkerson/wilkerson-april-2026-note.md"
       ],
       "is_dense_month": true,
       "has_finite_queue": false,
@@ -751,7 +751,7 @@
     },
     "2026-05": {
       "captured_days": 31,
-      "source_count": 244,
+      "source_count": 243,
       "thread_count": 44,
       "channel_or_show_count": 26,
       "host_count": 22,
@@ -843,10 +843,10 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 24,
-      "source_count": 269,
+      "captured_days": 25,
+      "source_count": 276,
       "thread_count": 49,
-      "channel_or_show_count": 24,
+      "channel_or_show_count": 23,
       "host_count": 24,
       "guest_count": 41,
       "guest_label_variants": [
@@ -881,7 +881,7 @@
           "labels": [
             {
               "label": "Larry Johnson",
-              "count": 25
+              "count": 26
             },
             {
               "label": "Larry C. Johnson",
@@ -902,7 +902,7 @@
             },
             {
               "label": "Seyed Mohammad Marandi",
-              "count": 1
+              "count": 2
             }
           ]
         },

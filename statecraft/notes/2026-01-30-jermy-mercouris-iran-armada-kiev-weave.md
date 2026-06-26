@@ -8,7 +8,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Davis × Jermy — Trump's massive armada to Iran; what Lincoln CSG can do](../../source-archive/statecraft/2026-01-30/source-daniel-davis-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md) — https://www.youtube.com/watch?v=UvXvmyfdLqo — **cleaned full transcript** (ingest 2026-06-22; CSG slide ASR tier 2)
-- [Mercouris solo — Moscow rejects US Kiev security guarantees; energy truce ends Sunday; Zelensky baffled; Iran](../../source-archive/statecraft/2026-01-30/source-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) — https://www.youtube.com/watch?v=cwnnzrYzGvg — **full transcript** (`in-review`; not yet cleaned)
+- [Mercouris solo — Moscow rejects US Kiev security guarantees; energy truce ends Sunday; Zelensky baffled; Iran](../../source-archive/statecraft/2026-01-30/source-alexander-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) — https://www.youtube.com/watch?v=cwnnzrYzGvg — **full transcript** (`in-review`; not yet cleaned)
 
 ## Purpose
 

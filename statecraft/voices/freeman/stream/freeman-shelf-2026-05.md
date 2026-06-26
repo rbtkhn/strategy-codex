@@ -9,4 +9,4 @@ May extends the Freeman object through post-Hormuz and post-defeat sequencing wi
 Open with:
 
 - [Freeman support spine](../freeman-support-spine-2025-2026.md)
-- [Legacy May cross-host arc](../../../../codex/speakers/freeman/stream/freeman-may-2026-cross-host-arc.md)
+- [Legacy May cross-host arc](../../../../statecraft/voices/freeman/stream/freeman-may-2026-cross-host-arc.md)

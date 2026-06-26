@@ -90,7 +90,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about acute crisis pressure or systems-collapse language rather than feasibility correction, route outward to [nima-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-martyanov-speaker-arc.md).
+- If the question is mainly about acute crisis pressure or systems-collapse language rather than feasibility correction, route outward to [nima-martyanov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/nima/stream/nima-martyanov-speaker-arc.md).
 
 - Martyanov is strongest here on force balance, attrition, and military feasibility, not on domestic-process or diplomatic-legitimacy questions.
 - The branch is now materially real on disk, but its current shelf is still thinner than the Alkorshid branch.

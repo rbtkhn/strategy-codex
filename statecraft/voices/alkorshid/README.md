@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-Whole-appearance index (Diesen parity): [alkorshid-source-index.md](alkorshid-source-index.md)
+Channel index: [dialogue-works-index.md](../../hosts/nima/dialogue-works-index.md)
 
 Host-law (Dialogue Works only): [../hosts/nima/nima-host-law.md](../hosts/nima/nima-host-law.md)

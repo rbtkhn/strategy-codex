@@ -8,15 +8,15 @@ Open here when the question is not simply "which Diesen episode contains Matlock
 
 ## Start here
 
-- [matlock-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/matlock/matlock-speaker-object.md)
-- Diesen host arc: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md)
+- [matlock-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/matlock/matlock-speaker-object.md)
+- Diesen host arc: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-matlock-speaker-arc.md)
 
 ## Compatibility shape
 
 This shelf already has a real canonical structure:
 
-- [matlock-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/matlock/matlock-speaker-object.md) defines the object
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) is the mature host-local branch
+- [matlock-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/matlock/matlock-speaker-object.md) defines the object
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-matlock-speaker-arc.md) is the mature host-local branch
 - the direct appearance set below preserves the anchored source spine
 
 Matlock is therefore best read as a **single-helix, Diesen-anchored diplomatic-memory object**, not as a generic profile stub and not as a mature multi-host helix.

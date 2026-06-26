@@ -56,7 +56,7 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about whether the military plan is materially workable rather than whether the process is absurd or self-entrapping, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
+- If the question is mainly about whether the military plan is materially workable rather than whether the process is absurd or self-entrapping, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/hosts/davis/stream/davis-johnson-speaker-arc.md).
 
 - This is now a materially real November 2025-April 2026 Napolitano branch.
 - The November-through-March files are routeable but summary-grade; the April 20 file remains the strongest native opening point.

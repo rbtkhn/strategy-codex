@@ -6,7 +6,7 @@ Purpose: canonical compact ledger for Pape's authored 2026 forecast spine: phase
 
 ## Source Set
 
-Primary corpus: Pape-authored `substack-pape-*` captures in [../../../../dev/strategy-codex/source-archive/statecraft), concentrated from `2026-02-25` through `2026-05-27`.
+Primary corpus: Pape-authored `source-pape-*` captures in [`source-archive/statecraft`](../../../../source-archive/statecraft), concentrated from `2026-02-25` through `2026-05-27`.
 
 ## Phase Spine
 

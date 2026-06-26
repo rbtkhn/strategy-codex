@@ -29,21 +29,21 @@ That means:
 ## Structural notes
 
 - [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
-- [Mearsheimer surface orthogonality](../../../codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
-- [Mearsheimer historical examples audit](../../../codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
-- [Mearsheimer themes](../../../codex/speakers/mearsheimer/themes/README.md)
+- [Mearsheimer surface orthogonality](../../../statecraft/voices/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
+- [Mearsheimer historical examples audit](../../../statecraft/voices/mearsheimer/mearsheimer-historical-examples-audit.md)
+- [Mearsheimer themes](../../../statecraft/voices/mearsheimer/themes/README.md)
 
 ## Host lanes
 
-- [Diesen x Mearsheimer](../../../codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../codex/speakers/davis/stream/davis-mearsheimer-arc.md)
-- [Judging Freedom x Mearsheimer](../../../codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../statecraft/hosts/davis/stream/davis-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../../statecraft/hosts/napolitano/stream/napolitano-mearsheimer-arc.md)
 
 ## Compatibility shape
 
 This shelf is now the canonical statecraft-side opening path for Mearsheimer.
 
-- [codex/speakers/mearsheimer/README.md](../../../codex/speakers/mearsheimer/README.md) remains a compatibility and support doorway during migration
+- [statecraft/voices/mearsheimer/README.md](../../../statecraft/voices/mearsheimer/README.md) remains a compatibility and support doorway during migration
 - the codex-side structural audit, historical audit, raw-input bench, and themes remain real support surfaces until a fuller transfer pass
 - do not treat the codex shelf as a second competing authority tree; use it as linked support beneath this statecraft shelf
 

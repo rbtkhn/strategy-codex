@@ -290,7 +290,7 @@ Recognized classes include:
 
 When a speaker-conditioned crisis sequence or thread needs bounded continuity before lane descent, statecraft-governed speaker month pages, thread atlases, routing notes, and other speaker-state continuity surfaces belong in the live [statecraft/voices/](speakers/README.md) tree rather than outside statecraft by default.
 
-The migration target is the whole live speaker corpus. `codex/speakers/` is compatibility/archive during cutover, not a second canonical authority once a speaker has migrated into repo-root `statecraft/voices/`.
+The migration target is the whole live speaker corpus under `statecraft/voices/` and `statecraft/hosts/`. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md).
 
 Speaker arcs may feed:
 

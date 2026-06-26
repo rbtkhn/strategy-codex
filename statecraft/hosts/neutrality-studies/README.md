@@ -30,7 +30,7 @@ The question this host answers is usually not institutional Kremlin voice (→ [
 
 ## Compatibility
 
-No legacy `codex/speakers/neutrality-studies/` shelf — this host is **archive-first** with live routing here and guest continuity on **`statecraft/voices/<guest>/`**.
+No legacy `statecraft/voices/neutrality-studies/` shelf — this host is **archive-first** with live routing here and guest continuity on **`statecraft/voices/<guest>/`**.
 
 ## Boundary
 

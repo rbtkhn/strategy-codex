@@ -14,6 +14,11 @@ source_url: "https://www.youtube.com/watch?v=oWXaAN633c0"
 youtube_id: "oWXaAN633c0"
 source_type: youtube
 transcript_type: operator_pasted_transcript
+verify_receipt: 2026-06-25
+verify:
+  - claim: youtube_id oWXaAN633c0
+    verdict: confirmed
+    note: oEmbed title matches capture (Krapivnik / Tulsi Gabbard Resigns)
 source_note: "Transcript pasted manually by operator after check-streams for canonical May 22 2026 raw-input capture."
 editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation."
 ---

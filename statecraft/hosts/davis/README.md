@@ -26,7 +26,7 @@ The question Davis answers is usually not `is this legal?` but `can this still w
 
 ## Compatibility
 
-The older [codex/speakers/davis/README.md](/C:/dev/strategy-codex/codex/speakers/davis/README.md) path is compatibility residue only.
+The older [statecraft/hosts/davis/README.md](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) path is compatibility residue only.
 
 - keep using codex-side Davis stream files when you need legacy chronology or archive residue
 - use this repo-root shelf when you need live host-law and guest-lane routing

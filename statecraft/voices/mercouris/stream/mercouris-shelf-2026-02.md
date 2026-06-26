@@ -62,7 +62,7 @@ That said, February should still be read with the shelf-hygiene caution that a m
 
 ## Adjacent shelf
 
-- Next month frontier: [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-03-01.md)
+- Next month frontier: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-page-2026-03-01.md)
 - Dense-core shelves: [mercouris-shelf-2026-04.md](mercouris-shelf-2026-04.md), [mercouris-shelf-2026-05.md](mercouris-shelf-2026-05.md)
-- Thread compatibility: [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md)
-- Transcript compatibility: [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-transcript.md)
+- Thread compatibility: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-thread.md)
+- Transcript compatibility: [../../../../dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-transcript.md)

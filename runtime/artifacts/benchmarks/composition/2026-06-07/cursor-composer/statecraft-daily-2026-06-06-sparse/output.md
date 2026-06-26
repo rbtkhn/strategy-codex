@@ -8,7 +8,7 @@ WORK only; not Record.
 
 Primary capture used:
 
-- [Mercouris / Alexander Mercouris](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>)
+- [Mercouris / Alexander Mercouris](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alexander-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>)
 
 Verified transcript anchors (Putin at SPIEF plenary, June 5–6 reporting window): letter rejected as insolent; summit and unconditional ceasefire refused; June 14, 2024 foreign-ministry objectives restated including Zaporozhzhia and Kherson; undisclosed Russian businessman relayed a private Kiev meeting request; Afzalov replaced by Chilaw in aerospace forces; Korotchenko/TASS commentary on Oreshnik precision tests and possible European-range targets; Leningrad-region drone attack with limited damage framing.
 

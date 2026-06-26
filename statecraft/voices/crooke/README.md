@@ -56,17 +56,17 @@ Crooke now has a full canonical 2026 month ladder for the live year, but the mon
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/crooke/` path is now front-door compatibility only.
+The legacy `statecraft/voices/crooke/` path is now front-door compatibility only.
 
-- [codex/speakers/crooke/README.md](../../../codex/speakers/crooke/README.md) and [index.md](../../../codex/speakers/crooke/index.md) are compatibility pointers.
+- [statecraft/voices/crooke/README.md](../../../statecraft/voices/crooke/README.md) and [index.md](../../../statecraft/voices/crooke/index.md) are compatibility pointers.
 - older codex-side thread and transcript files remain compatibility residue.
 - this statecraft shelf is now self-contained for canonical Crooke self-description.
 
 ## Host Lanes
 
-- [Diesen x Crooke](../../../codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](../../../codex/speakers/nima/stream/nima-crooke-speaker-arc.md)
+- [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../statecraft/hosts/davis/stream/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](../../../statecraft/hosts/nima/stream/nima-crooke-speaker-arc.md)
 
 ## Boundary
 

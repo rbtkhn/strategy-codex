@@ -51,7 +51,7 @@ Why:
 - the month note now has a stable host-balance reading
 - the remaining Diesen questions are title-drift ambiguities, not strong missing-capture contradictions
 
-Use [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-may-2026-note.md) as the month truth surface.
+Use [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md) as the month truth surface.
 
 ### Parsi
 

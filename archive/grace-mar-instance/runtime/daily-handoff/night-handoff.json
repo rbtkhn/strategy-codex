@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-22T15:28:33.256848+00:00",
-  "date": "2026-06-22",
+  "generated_at": "2026-06-25T15:46:21.756199+00:00",
+  "date": "2026-06-25",
   "user_id": "strategy-codex",
-  "ok": true,
-  "integrity_ok": true,
+  "ok": false,
+  "integrity_ok": false,
   "governance_ok": true,
   "quietRun": false,
-  "topActionReason": "validated_follow_through",
+  "topActionReason": "integrity_or_governance_pressure",
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session.",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: mercouris-land-or-civ-state-mirror; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Test** - object: integrity / governance repair; next test: Do the checks pass cleanly on the next coffee?; integrity or governance pressure is still live; not policy or Record.",
   "execution_paths": [
     {
       "id": "confirm",
@@ -56,11 +56,11 @@
       ]
     }
   ],
-  "suggested_execution_path_index": 0,
-  "learning_action_recommendation": "confirm",
-  "learning_action_reason": "recent receipts suggest clean follow-through",
-  "carry_forward_object": "mercouris-land-or-civ-state-mirror",
-  "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
-  "confidence_class": "medium",
-  "bias_strength": "soft"
+  "suggested_execution_path_index": 1,
+  "learning_action_recommendation": "test",
+  "learning_action_reason": "integrity or governance pressure is still live",
+  "carry_forward_object": "integrity / governance repair",
+  "carry_forward_test": "Do the checks pass cleanly on the next coffee?",
+  "confidence_class": "high",
+  "bias_strength": "strong"
 }

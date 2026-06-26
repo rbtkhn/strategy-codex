@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T13:48:28+00:00",
+  "generated_at": "2026-06-26T13:54:30+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
   "stats": {
     "main_channel_count": 15,
-    "file_count": 1480,
+    "file_count": 1478,
     "watchlist_count": 7,
     "discoverable_count": 15,
     "explicit_slug_count": 15
@@ -29,7 +29,7 @@
     {
       "slug": "dialogue-works",
       "label": "Dialogue Works",
-      "file_count": 307,
+      "file_count": 306,
       "day_count": 196,
       "watchlist": true,
       "check_sources": true,
@@ -43,7 +43,7 @@
     {
       "slug": "daniel-davis",
       "label": "Daniel Davis / Deep Dive",
-      "file_count": 259,
+      "file_count": 258,
       "day_count": 152,
       "watchlist": true,
       "check_sources": true,

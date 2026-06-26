@@ -8,7 +8,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Davis × Jermy — Oil, drugs Venezuela & Colombia](../../source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) — https://www.youtube.com/watch?v=choJfnHoyXM — **full transcript** (ingest 2026-06-22)
-- [Mercouris solo — Kiev big defeats; Siversk falls; Huliaipole falling; West in denial](../../source-archive/statecraft/2025-12-12/source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — https://www.youtube.com/watch?v=Wcrd8lVc7vw — **full cleaned transcript** (ingest 2026-06-22; source-clean + manual ASR tier)
+- [Mercouris solo — Kiev big defeats; Siversk falls; Huliaipole falling; West in denial](../../source-archive/statecraft/2025-12-12/source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — https://www.youtube.com/watch?v=Wcrd8lVc7vw — **full cleaned transcript** (ingest 2026-06-22; source-clean + manual ASR tier)
 - [Dialogue Works × Wilkerson × Freeman — chain reaction](../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) — https://www.youtube.com/watch?v=W1h2i5NscpI — **full transcript** (spoken date 12 Dec 2025)
 
 ## Purpose

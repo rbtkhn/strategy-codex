@@ -26,8 +26,8 @@ Against the current working floor of `8+` Mercouris-thread captures per month, F
 
 The currently landed `native solo Mercouris` February captures are:
 
-- `2025-02-10` - [trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
-- `2025-02-20` - [disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/source-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
+- `2025-02-10` - [trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/source-alexander-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- `2025-02-20` - [disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/source-alexander-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
 
 So February currently preserves only a minimal native solo Mercouris lane.
 

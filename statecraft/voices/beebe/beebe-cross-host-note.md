@@ -12,7 +12,7 @@ Purpose: keep George Beebe's cross-host status honest by separating what is mate
 
 This is the only branch that currently crosses the embodiment threshold in a strong way. It is dense across `2025` and `2026`, has multiple full-form imports on disk, and already supports a real host-local arc note:
 
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md)
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md)
 
 ### Search-backed but not yet imported here
 
@@ -49,7 +49,7 @@ That is enough to make Beebe meaningful on the shelf without letting discovery m
 Open:
 
 - [Beebe index](index.md)
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md)
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md)
 
 Then:
 

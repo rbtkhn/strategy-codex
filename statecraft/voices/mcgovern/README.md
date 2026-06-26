@@ -37,16 +37,16 @@ The real hierarchy on disk is:
 
 ## Compatibility Shape
 
-The legacy `codex/speakers/mcgovern/` path is now front-door compatibility only.
+The legacy `statecraft/voices/mcgovern/` path is now front-door compatibility only.
 
-- [codex/speakers/mcgovern/README.md](../../../codex/speakers/mcgovern/README.md) and [index.md](../../../codex/speakers/mcgovern/index.md) are compatibility pointers.
+- [statecraft/voices/mcgovern/README.md](../../../statecraft/voices/mcgovern/README.md) and [index.md](../../../statecraft/voices/mcgovern/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for McGovern statecraft work.
 
 ## Host Lanes
 
-- [Diesen x McGovern](../../../codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
-- [Dialogue Works x McGovern](../../../codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
+- [Diesen x McGovern](../../../statecraft/voices/diesen/stream/diesen-mcgovern-speaker-arc.md)
+- [Dialogue Works x McGovern](../../../statecraft/hosts/nima/stream/nima-mcgovern-speaker-arc.md)
 - [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
 
 ## Boundary
