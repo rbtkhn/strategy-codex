@@ -309,7 +309,7 @@ def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> Non
     )
 
     payload = nav.build_channel_index_json(archive_root)
-    json_path = REPO_ROOT / "statecraft" / "channels" / "channel-index.json"
+    json_path = tmp_path / "statecraft" / "channels" / "channel-index.json"
     json_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
 
