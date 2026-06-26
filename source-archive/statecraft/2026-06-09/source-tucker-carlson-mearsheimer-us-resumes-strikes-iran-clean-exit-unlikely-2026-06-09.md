@@ -27,8 +27,9 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 32 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; paragraph reflow; sponsor blocks omitted; not independently verified as verbatim."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 32 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; paragraph reflow; sponsor blocks omitted; not independently verified as verbatim. · source-section pass 2026-06-26 (11 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # BREAKING: U.S. Resumes Strikes on Iran. A Clean Exit Is Unlikely. Tucker and John Mearsheimer React.
 
@@ -38,6 +39,9 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 **URL:** https://www.youtube.com/watch?v=TQvZaBQuT80
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 ## Tucker Carlson monologue
 
@@ -78,7 +82,11 @@ Suddenly that is gone. How do we know it's gone? Because the United States gover
 It blew up a girl school attached to the IRGC naval base in the opening hours of the war and never apologized for it. Not one time did anyone from the US government say, "Well, that was awful.
 Sorry." Not one time. That's just the cost of war apparently.
 And more specifically, and in some ways more shockingly, the United States government has threatened to target and then two days ago targeted civilian infrastructure, meaning the systems that keep people alive, keep civilians alive in Iran and any country, power, water, sewage, delcary for life. the lives of people who were not fighting in the war, who did not make the decisions that led to the war, who are innocent bystanders, the kind of people you are not allowed to kill on purpose. But when you destroy civilian infrastructure, you are killing them on purpose. And so, while the US government in war has destroyed civilian infrastructure at scale, by the way, during the Second World War, this has happened before, but it is never happened so openly and without apology.
-And never once has any American leader threatened in public to kill civilians unless the government of the country he opposes submits. That's never happened because that's barbaric behavior. That's not what civilized nations do. And suddenly, not only is the US government doing that, but no one is saying anything about it. Like that's just fine. And there's also of course because why wouldn't you at this point it's threatening nuclear strikes against entire populations or as the president himself said civilizations.
+And never once has any American leader threatened in public to kill civilians unless the government of the country he opposes submits. That's never happened because that's barbaric behavior. That's not what civilized nations do.
+
+### Segment 2 — And Suddenly Not Only Is
+
+And suddenly, not only is the US government doing that, but no one is saying anything about it. Like that's just fine. And there's also of course because why wouldn't you at this point it's threatening nuclear strikes against entire populations or as the president himself said civilizations.
 Now let's hope none of that happens and let's hope there aren't further strikes on civilian infrastructure that civilians aren't killed on purpose. Not simply because we're like bleeding heart liberals that think it's bad, but because it's not good for our country because, well, in the end, what you do will be done to you.
 That's almost a physics principle.
 That's just a fact. That's not moralizing. That's reality.
@@ -131,7 +139,11 @@ And in almost none of these gatherings is anyone piped up to say, "Well, wait a 
 Almost nobody said that in Washington.
 Literally almost nobody. And if there is somebody, who is that person? There wasn't one.
 But there was at least one person outside of Washington who said this. His name is John Mirshimer. He's been a professor at the University of Chicago since 1982, over 40 years. And he studies international relations, the way that countries get along with each other, balances of power regionally and globally.
-and he's smart and he's ariodite. But above all, he is wise. He draws obvious conclusions from longitudinal data sets as they say in academia. He looks at what happens over time and tries to understand what this tells us about the way nations behave and about the way people behave about human nature which is constant. It doesn't change. And because he is one of the very few people in the field of international relations who has this ability married to personal bravery, he's willing to say things that are unpopular, which is the rarest of all qualities in academia because he has these two qualities. He has been maybe the only guy or one of the very few guys to call it right.
+and he's smart and he's ariodite. But above all, he is wise. He draws obvious conclusions from longitudinal data sets as they say in academia. He looks at what happens over time and tries to understand what this tells us about the way nations behave and about the way people behave about human nature which
+
+### Segment 3 — Is Constant It Doesn't Change
+
+is constant. It doesn't change. And because he is one of the very few people in the field of international relations who has this ability married to personal bravery, he's willing to say things that are unpopular, which is the rarest of all qualities in academia because he has these two qualities. He has been maybe the only guy or one of the very few guys to call it right.
 Back in 2007, he and a friend of his from Harvard called Steven Walt wrote a book on the so-called Jewish lobby, Apac and whole constellation of nonprofits in Washington that seek to steer the US Congress and the executive of the White House to giving Israel more money and more military aid to changing the inherent priorities of American foreign policy, which are to protect and enhance the United States to do things that are good for the population of America to change that priority to protect Israel, do what Israel wants. And the two of them wrote this fairly famous book about it back in 2007 and were immediately attacked, can you guess, as Nazis and anti-semmites.
 Well, turns out neither of them was a Nazi or an anti-semite. Just the opposite. Kind of normal liberals, not racist in any sense. And the charge itself was ludicrous.
 You notice what Apac is doing? You're an anti-semite.
@@ -192,7 +204,11 @@ I think in the process of this war ra NATO has been wrecked. Uh the US trans the
 **John Mearsheimer:** the Trump administration, 
 
 **John Mearsheimer:** the Trump administration, yeah, I don't think President Trump himself, but I think the deep state is committed to the Ukraine war uh still. Uh, I mean, Trump has pulled away in uh, a lot of respects, but I think the deep state remains committed and certainly the Europeans remain deeply committed to helping Ukraine inflict punishment on the civilian population and on infrastructure deep inside of Russia.
-And the Russians are having a devil of a time stopping that. And the end result is that there is increasing talk inside of Russia that the only solution to this problem is for Russia to attack with conventional weaponry to start with European countries or NATO countries. In other words, uh Russia has to stop limiting its attacks to Ukraine and it has to start thinking about attacking inside of Europe but with conventional weapons. And the view of many inside of Russia is that if that doesn't work, if the conventional weaponry doesn't stop uh the attacks on mother Russia, then what Russia should do is use limited nuclear attacks against NATO countries to send a very clear signal to the Europeans and to the United States that they better stop or this will escalate out of control. So, I think there is a serious possibility. I don't think it's a likely possibility, but I think there's a serious possibility uh that nuclear weapons will be used uh in the Ukraine war. There's been very little coverage in the American press of Ukrainian European American attacks on the Russian homeland.
+And the Russians are having a devil of a time stopping that. And the end result is that there is increasing talk inside of Russia that the only solution to this problem is for Russia to attack with conventional weaponry to start with European countries or NATO countries. In other words, uh Russia has to stop limiting its attacks to Ukraine and it has to start thinking about attacking inside of Europe but with conventional weapons. And the view of many inside of Russia is that if that doesn't work, if the conventional weaponry doesn't stop uh the attacks on mother Russia, then what Russia should do is use limited nuclear attacks against NATO countries to send a very clear signal to the Europeans and to the United States that they better stop or this will escalate out of control. So, I think there is a serious possibility. I don't think it's a likely possibility, but I think there's a serious possibility uh that
+
+### Segment 4 — Nuclear Weapons Will Be Used
+
+nuclear weapons will be used uh in the Ukraine war. There's been very little coverage in the American press of Ukrainian European American attacks on the Russian homeland.
 What to what extent have they caused damage and casualties and their serious attacks? Well, they've caused serious damage to the energy infrastructure and they occasionally kill a good number of Russian citizens. Uh this is nothing like the bombing attacks in World War II or even the American bombing campaign in Vietnam. Uh it's not on that scale. But from a Russian perspective, any serious attacks on Mother Russia uh are unacceptable. And uh the problem that Putin faces is that there has long been widespread criticism inside Russia that he has not waged the war against Ukraine vigorously enough. The fact is that Putin and the Russian military of course have gone to great lengths to minimize the number of Ukrainian civilians who have been killed. It's very important to understand, you'd never know this from reading the mainstream media in the West.
 
 
@@ -254,7 +270,11 @@ It does seem like a kind of nihilism though to keep lobbing missiles and drones 
 **John Mearsheimer:** Let me make two points.
 
 
-**John Mearsheimer:** Yes. One is if you think about the Russian bombing campaign against Ukraine.
+**John Mearsheimer:**
+
+### Segment 5 — Yes One Is If You
+
+Yes. One is if you think about the Russian bombing campaign against Ukraine.
 
 
 **John Mearsheimer:** Yes.
@@ -327,7 +347,11 @@ And I think if our policy had actually worked, if it looked like the Russians we
 **John Mearsheimer:** Yes.
 
 
-**John Mearsheimer:** Or if it did, if the government collapsed, whatever that meant, and we succeeded in killing Putin, which I know we've been trying to do on and off for a long time, like what then? What if there was a civil war, ethnic breakup of Russia? Like how is that good for ever for the rest of the world? It's terrible for Russia, but what about the rest of us? It's not good for us either. Chaos is not good, 
+**John Mearsheimer:** Or if it did, if the government collapsed, whatever that meant, and we succeeded in killing Putin, which I know we've been trying to do on and off for a long time, like what then? What if there was a civil war, ethnic breakup of Russia? Like how is that good for ever for the
+
+### Segment 6 — Rest Of The World It's
+
+rest of the world? It's terrible for Russia, but what about the rest of us? It's not good for us either. Chaos is not good, 
 
 **John Mearsheimer:** is it?
 
@@ -464,7 +488,11 @@ I said at the time, this is dead wrong.
 This is wonderful news for us. If you're arms racing with the Soviets, if you're engaged in a security competition with the Soviets, what you want them to do is jump into a place like Afghanistan, just like they should have been happy that we went into Vietnam, right? You're jumping into a quagmire.
 
 
-**John Mearsheimer:** You said that out loud in 79. I said it out loud, but there was no uh internet at the time. There was no Tucker.
+**John Mearsheimer:** You said that out loud in 79. I said it out loud, but there was no
+
+### Segment 7 — Uh Internet At The Time
+
+uh internet at the time. There was no Tucker.
 
 
 **John Mearsheimer:** So, you have a long history of countercultural pronouncements, huh?
@@ -583,7 +611,11 @@ But just to add to your point, we also just have a lot of evidence over the past
 Uh they fully control one of those Oblas, Luhansk. Uh the one that gets the most attention. uh in the media today uh dhansk uh they control 85% of that uh donets u and uh they control about 75% of zaposia and about 75% of heran I think they will continue the war until they fully control all the territory in those four oblas which again they've enexed uh along with Crimea I would not be surprised if they uh actually end up taking more territory. I wouldn't be surprised if they take Odessa uh and Arkefe as well.
 Uh but that remains to be seen. U I think it's quite clear that their progress on the battlefield has been relatively slow and it's in large part not because the Ukrainian ground forces are formidable uh troops but because of drones. I think drones have made it very difficult for either side to move. But I think the Russians will end up conquering a huge slice of eastern Ukraine and at some point the Ukrainians and the Russians will stop firing each at each other. There will be an armistice. This will be the frozen conflict. Ukraine will be a dysfunctional rump state uh which it already is. Uh and it will not join NATO. So the Russians will have achieved their major objective of preventing Ukraine from joining NATO.
 But the problem is Tucker, you will end up with a frozen conflict. And the Ukrainians will never accept the fact that Russia has annexed this territory.
-They will not see it as Russian territory. they will believe that this is sacred Ukrainian territory that has been illegally taken away from them and that they need to get back. So what this tells you is you will have poisonous relations between Russia on one hand and Ukraine on the other. And given that the Ukrainians are joined at the hip with the Europeans, this will mean that you are likely to have poisonous relations between Russia and Ukraine and the Europeans for the foreseeable future.
+They will not see it as Russian territory. they will believe that this is sacred Ukrainian territory that has been illegally taken away from them and that they need to get back. So what this tells you is you will have poisonous relations between Russia on one hand and Ukraine on the other. And given that the Ukrainians are joined at the hip with the Europeans, this will mean that you are likely to have poisonous relations between
+
+### Segment 8 — Russia And Ukraine And The
+
+Russia and Ukraine and the Europeans for the foreseeable future.
 This is a disastrous situation because it's easy to imagine how that frozen conflict turns into a hot conflict. Once again, I'm not saying that's likely, but there's one other very important dimension to this that we don't want to lose sight of, and that is that superimposed on the Ukraine Russia conflict are six other potential flash points. One is Bellarus, two is Kinenrad, three is the Baltic Sea, four is the melting Arctic, five is Muldova, and six is the Black Sea. These are all potential flash points where you could get conflict between Russia on one side and the Europeans on the other side or the Ukrainians on the other side. So, Eastern Europe is going to be a very dangerous place for the foreseeable future.
 The amount of armaments moved in to that region by the rest of the world is just beyond comprehension, too. So, it's a incredibly wellarmed.
 People are still using Alban, you know, Envero's weapons stockpiles to fight wars around the world. So, like when you move a lot of weapons into a region, the the tail on that is very long.
@@ -689,7 +721,11 @@ Um, well, anytime you have immigration, you run into this problem. I was recentl
 **John Mearsheimer:** Number one. And number two, uh although I'm in favor of immigration, I do think if you come to the United States, you become an American and only an American.
 You give up, you know, your German citizenship or your Russian citizenship or whatever. Uh, and I think 
 
-**John Mearsheimer:** what about working as a as a guard at a prison camp in Israel on a volunteer basis like Jeffrey Goldberg of the Atlantic did as an American? Is it is it okay if you're a leading American foreign policy thinker to volunteer as a prison camp guard in a foreign country or is that there's something kind of maybe disloyal about that?
+**John Mearsheimer:** what about working as a as a guard at a prison camp in Israel on a volunteer basis like Jeffrey Goldberg of the Atlantic did as an American? Is it is
+
+### Segment 9 — It Okay If You're A
+
+it okay if you're a leading American foreign policy thinker to volunteer as a prison camp guard in a foreign country or is that there's something kind of maybe disloyal about that?
 
 
 **John Mearsheimer:** Well, this is a particularly egregious situation.
@@ -789,7 +825,11 @@ What world are they living in where they're like, "Well, don't take that from Tr
 
 **John Mearsheimer:** and that they are running the risk of losing American support if they don't cooperate with Trump. If they don't cooperate with Trump, they run the risk 
 
-**John Mearsheimer:** and the threat of losing American support will be sufficient to convince the Israelis to play ball with Trump. So the argument there is that Trump can play hard ball with the Israelis in ways that no other president, including Trump himself, have ever played hard ball with the Israelis and that it'll work because of the logic that you just spun out. I talked to someone in Israel yesterday who's smart and uh very smart who said there's no sense of that at all. Israel, the average Israeli support for the war was over 90% in Israel was 93%. And the average Israeli thinks that they're running the world, that they have total control and that they need nobody and that if the US pulls, you know, we don't need the US actually. They're too many strings attached when in fact there are no strings attached, but they're they're just so high on their own supply that they don't see at all their vulnerabilities. They're really at peak hubris. That's this person told me.
+**John Mearsheimer:** and the threat of losing American support will be sufficient to convince the Israelis to play ball with Trump. So the argument there is that Trump can play hard ball with the Israelis in ways that no other president, including Trump himself, have ever played hard ball with the Israelis and that it'll work because of the logic that you just spun out. I talked to someone in Israel yesterday who's smart and uh very smart who said there's no sense of that at all. Israel, the average Israeli support
+
+### Segment 10 — For The War Was Over
+
+for the war was over 90% in Israel was 93%. And the average Israeli thinks that they're running the world, that they have total control and that they need nobody and that if the US pulls, you know, we don't need the US actually. They're too many strings attached when in fact there are no strings attached, but they're they're just so high on their own supply that they don't see at all their vulnerabilities. They're really at peak hubris. That's this person told me.
 
 
 **John Mearsheimer:** Well, there is some of that for sure and there's good reason for them to think that they own us because they have owned us.
@@ -879,7 +919,11 @@ But if Israel violates the ceasefire and the Iranians react by shutting down the
 I think some of the Gulf states at least were kind of shocked by the unwillingness or inability of the United States to protect them from nuclear from Iranian attacks. actually act as a magnet for Iranian attacks.
 
 
-**John Mearsheimer:** Totally. And the whole deal was like we'll send trillions to the United States in foreign direct investment, but like you got to protect us.
+**John Mearsheimer:** Totally.
+
+### Segment 11 — And The Whole Deal Was
+
+And the whole deal was like we'll send trillions to the United States in foreign direct investment, but like you got to protect us.
 
 
 **John Mearsheimer:** Yeah.

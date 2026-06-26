@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-qCFF7-Mskw) | `source-alex-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-qCFF7-Mskw) | `source-alexander-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=47b9l1i-jpg) | `source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md`
+- `source-alexander-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md`
 - `source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md`

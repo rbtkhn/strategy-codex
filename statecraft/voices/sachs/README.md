@@ -48,7 +48,7 @@ The legacy `codex/speakers/sachs/` path is now front-door compatibility only.
 
 - [Diesen x Sachs](../../../source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [Napolitano host shelf](../../hosts/napolitano/README.md)
-- [2026-05-07 / Mercouris x Sachs](../../../source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-05-07 / Mercouris x Sachs](../../../source-archive/statecraft/2026-05-07/source-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 - [2026-04-24 / Tucker x Sachs](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md)
 
 ## Boundary

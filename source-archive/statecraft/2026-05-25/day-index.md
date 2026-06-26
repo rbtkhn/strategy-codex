@@ -32,11 +32,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fb9862XYmF0) | `source-alex-mercouris-russia-plans-more-oreshnik-strikes-speeds-up-zaporozhzhye-offensive-europe-ukraine-funds-run-short-2026-05-25.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fb9862XYmF0) | `source-alexander-mercouris-russia-plans-more-oreshnik-strikes-speeds-up-zaporozhzhye-offensive-europe-ukraine-funds-run-short-2026-05-25.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [4r37apQpSxQ](https://www.youtube.com/watch?v=4r37apQpSxQ) | `source-daniel-davis-iran-war-cheerleaders-mixed-messaging-surrounding-a-deal-2026-05-25.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [watch](https://www.youtube.com/watch?v=_KmFdY8_2D4) | `source-dialogue-works-baud-trumps-last-card-just-shattered-israel-2026-05-25.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=qShS2y0N9Ys) | `source-dialogue-works-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=uzQP74jfkKI) | `source-duran-mercouris-russia-unleashes-oreshnik-more-strikes-planned-2026-05-25.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=uzQP74jfkKI) | `source-duran-mercouris-russia-unleashes-oreshnik-more-strikes-planned-2026-05-25.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=RVbHiMHukCc) | `source-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md` |
 
 ## Writer sources
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-plans-more-oreshnik-strikes-speeds-up-zaporozhzhye-offensive-europe-ukraine-funds-run-short-2026-05-25.md`
+- `source-alexander-mercouris-russia-plans-more-oreshnik-strikes-speeds-up-zaporozhzhye-offensive-europe-ukraine-funds-run-short-2026-05-25.md`
 - `source-daniel-davis-iran-war-cheerleaders-mixed-messaging-surrounding-a-deal-2026-05-25.md`
 - `source-dialogue-works-baud-trumps-last-card-just-shattered-israel-2026-05-25.md`
 - `source-dialogue-works-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25.md`

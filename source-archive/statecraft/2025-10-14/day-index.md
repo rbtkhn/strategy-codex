@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1ddiRhp6zcE) | `source-alex-mercouris-moscow-gives-us-nuclear-warning-tomahawks-kiev-faces-pokrovsk-disaster-2025-10-14.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1ddiRhp6zcE) | `source-alexander-mercouris-moscow-gives-us-nuclear-warning-tomahawks-kiev-faces-pokrovsk-disaster-2025-10-14.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=1mFJ1TDGMcU) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-gives-us-nuclear-warning-tomahawks-kiev-faces-pokrovsk-disaster-2025-10-14.md`
+- `source-alexander-mercouris-moscow-gives-us-nuclear-warning-tomahawks-kiev-faces-pokrovsk-disaster-2025-10-14.md`
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md`

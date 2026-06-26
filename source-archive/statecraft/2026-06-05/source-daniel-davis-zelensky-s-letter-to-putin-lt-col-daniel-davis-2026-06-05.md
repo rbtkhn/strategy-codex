@@ -20,14 +20,18 @@ thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (8 sections)."
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 davis_close_promo_trim_applied: true
+transcript_curation: curated_sectioned
 ---
 
 # Zelensky's Letter to Putin /Lt Col Daniel Davis
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Hey everybody, welcome back to the Daniel Davis deep dive road show edition. I am still in Tlisi, Georgia where I'm at a conference on sustainable development. A lot of things are going on. We cannot wait until I get back to my studio to tell you about it because there's a lot of developments in both the Russia Ukraine war and in the US Iran war that directly affect where these wars could go and American national security.
 
@@ -43,7 +47,11 @@ He's just trying to help the two sides. I've been calling for this for months an
 
 Let's take a look at what's just happened overnight because CNN was reporting that more than a dozen GOP lawmakers defied their own leadership. Did they really defy? and President Donald Trump by voting with Democrats to approve a major bill to deliver billions of dollars in aid to Ukraine while imposing steep sanctions on Russia.
 
-So, while President Trump talks out of one side of his mouth that I'm looking for a negotiated settlement, I'm looking for the two sides to make compromises, I'm going all in over here on putting more sanctions on Russia, not less. And I'm giving more money and weapons and ammunition to Ukraine in the terms of billions of dollars.
+So, while President Trump talks out of one side of his mouth that I'm looking for a negotiated settlement, I'm looking for the two sides to make compromises, I'm going all in over here on
+
+### Segment 2 — Putting More Sanctions On Russia
+
+putting more sanctions on Russia, not less. And I'm giving more money and weapons and ammunition to Ukraine in the terms of billions of dollars.
 
 What happened to all this crap? President Trump said last year about how we're not giving anything else to to Ukraine. We're just gonna give we're going to do the Pearl thing where we're going to provide ammunition, weapons, and everybody else is going to buy them from us and then they'll deliver them to Ukraine.
 
@@ -59,7 +67,11 @@ President Trump. First of all, and I just had put this in there for context. On 
 
 We do not provide weapons to Russia. We only provide weapons to Ukraine. We do not impose sanctions on Ukraine. We only impose sanctions on Russia." We have clearly taken a side, he said out loud. So there you have it. So you have President Trump in that clip I just showed you acting like he's some sort of independent mediator to the cameras to the American people.
 
-And then on the other hand, his party is voting for more money for Ukraine, for weapons and sanctions on their adversary, Russia, while his secretary of state goes in front of congressional testimony on camera outright say, "We're not a mediator. We have chosen a side." So you cannot with any kind of rational hope and any any credibility whatsoever to say we're trying to just bring this thing to an end when you are literally funding one side against the other and sanctioning one side and not the other.
+And then on the other hand, his party is voting for more money for Ukraine, for weapons and sanctions on their adversary, Russia, while his secretary of state goes in front of congressional testimony on camera outright say, "We're not a mediator. We have chosen a side." So you cannot with any kind of rational hope and any any credibility whatsoever to say
+
+### Segment 3 — We're Trying To Just Bring
+
+we're trying to just bring this thing to an end when you are literally funding one side against the other and sanctioning one side and not the other.
 
 Those things are not compatible. They can't go together. And President Trump could have put a lot of pressure on Ukraine long ago to get this thing over and did none of it. so many opportunities which can only lead to the conclusion he doesn't want to and that is a conclusion that those on the Russian side are coming to and that's not neutral either.
 
@@ -75,7 +87,11 @@ It did strike some oil infrastructure and you had this big black smoke and billo
 
 Now what do you think? Let me just ask you before I even show you anything else. What do you think the reaction is going to be from the Russian Federation? Do you think that Vladimir Putin, General Garasimov, Sergey Larvrov? Do you think that they're going to go, "Oh, man. He he fired a drone and it got through our air defenses and hit some oil stuff. Damn it." All right.
 
-I mean, what can we do? We just have to surrender and just roll over and die. I know we've been fighting four and a half years this and made a lot of statements, but man, he had some drones that got through. So, what do you do, right? I mean, America has gone in now and they say they're no longer a mediator. They're no longer neutral.
+I mean,
+
+### Segment 4 — What Can We Do We
+
+what can we do? We just have to surrender and just roll over and die. I know we've been fighting four and a half years this and made a lot of statements, but man, he had some drones that got through. So, what do you do, right? I mean, America has gone in now and they say they're no longer a mediator. They're no longer neutral.
 
 They chose a side. we can't stand up to all that. We better surrender while we can. Or do you think that maybe there would be a different response? More something along the lines of, "Oh, hell no. And if you think you're going to get by with that, you are begging us to expand this war and strike targets outside of Ukraine."
 
@@ -91,7 +107,11 @@ Which means we're saying, "Hey, I know what Russia's been saying. Don't care bec
 
 This is from last night in Rian Noah or Russian media says the United States made an alarming statement about the state of Ukraine in its headline and the detail says Russia believes that the supply of weapons Ukraine interfere with the settlement directly involve countries of NATO conflict and are quote playing with fire.
 
-Fore foreign minister Sergey Levro noted that any cargo that contains weapons for Kiev will become a legitimate target for Moscow. That statement there is a little bit even beyond what has been recently a little bit stronger. He said that any cargo that contains weapons for Kiev will become a legitimate target for Moscow and that they see that it directly involves countries NATO conflict and and that and then that's added to what he just said a minute ago about the United States being seen as being directly participating because we said it. We
+Fore foreign
+
+### Segment 5 — Minister Sergey Levro Noted That
+
+minister Sergey Levro noted that any cargo that contains weapons for Kiev will become a legitimate target for Moscow. That statement there is a little bit even beyond what has been recently a little bit stronger. He said that any cargo that contains weapons for Kiev will become a legitimate target for Moscow and that they see that it directly involves countries NATO conflict and and that and then that's added to what he just said a minute ago about the United States being seen as being directly participating because we said it. We
 
 don't have to worry about being characterized. We're saying it ourselves. Rubio flat out said we chose Assad. Now, what do you think Russia is going to end up doing with it? Do you think that this will always be rhetoric that that's a headline and nothing more that they made statements, but they they haven't followed through on any of that? They've hit Ukraine.
 
@@ -103,7 +123,11 @@ You embarrass President Putin with a with a drone strike in St. Petersburg, you 
 
 So why are you happy about that so much so that you stick a a stick, not even your finger, further inside of Putin's eye and twist it, practically begging him to do something. Now, that could be the issue. That could be the the play is that he is Zillinsky is trying to provoke Putin because I think in his twisted mind, Zillinsky may be of the opinion now that hey, you know what? It's just not enough that I get $8 billion.
 
-He probably knows better than I do. That six or eight ain't 60 and 60 didn't matter. So eight definitely isn't going to matter. Whatever it is, it's minuscule. He can see on the front lines. He knows what the drones are doing. He goes, "Yeah, we've got a lot of drones and we can do some things and we are definitely slowing down the Russians and causing quite a few casualties, but he can see it's not changing anything of any substance on the ground.
+He probably knows better than I do. That six or eight ain't 60 and 60 didn't matter. So eight definitely isn't going to matter. Whatever it is, it's minuscule. He can see on the front lines. He knows what the drones are doing. He goes, "Yeah, we've got a lot of drones and we can do some things and we are definitely slowing down the Russians and causing quite a few casualties, but he can see it's not changing anything of
+
+### Segment 6 — Any Substance On The Ground
+
+any substance on the ground.
 
 It's not changing the balance." You may have slowed some things down. Slowing down ain't winning, folks. The only thing that he may be doing is saying, "I need to provoke an outrageous act by Russia across the border, and that will draw in NATO on my behalf." Now, it's not just me against Russia. Now, it's all of NATO.
 
@@ -119,7 +143,11 @@ He could care less if if Paris it goes up in flames or or some of their military
 
 Now the reality is and the twisted part of this is it won't matter. All it's going to do is make all of us lose because we don't have the wherewithal to go up against them. question is, are we going to be so stupid that we're going to allow ourselves to be sucked into a war by allowing him to make these statements that will provoke Russia while the US is apparently aiding and abetting Sinsky by adding fuel to that fire? Here, have a few more weapons.
 
-Whatever the number is, it's not enough to make any difference obviously, but it is enough to make people angry in Russia. And on this issue of you know bring a mediator let's I want to show you one other thing Levro said yesterday which I think is very poignant uh and also shows that they are very clear on what is and is not happening.
+Whatever the number is, it's not enough to make any difference obviously, but it is enough to make people angry in Russia. And on this issue of you know bring a mediator let's I want to show
+
+### Segment 7 — You One Other Thing Levro
+
+you one other thing Levro said yesterday which I think is very poignant uh and also shows that they are very clear on what is and is not happening.
 
 >> Also said the United States is not a mediator because the United States consistently supports Ukraine and continues to supply weapons and military equipment in the quantities required. So given all that when people tell us you're not ready for talks I can only repeat we have been ready many times over more than that we have not only been ready we've actually held talks supported them and signed the relevant documents it is the west that cannot be trusted to keep its agreements its approach is I'll promise something now
 
@@ -133,7 +161,11 @@ Even with all this help they get this, we know 8 billion is not even 60 and 60 d
 
 It's inevitable. It's going to happen, but we'll just keep going." That's one outcome possible. By the way, one of the options is not actually, okay, we're going to uh dip our shoulders and walk away and surrender. That will never under any circumstances ever happen. So, that's not even a theoretical possibility.
 
-The other one that is very much a real possibility, though, is that Russia says, "Okay, our patience has reached its end. You've stretched it too thin. Not only can we not trust you to do what you say, we can trust you to keep the war going. No matter what you say with your mouth, we see with your actions and with your money that you're funding a continuation of the war because you want to kill Russians, both the United States and Europe.
+The other one that is very much a real possibility, though, is that Russia says, "Okay, our patience has reached its end. You've stretched it too thin. Not
+
+### Segment 8 — Only Can We Not Trust
+
+only can we not trust you to do what you say, we can trust you to keep the war going. No matter what you say with your mouth, we see with your actions and with your money that you're funding a continuation of the war because you want to kill Russians, both the United States and Europe.
 
 And so they may come to the conclusion, I would, if this was happening to America, if Russia was doing this to us, I would be of this opinion. I would say, all right, that's it. We're not just going to go into this perpetual thing where you without any cost continue to attack America. We're going to impose a a threat on you. We have nuclear weapons.
 

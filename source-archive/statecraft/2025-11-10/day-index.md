@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=sA5nmgx0Uys) | `source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=sA5nmgx0Uys) | `source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=lhvwsU2ab7E) | `source-judging-freedom-freeman-trump-israel-or-america-first-2025-11-10.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md`
+- `source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md`
 - `source-judging-freedom-freeman-trump-israel-or-america-first-2025-11-10.md`

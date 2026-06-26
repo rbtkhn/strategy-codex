@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=UMIyqYL28tU) | `source-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=UMIyqYL28tU) | `source-alexander-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `berletic` | [watch](https://www.youtube.com/watch?v=0Z7Ud5P9pNo) | `source-diesen-berletic-the-new-great-game-war-against-iran-russia-china-2026-05-24.md` |
 | `reason-resist` | Reason to Resist | `helmer`, `lascaris` | [FkUVUxvUkl0](https://www.youtube.com/watch?v=FkUVUxvUkl0) | `source-lascaris-helmer-russia-retaliates-student-dormitory-strike-2026-05-24.md` |
 | `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [OKSRdDflbdQ](https://www.youtube.com/watch?v=OKSRdDflbdQ) | `source-mario-nawfal-weichert-trump-iran-deal-collapsing-2026-05-24.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md`
+- `source-alexander-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md`
 - `source-diesen-berletic-the-new-great-game-war-against-iran-russia-china-2026-05-24.md`
 - `source-lascaris-helmer-russia-retaliates-student-dormitory-strike-2026-05-24.md`
 - `source-mario-nawfal-weichert-trump-iran-deal-collapsing-2026-05-24.md`

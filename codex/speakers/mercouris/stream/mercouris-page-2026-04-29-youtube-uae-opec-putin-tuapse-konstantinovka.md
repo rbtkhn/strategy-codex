@@ -24,7 +24,7 @@ _(Stub.)_
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-29/source-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md](../../../../years/2026/provenance/2026-04-29/source-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md)
+- **Full verbatim (capture):** [provenance/2026-04-29/source-alexander-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md](../../../../years/2026/provenance/2026-04-29/source-alexander-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, 2026-04-29)
 - **`thread:mercouris`** · **verify:** `pub_date:2026-04-29` + full-text under raw-input path above
 - **Canonical primary:** https://www.youtube.com/watch?v=irI2s-HuG0g

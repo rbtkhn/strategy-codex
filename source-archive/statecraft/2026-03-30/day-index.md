@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Mercouris` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1L-HI4zDBHs) | `source-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1L-HI4zDBHs) | `source-alexander-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [-e4HBuhGbrE](https://www.youtube.com/watch?v=-e4HBuhGbrE) | `source-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `nima` | [EpnEi-bLyRQ](https://www.youtube.com/watch?v=EpnEi-bLyRQ) | `source-dialogue-works-larry-c-johnson-full-escalation-yemen-joins-hezbollah-crushes-tanks-us-iran-on-brink-2026-03-30.md` |
 | `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=BSezLaNm8xY) | `source-judging-freedom-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md`
+- `source-alexander-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md`
 - `source-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md`
 - `source-dialogue-works-larry-c-johnson-full-escalation-yemen-joins-hezbollah-crushes-tanks-us-iran-on-brink-2026-03-30.md`
 - `source-judging-freedom-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md`

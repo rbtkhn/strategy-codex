@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (2), `Daniel Davis Deep Dive` (1), `Diesen (Greater Eurasia)` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Diesen (Greater Eurasia)` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TZOk7rzfkxA) | `source-alex-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TZOk7rzfkxA) | `source-alexander-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `pape` | [watch](https://www.youtube.com/watch?v=RFIJuoDQ7w0&) | `source-daniel-davis-pape-escalation-trap-2026-03-10.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=1e9NhLfPNKU) | `source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md` |
 
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md`
+- `source-alexander-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md`
 - `source-daniel-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md`
 - `source-daniel-davis-pape-escalation-trap-2026-03-10.md`
 - `source-daniel-davis-trump-hegseth-try-to-sell-war-strength-expose-us-weaknesses-2026-03-10.md`

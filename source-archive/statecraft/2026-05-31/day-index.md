@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-wmKK5PaiZg) | `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-wmKK5PaiZg) | `source-alexander-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=Zqs4c_dOCog) | `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=WgOJXWqk0io) | `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md` |
 | `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [LPdeT4kf0HU](https://www.youtube.com/watch?v=LPdeT4kf0HU) | `source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
+- `source-alexander-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
 - `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
 - `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md`
 - `source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`

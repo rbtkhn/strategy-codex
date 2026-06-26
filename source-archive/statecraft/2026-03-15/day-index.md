@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (4), `Dialogue Works` (2), `Glenn Diesen` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (4), `Dialogue Works` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oLZZaa8GN8M) | `source-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oLZZaa8GN8M) | `source-alexander-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [71u5rtj3hEA](https://www.youtube.com/watch?v=71u5rtj3hEA) | `source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [LGCjDWZthk0](https://www.youtube.com/watch?v=LGCjDWZthk0) | `source-daniel-davis-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [WcOiSr-7vkE](https://www.youtube.com/watch?v=WcOiSr-7vkE) | `source-daniel-davis-iran-trump-who-will-blink-first-psychological-economic-warfare-2026-03-15.md` |
@@ -59,7 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md`
+- `source-alexander-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md`
 - `source-daniel-davis-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md`
 - `source-daniel-davis-iran-is-just-getting-started-alastair-crooke-lt-col-daniel-davis-2026-03-15.md`
 - `source-daniel-davis-iran-trump-who-will-blink-first-psychological-economic-warfare-2026-03-15.md`

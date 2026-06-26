@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Dialogue Works` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lCIJ5N2a1ik) | `source-alex-mercouris-us-israel-rift-iran-strike-off-trump-publishes-anti-bibi-video-new-russi-2025-01-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lCIJ5N2a1ik) | `source-alexander-mercouris-us-israel-rift-iran-strike-off-trump-publishes-anti-bibi-video-new-russi-2025-01-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=6QvU-gdoc5Q) | `source-daniel-davis-col-doug-macgregor-zelensky-is-a-criminal-2025-01-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=cZYQ2mIPCKs) | `source-daniel-davis-israel-has-become-an-arsonist-state-col-doug-macgregor-2025-01-12.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `ritter` | [watch](https://www.youtube.com/watch?v=IRlFHfB11wg) | `source-dialogue-works-israel-is-blind-its-strategic-defeat-becomes-clearer-with-time-larry-c-j-2025-01-12.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-israel-rift-iran-strike-off-trump-publishes-anti-bibi-video-new-russi-2025-01-12.md`
+- `source-alexander-mercouris-us-israel-rift-iran-strike-off-trump-publishes-anti-bibi-video-new-russi-2025-01-12.md`
 - `source-daniel-davis-col-doug-macgregor-zelensky-is-a-criminal-2025-01-12.md`
 - `source-daniel-davis-israel-has-become-an-arsonist-state-col-doug-macgregor-2025-01-12.md`
 - `source-dialogue-works-israel-is-blind-its-strategic-defeat-becomes-clearer-with-time-larry-c-j-2025-01-12.md`

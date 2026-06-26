@@ -23,9 +23,10 @@ opening_tier: host-monologue
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 11 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 11 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (9 sections)."
 quality_note: ASR normalization pass 2026-06-17; ph-civ replacement SSOT.
 nawfal_close_promo_trim_applied: true
+transcript_curation: curated_sectioned
 ---
 
 # BREAKING: FULL IRAN MOU RELEASED - w/ Trita Parsi
@@ -38,6 +39,9 @@ nawfal_close_promo_trim_applied: true
 **Transcript:** Operator-pasted YouTube transcript.
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 I was uh joking with um Mark Dubowitz from the FDD about the MOU. I asked him the question. I'm like, "Did the um did do you think the Israelis have seen the MOU?" He's like, "I I would be surprised." Like, "Why didn't they see the MOU?" And he implied that he believes they saw it. So then I I started laughing and I joked.
 
@@ -55,7 +59,11 @@ No, no, I've seen this one. >> Um, what should I ask you first? Like where do yo
 
 2015, even before the Republicans had had a chance of reading the JCPOA, which was 154 pages, within seconds, they came out and blasted it. And you have had several senior Democrats, you know, attacking the MOU even though an official version was not out. Uh rumors about what was in it, they were attacking left and right in, I would say, a rather reckless way.
 
-Uh, I can fully understand that obviously there's going to be an effort to try to make sure that this doesn't become a political win for Trump. Uh, but at the same time, if you're against this war, you can criticize how it's ended, you can criticize the terms of the agreement, but if you criticize it in such a harsh way that you're contributing to the MOU perhaps collapsing and there will be a return to war, well then guess what? That war will no longer just be Trump's war.
+Uh, I can fully understand that obviously there's going to be an effort to try to make sure that this doesn't become a political win for Trump. Uh, but at the same time, if you're against this war, you can criticize how it's ended, you can criticize the terms of the agreement,
+
+### Segment 2 — But If You Criticize It
+
+but if you criticize it in such a harsh way that you're contributing to the MOU perhaps collapsing and there will be a return to war, well then guess what? That war will no longer just be Trump's war.
 
 It will also be your war. And I think some of the Democrats of how they have gone so aggressively against this are are not taking into account the consequences that will bring will be owned by them if it turns out that this MOU then collapses particularly if it's a direct result of the way that they've contributed to the political cost of the MOU being too high.
 
@@ -73,7 +81,11 @@ And I think that's what we're going to see for the next 60 days minimum from bot
 
 So you know how these things go? And back then, I mean, again, as much as that was absolutely erroneous of the Republicans to do so, um the the clarity that the collapse of the JCPOA would lead to war was not at all as clear in most people's minds. So, they thought that this is an easy political point. You just attack the president for this.
 
-You make sure it doesn't become a positive win for him, part of his legacy, etc. You're just trying to ruin the party for him. But you didn't think that it's going to bring any other cost to you or to the country as a whole. Now we know we know very clearly if this MOU collapses and there is no final deal, there's a significant risk that we will go back to war.
+You make sure it doesn't become a positive win for
+
+### Segment 3 — Him Part Of His Legacy
+
+him, part of his legacy, etc. You're just trying to ruin the party for him. But you didn't think that it's going to bring any other cost to you or to the country as a whole. Now we know we know very clearly if this MOU collapses and there is no final deal, there's a significant risk that we will go back to war.
 
 And we also know that that war will be a disaster. So to under those circumstances play the same kind of reckless political game is is very disappointing. I have to say particularly mindful of the fact that some of them are very thoughtful otherwise and I expected more of them than what we see right now. >> I'm going to ask you what you're referring to because I haven't really kept up with all the opposition to it.
 
@@ -87,7 +99,11 @@ The Iranians struck Israel, the Iranians struck all of the GCC countries uh etc.
 
 You'll continue to sell oil because I need oil prices to be low. The Iranians will then as a result not restart their nuclear program as long as Trump is president. But situation of the strait is unresolved. There's a very fragile situation. The Israelis will try to see if they can use that fragility to escalate matters into full-scale war.
 
-And by the time the next president comes in, the Iranians are likely going to demand some sort of a final resolution of this. And one way of doing so will be to restart the nuclear program. and then we will be back to where the dance began from the beginning. It's not as if the day that the MOU collapses, there will be war right away, but it will be the same thing as with the collapse of the JCPOA that it sets the stage for a trajectory that eventually led to war.
+And by the time the next president comes in, the Iranians are likely going to demand some sort of a final resolution of this. And one way of doing so will be to restart the nuclear program. and then we will be back to where the dance began from the beginning. It's not as if the day that the MOU collapses, there will be war right away, but it will be the same thing as with the collapse of the JCPOA that
+
+### Segment 4 — It Sets The Stage For
+
+it sets the stage for a trajectory that eventually led to war.
 
 And this time around, it will take far less time. It won't be immediate, but will take far less time before you have some sort of a confrontation. I'm just saying that it would be very foolish of the Democrats to contribute to that scenario, thinking that the blame will solely be at the feet of Trump in that scenario.
 
@@ -105,7 +121,11 @@ They want to resolve it even when the next president comes. But wouldn't Iran be
 
 So for instance, the investment from the the GCC states have been prevented in the past because of US sanctions. The Iranians expected as part of the US Saudi Iran Saudi deal normalization. There would be massive investments by the Saudis in Iran. They expected it after signing with the UAE. All of they ended up being as MOUs. They never were materialized because US sanctions at least that is the argument that the Saudi side put forward is that the as long as the sanctions are there, they're not going to violate them.
 
-So if we go to a scenario, the most likely scenario is that none of the sanctions will be lifted except the Iranians will be able to continue to sell, but there won't be any sanctions relief beyond that. There will not be any major investment. So all of the type of economic benefits that they would get from having a final deal is not going to be materialized.
+So if we go to a scenario, the most likely scenario
+
+### Segment 5 — Is That None Of The
+
+is that none of the sanctions will be lifted except the Iranians will be able to continue to sell, but there won't be any sanctions relief beyond that. There will not be any major investment. So all of the type of economic benefits that they would get from having a final deal is not going to be materialized.
 
 If if it wasn't like this, the Iranians would have no incentive to write to sign a final deal. They would get everything anyways. And that's not the way this is structured. I I've had guests make the argument that Iran really doesn't have much incentive to sign a deal. Again, they do control the Strait of Hormuz. I understand we're talking about billions getting invested there.
 
@@ -119,7 +139,11 @@ Right. Yes. What >> a victory. a Pyrrhic victory meaning yes you won but you hav
 
 speech today or was it yesterday talking about the important of shifting now over to economic development recognizing that Iran has fallen deep behind many of these other states in the region because it has been in this constant state between war and peace constant under threat of having war and as a result have not been able to develop economically in the manner that its neighbors have to the south despite the fact that it has massive massive opportunities and potential and that the population is tired of that and for the
 
-first time they actually have had a a significant success vis-à-vis the United States they are in their absolutely best position ever to be able to negotiate a deal with the United States terms much better what they could have been 10 years ago precisely because the United States failed uh achieving its military objectives and to not take advantage of that uh is a huge risk uh but at the same time part of the reason why you're seeing them being so insistent on Lebanon is because they know they cannot really put all of their trust into this deal.
+first time they actually have had a a significant success vis-à-vis the United States they are in their absolutely best position ever to be able
+
+### Segment 6 — To Negotiate A Deal With
+
+to negotiate a deal with the United States terms much better what they could have been 10 years ago precisely because the United States failed uh achieving its military objectives and to not take advantage of that uh is a huge risk uh but at the same time part of the reason why you're seeing them being so insistent on Lebanon is because they know they cannot really put all of their trust into this deal.
 
 Lebanon is important for Iran because it is their forward defense. It is what will prevent the Israelis from attacking Iran again if they knowing that there is a strong Hezbollah in the south. That will be any attack on Iran will mean that there's an immediate confrontation between uh on Israel's own border.
 
@@ -135,7 +159,11 @@ Trump can lift those with a stroke of a pen. He doesn't have to go through Congr
 
 >> They're suffering from the sanctions and then they're complaining about an investment fund that actually would rebuild the country. >> Exactly. >> You know it's completely hypocritical. They cannot claim to actually care about the Iranian people while continuing to support sanctions, war, and things that deprive them of a decent livelihood.
 
->> How long um how long have you been covering Iran for? A very long time, hasn't it? >> It's been Yeah. 25 26 years. >> Is this um would you say this is the most optimistic you've been on Iran's future and maybe potentially getting welcome to the global economy? No, I was more optimistic after JCPOA. I was um but it it's a it's a very good question, Mario, because you would have to take into account a lot of different factors to see, okay, is this actually something one should be more optimistic about. Um many of the factors are really
+>> How long um how long have you been covering Iran for? A very long time, hasn't it? >> It's been Yeah. 25 26 years. >> Is this um would you say this is the most optimistic you've been on Iran's future and maybe potentially getting welcome to the global economy? No, I was more optimistic after JCPOA. I was um but it it's a it's a very good question, Mario, because you
+
+### Segment 7 — Would Have To Take Into
+
+would have to take into account a lot of different factors to see, okay, is this actually something one should be more optimistic about. Um many of the factors are really
 
 changing. I mean, for instance, um someone said that, you know, the Europeans are no longer at the table. And I saw jokes on Twitter saying, "Forget about the table. The Europeans are not in the lobby room. They're not even in the hotel. They're nowhere to be found. I heard from the Iranian side is that they consider that the Europeans are going to be at the very end of the line when it comes to any dealings with Iran economically going forward.
 
@@ -151,7 +179,11 @@ It didn't actually work out the way that they thought. So now we know that. So i
 
 Extremely well explained. I think one factor you missed as well which is also positive and that's the shifting sentiment towards Israel. So I think Israel's influence over the US government has shifted so drastically >> since 2015. I think that makes a big difference. >> Yeah. No, you're absolutely right. >> The next one.
 
->> So would you say it's possible that could you become more optimistic from this because the MOU also seems very weak. It just seems very vague on so many fronts. Um the Lebanese front for example respecting Lebanese sovereignty is pretty vague and that's nothing to do with the US.
+>> So would you say it's possible that could you become more optimistic from this because
+
+### Segment 8 — The Mou Also Seems Very
+
+the MOU also seems very weak. It just seems very vague on so many fronts. Um the Lebanese front for example respecting Lebanese sovereignty is pretty vague and that's nothing to do with the US.
 
 How can the US guarantee this? The unfreezing of assets doesn't mention a numbers who unfreezes them. Lifting of sanctions, it's like at a everything's at a future date as well. So, I know ambiguity in an MOU is normal in such a short period of time. Um, but >> yeah, I I think I think um I think there's a lot of criticisms one can put forward that there are ambiguities. I I think that is correct.
 
@@ -167,7 +199,11 @@ negotiations work will they come to a final agreement but it was never supposed 
 
 And do you think um I know a ceasefire applies to Lebanon. I think Israel will abide by that even even though I'm not certain of that. What about Israel pulling out of Lebanon? Do you think that could happen? Because I I'm in the thought that even Iran doesn't care that much about Israel pulling out of Lebanon.
 
-They care more about remaining strong. >> Yes. The issue though of course is that if Israel is in Lebanon and we talked about this before, sorry. Uh uh if Israel is in Lebanon, then Hezbollah will have a justification of resisting and pushing them out. We did talk about it. Yeah. And any ceasefire that allows Israel to stay essentially can be seen as cementing their presence there.
+They care more about remaining strong. >> Yes. The issue though of course is that if Israel is in Lebanon and we talked about this before, sorry. Uh uh if Israel is in Lebanon, then Hezbollah will have a justification of resisting and pushing them out. We did talk about it. Yeah. And any ceasefire that allows Israel to stay essentially
+
+### Segment 9 — Can Be Seen As Cementing
+
+can be seen as cementing their presence there.
 
 So I think that Lebanon is going to be the trickiest and the greatest vulnerability of this MOU altogether. But I have to tell you, Mario, some of the things Trump is saying these days are stunning. >> And it goes to show for all the, you know, everyone who was skeptical that he ever could do this, I think it's completely justified.
 

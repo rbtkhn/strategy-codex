@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [Wcrd8lVc7vw](https://www.youtube.com/watch?v=Wcrd8lVc7vw) | `source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [Wcrd8lVc7vw](https://www.youtube.com/watch?v=Wcrd8lVc7vw) | `source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `jermy` | [choJfnHoyXM](https://www.youtube.com/watch?v=choJfnHoyXM) | `source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `wilkerson`, `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=W1h2i5NscpI) | `source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md`
+- `source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md`
 - `source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md`
 - `source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md`

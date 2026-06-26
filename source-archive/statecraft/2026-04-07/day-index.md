@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Diesen` (1), `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Diesen` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,11 +32,11 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-RUWotSz-J8) | `source-alex-mercouris-us-prepares-huge-iran-strike-russian-spy-satellite-data-helps-iran-kiev-2026-04-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-RUWotSz-J8) | `source-alexander-mercouris-us-prepares-huge-iran-strike-russian-spy-satellite-data-helps-iran-kiev-2026-04-07.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=k-ZXf1Gd1-Y) | `source-dialogue-works-seyed-m-marandi-iran-slams-trump-s-ultimatum-w-counter-ultimatum-war-hea-2026-04-07.md` |
 | `glenn-diesen` | Diesen | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=1wMB1oSrqvo) | `source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=1JScWpTLn1M) | `source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md` |
-| `alexander-mercouris` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-07) | `source-hormuz-deadline-satellites-oreshnik-2026-04-07.md` |
+| `the-duran` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-07) | `source-hormuz-deadline-satellites-oreshnik-2026-04-07.md` |
 
 ## Writer sources
 
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-prepares-huge-iran-strike-russian-spy-satellite-data-helps-iran-kiev-2026-04-07.md`
+- `source-alexander-mercouris-us-prepares-huge-iran-strike-russian-spy-satellite-data-helps-iran-kiev-2026-04-07.md`
 - `source-dialogue-works-seyed-m-marandi-iran-slams-trump-s-ultimatum-w-counter-ultimatum-war-hea-2026-04-07.md`
 - `source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md`
 - `source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md`

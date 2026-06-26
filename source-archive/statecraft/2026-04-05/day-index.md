@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,9 +32,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [dL2NsBX8RCg](https://www.youtube.com/watch?v=dL2NsBX8RCg) | `source-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [dL2NsBX8RCg](https://www.youtube.com/watch?v=dL2NsBX8RCg) | `source-alexander-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=1ieO54XH7a4) | `source-daniel-davis-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md` |
-| `alexander-mercouris` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-05) | `source-f15-rescue-hormuz-nato-kiev-2026-04-05.md` |
+| `the-duran` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-05) | `source-f15-rescue-hormuz-nato-kiev-2026-04-05.md` |
 | `glenn-diesen` | — | `diesen`, `mcgovern` | [watch](https://www.youtube.com/watch?v=J7JDMRg_rJ4) | `source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md` |
 
 ## Writer sources
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md`
+- `source-alexander-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md`
 - `source-daniel-davis-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md`
 - `source-f15-rescue-hormuz-nato-kiev-2026-04-05.md`
 - `source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md`

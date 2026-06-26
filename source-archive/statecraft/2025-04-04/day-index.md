@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AYxWAZSY1Zc) | `source-alex-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AYxWAZSY1Zc) | `source-alexander-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `marandi`, `wilkerson` | [watch](https://www.youtube.com/watch?v=h0dO3SaM37s) | `source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=dmxYhi5cxZ0) | `source-glenn-diesen-chas-freeman-diplomacy-at-an-impasse-trump-escalates-actions-against-russia-and-iran-2025-04-04.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md`
+- `source-alexander-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md`
 - `source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md`
 - `source-glenn-diesen-chas-freeman-diplomacy-at-an-impasse-trump-escalates-actions-against-russia-and-iran-2025-04-04.md`

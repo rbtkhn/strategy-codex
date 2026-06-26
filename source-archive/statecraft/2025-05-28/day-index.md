@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YIj082aG0Rk) | `source-alex-mercouris-us-europe-argue-on-sanctions-taurus-missiles-west-despair-over-russian-advances-kiev-ad-collapse-2025-05-28.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YIj082aG0Rk) | `source-alexander-mercouris-us-europe-argue-on-sanctions-taurus-missiles-west-despair-over-russian-advances-kiev-ad-collapse-2025-05-28.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-does-putin-fear-trump-2025-05-28.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-europe-argue-on-sanctions-taurus-missiles-west-despair-over-russian-advances-kiev-ad-collapse-2025-05-28.md`
+- `source-alexander-mercouris-us-europe-argue-on-sanctions-taurus-missiles-west-despair-over-russian-advances-kiev-ad-collapse-2025-05-28.md`
 - `source-judging-freedom-amb-charles-freeman-does-putin-fear-trump-2025-05-28.md`

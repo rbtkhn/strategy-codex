@@ -32,10 +32,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [W1ahOFuZju4](https://www.youtube.com/watch?v=W1ahOFuZju4) | `source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [W1ahOFuZju4](https://www.youtube.com/watch?v=W1ahOFuZju4) | `source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [7ZNxxHp6UKE](https://www.youtube.com/watch?v=7ZNxxHp6UKE) | `source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `alkorshid`, `nima` | [8f61k163LgQ](https://www.youtube.com/watch?v=8f61k163LgQ) | `source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [vph0eVBwrmU](https://www.youtube.com/watch?v=vph0eVBwrmU) | `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [vph0eVBwrmU](https://www.youtube.com/watch?v=vph0eVBwrmU) | `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mcgovern` | [Xgcv0PiLJTY](https://www.youtube.com/watch?v=Xgcv0PiLJTY) | `source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md` |
 | `judging-freedom` | Judging Freedom | `crooke`, `napolitano` | [enmsuDrZdqw](https://www.youtube.com/watch?v=enmsuDrZdqw) | `source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md` |
 | `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [yEjvpgDoNH8](https://www.youtube.com/watch?v=yEjvpgDoNH8) | `source-judging-freedom-johnson-why-iran-still-controls-hormuz-2026-06-22.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md`
+- `source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md`
 - `source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md`
 - `source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md`
 - `source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md`

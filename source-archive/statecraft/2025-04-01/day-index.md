@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `al-arabiya-english` | Counterpoints | `mearsheimer` | [watch](https://www.youtube.com/watch?v=I4n7JCmQfbc) | `source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md` |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=GUcuQ6C9X-k) | `source-alex-mercouris-facing-us-threats-tariffs-russia-china-confer-wang-yi-moscow-oskol-2025-04-01.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=GUcuQ6C9X-k) | `source-alexander-mercouris-facing-us-threats-tariffs-russia-china-confer-wang-yi-moscow-oskol-2025-04-01.md` |
 
 ## Writer sources
 
@@ -54,4 +54,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 ## Files
 
 - `source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md`
-- `source-alex-mercouris-facing-us-threats-tariffs-russia-china-confer-wang-yi-moscow-oskol-2025-04-01.md`
+- `source-alexander-mercouris-facing-us-threats-tariffs-russia-china-confer-wang-yi-moscow-oskol-2025-04-01.md`

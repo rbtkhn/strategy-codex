@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=wceU84WP1ZQ) | `source-alex-mercouris-putin-stuns-us-rejects-22-point-us-ukraine-peace-plan-won-t-see-witkoff-us-seeks-us-russia-summit-2025-05-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=wceU84WP1ZQ) | `source-alexander-mercouris-putin-stuns-us-rejects-22-point-us-ukraine-peace-plan-won-t-see-witkoff-us-seeks-us-russia-summit-2025-05-18.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-stuns-us-rejects-22-point-us-ukraine-peace-plan-won-t-see-witkoff-us-seeks-us-russia-summit-2025-05-18.md`
+- `source-alexander-mercouris-putin-stuns-us-rejects-22-point-us-ukraine-peace-plan-won-t-see-witkoff-us-seeks-us-russia-summit-2025-05-18.md`

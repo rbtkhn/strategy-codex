@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_G7cYQeuq3w) | `source-alex-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_G7cYQeuq3w) | `source-alexander-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=y5gXgD6qGzc) | `source-glenn-diesen-chas-freeman-america-s-global-role-after-the-ukraine-proxy-war-2025-08-14.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=rWJjZHIpXv4) | `source-glenn-diesen-larry-johnson-what-to-expect-from-putin-trump-meeting-in-alaska-2025-08-14.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md`
+- `source-alexander-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md`
 - `source-glenn-diesen-chas-freeman-america-s-global-role-after-the-ukraine-proxy-war-2025-08-14.md`
 - `source-glenn-diesen-larry-johnson-what-to-expect-from-putin-trump-meeting-in-alaska-2025-08-14.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Diesen` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Diesen` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=IjUSNUKOO6k) | `source-alex-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=IjUSNUKOO6k) | `source-alexander-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [-62UrB2Nyl0](https://www.youtube.com/watch?v=-62UrB2Nyl0) | `source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md` |
 | `glenn-diesen` | Diesen | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=_ltGrKLsZgo) | `source-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md` |
 | `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=CFOnLl8jXKY) | `source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md`
+- `source-alexander-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md`
 - `source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md`
 - `source-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md`
 - `source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md`

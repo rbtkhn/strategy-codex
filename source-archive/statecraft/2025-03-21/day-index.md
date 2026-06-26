@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fv7VjlmohWY) | `source-alex-mercouris-starmer-humiliated-as-eu-allies-drift-away-eu-states-no-to-troops-in-ukraine-trump-downgrades-nato-2025-03-21.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fv7VjlmohWY) | `source-alexander-mercouris-starmer-humiliated-as-eu-allies-drift-away-eu-states-no-to-troops-in-ukraine-trump-downgrades-nato-2025-03-21.md` |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-on-trump-keeping-promises-or-breaking-them-2025-03-21.md` |
 | `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [llyBcKg6tNg](https://www.youtube.com/watch?v=llyBcKg6tNg) | `source-india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-starmer-humiliated-as-eu-allies-drift-away-eu-states-no-to-troops-in-ukraine-trump-downgrades-nato-2025-03-21.md`
+- `source-alexander-mercouris-starmer-humiliated-as-eu-allies-drift-away-eu-states-no-to-troops-in-ukraine-trump-downgrades-nato-2025-03-21.md`
 - `source-dialogue-works-amb-chas-freeman-on-trump-keeping-promises-or-breaking-them-2025-03-21.md`
 - `source-india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md`

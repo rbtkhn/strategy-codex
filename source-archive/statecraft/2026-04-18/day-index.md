@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (11), `verbatim-sidecar` (2), `paste-bundle` (1)
 - Source form mix: `post` (11), `interview` (1), `newsletter` (1), `solo` (1)
-- Distinct channels/shows: `3`
+- Distinct channels/shows: `4`
 - Distinct hosts: `2`
 - Distinct guests: `1`
 - Distinct threads: `12`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (1), `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis` (1), `Dialogue Works` (1), `The Duran` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nJhaW_x14Bw) | `source-alex-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nJhaW_x14Bw) | `source-alexander-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=ap41RA_DqRk) | `source-dialogue-works-seyed-m-marandi-iran-just-put-the-strait-of-hormuz-on-limited-mode-signs-2026-04-18.md` |
 
 ## Writer sources
@@ -54,16 +54,16 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | — | — | — | `source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md` |
 | — | — | — | `source-diesen-2026-04-18-verbatim-2026-04-18.md` |
 | — | `diesen` | — | `source-diesen-2026-04-18.md` |
+| The Duran | `mercouris` | — | `source-duran-mercouris-2026-04-18.md` |
 | — | `johnson` | — | `source-johnson-2026-04-18.md` |
 | — | `marandi` | — | `source-marandi-2026-04-18.md` |
-| — | `mercouris` | — | `source-mercouris-2026-04-18.md` |
 | — | `pape` | — | `source-pape-2026-04-18.md` |
 | — | `parsi` | — | `source-parsi-2026-04-18.md` |
 | — | `ritter` | — | `source-ritter-2026-04-18.md` |
 
 ## Files
 
-- `source-alex-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md`
+- `source-alexander-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md`
 - `source-barnes-2026-04-18.md`
 - `source-crooke-markets-prematurely-may-celebrate-2026-04-18.md`
 - `source-daniel-davis-2026-04-18.md`
@@ -71,9 +71,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-seyed-m-marandi-iran-just-put-the-strait-of-hormuz-on-limited-mode-signs-2026-04-18.md`
 - `source-diesen-2026-04-18-verbatim-2026-04-18.md`
 - `source-diesen-2026-04-18.md`
+- `source-duran-mercouris-2026-04-18.md`
 - `source-johnson-2026-04-18.md`
 - `source-marandi-2026-04-18.md`
-- `source-mercouris-2026-04-18.md`
 - `source-pape-2026-04-18.md`
 - `source-parsi-2026-04-18.md`
 - `source-ritter-2026-04-18.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LFiaRW9d4uQ) | `source-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LFiaRW9d4uQ) | `source-alexander-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=UnsiLktwK38) | `source-daniel-davis-trump-forces-ukraine-strategy-the-world-rejects-it-2025-02-20.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md`
+- `source-alexander-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md`
 - `source-daniel-davis-trump-forces-ukraine-strategy-the-world-rejects-it-2025-02-20.md`

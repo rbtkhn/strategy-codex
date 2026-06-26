@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2SFeWcHzm6c) | `source-alex-mercouris-trump-warns-kiev-no-more-weapons-trump-threatens-moscow-more-sanctions-russia-unfazed-by-warning-2025-04-30.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2SFeWcHzm6c) | `source-alexander-mercouris-trump-warns-kiev-no-more-weapons-trump-threatens-moscow-more-sanctions-russia-unfazed-by-warning-2025-04-30.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-warns-kiev-no-more-weapons-trump-threatens-moscow-more-sanctions-russia-unfazed-by-warning-2025-04-30.md`
+- `source-alexander-mercouris-trump-warns-kiev-no-more-weapons-trump-threatens-moscow-more-sanctions-russia-unfazed-by-warning-2025-04-30.md`

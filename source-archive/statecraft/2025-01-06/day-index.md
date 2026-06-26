@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (4), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (4), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=y0lZasZNflE) | `source-alex-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=y0lZasZNflE) | `source-alexander-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=O2QRgSVpLow) | `source-daniel-davis-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=uUAXxlonWFo) | `source-daniel-davis-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=lxQzi1tmo68) | `source-daniel-davis-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md`
+- `source-alexander-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md`
 - `source-daniel-davis-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md`
 - `source-daniel-davis-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md`
 - `source-daniel-davis-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md`

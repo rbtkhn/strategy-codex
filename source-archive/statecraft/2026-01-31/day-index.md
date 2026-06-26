@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Diesen (Greater Eurasia)` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Diesen (Greater Eurasia)` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hu0YQAe0TGs) | `source-alex-mercouris-putin-meets-larijani-as-iran-seeks-russia-s-help-ukraine-hit-by-massive-2026-01-31.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hu0YQAe0TGs) | `source-alexander-mercouris-putin-meets-larijani-as-iran-seeks-russia-s-help-ukraine-hit-by-massive-2026-01-31.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=OV75YsYnE8U) | `source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-meets-larijani-as-iran-seeks-russia-s-help-ukraine-hit-by-massive-2026-01-31.md`
+- `source-alexander-mercouris-putin-meets-larijani-as-iran-seeks-russia-s-help-ukraine-hit-by-massive-2026-01-31.md`
 - `source-crooke-trump-dithers-to-find-an-exploitable-2026-01-31.md`
 - `source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md`
 - `source-simplicius-sitrep-13026-putin-flatters-trump-2026-01-31.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nKydo_xcurg) | `source-alex-mercouris-moscow-talks-tough-us-ignores-kiev-truce-breaches-without-peace-ideas-china-russia-stand-together-2025-04-02.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nKydo_xcurg) | `source-alexander-mercouris-moscow-talks-tough-us-ignores-kiev-truce-breaches-without-peace-ideas-china-russia-stand-together-2025-04-02.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-talks-tough-us-ignores-kiev-truce-breaches-without-peace-ideas-china-russia-stand-together-2025-04-02.md`
+- `source-alexander-mercouris-moscow-talks-tough-us-ignores-kiev-truce-breaches-without-peace-ideas-china-russia-stand-together-2025-04-02.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6aV9-8xxcEk) | `source-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6aV9-8xxcEk) | `source-alexander-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=0cw2HmMpvDQ) | `source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [watch](https://www.youtube.com/watch?v=5D-OD0iezZ8) | `source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md` |
 | `glenn-diesen` | Diesen - Greater Eurasia Podcast | `diesen` | [watch](https://www.youtube.com/watch?v=RWTvTzWYG0o) | `source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md`
+- `source-alexander-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md`
 - `source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md`
 - `source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md`
 - `source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md`

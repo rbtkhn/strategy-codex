@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=__DTh5st1Mg) | `source-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=__DTh5st1Mg) | `source-alexander-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=dqdS-KyNtSk) | `source-daniel-davis-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `baud` | [watch](https://www.youtube.com/watch?v=I0P-0D-U7uw) | `source-daniel-davis-no-common-ground-in-us-ukraine-peace-talks-col-jacques-baud-2025-03-10.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md`
+- `source-alexander-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md`
 - `source-daniel-davis-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10.md`
 - `source-daniel-davis-no-common-ground-in-us-ukraine-peace-talks-col-jacques-baud-2025-03-10.md`
 - `source-sachs-the-heat-one-on-one-2025-03-10.md`

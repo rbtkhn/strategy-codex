@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (3), `Mario Nawfal` (3), `Daniel Davis Deep Dive` (2), `Dialogue Works` (2), `Glenn Diesen` (2), `Mercouris` (1), `The Chris Hedges Report` (1), `escalationtrap.substack.com` (1), `tritaparsi.substack.com` (1)
+- `Judging Freedom` (3), `Mario Nawfal` (3), `Daniel Davis Deep Dive` (2), `Dialogue Works` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `The Chris Hedges Report` (1), `escalationtrap.substack.com` (1), `tritaparsi.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [aXsYSfAc7ks](https://www.youtube.com/watch?v=aXsYSfAc7ks) | `source-alex-mercouris-kiev-odessa-oreshnik-fortifications-iran-israel-strikes-2026-06-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [aXsYSfAc7ks](https://www.youtube.com/watch?v=aXsYSfAc7ks) | `source-alexander-mercouris-kiev-odessa-oreshnik-fortifications-iran-israel-strikes-2026-06-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [SRCgVFPIxwM](https://www.youtube.com/watch?v=SRCgVFPIxwM) | `source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [yu1H2bORJPM](https://www.youtube.com/watch?v=yu1H2bORJPM) | `source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [CEXkLl7pVzo](https://www.youtube.com/watch?v=CEXkLl7pVzo) | `source-dialogue-works-baud-iran-israel-new-war-front-mediterranean-2026-06-08.md` |
@@ -66,7 +66,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-odessa-oreshnik-fortifications-iran-israel-strikes-2026-06-08.md`
+- `source-alexander-mercouris-kiev-odessa-oreshnik-fortifications-iran-israel-strikes-2026-06-08.md`
 - `source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md`
 - `source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md`
 - `source-dialogue-works-baud-iran-israel-new-war-front-mediterranean-2026-06-08.md`

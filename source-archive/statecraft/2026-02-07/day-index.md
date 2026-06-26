@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Mercouris` (1), `substack.com/@tritaparsi` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kOY9J1ZEic0) | `source-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kOY9J1ZEic0) | `source-alexander-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md` |
 | `glenn-diesen` | Glenn Diesen (channel / program — pin canonical series title when pinned) | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=StIeZ7QY7Wk) | `source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md`
+- `source-alexander-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md`
 - `source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md`
 - `source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md`
 - `source-parsi-irans-despair-is-us-policy-2026-02-07.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (2), `India and Global Left` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Daniel Davis` (2), `Alexander Mercouris` (1), `India and Global Left` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=apJGoK1HqIU) | `source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=apJGoK1HqIU) | `source-alexander-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [gltqzfUnhFg](https://www.youtube.com/watch?v=gltqzfUnhFg) | `source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md`
+- `source-alexander-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md`
 - `source-daniel-davis-complete-destruction-and-certain-death-trumps-newest-threat-to-iran-2026-03-07.md`
 - `source-daniel-davis-intel-briefing-what-we-learned-this-week-2026-03-07.md`
 - `source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md`

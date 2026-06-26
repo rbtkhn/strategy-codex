@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=02f_7i-pfhI) | `source-alex-mercouris-us-neocons-sabotage-russia-talks-stop-putin-call-want-ultimatum-sanctions-huge-russian-build-up-2025-04-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=02f_7i-pfhI) | `source-alexander-mercouris-us-neocons-sabotage-russia-talks-stop-putin-call-want-ultimatum-sanctions-huge-russian-build-up-2025-04-05.md` |
 | `dialogue-works` | Dialogue Works | `wilkerson`, `johnson` | — | `source-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-neocons-sabotage-russia-talks-stop-putin-call-want-ultimatum-sanctions-huge-russian-build-up-2025-04-05.md`
+- `source-alexander-mercouris-us-neocons-sabotage-russia-talks-stop-putin-call-want-ultimatum-sanctions-huge-russian-build-up-2025-04-05.md`
 - `source-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md`

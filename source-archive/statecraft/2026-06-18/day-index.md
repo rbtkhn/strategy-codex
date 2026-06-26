@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [8OgsCBK2gdc](https://www.youtube.com/watch?v=8OgsCBK2gdc) | `source-alex-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [8OgsCBK2gdc](https://www.youtube.com/watch?v=8OgsCBK2gdc) | `source-alexander-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [M987L0MkUu4](https://www.youtube.com/watch?v=M987L0MkUu4) | `source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md` |
 | `dialogue-works` | Dialogue Works | `krainer`, `alkorshid`, `nima` | [Rrt7GZT7kwI](https://www.youtube.com/watch?v=Rrt7GZT7kwI) | `source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `alkorshid`, `nima` | [2QWkT0fs5bY](https://www.youtube.com/watch?v=2QWkT0fs5bY) | `source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` |
@@ -62,7 +62,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md`
+- `source-alexander-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md`
 - `source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md`
 - `source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md`
 - `source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md`

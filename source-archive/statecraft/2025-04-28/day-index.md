@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=BjiCi2c9qUU) | `source-alex-mercouris-lavrov-kiev-regime-must-go-crimea-4-regions-zaporozhye-npp-are-russian-status-non-negotiable-2025-04-28.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=BjiCi2c9qUU) | `source-alexander-mercouris-lavrov-kiev-regime-must-go-crimea-4-regions-zaporozhye-npp-are-russian-status-non-negotiable-2025-04-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/ebdfrBo-dUo) | `source-daniel-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-lavrov-kiev-regime-must-go-crimea-4-regions-zaporozhye-npp-are-russian-status-non-negotiable-2025-04-28.md`
+- `source-alexander-mercouris-lavrov-kiev-regime-must-go-crimea-4-regions-zaporozhye-npp-are-russian-status-non-negotiable-2025-04-28.md`
 - `source-daniel-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md`

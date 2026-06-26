@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1dXh4Y_OLyc) | `source-alex-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1dXh4Y_OLyc) | `source-alexander-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=Bsk30tThKeU) | `source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=wx8APuZxMFc) | `source-dialogue-works-andrei-martyanov-nato-is-collapsing-right-before-our-eyes-2025-01-26.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md`
+- `source-alexander-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md`
 - `source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md`
 - `source-dialogue-works-andrei-martyanov-nato-is-collapsing-right-before-our-eyes-2025-01-26.md`

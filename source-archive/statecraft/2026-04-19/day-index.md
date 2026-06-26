@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Diesen - Greater Eurasia Podcast` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Diesen - Greater Eurasia Podcast` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bxMBqOQmKcc) | `source-alex-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bxMBqOQmKcc) | `source-alexander-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=jtQXkJWAY7o) | `source-daniel-davis-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md` |
 | `glenn-diesen` | Diesen - Greater Eurasia Podcast | `diesen`, `matlock` | [watch](https://www.youtube.com/watch?v=_7dgtdNXOGM) | `source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md` |
 
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md`
+- `source-alexander-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md`
 - `source-daniel-davis-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md`
 - `source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md`
 - `source-ritter-2026-04-19.md`

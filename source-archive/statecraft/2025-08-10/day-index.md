@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=GawAwUwW6zU) | `source-alex-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=GawAwUwW6zU) | `source-alexander-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson`, `ritter` | [watch](https://www.youtube.com/watch?v=vi0ATui62g0) | `source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `berletic` | [watch](https://www.youtube.com/watch?v=1fwXBgu6Z5I) | `source-glenn-diesen-brian-berletic-is-the-us-setting-a-trap-for-russia-in-alaska-2025-08-10.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md`
+- `source-alexander-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md`
 - `source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md`
 - `source-glenn-diesen-brian-berletic-is-the-us-setting-a-trap-for-russia-in-alaska-2025-08-10.md`

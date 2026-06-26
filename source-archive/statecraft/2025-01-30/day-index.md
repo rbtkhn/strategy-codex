@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Jeffrey Sachs` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oprur4voQCk) | `source-alex-mercouris-trump-aid-stop-kiev-panics-pleads-for-eu-help-experts-russia-military-no-2025-01-30.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oprur4voQCk) | `source-alexander-mercouris-trump-aid-stop-kiev-panics-pleads-for-eu-help-experts-russia-military-no-2025-01-30.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=hTgTDsi132k) | `source-daniel-davis-tulsi-sets-her-record-straight-dni-confirmation-hearing-2025-01-30.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=NISC6qftR_A) | `source-daniel-davis-ukrainian-cities-keep-falling-w-patrick-henningsen-2025-01-30.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-aid-stop-kiev-panics-pleads-for-eu-help-experts-russia-military-no-2025-01-30.md`
+- `source-alexander-mercouris-trump-aid-stop-kiev-panics-pleads-for-eu-help-experts-russia-military-no-2025-01-30.md`
 - `source-daniel-davis-tulsi-sets-her-record-straight-dni-confirmation-hearing-2025-01-30.md`
 - `source-daniel-davis-ukrainian-cities-keep-falling-w-patrick-henningsen-2025-01-30.md`
 - `source-sachs-on-us-arrogance-global-power-and-why-we-cant-trust-our-leaders-2025-01-30.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Dialogue Works` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (3), `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=5rfL50lir0g) | `source-alex-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=5rfL50lir0g) | `source-alexander-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=3mueAlDch2U) | `source-daniel-davis-austin-v-hegseth-who-s-more-qualified-2025-01-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=SaRwAF4XuZs) | `source-daniel-davis-gaza-ceasefire-hostage-deal-in-the-works-2025-01-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=G9O4Ie_aaGM) | `source-daniel-davis-hegseth-the-change-agent-we-need-2025-01-15.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md`
+- `source-alexander-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md`
 - `source-daniel-davis-austin-v-hegseth-who-s-more-qualified-2025-01-15.md`
 - `source-daniel-davis-gaza-ceasefire-hostage-deal-in-the-works-2025-01-15.md`
 - `source-daniel-davis-hegseth-the-change-agent-we-need-2025-01-15.md`

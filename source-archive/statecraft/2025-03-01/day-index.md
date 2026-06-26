@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=mG2dTDIGjaM) | `source-duran-mercouris-lets-talk-about-zelensky-live-2025-03-01.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=mG2dTDIGjaM) | `source-duran-mercouris-lets-talk-about-zelensky-live-2025-03-01.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [ZPyoLPEroOo](https://www.youtube.com/watch?v=ZPyoLPEroOo) | `source-india-global-left-trump-zelensky-oval-office-chas-freeman-2025-03-01.md` |
 
 ## Writer sources

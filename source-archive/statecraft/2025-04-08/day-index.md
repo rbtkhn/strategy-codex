@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=BxTvdJ0fECM) | `source-alex-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=BxTvdJ0fECM) | `source-alexander-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md` |
 | `glenn-diesen` | — | `diesen`, `martyanov` | [watch](https://www.youtube.com/watch?v=VT43w4T8wF4) | `source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-donald-and-bibi-need-a-war-2025-04-08.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md`
+- `source-alexander-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md`
 - `source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md`
 - `source-judging-freedom-amb-charles-freeman-donald-and-bibi-need-a-war-2025-04-08.md`
 - `source-sachs-reimagining-growth-through-sustainable-development-2025-04-08.md`

@@ -32,10 +32,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [kUy3soYsmKY](https://www.youtube.com/watch?v=kUy3soYsmKY) | `source-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [kUy3soYsmKY](https://www.youtube.com/watch?v=kUy3soYsmKY) | `source-alexander-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=Xt2e_79Rua4) | `source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md` |
 | `glenn-diesen` | Glenn Diesen | `jermy`, `diesen` | [ALZxMPIjg6M](https://www.youtube.com/watch?v=ALZxMPIjg6M) | `source-glenn-diesen-steve-jermy-iran-war-endgame-global-fallout-2026-03-01.md` |
-| `alexander-mercouris` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-03-01) | `source-khamenei-strike-hormuz-russia-2026-03-01.md` |
+| `the-duran` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-03-01) | `source-khamenei-strike-hormuz-russia-2026-03-01.md` |
 
 ## Writer sources
 
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
+- `source-alexander-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
 - `source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md`
 - `source-glenn-diesen-daniel-davis-iran-miscalculation-2026-03-01.md`
 - `source-glenn-diesen-steve-jermy-iran-war-endgame-global-fallout-2026-03-01.md`

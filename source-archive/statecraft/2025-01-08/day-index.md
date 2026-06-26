@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (3), `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=FO6FQ9e80PQ) | `source-alex-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=FO6FQ9e80PQ) | `source-alexander-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-3K2avV1DTg) | `source-daniel-davis-las-vegas-cybertruck-explosion-answers-still-needed-2025-01-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2lcgYDyzbNc) | `source-daniel-davis-negotiating-bridge-to-nowhere-trump-zelensky-at-odds-over-nato-2025-01-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=odn9UowksqM) | `source-daniel-davis-russia-advancing-on-all-fronts-toretsk-hangs-by-a-thread-w-patrick-henni-2025-01-08.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md`
+- `source-alexander-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md`
 - `source-daniel-davis-las-vegas-cybertruck-explosion-answers-still-needed-2025-01-08.md`
 - `source-daniel-davis-negotiating-bridge-to-nowhere-trump-zelensky-at-odds-over-nato-2025-01-08.md`
 - `source-daniel-davis-russia-advancing-on-all-fronts-toretsk-hangs-by-a-thread-w-patrick-henni-2025-01-08.md`

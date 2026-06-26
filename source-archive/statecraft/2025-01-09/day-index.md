@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (4), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (4), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8O8GM7E3esY) | `source-alex-mercouris-putin-responds-trump-presser-arctic-russia-s-sphere-will-call-xi-kellogg-2025-01-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8O8GM7E3esY) | `source-alexander-mercouris-putin-responds-trump-presser-arctic-russia-s-sphere-will-call-xi-kellogg-2025-01-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=eRCXwo6X9LI) | `source-daniel-davis-biden-pushes-more-to-ukraine-to-pressure-putin-2025-01-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=tNkuL5qnsKg) | `source-daniel-davis-the-extremely-weak-hand-trump-s-been-dealt-in-ukraine-2025-01-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=mN6CePWDB6M) | `source-daniel-davis-trump-s-war-on-terror-2-0-2025-01-09.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-responds-trump-presser-arctic-russia-s-sphere-will-call-xi-kellogg-2025-01-09.md`
+- `source-alexander-mercouris-putin-responds-trump-presser-arctic-russia-s-sphere-will-call-xi-kellogg-2025-01-09.md`
 - `source-daniel-davis-biden-pushes-more-to-ukraine-to-pressure-putin-2025-01-09.md`
 - `source-daniel-davis-the-extremely-weak-hand-trump-s-been-dealt-in-ukraine-2025-01-09.md`
 - `source-daniel-davis-trump-s-war-on-terror-2-0-2025-01-09.md`

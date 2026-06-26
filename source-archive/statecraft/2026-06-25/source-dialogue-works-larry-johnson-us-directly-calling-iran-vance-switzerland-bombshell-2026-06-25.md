@@ -30,7 +30,7 @@ normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-25; ph-civ replacement SSOT."
 transcript_wrapper_tier: clean
 opening_tier: host-tease
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (johnson, alkorshid, channel:dialogue-works)); 11 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-25 (14 sections)."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (johnson, alkorshid, channel:dialogue-works)); 11 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-25 (14 sections). · source-section even-chunk pass 2026-06-26 (15 sections; close merged; BRICS/Pakistan split). · Foundation of Lies merged into Rutte White House 2026-06-26 (14 sections)."
 transcript_curation: curated_sectioned
 ---
 # Larry Johnson: The U.S. Is Now Directly Calling Iran (Vance's Switzerland Bombshell)
@@ -98,14 +98,12 @@ Then when it comes to jobs, look here in total 195,000 jobs being supported by i
  That is just that's embarrassing. Uh the you know what what do you say to that? This is you know we don't have leaders who are able to sit down and you know talk candidly. uh when you have to come in and per like a organ grinder monkey perform like that dance around and tell Trump he's the greatest of them all since Eisenhower he nobody was able to have such a great achievements in the United States.
 >> Yeah. Let's step back and again look at the reality there is uh you know we've got a we've got a a a nation actually it's not just a nation it's not just the United States it's Europe as well just
 
-### Foundation of Lies — Europe and Iran
-
 built on a foundation of lies one lie after another both uh you know the lies we tell about Iran as a enemy and about Russia as an enemy and about the great successes of Ukraine and about uh the uh the the the military prowess of the Israelis got it just you know at some point these lies will catch up and um you know they'll
 there will be a reckoning hope but the problem with reckoning sometimes though is those those who ought to be held responsible aren't they get away with it.
 
 No, Larry. Two days ago, you know, on June 22nd, June and June 23rd, we had
 
-### BRICS New Delhi — Yuan and SIPs
+### BRICS New Delhi — NSA Meeting and Yuan SIPs
 
 India hosted the 16 BRICS National Security Advisors, NSA and high representatives on national security meeting in New Delhi and the participants of that were Brazil, Russia, India, China, South Africa, Iran, Egypt, Ethiopia, UAE, Saudi Arabia, Indonesia and today I talked with one of our friends of this podcast
 province Sani. He said that the meeting was important in terms of the security and the discussions that have happened but at the margins of the meetings the main meetings the margins were more important more mainstream than the real one that the principal one which was the meetings that China had with other countries and considering what's going on you know with the case of the security council with the case of the security of Eurasia and what's going on in the west Asia there wasn't there was a meeting between Iranian representative
@@ -115,7 +113,11 @@ and India as well considering the new reality of the West Asia. Looking at brick
  It's not being sold in US dollars is my understanding. So, um I I think there was I know Pepe was concerned about this um you know this meeting is a prelude to the summit that's going to be held I guess in September uh in India and because uh of you know Modi the prime minister Mod's actions just prior to the war with uh uh the attack on Iran in you know February 28th Because Modi was in Israel.
  He was he was in Israel acting just like Rutte was acting with Trump. I mean Modi was doing oh BB Netanyahu you're so great. Let me rub butter on your ass. You are the wonder most wonderful man in the world. You know that kind of stuff and really sort of humiliating himself and India as a country by appearing to be so subservient to this u to Israel.
  Um now apparently there there was no joint statement released out of this meeting but uh they you know I guess a public statement by India was very supportive of the Iran-US MOU so they didn't uh you know they weren't uh trying to tear that down or criticize that. So the just the fact that these countries are meeting and talking is is a reminder that there is an alternative to the US-led international economic order which is now I think in the process of dying with the case of India Larry before the sanctions in 2019 they were dependent on
-Russia, Iraq, Saudi Arabia you know Iran but right now Since Iran was under tremendous sanctions from the United States since 2019 and you see they tried to to replace Iran with Russia, Iraq, Saudi Arabia, UAE. The United States is sending oil to India as well. You have West African producers to India. But the the problem with the Strait of Hormuz is that the straight is hitting India as well.
+Russia, Iraq, Saudi Arabia you know Iran but right now Since Iran was under tremendous sanctions from the United States since 2019 and you see they tried to to replace Iran with Russia, Iraq, Saudi Arabia, UAE. The United States is sending oil to India as well. You have West African producers to India.
+
+### BRICS India — Hormuz Impact and Pakistan Path
+
+But the the problem with the Strait of Hormuz is that the straight is hitting India as well.
 >> Yes. They're basically, you know, >> did didn't Ron Ran made some exceptions early on in the blockade policy to allow ships out that went to India, didn't I? I seem to recall that, you know, back in March and April. You Larry you mentioned how important is for you know the two organization SEO and bricks but when it comes to the case of basically with the case of Gaza with the case of Palestine which UN has totally failed to help Palestinian people and we have reporters coming you know this organization human right and
 this organization coming out and talking but there is no action coming out of those talks >> there is no pragmatic you know sort of solution on their part. Do you find it the new reality in the region is that going to help bricks or SEO to maybe participate to have a better role with the case of Palestine? Well, uh I I would hope so, but we haven't seen any.
  The only the only indication we've seen of someone willing to engage on the issue of Palestine now is Iran and the promises that it will be addressed in the course of these negotiations uh on implementing the MOU. Um I the you know the problem I see is you know with Trump um Trump is making more statements today saying he's taking a quote tougher line with Iran.
@@ -126,7 +128,7 @@ Yet the Omanis came out yesterday basically independently say okay and everybody
 talking about earlier that out of out of the SEO out of bricks will emerge a security function and and and see remember that um both Russia and China have been talking about this new security architecture in the Persian Gulf and Pakistan's been playing the leading role in developing that.
  So um that's where we could see a situation where um you you've got a coming together of you know Pakistan ultimately getting into bricks. I think that that may be where where they are headed >> but there they're
 
-### Pakistan Munir — SEO and Gulf Architecture
+### Pakistan Munir — SEO and US Control Myth
 
 Pakistan is a full member of the SEO Larry. >> Yeah >> that that is important. I don't know what what is the reason that they're not part of bricks but SEO is as important as bricks.
  I think the hard core of bricks is SEO. >> Well, yeah. I mean, and that I I would assume that's because of Pakistan's longtime long-standing relationship with China >> because looking at the SEO, we have China, Russia, India, Pakistan, Kasakistan, Kurisan, Tajikistan, Usbakistan, Iran and Belarus. >> Mhm. So you have India and Pakistan both of them in in the SEO which we know the friction between the two sides and been been part of the you know security structure which is the SEO so that I I don't see any sort of problem for them to be part of bricks and
@@ -136,7 +138,11 @@ Um, and I had this discussion the other day with another podcaster, Sulleman Ahm
 But the reality was out of that arrogance and disrespect on the American side is the Hondurans were they were they were sometimes run they were running circles around us on certain issues. You know we'd think we'd have an agreement to do X and they'd be doing Y. Uh you know so um I I see in Pakistan that that being done on a much broader level.
 It is true that during the 1980s, you know, Pakistani truck drivers and uh businessmen profited from the US covert operation against the Soviets, you know, a lot of people made money off of that. And then in 2003 when the United States uh you know in 2001 after we go go into Afghanistan to go after Osama bin Laden and then bin Laden escapes across the border and is in Pakistan for the next, you know, 10 years, 12 years.
  Uh that the United States needed a lot of supplies in Afghanistan. they could only they'd come via ocean uh container, get offloaded in say Karach or the other port and they'd be trucked into Afghanistan. So those truck drivers, they made a ton of money off of the United States and hauling that that kind of uh uh equipment.
- So this uh the it was never u the United States like to think it was in charge but the Pakistanis controlled you know they controlled the logistics in effect and I always maintain logistics is the key to any of these conflicts. So here we now got Munir and yes Munir um ousted uh Immad Imran Khan. >> Yeah.
+ So this uh the it was never u the United States like to think it was in charge but the Pakistanis controlled you know they controlled the logistics in effect and I always maintain logistics is the key to any of these conflicts.
+
+### Pakistan Munir — Imran Khan and Gulf Architecture
+
+So here we now got Munir and yes Munir um ousted uh Immad Imran Khan. >> Yeah.
  And Imran Khan was u you know he's a Trump Trump-like figure you know populist popular he you know he was a football hero but apparently they they got into a dispute over who was going to call the shots and Khan insisted that he was president he was going to call the shots and Munir put him in prison you know I'm giving you the shorthand version but Munir now is clearly in charge of of the country and uh he's not waiting around for the United he's not sitting there with the United States telling him what to do.
  He's doing his own thing. And you know, if if if any US official that dares to think that they they've got Imran got General Asam Munir on a on a short leash and that he's just, you know, he's like some Pakistani boy who's going to hop to and do what we tell him, they're going to be they're in for a rude awakening because right now Moner is really calling the shots and he's playing and he's working with China on this, but he's playing the driving force.
 in creating this new Persian Gulf security architecture. >> Yeah, I think the case of Imran Khan is somehow complicated because he had the his differences with Moner with Asimir in Pakistan. Then the ca war in Ukraine came along and he decided go to Russia to go to Russia and talk with Russians and Biden administration put a lot of pressure I assume on Pakistan to do something about it and you see both sides Washington and the internal friction between Munir and Imran Khan led to that problem with >> right >> it was a combination of the two
@@ -200,8 +206,4 @@ democrats basically the part that is mostly related to democrats they're arguing
 It seems that they're feeling that the United States can get back on track helping Europeans. >> Well, they might and the US may, but it's not going to change the outcome of the war. All it's going to do is increase the likelihood that the United States is now going to get involved in another war that it does not have the logistics base to sustain.
 And there was no other lesson that came out of this war with Iran was the the dramatic logistics limitations on the United States that cannot be easily or quickly rectified and and an entire supply chain that is dependent upon China for critical systems. I mean, like the Tomahawk missiles, the the the the estimate is they're not going to be able to resupply what was used until for, you know, three years.
 So, and that assumes that the United States doesn't get into a a war with China. No, I mean the United States trying to use its military power as as in lie of diplomatic power is it's been been proven to be a complete um screw up. Complete disaster. Hey, listen. I've got a I'm going to have to jump here because I have I do have another thing I have to do.
->> Oh, we're gonna we're about to wrap it up. Larry, thank you. Thank you so much for being with us today. >> All right. We'll see you tomorrow, right? >> Yeah, exactly.
-
-### Close — See You Tomorrow
-
-We're going to talk tomorrow. >> All right, my friend. Later. >> Bye. Bye. Bye.
+>> Oh, we're gonna we're about to wrap it up. Larry, thank you. Thank you so much for being with us today. >> All right. We'll see you tomorrow, right? >> Yeah, exactly. We're going to talk tomorrow. >> All right, my friend. Later. >> Bye. Bye. Bye.

@@ -32,9 +32,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=mY3k77A4RKA) | `source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=mY3k77A4RKA) | `source-alexander-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `baud` | [watch](https://www.youtube.com/watch?v=TBkvo7JDhWk) | `source-daniel-davis-whats-trumps-leverage-ending-the-ukraine-war-w-col-jacques-baud-2025-02-10.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=CnhrgU8iUZo) | `source-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=CnhrgU8iUZo) | `source-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md` |
 
 ## Writer sources
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md`
+- `source-alexander-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md`
 - `source-daniel-davis-whats-trumps-leverage-ending-the-ukraine-war-w-col-jacques-baud-2025-02-10.md`
 - `source-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md`

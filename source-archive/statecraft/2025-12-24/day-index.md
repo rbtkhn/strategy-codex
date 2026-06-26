@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lr0_1yBeIsU) | `source-alex-mercouris-all-out-assault-on-konstantinovka-russia-hails-its-mic-s-success-respond-2025-12-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lr0_1yBeIsU) | `source-alexander-mercouris-all-out-assault-on-konstantinovka-russia-hails-its-mic-s-success-respond-2025-12-24.md` |
 | `dialogue-works` | — | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=mDKeva-bBow) | `source-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=8KKE2q7kTGI) | `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24.md` |
 | `judging-freedom` | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=27r7ZK1Pnro) | `source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-all-out-assault-on-konstantinovka-russia-hails-its-mic-s-success-respond-2025-12-24.md`
+- `source-alexander-mercouris-all-out-assault-on-konstantinovka-russia-hails-its-mic-s-success-respond-2025-12-24.md`
 - `source-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md`
 - `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24.md`
 - `source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md`

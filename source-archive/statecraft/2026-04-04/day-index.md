@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [GtqvH_zAFDw](https://www.youtube.com/watch?v=GtqvH_zAFDw) | `source-alex-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [GtqvH_zAFDw](https://www.youtube.com/watch?v=GtqvH_zAFDw) | `source-alexander-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md` |
 
 ## Writer sources
 
@@ -52,5 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md`
+- `source-alexander-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md`
 - `source-simplicius-disaster-operation-stone-age-begins-2026-04-04.md`

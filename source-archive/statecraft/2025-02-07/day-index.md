@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-can-the-u-s-take-control-of-gaza-2025-02-07.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=bp90d0kSVUA) | `source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=bp90d0kSVUA) | `source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md` |
 
 ## Writer sources
 

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [I9CnSQlcmU4](https://www.youtube.com/watch?v=I9CnSQlcmU4) | `source-alex-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [I9CnSQlcmU4](https://www.youtube.com/watch?v=I9CnSQlcmU4) | `source-alexander-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md` |
 | `dialogue-works` | Dialogue Works | `aguilar`, `alkorshid`, `nima` | [P1ZvwC2YWtI](https://www.youtube.com/watch?v=P1ZvwC2YWtI) | `source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima`, `marandi` | [pDVwed9QDRk](https://www.youtube.com/watch?v=pDVwed9QDRk) | `source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [enmrP08J_Fo](https://www.youtube.com/watch?v=enmrP08J_Fo) | `source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md` |
@@ -61,7 +61,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md`
+- `source-alexander-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md`
 - `source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md`
 - `source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md`
 - `source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md`

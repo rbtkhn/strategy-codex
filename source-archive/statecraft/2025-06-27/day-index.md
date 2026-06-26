@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nHq9QmVWTls) | `source-alex-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nHq9QmVWTls) | `source-alexander-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md`
+- `source-alexander-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md`

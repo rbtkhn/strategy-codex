@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=W6ovr7VbO2k) | `source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=W6ovr7VbO2k) | `source-alexander-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=K3dcHstbdrE) | `source-daniel-davis-drones-update-trump-promises-report-in-days-2025-01-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=XrYqSMN6icw) | `source-daniel-davis-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=_AZiZJf5ZgQ) | `source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md`
+- `source-alexander-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md`
 - `source-daniel-davis-drones-update-trump-promises-report-in-days-2025-01-10.md`
 - `source-daniel-davis-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md`
 - `source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md`

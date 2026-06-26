@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JTceAGK9oTE) | `source-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JTceAGK9oTE) | `source-alexander-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=JN1kJTcz59Q) | `source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md` |
 
 ## Writer sources
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md`
+- `source-alexander-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md`
 - `source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md`
 - `source-simplicius-hoodwinks-and-hijinks-trump-nabs-2026-01-23.md`

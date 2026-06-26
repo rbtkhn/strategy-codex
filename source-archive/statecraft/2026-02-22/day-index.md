@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lroblskfwuQ) | `source-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lroblskfwuQ) | `source-alexander-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md` |
 
 ## Writer sources
 
@@ -52,5 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md`
+- `source-alexander-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md`
 - `source-ritter-the-flamingo-effect-2026-02-22.md`

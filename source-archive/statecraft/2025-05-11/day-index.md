@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8t2RHKWF5AY) | `source-alex-mercouris-putin-outplays-starmer-macron-rejects-ultimatum-invites-kiev-to-istanbul-talks-zelensky-says-no-2025-05-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8t2RHKWF5AY) | `source-alexander-mercouris-putin-outplays-starmer-macron-rejects-ultimatum-invites-kiev-to-istanbul-talks-zelensky-says-no-2025-05-11.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-outplays-starmer-macron-rejects-ultimatum-invites-kiev-to-istanbul-talks-zelensky-says-no-2025-05-11.md`
+- `source-alexander-mercouris-putin-outplays-starmer-macron-rejects-ultimatum-invites-kiev-to-istanbul-talks-zelensky-says-no-2025-05-11.md`

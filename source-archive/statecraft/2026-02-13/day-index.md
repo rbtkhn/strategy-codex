@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jFd1BLOl35Y) | `source-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jFd1BLOl35Y) | `source-alexander-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md`
+- `source-alexander-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=c9rCa7R2qdg) | `source-alex-mercouris-eu-stunned-as-merz-stumbles-in-key-vote-starmer-talks-war-with-russia-russia-prepares-kherson-op-2025-05-06.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=c9rCa7R2qdg) | `source-alexander-mercouris-eu-stunned-as-merz-stumbles-in-key-vote-starmer-talks-war-with-russia-russia-prepares-kherson-op-2025-05-06.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-an-excuse-for-war-2025-05-06.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-stunned-as-merz-stumbles-in-key-vote-starmer-talks-war-with-russia-russia-prepares-kherson-op-2025-05-06.md`
+- `source-alexander-mercouris-eu-stunned-as-merz-stumbles-in-key-vote-starmer-talks-war-with-russia-russia-prepares-kherson-op-2025-05-06.md`
 - `source-judging-freedom-amb-charles-freeman-an-excuse-for-war-2025-05-06.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Diesen (Greater Eurasia)` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Diesen (Greater Eurasia)` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0tqxM1yKn6s) | `source-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0tqxM1yKn6s) | `source-alexander-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=vx1KnspP1gM) | `source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md`
+- `source-alexander-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md`
 - `source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md`
 - `source-pape-the-smart-bomb-trap-2026-02-25.md`
 - `source-simplicius-as-russias-smo-heads-into-its-fifth-2026-02-25.md`

@@ -20,8 +20,9 @@ source_note: Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / 
 opening_tier: host-monologue
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
-editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 28 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 28 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (10 sections)."
 nawfal_close_promo_trim_applied: true
+transcript_curation: curated_sectioned
 ---
 
 # IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt. Col. Anthony Aguilar
@@ -34,6 +35,9 @@ nawfal_close_promo_trim_applied: true
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Hey, Colonel. Hello, Mario. How are you? >> Good. Um, so the obviously you're up to speed with what happened. Iran threatened Israel not to strike Beirut. Uh, a week ago. Israel just struck one building, limited striking Beirut. Let me just be clear. It wasn't a massive strike. I didn't make too much of it.
 
@@ -61,7 +65,11 @@ the United States can get involved actively in terms of active defense and strik
 
 I told you not to do this. You did it anyway. Iran has said they would respond." they have. We now have this escalation ongoing. How do we diffuse it? And as much as Donald Trump wants to continue to talk about peace negotiations or an agreement or a deal, Iran is who suspended these talks directly because of escalation and ground combat in Lebanon.
 
-And now a red line has been crossed. So Donald Trump's hopes to try to deliver some type of uh attenuation or step down from this by Monday or Tuesday is is not going to happen. And I am not a fear-monger. I simply look at the reality of the situation. I take my experience of over a quarter of a century in low inensity and asymmetric and highintensity warfare and I look at what is the next logical step.
+And now a red line has been crossed. So Donald Trump's hopes to try to deliver some type of
+
+### Segment 2 — Uh Attenuation Or Step Down
+
+uh attenuation or step down from this by Monday or Tuesday is is not going to happen. And I am not a fear-monger. I simply look at the reality of the situation. I take my experience of over a quarter of a century in low inensity and asymmetric and highintensity warfare and I look at what is the next logical step.
 
 If you ask me, did we know that is that Israel was going to bomb Beirut? We knew that. Israel Kat said they were going to do that. Didn't necessarily know when, but they have. What's coming next? I don't think Israel is done here. And I don't think Iran's retaliation uh is done if there's continued strikes. So we are we are now in another level of escalatory territory that is out of Donald Trump's control which is why we see scrambling in the region right now Pakistan Qatar Saudi Arabia the UAE other nations trying to come in to join Pakistan in discussions between Iran uh
 
@@ -83,7 +91,11 @@ So when you consider the tensions and you consider the options, this is not look
 
 To be honest, that is a valid point. There's never been a time where Israel would not retaliate if it was attacked directly. That you know that would have been unimaginable a few months or years ago. yet it is in a position right now where not may not be able to retaliate to five ways of ballistic missiles attack fired by Iran.
 
-So I think that would be significant >> and I agree with the point they're making here. >> Um does Israel do you know if Israel has enough refueling aircraft to conduct a large strike or they need the Americans? How big is their fleet of refueling aircraft? Not sure if you know. So, so Israel, the the the Israel Defense Force Air Forces, the IDFAF do maintain a a robust strat tanker fleet of their own.
+So I think that would be significant >> and I agree with the point they're making here. >> Um does Israel do you know if Israel has enough refueling aircraft to conduct a large strike or they need the Americans? How big is their fleet of refueling aircraft? Not sure if you know. So, so Israel, the the the Israel Defense Force
+
+### Segment 3 — Air Forces The Idfaf Do
+
+Air Forces, the IDFAF do maintain a a robust strat tanker fleet of their own.
 
 There's American there's US Air Force American strat tankers, KC KC35 Charlies sitting on the deck and Bengavir. There are also quite amply many uh Israeli flagged and owned strat tankers. So, can they do it? Yes. And and in fact, we now know or we've known, but we know uh that even though against the restrictions of foreign military sales, Israel has made the F-35 Lightning 2 into the F-35i with the advancements of a duration a longer duration refuel capability.
 
@@ -105,7 +117,11 @@ continue to escalate against Beirut? They absolutely do. Will they respond to th
 
 He's kind of in I'll just I'll just kind of like where are the leaves going to fall? And he's looking at do I want to jump in with Israel and and be offensive? I don't know. I've told him I wouldn't. Do I want to jump in and be defensive or just want to sit it out? So, we'll see. >> But Iran did say they'll they'll drag the US back into it.
 
-If Israel strikes, Zionist and American targets in the region would be attacked. So, Trump is in a tricky position where even if he, you know, stays out of it, Iran will drag him back in. Well, so I I think even if you have, you know, so Iran's statement of dragging the US back in, um, absolutely Iran has the control to to target US forces and to to bring the US back in in terms of of punching, but whether or not the United States decides to fight back at this point, uh, is the is the United States, I wouldn't say willing, uh, but strategically, are
+If Israel strikes, Zionist and American targets in the region would be attacked. So, Trump is in a tricky position where even if he, you know, stays out of it, Iran will drag him back in. Well, so I I think even if you have, you know, so Iran's statement of dragging the US back in, um, absolutely Iran has
+
+### Segment 4 — The Control To To Target
+
+the control to to target US forces and to to bring the US back in in terms of of punching, but whether or not the United States decides to fight back at this point, uh, is the is the United States, I wouldn't say willing, uh, but strategically, are
 
 there options on the table that have probably been briefed and communicated to the US Central Command commander and the US Navy Fifth Fleet and US Army Central and US Marine Central and forces in the region that if there are strikes, take to the bunkers, hunker down, don't respond. We've seen that before.
 
@@ -129,7 +145,11 @@ We have to show that we have a capability because the only other thing that we h
 
 The acute threat is Russia. The enduring threat is North Korea. And a threat to keep an eye on, but you know, um, you know, we we we kind of got it under control. they're not really pursuing a nuke was was Iran. Yet, that's the enemy we chose to fight. And in doing so, uh we we we weren't ready for that fight. We weren't planning on that fight.
 
-We were planning on defending Taiwan and fighting against China where we put a lot of money, a lot of money uh into containerized munitions, uh air um a lot of um buildup on the Paloan Island chain in the Philippines. We put a lot of money into our already existing exquisite capability of of air or excuse me ground to air uh sea to uh um shore to sea type munitions.
+We were planning on defending Taiwan and fighting against China where we put a lot of money, a lot of money uh into containerized munitions, uh air um a lot of um buildup on the Paloan Island chain in the Philippines. We put a lot of money into our already existing exquisite capability of of
+
+### Segment 5 — Air Or Excuse Me Ground
+
+air or excuse me ground to air uh sea to uh um shore to sea type munitions.
 
 Um and and we just kind of we got we got behind in the hypersonic game. This is I'm telling you this is this is the guns of August. the guns of August in the 30 days leading up to World War I when we saw how United States and how other allies were prepared. United States didn't enter World War I in the beginning.
 
@@ -153,7 +173,11 @@ So therefore, you target the launcher. Now you've just made your home base a tar
 
 And we weren't ready. We were not ready for that. It wasn't until this year's NDAA where we have a robust hypersonic development program to the point of actual prototyping. Not just R&D, not just a pretty little uh model at the at the uh at the missile show, but a real thing. And we're seeing that those are just coming out of DARPA right now.
 
-So, uh we're we're we are behind the hypersonic game. And does Russia, China, and Iran have more hypersonics that have further range and are tested to be proven like the Fatal 110 or the uh Kakab four and five. They they've been proven. We haven't even proven ours yet. So, Dark Eagle sitting in Kuwait. Ooh, not a bit, not scary.
+So, uh we're we're we are behind the hypersonic game. And does Russia, China, and Iran have more hypersonics that have further range and are tested to be proven like the Fatal 110 or the uh Kakab four and five. They they've been
+
+### Segment 6 — Proven We Haven't Even Proven
+
+proven. We haven't even proven ours yet. So, Dark Eagle sitting in Kuwait. Ooh, not a bit, not scary.
 
 But it gives Donald Trump an escalatory in between between we've used everything we have. We have nukes on board. They're sitting in the Mediterranean. don't make me use this thing. And you know, it's like when you have a a kid that's not listening and you say, "I'm going to count to three and then what?" Okay, you count to three and the kid's still doing.
 
@@ -179,7 +203,11 @@ I mean, heck, the the strikes in Beirut, um, though limited as they were, uh, wh
 
 >> I think that's certainly in Israel's uh consideration. And back to the Israeli doctrine. Um I um you know rise and kill first great source to read about Israeli doctrine. But we also know from Israel's previous wars and the Yamapour wars, six day war, ArabIsraeli wars, uh that that is their doctrine.
 
-We're about to go into a fight. Hit hard. Wipe out the air force. Wipe out the Egyptian Air Force before they even get an airplane off the runway because then you achieve air superiority before the fight even starts. Hit Lebanon first. Hit Egypt simultaneously. dig in along the front and then strike, strike, strike, strike, strike. Rise and kill first.
+We're about to go into a fight. Hit hard. Wipe out the air force.
+
+### Segment 7 — Wipe Out The Egyptian Air
+
+Wipe out the Egyptian Air Force before they even get an airplane off the runway because then you achieve air superiority before the fight even starts. Hit Lebanon first. Hit Egypt simultaneously. dig in along the front and then strike, strike, strike, strike, strike. Rise and kill first.
 
 That is the Israeli doctrine. That is the Israeli strategy. That is what they're doing now. So, in the midst of this retaliation, are they going to wait for Donald Trump to figure out some fake facade of a peace deal before they take more strikes and look even weaker, or are they going to rise and kill first? They're going to strike.
 
@@ -203,7 +231,11 @@ Right now there are so many diplomatic, military and economic actions in Donald 
 
 Whether it's, you know, hey, I'm going to do this. Don't do it. Oh, I did it anyway. What are you going to do? >> Fine. Does he need does he need Congress to be able >> Does he need to does he need Congress to be able to sanction Israel? >> Not necessarily. Um depending on the level of sanctions, depending on the direction of the sanctions, depending on uh what sanctions they are uh for for long.
 
-So here's the here's the thing about the power of the president, the exeutor of the executive branch as the commander-in-chief, but also as the president, foreign policy falls on him. So, in terms of sanctions, in terms of uh uh foreign policy agreements, he doesn't necessarily need Congress unless it's something that ties it to the legislative branch in terms of it becoming a law or something that will then uh take take unfunded money, new money that hasn't already been allocated.
+So here's the here's the thing about the
+
+### Segment 8 — Power Of The President The
+
+power of the president, the exeutor of the executive branch as the commander-in-chief, but also as the president, foreign policy falls on him. So, in terms of sanctions, in terms of uh uh foreign policy agreements, he doesn't necessarily need Congress unless it's something that ties it to the legislative branch in terms of it becoming a law or something that will then uh take take unfunded money, new money that hasn't already been allocated.
 
 But essentially, uh again, the NDAA doesn't dictate by law each thing that has to be paid. It dictates by law, here's the amount of money appropriated. Once it's appropriated, can the executive branch, which is your department of defense, your department of state, all under the president, uh can they then dictate changes to that without asking for new money? They absolutely can.
 
@@ -225,7 +257,11 @@ I call the shots. I call the shots. Netanyahu doesn't call the shots. >> This is
 
 Uh or we're going to see Donald Trump uh just completely uh bark, bite, and walk away. I don't think this Donald Trump has the capacity uh to bark, bite, and walk away. I think he's going to bark and still give some treats. Netanya will have no choice but to accept an Iran deal. I call the shots. I call the shots. I call all the shots.
 
-BB does not. I've been saying this for a while, Anthony. I've been saying it from the early days of the war. I'm like, I really think Israel bit off more than it could and this is all going to backfire on them. And it seems to be I I it seems to be happening which would be extraordinary for the US. And this is one thing I've also been saying and hopefully it develops is that this is Trump's chance to turn this, you know, foreign policy catastrophe into something very positive for the country into a diplomatic into a political win
+BB does not. I've been saying this for a while, Anthony. I've been saying it from the early days of the war. I'm like, I really think Israel bit off more than it could and this is all going to backfire on them. And it seems to be I I it seems to be happening which would be extraordinary for the US. And this is one thing I've also been saying and hopefully it develops is that this is Trump's chance to
+
+### Segment 9 — Turn This You Know Foreign
+
+turn this, you know, foreign policy catastrophe into something very positive for the country into a diplomatic into a political win
 
 for his legacy as well by being the president that really really stands up to Israel and the Israeli lobby more than Kennedy, more than uh Clinton, more than Reagan. I'm not saying he will because that's a massive U-turn from where we were before. >> Sure. But I'm just saying, you know, they they did, you know, cause a big freaking show here.
 
@@ -247,7 +283,11 @@ And how does that all end? Donald Trump still has to have a way out. and he now 
 
 control, and a hey bro, here's a sticky note. I owe you X pounds of depleted uranium, but I'm going to give it to China. That is a loss, loss, loss, loss, loss for the big L. So, how does Donald Trump achieve some monocum of success? and to the American people that is Iran won't have a bomb. So, is Donald Trump looking at the potentiality of a commando raid to go in to take the uranium to take the war off his plate to say Israel, Iran, whatever.
 
-You're you're on you're you do you. I'm out. Um he has to have that. We already know or we have very good indication uh that this commando raid has already been uh planned. It's on the table. There's a conop. I don't know. Call it call it uh uh Iranian Iranian fury. I don't know. Whatever they whatever they have it called. There's a name.
+You're you're on you're you do you. I'm out. Um he has to have that. We already know or we have very good indication uh that this commando raid has already been uh planned. It's on the table. There's a conop. I don't know. Call it call it uh uh Iranian Iranian fury. I don't know. Whatever they whatever they
+
+### Segment 10 — Have It Called There's A
+
+have it called. There's a name.
 
 There's a concept. It's on the shelf. It's on the table. The central command >> capture the enriched uranium. Yeah. >> Yeah. Absolutely. Yes. Now again, will we capture enough? Will it be an actual success? Maybe not. It just has to look like it. >> Uh Trump also told the FT that Israel would have no ch Oh, no, this is not it.
 

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RXGw4YpZE6s) | `source-alex-mercouris-big-blow-for-kiev-us-stops-intel-supply-trump-brushes-off-grovelling-zelensky-letter-uk-despairs-2025-03-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RXGw4YpZE6s) | `source-alexander-mercouris-big-blow-for-kiev-us-stops-intel-supply-trump-brushes-off-grovelling-zelensky-letter-uk-despairs-2025-03-05.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-big-blow-for-kiev-us-stops-intel-supply-trump-brushes-off-grovelling-zelensky-letter-uk-despairs-2025-03-05.md`
+- `source-alexander-mercouris-big-blow-for-kiev-us-stops-intel-supply-trump-brushes-off-grovelling-zelensky-letter-uk-despairs-2025-03-05.md`

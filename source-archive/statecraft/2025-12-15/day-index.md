@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1), `Mercouris` (1), `Neutrality Studies` (1)
+- `Alexander Mercouris` (1), `Judging Freedom` (1), `Neutrality Studies` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hs_Dl4fIRkE) | `source-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hs_Dl4fIRkE) | `source-alexander-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md` |
 | `dialogue-works` | — | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=-1Cpb5Nh7zc) | `source-dialogue-works-larry-johnson-larry-c-johnson-russia-launches-largest-missile-drone-attack-yet-2025-12-15.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=WPcgkd-sC3s') | `source-judging-freedom-sachs-trumps-empire-of-hubris-2025-12-15.md` |
 | `neutrality-studies` | Neutrality Studies | `freeman` | [watch](https://www.youtube.com/watch?v=mWVoUlmIL_I) | `source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md`
+- `source-alexander-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md`
 - `source-dialogue-works-larry-johnson-larry-c-johnson-russia-launches-largest-missile-drone-attack-yet-2025-12-15.md`
 - `source-judging-freedom-sachs-trumps-empire-of-hubris-2025-12-15.md`
 - `source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md`

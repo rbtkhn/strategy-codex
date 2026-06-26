@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [3uMTdj3YhXk](https://www.youtube.com/watch?v=3uMTdj3YhXk) | `source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [3uMTdj3YhXk](https://www.youtube.com/watch?v=3uMTdj3YhXk) | `source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `jermy` | [HHLYXJDooZE](https://www.youtube.com/watch?v=HHLYXJDooZE) | `source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=AYLACkCWXRA) | `source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md` |
 | `neutrality-studies` | Neutrality Studies | `jermy` | [1MN7nECum_w](https://www.youtube.com/watch?v=1MN7nECum_w) | `source-neutrality-studies-us-already-lost-naval-war-steve-jermy-2026-03-18.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md`
+- `source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md`
 - `source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md`
 - `source-glenn-diesen-daniel-davis-military-options-kent-2026-03-18.md`
 - `source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md`

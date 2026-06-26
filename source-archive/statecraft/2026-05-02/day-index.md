@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `Msn.Com/En Ie/News/Other` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Msn.Com/En Ie/News/Other` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uWJYIebZhOI) | `source-alex-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uWJYIebZhOI) | `source-alexander-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=2SO5aVzFUUE) | `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md`
+- `source-alexander-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md`
 - `source-crooke-a-negotiated-settlement-for-a-sovereign-2026-05-02.md`
 - `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md`
 - `source-parsi-trumps-war-has-destroyed-the-illusion-of-us-military-supremacy-2026-05-02.md`

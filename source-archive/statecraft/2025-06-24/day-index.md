@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (2), `Mercouris` (1)
+- `Judging Freedom` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=I2y8UaYyacY) | `source-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=I2y8UaYyacY) | `source-alexander-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-charles-freeman-why-presidents-love-war-2025-06-24.md` |
 
 ## Writer sources
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md`
+- `source-alexander-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md`
 - `source-judging-freedom-amb-charles-freeman-why-presidents-love-war-2025-06-24.md`
 - `source-judging-freedom-sachs-is-the-us-subordinated-to-israel-2025-06-24.md`

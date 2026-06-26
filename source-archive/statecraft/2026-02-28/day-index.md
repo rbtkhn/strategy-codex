@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [pWZ2ITIrpd8](https://www.youtube.com/watch?v=pWZ2ITIrpd8) | `source-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [pWZ2ITIrpd8](https://www.youtube.com/watch?v=pWZ2ITIrpd8) | `source-alexander-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `johnson` | — | `source-daniel-davis-us-at-war-w-iran-iranian-leader-dead-2026-02-28.md` |
 | `glenn-diesen` | Diesen | `diesen`, `sachs` | — | `source-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=2zjuZqUrCAo) | `source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md`
+- `source-alexander-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md`
 - `source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md`
 - `source-daniel-davis-us-at-war-w-iran-iranian-leader-dead-2026-02-28.md`
 - `source-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md`

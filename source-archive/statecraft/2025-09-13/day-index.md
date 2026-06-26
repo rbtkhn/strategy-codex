@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=glXEVpH27hc) | `source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=glXEVpH27hc) | `source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md` |
 
 ## Writer sources
 

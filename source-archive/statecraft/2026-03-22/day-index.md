@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-JIaPwqzk0k) | `source-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-JIaPwqzk0k) | `source-alexander-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=Fxt8JjPz_Rw) | `source-glenn-diesen-seyed-m-marandi-total-war-attacking-nuclear-plants-desalination-infrastr-2026-03-22.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md`
+- `source-alexander-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md`
 - `source-glenn-diesen-seyed-m-marandi-total-war-attacking-nuclear-plants-desalination-infrastr-2026-03-22.md`

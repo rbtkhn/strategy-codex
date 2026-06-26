@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (4), `Dialogue Works` (3), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (4), `Dialogue Works` (3), `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vFVNSSVaRgg) | `source-alex-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vFVNSSVaRgg) | `source-alexander-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=ywxTOWhdRxo) | `source-daniel-davis-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=fEAi0O4x7Hc) | `source-daniel-davis-prof-john-mearsheimer-the-horrible-naval-blockade-in-hormuz-strait-2026-04-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=VzRYsIdG7uk) | `source-daniel-davis-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md`
+- `source-alexander-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md`
 - `source-daniel-davis-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md`
 - `source-daniel-davis-prof-john-mearsheimer-the-horrible-naval-blockade-in-hormuz-strait-2026-04-13.md`
 - `source-daniel-davis-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md`

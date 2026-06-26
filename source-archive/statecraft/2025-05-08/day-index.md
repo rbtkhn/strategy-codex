@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=U5k2WGYy78E) | `source-alex-mercouris-moscow-repels-mass-drone-attack-putin-hosts-xi-lula-vu-i-russia-seeks-victory-kellogg-wants-dmz-2025-05-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=U5k2WGYy78E) | `source-alexander-mercouris-moscow-repels-mass-drone-attack-putin-hosts-xi-lula-vu-i-russia-seeks-victory-kellogg-wants-dmz-2025-05-08.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-repels-mass-drone-attack-putin-hosts-xi-lula-vu-i-russia-seeks-victory-kellogg-wants-dmz-2025-05-08.md`
+- `source-alexander-mercouris-moscow-repels-mass-drone-attack-putin-hosts-xi-lula-vu-i-russia-seeks-victory-kellogg-wants-dmz-2025-05-08.md`

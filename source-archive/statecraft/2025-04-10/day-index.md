@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fpgiaXmOko8) | `source-alex-mercouris-trump-pauses-bond-crisis-forces-tariff-u-turn-china-stands-firm-shock-russian-toretsk-advance-2025-04-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fpgiaXmOko8) | `source-alexander-mercouris-trump-pauses-bond-crisis-forces-tariff-u-turn-china-stands-firm-shock-russian-toretsk-advance-2025-04-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=_Ury1HLURrA) | `source-daniel-davis-russian-forces-march-on-while-western-leaders-seem-paralyzed-2025-04-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](https://www.youtube.com/watch?v=Q5G-OyRHIUU) | `source-daniel-davis-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=4LcjHxKHNfs) | `source-judging-freedom-wilkerson-will-trump-deport-americans-2025-04-10.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-pauses-bond-crisis-forces-tariff-u-turn-china-stands-firm-shock-russian-toretsk-advance-2025-04-10.md`
+- `source-alexander-mercouris-trump-pauses-bond-crisis-forces-tariff-u-turn-china-stands-firm-shock-russian-toretsk-advance-2025-04-10.md`
 - `source-daniel-davis-russian-forces-march-on-while-western-leaders-seem-paralyzed-2025-04-10.md`
 - `source-daniel-davis-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md`
 - `source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md`

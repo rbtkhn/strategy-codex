@@ -3,6 +3,7 @@ ingest_date: 2026-06-04
 pub_date: 2026-06-02
 kind: article
 source_form: article
+evidence_grade: source-front-door
 host_people:
   - Jeffrey Sachs
 guest_people: []
@@ -11,13 +12,12 @@ channel_name: Jeffrey Sachs
 thread: sachs
 show: Jeffrey Sachs
 host: Jeffrey Sachs
-guest: Jeffrey Sachs
 title: An Open Letter to Chancellor Friedrich Merz
 channel_url: "https://www.jeffsachs.org/"
 channel_slug: jeffrey-sachs
 source_url: "https://mondevudailleurs.com/2026/06/02/an-open-letter-to-chancellor-friedrich-merz/"
 source_note: "Public June 2, 2026 republication of Jeffrey Sachs's open letter provides stable date/title authority for this statecraft article surface. Sachs's own newspaper-articles shelf carries the same piece with an earlier May 28, 2026 posting seam."
-quality_note: Source-bearing article front door only; do not treat as transcript-bearing until a fuller primary-source capture is landed.
+quality_note: "Source-bearing article front door only; do not treat as transcript-bearing until a fuller primary-source capture is landed. · source-section: out of scope (article recovery stub; no transcript body)."
 ---
 # An Open Letter to Chancellor Friedrich Merz
 

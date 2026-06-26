@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JNiEB7GedGE) | `source-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JNiEB7GedGE) | `source-alexander-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=-7_XtZ64VG4) | `source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md` |
 | `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=Ey_zCsoFeAo) | `source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md`
+- `source-alexander-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md`
 - `source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md`
 - `source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md`

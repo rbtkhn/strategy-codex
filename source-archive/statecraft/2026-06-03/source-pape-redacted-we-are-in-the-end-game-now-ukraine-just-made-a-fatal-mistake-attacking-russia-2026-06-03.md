@@ -19,9 +19,10 @@ source_url: "https://www.youtube.com/watch?v=9cgeFOY5XEo"
 source_note: "Operator paste; canonical watch URL preserved (Redacted / YouTube). · ASR pass 2026-06-15."
 title_slug: pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Redacted subscribe/share close trimmed in place; SSOT body otherwise preserved.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Redacted subscribe/share close trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (8 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 redacted_close_promo_trim_applied: true
+transcript_curation: curated_sectioned
 ---
 # Redacted News x Robert Pape - Ukraine, Russia, escalation trap (operator transcript)
 
@@ -35,6 +36,9 @@ redacted_close_promo_trim_applied: true
 
 ## Transcript
 
+
+### Show Open — Introduction
+
 **Host:** Well, Russia says that it may respond with nuclear weapons to the attacks on St. Petersburg that happened today. Here is Russian Deputy Foreign Minister Sergey Rab Rabigkov. That's probably not right. Uh he said to put it straightforwardly, these documents send a signal that encroachments on Russia and its territory by aggressors, including those who may possess such weapons, could prompt us to use these weapons in the worst case scenario, meaning nuclear weapons.
 
 So he's not just saying we could use nuclear weapons against Ukraine. He's saying we could justify using them against other countries who have nuclear weapons. Now, obviously, it's NATO that's launching these attacks on St. Petersburg. Ukraine doesn't have the capability to do that themselves. Ukraine also does not have nuclear weapons. NATO countries do. NATO countries are the aggressors here.
@@ -43,7 +47,11 @@ Now, this comes as UK Ukraine began striking at Russia during the St. Petersburg
 
 Now, obviously, Russians are getting pretty tired of this. And the Putin government knows it. Well, at the same time, Zelensky, Ukrainian President Zelensky is saying, "But I've been open to peace negotiations all along. I've always wanted peace." He is meeting with the head of NATO, Mark Rutte, today. He did basically the same thing he always does when Europe's class of idiots come to visit. He makes videos showing off his acting skills. highly edited, heartstring pulling videos, solemn tributes to the soldiers he sent to their deaths. Once again, portraying himself as the tragic war hero of the war he refuses to end. We're going to watch as much of this as we can stomach. It's about 40 seconds. I probably can take about 20, but roll it.
 
-Okay, that's good. You get the picture. You can find these kinds of things for the last 3 years on Zelensky's social stream. Who buys this? Well, mostly European politicians eager to applaud him and then send European taxpayer funds into his pocket. He continued his pitch to join NATO, said that big trouble would come if Ukraine is again denied membership. He says even Russia should want us to be in NATO. says, "I believe Russians also need Ukraine to be in NATO because in the future it could be painful if Ukraine is not in NATO." And then warning eyebrow raise. You see what he means there? Okay, it's already painful, but okay. He pretends to be open to peace negotiations, but we know the terms of that. You can watch that here. Says, He's ready for direct negotiations with Putin, he says.
+Okay, that's good. You get the picture. You can find these kinds of things for the last 3 years on Zelensky's social stream. Who buys this? Well, mostly European politicians eager to applaud him and then send European taxpayer funds into his pocket. He continued his pitch to join NATO, said that big trouble would come if Ukraine is again denied membership. He says even Russia should want us to be in NATO. says, "I believe Russians also need Ukraine to be in NATO because in the future it could be painful if Ukraine is not in NATO." And then warning eyebrow raise. You see what he means there? Okay, it's already painful, but okay. He pretends to be open to peace negotiations, but we know the terms of that. You can watch that
+
+### Segment 2 — Here Says He's Ready For
+
+here. Says, He's ready for direct negotiations with Putin, he says.
 
 **Host:** So, he's been saying that for years. He doesn't mean it because he continues to put obstacles in the way. So, claiming to want peace while escalating the war and killing civilians is familiar and dangerous. Joining us to discuss it is Professor Robert Pap. He's the director of the Chicago project on security and threats at the University of Chicago and author of escalation trap on Substack and feels like that's exactly what we're doing. This is an escalation trap. We've seen this play out for now 3 years. What are we to make of it now? It feels increasingly dangerous.
 
@@ -55,7 +63,11 @@ Both sides also have nearly irreconcilable uh objectives if they want their maxi
 
 It it has that now. It has uh drones it's built on its own for the most part. Uh and now what you see is that of course Putin is talking about defending his country and he has nuclear weapons. So this is a very very dangerous escalation trap.
 
-**Host:** Well and this is a crossing of Putin's red line in many ways the attack on the St. Petersburg Economic Forum and you know there is discontent within Russia about putting an end to this war. Um but you have this massive NATO support and it seem you know Ukraine has basically mortgaged its future right so they've how many loans now to the IMF the World Bank $90 billion boondoggle with the uh with the demons that run the European Union uh to now bring in these gripping fighter jets from Sweden as Colonel Douglas McGregor pointed out yesterday on this show. Sweden better watch out uh because forget the fighter jets arriving inside of Ukraine. What about the factories that are manufacturing those fighter jets and if NATO really wants to play this game in escalating further with Putin? They are about to get hit hard. I I don't to me it seems like we're at a tipping point moment right now.
+**Host:** Well and this is a crossing of Putin's red line in many ways the attack on the St. Petersburg Economic Forum and you know there is discontent within Russia about putting an end to this war. Um but you have this massive NATO support and it seem you know Ukraine has basically mortgaged its future right so they've how many loans now to the IMF the World Bank $90 billion boondoggle with the uh with the demons that run the European Union uh to now bring in these gripping fighter jets from Sweden as Colonel Douglas McGregor pointed
+
+### Segment 3 — Out Yesterday On This Show
+
+out yesterday on this show. Sweden better watch out uh because forget the fighter jets arriving inside of Ukraine. What about the factories that are manufacturing those fighter jets and if NATO really wants to play this game in escalating further with Putin? They are about to get hit hard. I I don't to me it seems like we're at a tipping point moment right now.
 
 **Professor Robert Pape:** Uh well, I don't know if we're I I understand why we're we're at a tipping point moment with Putin and his nuclear threats, but let me just point out what we're really seeing here, which is similar to Iran. What we're seeing is Ukraine on its own has a tremendous drone manufacturing capability. In fact, I know a little bit about that because I hear I live in Chicago as many of your listeners will know and one of the big donors to the drone is not the US government and it's not the European government. It's Jennifer Pritsker.
 
@@ -69,7 +81,11 @@ What the media is missing, much as we missed with Iran before the Iran war, is t
 
 **Professor Robert Pape:** Uh, well, actually, so I I don't know the full details. So, that's getting into things beyond my knowledge about the exact wire diagram. I I know about this because this issue has been prominent in the city of Chicago and so I've been at dinners and so forth and so on and she's very public uh at least has been um about uh her support and the reason I'm but I'm I'm bringing up not because I know the details here of the finances.
 
-What I'm bringing up is to show how relatively small amounts of money and I don't know the full amounts that uh this donor is giving but this donor is not giving hundred million you know billions of dollars here. So what you're what you're seeing is relatively small amounts of money and there's probably a number of donors that are doing that can go a long way in supporting these drone campaigns and they're very precise. So, your video showed just how precise in fact they have these um forward looking where you're you're able to uh literally um at long distances drive the drone because of uh the way the that the drone technology works literally right into the target like you're going into the pickle barrel.
+What I'm bringing up is to show how relatively small amounts of money and I don't know the full amounts that uh this donor is giving but this donor is not giving hundred million you know billions of dollars here. So what you're what you're seeing is relatively small amounts of money and there's probably
+
+### Segment 4 — A Number Of Donors That
+
+a number of donors that are doing that can go a long way in supporting these drone campaigns and they're very precise. So, your video showed just how precise in fact they have these um forward looking where you're you're able to uh literally um at long distances drive the drone because of uh the way the that the drone technology works literally right into the target like you're going into the pickle barrel.
 
 And that is stunning because we used to think only a large power like the United States could do that. Well, now we're seeing it here with Iran. We've been seeing it with Ukraine for a while. And I think we're just uh not yet fully able to come to grips with the fact that uh Ukraine on its own is escalating here. And it's escalating with its own capability.
 
@@ -83,7 +99,11 @@ But I think there are some other frameworks here that are very very helpful beca
 
 **Host:** I mean, I in as early as 2015, the IMF warned Ukraine, stop the genocide on the Dawnboss or we're not going to loan to you anymore. But they continued to loan. So, Ukraine has taken this Western money and funneled it into their weapons programs and now they're sort of a dog off the leash. And yet we continue the funding.
 
-**Host:** Well, and Zelensky just admitted $200 billion that we we gave them. I don't know where it is. I'm sorry. Well, to all these corrupt individuals who managed to get all this money. Where is this money? This massive money laundering operation that's run through Ukraine.
+**Host:** Well, and Zelensky just admitted $200 billion
+
+### Segment 5 — That We We Gave Them
+
+that we we gave them. I don't know where it is. I'm sorry. Well, to all these corrupt individuals who managed to get all this money. Where is this money? This massive money laundering operation that's run through Ukraine.
 
 **Professor Robert Pape:** There is an incredibly strong case. What you're essentially I would put it in slightly more my my terms of restraint. I think you're making a very strong case for restraint here. And you're saying that the idea of just willy-nilly supporting and so forth uh often can be counterproductive. I think that's an extremely strong case uh here. And as the escalation grows here, which it could well do, this is not good for us to get trapped in somebody else dragging us in.
 
@@ -93,7 +113,11 @@ So also just to bring another parallel. So you recall with the Iran war, we're o
 
 **Professor Robert Pape:** Yeah. I'm not at all justifying what they're doing on any moral case whatsoever. Just want to be clear. But let me explain the the likely strategic logic which is similar to when Iran used its drones to get rid of the luxury tourism in the Gulf state. So you'll recall that when um Iran was using drones, it didn't just hit military bases in the Gulf. It was also hitting some hotels. It was also hitting uh airports. member shut down a lot of air traffic over the Gulf. In fact, it just hit Kuwait airport again uh here just overnight.
 
-The uh what that's about here, and I'm not defending it, so please I please don't take explanation as moral defense. I'm just trying to show you what I think they're thinking, which is that what they're thinking is they want to disrupt business. Well, this St. Petersburg forum is essentially Russia's Davos. I mean, this is the uh the area where there's lots of strategic investors here. uh you know billionaire I mean lots of money here and those billionaires the last thing they want to is eat a drone so that's not what they're up for right okay so so what I'm so when you say what's the logic it it is I think it's horrible that states attack civilian I'm not defending this for a second but the the reason is they they think they're disrupting that business much the way Iran was disrupting and actually did achieve disruption of some luxury business.
+The uh what that's about here, and I'm not defending it, so please I please don't take explanation as moral defense. I'm just trying to show you what I think they're thinking, which is that what they're thinking is they want to disrupt business. Well, this St. Petersburg forum is essentially Russia's Davos. I mean, this is the uh the area where there's lots of strategic investors here. uh you know billionaire I mean lots of money here and those billionaires the last thing they want to is eat a drone so that's not what they're up for right okay so so what I'm so when
+
+### Segment 6 — You Say What's The Logic
+
+you say what's the logic it it is I think it's horrible that states attack civilian I'm not defending this for a second but the the reason is they they think they're disrupting that business much the way Iran was disrupting and actually did achieve disruption of some luxury business.
 
 **Host:** Right. I think that probably your point is well taken. We underestimate the power of the pockets behind Ukraine. The the because we sort of see them as this, you know, nation of gangsters. Um but they are wellunded gangsters.
 
@@ -103,7 +127,11 @@ Uh well, the Houthies did a bunch in the Red Sea Straits, a lot of your folks ma
 
 **Host:** When before we move to Iran after the break, I want to ask you what are these European leaders hoping the outcome will be uh by funneling money into this corrupt government of Ukraine um allowing this to continue um attacks on civilians killing you know we've been covering what's been the again the genocide in the Donbos Detsk and Luhansk for you know for years here on this show um when the western media totally ignores it.
 
-So what is the endgame for Europe in this? I mean, we see the militarization of Germany all in an effort to go up against Russia. They've said it publicly like this is not a mystery. Um, but it seems like they have a death wish. What do you see going up this ladder for Europe?
+So what is the endgame for Europe in this? I mean, we see the militarization of Germany all in an effort to go up against Russia. They've said it publicly like this is not a mystery. Um, but it seems like
+
+### Segment 7 — They Have A Death Wish
+
+they have a death wish. What do you see going up this ladder for Europe?
 
 **Professor Robert Pape:** So, let me just say I I think and uh in my classes at the University of Chicago, I haven't explained this for a while, but now we'll start to talk broadly uh that we should be ending this war on the line of contact and that the Europeans are not talking that way. They're they're saying and this has been a standard talking point for years. It was the Biden administrations as well. Uh it's up to the Ukrainians to decide where the line is that ends the war. Well, the truth is we fought the war in Korea and we did not simply say when we fought the Korean War in the 1950s. Oh, let's just keep fighting until the South Koreans decide where to end the line.
 
@@ -117,7 +145,11 @@ So So this this point I'm making, it's identical to the Korean War. We just need
 
 **Professor Robert Pape:** There's a lot of truth to what he has to say. I just want to come in at it more the interaction of the politics here. You see that point very militarily correct, but I'm just want to focus again back on what I said, which is if we don't identify where the line should be, then I don't think you're going to get Putin and Zillinsky to do it. We just got to say this is the line. President Trump I thought was actually getting pretty close to that. Uh but now of course he's he's deep into his own I mean so so I think it's going to be uh but the Europeans you ask what the Europeans should be doing that's the issue in public to say what exactly should the line be to draw that's
 
-**Host:** professor P isn't it crazy though that at the within the first year we had a early we had a framework for peace that involved Russia even beyond past eastern Ukraine uh with the Anara agreement was in place so that Russia wouldn't have this land, wouldn't have moved further almost up to the Napia River um you know taken over all of most of eastern Ukraine where all those ethnic Russians live. There was a framework in place until Boris Johnson swoops in with his parachute and scuttles the entire peace plan.
+**Host:** professor P isn't it crazy though that at the within the first year we had a early we had a framework for peace that involved Russia even beyond past eastern Ukraine uh with the Anara agreement was in
+
+### Segment 8 — Place So That Russia Wouldn't
+
+place so that Russia wouldn't have this land, wouldn't have moved further almost up to the Napia River um you know taken over all of most of eastern Ukraine where all those ethnic Russians live. There was a framework in place until Boris Johnson swoops in with his parachute and scuttles the entire peace plan.
 
 And so now whatever Europe gets is going to be far worse than they could have gotten years ago if they had not tried to scuttle this whole thing from the very beginning.
 

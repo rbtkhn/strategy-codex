@@ -18,12 +18,16 @@ source_url: "https://www.youtube.com/watch?v=dClwePAEoRw"
 source_note: "User-pasted cleaned YouTube transcript. · ASR pass 2026-06-15."
 title_slug: transcript-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (8 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # The Duran / Alexander Mercouris - Konstantinovka Is Falling, West's Ukraine Narrative Is Crumbling
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 **Alex Christoforou:** All right, Alexander, let's talk about the situation in Ukraine. Let's talk about the military situation, the situation with Konstantinovka. We have this uh this narrative from Ukraine and from the uh the collective west media about uh drone drone strikes, drone dominance in the uh the Crema landbridge in Zaparo which is uh once again showing that the tide has turned towards Ukraine's favor.
 
@@ -43,7 +47,11 @@ and that what has happened is that Ukraine is indeed launching drone strikes dee
 
 Now there are consequences for the Ukrainians from that which is that the dr the drones in order to reach these distances have to reduce the amount of explosive that they carry in order to carry more fuel. Which means that when they impact on a target, let us say a refinery, the damage done is even less.
 
-which means that the recovery time of Russian refineries and industrial plants that are hit is even faster than it was last year. So that that has been one of the major narrative points about the conflict up to now, which is the Ukrainian drone offensive deep inside Russia. Now, the other one, and this all relates now to drones, is this um campaign that Ukraine has been conducting against the M14 highway, which is the highway that leads from Mariupol to um Crimea.
+which means that the recovery time of Russian refineries and industrial plants that are hit is even faster than it was
+
+### Segment 2 — Last Year So That That
+
+last year. So that that has been one of the major narrative points about the conflict up to now, which is the Ukrainian drone offensive deep inside Russia. Now, the other one, and this all relates now to drones, is this um campaign that Ukraine has been conducting against the M14 highway, which is the highway that leads from Mariupol to um Crimea.
 
 Many people are connecting this with military logistics. I don't think it has any bearing on military logistics whatsoever. I think military logistics in Russia are provided and catered for in completely different ways, mostly using the railway system. These attacks are part of an unending Ukrainian campaign that goes back well all the way back to 2014 to try to make life as difficult in Crimea as possible.
 
@@ -63,7 +71,11 @@ Again nothing new in itself but these attacks do seem to be becoming more danger
 
 **Alexander Mercouris:** we're talking about the the CIA's man in in Kiev.
 
-**Alex Christoforou:** Exactly. Exactly. And that's the power struggle, right? That's the, you know, you you have the CIA, you have the MI6, you have uh the Europeans, you have part of the Trump White House and the US executive, let's say,
+**Alex Christoforou:** Exactly. Exactly. And that's the power struggle, right? That's the,
+
+### Segment 3 — You Know You You Have
+
+you know, you you have the CIA, you have the MI6, you have uh the Europeans, you have part of the Trump White House and the US executive, let's say,
 
 you have Congress and all these people are are kind of trying to to get their position their guy in in Kiev because, as we've said many many times, the person that's that's positioned properly in Kiev is is the person that is uh that is the conduit to the funnel of all the all the money flow. But but I mean the Budanov to me is is the CIA basically saying you know what it's time for us to to take over and run the show.
 
@@ -92,6 +104,8 @@ And of course it begs the question why and I'm going to suggest that the reason 
 **Alexander Mercouris:** Once upon a time that that it's everything's going to shift into this this asymmetric unconventional type of type of war in Ukraine.
 
 **Alex Christoforou:** Exactly. Which which you know no doubt will happen and may last for quite a long time. And Budanov is the ideal person to lead it from an American point of view.
+
+### Segment 4 — Alexander Mercouris Yea
 
 **Alexander Mercouris:** Yeah.
 
@@ -133,7 +147,11 @@ And of course it begs the question why and I'm going to suggest that the reason 
 
 I suspect also from within the Russian security council. Now I think Putin does not want to do that because I think he's very concerned that this is a trap that if Russia starts um launching attacks on St. Vbarden where the real headquarters and the real decision-m centers are um that would create demands to um for direct western intervention in the war and might escalate into an actual World War II type scenario.
 
-And I think uh Putin um feels that with the situation in Ukraine, the real situation in Ukraine developing in Russia's favor, doing that is not in Russian national interest. What I think is going to happen, however, is something entirely different, which Putin has talked about, which Lavrov has talked about, which the Russian military has talked about, which is that we're going to get increasing use of um missiles, to attack command bunkers and installations inside Ukraine itself, to isolate Zelensky and the leadership in Kiev as we discussed in a recent video
+And I think uh Putin um feels that with the situation in Ukraine, the real situation in Ukraine developing in Russia's favor, doing that is not in Russian national interest. What I think is going to happen, however, is something entirely different, which Putin has
+
+### Segment 5 — Talked About Which Lavrov Has
+
+talked about, which Lavrov has talked about, which the Russian military has talked about, which is that we're going to get increasing use of um missiles, to attack command bunkers and installations inside Ukraine itself, to isolate Zelensky and the leadership in Kiev as we discussed in a recent video
 
 and as I've been discussing in um programs I've done on my own channel, I've obtained a significant amount of information now which I consider reliable about the Archnik system and it does indeed seem to be designed for attacks against command bunkers and underground structures and is said to be effective in doing so.
 
@@ -151,7 +169,11 @@ We should probably expect Ukraine to launch all kinds of different uh drone stri
 
 And um when it does fall, um it'll be very interesting to see how it is indeed handled by the media in the West. My own guess is they will continue to say as little about it as possible. But the time when it's going to be possible to deny the realities on the ground is probably ending because of course the fall of Konstantinovka which is to be clear the biggest town the Russians will have captured since Marupople.
 
-Okay. I mean it's it's it's an important it's a big place. Um um um the the when Konstantinovka falls that is going to open the way for the siege of the for two remaining fortified cities in Donbass Slavansk and Kataussk. You remember how right at the beginning of the war we talked about the Russians working to create a cauldron in Dombas to surround the Ukrainian army there and that looked like their plan.
+Okay. I mean it's it's it's an important it's a big place. Um um um the the when Konstantinovka falls that is going to open the way for the siege of the for two remaining fortified cities in Donbass Slavansk and Kataussk. You remember how right at the beginning of the war we talked about the Russians working to create a cauldron in Dombas to surround the Ukrainian army there and
+
+### Segment 6 — That Looked Like Their Plan
+
+that looked like their plan.
 
 Well, we were right about that. As it turns out, we were we were wrong about the time scale that it would take. But we are almost there now and we are and that is going to be a critical moment because one suspects in fact I am sure that much of the best part of the Ukrainian army that still exists is concentrated in trying to defend these two cities.
 
@@ -173,7 +195,11 @@ We're going to probably hear a concerted attempt in the West to try to get the R
 
 **Alexander Mercouris:** Yeah.
 
-**Alex Christoforou:** they're going to scrap that that they're not going to talk about it because they're afraid about the the shortages in in in energy and so they're going to leave that alone and uh they're not going to try to to to lower that price cap in order to to hurt uh Putin's war machine as they say his revenues from uh from oil.
+**Alex Christoforou:** they're going to scrap that that they're not going to talk about it because they're afraid about the the shortages in in in energy and so they're going to leave that alone and uh they're not going to try to to to lower that price cap in order to to hurt uh Putin's war machine as they say
+
+### Segment 7 — His Revenues From Uh From
+
+his revenues from uh from oil.
 
 **Alexander Mercouris:** Yeah.
 
@@ -193,7 +219,11 @@ And yet he insists that this should not happen. He expects Western businesses, W
 
 It is it is admitted in every place now that the United States is critically short of air defense systems. The United States is still not resolved its crisis in the Middle East. And yet he continues to demand that he be provided with more. He sent a begging letter to Trump. Um, it's absolutely the case that Ukraine's air defenses are now in a terrible condition.
 
-But he demands the impossible. He insists on the impossible. But of course, behind the sense of entitlement, behind all of these things, there's always with Zelensky that cynicism that is always there. So, of course, give us the license to produce the Patriot missiles. give us the contracts to do it. Ukraine whose entire industrial economy is in pieces which is being uh sustained entirely by um western um um by western funding.
+But he demands the impossible. He insists on the impossible. But of course, behind the sense of entitlement, behind all of these things, there's always
+
+### Segment 8 — With Zelensky That Cynicism That
+
+with Zelensky that cynicism that is always there. So, of course, give us the license to produce the Patriot missiles. give us the contracts to do it. Ukraine whose entire industrial economy is in pieces which is being uh sustained entirely by um western um um by western funding.
 
 Um Ukraine which frankly would be incapable of producing an advanced system like the Patriot which is an incredibly complex system. It's impossible to do in Ukraine and would have been impossible to do even in peace conditions. We're talking about um a decadel long program to prepare UK Ukraine to I'm talking in peace time to prepare Ukraine to produce peace uh in in peace conditions to produce patriots.
 

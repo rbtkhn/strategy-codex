@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RsMRz7UrbC8) | `source-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RsMRz7UrbC8) | `source-alexander-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `postol` | [watch](https://www.youtube.com/watch?v=-CBfkTMoCA0) | `source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Oy9lqRxquAk) | `source-daniel-davis-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=M0fQsI6L6Lo) | `source-daniel-davis-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md`
+- `source-alexander-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md`
 - `source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md`
 - `source-daniel-davis-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md`
 - `source-daniel-davis-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md`

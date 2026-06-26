@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `India and Global Left` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `India and Global Left` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9gLKfOdFOc4) | `source-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9gLKfOdFOc4) | `source-alexander-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=q7734pjxlws) | `source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md` |
 | `glenn-diesen` | — | `diesen`, `armstrong` | [watch](https://www.youtube.com/watch?v=JB3YL6cyjqE) | `source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [E0JqaiO8IQA](https://www.youtube.com/watch?v=E0JqaiO8IQA) | `source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md`
+- `source-alexander-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md`
 - `source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md`
 - `source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md`
 - `source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md`

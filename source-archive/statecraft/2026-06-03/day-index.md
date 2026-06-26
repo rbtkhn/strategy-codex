@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ZkA_Wc6JJ-g) | `source-alex-mercouris-russia-sanctions-crumble-st-pete-hosts-us-german-business-zelensky-sends-drones-us-iran-fighting-2026-06-03.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ZkA_Wc6JJ-g) | `source-alexander-mercouris-russia-sanctions-crumble-st-pete-hosts-us-german-business-zelensky-sends-drones-us-iran-fighting-2026-06-03.md` |
 | `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [watch](https://www.youtube.com/watch?v=2DsnE3Gzk1s) | `source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `barnes` | [watch](https://www.youtube.com/watch?v=c9xkvJjlAC0) | `source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md` |
 | `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [yLSrunuWrns](https://www.youtube.com/watch?v=yLSrunuWrns) | `source-judging-freedom-johnson-does-iran-have-the-bomb-part-2-2026-06-03.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-sanctions-crumble-st-pete-hosts-us-german-business-zelensky-sends-drones-us-iran-fighting-2026-06-03.md`
+- `source-alexander-mercouris-russia-sanctions-crumble-st-pete-hosts-us-german-business-zelensky-sends-drones-us-iran-fighting-2026-06-03.md`
 - `source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md`
 - `source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md`
 - `source-diesen-sachs-european-leaders-do-nothing-to-create-peace-2026-06-03.md`

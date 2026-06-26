@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [OA94q8ZCkgY](https://www.youtube.com/watch?v=OA94q8ZCkgY) | `source-alex-mercouris-russia-mocks-eu-demands-uk-eu-arms-debt-surge-uk-gov-implodes-merkel-envoy-2026-06-12.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [OA94q8ZCkgY](https://www.youtube.com/watch?v=OA94q8ZCkgY) | `source-alexander-mercouris-russia-mocks-eu-demands-uk-eu-arms-debt-surge-uk-gov-implodes-merkel-envoy-2026-06-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [VjI4y1ZcYug](https://www.youtube.com/watch?v=VjI4y1ZcYug) | `source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `aguilar` | [DbJjR6YmGUY](https://www.youtube.com/watch?v=DbJjR6YmGUY) | `source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [_gMBZwg4HGQ](https://www.youtube.com/watch?v=_gMBZwg4HGQ) | `source-dialogue-works-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-mocks-eu-demands-uk-eu-arms-debt-surge-uk-gov-implodes-merkel-envoy-2026-06-12.md`
+- `source-alexander-mercouris-russia-mocks-eu-demands-uk-eu-arms-debt-surge-uk-gov-implodes-merkel-envoy-2026-06-12.md`
 - `source-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12.md`
 - `source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md`
 - `source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md`

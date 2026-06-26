@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Pa6nGPKXT_c) | `source-alex-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Pa6nGPKXT_c) | `source-alexander-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md` |
 
 ## Writer sources
 
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md`
+- `source-alexander-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md`
 - `source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md`
 - `source-simplicius-situation-goes-critical-as-kiev-begins-2026-01-21.md`

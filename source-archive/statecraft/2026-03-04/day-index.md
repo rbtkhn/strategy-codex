@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Dialogue Works` (1), `Mercouris` (1), `The Duran` (1), `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
+- `Daniel Davis Deep Dive` (3), `Alexander Mercouris` (1), `Dialogue Works` (1), `The Duran` (1), `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,10 +32,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcSgdx6FBAY) | `source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcSgdx6FBAY) | `source-alexander-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=K7dz4QE8VG8) | `source-daniel-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md` |
 | `dialogue-works` | Dialogue Works | `ritter` | [MWlCgZMYqk8](https://www.youtube.com/watch?v=MWlCgZMYqk8) | `source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=HRu-Z7AsKIY) | `source-mercouris-barnes-open-ended-iran-war-2026-03-04.md` |
+| `the-duran` | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=HRu-Z7AsKIY) | `source-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md` |
 
 ## Writer sources
 
@@ -57,11 +57,11 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md`
+- `source-alexander-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md`
 - `source-daniel-davis-deeper-strikes-in-iran-coming-2026-03-04.md`
 - `source-daniel-davis-iran-war-narrative-battles-2026-03-04.md`
 - `source-daniel-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md`
 - `source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md`
-- `source-mercouris-barnes-open-ended-iran-war-2026-03-04.md`
+- `source-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md`
 - `source-pape-the-smart-bomb-trap-is-becoming-a-dumb-bomb-2026-03-04.md`
 - `source-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md`

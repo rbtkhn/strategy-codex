@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `dialogue-works` | Dialogue Works | `freeman`, `alkorshid`, `nima` | — | `source-dialogue-works-amb-chas-freeman-al-qaeda-gets-a-seat-at-the-un-2025-09-26.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=gzhWSuNKFLI) | `source-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=1_VGoONLNYQ) | `source-duran-mercouris-trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu-2025-09-26.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=1_VGoONLNYQ) | `source-duran-mercouris-trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu-2025-09-26.md` |
 
 ## Writer sources
 

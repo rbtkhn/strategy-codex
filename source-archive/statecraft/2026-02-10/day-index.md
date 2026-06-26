@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qdAx8H1RwdI) | `source-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qdAx8H1RwdI) | `source-alexander-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi`, `johnson` | [watch](https://www.youtube.com/watch?v=-CAqyFWDBbQ) | `source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md` |
 | `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=NAfUTVwcaCs) | `source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md`
+- `source-alexander-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md`
 - `source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md`
 - `source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md`
 - `source-simplicius-europes-triumvirate-of-lame-stooges-2026-02-10.md`

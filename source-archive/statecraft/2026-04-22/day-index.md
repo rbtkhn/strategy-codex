@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `escalationtrap.substack.com` (2), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (2), `escalationtrap.substack.com` (2), `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MLOfpI_5b_o) | `source-alex-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MLOfpI_5b_o) | `source-alexander-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=tLlaKzFZnvw) | `source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=md19Gqupdu4) | `source-daniel-davis-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md` |
 
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md`
+- `source-alexander-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md`
 - `source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md`
 - `source-daniel-davis-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md`
 - `source-pape-the-first-move-has-begun-2026-04-22.md`

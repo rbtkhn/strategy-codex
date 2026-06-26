@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=F244qeivxcI) | `source-alex-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=F244qeivxcI) | `source-alexander-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter`, `wilkerson` | [watch](https://www.youtube.com/watch?v=aBTVtOp3Xaw) | `source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | — | `source-judging-freedom-amb-chas-freeman-is-iran-next-2025-09-23.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md`
+- `source-alexander-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md`
 - `source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md`
 - `source-judging-freedom-amb-chas-freeman-is-iran-next-2025-09-23.md`

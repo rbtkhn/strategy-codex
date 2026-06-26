@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (2), `Glenn Diesen` (1), `Mercouris` (1)
+- `Judging Freedom` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xZg1_YZDLbQ) | `source-alex-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xZg1_YZDLbQ) | `source-alexander-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md` |
 | `glenn-diesen` | — | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=h2lViEJkKVs) | `source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=c5cikB6G5y0) | `source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md` |
 | `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=tmUHlOmTu2A) | `source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md`
+- `source-alexander-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md`
 - `source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md`
 - `source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md`
 - `source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md`

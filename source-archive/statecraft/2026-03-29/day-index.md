@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `mearsheimer.substack.com` (1), `simplicius76.substack.com` (1), `youtube.com` (1)
+- `Alexander Mercouris` (1), `mearsheimer.substack.com` (1), `simplicius76.substack.com` (1), `youtube.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=J37-kIE82LQ) | `source-alex-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=J37-kIE82LQ) | `source-alexander-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md` |
 | `glenn-diesen` | — | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=VxZbxiv600I) | `source-diesen-marandi-yemen-joins-the-war-red-sea-could-be-blocked-next-2026-03-29.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md`
+- `source-alexander-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md`
 - `source-diesen-marandi-yemen-joins-the-war-red-sea-could-be-blocked-next-2026-03-29.md`
 - `source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`
 - `source-pape-vietnam-shows-exactly-when-air-wars-2026-03-29.md`

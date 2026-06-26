@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (3), `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=J6XyKhmt9kk) | `source-alex-mercouris-putin-no-talks-with-zelensky-has-no-legal-status-cannot-be-trusted-us-ms-2025-01-29.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=J6XyKhmt9kk) | `source-alexander-mercouris-putin-no-talks-with-zelensky-has-no-legal-status-cannot-be-trusted-us-ms-2025-01-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=70i16VsAdGc) | `source-daniel-davis-col-doug-macgregor-what-has-all-our-effort-all-our-money-added-up-to-in-2025-01-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=35WbCScleKE) | `source-daniel-davis-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=tfumWjxYTV8) | `source-daniel-davis-military-executive-orders-lt-col-daniel-davis-2025-01-29.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-no-talks-with-zelensky-has-no-legal-status-cannot-be-trusted-us-ms-2025-01-29.md`
+- `source-alexander-mercouris-putin-no-talks-with-zelensky-has-no-legal-status-cannot-be-trusted-us-ms-2025-01-29.md`
 - `source-daniel-davis-col-doug-macgregor-what-has-all-our-effort-all-our-money-added-up-to-in-2025-01-29.md`
 - `source-daniel-davis-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md`
 - `source-daniel-davis-military-executive-orders-lt-col-daniel-davis-2025-01-29.md`

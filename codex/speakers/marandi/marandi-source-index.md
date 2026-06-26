@@ -16,7 +16,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Moham
 ## 2026-01
 
 - [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md)
-- [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned-2026-01-02.md)
+- [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md)
 
 ## 2026-02
 

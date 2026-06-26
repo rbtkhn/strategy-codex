@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (2), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Glenn Diesen` (2), `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=gFQAA6kqG0Q) | `source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=gFQAA6kqG0Q) | `source-alexander-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `mercouris` | [watch](https://youtu.be/Pp3W7gDJh1Y) | `source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=ltx8vYwChvo) | `source-glenn-diesen-larry-johnson-trump-netanyahu-seek-exit-ramp-in-iran-2026-03-21.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md`
+- `source-alexander-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md`
 - `source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md`
 - `source-glenn-diesen-larry-johnson-trump-netanyahu-seek-exit-ramp-in-iran-2026-03-21.md`
 - `source-simplicius-whipsaw-effect-trump-again-signals-2026-03-21.md`

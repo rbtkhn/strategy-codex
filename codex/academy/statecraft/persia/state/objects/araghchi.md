@@ -67,7 +67,7 @@ Use these as starting surfaces, not an exhaustive set:
 - **Parsi / blockade and bargaining pressure:** [2026-05-01 Substack](../../../../../years/2026/raw-input/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
 - **Parsi / regional architecture proposal:** [2026-05-03 Substack](../../../../../years/2026/raw-input/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
 - **Mercouris / Russia-China-Iran channel:** [2026-04-15 Mercouris](../../../../../years/2026/raw-input/2026-04-15/source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
-- **Mercouris / Araghchi to Moscow:** [2026-04-25 Mercouris](../../../../../years/2026/raw-input/2026-04-25/source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md)
+- **Mercouris / Araghchi to Moscow:** [2026-04-25 Mercouris](../../../../../years/2026/raw-input/2026-04-25/source-alexander-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md)
 
 ## Statecraft Uses
 

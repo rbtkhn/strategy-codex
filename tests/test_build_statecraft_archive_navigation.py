@@ -204,7 +204,7 @@ def test_channel_registry_key_routes_configured_series_values() -> None:
         "series": "The Duran",
     }
     slug, label, explicit = nav._channel_registry_key(duran_meta)
-    assert slug == "alexander-mercouris"
+    assert slug == "the-duran"
     assert label == "The Duran"
     assert explicit is False
 
@@ -260,7 +260,7 @@ def test_build_channel_index_json_main_roster_excludes_misc() -> None:
     assert "scott-ritter" not in slugs
     assert all(row["check_sources"] is True for row in payload["channels"])
     assert payload["stats"]["watchlist_count"] == sum(1 for row in payload["channels"] if row["watchlist"])
-    assert payload["stats"]["discoverable_count"] == 14
+    assert payload["stats"]["discoverable_count"] == 15
     assert all(row["discoverable"] for row in payload["channels"])
 
 
@@ -270,7 +270,7 @@ def test_main_roster_slugs_have_full_discovery_rows() -> None:
     roster = discovery.load_check_sources_roster(rebuild=True)
     by_key = discovery.load_discovery_channel_rows_by_key()
     slugs = {row["slug"] for row in roster}
-    assert len(slugs) == 14
+    assert len(slugs) == 15
     for slug in slugs:
         assert slug in by_key, slug
         assert str(by_key[slug].get("channel_id") or "").startswith("UC"), slug

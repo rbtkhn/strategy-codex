@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ykiEUSR-24M) | `source-alex-mercouris-putin-win-after-angry-zelensky-rejects-kellogg-plan-london-talks-collapse-us-mulls-pullout-option-2025-04-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ykiEUSR-24M) | `source-alexander-mercouris-putin-win-after-angry-zelensky-rejects-kellogg-plan-london-talks-collapse-us-mulls-pullout-option-2025-04-23.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-win-after-angry-zelensky-rejects-kellogg-plan-london-talks-collapse-us-mulls-pullout-option-2025-04-23.md`
+- `source-alexander-mercouris-putin-win-after-angry-zelensky-rejects-kellogg-plan-london-talks-collapse-us-mulls-pullout-option-2025-04-23.md`

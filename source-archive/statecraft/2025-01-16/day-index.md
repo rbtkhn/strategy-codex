@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bdEqtRgXt3s) | `source-alex-mercouris-gaza-ceasefire-israel-crisis-hamas-claims-victory-lavrov-hails-trump-nat-2025-01-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bdEqtRgXt3s) | `source-alexander-mercouris-gaza-ceasefire-israel-crisis-hamas-claims-victory-lavrov-hails-trump-nat-2025-01-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=nLlUo_ltMPE) | `source-daniel-davis-col-douglas-macgregor-ukraine-war-reality-tightens-the-screws-on-trump-2025-01-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=pi3fvArYI8E) | `source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md` |
 | `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=W03spvkI0rY) | `source-judging-freedom-macgregor-trump-and-american-expansion-2025-01-16.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-gaza-ceasefire-israel-crisis-hamas-claims-victory-lavrov-hails-trump-nat-2025-01-16.md`
+- `source-alexander-mercouris-gaza-ceasefire-israel-crisis-hamas-claims-victory-lavrov-hails-trump-nat-2025-01-16.md`
 - `source-daniel-davis-col-douglas-macgregor-ukraine-war-reality-tightens-the-screws-on-trump-2025-01-16.md`
 - `source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md`
 - `source-judging-freedom-macgregor-trump-and-american-expansion-2025-01-16.md`

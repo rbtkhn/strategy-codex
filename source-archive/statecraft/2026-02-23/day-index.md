@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3rew0LRHU0) | `source-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3rew0LRHU0) | `source-alexander-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [A9NGwk5h7BI](https://www.youtube.com/watch?v=A9NGwk5h7BI) | `source-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md` |
 | `judging-freedom` | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=XryaNgJw0Jo) | `source-judging-freedom-johnson-trumps-decision-making-and-huckabees-buffoonery-2026-02-23.md` |
 | `judging-freedom` | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=XzvbRHd57EU) | `source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md`
+- `source-alexander-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md`
 - `source-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md`
 - `source-judging-freedom-johnson-trumps-decision-making-and-huckabees-buffoonery-2026-02-23.md`
 - `source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md`

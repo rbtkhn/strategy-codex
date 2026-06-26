@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RU5huI3P2fI) | `source-alex-mercouris-uk-eu-furious-as-trump-backs-istanbul-talks-vow-more-sanctions-moscow-scorns-latest-zelensky-stunt-2025-05-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RU5huI3P2fI) | `source-alexander-mercouris-uk-eu-furious-as-trump-backs-istanbul-talks-vow-more-sanctions-moscow-scorns-latest-zelensky-stunt-2025-05-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://www.youtube.com/watch?v=AzwqNtFkLD4) | `source-daniel-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=tiMU8-0Id1I) | `source-glenn-diesen-chas-freeman-the-lies-we-tell-ourselves-about-china-2025-05-12.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-uk-eu-furious-as-trump-backs-istanbul-talks-vow-more-sanctions-moscow-scorns-latest-zelensky-stunt-2025-05-12.md`
+- `source-alexander-mercouris-uk-eu-furious-as-trump-backs-istanbul-talks-vow-more-sanctions-moscow-scorns-latest-zelensky-stunt-2025-05-12.md`
 - `source-daniel-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md`
 - `source-glenn-diesen-chas-freeman-the-lies-we-tell-ourselves-about-china-2025-05-12.md`

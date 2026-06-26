@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [Lg5cWw3gvk8](https://www.youtube.com/watch?v=Lg5cWw3gvk8) | `source-alex-mercouris-putin-meets-military-warns-west-drone-dominance-victory-us-china-trap-2026-06-13.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [Lg5cWw3gvk8](https://www.youtube.com/watch?v=Lg5cWw3gvk8) | `source-alexander-mercouris-putin-meets-military-warns-west-drone-dominance-victory-us-china-trap-2026-06-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [R0-0SB0DATU](https://www.youtube.com/watch?v=R0-0SB0DATU) | `source-daniel-davis-iran-war-deal-skeptical-2026-06-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [OKpzUEn5U9A](https://www.youtube.com/watch?v=OKpzUEn5U9A) | `source-daniel-davis-signing-deal-tomorrow-scheduled-2026-06-13.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [_3iHaKgppTg](https://www.youtube.com/watch?v=_3iHaKgppTg) | `source-dialogue-works-marandi-breaking-us-iran-brink-final-deal-2026-06-13.md` |
@@ -59,7 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-meets-military-warns-west-drone-dominance-victory-us-china-trap-2026-06-13.md`
+- `source-alexander-mercouris-putin-meets-military-warns-west-drone-dominance-victory-us-china-trap-2026-06-13.md`
 - `source-daniel-davis-iran-war-deal-skeptical-2026-06-13.md`
 - `source-daniel-davis-signing-deal-tomorrow-scheduled-2026-06-13.md`
 - `source-dialogue-works-marandi-breaking-us-iran-brink-final-deal-2026-06-13.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `India and Global Left` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `India and Global Left` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=V93i8GOIi-U) | `source-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=V93i8GOIi-U) | `source-alexander-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md` |
 | `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [W93WyoC-2lQ](https://www.youtube.com/watch?v=W93WyoC-2lQ) | `source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md` |
 | `judging-freedom` | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=FrwWSR1IzXo) | `source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md`
+- `source-alexander-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md`
 - `source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md`
 - `source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md`

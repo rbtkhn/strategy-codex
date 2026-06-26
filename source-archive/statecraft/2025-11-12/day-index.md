@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OfDOBqqfGrM) | `source-alex-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OfDOBqqfGrM) | `source-alexander-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md`
+- `source-alexander-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md`

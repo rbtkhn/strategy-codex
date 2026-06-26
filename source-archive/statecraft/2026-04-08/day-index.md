@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1), `substack.com/@tritaparsi` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=X2VilASEwF8) | `source-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=X2VilASEwF8) | `source-alexander-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=cNNJwYXtChs) | `source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=1lm98BHS0Pc) | `source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md` |
 
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md`
+- `source-alexander-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md`
 - `source-crooke-the-10-point-iranian-framework-and-2026-04-08.md`
 - `source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md`
 - `source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jTT9tlCchk4) | `source-alex-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jTT9tlCchk4) | `source-alexander-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md`
+- `source-alexander-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md`

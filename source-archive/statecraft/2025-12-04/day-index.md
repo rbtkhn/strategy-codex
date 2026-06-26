@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9jwWPQqikKQ) | `source-alex-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9jwWPQqikKQ) | `source-alexander-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=08Y6K95zKfI) | `source-dialogue-works-andrei-martyanov-russia-has-made-its-choice-wiping-out-every-threat-2025-12-04.md` |
 | `glenn-diesen` | Glenn Diesen | `freeman`, `diesen` | [watch](https://www.youtube.com/watch?v=7qgNDNWkshI) | `source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=5DWUuqSiFKU) | `source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md`
+- `source-alexander-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md`
 - `source-dialogue-works-andrei-martyanov-russia-has-made-its-choice-wiping-out-every-threat-2025-12-04.md`
 - `source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md`
 - `source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md`

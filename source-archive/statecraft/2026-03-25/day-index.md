@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TNeJaVeEC3U) | `source-alex-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TNeJaVeEC3U) | `source-alexander-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md` |
 | `dialogue-works` | Dialogue Works | `davis`, `nima` | [watch](https://www.youtube.com/watch?v=_6_8JvP6Y9Y) | `source-dialogue-works-lt-col-daniel-davis-iran-s-trap-is-already-set-and-the-u-s-is-2026-03-25.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=OcqIEJEk4MY) | `source-glenn-diesen-jeffrey-sachs-iran-is-the-graveyard-of-american-hegemony-2026-03-25.md` |
 
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md`
+- `source-alexander-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md`
 - `source-dialogue-works-lt-col-daniel-davis-iran-s-trap-is-already-set-and-the-u-s-is-2026-03-25.md`
 - `source-glenn-diesen-jeffrey-sachs-iran-is-the-graveyard-of-american-hegemony-2026-03-25.md`
 - `source-pape-why-iran-prefers-vance-2026-03-25.md`

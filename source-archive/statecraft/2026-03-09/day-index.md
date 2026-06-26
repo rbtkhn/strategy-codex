@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (3), `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
+- `Daniel Davis` (3), `Alexander Mercouris` (1), `Dialogue Works` (1), `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=4Mutk9asuxs) | `source-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=4Mutk9asuxs) | `source-alexander-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [iYcnztEdjq0](https://www.youtube.com/watch?v=iYcnztEdjq0) | `source-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md` |
 
 ## Writer sources
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md`
+- `source-alexander-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md`
 - `source-daniel-davis-henningsen-wheres-the-war-going-2026-03-09.md`
 - `source-daniel-davis-iran-has-a-new-leader-2026-03-09.md`
 - `source-daniel-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Diesen (Greater Eurasia)` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Diesen (Greater Eurasia)` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=dcz8PeuTAps) | `source-alex-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=dcz8PeuTAps) | `source-alexander-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=fFoKpqMTpq8) | `source-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=H2K3qDshr70) | `source-diesen-mearsheimer-world-changed-forever-2026-04-10.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=jmXwmacMgi4) | `source-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md`
+- `source-alexander-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md`
 - `source-crooke-irans-determination-to-breakout-from-2026-04-10.md`
 - `source-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md`
 - `source-diesen-mearsheimer-world-changed-forever-2026-04-10.md`

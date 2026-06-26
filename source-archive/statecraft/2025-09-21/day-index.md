@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=mvW61t98xRA) | `source-alex-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=mvW61t98xRA) | `source-alexander-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md`
+- `source-alexander-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md`

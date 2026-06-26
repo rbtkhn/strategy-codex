@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Jeffrey Sachs` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pHCWOPCq2hA) | `source-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pHCWOPCq2hA) | `source-alexander-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=pxg73Ck5e-A) | `source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=DCZn8RZS9Zk) | `source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md`
+- `source-alexander-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md`
 - `source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md`
 - `source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md`
 - `source-sachs-us-economic-coercion-and-the-death-of-the-dollar-2026-02-11.md`

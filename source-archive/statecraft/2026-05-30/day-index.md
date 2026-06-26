@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=eoJTnQ9vhT8) | `source-alex-mercouris-zelensky-fears-new-big-russian-kiev-strike-kiev-s-drone-offensive-against-russia-fails-crimea-fuel-2026-05-30.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=eoJTnQ9vhT8) | `source-alexander-mercouris-zelensky-fears-new-big-russian-kiev-strike-kiev-s-drone-offensive-against-russia-fails-crimea-fuel-2026-05-30.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [CHy-5UZLeXw](https://www.youtube.com/watch?v=CHy-5UZLeXw) | `source-daniel-davis-iran-war-no-decision-made-lt-col-daniel-davis-robert-barnes-2026-05-30.md` |
 | `dialogue-works` | Dialogue Works | `marandi`, `nima` | [fku0svs5mgk](https://www.youtube.com/watch?v=fku0svs5mgk) | `source-dialogue-works-seyed-m-marandi-iran-dropped-the-hammer-in-strait-of-hormuz-trump-s-no-tolls-plan-backfires-2026-05-30.md` |
 | `glenn-diesen` | Glenn Diesen | `crooke`, `diesen` | [tOfXe6ry5UE](https://www.youtube.com/watch?v=tOfXe6ry5UE) | `source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-fears-new-big-russian-kiev-strike-kiev-s-drone-offensive-against-russia-fails-crimea-fuel-2026-05-30.md`
+- `source-alexander-mercouris-zelensky-fears-new-big-russian-kiev-strike-kiev-s-drone-offensive-against-russia-fails-crimea-fuel-2026-05-30.md`
 - `source-daniel-davis-iran-war-no-decision-made-lt-col-daniel-davis-robert-barnes-2026-05-30.md`
 - `source-dialogue-works-seyed-m-marandi-iran-dropped-the-hammer-in-strait-of-hormuz-trump-s-no-tolls-plan-backfires-2026-05-30.md`
 - `source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md`

@@ -78,7 +78,7 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 
 ### Mercouris / The Duran
 
-- [2026-05-07 - Iran Miscalculation Could Trigger a Decade-Long Economic Crisis](../../../source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-05-07 - Iran Miscalculation Could Trigger a Decade-Long Economic Crisis](../../../source-archive/statecraft/2026-05-07/source-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 
 ### Tucker Carlson
 

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aVt70aKH8KM) | `source-alex-mercouris-eu-rages-backs-zelensky-no-to-kellogg-plan-wants-crimea-in-ukraine-kiev-in-nato-trump-dithers-2025-04-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aVt70aKH8KM) | `source-alexander-mercouris-eu-rages-backs-zelensky-no-to-kellogg-plan-wants-crimea-in-ukraine-kiev-in-nato-trump-dithers-2025-04-24.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=k3ioQHvJrcs) | `source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-rages-backs-zelensky-no-to-kellogg-plan-wants-crimea-in-ukraine-kiev-in-nato-trump-dithers-2025-04-24.md`
+- `source-alexander-mercouris-eu-rages-backs-zelensky-no-to-kellogg-plan-wants-crimea-in-ukraine-kiev-in-nato-trump-dithers-2025-04-24.md`
 - `source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md`

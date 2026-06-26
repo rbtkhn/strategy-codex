@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Mercouris` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8TGmLigIr-c) | `source-alex-mercouris-pokrovsk-final-days-kiev-crumble-kupiansk-china-won-big-on-trade-2025-10-31.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8TGmLigIr-c) | `source-alexander-mercouris-pokrovsk-final-days-kiev-crumble-kupiansk-china-won-big-on-trade-2025-10-31.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=Z_TS5c9cbYw) | `source-dialogue-works-amb-chas-freeman-israel-may-not-survive-this-china-and-trump-make-their-move-2025-10-31.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=fBQUs2QQHZU) | `source-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-pokrovsk-final-days-kiev-crumble-kupiansk-china-won-big-on-trade-2025-10-31.md`
+- `source-alexander-mercouris-pokrovsk-final-days-kiev-crumble-kupiansk-china-won-big-on-trade-2025-10-31.md`
 - `source-dialogue-works-amb-chas-freeman-israel-may-not-survive-this-china-and-trump-make-their-move-2025-10-31.md`
 - `source-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md`

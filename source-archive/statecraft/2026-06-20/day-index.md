@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [Sr7km2u042w](https://www.youtube.com/watch?v=Sr7km2u042w) | `source-alex-mercouris-zelensky-desperate-threatens-belarus-attack-russia-trebles-oreshnik-output-2026-06-20.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [Sr7km2u042w](https://www.youtube.com/watch?v=Sr7km2u042w) | `source-alexander-mercouris-zelensky-desperate-threatens-belarus-attack-russia-trebles-oreshnik-output-2026-06-20.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [BZNTvwzPkEA](https://www.youtube.com/watch?v=BZNTvwzPkEA) | `source-daniel-davis-strait-of-hormuz-closed-guess-who-were-sending-to-reopen-2026-06-20.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `aguilar` | [m74uEsjmerM](https://www.youtube.com/watch?v=m74uEsjmerM) | `source-dialogue-works-anthony-aguilar-netanyahu-orders-idf-halt-lebanon-operations-iranian-pressure-2026-06-20.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [Sjpwu-s5rRw](https://www.youtube.com/watch?v=Sjpwu-s5rRw) | `source-dialogue-works-larry-johnson-iran-closes-hormuz-ends-israel-combat-ops-us-rushes-talks-2026-06-20.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-desperate-threatens-belarus-attack-russia-trebles-oreshnik-output-2026-06-20.md`
+- `source-alexander-mercouris-zelensky-desperate-threatens-belarus-attack-russia-trebles-oreshnik-output-2026-06-20.md`
 - `source-daniel-davis-strait-of-hormuz-closed-guess-who-were-sending-to-reopen-2026-06-20.md`
 - `source-dialogue-works-anthony-aguilar-netanyahu-orders-idf-halt-lebanon-operations-iranian-pressure-2026-06-20.md`
 - `source-dialogue-works-larry-johnson-iran-closes-hormuz-ends-israel-combat-ops-us-rushes-talks-2026-06-20.md`

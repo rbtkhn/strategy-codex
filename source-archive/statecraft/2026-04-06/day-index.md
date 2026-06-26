@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [woIYtlSfdXk](https://www.youtube.com/watch?v=woIYtlSfdXk) | `source-alex-mercouris-russia-demands-us-drop-ultimatums-offers-mediation-iran-rejects-us-cease-2026-04-06.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [woIYtlSfdXk](https://www.youtube.com/watch?v=woIYtlSfdXk) | `source-alexander-mercouris-russia-demands-us-drop-ultimatums-offers-mediation-iran-rejects-us-cease-2026-04-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=AkgRwbrzNls) | `source-daniel-davis-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [ClZ0Bt_wJTU](https://www.youtube.com/watch?v=ClZ0Bt_wJTU) | `source-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `nima` | [l2QJXZnf1A8](https://www.youtube.com/watch?v=l2QJXZnf1A8) | `source-dialogue-works-larry-c-johnson-irans-dead-defense-wipes-out-us-jets-and-black-hawks-2026-04-06.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-demands-us-drop-ultimatums-offers-mediation-iran-rejects-us-cease-2026-04-06.md`
+- `source-alexander-mercouris-russia-demands-us-drop-ultimatums-offers-mediation-iran-rejects-us-cease-2026-04-06.md`
 - `source-daniel-davis-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md`
 - `source-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md`
 - `source-dialogue-works-larry-c-johnson-irans-dead-defense-wipes-out-us-jets-and-black-hawks-2026-04-06.md`

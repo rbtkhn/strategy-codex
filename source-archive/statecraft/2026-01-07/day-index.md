@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Diesen (Greater Eurasia)` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Diesen (Greater Eurasia)` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zt_62WmFxOM) | `source-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zt_62WmFxOM) | `source-alexander-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=-NQ3lnuYcXs) | `source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=3aAQvsjGkKQ) | `source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md` |
 | `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=2V9477IubQA) | `source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md`
+- `source-alexander-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md`
 - `source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md`
 - `source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md`
 - `source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md`

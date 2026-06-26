@@ -21,7 +21,7 @@ capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_note: "Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (9 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 verify_receipt: 2026-06-24
 verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md
@@ -38,10 +38,14 @@ verify:
   - claim: Hezbollah ops in Lebanon parallel to Gulf escalation
     verdict: partial
     note: W34-6 mesh - seven Hezbollah ops in title; gate develops Jun 4-7
+transcript_curation: curated_sectioned
 ---
 # US Bases & Airport HIT! Iran RETALIATES - Gulf Stocks CRASH + 7 Hezbollah Ops
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 3rd, 2026 and I'm here to talk about what has happened last night between Iran and the United States. There were some sort of fighting happening last night and all of a sudden it happened and you remember know I was repeating that this blockade is going to escalate and escalate so fast because Iran is not happy with the situation with the blockade.
 
@@ -63,7 +67,11 @@ What we've learned from Bahrain he they have arrested some people in in Bahrain 
 
 But the main point of attacking these two countries as the Iranian foreign minister has announced that because these attacks were originated from Kuwait and Bahrain that's why Iran started attacking them. So as war is going on I think I think the the calculation on the part of the United States is to put pressure by the use of the blockade.
 
-You remember Donald Trump announced two three days ago that he's going to lift the blockade in the Strait of Hormuz. Then he later on the same day he came out and said that's not going to happen because Iran is not just agreeing on the terms that they have agreed on based on the messages that they're sending back and forth.
+You remember Donald Trump announced two three days ago that he's going to lift the blockade in the Strait of Hormuz. Then he later on the same day he came out and said that's not
+
+### Segment 2 — Going To Happen Because Iran
+
+going to happen because Iran is not just agreeing on the terms that they have agreed on based on the messages that they're sending back and forth.
 
 But the problem is Donald Trump is just making things up. He thinks that he just in his recent interview he's talking about meeting with the supreme leader of Iran. How can someone believe what this guy is talking about? He said he's I'm prepared to talk with him, you know, have a meeting with him.
 
@@ -81,7 +89,11 @@ They're desperate. They say they want to put an end to the conflict, but they're
 
 Iran has a very precise and accurate, they have precise and accurate intelligence coming out of these countries. So because it's not all about Iran because the population the public opinion is not happy with the decision makers with these GCC leaders that's why they don't want this sort of policy they don't want to be part of this war they don't want to facilitate the attack on Iranian people because they consider you know the case of Gaza the reality has changed since the war in Gaza started Shia and Sunni are coming together.
 
-You we have some sort of unity between the two sects. These two I would say these two manufactured sect parts of the Islam are coming together. The people are coming together. That doesn't mean that the leaderships are getting together. Maybe finally the this public opinion going to bring the leadership you know in GCC countries and in Iran together but that's not going to happen anytime soon because they have they're mostly dependent their economy is dependent on the United States they don't have it that's why you see UAE running out of cash in 39 days of war this is not this is the reality is this for Now they have to do whatever the United States is asking for.
+You we have some sort of unity between the two sects. These two I would say these two manufactured sect parts of the Islam are coming together. The people are coming together. That doesn't mean that the leaderships are getting together.
+
+### Segment 3 — Maybe Finally The This Public
+
+Maybe finally the this public opinion going to bring the leadership you know in GCC countries and in Iran together but that's not going to happen anytime soon because they have they're mostly dependent their economy is dependent on the United States they don't have it that's why you see UAE running out of cash in 39 days of war this is not this is the reality is this for Now they have to do whatever the United States is asking for.
 
 And that's that means new escalation. That means new devastations to the whole region. That means that they're not going to be able to send their oil and gas and fertilizers, helium, all of these things that they're exporting. And basically out of these things, they're importing everything. everything. So they're totally dependent to the outside world. But the the outside world is somehow blocked by the Iranian blockade in the Isra. They have their problems. Saudi Arabia much less than other countries because they have some sort of access to the Red Sea.
 
@@ -101,7 +113,11 @@ Iran is controlling the straight of and the United States is putting pressure on
 
 We are the United States is just dragging this war on and on with the blockade. Donald Trump is asking just how ridiculous things are getting. Imagine Donald Trump the United States is asking Iran to reveal the location of 60% enriched uranium before negotiating with Iran. They're messaging right now. They're sending messages.
 
-It says if you want to negotiate, you have to reveal. You have to disclose the location of 60% and rich uranium. You're not going to get it. And they that never would happen. Never. That's why Iran is talking about we have to be prepared. We are negotiating. We are talking. We are sending messages. But we are prepared for war. This is reaching peace through war.
+It says if you want to negotiate, you have to reveal. You have to disclose the location of 60% and rich uranium. You're not going to get it. And they that never would happen. Never. That's why Iran is talking about we have to
+
+### Segment 4 — Be Prepared We Are Negotiating
+
+be prepared. We are negotiating. We are talking. We are sending messages. But we are prepared for war. This is reaching peace through war.
 
 This is the strategy. The new strategy of Iran today is that you cannot get anything by these negotiations. You have to fight back. That's why they're attacking GCC countries in response to what the United States is using. U using the United States is using Qatar, Bahin, Saudi Arabia, all of these countries.
 
@@ -125,7 +141,11 @@ He gave Donald Trump that, you know, walkie-talkie that that golden, you know, d
 
 So he was so he was so so drunk with his victory in in in Syria, in Lebanon. So let's go after Iran. Just imagine that guy and the guy today. He's just begging. He's begging the United States to stay in the region. He's begging for more weapons. He's begging for their air defense system is not working anymore.
 
-The TAT system is not working. Patriot Pack 3, they don't have the interceptors to send them to Israel to improve their stockpile. And if Iran decides that's the reason that Benjamin Netanyahu backed down yesterday or the day before yesterday with the Iranian attack, they said if you attack Hezbollah, if you attack Di, we're going to attack you.
+The TAT system is not working. Patriot Pack 3, they don't have
+
+### Segment 5 — The Interceptors To Send Them
+
+the interceptors to send them to Israel to improve their stockpile. And if Iran decides that's the reason that Benjamin Netanyahu backed down yesterday or the day before yesterday with the Iranian attack, they said if you attack Hezbollah, if you attack Di, we're going to attack you.
 
 But they don't have the interceptors. They don't have the air defense system to defend themselves. They don't have it. They failed to intercept Hezbollah's rockets that are going to the northern part of Israel. Iron Dome is failing over and over again and again. This is the situation Benjamin Netau is in right now.
 
@@ -145,7 +165,11 @@ You all remember that before those protests happening, Iran International receiv
 
 Benjamin Net has failed totally. Let's let me put it this way. They're not going to be able to start the war against Iran with without the United States today. They don't have the capabilities to defend themselves. They're naked as we talk today. And Iran knows that. Iran knows that. That's why when they're asking with these negotiations, Israelis are just crying out, these Zionists in Israel just crying out, why do we need to connect what's going on between the United States and Iran to what's going on between Israel and Lebanon? Why do we need to make some sort of deal in Lebanon? You can make a deal just between Iran and the United States. They're just crying out. But this is not in the hand of the United States anymore. The United States started a war on the basis of the delusional sort of mindset of Benjamin Netanyahu and his MSAD and they were defeated.
 
-As simple as that. The United States was defeated in the Persian Gulf. That's why they're begging UN to open up this radar for most. If you're powerful, if you're the biggest navy on earth, why are you why why do you need to beg Europeans to come to help you to open up the Israel foremost? Why do you need UN to help you? Do you care about UN when you when you decided to attack Iran? Where was UN? Where was the international law? Everything everything just just imagine what has happened since Donald Trump took power in the United States.
+As simple as that. The United States was defeated in the Persian Gulf. That's why they're begging UN to
+
+### Segment 6 — Open Up This Radar For
+
+open up this radar for most. If you're powerful, if you're the biggest navy on earth, why are you why why do you need to beg Europeans to come to help you to open up the Israel foremost? Why do you need UN to help you? Do you care about UN when you when you decided to attack Iran? Where was UN? Where was the international law? Everything everything just just imagine what has happened since Donald Trump took power in the United States.
 
 Each and every step by the administration when it comes to the Greenland, when it comes to Canada, to Mexico, to Venezuela, Cuba, the attack on Iran, everything they do is against international law. But right now they're asking the state of the closure of the state of Mos against international law.
 
@@ -163,7 +187,11 @@ It's not we don't have to be delusional. We have to know that it doesn't matter 
 
 you want to make some sort of agreement putting an end to the war in in Lebanon, withdrawing from Lebanon and then with the case of Gaza and the West Bank, they have to do something about it. And I think for the case of Gaza, they need to bring because Turkey, Egypt and all of these GCC countries sign an agreement, signed some sort of ceasefire with the United States with somehow complicate the Iranian interference in this.
 
-So let's see what would happen with the case of Gaza and what how other countries are willing to to come you know to to to put pressure or somehow talk with the United States but they have there has to be some sort of global understanding in the Middle East in the West Asia and I see I I think there is no other way for GCC countries that's why it doesn't matter how much pressure the United States is putting on these countries, they're going to be dependent on Iran forever. Forever.
+So let's see what would happen with the case of Gaza and what how other countries are willing to to come you know to to to put pressure or somehow talk with the United States but they have there has to be some sort of global understanding in the Middle East in the West Asia and I see I I think there is no other way for GCC countries that's why it doesn't matter how much pressure the United States is putting on these countries, they're going to be
+
+### Segment 7 — Dependent On Iran Forever Forever
+
+dependent on Iran forever. Forever.
 
 Whoever wants to use this radar for most would be dependent on Iran. And if they're dependent on Iran, they have to understand, they have to reassess, they have to redefine their policies in the West Asia, not only with with American bases, but also in Gaza and Lebanon. The time is for action right now.
 
@@ -183,7 +211,11 @@ Confrontation means fighting the United States in the Persian Gulf. They know th
 
 Look at the military budget. You know, even Saudi Arabia and 10 times the the budget of their their their defense budget is 10 times the defense budget of Iran. How can a country like Iran defend itself against the United States together with Israel and with the cooperation of GCC countries? You remember when they were sending all these aircraft carriers to the region? Oh, so we're going to This is the end for Iran.
 
-Did Did that happen? No. And Iran knows that. And those people who were doubtful in Iran, mostly those people who were willing to negotiate, let's negotiate because if they attack us, we're going to be destroyed. Those people have changed their mind. They're just seeing the brutal reality of what's going on between Iran and the United States.
+Did Did that happen? No. And Iran knows that. And those people who were doubtful in Iran, mostly those people who were willing to negotiate, let's negotiate because if they attack us,
+
+### Segment 8 — We're Going To Be Destroyed
+
+we're going to be destroyed. Those people have changed their mind. They're just seeing the brutal reality of what's going on between Iran and the United States.
 
 They see how capable is Iran today to fight back and how desperate is the Trump administration. They're basically begging for a deal with Iran, but they're not getting that deal because that needs to put pressure on Benjamin Net. That would never happen. That would never happen in the United States. Donald Trump can say whatever he wants to say.
 
@@ -203,7 +235,11 @@ Iran has never been attacked by these sort of air powers, these sort of fighter 
 
 So let's assume worst case scenario for Iran is going to be not reaching any sort of agreement. So they don't reach an agreement with the United States. What is the outcome of that? The blockade of the Strait of Hormuz. If the United States tries to stay there with the blockade, we're going to get back to the fullscale war between Iran and the United States.
 
-How long does the United States want to continue that war? Are they going to be able what are the capabilities? What is the situation with the stockpile in the United States? the meeting that Donald Trump had with Xi Jinping in China, which basically in my opinion was focused on rare earth minerals because to produce more missiles to produce more interceptors for Israel and for the United States, they need rare earth minerals and they're short of that.
+How long does the United States want to continue that war? Are they going to be able what are the capabilities? What is the situation with the stockpile in the United States? the meeting that Donald Trump had with Xi Jinping in China, which basically in my opinion was focused on rare earth
+
+### Segment 9 — Minerals Because To Produce More
+
+minerals because to produce more missiles to produce more interceptors for Israel and for the United States, they need rare earth minerals and they're short of that.
 
 They don't have it. They're 90% dependent on the United States. As Marco Rubio yesterday said, they're dependent on China. It's 90% of the rails minerals are coming from China. That's why you see Marco Rubia going to Armenia, other countries, making new deals to receive more minerals from these countries which they don't have it the way that the United States they're trying to diversify that that pro diversify you know the the the case of you know the rare earth minerals but China is still they're dominant right now with those minerals. So there was no outcome with that summit. So the United States is not going to be able to build up the stockpile anytime soon. At least 10 years. They need 10 years to get back to the same level of missiles and interceptors that they had before this war started. Just imagine in 39 days they have used 10 years of production.
 

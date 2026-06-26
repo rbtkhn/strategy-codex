@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=R2hKw5DjGQs) | `source-alex-mercouris-putin-calm-world-leaders-defiant-as-zelensky-threatens-moscow-parade-russia-s-2-new-armies-prepare-2025-05-04.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=R2hKw5DjGQs) | `source-alexander-mercouris-putin-calm-world-leaders-defiant-as-zelensky-threatens-moscow-parade-russia-s-2-new-armies-prepare-2025-05-04.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-calm-world-leaders-defiant-as-zelensky-threatens-moscow-parade-russia-s-2-new-armies-prepare-2025-05-04.md`
+- `source-alexander-mercouris-putin-calm-world-leaders-defiant-as-zelensky-threatens-moscow-parade-russia-s-2-new-armies-prepare-2025-05-04.md`

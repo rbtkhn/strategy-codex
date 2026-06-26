@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=mxtKPfDhNzM) | `source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=mxtKPfDhNzM) | `source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [4yt1Vq3BruA](https://www.youtube.com/watch?v=4yt1Vq3BruA) | `source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md` |
 
 ## Writer sources

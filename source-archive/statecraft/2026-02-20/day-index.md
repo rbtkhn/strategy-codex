@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `India and Global Left` (1), `Mercouris` (1), `antiwar.com` (1), `substack.com/@tritaparsi` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `India and Global Left` (1), `antiwar.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jjrtybAxnc4) | `source-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jjrtybAxnc4) | `source-alexander-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=rSvsMr-wnq0) | `source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md` |
 | `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [6ZagJb5RwMA](https://www.youtube.com/watch?v=6ZagJb5RwMA) | `source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md` |
 
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md`
+- `source-alexander-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md`
 - `source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md`
 - `source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md`
 - `source-mearsheimer-is-a-peace-deal-in-ukraine-possible-2026-02-20.md`

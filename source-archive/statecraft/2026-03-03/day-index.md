@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Dialogue Works` (2), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (3), `Dialogue Works` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [p2kBG8i_Knw](https://www.youtube.com/watch?v=p2kBG8i_Knw) | `source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [p2kBG8i_Knw](https://www.youtube.com/watch?v=p2kBG8i_Knw) | `source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md` |
 | `dialogue-works` | — | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=cds5p875iNs) | `source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md` |
 | `dialogue-works` | Dialogue Works | `wilkerson` | [VSM5yjbYrbY](https://www.youtube.com/watch?v=VSM5yjbYrbY) | `source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md` |
 | `dialogue-works` | Dialogue Works | `marandi` | [EhBb6F7tPps](https://www.youtube.com/watch?v=EhBb6F7tPps) | `source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md` |
@@ -62,7 +62,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md`
+- `source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md`
 - `source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md`
 - `source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md`
 - `source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md`

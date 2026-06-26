@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=XAVvUfOoEZk) | `source-duran-mercouris-ukraine-negotiation-cynicism-2025-09-09.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=XAVvUfOoEZk) | `source-duran-mercouris-ukraine-negotiation-cynicism-2025-09-09.md` |
 
 ## Writer sources
 

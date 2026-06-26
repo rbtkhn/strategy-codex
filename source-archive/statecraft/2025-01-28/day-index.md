@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (7), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (7), `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_EAAGhhLXPE) | `source-alex-mercouris-trump-delays-putin-call-zelensky-again-demands-nato-sacks-top-general-uk-2025-01-28.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_EAAGhhLXPE) | `source-alexander-mercouris-trump-delays-putin-call-zelensky-again-demands-nato-sacks-top-general-uk-2025-01-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=A9xAqY5CIUw) | `source-daniel-davis-breaking-trump-s-new-military-executive-orders-2025-01-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ck7k2GMU_7I) | `source-daniel-davis-chances-of-us-civil-war-greater-than-you-realize-2025-01-28.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=ANYntBr7fD8) | `source-daniel-davis-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-delays-putin-call-zelensky-again-demands-nato-sacks-top-general-uk-2025-01-28.md`
+- `source-alexander-mercouris-trump-delays-putin-call-zelensky-again-demands-nato-sacks-top-general-uk-2025-01-28.md`
 - `source-daniel-davis-breaking-trump-s-new-military-executive-orders-2025-01-28.md`
 - `source-daniel-davis-chances-of-us-civil-war-greater-than-you-realize-2025-01-28.md`
 - `source-daniel-davis-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md`

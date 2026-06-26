@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=qwmaoa-uaDw) | `source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=qwmaoa-uaDw) | `source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=FDac1qw4Zfs) | `source-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md` |
 
 ## Writer sources

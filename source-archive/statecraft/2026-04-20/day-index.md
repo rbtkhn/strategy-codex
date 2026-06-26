@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Judging Freedom` (2), `Daniel Davis Deep Dive` (1), `Mercouris` (1), `The Chris Hedges Report` (1)
+- `Dialogue Works` (2), `Judging Freedom` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `The Chris Hedges Report` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_YFxPQ7bq1Y) | `source-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_YFxPQ7bq1Y) | `source-alexander-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `baud`, `davis` | [Vbmtt9LkJLo](https://www.youtube.com/watch?v=Vbmtt9LkJLo) | `source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [UrEuENJ13UA](https://www.youtube.com/watch?v=UrEuENJ13UA) | `source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=aUIRaWUtgTA) | `source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md` |
@@ -40,7 +40,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [OA1YCYflWeg]('https://www.youtube.com/watch?v=OA1YCYflWeg') | `source-judging-freedom-sachs-is-the-war-over-2026-04-20.md` |
 | `redacted-news` | — | `pape` | [watch](https://www.youtube.com/watch?v=WemB-vfoMaw) | `source-pape-collapse-ahead-of-schedule-2026-04-20.md` |
 | `scott-ritter` | — | `ritter` | [watch](https://www.youtube.com/watch?v=7pXI52jKcOU) | `source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md` |
-| `alexander-mercouris` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20) | `source-russia-blockade-40-ships-hormuz-2026-04-20.md` |
+| `the-duran` | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20) | `source-russia-blockade-40-ships-hormuz-2026-04-20.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `ritter` | [watch](https://www.youtube.com/watch?v=QRkC8xniXkQ) | `source-trump-hegseth-2026-04-20.md` |
 
 ## Writer sources
@@ -65,7 +65,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md`
+- `source-alexander-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md`
 - `source-araghchi-april-2026-posts-bundle-2026-04-20.md`
 - `source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`
 - `source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md`

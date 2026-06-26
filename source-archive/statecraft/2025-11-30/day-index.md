@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iXzrvelsJ2Q) | `source-alex-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iXzrvelsJ2Q) | `source-alexander-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=LBWDB9MpnnA) | `source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md`
+- `source-alexander-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md`
 - `source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md`

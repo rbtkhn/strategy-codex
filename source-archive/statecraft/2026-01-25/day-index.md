@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r1W2yUccMC8) | `source-alex-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r1W2yUccMC8) | `source-alexander-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=IAKqyzQen04) | `source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md` |
 
 ## Writer sources
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md`
+- `source-alexander-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md`
 - `source-dialogue-works-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md`
 - `source-simplicius-has-russia-finally-begun-disconnecting-2026-01-25.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iDA6p8l0xZI) | `source-alex-mercouris-russia-sets-out-harsh-terms-at-istanbul-talks-uk-eu-despondent-outplayed-trump-seeks-russia-summit-2025-05-17.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iDA6p8l0xZI) | `source-alexander-mercouris-russia-sets-out-harsh-terms-at-istanbul-talks-uk-eu-despondent-outplayed-trump-seeks-russia-summit-2025-05-17.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-sets-out-harsh-terms-at-istanbul-talks-uk-eu-despondent-outplayed-trump-seeks-russia-summit-2025-05-17.md`
+- `source-alexander-mercouris-russia-sets-out-harsh-terms-at-istanbul-talks-uk-eu-despondent-outplayed-trump-seeks-russia-summit-2025-05-17.md`

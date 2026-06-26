@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [vm8AsfGNlxM](https://www.youtube.com/watch?v=vm8AsfGNlxM) | `source-alex-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [vm8AsfGNlxM](https://www.youtube.com/watch?v=vm8AsfGNlxM) | `source-alexander-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [9mGWb0tO13o](https://www.youtube.com/watch?v=9mGWb0tO13o) | `source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [BwsYAUshJ80](https://www.youtube.com/watch?v=BwsYAUshJ80) | `source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi`, `johnson` | [z_O55bdqHFA](https://www.youtube.com/watch?v=z_O55bdqHFA) | `source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md` |
@@ -62,7 +62,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md`
+- `source-alexander-mercouris-russia-toughens-demands-donbas-towns-fall-eu-quarrels-us-israel-2026-06-19.md`
 - `source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md`
 - `source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md`
 - `source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9-p8I4p07uE) | `source-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9-p8I4p07uE) | `source-alexander-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md` |
 | `dialogue-works` | — | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=HgTMbRrchsM) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md` |
 | `judging-freedom` | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=n05ufH9BHjw) | `source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md`
+- `source-alexander-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md`
 - `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md`
 - `source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md`

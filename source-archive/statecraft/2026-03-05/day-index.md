@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `escalationtrap.substack.com` (3), `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `escalationtrap.substack.com` (3), `Alexander Mercouris` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tUbc17SsVS8) | `source-alex-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tUbc17SsVS8) | `source-alexander-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=V7W6hk-vyok) | `source-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md` |
 
 ## Writer sources
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md`
+- `source-alexander-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md`
 - `source-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md`
 - `source-pape-day-5-the-war-is-widening-from-gulf-2026-03-05.md`
 - `source-pape-parallel-strategic-attack-stage-ii-2026-03-05.md`

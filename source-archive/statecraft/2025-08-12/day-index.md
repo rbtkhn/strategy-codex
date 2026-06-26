@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xUviIH3-FRU) | `source-alex-mercouris-ukraine-faces-catastrophe-as-pokrovsk-front-collapses-eu-in-denial-merz-calls-alaska-crisis-talks-2025-08-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xUviIH3-FRU) | `source-alexander-mercouris-ukraine-faces-catastrophe-as-pokrovsk-front-collapses-eu-in-denial-merz-calls-alaska-crisis-talks-2025-08-12.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=Vzj-w0Rj7Pc) | `source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-ukraine-faces-catastrophe-as-pokrovsk-front-collapses-eu-in-denial-merz-calls-alaska-crisis-talks-2025-08-12.md`
+- `source-alexander-mercouris-ukraine-faces-catastrophe-as-pokrovsk-front-collapses-eu-in-denial-merz-calls-alaska-crisis-talks-2025-08-12.md`
 - `source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md`

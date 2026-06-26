@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `operator-transcript` (2), `transcript` (1)
 - Source form mix: `newsletter` (1), `panel` (1), `solo` (1)
-- Distinct channels/shows: `2`
+- Distinct channels/shows: `3`
 - Distinct hosts: `1`
 - Distinct guests: `2`
 - Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Mercouris` (2), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `The Duran` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,8 +32,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AJP9FYH0Og8) | `source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md` |
-| `alexander-mercouris` | Mercouris | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=XZL0HiFch10) | `source-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AJP9FYH0Og8) | `source-alexander-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=XZL0HiFch10) | `source-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md` |
 
 ## Writer sources
 
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md`
-- `source-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md`
+- `source-alexander-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md`
+- `source-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md`
 - `source-simplicius-ukraine-war-untangling-current-disinfo-2026-04-25.md`

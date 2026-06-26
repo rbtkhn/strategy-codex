@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Dialogue Works` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (3), `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=41dKk_qYOvE) | `source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=41dKk_qYOvE) | `source-alexander-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=7cauctJTefA) | `source-daniel-davis-did-israel-just-admit-defeat-to-hamas-2025-01-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=76W9pyG4Scs) | `source-daniel-davis-intel-briefing-what-we-learned-this-week-more-2025-01-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=OpvenLHtSNY) | `source-daniel-davis-prepared-to-say-israel-committed-war-crimes-2025-01-18.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md`
+- `source-alexander-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md`
 - `source-daniel-davis-did-israel-just-admit-defeat-to-hamas-2025-01-18.md`
 - `source-daniel-davis-intel-briefing-what-we-learned-this-week-more-2025-01-18.md`
 - `source-daniel-davis-prepared-to-say-israel-committed-war-crimes-2025-01-18.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Diesen (Greater Eurasia)` (1), `Glenn Diesen` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Diesen (Greater Eurasia)` (1), `Glenn Diesen` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YD9sBc4qpgE) | `source-alex-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YD9sBc4qpgE) | `source-alexander-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | [FnMwyOTXhAU](https://www.youtube.com/watch?v=FnMwyOTXhAU) | `source-dialogue-works-chas-freeman-if-troops-enter-iran-israel-s-entire-strategy-falls-a-2026-03-27.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [nZEDlBdZTQ4](https://www.youtube.com/watch?v=nZEDlBdZTQ4) | `source-dialogue-works-larry-johnson-col-wilkerson-us-iran-ground-conflict-could-devastate-is-2026-03-27.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=DBOVT0UdHXg) | `source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md`
+- `source-alexander-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md`
 - `source-dialogue-works-chas-freeman-if-troops-enter-iran-israel-s-entire-strategy-falls-a-2026-03-27.md`
 - `source-dialogue-works-larry-johnson-col-wilkerson-us-iran-ground-conflict-could-devastate-is-2026-03-27.md`
 - `source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md`

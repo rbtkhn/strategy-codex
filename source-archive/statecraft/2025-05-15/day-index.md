@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iIgcIesV14E) | `source-alex-mercouris-putin-sends-strong-team-to-istanbul-includes-top-military-officials-zelensky-circus-goes-to-ankara-2025-05-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iIgcIesV14E) | `source-alexander-mercouris-putin-sends-strong-team-to-istanbul-includes-top-military-officials-zelensky-circus-goes-to-ankara-2025-05-15.md` |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-trump-s-backroom-deal-with-iran-what-s-really-happening-in-istanbul-2025-05-15.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [iTn-CqdOA8Y](https://www.youtube.com/watch?v=iTn-CqdOA8Y) | `source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-sends-strong-team-to-istanbul-includes-top-military-officials-zelensky-circus-goes-to-ankara-2025-05-15.md`
+- `source-alexander-mercouris-putin-sends-strong-team-to-istanbul-includes-top-military-officials-zelensky-circus-goes-to-ankara-2025-05-15.md`
 - `source-dialogue-works-amb-chas-freeman-trump-s-backroom-deal-with-iran-what-s-really-happening-in-istanbul-2025-05-15.md`
 - `source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md`

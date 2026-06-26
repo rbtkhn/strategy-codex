@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OvxXwYAqlu4&t=4843s) | `source-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OvxXwYAqlu4&t=4843s) | `source-alexander-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md` |
 | `mario-nawfal` | Mario Nawfal | `barnes`, `nawfal` | [watch](https://www.youtube.com/watch?v=NPSRkimwbIQ) | `source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md` |
 | `dialogue-works` | Dialogue Works | `krainer`, `nima` | [watch](https://www.youtube.com/watch?v=8ELGP4iroAg) | `source-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=g_h7pvyO2Fs) | `source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md` |
@@ -64,7 +64,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md`
+- `source-alexander-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md`
 - `source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md`
 - `source-crooke-iran-war-effect-marks-the-resetting-2026-05-28.md`
 - `source-daniel-davis-baud-europe-provokes-war-russia-2026-05-28.md`

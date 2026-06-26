@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ln8XdhPw3Co) | `source-alex-mercouris-moscow-forces-2nd-istanbul-round-makes-huge-demands-to-us-on-nato-taurus-strikes-on-moscow-coming-2025-05-29.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ln8XdhPw3Co) | `source-alexander-mercouris-moscow-forces-2nd-istanbul-round-makes-huge-demands-to-us-on-nato-taurus-strikes-on-moscow-coming-2025-05-29.md` |
 | `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=AeV3EH8b6Wo) | `source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `baud` | [watch](https://www.youtube.com/watch?v=Fp-h0EoT-QI) | `source-glenn-diesen-col-jacques-baud-russia-pursues-military-solution-as-diplomacy-fails-2025-05-29.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-forces-2nd-istanbul-round-makes-huge-demands-to-us-on-nato-taurus-strikes-on-moscow-coming-2025-05-29.md`
+- `source-alexander-mercouris-moscow-forces-2nd-istanbul-round-makes-huge-demands-to-us-on-nato-taurus-strikes-on-moscow-coming-2025-05-29.md`
 - `source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md`
 - `source-glenn-diesen-col-jacques-baud-russia-pursues-military-solution-as-diplomacy-fails-2025-05-29.md`

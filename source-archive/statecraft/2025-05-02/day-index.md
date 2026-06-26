@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Sn4Z7Fi50-8) | `source-alex-mercouris-us-exits-ukraine-talks-starmer-crashes-in-polls-elensky-curse-strikes-russia-enters-pokrovsk-2025-05-02.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Sn4Z7Fi50-8) | `source-alexander-mercouris-us-exits-ukraine-talks-starmer-crashes-in-polls-elensky-curse-strikes-russia-enters-pokrovsk-2025-05-02.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `marandi` | — | `source-dialogue-works-mohammad-marandi-and-amb-chas-freeman-ticking-toward-war-u-s-and-iran-at-a-dangerous-crossroads-2025-05-02.md` |
 | `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=Dy60zHLlNGU) | `source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [qcTLAX8hF7I](https://www.youtube.com/watch?v=qcTLAX8hF7I) | `source-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-exits-ukraine-talks-starmer-crashes-in-polls-elensky-curse-strikes-russia-enters-pokrovsk-2025-05-02.md`
+- `source-alexander-mercouris-us-exits-ukraine-talks-starmer-crashes-in-polls-elensky-curse-strikes-russia-enters-pokrovsk-2025-05-02.md`
 - `source-dialogue-works-mohammad-marandi-and-amb-chas-freeman-ticking-toward-war-u-s-and-iran-at-a-dangerous-crossroads-2025-05-02.md`
 - `source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md`
 - `source-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md`

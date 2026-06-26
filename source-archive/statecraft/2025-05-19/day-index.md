@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vwm3ik9Izjw) | `source-alex-mercouris-uk-eu-kiev-nervous-as-us-russia-leaders-prepare-call-moscow-warns-all-out-war-if-peace-talks-fail-2025-05-19.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vwm3ik9Izjw) | `source-alexander-mercouris-uk-eu-kiev-nervous-as-us-russia-leaders-prepare-call-moscow-warns-all-out-war-if-peace-talks-fail-2025-05-19.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [WF0umxJBY5c](https://www.youtube.com/watch?v=WF0umxJBY5c) | `source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-uk-eu-kiev-nervous-as-us-russia-leaders-prepare-call-moscow-warns-all-out-war-if-peace-talks-fail-2025-05-19.md`
+- `source-alexander-mercouris-uk-eu-kiev-nervous-as-us-russia-leaders-prepare-call-moscow-warns-all-out-war-if-peace-talks-fail-2025-05-19.md`
 - `source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oDRIIPJwF8E) | `source-alex-mercouris-russia-offensive-starts-big-missile-strike-advances-eu-splits-starmer-deluded-macron-says-leads-2025-04-06.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oDRIIPJwF8E) | `source-alexander-mercouris-russia-offensive-starts-big-missile-strike-advances-eu-splits-starmer-deluded-macron-says-leads-2025-04-06.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-offensive-starts-big-missile-strike-advances-eu-splits-starmer-deluded-macron-says-leads-2025-04-06.md`
+- `source-alexander-mercouris-russia-offensive-starts-big-missile-strike-advances-eu-splits-starmer-deluded-macron-says-leads-2025-04-06.md`

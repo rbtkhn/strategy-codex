@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=woM2-TSxnoo) | `source-alex-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=woM2-TSxnoo) | `source-alexander-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md` |
 | `glenn-diesen` | Glenn Diesen | `jiang`, `diesen` | [watch](https://www.youtube.com/watch?v=ORyCS0r2Tpg) | `source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md`
+- `source-alexander-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md`
 - `source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md`
 - `source-ritter-the-sanctions-shield-2026-01-05.md`
 - `source-simplicius-major-questions-finally-answered-2026-01-05.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [lOGxx0WvY74](https://www.youtube.com/watch?v=lOGxx0WvY74) | `source-alex-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [lOGxx0WvY74](https://www.youtube.com/watch?v=lOGxx0WvY74) | `source-alexander-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [XgIgxiJimaE](https://www.youtube.com/watch?v=XgIgxiJimaE) | `source-daniel-davis-clock-is-ticking-next-round-of-iran-war-2026-05-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [q5l_vCHU4xI](https://www.youtube.com/watch?v=q5l_vCHU4xI) | `source-daniel-davis-russia-ukraine-trade-more-drones-pressure-building-in-moscow-for-escalation-2026-05-18.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [HF65E99SIsw](https://www.youtube.com/watch?v=HF65E99SIsw) | `source-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md` |
@@ -63,7 +63,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md`
+- `source-alexander-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md`
 - `source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md`
 - `source-daniel-davis-clock-is-ticking-next-round-of-iran-war-2026-05-18.md`
 - `source-daniel-davis-russia-ukraine-trade-more-drones-pressure-building-in-moscow-for-escalation-2026-05-18.md`

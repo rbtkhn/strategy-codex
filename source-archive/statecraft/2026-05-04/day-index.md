@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (3), `Diesen (Greater Eurasia)` (2), `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (3), `Diesen (Greater Eurasia)` (2), `Alexander Mercouris` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,12 +32,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | — | `source-alexander-mercouris-kremlin-panic-british-intelligence-2026-05-04.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [watch](https://www.youtube.com/watch?v=_GNFo2d4c2w) | `source-baud-dialogue-works-nima-2026-05-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `aguilar` | [watch](https://www.youtube.com/watch?v=HUg0fyqLmGI) | `source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=wGws3SN4HcE) | `source-dialogue-works-larry-johnson-hormuz-canberra-blockade-2026-05-04.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=dkXQW_ZRL3I) | `source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=NPr9-IynnPE) | `source-diesen-ritter-hormuz-return-to-war-2026-05-04.md` |
-| `alexander-mercouris` | Mercouris | `mercouris` | — | `source-mercouris-kremlin-panic-british-intelligence-2026-05-04.md` |
 
 ## Writer sources
 
@@ -57,10 +57,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
+- `source-alexander-mercouris-kremlin-panic-british-intelligence-2026-05-04.md`
 - `source-baud-dialogue-works-nima-2026-05-04.md`
 - `source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md`
 - `source-dialogue-works-larry-johnson-hormuz-canberra-blockade-2026-05-04.md`
 - `source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md`
 - `source-diesen-ritter-hormuz-return-to-war-2026-05-04.md`
-- `source-mercouris-kremlin-panic-british-intelligence-2026-05-04.md`
 - `source-pape-the-united-states-just-made-a-bet-2026-05-04.md`

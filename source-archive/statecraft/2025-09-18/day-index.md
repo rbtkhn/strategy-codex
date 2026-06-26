@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qUoGDrtgA1A) | `source-alex-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qUoGDrtgA1A) | `source-alexander-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=E2SsiG1jDLs) | `source-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/live/5JGozKc9Obw) | `source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md`
+- `source-alexander-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md`
 - `source-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md`
 - `source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md`

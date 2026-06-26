@@ -10,37 +10,37 @@ Month status: `mature dense-core month`
 
 - [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-03-01.md)
   - Opening dense-core node: Khamenei aftermath, de facto Hormuz closure, regime-survival reading, and Russia-linked crisis geometry.
-- [source-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md](../../../../source-archive/statecraft/2026-03-02/source-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md)
+- [source-alexander-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md](../../../../source-archive/statecraft/2026-03-02/source-alexander-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md)
   - Early war-read: attritional logic, failed coercion, and rising energy consequences.
-- [source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md](../../../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md)
+- [source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md](../../../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md)
   - Hormuz crisis shifts into stockpile exhaustion and Gulf-system panic.
-- [source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md](../../../../source-archive/statecraft/2026-03-04/source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md)
+- [source-alexander-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md](../../../../source-archive/statecraft/2026-03-04/source-alexander-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md)
   - Energy shock becomes an explicit system lever.
-- [source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md](../../../../source-archive/statecraft/2026-03-07/source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md)
+- [source-alexander-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md](../../../../source-archive/statecraft/2026-03-07/source-alexander-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md)
   - Russia-Iran coupling thickens the alternative diplomatic room.
-- [source-alex-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md](../../../../source-archive/statecraft/2026-03-10/source-alex-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md)
+- [source-alexander-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md](../../../../source-archive/statecraft/2026-03-10/source-alexander-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md)
   - U.S. coercive credibility crisis turns visible and political.
-- [source-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md](../../../../source-archive/statecraft/2026-03-12/source-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md)
+- [source-alexander-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md](../../../../source-archive/statecraft/2026-03-12/source-alexander-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md)
   - Canonical closure-and-shock node for the Hormuz strand.
-- [source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md](../../../../source-archive/statecraft/2026-03-14/source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md)
+- [source-alexander-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md](../../../../source-archive/statecraft/2026-03-14/source-alexander-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md)
   - Sanctions and energy self-damage become explicit inside the same month object.
-- [source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md](../../../../source-archive/statecraft/2026-03-18/source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md)
+- [source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md](../../../../source-archive/statecraft/2026-03-18/source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md)
   - Ukraine attrition downstream of war-and-arsenal exhaustion; **cleaned full transcript** (2026-06-22). **Cross-weave:** [Jermy × Mercouris Mar-18](../../notes/2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md).
-- [source-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md](../../../../source-archive/statecraft/2026-03-19/source-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md)
+- [source-alexander-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md](../../../../source-archive/statecraft/2026-03-19/source-alexander-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md)
   - Escalation hardening node.
-- [source-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md](../../../../source-archive/statecraft/2026-03-20/source-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md)
+- [source-alexander-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md](../../../../source-archive/statecraft/2026-03-20/source-alexander-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md)
   - Multipolar-room and sanctions-energy strands fuse tightly.
-- [source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md](../../../../source-archive/statecraft/2026-03-21/source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md)
+- [source-alexander-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md](../../../../source-archive/statecraft/2026-03-21/source-alexander-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md)
   - High-temperature escalation node.
-- [source-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md](../../../../source-archive/statecraft/2026-03-22/source-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md)
+- [source-alexander-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md](../../../../source-archive/statecraft/2026-03-22/source-alexander-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md)
   - Crisis reaches explicit strategic-shock register.
-- [source-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md](../../../../source-archive/statecraft/2026-03-23/source-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md)
+- [source-alexander-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md](../../../../source-archive/statecraft/2026-03-23/source-alexander-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md)
   - Failed-coercion theater becomes overt.
-- [source-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md](../../../../source-archive/statecraft/2026-03-26/source-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md)
+- [source-alexander-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md](../../../../source-archive/statecraft/2026-03-26/source-alexander-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md)
   - Strategic-defeat framing consolidates the month.
-- [source-alex-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md](../../../../source-archive/statecraft/2026-03-27/source-alex-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md)
+- [source-alexander-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md](../../../../source-archive/statecraft/2026-03-27/source-alexander-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md)
   - Russia-China-Iran room and European legitimacy stress stay coupled.
-- [source-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md](../../../../source-archive/statecraft/2026-03-28/source-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
+- [source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md](../../../../source-archive/statecraft/2026-03-28/source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
   - Regional widening keeps the dense-core object coherent.
 - [../../../../dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-03-31.md)
   - Closing dense-core node: failed ultimatum, Lavrov warning, Hormuz persistence, and world-war register.

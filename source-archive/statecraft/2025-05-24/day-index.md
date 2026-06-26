@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MSuKoFWpuj4) | `source-alex-mercouris-russia-aims-military-victory-takes-drone-lead-ukraine-stalls-on-talks-us-military-dominance-gone-2025-05-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MSuKoFWpuj4) | `source-alexander-mercouris-russia-aims-military-victory-takes-drone-lead-ukraine-stalls-on-talks-us-military-dominance-gone-2025-05-24.md` |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-the-dangerous-myths-we-tell-ourselves-about-china-russia-and-iran-2025-05-24.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=YGXnz6EKkWs) | `source-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-aims-military-victory-takes-drone-lead-ukraine-stalls-on-talks-us-military-dominance-gone-2025-05-24.md`
+- `source-alexander-mercouris-russia-aims-military-victory-takes-drone-lead-ukraine-stalls-on-talks-us-military-dominance-gone-2025-05-24.md`
 - `source-dialogue-works-amb-chas-freeman-the-dangerous-myths-we-tell-ourselves-about-china-russia-and-iran-2025-05-24.md`
 - `source-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md`

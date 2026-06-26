@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MXiIeAOZpa4) | `source-alex-mercouris-putin-forcefully-restates-moscows-ukraine-terms-alaska-summit-ends-no-ceasefire-neocons-eu-rage-2025-08-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MXiIeAOZpa4) | `source-alexander-mercouris-putin-forcefully-restates-moscows-ukraine-terms-alaska-summit-ends-no-ceasefire-neocons-eu-rage-2025-08-16.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-forcefully-restates-moscows-ukraine-terms-alaska-summit-ends-no-ceasefire-neocons-eu-rage-2025-08-16.md`
+- `source-alexander-mercouris-putin-forcefully-restates-moscows-ukraine-terms-alaska-summit-ends-no-ceasefire-neocons-eu-rage-2025-08-16.md`

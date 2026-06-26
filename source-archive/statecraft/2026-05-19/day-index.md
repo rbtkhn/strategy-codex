@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [rRPwqWA0rAw](https://www.youtube.com/watch?v=rRPwqWA0rAw) | `source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [rRPwqWA0rAw](https://www.youtube.com/watch?v=rRPwqWA0rAw) | `source-alexander-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [lcyeEwExzXI](https://www.youtube.com/watch?v=lcyeEwExzXI) | `source-daniel-davis-iran-attack-on-hold-2026-05-19.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=RG1clZlrfOo) | `source-game-theory-26-the-holy-empire-of-ai-2026-05-19.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [tZQIeeR17Hk](https://www.youtube.com/watch?v=tZQIeeR17Hk) | `source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md`
+- `source-alexander-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md`
 - `source-daniel-davis-iran-attack-on-hold-2026-05-19.md`
 - `source-game-theory-26-the-holy-empire-of-ai-2026-05-19.md`
 - `source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md`

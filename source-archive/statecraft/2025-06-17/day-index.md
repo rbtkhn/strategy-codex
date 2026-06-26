@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `berletic`, `christoforou` | [watch](https://www.youtube.com/watch?v=hmvxLZ_jkyc) | `source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md` |
+| `the-duran` | The Duran | `mercouris`, `berletic`, `christoforou` | [watch](https://www.youtube.com/watch?v=hmvxLZ_jkyc) | `source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md` |
 | `glenn-diesen` | Glenn Diesen | `freeman`, `diesen` | — | `source-glenn-diesen-chas-freeman-iran-attacked-turning-point-for-russia-and-the-world-2025-06-17.md` |
 
 ## Writer sources

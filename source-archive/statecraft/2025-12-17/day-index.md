@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=HLOHbWCnI9o) | `source-alex-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=HLOHbWCnI9o) | `source-alexander-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md` |
 | `daniel-davis` | — | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=Rcf1kn9QS1Q) | `source-daniel-davis-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md`
+- `source-alexander-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md`
 - `source-daniel-davis-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md`

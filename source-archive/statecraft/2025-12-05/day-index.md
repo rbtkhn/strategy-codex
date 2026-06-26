@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=yk_P7Zw5v0U) | `source-alex-mercouris-big-sanctions-fail-russian-oil-exports-grow-scandals-leaks-rock-eu-india-2025-12-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=yk_P7Zw5v0U) | `source-alexander-mercouris-big-sanctions-fail-russian-oil-exports-grow-scandals-leaks-rock-eu-india-2025-12-05.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=oKuDN1rYFTM) | `source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md` |
 | `dialogue-works` | — | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=FTdUfTBNzaU) | `source-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-putin-hits-back-hard-calls-out-trump-eu-ukraine-s-future-2025-12-05.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-big-sanctions-fail-russian-oil-exports-grow-scandals-leaks-rock-eu-india-2025-12-05.md`
+- `source-alexander-mercouris-big-sanctions-fail-russian-oil-exports-grow-scandals-leaks-rock-eu-india-2025-12-05.md`
 - `source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md`
 - `source-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-putin-hits-back-hard-calls-out-trump-eu-ukraine-s-future-2025-12-05.md`

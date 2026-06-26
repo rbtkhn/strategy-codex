@@ -3,9 +3,11 @@ ingest_date: 2026-06-04
 pub_date: 2026-06-01
 kind: article
 source_form: article
+evidence_grade: source-front-door
 host_people:
   - Glenn Diesen
-guest_people: []
+guest_people:
+  - Jeffrey Sachs
 source_type: web-page
 channel_name: Glenn Diesen
 thread: diesen
@@ -17,7 +19,7 @@ channel_url: "https://www.youtube.com/@GDiesen1"
 channel_slug: glenn-diesen
 source_url: "https://www.jeffsachs.org/newspaper-articles/germany-is-leading-europe-toward-world-war-three"
 source_note: "Sachs-owned newspaper-articles page preserves this as a current Glenn Diesen / Jeffrey Sachs publication surface. The Sachs page is dated May 31, 2026 while this archive filing follows the June 1 circulation seam used in surrounding public reposts; direct watch URL was not recovered in this pass."
-quality_note: Source-bearing article front door only; do not treat as transcript-bearing until a direct watch URL or full transcript body is recovered.
+quality_note: "Source-bearing article front door only; do not treat as transcript-bearing until a direct watch URL or full transcript body is recovered. · source-section: out of scope (article recovery stub; no transcript body)."
 ---
 # Germany Is Leading Europe Toward World War III
 

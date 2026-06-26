@@ -4,7 +4,6 @@
     "napolitano": "judging-freedom",
     "judge-napolitano-judging-freedom": "judging-freedom",
     "alex-mercouris": "alexander-mercouris",
-    "the-duran": "alexander-mercouris",
     "mercouris": "alexander-mercouris",
     "daniel-davis-deep-dive": "daniel-davis",
     "youtube-deep-dive-daniel-davis-confirm-channel": "daniel-davis"
@@ -19,7 +18,6 @@
     "napolitano": "judging-freedom",
     "judge-napolitano-judging-freedom": "judging-freedom",
     "alex-mercouris": "alexander-mercouris",
-    "the-duran": "alexander-mercouris",
     "mercouris": "alexander-mercouris",
     "daniel-davis-deep-dive": "daniel-davis",
     "youtube-deep-dive-daniel-davis-confirm-channel": "daniel-davis"
@@ -42,10 +40,11 @@
     "Breaking Points": "breaking-points",
     "Tucker Carlson": "tucker-carlson",
     "Pascal Lottaz": "neutrality-studies",
-    "Neutrality Studies": "neutrality-studies"
+    "Neutrality Studies": "neutrality-studies",
+    "Alex Christoforou": "the-duran"
   },
   "series_index_canonical": {
-    "The Duran": "alexander-mercouris",
+    "The Duran": "the-duran",
     "Judging Freedom": "judging-freedom",
     "Redacted": "redacted-news",
     "Redacted News": "redacted-news",
@@ -124,6 +123,14 @@
     [
       "source-neutrality-studies-",
       "neutrality-studies"
+    ],
+    [
+      "source-duran-",
+      "the-duran"
+    ],
+    [
+      "youtube-the-duran-",
+      "the-duran"
     ]
   ],
   "channel_index_misc_slugs": [
@@ -227,6 +234,24 @@
       "host": "Alexander Mercouris",
       "thread": "mercouris",
       "file_prefix": "youtube-alex-mercouris",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "the-duran",
+      "channel_name": "The Duran",
+      "channel_id": "UCdeMVChrumySxV9N1w0Au-w",
+      "uploads_playlist_id": "UUCdeMVChrumySxV9N1w0Au-w",
+      "handle_url": "https://www.youtube.com/@TheDuran",
+      "show": "The Duran",
+      "host": "Alex Christoforou",
+      "thread": "christoforou",
+      "file_prefix": "youtube-the-duran",
       "daily_watchlist": true,
       "discovery_priority": [
         "uploads_playlist",

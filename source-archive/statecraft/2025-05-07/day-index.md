@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=KHST9DEbRDo) | `source-alex-mercouris-india-pakistan-conflict-russia-s-kherson-bridgehead-kiev-drones-aim-to-disrupt-9-may-2025-05-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=KHST9DEbRDo) | `source-alexander-mercouris-india-pakistan-conflict-russia-s-kherson-bridgehead-kiev-drones-aim-to-disrupt-9-may-2025-05-07.md` |
 
 ## Writer sources
 
@@ -52,5 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-india-pakistan-conflict-russia-s-kherson-bridgehead-kiev-drones-aim-to-disrupt-9-may-2025-05-07.md`
+- `source-alexander-mercouris-india-pakistan-conflict-russia-s-kherson-bridgehead-kiev-drones-aim-to-disrupt-9-may-2025-05-07.md`
 - `source-judging-freedom-sachs-can-the-kremlin-trust-trump-2025-05-07.md`

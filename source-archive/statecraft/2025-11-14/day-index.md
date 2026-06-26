@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uDTyELR1Erg) | `source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uDTyELR1Erg) | `source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md` |
 | `daniel-davis` | — | `mearsheimer`, `davis` | [watch](https://www.youtube.com/watch?v=p-3c-JseFPU) | `source-daniel-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | [W-NH0DE8LDw](https://www.youtube.com/watch?v=W-NH0DE8LDw) | `source-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md`
+- `source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md`
 - `source-daniel-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md`
 - `source-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md`

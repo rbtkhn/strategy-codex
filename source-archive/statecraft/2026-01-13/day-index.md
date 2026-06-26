@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Mercouris` (1), `The Duran` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `The Duran` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,9 +32,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zfNRnlwcXYU) | `source-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zfNRnlwcXYU) | `source-alexander-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md` |
+| `the-duran` | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=O3tOyjSUs0M) | `source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=zH5xP8GSArg) | `source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=O3tOyjSUs0M) | `source-mercouris-barnes-regime-change-escalator-2026-01-13.md` |
 
 ## Writer sources
 
@@ -55,9 +55,9 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md`
+- `source-alexander-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md`
+- `source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md`
 - `source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md`
-- `source-mercouris-barnes-regime-change-escalator-2026-01-13.md`
 - `source-ritter-losing-the-republic-2026-01-13.md`
 - `source-sachs-the-western-world-is-in-a-deeply-neurotic-state-2026-01-13.md`
 - `source-simplicius-ukraines-power-grid-woes-worsen-new-2026-01-13.md`

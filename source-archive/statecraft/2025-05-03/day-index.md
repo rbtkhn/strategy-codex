@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=86xkec4-S5M) | `source-alex-mercouris-visionless-starmer-flounders-after-poll-shock-germany-acts-to-ban-afd-russian-buildup-spooks-nato-2025-05-03.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=86xkec4-S5M) | `source-alexander-mercouris-visionless-starmer-flounders-after-poll-shock-germany-acts-to-ban-afd-russian-buildup-spooks-nato-2025-05-03.md` |
 
 ## Writer sources
 
@@ -52,5 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-visionless-starmer-flounders-after-poll-shock-germany-acts-to-ban-afd-russian-buildup-spooks-nato-2025-05-03.md`
+- `source-alexander-mercouris-visionless-starmer-flounders-after-poll-shock-germany-acts-to-ban-afd-russian-buildup-spooks-nato-2025-05-03.md`
 - `source-sachs-global-order-in-transition-2025-05-03.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Mercouris` (1), `Redacted News` (1), `YouTube` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Redacted News` (1), `YouTube` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6BdVF67o-y8) | `source-alex-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6BdVF67o-y8) | `source-alexander-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md` |
 | `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=JaLC4HBB7pM) | `source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md` |
 
 ## Writer sources
@@ -59,7 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md`
+- `source-alexander-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md`
 - `source-barnes-kent-exit-ramp-qt-2026-04-21.md`
 - `source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`
 - `source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [4xSucEKL32Y](https://www.youtube.com/watch?v=4xSucEKL32Y) | `source-alex-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [4xSucEKL32Y](https://www.youtube.com/watch?v=4xSucEKL32Y) | `source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [9G1MmiwmGx0](https://www.youtube.com/watch?v=9G1MmiwmGx0) | `source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `aguilar` | [bZxS4saKQAY](https://www.youtube.com/watch?v=bZxS4saKQAY) | `source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima`, `marandi` | [t1MaItycdFc](https://www.youtube.com/watch?v=t1MaItycdFc) | `source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md`
+- `source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md`
 - `source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md`
 - `source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md`
 - `source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md`

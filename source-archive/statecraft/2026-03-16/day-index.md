@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (5), `Judging Freedom` (5), `Dialogue Works` (3), `Glenn Diesen` (2), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (5), `Judging Freedom` (5), `Dialogue Works` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=SpjDePIselg) | `source-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=SpjDePIselg) | `source-alexander-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `parsi` | [tiN37-mwA0A](https://www.youtube.com/watch?v=tiN37-mwA0A) | `source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [VNvP7Xp-bHo](https://www.youtube.com/watch?v=VNvP7Xp-bHo) | `source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [6TEMwwVwg8A](https://www.youtube.com/watch?v=6TEMwwVwg8A) | `source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md` |
@@ -69,7 +69,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md`
+- `source-alexander-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md`
 - `source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md`
 - `source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md`
 - `source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md`

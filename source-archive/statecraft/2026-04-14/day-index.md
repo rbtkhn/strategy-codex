@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `Predictive History` (1), `substack.com/@tritaparsi` (1)
+- `Alexander Mercouris` (1), `Predictive History` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0cYL9G9krlc) | `source-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0cYL9G9krlc) | `source-alexander-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=n44OF1Y7zgo) | `source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md` |
 | `judging-freedom` | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=ukac5hPECKE) | `source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md`
+- `source-alexander-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md`
 - `source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md`
 - `source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md`
 - `source-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md`

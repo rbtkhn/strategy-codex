@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [ANxDdY9jFYg](https://www.youtube.com/watch?v=ANxDdY9jFYg) | `source-alex-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [ANxDdY9jFYg](https://www.youtube.com/watch?v=ANxDdY9jFYg) | `source-alexander-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md` |
 | `breaking-points` | Breaking Points | `marandi`, `breaking-points` | [8BazmIsPpwk](https://www.youtube.com/watch?v=8BazmIsPpwk) | `source-breaking-points-marandi-iran-welcomes-us-invasion-2026-06-11.md` |
 | `breaking-points` | Breaking Points | `weichert`, `breaking-points` | [bV8xIpqv18c](https://www.youtube.com/watch?v=bV8xIpqv18c) | `source-breaking-points-weichert-trump-strongly-considered-nuking-iran-2026-06-11.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `crooke` | [pEHDc-UYi0U](https://www.youtube.com/watch?v=pEHDc-UYi0U) | `source-daniel-davis-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11.md` |
@@ -70,7 +70,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md`
+- `source-alexander-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md`
 - `source-breaking-points-marandi-iran-welcomes-us-invasion-2026-06-11.md`
 - `source-breaking-points-weichert-trump-strongly-considered-nuking-iran-2026-06-11.md`
 - `source-daniel-davis-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11.md`

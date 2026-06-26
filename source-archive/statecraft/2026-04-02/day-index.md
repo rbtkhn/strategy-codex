@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Jeffrey Sachs` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Jeffrey Sachs` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nC5IAxI8D3U) | `source-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nC5IAxI8D3U) | `source-alexander-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `kent` | [EWyCDYIPNno](https://www.youtube.com/watch?v=EWyCDYIPNno) | `source-daniel-davis-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [3EzbLrujYzY](https://www.youtube.com/watch?v=3EzbLrujYzY) | `source-dialogue-works-andrei-martyanov-it-s-over-the-u-s-just-lost-to-iran-here-s-why-2026-04-02.md` |
 | `dialogue-works` | Dialogue Works | `ritter`, `nima` | [ALxr05y5YaE](https://www.youtube.com/watch?v=ALxr05y5YaE) | `source-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md` |
@@ -59,7 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md`
+- `source-alexander-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md`
 - `source-crooke-claiming-victory-whilst-admitting-2026-04-02.md`
 - `source-daniel-davis-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md`
 - `source-dialogue-works-andrei-martyanov-it-s-over-the-u-s-just-lost-to-iran-here-s-why-2026-04-02.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Daniel Davis Deep Dive` (1), `Mercouris` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=PfP_84pwguk) | `source-alex-mercouris-us-big-sanctions-russian-oil-moscow-shrugs-biden-us-gas-prices-to-rise-t-2025-01-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=PfP_84pwguk) | `source-alexander-mercouris-us-big-sanctions-russian-oil-moscow-shrugs-biden-us-gas-prices-to-rise-t-2025-01-11.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=EAoLHgj2fVw) | `source-daniel-davis-intel-briefing-what-we-learned-this-week-more-2025-01-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=OrqkNyyh5ZQ) | `source-dialogue-works-russia-crushes-kursk-offensive-ukrainian-forces-encircled-and-trapped-sc-2025-01-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=yy3LN0Qlfh0) | `source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-big-sanctions-russian-oil-moscow-shrugs-biden-us-gas-prices-to-rise-t-2025-01-11.md`
+- `source-alexander-mercouris-us-big-sanctions-russian-oil-moscow-shrugs-biden-us-gas-prices-to-rise-t-2025-01-11.md`
 - `source-daniel-davis-intel-briefing-what-we-learned-this-week-more-2025-01-11.md`
 - `source-dialogue-works-russia-crushes-kursk-offensive-ukrainian-forces-encircled-and-trapped-sc-2025-01-11.md`
 - `source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md`

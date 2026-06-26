@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9m1Ky2IcuPo) | `source-alex-mercouris-us-blinks-withdraws-deadline-offers-trump-putin-meeting-putin-says-yes-but-no-to-meeting-zelensky-2025-08-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9m1Ky2IcuPo) | `source-alexander-mercouris-us-blinks-withdraws-deadline-offers-trump-putin-meeting-putin-says-yes-but-no-to-meeting-zelensky-2025-08-07.md` |
 
 ## Writer sources
 
@@ -52,5 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-blinks-withdraws-deadline-offers-trump-putin-meeting-putin-says-yes-but-no-to-meeting-zelensky-2025-08-07.md`
+- `source-alexander-mercouris-us-blinks-withdraws-deadline-offers-trump-putin-meeting-putin-says-yes-but-no-to-meeting-zelensky-2025-08-07.md`
 - `source-judging-freedom-mearsheimer-a-brief-history-of-israel-2025-08-07.md`

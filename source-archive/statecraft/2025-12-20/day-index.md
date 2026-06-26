@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=WwBaoSZXH0E) | `source-alex-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=WwBaoSZXH0E) | `source-alexander-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md` |
 | `daniel-davis` | Daniel Davis / Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=szgmI1Zw2bQ) | `source-daniel-davis-ukraine-russia-war-reporting-hoax-lt-col-daniel-davis-2025-12-20.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md`
+- `source-alexander-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md`
 - `source-daniel-davis-ukraine-russia-war-reporting-hoax-lt-col-daniel-davis-2025-12-20.md`

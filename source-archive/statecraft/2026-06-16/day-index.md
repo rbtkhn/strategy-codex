@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [Z34JsDvLx_M](https://www.youtube.com/watch?v=Z34JsDvLx_M) | `source-alex-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [Z34JsDvLx_M](https://www.youtube.com/watch?v=Z34JsDvLx_M) | `source-alexander-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md` |
 | `breaking-points` | Breaking Points | `parsi`, `breaking-points` | [YJjkK-T6nnk](https://www.youtube.com/watch?v=YJjkK-T6nnk) | `source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [t57WKaBn5GY](https://www.youtube.com/watch?v=t57WKaBn5GY) | `source-daniel-davis-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [y8zhwctLKfI](https://www.youtube.com/watch?v=y8zhwctLKfI) | `source-daniel-davis-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md` |
@@ -67,7 +67,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md`
+- `source-alexander-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md`
 - `source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md`
 - `source-daniel-davis-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md`
 - `source-daniel-davis-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md`

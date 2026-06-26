@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=n3rEcfGf1T4) | `source-alex-mercouris-moscow-says-300-kiev-troops-trapped-in-church-more-russian-advances-us-china-standoff-grows-2025-04-14.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=n3rEcfGf1T4) | `source-alexander-mercouris-moscow-says-300-kiev-troops-trapped-in-church-more-russian-advances-us-china-standoff-grows-2025-04-14.md` |
 | `india-global-left` | India and Global Left | `mearsheimer`, `india-global-left` | [NV2FBf_cOg8](https://www.youtube.com/watch?v=NV2FBf_cOg8) | `source-india-global-left-heated-us-china-debate-john-mearsheimer-2025-04-14.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-says-300-kiev-troops-trapped-in-church-more-russian-advances-us-china-standoff-grows-2025-04-14.md`
+- `source-alexander-mercouris-moscow-says-300-kiev-troops-trapped-in-church-more-russian-advances-us-china-standoff-grows-2025-04-14.md`
 - `source-india-global-left-heated-us-china-debate-john-mearsheimer-2025-04-14.md`

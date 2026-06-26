@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ci0vu4pdkHY) | `source-alex-mercouris-zelenskys-bad-day-no-missiles-pokrovsk-kherson-loathes-putin-2025-10-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ci0vu4pdkHY) | `source-alexander-mercouris-zelenskys-bad-day-no-missiles-pokrovsk-kherson-loathes-putin-2025-10-18.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelenskys-bad-day-no-missiles-pokrovsk-kherson-loathes-putin-2025-10-18.md`
+- `source-alexander-mercouris-zelenskys-bad-day-no-missiles-pokrovsk-kherson-loathes-putin-2025-10-18.md`

@@ -32,14 +32,14 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=T1uIFLuYOrg) | `source-alex-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=T1uIFLuYOrg) | `source-alexander-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [ACq6ZXOP314](https://www.youtube.com/watch?v=ACq6ZXOP314) | `source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [8ZKnRMc1m00](https://www.youtube.com/watch?v=8ZKnRMc1m00) | `source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [watch](https://www.youtube.com/watch?v=LD3uX3lj0-Y) | `source-dialogue-works-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [bgmx1Uz_QT0](https://www.youtube.com/watch?v=bgmx1Uz_QT0) | `source-dialogue-works-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `kent` | [watch](https://www.youtube.com/watch?v=hQCziFanWf8) | `source-dialogue-works-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=Pk15Ov0v98U) | `source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=NPNNM3ehgvE) | `source-duran-mercouris-seeking-war-with-russia-2026-06-01.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=NPNNM3ehgvE) | `source-duran-mercouris-seeking-war-with-russia-2026-06-01.md` |
 | `judging-freedom` | Judging Freedom | `mcgovern`, `napolitano` | [v3pyzLWMzJw](https://www.youtube.com/watch?v=v3pyzLWMzJw) | `source-judging-freedom-mcgovern-what-putin-is-thinking-2026-06-01.md` |
 | `judging-freedom` | Judging Freedom | `sachs`, `napolitano` | [xciEC59zChI](https://www.youtube.com/watch?v=xciEC59zChI) | `source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md` |
 | `mario-nawfal` | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=jXYdJfaWaOg) | `source-mario-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md` |
@@ -64,7 +64,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md`
+- `source-alexander-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md`
 - `source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md`
 - `source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md`
 - `source-dialogue-works-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md`

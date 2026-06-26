@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uUZPSQw3cfA) | `source-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uUZPSQw3cfA) | `source-alexander-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=N4DM3Nu3AhY) | `source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md` |
 
 ## Writer sources
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md`
+- `source-alexander-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md`
 - `source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md`
 - `source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md`

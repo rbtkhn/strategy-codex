@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9ArdO4E5M7Y) | `source-alex-mercouris-uk-hints-moscow-behind-starmer-arson-attack-us-wants-medinsky-fired-russia-smashes-kiev-patriot-ad-2025-05-25.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9ArdO4E5M7Y) | `source-alexander-mercouris-uk-hints-moscow-behind-starmer-arson-attack-us-wants-medinsky-fired-russia-smashes-kiev-patriot-ad-2025-05-25.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-uk-hints-moscow-behind-starmer-arson-attack-us-wants-medinsky-fired-russia-smashes-kiev-patriot-ad-2025-05-25.md`
+- `source-alexander-mercouris-uk-hints-moscow-behind-starmer-arson-attack-us-wants-medinsky-fired-russia-smashes-kiev-patriot-ad-2025-05-25.md`

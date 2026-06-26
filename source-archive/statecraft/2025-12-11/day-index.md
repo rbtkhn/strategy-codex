@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zjm6xQL1-P4) | `source-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zjm6xQL1-P4) | `source-alexander-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=CtMwRfJok38) | `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md` |
 | `judging-freedom` | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=YE0vke89ZAc) | `source-judging-freedom-macgregor-why-threaten-venezuela-2025-12-11.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md`
+- `source-alexander-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md`
 - `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md`
 - `source-judging-freedom-macgregor-why-threaten-venezuela-2025-12-11.md`

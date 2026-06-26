@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=wnKvsvhEZbw) | `source-alex-mercouris-istanbul-talks-chaos-trump-sends-witkoff-kellogg-zelensky-talking-only-to-putin-moscow-hardline-2025-05-14.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=wnKvsvhEZbw) | `source-alexander-mercouris-istanbul-talks-chaos-trump-sends-witkoff-kellogg-zelensky-talking-only-to-putin-moscow-hardline-2025-05-14.md` |
 | `glenn-diesen` | Glenn Diesen | `karaganov`, `diesen` | [FH70b-9k4bQ](https://www.youtube.com/watch?v=FH70b-9k4bQ) | `source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-istanbul-talks-chaos-trump-sends-witkoff-kellogg-zelensky-talking-only-to-putin-moscow-hardline-2025-05-14.md`
+- `source-alexander-mercouris-istanbul-talks-chaos-trump-sends-witkoff-kellogg-zelensky-talking-only-to-putin-moscow-hardline-2025-05-14.md`
 - `source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md`

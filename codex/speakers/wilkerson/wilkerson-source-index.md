@@ -117,7 +117,6 @@ Short rule:
 ## 2026-01
 
 - [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-02/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md)
-- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.cleaned](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-02/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.cleaned-2026-01-02.md)
 - [transcript-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
 
 ## 2026-02
@@ -166,7 +165,4 @@ Short rule:
 ## Boundary Notes
 
 - Wilkerson is a dispersed cross-host expert, so this index is intentionally broader than a single host shelf.
-- The major live host transformations are Dialogue Works, Diesen, and Judging Freedom, but the raw-input ledger also includes mixed-guest and crossover captures where Wilkerson is explicitly part of the title-level appearance.
-- The `2026-01-02.cleaned` file remains listed because it is a distinct raw-input surface on disk, even though the uncleaned file remains the primary capture.
-- Discovery surfaces are included because they explicitly list Wilkerson appearances inside `raw-input`, but they do not replace transcript-grade or video-title-grade captures.
 - Month-note support should be inferred from the speaker front door, not from the mere presence of dense months in this bench.

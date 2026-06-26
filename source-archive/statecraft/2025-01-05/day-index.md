@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Dialogue Works` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (3), `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=q9WML5g3P1Q) | `source-alex-mercouris-zelensky-doubles-down-failed-kursk-atacms-attacks-baerbock-syria-humilia-2025-01-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=q9WML5g3P1Q) | `source-alexander-mercouris-zelensky-doubles-down-failed-kursk-atacms-attacks-baerbock-syria-humilia-2025-01-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TWaR9AVkVzw) | `source-daniel-davis-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-46i-jba34o) | `source-daniel-davis-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=aD27i9K8k98) | `source-daniel-davis-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-doubles-down-failed-kursk-atacms-attacks-baerbock-syria-humilia-2025-01-05.md`
+- `source-alexander-mercouris-zelensky-doubles-down-failed-kursk-atacms-attacks-baerbock-syria-humilia-2025-01-05.md`
 - `source-daniel-davis-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md`
 - `source-daniel-davis-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md`
 - `source-daniel-davis-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3DvxjIffaA) | `source-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3DvxjIffaA) | `source-alexander-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=s3cNS4lyJ60) | `source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=rQt351IzD54) | `source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md` |
 
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md`
+- `source-alexander-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md`
 - `source-daniel-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md`
 - `source-daniel-davis-johnson-trumps-lost-control-2026-03-11.md`
 - `source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md`

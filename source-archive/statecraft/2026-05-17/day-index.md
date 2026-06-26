@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mario Nawfal` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Mario Nawfal` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [1hBvMSLYviA](https://www.youtube.com/watch?v=1hBvMSLYviA) | `source-alex-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [1hBvMSLYviA](https://www.youtube.com/watch?v=1hBvMSLYviA) | `source-alexander-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md` |
 | `mario-nawfal` | Mario Nawfal | `weichert`, `nawfal` | [ukcJlJ6cpNY](https://www.youtube.com/watch?v=ukcJlJ6cpNY) | `source-mario-nawfal-weichert-russia-ukraine-escalating-iran-war-restarting-2026-05-17.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md`
+- `source-alexander-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md`
 - `source-mario-nawfal-weichert-russia-ukraine-escalating-iran-war-restarting-2026-05-17.md`

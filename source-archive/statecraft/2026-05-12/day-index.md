@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ayN1VXz4QtM) | `source-alex-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ayN1VXz4QtM) | `source-alexander-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=tfgfSubAEJM) | `source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=klvztvA37b8) | `source-daniel-davis-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=22cOVLIatOw) | `source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md`
+- `source-alexander-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md`
 - `source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md`
 - `source-daniel-davis-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md`
 - `source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md`

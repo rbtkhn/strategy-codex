@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qB6KSQWNlNQ) | `source-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qB6KSQWNlNQ) | `source-alexander-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md` |
 | `judging-freedom` | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=J7FskzDIeXI) | `source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md`
+- `source-alexander-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md`
 - `source-crooke-trump-kabuki-theatre-in-ukraine-nothing-2026-02-12.md`
 - `source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md`
 - `source-simplicius-new-western-reports-reveal-vast-russian-2026-02-12.md`

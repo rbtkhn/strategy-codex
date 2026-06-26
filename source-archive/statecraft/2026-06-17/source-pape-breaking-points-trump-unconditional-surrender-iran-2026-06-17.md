@@ -29,9 +29,10 @@ opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 13 substitutions; not human-verified verbatim; verify before quotation. Routine Breaking Points subscribe/like close trimmed in place; SSOT body otherwise preserved."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 13 substitutions; not human-verified verbatim; verify before quotation. Routine Breaking Points subscribe/like close trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (8 sections)."
 quality_note: "ASR normalization pass 2026-06-17; ph-civ replacement SSOT."
 breaking_points_close_promo_trim_applied: true
+transcript_curation: curated_sectioned
 ---
 # Prof Pape: Trump 'UNCONDITIONAL SURRENDER' To Iran
 
@@ -41,6 +42,9 @@ breaking_points_close_promo_trim_applied: true
 **URL:** https://www.youtube.com/watch?v=s88aryNUMhE
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 We are joined with actually some breaking news by Professor Robert Pape who of course is the author of the escalation trap Substack. You can check that out. And he is a professor at the University of Chicago. Professor Pape, thank you so much for joining us again. >> Thank you for having me. >> Yeah.
 
@@ -56,7 +60,11 @@ But we are not in that's a false story that got picked up incorrectly from a sta
 
 It's a very strong deal. Nobody knows what it is, but it's very strong. And uh most people seem to be very happy. Uh who's really happy is the market. >> Nobody knows what it is, but it's very strong. Now, Professor Pape, we can put B1 up on the screen. This is from the escalation trap. You wrote uncertain deal and Iran certainly enters its period of maximum leverage.
 
-This was on June 15th. You said despite the headlines, this deal remains highly uncertain and that uh I think is proving to be true even two days later as we approach the Friday uh signing deadline that the vice president was telling everybody yesterday is coming up. So walk us through a little bit of this argument um from from your end, Professor Pape, about how Iran is in its maximum leverage period right now.
+This was on June 15th. You said despite the headlines, this deal remains highly uncertain and that uh I think is proving to be true even two days later as we approach the Friday uh signing deadline that the vice president was telling everybody yesterday is coming up. So walk us through a little bit of this argument um from from
+
+### Segment 2 — Your End Professor Pape About
+
+your end, Professor Pape, about how Iran is in its maximum leverage period right now.
 
 Yeah, let's let's start with the big picture and then I want to comment directly on what President Trump said because I think I can offer some clarity for your audience about what's going on as he's parsing his words. Um, but let's start with the big picture. Uh, President Trump lost the bombing. Now he's at great risk for losing the deal.
 
@@ -68,7 +76,11 @@ So that means all of those Gulf countries. Qatar, it can offer that $12 billion 
 
 money to Hezbollah. That is they want Israel to pull out of Lebanon. Well, there's no quid pro quo and Iran does not give missiles and drone technology to Hezbollah. No, they have this goes completely to one side. They can give that uh that uh money and technology to the Houthis. They can build the arc of security resistance that we talked about on last show.
 
-No strings attached, no limits on what they can do there. That's just in the first 60 days. Okay. But now let's look at the true long-term problem, medium-term problem, which is the title of the substack on the escalation trap, the period of maximum leverage. This is what's happened so far. But what's going to go on in the next 60 days is yes, oil will start begin to dribble out of the Gulf, but that won't reach the drops of oil.
+No strings attached, no limits on what they can do there. That's just in the first 60 days. Okay. But now let's look at the true long-term problem, medium-term problem, which is the title of the
+
+### Segment 3 — Substack On The Escalation Trap
+
+substack on the escalation trap, the period of maximum leverage. This is what's happened so far. But what's going to go on in the next 60 days is yes, oil will start begin to dribble out of the Gulf, but that won't reach the drops of oil.
 
 The ships won't reach their stations, their refineries for 60 days, 30 to 60 days, and then it will be a big process after that. So, what do we live on in that 60-day window? We continue to draw down the oil inventories. The oil inventory window, it remains the crucial issue because there's no way around it.
 
@@ -82,7 +94,11 @@ There's more reason for those Gulf countries to when we say invest in Iran. That
 
 Either he escalates or he goes down the road of surrender and allows Iran to become the fourth center of world power where it achieves over a period of a year or two regional primacy and Trump has accepted not just to get out of a deal he's accept basically drawn a road map. Remember how President Trump said the Obama deal was a road map to an Iranian nuclear weapon? Well, this is a bigger road map.
 
-This is a road map to Iranian uh primacy, regional hegemon in the region for as far as the eye can see, which by the way down the road may also include nuclear weapons. That's not foreclosed here by any stretch. There's nothing here that Iran has done. So, so President Trump's words, he was choosing his words very carefully in what you said.
+This is a road map to Iranian uh primacy, regional hegemon in the region for as far as the eye can see, which by the way down the road may also include nuclear weapons. That's not foreclosed here by any stretch. There's nothing
+
+### Segment 4 — Here That Iran Has Done
+
+here that Iran has done. So, so President Trump's words, he was choosing his words very carefully in what you said.
 
 There's nothing that in the Bloomberg uh uh that he is really disagreeing with. He's saying it's all fake news while he's in fact confirming every word that's in Bloomberg because what it says in Bloomberg, and if it's okay for your audience, I'm just going to read point six. The United States undertakes together with its regional partners to create a comprehensive plan agreed on by both parties ensuring financing of at least 300 billion.
 
@@ -94,7 +110,11 @@ which to your point only you know accelerates the amount of leverage that they w
 
 Basically, he's saying it's a free world. If you want to invest in Iran, I I happen to agree. I think sanctions are kind of insane that the US unilaterally and actually illegally under international law. You can't just do unilateral sanctions and say nobody's allowed to invest in Iran. So why is just why is following international law and not implementing unilateral sanctions on a country uh surrender to them and then related curious your take on this right now the straight of Hormuz obviously has the capacity to shut down
 
-and really crimp the global economy over the next 20 years we're going to have an ongoing shift to other forms of energy and the Gulf countries are going to continue to build pipelines and other routes that that that take into account this choke point and try to go around them. >> Um, so global fourth power seems to me exaggerated based on the fact that the straight of Hormuz is in some ways a deteriorating asset in in that kind of a world.
+and really crimp the global economy over the next 20 years we're going to have an ongoing shift to other forms of energy and the Gulf countries are going to continue to build pipelines and other routes that that that take into account this choke point and try to go around them. >> Um, so global fourth power seems to me exaggerated based on the fact that
+
+### Segment 5 — The Straight Of Hormuz Is
+
+the straight of Hormuz is in some ways a deteriorating asset in in that kind of a world.
 
 >> So let me let me explain both points. So first of all um I am not arguing in favor of going back to escalations. I just want to be very very clear here. Okay, that's not my point here. I'm assessing as an analyst what's going on in this deal. I'm not making an advocacy. Oh, we don't like X. Let's go back and bomb them.
 
@@ -110,7 +130,11 @@ They're extending their umbrella over their key allies and they're building that
 
 Not that they're there now. And this is the world we're going to have to live with. This is a world of the future that's coming. And that's my job as an analyst. It's not to make it all sound all fine. Let's just all pat everybody's fine. Okay, let's accept reality. My job is to tell you what's coming so you can prepare for that reality.
 
-So why, for example, might Israel freak out and start assassinating leaders in Iran as a result of this? You I I'm not telling you they're going to assassinate the leaders coming on Friday, but notice they've done that before. Okay? It's not this. This happened just literally a year ago when Israel started the 12-day war by literally killing the exact diplomats on the weekend we were about to meet with them.
+So why, for example, might Israel freak out and start assassinating leaders in Iran as a
+
+### Segment 6 — Result Of This You I
+
+result of this? You I I'm not telling you they're going to assassinate the leaders coming on Friday, but notice they've done that before. Okay? It's not this. This happened just literally a year ago when Israel started the 12-day war by literally killing the exact diplomats on the weekend we were about to meet with them.
 
 Now, I'm not telling you that's going to happen, but things like that you should expect here because Israel was the rising power. Now, it is the opposite. So, why might Israel lash out? Well, if you don't have the assessment of the world we're moving into, you can't really get a good judge on the risks. >> And there's also an element of the sunk cost fallacy at play, too, in that what often will create escalation into a hot war that lasts longer and longer is the idea that you see a a leader like the president of the United States, whether
 
@@ -124,7 +148,11 @@ So there is no doubt that President Trump is taking the loss. He's trying to shi
 
 Uh so that's that's uh that's the case. But my my point is um a little bit broader than just the snapshot of today. We're moving into an incredibly contentious 60-day window. We're moving into a window where literally war, a hot war could break out at any point in this 60 days uh here. Now, how you would know that won't happen for the United States is that American forces will withdraw.
 
-So if American forces leave the region that is all those the carriers leave all those aircraft leave the 10,000 ground forces leave uh uh if we pull out if we don't repopulate the bases that have been destroyed remember we the base a lot of bases have been destroyed. Well, if that happens, then the risk of escalation will truly go down.
+So if American forces leave
+
+### Segment 7 — The Region That Is All
+
+the region that is all those the carriers leave all those aircraft leave the 10,000 ground forces leave uh uh if we pull out if we don't repopulate the bases that have been destroyed remember we the base a lot of bases have been destroyed. Well, if that happens, then the risk of escalation will truly go down.
 
 But in that window of that 60 days and beyond, that is where you have more losses coming for President Trump. And as he gets into the midterms here, the question is going to be, can he keep eating losses? Because Iran's not done giving them losses yet. Iran's not saying, "Oh yeah, I got what I wanted. I'm good now.
 
@@ -138,7 +166,11 @@ Is that going to help in the midterms? So, this is this is the other side of the
 
 American forces will physically withdraw from the region. That if you go back to my X account, that's what I was warning about in early February. We're building an armada. I wasn't focusing on Trump's words. I said we're likely going to bomb Iran. That's why I started the escalation trap because we moved the troops uh here. Well, if we remove the troops, now you're following the indicators that Professor Pape uses, which is the behavioral indicators.
 
-That's how you'll know you're actually out of the trap. And I I think the way that a lot of people understand the escalation trap is that it's fairly determinative and that each step pushes you further into it. Um but at some point presumably this is going to end. So what like >> how does the model account for other decision-making that gets out of the escalation? Trump let's say this MOU does stick.
+That's how you'll know you're actually out of the trap. And I I think the way that a lot of people understand the escalation trap is that
+
+### Segment 8 — It's Fairly Determinative And That
+
+it's fairly determinative and that each step pushes you further into it. Um but at some point presumably this is going to end. So what like >> how does the model account for other decision-making that gets out of the escalation? Trump let's say this MOU does stick.
 
 uh does that mean the model was flawed and needs needs to be amended or the or are there elements within the model that allow for this? >> Yeah, the elements in the model as I've been explaining and this is what I lay out is you had stage one, stage two which is stage two is where Iran gets more moves. Then you're at a fork in the road.
 

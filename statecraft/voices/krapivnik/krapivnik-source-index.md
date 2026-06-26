@@ -34,7 +34,7 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 ## 2026-05
 
 - [2026-05-22 | Dialogue Works × Krapivnik | Tulsi resigns; Hezbollah; war unaffordable](../../../source-archive/statecraft/2026-05-22/source-dialogue-works-stanislav-krapivnik-tulsi-gabbard-resigns-hezbollah-crushes-idf-war-becomes-unaffordable-2026-05-22.md)
-- [2026-05-10 | Mercouris × Krapivnik | Russia Ukraine drones world war](../../../source-archive/statecraft/2026-05-10/source-alex-mercouris-stanislav-krapivnik-russia-ukraine-drones-world-war-2026-05-10.md)
+- [2026-05-10 | Mercouris × Krapivnik | Russia Ukraine drones world war](../../../source-archive/statecraft/2026-05-10/source-duran-mercouris-stanislav-krapivnik-russia-ukraine-drones-world-war-2026-05-10.md)
 - [2026-05-07 | Diesen × Krapivnik | NATO Russia escalation nuclear war](../../../source-archive/statecraft/2026-05-07/source-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md)
 
 ## 2026-03

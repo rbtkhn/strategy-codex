@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=105DRA3QP7k) | `source-alex-mercouris-moscow-kiev-loses-odessa-east-south-ukraine-if-istanbul-talks-fail-uk-eu-gloom-as-us-exits-war-2025-05-31.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=105DRA3QP7k) | `source-alexander-mercouris-moscow-kiev-loses-odessa-east-south-ukraine-if-istanbul-talks-fail-uk-eu-gloom-as-us-exits-war-2025-05-31.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=zgfWODxluXk) | `source-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-kiev-loses-odessa-east-south-ukraine-if-istanbul-talks-fail-uk-eu-gloom-as-us-exits-war-2025-05-31.md`
+- `source-alexander-mercouris-moscow-kiev-loses-odessa-east-south-ukraine-if-istanbul-talks-fail-uk-eu-gloom-as-us-exits-war-2025-05-31.md`
 - `source-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md`

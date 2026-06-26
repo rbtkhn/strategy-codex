@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fFM7IXepD3A) | `source-alex-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fFM7IXepD3A) | `source-alexander-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=F6I80aT36rs) | `source-dialogue-works-martin-armstrong-where-is-america-headed-under-trump-is-this-ww3-2025-12-03.md` |
 | `dialogue-works` | — | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=SO05kKsi0w0) | `source-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=wSYcPidD5XY) | `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md`
+- `source-alexander-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md`
 - `source-dialogue-works-martin-armstrong-where-is-america-headed-under-trump-is-this-ww3-2025-12-03.md`
 - `source-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md`
 - `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md`

@@ -22,7 +22,7 @@ This theme holds Mercouris's more speculative but still recurring use of imperia
 
 ## Exact Quote Anchors
 
-- [2025-01-10 native raw-input](../../../../source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "the former Empire of the hapsburgs Austria Hungary is gradually being reconstructed along this precise issue"
+- [2025-01-10 native raw-input](../../../../source-archive/statecraft/2025-01-10/source-alexander-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "the former Empire of the hapsburgs Austria Hungary is gradually being reconstructed along this precise issue"
 - [2026-05-16 Glenn Diesen raw-input](../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md): "they're going against the grain of their recent history"
 - same source: "the founding myth of British foreign policy is Churchill in 1940"
 

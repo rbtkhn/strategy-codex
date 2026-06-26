@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lDIA742ppIU) | `source-alex-mercouris-eu-uk-paris-summit-plans-kiev-victory-odessa-deployment-defies-us-russian-advance-on-all-fronts-2025-04-17.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lDIA742ppIU) | `source-alexander-mercouris-eu-uk-paris-summit-plans-kiev-victory-odessa-deployment-defies-us-russian-advance-on-all-fronts-2025-04-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=xmQBMtpiRWk) | `source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | — | `source-judging-freedom-wilkerson-are-neocons-ascendant-2025-04-17.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-uk-paris-summit-plans-kiev-victory-odessa-deployment-defies-us-russian-advance-on-all-fronts-2025-04-17.md`
+- `source-alexander-mercouris-eu-uk-paris-summit-plans-kiev-victory-odessa-deployment-defies-us-russian-advance-on-all-fronts-2025-04-17.md`
 - `source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md`
 - `source-judging-freedom-wilkerson-are-neocons-ascendant-2025-04-17.md`

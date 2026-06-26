@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=aoB8fUihexQ) | `source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=aoB8fUihexQ) | `source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=a8qG8O3Zl10) | `source-glenn-diesen-george-beebe-negotiations-attack-on-russia-s-nuclear-forces-2025-06-02.md` |
 
 ## Writer sources

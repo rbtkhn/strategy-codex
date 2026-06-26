@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (5), `Judging Freedom` (1), `Mario Nawfal` (1), `Mercouris` (1), `conflictsforum.substack.com` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (5), `Alexander Mercouris` (1), `Judging Freedom` (1), `Mario Nawfal` (1), `conflictsforum.substack.com` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=dc3-7xwBWWg) | `source-alex-mercouris-big-russian-army-breakthroughs-donbass-orekhov-shake-kiev-nato-zelensky-uk-eu-discuss-russia-talks-2026-06-04.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [dc3-7xwBWWg](https://www.youtube.com/watch?v=dc3-7xwBWWg) | `source-alexander-mercouris-big-russian-army-breakthroughs-donbass-orekhov-shake-kiev-nato-zelensky-uk-eu-discuss-russia-talks-2026-06-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `krainer` | [watch](https://www.youtube.com/watch?v=jPNgTYKtbY0) | `source-dialogue-works-alex-krainer-iran-us-on-retaliatory-mode-war-imminent-2026-06-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=V0CufjIH-PI) | `source-dialogue-works-andrei-martyanov-israel-s-military-just-got-humiliated-on-every-front-2026-06-04.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=7nRoD1Kxdr8) | `source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-big-russian-army-breakthroughs-donbass-orekhov-shake-kiev-nato-zelensky-uk-eu-discuss-russia-talks-2026-06-04.md`
+- `source-alexander-mercouris-big-russian-army-breakthroughs-donbass-orekhov-shake-kiev-nato-zelensky-uk-eu-discuss-russia-talks-2026-06-04.md`
 - `source-crooke-iran-takes-its-chances-with-war-2026-06-04.md`
 - `source-dialogue-works-alex-krainer-iran-us-on-retaliatory-mode-war-imminent-2026-06-04.md`
 - `source-dialogue-works-andrei-martyanov-israel-s-military-just-got-humiliated-on-every-front-2026-06-04.md`

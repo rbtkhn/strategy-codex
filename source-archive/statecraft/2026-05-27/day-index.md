@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [toos2hmB_TM](https://www.youtube.com/watch?v=toos2hmB_TM) | `source-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [toos2hmB_TM](https://www.youtube.com/watch?v=toos2hmB_TM) | `source-alexander-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [OvC52FSOldM](https://www.youtube.com/watch?v=OvC52FSOldM) | `source-daniel-davis-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [sPQcmLV6XvQ](https://www.youtube.com/watch?v=sPQcmLV6XvQ) | `source-daniel-davis-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md` |
 | `dialogue-works` | Dialogue Works | `ritter`, `nima` | [watch](https://www.youtube.com/watch?v=XOgN0w9DgqU) | `source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md`
+- `source-alexander-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md`
 - `source-daniel-davis-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27.md`
 - `source-daniel-davis-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md`
 - `source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md`

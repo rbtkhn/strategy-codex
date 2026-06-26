@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Glenn Diesen` (1), `India and Global Left` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `India and Global Left` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0ldFRXn_13c) | `source-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0ldFRXn_13c) | `source-alexander-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `baud` | [w00jitzvnTM](https://www.youtube.com/watch?v=w00jitzvnTM) | `source-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `postol` | [FOs4skvj5F8](https://www.youtube.com/watch?v=FOs4skvj5F8) | `source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=CxwzzS5K2o0) | `source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md`
+- `source-alexander-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md`
 - `source-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md`
 - `source-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md`
 - `source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md`

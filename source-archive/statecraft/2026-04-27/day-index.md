@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Mercouris` (1), `Predictive History` (1), `simplicius76.substack.com` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Predictive History` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=rTNbtvE3z2M) | `source-alex-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=rTNbtvE3z2M) | `source-alexander-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [watch](https://www.youtube.com/watch?v=iZ5xSBYxxyQ) | `source-baud-dialogue-works-nima-2026-04-27.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=LbWGNOSYBbM) | `source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md` |
 | `glenn-diesen` | — | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=OW3_a-oUrVQ) | `source-diesen-crooke-iran-global-war-world-order-2026-04-27.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md`
+- `source-alexander-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md`
 - `source-baud-dialogue-works-nima-2026-04-27.md`
 - `source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md`
 - `source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`

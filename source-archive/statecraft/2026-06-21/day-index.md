@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [QHO71YEqT-4](https://www.youtube.com/watch?v=QHO71YEqT-4) | `source-alex-mercouris-kremlin-says-talks-with-us-failed-russia-seeks-victory-kiev-strike-starmer-goes-2026-06-21.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [QHO71YEqT-4](https://www.youtube.com/watch?v=QHO71YEqT-4) | `source-alexander-mercouris-kremlin-says-talks-with-us-failed-russia-seeks-victory-kiev-strike-starmer-goes-2026-06-21.md` |
 | `switzerland-with-tom-switzer` | Switzerland with Tom Switzer | `mearsheimer`, `parsi`, `switzer` | [okSltilmp-o](https://www.youtube.com/watch?v=okSltilmp-o) | `source-switzer-mearsheimer-parsi-us-iran-peace-deal-hold-2026-06-21.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kremlin-says-talks-with-us-failed-russia-seeks-victory-kiev-strike-starmer-goes-2026-06-21.md`
+- `source-alexander-mercouris-kremlin-says-talks-with-us-failed-russia-seeks-victory-kiev-strike-starmer-goes-2026-06-21.md`
 - `source-switzer-mearsheimer-parsi-us-iran-peace-deal-hold-2026-06-21.md`

@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MX-73ck-QeA) | `source-alex-mercouris-zelensky-uk-eu-leaders-chase-trump-in-rome-starmer-coalition-disintegrates-us-russia-moscow-talks-2025-04-26.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MX-73ck-QeA) | `source-alexander-mercouris-zelensky-uk-eu-leaders-chase-trump-in-rome-starmer-coalition-disintegrates-us-russia-moscow-talks-2025-04-26.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-uk-eu-leaders-chase-trump-in-rome-starmer-coalition-disintegrates-us-russia-moscow-talks-2025-04-26.md`
+- `source-alexander-mercouris-zelensky-uk-eu-leaders-chase-trump-in-rome-starmer-coalition-disintegrates-us-russia-moscow-talks-2025-04-26.md`

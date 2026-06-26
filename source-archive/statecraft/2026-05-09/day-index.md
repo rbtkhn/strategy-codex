@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zv6xKMJp3xk) | `source-alex-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zv6xKMJp3xk) | `source-alexander-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md` |
 | `daniel-davis` | Daniel Davis / Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=MYL36jQgHGw) | `source-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=RDvZv4mZTlg) | `source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=4gdDbX629bc) | `source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md`
+- `source-alexander-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md`
 - `source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md`
 - `source-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md`
 - `source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md`

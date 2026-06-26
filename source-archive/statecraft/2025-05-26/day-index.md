@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=c9dxb-JnbP4) | `source-alex-mercouris-putin-protected-from-ukraine-drone-swarm-zaluzhny-ukraine-losing-no-miracle-coming-kiev-hammered-2025-05-26.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=c9dxb-JnbP4) | `source-alexander-mercouris-putin-protected-from-ukraine-drone-swarm-zaluzhny-ukraine-losing-no-miracle-coming-kiev-hammered-2025-05-26.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-protected-from-ukraine-drone-swarm-zaluzhny-ukraine-losing-no-miracle-coming-kiev-hammered-2025-05-26.md`
+- `source-alexander-mercouris-putin-protected-from-ukraine-drone-swarm-zaluzhny-ukraine-losing-no-miracle-coming-kiev-hammered-2025-05-26.md`

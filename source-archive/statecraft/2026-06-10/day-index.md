@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [DL9jL_zWhuI](https://www.youtube.com/watch?v=DL9jL_zWhuI) | `source-alex-mercouris-putin-ignores-eu-demand-for-russian-surrender-russia-confirms-kiev-troops-surrounded-iran-us-war-2026-06-10.md` |
+| `alexander-mercouris` | Mercouris | `mercouris` | [DL9jL_zWhuI](https://www.youtube.com/watch?v=DL9jL_zWhuI) | `source-alexander-mercouris-putin-ignores-eu-demand-for-russian-surrender-russia-confirms-kiev-troops-surrounded-iran-us-war-2026-06-10.md` |
 | `dialogue-works` | Dialogue Works | `barnes`, `alkorshid`, `nima` | [PFZb3MWFY4w](https://www.youtube.com/watch?v=PFZb3MWFY4w) | `source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `alkorshid`, `nima` | [YE7JBvJ-h6M](https://www.youtube.com/watch?v=YE7JBvJ-h6M) | `source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [ojt4b8ivJ7o](https://www.youtube.com/watch?v=ojt4b8ivJ7o) | `source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md` |
@@ -60,7 +60,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-ignores-eu-demand-for-russian-surrender-russia-confirms-kiev-troops-surrounded-iran-us-war-2026-06-10.md`
+- `source-alexander-mercouris-putin-ignores-eu-demand-for-russian-surrender-russia-confirms-kiev-troops-surrounded-iran-us-war-2026-06-10.md`
 - `source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md`
 - `source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md`
 - `source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md`

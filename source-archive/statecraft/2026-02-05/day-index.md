@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aQCotqaE6jE) | `source-alex-mercouris-starmer-caught-up-epstein-scandal-about-to-fall-russia-plans-kiev-odessa-2026-02-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aQCotqaE6jE) | `source-alexander-mercouris-starmer-caught-up-epstein-scandal-about-to-fall-russia-plans-kiev-odessa-2026-02-05.md` |
 
 ## Writer sources
 
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-starmer-caught-up-epstein-scandal-about-to-fall-russia-plans-kiev-odessa-2026-02-05.md`
+- `source-alexander-mercouris-starmer-caught-up-epstein-scandal-about-to-fall-russia-plans-kiev-odessa-2026-02-05.md`
 - `source-crooke-the-slow-epstein-earthquake-the-rupture-2026-02-05.md`
 - `source-ritter-alas-babylon-2026-02-05.md`

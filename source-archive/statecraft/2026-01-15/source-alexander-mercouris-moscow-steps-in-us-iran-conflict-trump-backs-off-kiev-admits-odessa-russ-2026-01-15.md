@@ -11,7 +11,7 @@ channel_name: Alexander Mercouris
 thread: mercouris
 threads: ""
 thread_expert: mercouris
-show: Mercouris
+show: Alexander Mercouris
 host: Alexander Mercouris
 title: Moscow Steps In US Iran Conflict; Trump Backs Off; Kiev Admits Odessa Russian Main Goal; Kiev Crisis
 channel_slug: alexander-mercouris

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Glenn Diesen - Greater Eurasia Podcast` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen - Greater Eurasia Podcast` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=QVURQCEMKUI) | `source-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=QVURQCEMKUI) | `source-alexander-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ksStl8ytXzk) | `source-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md` |
 | `glenn-diesen` | Glenn Diesen - Greater Eurasia Podcast | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=wLWXoSI7IFM) | `source-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md` |
 | `glenn-diesen` | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=dalbnR8vNvs) | `source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md` |
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md`
+- `source-alexander-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md`
 - `source-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md`
 - `source-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md`
 - `source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md`

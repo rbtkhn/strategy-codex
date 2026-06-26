@@ -22,8 +22,9 @@ channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
-editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (8 sections)."
 davis_close_promo_trim_applied: true
+transcript_curation: curated_sectioned
 ---
 
 # BREAKING: ISRAEL LAUNCHES MISSILE ATTACK AGAINST IRAN
@@ -34,6 +35,9 @@ davis_close_promo_trim_applied: true
 **URL:** https://www.youtube.com/watch?v=dnwkC2sIMQA
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Hey everybody, welcome to a late edition of the Daniel Davis deep dive. We have breaking news. Iran and Israel have exchanged missile fire today on Sunday for the first time since April. This has been something that's been building up for a long time and the big question on everybody's mind is what happens next.
 
@@ -47,7 +51,11 @@ Unfortunately, we can't take anything at face value really by anybody in this si
 
 Now, let's just kind of give you a little bit of run. kind of the overall view picture of what has happened here. Let me show you how we got here because it's very illustrative into what we may expect to happen next. Now, yesterday, President Trump posted this on his truth social. Uh he again, he's wanting to show this powerful man and his own uh platform here and showing how, hey, just sit back and relax.
 
-It will all work out well in the end. It always does. That's already not playing too well because it didn't work out good and we're not at the end. But that's the impression that he has. Well, he went further with that after earlier today that Iran had fired missiles at Israel for the first time since April. And again, this all goes back to uh Iran saying that if you did this, continue to attack against Hezbollah, then we were going to respond against you, which they turned out to do.
+It will all work out well in the end. It always does.
+
+### Segment 2 — That's Already Not Playing Too
+
+That's already not playing too well because it didn't work out good and we're not at the end. But that's the impression that he has. Well, he went further with that after earlier today that Iran had fired missiles at Israel for the first time since April. And again, this all goes back to uh Iran saying that if you did this, continue to attack against Hezbollah, then we were going to respond against you, which they turned out to do.
 
 But after that, and before Israel responded, uh President Trump uh urges Netanyahu not to respond after Iran targets Israel with first actions April. And you see that if you can read that subhead there. Trump quote told Netanyahu not to retaliate as the IDF said it was ready to hit back with determination. Now that's important because President Trump claimed again that hey listen we're this close to a deal. We're almost there.
 
@@ -57,7 +65,11 @@ So, he's saying that publicly. I'm told that behind the scenes, it was a lot mor
 
 Now, this is all of course in context of recent revelations that Israel has been spying with espionage against some of our senior leaders in our government, especially in the Pentagon to include even Steve Whit, Michael P. DiMino IV, uh, who is the deputy secretary of war for Middle Eastern affairs, even at that high level, uh, Bridge KBY, a number of very high ranking officials.
 
-and and the the view inside the Pentagon was that why aren't more people why aren't our president why aren't our government doing more to protect us and and according to information we've seen since that revelation came out it said that the Pentagon already had a ranking of high of espionage on Israel against us and now it went up to one level above that and that you have to ask the obvious question why was it already at a high level and nothing was done about it that again shows just the contradiction and and the uh confusion this creates in the United
+and and the the view inside the Pentagon was that why aren't more people why aren't our president why aren't our government doing more to protect us and and according to information we've seen since that revelation came out it said that the Pentagon already had a ranking of high of espionage on Israel against us and now it went up to one level above that and that you have to ask the obvious question why
+
+### Segment 3 — Was It Already At A
+
+was it already at a high level and nothing was done about it that again shows just the contradiction and and the uh confusion this creates in the United
 
 States when even at our highest levels in our military national security apparatus nobody is safe from the Israeli side conducting espionage espionage against us against our country now this is not anything that will surprise a lot of people I don't know maybe it will because it's going to seem a really high level especially when you consider that it it has appeared since the beginning of this back in January when it appeared that Benjamin Netanyahu had Trump in his pocket and every time Netanyahu said something, Trump followed through with
 
@@ -69,7 +81,11 @@ We've covered in a previous episode. You can go back and look at that. But if th
 
 Now, I I think I had sent out an X earlier today that when when this this statement was made here that President Trump had said, "Listen, uh don't fire back. You don't respond here because I want to get a negotiated deal to end this war." I said at the time, and I've said this on on our show many times relatedly, we'll see who's actually calling the shots here.
 
-Is it President Trump or is it Benjamin Netanyahu? Well, on this case, again, we see it's pretty clearly it's the leader of the Israeli side. So, Trump went out publicly, put a lot of political capital in this, and said, "Don't do it." And they said, "Yeah, whatever you said, we're going to do whatever we want to do.
+Is it President Trump or is it Benjamin Netanyahu? Well, on this case, again, we see it's pretty clearly it's the leader of the Israeli side. So, Trump went out publicly, put a lot of political capital in this, and said, "Don't do it." And they said, "Yeah, whatever you said, we're going
+
+### Segment 4 — To Do Whatever We Want
+
+to do whatever we want to do.
 
 And by the way, send me some more missiles. Give me some more money." You see what I'm saying? just there's something really really wrong with this dynamic here. Just days after a revelation that a foreign country is conducting significant espionage across the board in our political and and military apparatuses. No action is taken at all.
 
@@ -83,7 +99,11 @@ So, they continue to do that. and and then now then he told him not to fire here
 
 I'm I'm just always hopeful that somehow it will there is some kind of a bottom that he won't go beneath and that he'll finally say enough is enough. Maybe this is it. It needs to be. I fear that it won't be. I'll just be honest, of course. I think that the likelihood is that President Trump is going to be put into a corner that Israel is painting him into as we speak.
 
-Uh the the likelihood I think is that Iran will strike back harder against Israel tomorrow sometime maybe even between now and sun up here in Washington. We'll we'll see how what happens when we wake up in the morning. But I fear that that's exactly what is is going to happen that Iran is going to do something more in this time that uh if it was before. We'll wait and see.
+Uh the the likelihood I think is that Iran will strike back harder against Israel tomorrow sometime maybe even between now
+
+### Segment 5 — And Sun Up Here In
+
+and sun up here in Washington. We'll we'll see how what happens when we wake up in the morning. But I fear that that's exactly what is is going to happen that Iran is going to do something more in this time that uh if it was before. We'll wait and see.
 
 But if if if they don't, Israel doesn't intercept all these missiles and they start hitting things of of pain for the Israeli side, then the likelihood is that they then go on another big barrage and strike back again even harder on targets in Tehran. One can imagine that that would happen then. And then the question is going to be what will Trump do then? Will he say, "Okay, I told you guys not to. You did anyway.
 
@@ -93,7 +113,11 @@ Or will he do the worst possible thing and say, "No, uh, we're going to engage, 
 
 We're running low on interceptors. We're running low on offensive. Please come and help us. Don't leave us at the hands of the Iranians. Yeah, I can see something like that happening. And then President Trump coming under tremendous pressure. And I guarantee you there's so many that we've seen here we highlight here on the show like Mark Levin, uh Lindsey Graham, Jack Keane, a whole host of other people will be begging President Trump to get back in and don't allow those terrible people in Iran to do this. Don't leave Israel hanging out
 
-there. They'll be oblivious and they won't say anything about how the only reason this exists is because the people in Israel started a war they should never have started. That we fought one that was against our own interest and this just deepens the cost to us. Listen, if we get back in this fully and then Iran says, "We're not just going after Israel.
+there. They'll be oblivious and they won't say anything about how the only reason this exists is because the people in Israel started a war they should never have started. That we fought one that was against our own interest and this just deepens the cost to us. Listen,
+
+### Segment 6 — If We Get Back In
+
+if we get back in this fully and then Iran says, "We're not just going after Israel.
 
 " But now then, because you're striking us again, US, we're going to go back after the GCC countries. We may go in one of the other breaking news that I had here. Apparently, the Iranian side is saying, and if this does restart, it won't just be against the GCC countries. It won't just be against that. We'll expand into the Red Sea, the Baba Mandab.
 
@@ -105,7 +129,11 @@ But when Netanyahu demands stuff so far we've seen the president of the United S
 
 We, uh, have a show scheduled for 10:00 a.m. Washington time where we'll give you all the whatever we find out overnight. Whatever additional developments, I imagine there will be some by then with the sun is coming up in the Middle East. Uh, all kinds of things are going to be possible. But, uh, Iran says that they will continue to hit Israel if they continue to fight against Hezbollah.
 
-So, it's not as though that Iran can is going to take these missiles in the teeth, do nothing, and Israel continue to uh attack issues, targets, especially in Beirut or continue to fight Hezbollah and then think that Iran's not going to do anything more. They're going to so we'll we'll see how that's going to happen. The interesting thing, the view first things out of Tehran tonight uh have not been that they're afraid or whatever.
+So, it's not as though that Iran can is going to take these missiles in the teeth, do nothing, and Israel continue to uh attack issues, targets, especially in Beirut or continue to fight Hezbollah and then think that
+
+### Segment 7 — Iran's Not Going To Do
+
+Iran's not going to do anything more. They're going to so we'll we'll see how that's going to happen. The interesting thing, the view first things out of Tehran tonight uh have not been that they're afraid or whatever.
 
 There's actually been pro not protest celebrations in the street of Tehran that they were out there proh celebrating what is happening and in support of their government saying yeah do more. So even though missiles had already come in by then they still were out there celebrating. So if anybody thinks that this is going to scare the population and and cause them to to waver and quake and turn against their government, it's the opposite is happening.
 
@@ -117,7 +145,11 @@ Um, okay. So, given that all that's been happening here is is a setup here. I've
 
 Has anybody been watching crooked election going on in California? That's what you want to talk about. And before that, it was looking at my fountains and then some drone poured on top of the White House. That's the things that that he's talking about right now. While there's war, while his name is being dragged through the mud in the Middle East, his comments are, "Hey, you know what's going on in California and look at my fountains.
 
-" That folks, that don't give you a lot of hope that something good is going to be coming here or that he's going to find a backbone because apparently he's he's not even willing to acknowledge what's going on. I mean, are you serious? We're in a situation where the war that we're still in that's only in a ceasefire status and that that the our partners in this have just launched something which could restart the whole thing and could cause catastrophe from our economy and you're you're talking about some alleged uh thing problem in the state of
+" That folks, that don't give you a lot of hope that something good is going to be coming here or that he's going to find a backbone because apparently he's he's not even willing to acknowledge what's
+
+### Segment 8 — Going On I Mean Are
+
+going on. I mean, are you serious? We're in a situation where the war that we're still in that's only in a ceasefire status and that that the our partners in this have just launched something which could restart the whole thing and could cause catastrophe from our economy and you're you're talking about some alleged uh thing problem in the state of
 
 California that most of it's made up anyway or that you're afraid of anyway. Not even related to what's happening. Nothing in there about I told Netanyahu to do this, he didn't do it. All right. Well, here's what I'm going to do. Nothing like that at all. That's that's not that's not encouraging.
 

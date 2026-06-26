@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bzR0aWwQSO0) | `source-alex-mercouris-merz-blocks-nord-stream-forever-seeks-eu-sanctions-trump-slaps-50-tariffs-eu-putin-orders-buffer-2025-05-23.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bzR0aWwQSO0) | `source-alexander-mercouris-merz-blocks-nord-stream-forever-seeks-eu-sanctions-trump-slaps-50-tariffs-eu-putin-orders-buffer-2025-05-23.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-merz-blocks-nord-stream-forever-seeks-eu-sanctions-trump-slaps-50-tariffs-eu-putin-orders-buffer-2025-05-23.md`
+- `source-alexander-mercouris-merz-blocks-nord-stream-forever-seeks-eu-sanctions-trump-slaps-50-tariffs-eu-putin-orders-buffer-2025-05-23.md`

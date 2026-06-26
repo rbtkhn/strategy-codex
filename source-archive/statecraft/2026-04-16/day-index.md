@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (9), `substack-post` (1)
 - Source form mix: `interview` (5), `post` (4), `newsletter` (1)
-- Distinct channels/shows: `7`
+- Distinct channels/shows: `8`
 - Distinct hosts: `5`
 - Distinct guests: `5`
 - Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Alexander Mercouris` (1), `Daniel Davis` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `The Duran` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=7k6Igz-l7rc) | `source-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=7k6Igz-l7rc) | `source-alexander-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=FAZdq7X98lA) | `source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [9QGnItz7CsU](https://www.youtube.com/watch?v=9QGnItz7CsU) | `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=BwUL5ftAi38) | `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md` |
@@ -53,19 +53,19 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
 | — | `davis` | — | `source-daniel-davis-2026-04-16.md` |
+| The Duran | `mercouris` | — | `source-duran-mercouris-2026-04-16.md` |
 | — | `marandi` | — | `source-marandi-2026-04-16.md` |
-| — | `mercouris` | — | `source-mercouris-2026-04-16.md` |
 | — | `pape` | — | `source-pape-2026-04-16.md` |
 
 ## Files
 
-- `source-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md`
+- `source-alexander-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md`
 - `source-daniel-davis-2026-04-16.md`
 - `source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md`
 - `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md`
+- `source-duran-mercouris-2026-04-16.md`
 - `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md`
 - `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md`
 - `source-marandi-2026-04-16.md`
-- `source-mercouris-2026-04-16.md`
 - `source-pape-2026-04-16.md`
 - `source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md`

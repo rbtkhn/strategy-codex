@@ -13,7 +13,7 @@ These are the canonical input channels for strategy-notebook. The queue is a rol
 - Daniel Davis Deep Dive
 - Glenn Diesen
 - Alex Mercouris
-- The Duran / Mercouris
+- The Duran
 - Judging Freedom / Judge Napolitano
 - Redacted News
 
@@ -61,7 +61,8 @@ Discovery `file_prefix` on each channel and archive land names are **different s
 | `dialogue-works` | `transcript-dialogue-works` | `source-dialogue-works-*` or `source-dialogue-works-*` |
 | `daniel-davis` | `youtube-daniel-davis-deep-dive` | `source-daniel-davis-*` |
 | `glenn-diesen` | `youtube-glenn-diesen` | `source-diesen-*` / `source-glenn-diesen-*` |
-| `alexander-mercouris` | `youtube-alex-mercouris` | `source-mercouris-*` |
+| `alexander-mercouris` | `youtube-alex-mercouris` | `source-alexander-mercouris-*` |
+| `the-duran` | `youtube-the-duran` | `source-duran-*` |
 | `judging-freedom` | `transcript-napolitano` | `source-judging-freedom-*` |
 | `redacted-news` | `source-redacted` | `source-redacted-*` |
 

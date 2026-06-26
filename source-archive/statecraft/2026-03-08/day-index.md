@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (1), `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1), `substack.com/@tritaparsi` (1)
+- `Alexander Mercouris` (1), `Daniel Davis` (1), `Dialogue Works` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1), `substack.com/@tritaparsi` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcwl7evhKKg) | `source-alex-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcwl7evhKKg) | `source-alexander-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=X4FmPL72_48) | `source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md` |
 
 ## Writer sources
@@ -55,7 +55,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md`
+- `source-alexander-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md`
 - `source-daniel-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-08.md`
 - `source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md`
 - `source-pape-three-signals-to-watch-after-irans-2026-03-08.md`

@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Dialogue Works` (2), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (3), `Dialogue Works` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ELoEkpXm4nc) | `source-alex-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ELoEkpXm4nc) | `source-alexander-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=KJp2F8mFhuk) | `source-daniel-davis-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=9CFhQy-yUgw) | `source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=KZH6IAoCg-k) | `source-daniel-davis-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md`
+- `source-alexander-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md`
 - `source-daniel-davis-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md`
 - `source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md`
 - `source-daniel-davis-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md`

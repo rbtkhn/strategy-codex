@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1)
+- `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OcU5MkMNmuM) | `source-alex-mercouris-moscow-no-concessions-kiev-forfeits-all-rights-unless-disarms-goes-neutral-no-nato-troops-ukraine-2025-08-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OcU5MkMNmuM) | `source-alexander-mercouris-moscow-no-concessions-kiev-forfeits-all-rights-unless-disarms-goes-neutral-no-nato-troops-ukraine-2025-08-20.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-no-concessions-kiev-forfeits-all-rights-unless-disarms-goes-neutral-no-nato-troops-ukraine-2025-08-20.md`
+- `source-alexander-mercouris-moscow-no-concessions-kiev-forfeits-all-rights-unless-disarms-goes-neutral-no-nato-troops-ukraine-2025-08-20.md`

@@ -78,7 +78,7 @@ Promotion rule:
 - [transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19](../../years/2026/provenance/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
 
 ## 2026-01
-- [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned-2026-01-02.md)
+- [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md)
 - [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02](../../years/2026/provenance/2026-01-02/source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md)
 - [transcript-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06](../../years/2026/provenance/2026-01-06/source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
 - [youtube-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07](../../years/2026/provenance/2026-01-07/source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md)

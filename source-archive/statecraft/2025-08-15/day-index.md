@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=UAZzPCgRHzM) | `source-alex-mercouris-kievs-pokrovsk-counterattacks-fail-huge-oreshnik-strike-damage-confirmed-putin-trump-go-to-alaska-2025-08-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=UAZzPCgRHzM) | `source-alexander-mercouris-kievs-pokrovsk-counterattacks-fail-huge-oreshnik-strike-damage-confirmed-putin-trump-go-to-alaska-2025-08-15.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `parsi`, `nima` | — | `source-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=jPLIxYqR9kw) | `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kievs-pokrovsk-counterattacks-fail-huge-oreshnik-strike-damage-confirmed-putin-trump-go-to-alaska-2025-08-15.md`
+- `source-alexander-mercouris-kievs-pokrovsk-counterattacks-fail-huge-oreshnik-strike-damage-confirmed-putin-trump-go-to-alaska-2025-08-15.md`
 - `source-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md`
 - `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15.md`

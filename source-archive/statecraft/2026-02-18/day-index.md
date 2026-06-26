@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=PdsiZnHZYZo) | `source-alex-mercouris-russia-rushes-oil-to-china-as-iran-prepares-hormuz-closure-medinsky-crus-2026-02-18.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=PdsiZnHZYZo) | `source-alexander-mercouris-russia-rushes-oil-to-china-as-iran-prepares-hormuz-closure-medinsky-crus-2026-02-18.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=DCDuxei5dj8) | `source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-rushes-oil-to-china-as-iran-prepares-hormuz-closure-medinsky-crus-2026-02-18.md`
+- `source-alexander-mercouris-russia-rushes-oil-to-china-as-iran-prepares-hormuz-closure-medinsky-crus-2026-02-18.md`
 - `source-crooke-who-can-halt-the-america-first-ambition-2026-02-18.md`
 - `source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md`
 - `source-simplicius-sitrep-21726-afu-shows-signs-of-life-2026-02-18.md`

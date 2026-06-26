@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (2), `Mercouris` (1)
+- `Glenn Diesen` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ASJAgbAfNwg) | `source-alex-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ASJAgbAfNwg) | `source-alexander-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md` |
 | `glenn-diesen` | Glenn Diesen | `glenn-diesen`, `diesen` | [watch](https://www.youtube.com/watch?v=GD76MKrFJF0) | `source-glenn-diesen-anatol-lieven-us-russia-china-tensions-in-the-arctic-2025-09-20.md` |
 | `glenn-diesen` | Glenn Diesen | `glenn-diesen`, `diesen` | [watch](https://www.youtube.com/watch?v=PCDcpc2UNTE) | `source-glenn-diesen-michael-hudson-europes-stockholm-syndrome-2025-09-20.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md`
+- `source-alexander-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md`
 - `source-glenn-diesen-anatol-lieven-us-russia-china-tensions-in-the-arctic-2025-09-20.md`
 - `source-glenn-diesen-michael-hudson-europes-stockholm-syndrome-2025-09-20.md`

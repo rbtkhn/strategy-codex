@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ci7KPg_pgG4) | `source-alex-mercouris-moscow-celebrates-victory-day-says-kiev-violated-truce-vance-ukraine-losing-war-putin-xi-meet-2025-05-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ci7KPg_pgG4) | `source-alexander-mercouris-moscow-celebrates-victory-day-says-kiev-violated-truce-vance-ukraine-losing-war-putin-xi-meet-2025-05-09.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `parsi` | — | `source-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=e_RoltpkEsY) | `source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-celebrates-victory-day-says-kiev-violated-truce-vance-ukraine-losing-war-putin-xi-meet-2025-05-09.md`
+- `source-alexander-mercouris-moscow-celebrates-victory-day-says-kiev-violated-truce-vance-ukraine-losing-war-putin-xi-meet-2025-05-09.md`
 - `source-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md`
 - `source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md`

@@ -19,12 +19,16 @@ source_note: "Materialized from operator-pasted YouTube transcript for the June 
 normalization_note: Removed routine ideological cold open, sponsor/ad copy, and closing schedule promo; kept operator-pasted source language and residual ASR noise.
 opening_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (8 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # COL. Douglas Macgregor : Does the US Have a Military Option in Iran?
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Today is Thursday, June 4th, 2026. Colonel Douglas McGregor will be with us in just a moment. Does the United States have a military option in Iran?
 
@@ -40,7 +44,11 @@ It's not going to happen. >> Who who is suffering more and who has more of a cap
 
 Remember, this is not existential for us, judge. It never was. We We have no real reason to attack Iran. That's the sad truth. Contrary to all of the Israeli talking points that all the heads in Washington keep repeating over and over and over again. You know, the truth is if anybody we we probably should remind ourselves of what we did to build up Saddam Hussein, the man whose government we ultimately removed.
 
-We built him up into a major power. We financed his military strength and then we sent him into war against Iran, killing somewhere in the neighborhood of 4 to 500,000 Iranians. >> Did we give him chemical weapons? >> Well, effectively we did because I think the chemical mixtures, as I recollect, came out of Germany from some German firms, but we facilitated it.
+We built him up into a major power. We financed his military strength and then we sent him into war against Iran, killing somewhere in the neighborhood of 4 to 500,000 Iranians. >> Did we give him chemical weapons? >> Well, effectively we did because I think the
+
+### Segment 2 — Chemical Mixtures As I Recollect
+
+chemical mixtures, as I recollect, came out of Germany from some German firms, but we facilitated it.
 
 We enabled it. Without us, without our money, without our advice, no, nothing would have happened. So, you know, I you can't make this stuff up. Uh, it's incredible. Anybody who looks at this 100 years from now is going to think that we're completely insane, and they're probably right. Is there any military solution that is palatable to the Gulf States?
 
@@ -53,7 +61,11 @@ were in the built newspaper from Germany about US plans to effectively pull out 
 
 FE or F-15 Eagle uh strike strike eagle squadrons from 54 down to 36 aircraft. That is all long range reconnaissance drones are going to be withdrawn from NATO. numbers of MQ9 attack drones will be almost halfed. Removing two carrier battle groups that are currently committed uh to Europe in the event of any emergency.
 
-Cutting the numbers of cruisers and destroyers by almost half. On and on and on. Reducing the bomber forces. In other words, we can't afford to play global hegeimon anymore. The Europeans have figured it out. Secondly, we can't protect our so-called allies. That's what we've demonstrated in the Persian Gulf. This military technology called ISR strike, intelligence, surveillance, reconnaissance linked to strike platforms on the ground or at sea or in the air is now the defining feature of military power in the world. You know,
+Cutting the numbers of cruisers and destroyers by almost half. On and on and on. Reducing the bomber forces. In other words, we can't afford to play global hegeimon anymore. The Europeans have figured it out. Secondly, we can't protect our so-called allies. That's what we've demonstrated in the Persian Gulf. This military
+
+### Segment 3 — Technology Called Isr Strike Intelligence
+
+technology called ISR strike, intelligence, surveillance, reconnaissance linked to strike platforms on the ground or at sea or in the air is now the defining feature of military power in the world. You know,
 if you do it right, if you know what you're doing, make the right investments in space-based surveillance, terrestrial surveillance, and strike platforms, Finland and Sweden can defend themselves against anybody forever. That's what people are figuring out. So then you ask, why do we want American bases on our soil, especially if they become magnets for the wrong kind of attention because the Americans decide to go to war with somebody that they don't like? But the whole world is going to change as a result of what we're seeing in the
 Persian Gulf. >> Why do we have 50,000 ground troops in the Middle East? >> Well, that's a good question. Uh we know that not all of those are ground troops in the sense of ground combat formations. They constitute approximately 15,000. The rest probably consist of advisors, uh, crisis action teams, you know, local security headquarters, and all of that is designed to effectively prevent a state like Iran from doing what it's done.
 
@@ -63,7 +75,11 @@ So, how bad is oil today? Has the president and have his people nearly depleted 
 
 Luke Roman, uh Jeffrey Goodlock, number of other people talking about exactly what you're discussing. Our strategic oil reserve is being reduced to the point of uh just about running out. That probably will happen mid July, beginning of August. You know that what we need to remember is before the war began and remember we're now saying that we want as a minimum the straight of Hormuz to be open to everyone. Right.
 
->> Right. >> And at on the eve of the war global oil flows through the strait averaged 106.9 million barrels per day. >> Wow. Billion with a B. >> Yeah. Million. 106.9 million barrels per day. >> Right. Okay, now that's being reduced to less than 10% of that. And even if the straight were open tomorrow morning, how long would it take for all of the ships that are currently sitting there full to the brim to go and deliver their respective uh oil or gas or whatever and then come back empty and fill up again? How many of the oil fields, the the
+>> Right. >> And at on the eve of the war global oil flows through the strait averaged 106.9 million barrels per day. >> Wow. Billion with a B. >> Yeah. Million. 106.9 million barrels per day. >> Right. Okay, now that's being reduced to less than 10% of that. And even if the straight were open tomorrow morning, how long would it take for all of the ships that are currently sitting there full to the brim to go and deliver their respective uh oil or gas or whatever and then come back empty and fill up again? How
+
+### Segment 4 — Many Of The Oil Fields
+
+many of the oil fields, the the
 drilling rigs, the extraction devices, how many of those have been shut down to the point where it would take six months to a year to reopen them? How much of the oil storage is already full to complete capacity? So the answer to your question is we have been artificially suppressing the cost of a barrel of oil or a barrel of jet fuel or a barrel of any number of different things.
 
 We can't do that much longer because we don't have the excess that allows us to do it. >> Well, Trump uh was bragging yesterday that oil is $98 a barrel and he thought it would be up or feared it would be up around two or 300. He did not mention the artificial suppression. Nor did he mention how little time is left, if anybody knows, Colonel, for the suppression to continue.
@@ -78,7 +94,11 @@ They're based on emotion. And right now, irrational forces are saying, "Oh, the 
 
 Go home." Until President Trump says, "We're going to go bankrupt. I'm going to be thrown out of office. Our economy is going to be destroyed. I'm sorry. I have to leave." I mean, what's the trigger for the end, Judge? I'm not sure. >> Well, what are Russia and China doing while all this is happening? Well, the Chinese have have cut their importation of oil, and that's actually helped a lot.
 
-They have the largest strategic petroleum reserve in the world, and I'm told they're good for another two or three months, but in the meantime, they have cut their importation of oil. That's helped others in Asia and others around the world. Uh, I think the Russians are doing everything they can to make up the shortfalls, particularly for the Chinese, but also for the Koreans and the Japanese and others.
+They have the largest strategic petroleum reserve in the
+
+### Segment 5 — World And I'm Told They're
+
+world, and I'm told they're good for another two or three months, but in the meantime, they have cut their importation of oil. That's helped others in Asia and others around the world. Uh, I think the Russians are doing everything they can to make up the shortfalls, particularly for the Chinese, but also for the Koreans and the Japanese and others.
 
 Uh, I think both Russia and China, contrary to what people in this country think, want this to end as soon as possible. I listen to people all the time saying, "Oh, well, the Russians must be happy. The Chinese are delighted. This is hurting us." No, that's not true. uh they're both about the same thing and that is getting back to normaly about ending all of these sanction regimes that do so much damage and releasing all the frozen funds that we have and of course that's a big issue for Donald Trump. He's very proud of the fact that
 he has control of all these funds that belong to Iran or Russia and others and he's not going to release them until they do what he wants. What he's finding out is that people are not going to do what he wants. That's the problem. Colonel, I want to play a little clip from the president yesterday. Says he spoke to the Ayatollah or to the to Hezbollah.
@@ -91,7 +111,11 @@ he was not democratically elected or whatever or he's corrupt or he's this or th
 
 And that's one of the reasons that they're bombing the living daylights out of Lebanon. So, I don't know what it means, but you're right. As far as the ceasefire is concerned, I guess something that doesn't escalate dramatically, but continues at a low uh roar or a dull roar as they say. It's a strange way to view the world. >> Yes, Colonel.
 
-Do you think the Iranians have a nuclear weapon? Uh, you know, I I think I've said before that the ultimate outcome of this war will be that not only Iran, but many many other mid-level powers will indeed invest in a nuclear deterrent. I think that's the principal outcome of President Trump's war. The very thing he said he set out to suppress or eliminate is going to proliferate.
+Do you think the Iranians have a nuclear weapon? Uh, you know, I I think I've said before that the
+
+### Segment 6 — Ultimate Outcome Of This War
+
+ultimate outcome of this war will be that not only Iran, but many many other mid-level powers will indeed invest in a nuclear deterrent. I think that's the principal outcome of President Trump's war. The very thing he said he set out to suppress or eliminate is going to proliferate.
 
 So the proliferation regime that we all signed up for is increasingly irrelevant. Does it have it today? I don't know. Uh could it? Probably. Uh they certainly have had the expertise to build a nuclear weapon for decades. The Shaw wanted to field a nuclear weapon and Richard Nixon told him to forget it.
 
@@ -105,7 +129,11 @@ The Iranians will not enter into any kind of meaningful peace unless Israel is r
 
 I'm willing to at least give him the benefit of the doubt that he's tried. I hope I'm right. I mean, I have no way to prove that, judge, but my supposition is that he has tried to tell them on more than one occasion, you know, cease and desist. You're putting everything at risk. But can he does that have any effect? I don't see much evidence that it does.
 
-I think the last time I witnessed a president to actively interveneed and stop something that the Israelis were doing was under George W. Bush. And this involved uh destroying some houses in Gaza. They sent in bulldozers and troops and Bush got on the line and called Chiron and said stop immediately. Get out and he did. Uh I don't think President Trump has that kind of authority right now and I don't think he can manage it.
+I think the last time I witnessed a president to actively interveneed and stop something that the Israelis were doing was under George W. Bush. And this involved uh destroying some houses in Gaza. They sent in bulldozers and troops and Bush got on the line and called Chiron and said stop immediately. Get out and he did. Uh
+
+### Segment 7 — I Don't Think President Trump
+
+I don't think President Trump has that kind of authority right now and I don't think he can manage it.
 
 Now is that what is that a function of? Is that a function of political forces here at home or is it a function of the Epstein files? I leave that to the audience to figure out. >> Colonel, yesterday the Republican controlled House of Representatives voted to invoke the War Powers Act and the president referred to it as a meaningless vote.
 
@@ -121,7 +149,11 @@ There are ships getting through every day. Many, many ships. I mean, if this is 
 
 >> Yeah. No, you were not exaggerating when you said Nixonian, I think. And man, I don't want to put words in your mouth. When you say Nixon in 74, you're also talking about and and stop me if you think I'm wrong. I'm I'm extrapolating your words, the premature end of a presidential term. >> Yes, that's right. You're right.
 
-And I think he has to face that distinct possibility. And you know, the Israeli lobby and the people that back that, the billionaires, are not a nice group of people. If they decide he's now more of a liability than an asset, you know what that means? He's not around for very long. They'll replace him with the next one in line, the new puppet.
+And I think he has to face that distinct possibility. And you know, the Israeli lobby and the people that back that, the billionaires, are not a nice group of people. If they decide he's now more of a liability than an asset, you know what
+
+### Segment 8 — That Means He's Not Around
+
+that means? He's not around for very long. They'll replace him with the next one in line, the new puppet.
 
 And I suspect that would be JD Vance. Maybe that's one of the reasons Vance's team is trying so hard to convince everybody that he's being this heroic hold out against the war, >> right, which, you know, I can't confirm through the sources I have at all. In fact, quite the opposite. >> Wow. >> So, you know, that that's where probably where we're headed now.
 

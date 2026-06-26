@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (4), `Mario Nawfal` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1), `Reinvent Money` (1)
+- `Dialogue Works` (4), `Mario Nawfal` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Reinvent Money` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-zPtc0lBKRo) | `source-alex-mercouris-putin-uncompromising-tells-west-msm-oreshnik-will-strike-kiev-russia-winning-zelensky-pleads-summit-2026-06-05.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-zPtc0lBKRo) | `source-alexander-mercouris-putin-uncompromising-tells-west-msm-oreshnik-will-strike-kiev-russia-winning-zelensky-pleads-summit-2026-06-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [MjGbYbqMJ1E](https://www.youtube.com/watch?v=MjGbYbqMJ1E) | `source-daniel-davis-zelensky-s-letter-to-putin-lt-col-daniel-davis-2026-06-05.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `crooke` | [5RrorBzJhgs](https://www.youtube.com/watch?v=5RrorBzJhgs) | `source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=t9mWIKdlWU4) | `source-dialogue-works-freeman-israels-free-fall-on-all-fronts-2026-06-05.md` |
@@ -62,7 +62,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-uncompromising-tells-west-msm-oreshnik-will-strike-kiev-russia-winning-zelensky-pleads-summit-2026-06-05.md`
+- `source-alexander-mercouris-putin-uncompromising-tells-west-msm-oreshnik-will-strike-kiev-russia-winning-zelensky-pleads-summit-2026-06-05.md`
 - `source-daniel-davis-zelensky-s-letter-to-putin-lt-col-daniel-davis-2026-06-05.md`
 - `source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md`
 - `source-dialogue-works-freeman-israels-free-fall-on-all-fronts-2026-06-05.md`

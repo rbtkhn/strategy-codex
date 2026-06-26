@@ -5,12 +5,16 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people: ""
-guest_people: ""
+host_people:
+  - Judge Andrew Napolitano
+guest_people:
+  - Max Blumenthal
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: blumenthal
-threads: ""
+threads:
+  - blumenthal
+  - napolitano
 thread_expert: blumenthal
 show: Judging Freedom
 host: Judge Andrew Napolitano
@@ -29,7 +33,7 @@ napolitano_cold_open_trim_applied: true
 napolitano_close_promo_trim_applied: true
 napolitano_leading_noise_trim_applied: true
 opening_tier: host-tease
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (blumenthal, channel:judging-freedom)); 21 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted YouTube transcript preserved as archive SSOT. ASR artifacts retained. Not human-verified verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-25 (8 sections)."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (blumenthal, channel:judging-freedom)); 21 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted YouTube transcript preserved as archive SSOT. ASR artifacts retained. Not human-verified verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-25 (8 sections). · source-section even-chunk pass 2026-06-26 (6 sections; open/close merged)."
 transcript_curation: curated_sectioned
 ---
 # Max Blumenthal : Is Israel in Panic?
@@ -43,13 +47,10 @@ transcript_curation: curated_sectioned
 ## Transcript
 
 
-### Show Open — Is Israel in Panic
+### Israel Panic — Quinnipiac and US Support
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Thursday, June 25th, 2026. Max Blumenthal joins us now. Max, thanks very much for your time. Is Israel in panic over the memorandum of understanding signed by the United States and Iran? Israel's in panic over the MOU. Israel's in panic over the Democratic congressional primaries.
-
-### Quinnipiac Poll — US Support Too High
-
 Israel's in panic over a new Quinnipiac poll showing that 48% of Americans think the United States is too supportive of Israel compared to about 34% who think support is just about right.
  Israel's in panic about that same poll showing 66% of America of Democrats think the US is too supportive of Israel and only 18% think that the support level is just right. Israel's in panic over the losses they continue to take every time they try to advance in southern Lebanon and the restrictions they're now facing under the MOU and uh the panic is playing out in the form of a just overall crash out on social media and the media as a whole by Israel's various proxies and cutouts.
 And it might look absurd to the rest of us, but it suggests uh Israel's moving into a more dangerous posture as its back is increasingly against the wall following the failure of the war it instigated against Iran. >> How uh is um Netanyahu being perceived these days? And how is he uh dealing with the panic? He's got to be terribly terribly panicked because of the consequences to him when his government collapses.
@@ -113,8 +114,5 @@ I mean, >> is it just him? Let's let's go and ask, you know, hardworking America
  Amari has, you know, used to be in neocon, one of the leading Persian voices for regime change, war on Iran, and he changed. He converted to Catholicism and became a sort of conservative opponent of war on Iran. >> Yeah. >> I know I know Sorb pretty well. In fact, the priest who converted him is a longtime friend of mine.
  He was converted through Opus Day. So he's a he's a traditionalist Catholic. He's not a crazy person. >> Yeah. So this I mean this this this shows that JD Vance is sort of mobilizing these uh anti-war figures more on the right as proxies to sell the MOU and he's been given permission to do so. Other figures in the White House are attacking the critics of the MOU within the Republican party and within the rights.
  So they seem, you know, Vance seems to be serious about pushing this. And so I think we're going we're going to see the clash deepen within the Republican party. >> Yes. >> That's why I raised that's why I raised fine. Not because of your personal encounters with them, which I knew would get a smile on your face, but because these are deep fissures in the Republican party.
-
-### Close — Colombia Teaser
-
 I know you want to talk about the Colombia presidential uh election, but I have to go. So maybe we can do that uh next week. We might even know more about it uh by then. But thank you very much, Matt. >> It looks like it was rigged. >> All right. Well, that's a good teaser. You'll tell us why you uh you understand that when we discuss it next week.
  All the best, my friend. >> Great seeing you. >> Okay. Bye-bye.

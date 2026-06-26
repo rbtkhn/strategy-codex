@@ -17,7 +17,7 @@ Purpose: compact excerpt note for the May 9, 2026 stream captures. This is a ret
 - [Daniel Davis — Iran Response, Walk-Away Theory, and the Cost of Escalation](./source-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md)
 - [Glenn Diesen × Seyed M. Marandi — Iran Rejects U.S. Deal - War Is Likely Imminent](./source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
 - [Dialogue Works × Seyed Mohammad Marandi — Hormuz, UAE, Ceasefire, and the New Security Architecture](./source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)
-- [Alexander Mercouris — Victory Day, Kiev Threats, Hormuz Standoff, and Britain’s Local Elections](./source-alex-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md)
+- [Alexander Mercouris — Victory Day, Kiev Threats, Hormuz Standoff, and Britain’s Local Elections](./source-alexander-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md)
 
 ## Five Excerpts
 

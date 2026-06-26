@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tYwC3cz6FcE) | `source-alex-mercouris-zelensky-extends-martial-law-rejects-elections-putin-demands-non-negotiable-energy-truce-expires-2025-04-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tYwC3cz6FcE) | `source-alexander-mercouris-zelensky-extends-martial-law-rejects-elections-putin-demands-non-negotiable-energy-truce-expires-2025-04-16.md` |
 | `glenn-diesen` | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=i4lV3gBcEU4) | `source-glenn-diesen-george-beebe-what-us-russia-reconciliation-means-for-europe-and-ukraine-2025-04-16.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-extends-martial-law-rejects-elections-putin-demands-non-negotiable-energy-truce-expires-2025-04-16.md`
+- `source-alexander-mercouris-zelensky-extends-martial-law-rejects-elections-putin-demands-non-negotiable-energy-truce-expires-2025-04-16.md`
 - `source-glenn-diesen-george-beebe-what-us-russia-reconciliation-means-for-europe-and-ukraine-2025-04-16.md`

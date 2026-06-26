@@ -11,14 +11,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Helper notes (excluded from source count): `0`
 - Body kind mix: `cleaned-transcript` (4), `transcript` (4), `substack-post` (1)
 - Source form mix: `interview` (6), `solo` (2), `newsletter` (1)
-- Distinct channels/shows: `6`
+- Distinct channels/shows: `7`
 - Distinct hosts: `6`
 - Distinct guests: `4`
 - Distinct threads: `11`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Mercouris` (2), `Dialogue Works` (1), `Predictive History` (1), `escalationtrap.substack.com` (1)
+- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Dialogue Works` (1), `Mercouris` (1), `Predictive History` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,6 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=x1xKkvi1wVQ) | `source-alexander-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) | `source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=yHqOBrFyCqA) | `source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md` |
@@ -39,7 +40,6 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `glenn-diesen` | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=YzCI7IDtzXg) | `source-diesen-wilkerson-hormuz-brics-2026-05-06.md` |
 | `alexander-mercouris` | Mercouris | `mercouris`, `parsi` | [watch](https://www.youtube.com/watch?v=Pv7003ksQQ4) | `source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=6aNh6sBpqvQ) | `source-game-theory-23-the-wwiii-chessboard-2026-05-06.md` |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=x1xKkvi1wVQ) | `source-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md` |
 
 ## Writer sources
 
@@ -59,6 +59,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
+- `source-alexander-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md`
 - `source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md`
 - `source-daniel-davis-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md`
 - `source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md`
@@ -66,5 +67,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-diesen-wilkerson-hormuz-brics-2026-05-06.md`
 - `source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md`
 - `source-game-theory-23-the-wwiii-chessboard-2026-05-06.md`
-- `source-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md`
 - `source-pape-what-really-changed-yesterday-the-us-lost-more-control-of-gulf-oil-2026-05-06.md`

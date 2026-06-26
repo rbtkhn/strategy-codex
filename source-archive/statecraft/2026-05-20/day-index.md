@@ -32,12 +32,12 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vKfsWgXoMZk) | `source-alexander-mercouris-russian-sanctions-collapse-uk-buy-russian-oil-us-extends-waiver-russian-warnings-baltic-drone-panic-2026-05-20.md` |
 | `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [watch](https://www.youtube.com/watch?v=xJf5IWVpn_M) | `source-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=J5XTTBpVEds) | `source-diesen-dmitry-polyanskiy-nuclear-retaliation-against-europe-no-longer-unthinkable-2026-05-20.md` |
 | `dialogue-works` | Dialogue Works | `hoh`, `nima` | [watch](https://www.youtube.com/watch?v=FeTkzRHdYBQ&t=657s) | `source-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20.md` |
 | `india-global-left` | India and Global Left | `freeman`, `india-global-left` | [Thy3e6ququ8](https://www.youtube.com/watch?v=Thy3e6ququ8) | `source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md` |
 | `dialogue-works` | Dialogue Works | `mcgovern`, `nima` | [watch](https://www.youtube.com/watch?v=X6ZR2lK6q2M) | `source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md` |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vKfsWgXoMZk) | `source-mercouris-russian-sanctions-collapse-uk-buy-russian-oil-us-extends-waiver-russian-warnings-baltic-drone-panic-2026-05-20.md` |
 | `mario-nawfal` | Mario Nawfal | `pape`, `nawfal` | [watch](https://www.youtube.com/watch?v=CzVzwODiEus) | `source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md` |
 | `dialogue-works` | Dialogue Works | `ritter`, `nima` | [watch](https://www.youtube.com/watch?v=HB2XHtH5bok) | `source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md` |
 | `mario-nawfal` | Mario Nawfal | `wilkerson`, `nawfal` | [watch](https://www.youtube.com/watch?v=snTPsUfEiOg) | `source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md` |
@@ -60,13 +60,13 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
+- `source-alexander-mercouris-russian-sanctions-collapse-uk-buy-russian-oil-us-extends-waiver-russian-warnings-baltic-drone-panic-2026-05-20.md`
 - `source-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md`
 - `source-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md`
 - `source-diesen-dmitry-polyanskiy-nuclear-retaliation-against-europe-no-longer-unthinkable-2026-05-20.md`
 - `source-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20.md`
 - `source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md`
 - `source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md`
-- `source-mercouris-russian-sanctions-collapse-uk-buy-russian-oil-us-extends-waiver-russian-warnings-baltic-drone-panic-2026-05-20.md`
 - `source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md`
 - `source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md`
 - `source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md`

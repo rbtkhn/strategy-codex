@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (6), `Daniel Davis Deep Dive` (3), `Judging Freedom` (2), `Breaking Points` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `The Duran` (1), `Tucker Carlson` (1)
+- `Dialogue Works` (6), `Daniel Davis Deep Dive` (3), `Judging Freedom` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Tucker Carlson` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | The Duran | `mercouris` | [_pX1PORpq_Y](https://www.youtube.com/watch?v=_pX1PORpq_Y) | `source-alex-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [_pX1PORpq_Y](https://www.youtube.com/watch?v=_pX1PORpq_Y) | `source-alexander-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [TlcHuoC86JQ](https://www.youtube.com/watch?v=TlcHuoC86JQ) | `source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [1wXByp3EexE](https://www.youtube.com/watch?v=1wXByp3EexE) | `source-daniel-davis-douglas-macgregor-world-backs-iran-2026-06-09.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [xP9lW4aYJx8](https://www.youtube.com/watch?v=xP9lW4aYJx8) | `source-daniel-davis-professor-seyed-marandi-expect-escalation-of-war-in-iran-2026-06-09.md` |
@@ -67,7 +67,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md`
+- `source-alexander-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md`
 - `source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md`
 - `source-daniel-davis-douglas-macgregor-world-backs-iran-2026-06-09.md`
 - `source-daniel-davis-professor-seyed-marandi-expect-escalation-of-war-in-iran-2026-06-09.md`

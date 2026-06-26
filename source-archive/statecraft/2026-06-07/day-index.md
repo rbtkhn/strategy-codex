@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `tritaparsi.substack.com` (3), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mario Nawfal` (1), `Mercouris` (1)
+- `tritaparsi.substack.com` (3), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mario Nawfal` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nXVR821uPJw) | `source-alex-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nXVR821uPJw) | `source-alexander-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [dnwkC2sIMQA](https://www.youtube.com/watch?v=dnwkC2sIMQA) | `source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=xj8ocoG-nDw) | `source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md` |
 | `mario-nawfal` | Mario Nawfal | `aguilar`, `nawfal` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) | `source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md`
+- `source-alexander-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md`
 - `source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md`
 - `source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md`
 - `source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md`

@@ -4,13 +4,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `8`
-- Channel sources: `6`
+- Source files: `7`
+- Channel sources: `5`
 - Writer sources: `1`
 - Other sources: `1`
 - Helper notes (excluded from source count): `1`
-- Body kind mix: `transcript` (4), `operator-transcript` (3), `substack-post` (1)
-- Source form mix: `interview` (5), `solo` (2), `newsletter` (1)
+- Body kind mix: `transcript` (4), `operator-transcript` (2), `substack-post` (1)
+- Source form mix: `interview` (5), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `6`
 - Distinct hosts: `6`
 - Distinct guests: `5`
@@ -18,13 +18,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Mercouris` (2), `Daniel Davis Deep Dive` (1), `Danny Haiphong (YouTube)` (1), `Tucker Carlson` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Danny Haiphong (YouTube)` (1), `Tucker Carlson` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (2), `Nima Alkhorshid` (2), `Daniel Davis` (1), `Danny Haiphong` (1), `Robert Pape` (1), `Tucker Carlson` (1)
+- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Danny Haiphong` (1), `Robert Pape` (1), `Tucker Carlson` (1)
 - Guests: `Chas W. Freeman` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1), `Victor Gao` (1)
-- Threads: `mercouris` (2), `nima` (2), `alkorshid` (1), `barnes` (1), `carlson` (1), `davis` (1), `freeman` (1), `gao` (1), `johnson` (1), `pape` (1), `sachs` (1)
+- Threads: `nima` (2), `alkorshid` (1), `barnes` (1), `carlson` (1), `davis` (1), `freeman` (1), `gao` (1), `johnson` (1), `mercouris` (1), `pape` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,10 +32,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [LmJWmgtsaps](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=Pcd4tM5ai6o) | `source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=OOSWi1usPB4) | `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md` |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=fie-q0V82_E) | `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md` |
 | `tucker-carlson` | Tucker Carlson | `carlson`, `sachs` | — | `source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md` |
 
@@ -57,11 +56,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md`
+- `source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`
 - `source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`
 - `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md`
 - `source-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md`
-- `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`
 - `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`
 - `source-pape-2-blockades-2-clocks-2026-04-24.md`
 - `source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`

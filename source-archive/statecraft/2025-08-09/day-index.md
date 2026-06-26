@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lRNoanm9DGE) | `source-alex-mercouris-zelensky-excluded-trump-putin-talks-us-floats-donbass-surrender-kiev-uk-eu-rage-pokrovsk-collapse-2025-08-09.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lRNoanm9DGE) | `source-alexander-mercouris-zelensky-excluded-trump-putin-talks-us-floats-donbass-surrender-kiev-uk-eu-rage-pokrovsk-collapse-2025-08-09.md` |
 
 ## Writer sources
 
@@ -52,4 +52,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-excluded-trump-putin-talks-us-floats-donbass-surrender-kiev-uk-eu-rage-pokrovsk-collapse-2025-08-09.md`
+- `source-alexander-mercouris-zelensky-excluded-trump-putin-talks-us-floats-donbass-surrender-kiev-uk-eu-rage-pokrovsk-collapse-2025-08-09.md`

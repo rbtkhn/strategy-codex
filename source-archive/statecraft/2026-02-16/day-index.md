@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Dialogue Works` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Dialogue Works` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r_N9YwOCJfM) | `source-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r_N9YwOCJfM) | `source-alexander-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=E85kNWM9_04) | `source-daniel-davis-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md` |
 | `dialogue-works` | Dialogue Works | `baud`, `nima` | [0ZGC4Uswerk](https://www.youtube.com/watch?v=0ZGC4Uswerk) | `source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md` |
 
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md`
+- `source-alexander-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md`
 - `source-daniel-davis-alert-what-trump-must-understand-epstein-class-v-working-class-2026-02-16.md`
 - `source-daniel-davis-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md`
 - `source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md`

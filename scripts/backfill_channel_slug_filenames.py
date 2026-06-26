@@ -5,6 +5,10 @@ Renames:
   source-napolitano-*     -> source-judging-freedom-*   (channel_slug: judging-freedom)
   source-nawfal-*         -> source-mario-nawfal-*      (channel_slug: mario-nawfal)
   source-{guest}-carlson-* -> source-tucker-carlson-{guest}-* (channel_slug: tucker-carlson)
+  source-alex-mercouris-* -> source-alexander-mercouris-* (Mercouris solo channel)
+  source-mercouris-*      -> source-alexander-mercouris-* (solo hub only; skips panels/guest lanes)
+  source-mercouris-*      -> source-duran-mercouris-*     (The Duran channel; channel_slug/show)
+  source-alex-mercouris-*  -> source-duran-mercouris-*     (when channel_slug: the-duran)
 
 Then rewrites repo references (basename swap) and optionally rebuilds indices.
 """
@@ -29,6 +33,14 @@ JUDGING_FREEDOM_SLUGS = {
     "",
 }
 MARIO_NAWFAL_SLUGS = {"mario-nawfal", "nawfal", ""}
+MERCOURIS_CHANNEL_SLUGS = {
+    "alexander-mercouris",
+    "alex-mercouris",
+    "mercouris",
+    "",
+}
+DURAN_CHANNEL_SLUGS = {"the-duran", ""}
+DURAN_SHOWS = {"the duran"}
 SKIP_LINK_DIRS = {
     ".git",
     ".git-ssh",
@@ -48,7 +60,7 @@ def parse_scalar(block: str, key: str) -> str | None:
     return val or None
 
 
-def read_channel_slug(path: Path) -> str | None:
+def read_frontmatter_block(path: Path) -> str | None:
     try:
         text = path.read_text(encoding="utf-8")
     except OSError:
@@ -56,10 +68,44 @@ def read_channel_slug(path: Path) -> str | None:
     m = FRONTMATTER_RE.match(text)
     if not m:
         return None
-    return parse_scalar(m.group(1), "channel_slug")
+    return m.group(1)
 
 
-def proposed_basename(name: str, channel_slug: str | None) -> str | None:
+def read_channel_slug(path: Path) -> str | None:
+    block = read_frontmatter_block(path)
+    if not block:
+        return None
+    return parse_scalar(block, "channel_slug")
+
+
+def is_duran_capture(path: Path) -> bool:
+    block = read_frontmatter_block(path)
+    if not block:
+        return False
+    slug = (parse_scalar(block, "channel_slug") or "").lower()
+    if slug == "the-duran":
+        return True
+    show = (parse_scalar(block, "show") or "").strip().lower()
+    if show in DURAN_SHOWS:
+        return True
+    return False
+
+
+def is_mercouris_solo_hub(path: Path) -> bool:
+    block = read_frontmatter_block(path)
+    if not block:
+        return False
+    source_form = (parse_scalar(block, "source_form") or "").lower()
+    if source_form not in {"solo", ""}:
+        return False
+    thread = (parse_scalar(block, "thread") or "").lower()
+    slug = (parse_scalar(block, "channel_slug") or "").lower()
+    if thread == "mercouris":
+        return True
+    return slug in MERCOURIS_CHANNEL_SLUGS and source_form == "solo"
+
+
+def proposed_basename(name: str, channel_slug: str | None, path: Path) -> str | None:
     slug = (channel_slug or "").strip().lower()
     lower = name.lower()
 
@@ -83,7 +129,54 @@ def proposed_basename(name: str, channel_slug: str | None) -> str | None:
             return None
         return f"source-tucker-carlson-{guest}-" + m.group(2)
 
+    if lower.startswith("source-alex-mercouris-"):
+        if slug == "the-duran":
+            return "source-duran-mercouris-" + name[len("source-alex-mercouris-") :]
+        if slug and slug not in MERCOURIS_CHANNEL_SLUGS:
+            return None
+        return "source-alexander-mercouris-" + name[len("source-alex-mercouris-") :]
+
+    if lower.startswith("source-mercouris-"):
+        if is_duran_capture(path):
+            return "source-duran-mercouris-" + name[len("source-mercouris-") :]
+        if not is_mercouris_solo_hub(path):
+            return None
+        if slug and slug not in MERCOURIS_CHANNEL_SLUGS:
+            return None
+        return "source-alexander-mercouris-" + name[len("source-mercouris-") :]
+
     return None
+
+
+def normalize_mercouris_channel_slug(path: Path) -> bool:
+    block = read_frontmatter_block(path)
+    if not block:
+        return False
+    slug = parse_scalar(block, "channel_slug")
+    if slug not in ("alex-mercouris", "mercouris"):
+        return False
+    text = path.read_text(encoding="utf-8")
+    updated = re.sub(
+        r'^(channel_slug:\s*)(?:"(?:alex-mercouris|mercouris)"|(?:alex-mercouris|mercouris))\s*$',
+        r"\1alexander-mercouris",
+        text,
+        count=1,
+        flags=re.M,
+    )
+    if updated == text:
+        return False
+    path.write_text(updated, encoding="utf-8", newline="\n")
+    return True
+
+
+def patch_legacy_mercouris_slugs(root: Path) -> int:
+    changed = 0
+    for path in sorted(root.rglob("source-*.md")):
+        if not path.is_file():
+            continue
+        if normalize_mercouris_channel_slug(path):
+            changed += 1
+    return changed
 
 
 def collect_renames(root: Path) -> list[tuple[Path, Path]]:
@@ -91,7 +184,7 @@ def collect_renames(root: Path) -> list[tuple[Path, Path]]:
     for path in sorted(root.rglob("source-*.md")):
         if not path.is_file():
             continue
-        new_name = proposed_basename(path.name, read_channel_slug(path))
+        new_name = proposed_basename(path.name, read_channel_slug(path), path)
         if not new_name or new_name == path.name:
             continue
         dest = path.with_name(new_name)
@@ -213,6 +306,9 @@ def main() -> int:
 
     for src, dest in pairs:
         git_mv(src, dest)
+
+    slug_patched = patch_legacy_mercouris_slugs(ARCHIVE_ROOT)
+    print(f"channel_slug_patched={slug_patched}")
 
     mapping = {src.name: dest.name for src, dest in pairs}
     n = rewrite_links(mapping)

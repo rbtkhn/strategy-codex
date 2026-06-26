@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=WtdoP5DO2KM) | `source-alex-mercouris-trump-ultimatum-to-zelensky-rebuffs-macron-in-tense-rome-talks-moscow-seeks-victory-no-to-truce-2025-04-27.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=WtdoP5DO2KM) | `source-alexander-mercouris-trump-ultimatum-to-zelensky-rebuffs-macron-in-tense-rome-talks-moscow-seeks-victory-no-to-truce-2025-04-27.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=fHJJDOHV9dc) | `source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md` |
 
 ## Writer sources
@@ -53,5 +53,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-ultimatum-to-zelensky-rebuffs-macron-in-tense-rome-talks-moscow-seeks-victory-no-to-truce-2025-04-27.md`
+- `source-alexander-mercouris-trump-ultimatum-to-zelensky-rebuffs-macron-in-tense-rome-talks-moscow-seeks-victory-no-to-truce-2025-04-27.md`
 - `source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md`

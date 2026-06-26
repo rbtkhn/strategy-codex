@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (5), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (5), `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=t5Y8iaJPYEA) | `source-alex-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=t5Y8iaJPYEA) | `source-alexander-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2-yrlT91t28) | `source-daniel-davis-devastating-failure-in-ukraine-s-kursk-offensive-2025-01-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=zw2tTf_aB8Y) | `source-daniel-davis-over-100k-ukraine-troops-charged-with-desertion-2025-01-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oxDI-Ralqy8) | `source-daniel-davis-trump-on-ukraine-russia-iran-israel-2025-01-07.md` |
@@ -58,7 +58,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md`
+- `source-alexander-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md`
 - `source-daniel-davis-devastating-failure-in-ukraine-s-kursk-offensive-2025-01-07.md`
 - `source-daniel-davis-over-100k-ukraine-troops-charged-with-desertion-2025-01-07.md`
 - `source-daniel-davis-trump-on-ukraine-russia-iran-israel-2025-01-07.md`

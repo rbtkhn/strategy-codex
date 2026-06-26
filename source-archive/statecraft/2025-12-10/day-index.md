@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Judging Freedom` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AEkT3DPfVMU) | `source-alex-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AEkT3DPfVMU) | `source-alexander-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](https://www.youtube.com/watch?v=L21I2qFdS9M) | `source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=46L9v4qUuEw) | `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=FW7vyCwyw84) | `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md` |
@@ -57,7 +57,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md`
+- `source-alexander-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md`
 - `source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md`
 - `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md`
 - `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md`

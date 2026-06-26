@@ -17,11 +17,12 @@ source_url: "https://www.youtube.com/watch?v=kFH4AujWqtI"
 youtube_id: kFH4AujWqtI
 source_note: "Operator-pasted transcript; Jiang PH founding-members livestream #1 (news-research method demo + Q&A). Topics: Kushner Albania resort/Soros NGO protest read; NBC Pentagon Israeli spying vs NDAA §224 AIPAC myth walkthrough; Altman-Sanders AI public-bailout thesis; Candace Owens Russia Catholic-Orthodox bridge game theory; China-Japan-Philippines maritime kinetic; military privatization/Western Hemisphere occupation; Iran forever war/ceasefire theater/ground invasion; critique LJ-Escobar Iran nuke handoff claim; AI autocrats not US-China race; DEI vs Occupy. verify:all operational claims analyst-tier game-theory speculation; cross-weichert on §224."
 evidence_grade: transcript-bearing
-editorial_note: "AI-assisted ASR repair (common + founding-members tiers + statecraft entity pass); ~138 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + founding-members tiers + statecraft entity pass); ~138 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (11 sections)."
 opening_tier: livestream-open
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-10; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # Predictive History Founding Members #1
 
@@ -32,6 +33,9 @@ quality_note: "ASR normalization pass 2026-06-10; ph-civ replacement SSOT."
 **Transcript:** Operator-pasted YouTube transcript.
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 So, um, without further ado, um, let's begin. What I would like to do to start off the live stream because because people are still getting in is talk about some news items that, um, have that that have interested me. Okay. So basically I want to in in these live streams interact with everyone at the same time give people insight into how I think about the world and how I go about doing research.
 
@@ -87,7 +91,11 @@ Chinese, the British. And so why is this an issue now, right? Why are people con
 
 United States? No one talked about 1967
 
-USS Liberty. Why why is the Pentagon now concerned about Israeli spying? Well, I think a lot of it has to do with the fact that um Congress is planning to pass uh something called section 224 of the national defense budget and um this as you know has been generating a lot of controversy and when something is controversial I like to hear or understand different sides. So we're going to go to AIPAC. Okay. Um, APAC will probably offer us the most useful um, analysis of what's going on because we we know we know right away what the uh, concern is, right? What the concern is that um the United States and Israel will merge their militaries and Israel have access to America's most sensitive technology and basically the United
+USS Liberty. Why why is the Pentagon now concerned about Israeli spying? Well, I think a lot of it has to do with the fact that um Congress is planning to pass uh something called section 224 of the national defense budget and um this as you know has been generating a lot of controversy and when something is controversial I like to hear or understand different sides. So we're going to go to AIPAC. Okay. Um, APAC will probably offer us the most useful um, analysis of what's going on because we we know we know right away what the uh, concern is, right? What the concern is that um the United States and Israel will merge their militaries and Israel
+
+### Segment 2 — Have Access To America's Most
+
+have access to America's most sensitive technology and basically the United
 
 States will be um all in in Israel. So if Israel were to start a war against
 
@@ -153,7 +161,11 @@ Alman are talking about public ownership and AI. So, we're not going to read thi
 
 Sanders is very much concerned about the public um risk of AI. Um he's concerned that that these companies, OpenAI, Anthropic, they might develop uh sentient AI, AGI, that could destroy the world. And so, the government need to be more involved. He's also concerned about the environmental and and economic costs of AI. Is it going to destroy jobs? Is it going to consume too much electricity and uh fresh water? Now, whenever you see
 
-Bernie Sanders and Sam Altman on the same headline, you should be concerned because what Sam Altman really wants is for a public bailout, right? So um I talked about this in my lectures where it is impossible for these AI companies to make any money. They are not profitable by themselves. So what they want is going to subsidize um their enterprise and they'll have complete control over information and surveillance right but it's a public that pays for everything. So what Sam Altman basically wants to do is for the government to buy out the data centers from him and subsidize the cost for running AI. Then OpenAI will be profitable. And so this is all a giant scam guys. Bernie Sanders is part of the scam. If Donald Trump, Bernie Sanders, and Sam Altman are working together, you know, it's really really bad. And so this is something that we should uh watch out for. Okay. Uh my prediction is that the government at some point will come in and make public uh these data centers because these data centers are really really expensive. Also, Larry Fink um has voice concern that there might be some public outrage over these data centers and there might be public sabotage against uh these data centers.
+Bernie Sanders and Sam Altman on the same headline, you should be concerned because what Sam Altman really wants is for a public bailout, right? So um I talked about this in my lectures where it is impossible for these AI companies to make any money. They are not profitable by themselves. So what they want is going
+
+### Segment 3 — To Subsidize Um Their Enterprise
+
+to subsidize um their enterprise and they'll have complete control over information and surveillance right but it's a public that pays for everything. So what Sam Altman basically wants to do is for the government to buy out the data centers from him and subsidize the cost for running AI. Then OpenAI will be profitable. And so this is all a giant scam guys. Bernie Sanders is part of the scam. If Donald Trump, Bernie Sanders, and Sam Altman are working together, you know, it's really really bad. And so this is something that we should uh watch out for. Okay. Uh my prediction is that the government at some point will come in and make public uh these data centers because these data centers are really really expensive. Also, Larry Fink um has voice concern that there might be some public outrage over these data centers and there might be public sabotage against uh these data centers.
 
 Well, once the government takes them over, then these data centers can become military bases, right? Good luck trying to to attack a data center if if it's a military base. Okay, so this is very concerning. Um, now one last news item I want to look at is Candace Owens in
 
@@ -221,7 +233,11 @@ I'm I'm saying she's close to certain elements um within the Catholic Church tha
 
 Jesuits. Okay. But um they're they they support Candace. They they offer opportunity. and her going to Russia suggests that this particular faction is very interested in a reconciliation between the Catholic Church and the
 
-Orthodox Church because they see the great enemy as American materialism, secularism, liberalism and and these are honest people. The these are uh people of honest faith. Okay, I'm not saying these are politicians. I'm saying these are people who are generally concerned about the direction of the western world with all this mass immigration with um you know all this materialism the spread of only fans the popularization of people like Andrew Tate and they see
+Orthodox Church because they see the great enemy as American materialism, secularism, liberalism and and these are
+
+### Segment 4 — Honest People The These Are
+
+honest people. The these are uh people of honest faith. Okay, I'm not saying these are politicians. I'm saying these are people who are generally concerned about the direction of the western world with all this mass immigration with um you know all this materialism the spread of only fans the popularization of people like Andrew Tate and they see
 
 Candace Owens as a vehicle in order to promote greater faith among young people and she's doing a fantastic job. So I I think that's that's her role. her her role is to um create a spiritual awakening to get people to return to
 
@@ -293,7 +309,11 @@ Yeah. Um so um first of all the field fellows are a very impressive group of kid
 
 I'm pretty respectful of of him because
 
-I like it when people who are evil actually know what they're doing because then it's just easier for me to understand their motivations and predict how they behave. Like Peter Ste is a chess player and like the other person I admire a lot is is Vladimir Putin. Okay.
+I like it when people who are evil actually know what they're doing because then it's just easier for
+
+### Segment 5 — Me To Understand Their Motivations
+
+me to understand their motivations and predict how they behave. Like Peter Ste is a chess player and like the other person I admire a lot is is Vladimir Putin. Okay.
 
 He's also evil and he's also dangerous.
 
@@ -339,7 +359,11 @@ Black Rock Vanguard Black Stone these companies they control all the money in th
 
 [clears throat] I have friends who are writers, journalists. They have these thick notebooks and they carry a notebook wherever they go. So like, you know, like if they hear something, they'll write it down. they see something, they'll write it down. I don't do that. Um, what what I do is I keep it in my mind. Okay? So, basically, if I see something on the news, I say,
 
-"That's interesting. I should refer back to it later on." All right? So, if you come to my house, I have no notes. If you look at my computer, I have no notes. It's all in my mind. Um, and the reason why I do that is to maintain maximum flexibility. Okay? I I I I I basically [clears throat] put the news item in short-term memory and I say and
+"That's interesting. I should refer back to it later on." All right? So, if you come to my house, I have no notes. If you look at my computer,
+
+### Segment 6 — I Have No Notes It's
+
+I have no notes. It's all in my mind. Um, and the reason why I do that is to maintain maximum flexibility. Okay? I I I I I basically [clears throat] put the news item in short-term memory and I say and
 
 I ask myself, okay, um will this thing escalate? Will this thing continue? If it does, then I pay attention to it. So,
 
@@ -419,7 +443,11 @@ Tim Dillon is great, by the way. Uh, I love Tim Dillon. I think he is the funnie
 
 Trump and Jared Kushner have purchased their private island with a bunker because they know something big is coming within the next six months. This is not true, by the way. Okay. Um, I got
 
-Trump, Jared Kushner, these people, they live in in a fantasy world where they are the best and the brightest, where they got to where they are because they worked hard, they're smarter than everyone else, and the world is perfect, and they don't have a conscious understanding of the public um outrage at people like them. Um, so they live in fantasy world. They're delusional. They don't they they don't really think they don't really believe that the world will turn against them. They think they they control the world and they are the perfect rulers and everyone loves them.
+Trump, Jared Kushner, these people, they
+
+### Segment 7 — Live In In A Fantasy
+
+live in in a fantasy world where they are the best and the brightest, where they got to where they are because they worked hard, they're smarter than everyone else, and the world is perfect, and they don't have a conscious understanding of the public um outrage at people like them. Um, so they live in fantasy world. They're delusional. They don't they they don't really think they don't really believe that the world will turn against them. They think they they control the world and they are the perfect rulers and everyone loves them.
 
 Um so you know they bought that island not because they want to build a bunker.
 
@@ -473,7 +501,11 @@ Mossad. Um, and you know, but they'll have dinner together and they'll talk and 
 
 Uh Wakar asks what do you think about
 
-PBD and Hasan? So I've been both their show I've been on both their shows and uh my my interview with Hasan went viral. He's just a very naturally combative person. Uh he's he's very good at what he does. I mean, he's very good at taking your words and then warping in a certain way that allows him to attack you. Okay. So So he's he he's always in attack mode. And PBD, he's a businessman. Uh he's a bit of a hustle. He's he's he's a hustler really.
+PBD and Hasan? So I've been both their show I've been on both their shows and uh my my interview with Hasan went viral. He's just a very naturally combative person. Uh he's he's very good at what he does. I mean, he's very good at taking your words and then warping in a certain way that allows him to attack you. Okay. So
+
+### Segment 8 — So He's He He's Always
+
+So he's he he's always in attack mode. And PBD, he's a businessman. Uh he's a bit of a hustle. He's he's he's a hustler really.
 
 And he likes a lot of back and forth, but he likes to feel you out, right?
 
@@ -523,7 +555,11 @@ Um, seems like just high trouble. Fire the workers, fake the data center, keep t
 
 Yeah. Um, listen, we have absolutely no idea what's going on in these uh data centers. Uh, and they're so huge, right?
 
-So, I I would not be surprised if these data centers are being set up as a false flag. And what I mean by that is they store all the financial data in these data centers and then it's blown up right by this um lone wolf uh Unabomber guy who who at all is not MK ultra who at all is not CIA affiliated. Not at all. Okay. But he's working by himself.
+So, I I would not be surprised if these data centers are being set up as a false flag. And what I mean by that is they store all the financial data in these data centers and then it's
+
+### Segment 9 — Blown Up Right By This
+
+blown up right by this um lone wolf uh Unabomber guy who who at all is not MK ultra who at all is not CIA affiliated. Not at all. Okay. But he's working by himself.
 
 He's not part of this uh CIA team. But the data center is blown up and oops all that financial data is gone. and it's the Russians who did this. So yeah, so I would not be surprised if there was a false flag attack on these data centers at some point. Matthew asks, "Thoughts on Nick Fuentes?"
 
@@ -585,7 +621,11 @@ they're not competing against each other. Um, it's something that people don't r
 
 CIA, they're actually friends with each other. They're working together because ultimately they are parasites on the nation state and they're trying trying to absorb as much power and financing for themselves as possible. The way you do that is you manufacture threats, right? you say if you don't give us money then the then the FSB MOSSAD uh
 
-MSS will take us over right we have to defend against them right so this n so intelligence agencies militaries don't compete against each other they work with each other same thing with AI uh data centers they don't compete against each other they work against each other okay
+MSS will take us over right we have to defend against them right so this n so intelligence agencies militaries don't compete against
+
+### Segment 10 — Each Other They Work With
+
+each other they work with each other same thing with AI uh data centers they don't compete against each other they work against each other okay
 
 Daryl Fry asks uh nuclear capability and ground troops given reports that Iran announced nuclear bomb.
 
@@ -649,7 +689,11 @@ Luther King Jr.
 
 throughout the 1960s, his main argument is we should not judge anyone by the color of his skin. Um, we should be fair to everyone. We should look beyond race and look at character and look at merit and look at hard work. That's something
 
-I strongly believe in and it makes sense, right? So, how how do we get to a time when all that matters is your skin color? If you're black, if you're
+I strongly believe in and it makes sense, right? So, how how do we get to a time when all that
+
+### Segment 11 — Matters Is Your Skin Color
+
+matters is your skin color? If you're black, if you're
 
 Hispanic, if you're uh gay, if you're a woman, and you've historically been oppressed, and therefore society has a responsibility to address these historical wrongs.
 

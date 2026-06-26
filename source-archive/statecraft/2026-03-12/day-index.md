@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Daniel Davis` (3), `Mercouris` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis` (3), `Alexander Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hbl3tuy-CA4) | `source-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hbl3tuy-CA4) | `source-alexander-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md` |
 
 ## Writer sources
 
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md`
+- `source-alexander-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md`
 - `source-crooke-is-having-no-war-plan-trumps-plan-2026-03-12.md`
 - `source-daniel-davis-baud-irans-unwavering-attacks-2026-03-12.md`
 - `source-daniel-davis-iran-vows-revenge-2026-03-12.md`

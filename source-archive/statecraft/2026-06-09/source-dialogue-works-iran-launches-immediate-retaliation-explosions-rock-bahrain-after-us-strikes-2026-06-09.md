@@ -25,8 +25,9 @@ evidence_grade: transcript-bearing
 opening_tier: solo-brief
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (9 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # Iran LAUNCHES Immediate Retaliation: Explosions Rock Bahrain After US Strikes
 
@@ -37,6 +38,9 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Hi everybody. Today I want to say today, but it's tonight. Tonight is June 9th, 2026. And I'm here to talk about what's going on between Iran and the United States. Today we've learned that an American helicopter, Apache helicopter was hit in the Strait of Hormuz and it was reported by mainstream media in the United States.
 
@@ -56,7 +60,11 @@ Based on the reports coming out of Iran, it says that the United States hit a te
 
 So they literally hit the targets here. Three targets, three islands. The JK is not an island is a port. And so the Jok and then two islands, Bash Island and Siri, the targets, it seems three waves of attacks by fighter jets because they use a combination of fighter jets and a combination of fighter jets and drones. All of basically most of the drones were hit.
 
-At least two of them were confirmed by Iranians by RGC. They said two of them were hit or they intercepted two of those drones but the attacks from the fighters they could hit the targets some of the targets from the reports that official report of Iranians they said one telecommunication tower and two water tanks were hit. There were some reports that in the eastern part of in the western part of Iran in the city called Awaz there were some sort of attacks but no confirmation that anything has happened in that city in the city of Hestan. Huzan is in this
+At least two of them were confirmed by Iranians by RGC. They said two of them were hit or they intercepted two of those drones but the attacks from the fighters they could hit the targets some of the targets from the reports that official report of Iranians they said one telecommunication tower and two water tanks were hit. There were some reports that in the eastern part of in the western part of Iran in the city called Awaz there were some sort of attacks but no confirmation that anything has happened in that city in the city
+
+### Segment 2 — Of Hestan Huzan Is In
+
+of Hestan. Huzan is in this
 
 western part of Iran and the capital of Huzan is Aas. They said that the city was hit but there is no confirmation on that and basically they hit the Syria island, Bashma Island and the port of Jos. This is what has happened with the United States. What was so strange then later on we we've learned there is something going on.
 
@@ -78,7 +86,11 @@ And the the other the other point that they've mentioned, it was reported by For
 
 Then they use the drones against against Bahrain together with missiles. And as we talk right now, there are some reports that in Kuwait some targets they're they're hitting some targets in Kuwait. So basically the two sides are attacking each other. And what amazes me is the way that this war started. This new round of war, this new round of retaliation, attacks and retaliation are happening.
 
-Nobody knows what's going on with the Trump administration. They're so strange. Today, two times yesterday and today, we learned from JD Vance that the United States is so close to, you know, to make a deal with Iran. Donald Trump saying the same thing. Maybe in the next two days, maybe in the next, you know, two weeks.
+Nobody knows what's going on with the Trump administration. They're so strange. Today, two times yesterday and today, we learned from JD Vance that the United States is so close to, you know, to make a deal with Iran. Donald Trump saying the same thing. Maybe in the next two days, maybe in
+
+### Segment 3 — The Next You Know Two
+
+the next, you know, two weeks.
 
 He said two weeks. Then later on, he said in the next two days, we're going to have some sort of agreement. After attacking Iran, he said, "Yo, the ceasefire is still there and we're going to have some sort of deal with Iran and everything is going just fine. Everything is perfectly going and between the two sides.
 
@@ -100,7 +112,11 @@ This is the concept on the part of Iranian government. GCC countries, they're so
 
 This is this is disastrous what's going on for GCC countries and you see no no movement no sort of activity no sort of understanding no sort of learning curve in these countries they have to come to some sort of understanding they have to put pressure how Israel is that capable to put pressure on the United States you have all your money in New York and you know all the money you make is in the American banks.
 
-How how come you cannot put pressure on Donald Trump? This they're basically they're running out of everything. These GCC countries, the situation is so desperate and it doesn't seem that they're willing to help themselves. UAE is totally different scenario. They're just getting out of everything and they're getting closer to Israel.
+How how come you cannot put pressure on Donald Trump? This they're basically they're running out of everything. These GCC countries, the situation is
+
+### Segment 4 — So Desperate And It Doesn't
+
+so desperate and it doesn't seem that they're willing to help themselves. UAE is totally different scenario. They're just getting out of everything and they're getting closer to Israel.
 
 I don't know what would be the future together with Israel for them. But the other countries like Saudi Arabia and Qatar Saudi Arabia was hit during the Iran Iran attacking Israel. Israel attacking Iran after the attack on Beirut. They attacked Saudi Arabia. They said it was Iran. Iran attacking Saudi Arabia.
 
@@ -122,7 +138,11 @@ And they want to find their own way to c coexist with this sort of behavior that
 
 Nothing comes out. And but in my opinion, what Iran has achieved so far, it's so not only the Iranian government, they're so united in Iran right now, right, left, middle, you know, everything. everything all of them are together and the attacks on Iranians unified all the society together with the government to say people are you know when the war before I was in Iran in December 2025 and January 2026 many people were so much afraid if they were asking is you know is the attack coming is the United States going to attack us
 
-what would be the outcome of that ordinary I'm talking about ordinary people on streets I would I talk with many people I didn't I wanted to know what is the situation there I talk I you know I just I was just walking in the streets to see to talk with the people to know what is the atmosphere I wanted to know after 12 years I I wanted to know what's going on in Iran and many people were worried they were worried about what's going on with the American attack so the attack has happened and Iran has found its way to defend itself.
+what would be the outcome of that ordinary I'm talking about ordinary people
+
+### Segment 5 — On Streets I Would I
+
+on streets I would I talk with many people I didn't I wanted to know what is the situation there I talk I you know I just I was just walking in the streets to see to talk with the people to know what is the atmosphere I wanted to know after 12 years I I wanted to know what's going on in Iran and many people were worried they were worried about what's going on with the American attack so the attack has happened and Iran has found its way to defend itself.
 
 And right now they're expanding that umbrella of resistance, that umbrella of protecting not only Iran, it's going to be the whole acts of resistance. It's going to be Lebanon. It's going to be Palestine and all of them going to be together. They're more united today. They have learned the American attack on Iran was a huge experience for considering the military aspect and considering the psychological the psychology of what has happened because you have to be prepared.
 
@@ -142,7 +162,11 @@ The country is under tremendous pressure economically. But the difference betwee
 
 There is a disease called butterfly you know the disease that is the skin is getting so sensitive and they have some sort of problem with the skin and Sweden was part of that sanction. They said, "We're not going to give you, you know, the remedies or, you know, the medicine for, you know, for that disease." They didn't when they're talking about the sanctions, the medicine is not part of the sanctions.
 
-But since you have to pay, you have to have this sort of payment system and it's all dominated with the United by the United States. So, they're not going to get it from Sweden. And right now Sweden is under tremendous pressure and they're asking they're begging Iranian to let them to use this Strait of Hormuz and Iran says you you remember what you did to us.
+But since you have to pay, you have to have this sort of payment system and it's all dominated
+
+### Segment 6 — With The United By The
+
+with the United by the United States. So, they're not going to get it from Sweden. And right now Sweden is under tremendous pressure and they're asking they're begging Iranian to let them to use this Strait of Hormuz and Iran says you you remember what you did to us.
 
 Just imagine for decades these people were putting pressure on Iranian people with these sanctions. And right now they're begging to get back to what it was before this war started. But it's not going to get back. the Strait is gone. It's going to be under the control of Iranian government forever. And the United States is not going to change anything in this Strait of Hormuz.
 
@@ -164,7 +188,11 @@ Then Iran attacked Israel. Israel responded to Iran as some sort of it was nothi
 
 They wanted to hit many targets. They couldn't do it because they're incapable of doing this without the United States. That's why the United States entered the game. They started this attack to hit the targets to retaliate the Iranian attack on Israel, not because of that helicopter. This is the whole game. The United States is the proxy of Israel. We have to accept that.
 
-For four years, we were talking about Ukraine being the proxy of the United States and NATO. But the Trump administration is willing to diminish a country, a superpower to the picture of a proxy of Israel in the region. And you believe it or not, these GCC countries, all these governments in the region just are watching it.
+For four years, we were
+
+### Segment 7 — Talking About Ukraine Being The
+
+talking about Ukraine being the proxy of the United States and NATO. But the Trump administration is willing to diminish a country, a superpower to the picture of a proxy of Israel in the region. And you believe it or not, these GCC countries, all these governments in the region just are watching it.
 
 They're they're just amazed what's going on. They're not talking about it. But when they get back to their homes, officially they're not talking about anything, but they talk with within them, you know, amongst themsel and they say, "What is going on with the United States?" Yeah, this is this is the Trump administration under Israeli occupation.
 
@@ -184,7 +212,11 @@ And they have the capabilities. They know how to defend themselves. And right no
 
 Then the two sides this is a game but after all let's see what what would be the outcome of this sort of but the escalation is happening in my opinion what is important right now is the escalation and how this escalation going to go and change the face of the conflict when you're when you're arguing that you're negotiating and then attacking Iran. This is just getting back.
 
-Just remember what has happened. Two times they were negotiating with Iranians and they attack Iran in June 2025. In February 20 on on the on on the day of 28th of February of 2026, two times they were negotiating with Iranians. Then they attacked Iran with a surprise attack. The first one was totally surprised, a surprise attack.
+Just remember what has happened. Two times they were negotiating with Iranians and they attack Iran in June 2025. In February 20 on on the on on the day of 28th of February of 2026, two times they were negotiating with Iranians. Then they attacked Iran with a surprise attack. The first one was totally
+
+### Segment 8 — Surprised A Surprise Attack
+
+surprised, a surprise attack.
 
 The second one was somehow they were preparing sending a lot of weapons and Iran knew that the attack is coming. And right now, the reason that they decided to started this ceasefire because they were running out of ammunition. They don't have it. Yeah. This is and I don't know why Iran is not continue the war.
 
@@ -208,7 +240,11 @@ Those days are gone and she Sunni are coming together. I'm talking about people.
 
 I wouldn't be surprised because huge changes are happening in you know within the society. Bahrain is one of the most important cases in the GCC countries. The majority of the people Shia Muslim against the leadership that is Sunni but the name we call it Sunni but it's not as I said there is no difference today between Shia and Sunni.
 
-They are coming together and this is a huge loss for Israel because they have invested for such a long time in this sort of division between Shia and Sunni and separating from one from the other and making this sort of argument and you believe in that I believe in this we are different we are not the same and that those days are literally gone those days are literally gone and the region is getting more united.
+They are coming together and this is a huge loss for Israel because they have invested for such
+
+### Segment 9 — A Long Time In This
+
+a long time in this sort of division between Shia and Sunni and separating from one from the other and making this sort of argument and you believe in that I believe in this we are different we are not the same and that those days are literally gone those days are literally gone and the region is getting more united.
 
 That's why I don't see a bright future for Israel. I don't see Benjamin Netanyahu, you know, he's going to be he's going to his legacy going to be forever. You know, he he's he's the architect, you know, I would say he's the he's the main designer of the collapse of Israel. He did that to Israel. And he's not going to he's not going to back down until everything is destroyed.
 

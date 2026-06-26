@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TDvSNXAUwm8) | `source-alex-mercouris-trump-tariffs-stun-world-cancel-globalisation-witkoff-dmitriev-us-russia-backchannel-eu-uk-fume-2025-04-03.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TDvSNXAUwm8) | `source-alexander-mercouris-trump-tariffs-stun-world-cancel-globalisation-witkoff-dmitriev-us-russia-backchannel-eu-uk-fume-2025-04-03.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Uj2zbuIBHQg) | `source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=rMDvW8fDWFQ) | `source-judging-freedom-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-trump-tariffs-stun-world-cancel-globalisation-witkoff-dmitriev-us-russia-backchannel-eu-uk-fume-2025-04-03.md`
+- `source-alexander-mercouris-trump-tariffs-stun-world-cancel-globalisation-witkoff-dmitriev-us-russia-backchannel-eu-uk-fume-2025-04-03.md`
 - `source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md`
 - `source-judging-freedom-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md`

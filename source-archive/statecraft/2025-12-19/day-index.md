@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `HORIZONS Discussion` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1), `HORIZONS Discussion` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=3FjLLtnNANQ) | `source-alex-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=3FjLLtnNANQ) | `source-alexander-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md` |
 | `dialogue-works` | Dialogue Works | `freeman`, `parsi`, `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=R550ehVJYKw) | `source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md` |
 | `dialogue-works` | — | `alkorshid`, `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=zq9y5GpwChY) | `source-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md` |
 | `glenn-diesen` | — | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=3onO7SRkWd0) | `source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md` |
@@ -56,7 +56,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md`
+- `source-alexander-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md`
 - `source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md`
 - `source-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md`
 - `source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md`

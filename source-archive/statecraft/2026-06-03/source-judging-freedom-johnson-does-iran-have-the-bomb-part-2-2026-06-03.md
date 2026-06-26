@@ -23,11 +23,15 @@ evidence_grade: transcript-bearing
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (8 sections)."
+transcript_curation: curated_sectioned
 ---
 # Larry Johnson : Does Iran Have the Bomb? Part 2
 
 ## Transcript
+
+
+### Show Open — Introduction
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
@@ -49,7 +53,11 @@ We're not saying it was we're not talking about some taxi driver uh or somebody 
 
 >> but that was that was one of that was one of that was the first thing that the source said was going to happen after that.
 
->> So the source the source was accurate but that decision had nothing to do with nukes. That's because the Israelis
+>> So the source the source was accurate but that decision had nothing to do with nukes.
+
+### Segment 2 — That's Because The Israelis
+
+That's because the Israelis
 
 No, it had everything to do with nukes.
 
@@ -69,7 +77,11 @@ Have you noticed the change in Donald Trump's tone visav Iran over the last four
 
 >> Has he been talking about I'm going to obliterate them? We're going to eliminate their civilization. We're going to wipe them out. we're gonna No, he he was saying that weeks ago, but he's in fact been surprisingly consiliatory. And notice yesterday that the United States again hit attacked an Iranian ship with a with a Hellfire missile fired by a helicopter that came out of Bahrain.
 
-uh and then attacked a communication station and Iran retaliated by hitting a ship connected to the United States with a anti-hship missile, punching a hole in its side and attacked the US airfields in Kuwait and and including the nuh the Kuwaiti international airport. So, and at no point did Donald Trump come out and say, "See, Iran, you're getting what it takes. We're showing none of that.
+uh and then attacked a communication station and Iran retaliated by hitting a ship connected to the United States with a anti-hship missile, punching a hole in its side and attacked the US airfields in Kuwait and and including the nuh the Kuwaiti international airport. So, and at no point did Donald Trump come out and say, "See, Iran, you're getting
+
+### Segment 3 — What It Takes We're Showing
+
+what it takes. We're showing none of that.
 
 " true social man. He was silent. Sorry.
 
@@ -93,7 +105,11 @@ And yet every time Iran entered in, they did it with JCPOA, Trump tore it up and
 
 >> And that attack was launched two days later. So the Iranians are like, you know what, whatever we do, they they ignore. And so I I think a decision was made shortly after that that, okay, we're now going to get an active nuclear device so that we can defend ourselves, not to use offensively, but at least to say, okay, now we got it. So stop.
 
-I'm going to play a clip which is a composite of what Pepe told us this morning and ask you to comment on it. And after the clip I'm going to ask you, did your source reveal where it came from? Was it domestically developed or did some country and I'll ask you what countries would be in that category gave it to them? But here's Pepe.
+I'm going to play a clip
+
+### Segment 4 — Which Is A Composite Of
+
+which is a composite of what Pepe told us this morning and ask you to comment on it. And after the clip I'm going to ask you, did your source reveal where it came from? Was it domestically developed or did some country and I'll ask you what countries would be in that category gave it to them? But here's Pepe.
 
 >> Uh this morning, Larry, it's about two minutes long.
 
@@ -111,7 +127,11 @@ Unless we go to stage number one, end of all wars. Stage numbers number number t
 
 not even getting towards a JCPOA which considering the circumstances the best the Trump administration can get now is a sort of diluted JCPOA and the Iranians are saying no not even that because first you need to go to stage one and two end of all wars and then we start discussing hormones without that we discuss nothing and then the number three which is at the heart of what we revealed on Monday and Of course, there's a lot of controversy, more than expected everywhere.
 
-Pzashkin said, "If American threats persist, we can go for the detonation of a nuclear device on Iranian soil." Without specifying, is this a bomb that Iran already has? Is this a bomb that Iran only Iran developed? Is this a bomb that they could count on Russian input to develop or it was delivered readymade let's put it this way by Pakistan or by North Korea? Nothing.
+Pzashkin said, "If American threats persist, we can go for the detonation of a nuclear device on Iranian soil." Without specifying, is this a bomb that Iran already has? Is this a bomb that Iran only Iran developed? Is this a bomb that they could count on Russian input to develop or it was delivered readymade let's put it this way by Pakistan
+
+### Segment 5 — Or By North Korea Nothing
+
+or by North Korea? Nothing.
 
 Uh the source did not elaborate on that. He was elaborating on what Pesashkin actually told Sharif. So this detonation would happen in in the words of Pzashkin translated via uh by our source executed not as an act of war but as an irreversible sovereign demonstration of capability to control scalation dominance.
 
@@ -133,7 +153,11 @@ So that's why they stayed away from that. the same way that they didn't uh they 
 
 >> CIA, MI6, and Mossad heard it. Yeah, that's my point. In fact, that may have been the very point, the reason they did it. If they did it over an open line, they wanted to make sure that everybody heard it, including Israelis 82 unit 8200, they intercepted it, United States.
 
-And so, everybody's got to now take a big breath and go, is this for real? Again, this when you get into these kinds of issues with intelligence, you know, this person once you know the bonaPhilotas of the person, you know that they do have this kind of access that they they are not hearing something around the water cooler or they're not hearing rumors in the bathroom.
+And so, everybody's got to now take a big breath and go, is this for real? Again, this when you get into these kinds
+
+### Segment 6 — Of Issues With Intelligence You
+
+of issues with intelligence, you know, this person once you know the bonaPhilotas of the person, you know that they do have this kind of access that they they are not hearing something around the water cooler or they're not hearing rumors in the bathroom.
 
 This is something that they would have been involved with the decision-m from from the standpoint of Pakistan knowing what is being communicated with Iran and what Iran is communicating with them. So, and that's why I say I am struck by how cautious Trump has been. You know, this so far that we're day three this week since that news broke.
 
@@ -151,7 +175,11 @@ And we've already seen that, you know, these are so-called obliterated, even US 
 
 It creates more incentive for an actual serious negotiation on the part of the United States. But part of that's going to require reigning in Israel to get Israel to stop its campaign of murdering Lebanese and Palestinians.
 
->> Well, only a Donald Trump with a backbone can do that.
+>> Well, only a Donald Trump
+
+### Segment 7 — With A Backbone Can Do
+
+with a backbone can do that.
 
 >> Yeah. Yeah. You know, I'm thinking of the bitter irony and we you and I and all the guys and gals on the show have talked about this of Tulsi Gabbard saying under oath before the Congress, Iran did has not been developing a nuclear weapon since 2003 and then Trump saying, "I don't care what she says. I think they do have one." Now, it turns out she was wrong and Trump was right.
 
@@ -169,7 +197,11 @@ If if you if you attack my family, I will defend my family.
 
 >> Right. Right. Has anybody picked this up besides you and Pepe? Anybody in the West covering this besides judging freedom?
 
->> Um, some other podcasts have mentioned it, but no, it hasn't. You know, and and you know, people are going to come out and say, "Oh, Johnson's making." Look, folks, all I'm doing is telling you what a source that both Pepe and I have uh been able to check out that we we believe that this person has access to this kind of information, is in a position to know this kind of thing and uh that's what he is saying. He believes it. Now, can I prove that? Absolutely. I can't.
+>> Um, some other podcasts have mentioned it, but no, it hasn't. You know, and and you know, people are going to come out and say, "Oh, Johnson's making." Look, folks, all I'm doing is telling you what a source that both Pepe and I have uh been able to check out that we we believe that this person has access to this kind of information, is in a position to know this
+
+### Segment 8 — Kind Of Thing And Uh
+
+kind of thing and uh that's what he is saying. He believes it. Now, can I prove that? Absolutely. I can't.
 
 >> So, you mentioned the
 

@@ -21,8 +21,9 @@ source_type: youtube
 youtube_id: UUz7YOLVy9o
 source_note: "Cleaned transcript pasted by operator. Filed under the operator-supplied June 5, 2026 batch; transcript body says the interview was recorded on Thursday, June 4, 2026. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 24 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Preserve as raw cleaned transcript; verify claims about Trump, Putin, Iran, Taiwan, sanctions, sovereign debt, and market timing before promotion beyond analyst tier."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 24 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Preserve as raw cleaned transcript; verify claims about Trump, Putin, Iran, Taiwan, sanctions, sovereign debt, and market timing before promotion beyond analyst tier. · source-section pass 2026-06-26 (9 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # "Things will Escalate Next Week" | Martin Armstrong on Iran, Ukraine, Peace, Gold & Bitcoin
 
@@ -34,6 +35,10 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 
 ## Cleaned Transcript
+
+
+### Show Open — Introduction
+
 To my shock, I was asked to write the peace plan to be presented to Putin. They thought if it came from me to have more credibility to Putin, about 2 or 3 weeks later, I get a letter from Trump thanking me from doing so. I am concerned that you remove Putin and then things change. They have their neocons the same way as America has theirs.
 
 I don't see Netanyahu backing down. He's like like I said about Zinsky, he could care less about the rest of the world. Iran is trying to set in motion more than just an energy crisis, but a banking crisis. Things should start to escalate a bit more from next week on going into August. The other side that we have that will kick in as the war begins to heat up is what we call a sovereign debt crisis.
@@ -52,7 +57,11 @@ Um, so we got called in by the central bank of Lebanon and they had found a ledg
 
 I said look something's got to be wrong with this data and they very calmly asked what currency does it recommend? Which I thought was a very strange response. I said, "Well, it says the Swiss Frank." And sure enough, 8 days later, the civil war began. So then what I came to realize is they sold that. They were only coming to me for the timing.
 
-Uh, and then we had, you know, a client in Saudi Arabia, which is one of the biggest strippers in the Gulf. And he calls and he says, "Uh, Iraq's going to start attacking, uh, the tankers tomorrow. What do you think gold's going to do?" I said, "Tell me a war's going to start tomorrow." And he says, "Yeah."
+Uh, and then we had, you know, a client in Saudi Arabia, which is one of the biggest strippers in the Gulf. And he calls and he says, "Uh, Iraq's going to start attacking, uh, the tankers tomorrow. What do
+
+### Segment 2 — You Think Gold's Going To
+
+you think gold's going to do?" I said, "Tell me a war's going to start tomorrow." And he says, "Yeah."
 
 " Um, so what I learned over the years was that um, somebody always knows in advance and they start moving assets. All right. So that's what the computer is picking up. So like in June of 98, I stood up in London. We had a conference there and I said, you know, Russia's going to collapse. I give a little more in 30 days.
 
@@ -74,6 +83,8 @@ Well, we'll be drawn in. And this is the Philippines and Japan. >> Yeah, it soun
 
 And I don't think that they quite understand. Um but you get this nonsense that oh if they take Taiwan we're next. They're not on a global conquest mission and Russia is not either, you know. Um, you know, Russia wanted to don because there are Russians there. And if anybody really looked at the unbiased news, you'll see after 2014 what happened.
 
+### Segment 3 — Um Ukrainians In Odessa Started
+
 Um, Ukrainians in Odessa started dragging Russians off the street, beating them. They chased a whole bunch into the trade union building and set it on fire and burned them alive. That's what started the whole separation movement, you know, and um I mean, as you know, we've had, you know, employees both on both sides in Ukraine.
 
 And um I mean, the Russian side basically even did all the translation of the movies uh that they produced on me for Russian TV. Um, and the two sides would never even talk to each other. I mean, the hatred there is it's just ingrained. Uh, so I don't see a solution there. And the same thing with, you know, Tehran versus Israel.
@@ -94,6 +105,8 @@ And that's what the only reason Trump agreed because he thought it would be over
 
 So they restructured their government. So fine, he killed the Ayatollah. It didn't stop it. >> Yeah. And last time we spoke, you still kind of felt that Trump was a a peace president or at least that deep deep down inside he he he was in favor of peace and he doesn't like war at all because he he worries about uh unnecessary deaths amongst his soldiers and he doesn't like to get letters from from mothers of diseased um army um staff.
 
+### Segment 4 — So Do You Still Hold
+
 So, do you still hold that opinion or given everything that's going on? You >> look, he's trying um if you look, you know, behind the curtain, he is, you know, he definitely tried to back out of Taiwan. Um what he's done with uh Iran is clearly u much more complicated. Iran wants a guarantee that they will not be invaded again. Trump can't get that from Netanyahu.
 
 Netanyahu has already said, "Whatever you do, we're not going to recognize it." Uh, even his opposition is criticizing Netanyahu. Oh, what kind of a peace deal is this? Nothing was achieved. Um so uh they have successfully trapped Trump. Um and you know the embargo is the typical neocon strategy. We put sanctions on Russia that will break them and you know they'll fold.
@@ -112,7 +125,11 @@ So, the real strange thing to me, I'm called in to write a peace plan circumvent
 
 >> Yeah. And it was after Alaska, right? So there was already a a draft agreement in Alaska. Was it much different? >> This was on Ukraine. was much more different that they I put in the full background how the war started, who started it, um everything. So, and I was, you know, like I said, I was told that if it came from me, I guess it it would have more credibility with Putin.
 
-Um because I mean, he knows I mean I I do have three, you know, lines to get into him if I need it. Um, I mean, we've got direct line just about everywhere, but uh it's uh >> because you met Trump in the past, right? Did you also meet Putin in in the past? >> No, I didn't meet Putin. Um, other people, yes, but um u he does know that there was an attempted regime change on Russia back in 2000, which I've refused to participate in.
+Um because I mean, he knows I mean I I do have three, you know, lines to get into him if I need it. Um,
+
+### Segment 5 — I Mean We've Got Direct
+
+I mean, we've got direct line just about everywhere, but uh it's uh >> because you met Trump in the past, right? Did you also meet Putin in in the past? >> No, I didn't meet Putin. Um, other people, yes, but um u he does know that there was an attempted regime change on Russia back in 2000, which I've refused to participate in.
 
 So that's been u I I suppose that's what gives me more credibility. Um because that's fairly well known. Um and even when I was called into that meeting, they said, "You were asked to put in 10 billion for that uh for a regime change and you refused." I said, "Yes, that's correct. I wasn't going to do that."
 
@@ -130,7 +147,11 @@ or the world. All right. Um, and I mean, look, I have clips of Zelensky before h
 
 And I believe that was to hide the fact that he was part of the whole Ukrainian neo-Nazi movement. Um, and so I don't see him I mean the solution is basically to honestly let the Donbos leave. There are Russian people there anyhow. They do not want to be part of Ukraine and Ukraine they hate Russian people. So, I mean, they should be allowed to vote >> internationally, you know, and >> I mean, monitor it, you know, whatever you want, >> but I mean, if you do not do that, I do not see a solution to Ukraine. And what you're
 
-seeing now, my greatest fear, and I have expressed this, and I know that Zelensky has attempted several times to assassinate Putin, he has to know what I know. All right, you take out Putin, he is probably the most uh respectful and conservative Russian there. Okay. You get rid of him and as you were talking about the people behind him would push the button.
+seeing now, my greatest fear, and I have expressed this,
+
+### Segment 6 — And I Know That Zelensky
+
+and I know that Zelensky has attempted several times to assassinate Putin, he has to know what I know. All right, you take out Putin, he is probably the most uh respectful and conservative Russian there. Okay. You get rid of him and as you were talking about the people behind him would push the button.
 
 >> Yeah, I'm afraid so too. Like Metadev, the former president also saying that Europe will no longer sleep peacefully. I mean that's that's a clear >> clear sign that uh Europe really needs to be careful with with how they escalate this war because it could go utterly wrong if if people like Medford come to power.
 
@@ -150,7 +171,11 @@ You know, I mean, >> yes, it's go on welfare. Sit home, watch TV, you know. Um, 
 
 Um >> I don't think they really understand the practicality of some of the things that they're actually telling people. >> No, no, I totally agree. It's pathetic. Um unfortunately, today I have a little bit less time than than our previous uh amazing interviews because I have some family matters to attend to.
 
-But I would love to get your take uh also on on markets in a bit more detail because we talked about gold last time and and you told me uh one of your lessons is that gold is not really a a perfect hedge against inflation. It's more gold the gold price usually rises when there's geopolitical uncertainty in turmo and we've seen it over the years but over the past few months we've seen the opposite.
+But I would love to get your take uh also on on markets in
+
+### Segment 7 — A Bit More Detail Because
+
+a bit more detail because we talked about gold last time and and you told me uh one of your lessons is that gold is not really a a perfect hedge against inflation. It's more gold the gold price usually rises when there's geopolitical uncertainty in turmo and we've seen it over the years but over the past few months we've seen the opposite.
 
 So, could you give your opinion on um on the gold price over the past few months and where do you think it's it's headed also according your to your computer model? >> Well, our computer warned that it would come back down, make a couple months correction. uh and that what you saw was um uh Russia's selling more gold because of the sanctions but also um as you know we have offices also in Dubai and um Iran sent more missiles against Dubai than they did Israel.
 
@@ -168,7 +193,11 @@ uh I Iran has come out and said even if there's some sort of a peace deal that's
 
 They've been planning for this for 20 years. All right. They have one of the largest stockpiles of ballistic missiles than anybody. Um and um my sources say that at best, you know, maybe they, you know, they still have at least 70% left. >> Yeah. And they they've been restocking, of course, during the the >> Yeah, of course.
 
-Uh you know, I just don't see this as fading off into the sunset. Um it's probably going to get more aggressive towards the end of this summer uh going into the fall and then you're looking at the first quarter of 27. Um uh it it's I don't see Netanyahu backing down. He's like like I said about Zillinsky. He could care less about the rest of the world.
+Uh you know, I just don't see this as fading off into the sunset. Um it's probably going to get more aggressive towards the end of this summer uh going into the fall and then you're looking at the first quarter of 27. Um uh it it's I don't see Netanyahu backing down. He's like like I said about Zillinsky. He could care less
+
+### Segment 8 — About The Rest Of The
+
+about the rest of the world.
 
 Um, I got to win this and that's the way it's going to be. Period. Um, and Zelensky is doing the same thing there. Uh, and personally, I think we ought to take the two of them and throw them in a cage and let them fight it out amongst each other, you know. Um, sell tickets on, you know, on YouTube or something. Um, but it's just the way it is.
 
@@ -186,7 +215,11 @@ market. Um even oil is different. Brent crude is different than Texas crude. Um 
 
 So it's not that um gold an inflation if you look at it from the long term. I mean gold went down from 1980 into you know into 19 you know basically for 19 years inflation went up. All right. Right now we have inflation rising and the metals are going up but that's mainly because the inflation is caused by the geopolitical side.
 
-Um so I would expect the metals to go up. Um, our computer shows they don't really peak out until about 2032. Um, so I don't see this as a speculative boom per se, like 1980 or something like that. U that's just going to go up and then straight down, you know. Um, this is more of a global systemic problem. And the other side that we have um that will kick in as the war begins to heat up is what we call a sovereign debt crisis.
+Um so I would expect the metals to go up. Um, our computer shows they don't really peak out until about 2032. Um, so I don't see this as a speculative boom per se, like 1980 or something like that. U that's just going to go up and then straight down, you know. Um, this is more of a global systemic problem.
+
+### Segment 9 — And The Other Side That
+
+And the other side that we have um that will kick in as the war begins to heat up is what we call a sovereign debt crisis.
 
 And as these governments are are are being pushed to the very limit, you have Italy coming out saying the EU should start to issue EU bonds. Um, as you know, I got called in when we were forming the euro and I warned them the euro is not going to compete with the dollar unless you consolidate the debt because the US debt market is the biggest and deepest in the world.
 

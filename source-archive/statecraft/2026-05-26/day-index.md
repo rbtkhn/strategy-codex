@@ -32,14 +32,14 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zTxlWiwI29A) | `source-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zTxlWiwI29A) | `source-alexander-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [y1u4dBt_kg0](https://www.youtube.com/watch?v=y1u4dBt_kg0) | `source-daniel-davis-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [MWdKz8O11iM](https://www.youtube.com/watch?v=MWdKz8O11iM) | `source-daniel-davis-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [XBySNPFepvQ](https://www.youtube.com/watch?v=XBySNPFepvQ) | `source-daniel-davis-us-must-stop-the-siege-of-iran-2026-05-26.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `barnes` | [watch](https://www.youtube.com/watch?v=1eAZc0q6MPs) | `source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima` | [watch](https://www.youtube.com/watch?v=ZcgzWcvRHwU) | `source-dialogue-works-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md` |
 | `dialogue-works` | Dialogue Works | `alkorshid`, `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=suOa4WCxFGc) | `source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md` |
-| `alexander-mercouris` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=yJNkBK4tUtY) | `source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md` |
+| `the-duran` | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=yJNkBK4tUtY) | `source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=dja6dkCfngE) | `source-game-theory-28-predictive-history-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=otyUpKhpTYM) | `source-gb-11-dantes-revolution-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=FspDllFoiDE) | `source-gb-12-dante-in-paradise-2026-05-26.md` |
@@ -70,7 +70,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md`
+- `source-alexander-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md`
 - `source-daniel-davis-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md`
 - `source-daniel-davis-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md`
 - `source-daniel-davis-us-must-stop-the-siege-of-iran-2026-05-26.md`

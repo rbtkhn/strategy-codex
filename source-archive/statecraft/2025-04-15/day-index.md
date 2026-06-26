@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zYpQKccY_es) | `source-alex-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zYpQKccY_es) | `source-alexander-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `macgregor` | [watch](https://youtu.be/gyyciD6K31s) | `source-daniel-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md` |
 | `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=qWanSWG3wDY) | `source-judging-freedom-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md` |
 
@@ -54,6 +54,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md`
+- `source-alexander-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md`
 - `source-daniel-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md`
 - `source-judging-freedom-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md`

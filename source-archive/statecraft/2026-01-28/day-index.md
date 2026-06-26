@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1), `Mercouris` (1)
+- `Alexander Mercouris` (1), `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=DuOP68rBeLc) | `source-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=DuOP68rBeLc) | `source-alexander-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md` |
 | `dialogue-works` | Dialogue Works | `martyanov`, `nima` | [PB6wU2l1wv8](https://www.youtube.com/watch?v=PB6wU2l1wv8) | `source-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md` |
 
 ## Writer sources
@@ -53,6 +53,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md`
+- `source-alexander-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md`
 - `source-crooke-gaza-reconstruction-ukraine-reconstruction-2026-01-28.md`
 - `source-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md`

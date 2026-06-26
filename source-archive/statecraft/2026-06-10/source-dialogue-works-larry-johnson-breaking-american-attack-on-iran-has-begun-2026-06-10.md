@@ -30,8 +30,9 @@ verify_wire_contested: "Islamabad accords dead — Pakistan FM 11 Jun channels o
 transcript_wrapper_tier: clean
 opening_tier: host-tease
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (10 sections)."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+transcript_curation: curated_sectioned
 ---
 # Larry Johnson: BREAKING: The American ATTACK on Iran has BEGUN - Iran's Upscale Retaliation Coming
 
@@ -42,7 +43,10 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 
 ---
 
-## Cleaned Transcript
+## Transcript
+
+
+### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 10th, 2026 and our dear friend here with us. Welcome back.
 >> Well, these are these are dark times and I'm not trying to make light of it, >> but I I'm thinking about resigning in protest. You didn't wear the shirt. You know, usually you're like kicking my ass with your shirt choices, but today you decided to wimp out, to surrender.
@@ -63,7 +67,11 @@ Yeah. They reported some activities of the fighter jet, Iranian fighter jets in 
 What would happen? What would come through these attacks for the United States?
 >> Well, a couple of things come to mind.
 uh the attacks that uh Iran launched last night in response to the US attack must have done some serious damage otherwise if it was if it was light damage and inconsequential I don't think the United States would be responding.
-Now the United States as you notice doesn't talk doesn't actually describe damage that has occurred. Uh so um there's that, but it comes back to the point I was making yesterday on some other shows, which was the the attack yesterday combined with that leak to the New York Times, David Sanger about the negotiations surrounding the nuclear issue. I think all of that, this was all designed to stage to create a narrative so that Trump can now walk away from the peace talks. Um I think over the week it was it was a battle for the mind of Donald Trump over the weekend. Initially there were those who thought he would sign on that there was a deal that uh it would have required some concessions from the United States but uh the Zionists not just BB the Zionists which covers um you know both the Jews that are Zionists and the Christians who are Zionists. um they they mounted a fullcourt press on Donald Trump and um whatever inclinations he previously had to support the agreement that was being hammered out uh in Islamabad uh he decided he's to blow it up and that is exactly what he's doing. This is this is the end of the negotiations, end of the agreement uh until uh this is I think will now spark a sustained escalation.
+Now the United States as you notice doesn't talk doesn't actually describe damage that has occurred. Uh so um there's that, but it comes back to the point I was making yesterday on some other shows, which was the the attack yesterday combined with that leak to the New York Times, David Sanger about the negotiations surrounding the nuclear issue. I think all of that, this was all designed to stage to create a narrative so that Trump can now walk away from the peace talks. Um I think over the week it was it was a battle for the mind of Donald Trump over the weekend. Initially there were those who thought he would sign on that there was a deal that uh it would have required some concessions from the United States but uh the Zionists not just BB the Zionists which covers um you know both the Jews that are Zionists and the Christians who are Zionists. um they they mounted a fullcourt press on Donald Trump and um whatever inclinations he previously had to support the agreement that was being hammered out uh in Islamabad uh he decided he's to blow it up and that is exactly
+
+### Segment 2 — What He's Doing This Is
+
+what he's doing. This is this is the end of the negotiations, end of the agreement uh until uh this is I think will now spark a sustained escalation.
 I think you know Iran Iran hit them last night and then didn't continue. It limited its response. It it had a limited response last night just going after um Bahrain, Kuwait and Jordan, the Moaf Galati air base.
 But uh I would think now in light of what the United States is well publicly I mean they come out and say it in public. Yeah, we're going to hit them hard tonight.
 You it's like what I I don't even begin to understand that that you you know there's no just again there's no justification for this attack. So this is the end of the ceasefire and we'll we'll re we'll return to uh uh we'll return to battles until um until we see at such time that uh the United States will come begging again for uh Pakistan or whoever to see if they could talk Iran into another ceasefire and hopefully from my standpoint Iran tells them to go [ __ ] off.
@@ -81,7 +89,11 @@ Haronoth. Haronoth, I think it is.
 >> Haronoth. Haronoth. idiot are wrong.
 >> Yeah.
 >> Yeah. Um well, if it hey u that'll be um if if that happens and they you know again if if it if it sets the ship on fire if they sink a ship, good lord um you know this is um this is going to really bring the pressure on uh Trump because again he initiated this. They they tried they tried to create I think they absolutely lied about the you know Iran didn't fire on that Apache helicopter.
-Um, so, um, that was used as an excuse, a pretext because if I've said all along, if if the United States was really serious about negotiating with Iran and about ending this through negotiations, um, they would have overlooked even even if Iran had done it. I think it's, you know, one possible scenario is that sh that helicopter shot hit a drone, it exploded. shrapnel from that drone got sucked into the engines of the Apache and that's what caused the helicopter to go down. Uh Trump's explanation that the the the the head of the drone, you know, because it was one of these big ass drones was embedded in the cockpit, you know, that's this is a complete lie, complete fabrication.
+Um, so, um, that was used as an excuse, a pretext because if I've said all along, if if the United States was really serious about negotiating with Iran and about ending this through negotiations, um, they would have overlooked
+
+### Segment 3 — Even Even If Iran Had
+
+even even if Iran had done it. I think it's, you know, one possible scenario is that sh that helicopter shot hit a drone, it exploded. shrapnel from that drone got sucked into the engines of the Apache and that's what caused the helicopter to go down. Uh Trump's explanation that the the the the head of the drone, you know, because it was one of these big ass drones was embedded in the cockpit, you know, that's this is a complete lie, complete fabrication.
 But, you know, the other big news what we're seeing today is we've now got confirmed interceptions of cruise missiles by Iran, something they were not doing uh 12 weeks ago.
 So that's going to and and maybe um the the US saw the deployment of these new systems because I you know I I bet I bet you these are you know they're either Russian or Chinese and uh now Iran has deployed them and maybe that's what the United States is going after to try to destroy and instead the US is losing its cruise missiles which it doesn't have a lot to lose.
 But when it comes, Larry, to that story about Apache helicopter, is it possible for a drone to, you know, to to, you know, to go after a helicopter and hit the helicopter? Is are they >> Well, yeah. I mean, difficult.
@@ -98,7 +110,11 @@ And well, what's what's Oilprice.com doing? Have you looked at that?
 >> Let me check it. But what's so amazing to me?
 >> Hold. What's so amazing to me that today we had the delegation in Iran talking with Iranians trying to make >> what is that Trump waited they waited until the Qataris had left the area right?
 >> Yeah. Yeah. Exactly.
->> They waited till they left and said okay now let's attack them. Um, so this is uh I don't see the other Gulf Arabs, including uh UAE, starting to line up and say, "By God, we're going to have to we're going to stand by the United States." um that this is uh you know I think I think this is headed towards a level of escalation that uh will go on for you know another couple of weeks and then the United States will be begging to stop it which will send a further message that US is much weaker. I mean, for Trump to do this, it darkens and hangs puts a cloud over the World Cup, you know. Um, it it puts uh and plus you got the coming up the Fourth of July celebrations now are less than, you know, three weeks away. Three, four weeks away. Uh, so you see, we got 23 weeks. Yeah. Exactly four weeks away.
+>> They waited till they left and said okay now let's attack them. Um, so this is uh I don't see the other Gulf Arabs, including uh UAE, starting to line up and say, "By God, we're going to have to we're going to stand by the United States." um that this is uh you know I think I think this is headed towards a level of escalation that uh will go on for you know another couple of weeks and then the United States will be begging to stop it which will send a further message that US is much weaker. I mean, for Trump to do this, it darkens and hangs puts a cloud over the World Cup, you know. Um, it it puts uh and plus you got the coming up the Fourth of July celebrations now are less than, you know, three weeks away. Three, four weeks away. Uh, so you see, we got 23 weeks.
+
+### Segment 4 — Yeah Exactly Four Weeks Awa
+
+Yeah. Exactly four weeks away.
 So uh and the United States is going to be embroiled in a war of choice.
 >> Israeli Channel 11 reported that Israel is not involved in the attacks on Iran.
 And this is just amazing that Israel is just putting the United States in the front line on the front line. Then they're they're getting, you know, they're saying that they're not part of this, which we know the whole agenda is Israeli agenda.
@@ -123,7 +139,11 @@ No, it it didn't say who did it.
 Is it night? It's uh >> Yeah, it's at night. It's It's because it's not Yeah. 28 2 a.m. in the morning.
 >> Yeah, it's 2. It's something like Yes.
 Let's me six. Yeah, it's going to be Yeah. 1 1:30 >> 1:30 a.m. It's something like that.
->> Yeah. So, >> Larry, >> go ahead.
+>>
+
+### Segment 5 — Yeah So Larry Go Ah
+
+Yeah. So, >> Larry, >> go ahead.
 >> Israeli media reported that Iran hit the warship with a hypersonic missile.
 >> Uh-huh.
 >> Yeah. It's still unconfirmed. It's still unconfirmed. They're saying that they're still unconfirmed. Israeli media y >> Aronoth. Yeah, >> the name is so difficult to pronounce and I think Larry what has happened last night with when it you know the attack on Sir Island, they attacked two water tankers, the water supply in the sirk island. If the things go in that direction because as we talk a new attack is happening on Bandar bus. If the United States start attacking the oil the water supply in these cities we're going to see the same thing happening with the GCC countries maybe going to Israel. I don't know if the if Iran would hit the salination plants.
@@ -141,7 +161,11 @@ He's going to he's going to be busy with with the fight. I think I don't know.
 They said for hours it's going to be hours less than one day, less than 24 hours. It's going to be two days, three days. How is that going to work? Because if if it lasts more than five or six days, it's going to be full out war.
 >> Is that right?
 >> Yeah. I it is that's how Iran's going to have to look at it. you know, the the Pakistanis are desperately trying to salvage the the the Islamabad Accords, but I I think even now they're realizing that that that's that's not going to happen. Uh I I I I honestly don't know why Iran is even negotiating with the United States because the United States um has been agreement incapable to quote Sergey Lavough.
-So what I you know I think the next time the United States comes begging Iran to for a ceasefire and to you know sit down at the negotiating table I think Iran should say okay you got to do two things. You got to lift the sanctions immediately unfreeze our assets. Then we'll sit down and talk. You got to show something in good faith that you are serious cuz we've been through your [ __ ] now for 3 months and you're not a serious country.
+So what I you know I think the next time the United States comes begging Iran to for a ceasefire and to you know sit down at the negotiating table I think Iran should say okay you got to do two things. You got to lift the sanctions immediately unfreeze our assets. Then we'll sit down and talk. You got to show something in good faith that you are serious cuz we've been through your [ __ ] now for 3 months and
+
+### Segment 6 — You're Not A Serious Country
+
+you're not a serious country.
 I mean, they've had repeated agreements that they thought were ready to go and then Trump walks away from it.
 >> Yeah. Here is the footage of Here's footage of F14 Tomcat active in Isvan.
 And it seems that they're getting in the sky to take care of the drones. I don't maybe or maybe fighter jets. Are they going to get to the borders to fight?
@@ -162,7 +186,11 @@ It was Iranian oil. He's he's been helping fund Iran.
 That's the other thing about this. It does. It makes no sense.
 So, uh what what we're looking at here is that this uh if this escalation continues and if if if Iran now engages in the complete tit for tat United States hits, Iran hits. If the US hits again, then Iran hits again. And if the US responds, Iran hits again. and and and it and it will focus its targets on key military infrastructure as well as uh you know if if they they could go after the the water source now in Israel as as a response for what they did on campil because Israel was involved with some of those attacks.
 So, you know, I I'll be I'd be fascinated to watch what the Iranian military is going to do in response.
->> When Beirut was attacked, Doy was attacked, the Iranian National Security and Foreign Policy Commission spokesperson Ibrahim Razi, he said the moment the attack happened, he said tonight we're going to attack Israel.
+>> When Beirut was attacked, Doy was attacked, the Iranian National Security and
+
+### Segment 7 — Foreign Policy Commission Spokesperson Ibrahim
+
+Foreign Policy Commission spokesperson Ibrahim Razi, he said the moment the attack happened, he said tonight we're going to attack Israel.
 And I remember when I did my video, I went live and I said, "Maybe Iran is not going to respond. Maybe Yemen going to respond to that attack because nothing happened. It was an empty building." >> Yeah. Yeah.
 >> And today he tweeted again. And he said during the 40-day war the extent of Iran's territorial waters increase and in the next war perhaps the extent of Iran's land will increase is basically my opinion talking about >> Kuwait and Bahrain. Yeah >> and Bahrain could be part of that because these two states are so fragile.
 They're so you know the situation is so critical in these two states in Bahrain majority Shia and they're against the government in quu the same way they're so connected to Iraqi people they were part of Iraq they feel right now more >> Iran that effort could actually be to return Kuwait to Iraq and and again you look look back don't mean to get us off topic but if we go back to the start of the war, you know, the first Gulf War against Saddam in 1990.
@@ -177,7 +205,11 @@ Because it was written that it that was the the ship that it was hit of the coas
 >> Yeah.
 >> I'm sorry. Like You should get this story. Larry, what's the story behind this sort of allegation on the part of Trump that millions of barrels of oil were stolen from Iran and which he later on the US energy secretary Chris Wright told a congressional hearing earlier today that he's not aware of that the he's not aware that the United States has taken millions of barrels of oil out of Iran as the president as President Trump reported it had. What is that?
 He's making things up or he's serious or he's feeling that he did it.
->> Well, remember in the early days of the war, Trump lifted restrictions, sanctions on Iranian oil. Remember that?
+>> Well, remember in
+
+### Segment 8 — The Early Days Of The
+
+the early days of the war, Trump lifted restrictions, sanctions on Iranian oil. Remember that?
 >> No.
 >> Why? So Iran could sell oil, put some oil out there on the high seas to try to keep the world from collapsing and having a major crisis. That's all he's talking about. you know that somebody somebody's fed him a story and he believes it. He really does. He doesn't know what's going on.
 >> The new report shows that in the last 20 minutes there were no attacks or strikes on Iran and it seems that the first round of attacks somehow was concluded. Let's see if they're attacking again. But Larry, the region, you know, something strange has happened within, you know, during the fight between Iran and Israel before United States attacking Iran, which was an attack on Saudi Arabia.
@@ -198,7 +230,11 @@ Yeah, breaking news. Iran's Ambia Central Command announced the full closure of 
 Every single movement through this straight will be targeted.
 So, this is the full closure of the Strait of Hormuz.
 >> Yep.
->> I think we're getting back to the initial days of the second round of war.
+>> I think we're getting back to the initial
+
+### Segment 9 — Days Of The Second Round
+
+days of the second round of war.
 >> Mhm. And we're going to see the price of oil just going up.
 >> Yeah, it should. It should uh Yeah, I mean Brent uh the price of Brent should really be well over a 100 instead. It's it's 93 right now. Um but uh West Texas Intermediate is up now to So they're about 92 $93 a piece. That's right now.
 So, we'll see what happens in the coming hours. You're right. It should go up significantly.
@@ -213,7 +249,11 @@ And so, he's now picked the fight with two of the patrons.
 And there's this big guy sitting over on a stool who's not in the fight. He's just watching.
 And so, Israel's busy trying to fight these other two, turns to the guy and go, "Hey, your mother's a whore." guy gets up and comes over and starts that that's what they're doing to Turkey. They are deliberately provoking the the largest army in that area, much larger than uh Israel. Uh and it's, you know, because it's tied to NATO and and here's Israel basically threatening to attack a NATO country. They've lost their minds. The these Zionists are out of control.
 And you know, like a rabbid dog, you know, so there's um there's only one cure for a rabid dog, and it's uh let's not put it in the kennel and feed it more uh hamburger meat.
->> I think it's serious, Larry. Iran hit the warship because the attack has just stopped. There may be there could be something happening. That's why they stopped the attack because it said it it's going to take hours and hours of attacks and they were preparing for that. Right now they stopped attacking Iran. Maybe >> well we'll see. I maybe they you know it's paused. Uh the the tankers have to return to base, get refilled so they can take off and then be available to refuel u the aircraft. But and and we haven't yet seen Iran's response. Okay. So Iran's going to respond within the next I would say next hour maybe less or they should now they it's true that during this they weren't sitting on their hands they were actively shooting and you know if it's true that they hit a warship if if the United States is stupid enough to put a destroyer close enough to shore that one of the hypersonic missiles could hit it you know lesson learn let's hopefully hope they learned a lesson no guarantee, but that it will be um you know, it's a wakeup call or a reminder that you know, Iran's not a weak thing.
+>> I think it's serious, Larry. Iran hit the warship because the attack has just stopped. There may be there could be something happening. That's why they stopped the attack because it said it it's going to take hours and hours of attacks and they were preparing for that. Right now they stopped attacking Iran. Maybe >> well we'll see. I maybe they you know it's paused. Uh the the tankers have to return to base, get refilled so they can take off and then be available to refuel u the aircraft. But and and we haven't yet seen Iran's response. Okay. So Iran's going to respond within the next I would say next hour maybe less or they should now they it's true that during this they weren't sitting on their hands they were actively shooting and you know if it's true that they hit a warship if if the United States is stupid enough to put a destroyer close enough to shore that one of the hypersonic missiles could hit it you know lesson learn let's
+
+### Segment 10 — Hopefully Hope They Learned A
+
+hopefully hope they learned a lesson no guarantee, but that it will be um you know, it's a wakeup call or a reminder that you know, Iran's not a weak thing.
 Iran's got a lot of options.
 >> Did you watch the interview that the president of Lebanon had on CNN with Christian Mur?
 >> No, I didn't see that.
