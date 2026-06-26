@@ -1,6 +1,6 @@
 ﻿# Self-memory audit (multi-dimension)
 
-**Canonical template:** [memory-template.md](memory-template.md) Â· **Path:** `memory.md` Â· **Authority:** [AGENTS.md](../AGENTS.md) (MEMORY is not the Record).
+**Canonical template:** [memory-template.md](memory-template.md) Â· **Path:** `memory.md` Â· **Authority:** [AGENTS.md](../../AGENTS.md) (MEMORY is not the Record).
 
 Use **one row per dimension** in the summary table. Each dimension is a separate lens so a clean score on one axis does not hide failure on another.
 

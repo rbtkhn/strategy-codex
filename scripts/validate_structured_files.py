@@ -163,12 +163,22 @@ def validate_pre_commit_yaml(repo_root: Path = REPO_ROOT) -> str | None:
     return None
 
 
+def _read_markdown_lines(path: Path) -> list[str]:
+    raw = path.read_bytes()
+    if raw.startswith(b"\xff\xfe") or raw.startswith(b"\xfe\xff"):
+        return raw.decode("utf-16").splitlines()
+    try:
+        return raw.decode("utf-8").splitlines()
+    except UnicodeDecodeError:
+        return raw.decode("cp1252", errors="replace").splitlines()
+
+
 def iter_markdown_links(path: Path) -> Iterator[tuple[int, str]]:
     """
     Yield (1-based line number, raw link target) for inline [text](target) links,
     excluding fenced code blocks and image links. Does not filter protocols — caller does.
     """
-    lines = path.read_text(encoding="utf-8").splitlines()
+    lines = _read_markdown_lines(path)
     out_lines: list[tuple[int, str]] = []
     in_fence = False
     for i, line in enumerate(lines, start=1):
