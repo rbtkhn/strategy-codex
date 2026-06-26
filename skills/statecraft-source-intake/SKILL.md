@@ -259,7 +259,7 @@ Structured-field law:
         - Dialogue Works / Nima Alkhorshid — `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>`
      - Preview any step with `--dry-run` on that script.
      3. **Optional source-clean (ASR / proper-noun pass):** When YouTube or operator-paste noise blocks search or study, run **`source-clean`** — `python scripts/source_clean_statecraft.py --path <landed-file>` (or `--dry-run` first). Orchestrates scaffold + ph-civ tiers + entity pass + thread tiers + provenance patch. SSOT: [`source-clean`](../source-clean/SKILL.md). Not synthesis; not wire-verify.
-     4. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. **Wire-verify:** run the **five-lane CIV-STATE sweep** per [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **America · Persia · PRC · Russia · Rome** (cite or **`-absent`** per lane) — not English-only wires. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
+     4. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. **News-verify:** run the **five-lane CIV-STATE sweep** per [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **America · Persia · PRC · Russia · Rome** (cite or **`-absent`** per lane) — not English-only wires. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
      5. **Optional source-section (solo / interview study headings):** When `source_form: solo` or `source_form: interview` and the operator wants Title Case `### … — …` navigation headings (not first-pass land), run **`source-section`** after optional **`source-clean`**. Pin a per-source section map (anchors + titles); set `transcript_curation: curated_sectioned`. SSOT: [`source-section`](../source-section/SKILL.md). Not synthesis; not automatic on every intake.
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
@@ -539,6 +539,7 @@ python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM
 
 ### Napolitano / Judging Freedom
 
+- **Filename:** `source-judging-freedom-<guest>-*` — align with `channel_slug: judging-freedom` (not `source-napolitano-*`).
 - Keep the substantive interview transcript.
 - Classify each landed capture with `opening_tier` in frontmatter:
   - `full-scaffold` — ideological cold open and/or sponsor read still present before guest depth (pre-trim or entangled promo only; repair should drive toward `host-tease` or `clean`)
@@ -570,12 +571,13 @@ python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM
   - Tag refresh only: `--tag-only`
 - **Residual verify** (before commit on repair sweeps):
   - Expect **0** transcript bodies with ideological cold-open text and **0** routine close-promo tails unless the operator explicitly retained a named file.
-  - Quick check: grep `source-archive/statecraft/**/source-napolitano-*.md` for `Undeclared wars are commonplace`, `on Monday we will have our usual lineup`, or `All the best. Coming up`; reconcile any hit against trim flags / editorial retain notes.
+  - Quick check: grep `source-archive/statecraft/**/source-judging-freedom-*.md` for `Undeclared wars are commonplace`, `on Monday we will have our usual lineup`, or `All the best. Coming up`; reconcile any hit against trim flags / editorial retain notes.
   - One-line receipt: `<N> scanned · <clean> clean · <residuals> named or none`
 - Receipt fields when trim applies: `napolitano_cold_open_trim_applied`, `napolitano_sponsor_trim_applied`, `napolitano_close_promo_trim_applied`, optional `napolitano_leading_noise_trim_applied`, plus concise `editorial_note` lines (no contradictory “retained” + “trimmed” wording).
 
 ### Mario Nawfal / International Affairs
 
+- **Filename:** `source-mario-nawfal-<guest>-*` — align with `channel_slug: mario-nawfal` (not short `source-nawfal-*`).
 - Classify each landed capture with `opening_tier` in frontmatter:
   - `heavy-banter` — rapport, schedule jokes, Lisa/producer/audio fixes, return-from-trip filler before guest depth
   - `host-monologue` — short pleasantries then a long Mario news/deal setup before the guest's first sustained mechanism block
@@ -626,7 +628,7 @@ python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM
 ### Nima / Dialogue Works
 
 - Prefer `source-dialogue-works-<guest>-*` when Nima Alkorshid **hosts** on Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`). Legacy `source-dialogue-works-*` / `source-dialogue-works-*` are read-compat only — do not create new captures under those prefixes.
-- When Nima is **guest** on another channel: `source-nawfal-alkorshid-*` (Mario Nawfal) or `source-daniel-davis-alkorshid-*` (Daniel Davis). **Do not** land cross-host captures as `source-dialogue-works-*` when `channel_slug` is not `dialogue-works`.
+- When Nima is **guest** on another channel: `source-mario-nawfal-alkorshid-*` (Mario Nawfal) or `source-daniel-davis-alkorshid-*` (Daniel Davis). **Do not** land cross-host captures as `source-dialogue-works-*` when `channel_slug` is not `dialogue-works`.
 - Person thread on all appearances: **`alkorshid`** (plus guest thread). `thread:nima` is legacy compat; `expert_id: nima` remains MCQ/EOD compat only (host appendix may link full disambiguation law).
 - Resolve by host/show identity first, not by guest fame or topic overlap.
 - Classify each landed capture with `opening_tier` in frontmatter:
@@ -657,6 +659,7 @@ python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM
 
 ### Tucker Carlson / outside-host support lanes
 
+- **Filename:** `source-tucker-carlson-<guest>-*` — align with `channel_slug: tucker-carlson` (not guest-first `source-<guest>-carlson-*`).
 - Treat Tucker captures as real archive objects when the operator has supplied a full transcript-bearing interview or a clearly anchored full-source mirror.
 - Keep the host/show context explicit:
   - `show_title: Tucker Carlson`

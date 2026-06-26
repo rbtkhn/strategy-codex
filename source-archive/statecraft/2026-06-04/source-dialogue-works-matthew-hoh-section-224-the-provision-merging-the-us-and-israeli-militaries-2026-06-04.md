@@ -21,7 +21,7 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 34 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md
 verify:
   - claim: Lebanon pseudo-agreement Jun 4 excludes Hezbollah from construction
     verdict: supported

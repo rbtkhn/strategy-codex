@@ -29,7 +29,7 @@ editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entit
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 davis_close_promo_trim_applied: true
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-news-verify-matrix.md
 verify:
   - claim: Ceasefire-for-all-or-none grammar incl Lebanon resistance link
     verdict: partial

@@ -836,6 +836,8 @@ _(Append below this line.)_
 - **2026-06-23 23:58 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-24 14:43 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-24 14:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=statecraft-wire
-- **2026-06-24 14:48 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=f2a06af2c loops=ph-civ-drift next=archive-index-or-ph-civ-slice object_ref=statecraft/notes/wire/2026-06-23-wire-verify-matrix.md falsify=origin-main-matches-f2a06af2c
+- **2026-06-24 14:48 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=f2a06af2c loops=ph-civ-drift next=archive-index-or-ph-civ-slice object_ref=statecraft/notes/wire/2026-06-23-news-verify-matrix.md falsify=origin-main-matches-f2a06af2c
 - **2026-06-24 14:50 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=archive-intake-jun23-24
 - **2026-06-24 23:50 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-25 15:46 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-06-25 23:36 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown

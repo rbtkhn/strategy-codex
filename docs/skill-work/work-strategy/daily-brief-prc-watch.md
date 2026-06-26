@@ -2,7 +2,7 @@
 
 **Purpose:** Standing **operator WORK** slice for the daily brief: **Beijing's public lines and visible PRC state activity** (party-state leadership, **MFA**, major ministries when relevant) in a **rolling 48-hour** window (not Record truth, not Voice knowledge).
 
-**Wire-verify SSOT:** Per-lane source tables for **`wire verify`** triangulation live in [WIRE-VERIFY-CIV-STATE-SOURCES.md](WIRE-VERIFY-CIV-STATE-SOURCES.md#china-lane-prc) (PRC neutral lane); this watch is the **48h scan** companion, not a duplicate registry.
+**News-verify SSOT:** Per-lane source tables for **`wire verify`** triangulation live in [WIRE-VERIFY-CIV-STATE-SOURCES.md](WIRE-VERIFY-CIV-STATE-SOURCES.md#china-lane-prc) (PRC neutral lane); this watch is the **48h scan** companion, not a duplicate registry.
 
 **When:** When the operator explicitly requests the **daily brief** or a **daily-brief refresh** in the [coffee skill](../../../.cursor/skills/coffee/SKILL.md) ecosystem (legacy **hey** still works): run the **web scan**, then write the **compact block** (bullets + URLs) into **section 1g** (`## 1g. PRC - last 48 hours (People's Republic of China)`) **in the daily brief file** after `generate_work_politics_daily_brief.py` (or when refreshing an existing today's file). Step 1 **coffee** does **not** run this scan automatically.
 

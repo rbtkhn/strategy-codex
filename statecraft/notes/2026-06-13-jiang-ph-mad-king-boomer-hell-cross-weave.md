@@ -7,11 +7,11 @@ WORK only; not Record.
 - [The Loneliness of Mad King Trump (2026-05-23)](../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md)
 - [Welcome to Boomer Hell (2026-06-13)](../../source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md)
 
-**Wire receipts:** [PH Boomer Hell matrix](statecraft/notes/wire/2026-06-13-ph-boomer-hell-wire-verify-matrix.md) (J13-PH-1–9) · **Downstream archive:** [2026-06-13 daily](statecraft/synthesis/day/2026-06-13.md) · [Jun 14 cross-day overlay](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
+**Wire receipts:** [PH Boomer Hell matrix](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md) (J13-PH-1–9) · **Downstream archive:** [2026-06-13 daily](statecraft/synthesis/day/2026-06-13.md) · [Jun 14 cross-day overlay](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
 
 **Bounded question:** What **carries** from Jiang’s May “Mad King” purge essay to the June “Boomer Hell” generational essay — and what is **new** — without treating PH Substack as Iran/Lebanon wire authority?
 
-**Scope rule:** PH = **America legitimacy / generational-delusion overlay**. Iran MOU judgment stays on [Jun 13–14 transcript batch](statecraft/synthesis/day/2026-06-13.md) + [J14 matrix](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md).
+**Scope rule:** PH = **America legitimacy / generational-delusion overlay**. Iran MOU judgment stays on [Jun 13–14 transcript batch](statecraft/synthesis/day/2026-06-13.md) + [J14 matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md).
 
 ---
 
@@ -80,7 +80,7 @@ Both essays carry near-identical Massie copy ($30M · Zionist billionaires · Ga
 
 ## May 23 wire receipts (Mad King — J23-PH)
 
-Full matrix: [PH wire-verify](statecraft/notes/wire/2026-06-13-ph-boomer-hell-wire-verify-matrix.md#may-23-essay-hooks-j23-ph-1--j23-ph-4)
+Full matrix: [PH wire-verify](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md#may-23-essay-hooks-j23-ph-1--j23-ph-4)
 
 | ID | Claim | Verdict |
 | --- | --- | --- |
@@ -121,6 +121,6 @@ Full matrix: [PH wire-verify](statecraft/notes/wire/2026-06-13-ph-boomer-hell-wi
 ## Companion links
 
 - [2026-06-13 daily](statecraft/synthesis/day/2026-06-13.md)
-- [PH wire matrix](statecraft/notes/wire/2026-06-13-ph-boomer-hell-wire-verify-matrix.md)
+- [PH wire matrix](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md)
 - [Jun 14 Boomer Hell overlay §](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
 - [May 23 Mad King archive](../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md) · **J23-PH-1–4** verify tails on `source_note`

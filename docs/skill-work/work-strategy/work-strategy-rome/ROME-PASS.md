@@ -16,7 +16,7 @@
 
 ## Source order (default)
 
-**Wire-verify SSOT:** Per-lane outlet tables (Holy See primaries + **Italian / Spanish / French / Portuguese** overhearing) — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Rome](../WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state). Use **`wire verify`** receipts when folding papal hooks into archive or daily synthesis.
+**News-verify SSOT:** Per-lane outlet tables (Holy See primaries + **Italian / Spanish / French / Portuguese** overhearing) — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Rome](../WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state). Use **`wire verify`** receipts when folding papal hooks into archive or daily synthesis.
 
 1. **Primary** — [press.vatican.va](https://press.vatican.va) Bollettino · [vatican.va](https://www.vatican.va) Holy Father / **documented** **audience** **texts** **(language** **as** **published).**
 2. **Wire** **cross-check** — **Vatican** **News** **(match** **speech** **language)** **/** **Reuters** **/** **AP** **(for** **dating** **and** **context);** **attribute** **quotes** **to** **published** **page** **or** **wire.**

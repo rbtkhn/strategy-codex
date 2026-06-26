@@ -25,13 +25,13 @@ source_note: "Operator-pasted transcript; Davis solo breaking-news monologue; pu
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 capture_note: Operator paste; full solo program body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Wire-verify header pass 2026-06-19.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. News-verify header pass 2026-06-19.
 transcript_wrapper_tier: clean
 verify_receipt: 2026-06-19
 verify:
   - claim: Israel–Hezbollah ceasefire agreed; effective 16:00 Lebanon local Fri 19 Jun
     verdict: supported
-    note: AP Jun 19 · Reuters/US official via Ynet · cross-ref [J19-4 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)
+    note: AP Jun 19 · Reuters/US official via Ynet · cross-ref [J19-4 matrix](../../../statecraft/notes/wire/2026-06-19-news-verify-matrix.md)
   - claim: US lifted naval blockade on Iranian ports (18 Jun CENTCOM)
     verdict: supported
     note: Al Jazeera CENTCOM Jun 18 · Military Times · cross-ref J19-6

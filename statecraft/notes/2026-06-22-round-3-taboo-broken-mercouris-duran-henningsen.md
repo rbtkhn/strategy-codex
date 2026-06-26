@@ -10,8 +10,8 @@ WORK only; not Record.
 - [Mercouris solo — *Neocons Iran Rage* / Geraghty defeat](../../source-archive/statecraft/2026-06-22/source-alex-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md) (`W1ahOFuZju4`)
 - [Henningsen × Davis — *Why Iran Talks Will Fail*](../../source-archive/statecraft/2026-06-22/source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md) (`7ZNxxHp6UKE`)
 - [Pape / Escalation Trap — *Power, Not Just Money*](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) (Substack)
-- [Sachs × Napolitano / Judging Freedom — *Why Iran Can't Trust Trump*](../../source-archive/statecraft/2026-06-22/source-napolitano-sachs-why-iran-cant-trust-trump-2026-06-22.md) (`OcCt3MuWS0E`)
-- [Crooke × Napolitano / Judging Freedom — *An Irreversible Blow to Israel*](../../source-archive/statecraft/2026-06-22/source-napolitano-crooke-an-irreversible-blow-to-israel-2026-06-22.md) (`enmsuDrZdqw`)
+- [Sachs × Napolitano / Judging Freedom — *Why Iran Can't Trust Trump*](../../source-archive/statecraft/2026-06-22/source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md) (`OcCt3MuWS0E`)
+- [Crooke × Napolitano / Judging Freedom — *An Irreversible Blow to Israel*](../../source-archive/statecraft/2026-06-22/source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md) (`enmsuDrZdqw`)
 
 ## Purpose
 
@@ -313,5 +313,5 @@ R3-3 semantic collapse — talks continue in form, fail in substance (Minsk cloc
 ## Best next moves
 
 1. **`wire-verify`** — R3-1–R3-8 (**R3-5:** Pape southern-Lebanon ops + Henningsen delink + Crooke casualty fork; **R3-3** / **R3-8** as linked).
-2. Link from [Jun 22 wire matrix](wire/2026-06-22-wire-verify-matrix.md) when spawned.
+2. Link from [Jun 22 wire matrix](wire/2026-06-22-news-verify-matrix.md) when spawned.
 3. **Week hinge** — *power-frame + taboo + revenge + Minsk* line into `2026-06-week4-start-here.md`.

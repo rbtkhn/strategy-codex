@@ -57,8 +57,8 @@ def test_build_delta_block_reports_changes() -> None:
         current_day=parse_iso_date("2026-06-16"),
         prior_grades=prior,
         current_grades=current,
-        prior_source="2026-06-14-wire-verify-matrix.md",
-        current_source="2026-06-16-wire-verify-matrix.md",
+        prior_source="2026-06-14-news-verify-matrix.md",
+        current_source="2026-06-16-news-verify-matrix.md",
     )
     assert "## Situation Brief — changes since 2026-06-14" in block
     assert "**J14-1** | Contradicted | Supported | changed" in block
@@ -68,8 +68,8 @@ def test_build_delta_block_reports_changes() -> None:
 
 def test_live_repo_matrix_pair() -> None:
     daily_dir = REPO_ROOT / "statecraft" / "daily"
-    prior_path = daily_dir / "2026-06-14-wire-verify-matrix.md"
-    today_path = daily_dir / "2026-06-16-wire-verify-matrix.md"
+    prior_path = daily_dir / "2026-06-14-news-verify-matrix.md"
+    today_path = daily_dir / "2026-06-16-news-verify-matrix.md"
     if not prior_path.is_file() or not today_path.is_file():
         return
     prior = parse_fork_grades(prior_path.read_text(encoding="utf-8"), prior_path.name)

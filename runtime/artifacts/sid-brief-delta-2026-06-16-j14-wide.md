@@ -1,6 +1,6 @@
 ## Situation Brief — changes since 2026-06-14
 
-**SID Brief delta** · current day `2026-06-16` · prior `2026-06-14-wire-verify-matrix.md` -> current `2026-06-16-wire-verify-matrix.md`
+**SID Brief delta** · current day `2026-06-16` · prior `2026-06-14-news-verify-matrix.md` -> current `2026-06-16-news-verify-matrix.md`
 
 *Governed brief with source receipts and explicit falsifiers — not a wire summary.*
 

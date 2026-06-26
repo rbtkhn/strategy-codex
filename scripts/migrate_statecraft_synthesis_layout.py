@@ -28,7 +28,7 @@ LINK_REWRITE_PATH = REPO_ROOT / "runtime" / "artifacts" / "statecraft-synthesis-
 
 DAY_SYNTH_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.md$")
 MONTH_SYNTH_RE = re.compile(r"^\d{4}-\d{2}\.md$")
-WIRE_RE = re.compile(r"-wire-verify-matrix\.md$")
+WIRE_RE = re.compile(r"-news-verify-matrix\.md$")
 WATCH_RE = re.compile(r"-72h-watch-run\.md$")
 WEEK_HINGE_RE = re.compile(r"-week\d+-start-here\.md$")
 INTAKE_READY_RE = re.compile(r"-intake-readiness\.md$")
@@ -268,7 +268,7 @@ def write_synthesis_readme(old_readme: Path) -> None:
         "## Adjacent notes (not synthesis)\n\n"
         "| Subfolder | Class |\n"
         "| --- | --- |\n"
-        "| [`notes/wire/`](../notes/wire/) | Wire-verify matrices |\n"
+        "| [`notes/wire/`](../notes/wire/) | News-verify matrices |\n"
         "| [`notes/watch/`](../notes/watch/) | 72h watch runs |\n"
         "| [`notes/reentry/`](../notes/reentry/) | Week hinges |\n"
         "| [`notes/intake/`](../notes/intake/) | Intake readiness / digest |\n\n"

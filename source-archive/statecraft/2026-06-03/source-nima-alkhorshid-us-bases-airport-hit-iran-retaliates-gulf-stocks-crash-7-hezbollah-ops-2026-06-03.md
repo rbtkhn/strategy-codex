@@ -24,7 +24,7 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md
 verify:
   - claim: Bombing while talking - ceasefire claim vs live Gulf strikes Jun 3
     verdict: supported

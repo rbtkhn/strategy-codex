@@ -8,7 +8,7 @@ WORK only; not Record.
 
 - [Marandi / Dialogue Works (Sun 14)](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md)
 - [Sachs / Glenn Diesen (Mon 15)](../../source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md)
-- [Sachs / Judging Freedom (Mon 15)](../../source-archive/statecraft/2026-06-15/source-napolitano-sachs-netanyahu-vs-trump-2026-06-15.md)
+- [Sachs / Judging Freedom (Mon 15)](../../source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md)
 
 ## Purpose
 
@@ -130,7 +130,7 @@ Sun 14–Mon 15 arc: Marandi names the **close** (~2.5h) and **diplomatic upside
 
 - **Parent daily** `2026-06-15.md`: use for **Marandi cross-day** + **Sachs dual-register** rows in speaker-value table.
 - **Pair with** [Johnson × Davis skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) — Johnson/Davis ask *whether* paper binds; Marandi/Sachs ask *who wins the accounting* if it does or doesn’t.
-- **Wire-verify:** Lebanon halt, SNSC/Mehr vs US text, asset release — falsifier table above.
+- **News-verify:** Lebanon halt, SNSC/Mehr vs US text, asset release — falsifier table above.
 - **Persia bridge:** Marandi = recognition/blame floor; Sachs Napolitano = economic warfare + own-money return as anti-humiliation partial.
 
 ## Attribution discipline

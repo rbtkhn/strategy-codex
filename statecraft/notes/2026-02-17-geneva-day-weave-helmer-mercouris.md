@@ -3,7 +3,7 @@ WORK only; not Record.
 # Feb 17 2026 — Geneva day weave (Helmer × Mercouris)
 
 **Pub date:** 2026-02-17  
-**Parent:** [Helmer source index](../voices/helmer/helmer-source-index.md) · [Mercouris Feb 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-02.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · [Wire verify matrix](../notes/wire/2026-02-17-wire-verify-matrix.md)
+**Parent:** [Helmer source index](../voices/helmer/helmer-source-index.md) · [Mercouris Feb 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-02.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · [Wire verify matrix](../notes/wire/2026-02-17-news-verify-matrix.md)
 
 **Sources:**
 
@@ -68,7 +68,7 @@ Same-day **Geneva 2026 opening** — route by register:
 - [Iran bench weave — Marandi × Mearsheimer × Helmer coda](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md)
 - [Freeman × Mearsheimer — Kabuki vs empire (Geneva week)](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md)
 - [Freeman × Diesen — U.S. restoring empire / war on Eurasia](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md)
-- [Mearsheimer × Napolitano — Trump boxed on Iran](../../source-archive/statecraft/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
+- [Mearsheimer × Napolitano — Trump boxed on Iran](../../source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
 - [Marandi × Dialogue Works — Hormuz](../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md)
 
 ## Cross-day return

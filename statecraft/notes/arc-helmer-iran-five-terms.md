@@ -176,7 +176,7 @@ Cross-week compression — **~2-week US exit clock** (Mar 17, week ~3) meets **f
 - **Mar 17** — Trump **Mar 31** exit bet; **Bessent ~14-day** oil runway; **Hormuz gatekeeper** (escort failed); **Mojtaba terms preview**; **Netanyahu not-in-command**; **Ravid fiction** vs **Dmitriev Miami**
 - **Mar 24** — **Clock miss**; **five terms** named; **Witkoff indirect** fiction; **FT ~$600M** market layer; **dual Hormuz**
 
-**Mar 31 adjudication (calendar close):** Helmer **~Mar 31 negotiated-exit** bet **fails** — Trump **drops Hormuz reopening** rather than pay Iran's terms; see [2026-03-31 daily](../synthesis/day/2026-03-31.md) · [**J17-C3** supported (miss)](../notes/wire/2026-03-17-wire-verify-matrix.md).
+**Mar 31 adjudication (calendar close):** Helmer **~Mar 31 negotiated-exit** bet **fails** — Trump **drops Hormuz reopening** rather than pay Iran's terms; see [2026-03-31 daily](../synthesis/day/2026-03-31.md) · [**J17-C3** supported (miss)](../notes/wire/2026-03-17-news-verify-matrix.md).
 
 ## Russia/China two-track (Mar 3→24 slice)
 
@@ -190,8 +190,8 @@ How Moscow/Beijing **two-track** reads evolve from **opening-week attrition** to
 - [Helmer Dmitriev arc](./arc-helmer-dmitriev-lane.md) — **Feb 3 §** Witkoff pre-poisoned / Miami fund / **Cooper demand**
 - [Mar 17 bench weave](./2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md) — same-day **Mercouris/Crooke/Napolitano**
 - [Feb 3 regional wedge](./2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) — Turkey/Kurd/Gulf **pre-war**
-- [Mar 24 wire matrix](../notes/wire/2026-03-24-wire-verify-matrix.md) — **J24-*** hooks
-- [Mar 3 wire matrix](../notes/wire/2026-03-03-wire-verify-matrix.md) — **J03-*** hooks
+- [Mar 24 wire matrix](../notes/wire/2026-03-24-news-verify-matrix.md) — **J24-*** hooks
+- [Mar 3 wire matrix](../notes/wire/2026-03-03-news-verify-matrix.md) — **J03-*** hooks
 
 ## Falsifiers
 

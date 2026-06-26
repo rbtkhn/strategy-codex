@@ -24,13 +24,13 @@ source_note: Operator-pasted YouTube transcript; Davis solo Saturday 20 Jun 2026
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 capture_note: Operator paste; full solo program body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Wire-verify header pass 2026-06-20.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. News-verify header pass 2026-06-20.
 transcript_wrapper_tier: clean
 verify_receipt: 2026-06-20
 verify:
   - claim: IRGC Khatam al-Anbiya declares Strait of Hormuz closed to vessel traffic (MOU Art. 1 breach)
     verdict: supported
-    note: BBC Jun 20 · Euractiv · JPost/Mehr · cross-ref [J20-1 matrix](../../../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md)
+    note: BBC Jun 20 · Euractiv · JPost/Mehr · cross-ref [J20-1 matrix](../../../statecraft/notes/wire/2026-06-20-news-verify-matrix.md)
   - claim: FM Baghaei — closure reports unfounded; navigation continues
     verdict: supported
     note: Firstpost · Baku.ws MFA carry · cross-ref J20-2 · verify:denial-duel-contested

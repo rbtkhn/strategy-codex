@@ -37,7 +37,7 @@ Same path family: `statecraft/synthesis/day/YYYY-MM-DD.md`. Two explicit tiers:
 
 ### News-verify ↔ synthesis gate
 
-Full daily synthesis on day **D** requires `statecraft/notes/wire/D-wire-verify-matrix.md` or `verify_gate: waived` in the daily header. The matrix is the **daily tier-3 fact ledger**; synthesis cites **J{D}-*** hooks and does not upgrade verdicts. Register-tier dailies may link matrix as **OPEN** or carry a prior-day matrix with explicit stale note. SSOT: [NEWS-VERIFY-SYNTHESIS-GATE.md](NEWS-VERIFY-SYNTHESIS-GATE.md).
+Full daily synthesis on day **D** requires `statecraft/notes/wire/D-news-verify-matrix.md` or `verify_gate: waived` in the daily header. The matrix is the **daily tier-3 fact ledger**; synthesis cites **J{D}-*** hooks and does not upgrade verdicts. Register-tier dailies may link matrix as **OPEN** or carry a prior-day matrix with explicit stale note. SSOT: [NEWS-VERIFY-SYNTHESIS-GATE.md](NEWS-VERIFY-SYNTHESIS-GATE.md).
 
 **Intake digest (precursor):** An [intake digest](intake-digest-TEMPLATE.md) ranks queue-eligible sources before the daily note exists. It is **not** a substitute for daily synthesis — use [statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md) and `statecraft_intake_queue.py --write-digest`.
 
@@ -200,7 +200,7 @@ Activation: operator says **`week hinge`** or **`start-here`** + month/week.
 3. **If you only read three things** — **3–5 links** (default 3; heavy wire weeks → 5).
 4. **Read by question** — small routing table.
 5. **Day ladder** — hinge days with synthesis only (not full chronology).
-6. **Statecraft note map** — bounded compares; wire-verify matrix links where batch closes in this month-week.
+6. **Statecraft note map** — bounded compares; news-verify matrix links where batch closes in this month-week.
 7. **Unspent paths** — falsifier table; **link active watch sheet** when trap/fuse week.
 8. **Next intake** — latest intake-readiness or expected batch.
 9. **Prior week carry** — 3–5 bullets from finalized `weekN-1` unspent paths + link (omit for week1).
@@ -212,7 +212,7 @@ Activation: operator says **`week hinge`** or **`start-here`** + month/week.
 - Must point **down** to dailies; do not duplicate daily executive reads verbatim.
 - **Partial refresh:** refresh **replaces** sections in place; header holds `partial through` + optional one-line **last refresh** note (date + what changed).
 - **Sparse month-week:** no hinge file if zero daily syntheses in partition range; month note records `weekN: no daily floor`.
-- **Wire-verify matrices** stay tier-3 receipts—link in note map, do not rewrite as week judgment.
+- **News-verify matrices** stay tier-3 receipts—link in note map, do not rewrite as week judgment.
 
 **Triggers:** month-week close (finalize) or object migrates within month-week (refresh same file) or operator invocation.
 

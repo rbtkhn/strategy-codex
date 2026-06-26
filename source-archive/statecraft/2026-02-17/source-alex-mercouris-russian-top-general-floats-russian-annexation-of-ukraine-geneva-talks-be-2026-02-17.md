@@ -8,7 +8,7 @@ source_url: "https://www.youtube.com/watch?v=8PGeNwFTTwc"
 title: "Russian Top General Floats Russian Annexation Of Ukraine; Geneva Talks Begin; Konstantinovka Falling"
 show: Mercouris
 host: Alexander Mercouris
-editorial_note: Solo; Geneva tripartite + parallel Iran talks as theater; Witkoff/Kushner/Dmitriev economic working party off plenary; Anchorage formula mystery; Ryabkov/Lavrov red lines unchanged; Medinsky/Galuzin hardening; Kartapolov (TASS) full annexation float; Konstantinovka turning point; F-16 retired NATO pilots; Patriot depletion — verify:J17-M3-supported J17-M4-supported J17-M5-supported J17-M6-partial J17-G1-supported J17-G2-supported (see 2026-02-17-wire-verify-matrix.md).
+editorial_note: Solo; Geneva tripartite + parallel Iran talks as theater; Witkoff/Kushner/Dmitriev economic working party off plenary; Anchorage formula mystery; Ryabkov/Lavrov red lines unchanged; Medinsky/Galuzin hardening; Kartapolov (TASS) full annexation float; Konstantinovka turning point; F-16 retired NATO pilots; Patriot depletion — verify:J17-M3-supported J17-M4-supported J17-M5-supported J17-M6-partial J17-G1-supported J17-G2-supported (see 2026-02-17-news-verify-matrix.md).
 opening_tier: host-tease
 ---
 

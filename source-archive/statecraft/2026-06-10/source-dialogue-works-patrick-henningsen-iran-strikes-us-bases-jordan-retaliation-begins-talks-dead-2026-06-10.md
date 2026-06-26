@@ -24,10 +24,10 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=WusN5OkSwfg"
 youtube_id: WusN5OkSwfg
-source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Routing — Dahieh→Israel→Apache pretext; Sirik/Jask water tanks; Jordan/Bahrain/Kuwait 21-target response; Ramat David; Trump flip-flop; normative-power Iran red lines; Ben Gurion target bank; Aoun flip; Lebanon civil-war playbook; Qatar/GCC dollar exposure; Erdogan talk vs action; same-day companion Diesen×Henningsen hOL1Hb2gdLI; 2026-06-10 cluster. · ASR pass 2026-06-15. · verify:wire-supported J10-1,J10-2,J10-3,J10-4 · verify:wire-partial J10-5 · matrix statecraft/notes/wire/2026-06-10-wire-verify-matrix.md"
+source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Routing — Dahieh→Israel→Apache pretext; Sirik/Jask water tanks; Jordan/Bahrain/Kuwait 21-target response; Ramat David; Trump flip-flop; normative-power Iran red lines; Ben Gurion target bank; Aoun flip; Lebanon civil-war playbook; Qatar/GCC dollar exposure; Erdogan talk vs action; same-day companion Diesen×Henningsen hOL1Hb2gdLI; 2026-06-10 cluster. · ASR pass 2026-06-15. · verify:wire-supported J10-1,J10-2,J10-3,J10-4 · verify:wire-partial J10-5 · matrix statecraft/notes/wire/2026-06-10-news-verify-matrix.md"
 evidence_grade: transcript-bearing
-verify_wire_supported_partial: "Ramat David — IDF 7–8 Jun minor damage; fragment vs direct hit under investigation. statecraft/notes/2026-06-08-09-wire-verify-matrix.md#s12"
-verify_wire_contested: "F-35 refuel over Saudi — Kan/TOI regional country blocked Israel airspace recent Iran strikes. statecraft/notes/2026-06-08-09-wire-verify-matrix.md#s13"
+verify_wire_supported_partial: "Ramat David — IDF 7–8 Jun minor damage; fragment vs direct hit under investigation. statecraft/notes/2026-06-08-09-news-verify-matrix.md#s12"
+verify_wire_contested: "F-35 refuel over Saudi — Kan/TOI regional country blocked Israel airspace recent Iran strikes. statecraft/notes/2026-06-08-09-news-verify-matrix.md#s13"
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 dialogue_works_close_substack_trim_applied: true

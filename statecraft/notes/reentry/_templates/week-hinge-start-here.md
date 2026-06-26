@@ -47,7 +47,7 @@ One entry point for re-entering month-week N of YYYY-MM. Open before the day lad
 
 ## Statecraft note map
 
-<!-- bounded compares; wire-verify matrix if batch closes this month-week -->
+<!-- bounded compares; news-verify matrix if batch closes this month-week -->
 
 - 
 

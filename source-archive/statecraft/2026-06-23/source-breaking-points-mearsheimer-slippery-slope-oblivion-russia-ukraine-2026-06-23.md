@@ -34,7 +34,7 @@ quality_note: Fresh intake 2026-06-24.
 breaking_points_close_promo_trim_applied: true
 
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-23-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-23-news-verify-matrix.md
 verify:
   - claim: G7 Trump said Russia losing more soldiers than Ukraine; Moscow offensive party
     verdict: supported

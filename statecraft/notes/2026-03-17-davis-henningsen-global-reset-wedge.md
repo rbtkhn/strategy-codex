@@ -96,4 +96,4 @@ Route by voice:
 ## Links
 
 - [Mar 17 day-index](../../source-archive/statecraft/2026-03-17/day-index.md)
-- [Mar 3 wire matrix](../notes/wire/2026-03-03-wire-verify-matrix.md) — escort fork **J03-C4**
+- [Mar 3 wire matrix](../notes/wire/2026-03-03-news-verify-matrix.md) — escort fork **J03-C4**

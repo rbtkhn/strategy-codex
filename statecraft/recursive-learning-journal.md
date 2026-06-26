@@ -2319,7 +2319,7 @@ Routing: [connectivity-rome](../public/civ-state/volumes/rome/theory/connectivit
 
 ---
 
-## 2026-06-19 - Wire-verify header-only path (archive YAML receipts)
+## 2026-06-19 - News-verify header-only path (archive YAML receipts)
 
 **Tag:** `j18-mou-wire-verify-harness-2026-06-19`  
 **Cross-link:** [Rome six-term routing / harness stall](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) — same Windows parallel-read failure mode; this entry **narrows** to **landed statecraft archive wire-verify**, not civ-state volume reads.
@@ -2330,7 +2330,7 @@ J18 MOU falsifier wiring (**#1, #4–6**) stalled **three times** (~224–342s):
 
 ### Extracted law
 
-**Wire-verify on landed captures = header-only edit path.**
+**News-verify on landed captures = header-only edit path.**
 
 ```text
 tier falsifiers in convergence note / daily (primary SSOT)
@@ -2384,7 +2384,7 @@ Routing: [june-18-2026-mou-convergence.md](./notes/june-18-2026-mou-convergence.
 ## 2026-06-18 - Cold-thread lane entry (bounded Read, no parallel warmup)
 
 **Tag:** `cold-thread-lane-entry-harness-2026-06-18`  
-**Cross-link:** [Rome six-term routing / harness stall](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) · [Wire-verify header-only path](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts) — same Windows parallel-tool failure family; this entry **narrows** to **cold-thread territory activation** (`civ-state`, `recursive-learn`), not civ-state volume reads or archive wire-verify.
+**Cross-link:** [Rome six-term routing / harness stall](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) · [News-verify header-only path](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts) — same Windows parallel-tool failure family; this entry **narrows** to **cold-thread territory activation** (`civ-state`, `recursive-learn`), not civ-state volume reads or archive wire-verify.
 
 ### Trigger
 
@@ -3413,12 +3413,12 @@ Routing: [statecraft/synthesis/day/README.md](../statecraft/synthesis/day/README
 
 ## 2026-06-20 - MOU Hormuz dual-grammar wire-verify + user-rules parallel precedence
 
-**Tag:** `hormuz-dual-grammar-j20` · `wire-verify-matrix-daily-couple` · `user-rules-workspace-precedence` · `verify-yaml-header-receipts`  
+**Tag:** `hormuz-dual-grammar-j20` · `news-verify-matrix-daily-couple` · `user-rules-workspace-precedence` · `verify-yaml-header-receipts`  
 **Cross-link:** [§ post-success parallel relapse (2026-06-19)](#2026-06-19---post-success-parallel-relapse--wire-verify-dual-profile) · [§ wire-verify header-only (2026-06-19)](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts) · [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ opening-week daily shelf (2026-06-20)](#2026-06-20--opening-week-daily-shelf-registersynthesis-ladder--triple-nav) — **narrows** Jun 20 Iran fuse; does not replace base wire-verify or parallel-ban law.
 
 ### Trigger
 
-Operator menu-drove **Jun 20 six-source close** after Mercouris source-clean (`13f9bbfe9`): daily synthesis → wire-verify matrix (16 hooks, 5/5 CIV-STATE) → daily Executive Read spine table → archive `verify:` YAML on Davis/Johnson/Aguilar. Session also surfaced **global Cursor User Rules** (“batch independent tool calls in parallel”) **conflicting** with strategy-codex **one Shell / no parallel file tools** on Windows; operator received draft User Rules replacement blocks. **Git commit attempt** for verify slice hung ~32m (interrupted) — cross-link agent git handoff law.
+Operator menu-drove **Jun 20 six-source close** after Mercouris source-clean (`13f9bbfe9`): daily synthesis → news-verify matrix (16 hooks, 5/5 CIV-STATE) → daily Executive Read spine table → archive `verify:` YAML on Davis/Johnson/Aguilar. Session also surfaced **global Cursor User Rules** (“batch independent tool calls in parallel”) **conflicting** with strategy-codex **one Shell / no parallel file tools** on Windows; operator received draft User Rules replacement blocks. **Git commit attempt** for verify slice hung ~32m (interrupted) — cross-link agent git handoff law.
 
 ### Extracted law
 
@@ -3435,11 +3435,11 @@ Tokens: verify:denial-duel-contested · verify:dual-lane-contested
 Lebanon halt fork mirrors: political cease-fire directive (Supported) vs same-day strikes (Partial/Contested) — J20-7/9/10.
 ```
 
-**2. Wire-verify ship chain on same-week MOU seams**
+**2. News-verify ship chain on same-week MOU seams**
 
 ```text
 state synthesis (falsifiers named)
-  → wire-verify matrix (J20-* hooks + lane sweep)
+  → news-verify matrix (J20-* hooks + lane sweep)
   → daily Executive Read spine table (mirror Jun 19)
   → optional archive verify: YAML (header only; cross-ref matrix)
 Matrix may follow synthesis; daily spine couples after matrix lands.
@@ -3469,7 +3469,7 @@ Cross-link civ-state essay git handoff (2026-06-19); PowerShell uses ; not hered
 
 - **Next MOU/Lebanon/Hormuz day** with IRGC + MFA lines: run attribution duel subroutine; preserve contested mesh in daily falsifiers until physical-closure row resolves.
 - **Pre-synthesis gate:** wire-verify batch before promoting Hormuz/Lebanon claims into notebook Judgment.
-- **Archive receipts:** patch `verify:` + `verify_receipt:` only in frontmatter; link `../../../statecraft/synthesis/day/YYYY-MM-DD-wire-verify-matrix.md`.
+- **Archive receipts:** patch `verify:` + `verify_receipt:` only in frontmatter; link `../../../statecraft/synthesis/day/YYYY-MM-DD-news-verify-matrix.md`.
 - **New Cursor threads on this repo:** paste workspace-aligned User Rules block; do not rely on generic “batch parallel tools” alone.
 - **Jun 20 verify YAML slice:** commit as bounded slice when operator picks — separate from unrelated statecraft WIP dailies.
 
@@ -3478,7 +3478,7 @@ Cross-link civ-state essay git handoff (2026-06-19); PowerShell uses ; not hered
 | Ship | Receipt |
 |------|---------|
 | Mercouris source-clean | `13f9bbfe9` |
-| Daily synthesis + wire matrix | `bcd93e049` — `2026-06-20.md` + `2026-06-20-wire-verify-matrix.md` |
+| Daily synthesis + wire matrix | `bcd93e049` — `2026-06-20.md` + `2026-06-20-news-verify-matrix.md` |
 | Archive verify: YAML (3 captures) | **local WIP** at append — Davis/Johnson/Aguilar header pass 2026-06-20 |
 | User Rules draft | operator paste (Cursor Settings) — not repo file |
 
@@ -3504,7 +3504,7 @@ couple matrix → daily spine → archive verify: so contested tiers survive syn
 Workspace harness beats generic parallel User Rules on EXECUTE.
 ```
 
-Routing: [2026-06-20 wire matrix](../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md) · [2026-06-20 daily](../statecraft/synthesis/day/2026-06-20.md) · [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts)
+Routing: [2026-06-20 wire matrix](../statecraft/notes/wire/2026-06-20-news-verify-matrix.md) · [2026-06-20 daily](../statecraft/synthesis/day/2026-06-20.md) · [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts)
 
 **Pattern promotion:** defer until second distinct MOU week reuses J20 dual-grammar rows without new law beyond (1)(2).
 
@@ -3670,3 +3670,100 @@ AI risk register was the right negative control.
 Routing: [civ-state-note SKILL v0.1.0](../.cursor/skills/civ-state-note/SKILL.md) · [state-note SKILL v0.1.0](../.cursor/skills/state-note/SKILL.md) · [risk-artificial-intelligence.md](../statecraft/notes/risk-artificial-intelligence.md) · [notes README § Artificial intelligence cluster](../statecraft/notes/README.md)
 
 **Pattern promotion:** defer until second distinct object misroutes risk-register → civ-state-note without new law beyond (1).
+
+---
+
+## 2026-06-25 - channel_slug-first archive filename law (interview lands)
+
+**Tag:** `channel-slug-filename` · `filenaming-verify` · `judging-freedom` · `mario-nawfal` · `tucker-carlson` · `backfill-channel-slug-filenames`  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows** to mass-rename link sweep; does not replace base parallel-ban law.
+
+### Trigger
+
+June 24 day-index filenaming verify treated `source-napolitano-*`, `source-nawfal-*`, and `source-{guest}-carlson-*` as acceptable “family norms” because frontmatter `channel_slug` was already correct. Operator corrected three times: channel identity belongs in the **filename slug** (`judging-freedom`, `mario-nawfal`, `tucker-carlson`), not host shorthand or guest-first Tucker slugs. Fix landed June 24 (10/10), then repo-wide backfill via `scripts/backfill_channel_slug_filenames.py` — **266** archive renames, **410** inbound link updates, master + day-index rebuild, post-land family globs + intake SKILL canon. Follow-up: **4** legacy YAML `channel_slug` values patched to `judging-freedom` (Freeman ×3, Blumenthal ×1).
+
+### Extracted law
+
+**1. channel_slug-first filename law (statecraft interview lands)**
+
+```text
+source-* archive filename prefix segment after source- MUST match channel_slug
+  when channel_slug is the authoritative show/channel object.
+
+Canonical:
+  judging-freedom  → source-judging-freedom-{guest}-*
+  mario-nawfal     → source-mario-nawfal-{guest}-*
+  tucker-carlson   → source-tucker-carlson-{guest}-*
+
+Wrong (even when frontmatter channel_slug is correct):
+  source-napolitano-*      (host thread, not channel)
+  source-nawfal-*          (short host, not channel_slug)
+  source-{guest}-carlson-* (guest fame, not channel)
+
+thread / thread_expert / host_people stay in YAML — not encoded as filename shortcut.
+```
+
+**2. Filenaming verify anti-pattern**
+
+```text
+Day-index verify ≠ "disk matches index" only.
+Pass requires: basename slug ↔ channel_slug alignment per family table.
+Do not cite corpus drift ("223 files use napolitano") as norm when operator has named channel_slug.
+```
+
+**3. Batch rename recipe (Windows EXECUTE)**
+
+```text
+Dry-run collect (YAML channel_slug gate + legacy slug allowlist)
+→ git mv (fallback shutil.move + git add for untracked)
+→ link sweep from git diff --name-status -M (longest basename first)
+→ raw_input_master_index.py --apply
+→ build_statecraft_day_indices.py --year {years touched}
+→ update post-land globs (source-judging-freedom-*, source-mario-nawfal-*)
+→ one Shell per phase; no parallel StrReplace storms on 400+ files
+```
+
+### Reapplication
+
+- **New intake lands:** land as `source-{channel_slug}-{guest}-*` from day one; intake SKILL § Napolitano / Nawfal / Tucker documents this.
+- **Day-index / filenaming audit:** fail any row where File column slug ≠ `channel_slug`.
+- **Post-land normalizers:** match on `channel_slug` + `source-judging-freedom-*` / `source-mario-nawfal-*` globs.
+- **Panel / cross-channel:** skip rename when `channel_slug` absent or wrong class (e.g. `source-kiriakou-carlson-*` panel — no `tucker-carlson`).
+- **Second channel family drift:** reuse `backfill_channel_slug_filenames.py --dry-run` before hand-editing.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| `scripts/backfill_channel_slug_filenames.py` | **New** — dry-run / apply / links-only; legacy slug allowlist |
+| Archive renames | **266** `git mv` (napolitano→judging-freedom, nawfal→mario-nawfal, guest-carlson→tucker-carlson-{guest}) |
+| Inbound links | **410** files updated |
+| Generated indexes | `source-archive-master-index.{md,json}` + **17** day-indices rebuilt |
+| Post-land scripts | `normalize_napolitano_*`, `normalize_nawfal_*`, `land_statecraft_intake.py`, alkorshid audit |
+| Intake SKILL | Filename canon for three families |
+| YAML cleanup | **4** lands: `channel_slug` → `judging-freedom` |
+| **Local status** | **Not committed** at append time |
+
+### Guardrail
+
+```text
+Do not treat host shorthand or guest fame as filename norm when channel_slug is named;
+Do not report filenaming "all OK" from index↔disk parity alone;
+Do not batch-rename panel/cross-channel captures without channel_slug gate;
+Do not leave post-land globs on source-napolitano-* / source-nawfal-* after backfill;
+Do not duplicate intake filename law in RLJ without cross-link — wire lives in statecraft-source-intake SKILL.
+```
+
+**Falsification:** If intake lands a cross-host guest capture (Nima on Nawfal → `source-mario-nawfal-alkorshid-*`), guest-in-slug still holds; channel_slug wins over guest fame in the first segment.
+
+### Current lesson
+
+```text
+channel_slug is the filename spine for interview lands —
+host thread and guest fame belong in YAML, not as a substitute slug segment.
+```
+
+Routing: [statecraft-source-intake SKILL](../skills/statecraft-source-intake/SKILL.md) · [backfill_channel_slug_filenames.py](../scripts/backfill_channel_slug_filenames.py) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+
+**Pattern promotion:** defer until second distinct channel family audit reuses backfill script without new law beyond (1)(2).
+

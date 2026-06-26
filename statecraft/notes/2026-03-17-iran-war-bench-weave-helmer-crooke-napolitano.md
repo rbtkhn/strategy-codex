@@ -11,10 +11,10 @@ WORK only; not Record.
 | --- | --- | --- | --- |
 | **Helmer** (Moscow / clock / coalition) | [Helmer × Nima — Trump Furious as Allies Reject U.S. Plan to Escort Ships in Hormuz](../../source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | https://www.youtube.com/watch?v=yD13qVxL73I | **full operator transcript** |
 | **Crooke** (asymmetric / regional psychology) | [Crooke × Nima — Iran Was Ready for This War…](../../source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | https://www.youtube.com/watch?v=bfZMcqICySg | **full transcript** |
-| **Freeman** (diplomacy dead / China / Hormuz land-block) | [Freeman × Napolitano — Will China Dump Trump?](../../source-archive/statecraft/2026-03-17/source-napolitano-freeman-will-china-dump-trump-2026-03-17.md) | https://www.youtube.com/watch?v=cmRk47ySaps | full |
-| **Hoh** (domestic legitimacy / empire) | [Hoh × Napolitano — Trump Believes His Own Propaganda!](../../source-archive/statecraft/2026-03-17/source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md) | https://www.youtube.com/watch?v=OtAj89I_yjw | full |
-| **Maté** (Kushner–Witkoff / Israel lane) | [Maté × Napolitano — Is Kushner Netanyahu's Agent?](../../source-archive/statecraft/2026-03-17/source-napolitano-mate-is-kushner-netanyahus-agent-2026-03-17.md) | https://www.youtube.com/watch?v=Uwz0eR4THnc | full |
-| **Ritter** (law-of-war / targeting) | [Ritter × Napolitano — Could US Officials Face War Crime Charges?](../../source-archive/statecraft/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | https://www.youtube.com/watch?v=-49oaeHDMH4 | full |
+| **Freeman** (diplomacy dead / China / Hormuz land-block) | [Freeman × Napolitano — Will China Dump Trump?](../../source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md) | https://www.youtube.com/watch?v=cmRk47ySaps | full |
+| **Hoh** (domestic legitimacy / empire) | [Hoh × Napolitano — Trump Believes His Own Propaganda!](../../source-archive/statecraft/2026-03-17/source-judging-freedom-hoh-trump-believes-his-own-propaganda-2026-03-17.md) | https://www.youtube.com/watch?v=OtAj89I_yjw | full |
+| **Maté** (Kushner–Witkoff / Israel lane) | [Maté × Napolitano — Is Kushner Netanyahu's Agent?](../../source-archive/statecraft/2026-03-17/source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md) | https://www.youtube.com/watch?v=Uwz0eR4THnc | full |
+| **Ritter** (law-of-war / targeting) | [Ritter × Napolitano — Could US Officials Face War Crime Charges?](../../source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | https://www.youtube.com/watch?v=-49oaeHDMH4 | full |
 | **Parsi** (Larijani assassination logic) | [Parsi — Why was Larijani targeted?](../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md) | Substack | newsletter |
 | **Mercouris** (institutional solo) | [Mercouris — US Mulls Iran Ground Invasion… Larijani Dead](../../source-archive/statecraft/2026-03-17/source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md) | https://www.youtube.com/watch?v=kcd_Y41tPFI | **full yt-dlp manual subs** (~49 KB; tri-line deduped) |
 
@@ -156,7 +156,7 @@ Same-day **week ~3 hinge** — coalition failure, **Larijani** kill, **Hormuz ga
 
 ## Links
 
-- [Mar 17 daily synthesis](../synthesis/day/2026-03-17.md) · [Wire verify matrix](../notes/wire/2026-03-17-wire-verify-matrix.md) — **J17-*** hooks
+- [Mar 17 daily synthesis](../synthesis/day/2026-03-17.md) · [Wire verify matrix](../notes/wire/2026-03-17-news-verify-matrix.md) — **J17-*** hooks
 - [Mar 17 day-index](../../source-archive/statecraft/2026-03-17/day-index.md)
 - [Helmer Mar 17→Mar 24 two-week-clock arc](./arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice)
 - [Dmitriev arc](../notes/arc-helmer-dmitriev-lane.md)

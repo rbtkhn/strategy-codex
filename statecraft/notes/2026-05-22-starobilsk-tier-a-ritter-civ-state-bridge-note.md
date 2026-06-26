@@ -24,7 +24,7 @@ Preserve one **bounded wire + CIV-STATE object** from the Ritter *Trail of Tears
 - [public/civ-state/volumes/russia/sacred-grammar.md](../../public/civ-state/volumes/russia/sacred-grammar.md) — suffering / witness legitimation without automatic territorial warrant
 - [public/civ-state/theory/memory.md](../../public/civ-state/theory/memory.md) — humiliation memory and continuity claims under occupation stress
 
-**Wire pre-pass:** Capture-header rows on [Ritter archive](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) (`verify_receipt: 2026-06-21`); operator **`verify:tier-A`** on terror-attribution row; **not** merged into [2026-06-19 wire matrix](../notes/wire/2026-06-19-wire-verify-matrix.md) (MOU-week hooks only).
+**Wire pre-pass:** Capture-header rows on [Ritter archive](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) (`verify_receipt: 2026-06-21`); operator **`verify:tier-A`** on terror-attribution row; **not** merged into [2026-06-19 wire matrix](../notes/wire/2026-06-19-news-verify-matrix.md) (MOU-week hooks only).
 
 ## Core claim
 

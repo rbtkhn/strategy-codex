@@ -33,7 +33,7 @@ quality_note: Fresh intake 2026-06-23.
 transcript_wrapper_tier: clean
 
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-23-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-23-news-verify-matrix.md
 verify:
   - claim: US Patriot inventory strain / NYT shortage after Iran war
     verdict: supported

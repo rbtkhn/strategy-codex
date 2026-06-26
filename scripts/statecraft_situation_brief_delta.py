@@ -132,12 +132,12 @@ def parse_fork_grades(text: str, source: str) -> dict[str, ForkGrade]:
 
 def wire_matrix_for_day(wire_dir: Path, day: date) -> Path | None:
     day_str = day.isoformat()
-    exact = wire_dir / f"{day_str}-wire-verify-matrix.md"
+    exact = wire_dir / f"{day_str}-news-verify-matrix.md"
     if exact.is_file():
         return exact
     candidates = sorted(
         p
-        for p in wire_dir.glob(f"{day_str}*-wire-verify-matrix.md")
+        for p in wire_dir.glob(f"{day_str}*-news-verify-matrix.md")
         if p.is_file()
     )
     return candidates[-1] if candidates else None
@@ -303,7 +303,7 @@ def resolve_inputs(
         today_file = wire_matrix_for_day(wire_dir, current_day)
         if today_file is None:
             raise FileNotFoundError(
-                f"no wire-verify matrix for {current_day.isoformat()} under {wire_dir}"
+                f"no news-verify matrix for {current_day.isoformat()} under {wire_dir}"
             )
 
     if prior_path is not None:
@@ -322,13 +322,13 @@ def resolve_inputs(
         prior_file = wire_matrix_for_day(wire_dir, resolved_prior_day)
         if prior_file is None:
             raise FileNotFoundError(
-                f"no wire-verify matrix for prior day {resolved_prior_day.isoformat()}"
+                f"no news-verify matrix for prior day {resolved_prior_day.isoformat()}"
             )
     else:
         found = prior_day_with_matrix(wire_dir, current_day)
         if found is None:
             raise FileNotFoundError(
-                f"no prior wire-verify matrix within lookback before {current_day.isoformat()}"
+                f"no prior news-verify matrix within lookback before {current_day.isoformat()}"
             )
         resolved_prior_day, prior_file = found
 
@@ -343,7 +343,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--wire-dir",
         type=Path,
         default=DEFAULT_WIRE_DIR,
-        help=f"wire-verify matrix directory (default: {DEFAULT_WIRE_DIR})",
+        help=f"news-verify matrix directory (default: {DEFAULT_WIRE_DIR})",
     )
     parser.add_argument(
         "--daily-dir",

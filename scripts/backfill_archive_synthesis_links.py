@@ -11,7 +11,7 @@ ARCHIVE_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 
 RULES = [
     (
-        re.compile(r"statecraft/daily/(\d{4}-\d{2}-\d{2}-wire-verify-matrix\.md)"),
+        re.compile(r"statecraft/daily/(\d{4}-\d{2}-\d{2}-news-verify-matrix\.md)"),
         r"statecraft/notes/wire/\1",
     ),
     (

@@ -6,10 +6,10 @@ WORK only; not Record.
 
 | Lane | Archive | YouTube |
 | --- | --- | --- |
-| **Iran 14-point + Axios live** | [Nawfal × Weichert](../../source-archive/statecraft/2026-06-16/source-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md) | [V7OY8cLGyjs](https://www.youtube.com/watch?v=V7OY8cLGyjs) |
+| **Iran 14-point + Axios live** | [Nawfal × Weichert](../../source-archive/statecraft/2026-06-16/source-mario-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md) | [V7OY8cLGyjs](https://www.youtube.com/watch?v=V7OY8cLGyjs) |
 | **Al Arabiya host read** | [Redacted × Weichert](../../source-archive/statecraft/2026-06-16/source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md) | [LnwU2nk2byE](https://www.youtube.com/watch?v=LnwU2nk2byE) |
 
-**Wire registry:** [2026-06-16-wire-verify-matrix.md](statecraft/notes/wire/2026-06-16-wire-verify-matrix.md) · **Not signed MOU** — Geneva **19 Jun** escalates all rows.
+**Wire registry:** [2026-06-16-news-verify-matrix.md](statecraft/notes/wire/2026-06-16-news-verify-matrix.md) · **Not signed MOU** — Geneva **19 Jun** escalates all rows.
 
 ## Clause comparison
 
@@ -35,4 +35,4 @@ WORK only; not Record.
 ## Return paths
 
 - Wire: **J16-W1** (Nawfal) · **J16-RW3** (Redacted Al Arabiya)  
-- Cross-ref: [2026-06-14-wire-verify-matrix](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md) J14-7 · J14-12 · J14-14
+- Cross-ref: [2026-06-14-news-verify-matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md) J14-7 · J14-12 · J14-14

@@ -2,15 +2,15 @@ WORK only; not Record.
 
 # Washington Talks × Venue Fork — J19-13 — Freeman × Weichert × Parsi — 2026-06-19
 
-**Archive batch:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) (11 captures) · **Parent:** [2026-06-19 daily](statecraft/synthesis/day/2026-06-19.md) · **Wire matrix:** [2026-06-19](statecraft/notes/wire/2026-06-19-wire-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun)
+**Archive batch:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) (11 captures) · **Parent:** [2026-06-19 daily](statecraft/synthesis/day/2026-06-19.md) · **Wire matrix:** [2026-06-19](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun)
 
-**Prior spine:** [Jun 17 wire matrix — ceremony fork](statecraft/notes/wire/2026-06-17-wire-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold) · [Jun 19 Lebanon enforcement child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) · [Jun 17 Lebanon × Art. 1 (Pape × Parsi)](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
+**Prior spine:** [Jun 17 wire matrix — ceremony fork](statecraft/notes/wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold) · [Jun 19 Lebanon enforcement child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) · [Jun 17 Lebanon × Art. 1 (Pape × Parsi)](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
 
 **Sources (Jun 19 — venue / pressure lane):**
 
 - [Freeman — Israel agenda collapse / Washington vs Geneva](../../source-archive/statecraft/2026-06-19/source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md)
-- [Weichert — WaPo sabotage / Washington talks carry](../../source-archive/statecraft/2026-06-19/source-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md)
-- [Parsi — Bennett rival / diametric US–Israel interests](../../source-archive/statecraft/2026-06-19/source-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md)
+- [Weichert — WaPo sabotage / Washington talks carry](../../source-archive/statecraft/2026-06-19/source-mario-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md)
+- [Parsi — Bennett rival / diametric US–Israel interests](../../source-archive/statecraft/2026-06-19/source-mario-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md)
 
 ## Bounded question
 
@@ -111,7 +111,7 @@ Do **not** merge: **postponement ≠ cancellation ≠ Washington pivot ≠ MOU b
 ## Cross-links (load-bearing)
 
 - **Lebanon enforcement** — [child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md): **J19-3** and **J19-5** gate whether Iran **accepts any venue**
-- **Ceremony fork resolution** — [matrix § J19-15](statecraft/notes/wire/2026-06-19-wire-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun): Fri 19 Jun branch **closed**; **reschedule date open**
+- **Ceremony fork resolution** — [matrix § J19-15](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun): Fri 19 Jun branch **closed**; **reschedule date open**
 - **Asset tranche** — **J19-12 partial**: Trump *"no money"* vs transfer rumor — **parallel** to venue (perform-first), not identical
 
 ---
@@ -129,9 +129,9 @@ Do **not** merge: **postponement ≠ cancellation ≠ Washington pivot ≠ MOU b
 
 ## Return paths
 
-- [Jun 19 wire matrix — ceremony / J19-13 escalate](statecraft/notes/wire/2026-06-19-wire-verify-matrix.md#escalate)
+- [Jun 19 wire matrix — ceremony / J19-13 escalate](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#escalate)
 - [Jun 19 Lebanon enforcement child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md)
-- [Jun 17 ceremony fork SSOT](statecraft/notes/wire/2026-06-17-wire-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
+- [Jun 17 ceremony fork SSOT](statecraft/notes/wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
 - [Parent daily — Washington pressure §3](statecraft/synthesis/day/2026-06-19.md#3-washington-pressure-campaign--rhetoric-vs-third-party-veto)
 
 ## Source anchors

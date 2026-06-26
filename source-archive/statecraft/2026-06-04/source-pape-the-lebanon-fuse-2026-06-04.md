@@ -15,7 +15,7 @@ slug: the-lebanon-fuse
 author: Prof Robert Pape
 capture_note: Operator paste; public Substack body preserved verbatim. Same-day companion to Dialogue Works interview capture; escalation-trap / horizontal-escalation frame for Lebanon gate.
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md
 verify:
   - claim: Lebanon fuse - horizontal escalation can reignite full Iran war
     verdict: partial

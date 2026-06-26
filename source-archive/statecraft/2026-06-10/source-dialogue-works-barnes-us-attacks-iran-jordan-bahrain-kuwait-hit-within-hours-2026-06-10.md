@@ -24,7 +24,7 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=PFZb3MWFY4w"
 youtube_id: PFZb3MWFY4w
-source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Routing — Apache pretext/accident cover; Vance deal lane vs Trump rug-pull; Israel lobby Fox fear; Sirik water supply AI targeting; Qatar money cutout; inflation 4.2% May; exit not deal; Islamic NATO; Lebanon Hezbollah divide strategy; same-week 2026-06-10 Barnes triple with Napolitano + Davis. · ASR pass 2026-06-15. · verify:wire-supported J10-1,J10-2,J10-3 · matrix statecraft/notes/wire/2026-06-10-wire-verify-matrix.md"
+source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Routing — Apache pretext/accident cover; Vance deal lane vs Trump rug-pull; Israel lobby Fox fear; Sirik water supply AI targeting; Qatar money cutout; inflation 4.2% May; exit not deal; Islamic NATO; Lebanon Hezbollah divide strategy; same-week 2026-06-10 Barnes triple with Napolitano + Davis. · ASR pass 2026-06-15. · verify:wire-supported J10-1,J10-2,J10-3 · matrix statecraft/notes/wire/2026-06-10-news-verify-matrix.md"
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 transcript_wrapper_tier: clean

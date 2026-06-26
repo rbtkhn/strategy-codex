@@ -10,7 +10,7 @@ WORK only; not Record.
 
 - [Pape / Stage IV Begins — Substack](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md)
 - [Pape / Breaking Points — unconditional surrender](../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md)
-- [Parsi / Nawfal — full MOU released](../../source-archive/statecraft/2026-06-17/source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md)
+- [Parsi / Nawfal — full MOU released](../../source-archive/statecraft/2026-06-17/source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md)
 
 ## Bounded question
 
@@ -110,7 +110,7 @@ Do **not** merge layers: **declarative ceasefire ≠ forward-defense restored �
 - [Pape Jun 8 Lebanon fuse spine](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
 - [Jun 14 Lebanon enforcement × Nima arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md)
 - [Parent daily — 2026-06-17 MOU text release](statecraft/synthesis/day/2026-06-17.md)
-- Wire-verify: [2026-06-17 matrix](statecraft/notes/wire/2026-06-17-wire-verify-matrix.md) — **J17-4 supported** (Pt. 1 text) · **J17-8 partial** (Khiam) · **J17-9 supported** (Katz no withdrawal)
+- News-verify: [2026-06-17 matrix](statecraft/notes/wire/2026-06-17-news-verify-matrix.md) — **J17-4 supported** (Pt. 1 text) · **J17-8 partial** (Khiam) · **J17-9 supported** (Katz no withdrawal)
 
 ## Source anchors
 

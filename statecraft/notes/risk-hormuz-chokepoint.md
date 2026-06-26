@@ -8,7 +8,7 @@ Preserve **load-bearing Strait of Hormuz / chokepoint-coalition war risks** in t
 
 **Primary reader:** agent routing (daily synthesis, wire-verify passes) — stop flattening non-substitutable registers.
 
-**Not this note:** MOU guest-register convergence ([june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md)), full MOU enforcement allocation ([risk-mou-enforcement.md](./risk-mou-enforcement.md)), Pape arc chronology ([arc-pape-escalation-trap.md](./arc-pape-escalation-trap.md)), or verbatim wire matrices (daily `*-wire-verify-matrix.md`).
+**Not this note:** MOU guest-register convergence ([june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md)), full MOU enforcement allocation ([risk-mou-enforcement.md](./risk-mou-enforcement.md)), Pape arc chronology ([arc-pape-escalation-trap.md](./arc-pape-escalation-trap.md)), or verbatim wire matrices (daily `*-news-verify-matrix.md`).
 
 **Cluster entry:** open here first when the task is **Hormuz / chokepoint risk in this corpus**; open [risk-mou-enforcement](./risk-mou-enforcement.md) when the task is **MOU enforcement across all registers**; open [Hormuz governance mechanism](./june-18-2026-mou-hormuz-governance-armistice-note.md) when the task is **Pt. 5 sixty-day armistice trap only**.
 
@@ -19,7 +19,7 @@ Six registers — **multi-register center**; do not rank one as the whole object
 | Register | Question | Primary voices | Depth / mechanism | Falsifier hook (one line) |
 | --- | --- | --- | --- | --- |
 | **Maneuver vs blockade** | Partial IRGC live-fire exercises or **total** closure? | Marandi, Mearsheimer, wire | [Feb 17 Iran bench weave](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) | CENTCOM confirms **zero** transits 24h with single dated closure order |
-| **Declaration vs denial duel** | IRGC/military closure **and** MFA denial both wire-supported? | wire (J20-1/2/3) | [2026-06-20 wire matrix](../notes/wire/2026-06-20-wire-verify-matrix.md) · RLJ dual-grammar | Tehran + MFA lines converge; strait still zero transit 24h → collapse to Supported closure |
+| **Declaration vs denial duel** | IRGC/military closure **and** MFA denial both wire-supported? | wire (J20-1/2/3) | [2026-06-20 wire matrix](../notes/wire/2026-06-20-news-verify-matrix.md) · RLJ dual-grammar | Tehran + MFA lines converge; strait still zero transit 24h → collapse to Supported closure |
 | **Physical throughput** | Is the strait **operationally** open while politically contested? | wire, Johnson, Martyanov | J18 convergence Seam 3 · AP partial-transit rows | Sustained full blockade with verified tanker queue outside Gulf |
 | **Chokepoint / coalition geometry** | Territorial war ladder or **system** war (Hormuz + GCC + Lebanon arm)? | Pape, Macgregor, Krainer, Henningsen, Nima | [iran-war-inquiry-ladder-stress-test](./iran-war-inquiry-ladder-stress-test.md) | War reduces to single-front Iran-only object with no Gulf exposure |
 | **Gulf complicity / exposure** | Do US bases forfeit Gulf neutrality if war starts? | Marandi | Feb 17 weave · Jun 4 batch (inquiry ladder) | Official GCC neutrality statements + verified non-use of bases 30d |
@@ -103,7 +103,7 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 | Feb 17 same-day Marandi × Mearsheimer × Helmer | [Feb 17 Iran bench weave](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) |
 | Inquiry ladder on Iran war (functional hinge) | [iran-war-inquiry-ladder-stress-test](./iran-war-inquiry-ladder-stress-test.md) |
 | Pt. 5 armistice → governance trap | [Hormuz governance note](./june-18-2026-mou-hormuz-governance-armistice-note.md) |
-| J20 declaration/denial/throughput rows | [2026-06-20 wire matrix](../notes/wire/2026-06-20-wire-verify-matrix.md) |
+| J20 declaration/denial/throughput rows | [2026-06-20 wire matrix](../notes/wire/2026-06-20-news-verify-matrix.md) |
 | J18 Hormuz / SPR seam | [MOU convergence Seam 3](./june-18-2026-mou-convergence.md#seam-3--spr--hormuz--economic-forcing) |
 | Material 2–4 wk standoff fuse | [falsifier #3 watch](./june-18-2026-mou-falsifier-3-standoff-watch.md) |
 | Helmer–Marandi five-terms / root causes | [2026-03-24 weave](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) |
@@ -114,6 +114,6 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 - [Hormuz governance vs armistice](./june-18-2026-mou-hormuz-governance-armistice-note.md) · [falsifier #3 standoff watch](./june-18-2026-mou-falsifier-3-standoff-watch.md)
 - [Feb 17 Iran bench weave](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [iran-war-inquiry-ladder-stress-test](./iran-war-inquiry-ladder-stress-test.md)
 - [Pape Escalation Trap arc](./arc-pape-escalation-trap.md) · [Mar 24 Helmer–Marandi five terms](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md)
-- Wire: [2026-06-19](../notes/wire/2026-06-19-wire-verify-matrix.md) · [2026-06-20](../notes/wire/2026-06-20-wire-verify-matrix.md) matrices
+- Wire: [2026-06-19](../notes/wire/2026-06-19-news-verify-matrix.md) · [2026-06-20](../notes/wire/2026-06-20-news-verify-matrix.md) matrices
 
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Opened:** 2026-06-22

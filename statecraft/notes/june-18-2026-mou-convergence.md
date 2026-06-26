@@ -195,8 +195,8 @@ Load-bearing **operational red lines** from [Getting the Framework Right](../../
 | Martyanov | `source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` |
 | Johnson Lebanon | `source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
 | Johnson Vance | `source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
-| Blumenthal | `source-napolitano-blumenthal-israel-in-panic-2026-06-18.md` |
-| Macgregor | `source-napolitano-macgregor-israel-the-real-loser-2026-06-18.md` |
+| Blumenthal | `source-judging-freedom-blumenthal-israel-in-panic-2026-06-18.md` |
+| Macgregor | `source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md` |
 | Henningsen | `source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md` |
 | Davis | `source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md` |
 | Mercouris | `source-alex-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
@@ -222,7 +222,7 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 
 ## Post-wire tiers (2026-06-18)
 
-**Wire-verify batch + fact-check deep** (chat passes; Aguilar capture **`verify:`** YAML 2026-06-19):
+**News-verify batch + fact-check deep** (chat passes; Aguilar capture **`verify:`** YAML 2026-06-19):
 
 | Hook | Tier | Notes |
 |------|------|-------|

@@ -76,7 +76,7 @@ Operational and adjacent artifacts that are **not** synthesis live in typed subf
 
 | Subfolder | Class | Examples |
 | --- | --- | --- |
-| [`wire/`](wire/) | **Daily news-verify SSOT** — tier-3 hook grids consumed by synthesis | `*-wire-verify-matrix.md` · gate [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md) |
+| [`wire/`](wire/) | **Daily news-verify SSOT** — tier-3 hook grids consumed by synthesis | `*-news-verify-matrix.md` · gate [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md) |
 | [`watch/`](watch/) | Bounded operational watch windows | `*-72h-watch-run.md` |
 | [`reentry/`](reentry/) | Week hinges (navigation, not synthesis) | `YYYY-MM-weekN-start-here.md` |
 | [`intake/`](intake/) | Pre-synthesis queue surfaces | `*-intake-readiness.md`, digest template |

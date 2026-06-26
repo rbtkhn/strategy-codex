@@ -129,7 +129,7 @@ India is both a long-horizon comprehensive-power candidate and a possible U.S.-b
 
 ## Wire verification
 
-**Wire-verify:** PRC lane is **lane 3** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § China](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#china-lane-prc). 48h companion: [daily-brief-prc-watch.md](../../docs/skill-work/work-strategy/daily-brief-prc-watch.md).
+**News-verify:** PRC lane is **lane 3** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § China](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#china-lane-prc). 48h companion: [daily-brief-prc-watch.md](../../docs/skill-work/work-strategy/daily-brief-prc-watch.md).
 
 ## Drafting Prompts
 

@@ -27,13 +27,13 @@ source_note: Operator-pasted YouTube transcript; Dialogue Works host self-dates 
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained (Agular/Edon spellings); not human-verified verbatim against audio. Wire-verify header pass 2026-06-20.
+editorial_note: Operator-pasted transcript; ASR artifacts retained (Agular/Edon spellings); not human-verified verbatim against audio. News-verify header pass 2026-06-20.
 transcript_wrapper_tier: clean
 verify_receipt: 2026-06-20
 verify:
   - claim: Iran closed Hormuz trade again to pressure US over Lebanon ops
     verdict: supported
-    note: IRGC declaration mesh · cross-ref [J20-1 matrix](../../../statecraft/notes/wire/2026-06-20-wire-verify-matrix.md)
+    note: IRGC declaration mesh · cross-ref [J20-1 matrix](../../../statecraft/notes/wire/2026-06-20-news-verify-matrix.md)
   - claim: Iran skips / pressure off Switzerland until US compels Israel
     verdict: partial
     note: delegations travel proceeds · cross-ref J20-14 vs J20-11/12/13

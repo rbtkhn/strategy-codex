@@ -8,7 +8,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Freeman × Diesen — U.S. Restoring Empire & War On Eurasia](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) — https://www.youtube.com/watch?v=fC3voCMmsw8 — **full transcript**
-- [Mearsheimer × Napolitano — Trump boxed on Iran (**Geneva opening + Ukraine block**)](../../source-archive/statecraft/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) — https://www.youtube.com/watch?v=f9o5eiyKsOs — **Geneva segment** (lines ~22–68) + **Iran boxed** parallel
+- [Mearsheimer × Napolitano — Trump boxed on Iran (**Geneva opening + Ukraine block**)](../../source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) — https://www.youtube.com/watch?v=f9o5eiyKsOs — **Geneva segment** (lines ~22–68) + **Iran boxed** parallel
 
 ## Purpose
 
@@ -79,7 +79,7 @@ Same **Geneva week** — two **altitude** reads on why negotiation surfaces **do
 
 - [Jan 20 Freeman Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — alliance-law vs sea-war; same **Freeman credibility** register
 - [Jan 20 Mearsheimer tag-team Iran essay](../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md) — external regime-change **mechanism** vs Freeman **Westphalian** defense of Iran sovereignty
-- [Geneva wire matrix](../notes/wire/2026-02-17-wire-verify-matrix.md) — **tier-4** Helmer compromise leak vs Mearsheimer **public maximal** — wire pass didn't close gap
+- [Geneva wire matrix](../notes/wire/2026-02-17-news-verify-matrix.md) — **tier-4** Helmer compromise leak vs Mearsheimer **public maximal** — wire pass didn't close gap
 
 ## Falsifiers
 

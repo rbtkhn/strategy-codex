@@ -14,7 +14,7 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=fC3voCMmsw8"
 source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity. verify:J17-P8-partial (see 2026-02-17-wire-verify-matrix.md Sub-seam E)."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity. verify:J17-P8-partial (see 2026-02-17-news-verify-matrix.md Sub-seam E)."
 evidence_grade: transcript-bearing
 ---
 # Chas Freeman: U.S. Restoring Empire & War On Eurasia

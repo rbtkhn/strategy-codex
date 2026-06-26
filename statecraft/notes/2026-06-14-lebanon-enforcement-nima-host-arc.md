@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Lebanon Enforcement × Dialogue Works Host Arc — 2026-06-14
 
-**Parent:** [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md) · [J14-1–J14-12 wire matrix](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md) · [J12-6 72h watch run](statecraft/notes/watch/2026-06-12-72h-watch-run.md) · [Marandi×J12-6×Aguilar bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Marandi deal floor × Clauses A–D](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+**Parent:** [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md) · [J14-1–J14-12 wire matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md) · [J12-6 72h watch run](statecraft/notes/watch/2026-06-12-72h-watch-run.md) · [Marandi×J12-6×Aguilar bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Marandi deal floor × Clauses A–D](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
 **Archive batch:** [2026-06-14 README](../../source-archive/statecraft/2026-06-14/README.md) (6 captures)
 
@@ -38,7 +38,7 @@ Do **not** merge layers. Jun 14 object = **two-speed clock** (hostilities langua
 
 ### Wire pass #2 — hooks in matrix (J14-13 – J14-16)
 
-**SSOT table:** [2026-06-14 wire-verify matrix § J14-1–J14-16](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · **Lebanon enforcement fork** sub-table same file.
+**SSOT table:** [2026-06-14 news-verify matrix § J14-1–J14-16](statecraft/notes/wire/2026-06-14-news-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · **Lebanon enforcement fork** sub-table same file.
 
 Summary (do not duplicate full cites here):
 
@@ -94,7 +94,7 @@ Summary (do not duplicate full cites here):
 | Dimension | Solo `BlK5ONxCrg8` | × Aguilar `bZxS4saKQAY` | × Johnson×Marandi `t1MaItycdFc` |
 |-----------|-------------------|-------------------------|-------------------------------|
 | **Deal** | Won’t happen; JCPOA trash lesson | MOU = fragile understanding; Lebanon unaddressed | Gap **closed ~2.5h before air**; SNSC read on show |
-| **Retaliation** | **Will** hit north Israel (+ Yemen maybe) | Likely strategic strike; NYT withhold carry ([J14-11 partial](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md)) | **Withheld** — US concessions on occupation/siege |
+| **Retaliation** | **Will** hit north Israel (+ Yemen maybe) | Likely strategic strike; NYT withhold carry ([J14-11 partial](statecraft/notes/wire/2026-06-14-news-verify-matrix.md)) | **Withheld** — US concessions on occupation/siege |
 | **Lebanon gate** | Total withdrawal or no deal | Israel never leaves unless **forced**; spoiler pattern | End occupation + halt **tonight** (institutional) |
 | **Trump** | US = Israel proxy; can’t control Bibi | Desperate “we’re there”; **Bibi OK** paradox | “Deal complete” + SNSC receipt |
 | **Function** | Resistance-axis **mood** + battlefield gate | **Lever floor** (MIC trap, no facade peace) | **Institutional receipt** via Marandi/Johnson |
@@ -104,7 +104,7 @@ Summary (do not duplicate full cites here):
 1. **Solo → Aguilar:** Both **pre-close pessimism** — strike expected, Lebanon blocks real MOU. Aguilar adds **process** (no trust; Israel flips the table). Solo adds **axis synthesis** (Golani, Hormuz Iran+Oman, blockade outlast, Hezbollah south seam).
 
 2. **Aguilar → ×Johnson:** **Phase change**, not host error:
-   - Withhold lane: NYT/Trump intermediaries ([J14-11 partial](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md)).
+   - Withhold lane: NYT/Trump intermediaries ([J14-11 partial](statecraft/notes/wire/2026-06-14-news-verify-matrix.md)).
    - Marandi: withhold = **negotiation instrument** — Trump bought gap-close with Lebanon/siege concessions.
    - Nima **pivots headline** from “attack imminent” to “US and Iran reach deal.”
 
@@ -168,6 +168,6 @@ Marandi thread = threshold (pre-close) → negotiation receipt (post-close) — 
 ## Return paths
 
 - **Daily synthesis:** [2026-06-14](statecraft/synthesis/day/2026-06-14.md) — pre-close / post-close / post-SNSC spine.
-- **Wire matrix:** [J14-1–J14-16](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · pass #2 hooks **in matrix body**; analysis in this note.
+- **Wire matrix:** [J14-1–J14-16](statecraft/notes/wire/2026-06-14-news-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · pass #2 hooks **in matrix body**; analysis in this note.
 - **Week-2 gate:** [72h watch fork 1](statecraft/notes/watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) — refresh against J14-16.
-- **Jun 19 window:** formal sign vs continued Lebanon ops ([J14-4](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md)).
+- **Jun 19 window:** formal sign vs continued Lebanon ops ([J14-4](statecraft/notes/wire/2026-06-14-news-verify-matrix.md)).

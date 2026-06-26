@@ -42,7 +42,7 @@ Prevent **false continuity** when the same host books Freeman on **2025 Israel�
 | **Gulf / MBS** | **MBS–Pezeshkian solidarity** call (Jun 14 wire) | **Pezeshkian Gulf halt**; **must reconcile** with Iran | **Echo** — different **episode objects** |
 | **Maritime** | (thin in 2025 register) | **Hormuz toll booth / fee corridor**; 263y Anglo-American break | **2026 only** for toll spine |
 | **End-state menu** | Attrition **forecast** (~10-day); partition/Azerbaijan tier-4 | **Four endgames** taxonomy (May 11); **ceasefire without defeat** | 2025 **forecast** ≠ 2026 **menu** |
-| **Wire-verify SSOT** | [Jun 21](./2025-freeman-igl-iran-war-push-register.md) · [Oct 10 Gaza capture](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) `verify:` headers | Arc falsifiers on **2026 captures** — do not back-fill 2025 register | **Header receipts per year** |
+| **News-verify SSOT** | [Jun 21](./2025-freeman-igl-iran-war-push-register.md) · [Oct 10 Gaza capture](../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) `verify:` headers | Arc falsifiers on **2026 captures** — do not back-fill 2025 register | **Header receipts per year** |
 
 ## Shared Freeman spine (legitimate echo — not merge)
 

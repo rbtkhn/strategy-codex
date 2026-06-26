@@ -69,7 +69,7 @@ def validate_file(path: Path, strict: bool) -> list[str]:
     if not fm:
         if strict and (SID_MEMO_MARKER in text or "embargo:" in text[:400]):
             errors.append("embargo block present but frontmatter malformed")
-        elif strict and path.name.endswith("-wire-verify-matrix.md"):
+        elif strict and path.name.endswith("-news-verify-matrix.md"):
             return []
         elif strict and DAILY_SYNTHESIS_RE.match(path.name):
             errors.append("daily synthesis missing frontmatter with embargo (strict mode)")

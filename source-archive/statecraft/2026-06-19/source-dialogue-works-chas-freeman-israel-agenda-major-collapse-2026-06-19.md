@@ -27,13 +27,13 @@ source_note: Operator-pasted transcript; host self-dates Friday 19 June 2026. Le
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Wire-verify header pass 2026-06-19.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. News-verify header pass 2026-06-19.
 transcript_wrapper_tier: clean
 verify_receipt: 2026-06-19
 verify:
   - claim: Bürgenstock / US–Iran technical talks planned Fri 19 Jun postponed; Vance travel off
     verdict: supported
-    note: BBC Jun 19 · AP · ToI · cross-ref [J19-2 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md)
+    note: BBC Jun 19 · AP · ToI · cross-ref [J19-2 matrix](../../../statecraft/notes/wire/2026-06-19-news-verify-matrix.md)
   - claim: State Dept discussed holding Iran negotiations in Washington DC next week
     verdict: unclear
     note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/notes/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
@@ -42,7 +42,7 @@ verify:
     note: Postponement resolves Jun 19 branch · cross-ref J19-15
   - claim: Israel Hayom (Adelson) open letter to Trump — "you failed" / MOU surrender / "betrayed us"
     verdict: supported
-    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/notes/wire/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
+    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/notes/wire/2026-06-19-news-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
 ---
 
 # Amb. Chas Freeman: Israel's Agenda Suffers MAJOR Collapse

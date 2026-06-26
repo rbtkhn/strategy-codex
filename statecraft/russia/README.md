@@ -120,7 +120,7 @@ Keep India visible as a major Eurasian partner and comprehensive-power candidate
 
 ## Wire verification
 
-**Wire-verify:** Russia lane is **lane 4** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Russia](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#russia-lane).
+**News-verify:** Russia lane is **lane 4** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Russia](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#russia-lane).
 
 ## Drafting Prompts
 

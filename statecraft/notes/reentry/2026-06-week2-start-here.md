@@ -33,7 +33,7 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 Heavy-week adds:
 
 5. **[Johnson×Wilkerson×Aguilar gate comparison](statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)** — text vs grammar vs lever.
-6. **[Jun 12 wire-verify matrix](statecraft/notes/wire/2026-06-12-wire-verify-matrix.md)** — J12-1–**J12-9** seams (§224 / SASC 18–9 / DIA critical CI).
+6. **[Jun 12 news-verify matrix](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)** — J12-1–**J12-9** seams (§224 / SASC 18–9 / DIA critical CI).
 7. **[2026-06-09](statecraft/synthesis/day/2026-06-09.md)** — command fracture + evening CENTCOM/GCC seam.
 8. **[Pape watch sheet — Jun 11 row](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md)** — trap confirmed + backtest.
 9. **[Apache × Shahed physics fork](statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)** — S2 cause contested; pretext chain.
@@ -47,7 +47,7 @@ Heavy-week adds:
 | What changed Jun 12 → 13? | [2026-06-13](statecraft/synthesis/day/2026-06-13.md) brink optimism × Sunday sign theater × PH overlay |
 | What changed Jun 13 → 14? | [2026-06-14](statecraft/synthesis/day/2026-06-14.md) Beirut strike × intra-day close × SNSC halt vs ops |
 | What changed Jun 11 → 12? | [2026-06-12](statecraft/synthesis/day/2026-06-12.md) publish/deny + Lebanon point-1 fracture + **§224 inverse-pair** |
-| §224 inverse lever vs aid-cut? | [foreign-client-mesh](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [wire matrix J12-7/8](statecraft/notes/wire/2026-06-12-wire-verify-matrix.md#shared-seam-anchors-j12-1--j12-9) |
+| §224 inverse lever vs aid-cut? | [foreign-client-mesh](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [wire matrix J12-7/8](statecraft/notes/wire/2026-06-12-news-verify-matrix.md#shared-seam-anchors-j12-1--j12-9) |
 | MOU point-1 vs Marandi Clause A? | [Marandi×J12-6×Aguilar bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) |
 | 72h falsifier results? | [72h watch run](statecraft/notes/watch/2026-06-12-72h-watch-run.md) |
 | What changed Jun 9 → 11? | [2026-06-11](statecraft/synthesis/day/2026-06-11.md) executive read + MOU dual channel |
@@ -55,7 +55,7 @@ Heavy-week adds:
 | What changed Jun 8 → 9? | [2026-06-09](statecraft/synthesis/day/2026-06-09.md) executive read + object migration line |
 | Which ceasefire label still applied Jun 8? | [2026-06-08](statecraft/synthesis/day/2026-06-08.md) |
 | Apache down → Qeshm strikes — accident or pretext? | [physics fork](statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) |
-| Wire-supported vs contested rows? | [Jun 12 matrix](statecraft/notes/wire/2026-06-12-wire-verify-matrix.md) · [8–9 batch](statecraft/notes/wire/2026-06-08-09-wire-verify-matrix.md) |
+| Wire-supported vs contested rows? | [Jun 12 matrix](statecraft/notes/wire/2026-06-12-news-verify-matrix.md) · [8–9 batch](statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md) |
 | GCC retaliation developing? | [Nima solo Bahrain brief](../../source-archive/statecraft/2026-06-09/source-dialogue-works-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) + [2026-06-09](statecraft/synthesis/day/2026-06-09.md) §5 |
 | Ukraine secondary (not primary)? | [S9 mesh](statecraft/notes/2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md) |
 | Pape trap indicators this week? | [Day 100 watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) |
@@ -81,12 +81,12 @@ Heavy-week adds:
 
 - [Apache × Shahed physics fork — Davis / Aguilar / Krapivnik / wire](statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)
 - [S9 Ukraine secondary — Helmer · Mercouris · Krapivnik](statecraft/notes/2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
-- [Wire-verify matrix — 8–9 Jun batch](statecraft/notes/wire/2026-06-08-09-wire-verify-matrix.md) — batch **closes** in week2
+- [News-verify matrix — 8–9 Jun batch](statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md) — batch **closes** in week2
 - [Pape Day 100 indicator watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md)
 - [Wilkerson × Hoh — Section 224 mesh](statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) (America carry)
 - [Pape Day 100 × Lebanon fuse](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
 - [Marandi deal floor × gate Clauses A–D](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
-- [Jun 12 wire-verify matrix](statecraft/notes/wire/2026-06-12-wire-verify-matrix.md) — J12-1–**J12-9** seams (§224 · SASC 18–9 · DIA critical CI)
+- [Jun 12 news-verify matrix](statecraft/notes/wire/2026-06-12-news-verify-matrix.md) — J12-1–**J12-9** seams (§224 · SASC 18–9 · DIA critical CI)
 - [America foreign-client-mesh — §224 inverse-lever](../america/transactions/foreign-client-mesh-separation-and-command-review.md) — **`AMER-224-RCPT-04`**
 - [Johnson×Wilkerson×Aguilar MOU gate](statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)
 - [Parsi quiet-lane + asset-path deepener](statecraft/notes/2026-06-12-parsi-quiet-lane-asset-path-deepener.md)
@@ -94,8 +94,8 @@ Heavy-week adds:
 - [Marandi clauses × J12-6 × Aguilar bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
 - [72h watch run (Jun 12–13)](statecraft/notes/watch/2026-06-12-72h-watch-run.md) — Fork 1–5 incl. §224 + A′
 - [Lebanon enforcement × Nima host arc (Jun 14)](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md) — J14-13–J14-16 · pseudo-gate hardened · host timeline method
-- [Jun 14 wire-verify matrix](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md) — J14-1–**J14-16**
-- [PH Boomer Hell wire-verify (Jun 13)](statecraft/notes/wire/2026-06-13-ph-boomer-hell-wire-verify-matrix.md) — J13-PH-1–**J13-PH-9**
+- [Jun 14 news-verify matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md) — J14-1–**J14-16**
+- [PH Boomer Hell wire-verify (Jun 13)](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md) — J13-PH-1–**J13-PH-9**
 - [Jiang PH cross-weave — Mad King × Boomer Hell](statecraft/notes/2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md)
 
 ## Falsifier table (through Jun 12)

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Davis Iran × Davis Ukraine — MOU Parallel vs Moscow Fork — 2026-06-15
 
-**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Related:** [Johnson × Davis MOU skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) · **Wire:** [2026-06-15 Ukraine/G7 matrix](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md)
+**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Related:** [Johnson × Davis MOU skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) · **Wire:** [2026-06-15 Ukraine/G7 matrix](statecraft/notes/wire/2026-06-15-news-verify-matrix.md)
 
 **Sources (same host, same day, paired solos):**
 
@@ -52,15 +52,15 @@ Mon 15 answer: **Maybe 20% something signs; 0% survives as written; walk-away be
 Mon 15 second Deep Dive (`S9ROJmN0HQ4`) owns:
 
 - **Parallel open** — “all eyes… Friday… Iran” while **Russia/Ukraine continues**; Kiev **~600+** strike package; attrition **fundamentals on Russia side**
-- **Putin call (14 Jun)** — Putin **initiated** ~hour birthday call; warm tone; Trump briefed Putin on **US–Iran peace process** ([wire J15-U1, J15-U3 supported](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md))
-- **Moscow condition** — Davis readout: “for any peace agreement Zelensky will have to come to **Moscow to sign it**” → **impossible** → Russia **not seeking exit** ([wire J15-U2 partial](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md): Kremlin **meeting in Moscow**, not published “sign there”)
+- **Putin call (14 Jun)** — Putin **initiated** ~hour birthday call; warm tone; Trump briefed Putin on **US–Iran peace process** ([wire J15-U1, J15-U3 supported](statecraft/notes/wire/2026-06-15-news-verify-matrix.md))
+- **Moscow condition** — Davis readout: “for any peace agreement Zelensky will have to come to **Moscow to sign it**” → **impossible** → Russia **not seeking exit** ([wire J15-U2 partial](statecraft/notes/wire/2026-06-15-news-verify-matrix.md): Kremlin **meeting in Moscow**, not published “sign there”)
 - **Bilateral analogy (explicit)** — Trump ending US–Israel–Iran war by **US–Iran only** (Israel not in room) → Putin: **US–Russia deal**, stop supporting Ukraine, war ends
-- **Macron G7 counter-capture** — bring Trump to **Europe table**; **reinforce pressure** (shadow fleet) — not a win theory ([J15-U5 supported](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md))
-- **Starmer boarding** — Royal Marines **Smyrtos** early Sun 14 — humiliation / taunt, not off-ramp ([J15-U4 supported](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md))
+- **Macron G7 counter-capture** — bring Trump to **Europe table**; **reinforce pressure** (shadow fleet) — not a win theory ([J15-U5 supported](statecraft/notes/wire/2026-06-15-news-verify-matrix.md))
+- **Starmer boarding** — Royal Marines **Smyrtos** early Sun 14 — humiliation / taunt, not off-ramp ([J15-U4 supported](statecraft/notes/wire/2026-06-15-news-verify-matrix.md))
 - **Europe has no path** — no A→B→C story to reverse attrition; **action = success** (tanker, missiles, money) without objective; **pressure ≠ victory concept**
 - **Russia patience / mobilization reserve** — existential framing (Hitler/Napoleon analogies); West assumes Russia tires; Davis: **they intend to win**
 - **Trump swayable** — “last person in Trump’s ear”; Macron/Starmer won’t give attrition math
-- **Gabbard biolabs** — 120+ labs / 30 countries incl. Ukraine; Kirby “malarkey” / Psaki disinfo vs ODNI release ([J15-U6 partial](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md)) — **same trust arc** as Hegseth/stockpile on Iran show
+- **Gabbard biolabs** — 120+ labs / 30 countries incl. Ukraine; Kirby “malarkey” / Psaki disinfo vs ODNI release ([J15-U6 partial](statecraft/notes/wire/2026-06-15-news-verify-matrix.md)) — **same trust arc** as Hegseth/stockpile on Iran show
 - **Mushroom-farm close** — bipartisan contempt; team-red/team-blue lie acceptance; vote incumbents out
 
 **Ukraine question:** If Putin offers Trump the **same bilateral shortcut** as Iran (exclude the committed third party), does Europe’s G7 pressure supply a **competing theory of success**?
@@ -110,9 +110,9 @@ Mon 15 answer: **No** — Europe offers **more pressure**, not a **reversal path
 | **Walk-away executed** | US forces out, strait open, no relief | Major aid cut + negotiation without Kiev exclusion |
 | **Trust repair** | Independent Hormuz tracker + WH text | Independent biolab scope audit + aid transparency |
 
-## Wire-verify receipts (Ukraine hooks only)
+## News-verify receipts (Ukraine hooks only)
 
-Iran hooks remain on [2026-06-14 matrix](statecraft/notes/wire/2026-06-14-wire-verify-matrix.md) / parent daily falsifiers. Ukraine/G7: [2026-06-15-wire-verify-matrix.md](statecraft/notes/wire/2026-06-15-wire-verify-matrix.md).
+Iran hooks remain on [2026-06-14 matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md) / parent daily falsifiers. Ukraine/G7: [2026-06-15-news-verify-matrix.md](statecraft/notes/wire/2026-06-15-news-verify-matrix.md).
 
 **Load-bearing for this note:** **J15-U2 partial** — Davis **“sign in Moscow”** stronger than Kremlin **“meeting in Moscow”**; do not treat wire-supported call as proof of **sign-in-Moscow** condition. **J15-U3** — Trump **did** tell Putin about Iran track same window as MOU Friday clock → **cross-theater coupling is real** even if Davis’s bilateral analogy is inference.
 
@@ -128,7 +128,7 @@ Iran hooks remain on [2026-06-14 matrix](statecraft/notes/wire/2026-06-14-wire-v
 
 - **Parent daily** `2026-06-15.md`: secondary **Russia/G7 object** + Davis **dual-episode** row in speaker table.
 - **Johnson × Davis note:** Johnson names **document geometry**; this note names **Davis’s cross-theater bilateral habit** — pair for full skepticism stack.
-- **Wire-verify:** finish **Iran MOU hooks** (Hormuz, $12B, Lebanon) on J14 pattern; keep **J15-U2** nuance when scoring Moscow claims.
+- **News-verify:** finish **Iran MOU hooks** (Hormuz, $12B, Lebanon) on J14 pattern; keep **J15-U2** nuance when scoring Moscow claims.
 - **Cross-read:** [2026-06-08 Davis trust fork](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) — upfront-goods trust plane **matured** into MOU survival + mushroom-farm governance critique.
 
 ## Attribution discipline

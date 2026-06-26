@@ -11,7 +11,7 @@ channel_url: "https://www.youtube.com/@AlexMercouris/videos"
 channel_slug: "alex-mercouris"
 source_url: "https://www.youtube.com/watch?v=hiz6KpkaSM8"
 source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
-editorial_note: "Mar 24 week ~4 solo — Trump negotiation mirage; 48h→5d Hormuz ultimatum; FT market timing; Dimona/Arad cluster strikes; 4-division ground deploy; Lavrov WW3 Gorchakov; GCC mediation not US–Iran; gas hit during US energy restraint — verify:J24-A1-supported J24-A2-contested J24-A3-supported J24-A4-partial J24-A5-partial J24-B2-supported J24-B3-partial J24-C1-supported J24-C2-unclear J24-C3-partial J24-C4-partial J24-D1-partial J24-D2-partial J24-D3-partial J24-D4-unclear J24-E1-contested J24-E2-partial J24-E3-partial (see statecraft/notes/wire/2026-03-24-wire-verify-matrix.md)."
+editorial_note: "Mar 24 week ~4 solo — Trump negotiation mirage; 48h→5d Hormuz ultimatum; FT market timing; Dimona/Arad cluster strikes; 4-division ground deploy; Lavrov WW3 Gorchakov; GCC mediation not US–Iran; gas hit during US energy restraint — verify:J24-A1-supported J24-A2-contested J24-A3-supported J24-A4-partial J24-A5-partial J24-B2-supported J24-B3-partial J24-C1-supported J24-C2-unclear J24-C3-partial J24-C4-partial J24-D1-partial J24-D2-partial J24-D3-partial J24-D4-unclear J24-E1-contested J24-E2-partial J24-E3-partial (see statecraft/notes/wire/2026-03-24-news-verify-matrix.md)."
 ---
 # Iran Again Strikes Dimona Arad; Israel AD Fails; US Prepares 4 Division Ground Op; Lavrov WW3 Begun
 

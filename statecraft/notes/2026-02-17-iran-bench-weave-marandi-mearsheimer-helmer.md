@@ -8,7 +8,7 @@ WORK only; not Record.
 **Sources:**
 
 - [Marandi × Nima — Iran JUST Closed the Strait of Hormuz](../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md) — https://www.youtube.com/watch?v=7Oy1q6zGcQs — **full transcript**
-- [Mearsheimer × Napolitano — How Trump Has Boxed Himself Into a Corner on Iran](../../source-archive/statecraft/2026-02-17/source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) — https://www.youtube.com/watch?v=f9o5eiyKsOs — **full transcript**
+- [Mearsheimer × Napolitano — How Trump Has Boxed Himself Into a Corner on Iran](../../source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) — https://www.youtube.com/watch?v=f9o5eiyKsOs — **full transcript**
 - [Helmer × Nima — Geneva interview **Iran coda** only](../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — https://www.youtube.com/watch?v=YQrBhZf2TXI — **coda segment** (lines ~109–131)
 
 ## Purpose
@@ -86,7 +86,7 @@ Same-day **Iran / Hormuz** bench — **not** Geneva Ukraine table. Route by regi
 
 ## Cross-day return
 
-- [Feb 3 pre-war — Helmer power formula / Witkoff poisoned](../notes/arc-helmer-iran-five-terms.md) · [regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · [daily synthesis](../synthesis/day/2026-02-03.md) · [JF03 wire matrix](../notes/wire/2026-02-03-wire-verify-matrix.md) — **no-attack bet** → Feb 17 **Hormuz maneuver** → Mar 3 **war**
+- [Feb 3 pre-war — Helmer power formula / Witkoff poisoned](../notes/arc-helmer-iran-five-terms.md) · [regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · [daily synthesis](../synthesis/day/2026-02-03.md) · [JF03 wire matrix](../notes/wire/2026-02-03-news-verify-matrix.md) — **no-attack bet** → Feb 17 **Hormuz maneuver** → Mar 3 **war**
 - [Jan 20 Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — Helmer **Iran regime-change phase** (Nima in Tehran)
 - [Jan 20 Mearsheimer tag-team](../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md) — external **regime-change mechanism** vs Marandi **internal legitimacy** gatherings
 - [Mar 3 2026 — Helmer × Marandi Iran war weave](./2026-03-03-iran-war-weave-helmer-marandi.md) — post-Khamenei opening (war replaces Hormuz maneuver)

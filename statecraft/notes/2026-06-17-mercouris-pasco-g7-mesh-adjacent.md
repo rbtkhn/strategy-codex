@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Source (partial body):** [Mercouris solo — Russia–China energy / UK navy / EU sanctions (title)](../../source-archive/statecraft/2026-06-17/source-alex-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md) (`I9CnSQlcmU4`)
 
-**Cross-ref:** [2026-06-16 daily](statecraft/synthesis/day/2026-06-16.md) (Moscow MOU carry) · [2026-06-17 wire matrix](statecraft/notes/wire/2026-06-17-wire-verify-matrix.md) (Mercouris = mesh only)
+**Cross-ref:** [2026-06-16 daily](statecraft/synthesis/day/2026-06-16.md) (Moscow MOU carry) · [2026-06-17 wire matrix](statecraft/notes/wire/2026-06-17-news-verify-matrix.md) (Mercouris = mesh only)
 
 ## Capture status
 

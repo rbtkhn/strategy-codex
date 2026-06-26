@@ -8,7 +8,7 @@ WORK only; not Record.
 
 **Governing pair (week close):** `aid-cut required` (DW Aguilar) · `§224 inverse advancing` (MR Aguilar) — [`AMER-224-RCPT-04`](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) **stressed**.
 
-**Parent batch:** [2026-06-12 daily](../synthesis/day/2026-06-12.md) · [wire-verify J12-1–J12-9](../notes/wire/2026-06-12-wire-verify-matrix.md) · [week-2 hinge](../notes/reentry/2026-06-week2-start-here.md)
+**Parent batch:** [2026-06-12 daily](../synthesis/day/2026-06-12.md) · [wire-verify J12-1–J12-9](../notes/wire/2026-06-12-news-verify-matrix.md) · [week-2 hinge](../notes/reentry/2026-06-week2-start-here.md)
 
 ---
 
@@ -102,7 +102,7 @@ Detail tables remain in linked notes; open those for speaker-by-speaker depth.
 | §224 **stalls** 30d during bridge | Clause B may **upgrade** if aid-cut appears | `RCPT-04` **pass** |
 | §224 **enacts** Oct FY27 unchanged | Lebanon gate Clause B **fail**; MOU may live on A′ south slide only | `RCPT-04` **fired** |
 
-**Depth:** [foreign-client-mesh — June 12 corroboration](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) · [wire §224 adjudication](../notes/wire/2026-06-12-wire-verify-matrix.md#224--fy27-topline-mr-aguilar--inv-02-03)
+**Depth:** [foreign-client-mesh — June 12 corroboration](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) · [wire §224 adjudication](../notes/wire/2026-06-12-news-verify-matrix.md#224--fy27-topline-mr-aguilar--inv-02-03)
 
 ---
 
@@ -145,7 +145,7 @@ Downstream notes should **link here** instead of restating this line.
 |------|------|
 | Speaker function split | [Johnson×Wilkerson×Aguilar gate comparison](../notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) |
 | Marandi Clause A/B/D + RCPT-04 rows | [Marandi×J12-6×Aguilar bridge](../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) |
-| Wire grades J12-1–J12-9 | [wire-verify matrix](../notes/wire/2026-06-12-wire-verify-matrix.md) |
+| Wire grades J12-1–J12-9 | [news-verify matrix](../notes/wire/2026-06-12-news-verify-matrix.md) |
 | America transaction clauses | [foreign-client-mesh](../america/transactions/foreign-client-mesh-separation-and-command-review.md) |
 | Persia gate instrument | [Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) |
 | Week hinge / falsifier table | [2026-06-week2-start-here](../notes/reentry/2026-06-week2-start-here.md) |

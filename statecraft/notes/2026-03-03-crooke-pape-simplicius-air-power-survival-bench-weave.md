@@ -32,7 +32,7 @@ Same-day **newsletter bench** — three registers on **Epic Fury day 4**:
 | **Regime fracture** | **No crumble** — populist upsurge **failed** assumption | **No regime** fell from **bombing alone** in modern history | Trump expected **successors dead** — **weapons-free** IRGC |
 | **Air defenses** | Cheap drones/missiles **depleted** Gulf/Israel stocks; **Mach 4+** largely impervious | Precision **does not collapse** layered authoritarian networks | US bases **defenseless** vs Shahed saturation |
 | **Mosaic / C2** | Systematic **drive US out** of Gulf | **Mosaic Defense** — decentralized continuity under assault | **Araghchi:** units **independent/isolated** — **pre-authorized** retaliation |
-| **F-15 / air losses** | (not focus) | Air power **≠** regime change | **3 jets** — friendly fire **strains credulity**; wire [**J03-A1**](../notes/wire/2026-03-03-wire-verify-matrix.md) |
+| **F-15 / air losses** | (not focus) | Air power **≠** regime change | **3 jets** — friendly fire **strains credulity**; wire [**J03-A1**](../notes/wire/2026-03-03-news-verify-matrix.md) |
 | **Fifth Fleet / Bahrain** | **Radar + logistics** destroyed — **backbone** of US regional hegemony | (not focus) | **NYT satellite** — NSA Bahrain **heavy damage** |
 | **Hormuz / energy** | **Selective closure** months → **EU gas** + **debt crisis**; deny China **13.4%** seaborne oil lever | Widening theater / **maritime harassment** protracts | (secondary) |
 | **War aim (US)** | **Chokepoint control** — **rebalance China** to consumption (NSS code-speak) | Attacker **escalation trap** when promised collapse absent | **Israel blackmailed** US in — **not sovereign** decision |
@@ -87,7 +87,7 @@ Same-day **newsletter bench** — three registers on **Epic Fury day 4**:
 
 - [Mercouris × Wilkerson — mosaic + stockpiles](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — Pape **Mosaic** ↔ Mercouris **FT mosaic** row
 - [Davis × Macgregor — decapitation useless](./2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md) — same **CEO/Rommel** vs **Pape** history
-- [Wire matrix — F-15 + Hormuz](statecraft/notes/wire/2026-03-03-wire-verify-matrix.md)
+- [Wire matrix — F-15 + Hormuz](statecraft/notes/wire/2026-03-03-news-verify-matrix.md)
 
 ## Cross-day return
 

@@ -2,16 +2,16 @@ WORK only; not Record.
 
 # News-verify ↔ synthesis gate
 
-**Invariant:** Full **daily synthesis** on calendar day **D** requires `statecraft/notes/wire/D-wire-verify-matrix.md` **or** an explicit waiver in the daily header (`verify_gate: waived` + one-line reason).
+**Invariant:** Full **daily synthesis** on calendar day **D** requires `statecraft/notes/wire/D-news-verify-matrix.md` **or** an explicit waiver in the daily header (`verify_gate: waived` + one-line reason).
 
-The **wire-verify matrix** is the **daily tier-3 fact ledger** (operator-facing: **daily news-verify**). **Daily synthesis** is interpretation that **cites** it — synthesis does **not** replace the matrix.
+The **news-verify matrix** is the **daily tier-3 fact ledger** (operator-facing: **daily news-verify**). **Daily synthesis** is interpretation that **cites** it — synthesis does **not** replace the matrix.
 
 ## Two artifacts, one pipeline
 
 ```text
 source-archive (verbatim)
        ↓
-news-verify batch  →  wire-verify-matrix  (tier 3 SSOT)
+news-verify batch  →  news-verify-matrix  (tier 3 SSOT)
        ↓
 state synthesis    →  synthesis/day       (tier 4 interpretation)
        ↓
@@ -20,7 +20,7 @@ optional: capture verify: tails (J-row pointers, not duplicate tables)
 
 | Artifact | Path | Authority |
 | --- | --- | --- |
-| **Daily news-verify** | `statecraft/notes/wire/YYYY-MM-DD-wire-verify-matrix.md` | Tier-3 hooks, verdicts, lane sweep, cites |
+| **Daily news-verify** | `statecraft/notes/wire/YYYY-MM-DD-news-verify-matrix.md` | Tier-3 hooks, verdicts, lane sweep, cites |
 | **Daily synthesis** | `statecraft/synthesis/day/YYYY-MM-DD.md` | Dominant object, themes, Judgment — **J-ID citations** for tier-3 claims |
 | **Per-capture receipts** | `source-archive/.../source-*.md` YAML | Optional; prefer `verify_matrix_ref: J{D}-n` over duplicating full hook tables |
 
@@ -44,7 +44,7 @@ Do **not** add a third parallel “daily fact check” doc unless it is a rename
 
 ## Minimum matrix spec
 
-Exemplar: [2026-06-19-wire-verify-matrix.md](../notes/wire/2026-06-19-wire-verify-matrix.md).
+Exemplar: [2026-06-19-news-verify-matrix.md](../notes/wire/2026-06-19-news-verify-matrix.md).
 
 1. Header — parent daily link (stub OK until synthesis lands), archive day-index, prior matrix cross-ref
 2. **Mode** — batch · hook count · **CIV-STATE 5/5** or honest combatant+mesh
@@ -60,7 +60,7 @@ Exemplar: [2026-06-19-wire-verify-matrix.md](../notes/wire/2026-06-19-wire-verif
 When gate is **ON**, full synthesis **must**:
 
 1. Link matrix in **Source Base** / prior-day baseline
-2. Include **Wire-verify (D)** block — hook-cluster summary + matrix link
+2. Include **News-verify (D)** block — hook-cluster summary + matrix link
 3. Cite **`J{D}-*`** in Judgment / falsifiers for tier-3 claims
 4. Fence tier-4 in themes; no wire-grade rows without matrix ID or capture `verify:`
 5. If matrix missing: **stop** or emit **register-only** with `verify_matrix: OPEN` — not a faux full synthesis

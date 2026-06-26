@@ -85,12 +85,12 @@ Same-day **Iran war day 4** — **institutional solo** vs **ORBAT/logistics colo
 ## Cross-day return
 
 - [Feb 17 Geneva weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) — Mercouris **institutional** week-before-war
-- [Feb 17 wire matrix](../notes/wire/2026-02-17-wire-verify-matrix.md) — Hormuz **partial** → Mar 3 **closed** (Marandi/Helmer)
-- [Mar 3 wire matrix](../notes/wire/2026-03-03-wire-verify-matrix.md) — F-15, THAAD, Hormuz, stockpiles, MBS–Putin
+- [Feb 17 wire matrix](../notes/wire/2026-02-17-news-verify-matrix.md) — Hormuz **partial** → Mar 3 **closed** (Marandi/Helmer)
+- [Mar 3 wire matrix](../notes/wire/2026-03-03-news-verify-matrix.md) — F-15, THAAD, Hormuz, stockpiles, MBS–Putin
 
 ## Falsifiers
 
-1. **Wire-primary** debunk of **J03-A1/A2** — see [Mar 3 wire matrix](../notes/wire/2026-03-03-wire-verify-matrix.md)
+1. **Wire-primary** debunk of **J03-A1/A2** — see [Mar 3 wire matrix](../notes/wire/2026-03-03-news-verify-matrix.md)
 2. **J03-B2/B3** THAAD sequential hits + Korea transfer receipts
 3. **J03-E4** MBS private pro-war vs public ceasefire readouts
 4. **J03-D1/D3** stockpile replenishment — downgrades exhaustion thesis

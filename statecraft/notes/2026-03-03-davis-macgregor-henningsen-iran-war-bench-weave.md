@@ -63,7 +63,7 @@ Same-day **Daniel Davis Deep Dive** bench — three registers on **US–Israel�
 
 ## Davis (host) owns here — solo + bridge
 
-- **Truth Social** full quote — DFC **political risk insurance** + **Navy escort** ([**J03-C4**](../notes/wire/2026-03-03-wire-verify-matrix.md))
+- **Truth Social** full quote — DFC **political risk insurance** + **Navy escort** ([**J03-C4**](../notes/wire/2026-03-03-news-verify-matrix.md))
 - **Escort out loud** → Trump **boxed** into doing it or looking weak
 - **Regime-change A/B/C** candidates **killed** by US strikes (Trump admission)
 - **School strike** + **airport** hits — **galvanize** not liberate
@@ -79,7 +79,7 @@ Same-day **Daniel Davis Deep Dive** bench — three registers on **US–Israel�
 | Hormuz fix | **Logistics** can't sustain war | **Soft close** + market | **Escort = suicide** | **Optimist fork** (Davis solo) vs **closure** reads (Mercouris/Marandi) |
 | Who forced war | **Netanyahu > Trump** | **Israel 100%** policy control | **Rubio blackmail** + **agency** we had | **Compatible** — Rubio clip **Supported** as admission tier |
 | Duration | **Very long** | **>2 weeks** Iran relative win | Pray **no escort** error | Wilkerson **long war** parallel |
-| Negotiations | **Always lie** | **Deception tactic** | **Omani breakthrough** Feb 27 | Same object — wire **Larijani rebuff** [**J03-E2**](../notes/wire/2026-03-03-wire-verify-matrix.md) |
+| Negotiations | **Always lie** | **Deception tactic** | **Omani breakthrough** Feb 27 | Same object — wire **Larijani rebuff** [**J03-E2**](../notes/wire/2026-03-03-news-verify-matrix.md) |
 
 **Usage:** **Macgregor** → ORBAT/logistics + **credibility/proliferation** · **Henningsen** → **media/legal/region** + **political winner** · **Davis solo** → **Hormuz escort** panic fork vs same-day **Mercouris/Marandi closure** reads
 
@@ -87,7 +87,7 @@ Same-day **Daniel Davis Deep Dive** bench — three registers on **US–Israel�
 
 - [Helmer × Marandi — Moscow + Tehran](./2026-03-03-iran-war-weave-helmer-marandi.md)
 - [Mercouris × Wilkerson — attrition / F-15](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — Wilkerson cites McGregor **5 a.m.** same day
-- [Wire matrix — Hormuz + diplomacy](statecraft/notes/wire/2026-03-03-wire-verify-matrix.md)
+- [Wire matrix — Hormuz + diplomacy](statecraft/notes/wire/2026-03-03-news-verify-matrix.md)
 
 ## Cross-day return
 

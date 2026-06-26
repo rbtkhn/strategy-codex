@@ -23,7 +23,7 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=ojt4b8ivJ7o"
 youtube_id: ojt4b8ivJ7o
-source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Iran escalation control / hot-ceasefire rules; Apache shootdown skepticism (no Iranian video credit, mechanical/drone collision read); Jordan Fifth Fleet Bahrain retaliation ladder; Trump 100M-barrel Hormuz convoy claim vs Energy Secretary Chris Wright not aware; Lebanon defensive umbrella / Dahieh threshold; same-week seam with 2026-06-10 cluster (Diesen×Henningsen, Nawfal×Weichert, Kent). · ASR pass 2026-06-15. · verify:wire-supported J10-4,J10-5 · verify:wire-contested J10-6 · matrix statecraft/notes/wire/2026-06-10-wire-verify-matrix.md"
+source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Iran escalation control / hot-ceasefire rules; Apache shootdown skepticism (no Iranian video credit, mechanical/drone collision read); Jordan Fifth Fleet Bahrain retaliation ladder; Trump 100M-barrel Hormuz convoy claim vs Energy Secretary Chris Wright not aware; Lebanon defensive umbrella / Dahieh threshold; same-week seam with 2026-06-10 cluster (Diesen×Henningsen, Nawfal×Weichert, Kent). · ASR pass 2026-06-15. · verify:wire-supported J10-4,J10-5 · verify:wire-contested J10-6 · matrix statecraft/notes/wire/2026-06-10-news-verify-matrix.md"
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 transcript_wrapper_tier: clean

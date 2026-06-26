@@ -33,7 +33,7 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Wert, CarG, Marandi, Raisen Kaine, etc.). Breaking Points subscribe close stripped at tail."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 verify_receipt: 2026-06-24
-verify_matrix_ref: statecraft/notes/wire/2026-06-11-wire-verify-matrix.md
+verify_matrix_ref: statecraft/notes/wire/2026-06-11-news-verify-matrix.md
 verify:
   - claim: Trump strongly considered nuclear option on Iran
     verdict: unclear

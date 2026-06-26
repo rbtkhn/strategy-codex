@@ -10,7 +10,7 @@ source_url: "https://www.youtube.com/watch?v=YQrBhZf2TXI"
 title: "John Helmer: The Kremlin's New Strategy Before Geneva - Madness in the Middle East"
 interviewer: Nima Alkhorshid
 guest: John Helmer
-editorial_note: Dialogue Works; Geneva bifurcated talks — Dmitriev economic/re-dollarization track vs Medinsky/Kostikov Ukraine military track; Anchorage formula code words; Lavrov–Dmitriev hostility; Novorossiya territorial read; Russian public distrust of Trump; European sea-war strategic consensus; India oil/Rubio vagueness; Iran kill-switch suspicion and Postol deterrence — verify:J17-H1-supported J17-H2-partial J17-G1-supported J17-G2-supported (see 2026-02-17-wire-verify-matrix.md).
+editorial_note: Dialogue Works; Geneva bifurcated talks — Dmitriev economic/re-dollarization track vs Medinsky/Kostikov Ukraine military track; Anchorage formula code words; Lavrov–Dmitriev hostility; Novorossiya territorial read; Russian public distrust of Trump; European sea-war strategic consensus; India oil/Rubio vagueness; Iran kill-switch suspicion and Postol deterrence — verify:J17-H1-supported J17-H2-partial J17-G1-supported J17-G2-supported (see 2026-02-17-news-verify-matrix.md).
 opening_tier: host-tease
 ---
 

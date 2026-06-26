@@ -91,7 +91,7 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 | **§224 / captured command** | [us-israel-military-integration-captured-command-risk](./us-israel-military-integration-captured-command-risk.md) | Legislative bind register row |
 | **Settlement tri-lens** | [recognition-threshold-vs-settlement-architecture](./recognition-threshold-vs-settlement-architecture.md) | Paper vs ground + tripwires — not duplicate tri-lens body |
 | **Vance / Rubio succession** | [june-2026-vance-lightning-rod-rubio-optionality-note](./june-2026-vance-lightning-rod-rubio-optionality-note.md) | Seam 2 adjunct — lightning rod vs optionality |
-| **Hormuz dual grammar (wire)** | [2026-06-20 wire matrix](../notes/wire/2026-06-20-wire-verify-matrix.md) · [risk-hormuz-chokepoint](./risk-hormuz-chokepoint.md) | Economic forcing register — chokepoint-first routing |
+| **Hormuz dual grammar (wire)** | [2026-06-20 wire matrix](../notes/wire/2026-06-20-news-verify-matrix.md) · [risk-hormuz-chokepoint](./risk-hormuz-chokepoint.md) | Economic forcing register — chokepoint-first routing |
 | **Escalation trap arc** | [arc-pape-escalation-trap](./arc-pape-escalation-trap.md) | Pape tripwire overlay only |
 
 ## Open-first routing
@@ -109,7 +109,7 @@ Do not resolve in synthesis unless operator explicitly requests resolution.
 | §224 speaker bench | [barnes-johnson-aguilar-kent-on-section-224](./barnes-johnson-aguilar-kent-on-section-224.md) |
 | Pape power-not-money + tripwires | [Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) · [arc Phase XV](./arc-pape-escalation-trap.md) |
 | J18 archive day | `source-archive/statecraft/2026-06-18/README.md` |
-| Wire receipts | [2026-06-18 daily](../synthesis/day/2026-06-18.md) · [2026-06-19 wire matrix](../notes/wire/2026-06-19-wire-verify-matrix.md) |
+| Wire receipts | [2026-06-18 daily](../synthesis/day/2026-06-18.md) · [2026-06-19 wire matrix](../notes/wire/2026-06-19-news-verify-matrix.md) |
 
 ## Return paths
 

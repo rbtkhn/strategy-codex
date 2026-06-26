@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Parent seam:** [Wire-verify matrix S9](statecraft/notes/wire/2026-06-08-09-wire-verify-matrix.md#shared-seam-anchors-s1s10) · **9 Jun daily:** [2026-06-09.md](statecraft/synthesis/day/2026-06-09.md) · **Not in scope:** [Apache / Shahed physics-fork](statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) (Iran interrupt only)
+**Parent seam:** [News-verify matrix S9](statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md#shared-seam-anchors-s1s10) · **9 Jun daily:** [2026-06-09.md](statecraft/synthesis/day/2026-06-09.md) · **Not in scope:** [Apache / Shahed physics-fork](statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) (Iran interrupt only)
 
 **Sources (Ukraine block):**
 
@@ -81,4 +81,4 @@ Short rule: **Helmer names Moscow's crisis frame; Mercouris names allied optics;
 
 ## Receipt
 
-`Wire-verify S9 mesh 2026-06-10` — Krapivnik Ukraine block folded; Iran/Apache tail remains in physics-fork + matrix S2.
+`News-verify S9 mesh 2026-06-10` — Krapivnik Ukraine block folded; Iran/Apache tail remains in physics-fork + matrix S2.
