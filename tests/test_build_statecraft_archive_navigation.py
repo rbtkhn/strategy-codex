@@ -59,7 +59,7 @@ def test_build_year_index_rolls_up_months_and_links(tmp_path: Path) -> None:
     assert "`Judging Freedom` (1)" in rendered
     assert "`Daniel Davis Deep Dive` (1)" in rendered
     assert "| `2026-05` | 2 | 2 |" in rendered
-    assert "[open](statecraft/synthesis/month/2026-05.md)" in rendered
+    assert "[open](./2026-05.md)" in rendered
 
 
 def test_build_thread_index_rolls_up_threads_across_days(tmp_path: Path) -> None:
@@ -148,6 +148,7 @@ def test_stale_index_audit_marks_ok_stale_and_missing(tmp_path: Path) -> None:
     )
 
     day_idx.write_day_index(day_ok)
+    day_idx.write_day_index(day_stale)
     _write(day_stale / "README.md", "# stale\n")
     month_groups = month_idx.group_day_dirs_by_month(root, "2026")
     month_idx.write_month_index(root, "2026-05", month_groups["2026-05"])
