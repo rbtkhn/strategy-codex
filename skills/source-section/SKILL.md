@@ -1,10 +1,10 @@
 ---
 name: source-section
-description: Post-intake transcript section curation for solo and interview source captures — Title Case ### headings, anchor splits, speaker-boundary fixes; not first-pass land, synthesis, or wire-verify.
+description: Post-intake transcript section curation for YouTube channel solo and interview captures — Title Case ### headings, anchor splits, speaker-boundary fixes; not authored essays, synthesis, or wire-verify.
 preferred_activation: source-section
 activation: source-section
 portable: true
-version: 1.1.0
+version: 1.1.1
 category: truth-pipeline
 status: active
 scope_class: public-portable
@@ -22,7 +22,19 @@ outputs:
 
 **Preferred activation:** **`source-section`** (or **`source section`**, **`section source`**). **Outline-only:** **`source-section outline`** (or **`section outline`**) — plan and pin the map; do not mutate body until operator approves ship.
 
-**Scope:** Post-land **editorial structure** for long **solo** and **interview** transcript captures — not first-pass intake, not ASR tier cleanup, not synthesis.
+**Scope:** Post-land **editorial structure** for long **YouTube channel** **solo** and **interview** transcript captures — not authored essays, not first-pass intake, not ASR tier cleanup, not synthesis.
+
+**Channel vs authored (hard boundary):**
+
+| In scope | Out of scope |
+| --- | --- |
+| YouTube **guest** interviews (`source_form: interview`, `source_type: youtube`, or `channel_slug`) | **Authored** Substack / newsletter / essay (`kind: substack-post`, `paste-bundle`, `source_form: newsletter`) |
+| YouTube **solo** monologues on a channel shelf | Wire clips, panels, roundups (unless operator names a host spine) |
+| Operator-paste **transcript** bodies with turn-taking under `## Transcript` | Short confirmation posts, X posts, authored briefing prose |
+
+**Do not** offer **`source-section`** on land for authored Pape essays — even when long or flat. Authored work uses essay structure / synthesis links, not transcript section maps.
+
+**SSOT helper:** `scripts/transcript_section_curation.is_source_section_eligible()`
 
 **Pipeline position:** **`source-intake`** (land flat verbatim) → optional **`source-clean`** → **`source-section`** (outline → approve → ship) → downstream study / synthesis.
 
@@ -38,7 +50,7 @@ Intake lands truth; sectioning organizes reading. Do not substitute synthesis fo
 
 ## Post-land nudge (mandatory agent behavior)
 
-After **`source-intake`** land (+ optional **`source-clean`**) on **`source_form: solo`** or **`source_form: interview`**, **say explicitly** (not only as a buried menu fork) when **any** of:
+After **`source-intake`** land (+ optional **`source-clean`**) on a **YouTube channel** capture with **`source_form: solo`** or **`source_form: interview`**, **say explicitly** (not only as a buried menu fork) when **any** of:
 
 | Trigger | Recommend |
 | --- | --- |
@@ -50,11 +62,11 @@ After **`source-intake`** land (+ optional **`source-clean`**) on **`source_form
 
 > Recommend **`source-section outline`** before synthesis — ~N thematic jump targets vs one monolith; expect roughly **~90% less scan** per random topic (uniform hop model).
 
-Do **not** auto-section on land — operator approves map on large captures. **Do** surface the payoff when triggers match.
+Do **not** auto-section on land — operator approves map on large captures. **Do** surface the payoff when triggers match. **Never** nudge **`source-section`** on **`source_form: newsletter`**, **`kind: substack-post`**, or other **authored** captures.
 
 ## Use this skill when
 
-- A transcript capture is already landed with `source_form: solo` or `source_form: interview`
+- A **YouTube channel** transcript capture is already landed with `source_form: solo` or `source_form: interview` (confirm `source_type: youtube`, `channel_slug`, or YouTube `source_url`)
 - Operator wants **Title Case** `### … — …` section headings for navigation and study (not lowercase slug headers)
 - You have or can derive a **section map**: ~6–14 thematic headings + **anchor phrases** (N−1 anchors for N sections; last section → EOF)
 - **Interview** captures need **speaker labels** restored at section splits after anchor insertion
@@ -63,7 +75,8 @@ Do **not** auto-section on land — operator approves map on large captures. **D
 ## Do not use when
 
 - Capture is not yet landed — run **`source-intake`** first
-- `source_form` is `panel`, `clip`, `newsletter`, `article`, or `roundup` unless operator explicitly overrides
+- **Authored text** — Substack essays, newsletters, articles, paste-bundle opinion posts — **never** **`source-section`**
+- `source_form` is `panel`, `clip`, `newsletter`, `article`, or `roundup` unless operator explicitly overrides with a YouTube transcript spine
 - Job is ASR / proper-noun cleanup only — use **`source-clean`**
 - Job is wire triage — use **`wire-verify`**
 - Job is interpretive synthesis, notebook weave, or lane drafting
@@ -78,16 +91,17 @@ Do **not** auto-section on land — operator approves map on large captures. **D
 - **Outline before ship** — propose and pin the section map; **do not** insert headings into the capture body until the operator approves (except trivial one-off captures where operator already supplied the full map).
 - **Mark curation honestly** — set `transcript_curation: curated_sectioned` and/or append a dated receipt to `editorial_note` / `source_note` **on ship only**, not on outline-only passes.
 
-## Eligibility (`source_form`)
+## Eligibility (`source_form` + channel)
 
-| `source_form` | Default |
+| Surface | Default |
 | --- | --- |
-| `solo` | **In scope** — thematic sections; rare speaker repair |
-| `interview` | **In scope** — sections + speaker-boundary fixes at splits |
+| YouTube **`interview`** (guest on channel) | **In scope** — sections + speaker-boundary fixes |
+| YouTube **`solo`** monologue | **In scope** — thematic sections |
+| **`substack-post`** / **`newsletter`** / authored essay | **Out of scope** — not YouTube channel content |
 | `panel` | Out of scope unless operator names a host–guest spine to section |
 | `clip` | Out of scope — section a full parent capture instead |
 
-Confirm `source_form` from frontmatter after land. If missing, infer from body (one dominant speaker vs turn-taking) and state the assumption.
+Confirm `source_form`, `kind`, and YouTube signals from frontmatter after land. When in doubt on authored vs channel, **abstain**.
 
 ## Transcript body markers
 

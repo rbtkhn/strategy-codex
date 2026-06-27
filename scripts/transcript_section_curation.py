@@ -14,6 +14,45 @@ BODY_MARKERS: tuple[str, ...] = (
 )
 UNICODE_APOSTROPHE = r"['\u2019]"
 
+AUTHORED_KINDS = frozenset({"substack-post", "newsletter", "x-post-text", "paste-bundle"})
+AUTHORED_FORMS = frozenset({"newsletter", "article", "post", "roundup"})
+
+
+def parse_capture_eligibility_meta(head: str) -> dict[str, str]:
+    """Minimal frontmatter parse for source-section eligibility checks."""
+    fm = head
+    if "---" in head:
+        parts = head.split("---", 2)
+        if len(parts) >= 2:
+            fm = parts[1]
+    out: dict[str, str] = {}
+    for key in ("kind", "source_form", "source_type", "source_url", "channel_slug", "guest"):
+        m = re.search(rf"^{key}:\s*(.+)$", fm, re.M)
+        if m:
+            out[key] = m.group(1).strip().strip('"').strip("'")
+    return out
+
+
+def is_source_section_eligible(meta: dict[str, str], *, guest: bool | None = None) -> bool:
+    """True for YouTube channel transcript captures; false for authored essays/posts."""
+    kind = (meta.get("kind") or "").lower()
+    form = (meta.get("source_form") or "").lower()
+    if kind in AUTHORED_KINDS or form in AUTHORED_FORMS:
+        return False
+    if guest is False:
+        return False
+    if form in ("interview", "solo"):
+        return True
+    if (meta.get("source_type") or "").lower() == "youtube":
+        return True
+    if meta.get("channel_slug"):
+        return True
+    if "youtube.com" in (meta.get("source_url") or "").lower():
+        return True
+    if meta.get("guest"):
+        return True
+    return guest is True
+
 
 def detect_body_marker(doc: str) -> str:
     for marker in BODY_MARKERS:
@@ -202,6 +241,11 @@ def write_sectioned_capture(
         raise ValueError(f"missing body marker: {marker!r}")
 
     head, body = doc.split(marker, 1)
+    if not is_source_section_eligible(parse_capture_eligibility_meta(head)):
+        raise ValueError(
+            "source-section applies to YouTube channel transcripts (solo/interview) only; "
+            "authored texts (Substack, newsletter, article) are out of scope"
+        )
     if reject_if_sectioned and body.lstrip().startswith("### "):
         raise ValueError("transcript already sectioned")
 

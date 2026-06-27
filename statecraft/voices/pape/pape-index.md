@@ -9,7 +9,7 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 ## Corpus note
 
 - **55** authored · **16** guest · **71** total on disk
-- **12/71** `curated_sectioned` where applicable
+- **12/15** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
 - Rebuild: `python3 scripts/build_pape_index.py`
 
 ## Boundary
@@ -23,6 +23,7 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 1. Authored Substack = mechanism spine — pair with [forecast ledger](pape-forecast-ledger-2026.md) and [arc](../../notes/arc-pape-escalation-trap.md).
 2. Guest appearances = host-conditioned pressure tests — cross-ref host channel index when load-bearing.
 3. Same guest on another host = separate host read — do not dedupe by guest alone.
+4. **`source-section`** = YouTube channel transcripts only (guest interviews / solo monologues). **Not** authored Substack essays.
 
 ## 2026-02
 

@@ -11,6 +11,10 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 ARCHIVE = REPO / "source-archive" / "statecraft"
 OUT = REPO / "statecraft" / "voices" / "pape" / "pape-index.md"
+_SCRIPTS = REPO / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from transcript_section_curation import is_source_section_eligible  # noqa: E402
 
 PAPE_GUEST = re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape", re.I)
 PAPE_AUTHOR = re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape", re.I)
@@ -215,12 +219,21 @@ def collect_rows() -> list[tuple[str, Path, dict, str]]:
     return rows
 
 
+def source_section_applicable(meta: dict, row_class: str) -> bool:
+    guest = row_class == "guest"
+    return is_source_section_eligible(meta, guest=guest)
+
+
 def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
     authored = sum(1 for *_, c in rows if c == "authored")
     guest = sum(1 for *_, c in rows if c == "guest")
     total = len(rows)
+    applicable = sum(1 for _, _, meta, rc in rows if source_section_applicable(meta, rc))
     sectioned = sum(
-        1 for _, _, meta, _ in rows if meta.get("transcript_curation") == "curated_sectioned"
+        1
+        for _, _, meta, rc in rows
+        if source_section_applicable(meta, rc)
+        and meta.get("transcript_curation") == "curated_sectioned"
     )
 
     by_month: dict[str, list[tuple[str, Path, dict, str]]] = defaultdict(list)
@@ -239,7 +252,7 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
         "## Corpus note",
         "",
         f"- **{authored}** authored · **{guest}** guest · **{total}** total on disk",
-        f"- **{sectioned}/{total}** `curated_sectioned` where applicable",
+        f"- **{sectioned}/{applicable}** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)",
         "- Rebuild: `python3 scripts/build_pape_index.py`",
         "",
         "## Boundary",
@@ -253,6 +266,7 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
         "1. Authored Substack = mechanism spine — pair with [forecast ledger](pape-forecast-ledger-2026.md) and [arc](../../notes/arc-pape-escalation-trap.md).",
         "2. Guest appearances = host-conditioned pressure tests — cross-ref host channel index when load-bearing.",
         "3. Same guest on another host = separate host read — do not dedupe by guest alone.",
+        "4. **`source-section`** = YouTube channel transcripts only (guest interviews / solo monologues). **Not** authored Substack essays.",
         "",
     ]
 
