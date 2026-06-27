@@ -12,10 +12,10 @@ Channel: [Moral Resistance](https://www.youtube.com/@MoralResistance)
 
 ## 2026-06
 
-- [2026-06-12 — There will be no deal with Iran w/ Lt Col Anthony Aguilar](../../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md) (`7ilV1wVU05Q`) — MOU bridge · Lebanon enforcement trap · NDAA §224
-- [2026-06-18 — Elon Musk attacks Israel; JD Vance Switzerland trip cancelled w/ Aguilar](../../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) (`hMSgCq55cKA`) — Vance words vs §224/§622 · Huckabee split · wire receipts
-- [2026-06-24 — Israel refuse to leave Lebanon — will Iran respond? w/ Trita Parsi](../../../source-archive/statecraft/2026-06-24/source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md) (`hXPGF0L44qQ`) — MOU working groups · US withdrawal-first shift · Iran counter-escalation ladder · regional security umbrella / Riyadh · anti–Abraham Accords · $12B primary-sanctions lift logic
-- [2026-06-26 — U.S. strike Iran; U.S.–Israel Lebanon deal violates MOU w/ Robert Pape](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`) — MOU Art. 1/5/11 compliance · escalation-trap read · see [Pape index](../../voices/pape/pape-index.md)
+- [2026-06-12 — There will be no deal with Iran w/ Lt Col Anthony Aguilar](../../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md) (`7ilV1wVU05Q`) — MOU bridge · Lebanon enforcement trap · NDAA §224 · 10 sections
+- [2026-06-18 — Elon Musk attacks Israel; JD Vance Switzerland trip cancelled w/ Aguilar](../../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) (`hMSgCq55cKA`) — Vance words vs §224/§622 · Huckabee split · wire receipts · 10 sections
+- [2026-06-24 — Israel refuse to leave Lebanon — will Iran respond? w/ Trita Parsi](../../../source-archive/statecraft/2026-06-24/source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md) (`hXPGF0L44qQ`) — MOU working groups · US withdrawal-first shift · Iran counter-escalation ladder · regional security umbrella / Riyadh · anti–Abraham Accords · $12B primary-sanctions lift logic · 8 sections
+- [2026-06-26 — U.S. strike Iran; U.S.–Israel Lebanon deal violates MOU w/ Robert Pape](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`) — MOU Art. 1/5/11 compliance · escalation-trap read · 9 sections · see [Pape index](../../voices/pape/pape-index.md)
 
 ## Guest lanes on this host
 
