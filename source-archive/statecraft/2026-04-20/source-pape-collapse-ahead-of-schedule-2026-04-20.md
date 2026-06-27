@@ -10,8 +10,15 @@ episode_title: The Collapse is Now "Ahead of Schedule"
 hosts: Clayton Morris; Natali Morris
 guest: Professor Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack)
 air_day: April 20, 2026
+transcript_curation: curated_sectioned
 ---
+
 # Redacted — *The Collapse is Now "Ahead of Schedule"* (April 20, 2026)
+
+## Transcript
+
+
+### Show Open — Redacted Welcome and Ahead-of-Schedule Update
 
 Host: Professor Robert Pape is the director of the Chicago Project on Security and Threats at the University of Chicago and the author of Escalation Trap on Substack.
 Professor, great to have you here on the show. Welcome.
@@ -21,7 +28,11 @@ We're about two days away now from your prediction. Anything you want to change 
 Professor Robert Pape: We're ahead. We're ahead of schedule. Yeah.
 Just four or five days after I made that prediction — and by the way, there's a much longer paper on the Substack that really goes into it (you can't do that in a tweet) — jet fuel in Europe is running about a month before we're going to be out. You're already seeing airliners cutting back. Air Canada is cutting back their flights to LaGuardia for a month at this point, maybe longer. It's not clear when they'll restart them.
 I spend a lot of my time now on different media with Australia. Eighty percent of their oil comes in through the Strait of Hormuz — essentially an island continent — and they're already strapped and in crisis. I also spend a lot of time with India because they are already experiencing dramatic shortages as well.
-For your audience, it's important to understand there are three stages. It's not just a crystal-ball prediction. Stage one: for the first 45 days or so after a cutoff, you get price spikes. Then you get into the 45- to 60-day range — that 10-day period you're talking about — where you actually start to have shortages occur. That's what you're seeing emerging now.
+For your audience, it's important to understand there are
+
+### Three Stages — Shortages Window and Contraction by May 31
+
+three stages. It's not just a crystal-ball prediction. Stage one: for the first 45 days or so after a cutoff, you get price spikes. Then you get into the 45- to 60-day range — that 10-day period you're talking about — where you actually start to have shortages occur. That's what you're seeing emerging now.
 Then, from day 60 to day 90, the shortages get worse and worse. It's not that shortages stop and prices keep getting worse — contraction kicks in. That's really what will start to hit by May 31st.
 What you're seeing is that the shortages I predicted are coming sooner than I anticipated, not later. You're already starting to see the glimmers of contraction. And with the possible escalation coming, this could actually double-confirm the expectations I had.
 Host: What does "contraction" mean for us as consumers?
@@ -29,18 +40,30 @@ Professor Robert Pape: It means we're going to stop producing commodities. We're
 Let me just pick air traffic, because a lot of people travel by air. In Europe, there are about 110 million passengers on aircraft every single month. If you literally zero out jet fuel, the first step is you scramble: "How can I get some more from somewhere?" You'll go to Nigeria, you'll come to the United States — and that is actually occurring. But everybody else is running out of jet fuel too. So you might get back about 50% if you're lucky.
 That means suddenly, after about four weeks, the contraction piece is that you'll go from 110 million down to something like 80, then 70, then 60 million passengers. And that's just the passengers. There's all the cargo, all the mail, all the just-in-time deliveries that happen through the air that we've gotten so used to. That's going to contract as well.
 Then the actual products — not just the delivery system — will start to contract too. We experienced some of this during COVID, but this is in some ways even more disastrous because the Strait of Hormuz carries 20% of the world's oil. There's just not a spare 20% laying around to pick up. Now you have both Iran shutting it down and effectively the United States shutting it down. So you've got to persuade two countries to let that oil flow, not just one.
-Host: Is this really about China?
+Host:
+
+### China Quagmire Logic — June Factory Tour and Beijing No-Lose View
+
+Is this really about China?
 Professor Robert Pape: I don't think so. I spent two weeks in China in June, visiting their advanced industries. I'm very interested in power and where power comes from. I wanted to see for myself: Xiaomi's electric vehicle factory, BYD — these advanced electric vehicles you can't buy here — Alibaba's robotics. I wanted to see it all.
 What all those top executives told me at the dinners I attended for two solid weeks is: sure, there'll be maybe a 1% GDP loss for China at most, but at the end of the day, America is going to get sucked into a quagmire here, and that can only help China glide up and surpass America faster. They didn't really want to get their nose in it. They weren't trying to make it worse. They just saw this as a no-lose situation for China, and they really couldn't have been happier that after getting out of two forever wars, America got into an even bigger one.
 From the business perspective in China, this is not a problem for them.
 Host: Wow. Because they have more energy independence, while other parts of Asia are suffering because they cannot get the energy they need through the Strait of Hormuz. Is there any collaboration possible that's not already happening between East Asia and China?
-Professor Robert Pape: Yeah. What I discovered when I went to China — and I've been many times, but very few Americans, including American business people, have actually been there, and almost no politicians — is that since COVID, China has been stockpiling its oil. It hasn't just worried about this crisis and started scrambling. They built up a giant stockpile.
+Professor Robert Pape: Yeah. What I discovered when I went to China — and I've been many times, but very few Americans, including American business people, have actually been there, and almost no politicians — is that since COVID, China has been
+
+### China Energy Stockpile — Solar-Nuclear Mix and Decade of Tariff Prep
+
+stockpiling its oil. It hasn't just worried about this crisis and started scrambling. They built up a giant stockpile.
 Their whole energy economy is 80% driven without oil at all. It's not like the entire economy hinges on oil. They've gone into solar in a big way. Their backup is nuclear and coal, and if they have to, they'll go to the stockpiles of oil.
 They were explaining this to me and showing me their plans and actual business models at these giant companies in China that are just taking off. This is also why the tariffs don't make them miss a beat. Ever since Trump slapped tariffs on China way back in 2017, China got the memo and they've been building for almost 10 years to be independent of America wrecking their economy.
 Host: Can I follow up on that? Do you mind?
 Professor Robert Pape: Please.
 Host: Something the president has said to us many times since starting this war is: "We don't need to collaborate with other countries. We have our own oil. We're all good." We don't actually have a stockpile that's comparable to China's, as far as I can tell. We have some, but not like what you're explaining.
-How energy independent is the United States? If you were to give us a letter grade.
+How energy independent is the United States? If you were to give us a
+
+### US Energy Grade — Lugar Legacy, Tanker Armada, and Five-Year Plan Gap
+
+letter grade.
 Professor Robert Pape: We are energy independent. I'm one of the people who's been pushing for that going back to 2005 with Dick Lugar in the Senate. My work on suicide terrorism said being too wedded to the Middle East was a bad idea — let's become energy independent. That's in my 2005 book Dying to Win, and I worked with Senator Lugar on these issues. I'm a very big believer in that.
 But that's looking at only a small part of the picture. What I want is for America to be the richest, most powerful country on the planet. I'm super crystal clear on that. The problem we face right now — and I'm not saying President Trump is intending this — is that a lot of his policies are working in the opposite direction of that goal. I am deeply concerned that we are hastening the day when China will be number one.
 That's why they're sitting back at these big dinners, effectively smiling and saying, "Yeah, you just go to it in the Middle East."
@@ -48,7 +71,11 @@ Host: You saw an armada of about 171 oil tankers heading to the United States to
 Professor Robert Pape: You're exactly right. And layer into that: as the world's commodities contract, we will have to pay higher prices for the same goods in a short time, not in five or ten years.
 I'm all for trying to reshore. I'm not opposed to many of these ideas. I just want to be super clear: in principle, yes — but in practice, what's happening is we are basically wrecking a lot of things in the short term.
 You need a real plan — not just a strategy or a goal — a five-year plan for how we actually get from here to there in five years without hurting ourselves in the meantime. I actually do believe a lot of those goals could be achieved in that five-year period. I see no sign of anything that looks like that. And in fact, part of that five-year plan would not be this giant war in Iran. It just would make no sense.
-Host: When you write about this in Escalation Trap on your Substack, where do you see things heading over the next 48 hours? JD Vance is on his way to Islamabad. It doesn't look like the Iranians are even coming to the table. What do you see happening within the next 48 hours?
+Host: When you write about this in Escalation Trap on your Substack, where do you see things heading over the
+
+### Forty-Eight-Hour Clock — Zero-Sum Power, Lebanon Truce, and Debt Load
+
+next 48 hours? JD Vance is on his way to Islamabad. It doesn't look like the Iranians are even coming to the table. What do you see happening within the next 48 hours?
 Professor Robert Pape: It's not impossible. Let's look on the positive side. I've been pretty gloomy here. It's possible you'll get some kind of paper agreement out of this. But we need to understand that whatever comes out of this is not going to have a lot of stickiness to it.
 You see how easy it is for these hopes to fall apart. We had hope a week ago because we had a truce in Lebanon. President Trump, with Marco Rubio, were brokering this truce, and within 48 hours — as you have been reporting — the whole thing came unglued and they're shooting at each other again.
 These issues are zero-sum. I wrote a big article on the Substack about the zero-sum nature. It is not possible for Iran to control the Strait of Hormuz and have all that global power and not… It is not possible for Iran to have the beginnings of the material for a nuclear weapon and not… This is about power.
@@ -58,7 +85,11 @@ And one more point: your listeners know we're $40 trillion in debt. We're messin
 Host: I want to ask you about how this plays out in our lives. Most of us don't support the war. We didn't support the Biden administration because of the continuous perversion of capitalism, the destruction of our economy around COVID and the war in Ukraine. And now we're getting all of that doubled down even worse.
 So let's talk about how this is going to be for us. Not just "you can't take your Hawaiian vacation," but "can you feed your children?"
 [Short break for ad – Smile toothpaste]
-Host: We're back with Professor Pape. We're talking about what this war continues to do to our pocketbook, to our budget, to our economy. We can work as hard as we want in what we think is a capitalist system, but it can't actually work if there are bugs in the system perverting it. And right now, we will not have energy.
+Host:
+
+### Pocketbook Return — Working-Class Gas Pain and Targeted Relief Ask
+
+We're back with Professor Pape. We're talking about what this war continues to do to our pocketbook, to our budget, to our economy. We can work as hard as we want in what we think is a capitalist system, but it can't actually work if there are bugs in the system perverting it. And right now, we will not have energy.
 Professor Robert Pape: Let me give you my two cents on this. When you have these shortages, the people who go without are the poorest people — always. The richer people and the middle class will pay higher prices and give up luxuries like steak, but they will not go without as much as the poorer people.
 The group that has become poorer over the last 30 years — your audience may not really know this — is exactly Trump's core base: the non-college-educated white working class. That group has lost more ground since 1990 than anybody else. The actual reality curves show it.
 That group — truckers, for example, or people using fuel for their jobs — is going to feel this. It would make a great deal of sense for President Trump to do something akin to "no tax on tips," but for the gas prices being paid by the white working class who are actually using that fuel for their jobs.
@@ -68,7 +99,11 @@ We also just had a new poll out that's disastrous for President Trump right now 
 If you want to win in November, be the president who eliminates income tax right here at tax time for most Americans.
 Host: What I would do, sir — it's a smart idea, I don't fully disagree — but I would just focus this a little bit. The people who voted for President Trump already make far less than those who voted for Kamala Harris. I study these things. Many of these people are not making ends meet very easily, but they are actually trying to work. They have a work ethic, and that's very important to keep going.
 You should be finding specific ways to target and support this continuing working group, even as gas prices have gone up by a third or 40% — in my area here in southern Chicago, gas went up about 40% since the war started. It's got to be about that everywhere else too.
-Host: Everyone — the American people — feel it at the dinner table. They see it in their bank accounts. They see it with gas prices. How bad do you think it's going to get over the next 60 days as this continues?
+Host: Everyone — the American people — feel it at the dinner table. They see it in their bank accounts. They see it with gas prices. How bad do you think it's going to get over the
+
+### May 31 Cascade — Three-Trajectory Discipline and Erie Pennsylvania
+
+next 60 days as this continues?
 Professor Robert Pape: I think what you're going to see — and I'm focusing on the white working class who are actually working — is that between now and May 31st, they're going to be the ones feeling it the most. Then there will be cascading effects: prices at the grocery store will be more expensive because there are fewer truckers moving goods.
 I want to be very careful here. All the way through my Substack, what has made these predictions accurate is that I don't reach out six months from now. People keep wanting me to make predictions a year from now about the U.S. economy. I could probably make a lot of money on the Substack doing that, but I'm not going to because that's just hocus pocus.
 We can look at the three-trajectory pathway based on my work on sanctions and blockades: price rises, supply shortages, and contraction. As we go further, I may extend this, but it really matters where you are on May 15th versus July 1st. You can't fully see out six months from now with solid ground.
@@ -76,7 +111,11 @@ I've become Mr. Gloom and Doom on all these shows, but we've been through the pa
 Professor Robert Pape: The thing to do is to see that it's already starting to get worse and start thinking — as I am doing — about putting an actual policy on the table that by May 1st could get through Congress and the president.
 I really am not understanding why this has not already happened, except that it kind of conflicts with victory rhetoric. Scott Bessent said he hopes by sometime in the middle of summer gas will have a "three" in front of it. That's not a "two" — that tells me there's more to be done right now.
 I don't even mean this politically. Honest to God, I'm from Erie, Pennsylvania. I come from a very poor background. My mom was a waitress. My grandfather was a carpenter. This is not coming from politics. This is coming from my heart. Erie, Pennsylvania, is going to get smashed here — and those are big Trump supporters.
-Host: Do you think this is intentional? That the working class is going to be hurt? You heard President Trump talking about the purposeful devaluation of the U.S. dollar in order to bring manufacturing back. Others are saying this moves us toward a central bank digital currency or universal basic income. You're seeing energy lockdowns in Europe now. Ursula von der Leyen last week said conserve energy, and the EU is moving toward staying home one day per week — we don't want you driving. Is this intentional, or am I being too cynical?
+Host: Do you think this is intentional? That the working class is going to be hurt? You heard President Trump talking about the
+
+### Close — Consequences Over Conspiracy and Escalation Trap Plug
+
+purposeful devaluation of the U.S. dollar in order to bring manufacturing back. Others are saying this moves us toward a central bank digital currency or universal basic income. You're seeing energy lockdowns in Europe now. Ursula von der Leyen last week said conserve energy, and the EU is moving toward staying home one day per week — we don't want you driving. Is this intentional, or am I being too cynical?
 Professor Robert Pape: It's not that you're being too cynical. It's that we don't have the information to really judge that. It's similar when people ask if Israel intentionally hoodwinked us. You never hear me go down those roads because I want data. I want actual information.
 I have never spent time with Scott Bessent or the president or Howard Lutnick to have them explain why they think all this is going to make sense when it appears from all the evidence it is going the other way around.
 The real issue for me is not their intention. I don't really care what their intention is. I care about the consequences — especially the consequences on people. I care about that for Democrats and Republicans. It's the people I'm focusing on here. That's what you see from me. I'm just a kid from Erie, Pennsylvania, whose mom was a waitress and whose grandfather was a carpenter. I'm concerned about what's happening for ordinary people when they go to war or when the economy is messed with.
