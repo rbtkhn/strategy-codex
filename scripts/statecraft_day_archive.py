@@ -10,7 +10,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Literal
 
-import build_speaker_routing_queue as speaker_routing
+import build_voice_routing_queue as voice_routing
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -210,7 +210,7 @@ def is_title_fragment(candidate: str, title: str) -> bool:
 
 def is_known_speaker_label(value: str) -> bool:
     inventory = _speaker_inventory()
-    return bool(speaker_routing._match_speaker(value, inventory))  # noqa: SLF001
+    return bool(voice_routing._match_speaker(value, inventory))  # noqa: SLF001
 
 
 def is_probable_topic_fragment(candidate: str, title: str) -> bool:
@@ -286,8 +286,8 @@ def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
 
 
 @lru_cache(maxsize=1)
-def _speaker_inventory() -> speaker_routing.SpeakerInventory:
-    return speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, DEFAULT_ROOT)  # noqa: SLF001
+def _speaker_inventory() -> voice_routing.VoiceInventory:
+    return voice_routing._discover_inventory(voice_routing.DEFAULT_VOICES_DIR, DEFAULT_ROOT)  # noqa: SLF001
 
 
 def explicit_thread_values(meta: dict[str, Any]) -> tuple[str, ...]:
@@ -311,12 +311,12 @@ def derive_thread_values(meta: dict[str, Any], guest_values: tuple[str, ...]) ->
 
     inventory = _speaker_inventory()
 
-    host_slug = speaker_routing._canonical_host_slug(meta)  # noqa: SLF001
+    host_slug = voice_routing._canonical_host_slug(meta)  # noqa: SLF001
     if host_slug and host_slug in inventory.speaker_folders and host_slug not in out:
         out.append(host_slug)
 
     for guest in guest_values:
-        guest_slug = speaker_routing._match_speaker(guest, inventory)  # noqa: SLF001
+        guest_slug = voice_routing._match_speaker(guest, inventory)  # noqa: SLF001
         if guest_slug and guest_slug not in out:
             out.append(guest_slug)
 

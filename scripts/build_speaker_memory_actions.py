@@ -25,7 +25,7 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 from repo_io import ARTIFACTS_DIR
 
-import build_speaker_routing_queue as routing  # noqa: E402
+import build_voice_routing_queue as routing  # noqa: E402
 
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
@@ -66,7 +66,7 @@ def _load_jsonl(path: Path) -> list[dict[str, Any]]:
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
         if line:
-            rows.append(json.loads(line))
+            rows.append(routing.normalize_route_row(json.loads(line)))
     return rows
 
 
@@ -130,7 +130,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
     host_slug = appearance.get("host_slug", "")
     primary = str(row.get("primary_route") or row.get("recommended_route") or "")
 
-    if route_type == "existing-speaker-arc":
+    if route_type == "existing-voice-arc":
         return ActionDraft(
             action_type="update-existing-arc",
             priority="high",
@@ -143,7 +143,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             operator_instruction="Review the raw-input and update the existing speaker arc if it changes the ranked arc set, open-first choice, or boundary.",
         )
 
-    if route_type == "existing-speaker-object" and next_action == "create-candidate-arc":
+    if route_type == "existing-voice-object" and next_action == "create-candidate-arc":
         return ActionDraft(
             action_type="create-candidate-arc",
             priority="medium",
@@ -156,7 +156,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             operator_instruction="Decide whether this host x speaker pairing deserves a new speaker-arc note before editing the speaker object.",
         )
 
-    if route_type == "existing-speaker-object":
+    if route_type == "existing-voice-object":
         return ActionDraft(
             action_type="review-existing-object",
             priority="medium",
@@ -169,7 +169,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             operator_instruction="Review whether the speaker object open-first, routing use, or boundaries need a small update.",
         )
 
-    if route_type == "candidate-speaker-object":
+    if route_type == "candidate-voice-object":
         return ActionDraft(
             action_type="create-candidate-object",
             priority="medium",
@@ -182,7 +182,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             operator_instruction="Create a speaker-object note only if this recurring figure deserves durable orientation.",
         )
 
-    if route_type == "candidate-speaker-arc":
+    if route_type == "candidate-voice-arc":
         return ActionDraft(
             action_type="create-candidate-arc",
             priority="medium",
@@ -391,8 +391,8 @@ def write_outputs(
 
 def build_routing_rows(start: date, end: date, notebook_root: Path) -> list[dict[str, Any]]:
     notebook_root = notebook_root.resolve()
-    speakers_dir = routing.DEFAULT_SPEAKERS_DIR
-    inventory = routing._discover_inventory(speakers_dir, notebook_root)
+    voices_dir = routing.DEFAULT_VOICES_DIR
+    inventory = routing._discover_inventory(voices_dir, notebook_root)
     raw_root = notebook_root / "raw-input"
     return routing.build_rows(routing._discover_raw_inputs(raw_root, start, end), inventory, notebook_root)
 

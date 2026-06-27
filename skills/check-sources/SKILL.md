@@ -502,7 +502,7 @@ If a channel has no upload on the target day, say so explicitly.
    - Appearance / routing queues are **not** auto-emitted by source-intake; run routing builders manually when the operator wants them (see below).
    - Treat the host-shelf quality summary as the benchmark surface for structural gain, transcript-purity gain, unresolved speaker count, and scoped git state.
    - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
-   - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
+   - For a durable advisory queue, run `python scripts/build_voice_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/voice-routing/<start>_to_<end>/voice-routing-queue.md` plus `appearance-ledger.jsonl`.
    - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
    - Prefer existing host-local speaker arcs as the primary route when host + guest match; list matching speaker objects or helix/cross-host notes as additional strengthened surfaces.
    - Distinguish the surface type: use **host-local arc** for one host x guest braid, **thread atlas** for recurring strands across months or hosts, and **speaker helix** for cross-host comparison of multiple host-local arcs.
@@ -614,7 +614,7 @@ When checking whether a day is complete:
 - when `summary.json` includes `target_date_*` or `target_window_*`, use those fields for the operator-facing verdict
 - treat `overall_backlog_status` as a backlog-health signal, not as the answer to a date-scoped request
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD --roster watchlist` (default reconciles `source-archive/statecraft`; use `--roster main` for full channel-index roster)
-- when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
+- when you need a derived voice-routing queue after materialization, run `python scripts/build_voice_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
 - when you need concrete speaker-memory follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory action artifacts only and does not edit speaker folders
 
 ### Capture mode diagnosis
@@ -677,7 +677,7 @@ After operator selection, report only the approved items being landed and the re
 
 When a check-sources repair becomes a commit candidate, keep the ship slice narrow:
 
-- stage only source-archive captures, check-sources audit artifacts, speaker-routing/action receipts, and cadence lines
+- stage only source-archive captures, check-sources audit artifacts, voice-routing/action receipts, and cadence lines
 - leave runtime observability, memory, handoff, host-quality background churn, and unrelated benchmark artifacts untouched unless explicitly scoped
 - before suggesting push safety, report branch ahead count and any remaining untracked capture artifacts
 
@@ -759,6 +759,6 @@ python scripts/sync_portable_skills.py --skill check-sources
 python scripts/sync_portable_skills.py --verify --skill check-sources
 python -c "from pathlib import Path; import sys; sys.path.insert(0,'scripts'); from statecraft_youtube_discovery import load_check_sources_roster; print(len(load_check_sources_roster()))"
 python scripts/refresh_statecraft_archive_indices.py
-python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
+python scripts/build_voice_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
 python scripts/validate_skills.py
 ```

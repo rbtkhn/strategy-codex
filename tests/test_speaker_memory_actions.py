@@ -19,7 +19,7 @@ def row(
     *,
     speaker: str = "beebe",
     host: str = "diesen",
-    route_type: str = "existing-speaker-arc",
+    route_type: str = "existing-voice-arc",
     next_action: str = "update-existing-arc",
     primary: str = "codex/years/2026/diesen/arc-beebe-diesen-host.md",
     also: list[str] | None = None,
@@ -64,7 +64,7 @@ def test_existing_object_with_candidate_arc_emits_create_candidate_arc() -> None
         [
             row(
                 "ap-object0001",
-                route_type="existing-speaker-object",
+                route_type="existing-voice-object",
                 next_action="create-candidate-arc",
                 primary="statecraft/voices/beebe/beebe-speaker-object.md",
                 also=["codex/years/2026/davis/davis-beebe-speaker-arc.md"],
@@ -83,7 +83,7 @@ def test_candidate_object_route_emits_create_candidate_object() -> None:
             row(
                 "ap-object0002",
                 speaker="guest",
-                route_type="candidate-speaker-object",
+                route_type="candidate-voice-object",
                 next_action="create-candidate-object",
                 primary="statecraft/voices/guest/guest-speaker-object.md",
             )

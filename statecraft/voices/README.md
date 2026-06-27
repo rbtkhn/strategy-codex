@@ -367,6 +367,12 @@ Instead:
 - preserve host-led mature-month exception shelves where month ownership still belongs to host arcs and the non-core bench
 - let canonical statecraft-side authority migrate first, then migrate heavier support only where that second step makes chronology and retrieval cleaner rather than merely more symmetrical
 
+## Voice vs speaker (terminology)
+
+- **`statecraft/voices/`** — synthesis **layer** (folder name).
+- **Voice-routing queue** — advisory automation from source-archive frontmatter (`scripts/build_voice_routing_queue.py` → `runtime/artifacts/voice-routing/`). Not Grace-Mar Record Voice.
+- **Speaker-state** — continuity object on a shelf (`{speaker}-routing.md`, `{speaker}-speaker-object.md`, host×guest arcs). “Speaker” here means retrieval identity, not the voices/ path label.
+
 ## Flat shelf law
 
 **Effective 2026-06:** every speaker shelf root is **flat**.

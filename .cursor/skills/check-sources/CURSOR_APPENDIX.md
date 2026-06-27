@@ -30,6 +30,6 @@ python scripts/sync_portable_skills.py --skill check-sources
 python scripts/sync_portable_skills.py --verify --skill check-sources
 python -c "from pathlib import Path; import sys; sys.path.insert(0,'scripts'); from statecraft_youtube_discovery import load_check_sources_roster; print(len(load_check_sources_roster()))"
 python scripts/refresh_statecraft_archive_indices.py
-python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
+python scripts/build_voice_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
 python scripts/validate_skills.py
 ```

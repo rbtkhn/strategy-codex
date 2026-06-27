@@ -58,7 +58,7 @@ Full channel display names: **Daniel Davis**, **Mario Nawfal**, **Judging Freedo
 | [normalize_dialogue_works_opening_scaffold.py](../../../scripts/normalize_dialogue_works_opening_scaffold.py) | `is_dialogue_works_capture` — require `channel_slug: dialogue-works` |
 | [post_land_dialogue_works_opening_normalize.py](../../../scripts/post_land_dialogue_works_opening_normalize.py) | same guard |
 | [build_two_pillar_notebook_graph.py](../../../scripts/build_two_pillar_notebook_graph.py) | `host_thread`: `alkorshid` (+ `nima` read alias) |
-| [build_speaker_routing_queue.py](../../../scripts/build_speaker_routing_queue.py) | route `alkorshid` thread |
+| [build_voice_routing_queue.py](../../../scripts/build_voice_routing_queue.py) | route `alkorshid` thread |
 | [cognition_streams_audit.py](../../../scripts/cognition_streams_audit.py) | verify `alkorshid` token |
 | [backfill_nima_youtube_raw_input.py](../../../scripts/backfill_nima_youtube_raw_input.py) | doc note: targets `@dialogueworks01`, not thread rename |
 

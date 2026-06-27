@@ -24,7 +24,7 @@ SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
-import build_speaker_routing_queue as speaker_routing  # noqa: E402
+import build_voice_routing_queue as voice_routing  # noqa: E402
 
 
 DEFAULT_RAW_ROOT = REPO_ROOT / "source-archive" / "statecraft"
@@ -221,7 +221,7 @@ def _record_from_path(path: Path, *, scope: str, raw_root: Path) -> RawInputReco
     kind = str(meta.get("kind") or "").strip()
     profile = _body_profile(meta, body)
     evidence_grade = (
-        speaker_routing.classify_evidence_grade(meta)
+        voice_routing.classify_evidence_grade(meta)
         if kind.casefold() == "transcript"
         else ""
     )

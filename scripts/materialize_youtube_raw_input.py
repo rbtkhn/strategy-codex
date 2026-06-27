@@ -28,7 +28,7 @@ from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 import build_speaker_memory_actions as speaker_actions  # noqa: E402
-import build_speaker_routing_queue as speaker_routing  # noqa: E402
+import build_voice_routing_queue as voice_routing  # noqa: E402
 import build_statecraft_archive_navigation as statecraft_archive_navigation  # noqa: E402
 import build_statecraft_day_indices as statecraft_day_indices  # noqa: E402
 import build_statecraft_month_indices as statecraft_month_indices  # noqa: E402
@@ -49,7 +49,7 @@ from statecraft_youtube_discovery import (  # noqa: E402
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
-DEFAULT_ROUTING_OUT = ARTIFACTS_DIR / "speaker-routing"
+DEFAULT_ROUTING_OUT = ARTIFACTS_DIR / "voice-routing"
 DEFAULT_ACTION_OUT = ARTIFACTS_DIR / "speaker-memory-actions"
 DEFAULT_HOST_QUALITY_OUT = ARTIFACTS_DIR / "host-shelf-quality"
 MIN_BODY_WORDS = 75
@@ -267,7 +267,7 @@ def effective_body_text(body: str) -> str:
 
 
 def classify_evidence_grade(frontmatter: dict[str, Any], verification_reason: str = "") -> str:
-    return speaker_routing.classify_evidence_grade(frontmatter, verification_reason)
+    return voice_routing.classify_evidence_grade(frontmatter, verification_reason)
 
 
 def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, VerificationResult] | None:
@@ -314,13 +314,13 @@ def _host_slug_candidates(host: str | None) -> set[str]:
 
 
 def infer_guest_from_title(title: str, notebook_root: Path, host: str | None = None) -> tuple[str | None, str | None]:
-    speakers_dir = speaker_routing.DEFAULT_SPEAKERS_DIR
-    if not speakers_dir.is_dir():
+    voices_dir = voice_routing.DEFAULT_VOICES_DIR
+    if not voices_dir.is_dir():
         return None, None
     title_text = f" {title.casefold()} "
     matches: list[str] = []
     host_slugs = _host_slug_candidates(host)
-    for folder in sorted(path for path in speakers_dir.iterdir() if path.is_dir()):
+    for folder in sorted(path for path in voices_dir.iterdir() if path.is_dir()):
         slug = folder.name
         candidates = {slug, slug.replace("-", " ")}
         obj = folder / f"{slug}-speaker-object.md"
@@ -773,13 +773,13 @@ def build_appearance_artifacts(
     run_id: str,
     include_no_action: bool,
 ) -> dict[str, str]:
-    raw_paths = speaker_routing.normalize_raw_input_paths(raw_paths)
+    raw_paths = voice_routing.normalize_raw_input_paths(raw_paths)
     if not raw_paths:
         return {}
-    start, end = speaker_routing.window_for_raw_paths(raw_paths)
-    inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, notebook_root)
-    routing_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
-    unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
+    start, end = voice_routing.window_for_raw_paths(raw_paths)
+    inventory = voice_routing._discover_inventory(voice_routing.DEFAULT_VOICES_DIR, notebook_root)
+    routing_rows = voice_routing.build_rows(raw_paths, inventory, notebook_root)
+    unresolved_rows = voice_routing.build_unresolved_rows(raw_paths, inventory)
     paths = {
         "appearance_count": str(len(routing_rows)),
         "action_count": "0",
@@ -790,7 +790,7 @@ def build_appearance_artifacts(
     }
     if not routing_rows:
         return paths
-    routing_written = speaker_routing.write_outputs(
+    routing_written = voice_routing.write_outputs(
         routing_rows,
         DEFAULT_ROUTING_OUT / run_id,
         start,
@@ -806,8 +806,8 @@ def build_appearance_artifacts(
     )
     paths.update(
         {
-            "speaker_routing_jsonl": routing_written["jsonl"],
-            "speaker_routing_markdown": routing_written["markdown"],
+            "voice_routing_jsonl": routing_written["jsonl"],
+            "voice_routing_markdown": routing_written["markdown"],
             "appearance_ledger": routing_written["appearance_ledger"],
             "appearance_rollup_json": action_written["appearance_rollup_json"],
             "appearance_rollup_markdown": action_written["appearance_rollup_markdown"],
@@ -1303,7 +1303,7 @@ def main(argv: list[str] | None = None) -> int:
     items = load_approved_urls(args.input, args.url)
     raw_input_paths = list(args.raw_input)
     if args.raw_input_list:
-        raw_input_paths.extend(speaker_routing.load_raw_input_list(args.raw_input_list))
+        raw_input_paths.extend(voice_routing.load_raw_input_list(args.raw_input_list))
     if not items and not raw_input_paths:
         print("materialize_youtube_raw_input: provide --url, --input, --raw-input, or --raw-input-list", file=sys.stderr)
         return 2

@@ -24,7 +24,7 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 from repo_io import ARTIFACTS_DIR
 
-import build_speaker_routing_queue as speaker_routing  # noqa: E402
+import build_voice_routing_queue as voice_routing  # noqa: E402
 
 
 DEFAULT_OUT_ROOT = ARTIFACTS_DIR / "host-shelf-quality"
@@ -83,7 +83,7 @@ def _rel(path: Path) -> str:
 
 
 def _host_slug(value: str) -> str:
-    return speaker_routing._canonical_host_slug(  # noqa: SLF001
+    return voice_routing._canonical_host_slug(  # noqa: SLF001
         {"host": value, "show": value, "channel_slug": value, "thread": value}
     )
 
@@ -243,12 +243,12 @@ def discover_raw_inputs(
     raw_input_list: Path | None = None,
 ) -> list[Path]:
     if raw_input_list:
-        candidates = speaker_routing.load_raw_input_list(raw_input_list)
+        candidates = voice_routing.load_raw_input_list(raw_input_list)
     else:
         month = int(month_label.split("-", 1)[1])
         start, end = _month_bounds(year, month)
-        candidates = speaker_routing._discover_raw_inputs(notebook_root / "raw-input", start, end)  # noqa: SLF001
-    return speaker_routing.normalize_raw_input_paths(candidates)
+        candidates = voice_routing._discover_raw_inputs(notebook_root / "raw-input", start, end)  # noqa: SLF001
+    return voice_routing.normalize_raw_input_paths(candidates)
 
 
 def filter_host_month_paths(paths: list[Path], *, host: str, year: int, month_label: str) -> list[Path]:
@@ -257,11 +257,11 @@ def filter_host_month_paths(paths: list[Path], *, host: str, year: int, month_la
     for path in paths:
         if not path.exists():
             continue
-        meta = speaker_routing._read_frontmatter(path)  # noqa: SLF001
+        meta = voice_routing._read_frontmatter(path)  # noqa: SLF001
         current = _raw_date(path, meta)
         if not current or current.year != year or current.strftime("%Y-%m") != month_label:
             continue
-        if speaker_routing._canonical_host_slug(meta) != host_slug:  # noqa: SLF001
+        if voice_routing._canonical_host_slug(meta) != host_slug:  # noqa: SLF001
             continue
         out.append(path)
     return out
@@ -306,9 +306,9 @@ def build_quality_summary(
 ) -> dict[str, Any]:
     host_slug = _host_slug(host)
     raw_paths = filter_host_month_paths(raw_paths, host=host_slug, year=year, month_label=month_label)
-    inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, notebook_root)  # noqa: SLF001
-    routeable_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
-    unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
+    inventory = voice_routing._discover_inventory(voice_routing.DEFAULT_VOICES_DIR, notebook_root)  # noqa: SLF001
+    routeable_rows = voice_routing.build_rows(raw_paths, inventory, notebook_root)
+    unresolved_rows = voice_routing.build_unresolved_rows(raw_paths, inventory)
     routeable_paths = {row["raw_input_path"] for row in routeable_rows}
     unresolved_paths = {row["raw_input_path"] for row in unresolved_rows}
 
@@ -316,8 +316,8 @@ def build_quality_summary(
     total_words = 0
     artifacts: list[dict[str, Any]] = []
     for path in raw_paths:
-        meta = speaker_routing._read_frontmatter(path)  # noqa: SLF001
-        grade = speaker_routing.classify_evidence_grade(meta)
+        meta = voice_routing._read_frontmatter(path)  # noqa: SLF001
+        grade = voice_routing.classify_evidence_grade(meta)
         if grade not in counts:
             grade = "legacy-appearance-only"
         counts[grade] += 1
@@ -503,13 +503,13 @@ def write_quality_reports_for_paths(
     output_root: Path = DEFAULT_OUT_ROOT,
     expand_to_month: bool = False,
 ) -> list[dict[str, Any]]:
-    normalized = speaker_routing.normalize_raw_input_paths(raw_paths)
+    normalized = voice_routing.normalize_raw_input_paths(raw_paths)
     grouped: dict[tuple[str, int, str], list[Path]] = {}
     for path in normalized:
         if not path.exists():
             continue
-        meta = speaker_routing._read_frontmatter(path)  # noqa: SLF001
-        host_slug = speaker_routing._canonical_host_slug(meta)  # noqa: SLF001
+        meta = voice_routing._read_frontmatter(path)  # noqa: SLF001
+        host_slug = voice_routing._canonical_host_slug(meta)  # noqa: SLF001
         current = _raw_date(path, meta)
         if not host_slug or not current:
             continue

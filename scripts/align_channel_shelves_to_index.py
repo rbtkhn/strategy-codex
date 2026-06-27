@@ -34,7 +34,14 @@ PATH_REPLACEMENTS = [
     ("(nima/README.md)", "(dialogue-works/README.md)"),
 ]
 
-SKIP_DIRS = {".git", ".git-local", "node_modules", "__pycache__", "runtime/artifacts/speaker-routing"}
+SKIP_DIRS = {
+    ".git",
+    ".git-local",
+    "node_modules",
+    "__pycache__",
+    "runtime/artifacts/speaker-routing",
+    "runtime/artifacts/voice-routing",
+}
 TEXT_SUFFIXES = {".md", ".mdc", ".py", ".yaml", ".yml", ".json", ".toml", ".txt"}
 
 VOICE_PRIMARY = {
