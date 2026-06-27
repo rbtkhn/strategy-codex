@@ -1,5 +1,5 @@
 version: 1
-updated_at: '2026-06-21'
+updated_at: '2026-06-26'
 purpose: Machine-readable routing hints for LLM and tool navigation. Not an authority surface.
 routes:
 - id: llm-routing
@@ -219,7 +219,7 @@ routes:
   - which speaker after Pape
   - anchor satellite routing
   category: work
-- id: davis-host-shelf
+- id: daniel-davis-host-shelf
   title: Davis (Deep Dive) host shelf
   path: statecraft/channels/daniel-davis/README.md
   kind: routing_aid
@@ -292,7 +292,7 @@ routes:
   - Daniel Davis guest
   - Davis cross-host
   category: work
-- id: napolitano-host-shelf
+- id: judging-freedom-host-shelf
   title: Napolitano (Judging Freedom) host shelf
   path: statecraft/channels/judging-freedom/README.md
   kind: routing_aid
@@ -318,7 +318,7 @@ routes:
   - Napolitano profile
   - legal process host
   category: work
-- id: nima-host-shelf
+- id: dialogue-works-host-shelf
   title: Nima (Dialogue Works) host shelf
   path: statecraft/channels/dialogue-works/README.md
   kind: routing_aid
@@ -472,7 +472,7 @@ routes:
 - id: memory
   title: Operator continuity buffer
   path: memory.md
-  kind: work_continuity
+  kind: canonical_reference
   authority: work_only
   tags:
   - memory
@@ -484,8 +484,8 @@ routes:
 - id: grace-mar-self-library
   title: Museum self-library (archive)
   path: archive/grace-mar-instance/self-library.md
-  kind: museum_reference
-  authority: archive
+  kind: canonical_reference
+  authority: canonical_self_library
   tags:
   - museum
   - library
@@ -961,6 +961,274 @@ routes:
   - Karaganov index
   - karaganov source index
   category: work
+- id: reason-resist-channel-index
+  title: Reason to Resist channel index
+  path: statecraft/channels/reason-resist/reason-resist-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  hosts:
+  - Reason to Resist
+  people:
+  - Dimitri Lascaris
+  tags:
+  - reason-resist
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Reason to Resist index
+  - reason-resist-channel-index
+  - Lascaris host
+  category: work
+- id: alexander-mercouris-host-shelf
+  title: Alexander Mercouris host shelf
+  path: statecraft/channels/alexander-mercouris/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - alexander-mercouris
+  tags:
+  - alexander-mercouris
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Alexander Mercouris host
+  - alexander-mercouris profile
+  category: work
+- id: breaking-points-host-shelf
+  title: Breaking Points host shelf
+  path: statecraft/channels/breaking-points/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - breaking-points
+  tags:
+  - breaking-points
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Breaking Points host
+  - breaking-points profile
+  category: work
+- id: glenn-diesen-host-shelf
+  title: Glenn Diesen host shelf
+  path: statecraft/channels/glenn-diesen/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - glenn-diesen
+  tags:
+  - glenn-diesen
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Glenn Diesen host
+  - glenn-diesen profile
+  category: work
+- id: india-global-left-host-shelf
+  title: India Global Left host shelf
+  path: statecraft/channels/india-global-left/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - india-global-left
+  tags:
+  - india-global-left
+  - host-shelf
+  - statecraft
+  search_hints:
+  - India Global Left host
+  - india-global-left profile
+  category: work
+- id: mario-nawfal-host-shelf
+  title: Mario Nawfal host shelf
+  path: statecraft/channels/mario-nawfal/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - mario-nawfal
+  tags:
+  - mario-nawfal
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Mario Nawfal host
+  - mario-nawfal profile
+  category: work
+- id: moral-resistance-host-shelf
+  title: Moral Resistance host shelf
+  path: statecraft/channels/moral-resistance/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - moral-resistance
+  tags:
+  - moral-resistance
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Moral Resistance host
+  - moral-resistance profile
+  category: work
+- id: neutrality-studies-host-shelf
+  title: Neutrality Studies host shelf
+  path: statecraft/channels/neutrality-studies/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - neutrality-studies
+  tags:
+  - neutrality-studies
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Neutrality Studies host
+  - neutrality-studies profile
+  category: work
+- id: predictive-history-host-shelf
+  title: Predictive History host shelf
+  path: statecraft/channels/predictive-history/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - predictive-history
+  tags:
+  - predictive-history
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Predictive History host
+  - predictive-history profile
+  category: work
+- id: reason-resist-host-shelf
+  title: Reason Resist host shelf
+  path: statecraft/channels/reason-resist/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - reason-resist
+  tags:
+  - reason-resist
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Reason Resist host
+  - reason-resist profile
+  category: work
+- id: redacted-news-host-shelf
+  title: Redacted News host shelf
+  path: statecraft/channels/redacted-news/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - redacted-news
+  tags:
+  - redacted-news
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Redacted News host
+  - redacted-news profile
+  category: work
+- id: the-duran-host-shelf
+  title: The Duran host shelf
+  path: statecraft/channels/the-duran/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - the-duran
+  tags:
+  - the-duran
+  - host-shelf
+  - statecraft
+  search_hints:
+  - The Duran host
+  - the-duran profile
+  category: work
+- id: tucker-carlson-host-shelf
+  title: Tucker Carlson host shelf
+  path: statecraft/channels/tucker-carlson/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - tucker-carlson
+  tags:
+  - tucker-carlson
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Tucker Carlson host
+  - tucker-carlson profile
+  category: work
+- id: blumenthal-source-index
+  title: Blumenthal source index
+  path: statecraft/voices/blumenthal/blumenthal-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - blumenthal
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Blumenthal index
+  - blumenthal source index
+  category: work
+- id: jermy-source-index
+  title: Jermy source index
+  path: statecraft/voices/jermy/jermy-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - jermy
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Jermy index
+  - jermy source index
+  category: work
+- id: krapivnik-source-index
+  title: Krapivnik source index
+  path: statecraft/voices/krapivnik/krapivnik-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - krapivnik
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Krapivnik index
+  - krapivnik source index
+  category: work
 - id: lascaris-source-index
   title: Lascaris source index
   path: statecraft/voices/lascaris/lascaris-source-index.md
@@ -974,4 +1242,18 @@ routes:
   search_hints:
   - Lascaris index
   - lascaris source index
+  category: work
+- id: mate-source-index
+  title: Maté source index
+  path: statecraft/voices/mate/mate-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - mate
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Maté index
+  - mate source index
   category: work

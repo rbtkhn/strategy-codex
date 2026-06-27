@@ -69,7 +69,7 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 
 ## Host / compatibility entries
 
-- [Lascaris source index](../lascaris/lascaris-source-index.md) — Reason to Resist host shelf (May 24 dormitory + May 26 flotilla + Jun 13 Lascaris host)
+- [Reason to Resist channel index](../../channels/reason-resist/reason-resist-channel-index.md) — host shelf (May 24 dormitory + May 26 flotilla + Jun 13/25 Helmer; Jun 18 Henningsen)
 - [Dialogue Works index](../../channels/dialogue-works/dialogue-works-channel-index.md) — partial Helmer rows pre-archive migration
 - [Dialogue Works inventory](../../sheets/source-archive-control/dialogue-works-inventory.md) — wider uncaptured run
 

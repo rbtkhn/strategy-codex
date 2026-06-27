@@ -14,9 +14,10 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 |---|---|
 | Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
+| Blumenthal | [blumenthal/blumenthal-source-index.md](blumenthal/blumenthal-source-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
 | Dialogue Works | [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
-| Diesen | guest: [diesen/diesen-index.md](diesen/diesen-index.md) · host: [../channels/glenn-diesen/glenn-diesen-channel-index.md](../channels/glenn-diesen/glenn-diesen-channel-index.md) |
+| Diesen | guest: [diesen/diesen-index.md](diesen/diesen-index.md) · source: [diesen/diesen-source-index.md](diesen/diesen-source-index.md) · host: [../channels/glenn-diesen/glenn-diesen-channel-index.md](../channels/glenn-diesen/glenn-diesen-channel-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |
 | Hoh | [hoh/hoh-source-index.md](hoh/hoh-source-index.md) |
@@ -24,9 +25,9 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Jermy | [jermy/jermy-source-index.md](jermy/jermy-source-index.md) |
 | Johnson | [johnson/johnson-source-index.md](johnson/johnson-source-index.md) |
 | Karaganov | [karaganov/karaganov-source-index.md](karaganov/karaganov-source-index.md) |
+| Lascaris | [lascaris/lascaris-source-index.md](lascaris/lascaris-source-index.md) |
 | Kent | [kent/kent-source-index.md](kent/kent-source-index.md) |
 | Krapivnik | [krapivnik/krapivnik-source-index.md](krapivnik/krapivnik-source-index.md) |
-| Lascaris | [lascaris/lascaris-source-index.md](lascaris/lascaris-source-index.md) |
 | Macgregor | [macgregor/macgregor-source-index.md](macgregor/macgregor-source-index.md) |
 | Maté | [mate/mate-source-index.md](mate/mate-source-index.md) |
 | Marandi | [marandi/marandi-source-index.md](marandi/marandi-source-index.md) |

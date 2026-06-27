@@ -42,7 +42,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 | `predictive-history` | [predictive-history/](predictive-history/README.md) | | Operator PH YouTube (≠ `codex/predictive-history/` book) |
 | `breaking-points` | [breaking-points/](breaking-points/README.md) | | |
 | `tucker-carlson` | [tucker-carlson/](tucker-carlson/README.md) | | |
-| `reason-resist` | [reason-resist/](reason-resist/README.md) | | |
+| `reason-resist` | [reason-resist/](reason-resist/README.md) | | **Host-only:** Dimitri Lascaris = channel law, not a voice shelf — [reason-resist-channel-index.md](reason-resist/reason-resist-channel-index.md); no `lascaris-index`; guests → [voices/](../voices/) |
 | `redacted-news` | [redacted-news/](redacted-news/README.md) | yes | |
 | `moral-resistance` | [moral-resistance/](moral-resistance/README.md) | | Sulaiman Ahmed; MOU / legislative-action lane |
 

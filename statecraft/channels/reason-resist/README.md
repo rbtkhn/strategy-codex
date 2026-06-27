@@ -11,7 +11,7 @@ Canonical live **channel shelf** for archive key **`reason-resist`** (`channel_s
 
 ## Open first
 
-- [reason-resist-index.md](reason-resist-index.md)
+- [reason-resist-channel-index.md](reason-resist-channel-index.md)
 - [index.md](index.md)
 
 ## Host role
@@ -25,4 +25,4 @@ Open this shelf when the job is **host-conditioned guest transformation** on **R
 
 ## Boundary
 
-Host-law and routing only. Guest mechanism depth lives on **`statecraft/voices/<guest>/`**, not here.
+Host-law and routing only. **Lascaris is host-only** — no `voices/lascaris/` corpus. Guest mechanism depth lives on **`statecraft/voices/<guest>/`**, not here.
