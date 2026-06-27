@@ -3767,3 +3767,96 @@ Routing: [statecraft-source-intake SKILL](../skills/statecraft-source-intake/SKI
 
 **Pattern promotion:** defer until second distinct channel family audit reuses backfill script without new law beyond (1)(2).
 
+---
+
+## 2026-06-26 - Reason to Resist host-only shelf + transcript section balance ladder
+
+**Tag:** `reason-resist` · `host-only-channel` · `curated-sectioned` · `section-balance` · `quantify-section-nav` · `transcript-anchor-order`  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows** to flatten→re-anchor batch on already-sectioned captures; does not replace base parallel-ban law.
+
+### Trigger
+
+Reason to Resist EXECUTE arc: operator locked **Lascaris = channel host only** (no `voices/lascaris/` corpus); three flat May captures needed `curated_sectioned` rails; `quantify_section_nav` exposed **73w stub**, **3466w Helmer monolith**, **1510w morality block**, and **mis-ordered anchors** (Matilda outro anchor before Ihab intro → content under wrong `###` title). Fix ladder: initial section pass → quantify receipt → balance pass (flatten + re-anchor) → May trio zero warnings → commit `ebacef942` + push.
+
+### Extracted law
+
+**1. Host-only channel SSOT**
+
+```text
+When operator names a show host as routing law (not guest mechanism):
+  SSOT → statecraft/channels/{slug}/{slug}-channel-index.md
+  compat → {slug}-index.md stub + legacy host-index redirect to channel index
+  no new statecraft/voices/{host}/ shelf unless operator promotes guest mechanism
+```
+
+**2. Section pass → quantify → balance ladder**
+
+```text
+Land curated_sectioned (all anchors dry-run validated before write)
+  → quantify_section_nav per capture
+  → balance pass on failures: flatten ### body → re-anchor → insert_sections
+Stub fix (<100w): merge into adjacent rail — drop split anchor, rename merged title
+Overweight fix (>1500w): split at load-bearing transcript pivots (quotable anchors), not word-count math
+Re-run quantify until target capture is clean before corpus receipt
+```
+
+**3. Re-section recipe (already sectioned file)**
+
+```text
+flatten: strip ^### headings → join paragraph chunks
+validate anchors on flat text (title count = anchor count + 1)
+insert_sections + mark_sectioned_frontmatter
+Do not call write_sectioned_capture on ### body without flatten first
+```
+
+**4. Anchor ordering invariant**
+
+```text
+Anchors MUST follow transcript chronology.
+A line that ENDS segment A must not appear as an anchor AFTER segment B's start anchor.
+Failure mode: tiny mis-titled rail + guest content under wrong ### title.
+```
+
+### Reapplication
+
+- **Host-only channels:** Reason to Resist (shipped); same pattern as Duran/Mercouris host-vs-guest split — channel-index + stub, not host voice shelf.
+- **Jun Reason to Resist captures:** thematic retitle pass on bootstrap `Segment N —` slugs (slug warning only; balance ladder not required).
+- **Long solo / interview captures:** after first section pass, always run `quantify_section_nav` before calling shelf clean.
+- **New balance scripts:** copy `patch_reason_resist_may_balance.py` flatten → validate → insert pattern.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| `source-archive/statecraft/2026-05-{18,24,26}/source-lascaris-*.md` | `curated_sectioned`; May trio **zero** section-nav warnings post-balance |
+| `scripts/patch_reason_resist_may_sections.py` | Initial May section map |
+| `scripts/patch_reason_resist_may_balance.py` | Flatten + re-anchor specs (May 18/24/26) |
+| `scripts/quantify_section_nav.py` | Corpus hygiene receipt CLI |
+| `statecraft/channels/reason-resist/reason-resist-channel-index.md` | **New** SSOT — 6/6 sectioned note |
+| Routing | `repo-map.yaml`, `LLM-ROUTING.md`, `lascaris-source-index` → channel redirect, Helmer cross-links |
+| Git | `ebacef942` on `origin/main` |
+
+### Guardrail
+
+```text
+Do not split monoliths at arbitrary word boundaries — pivot must be quotable anchor in transcript
+Do not create voices/{host}/ when operator locked host-only channel law
+Do not report corpus clean without quantify on every capture in the shelf
+Do not re-section without flatten — write_sectioned_capture rejects ### bodies
+Do not duplicate host-only channel law in RLJ without cross-link — wire lives in channel-index + channels README
+```
+
+**Falsification:** Multi-guest crosstalk with ambiguous pivots → word-balance splits mis-title rails; defer split, flag in channel-index Notes, or operator-pick anchors.
+
+### Current lesson
+
+```text
+Transcript sectioning is a two-pass machine: land rails, quantify exposes stubs and monoliths,
+balance pass merges/splits on transcript pivots. Host-only shows get channel-index SSOT — not a voice shelf by default.
+```
+
+Routing: [reason-resist-channel-index.md](../statecraft/channels/reason-resist/reason-resist-channel-index.md) · [patch_reason_resist_may_balance.py](../scripts/patch_reason_resist_may_balance.py) · [patch_reason_resist_may_sections.py](../scripts/patch_reason_resist_may_sections.py) · [quantify_section_nav.py](../scripts/quantify_section_nav.py) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+
+**Pattern promotion:** defer until second distinct channel or capture family reuses balance ladder without new law beyond (2)(3).
+
+---
