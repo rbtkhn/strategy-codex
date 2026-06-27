@@ -14,8 +14,9 @@ publication: youtube.com
 source_url: "https://www.youtube.com/watch?v=-6orPmr4ldo"
 source_type: youtube
 transcript_type: auto_subtitles_vtt
-editorial_note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not speaker-normalized or human-verified verbatim.
+editorial_note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not speaker-normalized or human-verified verbatim. · source-section pass 2026-06-27 (9 sections)."
 opening_tier: host-monologue
+transcript_curation: curated_sectioned
 ---
 
 # TRUMP'S NEXT IRAN STEPS REVEALED - w/ #1 Political Scientist Prof. Robert Pape
@@ -26,6 +27,9 @@ opening_tier: host-monologue
 **Transcript:** Lightly deduped from YouTube auto-captions; not speaker-normalized.
 
 ## Transcript
+
+
+### Show Open — Ceasefire Illusion and Escalation Ladder Check-in
 
 just said, President Lucenko, who I
 
@@ -41,7 +45,11 @@ able to avoid it."
 
 >> All right. Um, cool. Well, Professor,
 
-it's a pleasure to speak to you again.
+it's a
+
+### Escalation Trap Stages — Fork Between Path Three and Four
+
+pleasure to speak to you again.
 
 Um, I really enjoyed our last two
 
@@ -100,6 +108,8 @@ ladder?
 where where it's been. Um what I would
 
 say is that uh uh we have gone through
+
+### Fourth Center Branch — Hormuz and Strategic Consolidation
 
 stage one of the escalation trap where
 
@@ -244,6 +254,8 @@ sovereignty and uh major power um great
 power and these are zero sum in nature.
 
 Uh so there's not a way that Iran can
+
+### Iran Toll Demands — Fees, Sanctions, and Forcing Trump Back
 
 become an emerging fourth center of
 
@@ -417,7 +429,11 @@ saying in their demands number one they
 
 want to charge a fee. According to Tasn
 
-News, they want to charge a fee to the
+News,
+
+### Humiliation Strategy — Reputation for Power
+
+they want to charge a fee to the
 
 cable companies using the straight home.
 
@@ -505,7 +521,11 @@ So, one of the things that you're also
 
 seeing is Iran is deliberately going out
 
-of its way to humiliate President Trump
+of its way to
+
+### Emerging Force Center — Moscow Security Architecture Talks
+
+humiliate President Trump
 
 and humiliate the United States. So,
 
@@ -923,7 +943,11 @@ just think it's important to to see that
 
 they are gaining power. They're becoming
 
-this emerging force center of world
+this
+
+### US Fork — Accept Regional Hegemon or Bleed On
+
+emerging force center of world
 
 power. They've got a ways to go, but
 
@@ -965,7 +989,11 @@ result of this war so far. So if the US
 
 if Trump and the US have kind of two
 
-options, one is accept Iran as a new
+options, one is
+
+### Medium-Term Strategy — Tactics vs State Planning
+
+accept Iran as a new
 
 world power
 
@@ -1160,6 +1188,8 @@ medium term I don't mean five years from
 now but they start to actually have a
 
 strategy. You see what's happening is
+
+### Decapitation and Personal Targeting — Smart Bomb Trap Close
 
 people are bouncing around tactics.
 

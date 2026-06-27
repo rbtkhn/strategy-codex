@@ -15,6 +15,13 @@ OUT = REPO / "statecraft" / "voices" / "pape" / "pape-index.md"
 PAPE_GUEST = re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape", re.I)
 PAPE_AUTHOR = re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape", re.I)
 DATE_STUB = re.compile(r"^source-pape-\d{4}-\d{2}-\d{2}\.md$", re.I)
+JANSSEN_GUEST = re.compile(
+    r"cyrus\s+janssen\s+studio|pape\s*\(\s*cyrus\s+janssen|cannot beat iran|can not beat iran",
+    re.I,
+)
+JANSSEN_TITLE = (
+    "Professor Robert Pape: The US Can NOT Beat Iran (Cyrus Janssen studio)"
+)
 INTERVIEW_KINDS = frozenset({"transcript", "cleaned-transcript", "interview"})
 INTERVIEW_FORMS = frozenset({"interview", "post"})
 
@@ -31,6 +38,7 @@ def parse_head(path: Path) -> dict:
         "channel_slug",
         "show",
         "host",
+        "hosts",
         "guest",
         "thread",
         "youtube_id",
@@ -52,21 +60,36 @@ def parse_head(path: Path) -> dict:
     return out
 
 
-def is_pape_guest(meta: dict) -> bool:
+def is_pape_guest(meta: dict, body: str = "") -> bool:
     if PAPE_GUEST.search(meta.get("guest", "")):
         return True
     for g in meta.get("guest_people") or []:
         if PAPE_GUEST.search(g):
             return True
+    if JANSSEN_GUEST.search(body[:20000]):
+        return True
     return False
 
 
-def is_excluded(path: Path, meta: dict) -> bool:
+def is_janssen_studio_capture(meta: dict, body: str) -> bool:
+    return meta.get("thread") == "pape" and bool(JANSSEN_GUEST.search(body[:20000]))
+
+
+def enrich_janssen_meta(meta: dict) -> None:
+    meta.setdefault("title", JANSSEN_TITLE)
+    meta.setdefault("host", "Cyrus Janssen")
+    meta.setdefault("show", "Cyrus Janssen")
+    meta["_janssen_note"] = "one studio session · four indexed theme segments in inbox/registry"
+
+
+def is_excluded(path: Path, meta: dict, body: str) -> bool:
     name = path.name.lower()
     if name.startswith("verify-pape-"):
         return True
     if name.startswith("x-pape-"):
         return True
+    if is_janssen_studio_capture(meta, body):
+        return False
     if DATE_STUB.match(path.name):
         return True
     source_path = meta.get("source_path", "")
@@ -75,34 +98,45 @@ def is_excluded(path: Path, meta: dict) -> bool:
     return False
 
 
-def is_included(path: Path, meta: dict) -> bool:
-    if is_excluded(path, meta):
+def is_included(path: Path, meta: dict, body: str) -> bool:
+    if is_excluded(path, meta, body):
         return False
     if meta.get("thread") == "pape":
         return True
     if "pape" in path.name.lower():
         return True
-    if is_pape_guest(meta):
+    if is_pape_guest(meta, body):
         return True
     return False
 
 
-def classify(meta: dict, path: Path) -> str:
-    if is_pape_guest(meta):
+def classify(meta: dict, path: Path, body: str) -> str:
+    if is_pape_guest(meta, body):
         return "guest"
     kind = meta.get("kind", "")
     source_form = meta.get("source_form", "")
     if kind == "substack-post" or source_form == "newsletter":
         return "authored"
     author = meta.get("author", "")
-    if PAPE_AUTHOR.search(author) and not is_pape_guest(meta):
+    if PAPE_AUTHOR.search(author) and not is_pape_guest(meta, body):
         return "authored"
     if kind in INTERVIEW_KINDS or source_form in INTERVIEW_FORMS:
-        if is_pape_guest(meta):
+        if is_pape_guest(meta, body):
             return "guest"
-    if "pape" in path.name.lower() and not is_pape_guest(meta):
+    if "pape" in path.name.lower() and not is_pape_guest(meta, body):
         return "authored"
     return "authored"
+
+
+def host_label(meta: dict) -> str:
+    if meta.get("host"):
+        return meta["host"]
+    hosts = meta.get("hosts", "")
+    if hosts:
+        return hosts.split(";")[0].strip()
+    if meta.get("show"):
+        return meta["show"]
+    return "?"
 
 
 def pub_date_key(meta: dict, path: Path) -> str:
@@ -136,14 +170,17 @@ def row_label(meta: dict, path: Path, row_class: str) -> str:
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     kind = meta.get("kind") or meta.get("source_form") or ""
     if row_class == "guest":
-        host = meta.get("host") or meta.get("show") or "?"
+        host = host_label(meta)
         slug = meta.get("channel_slug") or ""
         yt = meta.get("youtube_id") or ""
         yt_bit = f" (`{yt}`)" if yt else ""
         slug_bit = f" · `{slug}`" if slug else ""
         kind_bit = f" · {kind}" if kind else ""
+        janssen_bit = ""
+        if meta.get("_janssen_note"):
+            janssen_bit = f" · _{meta['_janssen_note']}_"
         return (
-            f"- [{pub} — {title}]({rel}){yt_bit} — **guest** · host: **{host}**{slug_bit}{kind_bit}"
+            f"- [{pub} — {title}]({rel}){yt_bit} — **guest** · host: **{host}**{slug_bit}{kind_bit}{janssen_bit}"
         )
     kind_bit = f" · {kind}" if kind else ""
     return f"- [{pub} — {title}]({rel}) — **authored**{kind_bit}"
@@ -152,10 +189,13 @@ def row_label(meta: dict, path: Path, row_class: str) -> str:
 def collect_rows() -> list[tuple[str, Path, dict, str]]:
     rows: list[tuple[str, Path, dict, str]] = []
     for path in sorted(ARCHIVE.glob("**/source-*.md")):
+        body = path.read_text(encoding="utf-8")
         meta = parse_head(path)
-        if not is_included(path, meta):
+        if not is_included(path, meta, body):
             continue
-        row_class = classify(meta, path)
+        if is_janssen_studio_capture(meta, body):
+            enrich_janssen_meta(meta)
+        row_class = classify(meta, path, body)
         pub = pub_date_key(meta, path)
         rows.append((pub, path, meta, row_class))
     rows.sort(key=lambda t: (t[0], t[1].name))
@@ -191,7 +231,9 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
         "",
         "## Boundary",
         "",
-        "**Excluded from this index:** `verify-pape-*` · generic date stubs (`source-pape-YYYY-MM-DD.md`) · legacy registry captures (`source_path` → strategy-notebook/experts/pape/transcript) · `x-pape-*`",
+        "**Excluded from this index:** `verify-pape-*` · generic date stubs (`source-pape-YYYY-MM-DD.md`) unless **Cyrus Janssen studio** guest signal · legacy registry captures (`source_path` → strategy-notebook/experts/pape/transcript) unless Janssen studio · `x-pape-*`",
+        "",
+        "**Inbox-only (not indexed):** *Diary of CEO* Pape interview referenced inside Janssen material — no canonical archive capture yet.",
         "",
         "**Reading rule:**",
         "",

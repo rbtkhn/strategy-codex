@@ -8,13 +8,15 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 
 ## Corpus note
 
-- **54** authored · **15** guest · **69** total on disk
-- **7/69** `curated_sectioned` where applicable
+- **54** authored · **16** guest · **70** total on disk
+- **10/70** `curated_sectioned` where applicable
 - Rebuild: `python3 scripts/build_pape_index.py`
 
 ## Boundary
 
-**Excluded from this index:** `verify-pape-*` · generic date stubs (`source-pape-YYYY-MM-DD.md`) · legacy registry captures (`source_path` → strategy-notebook/experts/pape/transcript) · `x-pape-*`
+**Excluded from this index:** `verify-pape-*` · generic date stubs (`source-pape-YYYY-MM-DD.md`) unless **Cyrus Janssen studio** guest signal · legacy registry captures (`source_path` → strategy-notebook/experts/pape/transcript) unless Janssen studio · `x-pape-*`
+
+**Inbox-only (not indexed):** *Diary of CEO* Pape interview referenced inside Janssen material — no canonical archive capture yet.
 
 **Reading rule:**
 
@@ -58,9 +60,10 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 ## 2026-04
 
 - [2026-04-02 — Trump Accelerated the Crisis](../../../source-archive/statecraft/2026-04-02/source-pape-trump-accelerated-the-crisis-2026-04-02.md) — **authored** · newsletter
+- [2026-04-16 — Professor Robert Pape: The US Can NOT Beat Iran (Cyrus Janssen studio)](../../../source-archive/statecraft/2026-04-16/source-pape-2026-04-16.md) — **guest** · host: **Cyrus Janssen** · transcript · _one studio session · four indexed theme segments in inbox/registry_
 - [2026-04-16 — The Iran War Is About to Hit a Supply Wall—Markets Aren’t Ready](../../../source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md) — **authored** · substack-post
 - [2026-04-17 — A Real-Time Test of Power—and Why Tonight Matters](../../../source-archive/statecraft/2026-04-17/source-pape-a-real-time-test-of-powerand-why-2026-04-17.md) — **authored** · substack-post
-- [2026-04-20 — Redacted — *The Collapse is Now "Ahead of Schedule"* (April 20, 2026)](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) — **guest** · host: **?** · transcript
+- [2026-04-20 — Redacted — *The Collapse is Now "Ahead of Schedule"* (April 20, 2026)](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) — **guest** · host: **Clayton Morris** · transcript
 - [2026-04-21 — Robert A. Pape (@ProfessorPape) — zero-sum conflict / escalation ladd…](../../../source-archive/statecraft/2026-04-21/source-pape-zero-sum-escalation-ladder-2026-04-21.md) — **authored** · x-post-text
 - [2026-04-22 — The First Move Has Begun](../../../source-archive/statecraft/2026-04-22/source-pape-the-first-move-has-begun-2026-04-22.md) — **authored** · substack-post
 - [2026-04-22 — Within 10 Days, Shortages Are Already Here](../../../source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md) — **authored** · substack-post
@@ -91,7 +94,7 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 - [2026-06-01 — The Trap Gets Worse](../../../source-archive/statecraft/2026-06-01/source-pape-the-trap-gets-worse-2026-06-01.md) — **authored** · substack-post
 - [2026-06-02 — Bombing While Talking](../../../source-archive/statecraft/2026-06-02/source-pape-bombing-while-talking-2026-06-02.md) — **authored** · substack-post
 - [2026-06-03 — Bombing While Talking II](../../../source-archive/statecraft/2026-06-03/source-pape-bombing-while-talking-ii-2026-06-03.md) — **authored** · substack-post
-- [2026-06-03 — Redacted News x Robert Pape - Ukraine, Russia, escalation trap (opera…](../../../source-archive/statecraft/2026-06-03/source-pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03.md) — **guest** · host: **Redacted News** · cleaned-transcript
+- [2026-06-03 — Redacted News x Robert Pape - Ukraine, Russia, escalation trap (opera…](../../../source-archive/statecraft/2026-06-03/source-pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03.md) — **guest** · host: **Clayton Morris, Natali Morris** · cleaned-transcript
 - [2026-06-04 — Robert Pape - fourth center of world power framing (operator transcript)](../../../source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md) (`6VaTuSpPisE`) — **guest** · host: **Mario Nawfal** · `mario-nawfal` · cleaned-transcript
 - [2026-06-04 — The Lebanon Fuse](../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) — **authored** · substack-post
 - [2026-06-06 — The New Phase](../../../source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md) — **authored** · substack-post
@@ -104,4 +107,4 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 - [2026-06-17 — Day 60](../../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) — **authored** · substack-post
 - [2026-06-17 — Stage IV Begins? -- Inside the Bloomberg's Iran MOU](../../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md) — **authored** · substack-post
 - [2026-06-22 — Getting the Framework Right: Why Iran Is Seeking Power, Not Just Money](../../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) — **authored** · paste-bundle
-- [2026-06-26 — U.S STRIKE IRAN, U.S ISRAEL LEBANON DEAL VIOLATES THE MOU DEAL w/ PRO…](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`) — **guest** · host: **Sulaiman Ahmed** · `moral-resistance` · cleaned-transcript
+- [2026-06-26 — U.S STRIKE IRAN, U.S ISRAEL LEBANON DEAL VIOLATES THE MOU DEAL w/ PRO…](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`) — **guest** · host: **Sulaiman Ahmed** · `moral-resistance` · cleaned-transcript · _one studio session · four indexed theme segments in inbox/registry_
