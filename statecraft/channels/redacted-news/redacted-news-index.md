@@ -8,7 +8,7 @@ Channel: [Redacted News](https://www.youtube.com/@RedactedNews)
 
 ## 2026-04
 
-- [2026-04-20 — source-pape-collapse-ahead-of-schedule-2026-04-20](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md)
+- [2026-04-20 — *The Collapse is Now "Ahead of Schedule"* w/ Robert Pape](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) (`WemB-vfoMaw`) — Hormuz shortage arc · 9 sections · see [Pape index](../../voices/pape/pape-index.md)
 
 ## 2026-06
 

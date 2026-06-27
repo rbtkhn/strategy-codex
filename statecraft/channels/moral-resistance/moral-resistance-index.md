@@ -22,7 +22,7 @@ Channel: [Moral Resistance](https://www.youtube.com/@MoralResistance)
 | Guest | Function on Moral Resistance |
 | --- | --- |
 | **Aguilar** | Legislative bind · coupled US–Israel track · MOU ≠ final deal |
-| **Pape** | MOU violation framing · balance-of-power / escalation-trap pressure test — mechanism depth on [Pape index](../../voices/pape/pape-index.md) |
+| **Pape** | MOU violation framing · balance-of-power / escalation-trap pressure test — mechanism depth on [Pape index](../../voices/pape/pape-index.md); pair [Redacted Apr 20](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) (`WemB-vfoMaw`) for Hormuz shortage-window / May 31 contraction arc (§2–§8) |
 | **Parsi** | Negotiation architecture · forward-defense vs deal · regional order |
 
 ## Reading rule
