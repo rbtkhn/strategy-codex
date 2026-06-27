@@ -23,7 +23,6 @@ editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT.
 **Source:** [YouTube](https://www.youtube.com/watch?v=4_wMLwkzBLs)
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
-## Transcript
 
 We are joined once again by Robert Pap. He is of course University of Chicago professor of political science. He directs the Chicago project on security and threats and he's the author of bombing to win and writes the substack the escalation trap. Has been many times on this show recently to discuss recent developments out of Iran.
  Professor Pap, thank you so much for joining us. >> Uh thank you for having us. >> Yeah, we were just talking before we went to air. uh you helped organize a great event last week at Bus Boys and Poets here in Washington DC uh that people can go check out on YouTube. It's on the Bus Boys YouTube. It's full of really interesting perspectives from uh folks like Waja Ali.
