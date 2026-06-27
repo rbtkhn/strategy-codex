@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: organize the voices shelf around the four authored-pressure engines without making the satellite speakers subordinate to them. A satellite strengthens, complicates, or specializes one engine's job; it remains its own speaker object.
 
-For shelf-class and profile placement law, open [README.md](README.md) (profile law) and [INDEX.md](INDEX.md). Repo-wide dispatch: [LLM-ROUTING.md](../../LLM-ROUTING.md).
+For shelf-class and profile placement law, open [README.md](README.md) (profile law) and [voice-index.md](voice-index.md). Repo-wide dispatch: [LLM-ROUTING.md](../../LLM-ROUTING.md).
 
 Use this map when the question is: **which surrounding speaker should I open after Pape, Ritter, Parsi, or Crooke?**
 

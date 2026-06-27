@@ -3,7 +3,7 @@
 WORK only; not Record.
 
 **Canonical profile:** this file.
-**Canonical shelf:** [helmer-source-index.md](helmer-source-index.md) · [voices INDEX](../INDEX.md)
+**Canonical shelf:** [helmer-source-index.md](helmer-source-index.md) · [voices index](../voice-index.md)
 **Canonical index:** [helmer-source-index.md](helmer-source-index.md) — **`helmer`** lane (`strategy-commentator-threads` row pending).
 
 ---

@@ -41,7 +41,7 @@ This repository has multiple index surfaces. For LLM agents and coding assistant
 - [`LLM-ROUTING.md`](LLM-ROUTING.md) — routing rules for finding files, corpora, indexes, dashboards, and Record surfaces.
 - [`essays/README.md`](essays/README.md) — primary cross-channel essay shelf ([essays index](#essays-index)).
 - [`repo-map.yaml`](repo-map.yaml) — machine-readable navigation hints.
-- [`statecraft/voices/INDEX.md`](statecraft/voices/INDEX.md) — analyst/source-corpus route maps.
+- [`statecraft/voices/voice-index.md`](statecraft/voices/voice-index.md) — analyst/source-corpus route maps.
 
 For analyst or source-corpus questions such as "Barnes index," start with `statecraft/voices/`, not removed operator-books symlink or generated dashboards. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
 

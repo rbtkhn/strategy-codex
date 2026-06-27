@@ -17,7 +17,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | User asks for… | Search these paths first |
 |---|---|
-| analyst / speaker / commentator **source index** | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md), `statecraft/voices/**/**-source-index.md` |
+| analyst / speaker / commentator **source index** | [statecraft/voices/voice-index.md](statecraft/voices/voice-index.md), `statecraft/voices/**/**-source-index.md` |
 | **archive day-index** / day source inventory for **YYYY-MM-DD** | **`source-archive/statecraft/YYYY-MM-DD/day-index.md` only** — or `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD` — **do not** Glob/Grep month or thread-index for a dated day query |
 | transcript / capture / source file | [source-archive/statecraft/](source-archive/statecraft/) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
@@ -111,7 +111,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | the-duran-channel-index | source_index | work | [statecraft/channels/the-duran/the-duran-channel-index.md](statecraft/channels/the-duran/the-duran-channel-index.md) | The Duran index, the-duran-channel-index, the-duran-index, … |
 | the-duran-host-shelf | routing_aid | work | [statecraft/channels/the-duran/README.md](statecraft/channels/the-duran/README.md) | The Duran host, the-duran profile |
 | tucker-carlson-host-shelf | routing_aid | work | [statecraft/channels/tucker-carlson/README.md](statecraft/channels/tucker-carlson/README.md) | Tucker Carlson host, tucker-carlson profile |
-| voices-index | directory_index | work | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | voices index, civ-lens legacy, analyst source index |
+| voices-index | directory_index | work | [statecraft/voices/voice-index.md](statecraft/voices/voice-index.md) | voices index, civ-lens legacy, analyst source index |
 | weichert-source-index | source_index | work | [statecraft/voices/weichert/weichert-source-index.md](statecraft/voices/weichert/weichert-source-index.md) | Weichert index, weichert source index, Nawfal Weichert |
 | wilkerson-source-index | source_index | work | [statecraft/voices/wilkerson/wilkerson-source-index.md](statecraft/voices/wilkerson/wilkerson-source-index.md) | Wilkerson index, wilkerson source index |
 
@@ -191,7 +191,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | `source-archive/statecraft/YYYY-MM-DD/day-index.md` | **Day index** — channel / writer / other partitions for one archive day | Derived / archive (rebuild via `build_statecraft_day_indices.py`) |
 | `source-archive/statecraft/YYYY-MM-DD/README.md` | **Day README stub** — pointer to `day-index.md` only | Derived / archive |
 | `statecraft/voices/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | WORK only |
-| [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | Front door listing all analyst source indexes | WORK routing aid |
+| [statecraft/voices/voice-index.md](statecraft/voices/voice-index.md) | Front door listing all analyst source indexes | WORK routing aid |
 | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
 | [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
 | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |

@@ -22,7 +22,7 @@ CHANNELS = REPO_ROOT / "statecraft" / "channels"
 REPO_MAP_PATH = REPO_ROOT / "repo-map.yaml"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "repo_map.schema.json"
 LLM_ROUTING = REPO_ROOT / "LLM-ROUTING.md"
-VOICES_INDEX = VOICES / "INDEX.md"
+VOICES_INDEX = VOICES / "voice-index.md"
 
 ABS_PATTERNS = (
     re.compile(r"/C:/", re.I),
@@ -199,7 +199,7 @@ def validate_source_index_registry(
         rel = si.relative_to(REPO_ROOT).as_posix()
         rel_from_index = f"{si.parent.name}/{si.name}"
         if rel not in index_text and rel_from_index not in index_text and si.name not in index_text:
-            _err(errors, f"INDEX.md missing source-index: {rel}")
+            _err(errors, f"voice-index.md missing source-index: {rel}")
         if rel not in route_paths:
             _err(errors, f"repo-map missing source_index route: {rel}")
             if generate_hints:
@@ -293,14 +293,14 @@ def validate_routing_doc_links(errors: list[str]) -> None:
     text = LLM_ROUTING.read_text(encoding="utf-8")
     if "source-lattice-beyond-the-repo.md" not in text:
         _err(errors, "LLM-ROUTING.md must link to docs/source-lattice-beyond-the-repo.md")
-    if "statecraft/voices/INDEX.md" not in text:
-        _err(errors, "LLM-ROUTING.md must reference statecraft/voices/INDEX.md")
+    if "statecraft/voices/voice-index.md" not in text:
+        _err(errors, "LLM-ROUTING.md must reference statecraft/voices/voice-index.md")
 
 
 def validate_index_lattice_section(errors: list[str]) -> None:
     text = VOICES_INDEX.read_text(encoding="utf-8")
     if "source-lattice" not in text.lower():
-        _err(errors, "voices/INDEX.md must mention source-lattice disambiguation")
+        _err(errors, "voice-index.md must mention source-lattice disambiguation")
 
 
 def has_absolute_path(text: str) -> bool:

@@ -31,7 +31,7 @@ def test_generate_llm_routing_check_passes():
 
 def test_generated_llm_routing_required_links():
     text = (REPO_ROOT / "LLM-ROUTING.md").read_text(encoding="utf-8")
-    assert "statecraft/voices/INDEX.md" in text
+    assert "statecraft/voices/voice-index.md" in text
     assert "source-lattice-beyond-the-repo.md" in text
     assert "Route registry (generated from repo-map.yaml)" in text
 

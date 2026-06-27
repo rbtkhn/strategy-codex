@@ -61,7 +61,7 @@ def llm_routing_table() -> str | None:
 
 def civ_lens_index() -> str | None:
     """Routing path step 2: civ-lens INDEX table."""
-    index = REPO_ROOT / "statecraft/voices/INDEX.md"
+    index = REPO_ROOT / "statecraft/voices/voice-index.md"
     if not index.is_file():
         return None
     text = _read_text(index)

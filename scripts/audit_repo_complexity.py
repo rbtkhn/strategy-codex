@@ -54,7 +54,7 @@ TERM_PATTERNS: dict[str, re.Pattern[str]] = {
 ROUTING_SURFACES = (
     REPO_ROOT / "repo-map.yaml",
     REPO_ROOT / "LLM-ROUTING.md",
-    REPO_ROOT / "statecraft" / "voices" / "INDEX.md",
+    REPO_ROOT / "statecraft" / "voices" / "voice-index.md",
     REPO_ROOT / "source-archive" / "statecraft" / "thread-index.md",
     REPO_ROOT / "statecraft" / "channels" / "channel-index.md",
 )

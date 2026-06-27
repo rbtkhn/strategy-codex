@@ -63,7 +63,7 @@ Declared `category` must match `expected_route_category()` or validation fails. 
 | Query shape | Open first |
 |---|---|
 | Calendar day **`YYYY-MM-DD`** + day-index / what landed | `source-archive/statecraft/YYYY-MM-DD/day-index.md` only |
-| Named analyst / speaker corpus | `statecraft/voices/<speaker>/<speaker>-source-index.md` → [`statecraft/voices/INDEX.md`](../statecraft/voices/INDEX.md) |
+| Named analyst / speaker corpus | `statecraft/voices/<speaker>/<speaker>-source-index.md` → [`statecraft/voices/voice-index.md`](../statecraft/voices/voice-index.md) |
 | Thread coverage / counts | `source-archive/statecraft/thread-index.md` (inventory, not route map) |
 | Reading order / corpus tiers | [`docs/source-lattice-beyond-the-repo.md`](source-lattice-beyond-the-repo.md) |
 

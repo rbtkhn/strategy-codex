@@ -187,7 +187,7 @@ routes:
   category: work
 - id: voices-index
   title: Voices Index
-  path: statecraft/voices/INDEX.md
+  path: statecraft/voices/voice-index.md
   kind: directory_index
   authority: routing_aid
   tags:

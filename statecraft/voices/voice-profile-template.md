@@ -302,7 +302,7 @@ When promoting `codex/profiles/<speaker>-profile.md` → `statecraft/voices/<spe
 4. List profile first in shelf `README.md` **Open first** and `index.md`.
 5. Add row to [codex/profiles/README.md](../../../codex/profiles/README.md) migrated table.
 6. Add speaker to **Current migrated profiles** in [README.md § Speaker profile law](README.md#speaker-profile-law).
-7. When `*-source-index.md` exists: register in [INDEX.md](INDEX.md) and [repo-map.yaml](../../../repo-map.yaml).
+7. When `*-source-index.md` exists: register in [voice-index.md](voice-index.md) and [repo-map.yaml](../../../repo-map.yaml).
 
 ---
 

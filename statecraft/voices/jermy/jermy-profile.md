@@ -3,7 +3,7 @@
 WORK only; not Record.
 
 **Canonical profile:** this file.
-**Canonical shelf:** [jermy-source-index.md](jermy-source-index.md) · [voices INDEX](../INDEX.md)
+**Canonical shelf:** [jermy-source-index.md](jermy-source-index.md) · [voices index](../voice-index.md)
 **Canonical index:** [jermy-source-index.md](jermy-source-index.md)
 
 ---
