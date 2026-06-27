@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `7`
+- Source files: `8`
 - Channel sources: `7`
-- Writer sources: `0`
+- Writer sources: `1`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (7)
-- Source form mix: `interview` (6), `solo` (1)
-- Distinct channels/shows: `7`
-- Distinct hosts: `6`
+- Body kind mix: `cleaned-transcript` (7), `substack-post` (1)
+- Source form mix: `interview` (6), `newsletter` (1), `solo` (1)
+- Distinct channels/shows: `8`
+- Distinct hosts: `7`
 - Distinct guests: `6`
-- Distinct threads: `13`
+- Distinct threads: `14`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mario Nawfal` (1), `Reason to Resist` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mario Nawfal` (1), `Reason to Resist` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1), `Dimitri Lascaris` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1)
+- Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1), `Dimitri Lascaris` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
 - Guests: `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Max Blumenthal` (1), `Robert Barnes` (1), `Seyed Mohammad Marandi` (1)
-- Threads: `alkorshid` (1), `barnes` (1), `blumenthal` (1), `davis` (1), `diesen` (1), `helmer` (1), `johnson` (1), `lascaris` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1)
+- Threads: `alkorshid` (1), `barnes` (1), `blumenthal` (1), `davis` (1), `diesen` (1), `helmer` (1), `johnson` (1), `lascaris` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1), `pape` (1)
 
 ## Channel sources
 
@@ -46,7 +46,7 @@ _Configured prose / check-written roster captures for this day._
 
 | Writer slug | Thread | Feed host | Source link | File |
 | --- | --- | --- | --- | --- |
-| _none_ | — | — | — | — |
+| `pape` | `pape` | `escalationtrap.substack.com` | [watch](https://escalationtrap.substack.com/p/prediction-confirmed-the-next-phase) | `source-pape-prediction-confirmed-the-next-phase-of-the-iran-war-has-begun-2026-06-25.md` |
 
 ## Other sources
 
@@ -65,3 +65,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-judging-freedom-blumenthal-israel-in-panic-2026-06-25.md`
 - `source-lascaris-helmer-trump-goal-destroy-russia-iran-2026-06-25.md`
 - `source-mario-nawfal-barnes-breaking-gcc-attack-iran-rubio-meeting-iran-strike-vessel-hormuz-2026-06-25.md`
+- `source-pape-prediction-confirmed-the-next-phase-of-the-iran-war-has-begun-2026-06-25.md`

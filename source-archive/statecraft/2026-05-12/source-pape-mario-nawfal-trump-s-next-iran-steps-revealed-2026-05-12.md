@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-12
 pub_date: 2026-05-12
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: pape
 show: Mario Nawfal
@@ -13,12 +13,13 @@ channel_slug: mario-nawfal
 publication: youtube.com
 source_url: "https://www.youtube.com/watch?v=-6orPmr4ldo"
 source_type: youtube
-transcript_type: auto_subtitles_vtt
-editorial_note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not speaker-normalized or human-verified verbatim. · source-section pass 2026-06-27 (9 sections)."
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 opening_tier: host-monologue
 transcript_curation: curated_sectioned
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (pape, channel:mario-nawfal)); 3 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-27 (9 sections)."
+quality_note: "ASR normalization pass 2026-06-27; ph-civ replacement SSOT."
 ---
-
 # TRUMP'S NEXT IRAN STEPS REVEALED - w/ #1 Political Scientist Prof. Robert Pape
 
 **Channel:** Mario Nawfal  
@@ -31,7 +32,7 @@ transcript_curation: curated_sectioned
 
 ### Show Open — Ceasefire Illusion and Escalation Ladder Check-in
 
-just said, President Lucenko, who I
+just said, President Lukashenko, who I
 
 interviewed not long ago, he just in a
 

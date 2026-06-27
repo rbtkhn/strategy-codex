@@ -5,9 +5,12 @@ kind: transcript
 source_form: interview
 thread: pape
 show: Breaking Points
+host: Breaking Points
+channel_slug: breaking-points
 guest: Robert Pape
 title: "Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges"
 source_url: "https://www.youtube.com/watch?v=4_wMLwkzBLs"
+youtube_id: 4_wMLwkzBLs
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: "Transcript pasted manually by operator for canonical May 27 2026 raw-input capture."

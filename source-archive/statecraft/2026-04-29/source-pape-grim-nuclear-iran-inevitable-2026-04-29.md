@@ -5,18 +5,26 @@ thread: pape
 kind: transcript
 source_form: interview
 show: Breaking Points
-host: Ryan Grim
+host: Breaking Points
+hosts: Ryan Grim
+channel_slug: breaking-points
 guest: Professor Robert Pape
+title: "Professor Robert Pape: Why a Nuclear Iran Is Inevitable"
 source_url: https://www.youtube.com/watch?v=OjH35ZKmF48
+youtube_id: OjH35ZKmF48
 title_slug: youtube-pape-grim-nuclear-iran-inevitable-2026-04-29
-editorial_note: Operator-supplied cleaned transcript (session paste); extracted verbatim for raw-input SSOT.
+editorial_note: Operator-supplied cleaned transcript (session paste); extracted verbatim for raw-input SSOT. · source-section pass 2026-06-27 (7 sections)."
+transcript_curation: curated_sectioned
 ---
 # Professor Robert Pape: Why a Nuclear Iran Is Inevitable
 
 **Host:** Ryan Grim
 **Cleaned, Unabridged Transcript**
 
----
+## Transcript
+
+
+### Show Open — Breaking Points Welcome and Escalation Trap Frame
 
 **Ryan Grim:**
 We're joined once again by Professor Robert Pape over at the University of Chicago, also the author of the *Escalation Trap* Substack. It's just escalationtrap.substack.com, where he has been covering the Iran war from his expert perspective, having spent years actually writing about a scenario such as this.
@@ -28,6 +36,8 @@ Thank you very much for having me. And have no fear, we're soon going to forget 
 
 **Ryan Grim:**
 Oh, it's so depressing. It's so very depressing to think about.
+
+### UAE OPEC Exit — US Lost Control and Fourth Center Fragmentation
 
 Let's just start with the OPEC news. Big news yesterday: UAE out of OPEC by May 1. What did you make of that, and does it fit into—
 
@@ -79,6 +89,9 @@ It puts those reports that the Saudis were pushing for the Iran war behind the s
 Yeah, indeed.
 
 **Ryan Grim:**
+
+### Oil Price Trajectory — Shortages Stage and Misery Index Forecast
+
 Brent crude prices were at, I think, $114 a barrel when we started this program. Now, as we're getting toward the end of the show, they're up to $117 a barrel.
 
 That's despite an enormous amount of American pressure to keep the prices down, both through deliberate attempts at spreading nonsense about, "The Iranians are headed to Islamabad, they're about to capitulate," "they said they're collapsing," "they want to open the strait," plus actual material manipulation using the power of the U.S. Treasury to actually get into the markets and play with the numbers.
@@ -119,7 +132,11 @@ Well, and there were dueling reports in *The New York Times* and *Wall Street Jo
 
 Donald Trump just last night at the state dinner said, "We have defeated Iran militarily."
 
-So, Professor Pape, we're all trying to do our best here to learn to speak fluent Trumpese and understand what exactly he's saying and projecting or attempting to project.
+So, Professor Pape, we're all trying to do our best here to learn to speak
+
+### Strait Negotiations — Rubio Toll Definition and Ten-Point Walkthrough
+
+fluent Trumpese and understand what exactly he's saying and projecting or attempting to project.
 
 So what do you make of where these negotiations are right now? Because I could see someone saying, "Professor Pape, Iran is willing to come to the table and reopen the strait. Does this not undermine your argument that we are headed to a potential catastrophe?"
 
@@ -154,7 +171,11 @@ So if Iran is going to pursue this very aggressive agenda to truly emerge as the
 Well, I think what Iran is saying here is that they're not going to discuss the nuclear issue until the naval blockade of the strait is lifted. But at that point, I think there is real willingness to discuss it.
 
 **Professor Robert Pape:**
-Well, I would just be — I guess we maybe have a slight difference of view here. They say they will not enter face-to-face negotiations with America at all unless America lifts the naval blockade. So I think that's my understanding of this.
+Well, I would just be — I guess we maybe have a
+
+### Nuclear Sequencing — Grim Pushback and Global Spillover Beyond Hormuz
+
+slight difference of view here. They say they will not enter face-to-face negotiations with America at all unless America lifts the naval blockade. So I think that's my understanding of this.
 
 Now, you may be right. I want to not get into a — but it is the case that they've said that now multiple times.
 
@@ -177,7 +198,11 @@ Yeah.
 
 And on the nuclear point, the trip that Araghchi took to Russia could also — you could imagine a world in which —
 
-Well, so to back up, in 2015, as you know, Russia was part of the Iran nuclear deal, and Iran through that deal agreed to ship — and did in fact ship, and I don't think most people know this — 25,000 pounds of enriched uranium to Russia.
+Well, so to back up,
+
+### JCPOA Origins — Obama-Putin Trade and Russia Coalition Impossibility Today
+
+in 2015, as you know, Russia was part of the Iran nuclear deal, and Iran through that deal agreed to ship — and did in fact ship, and I don't think most people know this — 25,000 pounds of enriched uranium to Russia.
 
 **Professor Robert Pape:**
 Let me talk — if it's okay — just for a minute about the JCPOA and how it came about, because I'm pretty familiar with this.
@@ -221,7 +246,11 @@ And now you have Iran and Russia meeting. What are they talking about? I think t
 **Ryan Grim:**
 Yeah, sounds right.
 
-Professor Pape, always a pleasure. Thank you.
+Professor Pape,
+
+### Close — Escalation Trap Plug and Breaking Points Outro
+
+always a pleasure. Thank you.
 
 And I'm sorry I don't give you very many ways out of the escalation trap.
 

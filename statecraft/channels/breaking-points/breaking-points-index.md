@@ -8,7 +8,7 @@ Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 
 ## 2026-04
 
-- [2026-04-29 — source-pape-grim-nuclear-iran-inevitable-2026-04-29](../../../source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- [2026-04-29 — Professor Robert Pape: Why a Nuclear Iran Is Inevitable](../../../source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
 
 ## 2026-05
 

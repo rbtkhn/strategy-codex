@@ -82,6 +82,18 @@ def enrich_janssen_meta(meta: dict) -> None:
     meta["_janssen_note"] = "one studio session · four indexed theme segments in inbox/registry"
 
 
+def enrich_breaking_points_meta(meta: dict, path: Path) -> None:
+    """Ryan Grim is a Breaking Points host — route by channel slug, not person name."""
+    name = path.name.lower()
+    show = (meta.get("show") or "").lower()
+    host = (meta.get("host") or "").lower()
+    if show != "breaking points" and "breaking-points" not in name and "pape-grim" not in name:
+        return
+    meta.setdefault("show", "Breaking Points")
+    meta["host"] = "Breaking Points"
+    meta.setdefault("channel_slug", "breaking-points")
+
+
 def is_excluded(path: Path, meta: dict, body: str) -> bool:
     name = path.name.lower()
     if name.startswith("verify-pape-"):
@@ -195,6 +207,7 @@ def collect_rows() -> list[tuple[str, Path, dict, str]]:
             continue
         if is_janssen_studio_capture(meta, body):
             enrich_janssen_meta(meta)
+        enrich_breaking_points_meta(meta, path)
         row_class = classify(meta, path, body)
         pub = pub_date_key(meta, path)
         rows.append((pub, path, meta, row_class))
