@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T15:33:04+00:00",
+  "generated_at": "2026-06-27T05:02:51+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "statecraft/channels/channel-index.md",
   "stats": {
     "main_channel_count": 15,
-    "file_count": 1477,
+    "file_count": 1489,
     "watchlist_count": 7,
     "discoverable_count": 15,
     "explicit_slug_count": 15
@@ -15,44 +15,58 @@
     {
       "slug": "alexander-mercouris",
       "label": "Alexander Mercouris",
-      "file_count": 331,
-      "day_count": 329,
+      "file_count": 332,
+      "day_count": 330,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@AlexMercouris",
       "first_day": "2025-01-03",
-      "last_day": "2026-06-25",
+      "last_day": "2026-06-26",
       "channel_id": "UCwGpHa6rMLjSSCBlckm5khw"
     },
     {
       "slug": "dialogue-works",
       "label": "Dialogue Works",
-      "file_count": 306,
-      "day_count": 196,
+      "file_count": 309,
+      "day_count": 197,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@dialogueworks01",
       "first_day": "2025-01-04",
-      "last_day": "2026-06-25",
+      "last_day": "2026-06-26",
       "channel_id": "UCkF-6h_Zgf9zXNUmUB-MzTw"
     },
     {
       "slug": "daniel-davis",
       "label": "Daniel Davis / Deep Dive",
-      "file_count": 258,
-      "day_count": 152,
+      "file_count": 260,
+      "day_count": 153,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@DanielDavisDeepDive",
       "first_day": "2025-01-01",
-      "last_day": "2026-06-25",
+      "last_day": "2026-06-26",
       "channel_id": "UCWDN5zr5ttctoIAhZwW6tcQ"
+    },
+    {
+      "slug": "judging-freedom",
+      "label": "Judge Napolitano - Judging Freedom",
+      "file_count": 216,
+      "day_count": 140,
+      "watchlist": true,
+      "check_sources": true,
+      "discoverable": true,
+      "explicit_slug": true,
+      "channel_url": "https://www.youtube.com/@judgingfreedom",
+      "first_day": "2025-01-07",
+      "last_day": "2026-06-26",
+      "channel_id": "UCDkEYb-TXJVWLvOokshtlsw"
     },
     {
       "slug": "glenn-diesen",
@@ -69,31 +83,17 @@
       "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g"
     },
     {
-      "slug": "judging-freedom",
-      "label": "Judge Napolitano - Judging Freedom",
-      "file_count": 214,
-      "day_count": 139,
-      "watchlist": true,
-      "check_sources": true,
-      "discoverable": true,
-      "explicit_slug": true,
-      "channel_url": "https://www.youtube.com/@judgingfreedom",
-      "first_day": "2025-01-07",
-      "last_day": "2026-06-25",
-      "channel_id": "UCDkEYb-TXJVWLvOokshtlsw"
-    },
-    {
       "slug": "mario-nawfal",
       "label": "Mario Nawfal",
-      "file_count": 49,
-      "day_count": 30,
+      "file_count": 52,
+      "day_count": 31,
       "watchlist": false,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA",
       "first_day": "2026-05-12",
-      "last_day": "2026-06-25",
+      "last_day": "2026-06-26",
       "channel_id": "UCTWBp-39z6tvz4-LQB-Z_QA"
     },
     {
@@ -195,6 +195,20 @@
       "channel_id": "UCcLnmCiZ691HyvB6UvZq69A"
     },
     {
+      "slug": "moral-resistance",
+      "label": "Moral Resistance",
+      "file_count": 5,
+      "day_count": 5,
+      "watchlist": false,
+      "check_sources": true,
+      "discoverable": true,
+      "explicit_slug": true,
+      "channel_url": "https://www.youtube.com/@MoralResistance",
+      "first_day": "2026-05-31",
+      "last_day": "2026-06-26",
+      "channel_id": "UCw0Frdh6NPLUnTfE07IqjhA"
+    },
+    {
       "slug": "redacted-news",
       "label": "Redacted News",
       "file_count": 5,
@@ -207,20 +221,6 @@
       "first_day": "2026-04-20",
       "last_day": "2026-06-16",
       "channel_id": "UCoJhK5kMc4LjBKdiYrDtzlA"
-    },
-    {
-      "slug": "moral-resistance",
-      "label": "Moral Resistance",
-      "file_count": 4,
-      "day_count": 4,
-      "watchlist": false,
-      "check_sources": true,
-      "discoverable": true,
-      "explicit_slug": true,
-      "channel_url": "https://www.youtube.com/@MoralResistance",
-      "first_day": "2026-05-31",
-      "last_day": "2026-06-24",
-      "channel_id": "UCw0Frdh6NPLUnTfE07IqjhA"
     }
   ]
 }

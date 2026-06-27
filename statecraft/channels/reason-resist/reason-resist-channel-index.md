@@ -10,7 +10,9 @@ Channel: [Reason to Resist](https://www.youtube.com/@reason2resist)
 
 ## Corpus note
 
-- **6** captures on disk (`2026-05-18` → `2026-06-25`); **6/6** `curated_sectioned` (May batch: source-section pass **2026-06-26**)
+- **6** captures on disk (`2026-05-18` → `2026-06-25`); **6/6** `curated_sectioned` with **thematic** `###` section titles
+- **6/6** section-nav clean — zero `quantify_section_nav` warnings (May balance pass **2026-06-26** · Jun 13/18 thematic retitle **2026-06-26**)
+- Hygiene ladder: [`statecraft-transcript-section-balance`](../../../skills/_drafts/statecraft-transcript-section-balance/SKILL.md) draft · receipt CLI `scripts/quantify_section_nav.py`
 - Guest episodes: cross-link guest shelf when load-bearing ([Helmer](../../voices/helmer/helmer-source-index.md))
 
 ## 2026-05
@@ -29,9 +31,9 @@ Channel: [Reason to Resist](https://www.youtube.com/@reason2resist)
 
 | Pub date | Title (short) | Mechanism lane |
 |----------|---------------|----------------|
-| May 18 | NATO strike prediction (solo) | Before end-2026 EU military-industrial strikes; May 17 drone barrage **`verify:wire-partial`** (host 1500+ vs MOD 556/1054/1000+24h); MOD list **2026-04-15**; Levada govt **~74%→63%** (patched); Karaganov clip = May 10 Diesen solo; Iran Gulf contrast — **sectioned** archive |
-| May 24 | Dormitory strike + Oreshnik reply | Starobilsk/Luhansk 21 killed; Putin neo-Nazi framing vs street/NATO read; Dmitriev bribery–Anchorage; Rubio Sweden no military victory; Bila Tserkva command bunker debate; strategic-rear asymmetry; Lefkada drone; **no NATO-state strike** (Helmer) — **sectioned** archive |
-| May 26 | Iran ceasefire strike + flotilla | USCENTCOM “self-defense” in Iranian waters; MFA/Cradle Farsi; Tabnak casualties; Araghchi/Ghalibaf Qatar; Lebanon yellow-line; Brent/Project Freedom; Matilda Malle gunshot; Ihab Layf torture; Carney–Herzog May 25 — **sectioned** archive |
+| May 18 | NATO strike prediction (solo) | Before end-2026 EU military-industrial strikes; May 17 drone barrage **`verify:wire-partial`** (host 1500+ vs MOD 556/1054/1000+24h); MOD list **2026-04-15**; Levada govt **~74%→63%** (patched); Karaganov clip = May 10 Diesen solo; Iran Gulf contrast — **sectioned + balanced** |
+| May 24 | Dormitory strike + Oreshnik reply | Starobilsk/Luhansk 21 killed; Putin neo-Nazi framing vs street/NATO read; Dmitriev bribery–Anchorage; Rubio Sweden no military victory; Bila Tserkva command bunker debate; strategic-rear asymmetry; Lefkada drone; **no NATO-state strike** (Helmer) — **sectioned + balanced** |
+| May 26 | Iran ceasefire strike + flotilla | USCENTCOM “self-defense” in Iranian waters; MFA/Cradle Farsi; Tabnak casualties; Araghchi/Ghalibaf Qatar; Lebanon yellow-line; Brent/Project Freedom; Matilda Malle gunshot; Ihab Layf torture; Carney–Herzog May 25 — **sectioned + balanced** |
 
 **Cross-weave (May 18):** Karaganov clip → [Diesen May 10 solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) → [Jun 13 Mearsheimer panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md); lattice in [Karaganov index](../../voices/karaganov/karaganov-source-index.md); **tension** with [Helmer May 24](../../../source-archive/statecraft/2026-05-24/source-lascaris-helmer-russia-retaliates-student-dormitory-strike-2026-05-24.md).
 
@@ -43,9 +45,9 @@ Channel: [Reason to Resist](https://www.youtube.com/@reason2resist)
 
 | Pub date | Title (short) | Mechanism lane |
 |----------|---------------|----------------|
-| Jun 13 | Restore deterrence? (Helmer) | Karaganov ladder / election-period escalation; Putin green-light read vs Helmer imperialism blind spot — **sectioned** archive |
-| Jun 18 | War on Iran not over (Henningsen) | Oslo sabotage; ceasefire bad-faith; Lebanon desk — **sectioned** archive |
-| Jun 25 | Trump goal destroy Russia+Iran (Helmer) | Voronezh MII strike; MOU bribery/Kushner architecture; Kyiv Independent Trump-back-Ukraine line — **sectioned** archive |
+| Jun 13 | Restore deterrence? (Helmer) | Karaganov ladder / election-period escalation; Putin green-light read vs Helmer imperialism blind spot — **sectioned + themed** |
+| Jun 18 | War on Iran not over (Henningsen) | Oslo sabotage; ceasefire bad-faith; Lebanon desk — **sectioned + themed** |
+| Jun 25 | Trump goal destroy Russia+Iran (Helmer) | Voronezh MII strike; MOU bribery/Kushner architecture; Kyiv Independent Trump-back-Ukraine line — **sectioned + themed** |
 
 ## Reading rule
 
