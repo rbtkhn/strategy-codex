@@ -1,4 +1,3 @@
-from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Build a conservative WORK-layer memory observability dashboard.
@@ -24,14 +23,32 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+try:
+    from repo_io import (
+        ARTIFACTS_DIR,
+        DEFAULT_USERS_DIR,
+        dream_handoff_root,
+        resolve_last_dream_path,
+        resolve_night_handoff_path,
+        resolve_repo_path,
+    )
+except ImportError:
+    from scripts.repo_io import (
+        ARTIFACTS_DIR,
+        DEFAULT_USERS_DIR,
+        dream_handoff_root,
+        resolve_last_dream_path,
+        resolve_night_handoff_path,
+        resolve_repo_path,
+    )
+
 DEFAULT_USER = "grace-mar"
 DEFAULT_MD = ARTIFACTS_DIR / "memory" / "memory-observability.md"
 DEFAULT_JSON = ARTIFACTS_DIR / "memory" / "memory-observability.json"
-
-try:
-    from repo_io import profile_dir
-except ImportError:
-    from scripts.repo_io import profile_dir
 
 STATUS_ORDER = {"ok": 0, "watch": 1, "stale": 2, "missing": 3}
 DEFERRED_V2 = [
@@ -128,6 +145,21 @@ def _surface(
     }
 
 
+def _resolve_handoff_path(user_id: str, filename: str) -> Path:
+    """Prefer runtime/daily-handoff; when both exist, use the newest artifact."""
+    handoff_dir = resolve_repo_path("daily-handoff")
+    candidates = [
+        handoff_dir / filename,
+        dream_handoff_root(DEFAULT_USERS_DIR, user_id) / "runtime" / "daily-handoff" / filename,
+    ]
+    existing = [p for p in candidates if p.is_file()]
+    if not existing:
+        return candidates[0]
+    if len(existing) == 1:
+        return existing[0]
+    return max(existing, key=lambda p: p.stat().st_mtime)
+
+
 def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) -> dict[str, Any]:
     now = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
 
@@ -138,15 +170,13 @@ def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) ->
     cadence_age = _age_hours(last_cadence, now)
     cadence_status = _classify_age(cadence_age, ok_h=24, watch_h=72)
 
-    user_root = profile_dir(user_id)
-    last_dream_path = user_root / "last-dream.json"
+    last_dream_path = resolve_last_dream_path(user_id)
     last_dream, dream_err = _read_json(last_dream_path)
     last_dream_dt = _parse_iso_datetime(str(last_dream.get("generated_at"))) if last_dream else None
     dream_age = _age_hours(last_dream_dt, now)
     dream_status = "missing" if dream_err else _classify_age(dream_age, ok_h=36, watch_h=96)
 
-    handoff_dir = user_root / "runtime/daily-handoff"
-    night_path = handoff_dir / "night-handoff.json"
+    night_path = resolve_night_handoff_path(user_id)
     night_handoff, night_err = _read_json(night_path)
     night_dt = None
     if night_handoff:
@@ -165,7 +195,7 @@ def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) ->
     night_age = _age_hours(night_dt, now)
     night_status = "missing" if night_err else _classify_age(night_age, ok_h=36, watch_h=96)
 
-    bridge_path = handoff_dir / "last-bridge-state.json"
+    bridge_path = _resolve_handoff_path(user_id, "last-bridge-state.json")
     bridge_state, bridge_err = _read_json(bridge_path)
     bridge_dt = None
     if bridge_state:

@@ -1,8 +1,8 @@
 # Root file budget — inventory + allowlist for scripts/assert_root_file_budget.py
 # Authority: work (governance). Target: max_root_files after relocation passes (Phase 9 fail).
-# Doctrine floor (2026-06-21): 25 — see docs/canonical-paths.md and root-file-budget-slice-plan.
+# Doctrine floor (2026-06-21): 25 skill/build/routing — +1 for memory.md continuity SSOT (2026-06-26).
 schema_version: "1.0"
-max_root_files: 25
+max_root_files: 26
 
 categories:
   required_public: Public / onboarding surfaces
@@ -74,6 +74,9 @@ files:
   - path: skill-steward.md
     category: compatibility
     relocation_target: codex/skill-steward.md
+
+  - path: memory.md
+    category: operator
 
 # Local / untracked noise — ignored by budget checker when present on disk
 ignore_local:

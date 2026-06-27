@@ -75,6 +75,7 @@ OPERATOR_LEDGER_FILES: tuple[str, ...] = (
     "strategy-fold-events.jsonl",
 )
 LAST_DREAM_BASENAME = "last-dream.json"
+NIGHT_HANDOFF_BASENAME = "night-handoff.json"
 
 TARGET_ROOT_FOLDERS: frozenset[str] = frozenset(
     {
@@ -665,6 +666,28 @@ def last_dream_write_path(user_id: str, users_dir: Path | None = None) -> Path:
     """Canonical write path for last-dream.json."""
     handoff_dir = resolve_repo_path("daily-handoff")
     path = handoff_dir / LAST_DREAM_BASENAME
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def resolve_night_handoff_path(user_id: str, users_dir: Path | None = None) -> Path:
+    """Read path for night-handoff.json (runtime/daily-handoff/ preferred; legacy compat)."""
+    handoff_dir = resolve_repo_path("daily-handoff")
+    new = handoff_dir / NIGHT_HANDOFF_BASENAME
+    root = dream_handoff_root(users_dir or DEFAULT_USERS_DIR, user_id)
+    old = root / "runtime/daily-handoff" / NIGHT_HANDOFF_BASENAME
+    candidates = [p for p in (new, old) if p.is_file()]
+    if not candidates:
+        return new
+    if len(candidates) == 1:
+        return candidates[0]
+    return max(candidates, key=lambda p: p.stat().st_mtime)
+
+
+def night_handoff_write_path(user_id: str, users_dir: Path | None = None) -> Path:
+    """Canonical write path for night-handoff.json."""
+    handoff_dir = resolve_repo_path("daily-handoff")
+    path = handoff_dir / NIGHT_HANDOFF_BASENAME
     path.parent.mkdir(parents=True, exist_ok=True)
     return path
 

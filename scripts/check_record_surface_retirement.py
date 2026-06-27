@@ -39,7 +39,7 @@ PRODUCT_FORK = re.compile(r"cognitive\s+fork", re.I)
 
 # Museum path literals are allowed in active docs when pointing at frozen bundle.
 _MUSEUM_PATH = re.compile(
-    r"(?:archive/grace-mar-instance|docs/archive)/[\w./\-]+",
+    r"(?:\.\./)*(?:docs/)?archive/[\w./\-]+",
     re.I,
 )
 

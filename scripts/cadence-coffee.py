@@ -36,9 +36,9 @@ from typing import Any, Dict, List, Tuple
 
 _REPO = Path(__file__).resolve().parent.parent
 try:
-    from repo_io import profile_dir
+    from repo_io import profile_dir, resolve_night_handoff_path, resolve_repo_path
 except ImportError:
-    from scripts.repo_io import profile_dir
+    from scripts.repo_io import profile_dir, resolve_night_handoff_path, resolve_repo_path
 
 MODES = ("standard", "light", "deep", "closeout")
 STATE_NAME = "last-coffee-state.json"
@@ -266,7 +266,8 @@ def main() -> int:
     user = args.user
     py = sys.executable
     user_dir = profile_dir(user)
-    handoff_dir = user_dir / "runtime/daily-handoff"
+    handoff_dir = resolve_repo_path("daily-handoff")
+    handoff_dir.mkdir(parents=True, exist_ok=True)
     state_path = handoff_dir / STATE_NAME
     context_path = handoff_dir / CONTEXT_NAME
 
@@ -303,7 +304,7 @@ def main() -> int:
     triage = _branch_triage()
     branch_class, branch_action, tri_detail = triage
     handoff: Dict[str, Any] = {}
-    nh_path = handoff_dir / "night-handoff.json"
+    nh_path = resolve_night_handoff_path(user)
     if nh_path.is_file():
         try:
             handoff = json.loads(nh_path.read_text(encoding="utf-8"))

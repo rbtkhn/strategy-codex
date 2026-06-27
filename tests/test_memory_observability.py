@@ -123,3 +123,21 @@ def test_coffee_and_dream_wiring_is_one_line_and_non_blocking():
     assert "report rebuild failed" in dream_script
     assert "Do not paste the full dashboard into coffee" in coffee_skill
     assert "Do not paste the full dashboard into dream" in dream_skill
+
+
+def test_strategy_codex_last_dream_uses_runtime_daily_handoff():
+    last_dream = REPO_ROOT / "runtime" / "daily-handoff" / "last-dream.json"
+    if not last_dream.is_file():
+        return
+    report = mbo.build_report("strategy-codex")
+    surface = report["surfaces"]["last_dream"]
+    assert surface["status"] == "ok"
+    assert surface["path"] == "runtime/daily-handoff/last-dream.json"
+    assert surface["detail"] == "ok=True"
+
+
+def test_night_handoff_write_path_matches_canonical_daily_handoff():
+    from scripts.repo_io import night_handoff_write_path
+
+    path = night_handoff_write_path("strategy-codex")
+    assert path.as_posix().endswith("runtime/daily-handoff/night-handoff.json")

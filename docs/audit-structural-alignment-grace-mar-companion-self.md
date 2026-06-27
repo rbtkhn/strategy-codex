@@ -8,7 +8,7 @@
 
 **As of:** 2026-03-27 (updated: additional instances are **not** hosted in this repo).
 
-**companion-self baseline:** [`main` @ `288b438`](https://github.com/rbtkhn/companion-self/commit/288b4386684e076df894536624308e69305ae229) — removed operator-books symlink template governance (see [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md), [COMPANION-SELF-SELF-LIBRARY-ALIGNMENT](archive/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md)).
+**companion-self baseline:** [`main` @ `288b438`](https://github.com/rbtkhn/companion-self/commit/288b4386684e076df894536624308e69305ae229) — removed operator-books symlink template governance (see [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md), [Companion-self library alignment (archive)](archive/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md)).
 
 ---
 

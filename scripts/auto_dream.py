@@ -40,7 +40,7 @@ from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
 from cadence_learning import log_dream_stage
 from harness_warmup import _pending_candidates
-from repo_io import DEFAULT_USER_ID, profile_dir, resolve_memory_path, last_dream_write_path
+from repo_io import DEFAULT_USER_ID, profile_dir, resolve_memory_path, last_dream_write_path, night_handoff_write_path
 
 DEFAULT_USER = DEFAULT_USER_ID
 
@@ -613,9 +613,6 @@ def _write_night_handoff(
     """
     from datetime import datetime, timezone
 
-    user_root = _user_root(users_dir, user_id)
-    handoff_dir = user_root / "runtime/daily-handoff"
-    handoff_dir.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
     generated_date = generated_at[:10]
 
@@ -673,7 +670,7 @@ def _write_night_handoff(
     payload["worktreeState"] = wt_state
     payload["worktreeAdvice"] = wt_adv
 
-    path = handoff_dir / NIGHT_HANDOFF_FILENAME
+    path = night_handoff_write_path(user_id, users_dir)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     return path
 
