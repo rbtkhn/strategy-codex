@@ -11,8 +11,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 - Channel index: `ok`
 - Channel index JSON: `ok`
 - Channel index (misc): `ok`
-- Writer index: `ok`
-- Writer index JSON: `ok`
+- Writer index: `stale`
+- Writer index JSON: `stale`
 
 ## Day Index Status
 
@@ -534,8 +534,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 - `channel-index.md`: `ok`
 - `channel-index.json`: `ok`
 - `channel-index-misc.md`: `ok`
-- `writer-index.md`: `ok`
-- `writer-index.json`: `ok`
+- `writer-index.md`: `stale`
+- `writer-index.json`: `stale`
 
 ## Return
 

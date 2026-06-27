@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 ## Stats
 
 - Distinct threads: `80`
-- Thread-linked source files: `2711`
+- Thread-linked source files: `2712`
 - Covered days: `473`
 - Covered months: `22`
 
@@ -25,8 +25,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `napolitano` | 91 | 67 | 18 | `Judging Freedom` (91) | `Andrew Napolitano` (85) | `2025-01-08` | `2026-06-26` |
 | `sachs` | 91 | 86 | 18 | `Judging Freedom` (37), `Jeffrey Sachs` (21), `Glenn Diesen` (20) | `Andrew Napolitano` (34), `Glenn Diesen` (24), `Jeffrey Sachs` (21) | `2025-01-08` | `2026-06-22` |
 | `macgregor` | 86 | 72 | 17 | `Daniel Davis Deep Dive` (34), `Judging Freedom` (22), `Glenn Diesen` (13) | `Daniel Davis` (31), `Andrew Napolitano` (26), `Glenn Diesen` (16) | `2025-01-06` | `2026-06-26` |
+| `pape` | 72 | 56 | 5 | `escalationtrap.substack.com` (44), `Mario Nawfal` (6), `Breaking Points` (4) | `Robert Pape` (46), `Breaking Points` (4), `Mario Nawfal` (4) | `2026-02-25` | `2026-06-26` |
 | `marandi` | 71 | 56 | 10 | `Dialogue Works` (34), `Glenn Diesen` (14), `Daniel Davis Deep Dive` (12) | `Nima Alkhorshid` (32), `Glenn Diesen` (14), `Daniel Davis` (10) | `2025-01-05` | `2026-06-26` |
-| `pape` | 71 | 55 | 5 | `escalationtrap.substack.com` (43), `Mario Nawfal` (6), `Breaking Points` (4) | `Robert Pape` (45), `Mario Nawfal` (4), `Clayton Morris` (2) | `2026-02-25` | `2026-06-26` |
 | `crooke` | 63 | 61 | 13 | `Glenn Diesen` (6), `Daniel Davis Deep Dive` (6), `Judging Freedom` (6) | `Nima Alkhorshid` (7), `Daniel Davis` (7), `Glenn Diesen` (6) | `2025-06-25` | `2026-06-24` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
 | `alexander-mercouris` | 54 | 53 | 18 | `The Duran` (22), `Alexander Mercouris` (12), `Glenn Diesen` (6) | `Alex Christoforou` (20), `Glenn Diesen` (12), `Alexander Mercouris` (12) | `2023-01-14` | `2026-06-23` |

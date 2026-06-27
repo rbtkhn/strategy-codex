@@ -20,7 +20,8 @@
     "alex-mercouris": "alexander-mercouris",
     "mercouris": "alexander-mercouris",
     "daniel-davis-deep-dive": "daniel-davis",
-    "youtube-deep-dive-daniel-davis-confirm-channel": "daniel-davis"
+    "youtube-deep-dive-daniel-davis-confirm-channel": "daniel-davis",
+    "let-s-talk-geopolitics": "cyrus-janssen"
   },
   "host_index_canonical": {
     "Daniel Davis": "daniel-davis",
@@ -41,7 +42,8 @@
     "Tucker Carlson": "tucker-carlson",
     "Pascal Lottaz": "neutrality-studies",
     "Neutrality Studies": "neutrality-studies",
-    "Alex Christoforou": "the-duran"
+    "Alex Christoforou": "the-duran",
+    "Cyrus Janssen": "cyrus-janssen"
   },
   "series_index_canonical": {
     "The Duran": "the-duran",
@@ -53,7 +55,8 @@
     "Reason to Resist": "reason-resist",
     "India and Global Left": "india-global-left",
     "Moral Resistance": "moral-resistance",
-    "Breaking Points": "breaking-points"
+    "Breaking Points": "breaking-points",
+    "Let's Talk Geopolitics": "cyrus-janssen"
   },
   "filename_prefix_index_canonical": [
     [
@@ -131,6 +134,14 @@
     [
       "youtube-the-duran-",
       "the-duran"
+    ],
+    [
+      "source-pape-cyrus-janssen-",
+      "cyrus-janssen"
+    ],
+    [
+      "source-ritter-cyrus-janssen-",
+      "cyrus-janssen"
     ]
   ],
   "channel_index_misc_slugs": [
@@ -143,7 +154,6 @@
     "garland-nixon",
     "going-underground",
     "john-kiriakou",
-    "let-s-talk-geopolitics",
     "reinvent-money",
     "scott-ritter",
     "shaun-attwood",
@@ -414,6 +424,24 @@
       "host": "Tucker Carlson",
       "thread": "carlson",
       "file_prefix": "source-carlson",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "cyrus-janssen",
+      "channel_name": "Cyrus Janssen",
+      "channel_id": "UCxEQsjgRRfGWiJJu_PDygxw",
+      "uploads_playlist_id": "UUxEQsjgRRfGWiJJu_PDygxw",
+      "handle_url": "https://www.youtube.com/@CyrusJanssen",
+      "show": "Cyrus Janssen",
+      "host": "Cyrus Janssen",
+      "thread": "janssen",
+      "file_prefix": "source-pape-cyrus-janssen",
       "daily_watchlist": false,
       "discovery_priority": [
         "uploads_playlist",

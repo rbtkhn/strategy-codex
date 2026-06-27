@@ -15,12 +15,12 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 
 ## Stats
 
-- Distinct YouTube channel keys: `15`
-- YouTube source files mapped: `1489`
-- Rows with explicit `channel_slug`: `15`
+- Distinct YouTube channel keys: `16`
+- YouTube source files mapped: `1491`
+- Rows with explicit `channel_slug`: `16`
 - Watchlist channels (matched): `7`
-- Check-sources roster (main, misc excluded): `15` — [channel-index.json](./channel-index.json)
-- Discoverable on roster: `15` (YouTube URL or discovery `channel_id` / `handle_url`)
+- Check-sources roster (main, misc excluded): `16` — [channel-index.json](./channel-index.json)
+- Discoverable on roster: `16` (YouTube URL or discovery `channel_id` / `handle_url`)
 
 ## Channels
 
@@ -41,6 +41,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | `reason-resist` | Reason to Resist | 6 | 6 |  | [open](https://www.youtube.com/@reason2resist) | `2026-05-18` | `2026-06-25` |
 | `moral-resistance` | Moral Resistance | 5 | 5 |  | [open](https://www.youtube.com/@MoralResistance) | `2026-05-31` | `2026-06-26` |
 | `redacted-news` | Redacted News | 5 | 4 | yes | [open](https://www.youtube.com/@RedactedNews) | `2026-04-20` | `2026-06-16` |
+| `cyrus-janssen` | Cyrus Janssen | 2 | 2 |  | [open](https://www.youtube.com/@CyrusJanssen) | `2026-04-16` | `2026-05-10` |
 
 _`*` = slug derived from label; no explicit `channel_slug` in frontmatter._
 

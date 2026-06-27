@@ -5,25 +5,25 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `10`
-- Channel sources: `5`
+- Channel sources: `6`
 - Writer sources: `1`
-- Other sources: `4`
+- Other sources: `3`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (9), `substack-post` (1)
-- Source form mix: `interview` (5), `post` (4), `newsletter` (1)
-- Distinct channels/shows: `8`
-- Distinct hosts: `5`
-- Distinct guests: `5`
+- Body kind mix: `transcript` (8), `cleaned-transcript` (1), `substack-post` (1)
+- Source form mix: `interview` (6), `post` (3), `newsletter` (1)
+- Distinct channels/shows: `9`
+- Distinct hosts: `6`
+- Distinct guests: `6`
 - Distinct threads: `8`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1), `Daniel Davis` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `The Duran` (1), `escalationtrap.substack.com` (1)
+- `Alexander Mercouris` (1), `Cyrus Janssen` (1), `Daniel Davis` (1), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `The Duran` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Andrei Martyanov` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Russia` (1), `Seyed M. Marandi` (1)
+- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Cyrus Janssen` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Andrei Martyanov` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Robert Pape` (1), `Russia` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (2), `marandi` (2), `mercouris` (2), `pape` (2), `diesen` (1), `johnson` (1), `martyanov` (1), `wilkerson` (1)
 
 ## Channel sources
@@ -37,6 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `martyanov` | [9QGnItz7CsU](https://www.youtube.com/watch?v=9QGnItz7CsU) | `source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=BwUL5ftAi38) | `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md` |
 | `judging-freedom` | Judging Freedom | `wilkerson` | [watch](https://www.youtube.com/watch?v=ih7CYro5gGs) | `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md` |
+| `cyrus-janssen` | Cyrus Janssen | `pape` | [pn934RKxie8](https://www.youtube.com/watch?v=pn934RKxie8) | `source-pape-cyrus-janssen-us-has-no-idea-what-is-coming-next-2026-04-16.md` |
 
 ## Writer sources
 
@@ -55,7 +56,6 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 | — | `davis` | — | `source-daniel-davis-2026-04-16.md` |
 | The Duran | `mercouris` | — | `source-duran-mercouris-2026-04-16.md` |
 | — | `marandi` | — | `source-marandi-2026-04-16.md` |
-| — | `pape` | — | `source-pape-2026-04-16.md` |
 
 ## Files
 
@@ -67,5 +67,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md`
 - `source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md`
 - `source-marandi-2026-04-16.md`
-- `source-pape-2026-04-16.md`
+- `source-pape-cyrus-janssen-us-has-no-idea-what-is-coming-next-2026-04-16.md`
 - `source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md`

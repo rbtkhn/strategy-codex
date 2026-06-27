@@ -37,7 +37,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `alkorshid` | [watch](https://www.youtube.com/watch?v=HcCJpGh9M54) | `source-dialogue-works-patrick-henningsen-iran-us-blockade-china-israel-2026-05-10.md` |
 | `the-duran` | The Duran | `mercouris`, `christoforou`, `krapivnik` | [watch](https://www.youtube.com/watch?v=sNkFbQZnKG0) | `source-duran-mercouris-stanislav-krapivnik-russia-ukraine-drones-world-war-2026-05-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `karaganov` | [watch](https://www.youtube.com/watch?v=2Gd5jdl36cg) | `source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md` |
-| `let-s-talk-geopolitics` | Let's Talk Geopolitics | `ritter` | [watch](https://www.youtube.com/watch?v=-idI5zKO1M8) | `source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md` |
+| `cyrus-janssen` | Let's Talk Geopolitics | `ritter` | [-idI5zKO1M8](https://www.youtube.com/watch?v=-idI5zKO1M8) | `source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md` |
 
 ## Writer sources
 

@@ -9,7 +9,7 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 ## Corpus note
 
 - **55** authored · **16** guest · **71** total on disk
-- **12/15** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
+- **13/16** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
 - Rebuild: `python3 scripts/build_pape_index.py`
 
 ## Boundary
@@ -61,7 +61,7 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 ## 2026-04
 
 - [2026-04-02 — Trump Accelerated the Crisis](../../../source-archive/statecraft/2026-04-02/source-pape-trump-accelerated-the-crisis-2026-04-02.md) — **authored** · newsletter
-- [2026-04-16 — Professor Robert Pape: The US Can NOT Beat Iran (Cyrus Janssen studio)](../../../source-archive/statecraft/2026-04-16/source-pape-2026-04-16.md) — **guest** · host: **Cyrus Janssen** · transcript · _one studio session · four indexed theme segments in inbox/registry_
+- [2026-04-16 — Professor Robert Pape: US Has No Idea What is Coming NEXT!](../../../source-archive/statecraft/2026-04-16/source-pape-cyrus-janssen-us-has-no-idea-what-is-coming-next-2026-04-16.md) (`pn934RKxie8`) — **guest** · host: **Cyrus Janssen** · `cyrus-janssen` · transcript
 - [2026-04-16 — The Iran War Is About to Hit a Supply Wall—Markets Aren’t Ready](../../../source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md) — **authored** · substack-post
 - [2026-04-17 — A Real-Time Test of Power—and Why Tonight Matters](../../../source-archive/statecraft/2026-04-17/source-pape-a-real-time-test-of-powerand-why-2026-04-17.md) — **authored** · substack-post
 - [2026-04-20 — Redacted — *The Collapse is Now "Ahead of Schedule"* (April 20, 2026)](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) — **guest** · host: **Clayton Morris** · transcript

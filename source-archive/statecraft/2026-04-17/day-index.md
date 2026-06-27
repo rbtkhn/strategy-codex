@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `15`
-- Channel sources: `4`
+- Source files: `16`
+- Channel sources: `5`
 - Writer sources: `2`
 - Other sources: `9`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (11), `substack-post` (2), `operator-transcript` (1), `verbatim-sidecar` (1)
-- Source form mix: `post` (9), `interview` (4), `newsletter` (2)
-- Distinct channels/shows: `6`
-- Distinct hosts: `3`
-- Distinct guests: `4`
-- Distinct threads: `10`
+- Body kind mix: `transcript` (12), `substack-post` (2), `operator-transcript` (1), `verbatim-sidecar` (1)
+- Source form mix: `post` (9), `interview` (5), `newsletter` (2)
+- Distinct channels/shows: `7`
+- Distinct hosts: `4`
+- Distinct guests: `5`
+- Distinct threads: `11`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Daniel Davis` (1), `Dialogue Works` (1), `Diesen (Greater Eurasia)` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
+- `Daniel Davis Deep Dive` (2), `Cyrus Janssen` (1), `Daniel Davis` (1), `Dialogue Works` (1), `Diesen (Greater Eurasia)` (1), `escalationtrap.substack.com` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Larry Johnson` (2), `Lawrence Wilkerson` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (3), `johnson` (3), `diesen` (2), `marandi` (2), `pape` (2), `ritter` (2), `barnes` (1), `parsi` (1), `simplicius` (1), `wilkerson` (1)
+- Hosts: `Daniel Davis` (2), `Cyrus Janssen` (1), `Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Larry Johnson` (2), `Douglas Macgregor` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
+- Threads: `davis` (3), `johnson` (3), `diesen` (2), `marandi` (2), `pape` (2), `ritter` (2), `barnes` (1), `macgregor` (1), `parsi` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -36,6 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=mMWAWVyRqiw) | `source-daniel-davis-iran-more-war-seems-likely-professor-marandi-2026-04-17.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | [ionE4H44LUA](https://www.youtube.com/watch?v=ionE4H44LUA) | `source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md` |
 | `glenn-diesen` | Diesen (Greater Eurasia) | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04) | `source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md` |
+| `cyrus-janssen` | Cyrus Janssen | `macgregor` | [wypqnoH4xkE](https://www.youtube.com/watch?v=wypqnoH4xkE) | `source-macgregor-cyrus-janssen-us-launching-iran-ground-invasion-2026-04-17.md` |
 
 ## Writer sources
 
@@ -73,6 +74,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-diesen-2026-04-17.md`
 - `source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`
 - `source-johnson-2026-04-17.md`
+- `source-macgregor-cyrus-janssen-us-launching-iran-ground-invasion-2026-04-17.md`
 - `source-marandi-2026-04-17.md`
 - `source-pape-2026-04-17.md`
 - `source-pape-a-real-time-test-of-powerand-why-2026-04-17.md`
