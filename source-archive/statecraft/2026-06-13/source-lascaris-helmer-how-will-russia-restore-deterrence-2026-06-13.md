@@ -44,7 +44,7 @@ transcript_curation: curated_sectioned
 ## Transcript
 
 
-### Show Open — Introduction
+### Show Open — Helmer Deterrence and Russian Street
 
 Good day. This is Demetri Lascaris coming to you for Reason to Resist from Kamata, Greece on June 14th, 2026, although it will be June 13th uh in North America when we publish this video in a few hours time. I'm very pleased to be joined again by our good friend and frequent guest of On Reason to Resist, John Helmer.
  For the few audience members who might not be familiar with John, he's the longest continuously serving foreign correspondent in Russia and the only Western journalist to direct his own bureau independent of national or commercial ties. Born and educated in Australia, then at Harvard, John has also been a professor of political science, sociology, and journalism.
@@ -60,7 +60,7 @@ Uh he says local businesses are already closing. On top of that, prices on every
  Now um this is just one person of course John uh whose views may or may not be uh shared by a large proportion of the Russian population but based on what you can see including in particular the most recent polling data do you think that these are views that are widely and increasingly shared amongst the Russian population? Yeah, pardon me.
  Yes, they are, Dimitri. Um, but let for the benefit of the part of our audience that that considers this um to be
 
-### Segment 2 — Disloyal To President Putin's Leadership
+### Russian Street Dissent — Propaganda and Delagin Critics
 
 disloyal to President Putin's leadership and [clears throat] Western propaganda aimed at sewing chaos and damaging Russia's ability to bring the war to conclusion. Let me make a couple of general points. First of all, yes, there is a significant uh view in the United States, in the Trump administration, in the European governments, in the NATO leadership that [clears throat] Russia's economy is under uh war related stress
 and that President Putin faces a significant uh election rebuff when the uh state duma elections are called between September 18 and 20. And this is a propaganda line which has turned into a war-making line for exactly the same events that that your uh source described. The Ukrainian drone attacks which are uh assisted, directed, guided informed by US intelligence, NATO intelligence and European uh assistance.
@@ -76,7 +76,7 @@ drivers as the beginning of the summer driving season that damages tourism. Ther
  So, uh yes, we have a significant internal problem which is part of the Ukrainian allied war plan. first. Second, we are in an election period in which President Putin's um support and the uh support of the ruling party uh [snorts] um is is in danger of slipping below um majority control of the state duma after September.
  If those things are are seriously risk uh concerning to the the Kremlin,
 
-### Segment 3 — Then What We Have Is
+### Election Repression — Nabiullina and Youth Internet
 
 then what we have is rise of repression, rise of attempts to stifle the level of uh how to say opposition to the president. That's loyal, loyal opposition and um let's say pro um NATO opposition are confused here. There's [clears throat] no doubt that uh in the opinion polls and I published the most recent one from uh Levada Center in Moscow uh during this past week.
  Um they show that the young in particular, your friend for example, are particularly sensitive to the repressive effects of internet control, the shutting down of of all of the uh access to internet, pardon me, [clears throat] that that you mentioned that your friend is suffering from.
@@ -91,7 +91,7 @@ and correlated with support for the Russian army. The Russian army's ability to 
 consensus even including significant oligarchs like Deripaska the aluminium car oligarch that uh Elvira Nabiullina should be removed because she will not lower the interest rate and the in The central bank interest rate um has to be reduced into single digits or lower in order to restimulate um the capacity of businesses to uh improve their working capital to improve their uh investment to improve their uh their ability to uh uh increase their productivity and so on.
  So the first target is Nabiullina, the central bank governor and the the central bank's key rate. Now uh Nabiullina under this pressure has taken sick leave since May. Uh she has not appeared in public [snorts] and uh she
 
-### Segment 4 — Has Uh Allowed Various Supporters
+### Nabiullina Sick Leave — Budget Deficit Fight
 
 has uh allowed various supporters to leak that she's profoundly unhappy with criticism of her performance.
  She has threatened to President Putin with an early resignation. Her her term ends next in June of 2027. So in 12 months time, she must be gone unless President Putin changes the law uh to create an extension of her term. If she's threatening to resign, which is the sick leave cover, she's making a political stand.
@@ -107,7 +107,7 @@ which is anathema to President Putin that looks to him like um a a return to Sov
 >> Yes. uh the Germany is almost 65% uh you know France is 118% uh the United States uh is let me just uh scroll down here uh 126% I am mystified as to why the Russian government would be uh particularly concerned with balancing the budget right now especially when it is in a war that requires massive expenditures, an existential war.
  Um, that sounds to me like the people who are driving the bus and Russian policym, economic policym are could fairly be described as radically neoliberal. >> Well, you may say that. I can't possibly comment. Um, the uh the the labeling um let's say is a
 
-### Segment 5 — Cover For A Faction A
+### SMO vs War — Dmitriev Anchorage Line
 
 cover for a faction a a major factional difference politically and that in turn has its ideological doctrinal economic theory uh justifications.
  What's the political contest here? President Putin is not at war on the Ukraine battlefield. He is running a special military operation. Right. Special military operation is an attempt to achieve war aims, demilitarization of Ukraine and denazification of the Ukraine and protection of Russia for the future in Europe while maintaining as much business as usual in in throughout the domestic economy.
@@ -123,7 +123,7 @@ Therefore, um, the public opinion that you began with, Dimitri, becomes sharper 
  And all of them are engaged in massive deficit spending. There no one is talking in any major western economy about balancing the budget right now. And they are not confronted by an existentially dangerous war. uh they may say they are but the reality is that they aren't whereas Russia is and if whether you call it a special military operation or a war the fact of the matter is that conducting this uh this operation uh requires very considerable government outlays.
  So to me it's really astonishing that anybody in these circumstances in uh the Russian elite would be talking about balancing the budget especially when you've got these sky-high interest rates which are already causing uh problems in the economy and for ordinary uh citizens and businesses. In any case, uh to talk to come back to the political consequence of all of this, if if there were to be a loss of the majority by um uh the uh
 
-### Segment 6 — The Ruling Party In The
+### Duma Elections — Vote Fraud and Communists
 
 the ruling party in the upcoming elections based on the polling, John, which party or parties do you think would be the
 primary beneficiaries of this? Well, the Communist Party would advance and so would the Liberal Democratic Party of Russia would advance and so would um the individual constituency supporters of opposition to the president and there are two or there are at least two minor parties which all of which would gain um I don't believe that um that the result of the elections will be a loss of the ruling party, United Russia ruling parties majority.
@@ -138,7 +138,7 @@ very high public uh opposition to the government and government's intention to c
 a a a vicious austerity program being inflicted upon Greece by the IMF the ECB and uh the European Commission >> uh the Germany primarily was yes the driving force the Merkel uh regime and uh the very next day uh you know Tsipras who was supposed who was democratically elected by the standards of democratic elections in the west and who was supposed to uh bring an end to austerity inflicted upon the Greek people an austerity program that it was even worse than the one they had just rejected.
  So basically as I uh said in a speech I gave in Oslo two nights ago. Um in my view that was uh the day on which European democracy died and it has been
 
-### Segment 7 — A Festering Corpse Ever Since
+### Yeltsin Fraud — Foreign Ministry Systemic Strikes
 
 a festering corpse ever since then if you'll excuse my crude uh description. In any case, uh so I I don't want to I don't want to suggest to leave anybody in our audience with the impression that, you know, I believe that the West is somehow superior uh when it comes to democracy.
  It certainly has uh no lectures to give to anybody. Uh I also want to just pull up this image. You were talking about uh the Yeltsin shenanigans in the '90s. uh how uh Time magazine basically bragged, I think this was 1996, that advisers of the Clinton government administration had basically saved Boris Yeltsin, showing it again how aggressively uh Western powers interfered in the internal affairs of Russia back then during that disastrous period.
@@ -154,7 +154,7 @@ Let me explain a couple of things while you were bravely. Uh, and I'm glad you s
 statements the exact text of which I've published and we've talked of in in other podcasts so as not to repeat basically President Putin repudiated what his foreign minister had said there would be no consistent there would be no systemic um attacks following the Oreshnik strike. In in fact, President Putin himself explained the Oreshnik strike when queried by skeptical Russian journalists as to what exactly had happened.
  The strike uh using the Oreshnik targeted an industrial park known as at the town south uh west or just south of Kiev known as Bila Tserkva. It means um there there is a military manufacturing complex there. There are variety of industrial park businesses there and other factories. The what President Putin said was to deny that the Oreshnik targeted either a command control bunker underground for the Ukrainian military or the Ukrainian NATO military or he denied it or a bunker
 
-### Segment 8 — In Which Drones Were Being
+### Putin Repudiates Lavrov — Drone MOD List
 
 in which drones were being manufactured. What he said
 was it was a test with mathematical precision of what the Oreshnik can do. It was not, he said, uh implied a systemic and consistent attack on either Ukrainian command control, NATO command control militarily and politically in the country. nor was it an attack on the uh drone uh industrial complex. Subsequently, uh there was a statement on behalf of the general staff by the chairman of the state Duma defense committee, a former lieutenant general Kartapolov, who said the decision on command control targeting, meaning
@@ -170,7 +170,7 @@ transfers that are and Russian shipping moving through the Ionian Sea. And that'
 " It was not a military operation. It was a political demonstration operation. And that's where we are. >> Okay. So, this brings us back to the same conversation we were having the last time you were on the program. And I I want to I remember distinctly being surprised by your answer because we were we're having a similar discussion to this one although we know more now uh about uh I think a little more about what uh how NATO uh countries are directly involved in uh the drone warfare against Russia.
  But it seems you don't have to be a military expert to understand that if Russia is not attacking Ukraine's strategic rear which is European NATO countries. This is where you've they've even identified the addresses of these facilities where that are producing these drones if they are
 
-### Segment 9 — Immune From Attack Which They
+### Strategic Rear Asymmetry — Karaganov Inevitable
 
 immune from attack which they have been up until now.
  But Ukraine with the uh enab enablement of western uh European states or or European states in the United States are attacking Russia's strategic rear and its military-industrial facilities far from the front. This is a huge disadvantage for Russia. This is a serious serious problem for Russia militarily and economically. Okay. Yes.
@@ -187,7 +187,7 @@ diplomat military diplomatic doctrine depends on their claiming that Trump is di
  Why does the presidential restriction inside the Ukraine not systemic not consistent? So before we even come to the problem of a an attack by the Russian site on a NATO warfare site, we come to the problem of why there's insufficient elimination of the delivery system, the infrastructure that allows offshore production of missiles, drones, rockets, and arms into the Ukraine.
  That's also a restriction. So before we even come to the the uh NATO article five uh invocation of US aid to support the NATO member under Russian attack we come to a preliminary question and that's also a
 
-### Segment 10 — Negative For The For The
+### Anchorage Fix — No NATO Strike Yet
 
 negative for the for the Putin-Dmitriev line that they are counting on Trump to deliver a long-term US guarantee. for Russian security in Europe.
  Nobody else in the world, certainly not looking at the way the Iran war negotiation is being conducted, believes that uh that President Trump and his associates and family intend to or can deliver a security guarantee for any of their targets. Okay. But on the Ukraine battlefield, there's this preliminary point.

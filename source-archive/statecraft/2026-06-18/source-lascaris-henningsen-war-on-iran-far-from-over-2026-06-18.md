@@ -52,7 +52,7 @@ transcript_curation: curated_sectioned
 ## Transcript
 
 
-### Show Open — Introduction
+### Show Open — Lebanon Ceasefire Violations
 
 Good day. This is Dimitri Lascaris coming to you for Reason to Resist from Kalamata, Greece on June 18th, 20126. Israel just experienced its worst day since its genocidal rampage in Lebanon began. Today we'll cover the dramatic events in Lebanon and we'll also speak with Patrick Henningson about the memorandum of understanding orou between the Islamic Republic of Iran and the Trump regime.
  Patrick is a highly distinguished geopolitical analyst, journalist, and the founder of 21st Century Wire. Uh but before we get into it, please remember to like and share this video if you find it to be informative. And if you're not already a subscriber to Reason to Resist, we warmly encourage you to become one and help us to expand the reach of our unapologetic resistance journalism.
@@ -77,7 +77,7 @@ So, let me begin with this uh doozy. Uh Patrick uh Donald Trump talking about th
 months, could be whatever. What do you have left? That may be nothing. But you don't have the straight will never be open because people that own billion dollar ships, these ships cost a billion dollars. They don't like sailing ships or having their ships participate. When you go up the coast and you go through the straight and there are rockets flying over your head, they want to protect their billion dollar investment.
  You wouldn't have oil for maybe years. These are stupid people. >> Well, Patrick, uh people like you and me and many others in the alternative media were saying many months ago that these were stupid people. Uh but Donald Trump appears suddenly to have uh gotten religion on what is realistically achievable
 
-### Segment 2 — Within The Straight Of Hormu
+### Trump Hormuz Reality — G7 Oil Tanker Rhetoric
 
 within the straight of Hormuz.
  I guess my I'm interested in your general reaction to what you just heard, but also do you think this is genuine? Do you believe that Donald Trump really has understood uh that this is not a war that he can win and that any attempt to crush Iran will result in the destruction of the global economy? I think uh the answer to that question is I mean that's a good question that's a fair question and a lot of people are asking this question right but there's a deeper aspect to this question and it's not you know when Trump articulates a policy or says comments on a policy or a
@@ -98,7 +98,7 @@ under Biden. That's when they that's when the kind of breakdown began in terms o
  Now, uh theou as I'm sure you know, Patrick, says nothing about ballistic missiles. The Iranian leadership has said very clearly that that has been removed from the agenda. That is not on the table. There's nothing to discuss. So after this report appeared, Donald made these comments about the ballistic missile program. >> Working on a parallel effort with the Gulf nations to address non-nuclear issues such as the conventional ballistic missiles which we'll be talking about and support.
  I mean they have to have some because other people have some. You got to have some. Somebody said they you shouldn't give them one. I mean, I have guys I like some of these guys, but I don't think this I don't think
 
-### Segment 3 — They're Smart Sir You Shouldn't
+### Ballistic Missiles — GCC Parallel Track
 
 they're smart. Sir, you shouldn't let them have any missile. I said, well, what am I going to do? Am I going to let Saudi Arabia have missiles, but they can't have them? Yes, sir. Can't doesn't work that way.
 You know, it doesn't work that way. And missiles aren't the problem. Missiles are they hurt a little, but they don't blow up the planet. So the Gulf nations will address the non-uclear issues as uh we'll be talking about the ballistic missiles and we'll talk also about the uh terrorist proxies that they have that >> okay and and as you know Patrick the so-called terrorist proxies in other words support uh from the Islamic Republic for groups like Hezbollah and Ansaral have also been taken off the table. So I mean I don't know I'm just
@@ -120,7 +120,7 @@ This one is quite a zinger. He's talking about Solman the Donald. >> But nobody 
  He got off his plane and we followed him and and in all fairness because they've been wonderful to me, Israel, but they didn't want to do that attack. They were all set. The night before the attack, they informed me they didn't want to do it. So, I had to make a decision. I made the decision to do it.
  But they were it was a joint venture as we say in the real estate business. That was a joint venture between Israel and us. We studied
 
-### Segment 4 — It For A Month We
+### Soleimani Hit — US Drove the Bus
 
 it for a month. We knew what plane he was going to be on almost a month before. He only traveled on commercial airliners, big ones with lots of people cuz he knew we wouldn't shoot him down.
  He very smart, but we knew he was going to be on that plane. Followed him. And then Israel informed me that they won't do it. I don't know quite what to make of that uh I don't know ty whatever but to me this raises it raises many questions what he just said but one of the questions and this is really the one that I want to focus on here is there's this ongoing debate and I feel like I'm in the minority on this side of the debate about whether it is the United States government or Israel that drives the bus in this relationship uh And I used to be of the view that it
@@ -142,7 +142,7 @@ Uh, so if there's an insurgency in that country, the occupying troops are fair g
  Yeah, they got they killed our troops. You know, these Iranians, yes, we need to bomb them because well, we're going to get them back. It it's about revenge and stirring that sort of animosity up. It's it's hugely toxic what he's doing. And he's not alone. Rubio and everybody else repeats the same exact talking points.
 Where do they get those talking points? IPAC. Israeli lobby. They It's It's
 
-### Segment 5 — Literally Uh Bullet Points To
+### Tail Wags Dog — IPAC and Symbiotic Empire
 
 literally uh bullet points to every single congressman, senator. Every single one of them have an IPAC handler. Okay. The mount. And so, and that leads us to your uh bigger question. Uh does the does the is it the tail that wags the dog or is it is it the dog that wags the tail? And of course, the the reality of that there's there's no black and white binary answer to that question.
 And and I think out in the pungentry world of the alternative media, everybody's looking for the the master key, what what I will call the unified conspiracy. You know, they want everyone could because everyone wants to make some meaning of it and not because the truth is much more messy and more complicated and more multi-dimensional and and and and it confounds logic much of the time.
@@ -163,7 +163,7 @@ So you can see that everything that so Israel this little tiny slice of land the
 So it was relatively recently. But there's tons of other like at least a two dozen other Isra major Israeli lobby organizations that did that including and as well as uh individuals. Citizens United was a big gamecher as well uh for opening the floodgates for super PACs and all of this stuff and anonymous uh concealed contributions.
 The bottom line is this. what happened uh before it was definitely Israel was a beach head for western
 
-### Segment 6 — Imperialism But Over Time The
+### Israeli Lobby Cabinet — Safe Seats Drained
 
 imperialism 100%. But over time the tail uh has been on steroids and it the tail has metastasized and the tail is now threatening the health of the dog and threatening to kill the dog because it's totally out of control.
  I mean, and it's it's had got an outsized influence in the US foreign policy now to to I would say probably from the mid 90s from from the mid90s with the clean break document project from the new American century Benjamin Netanyahu himself directly uh lobbying and influencing he basically put out his agenda very publicly uh from really from the from the 80s forward.
@@ -185,7 +185,7 @@ Why would you take the most popular uh GOP congressman out, the future speaker o
  You just don't, you know, leave them there, right? If you wanted to hold the House and Senate the next election, you don't mess with those seats. He They pulled him out, put her as UN ambassador. Then they panicked because they realized that there was a Democrat challenging in that seat. Boom. Put her right back. Put her right back.
 They abandoned that one. Uh so
 
-### Segment 7 — Why Would You Do That
+### MOU Lebanon Integrity — Ambiguous Language
 
 why would you do that? because the Israeli lobby um they go anybody who's running Democrat and Republican, they will back all of them including the loser or the winner that to guarantee that they they groom them from the beginning of their congressional and Senate career. Tom Cotton's a good example.
  And the the reason they do that is because they they're able to groom them, able to get in early, able to influence them to kind of make them loyal to Israel and develop a relationship. and they have a handler that's to be assigned to them or different handlers over the course of their career. You don't have that with diplomats, uh, academics.
@@ -208,7 +208,7 @@ And I've heard in the Iranian media and Iranian politicians explain that they ha
 full of ambiguous language that these treacherous cheats will unquestionably try to exploit in order to screw Iran over. That's that's my fear. >> Okay. That's a big uh there's many different there's many different things yeah there's many different things were wrapped up in that but um I I'll I'll work backwards a little bit but uh you know there's three or four major issues within that to address.
  First
 
-### Segment 8 — Thing Is I'll Start With
+### Iran Not Duped — Agreement-Incapable US
 
 thing is I'll start with the last comment you made which I think is the easiest one to uh under and and when we establish that we'll have a better understanding. Okay. Has has Iran been had? Okay. Absolutely not. Okay. The the Iranians have clearly understood that you don't you can't negotiate in good faith with the United States.
  And this is what the Russians have also figured out is that you just have to manage Trump and this administration specifically, but generally the US is very underhanded. and and the pro they also know the problem isn't you're not just dealing with the US you've got this uh other entity behind it which is Israel which makes things nearly impossible and I'll explain why in a minute but uh so Iran is managing Trump they're they're opening keeping the door open for negotiations but they're preparing for their own defense knowing
@@ -231,7 +231,7 @@ strategic vision they it's it's all about tactics and the current tactic is bomb
 they say that every five minutes by the way in this administration. So that's so that's the that's the answer. Iran is not being duped, but Iran's also, while they're a regional superpower, they're still dealing with a very dangerous uh you know, a very dangerous uh uh adversary that it that that will stab them in the back that has Israel that can manipulate them that can sabotage any deal at any time.
  So, so theou a memorandum understanding is not really worth
 
-### Segment 9 — The Paper It's Written On
+### MOU Roadmap — Hezbollah Terror Label
 
 the paper it's written on quite frankly. It's just a roadmap uh that uh to negotiate an agreement that we're going to start negotiating and but the the thing is along that line that timeline which can extend 24 months there's so many different pitfalls potentially along the way that either the opposition in the US or the hardliners in the US can can block in in including releasing assets of Iran including lifting sanctions all of these things tremendous political And Iran's
 aware of all of this, by the way. They know this. But and and so and if you look at the Oslo peace process, Israel strung that out for, you know, over a decade. And guess what? It was way worse by the end of it than than it was when they started. And because Israel is the master at uh idiosyncrat uh exploiting idiosyncratic either either legally or some some detail and then ch moving the goalpost only subtly and carefully.
@@ -253,7 +253,7 @@ This would apply to Islamic jihad. These would and the list goes on. the PFLP, y
  Okay? And and that really didn't calm down until the early 90s. And at the end of that phase of the civil war, uh, all of the groups had to disarm. That was the sort of general agreement. And, uh, all groups in Lebanon disarmed in 1991. In 1991, except for one group was allowed to keep their arms. And that was Hezbollah. And why was that? Because they they everyone agreed, all parties agreed that they would defend the southern border.
 that they would defend the So why wouldn't the Lebanese armed forces do that? And the answer is simple. Okay. The Lebanese armed forces do not have the equipment and they do not have the capability to defend themselves against the IDF and politically nor would they want to because the the US government have have developed
 
-### Segment 10 — Such Control Over The Government
+### Beirut Veto — Lebanese Army Disarmed
 
 such control over the government in Beirut specifically the Christian Marionite Christian and the pro- uh western Sunni pro and Saudi funded uh Sunni parties. Okay.
  um to the point where the US has vetoed the uh acquisition of fighter jets, air defense, anything of meaning. So the the Lebanese armed forces are basically a jumped up Jean de Marie force. That's not a real armed forces. They can't they have no way to defend their airspace. So Israel has told the US government, "We need access to Lebanon's airspace.
@@ -276,7 +276,7 @@ You can't give them, don't give them any weapons. We can't allow that." So, so S
  And they they've got a singular focus which is to to derail this deal or this I I want to call it a deal because it's not a deal and a deal is not a real thing. U this let's call it derail the peace process. let's that now that makes sense because we have form for that like we can point to peace processes that have been totally sabotaged by these same people.
 So uh so so if that's the case I would say and and you know Trump has Trump has to really he would have to be so strong and resilient as an individual and of such high character and such high morals to be able
 
-### Segment 11 — To Withstand That Pressure I
+### Horowitz Apoplexy — Deal Will Be Sabotaged
 
 to withstand that pressure. I mean, he would have to be a John Fitzgerald Kennedy, Jimmy Carter, uh, you know, hybrid to do that.
  And, uh, unfortunately, I don't have a lot of faith in him because I' i've heard what he's saying in some of these interviews, like it like I said, the G7, and he hasn't changed his attitude. He he doesn't he doesn't uh he the it's it's he's a very much in a it's I don't want to call it a colonial mindset but he definitely doesn't rate Arabs and Iranians as full persons like he would an America a white American or I don't want to say it's purely racial but there is this kind of superiority complex and the Israelis have this complex I Donald
