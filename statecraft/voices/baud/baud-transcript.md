@@ -7,7 +7,7 @@ WORK only; not Record.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [`strategy-expert-baud.md`](strategy-expert-baud.md) (profile) and [arc-baud-continuity.md](arc-baud-continuity.md) (distilled person arc).
+**Companion files:** [`strategy-expert-baud.md`](strategy-expert-baud.md) (profile) and [arc-baud-continuity.md](baud-arc.md) (distilled person arc).
 
 ---
 

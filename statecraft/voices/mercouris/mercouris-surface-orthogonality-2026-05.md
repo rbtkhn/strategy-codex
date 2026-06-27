@@ -6,8 +6,8 @@ WORK only; not Record.
 
 Surfaces reviewed:
 
-- [arc-mercouris-continuity.md](arc-mercouris-continuity.md)
-- [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md)
+- [arc-mercouris-continuity.md](mercouris-arc.md)
+- [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md)
 - [arc-mercouris-davis-host.md](../../channels/daniel-davis/arc-mercouris-davis-host.md)
 - [arc-mercouris-diesen-host.md](../diesen/arc-mercouris-diesen-host.md)
 

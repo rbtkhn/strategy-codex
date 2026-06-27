@@ -42,7 +42,7 @@ These monthly files are bounded synthesis shelves. They do not replace host-loca
 ## Historical Scaffold
 
 - [Historical examples audit](ritter-historical-examples-audit.md)
-- [Historical themes front door](README.md)
+- [[Historical themes front door](ritter-themes.md)
 
 This wave does not yet promote individual Ritter theme files. The shelf now has the membrane and entry point without speculating past the current source-backed recurrence.
 

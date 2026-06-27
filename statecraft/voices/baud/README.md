@@ -8,7 +8,7 @@ Open here when the question is not merely what Baud said in one appearance, but 
 
 ## Open First
 
-- [arc-baud-continuity.md](arc-baud-continuity.md)
+- [arc-baud-continuity.md](baud-arc.md)
 - [baud-thread-international-law.md](baud-thread-international-law.md)
 - [baud-helix.md](baud-helix.md)
 - [baud-surface-orthogonality-2026-05.md](baud-surface-orthogonality-2026-05.md)
@@ -20,7 +20,7 @@ Open here when the question is not merely what Baud said in one appearance, but 
 
 This shelf already has a genuine canonical structure:
 
-- [arc-baud-continuity.md](arc-baud-continuity.md) is the canonical person-level continuity surface
+- [arc-baud-continuity.md](baud-arc.md) is the canonical person-level continuity surface
 - [baud-thread-international-law.md](baud-thread-international-law.md) is a real canonical topical thread inside the broader Baud corpus
 - [baud-helix.md](baud-helix.md) is the crossing surface for reading recurring host transformations together
 

@@ -7,7 +7,7 @@ Purpose: compact front door for the canonical Marandi statecraft shelf.
 ## Open First
 
 - [README.md](README.md)
-- [arc-marandi-continuity.md](arc-marandi-continuity.md)
+- [arc-marandi-continuity.md](marandi-arc.md)
 - [marandi-routing.md](marandi-routing.md)
 - [marandi-source-index.md](marandi-source-index.md)
 - [marandi-helix.md](marandi-helix.md)
@@ -15,7 +15,7 @@ Purpose: compact front door for the canonical Marandi statecraft shelf.
 
 ## Fast route map
 
-- If the question is **whole-speaker continuity**, open [arc-marandi-continuity.md](arc-marandi-continuity.md).
+- If the question is **whole-speaker continuity**, open [arc-marandi-continuity.md](marandi-arc.md).
 - If the question is **which Marandi lane or file to open first**, open [marandi-routing.md](marandi-routing.md).
 - If the question is **what actually exists on disk**, open [marandi-source-index.md](marandi-source-index.md).
 - If the question is **how the three-host structure works**, open [marandi-helix.md](marandi-helix.md).

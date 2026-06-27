@@ -6,7 +6,7 @@ Purpose: provenance bench for the canonical Parsi shelf across authored and host
 
 ## Primary source classes
 
-- authored Substack / Responsible Statecraft captures remain canonical through [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
+- authored Substack / Responsible Statecraft captures remain canonical through [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - host-owned interview appearances remain canonical through [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
 
 ## Governing window

@@ -17,13 +17,13 @@ The shelf's month ladder sits above those strands as bounded synthesis, not as a
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| Crooke's mechanism, trap logic, or forecast/tension spine in his own voice | [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) | The authored ledger is the canonical mechanism surface. |
+| Crooke's mechanism, trap logic, or forecast/tension spine in his own voice | [crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) | The authored ledger is the canonical mechanism surface. |
 | bargaining-room realism, spoiler logic, or leverage diagnosis | [arc-crooke-davis-host.md](../../notes/arc-crooke-davis-host.md) | Davis gives the clearest negotiation-structure Crooke lane. |
 | order-transition altitude or wider geopolitical consequence | [arc-crooke-diesen-host.md](../../notes/arc-crooke-diesen-host.md) | Diesen gives the highest-altitude interview transformation. |
 | live crisis pressure or tactical episode widening into civilizational signal | [arc-crooke-nima-host.md](../../notes/arc-crooke-nima-host.md) | Dialogue Works sharpens present-tense event pressure. |
-| legitimacy-order or whether law still binds as negotiated constraint | [stream/crooke-thread-international-law.md](crooke-thread-international-law.md) | This is the real topical law strand inside the broader Crooke corpus. |
+| legitimacy-order or whether law still binds as negotiated constraint | [crooke-thread-international-law.md](crooke-thread-international-law.md) | This is the real topical law strand inside the broader Crooke corpus. |
 | cross-strand orientation to Crooke as one object | [crooke-helix.md](crooke-helix.md) | The helix explains how authored and interview pressure fit together. |
-| month-level synthesis across the live 2026 run | [stream/README.md](README.md) | The month ladder gives bounded Jan-May synthesis without replacing host or source-class ownership. |
+| month-level synthesis across the live 2026 run | [crooke-monthly-shelves.md](crooke-monthly-shelves.md) | The month ladder gives bounded Jan-May synthesis without replacing host or source-class ownership. |
 | provenance-first routing | [crooke-source-index.md](crooke-source-index.md) | This is the canonical source bench. |
 
 ## Boundaries

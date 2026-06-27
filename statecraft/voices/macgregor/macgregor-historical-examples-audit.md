@@ -69,4 +69,4 @@ These are candidate families, not yet promoted theme files:
 - This file is not transcript authority; raw-input remains the authority for exact quotes.
 - This file is not a bridge adapter; it does not decide lane routing.
 - This file is not yet a scored top-theme atlas like Mercouris.
-- Open [themes/README.md](README.md) for the historical-theme front door; keep that front door empty of promoted theme files until a recurring family clearly clears the promotion bar.
+- Open [macgregor-themes.md](macgregor-themes.md) for the historical-theme front door; keep that front door empty of promoted theme files until a recurring family clearly clears the promotion bar.

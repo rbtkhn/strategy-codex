@@ -28,13 +28,13 @@ Compat redirect: [diesen-source-index.md](diesen-source-index.md) → split abov
 
 ## Native stream
 
-- Stream shelf: [stream/]()
+- Stream shelf: [diesen-index.md](diesen-index.md) (guest captures) · [Glenn Diesen channel shelf](../../channels/glenn-diesen/README.md) (host)
 
 ## Compatibility shape
 
 This shelf is already stream-native and high-density, but it still carries some older compatibility spellings inside the stream files:
 
-- [stream/diesen-thread.md](diesen-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
+- [diesen-thread.md](diesen-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
 - the guest-run files on the flat Diesen shelf currently live mostly as `diesen-*-speaker-arc.md`, which should be read as the embodied relational arcs for this host shelf, not as a separate second arc class
 - where both spellings exist, such as `arc-baud-diesen-host.md` and `arc-baud-diesen-host.md`, the `*-arc.md` file is canonical and the `*-speaker-arc.md` file is only a compatibility alias
 

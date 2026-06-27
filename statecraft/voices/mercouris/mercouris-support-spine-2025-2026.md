@@ -12,12 +12,12 @@ Purpose: own Mercouris's maturity law, month-status law, and the rule for how th
 
 Quick separation rule:
 
-- [arc-mercouris-continuity.md](arc-mercouris-continuity.md) = whole-speaker continuity wrapper
+- [arc-mercouris-continuity.md](mercouris-arc.md) = whole-speaker continuity wrapper
 - [mercouris-routing.md](mercouris-routing.md) = fastest arc or month selection
 - [mercouris-source-index.md](mercouris-source-index.md) = source bench
 - [mercouris-helix.md](mercouris-helix.md) = crossing-surface wrapper
-- [stream/arc-mercouris-continuity.md](arc-mercouris-continuity.md) = inner continuity core
-- [stream/README.md](README.md) = bounded monthly synthesis shelves
+- [arc-mercouris-continuity.md](mercouris-arc.md) = inner continuity core
+- [mercouris-monthly-shelves.md](mercouris-monthly-shelves.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Month-status law

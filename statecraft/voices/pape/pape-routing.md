@@ -7,11 +7,11 @@ Purpose: fast-routing note for the canonical Pape shelf.
 ## Open First By Task
 
 - escalation trap / commitment ratchet / coercive-failure mechanism
-  - open [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
+  - open [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - shortage clock / blockade logic / synchronized contraction
-  - open [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
+  - open [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - fourth-center thesis / coercive system leverage / Gulf-state hedging
-  - open [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
+  - open [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - military-feasibility pressure on the forecast
   - open [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
 - macro-shock translation / consumer-facing shortage explanation
@@ -19,7 +19,7 @@ Purpose: fast-routing note for the canonical Pape shelf.
 - authored/interview crossing
   - open [pape-helix.md](pape-helix.md)
 - whole-speaker continuity
-  - open [arc-pape-continuity.md](arc-pape-continuity.md)
+  - open [arc-pape-continuity.md](pape-arc.md)
 - provenance bench / complete route map
   - open [pape-source-index.md](pape-source-index.md)
 

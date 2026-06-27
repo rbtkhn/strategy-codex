@@ -76,12 +76,12 @@ Compatibility note: this is a legacy host-continuity surface, not a canonical to
 
 ## Host-local routing
 
-- [arc-johnson-napolitano-host.md](arc-johnson-napolitano-host.md)
-- [arc-ritter-napolitano-host.md](arc-ritter-napolitano-host.md)
-- [arc-macgregor-napolitano-host.md](arc-macgregor-napolitano-host.md)
-- [arc-mearsheimer-napolitano-host.md](arc-mearsheimer-napolitano-host.md)
-- [arc-freeman-napolitano-host.md](arc-freeman-napolitano-host.md)
-- [arc-wilkerson-napolitano-host.md](arc-wilkerson-napolitano-host.md)
+- [arc-johnson-napolitano-host.md](napolitano-johnson-speaker-arc.md)
+- [arc-ritter-napolitano-host.md](napolitano-ritter-speaker-arc.md)
+- [arc-macgregor-napolitano-host.md](napolitano-macgregor-speaker-arc.md)
+- [arc-mearsheimer-napolitano-host.md](napolitano-mearsheimer-speaker-arc.md)
+- [arc-freeman-napolitano-host.md](napolitano-freeman-arc.md)
+- [arc-wilkerson-napolitano-host.md](napolitano-wilkerson-speaker-arc.md)
 
 ## Boundary
 

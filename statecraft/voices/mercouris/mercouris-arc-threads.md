@@ -231,4 +231,4 @@ Boundary: This is the arc-thread most likely to become a richer host-local braid
 
 ## Use
 
-Open this file when the question is about durable Mercouris theses across the native stream. Open [arc-mercouris-continuity.md](arc-mercouris-continuity.md) when the question is about the bounded arc shape. Open monthly shelves or pages when the question is about sequencing inside a specific date range. Open raw-input before quoting.
+Open this file when the question is about durable Mercouris theses across the native stream. Open [arc-mercouris-continuity.md](mercouris-arc.md) when the question is about the bounded arc shape. Open monthly shelves or pages when the question is about sequencing inside a specific date range. Open raw-input before quoting.

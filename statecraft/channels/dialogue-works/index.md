@@ -24,8 +24,8 @@ Open Nima / Dialogue Works first when:
 ## Provenance and stream (compatibility)
 
 - [dialogue-works-channel-index.md](dialogue-works-channel-index.md) — exhaustive Dialogue Works route map
-- [stream/nima-thread.md](../../../statecraft/channels/dialogue-works/nima-thread.md) — legacy host continuity
-- [stream/nima-shelf-2026-04.md](../../../statecraft/channels/dialogue-works/nima-shelf-2026-04.md) — bounded monthly synthesis shelf
+- [nima-thread.md](../../../statecraft/channels/dialogue-works/nima-thread.md) — legacy host continuity
+- [nima-shelf-2026-04.md](../../../statecraft/channels/dialogue-works/nima-shelf-2026-04.md) — bounded monthly synthesis shelf
 
 Guest arcs and additional stream surfaces live under [statecraft/channels/dialogue-works/](../../../statecraft/channels/dialogue-works/).
 

@@ -10,17 +10,17 @@ Current shelf jobs after this pass:
 
 | Surface | Job | Current judgment |
 |---|---|---|
-| [index.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/index.md) | wrapper front door | keep; now routes more clearly into `person arc -> routing -> raw-input -> helix` |
-| [README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/README.md) | wrapper front door | keep; now mirrors the same contract more cleanly |
-| [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md) | person arc | keep as canonical whole-speaker continuity |
-| [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md) | routing | keep; fastest host-selection surface |
-| [mearsheimer-source-index.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-source-index.md) | source bench and non-core appearance bench | keep; exhaustive authority for resolved appearances |
-| [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
-| [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md) | support spine | keep; speaker-owned maturity and host-led month-support explanation |
-| [mearsheimer-historical-examples-audit.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-historical-examples-audit.md) | support surface | keep; historical-pattern retrieval support |
-| [themes/README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/README.md) | support surface | keep; theme pack, not chronology |
-| [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) | compatibility residue | keep demoted |
-| [mearsheimer-transcript.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-transcript.md) | compatibility residue | keep demoted |
+| [index.md](index.md) | wrapper front door | keep; now routes more clearly into `person arc -> routing -> raw-input -> helix` |
+| [README.md](README.md) | wrapper front door | keep; now mirrors the same contract more cleanly |
+| [arc-mearsheimer-continuity.md](../../notes/arc-mearsheimer-continuity.md) | person arc | keep as canonical whole-speaker continuity |
+| [mearsheimer-routing.md](mearsheimer-routing.md) | routing | keep; fastest host-selection surface |
+| [mearsheimer-source-index.md](mearsheimer-source-index.md) | source bench and non-core appearance bench | keep; exhaustive authority for resolved appearances |
+| [mearsheimer-helix.md](mearsheimer-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
+| [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md) | support spine | keep; speaker-owned maturity and host-led month-support explanation |
+| [mearsheimer-historical-examples-audit.md](mearsheimer-historical-examples-audit.md) | support surface | keep; historical-pattern retrieval support |
+| [mearsheimer-themes.md](mearsheimer-themes.md) | support surface | keep; theme pack, not chronology |
+| [mearsheimer-thread.md](mearsheimer-thread.md) | compatibility residue | keep demoted |
+| [mearsheimer-transcript.md](mearsheimer-transcript.md) | compatibility residue | keep demoted |
 
 ## Structural judgment
 
@@ -28,8 +28,8 @@ The shelf is still best read as a **person arc above a durable double helix, wit
 
 That doctrine still holds:
 
-- the whole-speaker object lives in [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md)
-- the stable host comparison still lives in [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
+- the whole-speaker object lives in [arc-mearsheimer-continuity.md](../../notes/arc-mearsheimer-continuity.md)
+- the stable host comparison still lives in [mearsheimer-helix.md](mearsheimer-helix.md)
 - the current `Diesen + Davis` pair is still the canonical core
 - the Napolitano lane is real but still reinforcing orbit, not a third equal strand
 - the source index owns a meaningful non-core appearance bench that widens the shelf without collapsing that doctrine
@@ -94,11 +94,11 @@ Why:
 
 Current boundary reading:
 
-- [mearsheimer-source-index.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-source-index.md) remains the provenance authority and the active non-core appearance bench
-- [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md) remains the comparison surface
+- [mearsheimer-source-index.md](mearsheimer-source-index.md) remains the provenance authority and the active non-core appearance bench
+- [mearsheimer-helix.md](mearsheimer-helix.md) remains the comparison surface
 - host-local arcs remain the best place to read transformation by host
-- [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md) now owns the maturity explanation rather than leaving it implicit
-- [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) and [mearsheimer-transcript.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-transcript.md) remain compatibility residue only
+- [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md) now owns the maturity explanation rather than leaving it implicit
+- [mearsheimer-thread.md](mearsheimer-thread.md) and [mearsheimer-transcript.md](mearsheimer-transcript.md) remain compatibility residue only
 
 Current judgment:
 
@@ -130,7 +130,7 @@ Concrete judgment:
 
 ## Compatibility judgment
 
-[mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) and [mearsheimer-transcript.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-transcript.md) should remain compatibility residue.
+[mearsheimer-thread.md](mearsheimer-thread.md) and [mearsheimer-transcript.md](mearsheimer-transcript.md) should remain compatibility residue.
 
 Reason:
 

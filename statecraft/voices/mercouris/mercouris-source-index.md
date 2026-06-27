@@ -41,7 +41,7 @@ Use these when the task is early-strand continuity rather than the live 2026 rep
 
 Best first-open for January 2025 continuity:
 
-- [stream/mercouris-shelf-2025-01.md](mercouris-shelf-2025-01.md)
+- [mercouris-shelf-2025-01.md](mercouris-shelf-2025-01.md)
 
 ## 2025-02 prehistory anchors
 
@@ -53,7 +53,7 @@ Use these when the task is tracing how the January setup month compresses into a
 
 Best first-open for February 2025 continuity:
 
-- [stream/mercouris-shelf-2025-02.md](mercouris-shelf-2025-02.md)
+- [mercouris-shelf-2025-02.md](mercouris-shelf-2025-02.md)
 
 ## 2025-11 — Pokrovsk inflection month
 
@@ -97,7 +97,7 @@ June should be read as the month where **Donbas collapse geometry**, **Oreshnik 
 
 Best first-open for June 2026 continuity:
 
-- [stream/mercouris-shelf-2026-06.md](mercouris-shelf-2026-06.md)
+- [mercouris-shelf-2026-06.md](mercouris-shelf-2026-06.md)
 
 **June hinge anchors:**
 

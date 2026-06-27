@@ -1,0 +1,62 @@
+[
+  {
+    "path": "statecraft/voices/crooke/crooke-routing.md",
+    "changes": 10
+  },
+  {
+    "path": "statecraft/voices/crooke/crooke-support-spine-2025-2026.md",
+    "changes": 16
+  },
+  {
+    "path": "statecraft/voices/crooke/README.md",
+    "changes": 26
+  },
+  {
+    "path": "statecraft/voices/freeman/freeman-routing.md",
+    "changes": 9
+  },
+  {
+    "path": "statecraft/voices/freeman/freeman-support-spine-2025-2026.md",
+    "changes": 17
+  },
+  {
+    "path": "statecraft/voices/freeman/README.md",
+    "changes": 21
+  },
+  {
+    "path": "statecraft/voices/macgregor/macgregor-routing.md",
+    "changes": 15
+  },
+  {
+    "path": "statecraft/voices/macgregor/macgregor-shelf-hygiene-2026-05.md",
+    "changes": 26
+  },
+  {
+    "path": "statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md",
+    "changes": 33
+  },
+  {
+    "path": "statecraft/voices/macgregor/README.md",
+    "changes": 24
+  },
+  {
+    "path": "statecraft/voices/mercouris/mercouris-routing.md",
+    "changes": 12
+  },
+  {
+    "path": "statecraft/voices/mercouris/mercouris-support-spine-2025-2026.md",
+    "changes": 8
+  },
+  {
+    "path": "statecraft/voices/mercouris/README.md",
+    "changes": 29
+  },
+  {
+    "path": "statecraft/voices/ritter/README.md",
+    "changes": 27
+  },
+  {
+    "path": "statecraft/voices/ritter/ritter-support-spine-2025-2026.md",
+    "changes": 16
+  }
+]

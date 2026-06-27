@@ -18,12 +18,12 @@ Johnson now has a full native continuity stack of his own.
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| Johnson as a whole speaker object | [arc-johnson-continuity.md](arc-johnson-continuity.md) | The person arc owns whole-speaker continuity above all host lanes and support surfaces. |
+| Johnson as a whole speaker object | [arc-johnson-continuity.md](johnson-arc.md) | The person arc owns whole-speaker continuity above all host lanes and support surfaces. |
 | why Johnson is mature enough to own native month support | [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md) | Explains the 2025 foundation, March bridge month, and April-May dense core. |
-| the bounded March 2026 cross-host bridge sequence | [stream/johnson-shelf-2026-03.md](johnson-shelf-2026-03.md) | Mature bridge-month surface before the later dense-core thread atlas. |
-| Johnson's durable dense-core theses across April-May 2026 | [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md) | Canonical thread atlas for the dense 2026 core. |
-| the bounded April 2026 cross-host sequence | [stream/johnson-shelf-2026-04.md](johnson-shelf-2026-04.md) | Month-synthesis surface for ceasefire contradiction, blockade theater, and widening shock. |
-| the bounded May 2026 cross-host sequence | [stream/johnson-shelf-2026-05.md](johnson-shelf-2026-05.md) | Month-synthesis surface for Gulf repositioning, BRICS/China angle, and post-control reality. |
+| the bounded March 2026 cross-host bridge sequence | [johnson-shelf-2026-03.md](johnson-shelf-2026-03.md) | Mature bridge-month surface before the later dense-core thread atlas. |
+| Johnson's durable dense-core theses across April-May 2026 | [johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md) | Canonical thread atlas for the dense 2026 core. |
+| the bounded April 2026 cross-host sequence | [johnson-shelf-2026-04.md](johnson-shelf-2026-04.md) | Month-synthesis surface for ceasefire contradiction, blockade theater, and widening shock. |
+| the bounded May 2026 cross-host sequence | [johnson-shelf-2026-05.md](johnson-shelf-2026-05.md) | Month-synthesis surface for Gulf repositioning, BRICS/China angle, and post-control reality. |
 | geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [arc-johnson-diesen-host.md](../../notes/arc-johnson-diesen-host.md) | Diesen gives the highest-altitude Johnson lane. |
 | operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](../../channels/daniel-davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
 | live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [arc-johnson-nima-host.md](../../notes/arc-johnson-nima-host.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |

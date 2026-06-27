@@ -7,7 +7,7 @@ Purpose: fast-routing note for the canonical Parsi shelf.
 ## Open First By Task
 
 - diplomacy mechanism / bargain structure / implementation realism
-  - open [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
+  - open [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - coercion failure / bargaining leverage under interview pressure
   - open [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
 - Washington misread / legal-political responsibility
@@ -19,11 +19,11 @@ Purpose: fast-routing note for the canonical Parsi shelf.
 - authored/interview crossing
   - open [parsi-helix.md](parsi-helix.md)
 - whole-speaker continuity
-  - open [arc-parsi-continuity.md](arc-parsi-continuity.md)
+  - open [arc-parsi-continuity.md](parsi-arc.md)
 - recurring continuity family
-  - open [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
+  - open [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - theme-family routing
-  - open [themes/README.md](README.md)
+  - open [parsi-themes.md](parsi-themes.md)
 
 ## Boundaries
 

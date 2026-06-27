@@ -20,12 +20,12 @@ His strength is not primarily immense native-stream depth. It is the persistence
 
 The current Marandi stack is:
 
-- [arc-marandi-continuity.md](arc-marandi-continuity.md) = speaker-wide continuity surface
+- [arc-marandi-continuity.md](marandi-arc.md) = speaker-wide continuity surface
 - [marandi-routing.md](marandi-routing.md) = fast host-and-task routing
-- [stream/marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) = recurring thread atlas
+- [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) = recurring thread atlas
 - [marandi-helix.md](marandi-helix.md) = host-transformation comparison
 - host-local arcs = bounded realizations under specific hosts
-- [themes/README.md](README.md) = theme-family routing surface
+- [marandi-themes.md](marandi-themes.md) = theme-family routing surface
 
 ## Why Marandi matters
 
@@ -61,7 +61,7 @@ Marandi is strongest as a legitimacy-and-red-line speaker whose range appears th
 
 If the operator needs the whole speaker:
 
-- open [arc-marandi-continuity.md](arc-marandi-continuity.md)
+- open [arc-marandi-continuity.md](marandi-arc.md)
 
 If the operator needs the fastest route:
 
@@ -75,5 +75,5 @@ If the operator needs the host comparison:
 
 - This note is not a substitute for the host-local speaker arcs.
 - This note is not the primary routing surface; host-and-task entry logic belongs in [marandi-routing.md](marandi-routing.md).
-- This note is not the thread atlas; recurring continuity families belong in [stream/marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md).
+- This note is not the thread atlas; recurring continuity families belong in [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md).
 - Marandi is strongest on legitimacy, red lines, endurance logic, and sovereignty framing; he is not a neutral wire-grade verifier.

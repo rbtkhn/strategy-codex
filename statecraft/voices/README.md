@@ -192,8 +192,8 @@ The current normalized shelf level is the `Macgregor / Ritter` grammar:
 - `README.md` and `index.md` front doors
 - speaker arc, routing note, source index, and crossing surface
 - speaker-owned support spine
-- bounded monthly synthesis ladder for `2026-01` through `2026-05`
-- historical audit and `themes/README.md`
+- bounded monthly synthesis ladder for `2026-01` through `2026-05` (`{speaker}-shelf-YYYY-MM.md`, `{speaker}-monthly-shelves.md`)
+- historical audit and `{speaker}-themes.md`
 - codex front doors reduced to compatibility pointers
 
 The active normalized 2026 shelf set is:
@@ -220,7 +220,7 @@ Canonical lighter first-pass shelves now also include:
 
 ## Shelf classes
 
-The repo now recognizes four shelf classes.
+The repo now recognizes six shelf classes.
 
 ### 1. Normalized month-ladder shelves
 
@@ -232,9 +232,9 @@ These use the full canonical statecraft speaker grammar:
 - source index
 - crossing surface
 - support spine
-- bounded `2026-01` through `2026-05` synthesis ladder
+- bounded `2026-01` through `2026-05` synthesis ladder (`{speaker}-shelf-YYYY-MM.md`, `{speaker}-monthly-shelves.md`)
 - historical audit
-- `themes/README.md`
+- `{speaker}-themes.md`
 
 Current examples:
 
@@ -344,6 +344,17 @@ For these shelves:
 Current example:
 
 - [Jiang](jiang/README.md)
+
+### Shelf-class summary
+
+| Class | Canonical? | Month ladder expected? |
+| --- | --- | --- |
+| Normalized month-ladder | yes | yes |
+| Cross-context exception | yes | only where real |
+| Lighter first-pass | yes | no |
+| Host-led mature-month exception | yes | usually no |
+| Starter exception | partial / doorway | no |
+| Mirror-bearing exception | yes | not primary test |
 
 ## Current constitutional choice
 

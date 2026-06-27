@@ -4,7 +4,7 @@
 WORK only; not Record.
 
 **Canonical profile:** this file.
-**Continuity SSOT:** [arc-ritter-continuity.md](arc-ritter-continuity.md) — person arc across authored + interview contexts.
+**Continuity SSOT:** [arc-ritter-continuity.md](ritter-arc.md) — person arc across authored + interview contexts.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Commentator index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`ritter`** lane.
 
@@ -12,7 +12,7 @@ WORK only; not Record.
 
 ## Introduction
 
-Scott Ritter is the **military-professional dissent** lane: operational limits, blockade and sea-control mechanics, escalation diagnosis, and war-power critique in a strongly voiced register. Material arrives on **two parallel surfaces** — **authored Substack/site** (long-form warning, forecast spine, **field witness**) and **host interviews** (Davis feasibility, Diesen escalation, Nima live pressure, Napolitano legal reinforcement). For continuity across both, open **[arc-ritter-continuity.md](arc-ritter-continuity.md)** first; this profile is the **identity and routing card**, not the full person arc.
+Scott Ritter is the **military-professional dissent** lane: operational limits, blockade and sea-control mechanics, escalation diagnosis, and war-power critique in a strongly voiced register. Material arrives on **two parallel surfaces** — **authored Substack/site** (long-form warning, forecast spine, **field witness**) and **host interviews** (Davis feasibility, Diesen escalation, Nima live pressure, Napolitano legal reinforcement). For continuity across both, open **[arc-ritter-continuity.md](ritter-arc.md)** first; this profile is the **identity and routing card**, not the full person arc.
 
 **Ukraine / SMO (2026):** authored field pieces (e.g. *A Trail of Tears*, pub 2026-06-19) add **occupied-rear witness and memorial grammar** — legitimate synthesis input on harm and morale; **not** wire-primary proof without archive `verify:` / operator rows.
 
@@ -31,10 +31,10 @@ Scott Ritter is the **military-professional dissent** lane: operational limits, 
 
 | If you need… | Open | Why |
 | --- | --- | --- |
-| Person continuity across hosts + authored | [arc-ritter-continuity.md](arc-ritter-continuity.md) | Arc SSOT |
+| Person continuity across hosts + authored | [arc-ritter-continuity.md](ritter-arc.md) | Arc SSOT |
 | Which host or month shelf to open | [ritter-routing.md](ritter-routing.md) | Task router |
 | Every landed capture | [ritter-source-index.md](ritter-source-index.md) | Archive route map |
-| Mature 2026 month density | [stream/ritter-shelf-2026-04.md](ritter-shelf-2026-04.md) | Full-spectrum month (or routing table) |
+| Mature 2026 month density | [ritter-shelf-2026-04.md](ritter-shelf-2026-04.md) | Full-spectrum month (or routing table) |
 | Bounded wedge after operator / archive rows | [statecraft/notes/](../../notes/) via **`state-note`** / **`civ-state-note`** | Promotion — not codex thread |
 
 <a id="voice-fingerprint-compact"></a>
@@ -73,7 +73,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **5 Epistemic** | Escalation diagnosis | **Danger threshold** language — fantasy objectives vs material limits | Arc: fantasy-objective critique · forecast ledger | Hope-based de-escalation without mechanism |
 | **6 Rhetorical moves** | Field journey | Travel under security team; **not a tourist** disclaimer | *"very much a war zone… not a tourist destination"* · [`2026-06-19`] | Armchair ORBAT-only analysis |
 | **6 Rhetorical moves** | Memorial scene | **Children / students / memorial** as emotional spine | Starobelsk impromptu memorial · [`2026-06-19`] | Statistical toll without embodied scene |
-| **6 Rhetorical moves** | Warning forecast | **Operational warning** + force-constraint interpretation | [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) | Single-episode hot take without arc |
+| **6 Rhetorical moves** | Warning forecast | **Operational warning** + force-constraint interpretation | [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) | Single-episode hot take without arc |
 | **6 Rhetorical moves** | Legal-command indictment | War-power / command absurdity when coercive spectacle collapses | Napolitano reinforcement lane · arc jobs | Barnes badge-stripping as default Ritter voice |
 | **7 Format** | Authored Substack | Long essay, personal byline, dated publication line, series cadence | *A Trail of Tears* opener · [`2026-06-19`] | Elevated paraphrase of transcript without Substack shape |
 | **7 Format** | Host interview | Register **sharpens** under Nima live pressure; **tests feasibility** under Davis | [ritter-routing.md](ritter-routing.md) open-by-task table | Mercouris solo monologue cadence |
@@ -100,7 +100,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 - **Ritter × davis** — feasibility, stockpiles, skies, blockade impracticality.
 - **Ritter × barnes** — war-power / legal-indictment reinforcement (secondary to Ritter ops core).
 
-*Month-level convergence detail:* [arc-ritter-continuity.md](arc-ritter-continuity.md) — profile does not compress the month ladder.
+*Month-level convergence detail:* [arc-ritter-continuity.md](ritter-arc.md) — profile does not compress the month ladder.
 
 ## Tension fingerprint
 

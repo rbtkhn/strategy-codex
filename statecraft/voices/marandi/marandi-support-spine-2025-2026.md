@@ -15,7 +15,7 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [arc-marandi-continuity.md](arc-marandi-continuity.md) = whole-speaker continuity
+- [arc-marandi-continuity.md](marandi-arc.md) = whole-speaker continuity
 - [marandi-routing.md](marandi-routing.md) = fastest lane selection
 - [marandi-source-index.md](marandi-source-index.md) = source bench
 - [marandi-helix.md](marandi-helix.md) = host-conditioned structure

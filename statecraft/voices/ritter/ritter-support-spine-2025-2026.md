@@ -15,12 +15,12 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [arc-ritter-continuity.md](arc-ritter-continuity.md) = whole-speaker continuity
+- [arc-ritter-continuity.md](ritter-arc.md) = whole-speaker continuity
 - [ritter-routing.md](ritter-routing.md) = fastest lane or month selection
 - [ritter-source-index.md](ritter-source-index.md) = source bench
 - [ritter-helix.md](ritter-helix.md) = cross-host comparison
 - [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) = interview support spine
-- [stream/README.md](README.md) = bounded monthly synthesis shelves
+- [ritter-monthly-shelves.md](ritter-monthly-shelves.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Core maturity claim
@@ -61,10 +61,10 @@ Status: continuity carryover
 
 Open:
 
-- [stream/ritter-shelf-2026-01.md](ritter-shelf-2026-01.md)
+- [ritter-shelf-2026-01.md](ritter-shelf-2026-01.md)
 - [2026-01-27 Diesen](../../../source-archive/statecraft/2026-01-27/source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md)
 - [2026-01-12 Judging Freedom](../../../source-archive/statecraft/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
-- [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
+- [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
 
 Monthly shelf rule:
 
@@ -77,7 +77,7 @@ Status: bridge month
 
 Open:
 
-- [stream/ritter-shelf-2026-02.md](ritter-shelf-2026-02.md)
+- [ritter-shelf-2026-02.md](ritter-shelf-2026-02.md)
 - [2026-02-18 Dialogue Works](../../../source-archive/statecraft/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
 - [2026-02-19 Diesen](../../../source-archive/statecraft/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
 - [2026-02-23 Judging Freedom](../../../source-archive/statecraft/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
@@ -93,7 +93,7 @@ Status: mature dense-core month
 
 Open:
 
-- [stream/ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
+- [ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
 - [Diesen x Ritter](../../notes/arc-ritter-diesen-host.md)
 - [Dialogue Works x Ritter](../../notes/arc-ritter-nima-host.md)
@@ -110,7 +110,7 @@ Status: mature dense-core month
 
 Open:
 
-- [stream/ritter-shelf-2026-04.md](ritter-shelf-2026-04.md)
+- [ritter-shelf-2026-04.md](ritter-shelf-2026-04.md)
 - [2026-04-13 Davis](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - [2026-04-08 Dialogue Works](../../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
 - [2026-04-17 Diesen](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
@@ -126,7 +126,7 @@ Status: mature retrieval month
 
 Open:
 
-- [stream/ritter-shelf-2026-05.md](ritter-shelf-2026-05.md)
+- [ritter-shelf-2026-05.md](ritter-shelf-2026-05.md)
 - [2026-05-04 Diesen](../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - [2026-05-06 Davis](../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
 - [2026-05-13 Dialogue Works](../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)

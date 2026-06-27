@@ -8,7 +8,7 @@ Purpose: compact front door for the canonical Karaganov statecraft shelf.
 
 - [README.md](README.md)
 - [karaganov-profile.md](karaganov-profile.md)
-- [arc-karaganov-continuity.md](arc-karaganov-continuity.md)
+- [arc-karaganov-continuity.md](karaganov-arc.md)
 - [karaganov-routing.md](karaganov-routing.md)
 - [karaganov-source-index.md](karaganov-source-index.md)
 - [karaganov-helix.md](karaganov-helix.md)
@@ -16,7 +16,7 @@ Purpose: compact front door for the canonical Karaganov statecraft shelf.
 
 ## Fast route map
 
-- If the question is **whole-speaker continuity**, open [arc-karaganov-continuity.md](arc-karaganov-continuity.md).
+- If the question is **whole-speaker continuity**, open [arc-karaganov-continuity.md](karaganov-arc.md).
 - If the question is **which Karaganov file to open first**, open [karaganov-routing.md](karaganov-routing.md).
 - If the question is **what actually exists on disk**, open [karaganov-source-index.md](karaganov-source-index.md).
 - If the question is **why the shelf is Diesen-only**, open [karaganov-helix.md](karaganov-helix.md).

@@ -12,7 +12,7 @@ This layer exists so live channel-law, channel-native routing pressure, and gues
 
 Read live work in this order when layers blur:
 
-1. [`source-archive/statecraft/`](../source-archive/statecraft/) — **Statecraft Archive** (verbatim sources)
+1. [`source-archive/statecraft/`](../../source-archive/statecraft/) — **Statecraft Archive** (verbatim sources)
 2. [`statecraft/voices/`](../voices/) — **Statecraft Synthesis** (whole-analyst continuity)
 3. [`statecraft/channels/`](../channels/) — host-conditioned **guest** transformation (not whole-analyst shelves)
 4. [`statecraft/states/`](../states/) — **CIV-STATE** source-memory substrate

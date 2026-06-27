@@ -16,7 +16,7 @@ This support spine owns:
 
 Quick separation rule:
 
-- [arc-johnson-continuity.md](arc-johnson-continuity.md) = whole-speaker continuity
+- [arc-johnson-continuity.md](johnson-arc.md) = whole-speaker continuity
 - [johnson-routing.md](johnson-routing.md) = fastest route by task or host need
 - [johnson-source-index.md](johnson-source-index.md) = source bench
 - [johnson-helix.md](johnson-helix.md) = cross-host comparison of the core transformations

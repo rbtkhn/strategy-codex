@@ -17,7 +17,7 @@ Use it for speaker identity, Nawfal-first source routing, Iran-war hawk mechanis
 
 ## Maturity (honest)
 
-Phase 1 shipped **profile SSOT + source bench**. Phase 2 adds **[weichert-routing.md](weichert-routing.md)**. Phase 3 adds **[arc-weichert-continuity.md](arc-weichert-continuity.md)** (seed Nawfal run). Still deferred:
+Phase 1 shipped **profile SSOT + source bench**. Phase 2 adds **[weichert-routing.md](weichert-routing.md)**. Phase 3 adds **[arc-weichert-continuity.md](weichert-arc.md)** (seed Nawfal run). Still deferred:
 
 - helix / month stream / support spine
 

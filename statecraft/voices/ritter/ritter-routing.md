@@ -27,24 +27,24 @@ The efficient structure is therefore:
 | escalation horizon, sea-control pressure, cross-theater spillover, or mechanics beneath geopolitical framing | [arc-ritter-diesen-host.md](../../notes/arc-ritter-diesen-host.md) | Diesen gives the highest-altitude Ritter lane while still preserving the military-mechanics seam. |
 | live war pressure, rapid inversion claims, Hormuz vulnerability, or immediate crisis motion | [arc-ritter-nima-host.md](../../notes/arc-ritter-nima-host.md) | Dialogue Works pushes Ritter into his sharpest present-tense war-pressure register. |
 | blockade legality, piracy framing, or a compact auxiliary legal-libertarian reinforcement lane | [napolitano-lane-map-2026-05.md](../../channels/judging-freedom/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on legality, command absurdity, and war-power critique. |
-| the year's opening authored/interview membrane | [stream/ritter-shelf-2026-01.md](ritter-shelf-2026-01.md) | January is the authored-heavy continuity opener for the 2026 ladder. |
-| the bridge from opening setup into the full 2026 war object | [stream/ritter-shelf-2026-02.md](ritter-shelf-2026-02.md) | February is the bridge month where the live interview object thickens before full Davis maturity. |
-| the first full dense-core month | [stream/ritter-shelf-2026-03.md](ritter-shelf-2026-03.md) | March is the first month where all core functions are clearly shelf-real together. |
-| the densest mature month cluster | [stream/ritter-shelf-2026-04.md](ritter-shelf-2026-04.md) | April is the clearest full-spectrum Ritter month on the shelf. |
-| the clearest post-Hormuz mature continuation | [stream/ritter-shelf-2026-05.md](ritter-shelf-2026-05.md) | May proves the object remains mature after the April peak. |
+| the year's opening authored/interview membrane | [ritter-shelf-2026-01.md](ritter-shelf-2026-01.md) | January is the authored-heavy continuity opener for the 2026 ladder. |
+| the bridge from opening setup into the full 2026 war object | [ritter-shelf-2026-02.md](ritter-shelf-2026-02.md) | February is the bridge month where the live interview object thickens before full Davis maturity. |
+| the first full dense-core month | [ritter-shelf-2026-03.md](ritter-shelf-2026-03.md) | March is the first month where all core functions are clearly shelf-real together. |
+| the densest mature month cluster | [ritter-shelf-2026-04.md](ritter-shelf-2026-04.md) | April is the clearest full-spectrum Ritter month on the shelf. |
+| the clearest post-Hormuz mature continuation | [ritter-shelf-2026-05.md](ritter-shelf-2026-05.md) | May proves the object remains mature after the April peak. |
 | the cleanest all-around first orientation to Ritter as an object | [ritter-helix.md](ritter-helix.md) | The helix note explains how the canonical triple structure fits together and how the earlier double-helix phase feeds it. |
-| the authored claim behind an interview pattern | [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md), then [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) | Open the Substack row for the doctrine, then the interview cluster that reinforces, extends, or stress-tests it. |
+| the authored claim behind an interview pattern | [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md), then [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) | Open the Substack row for the doctrine, then the interview cluster that reinforces, extends, or stress-tests it. |
 
 ## Best entry points
 
 - **Best single interview opening file:** [source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
-- **Best authored spine:** [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
+- **Best authored spine:** [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
 - **Best interview wiring map:** [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md)
-- **Best January opening:** [stream/ritter-shelf-2026-01.md](ritter-shelf-2026-01.md)
-- **Best February opening:** [stream/ritter-shelf-2026-02.md](ritter-shelf-2026-02.md)
-- **Best March opening:** [stream/ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
-- **Best April opening:** [stream/ritter-shelf-2026-04.md](ritter-shelf-2026-04.md)
-- **Best May opening:** [stream/ritter-shelf-2026-05.md](ritter-shelf-2026-05.md)
+- **Best January opening:** [ritter-shelf-2026-01.md](ritter-shelf-2026-01.md)
+- **Best February opening:** [ritter-shelf-2026-02.md](ritter-shelf-2026-02.md)
+- **Best March opening:** [ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
+- **Best April opening:** [ritter-shelf-2026-04.md](ritter-shelf-2026-04.md)
+- **Best May opening:** [ritter-shelf-2026-05.md](ritter-shelf-2026-05.md)
 
 ## Boundaries
 

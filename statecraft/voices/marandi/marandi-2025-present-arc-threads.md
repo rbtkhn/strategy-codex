@@ -115,8 +115,8 @@ Why this thread matters:
 
 For bounded mature-core readings, open:
 
-- [arc-april-2026-cross-host-marandi-host.md](arc-april-2026-cross-host-marandi-host.md)
-- [arc-may-2026-cross-host-marandi-host.md](arc-may-2026-cross-host-marandi-host.md)
+- [arc-april-2026-cross-host-marandi-host.md](marandi-april-2026-cross-host-arc.md)
+- [arc-may-2026-cross-host-marandi-host.md](marandi-may-2026-cross-host-arc.md)
 
 ## Boundary
 

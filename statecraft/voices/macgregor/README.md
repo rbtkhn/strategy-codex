@@ -8,21 +8,21 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 ## Open First
 
-- [arc-macgregor-continuity.md](arc-macgregor-continuity.md)
+- [arc-macgregor-continuity.md](macgregor-arc.md)
 - [macgregor-routing.md](macgregor-routing.md)
 - [macgregor-source-index.md](macgregor-source-index.md)
 - [macgregor-helix.md](macgregor-helix.md)
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
-- [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
-- [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- [macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
+- [macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 - [macgregor-historical-examples-audit.md](macgregor-historical-examples-audit.md)
-- [themes/README.md](README.md)
+- [macgregor-themes.md](macgregor-themes.md)
 
 ## Canonical Structure
 
 Macgregor's canonical structure now has four speaker-owned layers:
 
-- **Person arc:** [arc-macgregor-continuity.md](arc-macgregor-continuity.md) holds whole-speaker continuity across hosts, contexts, and time.
+- **Person arc:** [arc-macgregor-continuity.md](macgregor-arc.md) holds whole-speaker continuity across hosts, contexts, and time.
 - **Routing surface:** [macgregor-routing.md](macgregor-routing.md) answers which host lane or monthly shelf to open first.
 - **Source index:** [macgregor-source-index.md](macgregor-source-index.md) remains the exhaustive route map for materialized Macgregor appearances.
 - **Crossing surface:** [macgregor-helix.md](macgregor-helix.md) explains the durable `Diesen + Davis` double-helix and the auxiliary Napolitano branch.
@@ -30,7 +30,7 @@ Macgregor's canonical structure now has four speaker-owned layers:
 Support and segmentation surfaces:
 
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md) is the canonical maturity and month-support surface.
-- [stream/README.md](README.md) holds bounded 2026 monthly synthesis shelves.
+- [macgregor-monthly-shelves.md](macgregor-monthly-shelves.md) holds bounded 2026 monthly synthesis shelves.
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md) preserves the longitudinal maturity claim.
 - [macgregor-surface-orthogonality-2026-05.md](macgregor-surface-orthogonality-2026-05.md) and [macgregor-shelf-hygiene-2026-05.md](macgregor-shelf-hygiene-2026-05.md) preserve doctrine and support audits.
 
@@ -47,7 +47,7 @@ Macgregor now has native 2026 monthly shelves, but they are **bounded synthesis 
 The Macgregor historical scaffold in this wave is intentionally narrow:
 
 - [Macgregor historical examples audit](macgregor-historical-examples-audit.md)
-- [Macgregor historical themes](README.md)
+- [[Macgregor historical themes](macgregor-themes.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Macgregor-specific bridge adapter.
 

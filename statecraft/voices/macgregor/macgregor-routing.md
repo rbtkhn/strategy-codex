@@ -25,14 +25,14 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 | anti-war planning critique, undeclared-war normality, or a compact auxiliary branch outside the durable pair | [arc-macgregor-napolitano-host.md](../../notes/arc-macgregor-napolitano-host.md) | Napolitano gives a real but secondary anti-aggression and elite-delusion framing layer. |
 | the cleanest all-around first orientation to Macgregor as an object | [macgregor-helix.md](macgregor-helix.md) | The helix note explains how the durable double structure fits together before you descend into a lane. |
 | the maturity law or month-status answer | [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md) | The support spine owns the maturity and month-support explanation at speaker scope. |
-| a bounded monthly synthesis of what one 2026 month contributes to the speaker object | [stream/README.md](README.md) | The monthly shelf files summarize each month without stealing chronology from the host-local arcs. |
+| a bounded monthly synthesis of what one 2026 month contributes to the speaker object | [macgregor-monthly-shelves.md](macgregor-monthly-shelves.md) | The monthly shelf files summarize each month without stealing chronology from the host-local arcs. |
 
 ## Best entry points
 
 - **Best single opening file:** [source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md](../../../source-archive/statecraft/2026-05-05/source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 - **Best geopolitical-altitude opening file:** [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 - **Best Napolitano opening file:** [source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- **Best mature monthly synthesis opening file:** [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- **Best mature monthly synthesis opening file:** [macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 
 ## By shelf function
 
@@ -40,7 +40,7 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 - **Best host for geopolitical-altitude / order-consequence reading:** [diesen](../../../statecraft/voices/diesen/stream)
 - **Best host for auxiliary month-by-month anti-war reinforcement:** [napolitano](../../../statecraft/channels/judging-freedom/stream)
 - **Best speaker-owned maturity surface:** [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
-- **Best bounded month syntheses:** [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md) and [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- **Best bounded month syntheses:** [macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md) and [macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 
 ## Boundaries
 

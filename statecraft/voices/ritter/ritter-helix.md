@@ -26,7 +26,7 @@ The helix also has a source-class twist:
 - the **interview strand** tests that mechanism under host pressure
 - the **crossing** happens where a ledger row and a host cluster illuminate the same claim from different angles
 
-Read [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) when the question is "what is Ritter's thesis?" Open [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) when the question is "where does this thesis become usable under pressure?"
+Read [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) when the question is "what is Ritter's thesis?" Open [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) when the question is "where does this thesis become usable under pressure?"
 
 ## The three strands
 

@@ -16,7 +16,7 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 
 The orthogonality-bearing structure on this shelf is:
 
-- [arc-wilkerson-continuity.md](arc-wilkerson-continuity.md)
+- [arc-wilkerson-continuity.md](wilkerson-arc.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-helix.md](wilkerson-helix.md)
 - the two main host arcs plus one auxiliary branch

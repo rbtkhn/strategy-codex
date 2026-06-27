@@ -10,7 +10,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 - [README.md](README.md)
 - [barnes-analysis-index.md](barnes-analysis-index.md)
 - [barnes-on-ai.md](barnes-on-ai.md)
-- [arc-barnes-continuity.md](arc-barnes-continuity.md)
+- [arc-barnes-continuity.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
 - [barnes-source-index.md](barnes-source-index.md)
 - [barnes-helix.md](barnes-helix.md)
@@ -21,7 +21,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 - If the question is **who Barnes is as a strategy-expert lane**, open [barnes-profile.md](barnes-profile.md).
 - If the question is **how Barnes works as a speaker object**, open [barnes-analysis-index.md](barnes-analysis-index.md).
 - If the question is **how Barnes talks about AI as bubble, financing, or incentive structure**, open [barnes-on-ai.md](barnes-on-ai.md).
-- If the question is **whole-speaker continuity**, open [arc-barnes-continuity.md](arc-barnes-continuity.md).
+- If the question is **whole-speaker continuity**, open [arc-barnes-continuity.md](barnes-arc.md).
 - If the question is **which Barnes lane or file to open first**, open [barnes-routing.md](barnes-routing.md).
 - If the question is **what actually exists on disk**, open [barnes-source-index.md](barnes-source-index.md).
 - If the question is **how the host-conditioned Barnes structure works**, open [barnes-helix.md](barnes-helix.md).

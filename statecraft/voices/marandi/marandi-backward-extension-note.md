@@ -16,8 +16,8 @@ If meaningful earlier material is added:
 
 1. update [marandi-source-index.md](marandi-source-index.md)
 2. reassess [marandi-cross-year-note.md](marandi-cross-year-note.md)
-3. update [stream/marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) only if the earlier material truly changes recurring thread boundaries
-4. update [arc-marandi-continuity.md](arc-marandi-continuity.md) only if the maturity story or speaker-wide motion materially changes
+3. update [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) only if the earlier material truly changes recurring thread boundaries
+4. update [arc-marandi-continuity.md](marandi-arc.md) only if the maturity story or speaker-wide motion materially changes
 
 ## What not to do
 

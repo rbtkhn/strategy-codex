@@ -49,5 +49,5 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 
 ## Boundary
 
-- Authored Substack captures stay in [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md), not this source set.
+- Authored Substack captures stay in [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md), not this source set.
 - This note supplements the authored ledger and the Pape helix; it does not replace the native forecast spine.

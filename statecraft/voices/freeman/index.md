@@ -47,7 +47,7 @@ These monthly files are bounded synthesis shelves. They do not replace host-loca
 ## Historical Scaffold
 
 - [Historical examples audit](freeman-historical-examples-audit.md)
-- [Historical themes front door](README.md)
+- [[Historical themes front door](freeman-themes.md)
 
 ## Host Arcs
 

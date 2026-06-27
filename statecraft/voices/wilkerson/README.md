@@ -19,7 +19,7 @@ That means:
 
 ## Open First
 
-- [arc-wilkerson-continuity.md](arc-wilkerson-continuity.md)
+- [arc-wilkerson-continuity.md](wilkerson-arc.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-helix.md](wilkerson-helix.md)
 - [wilkerson-source-index.md](wilkerson-source-index.md)

@@ -11,7 +11,7 @@ Karaganov is intentionally a **lighter first-pass, single-helix shelf**. The dir
 ## Open First
 
 - [karaganov-profile.md](karaganov-profile.md)
-- [arc-karaganov-continuity.md](arc-karaganov-continuity.md)
+- [arc-karaganov-continuity.md](karaganov-arc.md)
 - [karaganov-routing.md](karaganov-routing.md)
 - [karaganov-source-index.md](karaganov-source-index.md)
 - [karaganov-helix.md](karaganov-helix.md)
@@ -27,7 +27,7 @@ Karaganov is intentionally a **lighter first-pass, single-helix shelf**. The dir
 
 Karaganov's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [arc-karaganov-continuity.md](arc-karaganov-continuity.md) holds whole-speaker continuity for the Diesen doctrinal run.
+- **Person arc:** [arc-karaganov-continuity.md](karaganov-arc.md) holds whole-speaker continuity for the Diesen doctrinal run.
 - **Routing surface:** [karaganov-routing.md](karaganov-routing.md) answers which file or host lane to open first.
 - **Source index:** [karaganov-source-index.md](karaganov-source-index.md) is the canonical route map for materialized appearances.
 - **Single-helix note:** [karaganov-helix.md](karaganov-helix.md) explains why the object is Diesen-anchored rather than multi-host.

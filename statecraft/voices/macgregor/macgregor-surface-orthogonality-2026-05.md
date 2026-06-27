@@ -8,8 +8,8 @@ Local surfaces under review:
 
 - [macgregor-helix.md](macgregor-helix.md)
 - [macgregor-routing.md](macgregor-routing.md)
-- [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
-- [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- [macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
+- [macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 - [arc-macgregor-davis-host.md](../../notes/arc-macgregor-davis-host.md)
 - [arc-macgregor-diesen-host.md](../../notes/arc-macgregor-diesen-host.md)
 - [arc-macgregor-napolitano-host.md](../../notes/arc-macgregor-napolitano-host.md)

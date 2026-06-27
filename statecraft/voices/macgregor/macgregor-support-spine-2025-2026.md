@@ -15,11 +15,11 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [arc-macgregor-continuity.md](arc-macgregor-continuity.md) = whole-speaker continuity
+- [arc-macgregor-continuity.md](macgregor-arc.md) = whole-speaker continuity
 - [macgregor-routing.md](macgregor-routing.md) = fastest lane or month selection
 - [macgregor-source-index.md](macgregor-source-index.md) = source bench
 - [macgregor-helix.md](macgregor-helix.md) = cross-host comparison
-- [stream/README.md](README.md) = bounded monthly synthesis shelves
+- [macgregor-monthly-shelves.md](macgregor-monthly-shelves.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Core maturity claim
@@ -95,7 +95,7 @@ Status: continuity carryover
 
 Open:
 
-- [stream/macgregor-shelf-2026-01.md](macgregor-shelf-2026-01.md)
+- [macgregor-shelf-2026-01.md](macgregor-shelf-2026-01.md)
 - [source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md](../../../source-archive/statecraft/2026-01-22/source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
 - [source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md](../../../source-archive/statecraft/2026-01-07/source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
 
@@ -110,7 +110,7 @@ Status: continuity carryover
 
 Open:
 
-- [stream/macgregor-shelf-2026-02.md](macgregor-shelf-2026-02.md)
+- [macgregor-shelf-2026-02.md](macgregor-shelf-2026-02.md)
 - [source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md](../../../source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
 - [source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md](../../../source-archive/statecraft/2026-02-26/source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
 
@@ -125,7 +125,7 @@ Status: mature retrieval month
 
 Open:
 
-- [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
+- [macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
 - [Davis x Macgregor](../../notes/arc-macgregor-davis-host.md)
 - [Napolitano x Macgregor](../../notes/arc-macgregor-napolitano-host.md)
 - [Diesen x Macgregor](../../notes/arc-macgregor-diesen-host.md)
@@ -148,7 +148,7 @@ Status: mature retrieval month
 
 Open:
 
-- [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- [macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 - [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 - [source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
 - [source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md](../../../source-archive/statecraft/2026-04-29/source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md)
@@ -169,7 +169,7 @@ Status: support-only month
 
 Open:
 
-- [stream/macgregor-shelf-2026-05.md](macgregor-shelf-2026-05.md)
+- [macgregor-shelf-2026-05.md](macgregor-shelf-2026-05.md)
 - [source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md](../../../source-archive/statecraft/2026-05-05/source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 - [source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md)
 - [source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md](../../../source-archive/statecraft/2026-05-21/source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)

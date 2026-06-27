@@ -45,7 +45,7 @@ If the operator needs the main body of the object:
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes on the flat Diesen shelf, for example [arc-crooke-diesen-host.md](arc-crooke-diesen-host.md) or [arc-postol-diesen-host.md](arc-postol-diesen-host.md)
+- open one of the host-local arc notes on the flat Diesen shelf, for example [arc-crooke-diesen-host.md](diesen-crooke-speaker-arc.md) or [arc-postol-diesen-host.md](diesen-postol-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

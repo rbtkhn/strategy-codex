@@ -14,7 +14,7 @@ Purpose: front door for the canonical first-pass Diesen `civ-lens` shelf.
 - [diesen-index.md](diesen-index.md) — cross-host **guest** captures
 - [glenn-diesen-channel-index.md](../../channels/glenn-diesen/glenn-diesen-channel-index.md) — host channel (via [channel shelf](../../channels/glenn-diesen/README.md))
 - [diesen-source-index.md](diesen-source-index.md) — compat redirect to split above
-- [stream/diesen-thread.md](diesen-thread.md) - legacy host-continuity surface; not a canonical topical thread
+- [diesen-thread.md](diesen-thread.md) - legacy host-continuity surface; not a canonical topical thread
 
 ## Canonical Structure
 
@@ -25,20 +25,20 @@ The orthogonality-bearing structure on this shelf is:
 - the distinct guest-arc files on the flat shelf
 - the source route maps: guest → [diesen-index.md](diesen-index.md); host channel → [glenn-diesen-channel-index.md](../../channels/glenn-diesen/glenn-diesen-channel-index.md)
 
-The older [stream/diesen-thread.md](diesen-thread.md) file is a legacy host-continuity compatibility surface, not a canonical topical-thread atlas.
+The older [diesen-thread.md](diesen-thread.md) file is a legacy host-continuity compatibility surface, not a canonical topical-thread atlas.
 
 ## Stream Highlights
 
-- [stream/diesen-shelf-2026-04.md](diesen-shelf-2026-04.md)
-- [stream/arc-crooke-diesen-host.md](arc-crooke-diesen-host.md) - embodied relational arc in legacy compatibility spelling
-- [stream/arc-freeman-diesen-host.md](arc-freeman-diesen-host.md) - embodied relational Freeman arc
-- [stream/arc-johnson-diesen-host.md](arc-johnson-diesen-host.md) - embodied relational arc in legacy compatibility spelling
-- [stream/arc-marandi-diesen-host.md](arc-marandi-diesen-host.md) - embodied relational arc in legacy compatibility spelling
-- [stream/arc-macgregor-diesen-host.md](arc-macgregor-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [diesen-shelf-2026-04.md](diesen-shelf-2026-04.md)
+- [arc-crooke-diesen-host.md](diesen-crooke-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [arc-freeman-diesen-host.md](diesen-freeman-arc.md) - embodied relational Freeman arc
+- [arc-johnson-diesen-host.md](diesen-johnson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [arc-marandi-diesen-host.md](diesen-marandi-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [arc-macgregor-diesen-host.md](diesen-macgregor-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 - [Diesen × Mearsheimer arc](../../notes/arc-mearsheimer-diesen-host.md) — embodied relational arc (notes shelf)
-- [stream/arc-mercouris-diesen-host.md](arc-mercouris-diesen-host.md) - embodied relational arc in legacy compatibility spelling
-- [stream/arc-ritter-diesen-host.md](arc-ritter-diesen-host.md) - embodied relational arc in legacy compatibility spelling
-- [stream/arc-wilkerson-diesen-host.md](arc-wilkerson-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [arc-mercouris-diesen-host.md](diesen-mercouris-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [arc-ritter-diesen-host.md](diesen-ritter-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [arc-wilkerson-diesen-host.md](diesen-wilkerson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 
 ## Boundary
 

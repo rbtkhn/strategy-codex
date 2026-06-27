@@ -12,7 +12,7 @@ The Johnson triple helix is one pressure-interpreting voice transformed by three
 - Davis tests operational feasibility
 - Dialogue Works applies maximum live crisis pressure
 
-The dense April-May 2026 thread atlas lives in [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md).
+The dense April-May 2026 thread atlas lives in [johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md).
 
 ## The Three Strands
 

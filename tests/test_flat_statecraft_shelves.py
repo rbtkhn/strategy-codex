@@ -14,6 +14,12 @@ BENCHMARK_EXCLUDE = "runtime/artifacts/benchmarks/"
 FORBIDDEN_IN_TRACKED = re.compile(
     r"statecraft/(?:voices/[a-z0-9-]+/(?:stream|themes)/|channels/[a-z0-9-]+/stream/)"
 )
+STALE_VISIBLE_LABEL = re.compile(r"\[(?:stream|themes)/[^\]]+\]")
+THEMES_README_TO_SPEAKER_README = re.compile(r"\[themes/README\.md\]\(README\.md\)")
+README_SELF_MONTHLY = re.compile(
+    r"\[README\.md\]\(README\.md\)(?=[^\n]*(?:monthly|month ladder|month-level|bounded monthly))",
+    re.IGNORECASE,
+)
 
 
 def _tracked_files() -> list[str]:
@@ -79,3 +85,33 @@ def test_no_forbidden_path_strings_in_live_docs() -> None:
         if FORBIDDEN_IN_TRACKED.search(text):
             hits.append(path)
     assert not hits, "live files still cite nested stream/themes paths:\n" + "\n".join(hits[:30])
+
+
+def _shelf_markdown_paths() -> list[str]:
+    out: list[str] = []
+    for path in _tracked_files():
+        if not path.endswith(".md"):
+            continue
+        if path.startswith("statecraft/voices/") and path.count("/") >= 3:
+            parts = path.split("/")
+            if parts[2] not in VOICES_META:
+                out.append(path)
+        elif path.startswith("statecraft/channels/") and path.count("/") >= 3:
+            out.append(path)
+    return out
+
+
+def test_no_stale_flattening_labels_in_shelf_docs() -> None:
+    hits: list[str] = []
+    for path in _shelf_markdown_paths():
+        full = REPO_ROOT / path
+        if not full.is_file():
+            continue
+        text = full.read_text(encoding="utf-8", errors="ignore")
+        if STALE_VISIBLE_LABEL.search(text):
+            hits.append(path)
+        if THEMES_README_TO_SPEAKER_README.search(text):
+            hits.append(f"{path} (themes/README -> README)")
+        if README_SELF_MONTHLY.search(text):
+            hits.append(f"{path} (README self monthly)")
+    assert not hits, "stale stream/themes markdown labels:\n" + "\n".join(sorted(set(hits))[:50])

@@ -23,6 +23,6 @@ Vocabulary note: this file is the **thread atlas**. The numbered items below are
 
 For bounded mature-core readings, open:
 
-- [arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md)
-- [arc-may-2026-cross-context-parsi-host.md](arc-may-2026-cross-context-parsi-host.md)
-- [arc-june-2026-cross-context-parsi-host.md](arc-june-2026-cross-context-parsi-host.md)
+- [arc-march-2026-cross-context-parsi-host.md](parsi-march-2026-cross-context-arc.md)
+- [arc-may-2026-cross-context-parsi-host.md](parsi-may-2026-cross-context-arc.md)
+- [arc-june-2026-cross-context-parsi-host.md](parsi-june-2026-cross-context-arc.md)
