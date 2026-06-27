@@ -24,7 +24,22 @@ Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 - [2026-06-23 — SLIPPERY SLOPE TO OBLIVION: Mearsheimer DIRE WARNING On Russia/Ukraine](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md)
 - [2026-06-23 — John Mearsheimer: Trump LOST, Iran Gets Spoils With Sanctions Relief](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md)
 
+## Guest lanes on this host
+
+| Guest | Function on Breaking Points |
+| --- | --- |
+| **Pape** | Escalation-trap mechanism · oil-price / fourth-center / MOU pressure tests — depth on [Pape index](../../voices/pape/pape-index.md) |
+| **Mearsheimer** | Structural realism · great-power constraint · Ukraine–Iran spillover — see [Mearsheimer source index](../../voices/mearsheimer/mearsheimer-source-index.md) |
+| **Parsi** | Deal politics · coalition fracture · negotiation architecture — see [Parsi source index](../../voices/parsi/parsi-source-index.md); pair [Moral Resistance Jun 24](../../../source-archive/statecraft/2026-06-24/source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md) for MOU/Lebanon seam |
+| **Marandi** | Tehran official lens · war aims / invitation-to-escalate read — see [Marandi source index](../../voices/marandi/marandi-source-index.md) |
+| **Weichert** | Military-technical horizon · nuclear-option / collapse-timing pressure — see [Weichert source index](../../voices/weichert/weichert-source-index.md) |
+
 ## Reading rule
 
 - use this index for **host-channel** routing — guest mechanism depth lives on **`statecraft/voices/<guest>/`** when applicable
-- same guest on another host = separate host read — do not dedupe by guest alone
+- use **Pape** when the seam is **escalation trap · Hormuz/oil price · Stage IV / surrender-on-Iran-terms**
+- use **Mearsheimer** when the seam is **structural constraint · offshore balancing · Ukraine linkage to Iran war**
+- use **Parsi** when the seam is **deal durability · US domestic coalition · hardliner reaction to MOU framing**
+- use **Marandi** when the seam is **Iranian intent · official escalation appetite vs US ground invasion**
+- use **Weichert** when the seam is **kinetic ceiling · nuclear escalation hypothetical · short-fuse collapse framing**
+- same guest on **Nawfal**, **Moral Resistance**, or another host = separate host-conditioned read — do not dedupe by guest alone
