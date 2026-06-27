@@ -2,6 +2,8 @@ WORK only; not Record.
 
 # Voices Index
 
+**Router disambiguation:** This file (`statecraft/voices/voice-index.md`) is the canonical analyst/source-index front door — not other repo `INDEX.md` hubs.
+
 `statecraft/voices/` contains analyst **voices** (interview + written) and source-corpus **route maps** used by statecraft workflows.
 
 For shelf-class doctrine (normalized vs lighter shelves, migration law), open [README.md](README.md).
