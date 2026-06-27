@@ -8,7 +8,7 @@ Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 
 ## 2026-04
 
-- [2026-04-29 — Professor Robert Pape: Why a Nuclear Iran Is Inevitable](../../../source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- [2026-04-29 — Professor Robert Pape: Why a Nuclear Iran Is Inevitable](../../../source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md) (`OjH35ZKmF48`) — nuclear inevitability / fourth-center arc · 7 sections · see [Pape index](../../voices/pape/pape-index.md)
 
 ## 2026-05
 
@@ -16,11 +16,11 @@ Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 
 ## 2026-06
 
-- [2026-06-09 — Professor Pape REACTS: Iran's 'Axis Of Resistance' Will Transform The World](../../../source-archive/statecraft/2026-06-09/source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md)
+- [2026-06-09 — Professor Pape REACTS: Iran's 'Axis Of Resistance' Will Transform The World](../../../source-archive/statecraft/2026-06-09/source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md) (`6SQnX9QRu9o`) — axis of resistance / security belt · 8 sections · see [Pape index](../../voices/pape/pape-index.md)
 - [2026-06-11 — Professor Marandi: Iran WELCOMES US Invasion](../../../source-archive/statecraft/2026-06-11/source-breaking-points-marandi-iran-welcomes-us-invasion-2026-06-11.md)
 - [2026-06-11 — REPORT: Trump Strongly Considered NUKING Iran](../../../source-archive/statecraft/2026-06-11/source-breaking-points-weichert-trump-strongly-considered-nuking-iran-2026-06-11.md)
 - [2026-06-16 — 'GIANT L': Ben Shapiro MELTS DOWN Over Iran Deal](../../../source-archive/statecraft/2026-06-16/source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md)
-- [2026-06-17 — Prof Pape: Trump 'UNCONDITIONAL SURRENDER' To Iran](../../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md)
+- [2026-06-17 — Prof Pape: Trump 'UNCONDITIONAL SURRENDER' To Iran](../../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) (`s88aryNUMhE`) — MOU leak / unconditional surrender · 8 sections · see [Pape index](../../voices/pape/pape-index.md)
 - [2026-06-23 — SLIPPERY SLOPE TO OBLIVION: Mearsheimer DIRE WARNING On Russia/Ukraine](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md)
 - [2026-06-23 — John Mearsheimer: Trump LOST, Iran Gets Spoils With Sanctions Relief](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md)
 
