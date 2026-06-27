@@ -9,7 +9,7 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 ## Corpus note
 
 - **55** authored · **16** guest · **71** total on disk
-- **15/16** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
+- **16/16** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
 - Rebuild: `python3 scripts/build_pape_index.py`
 
 ## Boundary

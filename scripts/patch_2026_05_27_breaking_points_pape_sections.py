@@ -98,15 +98,11 @@ def check_spec(path: Path, spec: dict) -> bool:
 
 
 def apply_spec(path: Path, spec: dict) -> None:
-    doc = path.read_text(encoding="utf-8")
-    head, marker, body = normalize_for_section_ship(doc)
-    path.write_text(f"{head}{body}", encoding="utf-8", newline="\n")
     write_sectioned_capture(
         path,
         spec["titles"],
         spec["anchors"],
         reject_if_sectioned=False,
-        body_marker=marker,
     )
 
 
