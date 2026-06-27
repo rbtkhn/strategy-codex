@@ -44,7 +44,7 @@ So **polyphonic cognition** in civ-mem can be read as a **fusion** of Bakhtin’
 
 ## Implementation: upstream (three minds)
 
-In **upstream CMC** (`research/repos/civilization_memory`), polyphonic cognition is implemented as **three named minds** (`docs/templates/CIV–MIND–*.md`). **Grace-Mar canonical copies** (full bodies in this repo, **no civ-mem required**): [`docs/skill-work/work-strategy/strategy-notebook/minds/`](../../skill-work/work-strategy/strategy-notebook/minds/) — see [strategy-notebook/minds/README.md](../../skill-work/work-strategy/strategy-notebook/minds/README.md). [`docs/civilization-memory/minds/`](../minds/) only **redirects** here. Fixed roles and option slots:
+In **upstream CMC** (`research/repos/civilization_memory`), polyphonic cognition is implemented as **three named minds** (`docs/templates/CIV–MIND–*.md`). **Grace-Mar canonical copies** (full bodies in this repo, **no civ-mem required**): [`docs/skill-work/work-strategy/minds/`](../../skill-work/work-strategy/minds/README.md) — see [work-strategy/minds/README.md](../../skill-work/work-strategy/minds/README.md). [`docs/civilization-memory/minds/`](../minds/) only **redirects** here. Fixed roles and option slots:
 
 | Mind | Role | Focus | Why it works |
 |------|------|--------|----------------|

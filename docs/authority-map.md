@@ -58,7 +58,7 @@ Transition into governed state must respect the authority map and the gated pipe
 
 ## Relationship to Comprehension Envelope and Reflection Gates
 
-Write **authority class** (per surface key) is the **policy** layer: who may change what. **Comprehension Envelope** and **Reflection Gates** (see [governance/comprehension-envelope-gate.md](governance/comprehension-envelope-gate.md) and [recursion-gate.md](recursion-gate.md)) are the **staging** layer: how much deliberate review and proof accompany a candidate before promotion.
+Write **authority class** (per surface key) is the **policy** layer: who may change what. **Comprehension Envelope** and **Reflection Gates** (see [governance/comprehension-envelope-gate.md](governance/comprehension-envelope-gate.md) and [recursion-gate.md](../archive/grace-mar-instance/recursion-gate.md)) are the **staging** layer: how much deliberate review and proof accompany a candidate before promotion.
 
 **Single derivation (SSOT in code):** [`scripts/authority_comprehension_defaults.py`](../scripts/authority_comprehension_defaults.py) maps each **authority class** to recommended **`impact_tier`**, **`envelope_class`**, and **`recommended_reflection_gate`** (aligned with `none` \| `optional` \| `required` and Light/Heavy gate labels). **Companion may override** these in candidate YAML when context demands it.
 

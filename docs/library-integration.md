@@ -3,7 +3,7 @@
 **Canonical file:** `self-library.md`  
 **Schema:** [library-schema.md](library-schema.md)
 
-**Ontology:** **removed operator-books symlink** is the **reference-facing** Record surface (governed domains, return-to sources). It is **not** museum knowledge (identity). **CIV-MEM** is a **sub-library** here: LIB rows + hybrid corpus under `docs/civilization-memory/`, not identity content. See [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md). **Declared domains:** [self-library-domains.md](self-library-domains.md) and [self-library-domains.json](self-library-domains.json).
+**Ontology:** **removed operator-books symlink** is the **reference-facing** Record surface (governed domains, return-to sources). It is **not** museum knowledge (identity). **CIV-MEM** is a **sub-library** here: LIB rows + hybrid corpus under `docs/civilization-memory/`, not identity content. See [archive/boundary-self-knowledge-self-library.md](archive/boundary-self-knowledge-self-library.md). **Declared domains:** [self-library-domains.md](self-library-domains.md) and [self-library-domains.json](self-library-domains.json).
 
 ---
 

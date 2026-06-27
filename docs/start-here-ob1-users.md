@@ -33,7 +33,7 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 
 - **Four Record surfaces** â€” SELF, removed operator-books symlink, SKILLS, EVIDENCE â€” not a single undifferentiated DB ([README.md](../README.md) Concept).
 - **No silent merge into the Record** â€” staging is not adoption; merge runs only after approval (`process_approved_candidates.py`).
-- **Identity vs library** â€” museum knowledge (who she is) vs removed operator-books symlink (reference corpora) â€” [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md).
+- **Identity vs library** â€” museum knowledge (who she is) vs removed operator-books symlink (reference corpora) â€” [archive/boundary-self-knowledge-self-library.md](archive/boundary-self-knowledge-self-library.md).
 - **Template state model** â€” evidence vs prepared context vs governed state complements the four surfaces ([state-model.md](state-model.md)).
 
 ---

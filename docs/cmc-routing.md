@@ -8,7 +8,7 @@
 
 - **CMC hits are reference retrieval** — answers come from material catalogued under the **CIV-MEM** subdomain of **removed operator-books symlink** (LIB rows + codex), not from `self.md`.
 - **CMC retrieval is not an identity update** — codex text does not become museum knowledge until separately merged through the gate into museum knowledge section A (if ever).
-- **Internal CIV-MEM** lives under **removed operator-books symlink** (`self-library.md`, hybrid corpus paths) — see [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md).
+- **Internal CIV-MEM** lives under **removed operator-books symlink** (`self-library.md`, hybrid corpus paths) — see [archive/boundary-self-knowledge-self-library.md](archive/boundary-self-knowledge-self-library.md).
 
 **Ontology (summary):** **routing to CMC** = routing into the **CIV-MEM domain of removed operator-books symlink**, **not** into SELF or museum knowledge.
 

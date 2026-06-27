@@ -8,7 +8,7 @@
 
 **As of:** 2026-03-27 (updated: additional instances are **not** hosted in this repo).
 
-**companion-self baseline:** [`main` @ `288b438`](https://github.com/rbtkhn/companion-self/commit/288b4386684e076df894536624308e69305ae229) â€” removed operator-books symlink template governance (see [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md), [COMPANION-SELF-museum library shelf-ALIGNMENT](skill-work/work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md)).
+**companion-self baseline:** [`main` @ `288b438`](https://github.com/rbtkhn/companion-self/commit/288b4386684e076df894536624308e69305ae229) — removed operator-books symlink template governance (see [TEMPLATE-BASELINE](skill-work/work-companion-self/TEMPLATE-BASELINE.md), [COMPANION-SELF-SELF-LIBRARY-ALIGNMENT](archive/COMPANION-SELF-SELF-LIBRARY-ALIGNMENT.md)).
 
 ---
 
@@ -35,7 +35,7 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 | `self-archive.md` | âœ… | Template scaffold |
 | `self-library.md` | âœ… Live LIB rows | âœ… **Governance + empty `entries:`** on `main` ([template file](https://github.com/rbtkhn/companion-self/blob/main/platform/template/self-library.md)) |
 | `skills.md` / skill containers | âœ… | Template scaffold |
-| `self-work.md` | âœ… [self-work.md](../self-work.md) | Planned upstream (`platform/template/`) |
+| `self-work.md` | ✅ [self-work.md](../archive/grace-mar-instance/self-work.md) | Planned upstream (`platform/template/`) |
 
 **Verdict (structure):** **Paths** match canonical naming. **Content:** grace-mar holds a **full** Record and LIB corpus; **companion-self** template **`self-library.md`** is **governance-only** + optional [example corpus](https://github.com/rbtkhn/companion-self/blob/main/docs/self-library-example-corpus-grace-mar-derived.md) in `docs/`.
 

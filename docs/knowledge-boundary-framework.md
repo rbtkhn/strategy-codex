@@ -49,7 +49,7 @@ The boundary is **constitutional**: it preserves the fork as the companion’s d
 | **self-library.md** (**removed operator-books symlink**; CIV-MEM subdomain) | **Reference-facing**, not museum knowledge. Bounded lookup channel. | Library → CIV-MEM (CMC) → open lookup. Lookup result does not auto-merge into identity. |
 | **memory.md** (legacy `memory.md`) | Continuity buffer: **short/medium/long** horizons; **non-Record** and rotatable (“ephemeral” = not gated truth, not “only short-term”). | Refines tone/context; does not expand factual boundary. |
 
-The **effective boundary** at runtime is the union of (1) what is in the compiled SYSTEM_PROMPT (from SELF/SKILLS/summarized archive/placeholders/evidence) and (2) the inference rules we allow (see below). **removed operator-books symlink** is a separate, bounded **reference** channel — not an expansion of museum knowledge. See [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md).
+The **effective boundary** at runtime is the union of (1) what is in the compiled SYSTEM_PROMPT (from SELF/SKILLS/summarized archive/placeholders/evidence) and (2) the inference rules we allow (see below). **removed operator-books symlink** is a separate, bounded **reference** channel — not an expansion of museum knowledge. See [archive/boundary-self-knowledge-self-library.md](archive/boundary-self-knowledge-self-library.md).
 
 ---
 

@@ -6,8 +6,8 @@
 ## North star
 
 - **civilization_memory / external research** and **operator intent** inform moonshots.
-- **Long-horizon programs** are drafted in **[self-moonshots.md](../self-moonshots.md)** as **staging only** â€” not authoritative SELF until merged via the **gated pipeline**.
-- **AI / assistants** **propose** and **stage** candidates; **companions** approve merges â€” same invariant as [AGENTS.md](AGENTS.md).
+- **Long-horizon programs** are drafted in **[self-moonshots.md](../archive/grace-mar-instance/self-moonshots.md)** as **staging only** — not authoritative SELF until merged via the **gated pipeline**.
+- **AI / assistants** **propose** and **stage** candidates; **companions** approve merges — same invariant as [AGENTS.md](../AGENTS.md).
 
 ## v0.1 deliverables
 

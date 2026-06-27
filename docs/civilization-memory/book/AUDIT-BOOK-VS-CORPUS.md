@@ -72,7 +72,7 @@
 
 ## 3. Cross-references and links
 
-- **In-book links:** APPLIED-THEOLOGY contains markdown links that point to **files** (e.g. `[THE-SIMPLE-CONDITION.md](THE-SIMPLE-CONDITION.md)`, `[concept-god-non-zero-sum.md](../notes/concept-god-non-zero-sum.md)`). In a single-document book these links do not resolve (no anchors to other files). **Finding:** Two such blocks:
+- **In-book links:** APPLIED-THEOLOGY contains markdown links that point to **files** (e.g. `[THE-SIMPLE-CONDITION.md](../essays/THE-SIMPLE-CONDITION.md)`, `[concept-god-non-zero-sum.md](../notes/concept-god-non-zero-sum.md)`). In a single-document book these links do not resolve (no anchors to other files). **Finding:** Two such blocks:
   - After Universal Love and Mastery (Part 3): *See also: THE-SIMPLE-CONDITION.md, ONE-SUBJECT-MANY-TONGUES.md, concept-god-non-zero-sum.md.*
   - After AI Ethics (Part 6): *For the full theological treatment, see THE-SIMPLE-CONDITION.md and ONE-SUBJECT-MANY-TONGUES.md.*
 

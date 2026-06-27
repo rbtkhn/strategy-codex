@@ -1,6 +1,6 @@
 # Boundary Review Queue
 
-**Purpose:** Make **classification and review at the Record boundary** a first-class product surface — not just storage. **Governed by:** gated pipeline, [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md), [identity-fork-protocol.md](identity-fork-protocol.md) `proposal_class`.
+**Purpose:** Make **classification and review at the Record boundary** a first-class product surface — not just storage. **Governed by:** gated pipeline, [archive/boundary-self-knowledge-self-library.md](archive/boundary-self-knowledge-self-library.md), [identity-fork-protocol.md](identity-fork-protocol.md) `proposal_class`.
 
 **Not a replacement for the gate:** **`recursion-gate.md`** remains the **default staging surface** for routine candidates (museum knowledge section A/B/C lines, analyst output). The **boundary review** story is about **where a staged line belongs** (SELF vs removed operator-books symlink vs CIV-MEM, etc.) and **when** to escalate to **material change-review** — not about deleting or bypassing the gate. For the split between gate workflow and change-review queue, see [gate-vs-change-review.md](gate-vs-change-review.md) and IFP §4.3 (material change escalation).
 
@@ -74,7 +74,7 @@ Escalation **does not** auto-merge; it adds **process** before governed state ch
 
 ## Related
 
-- [archive/boundary-museum-knowledge-self-library.md](archive/boundary-museum-knowledge-self-library.md) — ontology.
+- [archive/boundary-self-knowledge-self-library.md](archive/boundary-self-knowledge-self-library.md) — ontology.
 - [harness-replay-spec.md](harness-replay-spec.md) — causal replay (why the system routed here); complements boundary queue (where things should go).
 - [operator-weekly-review.md](operator-weekly-review.md) — rhythm.
 - `scripts/recursion_gate_review.py` — `boundary_review` on each candidate row.

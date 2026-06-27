@@ -2,7 +2,7 @@
 
 The three **CIV–MIND** profile bodies (Mercouris, Mearsheimer, Barnes) are **canonical in Grace-Mar** under:
 
-**[`docs/skill-work/work-strategy/strategy-notebook/minds/`](../../skill-work/work-strategy/strategy-notebook/minds/)** — `CIV-MIND-MERCOURIS.md`, `CIV-MIND-MEARSHEIMER.md`, `CIV-MIND-BARNES.md`
+**[`docs/skill-work/work-strategy/minds/`](../../skill-work/work-strategy/minds/README.md)** — `CIV-MIND-MERCOURIS.md`, `CIV-MIND-MEARSHEIMER.md`, `CIV-MIND-BARNES.md`
 
 They are **fully contained in this repository** and remain usable **without** the `civilization_memory` (civ-mem) checkout.
 

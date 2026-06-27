@@ -3,7 +3,7 @@
 **Purpose:** Make **`platform/template/self-library.md`** in [companion-self](https://github.com/rbtkhn/companion-self) an **instance-agnostic governance package** (boundary + schema + **empty `entries:`**), aligned with:
 
 - New instances bootstrapped from **companion-self** (removed operator-books symlink governance on **template** `main`),
-- [archive/boundary-museum-knowledge-self-library.md](boundary-self-knowledge-self-library.md) (grace-mar canonical ontology),
+- [archive/boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md) (grace-mar canonical ontology),
 - The companion-self template [`platform/template/self-library.md`](https://github.com/rbtkhn/companion-self/blob/main/platform/template/self-library.md) (governance + empty shelf).
 
 This doc lives in **grace-mar** because the **PR is opened on companion-self**; grace-mar tracks the **intent** and **proposed file body** for operators.

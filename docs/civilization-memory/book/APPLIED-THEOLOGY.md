@@ -534,7 +534,7 @@ So: only through universal love can we master the universe. It is a compact form
 
 ---
 
-*See also: [THE-SIMPLE-CONDITION.md](THE-SIMPLE-CONDITION.md), [ONE-SUBJECT-MANY-TONGUES.md](ONE-SUBJECT-MANY-TONGUES.md), [concept-god-non-zero-sum.md](../notes/concept-god-non-zero-sum.md).*
+*See also: [THE-SIMPLE-CONDITION.md](../essays/THE-SIMPLE-CONDITION.md), [ONE-SUBJECT-MANY-TONGUES.md](../essays/ONE-SUBJECT-MANY-TONGUES.md), [concept-god-non-zero-sum.md](../notes/concept-god-non-zero-sum.md).*
 ---
 
 # Chapter 4 — The Focal Point
@@ -943,7 +943,7 @@ The following are concrete implementation ideas that any team or organization ca
 
 ---
 
-*Source: The derivation above draws on the framework set out in the Simple Condition (a letter to the theological leaders of the world's religions on peace as condition, the seam, and coordination) and in the essay on one subject and many tongues (Islam and Christianity and the shared reference). For the full theological treatment, see [THE-SIMPLE-CONDITION.md](THE-SIMPLE-CONDITION.md) and [ONE-SUBJECT-MANY-TONGUES.md](ONE-SUBJECT-MANY-TONGUES.md).*
+*Source: The derivation above draws on the framework set out in the Simple Condition (a letter to the theological leaders of the world's religions on peace as condition, the seam, and coordination) and in the essay on one subject and many tongues (Islam and Christianity and the shared reference). For the full theological treatment, see [THE-SIMPLE-CONDITION.md](../essays/THE-SIMPLE-CONDITION.md) and [ONE-SUBJECT-MANY-TONGUES.md](../essays/ONE-SUBJECT-MANY-TONGUES.md).*
 
 ---
 

@@ -1,6 +1,6 @@
 # Essays (`docs/essays`)
 
-Long-form argument and companion pieces. Each file uses **YAML frontmatter** per [docs/taxonomy.md](../taxonomy.md).
+Long-form argument and companion pieces. Each file uses **YAML frontmatter** per [research/repos/civilization_memory/docs/taxonomy.md](../../../research/repos/civilization_memory/docs/taxonomy.md).
 
 | File | Description |
 |------|-------------|
