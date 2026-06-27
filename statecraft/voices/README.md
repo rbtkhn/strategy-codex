@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Disambiguation:** **`voices/`** = analyst registers (interview, essay, social) in WORK — not Grace-Mar **Record Voice** (`bot/prompt.py`).
 
-**Agent dispatch:** For analyst/source-index routing, open [voice-index.md](voice-index.md). For repo-wide LLM routing, open [LLM-ROUTING.md](../../LLM-ROUTING.md).
+**Agent dispatch:** For analyst/source-index routing, open [`statecraft/voices/voice-index.md`](voice-index.md) — canonical voices router front door (not other repo `INDEX.md` hubs). For repo-wide LLM routing, open [LLM-ROUTING.md](../../LLM-ROUTING.md).
 
 Purpose: hold the canonical speaker-state continuity surfaces that feed repo-root `statecraft/`.
 
