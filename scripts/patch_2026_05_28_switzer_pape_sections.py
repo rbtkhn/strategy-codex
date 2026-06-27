@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""source-section batch — May 2026 Switzer × Pape guest capture (outline pinned).
+"""source-section batch — May 2026 Switzer × Pape guest capture (shipped 2026-06-27).
 
-Status: OUTLINE ONLY — do not run until operator approves section map.
 Verify anchors: python scripts/patch_2026_05_28_switzer_pape_sections.py --check-anchors
+Apply (re-ship): python scripts/patch_2026_05_28_switzer_pape_sections.py --apply
 """
 from __future__ import annotations
 
