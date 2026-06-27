@@ -1,0 +1,242 @@
+#!/usr/bin/env python3
+"""Build statecraft/voices/pape/pape-index.md from archive Pape captures."""
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+ARCHIVE = REPO / "source-archive" / "statecraft"
+OUT = REPO / "statecraft" / "voices" / "pape" / "pape-index.md"
+
+PAPE_GUEST = re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape", re.I)
+PAPE_AUTHOR = re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape", re.I)
+DATE_STUB = re.compile(r"^source-pape-\d{4}-\d{2}-\d{2}\.md$", re.I)
+INTERVIEW_KINDS = frozenset({"transcript", "cleaned-transcript", "interview"})
+INTERVIEW_FORMS = frozenset({"interview", "post"})
+
+
+def parse_head(path: Path) -> dict:
+    text = path.read_text(encoding="utf-8")[:5000]
+    out: dict = {}
+    for key in (
+        "title",
+        "pub_date",
+        "kind",
+        "source_form",
+        "author",
+        "channel_slug",
+        "show",
+        "host",
+        "guest",
+        "thread",
+        "youtube_id",
+        "source_path",
+        "transcript_curation",
+    ):
+        m = re.search(rf"^{key}:\s*(.+)$", text, re.M)
+        if m:
+            out[key] = m.group(1).strip().strip('"').strip("'")
+    gp = re.search(r"^guest_people:\s*\n((?:\s+-\s+.+\n)*)", text, re.M)
+    if gp:
+        out["guest_people"] = [
+            ln.split("-", 1)[1].strip() for ln in gp.group(1).strip().splitlines()
+        ]
+    if not out.get("title"):
+        hm = re.search(r"^#\s+(.+)$", text, re.M)
+        if hm:
+            out["title"] = hm.group(1).strip()
+    return out
+
+
+def is_pape_guest(meta: dict) -> bool:
+    if PAPE_GUEST.search(meta.get("guest", "")):
+        return True
+    for g in meta.get("guest_people") or []:
+        if PAPE_GUEST.search(g):
+            return True
+    return False
+
+
+def is_excluded(path: Path, meta: dict) -> bool:
+    name = path.name.lower()
+    if name.startswith("verify-pape-"):
+        return True
+    if name.startswith("x-pape-"):
+        return True
+    if DATE_STUB.match(path.name):
+        return True
+    source_path = meta.get("source_path", "")
+    if "strategy-notebook/experts/pape/transcript" in source_path:
+        return True
+    return False
+
+
+def is_included(path: Path, meta: dict) -> bool:
+    if is_excluded(path, meta):
+        return False
+    if meta.get("thread") == "pape":
+        return True
+    if "pape" in path.name.lower():
+        return True
+    if is_pape_guest(meta):
+        return True
+    return False
+
+
+def classify(meta: dict, path: Path) -> str:
+    if is_pape_guest(meta):
+        return "guest"
+    kind = meta.get("kind", "")
+    source_form = meta.get("source_form", "")
+    if kind == "substack-post" or source_form == "newsletter":
+        return "authored"
+    author = meta.get("author", "")
+    if PAPE_AUTHOR.search(author) and not is_pape_guest(meta):
+        return "authored"
+    if kind in INTERVIEW_KINDS or source_form in INTERVIEW_FORMS:
+        if is_pape_guest(meta):
+            return "guest"
+    if "pape" in path.name.lower() and not is_pape_guest(meta):
+        return "authored"
+    return "authored"
+
+
+def pub_date_key(meta: dict, path: Path) -> str:
+    pub = meta.get("pub_date", "")
+    if pub and len(pub) >= 10:
+        return pub[:10]
+    day = path.parent.name
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
+        return day
+    return day
+
+
+def month_key(pub: str) -> str:
+    if pub == "_aired-pending":
+        return pub
+    if len(pub) >= 7:
+        return pub[:7]
+    return pub
+
+
+def short_title(meta: dict, path: Path) -> str:
+    title = meta.get("title") or path.stem.replace("source-", "", 1)
+    if len(title) > 72:
+        title = title[:69] + "…"
+    return title
+
+
+def row_label(meta: dict, path: Path, row_class: str) -> str:
+    pub = pub_date_key(meta, path)
+    title = short_title(meta, path)
+    rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
+    kind = meta.get("kind") or meta.get("source_form") or ""
+    if row_class == "guest":
+        host = meta.get("host") or meta.get("show") or "?"
+        slug = meta.get("channel_slug") or ""
+        yt = meta.get("youtube_id") or ""
+        yt_bit = f" (`{yt}`)" if yt else ""
+        slug_bit = f" · `{slug}`" if slug else ""
+        kind_bit = f" · {kind}" if kind else ""
+        return (
+            f"- [{pub} — {title}]({rel}){yt_bit} — **guest** · host: **{host}**{slug_bit}{kind_bit}"
+        )
+    kind_bit = f" · {kind}" if kind else ""
+    return f"- [{pub} — {title}]({rel}) — **authored**{kind_bit}"
+
+
+def collect_rows() -> list[tuple[str, Path, dict, str]]:
+    rows: list[tuple[str, Path, dict, str]] = []
+    for path in sorted(ARCHIVE.glob("**/source-*.md")):
+        meta = parse_head(path)
+        if not is_included(path, meta):
+            continue
+        row_class = classify(meta, path)
+        pub = pub_date_key(meta, path)
+        rows.append((pub, path, meta, row_class))
+    rows.sort(key=lambda t: (t[0], t[1].name))
+    return rows
+
+
+def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
+    authored = sum(1 for *_, c in rows if c == "authored")
+    guest = sum(1 for *_, c in rows if c == "guest")
+    total = len(rows)
+    sectioned = sum(
+        1 for _, _, meta, _ in rows if meta.get("transcript_curation") == "curated_sectioned"
+    )
+
+    by_month: dict[str, list[tuple[str, Path, dict, str]]] = defaultdict(list)
+    for row in rows:
+        by_month[month_key(row[0])].append(row)
+
+    lines = [
+        "WORK only; not Record.",
+        "",
+        "# Pape Index",
+        "",
+        "Purpose: exhaustive canonical route map for Robert Pape **authored essays** and **guest appearances** in Statecraft Archive.",
+        "",
+        "Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md) · [Escalation Trap arc](../../notes/arc-pape-escalation-trap.md)",
+        "",
+        "## Corpus note",
+        "",
+        f"- **{authored}** authored · **{guest}** guest · **{total}** total on disk",
+        f"- **{sectioned}/{total}** `curated_sectioned` where applicable",
+        "- Rebuild: `python3 scripts/build_pape_index.py`",
+        "",
+        "## Boundary",
+        "",
+        "**Excluded from this index:** `verify-pape-*` · generic date stubs (`source-pape-YYYY-MM-DD.md`) · legacy registry captures (`source_path` → strategy-notebook/experts/pape/transcript) · `x-pape-*`",
+        "",
+        "**Reading rule:**",
+        "",
+        "1. Authored Substack = mechanism spine — pair with [forecast ledger](pape-forecast-ledger-2026.md) and [arc](../../notes/arc-pape-escalation-trap.md).",
+        "2. Guest appearances = host-conditioned pressure tests — cross-ref host channel index when load-bearing.",
+        "3. Same guest on another host = separate host read — do not dedupe by guest alone.",
+        "",
+    ]
+
+    for mk in sorted(by_month.keys()):
+        lines.append(f"## {mk}")
+        lines.append("")
+        for pub, path, meta, row_class in by_month[mk]:
+            lines.append(row_label(meta, path, row_class))
+        lines.append("")
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Exit 1 if generated index would differ from file on disk",
+    )
+    args = parser.parse_args()
+
+    rows = collect_rows()
+    content = render_index(rows)
+
+    if args.check:
+        if OUT.is_file() and OUT.read_text(encoding="utf-8") == content:
+            print(f"OK {OUT.relative_to(REPO)} ({len(rows)} rows)")
+            return 0
+        print(f"STALE {OUT.relative_to(REPO)} ({len(rows)} rows)", file=sys.stderr)
+        return 1
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(content, encoding="utf-8")
+    authored = sum(1 for *_, c in rows if c == "authored")
+    guest = sum(1 for *_, c in rows if c == "guest")
+    print(f"wrote {OUT.relative_to(REPO)} ({len(rows)} rows: {authored} authored, {guest} guest)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

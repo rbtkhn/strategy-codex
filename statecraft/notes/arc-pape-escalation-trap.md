@@ -37,7 +37,7 @@ nodes:
 
 **Pub span:** 2026-02-25 → 2026-06-22 (~118 days; **arc** tier)  
 **Series:** [escalationtrap.substack.com](https://escalationtrap.substack.com)  
-**Parent:** [Pape source index](../voices/pape/pape-source-index.md) · [Pape person arc](../voices/pape/arc-pape-continuity.md) · [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
+**Parent:** [Pape index](../voices/pape/pape-index.md) · [Pape person arc](../voices/pape/arc-pape-continuity.md) · [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
 **Hook prefix (opening essay tier):** **JF28-T1** (mirage) · **J01-T1** (trap confirmed) · forward **J16-T*** on Mar 16 matrix when run.
 
@@ -96,7 +96,7 @@ XV   Jun 22      MIDDLE GAME — power-not-money framework; MOU as rising-power 
 | **XIV — Interview** (adjacent) | Jun 17 | [Breaking Points — Unconditional Surrender](../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) | G7 live reaction to MOU leak; **Trump lost bombing → at risk of losing deal**; Iran gains power **through** deal terms |
 | **XV — Framework** | Jun 22 | [Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) | **Power not money** — MOU converts survival into regional influence; April→June direction toward Tehran; **three tripwires** (S. Lebanon, asset delay, Hormuz-fee interference); enrichment = ultimate red line; **middle game** not endgame |
 
-**Adjacent (index only — not arc YAML nodes):** May 27 oil repricing · [Jun 18 MOU cluster](./june-18-2026-mou-convergence.md) (tripwires → [Hormuz governance](./june-18-2026-mou-hormuz-governance-armistice-note.md#phase-xv-tripwire-map-pape-jun-22)) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
+**Adjacent (index only — not arc YAML nodes):** May 27 oil repricing · [Jun 18 MOU cluster](./june-18-2026-mou-convergence.md) (tripwires → [Hormuz governance](./june-18-2026-mou-hormuz-governance-armistice-note.md#phase-xv-tripwire-map-pape-jun-22)) · other interview-pressure anchors in [Pape index](../voices/pape/pape-index.md).
 
 ## Opening week (Phases I–V)
 

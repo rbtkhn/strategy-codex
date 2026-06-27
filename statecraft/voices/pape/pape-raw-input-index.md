@@ -1,9 +1,9 @@
-# Pape Raw-Input Index
-
 WORK only; not Record.
+
+# Pape Raw-Input Index (compat redirect)
 
 Compatibility pointer only.
 
-The canonical Pape source route map now lives at [pape-source-index.md](pape-source-index.md).
+The canonical Pape corpus route map now lives at **[pape-index.md](pape-index.md)**.
 
-Use the `source-index` name going forward; this file remains only as a stable back-compat entry for older links and notes.
+Use **`pape-index.md`** going forward; this file remains only as a stable back-compat entry for older links and notes.

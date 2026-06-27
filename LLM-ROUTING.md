@@ -89,7 +89,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | moral-resistance-host-shelf | routing_aid | work | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | Moral Resistance host, moral-resistance profile |
 | neutrality-studies-host-shelf | routing_aid | work | [statecraft/channels/neutrality-studies/README.md](statecraft/channels/neutrality-studies/README.md) | Neutrality Studies host, neutrality-studies profile |
 | operator-uses-statecraft-machine-essay | essay | work | [essays/how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) | how operator uses statecraft, memory to mechanism, lane membrane test, … |
-| pape-source-index | source_index | work | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | Pape index, pape source index |
+| pape-index | source_index | work | [statecraft/voices/pape/pape-index.md](statecraft/voices/pape/pape-index.md) | Pape index, pape source index, pape guest, pape authored |
+| pape-source-index | source_index | work | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | Pape source index compat redirect |
 | parsi-source-index | source_index | work | [statecraft/voices/parsi/parsi-source-index.md](statecraft/voices/parsi/parsi-source-index.md) | Parsi index, parsi source index |
 | ph-civ-source-lattice | reading_discipline | work | [public/predictive-history/docs/source-lattice.md](public/predictive-history/docs/source-lattice.md) | PH chapter reading order, civ transcript floor, commentary canvas order |
 | postol-source-index | source_index | work | [statecraft/voices/postol/postol-source-index.md](statecraft/voices/postol/postol-source-index.md) | Postol index, postol source index |
@@ -140,7 +141,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | mcgovern | [statecraft/voices/mcgovern/mcgovern-source-index.md](statecraft/voices/mcgovern/mcgovern-source-index.md) | mcgovern-source-index |
 | mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | mearsheimer-source-index |
 | mercouris | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | mercouris-source-index |
-| pape | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | pape-source-index |
+| pape | [statecraft/voices/pape/pape-index.md](statecraft/voices/pape/pape-index.md) | pape-index |
 | parsi | [statecraft/voices/parsi/parsi-source-index.md](statecraft/voices/parsi/parsi-source-index.md) | parsi-source-index |
 | postol | [statecraft/voices/postol/postol-source-index.md](statecraft/voices/postol/postol-source-index.md) | postol-source-index |
 | ritter | [statecraft/voices/ritter/ritter-source-index.md](statecraft/voices/ritter/ritter-source-index.md) | ritter-source-index |

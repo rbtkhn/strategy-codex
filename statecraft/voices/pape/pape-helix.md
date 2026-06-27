@@ -18,7 +18,7 @@ This is not the same shape as Crooke, Ritter, or a dense host shelf. Pape is pri
 | strand | primary surface | what it reveals best |
 |---|---|---|
 | Authored forecast strand | [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md) | Mechanisms, thresholds, falsifiers, revisit triggers, and the fourth-center guardrails |
-| Interview pressure strand | [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md) | How the forecast survives Davis, Redacted, Ryan Grim, and Mario Nawfal pressure |
+| Interview pressure strand | [pape-index.md](pape-index.md) (guest rows) | How the forecast survives Davis, Redacted, Ryan Grim, Mario Nawfal, and other host pressure |
 
 ## Boundary
 

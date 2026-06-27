@@ -13,15 +13,15 @@ Purpose: fast-routing note for the canonical Pape shelf.
 - fourth-center thesis / coercive system leverage / Gulf-state hedging
   - open [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - military-feasibility pressure on the forecast
-  - open [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
+  - open [pape-index.md](pape-index.md) (guest rows) or [pape-helix.md](pape-helix.md)
 - macro-shock translation / consumer-facing shortage explanation
-  - open [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
+  - open [pape-index.md](pape-index.md) (guest rows) or [pape-helix.md](pape-helix.md)
 - authored/interview crossing
   - open [pape-helix.md](pape-helix.md)
 - whole-speaker continuity
   - open [arc-pape-continuity.md](pape-arc.md)
 - provenance bench / complete route map
-  - open [pape-source-index.md](pape-source-index.md)
+  - open [pape-index.md](pape-index.md)
 
 ## Best Entry Points
 

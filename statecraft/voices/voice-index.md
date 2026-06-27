@@ -37,7 +37,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Mearsheimer | [mearsheimer/mearsheimer-source-index.md](mearsheimer/mearsheimer-source-index.md) |
 | McGovern | [mcgovern/mcgovern-source-index.md](mcgovern/mcgovern-source-index.md) |
 | Mercouris | guest: [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host: [../channels/alexander-mercouris/alexander-mercouris-channel-index.md](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) · bench: [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
-| Pape | [pape/pape-source-index.md](pape/pape-source-index.md) |
+| Pape | [pape/pape-index.md](pape/pape-index.md) · compat [pape-source-index.md](pape/pape-source-index.md) |
 | Parsi | [parsi/parsi-source-index.md](parsi/parsi-source-index.md) |
 | Postol | [postol/postol-source-index.md](postol/postol-source-index.md) |
 | Ritter | [ritter/ritter-source-index.md](ritter/ritter-source-index.md) |

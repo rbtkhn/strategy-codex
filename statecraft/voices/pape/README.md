@@ -13,8 +13,7 @@ Use it for speaker identity, authored forecast mechanism, interview-pressure tra
 - [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) — China industrial AI / Wuhan model (field-observation strand); chronology in [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [pape-routing.md](pape-routing.md)
 - [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
-- [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
-- [pape-source-index.md](pape-source-index.md)
+- [pape-index.md](pape-index.md) — exhaustive authored + guest corpus route map
 - [pape-helix.md](pape-helix.md)
 
 ## Canonical Structure
@@ -26,9 +25,8 @@ Its main speaker-owned layers are:
 - **Person arc:** [arc-pape-continuity.md](pape-arc.md)
 - **Routing surface:** [pape-routing.md](pape-routing.md)
 - **Authored forecast spine:** [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
-- **Interview-pressure surface:** [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
+- **Exhaustive corpus index:** [pape-index.md](pape-index.md) — all authored essays + guest appearances on disk
 - **Authored/interview crossing:** [pape-helix.md](pape-helix.md)
-- **Source index:** [pape-source-index.md](pape-source-index.md)
 
 Support surfaces:
 

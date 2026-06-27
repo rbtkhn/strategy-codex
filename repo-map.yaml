@@ -833,9 +833,9 @@ routes:
   - Mercouris index
   - mercouris source index
   category: work
-- id: pape-source-index
-  title: Pape source index
-  path: statecraft/voices/pape/pape-source-index.md
+- id: pape-index
+  title: Pape index
+  path: statecraft/voices/pape/pape-index.md
   kind: source_index
   authority: work_only
   tags:
@@ -846,6 +846,22 @@ routes:
   search_hints:
   - Pape index
   - pape source index
+  - pape guest
+  - pape authored
+  category: work
+- id: pape-source-index
+  title: Pape source index (compat redirect)
+  path: statecraft/voices/pape/pape-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - pape
+  - source-index
+  - statecraft
+  - voices
+  - compat
+  search_hints:
+  - Pape source index compat
   category: work
 - id: parsi-source-index
   title: Parsi source index
