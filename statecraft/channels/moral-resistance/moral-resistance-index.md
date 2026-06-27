@@ -21,9 +21,9 @@ Channel: [Moral Resistance](https://www.youtube.com/@MoralResistance)
 
 | Guest | Function on Moral Resistance |
 | --- | --- |
-| **Aguilar** | Legislative bind · coupled US–Israel track · MOU ≠ final deal |
-| **Pape** | MOU violation framing · balance-of-power / escalation-trap pressure test — mechanism depth on [Pape index](../../voices/pape/pape-index.md); pair [Redacted Apr 20](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) (`WemB-vfoMaw`) for Hormuz shortage-window / May 31 contraction arc (§2–§8) |
-| **Parsi** | Negotiation architecture · forward-defense vs deal · regional order |
+| **Aguilar** | Legislative bind · coupled US–Israel track · MOU ≠ final deal — on this host: [May 31](../../../source-archive/statecraft/2026-05-31/source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md) (`jtXOttZ6J_0`, 9§ · §2–§5 Kuwait/Sledgehammer · §9 §224 stack) · [Jun 12](../../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md) (`7ilV1wVU05Q`, 10§ · §8–§9 NDAA §224) · [Jun 18](../../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) (`hMSgCq55cKA`, 10§ · §224/§622 · Vance/Israel constraint) |
+| **Pape** | MOU violation framing · balance-of-power / escalation-trap pressure test — on this host: [Jun 26](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`, 9§ · §1/§4 MOU Art. 1/5/11 · §7 CENTCOM strikes) · mechanism depth on [Pape index](../../voices/pape/pape-index.md); pair [Redacted Apr 20](../../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) (`WemB-vfoMaw`, §2–§8 Hormuz shortage arc) |
+| **Parsi** | Negotiation architecture · forward-defense vs deal · regional order — on this host: [Jun 24](../../../source-archive/statecraft/2026-06-24/source-moral-resistance-parsi-israel-refuse-leave-lebanon-will-iran-respond-2026-06-24.md) (`hXPGF0L44qQ`, 8§ · §4 Israel won't leave · §6 counter-escalation · §8 regional umbrella); pair [Breaking Points Jun 16](../../../source-archive/statecraft/2026-06-16/source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md) (`YJjkK-T6nnk`) for coalition-fracture read |
 
 ## Reading rule
 
