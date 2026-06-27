@@ -8,7 +8,7 @@ Channel: [Moral Resistance](https://www.youtube.com/@MoralResistance)
 
 ## 2026-05
 
-- [2026-05-31 — U.S. military attacks vessels in Strait of Hormuz; 5 U.S. casualties (hor…)](../../../source-archive/statecraft/2026-05-31/source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md)
+- [2026-05-31 — U.S. military attacks vessels in Strait of Hormuz; 5 U.S. casualties w/ Lt Col Anthony Aguilar](../../../source-archive/statecraft/2026-05-31/source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md) (`jtXOttZ6J_0`) — Kuwait casualties / Operation Sledgehammer · §224 opener · 9 sections · pair [Jun 12](../../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md) / [Jun 18](../../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) §224 arc
 
 ## 2026-06
 
