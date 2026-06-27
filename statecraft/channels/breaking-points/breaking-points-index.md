@@ -12,7 +12,7 @@ Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 
 ## 2026-05
 
-- [2026-05-27 — Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges](../../../source-archive/statecraft/2026-05-27/source-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md)
+- [2026-05-27 — Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges](../../../source-archive/statecraft/2026-05-27/source-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md) (`4_wMLwkzBLs`) — driver's seat / oil-price arc · 8 sections · see [Pape index](../../voices/pape/pape-index.md)
 
 ## 2026-06
 
