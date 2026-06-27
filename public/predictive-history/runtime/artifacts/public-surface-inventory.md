@@ -1,12 +1,12 @@
-<!-- public-surface-inventory-fingerprint: 27792d34972ebabd -->
+<!-- public-surface-inventory-fingerprint: 2710a27df4cf49a0 -->
 # Public surface inventory
 
 - **Surfaces:** 26
-- **Generated:** 2026-06-25T15:33:48Z
+- **Generated:** 2026-06-27T15:53:37Z
 - **Machine SSOT:** [`data/public-surface-inventory.json`](../../data/public-surface-inventory.json)
 - **Regenerate:** `ph-civ surface-inventory`
 
-Per-surface status vocabulary: [public-surface-status.md](../../docs/public-surface-status.md).
+Per-surface status vocabulary: [public-surface-status.md](../../docs/catalogs/public-surface-status.md).
 
 | Surface | Class | Status | Path | Validation |
 | --- | --- | --- | --- | --- |
@@ -14,16 +14,16 @@ Per-surface status vocabulary: [public-surface-status.md](../../docs/public-surf
 | `volume_i_parts_deprecated_json` | archive_retired | deprecated | data/parts/volume-i-parts.deprecated.json | manual |
 | `agents_guardrails` | bootloader | canonical | AGENTS.md | validate:public-boundary |
 | `start_here` | bootloader | canonical | START-HERE.md | validate:llm-experience |
-| `strategy_codex_bridge` | bridge | active | docs/strategy-codex-bridge.md | manual |
+| `strategy_codex_bridge` | bridge | active | docs/methodology/strategy-codex-bridge.md | manual |
 | `cards_dataset` | card_dataset | active | data/cards.jsonl | validate:cards |
-| `predictive_history_index` | chapter_catalog | generated | data/predictive-history-index.json | validate:predictive-history-index |
-| `chapter_folders` | chapter_folder | active | ph-civ/chapters/* · ph-apo/chapters/* · book/volume-*/… | validate:cards |
-| `ph_apo_volume_ii_chapters` | chapter_folder | active | ph-apo/chapters/* (+ book/volume-ii-apocalypse/) | data/predictive-history-index.json |
-| `ph_civ_volume_i_chapters` | chapter_folder | active | ph-civ/chapters/* (+ book/volume-i-civilization/) | data/predictive-history-index.json |
-| `commentary_methodology_v2` | doctrine_doc | canonical | docs/commentary-methodology-v2.md | validate:commentary-canvas |
-| `public_repo_contract` | doctrine_doc | canonical | docs/public-repo-contract.md | manual |
-| `public_surface_status` | doctrine_doc | active | docs/public-surface-status.md | manual |
-| `source_lattice` | doctrine_doc | canonical | docs/source-lattice.md | manual |
+| `predictive_history_index` | chapter_catalog | generated | docs/predictive-history-index.json | validate:predictive-history-index |
+| `chapter_folders` | chapter_folder | active | lectures/* | validate:cards |
+| `ph_apo_volume_ii_chapters` | chapter_folder | active | lectures/*  | docs/predictive-history-index.json |
+| `ph_civ_volume_i_chapters` | chapter_folder | active | lectures/*  | docs/predictive-history-index.json |
+| `commentary_methodology_v2` | doctrine_doc | canonical | docs/methodology/commentary-methodology-v2.md | validate:commentary-canvas |
+| `public_repo_contract` | doctrine_doc | canonical | docs/contracts/public-repo-contract.md | manual |
+| `public_surface_status` | doctrine_doc | active | docs/catalogs/public-surface-status.md | manual |
+| `source_lattice` | doctrine_doc | canonical | docs/methodology/source-lattice.md | manual |
 | `growth_goals` | growth_surface | active | data/growth-goals.json | manual |
 | `llm_experience` | llm_context | active | data/llm-experience.json | validate:llm-experience |
 | `llms_full` | llm_context | active | llms-full.txt | validate:llm-experience |
@@ -35,4 +35,4 @@ Per-surface status vocabulary: [public-surface-status.md](../../docs/public-surf
 | `spine_tour` | route_dataset | active | data/routes/volume-i-spine-tour.json | manual |
 | `public_surface_inventory` | schema_prompt | generated | data/public-surface-inventory.json | manual |
 | `public_surface_triage` | schema_prompt | generated | data/public-surface-triage.json | manual |
-| `transcript_commentary_chapters` | transcript | canonical | (per data/predictive-history-index.json chapters[].paths) | data/predictive-history-index.json |
+| `transcript_commentary_chapters` | transcript | canonical | (per docs/predictive-history-index.json chapters[].paths) | docs/predictive-history-index.json |

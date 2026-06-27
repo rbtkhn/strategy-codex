@@ -1,15 +1,17 @@
-# ph-civ
+# ph-civ — Deprecated Compatibility Namespace
 
-ph-civ is the public namespace for Volume I / Predictive History: Civilization.
+`ph-civ/` is no longer an active public reader root.
 
-Its canonical chapter homes now stage through [book/volume-i-civilization/](../book/volume-i-civilization/README.md). This namespace remains the Volume I identity surface for routes, cards, prompts, and discovery.
+Use the **namespace catalog hub**:
 
-Direct namespace lanes (under [`ph-civ/`](ph-civ/README.md)):
+- [`docs/predictive-history-index.md`](../docs/predictive-history-index.md)
+- [`docs/predictive-history-index.json`](../docs/predictive-history-index.json)
+- [`lectures/`](../lectures/README.md) · [`essays/`](../essays/README.md) · [`interviews/`](../interviews/README.md)
 
-- [chapters/](ph-civ/chapters/README.md) — chapter doorways (legacy links)
-- [lectures/](ph-civ/lectures/README.md) — lecture packets
-- [interviews/](ph-civ/interviews/README.md) — interview-form sources
+Historical two-volume framing and retired namespace paths:
 
-Repo-root medium lanes:
+- [`docs/archive/deprecated-reader-namespaces.md`](../docs/archive/deprecated-reader-namespaces.md)
+- [`docs/archive/two-volume-ph-civ-apo-deprecated.md`](../docs/archive/two-volume-ph-civ-apo-deprecated.md)
+- [`docs/migrations/PH-SURFACE-RETIREMENT.md`](../docs/migrations/PH-SURFACE-RETIREMENT.md)
 
-- [essays/](../essays/README.md) — Substack / long-form essays (recategorized; canonical target for `sub-*` and future essay intake)
+Do not add new canonical chapter content under `ph-civ/`.

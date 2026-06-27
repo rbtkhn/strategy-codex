@@ -23,7 +23,7 @@
 | `essays` | Cross-channel theses (repo-root shelf) |
 | `examples` | Sample / reference material |
 | `platform` | Apps, `src/`, deployment, config, per-user profiles |
-| `public` | Public `ph-civ` publish tree |
+| `public` | Inbound read-only mirrors (`public/predictive-history/` = canonical PH snapshot; not a live `ph-civ` publish tree) |
 | `research` | Auto-research, bridges, external research lanes |
 | `runtime` | Derived runtime, operator-events, artifacts, handoff |
 | `schemas` | Schema registry (`schemas/registry/`) |

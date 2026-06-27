@@ -19,7 +19,7 @@ CORRIDOR_PATHS = {
     "homer-to-tolstoy-source-lattice": "../../../data/corridors/homer-to-tolstoy-source-lattice.md",
     "homer-to-dante": "../../../data/corridors/homer-to-dante.md",
     "plato-to-hegel": "../../../data/corridors/plato-to-hegel.md",
-    "civilization-to-apocalypse": "../../parts/civilization-to-apocalypse.md",
+    "civilization-to-apocalypse": "../../docs/routes/civilization-to-apocalypse.md",
 }
 
 
@@ -126,7 +126,7 @@ def render_doorway(part: dict, titles: dict[str, str], by_id: dict[str, dict]) -
 
     return f"""{header}
 
-*This Part is a **spine slice** of Volume I — Civilization. It follows [interwoven-reader](../interwoven-reader/README.md) order; it is not a pure historical period box.*
+*This Part is a **spine slice** of Volume I — Civilization. It follows [interwoven-reader](../../archive/two-volume-reader-order-interwoven.md) order; it is not a pure historical period box.*
 {distinction_section}
 ## Law-discovery question
 

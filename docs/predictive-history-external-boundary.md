@@ -1,8 +1,12 @@
 # Predictive History external boundary
 
-**Canonical public repo:** [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) (formerly `ph-civ`).
+**Canonical public repo:** [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) (formerly `ph-civ` repo name).
 
-It is the two-volume public artifact containing the `ph-civ` and `ph-apo` surfaces: public lecture transcripts, companion commentaries, cards, routes, and patterns. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
+It is the **namespace catalog hub** (`docs/predictive-history-index.md` / `.json`) over root corpora (`lectures/`, `essays/`, `interviews/`). Legacy **`ph-civ/`**, **`ph-apo/`**, and **`book/`** are tombstone-only compat namespaces — not active reader roots. See upstream [`docs/archive/deprecated-reader-namespaces.md`](https://github.com/rbtkhn/predictive-history/blob/main/docs/archive/deprecated-reader-namespaces.md) and [`PH-SURFACE-RETIREMENT.md`](https://github.com/rbtkhn/predictive-history/blob/main/docs/migrations/PH-SURFACE-RETIREMENT.md).
+
+Primary public CLI: **`predictive-history`** (deprecated `ph-civ` / `ph-apo` entrypoints removed upstream 2026-06).
+
+`rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
 
 ## Direct-edit model (current)
 
@@ -38,7 +42,7 @@ Allowed Predictive History work inside `strategy-codex`:
 - source-discipline critique
 - structure/editorial feedback
 - strategy commentary about externally supplied PH material
-- public `ph-civ` ID references (`source_id`, `pattern_id`, route IDs, `essay-NN`)
+- public chapter ID references (`source_id`, `pattern_id`, route IDs, `essay-NN`)
 
 ## What does not belong here
 

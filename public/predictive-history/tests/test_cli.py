@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def test_loads_all_seeded_cards():
     cards = load_cards()
-    assert len(cards) == 205
+    assert len(cards) == 206
     assert {"civilization", "world-war"} <= {card["part"] for card in cards}
 
 
@@ -35,8 +35,8 @@ def test_all_cards_have_local_transcript_and_commentary():
         transcript_paths.append(transcript_path)
         commentary_paths.append(commentary_path)
 
-    assert len(set(transcript_paths)) == 205
-    assert len(set(commentary_paths)) == 205
+    assert len(set(transcript_paths)) == 206
+    assert len(set(commentary_paths)) == 206
 
 
 def test_all_commentaries_have_open_project_canvas():
@@ -73,6 +73,22 @@ def test_folder_backed_chapters_have_reader_doorways():
             assert source_url in text
 
 
+def test_all_lecture_cards_under_lectures_namespace():
+    series_folder = {
+        "civilization": "civilization",
+        "great-books": "great-books",
+        "geo-strategy": "geo-strategy",
+        "game-theory": "game-theory",
+        "secret-history": "secret-history",
+    }
+    for card in load_cards():
+        series = card.get("series")
+        if series not in series_folder:
+            continue
+        transcript = card["source_paths"]["source_chapter_path"]
+        assert transcript.startswith(f"lectures/{series_folder[series]}/"), card["source_id"]
+
+
 def test_latest_game_theory_chapters_are_provisional_source_first(capsys):
     cards = {card["source_id"]: card for card in load_cards()}
     route_ids = set(load_route_seed()["route_ids"])
@@ -82,17 +98,25 @@ def test_latest_game_theory_chapters_are_provisional_source_first(capsys):
         assert card["part"] == "world-war"
         assert card["review_status"] == "provisional"
         assert source_id not in route_ids
-        folder = ROOT / "book" / "volume-iii" / source_id
+        folder = ROOT / "lectures" / "game-theory" / source_id
         assert (folder / f"{source_id}-transcript.md").exists()
         assert (folder / f"{source_id}-commentary.md").exists()
         assert (folder / f"{source_id}-orientation.yaml").exists()
-        assert "provisional" in (folder / "README.md").read_text(encoding="utf-8")
+        assert "public study doorway" in (folder / "README.md").read_text(encoding="utf-8")
+        legacy = ROOT / "book" / "volume-iii" / source_id / "README.md"
+        assert not legacy.exists(), source_id
+
+    tombstone = ROOT / "book" / "README.md"
+    assert tombstone.is_file()
+    tombstone_text = tombstone.read_text(encoding="utf-8")
+    assert "Deprecated Compatibility Namespace" in tombstone_text
+    assert "docs/predictive-history-index.md" in tombstone_text
 
     assert main(["link", "gt-24", "--json"]) == 0
     payload = json.loads(capsys.readouterr().out)
     assert payload["source_id"] == "gt-24"
     assert payload["folder_ready"] is True
-    assert payload["github_folder_url"].endswith("/ph-apo/chapters/gt-24")
+    assert payload["github_folder_url"].endswith("/lectures/game-theory/gt-24")
     assert payload["source_video_url"] == "https://www.youtube.com/watch?v=8nsxuB3Vsts"
     assert "ChatGPT, Claude, or Grok" in payload["suggested_youtube_comment"]
     assert "provisional" in payload["suggested_youtube_comment"]
@@ -101,8 +125,27 @@ def test_latest_game_theory_chapters_are_provisional_source_first(capsys):
     out = capsys.readouterr().out
     assert "YouTube comment:" in out
     assert "source_video: https://www.youtube.com/watch?v=8nsxuB3Vsts" in out
-    assert "https://github.com/rbtkhn/predictive-history/tree/main/ph-apo/chapters/gt-24" in out
-    assert "public LLM-native Predictive History reader" in out
+    assert "https://github.com/rbtkhn/predictive-history/tree/main/lectures/game-theory/gt-24" in out
+    assert "Predictive History, a public LLM-native reader" in out
+
+
+def test_link_essay_emits_transcript_url(capsys):
+    essay_id = "essay-2025-09-27-the-empire-goes-to-war"
+    assert main(["link", essay_id, "--json"]) == 0
+    payload = json.loads(capsys.readouterr().out)
+    assert payload["source_id"] == essay_id
+    assert payload["series"] == "essays"
+    assert payload["folder_ready"] is True
+    assert payload["github_folder_url"] is None
+    assert payload["github_transcript_url"].endswith(
+        "/essays/essay-2025-09-27-the-empire-goes-to-war.md"
+    )
+    assert payload["commentary_path"] == "commentaries/essay-2025-09-27-the-empire-goes-to-war-commentary.md"
+    assert "public essay packet" in payload["suggested_llm_prompt"]
+
+    assert main(["link", essay_id]) == 0
+    out = capsys.readouterr().out
+    assert "essay: https://github.com/rbtkhn/predictive-history/blob/main/essays/" in out
 
 
 def test_show_known_card_json(capsys):
@@ -124,7 +167,7 @@ def test_prompt_creative_contains_boundaries(capsys):
 
 def test_validate_passes(capsys):
     assert main(["validate"]) == 0
-    assert "card_count: 205" in capsys.readouterr().out
+    assert "card_count: 206" in capsys.readouterr().out
 
 
 def test_index_command_writes_fingerprinted_index():
@@ -145,9 +188,10 @@ def test_index_command_writes_fingerprinted_index():
     assert read_index_fingerprint(md_path) == read_index_fingerprint(json_path)
     assert md_path.read_text(encoding="utf-8").startswith("<!-- predictive-history-index-fingerprint:")
     payload = json.loads(json_path.read_text(encoding="utf-8"))
-    assert payload["card_count"] == 205
-    assert len(payload["chapters"]) == 205
-    assert payload["schema_version"] == 3
+    assert payload["card_count"] == 206
+    assert len(payload["chapters"]) == 206
+    assert payload["schema_version"] == 5
+    assert payload["primary_artifact"] == "namespace_catalog"
     assert payload["transcript_word_total"] > 1_000_000
     assert validate_ph_civ_index() == []
 
@@ -181,9 +225,14 @@ def test_literary_spine_path_surfaces_launch_readiness(capsys):
     assert "guardrail:" in out
 
 
-def test_two_volume_architecture_is_primary():
+def test_namespace_catalog_is_primary():
     architecture = load_course_architecture()
-    assert architecture["primary_artifact"] == "two_volume_ph_civ"
+    assert architecture["primary_artifact"] == "namespace_catalog"
+    assert architecture["repo_identity"] == "predictive-history"
+    assert architecture["catalog_hub"]["markdown"] == "docs/predictive-history-index.md"
+    assert "lectures" in architecture["namespace_slices"]
+    deprecated = architecture["deprecated_two_volume"]
+    assert deprecated["primary_artifact"] == "two_volume_ph_civ"
     assert architecture["volumes"]["volume_i"]["surface"] == "ph-civ"
     assert architecture["volumes"]["volume_i"]["role"] == "law_discovery"
     assert architecture["volumes"]["volume_ii"]["surface"] == "ph-apo"
@@ -194,16 +243,19 @@ def test_two_volume_architecture_is_primary():
 
 
 def test_public_surfaces_are_named(capsys):
-    assert main(["surface", "ph-civ"]) == 0
-    assert "Predictive History: Civilization" in capsys.readouterr().out
+    assert main(["surface", "ph-civ"]) == 2
+    assert "retired" in capsys.readouterr().err
+    assert main(["surface"]) == 0
+    assert "PH-SURFACE-RETIREMENT" in capsys.readouterr().out
 
 
-def test_status_leads_with_two_volume_artifact(capsys):
+def test_status_leads_with_namespace_catalog(capsys):
     assert main(["status"]) == 0
     out = capsys.readouterr().out
-    assert "two-volume public Predictive History artifact" in out
-    assert "Volume I / ph-civ / Civilization" in out
-    assert "Volume II / ph-apo / Apocalypse" in out
+    assert "namespace catalog hub" in out
+    assert "primary_artifact: namespace_catalog" in out
+    assert "predictive-history-index.md" in out
+    assert "deprecated two-volume" in out
 
 
 def test_llm_native_bootloader_contract(capsys):
@@ -214,12 +266,13 @@ def test_llm_native_bootloader_contract(capsys):
     assert "First Response Contract" in start_text
     assert "Do not stop at a generic repository summary" in start_text
     assert "Default mode: first_tour" in start_text
-    assert "Homer to Tolstoy is the Volume I literary spine" in start_text
+    assert "literary spine route" in start_text
     assert "Anna Karenina coda" in start_text
-    assert "two-volume public artifact" in start_text
+    assert "namespace catalog hub" in start_text
 
     experience = load_llm_experience()
     assert experience["start_here"] == "START-HERE.md"
+    assert experience["primary_artifact"] == "namespace_catalog"
     assert experience["full_context"]["path"] == "llms-full.txt"
     assert experience["full_context"]["purpose"] == "one_shot_llm_context_packet"
     assert experience["first_response_contract"]["default_mode"] == "first_tour"
@@ -233,32 +286,35 @@ def test_llm_native_bootloader_contract(capsys):
     assert experience["first_response_contract"]["opening_path"] == "homer-to-tolstoy"
     assert any("Choose one:" in line for line in experience["first_response_contract"]["template"])
     assert experience["first_tour"]["path"] == "data/routes/first-tour.json"
-    assert experience["first_tour"]["reader_doc"] == "docs/first-tour.md"
+    assert experience["first_tour"]["reader_doc"] == "docs/onboarding/first-tour.md"
     assert experience["first_tour"]["opening_route"] == "civ-07"
     assert experience["bilingual_bridge"]["path"] == "data/bilingual-loop.json"
-    assert experience["bilingual_bridge"]["reader_doc"] == "docs/bilingual-civilizational-bridge.md"
+    assert experience["bilingual_bridge"]["reader_doc"] == "docs/localization/bilingual-civilizational-bridge.md"
     assert experience["bilingual_bridge"]["posture"] == "civilizational_bridge"
     assert experience["bilingual_bridge"]["bridge_id"] == "trilingual_civilizational_bridge"
     assert experience["bilingual_bridge"]["language_scope"] == "trilingual"
     assert experience["bilingual_bridge"]["status"] == "ambition_metadata"
-    assert experience["bilingual_bridge"]["canonical_source"] == "ph-civ"
+    assert experience["bilingual_bridge"]["canonical_source"] == "predictive-history"
     assert experience["bilingual_bridge"]["primary_wedge"] == "homer_to_tolstoy_read_from_china"
     assert experience["bilingual_bridge"]["localization_roadmap"] == ["ph-civ-zh", "ph-civ-ru"]
     assert "downstream mirrors" in experience["bilingual_bridge"]["authority_model"]
-    assert experience["chapter_folder_links"]["reader_doc"] == "docs/chapter-folder-links.md"
+    assert experience["chapter_folder_links"]["reader_doc"] == "docs/onboarding/chapter-folder-links.md"
     assert experience["chapter_folder_links"]["default_mode"] == "study"
-    assert experience["chapter_folder_links"]["cli"] == "ph-civ link <source_id>"
-    assert experience["chapter_catalog"]["json_path"] == "data/predictive-history-index.json"
+    assert experience["chapter_folder_links"]["cli"] == "predictive-history link <source_id>"
+    assert experience["chapter_catalog"]["json_path"] == "docs/predictive-history-index.json"
     assert experience["chapter_catalog"]["markdown_path"] == "docs/predictive-history-index.md"
     assert experience["chapter_catalog"]["not_replacement_for"] == "first_tour"
-    assert "data/predictive-history-index.json" in experience["unfolding_map"]
+    assert "docs/predictive-history-index.json" in experience["unfolding_map"]
     study_mode = next(mode for mode in experience["modes"] if mode["mode"] == "study")
-    assert "data/predictive-history-index.json" in study_mode["start_files"]
+    assert "docs/predictive-history-index.json" in study_mode["start_files"]
     catalog_mode = next(mode for mode in experience["modes"] if mode["mode"] == "catalog")
-    assert catalog_mode["start_files"] == ["data/predictive-history-index.json", "docs/predictive-history-index.md"]
-    assert experience["public_surfaces"]["volume_i"]["surface"] == "ph-civ"
-    assert experience["public_surfaces"]["volume_ii"]["surface"] == "ph-apo"
-    assert "museum" not in experience["public_surfaces"]
+    assert catalog_mode["start_files"] == ["docs/predictive-history-index.json", "docs/predictive-history-index.md"]
+    assert "lectures" in experience["namespace_slices"]
+    assert experience["catalog_hub"]["json"] == "docs/predictive-history-index.json"
+    assert experience["deprecated_artifacts"]["two_volume_ph_civ"]["archive_doc"] == (
+        "docs/archive/two-volume-ph-civ-apo-deprecated.md"
+    )
+    assert "museum" not in experience.get("namespace_slices", {})
     assert experience["first_seed"]["route_ids"] == load_route_seed()["route_ids"]
     guardrails = "\n".join(experience["guardrails"])
     assert "Homer to Tolstoy" in guardrails
@@ -267,12 +323,13 @@ def test_llm_native_bootloader_contract(capsys):
     assert main(["start", "--json"]) == 0
     payload = json.loads(capsys.readouterr().out)
     assert payload["experience_id"] == "ph_civ_llm_native_bootloader"
+    assert payload["primary_artifact"] == "namespace_catalog"
     assert payload["full_context"]["path"] == "llms-full.txt"
     assert payload["first_response_contract"]["default_mode"] == "first_tour"
     assert payload["first_tour"]["path"] == "data/routes/first-tour.json"
     assert payload["bilingual_bridge"]["path"] == "data/bilingual-loop.json"
-    assert payload["chapter_folder_links"]["reader_doc"] == "docs/chapter-folder-links.md"
-    assert payload["chapter_catalog"]["json_path"] == "data/predictive-history-index.json"
+    assert payload["chapter_folder_links"]["reader_doc"] == "docs/onboarding/chapter-folder-links.md"
+    assert payload["chapter_catalog"]["json_path"] == "docs/predictive-history-index.json"
     assert payload["first_seed"]["route_ids"] == load_route_seed()["route_ids"]
 
 
@@ -286,12 +343,12 @@ def test_llms_full_context_packet_exists():
     assert "Do not stop at a generic repository summary" in text
     assert "Default mode: `first_tour`" in text
     assert "starting at civ-07" in text
-    assert "Homer to Tolstoy is the Volume I literary spine" in text
+    assert "literary spine route" in text
     assert "Anna Karenina coda" in text
-    assert "two-volume public artifact" in text
+    assert "namespace catalog hub" in text
     assert "Do not claim live geopolitical certainty" in text
     assert "Trilingual Civilizational Bridge" in text
-    assert "canonical English `ph-civ`, downstream Chinese `ph-civ-zh`, and downstream Russian `ph-civ-ru`" in text
+    assert "canonical English `predictive-history`, downstream Chinese `ph-civ-zh`, and downstream Russian `ph-civ-ru`" in text
     assert "Homer to Tolstoy, read from China." in text
     assert "Default mode: `first_tour`" in text
     assert "not a translation dump" in text
@@ -301,7 +358,7 @@ def test_llms_full_context_packet_exists():
     assert "Chapter-Folder Links" in text
     assert "not a replacement for `first_tour`" in text
     assert "docs/predictive-history-index.md" in text
-    assert "data/predictive-history-index.json" in text
+    assert "docs/predictive-history-index.json" in text
     assert "Chapter Catalog" in text
 
 
@@ -311,16 +368,33 @@ def test_no_legacy_chapter_indexes():
         ROOT / "data" / "ph-civ-index.json",
         ROOT / "docs" / "source-video-index.md",
         ROOT / "data" / "index.json",
+        ROOT / "data" / "predictive-history-index.json",
     ]
     for path in legacy_paths:
         assert not path.exists(), f"legacy index must be removed: {path}"
 
 
-def test_ph_civ_index_provenance_section():
-    payload = json.loads((ROOT / "data" / "predictive-history-index.json").read_text(encoding="utf-8"))
-    assert "provenance" in payload["by_surface"]
+def test_ph_civ_index_hub_links_namespace_slices():
     md = (ROOT / "docs" / "predictive-history-index.md").read_text(encoding="utf-8")
-    assert "## Provenance (source-family residue)" in md
+    assert "## Namespace slice indexes" in md
+    assert "../lectures/predictive-history-lecture-index.md" in md
+    assert "../essays/predictive-history-essay-index.md" in md
+    assert "../interviews/predictive-history-interview-index.md" in md
+    assert "| Lectures |" in md
+    assert "| 147 |" in md
+    assert "| 43 |" in md
+    assert "| 16 |" in md
+    assert "## Deprecated reader frame" in md
+    assert "## Civilization" in md
+    assert "archive/two-volume-ph-civ-apo-deprecated.md" in md
+
+
+def test_ph_civ_index_provenance_section():
+    payload = json.loads((ROOT / "docs" / "predictive-history-index.json").read_text(encoding="utf-8"))
+    assert "provenance" in payload["by_surface"]
+    assert payload.get("by_series")
+    md = (ROOT / "docs" / "predictive-history-index.md").read_text(encoding="utf-8")
+    assert "## Interviews / provenance" in md
 
 
 def test_ph_civ_index_surfaces_youtube_urls():
@@ -330,15 +404,16 @@ def test_ph_civ_index_surfaces_youtube_urls():
     assert "Predictive History Chapter Index" in text
     assert "| Words |" in text
     assert "https://www.youtube.com/watch?v=8nsxuB3Vsts" in text
-    assert "ph-apo/chapters/gt-24/gt-24-transcript.md" in text
+    assert "lectures/game-theory/gt-24/gt-24-transcript.md" in text
     assert "https://www.youtube.com/watch?v=RG1clZlrfOo" in text
 
 
 def test_ph_civ_index_transcript_word_counts():
-    payload = json.loads((ROOT / "data" / "predictive-history-index.json").read_text(encoding="utf-8"))
+    payload = json.loads((ROOT / "docs" / "predictive-history-index.json").read_text(encoding="utf-8"))
     chapters = payload["chapters"]
-    assert payload["schema_version"] == 3
-    assert len(chapters) == 205
+    assert payload["schema_version"] == 5
+    assert payload["primary_artifact"] == "namespace_catalog"
+    assert len(chapters) == 206
     assert all("transcript_word_count" in chapter for chapter in chapters)
     assert payload["transcript_word_total"] == sum(
         chapter["transcript_word_count"] for chapter in chapters
@@ -348,6 +423,45 @@ def test_ph_civ_index_transcript_word_counts():
     assert payload["transcript_word_total"] > 1_000_000
 
 
+def test_lectures_index_exists_and_matches_cards():
+    payload = json.loads(
+        (ROOT / "lectures" / "predictive-history-lecture-index.json").read_text(encoding="utf-8")
+    )
+    assert payload["scope"] == "lectures"
+    assert payload["hub_index"] == "docs/predictive-history-index.md"
+    assert payload["card_count"] == 147
+    assert len(payload["chapters"]) == 147
+    md = (ROOT / "lectures" / "predictive-history-lecture-index.md").read_text(encoding="utf-8")
+    assert md.startswith("<!-- predictive-history-lecture-index-fingerprint:")
+    assert "civilization/civ-01/" in md
+
+
+def test_essays_index_exists_and_matches_cards():
+    payload = json.loads(
+        (ROOT / "essays" / "predictive-history-essay-index.json").read_text(encoding="utf-8")
+    )
+    assert payload["scope"] == "essays"
+    assert payload["hub_index"] == "docs/predictive-history-index.md"
+    assert payload["card_count"] == 43
+    assert len(payload["chapters"]) == 43
+    md = (ROOT / "essays" / "predictive-history-essay-index.md").read_text(encoding="utf-8")
+    assert md.startswith("<!-- predictive-history-essay-index-fingerprint:")
+    assert "../commentaries/" in md
+
+
+def test_interviews_index_exists_and_matches_cards():
+    payload = json.loads(
+        (ROOT / "interviews" / "predictive-history-interview-index.json").read_text(encoding="utf-8")
+    )
+    assert payload["scope"] == "interviews"
+    assert payload["hub_index"] == "docs/predictive-history-index.md"
+    assert payload["card_count"] == 16
+    assert len(payload["chapters"]) == 16
+    md = (ROOT / "interviews" / "predictive-history-interview-index.md").read_text(encoding="utf-8")
+    assert md.startswith("<!-- predictive-history-interview-index-fingerprint:")
+    assert "interview-2025-10-30-cyrus-janssen/" in md
+
+
 def test_bilingual_bridge_contract(capsys):
     bridge = load_bilingual_loop()
     assert bridge["bridge_id"] == "trilingual_civilizational_bridge"
@@ -355,10 +469,10 @@ def test_bilingual_bridge_contract(capsys):
     assert bridge["language_scope"] == "trilingual"
     assert bridge["posture"] == "civilizational_bridge"
     assert bridge["status"] == "ambition_metadata"
-    assert bridge["canonical_source"] == "ph-civ"
+    assert bridge["canonical_source"] == "predictive-history"
     assert "English, Chinese, and Russian readerships" in bridge["identity"]
     assert bridge["canonical_language_surface"] == {
-        "surface": "ph-civ",
+        "surface": "predictive-history",
         "locale": "en",
         "role": "canonical_source",
     }
@@ -386,13 +500,13 @@ def test_bilingual_bridge_contract(capsys):
         "Chinese bootloader",
         "Chinese first-tour metadata",
     ]
-    assert bridge["future_zh_wedge"]["upstream_source"] == "ph-civ"
+    assert bridge["future_zh_wedge"]["upstream_source"] == "predictive-history"
     assert bridge["future_zh_wedge"]["dependency_role"] == "downstream_localization_mirror"
     assert "149 source chapters" in bridge["future_zh_wedge"]["defer"]
     assert bridge["future_zh_wedge"]["no_repo_scaffold_in_this_pass"] is True
     assert bridge["future_ru_wedge"]["future_surface"] == "ph-civ-ru"
     assert bridge["future_ru_wedge"]["status"] == "roadmap_candidate"
-    assert bridge["future_ru_wedge"]["upstream_source"] == "ph-civ"
+    assert bridge["future_ru_wedge"]["upstream_source"] == "predictive-history"
     assert bridge["future_ru_wedge"]["dependency_role"] == "downstream_localization_mirror"
     assert bridge["future_ru_wedge"]["first_steps"] == [
         "Russian glossary",
@@ -405,20 +519,20 @@ def test_bilingual_bridge_contract(capsys):
     assert "not live war analysis" in ru_guardrails
     assert "not a translation dump" in ru_guardrails
     assert "149 source chapters" in bridge["future_ru_wedge"]["defer"]
-    assert "ph-civ-ru commands" in bridge["future_ru_wedge"]["defer"]
+    assert "localization commands" in bridge["future_ru_wedge"]["defer"]
     assert bridge["future_ru_wedge"]["no_repo_scaffold_in_this_pass"] is True
     assert [item["future_surface"] for item in bridge["localization_roadmap"]] == [
         "ph-civ-zh",
         "ph-civ-ru",
     ]
-    assert {item["upstream_source"] for item in bridge["localization_roadmap"]} == {"ph-civ"}
+    assert {item["upstream_source"] for item in bridge["localization_roadmap"]} == {"predictive-history"}
     assert {item["dependency_role"] for item in bridge["localization_roadmap"]} == {
         "downstream_localization_mirror"
     }
 
-    doc = (ROOT / "docs" / "bilingual-civilizational-bridge.md").read_text(encoding="utf-8")
+    doc = (ROOT / "docs" / "localization" / "bilingual-civilizational-bridge.md").read_text(encoding="utf-8")
     assert "Trilingual Civilizational Bridge" in doc
-    assert "`ph-civ` / English / canonical public artifact" in doc
+    assert "`predictive-history` / English / canonical public artifact" in doc
     assert "Homer to Tolstoy, read from China." in doc
     assert "Volume I literary spine" in doc
     assert "paired mirrors" in doc
@@ -428,14 +542,14 @@ def test_bilingual_bridge_contract(capsys):
     assert "ph-civ-ru" in doc
     assert "Russian glossary" in doc
     assert "not live war analysis" in doc
-    assert "downstream of `ph-civ`" in doc
+    assert "downstream of `predictive-history`" in doc
     assert "not become sibling authorities" in doc
 
     start_here = (ROOT / "START-HERE.md").read_text(encoding="utf-8")
     assert "Default mode: first_tour" in start_here
     assert "trilingual identity/growth layer" in start_here
     assert "not a replacement for `first_tour`" in start_here
-    assert "downstream mirrors of canonical `ph-civ`" in start_here
+    assert "downstream mirrors of canonical `predictive-history`" in start_here
     assert "chapter-folder URL is a study doorway" in start_here
 
     assert main(["bilingual", "--json"]) == 0
@@ -444,7 +558,7 @@ def test_bilingual_bridge_contract(capsys):
     assert payload["loop_id"] == "english_chinese_civilizational_bridge"
     assert payload["language_scope"] == "trilingual"
     assert payload["posture"] == "civilizational_bridge"
-    assert payload["canonical_source"] == "ph-civ"
+    assert payload["canonical_source"] == "predictive-history"
     assert payload["downstream_mirrors"] == ["ph-civ-zh", "ph-civ-ru"]
     assert payload["future_zh_wedge"]["first_steps"][0] == "canonical glossary"
     assert payload["future_ru_wedge"]["future_surface"] == "ph-civ-ru"
@@ -461,7 +575,7 @@ def test_bilingual_bridge_contract(capsys):
     assert "legacy_loop_id: english_chinese_civilizational_bridge" in out
     assert "language_scope: trilingual" in out
     assert "primary_wedge: homer_to_tolstoy_read_from_china" in out
-    assert "canonical_source: ph-civ" in out
+    assert "canonical_source: predictive-history" in out
     assert "downstream_mirrors: ph-civ-zh, ph-civ-ru" in out
     assert "English hook:" in out
     assert "Chinese hook:" in out
@@ -493,12 +607,12 @@ def test_first_tour_contract(capsys):
     assert "Homeric memory system" in tour["continue_prompt"]
     assert "Anna Karenina coda" in "\n".join(tour["guardrails"])
 
-    first_tour_doc = ROOT / "docs" / "first-tour.md"
+    first_tour_doc = ROOT / "docs" / "onboarding" / "first-tour.md"
     text = first_tour_doc.read_text(encoding="utf-8")
     assert "First-Tour Response Shape" in text
     assert "First tour, stop 1: civ-07" in text
     assert "Continue to civ-17" in text
-    assert "two-volume public artifact" in text
+    assert "namespace catalog hub" in text
 
     assert main(["tour", "--json"]) == 0
     payload = json.loads(capsys.readouterr().out)
@@ -517,13 +631,13 @@ def test_first_tour_contract(capsys):
 def test_volumes_command_returns_architecture(capsys):
     assert main(["volumes", "--json"]) == 0
     payload = json.loads(capsys.readouterr().out)
-    assert payload["primary_artifact"] == "two_volume_ph_civ"
+    assert payload["primary_artifact"] == "namespace_catalog"
     assert payload["volumes"]["volume_i"]["surface"] == "ph-civ"
     assert payload["volumes"]["volume_i"]["role"] == "law_discovery"
     assert payload["volumes"]["volume_ii"]["surface"] == "ph-apo"
     assert payload["volumes"]["volume_ii"]["role"] == "law_application"
     assert "museum" not in payload
-    assert payload["unique_card_count"] == 205
+    assert payload["unique_card_count"] == 206
 
 
 def test_volume_command_lists_conceptual_membership(capsys):
@@ -558,8 +672,41 @@ def test_growth_goals_translate_outcomes_to_agent_machinery():
     assert "deserves audience growth" in campaign["first_live_wedge"]["readiness_question"]
     assert "Homer-to-Tolstoy route" in campaign["first_live_wedge"]["scope"]
     assert "without claiming views have already been earned" in campaign["first_live_wedge"]["done_when"]
-    assert "analytics plan defines what counts as a view across GitHub, web, video, social, and document surfaces" in campaign["measurable_agent_outputs"]
-    assert "distribution calendar converts the target into weekly and monthly milestones" in campaign["measurable_agent_outputs"]
+    outputs = campaign["measurable_agent_outputs"]
+    assert any("namespace catalog hub within one screen" in line for line in outputs)
+    assert any("analytics plan defines what counts as a view across GitHub, web, video, social, and document surfaces" in line for line in outputs)
+    assert any("distribution calendar converts the target into weekly and monthly milestones" in line for line in outputs)
+
+
+def test_hub_catalog_completeness():
+    cards = load_cards()
+    payload = json.loads((ROOT / "docs" / "predictive-history-index.json").read_text(encoding="utf-8"))
+    assert len(payload["chapters"]) == 206
+    assert payload["card_count"] == 206
+    assert payload.get("by_series")
+    assert payload.get("by_surface")
+    json_ids = {chapter["source_id"] for chapter in payload["chapters"]}
+    card_ids = {card["source_id"] for card in cards}
+    assert json_ids == card_ids
+
+
+def test_hub_full_alphabetical_index():
+    cards = load_cards()
+    md = (ROOT / "docs" / "predictive-history-index.md").read_text(encoding="utf-8")
+    alpha_start = md.index("## Full alphabetical index")
+    alpha_section = md[alpha_start:]
+    for card in cards:
+        assert f"`{card['source_id']}`" in alpha_section
+
+
+def test_two_volume_paths_deprecated():
+    archive = ROOT / "docs" / "archive" / "two-volume-ph-civ-apo-deprecated.md"
+    assert archive.exists()
+    ph_civ_readme = (ROOT / "ph-civ" / "README.md").read_text(encoding="utf-8")
+    assert "predictive-history-index.md" in ph_civ_readme
+    hub_md = (ROOT / "docs" / "predictive-history-index.md").read_text(encoding="utf-8")
+    assert "Volume I — Civilization" not in hub_md
+    assert "Volume II — Apocalypse" not in hub_md
 
 
 def test_growth_command_returns_agent_goal_policy(capsys):
@@ -572,21 +719,19 @@ def test_growth_command_returns_agent_goal_policy(capsys):
 
 
 def test_surface_scoped_commands(capsys):
-    from civ_ph.cli import apo_main
-
     assert main(["list"]) == 0
-    assert "civ-07" in capsys.readouterr().out
-    assert apo_main(["list"]) == 0
+    out = capsys.readouterr().out
+    assert "civ-07" in out
+    assert "gt-16" in out
+    assert main(["list", "--namespace", "lectures", "--series", "game-theory"]) == 0
     out = capsys.readouterr().out
     assert "gt-16" in out
     assert "civ-07" not in out
-    assert apo_main(["status"]) == 0
-    assert "ph-apo" in capsys.readouterr().out
+    assert main(["status"]) == 0
+    assert "deprecated two-volume" in capsys.readouterr().out
 
 
 def test_public_routes(capsys):
-    from civ_ph.cli import apo_main
-
     assert main(["route", "civ-07", "--json"]) == 0
     payload = json.loads(capsys.readouterr().out)
     assert payload["route_type"] == "spine"
@@ -596,7 +741,7 @@ def test_public_routes(capsys):
     payload = json.loads(capsys.readouterr().out)
     assert payload["route_type"] == "spine"
     assert "Virgil and Rome" in payload["what_changes_here"]
-    assert apo_main(["route", "gt-16", "--json"]) == 0
+    assert main(["route", "gt-16", "--json"]) == 0
     payload = json.loads(capsys.readouterr().out)
     assert payload["route_type"] == "application"
     assert main(["route", "sh-16", "--json"]) == 0
@@ -605,8 +750,6 @@ def test_public_routes(capsys):
     assert payload["route_type"] == "coda"
     assert "Anna Karenina coda" in payload["caveat"]
     assert "not a dedicated Tolstoy lecture" in payload["caveat"]
-    assert apo_main(["route", "sh-16", "--json"]) == 0
-    assert json.loads(capsys.readouterr().out)["route_type"] == "coda"
 
 
 def test_ten_route_spine_seed_guardrails():

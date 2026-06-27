@@ -1,12 +1,12 @@
-<!-- public-surface-triage-fingerprint: 5d552735fd052071 -->
+<!-- public-surface-triage-fingerprint: d18b370174c8c5e0 -->
 # Public surface triage
 
-- **Chapters:** 205
-- **Generated:** 2026-06-25T15:33:48Z
+- **Chapters:** 206
+- **Generated:** 2026-06-27T15:53:38Z
 - **Machine SSOT:** [`data/public-surface-triage.json`](../../data/public-surface-triage.json)
 - **Regenerate:** `ph-civ surface-triage`
 
-Vocabulary: [public-surface-status.md](../../docs/public-surface-status.md).
+Vocabulary: [public-surface-status.md](../../docs/catalogs/public-surface-status.md).
 Rebuild wave queue: `ph-civ commentary-status`.
 
 ## Bucket counts
@@ -15,7 +15,7 @@ Rebuild wave queue: `ph-civ commentary-status`.
 | --- | --- |
 | `OPEN_CANVAS` | 1 |
 | `PROVISIONAL` | 1 |
-| `NEEDS_COMMENTARY_REVIEW` | 199 |
+| `NEEDS_COMMENTARY_REVIEW` | 200 |
 | `UNASSIGNED` | 4 |
 
 ## OPEN_CANVAS
@@ -53,7 +53,7 @@ Rebuild wave queue: `ph-civ commentary-status`.
 - `civ-25`
 - `civ-26`
 - `civ-27`
-- … and 174 more (see JSON)
+- … and 175 more (see JSON)
 
 ## UNASSIGNED
 

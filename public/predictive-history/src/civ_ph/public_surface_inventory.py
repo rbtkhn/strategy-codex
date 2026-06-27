@@ -26,7 +26,7 @@ VALIDATION_COVERAGE_MAP = {
     "volume_i_parts_deprecated": "validate:volume-i-parts-deprecated",
     "commentary_canvas": "validate:commentary-canvas",
     "manual": "manual",
-    "aggregate": "data/predictive-history-index.json",
+    "aggregate": "docs/predictive-history-index.json",
 }
 
 
@@ -119,7 +119,7 @@ def static_surface_rows() -> list[dict]:
         ),
         _row(
             surface="predictive_history_index",
-            path="data/predictive-history-index.json",
+            path="docs/predictive-history-index.json",
             surface_class="chapter_catalog",
             status="generated",
             generated_or_hand_authored="generated",
@@ -164,7 +164,7 @@ def static_surface_rows() -> list[dict]:
             status="active",
             reader_mode="first_tour",
             validation_coverage="first_tour",
-            notes="Doctrine mirror: docs/first-tour.md",
+            notes="Doctrine mirror: docs/onboarding/first-tour.md",
         ),
         _row(
             surface="spine_tour",
@@ -175,7 +175,7 @@ def static_surface_rows() -> list[dict]:
         ),
         _row(
             surface="source_lattice",
-            path="docs/source-lattice.md",
+            path="docs/methodology/source-lattice.md",
             surface_class="doctrine_doc",
             status="canonical",
             source_floor="law",
@@ -183,20 +183,20 @@ def static_surface_rows() -> list[dict]:
         ),
         _row(
             surface="commentary_methodology_v2",
-            path="docs/commentary-methodology-v2.md",
+            path="docs/methodology/commentary-methodology-v2.md",
             surface_class="doctrine_doc",
             status="canonical",
             validation_coverage="commentary_canvas",
         ),
         _row(
             surface="public_repo_contract",
-            path="docs/public-repo-contract.md",
+            path="docs/contracts/public-repo-contract.md",
             surface_class="doctrine_doc",
             status="canonical",
         ),
         _row(
             surface="public_surface_status",
-            path="docs/public-surface-status.md",
+            path="docs/catalogs/public-surface-status.md",
             surface_class="doctrine_doc",
             status="active",
             public_ready=True,
@@ -227,7 +227,7 @@ def static_surface_rows() -> list[dict]:
         ),
         _row(
             surface="strategy_codex_bridge",
-            path="docs/strategy-codex-bridge.md",
+            path="docs/methodology/strategy-codex-bridge.md",
             surface_class="bridge",
             status="active",
             notes="Publisher staging-mirror boundary; names private workshop explicitly",
@@ -264,7 +264,7 @@ def aggregate_chapter_rows(cards: list[dict], repo_root: Path) -> list[dict]:
     return [
         _row(
             surface="transcript_commentary_chapters",
-            path="(per data/predictive-history-index.json chapters[].paths)",
+            path="(per docs/predictive-history-index.json chapters[].paths)",
             surface_class="transcript",
             status="canonical",
             source_floor="transcript",
@@ -273,7 +273,7 @@ def aggregate_chapter_rows(cards: list[dict], repo_root: Path) -> list[dict]:
         ),
         _row(
             surface="chapter_folders",
-            path="ph-civ/chapters/* · ph-apo/chapters/* · book/volume-*/…",
+            path="lectures/*",
             surface_class="chapter_folder",
             status="active",
             reader_mode="study",
@@ -282,7 +282,7 @@ def aggregate_chapter_rows(cards: list[dict], repo_root: Path) -> list[dict]:
         ),
         _row(
             surface="ph_civ_volume_i_chapters",
-            path="ph-civ/chapters/* (+ book/volume-i-civilization/)",
+            path="lectures/* ",
             surface_class="chapter_folder",
             status="active",
             notes=f"ph-civ surface count: {by_surface.get('ph-civ', 0)}",
@@ -290,7 +290,7 @@ def aggregate_chapter_rows(cards: list[dict], repo_root: Path) -> list[dict]:
         ),
         _row(
             surface="ph_apo_volume_ii_chapters",
-            path="ph-apo/chapters/* (+ book/volume-ii-apocalypse/)",
+            path="lectures/* ",
             surface_class="chapter_folder",
             status="active",
             notes=f"ph-apo surface count: {by_surface.get('ph-apo', 0)}",
@@ -327,7 +327,7 @@ def render_inventory_payload(cards: list[dict], repo_root: Path) -> dict:
         "fingerprint": fingerprint,
         "generated_at": last_checked,
         "card_count": len(cards),
-        "chapter_catalog": "data/predictive-history-index.json",
+        "chapter_catalog": "docs/predictive-history-index.json",
         "markdown_summary": INVENTORY_MD_REL,
         "surface_count": len(rows),
         "surfaces": rows,
@@ -345,7 +345,7 @@ def render_inventory_markdown(payload: dict) -> str:
         f"- **Machine SSOT:** [`{INVENTORY_JSON_REL}`](../../{INVENTORY_JSON_REL})",
         f"- **Regenerate:** `ph-civ surface-inventory`",
         "",
-        "Per-surface status vocabulary: [public-surface-status.md](../../docs/public-surface-status.md).",
+        "Per-surface status vocabulary: [public-surface-status.md](../../docs/catalogs/public-surface-status.md).",
         "",
         "| Surface | Class | Status | Path | Validation |",
         "| --- | --- | --- | --- | --- |",

@@ -47,7 +47,7 @@ These support nodes strengthen the route, but they do not replace the core spine
 
 | Node | Role |
 | --- | --- |
-| [gb-03](../cards/gb-03.md) | Iliad close-read support after [civ-07](../cards/civ-07.md): `arete`, `eudaimonia`, Odysseus speech-as-reality, and poet-legislator world-making. **Canonical commentary:** [Part II § gb-03](../../book/volume-i-civilization/parts/part-02-hellenic-world-commentary.md#gb-03). Complements the civ lecture without duplicating it. Not a core-spine author stop. |
+| [gb-03](../cards/gb-03.md) | Iliad close-read support after [civ-07](../cards/civ-07.md): `arete`, `eudaimonia`, Odysseus speech-as-reality, and poet-legislator world-making. **Canonical commentary:** [Part II § gb-03](../../docs/routes/volume-i-parts/part-02-hellenic-world-commentary.md#gb-03). Complements the civ lecture without duplicating it. Not a core-spine author stop. |
 | [gb-02](../cards/gb-02.md), [gb-05](../cards/gb-05.md), [gb-07](../cards/gb-07.md) | Existing Homer-segment Great Books supports on the core spine; pair with `gb-03` when the route needs both heroic-memory routing and close-reading depth. |
 
 ## Middle / Theological-Imagination Band
@@ -55,7 +55,7 @@ These support nodes strengthen the route, but they do not replace the core spine
 | Node | Role |
 | --- | --- |
 | [gb-11](../cards/gb-11.md) | Purgatory continuation — promoted to `volume-v/gb-11/` (2026-06-09). |
-| [gb-12: Dante in Paradise](../../book/volume-v/gb-12/README.md) | Paradise continuation — love, imagination, and God as causation problem toward the Tolstoy bridge. |
+| [gb-12: Dante in Paradise](../../lectures/great-books/gb-12/README.md) | Paradise continuation — love, imagination, and God as causation problem toward the Tolstoy bridge. |
 | [sh-17](../cards/sh-17.md) | Scriptural literary memory and Genesis as layered identity-making text. |
 | [sh-18](../cards/sh-18.md) | Prophetic-poetic voice through Zarathustra, Rumi, and Nietzsche. |
 | [civ-55](../cards/civ-55.md) | **Kant hinge**. The strongest non-literary reinforcement now materialized in the public mirror. It turns Dante's imagination into a problem of epistemology, philosophy, and modernity. |
@@ -86,7 +86,7 @@ The support ring should make the Tolstoy end of the route easier to read:
 
 - `sh-16` completes the literary path as a routed modern coda
 - [The Tolstoy Question](../../corpus/cross-volume/tolstoy-question.md) turns that coda into a causation hinge
-- [Predictive History After Tolstoy](../../docs/predictive-history-after-tolstoy.md) carries the route into the Civilization-to-Apocalypse bridge
+- [Predictive History After Tolstoy](../../docs/routes/predictive-history-after-tolstoy.md) carries the route into the Civilization-to-Apocalypse bridge
 
 The support ring therefore strengthens the route, but does not blur the distinction between Volume I literary discovery and Volume II pressure application.
 

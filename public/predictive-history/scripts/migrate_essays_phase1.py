@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Phase 1: move public essay-33..essay-37 essay packets to repo-root essays/."""
+"""Phase 1: move public essay-2026-04-04-world-war-trump..essay-2026-05-16-chinas-third-center-strategy essay packets to repo-root essays/."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_IDS = ["essay-33", "essay-34", "essay-35", "essay-36", "essay-37"]
+SOURCE_IDS = ["essay-2026-04-04-world-war-trump", "essay-2026-04-18-the-us-iran-war-round-two", "essay-2026-04-25-the-trump-new-deal", "essay-2026-05-01-god-emperor-trump", "essay-2026-05-16-chinas-third-center-strategy"]
 LEGACY_PREFIX = "book/volume-vii"
 NEW_PREFIX = "essays"
 
@@ -76,7 +76,7 @@ def migrate_chapter(source_id: str) -> None:
     stub_dir.mkdir(parents=True, exist_ok=True)
     (stub_dir / "README.md").write_text(legacy_stub(source_id, title), encoding="utf-8", newline="\n")
 
-    rollup = ROOT / "book/volume-ii-apocalypse/sub" / source_id / "README.md"
+    rollup = ROOT / "lectures/sub" / source_id / "README.md"
     if rollup.parent.exists() or rollup.parent.parent.exists():
         rollup.parent.mkdir(parents=True, exist_ok=True)
         rollup.write_text(rollup_stub(source_id, title), encoding="utf-8", newline="\n")

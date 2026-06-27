@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Phase 2: intake workshop Substack essays es-01..es-32 -> public ph-civ essays/essay-01..essay-32."""
+"""Phase 2: intake workshop Substack essays es-01..es-32 -> public dated essay IDs."""
 
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ import yaml
 PH_CIV = Path(__file__).resolve().parents[1]
 WORKSHOP = PH_CIV.parent.parent / "codex" / "predictive-history"
 SOURCES_YAML = WORKSHOP / "metadata" / "sources.yaml"
-SKIP_ES_NUMBERS = {33, 34, 35}  # already public as essay-33..essay-35
+SKIP_ES_NUMBERS = {33, 34, 35}  # already public as essay-2026-04-04-world-war-trump..essay-2026-04-25-the-trump-new-deal
 MAX_ES = 32
 INGESTED_AT = date.today().isoformat()
 
@@ -95,6 +95,27 @@ def slug_from_url(url: str) -> str:
     return path.split("/")[-1] if path else ""
 
 
+def dated_essay_id(publication_date: str, substack_slug: str) -> str:
+    pub = str(publication_date)[:10]
+    slug = substack_slug.strip()
+    if not pub or not slug:
+        raise ValueError(f"missing publication_date or substack_slug: date={pub!r} slug={slug!r}")
+    return f"essay-{pub}-{slug}"
+
+
+def load_public_manifest_ids() -> set[str]:
+    path = PH_CIV / "data" / "essays" / "manifest.json"
+    if not path.is_file():
+        return set()
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {e["source_id"] for e in data.get("entries", [])}
+
+
+def assert_unique_dated_id(source_id: str, existing: set[str]) -> None:
+    if source_id in existing:
+        raise SystemExit(f"dated essay source_id collision: {source_id}")
+
+
 def extract_essay_body(workshop_text: str) -> str:
     _, body = parse_frontmatter(workshop_text)
     if "## Essay body" in body:
@@ -160,7 +181,7 @@ def build_commentary(source_id: str, title: str) -> str:
 source_id: {source_id}
 title: {escape_yaml(title)}
 source_series: "Predictive History Essays"
-source_chapter_path: essays/{source_id}/{source_id}.md
+source_chapter_path: essays/{source_id}.md
 source_corpus_path: corpus/essays/{source_id}.md
 commentary_status: in-review
 review_status: source_reviewed
@@ -292,7 +313,7 @@ This entry is in review. Do not treat interpretive frames, hidden-intention clai
 
 ## Return Path
 
-Return through `essays/{source_id}/{source_id}.md` for exact essay wording and `essays/{source_id}/{source_id}-commentary.md` for bounded analysis.
+Return through `essays/{source_id}.md` for exact essay wording and `commentaries/{source_id}-commentary.md` for bounded analysis.
 """
 
 
@@ -310,15 +331,15 @@ def build_card_jsonl(source_id: str, meta: dict) -> dict:
             "Historical Pressure Points": "- Seed pressure points pending commentary pass\n- Civilizational framing hooks to be extracted from the essay",
             "Limits of the Frame": "This entry is in review. Do not treat interpretive frames or forecasts as verified fact without external review.",
             "Reading Posture": "Read this as an orientation card, not as a substitute for the essay body or commentary canvas.",
-            "Return Path": f"Return through `essays/{source_id}/`, the commentary canvas, and `essays/{source_id}/{source_id}.md`.",
+            "Return Path": f"Return through `essays/{source_id}.md`, `commentaries/{source_id}-commentary.md`, and the public card.",
             "Where This Sits": f"`{source_id}` is a public essay packet on the ph-civ essays surface (`part: civilization`).",
         },
         "series": "essays",
         "source_id": source_id,
         "source_paths": {
-            "commentary_path": f"essays/{source_id}/{source_id}-commentary.md",
+            "commentary_path": f"commentaries/{source_id}-commentary.md",
             "orientation_payload_path": "",
-            "source_chapter_path": f"essays/{source_id}/{source_id}.md",
+            "source_chapter_path": f"essays/{source_id}.md",
             "source_corpus_path": f"corpus/essays/{source_id}.md",
         },
         "source_snapshot": {
@@ -330,35 +351,38 @@ def build_card_jsonl(source_id: str, meta: dict) -> dict:
     }
 
 
-def intake_essay(meta: dict) -> str:
+def intake_essay(meta: dict, existing_ids: set[str]) -> str:
     es_id = meta["source_id"]
-    num = int(es_id.split("-")[1])
-    source_id = f"sub-{num:02d}"
-    target = PH_CIV / "essays" / source_id
-    if target.exists():
-        raise SystemExit(f"refusing to overwrite existing packet: {target}")
-
+    pub = str(meta.get("publication_date", ""))[:10]
+    url = meta["canonical_url"]
     workshop_path = WORKSHOP / meta["lecture_path"]
     workshop_text = workshop_path.read_text(encoding="utf-8")
     workshop_meta, _ = parse_frontmatter(workshop_text)
+    slug = workshop_meta.get("substack_slug") or slug_from_url(url)
+    source_id = dated_essay_id(pub, str(slug))
+    assert_unique_dated_id(source_id, existing_ids)
+    essay_path = PH_CIV / "essays" / f"{source_id}.md"
+    commentary_path = PH_CIV / "commentaries" / f"{source_id}-commentary.md"
+    if essay_path.exists() or commentary_path.exists():
+        raise SystemExit(f"refusing to overwrite existing packet: {essay_path} or {commentary_path}")
+
     body = extract_essay_body(workshop_text)
     if not body.strip():
         raise SystemExit(f"empty essay body: {workshop_path}")
 
-    target.mkdir(parents=True)
+    PH_CIV.joinpath("commentaries").mkdir(exist_ok=True)
     title = meta["title"]
-    url = meta["canonical_url"]
 
-    (target / f"{source_id}.md").write_text(
+    essay_path.write_text(
         build_transcript(source_id, meta, workshop_meta, body), encoding="utf-8", newline="\n"
     )
-    (target / f"{source_id}-commentary.md").write_text(
+    commentary_path.write_text(
         build_commentary(source_id, title), encoding="utf-8", newline="\n"
     )
-    (target / "README.md").write_text(build_readme(source_id, title, url), encoding="utf-8", newline="\n")
 
     card_md = PH_CIV / "data" / "cards" / f"{source_id}.md"
     card_md.write_text(build_card_md(source_id, title), encoding="utf-8", newline="\n")
+    existing_ids.add(source_id)
     return source_id
 
 
@@ -375,7 +399,7 @@ def merge_cards_jsonl(new_cards: list[dict]) -> None:
     out: list[dict] = []
     inserted = False
     for card in existing:
-        if not inserted and card.get("source_id") == "essay-33":
+        if not inserted and card.get("source_id") == "essay-2026-04-04-world-war-trump":
             out.extend(new_cards)
             inserted = True
         out.append(card)
@@ -418,14 +442,8 @@ def update_essays_readme(count: int) -> None:
     path = PH_CIV / "essays" / "README.md"
     text = path.read_text(encoding="utf-8")
     text = re.sub(
-        r"- \*\*Public today:\*\* .*",
-        f"- **Public today:** {count} `sub-*` chapter packets on repo-root `essays/`.",
-        text,
-        count=1,
-    )
-    text = re.sub(
-        r"- \*\*Workshop residue \(intake backlog\):\*\* ~\d+ curated files.*",
-        "- **Workshop residue (intake backlog):** remaining workshop essays promote through intake; frozen tree is read-only.",
+        r"\*\*Public today:\*\* \d+ essay chapter packets.*",
+        f"**Public today:** {count} essay chapter packets (`essay-2025-08-06-vision-mission-goals` … see manifest).",
         text,
         count=1,
     )
@@ -434,19 +452,19 @@ def update_essays_readme(count: int) -> None:
 
 def main() -> int:
     manifest = load_essay_manifest()
+    existing_ids = load_public_manifest_ids()
     created: list[str] = []
     new_cards: list[dict] = []
     for meta in manifest:
-        source_id = intake_essay(meta)
+        source_id = intake_essay(meta, existing_ids)
         created.append(source_id)
         new_cards.append(build_card_jsonl(source_id, meta))
 
     merge_cards_jsonl(new_cards)
-    public_count = 5 + len(created)  # essay-33..37 minus overlap: 33-35 were phase1, 36-37 extra
-    # public essay folders = essay-01..32 + essay-33..37 = 37
-    update_essays_readme(37)
+    public_count = len(list((PH_CIV / "essays").glob("essay-*.md")))
+    update_essays_readme(public_count)
 
-    print(f"intake complete: {len(created)} essays -> {', '.join(created[:5])} ... {created[-1]}")
+    print(f"intake complete: {len(created)} essays -> {', '.join(created[:3])} ... {created[-1]}")
     return 0
 
 

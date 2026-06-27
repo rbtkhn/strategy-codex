@@ -16,7 +16,7 @@ if str(_PACKAGE_ROOT / "src") not in sys.path:
 from civ_ph.data import PACKAGE_ROOT
 from civ_ph.ph_civ_index import count_transcript_words, ensure_ph_civ_index
 
-SOURCES = PACKAGE_ROOT / "sources/predictive-history/game-theory"
+LECTURES = PACKAGE_ROOT / "lectures/game-theory"
 REVIEW_DATE = "2026-06-23"
 
 SHARED_REPLACEMENTS: list[tuple[str, str]] = [
@@ -209,49 +209,49 @@ META = {
         "publication_date": "2026-03-26",
         "source_url": "https://www.youtube.com/watch?v=0aASxQrJYuo",
         "video_id": "0aASxQrJYuo",
-        "dest": "ph-apo/chapters/gt-16/gt-16-transcript.md",
+        "dest": "lectures/game-theory/gt-16/gt-16-transcript.md",
     },
     "gt-18": {
         "title": "Game Theory #18: Trump World Order",
         "publication_date": "2026-04-02",
         "source_url": "https://www.youtube.com/watch?v=xrmERlHUqBk",
         "video_id": "xrmERlHUqBk",
-        "dest": "ph-apo/chapters/gt-18/gt-18-transcript.md",
+        "dest": "lectures/game-theory/gt-18/gt-18-transcript.md",
     },
     "gt-27": {
         "title": "Game Theory #27: Putin Enters the Chat",
         "publication_date": "2026-05-21",
         "source_url": "https://www.youtube.com/watch?v=x83HcLWvHI8",
         "video_id": "x83HcLWvHI8",
-        "dest": "ph-apo/chapters/gt-27/gt-27-transcript.md",
+        "dest": "lectures/game-theory/gt-27/gt-27-transcript.md",
     },
     "gt-23": {
         "title": "Game Theory #23: The WWIII Chessboard",
         "publication_date": "2026-05-06",
         "source_url": "https://www.youtube.com/watch?v=6aNh6sBpqvQ",
         "video_id": "6aNh6sBpqvQ",
-        "dest": "ph-apo/chapters/gt-23/gt-23-transcript.md",
+        "dest": "lectures/game-theory/gt-23/gt-23-transcript.md",
     },
     "gt-24": {
         "title": "Game Theory #24: The AI Apocalypse",
         "publication_date": "2026-05-12",
         "source_url": "https://www.youtube.com/watch?v=8nsxuB3Vsts",
         "video_id": "8nsxuB3Vsts",
-        "dest": "ph-apo/chapters/gt-24/gt-24-transcript.md",
+        "dest": "lectures/game-theory/gt-24/gt-24-transcript.md",
     },
     "gt-25": {
         "title": "Game Theory #25: Trump Visits China",
         "publication_date": "2026-05-14",
         "source_url": "https://www.youtube.com/watch?v=BIl5vJn6ohI",
         "video_id": "BIl5vJn6ohI",
-        "dest": "ph-apo/chapters/gt-25/gt-25-transcript.md",
+        "dest": "lectures/game-theory/gt-25/gt-25-transcript.md",
     },
     "gt-26": {
         "title": "Game Theory #26: The Holy Empire of AI",
         "publication_date": "2026-05-19",
         "source_url": "https://www.youtube.com/watch?v=RG1clZlrfOo",
         "video_id": "RG1clZlrfOo",
-        "dest": "ph-apo/chapters/gt-26/gt-26-transcript.md",
+        "dest": "lectures/game-theory/gt-26/gt-26-transcript.md",
     },
 }
 
@@ -363,7 +363,7 @@ def compose(source_id: str, body: str) -> str:
 
 
 def process(source_id: str, extra: list[tuple[str, str]]) -> int:
-    src_path = SOURCES / f"{source_id}.md"
+    src_path = LECTURES / source_id / f"{source_id}-transcript.md"
     body = extract_body(src_path.read_text(encoding="utf-8"))
     body = apply_replacements(body, extra)
     if source_id in EXTENDED_PARAGRAPH_IDS:
@@ -371,7 +371,6 @@ def process(source_id: str, extra: list[tuple[str, str]]) -> int:
     else:
         body = add_paragraph_breaks(body)
     text = compose(source_id, body)
-    src_path.write_text(text, encoding="utf-8")
     dest = PACKAGE_ROOT / META[source_id]["dest"]
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(text, encoding="utf-8")

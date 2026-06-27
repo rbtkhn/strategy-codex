@@ -3,17 +3,16 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ph-civ"
+name = "predictive-history"
 version = "0.1.0"
-description = "Provider-neutral Predictive History public surfaces, beginning with ph-civ orientation cards."
+description = "Provider-neutral Predictive History public namespace catalog and study orientation."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Predictive History contributors" }]
 classifiers = ["Programming Language :: Python :: 3", "Topic :: Education"]
 
 [project.scripts]
-ph-civ = "civ_ph.cli:main"
-ph-apo = "civ_ph.cli:apo_main"
+predictive-history = "civ_ph.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

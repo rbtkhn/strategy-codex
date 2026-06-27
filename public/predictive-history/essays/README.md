@@ -1,44 +1,44 @@
 # Essays
 
-**Canonical public home** for Predictive History **Substack and long-form essay** chapters.
+**Canonical public home** for Predictive History **Substack essay bodies** (verbatim text).
 
-Repo path: **`essays/`** at the repository root (sibling to [`lectures/`](../lectures/README.md), [`interviews/`](../interviews/README.md), [`ph-civ/`](../ph-civ/README.md), [`ph-apo/`](../ph-apo/README.md), [`book/`](../book/), [`sources/`](../sources/)).
+Repo path: **`essays/`** at the repository root (sibling to [`commentaries/`](../commentaries/README.md), [`interviews/`](../interviews/README.md), [`lectures/`](../lectures/README.md), [`ph-civ/`](../ph-civ/README.md); deprecated [`book/`](../book/) tombstone).
 
-## ID scheme
+## Public ID scheme
 
-- **Canonical `source_id`:** `essay-01` … `essay-43` (zero-padded two digits).
-- **Packet path:** `essays/essay-NN/essay-NN.md`, `essay-NN-commentary.md`, `README.md`.
-- **Workshop map:** frozen `es-01` … `es-32` in strategy-codex `codex/predictive-history/metadata/sources.yaml` promote to `essay-01` … `essay-32`; `essay-33` … `essay-43` are public intakes.
-- **Legacy:** `sub-*` essay IDs and `book/volume-vii/sub-*` stubs are **deprecated** — redirects only.
+**Pattern:** `essay-YYYY-MM-DD-{substack-slug}`
 
-## Recategorization (operator policy)
+Examples: `essay-2025-08-06-vision-mission-goals`, `essay-2025-09-27-the-empire-goes-to-war`.
 
-Essays are **medium-first** on **`essays/<source_id>/`** with catalog surface **`ph-civ`** / part **`civilization`**.
+| Field | Detail |
+| --- | --- |
+| **Date** | Substack `publication_date` (pinned in [`data/essays/manifest.json`](../data/essays/manifest.json)) |
+| **Slug** | `substack_slug` from packet frontmatter |
+| **Essay body** | `essays/{source_id}.md` (flat file, no subfolder) |
+| **Commentary** | [`commentaries/{source_id}-commentary.md`](../commentaries/README.md) |
+| **Catalog** | [`predictive-history-essay-index.md`](predictive-history-essay-index.md) · full hub [`docs/predictive-history-index.md`](../docs/predictive-history-index.md) |
 
-Reader rollup under [`book/volume-ii-apocalypse/sub/`](book/volume-ii-apocalypse/sub/) may remain as **cross-links**; **`essays/essay-NN/`** is the canonical namespace.
+**Public today:** 43 essay bodies (`essay-2025-08-06-vision-mission-goals` … `essay-2026-06-19-peace-in-our-time`).
 
-## Corpus scope
+### Workshop crosswalk (`es-*`)
 
-- **Public today:** 43 `essay-*` chapter packets on repo-root `essays/`.
+Full legacy ↔ dated crosswalk: [`data/essays/manifest.json`](../data/essays/manifest.json).
+
+**Deprecated paths:**
+
+- Sequential `essay-NN` folder URLs (2026-06-26 dated-ID cut)
+- Per-essay subfolder URLs `…/essays/{source_id}/` (2026-06-26 flat layout cut) — use `essays/{source_id}.md` instead
+
+Substack canonical URLs unchanged. See [`docs/migrations/essay-dated-id-migration.md`](../docs/migrations/essay-dated-id-migration.md).
 
 ## Packet shape
 
-Each essay chapter:
+| Artifact | Path |
+| --- | --- |
+| Essay body | `essays/{source_id}.md` |
+| Commentary canvas | `commentaries/{source_id}-commentary.md` |
+| Orientation card | `data/cards/{source_id}.md` |
 
-- `essay-NN.md` — verbatim essay body
-- `essay-NN-commentary.md` — open commentary canvas
-- `README.md` — public study doorway (`## Source` + Substack URL)
+No per-essay README doorway — study entry is essay body + commentary + card. Share link: `ph-civ link {source_id}` (essays emit transcript blob URL).
 
-Registry: [`data/cards.jsonl`](../data/cards.jsonl) · catalog: [`docs/predictive-history-index.md`](../docs/predictive-history-index.md).
-
-## Catalog fields
-
-| Field | Value |
-|-------|--------|
-| `source_id` | `essay-NN` |
-| `series` | `essays` |
-| `part` | `civilization` |
-| `surface` | `ph-civ` |
-| `source_paths.*` | under `essays/essay-NN/` |
-
-Intake script: [`scripts/intake_essays_phase2.py`](../scripts/intake_essays_phase2.py)
+Intake: [`scripts/intake_essays_phase2.py`](../scripts/intake_essays_phase2.py)
