@@ -2,7 +2,7 @@
 
 > Non-canonical continuity aid. Generated from current repo state.
 
-- user_id: `strategy-codex`
+- user_id: `grace-mar-instance`
 - pending_candidate_ids: none
 
 ## Last evidence tail

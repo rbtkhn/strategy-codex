@@ -1,8 +1,8 @@
 # Grace-Mar Record — Agent Manifest
 
-User: strategy-codex
-Checksum: c9cd72c0a4ea8d0c14fd58d97a3ab156f47d57a27583b8d0390d3b358ee38b43
-Generated: 2026-06-19T02:15:57.138488
+User: grace-mar-instance
+Checksum: 435587f5e547b0469720a28e932bbf1e38e3b6c7dea928b93f3a369fd6a71347
+Generated: 2026-06-26T18:19:46.076804
 Runtime mode: adjunct_runtime
 
 ## Degraded Mode
@@ -47,8 +47,8 @@ Agents may stage candidates only. Merge requires user approval.
 
 ## Exports
 
-  strategy-codex/openclaw-user.md: python scripts/export_user_identity.py -u strategy-codex -o strategy-codex/openclaw-user.md
-  manifest: python scripts/export_manifest.py -u strategy-codex
+  grace-mar-instance/openclaw-user.md: python scripts/export_user_identity.py -u grace-mar-instance -o grace-mar-instance/openclaw-user.md
+  manifest: python scripts/export_manifest.py -u grace-mar-instance
   fork_json: python scripts/export_fork.py -o fork-export.json
-  intent_snapshot: python scripts/export_intent_snapshot.py -u strategy-codex
-  runtime_bundle: python scripts/export_runtime_bundle.py -u strategy-codex --mode adjunct_runtime
+  intent_snapshot: python scripts/export_intent_snapshot.py -u grace-mar-instance
+  runtime_bundle: python scripts/export_runtime_bundle.py -u grace-mar-instance --mode adjunct_runtime
