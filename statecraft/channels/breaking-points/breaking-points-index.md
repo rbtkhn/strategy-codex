@@ -17,12 +17,12 @@ Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 ## 2026-06
 
 - [2026-06-09 — Professor Pape REACTS: Iran's 'Axis Of Resistance' Will Transform The World](../../../source-archive/statecraft/2026-06-09/source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md) (`6SQnX9QRu9o`) — axis of resistance / security belt · 8 sections · see [Pape index](../../voices/pape/pape-index.md)
-- [2026-06-11 — Professor Marandi: Iran WELCOMES US Invasion](../../../source-archive/statecraft/2026-06-11/source-breaking-points-marandi-iran-welcomes-us-invasion-2026-06-11.md)
-- [2026-06-11 — REPORT: Trump Strongly Considered NUKING Iran](../../../source-archive/statecraft/2026-06-11/source-breaking-points-weichert-trump-strongly-considered-nuking-iran-2026-06-11.md)
-- [2026-06-16 — 'GIANT L': Ben Shapiro MELTS DOWN Over Iran Deal](../../../source-archive/statecraft/2026-06-16/source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md)
+- [2026-06-11 — Professor Marandi: Iran WELCOMES US Invasion](../../../source-archive/statecraft/2026-06-11/source-breaking-points-marandi-iran-welcomes-us-invasion-2026-06-11.md) (`8BazmIsPpwk`) — invasion trap / Tehran live reaction · 8 sections · see [Marandi source index](../../voices/marandi/marandi-source-index.md)
+- [2026-06-11 — REPORT: Trump Strongly Considered NUKING Iran](../../../source-archive/statecraft/2026-06-11/source-breaking-points-weichert-trump-strongly-considered-nuking-iran-2026-06-11.md) (`bV8xIpqv18c`) — nuclear option / Gallipoli Hormuz read · 8 sections · see [Weichert source index](../../voices/weichert/weichert-source-index.md)
+- [2026-06-16 — 'GIANT L': Ben Shapiro MELTS DOWN Over Iran Deal](../../../source-archive/statecraft/2026-06-16/source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md) (`YJjkK-T6nnk`) — MOU sabotage / hardliner coalition fracture · 8 sections · see [Parsi source index](../../voices/parsi/parsi-source-index.md)
 - [2026-06-17 — Prof Pape: Trump 'UNCONDITIONAL SURRENDER' To Iran](../../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) (`s88aryNUMhE`) — MOU leak / unconditional surrender · 8 sections · see [Pape index](../../voices/pape/pape-index.md)
-- [2026-06-23 — SLIPPERY SLOPE TO OBLIVION: Mearsheimer DIRE WARNING On Russia/Ukraine](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md)
-- [2026-06-23 — John Mearsheimer: Trump LOST, Iran Gets Spoils With Sanctions Relief](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md)
+- [2026-06-23 — SLIPPERY SLOPE TO OBLIVION: Mearsheimer DIRE WARNING On Russia/Ukraine](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-slippery-slope-oblivion-russia-ukraine-2026-06-23.md) (`Q-AiLUd4E8Q`) — Ukraine escalation / munitions depletion · 8 sections · see [Mearsheimer source index](../../voices/mearsheimer/mearsheimer-source-index.md)
+- [2026-06-23 — John Mearsheimer: Trump LOST, Iran Gets Spoils With Sanctions Relief](../../../source-archive/statecraft/2026-06-23/source-breaking-points-mearsheimer-trump-lost-iran-spoils-sanctions-relief-2026-06-23.md) (`IK25PzvdgpU`) — Iran MOU spoils / sanctions relief · 6 sections · see [Mearsheimer source index](../../voices/mearsheimer/mearsheimer-source-index.md)
 
 ## Guest lanes on this host
 
