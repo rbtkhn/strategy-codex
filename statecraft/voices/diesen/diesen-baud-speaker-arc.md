@@ -1,9 +1,9 @@
-# Legacy compatibility surface — `diesen-baud-speaker-arc`
+# arc-baud-diesen-host (compat redirect)
 
 WORK only; not Record.
 
-Canonical relational surface: [diesen-baud-arc.md](diesen-baud-arc.md)
+**Canonical:** [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md)
 
-## Orthogonality guide
+Legacy path: `statecraft/voices/diesen/diesen-baud-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
 
-This file is only a compatibility alias. It is not a second arc and should never be treated as an independent retrieval surface beside the canonical [diesen-baud-arc.md](diesen-baud-arc.md).
+Do not treat this as a second arc class.

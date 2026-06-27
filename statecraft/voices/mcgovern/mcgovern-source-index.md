@@ -43,8 +43,8 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 
 ## Host-Arc Entries
 
-- [Diesen x McGovern](../../../statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md)
-- [Dialogue Works x McGovern](../../../statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md)
+- [Diesen x McGovern](../../notes/arc-mcgovern-diesen-host.md)
+- [Dialogue Works x McGovern](../../notes/arc-mcgovern-nima-host.md)
 
 ## Reading Rule
 

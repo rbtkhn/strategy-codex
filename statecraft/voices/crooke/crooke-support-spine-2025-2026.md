@@ -13,7 +13,7 @@ Purpose: own Crooke's maturity law, month-status law, and the rule for how the c
 
 Quick separation rule:
 
-- [crooke-arc.md](crooke-arc.md) = whole-speaker continuity
+- [arc-crooke-continuity.md](arc-crooke-continuity.md) = whole-speaker continuity
 - [crooke-routing.md](crooke-routing.md) = fastest strand, lane, or month selection
 - [crooke-source-index.md](crooke-source-index.md) = source bench
 - [crooke-helix.md](crooke-helix.md) = authored/interview crossing surface
@@ -43,7 +43,7 @@ Status: mature interview synthesis month.
 Open:
 
 - [stream/crooke-shelf-2026-03.md](crooke-shelf-2026-03.md)
-- [stream/crooke-march-2026-interview-cross-host-arc.md](crooke-march-2026-interview-cross-host-arc.md)
+- [stream/arc-march-2026-interview-cross-host-crooke-host.md](arc-march-2026-interview-cross-host-crooke-host.md)
 
 ### 2026-04
 
@@ -52,7 +52,7 @@ Status: mature dense-core month.
 Open:
 
 - [stream/crooke-shelf-2026-04.md](crooke-shelf-2026-04.md)
-- [stream/crooke-april-2026-interview-cross-host-arc.md](crooke-april-2026-interview-cross-host-arc.md)
+- [stream/arc-april-2026-interview-cross-host-crooke-host.md](arc-april-2026-interview-cross-host-crooke-host.md)
 - [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
 
 ### 2026-05
@@ -62,7 +62,7 @@ Status: mature frontier month.
 Open:
 
 - [stream/crooke-shelf-2026-05.md](crooke-shelf-2026-05.md)
-- [stream/crooke-may-2026-interview-cross-host-arc.md](crooke-may-2026-interview-cross-host-arc.md)
+- [stream/arc-may-2026-interview-cross-host-crooke-host.md](arc-may-2026-interview-cross-host-crooke-host.md)
 
 ## Monthly shelf rule
 

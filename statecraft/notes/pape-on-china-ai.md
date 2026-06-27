@@ -93,5 +93,5 @@ Open when the task is:
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)
 - [Pape README](../voices/pape/README.md)
-- [Pape arc](../voices/pape/pape-arc.md)
+- [Pape arc](../voices/pape/arc-pape-continuity.md)
 - [China statecraft lane](../china/README.md)

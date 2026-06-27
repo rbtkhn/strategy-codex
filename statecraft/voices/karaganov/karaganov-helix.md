@@ -39,4 +39,4 @@ Do not inflate these into a false multi-host Karaganov helix.
 
 - Single-helix ≠ weak shelf. Karaganov is canonical because the **doctrinal job** is distinct and recurrent.
 - Grow toward multi-host shape only if direct Karaganov guest appearances materialize outside Diesen with real density.
-- Until then, chronology ownership stays in [diesen-karaganov-speaker-arc.md](../diesen/diesen-karaganov-speaker-arc.md).
+- Until then, chronology ownership stays in [arc-karaganov-diesen-host.md](../diesen/arc-karaganov-diesen-host.md).

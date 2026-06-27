@@ -10,7 +10,7 @@ Armstrong is now a real speaker object on the shelf, and he now has one clearly 
 
 The main mature branch is:
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md)
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/notes/arc-armstrong-nima-host.md)
 
 The native Armstrong shelf still matters as a real body and orientation surface:
 

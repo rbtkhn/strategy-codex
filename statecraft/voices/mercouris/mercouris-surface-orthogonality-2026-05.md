@@ -6,10 +6,10 @@ WORK only; not Record.
 
 Surfaces reviewed:
 
-- [mercouris-arc.md](mercouris-arc.md)
-- [mercouris-arc-threads.md](mercouris-arc-threads.md)
-- [davis-mercouris-speaker-arc.md](../../channels/daniel-davis/davis-mercouris-speaker-arc.md)
-- [diesen-mercouris-speaker-arc.md](../diesen/diesen-mercouris-speaker-arc.md)
+- [arc-mercouris-continuity.md](arc-mercouris-continuity.md)
+- [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md)
+- [arc-mercouris-davis-host.md](../../channels/daniel-davis/arc-mercouris-davis-host.md)
+- [arc-mercouris-diesen-host.md](../diesen/arc-mercouris-diesen-host.md)
 
 Bounded claim:
 
@@ -21,7 +21,7 @@ Bounded claim:
 
 Arcs under review:
 
-- mercouris-arc
+- arc-mercouris-continuity
 - Davis x Mercouris
 - Diesen x Mercouris
 
@@ -44,7 +44,7 @@ Comparison-only surfaces:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| mercouris-arc | native stream continuity | stream-native sequencing across diplomacy, Hormuz, Ukraine, sanctions, legitimacy | daily native monologue and shelf continuity | open when the question is about Mercouris as a native ongoing synthesis | keep |
+| arc-mercouris-continuity | native stream continuity | stream-native sequencing across diplomacy, Hormuz, Ukraine, sanctions, legitimacy | daily native monologue and shelf continuity | open when the question is about Mercouris as a native ongoing synthesis | keep |
 | Davis x Mercouris | feasibility-pressure branch | military practicality and restraint policy press Mercouris's sequencing | Davis-hosted Ukraine/Iran/Europe material | open when diplomacy must answer force feasibility | keep |
 | Diesen x Mercouris | legitimacy-order branch | Europe and order-transition altitude press Mercouris's institutional politics | Diesen-hosted legitimacy and Europe-order captures | open when Mercouris needs to be read through post-unipolar Europe crisis | keep |
 

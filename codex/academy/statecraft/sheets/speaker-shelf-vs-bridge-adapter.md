@@ -94,7 +94,7 @@ Macgregor is the cleaner first exemplar because the shelf is already coherent en
 
 Macgregor shelf ownership is already legible across:
 
-- `macgregor-arc.md`
+- `arc-macgregor-continuity.md`
 - `macgregor-routing.md`
 - `macgregor-source-index.md`
 - `macgregor-helix.md`

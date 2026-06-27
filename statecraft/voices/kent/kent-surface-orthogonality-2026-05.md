@@ -8,10 +8,10 @@ Local surfaces under review:
 
 - [kent-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-speaker-object.md)
 - [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
-- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/carlson-kent-speaker-arc.md)
-- [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-kent-speaker-arc.md)
-- [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-kent-speaker-arc.md)
-- [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/nawfal-kent-speaker-arc.md)
+- [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md)
+- [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md)
+- [arc-kent-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-diesen-host.md)
+- [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md)
 - [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 Bounded claim:
@@ -24,10 +24,10 @@ Bounded claim:
 
 Arcs under review:
 
-- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/carlson-kent-speaker-arc.md)
-- [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-kent-speaker-arc.md)
-- [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-kent-speaker-arc.md)
-- [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/nawfal-kent-speaker-arc.md)
+- [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md)
+- [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md)
+- [arc-kent-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-diesen-host.md)
+- [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md)
 
 Threads under review:
 
@@ -53,10 +53,10 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `carlson-kent-speaker-arc.md` | Kent as witness figure after resignation | inside-decision testimony and public record | one high-value transcript-bearing resignation interview | open when the task asks what Kent says happened inside the decision environment | keep |
-| `davis-kent-speaker-arc.md` | Kent as recurring walkaway and feasibility voice | operational exit realism and coercive-failure judgment | thickest recurring host branch with multiple transcript anchors | open when the task asks whether the war can be exited or won in any coherent sense | keep |
-| `diesen-kent-speaker-arc.md` | Kent as structural and historical dissenter | war-on-terror continuity and order-transition critique | thin but transcript-grade structural branch | open when the task asks how Iraq/Syria/ISIS and imperial overreach feed the Iran trap | keep |
-| `nawfal-kent-speaker-arc.md` | Kent as political-pressure and legitimacy-strain voice | Trump pressure, morale, trust, and domestic-system cost | one long transcript-bearing political-pressure interview | keep as real auxiliary branch, not equal in maturity to Davis | keep |
+| `arc-kent-carlson-host.md` | Kent as witness figure after resignation | inside-decision testimony and public record | one high-value transcript-bearing resignation interview | open when the task asks what Kent says happened inside the decision environment | keep |
+| `arc-kent-davis-host.md` | Kent as recurring walkaway and feasibility voice | operational exit realism and coercive-failure judgment | thickest recurring host branch with multiple transcript anchors | open when the task asks whether the war can be exited or won in any coherent sense | keep |
+| `arc-kent-diesen-host.md` | Kent as structural and historical dissenter | war-on-terror continuity and order-transition critique | thin but transcript-grade structural branch | open when the task asks how Iraq/Syria/ISIS and imperial overreach feed the Iran trap | keep |
+| `arc-kent-nawfal-host.md` | Kent as political-pressure and legitimacy-strain voice | Trump pressure, morale, trust, and domestic-system cost | one long transcript-bearing political-pressure interview | keep as real auxiliary branch, not equal in maturity to Davis | keep |
 
 ## Thread audit
 
@@ -101,10 +101,10 @@ Main confusion zones:
 ## Recommended actions
 
 - keep Kent as a **cross-host reinforced object**, not a mature equal-strand helix
-- keep [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-kent-speaker-arc.md) as the thickest branch and default retrieval lane for Iran-war exit logic
-- keep [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/carlson-kent-speaker-arc.md) as the witness spine
-- keep [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-kent-speaker-arc.md) as the structural-history branch without overstating its density
-- keep [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/nawfal-kent-speaker-arc.md) as a real but thinner political-pressure branch
+- keep [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md) as the thickest branch and default retrieval lane for Iran-war exit logic
+- keep [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md) as the witness spine
+- keep [arc-kent-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-diesen-host.md) as the structural-history branch without overstating its density
+- keep [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md) as a real but thinner political-pressure branch
 - keep [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md) as a comparative routing surface, but do not let shelf-front wording imply stronger maturity than the object doctrine supports
 - keep Barnes as reinforcement only
 

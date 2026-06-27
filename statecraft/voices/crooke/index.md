@@ -7,7 +7,7 @@ Purpose: front door for the canonical Crooke statecraft shelf, surfacing the per
 ## Open First
 
 - [Speaker profile](crooke-profile.md)
-- [Speaker arc](crooke-arc.md)
+- [Speaker arc](arc-crooke-continuity.md)
 - [Speaker routing note](crooke-routing.md)
 - [Source index](crooke-source-index.md)
 - [Speaker helix note](crooke-helix.md)

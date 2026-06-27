@@ -6,7 +6,7 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 
 ## Open First
 
-- [Speaker arc](wilkerson-arc.md)
+- [Speaker arc](arc-wilkerson-continuity.md)
 - [Speaker routing note](wilkerson-routing.md)
 - [Wilkerson helix](wilkerson-helix.md)
 - [Wilkerson source index](wilkerson-source-index.md)
@@ -16,7 +16,7 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 
 The orthogonality-bearing structure on this shelf is:
 
-- [wilkerson-arc.md](wilkerson-arc.md)
+- [arc-wilkerson-continuity.md](arc-wilkerson-continuity.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-helix.md](wilkerson-helix.md)
 - the two main host arcs plus one auxiliary branch
@@ -25,9 +25,9 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Main Host Arcs
 
-- [Dialogue Works x Wilkerson](../../../statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md)
-- [Diesen x Wilkerson](../../../statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md)
-- [Judging Freedom x Wilkerson](../../../statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](../../notes/arc-wilkerson-nima-host.md)
+- [Diesen x Wilkerson](../../notes/arc-wilkerson-diesen-host.md)
+- [Judging Freedom x Wilkerson](../../notes/arc-wilkerson-napolitano-host.md)
 
 ## Boundary
 

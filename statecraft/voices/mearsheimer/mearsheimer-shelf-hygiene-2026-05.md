@@ -12,7 +12,7 @@ Current shelf jobs after this pass:
 |---|---|---|
 | [index.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/index.md) | wrapper front door | keep; now routes more clearly into `person arc -> routing -> raw-input -> helix` |
 | [README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/README.md) | wrapper front door | keep; now mirrors the same contract more cleanly |
-| [mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md) | person arc | keep as canonical whole-speaker continuity |
+| [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md) | person arc | keep as canonical whole-speaker continuity |
 | [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md) | routing | keep; fastest host-selection surface |
 | [mearsheimer-source-index.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-source-index.md) | source bench and non-core appearance bench | keep; exhaustive authority for resolved appearances |
 | [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
@@ -28,7 +28,7 @@ The shelf is still best read as a **person arc above a durable double helix, wit
 
 That doctrine still holds:
 
-- the whole-speaker object lives in [mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md)
+- the whole-speaker object lives in [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md)
 - the stable host comparison still lives in [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
 - the current `Diesen + Davis` pair is still the canonical core
 - the Napolitano lane is real but still reinforcing orbit, not a third equal strand

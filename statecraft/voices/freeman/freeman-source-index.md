@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: act as the canonical statecraft-side source index for Freeman while raw-text authority stays in the Statecraft Archive.
 
-**Identity / routing hub:** [freeman-arc.md](freeman-arc.md) · [freeman-routing.md](freeman-routing.md) · [freeman-helix.md](freeman-helix.md)
+**Identity / routing hub:** [arc-freeman-continuity.md](arc-freeman-continuity.md) · [freeman-routing.md](freeman-routing.md) · [freeman-helix.md](freeman-helix.md)
 
 ## Surface Grammar
 

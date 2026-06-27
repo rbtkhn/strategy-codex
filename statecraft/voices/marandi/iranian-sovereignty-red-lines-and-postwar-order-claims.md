@@ -6,8 +6,8 @@ Marandi repeatedly widens immediate crisis talk into claims about sovereignty, r
 
 Best host lanes:
 
-- [Diesen x Marandi](../diesen/diesen-marandi-speaker-arc.md
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
 
 See also:
 

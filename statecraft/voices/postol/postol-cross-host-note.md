@@ -10,9 +10,9 @@ Postol is not only an Alkorshid-adjacent voice. There is now clear evidence that
 
 The clearest current host-local branches are:
 
-- [Davis x Postol](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-postol-speaker-arc.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-postol-speaker-arc.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-postol-speaker-arc.md)
+- [Davis x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
+- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-diesen-host.md)
+- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-nima-host.md)
 
 There is also shelf-supporting inventory evidence for the broader Dialogue Works / Alkorshid run:
 

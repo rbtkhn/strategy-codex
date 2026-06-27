@@ -12,7 +12,7 @@ Karaganov is a **single-helix, Diesen-anchored** speaker:
 - **0** legacy **`codex/years/`** Karaganov captures pending promotion
 - **1** labeled reaction surface (Ritter, 2026-01-03)
 
-Host chronology detail: [diesen-karaganov-speaker-arc.md](../diesen/diesen-karaganov-speaker-arc.md).
+Host chronology detail: [arc-karaganov-diesen-host.md](../diesen/arc-karaganov-diesen-host.md).
 
 ## Direct appearances — Statecraft Archive
 
@@ -54,7 +54,7 @@ Rank these first when routing live statecraft work.
 
 ## Host-arc entry
 
-- [Diesen × Karaganov speaker arc](../diesen/diesen-karaganov-speaker-arc.md)
+- [Diesen × Karaganov speaker arc](../diesen/arc-karaganov-diesen-host.md)
 
 ## Voice QA receipts (Tier A profile)
 

@@ -45,7 +45,7 @@ If the operator needs the main body of the object:
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the `davis/` shelf, for example [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md) or [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
+- open one of the host-local arc notes from the `davis/` shelf, for example [arc-martyanov-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-martyanov-davis-host.md) or [arc-crooke-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-crooke-davis-host.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

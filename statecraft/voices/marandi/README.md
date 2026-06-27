@@ -10,7 +10,7 @@ Marandi is more mature than a thin compatibility shelf and more structurally sta
 
 ## Open First
 
-- [marandi-arc.md](marandi-arc.md)
+- [arc-marandi-continuity.md](arc-marandi-continuity.md)
 - [marandi-routing.md](marandi-routing.md)
 - [marandi-source-index.md](marandi-source-index.md)
 - [marandi-helix.md](marandi-helix.md)
@@ -26,7 +26,7 @@ Marandi is more mature than a thin compatibility shelf and more structurally sta
 
 Marandi's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [marandi-arc.md](marandi-arc.md) is the primary Statecraft Synthesis surface for Marandi continuity across the 2025-present run.
+- **Person arc:** [arc-marandi-continuity.md](arc-marandi-continuity.md) is the primary Statecraft Synthesis surface for Marandi continuity across the 2025-present run.
 - **Routing surface:** [marandi-routing.md](marandi-routing.md) answers which host lane or source file to open first.
 - **Source index:** [marandi-source-index.md](marandi-source-index.md) is the canonical route map for materialized Marandi appearances.
 - **Cross-host note:** [marandi-helix.md](marandi-helix.md) explains the real host-conditioned structure and the three-host mature core.
@@ -52,8 +52,8 @@ The legacy `statecraft/voices/marandi/` path is now front-door compatibility onl
 
 ## Host Lanes
 
-- [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md)
-- [Diesen x Marandi](../../../statecraft/voices/diesen/diesen-marandi-speaker-arc.md)
+- [Dialogue Works x Marandi](../../notes/arc-marandi-nima-host.md)
+- [Diesen x Marandi](../../notes/arc-marandi-diesen-host.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
 
 ## Boundary

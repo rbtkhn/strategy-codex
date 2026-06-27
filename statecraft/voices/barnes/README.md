@@ -11,7 +11,7 @@ The shelf is intentionally a lighter first pass. Barnes is already a real cross-
 ## Open First
 
 - [Speaker profile](barnes-profile.md) — identity, voice fingerprint, convergence/tension, links hub
-- [barnes-arc.md](barnes-arc.md)
+- [arc-barnes-continuity.md](arc-barnes-continuity.md)
 - [barnes-routing.md](barnes-routing.md)
 - [barnes-source-index.md](barnes-source-index.md)
 - [barnes-helix.md](barnes-helix.md)
@@ -28,7 +28,7 @@ shelf, open:
 
 Barnes's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [barnes-arc.md](barnes-arc.md) is the primary Statecraft Synthesis surface for Barnes continuity across hosts and the January through May 2026 run.
+- **Person arc:** [arc-barnes-continuity.md](arc-barnes-continuity.md) is the primary Statecraft Synthesis surface for Barnes continuity across hosts and the January through May 2026 run.
 - **Routing surface:** [barnes-routing.md](barnes-routing.md) answers which host lane or source file to open first for a given Barnes use.
 - **Source index:** [barnes-source-index.md](barnes-source-index.md) is the canonical route map for materialized Barnes appearances and support-tier Barnes-adjacent captures.
 - **Cross-host note:** [barnes-helix.md](barnes-helix.md) explains the real host-conditioned structure without overstating non-Davis maturity.

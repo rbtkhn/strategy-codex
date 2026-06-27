@@ -19,12 +19,12 @@ The `Napolitano x Mearsheimer` branch is real, but still reinforcing orbit rathe
 
 If the operator needs the cleanest single introduction:
 
-- open [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
+- open [Diesen x Mearsheimer](../../notes/arc-mearsheimer-diesen-host.md)
 
 If the operator needs the best comparative pair:
 
-- open [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
-- then [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
+- open [Diesen x Mearsheimer](../../notes/arc-mearsheimer-diesen-host.md)
+- then [Davis x Mearsheimer](../../notes/arc-mearsheimer-davis-host.md)
 
 ## Routing use
 

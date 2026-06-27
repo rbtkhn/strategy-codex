@@ -1,9 +1,9 @@
-# Davis x Mearsheimer speaker arc
+# arc-mearsheimer-davis-host (compat redirect)
 
 WORK only; not Record.
 
-Compatibility note: this legacy `*-speaker-arc.md` path now redirects to the canonical relational arc:
+**Canonical:** [arc-mearsheimer-davis-host.md](../../notes/arc-mearsheimer-davis-host.md)
 
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
+Legacy path: `statecraft/channels/daniel-davis/davis-mearsheimer-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
 
 Do not treat this as a second arc class.

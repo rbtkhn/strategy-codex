@@ -55,7 +55,7 @@ REPAIR_ROUTING = {
 
 DEFAULT_TARGETS = {
     "sm-1-speaker-object-repair": "statecraft/voices/sachs/sachs-speaker-object.md",
-    "sm-2-speaker-arc-ranking": "statecraft/voices/diesen/diesen-freeman-arc.md",
+    "sm-2-speaker-arc-ranking": "statecraft/notes/arc-freeman-diesen-host.md",
     "sm-3-speaker-structure-metrics": "runtime/artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
     "sm-4-speaker-maturity-ranking": "runtime/artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
 }
@@ -347,8 +347,8 @@ def score_sm2(text: str) -> tuple[list[Check], list[str]]:
     )
 
     paired = section_text(text, "Best paired read")
-    paired_ok = contains_any(paired, ["diesen-matlock-speaker-arc.md", "Matlock"]) and contains_any(
-        paired, ["diesen-jiang-speaker-arc.md", "Jiang"]
+    paired_ok = contains_any(paired, ["arc-matlock-diesen-host.md", "Matlock"]) and contains_any(
+        paired, ["arc-jiang-diesen-host.md", "Jiang"]
     )
     add_check(
         checks,

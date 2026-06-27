@@ -398,7 +398,7 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     speaker_obj = notebook_root / "speakers" / "ritter" / "ritter-speaker-object.md"
     speaker_obj.parent.mkdir(parents=True)
     speaker_obj.write_text("# Ritter speaker object\n", encoding="utf-8")
-    arc = notebook_root / "diesen" / "diesen-ritter-speaker-arc.md"
+    arc = notebook_root / "diesen" / "arc-ritter-diesen-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Diesen x Ritter\n", encoding="utf-8")
 

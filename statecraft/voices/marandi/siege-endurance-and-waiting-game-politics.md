@@ -6,8 +6,8 @@ Marandi repeatedly argues that siege pressure hurts Iran, but creates a sharper 
 
 Best host lanes:
 
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
-- [Davis x Marandi](../channels/daniel-davis/davis-marandi-speaker-arc.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
+- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md
 
 See also:
 

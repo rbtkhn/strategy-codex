@@ -141,6 +141,9 @@ Examples:
 - `arc-freeman-india-global-left-iran.md` — span in YAML (`2026-02-24` → `2026-06-11`)
 - `arc-jermy-iran-naval.md`
 - `arc-pape-escalation-trap.md`
+- `arc-mearsheimer-davis-host.md` — Mearsheimer under Davis host law (feasibility / bargaining geometry)
+- `arc-mearsheimer-diesen-host.md` — Mearsheimer under Diesen host law (structural realism / order transition)
+- `arc-mearsheimer-napolitano-host.md` — Mearsheimer under Napolitano host law (defeat accounting / self-entrapment)
 - `thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md`
 
 Omit hosts and guest names from the slug when primary + topic suffice.

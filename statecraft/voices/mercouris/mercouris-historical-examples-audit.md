@@ -24,8 +24,8 @@ Discovery and routing base:
 - [Mercouris index](index.md)
 - [Mercouris source index](mercouris-source-index.md)
 - [Mercouris speaker object](mercouris-speaker-object.md)
-- [Mercouris arc](mercouris-arc.md)
-- [Mercouris arc-threads](mercouris-arc-threads.md)
+- [Mercouris arc](arc-mercouris-continuity.md)
+- [Mercouris arc-threads](arc-mercouris-continuity-threads.md)
 
 Interpretive source base:
 

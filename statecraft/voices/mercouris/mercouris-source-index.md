@@ -27,7 +27,7 @@ Use these when the task is order-transition / deterrence-history reinforcement o
 - [2024-01-28 | Diesen × Mercouris × Karaganov | lowering nuclear threshold / *Age of War*](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) — fuse-reinstall origin debate; Putin Sochi Valdai pushback frame; Mercouris Cold War fear / threshold disagreement
 - [2024-10-21 | Diesen × Mercouris × Karaganov | Russia changes nuclear doctrine](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) — Cold War deterrence catalogue; post-Cold War European fear loss; doctrine-as-law; deep-strike threshold
 
-Host-local arc: [../diesen/diesen-mercouris-speaker-arc.md](../diesen/diesen-mercouris-speaker-arc.md)
+Host-local arc: [../diesen/arc-mercouris-diesen-host.md](../diesen/arc-mercouris-diesen-host.md)
 
 ## 2025-01 prehistory anchors
 

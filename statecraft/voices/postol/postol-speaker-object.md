@@ -33,9 +33,9 @@ Postol carries a distinct utility profile:
 
 Postol should currently be read as a **helix-first speaker object with three materially real host-local branches**:
 
-- [Davis x Postol](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-postol-speaker-arc.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-postol-speaker-arc.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-postol-speaker-arc.md)
+- [Davis x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
+- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-diesen-host.md)
+- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-nima-host.md)
 
 That means:
 
@@ -59,15 +59,15 @@ See [postol-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/postol/
 
 If the operator needs the clearest current host-local entry:
 
-- open [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-postol-speaker-arc.md)
+- open [arc-postol-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
 
 If the operator needs the clearest strategic-order branch:
 
-- open [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-postol-speaker-arc.md)
+- open [arc-postol-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-postol-diesen-host.md)
 
 If the operator needs the clearest live-pressure branch already on disk:
 
-- open [nima-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-postol-speaker-arc.md)
+- open [arc-postol-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-postol-nima-host.md)
 
 If the operator needs the strongest current materialized raw-input file:
 

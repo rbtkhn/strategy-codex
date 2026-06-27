@@ -8,9 +8,9 @@ Local surfaces under review:
 
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
 - [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md)
-- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-mearsheimer-arc.md)
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
+- [arc-mearsheimer-diesen-host.md](../../notes/arc-mearsheimer-diesen-host.md)
+- [arc-mearsheimer-davis-host.md](../../notes/arc-mearsheimer-davis-host.md)
+- [arc-mearsheimer-napolitano-host.md](../../notes/arc-mearsheimer-napolitano-host.md)
 - [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md)
 
 Bounded claim:
@@ -23,9 +23,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-mearsheimer-arc.md)
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
+- [arc-mearsheimer-diesen-host.md](../../notes/arc-mearsheimer-diesen-host.md)
+- [arc-mearsheimer-davis-host.md](../../notes/arc-mearsheimer-davis-host.md)
+- [arc-mearsheimer-napolitano-host.md](../../notes/arc-mearsheimer-napolitano-host.md)
 
 Threads under review:
 
@@ -48,9 +48,9 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `diesen-mearsheimer-arc.md` | great-power geometry across Ukraine, Iran, NATO, and order transition | structural-realist architecture | mature transcript spine with strong 2025-2026 continuity | open when the task needs altitude, security-dilemma logic, or order-transition consequence | keep |
-| `davis-mearsheimer-arc.md` | bargaining geometry across coercion, punishment, and settlement failure | feasibility and leverage limits | dense anti-war and war-feasibility host pressure, including under-materialized 2026 recurrence | open when the task needs coercive-failure or settlement-impossibility analysis | keep |
-| `napolitano-mearsheimer-arc.md` | defeat-accounting and self-entrapment reinforcement | sequence loss, incoherence, and boxed-in executive behavior | thinner, more summary-grade orbit branch with real recurring use | keep as orbit material, not a third canonical strand |
+| `arc-mearsheimer-diesen-host.md` | great-power geometry across Ukraine, Iran, NATO, and order transition | structural-realist architecture | mature transcript spine with strong 2025-2026 continuity | open when the task needs altitude, security-dilemma logic, or order-transition consequence | keep |
+| `arc-mearsheimer-davis-host.md` | bargaining geometry across coercion, punishment, and settlement failure | feasibility and leverage limits | dense anti-war and war-feasibility host pressure, including under-materialized 2026 recurrence | open when the task needs coercive-failure or settlement-impossibility analysis | keep |
+| `arc-mearsheimer-napolitano-host.md` | defeat-accounting and self-entrapment reinforcement | sequence loss, incoherence, and boxed-in executive behavior | thinner, more summary-grade orbit branch with real recurring use | keep as orbit material, not a third canonical strand |
 
 ## Thread audit
 

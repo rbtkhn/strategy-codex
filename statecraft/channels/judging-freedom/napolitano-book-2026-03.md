@@ -20,4 +20,4 @@ Purpose: March 2026 monthly index for the native `Judging Freedom` shelf.
 
 March is materially useful, but not as clean as April. The March tranche is built from corroborated web transcript pages and transcript snippets when direct YouTube fetch was blocked. The branch reality is still real; the text quality is just less pristine than a direct caption capture.
 
-Freeman March cross-host safeguard: [freeman-march-2026-cross-host-arc.md](../freeman/freeman-march-2026-cross-host-arc.md. The March 10 and March 31 Judging Freedom Freeman transcripts were operator-pasted in the Codex thread but are not canonical raw-input yet.
+Freeman March cross-host safeguard: [arc-march-2026-cross-host-freeman-host.md](../freeman/arc-march-2026-cross-host-freeman-host.md. The March 10 and March 31 Judging Freedom Freeman transcripts were operator-pasted in the Codex thread but are not canonical raw-input yet.

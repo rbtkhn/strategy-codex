@@ -19,12 +19,12 @@ Use this as the fastest front door when you already know the speaker and just ne
 |---|---|---|
 | Pape | escalation trap and coercive-system leverage | [Pape forecast ledger - 2026](/C:/dev/strategy-codex/statecraft/voices/pape/pape-forecast-ledger-2026.md) |
 | Crooke | treaty form and redemptive permanent-war mutation | [Treaty form vs transactional settlement](/C:/dev/strategy-codex/statecraft/voices/crooke/treaty-form-vs-transactional-settlement.md) |
-| Marandi | sovereignty-through-endurance under coercive pressure | [Marandi arc](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md) |
+| Marandi | sovereignty-through-endurance under coercive pressure | [Marandi arc](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md) |
 | Freeman | imported strategic models fail substrate tests | [Thucydidean misfit and civilizational-state difference](/C:/dev/strategy-codex/statecraft/voices/freeman/thucydidean-misfit-and-civilizational-state-difference.md) |
 | Parsi | coercion fails because the settlement architecture is wrong | [Parsi helix](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-helix.md) |
 | Ritter | force is mistaken for control | [Ritter helix](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-helix.md) |
 | Mercouris | diplomatic room and exclusion anxiety shape outcomes | [Mercouris speaker object](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-speaker-object.md) |
-| Barnes | domestic survivability is a first-order foreign-policy variable | [Barnes arc](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-arc.md) |
+| Barnes | domestic survivability is a first-order foreign-policy variable | [Barnes arc](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-continuity.md) |
 | Beebe | bargaining geometry and escalation management before entrapment | [Beebe speaker object](/C:/dev/strategy-codex/statecraft/voices/beebe/beebe-speaker-object.md) |
 | Wilkerson | imperial decline appears as legitimacy collapse and self-harm | [Wilkerson helix](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md) |
 | Macgregor | force-balance reality outruns rhetoric | [Macgregor helix](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-helix.md) |
@@ -38,8 +38,8 @@ Use this as the fastest front door when you already know the speaker and just ne
 | Baud | law-of-war categories expose coercive incoherence | [Baud helix](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md) |
 | Matlock | the Cold War ended by negotiation, not victory mythology | [Matlock speaker object](/C:/dev/strategy-codex/statecraft/voices/matlock/matlock-speaker-object.md) |
 | Karaganov | deterrence requires vivid threshold signaling | [Karaganov speaker object](/C:/dev/strategy-codex/statecraft/voices/karaganov/karaganov-speaker-object.md) |
-| Krainer | macro-financial breakdown widens crisis into world-order consequence | [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-krainer-speaker-arc.md) |
-| Kent | inside-system dissent exposes the tension between exit talk and escalation pressure | [Davis-Kent speaker arc](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-kent-speaker-arc.md) |
+| Krainer | macro-financial breakdown widens crisis into world-order consequence | [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-krainer-diesen-host.md) |
+| Kent | inside-system dissent exposes the tension between exit talk and escalation pressure | [Davis-Kent speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md) |
 | Diesen | institutions and legitimacy must be read through multipolar historical sequence | [Diesen README](/C:/dev/strategy-codex/statecraft/voices/diesen/README.md) |
 | Blumenthal | media legitimacy and donor-power shape crisis narrative uptake | [Blumenthal speaker object](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-speaker-object.md) |
 | Mate | investigative propaganda and outlet-lineage critique pressure media consensus claims | [Mate profile](/C:/dev/strategy-codex/statecraft/voices/mate/mate-profile.md) |
@@ -128,8 +128,8 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 | slot | thesis | best file | falsifier | do not confuse with |
 |---|---|---|---|---|
-| 1 | Iran translates coercive pressure into sovereignty, endurance, and legitimacy rather than surrender. | [Marandi arc](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md) | Iran rapidly capitulates, loses strategic agency, or publicly reframes pressure as legitimate compellence. | Neutral wire-grade verification. Marandi is a Tehran-facing legitimacy interpreter. |
-| 2 | Hormuz is selective leverage and bargaining power, not a neutral shipping fact. | [Marandi arc](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md) | Marandi's lane treats Hormuz as generic disruption rather than controllable leverage on Iranian terms. | Pape's wider energy-system thesis. Marandi is about regime-adjacent leverage and legitimacy framing. |
+| 1 | Iran translates coercive pressure into sovereignty, endurance, and legitimacy rather than surrender. | [Marandi arc](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md) | Iran rapidly capitulates, loses strategic agency, or publicly reframes pressure as legitimate compellence. | Neutral wire-grade verification. Marandi is a Tehran-facing legitimacy interpreter. |
+| 2 | Hormuz is selective leverage and bargaining power, not a neutral shipping fact. | [Marandi arc](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md) | Marandi's lane treats Hormuz as generic disruption rather than controllable leverage on Iranian terms. | Pape's wider energy-system thesis. Marandi is about regime-adjacent leverage and legitimacy framing. |
 | 3 | Negotiation is a low-trust domain of anti-humiliation management, not trust-building optics. | [Marandi 2025-present arc threads](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md) | Iranian-facing messaging starts treating negotiations as normal trust-building rather than deceptive terrain requiring strict written conditions. | Parsi's architecture-first diplomacy lane. |
 
 ## Freeman
@@ -168,9 +168,9 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 | slot | thesis | best file | falsifier | do not confuse with |
 |---|---|---|---|---|
-| 1 | Strategic escalation is best read through domestic political survivability, not only through military or diplomatic altitude. | [Barnes arc](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-arc.md) | Foreign-policy escalation proceeds with little relation to domestic coalition, electoral, donor, or survivability pressures. | Wilkerson's imperial-decline warning. Barnes is much more inside the U.S. political machine. |
-| 2 | War talk becomes real or fake depending on constitutional-process and war-powers exposure. | [Barnes arc](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-arc.md) | Escalation paths prove fully durable even when their legal and congressional basis is incoherent or absent. | Napolitano's legality register. Barnes is more political-process and room-dynamics oriented. |
-| 3 | Negotiation stories must be tested against executive chaos, room dynamics, and whether the White House can actually carry the deal. | [Barnes arc](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-arc.md) | Negotiation tracks routinely hold even when executive instability and factional incoherence are obvious. | Parsi's settlement design or Crooke's structural process critique. |
+| 1 | Strategic escalation is best read through domestic political survivability, not only through military or diplomatic altitude. | [Barnes arc](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-continuity.md) | Foreign-policy escalation proceeds with little relation to domestic coalition, electoral, donor, or survivability pressures. | Wilkerson's imperial-decline warning. Barnes is much more inside the U.S. political machine. |
+| 2 | War talk becomes real or fake depending on constitutional-process and war-powers exposure. | [Barnes arc](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-continuity.md) | Escalation paths prove fully durable even when their legal and congressional basis is incoherent or absent. | Napolitano's legality register. Barnes is more political-process and room-dynamics oriented. |
+| 3 | Negotiation stories must be tested against executive chaos, room dynamics, and whether the White House can actually carry the deal. | [Barnes arc](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-continuity.md) | Negotiation tracks routinely hold even when executive instability and factional incoherence are obvious. | Parsi's settlement design or Crooke's structural process critique. |
 
 ## Beebe
 
@@ -202,7 +202,7 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 |---|---|---|---|---|
 | 1 | Coercion fails to recover leverage; military threats outrun political attainability. | [Johnson April-May 2026 arc-threads](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-april-may-2026-arc-threads.md) | Escalatory threats repeatedly restore leverage and produce attainable political outcomes without blowback. | Pape's formal threshold ledger. Johnson is more humiliation-and-collapse tempo than forecast architecture. |
 | 2 | Hormuz and Gulf exposure rebound pressure back onto the U.S. and Israeli camp rather than locking Iran into surrender. | [Johnson April-May 2026 arc-threads](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-april-may-2026-arc-threads.md) | Gulf exposure proves strategically manageable for the U.S. camp while Iran absorbs the main cost alone. | Marandi's Iran-facing legitimacy lane. Johnson is reading strategic rebound and consequence from a pressure-interpreter register. |
-| 3 | Escalation produces humiliation, contradiction, and process absurdity rather than restored control. | [Johnson arc](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-arc.md) | Crisis management becomes cleaner, more coherent, and more politically successful as coercion intensifies. | Barnes's White House room-dynamics thesis. Johnson is wider and more crisis-tempo oriented. |
+| 3 | Escalation produces humiliation, contradiction, and process absurdity rather than restored control. | [Johnson arc](/C:/dev/strategy-codex/statecraft/notes/arc-johnson-continuity.md) | Crisis management becomes cleaner, more coherent, and more politically successful as coercion intensifies. | Barnes's White House room-dynamics thesis. Johnson is wider and more crisis-tempo oriented. |
 
 ## Sachs
 
@@ -280,7 +280,7 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 | slot | thesis | best file | falsifier | do not confuse with |
 |---|---|---|---|---|
-| 1 | Macro-financial strain, commodity pressure, and debt stress widen wars into world-order consequence. | [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-krainer-speaker-arc.md) | Major geopolitical shocks repeatedly stay politically and militarily bounded without widening into monetary, debt, or commodity stress. | Pape's narrower energy-price mechanism. Krainer is a wider macro-financial breakdown object. |
+| 1 | Macro-financial strain, commodity pressure, and debt stress widen wars into world-order consequence. | [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-krainer-diesen-host.md) | Major geopolitical shocks repeatedly stay politically and militarily bounded without widening into monetary, debt, or commodity stress. | Pape's narrower energy-price mechanism. Krainer is a wider macro-financial breakdown object. |
 | 2 | Imperial overreach is inseparable from internal monetary fragility and elite misrule. | [Krainer speaker object](/C:/dev/strategy-codex/statecraft/voices/krainer/krainer-speaker-object.md) | Western overreach repeatedly proves sustainable without visible internal debt, legitimacy, or financial-fragility consequence. | Wilkerson's legitimacy-collapse register. Krainer is more macro-financial and oligarchic in emphasis. |
 | 3 | Cross-host reinforcement matters because the same crisis-widening voice survives Diesen, Dialogue Works, and The Duran without yet becoming a mature helix. | [Krainer speaker object](/C:/dev/strategy-codex/statecraft/voices/krainer/krainer-speaker-object.md) | Krainer's explanatory value proves host-fragile or too thin outside the Diesen lane to justify recurring object status. | A fully matured helix claim. |
 
@@ -288,8 +288,8 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 | slot | thesis | best file | falsifier | do not confuse with |
 |---|---|---|---|---|
-| 1 | Inside-system dissent shows that exit logic is legible from within the military/intelligence world, not only from outside critics. | [Davis-Kent speaker arc](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-kent-speaker-arc.md) | Former inside actors consistently converge on the public escalation line and do not generate credible exit-ramp critique. | Barnes's White House process lane. Kent is a witness object rooted in institutional proximity. |
-| 2 | Trump exit signaling is real but unstable because bureaucracy, donor pressure, and security politics keep pulling it back toward escalation. | [Nawfal-Kent speaker arc](/C:/dev/strategy-codex/statecraft/voices/kent/nawfal-kent-speaker-arc.md) | Trump-aligned exit language repeatedly converts into durable anti-escalation policy without elite or donor-class drag. | Pape's escalation-trap mechanism. Kent is a domestic-pressure and insider-witness translation of that tension. |
+| 1 | Inside-system dissent shows that exit logic is legible from within the military/intelligence world, not only from outside critics. | [Davis-Kent speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md) | Former inside actors consistently converge on the public escalation line and do not generate credible exit-ramp critique. | Barnes's White House process lane. Kent is a witness object rooted in institutional proximity. |
+| 2 | Trump exit signaling is real but unstable because bureaucracy, donor pressure, and security politics keep pulling it back toward escalation. | [Nawfal-Kent speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md) | Trump-aligned exit language repeatedly converts into durable anti-escalation policy without elite or donor-class drag. | Pape's escalation-trap mechanism. Kent is a domestic-pressure and insider-witness translation of that tension. |
 | 3 | Foreign-policy failure must be translated back into domestic morale, hollowed institutions, and war-on-terror memory rather than left as abstract strategy. | [Kent speaker object](/C:/dev/strategy-codex/statecraft/voices/kent/kent-speaker-object.md) | Long-run intervention failure proves politically and socially compartmentalized, with little effect on trust, morale, or domestic exhaustion. | Sachs's systemic-order critique or Marandi's sovereignty lane. |
 
 ## Diesen

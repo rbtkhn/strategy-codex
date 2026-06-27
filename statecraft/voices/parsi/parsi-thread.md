@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about diplomacy routing, authored/interview crossing, recurring thread families, or canonical structure, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Parsi shelf, the canonical structure lives in [parsi-arc.md](parsi-arc.md, [parsi-routing.md](parsi-routing.md, [parsi-helix.md](parsi-helix.md, [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md), [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md), and [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md, not this file.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Parsi shelf, the canonical structure lives in [arc-parsi-continuity.md](arc-parsi-continuity.md, [parsi-routing.md](parsi-routing.md, [parsi-helix.md](parsi-helix.md, [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md), [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md), and [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md, not this file.
 
 Treat everything below this fence as historical continuity residue unless a newer canonical Parsi surface explicitly routes you back here for context.
 

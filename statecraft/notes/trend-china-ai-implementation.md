@@ -182,5 +182,5 @@ For **AI risk overview / voice allocation** without chronology, open [risk-artif
 - [Moonshots export-control crossover](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md)
 - [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [China statecraft lane](../china/README.md)
-- [Pape arc](../voices/pape/pape-arc.md)
+- [Pape arc](../voices/pape/arc-pape-continuity.md)
 - [Artificial intelligence cluster](./README.md#artificial-intelligence-cluster) · [Trend type law](./README.md#trend-canonical)

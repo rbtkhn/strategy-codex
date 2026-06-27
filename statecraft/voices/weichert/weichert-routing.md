@@ -51,7 +51,7 @@ Purpose: fast-routing note for the canonical Weichert shelf (**Nawfal-first**, s
 
 - Route Nawfal captures through the **source index** first; do not treat Substack/X as the primary chronology owner.
 - Route AI days to **notes**, not duplicated mechanism tables in the profile.
-- Do not open helix or month stream until capture breadth warrants it — use [weichert-arc.md](weichert-arc.md) for person-level Nawfal continuity.
+- Do not open helix or month stream until capture breadth warrants it — use [arc-weichert-continuity.md](arc-weichert-continuity.md) for person-level Nawfal continuity.
 - Verify wire-sensitive claims (tanker/ISR participation, vendor-specific Minab nodes) before synthesis; see profile **Failure modes**.
 
 ## Deferred

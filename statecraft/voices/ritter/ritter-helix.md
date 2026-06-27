@@ -32,9 +32,9 @@ Read [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) whe
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md) | escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
+| [diesen x ritter](../../notes/arc-ritter-diesen-host.md) | escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
 | [Davis host shelf](../../channels/daniel-davis/README.md) | operational feasibility | stockpiles, skies, basing pressure, blockade impracticality, and what the U.S. military can no longer realistically impose |
-| [alkorshid x ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md) | live war pressure | rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis motion under maximum event stress |
+| [alkorshid x ritter](../../notes/arc-ritter-nima-host.md) | live war pressure | rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis motion under maximum event stress |
 
 Napolitano is a real auxiliary legal-command reinforcement branch, not a fourth canonical strand.
 

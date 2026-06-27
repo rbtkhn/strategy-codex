@@ -15,7 +15,7 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [barnes-arc.md](barnes-arc.md) = whole-speaker continuity
+- [arc-barnes-continuity.md](arc-barnes-continuity.md) = whole-speaker continuity
 - [barnes-routing.md](barnes-routing.md) = fastest lane selection
 - [barnes-source-index.md](barnes-source-index.md) = source bench
 - [barnes-helix.md](barnes-helix.md) = host-conditioned structure

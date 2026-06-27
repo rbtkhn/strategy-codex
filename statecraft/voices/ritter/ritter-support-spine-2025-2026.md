@@ -15,7 +15,7 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [ritter-arc.md](ritter-arc.md) = whole-speaker continuity
+- [arc-ritter-continuity.md](arc-ritter-continuity.md) = whole-speaker continuity
 - [ritter-routing.md](ritter-routing.md) = fastest lane or month selection
 - [ritter-source-index.md](ritter-source-index.md) = source bench
 - [ritter-helix.md](ritter-helix.md) = cross-host comparison
@@ -47,8 +47,8 @@ not:
 | Host lane | Speaker-owned role | Best use |
 |---|---|---|
 | [Davis host shelf](../../channels/daniel-davis/README.md) | practical military lane | stockpiles, skies, basing pressure, blockade impracticality, force-feasibility failure |
-| [diesen-ritter-speaker-arc.md](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md) | escalation-horizon lane | Hormuz return-to-war pressure, Europe spillover, sea-control consequence, Russia/NATO widening |
-| [nima-ritter-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
+| [arc-ritter-diesen-host.md](../../notes/arc-ritter-diesen-host.md) | escalation-horizon lane | Hormuz return-to-war pressure, Europe spillover, sea-control consequence, Russia/NATO widening |
+| [arc-ritter-nima-host.md](../../notes/arc-ritter-nima-host.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
 | [Napolitano host shelf](../../channels/judging-freedom/README.md) | auxiliary legal-command lane | war powers, piracy/blockade illegitimacy, command absurdity, command-failure reinforcement |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
@@ -95,8 +95,8 @@ Open:
 
 - [stream/ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../notes/arc-ritter-diesen-host.md)
+- [Dialogue Works x Ritter](../../notes/arc-ritter-nima-host.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 Why March matters:

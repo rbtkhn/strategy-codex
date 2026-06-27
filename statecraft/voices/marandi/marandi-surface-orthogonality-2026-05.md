@@ -6,14 +6,14 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [marandi-arc.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md)
+- [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md)
 - [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md)
 - [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md)
 - [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md)
-- [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md)
-- [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-marandi-speaker-arc.md)
-- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md)
+- [arc-marandi-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-davis-host.md)
+- [arc-marandi-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-diesen-host.md)
+- [arc-marandi-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-nima-host.md)
 - [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md)
 
 Bounded claim:
@@ -26,9 +26,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md)
-- [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-marandi-speaker-arc.md)
-- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md)
+- [arc-marandi-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-davis-host.md)
+- [arc-marandi-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-diesen-host.md)
+- [arc-marandi-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-nima-host.md)
 
 Threads under review:
 
@@ -36,7 +36,7 @@ Threads under review:
 
 Comparison-only notes:
 
-- [marandi-arc.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md)
+- [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md)
 - [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md)
 - [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md)
@@ -54,9 +54,9 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `davis-marandi-speaker-arc.md` | Iran-war pressure translated into failed coercion and unrecoverable military leverage | operational feasibility and intimidation failure | dense spring 2026 run under military-practicality host pressure | open when the task asks what force can no longer realistically achieve against Iran | keep |
-| `diesen-marandi-speaker-arc.md` | Iran-war pressure translated into escalation ladders and wider order consequence | strategic-order altitude and blockade consequence | mature 2026 Hormuz and escalation run under multipolar-transition host pressure | open when the task asks how Iranian resolve alters wider regional or systemic structure | keep |
-| `nima-marandi-speaker-arc.md` | live crisis movement translated into red-line signaling and legitimacy claims | present-tense regional signaling and regime-adjacent pressure language | highest-temperature crisis run with strong selective-Hormuz and GCC-complicity emphasis | open when the task needs Tehran-facing red-line language under maximum pressure | keep |
+| `arc-marandi-davis-host.md` | Iran-war pressure translated into failed coercion and unrecoverable military leverage | operational feasibility and intimidation failure | dense spring 2026 run under military-practicality host pressure | open when the task asks what force can no longer realistically achieve against Iran | keep |
+| `arc-marandi-diesen-host.md` | Iran-war pressure translated into escalation ladders and wider order consequence | strategic-order altitude and blockade consequence | mature 2026 Hormuz and escalation run under multipolar-transition host pressure | open when the task asks how Iranian resolve alters wider regional or systemic structure | keep |
+| `arc-marandi-nima-host.md` | live crisis movement translated into red-line signaling and legitimacy claims | present-tense regional signaling and regime-adjacent pressure language | highest-temperature crisis run with strong selective-Hormuz and GCC-complicity emphasis | open when the task needs Tehran-facing red-line language under maximum pressure | keep |
 
 ## Thread audit
 
@@ -92,7 +92,7 @@ The older [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/m
 `same frame, different role`
 
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md) and [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md) do not own separate continuity; they are comparison and routing surfaces that justify why the three host arcs belong together
-- [marandi-arc.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md), [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md), and [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
+- [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md), [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md), and [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
 
 `comparison note mistaken for continuity surface`
 
@@ -107,7 +107,7 @@ Main confusion zones:
 ## Recommended actions
 
 - keep the current speaker-first, helix-centered structure
-- keep [marandi-arc.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md) as the person-level continuity surface
+- keep [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md) as the person-level continuity surface
 - keep [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md) as the fast host-and-task routing surface
 - keep [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md) as the canonical recurring thread atlas
 - keep all three host-local arcs as distinct canonical threads

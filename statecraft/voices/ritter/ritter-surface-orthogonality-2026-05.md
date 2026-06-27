@@ -9,10 +9,10 @@ Local surfaces under review:
 - [ritter-helix.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-helix.md)
 - [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md)
 - [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-forecast-ledger-2026.md)
-- [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
-- [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-ritter-speaker-arc.md)
-- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
-- [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md)
+- [arc-ritter-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-diesen-host.md)
+- [arc-ritter-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-davis-host.md)
+- [arc-ritter-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-nima-host.md)
+- [arc-ritter-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-napolitano-host.md)
 - [ritter-thread.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-thread.md)
 
 Bounded claim:
@@ -25,10 +25,10 @@ Bounded claim:
 
 Arcs under review:
 
-- [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
-- [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-ritter-speaker-arc.md)
-- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
-- [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md)
+- [arc-ritter-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-diesen-host.md)
+- [arc-ritter-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-davis-host.md)
+- [arc-ritter-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-nima-host.md)
+- [arc-ritter-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-napolitano-host.md)
 
 Threads under review:
 
@@ -54,10 +54,10 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `diesen-ritter-speaker-arc.md` | military escalation translated into cross-theater consequence | escalation horizon and wider strategic consequence | broad 2025-2026 host run with strong Europe/Gulf linkage | open when the task asks how military mechanics propagate into wider consequence | keep |
-| `davis-ritter-speaker-arc.md` | military claims translated into hard feasibility limits | operational feasibility and material constraint | compact but dense 2026 host run around stockpiles, skies, and blockade practicality | open when the task asks what can actually be imposed or sustained | keep |
-| `nima-ritter-speaker-arc.md` | rapid war motion translated into immediate loss-of-control claims | maximum live-war pressure and collapse temperature | high-tempo cross-year host run | open when the task needs the sharpest present-tense Ritter register | keep |
-| `napolitano-ritter-speaker-arc.md` | war mechanics translated into legality and command-failure pressure | legal-pressure and command absurdity | real but auxiliary November 2025-May 2026 branch | keep as auxiliary host branch, not part of the canonical triple helix | keep |
+| `arc-ritter-diesen-host.md` | military escalation translated into cross-theater consequence | escalation horizon and wider strategic consequence | broad 2025-2026 host run with strong Europe/Gulf linkage | open when the task asks how military mechanics propagate into wider consequence | keep |
+| `arc-ritter-davis-host.md` | military claims translated into hard feasibility limits | operational feasibility and material constraint | compact but dense 2026 host run around stockpiles, skies, and blockade practicality | open when the task asks what can actually be imposed or sustained | keep |
+| `arc-ritter-nima-host.md` | rapid war motion translated into immediate loss-of-control claims | maximum live-war pressure and collapse temperature | high-tempo cross-year host run | open when the task needs the sharpest present-tense Ritter register | keep |
+| `arc-ritter-napolitano-host.md` | war mechanics translated into legality and command-failure pressure | legal-pressure and command absurdity | real but auxiliary November 2025-May 2026 branch | keep as auxiliary host branch, not part of the canonical triple helix | keep |
 
 ## Thread audit
 

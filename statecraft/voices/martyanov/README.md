@@ -10,7 +10,7 @@ The shelf is intentionally a lighter first pass. Martyanov is already a real cro
 
 ## Open First
 
-- [martyanov-arc.md](martyanov-arc.md)
+- [arc-martyanov-continuity.md](arc-martyanov-continuity.md)
 - [martyanov-routing.md](martyanov-routing.md)
 - [martyanov-source-index.md](martyanov-source-index.md)
 - [martyanov-helix.md](martyanov-helix.md)
@@ -20,7 +20,7 @@ The shelf is intentionally a lighter first pass. Martyanov is already a real cro
 
 Martyanov's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [martyanov-arc.md](martyanov-arc.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 pressure cluster.
+- **Person arc:** [arc-martyanov-continuity.md](arc-martyanov-continuity.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 pressure cluster.
 - **Routing surface:** [martyanov-routing.md](martyanov-routing.md) answers which host lane or source file to open first for a given Martyanov use.
 - **Source index:** [martyanov-source-index.md](martyanov-source-index.md) is the canonical route map for materialized Martyanov appearances.
 - **Cross-host note:** [martyanov-helix.md](martyanov-helix.md) explains the real host-conditioned structure and the uneven three-branch helix.
@@ -45,9 +45,9 @@ The legacy `statecraft/voices/martyanov/` path is now front-door compatibility o
 
 ## Host Lanes
 
-- [Dialogue Works x Martyanov](../../../statecraft/channels/dialogue-works/nima-martyanov-speaker-arc.md)
-- [Davis x Martyanov](../../../statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md)
-- [Diesen x Martyanov](../../../statecraft/voices/diesen/diesen-martyanov-speaker-arc.md)
+- [Dialogue Works x Martyanov](../../notes/arc-martyanov-nima-host.md)
+- [Davis x Martyanov](../../notes/arc-martyanov-davis-host.md)
+- [Diesen x Martyanov](../../notes/arc-martyanov-diesen-host.md)
 
 ## Boundary
 

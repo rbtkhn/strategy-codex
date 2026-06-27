@@ -8,7 +8,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 ## Open First
 
-- [freeman-arc.md](freeman-arc.md)
+- [arc-freeman-continuity.md](arc-freeman-continuity.md)
 - [freeman-routing.md](freeman-routing.md)
 - [freeman-source-index.md](freeman-source-index.md)
 - [freeman-helix.md](freeman-helix.md)
@@ -22,7 +22,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 Freeman's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [freeman-arc.md](freeman-arc.md) is the primary Statecraft Synthesis surface for Freeman continuity across hosts, contexts, and time.
+- **Person arc:** [arc-freeman-continuity.md](arc-freeman-continuity.md) is the primary Statecraft Synthesis surface for Freeman continuity across hosts, contexts, and time.
 - **Routing surface:** [freeman-routing.md](freeman-routing.md) answers which host lane or monthly shelf to open first.
 - **Source index:** [freeman-source-index.md](freeman-source-index.md) remains the canonical route map for materialized Freeman appearances.
 - **Crossing surface:** [freeman-helix.md](freeman-helix.md) explains how the four core host lanes and non-core bench belong to one Freeman object.
@@ -59,9 +59,9 @@ The legacy `statecraft/voices/freeman/` path is now front-door compatibility onl
 
 ## Host Lanes
 
-- [Diesen x Freeman](../../../statecraft/voices/diesen/diesen-freeman-arc.md)
+- [Diesen x Freeman](../../notes/arc-freeman-diesen-host.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Dialogue Works x Freeman](../../../statecraft/channels/dialogue-works/nima-freeman-arc.md)
+- [Dialogue Works x Freeman](../../notes/arc-freeman-nima-host.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

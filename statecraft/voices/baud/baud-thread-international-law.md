@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: isolate the recurring **international-law / law-of-war / post-1945 order** lane inside the broader Baud corpus without confusing it with either the **person-centered** [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md) or the **host-pair** arcs in the Davis, Dialogue Works, and Diesen streams.
+Purpose: isolate the recurring **international-law / law-of-war / post-1945 order** lane inside the broader Baud corpus without confusing it with either the **person-centered** [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md) or the **host-pair** arcs in the Davis, Dialogue Works, and Diesen streams.
 
 ## Boundary
 
@@ -16,10 +16,10 @@ Use this file when the notebook needs **Baud on international law as a topical c
 
 Do not use this file as a substitute for:
 
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md) for person-level continuity
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md) for live-crisis legality under Nima pressure
-- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md) for alliance-mandate and coercive-feasibility framing
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md) for order-transition and legitimacy-system consequence
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md) for person-level continuity
+- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md) for live-crisis legality under Nima pressure
+- [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md) for alliance-mandate and coercive-feasibility framing
+- [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md) for order-transition and legitimacy-system consequence
 
 ## Orthogonality guide
 
@@ -29,15 +29,15 @@ Quick separation rule:
 
 - `baud-thread-international-law` = legal categories, due process, co-belligerency, proportionality, blockade, distinction, and post-1945 legal architecture
 - [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread-international-law.md) = negotiated-order credibility, sovereignty recognition, and whether shared constraint still binds
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md) = person-level continuity across Europe, coercion, and law
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md) = person-level continuity across Europe, coercion, and law
 
 If the operator needs legal categories, liability, sanctions procedure, or law-of-war framing, open Baud first. If the operator needs a broader legitimacy-order reading of why law no longer binds, Crooke is usually the better first stop.
 
 Distinct from:
 
 - [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread-international-law.md), which is stronger on negotiated-order credibility and sovereignty recognition than on legal taxonomy
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md), which carries broader Baud person-level continuity beyond the law lane
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md), and [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md), which apply the same legal grammar under different host pressures
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md), which carries broader Baud person-level continuity beyond the law lane
+- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md), [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md), and [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md), which apply the same legal grammar under different host pressures
 
 ## Core thesis
 
@@ -67,9 +67,9 @@ Primary Baud materials already in the repo that strongly feed this lane:
 
 Best relational companions when this topic needs host-specific pressure:
 
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
-- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
+- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
+- [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
+- [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
 
 ## Recurring claims
 
@@ -94,7 +94,7 @@ Baud’s legal talk is usually tied to battlefield or diplomatic consequence:
 - co-belligerency changes state liability
 - nuclear or escalatory choices run into proportionality and distinction problems
 
-Distinct from host arcs: this topical thread isolates the reusable legal grammar itself. Open [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md) when the question is military feasibility under legal constraint; open [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md) when the question is live crisis pressure.
+Distinct from host arcs: this topical thread isolates the reusable legal grammar itself. Open [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md) when the question is military feasibility under legal constraint; open [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md) when the question is live crisis pressure.
 
 ### 4. Above-the-law rhetoric is civilizationally destabilizing
 

@@ -7,7 +7,7 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 ## Open First
 
 - [Speaker profile](mercouris-profile.md)
-- [Speaker arc](mercouris-arc.md)
+- [Speaker arc](arc-mercouris-continuity.md)
 - [Speaker routing note](mercouris-routing.md)
 - [Source index](mercouris-source-index.md)
 - [Speaker crossing note](mercouris-helix.md)

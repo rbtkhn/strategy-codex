@@ -1,9 +1,9 @@
-# Judging Freedom x Mearsheimer speaker arc
+# arc-mearsheimer-napolitano-host (compat redirect)
 
 WORK only; not Record.
 
-Compatibility note: this legacy `*-speaker-arc.md` path now redirects to the canonical relational arc:
+**Canonical:** [arc-mearsheimer-napolitano-host.md](../../notes/arc-mearsheimer-napolitano-host.md)
 
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
+Legacy path: `statecraft/channels/judging-freedom/napolitano-mearsheimer-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
 
 Do not treat this as a second arc class.

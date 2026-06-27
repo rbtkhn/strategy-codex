@@ -15,10 +15,10 @@ Richelieu and Bismarck supply the statecraft correction: structural power is not
 
 Use Mearsheimer's speaker state as the main theory input:
 
-- [Mearsheimer routing](../../../speakers/mearsheimer/mearsheimer-routing.md)
-- [Mearsheimer helix](../../../speakers/mearsheimer/mearsheimer-helix.md)
-- [Diesen x Mearsheimer](../../../speakers/diesen/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../speakers/davis/davis-mearsheimer-arc.md)
+- [Mearsheimer routing](../voices/mearsheimer/mearsheimer-routing.md)
+- [Mearsheimer helix](../voices/mearsheimer/mearsheimer-helix.md)
+- [Diesen x Mearsheimer](../notes/arc-mearsheimer-diesen-host.md)
+- [Davis x Mearsheimer](../notes/arc-mearsheimer-davis-host.md)
 
 Use Richelieu and Bismarck as statecraft lenses, not as substitutes for Mearsheimer's structural logic:
 

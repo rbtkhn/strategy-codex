@@ -36,7 +36,7 @@ Krainer should currently be read as a **cross-host reinforced speaker object who
 That means:
 
 - the object is stronger than a one-off guest shelf because it has real recurring reuse
-- the [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-krainer-speaker-arc.md) is presently the clearest stable host-local form on disk
+- the [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-krainer-diesen-host.md) is presently the clearest stable host-local form on disk
 - Dialogue Works and The Duran materially reinforce the object and widen its usefulness
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure actually materialized on disk outside Diesen
 
@@ -59,7 +59,7 @@ See [krainer-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/kraine
 
 If the operator needs the clearest current host-local entry:
 
-- open [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-krainer-speaker-arc.md)
+- open [arc-krainer-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-krainer-diesen-host.md)
 
 If the operator needs the strongest current materialized raw-input file:
 

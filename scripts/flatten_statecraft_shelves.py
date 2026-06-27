@@ -45,7 +45,7 @@ REWRITE_EXCLUDE_PREFIXES = (
 )
 
 # Parent stub replaced by stream canonical body
-PROMOTE_STREAM_OVER_PARENT = frozenset({"mercouris-arc.md"})
+PROMOTE_STREAM_OVER_PARENT = frozenset({"arc-mercouris-continuity.md"})
 
 
 @dataclass(frozen=True)

@@ -20,9 +20,9 @@ The efficient structure is:
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| imperial decline, legitimacy collapse, BRICS consequence, or long-horizon order breakdown | [Diesen x Wilkerson](../../../statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md) | Diesen gives the highest-altitude Wilkerson lane and best translates war pressure into system consequence. |
-| blockade failure, active crisis warning, point-of-no-return language, or live force-limit stress | [Dialogue Works x Wilkerson](../../../statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md) | Dialogue Works pushes Wilkerson into his sharpest live-pressure and military-statecraft warning form. |
-| anti-war constitutional critique, alliance capture, or a compact auxiliary branch outside the main pair | [Napolitano x Wilkerson](../../../statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md) | Napolitano gives a real but secondary legal-moral and anti-war framing layer. |
+| imperial decline, legitimacy collapse, BRICS consequence, or long-horizon order breakdown | [Diesen x Wilkerson](../../notes/arc-wilkerson-diesen-host.md) | Diesen gives the highest-altitude Wilkerson lane and best translates war pressure into system consequence. |
+| blockade failure, active crisis warning, point-of-no-return language, or live force-limit stress | [Dialogue Works x Wilkerson](../../notes/arc-wilkerson-nima-host.md) | Dialogue Works pushes Wilkerson into his sharpest live-pressure and military-statecraft warning form. |
+| anti-war constitutional critique, alliance capture, or a compact auxiliary branch outside the main pair | [Napolitano x Wilkerson](../../notes/arc-wilkerson-napolitano-host.md) | Napolitano gives a real but secondary legal-moral and anti-war framing layer. |
 | the cleanest all-around first orientation to Wilkerson as an object | [legacy Wilkerson helix](../../../statecraft/voices/wilkerson/wilkerson-helix.md) | The helix explains why the main host pair belongs together before you descend into a lane. |
 
 ## Boundary

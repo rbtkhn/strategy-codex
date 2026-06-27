@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: preserve the recurring arc-threads inside the Mercouris native stream so `mercouris-arc` is routeable as a bounded helix, not merely as a pile of daily pages.
+Purpose: preserve the recurring arc-threads inside the Mercouris native stream so `arc-mercouris-continuity` is routeable as a bounded helix, not merely as a pile of daily pages.
 
 Model note: this file is a **thread atlas**, not the arc itself. It names the recurring thematic strands that the Mercouris arc braids across the native stream and uneven guest-host reinforcements. In the speaker template model, an **arc is a bounded helix of arc-threads**; this atlas supplies the Mercouris arc-threads.
 
@@ -31,15 +31,15 @@ If a new Mercouris item can live equally well in several of these without changi
 
 ## Route Stack
 
-- [Mercouris arc](mercouris-arc.md)
+- [Mercouris arc](arc-mercouris-continuity.md)
 - [January setup shelf](mercouris-shelf-2026-01.md)
 - [February bridge shelf](mercouris-shelf-2026-02.md)
 - [March dense-core shelf](mercouris-shelf-2026-03.md)
 - [Mercouris thread](../../../statecraft/voices/mercouris/mercouris-thread.md
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
-- [Diesen x Mercouris host-local arc](../diesen/diesen-mercouris-speaker-arc.md
-- [Davis x Mercouris host-local arc](../../../statecraft/channels/daniel-davis/davis-mercouris-speaker-arc.md
+- [Diesen x Mercouris host-local arc](../diesen/arc-mercouris-diesen-host.md
+- [Davis x Mercouris host-local arc](../../notes/arc-mercouris-davis-host.md
 - [Mercouris source index](mercouris-source-index.md
 
 ## 1. Institutional Narrative Turns Signals Into Statecraft
@@ -231,4 +231,4 @@ Boundary: This is the arc-thread most likely to become a richer host-local braid
 
 ## Use
 
-Open this file when the question is about durable Mercouris theses across the native stream. Open [mercouris-arc.md](mercouris-arc.md) when the question is about the bounded arc shape. Open monthly shelves or pages when the question is about sequencing inside a specific date range. Open raw-input before quoting.
+Open this file when the question is about durable Mercouris theses across the native stream. Open [arc-mercouris-continuity.md](arc-mercouris-continuity.md) when the question is about the bounded arc shape. Open monthly shelves or pages when the question is about sequencing inside a specific date range. Open raw-input before quoting.

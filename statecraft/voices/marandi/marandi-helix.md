@@ -21,8 +21,8 @@ Dialogue Works is still the strongest single lane, but the shelf is not honestly
 
 | Lane | Structural status | Distinct register |
 |---|---|---|
-| [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
-| [Diesen x Marandi](../../../statecraft/voices/diesen/diesen-marandi-speaker-arc.md) | mature co-supporting strand | strategic-order altitude, blockade logic, escalation horizon, anti-hegemonic consequence |
+| [Dialogue Works x Marandi](../../notes/arc-marandi-nima-host.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
+| [Diesen x Marandi](../../notes/arc-marandi-diesen-host.md) | mature co-supporting strand | strategic-order altitude, blockade logic, escalation horizon, anti-hegemonic consequence |
 | [Davis host shelf](../../channels/daniel-davis/README.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
 
 ## What May 26 changes
@@ -59,8 +59,8 @@ That overlap is real on some crisis days, but the first-open jobs are different.
 
 If the operator needs the cleanest Marandi helix entry:
 
-- open [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md)
-- then [Diesen x Marandi](../../../statecraft/voices/diesen/diesen-marandi-speaker-arc.md)
+- open [Dialogue Works x Marandi](../../notes/arc-marandi-nima-host.md)
+- then [Diesen x Marandi](../../notes/arc-marandi-diesen-host.md)
 - then the [Davis host shelf](../../channels/daniel-davis/README.md)
 
 If the operator specifically needs the late-May endpoint:

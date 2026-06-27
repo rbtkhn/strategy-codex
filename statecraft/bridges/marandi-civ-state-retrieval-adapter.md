@@ -61,7 +61,7 @@ After the first `civ-state` object, open:
 
 Speaker-side return path when needed:
 
-- [Marandi arc](../../speakers/marandi/marandi-arc.md)
+- [Marandi arc](../../speakers/marandi/arc-marandi-continuity.md)
 - [Marandi thread atlas](../../speakers/marandi/marandi-2025-present-arc-threads.md)
 
 ## Failure Test

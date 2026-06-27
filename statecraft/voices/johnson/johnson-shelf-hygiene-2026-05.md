@@ -8,7 +8,7 @@ The canonical Johnson shelf now lives at
 [statecraft/voices/johnson/README.md](/C:/dev/strategy-codex/statecraft/voices/johnson/README.md),
 with its live continuity law carried by:
 
-- [johnson-arc.md](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-arc.md)
+- [arc-johnson-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-johnson-continuity.md)
 - [johnson-routing.md](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-routing.md)
 - [johnson-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-support-spine-2025-2026.md)
 - [johnson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-surface-orthogonality-2026-05.md)

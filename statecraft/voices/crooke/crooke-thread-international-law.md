@@ -18,8 +18,8 @@ Do not use this file as a substitute for:
 
 - [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md for full Crooke continuity
 - [baud-thread-international-law.md](../../../statecraft/voices/baud/baud-thread-international-law.md for tighter law-of-war and due-process framing
-- [davis-baud-arc.md](../../../statecraft/channels/daniel-davis/davis-baud-arc.md when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
-- [diesen-baud-arc.md](../../../statecraft/voices/diesen/diesen-baud-arc.md when the question is order-level legitimacy collapse through a more explicit legal register
+- [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
+- [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md when the question is order-level legitimacy collapse through a more explicit legal register
 
 ## Orthogonality guide
 

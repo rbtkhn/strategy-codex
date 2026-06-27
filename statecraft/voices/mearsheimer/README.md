@@ -20,7 +20,7 @@ That means:
 ## Open First
 
 - [mearsheimer-profile.md](mearsheimer-profile.md) — Tier A voice + June 2026 receipts
-- [mearsheimer-arc.md](mearsheimer-arc.md)
+- [arc-mearsheimer-continuity.md](arc-mearsheimer-continuity.md)
 - [mearsheimer-routing.md](mearsheimer-routing.md)
 - [mearsheimer-source-index.md](mearsheimer-source-index.md)
 - [mearsheimer-helix.md](mearsheimer-helix.md)
@@ -35,9 +35,9 @@ That means:
 
 ## Host lanes
 
-- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
-- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
+- [Diesen x Mearsheimer](../../notes/arc-mearsheimer-diesen-host.md)
+- [Davis x Mearsheimer](../../notes/arc-mearsheimer-davis-host.md)
+- [Judging Freedom x Mearsheimer](../../notes/arc-mearsheimer-napolitano-host.md)
 
 ## Compatibility shape
 

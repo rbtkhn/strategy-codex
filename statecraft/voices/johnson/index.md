@@ -6,7 +6,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 
 ## Open First
 
-- [Speaker arc](johnson-arc.md)
+- [Speaker arc](arc-johnson-continuity.md)
 - [Speaker routing note](johnson-routing.md)
 - [Source index](johnson-source-index.md)
 - [Speaker helix note](johnson-helix.md)
@@ -30,7 +30,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 ## Core Speaker Files
 
 - [Shelf README](README.md)
-- [Speaker arc](johnson-arc.md)
+- [Speaker arc](arc-johnson-continuity.md)
 - [Speaker routing](johnson-routing.md)
 - [Source index](johnson-source-index.md)
 - [Speaker helix](johnson-helix.md)
@@ -45,7 +45,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 
 Johnson's orthogonality-bearing structure is:
 
-- [Speaker arc](johnson-arc.md) for person-level continuity
+- [Speaker arc](arc-johnson-continuity.md) for person-level continuity
 - [Speaker routing](johnson-routing.md) for fast first-open guidance
 - [Source index](johnson-source-index.md) for provenance and appearance coverage
 - [Speaker helix](johnson-helix.md) for the crossing surface across the main host lanes
@@ -56,8 +56,8 @@ Johnson's orthogonality-bearing structure is:
 ## Main Host Arcs
 
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Johnson](../../../statecraft/voices/diesen/diesen-johnson-speaker-arc.md)
-- [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md)
+- [Diesen x Johnson](../../notes/arc-johnson-diesen-host.md)
+- [Dialogue Works x Johnson](../../notes/arc-johnson-nima-host.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Best Live Entry Files

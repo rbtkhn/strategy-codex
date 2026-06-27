@@ -8,9 +8,9 @@ Core files:
 
 - [2025-present thread atlas](parsi-2025-present-arc-threads.md)
 - [Forecast + diplomacy ledger](parsi-forecast-ledger-2025-2026.md)
-- [March 2026 cross-context arc](parsi-march-2026-cross-context-arc.md)
-- [May 2026 cross-context arc](parsi-may-2026-cross-context-arc.md)
-- [June 2026 cross-context arc](parsi-june-2026-cross-context-arc.md)
+- [March 2026 cross-context arc](arc-march-2026-cross-context-parsi-host.md)
+- [May 2026 cross-context arc](arc-may-2026-cross-context-parsi-host.md)
+- [June 2026 cross-context arc](arc-june-2026-cross-context-parsi-host.md)
 
 Rule:
 

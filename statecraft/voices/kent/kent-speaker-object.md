@@ -56,15 +56,15 @@ If the operator needs the object map:
 
 If the operator needs the cleanest host-local entry:
 
-- open [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-kent-speaker-arc.md)
+- open [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md)
 
 If the operator needs the resignation-letter spine:
 
-- open [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/carlson-kent-speaker-arc.md)
+- open [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md)
 
 If the operator needs the cleanest political-pressure entry:
 
-- open [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/kent/nawfal-kent-speaker-arc.md)
+- open [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md)
 
 If the operator needs the strongest existing walkaway anchor:
 

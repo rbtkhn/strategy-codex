@@ -6,7 +6,7 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 
 ## Open First
 
-- [Speaker arc](macgregor-arc.md) - whole-speaker continuity and the canonical answer to who Macgregor is as a speaker object.
+- [Speaker arc](arc-macgregor-continuity.md) - whole-speaker continuity and the canonical answer to who Macgregor is as a speaker object.
 - [Speaker routing note](macgregor-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](macgregor-source-index.md) - exhaustive route map for every resolved Macgregor raw-input appearance currently materialized in the repo.
 - [Speaker helix note](macgregor-helix.md) - why the durable double structure fits together before you descend into one host lane.
@@ -48,9 +48,9 @@ This wave does not yet promote individual Macgregor theme files. The shelf now h
 
 ## Host Arcs
 
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../notes/arc-macgregor-davis-host.md)
+- [Diesen x Macgregor](../../notes/arc-macgregor-diesen-host.md)
+- [Judging Freedom x Macgregor](../../notes/arc-macgregor-napolitano-host.md)
 
 ## Boundary
 

@@ -43,7 +43,7 @@ If the operator needs the main body of the object:
 
 If the operator needs the host-local transformation of a specific guest:
 
-- open one of the host-local arc notes in the `napolitano/` shelf, for example [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-johnson-speaker-arc.md) or [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md)
+- open one of the host-local arc notes in the `napolitano/` shelf, for example [arc-johnson-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-johnson-napolitano-host.md) or [arc-ritter-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-napolitano-host.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

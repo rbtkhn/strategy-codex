@@ -19,7 +19,7 @@ Purpose: fast-routing note for the canonical Pape shelf.
 - authored/interview crossing
   - open [pape-helix.md](pape-helix.md)
 - whole-speaker continuity
-  - open [pape-arc.md](pape-arc.md)
+  - open [arc-pape-continuity.md](arc-pape-continuity.md)
 - provenance bench / complete route map
   - open [pape-source-index.md](pape-source-index.md)
 

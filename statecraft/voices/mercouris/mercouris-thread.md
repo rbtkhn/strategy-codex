@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about native arc shape, strand separation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Mercouris shelf, the canonical orthogonality-bearing structure is [mercouris-arc.md](mercouris-arc.md) plus [mercouris-arc-threads.md](mercouris-arc-threads.md), not this file.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Mercouris shelf, the canonical orthogonality-bearing structure is [arc-mercouris-continuity.md](arc-mercouris-continuity.md) plus [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md), not this file.
 
 **Source:** Human **narrative journal** (below) + [mercouris-transcript.md](mercouris-transcript.md) (verbatim ingests) + relevant refined-page work (where this stream's material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox to transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose**.

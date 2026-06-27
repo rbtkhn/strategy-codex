@@ -9,7 +9,7 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 ## Open First
 
 - [Speaker profile](crooke-profile.md) — identity, voice fingerprint, convergence/tension, links hub
-- [crooke-arc.md](crooke-arc.md)
+- [arc-crooke-continuity.md](arc-crooke-continuity.md)
 - [crooke-routing.md](crooke-routing.md)
 - [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
@@ -23,7 +23,7 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 
 Crooke's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [crooke-arc.md](crooke-arc.md) holds whole-speaker continuity across authored and interview contexts.
+- **Person arc:** [arc-crooke-continuity.md](arc-crooke-continuity.md) holds whole-speaker continuity across authored and interview contexts.
 - **Routing surface:** [crooke-routing.md](crooke-routing.md) answers which source-class strand, host lane, or monthly shelf to open first.
 - **Source index:** [crooke-source-index.md](crooke-source-index.md) remains the canonical route map for materialized Crooke appearances.
 - **Crossing surface:** [crooke-helix.md](crooke-helix.md) explains how the authored mechanism spine and interview strand reinforce, extend, or pressure one another.
@@ -64,9 +64,9 @@ The legacy `statecraft/voices/crooke/` path is now front-door compatibility only
 
 ## Host Lanes
 
-- [Diesen x Crooke](../../../statecraft/voices/diesen/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md)
+- [Diesen x Crooke](../../notes/arc-crooke-diesen-host.md)
+- [Davis x Crooke](../../notes/arc-crooke-davis-host.md)
+- [Dialogue Works x Crooke](../../notes/arc-crooke-nima-host.md)
 
 ## Boundary
 

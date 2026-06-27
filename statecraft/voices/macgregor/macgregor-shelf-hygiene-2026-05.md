@@ -12,7 +12,7 @@ Current shelf jobs after this pass:
 |---|---|---|
 | [index.md](index.md) | wrapper front door | keep; now routes into `person arc -> routing -> raw-input -> helix -> support spine -> monthly shelves` |
 | [README.md](README.md) | wrapper front door | keep; now mirrors the same stack more clearly |
-| [macgregor-arc.md](macgregor-arc.md) | person arc | keep as canonical whole-speaker continuity |
+| [arc-macgregor-continuity.md](arc-macgregor-continuity.md) | person arc | keep as canonical whole-speaker continuity |
 | [macgregor-routing.md](macgregor-routing.md) | routing | keep; fastest host-selection and month-selection surface |
 | [macgregor-source-index.md](macgregor-source-index.md) | source bench | keep; exhaustive raw-input authority |
 | [macgregor-helix.md](macgregor-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
@@ -29,7 +29,7 @@ The shelf is still best read as a **person arc above a durable double helix with
 
 The changed doctrine is narrower:
 
-- the whole-speaker object lives in [macgregor-arc.md](macgregor-arc.md)
+- the whole-speaker object lives in [arc-macgregor-continuity.md](arc-macgregor-continuity.md)
 - the stable host comparison still lives in [macgregor-helix.md](macgregor-helix.md)
 - the current `Diesen + Davis` pairing is still the real canonical core
 - the Napolitano lane is real, but remains auxiliary rather than a third equal strand

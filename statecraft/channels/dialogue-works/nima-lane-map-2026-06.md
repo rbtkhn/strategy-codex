@@ -10,14 +10,14 @@ Canonical guest arcs (compatibility paths) live under [statecraft/channels/dialo
 
 | guest lane | open first | compatibility arc |
 |---|---|---|
-| Crooke | [crooke routing](../../voices/crooke/crooke-routing.md) | [nima-crooke-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md) |
-| Freeman | [freeman routing](../../voices/freeman/freeman-routing.md) | [nima-freeman-arc.md](../../../statecraft/channels/dialogue-works/nima-freeman-arc.md) |
-| Johnson / Wilkerson | [johnson](../../voices/johnson/README.md) / [wilkerson](../../voices/wilkerson/README.md) | [nima-johnson-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md), [nima-wilkerson-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md) |
-| Marandi | [marandi](../../voices/marandi/README.md) | [nima-marandi-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md) |
-| Ritter | [ritter](../../voices/ritter/README.md) | [nima-ritter-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md) |
-| Postol | [postol](../../voices/postol/README.md) | [nima-postol-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-postol-speaker-arc.md) |
-| Martyanov | [martyanov](../../voices/martyanov/README.md) | [nima-martyanov-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-martyanov-speaker-arc.md) |
-| Baud | codex baud shelf | [nima-baud-arc.md](../../../statecraft/channels/dialogue-works/nima-baud-arc.md) |
+| Crooke | [crooke routing](../../voices/crooke/crooke-routing.md) | [arc-crooke-nima-host.md](../../notes/arc-crooke-nima-host.md) |
+| Freeman | [freeman routing](../../voices/freeman/freeman-routing.md) | [arc-freeman-nima-host.md](../../notes/arc-freeman-nima-host.md) |
+| Johnson / Wilkerson | [johnson](../../voices/johnson/README.md) / [wilkerson](../../voices/wilkerson/README.md) | [arc-johnson-nima-host.md](../../notes/arc-johnson-nima-host.md), [arc-wilkerson-nima-host.md](../../notes/arc-wilkerson-nima-host.md) |
+| Marandi | [marandi](../../voices/marandi/README.md) | [arc-marandi-nima-host.md](../../notes/arc-marandi-nima-host.md) |
+| Ritter | [ritter](../../voices/ritter/README.md) | [arc-ritter-nima-host.md](../../notes/arc-ritter-nima-host.md) |
+| Postol | [postol](../../voices/postol/README.md) | [arc-postol-nima-host.md](../../notes/arc-postol-nima-host.md) |
+| Martyanov | [martyanov](../../voices/martyanov/README.md) | [arc-martyanov-nima-host.md](../../notes/arc-martyanov-nima-host.md) |
+| Baud | codex baud shelf | [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md) |
 
 ## Routing default
 

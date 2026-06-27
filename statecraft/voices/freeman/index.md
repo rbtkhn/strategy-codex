@@ -6,7 +6,7 @@ Purpose: front door for the canonical Freeman statecraft shelf, surfacing the pe
 
 ## Open First
 
-- [Speaker arc](freeman-arc.md) - whole-speaker continuity and the canonical answer to who Freeman is as a speaker object.
+- [Speaker arc](arc-freeman-continuity.md) - whole-speaker continuity and the canonical answer to who Freeman is as a speaker object.
 - [Speaker routing note](freeman-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](freeman-source-index.md) - exhaustive route map for materialized Freeman appearances currently in the repo.
 - [Speaker helix note](freeman-helix.md) - why the four core host lanes, non-core bench, and month ladder fit together before you descend into one lane.
@@ -51,9 +51,9 @@ These monthly files are bounded synthesis shelves. They do not replace host-loca
 
 ## Host Arcs
 
-- [Diesen x Freeman](../../../statecraft/voices/diesen/diesen-freeman-arc.md)
+- [Diesen x Freeman](../../notes/arc-freeman-diesen-host.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Dialogue Works x Freeman](../../../statecraft/channels/dialogue-works/nima-freeman-arc.md)
+- [Dialogue Works x Freeman](../../notes/arc-freeman-nima-host.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

@@ -20,8 +20,8 @@ Purpose: provide the canonical route map for materialized Postol appearances and
 ## Host-Arc Entries
 
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Postol](../../../statecraft/voices/diesen/diesen-postol-speaker-arc.md)
-- [Dialogue Works x Postol](../../../statecraft/channels/dialogue-works/nima-postol-speaker-arc.md)
+- [Diesen x Postol](../../notes/arc-postol-diesen-host.md)
+- [Dialogue Works x Postol](../../notes/arc-postol-nima-host.md)
 
 ## Support-Tier Inventory Evidence
 

@@ -5,7 +5,7 @@ WORK only; not Record.
 Canonical live Sachs statecraft work lives here:
 
 - [README.md](README.md)
-- [sachs-arc.md](sachs-arc.md)
+- [arc-sachs-continuity.md](arc-sachs-continuity.md)
 - [sachs-routing.md](sachs-routing.md)
 - [sachs-source-index.md](sachs-source-index.md)
 - [sachs-helix.md](sachs-helix.md)

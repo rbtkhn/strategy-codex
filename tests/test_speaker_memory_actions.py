@@ -21,7 +21,7 @@ def row(
     host: str = "diesen",
     route_type: str = "existing-speaker-arc",
     next_action: str = "update-existing-arc",
-    primary: str = "codex/years/2026/diesen/diesen-beebe-speaker-arc.md",
+    primary: str = "codex/years/2026/diesen/arc-beebe-diesen-host.md",
     also: list[str] | None = None,
 ) -> dict:
     return {
@@ -55,7 +55,7 @@ def test_existing_arc_route_emits_update_action() -> None:
     assert len(actions) == 1
     assert actions[0]["action_type"] == "update-existing-arc"
     assert actions[0]["priority"] == "high"
-    assert actions[0]["target_path"] == "codex/years/2026/diesen/diesen-beebe-speaker-arc.md"
+    assert actions[0]["target_path"] == "codex/years/2026/diesen/arc-beebe-diesen-host.md"
     assert actions[0]["evidence_appearances"] == ["ap-arc0000001"]
 
 
@@ -102,7 +102,7 @@ def test_repeated_speaker_across_hosts_emits_consider_helix() -> None:
                 "ap-host000002",
                 speaker="marandi",
                 host="davis",
-                primary="codex/years/2026/davis/davis-marandi-speaker-arc.md",
+                primary="codex/years/2026/davis/arc-marandi-davis-host.md",
             ),
         ]
     )

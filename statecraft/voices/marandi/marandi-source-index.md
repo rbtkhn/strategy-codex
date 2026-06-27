@@ -92,8 +92,8 @@ Useful for auditability or nearby continuity, but not shelf-defining:
 
 ## Open first by corpus layer
 
-- **Best mature lane:** [Dialogue Works x Marandi](../../../statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md)
-- **Best strategic-altitude lane:** [Diesen x Marandi](../../../statecraft/voices/diesen/diesen-marandi-speaker-arc.md)
+- **Best mature lane:** [Dialogue Works x Marandi](../../notes/arc-marandi-nima-host.md)
+- **Best strategic-altitude lane:** [Diesen x Marandi](../../notes/arc-marandi-diesen-host.md)
 - **Best operational-limit lane:** [Davis host shelf](../../channels/daniel-davis/README.md)
 - **Best late-May reinforcement and mature-cluster endpoint:** [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - **Best support-tier U.S.-audience translation:** [2026-06-24 / Judging Freedom x Marandi](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md) · prior: [2026-05-28](../../../source-archive/statecraft/2026-05-28/source-judging-freedom-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)

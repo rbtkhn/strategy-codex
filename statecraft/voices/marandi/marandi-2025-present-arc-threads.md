@@ -26,8 +26,8 @@ Core claim: Marandi repeatedly frames Iran as the victim of aggression, which th
 
 Best host materializations:
 
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
-- [Davis x Marandi](../channels/daniel-davis/davis-marandi-speaker-arc.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
+- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md
 
 Why this thread matters:
 
@@ -41,8 +41,8 @@ Core claim: Marandi does not treat Hormuz as a neutral shipping fact. He repeate
 
 Best host materializations:
 
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
-- [Diesen x Marandi](../diesen/diesen-marandi-speaker-arc.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
 
 Why this thread matters:
 
@@ -56,8 +56,8 @@ Core claim: Marandi repeatedly argues that siege pressure hurts Iran, but hurts 
 
 Best host materializations:
 
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
-- [Davis x Marandi](../channels/daniel-davis/davis-marandi-speaker-arc.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
+- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md
 
 Why this thread matters:
 
@@ -71,8 +71,8 @@ Core claim: Marandi repeatedly distinguishes between hostile, complicit, and fri
 
 Best host materializations:
 
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
-- [Diesen x Marandi](../diesen/diesen-marandi-speaker-arc.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
 
 Why this thread matters:
 
@@ -86,9 +86,9 @@ Core claim: Marandi repeatedly portrays negotiations not as trust-building but a
 
 Best host materializations:
 
-- [Davis x Marandi](../channels/daniel-davis/davis-marandi-speaker-arc.md
-- [Diesen x Marandi](../diesen/diesen-marandi-speaker-arc.md
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
+- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
 
 Why this thread matters:
 
@@ -102,8 +102,8 @@ Core claim: Marandi repeatedly widens immediate crisis talk into claims about so
 
 Best host materializations:
 
-- [Diesen x Marandi](../diesen/diesen-marandi-speaker-arc.md
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
 
 Why this thread matters:
 
@@ -115,8 +115,8 @@ Why this thread matters:
 
 For bounded mature-core readings, open:
 
-- [marandi-april-2026-cross-host-arc.md](marandi-april-2026-cross-host-arc.md)
-- [marandi-may-2026-cross-host-arc.md](marandi-may-2026-cross-host-arc.md)
+- [arc-april-2026-cross-host-marandi-host.md](arc-april-2026-cross-host-marandi-host.md)
+- [arc-may-2026-cross-host-marandi-host.md](arc-may-2026-cross-host-marandi-host.md)
 
 ## Boundary
 

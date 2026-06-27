@@ -6,7 +6,7 @@ Use McGovern when the notebook needs intelligence dissent and institutional memo
 
 ## Open Diesen First
 
-Open [Diesen x McGovern](../../../statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md) first when the real question is:
+Open [Diesen x McGovern](../../notes/arc-mcgovern-diesen-host.md) first when the real question is:
 
 - how should Russia or Europe-order consequence be read
 - what does institutional memory say about elite strategic misreading

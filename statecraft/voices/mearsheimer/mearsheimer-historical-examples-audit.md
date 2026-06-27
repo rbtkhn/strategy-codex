@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Mearsheimer Historical Examples Audit
 
-Purpose: audit how John Mearsheimer uses historical examples across the routeable `mearsheimer-arc`, using exact Mearsheimer raw-input quotes as evidence and generic `civ-emp` buckets as the primary interpretive source base.
+Purpose: audit how John Mearsheimer uses historical examples across the routeable `arc-mearsheimer-continuity`, using exact Mearsheimer raw-input quotes as evidence and generic `civ-emp` buckets as the primary interpretive source base.
 
 Method note:
 

@@ -8,7 +8,7 @@ Open here when the question is not merely what Baud said in one appearance, but 
 
 ## Open First
 
-- [baud-arc.md](baud-arc.md)
+- [arc-baud-continuity.md](arc-baud-continuity.md)
 - [baud-thread-international-law.md](baud-thread-international-law.md)
 - [baud-helix.md](baud-helix.md)
 - [baud-surface-orthogonality-2026-05.md](baud-surface-orthogonality-2026-05.md)
@@ -20,7 +20,7 @@ Open here when the question is not merely what Baud said in one appearance, but 
 
 This shelf already has a genuine canonical structure:
 
-- [baud-arc.md](baud-arc.md) is the canonical person-level continuity surface
+- [arc-baud-continuity.md](arc-baud-continuity.md) is the canonical person-level continuity surface
 - [baud-thread-international-law.md](baud-thread-international-law.md) is a real canonical topical thread inside the broader Baud corpus
 - [baud-helix.md](baud-helix.md) is the crossing surface for reading recurring host transformations together
 
@@ -35,9 +35,9 @@ Do not flatten those two thread-shaped files together:
 
 Open the host-local arcs when the question is about how a specific host transforms Baud:
 
-- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
-- [Davis x Baud](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
+- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
+- [Davis x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
 
 ## Boundary
 

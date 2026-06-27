@@ -8,9 +8,9 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 
 ## Open First
 
-- [Speaker profile](ritter-profile.md) — identity, **Tier A** in-voice fingerprint, routing card; continuity → [ritter-arc.md](ritter-arc.md)
+- [Speaker profile](ritter-profile.md) — identity, **Tier A** in-voice fingerprint, routing card; continuity → [arc-ritter-continuity.md](arc-ritter-continuity.md)
 - [ritter-on-ai.md](../../notes/ritter-on-ai.md) — AI targeting / CHMR / Claude–Minab / Palantir–Lugansk; watch: [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
-- [ritter-arc.md](ritter-arc.md)
+- [arc-ritter-continuity.md](arc-ritter-continuity.md)
 - [ritter-routing.md](ritter-routing.md)
 - [ritter-source-index.md](ritter-source-index.md)
 - [ritter-helix.md](ritter-helix.md)
@@ -25,7 +25,7 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 
 Ritter's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [ritter-arc.md](ritter-arc.md) is the primary Statecraft Synthesis surface for Ritter continuity across authored and interview contexts.
+- **Person arc:** [arc-ritter-continuity.md](arc-ritter-continuity.md) is the primary Statecraft Synthesis surface for Ritter continuity across authored and interview contexts.
 - **Routing surface:** [ritter-routing.md](ritter-routing.md) answers which host lane or monthly shelf to open first.
 - **Source index:** [ritter-source-index.md](ritter-source-index.md) remains the exhaustive route map for materialized Ritter appearances.
 - **Crossing surface:** [ritter-helix.md](ritter-helix.md) explains the host triple helix and the authored/interview source-class split.
@@ -64,9 +64,9 @@ The legacy `statecraft/voices/ritter/` path is now front-door compatibility only
 
 ## Host Lanes
 
-- [Diesen x Ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../notes/arc-ritter-diesen-host.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../notes/arc-ritter-nima-host.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

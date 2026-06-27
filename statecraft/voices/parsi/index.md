@@ -7,32 +7,32 @@ Purpose: front door for the canonical Parsi statecraft shelf.
 ## Open First
 
 - [Speaker profile](parsi-profile.md)
-- [parsi-arc.md](parsi-arc.md)
+- [arc-parsi-continuity.md](arc-parsi-continuity.md)
 - [parsi-routing.md](parsi-routing.md)
 - [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - [parsi-source-index.md](parsi-source-index.md)
 - [parsi-helix.md](parsi-helix.md)
 - [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
-- [stream/parsi-march-2026-cross-context-arc.md](parsi-march-2026-cross-context-arc.md)
-- [stream/parsi-may-2026-cross-context-arc.md](parsi-may-2026-cross-context-arc.md)
-- [stream/parsi-june-2026-cross-context-arc.md](parsi-june-2026-cross-context-arc.md)
+- [stream/arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md)
+- [stream/arc-may-2026-cross-context-parsi-host.md](arc-may-2026-cross-context-parsi-host.md)
+- [stream/arc-june-2026-cross-context-parsi-host.md](arc-june-2026-cross-context-parsi-host.md)
 - [themes/README.md](README.md)
 
 ## Canonical Structure
 
 The orthogonality-bearing Parsi structure is:
 
-- [parsi-arc.md](parsi-arc.md)
+- [arc-parsi-continuity.md](arc-parsi-continuity.md)
 - [parsi-routing.md](parsi-routing.md)
 - [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - [parsi-speaker-object.md](parsi-speaker-object.md)
 - [parsi-helix.md](parsi-helix.md)
 - [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
-- [stream/parsi-march-2026-cross-context-arc.md](parsi-march-2026-cross-context-arc.md)
-- [stream/parsi-may-2026-cross-context-arc.md](parsi-may-2026-cross-context-arc.md)
-- [stream/parsi-june-2026-cross-context-arc.md](parsi-june-2026-cross-context-arc.md)
+- [stream/arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md)
+- [stream/arc-may-2026-cross-context-parsi-host.md](arc-may-2026-cross-context-parsi-host.md)
+- [stream/arc-june-2026-cross-context-parsi-host.md](arc-june-2026-cross-context-parsi-host.md)
 
 ## Main Context Routes
 

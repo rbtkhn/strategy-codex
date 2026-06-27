@@ -30,15 +30,15 @@ The older [stream/diesen-thread.md](diesen-thread.md) file is a legacy host-cont
 ## Stream Highlights
 
 - [stream/diesen-shelf-2026-04.md](diesen-shelf-2026-04.md)
-- [stream/diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/diesen-freeman-arc.md](diesen-freeman-arc.md) - embodied relational Freeman arc
-- [stream/diesen-johnson-speaker-arc.md](diesen-johnson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/diesen-marandi-speaker-arc.md](diesen-marandi-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/diesen-macgregor-speaker-arc.md](diesen-macgregor-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/diesen-mearsheimer-arc.md](diesen-mearsheimer-arc.md) - embodied relational arc
-- [stream/diesen-mercouris-speaker-arc.md](diesen-mercouris-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/diesen-ritter-speaker-arc.md](diesen-ritter-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/diesen-wilkerson-speaker-arc.md](diesen-wilkerson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/arc-crooke-diesen-host.md](arc-crooke-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [stream/arc-freeman-diesen-host.md](arc-freeman-diesen-host.md) - embodied relational Freeman arc
+- [stream/arc-johnson-diesen-host.md](arc-johnson-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [stream/arc-marandi-diesen-host.md](arc-marandi-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [stream/arc-macgregor-diesen-host.md](arc-macgregor-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [Diesen × Mearsheimer arc](../../notes/arc-mearsheimer-diesen-host.md) — embodied relational arc (notes shelf)
+- [stream/arc-mercouris-diesen-host.md](arc-mercouris-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [stream/arc-ritter-diesen-host.md](arc-ritter-diesen-host.md) - embodied relational arc in legacy compatibility spelling
+- [stream/arc-wilkerson-diesen-host.md](arc-wilkerson-diesen-host.md) - embodied relational arc in legacy compatibility spelling
 
 ## Boundary
 

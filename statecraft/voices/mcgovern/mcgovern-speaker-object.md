@@ -33,8 +33,8 @@ McGovern carries a distinct utility profile:
 
 McGovern should currently be read as a **double-helix speaker object**:
 
-- [Diesen x McGovern](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md)
-- [Alkorshid x McGovern](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md)
+- [Diesen x McGovern](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-diesen-host.md)
+- [Alkorshid x McGovern](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-nima-host.md)
 
 That means:
 
@@ -55,11 +55,11 @@ See [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/mcgov
 
 If the operator needs the clearest current strategic branch:
 
-- open [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md)
+- open [arc-mcgovern-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-diesen-host.md)
 
 If the operator needs the clearest current live-pressure branch:
 
-- open [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md)
+- open [arc-mcgovern-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-nima-host.md)
 
 If the operator needs the strongest current Diesen anchor:
 

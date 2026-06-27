@@ -18,9 +18,9 @@ The dense April-May 2026 thread atlas lives in [stream/johnson-april-may-2026-ar
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [Diesen x Johnson](../../../statecraft/voices/diesen/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, and wider order consequence |
+| [Diesen x Johnson](../../notes/arc-johnson-diesen-host.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, and wider order consequence |
 | [Davis host shelf](../../channels/daniel-davis/README.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage |
-| [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, and humiliation tempo |
+| [Dialogue Works x Johnson](../../notes/arc-johnson-nima-host.md) | Live crisis pressure | Strike escalation, Hormuz stress, and humiliation tempo |
 
 Auxiliary reinforcement:
 

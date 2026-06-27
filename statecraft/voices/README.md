@@ -361,7 +361,8 @@ Instead:
 **Effective 2026-06:** every speaker shelf root is **flat**.
 
 - `statecraft/voices/<speaker>/` contains **files only** — no subdirectories under a speaker folder.
-- Monthly synthesis shelves (`{speaker}-shelf-YYYY-MM.md`), guest arcs (`{speaker}-{guest}-speaker-arc.md`), theme registers (`{speaker}-themes.md`), and thread atlases use **filename grammar**, not `stream/` or `themes/` nesting.
+- Monthly synthesis shelves (`{speaker}-shelf-YYYY-MM.md`), theme registers (`{speaker}-themes.md`), and thread atlases use **filename grammar**, not `stream/` or `themes/` nesting.
+- **Host×guest and speaker arcs** → canonical bodies in [`statecraft/notes/`](../notes/README.md) (`arc-<primary>-<topic>.md`); shelf paths keep **compat redirects** only.
 - Legacy paths `voices/<speaker>/stream/` and `voices/<speaker>/themes/` are **terminated** — use flat paths only.
 - Root meta under `voices/` (`_scratch/`, `_templates/`, `map/`, `relations/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only.
 

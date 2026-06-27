@@ -11,7 +11,7 @@ The shelf is intentionally a lighter first pass. Sachs is already a real cross-h
 ## Open First
 
 - [sachs-on-ai.md](../../notes/sachs-on-ai.md) — bounded AI thesis (Palantir, first AI wars, China factory AI)
-- [sachs-arc.md](sachs-arc.md)
+- [arc-sachs-continuity.md](arc-sachs-continuity.md)
 - [sachs-routing.md](sachs-routing.md)
 - [sachs-source-index.md](sachs-source-index.md)
 - [sachs-helix.md](sachs-helix.md)
@@ -21,7 +21,7 @@ The shelf is intentionally a lighter first pass. Sachs is already a real cross-h
 
 Sachs's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [sachs-arc.md](sachs-arc.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 war-pressure cluster.
+- **Person arc:** [arc-sachs-continuity.md](arc-sachs-continuity.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 war-pressure cluster.
 - **Routing surface:** [sachs-routing.md](sachs-routing.md) answers which host lane or source file to open first for a given Sachs use.
 - **Source index:** [sachs-source-index.md](sachs-source-index.md) is the canonical route map for materialized Sachs appearances and the smaller set of anchors that explain the shelf shape.
 - **Cross-host note:** [sachs-helix.md](sachs-helix.md) explains the real branch balance and why Diesen remains primary while Napolitano is now materially real.

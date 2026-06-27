@@ -17,12 +17,12 @@ The May shelf therefore acts as the live routing surface for April-May Napolitan
 ## Open first
 
 - [napolitano-thread.md](napolitano-thread.md)
-- [napolitano-johnson-speaker-arc.md](napolitano-johnson-speaker-arc.md)
-- [napolitano-ritter-speaker-arc.md](napolitano-ritter-speaker-arc.md)
-- [napolitano-macgregor-speaker-arc.md](napolitano-macgregor-speaker-arc.md)
-- [napolitano-mearsheimer-arc.md](napolitano-mearsheimer-arc.md)
-- [napolitano-freeman-arc.md](napolitano-freeman-arc.md)
-- [napolitano-wilkerson-speaker-arc.md](napolitano-wilkerson-speaker-arc.md)
+- [arc-johnson-napolitano-host.md](arc-johnson-napolitano-host.md)
+- [arc-ritter-napolitano-host.md](arc-ritter-napolitano-host.md)
+- [arc-macgregor-napolitano-host.md](arc-macgregor-napolitano-host.md)
+- [arc-mearsheimer-napolitano-host.md](arc-mearsheimer-napolitano-host.md)
+- [arc-freeman-napolitano-host.md](arc-freeman-napolitano-host.md)
+- [arc-wilkerson-napolitano-host.md](arc-wilkerson-napolitano-host.md)
 
 ## Boundary
 

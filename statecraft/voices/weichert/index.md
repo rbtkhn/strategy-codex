@@ -7,7 +7,7 @@ Purpose: front door for the canonical Weichert statecraft shelf (seed maturity).
 ## Open First
 
 - [Speaker profile](weichert-profile.md)
-- [Weichert arc](weichert-arc.md)
+- [Weichert arc](arc-weichert-continuity.md)
 - [Weichert routing](weichert-routing.md)
 - [Source index](weichert-source-index.md)
 - [Shelf README](README.md)

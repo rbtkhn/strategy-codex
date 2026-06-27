@@ -26,7 +26,7 @@ Discovery and routing base:
 - [Macgregor README](README.md)
 - [Macgregor index](index.md)
 - [Macgregor source index](macgregor-source-index.md)
-- [Macgregor arc](macgregor-arc.md)
+- [Macgregor arc](arc-macgregor-continuity.md)
 - [Macgregor helix](macgregor-helix.md)
 - [Macgregor support spine](macgregor-support-spine-2025-2026.md)
 - [Macgregor monthly shelves]()

@@ -48,8 +48,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 - In this repo, guest speaker arcs belong to the **host stream** unless an existing taxonomy explicitly says otherwise.
 - Current reference pattern:
-  - [diesen-matlock-speaker-arc.md](../../statecraft/voices/diesen/diesen-matlock-speaker-arc.md)
-  - [diesen-jiang-speaker-arc.md](../../statecraft/voices/diesen/diesen-jiang-speaker-arc.md)
+  - [arc-matlock-diesen-host.md](../../statecraft/notes/arc-matlock-diesen-host.md)
+  - [arc-jiang-diesen-host.md](../../statecraft/notes/arc-jiang-diesen-host.md)
 - The lattice and `thread:` roster may cite the speaker arc, but the note itself should not invent a new shelf or corpus boundary.
 
 **Common local command pattern**

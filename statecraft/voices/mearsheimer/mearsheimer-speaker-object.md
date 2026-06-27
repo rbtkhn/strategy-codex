@@ -8,7 +8,7 @@ Purpose: define John Mearsheimer as a first-class speaker object while keeping c
 
 ## Object shape
 
-Mearsheimer should currently be read as a **person-arc-first speaker object**: [mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md) holds the canonical speaker continuity, [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md) compares the two core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
+Mearsheimer should currently be read as a **person-arc-first speaker object**: [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md) holds the canonical speaker continuity, [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md) compares the two core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
 
 ## Core claim
 
@@ -16,13 +16,13 @@ Mearsheimer is a durable speaker object in this notebook because his appearances
 
 He should be read primarily as a **person-arc-first** object:
 
-- `mearsheimer-arc` holds the whole-speaker continuity surface
+- `arc-mearsheimer-continuity` holds the whole-speaker continuity surface
 - the speaker folder holds identity and routing
 - the helix holds cross-host comparison across the stable double-helix core
 - host-local arcs hold chronology and pressure context
 - the raw-input shelf holds transcript evidence
 
-This note is a routing-oriented object statement. It does not replace [mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md), [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md), or [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md).
+This note is a routing-oriented object statement. It does not replace [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md), [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md), or [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md).
 
 For the wider cross-host surface beyond the two core host lanes, open [Mearsheimer index](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/index.md) and [Mearsheimer source index](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-source-index.md). Use the shelf as a ladder: `core host lane` / `reinforcing orbit` / `non-core appearance bench`.
 
@@ -54,7 +54,7 @@ For routing:
 
 For whole-speaker continuity:
 
-- [mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md)
+- [arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md)
 
 For object shape:
 

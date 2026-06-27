@@ -4,11 +4,11 @@ WORK only; not Record.
 
 ## Purpose
 
-Turn the strongest China-facing examples in `freeman-arc` into upstream seeds for the China volume build.
+Turn the strongest China-facing examples in `arc-freeman-continuity` into upstream seeds for the China volume build.
 
 This note exists to create a recursive loop inside `strategy-codex`:
 
-- `freeman-arc` produces historically disciplined China provocations
+- `arc-freeman-continuity` produces historically disciplined China provocations
 - the China lane tests and deepens them against helix and strand surfaces
 - the resulting volume spine or chapter drafts can then feed back into later speaker-side interpretation
 
@@ -101,7 +101,7 @@ Best use:
 
 Primary Freeman continuity surface:
 
-- [Freeman arc](freeman-arc.md)
+- [Freeman arc](arc-freeman-continuity.md)
 
 Why it matters:
 

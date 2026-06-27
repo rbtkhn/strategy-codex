@@ -66,7 +66,7 @@ Why:
 - the likely remaining missing object is small enough to hunt without reopening the whole month
 - the current Parsi month story still reads as coherent but slightly thin in exactly the place where late-May authored architecture should sit
 
-Use [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md) plus [parsi-wilkerson-may-2026-backfill-attention.md](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) as the live closure surfaces.
+Use [arc-may-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-may-2026-cross-context-parsi-host.md) plus [parsi-wilkerson-may-2026-backfill-attention.md](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) as the live closure surfaces.
 
 ## Operational consequence
 

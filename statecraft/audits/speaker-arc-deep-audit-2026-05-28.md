@@ -127,7 +127,7 @@ Representative files:
 
 - [statecraft/voices/crooke/crooke-source-index.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-source-index.md)
 - [statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md)
-- [statecraft/voices/mercouris/mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-arc-threads.md)
+- [statecraft/voices/mercouris/arc-mercouris-continuity-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/arc-mercouris-continuity-threads.md)
 - [statecraft/voices/mercouris/mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-shelf-2026-01.md)
 - [statecraft/voices/macgregor/macgregor-source-index.md](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-source-index.md)
 - [statecraft/voices/ritter/ritter-source-index.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-source-index.md)
@@ -158,7 +158,7 @@ Representative failure patterns:
 - `/C:/dev/strategy-codex/codex/years/2026/provenance/...`
 - `mercouris-thread.md`
 - `mercouris-page-2026-04-05.md`
-- `../diesen/diesen-crooke-speaker-arc.md`
+- `../diesen/arc-crooke-diesen-host.md`
 - `../../academy/statecraft/states/...`
 
 ### [P1] Top-level doctrine is missing two real shelf classes that now exist on disk
@@ -204,7 +204,7 @@ Examples of especially tidy front doors:
 Examples of format irregularity:
 
 - [statecraft/voices/hoh/README.md](/C:/dev/strategy-codex/statecraft/voices/hoh/README.md) places the H1 before the `WORK only; not Record.` fence and uses `Open first:` / `Boundary:` prose instead of the standard `##` sections
-- several top-level non-README canonical surfaces omit the work fence entirely even within the same mature shelves, for example [statecraft/voices/crooke/crooke-arc.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-arc.md) and [statecraft/voices/mercouris/mercouris-routing.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-routing.md)
+- several top-level non-README canonical surfaces omit the work fence entirely even within the same mature shelves, for example [statecraft/notes/arc-crooke-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-crooke-continuity.md) and [statecraft/voices/mercouris/mercouris-routing.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-routing.md)
 
 ### [P2] Cross-host connectivity is under-owned
 

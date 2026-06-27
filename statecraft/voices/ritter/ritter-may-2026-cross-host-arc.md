@@ -1,10 +1,7 @@
-# Ritter May 2026 cross-host arc
+# arc-may-2026-cross-host-ritter-host (compat redirect)
 
 WORK only; not Record.
 
-Compatibility note: the canonical bounded May 2026 Ritter synthesis shelf now
-lives at
-[statecraft/voices/ritter/ritter-shelf-2026-05.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-shelf-2026-05.md).
+**Canonical:** [arc-may-2026-cross-host-ritter-host.md](../../notes/arc-may-2026-cross-host-ritter-host.md)
 
-This codex-side file is compatibility residue only. Use the statecraft-side
-month shelf for canonical May 2026 speaker synthesis.
+Legacy path: `statecraft/voices/ritter/ritter-may-2026-cross-host-arc.md` — Pointer only; do not duplicate arc bodies here.

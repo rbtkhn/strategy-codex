@@ -7,7 +7,7 @@ Purpose: front door for the canonical Baud shelf, separating person-level contin
 ## Open First
 
 - [README.md](README.md)
-- [baud-arc.md](baud-arc.md)
+- [arc-baud-continuity.md](arc-baud-continuity.md)
 - [baud-thread-international-law.md](baud-thread-international-law.md)
 - [baud-helix.md](baud-helix.md)
 - [baud-cross-year-note.md](baud-cross-year-note.md)
@@ -18,7 +18,7 @@ Purpose: front door for the canonical Baud shelf, separating person-level contin
 
 Baud's orthogonality-bearing structure is:
 
-- [baud-arc.md](baud-arc.md) for person-level continuity
+- [arc-baud-continuity.md](arc-baud-continuity.md) for person-level continuity
 - [baud-thread-international-law.md](baud-thread-international-law.md) for one real bounded recurring strand inside the broader Baud corpus
 - [baud-helix.md](baud-helix.md) for cross-host comparison of the major host transformations
 
@@ -26,9 +26,9 @@ Do not read [baud-thread.md](baud-thread.md) as a second competing topical-threa
 
 ## Host-Local Routes
 
-- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
-- [Davis x Baud](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
+- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
+- [Davis x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
 
 ## Boundary
 

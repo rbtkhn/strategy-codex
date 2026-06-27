@@ -38,7 +38,7 @@ Reason:
    Working title: `The US and Iran are on the verge of a deal, and the warmongers hate it`
    Status: `missing`
    Why it matters: this would fill the current authored late-May architecture / settlement bridge between the blockade-collapse opening and the final live-deal interview pressure.
-   Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md) and [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
+   Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md) and [arc-may-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-may-2026-cross-context-parsi-host.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
 
 2. `2026-05-06`
    Host/source family: `Duran / Mercouris`
@@ -124,7 +124,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 - update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md) for authored additions
 - update [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md) for any distinct host-owned appearance
-- update [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md) so May no longer reads as an artificially thin bridge month
+- update [arc-may-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-may-2026-cross-context-parsi-host.md) so May no longer reads as an artificially thin bridge month
 
 ### If Parsi lands nothing new
 

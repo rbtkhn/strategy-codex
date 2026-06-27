@@ -1,0 +1,1179 @@
+{
+  "dry_run": false,
+  "promotions": [
+    {
+      "from": "statecraft/channels/daniel-davis/davis-barnes-speaker-arc.md",
+      "to": "statecraft/notes/arc-barnes-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-barnes-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-baud-arc.md",
+      "to": "statecraft/notes/arc-baud-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-baud-arc.md",
+        "statecraft/channels/daniel-davis/davis-baud-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md",
+      "to": "statecraft/notes/arc-crooke-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-freeman-arc.md",
+      "to": "statecraft/notes/arc-freeman-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-freeman-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-jermy-speaker-arc.md",
+      "to": "statecraft/notes/arc-jermy-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-jermy-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-johnson-speaker-arc.md",
+      "to": "statecraft/notes/arc-johnson-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-johnson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-kent-speaker-arc.md",
+      "to": "statecraft/notes/arc-kent-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-kent-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md",
+      "to": "statecraft/notes/arc-macgregor-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md",
+      "to": "statecraft/notes/arc-marandi-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md",
+      "to": "statecraft/notes/arc-martyanov-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-mercouris-speaker-arc.md",
+      "to": "statecraft/notes/arc-mercouris-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-mercouris-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-postol-speaker-arc.md",
+      "to": "statecraft/notes/arc-postol-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-postol-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/daniel-davis/davis-ritter-speaker-arc.md",
+      "to": "statecraft/notes/arc-ritter-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-ritter-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-aguilar-speaker-arc.md",
+      "to": "statecraft/notes/arc-aguilar-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-aguilar-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md",
+      "to": "statecraft/notes/arc-armstrong-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-baud-arc.md",
+      "to": "statecraft/notes/arc-baud-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-baud-arc.md",
+        "statecraft/channels/dialogue-works/nima-baud-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md",
+      "to": "statecraft/notes/arc-crooke-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-freeman-arc.md",
+      "to": "statecraft/notes/arc-freeman-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-freeman-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md",
+      "to": "statecraft/notes/arc-johnson-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md",
+      "to": "statecraft/notes/arc-marandi-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-martyanov-speaker-arc.md",
+      "to": "statecraft/notes/arc-martyanov-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-martyanov-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md",
+      "to": "statecraft/notes/arc-mcgovern-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-postol-speaker-arc.md",
+      "to": "statecraft/notes/arc-postol-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-postol-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md",
+      "to": "statecraft/notes/arc-ritter-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md",
+      "to": "statecraft/notes/arc-wilkerson-nima-host.md",
+      "stubs": [
+        "statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-freeman-arc.md",
+      "to": "statecraft/notes/arc-freeman-napolitano-host.md",
+      "stubs": [
+        "statecraft/channels/judging-freedom/napolitano-freeman-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-johnson-speaker-arc.md",
+      "to": "statecraft/notes/arc-johnson-napolitano-host.md",
+      "stubs": [
+        "statecraft/channels/judging-freedom/napolitano-johnson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md",
+      "to": "statecraft/notes/arc-macgregor-napolitano-host.md",
+      "stubs": [
+        "statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md",
+      "to": "statecraft/notes/arc-ritter-napolitano-host.md",
+      "stubs": [
+        "statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md",
+      "to": "statecraft/notes/arc-wilkerson-napolitano-host.md",
+      "stubs": [
+        "statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/barnes/barnes-arc.md",
+      "to": "statecraft/notes/arc-barnes-continuity.md",
+      "stubs": [
+        "statecraft/voices/barnes/barnes-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/baud/baud-arc.md",
+      "to": "statecraft/notes/arc-baud-continuity.md",
+      "stubs": [
+        "statecraft/voices/baud/baud-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/crooke/crooke-arc.md",
+      "to": "statecraft/notes/arc-crooke-continuity.md",
+      "stubs": [
+        "statecraft/voices/crooke/crooke-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/crooke/crooke-april-2026-interview-cross-host-arc.md",
+      "to": "statecraft/notes/arc-april-2026-interview-cross-host-crooke-host.md",
+      "stubs": [
+        "statecraft/voices/crooke/crooke-april-2026-interview-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/crooke/crooke-march-2026-interview-cross-host-arc.md",
+      "to": "statecraft/notes/arc-march-2026-interview-cross-host-crooke-host.md",
+      "stubs": [
+        "statecraft/voices/crooke/crooke-march-2026-interview-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/crooke/crooke-may-2026-interview-cross-host-arc.md",
+      "to": "statecraft/notes/arc-may-2026-interview-cross-host-crooke-host.md",
+      "stubs": [
+        "statecraft/voices/crooke/crooke-may-2026-interview-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-baud-arc.md",
+      "to": "statecraft/notes/arc-baud-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-baud-arc.md",
+        "statecraft/voices/diesen/diesen-baud-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-beebe-speaker-arc.md",
+      "to": "statecraft/notes/arc-beebe-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-beebe-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-berletic-speaker-arc.md",
+      "to": "statecraft/notes/arc-berletic-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-berletic-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-crooke-speaker-arc.md",
+      "to": "statecraft/notes/arc-crooke-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-crooke-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-freeman-arc.md",
+      "to": "statecraft/notes/arc-freeman-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-freeman-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-jermy-speaker-arc.md",
+      "to": "statecraft/notes/arc-jermy-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-jermy-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-jiang-speaker-arc.md",
+      "to": "statecraft/notes/arc-jiang-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-jiang-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-johnson-speaker-arc.md",
+      "to": "statecraft/notes/arc-johnson-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-johnson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-karaganov-speaker-arc.md",
+      "to": "statecraft/notes/arc-karaganov-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-karaganov-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-kent-speaker-arc.md",
+      "to": "statecraft/notes/arc-kent-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-kent-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-krainer-speaker-arc.md",
+      "to": "statecraft/notes/arc-krainer-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-krainer-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-macgregor-speaker-arc.md",
+      "to": "statecraft/notes/arc-macgregor-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-macgregor-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-marandi-speaker-arc.md",
+      "to": "statecraft/notes/arc-marandi-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-marandi-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-martyanov-speaker-arc.md",
+      "to": "statecraft/notes/arc-martyanov-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-martyanov-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-matlock-speaker-arc.md",
+      "to": "statecraft/notes/arc-matlock-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-matlock-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md",
+      "to": "statecraft/notes/arc-mcgovern-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-mercouris-speaker-arc.md",
+      "to": "statecraft/notes/arc-mercouris-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-mercouris-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-postol-speaker-arc.md",
+      "to": "statecraft/notes/arc-postol-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-postol-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-ritter-speaker-arc.md",
+      "to": "statecraft/notes/arc-ritter-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-ritter-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md",
+      "to": "statecraft/notes/arc-wilkerson-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/freeman/freeman-arc.md",
+      "to": "statecraft/notes/arc-freeman-continuity.md",
+      "stubs": [
+        "statecraft/voices/freeman/freeman-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-april-2026-cross-host-freeman-host.md",
+      "stubs": [
+        "statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-march-2026-cross-host-freeman-host.md",
+      "stubs": [
+        "statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/freeman/freeman-may-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-may-2026-cross-host-freeman-host.md",
+      "stubs": [
+        "statecraft/voices/freeman/freeman-may-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md",
+      "to": "statecraft/notes/arc-jermy-peacemonger-host.md",
+      "stubs": [
+        "statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/jiang/jiang-arc.md",
+      "to": "statecraft/notes/arc-jiang-continuity.md",
+      "stubs": [
+        "statecraft/voices/jiang/jiang-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/johnson/johnson-arc.md",
+      "to": "statecraft/notes/arc-johnson-continuity.md",
+      "stubs": [
+        "statecraft/voices/johnson/johnson-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/johnson/johnson-april-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-april-2026-cross-host-johnson-host.md",
+      "stubs": [
+        "statecraft/voices/johnson/johnson-april-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/johnson/johnson-march-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-march-2026-cross-host-johnson-host.md",
+      "stubs": [
+        "statecraft/voices/johnson/johnson-march-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/johnson/johnson-may-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-may-2026-cross-host-johnson-host.md",
+      "stubs": [
+        "statecraft/voices/johnson/johnson-may-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/karaganov/karaganov-arc.md",
+      "to": "statecraft/notes/arc-karaganov-continuity.md",
+      "stubs": [
+        "statecraft/voices/karaganov/karaganov-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/kent/carlson-kent-speaker-arc.md",
+      "to": "statecraft/notes/arc-kent-carlson-host.md",
+      "stubs": [
+        "statecraft/voices/kent/carlson-kent-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/kent/nawfal-kent-speaker-arc.md",
+      "to": "statecraft/notes/arc-kent-nawfal-host.md",
+      "stubs": [
+        "statecraft/voices/kent/nawfal-kent-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/macgregor/macgregor-arc.md",
+      "to": "statecraft/notes/arc-macgregor-continuity.md",
+      "stubs": [
+        "statecraft/voices/macgregor/macgregor-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/marandi/marandi-arc.md",
+      "to": "statecraft/notes/arc-marandi-continuity.md",
+      "stubs": [
+        "statecraft/voices/marandi/marandi-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/marandi/marandi-april-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-april-2026-cross-host-marandi-host.md",
+      "stubs": [
+        "statecraft/voices/marandi/marandi-april-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/marandi/marandi-may-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-may-2026-cross-host-marandi-host.md",
+      "stubs": [
+        "statecraft/voices/marandi/marandi-may-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/martyanov/martyanov-arc.md",
+      "to": "statecraft/notes/arc-martyanov-continuity.md",
+      "stubs": [
+        "statecraft/voices/martyanov/martyanov-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/mcgovern/mcgovern-arc.md",
+      "to": "statecraft/notes/arc-mcgovern-continuity.md",
+      "stubs": [
+        "statecraft/voices/mcgovern/mcgovern-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-continuity.md",
+      "stubs": [
+        "statecraft/voices/mearsheimer/mearsheimer-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/mercouris/mercouris-arc.md",
+      "to": "statecraft/notes/arc-mercouris-continuity.md",
+      "stubs": [
+        "statecraft/voices/mercouris/mercouris-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/pape/pape-arc.md",
+      "to": "statecraft/notes/arc-pape-continuity.md",
+      "stubs": [
+        "statecraft/voices/pape/pape-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/parsi/parsi-arc.md",
+      "to": "statecraft/notes/arc-parsi-continuity.md",
+      "stubs": [
+        "statecraft/voices/parsi/parsi-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/parsi/parsi-june-2026-cross-context-arc.md",
+      "to": "statecraft/notes/arc-june-2026-cross-context-parsi-host.md",
+      "stubs": [
+        "statecraft/voices/parsi/parsi-june-2026-cross-context-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/parsi/parsi-march-2026-cross-context-arc.md",
+      "to": "statecraft/notes/arc-march-2026-cross-context-parsi-host.md",
+      "stubs": [
+        "statecraft/voices/parsi/parsi-march-2026-cross-context-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md",
+      "to": "statecraft/notes/arc-may-2026-cross-context-parsi-host.md",
+      "stubs": [
+        "statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/postol/postol-arc.md",
+      "to": "statecraft/notes/arc-postol-continuity.md",
+      "stubs": [
+        "statecraft/voices/postol/postol-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/ritter/ritter-arc.md",
+      "to": "statecraft/notes/arc-ritter-continuity.md",
+      "stubs": [
+        "statecraft/voices/ritter/ritter-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/ritter/ritter-april-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-april-2026-cross-host-ritter-host.md",
+      "stubs": [
+        "statecraft/voices/ritter/ritter-april-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/ritter/ritter-march-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-march-2026-cross-host-ritter-host.md",
+      "stubs": [
+        "statecraft/voices/ritter/ritter-march-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/ritter/ritter-may-2026-cross-host-arc.md",
+      "to": "statecraft/notes/arc-may-2026-cross-host-ritter-host.md",
+      "stubs": [
+        "statecraft/voices/ritter/ritter-may-2026-cross-host-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/sachs/sachs-arc.md",
+      "to": "statecraft/notes/arc-sachs-continuity.md",
+      "stubs": [
+        "statecraft/voices/sachs/sachs-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/weichert/weichert-arc.md",
+      "to": "statecraft/notes/arc-weichert-continuity.md",
+      "stubs": [
+        "statecraft/voices/weichert/weichert-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/wilkerson/wilkerson-arc.md",
+      "to": "statecraft/notes/arc-wilkerson-continuity.md",
+      "stubs": [
+        "statecraft/voices/wilkerson/wilkerson-arc.md"
+      ]
+    }
+  ],
+  "stubs": [
+    "statecraft/channels/daniel-davis/davis-barnes-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-baud-arc.md",
+    "statecraft/channels/daniel-davis/davis-baud-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-freeman-arc.md",
+    "statecraft/channels/daniel-davis/davis-jermy-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-johnson-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-kent-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-mercouris-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-postol-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-ritter-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-aguilar-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-baud-arc.md",
+    "statecraft/channels/dialogue-works/nima-baud-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-freeman-arc.md",
+    "statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-martyanov-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-postol-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-freeman-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-johnson-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md",
+    "statecraft/voices/barnes/barnes-arc.md",
+    "statecraft/voices/baud/baud-arc.md",
+    "statecraft/voices/crooke/crooke-arc.md",
+    "statecraft/voices/crooke/crooke-april-2026-interview-cross-host-arc.md",
+    "statecraft/voices/crooke/crooke-march-2026-interview-cross-host-arc.md",
+    "statecraft/voices/crooke/crooke-may-2026-interview-cross-host-arc.md",
+    "statecraft/voices/diesen/diesen-baud-arc.md",
+    "statecraft/voices/diesen/diesen-baud-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-beebe-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-berletic-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-crooke-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-freeman-arc.md",
+    "statecraft/voices/diesen/diesen-jermy-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-jiang-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-johnson-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-karaganov-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-kent-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-krainer-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-macgregor-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-marandi-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-martyanov-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-matlock-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-mercouris-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-postol-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-ritter-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md",
+    "statecraft/voices/freeman/freeman-arc.md",
+    "statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md",
+    "statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md",
+    "statecraft/voices/freeman/freeman-may-2026-cross-host-arc.md",
+    "statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md",
+    "statecraft/voices/jiang/jiang-arc.md",
+    "statecraft/voices/johnson/johnson-arc.md",
+    "statecraft/voices/johnson/johnson-april-2026-cross-host-arc.md",
+    "statecraft/voices/johnson/johnson-march-2026-cross-host-arc.md",
+    "statecraft/voices/johnson/johnson-may-2026-cross-host-arc.md",
+    "statecraft/voices/karaganov/karaganov-arc.md",
+    "statecraft/voices/kent/carlson-kent-speaker-arc.md",
+    "statecraft/voices/kent/nawfal-kent-speaker-arc.md",
+    "statecraft/voices/macgregor/macgregor-arc.md",
+    "statecraft/voices/marandi/marandi-arc.md",
+    "statecraft/voices/marandi/marandi-april-2026-cross-host-arc.md",
+    "statecraft/voices/marandi/marandi-may-2026-cross-host-arc.md",
+    "statecraft/voices/martyanov/martyanov-arc.md",
+    "statecraft/voices/mcgovern/mcgovern-arc.md",
+    "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+    "statecraft/voices/mercouris/mercouris-arc.md",
+    "statecraft/voices/pape/pape-arc.md",
+    "statecraft/voices/parsi/parsi-arc.md",
+    "statecraft/voices/parsi/parsi-june-2026-cross-context-arc.md",
+    "statecraft/voices/parsi/parsi-march-2026-cross-context-arc.md",
+    "statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md",
+    "statecraft/voices/postol/postol-arc.md",
+    "statecraft/voices/ritter/ritter-arc.md",
+    "statecraft/voices/ritter/ritter-april-2026-cross-host-arc.md",
+    "statecraft/voices/ritter/ritter-march-2026-cross-host-arc.md",
+    "statecraft/voices/ritter/ritter-may-2026-cross-host-arc.md",
+    "statecraft/voices/sachs/sachs-arc.md",
+    "statecraft/voices/weichert/weichert-arc.md",
+    "statecraft/voices/wilkerson/wilkerson-arc.md"
+  ],
+  "skipped": [
+    {
+      "from": "statecraft/channels/daniel-davis/davis-mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-davis-host.md",
+      "stubs": [
+        "statecraft/channels/daniel-davis/davis-mearsheimer-arc.md",
+        "statecraft/channels/daniel-davis/davis-mearsheimer-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-napolitano-host.md",
+      "stubs": [
+        "statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md",
+        "statecraft/channels/judging-freedom/napolitano-mearsheimer-speaker-arc.md"
+      ]
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-diesen-host.md",
+      "stubs": [
+        "statecraft/voices/diesen/diesen-mearsheimer-arc.md",
+        "statecraft/voices/diesen/diesen-mearsheimer-speaker-arc.md"
+      ]
+    }
+  ],
+  "rewrites": [
+    "statecraft/audits/credibility/wilkerson-credibility-profile.md",
+    "statecraft/audits/speaker-arc-deep-audit-2026-05-28.md",
+    "statecraft/bridges/marandi-civ-state-retrieval-adapter.md",
+    "statecraft/bridges/parsi-civ-state-retrieval-adapter.md",
+    "statecraft/channels/daniel-davis/davis-barnes-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-baud-arc.md",
+    "statecraft/channels/daniel-davis/davis-baud-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-freeman-arc.md",
+    "statecraft/channels/daniel-davis/davis-host-wiring-2026.md",
+    "statecraft/channels/daniel-davis/davis-jermy-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-johnson-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-kent-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-mearsheimer-arc.md",
+    "statecraft/channels/daniel-davis/davis-mearsheimer-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-mercouris-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-postol-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-ritter-speaker-arc.md",
+    "statecraft/channels/daniel-davis/davis-speaker-object.md",
+    "statecraft/channels/dialogue-works/nima-aguilar-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-baud-arc.md",
+    "statecraft/channels/dialogue-works/nima-baud-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-freeman-arc.md",
+    "statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-lane-map-2026-06.md",
+    "statecraft/channels/dialogue-works/nima-marandi-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-martyanov-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-postol-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md",
+    "statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-book-2026-03.md",
+    "statecraft/channels/judging-freedom/napolitano-book-2026-04.md",
+    "statecraft/channels/judging-freedom/napolitano-book-2026-05.md",
+    "statecraft/channels/judging-freedom/napolitano-freeman-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-johnson-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-mearsheimer-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-speaker-object.md",
+    "statecraft/channels/judging-freedom/napolitano-thread.md",
+    "statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md",
+    "statecraft/notes/arc-aguilar-nima-host.md",
+    "statecraft/notes/arc-april-2026-cross-host-freeman-host.md",
+    "statecraft/notes/arc-april-2026-cross-host-johnson-host.md",
+    "statecraft/notes/arc-april-2026-cross-host-marandi-host.md",
+    "statecraft/notes/arc-april-2026-cross-host-ritter-host.md",
+    "statecraft/notes/arc-april-2026-interview-cross-host-crooke-host.md",
+    "statecraft/notes/arc-armstrong-nima-host.md",
+    "statecraft/notes/arc-barnes-continuity.md",
+    "statecraft/notes/arc-barnes-davis-host.md",
+    "statecraft/notes/arc-baud-continuity.md",
+    "statecraft/notes/arc-baud-davis-host.md",
+    "statecraft/notes/arc-baud-diesen-host.md",
+    "statecraft/notes/arc-baud-nima-host.md",
+    "statecraft/notes/arc-beebe-diesen-host.md",
+    "statecraft/notes/arc-berletic-diesen-host.md",
+    "statecraft/notes/arc-crooke-continuity.md",
+    "statecraft/notes/arc-crooke-davis-host.md",
+    "statecraft/notes/arc-crooke-diesen-host.md",
+    "statecraft/notes/arc-crooke-nima-host.md",
+    "statecraft/notes/arc-freeman-continuity.md",
+    "statecraft/notes/arc-freeman-davis-host.md",
+    "statecraft/notes/arc-freeman-diesen-host.md",
+    "statecraft/notes/arc-freeman-napolitano-host.md",
+    "statecraft/notes/arc-freeman-nima-host.md",
+    "statecraft/notes/arc-jermy-davis-host.md",
+    "statecraft/notes/arc-jermy-diesen-host.md",
+    "statecraft/notes/arc-jermy-peacemonger-host.md",
+    "statecraft/notes/arc-jiang-continuity.md",
+    "statecraft/notes/arc-jiang-diesen-host.md",
+    "statecraft/notes/arc-johnson-continuity.md",
+    "statecraft/notes/arc-johnson-davis-host.md",
+    "statecraft/notes/arc-johnson-diesen-host.md",
+    "statecraft/notes/arc-johnson-napolitano-host.md",
+    "statecraft/notes/arc-johnson-nima-host.md",
+    "statecraft/notes/arc-june-2026-cross-context-parsi-host.md",
+    "statecraft/notes/arc-karaganov-continuity.md",
+    "statecraft/notes/arc-karaganov-diesen-host.md",
+    "statecraft/notes/arc-kent-carlson-host.md",
+    "statecraft/notes/arc-kent-davis-host.md",
+    "statecraft/notes/arc-kent-diesen-host.md",
+    "statecraft/notes/arc-kent-nawfal-host.md",
+    "statecraft/notes/arc-krainer-diesen-host.md",
+    "statecraft/notes/arc-macgregor-continuity.md",
+    "statecraft/notes/arc-macgregor-davis-host.md",
+    "statecraft/notes/arc-macgregor-diesen-host.md",
+    "statecraft/notes/arc-macgregor-napolitano-host.md",
+    "statecraft/notes/arc-marandi-continuity.md",
+    "statecraft/notes/arc-marandi-davis-host.md",
+    "statecraft/notes/arc-marandi-diesen-host.md",
+    "statecraft/notes/arc-marandi-nima-host.md",
+    "statecraft/notes/arc-march-2026-cross-context-parsi-host.md",
+    "statecraft/notes/arc-march-2026-cross-host-freeman-host.md",
+    "statecraft/notes/arc-march-2026-cross-host-johnson-host.md",
+    "statecraft/notes/arc-march-2026-cross-host-ritter-host.md",
+    "statecraft/notes/arc-march-2026-interview-cross-host-crooke-host.md",
+    "statecraft/notes/arc-martyanov-continuity.md",
+    "statecraft/notes/arc-martyanov-davis-host.md",
+    "statecraft/notes/arc-martyanov-diesen-host.md",
+    "statecraft/notes/arc-martyanov-nima-host.md",
+    "statecraft/notes/arc-matlock-diesen-host.md",
+    "statecraft/notes/arc-may-2026-cross-context-parsi-host.md",
+    "statecraft/notes/arc-may-2026-cross-host-freeman-host.md",
+    "statecraft/notes/arc-may-2026-cross-host-johnson-host.md",
+    "statecraft/notes/arc-may-2026-cross-host-marandi-host.md",
+    "statecraft/notes/arc-may-2026-cross-host-ritter-host.md",
+    "statecraft/notes/arc-may-2026-interview-cross-host-crooke-host.md",
+    "statecraft/notes/arc-mcgovern-continuity.md",
+    "statecraft/notes/arc-mcgovern-diesen-host.md",
+    "statecraft/notes/arc-mcgovern-nima-host.md",
+    "statecraft/notes/arc-mearsheimer-continuity.md",
+    "statecraft/notes/arc-mearsheimer-davis-host.md",
+    "statecraft/notes/arc-mearsheimer-diesen-host.md",
+    "statecraft/notes/arc-mearsheimer-napolitano-host.md",
+    "statecraft/notes/arc-mercouris-continuity.md",
+    "statecraft/notes/arc-mercouris-davis-host.md",
+    "statecraft/notes/arc-mercouris-diesen-host.md",
+    "statecraft/notes/arc-pape-continuity.md",
+    "statecraft/notes/arc-pape-escalation-trap.md",
+    "statecraft/notes/arc-parsi-continuity.md",
+    "statecraft/notes/arc-postol-continuity.md",
+    "statecraft/notes/arc-postol-davis-host.md",
+    "statecraft/notes/arc-postol-diesen-host.md",
+    "statecraft/notes/arc-postol-nima-host.md",
+    "statecraft/notes/arc-ritter-continuity.md",
+    "statecraft/notes/arc-ritter-davis-host.md",
+    "statecraft/notes/arc-ritter-diesen-host.md",
+    "statecraft/notes/arc-ritter-napolitano-host.md",
+    "statecraft/notes/arc-ritter-nima-host.md",
+    "statecraft/notes/arc-sachs-continuity.md",
+    "statecraft/notes/arc-weichert-continuity.md",
+    "statecraft/notes/arc-wilkerson-continuity.md",
+    "statecraft/notes/arc-wilkerson-diesen-host.md",
+    "statecraft/notes/arc-wilkerson-napolitano-host.md",
+    "statecraft/notes/arc-wilkerson-nima-host.md",
+    "statecraft/notes/jiang-on-ai.md",
+    "statecraft/notes/march-2026-benchmark-note.md",
+    "statecraft/notes/march-2026-closure-method-application.md",
+    "statecraft/notes/may-2026-closure-method-application.md",
+    "statecraft/notes/pape-on-china-ai.md",
+    "statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md",
+    "statecraft/notes/trend-china-ai-implementation.md",
+    "statecraft/sheets/source-archive-index-audit.md",
+    "statecraft/sheets/speaker-shelf-vs-bridge-adapter.md",
+    "statecraft/voices/aguilar/aguilar-cross-host-note.md",
+    "statecraft/voices/aguilar/aguilar-speaker-object.md",
+    "statecraft/voices/armstrong/armstrong-cross-host-note.md",
+    "statecraft/voices/armstrong/armstrong-speaker-object.md",
+    "statecraft/voices/armstrong/armstrong-thread.md",
+    "statecraft/voices/armstrong/index.md",
+    "statecraft/voices/armstrong/README.md",
+    "statecraft/voices/barnes/barnes-analysis-index.md",
+    "statecraft/voices/barnes/barnes-arc.md",
+    "statecraft/voices/barnes/barnes-speaker-object.md",
+    "statecraft/voices/barnes/barnes-support-spine-2025-2026.md",
+    "statecraft/voices/barnes/barnes-thread.md",
+    "statecraft/voices/barnes/index.md",
+    "statecraft/voices/barnes/README.md",
+    "statecraft/voices/baud/baud-arc.md",
+    "statecraft/voices/baud/baud-cross-year-note.md",
+    "statecraft/voices/baud/baud-helix.md",
+    "statecraft/voices/baud/baud-profile.md",
+    "statecraft/voices/baud/baud-surface-orthogonality-2026-05.md",
+    "statecraft/voices/baud/baud-thread-international-law.md",
+    "statecraft/voices/baud/baud-thread.md",
+    "statecraft/voices/baud/baud-transcript.md",
+    "statecraft/voices/baud/index.md",
+    "statecraft/voices/baud/README.md",
+    "statecraft/voices/beebe/beebe-cross-host-note.md",
+    "statecraft/voices/beebe/beebe-speaker-object.md",
+    "statecraft/voices/beebe/index.md",
+    "statecraft/voices/beebe/README.md",
+    "statecraft/voices/berletic/berletic-speaker-object.md",
+    "statecraft/voices/berletic/berletic-thread.md",
+    "statecraft/voices/berletic/index.md",
+    "statecraft/voices/berletic/README.md",
+    "statecraft/voices/core-thesis-matrix-pilot.md",
+    "statecraft/voices/crooke/crooke-april-2026-interview-cross-host-arc.md",
+    "statecraft/voices/crooke/crooke-arc.md",
+    "statecraft/voices/crooke/crooke-helix.md",
+    "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md",
+    "statecraft/voices/crooke/crooke-march-2026-interview-cross-host-arc.md",
+    "statecraft/voices/crooke/crooke-march-may-2026-interview-arc-threads.md",
+    "statecraft/voices/crooke/crooke-may-2026-interview-cross-host-arc.md",
+    "statecraft/voices/crooke/crooke-routing.md",
+    "statecraft/voices/crooke/crooke-shelf-2026-03.md",
+    "statecraft/voices/crooke/crooke-shelf-2026-04.md",
+    "statecraft/voices/crooke/crooke-shelf-2026-05.md",
+    "statecraft/voices/crooke/crooke-support-spine-2025-2026.md",
+    "statecraft/voices/crooke/crooke-thread-international-law.md",
+    "statecraft/voices/crooke/crooke-transcript.md",
+    "statecraft/voices/crooke/index.md",
+    "statecraft/voices/crooke/README.md",
+    "statecraft/voices/diesen/diesen-baud-arc.md",
+    "statecraft/voices/diesen/diesen-baud-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-beebe-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-berletic-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-crooke-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-cross-host-note.md",
+    "statecraft/voices/diesen/diesen-freeman-arc.md",
+    "statecraft/voices/diesen/diesen-host-wiring-2026.md",
+    "statecraft/voices/diesen/diesen-jermy-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-jiang-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-johnson-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-karaganov-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-kent-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-krainer-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-macgregor-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-marandi-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-martyanov-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-matlock-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-mearsheimer-arc.md",
+    "statecraft/voices/diesen/diesen-mearsheimer-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-mercouris-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-postol-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-ritter-speaker-arc.md",
+    "statecraft/voices/diesen/diesen-speaker-object.md",
+    "statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md",
+    "statecraft/voices/diesen/index.md",
+    "statecraft/voices/diesen/README.md",
+    "statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md",
+    "statecraft/voices/freeman/freeman-arc.md",
+    "statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md",
+    "statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md",
+    "statecraft/voices/freeman/freeman-may-2026-cross-host-arc.md",
+    "statecraft/voices/freeman/freeman-routing.md",
+    "statecraft/voices/freeman/freeman-shelf-2026-03.md",
+    "statecraft/voices/freeman/freeman-shelf-2026-04.md",
+    "statecraft/voices/freeman/freeman-shelf-2026-05.md",
+    "statecraft/voices/freeman/freeman-source-index.md",
+    "statecraft/voices/freeman/freeman-speaker-object.md",
+    "statecraft/voices/freeman/freeman-support-spine-2025-2026.md",
+    "statecraft/voices/freeman/freeman-to-china-volume-seeds.md",
+    "statecraft/voices/freeman/index.md",
+    "statecraft/voices/freeman/README.md",
+    "statecraft/voices/jermy/index.md",
+    "statecraft/voices/jermy/jermy-cross-host-note.md",
+    "statecraft/voices/jermy/jermy-speaker-object.md",
+    "statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md",
+    "statecraft/voices/jermy/README.md",
+    "statecraft/voices/jiang/index.md",
+    "statecraft/voices/jiang/jiang-arc.md",
+    "statecraft/voices/jiang/README.md",
+    "statecraft/voices/johnson/index.md",
+    "statecraft/voices/johnson/johnson-april-2026-cross-host-arc.md",
+    "statecraft/voices/johnson/johnson-arc.md",
+    "statecraft/voices/johnson/johnson-helix.md",
+    "statecraft/voices/johnson/johnson-march-2026-cross-host-arc.md",
+    "statecraft/voices/johnson/johnson-may-2026-cross-host-arc.md",
+    "statecraft/voices/johnson/johnson-routing.md",
+    "statecraft/voices/johnson/johnson-shelf-hygiene-2026-05.md",
+    "statecraft/voices/johnson/johnson-support-spine-2025-2026.md",
+    "statecraft/voices/johnson/johnson-surface-orthogonality-2026-05.md",
+    "statecraft/voices/johnson/johnson-thread.md",
+    "statecraft/voices/johnson/johnson-transcript.md",
+    "statecraft/voices/johnson/README.md",
+    "statecraft/voices/karaganov/index.md",
+    "statecraft/voices/karaganov/karaganov-arc.md",
+    "statecraft/voices/karaganov/karaganov-helix.md",
+    "statecraft/voices/karaganov/karaganov-profile.md",
+    "statecraft/voices/karaganov/karaganov-routing.md",
+    "statecraft/voices/karaganov/karaganov-source-index.md",
+    "statecraft/voices/karaganov/karaganov-speaker-object.md",
+    "statecraft/voices/karaganov/README.md",
+    "statecraft/voices/kent/carlson-kent-speaker-arc.md",
+    "statecraft/voices/kent/kent-helix.md",
+    "statecraft/voices/kent/kent-speaker-object.md",
+    "statecraft/voices/kent/kent-surface-orthogonality-2026-05.md",
+    "statecraft/voices/kent/nawfal-kent-speaker-arc.md",
+    "statecraft/voices/krainer/krainer-speaker-object.md",
+    "statecraft/voices/macgregor/index.md",
+    "statecraft/voices/macgregor/macgregor-arc.md",
+    "statecraft/voices/macgregor/macgregor-helix.md",
+    "statecraft/voices/macgregor/macgregor-historical-examples-audit.md",
+    "statecraft/voices/macgregor/macgregor-routing.md",
+    "statecraft/voices/macgregor/macgregor-shelf-hygiene-2026-05.md",
+    "statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md",
+    "statecraft/voices/macgregor/macgregor-surface-orthogonality-2026-05.md",
+    "statecraft/voices/macgregor/macgregor-thread.md",
+    "statecraft/voices/macgregor/macgregor-transcript.md",
+    "statecraft/voices/macgregor/README.md",
+    "statecraft/voices/map/cross-host-index.md",
+    "statecraft/voices/map/open-first-routes.md",
+    "statecraft/voices/marandi/gulf-complicity-differentiated-punishment-and-regional-signaling.md",
+    "statecraft/voices/marandi/hormuz-as-leverage-rather-than-mere-transit.md",
+    "statecraft/voices/marandi/index.md",
+    "statecraft/voices/marandi/iranian-sovereignty-red-lines-and-postwar-order-claims.md",
+    "statecraft/voices/marandi/legitimacy-victimhood-and-coercive-asymmetry.md",
+    "statecraft/voices/marandi/marandi-2025-present-arc-threads.md",
+    "statecraft/voices/marandi/marandi-april-2026-cross-host-arc.md",
+    "statecraft/voices/marandi/marandi-arc.md",
+    "statecraft/voices/marandi/marandi-backward-extension-note.md",
+    "statecraft/voices/marandi/marandi-helix.md",
+    "statecraft/voices/marandi/marandi-may-2026-cross-host-arc.md",
+    "statecraft/voices/marandi/marandi-routing.md",
+    "statecraft/voices/marandi/marandi-source-index.md",
+    "statecraft/voices/marandi/marandi-speaker-object.md",
+    "statecraft/voices/marandi/marandi-support-spine-2025-2026.md",
+    "statecraft/voices/marandi/marandi-surface-orthogonality-2026-05.md",
+    "statecraft/voices/marandi/marandi-thread.md",
+    "statecraft/voices/marandi/negotiation-theater-distrust-and-conditional-diplomacy.md",
+    "statecraft/voices/marandi/README.md",
+    "statecraft/voices/marandi/siege-endurance-and-waiting-game-politics.md",
+    "statecraft/voices/martyanov/index.md",
+    "statecraft/voices/martyanov/martyanov-arc.md",
+    "statecraft/voices/martyanov/martyanov-routing.md",
+    "statecraft/voices/martyanov/martyanov-source-index.md",
+    "statecraft/voices/martyanov/martyanov-speaker-object.md",
+    "statecraft/voices/martyanov/README.md",
+    "statecraft/voices/matlock/matlock-speaker-object.md",
+    "statecraft/voices/matlock/README.md",
+    "statecraft/voices/mcgovern/index.md",
+    "statecraft/voices/mcgovern/mcgovern-arc.md",
+    "statecraft/voices/mcgovern/mcgovern-cross-host-note.md",
+    "statecraft/voices/mcgovern/mcgovern-routing.md",
+    "statecraft/voices/mcgovern/mcgovern-source-index.md",
+    "statecraft/voices/mcgovern/mcgovern-speaker-object.md",
+    "statecraft/voices/mcgovern/README.md",
+    "statecraft/voices/mearsheimer/index.md",
+    "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+    "statecraft/voices/mearsheimer/mearsheimer-historical-examples-audit.md",
+    "statecraft/voices/mearsheimer/mearsheimer-shelf-hygiene-2026-05.md",
+    "statecraft/voices/mearsheimer/mearsheimer-speaker-object.md",
+    "statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md",
+    "statecraft/voices/mearsheimer/README.md",
+    "statecraft/voices/mercouris/index.md",
+    "statecraft/voices/mercouris/mercouris-arc-threads.md",
+    "statecraft/voices/mercouris/mercouris-arc.md",
+    "statecraft/voices/mercouris/mercouris-cross-host-note.md",
+    "statecraft/voices/mercouris/mercouris-historical-examples-audit.md",
+    "statecraft/voices/mercouris/mercouris-monthly-shelves.md",
+    "statecraft/voices/mercouris/mercouris-routing.md",
+    "statecraft/voices/mercouris/mercouris-source-index.md",
+    "statecraft/voices/mercouris/mercouris-speaker-object.md",
+    "statecraft/voices/mercouris/mercouris-support-spine-2025-2026.md",
+    "statecraft/voices/mercouris/mercouris-surface-orthogonality-2026-05.md",
+    "statecraft/voices/mercouris/mercouris-thread.md",
+    "statecraft/voices/mercouris/README.md",
+    "statecraft/voices/pape/index.md",
+    "statecraft/voices/pape/pape-arc.md",
+    "statecraft/voices/pape/pape-routing.md",
+    "statecraft/voices/pape/README.md",
+    "statecraft/voices/parsi/index.md",
+    "statecraft/voices/parsi/parsi-2025-present-arc-threads.md",
+    "statecraft/voices/parsi/parsi-arc.md",
+    "statecraft/voices/parsi/parsi-june-2026-cross-context-arc.md",
+    "statecraft/voices/parsi/parsi-march-2026-cross-context-arc.md",
+    "statecraft/voices/parsi/parsi-may-2026-cross-context-arc.md",
+    "statecraft/voices/parsi/parsi-monthly-shelves.md",
+    "statecraft/voices/parsi/parsi-routing.md",
+    "statecraft/voices/parsi/parsi-thread.md",
+    "statecraft/voices/parsi/README.md",
+    "statecraft/voices/postol/index.md",
+    "statecraft/voices/postol/postol-arc.md",
+    "statecraft/voices/postol/postol-cross-host-note.md",
+    "statecraft/voices/postol/postol-routing.md",
+    "statecraft/voices/postol/postol-source-index.md",
+    "statecraft/voices/postol/postol-speaker-object.md",
+    "statecraft/voices/postol/README.md",
+    "statecraft/voices/relations/baud-crooke-international-law-orthogonality-2026-05.md",
+    "statecraft/voices/ritter/index.md",
+    "statecraft/voices/ritter/README.md",
+    "statecraft/voices/ritter/ritter-april-2026-cross-host-arc.md",
+    "statecraft/voices/ritter/ritter-arc.md",
+    "statecraft/voices/ritter/ritter-helix.md",
+    "statecraft/voices/ritter/ritter-historical-examples-audit.md",
+    "statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md",
+    "statecraft/voices/ritter/ritter-march-2026-cross-host-arc.md",
+    "statecraft/voices/ritter/ritter-may-2026-cross-host-arc.md",
+    "statecraft/voices/ritter/ritter-profile.md",
+    "statecraft/voices/ritter/ritter-routing.md",
+    "statecraft/voices/ritter/ritter-support-spine-2025-2026.md",
+    "statecraft/voices/ritter/ritter-surface-orthogonality-2026-05.md",
+    "statecraft/voices/sachs/index.md",
+    "statecraft/voices/sachs/README.md",
+    "statecraft/voices/sachs/sachs-arc.md",
+    "statecraft/voices/sachs/sachs-speaker-object.md",
+    "statecraft/voices/weichert/index.md",
+    "statecraft/voices/weichert/README.md",
+    "statecraft/voices/weichert/weichert-arc.md",
+    "statecraft/voices/weichert/weichert-routing.md",
+    "statecraft/voices/wilkerson/index.md",
+    "statecraft/voices/wilkerson/README.md",
+    "statecraft/voices/wilkerson/wilkerson-arc.md",
+    "statecraft/voices/wilkerson/wilkerson-helix.md",
+    "statecraft/voices/wilkerson/wilkerson-routing.md",
+    "statecraft/voices/wilkerson/wilkerson-surface-orthogonality-2026-05.md",
+    "docs/goal-mode-playbook.md",
+    "docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md",
+    "docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md",
+    "docs/skill-work/work-strategy/speaker-arc-vs-comparative-note.md",
+    "docs/skill-write/locals-analysis-to-post-recipe.md",
+    "docs/skill-write/README.md",
+    ".cursor/skills/skill-write/SKILL.md",
+    ".cursor/skills/statecraft-multi-lens/CURSOR_APPENDIX.md",
+    ".cursor/skills/statecraft-multi-lens/SKILL.md",
+    ".cursor/skills/strategy-notebook-guest-canon-note/CURSOR_APPENDIX.md",
+    ".cursor/skills/strategy-notebook-guest-canon-note/SKILL.md",
+    "tests/test_arc_mearsheimer_pilot_notes.py",
+    "tests/test_materialize_youtube_raw_input.py",
+    "tests/test_speaker_memory_actions.py",
+    "tests/test_speaker_routing_queue.py",
+    "scripts/flatten_statecraft_shelves.py",
+    "scripts/promote_arc_to_notes.py",
+    "scripts/promote_mearsheimer_arcs_pilot.py",
+    "scripts/score_speaker_memory_benchmark.py",
+    "codex/academy/statecraft/bridges/marandi-civ-emp-retrieval-adapter.md",
+    "codex/academy/statecraft/bridges/parsi-civ-emp-retrieval-adapter.md",
+    "codex/academy/statecraft/sheets/speaker-shelf-vs-bridge-adapter.md",
+    "codex/speaker-lattice.md"
+  ]
+}

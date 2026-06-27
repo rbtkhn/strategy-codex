@@ -4,7 +4,7 @@ WORK only; not Record.
 
 object_shape: stream-native
 
-Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [Mercouris statecraft speaker shelf](README.md). Within that stream, `mercouris-arc` should be read as a bounded helix containing multiple `mercouris-arc-threads`.
+Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [Mercouris statecraft speaker shelf](README.md). Within that stream, `arc-mercouris-continuity` should be read as a bounded helix containing multiple `arc-mercouris-continuity-threads`.
 
 ## Core claim
 
@@ -21,9 +21,9 @@ The native Mercouris stream is therefore not background evidence for some higher
 
 ## Arc doctrine
 
-`mercouris-arc` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `mercouris-arc-threads`, currently indexed at [mercouris-arc-threads.md](mercouris-arc-threads.md).
+`arc-mercouris-continuity` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `arc-mercouris-continuity-threads`, currently indexed at [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md).
 
-Use [mercouris-arc.md](mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
+Use [arc-mercouris-continuity.md](arc-mercouris-continuity.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
 
 Mercouris now also has visible month-support stratification inside the native stream: January functions as a **continuity-setup month**, February functions as a **mature bridge month**, while March through May function as **mature dense-core shelves**.
 
@@ -88,8 +88,8 @@ If the operator needs the object doctrine rather than the live stream:
 
 If the operator needs the Mercouris arc:
 
-- open [mercouris-arc.md](mercouris-arc.md)
-- then open [mercouris-arc-threads.md](mercouris-arc-threads.md)
+- open [arc-mercouris-continuity.md](arc-mercouris-continuity.md)
+- then open [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md)
 
 ## Routing use
 
@@ -97,14 +97,14 @@ Use this speaker-object note when the notebook is doing one or more of the follo
 
 - asking why Mercouris belongs on the `speakers/` shelf even though his main body is a cognition stream
 - deciding whether Mercouris should be treated as a helix-first or stream-first object
-- routing `mercouris-arc` as a stream-native bounded helix of arc-threads
+- routing `arc-mercouris-continuity` as a stream-native bounded helix of arc-threads
 - comparing depth-stable speaker importance against wider host-spread importance
 - routing Mercouris material without collapsing his rich native stream into a thin generic profile
 
 ## Boundaries
 
 - This note is not a Mercouris helix note.
-- `mercouris-arc` contains multiple `mercouris-arc-threads`; it is not a single undifferentiated continuity stream.
+- `arc-mercouris-continuity` contains multiple `arc-mercouris-continuity-threads`; it is not a single undifferentiated continuity stream.
 - The native Mercouris stream remains canonical for day-to-day reading and frontier work.
 - Secondary guest appearances matter, but they do not yet outweigh the stream-native body.
 - If cross-host density materially thickens later, a separate `mercouris-helix.md` can be created without replacing this speaker-object note.

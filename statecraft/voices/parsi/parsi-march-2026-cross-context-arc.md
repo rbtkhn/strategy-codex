@@ -1,18 +1,7 @@
-# Parsi March 2026 cross-context arc
+# arc-march-2026-cross-context-parsi-host (compat redirect)
 
 WORK only; not Record.
 
-Purpose: bounded cross-context arc note for the March 2026 Parsi run.
+**Canonical:** [arc-march-2026-cross-context-parsi-host.md](../../notes/arc-march-2026-cross-context-parsi-host.md)
 
-## Why March 2026 matters
-
-March 2026 is the clearest early mature-crossing month for Parsi because authored mechanism and interview pressure visibly meet.
-
-The month-level motion is:
-
-`small attack means real war -> regime collapse expectations are challenged -> off-ramp space narrows -> interview pressure forces the mechanism to cash out in real bargaining terms`
-
-## Best entry surfaces
-
-- [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
-- [../parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md
+Legacy path: `statecraft/voices/parsi/parsi-march-2026-cross-context-arc.md` — Pointer only; do not duplicate arc bodies here.

@@ -33,9 +33,9 @@ Jermy carries a distinct utility profile:
 
 Jermy should currently be read as a **triple-speaker-helix**:
 
-- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-jermy-speaker-arc.md)
-- [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-jermy-speaker-arc.md)
-- [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/voices/jermy/peacemonger-jermy-speaker-arc.md)
+- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-davis-host.md)
+- [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-diesen-host.md)
+- [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-peacemonger-host.md)
 
 That means:
 
@@ -60,11 +60,11 @@ See [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/je
 
 If the operator needs the clearest current host-local entry:
 
-- open [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-jermy-speaker-arc.md)
+- open [arc-jermy-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-davis-host.md)
 
 If the operator needs the complementary strategic branch:
 
-- open [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-jermy-speaker-arc.md)
+- open [arc-jermy-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-diesen-host.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

@@ -7,7 +7,7 @@ Purpose: front door for the canonical Pape statecraft shelf.
 ## Open First
 
 - [Speaker profile](pape-profile.md)
-- [pape-arc.md](pape-arc.md)
+- [arc-pape-continuity.md](arc-pape-continuity.md)
 - [pape-routing.md](pape-routing.md)
 - [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
@@ -18,7 +18,7 @@ Purpose: front door for the canonical Pape statecraft shelf.
 
 The orthogonality-bearing Pape structure is:
 
-- [pape-arc.md](pape-arc.md)
+- [arc-pape-continuity.md](arc-pape-continuity.md)
 - [pape-routing.md](pape-routing.md)
 - [pape-speaker-object.md](pape-speaker-object.md)
 - [pape-helix.md](pape-helix.md)

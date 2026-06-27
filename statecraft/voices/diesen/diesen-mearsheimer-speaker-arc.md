@@ -1,9 +1,9 @@
-# Diesen x Mearsheimer speaker arc
+# arc-mearsheimer-diesen-host (compat redirect)
 
 WORK only; not Record.
 
-Compatibility note: this legacy `*-speaker-arc.md` path now redirects to the canonical relational arc:
+**Canonical:** [arc-mearsheimer-diesen-host.md](../../notes/arc-mearsheimer-diesen-host.md)
 
-- [diesen-mearsheimer-arc.md](diesen-mearsheimer-arc.md)
+Legacy path: `statecraft/voices/diesen/diesen-mearsheimer-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
 
 Do not treat this as a second arc class.

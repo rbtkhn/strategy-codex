@@ -8,7 +8,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 ## Open First
 
-- [macgregor-arc.md](macgregor-arc.md)
+- [arc-macgregor-continuity.md](arc-macgregor-continuity.md)
 - [macgregor-routing.md](macgregor-routing.md)
 - [macgregor-source-index.md](macgregor-source-index.md)
 - [macgregor-helix.md](macgregor-helix.md)
@@ -22,7 +22,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 Macgregor's canonical structure now has four speaker-owned layers:
 
-- **Person arc:** [macgregor-arc.md](macgregor-arc.md) holds whole-speaker continuity across hosts, contexts, and time.
+- **Person arc:** [arc-macgregor-continuity.md](arc-macgregor-continuity.md) holds whole-speaker continuity across hosts, contexts, and time.
 - **Routing surface:** [macgregor-routing.md](macgregor-routing.md) answers which host lane or monthly shelf to open first.
 - **Source index:** [macgregor-source-index.md](macgregor-source-index.md) remains the exhaustive route map for materialized Macgregor appearances.
 - **Crossing surface:** [macgregor-helix.md](macgregor-helix.md) explains the durable `Diesen + Davis` double-helix and the auxiliary Napolitano branch.
@@ -61,9 +61,9 @@ The legacy `statecraft/voices/macgregor/` path is now compatibility-only.
 
 ## Host Lanes
 
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../notes/arc-macgregor-davis-host.md)
+- [Diesen x Macgregor](../../notes/arc-macgregor-diesen-host.md)
+- [Judging Freedom x Macgregor](../../notes/arc-macgregor-napolitano-host.md)
 
 ## Boundary
 

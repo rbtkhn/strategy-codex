@@ -141,6 +141,6 @@ Open when the task is:
 - [Sachs on AI](./sachs-on-ai.md)
 - [Pape on China AI](./pape-on-china-ai.md)
 - [Jiang README](../voices/jiang/README.md)
-- [Jiang arc](../voices/jiang/jiang-arc.md)
+- [Jiang arc](../voices/jiang/arc-jiang-continuity.md)
 
 Legacy filename (redirect): [jiang-on-china-ai.md](./jiang-on-china-ai.md)

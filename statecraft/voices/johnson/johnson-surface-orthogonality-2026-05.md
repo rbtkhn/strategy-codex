@@ -6,7 +6,7 @@ Purpose: preserve the surface split that now governs Johnson.
 
 ## Current Surface Law
 
-- `johnson-arc` owns whole-speaker continuity
+- `arc-johnson-continuity` owns whole-speaker continuity
 - `johnson-routing` owns fastest first-open guidance
 - `johnson-source-index` owns source-bench coverage
 - `johnson-helix` owns host-transformation comparison

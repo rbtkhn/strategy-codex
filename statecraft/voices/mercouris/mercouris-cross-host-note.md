@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: keep the emerging guest-distributed side of the Mercouris object visible without overstating its maturity.
 
-Model note: `mercouris-arc` already exists as a stream-native bounded helix of recurring Mercouris arc-threads. This file is narrower: it tracks whether guest-host reinforcement has become dense enough to promote a separate Mercouris speaker helix.
+Model note: `arc-mercouris-continuity` already exists as a stream-native bounded helix of recurring Mercouris arc-threads. This file is narrower: it tracks whether guest-host reinforcement has become dense enough to promote a separate Mercouris speaker helix.
 
 ## Core note
 
@@ -12,8 +12,8 @@ Mercouris is not only a native cognition stream. There are real cross-host appea
 
 The clearest current host-local reinforcement on disk is indexed on [mercouris-index.md](mercouris-index.md):
 
-- [Davis x Mercouris host-local arc](../../../statecraft/channels/daniel-davis/davis-mercouris-speaker-arc.md), now a stable multi-file Davis branch
-- [Diesen x Mercouris host-local arc](../diesen/diesen-mercouris-speaker-arc.md), now deepened by **2023-01-14** and **2024-10-21** Karaganov triangulation panels (order-transition + deterrence-history) plus **2026-05-16** legitimacy dyad
+- [Davis x Mercouris host-local arc](../../notes/arc-mercouris-davis-host.md), now a stable multi-file Davis branch
+- [Diesen x Mercouris host-local arc](../diesen/arc-mercouris-diesen-host.md), now deepened by **2023-01-14** and **2024-10-21** Karaganov triangulation panels (order-transition + deterrence-history) plus **2026-05-16** legitimacy dyad
 - [2026-05-16 Diesen x Mercouris](../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 
 Karaganov doctrine on those panels routes through [karaganov-source-index.md](../karaganov/karaganov-source-index.md) — not this note.

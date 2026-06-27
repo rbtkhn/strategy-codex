@@ -6,7 +6,7 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 ## Open First
 
-- [Speaker arc](mearsheimer-arc.md)
+- [Speaker arc](arc-mearsheimer-continuity.md)
 - [Speaker routing note](mearsheimer-routing.md)
 - [Source index](mearsheimer-source-index.md)
 - [Speaker helix](mearsheimer-helix.md)
@@ -17,12 +17,12 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 ### Core host lanes
 
-- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
+- [Diesen x Mearsheimer](../../notes/arc-mearsheimer-diesen-host.md)
+- [Davis x Mearsheimer](../../notes/arc-mearsheimer-davis-host.md)
 
 ### Reinforcing orbit
 
-- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../notes/arc-mearsheimer-napolitano-host.md)
 
 ### Non-core appearance bench
 
@@ -32,7 +32,7 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 Mearsheimer's orthogonality-bearing structure is:
 
-- [Speaker arc](mearsheimer-arc.md)
+- [Speaker arc](arc-mearsheimer-continuity.md)
 - [Speaker routing](mearsheimer-routing.md)
 - [Speaker helix](mearsheimer-helix.md)
 - [Support spine](mearsheimer-support-spine-2025-2026.md)

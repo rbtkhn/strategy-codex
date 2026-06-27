@@ -8,7 +8,7 @@ Local cluster under review:
 
 - [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
 - [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread-international-law.md)
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
 - [crooke-thread.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread.md)
 - [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
 - [crooke-helix.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-helix.md)
@@ -23,7 +23,7 @@ Bounded claim:
 
 Arcs under review:
 
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
 - [crooke-thread.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread.md)
 
 Threads under review:
@@ -38,7 +38,7 @@ Comparison-only notes:
 
 ## Arc audit
 
-`baud-arc.md` owns person-level continuity across Europe, coercion, sanctions, military legality, and institutional breakdown. Its distinct value is that law is only one lane inside a broader Baud continuity surface.
+`arc-baud-continuity.md` owns person-level continuity across Europe, coercion, sanctions, military legality, and institutional breakdown. Its distinct value is that law is only one lane inside a broader Baud continuity surface.
 
 `crooke-thread.md` functions as the broader Crooke continuity surface across settlement, sovereignty, elite misreading, legitimacy fracture, and regional order. Its distinct value is that law appears as one expression of negotiated-order failure rather than the whole object.
 
@@ -46,7 +46,7 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `baud-arc.md` | Baud across Europe, sanctions, war, and law | legal-strategic correction inside a wider Baud lane | interview-driven legal and strategic correction across hosts | open when the question is broader than law and still recognizably Baud | keep |
+| `arc-baud-continuity.md` | Baud across Europe, sanctions, war, and law | legal-strategic correction inside a wider Baud lane | interview-driven legal and strategic correction across hosts | open when the question is broader than law and still recognizably Baud | keep |
 | `crooke-thread.md` | Crooke across settlement, sovereignty, and order fracture | negotiated-order and legitimacy decay | authored and interview continuity around sovereignty and settlement failure | open when the question is broader than law and still recognizably Crooke | keep |
 
 ## Thread audit

@@ -68,7 +68,7 @@ Shared comparison: [host-backbone-napolitano-davis-orthogonality-2026-05.md](../
 - channel front doors (`README.md`, `index.md`)
 - host-law notes
 - host identity profiles when the live channel shelf is canonical here
-- host-native guest-lane maps (flat guest-arc files when justified — e.g. `davis-<guest>-speaker-arc.md`)
+- host-native guest-lane maps — **canonical arc bodies** in [`statecraft/notes/`](../notes/README.md) (`arc-<guest>-<host>-host.md`); channel root keeps **compat redirects** only (e.g. `davis-<guest>-arc.md`)
 - live routing distinctions that apply across multiple speaker shelves
 
 ## Flat shelf law
@@ -76,7 +76,7 @@ Shared comparison: [host-backbone-napolitano-davis-orthogonality-2026-05.md](../
 **Effective 2026-06:** every channel shelf root is **flat**.
 
 - `statecraft/channels/<channel_slug>/` contains **files only** — no subdirectories under a channel folder.
-- Guest-lane arcs, host monthly shelves, and host wiring surfaces live as sibling files at the channel root.
+- Guest-lane arc **redirects**, host monthly shelves, and host wiring surfaces live as sibling files at the channel root; arc **bodies** → `statecraft/notes/`.
 - Legacy `channels/<slug>/stream/` is **terminated**.
 
 See also [`statecraft/voices/README.md` § Flat shelf law](../voices/README.md#flat-shelf-law).

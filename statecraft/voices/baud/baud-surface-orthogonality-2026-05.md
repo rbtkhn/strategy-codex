@@ -6,12 +6,12 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
 - [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
 - [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
-- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
+- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
+- [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
+- [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
 - [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md)
 
 Bounded claim:
@@ -24,10 +24,10 @@ Bounded claim:
 
 Arcs under review:
 
-- [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
-- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
+- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
+- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
+- [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
+- [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
 
 Threads under review:
 
@@ -40,7 +40,7 @@ Comparison-only notes:
 
 ## Arc audit
 
-`baud-arc.md` owns Baud's person-level continuity: Europe, coercion, legality, sanctions, intelligence-adjacent reasoning, and the longer journal layer that the shelf still uses for historical continuity.
+`arc-baud-continuity.md` owns Baud's person-level continuity: Europe, coercion, legality, sanctions, intelligence-adjacent reasoning, and the longer journal layer that the shelf still uses for historical continuity.
 
 `Dialogue Works x Baud` owns live crisis-pressure legality: deterrence logic, treaty skepticism, Hormuz management, and strategic rationality under maximum event pressure.
 
@@ -52,10 +52,10 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `baud-arc.md` | person-level continuity across Europe, coercion, and law | broad Baud continuity and older journal surface | mixed historical journal plus machine layer continuity | open when the question is broader than one host or one legal strand | keep |
-| `nima-baud-arc.md` | live crisis pressure translated into deterrence and treaty skepticism | present-tense legal-rationality under event tempo | dense 2026 serial host run | open when the task needs Baud under immediate crisis pressure | keep |
-| `davis-baud-arc.md` | war talk translated into mandate, liability, and coercive-feasibility critique | alliance-mandate and legal-strategic feasibility | thinner but real host run with strong Iran-war legality anchors | open when the task needs co-belligerency, perfidy, mandate, or liability logic | keep |
-| `diesen-baud-arc.md` | 2025 European-security legality and diplomatic failure | cross-year correction and historical host transformation | 2025 host lane with partial but real materialization | open when the task needs the historical Diesen transformation without inflating the 2026 object | keep |
+| `arc-baud-continuity.md` | person-level continuity across Europe, coercion, and law | broad Baud continuity and older journal surface | mixed historical journal plus machine layer continuity | open when the question is broader than one host or one legal strand | keep |
+| `arc-baud-nima-host.md` | live crisis pressure translated into deterrence and treaty skepticism | present-tense legal-rationality under event tempo | dense 2026 serial host run | open when the task needs Baud under immediate crisis pressure | keep |
+| `arc-baud-davis-host.md` | war talk translated into mandate, liability, and coercive-feasibility critique | alliance-mandate and legal-strategic feasibility | thinner but real host run with strong Iran-war legality anchors | open when the task needs co-belligerency, perfidy, mandate, or liability logic | keep |
+| `arc-baud-diesen-host.md` | 2025 European-security legality and diplomatic failure | cross-year correction and historical host transformation | 2025 host lane with partial but real materialization | open when the task needs the historical Diesen transformation without inflating the 2026 object | keep |
 
 ## Thread audit
 

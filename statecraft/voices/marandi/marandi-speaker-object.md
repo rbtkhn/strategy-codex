@@ -20,7 +20,7 @@ His strength is not primarily immense native-stream depth. It is the persistence
 
 The current Marandi stack is:
 
-- [marandi-arc.md](marandi-arc.md) = speaker-wide continuity surface
+- [arc-marandi-continuity.md](arc-marandi-continuity.md) = speaker-wide continuity surface
 - [marandi-routing.md](marandi-routing.md) = fast host-and-task routing
 - [stream/marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) = recurring thread atlas
 - [marandi-helix.md](marandi-helix.md) = host-transformation comparison
@@ -61,7 +61,7 @@ Marandi is strongest as a legitimacy-and-red-line speaker whose range appears th
 
 If the operator needs the whole speaker:
 
-- open [marandi-arc.md](marandi-arc.md)
+- open [arc-marandi-continuity.md](arc-marandi-continuity.md)
 
 If the operator needs the fastest route:
 

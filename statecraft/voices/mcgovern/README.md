@@ -10,7 +10,7 @@ The shelf is intentionally a lighter first pass. McGovern is already a real cros
 
 ## Open First
 
-- [mcgovern-arc.md](mcgovern-arc.md)
+- [arc-mcgovern-continuity.md](arc-mcgovern-continuity.md)
 - [mcgovern-routing.md](mcgovern-routing.md)
 - [mcgovern-source-index.md](mcgovern-source-index.md)
 - [mcgovern-helix.md](mcgovern-helix.md)
@@ -20,7 +20,7 @@ The shelf is intentionally a lighter first pass. McGovern is already a real cros
 
 McGovern's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [mcgovern-arc.md](mcgovern-arc.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 pressure cluster.
+- **Person arc:** [arc-mcgovern-continuity.md](arc-mcgovern-continuity.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 pressure cluster.
 - **Routing surface:** [mcgovern-routing.md](mcgovern-routing.md) answers which host lane or source file to open first for a given McGovern use.
 - **Source index:** [mcgovern-source-index.md](mcgovern-source-index.md) is the canonical route map for materialized McGovern appearances.
 - **Cross-host note:** [mcgovern-helix.md](mcgovern-helix.md) explains the real host-conditioned structure and the double-helix core.
@@ -45,8 +45,8 @@ The legacy `statecraft/voices/mcgovern/` path is now front-door compatibility on
 
 ## Host Lanes
 
-- [Diesen x McGovern](../../../statecraft/voices/diesen/diesen-mcgovern-speaker-arc.md)
-- [Dialogue Works x McGovern](../../../statecraft/channels/dialogue-works/nima-mcgovern-speaker-arc.md)
+- [Diesen x McGovern](../../notes/arc-mcgovern-diesen-host.md)
+- [Dialogue Works x McGovern](../../notes/arc-mcgovern-nima-host.md)
 - [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
 
 ## Boundary

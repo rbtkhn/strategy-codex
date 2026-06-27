@@ -1,9 +1,9 @@
-# Legacy compatibility surface — `davis-baud-speaker-arc`
+# arc-baud-davis-host (compat redirect)
 
 WORK only; not Record.
 
-Canonical relational surface: [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
+**Canonical:** [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md)
 
-## Orthogonality guide
+Legacy path: `statecraft/channels/daniel-davis/davis-baud-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
 
-This file is only a compatibility alias. It is not a second arc and should never be treated as an independent retrieval surface beside the canonical [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md).
+Do not treat this as a second arc class.

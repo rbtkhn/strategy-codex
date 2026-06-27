@@ -6,9 +6,9 @@ Marandi repeatedly treats negotiations as low-trust, condition-bound, and vulner
 
 Best host lanes:
 
-- [Davis x Marandi](../channels/daniel-davis/davis-marandi-speaker-arc.md
-- [Diesen x Marandi](../diesen/diesen-marandi-speaker-arc.md
-- [Dialogue Works x Marandi](../channels/dialogue-works/nima-marandi-speaker-arc.md
+- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
 
 See also:
 

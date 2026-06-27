@@ -28,8 +28,8 @@ Use the shelf this way:
 | If the Codex needs... | Open first | Why |
 |---|---|---|
 | whole-object doctrine | [mercouris-speaker-object.md](mercouris-speaker-object.md) | This still names the correct inner object shape. |
-| the native continuity core | [stream/mercouris-arc.md](mercouris-arc.md) | The native stream arc remains the main continuity surface. |
-| recurring durable strands | [stream/mercouris-arc-threads.md](mercouris-arc-threads.md) | This is the canonical inner atlas of recurring strands. |
+| the native continuity core | [stream/arc-mercouris-continuity.md](arc-mercouris-continuity.md) | The native stream arc remains the main continuity surface. |
+| recurring durable strands | [stream/arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md) | This is the canonical inner atlas of recurring strands. |
 | origin tracing across the bounded 2025-present arc | [stream/mercouris-shelf-2025-01.md](mercouris-shelf-2025-01.md) | Start in January for the broad setup month, then move to February for the thinner hinge into the live negotiation-strain grammar. |
 | month-level synthesis across the live 2026 run | [stream/README.md](README.md) | The month ladder gives bounded Jan-May synthesis without replacing stream chronology. |
 | reinforcement beyond the native stream | [mercouris-cross-host-note.md](mercouris-cross-host-note.md) · guest list [mercouris-index.md](mercouris-index.md) | Cross-host reinforcement and exhaustive guest capture map. |

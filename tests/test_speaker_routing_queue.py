@@ -76,7 +76,7 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     assert row["recommended_route"].endswith("statecraft/voices/ritter/ritter-speaker-object.md")
     assert row["primary_route"] == row["recommended_route"]
     assert row["next_action"] == "create-candidate-arc"
-    assert row["also_strengthens"][0].endswith("codex/years/2026/nima/nima-ritter-speaker-arc.md")
+    assert row["also_strengthens"][0].endswith("codex/years/2026/nima/arc-ritter-nima-host.md")
     assert row["appearance"]["appearance_id"].startswith("ap-")
     assert row["appearance"]["speaker"] == "Scott Ritter"
     assert row["appearance"]["speaker_slug"] == "ritter"
@@ -96,7 +96,7 @@ def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -
     obj.write_text("# Macgregor speaker object\n", encoding="utf-8")
     note = obj.parent / "macgregor-cross-host-note.md"
     note.write_text("# Macgregor cross-host note\n", encoding="utf-8")
-    arc = notebook / "davis" / "davis-macgregor-speaker-arc.md"
+    arc = notebook / "davis" / "arc-macgregor-davis-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Davis x Macgregor\n", encoding="utf-8")
     inventory = srq._discover_inventory(speakers, notebook)
@@ -112,7 +112,7 @@ def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-arc"
-    assert row["recommended_route"].endswith("davis/davis-macgregor-speaker-arc.md")
+    assert row["recommended_route"].endswith("davis/arc-macgregor-davis-host.md")
     assert row["primary_route"] == row["recommended_route"]
     assert row["next_action"] == "update-existing-arc"
     assert _endswith_all(
@@ -126,7 +126,7 @@ def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -
 
 def test_host_guest_matching_existing_speaker_arc_routes_to_arc(tmp_path: Path) -> None:
     notebook, speakers, _ = _inventory(tmp_path)
-    arc = notebook / "davis" / "davis-macgregor-speaker-arc.md"
+    arc = notebook / "davis" / "arc-macgregor-davis-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Davis x Macgregor\n", encoding="utf-8")
     inventory = srq._discover_inventory(speakers, notebook)
@@ -142,7 +142,7 @@ def test_host_guest_matching_existing_speaker_arc_routes_to_arc(tmp_path: Path) 
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-arc"
-    assert row["recommended_route"].endswith("davis/davis-macgregor-speaker-arc.md")
+    assert row["recommended_route"].endswith("davis/arc-macgregor-davis-host.md")
     assert row["next_action"] == "update-existing-arc"
 
 
@@ -356,7 +356,7 @@ def test_cli_raw_input_mode_excludes_other_same_date_files(tmp_path: Path, capsy
 def test_legacy_host_metadata_keeps_host_slug_separate_from_thread(tmp_path: Path) -> None:
     notebook, speakers, _inventory_obj = _inventory(tmp_path)
     (speakers / "johnson").mkdir(parents=True)
-    arc = notebook / "napolitano" / "napolitano-johnson-speaker-arc.md"
+    arc = notebook / "napolitano" / "arc-johnson-napolitano-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Napolitano x Johnson\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2025-12-22" / "napolitano-johnson.md"
@@ -378,7 +378,7 @@ def test_legacy_host_metadata_keeps_host_slug_separate_from_thread(tmp_path: Pat
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-arc"
-    assert row["recommended_route"].endswith("napolitano/napolitano-johnson-speaker-arc.md")
+    assert row["recommended_route"].endswith("napolitano/arc-johnson-napolitano-host.md")
     assert row["appearance"]["speaker_slug"] == "johnson"
     assert row["appearance"]["host_slug"] == "napolitano"
     assert row["evidence_grade"] == "legacy-appearance-only"
@@ -387,7 +387,7 @@ def test_legacy_host_metadata_keeps_host_slug_separate_from_thread(tmp_path: Pat
 def test_davis_ranked_host_alias_canonicalizes_to_davis(tmp_path: Path) -> None:
     notebook, speakers, _inventory_obj = _inventory(tmp_path)
     (speakers / "barnes").mkdir(parents=True)
-    arc = notebook / "davis" / "davis-barnes-speaker-arc.md"
+    arc = notebook / "davis" / "arc-barnes-davis-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Davis x Barnes\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2026-04-03" / "davis-barnes.md"
@@ -410,7 +410,7 @@ def test_davis_ranked_host_alias_canonicalizes_to_davis(tmp_path: Path) -> None:
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-arc"
-    assert row["recommended_route"].endswith("davis/davis-barnes-speaker-arc.md")
+    assert row["recommended_route"].endswith("davis/arc-barnes-davis-host.md")
     assert row["appearance"]["speaker_slug"] == "barnes"
     assert row["appearance"]["host_slug"] == "davis"
 
@@ -418,7 +418,7 @@ def test_davis_ranked_host_alias_canonicalizes_to_davis(tmp_path: Path) -> None:
 def test_dialogue_works_short_host_alias_canonicalizes_to_nima(tmp_path: Path) -> None:
     notebook, speakers, _inventory_obj = _inventory(tmp_path)
     (speakers / "freeman").mkdir(parents=True)
-    arc = notebook / "nima" / "nima-freeman-arc.md"
+    arc = notebook / "nima" / "arc-freeman-nima-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Alkhorshid x Freeman\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2025-10-17" / "alkorshid-freeman.md"
@@ -441,7 +441,7 @@ def test_dialogue_works_short_host_alias_canonicalizes_to_nima(tmp_path: Path) -
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-arc"
-    assert row["recommended_route"].endswith("nima/nima-freeman-arc.md")
+    assert row["recommended_route"].endswith("nima/arc-freeman-nima-host.md")
     assert row["appearance"]["speaker_slug"] == "freeman"
     assert row["appearance"]["host_slug"] == "nima"
 
@@ -451,7 +451,7 @@ def test_cleaned_transcript_grade_is_preserved(tmp_path: Path) -> None:
     obj = speakers / "johnson" / "johnson-speaker-object.md"
     obj.parent.mkdir(parents=True)
     obj.write_text("# Johnson\n", encoding="utf-8")
-    arc = notebook / "davis" / "davis-johnson-speaker-arc.md"
+    arc = notebook / "davis" / "arc-johnson-davis-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Davis x Johnson\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2026-05-05" / "davis-johnson.md"
@@ -485,7 +485,7 @@ def test_summary_grade_is_preserved(tmp_path: Path) -> None:
     obj = speakers / "mearsheimer" / "mearsheimer-speaker-object.md"
     obj.parent.mkdir(parents=True)
     obj.write_text("# Mearsheimer\n", encoding="utf-8")
-    arc = notebook / "napolitano" / "napolitano-mearsheimer-arc.md"
+    arc = notebook / "napolitano" / "arc-mearsheimer-napolitano-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Napolitano x Mearsheimer\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2026-04-28" / "napolitano-mearsheimer.md"
@@ -517,7 +517,7 @@ def test_legacy_transcript_without_source_or_transcript_type_is_not_transcript_b
     obj = speakers / "freeman" / "freeman-speaker-object.md"
     obj.parent.mkdir(parents=True)
     obj.write_text("# Freeman\n", encoding="utf-8")
-    arc = notebook / "nima" / "nima-freeman-arc.md"
+    arc = notebook / "nima" / "arc-freeman-nima-host.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Alkhorshid x Freeman\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2025-08-22" / "alkorshid-freeman.md"

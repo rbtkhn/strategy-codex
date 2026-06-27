@@ -66,18 +66,18 @@ Do not extend this archived file. If current work needs this pattern, create or 
 - `Davis` practical-room law:
   - [statecraft/channels/daniel-davis/davis-host-law.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-host-law.md)
 - `Ritter` person arc:
-  - [statecraft/voices/ritter/ritter-arc.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-arc.md)
+  - [statecraft/notes/arc-ritter-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-continuity.md)
 - `Diesen` speaker object:
   - [statecraft/voices/diesen/diesen-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-speaker-object.md)
 - `Mercouris` front door and arc:
   - [statecraft/voices/mercouris/README.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/README.md)
-  - [statecraft/voices/mercouris/mercouris-arc.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-arc.md)
+  - [statecraft/notes/arc-mercouris-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mercouris-continuity.md)
 - `Mearsheimer` front door and arc:
   - [statecraft/voices/mearsheimer/README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/README.md)
-  - [statecraft/voices/mearsheimer/mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md)
+  - [statecraft/notes/arc-mearsheimer-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-continuity.md)
 - `Wilkerson` front door and arc:
   - [statecraft/voices/wilkerson/README.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/README.md)
-  - [statecraft/voices/wilkerson/wilkerson-arc.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-arc.md)
+  - [statecraft/notes/arc-wilkerson-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-continuity.md)
 
 **Current preset-support notes**
 

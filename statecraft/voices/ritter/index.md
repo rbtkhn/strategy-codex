@@ -7,7 +7,7 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 ## Open First
 
 - [Speaker profile](ritter-profile.md)
-- [Speaker arc](ritter-arc.md) - whole-speaker continuity and the canonical answer to who Ritter is as a speaker object.
+- [Speaker arc](arc-ritter-continuity.md) - whole-speaker continuity and the canonical answer to who Ritter is as a speaker object.
 - [Speaker routing note](ritter-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](ritter-source-index.md) - exhaustive route map for every resolved Ritter raw-input appearance currently materialized in the repo.
 - [Speaker helix note](ritter-helix.md) - why the host triple helix and authored/interview split fit together before you descend into one lane.
@@ -49,8 +49,8 @@ This wave does not yet promote individual Ritter theme files. The shelf now has 
 ## Host Arcs
 
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../notes/arc-ritter-diesen-host.md)
+- [Dialogue Works x Ritter](../../notes/arc-ritter-nima-host.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

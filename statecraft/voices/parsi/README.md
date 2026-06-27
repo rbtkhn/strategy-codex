@@ -9,16 +9,16 @@ Use it for speaker identity, authored/interview crossing, cross-context thread r
 ## Open First
 
 - [Speaker profile](parsi-profile.md) — identity, voice fingerprint, convergence/tension, links hub
-- [parsi-arc.md](parsi-arc.md)
+- [arc-parsi-continuity.md](arc-parsi-continuity.md)
 - [parsi-routing.md](parsi-routing.md)
 - [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - [parsi-source-index.md](parsi-source-index.md)
 - [parsi-helix.md](parsi-helix.md)
 - [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
-- [stream/parsi-march-2026-cross-context-arc.md](parsi-march-2026-cross-context-arc.md)
-- [stream/parsi-may-2026-cross-context-arc.md](parsi-may-2026-cross-context-arc.md)
-- [stream/parsi-june-2026-cross-context-arc.md](parsi-june-2026-cross-context-arc.md)
+- [stream/arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md)
+- [stream/arc-may-2026-cross-context-parsi-host.md](arc-may-2026-cross-context-parsi-host.md)
+- [stream/arc-june-2026-cross-context-parsi-host.md](arc-june-2026-cross-context-parsi-host.md)
 - [themes/README.md](README.md)
 - [parsi-historical-examples-audit.md](parsi-historical-examples-audit.md)
 
@@ -28,13 +28,13 @@ Parsi's canonical statecraft shelf is a **normalized cross-context shelf**, not 
 
 Its main speaker-owned layers are:
 
-- **Person arc:** [parsi-arc.md](parsi-arc.md)
+- **Person arc:** [arc-parsi-continuity.md](arc-parsi-continuity.md)
 - **Routing surface:** [parsi-routing.md](parsi-routing.md)
 - **Recurring thread atlas:** [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - **Authored/interview crossing:** [parsi-helix.md](parsi-helix.md)
 - **Authored mechanism spine:** [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - **Interview-pressure surface:** [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
-- **Bounded mature month support:** [stream/parsi-march-2026-cross-context-arc.md](parsi-march-2026-cross-context-arc.md), [stream/parsi-may-2026-cross-context-arc.md](parsi-may-2026-cross-context-arc.md), and [stream/parsi-june-2026-cross-context-arc.md](parsi-june-2026-cross-context-arc.md)
+- **Bounded mature month support:** [stream/arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md), [stream/arc-may-2026-cross-context-parsi-host.md](arc-may-2026-cross-context-parsi-host.md), and [stream/arc-june-2026-cross-context-parsi-host.md](arc-june-2026-cross-context-parsi-host.md)
 
 Support surfaces:
 

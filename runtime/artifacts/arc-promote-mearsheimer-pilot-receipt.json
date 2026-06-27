@@ -1,0 +1,35 @@
+{
+  "promotions": [
+    {
+      "from": "statecraft/channels/daniel-davis/davis-mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-davis-host.md"
+    },
+    {
+      "from": "statecraft/voices/diesen/diesen-mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-diesen-host.md"
+    },
+    {
+      "from": "statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md",
+      "to": "statecraft/notes/arc-mearsheimer-napolitano-host.md"
+    }
+  ],
+  "rewrites": [
+    "statecraft/voices/mearsheimer/index.md",
+    "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+    "statecraft/voices/mearsheimer/mearsheimer-helix.md",
+    "statecraft/voices/mearsheimer/mearsheimer-routing.md",
+    "statecraft/voices/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md",
+    "statecraft/voices/mearsheimer/README.md",
+    "statecraft/voices/diesen/diesen-mearsheimer-arc.md",
+    "statecraft/voices/diesen/index.md",
+    "statecraft/channels/daniel-davis/davis-mearsheimer-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-book-2026-04.md",
+    "statecraft/channels/judging-freedom/napolitano-book-2026-05.md",
+    "statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md",
+    "statecraft/channels/judging-freedom/napolitano-thread.md",
+    "statecraft/sheets/mearsheimer-structural-realist-scoreboard.md",
+    "codex/academy/statecraft/sheets/mearsheimer-structural-realist-scoreboard.md",
+    "codex/speaker-lattice.md",
+    "tests/test_speaker_routing_queue.py"
+  ]
+}

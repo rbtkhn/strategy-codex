@@ -9,4 +9,4 @@ April is the densest Freeman month for settlement failure, Hormuz pressure, bloc
 Open with:
 
 - [Freeman support spine](freeman-support-spine-2025-2026.md
-- [Legacy April cross-host arc](../../../statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md
+- [Legacy April cross-host arc](../../notes/arc-april-2026-cross-host-freeman-host.md

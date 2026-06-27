@@ -19,7 +19,7 @@ Open here first when the question is not merely "what did Armstrong say," but **
 
 This shelf already has a real canonical structure:
 
-- [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md) is the mature host-local branch
+- [arc-armstrong-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-armstrong-nima-host.md) is the mature host-local branch
 - [armstrong-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-speaker-object.md) defines the single-helix shape
 - [armstrong-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-cross-host-note.md) preserves the thinner outside-host reinforcement claim
 
@@ -29,5 +29,5 @@ Do not treat `armstrong-thread.md` as competing with the mature Dialogue Works b
 
 ## Host lanes
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md)
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/notes/arc-armstrong-nima-host.md)
 
