@@ -18,7 +18,7 @@ Current shelf jobs after this pass:
 | [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
 | [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md) | support spine | keep; speaker-owned maturity and host-led month-support explanation |
 | [mearsheimer-historical-examples-audit.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-historical-examples-audit.md) | support surface | keep; historical-pattern retrieval support |
-| [themes/README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/themes/README.md) | support surface | keep; theme pack, not chronology |
+| [themes/README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/README.md) | support surface | keep; theme pack, not chronology |
 | [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) | compatibility residue | keep demoted |
 | [mearsheimer-transcript.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-transcript.md) | compatibility residue | keep demoted |
 

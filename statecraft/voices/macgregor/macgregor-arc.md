@@ -16,7 +16,7 @@ Quick separation rule:
 - [macgregor-helix.md](macgregor-helix.md) = cross-host comparison of the main host transformations
 - [macgregor-routing.md](macgregor-routing.md) = fastest host-selection surface
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md) = maturity and month-support law
-- [stream/](stream/) = bounded 2026 monthly synthesis shelves
+- [stream/]() = bounded 2026 monthly synthesis shelves
 - host-local arcs = bounded realizations of Macgregor under one host's pressure
 
 ## Arc shape
@@ -25,12 +25,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-2. [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+1. [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+2. [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
 
 Reinforcing outer branch:
 
-- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
 
 ## What makes this an arc
 
@@ -51,8 +51,8 @@ That motion is broad enough that Macgregor deserves a person arc rather than onl
 
 Core host transformations:
 
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
 
 Supporting surfaces:
 
@@ -78,7 +78,7 @@ If the operator needs the strongest speaker-owned maturity and month-support exp
 
 If the operator needs a bounded 2026 month synthesis:
 
-- open [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md) or [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
+- open [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md) or [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 
 If the operator needs the fastest host-conditioned entry:
 
@@ -86,7 +86,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest direct branch:
 
-- open [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
+- open [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
 
 ## Boundary
 

@@ -31,9 +31,9 @@ The question Nima answers is usually not `what does the guest believe?` alone bu
 The older [statecraft/channels/dialogue-works/README.md](../../../statecraft/channels/dialogue-works/README.md) tree remains compatibility residue for:
 
 - [dialogue-works-channel-index.md](dialogue-works-channel-index.md) (provenance route map)
-- [stream/](../../../statecraft/channels/dialogue-works/stream/) guest arcs, monthly shelves, thread/transcript continuity
+- [stream/](../../../statecraft/channels/dialogue-works/) guest arcs, monthly shelves, thread/transcript continuity
 
-Use this repo-root shelf for live host-law and profile SSOT; descend into codex `stream/` and source-index when you need chronology or provenance breadth.
+Use this repo-root shelf for live host-law and profile SSOT; descend into guest-arc files and source-index when you need chronology or provenance breadth.
 
 ## Boundary
 

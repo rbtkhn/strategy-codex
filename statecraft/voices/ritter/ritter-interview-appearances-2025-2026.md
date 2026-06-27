@@ -81,9 +81,9 @@ Local interview appearance count: 49 captures.
 
 | host | function | open when |
 |---|---|---|
-| [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
+| [Diesen x Ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
 | [Davis host shelf](../../channels/daniel-davis/README.md) | operational feasibility | The question needs stockpiles, skies, basing, blockade practicality, or war-plan reality checks. |
-| [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/stream/nima-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
+| [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
 | [Napolitano host shelf](../../channels/judging-freedom/README.md) | legality and command failure | The question needs war powers, command absurdity, blockade illegitimacy, or legal-libertarian pressure. |
 | Garland Nixon x Ritter | constitutional decay / Kiev-targeting extension | The question needs anti-constitutional collapse framing fused to late-May Ukraine/Iran convergence from a non-canonical host. |
 | Cyrus Janssen x Ritter | energy and Hormuz shock | The question needs China/Asia-adjacent energy shock, Hormuz, or economic spillover from a non-core host. |
@@ -123,5 +123,5 @@ This is the crossing table between the interview strand and the authored Substac
 ## Verification Notes
 
 - Source Set intentionally includes 49 host-labeled captures, including the 2026-03-17, 2026-04-20, and 2026-05-18 Judging Freedom captures, the 2026-05-18 Consortium News debate capture, and the 2026-05-28 Garland Nixon reinforcement capture.
-- The authored [Ritter forecast ledger](stream/ritter-forecast-ledger-2026.md) remains Substack-only.
+- The authored [Ritter forecast ledger](ritter-forecast-ledger-2026.md) remains Substack-only.
 - This note preserves the existing triple helix: Diesen, Davis, and Dialogue Works remain canonical; Napolitano remains auxiliary legal reinforcement.

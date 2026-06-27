@@ -11,7 +11,7 @@ Use it when the notebook needs Beebe's intelligence-statecraft, escalation-manag
 - [index.md](index.md)
 - [beebe-speaker-object.md](beebe-speaker-object.md)
 - [beebe-cross-host-note.md](beebe-cross-host-note.md)
-- [Diesen x Beebe host-local arc](../diesen/stream/diesen-beebe-speaker-arc.md)
+- [Diesen x Beebe host-local arc](../diesen/diesen-beebe-speaker-arc.md)
 
 ## Current Shape
 

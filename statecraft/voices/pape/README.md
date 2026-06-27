@@ -12,7 +12,7 @@ Use it for speaker identity, authored forecast mechanism, interview-pressure tra
 - [pape-arc.md](pape-arc.md)
 - [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) — China industrial AI / Wuhan model (field-observation strand); chronology in [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [pape-routing.md](pape-routing.md)
-- [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
+- [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
 - [pape-source-index.md](pape-source-index.md)
 - [pape-helix.md](pape-helix.md)
@@ -25,7 +25,7 @@ Its main speaker-owned layers are:
 
 - **Person arc:** [pape-arc.md](pape-arc.md)
 - **Routing surface:** [pape-routing.md](pape-routing.md)
-- **Authored forecast spine:** [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
+- **Authored forecast spine:** [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - **Interview-pressure surface:** [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
 - **Authored/interview crossing:** [pape-helix.md](pape-helix.md)
 - **Source index:** [pape-source-index.md](pape-source-index.md)

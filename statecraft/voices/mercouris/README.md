@@ -23,13 +23,13 @@ Use it for speaker identity, stream-native continuity, route maps, bounded 2026 
 | **Guest / voice** | `mercouris-index.md` | Mercouris interviewed elsewhere (Davis, Diesen, Duran, …) |
 | **Host / channel** | `channels/alexander-mercouris/` | Solo `@AlexMercouris` uploads (`alexander-mercouris-channel-index.md`) |
 - [mercouris-support-spine-2025-2026.md](mercouris-support-spine-2025-2026.md)
-- [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md)
-- [stream/mercouris-shelf-2025-02.md](stream/mercouris-shelf-2025-02.md)
-- [stream/mercouris-shelf-2026-02.md](stream/mercouris-shelf-2026-02.md)
-- [stream/mercouris-shelf-2026-03.md](stream/mercouris-shelf-2026-03.md)
-- [stream/mercouris-shelf-2026-04.md](stream/mercouris-shelf-2026-04.md)
+- [stream/mercouris-shelf-2025-01.md](mercouris-shelf-2025-01.md)
+- [stream/mercouris-shelf-2025-02.md](mercouris-shelf-2025-02.md)
+- [stream/mercouris-shelf-2026-02.md](mercouris-shelf-2026-02.md)
+- [stream/mercouris-shelf-2026-03.md](mercouris-shelf-2026-03.md)
+- [stream/mercouris-shelf-2026-04.md](mercouris-shelf-2026-04.md)
 - [mercouris-historical-examples-audit.md](mercouris-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)
 
 ## Canonical Structure
 
@@ -46,8 +46,8 @@ Support and segmentation surfaces:
 - [mercouris-speaker-object.md](mercouris-speaker-object.md) remains the object-shape doctrine.
 - [mercouris-profile.md](mercouris-profile.md) is the canonical strategy-expert profile card.
 - [mercouris-cross-host-note.md](mercouris-cross-host-note.md) remains the reinforcement note.
-- [stream/mercouris-arc.md](stream/mercouris-arc.md) and [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md) remain the inner core logic.
-- [stream/README.md](stream/README.md) holds the bounded 2026 monthly synthesis shelves.
+- [stream/mercouris-arc.md](mercouris-arc.md) and [stream/mercouris-arc-threads.md](mercouris-arc-threads.md) remain the inner core logic.
+- [stream/README.md](README.md) holds the bounded 2026 monthly synthesis shelves.
 
 ## Monthly Shelf Rule
 
@@ -61,7 +61,7 @@ Mercouris now has a full canonical 2026 month ladder for the live year, plus bou
 ## Historical Scaffold
 
 - [Mercouris historical examples audit](mercouris-historical-examples-audit.md)
-- [Mercouris historical themes](themes/README.md)
+- [Mercouris historical themes](README.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Mercouris-specific bridge adapter.
 

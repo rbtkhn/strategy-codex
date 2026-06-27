@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 18 2026 — Jermy × Mercouris weave (Iran energy shock / Hormuz economics vs arsenal drain + Kiev spillover)
 
 **Pub date:** 2026-03-18  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Mercouris shelf — March dense core](../voices/mercouris/stream/mercouris-shelf-2026-03.md) · [Davis host index](../channels/daniel-davis/index.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Mercouris shelf — March dense core](../voices/mercouris/mercouris-shelf-2026-03.md) · [Davis host index](../channels/daniel-davis/index.md)
 
 **Sources:**
 
@@ -23,7 +23,7 @@ WORK only; not Record.
 
 Read **Jermy** for **whether the West can afford Hormuz closure and infrastructure tit-for-tat**; **Mercouris** for **how Iran drain re-prices the Kiev fight**, **arsenal depletion**, and **carrier/endurance failure**.
 
-**Prior arc:** [Feb-27 Davis × Jermy — Iran not buckling](../voices/jermy/jermy-source-index.md#2026-02) · [Jan-30 armada weave](./2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · **Forward:** [Mar 24 ORBAT / terms shelf](../synthesis/day/2026-03-24.md) · [Mar 26 Kharg capture gamble](../voices/mercouris/stream/mercouris-shelf-2026-03.md) · [Mar 19 gas-field escalation](../voices/mercouris/stream/mercouris-shelf-2026-03.md)
+**Prior arc:** [Feb-27 Davis × Jermy — Iran not buckling](../voices/jermy/jermy-source-index.md#2026-02) · [Jan-30 armada weave](./2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · **Forward:** [Mar 24 ORBAT / terms shelf](../synthesis/day/2026-03-24.md) · [Mar 26 Kharg capture gamble](../voices/mercouris/mercouris-shelf-2026-03.md) · [Mar 19 gas-field escalation](../voices/mercouris/mercouris-shelf-2026-03.md)
 
 ## Shared spine
 
@@ -32,8 +32,8 @@ Read **Jermy** for **whether the West can afford Hormuz closure and infrastructu
 | War duration | **Not** 3–4 day decapitation; Iran **viable**; Hormuz **shut** | **Decapitation failed** (hydra); Iran **holds together**; **no interim ceasefire** (Araghchi); military tempo **below opening days**; U.S. **not configured for long war** |
 | Oil / energy | **~$100**; **$150+** by month-end plausible; **SPR lid** fading | **Hormuz closed**; prices **rising**; **general energy shortage**; Gulf states ask if U.S. alliance was **trap**; **Bessent** won't block Iran exports |
 | Hormuz open? | **Slim** in **3 months**; naval mission **suicidal**; allies **refused** | **Ford** breakdown → **Crete** (not Arabian Sea); **Bessent** blocks tanker-insurance bailout; strait **still closed** in-program |
-| Kharg / islands | **Seize-and-hold fantasy**; **retain Kharg** = Iwo-level casualties | **Not in-body** this episode — forward: [Mar 26 **Kharg capture gamble**](../voices/mercouris/stream/mercouris-shelf-2026-03.md) |
-| Infrastructure war | **Guardian** Israel gas-field → Iran **Gulf petrochemical** warning; **20%** supply shock → **depression** tail | Civilian toll Iran strikes; Gulf **royal-family** future anxiety; pairs next day [Mar 19 **gas-field zero restraint**](../voices/mercouris/stream/mercouris-shelf-2026-03.md) |
+| Kharg / islands | **Seize-and-hold fantasy**; **retain Kharg** = Iwo-level casualties | **Not in-body** this episode — forward: [Mar 26 **Kharg capture gamble**](../voices/mercouris/mercouris-shelf-2026-03.md) |
+| Infrastructure war | **Guardian** Israel gas-field → Iran **Gulf petrochemical** warning; **20%** supply shock → **depression** tail | Civilian toll Iran strikes; Gulf **royal-family** future anxiety; pairs next day [Mar 19 **gas-field zero restraint**](../voices/mercouris/mercouris-shelf-2026-03.md) |
 | Russia winner? | **Net exporter** insulated; sanctions on Russia **futile** | Russia aids Iran **without great resource stress**; **higher oil** helps Moscow; 2024 **proxy-warning** consistency on base strikes |
 | Europe | **Acutely vulnerable**; should **stop Russia sanctions**; **Qatar gas** | **Zelensky panic tour**; diplomats lack **bandwidth**; **Druzhba** inspection standoff; **De Wever** reopen Russia talks |
 | Ukraine link | Out of scope in Jermy block | **Weapons flow basically stopped** — **nothing for Ukraine**; Patriots exhausted in Middle East; **Kostyantynivka** cauldron |
@@ -70,7 +70,7 @@ Read **Jermy** for **whether the West can afford Hormuz closure and infrastructu
 | --- | --- | --- | --- |
 | Can West endure Hormuz closure economically? | **No** — inflation, rationing, **political volatility** (Sri Lanka precedent) | **Recession** threat global + U.S.; **weeks** to normalize energy even if war ends; Bessent **weakness** | Jermy = **mechanism**; Mercouris = **political calendar + Treasury constraint** |
 | Can navy reopen strait? | **No** — **9/10** fail without securing north shore; Europeans **won't** | **Ford** fails forward deploy; tempo **sharp reduction** coming; gravity-bomb workaround only | Jermy = **engineering**; Mercouris = **posture + endurance collapse** |
-| Kharg seizure? | **Fantasy** — **retain Kharg** suicidal | **Silent** Mar 18 — [Mar 26 U.S. gambles on Kharg](../voices/mercouris/stream/mercouris-shelf-2026-03.md) | Jermy **early debunk** → Mercouris **later deployment rumor** |
+| Kharg seizure? | **Fantasy** — **retain Kharg** suicidal | **Silent** Mar 18 — [Mar 26 U.S. gambles on Kharg](../voices/mercouris/mercouris-shelf-2026-03.md) | Jermy **early debunk** → Mercouris **later deployment rumor** |
 | Russia sanctions? | Europe should **lift** — national interest | Higher oil **helps Russia**; aid to Iran **low cost** for Moscow | Jermy **prescriptive**; Mercouris **reported + strategic interest** |
 | Ukraine? | — | **Deprioritized** — flow **basically stopped** | **Do not collapse** wars — link via **arsenal/attention/bandwidth** |
 | Mediation? | **Russia + China**; Iran won't trust West | Iran **no ceasefire**; Russia/China want Iran **standing** | Jermy names **mediators**; Mercouris tracks **incentive to prolong** |
@@ -83,7 +83,7 @@ Read **Jermy** for **whether the West can afford Hormuz closure and infrastructu
 - [Feb-27 Davis × Jermy](../voices/jermy/jermy-source-index.md#2026-02) — **Ford off Haifa** / Iran **not buckling** → Mar 18 **Hormuz economics**
 - [Marandi Mar 18 Diesen](../voices/marandi/marandi-source-index.md) — **gas-field** strike same day as Jermy **infrastructure** block
 - [Mar 24 Pape × Mercouris ORBAT](../synthesis/day/2026-03-24.md) — **4 divisions** after Jermy **ally naval refusal**
-- [Mar 26 Kharg capture](../voices/mercouris/stream/mercouris-shelf-2026-03.md) — tests Jermy **Kharg fantasy** row
+- [Mar 26 Kharg capture](../voices/mercouris/mercouris-shelf-2026-03.md) — tests Jermy **Kharg fantasy** row
 
 ## Falsifiers
 

@@ -12,5 +12,5 @@ The 2025 backfill shows that the Johnson triple helix did not need 2026 to becom
 
 - [johnson-routing.md](johnson-routing.md) for the fastest speaker-side route
 - [johnson-helix.md](johnson-helix.md) for the canonical host-comparison note
-- [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md) for the dense-core recurring strands
+- [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md) for the dense-core recurring strands
 - this note for the claim that the helix was already materially complete before the dense 2026 core

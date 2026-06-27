@@ -12,8 +12,8 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 - [Source index](mercouris-source-index.md)
 - [Speaker crossing note](mercouris-helix.md)
 - [Support spine](mercouris-support-spine-2025-2026.md)
-- [2026-02 bridge shelf](stream/mercouris-shelf-2026-02.md)
-- [2026-03 dense-core shelf](stream/mercouris-shelf-2026-03.md)
+- [2026-02 bridge shelf](mercouris-shelf-2026-02.md)
+- [2026-03 dense-core shelf](mercouris-shelf-2026-03.md)
 - [Historical examples audit](mercouris-historical-examples-audit.md)
 
 ## Surface Grammar
@@ -33,16 +33,16 @@ Compatibility residue:
 
 - [Profile compatibility redirect](../../../codex/profiles/mercouris-profile.md)
 
-- [Thread compatibility file](../../../statecraft/voices/mercouris/stream/mercouris-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/mercouris/stream/mercouris-transcript.md)
+- [Thread compatibility file](../../../statecraft/voices/mercouris/mercouris-thread.md)
+- [Transcript compatibility file](../../../statecraft/voices/mercouris/mercouris-transcript.md)
 - [Legacy page residue](../../../statecraft/voices/mercouris/stream)
 
 ## Monthly Shelf Layer
 
-- [2026-01](stream/mercouris-shelf-2026-01.md)
-- [2026-02](stream/mercouris-shelf-2026-02.md)
-- [2026-03](stream/mercouris-shelf-2026-03.md)
-- [2026-04](stream/mercouris-shelf-2026-04.md)
-- [2026-05](stream/mercouris-shelf-2026-05.md)
+- [2026-01](mercouris-shelf-2026-01.md)
+- [2026-02](mercouris-shelf-2026-02.md)
+- [2026-03](mercouris-shelf-2026-03.md)
+- [2026-04](mercouris-shelf-2026-04.md)
+- [2026-05](mercouris-shelf-2026-05.md)
 
 These monthly files are bounded synthesis shelves. They do not replace stream-owned chronology or the support spine's maturity law.

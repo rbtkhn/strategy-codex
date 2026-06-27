@@ -17,7 +17,7 @@ This is not the same shape as a dense host-transformation shelf. Parsi's stronge
 
 | Track | Primary surface | What it reveals best |
 |---|---|---|
-| Authored diplomacy track | [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md) | Implementation over symbolism, coercion failure, sanctions relief, guarantees, and regional security architecture |
+| Authored diplomacy track | [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md) | Implementation over symbolism, coercion failure, sanctions relief, guarantees, and regional security architecture |
 | Interview-pressure track | [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md) | How the authored mechanism behaves under Davis, Napolitano, Freeman, Duran/Mercouris, and Diesen pressure |
 
 ## Boundary

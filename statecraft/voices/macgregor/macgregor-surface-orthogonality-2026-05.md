@@ -8,11 +8,11 @@ Local surfaces under review:
 
 - [macgregor-helix.md](macgregor-helix.md)
 - [macgregor-routing.md](macgregor-routing.md)
-- [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
-- [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
-- [davis-macgregor-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-- [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [napolitano-macgregor-speaker-arc.md](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
+- [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
+- [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- [davis-macgregor-speaker-arc.md](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+- [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
+- [napolitano-macgregor-speaker-arc.md](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
 - [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md)
 

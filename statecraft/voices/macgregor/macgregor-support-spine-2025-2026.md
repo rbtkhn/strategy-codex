@@ -19,7 +19,7 @@ Quick separation rule:
 - [macgregor-routing.md](macgregor-routing.md) = fastest lane or month selection
 - [macgregor-source-index.md](macgregor-source-index.md) = source bench
 - [macgregor-helix.md](macgregor-helix.md) = cross-host comparison
-- [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
+- [stream/README.md](README.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Core maturity claim
@@ -46,9 +46,9 @@ not:
 
 | Host lane | Speaker-owned role | Best use |
 |---|---|---|
-| [davis-macgregor-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md) | practical severity lane | force-feasibility failure, imperial overreach, inflation/logistics pain, domestic political danger |
-| [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md) | altitude lane | NATO fracture, imperial distance, order consequence, Europe-Gulf linkage |
-| [napolitano-macgregor-speaker-arc.md](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md) | auxiliary indictment lane | undeclared-war normality, elite war-planning indictment, anti-aggression pressure |
+| [davis-macgregor-speaker-arc.md](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md) | practical severity lane | force-feasibility failure, imperial overreach, inflation/logistics pain, domestic political danger |
+| [diesen-macgregor-speaker-arc.md](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md) | altitude lane | NATO fracture, imperial distance, order consequence, Europe-Gulf linkage |
+| [napolitano-macgregor-speaker-arc.md](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md) | auxiliary indictment lane | undeclared-war normality, elite war-planning indictment, anti-aggression pressure |
 | Mario Nawfal raw-input surfaces | public-compression lane | fast public-facing translation of unconquerability, Netanyahu-veto pressure, energy shock, and domestic-legitimacy danger |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
@@ -62,9 +62,9 @@ Status: real opening run, not prehistory
 Open:
 
 - [macgregor-source-index.md](macgregor-source-index.md)
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
 - [source-archive/statecraft/2025-03.md](../../../source-archive/statecraft/2025-03.md)
 - [source-archive/statecraft/2025-04.md](../../../source-archive/statecraft/2025-04.md)
 - [source-archive/statecraft/2025-05.md](../../../source-archive/statecraft/2025-05.md)
@@ -81,8 +81,8 @@ Why:
 Best reading:
 
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
 
 Why:
 
@@ -95,7 +95,7 @@ Status: continuity carryover
 
 Open:
 
-- [stream/macgregor-shelf-2026-01.md](stream/macgregor-shelf-2026-01.md)
+- [stream/macgregor-shelf-2026-01.md](macgregor-shelf-2026-01.md)
 - [source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md](../../../source-archive/statecraft/2026-01-22/source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
 - [source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md](../../../source-archive/statecraft/2026-01-07/source-judging-freedom-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
 
@@ -110,7 +110,7 @@ Status: continuity carryover
 
 Open:
 
-- [stream/macgregor-shelf-2026-02.md](stream/macgregor-shelf-2026-02.md)
+- [stream/macgregor-shelf-2026-02.md](macgregor-shelf-2026-02.md)
 - [source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md](../../../source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
 - [source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md](../../../source-archive/statecraft/2026-02-26/source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
 
@@ -125,10 +125,10 @@ Status: mature retrieval month
 
 Open:
 
-- [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-- [Napolitano x Macgregor](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+- [Napolitano x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
 
 Best raw-input cluster:
 
@@ -148,7 +148,7 @@ Status: mature retrieval month
 
 Open:
 
-- [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
+- [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 - [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 - [source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
 - [source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md](../../../source-archive/statecraft/2026-04-29/source-daniel-davis-macgregor-trump-dangerous-2026-04-29.md)
@@ -169,7 +169,7 @@ Status: support-only month
 
 Open:
 
-- [stream/macgregor-shelf-2026-05.md](stream/macgregor-shelf-2026-05.md)
+- [stream/macgregor-shelf-2026-05.md](macgregor-shelf-2026-05.md)
 - [source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md](../../../source-archive/statecraft/2026-05-05/source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 - [source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md)
 - [source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md](../../../source-archive/statecraft/2026-05-21/source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)

@@ -4,7 +4,7 @@
 **Project:** Operator strategy-codex (grace-mar work-strategy)
 
 > [!IMPORTANT]
-> Path contract update: `codex/years/2026/` is no longer a live people-lane volume. It is reserved for dated provenance via `source-archive/statecraft/`. Canonical people shelves live under `statecraft/voices/<name>/` and host-family continuity under `statecraft/channels/<name>/`, with host-local guest arcs typically under `stream/`. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
+> Path contract update: `codex/years/2026/` is no longer a live people-lane volume. It is reserved for dated provenance via `source-archive/statecraft/`. Canonical people shelves live under `statecraft/voices/<name>/` and host-family continuity under `statecraft/channels/<name>/`, with host-local guest arcs as flat files under each channel shelf. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
 
 > [!NOTE]
 > **Strategy-notebook namespace deprecated (2026-06-23):** Say **`strategy-codex`** / **`codex/`** for new work. Compat **`docs/.../strategy-notebook/`** is redirect-only. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md). Bulk inline **`strategy-notebook`** path tokens in this file are being retired in a follow-up pass.
@@ -220,7 +220,7 @@ Single entry point (working name **`strategy_ingest`** or fold into **`strategy_
 
 #### Worked example ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Alexander Mercouris ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· air date **2026-04-16**
 
-Source: a time-scoped Mercouris transcript fence under `statecraft/voices/mercouris/stream/` at **`## 2026-04-16`** (thesis-scaffold verbatim trimmed to policy). **Shape** for bold theses + separated paragraphs: [strategy-expert-template.md#thesis-scaffold-pattern](strategy-expert-template.md#thesis-scaffold-pattern). Below: **five theses** in narrative order, each with **sample verbatim sentences** (short excerpt table ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â same episode).
+Source: a time-scoped Mercouris transcript fence under `statecraft/voices/mercouris/` at **`## 2026-04-16`** (thesis-scaffold verbatim trimmed to policy). **Shape** for bold theses + separated paragraphs: [strategy-expert-template.md#thesis-scaffold-pattern](strategy-expert-template.md#thesis-scaffold-pattern). Below: **five theses** in narrative order, each with **sample verbatim sentences** (short excerpt table ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â same episode).
 
 | Order | Thesis (operator label) | Verbatim scaffold (excerpts) |
 |------|-------------------------|--------------------------------|

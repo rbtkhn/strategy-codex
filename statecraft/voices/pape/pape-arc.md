@@ -12,7 +12,7 @@ Quick separation rule:
 
 - `pape-arc` = whole-speaker continuity across authored and interview contexts
 - [pape-helix.md](pape-helix.md) = the authored/interview crossing surface
-- [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md) = the authored forecast mechanism
+- [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md) = the authored forecast mechanism
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md) = the interview-pressure strand
 
 ## Arc Shape
@@ -38,7 +38,7 @@ If the operator needs the strongest whole-speaker entry:
 If the operator needs the mechanism first:
 
 - open [arc-pape-escalation-trap.md](../../notes/arc-pape-escalation-trap.md) — **Escalation Trap season** (Feb 25 → Jun 17); opening week [§ Phases I–V](../../notes/arc-pape-escalation-trap.md#opening-week-phases-i-v)
-- open [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
+- open [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 
 If the operator needs China industrial AI / implementation (not Iran trap):
 

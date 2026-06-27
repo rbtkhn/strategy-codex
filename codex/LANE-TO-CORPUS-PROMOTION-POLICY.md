@@ -21,7 +21,7 @@ The default pattern is:
 - analyst shelf in `statecraft/voices/<name>/`
 - host-family shelf in `statecraft/channels/<host>/` when guest-on-host law applies
 - source capture in `source-archive/statecraft/YYYY-MM-DD/`
-- host-local guest transformations owned by the channel shelf, typically under `statecraft/channels/<host>/stream/`
+- host-local guest transformations owned by the channel shelf as flat files (e.g. `davis-<guest>-speaker-arc.md`)
 
 ## Promotion question
 
@@ -30,16 +30,16 @@ The promotion decision is no longer "should this person get a year-lane?"
 The real question is:
 
 - should the person remain a lightweight speaker shelf over shared archive captures
-- or should the person gain a richer speaker-owned corpus inside `statecraft/voices/<name>/stream/`
+- or should the person gain a richer speaker-owned corpus inside `statecraft/voices/<name>/`
 - or, in rarer cases, should work also justify a dedicated external research corpus outside the speaker shelf
 
 ## Promote within `statecraft/voices` when
 
-A speaker should gain richer `stream/` structure when most of the payoff comes from continuity rather than single captures:
+A speaker should gain richer flat-shelf structure when most of the payoff comes from continuity rather than single captures:
 
 - sustained source volume
 - repeated reuse in notebook work
-- recurring host transformations worth preserving (route guest arcs under the relevant `statecraft/channels/<host>/stream/` shelf)
+- recurring host transformations worth preserving (route guest arcs as flat files under `statecraft/channels/<host>/`)
 - chronology or quote pressure that a thin route map no longer handles well
 - clear savings from lane-specific manifests, ledgers, shelves, or cross-host notes
 

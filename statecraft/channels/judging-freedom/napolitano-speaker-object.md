@@ -31,7 +31,7 @@ Napolitano should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [statecraft/channels/judging-freedom/stream/](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/)
+- the main body of the object is [statecraft/channels/judging-freedom/](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/)
 - the speaker folder exists so Napolitano can sit beside `Davis`, `Diesen`, and the guest-centered objects as a peer object
 - the notebook should not force Napolitano into helix language when the native host stream is already the clearest entry path
 
@@ -43,7 +43,7 @@ If the operator needs the main body of the object:
 
 If the operator needs the host-local transformation of a specific guest:
 
-- open one of the host-local arc notes in the `napolitano/` shelf, for example [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-johnson-speaker-arc.md) or [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-ritter-speaker-arc.md)
+- open one of the host-local arc notes in the `napolitano/` shelf, for example [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-johnson-speaker-arc.md) or [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-ritter-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

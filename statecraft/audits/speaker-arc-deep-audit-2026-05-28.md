@@ -9,7 +9,7 @@ Scope:
 - canonical speaker shelves under `statecraft/voices/`
 - top-level speaker shelf doctrine in [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md)
 - top-level shelf surfaces (`README.md`, `index.md`, `*-arc.md`, `*-routing.md`, `*-source-index.md`, `*-support-spine*.md`, `*-helix.md`)
-- speaker-owned `stream/` and `themes/` surfaces where present
+- speaker-owned flat shelf files and theme registers where present
 
 Explicit carveout:
 
@@ -63,7 +63,7 @@ Practical class map:
 
 The top-level doctrine in [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md) broadly matches the actual corpus:
 
-- all six normalized shelves have `README.md`, `index.md`, arc, routing, provenance bench, support spine, `stream/`, and `themes/`
+- all six normalized shelves have `README.md`, `index.md`, arc, routing, provenance bench, support spine, monthly shelves, and theme registers
 - all six normalized shelves have a full bounded `2026-01` through `2026-05` monthly ladder
 - lighter shelves are compact and consistent rather than pretending to be mature ladders
 - cross-context shelves use a different internal law instead of being forced into fake month symmetry
@@ -98,12 +98,12 @@ All normalized shelves expose:
 
 Verified for:
 
-- [crooke/stream](../speakers/crooke/stream/README.md)
-- [freeman/stream](../speakers/freeman/stream/README.md)
-- [johnson/stream](../speakers/johnson/stream/README.md)
-- [macgregor/stream](../speakers/macgregor/stream/README.md)
-- [mercouris/stream](../speakers/mercouris/stream/README.md)
-- [ritter/stream](../speakers/ritter/stream/README.md)
+- [crooke/stream](../speakers/crooke/crooke-monthly-shelves.md)
+- [freeman/stream](../speakers/freeman/freeman-monthly-shelves.md)
+- [johnson/stream](../speakers/johnson/johnson-monthly-shelves.md)
+- [macgregor/stream](../speakers/macgregor/macgregor-monthly-shelves.md)
+- [mercouris/stream](../speakers/mercouris/mercouris-monthly-shelves.md)
+- [ritter/stream](../speakers/ritter/ritter-monthly-shelves.md)
 
 This is valuable because it means the structural grammar is already reusable once link-law is repaired.
 
@@ -127,8 +127,8 @@ Representative files:
 
 - [statecraft/voices/crooke/crooke-source-index.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-source-index.md)
 - [statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md)
-- [statecraft/voices/mercouris/stream/mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-arc-threads.md)
-- [statecraft/voices/mercouris/stream/mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/stream/mercouris-shelf-2026-01.md)
+- [statecraft/voices/mercouris/mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-arc-threads.md)
+- [statecraft/voices/mercouris/mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-shelf-2026-01.md)
 - [statecraft/voices/macgregor/macgregor-source-index.md](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-source-index.md)
 - [statecraft/voices/ritter/ritter-source-index.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-source-index.md)
 - [statecraft/voices/sachs/sachs-routing.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-routing.md)
@@ -158,7 +158,7 @@ Representative failure patterns:
 - `/C:/dev/strategy-codex/codex/years/2026/provenance/...`
 - `mercouris-thread.md`
 - `mercouris-page-2026-04-05.md`
-- `../diesen/stream/diesen-crooke-speaker-arc.md`
+- `../diesen/diesen-crooke-speaker-arc.md`
 - `../../academy/statecraft/states/...`
 
 ### [P1] Top-level doctrine is missing two real shelf classes that now exist on disk

@@ -355,3 +355,14 @@ Instead:
 - preserve cross-context shelves where source-class crossing is primary
 - preserve host-led mature-month exception shelves where month ownership still belongs to host arcs and the non-core bench
 - let canonical statecraft-side authority migrate first, then migrate heavier support only where that second step makes chronology and retrieval cleaner rather than merely more symmetrical
+
+## Flat shelf law
+
+**Effective 2026-06:** every speaker shelf root is **flat**.
+
+- `statecraft/voices/<speaker>/` contains **files only** — no subdirectories under a speaker folder.
+- Monthly synthesis shelves (`{speaker}-shelf-YYYY-MM.md`), guest arcs (`{speaker}-{guest}-speaker-arc.md`), theme registers (`{speaker}-themes.md`), and thread atlases use **filename grammar**, not `stream/` or `themes/` nesting.
+- Legacy paths `voices/<speaker>/stream/` and `voices/<speaker>/themes/` are **terminated** — use flat paths only.
+- Root meta under `voices/` (`_scratch/`, `_templates/`, `map/`, `relations/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only.
+
+Migration script: [`scripts/flatten_statecraft_shelves.py`](../../scripts/flatten_statecraft_shelves.py). Validator: [`tests/test_flat_statecraft_shelves.py`](../../tests/test_flat_statecraft_shelves.py).

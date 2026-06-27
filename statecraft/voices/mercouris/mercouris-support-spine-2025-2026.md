@@ -16,8 +16,8 @@ Quick separation rule:
 - [mercouris-routing.md](mercouris-routing.md) = fastest arc or month selection
 - [mercouris-source-index.md](mercouris-source-index.md) = source bench
 - [mercouris-helix.md](mercouris-helix.md) = crossing-surface wrapper
-- [stream/mercouris-arc.md](stream/mercouris-arc.md) = inner continuity core
-- [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
+- [stream/mercouris-arc.md](mercouris-arc.md) = inner continuity core
+- [stream/README.md](README.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Month-status law

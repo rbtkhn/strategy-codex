@@ -8,10 +8,10 @@ Purpose: define `parsi-arc` as the canonical person-level continuity surface for
 
 - `parsi-arc` = whole-speaker continuity across authored and interview contexts, hosts, and time
 - [parsi-routing.md](parsi-routing.md) = fast context-and-task routing
-- [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md) = recurring cross-context thread atlas
+- [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md) = recurring cross-context thread atlas
 - [parsi-helix.md](parsi-helix.md) = authored/interview crossing
 - [parsi-speaker-object.md](parsi-speaker-object.md) = object-definition and stack note
-- [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md) = authored diplomacy mechanism
+- [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md) = authored diplomacy mechanism
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md) = interview-pressure surface
 
 ## Arc Shape

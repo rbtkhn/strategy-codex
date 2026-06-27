@@ -13,12 +13,12 @@ Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-c
 - [johnson-source-index.md](johnson-source-index.md)
 - [johnson-helix.md](johnson-helix.md)
 - [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md)
-- [stream/johnson-shelf-2026-03.md](stream/johnson-shelf-2026-03.md)
-- [stream/johnson-shelf-2026-04.md](stream/johnson-shelf-2026-04.md)
-- [stream/johnson-shelf-2026-05.md](stream/johnson-shelf-2026-05.md)
-- [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md)
+- [stream/johnson-shelf-2026-03.md](johnson-shelf-2026-03.md)
+- [stream/johnson-shelf-2026-04.md](johnson-shelf-2026-04.md)
+- [stream/johnson-shelf-2026-05.md](johnson-shelf-2026-05.md)
+- [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md)
 - [johnson-historical-examples-audit.md](johnson-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)
 
 ## Surface Grammar
 
@@ -38,14 +38,14 @@ Johnson's canonical statecraft shelf now has six speaker-owned layers:
 - **Source index:** [johnson-source-index.md](johnson-source-index.md) remains the canonical route map for materialized Johnson appearances.
 - **Crossing surface:** [johnson-helix.md](johnson-helix.md) explains the stable host transformations inside the Johnson object.
 - **Support spine:** [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the bounded month ladder relates to host-owned chronology.
-- **Bounded month ladder:** [stream/README.md](stream/README.md) holds the canonical January through May 2026 synthesis shelves.
+- **Bounded month ladder:** [stream/README.md](README.md) holds the canonical January through May 2026 synthesis shelves.
 
 Additional canonical support surfaces:
 
 - [johnson-cross-year-note.md](johnson-cross-year-note.md)
 - [johnson-backward-extension-note.md](johnson-backward-extension-note.md)
 - [johnson-surface-orthogonality-2026-05.md](johnson-surface-orthogonality-2026-05.md)
-- [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md)
+- [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md)
 
 ## Monthly Shelf Rule
 
@@ -59,7 +59,7 @@ Johnson now has a full canonical January through May 2026 month ladder for the l
 ## Historical Scaffold
 
 - [Johnson historical examples audit](johnson-historical-examples-audit.md)
-- [Johnson historical themes](themes/README.md)
+- [Johnson historical themes](README.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Johnson-specific bridge adapter.
 
@@ -73,9 +73,9 @@ The legacy `statecraft/voices/johnson/` path is now front-door compatibility onl
 
 ## Host Lanes
 
-- [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md)
+- [Diesen x Johnson](../../../statecraft/voices/diesen/diesen-johnson-speaker-arc.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/stream/nima-johnson-speaker-arc.md)
+- [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

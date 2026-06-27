@@ -41,7 +41,7 @@ Use that when the task is to judge whether Martyanov already had a meaningful Ni
 
 ## Open Davis First
 
-Open [Davis x Martyanov](../../../statecraft/channels/daniel-davis/stream/davis-martyanov-speaker-arc.md) first when the real question is:
+Open [Davis x Martyanov](../../../statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md) first when the real question is:
 
 - how will this battlefield actually end
 - what does attrition or military feasibility say about the public story
@@ -54,7 +54,7 @@ Best direct anchors:
 
 ## Open Diesen First
 
-Open [Diesen x Martyanov](../../../statecraft/voices/diesen/stream/diesen-martyanov-speaker-arc.md) first when the notebook already accepts the force-reality question and now needs:
+Open [Diesen x Martyanov](../../../statecraft/voices/diesen/diesen-martyanov-speaker-arc.md) first when the notebook already accepts the force-reality question and now needs:
 
 - order-consequence
 - escalation horizon

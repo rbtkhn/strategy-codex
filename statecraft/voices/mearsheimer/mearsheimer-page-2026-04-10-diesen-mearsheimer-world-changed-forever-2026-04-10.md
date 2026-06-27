@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Expert:** `mearsheimer` · **Interviewer (show):** Glenn Diesen (Greater Eurasia) · **Published:** 2026-04-10 · **Capture:** two-expert YT (Diesen) — *World Changed Forever as Iran Defeated the U.S.* · **Artifact:** refined page — **guest lane** (structural realism / U.S. grand strategy). Sibling **host** **lane:** [diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md).
+**Expert:** `mearsheimer` · **Interviewer (show):** Glenn Diesen (Greater Eurasia) · **Published:** 2026-04-10 · **Capture:** two-expert YT (Diesen) — *World Changed Forever as Iran Defeated the U.S.* · **Artifact:** refined page — **guest lane** (structural realism / U.S. grand strategy). Sibling **host** **lane:** [diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md).
 
 ---
 
@@ -19,7 +19,7 @@ NATO: Europe as the likely Trump scapegoat; transatlantic partnership effectivel
 
 ### Reflection
 
-Guest lane holds the structural theses. Host lane [diesen file](../diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) holds interview order and the multipolarity “you and I have spoken” bridge. The earlier monolithic [mearsheimer-page-2026-04-10-world-changed-forever.md](mearsheimer-page-2026-04-10-world-changed-forever.md) duplicated the full text from raw; it is now a **stub** — use this page plus `raw-input` and the host page for the lane split.
+Guest lane holds the structural theses. Host lane [diesen file](../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) holds interview order and the multipolarity “you and I have spoken” bridge. The earlier monolithic [mearsheimer-page-2026-04-10-world-changed-forever.md](mearsheimer-page-2026-04-10-world-changed-forever.md) duplicated the full text from raw; it is now a **stub** — use this page plus `raw-input` and the host page for the lane split.
 
 ### Foresight
 
@@ -33,6 +33,6 @@ Guest lane holds the structural theses. Host lane [diesen file](../diesen/stream
 
 - **Full verbatim (capture):** [provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../years/2026/provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-10)
-- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) · **verify:** `pub_date:2026-04-10` + `watch?v=H2K3qDshr70`
+- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) · **verify:** `pub_date:2026-04-10` + `watch?v=H2K3qDshr70`
 - **Canonical primary:** `https://www.youtube.com/watch?v=H2K3qDshr70`
 - **Legacy (stub, duplicate transcript removed):** [mearsheimer-page-2026-04-10-world-changed-forever.md](mearsheimer-page-2026-04-10-world-changed-forever.md)

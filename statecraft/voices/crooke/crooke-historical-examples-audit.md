@@ -25,7 +25,7 @@ Discovery and routing base:
 - [Crooke source index](crooke-source-index.md)
 - [Crooke helix](crooke-helix.md)
 - [Crooke interview appearances](crooke-interview-appearances-2025-2026.md)
-- [Crooke forecast ledger](stream/crooke-forecast-ledger-2026.md)
+- [Crooke forecast ledger](crooke-forecast-ledger-2026.md)
 - host-local arcs in `diesen/`, `davis/`, `nima/`, and `napolitano/`
 
 Interpretive source base:

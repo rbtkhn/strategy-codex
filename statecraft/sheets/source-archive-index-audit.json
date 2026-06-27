@@ -98,58 +98,58 @@
   "candidate_arc_index_surfaces": [
     {
       "speaker": "crooke",
-      "path": "statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md"
+      "path": "statecraft/voices/crooke/crooke-march-may-2026-interview-arc-threads.md"
     },
     {
       "speaker": "freeman",
-      "path": "statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md"
+      "path": "statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md"
     },
     {
       "speaker": "johnson",
-      "path": "statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md"
+      "path": "statecraft/voices/johnson/johnson-april-may-2026-arc-threads.md"
     },
     {
       "speaker": "marandi",
-      "path": "statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md"
+      "path": "statecraft/voices/marandi/marandi-2025-present-arc-threads.md"
     },
     {
       "speaker": "mercouris",
-      "path": "statecraft/voices/mercouris/stream/mercouris-arc-threads.md"
+      "path": "statecraft/voices/mercouris/mercouris-arc-threads.md"
     },
     {
       "speaker": "parsi",
-      "path": "statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md"
+      "path": "statecraft/voices/parsi/parsi-2025-present-arc-threads.md"
     }
   ],
   "weak_justification_signals": [
     {
       "speaker": "crooke",
-      "path": "statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md",
+      "path": "statecraft/voices/crooke/crooke-march-may-2026-interview-arc-threads.md",
       "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
     },
     {
       "speaker": "freeman",
-      "path": "statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md",
+      "path": "statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md",
       "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
     },
     {
       "speaker": "johnson",
-      "path": "statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md",
+      "path": "statecraft/voices/johnson/johnson-april-may-2026-arc-threads.md",
       "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
     },
     {
       "speaker": "marandi",
-      "path": "statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md",
+      "path": "statecraft/voices/marandi/marandi-2025-present-arc-threads.md",
       "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
     },
     {
       "speaker": "mercouris",
-      "path": "statecraft/voices/mercouris/stream/mercouris-arc-threads.md",
+      "path": "statecraft/voices/mercouris/mercouris-arc-threads.md",
       "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
     },
     {
       "speaker": "parsi",
-      "path": "statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md",
+      "path": "statecraft/voices/parsi/parsi-2025-present-arc-threads.md",
       "reason": "index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface."
     }
   ],

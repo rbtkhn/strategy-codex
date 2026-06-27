@@ -5,7 +5,7 @@ compact_state_files = [
   "statecraft/voices/crooke/README.md",
   "statecraft/voices/crooke/crooke-helix.md",
   "statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md",
-  "statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md",
+  "statecraft/voices/crooke/crooke-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -13,7 +13,7 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md"
+file = "statecraft/voices/crooke/crooke-forecast-ledger-2026.md"
 expected_count = 24
 required_prefixes = ["substack-crooke-", "source-crooke-"]
 excluded_patterns = [

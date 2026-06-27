@@ -12,9 +12,9 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 - [Source index](ritter-source-index.md) - exhaustive route map for every resolved Ritter raw-input appearance currently materialized in the repo.
 - [Speaker helix note](ritter-helix.md) - why the host triple helix and authored/interview split fit together before you descend into one lane.
 - [Support spine](ritter-support-spine-2025-2026.md) - canonical maturity and month-support law.
-- [February monthly shelf](stream/ritter-shelf-2026-02.md) - first bridge month where the 2026 ladder thickens visibly.
-- [March monthly shelf](stream/ritter-shelf-2026-03.md) - first full triple-helix dense-core month.
-- [April monthly shelf](stream/ritter-shelf-2026-04.md) - densest visible month synthesis.
+- [February monthly shelf](ritter-shelf-2026-02.md) - first bridge month where the 2026 ladder thickens visibly.
+- [March monthly shelf](ritter-shelf-2026-03.md) - first full triple-helix dense-core month.
+- [April monthly shelf](ritter-shelf-2026-04.md) - densest visible month synthesis.
 - [Historical examples audit](ritter-historical-examples-audit.md) - `civ-state`-aware historical membrane.
 
 ## Core Speaker Files
@@ -25,32 +25,32 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../statecraft/voices/ritter/stream/ritter-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/ritter/stream/ritter-transcript.md)
+- [Thread compatibility file](../../../statecraft/voices/ritter/ritter-thread.md)
+- [Transcript compatibility file](../../../statecraft/voices/ritter/ritter-transcript.md)
 - [Legacy page and manifest residue](../../../statecraft/voices/ritter/stream)
 
 ## Monthly Shelf Layer
 
-- [2026-01](stream/ritter-shelf-2026-01.md)
-- [2026-02](stream/ritter-shelf-2026-02.md)
-- [2026-03](stream/ritter-shelf-2026-03.md)
-- [2026-04](stream/ritter-shelf-2026-04.md)
-- [2026-05](stream/ritter-shelf-2026-05.md)
+- [2026-01](ritter-shelf-2026-01.md)
+- [2026-02](ritter-shelf-2026-02.md)
+- [2026-03](ritter-shelf-2026-03.md)
+- [2026-04](ritter-shelf-2026-04.md)
+- [2026-05](ritter-shelf-2026-05.md)
 
 These monthly files are bounded synthesis shelves. They do not replace host-local chronology or the support spine's maturity law.
 
 ## Historical Scaffold
 
 - [Historical examples audit](ritter-historical-examples-audit.md)
-- [Historical themes front door](themes/README.md)
+- [Historical themes front door](README.md)
 
 This wave does not yet promote individual Ritter theme files. The shelf now has the membrane and entry point without speculating past the current source-backed recurrence.
 
 ## Host Arcs
 
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/stream/nima-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

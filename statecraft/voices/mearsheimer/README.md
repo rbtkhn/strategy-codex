@@ -31,13 +31,13 @@ That means:
 - [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
 - [Mearsheimer surface orthogonality](../../../statecraft/voices/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
 - [Mearsheimer historical examples audit](../../../statecraft/voices/mearsheimer/mearsheimer-historical-examples-audit.md)
-- [Mearsheimer themes](../../../statecraft/voices/mearsheimer/themes/README.md)
+- [Mearsheimer themes](../../../statecraft/voices/mearsheimer/README.md)
 
 ## Host lanes
 
-- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/stream/davis-mearsheimer-arc.md)
-- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/stream/napolitano-mearsheimer-arc.md)
+- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
 
 ## Compatibility shape
 

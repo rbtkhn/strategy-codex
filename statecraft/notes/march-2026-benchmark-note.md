@@ -44,10 +44,10 @@ Use these existing surfaces as the benchmark spine:
 - [wilkerson-march-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-march-2026-note.md)
   Carries the seven-anchor escalation-hinge reading and already preserves why March is routeable without more closure work.
 
-- [parsi-march-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-march-2026-cross-context-arc.md)
+- [parsi-march-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-march-2026-cross-context-arc.md)
   Preserves March as the early mature-crossing month where authored mechanism and interview pressure visibly meet.
 
-- [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-march-2026-cross-host-arc.md)
+- [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md)
   Makes the month-level system-activation sequence visible across hosts rather than letting March be rediscovered piecemeal.
 
 - [pape-marandi-parsi-backtest-march-2026.md](/C:/dev/strategy-codex/statecraft/bridges/pape-marandi-parsi-backtest-march-2026.md)

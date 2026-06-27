@@ -14,7 +14,7 @@ Purpose: front door for the canonical Berletic shelf.
 
 The orthogonality-bearing structure on this shelf is:
 
-- [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-berletic-speaker-arc.md), which is the clearest stable host-local branch
+- [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-berletic-speaker-arc.md), which is the clearest stable host-local branch
 - [berletic-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-speaker-object.md), which defines Berletic as a cross-host reinforced object
 - [berletic-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-cross-host-note.md), which keeps the wider reinforcement claim honest
 

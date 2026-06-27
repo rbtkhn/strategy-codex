@@ -14,10 +14,10 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 - [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
 - [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md)
-- [stream/crooke-shelf-2026-03.md](stream/crooke-shelf-2026-03.md)
-- [stream/crooke-shelf-2026-04.md](stream/crooke-shelf-2026-04.md)
+- [stream/crooke-shelf-2026-03.md](crooke-shelf-2026-03.md)
+- [stream/crooke-shelf-2026-04.md](crooke-shelf-2026-04.md)
 - [crooke-historical-examples-audit.md](crooke-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)
 
 ## Canonical Structure
 
@@ -32,10 +32,10 @@ Crooke's canonical structure now has five speaker-owned layers:
 Support and segmentation surfaces:
 
 - [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md) remains the interview support map.
-- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) remains the authored mechanism spine.
-- [stream/crooke-march-may-2026-interview-arc-threads.md](stream/crooke-march-may-2026-interview-arc-threads.md) remains the dense-core interview atlas.
-- [stream/crooke-thread-international-law.md](stream/crooke-thread-international-law.md) remains the real topical law strand inside the broader Crooke corpus.
-- [stream/README.md](stream/README.md) holds the bounded 2026 monthly synthesis shelves.
+- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) remains the authored mechanism spine.
+- [stream/crooke-march-may-2026-interview-arc-threads.md](crooke-march-may-2026-interview-arc-threads.md) remains the dense-core interview atlas.
+- [stream/crooke-thread-international-law.md](crooke-thread-international-law.md) remains the real topical law strand inside the broader Crooke corpus.
+- [stream/README.md](README.md) holds the bounded 2026 monthly synthesis shelves.
 - [crooke-cross-year-note.md](crooke-cross-year-note.md), [crooke-surface-orthogonality-2026-05.md](crooke-surface-orthogonality-2026-05.md), and [crooke-shelf-hygiene-2026-05.md](crooke-shelf-hygiene-2026-05.md) now live canonically on this shelf.
 
 ## Monthly Shelf Rule
@@ -50,7 +50,7 @@ Crooke now has a full canonical 2026 month ladder for the live year, but the mon
 ## Historical Scaffold
 
 - [Crooke historical examples audit](crooke-historical-examples-audit.md)
-- [Crooke historical themes](themes/README.md)
+- [Crooke historical themes](README.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Crooke-specific bridge adapter.
 
@@ -64,9 +64,9 @@ The legacy `statecraft/voices/crooke/` path is now front-door compatibility only
 
 ## Host Lanes
 
-- [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md)
+- [Diesen x Crooke](../../../statecraft/voices/diesen/diesen-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md)
 
 ## Boundary
 

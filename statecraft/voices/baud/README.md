@@ -35,9 +35,9 @@ Do not flatten those two thread-shaped files together:
 
 Open the host-local arcs when the question is about how a specific host transforms Baud:
 
-- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-baud-arc.md)
-- [Davis x Baud](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-baud-arc.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-baud-arc.md)
+- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
+- [Davis x Baud](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
 
 ## Boundary
 

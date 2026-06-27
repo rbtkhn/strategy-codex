@@ -64,7 +64,7 @@ For cross-host discovery and reinforcement beyond the four main host lanes:
 
 - [2026 Freeman index](/C:/dev/strategy-codex/statecraft/voices/freeman/index.md)
 - [Freeman source index](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-source-index.md)
-- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
+- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md)
 
 ## Boundaries
 

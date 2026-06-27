@@ -27,7 +27,7 @@ Use these when the task is order-transition / deterrence-history reinforcement o
 - [2024-01-28 | Diesen × Mercouris × Karaganov | lowering nuclear threshold / *Age of War*](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) — fuse-reinstall origin debate; Putin Sochi Valdai pushback frame; Mercouris Cold War fear / threshold disagreement
 - [2024-10-21 | Diesen × Mercouris × Karaganov | Russia changes nuclear doctrine](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) — Cold War deterrence catalogue; post-Cold War European fear loss; doctrine-as-law; deep-strike threshold
 
-Host-local arc: [../diesen/stream/diesen-mercouris-speaker-arc.md](../diesen/stream/diesen-mercouris-speaker-arc.md)
+Host-local arc: [../diesen/diesen-mercouris-speaker-arc.md](../diesen/diesen-mercouris-speaker-arc.md)
 
 ## 2025-01 prehistory anchors
 
@@ -41,7 +41,7 @@ Use these when the task is early-strand continuity rather than the live 2026 rep
 
 Best first-open for January 2025 continuity:
 
-- [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md)
+- [stream/mercouris-shelf-2025-01.md](mercouris-shelf-2025-01.md)
 
 ## 2025-02 prehistory anchors
 
@@ -53,7 +53,7 @@ Use these when the task is tracing how the January setup month compresses into a
 
 Best first-open for February 2025 continuity:
 
-- [stream/mercouris-shelf-2025-02.md](stream/mercouris-shelf-2025-02.md)
+- [stream/mercouris-shelf-2025-02.md](mercouris-shelf-2025-02.md)
 
 ## 2025-11 — Pokrovsk inflection month
 
@@ -79,7 +79,7 @@ Same-day **Greenland crisis** — route Mercouris **solo institutional braid** a
 
 | Register | Shelf | Capture / note |
 | --- | --- | --- |
-| **Mercouris** (solo) | this index · [Jan 2026 shelf](stream/mercouris-shelf-2026-01.md) | [2026-01-20 — Starmer/Macron humiliation; Greenland; Kiev AD/offensive](../../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — **full transcript** (2026-06-20 intake) |
+| **Mercouris** (solo) | this index · [Jan 2026 shelf](mercouris-shelf-2026-01.md) | [2026-01-20 — Starmer/Macron humiliation; Greenland; Kiev AD/offensive](../../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — **full transcript** (2026-06-20 intake) |
 | **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
 | **Freeman** (alliance law) | [Freeman index](../freeman/freeman-source-index.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) |
 
@@ -97,7 +97,7 @@ June should be read as the month where **Donbas collapse geometry**, **Oreshnik 
 
 Best first-open for June 2026 continuity:
 
-- [stream/mercouris-shelf-2026-06.md](stream/mercouris-shelf-2026-06.md)
+- [stream/mercouris-shelf-2026-06.md](mercouris-shelf-2026-06.md)
 
 **June hinge anchors:**
 

@@ -19,7 +19,7 @@ Open here first when the question is not merely "what did Berletic say," but **w
 
 This shelf already has a real canonical structure:
 
-- [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-berletic-speaker-arc.md) is the clearest mature host-local branch
+- [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-berletic-speaker-arc.md) is the clearest mature host-local branch
 - [berletic-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-speaker-object.md) defines the cross-host reinforced object shape
 - [berletic-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-cross-host-note.md) preserves the broader reinforcement claim without overstating helix maturity
 
@@ -29,5 +29,5 @@ Do not treat `berletic-thread.md` as competing with the main Diesen-side branch 
 
 ## Host lanes
 
-- [Diesen x Berletic](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-berletic-speaker-arc.md)
+- [Diesen x Berletic](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-berletic-speaker-arc.md)
 

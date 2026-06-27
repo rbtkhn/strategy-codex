@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 3 2026 — Mercouris × Wilkerson wedge (attrition / downed warplanes)
 
 **Pub date:** 2026-03-03  
-**Parent:** [2026-03-03 archive day](../../source-archive/statecraft/2026-03-03/README.md) · [Helmer × Marandi weave](./2026-03-03-iran-war-weave-helmer-marandi.md) · [Mercouris Feb 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-02.md)
+**Parent:** [2026-03-03 archive day](../../source-archive/statecraft/2026-03-03/README.md) · [Helmer × Marandi weave](./2026-03-03-iran-war-weave-helmer-marandi.md) · [Mercouris Feb 2026 shelf](../voices/mercouris/mercouris-shelf-2026-02.md)
 
 **Sources:**
 

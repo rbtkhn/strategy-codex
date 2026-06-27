@@ -6,7 +6,7 @@ Purpose: define the next consolidation pass that extends Freeman's canonical thr
 
 ## Current situation
 
-Freeman now has a canonical person arc, helix, routing surface, month-spine files for March-April-May 2026, and a canonical recurring-strand atlas at [freeman-dec-2025-may-2026-arc-threads.md](stream/freeman-dec-2025-may-2026-arc-threads.md).
+Freeman now has a canonical person arc, helix, routing surface, month-spine files for March-April-May 2026, and a canonical recurring-strand atlas at [freeman-dec-2025-may-2026-arc-threads.md](freeman-dec-2025-may-2026-arc-threads.md).
 
 The remaining continuity gap is not structural. It is chronological:
 

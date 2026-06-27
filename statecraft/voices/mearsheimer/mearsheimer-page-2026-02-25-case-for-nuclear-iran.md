@@ -5,7 +5,7 @@ WORK only; not Record.
 **Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../years/2026/provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md) only.
 
 - **Guest lane (Mearsheimer analysis):** [mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
-- **Host lane (Diesen / Greater Eurasia show):** [../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+- **Host lane (Diesen / Greater Eurasia show):** [../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 - **Canonical YT:** `https://www.youtube.com/watch?v=vx1KnspP1gM`
 - **Skill pattern:** [strategy-notebook-lane-split](../../../../../../.cursor/skills/strategy-notebook-lane-split/SKILL.md) — multi-expert refined pages, shared slug.
 

@@ -63,6 +63,10 @@ When they do:
 
 The file path may stay old. The system's thinking should not.
 
+## Flat shelf (2026-06)
+
+Speaker and channel shelf roots are **flat** — no `stream/` or `themes/` subfolders. Theme registers use `{speaker}-themes.md`; monthly shelves use `{speaker}-shelf-YYYY-MM.md` or `{speaker}-monthly-shelves.md`. Legacy nested paths are compatibility residue only.
+
 ## Archive inventory vs voice source bench
 
 Use **different surface classes** on opposite sides of the archive ↔ synthesis membrane. Do not call both a **source index**.

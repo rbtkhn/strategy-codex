@@ -17,12 +17,12 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 ### Core host lanes
 
-- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/stream/davis-mearsheimer-arc.md)
+- [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
 
 ### Reinforcing orbit
 
-- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/stream/napolitano-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../../statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
 
 ### Non-core appearance bench
 

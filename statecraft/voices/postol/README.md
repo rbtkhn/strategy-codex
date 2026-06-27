@@ -46,8 +46,8 @@ The legacy `statecraft/voices/postol/` path is now front-door compatibility only
 ## Host Lanes
 
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Postol](../../../statecraft/voices/diesen/stream/diesen-postol-speaker-arc.md)
-- [Dialogue Works x Postol](../../../statecraft/channels/dialogue-works/stream/nima-postol-speaker-arc.md)
+- [Diesen x Postol](../../../statecraft/voices/diesen/diesen-postol-speaker-arc.md)
+- [Dialogue Works x Postol](../../../statecraft/channels/dialogue-works/nima-postol-speaker-arc.md)
 
 ## Boundary
 

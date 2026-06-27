@@ -41,7 +41,7 @@ He is weaker when the chapter requires deep internal treatment of:
 
 Primary Freeman surface:
 
-- [Thucydidean misfit and civilizational-state difference](themes/thucydidean-misfit-and-civilizational-state-difference.md)
+- [Thucydidean misfit and civilizational-state difference](thucydidean-misfit-and-civilizational-state-difference.md)
 
 Raw-input anchor:
 
@@ -62,7 +62,7 @@ Best use:
 
 Primary Freeman surface:
 
-- [Thucydidean misfit and civilizational-state difference](themes/thucydidean-misfit-and-civilizational-state-difference.md)
+- [Thucydidean misfit and civilizational-state difference](thucydidean-misfit-and-civilizational-state-difference.md)
 
 Why it matters:
 
@@ -79,8 +79,8 @@ Best use:
 
 Primary Freeman surfaces:
 
-- [Maritime hegemony transition and adaptation](themes/maritime-hegemony-transition-and-adaptation.md)
-- [Bombing is not political success](themes/bombing-is-not-political-success.md)
+- [Maritime hegemony transition and adaptation](maritime-hegemony-transition-and-adaptation.md)
+- [Bombing is not political success](bombing-is-not-political-success.md)
 
 Raw-input anchor:
 

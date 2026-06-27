@@ -12,21 +12,21 @@ That means the main question is not whether the object exists. The question is h
 
 The current notebook truth is:
 
-- the primary body is [statecraft/voices/diesen/stream/](stream)
+- the primary body is [statecraft/voices/diesen/](stream)
 - the guest-local evidence is distributed through recurring `diesen-*speaker-arc.md` notes
 - the speaker folder exists to hold higher-order orientation about Diesen as an object, not to compete with the stream shelf
 
 Recent representation note:
 
-- [2026-05-16 Diesen x Mercouris](stream/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../codex/years/2026/provenance/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
+- [2026-05-16 Diesen x Mercouris](diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../codex/years/2026/provenance/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
 
 ## How to read the split
 
 Read the split this way:
 
-- `statecraft/voices/diesen/stream/` is the native cognition-stream body
+- `statecraft/voices/diesen/` is the native cognition-stream body
 - `statecraft/voices/diesen/` is the higher-order speaker-object shelf
-- the arc notes inside `stream/` show how Diesen transforms and elicits other objects
+- the guest-arc files on the flat shelf show how Diesen transforms and elicits other objects
 
 So the speaker folder does not mean Diesen has ceased to be a stream. It means the notebook now treats him as both:
 
@@ -54,7 +54,7 @@ Create stronger Diesen cross-host doctrine only if one or more of the following 
 - the notebook needs a comparative note between Diesen as host and Diesen as guest
 - a later volume needs to compare the native stream body against other host environments
 
-Until then, keep Diesen classified as a stream-native speaker object whose main body remains the `stream/` shelf under `statecraft/voices/diesen/`.
+Until then, keep Diesen classified as a stream-native speaker object whose main body remains the flat shelf under `statecraft/voices/diesen/`.
 
 ## Cross-host hygiene — Dialogue Works mis-file audit (2026-06-09)
 

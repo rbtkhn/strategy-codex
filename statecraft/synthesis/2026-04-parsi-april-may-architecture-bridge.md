@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Parsi April→May Architecture Bridge — Ceasefire Design to Blockade Failure
 
-**Ledger:** [parsi-forecast-ledger-2025-2026](../voices/parsi/stream/parsi-forecast-ledger-2025-2026.md) · **Parent month:** [2026-04.md](statecraft/synthesis/month/2026-04.md) · **Downstream month:** [2026-05.md](statecraft/synthesis/month/2026-05.md)
+**Ledger:** [parsi-forecast-ledger-2025-2026](../voices/parsi/parsi-forecast-ledger-2025-2026.md) · **Parent month:** [2026-04.md](statecraft/synthesis/month/2026-04.md) · **Downstream month:** [2026-05.md](statecraft/synthesis/month/2026-05.md)
 
 **Sources (Parsi Substack — operator paste):**
 
@@ -110,5 +110,5 @@ May 1    → blockade executes; FDD failure; victory squandered (Parsi label)
 
 - **May genesis pointer:** [2026-05.md](statecraft/synthesis/month/2026-05.md) Source Base — April bridge + this statecraft note wired to May 1 Parsi anchor.
 - **May statecraft notes:** Pair with [2026-05.md](statecraft/synthesis/month/2026-05.md) command-unreliability month object — Parsi = architecture leg, not substitute for daily ladder.
-- **Ledger maintenance:** Keep [parsi-forecast-ledger](../voices/parsi/stream/parsi-forecast-ledger-2025-2026.md) as SSOT pointer; this note = April→May arc statecraft note only.
+- **Ledger maintenance:** Keep [parsi-forecast-ledger](../voices/parsi/parsi-forecast-ledger-2025-2026.md) as SSOT pointer; this note = April→May arc statecraft note only.
 - **Attribution:** Parsi = Substack authored tier; cross-check AP/official bundles before promotion to wire-grade claims.

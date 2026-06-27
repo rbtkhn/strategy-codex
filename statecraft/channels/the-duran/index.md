@@ -16,4 +16,4 @@ Route here when capture frontmatter has **`channel_slug: the-duran`** (or equiva
 
 ## Boundary
 
-Index = routing + archive anchors. Promote guest arcs under `stream/` when repeated host×guest continuity justifies it.
+Index = routing + archive anchors. Guest arcs live as flat shelf files when repeated host×guest continuity justifies them.

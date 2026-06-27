@@ -85,7 +85,7 @@ Same-day **Greenland crisis** — route Freeman **alliance-law / credibility** a
 
 | Register | Shelf | Capture / note |
 | --- | --- | --- |
-| **Freeman** (alliance law) | this index · [Jan 2026 shelf](stream/freeman-shelf-2026-01.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — **full transcript** |
+| **Freeman** (alliance law) | this index · [Jan 2026 shelf](freeman-shelf-2026-01.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — **full transcript** |
 | **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
 | **Mercouris** (institutional solo) | [Mercouris index](../mercouris/mercouris-source-index.md) | [2026-01-20 solo — Starmer/Macron; Greenland; Kiev AD](../../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) |
 
@@ -103,6 +103,6 @@ Same-day **Greenland crisis** — route Freeman **alliance-law / credibility** a
 ## Host / compatibility entries
 
 - [Davis appearances in archive](../../../source-archive/statecraft/) — search `guest: Chas Freeman` + `Daniel Davis`
-- [Mercouris Jan 2026 shelf](../mercouris/stream/mercouris-shelf-2026-01.md) — symmetric Greenland week pointer
+- [Mercouris Jan 2026 shelf](../mercouris/mercouris-shelf-2026-01.md) — symmetric Greenland week pointer
 - [Helmer source index](../helmer/helmer-source-index.md) — Jan 20 cross-weave return link
 

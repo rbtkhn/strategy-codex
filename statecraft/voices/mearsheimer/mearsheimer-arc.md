@@ -19,12 +19,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md) - structural altitude and order-transition architecture
-2. [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/stream/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
+1. [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md) - structural altitude and order-transition architecture
+2. [Davis x Mearsheimer](../../../statecraft/channels/daniel-davis/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
 
 Reinforcing orbit:
 
-- [Napolitano x Mearsheimer](../../../statecraft/channels/judging-freedom/stream/napolitano-mearsheimer-arc.md)
+- [Napolitano x Mearsheimer](../../../statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
 - additional shelf material outside the two main host strands
 
 ## What makes this an arc
@@ -58,7 +58,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest structural anchor:
 
-- open [Diesen x Mearsheimer](../../../statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
+- open [Diesen x Mearsheimer](../../../statecraft/voices/diesen/diesen-mearsheimer-arc.md)
 
 ## Boundary
 

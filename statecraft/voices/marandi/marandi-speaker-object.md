@@ -22,10 +22,10 @@ The current Marandi stack is:
 
 - [marandi-arc.md](marandi-arc.md) = speaker-wide continuity surface
 - [marandi-routing.md](marandi-routing.md) = fast host-and-task routing
-- [stream/marandi-2025-present-arc-threads.md](stream/marandi-2025-present-arc-threads.md) = recurring thread atlas
+- [stream/marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) = recurring thread atlas
 - [marandi-helix.md](marandi-helix.md) = host-transformation comparison
 - host-local arcs = bounded realizations under specific hosts
-- [themes/README.md](themes/README.md) = theme-family routing surface
+- [themes/README.md](README.md) = theme-family routing surface
 
 ## Why Marandi matters
 
@@ -75,5 +75,5 @@ If the operator needs the host comparison:
 
 - This note is not a substitute for the host-local speaker arcs.
 - This note is not the primary routing surface; host-and-task entry logic belongs in [marandi-routing.md](marandi-routing.md).
-- This note is not the thread atlas; recurring continuity families belong in [stream/marandi-2025-present-arc-threads.md](stream/marandi-2025-present-arc-threads.md).
+- This note is not the thread atlas; recurring continuity families belong in [stream/marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md).
 - Marandi is strongest on legitimacy, red lines, endurance logic, and sovereignty framing; he is not a neutral wire-grade verifier.

@@ -21,9 +21,9 @@ The native Mercouris stream is therefore not background evidence for some higher
 
 ## Arc doctrine
 
-`mercouris-arc` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `mercouris-arc-threads`, currently indexed at [mercouris-arc-threads.md](stream/mercouris-arc-threads.md).
+`mercouris-arc` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `mercouris-arc-threads`, currently indexed at [mercouris-arc-threads.md](mercouris-arc-threads.md).
 
-Use [mercouris-arc.md](stream/mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
+Use [mercouris-arc.md](mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
 
 Mercouris now also has visible month-support stratification inside the native stream: January functions as a **continuity-setup month**, February functions as a **mature bridge month**, while March through May function as **mature dense-core shelves**.
 
@@ -64,23 +64,23 @@ See [mercouris-cross-host-note.md](mercouris-cross-host-note.md).
 
 If the operator needs the best current entry into the speaker object:
 
-- open [mercouris-shelf-2026-05.md](stream/mercouris-shelf-2026-05.md)
+- open [mercouris-shelf-2026-05.md](mercouris-shelf-2026-05.md)
 
 If the operator needs the escalation bridge rather than the live frontier:
 
-- open [mercouris-shelf-2026-02.md](stream/mercouris-shelf-2026-02.md)
+- open [mercouris-shelf-2026-02.md](mercouris-shelf-2026-02.md)
 
 If the operator needs the pre-bridge setup rather than the escalation bridge or live frontier:
 
-- open [mercouris-shelf-2026-01.md](stream/mercouris-shelf-2026-01.md)
+- open [mercouris-shelf-2026-01.md](mercouris-shelf-2026-01.md)
 
 If the operator needs the first dense-core crisis month rather than the bridge or latest frontier:
 
-- open [mercouris-shelf-2026-03.md](stream/mercouris-shelf-2026-03.md)
+- open [mercouris-shelf-2026-03.md](mercouris-shelf-2026-03.md)
 
 If the operator needs the sharpest current frontier page:
 
-- open [mercouris-page-2026-05-08-to-2026-05-12.md](../../../statecraft/voices/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
+- open [mercouris-page-2026-05-08-to-2026-05-12.md](../../../statecraft/voices/mercouris/mercouris-page-2026-05-08-to-2026-05-12.md)
 
 If the operator needs the object doctrine rather than the live stream:
 
@@ -88,8 +88,8 @@ If the operator needs the object doctrine rather than the live stream:
 
 If the operator needs the Mercouris arc:
 
-- open [mercouris-arc.md](stream/mercouris-arc.md)
-- then open [mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
+- open [mercouris-arc.md](mercouris-arc.md)
+- then open [mercouris-arc-threads.md](mercouris-arc-threads.md)
 
 ## Routing use
 

@@ -33,7 +33,7 @@ Beebe carries a distinct utility profile:
 
 Beebe should currently be read as a **cross-host reinforced speaker object** with one clearly mature branch and one search-backed secondary branch:
 
-- [Diesen x Beebe](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md)
+- [Diesen x Beebe](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-beebe-speaker-arc.md)
 - `The Duran x Beebe` = real in search-backed 2025 full-form episodes, but not yet materially imported here as canonical raw-input
 
 That means:
@@ -52,7 +52,7 @@ This keeps faith with the Codex doctrine:
 
 The mature on-disk entry is:
 
-- [Diesen x Beebe](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md)
+- [Diesen x Beebe](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-beebe-speaker-arc.md)
 
 This branch is where Beebe is most legible as a recurring object of:
 
@@ -80,7 +80,7 @@ If the operator needs the route map:
 
 If the operator needs the clearest mature branch:
 
-- open [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-beebe-speaker-arc.md)
+- open [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-beebe-speaker-arc.md)
 
 If the operator needs the clearest currently materialized raw-input file:
 

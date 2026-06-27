@@ -36,7 +36,7 @@ Barnes should currently be read as a **cross-host reinforced speaker object whos
 That means:
 
 - the object is stronger than a one-off guest shelf because it has real recurring reuse
-- the [Davis x Barnes speaker arc](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-barnes-speaker-arc.md) is the clearest stable host-local form on disk
+- the [Davis x Barnes speaker arc](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-barnes-speaker-arc.md) is the clearest stable host-local form on disk
 - other Barnes appearances reinforce the object and widen its usefulness
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure outside Davis
 
@@ -58,7 +58,7 @@ See [barnes-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/barnes/
 
 If the operator needs the clearest single host-local entry:
 
-- open [davis-barnes-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-barnes-speaker-arc.md)
+- open [davis-barnes-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-barnes-speaker-arc.md)
 
 If the operator needs the strongest non-Davis reinforcement:
 

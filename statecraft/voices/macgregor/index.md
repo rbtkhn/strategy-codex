@@ -11,8 +11,8 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 - [Source index](macgregor-source-index.md) - exhaustive route map for every resolved Macgregor raw-input appearance currently materialized in the repo.
 - [Speaker helix note](macgregor-helix.md) - why the durable double structure fits together before you descend into one host lane.
 - [Support spine](macgregor-support-spine-2025-2026.md) - canonical maturity and month-support law.
-- [March monthly shelf](stream/macgregor-shelf-2026-03.md) - first mature cross-host month synthesis.
-- [April monthly shelf](stream/macgregor-shelf-2026-04.md) - densest visible month synthesis.
+- [March monthly shelf](macgregor-shelf-2026-03.md) - first mature cross-host month synthesis.
+- [April monthly shelf](macgregor-shelf-2026-04.md) - densest visible month synthesis.
 - [Historical examples audit](macgregor-historical-examples-audit.md) - `civ-state`-aware historical membrane.
 
 ## Core Speaker Files
@@ -31,26 +31,26 @@ Compatibility residue:
 
 ## Monthly Shelf Layer
 
-- [2026-01](stream/macgregor-shelf-2026-01.md)
-- [2026-02](stream/macgregor-shelf-2026-02.md)
-- [2026-03](stream/macgregor-shelf-2026-03.md)
-- [2026-04](stream/macgregor-shelf-2026-04.md)
-- [2026-05](stream/macgregor-shelf-2026-05.md)
+- [2026-01](macgregor-shelf-2026-01.md)
+- [2026-02](macgregor-shelf-2026-02.md)
+- [2026-03](macgregor-shelf-2026-03.md)
+- [2026-04](macgregor-shelf-2026-04.md)
+- [2026-05](macgregor-shelf-2026-05.md)
 
 These monthly files are bounded synthesis shelves. They do not replace host-local chronology or the support spine's maturity law.
 
 ## Historical Scaffold
 
 - [Historical examples audit](macgregor-historical-examples-audit.md)
-- [Historical themes front door](themes/README.md)
+- [Historical themes front door](README.md)
 
 This wave does not yet promote individual Macgregor theme files. The shelf now has the membrane and entry point without speculating past the current source-backed recurrence.
 
 ## Host Arcs
 
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
 
 ## Boundary
 

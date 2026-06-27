@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-03-27 · Sibling: [diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
+**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-03-27 · Sibling: [diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 
 ---
 
@@ -13,7 +13,7 @@ Guest, 27 Mar 2026. Mearsheimer uses Judging Freedom’s guest lineup (including
 
 ### Reflection
 
-Guest structural judgment; the host’s NSS-optimism preface is in the [diesen file](../diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md). Judging Freedom is an imperfect proxy; label as Mearsheimian “scene,” not a poll.
+Guest structural judgment; the host’s NSS-optimism preface is in the [diesen file](../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md). Judging Freedom is an imperfect proxy; label as Mearsheimian “scene,” not a poll.
 
 ### Foresight
 
@@ -25,6 +25,6 @@ Guest structural judgment; the host’s NSS-optimism preface is in the [diesen f
 
 - **Full verbatim (capture):** [provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../../../years/2026/provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
-- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../diesen/stream/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
+- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=DBOVT0UdHXg`
 - **Legacy stub:** [mearsheimer-page-2026-03-27-iran-holds-all-the-cards.md](mearsheimer-page-2026-03-27-iran-holds-all-the-cards.md)

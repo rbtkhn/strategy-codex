@@ -29,7 +29,7 @@ Discovery and routing base:
 - [Macgregor arc](macgregor-arc.md)
 - [Macgregor helix](macgregor-helix.md)
 - [Macgregor support spine](macgregor-support-spine-2025-2026.md)
-- [Macgregor monthly shelves](stream/)
+- [Macgregor monthly shelves]()
 
 Interpretive source base:
 
@@ -69,4 +69,4 @@ These are candidate families, not yet promoted theme files:
 - This file is not transcript authority; raw-input remains the authority for exact quotes.
 - This file is not a bridge adapter; it does not decide lane routing.
 - This file is not yet a scored top-theme atlas like Mercouris.
-- Open [themes/README.md](themes/README.md) for the historical-theme front door; keep that front door empty of promoted theme files until a recurring family clearly clears the promotion bar.
+- Open [themes/README.md](README.md) for the historical-theme front door; keep that front door empty of promoted theme files until a recurring family clearly clears the promotion bar.

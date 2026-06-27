@@ -12,15 +12,15 @@ The Johnson triple helix is one pressure-interpreting voice transformed by three
 - Davis tests operational feasibility
 - Dialogue Works applies maximum live crisis pressure
 
-The dense April-May 2026 thread atlas lives in [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md).
+The dense April-May 2026 thread atlas lives in [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md).
 
 ## The Three Strands
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, and wider order consequence |
+| [Diesen x Johnson](../../../statecraft/voices/diesen/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, and wider order consequence |
 | [Davis host shelf](../../channels/daniel-davis/README.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage |
-| [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/stream/nima-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, and humiliation tempo |
+| [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, and humiliation tempo |
 
 Auxiliary reinforcement:
 

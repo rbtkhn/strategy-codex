@@ -33,7 +33,7 @@ Davis should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [statecraft/channels/daniel-davis/stream/](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/)
+- the main body of the object is [statecraft/channels/daniel-davis/](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/)
 - the speaker folder exists to orient the object at the same ontological level as `Mercouris`, `Parsi`, `Crooke`, or `Martyanov`
 - the notebook should not force Davis into helix language when the native stream is already the clearest and strongest entry path
 
@@ -45,7 +45,7 @@ If the operator needs the main body of the object:
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the `davis/` shelf, for example [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-martyanov-speaker-arc.md) or [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
+- open one of the host-local arc notes from the `davis/` shelf, for example [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-martyanov-speaker-arc.md) or [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

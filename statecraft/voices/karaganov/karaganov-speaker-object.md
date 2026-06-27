@@ -24,7 +24,7 @@ Karaganov should currently be read as a **single-helix speaker object with one m
 
 The direct branch is:
 
-- [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-karaganov-speaker-arc.md)
+- [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-karaganov-speaker-arc.md)
 
 The strongest direct raw-inputs are:
 
@@ -42,7 +42,7 @@ That Ritter text is not a Karaganov-authored or Karaganov-hosted source. Use it 
 
 If the operator needs Karaganov's live doctrine:
 
-- open [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-karaganov-speaker-arc.md)
+- open [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-karaganov-speaker-arc.md)
 
 If the operator needs one direct source:
 

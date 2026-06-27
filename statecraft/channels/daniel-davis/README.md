@@ -37,7 +37,7 @@ The question Davis answers is usually not `is this legal?` but `can this still w
 
 ## Compatibility
 
-Legacy `codex/speakers/davis/` is terminated — [codex-speakers-deprecated.md](../../../../docs/archive/codex-speakers-deprecated.md). Use this host shelf for live guest-lane routing and `stream/` arcs.
+Legacy `codex/speakers/davis/` is terminated — [codex-speakers-deprecated.md](../../../../docs/archive/codex-speakers-deprecated.md). Use this host shelf for live guest-lane routing and flat guest-arc files.
 
 ## Boundary
 

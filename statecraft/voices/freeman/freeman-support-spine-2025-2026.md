@@ -16,7 +16,7 @@ Quick separation rule:
 - [freeman-routing.md](freeman-routing.md) = fastest lane or month selection
 - [freeman-source-index.md](freeman-source-index.md) = source bench
 - [freeman-helix.md](freeman-helix.md) = cross-host comparison
-- [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
+- [stream/README.md](README.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Month-status law
@@ -27,8 +27,8 @@ Status: continuity/setup month.
 
 Open:
 
-- [stream/freeman-shelf-2026-01.md](stream/freeman-shelf-2026-01.md)
-- [statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md](../../../statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
+- [stream/freeman-shelf-2026-01.md](freeman-shelf-2026-01.md)
+- [statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md](../../../statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md)
 
 ### 2026-02
 
@@ -36,8 +36,8 @@ Status: setup/bridge month.
 
 Open:
 
-- [stream/freeman-shelf-2026-02.md](stream/freeman-shelf-2026-02.md)
-- [statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md](../../../statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
+- [stream/freeman-shelf-2026-02.md](freeman-shelf-2026-02.md)
+- [statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md](../../../statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md)
 
 ### 2026-03
 
@@ -45,8 +45,8 @@ Status: mature retrieval month.
 
 Open:
 
-- [stream/freeman-shelf-2026-03.md](stream/freeman-shelf-2026-03.md)
-- [statecraft/voices/freeman/stream/freeman-march-2026-cross-host-arc.md](../../../statecraft/voices/freeman/stream/freeman-march-2026-cross-host-arc.md)
+- [stream/freeman-shelf-2026-03.md](freeman-shelf-2026-03.md)
+- [statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md](../../../statecraft/voices/freeman/freeman-march-2026-cross-host-arc.md)
 
 ### 2026-04
 
@@ -54,8 +54,8 @@ Status: mature dense-core month.
 
 Open:
 
-- [stream/freeman-shelf-2026-04.md](stream/freeman-shelf-2026-04.md)
-- [statecraft/voices/freeman/stream/freeman-april-2026-cross-host-arc.md](../../../statecraft/voices/freeman/stream/freeman-april-2026-cross-host-arc.md)
+- [stream/freeman-shelf-2026-04.md](freeman-shelf-2026-04.md)
+- [statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md](../../../statecraft/voices/freeman/freeman-april-2026-cross-host-arc.md)
 
 ### 2026-05
 
@@ -63,8 +63,8 @@ Status: mature frontier month.
 
 Open:
 
-- [stream/freeman-shelf-2026-05.md](stream/freeman-shelf-2026-05.md)
-- [statecraft/voices/freeman/stream/freeman-may-2026-cross-host-arc.md](../../../statecraft/voices/freeman/stream/freeman-may-2026-cross-host-arc.md)
+- [stream/freeman-shelf-2026-05.md](freeman-shelf-2026-05.md)
+- [statecraft/voices/freeman/freeman-may-2026-cross-host-arc.md](../../../statecraft/voices/freeman/freeman-may-2026-cross-host-arc.md)
 
 ## Monthly shelf rule
 

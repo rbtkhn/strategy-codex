@@ -252,4 +252,4 @@ User-supplied Glenn Diesen / Max Blumenthal episode URLs added outside the page 
 
 ---
 
-**Companion files:** [diesen-transcript.md](stream/diesen-transcript.md) (7-day rolling verbatim) and [diesen-thread.md](stream/diesen-thread.md) (distilled analytical thread).
+**Companion files:** [diesen-transcript.md](diesen-transcript.md) (7-day rolling verbatim) and [diesen-thread.md](diesen-thread.md) (distilled analytical thread).

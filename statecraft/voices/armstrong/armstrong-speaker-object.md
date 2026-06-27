@@ -35,7 +35,7 @@ Armstrong should currently be read as a **single-helix speaker object with one m
 
 That means:
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-armstrong-speaker-arc.md) is now the canonical way to enter the object
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md) is now the canonical way to enter the object
 - the legacy native Armstrong shelf inside this folder still matters as reinforcement and orientation:
   - [armstrong-profile.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-profile.md)
   - [armstrong-thread.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-thread.md)
@@ -48,7 +48,7 @@ So Armstrong now matters through one mature host-transformation lane, a native a
 
 If the operator needs the live doctrine:
 
-- open [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-armstrong-speaker-arc.md)
+- open [nima-armstrong-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-armstrong-speaker-arc.md)
 
 If the operator needs the compact object framing:
 

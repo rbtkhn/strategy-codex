@@ -98,8 +98,8 @@ For lighter speakers, the practical sequence is:
 
 For `speaker arc`, the host-local layer includes:
 
-- [diesen-freeman-arc.md](../../../statecraft/voices/diesen/stream/diesen-freeman-arc.md)
-- [nima-freeman-arc.md](../../../statecraft/channels/dialogue-works/stream/nima-freeman-arc.md)
+- [diesen-freeman-arc.md](../../../statecraft/voices/diesen/diesen-freeman-arc.md)
+- [nima-freeman-arc.md](../../../statecraft/channels/dialogue-works/nima-freeman-arc.md)
 
 The higher comparative question is:
 

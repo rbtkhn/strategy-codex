@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-01-07 · Sibling: [diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
+**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-01-07 · Sibling: [diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 
 ---
 
@@ -13,7 +13,7 @@ Guest voice, 7 Jan 2026. Mearsheimer distinguishes the Monroe Doctrine (distant 
 
 ### Reflection
 
-Guest structural-realist read; host opening on voter fatigue vs policy is in the [diesen file](../diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md). In-voice “scenario” and cite-heavy anecdotes in raw `capture_note` are tier-B until individually pinned.
+Guest structural-realist read; host opening on voter fatigue vs policy is in the [diesen file](../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md). In-voice “scenario” and cite-heavy anecdotes in raw `capture_note` are tier-B until individually pinned.
 
 ### Foresight
 
@@ -25,6 +25,6 @@ Guest structural-realist read; host opening on voter fatigue vs policy is in the
 
 - **Full verbatim (capture):** [provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../../../years/2026/provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
-- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../diesen/stream/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
+- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=-NQ3lnuYcXs`
 - **Legacy stub:** [mearsheimer-page-2026-01-07-venezuela-greenland-nato.md](mearsheimer-page-2026-01-07-venezuela-greenland-nato.md)

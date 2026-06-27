@@ -18,7 +18,7 @@ Quick separation rule:
 
 - `crooke-arc` = Crooke's canonical continuity across authored and interview contexts, hosts, and time
 - [crooke-helix.md](crooke-helix.md) = cross-host comparison of the main interview transformations
-- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) = authored mechanism ledger
+- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) = authored mechanism ledger
 - host-local arcs = bounded realizations of Crooke under one host's pressure
 
 If the question is mainly "what is Crooke's mechanism?", open the authored ledger. If it is mainly "which host best cashes out the mechanism?", open the helix or the relevant host-local arc. Use this file when the notebook needs the whole Crooke continuity in one place.
@@ -29,13 +29,13 @@ If the question is mainly "what is Crooke's mechanism?", open the authored ledge
 
 Its main interview lanes are:
 
-1. [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) - order-transition altitude and system-shock consequence
-2. [Davis x Crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
-3. [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
+1. [Diesen x Crooke](../../../statecraft/voices/diesen/diesen-crooke-speaker-arc.md) - order-transition altitude and system-shock consequence
+2. [Davis x Crooke](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
+3. [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
 
 Its authored mechanism spine is:
 
-- [crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
+- [crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
 
 ## What makes this an arc
 
@@ -56,13 +56,13 @@ That motion is why Crooke now deserves a person arc rather than only a helix plu
 
 Interview transformations:
 
-- [Diesen x Crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) - best for order-transition altitude
-- [Davis x Crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md) - best for bargaining-room realism
-- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) - best for live crisis meaning
+- [Diesen x Crooke](../../../statecraft/voices/diesen/diesen-crooke-speaker-arc.md) - best for order-transition altitude
+- [Davis x Crooke](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md) - best for bargaining-room realism
+- [Dialogue Works x Crooke](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md) - best for live crisis meaning
 
 Authored mechanism:
 
-- [crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) - best for the forecast/mechanism spine
+- [crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) - best for the forecast/mechanism spine
 
 Supporting surfaces:
 
@@ -70,13 +70,13 @@ Supporting surfaces:
 - [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
 - [crooke-cross-year-note.md](crooke-cross-year-note.md)
-- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
+- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
 - [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md)
-- [stream/crooke-thread-international-law.md](stream/crooke-thread-international-law.md)
-- [stream/crooke-march-may-2026-interview-arc-threads.md](stream/crooke-march-may-2026-interview-arc-threads.md)
-- [stream/crooke-march-2026-interview-cross-host-arc.md](stream/crooke-march-2026-interview-cross-host-arc.md)
-- [stream/crooke-april-2026-interview-cross-host-arc.md](stream/crooke-april-2026-interview-cross-host-arc.md)
-- [stream/crooke-may-2026-interview-cross-host-arc.md](stream/crooke-may-2026-interview-cross-host-arc.md)
+- [stream/crooke-thread-international-law.md](crooke-thread-international-law.md)
+- [stream/crooke-march-may-2026-interview-arc-threads.md](crooke-march-may-2026-interview-arc-threads.md)
+- [stream/crooke-march-2026-interview-cross-host-arc.md](crooke-march-2026-interview-cross-host-arc.md)
+- [stream/crooke-april-2026-interview-cross-host-arc.md](crooke-april-2026-interview-cross-host-arc.md)
+- [stream/crooke-may-2026-interview-cross-host-arc.md](crooke-may-2026-interview-cross-host-arc.md)
 - [index.md](index.md)
 
 ## Open first
@@ -91,11 +91,11 @@ If the operator needs source truth before interpretation:
 
 If the operator needs the mechanism first:
 
-- open [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
+- open [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
 
 ## Boundary
 

@@ -13,4 +13,4 @@ Boundary rule:
 Current source-backed audit lineage remains visible through the existing Freeman shelf work:
 
 - [statecraft/voices/freeman/freeman-historical-examples-audit.md](../../../statecraft/voices/freeman/freeman-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)

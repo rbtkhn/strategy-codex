@@ -9,7 +9,7 @@ Purpose: front door for the Beebe shelf, keeping the mature Diesen branch easy t
 - [README.md](README.md)
 - [beebe-speaker-object.md](beebe-speaker-object.md)
 - [beebe-cross-host-note.md](beebe-cross-host-note.md)
-- [Diesen x Beebe host-local arc](../diesen/stream/diesen-beebe-speaker-arc.md)
+- [Diesen x Beebe host-local arc](../diesen/diesen-beebe-speaker-arc.md)
 
 ## Best Entry Points
 

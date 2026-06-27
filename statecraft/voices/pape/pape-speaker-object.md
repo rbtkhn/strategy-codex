@@ -30,6 +30,6 @@ Working formula:
 
 ## Open First
 
-- best current stream entry: [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
+- best current stream entry: [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - best guest-distributed entry: [2026-03-10 Davis x Pape](../../../source-archive/statecraft/2026-03-10/source-daniel-davis-pape-escalation-trap-2026-03-10.md)
 - best whole-object crossing note: [pape-helix.md](pape-helix.md)

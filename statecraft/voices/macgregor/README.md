@@ -13,10 +13,10 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 - [macgregor-source-index.md](macgregor-source-index.md)
 - [macgregor-helix.md](macgregor-helix.md)
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
-- [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
-- [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
+- [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md)
+- [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 - [macgregor-historical-examples-audit.md](macgregor-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)
 
 ## Canonical Structure
 
@@ -30,7 +30,7 @@ Macgregor's canonical structure now has four speaker-owned layers:
 Support and segmentation surfaces:
 
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md) is the canonical maturity and month-support surface.
-- [stream/README.md](stream/README.md) holds bounded 2026 monthly synthesis shelves.
+- [stream/README.md](README.md) holds bounded 2026 monthly synthesis shelves.
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md) preserves the longitudinal maturity claim.
 - [macgregor-surface-orthogonality-2026-05.md](macgregor-surface-orthogonality-2026-05.md) and [macgregor-shelf-hygiene-2026-05.md](macgregor-shelf-hygiene-2026-05.md) preserve doctrine and support audits.
 
@@ -47,7 +47,7 @@ Macgregor now has native 2026 monthly shelves, but they are **bounded synthesis 
 The Macgregor historical scaffold in this wave is intentionally narrow:
 
 - [Macgregor historical examples audit](macgregor-historical-examples-audit.md)
-- [Macgregor historical themes](themes/README.md)
+- [Macgregor historical themes](README.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Macgregor-specific bridge adapter.
 
@@ -61,9 +61,9 @@ The legacy `statecraft/voices/macgregor/` path is now compatibility-only.
 
 ## Host Lanes
 
-- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/stream/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](../../../statecraft/voices/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../statecraft/channels/daniel-davis/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../statecraft/voices/diesen/diesen-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../statecraft/channels/judging-freedom/napolitano-macgregor-speaker-arc.md)
 
 ## Boundary
 

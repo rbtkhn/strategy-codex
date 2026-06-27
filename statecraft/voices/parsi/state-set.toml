@@ -7,7 +7,7 @@ compact_state_files = [
   "statecraft/voices/parsi/parsi-cross-host-note.md",
   "statecraft/voices/parsi/parsi-helix.md",
   "statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md",
-  "statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md",
+  "statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md",
 ]
 
 provenance_roots = [

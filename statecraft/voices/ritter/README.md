@@ -15,11 +15,11 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 - [ritter-source-index.md](ritter-source-index.md)
 - [ritter-helix.md](ritter-helix.md)
 - [ritter-support-spine-2025-2026.md](ritter-support-spine-2025-2026.md)
-- [stream/ritter-shelf-2026-02.md](stream/ritter-shelf-2026-02.md)
-- [stream/ritter-shelf-2026-03.md](stream/ritter-shelf-2026-03.md)
-- [stream/ritter-shelf-2026-04.md](stream/ritter-shelf-2026-04.md)
+- [stream/ritter-shelf-2026-02.md](ritter-shelf-2026-02.md)
+- [stream/ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
+- [stream/ritter-shelf-2026-04.md](ritter-shelf-2026-04.md)
 - [ritter-historical-examples-audit.md](ritter-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)
 
 ## Canonical Structure
 
@@ -34,7 +34,7 @@ Ritter's canonical structure now has five speaker-owned layers:
 Support and segmentation surfaces:
 
 - [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) is the canonical interview support spine.
-- [stream/README.md](stream/README.md) holds the bounded 2026 monthly synthesis shelves.
+- [stream/README.md](README.md) holds the bounded 2026 monthly synthesis shelves.
 - [ritter-cross-year-note.md](ritter-cross-year-note.md) preserves the 2025 double-helix to 2026 triple-helix maturity claim.
 
 ## Monthly Shelf Rule
@@ -50,7 +50,7 @@ Ritter now has a full canonical 2026 month ladder for the live year, but the mon
 The Ritter historical scaffold in this wave is intentionally narrow:
 
 - [Ritter historical examples audit](ritter-historical-examples-audit.md)
-- [Ritter historical themes](themes/README.md)
+- [Ritter historical themes](README.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Ritter-specific bridge adapter.
 
@@ -60,13 +60,13 @@ The legacy `statecraft/voices/ritter/` path is now front-door compatibility only
 
 - [statecraft/voices/ritter/README.md](../../../statecraft/voices/ritter/README.md) and [index.md](../../../statecraft/voices/ritter/index.md) are compatibility pointers.
 - codex-side core files remain available for migration continuity, but this statecraft shelf is now the canonical opening path.
-- [ritter-thread.md](../../../statecraft/voices/ritter/stream/ritter-thread.md) and [ritter-transcript.md](../../../statecraft/voices/ritter/stream/ritter-transcript.md) remain compatibility residue, not competing canonical surfaces.
+- [ritter-thread.md](../../../statecraft/voices/ritter/ritter-thread.md) and [ritter-transcript.md](../../../statecraft/voices/ritter/ritter-transcript.md) remain compatibility residue, not competing canonical surfaces.
 
 ## Host Lanes
 
-- [Diesen x Ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Diesen x Ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/stream/nima-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary

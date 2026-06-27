@@ -12,8 +12,8 @@ Purpose: front door for the canonical Crooke statecraft shelf, surfacing the per
 - [Source index](crooke-source-index.md)
 - [Speaker helix note](crooke-helix.md)
 - [Support spine](crooke-support-spine-2025-2026.md)
-- [March monthly shelf](stream/crooke-shelf-2026-03.md)
-- [April monthly shelf](stream/crooke-shelf-2026-04.md)
+- [March monthly shelf](crooke-shelf-2026-03.md)
+- [April monthly shelf](crooke-shelf-2026-04.md)
 - [Historical examples audit](crooke-historical-examples-audit.md)
 
 ## Surface Grammar
@@ -32,15 +32,15 @@ Purpose: front door for the canonical Crooke statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../statecraft/voices/crooke/stream/crooke-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/crooke/stream/crooke-transcript.md)
+- [Thread compatibility file](../../../statecraft/voices/crooke/crooke-thread.md)
+- [Transcript compatibility file](../../../statecraft/voices/crooke/crooke-transcript.md)
 
 ## Monthly Shelf Layer
 
-- [2026-01](stream/crooke-shelf-2026-01.md)
-- [2026-02](stream/crooke-shelf-2026-02.md)
-- [2026-03](stream/crooke-shelf-2026-03.md)
-- [2026-04](stream/crooke-shelf-2026-04.md)
-- [2026-05](stream/crooke-shelf-2026-05.md)
+- [2026-01](crooke-shelf-2026-01.md)
+- [2026-02](crooke-shelf-2026-02.md)
+- [2026-03](crooke-shelf-2026-03.md)
+- [2026-04](crooke-shelf-2026-04.md)
+- [2026-05](crooke-shelf-2026-05.md)
 
 These monthly files are bounded synthesis shelves. They do not replace host-local chronology or the support spine's maturity law.

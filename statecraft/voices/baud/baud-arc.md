@@ -17,7 +17,7 @@ Open by question:
 - person continuity and month-to-month arc -> `baud-arc.md`
 - international-law taxonomy and recurring legal strand -> [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
 - host transformation and comparison -> [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
-- host-local retrieval -> [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-baud-arc.md), [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-baud-arc.md)
+- host-local retrieval -> [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md), [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
 - legacy compatibility only -> [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md)
 
 This file should not collapse those surfaces back into one object. It keeps Baud legible as a recurring person-level voice while the law thread, helix, and host arcs do their narrower jobs.

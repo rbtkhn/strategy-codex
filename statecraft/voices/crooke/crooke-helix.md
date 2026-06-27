@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the recurring Crooke lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Crooke voice, and where to enter the helix.
 
-For the authored mechanism spine, see [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/stream/crooke-forecast-ledger-2026.md). It remains Substack-only, but it should be read as the second strand crossing the interview helix: authored mechanism on one side, host-pressure transformation on the other.
+For the authored mechanism spine, see [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/crooke-forecast-ledger-2026.md). It remains Substack-only, but it should be read as the second strand crossing the interview helix: authored mechanism on one side, host-pressure transformation on the other.
 
 Shelf position: this is the **crossing surface**, not the front door and not the source bench. Open [crooke-arc.md](../../../statecraft/voices/crooke/crooke-arc.md) for whole-speaker continuity and [crooke-source-index.md](../../../statecraft/voices/crooke/crooke-source-index.md) for exhaustive capture truth.
 
@@ -38,9 +38,9 @@ Reading rule: open the authored row first when the question is "what is Crooke's
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x crooke](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md) | Order-transition altitude | Multipolar consequence, strategic irrationality at the center, supply-line and Hormuz system shock, and how a regional war becomes a world-order event |
-| [davis x crooke](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
-| [dialogue works x crooke](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
+| [diesen x crooke](../../../statecraft/voices/diesen/diesen-crooke-speaker-arc.md) | Order-transition altitude | Multipolar consequence, strategic irrationality at the center, supply-line and Hormuz system shock, and how a regional war becomes a world-order event |
+| [davis x crooke](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
+| [dialogue works x crooke](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
 
 ## Orthogonality guide
 
@@ -56,14 +56,14 @@ Do not use `Diesen` as a shortcut for bargaining structure, `Davis` as a shortcu
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/stream/davis-crooke-speaker-arc.md)
-- then [diesen-crooke-speaker-arc.md](../../../statecraft/voices/diesen/stream/diesen-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../statecraft/channels/daniel-davis/davis-crooke-speaker-arc.md)
+- then [diesen-crooke-speaker-arc.md](../../../statecraft/voices/diesen/diesen-crooke-speaker-arc.md)
 
-Add [nima-crooke-speaker-arc.md](../../../statecraft/channels/dialogue-works/stream/nima-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
+Add [nima-crooke-speaker-arc.md](../../../statecraft/channels/dialogue-works/nima-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
 
 ## Routing use
 
@@ -83,7 +83,7 @@ For source-level routing across host appearances, use [crooke-interview-appearan
 - Do not treat the March-May interview month spines or atlas as replacing the helix; they sequence the interview strand, while this file explains host transformation across it.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
 - The three strands are complementary, not redundant. Do not flatten them into one undifferentiated Crooke shelf.
-- For Crooke's recurring legitimacy-order strand across hosts, route to [crooke-thread-international-law.md](../../../statecraft/voices/crooke/stream/crooke-thread-international-law.md) when the question is really about law, sovereignty, and shared constraint rather than host transformation.
+- For Crooke's recurring legitimacy-order strand across hosts, route to [crooke-thread-international-law.md](../../../statecraft/voices/crooke/crooke-thread-international-law.md) when the question is really about law, sovereignty, and shared constraint rather than host transformation.
 
 ## Phase note
 

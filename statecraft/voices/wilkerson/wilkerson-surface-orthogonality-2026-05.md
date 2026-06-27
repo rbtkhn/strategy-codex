@@ -9,9 +9,9 @@ Local surfaces under review:
 - [wilkerson-routing.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-routing.md)
 - [wilkerson-helix.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md)
 - [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-cross-year-note.md)
-- [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-wilkerson-speaker-arc.md)
-- [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-wilkerson-speaker-arc.md)
+- [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md)
+- [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md)
+- [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md)
 
 Bounded claim:
 
@@ -23,9 +23,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-wilkerson-speaker-arc.md)
-- [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-wilkerson-speaker-arc.md)
+- [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md)
+- [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md)
+- [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md)
 
 Threads under review:
 
@@ -92,8 +92,8 @@ Main confusion zones:
 ## Recommended actions
 
 - keep Wilkerson as a **durable double helix with one auxiliary host branch**
-- keep [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md) and [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-wilkerson-speaker-arc.md) as the canonical pair
-- keep [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-wilkerson-speaker-arc.md) as real auxiliary reinforcement without promoting it into a third equal strand
+- keep [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md) and [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md) as the canonical pair
+- keep [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md) as real auxiliary reinforcement without promoting it into a third equal strand
 - keep [wilkerson-helix.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md) and [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-cross-year-note.md) as the justification surfaces for that double-helix reading
 - update shelf-front wording so it no longer implies three equal host-local arcs
 

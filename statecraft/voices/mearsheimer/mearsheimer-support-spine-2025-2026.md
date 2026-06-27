@@ -40,7 +40,7 @@ The heavier month-by-month and audit-bearing support still lives in the legacy s
 
 - [legacy Mearsheimer support spine](../../../statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md)
 - [legacy Mearsheimer historical examples audit](../../../statecraft/voices/mearsheimer/mearsheimer-historical-examples-audit.md)
-- [legacy Mearsheimer themes](../../../statecraft/voices/mearsheimer/themes/README.md)
+- [legacy Mearsheimer themes](../../../statecraft/voices/mearsheimer/README.md)
 
 ## Boundary
 

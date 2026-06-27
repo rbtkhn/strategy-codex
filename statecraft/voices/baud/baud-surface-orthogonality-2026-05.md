@@ -9,9 +9,9 @@ Local surfaces under review:
 - [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
 - [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
 - [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-baud-arc.md)
-- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-baud-arc.md)
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-baud-arc.md)
+- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
+- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
+- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
 - [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md)
 
 Bounded claim:
@@ -25,9 +25,9 @@ Bounded claim:
 Arcs under review:
 
 - [baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-arc.md)
-- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/stream/nima-baud-arc.md)
-- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-baud-arc.md)
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-baud-arc.md)
+- [nima-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/nima-baud-arc.md)
+- [davis-baud-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-baud-arc.md)
+- [diesen-baud-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-baud-arc.md)
 
 Threads under review:
 

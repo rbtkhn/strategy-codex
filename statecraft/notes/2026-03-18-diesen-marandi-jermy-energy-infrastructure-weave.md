@@ -22,7 +22,7 @@ WORK only; not Record.
 
 Read **Marandi** for **what Iran says it will do next on the ladder**; **Jermy** for **whether the West can absorb it economically and militarily**; **Diesen** for **which secondary chokes (Red Sea, Yemen, Gulf complicity) get named in real time**.
 
-**Prior arc:** [Mar 15 Krapivnik — Kharg strike / UAE evacuate](../voices/krapivnik/krapivnik-source-index.md) · [Feb-11 Davis × Marandi catastrophic-for-everyone](../voices/marandi/marandi-source-index.md) · **Forward:** [Mar 19 Mercouris zero restraint / gas-field](../voices/mercouris/stream/mercouris-shelf-2026-03.md) · [Mar 24 Marandi Kish / energy tit-for-tat](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md)
+**Prior arc:** [Mar 15 Krapivnik — Kharg strike / UAE evacuate](../voices/krapivnik/krapivnik-source-index.md) · [Feb-11 Davis × Marandi catastrophic-for-everyone](../voices/marandi/marandi-source-index.md) · **Forward:** [Mar 19 Mercouris zero restraint / gas-field](../voices/mercouris/mercouris-shelf-2026-03.md) · [Mar 24 Marandi Kish / energy tit-for-tat](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md)
 
 ## Shared spine
 
@@ -87,7 +87,7 @@ Read **Marandi** for **what Iran says it will do next on the ladder**; **Jermy**
 
 - [Jermy × Mercouris Mar-18](./2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md) — **arsenal/Kiev** spillover vs this weave's **infrastructure** spine
 - [Mar 24 energy × five terms](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) — **Kish** vs **Kharg** fork matures
-- [Mar 19 Mercouris gas-field node](../voices/mercouris/stream/mercouris-shelf-2026-03.md) — day-after **zero restraint** shelf
+- [Mar 19 Mercouris gas-field node](../voices/mercouris/mercouris-shelf-2026-03.md) — day-after **zero restraint** shelf
 
 ## Falsifiers
 

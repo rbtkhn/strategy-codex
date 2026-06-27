@@ -11,12 +11,12 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 - [Source index](johnson-source-index.md)
 - [Speaker helix note](johnson-helix.md)
 - [Support spine](johnson-support-spine-2025-2026.md)
-- [2026-03 shelf](stream/johnson-shelf-2026-03.md)
-- [2026-04 shelf](stream/johnson-shelf-2026-04.md)
-- [2026-05 shelf](stream/johnson-shelf-2026-05.md)
-- [April-May dense-core thread atlas](stream/johnson-april-may-2026-arc-threads.md)
+- [2026-03 shelf](johnson-shelf-2026-03.md)
+- [2026-04 shelf](johnson-shelf-2026-04.md)
+- [2026-05 shelf](johnson-shelf-2026-05.md)
+- [April-May dense-core thread atlas](johnson-april-may-2026-arc-threads.md)
 - [Historical examples audit](johnson-historical-examples-audit.md)
-- [Theme pack](themes/README.md)
+- [Theme pack](README.md)
 
 ## Surface Grammar
 
@@ -39,7 +39,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 - [Backward extension note](johnson-backward-extension-note.md)
 - [Orthogonality note](johnson-surface-orthogonality-2026-05.md)
 - [Historical examples audit](johnson-historical-examples-audit.md)
-- [Themes](themes/README.md)
+- [Themes](README.md)
 
 ## Canonical Structure
 
@@ -50,14 +50,14 @@ Johnson's orthogonality-bearing structure is:
 - [Source index](johnson-source-index.md) for provenance and appearance coverage
 - [Speaker helix](johnson-helix.md) for the crossing surface across the main host lanes
 - [Support spine](johnson-support-spine-2025-2026.md) for maturity and month-support doctrine
-- [Monthly ladder](stream/README.md) for bounded January through May 2026 synthesis
-- [April-May dense-core thread atlas](stream/johnson-april-may-2026-arc-threads.md) for recurring strand retrieval inside the mature core
+- [Monthly ladder](README.md) for bounded January through May 2026 synthesis
+- [April-May dense-core thread atlas](johnson-april-may-2026-arc-threads.md) for recurring strand retrieval inside the mature core
 
 ## Main Host Arcs
 
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Diesen x Johnson](../../../statecraft/voices/diesen/stream/diesen-johnson-speaker-arc.md)
-- [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/stream/nima-johnson-speaker-arc.md)
+- [Diesen x Johnson](../../../statecraft/voices/diesen/diesen-johnson-speaker-arc.md)
+- [Dialogue Works x Johnson](../../../statecraft/channels/dialogue-works/nima-johnson-speaker-arc.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Best Live Entry Files

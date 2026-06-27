@@ -8,11 +8,11 @@ This file is the first-pass map of host shelves that carry host-local speaker ar
 
 | Host shelf | Role | Open first |
 |---|---|---|
-| [`alkorshid/`](../nima/) | Dialogue Works / Nima Alkhorshid host-local arcs | [`nima-thread.md`](../nima/stream/nima-thread.md) |
-| [`davis/`](../davis/) | Daniel Davis Deep Dive host-local arcs | [`davis-thread.md`](../davis/stream/davis-thread.md) |
-| [`diesen/`](../diesen/) | Glenn Diesen host-local arcs | [`diesen-thread.md`](../diesen/stream/diesen-thread.md) |
-| [`mercouris/`](../mercouris/) | Alexander Mercouris stream shelf | [`mercouris-thread.md`](../mercouris/stream/mercouris-thread.md) |
-| [`napolitano/`](../napolitano/) | Judging Freedom / Judge Andrew Napolitano host-local arcs | [`napolitano-thread.md`](../napolitano/stream/napolitano-thread.md) |
+| [`alkorshid/`](../nima/) | Dialogue Works / Nima Alkhorshid host-local arcs | [`nima-thread.md`](../../channels/dialogue-works/nima-thread.md) |
+| [`davis/`](../davis/) | Daniel Davis Deep Dive host-local arcs | [`davis-thread.md`](../../channels/daniel-davis/davis-thread.md) |
+| [`diesen/`](../diesen/) | Glenn Diesen host-local arcs | [`diesen-thread.md`](../diesen/diesen-thread.md) |
+| [`mercouris/`](../mercouris/) | Alexander Mercouris stream shelf | [`mercouris-thread.md`](../mercouris/mercouris-thread.md) |
+| [`napolitano/`](../napolitano/) | Judging Freedom / Judge Andrew Napolitano host-local arcs | [`napolitano-thread.md`](../../channels/judging-freedom/napolitano-thread.md) |
 
 ## Reading Rule
 

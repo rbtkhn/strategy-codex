@@ -54,7 +54,7 @@ Use these existing surfaces as the benchmark spine:
 - [sachs-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-support-spine-2025-2026.md)
   Makes the December Sachs cluster visible across Napolitano, Neutrality Studies, and HORIZONS, which helps prove that December carries system-level breadth beyond one repeating host lane.
 
-- [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md)
+- [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md)
   Preserves December as a real pre-2026 entanglement and escalation hinge through the late-month Netanyahu/U.S. handoff concern.
 
 ## What December Is Good For

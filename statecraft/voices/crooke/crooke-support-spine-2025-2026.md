@@ -17,9 +17,9 @@ Quick separation rule:
 - [crooke-routing.md](crooke-routing.md) = fastest strand, lane, or month selection
 - [crooke-source-index.md](crooke-source-index.md) = source bench
 - [crooke-helix.md](crooke-helix.md) = authored/interview crossing surface
-- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) = authored mechanism spine
+- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) = authored mechanism spine
 - [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md) = interview support map
-- [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
+- [stream/README.md](README.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
 
 ## Month-status law
@@ -42,8 +42,8 @@ Status: mature interview synthesis month.
 
 Open:
 
-- [stream/crooke-shelf-2026-03.md](stream/crooke-shelf-2026-03.md)
-- [stream/crooke-march-2026-interview-cross-host-arc.md](stream/crooke-march-2026-interview-cross-host-arc.md)
+- [stream/crooke-shelf-2026-03.md](crooke-shelf-2026-03.md)
+- [stream/crooke-march-2026-interview-cross-host-arc.md](crooke-march-2026-interview-cross-host-arc.md)
 
 ### 2026-04
 
@@ -51,9 +51,9 @@ Status: mature dense-core month.
 
 Open:
 
-- [stream/crooke-shelf-2026-04.md](stream/crooke-shelf-2026-04.md)
-- [stream/crooke-april-2026-interview-cross-host-arc.md](stream/crooke-april-2026-interview-cross-host-arc.md)
-- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
+- [stream/crooke-shelf-2026-04.md](crooke-shelf-2026-04.md)
+- [stream/crooke-april-2026-interview-cross-host-arc.md](crooke-april-2026-interview-cross-host-arc.md)
+- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
 
 ### 2026-05
 
@@ -61,8 +61,8 @@ Status: mature frontier month.
 
 Open:
 
-- [stream/crooke-shelf-2026-05.md](stream/crooke-shelf-2026-05.md)
-- [stream/crooke-may-2026-interview-cross-host-arc.md](stream/crooke-may-2026-interview-cross-host-arc.md)
+- [stream/crooke-shelf-2026-05.md](crooke-shelf-2026-05.md)
+- [stream/crooke-may-2026-interview-cross-host-arc.md](crooke-may-2026-interview-cross-host-arc.md)
 
 ## Monthly shelf rule
 

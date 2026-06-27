@@ -9,7 +9,7 @@ Purpose: front door for the canonical Pape statecraft shelf.
 - [Speaker profile](pape-profile.md)
 - [pape-arc.md](pape-arc.md)
 - [pape-routing.md](pape-routing.md)
-- [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
+- [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
 - [pape-source-index.md](pape-source-index.md)
 - [pape-helix.md](pape-helix.md)
@@ -22,13 +22,13 @@ The orthogonality-bearing Pape structure is:
 - [pape-routing.md](pape-routing.md)
 - [pape-speaker-object.md](pape-speaker-object.md)
 - [pape-helix.md](pape-helix.md)
-- [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
+- [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
 - [pape-source-index.md](pape-source-index.md)
 
 ## Main Context Routes
 
-- [Forecast + threshold ledger](stream/pape-forecast-ledger-2026.md)
+- [Forecast + threshold ledger](pape-forecast-ledger-2026.md)
 - [Interview-pressure map](pape-interview-appearances-2025-2026.md)
 - [Cross-host note](pape-cross-host-note.md)
 

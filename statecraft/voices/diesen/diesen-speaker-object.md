@@ -4,7 +4,7 @@ WORK only; not Record.
 
 object_shape: stream-native
 
-Purpose: define Diesen as a first-class speaker object while preserving the fact that his main body in this volume is already a native cognition stream. Diesen does not need to be inferred only through helix notes because the notebook already has a thick native stream shelf under `statecraft/voices/diesen/stream/`. This folder exists so Diesen can sit beside the other speaker objects as a peer object rather than only as a host territory.
+Purpose: define Diesen as a first-class speaker object while preserving the fact that his main body in this volume is already a native cognition stream. Diesen does not need to be inferred only through helix notes because the notebook already has a thick native stream shelf under `statecraft/voices/diesen/`. This folder exists so Diesen can sit beside the other speaker objects as a peer object rather than only as a host territory.
 
 ## Core claim
 
@@ -33,7 +33,7 @@ Diesen should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [statecraft/voices/diesen/stream/](stream)
+- the main body of the object is [statecraft/voices/diesen/](README.md)
 - the `diesen/` folder exists to orient the object at the same ontological level as `Mercouris`, `Crooke`, `Ritter`, or `Mearsheimer`
 - the notebook should not force Diesen into helix language when the native stream is already the clearest and strongest entry path
 
@@ -45,7 +45,7 @@ If the operator needs the main body of the object:
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the native `diesen/stream/` shelf, for example [diesen-crooke-speaker-arc.md](stream/diesen-crooke-speaker-arc.md) or [diesen-postol-speaker-arc.md](stream/diesen-postol-speaker-arc.md)
+- open one of the host-local arc notes on the flat Diesen shelf, for example [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md) or [diesen-postol-speaker-arc.md](diesen-postol-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

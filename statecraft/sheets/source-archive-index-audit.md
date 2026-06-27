@@ -41,21 +41,21 @@ Navigation rule: canonical browsing now lives at `source-archive/statecraft/` vi
 
 ## Candidate arc index surfaces
 
-- `crooke` -> [crooke-march-may-2026-interview-arc-threads.md](statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md)
-- `freeman` -> [freeman-dec-2025-may-2026-arc-threads.md](statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
-- `johnson` -> [johnson-april-may-2026-arc-threads.md](statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md)
-- `marandi` -> [marandi-2025-present-arc-threads.md](statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md)
-- `mercouris` -> [mercouris-arc-threads.md](statecraft/voices/mercouris/stream/mercouris-arc-threads.md)
-- `parsi` -> [parsi-2025-present-arc-threads.md](statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md)
+- `crooke` -> [crooke-march-may-2026-interview-arc-threads.md](statecraft/voices/crooke/crooke-march-may-2026-interview-arc-threads.md)
+- `freeman` -> [freeman-dec-2025-may-2026-arc-threads.md](statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md)
+- `johnson` -> [johnson-april-may-2026-arc-threads.md](statecraft/voices/johnson/johnson-april-may-2026-arc-threads.md)
+- `marandi` -> [marandi-2025-present-arc-threads.md](statecraft/voices/marandi/marandi-2025-present-arc-threads.md)
+- `mercouris` -> [mercouris-arc-threads.md](statecraft/voices/mercouris/mercouris-arc-threads.md)
+- `parsi` -> [parsi-2025-present-arc-threads.md](statecraft/voices/parsi/parsi-2025-present-arc-threads.md)
 
 ## Weak justification signals
 
-- `crooke` -> [crooke-march-may-2026-interview-arc-threads.md](statecraft/voices/crooke/stream/crooke-march-may-2026-interview-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
-- `freeman` -> [freeman-dec-2025-may-2026-arc-threads.md](statecraft/voices/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
-- `johnson` -> [johnson-april-may-2026-arc-threads.md](statecraft/voices/johnson/stream/johnson-april-may-2026-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
-- `marandi` -> [marandi-2025-present-arc-threads.md](statecraft/voices/marandi/stream/marandi-2025-present-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
-- `mercouris` -> [mercouris-arc-threads.md](statecraft/voices/mercouris/stream/mercouris-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
-- `parsi` -> [parsi-2025-present-arc-threads.md](statecraft/voices/parsi/stream/parsi-2025-present-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `crooke` -> [crooke-march-may-2026-interview-arc-threads.md](statecraft/voices/crooke/crooke-march-may-2026-interview-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `freeman` -> [freeman-dec-2025-may-2026-arc-threads.md](statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `johnson` -> [johnson-april-may-2026-arc-threads.md](statecraft/voices/johnson/johnson-april-may-2026-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `marandi` -> [marandi-2025-present-arc-threads.md](statecraft/voices/marandi/marandi-2025-present-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `mercouris` -> [mercouris-arc-threads.md](statecraft/voices/mercouris/mercouris-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `parsi` -> [parsi-2025-present-arc-threads.md](statecraft/voices/parsi/parsi-2025-present-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
 
 ## Missing bench candidates
 

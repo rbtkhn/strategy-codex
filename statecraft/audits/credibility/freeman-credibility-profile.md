@@ -40,10 +40,10 @@ Freeman is a high-seriousness, mechanism-heavy speaker whose trust value comes f
 
 ## Best proving anchors
 
-1. [Freeman Historical Themes](../../speakers/freeman/themes/README.md)
-2. [thucydidean-misfit-and-civilizational-state-difference.md](/C:/dev/strategy-codex/statecraft/voices/freeman/themes/thucydidean-misfit-and-civilizational-state-difference.md)
-3. [bombing-is-not-political-success.md](/C:/dev/strategy-codex/statecraft/voices/freeman/themes/bombing-is-not-political-success.md)
-4. [settlement-precedent-and-broken-agreement.md](/C:/dev/strategy-codex/statecraft/voices/freeman/themes/settlement-precedent-and-broken-agreement.md)
+1. [Freeman Historical Themes](../../speakers/freeman/freeman-themes.md)
+2. [thucydidean-misfit-and-civilizational-state-difference.md](/C:/dev/strategy-codex/statecraft/voices/freeman/thucydidean-misfit-and-civilizational-state-difference.md)
+3. [bombing-is-not-political-success.md](/C:/dev/strategy-codex/statecraft/voices/freeman/bombing-is-not-political-success.md)
+4. [settlement-precedent-and-broken-agreement.md](/C:/dev/strategy-codex/statecraft/voices/freeman/settlement-precedent-and-broken-agreement.md)
 
 ## Disconfirming or stress-test anchors
 

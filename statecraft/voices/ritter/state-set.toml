@@ -7,7 +7,7 @@ compact_state_files = [
   "statecraft/voices/ritter/ritter-routing.md",
   "statecraft/voices/ritter/ritter-helix.md",
   "statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md",
-  "statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md",
+  "statecraft/voices/ritter/ritter-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -15,7 +15,7 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "statecraft/voices/ritter/stream/ritter-forecast-ledger-2026.md"
+file = "statecraft/voices/ritter/ritter-forecast-ledger-2026.md"
 expected_count = 22
 required_prefixes = ["substack-ritter-", "source-ritter-"]
 excluded_patterns = [

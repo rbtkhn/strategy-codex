@@ -40,7 +40,7 @@ Parsi is a diplomacy-architecture speaker whose main value comes from settlement
 
 ## Best proving anchors
 
-1. [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md)
+1. [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md)
 2. [parsi-helix.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-helix.md)
 3. [2026-04-12 Blockade Threat](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-12/source-parsi-bluster-or-genuine-economic-suicide-trumps-naval-blockade-threat-against-iran-2026-04-12.md)
 4. [2026-05-06 Parsi on blockade diplomacy](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)

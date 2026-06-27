@@ -26,15 +26,15 @@ The helix also has a source-class twist:
 - the **interview strand** tests that mechanism under host pressure
 - the **crossing** happens where a ledger row and a host cluster illuminate the same claim from different angles
 
-Read [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md) when the question is "what is Ritter's thesis?" Open [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) when the question is "where does this thesis become usable under pressure?"
+Read [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) when the question is "what is Ritter's thesis?" Open [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) when the question is "where does this thesis become usable under pressure?"
 
 ## The three strands
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x ritter](../../../statecraft/voices/diesen/stream/diesen-ritter-speaker-arc.md) | escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
+| [diesen x ritter](../../../statecraft/voices/diesen/diesen-ritter-speaker-arc.md) | escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
 | [Davis host shelf](../../channels/daniel-davis/README.md) | operational feasibility | stockpiles, skies, basing pressure, blockade impracticality, and what the U.S. military can no longer realistically impose |
-| [alkorshid x ritter](../../../statecraft/channels/dialogue-works/stream/nima-ritter-speaker-arc.md) | live war pressure | rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis motion under maximum event stress |
+| [alkorshid x ritter](../../../statecraft/channels/dialogue-works/nima-ritter-speaker-arc.md) | live war pressure | rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis motion under maximum event stress |
 
 Napolitano is a real auxiliary legal-command reinforcement branch, not a fourth canonical strand.
 
@@ -42,11 +42,11 @@ Napolitano is a real auxiliary legal-command reinforcement branch, not a fourth 
 
 The month ladder does not replace the helix. It segments how the helix matures:
 
-- [2026-01](stream/ritter-shelf-2026-01.md) = opening membrane
-- [2026-02](stream/ritter-shelf-2026-02.md) = bridge month
-- [2026-03](stream/ritter-shelf-2026-03.md) = first dense-core month
-- [2026-04](stream/ritter-shelf-2026-04.md) = shelf peak
-- [2026-05](stream/ritter-shelf-2026-05.md) = post-Hormuz mature continuation
+- [2026-01](ritter-shelf-2026-01.md) = opening membrane
+- [2026-02](ritter-shelf-2026-02.md) = bridge month
+- [2026-03](ritter-shelf-2026-03.md) = first dense-core month
+- [2026-04](ritter-shelf-2026-04.md) = shelf peak
+- [2026-05](ritter-shelf-2026-05.md) = post-Hormuz mature continuation
 
 ## Boundaries
 

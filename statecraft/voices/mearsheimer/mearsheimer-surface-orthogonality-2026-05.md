@@ -8,9 +8,9 @@ Local surfaces under review:
 
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
 - [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md)
-- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-mearsheimer-arc.md)
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-mearsheimer-arc.md)
+- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
+- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
 - [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md)
 
 Bounded claim:
@@ -23,9 +23,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/stream/diesen-mearsheimer-arc.md)
-- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/stream/davis-mearsheimer-arc.md)
-- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/stream/napolitano-mearsheimer-arc.md)
+- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-mearsheimer-arc.md)
+- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md)
 
 Threads under review:
 

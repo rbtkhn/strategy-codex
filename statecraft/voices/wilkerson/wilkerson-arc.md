@@ -19,12 +19,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md) - imperial-decline altitude and systemic consequence
-2. [Dialogue Works x Wilkerson](../../../statecraft/channels/dialogue-works/stream/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
+1. [Diesen x Wilkerson](../../../statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md) - imperial-decline altitude and systemic consequence
+2. [Dialogue Works x Wilkerson](../../../statecraft/channels/dialogue-works/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
 
 Auxiliary reinforcement:
 
-- [Napolitano x Wilkerson](../../../statecraft/channels/judging-freedom/stream/napolitano-wilkerson-speaker-arc.md)
+- [Napolitano x Wilkerson](../../../statecraft/channels/judging-freedom/napolitano-wilkerson-speaker-arc.md)
 
 ## What makes this an arc
 
@@ -53,7 +53,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest structural anchor:
 
-- open [Diesen x Wilkerson](../../../statecraft/voices/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- open [Diesen x Wilkerson](../../../statecraft/voices/diesen/diesen-wilkerson-speaker-arc.md)
 
 ## Boundary
 

@@ -52,7 +52,7 @@ The legacy `statecraft/voices/karaganov/` path is now front-door compatibility o
 
 ## Host Lanes
 
-- [Diesen x Karaganov](../diesen/stream/diesen-karaganov-speaker-arc.md)
+- [Diesen x Karaganov](../diesen/diesen-karaganov-speaker-arc.md)
 
 ## Boundary
 

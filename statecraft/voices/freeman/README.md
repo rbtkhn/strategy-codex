@@ -13,10 +13,10 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 - [freeman-source-index.md](freeman-source-index.md)
 - [freeman-helix.md](freeman-helix.md)
 - [freeman-support-spine-2025-2026.md](freeman-support-spine-2025-2026.md)
-- [stream/freeman-shelf-2026-03.md](stream/freeman-shelf-2026-03.md)
-- [stream/freeman-shelf-2026-04.md](stream/freeman-shelf-2026-04.md)
+- [stream/freeman-shelf-2026-03.md](freeman-shelf-2026-03.md)
+- [stream/freeman-shelf-2026-04.md](freeman-shelf-2026-04.md)
 - [freeman-historical-examples-audit.md](freeman-historical-examples-audit.md)
-- [themes/README.md](themes/README.md)
+- [themes/README.md](README.md)
 
 ## Canonical Structure
 
@@ -31,7 +31,7 @@ Freeman's canonical structure now has five speaker-owned layers:
 Support and segmentation surfaces:
 
 - [freeman-cross-year-note.md](freeman-cross-year-note.md) preserves the 2025-to-2026 continuity claim.
-- [stream/README.md](stream/README.md) holds the bounded 2026 monthly synthesis shelves.
+- [stream/README.md](README.md) holds the bounded 2026 monthly synthesis shelves.
 - [freeman-surface-orthogonality-2026-05.md](freeman-surface-orthogonality-2026-05.md) preserves shelf doctrine and overlap checks.
 
 ## Monthly Shelf Rule
@@ -45,7 +45,7 @@ Freeman now has a full canonical 2026 month ladder for the live year, but the mo
 ## Historical Scaffold
 
 - [Freeman historical examples audit](freeman-historical-examples-audit.md)
-- [Freeman historical themes](themes/README.md)
+- [Freeman historical themes](README.md)
 
 `civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Freeman-specific bridge adapter.
 
@@ -59,9 +59,9 @@ The legacy `statecraft/voices/freeman/` path is now front-door compatibility onl
 
 ## Host Lanes
 
-- [Diesen x Freeman](../../../statecraft/voices/diesen/stream/diesen-freeman-arc.md)
+- [Diesen x Freeman](../../../statecraft/voices/diesen/diesen-freeman-arc.md)
 - [Davis host shelf](../../channels/daniel-davis/README.md)
-- [Dialogue Works x Freeman](../../../statecraft/channels/dialogue-works/stream/nima-freeman-arc.md)
+- [Dialogue Works x Freeman](../../../statecraft/channels/dialogue-works/nima-freeman-arc.md)
 - [Napolitano host shelf](../../channels/judging-freedom/README.md)
 
 ## Boundary
