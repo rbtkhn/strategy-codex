@@ -8,7 +8,7 @@ Use it when the question is not yet "which file?" but rather "what kind of prose
 
 If a shelf README and this index ever seem to compete, this index wins on prose-class routing and the shelf README should be read as the **canonical local entrypoint** for that shelf.
 
-For one compact live comparison of how cluster behavior changes across `essays/`, `notes/`, and `docs/skill-work/`, see [prose-cluster-placement-comparison.md](/C:/dev/strategy-codex/docs/prose-cluster-placement-comparison.md).
+For one compact live comparison of how cluster behavior changes across `essays/`, `notes/`, and `docs/skill-work/`, see [prose-cluster-placement-comparison.md](prose-cluster-placement-comparison.md).
 
 ## Core Split
 
@@ -91,19 +91,19 @@ density is high and the evidence base is heterogeneous, prefer:
 
 Need a **thesis-bearing synthesized argument**:
 
-- **primary (default)** — cross-channel or stand-alone essay -> [essays](/C:/dev/strategy-codex/essays/README.md) at repo root
-- statecraft-heavy legacy holdings -> [statecraft essays](/C:/dev/strategy-codex/statecraft/essays/README.md) (compatibility; migrate to root `essays/` in bounded passes)
-- singularity-heavy legacy holdings -> [singularity essays](/C:/dev/strategy-codex/singularity/essays/README.md) (compatibility; migrate to root `essays/` in bounded passes)
+- **primary (default)** — cross-channel or stand-alone essay -> [essays](../essays/README.md) at repo root
+- statecraft-heavy legacy holdings -> [statecraft essays](../statecraft/essays/README.md) (compatibility; migrate to root `essays/` in bounded passes)
+- singularity-heavy legacy holdings -> [singularity essays](../singularity/essays/README.md) (compatibility; migrate to root `essays/` in bounded passes)
 
 Need a **bounded interpretive object** (channel-scoped only — do not split across channels at note layer):
 
-- statecraft route / mechanism / comparison / audit / threshold object -> [statecraft notes](/C:/dev/strategy-codex/statecraft/notes/README.md)
-- singularity promoted seam / substrate / control-plane / source-hygiene object -> [singularity notes](/C:/dev/strategy-codex/singularity/notes/README.md)
+- statecraft route / mechanism / comparison / audit / threshold object -> [statecraft notes](../statecraft/notes/README.md)
+- singularity promoted seam / substrate / control-plane / source-hygiene object -> [singularity notes](../singularity/notes/README.md)
 
 Need a **month-scale extraction layer rather than a prose shelf**:
 
-- singularity month-scale source extraction -> [singularity synthesis](/C:/dev/strategy-codex/singularity/synthesis/README.md)
-- statecraft day/month archive compression -> [state synthesis](/C:/dev/strategy-codex/statecraft/synthesis/day/README.md)
+- singularity month-scale source extraction -> [singularity synthesis](../singularity/synthesis/README.md)
+- statecraft day/month archive compression -> [state synthesis](../statecraft/synthesis/day/README.md)
 
 ## What These Shelves Are Not
 
@@ -136,4 +136,4 @@ Stability rule:
 Later cleanup may remove or rewrite some mirrored or review-needed items, but this index should remain stable because it routes through shelf authority first rather than through raw folder contents.
 
 For the preferred citation pattern for literature-backed notes and essays, open
-[citation-evidence-pattern.md](/C:/dev/strategy-codex/docs/citation-evidence-pattern.md).
+[citation-evidence-pattern.md](citation-evidence-pattern.md).

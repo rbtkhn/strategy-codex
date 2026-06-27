@@ -10,7 +10,7 @@
 
 1. **Ingestion is normal** â€” bridges, hooks, operator paste, bot conversations â€” see [openclaw-integration.md](openclaw-integration.md), [feedback-loops.md](feedback-loops.md).
 2. **Imports do not auto-write the durable Record** â€” material may land in **EVIDENCE**, transcripts, prepared context, or staging files without yet being â€œcanonical identity.â€
-3. **Promotion is gated** â€” structured **candidates** in [`recursion-gate.md`](../recursion-gate.md) (**Approval Inbox**); companion approval; `process_approved_candidates.py` performs the merge ([AGENTS.md](../AGENTS.md)).
+3. **Promotion is gated** â€” structured **candidates** in [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) (**Approval Inbox**); companion approval; `process_approved_candidates.py` performs the merge ([AGENTS.md](../AGENTS.md)).
 
 ---
 

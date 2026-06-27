@@ -17,7 +17,7 @@ At most **one** candidate per type per normalized tacit artifact (deduped).
 
 - No `self_mutation` or direct IX/SELF candidate types.
 - No LLM generation; heuristics only (`scripts/tacit/generate_tacit_candidates.py`).
-- No automatic append to [recursion-gate.md](../recursion-gate.md).
+- No automatic append to [recursion-gate.md](../archive/grace-mar-instance/recursion-gate.md).
 
 ## Promotion
 

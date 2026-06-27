@@ -62,5 +62,5 @@ Writes `runtime/artifacts/route-recommendations/YYYY-MM-DD/<HHMMSS>-<slug>.md` u
 
 - **Derived artifact** discipline ([`runtime/artifacts/README.md`](../runtime/artifacts/README.md)).
 - **Operator lane prefixes** documented separately; receipts **recommend**, never EXECUTE automatically.
-- **Gate semantics** delegated to canonical [`recursion-gate.md`](../recursion-gate.md) flows.
+- **Gate semantics** delegated to canonical [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) flows.
 

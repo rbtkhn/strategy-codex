@@ -2,7 +2,7 @@
 
 **Purpose:** State a system-wide design rule for strategy-codex: a governed layer is only truly trustworthy if it can preserve its discipline under degraded conditions, not just under ideal ones.
 
-**Status:** Repo doctrine note. Read alongside [OPERATING-PRINCIPLES](operating-principles.md), [PORTABILITY](portability.md), [RUNTIME-VS-RECORD](runtime-vs-record.md), and [RECURSION-GATE](../recursion-gate.md).
+**Status:** Repo doctrine note. Read alongside [OPERATING-PRINCIPLES](operating-principles.md), [PORTABILITY](portability.md), [RUNTIME-VS-RECORD](runtime-vs-record.md), and [RECURSION-GATE](../archive/grace-mar-instance/recursion-gate.md).
 
 ## Core rule
 

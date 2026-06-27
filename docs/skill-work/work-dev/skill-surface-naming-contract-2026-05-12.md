@@ -15,13 +15,13 @@ This repo uses a **split contract**:
 So, for `strategy-codex` today:
 
 - **self-skill-think** = conceptual label
-- [skill-think.md](/C:/dev/strategy-codex/skill-think.md) = concrete root file
+- [skill-think.md](../../../skill-think.md) = concrete root file
 
 - **self-skill-write** = conceptual label
-- [skill-write.md](/C:/dev/strategy-codex/skill-write.md) = concrete root file
+- [skill-write.md](../../../skill-write.md) = concrete root file
 
 - **self-skill-steward** = conceptual label
-- [skill-steward.md](/C:/dev/strategy-codex/skill-steward.md) = concrete root file
+- [skill-steward.md](../../../skill-steward.md) = concrete root file
 
 ## Rule
 
@@ -79,7 +79,7 @@ It is “the repo silently implies that the conceptual name and the concrete fil
 
 ## Related
 
-- [authority-ambiguity-vs-file-abundance.md](/C:/dev/strategy-codex/docs/skill-work/work-dev/authority-ambiguity-vs-file-abundance.md)
-- [duplicate-canonical-surfaces-audit-2026-05-12.md](/C:/dev/strategy-codex/docs/skill-work/work-dev/dev-notebook/work-dev/duplicate-canonical-surfaces-audit-2026-05-12.md)
-- [contract-wording-vs-filename-test-2026-05-12.md](/C:/dev/strategy-codex/docs/skill-work/work-dev/contract-wording-vs-filename-test-2026-05-12.md)
-- [canonical-paths.md](/C:/dev/strategy-codex/docs/canonical-paths.md)
+- [authority-ambiguity-vs-file-abundance.md](authority-ambiguity-vs-file-abundance.md)
+- [duplicate-canonical-surfaces-audit-2026-05-12.md](dev-notebook/work-dev/duplicate-canonical-surfaces-audit-2026-05-12.md)
+- [contract-wording-vs-filename-test-2026-05-12.md](contract-wording-vs-filename-test-2026-05-12.md)
+- [canonical-paths.md](../../canonical-paths.md)

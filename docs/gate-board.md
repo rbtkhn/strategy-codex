@@ -12,7 +12,7 @@ The Gate Board is a **generated Kanban-style operator view** over Grace-Marâ€
 
 - This is **not** a source of truth.
 - **Editing** `runtime/artifacts/gate-board.md` does **not** change candidate status.
-- This does **not** replace [`recursion-gate.md`](../recursion-gate.md), [`archive/queues/review-queue/`](../archive/queues/review-queue/), or canonical change-review JSON.
+- This does **not** replace [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md), [`archive/queues/review-queue/`](../archive/queues/review-queue/), or canonical change-review JSON.
 
 ## Authority
 

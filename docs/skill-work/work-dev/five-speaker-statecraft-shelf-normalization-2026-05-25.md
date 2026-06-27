@@ -8,11 +8,11 @@ Purpose: record the new canonical shelf law after the Freeman, Crooke, Mercouris
 
 These five speakers now sit at one canonical 2026 shelf level under `statecraft/voices/`:
 
-- [Freeman](/C:/dev/strategy-codex/statecraft/voices/civ-lens-freeman/README.md)
-- [Crooke](/C:/dev/strategy-codex/statecraft/voices/civ-lens-crooke/README.md)
-- [Mercouris](/C:/dev/strategy-codex/statecraft/voices/civ-lens-mercouris/README.md)
-- [Macgregor](/C:/dev/strategy-codex/statecraft/voices/civ-lens-macgregor/README.md)
-- [Ritter](/C:/dev/strategy-codex/statecraft/voices/civ-lens-ritter/README.md)
+- [Freeman](../../../statecraft/voices/civ-lens-freeman/README.md)
+- [Crooke](../../../statecraft/voices/civ-lens-crooke/README.md)
+- [Mercouris](../../../statecraft/voices/civ-lens-mercouris/README.md)
+- [Macgregor](../../../statecraft/voices/civ-lens-macgregor/README.md)
+- [Ritter](../../../statecraft/voices/civ-lens-ritter/README.md)
 
 Shared shelf law:
 
@@ -28,9 +28,9 @@ Shared shelf law:
 
 The normalization did not erase all codex residue.
 
-- Freeman still has legacy continuity residue like [freeman-thread.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-thread.md) and [freeman-transcript.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-transcript.md).
-- Crooke still has verbatim carryover residue like [crooke-transcript.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-transcript.md).
-- Ritter still has the largest remaining codex-side pressure under [statecraft/voices/ritter/stream/](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/), where month cross-host arcs, forecast surfaces, thread files, transcript files, pages, and manifests still coexist beside the new canonical statecraft shelf.
+- Freeman still has legacy continuity residue like [freeman-thread.md](../../../statecraft/voices/freeman/freeman-thread.md) and [freeman-transcript.md](../../../statecraft/voices/freeman/freeman-transcript.md).
+- Crooke still has verbatim carryover residue like [crooke-transcript.md](../../../statecraft/voices/crooke/stream/crooke-transcript.md).
+- Ritter still has the largest remaining codex-side pressure under [statecraft/voices/ritter/stream/](../../../statecraft/voices/ritter/stream), where month cross-host arcs, forecast surfaces, thread files, transcript files, pages, and manifests still coexist beside the new canonical statecraft shelf.
 
 ## Next migration pressure point
 

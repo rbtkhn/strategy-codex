@@ -17,7 +17,7 @@ Omitting `--` still forwards any tokens after the subcommand (e.g. `export.py fo
 
 **Non-goals:** `export_view`, `export_gate_to_review_queue`, â€¦ â€” run those scripts directly.
 
-**Template repo:** [companion-self](../companion-self/) may not yet ship every `export_*.py`; `export.py` errors clearly if a target script is missing. Promote scripts from the instance repo per [MERGING-FROM-COMPANION-SELF.md](MERGING-FROM-COMPANION-SELF.md).
+**Template repo:** [companion-self](https://github.com/rbtkhn/companion-self) may not yet ship every `export_*.py`; `export.py` errors clearly if a target script is missing. Promote scripts from the instance repo per [MERGING-FROM-COMPANION-SELF.md](MERGING-FROM-COMPANION-SELF.md).
 
 **Migration:**
 

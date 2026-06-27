@@ -51,7 +51,7 @@ That loop should make later architecture changes cheaper than they would have be
 
 ### 1. Reduced doctrinal drift
 
-Now that [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md) clearly owns prose-class routing, local shelf READMEs no longer need to act like rival taxonomy owners.
+Now that [docs/prose-index.md](prose-index.md) clearly owns prose-class routing, local shelf READMEs no longer need to act like rival taxonomy owners.
 
 Expected result:
 
@@ -61,7 +61,7 @@ Expected result:
 
 ### 2. Cheaper relocations
 
-The interpretive-machine move plus [docs/legacy-redirect-pattern.md](/C:/dev/strategy-codex/docs/legacy-redirect-pattern.md) creates a reusable relocation grammar.
+The interpretive-machine move plus [docs/legacy-redirect-pattern.md](legacy-redirect-pattern.md) creates a reusable relocation grammar.
 
 Expected result:
 
@@ -148,6 +148,6 @@ The estimate is too optimistic if:
 
 ## Return Path
 
-- Return to [docs/kleiber-close-routing-and-redirects-2026-06-01.md](/C:/dev/strategy-codex/docs/kleiber-close-routing-and-redirects-2026-06-01.md) for the design close.
-- Return to [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md) for the canonical prose-class chooser.
-- Return to [docs/legacy-redirect-pattern.md](/C:/dev/strategy-codex/docs/legacy-redirect-pattern.md) for the migration grammar.
+- Return to [docs/kleiber-close-routing-and-redirects-2026-06-01.md](kleiber-close-routing-and-redirects-2026-06-01.md) for the design close.
+- Return to [docs/prose-index.md](prose-index.md) for the canonical prose-class chooser.
+- Return to [docs/legacy-redirect-pattern.md](legacy-redirect-pattern.md) for the migration grammar.

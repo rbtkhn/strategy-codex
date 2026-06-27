@@ -20,7 +20,7 @@ If you only need the shortest truthful phrase, stop there.
 
 Open:
 
-- [From Accumulation To A Governed Interpretive Machine](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md)
+- [From Accumulation To A Governed Interpretive Machine](../essays/from-accumulation-to-governed-interpretive-machine.md)
 
 Use it when the question is:
 
@@ -34,7 +34,7 @@ That essay gives the clearest broad explanation of the shift.
 
 Open:
 
-- [Current Machine Map - 2026-06-01](/C:/dev/strategy-codex/docs/current-machine-map-2026-06-01.md)
+- [Current Machine Map - 2026-06-01](current-machine-map-2026-06-01.md)
 
 Use it when the question is:
 
@@ -55,7 +55,7 @@ That map gives the current six-layer machine:
 
 Open:
 
-- [Why Archive Truth Now Matters More - 2026-06-01](/C:/dev/strategy-codex/docs/why-archive-truth-now-matters-more-2026-06-01.md)
+- [Why Archive Truth Now Matters More - 2026-06-01](why-archive-truth-now-matters-more-2026-06-01.md)
 
 Use it when the question is:
 
@@ -72,7 +72,7 @@ now travel much farther upward than they used to.
 
 Open:
 
-- [Archive Truth-Floor Repair Routing - 2026-06-01](/C:/dev/strategy-codex/statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md)
+- [Archive Truth-Floor Repair Routing - 2026-06-01](../statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md)
 
 Use it when the question is:
 
@@ -86,7 +86,7 @@ That note treats the seam as a governed machine object with distinct tranches.
 
 Open:
 
-- [Bernstein Reflection - Governed Interpretation - 2026-06-01](/C:/dev/strategy-codex/docs/bernstein-reflection-governed-interpretation-2026-06-01.md)
+- [Bernstein Reflection - Governed Interpretation - 2026-06-01](bernstein-reflection-governed-interpretation-2026-06-01.md)
 
 Use it when the question is:
 
@@ -124,6 +124,6 @@ Move down that ladder only as far as your question really requires.
 
 ## Return Path
 
-- [essays shelf](/C:/dev/strategy-codex/essays/README.md)
-- [statecraft front door](/C:/dev/strategy-codex/statecraft/README.md)
-- [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md)
+- [essays shelf](../essays/README.md)
+- [statecraft front door](../statecraft/README.md)
+- [shared prose index](prose-index.md)

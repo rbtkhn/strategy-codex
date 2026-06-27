@@ -13,7 +13,7 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 | **Library** | **removed operator-books symlink** â€” display label **Library** ([scripts/surface_aliases.py](../scripts/surface_aliases.py)) |
 | **Skills** (executable packs) | Two layers: **SKILLS** (Record capability in `self-skills.md`) vs **portable skills** (`skills/`). See [skills-explained.md](skills-explained.md). |
 | **Evidence / activity log** | **EVIDENCE** â€” canonical body on `self-archive.md` |
-| **Pending approvals / review queue** | **Approval Inbox** â€” user-facing name for pending candidates in [`recursion-gate.md`](../recursion-gate.md) (canonical file name: **recursion-gate**). **Boundary Review** (classification hints) is related but not the whole inbox; see [boundary-review-queue.md](boundary-review-queue.md). |
+| **Pending approvals / review queue** | **Approval Inbox** â€” user-facing name for pending candidates in [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) (canonical file name: **recursion-gate**). **Boundary Review** (classification hints) is related but not the whole inbox; see [boundary-review-queue.md](boundary-review-queue.md). |
 | **Workflows / recipes** | `docs/skill-work/**`, scripts, bridges â€” [workflow-catalog.md](workflow-catalog.md) |
 | **Imports / capture** | [imports-and-capture.md](imports-and-capture.md) |
 | **Dashboard** | [observability.md](observability.md), `runtime/observability/`, family hub / miniapp: [simple-user-interface.md](simple-user-interface.md) |
@@ -42,7 +42,7 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 
 1. Skim [README.md](../README.md) â€” Concept + Gated Pipeline.
 2. Open [docs/start-here.md](start-here.md) â€” **Choose your path** (operator = **C** is the usual OB1-adjacent role).
-3. Peek at pending work: [`recursion-gate.md`](../recursion-gate.md) (**Approval Inbox**).
+3. Peek at pending work: [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) (**Approval Inbox**).
 4. Optional: run a short observability or session script ([observability.md](observability.md)) to see â€œdashboard-ishâ€ output locally.
 
 ---

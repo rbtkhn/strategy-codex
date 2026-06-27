@@ -6,9 +6,9 @@ This close records the design gain from the recent prose-routing pass.
 
 ## What Changed
 
-- [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md) now clearly owns prose-class routing.
+- [docs/prose-index.md](prose-index.md) now clearly owns prose-class routing.
 - local shelf READMEs in `singularity/` and `statecraft/` now behave more like local orientation surfaces than rival taxonomy owners
-- [docs/prose-cluster-placement-comparison.md](/C:/dev/strategy-codex/docs/prose-cluster-placement-comparison.md) now gives one small live test for how the same cluster should behave differently in `essays/`, `notes/`, and `docs/skill-work/`
+- [docs/prose-cluster-placement-comparison.md](prose-cluster-placement-comparison.md) now gives one small live test for how the same cluster should behave differently in `essays/`, `notes/`, and `docs/skill-work/`
 
 ## The Real Lesson
 

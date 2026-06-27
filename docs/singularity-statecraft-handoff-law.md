@@ -187,9 +187,9 @@ singularity acceleration pressure
 
 Canonical surfaces:
 
-- [High-Skill Labor Compression and Sovereign Judgment](/C:/dev/strategy-codex/statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md)
-- [High-Skill Labor Compression and American Command](/C:/dev/strategy-codex/statecraft/america/high-skill-labor-compression-and-american-command.md)
-- [High-Skill Labor Compression and Civilizational Statecraft](/C:/dev/strategy-codex/statecraft/states/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [High-Skill Labor Compression and Sovereign Judgment](../statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md)
+- [High-Skill Labor Compression and American Command](../statecraft/america/high-skill-labor-compression-and-american-command.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](../statecraft/states/high-skill-labor-compression-and-civilizational-statecraft.md)
 
 Why this is a true cross:
 
@@ -200,7 +200,7 @@ Why this is a true cross:
 
 ### Falsification Example: Agent Control Plane
 
-[Agent Control Plane](/C:/dev/strategy-codex/essays/agent-control-plane.md)
+[Agent Control Plane](../essays/agent-control-plane.md)
 looks politically important, and it uses words like authority, rollback, and
 human meaning. But it is still primarily an upstream architecture and
 governance-design object unless a concrete sovereign carrier or bounded command

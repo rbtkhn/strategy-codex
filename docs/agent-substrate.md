@@ -71,5 +71,5 @@ This is exploratory WORK framing, not a committed product interface or schema. A
 - [Runtime complements](runtime/runtime-complements.md)
 - [MCP stack overview](mcp/mcp-stack-overview.md)
 - [AGENTS.md](../AGENTS.md)
-- [Recursion gate](../recursion-gate.md)
+- [Recursion gate](../archive/grace-mar-instance/recursion-gate.md)
 

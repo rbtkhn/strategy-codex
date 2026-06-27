@@ -19,26 +19,26 @@ The danger is not that either slice lacks substance. The danger is that they blu
 
 The first slice proved clean enough to ship on its own:
 
-- [statecraft/README.md](/C:/dev/strategy-codex/statecraft/README.md)
-- [statecraft/states/README.md](/C:/dev/strategy-codex/statecraft/states/README.md)
-- [statecraft/states/power-truth-time-annex.md](/C:/dev/strategy-codex/statecraft/states/power-truth-time-annex.md)
-- [statecraft/states/power-truth-time-retrieval-checklist.md](/C:/dev/strategy-codex/statecraft/states/power-truth-time-retrieval-checklist.md)
-- [statecraft/states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md](/C:/dev/strategy-codex/statecraft/states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
-- [statecraft/states/ph-civ-to-civ-state-bridge.md](/C:/dev/strategy-codex/statecraft/states/ph-civ-to-civ-state-bridge.md)
-- [statecraft/states/era-hardening-checklist.md](/C:/dev/strategy-codex/statecraft/states/era-hardening-checklist.md)
-- [statecraft/states/ph-civ-era-overlay-options.md](/C:/dev/strategy-codex/statecraft/states/ph-civ-era-overlay-options.md)
+- [statecraft/README.md](../../../statecraft/README.md)
+- [statecraft/states/README.md](../../../statecraft/states/README.md)
+- [statecraft/states/power-truth-time-annex.md](../../../statecraft/states/power-truth-time-annex.md)
+- [statecraft/states/power-truth-time-retrieval-checklist.md](../../../statecraft/states/power-truth-time-retrieval-checklist.md)
+- [statecraft/states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md](../../../statecraft/states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
+- [statecraft/states/ph-civ-to-civ-state-bridge.md](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
+- [statecraft/states/era-hardening-checklist.md](../../../statecraft/states/era-hardening-checklist.md)
+- [statecraft/states/ph-civ-era-overlay-options.md](../../../statecraft/states/ph-civ-era-overlay-options.md)
 
 That pass is now durably isolated in commit `5dcaaa52`.
 
 The second slice is also real, but different in kind. Its visible center is:
 
-- [statecraft/synthesis/day/README.md](/C:/dev/strategy-codex/statecraft/synthesis/day/README.md)
-- [statecraft/synthesis/METHOD.md](/C:/dev/strategy-codex/statecraft/synthesis/METHOD.md)
-- [statecraft/synthesis/month/2026-05.md](/C:/dev/strategy-codex/statecraft/synthesis/month/2026-05.md)
-- [statecraft/synthesis/day/2026-05-29.md](/C:/dev/strategy-codex/statecraft/synthesis/day/2026-05-29.md)
-- [statecraft/synthesis/day/2026-05-30.md](/C:/dev/strategy-codex/statecraft/synthesis/day/2026-05-30.md)
-- [statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](/C:/dev/strategy-codex/statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
-- [statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md)
+- [statecraft/synthesis/day/README.md](../../../statecraft/synthesis/day/README.md)
+- [statecraft/synthesis/METHOD.md](../../../statecraft/synthesis/METHOD.md)
+- [statecraft/synthesis/month/2026-05.md](../../../statecraft/synthesis/month/2026-05.md)
+- [statecraft/synthesis/day/2026-05-29.md](../../../statecraft/synthesis/day/2026-05-29.md)
+- [statecraft/synthesis/day/2026-05-30.md](../../../statecraft/synthesis/day/2026-05-30.md)
+- [statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](../../../statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
+- [statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md](../../../statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md)
 
 This is not spillover from the doctrine pass. It is a separate synthesis-and-method ship.
 

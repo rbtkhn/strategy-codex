@@ -25,10 +25,10 @@ The two seams behave differently.
 
 The continuity and runtime stack already prefers the canonical evidence body:
 
-- [repo_io.py](/C:/dev/strategy-codex/scripts/repo_io.py) defines `CANONICAL_EVIDENCE_BASENAME = "self-archive.md"`
-- [continuity_read_log.py](/C:/dev/strategy-codex/scripts/continuity_read_log.py) requires `self-archive.md`
-- [test_continuity_read_log.py](/C:/dev/strategy-codex/tests/test_continuity_read_log.py) asserts `self-archive.md`
-- [harness_warmup.py](/C:/dev/strategy-codex/scripts/harness_warmup.py), [session_brief.py](/C:/dev/strategy-codex/scripts/session_brief.py), and [openclaw_heartbeat.py](/C:/dev/strategy-codex/scripts/openclaw_heartbeat.py) all read `self-archive.md` first and only fall back to `self-evidence.md`
+- [repo_io.py](../../../scripts/repo_io.py) defines `CANONICAL_EVIDENCE_BASENAME = "self-archive.md"`
+- [continuity_read_log.py](../../../scripts/continuity_read_log.py) requires `self-archive.md`
+- [test_continuity_read_log.py](../../../tests/test_continuity_read_log.py) asserts `self-archive.md`
+- [harness_warmup.py](../../../scripts/harness_warmup.py), [session_brief.py](../../../scripts/session_brief.py), and [openclaw_heartbeat.py](../../../scripts/openclaw_heartbeat.py) all read `self-archive.md` first and only fall back to `self-evidence.md`
 
 So the evidence-path blocker was **not** filename dependency in the active operator stack.
 
@@ -40,13 +40,13 @@ It was mainly **contract wording drift** in live docs, which taught people to in
 
 The repo's live tooling still depends directly on the split root filenames:
 
-- [export_curriculum.py](/C:/dev/strategy-codex/scripts/export_curriculum.py)
-- [export_runtime_bundle.py](/C:/dev/strategy-codex/scripts/export_runtime_bundle.py)
-- [generate_profile.py](/C:/dev/strategy-codex/scripts/generate_profile.py)
-- [generate_lesson_prompt.py](/C:/dev/strategy-codex/scripts/generate_lesson_prompt.py)
-- [record_slice_loader.py](/C:/dev/strategy-codex/scripts/record_slice_loader.py)
-- [validate-integrity.py](/C:/dev/strategy-codex/scripts/validate-integrity.py)
-- multiple tests under [tests/](/C:/dev/strategy-codex/tests/)
+- [export_curriculum.py](../../../scripts/export_curriculum.py)
+- [export_runtime_bundle.py](../../../scripts/export_runtime_bundle.py)
+- [generate_profile.py](../../../scripts/generate_profile.py)
+- [generate_lesson_prompt.py](../../../scripts/generate_lesson_prompt.py)
+- [record_slice_loader.py](../../../scripts/record_slice_loader.py)
+- [validate-integrity.py](../../../scripts/validate-integrity.py)
+- multiple tests under [tests/](../../../tests)
 
 These use:
 

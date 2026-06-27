@@ -47,7 +47,7 @@
 
 ## Example: recursion-gate block (moonshot promotion)
 
-Use the same **`### CANDIDATE-XXXX`** + **```yaml** shape as [recursion-gate.md](../recursion-gate.md). Fields consumed by `process_approved_candidates.py` include **`summary`**, **`mind_category`**, **`profile_target`**, **`status`**, **`channel_key`**, **`source`**, and optional **`suggested_entry`**.
+Use the same **`### CANDIDATE-XXXX`** + **```yaml** shape as [recursion-gate.md](../archive/grace-mar-instance/recursion-gate.md). Fields consumed by `process_approved_candidates.py` include **`summary`**, **`mind_category`**, **`profile_target`**, **`status`**, **`channel_key`**, **`source`**, and optional **`suggested_entry`**.
 
 **Illustrative only** â€” use a new `### CANDIDATE-XXXX` heading in `recursion-gate.md`, then a fenced **`yaml`** block **below** it (same pattern as existing candidates). Assign a fresh id; keep the block **above** `## Processed` while **pending**. YAML body example:
 

@@ -58,8 +58,8 @@ The remainder should resolve into one of three outcomes:
 
 The `Hormuz` pass now provides the canonical example:
 
-- before: [statecraft-hormuz-audit-current.md](/C:/dev/strategy-codex/runtime/artifacts/transcript-audits/statecraft-hormuz-audit-current.md)
-- after: [statecraft-hormuz-audit-postfix-reviewed.md](/C:/dev/strategy-codex/runtime/artifacts/transcript-audits/statecraft-hormuz-audit-postfix-reviewed.md)
+- before: [statecraft-hormuz-audit-current.md](../runtime/artifacts/transcript-audits/statecraft-hormuz-audit-current.md)
+- after: [statecraft-hormuz-audit-postfix-reviewed.md](../runtime/artifacts/transcript-audits/statecraft-hormuz-audit-postfix-reviewed.md)
 - remainder: zero actionable findings after one reviewed title-body divergence was localized and closed
 
 ## Stopping Rule

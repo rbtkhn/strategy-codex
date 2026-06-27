@@ -14,9 +14,9 @@
 - **Durable learning:** [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) record machine law; [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md) scores conductor arc generalization.
 
 Fast doorway:
-- overview and rationale: [README.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/README.md)
-- one-glance map: [CONDUCTOR-LAYER-MAP.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md)
-- portable pass shape: [CONDUCTOR-PASS.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/CONDUCTOR-PASS.md)
+- overview and rationale: [README.md](README.md)
+- one-glance map: [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md)
+- portable pass shape: [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md)
 
 ---
 

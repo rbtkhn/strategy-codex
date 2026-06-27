@@ -4,7 +4,7 @@
 
 > Grace-Mar is not just a memory layer; it is a **governed companion record**. Entry anchors: **Library, Skills, Evidence, Workflows, Dashboard, Approval Inbox**.
 
-**Approval Inbox** = pending candidates in [`recursion-gate.md`](../recursion-gate.md) (canonical name: **recursion-gate**).
+**Approval Inbox** = pending candidates in [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) (canonical name: **recursion-gate**).
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## Approval review (Approval Inbox)
 
-- Pending queue: [`recursion-gate.md`](../recursion-gate.md)
+- Pending queue: [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md)
 - App: [platform/apps/gate-review-app.py](../platform/apps/gate-review-app.py)
 - Operator habits: [operator-brief.md](operator-brief.md)
 - Tiered traffic: [recursion-gate-three-tier.md](recursion-gate-three-tier.md)

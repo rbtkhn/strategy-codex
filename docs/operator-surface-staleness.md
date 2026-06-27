@@ -110,7 +110,7 @@ These levels should be read through four broader failure modes:
 A **staleness note** or **staleness level** is **not**:
 
 - a grant to write the **Record**;
-- a bypass of [`recursion-gate.md`](../recursion-gate.md) or companion approval;
+- a bypass of [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) or companion approval;
 - a promotion of a candidate, merge, or `process_approved_candidates.py` path;
 - an **expansion** of `authority_class` (see [authority map](authority-map.md)) for workflows, tools, or agents;
 - a substitute for **reading** the canonical file when the decision is identity- or merge-bearing.

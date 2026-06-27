@@ -1,6 +1,6 @@
 ﻿# Reflection & Proposal Cycle
 
-Operator tool: [`scripts/reflection_cycle.py`](../scripts/reflection_cycle.py) (also `grace-mar reflect â€¦`). It **reads** existing fork files (session transcript, pipeline events, merge receipts, gate processed section, self-evidence, etc.), optionally calls an LLM to propose **evidence-grounded** `CANDIDATE-####` blocks, writes artifacts under `archive/queues/reflection-proposals/`, and **optionally** appends pending candidates to [`recursion-gate.md`](../recursion-gate.md).
+Operator tool: [`scripts/reflection_cycle.py`](../scripts/reflection_cycle.py) (also `grace-mar reflect â€¦`). It **reads** existing fork files (session transcript, pipeline events, merge receipts, gate processed section, self-evidence, etc.), optionally calls an LLM to propose **evidence-grounded** `CANDIDATE-####` blocks, writes artifacts under `archive/queues/reflection-proposals/`, and **optionally** appends pending candidates to [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md).
 
 ## Setup
 

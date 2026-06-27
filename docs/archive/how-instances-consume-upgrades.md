@@ -4,7 +4,7 @@
 
 When companion-self (this repo) is updated, an instance (e.g. [Grace-Mar](https://github.com/rbtkhn/grace-mar)) can pull those changes **without overwriting its Record**.
 
-**Workspace boundary:** When working on the template, use a workspace where grace-mar is read-only (e.g. `companion-self-and-grace-mar.code-workspace`). Do not modify the instance from this workspace; all instance changes and template merges happen in the instance's own workspace. See [companion-self-bootstrap](companion-self-bootstrap.md) §7.
+**Workspace boundary:** When working on the template, use a workspace where grace-mar is read-only (e.g. `companion-self-and-grace-mar.code-workspace`). Do not modify the instance from this workspace; all instance changes and template merges happen in the instance's own workspace. See [companion-self-bootstrap](../../archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md) §7.
 
 ---
 
@@ -155,7 +155,7 @@ If the instance also keeps a target contract file (for example `instance-contrac
 
 ## Seed-phase upgrade compatibility
 
-Template upgrades may change **seed JSON Schemas** (`schema-registry/seed-*.v1.json`), **readiness policy** ([docs/seed-phase-readiness.md](docs/seed-phase-readiness.md)), or artifact layout under `_template/seed-phase/`.
+Template upgrades may change **seed JSON Schemas** (`schema-registry/seed-*.v1.json`), **readiness policy** ([seed-phase-readiness.md](../seed-phase-readiness.md)), or artifact layout under `_template/seed-phase/`.
 
 | Rule | Rationale |
 |------|-----------|

@@ -42,7 +42,7 @@ thing itself.
 
 Main path:
 
-- [source-archive/](/C:/dev/strategy-codex/source-archive/README.md)
+- [source-archive/](../source-archive/README.md)
 
 Important split:
 
@@ -69,8 +69,8 @@ This is where the repo turns material into reusable judgment.
 
 Main paths:
 
-- [statecraft/](/C:/dev/strategy-codex/statecraft/README.md)
-- [singularity/](/C:/dev/strategy-codex/singularity/README.md)
+- [statecraft/](../statecraft/README.md)
+- [singularity/](../singularity/README.md)
 
 ### `statecraft`
 
@@ -118,9 +118,9 @@ what kind of thing is this artifact allowed to be?
 
 Main paths:
 
-- [docs/work-membrane-v2.md](/C:/dev/strategy-codex/docs/work-membrane-v2.md)
-- [statecraft/work-membrane.md](/C:/dev/strategy-codex/statecraft/work-membrane.md)
-- [singularity/work-membrane.md](/C:/dev/strategy-codex/singularity/work-membrane.md)
+- [docs/work-membrane-v2.md](work-membrane-v2.md)
+- [statecraft/work-membrane.md](../statecraft/work-membrane.md)
+- [singularity/work-membrane.md](../singularity/work-membrane.md)
 
 The key classes are:
 
@@ -154,7 +154,7 @@ what kind of prose object do I need?
 
 Main path:
 
-- [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md)
+- [docs/prose-index.md](prose-index.md)
 
 The key split is:
 
@@ -207,7 +207,7 @@ This is the layer where the machine learns from its own use.
 
 Main path:
 
-- [statecraft/recursive-learning-journal.md](/C:/dev/strategy-codex/statecraft/recursive-learning-journal.md)
+- [statecraft/recursive-learning-journal.md](../statecraft/recursive-learning-journal.md)
 
 This layer asks:
 
@@ -260,24 +260,24 @@ If you are cold and want the fastest honest path back in:
 
 ### For domain judgment
 
-- open [statecraft/README.md](/C:/dev/strategy-codex/statecraft/README.md)
-- or [singularity/README.md](/C:/dev/strategy-codex/singularity/README.md)
+- open [statecraft/README.md](../statecraft/README.md)
+- or [singularity/README.md](../singularity/README.md)
 
 ### For artifact class confusion
 
-- open [docs/work-membrane-v2.md](/C:/dev/strategy-codex/docs/work-membrane-v2.md)
+- open [docs/work-membrane-v2.md](work-membrane-v2.md)
 
 ### For prose placement confusion
 
-- open [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md)
+- open [docs/prose-index.md](prose-index.md)
 
 ### For "what has the machine learned lately?"
 
-- open [statecraft/recursive-learning-journal.md](/C:/dev/strategy-codex/statecraft/recursive-learning-journal.md)
+- open [statecraft/recursive-learning-journal.md](../statecraft/recursive-learning-journal.md)
 
 ### For the broader recent shift in plain language
 
-- open [essays/from-accumulation-to-governed-interpretive-machine.md](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md)
+- open [essays/from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md)
 
 ## The Current Weak Flank
 
@@ -289,8 +289,8 @@ the governance and routing layers have advanced faster than part of the archive 
 
 Use the dedicated companion surfaces when that seam is the real object:
 
-- [Archive Truth-Floor Repair Routing](/C:/dev/strategy-codex/statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md) for tranche shape and opening order
-- [Why Archive Truth Now Matters More](/C:/dev/strategy-codex/docs/why-archive-truth-now-matters-more-2026-06-01.md) for the plain-language consequence
+- [Archive Truth-Floor Repair Routing](../statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md) for tranche shape and opening order
+- [Why Archive Truth Now Matters More](why-archive-truth-now-matters-more-2026-06-01.md) for the plain-language consequence
 
 ## One Sentence Summary
 

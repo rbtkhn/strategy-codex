@@ -1,6 +1,6 @@
 ﻿# META-class infrastructure proposals
 
-**Purpose:** Stage **infrastructure** changes (scripts, configs, bot code) through the same [`recursion-gate.md`](../recursion-gate.md) queue with an explicit **`META_INFRA`** proposal class â€” **without** treating them like SELF/IX merges.
+**Purpose:** Stage **infrastructure** changes (scripts, configs, bot code) through the same [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) queue with an explicit **`META_INFRA`** proposal class â€” **without** treating them like SELF/IX merges.
 
 **Sovereignty:** The companion/operator still approves candidates. **No script auto-commits** to `main`. Patch application stays **human + git**.
 

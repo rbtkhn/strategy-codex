@@ -39,8 +39,8 @@ What should not be true:
 
 Live example:
 
-- [essays/interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md)
-- [essays/interpretive-machine/README.md](/C:/dev/strategy-codex/essays/interpretive-machine/README.md)
+- [essays/interpretive-machine.md](../essays/interpretive-machine.md)
+- [essays/interpretive-machine/README.md](../essays/interpretive-machine/README.md)
 
 The interpretive-machine cluster now behaves correctly here. The essay owns the transportable claim. The cluster holds lineage, workflow proof, and product extrapolation without pretending to become the main argument.
 
@@ -63,8 +63,8 @@ What should not be true:
 
 Live examples:
 
-- [singularity/notes/compute-political-currency-control-plane-substrate.md](/C:/dev/strategy-codex/singularity/notes/compute-political-currency-control-plane-substrate.md)
-- [singularity/notes/may-2026-control-plane-compression.md](/C:/dev/strategy-codex/singularity/notes/may-2026-control-plane-compression.md)
+- [singularity/notes/compute-political-currency-control-plane-substrate.md](../singularity/notes/compute-political-currency-control-plane-substrate.md)
+- [singularity/notes/may-2026-control-plane-compression.md](../singularity/notes/may-2026-control-plane-compression.md)
 
 These are reusable, but they are still bounded promoted seams rather than stand-alone theses.
 
@@ -87,7 +87,7 @@ What should not be true:
 
 Live example:
 
-- [docs/skill-work/work-strategy/README.md](/C:/dev/strategy-codex/docs/skill-work/work-strategy/README.md)
+- [docs/skill-work/work-strategy/README.md](skill-work/work-strategy/README.md)
 
 The recent interpretive-machine relocation is the model case. Once the cluster had a real singularity essay home, the old `work-strategy` files no longer needed to own the doctrine. Their honest role became compatibility redirects.
 
@@ -116,7 +116,7 @@ docs/skill-work owns operator doctrine, procedure, and compatibility residue
 
 ## Return Path
 
-- Return to [Prose Index](/C:/dev/strategy-codex/docs/prose-index.md) for the canonical class chooser.
-- Return to [Essays (repo root)](/C:/dev/strategy-codex/essays/README.md) for the primary thesis-bearing essay shelf.
-- Return to [Singularity Essays](/C:/dev/strategy-codex/singularity/essays/README.md) for singularity compatibility essay holdings.
-- Return to [Singularity Notes](/C:/dev/strategy-codex/singularity/notes/README.md) for bounded promoted singularity objects.
+- Return to [Prose Index](prose-index.md) for the canonical class chooser.
+- Return to [Essays (repo root)](../essays/README.md) for the primary thesis-bearing essay shelf.
+- Return to [Singularity Essays](../singularity/essays/README.md) for singularity compatibility essay holdings.
+- Return to [Singularity Notes](../singularity/notes/README.md) for bounded promoted singularity objects.

@@ -52,7 +52,7 @@ python3 scripts/tacit/render_tacit_candidates_md.py runtime/tacit/candidates/*.j
 ## Recursion-gate boundary
 
 - Outputs stay under **`runtime/tacit/`** or **WORK** mission folders until you **manually** promote content.
-- **Do not** append to `recursion-gate.md` from these scripts (e.g. [`recursion-gate.md`](../recursion-gate.md) for grace-mar).
+- **Do not** append to `recursion-gate.md` from these scripts (e.g. [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) for grace-mar).
 - Optional [`render_tacit_candidates_md.py`](../../scripts/tacit/render_tacit_candidates_md.py) is for **copy-paste** only.
 - Durable Record changes still require companion approval and `process_approved_candidates.py` per [AGENTS.md](../AGENTS.md).
 

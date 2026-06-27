@@ -37,7 +37,7 @@
 
 Record markdown **does not** live at repository root. Scripts resolve via [`scripts/repo_io.py`](../../scripts/repo_io.py) → `profile_dir()` / `GRACE_MAR_INSTANCE_DIR`.
 
-**Active adjacent (not Record):** [`self-library.md`](../../self-library.md) (reference routing), [`self-memory.md`](../../self-memory.md) (WORK continuity).
+**Active adjacent (not Record):** [`self-library.md`](../../archive/grace-mar-instance/self-library.md) (reference routing), [`self-memory.md`](../../archive/grace-mar-instance/self-memory.md) (WORK continuity).
 
 ---
 
@@ -73,7 +73,7 @@ source-archive → synthesis → lane judgment object
 ```
 
 - Archive: [`source-archive/statecraft/`](../../source-archive/statecraft/README.md)
-- Synthesis: [`statecraft/synthesis/day/`](../statecraft/synthesis/METHOD.md)
+- Synthesis: [`statecraft/synthesis/day/`](../../statecraft/synthesis/METHOD.md)
 - Channels: [`statecraft/`](../../statecraft/README.md), [`singularity/`](../../singularity/README.md)
 
 See [`../start-here.md`](../start-here.md).
