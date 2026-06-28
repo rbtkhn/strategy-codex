@@ -12,9 +12,9 @@ Minab dignity-preserving de-escalation sequence.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Marandi](../../voices/marandi/) for Iranian moral register and red-line psychology; [Parsi](../../voices/parsi/) for settlement architecture; [Mercouris](../../../README.md) for diplomatic choreography and register separation; [Ritter](../../voices/ritter/) for the Minab targeting scaffold.
-- Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Ritter 2026-03-14](../../../source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md); [Marandi 2026-04-28](../../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md); [Mercouris / Parsi 2026-05-06](../../../source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md).
+- Speaker-state inputs: [Marandi](../../../voices/marandi/) for Iranian moral register and red-line psychology; [Parsi](../../../voices/parsi/) for settlement architecture; [Mercouris](../../../README.md) for diplomatic choreography and register separation; [Ritter](../../../voices/ritter/) for the Minab targeting scaffold.
+- Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
+- Raw-input / provenance anchors: [Ritter 2026-03-14](../../../../source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md); [Marandi 2026-04-28](../../../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md); [Mercouris / Parsi 2026-05-06](../../../../source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md).
 
 ## Realism / Incentive Filter
 
@@ -44,7 +44,7 @@ Minab dignity-preserving de-escalation sequence.
 - Civilization input: memory of children killed, sovereignty violated, and dignity defended.
 - Empire input: deterrent reach, Hormuz leverage, retaliation capacity, and regional recognition.
 - Statecraft regulation: Spend moral leverage into inquiry, protected channels, and sanctions relief before it hardens into endless war.
-- Relevant lane helix: [Iran helix](../../persia/helix.md).
+- Relevant lane helix: [Iran helix](../../../persia/helix.md).
 
 ## Pattern / Narrative Conversion
 

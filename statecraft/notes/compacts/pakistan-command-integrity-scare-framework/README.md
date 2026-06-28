@@ -19,9 +19,9 @@ The danger is not only nuclear weapons. It is uncertainty over who can command, 
 
 ## Shared Source Frame
 
-- [Crisis test casebook](../../sheets/crisis-test-casebook.md) for command-integrity next test.
-- [Mearsheimer scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for nuclear and regional balancing.
-- [Pape index](../../sheets/pape-coercive-center-index.md) for systemic danger and diplomatic monetization.
+- [Crisis test casebook](../../../sheets/crisis-test-casebook.md) for command-integrity next test.
+- [Mearsheimer scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md) for nuclear and regional balancing.
+- [Pape index](../../../sheets/pape-coercive-center-index.md) for systemic danger and diplomatic monetization.
 
 ## Comparison
 

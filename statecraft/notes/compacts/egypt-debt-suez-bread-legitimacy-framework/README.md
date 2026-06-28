@@ -19,9 +19,9 @@ Egypt's debt, Suez throughput, and food-import pressure can become a legitimacy 
 
 ## Shared Source Frame
 
-- [Crisis test casebook](../../sheets/crisis-test-casebook.md) for solvency / legitimacy filter.
-- [Pape index](../../sheets/pape-coercive-center-index.md) for food, energy, and route spillover.
-- [Civilization and Empire cycle](../../sheets/civilization-empire-cycle.md) for degradation/restoration checks.
+- [Crisis test casebook](../../../sheets/crisis-test-casebook.md) for solvency / legitimacy filter.
+- [Pape index](../../../sheets/pape-coercive-center-index.md) for food, energy, and route spillover.
+- [Civilization and Empire cycle](../../../sheets/civilization-empire-cycle.md) for degradation/restoration checks.
 
 ## Comparison
 

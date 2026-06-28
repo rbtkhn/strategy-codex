@@ -18,9 +18,9 @@ The object is not simply canal control. It is water discipline, transit reliabil
 
 ## Shared Source Frame
 
-- [Crisis test casebook](../../sheets/crisis-test-casebook.md) for Panama next orthogonal test.
-- [Pape index](../../sheets/pape-coercive-center-index.md) for chokepoint spillover.
-- [Civilization and Empire cycle](../../sheets/civilization-empire-cycle.md) for public-good degradation.
+- [Crisis test casebook](../../../sheets/crisis-test-casebook.md) for Panama next orthogonal test.
+- [Pape index](../../../sheets/pape-coercive-center-index.md) for chokepoint spillover.
+- [Civilization and Empire cycle](../../../sheets/civilization-empire-cycle.md) for public-good degradation.
 
 ## Comparison
 

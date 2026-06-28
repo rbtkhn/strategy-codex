@@ -27,9 +27,9 @@ The patch treats inspection, quarantine, customs notice, transit reassurance, in
 
 ## Shared Source Frame
 
-- [Crisis test casebook](../../sheets/crisis-test-casebook.md) for legal classification discipline.
-- [Mearsheimer scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing and overextension.
-- [Pape index](../../sheets/pape-coercive-center-index.md) for systemic spillover.
+- [Crisis test casebook](../../../sheets/crisis-test-casebook.md) for legal classification discipline.
+- [Mearsheimer scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing and overextension.
+- [Pape index](../../../sheets/pape-coercive-center-index.md) for systemic spillover.
 
 ## Comparison
 

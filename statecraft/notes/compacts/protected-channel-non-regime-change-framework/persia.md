@@ -12,16 +12,16 @@ Sovereignty-preserving protected-channel sequence.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Parsi](../../voices/parsi/) for off-ramp destruction and settlement architecture; [Marandi](../../voices/marandi/) for institutional continuity; [Ritter](../../voices/ritter/) for regime-change blowback and martyrdom warning; [Pape](../../voices/pape/) for coercive-center leverage.
-- Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md).
+- Speaker-state inputs: [Parsi](../../../voices/parsi/) for off-ramp destruction and settlement architecture; [Marandi](../../../voices/marandi/) for institutional continuity; [Ritter](../../../voices/ritter/) for regime-change blowback and martyrdom warning; [Pape](../../../voices/pape/) for coercive-center leverage.
+- Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
+- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md).
 
 ## Civilization / Empire Helix Input
 
 - Civilization input: Iranian sovereignty, dignity, anti-partition memory, religious-political legitimacy, and continuity after attacks on supreme authority.
 - Empire input: Iran wants deterrent reach, sanctions relief, Hormuz leverage, partner depth, and recognition as a necessary regional actor.
 - Statecraft regulation: Accept channel protection only when it preserves dignity and converts resistance into a durable settlement path.
-- Relevant lane helix: [Iran helix](../../persia/helix.md).
+- Relevant lane helix: [Iran helix](../../../persia/helix.md).
 
 ## State Interest
 

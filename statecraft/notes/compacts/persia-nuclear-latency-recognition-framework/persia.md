@@ -12,16 +12,16 @@ Dignity-preserving latency restraint.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Parsi](../../voices/parsi/) / [Marandi](../../voices/marandi/) for Iranian bargaining logic; [Pape](../../voices/pape/) for coercive-center leverage; [Ritter](../../voices/ritter/) for nuclear danger; [Crooke](../../../README.md) for Western misreading.
-- Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-02-07](../../../source-archive/statecraft/2026-02-07/source-parsi-irans-despair-is-us-policy-2026-02-07.md); [Parsi 2026-03-08](../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-05-03](../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Ritter 2026-02-05](../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
+- Speaker-state inputs: [Parsi](../../../voices/parsi/) / [Marandi](../../../voices/marandi/) for Iranian bargaining logic; [Pape](../../../voices/pape/) for coercive-center leverage; [Ritter](../../../voices/ritter/) for nuclear danger; [Crooke](../../../README.md) for Western misreading.
+- Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
+- Raw-input / provenance anchors: [Parsi 2026-02-07](../../../../source-archive/statecraft/2026-02-07/source-parsi-irans-despair-is-us-policy-2026-02-07.md); [Parsi 2026-03-08](../../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-05-03](../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Ritter 2026-02-05](../../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
 
 ## Civilization / Empire Helix Input
 
 - Civilization input: Iran's dignity, sovereignty, resistance memory, and refusal of humiliation.
 - Empire input: Iran seeks deterrence, nuclear latency, sanctions relief, recognition, and bargaining immunity from attack.
 - Statecraft regulation: Trade threshold ambiguity for relief and assurances without surrendering sovereign nuclear dignity.
-- Relevant lane helix: [Iran helix](../../persia/helix.md).
+- Relevant lane helix: [Iran helix](../../../persia/helix.md).
 
 ## State Interest
 

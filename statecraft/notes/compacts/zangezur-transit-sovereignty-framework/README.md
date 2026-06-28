@@ -19,8 +19,8 @@ Zangezur is a corridor-class problem: access, inspection, customs, security, and
 
 ## Shared Source Frame
 
-- [Crisis test casebook](../../sheets/crisis-test-casebook.md) for the corridor classification rule.
-- [Civilization and Empire cycle](../../sheets/civilization-empire-cycle.md) for amplification and entropy checks.
+- [Crisis test casebook](../../../sheets/crisis-test-casebook.md) for the corridor classification rule.
+- [Civilization and Empire cycle](../../../sheets/civilization-empire-cycle.md) for amplification and entropy checks.
 - Relevant lane helix files for successor-stable interests.
 
 ## Comparison

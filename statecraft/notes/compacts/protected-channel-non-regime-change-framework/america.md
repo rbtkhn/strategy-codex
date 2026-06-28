@@ -12,16 +12,16 @@ Protected-channel and no-regime-change assurance.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Parsi](../../voices/parsi/) for diplomacy architecture and off-ramp destruction; [Ritter](../../voices/ritter/) for regime-change blowback warnings; [Marandi](../../voices/marandi/) for Iranian institutional continuity; [Pape](../../voices/pape/) for coercive-system leverage and crisis clocks.
-- Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md).
+- Speaker-state inputs: [Parsi](../../../voices/parsi/) for diplomacy architecture and off-ramp destruction; [Ritter](../../../voices/ritter/) for regime-change blowback warnings; [Marandi](../../../voices/marandi/) for Iranian institutional continuity; [Pape](../../../voices/pape/) for coercive-system leverage and crisis clocks.
+- Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
+- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md).
 
 ## Civilization / Empire Helix Input
 
 - Civilization input: American legitimacy depends on lawful authority, credible commitments, and a distinction between bargaining strength and murder as policy.
 - Empire input: America wants coercive control over escalation tempo, sanctions, energy routes, and adversary leadership behavior.
 - Statecraft regulation: Bound coercion so it does not destroy the authority carrier needed to end the crisis.
-- Relevant lane helix: [America helix](../../america/helix.md).
+- Relevant lane helix: [America helix](../../../america/helix.md).
 
 ## State Interest
 

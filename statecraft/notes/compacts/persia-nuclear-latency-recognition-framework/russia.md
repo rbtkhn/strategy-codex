@@ -12,16 +12,16 @@ Latency recognition without proliferation chaos.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Crooke](../../../README.md) for Western misreading and structural rupture; [Diesen](../../voices/diesen/) for multipolar order; [Ritter](../../voices/ritter/) for nuclear danger; [Parsi](../../voices/parsi/) / [Freeman](../../voices/freeman/) for settlement architecture.
-- Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Ritter 2026-02-05](../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
+- Speaker-state inputs: [Crooke](../../../README.md) for Western misreading and structural rupture; [Diesen](../../../voices/diesen/) for multipolar order; [Ritter](../../../voices/ritter/) for nuclear danger; [Parsi](../../../voices/parsi/) / [Freeman](../../../voices/freeman/) for settlement architecture.
+- Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
+- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../../source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Ritter 2026-02-05](../../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
 
 ## Civilization / Empire Helix Input
 
 - Civilization input: Russian security memory treats regime-change pressure and strategic encirclement as linked coercive patterns.
 - Empire input: Russia wants multipolar leverage, partner resilience, and reduced U.S. unilateral control over nuclear thresholds.
 - Statecraft regulation: Support Iran's security recognition without making Moscow sponsor uncontrolled proliferation.
-- Relevant lane helix: [Russia helix](../../russia/helix.md).
+- Relevant lane helix: [Russia helix](../../../russia/helix.md).
 
 ## State Interest
 

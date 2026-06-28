@@ -12,16 +12,16 @@ Anti-disorder nuclear restraint compact.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Pape](../../voices/pape/) for system leverage and clocks; [Jiang](../../voices/jiang/) for China-facing strategic framing; [Sachs](../../voices/sachs/) for macro-system effects; [Parsi](../../voices/parsi/) for regional architecture; [Crooke](../../../README.md) / [Diesen](../../voices/diesen/) for order transition.
-- Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Parsi 2026-05-03](../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Pape 2026-05-13](../../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md).
+- Speaker-state inputs: [Pape](../../../voices/pape/) for system leverage and clocks; [Jiang](../../../voices/jiang/) for China-facing strategic framing; [Sachs](../../../voices/sachs/) for macro-system effects; [Parsi](../../../voices/parsi/) for regional architecture; [Crooke](../../../README.md) / [Diesen](../../../voices/diesen/) for order transition.
+- Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
+- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../../source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Parsi 2026-05-03](../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Pape 2026-05-13](../../../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md).
 
 ## Civilization / Empire Helix Input
 
 - Civilization input: Chinese legitimacy centers order, continuity, competence, and prevention of chaos.
 - Empire input: China wants secure energy, trade stability, sanctions workarounds, and reduced U.S. coercive reach.
 - Statecraft regulation: Preserve Iran as counterpressure without enabling a nuclear shock that destabilizes energy and regional order.
-- Relevant lane helix: [China helix](../../china/helix.md).
+- Relevant lane helix: [China helix](../../../china/helix.md).
 
 ## State Interest
 

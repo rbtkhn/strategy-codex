@@ -18,9 +18,9 @@ The contested object is not "sabotage" by default. It is damaged infrastructure 
 
 ## Shared Source Frame
 
-- [Crisis test casebook](../../sheets/crisis-test-casebook.md) for the realism gate.
-- [Mearsheimer scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing and escalation discipline.
-- [Civilization and Empire cycle](../../sheets/civilization-empire-cycle.md) for entropy checks.
+- [Crisis test casebook](../../../sheets/crisis-test-casebook.md) for the realism gate.
+- [Mearsheimer scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing and escalation discipline.
+- [Civilization and Empire cycle](../../../sheets/civilization-empire-cycle.md) for entropy checks.
 
 ## Comparison
 
