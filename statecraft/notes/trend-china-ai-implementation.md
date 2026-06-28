@@ -3,7 +3,13 @@ WORK only; not Record.
 # Trend — China AI implementation
 
 ```yaml
+note_id: trend-china-ai-implementation
 note_type: trend
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-02-20
+updated_at: 2026-06-24
 topic: china-ai-implementation
 status: open
 direction: mixed

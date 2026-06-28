@@ -1,3 +1,17 @@
+---
+note_id: barnes-johnson-aguilar-kent-on-section-224
+note_type: compare
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-04
+updated_at: 2026-06-09
+archive_links:
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
+  - statecraft/notes/us-israel-military-integration-captured-command-risk.md
+---
+
 WORK only; not Record.
 
 # Barnes, Johnson, Aguilar, and Kent On Section 224

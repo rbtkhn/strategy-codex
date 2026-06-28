@@ -30,6 +30,46 @@ Only items explicitly marked `shelf-native` should be treated as current shelf-n
 
 ## Formal Role
 
+## Note Contract (promotion gate)
+
+Every **Tier A** analytical note under this shelf should declare a machine-readable contract so promotion and essay routing stay governed.
+
+**Tier A paths:** `statecraft/notes/*.md` (root) and `statecraft/notes/compacts/*/README.md`.
+
+**Metadata shapes (any one or both):**
+
+1. YAML frontmatter (`---` … `---`)
+2. Fenced ` ```yaml ` block after the header (existing arc/conflict/trend pattern)
+
+**Filename prefix** may infer `note_type` when YAML omits it (`arc-`, `thread-`, `trend-`, `conflict-`, `risk-`).
+
+**Required fields (Tier A, strict on promote):**
+
+| Field | Allowed values |
+| --- | --- |
+| `note_type` | `mechanism`, `risk`, `conflict`, `trend`, `thread`, `arc`, `compare`, `synthesis`, `bridge` |
+| `authority_level` | `draft`, `review-needed`, `shelf-native`, `deprecated` |
+| `source_basis` | `source-archive`, `synthesis`, `mixed` |
+| `essay_candidate` | `true` / `false` (default `false`; operator sets explicitly) |
+
+**Optional:** `note_id`, `archive_links`, `nodes`, `created_at`, `updated_at`, `promotion_status`, `promoted_at`.
+
+**Operational subfolders** (`wire/`, `watch/`, `reentry/`, `intake/`) use a lighter Tier B contract — not essay-candidate objects.
+
+**Validate:**
+
+```bash
+python3 scripts/check_statecraft_notes.py --warn
+python3 scripts/check_statecraft_notes.py --verify   # before shelf-native promote
+python3 scripts/reindex_notes.py                     # generated registry
+```
+
+Generated registry: `runtime/artifacts/statecraft-notes-registry.md`.
+
+**Exemplars (contract-complete):** [conflict-iran-mou-theater.md](./conflict-iran-mou-theater.md), [trend-china-ai-implementation.md](./trend-china-ai-implementation.md), [arc-pape-escalation-trap.md](./arc-pape-escalation-trap.md), [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md), [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md).
+
+---
+
 Use `statecraft/notes/` for bounded interpretive objects such as:
 
 - bounded interpretive notes

@@ -1,3 +1,17 @@
+---
+note_id: formal-sovereignty-vs-internal-carriage
+note_type: mechanism
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: true
+created_at: 2026-06-01
+updated_at: 2026-06-01
+archive_links:
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
+  - source-archive/statecraft/2026-06-26/source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md
+---
+
 WORK only; not Record.
 
 # Formal Sovereignty Vs Internal Carriage

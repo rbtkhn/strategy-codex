@@ -3,7 +3,13 @@ WORK only; not Record.
 # Feb 25 → Jun 22 2026 — Pape arc (Escalation Trap)
 
 ```yaml
+note_id: arc-pape-escalation-trap
 note_type: arc
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-02-25
+updated_at: 2026-06-22
 primary_voice: pape
 topic: escalation-trap
 span_start: 2026-02-25

@@ -3,7 +3,13 @@ WORK only; not Record.
 # Conflict — Iran MOU theater
 
 ```yaml
+note_id: conflict-iran-mou-theater
 note_type: conflict
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-25
 topic: iran-mou-theater
 theater: Iran–US–Israel MOU settlement theater
 span_start: 2026-06-16
