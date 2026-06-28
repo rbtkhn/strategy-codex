@@ -3860,3 +3860,69 @@ Routing: [reason-resist-channel-index.md](../statecraft/channels/reason-resist/r
 **Pattern promotion:** defer until second distinct channel or capture family reuses balance ladder without new law beyond (2)(3).
 
 ---
+
+## 2026-06-26 - Pass A link closure — depth-aware paths, not blind batch replace
+
+### Trigger
+
+Repo Surgeon Pass A targeted **157 → 0** warnings (`broken_link` + `generated_drift`). Bulk passes in `fix_repo_surgeon_link_batch.py` drove **157 → 70** (`695b62f82`), but a depth-agnostic cleanup script (`_pass15_cleanup.py`) rewrote `../../notes/` → `../notes/` and collapsed source-archive segments repo-wide — warnings spiked to **1331** before tree reset. Final closure required **file-location-specific** `../` counts, manual malformed-markdown surgery (polluted `](file.md,` chains), and missing-target stubs — not another global replace. Shipped **`441a9b817`** (70 → 0 strict green); hygiene commits removed tracked scratch generators (`3fbaaa0fd`).
+
+### Extracted law
+
+```text
+broken_link fix = compute relative depth FROM each source file
+  → cluster by directory prefix (sheets/, voices/X/, states/volumes/, notes/wire/)
+  → one bounded apply pass per cluster + strict rescan
+  → manual surgery for malformed markdown (validator sees one polluted URL)
+  → missing basename: find real target or minimal stub — not basename-only resolver
+Never depth-agnostic global replace across statecraft/ or docs/ (same substring, different correct ../ count).
+```
+
+**Corollaries:**
+
+- `fix_repo_surgeon_resolve_missing.py` returning **0** means wrong depth / wrong filename / syntax — not “file absent.”
+- Sheets under `statecraft/sheets/` → `../transactions/` (one hop to `statecraft/transactions/`), not `../../../transactions/`.
+- Voices under `statecraft/voices/{speaker}/` → repo root is **`../../../`** (docs, codex, source-archive) — **`../../../../`** exits the repo on Windows surgeon checks.
+- After any bulk `--apply`, **strict rescan before commit**; treat >2× warning regression as revert signal, not “keep applying.”
+
+### Reapplication
+
+- **Repo Surgeon yellow/red:** triage ledger by source prefix; fix one cluster; rescan; repeat — do not repo-wide sed.
+- **New link passes in `fix_repo_surgeon_link_batch.py`:** scope rewrites with `if "statecraft/sheets/" in path` (or equivalent depth table), never single global `old → new` without path guard.
+- **Voice thread compatibility notes:** grep for `](*.md,` and unclosed `)` before batch link tools — parser treats entire pollution as one broken target.
+- **Windows EXECUTE ships:** cross-link [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — one Shell per turn; one write path per file per turn during manual surgery loops.
+
+### Structural changes
+
+| Artifact | Role |
+|----------|------|
+| `scripts/fix_repo_surgeon_pass_a_closure.py` | Shipped one-shot depth-aware closure map (SSOT for final 70 → 0) |
+| `scripts/fix_repo_surgeon_link_batch.py` | Bulk passes 12–14; inverted civ-mem rule removed; pass-15 blocks added |
+| Temp `_pass15_*`, `_patch_pass15_*`, link scratch | Deleted locally — do not restore |
+| `statecraft/voices/crooke/crooke-page-2026-04-27-*.md`, `export-templates/sibling.md` | Minimal stubs where target never existed |
+| Git | `441a9b817` (surgeon green), `3fbaaa0fd` (tracked patch-script hygiene) |
+
+### Guardrail
+
+```text
+Do not run _pass15_cleanup-style global replace after a partial surgeon pass
+Do not trust resolve_missing alone when ledger shows "outside repo" — usually one ../ too many/few
+Do not commit bulk link apply without strict rescan exit 0 intent
+Do not parallel StrReplace on same path during closure (Windows harness) — see parallel-ban RLJ
+```
+
+**Falsification:** If repo adopts a link checker that auto-computes relative paths from anchor graph, manual depth tables shrink — until then, prefix-scoped rules only.
+
+### Current lesson
+
+```text
+Link closure at scale is a depth table problem with a manual syntax tail —
+bulk batch gets you most of the way; blind global replace destroys the tree;
+the last mile is cluster-scoped fixes + rescan loop until strict green.
+```
+
+Routing: [fix_repo_surgeon_pass_a_closure.py](../scripts/fix_repo_surgeon_pass_a_closure.py) · [fix_repo_surgeon_link_batch.py](../scripts/fix_repo_surgeon_link_batch.py) · [repo_surgeon.py](../scripts/repo_surgeon.py) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc)
+
+**Pattern promotion:** defer until a second distinct repo-wide link migration (e.g. namespace move) reuses the same depth-table + cluster-rescan ladder without new law.
+
+---
