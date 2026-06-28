@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T07:04:54+00:00",
+  "generated_at": "2026-06-28T05:13:13+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -263,7 +263,7 @@
     "2025-07": {
       "captured_days": 16,
       "source_count": 27,
-      "thread_count": 16,
+      "thread_count": 17,
       "channel_or_show_count": 7,
       "host_count": 6,
       "guest_count": 14,
@@ -310,10 +310,10 @@
     },
     "2025-08": {
       "captured_days": 23,
-      "source_count": 42,
+      "source_count": 43,
       "thread_count": 19,
-      "channel_or_show_count": 6,
-      "host_count": 6,
+      "channel_or_show_count": 7,
+      "host_count": 7,
       "guest_count": 15,
       "guest_label_variants": [
         {
@@ -446,10 +446,10 @@
     },
     "2025-12": {
       "captured_days": 29,
-      "source_count": 80,
+      "source_count": 81,
       "thread_count": 25,
-      "channel_or_show_count": 10,
-      "host_count": 8,
+      "channel_or_show_count": 11,
+      "host_count": 9,
       "guest_count": 22,
       "guest_label_variants": [
         {
@@ -470,7 +470,7 @@
           "labels": [
             {
               "label": "Douglas Macgregor",
-              "count": 2
+              "count": 3
             },
             {
               "label": "Doug Macgregor",
@@ -552,10 +552,10 @@
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 208,
+      "source_count": 209,
       "thread_count": 35,
-      "channel_or_show_count": 19,
-      "host_count": 11,
+      "channel_or_show_count": 20,
+      "host_count": 12,
       "guest_count": 44,
       "guest_label_variants": [
         {
@@ -602,7 +602,7 @@
           "labels": [
             {
               "label": "Douglas Macgregor",
-              "count": 3
+              "count": 4
             },
             {
               "label": "Macgregor",
@@ -666,7 +666,7 @@
     },
     "2026-04": {
       "captured_days": 30,
-      "source_count": 197,
+      "source_count": 198,
       "thread_count": 38,
       "channel_or_show_count": 29,
       "host_count": 25,
@@ -751,9 +751,9 @@
     },
     "2026-05": {
       "captured_days": 31,
-      "source_count": 243,
+      "source_count": 244,
       "thread_count": 46,
-      "channel_or_show_count": 26,
+      "channel_or_show_count": 27,
       "host_count": 23,
       "guest_count": 47,
       "guest_label_variants": [
@@ -801,7 +801,7 @@
           "labels": [
             {
               "label": "Douglas Macgregor",
-              "count": 6
+              "count": 7
             },
             {
               "label": "Doug Macgregor",
@@ -844,7 +844,7 @@
     },
     "2026-06": {
       "captured_days": 26,
-      "source_count": 289,
+      "source_count": 290,
       "thread_count": 60,
       "channel_or_show_count": 23,
       "host_count": 24,
@@ -894,7 +894,7 @@
           "labels": [
             {
               "label": "Seyed M. Marandi",
-              "count": 15
+              "count": 14
             },
             {
               "label": "Mohammad Marandi",
@@ -902,7 +902,7 @@
             },
             {
               "label": "Seyed Mohammad Marandi",
-              "count": 2
+              "count": 3
             }
           ]
         },

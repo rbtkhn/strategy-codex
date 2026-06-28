@@ -43,7 +43,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 
 ## Arc set
 
-Current canonical `Diesen × Karaganov` captures on disk (ranks aligned with [karaganov-source-index.md](../karaganov/karaganov-source-index.md and Diesen×Mercouris triad ladder −1/0/1):
+Current canonical `Diesen × Karaganov` captures on disk (ranks aligned with [karaganov-source-index.md](../voices/karaganov/karaganov-source-index.md) and Diesen×Mercouris triad ladder −1/0/1):
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
@@ -59,18 +59,18 @@ Current canonical `Diesen × Karaganov` captures on disk (ranks aligned with [ka
 
 If the operator needs the **triad ladder** (Karaganov doctrine + Mercouris counter-memory):
 
-- open [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md — rank −1 civilizational base
-- open [source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md — rank 0 fuse-reinstall origin
-- open [source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md — rank 1 doctrine-change debate
+- open [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](../../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md — rank −1 civilizational base
+- open [source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md](../../../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md — rank 0 fuse-reinstall origin
+- open [source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md](../../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md — rank 1 doctrine-change debate
 
 If the operator needs only one **solo** file:
 
-- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md
+- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md
 
 If the operator needs the best paired read:
 
-- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md
-- then [source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md
+- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md
+- then [source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md
 
 That pair gives the clearest combination of:
 

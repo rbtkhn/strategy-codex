@@ -18,7 +18,7 @@ Spec: [docs/statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md
 
 ## Promote to daily synthesis
 
-- [source-example-slug](../../source-archive/statecraft/YYYY-MM-DD/source-example-slug-YYYY-MM-DD.md) — operator promotes into `statecraft/synthesis/day/YYYY-MM-DD.md`
+- [source-example-slug](../../../../source-archive/statecraft/YYYY-MM-DD/source-example-slug-YYYY-MM-DD.md) — operator promotes into `statecraft/synthesis/day/YYYY-MM-DD.md`
 
 ## Hold / watch
 

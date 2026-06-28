@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Batch window:** 7–9 Jun 2026 (developing-story) · **Files:** 25 (14 on 2026-06-08 + 11 on 2026-06-09) · **Procedure:** [wire-verify SKILL](../../../skills/wire-verify/SKILL.md) triage · **Receipts:** all `source_note` / `capture_note` / `editorial_note` stamped `News-verify batch 2026-06-08–09`
 
-**Parent:** [2026-06-08 intake readiness](../intake/2026-06-08-intake-readiness.md) · **8 Jun synthesis:** [2026-06-08.md](../../synthesis/day/2026-06-08.md) · **9 Jun synthesis:** [2026-06-09.md](../../synthesis/day/2026-06-09.md)
+**Parent:** [2026-06-08 intake readiness](../intake/2026-06-08-intake-readiness.md) · **8 Jun synthesis:** [2026-06-08.md](../../../singularity/work-cici/cici-notebook/2026-06-08.md) · **9 Jun synthesis:** [2026-06-09.md](../../../singularity/work-cici/cici-notebook/2026-06-09.md)
 
 ---
 
@@ -118,7 +118,7 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 
 ## Jun 10 post-daily verify pass (12 Jun)
 
-**Parent:** [2026-06-10 daily](../../synthesis/day/2026-06-10.md) next-move #3 · hooks from Johnson + Henningsen archive captures.
+**Parent:** [2026-06-10 daily](../../../singularity/work-cici/cici-notebook/2026-06-10.md) next-move #3 · hooks from Johnson + Henningsen archive captures.
 
 ### S11 — Islamabad accords dead (Johnson 10 Jun)
 
@@ -138,7 +138,7 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 | **Claim** | Henningsen: Israel **accepted** Ramat David hit |
 | **Verdict** | **Supported** (severity **partial**) |
 | **Wire** | IDF confirmed **minor damage** **7–8 Jun**; fragment vs direct hit **under investigation** (Times of Israel, Jerusalem Post) |
-| **Archive** | [Henningsen Jordan retaliation](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../source-archive/statecraft/2026-06-09/source-dialogue-works-colonel-douglas-macgregor-wilkerson-ramat-david-2026-06-09.md) |
+| **Archive** | [Henningsen Jordan retaliation](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-colonel-douglas-macgregor-wilkerson-ramat-david-2026-06-09.md) |
 
 **Read:** Hit **occurred**; asset-loss / hangar-destruction tier still **escalate** (see Escalate table above).
 

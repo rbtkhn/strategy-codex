@@ -60,8 +60,8 @@ This is an operator roadmap, not new doctrine.
 
 **Likely surfaces:**
 
-- [artifact-registry.md](artifact-registry.md)
-- [civ-state/review-queue.md](states/review-queue.md)
+- [../artifact-registry.md](../artifact-registry.md)
+- [civ-state/review-queue.md](../states/review-queue.md)
 - lane-local `updates/pending.md` surfaces where needed
 
 **Implementation order:**

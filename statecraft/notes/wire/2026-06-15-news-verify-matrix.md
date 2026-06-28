@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-15 (Ukraine / G7 hooks)
 
-**Parent daily:** [2026-06-15](../../synthesis/day/2026-06-15.md) · **Archive:** [Davis Ukraine/G7 solo](../../../source-archive/statecraft/2026-06-15/source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md) · **Cross-ref Iran matrix:** [2026-06-14](2026-06-14-news-verify-matrix.md)
+**Parent daily:** [2026-06-15](../../../singularity/work-cici/cici-notebook/2026-06-15.md) · **Archive:** [Davis Ukraine/G7 solo](../../../source-archive/statecraft/2026-06-15/source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md) · **Cross-ref Iran matrix:** [2026-06-14](2026-06-14-news-verify-matrix.md)
 
 **Mode:** batch (sub-seam: Davis `S9ROJmN0HQ4`) · **Hooks:** 7 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high (ops/G7) · **Developing:** yes (G7 Évian 15–17 Jun; Ukraine track after Iran MOU)
 

@@ -59,11 +59,11 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 - [Theory shelf](../../../README.md)
 - **Governing terms:** [Civilization](../../../public/civ-state/theory/civilization.md) · [Empire](../../../public/civ-state/theory/empire.md) · [Entropy](../../../public/civ-state/theory/entropy.md) · [Faith](../../../public/civ-state/theory/faith.md) · [Science](../../../public/civ-state/theory/science.md) · [Memory](../../../public/civ-state/theory/memory.md)
 - **Motion and era law:** [Rhythm](../../../public/civ-state/theory/memory.md#civilizational-rhythm) · [Time](../../../public/civ-state/theory/memory.md#era-law)
-- [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
+- [Cross-case recurrence essay](../../../../essays/cross-case-recurrence-and-sovereignty.md)
 
 ## Essays
 
-- [High-skill labor compression and civilizational statecraft](essays/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [High-skill labor compression and civilizational statecraft](../../../../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 - [Hormuz recognition / transit restraint](../../../codex/academy/statecraft/civ-emp/persia/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus

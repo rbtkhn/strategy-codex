@@ -56,17 +56,17 @@ This lane is materially present on disk as a 2026 Iran-war run. It should be rea
 
 If the operator needs only one file:
 
-- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md
+- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](../../../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md
 
 If the operator needs the best paired read:
 
-- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md
-- then [source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](../../source-archive/statecraft/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md
+- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](../../../../source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md
+- then [source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](../../../../source-archive/statecraft/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md
 
 If the operator needs the **June Lebanon-fuse pair**:
 
-- open [source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md](../../source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md
-- then [source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md
+- open [source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md](../../../../source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md
+- then [source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md](../../../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md
 
 That pair gives the clearest mature lane shape:
 
@@ -87,9 +87,9 @@ Do not use this arc as a shortcut for force-feasibility triage or regime-adjacen
 
 ## Shelf-level support surfaces
 
-- [Marandi routing](../marandi/marandi-routing.md
-- [Marandi arc](../marandi/arc-marandi-continuity.md
-- [Marandi 2025-present arc threads](../marandi/marandi-2025-present-arc-threads.md
+- [Marandi routing](../../voices/marandi/marandi-routing.md
+- [Marandi arc](../../voices/marandi/arc-marandi-continuity.md
+- [Marandi 2025-present arc threads](../../voices/marandi/marandi-2025-present-arc-threads.md
 
 ## Routing use
 

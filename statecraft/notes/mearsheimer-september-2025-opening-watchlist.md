@@ -25,7 +25,7 @@ So September is not empty overall. It is specifically thin in Mearsheimer presen
 Four September 2025 Mearsheimer captures are currently on disk:
 
 - `2025-09-04` - [source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md](../../source-archive/statecraft/2025-09-04/source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md)
-- `2025-09-07` - [source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md](../../source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md)
+- `2025-09-07` - [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](../../source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md)
 - `2025-09-10` - [source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md](../../source-archive/statecraft/2025-09-10/source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md)
 - `2025-09-18` - [source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md](../../source-archive/statecraft/2025-09-18/source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md)
 

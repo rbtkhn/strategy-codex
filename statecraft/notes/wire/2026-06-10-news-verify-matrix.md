@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-10 (GCC / Jordan–Kuwait–Bahrain hooks)
 
-**Parent daily:** [2026-06-10](../../synthesis/day/2026-06-10.md) · **Cross-ref:** [2026-06-08–09 matrix S11–S13](2026-06-08-09-news-verify-matrix.md#jun-10-post-daily-verify-pass-12-jun) (Islamabad, Ramat David, Saudi refuel)
+**Parent daily:** [2026-06-10](../../../singularity/work-cici/cici-notebook/2026-06-10.md) · **Cross-ref:** [2026-06-08–09 matrix S11–S13](2026-06-08-09-news-verify-matrix.md#jun-10-post-daily-verify-pass-12-jun) (Islamabad, Ramat David, Saudi refuel)
 
 **Mode:** batch (Jun 10 Dialogue Works + Nawfal cluster) · **Hooks:** 8 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high (GCC kinetic) · **Developing:** yes (second strike night; Hormuz closure voice)
 

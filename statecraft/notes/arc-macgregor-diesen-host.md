@@ -48,12 +48,12 @@ The 2025 shelf is now materially broader than the earlier minimal core. In addit
 
 If the operator needs only one file:
 
-- open [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md
+- open [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md
 
 If the operator needs the best paired read:
 
-- open [source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](../../source-archive/statecraft/2025-11-26/source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md
-- then [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md
+- open [source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](../../../../source-archive/statecraft/2025-11-26/source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md
+- then [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md
 
 That pair gives the clearest combination of:
 

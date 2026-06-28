@@ -75,7 +75,7 @@ Names are indicative; adapt per lane without inventing a new framework:
 | `WORK-LEDGER.md` | Compounding watches and experiments (WORK-only) |
 | `LEAKAGE-CHECKLIST.md` | Pre-handoff: no grace-mar Record in their tree |
 | `LANE-CI.md` | PR labels, drift guard where used |
-| `legacy-aliases.yml` | **When** a rename or identity transition existsâ€”machine-readable legacy path allowlist (optional; see [work-cici/legacy-aliases.yml](../work-cici/legacy-aliases.yml) as one example) |
+| `legacy-aliases.yml` | **When** a rename or identity transition existsâ€”machine-readable legacy path allowlist (optional; see [work-cici/legacy-aliases.yml](../../../singularity/work-cici/legacy-aliases.yml) as one example) |
 | `progress-log.md` (or lane-named variant) | Operator observationsâ€”not a substitute for their EVIDENCE spine |
 | `work-profile.md` (or lane-named variant) | Employee / operator WORK profile if usedâ€”**not** their SELF |
 | `sources.md` | Authorized feeds and pointers |

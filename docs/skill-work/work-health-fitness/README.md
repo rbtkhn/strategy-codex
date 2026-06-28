@@ -21,8 +21,8 @@ work-health-fitness does not prescribe; it offers structure and prompts that eac
 
 | User | Profile file | Notes |
 |------|--------------|-------|
-| **Abigail** (Abby) | [health-fitness-profile.md](../../../health-fitness-profile.md) | First user; growth baseline and movement preferences documented. |
-| **Hannah** | [health-fitness-profile-hannah.md](../../../health-fitness-profile-hannah.md) | Second user; profile placeholder. |
+| **Abigail** (Abby) | [health-fitness-profile.md](../../../archive/companion-freeze-abby-2026-04-14/companion-files/health-fitness-profile.md) | First user; growth baseline and movement preferences documented. |
+| **Hannah** | [health-fitness-profile-hannah.md](../../../archive/companion-freeze-abby-2026-04-14/companion-files/health-fitness-profile-hannah.md) | Second user; profile placeholder. |
 
 Additional users: add `health-fitness-profile-<slug>.md` in `` and list here.
 

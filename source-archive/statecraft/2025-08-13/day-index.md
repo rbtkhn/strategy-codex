@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1)
 - Guests: `John Mearsheimer` (1)
-- Threads: `mearsheimer` (1)
+- Threads: `davis` (1), `mearsheimer` (1)
 
 ## Channel sources
 
@@ -48,7 +48,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `mearsheimer` | — | `source-daniel-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md` |
+| John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md` |
 
 ## Files
 

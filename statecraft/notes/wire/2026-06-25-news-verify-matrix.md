@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-25
 
-**Parent daily:** [2026-06-25](../synthesis/day/2026-06-25.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
+**Parent daily:** [2026-06-25](../../synthesis/day/2026-06-25.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
 **Mode:** batch (9 archive captures — 7 YouTube · 2 Substack) · **Hooks:** 17 core + 10 J25-6 sub + 5 writer (**J25-8**–**J25-12**) · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 8/9 on disk (Mercouris tier-4 only; matrix SSOT)
 

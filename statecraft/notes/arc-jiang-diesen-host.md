@@ -57,12 +57,12 @@ Current canonical `Diesen × Jiang` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](../../source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
+- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](../../../../source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
 
 If the operator needs the best paired read:
 
-- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](../../source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
-- then [source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](../../source-archive/statecraft/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md
+- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](../../../../source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
+- then [source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](../../../../source-archive/statecraft/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md
 
 That pair gives the clearest combination of:
 

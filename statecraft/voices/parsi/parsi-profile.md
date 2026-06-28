@@ -192,7 +192,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [parsi-transcript.md](../parsi-transcript.md) (7-day rolling verbatim, compatibility) and [parsi-thread.md](../parsi-thread.md) (distilled analytical thread, compatibility).
+**Companion files:** [parsi-transcript.md](parsi-transcript.md) (7-day rolling verbatim, compatibility) and [parsi-thread.md](parsi-thread.md) (distilled analytical thread, compatibility).
 
 ## Archive / backfill note
 

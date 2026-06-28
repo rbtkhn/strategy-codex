@@ -18,7 +18,7 @@ nodes:
 
 **Span:** ~48 days (**pre-kinetic trap → day ~3 kinetic → ceasefire fiction**)  
 **Channel:** [India and Global Left](../../statecraft/channels/channel-index.md) (`thread: ritter`)  
-**Parent (adjacent):** [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./arc-ritter-trump-pivot.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-india-global-left-iran.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Mar 2 daily bench](../synthesis/day/2026-03-02.md) · Dialogue Works [8 Apr Ritter ceasefire](../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
+**Parent (adjacent):** [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./arc-ritter-trump-pivot.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](./arc-freeman-india-global-left-iran.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · [Mar 2 daily bench](../synthesis/day/2026-03-03.md) · Dialogue Works [8 Apr Ritter ceasefire](../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
 
 **Ritter sources (India Global Left — cleaned-transcript tier):**
 

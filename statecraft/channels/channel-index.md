@@ -16,7 +16,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 ## Stats
 
 - Distinct YouTube channel keys: `16`
-- YouTube source files mapped: `1491`
+- YouTube source files mapped: `1496`
 - Rows with explicit `channel_slug`: `16`
 - Watchlist channels (matched): `7`
 - Check-sources roster (main, misc excluded): `16` — [channel-index.json](./channel-index.json)
@@ -37,11 +37,11 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | `neutrality-studies` | Neutrality Studies | 11 | 9 |  | [open](https://www.youtube.com/@neutralitystudies) | `2025-02-06` | `2026-06-22` |
 | `predictive-history` | Predictive History | 11 | 9 |  | [open](https://www.youtube.com/@PredictiveHistory) | `2026-04-14` | `2026-06-10` |
 | `breaking-points` | Breaking Points | 9 | 7 |  | [open](https://www.youtube.com/@BreakingPoints) | `2026-04-29` | `2026-06-23` |
+| `cyrus-janssen` | Cyrus Janssen | 7 | 7 |  | [open](https://www.youtube.com/@CyrusJanssen) | `2025-08-20` | `2026-05-10` |
 | `tucker-carlson` | Tucker Carlson | 7 | 7 |  | [open](https://www.youtube.com/@TuckerCarlson) | `2025-03-11` | `2026-06-24` |
 | `reason-resist` | Reason to Resist | 6 | 6 |  | [open](https://www.youtube.com/@reason2resist) | `2026-05-18` | `2026-06-25` |
 | `moral-resistance` | Moral Resistance | 5 | 5 |  | [open](https://www.youtube.com/@MoralResistance) | `2026-05-31` | `2026-06-26` |
 | `redacted-news` | Redacted News | 5 | 4 | yes | [open](https://www.youtube.com/@RedactedNews) | `2026-04-20` | `2026-06-16` |
-| `cyrus-janssen` | Cyrus Janssen | 2 | 2 |  | [open](https://www.youtube.com/@CyrusJanssen) | `2026-04-16` | `2026-05-10` |
 
 _`*` = slug derived from label; no explicit `channel_slug` in frontmatter._
 

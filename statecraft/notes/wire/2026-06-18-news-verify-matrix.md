@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-18
 
-**Parent daily:** [2026-06-18](../../synthesis/day/2026-06-18.md) · **Convergence spine:** [june-18-2026-mou-convergence.md](../june-18-2026-mou-convergence.md#post-wire-tiers-2026-06-18) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-18/day-index.md) · **Cross-ref:** [2026-06-17 matrix](2026-06-17-news-verify-matrix.md) · [2026-06-19 matrix](2026-06-19-news-verify-matrix.md)
+**Parent daily:** [2026-06-18](../../../singularity/work-cici/cici-notebook/2026-06-18.md) · **Convergence spine:** [june-18-2026-mou-convergence.md](../june-18-2026-mou-convergence.md#post-wire-tiers-2026-06-18) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-18/day-index.md) · **Cross-ref:** [2026-06-17 matrix](2026-06-17-news-verify-matrix.md) · [2026-06-19 matrix](2026-06-19-news-verify-matrix.md)
 
 **Mode:** batch (12 ingests, MOU **implementation under material strain**) · **Hooks:** 20 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (digital sign **closed legal cadence**; Lebanon **enforcement seam**; falsifier **#3 fuse running**) · **Capture receipts:** 8/12 (`verify:` on MOU-core captures · pass consolidated 2026-06-19–20)
 

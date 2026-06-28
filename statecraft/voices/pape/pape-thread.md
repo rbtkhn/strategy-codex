@@ -203,7 +203,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when present, a **`batch-analysis | ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | Mercouris ÃƒÆ’Ã¢â‚¬â€ Mearsheimer`** or separate **`thread:mercouris`** / **`thread:mearsheimer`** lines on **Lebanon**/**Israel**/**Washington** **talks** (search `Lebanon`, `Mercouris`, `Mearsheimer`). **Typical pairing:** [strategy-commentator-threads.md](../../strategy-commentator-threads.md (`mercouris` ÃƒÆ’Ã¢â‚¬â€ `mearsheimer`).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when present, a **`batch-analysis | ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | Mercouris ÃƒÆ’Ã¢â‚¬â€ Mearsheimer`** or separate **`thread:mercouris`** / **`thread:mearsheimer`** lines on **Lebanon**/**Israel**/**Washington** **talks** (search `Lebanon`, `Mercouris`, `Mearsheimer`). **Typical pairing:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md (`mercouris` ÃƒÆ’Ã¢â‚¬â€ `mearsheimer`).
 - **Expert threads:** `mercouris`, `mearsheimer` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **two** **Judgment** **planes**: **diplomatic** **legitimacy** / **room** **narrative** vs **offensive-realist** **incentives** / **alliance** **geometry**; **not** a merged **single** **expert** **object**.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass

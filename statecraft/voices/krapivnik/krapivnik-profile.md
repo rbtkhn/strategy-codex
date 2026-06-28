@@ -60,4 +60,4 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ### Other links
 
-- [Neutrality Studies host](../channels/neutrality-studies/index.md) · [Diesen guest index](../diesen/diesen-index.md)
+- [Neutrality Studies host](../../../channels/neutrality-studies/index.md) · [Diesen guest index](../diesen/diesen-index.md)

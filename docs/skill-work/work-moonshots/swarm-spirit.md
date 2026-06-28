@@ -22,7 +22,7 @@ Differentiation â†’ integration: separate **modes**, run each in a **bounde
 | â€œCoordinatorâ€ | **You**, or a **checklist** in this lane / a [mission](missions/README.md) folderâ€”not a background process. |
 | â€œParallel workâ€ | **Parallel notes** (headings, scratch under [tacit-capture](../../tacit-capture/README.md) runtime, mission `intake/`), merged by hand. |
 | â€œSynthesizerâ€ | **Integration pass**: one pass that turns fragments into **one** gate-ready blockâ€”still **human-triggered**. |
-| â€œExpertsâ€ | **Borrow a lens**: strategy [experts](../work-strategy/strategy-notebook/experts/) threads, tri-frame when explicitly invokedâ€”reading and citation, not spawned processes under a fake `experts/<id>/` tree. |
+| â€œExpertsâ€ | **Borrow a lens**: strategy [experts](../../../statecraft/voices/) threads, tri-frame when explicitly invokedâ€”reading and citation, not spawned processes under a fake `experts/<id>/` tree. |
 
 **Membrane:** WORK and runtime hold drafts and weather; **SELF / EVIDENCE / SKILLS / prompt** change only through the **existing** gate + merge path ([AGENTS.md](../../../AGENTS.md)).
 

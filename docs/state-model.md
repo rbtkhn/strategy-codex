@@ -64,7 +64,7 @@ The **three layers** above are **conceptual** and bind governance (what may beco
 - **WORK and advisor evidence** usually lives under **territory paths** â€” for example [`docs/skill-work/work-cici/archive/placeholders/evidence/`](../archive/placeholders/evidence) â€” with policy on each territoryâ€™s [`archive/placeholders/evidence/README.md`](../archive/placeholders/evidence/README.md).
 - **Governed Record state** lives under **``** (e.g. ``) per instance doctrine, not under generic root folders.
 
-This layout avoids confusing this instance with a **small OB1 instance repo** (e.g. [Cici](https://github.com/Xavier-x01/Cici)) that intentionally adds a **Phase 1** tree (`archive/placeholders/evidence/`, `proposals/`, `<instance>/`) in one place. For a side-by-side conceptual map of OB1 vs Cici vs grace-mar, see [OB1 bridge mapping â€” Conceptual map](../../integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar).
+This layout avoids confusing this instance with a **small OB1 instance repo** (e.g. [Cici](https://github.com/Xavier-x01/Cici)) that intentionally adds a **Phase 1** tree (`archive/placeholders/evidence/`, `proposals/`, `<instance>/`) in one place. For a side-by-side conceptual map of OB1 vs Cici vs grace-mar, see [OB1 bridge mapping â€” Conceptual map](integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar).
 
 ---
 

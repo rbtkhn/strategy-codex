@@ -61,7 +61,7 @@ This means the lane should be read two ways:
 
 ### 2025 densification
 
-The 2025 Diesen shelf is now materially thicker than the original Wilkerson backfill showed. The earliest anchor is already visible in [2025-02-15 *Trump's Actions Could Ignite a Regional Conflict in the Middle East*](../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md, which helps show that the Diesen-side Wilkerson lane was present early, not only after midyear. See [wilkerson-february-2025-note.md](../../../statecraft/voices/wilkerson/wilkerson-february-2025-note.md.
+The 2025 Diesen shelf is now materially thicker than the original Wilkerson backfill showed. The earliest anchor is already visible in [2025-02-15 *Trump's Actions Could Ignite a Regional Conflict in the Middle East*](../../../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md, which helps show that the Diesen-side Wilkerson lane was present early, not only after midyear. See [wilkerson-february-2025-note.md](../../../statecraft/voices/wilkerson/wilkerson-february-2025-note.md.
 
 In addition to the already-materialized `2025-02-15`, `2025-04-27`, `2025-06-16`, and `2025-07-30` files, the fuller 2025 continuation now includes:
 
@@ -77,12 +77,12 @@ That means the Diesen-side Wilkerson branch is not just an early and mid-2025 pr
 
 If the operator needs only one file:
 
-- open [source-diesen-wilkerson-hormuz-brics-2026-05-06.md](../../source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md
+- open [source-diesen-wilkerson-hormuz-brics-2026-05-06.md](../../../../source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md
 
 If the operator needs the best paired read:
 
-- open [source-diesen-wilkerson-hormuz-brics-2026-05-06.md](../../source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md
-- then [source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](../../source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md
+- open [source-diesen-wilkerson-hormuz-brics-2026-05-06.md](../../../../source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md
+- then [source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](../../../../source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md
 
 That pair gives the clearest combination of:
 

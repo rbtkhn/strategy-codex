@@ -37,7 +37,7 @@ This is not sovereignty at ease. It is sovereignty designed to remain alive unde
 
 ## Key source doors
 
-- [Persia bibliography](../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
+- [Persia bibliography](../../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - Oil Nationalization Law
 - Constitution of the Islamic Republic of Iran
 - Sacred Defense communiques

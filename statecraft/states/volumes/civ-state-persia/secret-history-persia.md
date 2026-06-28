@@ -109,5 +109,5 @@ When drafting from the Persia volume, the governing question is:
 - [Persia sacred grammar](../../../persia/civilization/god.md)
 - [Iran literature](../../../persia/civilization/lit.md)
 - [Iran state memory](../../../persia/civilization/objects/state-memory.md)
-- [CIV-DOCTRINE Persia](../../../../research/repos/civilization_memory/content/civilizations/PERSIA/CIV–DOCTRINE–PERSIA.md)
-- [MEM-RELEVANCE Persia](../../../../research/repos/civilization_memory/content/civilizations/PERSIA/MEM–RELEVANCE–PERSIA.md)
+- [CIV-DOCTRINE Persia](../../../../../../research/repos/civilization_memory/content/civilizations/PERSIA/CIV–DOCTRINE–PERSIA.md)
+- [MEM-RELEVANCE Persia](../../../../../../research/repos/civilization_memory/content/civilizations/PERSIA/MEM–RELEVANCE–PERSIA.md)

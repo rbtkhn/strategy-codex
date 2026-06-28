@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-17
 
-**Parent daily:** [2026-06-17](../../synthesis/day/2026-06-17.md) · **Lebanon child:** [Art. 1 × Pape × Parsi](../2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · **Archive:** [2026-06-17 README](../../../source-archive/statecraft/2026-06-17/README.md) · **Cross-ref:** [2026-06-16 matrix](2026-06-16-news-verify-matrix.md) · [2026-06-14 Lebanon fork](2026-06-14-news-verify-matrix.md)
+**Parent daily:** [2026-06-17](../../../singularity/work-cici/cici-notebook/2026-06-17.md) · **Lebanon child:** [Art. 1 × Pape × Parsi](../2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · **Archive:** [2026-06-17 README](../../../source-archive/statecraft/2026-06-17/README.md) · **Cross-ref:** [2026-06-16 matrix](2026-06-16-news-verify-matrix.md) · [2026-06-14 Lebanon fork](2026-06-14-news-verify-matrix.md)
 
 **Mode:** batch (9 ingests, shared MOU-release seam) · **Hooks:** 17 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (digital sign 17 Jun; Geneva ceremonial **contested**; China/Pak assassination lane **partial**)
 

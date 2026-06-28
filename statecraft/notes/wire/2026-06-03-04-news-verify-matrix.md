@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-03 – 2026-06-04
 
-**Parent dailies:** [2026-06-03](../../synthesis/day/2026-06-03.md) · [2026-06-04](../../synthesis/day/2026-06-04.md) · **Archive:** [Jun 3 day-index](../../../source-archive/statecraft/2026-06-03/day-index.md) · [Jun 4 day-index](../../../source-archive/statecraft/2026-06-04/day-index.md) · **Cross-ref:** [2026-06-01-02 matrix](2026-06-01-02-news-verify-matrix.md) · [Pape Lebanon fuse](../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md#shared-seam-anchors-s1s10)
+**Parent dailies:** [2026-06-03](../../../singularity/work-cici/cici-notebook/2026-06-03.md) · [2026-06-04](../../../singularity/work-cici/cici-notebook/2026-06-04.md) · **Archive:** [Jun 3 day-index](../../../source-archive/statecraft/2026-06-03/day-index.md) · [Jun 4 day-index](../../../source-archive/statecraft/2026-06-04/day-index.md) · **Cross-ref:** [2026-06-01-02 matrix](2026-06-01-02-news-verify-matrix.md) · [Pape Lebanon fuse](../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md#shared-seam-anchors-s1s10)
 
 **Mode:** combo window (9 + 10 ingests, **bombing-while-talking × Lebanon pseudo-deal × §224**) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 3/19 (Nima · Hoh · Pape Lebanon fuse · `verify:` 2026-06-24)
 

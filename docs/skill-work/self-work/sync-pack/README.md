@@ -29,7 +29,7 @@ Default initial **coffee** (startup) order:
 
 **Closeout** trio (same contracts; legacy filenames on disk):
 - [Startup / coffee rhythm spec](../README.md)
-- [Closeout template](../decision-fatigue-reduction.md)
+- [Closeout template](../../work-cadence/decision-fatigue-reduction.md)
 - [Closeout spec](../README.md)
 
 ---

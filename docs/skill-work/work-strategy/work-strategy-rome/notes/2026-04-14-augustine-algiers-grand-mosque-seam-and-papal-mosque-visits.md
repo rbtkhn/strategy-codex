@@ -5,7 +5,7 @@
 **ROME-PASS order:** [ROME-PASS.md](../ROME-PASS.md) â€” **vatican.va / Bollettino / Vatican News** before wire-only paraphrase for **what the pope said this week**.
 
 **Related notebook fold:** [../../../codex/chapters/2026/2026-04/days.md](../../../../../codex/chapters/2026/2026-04/days.md) **`## 2026-04-13`** (Trumpâ€“Leo Ã— Grand Mosque; tier split).  
-**CIV-MEM pointer:** [CIV-MEM.md](../../../../../CIV-MEM.md); tri-frame routing [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md).
+**CIV-MEM pointer:** [CIV-MEM.md](../../../../../archive/legacy-users/grace-mar/SELF-LIBRARY/CIV-MEM.md); tri-frame routing [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md).
 
 ---
 

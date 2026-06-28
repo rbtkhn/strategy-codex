@@ -57,12 +57,12 @@ Current canonical `Diesen × Matlock` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md
+- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](../../../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md
 
 If the operator needs the best paired read:
 
-- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md
-- then [transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md](../../source-archive/statecraft/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md
+- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](../../../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md
+- then [transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md](../../../../source-archive/statecraft/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md
 
 That pair gives the clearest combination of:
 

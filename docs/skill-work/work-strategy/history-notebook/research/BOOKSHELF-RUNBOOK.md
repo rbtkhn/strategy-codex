@@ -68,7 +68,7 @@ If a title straddles (e.g. one volume covers 400â€“600 AD, or 1400â€“1
    - Optional: `eras`, `year`, `isbn`, `added_batch`, `tags`, `hn_volume`, `primary_arc`, `candidate_hn_chapters`, `ph_thesis_hints`, `ph_concept_hints`, `notes`, and (for formal bibliography) `cite_as`, `place`, `publisher`, `edition`, `series`, `editor`, `translator` â€” see YAML header in `bookshelf-catalog.yaml`.
 3. **Validate and refresh exports:**
    - `python3 scripts/validate_bookshelf_catalog.py` (use `--strict` in CI if wired).
-   - `python3 scripts/build_hn_bookshelf_bibliography.py` â€” updates [bibliography/REFERENCES-shelf-by-era.md](bibliography/REFERENCES-shelf-by-era.md) and [bibliography/REFERENCES-shelf-by-shelf-id.md](bibliography/REFERENCES-shelf-by-shelf-id.md) (CI: `--check` â€” [test workflow](../../../../.github/workflows/test.yml)).
+   - `python3 scripts/build_hn_bookshelf_bibliography.py` â€” updates [bibliography/REFERENCES-shelf-by-era.md](bibliography/REFERENCES-shelf-by-era.md) and [bibliography/REFERENCES-shelf-by-shelf-id.md](bibliography/REFERENCES-shelf-by-shelf-id.md) (CI: `--check` â€” [test workflow](../../../../../.github/workflows/test.yml)).
    - `python3 scripts/hn_shelf_anchors.py` â€” updates [SHELF-ANCHORS-BY-CHAPTER.md](SHELF-ANCHORS-BY-CHAPTER.md) (CI: `--check`). After `candidate_hn_chapters` or [book-architecture.yaml](../book-architecture.yaml) chapter list changes, run this too.
    - If chapter prose/status changed, refresh agentic reports too (queue/provenance/red-team): see [AGENTIC-MVP-RUNBOOK.md](AGENTIC-MVP-RUNBOOK.md).
 4. **Within-era pass:** dedupe, cluster tags, adjust `candidate_hn_chapters` only as **planning** hints.

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-05 – 2026-06-07
 
-**Parent dailies:** [2026-06-05](../../synthesis/day/2026-06-05.md) · [2026-06-06](../../synthesis/day/2026-06-06.md) · [2026-06-07](../../synthesis/day/2026-06-07.md) · **Archive:** [Jun 5](../../../source-archive/statecraft/2026-06-05/day-index.md) · [Jun 6](../../../source-archive/statecraft/2026-06-06/day-index.md) · [Jun 7](../../../source-archive/statecraft/2026-06-07/day-index.md) · **Cross-ref:** [W34 matrix](2026-06-03-04-news-verify-matrix.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md)
+**Parent dailies:** [2026-06-05](../../../singularity/work-cici/cici-notebook/2026-06-05.md) · [2026-06-06](../../../singularity/work-cici/cici-notebook/2026-06-06.md) · [2026-06-07](../../../singularity/work-cici/cici-notebook/2026-06-07.md) · **Archive:** [Jun 5](../../../source-archive/statecraft/2026-06-05/day-index.md) · [Jun 6](../../../source-archive/statecraft/2026-06-06/day-index.md) · [Jun 7](../../../source-archive/statecraft/2026-06-07/day-index.md) · **Cross-ref:** [W34 matrix](2026-06-03-04-news-verify-matrix.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md)
 
 **Mode:** combo window (11 + 9 + 7 ingests, **entrapment × Hormuz × third-party deterrence firing**) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (Jun 7 Lebanon trigger spend) · **Capture receipts:** 0/27
 

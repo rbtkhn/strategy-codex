@@ -54,12 +54,12 @@ Those two files are enough to show that the Diesen-side Mearsheimer branch preda
 
 If the operator needs only one file:
 
-- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](../../source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
+- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](../../../../source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
 
 If the operator needs the best paired read:
 
-- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](../../source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
-- then [source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
+- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](../../../../source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
+- then [source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../../source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
 
 That pair gives the clearest combination of:
 
@@ -79,8 +79,8 @@ Do not use this arc as a shortcut for host-level feasibility triage or Napolitan
 
 If the operator specifically needs the 2025 roots:
 
-- open [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](../../source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md
-- then [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](../../source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md
+- open [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](../../../../source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md
+- then [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](../../../../source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md
 
 ## Routing use
 

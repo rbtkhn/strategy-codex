@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # June 9 Intake Readiness — Command Fracture
 
-**Status:** `source-archive/statecraft/2026-06-09/` batch **landed** — **16** transcript sources; indices refreshed (`thread-index`, `2026-06.md`, day `README.md`). **Daily promoted:** [2026-06-09.md](../../synthesis/day/2026-06-09.md) (sync **2026-06-11** — Weichert lane moved to YouTube upload dates; Marandi/Pape core wired; evening CENTCOM/GCC seam + S9 mesh).
+**Status:** `source-archive/statecraft/2026-06-09/` batch **landed** — **16** transcript sources; indices refreshed (`thread-index`, `2026-06.md`, day `README.md`). **Daily promoted:** [2026-06-09.md](../../../singularity/work-cici/cici-notebook/2026-06-09.md) (sync **2026-06-11** — Weichert lane moved to YouTube upload dates; Marandi/Pape core wired; evening CENTCOM/GCC seam + S9 mesh).
 
-**Parent day:** [2026-06-08 daily](../../synthesis/day/2026-06-08.md) · [2026-06-08 intake readiness](2026-06-08-intake-readiness.md) · **Parent week:** [June week-2 start here](../reentry/2026-06-week2-start-here.md) (partial through 2026-06-09)
+**Parent day:** [2026-06-08 daily](../../../singularity/work-cici/cici-notebook/2026-06-08.md) · [2026-06-08 intake readiness](2026-06-08-intake-readiness.md) · **Parent week:** [June week-2 start here](../reentry/2026-06-week2-start-here.md) (partial through 2026-06-09)
 
 **Bernstein conductor close:** motif named, counterpoint table run in chat; executive-read opening drafted — not promoted to full daily without this file + verify pass.
 
@@ -84,7 +84,7 @@ June 8 asked **which ceasefire label** still holds — alive, dead, or theatrica
 
 ## June 8 falsifier carry
 
-Still live from [2026-06-08 daily](../../synthesis/day/2026-06-08.md):
+Still live from [2026-06-08 daily](../../../singularity/work-cici/cici-notebook/2026-06-08.md):
 
 | Falsifier | June 9 touch |
 | --- | --- |
@@ -118,7 +118,7 @@ Still live from [2026-06-08 daily](../../synthesis/day/2026-06-08.md):
    python3 scripts/build_statecraft_month_indices.py --month 2026-06
    ```
 
-**Intake triad:** archive ✓ (16) · verify **partial** (Marandi + Pape + evening CENTCOM wired; GCC retaliation developing; Weichert cross-day verify pending) · synthesis **promoted** → [2026-06-09.md](../../synthesis/day/2026-06-09.md) · [S9 mesh](../2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md).
+**Intake triad:** archive ✓ (16) · verify **partial** (Marandi + Pape + evening CENTCOM wired; GCC retaliation developing; Weichert cross-day verify pending) · synthesis **promoted** → [2026-06-09.md](../../../singularity/work-cici/cici-notebook/2026-06-09.md) · [S9 mesh](../2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md).
 
 ---
 

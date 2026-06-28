@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Purpose:** Disk-grounded **voice-profile-panel** demo — sequential fictional panel + Family 8 + §8 anti-AI audit.
 
-**Skill:** [voice-profile-panel](../../../skills-portable/voice-profile-panel/SKILL.md) · Orthogonality SSOT: [triad-voice-orthogonality-june-2026.md](triad-voice-orthogonality-june-2026.md)
+**Skill:** [voice-profile-panel](../../../skills/voice-profile-panel/SKILL.md) · Orthogonality SSOT: [triad-voice-orthogonality-june-2026.md](triad-voice-orthogonality-june-2026.md)
 
 **Profiles used (Tier A):** [mercouris](../mercouris/mercouris-profile.md) · [barnes](../barnes/barnes-profile.md) · [mearsheimer](../mearsheimer/mearsheimer-profile.md)
 

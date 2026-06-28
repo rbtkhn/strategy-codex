@@ -69,7 +69,7 @@ Governed geopolitical judgment with source receipts — daily Situation Brief, w
 | **Associates** | Wrong artifact type; SID = fixed cost vs crisis-week hours |
 | **Internal AI (Copilot / Harvey)** | Firm drafts; SID = live theater objects + receipts — parallel test, not duplicate platform |
 
-Full table: [sid-desk-competitive-comparison.md](sid-desk-competitive-comparison.md) *(planned)*.
+Full table: [sid-desk-offer-spine.md](sid-desk-offer-spine.md) *(planned)*.
 
 ## Artifact authority (what we sell)
 
@@ -99,7 +99,7 @@ Mirror proportion of [singularity-academy sprint tree](singularity-academy-sprin
 |--------|------|---------|
 | **live** | [sid-desk-offer-spine.md](sid-desk-offer-spine.md) | This file — name, SKUs, archetypes, hierarchy |
 | **live** | [sid-desk-one-page-packet.md](sid-desk-one-page-packet.md) | First send / “send the one-pager” |
-| planned | `sid-desk-competitive-comparison.md` | RANE / wire / associate / internal AI table |
+| planned | `sid-desk-offer-spine.md` | RANE / wire / associate / internal AI table |
 | planned | `sid-desk-objection-cheat-sheet.md` | Call cheat sheet — objection → pivot → close |
 | planned | `sid-desk-objection-scripts.md` | Verbatim call scripts (RANE, associates, price, wire, legal, internal AI) |
 | planned | `sid-desk-prospect-pipeline.md` | First 20 names, stages, send metadata |

@@ -91,7 +91,7 @@ Primary files:
 
 ## Companion surfaces
 
-- [March 2026 interview cross-host arc](arc-march-2026-interview-cross-host-crooke-host.md)
+- [March 2026 interview cross-host arc](../../notes/../../notes/arc-march-2026-interview-cross-host-crooke-host.md)
 - [April 2026 interview cross-host arc](../../notes/arc-april-2026-interview-cross-host-crooke-host.md)
 - [May 2026 interview cross-host arc](../../notes/arc-may-2026-interview-cross-host-crooke-host.md)
 - [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/crooke-forecast-ledger-2026.md

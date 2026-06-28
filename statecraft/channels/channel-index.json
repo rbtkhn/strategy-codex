@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-27T07:04:56+00:00",
+  "generated_at": "2026-06-28T05:13:17+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "statecraft/channels/channel-index.md",
   "stats": {
     "main_channel_count": 16,
-    "file_count": 1491,
+    "file_count": 1496,
     "watchlist_count": 7,
     "discoverable_count": 16,
     "explicit_slug_count": 16
@@ -167,6 +167,20 @@
       "channel_id": "UCDRIjKy6eZOvKtOELtTdeUA"
     },
     {
+      "slug": "cyrus-janssen",
+      "label": "Cyrus Janssen",
+      "file_count": 7,
+      "day_count": 7,
+      "watchlist": false,
+      "check_sources": true,
+      "discoverable": true,
+      "explicit_slug": true,
+      "channel_url": "https://www.youtube.com/@CyrusJanssen",
+      "first_day": "2025-08-20",
+      "last_day": "2026-05-10",
+      "channel_id": "UCxEQsjgRRfGWiJJu_PDygxw"
+    },
+    {
       "slug": "tucker-carlson",
       "label": "Tucker Carlson",
       "file_count": 7,
@@ -221,20 +235,6 @@
       "first_day": "2026-04-20",
       "last_day": "2026-06-16",
       "channel_id": "UCoJhK5kMc4LjBKdiYrDtzlA"
-    },
-    {
-      "slug": "cyrus-janssen",
-      "label": "Cyrus Janssen",
-      "file_count": 2,
-      "day_count": 2,
-      "watchlist": false,
-      "check_sources": true,
-      "discoverable": true,
-      "explicit_slug": true,
-      "channel_url": "https://www.youtube.com/@CyrusJanssen",
-      "first_day": "2026-04-16",
-      "last_day": "2026-05-10",
-      "channel_id": "UCxEQsjgRRfGWiJJu_PDygxw"
     }
   ]
 }

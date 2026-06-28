@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-16
 
-**Parent daily:** [2026-06-16](../../synthesis/day/2026-06-16.md) · **72h watch:** [2026-06-16-72h-watch-run](../watch/2026-06-16-72h-watch-run.md) · **Archive:** [2026-06-16 README](../../../source-archive/statecraft/2026-06-16/README.md) · **Cross-ref:** [2026-06-14](2026-06-14-news-verify-matrix.md)
+**Parent daily:** [2026-06-16](../../../singularity/work-cici/cici-notebook/2026-06-16.md) · **72h watch:** [2026-06-16-72h-watch-run](../watch/2026-06-16-72h-watch-run.md) · **Archive:** [2026-06-16 README](../../../source-archive/statecraft/2026-06-16/README.md) · **Cross-ref:** [2026-06-14](2026-06-14-news-verify-matrix.md)
 
 **Rule:** **15 independent ingests** — shared host, same guest on another show, or same calendar day does **not** merge sub-seams for wire-verify or synthesis. Each row = one archive file, one hook namespace.
 

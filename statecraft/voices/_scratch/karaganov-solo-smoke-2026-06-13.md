@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Karaganov voice smoke — nuclear-threshold object (2026-06-13)
 
-**Skill:** [voice-profile-panel](../../../skills-portable/voice-profile-panel/SKILL.md)
+**Skill:** [voice-profile-panel](../../../skills/voice-profile-panel/SKILL.md)
 
 **Profile:** [karaganov-profile.md](../karaganov/karaganov-profile.md) (Tier A)
 

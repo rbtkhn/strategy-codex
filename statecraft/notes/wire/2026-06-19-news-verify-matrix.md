@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-19
 
-**Parent daily:** [2026-06-19](../../synthesis/day/2026-06-19.md) · **Archive:** [2026-06-19 README](../../../source-archive/statecraft/2026-06-19/README.md) · **Cross-ref:** [2026-06-18 daily](../../synthesis/day/2026-06-18.md) · [2026-06-17 matrix](2026-06-17-news-verify-matrix.md) · [J17-5 ceremony fork](2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
+**Parent daily:** [2026-06-19](../../synthesis/day/2026-06-19.md) · **Archive:** [2026-06-19 README](../../../source-archive/statecraft/2026-06-19/README.md) · **Cross-ref:** [2026-06-18 daily](../../../singularity/work-cici/cici-notebook/2026-06-18.md) · [2026-06-17 matrix](2026-06-17-news-verify-matrix.md) · [J17-5 ceremony fork](2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
 
 **Mode:** batch (11 ingests, MOU **implementation-suspension** seam) · **Hooks:** 15 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (Lebanon ceasefire **declared + contested hold**; Bürgenstock **postponed**; Hormuz **partial** transit)
 

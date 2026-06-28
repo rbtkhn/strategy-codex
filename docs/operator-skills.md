@@ -77,7 +77,7 @@ When **`gate review`** recommendations repeatedly mis-rank or duplicate-hint wro
 3. Use `politics-massie` when you want breaking-news hooks and draft tweets for the Massie shadow X account.
 4. Use `weekly-brief-run` for the actual work-politics brief cycle after checking source freshness. If the cycle covers **high-stakes** topics (war powers, ethics/insider, cartel-economy legal claims, border + civil liberties), complete **weekly brief ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§8** / `docs/skill-work/work-politics/america-first-ky/` stress-test before treating drafts as final.
 5. Use `gate-review-pass` when you want a queue review recommendation without taking action yet.
-6. End the day with **`coffee`** + **signing-off** intent: **`handoff-check`** (or `operator_coffee.py --mode closeout`) is **Step 1**; agent then shows the **same** menu as work-start (**A ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Steward** alone = system pick). To resume mid-thread without the full `coffee` flow, use `handoff-check` alone per `../../../../../../../../.cursor/skills/handoff-check/SKILL.md`.
+6. End the day with **`coffee`** + **signing-off** intent: **`handoff-check`** (or `operator_coffee.py --mode closeout`) is **Step 1**; agent then shows the **same** menu as work-start (**A ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Steward** alone = system pick). To resume mid-thread without the full `coffee` flow, use `handoff-check` alone per `../../../../../../../../../.cursor/skills/handoff-check/SKILL.md`.
 
 ---
 

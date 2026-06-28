@@ -32,7 +32,7 @@ The direct raw-input set is:
 - [2025-03-27 Diesen x Matlock](../../../source-archive/statecraft/2025-03-27/day-index.md)
 - [2025-12-10 Diesen x Matlock](../../../source-archive/statecraft/2025-12-10/day-index.md)
 - [2025-06-21 Diesen x Matlock](../../../source-archive/statecraft/2025-06-21/day-index.md)
-- [2025-09-01 Diesen x Matlock](../../../codex/years/2025/provenance/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
+- [2025-09-01 Diesen x Matlock](../diesen/diesen-matlock-speaker-arc.md)
 
 References to Matlock inside Freeman, Sachs, McGovern, Johnson, or other host files are reinforcement surfaces. They do not yet create separate Matlock host branches.
 

@@ -49,7 +49,7 @@ python3 scripts/build_bookshelf_membrane_candidates.py --emit-round --round-inde
 python3 scripts/build_bookshelf_membrane_candidates.py --responses-file docs/skill-work/work-strategy/history-notebook/research/bookshelf-membrane-responses.json --check
 ```
 
-CI runs these in [`.github/workflows/test.yml`](../../../../.github/workflows/test.yml).
+CI runs these in [`.github/workflows/test.yml`](../../../../../.github/workflows/test.yml).
 
 ## Recommended regen sequence
 

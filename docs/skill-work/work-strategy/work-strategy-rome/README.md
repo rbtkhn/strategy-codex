@@ -51,7 +51,7 @@ Use **civilizational-memory** reference when Rome work needs **historical / stru
 |------|---------|
 | Index | `python3 scripts/build_civmem_inrepo_index.py build` — token overlap against [docs/civilization-memory/](../../../civilization-memory/README.md). |
 | Stewardship | [work-civ-mem README](../../work-civ-mem/README.md) — do **not** fork a parallel Rome-only corpus here. |
-| Public / campaign copy | [civ-mem-draft-protocol.md](../../../../../../../../work-politics/civ-mem-draft-protocol.md) — human approval gates. |
+| Public / campaign copy | [civ-mem-draft-protocol.md](../../work-politics/civ-mem-draft-protocol.md) — human approval gates. |
 
 ---
 

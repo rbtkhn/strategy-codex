@@ -19,7 +19,7 @@
 | Say this | Contract |
 |----------|----------|
 | **`strategy`** / **`strategy pass`** | This file — STATUS → inbox → menu |
-| **`compass`** (legacy) | Same as strategy lane without opening **`coffee`** Step 1 ([menu-reference](work-coffee/menu-reference.md))) |
+| **`compass`** (legacy) | Same as strategy lane without opening **`coffee`** Step 1 ([menu-reference](../work-coffee/menu-reference.md))) |
 | **`coffee` C** | **Statecraft** router — live judgment, lanes, intake ([statecraft/README.md](../../../statecraft/README.md)) |
 | **`conductor` / master name** | Named mid-day emphasis; close on daily/note/watch |
 | **`strategy page` / compose** | EOD session — architecture § End-of-day strategy session |

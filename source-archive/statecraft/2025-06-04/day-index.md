@@ -14,7 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Daniel Davis` (1), `Glenn Diesen` (1)
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
-- Threads: `diesen` (1), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `sachs` (1)
+- Threads: `davis` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -49,7 +49,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| John Mearsheimer | `mearsheimer` | — | `source-daniel-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md` |
+| John Mearsheimer | `davis`, `mearsheimer` | — | `source-daniel-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md` |
 | Jeffrey Sachs | `diesen`, `sachs` | [watch](https://podbay.fm/p/1822142909/e/1749039487) | `source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md` |
 
 ## Files

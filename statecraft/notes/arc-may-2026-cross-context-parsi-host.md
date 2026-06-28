@@ -47,6 +47,6 @@ It is better read as:
 
 ## Best entry surfaces
 
-- [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
+- [parsi-forecast-ledger-2025-2026.md](../voices/parsi/parsi-forecast-ledger-2025-2026.md)
 - [../parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md
 - [../parsi-wilkerson-may-2026-backfill-attention.md](parsi-wilkerson-may-2026-backfill-attention.md

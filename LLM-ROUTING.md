@@ -255,7 +255,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
 | [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
 | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
-| [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
+| [scripts/index_record.py](../../scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
 | [statecraft/channels/](statecraft/channels) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |

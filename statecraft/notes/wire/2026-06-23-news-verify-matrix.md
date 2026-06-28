@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-23
 
-**Parent daily:** [2026-06-23](../../synthesis/day/2026-06-23.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-23/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-news-verify-matrix.md) · [2026-06-22 wire matrix](2026-06-22-news-verify-matrix.md) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
+**Parent daily:** [2026-06-23](../../synthesis/day/2026-06-23.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-23/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-news-verify-matrix.md) · [2026-06-22 wire matrix](2026-06-22-news-verify-matrix.md) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
 **Mode:** batch (11 ingests, MOU **implementation** seam — IAEA duel · Hormuz partial · Lebanon ridge · **Ritter Europe/Ukraine desk**) · **Hooks:** 41 (core 20 + Hoh 2 + Ukraine 8 + **Ritter 11**) · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 5/11 (`verify:` Dialogue Works trio + Hoh polls + Ukraine sub-hook · `verify_receipt_deep` on Dialogue Works trio · `verify_receipt: 2026-06-24` on all five · **Ritter matrix-only** pending optional Ship)
 

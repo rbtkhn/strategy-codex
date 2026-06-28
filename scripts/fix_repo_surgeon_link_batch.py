@@ -163,6 +163,25 @@ TARGET_REWRITES: dict[str, str] = {
     "sandbox-adapter.md": "docs/skill-work/work-dev/managed-agent-design.md",
     "analysis-grace-mar-self-evidence.md": "docs/archive/analysis-grace-mar-self-evidence.md",
     "ANALYSIS-GRACE-MAR-museum knowledge.md": "archive/grace-mar-instance/self-knowledge.md",
+    "deveeopment-handoff.md": "docs/development-handoff.md",
+    "canonical-paths.md": "docs/canonical-paths.md",
+    "CIV-MEM.md": "archive/legacy-users/grace-mar/SELF-LIBRARY/CIV-MEM.md",
+    "health-fitness-profile-hannah.md": (
+        "archive/companion-freeze-abby-2026-04-14/companion-files/health-fitness-profile-hannah.md"
+    ),
+    "health-fitness-profile.md": (
+        "archive/companion-freeze-abby-2026-04-14/companion-files/health-fitness-profile.md"
+    ),
+    "artifact-registry.md": "statecraft/artifact-registry.md",
+    "review-queue.md": "statecraft/states/review-queue.md",
+    "anchored-historical-citation-policy.md": (
+        "statecraft/bridges/anchored-historical-citation-policy.md"
+    ),
+    "sid-desk-competitive-comparison.md": (
+        "docs/skill-work/work-business/sid-desk-offer-spine.md"
+    ),
+    "arc-marandi-continuity.md": "statecraft/voices/marandi/marandi-arc.md",
+    "arc-parsi-continuity.md": "statecraft/voices/parsi/parsi-arc.md",
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -1021,6 +1040,14 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 ("](miniapp-setup.md)", "](../../../miniapp-setup.md)"),
                 (
+                    "](../../../miniapp-setup.md)",
+                    "](../../miniapp-setup.md)",
+                ),
+                (
+                    "](week-1-ramp-plan.md)",
+                    "](clients/massie-ky4-operator-checklist.md)",
+                ),
+                (
                     "](stress-test-brief-template.md)",
                     "](america-first-ky/stress-test-brief-template.md)",
                 ),
@@ -1369,7 +1396,6 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../.cursor/skills/handoff-check/SKILL.md",
                 ),
                 ("../integrations/openclaw_stage.py", "../../platform/integrations/openclaw_stage.py"),
-                ("examples/diagnostics/", "../examples/diagnostics/"),
                 ("../cadence-learning-events.jsonl", "../../runtime/operator-events/cadence-learning-events.jsonl"),
                 (
                     "../diagnostics-and-governance-tools.mdcounterfactual-",
@@ -1474,8 +1500,8 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel == "docs/state-model.md":
         replacements.append(
             (
-                "](platform/integrations/ob1/mapping.md",
-                "](../../platform/integrations/ob1/mapping.md",
+                "](../../integrations/ob1/mapping.md",
+                "](integrations/ob1/mapping.md",
             )
         )
 
@@ -1550,14 +1576,6 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("../../../good-night-template.md", "../../good-night-template.md"),
                 ("../../../self-work.md", "../../self-work/README.md"),
             ]
-        )
-
-    if rel.startswith("docs/skill-work/work-strategy/"):
-        replacements.append(
-            (
-                "../work-politics/civ-mem-draft-protocol.md",
-                "../../work-politics/civ-mem-draft-protocol.md",
-            )
         )
 
     if rel == "docs/instance-patterns.md" or rel == "docs/schema-record-api.md":
@@ -1746,6 +1764,266 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
+    if rel.startswith("docs/skill-work/self-work/"):
+        replacements.append(
+            (
+                "../decision-fatigue-reduction.md",
+                "../../work-cadence/decision-fatigue-reduction.md",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/skill-work-human-teacher/"):
+        replacements.append(
+            (
+                "../../../skill-think/",
+                "../../skill-think/",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-business/"):
+        replacements.append(
+            (
+                "sid-desk-competitive-comparison.md",
+                "sid-desk-offer-spine.md",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-civ-mem/"):
+        replacements.append(
+            (
+                "../../deveeopment-handoff.md",
+                "../../development-handoff.md",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-companion-self/"):
+        replacements.append(
+            (
+                "../../../canonical-paths.md",
+                "../../canonical-paths.md",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-dream/"):
+        replacements.append(
+            (
+                "../work-cici/cici-notebook/",
+                "../../../singularity/work-cici/cici-notebook/",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-health-fitness/"):
+        replacements.extend(
+            [
+                (
+                    "../../../health-fitness-profile-hannah.md",
+                    "../../../../archive/companion-freeze-abby-2026-04-14/companion-files/health-fitness-profile-hannah.md",
+                ),
+                (
+                    "../../../health-fitness-profile.md",
+                    "../../../../archive/companion-freeze-abby-2026-04-14/companion-files/health-fitness-profile.md",
+                ),
+            ]
+        )
+
+    if rel == "docs/skill-work/work-strategy/DEFAULT-PATH.md":
+        replacements.append(
+            (
+                "work-coffee/menu-reference.md",
+                "../work-coffee/menu-reference.md",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-strategy/history-notebook/research/"):
+        replacements.append(
+            (
+                "../../../../.github/workflows/",
+                "../../../../../.github/workflows/",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-template/"):
+        replacements.extend(
+            [
+                ("../operator-agent-lanes.md", "../../operator-agent-lanes.md"),
+                (
+                    "../work-cici/legacy-aliases.yml",
+                    "../../../singularity/work-cici/legacy-aliases.yml",
+                ),
+            ]
+        )
+
+    if rel.startswith("docs/skill-work/work-dev/"):
+        replacements.extend(
+            [
+                (
+                    "../../../../platform/integrations/",
+                    "../../../../integrations/",
+                ),
+                (
+                    "../../../CIV-MEM.md",
+                    "../../../../archive/legacy-users/grace-mar/SELF-LIBRARY/CIV-MEM.md",
+                ),
+            ]
+        )
+
+    if any(
+        rel.startswith(p)
+        for p in (
+            "statecraft/notes/intake/",
+            "statecraft/notes/watch/",
+            "statecraft/notes/wire/",
+        )
+    ):
+        replacements.extend(
+            [
+                ("../synthesis/", "../../synthesis/"),
+                ("../source-archive/", "../../../source-archive/"),
+                ("../notes/", "./"),
+                ("../america/transactions/", "../../america/transactions/"),
+            ]
+        )
+
+    if any(
+        rel.startswith(p)
+        for p in (
+            "statecraft/notes/jiang-on-ai.md",
+            "statecraft/notes/statecraft-v1-upgrade-plan",
+            "statecraft/notes/pape-marandi",
+            "statecraft/notes/recursive-learning",
+        )
+    ) or rel.startswith("statecraft/notes/arc-") or rel in {
+        "statecraft/notes/arc-weichert-continuity.md",
+        "statecraft/notes/arc-ritter-india-global-left-iran.md",
+        "statecraft/notes/arc-may-2026-cross-context-parsi-host.md",
+        "statecraft/notes/arc-karaganov-diesen-host.md",
+    }:
+        replacements.extend(
+            [
+                ("../../synthesis/", "../synthesis/"),
+                ("../source-archive/", "../../../source-archive/"),
+                ("../voices/jiang/", "../../voices/jiang/"),
+                ("../marandi/", "../../voices/marandi/"),
+                ("../karaganov/", "../voices/karaganov/"),
+                (
+                    "states/review-queue.md",
+                    "../../states/review-queue.md",
+                ),
+                (
+                    "artifact-registry.md",
+                    "../artifact-registry.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("statecraft/sheets/"):
+        replacements.append(
+            (
+                "../../transactions/",
+                "../transactions/",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-strategy/theology-notebook/STATUS.md"):
+        replacements.append(
+            (
+                "../work-civ-mem/",
+                "../../work-civ-mem/",
+            )
+        )
+
+    if rel == "docs/skill-work/work-moonshots/swarm-spirit.md":
+        replacements.append(
+            (
+                "../work-strategy/strategy-notebook/experts/",
+                "../../../statecraft/voices/",
+            )
+        )
+
+    if rel.startswith("statecraft/bridges/"):
+        replacements.extend(
+            [
+                ("../../speakers/marandi/", "../voices/marandi/"),
+                ("../../speakers/parsi/", "../voices/parsi/"),
+                ("../../voices/marandi/", "../voices/marandi/"),
+                ("../../voices/parsi/", "../voices/parsi/"),
+                (
+                    "arc-marandi-continuity.md",
+                    "marandi-arc.md",
+                ),
+                (
+                    "arc-parsi-continuity.md",
+                    "parsi-arc.md",
+                ),
+            ]
+        )
+
+    if "theory-cross-case-v1/patterns/" in rel:
+        replacements.extend(
+            [
+                ("../../volumes/", "../../../volumes/"),
+                ("../../../../../glossary.md", "../../../glossary.md"),
+            ]
+        )
+
+    if rel.startswith("statecraft/voices/"):
+        replacements.extend(
+            [
+                (
+                    "skills-portable/voice-profile-panel/",
+                    "skills/voice-profile-panel/",
+                ),
+                (
+                    "../../strategy-commentator-threads.md",
+                    "../../../codex/strategy-commentator-threads.md",
+                ),
+                ("../ritter-profile.md", "ritter-profile.md"),
+                ("../parsi-thread.md", "parsi-thread.md"),
+                ("../parsi-transcript.md", "parsi-transcript.md"),
+            ]
+        )
+
+
+    if rel.startswith("statecraft/channels/"):
+        replacements.append(
+            (
+                "../../breaking-points/",
+                "../breaking-points/",
+            )
+        )
+
+    if rel.startswith("statecraft/notes/reentry/"):
+        replacements.append(
+            (
+                "../../../compact/",
+                "../compact/",
+            )
+        )
+
+    if rel.startswith("runtime/artifacts/operator-command-deck/"):
+        replacements.append(
+            (
+                "../../../recursion-gate.md",
+                "../../../archive/grace-mar-instance/recursion-gate.md",
+            )
+        )
+
+    if rel.startswith("skills/_drafts/"):
+        replacements.append(
+            (
+                "../../.cursor/skills/coffee/",
+                "../../../.cursor/skills/coffee/",
+            )
+        )
+
+    if rel.startswith("skills/check-sources/") or rel.startswith("skills/monthly-deepening/"):
+        replacements.append(
+            (
+                "../../../.codex-tmp/",
+                "../../../../.codex-tmp/",
+            )
+        )
+
     for old, new in replacements:
         if old in text:
             n = text.count(old)
@@ -1765,6 +2043,25 @@ def _dashify_civmem_filename(match: re.Match[str]) -> str:
     if not (name.startswith("CIV-") or name.startswith("MEM-")):
         return match.group(0)
     return prefix + name.replace("-", CIVMEM_DASH)
+
+
+
+def fix_civ_mem_draft_protocol(text: str, file_path: Path) -> tuple[str, int]:
+    """Collapse over-deep civ-mem-draft-protocol links under docs/skill-work/."""
+    rel = file_path.relative_to(REPO_ROOT).as_posix()
+    if not rel.startswith("docs/skill-work/"):
+        return text, 0
+    target = REPO_ROOT / "docs/skill-work/work-politics/civ-mem-draft-protocol.md"
+    if not target.is_file():
+        return text, 0
+    correct = os.path.relpath(target, file_path.parent.resolve()).replace("\\", "/")
+    pattern = r"\]\((?:\.\./)+work-politics/civ-mem-draft-protocol\.md\)"
+
+    def repl(_match: re.Match[str]) -> str:
+        return f"]({correct})"
+
+    new_text, n = re.subn(pattern, repl, text)
+    return new_text, n
 
 
 def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
@@ -1995,6 +2292,29 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
     if rel.startswith("skills/runbooks/"):
         patterns.append((r"\.\./\.\./\.\./\.cursor/rules/", "../../.cursor/rules/"))
+    patterns.append((r"skills-portable/voice-profile-panel/", "skills/voice-profile-panel/"))
+    patterns.append((r"(?:\.\./)+speakers/", "../../voices/"))
+    patterns.append(
+        (
+            r"(?:\.\./)+codex/years/2025/provenance/([0-9-]+)/",
+            r"../../../source-archive/statecraft/\1/",
+        )
+    )
+    if rel.startswith("statecraft/voices/mercouris/"):
+        patterns.append(
+            (
+                r"\]\(provenance/([0-9-]+)/([^)]+)\)",
+                r"](../../../source-archive/statecraft/\1/\2)",
+            )
+        )
+    if rel == "docs/state-model.md":
+        patterns.append(
+            (
+                r"\]\((?:\.\./)+integrations/",
+                r"](integrations/",
+            )
+        )
+
     if rel.startswith("statecraft/states/volumes/"):
         new_text, n = re.subn(
             r"(research/repos/civilization_memory/[^)\s]*?)([A-Z0-9]+(?:-[A-Z0-9]+)+\.md)",
@@ -2279,6 +2599,9 @@ def fix_file(path: Path) -> int:
     total += n
 
     text, n = fix_bulk_text_patterns(text, path)
+    total += n
+
+    text, n = fix_civ_mem_draft_protocol(text, path)
     total += n
 
     text, n = fix_source_archive_master_index(text, path)

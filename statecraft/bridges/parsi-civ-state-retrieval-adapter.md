@@ -52,7 +52,7 @@ After the first `civ-state` object, open:
 
 Speaker-side return path when needed:
 
-- [Parsi arc](../../speakers/parsi/arc-parsi-continuity.md)
+- [Parsi arc](../voices/parsi/parsi-arc.md)
 - [Parsi thread atlas](../voices/parsi/parsi-2025-present-arc-threads.md)
 
 ## Failure Test

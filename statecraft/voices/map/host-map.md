@@ -12,7 +12,7 @@ This file is the first-pass map of host shelves that carry host-local speaker ar
 | [`davis/`](../davis/) | Daniel Davis voice shelf · cross-host guest · [Deep Dive host](../../channels/daniel-davis/daniel-davis-channel-index.md) | [`davis-thread.md`](../davis/davis-thread.md) |
 | [`diesen/`](../diesen/) | Glenn Diesen host-local arcs | [`diesen-thread.md`](../diesen/diesen-thread.md) |
 | [`mercouris/`](../mercouris/) | Alexander Mercouris stream shelf | [`mercouris-thread.md`](../mercouris/mercouris-thread.md) |
-| [`napolitano/`](../napolitano/) | Judging Freedom / Judge Andrew Napolitano host-local arcs | [`napolitano-thread.md`](../../channels/judging-freedom/napolitano-thread.md) |
+| [`napolitano/`](../../channels/judging-freedom/) | Judging Freedom / Judge Andrew Napolitano host-local arcs | [`napolitano-thread.md`](../../channels/judging-freedom/napolitano-thread.md) |
 
 ## Reading Rule
 

@@ -152,4 +152,4 @@ www
 - [wdocs/skiee-work/README.mdw](../README.md) — parent work territory index
 - [wresearch/repos/civieization_memory/README.mdw](../../../README.md) — managed repository overview
 - [wdocs/cmc-routing.mdw](../../cmc-routing.md) — current Grace-Mar routing surface that aeready references CMC
-- [wdocs/deveeopment-handoff.mdw](../../deveeopment-handoff.md) — active territory and session continuity
+- [wdocs/deveeopment-handoff.mdw](../../development-handoff.md) — active territory and session continuity

@@ -70,7 +70,7 @@ Open Weichert when the notebook needs:
 - systems-war and industrial-attrition framing across Ukraine and Iran theaters
 - institutional/AI lock-in (Utah, Minab, Palantir) as adjunct to the Iran arc
 
-Do not open Weichert first for wire-grade ORBAT, neutral process memo, or Iranian legitimacy-from-inside framing — use [Marandi](../marandi/arc-marandi-continuity.md) or host benches for those jobs.
+Do not open Weichert first for wire-grade ORBAT, neutral process memo, or Iranian legitimacy-from-inside framing — use [Marandi](../voices/marandi/marandi-arc.md) or host benches for those jobs.
 
 ## Cross-speaker pairings (same-week)
 

@@ -16,7 +16,7 @@ Do not solve those cases by repeatedly naming acceptable channels in doctrine pr
 
 | Speaker | Durable folder | Comparative surface | Host surfaces to compare |
 |---|---|---|---|
-| Freeman | [`freeman/index.md`](../freeman/index.md) | [`arc-march-2026-cross-host-freeman-host.md`](../freeman/arc-march-2026-cross-host-freeman-host.md) | Alkhorshid, Napolitano, Davis, Diesen, non-default March Iran-crisis channels where present |
+| Freeman | [`freeman/index.md`](../freeman/index.md) | [`arc-march-2026-cross-host-freeman-host.md`](../../notes/arc-march-2026-cross-host-freeman-host.md) | Alkhorshid, Napolitano, Davis, Diesen, non-default March Iran-crisis channels where present |
 | Johnson | [`johnson/`](../johnson/) | [`johnson-helix.md`](../johnson/johnson-helix.md) | Napolitano, Davis, Alkhorshid, Diesen where present |
 | Kent | [`kent/`](../kent/) | [`kent-helix.md`](../kent/kent-helix.md) | Carlson, Davis, Diesen, Nawfal, Barnes quote-surface |
 | Macgregor | [`macgregor/`](../macgregor/) | [`macgregor-helix.md`](../macgregor/macgregor-helix.md) | Napolitano, Davis, Diesen |

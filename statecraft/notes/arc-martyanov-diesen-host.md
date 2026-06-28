@@ -47,12 +47,12 @@ This is enough to treat `Diesen x Martyanov` as a real recurring host-local bran
 
 If the operator needs only one file:
 
-- open [2025-04-08 Diesen x Martyanov](../../source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md
+- open [2025-04-08 Diesen x Martyanov](../../../../source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md
 
 If the operator needs the best paired read:
 
-- open [2025-04-08 Diesen x Martyanov](../../source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md
-- then [2025-04-29 Diesen x Martyanov](../../source-archive/statecraft/2025-04-29/source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md
+- open [2025-04-08 Diesen x Martyanov](../../../../source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md
+- then [2025-04-29 Diesen x Martyanov](../../../../source-archive/statecraft/2025-04-29/source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md
 
 That pair gives the clearest current lane shape:
 

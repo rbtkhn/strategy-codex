@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-26
 
-**Archive:** [day-index](../../../source-archive/statecraft/2026-06-26/day-index.md) · **Cross-ref:** [2026-06-25 matrix](2026-06-25-news-verify-matrix.md) (Ever Lovely **J25-6a** · Hormuz dual-clock · **O1–O4**) · [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (**J23-10** Oman–Iran WG) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
+**Archive:** [day-index](../../../source-archive/statecraft/2026-06-26/day-index.md) · **Cross-ref:** [2026-06-25 matrix](2026-06-25-news-verify-matrix.md) (Ever Lovely **J25-6a** · Hormuz dual-clock · **O1–O4**) · [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (**J23-10** Oman–Iran WG) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
 **Mode:** batch (operator hooks — CENTCOM strike · Ever Lovely · Oman fees · Lebanon tripartite) · **Hooks:** 17 core + 4 Oman deep sub · **CIV-STATE sweep:** 5/5 · **Confidence:** medium · **Developing:** yes · **Capture receipts:** 0/12 (`verify:` optional; matrix SSOT)
 

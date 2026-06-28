@@ -77,7 +77,7 @@ These notes do not generate the tri-lens by themselves, but they do help refine 
 - `settlement-room architecture` clarifies that recognition and access geometry belong to the same room, not to two separable problems
 - `escalation governance` clarifies that trap conditions are not just noisy backdrop; they are an architecture-distorting environment in their own right
 
-Historical-example use inside this note should now follow [Anchored Historical Citation Policy](anchored-historical-citation-policy.md), especially the hard-gate rule against unanchored doctrinal analogy.
+Historical-example use inside this note should now follow [Anchored Historical Citation Policy](../bridges/anchored-historical-citation-policy.md), especially the hard-gate rule against unanchored doctrinal analogy.
 
 ## Surviving Insights
 

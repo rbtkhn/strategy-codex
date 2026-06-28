@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-14
 
-**Parent daily:** [2026-06-14](../../synthesis/day/2026-06-14.md) · **Archive:** [source-archive/statecraft/2026-06-14/README.md](../../../source-archive/statecraft/2026-06-14/README.md) · **Lebanon fork:** [Lebanon × Nima host arc](../2026-06-14-lebanon-enforcement-nima-host-arc.md)
+**Parent daily:** [2026-06-14](../../../singularity/work-cici/cici-notebook/2026-06-14.md) · **Archive:** [source-archive/statecraft/2026-06-14/README.md](../../../source-archive/statecraft/2026-06-14/README.md) · **Lebanon fork:** [Lebanon × Nima host arc](../2026-06-14-lebanon-enforcement-nima-host-arc.md)
 
 **Mode:** batch + **pass #2** (Lebanon enforcement) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high (ops/policy) · **Developing:** yes (Sunday daytime → Sunday-night flip → **72h ops contradict halt**)
 

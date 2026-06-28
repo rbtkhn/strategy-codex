@@ -80,8 +80,8 @@ Do not use this arc as a shortcut for Hormuz-at-altitude framing or regime-adjac
 ## Shelf-level support surfaces
 
 - [Marandi routing](marandi/marandi-routing.md
-- [Marandi arc](../marandi/arc-marandi-continuity.md
-- [Marandi 2025-present arc threads](../marandi/marandi-2025-present-arc-threads.md
+- [Marandi arc](../../voices/marandi/arc-marandi-continuity.md
+- [Marandi 2025-present arc threads](../../voices/marandi/marandi-2025-present-arc-threads.md
 
 ## Routing use
 

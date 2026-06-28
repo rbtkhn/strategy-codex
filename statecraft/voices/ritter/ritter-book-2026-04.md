@@ -13,7 +13,7 @@ military-technical judgment, escalation risk, and strategic warning.
 - [ritter-page-2026-04-13-blasphemy-american-style.md](ritter-page-2026-04-13-blasphemy-american-style.md)
 - [ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 - [ritter-page-2026-04-20-judging-freedom-trump-hegseth.md](ritter-page-2026-04-20-judging-freedom-trump-hegseth.md)
-- [ritter-page-2026-04-20-source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md](ritter-page-2026-04-20-source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md)
+- [ritter-page-2026-04-20-ritter-rant-shorting-america-7pXI52jKcOU.md](ritter-page-2026-04-20-ritter-rant-shorting-america-7pXI52jKcOU.md)
 
 ## Civ-Mem Fields
 

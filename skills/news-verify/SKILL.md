@@ -391,7 +391,7 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 | **Corpus tiers 1–4** (news-verify = tier **3** only) | [docs/source-lattice-beyond-the-repo.md § statecraft corpus tiers](../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) |
 | **CIV-STATE wire source registry (SSOT)** | [docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
 | Portable core | [skills/news-verify/SKILL.md](SKILL.md) |
-| General fact triage | [.cursor/skills/fact-check/SKILL.md](../fact-check/SKILL.md) |
+| General fact triage | [.cursor/skills/fact-check/SKILL.md](../../.cursor/skills/fact-check/SKILL.md) |
 | Strategy + verify gate | [DEFAULT-PATH.md](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
 | Statecraft intake | [.cursor/skills/statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Daily brief verify tokens | [docs/skill-work/work-strategy/daily-brief-template.md](../../docs/skill-work/work-strategy/daily-brief-template.md) § Inbox paste target |

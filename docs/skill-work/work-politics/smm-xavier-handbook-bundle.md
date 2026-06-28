@@ -1382,7 +1382,7 @@ Statuses: `new` → `ran_in_cursor` → `output_pasted` → `shipped`.
 ### Related
 
 - [consulting-charter.md](consulting-charter.md) — human approves public ship.
-- [miniapp-setup.md](../../../miniapp-setup.md) — deploy and env vars.
+- [miniapp-setup.md](../../miniapp-setup.md) — deploy and env vars.
 - [smm-workspace.md](smm-workspace.md) — SMM entry point.
 
 ---
@@ -1427,7 +1427,7 @@ Statuses: `new` → `ran_in_cursor` → `output_pasted` → `shipped`.
 
 ### Tomorrow
 
-Open [week-1-ramp-plan.md](week-1-ramp-plan.md) and follow Day 2.
+Open [week-1-ramp-plan.md](clients/massie-ky4-operator-checklist.md) and follow Day 2.
 
 ---
 

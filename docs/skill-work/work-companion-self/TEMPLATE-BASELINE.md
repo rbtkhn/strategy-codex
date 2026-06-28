@@ -5,7 +5,7 @@
 | Field | Value |
 |-------|--------|
 | **Baseline date** | 2026-03-27 |
-| **Source** | In-repo [platform/template/README.md](../../../platform/template/README.md) + [canonical-paths.md](../../../canonical-paths.md) |
+| **Source** | In-repo [platform/template/README.md](../../../platform/template/README.md) + [canonical-paths.md](../../canonical-paths.md) |
 | **companion-self git** | **[`main` @ `3eaf7b1`](https://github.com/rbtkhn/companion-self/commit/3eaf7b17090ae1e8d497856544febf397cb4e98a)** — doctrine sync pass (change-review cluster, `template-version` contract). Prior pin: `288b438` (removed operator-books symlink template governance). |
 
 **Note:** Land **removed operator-books symlink** template alignment per [COMPANION-SELF-museum library shelf-ALIGNMENT.md](TEMPLATE-BASELINE.md). Re-run manifest diff after each material companion-self pull; `main` tip may advance beyond this pin.

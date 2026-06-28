@@ -41,7 +41,7 @@
 ## Layers (ROME-PASS boundary)
 
 - **Administrative Vatican:** Press office **communiqué** = **documented bilateral** fact at **Holy See** discretion.  
-- **Mind–soul / moral megaphone:** Urbi et Orbi = **universal** message; wires = **geopolitical situating**. Keep **tiers** separate in campaign copy ([civ-mem-draft-protocol.md](../../../../../../../../work-politics/civ-mem-draft-protocol.md)).
+- **Mind–soul / moral megaphone:** Urbi et Orbi = **universal** message; wires = **geopolitical situating**. Keep **tiers** separate in campaign copy ([civ-mem-draft-protocol.md](../../../work-politics/civ-mem-draft-protocol.md)).
 
 ## Optional brief line
 

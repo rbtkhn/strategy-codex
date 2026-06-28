@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News-verify matrix — 12 Jun 2026 statecraft batch
 
-**Batch window:** 12 Jun 2026 (developing-story) · **Files:** 9 · **Procedure:** [wire-verify SKILL](../../../skills/wire-verify/SKILL.md) triage · **Parent:** [2026-06-12 daily](../../synthesis/day/2026-06-12.md) · [Jun 12 archive README](../../../source-archive/statecraft/2026-06-12/README.md)
+**Batch window:** 12 Jun 2026 (developing-story) · **Files:** 9 · **Procedure:** [wire-verify SKILL](../../../skills/wire-verify/SKILL.md) triage · **Parent:** [2026-06-12 daily](../../../singularity/work-cici/cici-notebook/2026-06-12.md) · [Jun 12 archive README](../../../source-archive/statecraft/2026-06-12/README.md)
 
 ---
 

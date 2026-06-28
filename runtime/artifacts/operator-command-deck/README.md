@@ -21,7 +21,7 @@ runtime/artifacts/operator-command-deck/YYYY-MM-DD.md   # optional snapshot
 > **Mode:** runtime / derived  
 > **Authority:** advisory only — not a substitute for thread-start paste
 
-**Does not replace:** [`harness_warmup.py`](../../../scripts/harness_warmup.py), [`operator_reentry_stack.py`](../../../scripts/operator_reentry_stack.py), [`recursion-gate.md`](../../../recursion-gate.md), or lane-specific dashboards (`library-index`, `lane-dashboards`, `review-dashboard`).
+**Does not replace:** [`harness_warmup.py`](../../../scripts/harness_warmup.py), [`operator_reentry_stack.py`](../../../scripts/operator_reentry_stack.py), [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md), or lane-specific dashboards (`library-index`, `lane-dashboards`, `review-dashboard`).
 
 ## Rebuild
 

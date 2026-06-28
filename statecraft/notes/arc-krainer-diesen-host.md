@@ -72,11 +72,11 @@ This is enough to treat `Diesen x Krainer` as a real recurring host-local branch
 
 If the operator needs only one file:
 
-- open [2026-05-08 Diesen x Krainer](../../source-archive/statecraft/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md
+- open [2026-05-08 Diesen x Krainer](../../../../source-archive/statecraft/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md
 
 If the operator needs the best paired read:
 
-- open [2026-05-08 Diesen x Krainer](../../source-archive/statecraft/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md
+- open [2026-05-08 Diesen x Krainer](../../../../source-archive/statecraft/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md
 - then `2026-04-10` *After the Iran War - A New Global Economy*
 
 That pair gives the clearest mature lane shape:

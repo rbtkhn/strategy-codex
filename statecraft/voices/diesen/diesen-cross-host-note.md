@@ -12,7 +12,7 @@ That means the main question is not whether the object exists. The question is h
 
 The current notebook truth is:
 
-- the primary body is [statecraft/voices/diesen/](diesen-routing.md)
+- the primary body is [statecraft/voices/diesen/](index.md)
 - the guest-local evidence is distributed through recurring `diesen-*speaker-arc.md` notes
 - the speaker folder exists to hold higher-order orientation about Diesen as an object, not to compete with the stream shelf
 

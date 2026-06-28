@@ -37,7 +37,7 @@ Persia shows this pattern meaningfully but secondarily. Administration, mirrors-
 
 ## Key source doors
 
-- [China bibliography](../../volumes/civ-state-china/civ-state-china-bibliography.md)
+- [China bibliography](../../../volumes/civ-state-china/civ-state-china-bibliography.md)
 - *Tang Code*
 - *Zizhi Tongjian*
 - *Da Ming Lu*

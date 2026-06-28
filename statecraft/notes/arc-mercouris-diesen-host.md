@@ -67,12 +67,12 @@ Older cross-host appearances found during the same check, such as 2024 Duran pan
 
 If the operator needs the raw source:
 
-- open [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md — civilizational / order-transition base
-- open [source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md — fuse-reinstall origin / Mercouris threshold disagreement base
-- open [source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md — deterrence-history / doctrine-communication base
-- open [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md
-- open [youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md](../../source-archive/statecraft/2025-12-19/youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md
-- open [source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md](../../source-archive/statecraft/2026-03-21/source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md
+- open [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](../../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md — civilizational / order-transition base
+- open [source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md](../../../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md — fuse-reinstall origin / Mercouris threshold disagreement base
+- open [source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md](../../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md — deterrence-history / doctrine-communication base
+- open [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md
+- open [youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md](../../../../source-archive/statecraft/2025-12-19/youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md
+- open [source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md](../../../../source-archive/statecraft/2026-03-21/source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md
 
 If the operator needs Mercouris as speaker object:
 
