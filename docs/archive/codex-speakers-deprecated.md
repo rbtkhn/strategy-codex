@@ -23,4 +23,4 @@ Replace **`codex/speakers/<slug>/`** with:
 - **`statecraft/voices/<slug>/`** for analyst shelves
 - **`statecraft/channels/<slug>/`** for **`davis`**, **`napolitano`**, **`nima`**
 
-Shared tooling moved to **`statecraft/voices/_templates/`**, **`relations/`**, **`map/`**.
+Shared tooling moved to **`statecraft/voices/_templates/`**, **`map/`**. Cross-speaker compare notes → **`statecraft/notes/`**.

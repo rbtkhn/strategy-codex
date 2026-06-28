@@ -29,7 +29,7 @@ Run repeatable **strategy-codex speaker shelf** maintenance: shape audits, cross
 
 - auditing person arcs, routing stacks, month support, or citation hygiene
 - checking whether canonical speaker surfaces still agree (route stack, month ladder, maturity labels)
-- deciding whether a note belongs in one speaker shelf vs `statecraft/voices/relations/`
+- deciding whether a note belongs in one speaker shelf vs `statecraft/notes/` (cross-speaker compare)
 
 **Do not use when:**
 
@@ -43,7 +43,7 @@ Run repeatable **strategy-codex speaker shelf** maintenance: shape audits, cross
 |------|-------|------|
 | **Hygiene** | Shelf shape, month maturity, repair ranking, placeholder leakage | "audit the arc", "thinnest months", "align shelves" |
 | **Continuity** | Agreement across README, arc, atlas, month shelves | "surfaces disagree", "drift after month work" |
-| **Membrane** | Continuity vs neutral `relations/` ownership | "A vs B", comparison living in wrong shelf |
+| **Membrane** | Continuity vs cross-speaker compare ownership in `statecraft/notes/` | "A vs B", comparison living in wrong shelf |
 | **Full** | Hygiene → continuity → membrane (if scope needs all three) | Major shelf migration or post-repair closeout |
 
 Legacy skills **`speaker-shelf-hygiene`**, **`speaker-structural-continuity`**, and **`speaker-relations-membrane`** redirect to this runbook — do not invoke their bodies.
@@ -59,7 +59,7 @@ Legacy skills **`speaker-shelf-hygiene`**, **`speaker-structural-continuity`**, 
 - [`statecraft/voices/README.md`](../../statecraft/voices/README.md) — legacy `codex/speakers/` terminated ([codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md))
 - [`statecraft/voices/map/open-first-routes.md`](../../statecraft/voices/map/open-first-routes.md)
 - [`statecraft/voices/_templates/speaker-surface-orthogonality-review-template.md`](../../statecraft/voices/_templates/speaker-surface-orthogonality-review-template.md)
-- [`statecraft/voices/relations/README.md`](../../statecraft/voices/relations/README.md)
+- [`statecraft/notes/README.md`](../../statecraft/notes/README.md) — cross-speaker compare and bounded note-class home
 
 Short route rule: `front door -> support spine -> provenance bench -> compatibility last`.
 
@@ -88,9 +88,9 @@ Short route rule: `front door -> support spine -> provenance bench -> compatibil
 1. **Classify object** — continuity, relation, host-local arc, or helix.
 2. **Ownership test** — main question `what does speaker A own?` vs `how do A and B differ?`
 3. **Find footprint** — links across speaker READMEs, indexes, orthogonality reviews.
-4. **Move or create** neutral note under `statecraft/voices/relations/` when cross-speaker comparison is load-bearing.
+4. **Move or create** cross-speaker compare note under `statecraft/notes/` when comparison is load-bearing.
 5. **Rewire shelves** — both speaker READMEs, review notes, indexes; do not stop at file move alone.
-6. **Verify** — no stale shelf-local paths; relations/ does not absorb arcs or helixes.
+6. **Verify** — no stale shelf-local paths; compare notes do not absorb arcs or helixes.
 
 ### D. Full mode closeout
 
@@ -103,7 +103,7 @@ After hygiene and continuity (and membrane if needed), verify entry questions re
 
 ## Human Approval Points
 
-- Before moving files into `relations/` or demoting codex compatibility fronts
+- Before moving files into `statecraft/notes/` (compare class) or demoting codex compatibility fronts
 - Before treating a month as chronology-owning on the speaker side
 
 ## Stop Conditions

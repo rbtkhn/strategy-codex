@@ -13,10 +13,10 @@ Local Jiang surfaces reviewed:
 - [jiang-transcript.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-transcript.md)
 - [jiang-on-china.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-on-china.md)
 
-Adjacent neutral relation notes:
+Adjacent cross-speaker compare notes:
 
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-2026-05.md)
-- [Jiang vs Johnson - Where Other Speakers Stand](/C:/dev/strategy-codex/statecraft/voices/relations/jiang-vs-johnson-others-2026-05.md)
+- [Jiang vs Johnson - May 2026](../../notes/jiang-vs-johnson-2026-05.md)
+- [Jiang vs Johnson - Where Other Speakers Stand](../../notes/jiang-vs-johnson-others-2026-05.md)
 
 Bounded claim:
 
@@ -27,7 +27,7 @@ Bounded claim:
 ## Surfaces under review
 
 - **continuity / routing surfaces:** `jiang-profile.md`, `jiang-thread.md`, `jiang-transcript.md`, `jiang-on-china.md`
-- **adjacent neutral relation surfaces:** `relations/jiang-vs-johnson-2026-05.md`, `relations/jiang-vs-johnson-others-2026-05.md`
+- **adjacent cross-speaker compare surfaces:** `statecraft/notes/jiang-vs-johnson-2026-05.md`, `statecraft/notes/jiang-vs-johnson-others-2026-05.md`
 
 The main orthogonality pressure is not among the comparison notes. It is between the Jiang shelf's legacy `profile + thread + transcript` companion trio and the newer speaker-surface taxonomy where `thread` now means a canonical topical thread inside an arc.
 
@@ -70,7 +70,7 @@ The filename `jiang-thread.md` should therefore not be read as evidence that the
 ## Redundancy findings
 
 - `comparison note kept outside continuity surface ownership`
-  - The two Jiang-vs-Johnson notes now live in the neutral `relations/` namespace, which is the cleaner membrane for bounded cross-speaker routing objects.
+  - The two Jiang-vs-Johnson notes now live in `statecraft/notes/`, which is the canonical home for bounded cross-speaker compare objects.
 - `same source spine, different use`
   - `jiang-profile.md`, `jiang-thread.md`, and `jiang-transcript.md` all point back to the same Jiang lane, but they serve distinct routing, distillation, and receipt roles.
 - `legacy naming pressure`

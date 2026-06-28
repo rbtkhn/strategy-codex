@@ -381,6 +381,6 @@ Instead:
 - Monthly synthesis shelves (`{speaker}-shelf-YYYY-MM.md`), theme registers (`{speaker}-themes.md`), and thread atlases use **filename grammar**, not `stream/` or `themes/` nesting.
 - **Host×guest and speaker arcs** → canonical bodies in [`statecraft/notes/`](../notes/README.md) (`arc-<primary>-<topic>.md`); shelf paths keep **compat redirects** only.
 - Legacy paths `voices/<speaker>/stream/` and `voices/<speaker>/themes/` are **terminated** — use flat paths only.
-- Root meta under `voices/` (`_scratch/`, `_templates/`, `map/`, `relations/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only.
+- Root meta under `voices/` (`_scratch/`, `_templates/`, `map/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only. Cross-speaker compare notes belong in [`../notes/`](../notes/).
 
 Migration script: [`scripts/flatten_statecraft_shelves.py`](../../scripts/flatten_statecraft_shelves.py). Validator: [`tests/test_flat_statecraft_shelves.py`](../../tests/test_flat_statecraft_shelves.py).

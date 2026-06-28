@@ -14,7 +14,7 @@ This file gives agents fast entry paths through the speaker map. It is a map of 
    `core host lane` / `non-core appearance bench` / `discovery memory`.
 6. Open the helix or cross-host note when the question is comparative across stable host transformations.
 7. Use raw-input only when provenance or transcript details matter.
-8. If the question is explicitly `speaker A versus speaker B`, check whether a neutral relation note already exists under [`../relations/`](../relations/).
+8. If the question is explicitly `speaker A versus speaker B`, check whether a cross-speaker compare note already exists under [`../../notes/`](../../notes/).
 
 ## Route Types
 

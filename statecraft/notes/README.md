@@ -442,6 +442,9 @@ Read this shelf through a few live clusters rather than as one flat list.
 
 - [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - America-side captured-command tracking note for the Section 224 / NDAA object
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - speaker-function comparison note for the current Section 224 bench
+- [baud-crooke-international-law-orthogonality-2026-05.md](./baud-crooke-international-law-orthogonality-2026-05.md) - Baud × Crooke international-law cluster orthogonality (migrated from retired `voices/relations/`)
+- [jiang-vs-johnson-2026-05.md](./jiang-vs-johnson-2026-05.md) - Jiang × Johnson tension compare (May 2026 Iran window)
+- [jiang-vs-johnson-others-2026-05.md](./jiang-vs-johnson-others-2026-05.md) - speaker-position audit around the Jiang × Johnson dispute
 - [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) - J18 MOU day: Johnson ×2 (Dialogue Works) and Blumenthal/Macgregor (Judging Freedom) citation splits so same-day guest pairs are not flattened in synthesis
 - [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) - J18 MOU-day convergence spine (register map, five enforcement seams, falsifiers); child pair note for episode-level citation splits
 - [june-18-2026-mou-material-vs-sabotage-lens.md](./june-18-2026-mou-material-vs-sabotage-lens.md) - J18 MOU dual-register law: Macgregor/Davis fuse clock vs Blumenthal/Henningsen process clock (promoted from statecraft-multi-lens)
