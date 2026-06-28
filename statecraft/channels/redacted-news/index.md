@@ -6,7 +6,7 @@ Purpose: front door for **`redacted-news`** on the statecraft channel shelf laye
 
 ## Open first
 
-- [redacted-news-index.md](redacted-news-index.md)
+- [redacted-news-channel-index.md](redacted-news-channel-index.md) · compat [redacted-news-index.md](redacted-news-index.md)
 - [README.md](README.md)
 
 ## Current live rule

@@ -292,6 +292,42 @@ routes:
   - Daniel Davis guest
   - Davis cross-host
   category: work
+- id: judging-freedom-channel-index
+  title: Judging Freedom channel index
+  path: statecraft/channels/judging-freedom/judging-freedom-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - judging-freedom
+  hosts:
+  - Judging Freedom
+  people:
+  - Andrew Napolitano
+  tags:
+  - judging-freedom
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Judging Freedom index
+  - judging-freedom-channel-index
+  - judging-freedom index
+  - Napolitano host captures
+  category: work
+- id: judging-freedom-index
+  title: Judging Freedom index (compat redirect)
+  path: statecraft/channels/judging-freedom/judging-freedom-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - judging-freedom
+  - source-index
+  - statecraft
+  search_hints:
+  - Judging Freedom index compat
+  category: work
 - id: judging-freedom-host-shelf
   title: Napolitano (Judging Freedom) host shelf
   path: statecraft/channels/judging-freedom/README.md
@@ -1016,6 +1052,353 @@ routes:
   - Alexander Mercouris host
   - alexander-mercouris profile
   category: work
+- id: breaking-points-channel-index
+  title: Breaking Points channel index
+  path: statecraft/channels/breaking-points/breaking-points-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - breaking-points
+  hosts:
+  - Breaking Points
+  tags:
+  - breaking-points
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Breaking Points index
+  - breaking-points-channel-index
+  - breaking-points index
+  category: work
+- id: breaking-points-index
+  title: Breaking Points index (compat redirect)
+  path: statecraft/channels/breaking-points/breaking-points-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - breaking-points
+  - source-index
+  - statecraft
+  search_hints:
+  - Breaking Points index compat
+  category: work
+- id: cyrus-janssen-channel-index
+  title: Cyrus Janssen channel index
+  path: statecraft/channels/cyrus-janssen/cyrus-janssen-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - cyrus-janssen
+  hosts:
+  - Cyrus Janssen
+  tags:
+  - cyrus-janssen
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Cyrus Janssen index
+  - cyrus-janssen-channel-index
+  - cyrus-janssen index
+  category: work
+- id: cyrus-janssen-index
+  title: Cyrus Janssen index (compat redirect)
+  path: statecraft/channels/cyrus-janssen/cyrus-janssen-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - cyrus-janssen
+  - source-index
+  - statecraft
+  search_hints:
+  - Cyrus Janssen index compat
+  category: work
+- id: cyrus-janssen-host-shelf
+  title: Cyrus Janssen host shelf
+  path: statecraft/channels/cyrus-janssen/README.md
+  kind: routing_aid
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - cyrus-janssen
+  tags:
+  - cyrus-janssen
+  - host-shelf
+  - statecraft
+  search_hints:
+  - Cyrus Janssen host
+  - cyrus-janssen profile
+  category: work
+- id: glenn-diesen-channel-index
+  title: Glenn Diesen channel index
+  path: statecraft/channels/glenn-diesen/glenn-diesen-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - glenn-diesen
+  hosts:
+  - Glenn Diesen
+  tags:
+  - glenn-diesen
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Glenn Diesen index
+  - glenn-diesen-channel-index
+  - glenn-diesen index
+  category: work
+- id: glenn-diesen-index
+  title: Glenn Diesen index (compat redirect)
+  path: statecraft/channels/glenn-diesen/glenn-diesen-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - glenn-diesen
+  - source-index
+  - statecraft
+  search_hints:
+  - Glenn Diesen index compat
+  category: work
+- id: india-global-left-channel-index
+  title: India and Global Left channel index
+  path: statecraft/channels/india-global-left/india-global-left-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - india-global-left
+  hosts:
+  - India and Global Left
+  tags:
+  - india-global-left
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - India and Global Left index
+  - india-global-left-channel-index
+  - india-global-left index
+  category: work
+- id: india-global-left-index
+  title: India and Global Left index (compat redirect)
+  path: statecraft/channels/india-global-left/india-global-left-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - india-global-left
+  - source-index
+  - statecraft
+  search_hints:
+  - India and Global Left index compat
+  category: work
+- id: mario-nawfal-channel-index
+  title: Mario Nawfal channel index
+  path: statecraft/channels/mario-nawfal/mario-nawfal-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - mario-nawfal
+  hosts:
+  - Mario Nawfal
+  tags:
+  - mario-nawfal
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Mario Nawfal index
+  - mario-nawfal-channel-index
+  - mario-nawfal index
+  category: work
+- id: mario-nawfal-index
+  title: Mario Nawfal index (compat redirect)
+  path: statecraft/channels/mario-nawfal/mario-nawfal-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - mario-nawfal
+  - source-index
+  - statecraft
+  search_hints:
+  - Mario Nawfal index compat
+  category: work
+- id: moral-resistance-channel-index
+  title: Moral Resistance channel index
+  path: statecraft/channels/moral-resistance/moral-resistance-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - moral-resistance
+  hosts:
+  - Moral Resistance
+  tags:
+  - moral-resistance
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Moral Resistance index
+  - moral-resistance-channel-index
+  - moral-resistance index
+  category: work
+- id: moral-resistance-index
+  title: Moral Resistance index (compat redirect)
+  path: statecraft/channels/moral-resistance/moral-resistance-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - moral-resistance
+  - source-index
+  - statecraft
+  search_hints:
+  - Moral Resistance index compat
+  category: work
+- id: neutrality-studies-channel-index
+  title: Neutrality Studies channel index
+  path: statecraft/channels/neutrality-studies/neutrality-studies-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - neutrality-studies
+  hosts:
+  - Neutrality Studies
+  tags:
+  - neutrality-studies
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Neutrality Studies index
+  - neutrality-studies-channel-index
+  - neutrality-studies index
+  category: work
+- id: neutrality-studies-index
+  title: Neutrality Studies index (compat redirect)
+  path: statecraft/channels/neutrality-studies/neutrality-studies-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - neutrality-studies
+  - source-index
+  - statecraft
+  search_hints:
+  - Neutrality Studies index compat
+  category: work
+- id: predictive-history-channel-index
+  title: Predictive History channel index
+  path: statecraft/channels/predictive-history/predictive-history-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - predictive-history
+  hosts:
+  - Predictive History
+  tags:
+  - predictive-history
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Predictive History index
+  - predictive-history-channel-index
+  - predictive-history index
+  category: work
+- id: predictive-history-index
+  title: Predictive History index (compat redirect)
+  path: statecraft/channels/predictive-history/predictive-history-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - predictive-history
+  - source-index
+  - statecraft
+  search_hints:
+  - Predictive History index compat
+  category: work
+- id: redacted-news-channel-index
+  title: Redacted News channel index
+  path: statecraft/channels/redacted-news/redacted-news-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - redacted-news
+  hosts:
+  - Redacted News
+  tags:
+  - redacted-news
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Redacted News index
+  - redacted-news-channel-index
+  - redacted-news index
+  category: work
+- id: redacted-news-index
+  title: Redacted News index (compat redirect)
+  path: statecraft/channels/redacted-news/redacted-news-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - redacted-news
+  - source-index
+  - statecraft
+  search_hints:
+  - Redacted News index compat
+  category: work
+- id: tucker-carlson-channel-index
+  title: Tucker Carlson channel index
+  path: statecraft/channels/tucker-carlson/tucker-carlson-channel-index.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - channels
+  - tucker-carlson
+  hosts:
+  - Tucker Carlson
+  tags:
+  - tucker-carlson
+  - source-index
+  - channel-index
+  - statecraft
+  search_hints:
+  - Tucker Carlson index
+  - tucker-carlson-channel-index
+  - tucker-carlson index
+  category: work
+- id: tucker-carlson-index
+  title: Tucker Carlson index (compat redirect)
+  path: statecraft/channels/tucker-carlson/tucker-carlson-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - tucker-carlson
+  - source-index
+  - statecraft
+  search_hints:
+  - Tucker Carlson index compat
+  category: work
 - id: breaking-points-host-shelf
   title: Breaking Points host shelf
   path: statecraft/channels/breaking-points/README.md
@@ -1203,9 +1586,9 @@ routes:
   - Tucker Carlson host
   - tucker-carlson profile
   category: work
-- id: blumenthal-source-index
-  title: Blumenthal source index
-  path: statecraft/voices/blumenthal/blumenthal-source-index.md
+- id: blumenthal-index
+  title: Blumenthal index
+  path: statecraft/voices/blumenthal/blumenthal-index.md
   kind: source_index
   authority: work_only
   tags:
@@ -1216,6 +1599,21 @@ routes:
   search_hints:
   - Blumenthal index
   - blumenthal source index
+  - blumenthal guest
+  - blumenthal cross-host
+  category: work
+- id: blumenthal-source-index
+  title: Blumenthal source index (compat redirect)
+  path: statecraft/voices/blumenthal/blumenthal-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - blumenthal
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Blumenthal source index compat
   category: work
 - id: jermy-source-index
   title: Jermy source index

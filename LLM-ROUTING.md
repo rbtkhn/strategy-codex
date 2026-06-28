@@ -46,10 +46,16 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | america-sovereign-command-allied-capture-essay | essay | work | [essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) | section 224 NDAA, allied capture command, sovereign command under allied capture, … |
 | archive-synthesis-law-essay | essay | work | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) | archive synthesis law, statecraft archive synthesis, vertical law stack, … |
 | barnes-source-index | source_index | work | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | Barnes index, barnes source index, Robert Barnes corpus, … |
-| blumenthal-source-index | source_index | work | [statecraft/voices/blumenthal/blumenthal-source-index.md](statecraft/voices/blumenthal/blumenthal-source-index.md) | Blumenthal index, blumenthal source index |
+| blumenthal-index | source_index | work | [statecraft/voices/blumenthal/blumenthal-index.md](statecraft/voices/blumenthal/blumenthal-index.md) | Blumenthal index, blumenthal guest, blumenthal cross-host |
+| blumenthal-source-index | source_index | work | [statecraft/voices/blumenthal/blumenthal-source-index.md](statecraft/voices/blumenthal/blumenthal-source-index.md) | Blumenthal source index compat redirect |
+| breaking-points-channel-index | source_index | work | [statecraft/channels/breaking-points/breaking-points-channel-index.md](statecraft/channels/breaking-points/breaking-points-channel-index.md) | Breaking Points index, breaking-points-channel-index, breaking-points index |
 | breaking-points-host-shelf | routing_aid | work | [statecraft/channels/breaking-points/README.md](statecraft/channels/breaking-points/README.md) | Breaking Points host, breaking-points profile |
+| breaking-points-index | source_index | work | [statecraft/channels/breaking-points/breaking-points-index.md](statecraft/channels/breaking-points/breaking-points-index.md) | Breaking Points index compat redirect |
 | channel-index-roster | routing_aid | work | `statecraft/channels/channel-index.json` | channel index, channel-index.json, channel-index.md, … |
 | crooke-source-index | source_index | work | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | Crooke index, crooke source index |
+| cyrus-janssen-channel-index | source_index | work | [statecraft/channels/cyrus-janssen/cyrus-janssen-channel-index.md](statecraft/channels/cyrus-janssen/cyrus-janssen-channel-index.md) | Cyrus Janssen index, cyrus-janssen-channel-index, cyrus-janssen index |
+| cyrus-janssen-index | source_index | work | [statecraft/channels/cyrus-janssen/cyrus-janssen-index.md](statecraft/channels/cyrus-janssen/cyrus-janssen-index.md) | Cyrus Janssen index compat redirect |
+| cyrus-janssen-host-shelf | routing_aid | work | [statecraft/channels/cyrus-janssen/README.md](statecraft/channels/cyrus-janssen/README.md) | Cyrus Janssen host, cyrus-janssen profile |
 | daniel-davis-channel-index | source_index | work | [statecraft/channels/daniel-davis/daniel-davis-channel-index.md](statecraft/channels/daniel-davis/daniel-davis-channel-index.md) | Daniel Davis index, daniel-davis-channel-index, daniel-davis-index, … |
 | daniel-davis-host-shelf | routing_aid | work | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
 | davis-index | source_index | work | [statecraft/channels/daniel-davis/davis-index.md](statecraft/channels/daniel-davis/davis-index.md) | Davis guest index, davis-index, Daniel Davis guest, … |
@@ -59,17 +65,23 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index |
+| glenn-diesen-channel-index | source_index | work | [statecraft/channels/glenn-diesen/glenn-diesen-channel-index.md](statecraft/channels/glenn-diesen/glenn-diesen-channel-index.md) | Glenn Diesen index, glenn-diesen-channel-index, glenn-diesen index |
 | glenn-diesen-host-shelf | routing_aid | work | [statecraft/channels/glenn-diesen/README.md](statecraft/channels/glenn-diesen/README.md) | Glenn Diesen host, glenn-diesen profile |
+| glenn-diesen-index | source_index | work | [statecraft/channels/glenn-diesen/glenn-diesen-index.md](statecraft/channels/glenn-diesen/glenn-diesen-index.md) | Glenn Diesen index compat redirect |
 | grace-mar-self-library | canonical_reference | archive | [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | grace mar library, museum books index |
 | helmer-source-index | source_index | work | [statecraft/voices/helmer/helmer-source-index.md](statecraft/voices/helmer/helmer-source-index.md) | Helmer index, helmer source index |
 | high-skill-labor-american-command-essay | essay | work | [essays/high-skill-labor-compression-and-american-command.md](essays/high-skill-labor-compression-and-american-command.md) | high skill labor compression, american command essay, vendor carried command, … |
 | hoh-source-index | source_index | work | [statecraft/voices/hoh/hoh-source-index.md](statecraft/voices/hoh/hoh-source-index.md) | Hoh index, hoh source index |
+| india-global-left-channel-index | source_index | work | [statecraft/channels/india-global-left/india-global-left-channel-index.md](statecraft/channels/india-global-left/india-global-left-channel-index.md) | India and Global Left index, india-global-left-channel-index, india-global-left index |
 | india-global-left-host-shelf | routing_aid | work | [statecraft/channels/india-global-left/README.md](statecraft/channels/india-global-left/README.md) | India Global Left host, india-global-left profile |
+| india-global-left-index | source_index | work | [statecraft/channels/india-global-left/india-global-left-index.md](statecraft/channels/india-global-left/india-global-left-index.md) | India and Global Left index compat redirect |
 | iran-nuclear-threshold-hardened-essay | essay | work | [essays/how-the-iran-nuclear-threshold-story-hardened.md](essays/how-the-iran-nuclear-threshold-story-hardened.md) | iran nuclear threshold hardened, June 2 Pakistan offer, crude device demonstration test, … |
 | jermy-source-index | source_index | work | [statecraft/voices/jermy/jermy-source-index.md](statecraft/voices/jermy/jermy-source-index.md) | Jermy index, jermy source index |
 | jiang-source-index | source_index | work | [statecraft/voices/jiang/jiang-source-index.md](statecraft/voices/jiang/jiang-source-index.md) | Jiang index, jiang source index |
 | johnson-source-index | source_index | work | [statecraft/voices/johnson/johnson-source-index.md](statecraft/voices/johnson/johnson-source-index.md) | Johnson index, johnson source index |
+| judging-freedom-channel-index | source_index | work | [statecraft/channels/judging-freedom/judging-freedom-channel-index.md](statecraft/channels/judging-freedom/judging-freedom-channel-index.md) | Judging Freedom index, judging-freedom channel index, Napolitano host captures |
 | judging-freedom-host-shelf | routing_aid | work | [statecraft/channels/judging-freedom/README.md](statecraft/channels/judging-freedom/README.md) | Napolitano host, Judging Freedom, Napolitano profile, … |
+| judging-freedom-index | source_index | work | [statecraft/channels/judging-freedom/judging-freedom-index.md](statecraft/channels/judging-freedom/judging-freedom-index.md) | Judging Freedom index compat redirect |
 | karaganov-source-index | source_index | work | [statecraft/voices/karaganov/karaganov-source-index.md](statecraft/voices/karaganov/karaganov-source-index.md) | Karaganov index, karaganov source index |
 | kent-source-index | source_index | work | [statecraft/voices/kent/kent-source-index.md](statecraft/voices/kent/kent-source-index.md) | Kent index, kent source index |
 | krapivnik-source-index | source_index | work | [statecraft/voices/krapivnik/krapivnik-source-index.md](statecraft/voices/krapivnik/krapivnik-source-index.md) | Krapivnik index, krapivnik source index |
@@ -78,7 +90,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | llm-routing | routing_aid | generated | [LLM-ROUTING.md](LLM-ROUTING.md) | LLM routing, find file in repo, Barnes index |
 | macgregor-source-index | source_index | work | [statecraft/voices/macgregor/macgregor-source-index.md](statecraft/voices/macgregor/macgregor-source-index.md) | Macgregor index, macgregor source index |
 | marandi-source-index | source_index | work | [statecraft/voices/marandi/marandi-source-index.md](statecraft/voices/marandi/marandi-source-index.md) | Marandi index, marandi source index |
+| mario-nawfal-channel-index | source_index | work | [statecraft/channels/mario-nawfal/mario-nawfal-channel-index.md](statecraft/channels/mario-nawfal/mario-nawfal-channel-index.md) | Mario Nawfal index, mario-nawfal-channel-index, mario-nawfal index |
 | mario-nawfal-host-shelf | routing_aid | work | [statecraft/channels/mario-nawfal/README.md](statecraft/channels/mario-nawfal/README.md) | Mario Nawfal host, mario-nawfal profile |
+| mario-nawfal-index | source_index | work | [statecraft/channels/mario-nawfal/mario-nawfal-index.md](statecraft/channels/mario-nawfal/mario-nawfal-index.md) | Mario Nawfal index compat redirect |
 | martyanov-source-index | source_index | work | [statecraft/voices/martyanov/martyanov-source-index.md](statecraft/voices/martyanov/martyanov-source-index.md) | Martyanov index, martyanov source index |
 | mate-source-index | source_index | work | [statecraft/voices/mate/mate-source-index.md](statecraft/voices/mate/mate-source-index.md) | Maté index, mate source index |
 | mcgovern-source-index | source_index | work | [statecraft/voices/mcgovern/mcgovern-source-index.md](statecraft/voices/mcgovern/mcgovern-source-index.md) | McGovern index, mcgovern source index |
@@ -86,22 +100,30 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | memory | canonical_reference | work | [memory.md](memory.md) | session continuity, operator memory buffer |
 | mercouris-index | source_index | work | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | Mercouris guest index, mercouris cross-host, Alexander Mercouris guest |
 | mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index |
+| moral-resistance-channel-index | source_index | work | [statecraft/channels/moral-resistance/moral-resistance-channel-index.md](statecraft/channels/moral-resistance/moral-resistance-channel-index.md) | Moral Resistance index, moral-resistance-channel-index, moral-resistance index |
 | moral-resistance-host-shelf | routing_aid | work | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | Moral Resistance host, moral-resistance profile |
+| moral-resistance-index | source_index | work | [statecraft/channels/moral-resistance/moral-resistance-index.md](statecraft/channels/moral-resistance/moral-resistance-index.md) | Moral Resistance index compat redirect |
+| neutrality-studies-channel-index | source_index | work | [statecraft/channels/neutrality-studies/neutrality-studies-channel-index.md](statecraft/channels/neutrality-studies/neutrality-studies-channel-index.md) | Neutrality Studies index, neutrality-studies-channel-index, neutrality-studies index |
 | neutrality-studies-host-shelf | routing_aid | work | [statecraft/channels/neutrality-studies/README.md](statecraft/channels/neutrality-studies/README.md) | Neutrality Studies host, neutrality-studies profile |
+| neutrality-studies-index | source_index | work | [statecraft/channels/neutrality-studies/neutrality-studies-index.md](statecraft/channels/neutrality-studies/neutrality-studies-index.md) | Neutrality Studies index compat redirect |
 | operator-uses-statecraft-machine-essay | essay | work | [essays/how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) | how operator uses statecraft, memory to mechanism, lane membrane test, … |
 | pape-index | source_index | work | [statecraft/voices/pape/pape-index.md](statecraft/voices/pape/pape-index.md) | Pape index, pape source index, pape guest, pape authored |
 | pape-source-index | source_index | work | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | Pape source index compat redirect |
 | parsi-source-index | source_index | work | [statecraft/voices/parsi/parsi-source-index.md](statecraft/voices/parsi/parsi-source-index.md) | Parsi index, parsi source index |
 | ph-civ-source-lattice | reading_discipline | work | [public/predictive-history/docs/source-lattice.md](public/predictive-history/docs/source-lattice.md) | PH chapter reading order, civ transcript floor, commentary canvas order |
 | postol-source-index | source_index | work | [statecraft/voices/postol/postol-source-index.md](statecraft/voices/postol/postol-source-index.md) | Postol index, postol source index |
+| predictive-history-channel-index | source_index | work | [statecraft/channels/predictive-history/predictive-history-channel-index.md](statecraft/channels/predictive-history/predictive-history-channel-index.md) | Predictive History index, predictive-history-channel-index, predictive-history index |
 | predictive-history-host-shelf | routing_aid | work | [statecraft/channels/predictive-history/README.md](statecraft/channels/predictive-history/README.md) | Predictive History host, predictive-history profile |
+| predictive-history-index | source_index | work | [statecraft/channels/predictive-history/predictive-history-index.md](statecraft/channels/predictive-history/predictive-history-index.md) | Predictive History index compat redirect |
 | product-identity-essay | essay | work | [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) | governed interpretive machine, what is strategy-codex becoming, accumulation essay |
 | prose-index | routing_aid | work | [docs/prose-index.md](docs/prose-index.md) | prose index, note vs essay, where to put prose, … |
 | reason-resist-channel-index | source_index | work | [statecraft/channels/reason-resist/reason-resist-channel-index.md](statecraft/channels/reason-resist/reason-resist-channel-index.md) | Reason to Resist index, reason-resist-channel-index, Lascaris host |
 | reason-resist-host-shelf | routing_aid | work | [statecraft/channels/reason-resist/README.md](statecraft/channels/reason-resist/README.md) | Reason Resist host, reason-resist profile |
 | record-vector-index-script | local_index_script | work | `scripts/index_record.py` | vector index, chroma index, record embeddings |
 | recursive-learning-three-layers-essay | essay | work | [essays/three-layers-of-recursive-learning-in-statecraft.md](essays/three-layers-of-recursive-learning-in-statecraft.md) | three layers recursive learning, recursive learning journal essay, instruction drift learning |
+| redacted-news-channel-index | source_index | work | [statecraft/channels/redacted-news/redacted-news-channel-index.md](statecraft/channels/redacted-news/redacted-news-channel-index.md) | Redacted News index, redacted-news-channel-index, redacted-news index |
 | redacted-news-host-shelf | routing_aid | work | [statecraft/channels/redacted-news/README.md](statecraft/channels/redacted-news/README.md) | Redacted News host, redacted-news profile |
+| redacted-news-index | source_index | work | [statecraft/channels/redacted-news/redacted-news-index.md](statecraft/channels/redacted-news/redacted-news-index.md) | Redacted News index compat redirect |
 | ritter-source-index | source_index | work | [statecraft/voices/ritter/ritter-source-index.md](statecraft/voices/ritter/ritter-source-index.md) | Ritter index, ritter source index |
 | sachs-source-index | source_index | work | [statecraft/voices/sachs/sachs-source-index.md](statecraft/voices/sachs/sachs-source-index.md) | Sachs index, sachs source index |
 | source-lattice-doctrine | reading_discipline | work | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) | source lattice, corpus tiers, reading order, … |
@@ -111,17 +133,18 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | statecraft-thread-index | generated_inventory | generated | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | thread index, archive inventory |
 | the-duran-channel-index | source_index | work | [statecraft/channels/the-duran/the-duran-channel-index.md](statecraft/channels/the-duran/the-duran-channel-index.md) | The Duran index, the-duran-channel-index, the-duran-index, … |
 | the-duran-host-shelf | routing_aid | work | [statecraft/channels/the-duran/README.md](statecraft/channels/the-duran/README.md) | The Duran host, the-duran profile |
+| tucker-carlson-channel-index | source_index | work | [statecraft/channels/tucker-carlson/tucker-carlson-channel-index.md](statecraft/channels/tucker-carlson/tucker-carlson-channel-index.md) | Tucker Carlson index, tucker-carlson-channel-index, tucker-carlson index |
 | tucker-carlson-host-shelf | routing_aid | work | [statecraft/channels/tucker-carlson/README.md](statecraft/channels/tucker-carlson/README.md) | Tucker Carlson host, tucker-carlson profile |
+| tucker-carlson-index | source_index | work | [statecraft/channels/tucker-carlson/tucker-carlson-index.md](statecraft/channels/tucker-carlson/tucker-carlson-index.md) | Tucker Carlson index compat redirect |
 | voices-index | directory_index | work | [statecraft/voices/voice-index.md](statecraft/voices/voice-index.md) | voices index, civ-lens legacy, analyst source index |
 | weichert-source-index | source_index | work | [statecraft/voices/weichert/weichert-source-index.md](statecraft/voices/weichert/weichert-source-index.md) | Weichert index, weichert source index, Nawfal Weichert |
 | wilkerson-source-index | source_index | work | [statecraft/voices/wilkerson/wilkerson-source-index.md](statecraft/voices/wilkerson/wilkerson-source-index.md) | Wilkerson index, wilkerson source index |
-
 ## Source index registry (generated)
 
 | speaker | path | repo-map id |
 |---|---|---|
 | barnes | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | barnes-source-index |
-| blumenthal | [statecraft/voices/blumenthal/blumenthal-source-index.md](statecraft/voices/blumenthal/blumenthal-source-index.md) | blumenthal-source-index |
+| blumenthal | [statecraft/voices/blumenthal/blumenthal-index.md](statecraft/voices/blumenthal/blumenthal-index.md) | blumenthal-index |
 | crooke | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | crooke-source-index |
 | diesen | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | diesen-source-index |
 | freeman | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | freeman-source-index |
@@ -155,6 +178,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 |---|---|---|
 | alexander-mercouris | [statecraft/channels/alexander-mercouris/README.md](statecraft/channels/alexander-mercouris/README.md) | alexander-mercouris-host-shelf |
 | breaking-points | [statecraft/channels/breaking-points/README.md](statecraft/channels/breaking-points/README.md) | breaking-points-host-shelf |
+| cyrus-janssen | [statecraft/channels/cyrus-janssen/README.md](statecraft/channels/cyrus-janssen/README.md) | cyrus-janssen-host-shelf |
 | daniel-davis | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | daniel-davis-host-shelf |
 | dialogue-works | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | dialogue-works-host-shelf |
 | glenn-diesen | [statecraft/channels/glenn-diesen/README.md](statecraft/channels/glenn-diesen/README.md) | glenn-diesen-host-shelf |

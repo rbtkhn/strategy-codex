@@ -6,7 +6,7 @@ Purpose: front door for **`breaking-points`** on the statecraft channel shelf la
 
 ## Open first
 
-- [breaking-points-index.md](breaking-points-index.md)
+- [breaking-points-channel-index.md](breaking-points-channel-index.md) · compat [breaking-points-index.md](breaking-points-index.md)
 - [README.md](README.md)
 
 ## Current live rule

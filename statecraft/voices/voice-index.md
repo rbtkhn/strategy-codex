@@ -16,16 +16,20 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 |---|---|
 | Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
-| Blumenthal | [blumenthal/blumenthal-source-index.md](blumenthal/blumenthal-source-index.md) |
+| Blumenthal | [blumenthal/blumenthal-index.md](blumenthal/blumenthal-index.md) · compat [blumenthal-source-index.md](blumenthal/blumenthal-source-index.md) |
+| Breaking Points | [../channels/breaking-points/breaking-points-channel-index.md](../channels/breaking-points/breaking-points-channel-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
+| Cyrus Janssen | [../channels/cyrus-janssen/cyrus-janssen-channel-index.md](../channels/cyrus-janssen/cyrus-janssen-channel-index.md) |
 | Dialogue Works | [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Diesen | guest: [diesen/diesen-index.md](diesen/diesen-index.md) · source: [diesen/diesen-source-index.md](diesen/diesen-source-index.md) · host: [../channels/glenn-diesen/glenn-diesen-channel-index.md](../channels/glenn-diesen/glenn-diesen-channel-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |
 | Hoh | [hoh/hoh-source-index.md](hoh/hoh-source-index.md) |
+| India Global Left | [../channels/india-global-left/india-global-left-channel-index.md](../channels/india-global-left/india-global-left-channel-index.md) |
 | Jiang | [jiang/jiang-source-index.md](jiang/jiang-source-index.md) |
 | Jermy | [jermy/jermy-source-index.md](jermy/jermy-source-index.md) |
 | Johnson | [johnson/johnson-source-index.md](johnson/johnson-source-index.md) |
+| Judging Freedom | [../channels/judging-freedom/judging-freedom-channel-index.md](../channels/judging-freedom/judging-freedom-channel-index.md) |
 | Karaganov | [karaganov/karaganov-source-index.md](karaganov/karaganov-source-index.md) |
 | Lascaris | [lascaris/lascaris-source-index.md](lascaris/lascaris-source-index.md) |
 | Kent | [kent/kent-source-index.md](kent/kent-source-index.md) |
@@ -33,15 +37,23 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Macgregor | [macgregor/macgregor-source-index.md](macgregor/macgregor-source-index.md) |
 | Maté | [mate/mate-source-index.md](mate/mate-source-index.md) |
 | Marandi | [marandi/marandi-source-index.md](marandi/marandi-source-index.md) |
+| Mario Nawfal | [../channels/mario-nawfal/mario-nawfal-channel-index.md](../channels/mario-nawfal/mario-nawfal-channel-index.md) |
 | Martyanov | [martyanov/martyanov-source-index.md](martyanov/martyanov-source-index.md) |
 | Mearsheimer | [mearsheimer/mearsheimer-source-index.md](mearsheimer/mearsheimer-source-index.md) |
 | McGovern | [mcgovern/mcgovern-source-index.md](mcgovern/mcgovern-source-index.md) |
 | Mercouris | guest: [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host: [../channels/alexander-mercouris/alexander-mercouris-channel-index.md](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) · bench: [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
+| Moral Resistance | [../channels/moral-resistance/moral-resistance-channel-index.md](../channels/moral-resistance/moral-resistance-channel-index.md) |
+| Neutrality Studies | [../channels/neutrality-studies/neutrality-studies-channel-index.md](../channels/neutrality-studies/neutrality-studies-channel-index.md) |
 | Pape | [pape/pape-index.md](pape/pape-index.md) · compat [pape-source-index.md](pape/pape-source-index.md) |
 | Parsi | [parsi/parsi-source-index.md](parsi/parsi-source-index.md) |
 | Postol | [postol/postol-source-index.md](postol/postol-source-index.md) |
+| Predictive History (channel) | [../channels/predictive-history/predictive-history-channel-index.md](../channels/predictive-history/predictive-history-channel-index.md) |
+| Reason Resist | [../channels/reason-resist/reason-resist-channel-index.md](../channels/reason-resist/reason-resist-channel-index.md) |
+| Redacted News | [../channels/redacted-news/redacted-news-channel-index.md](../channels/redacted-news/redacted-news-channel-index.md) |
 | Ritter | [ritter/ritter-source-index.md](ritter/ritter-source-index.md) |
 | Sachs | [sachs/sachs-source-index.md](sachs/sachs-source-index.md) |
+| The Duran | [../channels/the-duran/the-duran-channel-index.md](../channels/the-duran/the-duran-channel-index.md) |
+| Tucker Carlson | [../channels/tucker-carlson/tucker-carlson-channel-index.md](../channels/tucker-carlson/tucker-carlson-channel-index.md) |
 | Wilkerson | [wilkerson/wilkerson-source-index.md](wilkerson/wilkerson-source-index.md) |
 | Weichert | [weichert/weichert-source-index.md](weichert/weichert-source-index.md) |
 
@@ -68,6 +80,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Daniel Davis × guest | [davis-index.md](../channels/daniel-davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
 | Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |
+| Host channel index | This file analyst table → `../channels/{slug}/{slug}-channel-index.md` |
 | Generic "source index" | This file → lens row → `*-source-index.md` |
 | source-lattice / reading order | [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) — not this file |
 

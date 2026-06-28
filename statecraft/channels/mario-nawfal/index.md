@@ -6,7 +6,7 @@ Purpose: front door for **`mario-nawfal`** on the statecraft channel shelf layer
 
 ## Open first
 
-- [mario-nawfal-index.md](mario-nawfal-index.md)
+- [mario-nawfal-channel-index.md](mario-nawfal-channel-index.md) · compat [mario-nawfal-index.md](mario-nawfal-index.md)
 - [README.md](README.md)
 
 ## Current live rule

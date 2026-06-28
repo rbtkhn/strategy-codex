@@ -29,6 +29,42 @@ JANSSEN_TITLE = (
 INTERVIEW_KINDS = frozenset({"transcript", "cleaned-transcript", "interview"})
 INTERVIEW_FORMS = frozenset({"interview", "post"})
 
+HOST_CROSS_REFS = {
+    "daniel-davis": (
+        "daniel-davis-channel-index.md",
+        "../../channels/daniel-davis/daniel-davis-channel-index.md",
+    ),
+    "cyrus-janssen": (
+        "cyrus-janssen-channel-index.md",
+        "../../channels/cyrus-janssen/cyrus-janssen-channel-index.md",
+    ),
+    "breaking-points": (
+        "breaking-points-channel-index.md",
+        "../../channels/breaking-points/breaking-points-channel-index.md",
+    ),
+    "mario-nawfal": (
+        "mario-nawfal-channel-index.md",
+        "../../channels/mario-nawfal/mario-nawfal-channel-index.md",
+    ),
+    "moral-resistance": (
+        "moral-resistance-channel-index.md",
+        "../../channels/moral-resistance/moral-resistance-channel-index.md",
+    ),
+    "redacted-news": (
+        "redacted-news-channel-index.md",
+        "../../channels/redacted-news/redacted-news-channel-index.md",
+    ),
+}
+
+READING_RULE_HOST_LINKS = (
+    "[daniel-davis-channel-index.md](../../channels/daniel-davis/daniel-davis-channel-index.md) · "
+    "[cyrus-janssen-channel-index.md](../../channels/cyrus-janssen/cyrus-janssen-channel-index.md) · "
+    "[breaking-points-channel-index.md](../../channels/breaking-points/breaking-points-channel-index.md) · "
+    "[mario-nawfal-channel-index.md](../../channels/mario-nawfal/mario-nawfal-channel-index.md) · "
+    "[moral-resistance-channel-index.md](../../channels/moral-resistance/moral-resistance-channel-index.md) · "
+    "[redacted-news-channel-index.md](../../channels/redacted-news/redacted-news-channel-index.md)"
+)
+
 
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
@@ -83,6 +119,7 @@ def enrich_janssen_meta(meta: dict) -> None:
     meta.setdefault("title", JANSSEN_TITLE)
     meta.setdefault("host", "Cyrus Janssen")
     meta.setdefault("show", "Cyrus Janssen")
+    meta.setdefault("channel_slug", "cyrus-janssen")
     meta["_janssen_note"] = "one studio session · four indexed theme segments in inbox/registry"
 
 
@@ -96,6 +133,24 @@ def enrich_breaking_points_meta(meta: dict, path: Path) -> None:
     meta.setdefault("show", "Breaking Points")
     meta["host"] = "Breaking Points"
     meta.setdefault("channel_slug", "breaking-points")
+
+
+def infer_channel_slug(meta: dict, path: Path) -> None:
+    if meta.get("channel_slug"):
+        return
+    name = path.name.lower()
+    host = (meta.get("host") or "").lower()
+    show = (meta.get("show") or "").lower()
+    if "moral-resistance" in name:
+        meta["channel_slug"] = "moral-resistance"
+    elif "mario-nawfal" in name:
+        meta["channel_slug"] = "mario-nawfal"
+    elif "redacted" in name or "morris" in host or show == "redacted news":
+        meta["channel_slug"] = "redacted-news"
+    elif "cyrus-janssen" in name or "janssen" in name:
+        meta["channel_slug"] = "cyrus-janssen"
+    elif "daniel-davis" in name:
+        meta["channel_slug"] = "daniel-davis"
 
 
 def is_excluded(path: Path, meta: dict, body: str) -> bool:
@@ -195,8 +250,13 @@ def row_label(meta: dict, path: Path, row_class: str) -> str:
         janssen_bit = ""
         if meta.get("_janssen_note"):
             janssen_bit = f" · _{meta['_janssen_note']}_"
+        cross_bit = ""
+        slug_key = (slug or "").lower()
+        if slug_key in HOST_CROSS_REFS:
+            xref_label, xref_rel = HOST_CROSS_REFS[slug_key]
+            cross_bit = f" · cross-ref [{xref_label}]({xref_rel})"
         return (
-            f"- [{pub} — {title}]({rel}){yt_bit} — **guest** · host: **{host}**{slug_bit}{kind_bit}{janssen_bit}"
+            f"- [{pub} — {title}]({rel}){yt_bit} — **guest** · host: **{host}**{slug_bit}{kind_bit}{janssen_bit}{cross_bit}"
         )
     kind_bit = f" · {kind}" if kind else ""
     return f"- [{pub} — {title}]({rel}) — **authored**{kind_bit}"
@@ -212,6 +272,7 @@ def collect_rows() -> list[tuple[str, Path, dict, str]]:
         if is_janssen_studio_capture(meta, body):
             enrich_janssen_meta(meta)
         enrich_breaking_points_meta(meta, path)
+        infer_channel_slug(meta, path)
         row_class = classify(meta, path, body)
         pub = pub_date_key(meta, path)
         rows.append((pub, path, meta, row_class))
@@ -264,7 +325,7 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
         "**Reading rule:**",
         "",
         "1. Authored Substack = mechanism spine — pair with [forecast ledger](pape-forecast-ledger-2026.md) and [arc](../../notes/arc-pape-escalation-trap.md).",
-        "2. Guest appearances = host-conditioned pressure tests — cross-ref host channel index when load-bearing.",
+        f"2. Guest appearances = host-conditioned pressure tests — cross-ref host channel index when load-bearing ({READING_RULE_HOST_LINKS}).",
         "3. Same guest on another host = separate host read — do not dedupe by guest alone.",
         "4. **`source-section`** = YouTube channel transcripts only (guest interviews / solo monologues). **Not** authored Substack essays.",
         "",

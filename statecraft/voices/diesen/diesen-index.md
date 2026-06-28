@@ -22,15 +22,15 @@ Do **not** dedupe by calendar day alone — same person on Davis vs Judging Free
 
 ## 2026-03
 
-- [2026-03-11 — Davis × Diesen — Iranian hatred for their gov overblown](../../../source-archive/statecraft/2026-03-11/source-daniel-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md) (`IAKATnwLudA`) — Trump messaging scatter · regime-change pivot · host: **Daniel Davis** · `channel_slug: daniel-davis`
+- [2026-03-11 — Davis × Diesen — Iranian hatred for their gov overblown](../../../source-archive/statecraft/2026-03-11/source-daniel-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md) (`IAKATnwLudA`) — Trump messaging scatter · regime-change pivot · host: **Daniel Davis** · `channel_slug: daniel-davis` · cross-ref [daniel-davis-channel-index.md](../../channels/daniel-davis/daniel-davis-channel-index.md)
 
 ## 2026-05
 
-- [2026-05-31 — Mario Nawfal × Diesen — Iran collects tolls from 28 ships in past 24 hours](../../../source-archive/statecraft/2026-05-31/source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md) (`RlG35-5j6GY`) — Hormuz toll mechanics · host: **Mario Nawfal**
+- [2026-05-31 — Mario Nawfal × Diesen — Iran collects tolls from 28 ships in past 24 hours](../../../source-archive/statecraft/2026-05-31/source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md) (`RlG35-5j6GY`) — Hormuz toll mechanics · host: **Mario Nawfal** · cross-ref [mario-nawfal-channel-index.md](../../channels/mario-nawfal/mario-nawfal-channel-index.md)
 
 ## 2026-06
 
-- [2026-06-24 — Judging Freedom × Diesen — Is Europe preparing for war?](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-diesen-europe-preparing-war-2026-06-24.md) (`8yMa_qVXHGM`) — Putin officer warning · NATO escalation · Merz militarization · host: **Judge Andrew Napolitano** · `channel_slug: judging-freedom`
+- [2026-06-24 — Judging Freedom × Diesen — Is Europe preparing for war?](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-diesen-europe-preparing-war-2026-06-24.md) (`8yMa_qVXHGM`) — Putin officer warning · NATO escalation · Merz militarization · host: **Judge Andrew Napolitano** · `channel_slug: judging-freedom` · cross-ref [judging-freedom-channel-index.md](../../channels/judging-freedom/judging-freedom-channel-index.md)
 
 ## Host cross-refs
 

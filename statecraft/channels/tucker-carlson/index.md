@@ -6,7 +6,7 @@ Purpose: front door for **`tucker-carlson`** on the statecraft channel shelf lay
 
 ## Open first
 
-- [tucker-carlson-index.md](tucker-carlson-index.md)
+- [tucker-carlson-channel-index.md](tucker-carlson-channel-index.md) · compat [tucker-carlson-index.md](tucker-carlson-index.md)
 - [README.md](README.md)
 
 ## Current live rule

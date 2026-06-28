@@ -18,11 +18,11 @@ This shelf already has a real canonical structure, even though it is thinner tha
 
 - [blumenthal-speaker-object.md](blumenthal-speaker-object.md) defines the object shape
 - [blumenthal-cross-host-note.md](blumenthal-cross-host-note.md) preserves the live cross-host reinforcement claim
-- [blumenthal-source-index.md](blumenthal-source-index.md) is the route map for on-disk appearances
+- [blumenthal-index.md](blumenthal-index.md) is the route map SSOT for on-disk archive appearances
 
 The older [blumenthal-thread.md](blumenthal-thread.md) file is therefore a **legacy continuity compatibility surface**, not a canonical topical-thread system.
 
-Do not treat `blumenthal-thread.md` as the primary structural entry. The orthogonality-bearing structure lives in the speaker object, the cross-host note, and the raw-input route map.
+Do not treat `blumenthal-thread.md` as the primary structural entry. The orthogonality-bearing structure lives in the speaker object, the cross-host note, and [blumenthal-index.md](blumenthal-index.md) (Statecraft Archive SSOT — not legacy raw-input).
 
 ## Civ-Mem Spine
 

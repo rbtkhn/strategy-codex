@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about cross-host use or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Blumenthal structure now lives in [blumenthal-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-speaker-object.md), [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-cross-host-note.md), and [blumenthal-source-index.md](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-source-index.md). Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Blumenthal structure now lives in [blumenthal-speaker-object.md](blumenthal-speaker-object.md), [blumenthal-cross-host-note.md](blumenthal-cross-host-note.md), and [blumenthal-index.md](blumenthal-index.md). Do not treat this file as a competing canonical topical-thread atlas.
 
 **Source:** Distilled from [`strategy-expert-blumenthal-transcript.md`](strategy-expert-blumenthal-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

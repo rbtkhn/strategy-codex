@@ -7,7 +7,7 @@ Purpose: front door for the canonical live **Moral Resistance** host shelf (`Sul
 ## Open First
 
 - [README.md](README.md)
-- [moral-resistance-index.md](moral-resistance-index.md)
+- [moral-resistance-channel-index.md](moral-resistance-channel-index.md) · compat [moral-resistance-index.md](moral-resistance-index.md)
 
 ## Current Live Rule
 

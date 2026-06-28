@@ -11,7 +11,7 @@ Canonical live **channel shelf** for archive key **`cyrus-janssen`** (`channel_s
 
 ## Open first
 
-- [cyrus-janssen-index.md](cyrus-janssen-index.md)
+- [cyrus-janssen-channel-index.md](cyrus-janssen-channel-index.md) · compat [cyrus-janssen-index.md](cyrus-janssen-index.md)
 - [index.md](index.md)
 
 ## Host role

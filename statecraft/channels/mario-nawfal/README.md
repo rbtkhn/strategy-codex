@@ -11,7 +11,7 @@ Canonical live **channel shelf** for archive key **`mario-nawfal`** (`channel_sl
 
 ## Open first
 
-- [mario-nawfal-index.md](mario-nawfal-index.md)
+- [mario-nawfal-channel-index.md](mario-nawfal-channel-index.md) · compat [mario-nawfal-index.md](mario-nawfal-index.md)
 - [index.md](index.md)
 
 ## Host role

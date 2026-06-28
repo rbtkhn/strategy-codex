@@ -7,7 +7,7 @@ Purpose: front door for the canonical live **Neutrality Studies** host shelf in 
 ## Open First
 
 - [README.md](README.md)
-- [neutrality-studies-index.md](neutrality-studies-index.md)
+- [neutrality-studies-channel-index.md](neutrality-studies-channel-index.md) · compat [neutrality-studies-index.md](neutrality-studies-index.md)
 - [neutrality-studies-host-law.md](neutrality-studies-host-law.md)
 
 ## Current Live Rule

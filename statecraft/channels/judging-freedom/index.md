@@ -7,7 +7,7 @@ Purpose: front door for the canonical live Napolitano host shelf in repo-root `s
 ## Open First
 
 - [README.md](README.md)
-- [judging-freedom-index.md](judging-freedom-index.md)
+- [judging-freedom-channel-index.md](judging-freedom-channel-index.md)
 - [napolitano-host-law.md](napolitano-host-law.md)
 - [napolitano-lane-map-2026-05.md](napolitano-lane-map-2026-05.md)
 

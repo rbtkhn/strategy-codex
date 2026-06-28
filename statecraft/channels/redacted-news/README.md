@@ -11,7 +11,7 @@ Canonical live **channel shelf** for archive key **`redacted-news`** (`channel_s
 
 ## Open first
 
-- [redacted-news-index.md](redacted-news-index.md)
+- [redacted-news-channel-index.md](redacted-news-channel-index.md) · compat [redacted-news-index.md](redacted-news-index.md)
 - [index.md](index.md)
 
 ## Host role

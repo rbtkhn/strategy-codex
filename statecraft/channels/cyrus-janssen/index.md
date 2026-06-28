@@ -6,7 +6,7 @@ Purpose: front door for **`cyrus-janssen`** on the statecraft channel shelf laye
 
 ## Open first
 
-- [cyrus-janssen-index.md](cyrus-janssen-index.md)
+- [cyrus-janssen-channel-index.md](cyrus-janssen-channel-index.md) · compat [cyrus-janssen-index.md](cyrus-janssen-index.md)
 - [README.md](README.md)
 
 ## Current live rule

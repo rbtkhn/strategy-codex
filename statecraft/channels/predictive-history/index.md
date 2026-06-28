@@ -6,7 +6,7 @@ Purpose: front door for **`predictive-history`** on the statecraft channel shelf
 
 ## Open first
 
-- [predictive-history-index.md](predictive-history-index.md)
+- [predictive-history-channel-index.md](predictive-history-channel-index.md) · compat [predictive-history-index.md](predictive-history-index.md)
 - [README.md](README.md)
 
 ## Current live rule
