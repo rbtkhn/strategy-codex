@@ -1,3 +1,20 @@
+---
+note_id: mearsheimer-april-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-04.md
+  - source-archive/statecraft/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md
+  - source-archive/statecraft/2025-04-03/source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md
+  - source-archive/statecraft/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md
+  - source-archive/statecraft/2025-04-24/source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md
+  - source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md
+  - source-archive/statecraft/2025-04-17/source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md
+---
 # Mearsheimer April 2025 Opening Watchlist
 
 work only; not Record.

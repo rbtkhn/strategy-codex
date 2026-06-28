@@ -1,3 +1,19 @@
+---
+note_id: mearsheimer-july-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-07.md
+  - source-archive/statecraft/2025-07-10/source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md
+  - source-archive/statecraft/2025-07-14/source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md
+  - source-archive/statecraft/2025-07-15/source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md
+  - source-archive/statecraft/2025-07-20/source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md
+  - source-archive/statecraft/2025-07-25/source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md
+---
 # Mearsheimer July 2025 Opening Watchlist
 
 work only; not Record.

@@ -1,3 +1,19 @@
+---
+note_id: month-maturity-routing-registry
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-01
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-11.md
+  - source-archive/statecraft/2025-12.md
+  - source-archive/statecraft/2026-01.md
+  - source-archive/statecraft/2026-02.md
+  - source-archive/statecraft/2026-03.md
+  - source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md
+---
 WORK only; not Record.
 
 # Month maturity routing registry

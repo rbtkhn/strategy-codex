@@ -1,3 +1,16 @@
+---
+note_id: may-2026-closure-method-application
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-05-01
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05.md
+  - source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md
+  - source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md
+---
 WORK only; not Record.
 
 # May 2026 closure method application

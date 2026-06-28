@@ -1,3 +1,18 @@
+---
+note_id: mearsheimer-september-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-09.md
+  - source-archive/statecraft/2025-09-04/source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md
+  - source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md
+  - source-archive/statecraft/2025-09-10/source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md
+  - source-archive/statecraft/2025-09-18/source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md
+---
 # Mearsheimer September 2025 Opening Watchlist
 
 work only; not Record.

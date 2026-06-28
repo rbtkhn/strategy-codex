@@ -1,3 +1,19 @@
+---
+note_id: mearsheimer-december-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-12.md
+  - source-archive/statecraft/2025-12-04/source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md
+  - source-archive/statecraft/2025-12-09/source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md
+  - source-archive/statecraft/2025-12-18/source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md
+  - source-archive/statecraft/2025-12-19/source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md
+  - source-archive/statecraft/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md
+---
 # Mearsheimer December 2025 Opening Watchlist
 
 work only; not Record.

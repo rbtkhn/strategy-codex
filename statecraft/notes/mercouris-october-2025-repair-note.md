@@ -1,3 +1,21 @@
+---
+note_id: mercouris-october-2025-repair-note
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-10.md
+  - source-archive/statecraft/2025-10-10/source-alexander-mercouris-russias-strongest-strike-kiev-blackout-air-defence-fails-energy-collapse-moscow-pushes-to-dneiper-2025-10-10.md
+  - source-archive/statecraft/2025-10-14/source-alexander-mercouris-moscow-gives-us-nuclear-warning-tomahawks-kiev-faces-pokrovsk-disaster-2025-10-14.md
+  - source-archive/statecraft/2025-10-18/source-alexander-mercouris-zelenskys-bad-day-no-missiles-pokrovsk-kherson-loathes-putin-2025-10-18.md
+  - source-archive/statecraft/2025-10-19/source-alexander-mercouris-kiev-military-crisis-badly-worsens-big-russian-gains-pokrovsk-kherson-2025-10-19.md
+  - source-archive/statecraft/2025-10-20/source-alexander-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md
+  - source-archive/statecraft/2025-10-22/source-alexander-mercouris-moscow-furious-demands-answers-us-delays-summit-pokrovsk-disaster-worsens-2025-10-22.md
+  - source-archive/statecraft/2025-10-27/source-alexander-mercouris-zelensky-admits-pokrovsk-critical-russia-destroy-trapped-troops-blackout-2025-10-27.md
+---
 # Mercouris October 2025 Repair Note
 
 work only; not Record.

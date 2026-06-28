@@ -1,3 +1,20 @@
+---
+note_id: statecraft-participant-index-audit-2026-06-03
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md
+  - source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md
+  - source-archive/statecraft/2025-05-02/source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md
+  - source-archive/statecraft/2025-05-29/source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md
+  - source-archive/statecraft/2025-06-20/source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md
+  - source-archive/statecraft/2025-06-17/source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md
+  - source-archive/statecraft/thread-index.md
+---
 # Statecraft Participant Index Audit - 2026-06-03
 
 work only; not Record.

@@ -138,7 +138,6 @@ python3 scripts/reindex_notes.py
 | README |  |  | false |  | A | [README](../../statecraft/notes/compacts/taiwan-quarantine-maritime-access-framework/README.md) |
 | README |  |  | false |  | A | [README](../../statecraft/notes/compacts/us-digital-identity-collapse-sovereignty-framework/README.md) |
 | README |  |  | false |  | A | [README](../../statecraft/notes/compacts/zangezur-transit-sovereignty-framework/README.md) |
-| april-2026-wilkerson-intake-sequence-postmortem |  |  | false |  | A | [april-2026-wilkerson-intake-sequence-postmortem](../../statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md) |
 | archive-truth-floor-repair-routing-2026-06-01 |  |  | false |  | A | [archive-truth-floor-repair-routing-2026-06-01](../../statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md) |
 | assistant-session-state-clarity-contract |  |  | false |  | A | [assistant-session-state-clarity-contract](../../statecraft/notes/assistant-session-state-clarity-contract.md) |
 | baud-crooke-international-law-orthogonality-2026-05 |  |  | false |  | A | [baud-crooke-international-law-orthogonality-2026-05](../../statecraft/notes/baud-crooke-international-law-orthogonality-2026-05.md) |
@@ -146,44 +145,20 @@ python3 scripts/reindex_notes.py
 | conductor-gap-audit-2026-05-21-06-07 |  |  | false |  | A | [conductor-gap-audit-2026-05-21-06-07](../../statecraft/notes/conductor-gap-audit-2026-05-21-06-07.md) |
 | conversation-ux-friction-audit |  |  | false |  | A | [conversation-ux-friction-audit](../../statecraft/notes/conversation-ux-friction-audit.md) |
 | daily-synthesis-contract-repair-routing-2026-06-08 |  |  | false |  | A | [daily-synthesis-contract-repair-routing-2026-06-08](../../statecraft/notes/daily-synthesis-contract-repair-routing-2026-06-08.md) |
-| december-2025-benchmark-note |  |  | false |  | A | [december-2025-benchmark-note](../../statecraft/notes/december-2025-benchmark-note.md) |
 | digital-identity-continuity-before-platform-control |  |  | false |  | A | [digital-identity-continuity-before-platform-control](../../statecraft/notes/digital-identity-continuity-before-platform-control.md) |
-| february-2026-benchmark-note |  |  | false |  | A | [february-2026-benchmark-note](../../statecraft/notes/february-2026-benchmark-note.md) |
 | foreign-client-mesh-separation-and-command-review |  |  | false |  | A | [foreign-client-mesh-separation-and-command-review](../../statecraft/notes/foreign-client-mesh-separation-and-command-review.md) |
 | hormuz-recognition-transit-transaction |  |  | false |  | A | [hormuz-recognition-transit-transaction](../../statecraft/notes/hormuz-recognition-transit-transaction.md) |
 | instrument-bench-maturity-audit |  |  | false |  | A | [instrument-bench-maturity-audit](../../statecraft/notes/instrument-bench-maturity-audit.md) |
 | intake-digest-TEMPLATE |  |  | false |  | B | [intake-digest-TEMPLATE](../../statecraft/notes/intake/intake-digest-TEMPLATE.md) |
 | internal-vs-public-vocabulary |  |  | false |  | A | [internal-vs-public-vocabulary](../../statecraft/notes/internal-vs-public-vocabulary.md) |
-| january-2026-benchmark-note |  |  | false |  | A | [january-2026-benchmark-note](../../statecraft/notes/january-2026-benchmark-note.md) |
 | jiang-on-china-ai |  |  | false |  | A | [jiang-on-china-ai](../../statecraft/notes/jiang-on-china-ai.md) |
 | jiang-ph-civ-correspondence-june-1-2026 |  |  | false |  | A | [jiang-ph-civ-correspondence-june-1-2026](../../statecraft/notes/jiang-ph-civ-correspondence-june-1-2026.md) |
-| june-2026-opening-watchlist |  |  | false |  | A | [june-2026-opening-watchlist](../../statecraft/notes/june-2026-opening-watchlist.md) |
 | june-2026-vance-lightning-rod-rubio-optionality-note |  |  | false |  | A | [june-2026-vance-lightning-rod-rubio-optionality-note](../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md) |
 | kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06 |  |  | false |  | A | [kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06](../../statecraft/notes/kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md) |
 | lebanon-third-party-recognition-gate-transaction |  |  | false |  | A | [lebanon-third-party-recognition-gate-transaction](../../statecraft/notes/lebanon-third-party-recognition-gate-transaction.md) |
-| march-2026-closure-method-application |  |  | false |  | A | [march-2026-closure-method-application](../../statecraft/notes/march-2026-closure-method-application.md) |
-| may-2026-closure-method-application |  |  | false |  | A | [may-2026-closure-method-application](../../statecraft/notes/may-2026-closure-method-application.md) |
 | may-2026-speaker-watchlist |  |  | false |  | A | [may-2026-speaker-watchlist](../../statecraft/notes/may-2026-speaker-watchlist.md) |
-| mearsheimer-april-2025-opening-watchlist |  |  | false |  | A | [mearsheimer-april-2025-opening-watchlist](../../statecraft/notes/mearsheimer-april-2025-opening-watchlist.md) |
-| mearsheimer-april-2025-repair-note |  |  | false |  | A | [mearsheimer-april-2025-repair-note](../../statecraft/notes/mearsheimer-april-2025-repair-note.md) |
-| mearsheimer-december-2025-opening-watchlist |  |  | false |  | A | [mearsheimer-december-2025-opening-watchlist](../../statecraft/notes/mearsheimer-december-2025-opening-watchlist.md) |
-| mearsheimer-december-2025-repair-note |  |  | false |  | A | [mearsheimer-december-2025-repair-note](../../statecraft/notes/mearsheimer-december-2025-repair-note.md) |
-| mearsheimer-july-2025-opening-watchlist |  |  | false |  | A | [mearsheimer-july-2025-opening-watchlist](../../statecraft/notes/mearsheimer-july-2025-opening-watchlist.md) |
-| mearsheimer-march-2025-opening-watchlist |  |  | false |  | A | [mearsheimer-march-2025-opening-watchlist](../../statecraft/notes/mearsheimer-march-2025-opening-watchlist.md) |
-| mearsheimer-march-2025-repair-note |  |  | false |  | A | [mearsheimer-march-2025-repair-note](../../statecraft/notes/mearsheimer-march-2025-repair-note.md) |
-| mearsheimer-october-2025-opening-watchlist |  |  | false |  | A | [mearsheimer-october-2025-opening-watchlist](../../statecraft/notes/mearsheimer-october-2025-opening-watchlist.md) |
-| mearsheimer-september-2025-opening-watchlist |  |  | false |  | A | [mearsheimer-september-2025-opening-watchlist](../../statecraft/notes/mearsheimer-september-2025-opening-watchlist.md) |
-| mercouris-february-2025-opening-watchlist |  |  | false |  | A | [mercouris-february-2025-opening-watchlist](../../statecraft/notes/mercouris-february-2025-opening-watchlist.md) |
 | mercouris-format-synergy-doctrine |  |  | false |  | A | [mercouris-format-synergy-doctrine](../../statecraft/notes/mercouris-format-synergy-doctrine.md) |
-| mercouris-june-2025-opening-watchlist |  |  | false |  | A | [mercouris-june-2025-opening-watchlist](../../statecraft/notes/mercouris-june-2025-opening-watchlist.md) |
-| mercouris-november-2025-opening-watchlist |  |  | false |  | A | [mercouris-november-2025-opening-watchlist](../../statecraft/notes/mercouris-november-2025-opening-watchlist.md) |
-| mercouris-november-2025-repair-note |  |  | false |  | A | [mercouris-november-2025-repair-note](../../statecraft/notes/mercouris-november-2025-repair-note.md) |
-| mercouris-october-2025-repair-note |  |  | false |  | A | [mercouris-october-2025-repair-note](../../statecraft/notes/mercouris-october-2025-repair-note.md) |
-| mercouris-september-2025-repair-note |  |  | false |  | A | [mercouris-september-2025-repair-note](../../statecraft/notes/mercouris-september-2025-repair-note.md) |
-| month-maturity-routing-registry |  |  | false |  | A | [month-maturity-routing-registry](../../statecraft/notes/month-maturity-routing-registry.md) |
-| november-2025-benchmark-note |  |  | false |  | A | [november-2025-benchmark-note](../../statecraft/notes/november-2025-benchmark-note.md) |
 | pape-marandi-parsi-novelty-audit |  |  | false |  | A | [pape-marandi-parsi-novelty-audit](../../statecraft/notes/pape-marandi-parsi-novelty-audit.md) |
-| parsi-wilkerson-may-2026-backfill-attention |  |  | false |  | A | [parsi-wilkerson-may-2026-backfill-attention](../../statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) |
 | recent-speaker-underrepresentation-query-standard |  |  | false |  | A | [recent-speaker-underrepresentation-query-standard](../../statecraft/notes/recent-speaker-underrepresentation-query-standard.md) |
 | recognition-threshold-vs-settlement-architecture |  |  | false |  | A | [recognition-threshold-vs-settlement-architecture](../../statecraft/notes/recognition-threshold-vs-settlement-architecture.md) |
 | recursive-learning-journal-executive-synthesis |  |  | false |  | A | [recursive-learning-journal-executive-synthesis](../../statecraft/notes/recursive-learning-journal-executive-synthesis.md) |
@@ -195,11 +170,9 @@ python3 scripts/reindex_notes.py
 | skill-refinement-scorecard |  |  | false |  | A | [skill-refinement-scorecard](../../statecraft/notes/skill-refinement-scorecard.md) |
 | speaker-audit-workflow |  |  | false |  | A | [speaker-audit-workflow](../../statecraft/notes/speaker-audit-workflow.md) |
 | statecraft-multi-lens-bench-pressure-test-2026-05 |  |  | false |  | A | [statecraft-multi-lens-bench-pressure-test-2026-05](../../statecraft/notes/statecraft-multi-lens-bench-pressure-test-2026-05.md) |
-| statecraft-participant-index-audit-2026-06-03 |  |  | false |  | A | [statecraft-participant-index-audit-2026-06-03](../../statecraft/notes/statecraft-participant-index-audit-2026-06-03.md) |
 | statecraft-v1-upgrade-plan-2026-05-25 |  |  | false |  | A | [statecraft-v1-upgrade-plan-2026-05-25](../../statecraft/notes/statecraft-v1-upgrade-plan-2026-05-25.md) |
 | taiwan-inspection-pressure-without-blockade-ownership |  |  | false |  | A | [taiwan-inspection-pressure-without-blockade-ownership](../../statecraft/notes/taiwan-inspection-pressure-without-blockade-ownership.md) |
 | week-hinge-start-here |  |  | false |  | B | [week-hinge-start-here](../../statecraft/notes/reentry/_templates/week-hinge-start-here.md) |
-| wilkerson-april-2026-contradiction-audit |  |  | false |  | A | [wilkerson-april-2026-contradiction-audit](../../statecraft/notes/wilkerson-april-2026-contradiction-audit.md) |
 | zangezur-mediation-without-overbinding |  |  | false |  | A | [zangezur-mediation-without-overbinding](../../statecraft/notes/zangezur-mediation-without-overbinding.md) |
 | arc-aguilar-nima-host | arc |  | false |  | A | [arc-aguilar-nima-host](../../statecraft/notes/arc-aguilar-nima-host.md) |
 | arc-april-2026-cross-host-freeman-host | arc |  | false |  | A | [arc-april-2026-cross-host-freeman-host](../../statecraft/notes/arc-april-2026-cross-host-freeman-host.md) |
@@ -330,9 +303,36 @@ python3 scripts/reindex_notes.py
 | risk-mou-enforcement | risk | shelf-native | false | source-archive | A | [risk-mou-enforcement](../../statecraft/notes/risk-mou-enforcement.md) |
 | 2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer | synthesis | shelf-native | false | source-archive | A | [2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer](../../statecraft/notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) |
 | 2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave | synthesis | shelf-native | false | source-archive | A | [2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave](../../statecraft/notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) |
+| april-2026-wilkerson-intake-sequence-postmortem | synthesis | shelf-native | false | source-archive | A | [april-2026-wilkerson-intake-sequence-postmortem](../../statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md) |
+| december-2025-benchmark-note | synthesis | shelf-native | false | source-archive | A | [december-2025-benchmark-note](../../statecraft/notes/december-2025-benchmark-note.md) |
+| february-2026-benchmark-note | synthesis | shelf-native | false | source-archive | A | [february-2026-benchmark-note](../../statecraft/notes/february-2026-benchmark-note.md) |
 | iran-war-inquiry-ladder-stress-test | synthesis | shelf-native | false | source-archive | A | [iran-war-inquiry-ladder-stress-test](../../statecraft/notes/iran-war-inquiry-ladder-stress-test.md) |
+| january-2026-benchmark-note | synthesis | shelf-native | false | source-archive | A | [january-2026-benchmark-note](../../statecraft/notes/january-2026-benchmark-note.md) |
 | june-18-2026-mou-convergence | synthesis | shelf-native | false | source-archive | A | [june-18-2026-mou-convergence](../../statecraft/notes/june-18-2026-mou-convergence.md) |
+| june-2026-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [june-2026-opening-watchlist](../../statecraft/notes/june-2026-opening-watchlist.md) |
 | march-2026-benchmark-note | synthesis | shelf-native | false | mixed | A | [march-2026-benchmark-note](../../statecraft/notes/march-2026-benchmark-note.md) |
+| march-2026-closure-method-application | synthesis | shelf-native | false | source-archive | A | [march-2026-closure-method-application](../../statecraft/notes/march-2026-closure-method-application.md) |
+| may-2026-closure-method-application | synthesis | shelf-native | false | mixed | A | [may-2026-closure-method-application](../../statecraft/notes/may-2026-closure-method-application.md) |
+| mearsheimer-april-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mearsheimer-april-2025-opening-watchlist](../../statecraft/notes/mearsheimer-april-2025-opening-watchlist.md) |
+| mearsheimer-april-2025-repair-note | synthesis | shelf-native | false | source-archive | A | [mearsheimer-april-2025-repair-note](../../statecraft/notes/mearsheimer-april-2025-repair-note.md) |
+| mearsheimer-december-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mearsheimer-december-2025-opening-watchlist](../../statecraft/notes/mearsheimer-december-2025-opening-watchlist.md) |
+| mearsheimer-december-2025-repair-note | synthesis | shelf-native | false | source-archive | A | [mearsheimer-december-2025-repair-note](../../statecraft/notes/mearsheimer-december-2025-repair-note.md) |
+| mearsheimer-july-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mearsheimer-july-2025-opening-watchlist](../../statecraft/notes/mearsheimer-july-2025-opening-watchlist.md) |
+| mearsheimer-march-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mearsheimer-march-2025-opening-watchlist](../../statecraft/notes/mearsheimer-march-2025-opening-watchlist.md) |
+| mearsheimer-march-2025-repair-note | synthesis | shelf-native | false | source-archive | A | [mearsheimer-march-2025-repair-note](../../statecraft/notes/mearsheimer-march-2025-repair-note.md) |
+| mearsheimer-october-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mearsheimer-october-2025-opening-watchlist](../../statecraft/notes/mearsheimer-october-2025-opening-watchlist.md) |
+| mearsheimer-september-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mearsheimer-september-2025-opening-watchlist](../../statecraft/notes/mearsheimer-september-2025-opening-watchlist.md) |
+| mercouris-february-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mercouris-february-2025-opening-watchlist](../../statecraft/notes/mercouris-february-2025-opening-watchlist.md) |
+| mercouris-june-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mercouris-june-2025-opening-watchlist](../../statecraft/notes/mercouris-june-2025-opening-watchlist.md) |
+| mercouris-november-2025-opening-watchlist | synthesis | shelf-native | false | source-archive | A | [mercouris-november-2025-opening-watchlist](../../statecraft/notes/mercouris-november-2025-opening-watchlist.md) |
+| mercouris-november-2025-repair-note | synthesis | shelf-native | false | source-archive | A | [mercouris-november-2025-repair-note](../../statecraft/notes/mercouris-november-2025-repair-note.md) |
+| mercouris-october-2025-repair-note | synthesis | shelf-native | false | source-archive | A | [mercouris-october-2025-repair-note](../../statecraft/notes/mercouris-october-2025-repair-note.md) |
+| mercouris-september-2025-repair-note | synthesis | shelf-native | false | source-archive | A | [mercouris-september-2025-repair-note](../../statecraft/notes/mercouris-september-2025-repair-note.md) |
+| month-maturity-routing-registry | synthesis | shelf-native | false | mixed | A | [month-maturity-routing-registry](../../statecraft/notes/month-maturity-routing-registry.md) |
+| november-2025-benchmark-note | synthesis | shelf-native | false | source-archive | A | [november-2025-benchmark-note](../../statecraft/notes/november-2025-benchmark-note.md) |
+| parsi-wilkerson-may-2026-backfill-attention | synthesis | shelf-native | false | source-archive | A | [parsi-wilkerson-may-2026-backfill-attention](../../statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) |
+| statecraft-participant-index-audit-2026-06-03 | synthesis | shelf-native | false | source-archive | A | [statecraft-participant-index-audit-2026-06-03](../../statecraft/notes/statecraft-participant-index-audit-2026-06-03.md) |
+| wilkerson-april-2026-contradiction-audit | synthesis | shelf-native | false | mixed | A | [wilkerson-april-2026-contradiction-audit](../../statecraft/notes/wilkerson-april-2026-contradiction-audit.md) |
 | thread-jermy-2025-11-06-to-2025-11-14-pokrovsk | thread |  | false |  | A | [thread-jermy-2025-11-06-to-2025-11-14-pokrovsk](../../statecraft/notes/thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md) |
 | thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap | thread |  | false |  | A | [thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap](../../statecraft/notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) |
 | trend-china-ai-implementation | trend | shelf-native | false | mixed | A | [trend-china-ai-implementation](../../statecraft/notes/trend-china-ai-implementation.md) |

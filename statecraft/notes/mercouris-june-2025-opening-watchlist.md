@@ -1,3 +1,21 @@
+---
+note_id: mercouris-june-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-06.md
+  - source-archive/statecraft/2025-06-10/source-alexander-mercouris-lavrov-harshly-blames-uk-for-kiev-dirty-war-hints-retaliation-huge-missile-drone-strike-hits-kiev-2025-06-10.md
+  - source-archive/statecraft/2025-06-11/source-alexander-mercouris-moscow-tough-response-kiev-uk-dirty-war-russia-arms-output-soars-nato-fearful-us-cuts-kiev-aid-2025-06-11.md
+  - source-archive/statecraft/2025-06-15/source-alexander-mercouris-iran-strikes-continue-israels-plan-ad-falter-asks-us-join-war-putin-slams-trump-in-angry-call-2025-06-15.md
+  - source-archive/statecraft/2025-06-20/source-alexander-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md
+  - source-archive/statecraft/2025-06-24/source-alexander-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md
+  - source-archive/statecraft/2025-06-27/source-alexander-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md
+  - source-archive/statecraft/2025-06-02/source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md
+---
 # Mercouris June 2025 Opening Watchlist
 
 work only; not Record.

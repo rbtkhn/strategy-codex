@@ -1,3 +1,21 @@
+---
+note_id: wilkerson-april-2026-contradiction-audit
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-04-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-02/source-judging-freedom-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md
+  - source-archive/statecraft/2026-04-09/source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md
+  - source-archive/statecraft/2026-04-10/source-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md
+  - source-archive/statecraft/2026-04-16/source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md
+  - source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md
+  - source-archive/statecraft/2026-04-28/source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md
+  - source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md
+  - source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md
+---
 WORK only; not Record.
 
 # Wilkerson April 2026 contradiction audit

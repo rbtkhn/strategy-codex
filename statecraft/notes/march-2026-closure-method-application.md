@@ -1,3 +1,19 @@
+---
+note_id: march-2026-closure-method-application
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-04/source-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md
+  - source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md
+  - source-archive/statecraft/2026-03-09/source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md
+  - source-archive/statecraft/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md
+  - source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md
+  - source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md
+---
 WORK only; not Record.
 
 # March 2026 closure method application

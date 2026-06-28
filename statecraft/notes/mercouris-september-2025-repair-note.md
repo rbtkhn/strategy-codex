@@ -1,3 +1,21 @@
+---
+note_id: mercouris-september-2025-repair-note
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-09-10/source-alexander-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md
+  - source-archive/statecraft/2025-09-15/source-alexander-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md
+  - source-archive/statecraft/2025-09-17/source-alexander-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md
+  - source-archive/statecraft/2025-09-18/source-alexander-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md
+  - source-archive/statecraft/2025-09-19/source-alexander-mercouris-zelensky-rushes-to-pokrovsk-as-defences-crumble-russian-strikes-end-kievs-mic-dream-saudi-pakistan-2025-09-19.md
+  - source-archive/statecraft/2025-09-20/source-alexander-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md
+  - source-archive/statecraft/2025-09-21/source-alexander-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md
+  - source-archive/statecraft/2025-09-22/source-alexander-mercouris-eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age-2025-09-22.md
+---
 # Mercouris September 2025 Repair Note
 
 work only; not Record.

@@ -1,3 +1,19 @@
+---
+note_id: mearsheimer-october-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-10.md
+  - source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md
+  - source-archive/statecraft/2025-10-09/source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md
+  - source-archive/statecraft/2025-10-17/source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md
+  - source-archive/statecraft/2025-10-30/source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md
+  - source-archive/statecraft/2025-10-22/source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md
+---
 # Mearsheimer October 2025 Opening Watchlist
 
 work only; not Record.

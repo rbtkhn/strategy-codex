@@ -1,3 +1,14 @@
+---
+note_id: december-2025-benchmark-note
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-12.md
+---
 WORK only; not Record.
 
 # December 2025 benchmark note

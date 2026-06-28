@@ -1,3 +1,21 @@
+---
+note_id: mercouris-november-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-11.md
+  - source-archive/statecraft/2025-11-10/source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md
+  - source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md
+  - source-archive/statecraft/2025-11-12/source-alexander-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md
+  - source-archive/statecraft/2025-11-13/source-alexander-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md
+  - source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md
+  - source-archive/statecraft/2025-11-20/source-alexander-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md
+  - source-archive/statecraft/2025-11-27/source-alexander-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27.md
+---
 # Mercouris November 2025 Opening Watchlist
 
 work only; not Record.

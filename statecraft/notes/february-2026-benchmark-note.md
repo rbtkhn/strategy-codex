@@ -1,3 +1,14 @@
+---
+note_id: february-2026-benchmark-note
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02.md
+---
 WORK only; not Record.
 
 # February 2026 benchmark note

@@ -1,3 +1,19 @@
+---
+note_id: mearsheimer-march-2025-opening-watchlist
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-03.md
+  - source-archive/statecraft/2025-03-06/source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md
+  - source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md
+  - source-archive/statecraft/2025-03-13/source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md
+  - source-archive/statecraft/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md
+  - source-archive/statecraft/2025-03-27/source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md
+---
 # Mearsheimer March 2025 Opening Watchlist
 
 work only; not Record.

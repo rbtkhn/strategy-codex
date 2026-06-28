@@ -63,10 +63,52 @@ AI_CLUSTER_BATCH: dict[str, str] = {
     "june-19-2026-moonshots-export-control-sovereign-ai-crossover.md": "bridge",
 }
 
+# README Month-Maturity Routing (march benchmark omitted — iran-theater batch)
+MONTH_MATURITY_BATCH: dict[str, str] = {
+    "month-maturity-routing-registry.md": "synthesis",
+    "november-2025-benchmark-note.md": "synthesis",
+    "december-2025-benchmark-note.md": "synthesis",
+    "january-2026-benchmark-note.md": "synthesis",
+    "february-2026-benchmark-note.md": "synthesis",
+    "june-2026-opening-watchlist.md": "synthesis",
+}
+
+# README Speaker-Derived — Mercouris / Mearsheimer opening watchlists + repair notes
+SPEAKER_WATCHLIST_BATCH: dict[str, str] = {
+    "mercouris-february-2025-opening-watchlist.md": "synthesis",
+    "mercouris-june-2025-opening-watchlist.md": "synthesis",
+    "mercouris-october-2025-repair-note.md": "synthesis",
+    "mercouris-november-2025-opening-watchlist.md": "synthesis",
+    "mercouris-november-2025-repair-note.md": "synthesis",
+    "mercouris-september-2025-repair-note.md": "synthesis",
+    "mearsheimer-march-2025-opening-watchlist.md": "synthesis",
+    "mearsheimer-march-2025-repair-note.md": "synthesis",
+    "mearsheimer-july-2025-opening-watchlist.md": "synthesis",
+    "mearsheimer-april-2025-opening-watchlist.md": "synthesis",
+    "mearsheimer-april-2025-repair-note.md": "synthesis",
+    "mearsheimer-september-2025-opening-watchlist.md": "synthesis",
+    "mearsheimer-october-2025-opening-watchlist.md": "synthesis",
+    "mearsheimer-december-2025-opening-watchlist.md": "synthesis",
+    "mearsheimer-december-2025-repair-note.md": "synthesis",
+}
+
+# README Closure And Audit
+CLOSURE_AUDIT_BATCH: dict[str, str] = {
+    "march-2026-closure-method-application.md": "synthesis",
+    "may-2026-closure-method-application.md": "synthesis",
+    "april-2026-wilkerson-intake-sequence-postmortem.md": "synthesis",
+    "statecraft-participant-index-audit-2026-06-03.md": "synthesis",
+    "wilkerson-april-2026-contradiction-audit.md": "synthesis",
+    "parsi-wilkerson-may-2026-backfill-attention.md": "synthesis",
+}
+
 BATCHES: dict[str, dict[str, str]] = {
     "mou-enforcement": MOU_ENFORCEMENT_BATCH,
     "iran-theater": IRAN_THEATER_BATCH,
     "ai-cluster": AI_CLUSTER_BATCH,
+    "month-maturity": MONTH_MATURITY_BATCH,
+    "speaker-watchlist": SPEAKER_WATCHLIST_BATCH,
+    "closure-audit": CLOSURE_AUDIT_BATCH,
 }
 
 DATE_IN_NAME = re.compile(r"(\d{4}-\d{2}-\d{2})")
