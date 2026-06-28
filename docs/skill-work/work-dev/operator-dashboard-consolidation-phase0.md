@@ -172,7 +172,7 @@ Gate / review-dashboard sections: **optional** — `--include-gate` only (fork-r
 **V0 scope (narrow):**
 
 - Orchestrate: `assert_root_folder_layout.py`, `check_repo_path_adoption.py`, `validate_skills.py`, optional `sync_portable_skills.py --verify`
-- Local path leak scan (`/C:/dev/`, `C:\dev\`, `file://`, etc.)
+- Local path leak scan (Windows drive paths, macOS home paths, file-URL opens, etc.)
 - Broken links: extend/share `validate_structured_files` link logic; default `--scope docs`; cap with `--max-link-errors`
 - JSON + MD + authority header + return paths
 

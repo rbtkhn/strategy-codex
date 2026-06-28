@@ -31,7 +31,7 @@
       "Hypothetical: zoom at 200% on small laptop — edge table wrapped as expected; no app bug."
     ],
     "acceptanceChecklist": [
-      "Served over http.server (not file://): ok",
+      "Served over http.server (not local file URL): ok",
       "Fixture JSON loaded in browser: ok",
       "Node cards grouped by kind: ok",
       "Edge / relationship list rendered: ok",

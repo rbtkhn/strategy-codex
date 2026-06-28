@@ -1,7 +1,7 @@
 ## work-companion-self — Template Diff Report
 
-Companion-self: /Users/robertkuhne/Documents/grace-mar/companion-self
-Instance (grace-mar): /Users/robertkuhne/Documents/grace-mar
+Companion-self: `<grace-mar-instance>/companion-self`
+Instance (grace-mar): `<grace-mar-instance>`
 Paths: grace-mar MERGING-FROM-COMPANION-SELF
 Lockfile: 180 paths pinned (last sync: 2026-04-06T22:22:09)
 

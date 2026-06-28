@@ -186,7 +186,7 @@ Use this when you want a new goal-mode session to stay strictly inside one arc-s
 
 ```text
 New goal-mode session.
-Workspace: `C:\dev\strategy-codex`.
+Workspace: `strategy-codex` repo root.
 
 Boundary:
 This session is strictly bounded to `<arc-name>`.

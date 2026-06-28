@@ -114,7 +114,7 @@ Header fields: `blocking_count`, `warning_count`, `status`, `categories[]`.
 
 | Bad | Replace |
 | --- | --- |
-| `../../...`, `C:\dev\...` | repo-relative path |
+| `../../...`, Windows absolute paths under `dev` | repo-relative path |
 | `codex/years/.../provenance/` | `source-archive/statecraft/YYYY-MM-DD/` |
 | `strategy-notebook/` docs paths | `codex/` or [STRATEGY-NOTEBOOK-DEPRECATED.md](../skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) |
 | `../../AGENTS.md` from `docs/skill-work/**` | correct depth to repo root `AGENTS.md` |

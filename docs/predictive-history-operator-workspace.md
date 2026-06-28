@@ -5,22 +5,22 @@ Canonical public home: **[`rbtkhn/predictive-history`](https://github.com/rbtkhn
 ## Clone and env
 
 ```powershell
-git clone https://github.com/rbtkhn/predictive-history.git C:\dev\predictive-history
-$env:PREDICTIVE_HISTORY_ROOT = "C:\dev\predictive-history"
+git clone https://github.com/rbtkhn/predictive-history.git ~/dev/predictive-history
+$env:PREDICTIVE_HISTORY_ROOT = "~/dev/predictive-history"
 ```
 
 Legacy env shims (one release): `PH_CIV_ROOT`, `PREDICTIVE_HISTORY_ROOT` — prefer `PREDICTIVE_HISTORY_ROOT`.
 
 ## Daily loop
 
-1. **Open** `C:\dev\predictive-history` (or set `PREDICTIVE_HISTORY_ROOT`) for corpus EXECUTE.
+1. **Open** `$PREDICTIVE_HISTORY_ROOT` (canonical PH checkout) for corpus EXECUTE.
 2. **Edit** essays, book chapters, cards, registries, docs in that repo.
 3. **Validate:** `ph-civ validate` (CLI name unchanged).
 4. **Ship:** `git commit` + `git push origin main` in the canonical repo.
 5. **Refresh strategy-codex snapshot** (read-only mirror for cite/review):
 
 ```powershell
-cd C:\dev\strategy-codex
+cd strategy-codex
 python scripts/sync_predictive_history_mirror.py
 git add public/predictive-history
 git commit -m "[predictive-history-sync] inbound mirror refresh"
@@ -43,7 +43,7 @@ Boundary law: [predictive-history-external-boundary.md](predictive-history-exter
 
 ## Cursor setup
 
-- **PH corpus sessions:** workspace root `C:\dev\predictive-history`
-- **Strategy + statecraft:** `C:\dev\strategy-codex` — treat `public/predictive-history/` as read-only
+- **PH corpus sessions:** workspace root = `$PREDICTIVE_HISTORY_ROOT`
+- **Strategy + statecraft:** `strategy-codex` repo root — treat `public/predictive-history/` as read-only
 
 Agent rule: [`.cursor/rules/predictive-history-direct-edit.mdc`](../.cursor/rules/predictive-history-direct-edit.mdc).

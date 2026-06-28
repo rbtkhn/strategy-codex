@@ -149,7 +149,7 @@ The bot (and other writers) append chat to **`session-transcript.md`** per chann
 
 **Option A â€” Bot runs on the same machine as Cursor, from this repo**
 
-- Run the Telegram bot from this repo (e.g. `python -m bot.bot` or your start command from `/Users/.../grace-mar`).
+- Run the Telegram bot from this repo (e.g. `python -m bot.bot` or your start command from the operator `grace-mar` instance checkout).
 - Set `GRACE_MAR_USER_ID=grace-mar` (or leave default).
 - Then **`session-transcript.md`** and **recursion-gate.md** are inside this workspace; just open them in Cursor. New exchanges appear as the bot runs.
 

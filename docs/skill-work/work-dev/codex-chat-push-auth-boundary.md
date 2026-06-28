@@ -50,7 +50,7 @@ After that, this preflight should work from both PowerShell and chat-side elevat
 
 ```powershell
 ssh -T git@github.com
-git -C C:\dev\strategy-codex push origin main
+git -C <repo-root> push origin main
 ```
 
 Expected success receipt for a no-op push:
@@ -63,7 +63,7 @@ Everything up-to-date
 
 - **Failure:** Non-elevated chat-side push could not use SSH home material (`known_hosts: Permission denied`) and unaided SSH did not offer an accepted key (`Permission denied (publickey)`).
 - **Fix:** Add explicit key selection for `github.com` in `C:\Users\rober\.ssh\config`, then run chat-side push with approved elevation.
-- **Proof:** On 2026-05-14, elevated `ssh -T git@github.com` authenticated as `rbtkhn` (GitHub exits nonzero because it does not provide a shell), and elevated `git -C C:\dev\strategy-codex push origin main` returned `Everything up-to-date`.
+- **Proof:** On 2026-05-14, elevated `ssh -T git@github.com` authenticated as `rbtkhn` (GitHub exits nonzero because it does not provide a shell), and elevated `git -C <repo-root> push origin main` returned `Everything up-to-date`.
 
 ## Failure interpretation
 

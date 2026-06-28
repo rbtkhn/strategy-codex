@@ -226,7 +226,7 @@ Cursor-only paths for [ph-interview-transcript-curation/SKILL.md](../../../skill
 
 | Surface | Path |
 |---------|------|
-| Canonical PH repo (edit here) | `C:\dev\predictive-history` or operator clone of `rbtkhn/predictive-history` |
+| Canonical PH repo (edit here) | `$PREDICTIVE_HISTORY_ROOT` or operator clone of `rbtkhn/predictive-history` |
 | Inbound mirror (do not hand-edit) | `public/predictive-history/` in strategy-codex |
 | Frozen workshop (do not edit unless revived) | `codex/predictive-history/` |
 
