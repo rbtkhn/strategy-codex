@@ -200,7 +200,7 @@ none this pass
 
 ---
 
-### Optional page index row (copy-paste into [`legacy page index`](../../../../../../../../../../../../../codex/watches/README.md)
+### Optional page index row (copy-paste into [`legacy page index`](../../../codex/watches/README.md)
 
 ```yaml
   - page_id: `marandi-ritter-mercouris-hormuz-scaffold` (legacy path removed)

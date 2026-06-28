@@ -87,11 +87,11 @@ Do not use this arc as a shortcut for BRICS / de-dollarization consequence or Na
 
 ## Best paired read
 
-Best paired read: [arc-wilkerson-diesen-host.md](../../arc-wilkerson-diesen-host.md)
+Best paired read: [arc-wilkerson-diesen-host.md](arc-wilkerson-diesen-host.md)
 
 Why: the same guest becomes legible through two different hosts. Diesen gives the steadier imperial-decline and order-consequence lane; Alkorshid gives the sharper live-pressure lane. Together they show that the Wilkerson voice is stable, but the host changes the contour.
 
-Second-best paired read: [arc-freeman-nima-host.md](../../arc-freeman-nima-host.md)
+Second-best paired read: [arc-freeman-nima-host.md](arc-freeman-nima-host.md)
 
 Why: both runs live in the same host stream, but they split by register. Freeman gives diplomatic-memory and order-language; Wilkerson gives imperial exhaustion, military-statecraft warning, and strategic self-harm.
 
@@ -106,7 +106,7 @@ Use `Dialogue Works x Wilkerson` when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about imperial legitimacy collapse, BRICS consequence, or the wider order-level effects of decline rather than immediate crisis-warning pressure, route outward to [arc-wilkerson-diesen-host.md](../../arc-wilkerson-diesen-host.md).
+- If the question is mainly about imperial legitimacy collapse, BRICS consequence, or the wider order-level effects of decline rather than immediate crisis-warning pressure, route outward to [arc-wilkerson-diesen-host.md](arc-wilkerson-diesen-host.md).
 
 Do not use this speaker arc as:
 

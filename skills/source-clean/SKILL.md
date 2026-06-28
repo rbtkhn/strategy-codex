@@ -164,7 +164,7 @@ Agents: import `fix_statecraft_common_asr_entities.apply_replacements` in-proces
 
 ## Cursor / strategy-codex instance
 
-**Windows fail-over (manual ASR after `source-clean`):** if Shell or `python -c` batch replace **interrupts** on the capture path, stop Shell for that thread and patch via `StrReplace` or one full-file `Write` (post-land cleanup only — not initial sidecar intake); do not retry the same batch shape. RLJ: [§ 2026-06-21 post-land ASR fail-over](../../statecraft/recursive-learning-journal.md#2026-06-21---post-land-asr-cleanup-shell-fail-over-windows) · [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
+**Windows fail-over (manual ASR after `source-clean`):** if Shell or `python -c` batch replace **interrupts** on the capture path, stop Shell for that thread and patch via `StrReplace` or one full-file `Write` (post-land cleanup only — not initial sidecar intake); do not retry the same batch shape. RLJ: [§ 2026-06-21 post-land ASR fail-over](../../statecraft/recursive-learning-journal.md#2026-06-21---post-land-asr-cleanup-shell-fail-over-windows) · [agent-tool-latency-discipline.mdc](../../../.cursor/rules/agent-tool-latency-discipline.mdc).
 
 ## Related
 

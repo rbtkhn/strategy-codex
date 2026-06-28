@@ -23,7 +23,7 @@ Quick separation rule:
 - `Davis x Mercouris` = force-feasibility pressure on Mercouris's diplomatic and institutional read
 - [arc-mercouris-continuity.md](arc-mercouris-continuity.md) = native bounded arc shape
 - [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md) = canonical recurring-strand atlas
-- [arc-mercouris-diesen-host.md](../../arc-mercouris-diesen-host.md) = legitimacy-order-transition branch at higher European-system altitude
+- [arc-mercouris-diesen-host.md](arc-mercouris-diesen-host.md) = legitimacy-order-transition branch at higher European-system altitude
 
 If a Mercouris item matters mainly because Davis is testing whether Western policy can actually be executed, routed, supplied, or sustained, it belongs here. If the item matters mainly because it advances a native Mercouris strand regardless of host pressure, prefer the native arc or thread atlas.
 
@@ -136,7 +136,7 @@ Distinct from:
 
 - the native [arc-mercouris-continuity.md](arc-mercouris-continuity.md), which carries the main stream continuity
 - [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md), which separates the recurring strands inside that native continuity
-- [arc-mercouris-diesen-host.md](../../arc-mercouris-diesen-host.md), which is less about feasibility pressure and more about European legitimacy and order transition
+- [arc-mercouris-diesen-host.md](arc-mercouris-diesen-host.md), which is less about feasibility pressure and more about European legitimacy and order transition
 
 ## Boundaries
 

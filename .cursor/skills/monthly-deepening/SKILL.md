@@ -43,7 +43,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 | Canonical archive root | [source-archive/statecraft/](../../../source-archive/statecraft/) |
 | Local observability receipts | [runtime/artifacts/cognition-streams/](../../../runtime/artifacts/cognition-streams/) |
 | Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../../codex/raw-input/README.md) |
-| Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../.codex-tmp/youtube-alex-mercouris-index/) |
+| Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../../.codex-tmp/youtube-alex-mercouris-index/) |
 | Day README generator | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
 | Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../../scripts/build_statecraft_day_dashboard.py) |
 | Speaker dashboard generator | [scripts/build_statecraft_speaker_dashboard.py](../../../scripts/build_statecraft_speaker_dashboard.py) |
@@ -82,7 +82,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 | Canonical archive root | [source-archive/statecraft/](../../../source-archive/statecraft/) |
 | Local observability receipts | [runtime/artifacts/cognition-streams/](../../../runtime/artifacts/cognition-streams/) |
 | Legacy raw-input fallback | [codex/years/2026/raw-input/](../../../codex/years/2026/raw-input/) |
-| Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../.codex-tmp/youtube-alex-mercouris-index/) |
+| Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../../.codex-tmp/youtube-alex-mercouris-index/) |
 | Day README generator | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
 | Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../../scripts/build_statecraft_day_dashboard.py) |
 | Speaker dashboard generator | [scripts/build_statecraft_speaker_dashboard.py](../../../scripts/build_statecraft_speaker_dashboard.py) |

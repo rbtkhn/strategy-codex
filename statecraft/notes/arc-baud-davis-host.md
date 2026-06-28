@@ -113,7 +113,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about present-tense deterrence signaling or managed-passage logic under live pressure rather than mandate and co-belligerency, route outward to [arc-baud-nima-host.md](../../arc-baud-nima-host.md).
+- If the question is mainly about present-tense deterrence signaling or managed-passage logic under live pressure rather than mandate and co-belligerency, route outward to [arc-baud-nima-host.md](arc-baud-nima-host.md).
 
 - Baud is strongest here on legality, mandate, negotiation trust, and strategic coherence, not on fine-grained tactical verification.
 - The on-disk shelf is still thin relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

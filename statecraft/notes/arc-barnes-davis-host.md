@@ -19,8 +19,8 @@ This file should be read as the **domestic-liability and constitutional-process*
 Quick separation rule:
 
 - `Davis x Barnes` = war powers, legal exposure, executive-process fracture, coalition sell, and domestic political survivability
-- [arc-postol-davis-host.md](../../arc-postol-davis-host.md) = engineering limits and destructive-capacity truth
-- [arc-johnson-davis-host.md](../../arc-johnson-davis-host.md) = intelligence-political causation and operational consequence
+- [arc-postol-davis-host.md](arc-postol-davis-host.md) = engineering limits and destructive-capacity truth
+- [arc-johnson-davis-host.md](arc-johnson-davis-host.md) = intelligence-political causation and operational consequence
 - [greenwald-profile.md](../../codex/profiles/greenwald-profile.md) = media-state and civil-liberties pressure rather than Barnes's war-powers/process lane
 
 If the notebook needs to know who can authorize, sustain, or politically survive an escalation path, route here. If it needs engineering correction, operational causation, or media-state critique, route to the neighboring surfaces instead.
@@ -88,8 +88,8 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [arc-postol-davis-host.md](../../arc-postol-davis-host.md), which is stronger on physical mechanism than on legal liability
-- [arc-johnson-davis-host.md](../../arc-johnson-davis-host.md), which is stronger on intelligence and geopolitical causation than on domestic process failure
+- [arc-postol-davis-host.md](arc-postol-davis-host.md), which is stronger on physical mechanism than on legal liability
+- [arc-johnson-davis-host.md](arc-johnson-davis-host.md), which is stronger on intelligence and geopolitical causation than on domestic process failure
 - the Greenwald surfaces, which are stronger on media-state pressure and civil-liberties framing than on Barnes's constitutional war-powers lane
 
 ## Boundaries

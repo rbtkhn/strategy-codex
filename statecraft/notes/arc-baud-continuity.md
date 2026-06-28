@@ -24,7 +24,7 @@ Open by question:
 - person continuity and month-to-month arc -> `arc-baud-continuity.md`
 - international-law taxonomy and recurring legal strand -> [baud-thread-international-law.md](../voices/baud/baud-thread-international-law.md)
 - host transformation and comparison -> [baud-helix.md](../voices/baud/baud-helix.md)
-- host-local retrieval -> [arc-baud-nima-host.md](../../arc-baud-nima-host.md), [arc-baud-davis-host.md](../../arc-baud-davis-host.md), [arc-baud-diesen-host.md](../../arc-baud-diesen-host.md)
+- host-local retrieval -> [arc-baud-nima-host.md](arc-baud-nima-host.md), [arc-baud-davis-host.md](arc-baud-davis-host.md), [arc-baud-diesen-host.md](arc-baud-diesen-host.md)
 - legacy compatibility only -> [baud-thread.md](../voices/baud/baud-thread.md)
 
 This file should not collapse those surfaces back into one object. It keeps Baud legible as a recurring person-level voice while the law thread, helix, and host arcs do their narrower jobs.

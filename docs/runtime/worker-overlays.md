@@ -58,7 +58,7 @@ python3 scripts/runtime/grace_mar_runtime_worker.py \
 ## See also
 
 - [worker-routing.md](worker-routing.md) — `task_type` → routed worker mapping
-- [runtime-worker.md](runtime-worker.md) — proposals and traces
+- [runtime-worker.md](../runtime-worker.md) — proposals and traces
 
 ## Deferred
 

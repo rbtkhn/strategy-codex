@@ -70,7 +70,7 @@ Why:
 - the existing cross-context note already describes a coherent month object rather than a thin or obviously broken one
 - current evidence does not yet isolate one clear missing March source whose landing would materially repair the month
 
-Use [arc-march-2026-cross-context-parsi-host.md](../../arc-march-2026-cross-context-parsi-host.md) as the March Parsi routing surface.
+Use [arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md) as the March Parsi routing surface.
 
 ## Operational consequence
 

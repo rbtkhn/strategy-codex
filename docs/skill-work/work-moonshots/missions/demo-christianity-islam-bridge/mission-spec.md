@@ -1,6 +1,6 @@
 ﻿# Mission â€” Christianityâ€“Islam civilizational bridge (demo)
 
-**WORK / demo mission.** Aligns with [self-moonshots.md](../../../../../self-moonshots.md) MS-001 staging. Not Record truth until promoted via gate.
+**WORK / demo mission.** Aligns with [self-moonshots.md](../../../../../archive/grace-mar-instance/self-moonshots.md) MS-001 staging. Not Record truth until promoted via gate.
 
 ## Mission name
 

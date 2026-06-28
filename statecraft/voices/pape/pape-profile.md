@@ -96,4 +96,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [pape-transcript.md](../../../../../../../../../../../../../../codex/2026/pape/pape-transcript.md) (7-day rolling verbatim, compatibility), [pape-thread.md](../../../../../../../../../../../../../../codex/2026/pape/pape-thread.md) (distilled analytical thread, compatibility).
+**Companion files:** [pape-transcript.md](../../../codex/2026/pape/pape-transcript.md) (7-day rolling verbatim, compatibility), [pape-thread.md](../../../codex/2026/pape/pape-thread.md) (distilled analytical thread, compatibility).

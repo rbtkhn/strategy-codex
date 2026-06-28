@@ -17,7 +17,7 @@ Machine parsing uses the same **`### CANDIDATE-*` + fenced YAML** contract as el
 
 That matches existing gate rows that bundle strategy modules under the politics territory for batch tooling. If you intentionally want a **companion-only** row (no WAP bucket), use **`territory: companion`** and an appropriate `channel_key` (e.g. `operator:cursor:…`) per your operator convention — see [`stage_gate_candidate.py`](../../../scripts/stage_gate_candidate.py).
 
-Full WAP field patterns: [work-politics wap-candidate-template.md](../work-politics/wap-candidate-template.md).
+Full WAP field patterns: [work-politics wap-candidate-template.md](../work-politics/pol-candidate-template.md).
 
 ## Paste helper CLI
 

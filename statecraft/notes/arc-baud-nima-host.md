@@ -99,11 +99,11 @@ Do not use this arc as a shortcut for alliance-liability diagnosis, cross-year 2
 
 ## Best paired read
 
-Best paired read: [arc-freeman-nima-host.md](../../arc-freeman-nima-host.md)
+Best paired read: [arc-freeman-nima-host.md](arc-freeman-nima-host.md)
 
 Why: Freeman gives the diplomatic-memory and order-transition lane; Baud gives the law-of-war, treaty-credibility, and strategic-rationality lane. They often touch the same crisis terrain, but they justify their readings differently.
 
-Second-best paired read: [arc-marandi-nima-host.md](../../arc-marandi-nima-host.md)
+Second-best paired read: [arc-marandi-nima-host.md](arc-marandi-nima-host.md)
 
 Why: Marandi gives the regime-adjacent red-line and legitimacy register; Baud gives the legality, deterrence, and European-failure register. Together they show how the same host pressure elicits very different strategic grammars.
 
@@ -118,11 +118,11 @@ Use `Dialogue Works x Baud` when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about co-belligerency, perfidy, mandate, or Gulf-base alliance liability rather than live event pressure, route outward to [arc-baud-davis-host.md](../../arc-baud-davis-host.md).
+- If the question is mainly about co-belligerency, perfidy, mandate, or Gulf-base alliance liability rather than live event pressure, route outward to [arc-baud-davis-host.md](arc-baud-davis-host.md).
 
 Do not use this arc as:
 
-- a substitute for the broader [arc-baud-continuity.md](../../arc-baud-continuity.md) continuity record
+- a substitute for the broader [arc-baud-continuity.md](arc-baud-continuity.md) continuity record
 - a wire-grade verifier for battlefield arithmetic, damage estimates, or classified sourcing claims
 - a replacement for Ritter when the notebook specifically needs sea-control or military-mechanics emphasis
 - a claim that Baud's legal framing by itself settles the institutional or factual dispute

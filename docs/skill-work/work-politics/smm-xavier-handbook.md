@@ -81,7 +81,7 @@ The operator may run an internal **daily brief** script and a **Massie news scan
 |-------|-------------|
 | **Daily brief file** (if shared) | Scan for priorities, risks, and what Massie did/said. |
 | **Draft post candidates** (from agent) | Run through [smm-training checklist](smm-training.md#checklist-for-smm-when-reviewing-drafts); edit; post or reject. |
-| **Internal WAP dashboard** (`/wap` on miniapp host, token from operator) | Optional: log jobs and **paste** Cursor outputs so work isnâ€™t lost when a chat thread closes. See [wap-dashboard.md](../../wap-dashboard.md). |
+| **Internal WAP dashboard** (`/wap` on miniapp host, token from operator) | Optional: log jobs and **paste** Cursor outputs so work isnâ€™t lost when a chat thread closes. See [wap-dashboard.md](smm-workspace.md). |
 
 **Daily vs weekly brief (one sentence):** **Daily** = fast pulse + snapshot for the operator. **Weekly** = deeper, cited â€œweek ofâ€ story for review. You live mostly in **daily** rhythm + your posting queue.
 

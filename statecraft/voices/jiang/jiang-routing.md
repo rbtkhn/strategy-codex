@@ -31,8 +31,8 @@ Use this file to decide which Jiang layer to open first.
 
 - Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - Public mirror: [../../../public/predictive-history/README.md](../../../README.md)
-- Volume I interwoven spine: [public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../README.md)
-- Volume I Parts shelf: [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../README.md)
+- Volume I interwoven spine: [public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../singularity/work-cici/README.md)
+- Volume I Parts shelf: [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../singularity/work-cici/README.md)
 - Jiang analysis notes: [../../../public/predictive-history/docs/jiang-analysis-index.md](../../../public/predictive-history/docs/jiang-analysis-index.md)
 - Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md)
 
@@ -42,7 +42,7 @@ Ten **Part doorways** overlay the interwoven civilization spine — navigation o
 
 | Surface | Path |
 |---------|------|
-| Parts index | [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../README.md) |
+| Parts index | [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../singularity/work-cici/README.md) |
 | Registry (SSOT) | [../../../public/predictive-history/data/parts/volume-i-parts.json](../../../public/predictive-history/data/parts/volume-i-parts.json) |
 | Part boundary tour | [../../../public/predictive-history/data/routes/part-boundary-tour.json](../../../public/predictive-history/data/routes/part-boundary-tour.json) |
 | LLM `part_tour` mode | [../../../public/predictive-history/data/llm-experience.json](../../../public/predictive-history/data/llm-experience.json) |

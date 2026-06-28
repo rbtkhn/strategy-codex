@@ -78,7 +78,7 @@ If pages named this expert during 2026-02, the narrative should eventually say *
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-02, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 - [strength: low] **Corpus pointer (WORK):** Operator-scoped lecture tree Ã¢â‚¬â€ not a dated Feb appearance claim.
-  `../../../../../../../../../../../../../../codex/predictive-history/` (repo-relative)
+  `../../../codex/predictive-history/` (repo-relative)
 ## 2026-03
 
 March remains **scope-note** territory until the operator pins indexed transcripts; **April** machine lines may reference **vi-15** etc. Ã¢â‚¬â€ Q1 is **honest sparsity**.

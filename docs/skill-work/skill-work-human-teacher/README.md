@@ -23,7 +23,7 @@ This submodule consolidates **human teaching and learning objectives** for when 
 
 ## Cross-references
 
-- [Recursive self-learning objectives](../../recursive-self-learning-objectives.md) — System objectives; links here for human-augment path.
+- [Recursive self-learning objectives](README.md) — System objectives; links here for human-augment path.
 - [Concept](../../concept.md) — No human guide assumed; operator may augment.
 - [Instance patterns](../../instance-patterns.md) — Session brief (operator tool).
 - [Long-term objective](../../long-term-objective.md) — Delegated human merge; sovereignty.

@@ -224,7 +224,7 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 
 ### References
 
-- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **Diesen Ãƒâ€” Sachs (blockade episode):** [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ)
 
 ### Receipt
@@ -233,7 +233,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
 | **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../daily-strategy-inbox.md Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 
@@ -246,7 +246,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 ---
 
-### Optional page index row (copy-paste into [`legacy page index`](../../../../../../../../../../../../../codex/watches/README.md)
+### Optional page index row (copy-paste into [`legacy page index`](../../../codex/watches/README.md)
 
 ```yaml
   - page_id: `diesen-vi14-petrodollar-vs-sachs-hormuz` (legacy path removed)

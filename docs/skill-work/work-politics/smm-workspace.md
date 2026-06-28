@@ -48,7 +48,7 @@
 **Election:** KY-4 primary May 19, 2026  
 **Your job:** Respond to Massie, boost engagement, sway opinion. Agent drafts; you review and post.
 
-**Internal work-politics dashboard:** On the miniapp host, `/wap` with `WAP_DASHBOARD_TOKEN` — track news-scan / X-draft jobs and paste Cursor outputs so work survives thread closes. See [wap-dashboard.md](../../wap-dashboard.md) (operator shares URL + token).
+**Internal work-politics dashboard:** On the miniapp host, `/wap` with `WAP_DASHBOARD_TOKEN` — track news-scan / X-draft jobs and paste Cursor outputs so work survives thread closes. See [wap-dashboard.md](smm-workspace.md) (operator shares URL + token).
 
 ---
 

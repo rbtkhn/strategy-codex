@@ -105,7 +105,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about negotiation room, sanctions leverage, or settlement architecture, route outward to [arc-crooke-davis-host.md](../../arc-crooke-davis-host.md) rather than stretching this live-pressure lane into bargaining work.
+- If the question is mainly about negotiation room, sanctions leverage, or settlement architecture, route outward to [arc-crooke-davis-host.md](arc-crooke-davis-host.md) rather than stretching this live-pressure lane into bargaining work.
 
 - Crooke is strongest here on live-pressure meaning, strategic transformation, and civilizational-statecraft interpretation, not on tactical micro-verification.
 - The new materialized shelf is real, but it is still a conservative subset of the full stream-discovered run.

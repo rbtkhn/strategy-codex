@@ -4,10 +4,10 @@
 **Lane:** work-strategy → work-strategy-rome
 **Purpose:** End-to-end proof that the civilizational bridge, case index, promotion ladder, and current-events workflow can be used together inside a live strategy artifact.
 **Related:**
-- [../../current-events-analysis.md](../../current-events-analysis.md)
-- [../../civilizational-strategy-surface.md](../../civilizational-strategy-surface.md)
-- [../../case-index.md](../../case-index.md)
-- [../../promotion-ladder.md](../../promotion-ladder.md)
+- [../../../../current-events-analysis.md](../../../../current-events-analysis.md)
+- [../../../../civilizational-strategy-surface.md](../../../../civilizational-strategy-surface.md)
+- [../../../../case-index.md](../../../../case-index.md)
+- [../../../../promotion-ladder.md](../../../../promotion-ladder.md)
 - [../ROME-PASS.md](../ROME-PASS.md)
 
 ---

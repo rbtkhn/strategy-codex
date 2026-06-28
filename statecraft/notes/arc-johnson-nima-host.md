@@ -97,7 +97,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what force can no longer realistically achieve, route outward to [arc-johnson-davis-host.md](../../arc-johnson-davis-host.md).
-- If the question is mainly about wider regional redraw and systemic consequence, route outward to [arc-johnson-diesen-host.md](../../arc-johnson-diesen-host.md).
+- If the question is mainly about what force can no longer realistically achieve, route outward to [arc-johnson-davis-host.md](arc-johnson-davis-host.md).
+- If the question is mainly about wider regional redraw and systemic consequence, route outward to [arc-johnson-diesen-host.md](arc-johnson-diesen-host.md).
 - Johnson is strongest here on live-pressure collapse tempo, not on neutral tactical verification.
 - The lane is real because the host-local shape repeats across a dense April-May 2026 run, not because every Johnson appearance under Dialogue Works is equally canonical.

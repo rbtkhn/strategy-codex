@@ -24,4 +24,4 @@ _Edit between brief runs. removed operator-books symlink (Predictive History): [
 
 ## Traceability into the gate
 
-Optional `jiang_ref` on work-politics candidates - see [wap-candidate-template.md](../work-politics/wap-candidate-template.md).
+Optional `jiang_ref` on work-politics candidates - see [wap-candidate-template.md](../work-politics/pol-candidate-template.md).

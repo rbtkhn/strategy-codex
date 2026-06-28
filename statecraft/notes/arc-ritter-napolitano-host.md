@@ -69,7 +69,7 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about whether the military plan is feasible or materially sustainable rather than whether it is legally absurd or piratical, route outward to [arc-ritter-davis-host.md](../../arc-ritter-davis-host.md).
+- If the question is mainly about whether the military plan is feasible or materially sustainable rather than whether it is legally absurd or piratical, route outward to [arc-ritter-davis-host.md](arc-ritter-davis-host.md).
 
 - This is now a materially real November 2025-May 2026 Napolitano branch.
 - The November-through-March files are routeable but mixed in grade; the March 17, April 20, and May 18 transcript-bearing files now form the strongest native opening shelf.

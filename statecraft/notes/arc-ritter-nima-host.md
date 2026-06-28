@@ -100,7 +100,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what the U.S. can materially sustain or impose rather than how fast control is collapsing, route outward to [arc-ritter-davis-host.md](../../arc-ritter-davis-host.md).
+- If the question is mainly about what the U.S. can materially sustain or impose rather than how fast control is collapsing, route outward to [arc-ritter-davis-host.md](arc-ritter-davis-host.md).
 
 - Ritter is strongest here on immediate war-motion and crisis pressure, not on balanced sequencing or calmer feasibility analysis.
 - Prefer this lane when the notebook needs the sharpest present-tense Ritter register; prefer the Diesen lane for broader strategic consequence and the Davis lane for operational practicality.

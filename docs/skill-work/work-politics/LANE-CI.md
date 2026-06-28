@@ -17,12 +17,12 @@ Merge queue tooling and `gate_block_parser` expect **`recursion-gate.md`** block
 
 **`channel_key`:** use the `operator:wap:…` convention (see [README § Gate convention](README.md)). Not informal “WAP” in prose — the **token** in YAML is still `operator:wap:`.
 
-Full field reference: [wap-candidate-template.md](wap-candidate-template.md).
+Full field reference: [wap-candidate-template.md](pol-candidate-template.md).
 
 ## Paste helpers
 
 - **CLI:** `python scripts/emit_work_politics_gate_paste_snippet.py --help` — writes `archive/grace-mar-instance/recursion-gate-staging/work-politics-<date>.paste-snippet.md` with the next `CANDIDATE-*` id and required territory fields.
-- **Manual:** follow [wap-candidate-template.md](wap-candidate-template.md) if you prefer hand-authored YAML.
+- **Manual:** follow [wap-candidate-template.md](pol-candidate-template.md) if you prefer hand-authored YAML.
 
 ## Optional JSON sidecars
 

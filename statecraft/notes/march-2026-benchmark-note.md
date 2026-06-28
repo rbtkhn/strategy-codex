@@ -44,10 +44,10 @@ Use these existing surfaces as the benchmark spine:
 - [wilkerson-march-2026-note.md](../voices/wilkerson/wilkerson-march-2026-note.md)
   Carries the seven-anchor escalation-hinge reading and already preserves why March is routeable without more closure work.
 
-- [arc-march-2026-cross-context-parsi-host.md](../../arc-march-2026-cross-context-parsi-host.md)
+- [arc-march-2026-cross-context-parsi-host.md](arc-march-2026-cross-context-parsi-host.md)
   Preserves March as the early mature-crossing month where authored mechanism and interview pressure visibly meet.
 
-- [arc-march-2026-cross-host-freeman-host.md](../../arc-march-2026-cross-host-freeman-host.md)
+- [arc-march-2026-cross-host-freeman-host.md](arc-march-2026-cross-host-freeman-host.md)
   Makes the month-level system-activation sequence visible across hosts rather than letting March be rediscovered piecemeal.
 
 - [pape-marandi-parsi-backtest-march-2026.md](../bridges/pape-marandi-parsi-backtest-march-2026.md)

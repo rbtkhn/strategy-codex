@@ -121,7 +121,7 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about force sustainability, inflation, or Hormuz cost rather than undeclared-war indictment, route outward to [arc-macgregor-davis-host.md](../../arc-macgregor-davis-host.md).
+- If the question is mainly about force sustainability, inflation, or Hormuz cost rather than undeclared-war indictment, route outward to [arc-macgregor-davis-host.md](arc-macgregor-davis-host.md).
 
 - This is a real January 2025-May 2026 Napolitano branch.
 - January through May 2025 now give the branch fourteen transcript-grade opening anchors; November remains a routeable summary-grade reinforcement, with April 23 still the strongest native opening point.

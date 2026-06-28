@@ -83,6 +83,15 @@ TARGET_REWRITES: dict[str, str] = {
     ),
     "arc-johnson-continuity.md": "statecraft/voices/johnson/johnson-arc.md",
     "statecraft.md": "statecraft/README.md",
+    "approval-workflow.md": "docs/externals/massie/smm-training/approval-workflow.md",
+    "templates.md": "docs/externals/massie/smm-training/templates.md",
+    "massie-ky4.md": "docs/skill-work/work-politics/clients/massie-ky4.md",
+    "wap-candidate-template.md": "docs/skill-work/work-politics/pol-candidate-template.md",
+    "self-moonshots.md": "archive/grace-mar-instance/self-moonshots.md",
+    "runtime-worker.md": "docs/runtime-worker.md",
+    "recursive-self-learning-objectives.md": (
+        "docs/skill-work/skill-work-human-teacher/README.md"
+    ),
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -277,6 +286,16 @@ def resolve_legacy_path(path_part: str) -> Path | None:
         if candidate.is_file():
             return candidate
 
+    if re.match(r"arc-.+-host\.md$", norm):
+        candidate = REPO_ROOT / "statecraft" / "notes" / norm
+        if candidate.is_file():
+            return candidate
+
+    if basename.startswith("pape-marandi-parsi-"):
+        candidate = REPO_ROOT / "statecraft" / "bridges" / basename
+        if candidate.is_file():
+            return candidate
+
     if "synthesis/persia/transactions/" in norm:
         rewritten = norm.replace("synthesis/persia/transactions/", "persia/transactions/")
         candidate = REPO_ROOT / rewritten
@@ -449,6 +468,18 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
 
     if rel.startswith("statecraft/notes/watch/"):
         replacements.append(("../compact/", "../../compact/"))
+        replacements.append(("../../../compact/", "../../compact/"))
+        replacements.append(("../../../../compact/", "../../compact/"))
+
+    if "work-strategy-rome/notes/exemplars" in rel:
+        replacements.extend(
+            [
+                ("../../../../current-events-analysis.md", "../../../current-events-analysis.md"),
+                ("../../../../civilizational-strategy-surface.md", "../../../civilizational-strategy-surface.md"),
+                ("../../../../case-index.md", "../../../case-index.md"),
+                ("../../../../promotion-ladder.md", "../../../promotion-ladder.md"),
+            ]
+        )
 
     if rel.startswith("statecraft/voices/johnson/"):
         replacements.append(("arc-johnson-continuity.md", "johnson-arc.md"))
@@ -521,6 +552,15 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../../.cursor/skills/skill-strategy/SKILL.md",
                     "../../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
                 ),
+                ("../../.cursor/rules/", "../../../.cursor/rules/"),
+                ("../../.codex-tmp/", "../../../.codex-tmp/"),
+                ("../../../codex/academy/", "../../../../codex/academy/"),
+                ("../../../../.cursor/rules/", "../../../.cursor/rules/"),
+                ("../../../../../.cursor/rules/", "../../../.cursor/rules/"),
+                ("../../../../.codex-tmp/", "../../../.codex-tmp/"),
+                ("../../../../../.codex-tmp/", "../../../.codex-tmp/"),
+                ("../../../../../codex/academy/", "../../../../codex/academy/"),
+                ("../../../../../../codex/academy/", "../../../../codex/academy/"),
             ]
         )
 
@@ -546,6 +586,81 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 "../../../singularity/work-cici/",
                 "../../../../singularity/work-cici/",
             )
+        )
+
+    if rel.startswith("statecraft/bridges/"):
+        replacements.append(("../../america/", "../america/"))
+
+    if rel.startswith("statecraft/notes/") and "/reentry/" not in rel and "/watch/" not in rel:
+        replacements.append(("../../arc-", "arc-"))
+
+    if rel.startswith("docs/skill-work/work-strategy/work-strategy-rome/notes/exemplars/"):
+        replacements.extend(
+            [
+                ("../../current-events-analysis.md", "../../../current-events-analysis.md"),
+                ("../../civilizational-strategy-surface.md", "../../../civilizational-strategy-surface.md"),
+                ("../../case-index.md", "../../../case-index.md"),
+                ("../../promotion-ladder.md", "../../../promotion-ladder.md"),
+            ]
+        )
+
+    if rel.startswith("docs/skill-work/work-politics/"):
+        replacements.extend(
+            [
+                ("../../wap-dashboard.md", "smm-workspace.md"),
+                ("](approval-workflow.md)", "](../../externals/massie/smm-training/approval-workflow.md)"),
+                ("](templates.md)", "](../../externals/massie/smm-training/templates.md)"),
+                ("](massie-ky4.md)", "](clients/massie-ky4.md)"),
+                ("](wap-candidate-template.md)", "](pol-candidate-template.md)"),
+            ]
+        )
+
+    if rel.startswith("docs/runtime/"):
+        replacements.append(("](runtime-worker.md)", "](../runtime-worker.md)"))
+
+    if rel.startswith("docs/skill-work/work-civ-mem/"):
+        replacements.extend(
+            [
+                ("topic-trace-tempeate.md", "topic-trace-template.md"),
+                (
+                    "../work-poeitics/civ-mem-draft-protocoe.md",
+                    "../work-politics/civ-mem-draft-protocol.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("docs/skill-work/work-moonshots/"):
+        replacements.append(
+            (
+                "../../../self-moonshots.md",
+                "../../../../archive/grace-mar-instance/self-moonshots.md",
+            )
+        )
+
+    if rel.startswith("statecraft/voices/jiang/"):
+        replacements.extend(
+            [
+                (
+                    "../../../public/predictive-history/../../../public/predictive-history/",
+                    "../../../public/predictive-history/",
+                ),
+                (
+                    "[public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../README.md)",
+                    "[public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md)",
+                ),
+                (
+                    "[public/predictive-history/book/volume-i-civilization/parts/README.md](../../../README.md)",
+                    "[public/predictive-history/book/volume-i-civilization/parts/README.md](../../../public/predictive-history/book/volume-i-civilization/parts/README.md)",
+                ),
+                (
+                    "[parts/](../../../README.md)",
+                    "[parts/](../../../public/predictive-history/book/volume-i-civilization/parts/README.md)",
+                ),
+                (
+                    "[interwoven-reader](../../../README.md)",
+                    "[interwoven-reader](../../../public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md)",
+                ),
+            ]
         )
 
     for old, new in replacements:
@@ -594,6 +709,13 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append(
             (r"\]\(public/predictive-history/([^)#]+)\)", r"](../../../public/predictive-history/\1)"),
         )
+    if rel.startswith("statecraft/voices/"):
+        patterns.append((r"(?:\.\./)+codex/predictive-history/", "../../../codex/predictive-history/"))
+        patterns.append((r"(?:\.\./)+codex/", "../../../codex/"))
+    if rel.startswith(".cursor/skills/") or rel.startswith("skills/"):
+        patterns.append((r"(?:\.\./)+\.codex-tmp/", "../../../.codex-tmp/"))
+        patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
+        patterns.append((r"(?:\.\./)+codex/academy/", "../../../../codex/academy/"))
     for pattern, repl in patterns:
         new_text, n = re.subn(pattern, repl, text)
         if n:

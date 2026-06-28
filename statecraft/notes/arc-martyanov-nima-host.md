@@ -107,7 +107,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what the battlefield outcome or force balance can realistically sustain rather than how fast crisis rhetoric is outrunning reality, route outward to [arc-martyanov-davis-host.md](../../arc-martyanov-davis-host.md).
+- If the question is mainly about what the battlefield outcome or force balance can realistically sustain rather than how fast crisis rhetoric is outrunning reality, route outward to [arc-martyanov-davis-host.md](arc-martyanov-davis-host.md).
 
 - Martyanov is strongest here on force balance, military systems, and strategic-collapse language, not on bargaining-room diplomacy.
 - The materialized shelf is now real and useful, but it is still a conservative subset of the broader host run.

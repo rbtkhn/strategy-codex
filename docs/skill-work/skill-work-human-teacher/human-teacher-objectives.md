@@ -30,7 +30,7 @@ Instances may add instructor briefs, class/seminar variants, or age/language-spe
 
 ## Human teaching / learning objectives
 
-When a human is in the loop, their objectives align with [recursive self-learning objectives](../../recursive-self-learning-objectives.md), from the human’s role:
+When a human is in the loop, their objectives align with [recursive self-learning objectives](README.md), from the human’s role:
 
 | Objective | Human’s role |
 |-----------|--------------|
@@ -57,7 +57,7 @@ When a human teacher is present, the following **generic academic objectives** a
 | **Respect identity** | When suggesting or gating, respect SELF and museum knowledge section C; don’t push content that conflicts with the Record. |
 | **Support the 2-hour design** | When relevant, help keep screen-based learning within the design (e.g. up to 2 hours per day); protect focus and time back. |
 
-These align with [recursive self-learning objectives](../../recursive-self-learning-objectives.md) and with the human’s read/modulate role above. No curriculum delivery required; the human reads skill-think, shapes focus and gate, and keeps the Record coherent.
+These align with [recursive self-learning objectives](README.md) and with the human’s read/modulate role above. No curriculum delivery required; the human reads skill-think, shapes focus and gate, and keeps the Record coherent.
 
 ---
 
@@ -103,7 +103,7 @@ So: **read** skill-think and edge → **shape** focus and gate decisions → THI
 
 ## Cross-references
 
-- [Recursive self-learning objectives](../../recursive-self-learning-objectives.md) — System objectives; “operator may augment” points here for human role.
+- [Recursive self-learning objectives](README.md) — System objectives; “operator may augment” points here for human role.
 - [Concept](../../concept.md) §6–7 — No human guide assumed; operator/parent may augment; invariants.
 - [Instance patterns](../../instance-patterns.md) — Session brief (operator tool), analyst and gate.
 - [Long-term objective](../../long-term-objective.md) — Delegated human may perform merge; sovereignty.

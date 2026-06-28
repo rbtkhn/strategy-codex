@@ -30,9 +30,9 @@ If a new Freeman item could sit in several of these without changing how the ope
 ## Route Stack
 
 - [Freeman index](index.md)
-- [March 2026 cross-host arc](arc-march-2026-cross-host-freeman-host.md)
-- [April 2026 cross-host arc](arc-april-2026-cross-host-freeman-host.md)
-- [May 2026 cross-host arc](arc-may-2026-cross-host-freeman-host.md)
+- [March 2026 cross-host arc](../../notes/arc-march-2026-cross-host-freeman-host.md)
+- [April 2026 cross-host arc](../../notes/arc-april-2026-cross-host-freeman-host.md)
+- [May 2026 cross-host arc](../../notes/arc-may-2026-cross-host-freeman-host.md)
 - [Judging Freedom / Napolitano arc](../channels/judging-freedom/arc-freeman-napolitano-host.md
 - [Dialogue Works / Nima arc](../channels/dialogue-works/arc-freeman-nima-host.md
 - [Glenn Diesen arc](../diesen/arc-freeman-diesen-host.md

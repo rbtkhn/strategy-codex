@@ -114,4 +114,4 @@ Typical pairings around the guest lane:
 - The 2026 lane is now real on disk, but it remains smaller than the Mearsheimer shelf; do not overstate its scale.
 - The 2025 Ukraine files are not noise. They are the roots that make the 2026 Iran files legible as a transformed continuation rather than a separate guest coincidence.
 - Some older Davis x Freeman files on disk still have malformed guest metadata from earlier ingestion; use the host-local lane and the titles correctly, not the legacy malformed `guest:` fields, when routing older shelf items.
-- If the question is mainly about sea-power transition or Hormuz as world-order lever, route outward to [arc-freeman-diesen-host.md](../../arc-freeman-diesen-host.md) rather than stretching this arc beyond its settlement-realism role.
+- If the question is mainly about sea-power transition or Hormuz as world-order lever, route outward to [arc-freeman-diesen-host.md](arc-freeman-diesen-host.md) rather than stretching this arc beyond its settlement-realism role.

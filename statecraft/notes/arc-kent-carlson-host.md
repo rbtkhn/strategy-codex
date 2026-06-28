@@ -61,4 +61,4 @@ The notebook may route these as Kent testimony, but it should not convert them i
 
 This arc upgrades the Kent helix: Carlson is the public-testimony branch. Davis remains the operational-exit branch, Diesen the structural-history branch, and Nawfal the political-pressure branch.
 
-If the question is mainly about whether the war can be exited or won, route outward to [arc-kent-davis-host.md](../../arc-kent-davis-host.md) rather than stretching this testimony lane into force-feasibility work.
+If the question is mainly about whether the war can be exited or won, route outward to [arc-kent-davis-host.md](arc-kent-davis-host.md) rather than stretching this testimony lane into force-feasibility work.

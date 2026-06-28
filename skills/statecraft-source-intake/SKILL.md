@@ -316,7 +316,7 @@ Small captures (short clips, partial stubs under both thresholds) may still use 
 
 - one monolithic IDE `Write` or giant `apply_patch` for a large archive file under `source-archive/statecraft/`
 - leave `_oneoff_*` merge scripts or body sidecars in `scripts/` after land
-- retry the same hung write shape — fail over to shell merge (see [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc))
+- retry the same hung write shape — fail over to shell merge (see [agent-tool-latency-discipline.mdc](../../../.cursor/rules/agent-tool-latency-discipline.mdc))
 
 ### Always (chunked path)
 
@@ -370,7 +370,7 @@ python scripts/statecraft_day_source_index.py --latest --queue
 - **Do not** `Glob`, `Grep`, or parallel-read `thread-index.md` / `YYYY-MM/` for a dated day query.
 - **Analyst source-index** (`statecraft/voices/<speaker>/*-source-index.md`) is a different object — use only when scope is voice/corpus, not archive-day inventory.
 
-Routing SSOT: [LLM-ROUTING.md](../../LLM-ROUTING.md) · bounded-path rule: [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
+Routing SSOT: [LLM-ROUTING.md](../../LLM-ROUTING.md) · bounded-path rule: [agent-tool-latency-discipline.mdc](../../../.cursor/rules/agent-tool-latency-discipline.mdc).
 
 ## Verification / Proof Standard
 

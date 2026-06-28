@@ -19,7 +19,7 @@ This file should be read as the **macro-war convergence and sovereign-stress** A
 Quick separation rule:
 
 - `Dialogue Works x Armstrong` = debt, capital stress, tariffs/BRICS pressure, and macro-war convergence
-- [arc-jermy-diesen-host.md](../../arc-jermy-diesen-host.md) = maritime-order fracture and alliance divorce at order-transition altitude
+- [arc-jermy-diesen-host.md](arc-jermy-diesen-host.md) = maritime-order fracture and alliance divorce at order-transition altitude
 - [sachs/README.md](../voices/sachs/README.md) surfaces = development, macro-policy, and system-design critique rather than cycle-stress prophecy
 - [pape/README.md](../voices/pape/README.md) surfaces = coercion, war aims, and strategic pressure mechanics rather than sovereign-debt and systemic reset language
 

@@ -7,7 +7,7 @@
 - Preferred source stack for China- or statecraft-facing seed extraction:
   - canonical analyst arc notes under [statecraft/voices/](../../../statecraft/voices/) and host guest arcs under [statecraft/channels/](../../../statecraft/channels/)
   - strongest supporting raw-input transcript files under [codex/years/2026/raw-input](../../../codex/years/2026/raw-input) (archaeology only)
-  - lane destination or upstream seed files such as [China volume seeds](../../../codex/academy/statecraft/china/china-volume-seeds.md)
+  - lane destination or upstream seed files such as [China volume seeds](../../../../codex/academy/statecraft/china/china-volume-seeds.md)
 - Preferred validation commands after listed-skill edits:
 
 ```powershell

@@ -87,7 +87,7 @@ The operator may run an internal **daily brief** script and a **Massie news scan
 |-------|-------------|
 | **Daily brief file** (if shared) | Scan for priorities, risks, and what Massie did/said. |
 | **Draft post candidates** (from agent) | Run through [smm-training checklist](smm-training.md#checklist-for-smm-when-reviewing-drafts); edit; post or reject. |
-| **Internal WAP dashboard** (`/wap` on miniapp host, token from operator) | Optional: log jobs and **paste** Cursor outputs so work isn’t lost when a chat thread closes. See [wap-dashboard.md](../../wap-dashboard.md). |
+| **Internal WAP dashboard** (`/wap` on miniapp host, token from operator) | Optional: log jobs and **paste** Cursor outputs so work isn’t lost when a chat thread closes. See [wap-dashboard.md](smm-workspace.md). |
 
 **Daily vs weekly brief (one sentence):** **Daily** = fast pulse + snapshot for the operator. **Weekly** = deeper, cited “week of” story for review. You live mostly in **daily** rhythm + your posting queue.
 
@@ -690,7 +690,7 @@ Living doc. Agent updates when companion requests; cite sources. Stage new claim
 
 *Source file: `docs/skill-work/work-politics/clients/massie-ky4-operator-checklist.md`*
 
-**Purpose:** Calibrate work-politics for the Thomas Massie campaign. Human-always-approves public ship; work-politics territory + `channel_key` `operator:wap:us-ky4-massie`. See [massie-ky4.md](massie-ky4.md) for canonical links.
+**Purpose:** Calibrate work-politics for the Thomas Massie campaign. Human-always-approves public ship; work-politics territory + `channel_key` `operator:wap:us-ky4-massie`. See [massie-ky4.md](clients/massie-ky4.md) for canonical links.
 
 ---
 
@@ -758,7 +758,7 @@ Align with [generate_wap_weekly_brief](../../../scripts/generate_wap_weekly_brie
 
 ### Related docs
 
-- [massie-ky4.md](massie-ky4.md) — client index  
+- [massie-ky4.md](clients/massie-ky4.md) — client index  
 - [principal-profile.md](../principal-profile.md), [opposition-brief.md](../opposition-brief.md)  
 - [compliance-checklist.md](../compliance-checklist.md) — federal rows  
 
@@ -944,7 +944,7 @@ By the end of **Week 2**, the SMM can:
 When the **companion or operator** runs the Cursor skill **Massie X — real-time news search and draft posts**, output is **draft-only** for SMM review. SMM still applies [smm-training.md](smm-training.md) and account rules before any publish.
 
 - Skill: `.cursor/skills/politics-massie/SKILL.md` (repo root)
-- Operator dashboard (paste outputs): [wap-dashboard.md](../../wap-dashboard.md)
+- Operator dashboard (paste outputs): [wap-dashboard.md](smm-workspace.md)
 
 ---
 
@@ -1403,7 +1403,7 @@ Statuses: `new` → `ran_in_cursor` → `output_pasted` → `shipped`.
 |-------|--------|
 | Display name | America First Kentucky (Unofficial) |
 | Bio | States unofficial analysis + KY-4 / Massie + not affiliated with campaign or office |
-| Pinned post (optional) | Short explainer of what the account is (see [templates.md](templates.md)) |
+| Pinned post (optional) | Short explainer of what the account is (see [templates.md](../../externals/massie/smm-training/templates.md)) |
 
 ### First-day tasks (2–3 hours total)
 
@@ -1423,7 +1423,7 @@ Statuses: `new` → `ran_in_cursor` → `output_pasted` → `shipped`.
 
 - [ ] Posted at least one reviewed piece of content (reply, quote, or original).
 - [ ] Logged what you posted and approximate time (for weekly review).
-- [ ] No rule violations from [approval-workflow.md](approval-workflow.md).
+- [ ] No rule violations from [approval-workflow.md](../../externals/massie/smm-training/approval-workflow.md).
 
 ### Tomorrow
 
@@ -1450,8 +1450,8 @@ Open [week-1-ramp-plan.md](week-1-ramp-plan.md) and follow Day 2.
 
 ### Day 3 — Thread practice
 
-- Draft a **short thread** (3–5 posts) explaining **one** issue (e.g. war powers, spending, Fourth Amendment, etc.). Use [templates.md](templates.md).
-- Run through [approval-workflow.md](approval-workflow.md) checklist before posting.
+- Draft a **short thread** (3–5 posts) explaining **one** issue (e.g. war powers, spending, Fourth Amendment, etc.). Use [templates.md](../../externals/massie/smm-training/templates.md).
+- Run through [approval-workflow.md](../../externals/massie/smm-training/approval-workflow.md) checklist before posting.
 - Post in off-peak window first if you are new to threads (fewer eyes while you learn formatting).
 
 ### Day 4 — Opposition / correction discipline
@@ -1683,7 +1683,7 @@ Some teams start the day with a **brief + draft candidates** from research. Your
 
 *Source file: `docs/externals/massie/smm-training/templates.md`*
 
-Replace bracketed text. **Always** review against [approval-workflow.md](approval-workflow.md).
+Replace bracketed text. **Always** review against [approval-workflow.md](../../externals/massie/smm-training/approval-workflow.md).
 
 ---
 
