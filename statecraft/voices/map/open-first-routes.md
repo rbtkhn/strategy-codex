@@ -14,7 +14,7 @@ This file gives agents fast entry paths through the speaker map. It is a map of 
    `core host lane` / `non-core appearance bench` / `discovery memory`.
 6. Open the helix or cross-host note when the question is comparative across stable host transformations.
 7. Use raw-input only when provenance or transcript details matter.
-8. If the question is explicitly `speaker A versus speaker B`, check whether a cross-speaker compare note already exists under [`../../../../notes/`](../../../../notes/).
+8. If the question is explicitly `speaker A versus speaker B`, check whether a cross-speaker compare note already exists under [`../../notes/`](../../notes/).
 
 ## Route Types
 
@@ -63,10 +63,10 @@ Treat valid-but-unwired speaker raw-input as a defect.
 
 ## Current High-Value Paths
 
-- Napolitano densification: open [`../../../notes/`](../../../notes/), then Freeman, Johnson, Macgregor arcs.
+- Napolitano densification: open [`../../notes/`](../../notes/), then Freeman, Johnson, Macgregor arcs.
 - Freeman: open [`../freeman/index.md`](../freeman/index.md), then the March cross-host arc or matching host-local arc.
-- Dialogue Works x Freeman: open [`../../../../notes/arc-freeman-nima-host.md`](../../../../notes/arc-freeman-nima-host.md), then [`../freeman/freeman-march-2026-cross-host-arc.md`](../freeman/freeman-march-2026-cross-host-arc.md) if the question crosses hosts.
-- Davis x Barnes: open [`../../../../notes/arc-barnes-davis-host.md`](../../../../notes/arc-barnes-davis-host.md), then the Barnes speaker folder if it exists.
+- Dialogue Works x Freeman: open [`../../notes/arc-freeman-nima-host.md`](../../notes/arc-freeman-nima-host.md), then [`../freeman/freeman-march-2026-cross-host-arc.md`](../freeman/freeman-march-2026-cross-host-arc.md) if the question crosses hosts.
+- Davis x Barnes: open [`../../notes/arc-barnes-davis-host.md`](../../notes/arc-barnes-davis-host.md), then the Barnes speaker folder if it exists.
 
 ## Boundary
 

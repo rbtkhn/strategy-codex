@@ -19,7 +19,7 @@ Compatibility note: this file is a **legacy host-continuity compatibility surfac
 **Source:** Human **narrative journal** (below) + [`strategy-expert-davis-transcript.md`](davis-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
-**Companion files:** [davis-profile.md](davis-profile.md (profile) and [davis-transcript.md](davis-transcript.md) (7-day verbatim).
+**Companion files:** [davis-profile.md](davis-profile.md) (profile) and [davis-transcript.md](davis-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Narrative (operator)

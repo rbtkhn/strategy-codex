@@ -666,4 +666,4 @@ That’s the reality of it.
 
 ────────────────────────────────────────────────────────────
 
-See [MINDS-SKILL-STRATEGY-PATTERNS.md](../../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for recipes and post-entry lens offer.
+See [MINDS-SKILL-STRATEGY-PATTERNS.md](../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for recipes and post-entry lens offer.

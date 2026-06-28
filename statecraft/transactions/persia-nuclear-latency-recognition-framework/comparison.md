@@ -11,7 +11,7 @@ Purpose: compare the four national transactions without collapsing latency, weap
 | [America](america.md) | lawful nonproliferation, allied confidence, domestic authority | control sanctions, inspections, military deterrence, and coalition alignment | contain latency without hidden regime-change pressure |
 | [Russia](russia.md) | sovereignty memory and resistance to coercive precedent | weaken unilateral U.S. control over thresholds | support recognition while preventing proliferation chaos |
 | [China](china.md) | order, competence, energy stability, anti-chaos legitimacy | secure energy, finance, trade, and anti-coercion alternatives | preserve Iran as counterpressure without owning nuclear disorder |
-| [Iran](../iran.md) | dignity, sovereignty, resistance, and no humiliation | preserve deterrence, latency, recognition, and sanctions relief | trade threshold ambiguity for relief and assurances without surrender |
+| [Persia](persia.md) | dignity, sovereignty, resistance, and no humiliation | preserve deterrence, latency, recognition, and sanctions relief | trade threshold ambiguity for relief and assurances without surrender |
 
 ## Shared Settlement Spine
 

@@ -484,7 +484,7 @@ Keep **one** notebook sentence of distance: the essayÃƒÂ¢Ã¢â€šÂ¬Ã¢
 
 ### Appendix
 
-**SSOT:** [Substack ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â The Consequences of Incompetence](https://scottritter.substack.com/p/the-consequences-of-incompetence) Ãƒâ€šÃ‚Â· [daily-strategy-inbox.md `## 2026-04-19`](../daily-strategy-inbox.md (paste line + `batch-analysis | Ritter Substack ÃƒÆ’Ã¢â‚¬â€ ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | crosses:ritter+davis`) Ãƒâ€šÃ‚Â· [transcript.md](ritter-transcript.md) `## 2026-04-19` Ãƒâ€šÃ‚Â· cross-check table under `## 2026-04` above.
+**SSOT:** [Substack ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â The Consequences of Incompetence](https://scottritter.substack.com/p/the-consequences-of-incompetence) Ãƒâ€šÃ‚Â· [daily-strategy-inbox.md `## 2026-04-19`](../../../codex/daily-strategy-inbox.md) (paste line + `batch-analysis | Ritter Substack ÃƒÆ’Ã¢â‚¬â€ ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | crosses:ritter+davis`) Ãƒâ€šÃ‚Â· [transcript.md](ritter-transcript.md) `## 2026-04-19` Ãƒâ€šÃ‚Â· cross-check table under `## 2026-04` above.
 
 <!-- strategy-page:end -->
 <!-- strategy-expert-thread:start -->

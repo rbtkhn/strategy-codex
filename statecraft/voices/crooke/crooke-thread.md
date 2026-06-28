@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about law, host transformation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Crooke shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [crooke-helix.md](crooke-helix.md, with [crooke-thread-international-law.md](crooke-thread-international-law.md) as one real canonical topical thread. This file is not a second competing topical-thread system.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Crooke shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [crooke-helix.md](crooke-helix.md), with [crooke-thread-international-law.md](crooke-thread-international-law.md) as one real canonical topical thread. This file is not a second competing topical-thread system.
 
 **Source:** Distilled from [`transcript.md`](crooke-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

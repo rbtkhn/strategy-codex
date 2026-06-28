@@ -138,7 +138,7 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 | **Claim** | Henningsen: Israel **accepted** Ramat David hit |
 | **Verdict** | **Supported** (severity **partial**) |
 | **Wire** | IDF confirmed **minor damage** **7–8 Jun**; fragment vs direct hit **under investigation** (Times of Israel, Jerusalem Post) |
-| **Archive** | [Henningsen Jordan retaliation](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-colonel-douglas-macgregor-wilkerson-ramat-david-2026-06-09.md) |
+| **Archive** | [Henningsen Jordan retaliation](../../../source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md) |
 
 **Read:** Hit **occurred**; asset-loss / hangar-destruction tier still **escalate** (see Escalate table above).
 

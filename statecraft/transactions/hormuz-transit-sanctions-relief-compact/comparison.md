@@ -11,7 +11,7 @@ Purpose: compare the four national transactions without collapsing them into con
 | [America](america.md) | lawful maritime order and domestic legitimacy | control sea lanes, sanctions, allies, insurance, and escalation tempo | bind relief and force to authorization, burden-sharing, and limited aim |
 | [Russia](russia.md) | security depth and resistance to Western coercion | weaken U.S. primacy through energy, diplomacy, and multipolar leverage | exploit disruption without accepting Iran's escalation calendar |
 | [China](china.md) | order, continuity, competence, and anti-chaos legitimacy | secure energy, routes, finance, insurance, and anti-coercion alternatives | stabilize flows without owning the crisis |
-| [Iran](../iran.md) | dignity, sovereignty, resistance, and recognition | monetize Hormuz, deterrence, partner depth, and sanctions endurance | trade pressure for relief, recognition, and controlled reopening |
+| [Persia](persia.md) | dignity, sovereignty, resistance, and recognition | monetize Hormuz, deterrence, partner depth, and sanctions endurance | trade pressure for relief, recognition, and controlled reopening |
 
 ## Shared Settlement Spine
 
