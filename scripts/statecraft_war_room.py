@@ -2,7 +2,7 @@
 """
 Statecraft War Room — advisory rollup of live statecraft objects.
 
-Read-only except report outputs. Does not create transaction directories.
+Read-only except report outputs. Does not create instrument compact directories.
 
 See runtime/artifacts/statecraft-war-room/README.md and
 docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md.
@@ -46,7 +46,15 @@ from statecraft_intake_queue import (  # noqa: E402
 
 DEFAULT_OUT = ARTIFACTS_DIR / "statecraft-war-room" / "latest.md"
 DEFAULT_JSON = ARTIFACTS_DIR / "statecraft-war-room" / "latest.json"
-ROUTER_PATH = REPO_ROOT / "statecraft" / "sheets" / "transaction-router.md"
+def resolve_router_path(repo_root: Path = REPO_ROOT) -> Path:
+    instrument = repo_root / "statecraft" / "sheets" / "instrument-router.md"
+    legacy = repo_root / "statecraft" / "sheets" / "transaction-router.md"
+    if instrument.is_file():
+        return instrument
+    return legacy
+
+
+ROUTER_PATH = resolve_router_path()
 
 EXACT_THRESHOLD = 0.45
 NEAR_THRESHOLD = 0.25
@@ -54,6 +62,7 @@ NEAR_THRESHOLD = 0.25
 RETURN_PATHS = [
     "statecraft/README.md",
     "docs/statecraft-intake-queue.md",
+    "statecraft/sheets/instrument-router.md",
     "statecraft/sheets/transaction-router.md",
     "statecraft/patterns/README.md",
 ]
@@ -71,7 +80,7 @@ LANE_ALIASES = {
 }
 
 TRANSACTION_LINK_RE = re.compile(
-    r"\[[^\]]*\]\(([^)]*(?:\.\./transactions/|statecraft/transactions/)[^)]+)\)",
+    r"\[[^\]]*\]\(([^)]*(?:\.\./(?:transactions|notes/compacts)/|statecraft/(?:transactions|notes/compacts)/)[^)]+)\)",
     re.IGNORECASE,
 )
 DOMINANT_OBJECT_RE = re.compile(
@@ -533,7 +542,7 @@ def build_war_room_context(
 ) -> WarRoomContext:
     archive_root = repo_root / "source-archive" / "statecraft"
     daily_dir = repo_root / "statecraft" / "synthesis" / "day"
-    router = parse_transaction_router(repo_root / "statecraft" / "sheets" / "transaction-router.md")
+    router = parse_transaction_router(resolve_router_path(repo_root))
 
     days = select_days(latest_days=latest_days, pin_day=pin_day, archive_root=archive_root)
     all_objects: list[WarRoomObject] = []

@@ -29,7 +29,7 @@ FIXTURE_ROUTER = """\
 
 | Transaction object | Crisis object | Use when | Primary lanes | Settlement spine | Entropy signal | Recursive utility |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hormuz Compact](../transactions/hormuz-transit-sanctions-relief-compact/) | Chokepoint transit insurance sanctions | Hormuz shipping sanctions | America, Iran | x | x | x |
+| [Hormuz Compact](../notes/compacts/hormuz-transit-sanctions-relief-compact/) | Chokepoint transit insurance sanctions | Hormuz shipping sanctions | America, Iran | x | x | x |
 """
 
 GATE_FIXTURE = """\
@@ -73,7 +73,7 @@ def _setup_fixture_repo(tmp_path: Path, day: str, *, desync: bool = False) -> di
     source = day_dir / slug
     _write_archive(source)
 
-    daily_dir = tmp_path / "statecraft" / "daily"
+    daily_dir = tmp_path / "statecraft" / "synthesis" / "day"
     daily_dir.mkdir(parents=True)
     daily_path = daily_dir / f"{day}.md"
     if desync:
@@ -101,7 +101,7 @@ def _setup_fixture_repo(tmp_path: Path, day: str, *, desync: bool = False) -> di
 
     sheets_dir = tmp_path / "statecraft" / "sheets"
     sheets_dir.mkdir(parents=True)
-    (sheets_dir / "transaction-router.md").write_text(FIXTURE_ROUTER, encoding="utf-8")
+    (sheets_dir / "instrument-router.md").write_text(FIXTURE_ROUTER, encoding="utf-8")
 
     queue_root = tmp_path / "runtime" / "artifacts" / "statecraft-intake-queue"
     monkeypatch_queue = queue_root

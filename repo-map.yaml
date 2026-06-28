@@ -97,7 +97,7 @@ routes:
   - operator
   - workflow
   - recursive-learning
-  - transactions
+  - notes
   search_hints:
   - how operator uses statecraft
   - memory to mechanism

@@ -32,8 +32,8 @@ FIXTURE_ROUTER = """\
 
 | Transaction object | Crisis object | Use when | Primary lanes | Settlement spine | Entropy signal | Recursive utility |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hormuz Transit / Sanctions Relief Compact](../transactions/hormuz-transit-sanctions-relief-compact/) | Chokepoint transit, insurance, sanctions relief, escorted passage | Hormuz shipping, oil-flow, sanctions, insurance, or escort risk becomes the bargaining object | America, Russia, China, Iran | Transit security | Chokepoint leverage | Restraint-for-relief |
-| [Iran Nuclear Latency Recognition Framework](../transactions/iran-nuclear-latency-recognition-framework/) | Nuclear threshold capability, inspection, recognition, sanctions triggers | Iran enrichment breakout inspection threshold status crisis | America, Russia, China, Iran | Recognize latency | Ambiguity panic | Restraint observable |
+| [Hormuz Transit / Sanctions Relief Compact](../notes/compacts/hormuz-transit-sanctions-relief-compact/) | Chokepoint transit, insurance, sanctions relief, escorted passage | Hormuz shipping, oil-flow, sanctions, insurance, or escort risk becomes the bargaining object | America, Russia, China, Iran | Transit security | Chokepoint leverage | Restraint-for-relief |
+| [Iran Nuclear Latency Recognition Framework](../notes/compacts/iran-nuclear-latency-recognition-framework/) | Nuclear threshold capability, inspection, recognition, sanctions triggers | Iran enrichment breakout inspection threshold status crisis | America, Russia, China, Iran | Recognize latency | Ambiguity panic | Restraint observable |
 """
 
 
@@ -71,7 +71,7 @@ def _setup_fixture_repo(tmp_path: Path, day: str) -> dict[str, Path]:
     source = day_dir / slug
     _write_archive(source)
 
-    daily_dir = tmp_path / "statecraft" / "daily"
+    daily_dir = tmp_path / "statecraft" / "synthesis" / "day"
     daily_dir.mkdir(parents=True)
     daily_path = daily_dir / f"{day}.md"
     daily_path.write_text(
@@ -93,7 +93,7 @@ def _setup_fixture_repo(tmp_path: Path, day: str) -> dict[str, Path]:
 
     sheets_dir = tmp_path / "statecraft" / "sheets"
     sheets_dir.mkdir(parents=True)
-    router_path = sheets_dir / "transaction-router.md"
+    router_path = sheets_dir / "instrument-router.md"
     router_path.write_text(FIXTURE_ROUTER, encoding="utf-8")
 
     queue_root = tmp_path / "runtime" / "artifacts" / "statecraft-intake-queue"
@@ -164,7 +164,7 @@ def test_transaction_router_links(war_room_env) -> None:
     daily_text = paths["daily_path"].read_text(encoding="utf-8")
     daily_text += (
         "\nSee [Hormuz framework]"
-        "(../transactions/hormuz-transit-sanctions-relief-compact/).\n"
+        "(../notes/compacts/hormuz-transit-sanctions-relief-compact/).\n"
     )
     paths["daily_path"].write_text(daily_text, encoding="utf-8")
     objs = extract_daily_objects(paths["daily_path"], pub_date=day, router=router)
@@ -182,7 +182,7 @@ def test_distinguishes_exact_near_none() -> None:
             crisis_object="Chokepoint transit, insurance, sanctions relief, escorted passage",
             use_when="Hormuz shipping, oil-flow, sanctions, insurance, or escort risk",
             primary_lanes="America, Iran",
-            transaction_path="statecraft/transactions/hormuz-transit-sanctions-relief-compact/",
+            transaction_path="statecraft/notes/compacts/hormuz-transit-sanctions-relief-compact/",
         ),
         RouterEntry(
             name="Iran Nuclear Latency Recognition Framework",
@@ -231,7 +231,7 @@ def test_handles_no_intake_sidecars_gracefully(tmp_path: Path, monkeypatch: pyte
     day_dir.mkdir(parents=True)
     _write_archive(day_dir / f"source-empty-queue-{day}.md")
 
-    daily_dir = tmp_path / "statecraft" / "daily"
+    daily_dir = tmp_path / "statecraft" / "synthesis" / "day"
     daily_dir.mkdir(parents=True)
     (daily_dir / f"{day}.md").write_text(
         f"# State Synthesis — {day}\n\n## Executive Read\n\n**Standalone daily object headline.**\n",
