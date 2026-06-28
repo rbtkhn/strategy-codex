@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `5`
+- Source files: `6`
 - Channel sources: `5`
-- Writer sources: `0`
+- Writer sources: `1`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (3), `transcript` (2)
-- Source form mix: `interview` (4), `solo` (1)
-- Distinct channels/shows: `3`
-- Distinct hosts: `1`
+- Body kind mix: `cleaned-transcript` (5), `substack-post` (1)
+- Source form mix: `interview` (4), `newsletter` (1), `solo` (1)
+- Distinct channels/shows: `4`
+- Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `6`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1)
+- `Dialogue Works` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (2)
+- Hosts: `Nima Alkhorshid` (2), `Glenn Diesen` (1), `Robert Pape` (1)
 - Guests: `Larry Johnson` (2), `Anthony Aguilar` (1), `Ray McGovern` (1)
-- Threads: `alkorshid` (2), `johnson` (2), `aguilar` (1), `diesen` (1), `mcgovern` (1), `mercouris` (1)
+- Threads: `alkorshid` (2), `johnson` (2), `aguilar` (1), `diesen` (1), `mcgovern` (1), `mercouris` (1), `pape` (1)
 
 ## Channel sources
 
@@ -44,7 +44,7 @@ _Configured prose / check-written roster captures for this day._
 
 | Writer slug | Thread | Feed host | Source link | File |
 | --- | --- | --- | --- | --- |
-| _none_ | — | — | — | — |
+| `pape` | `pape` | `escalationtrap.substack.com` | [watch](https://escalationtrap.substack.com/p/situation-report-special-edition) | `source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md` |
 
 ## Other sources
 
@@ -61,3 +61,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md`
 - `source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md`
 - `source-glenn-diesen-larry-johnson-putin-warns-west-russia-ready-war-2026-06-27.md`
+- `source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md`
