@@ -71,9 +71,9 @@ One-line reading rules — full table: [work-membrane-v2.md](work-membrane-v2.md
 | `runtime / derived` | Generated helper artifacts | What can be regenerated to help? |
 | `external complements` | Boundary-crossing interop artifacts | What may cross the repo boundary without collapsing authority? |
 
-### Model / harness / operator / transaction
+### Model / harness / operator / output objects
 
-See [intelligence-harness.md — Model / harness / operator / transaction](intelligence-harness.md#model--harness--operator--transaction). **Model** is replaceable; **harness** (context, authority, routing, review) is durable.
+See [intelligence-harness.md — Model / harness / operator / output objects](intelligence-harness.md#model--harness--operator--output-objects). **Model** is replaceable; **harness** (context, authority, routing, review) is durable.
 
 ---
 

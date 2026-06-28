@@ -12,7 +12,9 @@ Short guide for journalists, bloggers, and other visitors who need a **public-sa
 
 ## What this repo is
 
-**strategy-codex** is a **governed interpretive machine**: verbatim sources land in an archive; bounded synthesis and transaction objects carry judgment; operator work routes through **statecraft** and **singularity** channels. Full product framing: [product-identity.md](product-identity.md) · [intelligence-harness.md](intelligence-harness.md).
+**strategy-codex** is a **governed interpretive machine**: verbatim sources land in an archive; synthesis and notes carry judgment; essays carry stand-alone arguments; operator work routes through **statecraft** and **singularity** channels. Full product framing: [product-identity.md](product-identity.md) · [intelligence-harness.md](intelligence-harness.md).
+
+Older docs may use "transaction" for bounded lane objects. Going forward, use **note** for durable analytical work products. Use **transaction** only for operational receipts or machine workflow events.
 
 ## What it is not
 
@@ -56,7 +58,9 @@ Canonical public corpus: [rbtkhn/predictive-history](https://github.com/rbtkhn/p
 | --- | --- |
 | **source archive** | Saved verbatim source material |
 | **synthesis** | Interpreted summary / judgment (provisional) |
-| **transaction** | Bounded output object under a lane |
+| **note** | Bounded, source-backed analytical work product |
+| **essay** | Stand-alone cross-channel argument |
+| **receipt** | Operational proof (ship, validation, handoff) |
 | **membrane** | Authority boundary — what a surface may own or promote |
 | **archive (frozen)** | Historical material — not default active work |
 

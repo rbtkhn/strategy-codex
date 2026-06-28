@@ -4,7 +4,7 @@
 
 ## What this repo is
 
-**strategy-codex** is a **governed interpretive machine**: sources land verbatim in archive; bounded synthesis and transaction objects carry judgment; operator work routes through **statecraft** and **singularity**.
+**strategy-codex** is a **governed interpretive machine**: sources land verbatim in archive; synthesis and notes carry judgment; essays carry polished cross-channel arguments; operator work routes through **statecraft** and **singularity**.
 
 **External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
 

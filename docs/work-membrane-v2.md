@@ -185,6 +185,7 @@ Practical rule:
 | Surface | Class |
 |---------|-------|
 | `self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` | `Record` |
+| `statecraft/notes/*.md`, `statecraft/notes/compacts/**` | `governed adjacent` |
 | `statecraft/synthesis/day/*.md` | `governed adjacent` |
 | `statecraft/bridges/*.md` | `governed adjacent` |
 | `statecraft/synthesis/METHOD.md`, audit rubric, benchmark manifest | `governed adjacent` |
@@ -203,7 +204,7 @@ This is the main classification table for active doctrine. When in doubt, classi
 
 | Lane | Primary question | Main output | Dominant evidence source |
 |------|------------------|-------------|--------------------------|
-| `statecraft` | `what is the object?` | bounded synthesis and comparison artifacts | transcript and archive truth |
+| `statecraft` | `what is the object?` | bounded notes, synthesis, and comparison artifacts | transcript and archive truth |
 | `singularity` | `what is the system?` | bounded doctrine and design artifacts | architecture, protocol, and runtime reasoning |
 
 This table exists so the two lanes do not collapse into one generic idea of "workshop."

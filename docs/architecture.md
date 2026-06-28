@@ -26,7 +26,7 @@ Normal routing uses **two primary channels** ([`operator-two-channel-architectur
 ## Product kernel (do not simplify away)
 
 ```text
-source-archive → generated indexes → daily synthesis → judgment / transaction objects
+source-archive → generated indexes → daily synthesis → notes → essays
 ```
 
 ```mermaid

@@ -31,7 +31,7 @@ For the migration-facing map from the old strategy surface, open [Legacy Success
 
 For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
 
-**Promotion ladder + phased refactor:** [strategy-codex-redesign-brief.md](../docs/strategy-codex-redesign-brief.md) (archive → daily synthesis → transactions → optional gate).
+**Promotion ladder + phased refactor:** [strategy-codex-redesign-brief.md](../docs/strategy-codex-redesign-brief.md) (source archive → synthesis → notes → essays → optional gate).
 
 `voices` and `states` name the live statecraft stack: analyst continuity under `statecraft/voices/<speaker>/`, civilization pattern memory under `statecraft/states/`, while `speakers/` remains redirect-only compatibility residue.
 
@@ -152,8 +152,8 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need a cross-lane mechanism or objection-shaped object? Open [compact](compact/README.md).
 - Need a Persia retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
 - Need CIV-STATE frame / retrieval / promotion / review without starting book work? Say **`civ-state`**.
-- Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).
-- Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
+- Need the current default worked instrument? Open [Hormuz recognition transit note](notes/hormuz-recognition-transit-transaction.md) (legacy filename) or [Hormuz compact](../notes/compacts/hormuz-transit-sanctions-relief-compact/README.md).
+- Need the shared crisis-object fit check? Open [Instrument Router](sheets/instrument-router.md).
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
 - Need live host-law for `Davis` or `Napolitano`? Open [statecraft/channels/](../README.md).
 - Need live speaker trust or track-record work? Open [statecraft/audits/](audits/README.md).

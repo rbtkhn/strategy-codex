@@ -43,7 +43,7 @@ Restore this canonical sequence next:
 
 Restore this lane-hardening sequence too when the lane is already mature enough to need it:
 
-`helix -> current state carriers -> transaction drafting`
+`helix -> current state carriers -> instrument note drafting`
 
 Support material should strengthen that route, not compete with it.
 
@@ -60,7 +60,7 @@ On first contact, force these calls early:
 - **crisis object**: what is actually being contested?
 - **constitutional layer**: is the next move deploy, compact, speaker-bridge, or lane-direct?
 - **lane ownership**: who has to carry the settlement logic once routing narrows?
-- **output form**: is this still commentary, already a lane note, or near a transaction-use brief?
+- **output form**: is this still commentary, already a lane note, or near an instrument-use brief?
 
 When reopening from one live object, take the first valid move in this order:
 
@@ -69,11 +69,11 @@ When reopening from one live object, take the first valid move in this order:
 3. decide whether the remaining uncertainty is lane judgment or retrieval conditioning
 4. choose the narrowest honest output form before drafting mechanism
 
-Use this quick transaction-fit instinct before you draft:
+Use this quick instrument-fit instinct before you draft:
 
 - if the object is still mostly naming and framing pressure, stop at commentary or lane note
 - if the lane is clear but the mechanism is still thin, stop at memo, comparison, or router candidate
-- if the object already sounds like a known corridor, guarantee, transit, or sanctions bargain, check existing transaction fit before inventing a fresh framework
+- if the object already sounds like a known corridor, guarantee, transit, or sanctions bargain, check [instrument router](sheets/instrument-router.md) fit before inventing a fresh framework
 
 Named recent events do not open a separate function anymore. Verify the unstable fact pattern, classify the crisis object, then route through `state-deploy` or directly into the owning lane once ownership is honestly clear.
 
@@ -82,13 +82,13 @@ Use these fast recognizers when the object family is already obvious:
 - **transit / recognition / chokepoint pressure**
   - usually opens Persia first
   - if the object is speaker-heavy after lane ownership is clear, use `statecraft-bridge`
-  - check existing Hormuz-style transaction fit before inventing a new framework
+  - check existing Hormuz-style instrument fit in [notes/compacts/](notes/compacts/) before inventing a new framework
 - **alliance command / maritime access / quarantine pressure**
   - usually opens America first when the live problem is guarantee design, burden-sharing, or bounded command
   - compare China only when continuity, trade rhythm, or anti-chaos order is the real pressure
 - **sanctions relief / guarantees / sequenced settlement pressure**
   - open the lane that must carry the guarantee architecture
-  - test transaction fit and objection structure before promoting to full framework
+  - test instrument fit and objection structure before promoting to full framework in `notes/compacts/`
 
 If none of those recognizers settle ownership, return to `state-deploy` rather than forcing an elegant synthesis.
 
@@ -98,7 +98,7 @@ Do not linger in the kernel longer than needed:
 
 - if ownership is unresolved, go to `state-deploy`
 - if ownership is clear, open the lane
-- if the object is already clearly transaction-shaped, check the router or the nearest existing transaction before widening the analysis
+- if the object is already clearly instrument-shaped, check the [instrument router](sheets/instrument-router.md) or the nearest existing compact note before widening the analysis
 
 When the machine gets fooled, it usually gets fooled in one of these ways:
 
@@ -171,9 +171,9 @@ At the current frontier, each mature lane should also keep:
 - **braid**: a live coupled bundle that must stay together long enough to become one real draftable object
 - **helix**: long-run recurrence and transformation across time
 - **output class**: the terminal form a given pass honestly deserves
-- **transaction**: a mature reusable statecraft package with instrument form and revisit discipline
+- **instrument compact**: a mature reusable multi-lane note package in `notes/compacts/` with instrument form and revisit discipline
 - **recursive update candidate**: governed learning proposed for later review rather than silent doctrine mutation
-- **native proof anchor**: a lane-local transaction or equivalent proof object that shows the lane can carry its own doctrine without default dependence on shared bundles
+- **native proof anchor**: a lane-local instrument note or equivalent proof object that shows the lane can carry its own doctrine without default dependence on shared bundles
 - **membrane thickness**: the degree to which a lane's doctrine, bridge logic, and proof inventory are locally coherent rather than borrowed cosmetically
 
 ## Output Taxonomy
@@ -186,10 +186,10 @@ Valid terminal forms are:
 - **memo** - compact advisory or bounded recommendation surface
 - **objection matrix** - actor-resistance and patch analysis for a fragile but plausible instrument
 - **comparison** - structured cross-lane or cross-arc contrast
-- **router candidate / transaction-fit note** - threshold surface before transaction promotion
-- **transaction-use brief** - spend an existing transaction bundle without inventing a new framework
+- **router candidate / instrument-fit note** - threshold surface before compact promotion
+- **instrument-use brief** - spend an existing instrument compact without inventing a new framework
 - **lane draft** - lane-local draft instrument or clause package
-- **full transaction** - reusable transaction only after crisis object, settlement spine, named carriers, instrument form, and revisit discipline are present
+- **full instrument compact** - reusable compact in `notes/compacts/` only after crisis object, settlement spine, named carriers, instrument form, and revisit discipline are present
 - **recursive update candidate** - learning surface for later review, not direct doctrine mutation
 
 Use [artifact-registry.md](artifact-registry.md) to classify new or touched outputs by class and maturity.
@@ -199,7 +199,7 @@ Use [shared prose index](../docs/prose-index.md) when the unresolved question is
 
 Do not promote because an event is important, the prose is strong, or the analogy is sharp.
 
-Promotion to lane draft or full transaction usually requires:
+Promotion to lane draft or full instrument compact usually requires:
 
 - a named crisis object
 - a real settlement spine
@@ -226,7 +226,7 @@ If those are missing, the lane is not yet ready for full hardening.
 3. `compact` owns cross-lane or objection-shaped objects after ownership is understood.
 4. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
 5. lane bridge doctrine answers `which posture or retrieval split still governs this already-owned object?`
-6. the transaction router answers `does this belong to an existing transaction plateau object?`
+6. the [instrument router](sheets/instrument-router.md) answers `does this belong to an existing instrument plateau object?`
 7. review queues and pending files capture learning without silent rewrite
 
 ## CIV-STATE Protocol
@@ -238,7 +238,7 @@ flowchart TD
     C --> D["Routing layer<br/>deploy, compact, bridge, lane"]
     D --> E["Lane surfaces<br/>America, China, Persia, Russia"]
     E --> F["Draft forms<br/>commentary, memo, comparison, lane draft"]
-    F --> G["Transaction layer<br/>full reusable instruments"]
+    F --> G["Instrument compacts<br/>notes/compacts/"]
     G --> H["Validation / falsifier / revisit discipline"]
     H --> I["Governed learning"]
     I --> J["CIV-STATE review queue<br/>explicit upstream candidate"]

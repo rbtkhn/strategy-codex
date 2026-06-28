@@ -10,7 +10,7 @@
 
 | Surface | Path | Replacement |
 |---------|------|-------------|
-| Grace-Mar Record | `self.md`, `self-archive.md`, `recursion-gate.md`, … | Governed adjacent: archive → daily → transactions |
+| Grace-Mar Record | `self.md`, `self-archive.md`, `recursion-gate.md`, … | Governed adjacent: archive → synthesis → notes → essays |
 | Grace-Mar doctrine corpus | [`archive/grace-mar-corpus/`](../archive/grace-mar-corpus/README.md) | [`legacy-operator-concepts.md`](legacy-operator-concepts.md) |
 | Archive pointer | [`archive/grace-mar-frozen.md`](../archive/grace-mar-frozen.md) | Operator backup location |
 
@@ -29,6 +29,7 @@
 | companion-self template sync | archived docs | strategy-codex-native routing |
 | Local PH corpus editing | `codex/predictive-history/` | [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) observe-only |
 | strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | `codex/` + `source-archive/statecraft/` |
+| Legacy lane `transactions/` | `statecraft/**/transactions/` | [`statecraft/notes/`](../../statecraft/notes/README.md) · [`notes/compacts/`](../../statecraft/notes/compacts/) — [inventory](audits/transaction-retirement-inventory-2026-06.md) |
 
 ---
 
@@ -39,15 +40,17 @@
 | `self-library.md` / CIV-MEM | Reference retrieval for statecraft — not identity growth |
 | `memory.md` | WORK continuity — not Record |
 | Cici / BrewMind governed state | Separate membrane — not Grace-Mar fork |
-| Statecraft **gate** transactions | Judgment objects — unrelated to `recursion-gate` |
+| Statecraft notes / instrument compacts | Bounded analytical work — default promotion ceiling |
 
 ---
 
 ## Terminology
 
 - **recursion-gate** = frozen Grace-Mar Approval Inbox
-- **statecraft gate** = active settlement/recognition object in lane work
-- **governed adjacent** = durable WORK synthesis (default promotion ceiling)
+- **note** = bounded analytical work product (`statecraft/notes/`)
+- **essay** = polished cross-channel argument (`essays/`)
+- **receipt** = operational proof (ship, validation, handoff)
+- **transaction (legacy)** = compatibility stub or receipt alias — [inventory](audits/transaction-retirement-inventory-2026-06.md)
 
 See [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md).
 

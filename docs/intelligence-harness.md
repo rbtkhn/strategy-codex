@@ -17,7 +17,7 @@ Bridge sentence:
 
 ```text
 strategy-codex surrounds cheap model intelligence with source truth, context routing,
-artifact authority, review discipline, memory, and transaction objects so that
+artifact authority, review discipline, memory, and bounded notes so that
 interpretation can become accountable judgment rather than disposable output.
 ```
 
@@ -27,7 +27,7 @@ interpretation can become accountable judgment rather than disposable output.
 
 ## Harness vs script harness
 
-**Intelligence harness (product)** — the repo's governed structure around models: archive truth, membrane classes, skills, validators, operator loop, ship receipts, transaction ceilings.
+**Intelligence harness (product)** — the repo's governed structure around models: archive truth, membrane classes, skills, validators, operator loop, ship receipts, artifact ceilings.
 
 **Harness script (tooling)** — operational scripts and eval surfaces that *implement* parts of that structure:
 
@@ -48,7 +48,7 @@ Default **strategy-codex** operators: start here and [start-here.md](start-here.
 | summarization | source-truth discipline ([source-archive](../source-archive/statecraft/README.md)) |
 | synthesis | bounded analytical objects ([work-membrane-v2.md](work-membrane-v2.md)) |
 | memory | authority-ranked surfaces (Record vs runtime; [runtime-vs-record.md](runtime-vs-record.md)) |
-| agents | transaction ceilings ([promotion ladder](#default-operator-loop)) |
+| agents | note and essay promotion ceilings ([promotion ladder](#default-operator-loop)) |
 | speed | review and ship receipts ([work-menu-conventions — Ship receipt](skill-work/work-menu-conventions.md#6a-ship-receipt)) |
 | pattern extraction | validators and drift control ([validator-first skill](../.cursor/skills/validator-first/SKILL.md)) |
 
@@ -56,14 +56,16 @@ The moat is not "many notes." The moat is knowing **what kind of artifact** some
 
 ---
 
-## Model / harness / operator / transaction
+## Model / harness / operator / output objects
 
 | Role | What it is | strategy-codex surface |
 |------|------------|------------------------|
 | **Model** | Cheap, replaceable intelligence | External; any vendor |
 | **Harness** | Context, authority, review, routing | Repo doctrine, skills, validators, [work membrane](work-membrane-v2.md) |
 | **Operator** | Decision rights, ship, judgment | Human + [work execution layer](glossary.md#work-execution-layer) |
-| **Transaction object** | Accountable output ceiling | `statecraft/<lane>/transactions/`, daily synthesis, ship receipt |
+| **Note** | Bounded analytical work product | [`statecraft/notes/`](../statecraft/notes/README.md), daily synthesis |
+| **Essay** | Polished cross-channel argument | [`essays/`](../essays/README.md) |
+| **Receipt** | Operational proof / audit trail | Ship receipt, validation receipt, handoff receipt |
 
 Generic AI workflow mapping:
 
@@ -72,7 +74,8 @@ Generic AI workflow mapping:
 | Chat response | disposable |
 | Summary | intermediate |
 | Daily synthesis | operating context |
-| Transaction object | accountable decision artifact |
+| Note | accountable bounded analytical artifact |
+| Essay | stand-alone thesis |
 | Ship receipt | audit trail |
 
 ---
@@ -99,8 +102,11 @@ operator source
   → source-archive/statecraft/<pub_date>/<slug>.md   [verbatim SSOT]
   → generated day/month/year/thread indices
   → statecraft/synthesis/day/<YYYY-MM-DD>.md                 [daily synthesis]
-  → statecraft/<lane>/transactions/<object>.md       [transaction object — default ceiling]
+  → statecraft/notes/<object>.md                   [durable analytical note]
+  → essays/<slug>.md                               [polished cross-channel argument]
 ```
+
+Not every note becomes an essay.
 
 **Ship loop:**
 
@@ -148,7 +154,7 @@ Pointers only — these are existing artifacts, not new content.
 | Artifact type | Example | Role |
 |---------------|---------|------|
 | Daily synthesis | [statecraft/synthesis/day/2026-06-12.md](../statecraft/synthesis/day/2026-06-12.md) | Operating context for a landed archive day |
-| Transaction object | [Hormuz transit / sanctions relief compact](../statecraft/transactions/hormuz-transit-sanctions-relief-compact/README.md) | Accountable four-lane crisis object with comparison surface |
+| Note (instrument compact) | [Hormuz transit / sanctions relief compact](../statecraft/notes/compacts/hormuz-transit-sanctions-relief-compact/README.md) | Multi-lane instrument note with comparison surface |
 | Ship receipt | [start-here — Operator ship loop](start-here.md#operator-ship-loop) · [Ship receipt convention](skill-work/work-menu-conventions.md#6a-ship-receipt) | Audit trail after bounded closeout |
 
 **Singularity example:** [keystone-helix.md](../singularity/workshop/keystone-helix.md) (governed adjacent doctrine; also in [work-membrane-live-examples.md](work-membrane-live-examples.md)).

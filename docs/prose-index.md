@@ -12,7 +12,7 @@ For one compact live comparison of how cluster behavior changes across `essays/`
 
 ## Core Split
 
-`notes/` and `essays/` are first-class prose output classes. They are not doctrine, not sheets, not bridges, not transactions, not journals, and not source archives.
+`notes/` and `essays/` are first-class prose output classes. They are not doctrine, not sheets, not bridges, not legacy transaction paths, not journals, and not source archives.
 
 - `notes/` preserve **bounded interpretive objects** — channel-scoped only (`statecraft/notes/`, `singularity/notes/`)
 - `essays/` carry **stand-alone synthesized arguments** — **primary shelf:** repo-root [`essays/`](../essays/README.md); channel `*/essays/` folders are compatibility holdings for pre-root material
@@ -44,7 +44,7 @@ Use this order:
 2. If the object is reusable but still bounded to one seam, mechanism, route question, audit, or comparison, use `notes/`.
    This also covers compact session-governance or operating-contract notes that remain local prose objects rather than doctrine.
 3. If the object now carries a stand-alone thesis that should travel outside the original routing context, use repo-root [`essays/`](../essays/README.md) (including cross-channel theses).
-4. If it is actually doctrine, a kernel, a sheet, a bridge, a transaction, or an archive object, do not force it into a prose shelf.
+4. If it is actually doctrine, a kernel, a sheet, a bridge, an operational receipt, a legacy transaction stub, or an archive object, do not force it into a prose shelf. Multi-lane instrument compacts belong in `statecraft/notes/compacts/`.
 
 For speaker-derived objects, apply one extra test:
 

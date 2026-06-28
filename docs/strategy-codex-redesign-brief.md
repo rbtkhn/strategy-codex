@@ -57,7 +57,7 @@
 | Target | Current paths | End state | First wedge |
 |--------|---------------|-----------|-------------|
 | **Generated navigation** | `source-archive/statecraft/*.md` indices, `source-archive/statecraft/stale-index-audit.md`, `source-archive/statecraft/thread-index.md`, `statecraft/data/month-routing-metadata.json` | Indexes are **derived only**; CI fails stale day/month rows | Extend `scripts/build_statecraft_archive_navigation.py`; add `validate_archive_indexes.py` to CI |
-| **Promotion ladder** | `source-archive/statecraft/` → `statecraft/synthesis/daily/` → `statecraft/*/transactions/` (e.g. `statecraft/america/transactions/foreign-client-mesh-separation-and-command-review.md`) | One documented ladder; every synthesis cites archive paths | Document in `statecraft/README.md`; lint missing `source:` frontmatter |
+| **Promotion ladder** | `source-archive/statecraft/` → `statecraft/synthesis/day/` → `statecraft/notes/` → `essays/` | One documented ladder; every synthesis cites archive paths | Document in `statecraft/README.md`; lint missing `source:` frontmatter |
 | **Legacy notebook convergence** | `docs/skill-work/work-strategy/strategy-notebook/`, `codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`, dual `thread.md` + monthly thread files | Host-equivalent routes under `codex/`; notebook namespace read-only compatibility | Finish `scripts/migrate_thread_md_to_monthly.py` passes; stop new captures in deprecated `raw-input/` when `source-archive` applies |
 | **Gate ergonomics** | `recursion-gate.md`, `scripts/preview_candidate_impact.py`, `scripts/build_gate_board.py`, `scripts/generate_gate_dashboard.py`, `platform/apps/gate-review-app.py` | Single CLI: `codex gate list \| review \| diff \| merge` wrapping existing scripts | Thin `scripts/codex_cli.py` or `scripts/operator_gate.py` facade; no new merge authority |
 | **Schema-validated proposals** | `scripts/stage_gate_candidate.py`, `schemas/registry/`, `archive/queues/review-queue/boundary-classifications/` | Machine-first candidates; human-readable gate board renders from JSON | Promote gate blocks to validated JSON; keep markdown export view |
@@ -99,11 +99,14 @@ Normative route for **statecraft** judgment work:
 operator source
   → source-archive/statecraft/<pub_date>/<slug>.md     [verbatim SSOT]
   → source-archive/statecraft/YYYY-MM.md + day index   [generated]
-  → statecraft/synthesis/daily/<YYYY-MM-DD>.md         [governed adjacent]
-  → statecraft/<lane>/transactions/<object>.md         [governed adjacent]
-  → statecraft/states/...                           [retrieval / volume]
+  → statecraft/synthesis/day/<YYYY-MM-DD>.md           [daily synthesis]
+  → statecraft/notes/<object>.md                       [durable analytical note]
+  → essays/<slug>.md                                   [polished cross-channel argument]
+  → statecraft/states/...                              [retrieval / volume]
   → (fork revive only) recursion-gate.md → process_approved_candidates.py
 ```
+
+Not every note becomes an essay.
 
 **Legacy parallel (freeze):** `strategy-notebook/raw-input/` + `days.md` compose — fold into `codex/` continuity without new verbatim mirrors.
 
@@ -189,7 +192,7 @@ flowchart TB
 
   subgraph refactor [REFACTOR]
     A[source-archive/statecraft]
-    S[statecraft/synthesis + transactions]
+    S[statecraft/synthesis + notes]
     I[generated indexes]
     CLI[operator gate CLI]
   end

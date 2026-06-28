@@ -10,7 +10,7 @@ This file is the **always-on contract** for coding assistants in **strategy-code
 
 ## Identity and default lane
 
-**Active repo:** `strategy-codex` — a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)). **Not** default fork growth.
+**Active repo:** `strategy-codex` — a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)): source archive → synthesis → notes → essays. **Not** default fork growth.
 
 **Grace-Mar Record:** frozen under [`archive/grace-mar-instance/`](archive/grace-mar-instance/). Doctrine: [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · boundary [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
 

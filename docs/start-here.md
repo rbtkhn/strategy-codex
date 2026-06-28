@@ -48,7 +48,7 @@ flowchart TB
     Voices[statecraft/voices]
     States[statecraft/states]
     Synth[statecraft/synthesis]
-    Tx[statecraft lane transactions]
+    Notes[statecraft/notes]
   end
 
   subgraph channels [Operator channels]
@@ -63,12 +63,12 @@ flowchart TB
   end
 
   Archive --> Voices --> States
-  Voices --> Daily --> Tx
+  Synth --> Notes --> Essays
   SC --> membrane
   SG --> singularity/
   SC --> Essays
   SG --> Essays
-  Tx -.fork revive only.-> Record
+  Notes -.fork revive only.-> Record
 ```
 
 Essays: [essays/README.md](../essays/README.md) · membrane: [work-membrane-v2.md](work-membrane-v2.md) · channels: [operator-two-channel-architecture.md](operator-two-channel-architecture.md)
@@ -82,8 +82,11 @@ operator source
   → source-archive/statecraft/<pub_date>/<slug>.md   [verbatim SSOT]
   → generated day/month/year/thread indices
   → statecraft/synthesis/day/<YYYY-MM-DD>.md                 [daily synthesis]
-  → statecraft/<lane>/transactions/<object>.md       [transaction object — default ceiling]
+  → statecraft/notes/<object>.md                   [durable analytical note]
+  → essays/<slug>.md                               [polished cross-channel argument]
 ```
+
+Not every note becomes an essay.
 
 Fork revive only: `recursion-gate.md` → `process_approved_candidates.py --apply` · map: [strategy-codex-redesign-brief.md](strategy-codex-redesign-brief.md)
 

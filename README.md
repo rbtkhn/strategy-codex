@@ -6,15 +6,19 @@ record_status: frozen
 
 # strategy-codex
 
-**strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md).
+**strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: source archive → synthesis → notes → essays. **Product identity:** [docs/product-identity.md](docs/product-identity.md).
 
 | Term | Plain meaning |
 | --- | --- |
 | **source archive** | Verbatim saved source material ([source-archive/statecraft/](source-archive/statecraft/README.md)) |
 | **synthesis** | Interpreted daily/monthly judgment ([statecraft/synthesis/](statecraft/synthesis/METHOD.md)) |
-| **transaction** | Bounded output object under a lane ([statecraft/](statecraft/README.md)) |
+| **note** | Bounded, source-backed analytical work product ([statecraft/notes/](statecraft/notes/README.md)) |
+| **essay** | Polished cross-channel argument ([essays/](essays/README.md)) |
+| **receipt** | Operational proof (ship, validation, handoff) — not default prose |
 | **membrane** | Authority boundary — what a surface may own, cite, or promote ([work-membrane-v2.md](docs/work-membrane-v2.md)) |
 | **archive (frozen)** | Historical / Record material — not default operator work ([grace-mar.md](docs/archive/grace-mar.md)) |
+
+Older docs may use "transaction" for bounded lane objects. Going forward, use **note** for durable analytical work products. Use **transaction** only for operational receipts or machine workflow events.
 
 **Glossary:** visitor terms → [public-orientation.md](docs/public-orientation.md) · Record/operator terms → [glossary.md](docs/glossary.md).
 
