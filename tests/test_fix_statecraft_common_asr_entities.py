@@ -230,3 +230,18 @@ def test_apply_replacements_fixes_khairullin_mercouris_asr_cluster() -> None:
     assert counts["khairullin_surname_asr"] >= 1
     assert counts["khairullin_kulin"] >= 1
     assert counts["khairullin_hulu_said"] == 1
+
+
+def test_apply_replacements_fixes_nima_alkhorshid_display() -> None:
+    text = (
+        "Host Nima Alkorshid opened. **Nima Alkorshid:** welcome back.\n"
+        "Alkorshid's guest spoke; Alkorshid thanked Carl.\n"
+    )
+    updated, counts = fix.apply_replacements(text)
+    assert "Alkorshid" not in updated
+    assert "Nima Alkhorshid" in updated
+    assert "**Nima Alkhorshid:**" in updated
+    assert "Alkhorshid's" in updated
+    assert counts["nima_alkhorshid_display"] == 2
+    assert counts["nima_alkhorshid_surname_poss"] == 1
+    assert counts["nima_alkhorshid_surname_canonical"] == 1

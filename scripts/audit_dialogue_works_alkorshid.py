@@ -53,6 +53,28 @@ DAVIS_HOST_OPENING_RES = [
     re.compile(r"pardon me.*nima.*from dialogue works", re.I),
 ]
 
+# Wrong display spelling (operator policy: Alkhorshid with h). Machine slug `alkorshid` is unchanged.
+WRONG_NIMA_SURNAME_RE = re.compile(r"Alkorshid")
+
+
+def nima_display_spelling_flags(meta: dict[str, Any], body: str) -> list[str]:
+    """Return spelling issue tags when canonical Nima Alkhorshid display is violated."""
+    flags: list[str] = []
+    for field, tag in (("host", "host-yaml"), ("guest", "guest-yaml")):
+        val = str(meta.get(field) or "")
+        if val and WRONG_NIMA_SURNAME_RE.search(val):
+            flags.append(tag)
+    sample = body[:15000]
+    if "Nima Alkorshid" in sample:
+        flags.append("display-name")
+    if "**Nima Alkorshid:**" in body:
+        flags.append("speaker-label")
+    if "Dialogue Works (Nima Alkorshid)" in sample:
+        flags.append("scaffold-title")
+    if re.search(r"^# Nima Alkorshid\b", sample, re.M):
+        flags.append("title")
+    return flags
+
 
 @dataclass
 class AuditRow:
@@ -203,6 +225,10 @@ def audit_file(path: Path) -> AuditRow | None:
     fm_end = body.find("\n---", 4)
     transcript = body[fm_end + 4 :] if fm_end > 0 else body
     class_, notes, target_prefix = classify(meta, path, transcript)
+    spelling = nima_display_spelling_flags(meta, body)
+    if spelling:
+        spell_note = "spelling:" + ",".join(spelling)
+        notes = f"{notes}; {spell_note}" if notes else spell_note
     rel = path.relative_to(REPO_ROOT).as_posix()
     return AuditRow(
         path=rel,
@@ -290,6 +316,7 @@ def write_summary(path: Path, rows: list[AuditRow], audit_date: str) -> None:
         1 for r in rows if needs_rename(REPO_ROOT / r.path, r.target_prefix)
     )
     inverted = [r for r in rows if "inverted-yaml" in r.notes or r.class_ == "inverted-yaml"]
+    spelling_rows = [r for r in rows if "spelling:" in r.notes]
     lines = [
         f"# Dialogue Works / Alkorshid audit — {audit_date}",
         "",
@@ -307,6 +334,18 @@ def write_summary(path: Path, rows: list[AuditRow], audit_date: str) -> None:
             "",
             f"**Needs rename:** {rename_count}",
             f"**Inverted YAML / opening:** {len(inverted)}",
+            f"**Wrong host display spelling:** {len(spelling_rows)}",
+            "",
+            "## Wrong host display spelling",
+            "",
+        ]
+    )
+    for row in spelling_rows:
+        lines.append(f"- `{row.path}` — {row.notes}")
+    if not spelling_rows:
+        lines.append("- _(none)_")
+    lines.extend(
+        [
             "",
             "## Flagged inversions",
             "",
@@ -350,6 +389,11 @@ def main() -> int:
         action="store_true",
         help="Write CSV and summary under statecraft/audits/",
     )
+    parser.add_argument(
+        "--fail-on-spelling",
+        action="store_true",
+        help="Exit 1 when any capture still uses wrong Nima Alkorshid display spelling",
+    )
     args = parser.parse_args()
 
     paths = iter_capture_paths(args.root)
@@ -373,9 +417,13 @@ def main() -> int:
     rename_count = sum(
         1 for r in rows if needs_rename(REPO_ROOT / r.path, r.target_prefix)
     )
+    spelling_count = sum(1 for r in rows if "spelling:" in r.notes)
     print(f"Scanned {len(rows)} files; rename candidates: {rename_count}")
+    print(f"Wrong host display spelling: {spelling_count}")
     for cls, n in sorted(counts.items()):
         print(f"  {cls}: {n}")
+    if args.fail_on_spelling and spelling_count:
+        return 1
     return 0
 
 

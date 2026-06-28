@@ -21,7 +21,9 @@ DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 POLICY_SKIP_PATHS = frozenset(
     {
         ".cursor/rules/strategy-codex-kiev-spelling.mdc",
+        ".cursor/rules/dialogue-works-disambiguation.mdc",
         "docs/skill-write/write-operator-preferences.md",
+        "statecraft/channels/dialogue-works/dialogue-works-disambiguation.md",
     }
 )
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
@@ -396,6 +398,11 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\bKharkiv\b", re.IGNORECASE), "Kharkov", "kharkov_kharkiv_canonical"),
     ReplacementSpec(re.compile(r"\bKharkof\b", re.IGNORECASE), "Kharkov", "kharkov_kharkof_asr"),
     ReplacementSpec(re.compile(r"\bKharkoff\b", re.IGNORECASE), "Kharkov", "kharkov_kharkoff_asr"),
+    # strategy-codex canonical spelling (operator policy): Nima Alkhorshid — display surname with h.
+    ReplacementSpec(re.compile(r"\bNima Alkorshid's\b"), "Nima Alkhorshid's", "nima_alkhorshid_poss"),
+    ReplacementSpec(re.compile(r"\bNima Alkorshid\b"), "Nima Alkhorshid", "nima_alkhorshid_display"),
+    ReplacementSpec(re.compile(r"\bAlkorshid's\b"), "Alkhorshid's", "nima_alkhorshid_surname_poss"),
+    ReplacementSpec(re.compile(r"\bAlkorshid\b"), "Alkhorshid", "nima_alkhorshid_surname_canonical"),
     # Belarus / Lukashenko / Sumy ASR cluster (Mercouris Ukraine-war calibration; 2026-06).
     ReplacementSpec(re.compile(r"\bBelellerus\b", re.IGNORECASE), "Belarus", "belarus_belellerus_asr"),
     ReplacementSpec(re.compile(r"\bBelleris's\b", re.IGNORECASE), "Belarus's", "belarus_belleris_poss"),

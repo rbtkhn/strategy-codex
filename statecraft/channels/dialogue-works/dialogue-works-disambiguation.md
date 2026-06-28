@@ -70,6 +70,8 @@ Full channel display names: **Daniel Davis**, **Mario Nawfal**, **Judging Freedo
 | [build_voice_routing_queue.py](../../../scripts/build_voice_routing_queue.py) | route `alkorshid` thread |
 | [cognition_streams_audit.py](../../../scripts/cognition_streams_audit.py) | verify `alkorshid` token |
 | [backfill_nima_youtube_raw_input.py](../../../scripts/backfill_nima_youtube_raw_input.py) | doc note: targets `@dialogueworks01`, not thread rename |
+| [fix_statecraft_common_asr_entities.py](../../../scripts/fix_statecraft_common_asr_entities.py) | labels `nima_alkhorshid_*` — meta/titles/speaker labels on sweep |
+| [audit_dialogue_works_alkorshid.py](../../../scripts/audit_dialogue_works_alkorshid.py) | `spelling:` flags + `--fail-on-spelling` guardrail |
 
 ## Intake guard (summary)
 
