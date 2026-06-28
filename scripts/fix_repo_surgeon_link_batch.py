@@ -568,6 +568,93 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
 
     if rel.startswith("statecraft/notes/reentry/"):
         replacements.append(("../../../america/", "../../america/"))
+        replacements.extend(
+            [
+                ("../../../../../../../compact/", "../../compact/"),
+                ("../../../../../../compact/", "../../compact/"),
+                ("../../../../../compact/", "../../compact/"),
+                ("../../../compact/", "../../compact/"),
+            ]
+        )
+
+    if rel == "statecraft/notes/reentry/_templates/week-hinge-start-here.md":
+        replacements.extend(
+            [
+                (
+                    "[source-archive/statecraft/YYYY-MM.md](../../../../source-archive/statecraft/YYYY-MM/day-index.md)",
+                    "`source-archive/statecraft/YYYY-MM/day-index.md`",
+                ),
+                (
+                    "[YYYY-MM.md](../../synthesis/month/YYYY-MM.md)",
+                    "`statecraft/synthesis/month/YYYY-MM.md`",
+                ),
+                (
+                    "[YYYY-MM-weekN-1-start-here.md](../YYYY-MM-weekN-1-start-here.md)",
+                    "`YYYY-MM-weekN-1-start-here.md` (prior week, same folder when instantiated)",
+                ),
+            ]
+        )
+
+    if rel == "statecraft/notes/arc-mercouris-continuity.md":
+        replacements.extend(
+            [
+                (
+                    "](../diesen/arc-mercouris-diesen-host.md -",
+                    "](arc-mercouris-diesen-host.md) -",
+                ),
+                (
+                    "(arc-mercouris-davis-host.md -",
+                    "(arc-mercouris-davis-host.md) -",
+                ),
+                (
+                    "](arc-mercouris-continuity-threads.md)",
+                    "](../voices/mercouris/mercouris-arc-threads.md)",
+                ),
+            ]
+        )
+
+    if rel.startswith("statecraft/channels/dialogue-works/"):
+        replacements.extend(
+            [
+                (
+                    "[nima-profile.md](../../profiles/nima-profile.md and [nima-transcript.md](nima-transcript.md).",
+                    "[nima-profile.md](nima-profile.md) and [nima-transcript.md](nima-transcript.md).",
+                ),
+                ("../../profiles/nima-profile.md", "nima-profile.md"),
+                ("](transcript.md)", "](nima-transcript.md)"),
+                ("`transcript.md`", "`nima-transcript.md`"),
+                (
+                    "../daily-strategy-inbox.md that include",
+                    "../../../../codex/daily-strategy-inbox.md) that include",
+                ),
+                (
+                    "nima-profile.md (cognitive profile)",
+                    "nima-profile.md) (cognitive profile",
+                ),
+            ]
+        )
+
+    if rel == "statecraft/voices/mercouris/mercouris-thread.md":
+        replacements.extend(
+            [
+                (
+                    "](../../strategy-commentator-threads.md (`",
+                    "](../../../codex/strategy-commentator-threads.md) (`",
+                ),
+                (
+                    "](../../strategy-commentator-threads.md (",
+                    "](../../../codex/strategy-commentator-threads.md) (",
+                ),
+            ]
+        )
+
+    if rel == "statecraft/synthesis/METHOD.md":
+        replacements.append(
+            (
+                "./_templates/week-hinge-start-here.md",
+                "../notes/reentry/_templates/week-hinge-start-here.md",
+            )
+        )
 
     if rel.startswith("statecraft/notes/") and "/reentry/" not in rel:
         replacements.append(("../../notes/", ""))
@@ -1739,6 +1826,8 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
     if rel.startswith("statecraft/voices/davis/"):
         patterns.append((r"\]\(assets/davis/[^)]+\.png\)", r"](davis-profile.md)"))
+    if rel.startswith("statecraft/voices/mercouris/"):
+        patterns.append((r"\]\(assets/marandi/[^)]+\.png\)", r"](../marandi/marandi-profile.md)"))
     if rel.startswith(".cursor/skills/statecraft-framework/"):
         patterns.append(
             (

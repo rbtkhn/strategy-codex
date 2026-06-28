@@ -90,7 +90,7 @@ Heavy-week adds:
 - [America foreign-client-mesh — §224 inverse-lever](../../america/transactions/foreign-client-mesh-separation-and-command-review.md) — **`AMER-224-RCPT-04`**
 - [Johnson×Wilkerson×Aguilar MOU gate](../2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)
 - [Parsi quiet-lane + asset-path deepener](../2026-06-12-parsi-quiet-lane-asset-path-deepener.md)
-- [Jun 12 triple-fracture compact](../../../../../../../compact/jun-12-triple-fracture-objection-matrix.md) — **canonical compression** (dual-document · A′ · §224 quid)
+- [Jun 12 triple-fracture compact](../../../compact/jun-12-triple-fracture-objection-matrix.md) — **canonical compression** (dual-document · A′ · §224 quid)
 - [Marandi clauses × J12-6 × Aguilar bridge](../2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
 - [72h watch run (Jun 12–13)](../watch/2026-06-12-72h-watch-run.md) — Fork 1–5 incl. §224 + A′
 - [Lebanon enforcement × Nima host arc (Jun 14)](../2026-06-14-lebanon-enforcement-nima-host-arc.md) — J14-13–J14-16 · pseudo-gate hardened · host timeline method

@@ -3,11 +3,11 @@
 
 WORK only; not Record.
 
-**Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../daily-strategy-inbox.md that include `thread:nima` (first line + optional continuation paragraphs), routed on ingest.
+**Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) that include `thread:nima` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **â‰¤ 2000 words** per ingest block; whole file soft **â‰¤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [nima-profile.md](../../profiles/nima-profile.md (cognitive profile) and [nima-thread.md](nima-thread.md) (distilled thread).
+**Companion files:** [nima-profile.md](nima-profile.md) (cognitive profile and [nima-thread.md](nima-thread.md) (distilled thread).
 
 ---
 

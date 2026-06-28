@@ -60,12 +60,12 @@ March 2026 is the first **mature dense-core month** in that motion: the point wh
 
 Current reinforcement branches:
 
-- [Diesen x Mercouris](../diesen/arc-mercouris-diesen-host.md - a deepening host-local branch (2023/2024 Karaganov triads + 2026 legitimacy dyad) that braids order-transition, deterrence-history, and legitimacy-crisis threads with Diesen's frame.
-- [Davis x Mercouris](arc-mercouris-davis-host.md - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
+- [Diesen x Mercouris](arc-mercouris-diesen-host.md) - a deepening host-local branch (2023/2024 Karaganov triads + 2026 legitimacy dyad) that braids order-transition, deterrence-history, and legitimacy-crisis threads with Diesen's frame.
+- [Davis x Mercouris](arc-mercouris-davis-host.md) - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
 
 Distinct from:
 
-- [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md), which carries the internal strand differentiation rather than the overall arc shape
+- [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md), which carries the internal strand differentiation rather than the overall arc shape
 - [mercouris-thread.md](../voices/mercouris/mercouris-thread.md), which preserves continuity browsing but should not be treated as the orthogonality-bearing thread surface
 - the host-local branches above, which show how external host pressure changes the usable Mercouris object
 

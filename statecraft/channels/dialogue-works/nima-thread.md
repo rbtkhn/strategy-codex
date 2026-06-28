@@ -16,10 +16,10 @@ If a question is about host transformation, guest differentiation, or canonical 
 
 Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Nima structure now lives in the host shelf front door at [nima/README.md](README.md), the host routing surface at [nima/index.md](index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`transcript.md`](transcript.md) (what the host said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`nima-transcript.md`](nima-transcript.md) (what the host said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
-**Companion files:** [nima-profile.md](../../profiles/nima-profile.md and [nima-transcript.md](nima-transcript.md).
+**Companion files:** [nima-profile.md](nima-profile.md) and [nima-transcript.md](nima-transcript.md).
 
 ---
 
@@ -41,7 +41,7 @@ _Write here in full sentences. For **`nima`**, note **same-episode** symmetry: w
 <!-- strategy-expert-thread:start -->
 ## Machine layer ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Extraction (script-maintained)
 
-_Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (de-duped union) + `strategy-page` blocks + optional legacy on-disk index rows. **Journal layer** (narrative) lives **above** the **strategy-expert-thread** start HTML comment. The machine-layer HTML block is replaced on each `thread` run._
+_Auto-generated from `nima-transcript.md` + **on-disk** and **inbox** `raw-input/` (de-duped union) + `strategy-page` blocks + optional legacy on-disk index rows. **Journal layer** (narrative) lives **above** the **strategy-expert-thread** start HTML comment. The machine-layer HTML block is replaced on each `thread` run._
 
 ### Recent transcript material
 

@@ -13,7 +13,7 @@ One entry point for re-entering month-week N of YYYY-MM. Open before the day lad
 
 **Convergence (optional, one line):** <!-- e.g. threshold + capture — monthly function labels only -->
 
-**Archive checkpoint:** [source-archive/statecraft/YYYY-MM.md](../../source-archive/statecraft/YYYY-MM.md) — <!-- day count, file count, first capture if mid-month --> · **Month compression:** [YYYY-MM.md](../YYYY-MM.md)
+**Archive checkpoint:** `source-archive/statecraft/YYYY-MM/day-index.md` — <!-- day count, file count, first capture if mid-month --> · **Month compression:** `statecraft/synthesis/month/YYYY-MM.md`
 
 ---
 
@@ -71,7 +71,7 @@ One entry point for re-entering month-week N of YYYY-MM. Open before the day lad
 
 - 
 
-**Prior month-week:** [YYYY-MM-weekN-1-start-here.md](./YYYY-MM-weekN-1-start-here.md)
+**Prior month-week:** `YYYY-MM-weekN-1-start-here.md` (prior week, same folder when instantiated)
 
 ---
 

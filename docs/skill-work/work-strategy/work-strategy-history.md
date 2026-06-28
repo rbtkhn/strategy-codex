@@ -44,7 +44,7 @@ _(Append below this line.)_
 ## 2026-04-01
 
 - Added **work-strategy-rome** project: [work-strategy-rome/README.md](work-strategy-rome/README.md), [work-strategy-rome/manifest.md](work-strategy-rome/manifest.md); indexed from territory [README.md](README.md).
-- **work-strategy-rome:** thin **CIV-MEM** wire (slow-layer index + [civ-mem-draft-protocol](../../../work-politics/civ-mem-draft-protocol.md); no duplicate corpus) â€” [work-strategy-rome/README.md](work-strategy-rome/README.md), [work-strategy-rome/manifest.md](work-strategy-rome/manifest.md).
+- **work-strategy-rome:** thin **CIV-MEM** wire (slow-layer index + [civ-mem-draft-protocol](../../../../../work-politics/civ-mem-draft-protocol.md); no duplicate corpus) â€” [work-strategy-rome/README.md](work-strategy-rome/README.md), [work-strategy-rome/manifest.md](work-strategy-rome/manifest.md).
 
 ## 2026-04-02
 

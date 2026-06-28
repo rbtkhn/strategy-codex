@@ -56,4 +56,4 @@
 
 ### Optional habit telemetry
 
-Light **follow-through** discipline (tomorrow line, blocker carryover, friction resolution) without turning this into a dashboard: [journal-metrics-habit.md](../../../../../../../../../../journal-metrics-habit.md). **Phase 0** = weekly 5â€‘minute check; **Phase 1** = optional YAML frontmatter. Rhythm snapshot (filename dates): `python3 scripts/journal_habit_snapshot.py`.
+Light **follow-through** discipline (tomorrow line, blocker carryover, friction resolution) without turning this into a dashboard: [journal-metrics-habit.md](../../../../../../../../../../../../journal-metrics-habit.md). **Phase 0** = weekly 5â€‘minute check; **Phase 1** = optional YAML frontmatter. Rhythm snapshot (filename dates): `python3 scripts/journal_habit_snapshot.py`.

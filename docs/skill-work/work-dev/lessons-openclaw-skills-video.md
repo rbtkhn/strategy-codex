@@ -2,7 +2,7 @@
 
 **Source:** YouTube — top OpenClaw skills: Larry (TikTok), Capability Evolver, QMD, Anti-AI slop, search, GOG, Mission Control, Bite Rover, etc. **Use:** Skills ecosystem, output quality, and positioning for the polyphonic cognition protocol skill.
 
-**Related:** [../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/polyphonic-cognition-protocol-skill.md](../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/polyphonic-cognition-protocol-skill.md), [lessons-perplexity-computer-video.md](lessons-perplexity-computer-video.md).
+**Related:** [../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/polyphonic-cognition-protocol-skill.md](../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/../work-politics/polyphonic-cognition-protocol-skill.md), [lessons-perplexity-computer-video.md](lessons-perplexity-computer-video.md).
 
 ---
 

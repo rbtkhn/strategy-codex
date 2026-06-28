@@ -131,7 +131,7 @@ _**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in p
 
 ## 2b. Civ-mem depth hooks (in-repo essays Ã¢â‚¬” not breaking news)
 
-_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only Ã¢â‚¬” not a substitute for dated news. See [civ-mem-draft-protocol](../../../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
+_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only Ã¢â‚¬” not a substitute for dated news. See [civ-mem-draft-protocol](../../../../../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
 
 - **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“MEARSHEIMER.md`}** (overlap 2) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“MEARSHEIMER Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Advisory Mind John J. Mearsheimer CognitiveÃ¢â‚¬“Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE Ã‚· CANONICAL Ã‚· LOCKED Class: MIND (ADVIS..._
 - **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“MERCOURIS.md`}** (overlap 2) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“MERCOURIS Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Primary Mind Alexander Mercouris CognitiveÃ¢â‚¬“Linguistic Signature Layer Simplified Polyphony Architecture Ã‚· Proportional Blend Law Status: ACTIVE Ã‚· CANONICAL Ã‚· LOC..._

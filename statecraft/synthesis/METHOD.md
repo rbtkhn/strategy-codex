@@ -218,7 +218,7 @@ Activation: operator says **`week hinge`** or **`start-here`** + month/week.
 
 **Promotion to monthly:** only on explicit **`statecraft monthly synthesis`**—assemble `Month Arcs` from finalized week-hinge object-migration lines; no dream auto-merge into partial month notes.
 
-Template: [`_templates/week-hinge-start-here.md`](./_templates/week-hinge-start-here.md).
+Template: [`_templates/week-hinge-start-here.md`](../notes/reentry/_templates/week-hinge-start-here.md).
 
 ## Intelligence Essay Contract
 
