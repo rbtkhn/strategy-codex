@@ -27,7 +27,7 @@ opening_tier: host-tease
 
 ## Transcript
 
-**Nima Alkorshid (host):** Hi everybody. Today's Sunday, May 10th, 2026, and our dear friend, our brother Patrick Henningsen is here with us. Welcome back, Patrick from Europe.
+**Nima Alkhorshid:** Hi everybody. Today's Sunday, May 10th, 2026, and our dear friend, our brother Patrick Henningsen is here with us. Welcome back, Patrick from Europe.
 
 **Patrick Henningsen:** Yes, that's right. Great to be with you, Nima.
 

@@ -18,7 +18,7 @@ opening_tier: clean
 
 # Nima Alkorshid with Larry Johnson: Hormuz, Qatar, BRICS, Trump, and China
 
-**Nima Alkorshid (host):**
+**Nima Alkhorshid:**
 Hi, everybody. Today is Friday, May 8, 2026, and our dear friend Larry Johnson is here with us. Welcome back, Larry.
 
 **Larry Johnson:**

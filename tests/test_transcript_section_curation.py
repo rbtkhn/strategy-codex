@@ -13,6 +13,7 @@ from transcript_section_curation import (  # noqa: E402
     inject_dialogue_works_missing_turn_markers,
     insert_sections,
     mark_sectioned_frontmatter,
+    normalize_dialogue_works_host_label_suffix,
     normalize_for_anchor,
     reflow_section_paragraphs,
     split_sentences,
@@ -177,7 +178,18 @@ def test_inject_dialogue_works_missing_turn_marker_before_host_cue():
         "My understanding today, Larry, there are reports from Iran."
     )
     injected = inject_dialogue_works_missing_turn_markers(raw)
-    assert " >> My understanding today, Larry" in injected
+    assert ">> My understanding today, Larry" in injected
+
+
+def test_normalize_dialogue_works_host_label_suffix():
+    raw = (
+        "**Nima Alkhorshid (host):** Hi.\n\n"
+        "**Nima (host):** Next.\n\n"
+        "**Nima Alkorshid (host):** Typo."
+    )
+    out = normalize_dialogue_works_host_label_suffix(raw)
+    assert "(host)" not in out
+    assert out.count("**Nima Alkhorshid:**") == 3
 
 
 def test_apply_interview_labels_splits_merged_strike_origins_turn():
@@ -190,6 +202,6 @@ def test_apply_interview_labels_splits_merged_strike_origins_turn():
     labeled, n = apply_interview_turn_speaker_labels(raw)
     assert n == 3
     assert "**Larry Johnson:** I I think I think" in labeled
-    assert "**Nima Alkhorshid (host):** My understanding today, Larry" in labeled
-    assert "**Nima Alkhorshid (host):** Yeah, they've already" in labeled
+    assert "**Nima Alkhorshid:** My understanding today, Larry" in labeled
+    assert "**Nima Alkhorshid:** Yeah, they've already" in labeled
     assert ">>" not in labeled

@@ -441,7 +441,10 @@ def strip_speakers_before_section_headings(body: str, speaker_pattern: str) -> s
 
 
 def body_has_interview_speaker_labels(body: str) -> bool:
-    return bool(re.search(r"^\*\*.+\(host\):\*\*", body, re.M))
+    return bool(
+        re.search(r"^\*\*Larry Johnson:\*\*", body, re.M)
+        and re.search(r"^\*\*Nima Alkhorshid:\*\*", body, re.M)
+    )
 
 
 def normalize_dialogue_works_asr_turns(text: str) -> str:
@@ -573,19 +576,34 @@ def merge_orphan_paragraphs_into_prior_turn(body: str) -> str:
     return "\n\n".join(merged) + "\n\n"
 
 
+def normalize_dialogue_works_host_label_suffix(
+    body: str,
+    *,
+    host: str = "Nima Alkhorshid",
+) -> str:
+    """Drop legacy ``(host)`` from Dialogue Works Nima speaker labels."""
+    for old in (
+        f"**{host} (host):**",
+        "**Nima Alkorshid (host):**",
+        "**Nima (host):**",
+    ):
+        body = body.replace(old, f"**{host}:**")
+    return body
+
+
 def apply_interview_turn_speaker_labels(
     body: str,
     *,
     host: str = "Nima Alkhorshid",
     guest: str = "Larry Johnson",
-    host_suffix: str = " (host)",
+    host_suffix: str = "",
     start_with_host: bool = True,
 ) -> tuple[str, int]:
     """Replace YouTube ``>>`` turn markers with alternating host/guest speaker labels."""
+    host_label = f"**{host}{host_suffix}:**"
+    body = normalize_dialogue_works_host_label_suffix(body, host=host)
     if body_has_interview_speaker_labels(body) or ">>" not in body:
         return body, 0
-
-    host_label = f"**{host}{host_suffix}:**"
     guest_label = f"**{guest}:**"
     speaker_is_host = start_with_host
     turns_labeled = 0

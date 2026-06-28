@@ -28,11 +28,11 @@ opening_tier: host-tease
 
 ## Cleaned Transcript
 
-**Nima (host):** Hi everybody. It is Tuesday, May 26, 2026 and our dear friend, our brother John Helmer is here with us. Welcome back, John.
+**Nima Alkhorshid:** Hi everybody. It is Tuesday, May 26, 2026 and our dear friend, our brother John Helmer is here with us. Welcome back, John.
 
 **John Helmer:** Thank you for having me, Nima. Good to be back.
 
-**Nima (host):** John, let's start with the escalations between Ukraine and Russia. Finally, we've seen, we've heard about Oreshnik for such a long time, people talking about Oreshnik. If Russia uses again the Oreshnik missile, and the other important point is the phone call between Lavrov and Rubio. It seems Lavrov was warning the United States. What do we know about that?
+**Nima Alkhorshid:** John, let's start with the escalations between Ukraine and Russia. Finally, we've seen, we've heard about Oreshnik for such a long time, people talking about Oreshnik. If Russia uses again the Oreshnik missile, and the other important point is the phone call between Lavrov and Rubio. It seems Lavrov was warning the United States. What do we know about that?
 
 **John Helmer:** What we know is what's been published on the Russian side. Again, the Russian side published a full communique by Sergey Lavrov at 9:00 Moscow time yesterday. Earlier in the day, the foreign ministry issued a general statement on the attack on Starobelsk, the children's dormitory, and the retaliation.
 
@@ -58,7 +58,7 @@ I've also read, as our audience has, as your colleagues have, as you have, Nima,
 
 On the other hand, Lavrov is saying, we've just begun. This is systemic. We're going after the system of command and control.
 
-**Nima (host):** Yeah.
+**Nima Alkhorshid:** Yeah.
 
 **John Helmer:** And it's continuing and it'll be consistent. Well, what we have to do, disappointing to our audience and you and me as it is, we have to wait. We have to be patient. But we can in fact say that from the Russian point of view, from the military bloggers' point of view, from public opinion's point of view, there is now, especially since Starobelsk, especially since then, a rising demand that Putin lift his foot off the pedal, that the restrictions placed by Kremlin on general staff will be lifted, and that the Russian side is now committed to finishing them off.
 
@@ -80,7 +80,7 @@ Mao Ning quotes: "China's position on the Ukraine crisis is consistent and clear
 
 Now, does that sound as if last week President Putin told President Xi that he was going to escalate, that he was going to use massive Oreshnik-type force to take out the Ukrainian leadership because they will never negotiate an end? Does that sound like a Chinese endorsement of a conversation the two of them had last week? It doesn't sound like that to me.
 
-**Nima (host):** John, you didn't mention what Shoigu said.
+**Nima Alkhorshid:** John, you didn't mention what Shoigu said.
 
 **John Helmer:** Ah, right. This I interpret, in the old-fashioned Russian way of reading between the lines. Speaking to a group of senior Security Council adviser-level officials from the CSTO, he says, and I'll just read it out, it's in TASS if folks want to check exact words, he says: "The successful testing of the Sarmat intercontinental ballistic missile will temper the ardor of Western strategists, making them take a sober look at the potential consequences of their reckless anti-Russia policy."
 
@@ -90,7 +90,7 @@ Instead, he's referring to the Sarmat intercontinental ballistic missile test wh
 
 If he thinks anyone believes what he's just said, he's equally deluding himself. This is simply an odd and unconvincing display of Russian muscle applied to thin air. It's punching at thin air. Now, if your secretary of the Security Council at this time, following the Starobelsk attack, following the counterattack on Kiev, following Lavrov's clear indication our Russian side is going to proceed to systemic and consistent strikes, if that's what Shoigu says, doesn't it lead to doubt that the Russian side, in particular the one man who speaks behind Shoigu and keeps his back, that's President Putin, doesn't it tell you President Putin hasn't really changed his mind? I raise that as a question. I don't yet know the answer.
 
-**Nima (host):** Yeah. John, just moments ago, Dmitry Peskov said the Kremlin has not yet received any response to Russia's warning of planned sequential strikes on Kiev's military-industrial complex. They didn't receive any response from the United States. What sort of response do they expect from the United States in your opinion?
+**Nima Alkhorshid:** Yeah. John, just moments ago, Dmitry Peskov said the Kremlin has not yet received any response to Russia's warning of planned sequential strikes on Kiev's military-industrial complex. They didn't receive any response from the United States. What sort of response do they expect from the United States in your opinion?
 
 **John Helmer:** Well, there are two parts of the answer to your question. Nobody is going to evacuate their embassies in Kiev because if they were intending to, they wouldn't be saying so. The evidence would be obvious on buses, trains, and planes. So nobody's taken that threat seriously.
 
@@ -102,7 +102,7 @@ If there are no negotiations, if they failed, if the Anchorage understandings ca
 
 If that's where Russia is, then what Shoigu is saying today and what Peskov is saying today undercuts the credibility of what happened when Oreshnik landed and what's promised to happen by Sergey Lavrov. That's at the very least, from a Russian point of view, from Russian public opinion's point of view, disappointing. And if it's disappointing in an election time, in an economy that's in recession, public opinion asks for answers just like you're asking the questions.
 
-**Nima (host):** Yeah. I think when it comes, John, to the negotiations between the United States and Russia, we have to consider what is the priority for the United States right now and how do you see the war in Ukraine in the eyes of the Trump administration, because the way they were negotiating for such more than a year, we're getting to two years of the Trump administration, you don't see that much seriousness in negotiations.
+**Nima Alkhorshid:** Yeah. I think when it comes, John, to the negotiations between the United States and Russia, we have to consider what is the priority for the United States right now and how do you see the war in Ukraine in the eyes of the Trump administration, because the way they were negotiating for such more than a year, we're getting to two years of the Trump administration, you don't see that much seriousness in negotiations.
 
 And even with the escalation, they don't care, as you just mentioned. What can Russia do to force the United States into serious communications? Is that possible, or Russia has to do it all on the battlefield?
 
@@ -126,17 +126,17 @@ The US are not exposing their drones the way they have in the past to set up Ukr
 
 So while on the one hand Trump is saying let them fight it out, while on the other hand Rubio is saying negotiations have failed, behind the scenes the US and the NATO allies believe that they will continue to assist the escalation of attacks on Russia. And the Russian side - well, I'm now repeating myself - does anyone out there think after what I've described Sergey Shoigu as having said, what you've described as Dmitry Peskov as having said, does anyone out there think the Russians are deterring all of this backing for Ukrainian escalation? Me, I'm just one. I think no. The answer is no.
 
-**Nima (host):** Yeah. John, before getting to the conflict, the war between Iran and the United States, I want to play a clip of Sikorski talking about negotiating with Putin. Here is what Sikorski said.
+**Nima Alkhorshid:** Yeah. John, before getting to the conflict, the war between Iran and the United States, I want to play a clip of Sikorski talking about negotiating with Putin. Here is what Sikorski said.
 
 **Clip / Radosław Sikorski:** I'm skeptical about negotiating with Putin on two grounds. Number one, when you've been a dictator for over 20 years, everybody lies to you. And these dictators always drop some of their maximalist results too late because they don't know the true position they are in. And secondly, Vladimir Putin is a man whose word and whose signature cannot be trusted. He lied to us repeatedly. So I think the war will be ended by someone else.
 
-**Nima (host):** Would you like to expand on that?
+**Nima Alkhorshid:** Would you like to expand on that?
 
 **John Helmer:** Isn't it clear? I don't know what this guy is talking about. Look, I've followed Mr. Sikorski's career for a long time. I've looked into the level of corruption that he and his wife Anne Applebaum have put in their pockets, both when they were in office and when they were out of office.
 
 There's nothing new about what he said except that a man with a career of changing nationalities as often as Sikorski has had, of changing loyalties as often as Sikorski has had, accusing someone else of being a liar is an obvious case, and not a very beautiful one. Beautifully spoken English, better accent than I've got. It's simply a case of the kettle calling the pot black.
 
-**Nima (host):** John, as you mentioned, the priority right now for the United States is the case of Iran, and there are somehow messages going back and forth between the two parties. As you've mentioned, we had escalation last night. Two of these speedboats were hit by American forces, fighter jets hit, and four sailors were martyred, were killed in this attack, and we had Iranian response to that on American drones. One F-35 was targeted. We don't know, we have no confirmation that it was hit or not, but it seems that they forced the fighter jet out of the region.
+**Nima Alkhorshid:** John, as you mentioned, the priority right now for the United States is the case of Iran, and there are somehow messages going back and forth between the two parties. As you've mentioned, we had escalation last night. Two of these speedboats were hit by American forces, fighter jets hit, and four sailors were martyred, were killed in this attack, and we had Iranian response to that on American drones. One F-35 was targeted. We don't know, we have no confirmation that it was hit or not, but it seems that they forced the fighter jet out of the region.
 
 So what is that? Because you are negotiating, you are trying at least, whatever Donald Trump is doing. Look at Donald Trump, look at his posts on Truth Social. It's all about negotiation. It's all about I'm getting this, getting that. Yesterday he wrote something as big as a book on Truth Social. It's a lot about what's going on.
 
@@ -166,15 +166,15 @@ Now, the Iraqi crude that's just been released by Iran is headed for China. So w
 
 So I would say this isn't a confusion. It's multiple interests working to achieve short-term interests of shipping oil, disrupting negotiations, achieving negotiations in stage one while deferring stage two and stage three. Is that confusion? No. We've just tried to explain how so much can be going on, which has apparent contradictions, with bits and pieces clashing with one another. But that's politics. That's what these chaps get paid for. This is what people die for.
 
-**Nima (host):** John, Donald Trump was insisting that Iran has to send enriched uranium to the United States before.
+**Nima Alkhorshid:** John, Donald Trump was insisting that Iran has to send enriched uranium to the United States before.
 
 **John Helmer:** Yes.
 
-**Nima (host):** He's just softening his tone.
+**Nima Alkhorshid:** He's just softening his tone.
 
 **John Helmer:** Yes, he certainly has.
 
-**Nima (host):** And there's no sign that they're sticking to a 3 percent enrichment level. There's no sign of that any longer, and this was the objective of the abortive Isfahan operation, that they want to throw a cordon around Iran's nuclear facilities, and there's no sign that they want to limit civilian nuclear capacity construction in Iran.
+**Nima Alkhorshid:** And there's no sign that they're sticking to a 3 percent enrichment level. There's no sign of that any longer, and this was the objective of the abortive Isfahan operation, that they want to throw a cordon around Iran's nuclear facilities, and there's no sign that they want to limit civilian nuclear capacity construction in Iran.
 
 In other words...
 
@@ -184,11 +184,11 @@ So there's progress for the Iranian side. There's retreat, indubitably, on the U
 
 The Iranian side is not going to tolerate what Hamas has suffered. That is a staged agreement in which the Israelis break each stage of their ceasefire and of their peace agreement.
 
-**Nima (host):** Yes. It's not going to be like the Gaza outcome. The reason we have Iranian officials in - we had the head of Iranian parliament, foreign minister of Iran, and the head of the central bank of Iran - because they're demanding the release of $24 billion in frozen assets.
+**Nima Alkhorshid:** Yes. It's not going to be like the Gaza outcome. The reason we have Iranian officials in - we had the head of Iranian parliament, foreign minister of Iran, and the head of the central bank of Iran - because they're demanding the release of $24 billion in frozen assets.
 
 **John Helmer:** Yes.
 
-**Nima (host):** Which it seems that they're asking half of that upon signing the document and later on they're going to receive more, $12 billion in 60 days.
+**Nima Alkhorshid:** Which it seems that they're asking half of that upon signing the document and later on they're going to receive more, $12 billion in 60 days.
 
 **John Helmer:** I'm glad you mentioned that. I think that's emphatically clear now. Let's do the arithmetic. If the Iranian side is saying we're going to stick on this in staged form, money released stage by stage, then it's clear why in the 60-day period, the Persian Gulf Strait Authority, the PGSA, which is the new Iranian IRGC authority for regulating the Hormuz Strait, the PGSA can, as it were, drop the toll.
 
@@ -200,7 +200,7 @@ And one would have to then look at, are the Europeans, like the British who've b
 
 And if Iran says let's try that for 60 days, the whole world will give a sigh of relief and everybody will give them their own money back. That sounds like a deal. It's far cleverer, as deal-making goes, for the Iranian side, and it teaches the so-called master of the deal, President Trump, a thing or two.
 
-**Nima (host):** Yeah. About the toll, John. Yesterday we've learned from the Iranian foreign ministry that they said there are no tolls and will be no tolls in the Strait of Hormuz, but ships will have to pay an environmental protection fee in a joint system.
+**Nima Alkhorshid:** Yeah. About the toll, John. Yesterday we've learned from the Iranian foreign ministry that they said there are no tolls and will be no tolls in the Strait of Hormuz, but ships will have to pay an environmental protection fee in a joint system.
 
 **John Helmer:** This is perfectly reasonable. That's what the Turks impose on the passage through the Bosphorus and the Dardanelles Straits. It's called a maintenance environmental protection fee, protection against spills. We don't call it a toll. Fine. We don't call it reparations. We'll come back to that later.
 
@@ -208,7 +208,7 @@ The relief that we can do arithmetic in concert is so great. Everybody's likely 
 
 So are they ready to sabotage the negotiations? Maybe. That's why we're seeing multiple signals.
 
-**Nima (host):** I think Donald Trump has no options right now. One of them is the continuation of the war with Iran, which would be the end of his presidency, and the other one would be making some sort of deal with Iran, which we know, as you mentioned, there are many people in the United States and in Israel, they're not happy about what's going on because they see what Israel was before this war started and what Israel is today.
+**Nima Alkhorshid:** I think Donald Trump has no options right now. One of them is the continuation of the war with Iran, which would be the end of his presidency, and the other one would be making some sort of deal with Iran, which we know, as you mentioned, there are many people in the United States and in Israel, they're not happy about what's going on because they see what Israel was before this war started and what Israel is today.
 
 We know that Israel is attacking Lebanon. Yesterday, Smotrich said for each drone that comes to Israel and hits some targets in Israel or hits some targets in the southern part of Lebanon against Israeli equipment, tanks, and everything, air defense system, we're going to bring down 10 buildings. This means that they're suffering a lot from the drone attacks of Hezbollah. That's why they're attacking.
 
@@ -216,7 +216,7 @@ Just moments ago, we've seen a lot of footage coming out of Lebanon. They're bri
 
 **John Helmer:** Yes, they are.
 
-**Nima (host):** This is the basic problem for Donald Trump. I don't see any sort of progress between Israel and Lebanon. I don't know how much leverage Donald Trump has to force Benjamin Netanyahu into some sort of new positions on their policy against Hezbollah or Lebanon.
+**Nima Alkhorshid:** This is the basic problem for Donald Trump. I don't see any sort of progress between Israel and Lebanon. I don't know how much leverage Donald Trump has to force Benjamin Netanyahu into some sort of new positions on their policy against Hezbollah or Lebanon.
 
 **John Helmer:** I don't know either on the issue of leverage, but where's Vice President Vance in all of this? You ask yourself from a US White House political campaign point of view, right? We've got Trump who might, but is unlikely, the man's too ill and is getting more and more debilitated, try to succeed himself in 2028 by some extra-constitutional measure. That looks less and less likely.
 
@@ -240,14 +240,14 @@ And American voters want peace, cheap gas, and so forth and so on. Israel has to
 
 So does that answer your question? I think we have to see the answer to your question in terms of US politics, and I think we have to say - but you've got a lot of folks who are closer to the United States core than I am - but speaking as ex-White House a long time ago, I see presidential politicking as the driver here and Israel is a potential target in a Vance succession race or a Rubio succession race. But Israel isn't a target if the Democrats run, is it?
 
-**Nima (host):** Yeah. No, I think you're right, John. Thank you. Thank you so much, John, for being with us today. Great pleasure as always.
+**Nima Alkhorshid:** Yeah. No, I think you're right, John. Thank you. Thank you so much, John, for being with us today. Great pleasure as always.
 
 **John Helmer:** Me too. Me too, Nima. I look forward to next week and I look forward to some of the hopefulness we've talked about today.
 
-**Nima (host):** Yeah, please go to `johnhelmer.net`. Right below his name, you can find it, `johnhelmer.net`. You can find John's pieces - he writes about Russia, Iran, China, everything, but basically in the eyes of Russian policies.
+**Nima Alkhorshid:** Yeah, please go to `johnhelmer.net`. Right below his name, you can find it, `johnhelmer.net`. You can find John's pieces - he writes about Russia, Iran, China, everything, but basically in the eyes of Russian policies.
 
 Thank you. Thank you so much, John.
 
 **John Helmer:** Thank you for having me, Nima. See you next week.
 
-**Nima (host):** See you next week.
+**Nima Alkhorshid:** See you next week.

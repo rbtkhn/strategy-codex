@@ -18,7 +18,7 @@ opening_tier: host-tease
 
 # Nima Alkorshid with Ambassador Charles Freeman: Hormuz, Ceasefire, Gulf States, and China's Role
 
-**Nima Alkorshid (host):**
+**Nima Alkhorshid:**
 Hi everybody. Today is Friday, May 8, 2026, and our dear friend Ambassador Chas Freeman is here with us. Welcome back, Ambassador.
 
 **Amb. Charles Freeman:**

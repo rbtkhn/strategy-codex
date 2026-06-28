@@ -4,7 +4,7 @@ description: Post-intake transcript section curation for YouTube channel solo an
 preferred_activation: source-section
 activation: source-section
 portable: true
-version: 1.2.0
+version: 1.2.1
 category: truth-pipeline
 status: active
 scope_class: public-portable
@@ -153,7 +153,7 @@ Run only when the outline is approved or operator supplied a complete map up fro
 1. **Optional light ASR** — duplicate-word / obvious name fixes only when they do not change argument; defer heavy tiers to **`source-clean`** (run **before** sectioning when ASR is load-bearing).
 2. **Insert sections** — `insert_sections(body, SECTION_TITLES, SECTION_ANCHORS)`; last section runs to EOF.
 3. **Paragraph reflow** — `reflow_section_paragraphs(body)` (default on in `write_sectioned_capture`; skip when operator says **`no paragraph reflow`**).
-4. **Speaker repair (interview)** — prepend `**Speaker:**` at section opens when anchors split mid-turn; strip duplicate speaker lines before `###` headings.
+4. **Speaker repair (interview)** — replace YouTube `>>` with named turn labels (`**Full name:**` from `host_people` / `guest_people`; **no** `(host)` or `(guest)` suffix); prepend labels at section opens when anchors split mid-turn; strip duplicate speaker lines before `###` headings.
 5. **Frontmatter receipt** — `transcript_curation: curated_sectioned` + dated note tail.
 6. **Verify** — section count, anchor uniqueness, no truncated final section, word count stable ± light ASR deltas only.
 7. **Navigation receipt** — report section chunk stats **and** paragraph stats; flag quality warnings (ship phase):
@@ -173,6 +173,26 @@ python scripts/quantify_section_nav.py --day YYYY-MM-DD
 **Chunk quality targets (editorial, not hard fail):** prefer sections **~400–1,200 words**; flag any **< 100 w** (micro-sliver) or **> ~1,500 w** (mega-hop). Prefer **3–8 paragraphs per ~700w section**; flag any paragraph **> ~150 w** or a **single-paragraph section > ~200 w**. Even chunking may require re-section with new anchors — outline phase again; do not silent-ship uneven maps without naming warnings.
 
 **One-turn shortcut:** When operator passes a pre-approved map and says **ship**, skip re-proposing the outline but still name titles + anchor count in the receipt.
+
+## Interview speaker labels
+
+When labeling host/guest turns on **interview** captures (especially Dialogue Works):
+
+| Rule | Detail |
+| --- | --- |
+| **Format** | `**{Full name}:**` then turn text — e.g. `**Nima Alkhorshid:**` · `**Larry Johnson:**` |
+| **No role suffix** | Do **not** append `(host)` or `(guest)` to the name in the label |
+| **Source of names** | `host_people` / `guest_people` in YAML frontmatter when present |
+| **Turn continuations** | Extra paragraphs under the same speaker omit a repeated label until the next turn |
+| **Reflow interaction** | `reflow_section_paragraphs` no-ops when speaker labels are present |
+
+**Library (`scripts/transcript_section_curation.py`):**
+
+- `apply_interview_turn_speaker_labels` — map YouTube `>>` to alternating named labels (Dialogue Works heuristics)
+- `normalize_dialogue_works_host_label_suffix` — migrate legacy `**Nima (host):**` / `**Nima Alkhorshid (host):**` → `**Nima Alkhorshid:**`
+- `merge_orphan_paragraphs_into_prior_turn` — attach unlabeled continuation paragraphs to the prior turn
+
+**Exemplar:** `source-archive/statecraft/2026-06-27/source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md` · `scripts/patch_2026_06_27_johnson_sirik_sections.py`
 
 ## Section map rules
 
@@ -262,7 +282,9 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path("scripts").resolve()))
 from transcript_section_curation import (
+    apply_interview_turn_speaker_labels,
     insert_sections,
+    normalize_dialogue_works_host_label_suffix,
     reflow_section_paragraphs,
     write_sectioned_capture,
     write_paragraph_reflow_capture,

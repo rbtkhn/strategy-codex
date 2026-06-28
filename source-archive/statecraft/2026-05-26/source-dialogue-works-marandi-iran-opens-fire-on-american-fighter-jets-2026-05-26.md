@@ -28,11 +28,11 @@ opening_tier: host-tease
 
 ## Cleaned Transcript
 
-**Nima (host):** Hi everybody. Today is Tuesday, May 26, 2026 and our dear friend, our brother, Professor Marandi is here with us. Welcome back.
+**Nima Alkhorshid:** Hi everybody. Today is Tuesday, May 26, 2026 and our dear friend, our brother, Professor Marandi is here with us. Welcome back.
 
 **Seyed M. Marandi:** Hi Nema, thank you very much for bringing me on your show again. It's always a great pleasure.
 
-**Nima (host):** Let me start with what happened yesterday. We had the two sides firing at each other, the United States and Iran. It seems to have started with an American attack on Iranian boats. What happened yesterday, Professor?
+**Nima Alkhorshid:** Let me start with what happened yesterday. We had the two sides firing at each other, the United States and Iran. It seems to have started with an American attack on Iranian boats. What happened yesterday, Professor?
 
 **Seyed M. Marandi:** It was actually the night before, the day before yesterday at night. The Americans bombed two small naval vessels. I think there were two people on each, and they murdered four Guards soldiers. It was unprovoked and they were in Iranian territorial waters. There's no excuse. They were implying, I think, that they had something to do with mines, but they were not even in a place that would have any need for mines. It was Iranian territory.
 
@@ -54,13 +54,13 @@ And on the other hand, Trump put out a social media post, I'm sure you want to g
 
 But that will be left for later. For now we have the challenge of the US provoking the Iranians by killing Iranian sailors, and the Israeli regime slaughtering innocent civilians in order to wreck the ceasefire. So it's really unclear what will happen. No one knows. Everyone is just saying we have to wait and see. You can't even say this will probably happen or that will probably happen. It's too cloudy. You can't see through the fog.
 
-**Nima (host):** Iranian response: as we've learned from the IRGC they shot down an MQ-9 drone, and they fired at another drone, an RQ-4, and also an F-35. It seems that the F-35 is in the region. Are they testing the Iranian air defense system to see the location of the air defense system or what is going on close to the Persian Gulf? What are the capabilities of the Iranian army and IRGC when it comes to air defense and the improvement of the air defense system of Iran?
+**Nima Alkhorshid:** Iranian response: as we've learned from the IRGC they shot down an MQ-9 drone, and they fired at another drone, an RQ-4, and also an F-35. It seems that the F-35 is in the region. Are they testing the Iranian air defense system to see the location of the air defense system or what is going on close to the Persian Gulf? What are the capabilities of the Iranian army and IRGC when it comes to air defense and the improvement of the air defense system of Iran?
 
 **Seyed M. Marandi:** Well, obviously that is a part of it, but they actually did kill four people. Four people were martyred. So it goes even further than that. They haven't done any extensive damage beyond that. When they said they fired missiles at launchers and that sort of thing, none of that was really serious. What happened basically was that the Iranians fired missiles at them after they murdered those four sailors, and then they fired missiles back.
 
 Then today a ship was hit off the coast of Oman. I don't know exactly what was on that ship, but I think it was a commercial ship, and I think that probably had something to do with the UAE.
 
-**Nima (host):** An oil tanker, Professor.
+**Nima Alkhorshid:** An oil tanker, Professor.
 
 **Seyed M. Marandi:** Yes, but probably near the UAE because Oman and the UAE are right there. Iran wouldn't do that to Oman. Iran has never struck anything that belongs to Oman. During the war they remained untouched. There were a couple of drones that hit Oman, and it was clear that it was from the Emirates or Saudi Arabia because Iran has very good relations with Oman. Actually Oman is the only country that has benefited enormously by staying out of this war, and they have excellent relations with Iran and have had no damage. That's the path the others could have chosen, and they chose the opposite and assisted the Americans.
 
@@ -68,7 +68,7 @@ But in any case, the point is that when you look at what the Americans did in th
 
 The speaker of parliament went to Qatar to make sure that, as a part of this agreement, the transfer of I think about twelve billion to Iran from Qatar actually happens. We've had this before. Last time our money was stuck in South Korea, then they transferred it to Qatar and then they wouldn't transfer it to Iran. The Biden government was dishonest. They used shortcomings in their agreement, loopholes, to prevent Iran from using it. So this time around the Iranian delegation is in Qatar to make sure there's no loophole, and as soon as there is an agreement, if there is an agreement, that money is swiftly transferred to Iran.
 
-**Nima (host):** I want to focus on what has happened with Oman. We've learned that Oman is improving the relationship in terms of trade with Iran, and a new executive decree ordering Oman to increase its volume of trade and economic relations with Iran was signed by the Sultan of Oman. I think the new mechanism of the Strait of Hormuz is bringing these two countries together as well. Iran said it is not going to be a toll. Yesterday we learned from the foreign minister of Iran that there would be no toll system. But is there going to be a fee system, maybe an environmental fee or something of that sort?
+**Nima Alkhorshid:** I want to focus on what has happened with Oman. We've learned that Oman is improving the relationship in terms of trade with Iran, and a new executive decree ordering Oman to increase its volume of trade and economic relations with Iran was signed by the Sultan of Oman. I think the new mechanism of the Strait of Hormuz is bringing these two countries together as well. Iran said it is not going to be a toll. Yesterday we learned from the foreign minister of Iran that there would be no toll system. But is there going to be a fee system, maybe an environmental fee or something of that sort?
 
 **Seyed M. Marandi:** Yeah. So there is no toll, but there will be a fee. In any case they're going to benefit from each ship passing through. But perhaps just as important is the fact that they will be able to control who goes through, because they don't want American naval ships to go through. They don't want American ships to go through that carry equipment for naval bases or Israeli regime equipment or anything like that.
 
@@ -78,7 +78,7 @@ Dr. Ghalib's trip to Qatar is both to negotiate and to make sure that the money,
 
 But the Iranian leader has stressed on more than one occasion that we have to have good relations with our neighbors, and so Dr. Ghalib is also there to see if there are ways to improve the relationship with the countries in the Persian Gulf, to push them or draw them away from the United States at least to a degree.
 
-**Nima (host):** Actually moments ago before coming to this live, we had the account of the supreme leader of Iran publishing that he says, "I invite all Islamic countries and governments to friendship and cooperation in goodness so that by working together we may take steps towards the advancement of the Islamic world and the resolution of the Islamic world's problems." Here is a new concept in my opinion. What's going on out of this war, this conflict? Which solution is the Iranian supreme leader talking about? A new security architecture, a new cooperation, something that would bring peace and prosperity to the region? What is the Iranian concept on that and how far would the Iranians go to achieve that?
+**Nima Alkhorshid:** Actually moments ago before coming to this live, we had the account of the supreme leader of Iran publishing that he says, "I invite all Islamic countries and governments to friendship and cooperation in goodness so that by working together we may take steps towards the advancement of the Islamic world and the resolution of the Islamic world's problems." Here is a new concept in my opinion. What's going on out of this war, this conflict? Which solution is the Iranian supreme leader talking about? A new security architecture, a new cooperation, something that would bring peace and prosperity to the region? What is the Iranian concept on that and how far would the Iranians go to achieve that?
 
 **Seyed M. Marandi:** Well, this is something that Ayatollah Khamenei was also pursuing. I think the thinking now, and this is the third time within this short period of time that he's spoken about neighbors and the need to have improved relations, is that since this war these countries have recognized that the United States is not doing them any good. Following the United States has done enormous damage to their image and to their infrastructure and to their economies. So now perhaps there is an opportunity to convince them not to change completely, because these are countries whose leaders are proxies and their families go to the West, study in the West, spend their vacations in the West. I'm sure there's a lot of videos of their family members doing things they shouldn't be doing in the West.
 
@@ -88,11 +88,11 @@ But again, this is still very early and we're still potentially on the verge of 
 
 But in any case, the leader's Hajj message that just came out on his Twitter account and other accounts and his Telegram account, alongside Dr. Ghalib's trip to Qatar, is a new effort by Iran to see if things can change, and there does seem to be some movement. I don't know the details, but apparently there are some bilateral discussions going on between Iran and the other countries in the Persian Gulf region, and there has been some progress.
 
-**Nima (host):** Yeah, as you've mentioned, it seems that the signs of these moves are there because it wasn't just the head of the parliament. Together with the foreign minister and the head of the central bank of Iran, Hemmati, he was there because they want to know how they transfer the money, the frozen Iranian assets, which is something like twenty-four billion dollars. It seems that the United States has agreed to release at least half of that before any sixty days of ceasefire, and during the sixty days of ceasefire they're going to release the rest.
+**Nima Alkhorshid:** Yeah, as you've mentioned, it seems that the signs of these moves are there because it wasn't just the head of the parliament. Together with the foreign minister and the head of the central bank of Iran, Hemmati, he was there because they want to know how they transfer the money, the frozen Iranian assets, which is something like twenty-four billion dollars. It seems that the United States has agreed to release at least half of that before any sixty days of ceasefire, and during the sixty days of ceasefire they're going to release the rest.
 
 **Seyed M. Marandi:** At the beginning, yeah. At the beginning I think roughly about half of it is supposed to be released, and then the rest comes gradually.
 
-**Nima (host):** If we have an agreement, and if agreement is going to happen, who's going to guarantee that? Is it going to be the government or the United States?
+**Nima Alkhorshid:** If we have an agreement, and if agreement is going to happen, who's going to guarantee that? Is it going to be the government or the United States?
 
 **Seyed M. Marandi:** Well, at the end of the day Iran has learned a lot from the nuclear deal, the JCPOA. In the JCPOA, which I was involved with, I was in Vienna when it was signed, I was like the media adviser to the foreign minister Dr. Zarif back then, the mistake that we made, the Iranians, meaning I wasn't a negotiator, was that in the agreement we had certain commitments and the Americans had some commitments, and the Iranians carried out their commitments and then the Americans wouldn't do theirs. The Iranians were chasing after the Americans until the end of Obama's term in office and the Americans just wouldn't implement the deal.
 
@@ -104,11 +104,11 @@ That's why Iran got such a good deal in the war. They had the upper hand, and as
 
 So this time around the Iranians are not going to carry out their side of the bargain and then wait for the other side to do so, because Obama didn't and Trump is definitely worse than Obama.
 
-**Nima (host):** He's worse in the sense that he's untrustworthy, dishonest.
+**Nima Alkhorshid:** He's worse in the sense that he's untrustworthy, dishonest.
 
 **Seyed M. Marandi:** Absolutely. Which actually some Americans may think is a good thing, but it's a bad thing for the United States because it makes it almost impossible to come to any agreement with the United States. It makes it much more difficult because no one trusts the United States.
 
-**Nima (host):** I think many people know that because if Donald Trump feels, just in the next two hours, that he can defeat Iran by attacking her, he's going to do that. He doesn't care about negotiation, what's going on, what has happened.
+**Nima Alkhorshid:** I think many people know that because if Donald Trump feels, just in the next two hours, that he can defeat Iran by attacking her, he's going to do that. He doesn't care about negotiation, what's going on, what has happened.
 
 **Seyed M. Marandi:** Absolutely. The Iranians are far more prepared for war today than they were three months ago. Economically speaking, as we discussed last time, yes, things are more difficult obviously, but militarily speaking Iran is much stronger than it was three months ago, significantly stronger, and Iran's allies across the region are more prepared, especially Yemen.
 
@@ -122,7 +122,7 @@ It's really that the Western journalists should be ashamed of themselves. They h
 
 But they have a presence in Lebanon, a very strong presence in Lebanon, yet it doesn't make a difference at all. The Israelis are carrying out slaughter day and night in Lebanon, slaughtering families, slaughtering children, exterminating families. The Western journalists there are useless. It doesn't matter if they're present or absent. Policy is always the same.
 
-**Nima (host):** What would happen to the American blockade if Iran decides to gradually open up the Strait of Hormuz? What would be the future of the blockade and their forces in the region?
+**Nima Alkhorshid:** What would happen to the American blockade if Iran decides to gradually open up the Strait of Hormuz? What would be the future of the blockade and their forces in the region?
 
 **Seyed M. Marandi:** Well, they'd have to lift the blockade, and the Iranians won't gradually open it. The Iranians will open up, but it will take time for things to normalize. The number of ships passing through the strait within a month should be the normal number. The Americans will waive sanctions on the Iranian energy sector. Those assets will be released, as we discussed. There will be a regional ceasefire, and the Americans are responsible for the Israeli regime because in the text it's Iran and its allies and the US and its allies, which makes the Israeli regime equivalent to Hezbollah, Iran equivalent to the United States, the Israeli regime equivalent to Hezbollah.
 
@@ -130,7 +130,7 @@ Then the Iranians will state that they will not have a nuclear weapon, which is 
 
 So after two months it's unclear what happens because the gap is very wide. The Iranians are not going to give up their peaceful nuclear program or enrichment or anything like that. And of course the Americans are going to have a very difficult time if they are sincere and want to remove the sanctions, because the sanctions imposed by presidential decree or by the Treasury Department can be dealt with, but the sanctions that come from Congress and are law, that's a much more complicated situation.
 
-**Nima (host):** But the Trump administration is willing to lift the sanctions by his administration. That means his administration is going to be able to lift those sanctions. I'm talking about the energy sector of Iran. That is part of those lines and part of the duty and responsibility of the Trump administration to do that. It's not related to Congress.
+**Nima Alkhorshid:** But the Trump administration is willing to lift the sanctions by his administration. That means his administration is going to be able to lift those sanctions. I'm talking about the energy sector of Iran. That is part of those lines and part of the duty and responsibility of the Trump administration to do that. It's not related to Congress.
 
 **Seyed M. Marandi:** Yes. For the first sixty days, he can waive those sanctions just like they've waived sanctions for Russian oil, and also they waived sanctions for Iranian oil during the war because they wanted to keep down prices, although Iran made a huge amount of money as a result.
 
@@ -138,7 +138,7 @@ But after sixty days they have to talk about sanctions in general, which go beyo
 
 But in any case, that's for then. For now we have to see if we even get to this initial stage. That's still not clear.
 
-**Nima (host):** Let's be optimistic a little bit.
+**Nima Alkhorshid:** Let's be optimistic a little bit.
 
 **Seyed M. Marandi:** Actually, I'm not pessimistic at all. I don't like war, but if Americans go back to war, they're going to lose the war. If they continue with siege warfare, the global economy is going to collapse. The Iranian economy will go downhill, but the Iranians will manage. They will wait until the other side gives up. This is, as I've said many times, an existential war for Iran. This is not a war of choice.
 
@@ -148,13 +148,13 @@ So that is going to make it much more difficult for the United States. If we go 
 
 But if a more reasonable approach is taken by the Americans and there's an agreement, I think that changes things.
 
-**Nima (host):** Coming to the domestic problems of Donald Trump, it's not just about the global economy, it's about what is happening in the United States. Many people would argue maybe Iran should continue this sort of desperation of Donald Trump for a few months to see what would happen to Donald Trump. What would you say to those people who are arguing that Iran, by making a deal with the United States, would somehow help Donald Trump and his position in the United States?
+**Nima Alkhorshid:** Coming to the domestic problems of Donald Trump, it's not just about the global economy, it's about what is happening in the United States. Many people would argue maybe Iran should continue this sort of desperation of Donald Trump for a few months to see what would happen to Donald Trump. What would you say to those people who are arguing that Iran, by making a deal with the United States, would somehow help Donald Trump and his position in the United States?
 
 **Seyed M. Marandi:** Well, I think if Iran gets a good deal, that saves lives in Lebanon. It saves lives in Gaza. But just as important, we have the potential for starvation across the world. We are getting news that the weather patterns for the coming year, including in Brazil, may be very detrimental to global agriculture. So on the one hand we have a fertilizer issue and on the other hand the weather in the coming year is said to be very unsuitable for agriculture in many important parts of the world.
 
 So if this continues, it could lead to starvation in different parts of the world. I hate Trump just as much as everyone else does and I hate Zionism, but people in the Indian subcontinent, or somewhere in Africa, or anywhere else, seeing starvation there, that has to be stopped. That has to be prevented. So if we can get an agreement to end this siege, if it's a reasonable and good agreement, I think that's the priority.
 
-**Nima (host):** The case of Lebanon, Professor Marandi. Yesterday again he said for each and every drone we're going to bring down ten buildings in Lebanon. As we talk, they're hitting cities and villages in Lebanon and destroying buildings. What can we get from this deal between Iran and the United States considering the conflict between Israel and Lebanon? We know Israel doesn't want to see any sort of deal between Iran and the United States. That's why they're escalating every time there are talks about an agreement. How can that be avoided as time goes by?
+**Nima Alkhorshid:** The case of Lebanon, Professor Marandi. Yesterday again he said for each and every drone we're going to bring down ten buildings in Lebanon. As we talk, they're hitting cities and villages in Lebanon and destroying buildings. What can we get from this deal between Iran and the United States considering the conflict between Israel and Lebanon? We know Israel doesn't want to see any sort of deal between Iran and the United States. That's why they're escalating every time there are talks about an agreement. How can that be avoided as time goes by?
 
 **Seyed M. Marandi:** First of all, I think Netanyahu and the Zionists are exposing themselves to the world. Western media doesn't want people to hear this, but on social media and elsewhere people across the world are seeing what's going on, and the West can't hide it. The BBC, CNN, the New York Times, Fox News, Sky News, they can't hide this. Enough people are seeing it because political awareness is much greater today, especially among the youth, than it was before.
 
@@ -170,13 +170,13 @@ So the first sign of the United States violating the deal would mean for the Ira
 
 So they've constructed the entire deal in a way so that if the Americans choose not to implement the deal, the Iranians can immediately stop implementing the deal too, just as we saw when they agreed upon the first ceasefire after the hot war and the Israeli regime began carpet bombing Beirut.
 
-**Nima (host):** I think what you've just mentioned is of particular importance for the Iranian position because we've seen what happened during the JCPOA when Donald Trump decided to withdraw and they snapped back sanctions and all that confusion happened. Nothing of that sort is Iran going to have in this new deal if they achieve it. Let's put it that way.
+**Nima Alkhorshid:** I think what you've just mentioned is of particular importance for the Iranian position because we've seen what happened during the JCPOA when Donald Trump decided to withdraw and they snapped back sanctions and all that confusion happened. Nothing of that sort is Iran going to have in this new deal if they achieve it. Let's put it that way.
 
 **Seyed M. Marandi:** And you know, Nema, this is a very important point. Often they say that if Trump can get something like the JCPOA again, that would be an achievement. He will never get the JCPOA again because the JCPOA was not a good deal for Iran, but it was a good deal for the United States. Why was it a good deal for the United States and a bad deal for Iran? Because the United States did not fulfill its side of the bargain. If the United States had implemented its side of the deal, it would have been a balanced agreement.
 
 But the United States didn't do that because of the loopholes, because the Iranians rushed through the deal. That's the fault of President Rouhani, who insisted on getting this deal done and put pressure on the foreign ministry and Dr. Zarif. He bears responsibility for that. But in any case, now Iran is never going to let that happen again at the negotiating table, whether it's about this first stage of a potential deal or the subsequent stage when they sit down and talk about sanctions and the nuclear program. That is never going to happen again, because Iran will not sign an agreement in future where the Americans hold the cards. That won't happen again. The JCPOA was a mistake and Trump, in a way, helped Iran escape the agreement.
 
-**Nima (host):** Do you think the participation of Europeans in the JCPOA was a mistake as well?
+**Nima Alkhorshid:** Do you think the participation of Europeans in the JCPOA was a mistake as well?
 
 **Seyed M. Marandi:** The world we were living in was different back then. Europe had more weight at the beginning, in 2002 and 2003, and it gradually went downhill. Europe today, if we're going to have negotiations, Iran is not going to include the Europeans or the EU. We don't really care about them and they're not important.
 
@@ -186,7 +186,7 @@ And I think in the months ahead, with the war in Ukraine probably getting more i
 
 But in any case, Europe does not have the weight that it had before. So no, Iran is not going to include them again. This is going to be between Iran and the United States.
 
-**Nima (host):** I think before what Hamas did on October 7 about the future of Palestine is historic in my opinion. Many people say tragedy. It was a tragedy, with the genocide happening in Gaza. But many would say that is the future for the Palestinian people because they ended the Abraham Accords. You remember what was happening before October 7. All of these GCC countries together with Turkey were normalizing the relationship with Israel. They wanted to ignore the Palestinian right. That has changed right now.
+**Nima Alkhorshid:** I think before what Hamas did on October 7 about the future of Palestine is historic in my opinion. Many people say tragedy. It was a tragedy, with the genocide happening in Gaza. But many would say that is the future for the Palestinian people because they ended the Abraham Accords. You remember what was happening before October 7. All of these GCC countries together with Turkey were normalizing the relationship with Israel. They wanted to ignore the Palestinian right. That has changed right now.
 
 Do you think that in the new attitude of Iran toward GCC countries, how are they going to talk with GCC countries together with Pakistan and Turkey about the Abraham Accords? Because yesterday Donald Trump mentioned maybe Iran would join the Abraham Accords. I don't know where that comes from because it's nonsense. Whoever knows Iranian policy knows Iran doesn't recognize Israel. What do you make of it?
 
@@ -208,7 +208,7 @@ Hezbollah did this from the very beginning to draw off Israeli troops from Gaza 
 
 So Hezbollah is a shining star of humanity, and their resistance to the Israeli regime is further exposing the regime's vulnerability today. But in any case, the regime is dying. The US empire is dying. What Trump did in the Persian Gulf and against Iran, what Trump and Netanyahu did, was simply to fast-forward this decline that we've been seeing in the last few years, but especially the last couple of years in our region. It's moving much faster now.
 
-**Nima (host):** Let me ask something about the future. I want you to speculate. I know it's not fair. Many people in the alternative media and many people who are supporting the axis of resistance want to know if Hezbollah or Lebanon is going to get some sort of air defense system because this way they're going to improve their capabilities drastically and they can hit Israeli fighter jets when they go there to destroy buildings and kill civilians. They have to get to that point at some point in the future. But how do you feel about that?
+**Nima Alkhorshid:** Let me ask something about the future. I want you to speculate. I know it's not fair. Many people in the alternative media and many people who are supporting the axis of resistance want to know if Hezbollah or Lebanon is going to get some sort of air defense system because this way they're going to improve their capabilities drastically and they can hit Israeli fighter jets when they go there to destroy buildings and kill civilians. They have to get to that point at some point in the future. But how do you feel about that?
 
 **Seyed M. Marandi:** Well, the Iranians have, and I'm not very competent on these issues and not very well acquainted with the new military technologies, but Iran has developed an air defense system that has been effective in the war and where they've been able to bring down US jets increasingly near the end. One of Iran's friends in the region apparently wants to purchase this from Iran, the technology and the capability. You can guess which country, but I don't want to name it.
 
@@ -218,11 +218,11 @@ So yes, the Iranians obviously will do whatever they can to help the resistance.
 
 But the balance of power has shifted away from the United States and as a result it shifts away from the Israeli regime. Without the United States, the Israeli regime is nothing. And without European support to complement that, again, nothing. The United States is a changing country. We see how increasingly Zionism is despised. We're seeing conversations take place in the United States which just a year and a half ago we would have thought impossible in my lifetime.
 
-**Nima (host):** Exactly.
+**Nima Alkhorshid:** Exactly.
 
 **Seyed M. Marandi:** In my lifetime, I mean I would go to the grave, if I were to live a long life, and I would never have thought these conversations we're seeing now in the United States would be taking place. So I think the forces of history, as they say, and of course we believe in more than just history, we believe in God's justice, but the forces that exist will ultimately undermine this regime.
 
-**Nima (host):** Thank you so much Professor Marandi for being with us today.
+**Nima Alkhorshid:** Thank you so much Professor Marandi for being with us today.
 
 **Seyed M. Marandi:** Just one thing, Nema, before we close. I've said this many times, and I know I'm exhausting some people, because this is an important moment in our region's history. People, especially Americans, should go and read the book that I once spoke about at least once on your show, *Going to Tehran* by Flynt and Hillary Mann Leverett. Another good book, as I've also maybe mentioned, is Alastair Crooke's book on resistance.
 
@@ -230,10 +230,10 @@ There's another good book, *A Dangerous Delusion* by Peter Oborne. It's a small 
 
 If someone is serious about understanding Iran, if a journalist is serious, if a politician is serious, if an analyst is serious, if they want to understand the arguments, these four books, *Going to Tehran*, *Resistance*, *A Dangerous Delusion*, and *Manufactured Crisis*, are very useful. None of them are very new, but I think they're all useful. But *Going to Tehran* I think right now is something that should be read first and foremost, because if American analysts had read that book and had been sane enough to listen to those two authors, the United States wouldn't be where it is.
 
-**Nima (host):** Thank you so much.
+**Nima Alkhorshid:** Thank you so much.
 
 **Seyed M. Marandi:** Thank you, Nema.
 
-**Nima (host):** Great pleasure as always.
+**Nima Alkhorshid:** Great pleasure as always.
 
 **Seyed M. Marandi:** Pleasure is mine.
