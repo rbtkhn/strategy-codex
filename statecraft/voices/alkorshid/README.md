@@ -2,20 +2,25 @@
 
 WORK only; not Record.
 
-Voice shelf for **Nima Alkorshid** as analyst — **guest appearances on other channels**, not Dialogue Works host work.
+Canonical **voice shelf** for Nima Alkhorshid — analyst identity and cross-host guest routing. Dialogue Works **host** work stays on the [channel shelf](../../channels/dialogue-works/README.md).
+
+Open here when the question is Nima as **guest / interviewed analyst** elsewhere, or when identity and voice tier are the job — not host-conditioned Dialogue Works framing.
 
 ## Open first
 
-- [alkorshid-index.md](alkorshid-index.md) — cross-host guest captures (`channel_slug` ≠ `dialogue-works`)
-- [Dialogue Works channel shelf](../../channels/dialogue-works/README.md) — Nima as **host** (`dialogue-works-channel-index.md`, `nima-host-law.md`)
+- [Speaker profile](alkorshid-profile.md) — identity, voice fingerprint, episode inventory, links hub
+- [alkorshid-index.md](alkorshid-index.md) — cross-host **guest** captures (`channel_slug` ≠ `dialogue-works`)
+- [Dialogue Works channel shelf](../../channels/dialogue-works/README.md) — Nima as **host** ([`dialogue-works-channel-index.md`](../../channels/dialogue-works/dialogue-works-channel-index.md))
 
 ## Split
 
 | Surface | Path | Job |
 |---|---|---|
 | **Guest / voice** | `alkorshid-index.md` | Nima interviewed elsewhere (e.g. Davis Deep Dive) |
-| **Host / channel** | `channels/dialogue-works/` | Nima hosting guests · solo monologues on Dialogue Works |
+| **Host / channel** | `channels/dialogue-works/` | Nima hosting guests · solo on Dialogue Works (`nima-host-law`, `nima-thread`, arcs) |
+
+Host-local `nima-*` files remain on the **channel** shelf only — not duplicated here.
 
 ## Boundary
 
-Analyst continuity lives here; host-conditioned Dialogue Works framing lives on the **channel** shelf. Same guest on two hosts = two reads — do not dedupe by person alone.
+Analyst continuity lives here; host-conditioned Dialogue Works framing lives on **`statecraft/channels/dialogue-works/`**. Same guest on two hosts = two reads — do not dedupe by person alone.

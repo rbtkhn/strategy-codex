@@ -4,15 +4,15 @@ WORK only; not Record.
 
 This is the canonical live Nima / Dialogue Works host shelf for repo-root `statecraft/`.
 
-Use it when a statecraft read needs **Dialogue Works** as a host transformation surface — long-form interview framing, dual `thread:alkorshid` + `thread:<guest>` routing, and guest-lane discovery — not whole-speaker identity on `statecraft/voices/`.
+Use it when a statecraft read needs **Dialogue Works** as a host transformation surface — long-form interview framing, dual `thread:alkorshid` + `thread:<guest>` routing, and guest-lane discovery — not whole-speaker identity (→ [`statecraft/voices/alkorshid/`](../../voices/alkorshid/README.md)).
 
 ## Open First
 
-- [Speaker profile](nima-profile.md) — identity, episode inventory, automation targets, links hub
+- [dialogue-works-channel-index.md](dialogue-works-channel-index.md) — Dialogue Works **host** captures
+- [Alkorshid voice shelf](../../voices/alkorshid/README.md) — profile · [alkorshid-index.md](../../voices/alkorshid/alkorshid-index.md) (guest)
 - [index.md](index.md)
 - [nima-host-law.md](nima-host-law.md)
 - [dialogue-works-disambiguation.md](dialogue-works-disambiguation.md)
-- [Dialogue Works index](dialogue-works-channel-index.md)
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Host Role
@@ -33,7 +33,7 @@ The older [statecraft/channels/dialogue-works/README.md](../../../statecraft/cha
 - [dialogue-works-channel-index.md](dialogue-works-channel-index.md) (provenance route map)
 - [dialogue-works shelf](.) guest arcs, monthly shelves, thread/transcript continuity
 
-Use this repo-root shelf for live host-law and profile SSOT; descend into guest-arc files and source-index when you need chronology or provenance breadth.
+Use this repo-root shelf for live host-law and guest-lane routing; analyst profile and cross-host guest index → [`statecraft/voices/alkorshid/`](../../voices/alkorshid/README.md).
 
 ## Boundary
 

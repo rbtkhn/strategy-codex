@@ -6,10 +6,8 @@ Purpose: front door for the canonical live Dialogue Works host shelf in repo-roo
 
 ## Open First
 
-- [Speaker profile](nima-profile.md)
-- [README.md](README.md)
-- [nima-host-law.md](nima-host-law.md)
-- [dialogue-works-channel-index.md](dialogue-works-channel-index.md)
+- [Alkorshid voice shelf](../../voices/alkorshid/README.md) — profile · [alkorshid-index.md](../../voices/alkorshid/alkorshid-index.md) (guest)
+- [dialogue-works-channel-index.md](dialogue-works-channel-index.md) — host channel
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
 ## Current Live Rule

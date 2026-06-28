@@ -14,7 +14,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 
 | Lens | Index file |
 |---|---|
-| Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · profile: [alkorshid/alkorshid-profile.md](alkorshid/alkorshid-profile.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Barnes | [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Blumenthal | [blumenthal/blumenthal-index.md](blumenthal/blumenthal-index.md) · compat [blumenthal-source-index.md](blumenthal/blumenthal-source-index.md) |
 | Breaking Points | [../channels/breaking-points/breaking-points-channel-index.md](../channels/breaking-points/breaking-points-channel-index.md) |
@@ -79,7 +79,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Robert Barnes corpus | [barnes/barnes-source-index.md](barnes/barnes-source-index.md), `source-archive/statecraft/**/source-*barnes*` |
 | Mercouris index | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
 | Daniel Davis × guest | [davis/davis-index.md](davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
-| Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · profile → [alkorshid/alkorshid-profile.md](alkorshid/alkorshid-profile.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |
 | Host channel index | This file analyst table → `../channels/{slug}/{slug}-channel-index.md` |
 | Generic "source index" | This file → lens row → `*-source-index.md` |

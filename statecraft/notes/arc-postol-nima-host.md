@@ -71,7 +71,7 @@ If the operator needs only one file:
 If the operator needs the best companion surfaces for the uncaptured run:
 
 - open [dialogue-works-inventory.md](../../source-archive/statecraft/dialogue-works-inventory.md)
-- then [alkorshid-profile.md](/C:/dev/strategy-codex/codex/profiles/alkorshid-profile.md)
+- then [alkorshid-profile.md](/C:/dev/strategy-codex/statecraft/voices/alkorshid/alkorshid-profile.md)
 
 That pair gives the clearest sense that this is not a one-off file but a real recurring lane awaiting broader materialization.
 

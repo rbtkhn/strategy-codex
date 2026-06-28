@@ -9,8 +9,8 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkorshid** (person) vs lega
 | Layer | Value | Role |
 |-------|--------|------|
 | Archive person thread | **`alkorshid`** | ingest, indices, dual `threads` on every appearance |
-| Host shelf | **`hosts/nima/`** | Dialogue Works **host-law** only — not whole-speaker index |
-| Voices shelf | **`hosts/nima/dialogue-works-channel-index.md`** | **Dialogue Works** channel route map (`source-dialogue-works-*`) |
+| Host shelf | [`channels/dialogue-works/`](README.md) | Dialogue Works **host-law**, thread, arcs, channel index |
+| Voices shelf | [`voices/alkorshid/`](../../voices/alkorshid/README.md) | **Alkorshid** analyst profile + cross-host guest index |
 | MCQ / EOD `expert_id` | **`nima`** (compat) | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | Script read aliases | `alkorshid`, `alkhorshid`, `nima alkhorshid` | one release cycle after rename ship |
 | Deprecated archive thread | **`thread:nima`** | replace with **`thread:alkorshid`** on new/edited captures |

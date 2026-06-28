@@ -639,6 +639,26 @@ routes:
   - Nima Alkorshid cross-host
   - alkorshid index
   category: work
+- id: alkorshid-profile
+  title: Alkorshid profile
+  path: statecraft/voices/alkorshid/alkorshid-profile.md
+  kind: source_index
+  authority: work_only
+  domain:
+  - statecraft
+  - voices
+  people:
+  - Nima Alkorshid
+  tags:
+  - alkorshid
+  - nima
+  - profile
+  search_hints:
+  - Alkorshid profile
+  - Nima Alkorshid profile
+  - alkorshid-profile
+  - nima profile compat
+  category: work
 - id: barnes-source-index
   title: Barnes source index
   path: statecraft/voices/barnes/barnes-source-index.md

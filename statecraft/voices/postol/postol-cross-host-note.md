@@ -17,7 +17,7 @@ The clearest current host-local branches are:
 There is also shelf-supporting inventory evidence for the broader Dialogue Works / Alkorshid run:
 
 - [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
-- [alkorshid-profile.md](/C:/dev/strategy-codex/codex/profiles/alkorshid-profile.md)
+- [alkorshid-profile.md](/C:/dev/strategy-codex/statecraft/voices/alkorshid/alkorshid-profile.md)
 
 That matters because it shows the Postol voice is not a one-file anomaly. Even where the shelf has not yet captured the full raw-input run, the object is already visible as a recurring technical and deterrence-correction presence in multiple host registers.
 

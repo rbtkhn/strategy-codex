@@ -46,4 +46,4 @@ When landing captures: set **`thread: <guest>`** (primary guest expert) on YAML;
 
 - [Davis](../davis/README.md) — feasibility / settlement-room (Deep Dive register)
 - [Napolitano](../napolitano/README.md) — legal / constitutional pressure
-- [Nima](../nima/README.md) — Dialogue Works / Moscow-insider guest discovery
+- [Alkorshid](../alkorshid/README.md) — Dialogue Works / Moscow-insider guest discovery

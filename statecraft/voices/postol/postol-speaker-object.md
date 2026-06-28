@@ -51,7 +51,7 @@ So Postol is no longer best read as merely cross-host reinforced. He is better r
 The broader Postol run is visible in shelf-supporting inventory and profile surfaces:
 
 - [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
-- [alkorshid-profile.md](/C:/dev/strategy-codex/codex/profiles/alkorshid-profile.md)
+- [alkorshid-profile.md](/C:/dev/strategy-codex/statecraft/voices/alkorshid/alkorshid-profile.md)
 
 See [postol-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/postol/postol-cross-host-note.md).
 
