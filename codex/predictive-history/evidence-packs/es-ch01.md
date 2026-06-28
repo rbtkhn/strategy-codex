@@ -8,11 +8,11 @@ Book chapter for essay 1 — Volume VII Part I; divergence end-box per CHAPTER-D
 
 ## Core sources
 
-- `es-01` → [vision-mission-goals.md](substack/essays/vision-mission-goals.md)
+- `es-01` → [vision-mission-goals.md](../substack/essays/vision-mission-goals.md)
 
 ## Core analysis
 
-- `es-01` → [essay-vision-mission-goals-analysis.md](analysis/essay-vision-mission-goals-analysis.md)
+- `es-01` → [essay-vision-mission-goals-analysis.md](../analysis/essay-vision-mission-goals-analysis.md)
 
 ## Key concepts
 

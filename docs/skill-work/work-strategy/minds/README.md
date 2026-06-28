@@ -36,4 +36,4 @@ Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
 **June 2026 triad pass:** Barnes, Mercouris, Mearsheimer Tier A + [triad-voice-orthogonality-june-2026.md](../../../../statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md).
 
-**Tri-mind skill:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md) · legacy [tri-mind SKILL.md](../../../.cursor/skills/tri-mind/SKILL.md).
+**Tri-mind skill:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md) · legacy [tri-mind SKILL.md](../TRI-MIND-DEPRECATED.md).

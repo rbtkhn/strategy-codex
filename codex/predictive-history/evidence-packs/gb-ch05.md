@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 5 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-05` → [great-books-05-the-odyssey.md](lectures/great-books-05-the-odyssey.md)
+- `gb-05` → [great-books-05-the-odyssey.md](../lectures/great-books-05-the-odyssey.md)
 
 ## Core analysis
 
-- `gb-05` → [gXlcR7uHHdA-great-books-05-analysis.md](analysis/gXlcR7uHHdA-great-books-05-analysis.md)
+- `gb-05` → [gXlcR7uHHdA-great-books-05-analysis.md](../analysis/gXlcR7uHHdA-great-books-05-analysis.md)
 
 ## Key concepts
 

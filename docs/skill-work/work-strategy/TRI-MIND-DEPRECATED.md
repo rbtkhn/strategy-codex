@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Status:** The **`tri-mind`** skill, **`tri-frame`** / **`tutti`** choreography, and fixed **A/B/C menu** (Mercouris / Mearsheimer / Barnes solo–duet–roundtable) are **obsolete** for active strategy-codex operator workflow.
 
-**Do not** invoke [`.cursor/skills/tri-mind/SKILL.md`](../../../.cursor/skills/tri-mind/SKILL.md) in new sessions. Historical references in notebooks, archives, and demos remain read-only context.
+**Do not** invoke [`.cursor/skills/tri-mind/SKILL.md`](TRI-MIND-DEPRECATED.md) in new sessions. Historical references in notebooks, archives, and demos remain read-only context.
 
 ## What replaced it
 
@@ -12,7 +12,7 @@ WORK only; not Record.
 |---|---|
 | **`tri-mind`**, **`tri-frame`**, **`tutti`**, **`abc`** / **`ab+c`** | **`state-synthesis`** comparison subroutine, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md)** (`statecraft-multi-lens` archived) |
 | One analyst voice | Name the speaker directly (**Mercouris**, **Mearsheimer**, **Barnes**, or any voices shelf) — read **[`statecraft/voices/<speaker>/<speaker>-profile.md`](../../../statecraft/voices/)** when in-voice register matters ([`minds-authentic-voice.mdc`](../../../.cursor/rules/minds-authentic-voice.mdc); minds superseded — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)) |
-| Strategy notebook pass | **[`skill-strategy`](../../../.cursor/skills/skill-strategy/SKILL.md)** — optional **single** post-entry lens; no default tri-frame |
+| Strategy notebook pass | **[`skill-strategy`](SKILL-STRATEGY-DEPRECATED.md)** — optional **single** post-entry lens; no default tri-frame |
 | Live statecraft object | **Repo-root [`statecraft/`](../../../statecraft/)** lanes, daily synthesis, voices shelves |
 
 ## What is **not** deprecated

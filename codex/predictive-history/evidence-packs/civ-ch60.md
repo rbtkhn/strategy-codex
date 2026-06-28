@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 60 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-60` → [civilization-60-the-decline-and-fall-of-the-american-empire.md](lectures/civilization-60-the-decline-and-fall-of-the-american-empire.md)
+- `civ-60` → [civilization-60-the-decline-and-fall-of-the-american-empire.md](../lectures/civilization-60-the-decline-and-fall-of-the-american-empire.md)
 
 ## Core analysis
 

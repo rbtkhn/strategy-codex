@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 19 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-19` → [civilization-19-gilgamesh-and-mesopotamias-quest-for-immortality.md](lectures/civilization-19-gilgamesh-and-mesopotamias-quest-for-immortality.md)
+- `civ-19` → [civilization-19-gilgamesh-and-mesopotamias-quest-for-immortality.md](../lectures/civilization-19-gilgamesh-and-mesopotamias-quest-for-immortality.md)
 
 ## Core analysis
 

@@ -137,7 +137,7 @@ Lane helixes:
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 ## Current Shape Coverage
 

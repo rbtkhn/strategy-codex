@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 9 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-09` → [civilization-09-aeschylus-sophocles-and-euripides-as-prophets-of-democracy.md](lectures/civilization-09-aeschylus-sophocles-and-euripides-as-prophets-of-democracy.md)
+- `civ-09` → [civilization-09-aeschylus-sophocles-and-euripides-as-prophets-of-democracy.md](../lectures/civilization-09-aeschylus-sophocles-and-euripides-as-prophets-of-democracy.md)
 
 ## Core analysis
 

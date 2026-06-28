@@ -23,7 +23,7 @@ The goal is not to prove one adapter right and the other wrong. The goal is to p
 
 Both runs start from the same source base:
 
-- [Hormuz Recognition / Transit Restraint](../civ-emp/iran/hormuz-recognition-transit-restraint.md)
+- [Hormuz Recognition / Transit Restraint](../civ-emp/persia/hormuz-recognition-transit-restraint.md)
 - [Iran helix](../iran/helix.md)
 
 The test is whether the adapters produce different statecraft outputs from the same object rather than from different corpora.
@@ -68,7 +68,7 @@ Failure test:
   - [Iran peace](../iran/civilization/peace.md)
   - [Iran transactions](../../../../README.md)
   - [Transaction router](../sheets/transaction-router.md)
-  - [Hormuz recognition transit transaction](../iran/transactions/hormuz-recognition-transit-transaction.md)
+  - [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md)
 
 Settlement-durability result:
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 32 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-32` → [civilization-32-rome-s-rise-fall-and-legacy.md](lectures/civilization-32-rome-s-rise-fall-and-legacy.md)
+- `civ-32` → [civilization-32-rome-s-rise-fall-and-legacy.md](../lectures/civilization-32-rome-s-rise-fall-and-legacy.md)
 
 ## Core analysis
 

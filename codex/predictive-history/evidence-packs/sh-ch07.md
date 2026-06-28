@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 7 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-07` → [secret-history-07-death-by-meritocracy.md](lectures/secret-history-07-death-by-meritocracy.md)
+- `sh-07` → [secret-history-07-death-by-meritocracy.md](../lectures/secret-history-07-death-by-meritocracy.md)
 
 ## Core analysis
 

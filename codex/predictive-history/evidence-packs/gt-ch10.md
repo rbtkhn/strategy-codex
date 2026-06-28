@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 10 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-10` → [game-theory-10-the-law-of-asymmetry.md](lectures/game-theory-10-the-law-of-asymmetry.md)
+- `gt-10` → [game-theory-10-the-law-of-asymmetry.md](../lectures/game-theory-10-the-law-of-asymmetry.md)
 
 ## Core analysis
 
-- `gt-10` → [t5oisJiorsU-game-theory-10-analysis.md](analysis/t5oisJiorsU-game-theory-10-analysis.md)
+- `gt-10` → [t5oisJiorsU-game-theory-10-analysis.md](../analysis/t5oisJiorsU-game-theory-10-analysis.md)
 
 ## Key concepts
 

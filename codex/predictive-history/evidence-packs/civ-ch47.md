@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 47 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-47` → [civilization-47-the-passion-of-robespierre.md](lectures/civilization-47-the-passion-of-robespierre.md)
+- `civ-47` → [civilization-47-the-passion-of-robespierre.md](../lectures/civilization-47-the-passion-of-robespierre.md)
 
 ## Core analysis
 

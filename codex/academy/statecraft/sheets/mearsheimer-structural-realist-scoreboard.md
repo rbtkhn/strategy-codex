@@ -15,8 +15,8 @@ Richelieu and Bismarck supply the statecraft correction: structural power is not
 
 Use Mearsheimer's speaker state as the main theory input:
 
-- [Mearsheimer routing](../voices/mearsheimer/mearsheimer-routing.md)
-- [Mearsheimer helix](../voices/mearsheimer/mearsheimer-helix.md)
+- [Mearsheimer routing](../../../../statecraft/voices/mearsheimer/mearsheimer-routing.md)
+- [Mearsheimer helix](../../../../statecraft/voices/mearsheimer/mearsheimer-helix.md)
 - [Diesen x Mearsheimer](../notes/arc-mearsheimer-diesen-host.md)
 - [Davis x Mearsheimer](../notes/arc-mearsheimer-davis-host.md)
 

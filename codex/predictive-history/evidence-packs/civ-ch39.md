@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 39 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-39` → [civilization-39-genghis-khan-world-shatterer.md](lectures/civilization-39-genghis-khan-world-shatterer.md)
+- `civ-39` → [civilization-39-genghis-khan-world-shatterer.md](../lectures/civilization-39-genghis-khan-world-shatterer.md)
 
 ## Core analysis
 

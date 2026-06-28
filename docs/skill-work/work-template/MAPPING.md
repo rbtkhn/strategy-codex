@@ -36,15 +36,15 @@ Grace-Mar **operator/advisor** lane for Cici — legacy note: formerly Xavier (m
 | Template concept | work-cici path |
 |------------------|------------------|
 | **README / lane hub** | [work-cici/README.md](../work-cici/README.md), [INDEX.md](../work-cici/INDEX.md) |
-| **WORK-LEDGER** | [WORK-LEDGER.md](../work-cici/WORK-LEDGER.md) + distributed mirror logs: [work-dev-mirror/SYNC-LOG.md](../work-cici/work-dev-mirror/SYNC-LOG.md), [work-politics-mirror/SYNC-LOG.md](../work-cici/work-politics-mirror/SYNC-LOG.md) |
-| **Daily horizon / brief** | [SYNC-DAILY.md](../work-cici/SYNC-DAILY.md), [DAILY-OPS-CARD.md](../work-cici/DAILY-OPS-CARD.md) |
-| **Lane focus** | Content plans, KPI logs, [xavier-smm-capability-rubric.md](../work-cici/xavier-smm-capability-rubric.md); BrewMind hub [brewmind-philippines-onboarding-guide.md](../work-cici/brewmind-philippines-onboarding-guide.md) |
+| **WORK-LEDGER** | [WORK-LEDGER.md](../../../singularity/work-cici/WORK-LEDGER.md) + distributed mirror logs: [work-dev-mirror/SYNC-LOG.md](../../../singularity/work-cici/work-dev-mirror/SYNC-LOG.md), [work-politics-mirror/SYNC-LOG.md](../../../singularity/work-cici/work-dev-mirror/SYNC-LOG.md) |
+| **Daily horizon / brief** | [SYNC-DAILY.md](../../../singularity/work-cici/SYNC-DAILY.md), [DAILY-OPS-CARD.md](../../../singularity/work-cici/DAILY-OPS-CARD.md) |
+| **Lane focus** | Content plans, KPI logs, [xavier-smm-capability-rubric.md](../../../singularity/work-cici/xavier-smm-capability-rubric.md); BrewMind hub [brewmind-philippines-onboarding-guide.md](../../../singularity/work-cici/brewmind-philippines-onboarding-guide.md) |
 | **Emerging patterns** | Week plans + rubric vs execution; informal until promoted in WORK-LEDGER II-A |
 | **Framing audit** | Not a dedicated file yet; use strategy/politics parent lanes when drafting campaign-adjacent copy |
-| **Multi-frame review** | Partial — [LANES.md](../work-cici/LANES.md) + consumption of work-strategy / work-politics mirrors; no single `frames.md` |
-| **Background context** | PH market + operator depth: [work-cici-sources.md](../work-cici/work-cici-sources.md), [work-dev/work-dev-sources.md](../work-dev/work-dev-sources.md) |
-| **History log** | [work-cici-history.md](../work-cici/work-cici-history.md) |
-| **Gate / CI** | [LANE-CI.md](../work-cici/LANE-CI.md); label `lane/work-cici` in [.github/pull_request_template.md](../../../.github/pull_request_template.md) |
+| **Multi-frame review** | Partial — [LANES.md](../../../singularity/work-cici/LANES.md) + consumption of work-strategy / work-politics mirrors; no single `frames.md` |
+| **Background context** | PH market + operator depth: [work-cici-sources.md](../../../singularity/work-cici/work-cici-sources.md), [work-dev/work-dev-sources.md](../work-dev/work-dev-sources.md) |
+| **History log** | [work-cici-history.md](../../../singularity/work-cici/README.md) |
+| **Gate / CI** | [LANE-CI.md](../../../singularity/work-cici/LANE-CI.md); label `lane/work-cici` in [.github/pull_request_template.md](../../../.github/pull_request_template.md) |
 
 ---
 

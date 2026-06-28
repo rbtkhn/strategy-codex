@@ -744,7 +744,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
 | Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
 | Portable skill manifest | [skills/manifest.yaml](../manifest.yaml) |
-| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
+| Sync script | [scripts/sync_portable_skills.py](../../scripts/sync_portable_skills.py) |
 
 **Repo notes**
 

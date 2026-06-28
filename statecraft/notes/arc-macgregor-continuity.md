@@ -20,9 +20,9 @@ This file should be read as the **speaker-wide continuity surface**, not as a re
 Quick separation rule:
 
 - `arc-macgregor-continuity` = Macgregor's canonical continuity across hosts, contexts, and time
-- [macgregor-helix.md](macgregor-helix.md) = cross-host comparison of the main host transformations
-- [macgregor-routing.md](macgregor-routing.md) = fastest host-selection surface
-- [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md) = maturity and month-support law
+- [macgregor-helix.md](../voices/macgregor/macgregor-helix.md) = cross-host comparison of the main host transformations
+- [macgregor-routing.md](../voices/macgregor/macgregor-routing.md) = fastest host-selection surface
+- [macgregor-support-spine-2025-2026.md](../voices/macgregor/macgregor-support-spine-2025-2026.md) = maturity and month-support law
 - [stream/]() = bounded 2026 monthly synthesis shelves
 - host-local arcs = bounded realizations of Macgregor under one host's pressure
 
@@ -32,12 +32,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Davis x Macgregor](../../notes/arc-macgregor-davis-host.md)
-2. [Diesen x Macgregor](../../notes/arc-macgregor-diesen-host.md)
+1. [Davis x Macgregor](arc-macgregor-davis-host.md)
+2. [Diesen x Macgregor](arc-macgregor-diesen-host.md)
 
 Reinforcing outer branch:
 
-- [Judging Freedom x Macgregor](../../notes/arc-macgregor-napolitano-host.md)
+- [Judging Freedom x Macgregor](arc-macgregor-napolitano-host.md)
 
 ## What makes this an arc
 
@@ -58,16 +58,16 @@ That motion is broad enough that Macgregor deserves a person arc rather than onl
 
 Core host transformations:
 
-- [Davis x Macgregor](../../notes/arc-macgregor-davis-host.md)
-- [Diesen x Macgregor](../../notes/arc-macgregor-diesen-host.md)
+- [Davis x Macgregor](arc-macgregor-davis-host.md)
+- [Diesen x Macgregor](arc-macgregor-diesen-host.md)
 
 Supporting surfaces:
 
-- [macgregor-helix.md](macgregor-helix.md)
-- [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
-- [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
-- [macgregor-source-index.md](macgregor-source-index.md)
-- [index.md](index.md)
+- [macgregor-helix.md](../voices/macgregor/macgregor-helix.md)
+- [macgregor-support-spine-2025-2026.md](../voices/macgregor/macgregor-support-spine-2025-2026.md)
+- [macgregor-cross-year-note.md](../voices/macgregor/macgregor-cross-year-note.md)
+- [macgregor-source-index.md](../voices/macgregor/macgregor-source-index.md)
+- [index.md](../../singularity/work-cici/index.md)
 
 ## Open first
 
@@ -77,23 +77,23 @@ If the operator needs the canonical whole-speaker continuity answer:
 
 If the operator needs the strongest whole-speaker comparative entry:
 
-- open [macgregor-helix.md](macgregor-helix.md)
+- open [macgregor-helix.md](../voices/macgregor/macgregor-helix.md)
 
 If the operator needs the strongest speaker-owned maturity and month-support explanation:
 
-- open [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
+- open [macgregor-support-spine-2025-2026.md](../voices/macgregor/macgregor-support-spine-2025-2026.md)
 
 If the operator needs a bounded 2026 month synthesis:
 
-- open [stream/macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md) or [stream/macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
+- open [stream/macgregor-shelf-2026-03.md](../voices/macgregor/macgregor-shelf-2026-03.md) or [stream/macgregor-shelf-2026-04.md](../voices/macgregor/macgregor-shelf-2026-04.md)
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [macgregor-routing.md](macgregor-routing.md)
+- open [macgregor-routing.md](../voices/macgregor/macgregor-routing.md)
 
 If the operator needs the cleanest direct branch:
 
-- open [Davis x Macgregor](../../notes/arc-macgregor-davis-host.md)
+- open [Davis x Macgregor](arc-macgregor-davis-host.md)
 
 ## Boundary
 

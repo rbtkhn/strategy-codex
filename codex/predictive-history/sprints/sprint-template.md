@@ -1,6 +1,6 @@
 # Sprint template — work-jiang (Grace-Mar)
 
-**Use:** Copy to a dated file (e.g. `SPRINT-YYYY-MM-topic.md`) for a **multi-step** work-jiang tranche. Single artifacts can go straight through [scripts/jiang-compress.py](../../scripts/jiang-compress.py) into [`../compressions/`](../compressions/).
+**Use:** Copy to a dated file (e.g. `SPRINT-YYYY-MM-topic.md`) for a **multi-step** work-jiang tranche. Single artifacts can go straight through [scripts/jiang-compress.py](../../../scripts/jiang-compress.py) into [`../compressions/`](../compressions/).
 
 **Lane:** `codex/predictive-history/` — **not** Record until merged through **RECURSION-GATE** ([identity-fork-protocol.md](../../../docs/identity-fork-protocol.md)).
 
@@ -33,7 +33,7 @@
 ## Orientation
 
 - **Daily intention** (optional): append via `jiang-compress.py` or hand-edit `reflection-proposals/DAILY-INTENTION-YYYY-MM-DD.md`
-- **Hey context:** [good-morning-brief.py](../../scripts/good-morning-brief.py)
+- **Hey context:** [good-morning-brief.py](../../../scripts/good-morning-brief.py)
 
 ---
 
@@ -64,7 +64,7 @@ python3 scripts/jiang-compress.py -u <id> --input <path-to-artifact.md>
 ## Gate and merge
 
 - **WORK-only** updates in `codex/predictive-history/` may need **no** gate
-- **Record changes** → stage in `recursion-gate.md`, companion approval, then [process_approved_candidates.py](../../scripts/process_approved_candidates.py) (do not hand-edit SELF/EVIDENCE per AGENTS.md)
+- **Record changes** → stage in `recursion-gate.md`, companion approval, then [process_approved_candidates.py](../../../scripts/process_approved_candidates.py) (do not hand-edit SELF/EVIDENCE per AGENTS.md)
 
 ---
 

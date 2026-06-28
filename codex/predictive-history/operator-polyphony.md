@@ -1,6 +1,6 @@
 # Operator polyphony overlay (Predictive History book)
 
-**Scope:** WORK-only operator judgment — **not** student export, **not** Jiang lecture voice. Mirrors the strategy-notebook month **`## Polyphony / lens tension`** contract ([STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) · **Polyphony / lens tension**). Fingerprint spirit: [`strategy-notebook/minds/`](../../docs/skill-work/work-strategy/strategy-notebook/minds/) `CIV-MIND-*.md`.
+**Scope:** WORK-only operator judgment — **not** student export, **not** Jiang lecture voice. Mirrors the strategy-notebook month **`## Polyphony / lens tension`** contract ([STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) · **Polyphony / lens tension**). Fingerprint spirit: [`strategy-notebook/minds/`](../../docs/skill-work/work-strategy/strategy-notebook/minds/) `CIV-MIND-*.md`.
 
 **Parallel notebook:** [chapters/2026-04/meta.md](../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md) § Polyphony — **update both files in the same session** when the month’s arc or this book’s active queue focus shifts.
 

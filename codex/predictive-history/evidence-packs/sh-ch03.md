@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 3 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-03` → [secret-history-03-death-by-gerontocracy.md](lectures/secret-history-03-death-by-gerontocracy.md)
+- `sh-03` → [secret-history-03-death-by-gerontocracy.md](../lectures/secret-history-03-death-by-gerontocracy.md)
 
 ## Core analysis
 

@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Mercouris theme in which a conflict 
 
 ## Cybernetic Activation
 
-Mercouris-side activation surface: [Geostrategic defeat and unipolar exhaustion](../../../../../speakers/mercouris/themes/geostrategic-defeat-and-unipolar-exhaustion.md)
+Mercouris-side activation surface: [Geostrategic defeat and unipolar exhaustion](../../../../../../statecraft/voices/mercouris/geostrategic-defeat-and-unipolar-exhaustion.md)
 
 ## Backward Historical Question
 

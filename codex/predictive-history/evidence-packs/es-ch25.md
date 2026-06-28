@@ -8,11 +8,11 @@ Book chapter for essay 25 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-25` → [carneys-speech-and-trumps-letter.md](substack/essays/carneys-speech-and-trumps-letter.md)
+- `es-25` → [carneys-speech-and-trumps-letter.md](../substack/essays/carneys-speech-and-trumps-letter.md)
 
 ## Core analysis
 
-- `es-25` → [essay-carneys-speech-and-trumps-letter-analysis.md](analysis/essay-carneys-speech-and-trumps-letter-analysis.md)
+- `es-25` → [essay-carneys-speech-and-trumps-letter-analysis.md](../analysis/essay-carneys-speech-and-trumps-letter-analysis.md)
 
 ## Key concepts
 

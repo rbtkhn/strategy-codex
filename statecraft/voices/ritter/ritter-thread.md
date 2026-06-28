@@ -20,7 +20,7 @@ If a question is about authored forecast structure, host transformation, or cano
 
 Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Ritter shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [statecraft/voices/ritter/ritter-helix.md](ritter-helix.md) and thickened by the bounded canonical month ladder at [statecraft/voices/ritter/README.md](README.md), not this file. The dated `ritter-thread-2026-*.md` files are also compatibility residue, not a canonical topical-thread atlas.
 
-**Source:** Human **narrative journal** (below) + [`transcript.md`](transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material was used).
+**Source:** Human **narrative journal** (below) + [`transcript.md`](ritter-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
 **Companion files:** [ritter-profile.md](../../profiles/ritter-profile.md and [ritter-transcript.md](ritter-transcript.md) (7-day verbatim).
@@ -200,7 +200,7 @@ none this pass
 
 ---
 
-### Optional page index row (copy-paste into [`legacy page index`](../../../../../../../codex/watches/README.md)
+### Optional page index row (copy-paste into [`legacy page index`](../../../../../../../../../../../../../codex/watches/README.md)
 
 ```yaml
   - page_id: `marandi-ritter-mercouris-hormuz-scaffold` (legacy path removed)
@@ -478,13 +478,13 @@ Keep **one** notebook sentence of distance: the essayÃƒÂ¢Ã¢â€šÂ¬Ã¢
 - Pin named **U.S. / Iranian / GCC** military or energy **primaries** if any second-round **infrastructure** forecast is promoted to Links-grade.
 - Reconcile **negotiation texts** and **vote counts** if the essayÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s talk-of-deal framing is woven beside Islamabad rows.
 - Treat **midterm / impeachment** lines as **hypothesis** until tied to named polling or legislative events.
-- Next **`thread`** run: machine layer already lists transcript `## 2026-04-19`; keep appendix tails aligned with [transcript.md](transcript.md).
+- Next **`thread`** run: machine layer already lists transcript `## 2026-04-19`; keep appendix tails aligned with [transcript.md](ritter-transcript.md).
 
 **Resume line:** When the operator promotes this essay into `days.md` Judgment, lead with **tier** (essay / analyst) and **one** falsifier (e.g. named campaign outcome or Strait throughput) so the day block does not read as wire-confirmed sea control or as Pape-class ratchet without an explicit handoff.
 
 ### Appendix
 
-**SSOT:** [Substack ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â The Consequences of Incompetence](https://scottritter.substack.com/p/the-consequences-of-incompetence) Ãƒâ€šÃ‚Â· [daily-strategy-inbox.md `## 2026-04-19`](../daily-strategy-inbox.md (paste line + `batch-analysis | Ritter Substack ÃƒÆ’Ã¢â‚¬â€ ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | crosses:ritter+davis`) Ãƒâ€šÃ‚Â· [transcript.md](transcript.md) `## 2026-04-19` Ãƒâ€šÃ‚Â· cross-check table under `## 2026-04` above.
+**SSOT:** [Substack ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â The Consequences of Incompetence](https://scottritter.substack.com/p/the-consequences-of-incompetence) Ãƒâ€šÃ‚Â· [daily-strategy-inbox.md `## 2026-04-19`](../daily-strategy-inbox.md (paste line + `batch-analysis | Ritter Substack ÃƒÆ’Ã¢â‚¬â€ ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | crosses:ritter+davis`) Ãƒâ€šÃ‚Â· [transcript.md](ritter-transcript.md) `## 2026-04-19` Ãƒâ€šÃ‚Â· cross-check table under `## 2026-04` above.
 
 <!-- strategy-page:end -->
 <!-- strategy-expert-thread:start -->

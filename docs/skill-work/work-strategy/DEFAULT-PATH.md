@@ -23,8 +23,8 @@
 | **`coffee` C** | **Statecraft** router — live judgment, lanes, intake ([statecraft/README.md](../../../statecraft/README.md)) |
 | **`conductor` / master name** | Named mid-day emphasis; close on daily/note/watch |
 | **`strategy page` / compose** | EOD session — architecture § End-of-day strategy session |
-| **`strategy + verify`** | [wire-verify](../../../skills/wire-verify/SKILL.md) / [fact-check](../../.cursor/skills/fact-check/SKILL.md) |
-| **`strategy write`** | Substance from codex frontier + [skill-write](../../.cursor/skills/skill-write/SKILL.md) |
+| **`strategy + verify`** | [wire-verify](../../../skills/wire-verify/SKILL.md) / [fact-check](../../../.cursor/skills/fact-check/SKILL.md) |
+| **`strategy write`** | Substance from codex frontier + [skill-write](../../../.cursor/skills/skill-write/SKILL.md) |
 | **Voice / multi-lens** | After **statecraft handoff**, on **compose**, or when operator names a speaker — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md) |
 
 ---
@@ -79,7 +79,7 @@ If the operator picks **A**, follow [architecture § End-of-day strategy session
 |---------|-------------|
 | **Voice / multi-lens** | **Statecraft handoff**, **`strategy page compose`**, or operator names a speaker — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md) |
 | **Civ-mem lookup** | Operator asks — [memory](../../../skills/memory/SKILL.md) |
-| **History notebook wire** | [hn-bookshelf-lookup](../../.cursor/skills/hn-bookshelf-lookup/SKILL.md) |
+| **History notebook wire** | [hn-bookshelf-lookup](../../../.cursor/skills/hn-bookshelf-lookup/SKILL.md) |
 | **Commentator correlation** | [strategy-notebook-expert-cross-weave](../../../skills/strategy-notebook-expert-cross-weave/SKILL.md) |
 | **ROME-PASS** | Holy See load-bearing day |
 | **Watch threads §1d–§1h** | [FIVE-THREAD-WATCH-TAGS.md](FIVE-THREAD-WATCH-TAGS.md) |

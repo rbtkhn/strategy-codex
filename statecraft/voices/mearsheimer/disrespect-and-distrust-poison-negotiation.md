@@ -23,17 +23,17 @@ Mearsheimer repeatedly argues that negotiation with Russia is damaged not only b
 
 ## Exact Quote Anchors
 
-- [2025-03-20 Daniel Davis](../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md
+- [2025-03-20 Daniel Davis](../../sheets/source-archive-control/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md
   > "the West wants to tell everybody is that Putin is the ultimate bad guy"
 
   > "the Russians today say they don't trust the West"
 
-- [2025-04-01 Al Arabiya English](../years/2026/provenance/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md
+- [2025-04-01 Al Arabiya English](../../sheets/source-archive-control/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md
   > "there is a huge amount of Russophobia in the west"
 
   > "I don't think the Russians can trust the United States"
 
-- [2025-05-10 Daniel Davis](../years/2026/provenance/2025-05-10/source-daniel-davis-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md
+- [2025-05-10 Daniel Davis](../../sheets/source-archive-control/2025-05-10/source-daniel-davis-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md
   > "he's showing great disrespect to Russia and to the former Soviet Union"
 
   > "Is he a reliable negotiating partner?"

@@ -34,7 +34,7 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 - **`## YYYY-MM` month headings** Ã¢â‚¬â€ each heading opens **one month-segment** of the readable journal (quarter-scale or ongoing). **Default:** **at least ~500 words** of **prose** per month-segment (words on non-bullet substantive lines; see `validate_strategy_expert_threads.py`), then optional bullets. A short lede alone is not enough when tooling expects a full segment. Bullet stacks with `[strength: Ã¢â‚¬Â¦]` hooks are **compressed ledger** material Ã¢â‚¬â€ fine for lattice discipline Ã¢â‚¬â€ but they **do not** count toward the prose minimum and are **not** an equally canonical substitute for the prose-first journal unless the operator opts into ledger-only months (see HTML comment below). To scaffold prose to the minimum from roster metadata, run `python3 scripts/expand_strategy_expert_segment_prose.py --apply` from repo root.
 
-- **Historical expert context (optional rebuild)** Ã¢â‚¬â€ `python3 scripts/strategy_historical_expert_context.py --expert-id sachs --start-segment YYYY-MM --end-segment YYYY-MM --apply` emits batch-analysis handoff under `artifacts/skill-work/work-strategy/historical-expert-context/`: a **range rollup** (`sachs-<start>-to-<end>.md`) plus **per-month** files (`sachs/<YYYY-MM>.md`). [`strategy_batch_analysis_with_history.py`](../../../../scripts/strategy_batch_analysis_with_history.py) loads **per-month** artifacts when every month in the requested window exists; otherwise it uses the rollup. See `historical-expert-context/README.md` in that folder.
+- **Historical expert context (optional rebuild)** Ã¢â‚¬â€ `python3 scripts/strategy_historical_expert_context.py --expert-id sachs --start-segment YYYY-MM --end-segment YYYY-MM --apply` emits batch-analysis handoff under `artifacts/skill-work/work-strategy/historical-expert-context/`: a **range rollup** (`sachs-<start>-to-<end>.md`) plus **per-month** files (`sachs/<YYYY-MM>.md`). [`strategy_batch_analysis_with_history.py`](../../../scripts/strategy_batch_analysis_with_history.py) loads **per-month** artifacts when every month in the requested window exists; otherwise it uses the rollup. See `historical-expert-context/README.md` in that folder.
 
 - **`<!-- backfill:sachs:start -->` Ã¢â‚¬Â¦ `end` blocks** Ã¢â‚¬â€ reconstructed historical arc from out-of-repo URLs; not contemporaneous journal prose; keep scope/rules inside the block.
 
@@ -221,7 +221,7 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 
 ### References
 
-- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **Diesen Ãƒâ€” Sachs (blockade episode):** [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ)
 
 ### Receipt
@@ -230,7 +230,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
 | **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 

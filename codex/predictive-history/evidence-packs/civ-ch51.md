@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 51 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-51` → [civilization-51-shakespeare-s-language-of-empire.md](lectures/civilization-51-shakespeare-s-language-of-empire.md)
+- `civ-51` → [civilization-51-shakespeare-s-language-of-empire.md](../lectures/civilization-51-shakespeare-s-language-of-empire.md)
 
 ## Core analysis
 

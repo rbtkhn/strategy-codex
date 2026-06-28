@@ -1,7 +1,7 @@
 # Strategy expert Ã¢â‚¬â€ `blumenthal`
 <!-- word_count: 414 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`blumenthal`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`blumenthal`** lane.
 
 ## Identity
 
@@ -23,7 +23,7 @@
 | **Voice tier** | `B` |
 | **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -79,6 +79,6 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ## Automation target
 
-- Public Grayzone author-page crawl via [`scripts/backfill_blumenthal_grayzone_raw_input.py`](../../../../../scripts/backfill_blumenthal_grayzone_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://thegrayzone.com/author/max-blumenthal/ --domain thegrayzone.com --path-shape date-slug --publication thegrayzone.com --thread blumenthal`.
-- Public X profile crawl via [`scripts/backfill_blumenthal_x_raw_input.py`](../../../../../scripts/backfill_blumenthal_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/MaxBlumenthal --thread blumenthal`.
-- YouTube transcript crawl via [`scripts/backfill_grayzone_youtube_raw_input.py`](../../../../../scripts/backfill_grayzone_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@TheGrayzone/videos --channel-slug the-grayzone --show "The Grayzone" --host "Max Blumenthal / Aaron MatÃƒÂ©" --file-prefix youtube-the-grayzone`.
+- Public Grayzone author-page crawl via [`scripts/backfill_blumenthal_grayzone_raw_input.py`](../../../scripts/backfill_blumenthal_grayzone_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://thegrayzone.com/author/max-blumenthal/ --domain thegrayzone.com --path-shape date-slug --publication thegrayzone.com --thread blumenthal`.
+- Public X profile crawl via [`scripts/backfill_blumenthal_x_raw_input.py`](../../../scripts/backfill_blumenthal_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/MaxBlumenthal --thread blumenthal`.
+- YouTube transcript crawl via [`scripts/backfill_grayzone_youtube_raw_input.py`](../../../scripts/backfill_grayzone_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@TheGrayzone/videos --channel-slug the-grayzone --show "The Grayzone" --host "Max Blumenthal / Aaron MatÃƒÂ©" --file-prefix youtube-the-grayzone`.

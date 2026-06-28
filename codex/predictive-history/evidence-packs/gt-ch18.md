@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 18 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-18` → [game-theory-18-trump-world-order.md](lectures/game-theory-18-trump-world-order.md)
+- `gt-18` → [game-theory-18-trump-world-order.md](../lectures/game-theory-18-trump-world-order.md)
 
 ## Core analysis
 
-- `gt-18` → [xrmERlHUqBk-game-theory-18-analysis.md](analysis/xrmERlHUqBk-game-theory-18-analysis.md)
+- `gt-18` → [xrmERlHUqBk-game-theory-18-analysis.md](../analysis/xrmERlHUqBk-game-theory-18-analysis.md)
 
 ## Key concepts
 

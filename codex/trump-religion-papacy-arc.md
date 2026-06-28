@@ -3,7 +3,7 @@
 
 **Purpose:** Retroactively **place** current **`narrative-escalation`** captures (e.g. **Trump–Leo XIV** public row, Bible-oath memes, **Satan**-frame posts) on a **long arc** about **Donald Trump’s relationship to Christianity (especially U.S. evangelical / Catholic publics), to the Roman pontiff, and to “religion” as a policy-and-identity register** — **not** a general election-legitimacy timeline.
 
-**Tooling:** Same seam as [skill-strategy § Narrative escalation](../../../../.cursor/skills/skill-strategy/SKILL.md): **Thesis A** = dated **primary / wire** (what was said, who met whom); **Thesis B** = **how language escalates or de-escalates** across **sacred vs secular** registers. **Do not** merge without a labeled seam.
+**Tooling:** Same seam as [skill-strategy § Narrative escalation](../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): **Thesis A** = dated **primary / wire** (what was said, who met whom); **Thesis B** = **how language escalates or de-escalates** across **sacred vs secular** registers. **Do not** merge without a labeled seam.
 
 **Anchor:** **2016** — first **general-election** campaign as GOP nominee — as the **start** of this **public** **religion-and-politics** arc in its **current** mass-media shape (prior decades out of scope unless you fold **Links**).
 

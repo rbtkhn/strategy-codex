@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Mercouris theme in which dangerous r
 
 ## Cybernetic Activation
 
-Mercouris-side activation surface: [Cold War contact, deterrence, and arms-control inheritance](../../../../../speakers/mercouris/themes/cold-war-contact-deterrence-and-arms-control-inheritance.md)
+Mercouris-side activation surface: [Cold War contact, deterrence, and arms-control inheritance](../../../../../../statecraft/voices/mercouris/cold-war-contact-deterrence-and-arms-control-inheritance.md)
 
 ## Backward Historical Question
 

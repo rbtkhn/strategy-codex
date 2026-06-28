@@ -99,7 +99,7 @@ Both lanes carry **Freeman-stable** moves — cite as **family resemblance**, no
 2. **Synthesis cites 2025 Jun 21 MBS call** as proof of **2026 Pezeshkian halt** mechanism — **routing error** (echo ≠ receipt)
 3. **Single falsifier table** mixing **2025 Geneva E3** with **2026 Mar 4 ruse** without year tags — **downgrade seam**
 4. **“Freeman IGL Iran arc”** link with **no year** in notebook / `days.md` — **fix before promotion**
-5. **Operator merges** 2025 Jun + 2026 Feb captures under one **`##` heading** without compose-date note — **violates** [days.md date semantics](../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics)
+5. **Operator merges** 2025 Jun + 2026 Feb captures under one **`##` heading** without compose-date note — **violates** [days.md date semantics](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics)
 6. **Wire hook from Oct 10 Gaza** imported into **2026 Iran arc** body as if same war object — **lane error**
 7. **Correct seam use:** dual links in **Links** with **year + register label** (e.g. `2025-bridge` · `2026-arc`) — **pass**
 

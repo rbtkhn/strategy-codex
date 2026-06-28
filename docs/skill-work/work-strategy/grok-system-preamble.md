@@ -50,4 +50,4 @@ Analyst draft only—not the Record, not a merge into `self.md` or `STRATEGY.md`
 
 - Daily brief template: [`daily-brief-template.md`](daily-brief-template.md)
 - Inbox: [`../../codex/daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md)
-- Skill-strategy: [`.cursor/skills/skill-strategy/SKILL.md`](../../../.cursor/skills/skill-strategy/SKILL.md)
+- Skill-strategy: [`.cursor/skills/skill-strategy/SKILL.md`](SKILL-STRATEGY-DEPRECATED.md)

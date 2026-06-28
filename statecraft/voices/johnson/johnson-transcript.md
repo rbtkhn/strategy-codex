@@ -8,9 +8,9 @@ WORK only; not Record.
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
 **Status:** compatibility-only verbatim carryover; not canonical retrieval.
-**Use:** open [statecraft/voices/johnson/README.md](README.md), [statecraft/voices/johnson/johnson-source-index.md](johnson-source-index.md), [statecraft/notes/arc-johnson-continuity.md](../../notes/arc-johnson-continuity.md), [statecraft/voices/johnson/johnson-routing.md](johnson-routing.md), [statecraft/voices/johnson/johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md), or the canonical month ladder first unless the task specifically needs this short-window transcript residue.
+**Use:** open [statecraft/voices/johnson/README.md](README.md), [statecraft/voices/johnson/johnson-source-index.md](johnson-source-index.md), [statecraft/notes/johnson-arc.md](../../notes/johnson-arc.md), [statecraft/voices/johnson/johnson-routing.md](johnson-routing.md), [statecraft/voices/johnson/johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md), or the canonical month ladder first unless the task specifically needs this short-window transcript residue.
 **Citation hygiene:** unresolved watch placeholders inside this file are non-canonical; raw-input remains the authority until a real watch URL is pinned.
-**Companion surfaces:** [statecraft/voices/johnson/johnson-source-index.md](johnson-source-index.md), [statecraft/notes/arc-johnson-continuity.md](../../notes/arc-johnson-continuity.md), [statecraft/voices/johnson/johnson-routing.md](johnson-routing.md), [statecraft/voices/johnson/johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md), and [johnson-thread.md](johnson-thread.md).
+**Companion surfaces:** [statecraft/voices/johnson/johnson-source-index.md](johnson-source-index.md), [statecraft/notes/johnson-arc.md](../../notes/johnson-arc.md), [statecraft/voices/johnson/johnson-routing.md](johnson-routing.md), [statecraft/voices/johnson/johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md), and [johnson-thread.md](johnson-thread.md).
 
 ---
 

@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 2 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-02` → [secret-history-02-how-societies-collapse.md](lectures/secret-history-02-how-societies-collapse.md)
+- `sh-02` → [secret-history-02-how-societies-collapse.md](../lectures/secret-history-02-how-societies-collapse.md)
 
 ## Core analysis
 

@@ -46,7 +46,7 @@ WORK only; not Record.
 | Thread-embedded page fence | [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page) |
 | Month-to-month continuity rules | [STRATEGY-NOTEBOOK-ARCHITECTURE.md Â§ Thread](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) |
 | Page vs thread hub | [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) |
-| Validation | From repo root: `python3 scripts/validate_strategy_pages.py` â€” [validate_strategy_pages.py](../../../../scripts/validate_strategy_pages.py) |
+| Validation | From repo root: `python3 scripts/validate_strategy_pages.py` â€” [validate_strategy_pages.py](../scripts/validate_strategy_pages.py) |
 | Machine **`### Page references`** | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) (machine layer) |
 | Trace and receipts (script runs) | [STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](STRATEGY-NOTEBOOK-TRACE-CONTRACT.md) |
 | Page update operations (script / propose) | [STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md](STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md) |

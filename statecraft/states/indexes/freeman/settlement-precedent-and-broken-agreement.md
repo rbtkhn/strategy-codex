@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Freeman theme in which durable set
 
 ## Cybernetic Activation
 
-Freeman-side activation surface: [Settlement precedent and broken agreement](../../../../../speakers/freeman/themes/settlement-precedent-and-broken-agreement.md)
+Freeman-side activation surface: [Settlement precedent and broken agreement](../../../voices/freeman/settlement-precedent-and-broken-agreement.md)
 
 ## Backward Historical Question
 

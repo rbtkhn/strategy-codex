@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 20 — midterm Q&A on US–Iran ceasefire f
 
 ## Core sources
 
-- `gt-20` → [game-theory-20-mid-term-examination.md](lectures/game-theory-20-mid-term-examination.md)
+- `gt-20` → [game-theory-20-mid-term-examination.md](../lectures/game-theory-20-mid-term-examination.md)
 
 ## Core analysis
 
-- `gt-20` → [ue8y5e3HnHE-game-theory-20-analysis.md](analysis/ue8y5e3HnHE-game-theory-20-analysis.md)
+- `gt-20` → [ue8y5e3HnHE-game-theory-20-analysis.md](../analysis/ue8y5e3HnHE-game-theory-20-analysis.md)
 
 ## Key concepts
 

@@ -13,15 +13,15 @@ It sits above the lane helixes and the four lane war and empire-instrument objec
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 - [America war](../../america/civilization/war.md)
 - [Russia war](../../russia/civilization/war.md)
 - [China war](../../china/civilization/war.md)
-- [Iran war](../../iran/civilization/war.md)
+- [Iran war](../../persia/civilization/war.md)
 - [America empire instrument](../../america/empire/seed-instruments.md)
 - [Russia empire instrument](../../russia/empire/seed-instruments.md)
 - [China empire instrument](../../china/empire/seed-instruments.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)
 
 The question here is not whether rivalry is dangerous in the abstract. It is when degraded contact procedure, weakened reciprocal ceilings, and inherited arms-control decay make an apparently manageable proxy or pressure script more escalatory than its operators admit.
 
@@ -146,18 +146,18 @@ Use the lane helixes when the question is how contact decay sits inside one lane
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 Use the lane war objects when the question has narrowed to coercive grammar, enoughness, signaling, or escalation architecture:
 
 - [America war](../../america/civilization/war.md)
 - [Russia war](../../russia/civilization/war.md)
 - [China war](../../china/civilization/war.md)
-- [Iran war](../../iran/civilization/war.md)
+- [Iran war](../../persia/civilization/war.md)
 
 Use the lane empire-instrument objects when the unresolved issue is the outward carrier whose contact discipline has thinned:
 
 - [America empire instrument](../../america/empire/seed-instruments.md)
 - [Russia empire instrument](../../russia/empire/seed-instruments.md)
 - [China empire instrument](../../china/empire/seed-instruments.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)

@@ -37,8 +37,8 @@ That role survives host translation strongly enough that Marandi reads as a spea
 
 | Lane | Status | What it contributes |
 |---|---|---|
-| [Dialogue Works x Marandi](../../notes/arc-marandi-nima-host.md) | mature primary lane | live pressure, legitimacy, selective-Hormuz signaling, Gulf complicity, regional security architecture |
-| [Diesen x Marandi](../../notes/arc-marandi-diesen-host.md) | mature co-supporting lane | strategic-order altitude, escalation horizon, blockade logic, and wider anti-hegemonic consequence |
+| [Dialogue Works x Marandi](arc-marandi-nima-host.md) | mature primary lane | live pressure, legitimacy, selective-Hormuz signaling, Gulf complicity, regional security architecture |
+| [Diesen x Marandi](arc-marandi-diesen-host.md) | mature co-supporting lane | strategic-order altitude, escalation horizon, blockade logic, and wider anti-hegemonic consequence |
 | [Davis host shelf](../../README.md) | mature co-supporting lane | operational limits, failed intimidation, Iranian resilience, and shrinking U.S. coercive room |
 
 ## Recurring retrieval jobs

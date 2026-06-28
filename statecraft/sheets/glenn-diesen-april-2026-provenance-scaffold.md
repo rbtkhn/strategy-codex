@@ -25,13 +25,13 @@ This file is a month-scoped scaffold for the April 2026 strategy backlog. In the
 | 2026-04-18 | needs canonical URL | verbatim-sidecar | freeman-diesen-2026-04-18-verbatim | ? | [2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md](../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) |
 | 2026-04-18 | needs canonical URL | transcript | transcript-diesen | ? | [2026-04-18/source-diesen-2026-04-18.md](../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18.md) |
 | 2026-04-21 | needs canonical URL | operator-transcript | macgregor-diesen-iran-negotiations-hoax-total-war-2026-04-21 | ? | [2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md](../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) |
-| 2026-04-23 | needs canonical URL | transcript | 2026-04-23-diesen | ? | [2026-04-23/2026-04-23-diesen.md](./2026-04-23/2026-04-23-diesen.md) |
+| 2026-04-23 | needs canonical URL | transcript | 2026-04-23-diesen | ? | [2026-04-23/2026-04-23-diesen.md](source-archive-residue/2026-04-23/2026-04-23-diesen.md) |
 | 2026-04-23 | needs canonical URL | cleaned-transcript | Pepe Escobar: Connectivity Wars — The U.S. War on Multipolarity | TBD | [2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md](../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) |
-| 2026-04-25 | needs canonical URL | transcript | 2026-04-25-diesen | ? | [2026-04-25/2026-04-25-diesen.md](./2026-04-25/2026-04-25-diesen.md) |
-| 2026-04-26 | needs canonical URL | transcript | 2026-04-26-diesen | ? | [2026-04-26/2026-04-26-diesen.md](./2026-04-26/2026-04-26-diesen.md) |
-| 2026-04-27 | needs canonical URL | transcript | 2026-04-27-diesen | ? | [2026-04-27/2026-04-27-diesen.md](./2026-04-27/2026-04-27-diesen.md) |
+| 2026-04-25 | needs canonical URL | transcript | 2026-04-25-diesen | ? | [2026-04-25/2026-04-25-diesen.md](source-archive-residue/2026-04-25/2026-04-25-diesen.md) |
+| 2026-04-26 | needs canonical URL | transcript | 2026-04-26-diesen | ? | [2026-04-26/2026-04-26-diesen.md](source-archive-residue/2026-04-26/2026-04-26-diesen.md) |
+| 2026-04-27 | needs canonical URL | transcript | 2026-04-27-diesen | ? | [2026-04-27/2026-04-27-diesen.md](source-archive-residue/2026-04-27/2026-04-27-diesen.md) |
 | 2026-04-27 | needs canonical URL | cleaned-transcript | Alastair Crooke: Iran War Is Now a Global War for World Order (Glenn Diesen) | TBD | [2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) |
-| 2026-04-28 | needs canonical URL | transcript | 2026-04-28-diesen | ? | [2026-04-28/2026-04-28-diesen.md](./2026-04-28/2026-04-28-diesen.md) |
+| 2026-04-28 | needs canonical URL | transcript | 2026-04-28-diesen | ? | [2026-04-28/2026-04-28-diesen.md](source-archive-residue/2026-04-28/2026-04-28-diesen.md) |
 | 2026-04-28 | ready | cleaned-transcript | Lawrence Wilkerson: Araghchi Meets Putin as Russia Goes All-In on Iran | [https://www.youtube.com/watch?v=h19ssmpSIEE](https://www.youtube.com/watch?v=h19ssmpSIEE) | [2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](../../source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md) |
 | TBD | needs canonical URL | ? | transcript-diesen-johnson-iran-winning-2026-04-30 | ? | [2026-04-30/source-diesen-johnson-iran-winning-2026-04-30.md](../../source-archive/statecraft/2026-04-30/source-diesen-johnson-iran-winning-2026-04-30.md) |
 

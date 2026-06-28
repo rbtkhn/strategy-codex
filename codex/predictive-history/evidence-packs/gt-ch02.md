@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 2 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-02` → [game-theory-02-why-schools-suck.md](lectures/game-theory-02-why-schools-suck.md)
+- `gt-02` → [game-theory-02-why-schools-suck.md](../lectures/game-theory-02-why-schools-suck.md)
 
 ## Core analysis
 
-- `gt-02` → [kS-muAuq62E-game-theory-02-analysis.md](analysis/kS-muAuq62E-game-theory-02-analysis.md)
+- `gt-02` → [kS-muAuq62E-game-theory-02-analysis.md](../analysis/kS-muAuq62E-game-theory-02-analysis.md)
 
 ## Key concepts
 

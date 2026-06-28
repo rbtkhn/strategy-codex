@@ -83,8 +83,8 @@ Open Persia correctly by asking whether a proposal recognizes or denies Persian 
 
 ## Key CIV-MEM Anchors
 
-- [Iran state memory](../../../iran/civilization/objects/state-memory.md)
-- [Iran sacred grammar](../../../iran/civilization/god.md)
-- [Iran literature](../../../iran/civilization/lit.md)
-- [Iran art](../../../iran/civilization/art.md)
-- [Iran doctrine](../../../iran/iran-doctrine.md)
+- [Iran state memory](../../../persia/civilization/objects/state-memory.md)
+- [Iran sacred grammar](../../../persia/civilization/god.md)
+- [Iran literature](../../../persia/civilization/lit.md)
+- [Iran art](../../../persia/civilization/art.md)
+- [Iran doctrine](../../../persia/iran-doctrine.md)

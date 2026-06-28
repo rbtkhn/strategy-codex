@@ -45,7 +45,7 @@ Navigation rule: canonical browsing now lives at `source-archive/statecraft/` vi
 - `freeman` -> [freeman-dec-2025-may-2026-arc-threads.md](../voices/freeman/freeman-dec-2025-may-2026-arc-threads.md)
 - `johnson` -> [johnson-april-may-2026-arc-threads.md](../voices/johnson/johnson-april-may-2026-arc-threads.md)
 - `marandi` -> [marandi-2025-present-arc-threads.md](../voices/marandi/marandi-2025-present-arc-threads.md)
-- `mercouris` -> [arc-mercouris-continuity-threads.md](statecraft/voices/mercouris/arc-mercouris-continuity-threads.md)
+- `mercouris` -> [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md)
 - `parsi` -> [parsi-2025-present-arc-threads.md](../voices/parsi/parsi-2025-present-arc-threads.md)
 
 ## Weak justification signals
@@ -54,7 +54,7 @@ Navigation rule: canonical browsing now lives at `source-archive/statecraft/` vi
 - `freeman` -> [freeman-dec-2025-may-2026-arc-threads.md](../voices/freeman/freeman-dec-2025-may-2026-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
 - `johnson` -> [johnson-april-may-2026-arc-threads.md](../voices/johnson/johnson-april-may-2026-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
 - `marandi` -> [marandi-2025-present-arc-threads.md](../voices/marandi/marandi-2025-present-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
-- `mercouris` -> [arc-mercouris-continuity-threads.md](statecraft/voices/mercouris/arc-mercouris-continuity-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
+- `mercouris` -> [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
 - `parsi` -> [parsi-2025-present-arc-threads.md](../voices/parsi/parsi-2025-present-arc-threads.md) | index-like arc support surface exists alongside a speaker bench; verify it remains interpretive rather than becoming a duplicate retrieval surface.
 
 ## Missing bench candidates

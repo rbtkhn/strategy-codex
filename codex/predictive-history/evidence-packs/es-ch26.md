@@ -8,11 +8,11 @@ Book chapter for essay 26 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-26` → [twilight-of-the-liberal-elite.md](substack/essays/twilight-of-the-liberal-elite.md)
+- `es-26` → [twilight-of-the-liberal-elite.md](../substack/essays/twilight-of-the-liberal-elite.md)
 
 ## Core analysis
 
-- `es-26` → [essay-twilight-of-the-liberal-elite-analysis.md](analysis/essay-twilight-of-the-liberal-elite-analysis.md)
+- `es-26` → [essay-twilight-of-the-liberal-elite-analysis.md](../analysis/essay-twilight-of-the-liberal-elite-analysis.md)
 
 ## Key concepts
 

@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 7 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-07` → [game-theory-07-americas-game.md](lectures/game-theory-07-americas-game.md)
+- `gt-07` → [game-theory-07-americas-game.md](../lectures/game-theory-07-americas-game.md)
 
 ## Core analysis
 
-- `gt-07` → [ijnkCt1QK6k-game-theory-07-analysis.md](analysis/ijnkCt1QK6k-game-theory-07-analysis.md)
+- `gt-07` → [ijnkCt1QK6k-game-theory-07-analysis.md](../analysis/ijnkCt1QK6k-game-theory-07-analysis.md)
 
 ## Key concepts
 

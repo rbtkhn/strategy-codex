@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 16 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-16` → [secret-history-16-the-big-bang-of-greek-civilization.md](lectures/secret-history-16-the-big-bang-of-greek-civilization.md)
+- `sh-16` → [secret-history-16-the-big-bang-of-greek-civilization.md](../lectures/secret-history-16-the-big-bang-of-greek-civilization.md)
 
 ## Core analysis
 

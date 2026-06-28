@@ -1,7 +1,7 @@
 # Strategy expert Ã¢â‚¬â€ `marandi`
 <!-- word_count: 393 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`marandi`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`marandi`** lane.
 
 ## Identity
 
@@ -69,7 +69,7 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 2. https://profile.ut.ac.ir/en/~mmarandi
 3. https://www.middleeasteye.net/seyed-mohammad-marandi
 
-**Automation target:** public X profile crawl via [`scripts/backfill_marandi_x_raw_input.py`](../../../../../scripts/backfill_marandi_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/s_m_marandi --thread marandi`.
+**Automation target:** public X profile crawl via [`scripts/backfill_marandi_x_raw_input.py`](../../../scripts/backfill_marandi_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/s_m_marandi --thread marandi`.
 
 ---
 

@@ -8,4 +8,4 @@
 | `continuity_read` | Session continuity | [continuity-log.jsonl](continuity-log.jsonl) | Proof-of-read |
 | `sandbox_adapter` | Sandboxed execution | [sandbox-adapter spec](sandbox-adapter.md) | Governance at boundary |
 
-Add rows as integrations harden. **Ids** use lowercase snake_case to match [schemas/work_dev/integration_status.schema.json](../../schemas/work_dev/integration_status.schema.json).
+Add rows as integrations harden. **Ids** use lowercase snake_case to match [schemas/work_dev/integration_status.schema.json](../../../schemas/work_dev/integration_status.schema.json).

@@ -21,6 +21,6 @@ Optional upstream (diff / governance-only; if civ-mem present): `docs/templates/
 
 **Recipes and post-entry lens offer:** [MINDS-SKILL-STRATEGY-PATTERNS.md](../../minds/MINDS-SKILL-STRATEGY-PATTERNS.md)
 
-**Cursor skill:** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) — loads mind fingerprints via expert `-mind.md` or `CIV-MIND-*.md` redirects.
+**Cursor skill:** [skill-strategy SKILL.md](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) — loads mind fingerprints via expert `-mind.md` or `CIV-MIND-*.md` redirects.
 
 **Granular control:** [strategy-minds-granular.mdc](../../../.cursor/rules/strategy-minds-granular.mdc) — no tri-frame; zero or one named lens by default.

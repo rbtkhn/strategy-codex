@@ -34,7 +34,7 @@ The **faith ↔ science** distinction: coequal truth-orders that authorize, hybr
 
 ### Memory (framework pair)
 
-The **memory ↔ desire** pair: continuity-bearing inheritance under appetite, acceleration, and compensatory overreach. Canonical page: [theory/memory.md](theory/memory.md). Distinct from lane **`state-memory`** surfaces (downstream retrieval) and from the retrieval-sequence step also named memory.
+The **memory ↔ desire** pair: continuity-bearing inheritance under appetite, acceleration, and compensatory overreach. Canonical page: [theory/memory.md](../../memory.md). Distinct from lane **`state-memory`** surfaces (downstream retrieval) and from the retrieval-sequence step also named memory.
 
 ### Era law
 

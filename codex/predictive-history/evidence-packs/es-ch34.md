@@ -8,11 +8,11 @@ Book chapter for essay 34 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-34` → [the-us-iran-war-round-two.md](substack/essays/the-us-iran-war-round-two.md)
+- `es-34` → [the-us-iran-war-round-two.md](../substack/essays/the-us-iran-war-round-two.md)
 
 ## Core analysis
 
-- `es-34` → [essay-the-us-iran-war-round-two-analysis.md](analysis/essay-the-us-iran-war-round-two-analysis.md)
+- `es-34` → [essay-the-us-iran-war-round-two-analysis.md](../analysis/essay-the-us-iran-war-round-two-analysis.md)
 
 ## Key concepts
 

@@ -42,54 +42,54 @@ If a new Freeman item could sit in several of these without changing how the ope
 
 Captured on disk:
 
-- 2025-12-04 - Glenn Diesen, *Thucydides Trap & US Reaction to China's Rise*: [raw-input](../../years/2026/provenance/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md
-- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
+- 2025-12-04 - Glenn Diesen, *Thucydides Trap & US Reaction to China's Rise*: [raw-input](../../sheets/source-archive-control/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md
+- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../sheets/source-archive-control/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../sheets/source-archive-control/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md): [raw-input](../../../source-archive/statecraft/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md## 1. Law Gives Way To Raw Power
 
 Thesis: Freeman's first continuity line is that U.S. and Israeli practice has moved from rule-bound order into raw coercion, with law surviving mainly as vocabulary after the fact.
 
 Anchors:
 
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../sheets/source-archive-control/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md## 2. Diplomacy Becomes Performance
 
 Thesis: Freeman repeatedly treats U.S. diplomacy as theater: envoys without authority, ultimatums misnamed negotiations, and announcements designed for markets or domestic audiences rather than settlement.
 
 Anchors:
 
-- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
+- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../sheets/source-archive-control/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../sheets/source-archive-control/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md## 3. Israel Captures U.S. Strategy
 
 Thesis: Freeman's third arc-thread is that U.S. policy is not merely pro-Israel; it is increasingly subordinated to Israeli war aims even when those aims damage U.S. interests.
 
 Anchors:
 
-- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
+- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../sheets/source-archive-control/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
 - 2025-12-19 - Dialogue Works, *The Middle East You Knew Is Disappearing* (Freeman + Trita Parsi): [raw-input](../../../source-archive/statecraft/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md## 4. Iran Turns From Target Into System Lever
 
 Thesis: Freeman's Iran arc shifts from Iran as target of coercion to Iran as the actor holding system leverage through endurance, missiles, Hormuz, and the need for everyone else to bargain with it.
 
 Anchors:
 
-- 2025-12-18 - Glenn Diesen, *Age of Wars as Freedom of Navigation Ends*: [raw-input](../../years/2026/provenance/2025-12-18/source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md
-- 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md
+- 2025-12-18 - Glenn Diesen, *Age of Wars as Freedom of Navigation Ends*: [raw-input](../../sheets/source-archive-control/2025-12-18/source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md
+- 2025-12-15 - Neutrality Studies, *US Naval Seizures In The Caribbean Are Only The Beginning*: [raw-input](../../sheets/source-archive-control/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md
 - 2025-12-19 - Dialogue Works, *The Middle East You Knew Is Disappearing* (Freeman + Trita Parsi): [raw-input](../../../source-archive/statecraft/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md## 5. U.S. Domestic Decay And Strategic Decay Merge
 
 Thesis: Freeman links constitutional disorder at home to strategic incoherence abroad: lawless executive practice, cabinet sycophancy, domestic scandal, and reckless war planning are one system.
 
 Anchors:
 
-- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../years/2026/provenance/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
+- 2025-12-09 - Judging Freedom, *Does Anyone Want Peace?*: [raw-input](../../sheets/source-archive-control/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md): [raw-input](../../../source-archive/statecraft/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md## 6. China Becomes The Quiet Beneficiary
 
 Thesis: China is not cast as Iran's savior; it is the quiet beneficiary of U.S. self-depletion, sovereignty-norm collapse, Gulf recalibration, and the turn away from American maritime stewardship.
 
 Anchors:
 
-- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../years/2026/provenance/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
-- 2025-12-04 - Glenn Diesen, *Thucydides Trap & US Reaction to China's Rise*: [raw-input](../../years/2026/provenance/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md
+- 2025-12-05 - Dialogue Works, *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*: [raw-input](../../sheets/source-archive-control/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
+- 2025-12-04 - Glenn Diesen, *Thucydides Trap & US Reaction to China's Rise*: [raw-input](../../sheets/source-archive-control/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md
 - 2025-12-12 - Dialogue Works, *The U.S. Just Triggered a Chain Reaction It Can't Reverse* (Wilkerson + Freeman): [raw-input](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md## Live Update Hooks
 
 ### 2026-05-21 - Hormuz boarding / blockade legitimacy / war-powers pressure

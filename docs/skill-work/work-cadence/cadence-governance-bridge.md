@@ -4,7 +4,7 @@
 
 ## Scripts
 
-- [audit_cadence_rhythm.py](../../scripts/audit_cadence_rhythm.py) â€” rhythm summary (existing).
+- [audit_cadence_rhythm.py](../../../scripts/audit_cadence_rhythm.py) â€” rhythm summary (existing).
 - **`--pressure-report`** â€” writes `runtime/artifacts/work-cadence/cadence-pressure-report.json`, combining rhythm + `status: pending` counts in [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md).
 
 ## Authority

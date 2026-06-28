@@ -18,6 +18,6 @@ Daily continuity seed for `mercouris` inside the 2026 strategy-codex volume. Use
 
 ## Source Links
 
-- Shared raw input: [`../../../years/2026/provenance/`](../../years/2026/provenance/
+- Shared raw input: [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/
 
 WORK only; not Record.

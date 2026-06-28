@@ -119,7 +119,7 @@ Neighborhood JSON is **lighter than** curated CIV-MEM references for Record purp
 
 Merge discipline matches [`instance-doctrine.md`](../../../instance-doctrine.md) (script-driven merge after approval).
 
-### [`self.md`](../../../self.md) museum knowledge section A / museum knowledge section B / museum knowledge section C
+### [`self.md`](../../../archive/grace-mar-instance/self.md) museum knowledge section A / museum knowledge section B / museum knowledge section C
 
 - **museum knowledge section A:** Do **not** merge **substantive** claims mined from neighborhood graphs. **Rare exception:** companion-approved **meta** one-liner about **how** they work with civ paths (**human prose**, not schema dumps).
 - **museum knowledge section B:** Only if the companion **initiates** curiosity about tooling â€” **not** assistant-inferred from artifacts.

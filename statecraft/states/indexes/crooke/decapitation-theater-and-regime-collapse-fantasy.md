@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Crooke theme in which interveners 
 
 ## Cybernetic Activation
 
-Crooke-side activation surface: [Decapitation theater and regime-collapse fantasy](../../../../speakers/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md)
+Crooke-side activation surface: [Decapitation theater and regime-collapse fantasy](../../../voices/crooke/decapitation-theater-and-regime-collapse-fantasy.md)
 
 ## Backward Historical Question
 

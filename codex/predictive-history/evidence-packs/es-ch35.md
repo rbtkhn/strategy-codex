@@ -8,11 +8,11 @@ Book chapter for essay 35 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-35` → [the-trump-new-deal.md](substack/essays/the-trump-new-deal.md)
+- `es-35` → [the-trump-new-deal.md](../substack/essays/the-trump-new-deal.md)
 
 ## Core analysis
 
-- `es-35` → [essay-the-trump-new-deal-analysis.md](analysis/essay-the-trump-new-deal-analysis.md)
+- `es-35` → [essay-the-trump-new-deal-analysis.md](../analysis/essay-the-trump-new-deal-analysis.md)
 
 ## Key concepts
 

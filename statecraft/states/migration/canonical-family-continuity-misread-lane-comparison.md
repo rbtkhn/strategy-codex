@@ -196,4 +196,4 @@ If the question becomes lane-specific, return to the relevant helix:
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)

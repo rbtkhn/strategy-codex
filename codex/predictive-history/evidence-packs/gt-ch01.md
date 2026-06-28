@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 1 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-01` → [game-theory-01-the-dating-game.md](lectures/game-theory-01-the-dating-game.md)
+- `gt-01` → [game-theory-01-the-dating-game.md](../lectures/game-theory-01-the-dating-game.md)
 
 ## Core analysis
 
-- `gt-01` → [hE4l9WyLF3U-game-theory-01-analysis.md](analysis/hE4l9WyLF3U-game-theory-01-analysis.md)
+- `gt-01` → [hE4l9WyLF3U-game-theory-01-analysis.md](../analysis/hE4l9WyLF3U-game-theory-01-analysis.md)
 
 ## Key concepts
 

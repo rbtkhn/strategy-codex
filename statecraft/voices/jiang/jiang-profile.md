@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`jiang`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`jiang`** lane.
 
 **Routing rule:** Predictive History is the sole upstream for notebook-facing Jiang ingest. PH-derived material may inform strategy-notebook only through this expert lane. Direct PH Ã¢â€ â€™ strategy-page routing is disallowed; route PH notes through inbox with `thread:jiang`, then weave on operator intent.
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 7 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-07` → [civilization-07-homers-iliad-and-the-birth-of-greek-civilization.md](lectures/civilization-07-homers-iliad-and-the-birth-of-greek-civilization.md)
+- `civ-07` → [civilization-07-homers-iliad-and-the-birth-of-greek-civilization.md](../lectures/civilization-07-homers-iliad-and-the-birth-of-greek-civilization.md)
 
 ## Core analysis
 

@@ -8,11 +8,11 @@ Book chapter for essay 33 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-33` → [world-war-trump.md](substack/essays/world-war-trump.md)
+- `es-33` → [world-war-trump.md](../substack/essays/world-war-trump.md)
 
 ## Core analysis
 
-- `es-33` → [essay-world-war-trump-analysis.md](analysis/essay-world-war-trump-analysis.md)
+- `es-33` → [essay-world-war-trump-analysis.md](../analysis/essay-world-war-trump-analysis.md)
 
 ## Key concepts
 

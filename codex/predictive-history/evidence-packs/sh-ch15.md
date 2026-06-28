@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 15 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-15` → [secret-history-15-capital-and-the-bronze-age-collapse.md](lectures/secret-history-15-capital-and-the-bronze-age-collapse.md)
+- `sh-15` → [secret-history-15-capital-and-the-bronze-age-collapse.md](../lectures/secret-history-15-capital-and-the-bronze-age-collapse.md)
 
 ## Core analysis
 

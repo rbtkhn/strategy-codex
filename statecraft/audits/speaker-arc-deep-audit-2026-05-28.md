@@ -127,7 +127,7 @@ Representative files:
 
 - [statecraft/voices/crooke/crooke-source-index.md](../voices/crooke/crooke-source-index.md)
 - [statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md](../voices/crooke/crooke-interview-appearances-2025-2026.md)
-- [statecraft/voices/mercouris/arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md)
+- [statecraft/voices/mercouris/arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md)
 - [statecraft/voices/mercouris/mercouris-shelf-2026-01.md](../voices/mercouris/mercouris-shelf-2026-01.md)
 - [statecraft/voices/macgregor/macgregor-source-index.md](../voices/macgregor/macgregor-source-index.md)
 - [statecraft/voices/ritter/ritter-source-index.md](../voices/ritter/ritter-source-index.md)
@@ -154,7 +154,7 @@ This is good news operationally because a small number of deterministic rewrite 
 
 Representative failure patterns:
 
-- `../../years/2026/provenance/...`
+- `../../sheets/source-archive-control/...`
 - `../../codex/years/2026/provenance/...`
 - `mercouris-thread.md`
 - `mercouris-page-2026-04-05.md`

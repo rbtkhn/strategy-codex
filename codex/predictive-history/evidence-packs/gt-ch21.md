@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 21 — US–Iran ceasefire / empire frame; 
 
 ## Core sources
 
-- `gt-21` → [game-theory-21-world-war-trump.md](lectures/game-theory-21-world-war-trump.md)
+- `gt-21` → [game-theory-21-world-war-trump.md](../lectures/game-theory-21-world-war-trump.md)
 
 ## Core analysis
 
-- `gt-21` → [Ts-AA6LQf6I-game-theory-21-analysis.md](analysis/Ts-AA6LQf6I-game-theory-21-analysis.md)
+- `gt-21` → [Ts-AA6LQf6I-game-theory-21-analysis.md](../analysis/Ts-AA6LQf6I-game-theory-21-analysis.md)
 
 ## Key concepts
 

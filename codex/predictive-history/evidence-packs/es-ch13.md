@@ -8,11 +8,11 @@ Book chapter for essay 13 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-13` → [predictive-history-reading-list.md](substack/essays/predictive-history-reading-list.md)
+- `es-13` → [predictive-history-reading-list.md](../substack/essays/predictive-history-reading-list.md)
 
 ## Core analysis
 
-- `es-13` → [essay-predictive-history-reading-list-analysis.md](analysis/essay-predictive-history-reading-list-analysis.md)
+- `es-13` → [essay-predictive-history-reading-list-analysis.md](../analysis/essay-predictive-history-reading-list-analysis.md)
 
 ## Key concepts
 

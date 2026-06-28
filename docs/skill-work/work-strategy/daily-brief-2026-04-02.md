@@ -41,7 +41,7 @@ _From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus.
 
 **Fast (same brief):** Ã‚§**2** RSS headlines + Ã‚§**1** snapshot Ã¢â‚¬” news cycle, principal-adjacent hooks, scored **W / S / G**.
 
-**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [removed operator-books symlink](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
+**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [removed operator-books symlink](../../../archive/grace-mar-instance/self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
 
 _From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 

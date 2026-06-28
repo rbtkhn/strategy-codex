@@ -71,5 +71,5 @@ Fields (typical):
 ## Related
 
 - [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md)  
-- [codex/predictive-history/README-operator.md](./README-operator.md)  
+- [codex/predictive-history/README-operator.md](../README-operator.md)  
 

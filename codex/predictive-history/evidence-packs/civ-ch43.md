@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 43 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-43` → [civilization-43-the-structure-of-scientific-revolutions.md](lectures/civilization-43-the-structure-of-scientific-revolutions.md)
+- `civ-43` → [civilization-43-the-structure-of-scientific-revolutions.md](../lectures/civilization-43-the-structure-of-scientific-revolutions.md)
 
 ## Core analysis
 

@@ -8,11 +8,11 @@ Book chapter for Interviews episode 1 — Volume VI Part I; divergence end-box p
 
 ## Core sources
 
-- `vi-01` → [interviews-01-cyrus-janssen-world-is-about-to-change.md](lectures/interviews-01-cyrus-janssen-world-is-about-to-change.md)
+- `vi-01` → [interviews-01-cyrus-janssen-world-is-about-to-change.md](../lectures/interviews-01-cyrus-janssen-world-is-about-to-change.md)
 
 ## Core analysis
 
-- `vi-01` → [XRk5VSEzJ4Y-interviews-01-analysis.md](analysis/XRk5VSEzJ4Y-interviews-01-analysis.md)
+- `vi-01` → [XRk5VSEzJ4Y-interviews-01-analysis.md](../analysis/XRk5VSEzJ4Y-interviews-01-analysis.md)
 
 ## Key concepts
 

@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](../../../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`simplicius`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`simplicius`** lane.
 
 ---
 
@@ -27,7 +27,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](../../../../strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](../../../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -77,8 +77,8 @@ Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fin
 
 ## Automation target
 
-- Public Substack backfill via [`scripts/backfill_simplicius_substack_raw_input.py`](../../../../../scripts/backfill_simplicius_substack_raw_input.py) or the generic [`scripts/backfill_substack_raw_input.py`](../../../../../scripts/backfill_substack_raw_input.py) with `--hostname simplicius76.substack.com --thread simplicius`; treat the archive as a discovery index, not a completeness mandate.
-- Public X profile crawl via [`scripts/backfill_simplicius_x_raw_input.py`](../../../../../scripts/backfill_simplicius_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/simpatico771 --thread simplicius`; treat public posts as selective discovery items, not a completeness target.
+- Public Substack backfill via [`scripts/backfill_simplicius_substack_raw_input.py`](../../../../scripts/backfill_simplicius_substack_raw_input.py) or the generic [`scripts/backfill_substack_raw_input.py`](../../../../scripts/backfill_substack_raw_input.py) with `--hostname simplicius76.substack.com --thread simplicius`; treat the archive as a discovery index, not a completeness mandate.
+- Public X profile crawl via [`scripts/backfill_simplicius_x_raw_input.py`](../../../../scripts/backfill_simplicius_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/simpatico771 --thread simplicius`; treat public posts as selective discovery items, not a completeness target.
 
 ## Published sources (operator web index)
 

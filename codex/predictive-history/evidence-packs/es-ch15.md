@@ -8,11 +8,11 @@ Book chapter for essay 15 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-15` → [the-empire-goes-to-war.md](substack/essays/the-empire-goes-to-war.md)
+- `es-15` → [the-empire-goes-to-war.md](../substack/essays/the-empire-goes-to-war.md)
 
 ## Core analysis
 
-- `es-15` → [essay-the-empire-goes-to-war-analysis.md](analysis/essay-the-empire-goes-to-war-analysis.md)
+- `es-15` → [essay-the-empire-goes-to-war-analysis.md](../analysis/essay-the-empire-goes-to-war-analysis.md)
 
 ## Key concepts
 

@@ -22,12 +22,12 @@ Mearsheimer repeatedly invokes Budapest, Minsk, and JCPOA-class settlement memor
 
 ## Exact Quote Anchors
 
-- [2025-03-20 Daniel Davis](../years/2026/provenance/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md
+- [2025-03-20 Daniel Davis](../../sheets/source-archive-control/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md
   > "the Minsk accords were doomed from the get-go."
 
   > "No, we explicitly did not give them security guarantees."
 
-- [2026-05-04 Glenn Diesen](../years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
+- [2026-05-04 Glenn Diesen](../../sheets/source-archive-control/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
   > "we may cut a deal that's better than the JCPOA. But the key point is they're not getting rid of their nuclear enrichment capability"
 
 ## What Mearsheimer Is Arguing

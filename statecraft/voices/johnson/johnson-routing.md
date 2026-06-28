@@ -18,7 +18,7 @@ Johnson now has a full native continuity stack of his own.
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| Johnson as a whole speaker object | [arc-johnson-continuity.md](johnson-arc.md) | The person arc owns whole-speaker continuity above all host lanes and support surfaces. |
+| Johnson as a whole speaker object | [johnson-arc.md](johnson-arc.md) | The person arc owns whole-speaker continuity above all host lanes and support surfaces. |
 | why Johnson is mature enough to own native month support | [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md) | Explains the 2025 foundation, March bridge month, and April-May dense core. |
 | the bounded March 2026 cross-host bridge sequence | [johnson-shelf-2026-03.md](johnson-shelf-2026-03.md) | Mature bridge-month surface before the later dense-core thread atlas. |
 | Johnson's durable dense-core theses across April-May 2026 | [johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md) | Canonical thread atlas for the dense 2026 core. |

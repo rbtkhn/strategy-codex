@@ -6,13 +6,13 @@
 
 **Book (practically):** A workspace for **theology** â€” research notes, reading traces, and **ideas** that sharpen or complicate that self-definition, whether or not they are ever promoted to another book or the Record.
 
-**Discoverability:** Same tree is linked from **`theology-notebook`** (repo-relative symlink). **LIB:** [`docs/skill-work/work-strategy/theology-notebook/`](../../../../self-library.md#operator-analytical-books) in [`self-library.md`](../../../../self-library.md).
+**Discoverability:** Same tree is linked from **`theology-notebook`** (repo-relative symlink). **LIB:** [`docs/skill-work/work-strategy/theology-notebook/`](../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) in [`self-library.md`](../../../../archive/grace-mar-instance/self-library.md).
 
 **Territory:** `docs/skill-work/work-strategy/theology-notebook/` â€” **WORK** lane (work-strategy). **Not** companion **Record** or **Voice** knowledge until a claim is explicitly merged through **RECURSION-GATE** and companion approval.
 
 **Relation to other library surfaces**
 
-- **Theology shelf** in [`self-library.md`](../../../../self-library.md#theology) (â€“0146, etc.): **governed entries** and CIV-MEMâ€“aligned essays â€” use that index for **lookup** and **citation** discipline.
+- **Theology shelf** in [`self-library.md`](../../../../archive/grace-mar-instance/self-library.md#theology) (â€“0146, etc.): **governed entries** and CIV-MEMâ€“aligned essays â€” use that index for **lookup** and **citation** discipline.
 - **Strategy notebook** ([strategy-codex (`codex/`)](../../../../README.md)): when a **geopolitical** or **civilizational** day needs a short **theological** seam, add a **pointer** in `days.md` or inbox â€” do **not** duplicate long theology here and there; link **from** here **to** a strategy-day stub or **vice versa** with one line.
 - **History notebook** ([`docs/skill-work/work-strategy/history-notebook/`](../history-notebook/README.md)): if a thesis is **history-shaped** and comparative, the deliverable may live there; this notebook is for **defining belief through writing** and theology-shaped inquiry without the `hn-*` / chapter contract.
 

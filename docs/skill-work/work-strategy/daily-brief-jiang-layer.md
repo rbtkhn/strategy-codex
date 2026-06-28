@@ -10,7 +10,7 @@
 
 ## Active Predictive History hooks
 
-_Edit between brief runs. removed operator-books symlink (Predictive History): [predictive-history (`codex/predictive-history/`)](../../../self-library.md#operator-analytical-books) - `lookup_priority: preferred`; canonical URL in YAML -> [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
+_Edit between brief runs. removed operator-books symlink (Predictive History): [predictive-history (`codex/predictive-history/`)](../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) - `lookup_priority: preferred`; canonical URL in YAML -> [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
 
 - [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) - multivolume spine; Volume I Geo-Strategy (Part I ch01-ch20, Part II prediction adjudication).
 - [STATUS.md](../../../codex/predictive-history/STATUS.md) - corpus counts, missing analysis backlog, `outline_in_progress`, production nudges.

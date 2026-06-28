@@ -3,7 +3,7 @@
 WORK only; not Record.
 
 **Anchor item:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-**Raw-input SSOT:** [provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../../years/2026/provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md
+**Raw-input SSOT:** [provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../sheets/source-archive-control/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md
 **Canonical venue URL:** [YouTube](https://www.youtube.com/watch?v=OjH35ZKmF48)
 
 This note is the compact packaging layer for the April 29 `Pape Ã— Grim` seam. Its job is not to restate the whole interview; its job is to separate what is already reusable from what still needs primary pinning.

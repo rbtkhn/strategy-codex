@@ -38,7 +38,7 @@ Start with a lane helix when the live problem is clearly carried by one state's 
   Start here when the real problem is strategic depth, recognition, escalation timing, reciprocal security geometry, or overbinding through pressure.
 - [China helix](../../china/helix.md)
   Start here when the real problem is anti-disorder stabilization, quiet leverage, route continuity, public visibility risk, or cumulative control without ownership burden.
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
   Start here when the real problem is dignity, sanctions pressure, deterrent conversion, humiliating reversibility, or leverage that must be cashed out without surrender.
 
 ## When To Start With A Family
@@ -98,7 +98,7 @@ Once the top-level line is clear, descend by question type:
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 **Cross-lane synthesis**
 
@@ -143,6 +143,6 @@ If you still cannot tell what governs the object after reading this note, use th
 1. [America helix](../../america/helix.md) for constitutional-hegemonic carry
 2. [Russia helix](../../russia/helix.md) for recognition-depth coercive carry
 3. [China helix](../../china/helix.md) for anti-disorder quiet-leverage carry
-4. [Iran helix](../../iran/helix.md) for dignity-sanctions deterrent carry
+4. [Iran helix](../../persia/helix.md) for dignity-sanctions deterrent carry
 
 That sequence usually clarifies which grammar the crisis is actually asking you to respect.

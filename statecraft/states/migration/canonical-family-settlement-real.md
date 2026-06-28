@@ -13,11 +13,11 @@ It sits above the lane helixes and the four lane peace objects:
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 - [America peace](../../america/civilization/peace.md)
 - [Russia peace](../../russia/civilization/peace.md)
 - [China peace](../../china/civilization/peace.md)
-- [Iran peace](../../iran/civilization/peace.md)
+- [Iran peace](../../persia/civilization/peace.md)
 
 The question here is not what settlement means in one lane. It is what the four-lane corpus now knows, at helix level, about the difference between a real settlement and a theatrical one.
 
@@ -129,13 +129,13 @@ Use the lane helixes when the question is how this family changes inside one str
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 Use the lane peace objects when the question has narrowed to civilization-side settlement grammar:
 
 - [America peace](../../america/civilization/peace.md)
 - [Russia peace](../../russia/civilization/peace.md)
 - [China peace](../../china/civilization/peace.md)
-- [Iran peace](../../iran/civilization/peace.md)
+- [Iran peace](../../persia/civilization/peace.md)
 
 Use the lane empire-instrument objects when the unresolved problem is the guarantor, enforcement, or implementation carrier that would make the bargain governable instead of theatrical.

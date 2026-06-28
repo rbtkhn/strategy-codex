@@ -1,7 +1,7 @@
 # Strategy expert - `macgregor`
 <!-- word_count: 497 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`macgregor`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`macgregor`** lane.
 
 ## Identity
 

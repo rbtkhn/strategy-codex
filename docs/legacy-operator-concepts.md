@@ -17,7 +17,7 @@ Obsolete or frozen operator patterns in strategy-codex. **Do not** use as defaul
 | **Voice / Telegram / WeChat default** | Primary operator channel | Cursor + **statecraft** / **singularity** — [`deprecated-surfaces.md`](deprecated-surfaces.md) |
 | **`we did X` → RECURSION-GATE** | Ambient gate staging | [`replacement-capture-habits.md`](replacement-capture-habits.md); gate **only** on **fork revive** |
 | **Wisdom questions → IX merge** | Identity elicitation ritual | Fork revive or WORK synthesis — corpus in [`archive/grace-mar-corpus/operator-habits/`](../archive/grace-mar-corpus/operator-habits/) |
-| **Tri-mind post-entry B→M→M menu** | Three one-liners every notebook pass | Optional **single** lens or **`state-synthesis`** / runbook — [`skill-strategy`](../.cursor/skills/skill-strategy/SKILL.md) |
+| **Tri-mind post-entry B→M→M menu** | Three one-liners every notebook pass | Optional **single** lens or **`state-synthesis`** / runbook — [`skill-strategy`](skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) |
 | **Grace-Mar as live instance** | Pipeline running, bots live | **Frozen embedded sidecar** — [`archive/grace-mar-frozen.md`](../archive/grace-mar-frozen.md) |
 | **Cici cognitive-fork Record** | (same words, different scope) | **Her instance repo** — not strategy-codex growth — `singularity/work-cici/` |
 

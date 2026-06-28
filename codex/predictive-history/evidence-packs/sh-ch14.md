@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 14 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-14` → [secret-history-14-legacy-of-the-steppes.md](lectures/secret-history-14-legacy-of-the-steppes.md)
+- `sh-14` → [secret-history-14-legacy-of-the-steppes.md](../lectures/secret-history-14-legacy-of-the-steppes.md)
 
 ## Core analysis
 

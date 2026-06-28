@@ -23,7 +23,7 @@ Mearsheimer repeatedly contrasts the bipolar Cold War world with the present mul
 
 ## Exact Quote Anchors
 
-- [2026-05-04 Glenn Diesen](../years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
+- [2026-05-04 Glenn Diesen](../../sheets/source-archive-control/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
   > "During the Cold War, we lived in a bipolar world"
 
   > "we move into a multipolar world"

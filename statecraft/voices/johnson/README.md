@@ -8,7 +8,7 @@ Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-c
 
 ## Open First
 
-- [arc-johnson-continuity.md](johnson-arc.md)
+- [johnson-arc.md](johnson-arc.md)
 - [johnson-routing.md](johnson-routing.md)
 - [johnson-source-index.md](johnson-source-index.md)
 - [johnson-helix.md](johnson-helix.md)
@@ -33,7 +33,7 @@ Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-c
 
 Johnson's canonical statecraft shelf now has six speaker-owned layers:
 
-- **Person arc:** [arc-johnson-continuity.md](johnson-arc.md) holds whole-speaker continuity across hosts and time.
+- **Person arc:** [johnson-arc.md](johnson-arc.md) holds whole-speaker continuity across hosts and time.
 - **Routing surface:** [johnson-routing.md](johnson-routing.md) answers which host lane, month shelf, or dense-core strand surface to open first.
 - **Source index:** [johnson-source-index.md](johnson-source-index.md) remains the canonical route map for materialized Johnson appearances.
 - **Crossing surface:** [johnson-helix.md](johnson-helix.md) explains the stable host transformations inside the Johnson object.

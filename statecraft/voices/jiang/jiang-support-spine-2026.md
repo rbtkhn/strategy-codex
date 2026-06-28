@@ -15,7 +15,7 @@ Jiang is a canonical statecraft speaker shelf, but not a normalized host-month l
 For Jiang in 2026:
 
 - keep the shelf compact
-- let the embedded `ph-civ/` repo carry the detailed public structure
+- let the embedded `../../../public/predictive-history/` repo carry the detailed public structure
 - use the shelf to preserve statecraft-side identity and routing clarity
 - do not force January-through-May month shelves just for symmetry with other speakers
 

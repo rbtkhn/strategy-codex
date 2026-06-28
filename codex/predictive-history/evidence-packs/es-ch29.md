@@ -8,11 +8,11 @@ Book chapter for essay 29 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-29` → [world-war-iii-begins.md](substack/essays/world-war-iii-begins.md)
+- `es-29` → [world-war-iii-begins.md](../substack/essays/world-war-iii-begins.md)
 
 ## Core analysis
 
-- `es-29` → [essay-world-war-iii-begins-analysis.md](analysis/essay-world-war-iii-begins-analysis.md)
+- `es-29` → [essay-world-war-iii-begins-analysis.md](../analysis/essay-world-war-iii-begins-analysis.md)
 
 ## Key concepts
 

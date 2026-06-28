@@ -192,7 +192,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [parsi-transcript.md](../../../../../../../../codex/2026/parsi/parsi-transcript.md) (7-day rolling verbatim, compatibility) and [parsi-thread.md](../../../../../../../../codex/2026/parsi/parsi-thread.md) (distilled analytical thread, compatibility).
+**Companion files:** [parsi-transcript.md](../../../../../../../../../../../../../../codex/2026/parsi/parsi-transcript.md) (7-day rolling verbatim, compatibility) and [parsi-thread.md](../../../../../../../../../../../../../../codex/2026/parsi/parsi-thread.md) (distilled analytical thread, compatibility).
 
 ## Archive / backfill note
 
@@ -200,5 +200,5 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ## Automation target
 
-- Public X profile crawl via [`scripts/backfill_parsi_x_raw_input.py`](../../../../scripts/backfill_parsi_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/tparsi --thread parsi`.
-- Responsible Statecraft author-page crawl via [`scripts/backfill_parsi_responsiblestatecraft_raw_input.py`](../../../../scripts/backfill_parsi_responsiblestatecraft_raw_input.py) or the generic [`scripts/backfill_responsiblestatecraft_author_raw_input.py`](../../../../scripts/backfill_responsiblestatecraft_author_raw_input.py) with `--author-url https://responsiblestatecraft.org/author/tparsi/ --thread parsi`.
+- Public X profile crawl via [`scripts/backfill_parsi_x_raw_input.py`](../../../scripts/backfill_parsi_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/tparsi --thread parsi`.
+- Responsible Statecraft author-page crawl via [`scripts/backfill_parsi_responsiblestatecraft_raw_input.py`](../../../scripts/backfill_parsi_responsiblestatecraft_raw_input.py) or the generic [`scripts/backfill_responsiblestatecraft_author_raw_input.py`](../../../scripts/backfill_responsiblestatecraft_author_raw_input.py) with `--author-url https://responsiblestatecraft.org/author/tparsi/ --thread parsi`.

@@ -8,11 +8,11 @@ Book chapter for essay 18 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-18` → [secret-history-8-the-rise-of-the-american-kakistocracy.md](substack/essays/secret-history-8-the-rise-of-the-american-kakistocracy.md)
+- `es-18` → [secret-history-8-the-rise-of-the-american-kakistocracy.md](../substack/essays/secret-history-8-the-rise-of-the-american-kakistocracy.md)
 
 ## Core analysis
 
-- `es-18` → [essay-secret-history-8-the-rise-of-the-american-kakistocracy-analysis.md](analysis/essay-secret-history-8-the-rise-of-the-american-kakistocracy-analysis.md)
+- `es-18` → [essay-secret-history-8-the-rise-of-the-american-kakistocracy-analysis.md](../analysis/essay-secret-history-8-the-rise-of-the-american-kakistocracy-analysis.md)
 
 ## Key concepts
 

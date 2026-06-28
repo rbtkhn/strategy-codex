@@ -34,4 +34,4 @@
 
 ## Truth scope
 
-- This comparison ranks **local artifact behavior and maintainability in context**. It does not rank **factual** correctness of content shown inside a dashboard unless you add a separate, explicit verification process (e.g. [fact-check](../../../.cursor/skills/fact-check/SKILL.md) with cites — **out of scope** for this protocol).
+- This comparison ranks **local artifact behavior and maintainability in context**. It does not rank **factual** correctness of content shown inside a dashboard unless you add a separate, explicit verification process (e.g. [fact-check](../../../../.cursor/skills/fact-check/SKILL.md) with cites — **out of scope** for this protocol).

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 29 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-29` → [civilization-29-dante-s-divine-comedy-and-the-liberation-of-the-human-imagination.md](lectures/civilization-29-dante-s-divine-comedy-and-the-liberation-of-the-human-imagination.md)
+- `civ-29` → [civilization-29-dante-s-divine-comedy-and-the-liberation-of-the-human-imagination.md](../lectures/civilization-29-dante-s-divine-comedy-and-the-liberation-of-the-human-imagination.md)
 
 ## Core analysis
 

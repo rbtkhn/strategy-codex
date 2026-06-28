@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 1 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-01` → [great-books-01-secrets-of-the-universe.md](lectures/great-books-01-secrets-of-the-universe.md)
+- `gb-01` → [great-books-01-secrets-of-the-universe.md](../lectures/great-books-01-secrets-of-the-universe.md)
 
 ## Core analysis
 
-- `gb-01` → [TsD-8FGA84A-great-books-01-analysis.md](analysis/TsD-8FGA84A-great-books-01-analysis.md)
+- `gb-01` → [TsD-8FGA84A-great-books-01-analysis.md](../analysis/TsD-8FGA84A-great-books-01-analysis.md)
 
 ## Key concepts
 

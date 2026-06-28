@@ -245,5 +245,5 @@ This file narrows targeting. It does not prove that any one archetype will buy.
 - [AI Operating System Sprint - Founder-Operator Variant](singularity-academy-sprint-variant-founder-operator.md)
 - [AI Operating System Sprint - Cohort Operator Variant](singularity-academy-sprint-variant-cohort-operator.md)
 - [AI Operating System Sprint - Research / Content Team Variant](singularity-academy-sprint-variant-research-content.md)
-- [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
-- [Apprentice Studio Pilot Ops](../work-cici/apprentice-studio-pilot-ops.md)
+- [cici-ai Daily Telegram Brief](../../../singularity/work-cici/cici-ai-daily-telegram-brief.md)
+- [Apprentice Studio Pilot Ops](../../../singularity/work-cici/apprentice-studio-pilot-ops.md)

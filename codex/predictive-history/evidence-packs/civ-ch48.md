@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 48 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-48` → [civilization-48-napoleon-s-empire-of-myth.md](lectures/civilization-48-napoleon-s-empire-of-myth.md)
+- `civ-48` → [civilization-48-napoleon-s-empire-of-myth.md](../lectures/civilization-48-napoleon-s-empire-of-myth.md)
 
 ## Core analysis
 

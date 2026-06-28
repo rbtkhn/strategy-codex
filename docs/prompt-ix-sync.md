@@ -1,6 +1,6 @@
 ﻿# Prompt parity for museum knowledge section A / museum knowledge section B / museum knowledge section C (Voice and analyst)
 
-**Purpose:** Operator-facing truth about how **Section IX** entries in [`archive/grace-mar-instance/museum-knowledge.md`](../archive/grace-mar-instance/museum-knowledge.md) and [`self.md`](../self.md) relate to **[`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
+**Purpose:** Operator-facing truth about how **Section IX** entries in [`archive/grace-mar-instance/museum-knowledge.md`](../archive/grace-mar-instance/museum-knowledge.md) and [`self.md`](../archive/grace-mar-instance/self.md) relate to **[`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
 
 **Scope:** Documentation only. Does not change merge behavior or prompts.
 

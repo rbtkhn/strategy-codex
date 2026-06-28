@@ -21,8 +21,8 @@ This file should be read as the **Davis-pressure branch** of Mercouris, not as a
 Quick separation rule:
 
 - `Davis x Mercouris` = force-feasibility pressure on Mercouris's diplomatic and institutional read
-- [arc-mercouris-continuity.md](../../arc-mercouris-continuity.md) = native bounded arc shape
-- [arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md) = canonical recurring-strand atlas
+- [arc-mercouris-continuity.md](arc-mercouris-continuity.md) = native bounded arc shape
+- [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md) = canonical recurring-strand atlas
 - [arc-mercouris-diesen-host.md](../../arc-mercouris-diesen-host.md) = legitimacy-order-transition branch at higher European-system altitude
 
 If a Mercouris item matters mainly because Davis is testing whether Western policy can actually be executed, routed, supplied, or sustained, it belongs here. If the item matters mainly because it advances a native Mercouris strand regardless of host pressure, prefer the native arc or thread atlas.
@@ -90,10 +90,10 @@ Treat those as historical stream context, not current capture priorities, unless
 If the operator needs the raw source:
 
 - open [source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md](../../source-archive/statecraft/2025-12-10/source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md)
-- open [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md](../../source-archive/statecraft/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
+- open [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md](../../codex/years/2025/raw-input/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
 - open [source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md](../../source-archive/statecraft/2026-01-09/source-daniel-davis-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
-- open [youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md](../../source-archive/statecraft/2025-11-12/youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md)
-- open [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md](../../source-archive/statecraft/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
+- open [youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md](../../codex/years/2025/raw-input/2025-11-12/youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md)
+- open [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md](../../codex/years/2025/raw-input/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
 - open [source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md](../../source-archive/statecraft/2025-01-16/source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
 
 If the operator needs the next capture candidates:
@@ -105,8 +105,8 @@ If the operator needs the next capture candidates:
 If the operator needs Mercouris as speaker object:
 
 - open [mercouris-speaker-object.md](../voices/mercouris/mercouris-speaker-object.md)
-- open [arc-mercouris-continuity.md](../../arc-mercouris-continuity.md)
-- open [arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md)
+- open [arc-mercouris-continuity.md](arc-mercouris-continuity.md)
+- open [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md)
 
 If the operator needs Davis as host-native stream object:
 
@@ -134,8 +134,8 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- the native [arc-mercouris-continuity.md](../../arc-mercouris-continuity.md), which carries the main stream continuity
-- [arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md), which separates the recurring strands inside that native continuity
+- the native [arc-mercouris-continuity.md](arc-mercouris-continuity.md), which carries the main stream continuity
+- [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md), which separates the recurring strands inside that native continuity
 - [arc-mercouris-diesen-host.md](../../arc-mercouris-diesen-host.md), which is less about feasibility pressure and more about European legitimacy and order transition
 
 ## Boundaries

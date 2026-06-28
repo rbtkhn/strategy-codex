@@ -22,13 +22,13 @@ Freeman repeatedly invokes Vietnam, Afghanistan, and adjacent war-memory example
 
 ## Exact Quote Anchors
 
-- [2026-04-21 Judging Freedom](../years/2026/provenance/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md
+- [2026-04-21 Judging Freedom](../../sheets/source-archive-control/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md
   > "We should have learned from Vietnam, from Afghanistan, from other experiences that is not the case."
 
-- [2026-05-06 Glenn Diesen](../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md
+- [2026-05-06 Glenn Diesen](../../sheets/source-archive-control/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md
   > "We should have learned that in Vietnam, where there were 300,000 Chinese military engineers who kept the railroads operating for the Vietnamese"
 
-- [2025-01-26 Daniel Davis](../years/2026/provenance/2025-01-26/source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md
+- [2025-01-26 Daniel Davis](../../sheets/source-archive-control/2025-01-26/source-daniel-davis-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md
   > "what Ukraine lost in battle can't be regained negotiating"
 
 ## What Freeman Is Arguing

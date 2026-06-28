@@ -748,7 +748,7 @@ _(Append below this line.)_
 - **2026-06-10 20:22 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-10 20:25 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
 - **2026-06-10 20:26 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=ph-civ-7c52452 next=parent-dirty-tree-separate-slices
-- **2026-06-10 20:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=gb02_seams_held conductor=kleiber notebook_ref=public/ph-civ/book/volume-v/gb-02/gb-02-commentary.md falsify=part_ii_gb02_anchor_dead
+- **2026-06-10 20:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=gb02_seams_held conductor=kleiber notebook_ref=public/public/predictive-history/book/volume-v/gb-02/gb-02-commentary.md falsify=part_ii_gb02_anchor_dead
 - **2026-06-11 12:33 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-12 10:10 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-12 10:12 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe

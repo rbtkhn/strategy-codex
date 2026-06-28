@@ -1,7 +1,7 @@
 ﻿# strategy-codex â€” derived graph schema (v1)
 <!-- word_count: 213 -->
 
-WORK only; not Record. The graph is **rebuilt** from expert `thread.md` content via [strategy_page_reader.py](../../../../scripts/strategy_page_reader.py); do not hand-edit [graph.json](../../../../artifacts/work-strategy/strategy-notebook/graph.json).
+WORK only; not Record. The graph is **rebuilt** from expert `thread.md` content via [strategy_page_reader.py](../scripts/strategy_page_reader.py); do not hand-edit [graph.json](../../../../artifacts/work-strategy/strategy-notebook/graph.json).
 
 ## `graph.json` top level
 

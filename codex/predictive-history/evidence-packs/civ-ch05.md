@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 5 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-05` → [civilization-05-the-yamnaya-conquest-of-europe.md](lectures/civilization-05-the-yamnaya-conquest-of-europe.md)
+- `civ-05` → [civilization-05-the-yamnaya-conquest-of-europe.md](../lectures/civilization-05-the-yamnaya-conquest-of-europe.md)
 
 ## Core analysis
 

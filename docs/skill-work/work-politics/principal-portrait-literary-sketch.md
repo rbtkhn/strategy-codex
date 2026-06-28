@@ -7,7 +7,7 @@ purpose: Operator literary portrait of Rep. Thomas Massie â€” not Grace-Mar
 
 # Principal portrait â€” literary sketch (Thomas Massie)
 
-**This file is not** [`archive/grace-mar-instance/bot/prompt.py`](../../../archive/grace-mar-instance/bot/prompt.py) **and not** [`self.md`](../../../self.md). It is **WORK-only** narrative for work-politics: long-form tone and message DNA, internal alignment, or donor-style explainers when you deliberately choose that register.
+**This file is not** [`archive/grace-mar-instance/bot/prompt.py`](../../../archive/grace-mar-instance/bot/prompt.py) **and not** [`self.md`](../../../archive/grace-mar-instance/self.md). It is **WORK-only** narrative for work-politics: long-form tone and message DNA, internal alignment, or donor-style explainers when you deliberately choose that register.
 
 **Do not** merge this text into the Record without a **separate** RECURSION-GATE candidate and companion approval. Anything **public-facing** still needs **human review** and **primary-source citations** where facts matter â€” see [knowledge-boundary-framework.md](../../knowledge-boundary-framework.md).
 

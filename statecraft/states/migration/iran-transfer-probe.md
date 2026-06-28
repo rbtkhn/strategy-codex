@@ -7,8 +7,8 @@ This note is now historical Phase 1 / early Phase 2 evidence. It began as a boun
 ## Original Pair Under Review
 
 - Lane: `Iran`
-- Civilization-side object: [Iran state memory](../../iran/civilization/objects/state-memory.md)
-- Empire-side object: [Iran empire seed instruments](../../iran/empire/seed-instruments.md)
+- Civilization-side object: [Iran state memory](../../persia/civilization/objects/state-memory.md)
+- Empire-side object: [Iran empire seed instruments](../../persia/empire/seed-instruments.md)
 - Current statuses from the control plane at the time of the original probe: `unstarted` / `unstarted`
 - Reviewer / date: Codex / 2026-05-22
 
@@ -25,7 +25,7 @@ That meant Iran had moved beyond transfer status as a pair-formation problem. It
 
 ## Why Iran Never Needed A Separate Shape Debate
 
-[Iran state memory](../../iran/civilization/objects/state-memory.md) already exposed the same core contract functions used by the America, Russia, and China pilot civilizations:
+[Iran state memory](../../persia/civilization/objects/state-memory.md) already exposed the same core contract functions used by the America, Russia, and China pilot civilizations:
 
 - `Where This Sits`
 - `Reading Posture`
@@ -56,7 +56,7 @@ The full pilot audit judged Iran `template-ready` while still leaving room for l
 This original transfer note is now overtaken by events. What is true now:
 
 - Iran achieved a maturity-complete Phase 1C first-wave lane
-- [Iran helix](../../iran/helix.md) has now been promoted into the lane's primary authored interpretation
+- [Iran helix](../../persia/helix.md) has now been promoted into the lane's primary authored interpretation
 - [Iran README](../../../README.md) now routes helix-first, with the first-wave objects functioning as strand inputs beneath it
 - the Phase 2 result now lives in [Iran helix verification](iran-helix-verification.md)
 

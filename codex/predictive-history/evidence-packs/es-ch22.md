@@ -8,11 +8,11 @@ Book chapter for essay 22 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-22` → [blowback-venezuela.md](substack/essays/blowback-venezuela.md)
+- `es-22` → [blowback-venezuela.md](../substack/essays/blowback-venezuela.md)
 
 ## Core analysis
 
-- `es-22` → [essay-blowback-venezuela-analysis.md](analysis/essay-blowback-venezuela-analysis.md)
+- `es-22` → [essay-blowback-venezuela-analysis.md](../analysis/essay-blowback-venezuela-analysis.md)
 
 ## Key concepts
 

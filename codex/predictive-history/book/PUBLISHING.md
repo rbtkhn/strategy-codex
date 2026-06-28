@@ -39,5 +39,5 @@
 - **Run before release (optional):** If you derive a **student or RAG bundle** from this corpus, complete the checklist in [STUDENT-EXPORT.md](../STUDENT-EXPORT.md) first.
 - Editorial compression: [BOOK-QUALITY-DOCTRINE.md](BOOK-QUALITY-DOCTRINE.md)
 - Transcript and layer discipline: [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md), [ASR-VERIFICATION-RUBRIC.md](../ASR-VERIFICATION-RUBRIC.md)
-- Instance pointer: [codex/predictive-history/README-operator.md](./README-operator.md)
+- Instance pointer: [codex/predictive-history/README-operator.md](../README-operator.md)
 

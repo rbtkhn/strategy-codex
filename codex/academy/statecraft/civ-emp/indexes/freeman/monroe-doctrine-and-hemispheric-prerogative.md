@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Freeman theme in which republics or 
 
 ## Cybernetic Activation
 
-Freeman-side activation surface: [Monroe Doctrine and hemispheric prerogative](../../../../../speakers/freeman/themes/monroe-doctrine-and-hemispheric-prerogative.md)
+Freeman-side activation surface: [Monroe Doctrine and hemispheric prerogative](../../../../../../statecraft/voices/freeman/monroe-doctrine-and-hemispheric-prerogative.md)
 
 ## Backward Historical Question
 

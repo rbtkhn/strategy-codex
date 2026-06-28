@@ -8,11 +8,11 @@ This note checks the current Iran first-wave set against the phase-one verificat
 
 Objects under review:
 
-- [Iran state memory](../../iran/civilization/objects/state-memory.md)
-- [Iran geo](../../iran/civilization/geo.md)
-- [Iran war](../../iran/civilization/war.md)
-- [Iran peace](../../iran/civilization/peace.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran state memory](../../persia/civilization/objects/state-memory.md)
+- [Iran geo](../../persia/civilization/geo.md)
+- [Iran war](../../persia/civilization/war.md)
+- [Iran peace](../../persia/civilization/peace.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)
 
 Reviewer / date: Codex / 2026-05-22
 

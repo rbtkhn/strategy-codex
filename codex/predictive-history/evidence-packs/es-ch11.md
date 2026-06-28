@@ -8,11 +8,11 @@ Book chapter for essay 11 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-11` → [tipping-point-usa.md](substack/essays/tipping-point-usa.md)
+- `es-11` → [tipping-point-usa.md](../substack/essays/tipping-point-usa.md)
 
 ## Core analysis
 
-- `es-11` → [essay-tipping-point-usa-analysis.md](analysis/essay-tipping-point-usa-analysis.md)
+- `es-11` → [essay-tipping-point-usa-analysis.md](../analysis/essay-tipping-point-usa-analysis.md)
 
 ## Key concepts
 

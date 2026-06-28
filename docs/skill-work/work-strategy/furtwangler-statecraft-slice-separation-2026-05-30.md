@@ -37,7 +37,7 @@ The second slice is also real, but different in kind. Its visible center is:
 - [statecraft/synthesis/month/2026-05.md](../../../statecraft/synthesis/month/2026-05.md)
 - [statecraft/synthesis/day/2026-05-29.md](../../../statecraft/synthesis/day/2026-05-29.md)
 - [statecraft/synthesis/day/2026-05-30.md](../../../statecraft/synthesis/day/2026-05-30.md)
-- [statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](../../../statecraft/research/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
+- [statecraft/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](../../../statecraft/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
 - [statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md](../../../statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md)
 
 This is not spillover from the doctrine pass. It is a separate synthesis-and-method ship.

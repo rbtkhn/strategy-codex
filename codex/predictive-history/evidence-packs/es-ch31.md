@@ -8,11 +8,11 @@ Book chapter for essay 31 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-31` → [vietnam-redux.md](substack/essays/vietnam-redux.md)
+- `es-31` → [vietnam-redux.md](../substack/essays/vietnam-redux.md)
 
 ## Core analysis
 
-- `es-31` → [essay-vietnam-redux-analysis.md](analysis/essay-vietnam-redux-analysis.md)
+- `es-31` → [essay-vietnam-redux-analysis.md](../analysis/essay-vietnam-redux-analysis.md)
 
 ## Key concepts
 

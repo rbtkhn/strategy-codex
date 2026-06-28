@@ -21,4 +21,4 @@ Current index:
 
 Proof object:
 
-- [Iran: Hormuz Recognition / Transit Restraint](../iran/hormuz-recognition-transit-restraint.md)
+- [Iran: Hormuz Recognition / Transit Restraint](../persia/hormuz-recognition-transit-restraint.md)

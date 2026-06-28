@@ -1,7 +1,7 @@
 # Strategy expert Ã¢â‚¬â€ `mate`
 <!-- word_count: 407 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`mate`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`mate`** lane.
 
 ## Identity
 
@@ -79,6 +79,6 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ## Automation target
 
-- Public Grayzone author-page crawl via [`scripts/backfill_mate_grayzone_raw_input.py`](../../../../../scripts/backfill_mate_grayzone_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://thegrayzone.com/author/aaron-mate/ --domain thegrayzone.com --path-shape date-slug --publication thegrayzone.com --thread mate`.
-- Public X profile crawl via [`scripts/backfill_mate_x_raw_input.py`](../../../../../scripts/backfill_mate_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/aaronjmate --thread mate`.
-- YouTube transcript crawl via [`scripts/backfill_grayzone_youtube_raw_input.py`](../../../../../scripts/backfill_grayzone_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@TheGrayzone/videos --channel-slug the-grayzone --show "The Grayzone" --host "Max Blumenthal / Aaron MatÃƒÂ©" --file-prefix youtube-the-grayzone`.
+- Public Grayzone author-page crawl via [`scripts/backfill_mate_grayzone_raw_input.py`](../../../scripts/backfill_mate_grayzone_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://thegrayzone.com/author/aaron-mate/ --domain thegrayzone.com --path-shape date-slug --publication thegrayzone.com --thread mate`.
+- Public X profile crawl via [`scripts/backfill_mate_x_raw_input.py`](../../../scripts/backfill_mate_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/aaronjmate --thread mate`.
+- YouTube transcript crawl via [`scripts/backfill_grayzone_youtube_raw_input.py`](../../../scripts/backfill_grayzone_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@TheGrayzone/videos --channel-slug the-grayzone --show "The Grayzone" --host "Max Blumenthal / Aaron MatÃƒÂ©" --file-prefix youtube-the-grayzone`.

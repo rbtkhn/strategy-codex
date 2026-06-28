@@ -14,7 +14,7 @@ Lebanon third-party recognition gate with coupled transit-restraint sequencing.
 
 - Speaker-state / synthesis inputs: Parsi (third-party deterrence thesis), Nima (June 7 live escalation + axis duty-split), McGovern (June 6 recognition gate + resistance bundling), Marandi (June 6 Hormuz mechanics + Lebanon ranking; **June 8 deal floor + extended deterrence + Gulf-energy threat**).
 - Pape escalation-trap inputs: [Lebanon Fuse 2026-06-04](../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md), [The New Phase 2026-06-06](../../../source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md), [Day 100 2026-06-08](../../../source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md).
-- Cross-lane America inputs: Macgregor/McGovern/Freeman capture compression; [America capture extension](../../notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md); [command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md).
+- Cross-lane America inputs: Macgregor/McGovern/Freeman capture compression; [America capture extension](../../notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md); [command-firewall transaction](../../america/transactions/foreign-client-mesh-separation-and-command-review.md).
 - Statecraft note anchors:
   - [Parsi × Nima × McGovern — third-party deterrence vs recognition gate](../../notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
   - [Persia: Lebanon-first gate vs Hormuz mechanics — 2026-06-06](../../notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
@@ -91,7 +91,7 @@ Short rule: **ops cease alone is insufficient** — gate-green requires `A-WITH-
 
 > Reciprocal assurances against attacks on Iranian sovereign facilities, against regime-change operations, and against use of third-party host territories for strikes without host-risk review shall be recorded through a **mediated compliance ledger** with **congressional-notification or statutory-sunset carriers** where the United States is a party. Executive statements alone shall not satisfy the assurance benchmark for purposes of activating Clause A relief or transit steps.
 
-**Face-saving line (U.S.):** **burden-separated security coordination** with review gates — aligns with America command-firewall vocabulary without requiring public ally-abandonment language. Statutory mesh (Section 224) must not substitute for assurance carriers — see [America command-firewall Clause A–E](../america/transactions/foreign-client-mesh-separation-and-command-review.md#instrument-text-draft-clauses).
+**Face-saving line (U.S.):** **burden-separated security coordination** with review gates — aligns with America command-firewall vocabulary without requiring public ally-abandonment language. Statutory mesh (Section 224) must not substitute for assurance carriers — see [America command-firewall Clause A–E](../../america/transactions/foreign-client-mesh-separation-and-command-review.md#instrument-text-draft-clauses).
 
 ### Clause C — Axis coordination firewall
 
@@ -172,7 +172,7 @@ Persia instrument does not merge America fiscal rows, but **relief activation** 
 - [Persia transactions README](README.md)
 - [Persia helix](../helix.md)
 - [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md)
-- [America command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
+- [America command-firewall transaction](../../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 - [Parsi × Nima × McGovern statecraft note](../../notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
 - [America capture extension](../../notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
 - [Pape Day 100 × New Phase × Lebanon Fuse](../../notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)

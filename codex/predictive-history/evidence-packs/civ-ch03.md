@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 3 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-03` → [civilization-03-the-religious-imagination.md](lectures/civilization-03-the-religious-imagination.md)
+- `civ-03` → [civilization-03-the-religious-imagination.md](../lectures/civilization-03-the-religious-imagination.md)
 
 ## Core analysis
 

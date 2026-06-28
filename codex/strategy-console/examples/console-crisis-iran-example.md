@@ -38,7 +38,7 @@
 | mercouris | mtime in window | Diplomatic “room” read; pair with state weave in **days** only after MCQ |
 | mearsheimer | no clear mtime in window (example) | Available — not active for movement signal |
 
-**Institutional (not `expert_id` rows):** IRI / MFA **primaries** stay **`verify:IRI-primary`**, not `thread:`—see [strategy-commentator-threads.md](../strategy-commentator-threads.md).
+**Institutional (not `expert_id` rows):** IRI / MFA **primaries** stay **`verify:IRI-primary`**, not `thread:`—see [strategy-commentator-threads.md](../../strategy-commentator-threads.md).
 
 ## State watch pressure
 
@@ -80,7 +80,7 @@
 2. `strategy-state-iran/README.md` and today’s `daily/` or `weave/` as applicable
 3. `daily-strategy-inbox.md` (IRI vs `thread:` lines)
 4. `chapters/2026-04/days.md` tail
-5. [EOD-MCQ-PROTOCOL.md](../EOD-MCQ-PROTOCOL.md)
+5. [EOD-MCQ-PROTOCOL.md](../../EOD-MCQ-PROTOCOL.md)
 
 ## Guardrails
 

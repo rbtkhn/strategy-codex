@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 9 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-09` → [game-theory-09-the-us-iran-war.md](lectures/game-theory-09-the-us-iran-war.md)
+- `gt-09` → [game-theory-09-the-us-iran-war.md](../lectures/game-theory-09-the-us-iran-war.md)
 
 ## Core analysis
 
-- `gt-09` → [jIS2eB-rGv0-game-theory-09-analysis.md](analysis/jIS2eB-rGv0-game-theory-09-analysis.md)
+- `gt-09` → [jIS2eB-rGv0-game-theory-09-analysis.md](../analysis/jIS2eB-rGv0-game-theory-09-analysis.md)
 
 ## Key concepts
 

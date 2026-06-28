@@ -29,12 +29,12 @@ This folder holds **submodules** that support WORK, the Record, and instances: h
 ## Cross-references
 
 - **Reality Sprint Block:** [reality-sprint-block.md](reality-sprint-block.md), [reality-sprint-template.md](reality-sprint-template.md) — optional execution wedge after substantive plans (operator / WORK; not gate, not Record merge).
-- **Context Efficiency Layer:** [context-efficiency-layer.md](context-efficiency-layer.md), [context-compaction-protocol.md](context-compaction-protocol.md) — hot/warm/cold operator context, compaction shapes, `session_brief` budgets ([`platform/config/context_budgets/session_brief.json`](../platform/config/context_budgets/session_brief.json)), optional [`platform/config/context_surfaces.json`](../platform/config/context_surfaces.json); daily brief generator reads [`platform/config/context_budgets/daily_brief.json`](../platform/config/context_budgets/daily_brief.json) for optional **§7** footer.
+- **Context Efficiency Layer:** [context-efficiency-layer.md](context-efficiency-layer.md), [context-compaction-protocol.md](context-compaction-protocol.md) — hot/warm/cold operator context, compaction shapes, `session_brief` budgets ([`platform/config/context_budgets/session_brief.json`](../../platform/config/context_budgets/session_brief.json)), optional [`platform/config/context_surfaces.json`](../../platform/config/context_surfaces.json); daily brief generator reads [`platform/config/context_budgets/daily_brief.json`](../../platform/config/context_budgets/daily_brief.json) for optional **§7** footer.
 - **Work-layer hardening roadmap:** [WORK-LAYER-HARDENING-ROADMAP.md](WORK-LAYER-HARDENING-ROADMAP.md) — promotion ladder, sources YAML, observability, work-dev ledger, cadence pressure, lane contracts, dashboard.
 - **New WORK territory checklist:** [work-template.md](work-template.md) — scaffold `work-<id>/` (README, history, optional LANE-CI, sources).
 - **Work modules — authorized sources:** [work-modules-sources-principle.md](work-modules-sources-principle.md).
 - **Work modules — territory history logs:** [work-modules-history-principle.md](work-modules-history-principle.md).
-- **Work-strategy (`skill-strategy`):** Listed in **Submodules** above — [work-strategy/README.md](work-strategy/README.md); activation [`.cursor/skills/skill-strategy/SKILL.md`](../../.cursor/skills/skill-strategy/SKILL.md).
+- **Work-strategy (`skill-strategy`):** Listed in **Submodules** above — [work-strategy/README.md](work-strategy/README.md); activation [`.cursor/skills/skill-strategy/SKILL.md`](work-strategy/SKILL-STRATEGY-DEPRECATED.md).
 - [Long-term objective](../long-term-objective.md) — Links to skill-work submodules.
 - [Concept](../concept.md), [Schema and API](../schema-record-api.md), [Instance patterns](../instance-patterns.md).
 - [Good Morning Brief Spec](../good-morning-brief-spec.md), [Good Night Template](../good-night-template.md), [Good Night Brief Spec](../good-night-brief-spec.md).

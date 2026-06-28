@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 34 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-34` → [civilization-34-the-useful-fiction-of-the-holy-roman-empire.md](lectures/civilization-34-the-useful-fiction-of-the-holy-roman-empire.md)
+- `civ-34` → [civilization-34-the-useful-fiction-of-the-holy-roman-empire.md](../lectures/civilization-34-the-useful-fiction-of-the-holy-roman-empire.md)
 
 ## Core analysis
 

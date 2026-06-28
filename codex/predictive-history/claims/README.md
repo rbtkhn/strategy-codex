@@ -29,8 +29,8 @@ No migration of existing rows; new claims may include these.
 ## Relationship to thesis
 
 - [`metadata/thesis-map.yaml`](../metadata/thesis-map.yaml) lists `linked_claim_ids` per subclaim.
-- [`scripts/work_jiang/link_claims_to_thesis.py`](../../scripts/work_jiang/link_claims_to_thesis.py) emits [`metadata/thesis-claim-links.yaml`](../metadata/thesis-claim-links.yaml).
-- [`scripts/work_jiang/render_claims_overview.py`](../../scripts/work_jiang/render_claims_overview.py) generates [`CLAIMS-OVERVIEW.md`](../CLAIMS-OVERVIEW.md).
+- [`scripts/work_jiang/link_claims_to_thesis.py`](../../../scripts/work_jiang/link_claims_to_thesis.py) emits [`metadata/thesis-claim-links.yaml`](../metadata/thesis-claim-links.yaml).
+- [`scripts/work_jiang/render_claims_overview.py`](../../../scripts/work_jiang/render_claims_overview.py) generates [`CLAIMS-OVERVIEW.md`](../CLAIMS-OVERVIEW.md).
 
 ## Adding a row
 

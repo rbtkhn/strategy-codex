@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Crooke theme in which serious sett
 
 ## Cybernetic Activation
 
-Crooke-side activation surface: [Treaty form vs transactional settlement](../../../../speakers/crooke/themes/treaty-form-vs-transactional-settlement.md)
+Crooke-side activation surface: [Treaty form vs transactional settlement](../../../voices/crooke/treaty-form-vs-transactional-settlement.md)
 
 ## Backward Historical Question
 

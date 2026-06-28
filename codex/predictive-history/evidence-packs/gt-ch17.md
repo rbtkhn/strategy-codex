@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 17 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-17` → [game-theory-17-the-great-reset.md](lectures/game-theory-17-the-great-reset.md)
+- `gt-17` → [game-theory-17-the-great-reset.md](../lectures/game-theory-17-the-great-reset.md)
 
 ## Core analysis
 
-- `gt-17` → [VbowBTJWKBo-game-theory-17-analysis.md](analysis/VbowBTJWKBo-game-theory-17-analysis.md)
+- `gt-17` → [VbowBTJWKBo-game-theory-17-analysis.md](../analysis/VbowBTJWKBo-game-theory-17-analysis.md)
 
 ## Key concepts
 

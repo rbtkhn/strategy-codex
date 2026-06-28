@@ -20,8 +20,8 @@ This file should be read as the **native bounded-arc surface**, not as a replace
 Quick separation rule:
 
 - `arc-mercouris-continuity` = the durable native arc shape and its main motion
-- [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md) = the canonical atlas of distinct recurring strands inside that arc
-- [mercouris-thread.md](mercouris-thread.md) = legacy continuity compatibility, useful for dated browsing but not a second canonical thread system
+- [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md) = the canonical atlas of distinct recurring strands inside that arc
+- [mercouris-thread.md](../voices/mercouris/mercouris-thread.md) = legacy continuity compatibility, useful for dated browsing but not a second canonical thread system
 - `Davis x Mercouris` = feasibility-pressure reinforcement branch
 - `Diesen x Mercouris` = legitimacy-order-transition reinforcement branch
 
@@ -31,7 +31,7 @@ If a question is mainly about how one recurring Mercouris thesis differs from an
 
 `arc-mercouris-continuity` = a **stream-native bounded helix**.
 
-It contains multiple recurring `arc-mercouris-continuity-threads`, currently indexed in [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md):
+It contains multiple recurring `arc-mercouris-continuity-threads`, currently indexed in [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md):
 
 1. Institutional narrative turns signals into statecraft.
 2. Hormuz becomes a system lever.
@@ -61,28 +61,28 @@ March 2026 is the first **mature dense-core month** in that motion: the point wh
 Current reinforcement branches:
 
 - [Diesen x Mercouris](../diesen/arc-mercouris-diesen-host.md - a deepening host-local branch (2023/2024 Karaganov triads + 2026 legitimacy dyad) that braids order-transition, deterrence-history, and legitimacy-crisis threads with Diesen's frame.
-- [Davis x Mercouris](../../notes/arc-mercouris-davis-host.md - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
+- [Davis x Mercouris](arc-mercouris-davis-host.md - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
 
 Distinct from:
 
 - [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md), which carries the internal strand differentiation rather than the overall arc shape
-- [mercouris-thread.md](mercouris-thread.md), which preserves continuity browsing but should not be treated as the orthogonality-bearing thread surface
+- [mercouris-thread.md](../voices/mercouris/mercouris-thread.md), which preserves continuity browsing but should not be treated as the orthogonality-bearing thread surface
 - the host-local branches above, which show how external host pressure changes the usable Mercouris object
 
 ## Open First
 
 If the operator needs the durable thesis layer:
 
-- open [arc-mercouris-continuity-threads.md](arc-mercouris-continuity-threads.md)
+- open [arc-mercouris-continuity-threads.md](../voices/mercouris/mercouris-arc-threads.md)
 
 If the operator needs dated continuity:
 
-- open [mercouris-thread.md](mercouris-thread.md)
-- open [mercouris-shelf-2026-01.md](mercouris-shelf-2026-01.md)
-- open [mercouris-shelf-2026-02.md](mercouris-shelf-2026-02.md)
-- open [mercouris-shelf-2026-03.md](mercouris-shelf-2026-03.md)
-- open [mercouris-shelf-2026-04.md](mercouris-shelf-2026-04.md)
-- open [mercouris-shelf-2026-05.md](mercouris-shelf-2026-05.md)
+- open [mercouris-thread.md](../voices/mercouris/mercouris-thread.md)
+- open [mercouris-shelf-2026-01.md](../voices/mercouris/mercouris-shelf-2026-01.md)
+- open [mercouris-shelf-2026-02.md](../voices/mercouris/mercouris-shelf-2026-02.md)
+- open [mercouris-shelf-2026-03.md](../voices/mercouris/mercouris-shelf-2026-03.md)
+- open [mercouris-shelf-2026-04.md](../voices/mercouris/mercouris-shelf-2026-04.md)
+- open [mercouris-shelf-2026-05.md](../voices/mercouris/mercouris-shelf-2026-05.md)
 
 If the operator needs speaker-object doctrine:
 

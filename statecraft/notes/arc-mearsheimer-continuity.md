@@ -17,7 +17,7 @@ Quick separation rule:
 
 - `arc-mearsheimer-continuity` = Mearsheimer's canonical continuity across hosts, contexts, and time
 - [legacy Mearsheimer helix](../voices/mearsheimer/mearsheimer-helix.md) = cross-host comparison of the main host transformations
-- [mearsheimer-routing.md](mearsheimer-routing.md) = fastest host-selection surface
+- [mearsheimer-routing.md](../voices/mearsheimer/mearsheimer-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Mearsheimer under one host's pressure
 
 ## Arc shape
@@ -26,12 +26,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Mearsheimer](../../notes/arc-mearsheimer-diesen-host.md) - structural altitude and order-transition architecture
-2. [Davis x Mearsheimer](../../notes/arc-mearsheimer-davis-host.md) - coercive failure, bargaining geometry, and war-feasibility limits
+1. [Diesen x Mearsheimer](arc-mearsheimer-diesen-host.md) - structural altitude and order-transition architecture
+2. [Davis x Mearsheimer](arc-mearsheimer-davis-host.md) - coercive failure, bargaining geometry, and war-feasibility limits
 
 Reinforcing orbit:
 
-- [Napolitano x Mearsheimer](../../notes/arc-mearsheimer-napolitano-host.md)
+- [Napolitano x Mearsheimer](arc-mearsheimer-napolitano-host.md)
 - additional shelf material outside the two main host strands
 
 ## What makes this an arc
@@ -61,11 +61,11 @@ If the operator needs the strongest speaker-owned maturity explanation:
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [mearsheimer-routing.md](mearsheimer-routing.md)
+- open [mearsheimer-routing.md](../voices/mearsheimer/mearsheimer-routing.md)
 
 If the operator needs the cleanest structural anchor:
 
-- open [Diesen x Mearsheimer](../../notes/arc-mearsheimer-diesen-host.md)
+- open [Diesen x Mearsheimer](arc-mearsheimer-diesen-host.md)
 
 ## Boundary
 

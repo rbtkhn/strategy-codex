@@ -30,7 +30,7 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 |------|----------|
 | **Typical sources** | Substack, Responsible Statecraft author pages, Ghost, Medium, HTML paste, RSS **`fetch_strategy_raw_input`** pulls. |
 | **`kind:`** | Prefer **`rss-item`** when automated from feed; manual paste → **`paste-bundle`** or **`mixed`** if bundling multiple snippets. |
-| **`thread:`** | Set when a [strategy-commentator-threads.md](../strategy-commentator-threads.md) **`expert_id`** applies (e.g. named columnist). Else omit **`thread:`** or use inbox **`membrane:single`** until routed — see [README.md — Expert-agnostic](README.md). |
+| **`thread:`** | Set when a [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) **`expert_id`** applies (e.g. named columnist). Else omit **`thread:`** or use inbox **`membrane:single`** until routed — see [README.md — Expert-agnostic](README.md). |
 | **Raw body** | Full article text under YAML; preserve headings for navigation; if **paywalled / partial**, state in YAML **`note:`** or inbox (**`partial`**). Public archive / API backfills may only yield the preview body; label that clearly instead of pretending it is a full capture. |
 | **Backfill judgment** | Archive discovery is a starting point, not a requirement to ingest every item. Capture the substantial posts you want to keep; leave lighter archive-visible items out when they do not merit preservation. |
 | **Mechanical inbox stub** | Title + outlet + **`pub_date`** + **`SS \| cold`** or **`YT`** only if video-shaped — usually **`SS`** / **`notebook`** lane for essays. Tail: **`verify:full-text`** or **`verify:operator-partial`** + **`pub_date:`** + **`opinion-essay-tier`** + **`not-Record`**. **`grep:`** line: author slug + short title tokens + **`YYYY-MM-DD`**. |
@@ -123,5 +123,5 @@ WORK only; not Record.
 
 - [README.md](README.md) — layout, pruning, **`fetch_strategy_raw_input`**, **`populate_strategy_raw_input`**
 - [refined-page-template.md](../../../codex/refined-page-template.md) — Selected Passages budget, Appendix bullet order
-- [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) — split ingest model
+- [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) — split ingest model
 - [`.cursor/rules/strategy-input-raw-ingest.mdc`](../../../../../.cursor/rules/strategy-input-raw-ingest.mdc) — mandatory verbatim capture rule

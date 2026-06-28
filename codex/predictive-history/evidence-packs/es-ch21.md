@@ -8,11 +8,11 @@ Book chapter for essay 21 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-21` → [secret-history-10-the-great-revealing.md](substack/essays/secret-history-10-the-great-revealing.md)
+- `es-21` → [secret-history-10-the-great-revealing.md](../substack/essays/secret-history-10-the-great-revealing.md)
 
 ## Core analysis
 
-- `es-21` → [essay-secret-history-10-the-great-revealing-analysis.md](analysis/essay-secret-history-10-the-great-revealing-analysis.md)
+- `es-21` → [essay-secret-history-10-the-great-revealing-analysis.md](../analysis/essay-secret-history-10-the-great-revealing-analysis.md)
 
 ## Key concepts
 

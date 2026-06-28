@@ -8,11 +8,11 @@ Book chapter for essay 14 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-14` → [what-can-be-done.md](substack/essays/what-can-be-done.md)
+- `es-14` → [what-can-be-done.md](../substack/essays/what-can-be-done.md)
 
 ## Core analysis
 
-- `es-14` → [essay-what-can-be-done-analysis.md](analysis/essay-what-can-be-done-analysis.md)
+- `es-14` → [essay-what-can-be-done-analysis.md](../analysis/essay-what-can-be-done-analysis.md)
 
 ## Key concepts
 

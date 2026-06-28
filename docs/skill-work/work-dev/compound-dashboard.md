@@ -2,7 +2,7 @@
 
 **Purpose:** One **derived** markdown page that summarizes the state of the work-dev **compound** layer: note inventory, gate-candidate pointers, stale/duplicate hints, presence of other generated reports, and links to related docs and scripts. It is an **operator-facing** view, not canonical memory.
 
-**Inputs:** Markdown files under `docs/skill-work/work-dev/compound-notes/` (same shape as [compound-note-template.md](compound-note-template.md)), parsed via [scripts/work_dev/compound_notes.py](../../scripts/work_dev/compound_notes.py).
+**Inputs:** Markdown files under `docs/skill-work/work-dev/compound-notes/` (same shape as [compound-note-template.md](compound-note-template.md)), parsed via [scripts/work_dev/compound_notes.py](../../../scripts/work_dev/compound_notes.py).
 
 **Output:** Regenerable file `runtime/artifacts/work-dev-compound-dashboard.md` from:
 

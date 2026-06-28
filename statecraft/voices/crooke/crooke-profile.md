@@ -88,4 +88,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [crooke-transcript.md](../../../../../../../../codex/2026/crooke/crooke-transcript.md) (7-day rolling verbatim, compatibility), [crooke-thread.md](../../../../../../../../codex/2026/crooke/crooke-thread.md) (distilled analytical thread, compatibility), and [crooke-thread-international-law.md](crooke-thread-international-law.md) (topical legitimacy-order / international-law continuity surface).
+**Companion files:** [crooke-transcript.md](crooke-transcript.md) (7-day rolling verbatim, compatibility), [crooke-thread.md](crooke-thread.md) (distilled analytical thread, compatibility), and [crooke-thread-international-law.md](crooke-thread-international-law.md) (topical legitimacy-order / international-law continuity surface).

@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 10 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-10` → [secret-history-10-the-conspiracy-of-evil.md](lectures/secret-history-10-the-conspiracy-of-evil.md)
+- `sh-10` → [secret-history-10-the-conspiracy-of-evil.md](../lectures/secret-history-10-the-conspiracy-of-evil.md)
 
 ## Core analysis
 

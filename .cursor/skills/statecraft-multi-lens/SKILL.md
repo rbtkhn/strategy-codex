@@ -53,13 +53,13 @@ Do not extend this archived file. If current work needs this pattern, create or 
 **Current canonical doctrine surfaces**
 
 - Dual-lens / tri-lens method:
-  - [statecraft/research/bridges/recognition-threshold-vs-settlement-architecture.md](../../../statecraft/research/bridges/recognition-threshold-vs-settlement-architecture.md)
+  - [statecraft/bridges/recognition-threshold-vs-settlement-architecture.md](../../../statecraft/bridges/recognition-threshold-vs-settlement-architecture.md)
 - Tri-lens novelty and refinements:
-  - [statecraft/research/bridges/pape-marandi-parsi-novelty-audit.md](../../../statecraft/research/bridges/pape-marandi-parsi-novelty-audit.md)
+  - [statecraft/bridges/pape-marandi-parsi-novelty-audit.md](../../../statecraft/bridges/pape-marandi-parsi-novelty-audit.md)
 - Proof runs:
-  - [statecraft/research/bridges/pape-marandi-parsi-backtest-march-2026.md](../../../statecraft/research/bridges/pape-marandi-parsi-backtest-march-2026.md)
-  - [statecraft/research/bridges/pape-marandi-parsi-backtest-april-2026.md](../../../statecraft/research/bridges/pape-marandi-parsi-backtest-april-2026.md)
-  - [statecraft/research/bridges/pape-marandi-parsi-backtest-may-2026.md](../../../statecraft/research/bridges/pape-marandi-parsi-backtest-may-2026.md)
+  - [statecraft/bridges/pape-marandi-parsi-backtest-march-2026.md](../../../statecraft/bridges/pape-marandi-parsi-backtest-march-2026.md)
+  - [statecraft/bridges/pape-marandi-parsi-backtest-april-2026.md](../../../statecraft/bridges/pape-marandi-parsi-backtest-april-2026.md)
+  - [statecraft/bridges/pape-marandi-parsi-backtest-may-2026.md](../../../statecraft/bridges/pape-marandi-parsi-backtest-may-2026.md)
 
 **Broader bench grounding surfaces**
 
@@ -90,7 +90,7 @@ Do not extend this archived file. If current work needs this pattern, create or 
 **Historical-example hard gate**
 
 - Policy:
-  - [statecraft/research/bridges/anchored-historical-citation-policy.md](../../../statecraft/research/bridges/anchored-historical-citation-policy.md)
+  - [statecraft/bridges/anchored-historical-citation-policy.md](../../../statecraft/bridges/anchored-historical-citation-policy.md)
 - Operational matrix:
   - [statecraft/states/indexes/historical-example-retrieval-matrix.md](../../../statecraft/states/indexes/historical-example-retrieval-matrix.md)
 

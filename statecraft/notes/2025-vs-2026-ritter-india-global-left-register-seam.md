@@ -90,7 +90,7 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 2. **Synthesis cites 2025 Feb 22** to explain **2026 interceptor math** — **routing error**
 3. **Single falsifier table** mixing **Riyadh 4.5h** with **Geneva ploy** without year tags — **downgrade seam**
 4. **“Ritter IGL arc”** link with **no year** in `days.md` / notebook — **fix before promotion**
-5. **Operator merges** 2025 + 2026 captures under one **`##` heading** in continuity day — **violates** [days.md date semantics](../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics) if it implies one compose thread
+5. **Operator merges** 2025 + 2026 captures under one **`##` heading** in continuity day — **violates** [days.md date semantics](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics) if it implies one compose thread
 6. **Wire confirms 2025 forecast** and operator **auto-upgrades** 2026 **ceasefire fiction** row — **forbidden without 2026 capture**
 7. **Correct seam use:** dual links in **Links** with **year + register label** — **pass**
 

@@ -8,11 +8,11 @@ Book chapter for essay 10 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-10` → [secret-history-7-the-voyage-home.md](substack/essays/secret-history-7-the-voyage-home.md)
+- `es-10` → [secret-history-7-the-voyage-home.md](../substack/essays/secret-history-7-the-voyage-home.md)
 
 ## Core analysis
 
-- `es-10` → [essay-secret-history-7-the-voyage-home-analysis.md](analysis/essay-secret-history-7-the-voyage-home-analysis.md)
+- `es-10` → [essay-secret-history-7-the-voyage-home-analysis.md](../analysis/essay-secret-history-7-the-voyage-home-analysis.md)
 
 ## Key concepts
 

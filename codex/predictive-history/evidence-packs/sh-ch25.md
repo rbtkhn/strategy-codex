@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 25 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-25` → [secret-history-25-capital-of-evil.md](lectures/secret-history-25-capital-of-evil.md)
+- `sh-25` → [secret-history-25-capital-of-evil.md](../lectures/secret-history-25-capital-of-evil.md)
 
 ## Core analysis
 

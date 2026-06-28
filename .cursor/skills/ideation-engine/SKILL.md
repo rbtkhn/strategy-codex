@@ -44,7 +44,7 @@ Use these as source lanes:
 |--------|------|
 | work-business | [docs/skill-work/work-business/README.md](../../../docs/skill-work/work-business/README.md) |
 | Grace Gems | [docs/skill-work/work-business/grace-gems/README.md](../../../docs/skill-work/work-business/grace-gems/README.md) |
-| work-cici | [docs/skill-work/work-cici/README.md](../../../docs/skill-work/work-cici/README.md) |
+| work-cici | [docs/skill-work/work-cici/README.md](../../../README.md) |
 | work-dev | [docs/skill-work/work-dev/README.md](../../../docs/skill-work/work-dev/README.md) |
 | work-strategy | [docs/skill-work/work-strategy/README.md](../../../docs/skill-work/work-strategy/README.md) |
 | work-cadence | [docs/skill-work/work-cadence/README.md](../../../docs/skill-work/work-cadence/README.md) |

@@ -16,7 +16,7 @@ It also inherits the lane helixes and the lane `war` and `empire-instrument` str
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 The question here is no longer only whether coercion converts into politics or whether contact procedure is thinning. It is whether the corpus can now describe a larger object:
 
@@ -169,4 +169,4 @@ If the question is lane-specific, return to the relevant helix:
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)

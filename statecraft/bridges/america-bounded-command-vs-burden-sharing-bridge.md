@@ -57,7 +57,7 @@ Open next:
 
 - [America helix](../america/helix.md)
 - [America peace](../america/civilization/peace.md)
-- [America transactions](../america/transactions/)
+- [America transactions](../../america/transactions/)
 - [Protected Channel / Non-Regime-Change Framework](../transactions/protected-channel-non-regime-change-framework/)
 
 Return to the America lane once the settlement path is clear enough to identify the governing carrier problem or transaction family.
@@ -69,7 +69,7 @@ After the bridge run:
 1. return to [America lane](../america/README.md) if the intake family was not actually resolved cleanly
 2. return to [America helix](../america/helix.md) if the integrated line still needs restoration
 3. return to [America state](../america/state/) if authority, review, or successor carry now governs the next move
-4. return to [America transactions](../america/transactions/) if the object has truly crossed into clause or mechanism work
+4. return to [America transactions](../../america/transactions/) if the object has truly crossed into clause or mechanism work
 
 ## Mistake This Bridge Prevents
 

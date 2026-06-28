@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 4 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-04` → [game-theory-04-the-immigration-trap.md](lectures/game-theory-04-the-immigration-trap.md)
+- `gt-04` → [game-theory-04-the-immigration-trap.md](../lectures/game-theory-04-the-immigration-trap.md)
 
 ## Core analysis
 
-- `gt-04` → [35HRPLVyF0g-game-theory-04-analysis.md](analysis/35HRPLVyF0g-game-theory-04-analysis.md)
+- `gt-04` → [35HRPLVyF0g-game-theory-04-analysis.md](../analysis/35HRPLVyF0g-game-theory-04-analysis.md)
 
 ## Key concepts
 

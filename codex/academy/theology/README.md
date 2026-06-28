@@ -65,7 +65,7 @@ These are academy-origin WORK notes. They do not edit Predictive History directl
 These academy texts are **manual curated forks** from the strategy-codex civ-mem satellite:
 
 - source satellite: [docs/civilization-memory/](../../../docs/civilization-memory)
-- governed library entries: [self-library.md](../../../../self-library.md) museum theology entries (archive)
+- governed library entries: [self-library.md](../../../archive/grace-mar-instance/self-library.md) museum theology entries (archive)
 - theology notebook: [docs/skill-work/work-strategy/theology-notebook/README.md](../../../README.md) / `docs/skill-work/work-strategy/theology-notebook/`
 
 Do not assume automatic sync. Update academy copies deliberately when the source changes matter for study.

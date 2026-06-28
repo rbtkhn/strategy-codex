@@ -13,19 +13,19 @@ It sits above the lane helixes and the four lane state-memory, geo, and empire-i
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 - [America state memory](../../america/civilization/objects/state-memory.md)
 - [Russia state memory](../../russia/civilization/objects/state-memory.md)
 - [China state memory](../../china/civilization/objects/state-memory.md)
-- [Iran state memory](../../iran/civilization/objects/state-memory.md)
+- [Iran state memory](../../persia/civilization/objects/state-memory.md)
 - [America geo](../../america/civilization/geo.md)
 - [Russia geo](../../russia/civilization/geo.md)
 - [China geo](../../china/civilization/geo.md)
-- [Iran geo](../../iran/civilization/geo.md)
+- [Iran geo](../../persia/civilization/geo.md)
 - [America empire instrument](../../america/empire/seed-instruments.md)
 - [Russia empire instrument](../../russia/empire/seed-instruments.md)
 - [China empire instrument](../../china/empire/seed-instruments.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)
 
 The question here is not whether the past is rhetorically available. It is when older memories still function as active strategic carriers that shape what present actors can recognize as prudent, humiliating, survivable, or absurd.
 
@@ -159,20 +159,20 @@ Use the lane helixes when the question is how older memory sits inside one lane'
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 Use the lane state-memory objects when the question has narrowed to authority, continuity, humiliation memory, or successor carry:
 
 - [America state memory](../../america/civilization/objects/state-memory.md)
 - [Russia state memory](../../russia/civilization/objects/state-memory.md)
 - [China state memory](../../china/civilization/objects/state-memory.md)
-- [Iran state memory](../../iran/civilization/objects/state-memory.md)
+- [Iran state memory](../../persia/civilization/objects/state-memory.md)
 
 Use the lane geo objects when the unresolved issue is the spatial or infrastructural carrier that keeps the memory live:
 
 - [America geo](../../america/civilization/geo.md)
 - [Russia geo](../../russia/civilization/geo.md)
 - [China geo](../../china/civilization/geo.md)
-- [Iran geo](../../iran/civilization/geo.md)
+- [Iran geo](../../persia/civilization/geo.md)
 
 Use the lane empire-instrument objects when the unresolved issue is how the same older memory is still shaping deterrence, routes, access, bargaining posture, or outward control design today.

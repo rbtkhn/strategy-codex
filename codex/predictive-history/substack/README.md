@@ -1,6 +1,6 @@
 # Predictive History — Volume VII: Essays — crosswalk
 
-**Canonical publication:** [Predictive History on Substack](https://predictivehistory.substack.com/) (primary written surface; see [work-jiang-sources.md](./work-jiang-sources.md)). In-repo essay mirrors are **Volume VII** of the multivolume book line — see [book/VOLUME-VII-ESSAYS.md](../book/VOLUME-VII-ESSAYS.md).
+**Canonical publication:** [Predictive History on Substack](https://predictivehistory.substack.com/) (primary written surface; see [work-jiang-sources.md](../work-jiang-sources.md)). In-repo essay mirrors are **Volume VII** of the multivolume book line — see [book/VOLUME-VII-ESSAYS.md](../book/VOLUME-VII-ESSAYS.md).
 
 This folder holds **operator-maintained notes** that map **individual posts** to the **in-repo book corpus** (`lectures/`, `analysis/`). **Full essay text** (for search / diff / claim extraction) lives in **[essays/](essays/)** — optional mirrors the operator ingests; **copyright and Substack terms** are the operator’s responsibility (see [essays/README.md](essays/README.md)).
 
@@ -622,7 +622,7 @@ This folder holds **operator-maintained notes** that map **individual posts** to
 |----------------|---------------------|
 | **Great Books** / pedagogy | [Great Books #1](../lectures/great-books-01-secrets-of-the-universe.md); Substack **Vision, Mission, Goals** (charter) |
 | **China** / **Beijing** / high school | Lecture corpus **geo**/**civilization** neighbors; essay is autobiographical detail |
-| **YouTube** / distribution | [work-jiang-sources.md](./work-jiang-sources.md) — canonical surfaces |
+| **YouTube** / distribution | [work-jiang-sources.md](../work-jiang-sources.md) — canonical surfaces |
 
 ### Mostly essay-specific
 

@@ -74,4 +74,4 @@ Each CIV-EMP source object should be short and usable. It should include:
 
 ## Proof Objects
 
-- [Iran: Hormuz Recognition / Transit Restraint](iran/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-EMP converts Civilization and Empire into an operational source pattern for a live Iran-lane transaction.
+- [Iran: Hormuz Recognition / Transit Restraint](persia/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-EMP converts Civilization and Empire into an operational source pattern for a live Iran-lane transaction.

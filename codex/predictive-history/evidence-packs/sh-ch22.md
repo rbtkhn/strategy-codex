@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 22 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-22` → [secret-history-22-the-divine-spark-of-jesus.md](lectures/secret-history-22-the-divine-spark-of-jesus.md)
+- `sh-22` → [secret-history-22-the-divine-spark-of-jesus.md](../lectures/secret-history-22-the-divine-spark-of-jesus.md)
 
 ## Core analysis
 

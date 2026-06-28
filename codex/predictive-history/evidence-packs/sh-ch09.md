@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 9 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-09` → [secret-history-09-the-theory-of-everything.md](lectures/secret-history-09-the-theory-of-everything.md)
+- `sh-09` → [secret-history-09-the-theory-of-everything.md](../lectures/secret-history-09-the-theory-of-everything.md)
 
 ## Core analysis
 

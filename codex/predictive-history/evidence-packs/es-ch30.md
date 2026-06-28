@@ -8,11 +8,11 @@ Book chapter for essay 30 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-30` → [the-acceleration.md](substack/essays/the-acceleration.md)
+- `es-30` → [the-acceleration.md](../substack/essays/the-acceleration.md)
 
 ## Core analysis
 
-- `es-30` → [essay-the-acceleration-analysis.md](analysis/essay-the-acceleration-analysis.md)
+- `es-30` → [essay-the-acceleration-analysis.md](../analysis/essay-the-acceleration-analysis.md)
 
 ## Key concepts
 

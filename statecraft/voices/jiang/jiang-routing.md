@@ -30,10 +30,10 @@ Use this file to decide which Jiang layer to open first.
 ## First-open paths
 
 - Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
-- Public mirror: [ph-civ/README.md](../../../README.md)
-- Volume I interwoven spine: [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](../../../README.md)
-- Volume I Parts shelf: [ph-civ/book/volume-i-civilization/parts/README.md](../../../README.md)
-- Jiang analysis notes: [ph-civ/docs/jiang-analysis-index.md](ph-civ/docs/jiang-analysis-index.md)
+- Public mirror: [../../../public/predictive-history/README.md](../../../README.md)
+- Volume I interwoven spine: [public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../README.md)
+- Volume I Parts shelf: [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../README.md)
+- Jiang analysis notes: [../../../public/predictive-history/docs/jiang-analysis-index.md](../../../public/predictive-history/docs/jiang-analysis-index.md)
 - Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md)
 
 ## Volume I Parts (reading navigation)
@@ -42,10 +42,10 @@ Ten **Part doorways** overlay the interwoven civilization spine — navigation o
 
 | Surface | Path |
 |---------|------|
-| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](../../../README.md) |
-| Registry (SSOT) | [ph-civ/data/parts/volume-i-parts.json](ph-civ/data/parts/volume-i-parts.json) |
-| Part boundary tour | [ph-civ/data/routes/part-boundary-tour.json](ph-civ/data/routes/part-boundary-tour.json) |
-| LLM `part_tour` mode | [ph-civ/data/llm-experience.json](ph-civ/data/llm-experience.json) |
+| Parts index | [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../README.md) |
+| Registry (SSOT) | [../../../public/predictive-history/data/parts/volume-i-parts.json](../../../public/predictive-history/data/parts/volume-i-parts.json) |
+| Part boundary tour | [../../../public/predictive-history/data/routes/part-boundary-tour.json](../../../public/predictive-history/data/routes/part-boundary-tour.json) |
+| LLM `part_tour` mode | [../../../public/predictive-history/data/llm-experience.json](../../../public/predictive-history/data/llm-experience.json) |
 
 **Reading law:** open the [interwoven spine](../../../README.md) for canonical order; use Part doorways for law-discovery questions, companion weave, and corridor links. **Part** here ≠ lecture transcript "Part I / Part II" ≠ CIV-STATE Part 1/2/3.
 
@@ -57,11 +57,11 @@ Ten **Part doorways** overlay the interwoven civilization spine — navigation o
 
 In the embedded `ph-civ` mirror, **lecture transcript bodies are not commentary**:
 
-- **Frozen by default:** `**/*-transcript.md` under `ph-civ/` — no typo fixes, ASR cleanup, or synthesis merges during lattice walks, Layer 3 updates, or corridor work.
+- **Frozen by default:** `**/*-transcript.md` under `../../../public/predictive-history/` — no typo fixes, ASR cleanup, or synthesis merges during lattice walks, Layer 3 updates, or corridor work.
 - **Edit surfaces:** `*-commentary.md`, cards, corridors, orientation YAML; cite transcript line refs instead of rewriting source text.
 - **Legitimate transcript changes** require an explicit operator lane (re-materialize, rights-reviewed re-import from `rbtkhn/predictive-history`, or named cleanup skill) in **`PREDICTIVE_HISTORY_ROOT`**.
 - **Check before commit:** `python scripts/validate_ph_civ_transcript_boundary.py --staged` from strategy-codex root (optional pre-commit hook).
-- **ASR pilot guard (civ-01–12):** `python scripts/validate_transcript_proper_nouns.py` — blocklist at `ph-civ/data/asr-blocklist/volume-ii-pilot.json`; regenerate via `python scripts/generate_ph_civ_asr_blocklist.py` after pilot script edits.
+- **ASR pilot guard (civ-01–12):** `python scripts/validate_transcript_proper_nouns.py` — blocklist at `../../../public/predictive-history/data/asr-blocklist/volume-ii-pilot.json`; regenerate via `python scripts/generate_ph_civ_asr_blocklist.py` after pilot script edits.
 
 Cursor agents: `.cursor/rules/ph-civ-transcript-immutability.mdc` when paths touch the mirror.
 

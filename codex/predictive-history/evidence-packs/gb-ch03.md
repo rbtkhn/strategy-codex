@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 3 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-03` → [great-books-03-poets-and-prophets.md](lectures/great-books-03-poets-and-prophets.md)
+- `gb-03` → [great-books-03-poets-and-prophets.md](../lectures/great-books-03-poets-and-prophets.md)
 
 ## Core analysis
 
-- `gb-03` → [XRP407WsA0w-great-books-03-analysis.md](analysis/XRP407WsA0w-great-books-03-analysis.md)
+- `gb-03` → [XRP407WsA0w-great-books-03-analysis.md](../analysis/XRP407WsA0w-great-books-03-analysis.md)
 
 ## Key concepts
 

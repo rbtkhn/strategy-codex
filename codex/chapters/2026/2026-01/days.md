@@ -17,7 +17,7 @@ January is best read as boundary conditions for the U.S.-Iran spiral: diplomacy 
 
 - [Chapter 2026-01 -- meta](meta.md) (full arc + sources)
 - [Chapter 2026-04 -- meta](../2026-04/meta.md) (first month with rich `days.md` spine)
-- [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../STRATEGY-NOTEBOOK-ARCHITECTURE.md) (terminology: chapter / day / page)
+- [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../STRATEGY-NOTEBOOK-ARCHITECTURE.md) (terminology: chapter / day / page)
 - [Vol. 2026, Book I, Chapter II](2026-01-02.md)
 
 ### Foresight

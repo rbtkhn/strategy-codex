@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 45 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-45` → [civilization-45-the-gunpowder-revolution.md](lectures/civilization-45-the-gunpowder-revolution.md)
+- `civ-45` → [civilization-45-the-gunpowder-revolution.md](../lectures/civilization-45-the-gunpowder-revolution.md)
 
 ## Core analysis
 

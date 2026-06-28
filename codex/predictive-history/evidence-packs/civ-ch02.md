@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 2 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-02` → [civilization-02-religion-and-the-dawn-of-society.md](lectures/civilization-02-religion-and-the-dawn-of-society.md)
+- `civ-02` → [civilization-02-religion-and-the-dawn-of-society.md](../lectures/civilization-02-religion-and-the-dawn-of-society.md)
 
 ## Core analysis
 

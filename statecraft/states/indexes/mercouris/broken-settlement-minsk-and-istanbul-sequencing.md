@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Mercouris theme in which false seq
 
 ## Cybernetic Activation
 
-Mercouris-side activation surface: [Broken settlement, Minsk, and Istanbul sequencing](../../../../speakers/mercouris/themes/broken-settlement-minsk-and-istanbul-sequencing.md)
+Mercouris-side activation surface: [Broken settlement, Minsk, and Istanbul sequencing](../../../voices/mercouris/broken-settlement-minsk-and-istanbul-sequencing.md)
 
 ## Backward Historical Question
 

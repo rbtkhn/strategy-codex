@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 27 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-27` → [civilization-27-augustine-s-empire-of-god.md](lectures/civilization-27-augustine-s-empire-of-god.md)
+- `civ-27` → [civilization-27-augustine-s-empire-of-god.md](../lectures/civilization-27-augustine-s-empire-of-god.md)
 
 ## Core analysis
 

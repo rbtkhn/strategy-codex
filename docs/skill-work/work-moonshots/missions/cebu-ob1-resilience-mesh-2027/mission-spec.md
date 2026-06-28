@@ -82,7 +82,7 @@ Optional: strategy tri-frame or operator economics pass before any public-facing
 
 ## Intake — cohort skills snapshot (WORK)
 
-**Neural Sandbox / GitHub evaluation (Tier C):** a normalized 10-account table and repo links from operator RTF (model-assisted) live in [github-neural-sandbox-cohort-2026-04-24.md](../../../work-cici/archive/placeholders/evidence/github-neural-sandbox-cohort-2026-04-24.md). Use for **draft** mesh role ideas only; reverified GitHub review required before any partner-facing claim.
+**Neural Sandbox / GitHub evaluation (Tier C):** a normalized 10-account table and repo links from operator RTF (model-assisted) live in [github-neural-sandbox-cohort-2026-04-24.md](../../../../../singularity/work-cici/evidence/github-neural-sandbox-cohort-2026-04-24.md). Use for **draft** mesh role ideas only; reverified GitHub review required before any partner-facing claim.
 
 ## Current phase
 

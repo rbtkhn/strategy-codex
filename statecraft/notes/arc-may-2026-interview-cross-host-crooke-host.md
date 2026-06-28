@@ -33,8 +33,8 @@ May 2026 shows the interview strand after the coercive fantasy has already broke
 
 ## Host-local routes
 
-- [Davis x Crooke](../../notes/arc-crooke-davis-host.md
-- [Dialogue Works x Crooke](../../notes/arc-crooke-nima-host.md
+- [Davis x Crooke](arc-crooke-davis-host.md
+- [Dialogue Works x Crooke](arc-crooke-nima-host.md
 
 ## Boundary
 

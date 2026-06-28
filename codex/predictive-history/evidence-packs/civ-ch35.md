@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 35 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-35` → [civilization-35-the-viking-legacy.md](lectures/civilization-35-the-viking-legacy.md)
+- `civ-35` → [civilization-35-the-viking-legacy.md](../lectures/civilization-35-the-viking-legacy.md)
 
 ## Core analysis
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 55 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-55` → [civilization-55-kant-hegel-and-the-theory-of-everything.md](lectures/civilization-55-kant-hegel-and-the-theory-of-everything.md)
+- `civ-55` → [civilization-55-kant-hegel-and-the-theory-of-everything.md](../lectures/civilization-55-kant-hegel-and-the-theory-of-everything.md)
 
 ## Core analysis
 

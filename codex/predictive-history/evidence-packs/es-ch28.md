@@ -8,11 +8,11 @@ Book chapter for essay 28 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-28` → [countdown-to-iran.md](substack/essays/countdown-to-iran.md)
+- `es-28` → [countdown-to-iran.md](../substack/essays/countdown-to-iran.md)
 
 ## Core analysis
 
-- `es-28` → [essay-countdown-to-iran-analysis.md](analysis/essay-countdown-to-iran-analysis.md)
+- `es-28` → [essay-countdown-to-iran-analysis.md](../analysis/essay-countdown-to-iran-analysis.md)
 
 ## Key concepts
 

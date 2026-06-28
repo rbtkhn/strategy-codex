@@ -19,7 +19,7 @@ This file tracks residuals under that doctrine. It is not a signal to rename par
 **Checks** (repository text search):
 
 - **Legacy pre-migration slugs** (`alexander-mercouris`, `john-mearsheimer`, `jiang-xueqin`, etc.): **none** in tracked `*.md` / `*.py` / `*.json` / `*.yaml` sources reviewed for the last-name migration.
-- **`thread:` with multiple hyphen segments** in strategy-notebook: only **non-expert** topic ids in commentary (for example `hormuz-story-fork` in [strategy-commentator-threads.md](strategy-commentator-threads.md) archive prose). Inbox **`thread:<expert_id>`** lines use **single-segment** ids aligned with [`scripts/strategy_expert_corpus.py`](../../../../scripts/strategy_expert_corpus.py) `CANONICAL_EXPERT_IDS`.
+- **`thread:` with multiple hyphen segments** in strategy-notebook: only **non-expert** topic ids in commentary (for example `hormuz-story-fork` in [strategy-commentator-threads.md](strategy-commentator-threads.md) archive prose). Inbox **`thread:<expert_id>`** lines use **single-segment** ids aligned with [`scripts/strategy_expert_corpus.py`](../scripts/strategy_expert_corpus.py) `CANONICAL_EXPERT_IDS`.
 - **`strategy-expert-<a>-<b>-` pattern:** spurious hits are **HTML comment** markers such as `strategy-expert-thread:start`, not legacy `strategy-expert-<given>-<family>-*.md` filenames.
 
 **Re-run:** search for old double-name expert stems if you add new docs; `python3 scripts/validate_expert_profiles.py` from repo root.
@@ -47,4 +47,4 @@ If the submodule directory is missing, skip or update the checkout per instance 
 
 ## Lens-fold verify token
 
-Inbox and transcripts use **`verify:lens-fold+<expert_id>`** (same id as **`thread:<expert_id>`**). Documented in [strategy-expert-template.md](strategy-expert-template.md) (journal layer, *Lens vs lane*) and [.cursor/skills/skill-strategy/SKILL.md](../../../../.cursor/skills/skill-strategy/SKILL.md).
+Inbox and transcripts use **`verify:lens-fold+<expert_id>`** (same id as **`thread:<expert_id>`**). Documented in [strategy-expert-template.md](strategy-expert-template.md) (journal layer, *Lens vs lane*) and [.cursor/skills/skill-strategy/SKILL.md](../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md).

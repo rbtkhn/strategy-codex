@@ -46,7 +46,7 @@ That means:
 - [China helix](../../china/helix.md) is the second transfer case promoted using the established America-plus-Russia proof rather than a fresh architecture redesign
 - [China README](../../china/README.md) now routes to the helix first and to strand objects second
 - the older [China lane-level verification](china-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
-- [Iran helix](../../iran/helix.md) is the third transfer case promoted using the established three-lane proof rather than a fresh architecture redesign
+- [Iran helix](../../persia/helix.md) is the third transfer case promoted using the established three-lane proof rather than a fresh architecture redesign
 - [Iran README](../../../README.md) now routes to the helix first and to strand objects second
 - the older [Iran lane-level verification](iran-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
 

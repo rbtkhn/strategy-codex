@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 28 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-28` → [civilization-28-muhammad-s-revolution-of-god.md](lectures/civilization-28-muhammad-s-revolution-of-god.md)
+- `civ-28` → [civilization-28-muhammad-s-revolution-of-god.md](../lectures/civilization-28-muhammad-s-revolution-of-god.md)
 
 ## Core analysis
 

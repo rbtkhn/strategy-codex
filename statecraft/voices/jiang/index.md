@@ -11,4 +11,4 @@ Open in this order:
 3. [arc-jiang-continuity.md](jiang-arc.md)
 4. [jiang-source-index.md](jiang-source-index.md)
 5. [jiang-support-spine-2026.md](jiang-support-spine-2026.md)
-6. [ph-civ/README.md](../../../README.md)
+6. [../../../public/predictive-history/README.md](../../../README.md)

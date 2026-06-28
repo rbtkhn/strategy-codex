@@ -45,7 +45,7 @@ The complete known `Dialogue Works x Baud` run in 2026 is broader than the curre
 Captured or mirrored on disk:
 
 - 2026-01-06 - [source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md](../../source-archive/statecraft/2026-01-06/source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md)
-- 2026-01-19 - [transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md](../../source-archive/statecraft/2025-01-19/transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md)
+- 2026-01-19 - [transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md](../../codex/years/2025/raw-input/2025-01-19/transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md)
 - 2026-02-02 - [source-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md](../../source-archive/statecraft/2026-02-02/source-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md)
 - 2026-02-16 - [source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md](../../source-archive/statecraft/2026-02-16/source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md)
 - 2026-02-23 - [source-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md](../../source-archive/statecraft/2026-02-23/source-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md)

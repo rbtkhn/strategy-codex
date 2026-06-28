@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 6 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-06` → [secret-history-06-the-psychology-of-evil-graphic-and-disturbing-viewer-discretion-advised.md](lectures/secret-history-06-the-psychology-of-evil-graphic-and-disturbing-viewer-discretion-advised.md)
+- `sh-06` → [secret-history-06-the-psychology-of-evil-graphic-and-disturbing-viewer-discretion-advised.md](../lectures/secret-history-06-the-psychology-of-evil-graphic-and-disturbing-viewer-discretion-advised.md)
 
 ## Core analysis
 

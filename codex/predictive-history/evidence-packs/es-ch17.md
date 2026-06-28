@@ -8,11 +8,11 @@ Book chapter for essay 17 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-17` → [why-i-refuse-to-get-rich.md](substack/essays/why-i-refuse-to-get-rich.md)
+- `es-17` → [why-i-refuse-to-get-rich.md](../substack/essays/why-i-refuse-to-get-rich.md)
 
 ## Core analysis
 
-- `es-17` → [essay-why-i-refuse-to-get-rich-analysis.md](analysis/essay-why-i-refuse-to-get-rich-analysis.md)
+- `es-17` → [essay-why-i-refuse-to-get-rich-analysis.md](../analysis/essay-why-i-refuse-to-get-rich-analysis.md)
 
 ## Key concepts
 

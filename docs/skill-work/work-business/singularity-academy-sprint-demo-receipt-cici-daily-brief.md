@@ -38,10 +38,10 @@ next_step=Use the same receipt shape on the first external sprint and compare in
 
 ## Source basis
 
-- [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
-- [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
-- [cici-ai Daily Brief Quickstart](../work-cici/cici-ai-daily-brief-quickstart.md)
-- [cici-ai Community Dashboard](../work-cici/cici-ai-community-dashboard.md)
+- [cici-ai Daily Telegram Brief](../../../singularity/work-cici/cici-ai-daily-telegram-brief.md)
+- [cici-ai Daily Brief Control-Plane Pilot](../../../singularity/work-cici/cici-ai-daily-brief-control-plane-pilot.md)
+- [cici-ai Daily Brief Quickstart](../../../singularity/work-cici/cici-ai-daily-brief-quickstart.md)
+- [cici-ai Community Dashboard](../../../singularity/work-cici/cici-ai-community-dashboard.md)
 
 ## Boundary
 

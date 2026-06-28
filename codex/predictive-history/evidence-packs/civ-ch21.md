@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 21 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-21` → [civilization-21-the-apology-of-king-david-of-israel.md](lectures/civilization-21-the-apology-of-king-david-of-israel.md)
+- `civ-21` → [civilization-21-the-apology-of-king-david-of-israel.md](../lectures/civilization-21-the-apology-of-king-david-of-israel.md)
 
 ## Core analysis
 

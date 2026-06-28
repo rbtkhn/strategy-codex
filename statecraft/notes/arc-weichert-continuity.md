@@ -11,17 +11,17 @@ WORK only; not Record.
 
 Purpose: define `arc-weichert-continuity` as the canonical person-level continuity surface for Brandon J. Weichert across the bounded **2026 Nawfal Iran-war run** (2026-05-17 through 2026-06-08).
 
-Model note: this is a **seed arc** — one host surface (Nawfal), seven materialized captures, no helix or month ladder yet. It sits above routing and the source bench; AI architecture prose stays in [weichert-on-ai.md](../../notes/weichert-on-ai.md).
+Model note: this is a **seed arc** — one host surface (Nawfal), seven materialized captures, no helix or month ladder yet. It sits above routing and the source bench; AI architecture prose stays in [weichert-on-ai.md](weichert-on-ai.md).
 
 ## Orthogonality guide
 
 Quick separation rule:
 
 - `arc-weichert-continuity` = whole-speaker continuity across the current Nawfal pressure run
-- [weichert-routing.md](weichert-routing.md) = fast task-and-mechanism routing
-- [weichert-profile.md](weichert-profile.md) = identity, voice fingerprint, mechanism table, failure modes
-- [weichert-source-index.md](weichert-source-index.md) = provenance bench and capture route map
-- [weichert-on-ai.md](../../notes/weichert-on-ai.md) = AI / surveillance / kill-chain thematic synthesis (not chronology owner)
+- [weichert-routing.md](../voices/weichert/weichert-routing.md) = fast task-and-mechanism routing
+- [weichert-profile.md](../voices/weichert/weichert-profile.md) = identity, voice fingerprint, mechanism table, failure modes
+- [weichert-source-index.md](../voices/weichert/weichert-source-index.md) = provenance bench and capture route map
+- [weichert-on-ai.md](weichert-on-ai.md) = AI / surveillance / kill-chain thematic synthesis (not chronology owner)
 
 ## Core claim
 
@@ -79,7 +79,7 @@ Do not open Weichert first for wire-grade ORBAT, neutral process memo, or Irania
 | **Weichert × Pape** | hawkish dominance / no durable peace vs middle-game steps and trap clocks |
 | **Weichert × Marandi** | US junior-partner / Israeli rogue vs Iranian red-line and endurance register |
 | **Weichert × Freeman** | command fracture vs gauntlet / disobedience reads on the same rupture days |
-| **Weichert × Ritter × Sachs** | Minab / Palantir / kill-chain stack — see [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
+| **Weichert × Ritter × Sachs** | Minab / Palantir / kill-chain stack — see [trend-china-ai-implementation.md](trend-china-ai-implementation.md#verify-receipts-2026-06-10) |
 
 ## Open first
 
@@ -94,12 +94,12 @@ If the operator needs the May ladder before June climax:
 
 If the operator needs AI architecture on the same arc:
 
-- open [weichert-on-ai.md](../../notes/weichert-on-ai.md) after [2026-06-05](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) or [2026-06-02](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md)
+- open [weichert-on-ai.md](weichert-on-ai.md) after [2026-06-05](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) or [2026-06-02](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md)
 
 ## Boundary
 
 - Do not treat `arc-weichert-continuity` as a substitute for the source index or routing note.
-- Do not collapse AI thematic synthesis into this arc; route architecture days to [weichert-on-ai.md](../../notes/weichert-on-ai.md).
+- Do not collapse AI thematic synthesis into this arc; route architecture days to [weichert-on-ai.md](weichert-on-ai.md).
 - Verify wire-sensitive claims (tanker/ISR participation, vendor-specific Minab nodes, Hebrew clip translations) before claim-grade use — see profile **Failure modes**.
 - Nawfal-only until a second host strand materializes; do not invent multi-host maturity the corpus does not yet support.
 

@@ -27,7 +27,7 @@ April is where the March war threshold turns into settlement failure, Hormuz con
 | 2026-04-17 | Dialogue Works | *Israel's Strategy Just COLLAPSED - Trump Steps In* | [raw-input](../../source-archive/statecraft/2026-04-17/day-index.md) | phony ceasefire / U.S. decay |
 | 2026-04-18 | Glenn Diesen | *Diplomacy Fails - Strait of Hormuz Shut Down Again* | [raw-input](../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) | Hormuz door-vs-padlock / blockade sustainability |
 | 2026-04-21 | Judging Freedom | *US Diplomacy Is Dead - And the World Knows It* | [raw-input](../../source-archive/statecraft/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md) | Islamabad hoax / Hormuz control / clientitis |
-| 2026-04-24 | Dialogue Works | *Israel's Agenda Is Collapsing Faster Than Anyone Expected* | [raw-input](../../years/2026/provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md / [YouTube](https://www.youtube.com/watch?v=fie-q0V82_E) | agenda collapse / Greater Israel failure |
+| 2026-04-24 | Dialogue Works | *Israel's Agenda Is Collapsing Faster Than Anyone Expected* | [raw-input](../../sheets/source-archive-control/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md / [YouTube](https://www.youtube.com/watch?v=fie-q0V82_E) | agenda collapse / Greater Israel failure |
 | 2026-04-28 | Judging Freedom | *What Russia Can Do For Iran* | [raw-input](../../source-archive/statecraft/2026-04-28/source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md) | Russia backing / settlement ordering |
 
 ## Found, Not Yet Canonical

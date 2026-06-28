@@ -8,11 +8,11 @@ Book chapter for Interviews episode 13 — Volume VI Part I; divergence end-box 
 
 ## Core sources
 
-- `vi-13` → [interviews-13-pbd-podcast-772-jiang-xueqin.md](lectures/interviews-13-pbd-podcast-772-jiang-xueqin.md)
+- `vi-13` → [interviews-13-pbd-podcast-772-jiang-xueqin.md](../lectures/interviews-13-pbd-podcast-772-jiang-xueqin.md)
 
 ## Core analysis
 
-- `vi-13` → [Wio--7_GIOs-interviews-13-analysis.md](analysis/Wio--7_GIOs-interviews-13-analysis.md)
+- `vi-13` → [Wio--7_GIOs-interviews-13-analysis.md](../analysis/Wio--7_GIOs-interviews-13-analysis.md)
 
 ## Key concepts
 

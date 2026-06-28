@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 44 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-44` → [civilization-44-the-spanish-conquest-of-the-new-world.md](lectures/civilization-44-the-spanish-conquest-of-the-new-world.md)
+- `civ-44` → [civilization-44-the-spanish-conquest-of-the-new-world.md](../lectures/civilization-44-the-spanish-conquest-of-the-new-world.md)
 
 ## Core analysis
 

@@ -24,7 +24,7 @@ Guest lane holds **Ritter-analytic** moves; Diesen’s interview bridges live in
 
 ### Appendix
 
-- **Full verbatim (capture SSOT):** [provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../years/2026/provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md
+- **Full verbatim (capture SSOT):** [provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../sheets/source-archive-control/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md
 - **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md
 - **`thread:ritter` × `thread:diesen` ·** Host: [../../diesen/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../diesen/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md · **verify:** `pub_date:2026-04-17`
 - **Canonical primary:** unresolved locally; use the linked raw-input capture until the watch URL is pinned.

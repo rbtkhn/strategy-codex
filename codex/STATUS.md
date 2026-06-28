@@ -20,7 +20,7 @@
 | Artifact | Role |
 |----------|------|
 | [gamification-metrics.md](gamification-metrics.md) | Guardrails + meaning of `weave_count` / `seam_integrity` / checklist flags in the legacy on-disk index (legacy page index) v4+ |
-| [`python3 ../../../../scripts/knot_seam_metrics.py`](../../../../scripts/knot_seam_metrics.py) | Read-only: outgoing links to other legacy chapter markdown files vs optional `weave_count` |
+| [`python3 ../../../../scripts/knot_seam_metrics.py`](../scripts/knot_seam_metrics.py) | Read-only: outgoing links to other legacy chapter markdown files vs optional `weave_count` |
 | [forecast-watch-log.md](forecast-watch-log.md) | Monthly / episodic falsifiable metrics (preferred to raw counts) |
 
 ## Expert-thread month segments (skill-strategy pointer)

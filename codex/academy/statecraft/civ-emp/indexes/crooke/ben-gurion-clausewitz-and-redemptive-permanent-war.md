@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Crooke theme in which bounded politi
 
 ## Cybernetic Activation
 
-Crooke-side activation surface: [Ben-Gurion, Clausewitz, and redemptive permanent war](../../../../../speakers/crooke/themes/ben-gurion-clausewitz-and-redemptive-permanent-war.md)
+Crooke-side activation surface: [Ben-Gurion, Clausewitz, and redemptive permanent war](../../../../../../statecraft/voices/crooke/ben-gurion-clausewitz-and-redemptive-permanent-war.md)
 
 ## Backward Historical Question
 

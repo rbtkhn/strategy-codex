@@ -20,6 +20,8 @@ from validate_structured_files import iter_markdown_links  # noqa: E402
 INLINE_LINK_RE = re.compile(r"(\[[^\]]*\]\()([^)]+)(\))")
 WIN_ABS = re.compile(r"/C:/dev/strategy-codex/([^)\s]+)", re.IGNORECASE)
 WIN_ABS2 = re.compile(r"C:\\\\dev\\\\strategy-codex\\\\([^)\s]+)", re.IGNORECASE)
+WIN_ABS3 = re.compile(r"C:\\dev\\strategy-codex\\([^)\s]+)", re.IGNORECASE)
+MAC_HOME = re.compile(r"/Users/[^)\s]+/([^)\s]*strategy-codex[^)\s]*)", re.IGNORECASE)
 
 REPO_ROOT_TARGETS = (
     "statecraft/",
@@ -69,6 +71,18 @@ TARGET_REWRITES: dict[str, str] = {
     "crooke-forecast-ledger-2026.md": (
         "statecraft/voices/crooke/crooke-forecast-ledger-2026.md"
     ),
+    "self-library.md": "archive/grace-mar-instance/self-library.md",
+    "SELF-LIBRARY.md": "archive/grace-mar-instance/self-library.md",
+    "self.md": "archive/grace-mar-instance/self.md",
+    "strategy-codex-template-page.md": "codex/strategy-codex-template-page.md",
+    "work-cici-history.md": "singularity/work-cici/README.md",
+    "STRATEGY-NOTEBOOK-ARCHITECTURE.md": "codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md",
+    "strategy-commentator-threads.md": "codex/strategy-commentator-threads.md",
+    "arc-mercouris-continuity-threads.md": (
+        "statecraft/voices/mercouris/mercouris-arc-threads.md"
+    ),
+    "arc-johnson-continuity.md": "statecraft/voices/johnson/johnson-arc.md",
+    "statecraft.md": "statecraft/README.md",
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -83,6 +97,9 @@ STRATEGY_EXPERT_TRANSCRIPT_RE = re.compile(
     r"^strategy-expert-([a-z0-9-]+)-transcript\.md$"
 )
 SOURCE_BASENAME_INDEX: dict[str, Path] | None = None
+WORK_CICI_BASENAME_INDEX: dict[str, Path] | None = None
+SCAFFOLD_BASENAME_INDEX: dict[str, Path] | None = None
+SCRIPTS_BASENAME_INDEX: dict[str, Path] | None = None
 
 
 def build_source_basename_index() -> dict[str, Path]:
@@ -101,6 +118,38 @@ def get_source_basename_index() -> dict[str, Path]:
     if SOURCE_BASENAME_INDEX is None:
         SOURCE_BASENAME_INDEX = build_source_basename_index()
     return SOURCE_BASENAME_INDEX
+
+
+def _build_flat_index(root: Path, pattern: str = "*.md") -> dict[str, Path]:
+    index: dict[str, Path] = {}
+    if not root.is_dir():
+        return index
+    for path in root.rglob(pattern):
+        if path.is_file():
+            index.setdefault(path.name, path)
+    return index
+
+
+def get_work_cici_basename_index() -> dict[str, Path]:
+    global WORK_CICI_BASENAME_INDEX
+    if WORK_CICI_BASENAME_INDEX is None:
+        WORK_CICI_BASENAME_INDEX = _build_flat_index(REPO_ROOT / "singularity" / "work-cici")
+    return WORK_CICI_BASENAME_INDEX
+
+
+def get_scaffold_basename_index() -> dict[str, Path]:
+    global SCAFFOLD_BASENAME_INDEX
+    if SCAFFOLD_BASENAME_INDEX is None:
+        sheets = REPO_ROOT / "statecraft" / "sheets"
+        SCAFFOLD_BASENAME_INDEX = _build_flat_index(sheets)
+    return SCAFFOLD_BASENAME_INDEX
+
+
+def get_scripts_basename_index() -> dict[str, Path]:
+    global SCRIPTS_BASENAME_INDEX
+    if SCRIPTS_BASENAME_INDEX is None:
+        SCRIPTS_BASENAME_INDEX = _build_flat_index(REPO_ROOT / "scripts", "*.py")
+    return SCRIPTS_BASENAME_INDEX
 
 
 def resolve_legacy_path(path_part: str) -> Path | None:
@@ -169,6 +218,111 @@ def resolve_legacy_path(path_part: str) -> Path | None:
         if candidate.is_file():
             return candidate
 
+    if norm.startswith("statecraft/research/bridges/"):
+        candidate = REPO_ROOT / norm.replace(
+            "statecraft/research/bridges/",
+            "statecraft/bridges/",
+            1,
+        )
+        if candidate.is_file():
+            return candidate
+
+    if re.match(r"2026-\d{2}-\d{2}-.+\.md$", norm):
+        notes_candidate = REPO_ROOT / "statecraft" / "notes" / norm
+        if notes_candidate.is_file():
+            return notes_candidate
+
+    if norm.startswith("ph-civ/"):
+        rewritten = norm.replace("ph-civ/", "public/predictive-history/", 1)
+        candidate = REPO_ROOT / rewritten
+        if candidate.is_file():
+            return candidate
+
+    if "/iran/" in norm or norm.startswith("iran/"):
+        persia_norm = norm.replace("/iran/", "/persia/").replace("iran/", "persia/", 1)
+        candidate = REPO_ROOT / persia_norm
+        if candidate.is_file():
+            return candidate
+
+    if norm.startswith("docs/skill-work/work-cici/"):
+        tail = norm.removeprefix("docs/skill-work/work-cici/")
+        candidate = REPO_ROOT / "singularity" / "work-cici" / tail
+        if candidate.is_file():
+            return candidate
+
+    if "skill-strategy/SKILL.md" in norm.replace("\\", "/"):
+        candidate = REPO_ROOT / "docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md"
+        if candidate.is_file():
+            return candidate
+
+    if norm.endswith("experts/marandi/thread.md") or norm.endswith("marandi/thread.md"):
+        candidate = REPO_ROOT / "statecraft/voices/marandi/marandi-thread.md"
+        if candidate.is_file():
+            return candidate
+
+    if "strategy-notebook/" in norm:
+        rewritten = norm.replace(
+            "docs/skill-work/work-strategy/strategy-notebook/",
+            "codex/",
+        ).replace("strategy-notebook/", "codex/")
+        candidate = REPO_ROOT / rewritten
+        if candidate.is_file():
+            return candidate
+        dep = REPO_ROOT / "docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md"
+        if dep.is_file() and "raw-input" in norm:
+            return dep
+
+    if norm.startswith("provenance/_aired-pending/"):
+        candidate = REPO_ROOT / "source-archive" / "statecraft" / "_aired-pending" / Path(norm).name
+        if candidate.is_file():
+            return candidate
+
+    if "synthesis/persia/transactions/" in norm:
+        rewritten = norm.replace("synthesis/persia/transactions/", "persia/transactions/")
+        candidate = REPO_ROOT / rewritten
+        if candidate.is_file():
+            return candidate
+
+    if "years/2026/provenance/" in norm or norm.startswith("provenance/"):
+        basename = Path(norm).name
+        indexed = get_scaffold_basename_index().get(basename)
+        if indexed is not None:
+            return indexed
+
+    if norm.startswith("public/predictive-history/"):
+        candidate = REPO_ROOT / norm
+        if candidate.is_file():
+            return candidate
+
+    resolved = resolve_by_tail_walk(norm)
+    if resolved is not None:
+        return resolved
+
+    return None
+
+
+def resolve_by_tail_walk(norm: str) -> Path | None:
+    tail = norm.replace("\\", "/").lstrip("./")
+    parts = tail.split("/")
+    for start in range(len(parts)):
+        sub = "/".join(parts[start:])
+        if not sub:
+            continue
+        candidate = REPO_ROOT / sub
+        if candidate.is_file():
+            return candidate
+        basename = Path(sub).name
+        if basename.endswith(".md"):
+            indexed = get_work_cici_basename_index().get(basename)
+            if indexed is not None:
+                return indexed
+            indexed = get_scaffold_basename_index().get(basename)
+            if indexed is not None:
+                return indexed
+        if basename.endswith(".py"):
+            indexed = get_scripts_basename_index().get(basename)
+            if indexed is not None:
+                return indexed
     return None
 
 
@@ -207,6 +361,28 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
         replacements.append(("../america/transactions/", "../../america/transactions/"))
         replacements.append(("../wire/", "../../notes/wire/"))
 
+    if rel.startswith("statecraft/notes/") and "/reentry/" not in rel:
+        replacements.append(("../../america/transactions/", "../america/transactions/"))
+        replacements.append(("../../america/", "../america/"))
+
+    if rel.startswith("statecraft/compact/"):
+        replacements.append(("../../america/transactions/", "../america/transactions/"))
+        replacements.append(("../../america/", "../america/"))
+
+    if rel.startswith("statecraft/states/migration/") or rel.startswith("statecraft/states/"):
+        replacements.append(("../../iran/", "../../persia/"))
+        replacements.append(("../iran/", "../persia/"))
+
+    if rel.startswith("statecraft/"):
+        replacements.append(("notes/notes/", "notes/"))
+        replacements.append(("statecraft/iran/", "statecraft/persia/"))
+        replacements.append(
+            (
+                "synthesis/persia/transactions/",
+                "persia/transactions/",
+            )
+        )
+
     if rel.startswith("statecraft/sheets/source-archive-control/"):
         replacements.append(
             ("../refined-page-template.md", "../../../codex/refined-page-template.md")
@@ -219,6 +395,14 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("strategy-notebook/chapters/", "../../codex/chapters/"),
                 ("strategy-notebook/", "../../codex/"),
                 ("../../codex/chapters/2026-04/", "../../../codex/chapters/2026/2026-04/"),
+                (
+                    "../../.cursor/skills/skill-strategy/SKILL.md",
+                    "../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
+                ),
+                (
+                    "../../../.cursor/skills/skill-strategy/SKILL.md",
+                    "../../SKILL-STRATEGY-DEPRECATED.md",
+                ),
             ]
         )
 
@@ -252,6 +436,63 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("statecraft/voices/"):
         replacements.append(("../../codex/", "../../../codex/"))
 
+    if rel.startswith("statecraft/notes/reentry/"):
+        replacements.append(("../../../america/", "../../america/"))
+
+    if rel.startswith("statecraft/notes/") and "/reentry/" not in rel:
+        replacements.append(("../../notes/", ""))
+        replacements.append(("../../arc-mercouris-continuity.md", "arc-mercouris-continuity.md"))
+        replacements.append(("](../../notes/)", "](../notes/)"))
+        replacements.append(("](crooke-helix.md)", "](../voices/crooke/crooke-helix.md)"))
+        replacements.append(("](macgregor-helix.md)", "](../voices/macgregor/macgregor-helix.md)"))
+        replacements.append(("](mercouris-helix.md)", "](../voices/mercouris/mercouris-helix.md)"))
+
+    if rel.startswith("statecraft/notes/watch/"):
+        replacements.append(("../compact/", "../../compact/"))
+
+    if rel.startswith("statecraft/voices/johnson/"):
+        replacements.append(("arc-johnson-continuity.md", "johnson-arc.md"))
+
+    if rel.startswith("statecraft/voices/ritter/"):
+        replacements.extend(
+            [
+                ("](transcript.md)", "](ritter-transcript.md)"),
+                (
+                    "../../../../../../../../../../../../codex/2026/ritter/ritter-thread.md",
+                    "../../ritter-thread.md",
+                ),
+                (
+                    "../../../../../../../../../../../../codex/2026/ritter/ritter-transcript.md",
+                    "../../ritter-transcript.md",
+                ),
+                (
+                    "../../../../../../../../../../../../codex/experts/ritter/thread.md",
+                    "../../ritter-thread.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("statecraft/voices/jiang/"):
+        replacements.append(("ph-civ/", "../../../public/predictive-history/"))
+
+    if rel.startswith("docs/skill-work/work-business/"):
+        replacements.append(("../work-cici/", "../../singularity/work-cici/"))
+        replacements.append(("../../work-cici/", "../../../singularity/work-cici/"))
+
+    if rel.startswith("docs/skill-work/"):
+        replacements.append(
+            (
+                "../../.cursor/skills/tri-mind/SKILL.md",
+                "../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md",
+            )
+        )
+        replacements.append(
+            (
+                "../../../.cursor/skills/tri-mind/SKILL.md",
+                "../../TRI-MIND-DEPRECATED.md",
+            )
+        )
+
     if rel.startswith(".cursor/skills/") or rel.startswith("skills/"):
         replacements.extend(
             [
@@ -261,8 +502,24 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md",
                 ),
                 (
+                    "../../../docs/skill-work/work-strategy/strategy-notebook/",
+                    "../../../../codex/",
+                ),
+                (
                     "../../../docs/skill-work/work-cici/archive/",
+                    "../../../../singularity/work-cici/",
+                ),
+                (
                     "../../../docs/skill-work/work-cici/",
+                    "../../../../singularity/work-cici/",
+                ),
+                (
+                    "../../.cursor/skills/skill-strategy/SKILL.md",
+                    "../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
+                ),
+                (
+                    "../../../.cursor/skills/skill-strategy/SKILL.md",
+                    "../../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
                 ),
             ]
         )
@@ -270,16 +527,77 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("docs/skill-work/work-dev/dev-notebook/work-cici/"):
         replacements.extend(
             [
-                ("../../work-cici/", "../../../work-cici/"),
-                ("../../../work-cici/work-cici-history.md", "../../work-cici/README.md"),
-                ("../../../work-cici/archive/", "../../../work-cici/"),
+                ("../../../work-cici/", "../../../../../singularity/work-cici/"),
+                ("../../../singularity/work-cici/", "../../../../../singularity/work-cici/"),
+                (
+                    "../../../work-cici/work-cici-history.md",
+                    "../../../../../singularity/work-cici/README.md",
+                ),
+                (
+                    "../../../../../archive/placeholders/evidence",
+                    "../../../../../../singularity/work-cici/archive/placeholders/evidence",
+                ),
             ]
+        )
+
+    if rel.startswith("docs/skill-work/work-cici/"):
+        replacements.append(
+            (
+                "../../../singularity/work-cici/",
+                "../../../../singularity/work-cici/",
+            )
         )
 
     for old, new in replacements:
         if old in text:
             n = text.count(old)
             text = text.replace(old, new)
+            count += n
+    return text, count
+
+
+def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
+    rel = file_path.relative_to(REPO_ROOT).as_posix()
+    count = 0
+    patterns: list[tuple[str, str]] = [
+        (r"statecraft/research/bridges/", "statecraft/bridges/"),
+        (r"ph-civ/book/", "public/predictive-history/book/"),
+    ]
+    if rel.startswith("statecraft/synthesis/day/") or rel.startswith("statecraft/synthesis/month/"):
+        patterns.append((r"\.\./america/transactions/", "../../america/transactions/"))
+    if "dev-notebook/work-cici" in rel:
+        patterns.extend(
+            [
+                (
+                    r"(?:\.\./)+singularity/work-cici/",
+                    "../../../../../singularity/work-cici/",
+                ),
+                (
+                    r"(?:\.\./)+README\.md",
+                    "../../../../../singularity/work-cici/README.md",
+                ),
+            ]
+        )
+    if rel.startswith("statecraft/states/"):
+        patterns.append((r"\.\./\.\./iran/", "../../persia/"))
+    if rel.startswith("statecraft/notes/reentry/"):
+        patterns.append(
+            (r"(?:\.\./)+notes/wire/", "../../notes/wire/"),
+        )
+        patterns.append((r"\.\./\.\./\.\./america/", "../../america/"))
+    if rel.startswith("statecraft/"):
+        patterns.append(
+            (r"(?:\.\./)+years/2026/provenance/", "../../sheets/source-archive-control/"),
+        )
+        patterns.append((r"provenance/_aired-pending/", "../../../source-archive/statecraft/_aired-pending/"))
+    if rel.startswith("statecraft/voices/jiang/"):
+        patterns.append(
+            (r"\]\(public/predictive-history/([^)#]+)\)", r"](../../../public/predictive-history/\1)"),
+        )
+    for pattern, repl in patterns:
+        new_text, n = re.subn(pattern, repl, text)
+        if n:
+            text = new_text
             count += n
     return text, count
 
@@ -346,6 +664,8 @@ def archive_target_for_provenance(date: str, filename: str) -> Path | None:
     for path in day_dir.glob("*.md"):
         name = path.name.lower()
         if stem and (stem in name or name in stem):
+            partial.append(path)
+        elif stem.replace("-verbatim", "") in name or stem.replace("-mercouris", "") in name:
             partial.append(path)
     if len(partial) == 1:
         return partial[0]
@@ -435,6 +755,48 @@ def fix_windows_absolute(text: str, file_path: Path) -> tuple[str, int]:
 
     text = WIN_ABS.sub(repl, text)
     text = WIN_ABS2.sub(repl, text)
+    text = WIN_ABS3.sub(repl, text)
+
+    def mac_repl(match: re.Match[str]) -> str:
+        nonlocal count
+        rest = match.group(1)
+        if rest.startswith("/"):
+            rest = rest.lstrip("/")
+        rel = relative_repo_path(file_path, rest)
+        count += 1
+        return rel
+
+    text = MAC_HOME.sub(mac_repl, text)
+    return text, count
+
+
+def fix_cursor_skills_depth(text: str, file_path: Path) -> tuple[str, int]:
+    """Fix wrong-depth .cursor/skills links under docs/ and skills/."""
+    rel = file_path.relative_to(REPO_ROOT).as_posix()
+    if not (rel.startswith("docs/") or rel.startswith("skills/") or rel.startswith(".cursor/skills/")):
+        return text, 0
+    skills_root = REPO_ROOT / ".cursor" / "skills"
+    if not skills_root.is_dir():
+        return text, 0
+    count = 0
+
+    def repl(match: re.Match[str]) -> str:
+        nonlocal count
+        tail = match.group(1)
+        target = skills_root / tail
+        if not target.is_file():
+            return match.group(0)
+        correct = os.path.relpath(target, file_path.parent.resolve()).replace("\\", "/")
+        if correct == match.group(0)[2:-1]:  # strip ]( and )
+            return match.group(0)
+        count += 1
+        return f"]({correct})"
+
+    text = re.sub(
+        r"\]\((?:\.\./)+\.cursor/skills/([^)]+)\)",
+        repl,
+        text,
+    )
     return text, count
 
 
@@ -495,10 +857,16 @@ def fix_file(path: Path) -> int:
     text, n = fix_agents_depth(text, path)
     total += n
 
+    text, n = fix_cursor_skills_depth(text, path)
+    total += n
+
     text, n = fix_template_routing_prose(text, path)
     total += n
 
     text, n = fix_bulk_text_patterns(text, path)
+    total += n
+
+    text, n = fix_regex_patterns(text, path)
     total += n
 
     # Fix inline markdown links

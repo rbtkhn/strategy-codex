@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 2 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-02` → [great-books-02-homer-and-the-invention-of-the-human.md](lectures/great-books-02-homer-and-the-invention-of-the-human.md)
+- `gb-02` → [great-books-02-homer-and-the-invention-of-the-human.md](../lectures/great-books-02-homer-and-the-invention-of-the-human.md)
 
 ## Core analysis
 
-- `gb-02` → [Ft2CuowGuYc-great-books-02-analysis.md](analysis/Ft2CuowGuYc-great-books-02-analysis.md)
+- `gb-02` → [Ft2CuowGuYc-great-books-02-analysis.md](../analysis/Ft2CuowGuYc-great-books-02-analysis.md)
 
 ## Key concepts
 

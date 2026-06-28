@@ -8,11 +8,11 @@ Book chapter for essay 23 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-23` → [minnesota-burning.md](substack/essays/minnesota-burning.md)
+- `es-23` → [minnesota-burning.md](../substack/essays/minnesota-burning.md)
 
 ## Core analysis
 
-- `es-23` → [essay-minnesota-burning-analysis.md](analysis/essay-minnesota-burning-analysis.md)
+- `es-23` → [essay-minnesota-burning-analysis.md](../analysis/essay-minnesota-burning-analysis.md)
 
 ## Key concepts
 

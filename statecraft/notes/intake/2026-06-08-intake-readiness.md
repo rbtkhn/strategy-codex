@@ -97,7 +97,7 @@ Draft statecraft notes only if the batch supports them:
 - **Davis Lebanon fulcrum × Crooke ceasefire-for-all** — [statecraft note](../2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) ✓
 - **America USS Liberty legitimacy seam × McGovern June 8** — [statecraft note](../2026-06-08-america-uss-liberty-legitimacy-seam.md) ✓
 - **Pape Day 100 × New Phase × Lebanon Fuse** — [statecraft note](../2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) ✓
-- **Marandi deal floor × gate Clauses A–D** — [statecraft note](../2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) ✓ · [gate transaction patched](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [Hormuz cross-link patched](../persia/transactions/hormuz-recognition-transit-transaction.md)
+- **Marandi deal floor × gate Clauses A–D** — [statecraft note](../2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) ✓ · [gate transaction patched](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [Hormuz cross-link patched](../../../codex/academy/statecraft/persia/transactions/hormuz-recognition-transit-transaction.md)
 - **Marandi Hormuz activation × D-HORM-01** — [watch sheet cross-link](../2026-06-08-pape-day-100-indicator-watch-sheet.md#d-horm-01--braid-hormuz-coupling-watch)
 - **Pape Day 100 indicator watch sheet** — [weekly falsifier table](../2026-06-08-pape-day-100-indicator-watch-sheet.md) ✓
 - **Barnes × America capture** (non-intercept, Colby spying, MOU money) — [statecraft note](../2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) ✓

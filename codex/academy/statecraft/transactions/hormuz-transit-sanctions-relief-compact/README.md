@@ -23,7 +23,7 @@ Hormuz disruption creates coercive system leverage. A durable compact has to reo
 - [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing pressure, restraint, and structural limits.
 - [Pape 2026-05-18](../../../../../source-archive/statecraft/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md) for the contraction clock.
 - [Parsi 2026-05-03](../../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md) for proposal / architecture logic.
-- Existing Iran-lane seed: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
+- Existing Iran-lane seed: [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
 
 ## Comparison
 
@@ -31,7 +31,7 @@ Use [comparison.md](comparison.md) after reading the four lane drafts. The compa
 
 ## Authority Split
 
-- Canonical Iran clause: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md)
+- Canonical Iran clause: [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md)
 - Compact Iran view: [iran.md](iran.md) summarizes the lane position for cross-lane comparison; it should not carry a competing standalone clause text.
 - External redlines and comparison logic: [comparison.md](comparison.md)
 

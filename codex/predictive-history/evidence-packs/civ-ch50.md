@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 50 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-50` → [civilization-50-rule-britannia.md](lectures/civilization-50-rule-britannia.md)
+- `civ-50` → [civilization-50-rule-britannia.md](../lectures/civilization-50-rule-britannia.md)
 
 ## Core analysis
 

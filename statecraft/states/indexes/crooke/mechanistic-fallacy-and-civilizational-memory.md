@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Crooke theme in which strategic ac
 
 ## Cybernetic Activation
 
-Crooke-side activation surface: [Mechanistic fallacy and civilizational memory](../../../../speakers/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md)
+Crooke-side activation surface: [Mechanistic fallacy and civilizational memory](../../../voices/crooke/mechanistic-fallacy-and-civilizational-memory.md)
 
 ## Backward Historical Question
 

@@ -21,5 +21,5 @@ The month-level motion is:
 
 ## Best entry surfaces
 
-- [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
+- [parsi-forecast-ledger-2025-2026.md](../voices/parsi/parsi-forecast-ledger-2025-2026.md)
 - [../parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md

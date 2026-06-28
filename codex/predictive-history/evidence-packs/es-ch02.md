@@ -8,11 +8,11 @@ Book chapter for essay 2 — Volume VII Part I; divergence end-box per CHAPTER-D
 
 ## Core sources
 
-- `es-02` → [continuity-of-government-is-a-joke.md](substack/essays/continuity-of-government-is-a-joke.md)
+- `es-02` → [continuity-of-government-is-a-joke.md](../substack/essays/continuity-of-government-is-a-joke.md)
 
 ## Core analysis
 
-- `es-02` → [essay-continuity-of-government-is-a-joke-analysis.md](analysis/essay-continuity-of-government-is-a-joke-analysis.md)
+- `es-02` → [essay-continuity-of-government-is-a-joke-analysis.md](../analysis/essay-continuity-of-government-is-a-joke-analysis.md)
 
 ## Key concepts
 

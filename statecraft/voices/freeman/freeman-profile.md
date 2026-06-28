@@ -1,7 +1,7 @@
 # Strategy expert Ã¢â‚¬â€ `freeman`
 <!-- word_count: 447 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`freeman`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`freeman`** lane.
 
 ## Identity
 
@@ -79,4 +79,4 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ## Automation target
 
-- Public site crawl via [`scripts/backfill_freeman_site_raw_input.py`](../../../../../scripts/backfill_freeman_site_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://chasfreeman.net/ --domain chasfreeman.net --publication chasfreeman.net --thread freeman`.
+- Public site crawl via [`scripts/backfill_freeman_site_raw_input.py`](../../../scripts/backfill_freeman_site_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://chasfreeman.net/ --domain chasfreeman.net --publication chasfreeman.net --thread freeman`.

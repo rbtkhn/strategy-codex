@@ -26,17 +26,17 @@ Freeman repeatedly invokes earlier treaties, armistices, and negotiation histori
 
 ## Exact Quote Anchors
 
-- [2025-01-10 Daniel Davis](../years/2026/provenance/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md
+- [2025-01-10 Daniel Davis](../../sheets/source-archive-control/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md
   > "that would mean applying the precedent of the Austrian State Treaty ... which guaranteed rights to minorities in Austria as it created a neutral Austrian state"
 
-- [2025-03-12 Glenn Diesen](../years/2026/provenance/2025-03-12/source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md
+- [2025-03-12 Glenn Diesen](../../sheets/source-archive-control/2025-03-12/source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md
   > "the approach to the Korean Armistice ... illustrates that a ceasefire is not necessary to reach a settlement"
 
   > "Europeans the last time Europeans did that really well was at the concert of Vienna"
 
   > "after ... pulling out of the jcpoa with the Iranians the Hamas deal and the Minsk agreement ... when agreements aren't honored and they're not trusted anymore it's very difficult to make any possible deals"
 
-- [2025-01-17 Dialogue Works](../years/2026/provenance/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md
+- [2025-01-17 Dialogue Works](../../sheets/source-archive-control/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md
   > "you look back on all of the Israeli negotiations Camp David for example ... you see a common pattern"
 
 ## What Freeman Is Arguing

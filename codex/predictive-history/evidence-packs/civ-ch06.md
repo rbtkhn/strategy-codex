@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 6 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-06` → [civilization-06-elite-overproduction-and-the-bronze-age-collapse.md](lectures/civilization-06-elite-overproduction-and-the-bronze-age-collapse.md)
+- `civ-06` → [civilization-06-elite-overproduction-and-the-bronze-age-collapse.md](../lectures/civilization-06-elite-overproduction-and-the-bronze-age-collapse.md)
 
 ## Core analysis
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 14 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-14` → [civilization-14-hannibal-barca-lucius-brutus-and-the-triumph-of-rome.md](lectures/civilization-14-hannibal-barca-lucius-brutus-and-the-triumph-of-rome.md)
+- `civ-14` → [civilization-14-hannibal-barca-lucius-brutus-and-the-triumph-of-rome.md](../lectures/civilization-14-hannibal-barca-lucius-brutus-and-the-triumph-of-rome.md)
 
 ## Core analysis
 

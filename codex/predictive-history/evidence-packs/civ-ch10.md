@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 10 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-10` → [civilization-10-the-trial-of-socrates-and-platos-allegory-of-the-cave.md](lectures/civilization-10-the-trial-of-socrates-and-platos-allegory-of-the-cave.md)
+- `civ-10` → [civilization-10-the-trial-of-socrates-and-platos-allegory-of-the-cave.md](../lectures/civilization-10-the-trial-of-socrates-and-platos-allegory-of-the-cave.md)
 
 ## Core analysis
 

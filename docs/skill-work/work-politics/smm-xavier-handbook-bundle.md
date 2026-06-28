@@ -728,7 +728,7 @@ Before shipping or merging work-politics candidates, ask:
 7. **Risks** — Missteps; counsel/compliance flags.
 8. **Next week** — Three numbered human-owned priorities.
 
-Align with [generate_wap_weekly_brief](../../../../scripts/generate_wap_weekly_brief.py) / operator weekly rhythm.
+Align with [generate_wap_weekly_brief](../../../scripts/generate_wap_weekly_brief.py) / operator weekly rhythm.
 
 ---
 
@@ -1880,7 +1880,7 @@ python scripts/emit_pipeline_event.py stress_test_passed none brief=weekly-2026-
 ### Related
 
 - [stress-test-brief-template.md](stress-test-brief-template.md)
-- [analytical-lenses/manifest.md](../analytical-lenses/manifest.md) — triangulation; stress-test is **additional** to lenses, not a replacement
+- [analytical-lenses/manifest.md](../../../codex/academy/theology/MANIFEST.md) — triangulation; stress-test is **additional** to lenses, not a replacement
 - [AGENT-SESSION-BRIEF.md](AGENT-SESSION-BRIEF.md) — next-session implementation tasks
 
 ---

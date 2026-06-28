@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 21 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-21` → [secret-history-21-roman-anti-civilization.md](lectures/secret-history-21-roman-anti-civilization.md)
+- `sh-21` → [secret-history-21-roman-anti-civilization.md](../lectures/secret-history-21-roman-anti-civilization.md)
 
 ## Core analysis
 

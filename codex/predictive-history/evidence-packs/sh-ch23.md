@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 23 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-23` → [secret-history-23-the-organization-of-evil.md](lectures/secret-history-23-the-organization-of-evil.md)
+- `sh-23` → [secret-history-23-the-organization-of-evil.md](../lectures/secret-history-23-the-organization-of-evil.md)
 
 ## Core analysis
 

@@ -8,11 +8,11 @@ Book chapter for Interviews episode 5 — Volume VI Part I; divergence end-box p
 
 ## Core sources
 
-- `vi-05` → [interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md](lectures/interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md)
+- `vi-05` → [interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md](../lectures/interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md)
 
 ## Core analysis
 
-- `vi-05` → [uHIdRgFypNo-interviews-05-analysis.md](analysis/uHIdRgFypNo-interviews-05-analysis.md)
+- `vi-05` → [uHIdRgFypNo-interviews-05-analysis.md](../analysis/uHIdRgFypNo-interviews-05-analysis.md)
 
 ## Key concepts
 

@@ -41,9 +41,9 @@ March 2026 is where the Crooke interview strand first locks into a real three-ho
 
 ## Host-local routes
 
-- [Davis x Crooke](../../notes/arc-crooke-davis-host.md
-- [Dialogue Works x Crooke](../../notes/arc-crooke-nima-host.md
-- [Diesen x Crooke](../../notes/arc-crooke-diesen-host.md
+- [Davis x Crooke](arc-crooke-davis-host.md
+- [Dialogue Works x Crooke](arc-crooke-nima-host.md
+- [Diesen x Crooke](arc-crooke-diesen-host.md
 
 ## Boundary
 

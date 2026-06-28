@@ -176,6 +176,8 @@ def _is_template_link(raw: str, detail: str) -> bool:
         return True
     if "YYYY-MM-DD" in combined:
         return True
+    if "{" in combined or "}" in combined:
+        return True
     return False
 
 

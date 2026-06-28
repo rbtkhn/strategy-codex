@@ -133,10 +133,10 @@ Recommended flow:
 | Intended use | Typical trigger | What it does | Primary artifacts / scripts |
 |--------------|-----------------|--------------|-----------------------------|
 | **Work-politics territory pulse** | _(no skill â€” run script)_ | Stale docs, brief blockers, gate rhythm, content queue, campaign-facing next actions. | `python3 scripts/operator_work_politics_pulse.py -u grace-mar` (legacy: `operator_wap_pulse.py`) |
-| **Weekly brief workflow** | `weekly brief` | **Weekly** brief **readiness**, blockers, optional scaffold generation (not the daily generator). | [weekly-brief-run SKILL](../../.cursor/skills/weekly-brief-run/SKILL.md); `operator_weekly_brief_run.py` |
-| **Strategy pass** (`skill-strategy`) | **`strategy`**, **`strategy pass`**, **`work-strategy`** | Cross-territory **judgment** slice: **[../../../codex/](../../../codex/README.md)** first (daily/monthly blocks), then [STRATEGY.md](STRATEGY.md) when promoting watches/log; Islamabad / Rome threads, weak-signal and [analogy-audit](analogy-audit-template.md) flags â€” **not** the pulse script or weekly brief runner. | [../../../codex/](../../../codex/README.md), [STRATEGY.md](STRATEGY.md); [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md) |
+| **Weekly brief workflow** | `weekly brief` | **Weekly** brief **readiness**, blockers, optional scaffold generation (not the daily generator). | [weekly-brief-run SKILL](../../../.cursor/skills/weekly-brief-run/SKILL.md); `operator_weekly_brief_run.py` |
+| **Strategy pass** (`skill-strategy`) | **`strategy`**, **`strategy pass`**, **`work-strategy`** | Cross-territory **judgment** slice: **[../../../codex/](../../../codex/README.md)** first (daily/monthly blocks), then [STRATEGY.md](STRATEGY.md) when promoting watches/log; Islamabad / Rome threads, weak-signal and [analogy-audit](analogy-audit-template.md) flags â€” **not** the pulse script or weekly brief runner. | [../../../codex/](../../../codex/README.md), [STRATEGY.md](STRATEGY.md); [skill-strategy SKILL](../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) |
 
-**Coffee** [Compass](../../.cursor/skills/coffee/SKILL.md) (**C**) can include **work-strategy-rome** (ROME-PASS) but is a **session hub**, not a full strategy pass.
+**Coffee** [Compass](../../../.cursor/skills/coffee/SKILL.md) (**C**) can include **work-strategy-rome** (ROME-PASS) but is a **session hub**, not a full strategy pass.
 
 ### Strategy session helpers (`skill-strategy`)
 
@@ -152,7 +152,7 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | [../../../codex/trump-religion-papacy-arc.md](../../../codex/trump-religion-papacy-arc.md) | **Trump â†” Christianity / papacy / religion** arc (anchor 2016â†’); placement for **Trumpâ€“Leo** / **`narrative-escalation`** ingests. |
 | [../../../codex/rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) | Append-only **legitimacy-plane** falsifiers (Romeâ€“Tehran wedge); orthogonal to Hormuz/Islamabad **hard security**. |
 | [../../../codex/narrative-escalation-trump-timeline.md](../../../codex/narrative-escalation-trump-timeline.md) | **Stub** â€” canonical content moved to [trump-religion-papacy-arc.md](../../../codex/trump-religion-papacy-arc.md). |
-| [skill-strategy / SKILL](../../../.cursor/skills/skill-strategy/SKILL.md) | Â§ **Narrative escalation**, optional **retroactive spine**, **Modes** (Capture / Weave / Promote). |
+| [skill-strategy / SKILL](SKILL-STRATEGY-DEPRECATED.md) | Â§ **Narrative escalation**, optional **retroactive spine**, **Modes** (Capture / Weave / Promote). |
 
 ---
 
@@ -200,7 +200,7 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | **[current-events-analysis.md](current-events-analysis.md)** | Standard workflow for converting live events into disciplined strategy judgment: Perceiver (neutral fact summary) â†’ verify seam â†’ event classification â†’ case-index check â†’ energy-chokepoint hook â†’ analyst (structured breakdown) â†’ resonance note or analogy audit â†’ watch-support decision â†’ decision-point trigger â†’ three minds â†’ synthesis â†’ optional deliberation receipt. 11 sections including failure modes and operator checklist. **WORK only**. |
 | **[STRATEGY.md](STRATEGY.md)** | WORK-only ledger: CORE / **Â§II-A active watches** / SCHOLAR / **Â§III-A analogy watchlist** / **Â§IV operator strategy log** (additive notes in-file; not CMC `MEMâ€“*` shards); not Record. |
 | **[../../../codex/](../../../codex/README.md)** | **Page-first operator notebook** for strategy judgment â€” knots are atomic pages; `days.md` = chronology; PH-style month chapters (`chapters/YYYY-MM/`), [architecture](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md), [STATUS](../../../codex/STATUS.md); **`### History resonance`** wires [history-notebook](history-notebook/README.md) chapter ids into knots. Not [work-strategy-history](work-strategy-history.md). WORK only. |
-| **[theology-notebook/](theology-notebook/README.md)** | **Theology** â€” define the operatorâ€™s own beliefs through **writing** the book; [`docs/skill-work/work-strategy/theology-notebook/`](../../../self-library.md#operator-analytical-books); [research](theology-notebook/research/), [ideas](theology-notebook/ideas/); **not** a substitute for governed theology entries in the library surface (legacy path: `self-library.md`). WORK only. |
+| **[theology-notebook/](theology-notebook/README.md)** | **Theology** â€” define the operatorâ€™s own beliefs through **writing** the book; [`docs/skill-work/work-strategy/theology-notebook/`](../../../archive/grace-mar-instance/self-library.md#operator-analytical-books); [research](theology-notebook/research/), [ideas](theology-notebook/ideas/); **not** a substitute for governed theology entries in the library surface (legacy path: `self-library.md`). WORK only. |
 | **[../../../codex/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)** | **SSOT** for **X / strategy ingest** scratch: cadence, **paste-ready one-liner** shape, default assistant target. Weave at **dream** â†’ `days.md` ([architecture](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *Daily strategy inbox*). |
 | **[LEARN_MODE_RULES.md](LEARN_MODE_RULES.md)** | LEARN MODE adapter: Tri-Frame protocol, extraction format, governance aligned with STRATEGY Â§VI. |
 | **[LEARN_MODE_OPERATOR_PROMPT.md](LEARN_MODE_OPERATOR_PROMPT.md)** | Copy-paste operator / Composer prompt for work-strategy sessions and LEARN MODE. |
@@ -264,7 +264,7 @@ Default config path: `docs/skill-work/work-strategy/daily-brief-config.json`.
 
 **Same-story grouping:** After ranking, items can be clustered by anchor overlap on `title + link` (default anchor list in the script; optional `story_anchor_phrases` in JSON extends it). This is **not** semantic dedupeâ€”raise `jaccard_min` / `min_shared_anchors` if clusters feel loose; disable via config `story_dedupe.enabled: false` or CLI `--no-story-dedupe`.
 
-**Operator habit:** Starting Cursor with **`coffee`** runs warmup in [.cursor/skills/coffee/SKILL.md](../../.cursor/skills/coffee/SKILL.md) (see archive/grace-mar-instance/bootstrap); legacy **`hey`** still works. **Generating** today's daily brief to `docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md` is **coffee menu C â€” Strategy (daily brief)** â€” Step 1 does **not** run the generator.
+**Operator habit:** Starting Cursor with **`coffee`** runs warmup in [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md) (see archive/grace-mar-instance/bootstrap); legacy **`hey`** still works. **Generating** today's daily brief to `docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md` is **coffee menu C â€” Strategy (daily brief)** â€” Step 1 does **not** run the generator.
 
 ### Daily brief mind overlays
 

@@ -8,11 +8,11 @@ Book chapter for Interviews episode 11 — Volume VI Part I; divergence end-box 
 
 ## Core sources
 
-- `vi-11` → [interviews-11-tucker-carlson-iran-war-and-global-order.md](lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)
+- `vi-11` → [interviews-11-tucker-carlson-iran-war-and-global-order.md](../lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)
 
 ## Core analysis
 
-- `vi-11` → [2K2nQsTTjQE-interviews-11-analysis.md](analysis/2K2nQsTTjQE-interviews-11-analysis.md)
+- `vi-11` → [2K2nQsTTjQE-interviews-11-analysis.md](../analysis/2K2nQsTTjQE-interviews-11-analysis.md)
 
 ## Key concepts
 

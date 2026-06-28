@@ -41,11 +41,11 @@ This note uses those two verdict levels on purpose:
 
 ## Objects Under Review
 
-- [Iran state memory](../../iran/civilization/objects/state-memory.md)
-- [Iran geo](../../iran/civilization/geo.md)
-- [Iran war](../../iran/civilization/war.md)
-- [Iran peace](../../iran/civilization/peace.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran state memory](../../persia/civilization/objects/state-memory.md)
+- [Iran geo](../../persia/civilization/geo.md)
+- [Iran war](../../persia/civilization/war.md)
+- [Iran peace](../../persia/civilization/peace.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)
 
 Routing surfaces:
 
@@ -75,12 +75,12 @@ Control-plane evidence:
 
 | Family | Iran carrier |
 | --- | --- |
-| `what makes a settlement real rather than theatrical` | [Iran peace](../../iran/civilization/peace.md) plus the Iran empire-side deterrent / relief carrier |
-| `when does a pressured hegemon misread its own power, limits, or durability` | [Iran state memory](../../iran/civilization/objects/state-memory.md) and [Iran empire instrument](../../iran/empire/seed-instruments.md) |
-| `when do older strategic memories continue to constrain present actors` | [Iran state memory](../../iran/civilization/objects/state-memory.md) and [Iran geo](../../iran/civilization/geo.md) |
-| `when does coercion fail to convert into the political outcome it claims to serve` | [Iran war](../../iran/civilization/war.md) and [Iran empire instrument](../../iran/empire/seed-instruments.md) |
-| `when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits` | [Iran war](../../iran/civilization/war.md) |
-| `how does remembered exclusion shape the politics of direct great-power settlement` | [Iran geo](../../iran/civilization/geo.md) and [Iran peace](../../iran/civilization/peace.md) |
+| `what makes a settlement real rather than theatrical` | [Iran peace](../../persia/civilization/peace.md) plus the Iran empire-side deterrent / relief carrier |
+| `when does a pressured hegemon misread its own power, limits, or durability` | [Iran state memory](../../persia/civilization/objects/state-memory.md) and [Iran empire instrument](../../persia/empire/seed-instruments.md) |
+| `when do older strategic memories continue to constrain present actors` | [Iran state memory](../../persia/civilization/objects/state-memory.md) and [Iran geo](../../persia/civilization/geo.md) |
+| `when does coercion fail to convert into the political outcome it claims to serve` | [Iran war](../../persia/civilization/war.md) and [Iran empire instrument](../../persia/empire/seed-instruments.md) |
+| `when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits` | [Iran war](../../persia/civilization/war.md) |
+| `how does remembered exclusion shape the politics of direct great-power settlement` | [Iran geo](../../persia/civilization/geo.md) and [Iran peace](../../persia/civilization/peace.md) |
 
 ## Verdict
 
@@ -113,5 +113,5 @@ This confirms that the America/Russia/China lane-level distinction is not lane-s
 ## Next Iran Maturity Work
 
 - preserve the current Iran lane as the fourth maturity-complete proving case and use it as the reference for later cross-lane synthesis work
-- deepen [Iran war](../../iran/civilization/war.md) or [Iran state memory](../../iran/civilization/objects/state-memory.md) further only if later family-synthesis work shows they need more answer-capacity, not because the lane still fails the maturity bar
+- deepen [Iran war](../../persia/civilization/war.md) or [Iran state memory](../../persia/civilization/objects/state-memory.md) further only if later family-synthesis work shows they need more answer-capacity, not because the lane still fails the maturity bar
 - move the control plane toward post-Phase-1C work: lane-set verification, cross-lane canonical-family synthesis, and volume-level orientation/retrieval surfaces

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 59 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-59` → [civilization-59-the-man-of-steel.md](lectures/civilization-59-the-man-of-steel.md)
+- `civ-59` → [civilization-59-the-man-of-steel.md](../lectures/civilization-59-the-man-of-steel.md)
 
 ## Core analysis
 

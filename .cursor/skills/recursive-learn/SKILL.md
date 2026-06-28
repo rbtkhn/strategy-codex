@@ -47,7 +47,7 @@ Extract **reusable drafting, routing, or architectural law** from a session — 
 
 **Thin invokes (usually skip):** one-off typo, restated plan prose, conductor ritual with no behavior change, productivity praise.
 
-**Not for:** [elicit-knowledge](../../.cursor/skills/elicit-knowledge/SKILL.md) · [skill-elicitation](../../.cursor/skills/skill-elicitation/SKILL.md) · [conductor](../../.cursor/skills/conductor/SKILL.md) execution (outcomes may feed RLJ).
+**Not for:** [elicit-knowledge](../elicit-knowledge/SKILL.md) · [skill-elicitation](../skill-elicitation/SKILL.md) · [conductor](../conductor/SKILL.md) execution (outcomes may feed RLJ).
 
 ## Elicitation pipeline
 
@@ -57,7 +57,7 @@ skill-elicitation (rank/judgment BEFORE encoding)
   → recursive-learn (machine law AFTER encoding)
 ```
 
-Cross-link [skill-elicitation](../../.cursor/skills/skill-elicitation/SKILL.md) — RLJ does not replace elicitation MCQs.
+Cross-link [skill-elicitation](../skill-elicitation/SKILL.md) — RLJ does not replace elicitation MCQs.
 
 **Anti-pattern:** Do not invoke RLJ when operator judgment is still unlocked — use elicitation or plan MCQs first. RLJ runs after encoding, not instead of it.
 
@@ -453,7 +453,7 @@ Order: conductor close first (`coffee_conductor_outcome` or [CONDUCTOR-CLOSE-TEM
 Machine law from today's {object} ship is drafted but not appended — confirm append or promote on next Reframe.
 ```
 
-[`tomorrow_inherits` wins](../../../.cursor/skills/dream/SKILL.md) over coffee learning-action hints when they conflict.
+[`tomorrow_inherits` wins](../dream/SKILL.md) over coffee learning-action hints when they conflict.
 
 - If RLJ already ran during signing-off coffee D Reframe, dream should not re-offer review — only surface deferred append.
 

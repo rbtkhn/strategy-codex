@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 14 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-14` → [game-theory-14-the-law-of-proximity.md](lectures/game-theory-14-the-law-of-proximity.md)
+- `gt-14` → [game-theory-14-the-law-of-proximity.md](../lectures/game-theory-14-the-law-of-proximity.md)
 
 ## Core analysis
 
-- `gt-14` → [nOQqGy4boBY-game-theory-14-analysis.md](analysis/nOQqGy4boBY-game-theory-14-analysis.md)
+- `gt-14` → [nOQqGy4boBY-game-theory-14-analysis.md](../analysis/nOQqGy4boBY-game-theory-14-analysis.md)
 
 ## Key concepts
 

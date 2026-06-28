@@ -74,7 +74,7 @@
 1. `daily-strategy-inbox.md` (tail)
 2. `experts/mercouris/thread.md` and `experts/mearsheimer/thread.md`
 3. `chapters/2026-04/days.md` (tail for continuity)
-4. [EOD-MCQ-PROTOCOL.md](../EOD-MCQ-PROTOCOL.md) — run menus
+4. [EOD-MCQ-PROTOCOL.md](../../EOD-MCQ-PROTOCOL.md) — run menus
 
 ## Guardrails
 

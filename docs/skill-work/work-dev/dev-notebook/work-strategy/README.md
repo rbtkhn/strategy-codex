@@ -21,9 +21,9 @@
 
 - [work-strategy README (identity, default path)](../../../work-strategy/README.md)  
 - [DEFAULT-PATH.md](../../../work-strategy/DEFAULT-PATH.md)  
-- [STRATEGY-NOTEBOOK-ARCHITECTURE (SSOT path)](../../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md)  
+- [STRATEGY-NOTEBOOK-ARCHITECTURE (SSOT path)](../../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md)  
 - [strategy-notebook README](../../../work-strategy/strategy-notebook/README.md)  
-- [skill-strategy](../../../../../.cursor/skills/skill-strategy/SKILL.md) (Cursor)  
+- [skill-strategy](../../../work-strategy/SKILL-STRATEGY-DEPRECATED.md) (Cursor)  
 - [OB1 / stack map](../../../../../docs/platform/integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) (optional)  
 
 ## Hooks and policy (tight list)

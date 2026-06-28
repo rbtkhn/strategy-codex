@@ -8,11 +8,11 @@ Book chapter for essay 8 — Volume VII Part I; divergence end-box per CHAPTER-D
 
 ## Core sources
 
-- `es-08` → [the-secret-history-of-the-world-5.md](substack/essays/the-secret-history-of-the-world-5.md)
+- `es-08` → [the-secret-history-of-the-world-5.md](../substack/essays/the-secret-history-of-the-world-5.md)
 
 ## Core analysis
 
-- `es-08` → [essay-the-secret-history-of-the-world-5-analysis.md](analysis/essay-the-secret-history-of-the-world-5-analysis.md)
+- `es-08` → [essay-the-secret-history-of-the-world-5-analysis.md](../analysis/essay-the-secret-history-of-the-world-5-analysis.md)
 
 ## Key concepts
 

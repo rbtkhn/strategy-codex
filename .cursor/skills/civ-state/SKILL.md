@@ -307,7 +307,7 @@ Hand off to [state-synthesis](../state-synthesis/SKILL.md).
 **Operator second:**
 
 6. [statecraft/voices/](../../../statecraft/voices/)
-7. [statecraft/research/bridges/](../../../research/bridges)
+7. [statecraft/bridges/](../../../research/bridges)
 8. [ph-civ-to-civ-state-bridge.md](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
 9. [ph-civ-promotion-ledger.md](../../../statecraft/states/ph-civ-promotion-ledger.md)
 10. [review-queue.md](../../../statecraft/states/review-queue.md)

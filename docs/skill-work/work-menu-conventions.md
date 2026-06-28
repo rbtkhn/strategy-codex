@@ -82,7 +82,7 @@ Keep menu letters as UI conveniences. Durable logs should still use conductor sl
 - The operator may answer **`A+C`** (or similar); the assistant executes both compatible branches.
 - When two options combine naturally, you may add one line: **Combo:** `B + half of D` â€” *brief label explaining the merge* (still one human pick; do not develop the combo content until selected).
 - **`F` â€” All (strategy-notebook hygiene bundle):** In one pass â€” (1) **verify hooks** / Primary-pull targets in `daily-strategy-inbox.md`, (2) **MINDS** cross-pointer to dated mind-file addenda (e.g. `CIV-MIND-MERCOURIS.md` **III.M**), (3) **Carry** lines that tie inbox â†” mind. **Exclude** weaving scratch into `chapters/YYYY-MM/days.md` unless **`dream`** or **explicit operator direction** â€” early **weave** risks duplicate **Judgment** before **Links** verify.
-- **`strategy + verify`** â€” **Work-strategy** fork: same intent as **`strategy`** / **`strategy ingest`**, plus a **triage fact-check** ([`.cursor/skills/fact-check/SKILL.md`](../../.cursor/skills/fact-check/SKILL.md)) and/or **web pass** on **load-bearing** claims â€” especially **rosters**, **dates**, and **stats** from **transcripts**. Land outcomes in **`daily-strategy-inbox.md`** (**`verify:`**, **Primary pulls**) and, when folding, **`### Web verification`** / **`### References`** in `days.md` â€” not **`### Reflection`** without sources. Spec: [`.cursor/skills/skill-strategy/SKILL.md`](../../.cursor/skills/skill-strategy/SKILL.md) (**Modes** â†’ **+ verify**, **Transcript / analyst capture**); architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *skill-strategy modes and verification passes*.
+- **`strategy + verify`** â€” **Work-strategy** fork: same intent as **`strategy`** / **`strategy ingest`**, plus a **triage fact-check** ([`.cursor/skills/fact-check/SKILL.md`](../../.cursor/skills/fact-check/SKILL.md)) and/or **web pass** on **load-bearing** claims â€” especially **rosters**, **dates**, and **stats** from **transcripts**. Land outcomes in **`daily-strategy-inbox.md`** (**`verify:`**, **Primary pulls**) and, when folding, **`### Web verification`** / **`### References`** in `days.md` â€” not **`### Reflection`** without sources. Spec: [`.cursor/skills/skill-strategy/SKILL.md`](work-strategy/SKILL-STRATEGY-DEPRECATED.md) (**Modes** â†’ **+ verify**, **Transcript / analyst capture**); architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *skill-strategy modes and verification passes*.
 
 ---
 
@@ -137,7 +137,7 @@ python3 scripts/log_strategy_fold.py -u grace-mar --notebook-date 2026-04-13 --f
 python3 scripts/report_strategy_fold_learning.py -u grace-mar --days 30
 ```
 
-Spec: [FOLD-LEARNING.md](work-strategy/strategy-notebook/FOLD-LEARNING.md).
+Spec: [FOLD-LEARNING.md](../../codex/FOLD-LEARNING.md).
 
 **Strategy context (cold start):** `python3 scripts/strategy_context.py -u grace-mar` prints one **â‰¤120-word** re-entry paragraph (notebook **Open**, inbox, daily brief Â§1b, STRATEGY / promotion ladder / commentator index) or **`--compact`** path/status lines; **`--meta`** / **`--minds`** add month **`meta.md`** and Tri-Frame **`minds/outputs`** pointers; **`--recent N`** or **`--history`** (N=20) appends **lightweight history** (fold JSONL + filtered WORK-choice + optional **`--recent-git K`**); **`--log`** appends a **`WORK-choice`** receipt to **`session-transcript.md`** via `log_operator_choice.py` (pointer-only note). See [work-strategy README â€” `strategy-context`](work-strategy/README.md#strategy-session-helpers-skill-strategy).
 
@@ -207,10 +207,10 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 ## See also
 
 - **Menu benefit clause (always-on):** [`.cursor/rules/menu-option-benefits.mdc`](../../.cursor/rules/menu-option-benefits.mdc) · §1b above
-- **`strategy + verify`** (named fork) — §4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md).
-- **Fixed session menu (`coffee` - same **A-D** hub for work-start and signing-off; legacy **hey** still works):** not the 3-5 WORK pattern - canonical hub: **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. Coffee **C** then routes into the four civilizational-state lanes America, China, Persia, and Russia. Conductor is standalone by `conductor` / master name, not a hub letter. **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B - Engineer**. Legacy **A-G** workload table for mapping: [menu-reference.md](../work-coffee/menu-reference.md). Roles: [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md).
+- **`strategy + verify`** (named fork) — §4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](work-strategy/SKILL-STRATEGY-DEPRECATED.md).
+- **Fixed session menu (`coffee` - same **A-D** hub for work-start and signing-off; legacy **hey** still works):** not the 3-5 WORK pattern - canonical hub: **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. Coffee **C** then routes into the four civilizational-state lanes America, China, Persia, and Russia. Conductor is standalone by `conductor` / master name, not a hub letter. **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B - Engineer**. Legacy **A-G** workload table for mapping: [menu-reference.md](../work-coffee/menu-reference.md). Roles: [.cursor/skills/coffee/SKILL.md](../../.cursor/skills/coffee/SKILL.md).
 - [Operatorâ€“agent lanes](../../operator-agent-lanes.md)
-- [Coffee skill](../../../.cursor/skills/coffee/SKILL.md)
+- [Coffee skill](../../.cursor/skills/coffee/SKILL.md)
 - [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
 - [Bootstrap â€” coffee](../../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md)
 - [Date and time formats](../date-time-conventions.md)

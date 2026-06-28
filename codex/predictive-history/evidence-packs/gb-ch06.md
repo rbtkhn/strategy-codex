@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 6 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-06` → [great-books-06-the-intimacy-of-love.md](lectures/great-books-06-the-intimacy-of-love.md)
+- `gb-06` → [great-books-06-the-intimacy-of-love.md](../lectures/great-books-06-the-intimacy-of-love.md)
 
 ## Core analysis
 
-- `gb-06` → [aS-NfPSPMu8-great-books-06-analysis.md](analysis/aS-NfPSPMu8-great-books-06-analysis.md)
+- `gb-06` → [aS-NfPSPMu8-great-books-06-analysis.md](../analysis/aS-NfPSPMu8-great-books-06-analysis.md)
 
 ## Key concepts
 

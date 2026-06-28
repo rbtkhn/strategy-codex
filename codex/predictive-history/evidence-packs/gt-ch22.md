@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 22 — warfare typology (nation-state → 2
 
 ## Core sources
 
-- `gt-22` → [game-theory-22-twilight-of-the-nation-state.md](lectures/game-theory-22-twilight-of-the-nation-state.md)
+- `gt-22` → [game-theory-22-twilight-of-the-nation-state.md](../lectures/game-theory-22-twilight-of-the-nation-state.md)
 
 ## Core analysis
 
-- `gt-22` → [txgPfnXgzcE-game-theory-22-analysis.md](analysis/txgPfnXgzcE-game-theory-22-analysis.md)
+- `gt-22` → [txgPfnXgzcE-game-theory-22-analysis.md](../analysis/txgPfnXgzcE-game-theory-22-analysis.md)
 
 ## Key concepts
 

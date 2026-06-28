@@ -88,7 +88,7 @@ Order: conductor close first (`coffee_conductor_outcome` or [CONDUCTOR-CLOSE-TEM
 Machine law from today's {object} ship is drafted but not appended — confirm append or promote on next Reframe.
 ```
 
-[`tomorrow_inherits` wins](../../../.cursor/skills/dream/SKILL.md) over coffee learning-action hints when they conflict.
+[`tomorrow_inherits` wins](../dream/SKILL.md) over coffee learning-action hints when they conflict.
 
 - If RLJ already ran during signing-off coffee D Reframe, dream should not re-offer review — only surface deferred append.
 

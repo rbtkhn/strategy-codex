@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 8 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-08` → [civilization-08-rat-utopia-and-the-peloponnesian-war.md](lectures/civilization-08-rat-utopia-and-the-peloponnesian-war.md)
+- `civ-08` → [civilization-08-rat-utopia-and-the-peloponnesian-war.md](../lectures/civilization-08-rat-utopia-and-the-peloponnesian-war.md)
 
 ## Core analysis
 

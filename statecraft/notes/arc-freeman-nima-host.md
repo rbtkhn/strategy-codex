@@ -37,7 +37,7 @@ For the full March Freeman run, open [arc-march-2026-cross-host-freeman-host.md]
 2. [source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
    Best early mature file. Strong on phony ceasefire language, attritional diplomacy, NATO strain, Armenia exposure, and the performative quality of U.S. negotiations.
 
-3. [transcript-freeman.md](../../source-archive/statecraft/2026-04-17/transcript-freeman.md)
+3. [transcript-freeman.md](../sheets/source-archive-residue/2026-04-17/transcript-freeman.md)
    Best first host-stream capture. More provisional than the later cleaned files, but important for establishing the original Dialogue Works Freeman contour around Hormuz, GCC hedge, and U.S. decay.
 
 ### 2025 densification

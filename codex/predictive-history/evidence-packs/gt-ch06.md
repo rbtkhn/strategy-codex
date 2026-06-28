@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 6 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-06` → [game-theory-06-the-worlds-bank.md](lectures/game-theory-06-the-worlds-bank.md)
+- `gt-06` → [game-theory-06-the-worlds-bank.md](../lectures/game-theory-06-the-worlds-bank.md)
 
 ## Core analysis
 
-- `gt-06` → [CbamEcNuDXo-game-theory-06-analysis.md](analysis/CbamEcNuDXo-game-theory-06-analysis.md)
+- `gt-06` → [CbamEcNuDXo-game-theory-06-analysis.md](../analysis/CbamEcNuDXo-game-theory-06-analysis.md)
 
 ## Key concepts
 

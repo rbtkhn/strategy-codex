@@ -19,7 +19,7 @@ Freeman should be read as a mature person-arc-first speaker object:
 
 Open alongside:
 
-- [freeman-routing.md](freeman-routing.md)
-- [freeman-source-index.md](freeman-source-index.md)
-- [freeman-helix.md](freeman-helix.md)
-- [freeman-support-spine-2025-2026.md](freeman-support-spine-2025-2026.md)
+- [freeman-routing.md](../voices/freeman/freeman-routing.md)
+- [freeman-source-index.md](../voices/freeman/freeman-source-index.md)
+- [freeman-helix.md](../voices/freeman/freeman-helix.md)
+- [freeman-support-spine-2025-2026.md](../voices/freeman/freeman-support-spine-2025-2026.md)

@@ -92,7 +92,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether a target can actually be penetrated, intercepted, or destroyed rather than what that means for wider strategic stability, route outward to [arc-postol-davis-host.md](../../notes/arc-postol-davis-host.md.
+- If the question is mainly about whether a target can actually be penetrated, intercepted, or destroyed rather than what that means for wider strategic stability, route outward to [arc-postol-davis-host.md](arc-postol-davis-host.md.
 
 - Postol is strongest here on technical correction and deterrence consequence, not on bargaining-room diplomacy or domestic process.
 - This arc is clearly real in the stream, but most of it is still not materialized to canonical raw-input on disk.

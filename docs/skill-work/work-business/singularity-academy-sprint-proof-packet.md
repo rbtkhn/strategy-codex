@@ -32,7 +32,7 @@ Every item in this packet should answer one of three questions:
 ### 2. Control-plane proof
 
 - [Agent control plane](../../../essays/agent-control-plane.md)
-- [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
+- [cici-ai Daily Brief Control-Plane Pilot](../../../singularity/work-cici/cici-ai-daily-brief-control-plane-pilot.md)
 
 What it proves:
 
@@ -40,7 +40,7 @@ What it proves:
 
 ### 3. Reporting proof
 
-- [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
+- [cici-ai Daily Telegram Brief](../../../singularity/work-cici/cici-ai-daily-telegram-brief.md)
 - [Singularity-Academy Sprint Demo Case Study - cici-ai Daily Brief](singularity-academy-sprint-demo-case-study-cici-daily-brief.md)
 - [Singularity-Academy Sprint Demo Receipt - cici-ai Daily Brief](singularity-academy-sprint-demo-receipt-cici-daily-brief.md)
 
@@ -52,8 +52,8 @@ What it proves:
 ### 4. Beginner-safe workflow proof
 
 - [Apprentice Studio - 30-Day Pilot](../../../essays/apprentice-studio-30-day-pilot.md)
-- [Apprentice Studio Pilot Ops](../work-cici/apprentice-studio-pilot-ops.md)
-- [cici-ai First Task Proof Packet](../work-cici/cici-ai-first-task-proof-packet.md)
+- [Apprentice Studio Pilot Ops](../../../singularity/work-cici/apprentice-studio-pilot-ops.md)
+- [cici-ai First Task Proof Packet](../../../singularity/work-cici/cici-ai-first-task-proof-packet.md)
 
 What it proves:
 

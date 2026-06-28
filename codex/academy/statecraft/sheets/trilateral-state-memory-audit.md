@@ -49,8 +49,8 @@ Score each lane out of 100.
 ### Iran
 
 - **Memory:** [Iran state memory](../iran/civilization/objects/state-memory.md) defines sovereignty under pressure, dignity, siege endurance, 1953 guarantee-distrust, Iran-Iraq martyrdom, sanctions, and compute-siege autonomy.
-- **Current carriers:** [Authority structure](../iran/state/authority-structure.md), [Supreme Leader](../iran/state/supreme-leader.md), [president / government](../iran/state/president-government.md), and [IRGC](../iran/state/irgc.md) must align for a settlement to carry.
-- **Transmitter:** [Araghchi](../iran/state/objects/araghchi.md) translates sanctions relief, nuclear rights, dignity, transit leverage, and regional architecture.
+- **Current carriers:** [Authority structure](../persia/state/authority-structure.md), [Supreme Leader](../persia/state/supreme-leader.md), [president / government](../persia/state/president-government.md), and [IRGC](../persia/state/irgc.md) must align for a settlement to carry.
+- **Transmitter:** [Araghchi](../persia/state/objects/araghchi.md) translates sanctions relief, nuclear rights, dignity, transit leverage, and regional architecture.
 - **Transaction utility:** strongest for Hormuz, nuclear latency, protected channel, Minab civilian harm, and Iran-local recognition transit.
 - **Friction watch:** Iran can monetize leverage, but humiliation lock, martyrdom-as-veto, or IRGC/security implementation failure can block settlement.
 

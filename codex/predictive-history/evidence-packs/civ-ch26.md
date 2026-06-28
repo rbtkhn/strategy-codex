@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 26 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-26` → [civilization-26-constantine-s-monotheistic-revolution.md](lectures/civilization-26-constantine-s-monotheistic-revolution.md)
+- `civ-26` → [civilization-26-constantine-s-monotheistic-revolution.md](../lectures/civilization-26-constantine-s-monotheistic-revolution.md)
 
 ## Core analysis
 

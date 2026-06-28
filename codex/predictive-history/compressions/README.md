@@ -12,4 +12,4 @@ Each JSON file under this directory should:
 **Membrane:** These files are not SELF or EVIDENCE. Anything that should become Record truth must go through **RECURSION-GATE** and approval.
 
 **Create:** `python3 scripts/jiang-compress.py -u <fork-id>`  
-**Doc:** [codex/predictive-history/COMPRESSION-ENGINE.md](./COMPRESSION-ENGINE.md)
+**Doc:** [codex/predictive-history/COMPRESSION-ENGINE.md](../COMPRESSION-ENGINE.md)

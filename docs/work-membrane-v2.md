@@ -186,7 +186,7 @@ Practical rule:
 |---------|-------|
 | `self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` | `Record` |
 | `statecraft/synthesis/day/*.md` | `governed adjacent` |
-| `statecraft/research/bridges/*.md` | `governed adjacent` |
+| `statecraft/bridges/*.md` | `governed adjacent` |
 | `statecraft/synthesis/METHOD.md`, audit rubric, benchmark manifest | `governed adjacent` |
 | `singularity/notes/*.md`, `singularity/essays/*.md`, architecture/protocol doctrine | `governed adjacent` |
 | `docs/skill-work/work-*` | `instrumental work` |

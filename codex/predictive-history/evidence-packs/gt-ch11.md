@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 11 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-11` → [game-theory-11-the-law-of-escalation.md](lectures/game-theory-11-the-law-of-escalation.md)
+- `gt-11` → [game-theory-11-the-law-of-escalation.md](../lectures/game-theory-11-the-law-of-escalation.md)
 
 ## Core analysis
 
-- `gt-11` → [fz-Dan7NRss-game-theory-11-analysis.md](analysis/fz-Dan7NRss-game-theory-11-analysis.md)
+- `gt-11` → [fz-Dan7NRss-game-theory-11-analysis.md](../analysis/fz-Dan7NRss-game-theory-11-analysis.md)
 
 ## Key concepts
 

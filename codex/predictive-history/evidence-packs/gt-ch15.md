@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 15 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-15` → [game-theory-15-the-return-of-history.md](lectures/game-theory-15-the-return-of-history.md)
+- `gt-15` → [game-theory-15-the-return-of-history.md](../lectures/game-theory-15-the-return-of-history.md)
 
 ## Core analysis
 
-- `gt-15` → [zAer-Mqe7tQ-game-theory-15-analysis.md](analysis/zAer-Mqe7tQ-game-theory-15-analysis.md)
+- `gt-15` → [zAer-Mqe7tQ-game-theory-15-analysis.md](../analysis/zAer-Mqe7tQ-game-theory-15-analysis.md)
 
 ## Key concepts
 

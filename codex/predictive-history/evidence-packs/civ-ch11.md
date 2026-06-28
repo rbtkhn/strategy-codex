@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 11 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-11` → [civilization-11-the-greatness-of-philip-ii-of-macedon.md](lectures/civilization-11-the-greatness-of-philip-ii-of-macedon.md)
+- `civ-11` → [civilization-11-the-greatness-of-philip-ii-of-macedon.md](../lectures/civilization-11-the-greatness-of-philip-ii-of-macedon.md)
 
 ## Core analysis
 

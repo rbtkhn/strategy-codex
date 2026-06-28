@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Freeman theme in which maritime do
 
 ## Cybernetic Activation
 
-Freeman-side activation surface: [Maritime hegemony transition and adaptation](../../../../../speakers/freeman/themes/maritime-hegemony-transition-and-adaptation.md)
+Freeman-side activation surface: [Maritime hegemony transition and adaptation](../../../voices/freeman/maritime-hegemony-transition-and-adaptation.md)
 
 ## Backward Historical Question
 

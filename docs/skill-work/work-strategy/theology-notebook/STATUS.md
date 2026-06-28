@@ -7,7 +7,7 @@
 |-------|--------|
 | **Project status** | `active` (archive/grace-mar-instance/bootstrap) |
 | **Mission** | Define **your own** theological **beliefs** through the **activity of creating** this book (writing, revising, citing) â€” not only to store research. |
-| **LIB** | [`docs/skill-work/work-strategy/theology-notebook/`](../../../../self-library.md#operator-analytical-books) |
+| **LIB** | [`docs/skill-work/work-strategy/theology-notebook/`](../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) |
 | **Last touch** | 2026-04-26 â€” [Ra potentiation Ã— CIV-MEM lineage](research/2026-04-26-ra-potentiation-civ-mem-lineage.md) (`n=50` MEM BFS, pin `ce8ac24`) |
 
 ## Next actions

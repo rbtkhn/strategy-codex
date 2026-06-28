@@ -6,7 +6,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 
 ## Open First
 
-- [Speaker arc](arc-johnson-continuity.md)
+- [Speaker arc](johnson-arc.md)
 - [Speaker routing note](johnson-routing.md)
 - [Source index](johnson-source-index.md)
 - [Speaker helix note](johnson-helix.md)
@@ -30,7 +30,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 ## Core Speaker Files
 
 - [Shelf README](README.md)
-- [Speaker arc](arc-johnson-continuity.md)
+- [Speaker arc](johnson-arc.md)
 - [Speaker routing](johnson-routing.md)
 - [Source index](johnson-source-index.md)
 - [Speaker helix](johnson-helix.md)
@@ -45,7 +45,7 @@ Purpose: front door for the canonical Johnson statecraft shelf, surfacing the sp
 
 Johnson's orthogonality-bearing structure is:
 
-- [Speaker arc](arc-johnson-continuity.md) for person-level continuity
+- [Speaker arc](johnson-arc.md) for person-level continuity
 - [Speaker routing](johnson-routing.md) for fast first-open guidance
 - [Source index](johnson-source-index.md) for provenance and appearance coverage
 - [Speaker helix](johnson-helix.md) for the crossing surface across the main host lanes

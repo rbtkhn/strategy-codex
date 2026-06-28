@@ -83,13 +83,13 @@ Use this file as the routing hub. If another notebook document appears to duplic
 | Cognition stream scaffold | [COGNITION-STREAMS.md](COGNITION-STREAMS.md) |
 | Raw-input scaffold | [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md) |
 | Strategy-page scaffold | [strategy-codex-template-page.md](strategy-codex-template-page.md) |
-| Legacy fenced page parser | [validate_strategy_pages.py](../../scripts/validate_strategy_pages.py) |
+| Legacy fenced page parser | [validate_strategy_pages.py](../scripts/validate_strategy_pages.py) |
 | Chapter scaffold | [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md) |
 | Book scaffold | [strategy-codex-template-book.md](strategy-codex-template-book.md) |
 | Thread layers (journal vs machine), parse contract | [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) |
-| Backfill source-family routing | [raw-input/BACKFILL-SOURCES.md](raw-input/BACKFILL-SOURCES.md) |
+| Backfill source-family routing | [raw-input/BACKFILL-SOURCES.md](../statecraft/sheets/source-archive-control/BACKFILL-SOURCES.md) |
 | `watch=` and multi-author duplicate pages | [watches/README.md](watches/README.md) (page format) |
-| Validation | From repo root: `python3 scripts/validate_strategy_pages.py` - [validate_strategy_pages.py](../../../../scripts/validate_strategy_pages.py) |
+| Validation | From repo root: `python3 scripts/validate_strategy_pages.py` - [validate_strategy_pages.py](../scripts/validate_strategy_pages.py) |
 | Machine **`### Page references`** | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) (machine layer) |
 | Bundled read-only multi-author snapshots | [compiled-views/README.md](compiled-views/README.md) - **derived**, not SSOT |
 | Trace and receipts (script runs) | [STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](STRATEGY-NOTEBOOK-TRACE-CONTRACT.md) |

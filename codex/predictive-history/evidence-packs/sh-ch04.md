@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 4 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-04` → [secret-history-04-how-evil-triumphs.md](lectures/secret-history-04-how-evil-triumphs.md)
+- `sh-04` → [secret-history-04-how-evil-triumphs.md](../lectures/secret-history-04-how-evil-triumphs.md)
 
 ## Core analysis
 

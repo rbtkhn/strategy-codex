@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 7 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-07` → [great-books-07-the-anti-homer.md](lectures/great-books-07-the-anti-homer.md)
+- `gb-07` → [great-books-07-the-anti-homer.md](../lectures/great-books-07-the-anti-homer.md)
 
 ## Core analysis
 
-- `gb-07` → [EBWTRvjZ1dw-great-books-07-analysis.md](analysis/EBWTRvjZ1dw-great-books-07-analysis.md)
+- `gb-07` → [EBWTRvjZ1dw-great-books-07-analysis.md](../analysis/EBWTRvjZ1dw-great-books-07-analysis.md)
 
 ## Key concepts
 

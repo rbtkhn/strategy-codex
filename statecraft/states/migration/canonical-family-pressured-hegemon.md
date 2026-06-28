@@ -13,15 +13,15 @@ It sits above the lane helixes and the four lane state-memory and empire-instrum
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 - [America state memory](../../america/civilization/objects/state-memory.md)
 - [Russia state memory](../../russia/civilization/objects/state-memory.md)
 - [China state memory](../../china/civilization/objects/state-memory.md)
-- [Iran state memory](../../iran/civilization/objects/state-memory.md)
+- [Iran state memory](../../persia/civilization/objects/state-memory.md)
 - [America empire instrument](../../america/empire/seed-instruments.md)
 - [Russia empire instrument](../../russia/empire/seed-instruments.md)
 - [China empire instrument](../../china/empire/seed-instruments.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)
 
 The question here is not whether a pressured power still has instruments. It is when a power starts mistaking the survival of its instruments, narratives, or leverage reflexes for proof that the deeper political architecture beneath them remains equally durable.
 
@@ -159,18 +159,18 @@ Use the lane helixes when the question is how this misread sits inside one lane'
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 Use the lane state-memory objects when the question has narrowed to legitimacy, continuity, mission, humiliation memory, or successor carry:
 
 - [America state memory](../../america/civilization/objects/state-memory.md)
 - [Russia state memory](../../russia/civilization/objects/state-memory.md)
 - [China state memory](../../china/civilization/objects/state-memory.md)
-- [Iran state memory](../../iran/civilization/objects/state-memory.md)
+- [Iran state memory](../../persia/civilization/objects/state-memory.md)
 
 Use the lane empire-instrument objects when the unresolved issue is the outward tool set that still looks durable but may already be outrunning its political base:
 
 - [America empire instrument](../../america/empire/seed-instruments.md)
 - [Russia empire instrument](../../russia/empire/seed-instruments.md)
 - [China empire instrument](../../china/empire/seed-instruments.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)

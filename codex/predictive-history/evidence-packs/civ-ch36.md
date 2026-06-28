@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 36 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-36` → [civilization-36-memory-of-the-norse.md](lectures/civilization-36-memory-of-the-norse.md)
+- `civ-36` → [civilization-36-memory-of-the-norse.md](../lectures/civilization-36-memory-of-the-norse.md)
 
 ## Core analysis
 

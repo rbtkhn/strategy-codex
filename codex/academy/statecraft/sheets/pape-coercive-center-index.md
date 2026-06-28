@@ -13,7 +13,7 @@ The index complements [Comprehensive Power Vs Coercive Center](comprehensive-pow
 Use Pape's speaker state as the main theory input:
 
 - [Pape speaker object](../../../../statecraft/voices/pape/pape-speaker-object.md)
-- [Pape forecast ledger](../../../years/2026/pape/pape-forecast-ledger-2026.md)
+- [Pape forecast ledger](../../../../statecraft/voices/pape/pape-forecast-ledger-2026.md)
 - [Pape helix](../../../../statecraft/voices/pape/pape-helix.md)
 
 Use other speaker state only as corroboration, challenge, or mechanism support. Do not attribute this exact scoring system to Pape unless a future Pape-authored source states it.

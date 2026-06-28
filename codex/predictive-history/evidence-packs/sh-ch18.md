@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 18 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-18` → [secret-history-18-thus-spoke-zarathustra.md](lectures/secret-history-18-thus-spoke-zarathustra.md)
+- `sh-18` → [secret-history-18-thus-spoke-zarathustra.md](../lectures/secret-history-18-thus-spoke-zarathustra.md)
 
 ## Core analysis
 

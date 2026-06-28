@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 46 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-46` → [civilization-46-the-revolution-of-reason.md](lectures/civilization-46-the-revolution-of-reason.md)
+- `civ-46` → [civilization-46-the-revolution-of-reason.md](../lectures/civilization-46-the-revolution-of-reason.md)
 
 ## Core analysis
 

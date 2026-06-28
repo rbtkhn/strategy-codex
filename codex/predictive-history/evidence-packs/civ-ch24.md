@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 24 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-24` → [civilization-24-resurrecting-the-gnostic-jesus.md](lectures/civilization-24-resurrecting-the-gnostic-jesus.md)
+- `civ-24` → [civilization-24-resurrecting-the-gnostic-jesus.md](../lectures/civilization-24-resurrecting-the-gnostic-jesus.md)
 
 ## Core analysis
 

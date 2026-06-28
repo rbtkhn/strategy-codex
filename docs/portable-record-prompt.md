@@ -275,7 +275,7 @@ The teacher's "tutor prompt" is the same pattern as the PRP, but the Record is *
 |-----|-----------|
 | [architecture.md Â§ Lattice Model](architecture.md#lattice-model) | PRP as anchor; nodes and bonds; two instantiation paths |
 | [INSTANCES-AND-RELEASE](instances-and-release.md) | Use cases; invariant 34; memorial consent |
-| [self.md](../self.md) | Source: identity, museum knowledge section A/B/C, linguistic style |
+| [self.md](../archive/grace-mar-instance/self.md) | Source: identity, museum knowledge section A/B/C, linguistic style |
 | [self-evidence.md](../self-evidence.md) | Source: recent WRITE/ACT/CREATE |
 | [archive/grace-mar-instance/bot/prompt.py](../archive/grace-mar-instance/bot/prompt.py) | Source: HOW YOU TALK, YOUR PERSONALITY |
 

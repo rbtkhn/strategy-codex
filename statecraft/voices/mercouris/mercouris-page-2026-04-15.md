@@ -48,4 +48,4 @@ The episode stacks **factual uncertainty** on the **blockade** with a **strong s
 
 - **Full verbatim (capture):** [provenance/2026-04-15/duran-source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md](../../../source-archive/statecraft/2026-04-15/day-index.md)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-04-15` (`ingest_date` 2026-04-21 in frontmatter)
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../years/2026/provenance/2026-04-15/duran-source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../sheets/source-archive-control/2026-04-15/duran-source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md — replace TBD watch ID when pinned

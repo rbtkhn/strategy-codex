@@ -28,7 +28,7 @@ A terminal one-liner has been shared that:
 | Loop history (WORK) | [loop-history.md](loop-history.md) â€” append-only; not `self-evidence.md` |
 | Massie WORK voice | [massie-advisor-prompt.md](massie-advisor-prompt.md) â€” not `archive/grace-mar-instance/bot/prompt.py` |
 | Cron / habit examples | [scheduled-habit.md](scheduled-habit.md) |
-| Loop event helper | [emit_loop_event.py](../../../scripts/emit_loop_event.py) â€” subprocess wrapper for `loop_cycle_*` |
+| Loop event helper | [emit_loop_event.py](../../../../scripts/emit_loop_event.py) â€” subprocess wrapper for `loop_cycle_*` |
 | Framework | [guardrail-stress-test.md](guardrail-stress-test.md) |
 | Template | [stress-test-brief-template.md](stress-test-brief-template.md) |
 | Index | [README.md](README.md) |

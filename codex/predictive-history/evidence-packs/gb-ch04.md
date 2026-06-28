@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 4 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-04` → [great-books-04-the-conscious-universe.md](lectures/great-books-04-the-conscious-universe.md)
+- `gb-04` → [great-books-04-the-conscious-universe.md](../lectures/great-books-04-the-conscious-universe.md)
 
 ## Core analysis
 
-- `gb-04` → [dkzr5A8IlLA-great-books-04-analysis.md](analysis/dkzr5A8IlLA-great-books-04-analysis.md)
+- `gb-04` → [dkzr5A8IlLA-great-books-04-analysis.md](../analysis/dkzr5A8IlLA-great-books-04-analysis.md)
 
 ## Key concepts
 

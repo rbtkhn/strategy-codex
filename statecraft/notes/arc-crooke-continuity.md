@@ -24,7 +24,7 @@ This file should be read as the **speaker-wide continuity surface**, not as a re
 Quick separation rule:
 
 - `arc-crooke-continuity` = Crooke's canonical continuity across authored and interview contexts, hosts, and time
-- [crooke-helix.md](crooke-helix.md) = cross-host comparison of the main interview transformations
+- [crooke-helix.md](../voices/crooke/crooke-helix.md) = cross-host comparison of the main interview transformations
 - [stream/crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md) = authored mechanism ledger
 - host-local arcs = bounded realizations of Crooke under one host's pressure
 
@@ -36,9 +36,9 @@ If the question is mainly "what is Crooke's mechanism?", open the authored ledge
 
 Its main interview lanes are:
 
-1. [Diesen x Crooke](../../notes/arc-crooke-diesen-host.md) - order-transition altitude and system-shock consequence
-2. [Davis x Crooke](../../notes/arc-crooke-davis-host.md) - bargaining-room realism and leverage diagnosis
-3. [Dialogue Works x Crooke](../../notes/arc-crooke-nima-host.md) - live crisis pressure and event-surface meaning
+1. [Diesen x Crooke](arc-crooke-diesen-host.md) - order-transition altitude and system-shock consequence
+2. [Davis x Crooke](arc-crooke-davis-host.md) - bargaining-room realism and leverage diagnosis
+3. [Dialogue Works x Crooke](arc-crooke-nima-host.md) - live crisis pressure and event-surface meaning
 
 Its authored mechanism spine is:
 
@@ -63,9 +63,9 @@ That motion is why Crooke now deserves a person arc rather than only a helix plu
 
 Interview transformations:
 
-- [Diesen x Crooke](../../notes/arc-crooke-diesen-host.md) - best for order-transition altitude
-- [Davis x Crooke](../../notes/arc-crooke-davis-host.md) - best for bargaining-room realism
-- [Dialogue Works x Crooke](../../notes/arc-crooke-nima-host.md) - best for live crisis meaning
+- [Diesen x Crooke](arc-crooke-diesen-host.md) - best for order-transition altitude
+- [Davis x Crooke](arc-crooke-davis-host.md) - best for bargaining-room realism
+- [Dialogue Works x Crooke](arc-crooke-nima-host.md) - best for live crisis meaning
 
 Authored mechanism:
 
@@ -73,28 +73,28 @@ Authored mechanism:
 
 Supporting surfaces:
 
-- [crooke-routing.md](crooke-routing.md)
-- [crooke-source-index.md](crooke-source-index.md)
-- [crooke-helix.md](crooke-helix.md)
-- [crooke-cross-year-note.md](crooke-cross-year-note.md)
+- [crooke-routing.md](../voices/crooke/crooke-routing.md)
+- [crooke-source-index.md](../voices/crooke/crooke-source-index.md)
+- [crooke-helix.md](../voices/crooke/crooke-helix.md)
+- [crooke-cross-year-note.md](../voices/crooke/crooke-cross-year-note.md)
 - [stream/crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md)
-- [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md)
-- [stream/crooke-thread-international-law.md](crooke-thread-international-law.md)
-- [stream/crooke-march-may-2026-interview-arc-threads.md](crooke-march-may-2026-interview-arc-threads.md)
+- [crooke-interview-appearances-2025-2026.md](../voices/crooke/crooke-interview-appearances-2025-2026.md)
+- [stream/crooke-thread-international-law.md](../voices/crooke/crooke-thread-international-law.md)
+- [stream/crooke-march-may-2026-interview-arc-threads.md](../voices/crooke/crooke-march-may-2026-interview-arc-threads.md)
 - [stream/arc-march-2026-interview-cross-host-crooke-host.md](arc-march-2026-interview-cross-host-crooke-host.md)
 - [stream/arc-april-2026-interview-cross-host-crooke-host.md](arc-april-2026-interview-cross-host-crooke-host.md)
 - [stream/arc-may-2026-interview-cross-host-crooke-host.md](arc-may-2026-interview-cross-host-crooke-host.md)
-- [index.md](index.md)
+- [index.md](../../singularity/work-cici/index.md)
 
 ## Open first
 
 If the operator needs the strongest whole-speaker comparative entry:
 
-- open [crooke-helix.md](crooke-helix.md)
+- open [crooke-helix.md](../voices/crooke/crooke-helix.md)
 
 If the operator needs source truth before interpretation:
 
-- open [crooke-source-index.md](crooke-source-index.md)
+- open [crooke-source-index.md](../voices/crooke/crooke-source-index.md)
 
 If the operator needs the mechanism first:
 
@@ -102,7 +102,7 @@ If the operator needs the mechanism first:
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [arc-crooke-davis-host.md](../../notes/arc-crooke-davis-host.md)
+- open [arc-crooke-davis-host.md](arc-crooke-davis-host.md)
 
 ## Boundary
 

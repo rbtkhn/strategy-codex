@@ -75,7 +75,7 @@ Engagement metrics measure **attention**, not wisdom. Through the [CIV-MEM latti
 
 - [Prediction tracking](../prediction-tracking/README.md) â€” **forecast accuracy** (separate from attention metrics)  
 - [Divergence tracking](../divergence-tracking/README.md) â€” **vs named mainstream** (orthogonal to views/likes)  
-- [codex/predictive-history/README-operator.md](./README-operator.md) â€” project purpose  
+- [codex/predictive-history/README-operator.md](../README-operator.md) â€” project purpose  
 - [CHANNEL-VIDEO-INDEX.md](../../youtube-channels/predictive-history/CHANNEL-VIDEO-INDEX.md) â€” full video list for choosing IDs  
 - [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md) â€” transcript + analysis workflow  
 

@@ -18,10 +18,10 @@ Model note: this is the **person arc**. It sits above the authored/interview spl
 Quick separation rule:
 
 - `arc-ritter-continuity` = Ritter's canonical continuity across authored and interview contexts, hosts, and time
-- [ritter-routing.md](ritter-routing.md) = fast host-and-task routing
-- [ritter-helix.md](ritter-helix.md) = the crossing surface
-- [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md) = the authored warning and forecast spine
-- [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md) = the interview strand
+- [ritter-routing.md](../voices/ritter/ritter-routing.md) = fast host-and-task routing
+- [ritter-helix.md](../voices/ritter/ritter-helix.md) = the crossing surface
+- [stream/ritter-forecast-ledger-2026.md](../voices/ritter/ritter-forecast-ledger-2026.md) = the authored warning and forecast spine
+- [ritter-interview-appearances-2025-2026.md](../voices/ritter/ritter-interview-appearances-2025-2026.md) = the interview strand
 - [stream/README.md](README.md) = the canonical 2026 month ladder
 
 ## Arc shape
@@ -30,10 +30,10 @@ Quick separation rule:
 
 Its main components are:
 
-1. [ritter-helix.md](ritter-helix.md)
-2. [stream/ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
-3. [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md)
-4. [ritter-support-spine-2025-2026.md](ritter-support-spine-2025-2026.md)
+1. [ritter-helix.md](../voices/ritter/ritter-helix.md)
+2. [stream/ritter-forecast-ledger-2026.md](../voices/ritter/ritter-forecast-ledger-2026.md)
+3. [ritter-interview-appearances-2025-2026.md](../voices/ritter/ritter-interview-appearances-2025-2026.md)
+4. [ritter-support-spine-2025-2026.md](../voices/ritter/ritter-support-spine-2025-2026.md)
 
 ## What makes this an arc
 
@@ -53,11 +53,11 @@ That motion is broad enough that Ritter now deserves both a person arc and a bou
 
 ## Bound month ladder
 
-- [stream/ritter-shelf-2026-01.md](ritter-shelf-2026-01.md)
-- [stream/ritter-shelf-2026-02.md](ritter-shelf-2026-02.md)
-- [stream/ritter-shelf-2026-03.md](ritter-shelf-2026-03.md)
-- [stream/ritter-shelf-2026-04.md](ritter-shelf-2026-04.md)
-- [stream/ritter-shelf-2026-05.md](ritter-shelf-2026-05.md)
+- [stream/ritter-shelf-2026-01.md](../voices/ritter/ritter-shelf-2026-01.md)
+- [stream/ritter-shelf-2026-02.md](../voices/ritter/ritter-shelf-2026-02.md)
+- [stream/ritter-shelf-2026-03.md](../voices/ritter/ritter-shelf-2026-03.md)
+- [stream/ritter-shelf-2026-04.md](../voices/ritter/ritter-shelf-2026-04.md)
+- [stream/ritter-shelf-2026-05.md](../voices/ritter/ritter-shelf-2026-05.md)
 
 Month ownership rule:
 

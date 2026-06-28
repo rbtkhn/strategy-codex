@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 52 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-52` → [civilization-52-empire-of-democracy.md](lectures/civilization-52-empire-of-democracy.md)
+- `civ-52` → [civilization-52-empire-of-democracy.md](../lectures/civilization-52-empire-of-democracy.md)
 
 ## Core analysis
 

@@ -2,7 +2,7 @@
 
 ## Mapped lectures
 
-- `civ-01` → [lectures/civilization-01-explaining-humanitys-transition-to-agriculture.md](lectures/civilization-01-explaining-humanitys-transition-to-agriculture.md)
+- `civ-01` → [lectures/civilization-01-explaining-humanitys-transition-to-agriculture.md](../../lectures/civilization-01-explaining-humanitys-transition-to-agriculture.md)
 
 ## Chapter purpose
 

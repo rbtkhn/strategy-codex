@@ -9,7 +9,7 @@
 
 **Source (canonical recording):** [YouTube](https://www.youtube.com/watch?v=oErKnj_uyPA) (`oErKnj_uyPA`).
 
-**Transcript:** YouTube **en** captions via [verbatim layer](../verbatim-transcripts/interviews-12-j-shapiro-truth-myth-personal-path.md); speaker-labeled body generated with `scripts/work_jiang/emit_interview_dialogue_from_verbatim.py` (heuristic — verify vs audio). **Manual speaker pass (2026-04-02):** intro Q/A split; biography blocks; Holocaust thread (Jay’s monster-school / 911 friend / memorial monologue); Masada Q→A and host myth rundown. See [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md), [intake/PREP-interviews-12-j-shapiro-truth-and-myth.md](../intake/PREP-interviews-12-j-shapiro-truth-and-myth.md).
+**Transcript:** YouTube **en** captions via [verbatim layer](interviews-12-j-shapiro-truth-myth-personal-path.md); speaker-labeled body generated with `scripts/work_jiang/emit_interview_dialogue_from_verbatim.py` (heuristic — verify vs audio). **Manual speaker pass (2026-04-02):** intro Q/A split; biography blocks; Holocaust thread (Jay’s monster-school / 911 friend / memorial monologue); Masada Q→A and host myth rundown. See [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md), [intake/PREP-interviews-12-j-shapiro-truth-and-myth.md](../intake/PREP-interviews-12-j-shapiro-truth-and-myth.md).
 
 ---
 

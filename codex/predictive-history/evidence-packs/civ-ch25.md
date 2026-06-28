@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 25 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-25` → [civilization-25-paul-of-tarsus-messiah-of-rome.md](lectures/civilization-25-paul-of-tarsus-messiah-of-rome.md)
+- `civ-25` → [civilization-25-paul-of-tarsus-messiah-of-rome.md](../lectures/civilization-25-paul-of-tarsus-messiah-of-rome.md)
 
 ## Core analysis
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 22 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-22` → [civilization-22-the-literary-genesis-of-the-yahwist.md](lectures/civilization-22-the-literary-genesis-of-the-yahwist.md)
+- `civ-22` → [civilization-22-the-literary-genesis-of-the-yahwist.md](../lectures/civilization-22-the-literary-genesis-of-the-yahwist.md)
 
 ## Core analysis
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 33 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-33` → [civilization-33-the-rise-and-fall-of-the-byzantine-empire.md](lectures/civilization-33-the-rise-and-fall-of-the-byzantine-empire.md)
+- `civ-33` → [civilization-33-the-rise-and-fall-of-the-byzantine-empire.md](../lectures/civilization-33-the-rise-and-fall-of-the-byzantine-empire.md)
 
 ## Core analysis
 

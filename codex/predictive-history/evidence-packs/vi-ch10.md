@@ -8,11 +8,11 @@ Book chapter for Interviews episode 10 — Volume VI Part I; divergence end-box 
 
 ## Core sources
 
-- `vi-10` → [interviews-10-endgame-our-true-wealth-is-our-consciousness.md](lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md)
+- `vi-10` → [interviews-10-endgame-our-true-wealth-is-our-consciousness.md](../lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md)
 
 ## Core analysis
 
-- `vi-10` → [rsi7cDRUrmE-interviews-10-analysis.md](analysis/rsi7cDRUrmE-interviews-10-analysis.md)
+- `vi-10` → [rsi7cDRUrmE-interviews-10-analysis.md](../analysis/rsi7cDRUrmE-interviews-10-analysis.md)
 
 ## Key concepts
 

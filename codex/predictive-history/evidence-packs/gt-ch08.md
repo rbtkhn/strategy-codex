@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 8 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-08` → [game-theory-08-communist-specter.md](lectures/game-theory-08-communist-specter.md)
+- `gt-08` → [game-theory-08-communist-specter.md](../lectures/game-theory-08-communist-specter.md)
 
 ## Core analysis
 
-- `gt-08` → [axqDLhWs93Q-game-theory-08-analysis.md](analysis/axqDLhWs93Q-game-theory-08-analysis.md)
+- `gt-08` → [axqDLhWs93Q-game-theory-08-analysis.md](../analysis/axqDLhWs93Q-game-theory-08-analysis.md)
 
 ## Key concepts
 

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 30 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-30` → [civilization-30-dante-as-the-second-coming-of-homer.md](lectures/civilization-30-dante-as-the-second-coming-of-homer.md)
+- `civ-30` → [civilization-30-dante-as-the-second-coming-of-homer.md](../lectures/civilization-30-dante-as-the-second-coming-of-homer.md)
 
 ## Core analysis
 

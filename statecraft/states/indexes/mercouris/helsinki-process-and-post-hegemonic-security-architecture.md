@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Mercouris theme in which postwar c
 
 ## Cybernetic Activation
 
-Mercouris-side activation surface: [Helsinki process and post-hegemonic security architecture](../../../../speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md)
+Mercouris-side activation surface: [Helsinki process and post-hegemonic security architecture](../../../voices/mercouris/helsinki-process-and-post-hegemonic-security-architecture.md)
 
 ## Backward Historical Question
 

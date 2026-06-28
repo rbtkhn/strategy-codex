@@ -32,4 +32,4 @@ The interpretive spine is dual: (1) Iranian elite security choices as repeatedly
 
 - **Full verbatim (capture):** [provenance/2026-03-01/duran-source-khamenei-strike-hormuz-russia-2026-03-01.md](../../../source-archive/statecraft/2026-03-01/day-index.md)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-03-01` (`ingest_date` 2026-04-25 in frontmatter)
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../years/2026/provenance/2026-03-01/duran-source-khamenei-strike-hormuz-russia-2026-03-01.md — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../sheets/source-archive-control/2026-03-01/duran-source-khamenei-strike-hormuz-russia-2026-03-01.md — replace TBD watch ID when pinned

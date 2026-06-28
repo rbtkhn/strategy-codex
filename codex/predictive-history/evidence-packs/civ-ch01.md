@@ -8,11 +8,11 @@ Book chapter for Civilization lecture 1 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-01` → [civilization-01-explaining-humanitys-transition-to-agriculture.md](lectures/civilization-01-explaining-humanitys-transition-to-agriculture.md)
+- `civ-01` → [civilization-01-explaining-humanitys-transition-to-agriculture.md](../lectures/civilization-01-explaining-humanitys-transition-to-agriculture.md)
 
 ## Core analysis
 
-- `civ-01` → [Jjqf9T59uY0-civilization-01-analysis.md](analysis/Jjqf9T59uY0-civilization-01-analysis.md)
+- `civ-01` → [Jjqf9T59uY0-civilization-01-analysis.md](../analysis/Jjqf9T59uY0-civilization-01-analysis.md)
 
 ## Key concepts
 

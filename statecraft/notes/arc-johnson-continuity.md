@@ -14,12 +14,12 @@ Purpose: define `arc-johnson-continuity` as the canonical person-level continuit
 ## Separation Rule
 
 - `arc-johnson-continuity` = Johnson's canonical continuity across hosts, contexts, and time
-- [johnson-helix.md](johnson-helix.md) = cross-host comparison of the main host transformations
-- [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md) = speaker-owned maturity and month-support explanation
-- [stream/johnson-shelf-2026-03.md](johnson-shelf-2026-03.md) = mature bridge-month synthesis
-- [stream/johnson-shelf-2026-04.md](johnson-shelf-2026-04.md) and [stream/johnson-shelf-2026-05.md](johnson-shelf-2026-05.md) = bounded dense-core month synthesis
-- [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md) = canonical thread atlas for the dense April-May 2026 core
-- [johnson-routing.md](johnson-routing.md) = fastest host-selection surface
+- [johnson-helix.md](../voices/johnson/johnson-helix.md) = cross-host comparison of the main host transformations
+- [johnson-support-spine-2025-2026.md](../voices/johnson/johnson-support-spine-2025-2026.md) = speaker-owned maturity and month-support explanation
+- [stream/johnson-shelf-2026-03.md](../voices/johnson/johnson-shelf-2026-03.md) = mature bridge-month synthesis
+- [stream/johnson-shelf-2026-04.md](../voices/johnson/johnson-shelf-2026-04.md) and [stream/johnson-shelf-2026-05.md](../voices/johnson/johnson-shelf-2026-05.md) = bounded dense-core month synthesis
+- [stream/johnson-april-may-2026-arc-threads.md](../voices/johnson/johnson-april-may-2026-arc-threads.md) = canonical thread atlas for the dense April-May 2026 core
+- [johnson-routing.md](../voices/johnson/johnson-routing.md) = fastest host-selection surface
 
 ## Arc Shape
 
@@ -27,9 +27,9 @@ Purpose: define `arc-johnson-continuity` as the canonical person-level continuit
 
 Its main embodied lanes are:
 
-1. [Diesen x Johnson](../../notes/arc-johnson-diesen-host.md) for geopolitical altitude and regional-order consequence
+1. [Diesen x Johnson](arc-johnson-diesen-host.md) for geopolitical altitude and regional-order consequence
 2. [Davis host shelf](../../README.md) for operational feasibility and failed coercion
-3. [Dialogue Works x Johnson](../../notes/arc-johnson-nima-host.md) for live crisis pressure and humiliation tempo
+3. [Dialogue Works x Johnson](arc-johnson-nima-host.md) for live crisis pressure and humiliation tempo
 
 Auxiliary reinforcement:
 
@@ -51,10 +51,10 @@ The strongest current motion is:
 ## Open First
 
 - whole-speaker comparative entry: stay on [arc-johnson-continuity.md](arc-johnson-continuity.md)
-- maturity logic: open [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md)
-- month-led bridge: open [stream/johnson-shelf-2026-03.md](johnson-shelf-2026-03.md)
-- dense-core strands: open [stream/johnson-april-may-2026-arc-threads.md](johnson-april-may-2026-arc-threads.md)
-- fastest host-conditioned entry: open [johnson-routing.md](johnson-routing.md)
+- maturity logic: open [johnson-support-spine-2025-2026.md](../voices/johnson/johnson-support-spine-2025-2026.md)
+- month-led bridge: open [stream/johnson-shelf-2026-03.md](../voices/johnson/johnson-shelf-2026-03.md)
+- dense-core strands: open [stream/johnson-april-may-2026-arc-threads.md](../voices/johnson/johnson-april-may-2026-arc-threads.md)
+- fastest host-conditioned entry: open [johnson-routing.md](../voices/johnson/johnson-routing.md)
 
 ## Boundary
 

@@ -16,7 +16,7 @@ It also inherits the lane helixes and the lane `geo`, `peace`, and `empire-instr
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 The question here is no longer only whether a settlement is real or whether remembered exclusion still shapes the room. It is whether the corpus can now describe a larger object:
 
@@ -169,4 +169,4 @@ If the question is lane-specific, return to the relevant helix:
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)

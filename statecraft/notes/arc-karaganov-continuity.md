@@ -52,7 +52,7 @@ Across the canonical run, three doctrinal families recur:
 
 Open [2026-05-10 / Diesen x Karaganov solo](../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) for pure Karaganov doctrine.
 
-Open [karaganov-routing.md](karaganov-routing.md) when the task needs host arc or paired-read discipline.
+Open [karaganov-routing.md](../voices/karaganov/karaganov-routing.md) when the task needs host arc or paired-read discipline.
 
 ## Neighboring Lanes
 

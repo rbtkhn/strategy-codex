@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 20 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-20` → [secret-history-20-the-hellenistic-world.md](lectures/secret-history-20-the-hellenistic-world.md)
+- `sh-20` → [secret-history-20-the-hellenistic-world.md](../lectures/secret-history-20-the-hellenistic-world.md)
 
 ## Core analysis
 

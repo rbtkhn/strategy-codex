@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 56 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-56` → [civilization-56-what-marx-got-wrong.md](lectures/civilization-56-what-marx-got-wrong.md)
+- `civ-56` → [civilization-56-what-marx-got-wrong.md](../lectures/civilization-56-what-marx-got-wrong.md)
 
 ## Core analysis
 

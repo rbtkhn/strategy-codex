@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 19 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-19` → [secret-history-19-dawn-of-the-jews.md](lectures/secret-history-19-dawn-of-the-jews.md)
+- `sh-19` → [secret-history-19-dawn-of-the-jews.md](../lectures/secret-history-19-dawn-of-the-jews.md)
 
 ## Core analysis
 

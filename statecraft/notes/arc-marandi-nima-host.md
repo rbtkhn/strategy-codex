@@ -74,11 +74,7 @@ Do not use this arc as a shortcut for operational-feasibility triage or wider or
 
 ## Shelf-level support surfaces
 
-- [Marandi routing](../marandi/marandi-routing.md
-- [Marandi arc](../marandi/arc-marandi-continuity.md
-- [Marandi 2025-present arc threads](../marandi/marandi-2025-present-arc-threads.md
-
-## Best paired read
+- [Marandi routing](../voices/marandi/marandi-2025-present-arc-threads.md## Best paired read
 
 Best paired read: [arc-freeman-diesen-host.md](../../arc-freeman-diesen-host.md)
 

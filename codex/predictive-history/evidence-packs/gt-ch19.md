@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 19 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-19` → [game-theory-19-the-hollywood-pentagon-complex.md](lectures/game-theory-19-the-hollywood-pentagon-complex.md)
+- `gt-19` → [game-theory-19-the-hollywood-pentagon-complex.md](../lectures/game-theory-19-the-hollywood-pentagon-complex.md)
 
 ## Core analysis
 
-- `gt-19` → [0HYET47Cc-E-game-theory-19-analysis.md](analysis/0HYET47Cc-E-game-theory-19-analysis.md)
+- `gt-19` → [0HYET47Cc-E-game-theory-19-analysis.md](../analysis/0HYET47Cc-E-game-theory-19-analysis.md)
 
 ## Key concepts
 

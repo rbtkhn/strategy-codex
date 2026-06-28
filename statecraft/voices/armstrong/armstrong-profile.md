@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`armstrong`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`armstrong`** lane.
 
 ## Identity
 
@@ -25,7 +25,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint - last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 

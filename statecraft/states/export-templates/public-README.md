@@ -36,7 +36,7 @@ See [Reader Guide](docs/reader-guide.md#names-and-titles) and [Glossary](../../.
 
 ## Start here
 
-1. [Civilization and Empire](docs/introduction.md)
+1. [Civilization and Empire](../../../codex/predictive-history/INTRODUCTION.md)
 2. [Table of Contents](docs/table-of-contents.md)
 3. [Reader Guide](docs/reader-guide.md)
 4. [Sources](../../../README.md) — source-lattice and era shelves
@@ -52,25 +52,25 @@ Read civilization-state cases in this order:
 4. [Russia](../../../README.md)
 5. [America](../../../README.md)
 
-Within each volume: **volume introduction** (thematic title) → **Civilization** chapter → **Empire** chapter → optional sub-lenses. Begin the whole work with [Civilization and Empire](docs/introduction.md), not a volume introduction.
+Within each volume: **volume introduction** (thematic title) → **Civilization** chapter → **Empire** chapter → optional sub-lenses. Begin the whole work with [Civilization and Empire](../../../codex/predictive-history/INTRODUCTION.md), not a volume introduction.
 
 ## Whole-work apparatus
 
 - [Theory shelf](../../../README.md)
-- **Governing terms:** [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md) · [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](theory/memory.md)
+- **Governing terms:** [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md) · [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](../../../memory.md)
 - **Motion and era law:** [Rhythm](theory/rhythm.md) · [Time](theory/time.md)
 - [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
 
 ## Essays
 
 - [High-skill labor compression and civilizational statecraft](essays/high-skill-labor-compression-and-civilizational-statecraft.md)
-- [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
+- [Hormuz recognition / transit restraint](../../../codex/academy/statecraft/civ-emp/persia/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus
-- [Docs](../../../docs/README.md) — [book architecture](docs/book-architecture.md) · [names and titles](docs/names-and-titles.md) · [era spine](docs/era-spine.md) · [release history](docs/release-history.md)
+- [Docs](../../../docs/README.md) — [book architecture](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) · [names and titles](docs/names-and-titles.md) · [era spine](docs/era-spine.md) · [release history](docs/release-history.md)
 - [Skills](../../../skills/README.md) · [Sources](../../../README.md)
 - [Sacred grammar (volume-local)](docs/reader-guide.md#sacred-grammar-volume-local) · [Volume Map](../../../README.md)
-- [Glossary](../../../docs/glossary.md) · [Hybrid references](docs/hybrid-references.md) · [Index](docs/index.md)
+- [Glossary](../../../docs/glossary.md) · [Hybrid references](docs/hybrid-references.md) · [Index](../../../singularity/work-cici/index.md)
 
 ## Provenance
 
@@ -80,4 +80,4 @@ See [FOUNDING-PROVENANCE.md](docs/FOUNDING-PROVENANCE.md) for the reshape from t
 
 ## License
 
-See [LICENSE](LICENSE). Contributions: [CONTRIBUTING.md](docs/CONTRIBUTING.md).
+See [LICENSE](LICENSE). Contributions: [CONTRIBUTING.md](../../../CONTRIBUTING.md).

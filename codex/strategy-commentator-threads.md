@@ -377,7 +377,7 @@ Removed from the table **2026 04 14** â€” **`hormuz story fork`** (commenta
   Tri Frame minds: [minds/README.md](../README.md)  
   Haiphong / Ritter / Johnson digest: [transcript analysis haiphong ritter johnson iran 2026 04.md](../transcript analysis haiphong ritter johnson iran 2026 04.md)  
   Fact check skill (resolution / tiered verdicts): [.cursor/skills/fact check/SKILL.md](../../../../.cursor/skills/fact check/SKILL.md)
-  Quality report: [scripts/report_strategy_thread_quality.py](../../../../scripts/report_strategy_thread_quality.py)
+  Quality report: [scripts/report_strategy_thread_quality.py](../scripts/report_strategy_thread_quality.py)
 
 ## Quality report
 

@@ -13,19 +13,19 @@ It sits above the lane helixes and the four lane geo, peace, and empire-instrume
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 - [America geo](../../america/civilization/geo.md)
 - [Russia geo](../../russia/civilization/geo.md)
 - [China geo](../../china/civilization/geo.md)
-- [Iran geo](../../iran/civilization/geo.md)
+- [Iran geo](../../persia/civilization/geo.md)
 - [America peace](../../america/civilization/peace.md)
 - [Russia peace](../../russia/civilization/peace.md)
 - [China peace](../../china/civilization/peace.md)
-- [Iran peace](../../iran/civilization/peace.md)
+- [Iran peace](../../persia/civilization/peace.md)
 - [America empire instrument](../../america/empire/seed-instruments.md)
 - [Russia empire instrument](../../russia/empire/seed-instruments.md)
 - [China empire instrument](../../china/empire/seed-instruments.md)
-- [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- [Iran empire instrument](../../persia/empire/seed-instruments.md)
 
 The question here is not simply who is invited to the conference table. It is how exclusion memory changes what counts as a believable room, a believable map, and a believable access pattern when major powers try to settle directly with one another.
 
@@ -150,20 +150,20 @@ Use the lane helixes when the question is how exclusion memory sits inside one l
 - [America helix](../../america/helix.md)
 - [Russia helix](../../russia/helix.md)
 - [China helix](../../china/helix.md)
-- [Iran helix](../../iran/helix.md)
+- [Iran helix](../../persia/helix.md)
 
 Use the lane geo objects when the question has narrowed to corridor, strait, plateau, maritime, or route design:
 
 - [America geo](../../america/civilization/geo.md)
 - [Russia geo](../../russia/civilization/geo.md)
 - [China geo](../../china/civilization/geo.md)
-- [Iran geo](../../iran/civilization/geo.md)
+- [Iran geo](../../persia/civilization/geo.md)
 
 Use the lane peace objects when the question has narrowed to recognition, review, successor carry, and the political grammar of inclusion:
 
 - [America peace](../../america/civilization/peace.md)
 - [Russia peace](../../russia/civilization/peace.md)
 - [China peace](../../china/civilization/peace.md)
-- [Iran peace](../../iran/civilization/peace.md)
+- [Iran peace](../../persia/civilization/peace.md)
 
 Use the lane empire-instrument objects when the unresolved issue is the outward geographic carrier that makes the room either governable or quietly prewritten.

@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 8 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-08` → [great-books-08-the-poetry-of-empire.md](lectures/great-books-08-the-poetry-of-empire.md)
+- `gb-08` → [great-books-08-the-poetry-of-empire.md](../lectures/great-books-08-the-poetry-of-empire.md)
 
 ## Core analysis
 
-- `gb-08` → [YXTRlvFIRt8-great-books-08-analysis.md](analysis/YXTRlvFIRt8-great-books-08-analysis.md)
+- `gb-08` → [YXTRlvFIRt8-great-books-08-analysis.md](../analysis/YXTRlvFIRt8-great-books-08-analysis.md)
 
 ## Key concepts
 

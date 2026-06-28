@@ -8,11 +8,11 @@ Book chapter for essay 27 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-27` → [welcome-to-the-rupture.md](substack/essays/welcome-to-the-rupture.md)
+- `es-27` → [welcome-to-the-rupture.md](../substack/essays/welcome-to-the-rupture.md)
 
 ## Core analysis
 
-- `es-27` → [essay-welcome-to-the-rupture-analysis.md](analysis/essay-welcome-to-the-rupture-analysis.md)
+- `es-27` → [essay-welcome-to-the-rupture-analysis.md](../analysis/essay-welcome-to-the-rupture-analysis.md)
 
 ## Key concepts
 

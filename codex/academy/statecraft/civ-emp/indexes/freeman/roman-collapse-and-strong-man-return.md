@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Freeman theme in which legitimacy de
 
 ## Cybernetic Activation
 
-Freeman-side activation surface: [Roman collapse and strong-man return](../../../../../speakers/freeman/themes/roman-collapse-and-strong-man-return.md)
+Freeman-side activation surface: [Roman collapse and strong-man return](../../../../../../statecraft/voices/freeman/roman-collapse-and-strong-man-return.md)
 
 ## Backward Historical Question
 

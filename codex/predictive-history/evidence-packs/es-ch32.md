@@ -8,11 +8,11 @@ Book chapter for essay 32 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-32` → [the-us-iran-end-game.md](substack/essays/the-us-iran-end-game.md)
+- `es-32` → [the-us-iran-end-game.md](../substack/essays/the-us-iran-end-game.md)
 
 ## Core analysis
 
-- `es-32` → [essay-the-us-iran-end-game-analysis.md](analysis/essay-the-us-iran-end-game-analysis.md)
+- `es-32` → [essay-the-us-iran-end-game-analysis.md](../analysis/essay-the-us-iran-end-game-analysis.md)
 
 ## Key concepts
 

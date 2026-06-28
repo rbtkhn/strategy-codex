@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 15 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-15` → [civilization-15-the-myth-making-genius-of-julius-caesar.md](lectures/civilization-15-the-myth-making-genius-of-julius-caesar.md)
+- `civ-15` → [civilization-15-the-myth-making-genius-of-julius-caesar.md](../lectures/civilization-15-the-myth-making-genius-of-julius-caesar.md)
 
 ## Core analysis
 

@@ -58,7 +58,7 @@ Reason:
 
 ## Best proof surfaces
 
-- [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
-- [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
-- [Apprentice Studio Pilot Ops](../work-cici/apprentice-studio-pilot-ops.md)
-- [cici-ai First Task Proof Packet](../work-cici/cici-ai-first-task-proof-packet.md)
+- [cici-ai Daily Telegram Brief](../../../singularity/work-cici/cici-ai-daily-telegram-brief.md)
+- [cici-ai Daily Brief Control-Plane Pilot](../../../singularity/work-cici/cici-ai-daily-brief-control-plane-pilot.md)
+- [Apprentice Studio Pilot Ops](../../../singularity/work-cici/apprentice-studio-pilot-ops.md)
+- [cici-ai First Task Proof Packet](../../../singularity/work-cici/cici-ai-first-task-proof-packet.md)

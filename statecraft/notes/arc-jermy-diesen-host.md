@@ -19,8 +19,8 @@ This file should be read as the **maritime-order and alliance-fracture** Jermy b
 Quick separation rule:
 
 - `Diesen x Jermy` = maritime-order fallout, NATO/U.S.-EU divorce, Europe-system breakdown, and geopolitical consequence
-- [arc-jermy-davis-host.md](../../notes/arc-jermy-davis-host.md = blockade mechanics, reopening lag, and shipping/energy propagation under feasibility pressure
-- [arc-jermy-peacemonger-host.md](../../notes/arc-jermy-peacemonger-host.md = hubris, hypocrisy, and public indictment of failed strategy
+- [arc-jermy-davis-host.md](arc-jermy-davis-host.md = blockade mechanics, reopening lag, and shipping/energy propagation under feasibility pressure
+- [arc-jermy-peacemonger-host.md](arc-jermy-peacemonger-host.md = hubris, hypocrisy, and public indictment of failed strategy
 - [jermy-speaker-object.md](../../../statecraft/voices/jermy/jermy-speaker-object.md = the higher-level triple-helix doctrine
 
 If the notebook needs Jermy to widen maritime stress into civilizational, European, and alliance-system consequence, route here. If it needs operational closure logic or a sharper anti-elite indictment register, route to Davis or Peacemonger instead.
@@ -91,8 +91,8 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [arc-jermy-davis-host.md](../../notes/arc-jermy-davis-host.md, which is stronger on closure geometry, reopening timelines, and immediate system knock-on
-- [arc-jermy-peacemonger-host.md](../../notes/arc-jermy-peacemonger-host.md, which is stronger on public anti-hubris indictment than on order-transition consequence
+- [arc-jermy-davis-host.md](arc-jermy-davis-host.md, which is stronger on closure geometry, reopening timelines, and immediate system knock-on
+- [arc-jermy-peacemonger-host.md](arc-jermy-peacemonger-host.md, which is stronger on public anti-hubris indictment than on order-transition consequence
 - the legacy [jermy-thread.md](../../../statecraft/voices/jermy/jermy-thread.md, which is compatibility continuity rather than a competing canonical arc strand
 
 ## Boundaries

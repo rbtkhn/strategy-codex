@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 12 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-12` → [secret-history-12-heaven-on-earth.md](lectures/secret-history-12-heaven-on-earth.md)
+- `sh-12` → [secret-history-12-heaven-on-earth.md](../lectures/secret-history-12-heaven-on-earth.md)
 
 ## Core analysis
 

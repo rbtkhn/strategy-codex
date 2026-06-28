@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 5 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-05` → [game-theory-05-the-world-game.md](lectures/game-theory-05-the-world-game.md)
+- `gt-05` → [game-theory-05-the-world-game.md](../lectures/game-theory-05-the-world-game.md)
 
 ## Core analysis
 
-- `gt-05` → [ybufqRY77PQ-game-theory-05-analysis.md](analysis/ybufqRY77PQ-game-theory-05-analysis.md)
+- `gt-05` → [ybufqRY77PQ-game-theory-05-analysis.md](../analysis/ybufqRY77PQ-game-theory-05-analysis.md)
 
 ## Key concepts
 

@@ -420,7 +420,7 @@ After any **substantive** notebook entry — daily brief ingest, standalone stra
 - **Mearsheimer:** one line (power distribution, structural incentive, security dilemma)
 - **Mercouris:** one line (legitimacy, institutional continuity, civilizational pattern)
 
-Always **B → M → M** order. Always optional. Phrasing adapts to the day's signals. The operator picks one, combines two, or skips. If a lens is picked, the agent appends the lens block to the same day's entry per Recipe A (single) or Recipe B (two-lens with tension section). Trivial entries do not trigger the offer. See [skill-strategy SKILL.md](../../../../.cursor/skills/skill-strategy/SKILL.md) § Post-entry lens offer.
+Always **B → M → M** order. Always optional. Phrasing adapts to the day's signals. The operator picks one, combines two, or skips. If a lens is picked, the agent appends the lens block to the same day's entry per Recipe A (single) or Recipe B (two-lens with tension section). Trivial entries do not trigger the offer. See [skill-strategy SKILL.md](../SKILL-STRATEGY-DEPRECATED.md) § Post-entry lens offer.
 
 ---
 

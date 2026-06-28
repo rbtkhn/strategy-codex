@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 42 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-42` → [civilization-42-the-protestant-reformation-and-the-birth-of-capitalism.md](lectures/civilization-42-the-protestant-reformation-and-the-birth-of-capitalism.md)
+- `civ-42` → [civilization-42-the-protestant-reformation-and-the-birth-of-capitalism.md](../lectures/civilization-42-the-protestant-reformation-and-the-birth-of-capitalism.md)
 
 ## Core analysis
 

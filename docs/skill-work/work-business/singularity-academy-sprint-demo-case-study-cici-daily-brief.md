@@ -38,9 +38,9 @@ WORK only. Internal demo case study, not external client validation.
 
 ## Evidence
 
-- [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
-- [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
-- [cici-ai Daily Brief Quickstart](../work-cici/cici-ai-daily-brief-quickstart.md)
+- [cici-ai Daily Telegram Brief](../../../singularity/work-cici/cici-ai-daily-telegram-brief.md)
+- [cici-ai Daily Brief Control-Plane Pilot](../../../singularity/work-cici/cici-ai-daily-brief-control-plane-pilot.md)
+- [cici-ai Daily Brief Quickstart](../../../singularity/work-cici/cici-ai-daily-brief-quickstart.md)
 - [Singularity-Academy Sprint Demo Receipt - cici-ai Daily Brief](singularity-academy-sprint-demo-receipt-cici-daily-brief.md)
 
 ## What remained hard

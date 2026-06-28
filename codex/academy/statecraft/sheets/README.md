@@ -14,7 +14,7 @@ Local continuation route:
 
 1. [State braid model](state-braid-model.md)
 2. [Transaction router](transaction-router.md)
-3. [Hormuz recognition transit transaction](../iran/transactions/hormuz-recognition-transit-transaction.md)
+3. [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md)
 
 That worked Hormuz path remains the clearest example of how a linked crisis object becomes a routed transaction rather than a pile of disconnected notes, but it should be entered through the workshop README when you are learning the layer.
 

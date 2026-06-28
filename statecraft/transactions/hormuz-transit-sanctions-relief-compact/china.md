@@ -15,7 +15,7 @@ Anti-disorder Hormuz energy compact.
 - Speaker-state inputs: [Pape](../../voices/pape/) for shock clocks and coercive leverage; [Jiang](../../voices/jiang/) for China-facing strategic framing; [Sachs](../../voices/sachs/) / [Krainer](../../voices/krainer/) for macro-system effects; [Crooke](../../../README.md) / [Diesen](../../voices/diesen/) for order transition; [Parsi](../../voices/parsi/) for regional architecture.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
 - Raw-input / provenance anchors: [Pape 2026-05-18](../../../source-archive/statecraft/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Pape 2026-05-13](../../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md); [Parsi 2026-05-03](../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
-- Prior statecraft drafts: [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
+- Prior statecraft drafts: [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../codex/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
 
 ## Civilization / Empire Helix Input
 

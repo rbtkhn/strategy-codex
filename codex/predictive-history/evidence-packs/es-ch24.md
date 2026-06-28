@@ -8,11 +8,11 @@ Book chapter for essay 24 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-24` → [iran-greenland-and-canada.md](substack/essays/iran-greenland-and-canada.md)
+- `es-24` → [iran-greenland-and-canada.md](../substack/essays/iran-greenland-and-canada.md)
 
 ## Core analysis
 
-- `es-24` → [essay-iran-greenland-and-canada-analysis.md](analysis/essay-iran-greenland-and-canada-analysis.md)
+- `es-24` → [essay-iran-greenland-and-canada-analysis.md](../analysis/essay-iran-greenland-and-canada-analysis.md)
 
 ## Key concepts
 

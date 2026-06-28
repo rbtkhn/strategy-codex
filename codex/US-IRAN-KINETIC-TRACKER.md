@@ -3,7 +3,7 @@
 
 **Kind:** WORK-only strategy-notebook scaffold; **not** Record.  
 **Governed by:** [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) § *US–Iran kinetic likelihood (cross-author track)* (`#us-iran-kinetic-track`).  
-**Skill:** [`skill-strategy`](../../../../.cursor/skills/skill-strategy/SKILL.md) — apply when **`strategy`** passes touch U.S.–Iran escalation.
+**Skill:** [`skill-strategy`](../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) — apply when **`strategy`** passes touch U.S.–Iran escalation.
 
 ## Purpose
 

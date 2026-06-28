@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 16 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-16` → [game-theory-16-pax-judaica-rising.md](lectures/game-theory-16-pax-judaica-rising.md)
+- `gt-16` → [game-theory-16-pax-judaica-rising.md](../lectures/game-theory-16-pax-judaica-rising.md)
 
 ## Core analysis
 
-- `gt-16` → [0aASxQrJYuo-game-theory-16-analysis.md](analysis/0aASxQrJYuo-game-theory-16-analysis.md)
+- `gt-16` → [0aASxQrJYuo-game-theory-16-analysis.md](../analysis/0aASxQrJYuo-game-theory-16-analysis.md)
 
 ## Key concepts
 

@@ -34,4 +34,4 @@
 ## Cross-refs
 
 - Audit: [`AUDIT-VOLUME-III-SYSTEMATIC.md`](../AUDIT-VOLUME-III-SYSTEMATIC.md)
-- Conventions: [`codex/predictive-history/volume-iii-book-track-conventions.md`](./volume-iii-book-track-conventions.md)
+- Conventions: [`codex/predictive-history/volume-iii-book-track-conventions.md`](../volume-iii-book-track-conventions.md)

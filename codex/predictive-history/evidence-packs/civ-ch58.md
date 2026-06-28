@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 58 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-58` → [civilization-58-birth-of-the-nation-state.md](lectures/civilization-58-birth-of-the-nation-state.md)
+- `civ-58` → [civilization-58-birth-of-the-nation-state.md](../lectures/civilization-58-birth-of-the-nation-state.md)
 
 ## Core analysis
 

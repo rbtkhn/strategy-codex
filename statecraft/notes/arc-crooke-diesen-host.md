@@ -105,7 +105,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about spoiler logic, diplomatic room, or what settlement architecture is structurally possible, route outward to [arc-crooke-davis-host.md](../../notes/arc-crooke-davis-host.md) instead of stretching this altitude lane into bargaining analysis.
+- If the question is mainly about spoiler logic, diplomatic room, or what settlement architecture is structurally possible, route outward to [arc-crooke-davis-host.md](arc-crooke-davis-host.md) instead of stretching this altitude lane into bargaining analysis.
 
 - Crooke is strongest here on statecraft memory, civilizational motive, and systemic consequence, not on technical military verification or exact shipping arithmetic.
 - The materialized shelf is real but still partial relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

@@ -8,11 +8,11 @@ Book chapter for essay 12 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-12` → [i-have-questions-about-tyler-robinson.md](substack/essays/i-have-questions-about-tyler-robinson.md)
+- `es-12` → [i-have-questions-about-tyler-robinson.md](../substack/essays/i-have-questions-about-tyler-robinson.md)
 
 ## Core analysis
 
-- `es-12` → [essay-i-have-questions-about-tyler-robinson-analysis.md](analysis/essay-i-have-questions-about-tyler-robinson-analysis.md)
+- `es-12` → [essay-i-have-questions-about-tyler-robinson-analysis.md](../analysis/essay-i-have-questions-about-tyler-robinson-analysis.md)
 
 ## Key concepts
 

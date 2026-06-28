@@ -7,7 +7,7 @@
 
 ## When to use compiled views
 
-Use them for **long reads**, **handoff**, and **browsing** — not to replace on-disk **thread** + **`strategy-page`** truth. If you need “what is this watch across experts?”, use [`strategy_watch.py`](../../../../scripts/strategy_watch.py) first; if you need a **single bundled markdown** for a date or a subset of experts, regenerate with `compile_strategy_view.py` (below).
+Use them for **long reads**, **handoff**, and **browsing** — not to replace on-disk **thread** + **`strategy-page`** truth. If you need “what is this watch across experts?”, use [`strategy_watch.py`](../../scripts/strategy_watch.py) first; if you need a **single bundled markdown** for a date or a subset of experts, regenerate with `compile_strategy_view.py` (below).
 
 <a id="browse-intent--mechanism"></a>
 

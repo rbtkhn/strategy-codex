@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 18 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-18` → [civilization-18-the-great-pyramid-as-ancient-egypts-manhattan-project.md](lectures/civilization-18-the-great-pyramid-as-ancient-egypts-manhattan-project.md)
+- `civ-18` → [civilization-18-the-great-pyramid-as-ancient-egypts-manhattan-project.md](../lectures/civilization-18-the-great-pyramid-as-ancient-egypts-manhattan-project.md)
 
 ## Core analysis
 

@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Freeman theme in which imported gr
 
 ## Cybernetic Activation
 
-Freeman-side activation surface: [Thucydidean misfit and civilizational-state difference](../../../../../speakers/freeman/themes/thucydidean-misfit-and-civilizational-state-difference.md)
+Freeman-side activation surface: [Thucydidean misfit and civilizational-state difference](../../../voices/freeman/thucydidean-misfit-and-civilizational-state-difference.md)
 
 ## Backward Historical Question
 

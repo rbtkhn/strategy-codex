@@ -59,7 +59,7 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 | **Strategy-codex** ( **Conductor session** — master name / `conductor` skill ) | Expert/voice **threads**, **Machine** + **Journal**, `strategy-page`, `days.md` / `meta.md`; **post-intake:** sync → [intake queue](../../../docs/statecraft-intake-queue.md) → daily | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) · [start-here ship loop](../../../docs/start-here.md#operator-ship-loop) |
 | **work-dev** | Specs, integration, `workspace.md` next actions | [workspace.md](../work-dev/workspace.md), [INTEGRATION-PROGRAM.md](../work-dev/INTEGRATION-PROGRAM.md) |
 | **work-politics** | Daily brief, campaign queue, brief registry | [brief-source-registry.md](../work-politics/brief-source-registry.md), `daily-brief-YYYY-MM-DD.md` |
-| **work-cici** | Cici/OB1 rhythm, handoff, day journal | [INDEX.md](../work-cici/INDEX.md), [SYNC-DAILY.md](../work-cici/SYNC-DAILY.md) |
+| **work-cici** | Cici/OB1 rhythm, handoff, day journal | [INDEX.md](../work-cici/INDEX.md), [SYNC-DAILY.md](../../../singularity/work-cici/SYNC-DAILY.md) |
 | **work-jiang / PH** | Lecture pipeline, forward chains, STATUS | [codex/predictive-history/README.md](../../../codex/predictive-history/README.md) |
 | **Steward / membrane** | Gate, boundary hygiene, integrity, ship | [menu-reference — Steward](menu-reference.md#steward-follow-up-fork-implement-now-vs-later) ( **`coffee` A** ) — **governance** work is **not** a substitute for artistic "balance" in threads; it is the **frame** that keeps other lanes safe. |
 

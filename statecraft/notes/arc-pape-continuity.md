@@ -18,9 +18,9 @@ Model note: this is the **person arc**. It sits above the authored/interview spl
 Quick separation rule:
 
 - `arc-pape-continuity` = whole-speaker continuity across authored and interview contexts
-- [pape-helix.md](pape-helix.md) = the authored/interview crossing surface
-- [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md) = the authored forecast mechanism
-- [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md) = the interview-pressure strand
+- [pape-helix.md](../voices/pape/pape-helix.md) = the authored/interview crossing surface
+- [stream/pape-forecast-ledger-2026.md](../voices/pape/pape-forecast-ledger-2026.md) = the authored forecast mechanism
+- [pape-interview-appearances-2025-2026.md](../voices/pape/pape-interview-appearances-2025-2026.md) = the interview-pressure strand
 
 ## Arc Shape
 
@@ -40,21 +40,21 @@ The strongest current motion is:
 
 If the operator needs the strongest whole-speaker entry:
 
-- open [pape-helix.md](pape-helix.md)
+- open [pape-helix.md](../voices/pape/pape-helix.md)
 
 If the operator needs the mechanism first:
 
-- open [arc-pape-escalation-trap.md](../../notes/arc-pape-escalation-trap.md) — **Escalation Trap season** (Feb 25 → Jun 17); opening week [§ Phases I–V](../../notes/arc-pape-escalation-trap.md#opening-week-phases-i-v)
-- open [stream/pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
+- open [arc-pape-escalation-trap.md](arc-pape-escalation-trap.md) — **Escalation Trap season** (Feb 25 → Jun 17); opening week [§ Phases I–V](arc-pape-escalation-trap.md#opening-week-phases-i-v)
+- open [stream/pape-forecast-ledger-2026.md](../voices/pape/pape-forecast-ledger-2026.md)
 
 If the operator needs China industrial AI / implementation (not Iran trap):
 
-- open [pape-on-china-ai.md](../../notes/pape-on-china-ai.md)
-- open [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md) for the rolling log
+- open [pape-on-china-ai.md](pape-on-china-ai.md)
+- open [trend-china-ai-implementation.md](trend-china-ai-implementation.md) for the rolling log
 
 If the operator needs the public-pressure map:
 
-- open [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
+- open [pape-interview-appearances-2025-2026.md](../voices/pape/pape-interview-appearances-2025-2026.md)
 
 ## Boundary
 

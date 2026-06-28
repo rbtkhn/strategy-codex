@@ -4,7 +4,7 @@
 
 **Purpose:** Route **Mercouris**, **Mearsheimer**, and **Barnes** to the right **civilization_memory** (civ-mem) slices so analysis is **grounded**, not vibes-only. **Minds** = lenses ([`../../codex/minds/CIV-MIND-*.md`](../../../../codex/minds)); **civ-mem** = MEM / STATE / SCHOLAR / ARC / CORE evidence.
 
-**Where the repo lives:** [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” also symlinked as [`civilization_memory`](../../../../civilization_memory). **LIB:** [](../../../../self-library.md#operator-analytical-books). **Not** the same as [](../../../../self-library.md) (`docs/civilization-memory/` satellite essays).
+**Where the repo lives:** [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” also symlinked as [`civilization_memory`](../../../../civilization_memory). **LIB:** [](../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books). **Not** the same as [](../../../../archive/grace-mar-instance/self-library.md) (`docs/civilization-memory/` satellite essays).
 
 ---
 

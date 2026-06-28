@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 12 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-12` → [civilization-12-the-tyranny-of-alexander-the-great.md](lectures/civilization-12-the-tyranny-of-alexander-the-great.md)
+- `civ-12` → [civilization-12-the-tyranny-of-alexander-the-great.md](../lectures/civilization-12-the-tyranny-of-alexander-the-great.md)
 
 ## Core analysis
 

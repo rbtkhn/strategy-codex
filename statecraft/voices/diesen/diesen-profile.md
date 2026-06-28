@@ -107,7 +107,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 1. `https://www.usn.no/english/about/contact-us/employees/diesen` -> `thread: diesen`
 2. `https://eng.globalaffairs.ru/authors/diesen/` -> `thread: diesen`
 3. `https://x.com/Glenn_Diesen` -> `thread: diesen`
-4. YouTube transcript crawl via [`scripts/backfill_diesen_youtube_raw_input.py`](../../../../scripts/backfill_diesen_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@GDiesen1/videos --channel-slug glenn-diesen --show "Glenn Diesen" --host "Glenn Diesen" --thread diesen --file-prefix youtube-glenn-diesen`.
+4. YouTube transcript crawl via [`scripts/backfill_diesen_youtube_raw_input.py`](../../../scripts/backfill_diesen_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@GDiesen1/videos --channel-slug glenn-diesen --show "Glenn Diesen" --host "Glenn Diesen" --thread diesen --file-prefix youtube-glenn-diesen`.
 
 ## Mearsheimer ledger
 

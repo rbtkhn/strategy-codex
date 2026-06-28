@@ -8,11 +8,11 @@ Book chapter for Interviews episode 4 — Volume VI Part I; divergence end-box p
 
 ## Core sources
 
-- `vi-04` → [interviews-04-danny-haiphong-predictions-2026-trump-iran-empire-collapse.md](lectures/interviews-04-danny-haiphong-predictions-2026-trump-iran-empire-collapse.md)
+- `vi-04` → [interviews-04-danny-haiphong-predictions-2026-trump-iran-empire-collapse.md](../lectures/interviews-04-danny-haiphong-predictions-2026-trump-iran-empire-collapse.md)
 
 ## Core analysis
 
-- `vi-04` → [H5lCJ0D4DpY-interviews-04-analysis.md](analysis/H5lCJ0D4DpY-interviews-04-analysis.md)
+- `vi-04` → [H5lCJ0D4DpY-interviews-04-analysis.md](../analysis/H5lCJ0D4DpY-interviews-04-analysis.md)
 
 ## Key concepts
 

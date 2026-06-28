@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Crooke theme in which a pressured 
 
 ## Cybernetic Activation
 
-Crooke-side activation surface: [Monroe reassertion and hegemonic retrenchment](../../../../speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md)
+Crooke-side activation surface: [Monroe reassertion and hegemonic retrenchment](../../../voices/crooke/monroe-reassertion-and-hegemonic-retrenchment.md)
 
 ## Backward Historical Question
 

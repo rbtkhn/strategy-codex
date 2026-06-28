@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 3 — Volume IV Part I; divergence end-box 
 
 ## Core sources
 
-- `gt-03` → [game-theory-03-rich-dad-poor-dad.md](lectures/game-theory-03-rich-dad-poor-dad.md)
+- `gt-03` → [game-theory-03-rich-dad-poor-dad.md](../lectures/game-theory-03-rich-dad-poor-dad.md)
 
 ## Core analysis
 
-- `gt-03` → [MX93U4KzA28-game-theory-03-analysis.md](analysis/MX93U4KzA28-game-theory-03-analysis.md)
+- `gt-03` → [MX93U4KzA28-game-theory-03-analysis.md](../analysis/MX93U4KzA28-game-theory-03-analysis.md)
 
 ## Key concepts
 

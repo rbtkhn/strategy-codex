@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 28 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-28` → [secret-history-28-pax-judaica.md](lectures/secret-history-28-pax-judaica.md)
+- `sh-28` → [secret-history-28-pax-judaica.md](../lectures/secret-history-28-pax-judaica.md)
 
 ## Core analysis
 

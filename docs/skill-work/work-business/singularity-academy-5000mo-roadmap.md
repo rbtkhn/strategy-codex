@@ -70,8 +70,8 @@ Use existing repo artifacts before creating anything larger.
 
 Core proof set:
 
-- [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
-- [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
+- [cici-ai Daily Telegram Brief](../../../singularity/work-cici/cici-ai-daily-telegram-brief.md)
+- [cici-ai Daily Brief Control-Plane Pilot](../../../singularity/work-cici/cici-ai-daily-brief-control-plane-pilot.md)
 - [Apprentice Studio - 30-Day Pilot](../../../essays/apprentice-studio-30-day-pilot.md)
 - [Agent control plane](../../../essays/agent-control-plane.md)
 - [Strategy-Codex Quality Contract Offer](strategy-codex-quality-contract-offer.md)

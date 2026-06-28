@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 11 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-11` → [secret-history-11-dawn-of-the-human-imagination.md](lectures/secret-history-11-dawn-of-the-human-imagination.md)
+- `sh-11` → [secret-history-11-dawn-of-the-human-imagination.md](../lectures/secret-history-11-dawn-of-the-human-imagination.md)
 
 ## Core analysis
 

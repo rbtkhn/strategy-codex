@@ -5,7 +5,7 @@ Public intake command: `predictive-history`. Legacy `work-jiang` remains as a co
 > [!IMPORTANT]
 > **Freeze status:** Predictive History canonical edits now belong in **[`rbtkhn/ph-workshop`](https://github.com/rbtkhn/ph-workshop)**. The `codex/predictive-history/` tree inside `strategy-codex` is **frozen migration residue / historical reference only** during episode-by-episode migration. Do not treat it as a live writable lane. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
 
-Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-think.md), [skill-write](skill-write.md), [work-alpha-school](work-alpha-school.md).
+Operator project — **Jiang** (separate from SKILLS). See [skill-think](../../skill-think.md), [skill-write](../../skill-write.md), [work-alpha-school](work-alpha-school.md).
 
 ## Purpose
 
@@ -13,7 +13,7 @@ This file now documents the **local review/stewardship boundary** around a froze
 
 Historical purpose of this local tree was to deliver a multivolume **Predictive History** book/site corpus. That canonical build now lives externally; this repo may only observe, review, and critique migrated PH work.
 
-**Canonical library index:** The book is catalogued in [self-library](self-library.md) as **predictive-history (`codex/predictive-history/`)** (removed operator-books symlink is reference-facing; the local `codex/predictive-history/` tree is now frozen reference residue rather than the working manuscript).
+**Canonical library index:** The book is catalogued in [self-library](../../archive/grace-mar-instance/self-library.md) as **predictive-history (`codex/predictive-history/`)** (removed operator-books symlink is reference-facing; the local `codex/predictive-history/` tree is now frozen reference residue rather than the working manuscript).
 
 **Design lens:** Alpha-style mastery vocabulary (gates, “no Swiss cheese,” 2-hour pacing) mapped to this fork’s gate and WORK tools — [alpha-mastery-adaptation.md](../../docs/alpha-mastery-adaptation.md).
 

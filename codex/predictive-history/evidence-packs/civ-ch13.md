@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 13 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-13` → [civilization-13-aristotle-and-the-greek-legacy.md](lectures/civilization-13-aristotle-and-the-greek-legacy.md)
+- `civ-13` → [civilization-13-aristotle-and-the-greek-legacy.md](../lectures/civilization-13-aristotle-and-the-greek-legacy.md)
 
 ## Core analysis
 

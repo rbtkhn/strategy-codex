@@ -20,7 +20,7 @@ Minab is not only a strike allegation. In the speaker-state lattice it becomes a
 - [Ritter 2026-03-14](../../../../../source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md) for the Minab factual scaffold and targeting-logic allegation.
 - [Marandi 2026-04-28](../../../../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) for Iranian moral-register treatment of Minab and Dana.
 - [Mercouris / Parsi 2026-05-06](../../../../../source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md) for blockade failure, U.S. limits, and diplomacy architecture.
-- [Mercouris thread](../../../../years/2026/mercouris/mercouris-thread.md) for the room-read rule: humanitarian, Holy See, MFA, family, and ORBAT registers must stay seamed unless primaries support a merge.
+- [Mercouris thread](../../../../../statecraft/voices/mercouris/mercouris-thread.md) for the room-read rule: humanitarian, Holy See, MFA, family, and ORBAT registers must stay seamed unless primaries support a merge.
 - [Parsi speaker object](../../../../../statecraft/voices/parsi/parsi-speaker-object.md), [Marandi speaker object](../../../../../statecraft/voices/marandi/marandi-speaker-object.md), and [Mercouris speaker object](../../../../../statecraft/voices/mercouris/mercouris-speaker-object.md) for voice roles.
 
 ## Protected Civilian-Harm Pattern

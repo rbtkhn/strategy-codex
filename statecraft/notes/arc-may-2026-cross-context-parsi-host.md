@@ -14,7 +14,7 @@ Purpose: bounded cross-context arc note for the May 2026 Parsi run.
 Current audit state:
 
 - May 2026 is coherent on disk, but still looks thinner than the month's diplomatic importance suggests
-- the live backfill/proof surface is [Parsi + Wilkerson May 2026 backfill attention](../../notes/parsi-wilkerson-may-2026-backfill-attention.md
+- the live backfill/proof surface is [Parsi + Wilkerson May 2026 backfill attention](parsi-wilkerson-may-2026-backfill-attention.md
 - the early-May Duran title drift has resolved back into the already-landed May 6 interview file
 - the most likely true remaining gap is one authored late-May architecture cross-post rather than a missing flood of host appearances
 
@@ -49,4 +49,4 @@ It is better read as:
 
 - [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 - [../parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md
-- [../../../notes/parsi-wilkerson-may-2026-backfill-attention.md](../../notes/parsi-wilkerson-may-2026-backfill-attention.md
+- [../parsi-wilkerson-may-2026-backfill-attention.md](parsi-wilkerson-may-2026-backfill-attention.md

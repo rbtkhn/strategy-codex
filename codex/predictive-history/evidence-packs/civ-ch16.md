@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 16 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-16` → [civilization-16-julius-caesars-will-and-octavians-birth-of-empire.md](lectures/civilization-16-julius-caesars-will-and-octavians-birth-of-empire.md)
+- `civ-16` → [civilization-16-julius-caesars-will-and-octavians-birth-of-empire.md](../lectures/civilization-16-julius-caesars-will-and-octavians-birth-of-empire.md)
 
 ## Core analysis
 

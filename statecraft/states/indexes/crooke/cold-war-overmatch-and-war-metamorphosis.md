@@ -8,7 +8,7 @@ Provide a `civ-state` source scaffold for the Crooke theme in which the late-Col
 
 ## Cybernetic Activation
 
-Crooke-side activation surface: [Cold War overmatch and war metamorphosis](../../../../speakers/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md)
+Crooke-side activation surface: [Cold War overmatch and war metamorphosis](../../../voices/crooke/cold-war-overmatch-and-war-metamorphosis.md)
 
 ## Backward Historical Question
 

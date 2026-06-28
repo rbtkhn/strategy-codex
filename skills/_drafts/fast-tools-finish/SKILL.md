@@ -9,7 +9,7 @@ status: draft
 **Shipped elsewhere (2026-06-12):**
 
 - [coffee/SKILL.md — Harness hang recovery](../../.cursor/skills/coffee/SKILL.md#harness-hang-recovery)
-- [validator-first/SKILL.md — Civ-lens profile wedge](../../.cursor/skills/validator-first/SKILL.md)
+- [validator-first/SKILL.md — Civ-lens profile wedge](../../../.cursor/skills/validator-first/SKILL.md)
 - [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc)
 
 Promote to portable core + manifest only if the pattern repeats outside strategy-codex hosts.

@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 24 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-24` → [secret-history-24-empire-of-church.md](lectures/secret-history-24-empire-of-church.md)
+- `sh-24` → [secret-history-24-empire-of-church.md](../lectures/secret-history-24-empire-of-church.md)
 
 ## Core analysis
 

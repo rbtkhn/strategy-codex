@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 53 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-53` → [civilization-53-dostoevsky-and-the-soul-of-russia.md](lectures/civilization-53-dostoevsky-and-the-soul-of-russia.md)
+- `civ-53` → [civilization-53-dostoevsky-and-the-soul-of-russia.md](../lectures/civilization-53-dostoevsky-and-the-soul-of-russia.md)
 
 ## Core analysis
 

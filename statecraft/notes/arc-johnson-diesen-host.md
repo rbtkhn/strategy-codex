@@ -96,7 +96,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what coercion can no longer practically achieve rather than how the regional picture is being redrawn, route outward to [arc-johnson-davis-host.md](../../notes/arc-johnson-davis-host.md).
+- If the question is mainly about what coercion can no longer practically achieve rather than how the regional picture is being redrawn, route outward to [arc-johnson-davis-host.md](arc-johnson-davis-host.md).
 
 - Johnson is strongest here on geopolitical consequence and widening pressure, not on narrow tactical verification.
 - Prefer this lane when the notebook needs altitude and consequence; prefer the Davis lane for feasibility limits and the Dialogue Works lane for highest-pressure event-surface reading.

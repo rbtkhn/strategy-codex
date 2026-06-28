@@ -34,4 +34,4 @@ The episode fuses operational inference (rescue as window into insertion economi
 
 - **Full verbatim (capture):** [provenance/2026-04-05/duran-source-f15-rescue-hormuz-nato-kiev-2026-04-05.md](../../../source-archive/statecraft/2026-04-05/day-index.md)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-04-05` (`ingest_date` 2026-04-25 in frontmatter)
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../years/2026/provenance/2026-04-05/duran-source-f15-rescue-hormuz-nato-kiev-2026-04-05.md — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../sheets/source-archive-control/2026-04-05/duran-source-f15-rescue-hormuz-nato-kiev-2026-04-05.md — replace TBD watch ID when pinned

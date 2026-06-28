@@ -16,6 +16,6 @@
 
 ## Ledger
 
-Optional rows in `runtime/artifacts/work-dev/proof_ledger.json` ([proof_ledger.schema.json](../../schemas/work_dev/proof_ledger.schema.json)).
+Optional rows in `runtime/artifacts/work-dev/proof_ledger.json` ([proof_ledger.schema.json](../../../schemas/work_dev/proof_ledger.schema.json)).
 
 Run [verify_work_dev_claims.py](../../../scripts/verify_work_dev_claims.py) locally or in CI advisory mode.

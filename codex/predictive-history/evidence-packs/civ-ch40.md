@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 40 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-40` → [civilization-40-church-and-empire.md](lectures/civilization-40-church-and-empire.md)
+- `civ-40` → [civilization-40-church-and-empire.md](../lectures/civilization-40-church-and-empire.md)
 
 ## Core analysis
 

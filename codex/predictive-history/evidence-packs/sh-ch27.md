@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 27 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-27` → [secret-history-27-empire-of-evil.md](lectures/secret-history-27-empire-of-evil.md)
+- `sh-27` → [secret-history-27-empire-of-evil.md](../lectures/secret-history-27-empire-of-evil.md)
 
 ## Core analysis
 

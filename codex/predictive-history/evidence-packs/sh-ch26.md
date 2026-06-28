@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 26 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-26` → [secret-history-26-faith-of-evil.md](lectures/secret-history-26-faith-of-evil.md)
+- `sh-26` → [secret-history-26-faith-of-evil.md](../lectures/secret-history-26-faith-of-evil.md)
 
 ## Core analysis
 

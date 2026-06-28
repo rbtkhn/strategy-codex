@@ -8,11 +8,11 @@ Book chapter for Civilization lecture 20 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-20` → [civilization-20-the-proto-buddhists-of-the-indus-valley-harappan-civilization.md](lectures/civilization-20-the-proto-buddhists-of-the-indus-valley-harappan-civilization.md)
+- `civ-20` → [civilization-20-the-proto-buddhists-of-the-indus-valley-harappan-civilization.md](../lectures/civilization-20-the-proto-buddhists-of-the-indus-valley-harappan-civilization.md)
 
 ## Core analysis
 
-- `civ-20` → [cvI8rukoda8-civilization-20-analysis.md](analysis/cvI8rukoda8-civilization-20-analysis.md)
+- `civ-20` → [cvI8rukoda8-civilization-20-analysis.md](../analysis/cvI8rukoda8-civilization-20-analysis.md)
 
 ## Key concepts
 

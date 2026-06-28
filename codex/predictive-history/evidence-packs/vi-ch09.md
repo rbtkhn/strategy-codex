@@ -8,11 +8,11 @@ Book chapter for Interviews episode 9 — Volume VI Part I; divergence end-box p
 
 ## Core sources
 
-- `vi-09` → [interviews-09-sneako-end-of-the-world.md](lectures/interviews-09-sneako-end-of-the-world.md)
+- `vi-09` → [interviews-09-sneako-end-of-the-world.md](../lectures/interviews-09-sneako-end-of-the-world.md)
 
 ## Core analysis
 
-- `vi-09` → [o1DElACHNRo-interviews-09-analysis.md](analysis/o1DElACHNRo-interviews-09-analysis.md)
+- `vi-09` → [o1DElACHNRo-interviews-09-analysis.md](../analysis/o1DElACHNRo-interviews-09-analysis.md)
 
 ## Key concepts
 

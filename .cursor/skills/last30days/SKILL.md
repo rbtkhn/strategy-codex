@@ -48,8 +48,8 @@ Grace-Mar paths and strategy-notebook routing for `last30days`.
 | Runtime vs Record | [docs/runtime-vs-record.md](../../../docs/runtime-vs-record.md) |
 | Runtime complements | [docs/runtime/runtime-complements.md](../../../docs/runtime/runtime-complements.md) |
 | MCP overview | [docs/mcp/mcp-stack-overview.md](../../../docs/mcp/mcp-stack-overview.md) |
-| Strategy notebook hub | [docs/skill-work/work-strategy/strategy-notebook/README.md](../../../docs/skill-work/work-strategy/strategy-notebook/README.md) |
-| Strategy notebook contract | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md) |
+| Strategy notebook hub | [docs/skill-work/work-strategy/strategy-notebook/README.md](../../../README.md) |
+| Strategy notebook contract | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md](../../../codex/NOTEBOOK-CONTRACT.md) |
 | Strategy daily inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
 | Research skill example | [docs/skills/research/last30days.md](../../../docs/skills/research/last30days.md) |
 

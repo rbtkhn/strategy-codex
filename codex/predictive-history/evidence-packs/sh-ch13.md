@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 13 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-13` → [secret-history-13-mandate-of-heaven.md](lectures/secret-history-13-mandate-of-heaven.md)
+- `sh-13` → [secret-history-13-mandate-of-heaven.md](../lectures/secret-history-13-mandate-of-heaven.md)
 
 ## Core analysis
 

@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-johnson-continuity.md](../../notes/arc-johnson-continuity.md)
+**Canonical:** [johnson-arc.md](../../notes/johnson-arc.md)
 
 Legacy path: `statecraft/voices/johnson/johnson-arc.md` — Pointer only; do not duplicate arc bodies here.

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 49 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-49` → [civilization-49-the-dutch-golden-age-and-the-rise-of-the-middle-class.md](lectures/civilization-49-the-dutch-golden-age-and-the-rise-of-the-middle-class.md)
+- `civ-49` → [civilization-49-the-dutch-golden-age-and-the-rise-of-the-middle-class.md](../lectures/civilization-49-the-dutch-golden-age-and-the-rise-of-the-middle-class.md)
 
 ## Core analysis
 

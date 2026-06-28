@@ -127,12 +127,12 @@ Keep the lens `announced-vs-material`. The drafting claim is that Iran cannot tu
 Open [Transaction Router](transaction-router.md) and ask which settlement spine is actually being drafted.
 
 - If the object is cross-lane and the main question is regional or system-wide bargaining over shipping, sanctions relief, escorts, and verification, route to [Hormuz Transit / Sanctions Relief Compact](../transactions/hormuz-transit-sanctions-relief-compact/).
-- If the object is Iran-lane first and the main question is how Tehran converts restraint into recognition without losing leverage, route to [Hormuz Recognition Transit Transaction](../iran/transactions/hormuz-recognition-transit-transaction.md).
+- If the object is Iran-lane first and the main question is how Tehran converts restraint into recognition without losing leverage, route to [Hormuz Recognition Transit Transaction](../persia/transactions/hormuz-recognition-transit-transaction.md).
 
 The worked example here takes the second path. The fit is not "shipping disruption in general." The fit is "Iran-local recognition through transit restraint."
 
 3. **Spend the braid inside the transaction.**
-In [Hormuz Recognition Transit Transaction](../iran/transactions/hormuz-recognition-transit-transaction.md), the braid becomes a clause with four coupled parts:
+In [Hormuz Recognition Transit Transaction](../persia/transactions/hormuz-recognition-transit-transaction.md), the braid becomes a clause with four coupled parts:
 
 - transit guarantee
 - reciprocal security recognition

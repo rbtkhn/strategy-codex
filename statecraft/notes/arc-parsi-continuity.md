@@ -14,12 +14,12 @@ Purpose: define `arc-parsi-continuity` as the canonical person-level continuity 
 ## Separation Rule
 
 - `arc-parsi-continuity` = whole-speaker continuity across authored and interview contexts, hosts, and time
-- [parsi-routing.md](parsi-routing.md) = fast context-and-task routing
-- [stream/parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md) = recurring cross-context thread atlas
-- [parsi-helix.md](parsi-helix.md) = authored/interview crossing
-- [parsi-speaker-object.md](parsi-speaker-object.md) = object-definition and stack note
-- [stream/parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md) = authored diplomacy mechanism
-- [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md) = interview-pressure surface
+- [parsi-routing.md](../voices/parsi/parsi-routing.md) = fast context-and-task routing
+- [stream/parsi-2025-present-arc-threads.md](../voices/parsi/parsi-2025-present-arc-threads.md) = recurring cross-context thread atlas
+- [parsi-helix.md](../voices/parsi/parsi-helix.md) = authored/interview crossing
+- [parsi-speaker-object.md](../voices/parsi/parsi-speaker-object.md) = object-definition and stack note
+- [stream/parsi-forecast-ledger-2025-2026.md](../voices/parsi/parsi-forecast-ledger-2025-2026.md) = authored diplomacy mechanism
+- [parsi-interview-appearances-2025-2026.md](../voices/parsi/parsi-interview-appearances-2025-2026.md) = interview-pressure surface
 
 ## Arc Shape
 

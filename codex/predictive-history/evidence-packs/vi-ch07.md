@@ -8,11 +8,11 @@ Book chapter for Interviews episode 7 — Volume VI Part I; divergence end-box p
 
 ## Core sources
 
-- `vi-07` → [interviews-07-breaking-points-krystal-saagar-us-will-lose-iran-war.md](lectures/interviews-07-breaking-points-krystal-saagar-us-will-lose-iran-war.md)
+- `vi-07` → [interviews-07-breaking-points-krystal-saagar-us-will-lose-iran-war.md](../lectures/interviews-07-breaking-points-krystal-saagar-us-will-lose-iran-war.md)
 
 ## Core analysis
 
-- `vi-07` → [4Ql24Z8SIeE-interviews-07-analysis.md](analysis/4Ql24Z8SIeE-interviews-07-analysis.md)
+- `vi-07` → [4Ql24Z8SIeE-interviews-07-analysis.md](../analysis/4Ql24Z8SIeE-interviews-07-analysis.md)
 
 ## Key concepts
 

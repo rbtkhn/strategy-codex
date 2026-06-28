@@ -79,7 +79,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what military means can still realistically achieve rather than how escalation propagates across theaters, route outward to [arc-ritter-davis-host.md](../../notes/arc-ritter-davis-host.md).
+- If the question is mainly about what military means can still realistically achieve rather than how escalation propagates across theaters, route outward to [arc-ritter-davis-host.md](arc-ritter-davis-host.md).
 
 - This guest run is no longer small; it is a real 15-appearance cross-year branch with both Europe-theater and Iran-war shelves.
 - The April 17 file is not a full cleaned transcript; it is a unified lane-split SSOT / triage-spine capture.

@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 41 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-41` → [civilization-41-dante-s-quiet-revolution.md](lectures/civilization-41-dante-s-quiet-revolution.md)
+- `civ-41` → [civilization-41-dante-s-quiet-revolution.md](../lectures/civilization-41-dante-s-quiet-revolution.md)
 
 ## Core analysis
 

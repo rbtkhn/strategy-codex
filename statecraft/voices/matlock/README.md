@@ -27,7 +27,7 @@ Matlock is therefore best read as a **single-helix, Diesen-anchored diplomatic-m
 - [2025-03-27 Diesen x Matlock](../../../source-archive/statecraft/2025-03-27/day-index.md)
 - [2025-12-10 Diesen x Matlock](../../../source-archive/statecraft/2025-12-10/day-index.md)
 - [2025-06-21 Diesen x Matlock](../../../source-archive/statecraft/2025-06-21/day-index.md)
-- [2025-09-01 Diesen x Matlock](../../../../../../../../codex/years/2025/provenance/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
+- [2025-09-01 Diesen x Matlock](../../../../../../../../../../../../../../codex/years/2025/provenance/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
 
 ## Boundary
 

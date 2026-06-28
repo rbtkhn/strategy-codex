@@ -5,8 +5,8 @@ WORK only; not Record.
 ## Pair Under Review
 
 - Lane: `Iran`
-- Civilization-side object: [Iran state memory](../../iran/civilization/objects/state-memory.md)
-- Empire-side object: [Iran empire instrument](../../iran/empire/seed-instruments.md)
+- Civilization-side object: [Iran state memory](../../persia/civilization/objects/state-memory.md)
+- Empire-side object: [Iran empire instrument](../../persia/empire/seed-instruments.md)
 - Current statuses: `cut_over` / `cut_over`
 - Reviewer / date: Codex / 2026-05-22
 

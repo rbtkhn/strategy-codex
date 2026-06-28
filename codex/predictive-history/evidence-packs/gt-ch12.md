@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 12 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-12` → [game-theory-12-the-law-of-eschatological-convergence.md](lectures/game-theory-12-the-law-of-eschatological-convergence.md)
+- `gt-12` → [game-theory-12-the-law-of-eschatological-convergence.md](../lectures/game-theory-12-the-law-of-eschatological-convergence.md)
 
 ## Core analysis
 
-- `gt-12` → [spg58Glfz68-game-theory-12-analysis.md](analysis/spg58Glfz68-game-theory-12-analysis.md)
+- `gt-12` → [spg58Glfz68-game-theory-12-analysis.md](../analysis/spg58Glfz68-game-theory-12-analysis.md)
 
 ## Key concepts
 

@@ -16,6 +16,6 @@ note: Optional one-line capture context.
 
 ```
 
-If **`pub_date`** is unknown, save under [`provenance/_aired-pending/`](../_aired-pending/) until pinned — see [README § Layout](../README.md#layout).
+If **`pub_date`** is unknown, save under [`../../../source-archive/statecraft/_aired-pending/`](../_aired-pending/) until pinned — see [README § Layout](../README.md#layout).
 
 Contract: [`strategy-input-raw-ingest.mdc`](../../../../../../.cursor/rules/strategy-input-raw-ingest.mdc) · [README § File template](../README.md#file-template-recommended)

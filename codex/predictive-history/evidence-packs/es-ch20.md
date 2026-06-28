@@ -8,11 +8,11 @@ Book chapter for essay 20 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-20` → [secret-history-10-the-war-of-heaven.md](substack/essays/secret-history-10-the-war-of-heaven.md)
+- `es-20` → [secret-history-10-the-war-of-heaven.md](../substack/essays/secret-history-10-the-war-of-heaven.md)
 
 ## Core analysis
 
-- `es-20` → [essay-secret-history-10-the-war-of-heaven-analysis.md](analysis/essay-secret-history-10-the-war-of-heaven-analysis.md)
+- `es-20` → [essay-secret-history-10-the-war-of-heaven-analysis.md](../analysis/essay-secret-history-10-the-war-of-heaven-analysis.md)
 
 ## Key concepts
 

@@ -38,7 +38,7 @@ military feasibility, battlefield dynamics, and policy risk.
 
 ## Source / Provenance Notes
 
-- Shared raw input lives under [`../../../years/2026/provenance/`](../../years/2026/provenance/.
+- Shared raw input lives under [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/.
 - Use readable case-family labels plus exact civ-mem paths when known.
 
 WORK only; not Record.

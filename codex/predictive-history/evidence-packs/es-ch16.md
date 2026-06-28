@@ -8,11 +8,11 @@ Book chapter for essay 16 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-16` → [war-machine-usa.md](substack/essays/war-machine-usa.md)
+- `es-16` → [war-machine-usa.md](../substack/essays/war-machine-usa.md)
 
 ## Core analysis
 
-- `es-16` → [essay-war-machine-usa-analysis.md](analysis/essay-war-machine-usa-analysis.md)
+- `es-16` → [essay-war-machine-usa-analysis.md](../analysis/essay-war-machine-usa-analysis.md)
 
 ## Key concepts
 

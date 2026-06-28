@@ -92,7 +92,7 @@ When the operator begins with **`coffee`** (or clearly the same intent; legacy *
 **Python resolution order for new-chat coffee:**
 
 1. Prefer a repo-local virtualenv interpreter when present:
-   `C:\dev\strategy-codex\.venv\Scripts\python.exe`
+   `../../../.venv/Scripts/python.exe`
 2. Otherwise prefer a working shell executable in this order: `python3`, then `python`, then `py -3`.
 3. If none of those resolve, load the Codex bundled workspace runtime and use its Python:
    `C:\Users\rober\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`

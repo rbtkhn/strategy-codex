@@ -28,7 +28,7 @@
 | work-curate-library | [work-curate-library/work-curate-library-history.md](work-curate-library/work-curate-library-history.md) |
 | work-health-fitness | [work-health-fitness/work-health-fitness-history.md](work-health-fitness/work-health-fitness-history.md) |
 | work-human-teacher | [work-human-teacher/work-human-teacher-history.md](work-human-teacher/work-human-teacher-history.md) |
-| work-cici | [work-cici/work-cici-history.md](work-cici/work-cici-history.md) |
+| work-cici | [work-cici/work-cici-history.md](../../singularity/work-cici/README.md) |
 | work-civ-mem | [work-civ-mem/work-civ-mem-history.md](work-civ-mem/work-civ-mem-history.md) |
 | work-elicitation | [work-elicitation/work-elicitation-history.md](work-elicitation/work-elicitation-history.md) |
 | work-cadence | [work-cadence/work-cadence-events.md](work-cadence/work-cadence-events.md) *(per-run telemetry, not design history)* |

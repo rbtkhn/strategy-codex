@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 4 — Volume II Part I; divergence end-box
 
 ## Core sources
 
-- `civ-04` → [civilization-04-the-paradise-lost-of-marija-gimbutas.md](lectures/civilization-04-the-paradise-lost-of-marija-gimbutas.md)
+- `civ-04` → [civilization-04-the-paradise-lost-of-marija-gimbutas.md](../lectures/civilization-04-the-paradise-lost-of-marija-gimbutas.md)
 
 ## Core analysis
 

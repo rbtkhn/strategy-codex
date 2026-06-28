@@ -5,14 +5,14 @@
 
 **Audience:** Operator / work-strategy stakeholders  
 **Date:** 2026-04-10  
-**Subject:** Outcomes of delivering a **runnable calibration** for [`skill-strategy`](../../../../.cursor/skills/skill-strategy/SKILL.md) using three ingested analyst transcripts  
+**Subject:** Outcomes of delivering a **runnable calibration** for [`skill-strategy`](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) using three ingested analyst transcripts  
 **Scope:** WORK territory only — not companion Record, not public campaign copy
 
 ---
 
 ## Executive summary
 
-1. **Delivered:** A single operator playbook ([`DEMO-SKILL-STRATEGY-TRANSCRIPTS.md`](DEMO-SKILL-STRATEGY-TRANSCRIPTS.md)), a **read-only preflight script** ([`scripts/demo_skill_strategy_transcripts_check.sh`](../../../../scripts/demo_skill_strategy_transcripts_check.sh)), and **discoverability** links from the strategy-notebook [`README.md`](../README.md) and [`work-strategy-history.md`](../../work-strategy-history.md). Baseline commit: `601be32`.
+1. **Delivered:** A single operator playbook ([`DEMO-SKILL-STRATEGY-TRANSCRIPTS.md`](DEMO-SKILL-STRATEGY-TRANSCRIPTS.md)), a **read-only preflight script** ([`scripts/demo_skill_strategy_transcripts_check.sh`](../../scripts/demo_skill_strategy_transcripts_check.sh)), and **discoverability** links from the strategy-notebook [`README.md`](../README.md) and [`work-strategy-history.md`](../../work-strategy-history.md). Baseline commit: `601be32`.
 
 2. **Corpus:** Three **2026-04-10** transcript digests are present and indexed (Diesen × Mearsheimer; Mercouris Good Friday; Davis × Crooke). The preflight script confirms on-disk presence; it does **not** judge analytical quality.
 
@@ -41,7 +41,7 @@
 | Artifact | Role |
 |----------|------|
 | [`DEMO-SKILL-STRATEGY-TRANSCRIPTS.md`](DEMO-SKILL-STRATEGY-TRANSCRIPTS.md) | End-to-end script: Phases 0–5, rubric, results template |
-| [`scripts/demo_skill_strategy_transcripts_check.sh`](../../../../scripts/demo_skill_strategy_transcripts_check.sh) | Preflight: exit 0 iff all three digest files exist |
+| [`scripts/demo_skill_strategy_transcripts_check.sh`](../../scripts/demo_skill_strategy_transcripts_check.sh) | Preflight: exit 0 iff all three digest files exist |
 | [`README.md`](README.md) (strategy-notebook) | Demo / calibration pointer |
 | [`work-strategy-history.md`](../work-strategy-history.md) | Lane log line (2026-04-10) |
 
@@ -94,6 +94,6 @@ Criteria scored Pass / Fail / Notes: notebook-primary; verify discipline; links 
 ## Calibration run — 2026-04-10
 
 - **Notebook log:** [`chapters/2026-04/days.md`](../chapters/2026/2026-04/days.md) — search for `DEMO — skill-strategy calibration`.
-- **Audit rubric (Pass/Fail rows):** [`demo-runs/skill-strategy-results-2026-04-10.md`](demo-runs/skill-strategy-results-2026-04-10.md)
+- **Audit rubric (Pass/Fail rows):** [`demo-runs/skill-strategy-results-2026-04-10.md`](../demo-runs/skill-strategy-results-2026-04-10.md)
 - **Preflight:** `scripts/demo_skill_strategy_transcripts_check.sh` — reported exit 0 in session.
 - **Phases completed:** 1 (Mearsheimer digest only) · 2 (Forties/Brent claim + web verification) · 3 (three-way synthesis + digest paths) · 4 (Mercouris → Mearsheimer → Barnes + CIV-MIND stubs) · 5 (boundary behavior).

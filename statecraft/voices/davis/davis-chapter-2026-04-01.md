@@ -18,6 +18,6 @@ Daily continuity seed for `davis` inside the 2026 strategy-codex volume. Use onl
 
 ## Source Links
 
-- Shared raw input: [`../../../years/2026/provenance/`](../../years/2026/provenance/
+- Shared raw input: [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/
 
 WORK only; not Record.

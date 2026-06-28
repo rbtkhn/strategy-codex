@@ -8,11 +8,11 @@ Book chapter for essay 19 — Volume VII Part I; divergence end-box per CHAPTER-
 
 ## Core sources
 
-- `es-19` → [the-limits-of-pax-judaica.md](substack/essays/the-limits-of-pax-judaica.md)
+- `es-19` → [the-limits-of-pax-judaica.md](../substack/essays/the-limits-of-pax-judaica.md)
 
 ## Core analysis
 
-- `es-19` → [essay-the-limits-of-pax-judaica-analysis.md](analysis/essay-the-limits-of-pax-judaica-analysis.md)
+- `es-19` → [essay-the-limits-of-pax-judaica-analysis.md](../analysis/essay-the-limits-of-pax-judaica-analysis.md)
 
 ## Key concepts
 

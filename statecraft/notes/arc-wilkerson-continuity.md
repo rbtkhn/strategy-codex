@@ -17,7 +17,7 @@ Quick separation rule:
 
 - `arc-wilkerson-continuity` = Wilkerson's canonical continuity across hosts, contexts, and time
 - [legacy Wilkerson helix](../voices/wilkerson/wilkerson-helix.md) = cross-host comparison of the two main host transformations
-- [wilkerson-routing.md](wilkerson-routing.md) = fastest host-selection surface
+- [wilkerson-routing.md](../voices/wilkerson/wilkerson-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Wilkerson under one host's pressure
 
 ## Arc shape
@@ -26,12 +26,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Wilkerson](../../notes/arc-wilkerson-diesen-host.md) - imperial-decline altitude and systemic consequence
-2. [Dialogue Works x Wilkerson](../../notes/arc-wilkerson-nima-host.md) - live crisis pressure and military-statecraft warning
+1. [Diesen x Wilkerson](arc-wilkerson-diesen-host.md) - imperial-decline altitude and systemic consequence
+2. [Dialogue Works x Wilkerson](arc-wilkerson-nima-host.md) - live crisis pressure and military-statecraft warning
 
 Auxiliary reinforcement:
 
-- [Napolitano x Wilkerson](../../notes/arc-wilkerson-napolitano-host.md)
+- [Napolitano x Wilkerson](arc-wilkerson-napolitano-host.md)
 
 ## What makes this an arc
 
@@ -56,11 +56,11 @@ If the operator needs the strongest whole-speaker comparative entry:
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [wilkerson-routing.md](wilkerson-routing.md)
+- open [wilkerson-routing.md](../voices/wilkerson/wilkerson-routing.md)
 
 If the operator needs the cleanest structural anchor:
 
-- open [Diesen x Wilkerson](../../notes/arc-wilkerson-diesen-host.md)
+- open [Diesen x Wilkerson](arc-wilkerson-diesen-host.md)
 
 ## Boundary
 

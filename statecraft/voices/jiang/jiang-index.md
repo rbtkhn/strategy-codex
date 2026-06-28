@@ -10,7 +10,7 @@ This is the Jiang-facing provenance bench for statecraft work.
 - [source-archive/statecraft/](../../../source-archive/statecraft/README.md) for raw transcript and source captures
 - [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) for the raw local Jiang / Predictive History capture list
 - [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md) for public mirror corpus counts, source-video table, and layer SSOT
-- [predictive-history-index.md](../../../public/predictive-history/docs/predictive-history-index.md) for the inbound public mirror catalog hub (retired `ph-civ/` paths)
+- [predictive-history-index.md](../../../public/predictive-history/docs/predictive-history-index.md) for the inbound public mirror catalog hub (retired `../../../public/predictive-history/` paths)
 
 ## Bench rule
 

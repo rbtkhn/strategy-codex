@@ -8,11 +8,11 @@ Book chapter for Secret History lecture 1 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-01` → [secret-history-01-how-power-works.md](lectures/secret-history-01-how-power-works.md)
+- `sh-01` → [secret-history-01-how-power-works.md](../lectures/secret-history-01-how-power-works.md)
 
 ## Core analysis
 
-- `sh-01` → [lt8XLz78ZvY-secret-history-01-analysis.md](analysis/lt8XLz78ZvY-secret-history-01-analysis.md)
+- `sh-01` → [lt8XLz78ZvY-secret-history-01-analysis.md](../analysis/lt8XLz78ZvY-secret-history-01-analysis.md)
 
 ## Key concepts
 

@@ -48,7 +48,7 @@ These are **guidance** for tools and UIs. Unknown future strings may exist; **sc
 | **Strategy run state** (`runtime/artifacts/strategy-runs/…/state.json`) | One **session envelope**: resumable run, `proposed_outputs` pointers, lifecycle `status`. |
 | **Run receipt** (`schemas/registry/run-receipt.v1.json`) | One **event** (e.g. `start`, `complete`): files read/touched, `result_status`, `run_id`. |
 | **Execution receipt** ([`execution-receipt.v1.json`](../schemas/registry/execution-receipt.v1.json)) | **Runtime worker / task** domain — different shape; do not merge schemas blindly. |
-| **Notebook script JSONL** ([STRATEGY-NOTEBOOK-TRACE-CONTRACT](skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md)) | **Per-entrypoint** line audit (`strategy_page`, `compile_strategy_view`, …) — *which files a script read or wrote*. Complements session-scoped run state. |
+| **Notebook script JSONL** ([STRATEGY-NOTEBOOK-TRACE-CONTRACT](../codex/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md)) | **Per-entrypoint** line audit (`strategy_page`, `compile_strategy_view`, …) — *which files a script read or wrote*. Complements session-scoped run state. |
 
 ## Links
 

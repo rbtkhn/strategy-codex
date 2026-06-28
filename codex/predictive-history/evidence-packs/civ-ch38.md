@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 38 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-38` → [civilization-38-twilight-of-the-middle-kingdom.md](lectures/civilization-38-twilight-of-the-middle-kingdom.md)
+- `civ-38` → [civilization-38-twilight-of-the-middle-kingdom.md](../lectures/civilization-38-twilight-of-the-middle-kingdom.md)
 
 ## Core analysis
 

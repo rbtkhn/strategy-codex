@@ -114,5 +114,5 @@ Some analyses may link structured predictions to **real** markets (e.g. Polymark
 ## Related
 
 - [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md) â€” transcript + analysis layers  
-- [codex/predictive-history/README-operator.md](./README-operator.md) â€” project purpose  
+- [codex/predictive-history/README-operator.md](../README-operator.md) â€” project purpose  
 

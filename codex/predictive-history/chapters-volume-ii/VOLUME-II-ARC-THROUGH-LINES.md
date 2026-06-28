@@ -40,4 +40,4 @@ When curating end-of-chapter **divergence** boxes (not prediction scorecards), a
 - Part I box contract: [`CHAPTER-DIVERGENCE-BOX.md`](../CHAPTER-DIVERGENCE-BOX.md)
 - Part II spec: [`book/PART-II-CIVILIZATION-DIVERGENCE.md`](../book/PART-II-CIVILIZATION-DIVERGENCE.md)
 - Book prose anchor: [`book/VOLUME-II-CIVILIZATION.md`](../book/VOLUME-II-CIVILIZATION.md)
-- Conventions + pilot checklist: [`codex/predictive-history/volume-ii-book-track-conventions.md`](./volume-ii-book-track-conventions.md)
+- Conventions + pilot checklist: [`codex/predictive-history/volume-ii-book-track-conventions.md`](../volume-ii-book-track-conventions.md)

@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 5 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-05` → [secret-history-05-the-birth-of-evil.md](lectures/secret-history-05-the-birth-of-evil.md)
+- `sh-05` → [secret-history-05-the-birth-of-evil.md](../lectures/secret-history-05-the-birth-of-evil.md)
 
 ## Core analysis
 

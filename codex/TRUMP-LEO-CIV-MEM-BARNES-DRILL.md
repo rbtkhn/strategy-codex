@@ -3,7 +3,7 @@
 
 **Purpose:** Repeatable **WORK** protocol for a **`strategy`** pass that layers **civilization_memory** MEM reads under **Recipe A** (Barnes-only) and **[CIV-MIND-BARNES.md](minds/CIV-MIND-BARNES.md) § VII** (Trump–Leo × Iran stack). **Not** Record; tier-A claims still need wires / [ROME-PASS.md](../../work-strategy-rome/ROME-PASS.md) order for current papal text.
 
-**Pin / checkout:** [`docs/ci/civilization_memory_upstream.env`](../../ci/civilization_memory_upstream.env) → `research/repos/civilization_memory/` (see [`scripts/ci/clone_civilization_memory.sh`](../../../../scripts/ci/clone_civilization_memory.sh)).
+**Pin / checkout:** [`docs/ci/civilization_memory_upstream.env`](../../ci/civilization_memory_upstream.env) → `research/repos/civilization_memory/` (see [`scripts/ci/clone_civilization_memory.sh`](../scripts/ci/clone_civilization_memory.sh)).
 
 ---
 
@@ -48,7 +48,7 @@ Map each opened MEM to **one** § VII bullet in [CIV-MIND-BARNES.md § VII](mind
 | Pass | What changes |
 |------|----------------|
 | **Without civ-mem** | § VII checklist + **CIV-MIND-BARNES** I–VI only — still valid; Judgment may be thinner on **historical mechanism**. |
-| **With civ-mem** | Same checklist; **Links** gain **file receipts** (`MEM–…` paths). **Do not** treat MEM text as tier-A proof for **breaking** headlines — [work-strategy-rome manifest](../../work-strategy-rome/manifest.md) / skill **Civilization memory** section. |
+| **With civ-mem** | Same checklist; **Links** gain **file receipts** (`MEM–…` paths). **Do not** treat MEM text as tier-A proof for **breaking** headlines — [work-strategy-rome manifest](academy/theology/MANIFEST.md) / skill **Civilization memory** section. |
 
 ---
 
@@ -62,4 +62,4 @@ Map each opened MEM to **one** § VII bullet in [CIV-MIND-BARNES.md § VII](mind
 ## Cross-links
 
 - [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md) — Recipe A (Barnes-only fast pass).
-- [work-civ-mem README](../README.md) — stewardship; [workspace.md](../work-civ-mem/workspace.md) — pin + consumer notes.
+- [work-civ-mem README](../README.md) — stewardship; [workspace.md](../singularity/work-cici/work-dev-mirror/workspace.md) — pin + consumer notes.

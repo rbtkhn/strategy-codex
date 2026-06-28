@@ -61,7 +61,7 @@ Promotion and refresh defaults: [strategy-expert-template.md section Voice finge
 ## Automation target
 
 1. `https://www.youtube.com/@dialogueworks01/videos` -> `thread: nima`
-2. Graph-first YouTube queue: [`youtube-transcript-queue.md`](../../../docs/skill-work/work-strategy/strategy-notebook/raw-input/youtube-transcript-queue.md) and [`scripts/backfill_nima_youtube_raw_input.py`](../../../../scripts/backfill_nima_youtube_raw_input.py)
+2. Graph-first YouTube queue: [`youtube-transcript-queue.md`](../../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) and [`scripts/backfill_nima_youtube_raw_input.py`](../../../scripts/backfill_nima_youtube_raw_input.py)
 
 ## Links
 

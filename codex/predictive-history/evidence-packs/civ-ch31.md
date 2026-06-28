@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 31 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-31` → [civilization-31-the-oceanic-currents-of-history.md](lectures/civilization-31-the-oceanic-currents-of-history.md)
+- `civ-31` → [civilization-31-the-oceanic-currents-of-history.md](../lectures/civilization-31-the-oceanic-currents-of-history.md)
 
 ## Core analysis
 

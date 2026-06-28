@@ -20,7 +20,7 @@ This is an operator roadmap, not new doctrine.
 
 **Likely surfaces:**
 
-- [statecraft.md](statecraft.md)
+- [statecraft.md](../README.md)
 - [README.md](README.md)
 - [.cursor/skills/state-deploy/SKILL.md](../../.cursor/skills/state-deploy/SKILL.md)
 
@@ -100,8 +100,8 @@ This is an operator roadmap, not new doctrine.
 
 **Likely surfaces:**
 
-- [statecraft.md](statecraft.md)
-- [sheets/transaction-router.md](sheets/transaction-router.md)
+- [statecraft.md](../README.md)
+- [sheets/transaction-router.md](../sheets/transaction-router.md)
 - active lane notes and transactions as they are touched
 
 **Implementation order:**
@@ -116,7 +116,7 @@ This is an operator roadmap, not new doctrine.
 
 Begin every statecraft session like this:
 
-1. reopen from [statecraft.md](statecraft.md) when continuity is not already live
+1. reopen from [statecraft.md](../README.md) when continuity is not already live
 2. settle lane ownership before reaching for bridge interpretation
 3. ask for the narrowest honest output form before drafting mechanism
 4. decide whether the session should:

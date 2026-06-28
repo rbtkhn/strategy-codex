@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 8 — Volume III Part I; divergence end-
 
 ## Core sources
 
-- `sh-08` → [secret-history-08-death-by-bureaucracy.md](lectures/secret-history-08-death-by-bureaucracy.md)
+- `sh-08` → [secret-history-08-death-by-bureaucracy.md](../lectures/secret-history-08-death-by-bureaucracy.md)
 
 ## Core analysis
 

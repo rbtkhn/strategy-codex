@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 23 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-23` → [civilization-23-cyrus-the-great-as-messiah.md](lectures/civilization-23-cyrus-the-great-as-messiah.md)
+- `civ-23` → [civilization-23-cyrus-the-great-as-messiah.md](../lectures/civilization-23-cyrus-the-great-as-messiah.md)
 
 ## Core analysis
 

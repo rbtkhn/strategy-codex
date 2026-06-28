@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 54 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-54` → [civilization-54-the-german-will-to-power.md](lectures/civilization-54-the-german-will-to-power.md)
+- `civ-54` → [civilization-54-the-german-will-to-power.md](../lectures/civilization-54-the-german-will-to-power.md)
 
 ## Core analysis
 

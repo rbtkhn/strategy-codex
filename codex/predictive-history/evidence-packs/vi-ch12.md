@@ -8,11 +8,11 @@ Book chapter for Interviews episode 12 — Volume VI Part I; divergence end-box 
 
 ## Core sources
 
-- `vi-12` → [interviews-12-j-shapiro-truth-myth-personal-path.md](lectures/interviews-12-j-shapiro-truth-myth-personal-path.md)
+- `vi-12` → [interviews-12-j-shapiro-truth-myth-personal-path.md](../lectures/interviews-12-j-shapiro-truth-myth-personal-path.md)
 
 ## Core analysis
 
-- `vi-12` → [oErKnj_uyPA-interviews-12-analysis.md](analysis/oErKnj_uyPA-interviews-12-analysis.md)
+- `vi-12` → [oErKnj_uyPA-interviews-12-analysis.md](../analysis/oErKnj_uyPA-interviews-12-analysis.md)
 
 ## Key concepts
 

@@ -8,11 +8,11 @@ Book chapter for essay 3 — Volume VII Part I; divergence end-box per CHAPTER-D
 
 ## Core sources
 
-- `es-03` → [the-third-coming.md](substack/essays/the-third-coming.md)
+- `es-03` → [the-third-coming.md](../substack/essays/the-third-coming.md)
 
 ## Core analysis
 
-- `es-03` → [essay-the-third-coming-analysis.md](analysis/essay-the-third-coming-analysis.md)
+- `es-03` → [essay-the-third-coming-analysis.md](../analysis/essay-the-third-coming-analysis.md)
 
 ## Key concepts
 

@@ -8,11 +8,11 @@ Book chapter for Interviews episode 14 — Volume VI Part I; divergence end-box 
 
 ## Core sources
 
-- `vi-14` → [interviews-14-glenn-diesen-iran-war-petrodollar.md](lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md)
+- `vi-14` → [interviews-14-glenn-diesen-iran-war-petrodollar.md](../lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md)
 
 ## Core analysis
 
-- `vi-14` → [P_DHMUdOVdo-interviews-14-analysis.md](analysis/P_DHMUdOVdo-interviews-14-analysis.md)
+- `vi-14` → [P_DHMUdOVdo-interviews-14-analysis.md](../analysis/P_DHMUdOVdo-interviews-14-analysis.md)
 
 ## Key concepts
 

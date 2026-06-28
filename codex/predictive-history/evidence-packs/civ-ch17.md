@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 17 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-17` → [civilization-17-homer-virgil-and-the-war-for-the-soul-of-rome.md](lectures/civilization-17-homer-virgil-and-the-war-for-the-soul-of-rome.md)
+- `civ-17` → [civilization-17-homer-virgil-and-the-war-for-the-soul-of-rome.md](../lectures/civilization-17-homer-virgil-and-the-war-for-the-soul-of-rome.md)
 
 ## Core analysis
 

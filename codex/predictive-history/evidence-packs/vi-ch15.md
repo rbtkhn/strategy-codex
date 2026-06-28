@@ -8,11 +8,11 @@ Book chapter for Interviews episode 15 — Volume VI Part I; divergence end-box 
 
 ## Core sources
 
-- `vi-15` → [interviews-15-sneako-jiang-xueqin-dugin-eschatology.md](lectures/interviews-15-sneako-jiang-xueqin-dugin-eschatology.md)
+- `vi-15` → [interviews-15-sneako-jiang-xueqin-dugin-eschatology.md](../lectures/interviews-15-sneako-jiang-xueqin-dugin-eschatology.md)
 
 ## Core analysis
 
-- `vi-15` → [n44OF1Y7zgo-interviews-15-analysis.md](analysis/n44OF1Y7zgo-interviews-15-analysis.md)
+- `vi-15` → [n44OF1Y7zgo-interviews-15-analysis.md](../analysis/n44OF1Y7zgo-interviews-15-analysis.md)
 
 ## Key concepts
 

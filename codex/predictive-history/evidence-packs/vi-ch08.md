@@ -8,11 +8,11 @@ Book chapter for Interviews episode 8 — Volume VI Part I; divergence end-box p
 
 ## Core sources
 
-- `vi-08` → [interviews-08-nima-iran-war-watershed-middle-east-forever.md](lectures/interviews-08-nima-iran-war-watershed-middle-east-forever.md)
+- `vi-08` → [interviews-08-nima-iran-war-watershed-middle-east-forever.md](../lectures/interviews-08-nima-iran-war-watershed-middle-east-forever.md)
 
 ## Core analysis
 
-- `vi-08` → [0rIgZD-tk3s-interviews-08-analysis.md](analysis/0rIgZD-tk3s-interviews-08-analysis.md)
+- `vi-08` → [0rIgZD-tk3s-interviews-08-analysis.md](../analysis/0rIgZD-tk3s-interviews-08-analysis.md)
 
 ## Key concepts
 

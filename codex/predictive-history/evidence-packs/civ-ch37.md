@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 37 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-37` → [civilization-37-the-golden-age-of-islam.md](lectures/civilization-37-the-golden-age-of-islam.md)
+- `civ-37` → [civilization-37-the-golden-age-of-islam.md](../lectures/civilization-37-the-golden-age-of-islam.md)
 
 ## Core analysis
 

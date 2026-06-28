@@ -33,7 +33,7 @@ Copy into a weekly brief, explainer draft, or social thread scaffold. **Human ap
 
 ### Verify tier (optional — use when numbers or scope may ship publicly)
 
-Mirror [strategy-notebook](../../strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) **+ verify** habit: list **3–5 load-bearing claims** (casualties, ship counts, oil price, “Lebanon in/out,” official quotes), each with **dated source URL** or “refresh by” note. Omit this block only when the piece stays purely interpretive.
+Mirror [strategy-notebook](../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) **+ verify** habit: list **3–5 load-bearing claims** (casualties, ship counts, oil price, “Lebanon in/out,” official quotes), each with **dated source URL** or “refresh by” note. Omit this block only when the piece stays purely interpretive.
 
 | Claim | Source / date | Stale risk |
 |-------|-----------------|------------|

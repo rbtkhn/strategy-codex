@@ -8,7 +8,7 @@ Book chapter for Civilization lecture 57 — Volume II Part I; divergence end-bo
 
 ## Core sources
 
-- `civ-57` → [civilization-57-how-modernism-ruined-everything.md](lectures/civilization-57-how-modernism-ruined-everything.md)
+- `civ-57` → [civilization-57-how-modernism-ruined-everything.md](../lectures/civilization-57-how-modernism-ruined-everything.md)
 
 ## Core analysis
 

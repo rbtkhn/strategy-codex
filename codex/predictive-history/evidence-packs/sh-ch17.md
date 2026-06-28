@@ -8,7 +8,7 @@ Book chapter for Secret History lecture 17 — Volume III Part I; divergence end
 
 ## Core sources
 
-- `sh-17` → [secret-history-17-literary-genesis.md](lectures/secret-history-17-literary-genesis.md)
+- `sh-17` → [secret-history-17-literary-genesis.md](../lectures/secret-history-17-literary-genesis.md)
 
 ## Core analysis
 

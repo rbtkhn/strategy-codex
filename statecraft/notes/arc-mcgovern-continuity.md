@@ -62,6 +62,6 @@ Those files are enough to confirm a real multi-host retrieval pattern with a cle
 
 ## Open First
 
-Open [Diesen x McGovern](../../notes/arc-mcgovern-diesen-host.md) first when the question is how strategic reality, Russia, NATO, or Europe-order consequence should be read by someone with intelligence memory.
+Open [Diesen x McGovern](arc-mcgovern-diesen-host.md) first when the question is how strategic reality, Russia, NATO, or Europe-order consequence should be read by someone with intelligence memory.
 
-Open [mcgovern-routing.md](mcgovern-routing.md) first when the question is which host transformation best matches the task.
+Open [mcgovern-routing.md](../voices/mcgovern/mcgovern-routing.md) first when the question is which host transformation best matches the task.

@@ -3,7 +3,7 @@
 
 > **Legacy demo (2026-04).** Phase 4 **tri-frame** choreography is **obsolete** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Keep this playbook for **notebook / verify / synthesis** calibration; substitute **`state-synthesis`** / runbook or **single named mind** for new lens exercises.
 
-**Purpose:** Runnable calibration for [skill-strategy](../../../../.cursor/skills/skill-strategy/SKILL.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). **WORK only** — not Record, not Voice.
+**Purpose:** Runnable calibration for [skill-strategy](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). **WORK only** — not Record, not Voice.
 
 **Prerequisite:** From repo root, run `bash scripts/demo_skill_strategy_transcripts_check.sh` (expect `All digest files present.`). If any file is missing, stop.
 
@@ -38,13 +38,13 @@ Optional index: [`research/external/work-strategy/analyst-corpus/INDEX.md`](../.
 - **A — Production notebook:** Append under `## YYYY-MM-DD` in `days.md` using subsections `### DEMO — Phase N`.
 - **B — Clean room:** `strategy-notebook/demo-runs/skill-strategy-demo-scratch-YYYY-MM-DD.md` (create `demo-runs/` if needed). Same section headings as below.
 
-**Ceiling:** Keep each phase concise; total demo block should stay within the notebook [daily length guidance](STRATEGY-NOTEBOOK-ARCHITECTURE.md) (~1000 words per `days.md` day-block target — compress if needed).
+**Ceiling:** Keep each phase concise; total demo block should stay within the notebook [daily length guidance](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) (~1000 words per `days.md` day-block target — compress if needed).
 
 ---
 
 ## Phase 0 — Prep (about 5 minutes)
 
-1. Skim [skill-strategy SKILL](../../../../.cursor/skills/skill-strategy/SKILL.md): **Modes**, **Default moves**, **Anti-patterns**, **Three minds (optional — granular)**.
+1. Skim [skill-strategy SKILL](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): **Modes**, **Default moves**, **Anti-patterns**, **Three minds (optional — granular)**.
 2. Confirm you understand: **tri-frame is explicit in this demo** (not the default for every `strategy` pass in normal work). See [strategy-minds-granular](../../../../.cursor/rules/strategy-minds-granular.mdc).
 
 ---
@@ -135,13 +135,13 @@ Synthesize across all three digests (Mearsheimer, Mercouris, Davis×Crooke paths
 
 **Mind files (trimmed, notebook-local):**
 
-- [`minds/CIV-MIND-MERCOURIS.md`](minds/CIV-MIND-MERCOURIS.md)
-- [`minds/CIV-MIND-MEARSHEIMER.md`](minds/CIV-MIND-MEARSHEIMER.md)
-- [`minds/CIV-MIND-BARNES.md`](minds/CIV-MIND-BARNES.md)
+- [`minds/CIV-MIND-MERCOURIS.md`](../minds/CIV-MIND-MERCOURIS.md)
+- [`minds/CIV-MIND-MEARSHEIMER.md`](../minds/CIV-MIND-MEARSHEIMER.md)
+- [`minds/CIV-MIND-BARNES.md`](../minds/CIV-MIND-BARNES.md)
 
 **Recipe:** [MINDS-SKILL-STRATEGY-PATTERNS.md — Recipe C (tri-frame / LEARN)](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md). **Analysis order for this demo:** **Mercouris → Mearsheimer → Barnes** (preserve contradictions; one synthesis line).
 
-**Note:** The [skill-strategy post-entry lens menu](../../../../.cursor/skills/skill-strategy/SKILL.md) lists offer order **Barnes → Mearsheimer → Mercouris** for optional picks. That is **menu order**, not the same as Recipe C **analysis order** for a deep tri-frame pass.
+**Note:** The [skill-strategy post-entry lens menu](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) lists offer order **Barnes → Mearsheimer → Mercouris** for optional picks. That is **menu order**, not the same as Recipe C **analysis order** for a deep tri-frame pass.
 
 **Prompt (copy):**
 
@@ -237,7 +237,7 @@ Top 3 failures (if any):
 Time (minutes):
 ```
 
-**Extended rubric reference (FT, HS, CIV-MEM rows):** [`demo-runs/skill-strategy-exercise-rubric-reference.md`](demo-runs/skill-strategy-exercise-rubric-reference.md) — use for all scored runs from **2026-04-12** onward; optional exercise log: [`demo-runs/skill-strategy-exercise-log.md`](demo-runs/skill-strategy-exercise-log.md).
+**Extended rubric reference (FT, HS, CIV-MEM rows):** [`demo-runs/skill-strategy-exercise-rubric-reference.md`](../demo-runs/skill-strategy-exercise-rubric-reference.md) — use for all scored runs from **2026-04-12** onward; optional exercise log: [`demo-runs/skill-strategy-exercise-log.md`](../demo-runs/skill-strategy-exercise-log.md).
 
 ---
 

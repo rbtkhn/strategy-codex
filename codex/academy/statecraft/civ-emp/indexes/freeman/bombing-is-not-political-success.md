@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Freeman theme in which coercion, bom
 
 ## Cybernetic Activation
 
-Freeman-side activation surface: [Bombing is not political success](../../../../../speakers/freeman/themes/bombing-is-not-political-success.md)
+Freeman-side activation surface: [Bombing is not political success](../../../../../../statecraft/voices/freeman/bombing-is-not-political-success.md)
 
 ## Backward Historical Question
 

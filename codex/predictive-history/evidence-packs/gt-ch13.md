@@ -8,11 +8,11 @@ Book chapter for Game Theory lecture 13 — Volume IV Part I; divergence end-box
 
 ## Core sources
 
-- `gt-13` → [game-theory-13-epsteins-world.md](lectures/game-theory-13-epsteins-world.md)
+- `gt-13` → [game-theory-13-epsteins-world.md](../lectures/game-theory-13-epsteins-world.md)
 
 ## Core analysis
 
-- `gt-13` → [aQSDSqdlFxk-game-theory-13-analysis.md](analysis/aQSDSqdlFxk-game-theory-13-analysis.md)
+- `gt-13` → [aQSDSqdlFxk-game-theory-13-analysis.md](../analysis/aQSDSqdlFxk-game-theory-13-analysis.md)
 
 ## Key concepts
 

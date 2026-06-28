@@ -87,6 +87,6 @@ That does not make the 2025 Dialogue Works branch fully backfilled yet, but it d
 
 ## Open First
 
-Open [Dialogue Works x Martyanov](../../notes/arc-martyanov-nima-host.md) first when the question is how current Iran-war or escalation pressure should be read through force balance and systems collapse.
+Open [Dialogue Works x Martyanov](arc-martyanov-nima-host.md) first when the question is how current Iran-war or escalation pressure should be read through force balance and systems collapse.
 
-Open [martyanov-routing.md](martyanov-routing.md) first when the question is which host transformation best matches the task.
+Open [martyanov-routing.md](../voices/martyanov/martyanov-routing.md) first when the question is which host transformation best matches the task.

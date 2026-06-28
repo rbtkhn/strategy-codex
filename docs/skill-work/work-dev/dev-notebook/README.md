@@ -41,7 +41,7 @@ dev-notebook/
 
 ## Conductor (work-dev)
 
-**Wiring:** The [`.cursor/skills/conductor/SKILL.md`](../../../../.cursor/skills/conductor/SKILL.md) **Conductor** turn (name a stance -> one or two **on-disk** hotspots -> falsify or outcome -> optional cadence log) is the **work-dev** execution pattern for this repo. **Vocabulary** (Toscanini through Bernstein, name-only conductor routing, resolved **Conductor Action Menu**) stays **SSOT** in [CONDUCTOR-PASS.md](../../work-coffee/CONDUCTOR-PASS.md) and the **Symphony** protocol in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) - **this** section only names **where** **work-dev** Conductor **output** **lands** in the notebook tree.
+**Wiring:** The [`.cursor/skills/conductor/SKILL.md`](../../../../.cursor/skills/conductor/SKILL.md) **Conductor** turn (name a stance -> one or two **on-disk** hotspots -> falsify or outcome -> optional cadence log) is the **work-dev** execution pattern for this repo. **Vocabulary** (Toscanini through Bernstein, name-only conductor routing, resolved **Conductor Action Menu**) stays **SSOT** in [CONDUCTOR-PASS.md](../../work-coffee/CONDUCTOR-PASS.md) and the **Symphony** protocol in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) - **this** section only names **where** **work-dev** Conductor **output** **lands** in the notebook tree.
 
 | Output | Land it here |
 |--------|----------------|
@@ -65,7 +65,7 @@ dev-notebook/
 | [work-dev/journal/README.md](work-dev/journal/README.md) | Inward work-dev **day** learning log. |
 | [work-cici/README.md](work-cici/README.md) | work-cici subfolder: contract, handoff pointers, links into [work-cici/](../../work-cici/INDEX.md). |
 | [work-cici/UPSTREAM-MAP.md](work-cici/UPSTREAM-MAP.md) | Cici GitHub `main` path table (prompts, governed-state, `.claude/`, scripts) + regen recipe. |
-| [work-cici/HISTORY-ANCHORS.md](work-cici/HISTORY-ANCHORS.md) | Milestone table keyed to [work-cici-history.md](../../work-cici/work-cici-history.md) with Cici and evidence links. |
+| [work-cici/HISTORY-ANCHORS.md](work-cici/HISTORY-ANCHORS.md) | Milestone table keyed to [work-cici-history.md](../../../../singularity/work-cici/README.md) with Cici and evidence links. |
 | [work-cici/cici-phase-1-git-first-governed-state-prompt.md](work-cici/cici-phase-1-git-first-governed-state-prompt.md) | Cici Phase 1 — Git-first governed state (archived instruction prompt). |
 | [work-strategy/README.md](work-strategy/README.md) | work-strategy lane: contract, hooks; map + **history** pointers into [work-strategy README](../../work-strategy/README.md) territory. |
 | [work-strategy/SURFACE-MAP.md](work-strategy/SURFACE-MAP.md) | work-strategy **surface map** (notebook, rome, research, LANE-CI, minds). |

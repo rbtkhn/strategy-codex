@@ -35,8 +35,8 @@ April 2026 is the strongest Crooke interview consequence month. It joins Hormuz 
 
 ## Host-local routes
 
-- [Diesen x Crooke](../../notes/arc-crooke-diesen-host.md
-- [Davis x Crooke](../../notes/arc-crooke-davis-host.md
+- [Diesen x Crooke](arc-crooke-diesen-host.md
+- [Davis x Crooke](arc-crooke-davis-host.md
 
 ## Boundary
 

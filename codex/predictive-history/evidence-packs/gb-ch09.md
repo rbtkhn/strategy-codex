@@ -8,11 +8,11 @@ Book chapter for Great Books lecture 9 — Volume V Part I; divergence end-box p
 
 ## Core sources
 
-- `gb-09` → [great-books-09-dante-divine-comedy-intro.md](lectures/great-books-09-dante-divine-comedy-intro.md)
+- `gb-09` → [great-books-09-dante-divine-comedy-intro.md](../lectures/great-books-09-dante-divine-comedy-intro.md)
 
 ## Core analysis
 
-- `gb-09` → [4EZUrGPgAos-great-books-09-analysis.md](analysis/4EZUrGPgAos-great-books-09-analysis.md)
+- `gb-09` → [4EZUrGPgAos-great-books-09-analysis.md](../analysis/4EZUrGPgAos-great-books-09-analysis.md)
 
 ## Key concepts
 
