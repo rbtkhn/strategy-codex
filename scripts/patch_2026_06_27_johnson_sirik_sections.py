@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import re
 import sys
 from pathlib import Path
 
@@ -11,14 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from transcript_section_curation import (  # noqa: E402
-    apply_interview_turn_speaker_labels,
-    find_anchor_pos,
-    inject_section_open_turn_markers,
-    insert_sections,
-    mark_sectioned_frontmatter,
-    reflow_section_paragraphs,
-    restore_turn_markers_from_speaker_labels,
-    split_transcript_document,
+    prepare_section_patch_body,
+    validate_section_anchors,
+    write_interview_section_patch_capture,
 )
 
 DAY = ROOT / "source-archive/statecraft/2026-06-27"
@@ -26,6 +20,9 @@ DAY = ROOT / "source-archive/statecraft/2026-06-27"
 CAPTURE = (
     "source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md"
 )
+
+HOST = "Nima Alkhorshid"
+GUEST = "Larry Johnson"
 
 MANUAL_ASR: tuple[tuple[str, str], ...] = (
     ("the band Langia band co", "Bandar Lengeh and two"),
@@ -121,166 +118,31 @@ RESECTION_NOTE = (
 )
 
 
-def flatten_sectioned_body(body: str) -> str:
-    chunks: list[str] = []
-    current: list[str] = []
-    for line in body.splitlines():
-        if line.startswith("### "):
-            if current:
-                chunks.append("\n".join(current).strip())
-                current = []
-            continue
-        current.append(line)
-    if current:
-        chunks.append("\n".join(current).strip())
-    return "\n\n".join(chunks)
-
-
-def flat_body_from_doc(doc: str) -> tuple[str, str, str]:
-    head, marker, body = split_transcript_document(doc)
-    if body.lstrip().startswith("### "):
-        body = flatten_sectioned_body(body)
-    return head, marker, body
-
-
-def apply_manual_asr(text: str) -> tuple[str, int]:
-    count = 0
-    for old, new in MANUAL_ASR:
-        if old in text:
-            text = text.replace(old, new)
-            count += 1
-    return text, count
-
-
-def patch_manual_asr_frontmatter(head: str, *, subs: int) -> str:
-    today = "2026-06-28"
-    note_tail = f" · manual ASR spot-fix {today}"
-    if "manual_asr_spot_fix:" not in head:
-        head = head.replace(
-            "\n---\n",
-            f'\nmanual_asr_spot_fix: "{MANUAL_ASR_SPOT_FIX}"\n---\n',
-            1,
-        )
-    if re.search(r"^source_note:", head, flags=re.M):
-        if note_tail.strip() not in head:
-            head = re.sub(
-                r'^(source_note: ")(.*?)(")\s*$',
-                rf"\1\2{note_tail}\3",
-                head,
-                count=1,
-                flags=re.M,
-            )
-    receipt = f"Manual ASR spot-fix {today} ({subs} substitution groups); AI-assisted source-clean"
-    if re.search(r"^editorial_note:", head, flags=re.M):
-        head = re.sub(
-            r'^editorial_note: ".*?"\s*$',
-            f'editorial_note: "{receipt} · not human-verified verbatim; verify before quotation."',
-            head,
-            count=1,
-            flags=re.M,
-        )
-    return head
-
-
-def append_resection_note(head: str) -> str:
-    if re.search(r"^editorial_note:", head, flags=re.M):
-        head = re.sub(
-            r" · source-section re-section pass 2026-06-28 \([^)]+\)",
-            "",
-            head,
-        )
-        if RESECTION_NOTE not in head:
-            head = re.sub(
-                r'^(editorial_note: ")(.*?)("\s*$)',
-                rf"\1\2{RESECTION_NOTE}\3",
-                head,
-                count=1,
-                flags=re.M,
-            )
-    return head
-
-
-def prepare_body(doc: str) -> tuple[str, str, str]:
-    head, marker, body = flat_body_from_doc(doc)
-    body, _ = apply_manual_asr(body.strip())
-    if "**Larry Johnson:**" in body:
-        body = restore_turn_markers_from_speaker_labels(
-            body,
-            host="Nima Alkhorshid",
-            guest="Larry Johnson",
-        )
-    return head, marker, body
-
-
 def validate_capture(path: Path) -> list[str]:
-    errors: list[str] = []
     doc = path.read_text(encoding="utf-8")
     try:
-        _, _, body = prepare_body(doc)
+        _, _, body = prepare_section_patch_body(
+            doc,
+            manual_asr=MANUAL_ASR,
+            interview_host=HOST,
+            interview_guest=GUEST,
+        )
     except ValueError as exc:
         return [str(exc)]
-    if len(SECTION_TITLES) != len(SECTION_ANCHORS) + 1:
-        errors.append(
-            f"title/anchor count mismatch: {len(SECTION_TITLES)} titles, {len(SECTION_ANCHORS)} anchors"
-        )
-    cursor = 0
-    for anchor in SECTION_ANCHORS:
-        try:
-            pos = find_anchor_pos(body, anchor, cursor)
-            cursor = pos + 1
-        except ValueError as exc:
-            errors.append(str(exc))
-    return errors
-
-
-def append_speaker_label_note(head: str, *, turns: int) -> str:
-    note = f" · interview speaker-label pass 2026-06-28 ({turns} turns; Nima/Larry >> markers)"
-    if note in head:
-        return head
-    if re.search(r"^editorial_note:", head, flags=re.M):
-        return re.sub(
-            r'^(editorial_note: ")(.*?)("\s*$)',
-            rf"\1\2{note}\3",
-            head,
-            count=1,
-            flags=re.M,
-        )
-    return head
+    return validate_section_anchors(body, SECTION_TITLES, SECTION_ANCHORS)
 
 
 def write_capture(path: Path) -> int:
-    doc = path.read_text(encoding="utf-8")
-    head, marker, body = flat_body_from_doc(doc)
-    body, asr_subs = apply_manual_asr(body.strip())
-    if "**Larry Johnson:**" in body:
-        body = restore_turn_markers_from_speaker_labels(
-            body,
-            host="Nima Alkhorshid",
-            guest="Larry Johnson",
-        )
-    if "manual_asr_spot_fix:" not in head and asr_subs:
-        head = patch_manual_asr_frontmatter(head, subs=asr_subs)
-    head = mark_sectioned_frontmatter(head, section_count=len(SECTION_TITLES))
-    head = append_resection_note(head)
-    body = insert_sections(body, SECTION_TITLES, SECTION_ANCHORS)
-    body = inject_section_open_turn_markers(body)
-    if "**Larry Johnson:**" in body or "**Nima Alkhorshid:**" in body:
-        body = restore_turn_markers_from_speaker_labels(
-            body,
-            host="Nima Alkhorshid",
-            guest="Larry Johnson",
-        )
-        body = inject_section_open_turn_markers(body)
-    body, turns_labeled = apply_interview_turn_speaker_labels(
-        body,
-        host="Nima Alkhorshid",
-        guest="Larry Johnson",
+    return write_interview_section_patch_capture(
+        path,
+        SECTION_TITLES,
+        SECTION_ANCHORS,
+        manual_asr=MANUAL_ASR,
+        manual_asr_spot_fix=MANUAL_ASR_SPOT_FIX,
+        resection_note=RESECTION_NOTE,
+        interview_host=HOST,
+        interview_guest=GUEST,
     )
-    if turns_labeled:
-        head = append_speaker_label_note(head, turns=turns_labeled)
-    body = reflow_section_paragraphs(body)
-    path.write_text(head + marker + body, encoding="utf-8")
-    return asr_subs
 
 
 def main() -> int:

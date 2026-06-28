@@ -26,7 +26,7 @@ def parse_capture_eligibility_meta(head: str) -> dict[str, str]:
         if len(parts) >= 2:
             fm = parts[1]
     out: dict[str, str] = {}
-    for key in ("kind", "source_form", "source_type", "source_url", "channel_slug", "guest"):
+    for key in ("kind", "source_form", "source_type", "source_url", "channel_slug", "guest", "host"):
         m = re.search(rf"^{key}:\s*(.+)$", fm, re.M)
         if m:
             out[key] = m.group(1).strip().strip('"').strip("'")
@@ -817,6 +817,318 @@ def apply_slug_to_title_headings(
     return out
 
 
+def flatten_sectioned_body(body: str) -> str:
+    """Join section bodies into one flat transcript (drop ``###`` headings)."""
+    chunks: list[str] = []
+    current: list[str] = []
+    for line in body.splitlines():
+        if line.startswith("### "):
+            if current:
+                chunks.append("\n\n".join(current).strip())
+                current = []
+            continue
+        current.append(line)
+    if current:
+        chunks.append("\n\n".join(current).strip())
+    return "\n\n".join(chunks)
+
+
+def flat_body_from_doc(doc: str) -> tuple[str, str, str]:
+    """Return head, body marker, and flat transcript (drop existing ``###`` headings)."""
+    head, marker, body = split_transcript_document(doc)
+    if body.lstrip().startswith("### "):
+        body = flatten_sectioned_body(body)
+    return head, marker, body
+
+
+def apply_manual_asr_substitutions(
+    text: str,
+    replacements: Sequence[tuple[str, str]],
+) -> tuple[str, int]:
+    """Apply ordered substring replacements; return (text, groups_applied)."""
+    count = 0
+    for old, new in replacements:
+        if old in text:
+            text = text.replace(old, new)
+            count += 1
+    return text, count
+
+
+def patch_manual_asr_frontmatter(
+    head: str,
+    *,
+    subs: int,
+    manual_asr_spot_fix: str,
+    pass_date: str | None = None,
+) -> str:
+    """Add ``manual_asr_spot_fix`` YAML and receipt tails on first manual ASR ship."""
+    today = pass_date or date.today().isoformat()
+    note_tail = f" · manual ASR spot-fix {today}"
+    if "manual_asr_spot_fix:" not in head:
+        head = head.replace(
+            "\n---\n",
+            f'\nmanual_asr_spot_fix: "{manual_asr_spot_fix}"\n---\n',
+            1,
+        )
+    if re.search(r"^source_note:", head, flags=re.M):
+        if note_tail.strip() not in head:
+            head = re.sub(
+                r'^(source_note: ")(.*?)(")\s*$',
+                rf"\1\2{note_tail}\3",
+                head,
+                count=1,
+                flags=re.M,
+            )
+    receipt = (
+        f"Manual ASR spot-fix {today} ({subs} substitution groups); "
+        "AI-assisted source-clean"
+    )
+    if re.search(r"^editorial_note:", head, flags=re.M):
+        head = re.sub(
+            r'^editorial_note: ".*?"\s*$',
+            f'editorial_note: "{receipt} · not human-verified verbatim; verify before quotation."',
+            head,
+            count=1,
+            flags=re.M,
+        )
+    return head
+
+
+def append_resection_editorial_note(head: str, resection_note: str) -> str:
+    """Append or replace dated ``source-section re-section pass`` editorial tail."""
+    if not re.search(r"^editorial_note:", head, flags=re.M):
+        return head
+    head = re.sub(
+        r" · source-section re-section pass \d{4}-\d{2}-\d{2} \([^)]+\)",
+        "",
+        head,
+    )
+    if resection_note in head:
+        return head
+    return re.sub(
+        r'^(editorial_note: ")(.*?)("\s*$)',
+        rf"\1\2{resection_note}\3",
+        head,
+        count=1,
+        flags=re.M,
+    )
+
+
+def finalize_patch_head(path: Path, *, resection_note: str) -> None:
+    """Apply patch-specific re-section receipt to frontmatter after body ship."""
+    doc = path.read_text(encoding="utf-8")
+    head, marker, body = split_transcript_document(doc)
+    head = append_resection_editorial_note(head, resection_note)
+    path.write_text(f"{head}{marker}\n\n{body.strip()}\n", encoding="utf-8", newline="\n")
+
+
+def prepare_section_patch_body(
+    doc: str,
+    *,
+    manual_asr: Sequence[tuple[str, str]],
+    interview_host: str | None = None,
+    interview_guest: str | None = None,
+) -> tuple[str, str, str]:
+    """Flat body + manual ASR + optional speaker-label restore for anchor validation."""
+    head, marker, body = flat_body_from_doc(doc)
+    body, _ = apply_manual_asr_substitutions(body.strip(), manual_asr)
+    if (
+        interview_host
+        and interview_guest
+        and capture_has_speaker_labels(body, host=interview_host, guest=interview_guest)
+    ):
+        body = restore_turn_markers_from_speaker_labels(
+            body,
+            host=interview_host,
+            guest=interview_guest,
+        )
+    return head, marker, body
+
+
+def validate_section_anchors(
+    body: str,
+    section_titles: Sequence[str],
+    section_anchors: Sequence[str],
+) -> list[str]:
+    errors: list[str] = []
+    if len(section_titles) != len(section_anchors) + 1:
+        errors.append(
+            f"title/anchor count mismatch: {len(section_titles)} titles, "
+            f"{len(section_anchors)} anchors"
+        )
+    cursor = 0
+    for anchor in section_anchors:
+        try:
+            pos = find_anchor_pos(body, anchor, cursor)
+            cursor = pos + 1
+        except ValueError as exc:
+            errors.append(str(exc))
+    return errors
+
+
+def write_interview_section_patch_capture(
+    path: Path,
+    section_titles: Sequence[str],
+    section_anchors: Sequence[str],
+    *,
+    manual_asr: Sequence[tuple[str, str]],
+    manual_asr_spot_fix: str,
+    resection_note: str,
+    interview_host: str,
+    interview_guest: str,
+) -> int:
+    """Manual ASR + ``write_sectioned_capture`` interview pipeline + re-section receipt."""
+    doc = path.read_text(encoding="utf-8")
+    head, marker, body = flat_body_from_doc(doc)
+    body, asr_subs = apply_manual_asr_substitutions(body.strip(), manual_asr)
+    if "manual_asr_spot_fix:" not in head and asr_subs:
+        head = patch_manual_asr_frontmatter(
+            head,
+            subs=asr_subs,
+            manual_asr_spot_fix=manual_asr_spot_fix,
+        )
+    path.write_text(f"{head}{marker}\n\n{body}\n", encoding="utf-8", newline="\n")
+    write_sectioned_capture(
+        path,
+        section_titles,
+        section_anchors,
+        resection=True,
+        reject_if_sectioned=False,
+        interview_host=interview_host,
+        interview_guest=interview_guest,
+    )
+    finalize_patch_head(path, resection_note=resection_note)
+    return asr_subs
+
+
+def parse_interview_speaker_names(head: str) -> tuple[str | None, str | None]:
+    """Read ``host:`` / ``guest:`` from capture frontmatter when present."""
+    meta = parse_capture_eligibility_meta(head)
+    host = meta.get("host")
+    guest = meta.get("guest")
+    if host and guest:
+        return host, guest
+    return None, None
+
+
+def capture_has_speaker_labels(body: str, *, host: str, guest: str) -> bool:
+    return f"**{host}:**" in body or f"**{guest}:**" in body
+
+
+def append_interview_speaker_label_receipt(
+    head: str,
+    *,
+    turns: int,
+    host: str,
+    guest: str,
+) -> str:
+    today = date.today().isoformat()
+    host_short = host.split()[0] if host else "Host"
+    guest_short = guest.split()[0] if guest else "Guest"
+    note = (
+        f" · interview speaker-label pass {today} "
+        f"({turns} turns; {host_short}/{guest_short} >> markers)"
+    )
+    if note in head:
+        return head
+    head = re.sub(
+        r" · interview speaker-label pass \d{4}-\d{2}-\d{2} \(\d+ turns; [^)]+\)",
+        "",
+        head,
+    )
+    if re.search(r"^editorial_note:", head, flags=re.M):
+        return re.sub(
+            r'^(editorial_note: ")(.*?)("\s*$)',
+            rf"\1\2{note}\3",
+            head,
+            count=1,
+            flags=re.M,
+        )
+    if re.search(r"^source_note:", head, flags=re.M):
+        return re.sub(
+            r'^(source_note: ")(.*?)("\s*$)',
+            rf"\1\2{note}\3",
+            head,
+            count=1,
+            flags=re.M,
+        )
+    return head.replace(
+        "\n---\n",
+        f'\neditorial_note: "Interview speaker labels.{note.strip()}"\n---\n',
+        1,
+    )
+
+
+def apply_interview_section_body(
+    body: str,
+    section_titles: Sequence[str],
+    section_anchors: Sequence[str],
+    *,
+    host: str,
+    guest: str,
+    asr_cleanup_fn: Callable[[str], str] | None = None,
+    anchor_slice: slice | None = None,
+    speaker_cleanup_fn: Callable[[str], str] | None = None,
+) -> tuple[str, int]:
+    """Insert sections, repair section-boundary ``>>``, label turns, optional legacy cleanup."""
+    body = body.strip()
+    if asr_cleanup_fn:
+        body = asr_cleanup_fn(body)
+    if capture_has_speaker_labels(body, host=host, guest=guest):
+        body = restore_turn_markers_from_speaker_labels(body, host=host, guest=guest)
+    body = insert_sections(
+        body,
+        section_titles,
+        section_anchors,
+        anchor_slice=anchor_slice,
+    )
+    body = inject_section_open_turn_markers(body)
+    if capture_has_speaker_labels(body, host=host, guest=guest):
+        body = restore_turn_markers_from_speaker_labels(body, host=host, guest=guest)
+        body = inject_section_open_turn_markers(body)
+    body, turns_labeled = apply_interview_turn_speaker_labels(
+        body,
+        host=host,
+        guest=guest,
+    )
+    if speaker_cleanup_fn:
+        body = speaker_cleanup_fn(body)
+    return body, turns_labeled
+
+
+def apply_solo_section_body(
+    body: str,
+    section_titles: Sequence[str],
+    section_anchors: Sequence[str],
+    *,
+    asr_cleanup_fn: Callable[[str], str] | None = None,
+    anchor_slice: slice | None = None,
+    speaker_cleanup_fn: Callable[[str], str] | None = None,
+    paragraph_reflow: bool = True,
+    target_para_words: int = 80,
+    soft_max_para_words: int = 120,
+    hard_max_para_words: int = 150,
+) -> str:
+    body = body.strip()
+    body = insert_sections(
+        body,
+        section_titles,
+        section_anchors,
+        asr_cleanup_fn=asr_cleanup_fn,
+        anchor_slice=anchor_slice,
+    )
+    if paragraph_reflow:
+        body = reflow_section_paragraphs(
+            body,
+            target_para_words=target_para_words,
+            soft_max_para_words=soft_max_para_words,
+            hard_max_para_words=hard_max_para_words,
+        )
+    if speaker_cleanup_fn:
+        body = speaker_cleanup_fn(body)
+    return body
+
+
 def mark_sectioned_frontmatter(head: str, *, section_count: int) -> str:
     today = date.today().isoformat()
     receipt = f"source-section pass {today} ({section_count} sections)"
@@ -859,6 +1171,9 @@ def write_sectioned_capture(
     speaker_cleanup_fn: Callable[[str], str] | None = None,
     anchor_slice: slice | None = None,
     reject_if_sectioned: bool = True,
+    resection: bool = False,
+    interview_host: str | None = None,
+    interview_guest: str | None = None,
     body_marker: str | None = None,
     paragraph_reflow: bool = True,
     target_para_words: int = 80,
@@ -871,37 +1186,78 @@ def write_sectioned_capture(
         raise ValueError(f"missing body marker: {marker!r}")
 
     head, body = doc.split(marker, 1)
-    if not is_source_section_eligible(parse_capture_eligibility_meta(head)):
+    meta = parse_capture_eligibility_meta(head)
+    if not is_source_section_eligible(meta):
         raise ValueError(
             "source-section applies to YouTube channel transcripts (solo/interview) only; "
             "authored texts (Substack, newsletter, article) are out of scope"
         )
-    if reject_if_sectioned and body.lstrip().startswith("### "):
-        raise ValueError("transcript already sectioned")
+    body = body.strip()
+    if body.lstrip().startswith("### "):
+        if reject_if_sectioned and not resection:
+            raise ValueError("transcript already sectioned")
+        if resection:
+            body = flatten_sectioned_body(body)
+
+    fm_host, fm_guest = parse_interview_speaker_names(head)
+    host = interview_host or fm_host
+    guest = interview_guest or fm_guest
+    is_interview = (meta.get("source_form") or "").lower() == "interview"
+    if interview_host and interview_guest:
+        is_interview = True
+    if is_interview and (not host or not guest):
+        raise ValueError(
+            "interview sectioning requires host and guest names "
+            "(frontmatter host:/guest: or interview_host=/interview_guest=)"
+        )
 
     head = mark_sectioned_frontmatter(head, section_count=len(section_titles))
-    body = insert_sections(
-        body.strip(),
-        section_titles,
-        section_anchors,
-        asr_cleanup_fn=asr_cleanup_fn,
-        anchor_slice=anchor_slice,
-    )
-    if paragraph_reflow:
-        body = reflow_section_paragraphs(
+    turns_labeled = 0
+    if is_interview:
+        body, turns_labeled = apply_interview_section_body(
             body,
+            section_titles,
+            section_anchors,
+            host=host,
+            guest=guest,
+            asr_cleanup_fn=asr_cleanup_fn,
+            anchor_slice=anchor_slice,
+            speaker_cleanup_fn=speaker_cleanup_fn,
+        )
+        if turns_labeled:
+            head = append_interview_speaker_label_receipt(
+                head,
+                turns=turns_labeled,
+                host=host,
+                guest=guest,
+            )
+        if paragraph_reflow:
+            body = reflow_section_paragraphs(
+                body,
+                target_para_words=target_para_words,
+                soft_max_para_words=soft_max_para_words,
+                hard_max_para_words=hard_max_para_words,
+            )
+    else:
+        body = apply_solo_section_body(
+            body,
+            section_titles,
+            section_anchors,
+            asr_cleanup_fn=asr_cleanup_fn,
+            anchor_slice=anchor_slice,
+            speaker_cleanup_fn=speaker_cleanup_fn,
+            paragraph_reflow=paragraph_reflow,
             target_para_words=target_para_words,
             soft_max_para_words=soft_max_para_words,
             hard_max_para_words=hard_max_para_words,
         )
-    if speaker_cleanup_fn:
-        body = speaker_cleanup_fn(body)
 
     doc = f"{head}{marker}\n\n{body}\n"
     capture_path.write_text(doc, encoding="utf-8", newline="\n")
     print(
         f"wrote {capture_path} "
-        f"({len(body.split()):,} words, {len(section_titles)} sections)"
+        f"({len(body.split()):,} words, {len(section_titles)} sections"
+        f"{f', {turns_labeled} turns labeled' if turns_labeled else ''})"
     )
 
 

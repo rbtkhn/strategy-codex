@@ -4,7 +4,7 @@ description: Post-intake transcript section curation for YouTube channel solo an
 preferred_activation: source-section
 activation: source-section
 portable: true
-version: 1.2.2
+version: 1.2.4
 category: truth-pipeline
 status: active
 scope_class: public-portable
@@ -150,9 +150,10 @@ Run only when the outline is approved or operator supplied a complete map up fro
 
 1. **Optional light ASR** — duplicate-word / obvious name fixes only when they do not change argument; defer heavy tiers to **`source-clean`** (run **before** sectioning when ASR is load-bearing).
 2. **Insert sections** — `insert_sections(body, SECTION_TITLES, SECTION_ANCHORS)`; last section runs to EOF.
-3. **Paragraph reflow** — `reflow_section_paragraphs(body)` (default on in `write_sectioned_capture`; skip when operator says **`no paragraph reflow`**).
-4. **Speaker repair (interview)** — replace YouTube `>>` with named turn labels (`**Full name:**` from `host_people` / `guest_people`; **no** `(host)` or `(guest)` suffix); prepend labels at section opens when anchors split mid-turn; strip duplicate speaker lines before `###` headings.
-5. **Frontmatter receipt** — `transcript_curation: curated_sectioned` + dated note tail.
+3. **Interview only** — `inject_section_open_turn_markers` → `apply_interview_turn_speaker_labels` (relabel: `restore_turn_markers_from_speaker_labels` first when re-running).
+4. **Paragraph reflow** — `reflow_section_paragraphs(body)` **after** interview speaker labels (default on in `write_sectioned_capture`; skip when operator says **`no paragraph reflow`**).
+5. **Speaker repair (legacy)** — optional `speaker_cleanup_fn` for one-off `prepend_speaker_at_section_opens` fixes; prefer **`write_sectioned_capture(..., resection=True)`** + frontmatter `host:`/`guest:` for standard Dialogue Works interviews.
+6. **Frontmatter receipt** — `transcript_curation: curated_sectioned` + dated note tail.
 6. **Verify** — section count, anchor uniqueness, no truncated final section, word count stable ± light ASR deltas only.
 7. **Navigation receipt** — report section chunk stats **and** paragraph stats; flag quality warnings (ship phase):
 

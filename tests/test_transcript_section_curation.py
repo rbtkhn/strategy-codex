@@ -22,6 +22,12 @@ from transcript_section_curation import (  # noqa: E402
     split_transcript_document,
     count_words,
     pack_sentences_into_paragraphs,
+    write_sectioned_capture,
+    flatten_sectioned_body,
+    apply_interview_section_body,
+    apply_manual_asr_substitutions,
+    validate_section_anchors,
+    write_interview_section_patch_capture,
 )
 
 
@@ -221,6 +227,87 @@ def test_guest_opener_guess_mcgovern_forked_tongue():
     assert _guess_dialogue_works_host("Yeah. The question is Rey, is the United States") is True
 
 
+def test_apply_interview_section_body_section_boundary_guest_opener():
+    body = (
+        "Host asks a long question about the strait and what do you make of it right now? "
+        ">> Nima these are really good questions. Now uh in a jocular mood I would simply say that uh "
+        "Rubio had courage. >> Yeah. My understanding is that Iran has doesn't feel that they're in a rush."
+    )
+    out, turns = apply_interview_section_body(
+        body,
+        ["Open", "Forked Tongue", "Strait Control"],
+        [
+            "Nima these are really good questions.",
+            "Yeah. My understanding is that Iran has doesn't feel that they're in a rush",
+        ],
+        host="Nima Alkhorshid",
+        guest="Ray McGovern",
+    )
+    assert "### Forked Tongue" in out
+    assert "**Ray McGovern:** Nima these are really good questions." in out
+    assert "**Nima Alkhorshid:** Yeah. My understanding" in out
+    assert turns >= 2
+
+
+def test_write_sectioned_capture_interview_reflow_after_labels():
+    work = ROOT / ".codex-tmp" / "pytest-section-curation"
+    work.mkdir(parents=True, exist_ok=True)
+    capture = work / "interview.md"
+    capture.write_text(
+        "---\nsource_form: interview\nhost: Nima Alkhorshid\nguest: Ray McGovern\n"
+        "source_type: youtube\n---\n# Title\n\n## Transcript\n\n"
+        "Hi everybody welcome. >> Thank you Nima for inviting me. >> "
+        "Nima these are really good questions. Now uh in a jocular mood I would simply say that uh "
+        "Rubio visited Bahrain. >> Yeah. My understanding is that Iran has doesn't feel that they're in a rush.\n",
+        encoding="utf-8",
+    )
+    write_sectioned_capture(
+        capture,
+        ["Open", "Forked Tongue", "Strait Control"],
+        [
+            "Nima these are really good questions.",
+            "Yeah. My understanding is that Iran has doesn't feel that they're in a rush",
+        ],
+    )
+    text = capture.read_text(encoding="utf-8")
+    assert "transcript_curation: curated_sectioned" in text
+    assert "**Ray McGovern:** Nima these are really good questions." in text
+    assert "interview speaker-label pass" in text
+    assert ">>" not in text.split("## Transcript", 1)[1]
+    capture.unlink(missing_ok=True)
+
+
+def test_write_sectioned_capture_resection_flattens_existing():
+    work = ROOT / ".codex-tmp" / "pytest-section-curation"
+    work.mkdir(parents=True, exist_ok=True)
+    capture = work / "solo.md"
+    capture.write_text(
+        "---\nsource_form: solo\nsource_type: youtube\n---\n# Title\n\n## Transcript\n\n"
+        "### One — First\n\nAlpha sentence here. >> Beta follows.\n\n"
+        "### Two — Second\n\nGamma closes the transcript body now.\n",
+        encoding="utf-8",
+    )
+    write_sectioned_capture(
+        capture,
+        ["First Block", "Second Block"],
+        ["Gamma closes"],
+        resection=True,
+        reject_if_sectioned=False,
+    )
+    text = capture.read_text(encoding="utf-8")
+    assert "### First Block" in text
+    assert "### Second Block" in text
+    assert "### One — First" not in text
+    capture.unlink(missing_ok=True)
+
+
+def test_flatten_sectioned_body_drops_headings():
+    body = "### One — A\n\nLine one.\n\n### Two — B\n\nLine two."
+    flat = flatten_sectioned_body(body)
+    assert "###" not in flat
+    assert "Line one." in flat and "Line two." in flat
+
+
 def test_normalize_dialogue_works_host_label_suffix():
     raw = (
         "**Nima Alkhorshid (host):** Hi.\n\n"
@@ -245,3 +332,57 @@ def test_apply_interview_labels_splits_merged_strike_origins_turn():
     assert "**Nima Alkhorshid:** My understanding today, Larry" in labeled
     assert "**Nima Alkhorshid:** Yeah, they've already" in labeled
     assert ">>" not in labeled
+
+
+def test_apply_manual_asr_substitutions_counts_groups():
+    text, n = apply_manual_asr_substitutions(
+        "Baharin and Strait of form",
+        [("Baharin", "Bahrain"), ("Strait of form", "Strait of Hormuz")],
+    )
+    assert n == 2
+    assert "Bahrain" in text and "Strait of Hormuz" in text
+
+
+def test_validate_section_anchors_reports_missing():
+    body = "Open. First anchor here. Second anchor tail."
+    errs = validate_section_anchors(
+        body,
+        ["Open", "One", "Two"],
+        ["first anchor", "missing anchor"],
+    )
+    assert len(errs) == 1
+    assert "missing anchor" in errs[0].lower() or "not found" in errs[0].lower()
+
+
+def test_write_interview_section_patch_capture_sections_and_receipt():
+    work = ROOT / ".codex-tmp" / "pytest-section-curation"
+    work.mkdir(parents=True, exist_ok=True)
+    capture = work / "patch-interview.md"
+    capture.write_text(
+        "---\nsource_form: interview\nhost: Nima Alkhorshid\nguest: Ray McGovern\n"
+        "source_type: youtube\n---\n# Title\n\n## Transcript\n\n"
+        "Hi everybody welcome. >> Thank you Nima for inviting me. >> "
+        "Nima these are really good questions. Now uh in a jocular mood. >> "
+        "Yeah. My understanding is that Iran has doesn't feel that they're in a rush.\n",
+        encoding="utf-8",
+    )
+    resection_note = " · source-section re-section pass 2026-06-28 (test arc)"
+    subs = write_interview_section_patch_capture(
+        capture,
+        ["Open", "Forked Tongue", "Strait Control"],
+        [
+            "Nima these are really good questions.",
+            "Yeah. My understanding is that Iran has doesn't feel that they're in a rush",
+        ],
+        manual_asr=[("jocular mood", "jocular mood")],
+        manual_asr_spot_fix="test spot-fix",
+        resection_note=resection_note,
+        interview_host="Nima Alkhorshid",
+        interview_guest="Ray McGovern",
+    )
+    text = capture.read_text(encoding="utf-8")
+    assert subs >= 0
+    assert "### Open" in text
+    assert resection_note in text
+    assert "**Ray McGovern:** Nima these are really good questions." in text
+    capture.unlink(missing_ok=True)
