@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md
+  - source-archive/statecraft/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md##
+  - source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md
+  - source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md
+  - source-archive/statecraft/2026-03-04/source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md
+  - source-archive/statecraft/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md
+  - source-archive/statecraft/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md
+  - source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md
 ---
 
 WORK only; not Record.

@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md
+  - source-archive/statecraft/2026-04-13/source-alexander-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md
+  - source-archive/statecraft/2026-04-19/source-alexander-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md
+  - source-archive/statecraft/2026-04-20/source-russia-blockade-40-ships-hormuz-2026-04-20.md
+  - source-archive/statecraft/2026-05-06/source-alexander-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md
+  - source-archive/statecraft/2026-03-01/source-khamenei-strike-hormuz-russia-2026-03-01.md
+  - source-archive/statecraft/2026-03-31/source-alexander-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md
+  - source-archive/statecraft/2026-04-05/source-f15-rescue-hormuz-nato-kiev-2026-04-05.md
 ---
 
 # Mercouris arc
@@ -91,8 +100,8 @@ If the operator needs dated continuity:
 
 If the operator needs speaker-object doctrine:
 
-- open [../mercouris-speaker-object.md](mercouris-speaker-object.md
-- open [../mercouris-cross-host-note.md](mercouris-cross-host-note.md
+- open [../mercouris-speaker-object.md](mercouris-speaker-object.md)
+- open [../mercouris-cross-host-note.md](mercouris-cross-host-note.md)
 
 ## Boundary
 

@@ -1,3 +1,15 @@
+---
+note_id: 2026-02-03-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-02-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-03/README.md
+  - source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-02-03

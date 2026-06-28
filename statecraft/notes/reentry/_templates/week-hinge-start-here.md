@@ -1,3 +1,14 @@
+---
+note_id: week-hinge-start-here
+note_type: reentry
+authority_level: draft
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/YYYY-MM/day-index.md
+---
 WORK only; not Record.
 
 # YYYY-MM Week N — Start Here (month-week N: YYYY-MM-DD – YYYY-MM-DD)

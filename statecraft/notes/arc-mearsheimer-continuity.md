@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
+  - source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
+  - source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md
+  - source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md
+  - source-archive/statecraft/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md
+  - source-archive/statecraft/2025-01-19/source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md
+  - source-archive/statecraft/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md
+  - source-archive/statecraft/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md
 ---
 
 WORK only; not Record.

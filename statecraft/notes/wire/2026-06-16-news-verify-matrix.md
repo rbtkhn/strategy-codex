@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-16-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-16
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-16/README.md
+  - source-archive/statecraft/2026-06-16/source-dialogue-works-larry-johnson-breaking-150-billion-iran-300b-reparations-already-spent-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-mario-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-mario-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-judging-freedom-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md
+  - source-archive/statecraft/2026-06-16/source-dialogue-works-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-16

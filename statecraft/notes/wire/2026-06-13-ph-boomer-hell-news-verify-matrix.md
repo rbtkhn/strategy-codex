@@ -1,3 +1,15 @@
+---
+note_id: 2026-06-13-ph-boomer-hell-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-13
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md
+  - source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — PH *Boomer Hell* (2026-06-13)

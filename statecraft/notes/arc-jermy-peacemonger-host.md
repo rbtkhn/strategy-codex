@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-20/source-neutrality-studies-collapse-global-recession-unavoidable-steve-jermy-2026-06-20.md
+  - source-archive/statecraft/README.md
+  - source-archive/statecraft/YYYY-MM-DD/
+  - source-archive/statecraft/YYYY-MM-DD/<slug>.md
+  - source-archive/statecraft/2026-06-27/source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md
+  - source-archive/statecraft/2026-06-27/source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md
+  - source-archive/statecraft/2026-06-27/source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md
+  - source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md
 ---
 
 # Peacemonger x Jermy speaker arc

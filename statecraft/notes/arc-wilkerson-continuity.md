@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md
+  - source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md
+  - source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md
+  - source-archive/statecraft/2026-05-05/source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md
+  - source-archive/statecraft/2025-01-04/source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md
+  - source-archive/statecraft/2025-01-11/source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md
+  - source-archive/statecraft/2025-01-14/source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md
+  - source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md
 ---
 
 WORK only; not Record.

@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-week2-start-here
+note_type: reentry
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md
+  - source-archive/statecraft/2026-06-13/README.md
+  - source-archive/statecraft/2026-06-13/source-dialogue-works-marandi-breaking-us-iran-brink-final-deal-2026-06-13.md
+  - source-archive/statecraft/2026-06-13/source-glenn-diesen-trita-parsi-iran-war-mou-deportation-threat-2026-06-13.md
+  - source-archive/statecraft/2026-06-13/source-daniel-davis-iran-war-deal-skeptical-2026-06-13.md
+  - source-archive/statecraft/2026-06-13/source-daniel-davis-signing-deal-tomorrow-scheduled-2026-06-13.md
+  - source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md
+---
 WORK only; not Record.
 
 # June 2026 Week 2 — Start Here

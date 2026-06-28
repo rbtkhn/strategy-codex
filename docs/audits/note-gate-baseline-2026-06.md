@@ -7,7 +7,8 @@ Shadow-mode inventory before strict enforcement. Generated from `check_statecraf
 - **Baseline date:** 2026-06-28 (note gate ship)
 - **Baseline command:** `python3 scripts/check_statecraft_notes.py --warn`
 - **Baseline result:** 796 violation(s) across 328 note(s)
-- **Current (2026-06-28, post backfill batches):** **69 violation(s)** across 328 note(s) (−727 from baseline 796)
+- **Current (2026-06-28, post arc-continuity repair):** **0 violation(s)** across 328 note(s) (−796 from baseline)
+- **Prior checkpoint (post tier-b):** 36 violation(s) — weak-anchor / orphan arc cluster
 - **Sample violations (first 40):**
 
 - statecraft/notes/2025-02-ritter-india-global-left-trump-pivot-arc.md: missing note_type
@@ -70,8 +71,10 @@ Bounded shelf-native batches via `scripts/backfill_note_contract_batch.py` (+ ma
 | `prefixed-canonical` | 105 | *(local)* | 474 → **297** |
 | `dated-slug` | 36 | *(local)* | 297 → **189** |
 | `other-slug` | 40 | *(local)* | 189 → **69** |
+| `tier-b-operational` | 33 | *(local)* | 69 → **36** |
+| `arc-continuity-repair` | 29 + 1 manual | *(local)* | 36 → **0** |
 
-**Remaining gap:** mostly legacy notes without contract (comparisons, wedges, mechanism stubs) — not README shelf-native clusters yet backfilled.
+**Remaining gap:** warn-mode checker clean. §1 dashboard may still show `stale_review`, `broken_links`, and row-level tags — triage separately from contract-gap lines.
 
 ## Registry dashboard (2026-06-28)
 
@@ -92,10 +95,10 @@ Tier A health block surfaces orphan / weak-anchor / essay-queue / broken-link co
 1. Exemplar notes carry full contract (see statecraft/notes/README.md Note Contract).
 2. --warn wired in repo health (non-blocking).
 3. --strict --changed-only --tier-a-only fails CI on new/changed Tier A regressions only.
-4. Full Tier A strict deferred until corpus backfill (638 warn violations remain; see backfill table above).
+4. Full Tier A strict deferred until operator enables; warn corpus now at **0** lines (2026-06-28 arc repair).
 
 ## Related
 
-- `scripts/backfill_note_contract_batch.py` — batches: `mou-enforcement` … `other-slug` (discovered: `prefixed-canonical`, `dated-slug`, `other-slug`)
+- `scripts/backfill_note_contract_batch.py` — batches through `arc-continuity-repair` (discovered: `prefixed-canonical`, `dated-slug`, `other-slug`, `tier-b-operational`, `arc-continuity-repair`)
 - [transaction-retirement-inventory-2026-06.md](./transaction-retirement-inventory-2026-06.md)
 - [statecraft/notes/README.md](../../statecraft/notes/README.md)

@@ -8,9 +8,24 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md
+  - source-archive/statecraft/2025-01-10/source-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md
+  - source-archive/statecraft/2025-02-04/source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md
+  - source-archive/statecraft/2025-03-17/source-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md
+  - source-archive/statecraft/2025-04-07/source-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md
+  - source-archive/statecraft/2025-05-02/source-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md
+  - source-archive/statecraft/2025-06-04/source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md
+  - source-archive/statecraft/2025-06-17/source-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md
 ---
 
 WORK only; not Record.
+
+Open alongside:
+
+- [sachs routing](../voices/sachs/sachs-routing.md)
+- [sachs index](../voices/sachs/sachs-index.md)
+
 
 # Sachs Arc
 

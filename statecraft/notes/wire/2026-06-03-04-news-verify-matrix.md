@@ -1,3 +1,16 @@
+---
+note_id: 2026-06-03-04-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-03/day-index.md
+  - source-archive/statecraft/2026-06-04/day-index.md
+  - source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-03 – 2026-06-04

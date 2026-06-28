@@ -6,8 +6,20 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/…
+  - source-archive/statecraft/thread-index.md
+  - source-archive/statecraft/2026-05-15/source-vatican-magnifica-humanitas-leo-xiv-2026-05-15.md
+  - source-archive/statecraft/2025-01-28/source-vatican-antiqua-et-nova-ai-2025-01-28.md
+  - source-archive/statecraft/2024-12-16/source-vatican-city-state-ai-guidelines-dccii-2024-12-16.md
+  - source-archive/statecraft/README.md
+  - source-archive/statecraft/2026-06-14/README.md
+  - source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md
 ---
 WORK only; not Record.
+
+See [notes taxonomy](./README.md#thread-and-arc-canonical-draft).
+
 
 # Statecraft Multi-Lens Bench Pressure Test - 2026-05
 

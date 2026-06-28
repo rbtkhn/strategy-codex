@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-25-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-25
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-25/day-index.md
+  - source-archive/statecraft/2026-06-25/source-dialogue-works-larry-johnson-us-directly-calling-iran-vance-switzerland-bombshell-2026-06-25.md
+  - source-archive/statecraft/2026-06-25/source-judging-freedom-blumenthal-israel-in-panic-2026-06-25.md
+  - source-archive/statecraft/2026-06-25/source-alexander-mercouris-lukashenko-no-to-zelensky-belarus-stands-with-russia-russian-troops-enter-sumy-eu-no-to-kiev-entry-2026-06-25.md
+  - source-archive/statecraft/2026-06-25/source-mario-nawfal-barnes-breaking-gcc-attack-iran-rubio-meeting-iran-strike-vessel-hormuz-2026-06-25.md
+  - source-archive/statecraft/2026-06-25/source-glenn-diesen-marandi-trump-lost-iran-war-must-sell-victory-2026-06-25.md
+  - source-archive/statecraft/2026-06-25/source-lascaris-helmer-trump-goal-destroy-russia-iran-2026-06-25.md
+  - source-archive/statecraft/2026-06-25/source-daniel-davis-mearsheimer-russia-red-lines-crossed-2026-06-25.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-25

@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md
+  - source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md
+  - source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md
+  - source-archive/statecraft/2026-03-02/source-pape-the-escalation-ledger-iran-day-3-2026-03-02.md
+  - source-archive/statecraft/2026-03-07/source-pape-the-escalation-trap-widens-russias-2026-03-07.md
+  - source-archive/statecraft/2026-03-27/source-pape-the-marine-threshold-5000-marines-2026-03-27.md
+  - source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md
+  - source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md
 ---
 
 WORK only; not Record.

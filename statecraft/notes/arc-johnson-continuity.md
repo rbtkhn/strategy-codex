@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-08/source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md
+  - source-archive/statecraft/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md
+  - source-archive/statecraft/2026-04-24/source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md
+  - source-archive/statecraft/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md
+  - source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md
+  - source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md
+  - source-archive/statecraft/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md
+  - source-archive/statecraft/YYYY-MM-DD/day-index.md
 ---
 
 # Johnson arc

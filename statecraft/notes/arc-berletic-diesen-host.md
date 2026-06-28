@@ -9,6 +9,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md
+  - source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
+  - source-archive/statecraft/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md
+  - source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md
+  - source-archive/statecraft/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md
+  - source-archive/statecraft/2026-05-14/source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md
+  - source-archive/statecraft/2025-11-26/source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md
+  - source-archive/statecraft/2026-01-23/source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md
 ---
 
 # Diesen x Berletic speaker arc

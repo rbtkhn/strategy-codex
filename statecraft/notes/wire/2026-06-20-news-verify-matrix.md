@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-20-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-20
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-20/day-index.md
+  - source-archive/statecraft/2026-06-20/source-dialogue-works-larry-johnson-iran-closes-hormuz-ends-israel-combat-ops-us-rushes-talks-2026-06-20.md
+  - source-archive/statecraft/2026-06-20/source-dialogue-works-anthony-aguilar-netanyahu-orders-idf-halt-lebanon-operations-iranian-pressure-2026-06-20.md
+  - source-archive/statecraft/2026-06-20/source-daniel-davis-strait-of-hormuz-closed-guess-who-were-sending-to-reopen-2026-06-20.md
+  - source-archive/statecraft/2026-06-20/source-alexander-mercouris-zelensky-desperate-threatens-belarus-attack-russia-trebles-oreshnik-output-2026-06-20.md
+  - source-archive/statecraft/2026-06-20/source-neutrality-studies-alexander-mercouris-secret-plot-destroy-russia-russophobia-2026-06-20.md
+  - source-archive/statecraft/2026-06-20/source-neutrality-studies-drone-escalation-russia-will-strike-nato-stanislav-krapivnik-2026-06-20.md
+  - source-archive/statecraft/2026-06-20/source-neutrality-studies-collapse-global-recession-unavoidable-steve-jermy-2026-06-20.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-20

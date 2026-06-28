@@ -180,9 +180,13 @@ BATCHES: dict[str, dict[str, str | dict[str, str]]] = {
     "prefixed-canonical": {},
     "dated-slug": {},
     "other-slug": {},
+    "tier-b-operational": {},
+    "arc-continuity-repair": {},
 }
 
-DISCOVERED_BATCHES = frozenset({"prefixed-canonical", "dated-slug", "other-slug"})
+DISCOVERED_BATCHES = frozenset(
+    {"prefixed-canonical", "dated-slug", "other-slug", "tier-b-operational", "arc-continuity-repair"}
+)
 
 PREFIX_BATCH_PREFIXES: tuple[tuple[str, str], ...] = (
     ("thread-", "thread"),
@@ -311,6 +315,30 @@ def discover_prefixed_canonical_batch() -> dict[str, str]:
     return batch
 
 
+TIER_B_TYPE_MAP = {"wire": "wire", "watch": "watch", "reentry": "reentry", "intake": "intake"}
+
+
+def discover_tier_b_operational_batch() -> dict[str, str]:
+    """Tier B operational subfolders (wire / watch / reentry / intake) missing contract."""
+    batch: dict[str, str] = {}
+    for path in sorted(NOTES_ROOT.rglob("*.md")):
+        if classify_tier(path) != "B":
+            continue
+        rel = path.relative_to(NOTES_ROOT)
+        sub = rel.parts[0] if rel.parts else ""
+        note_type = TIER_B_TYPE_MAP.get(sub)
+        if not note_type:
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        if STUB_MARKER in text:
+            continue
+        meta = parse_note_metadata(path, text)
+        if meta.note_type and meta.source_basis:
+            continue
+        batch[rel.as_posix()] = note_type
+    return batch
+
+
 def resolve_batch(name: str) -> dict[str, str | dict[str, str]]:
     if name == "prefixed-canonical":
         return discover_prefixed_canonical_batch()
@@ -318,6 +346,10 @@ def resolve_batch(name: str) -> dict[str, str | dict[str, str]]:
         return discover_dated_slug_batch()
     if name == "other-slug":
         return discover_other_slug_batch()
+    if name == "tier-b-operational":
+        return discover_tier_b_operational_batch()
+    if name == "arc-continuity-repair":
+        return discover_arc_continuity_repair_batch()
     return BATCHES[name]
 
 DATE_IN_NAME = re.compile(r"(\d{4}-\d{2}-\d{2})")
@@ -371,6 +403,221 @@ def _canonical_archive_links(text: str, from_path: Path, *, limit: int = 8) -> l
             if len(links) >= limit:
                 return links
     return links
+
+
+UNCLOSED_MD_LINK = re.compile(r"(\]\([^)]+\.md)(?<!\))$")
+
+
+def fix_unclosed_md_links(text: str) -> str:
+    lines: list[str] = []
+    for line in text.splitlines():
+        stripped = line.rstrip()
+        if UNCLOSED_MD_LINK.search(stripped):
+            line = stripped + ")"
+        lines.append(line)
+    trailing = "\n" if text.endswith("\n") else ""
+    return "\n".join(lines) + trailing
+
+
+def _archives_from_note_links(
+    text: str,
+    from_path: Path,
+    *,
+    limit: int = 8,
+    depth: int = 0,
+) -> list[str]:
+    if depth > 2:
+        return []
+    links: list[str] = []
+    for raw in re.findall(r"\]\(([^)]+)\)", text.replace("\\", "/")):
+        target = raw.split("#")[0].strip()
+        if not target.lower().endswith(".md"):
+            continue
+        resolved = (from_path.parent / target).resolve()
+        if not resolved.is_file():
+            continue
+        body = resolved.read_text(encoding="utf-8", errors="replace")
+        for item in _extract_archive_links(body, limit=limit):
+            if item not in links:
+                links.append(item)
+            if len(links) >= limit:
+                return links
+        for item in _archives_from_note_links(body, resolved, limit=limit, depth=depth + 1):
+            if item not in links:
+                links.append(item)
+            if len(links) >= limit:
+                return links
+    return links
+
+
+def _speaker_slug_from_arc_stem(stem: str) -> str | None:
+    if stem.startswith("arc-") and stem.endswith("-continuity"):
+        return stem.removeprefix("arc-").removesuffix("-continuity")
+    return None
+
+
+def _ensure_voice_routing_links(text: str, speaker: str) -> str:
+    routing = f"../voices/{speaker}/{speaker}-routing.md"
+    index = f"../voices/{speaker}/{speaker}-index.md"
+    if f"voices/{speaker}/" in text.replace("\\", "/"):
+        return text
+    block = (
+        f"\n\nOpen alongside:\n\n"
+        f"- [{speaker} routing]({routing})\n"
+        f"- [{speaker} index]({index})\n"
+    )
+    marker = "WORK only; not Record."
+    if marker in text:
+        idx = text.index(marker) + len(marker)
+        return text[:idx] + block + text[idx:]
+    return block + text
+
+
+def _ensure_notes_readme_link(text: str) -> str:
+    if "statecraft/notes/README.md" in text.replace("\\", "/") or "](./README.md" in text:
+        return text
+    block = "\n\nSee [notes taxonomy](./README.md#thread-and-arc-canonical-draft).\n"
+    marker = "WORK only; not Record."
+    if marker in text:
+        idx = text.index(marker) + len(marker)
+        return text[:idx] + block + text[idx:]
+    return block + text
+
+
+def _upsert_frontmatter_fields(
+    text: str,
+    *,
+    archive_links: list[str],
+    authority_level: str | None = None,
+    source_basis: str | None = None,
+) -> str:
+    fm = FRONTMATTER_RE.match(text.lstrip("\ufeff"))
+    if not fm:
+        return text
+    lines: list[str] = []
+    skip_archive = False
+    for line in fm.group(1).rstrip().splitlines():
+        if line.strip().startswith("archive_links:"):
+            skip_archive = True
+            continue
+        if skip_archive and line.startswith("  - "):
+            continue
+        if skip_archive and not line.startswith("  "):
+            skip_archive = False
+        if authority_level and line.startswith("authority_level:"):
+            lines.append(f"authority_level: {authority_level}")
+            continue
+        if source_basis and line.startswith("source_basis:"):
+            lines.append(f"source_basis: {source_basis}")
+            continue
+        if not skip_archive:
+            lines.append(line)
+    if archive_links:
+        lines.append("archive_links:")
+        for link in archive_links[:8]:
+            lines.append(f"  - {link}")
+    elif authority_level == "review-needed":
+        lines = [ln for ln in lines if not ln.startswith("archive_links:")]
+    new_fm = "\n".join(lines) + "\n"
+    return f"---\n{new_fm}---\n{text[fm.end():]}"
+
+
+def discover_arc_continuity_repair_batch() -> dict[str, str]:
+    """Tier A arc / routing notes failing weak-anchor or orphan validation."""
+    batch: dict[str, str] = {}
+    inbound = build_inbound_note_links(list(NOTES_ROOT.rglob("*.md")))
+    for path in sorted(NOTES_ROOT.rglob("*.md")):
+        if classify_tier(path) != "A":
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        if STUB_MARKER in text:
+            continue
+        meta = parse_note_metadata(path, text)
+        issues = validate_note(meta, text=text, inbound_count=inbound.get(meta.rel, 0))
+        if not issues:
+            continue
+        if any(
+            token in issue
+            for issue in issues
+            for token in ("missing note_type", "missing source_basis", "missing authority_level")
+        ):
+            continue
+        note_type = meta.note_type or "arc"
+        batch[path.relative_to(NOTES_ROOT).as_posix()] = note_type
+    return batch
+
+
+def _sanitize_archive_path(raw: str) -> str:
+    path = raw.split("#")[0].strip().rstrip("#")
+    return path.replace("\\", "/")
+
+
+def _resolved_archive_list(candidates: list[str]) -> list[str]:
+    resolved: list[str] = []
+    for raw in candidates:
+        path = _sanitize_archive_path(raw)
+        if not path.startswith("source-archive/"):
+            continue
+        if (REPO_ROOT / path).is_file() and path not in resolved:
+            resolved.append(path)
+    return resolved
+
+
+def repair_arc_continuity_file(path: Path, *, updated_at: str, dry_run: bool) -> bool:
+    text = path.read_text(encoding="utf-8", errors="replace")
+    meta = parse_note_metadata(path, text)
+    fixed = fix_unclosed_md_links(text)
+    speaker = _speaker_slug_from_arc_stem(path.stem)
+    if speaker:
+        fixed = _ensure_voice_routing_links(fixed, speaker)
+    if path.stem in {"instrument-bench-maturity-audit", "statecraft-multi-lens-bench-pressure-test-2026-05"}:
+        fixed = _ensure_notes_readme_link(fixed)
+
+    archives = _extract_archive_links(fixed, limit=8)
+    for item in _archives_from_linked_synthesis(fixed, path, limit=8):
+        if item not in archives:
+            archives.append(item)
+    for item in _archives_from_note_links(fixed, path, limit=8):
+        if item not in archives:
+            archives.append(item)
+    for item in _canonical_archive_links(fixed, path, limit=8):
+        if item not in archives:
+            archives.append(item)
+    fm_archives = list(getattr(meta, "archive_links", []) or [])
+    for item in _resolved_archive_list(fm_archives):
+        if item not in archives:
+            archives.append(item)
+    archives = _resolved_archive_list(archives)
+
+    authority = meta.authority_level or "shelf-native"
+    basis = meta.source_basis or _source_basis(fixed, archives)
+    if authority == "shelf-native" and not archives:
+        authority = "review-needed"
+        basis = meta.source_basis or "mixed"
+
+    new_text = _upsert_frontmatter_fields(
+        fixed,
+        archive_links=archives,
+        authority_level=authority,
+        source_basis=basis,
+    )
+    if "updated_at:" in new_text.split("---")[1]:
+        new_text = re.sub(
+            r"^updated_at:.*$",
+            f"updated_at: {updated_at}",
+            new_text,
+            count=1,
+            flags=re.MULTILINE,
+        )
+
+    if new_text == text:
+        return False
+    if dry_run:
+        print(f"would repair: {path.relative_to(REPO_ROOT)}")
+        return True
+    path.write_text(new_text, encoding="utf-8", newline="\n")
+    print(f"repaired: {path.relative_to(REPO_ROOT)}")
+    return True
 
 
 def _infer_created_at(stem: str) -> str:
@@ -475,7 +722,12 @@ def backfill_file(
     note_type, authority_level, extra_archives = _batch_entry(spec)
     text = path.read_text(encoding="utf-8", errors="replace")
     meta = parse_note_metadata(path, text)
-    if meta.authority_level and meta.source_basis and meta.note_type:
+    tier = meta.tier or classify_tier(path)
+    if tier == "B":
+        if meta.note_type and meta.source_basis:
+            return False
+        authority_level = "draft"
+    elif meta.authority_level and meta.source_basis and meta.note_type:
         return False
 
     archives = _canonical_archive_links(text, path)
@@ -541,12 +793,16 @@ def main() -> int:
 
     batch = resolve_batch(args.batch)
     changed = 0
+    repair_batch = args.batch == "arc-continuity-repair"
     for rel_name, spec in batch.items():
         path = NOTES_ROOT / rel_name
         if not path.is_file():
             print(f"missing: {rel_name}", file=sys.stderr)
             continue
-        if backfill_file(path, spec, updated_at=args.updated_at, dry_run=args.dry_run):
+        if repair_batch:
+            if repair_arc_continuity_file(path, updated_at=args.updated_at, dry_run=args.dry_run):
+                changed += 1
+        elif backfill_file(path, spec, updated_at=args.updated_at, dry_run=args.dry_run):
             changed += 1
 
     print(f"batch {args.batch}: {changed} file(s) {'would change' if args.dry_run else 'updated'}")

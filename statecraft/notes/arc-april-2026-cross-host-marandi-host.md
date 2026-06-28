@@ -3,7 +3,7 @@ note_type: arc
 primary_voice: marandi
 topic: marandi-april-2026-cross-host
 legacy_path: arc-april-2026-cross-host-marandi-host.md
-authority_level: shelf-native
+authority_level: review-needed
 source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
@@ -36,9 +36,9 @@ The month-level motion is:
 
 ## Best entry surfaces
 
-- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md
-- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md
-- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md
+- [Davis x Marandi](../channels/daniel-davis/arc-marandi-davis-host.md)
+- [Diesen x Marandi](../diesen/arc-marandi-diesen-host.md)
+- [Dialogue Works x Marandi](../channels/dialogue-works/arc-marandi-nima-host.md)
 
 ## Best use
 

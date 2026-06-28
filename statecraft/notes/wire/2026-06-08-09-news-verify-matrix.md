@@ -1,3 +1,16 @@
+---
+note_id: 2026-06-08-09-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-10/source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md
+  - source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md
+---
 WORK only; not Record.
 
 # News-verify matrix — 8–9 Jun 2026 statecraft batch

@@ -1,3 +1,19 @@
+---
+note_id: 2026-02-17-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-02-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-17/README.md
+  - source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md
+  - source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md
+  - source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md
+  - source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md
+  - source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-02-17

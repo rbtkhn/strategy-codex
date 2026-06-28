@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-01-08/source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md
+  - source-archive/statecraft/2026-01-15/source-crooke-deciphering-trumps-externalised-internal-2026-01-15.md
+  - source-archive/statecraft/2026-01-21/source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md
+  - source-archive/statecraft/2026-01-24/source-crooke-will-he-wont-he-taco-on-iran-2026-01-24.md
+  - source-archive/statecraft/2026-01-28/source-crooke-gaza-reconstruction-ukraine-reconstruction-2026-01-28.md
+  - source-archive/statecraft/2026-01-31/source-crooke-trump-dithers-to-find-an-exploitable-2026-01-31.md
+  - source-archive/statecraft/2026-02-05/source-crooke-the-slow-epstein-earthquake-the-rupture-2026-02-05.md
+  - source-archive/statecraft/2026-02-07/source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md
 ---
 
 # Crooke arc

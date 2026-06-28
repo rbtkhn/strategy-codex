@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T16:18:49+00:00",
+  "generated_at": "2026-06-28T16:29:19+00:00",
   "generator": "scripts/reindex_notes.py",
   "dashboard": {
     "tier_a": {
@@ -7,15 +7,15 @@
       "authority": {
         "deprecated": 13,
         "draft": 0,
-        "review-needed": 29,
-        "shelf-native": 253
+        "review-needed": 34,
+        "shelf-native": 248
       },
       "essay_candidates": 1,
-      "orphan_shelf_native": 6,
-      "missing_anchors": 30,
-      "broken_internal_note_links": 137,
-      "stale_review_needed": 29,
-      "contract_warnings": 74
+      "orphan_shelf_native": 0,
+      "missing_anchors": 0,
+      "broken_internal_note_links": 147,
+      "stale_review_needed": 34,
+      "contract_warnings": 53
     },
     "tier_b_summary": {
       "total": 33,
@@ -23,7 +23,7 @@
       "watch": 3,
       "reentry": 3,
       "intake": 3,
-      "contract_gaps": 33
+      "contract_gaps": 0
     }
   },
   "notes": [
@@ -1566,17 +1566,17 @@
       "path": "statecraft/notes/arc-april-2026-cross-host-marandi-host.md",
       "title": "arc-april-2026-cross-host-marandi-host",
       "note_type": "arc",
-      "authority_level": "shelf-native",
+      "authority_level": "review-needed",
       "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 0,
-      "broken_links": 0,
+      "broken_links": 3,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "orphan",
-        "weak_anchor"
+        "broken_links",
+        "stale_review"
       ],
       "subfolder": ""
     },
@@ -1587,15 +1587,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 6,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -1749,15 +1747,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 7,
       "inbound_links": 0,
       "outbound_links": 6,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -1767,15 +1763,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 10,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -1833,15 +1827,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 7,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -1963,15 +1955,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 6,
       "inbound_links": 2,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -1979,7 +1969,7 @@
       "path": "statecraft/notes/arc-jermy-diesen-host.md",
       "title": "arc-jermy-diesen-host",
       "note_type": "arc",
-      "authority_level": "shelf-native",
+      "authority_level": "review-needed",
       "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 7,
@@ -1988,7 +1978,7 @@
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "weak_anchor"
+        "stale_review"
       ],
       "subfolder": ""
     },
@@ -2031,15 +2021,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 6,
       "inbound_links": 2,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2049,16 +2037,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "orphan",
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2084,15 +2069,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 7,
       "inbound_links": 0,
       "outbound_links": 2,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2166,14 +2149,14 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 6,
       "inbound_links": 0,
       "outbound_links": 0,
-      "broken_links": 0,
+      "broken_links": 1,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "weak_anchor"
+        "broken_links"
       ],
       "subfolder": ""
     },
@@ -2296,15 +2279,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 6,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2426,14 +2407,14 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 6,
       "inbound_links": 2,
       "outbound_links": 0,
-      "broken_links": 0,
+      "broken_links": 1,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "weak_anchor"
+        "broken_links"
       ],
       "subfolder": ""
     },
@@ -2460,15 +2441,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 3,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2478,15 +2457,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 5,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2592,15 +2569,14 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 3,
-      "outbound_links": 0,
+      "outbound_links": 2,
       "broken_links": 1,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "broken_links",
-        "weak_anchor"
+        "broken_links"
       ],
       "subfolder": ""
     },
@@ -2641,17 +2617,17 @@
       "path": "statecraft/notes/arc-may-2026-cross-host-marandi-host.md",
       "title": "arc-may-2026-cross-host-marandi-host",
       "note_type": "arc",
-      "authority_level": "shelf-native",
+      "authority_level": "review-needed",
       "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 0,
-      "broken_links": 0,
+      "broken_links": 3,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "orphan",
-        "weak_anchor"
+        "broken_links",
+        "stale_review"
       ],
       "subfolder": ""
     },
@@ -2662,15 +2638,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2746,15 +2720,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2812,14 +2784,14 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 3,
       "outbound_links": 2,
-      "broken_links": 0,
+      "broken_links": 2,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "weak_anchor"
+        "broken_links"
       ],
       "subfolder": ""
     },
@@ -2880,15 +2852,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 4,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2914,15 +2884,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -2946,7 +2914,7 @@
       "path": "statecraft/notes/arc-postol-davis-host.md",
       "title": "arc-postol-davis-host",
       "note_type": "arc",
-      "authority_level": "shelf-native",
+      "authority_level": "review-needed",
       "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 3,
@@ -2955,7 +2923,7 @@
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "weak_anchor"
+        "stale_review"
       ],
       "subfolder": ""
     },
@@ -2964,7 +2932,7 @@
       "path": "statecraft/notes/arc-postol-diesen-host.md",
       "title": "arc-postol-diesen-host",
       "note_type": "arc",
-      "authority_level": "shelf-native",
+      "authority_level": "review-needed",
       "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 1,
@@ -2973,7 +2941,7 @@
       "essay_candidate": false,
       "updated_at": "2026-06-28",
       "warnings": [
-        "weak_anchor"
+        "stale_review"
       ],
       "subfolder": ""
     },
@@ -3000,15 +2968,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 7,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -3034,15 +3000,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "source-archive",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 1,
       "inbound_links": 1,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -3132,16 +3096,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "orphan",
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -3167,15 +3128,13 @@
       "note_type": "arc",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -3710,70 +3669,61 @@
       "note_type": "synthesis",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 7,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "orphan",
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
       "tier": "B",
       "path": "statecraft/notes/intake/2026-06-08-intake-readiness.md",
       "title": "2026-06-08-intake-readiness",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "intake",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 11,
       "inbound_links": 0,
       "outbound_links": 15,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "intake"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/intake/2026-06-09-intake-readiness.md",
       "title": "2026-06-09-intake-readiness",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "intake",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 14,
       "inbound_links": 0,
       "outbound_links": 3,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "intake"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/intake/intake-digest-TEMPLATE.md",
       "title": "intake-digest-TEMPLATE",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "intake",
+      "authority_level": "draft",
+      "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 1,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "intake"
     },
     {
@@ -4510,7 +4460,7 @@
       "authority_level": "shelf-native",
       "source_basis": "source-archive",
       "archive_anchor_count": 2,
-      "inbound_links": 2,
+      "inbound_links": 4,
       "outbound_links": 2,
       "broken_links": 0,
       "essay_candidate": false,
@@ -4592,54 +4542,48 @@
       "tier": "B",
       "path": "statecraft/notes/reentry/2026-06-week1-start-here.md",
       "title": "2026-06-week1-start-here",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 1,
+      "note_type": "reentry",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 2,
       "inbound_links": 0,
       "outbound_links": 18,
       "broken_links": 1,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "reentry"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/reentry/2026-06-week2-start-here.md",
       "title": "2026-06-week2-start-here",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 2,
+      "note_type": "reentry",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 25,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "reentry"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/reentry/_templates/week-hinge-start-here.md",
       "title": "week-hinge-start-here",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "reentry",
+      "authority_level": "draft",
+      "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "reentry"
     },
     {
@@ -4833,16 +4777,13 @@
       "note_type": "synthesis",
       "authority_level": "shelf-native",
       "source_basis": "mixed",
-      "archive_anchor_count": 0,
+      "archive_anchor_count": 7,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
       "updated_at": "2026-06-28",
-      "warnings": [
-        "orphan",
-        "weak_anchor"
-      ],
+      "warnings": [],
       "subfolder": ""
     },
     {
@@ -4966,54 +4907,48 @@
       "tier": "B",
       "path": "statecraft/notes/watch/2026-06-12-72h-watch-run.md",
       "title": "2026-06-12-72h-watch-run",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "watch",
+      "authority_level": "draft",
+      "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "watch"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/watch/2026-06-16-72h-watch-run.md",
       "title": "2026-06-16-72h-watch-run",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "watch",
+      "authority_level": "draft",
+      "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "watch"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/watch/2026-06-17-72h-watch-run.md",
       "title": "2026-06-17-72h-watch-run",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "watch",
+      "authority_level": "draft",
+      "source_basis": "mixed",
       "archive_anchor_count": 0,
       "inbound_links": 0,
       "outbound_links": 3,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "watch"
     },
     {
@@ -5052,432 +4987,384 @@
       "tier": "B",
       "path": "statecraft/notes/wire/2026-02-03-news-verify-matrix.md",
       "title": "2026-02-03-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 2,
       "inbound_links": 0,
       "outbound_links": 6,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-02-17-news-verify-matrix.md",
       "title": "2026-02-17-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 6,
       "inbound_links": 0,
       "outbound_links": 3,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-03-03-news-verify-matrix.md",
       "title": "2026-03-03-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 5,
       "inbound_links": 0,
       "outbound_links": 2,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-03-17-news-verify-matrix.md",
       "title": "2026-03-17-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 7,
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 6,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-03-24-news-verify-matrix.md",
       "title": "2026-03-24-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 5,
       "inbound_links": 0,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-01-02-news-verify-matrix.md",
       "title": "2026-06-01-02-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 2,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md",
       "title": "2026-06-03-04-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 3,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-05-07-news-verify-matrix.md",
       "title": "2026-06-05-07-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 3,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md",
       "title": "2026-06-08-09-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 3,
       "inbound_links": 0,
       "outbound_links": 4,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-10-news-verify-matrix.md",
       "title": "2026-06-10-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 5,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-11-news-verify-matrix.md",
       "title": "2026-06-11-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 1,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-12-news-verify-matrix.md",
       "title": "2026-06-12-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 1,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md",
       "title": "2026-06-13-ph-boomer-hell-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 2,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-14-news-verify-matrix.md",
       "title": "2026-06-14-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 1,
       "inbound_links": 0,
       "outbound_links": 3,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-15-news-verify-matrix.md",
       "title": "2026-06-15-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 1,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-16-news-verify-matrix.md",
       "title": "2026-06-16-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 16,
       "inbound_links": 0,
       "outbound_links": 2,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-17-news-verify-matrix.md",
       "title": "2026-06-17-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 2,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-18-news-verify-matrix.md",
       "title": "2026-06-18-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 1,
       "inbound_links": 0,
       "outbound_links": 2,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-19-news-verify-matrix.md",
       "title": "2026-06-19-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 1,
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 2,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-20-news-verify-matrix.md",
       "title": "2026-06-20-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 1,
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-22-news-verify-matrix.md",
       "title": "2026-06-22-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 1,
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 1,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-23-news-verify-matrix.md",
       "title": "2026-06-23-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 1,
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-25-news-verify-matrix.md",
       "title": "2026-06-25-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
-      "archive_anchor_count": 1,
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {
       "tier": "B",
       "path": "statecraft/notes/wire/2026-06-26-news-verify-matrix.md",
       "title": "2026-06-26-news-verify-matrix",
-      "note_type": "",
-      "authority_level": "",
-      "source_basis": "",
+      "note_type": "wire",
+      "authority_level": "draft",
+      "source_basis": "source-archive",
       "archive_anchor_count": 1,
       "inbound_links": 0,
       "outbound_links": 0,
       "broken_links": 0,
       "essay_candidate": false,
-      "updated_at": "",
-      "warnings": [
-        "missing_contract"
-      ],
+      "updated_at": "2026-06-28",
+      "warnings": [],
       "subfolder": "wire"
     },
     {

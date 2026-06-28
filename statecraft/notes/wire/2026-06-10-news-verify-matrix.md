@@ -1,3 +1,18 @@
+---
+note_id: 2026-06-10-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-10
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-09/source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md
+  - source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md
+  - source-archive/statecraft/2026-06-10/source-dialogue-works-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md
+  - source-archive/statecraft/2026-06-10/source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md
+  - source-archive/statecraft/2026-06-10/source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-10 (GCC / Jordan–Kuwait–Bahrain hooks)

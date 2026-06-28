@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-23-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-23
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-23/day-index.md
+  - source-archive/statecraft/2026-06-23/source-dialogue-works-marandi-new-hormuz-mechanism-iaea-access-put-on-hold-2026-06-23.md
+  - source-archive/statecraft/2026-06-23/source-dialogue-works-helmer-vance-lebanon-mou-hormuz-putin-ukraine-2026-06-23.md
+  - source-archive/statecraft/2026-06-23/source-dialogue-works-henningsen-israels-losses-lebanon-hezbollah-iran-geneva-talks-2026-06-23.md
+  - source-archive/statecraft/2026-06-23/source-alexander-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md
+  - source-archive/statecraft/2026-06-23/source-duran-mercouris-rubicon-crossed-zelensky-targets-belarus-2026-06-23.md
+  - source-archive/statecraft/2026-06-23/source-mario-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md
+  - source-archive/statecraft/2026-06-23/source-judging-freedom-freeman-should-iran-trust-trump-2026-06-23.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-23

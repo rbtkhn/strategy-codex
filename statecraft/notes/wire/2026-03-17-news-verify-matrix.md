@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-17-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-17/day-index.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-alexander-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md
+  - source-archive/statecraft/2026-03-17
+  - source-archive/statecraft/2026-03-31/README.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-03-17

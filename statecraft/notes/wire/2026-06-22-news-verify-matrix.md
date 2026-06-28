@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-22-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-22
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-22/day-index.md
+  - source-archive/statecraft/2026-06-22/source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-glenn-diesen-ray-mcgovern-putin-under-pressure-to-retaliate-against-nato-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-judging-freedom-johnson-why-iran-still-controls-hormuz-2026-06-22.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-06-22

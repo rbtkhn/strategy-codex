@@ -13,17 +13,17 @@ Discovery stub: [`statecraft/notes/INDEX.md`](../../statecraft/notes/INDEX.md).
 ```text
 Statecraft Notes Health (Tier A)
 - Tier A notes: 295
-- Shelf-native / draft / review-needed / deprecated: 253 / 0 / 29 / 13
+- Shelf-native / draft / review-needed / deprecated: 248 / 0 / 34 / 13
 - Essay candidates: 1
-- Orphan shelf-native: 6
-- Missing archive/synthesis anchors (shelf-native): 30
-- Broken internal note links: 137
-- Stale review-needed: 29
-- Contract violations (Tier A warn-equivalent): 74
+- Orphan shelf-native: 0
+- Missing archive/synthesis anchors (shelf-native): 0
+- Broken internal note links: 147
+- Stale review-needed: 34
+- Contract violations (Tier A warn-equivalent): 53
 
 Tier B summary (operational subfolders)
 - Tier B notes: 33 (wire: 24 · watch: 3 · reentry: 3 · intake: 3)
-- Tier B contract gaps: 33
+- Tier B contract gaps: 0
 ```
 
 ## 2. Tier A registry
@@ -34,8 +34,8 @@ Tier B summary (operational subfolders)
 | arc-aguilar-nima-host | [arc-aguilar-nima-host](../../statecraft/notes/arc-aguilar-nima-host.md) | arc | shelf-native | source-archive | 3 | 0 | 6 | 0 | false | 2026-06-28 |  |
 | arc-april-2026-cross-host-freeman-host | [arc-april-2026-cross-host-freeman-host](../../statecraft/notes/arc-april-2026-cross-host-freeman-host.md) | arc | shelf-native | source-archive | 9 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-april-2026-cross-host-johnson-host | [arc-april-2026-cross-host-johnson-host](../../statecraft/notes/arc-april-2026-cross-host-johnson-host.md) | arc | shelf-native | source-archive | 13 | 0 | 0 | 0 | false | 2026-06-28 |  |
-| arc-april-2026-cross-host-marandi-host | [arc-april-2026-cross-host-marandi-host](../../statecraft/notes/arc-april-2026-cross-host-marandi-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | orphan, weak_anchor |
-| arc-april-2026-cross-host-ritter-host | [arc-april-2026-cross-host-ritter-host](../../statecraft/notes/arc-april-2026-cross-host-ritter-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-april-2026-cross-host-marandi-host | [arc-april-2026-cross-host-marandi-host](../../statecraft/notes/arc-april-2026-cross-host-marandi-host.md) | arc | review-needed | mixed | 0 | 0 | 0 | 3 | false | 2026-06-28 | broken_links, stale_review |
+| arc-april-2026-cross-host-ritter-host | [arc-april-2026-cross-host-ritter-host](../../statecraft/notes/arc-april-2026-cross-host-ritter-host.md) | arc | shelf-native | mixed | 6 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-april-2026-interview-cross-host-crooke-host | [arc-april-2026-interview-cross-host-crooke-host](../../statecraft/notes/arc-april-2026-interview-cross-host-crooke-host.md) | arc | shelf-native | source-archive | 3 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-armstrong-nima-host | [arc-armstrong-nima-host](../../statecraft/notes/arc-armstrong-nima-host.md) | arc | shelf-native | source-archive | 2 | 0 | 1 | 0 | false | 2026-06-28 |  |
 | arc-barnes-continuity | [arc-barnes-continuity](../../statecraft/notes/arc-barnes-continuity.md) | arc | shelf-native | source-archive | 10 | 0 | 0 | 0 | false | 2026-06-28 |  |
@@ -45,12 +45,12 @@ Tier B summary (operational subfolders)
 | arc-baud-diesen-host | [arc-baud-diesen-host](../../statecraft/notes/arc-baud-diesen-host.md) | arc | shelf-native | source-archive | 2 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-baud-nima-host | [arc-baud-nima-host](../../statecraft/notes/arc-baud-nima-host.md) | arc | shelf-native | source-archive | 16 | 2 | 4 | 0 | false | 2026-06-28 |  |
 | arc-beebe-diesen-host | [arc-beebe-diesen-host](../../statecraft/notes/arc-beebe-diesen-host.md) | arc | shelf-native | source-archive | 3 | 9 | 8 | 0 | false | 2026-06-28 |  |
-| arc-berletic-diesen-host | [arc-berletic-diesen-host](../../statecraft/notes/arc-berletic-diesen-host.md) | arc | shelf-native | mixed | 0 | 0 | 6 | 0 | false | 2026-06-28 | weak_anchor |
-| arc-crooke-continuity | [arc-crooke-continuity](../../statecraft/notes/arc-crooke-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 10 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-berletic-diesen-host | [arc-berletic-diesen-host](../../statecraft/notes/arc-berletic-diesen-host.md) | arc | shelf-native | mixed | 7 | 0 | 6 | 0 | false | 2026-06-28 |  |
+| arc-crooke-continuity | [arc-crooke-continuity](../../statecraft/notes/arc-crooke-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 10 | 0 | false | 2026-06-28 |  |
 | arc-crooke-davis-host | [arc-crooke-davis-host](../../statecraft/notes/arc-crooke-davis-host.md) | arc | shelf-native | source-archive | 2 | 4 | 1 | 0 | false | 2026-06-28 |  |
 | arc-crooke-diesen-host | [arc-crooke-diesen-host](../../statecraft/notes/arc-crooke-diesen-host.md) | arc | shelf-native | source-archive | 2 | 5 | 0 | 0 | false | 2026-06-28 |  |
 | arc-crooke-nima-host | [arc-crooke-nima-host](../../statecraft/notes/arc-crooke-nima-host.md) | arc | shelf-native | source-archive | 2 | 2 | 1 | 0 | false | 2026-06-28 |  |
-| arc-freeman-continuity | [arc-freeman-continuity](../../statecraft/notes/arc-freeman-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-freeman-continuity | [arc-freeman-continuity](../../statecraft/notes/arc-freeman-continuity.md) | arc | shelf-native | mixed | 7 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-freeman-davis-host | [arc-freeman-davis-host](../../statecraft/notes/arc-freeman-davis-host.md) | arc | shelf-native | source-archive | 2 | 0 | 1 | 0 | false | 2026-06-28 |  |
 | arc-freeman-diesen-host | [arc-freeman-diesen-host](../../statecraft/notes/arc-freeman-diesen-host.md) | arc | shelf-native | source-archive | 2 | 2 | 2 | 0 | false | 2026-06-28 |  |
 | arc-freeman-india-global-left-iran | [arc-freeman-india-global-left-iran](../../statecraft/notes/arc-freeman-india-global-left-iran.md) | arc | shelf-native | source-archive | 8 | 21 | 9 | 0 | false | 2026-06-28 |  |
@@ -58,19 +58,19 @@ Tier B summary (operational subfolders)
 | arc-freeman-nima-host | [arc-freeman-nima-host](../../statecraft/notes/arc-freeman-nima-host.md) | arc | shelf-native | source-archive | 5 | 3 | 3 | 0 | false | 2026-06-28 |  |
 | arc-helmer-dmitriev-lane | [arc-helmer-dmitriev-lane](../../statecraft/notes/arc-helmer-dmitriev-lane.md) | arc | shelf-native | source-archive | 8 | 13 | 6 | 0 | false | 2026-06-28 |  |
 | arc-helmer-iran-five-terms | [arc-helmer-iran-five-terms](../../statecraft/notes/arc-helmer-iran-five-terms.md) | arc | shelf-native | source-archive | 5 | 21 | 12 | 0 | false | 2026-06-28 |  |
-| arc-jermy-davis-host | [arc-jermy-davis-host](../../statecraft/notes/arc-jermy-davis-host.md) | arc | shelf-native | mixed | 0 | 2 | 4 | 0 | false | 2026-06-28 | weak_anchor |
-| arc-jermy-diesen-host | [arc-jermy-diesen-host](../../statecraft/notes/arc-jermy-diesen-host.md) | arc | shelf-native | mixed | 0 | 7 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-jermy-davis-host | [arc-jermy-davis-host](../../statecraft/notes/arc-jermy-davis-host.md) | arc | shelf-native | mixed | 6 | 2 | 4 | 0 | false | 2026-06-28 |  |
+| arc-jermy-diesen-host | [arc-jermy-diesen-host](../../statecraft/notes/arc-jermy-diesen-host.md) | arc | review-needed | mixed | 0 | 7 | 0 | 0 | false | 2026-06-28 | stale_review |
 | arc-jermy-iran-energy | [arc-jermy-iran-energy](../../statecraft/notes/arc-jermy-iran-energy.md) | arc | shelf-native | source-archive | 8 | 3 | 5 | 0 | false | 2026-06-28 |  |
 | arc-jermy-iran-naval | [arc-jermy-iran-naval](../../statecraft/notes/arc-jermy-iran-naval.md) | arc | shelf-native | source-archive | 8 | 4 | 2 | 0 | false | 2026-06-28 |  |
-| arc-jermy-peacemonger-host | [arc-jermy-peacemonger-host](../../statecraft/notes/arc-jermy-peacemonger-host.md) | arc | shelf-native | mixed | 0 | 2 | 4 | 0 | false | 2026-06-28 | weak_anchor |
-| arc-jiang-continuity | [arc-jiang-continuity](../../statecraft/notes/arc-jiang-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | orphan, weak_anchor |
+| arc-jermy-peacemonger-host | [arc-jermy-peacemonger-host](../../statecraft/notes/arc-jermy-peacemonger-host.md) | arc | shelf-native | mixed | 6 | 2 | 4 | 0 | false | 2026-06-28 |  |
+| arc-jiang-continuity | [arc-jiang-continuity](../../statecraft/notes/arc-jiang-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-jiang-diesen-host | [arc-jiang-diesen-host](../../statecraft/notes/arc-jiang-diesen-host.md) | arc | shelf-native | source-archive | 2 | 8 | 8 | 0 | false | 2026-06-28 |  |
-| arc-johnson-continuity | [arc-johnson-continuity](../../statecraft/notes/arc-johnson-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 2 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-johnson-continuity | [arc-johnson-continuity](../../statecraft/notes/arc-johnson-continuity.md) | arc | shelf-native | mixed | 7 | 0 | 2 | 0 | false | 2026-06-28 |  |
 | arc-johnson-davis-host | [arc-johnson-davis-host](../../statecraft/notes/arc-johnson-davis-host.md) | arc | shelf-native | source-archive | 2 | 4 | 1 | 0 | false | 2026-06-28 |  |
 | arc-johnson-diesen-host | [arc-johnson-diesen-host](../../statecraft/notes/arc-johnson-diesen-host.md) | arc | shelf-native | source-archive | 2 | 2 | 0 | 0 | false | 2026-06-28 |  |
 | arc-johnson-napolitano-host | [arc-johnson-napolitano-host](../../statecraft/notes/arc-johnson-napolitano-host.md) | arc | shelf-native | source-archive | 6 | 1 | 1 | 0 | false | 2026-06-28 |  |
 | arc-johnson-nima-host | [arc-johnson-nima-host](../../statecraft/notes/arc-johnson-nima-host.md) | arc | shelf-native | source-archive | 2 | 5 | 2 | 0 | false | 2026-06-28 |  |
-| arc-june-2026-cross-context-parsi-host | [arc-june-2026-cross-context-parsi-host](../../statecraft/notes/arc-june-2026-cross-context-parsi-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-june-2026-cross-context-parsi-host | [arc-june-2026-cross-context-parsi-host](../../statecraft/notes/arc-june-2026-cross-context-parsi-host.md) | arc | shelf-native | mixed | 6 | 0 | 0 | 1 | false | 2026-06-28 | broken_links |
 | arc-karaganov-continuity | [arc-karaganov-continuity](../../statecraft/notes/arc-karaganov-continuity.md) | arc | shelf-native | source-archive | 1 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-karaganov-diesen-host | [arc-karaganov-diesen-host](../../statecraft/notes/arc-karaganov-diesen-host.md) | arc | shelf-native | source-archive | 6 | 10 | 9 | 0 | false | 2026-06-28 |  |
 | arc-kent-carlson-host | [arc-kent-carlson-host](../../statecraft/notes/arc-kent-carlson-host.md) | arc | shelf-native | source-archive | 1 | 1 | 1 | 0 | false | 2026-06-28 |  |
@@ -78,7 +78,7 @@ Tier B summary (operational subfolders)
 | arc-kent-diesen-host | [arc-kent-diesen-host](../../statecraft/notes/arc-kent-diesen-host.md) | arc | shelf-native | source-archive | 2 | 2 | 0 | 0 | false | 2026-06-28 |  |
 | arc-kent-nawfal-host | [arc-kent-nawfal-host](../../statecraft/notes/arc-kent-nawfal-host.md) | arc | shelf-native | source-archive | 1 | 0 | 3 | 0 | false | 2026-06-28 |  |
 | arc-krainer-diesen-host | [arc-krainer-diesen-host](../../statecraft/notes/arc-krainer-diesen-host.md) | arc | shelf-native | source-archive | 1 | 10 | 8 | 0 | false | 2026-06-28 |  |
-| arc-macgregor-continuity | [arc-macgregor-continuity](../../statecraft/notes/arc-macgregor-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 6 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-macgregor-continuity | [arc-macgregor-continuity](../../statecraft/notes/arc-macgregor-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 6 | 0 | false | 2026-06-28 |  |
 | arc-macgregor-davis-host | [arc-macgregor-davis-host](../../statecraft/notes/arc-macgregor-davis-host.md) | arc | shelf-native | source-archive | 13 | 4 | 1 | 0 | false | 2026-06-28 |  |
 | arc-macgregor-diesen-host | [arc-macgregor-diesen-host](../../statecraft/notes/arc-macgregor-diesen-host.md) | arc | shelf-native | source-archive | 2 | 2 | 0 | 0 | false | 2026-06-28 |  |
 | arc-macgregor-napolitano-host | [arc-macgregor-napolitano-host](../../statecraft/notes/arc-macgregor-napolitano-host.md) | arc | shelf-native | source-archive | 24 | 2 | 1 | 0 | false | 2026-06-28 |  |
@@ -86,51 +86,51 @@ Tier B summary (operational subfolders)
 | arc-marandi-davis-host | [arc-marandi-davis-host](../../statecraft/notes/arc-marandi-davis-host.md) | arc | shelf-native | source-archive | 2 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-marandi-diesen-host | [arc-marandi-diesen-host](../../statecraft/notes/arc-marandi-diesen-host.md) | arc | shelf-native | source-archive | 4 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-marandi-nima-host | [arc-marandi-nima-host](../../statecraft/notes/arc-marandi-nima-host.md) | arc | shelf-native | source-archive | 5 | 5 | 2 | 0 | false | 2026-06-28 |  |
-| arc-march-2026-cross-context-parsi-host | [arc-march-2026-cross-context-parsi-host](../../statecraft/notes/arc-march-2026-cross-context-parsi-host.md) | arc | shelf-native | mixed | 0 | 2 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-march-2026-cross-context-parsi-host | [arc-march-2026-cross-context-parsi-host](../../statecraft/notes/arc-march-2026-cross-context-parsi-host.md) | arc | shelf-native | mixed | 6 | 2 | 0 | 1 | false | 2026-06-28 | broken_links |
 | arc-march-2026-cross-host-freeman-host | [arc-march-2026-cross-host-freeman-host](../../statecraft/notes/arc-march-2026-cross-host-freeman-host.md) | arc | shelf-native | source-archive | 9 | 1 | 0 | 0 | false | 2026-06-28 |  |
-| arc-march-2026-cross-host-johnson-host | [arc-march-2026-cross-host-johnson-host](../../statecraft/notes/arc-march-2026-cross-host-johnson-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
-| arc-march-2026-cross-host-ritter-host | [arc-march-2026-cross-host-ritter-host](../../statecraft/notes/arc-march-2026-cross-host-ritter-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-march-2026-cross-host-johnson-host | [arc-march-2026-cross-host-johnson-host](../../statecraft/notes/arc-march-2026-cross-host-johnson-host.md) | arc | shelf-native | mixed | 3 | 0 | 0 | 0 | false | 2026-06-28 |  |
+| arc-march-2026-cross-host-ritter-host | [arc-march-2026-cross-host-ritter-host](../../statecraft/notes/arc-march-2026-cross-host-ritter-host.md) | arc | shelf-native | mixed | 5 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-march-2026-interview-cross-host-crooke-host | [arc-march-2026-interview-cross-host-crooke-host](../../statecraft/notes/arc-march-2026-interview-cross-host-crooke-host.md) | arc | shelf-native | source-archive | 3 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-martyanov-continuity | [arc-martyanov-continuity](../../statecraft/notes/arc-martyanov-continuity.md) | arc | shelf-native | source-archive | 16 | 0 | 1 | 0 | false | 2026-06-28 |  |
 | arc-martyanov-davis-host | [arc-martyanov-davis-host](../../statecraft/notes/arc-martyanov-davis-host.md) | arc | shelf-native | source-archive | 2 | 1 | 1 | 0 | false | 2026-06-28 |  |
 | arc-martyanov-diesen-host | [arc-martyanov-diesen-host](../../statecraft/notes/arc-martyanov-diesen-host.md) | arc | shelf-native | source-archive | 2 | 2 | 0 | 0 | false | 2026-06-28 |  |
 | arc-martyanov-nima-host | [arc-martyanov-nima-host](../../statecraft/notes/arc-martyanov-nima-host.md) | arc | shelf-native | source-archive | 2 | 2 | 1 | 0 | false | 2026-06-28 |  |
 | arc-matlock-diesen-host | [arc-matlock-diesen-host](../../statecraft/notes/arc-matlock-diesen-host.md) | arc | shelf-native | source-archive | 1 | 9 | 8 | 0 | false | 2026-06-28 |  |
-| arc-may-2026-cross-context-parsi-host | [arc-may-2026-cross-context-parsi-host](../../statecraft/notes/arc-may-2026-cross-context-parsi-host.md) | arc | shelf-native | mixed | 0 | 3 | 0 | 1 | false | 2026-06-28 | broken_links, weak_anchor |
+| arc-may-2026-cross-context-parsi-host | [arc-may-2026-cross-context-parsi-host](../../statecraft/notes/arc-may-2026-cross-context-parsi-host.md) | arc | shelf-native | mixed | 8 | 3 | 2 | 1 | false | 2026-06-28 | broken_links |
 | arc-may-2026-cross-host-freeman-host | [arc-may-2026-cross-host-freeman-host](../../statecraft/notes/arc-may-2026-cross-host-freeman-host.md) | arc | shelf-native | source-archive | 6 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-may-2026-cross-host-johnson-host | [arc-may-2026-cross-host-johnson-host](../../statecraft/notes/arc-may-2026-cross-host-johnson-host.md) | arc | shelf-native | source-archive | 9 | 0 | 0 | 0 | false | 2026-06-28 |  |
-| arc-may-2026-cross-host-marandi-host | [arc-may-2026-cross-host-marandi-host](../../statecraft/notes/arc-may-2026-cross-host-marandi-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | orphan, weak_anchor |
-| arc-may-2026-cross-host-ritter-host | [arc-may-2026-cross-host-ritter-host](../../statecraft/notes/arc-may-2026-cross-host-ritter-host.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-may-2026-cross-host-marandi-host | [arc-may-2026-cross-host-marandi-host](../../statecraft/notes/arc-may-2026-cross-host-marandi-host.md) | arc | review-needed | mixed | 0 | 0 | 0 | 3 | false | 2026-06-28 | broken_links, stale_review |
+| arc-may-2026-cross-host-ritter-host | [arc-may-2026-cross-host-ritter-host](../../statecraft/notes/arc-may-2026-cross-host-ritter-host.md) | arc | shelf-native | mixed | 8 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-may-2026-interview-cross-host-crooke-host | [arc-may-2026-interview-cross-host-crooke-host](../../statecraft/notes/arc-may-2026-interview-cross-host-crooke-host.md) | arc | shelf-native | source-archive | 2 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-mcgovern-continuity | [arc-mcgovern-continuity](../../statecraft/notes/arc-mcgovern-continuity.md) | arc | shelf-native | source-archive | 5 | 0 | 1 | 0 | false | 2026-06-28 |  |
 | arc-mcgovern-diesen-host | [arc-mcgovern-diesen-host](../../statecraft/notes/arc-mcgovern-diesen-host.md) | arc | shelf-native | source-archive | 3 | 3 | 3 | 1 | false | 2026-06-28 | broken_links |
 | arc-mcgovern-nima-host | [arc-mcgovern-nima-host](../../statecraft/notes/arc-mcgovern-nima-host.md) | arc | shelf-native | source-archive | 2 | 0 | 6 | 0 | false | 2026-06-28 |  |
-| arc-mearsheimer-continuity | [arc-mearsheimer-continuity](../../statecraft/notes/arc-mearsheimer-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 4 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-mearsheimer-continuity | [arc-mearsheimer-continuity](../../statecraft/notes/arc-mearsheimer-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 4 | 0 | false | 2026-06-28 |  |
 | arc-mearsheimer-davis-host | [arc-mearsheimer-davis-host](../../statecraft/notes/arc-mearsheimer-davis-host.md) | arc | shelf-native | source-archive | 2 | 4 | 1 | 0 | false | 2026-06-28 |  |
 | arc-mearsheimer-diesen-host | [arc-mearsheimer-diesen-host](../../statecraft/notes/arc-mearsheimer-diesen-host.md) | arc | shelf-native | source-archive | 4 | 4 | 1 | 0 | false | 2026-06-28 |  |
 | arc-mearsheimer-napolitano-host | [arc-mearsheimer-napolitano-host](../../statecraft/notes/arc-mearsheimer-napolitano-host.md) | arc | shelf-native | source-archive | 6 | 2 | 4 | 0 | false | 2026-06-28 |  |
-| arc-mercouris-continuity | [arc-mercouris-continuity](../../statecraft/notes/arc-mercouris-continuity.md) | arc | shelf-native | mixed | 0 | 3 | 2 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-mercouris-continuity | [arc-mercouris-continuity](../../statecraft/notes/arc-mercouris-continuity.md) | arc | shelf-native | mixed | 8 | 3 | 2 | 2 | false | 2026-06-28 | broken_links |
 | arc-mercouris-davis-host | [arc-mercouris-davis-host](../../statecraft/notes/arc-mercouris-davis-host.md) | arc | shelf-native | source-archive | 3 | 1 | 5 | 0 | false | 2026-06-28 |  |
 | arc-mercouris-diesen-host | [arc-mercouris-diesen-host](../../statecraft/notes/arc-mercouris-diesen-host.md) | arc | shelf-native | source-archive | 5 | 5 | 2 | 1 | false | 2026-06-28 | broken_links |
 | arc-mercouris-dmitriev-lane | [arc-mercouris-dmitriev-lane](../../statecraft/notes/arc-mercouris-dmitriev-lane.md) | arc | shelf-native | source-archive | 8 | 3 | 5 | 0 | false | 2026-06-28 |  |
-| arc-pape-continuity | [arc-pape-continuity](../../statecraft/notes/arc-pape-continuity.md) | arc | shelf-native | mixed | 0 | 4 | 4 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-pape-continuity | [arc-pape-continuity](../../statecraft/notes/arc-pape-continuity.md) | arc | shelf-native | mixed | 8 | 4 | 4 | 0 | false | 2026-06-28 |  |
 | arc-pape-escalation-trap | [arc-pape-escalation-trap](../../statecraft/notes/arc-pape-escalation-trap.md) | arc | shelf-native | source-archive | 26 | 45 | 16 | 0 | false | 2026-06-22 |  |
-| arc-parsi-continuity | [arc-parsi-continuity](../../statecraft/notes/arc-parsi-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-parsi-continuity | [arc-parsi-continuity](../../statecraft/notes/arc-parsi-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-postol-continuity | [arc-postol-continuity](../../statecraft/notes/arc-postol-continuity.md) | arc | shelf-native | source-archive | 4 | 0 | 0 | 0 | false | 2026-06-28 |  |
-| arc-postol-davis-host | [arc-postol-davis-host](../../statecraft/notes/arc-postol-davis-host.md) | arc | shelf-native | mixed | 0 | 3 | 1 | 0 | false | 2026-06-28 | weak_anchor |
-| arc-postol-diesen-host | [arc-postol-diesen-host](../../statecraft/notes/arc-postol-diesen-host.md) | arc | shelf-native | mixed | 0 | 1 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-postol-davis-host | [arc-postol-davis-host](../../statecraft/notes/arc-postol-davis-host.md) | arc | review-needed | mixed | 0 | 3 | 1 | 0 | false | 2026-06-28 | stale_review |
+| arc-postol-diesen-host | [arc-postol-diesen-host](../../statecraft/notes/arc-postol-diesen-host.md) | arc | review-needed | mixed | 0 | 1 | 0 | 0 | false | 2026-06-28 | stale_review |
 | arc-postol-nima-host | [arc-postol-nima-host](../../statecraft/notes/arc-postol-nima-host.md) | arc | shelf-native | source-archive | 1 | 2 | 1 | 0 | false | 2026-06-28 |  |
-| arc-ritter-continuity | [arc-ritter-continuity](../../statecraft/notes/arc-ritter-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-ritter-continuity | [arc-ritter-continuity](../../statecraft/notes/arc-ritter-continuity.md) | arc | shelf-native | mixed | 7 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-ritter-davis-host | [arc-ritter-davis-host](../../statecraft/notes/arc-ritter-davis-host.md) | arc | shelf-native | source-archive | 2 | 2 | 0 | 0 | false | 2026-06-28 |  |
-| arc-ritter-diesen-host | [arc-ritter-diesen-host](../../statecraft/notes/arc-ritter-diesen-host.md) | arc | shelf-native | source-archive | 0 | 1 | 0 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-ritter-diesen-host | [arc-ritter-diesen-host](../../statecraft/notes/arc-ritter-diesen-host.md) | arc | shelf-native | source-archive | 1 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | arc-ritter-india-global-left-iran | [arc-ritter-india-global-left-iran](../../statecraft/notes/arc-ritter-india-global-left-iran.md) | arc | shelf-native | source-archive | 8 | 17 | 8 | 0 | false | 2026-06-28 |  |
 | arc-ritter-karaganov-doctrine | [arc-ritter-karaganov-doctrine](../../statecraft/notes/arc-ritter-karaganov-doctrine.md) | arc | shelf-native | source-archive | 8 | 2 | 4 | 0 | false | 2026-06-28 |  |
 | arc-ritter-napolitano-host | [arc-ritter-napolitano-host](../../statecraft/notes/arc-ritter-napolitano-host.md) | arc | shelf-native | source-archive | 8 | 0 | 1 | 0 | false | 2026-06-28 |  |
 | arc-ritter-nima-host | [arc-ritter-nima-host](../../statecraft/notes/arc-ritter-nima-host.md) | arc | shelf-native | source-archive | 4 | 2 | 1 | 0 | false | 2026-06-28 |  |
 | arc-ritter-trump-pivot | [arc-ritter-trump-pivot](../../statecraft/notes/arc-ritter-trump-pivot.md) | arc | shelf-native | source-archive | 8 | 9 | 8 | 0 | false | 2026-06-28 |  |
-| arc-sachs-continuity | [arc-sachs-continuity](../../statecraft/notes/arc-sachs-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | orphan, weak_anchor |
+| arc-sachs-continuity | [arc-sachs-continuity](../../statecraft/notes/arc-sachs-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | arc-weichert-continuity | [arc-weichert-continuity](../../statecraft/notes/arc-weichert-continuity.md) | arc | shelf-native | source-archive | 7 | 0 | 5 | 0 | false | 2026-06-28 |  |
-| arc-wilkerson-continuity | [arc-wilkerson-continuity](../../statecraft/notes/arc-wilkerson-continuity.md) | arc | shelf-native | mixed | 0 | 0 | 4 | 0 | false | 2026-06-28 | weak_anchor |
+| arc-wilkerson-continuity | [arc-wilkerson-continuity](../../statecraft/notes/arc-wilkerson-continuity.md) | arc | shelf-native | mixed | 8 | 0 | 4 | 0 | false | 2026-06-28 |  |
 | arc-wilkerson-diesen-host | [arc-wilkerson-diesen-host](../../statecraft/notes/arc-wilkerson-diesen-host.md) | arc | shelf-native | source-archive | 3 | 5 | 0 | 0 | false | 2026-06-28 |  |
 | arc-wilkerson-napolitano-host | [arc-wilkerson-napolitano-host](../../statecraft/notes/arc-wilkerson-napolitano-host.md) | arc | shelf-native | source-archive | 7 | 1 | 1 | 0 | false | 2026-06-28 |  |
 | arc-wilkerson-nima-host | [arc-wilkerson-nima-host](../../statecraft/notes/arc-wilkerson-nima-host.md) | arc | shelf-native | source-archive | 7 | 1 | 3 | 0 | false | 2026-06-28 |  |
@@ -284,7 +284,7 @@ Tier B summary (operational subfolders)
 | december-2025-benchmark-note | [december-2025-benchmark-note](../../statecraft/notes/december-2025-benchmark-note.md) | synthesis | shelf-native | source-archive | 1 | 2 | 0 | 0 | false | 2026-06-28 |  |
 | february-2026-benchmark-note | [february-2026-benchmark-note](../../statecraft/notes/february-2026-benchmark-note.md) | synthesis | shelf-native | source-archive | 1 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | hormuz-recognition-transit-transaction | [hormuz-recognition-transit-transaction](../../statecraft/notes/hormuz-recognition-transit-transaction.md) | synthesis | shelf-native | source-archive | 7 | 5 | 7 | 24 | false | 2026-06-28 | broken_links |
-| instrument-bench-maturity-audit | [instrument-bench-maturity-audit](../../statecraft/notes/instrument-bench-maturity-audit.md) | synthesis | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | orphan, weak_anchor |
+| instrument-bench-maturity-audit | [instrument-bench-maturity-audit](../../statecraft/notes/instrument-bench-maturity-audit.md) | synthesis | shelf-native | mixed | 7 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | iran-war-inquiry-ladder-stress-test | [iran-war-inquiry-ladder-stress-test](../../statecraft/notes/iran-war-inquiry-ladder-stress-test.md) | synthesis | shelf-native | source-archive | 5 | 3 | 3 | 0 | false | 2026-06-28 |  |
 | january-2026-benchmark-note | [january-2026-benchmark-note](../../statecraft/notes/january-2026-benchmark-note.md) | synthesis | shelf-native | source-archive | 1 | 1 | 0 | 0 | false | 2026-06-28 |  |
 | june-18-2026-mou-convergence | [june-18-2026-mou-convergence](../../statecraft/notes/june-18-2026-mou-convergence.md) | synthesis | shelf-native | source-archive | 9 | 26 | 20 | 0 | false | 2026-06-28 |  |
@@ -312,14 +312,14 @@ Tier B summary (operational subfolders)
 | month-maturity-routing-registry | [month-maturity-routing-registry](../../statecraft/notes/month-maturity-routing-registry.md) | synthesis | shelf-native | mixed | 6 | 0 | 12 | 0 | false | 2026-06-28 |  |
 | november-2025-benchmark-note | [november-2025-benchmark-note](../../statecraft/notes/november-2025-benchmark-note.md) | synthesis | shelf-native | source-archive | 1 | 3 | 0 | 0 | false | 2026-06-28 |  |
 | pape-marandi-parsi-novelty-audit | [pape-marandi-parsi-novelty-audit](../../statecraft/notes/pape-marandi-parsi-novelty-audit.md) | synthesis | shelf-native | source-archive | 13 | 1 | 1 | 0 | false | 2026-06-28 |  |
-| parsi-wilkerson-may-2026-backfill-attention | [parsi-wilkerson-may-2026-backfill-attention](../../statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) | synthesis | shelf-native | source-archive | 2 | 2 | 2 | 0 | false | 2026-06-28 |  |
+| parsi-wilkerson-may-2026-backfill-attention | [parsi-wilkerson-may-2026-backfill-attention](../../statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) | synthesis | shelf-native | source-archive | 2 | 4 | 2 | 0 | false | 2026-06-28 |  |
 | recursive-learning-journal-executive-synthesis | [recursive-learning-journal-executive-synthesis](../../statecraft/notes/recursive-learning-journal-executive-synthesis.md) | synthesis | review-needed | mixed | 0 | 3 | 1 | 0 | false | 2026-06-28 | stale_review |
 | recursive-learning-three-lane-audit | [recursive-learning-three-lane-audit](../../statecraft/notes/recursive-learning-three-lane-audit.md) | synthesis | review-needed | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | stale_review |
 | russia-inquiry-ladder-as-recursive-learning | [russia-inquiry-ladder-as-recursive-learning](../../statecraft/notes/russia-inquiry-ladder-as-recursive-learning.md) | synthesis | shelf-native | source-archive | 4 | 2 | 1 | 0 | false | 2026-06-28 |  |
 | scaffold-receipt-parity-recursive-learning | [scaffold-receipt-parity-recursive-learning](../../statecraft/notes/scaffold-receipt-parity-recursive-learning.md) | synthesis | review-needed | mixed | 0 | 0 | 1 | 0 | false | 2026-06-28 | stale_review |
 | skill-refinement-scorecard | [skill-refinement-scorecard](../../statecraft/notes/skill-refinement-scorecard.md) | synthesis | review-needed | mixed | 0 | 1 | 0 | 0 | false | 2026-06-28 | stale_review |
 | speaker-audit-workflow | [speaker-audit-workflow](../../statecraft/notes/speaker-audit-workflow.md) | synthesis | review-needed | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | stale_review |
-| statecraft-multi-lens-bench-pressure-test-2026-05 | [statecraft-multi-lens-bench-pressure-test-2026-05](../../statecraft/notes/statecraft-multi-lens-bench-pressure-test-2026-05.md) | synthesis | shelf-native | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | orphan, weak_anchor |
+| statecraft-multi-lens-bench-pressure-test-2026-05 | [statecraft-multi-lens-bench-pressure-test-2026-05](../../statecraft/notes/statecraft-multi-lens-bench-pressure-test-2026-05.md) | synthesis | shelf-native | mixed | 7 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | statecraft-participant-index-audit-2026-06-03 | [statecraft-participant-index-audit-2026-06-03](../../statecraft/notes/statecraft-participant-index-audit-2026-06-03.md) | synthesis | shelf-native | source-archive | 7 | 0 | 0 | 0 | false | 2026-06-28 |  |
 | statecraft-v1-upgrade-plan-2026-05-25 | [statecraft-v1-upgrade-plan-2026-05-25](../../statecraft/notes/statecraft-v1-upgrade-plan-2026-05-25.md) | synthesis | review-needed | mixed | 0 | 0 | 0 | 0 | false | 2026-06-28 | stale_review |
 | wilkerson-april-2026-contradiction-audit | [wilkerson-april-2026-contradiction-audit](../../statecraft/notes/wilkerson-april-2026-contradiction-audit.md) | synthesis | shelf-native | mixed | 8 | 2 | 0 | 0 | false | 2026-06-28 |  |
@@ -349,36 +349,17 @@ Tier B summary (operational subfolders)
 - [2026-06-07-america-trump-humiliation-vance-absence-capture-extension](../../statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) — broken_links
 - [2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork](../../statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) — broken_links
 - [2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate](../../statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) — broken_links
-- [arc-april-2026-cross-host-marandi-host](../../statecraft/notes/arc-april-2026-cross-host-marandi-host.md) — orphan, weak_anchor
-- [arc-april-2026-cross-host-ritter-host](../../statecraft/notes/arc-april-2026-cross-host-ritter-host.md) — weak_anchor
-- [arc-berletic-diesen-host](../../statecraft/notes/arc-berletic-diesen-host.md) — weak_anchor
-- [arc-crooke-continuity](../../statecraft/notes/arc-crooke-continuity.md) — weak_anchor
-- [arc-freeman-continuity](../../statecraft/notes/arc-freeman-continuity.md) — weak_anchor
-- [arc-jermy-davis-host](../../statecraft/notes/arc-jermy-davis-host.md) — weak_anchor
-- [arc-jermy-diesen-host](../../statecraft/notes/arc-jermy-diesen-host.md) — weak_anchor
-- [arc-jermy-peacemonger-host](../../statecraft/notes/arc-jermy-peacemonger-host.md) — weak_anchor
-- [arc-jiang-continuity](../../statecraft/notes/arc-jiang-continuity.md) — orphan, weak_anchor
-- [arc-johnson-continuity](../../statecraft/notes/arc-johnson-continuity.md) — weak_anchor
-- [arc-june-2026-cross-context-parsi-host](../../statecraft/notes/arc-june-2026-cross-context-parsi-host.md) — weak_anchor
-- [arc-macgregor-continuity](../../statecraft/notes/arc-macgregor-continuity.md) — weak_anchor
-- [arc-march-2026-cross-context-parsi-host](../../statecraft/notes/arc-march-2026-cross-context-parsi-host.md) — weak_anchor
-- [arc-march-2026-cross-host-johnson-host](../../statecraft/notes/arc-march-2026-cross-host-johnson-host.md) — weak_anchor
-- [arc-march-2026-cross-host-ritter-host](../../statecraft/notes/arc-march-2026-cross-host-ritter-host.md) — weak_anchor
-- [arc-may-2026-cross-context-parsi-host](../../statecraft/notes/arc-may-2026-cross-context-parsi-host.md) — broken_links, weak_anchor
-- [arc-may-2026-cross-host-marandi-host](../../statecraft/notes/arc-may-2026-cross-host-marandi-host.md) — orphan, weak_anchor
-- [arc-may-2026-cross-host-ritter-host](../../statecraft/notes/arc-may-2026-cross-host-ritter-host.md) — weak_anchor
+- [arc-april-2026-cross-host-marandi-host](../../statecraft/notes/arc-april-2026-cross-host-marandi-host.md) — broken_links, stale_review
+- [arc-jermy-diesen-host](../../statecraft/notes/arc-jermy-diesen-host.md) — stale_review
+- [arc-june-2026-cross-context-parsi-host](../../statecraft/notes/arc-june-2026-cross-context-parsi-host.md) — broken_links
+- [arc-march-2026-cross-context-parsi-host](../../statecraft/notes/arc-march-2026-cross-context-parsi-host.md) — broken_links
+- [arc-may-2026-cross-context-parsi-host](../../statecraft/notes/arc-may-2026-cross-context-parsi-host.md) — broken_links
+- [arc-may-2026-cross-host-marandi-host](../../statecraft/notes/arc-may-2026-cross-host-marandi-host.md) — broken_links, stale_review
 - [arc-mcgovern-diesen-host](../../statecraft/notes/arc-mcgovern-diesen-host.md) — broken_links
-- [arc-mearsheimer-continuity](../../statecraft/notes/arc-mearsheimer-continuity.md) — weak_anchor
-- [arc-mercouris-continuity](../../statecraft/notes/arc-mercouris-continuity.md) — weak_anchor
+- [arc-mercouris-continuity](../../statecraft/notes/arc-mercouris-continuity.md) — broken_links
 - [arc-mercouris-diesen-host](../../statecraft/notes/arc-mercouris-diesen-host.md) — broken_links
-- [arc-pape-continuity](../../statecraft/notes/arc-pape-continuity.md) — weak_anchor
-- [arc-parsi-continuity](../../statecraft/notes/arc-parsi-continuity.md) — weak_anchor
-- [arc-postol-davis-host](../../statecraft/notes/arc-postol-davis-host.md) — weak_anchor
-- [arc-postol-diesen-host](../../statecraft/notes/arc-postol-diesen-host.md) — weak_anchor
-- [arc-ritter-continuity](../../statecraft/notes/arc-ritter-continuity.md) — weak_anchor
-- [arc-ritter-diesen-host](../../statecraft/notes/arc-ritter-diesen-host.md) — weak_anchor
-- [arc-sachs-continuity](../../statecraft/notes/arc-sachs-continuity.md) — orphan, weak_anchor
-- [arc-wilkerson-continuity](../../statecraft/notes/arc-wilkerson-continuity.md) — weak_anchor
+- [arc-postol-davis-host](../../statecraft/notes/arc-postol-davis-host.md) — stale_review
+- [arc-postol-diesen-host](../../statecraft/notes/arc-postol-diesen-host.md) — stale_review
 - [assistant-session-state-clarity-contract](../../statecraft/notes/assistant-session-state-clarity-contract.md) — stale_review
 - [baud-crooke-international-law-orthogonality-2026-05](../../statecraft/notes/baud-crooke-international-law-orthogonality-2026-05.md) — stale_review
 - [README](../../statecraft/notes/compacts/baltic-shadow-fleet-infrastructure-damage-framework/README.md) — stale_review
@@ -393,7 +374,6 @@ Tier B summary (operational subfolders)
 - [digital-identity-continuity-before-platform-control](../../statecraft/notes/digital-identity-continuity-before-platform-control.md) — broken_links, stale_review
 - [foreign-client-mesh-separation-and-command-review](../../statecraft/notes/foreign-client-mesh-separation-and-command-review.md) — broken_links
 - [hormuz-recognition-transit-transaction](../../statecraft/notes/hormuz-recognition-transit-transaction.md) — broken_links
-- [instrument-bench-maturity-audit](../../statecraft/notes/instrument-bench-maturity-audit.md) — orphan, weak_anchor
 - [internal-vs-public-vocabulary](../../statecraft/notes/internal-vs-public-vocabulary.md) — stale_review
 - [lebanon-third-party-recognition-gate-transaction](../../statecraft/notes/lebanon-third-party-recognition-gate-transaction.md) — broken_links
 - [mercouris-format-synergy-doctrine](../../statecraft/notes/mercouris-format-synergy-doctrine.md) — stale_review
@@ -404,7 +384,6 @@ Tier B summary (operational subfolders)
 - [scaffold-receipt-parity-recursive-learning](../../statecraft/notes/scaffold-receipt-parity-recursive-learning.md) — stale_review
 - [skill-refinement-scorecard](../../statecraft/notes/skill-refinement-scorecard.md) — stale_review
 - [speaker-audit-workflow](../../statecraft/notes/speaker-audit-workflow.md) — stale_review
-- [statecraft-multi-lens-bench-pressure-test-2026-05](../../statecraft/notes/statecraft-multi-lens-bench-pressure-test-2026-05.md) — orphan, weak_anchor
 - [statecraft-v1-upgrade-plan-2026-05-25](../../statecraft/notes/statecraft-v1-upgrade-plan-2026-05-25.md) — stale_review
 - [taiwan-inspection-pressure-without-blockade-ownership](../../statecraft/notes/taiwan-inspection-pressure-without-blockade-ownership.md) — broken_links, stale_review
 - [zangezur-mediation-without-overbinding](../../statecraft/notes/zangezur-mediation-without-overbinding.md) — broken_links, stale_review
@@ -415,36 +394,36 @@ Total Tier B notes: 33.
 
 | path | note_type | subfolder |
 | --- | --- | --- |
-| [2026-06-08-intake-readiness](../../statecraft/notes/intake/2026-06-08-intake-readiness.md) |  | intake |
-| [2026-06-09-intake-readiness](../../statecraft/notes/intake/2026-06-09-intake-readiness.md) |  | intake |
-| [intake-digest-TEMPLATE](../../statecraft/notes/intake/intake-digest-TEMPLATE.md) |  | intake |
-| [2026-06-week1-start-here](../../statecraft/notes/reentry/2026-06-week1-start-here.md) |  | reentry |
-| [2026-06-week2-start-here](../../statecraft/notes/reentry/2026-06-week2-start-here.md) |  | reentry |
-| [week-hinge-start-here](../../statecraft/notes/reentry/_templates/week-hinge-start-here.md) |  | reentry |
-| [2026-06-12-72h-watch-run](../../statecraft/notes/watch/2026-06-12-72h-watch-run.md) |  | watch |
-| [2026-06-16-72h-watch-run](../../statecraft/notes/watch/2026-06-16-72h-watch-run.md) |  | watch |
-| [2026-06-17-72h-watch-run](../../statecraft/notes/watch/2026-06-17-72h-watch-run.md) |  | watch |
-| [2026-02-03-news-verify-matrix](../../statecraft/notes/wire/2026-02-03-news-verify-matrix.md) |  | wire |
-| [2026-02-17-news-verify-matrix](../../statecraft/notes/wire/2026-02-17-news-verify-matrix.md) |  | wire |
-| [2026-03-03-news-verify-matrix](../../statecraft/notes/wire/2026-03-03-news-verify-matrix.md) |  | wire |
-| [2026-03-17-news-verify-matrix](../../statecraft/notes/wire/2026-03-17-news-verify-matrix.md) |  | wire |
-| [2026-03-24-news-verify-matrix](../../statecraft/notes/wire/2026-03-24-news-verify-matrix.md) |  | wire |
-| [2026-06-01-02-news-verify-matrix](../../statecraft/notes/wire/2026-06-01-02-news-verify-matrix.md) |  | wire |
-| [2026-06-03-04-news-verify-matrix](../../statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md) |  | wire |
-| [2026-06-05-07-news-verify-matrix](../../statecraft/notes/wire/2026-06-05-07-news-verify-matrix.md) |  | wire |
-| [2026-06-08-09-news-verify-matrix](../../statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md) |  | wire |
-| [2026-06-10-news-verify-matrix](../../statecraft/notes/wire/2026-06-10-news-verify-matrix.md) |  | wire |
-| [2026-06-11-news-verify-matrix](../../statecraft/notes/wire/2026-06-11-news-verify-matrix.md) |  | wire |
-| [2026-06-12-news-verify-matrix](../../statecraft/notes/wire/2026-06-12-news-verify-matrix.md) |  | wire |
-| [2026-06-13-ph-boomer-hell-news-verify-matrix](../../statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md) |  | wire |
-| [2026-06-14-news-verify-matrix](../../statecraft/notes/wire/2026-06-14-news-verify-matrix.md) |  | wire |
-| [2026-06-15-news-verify-matrix](../../statecraft/notes/wire/2026-06-15-news-verify-matrix.md) |  | wire |
-| [2026-06-16-news-verify-matrix](../../statecraft/notes/wire/2026-06-16-news-verify-matrix.md) |  | wire |
-| [2026-06-17-news-verify-matrix](../../statecraft/notes/wire/2026-06-17-news-verify-matrix.md) |  | wire |
-| [2026-06-18-news-verify-matrix](../../statecraft/notes/wire/2026-06-18-news-verify-matrix.md) |  | wire |
-| [2026-06-19-news-verify-matrix](../../statecraft/notes/wire/2026-06-19-news-verify-matrix.md) |  | wire |
-| [2026-06-20-news-verify-matrix](../../statecraft/notes/wire/2026-06-20-news-verify-matrix.md) |  | wire |
-| [2026-06-22-news-verify-matrix](../../statecraft/notes/wire/2026-06-22-news-verify-matrix.md) |  | wire |
-| [2026-06-23-news-verify-matrix](../../statecraft/notes/wire/2026-06-23-news-verify-matrix.md) |  | wire |
-| [2026-06-25-news-verify-matrix](../../statecraft/notes/wire/2026-06-25-news-verify-matrix.md) |  | wire |
-| [2026-06-26-news-verify-matrix](../../statecraft/notes/wire/2026-06-26-news-verify-matrix.md) |  | wire |
+| [2026-06-08-intake-readiness](../../statecraft/notes/intake/2026-06-08-intake-readiness.md) | intake | intake |
+| [2026-06-09-intake-readiness](../../statecraft/notes/intake/2026-06-09-intake-readiness.md) | intake | intake |
+| [intake-digest-TEMPLATE](../../statecraft/notes/intake/intake-digest-TEMPLATE.md) | intake | intake |
+| [2026-06-week1-start-here](../../statecraft/notes/reentry/2026-06-week1-start-here.md) | reentry | reentry |
+| [2026-06-week2-start-here](../../statecraft/notes/reentry/2026-06-week2-start-here.md) | reentry | reentry |
+| [week-hinge-start-here](../../statecraft/notes/reentry/_templates/week-hinge-start-here.md) | reentry | reentry |
+| [2026-06-12-72h-watch-run](../../statecraft/notes/watch/2026-06-12-72h-watch-run.md) | watch | watch |
+| [2026-06-16-72h-watch-run](../../statecraft/notes/watch/2026-06-16-72h-watch-run.md) | watch | watch |
+| [2026-06-17-72h-watch-run](../../statecraft/notes/watch/2026-06-17-72h-watch-run.md) | watch | watch |
+| [2026-02-03-news-verify-matrix](../../statecraft/notes/wire/2026-02-03-news-verify-matrix.md) | wire | wire |
+| [2026-02-17-news-verify-matrix](../../statecraft/notes/wire/2026-02-17-news-verify-matrix.md) | wire | wire |
+| [2026-03-03-news-verify-matrix](../../statecraft/notes/wire/2026-03-03-news-verify-matrix.md) | wire | wire |
+| [2026-03-17-news-verify-matrix](../../statecraft/notes/wire/2026-03-17-news-verify-matrix.md) | wire | wire |
+| [2026-03-24-news-verify-matrix](../../statecraft/notes/wire/2026-03-24-news-verify-matrix.md) | wire | wire |
+| [2026-06-01-02-news-verify-matrix](../../statecraft/notes/wire/2026-06-01-02-news-verify-matrix.md) | wire | wire |
+| [2026-06-03-04-news-verify-matrix](../../statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md) | wire | wire |
+| [2026-06-05-07-news-verify-matrix](../../statecraft/notes/wire/2026-06-05-07-news-verify-matrix.md) | wire | wire |
+| [2026-06-08-09-news-verify-matrix](../../statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md) | wire | wire |
+| [2026-06-10-news-verify-matrix](../../statecraft/notes/wire/2026-06-10-news-verify-matrix.md) | wire | wire |
+| [2026-06-11-news-verify-matrix](../../statecraft/notes/wire/2026-06-11-news-verify-matrix.md) | wire | wire |
+| [2026-06-12-news-verify-matrix](../../statecraft/notes/wire/2026-06-12-news-verify-matrix.md) | wire | wire |
+| [2026-06-13-ph-boomer-hell-news-verify-matrix](../../statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md) | wire | wire |
+| [2026-06-14-news-verify-matrix](../../statecraft/notes/wire/2026-06-14-news-verify-matrix.md) | wire | wire |
+| [2026-06-15-news-verify-matrix](../../statecraft/notes/wire/2026-06-15-news-verify-matrix.md) | wire | wire |
+| [2026-06-16-news-verify-matrix](../../statecraft/notes/wire/2026-06-16-news-verify-matrix.md) | wire | wire |
+| [2026-06-17-news-verify-matrix](../../statecraft/notes/wire/2026-06-17-news-verify-matrix.md) | wire | wire |
+| [2026-06-18-news-verify-matrix](../../statecraft/notes/wire/2026-06-18-news-verify-matrix.md) | wire | wire |
+| [2026-06-19-news-verify-matrix](../../statecraft/notes/wire/2026-06-19-news-verify-matrix.md) | wire | wire |
+| [2026-06-20-news-verify-matrix](../../statecraft/notes/wire/2026-06-20-news-verify-matrix.md) | wire | wire |
+| [2026-06-22-news-verify-matrix](../../statecraft/notes/wire/2026-06-22-news-verify-matrix.md) | wire | wire |
+| [2026-06-23-news-verify-matrix](../../statecraft/notes/wire/2026-06-23-news-verify-matrix.md) | wire | wire |
+| [2026-06-25-news-verify-matrix](../../statecraft/notes/wire/2026-06-25-news-verify-matrix.md) | wire | wire |
+| [2026-06-26-news-verify-matrix](../../statecraft/notes/wire/2026-06-26-news-verify-matrix.md) | wire | wire |

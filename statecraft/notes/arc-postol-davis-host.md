@@ -4,7 +4,7 @@ primary_voice: postol
 topic: davis-postol
 legacy_path: arc-postol-davis-host.md
 host_channel: daniel-davis
-authority_level: shelf-native
+authority_level: review-needed
 source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18

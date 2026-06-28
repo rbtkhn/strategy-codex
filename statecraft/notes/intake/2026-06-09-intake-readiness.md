@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-09-intake-readiness
+note_type: intake
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-09
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-09/
+  - source-archive/statecraft/2026-06-09/README.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-marandi-iran-drops-new-equation-israel-goes-against-trump-escapes-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-judging-freedom-freeman-can-netanyahu-defy-trump-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-mario-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-tucker-carlson-mearsheimer-us-resumes-strikes-iran-clean-exit-unlikely-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md
+---
 WORK only; not Record.
 
 # June 9 Intake Readiness — Command Fracture

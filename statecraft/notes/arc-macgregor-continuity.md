@@ -8,6 +8,15 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-05/source-daniel-davis-macgregor-project-freedom-hormuz-2026-05-05.md
+  - source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md
+  - source-archive/statecraft/2026-04-23/source-judging-freedom-macgregor-pentagon-terrible-war-planning-2026-04-23.md
+  - source-archive/statecraft/2025-02-18/source-daniel-davis-macgregor-zelensky-obstructing-peace-2025-02-18.md
+  - source-archive/statecraft/2025-02-25/source-daniel-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md
+  - source-archive/statecraft/2025-03-18/source-daniel-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md
+  - source-archive/statecraft/2025-04-15/source-daniel-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md
+  - source-archive/statecraft/2025-04-22/source-daniel-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md
 ---
 
 # Macgregor arc

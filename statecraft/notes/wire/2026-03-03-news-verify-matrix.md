@@ -1,3 +1,18 @@
+---
+note_id: 2026-03-03-news-verify-matrix
+note_type: wire
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-03/README.md
+  - source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
+---
 WORK only; not Record.
 
 # News Verify Matrix — 2026-03-03

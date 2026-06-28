@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-08-intake-readiness
+note_type: intake
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-08/
+  - source-archive/statecraft/2026-06-08/README.md
+  - source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-daniel-davis-weve-always-known-truth-of-war-iran-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md
+  - source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md
+  - source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md
+---
 WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test

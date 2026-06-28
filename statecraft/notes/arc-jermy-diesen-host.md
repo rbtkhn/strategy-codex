@@ -4,7 +4,7 @@ primary_voice: jermy
 topic: diesen-jermy
 legacy_path: arc-jermy-diesen-host.md
 host_channel: glenn-diesen
-authority_level: shelf-native
+authority_level: review-needed
 source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18

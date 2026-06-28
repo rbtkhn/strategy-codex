@@ -8,6 +8,10 @@ source_basis: mixed
 essay_candidate: false
 created_at: 2026-06-18
 updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-11/source-daniel-davis-johnson-trumps-lost-control-2026-03-11.md
+  - source-archive/statecraft/2026-03-15/source-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md
+  - source-archive/statecraft/2026-03-16/source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md
 ---
 
 # Johnson March 2026 cross-host arc

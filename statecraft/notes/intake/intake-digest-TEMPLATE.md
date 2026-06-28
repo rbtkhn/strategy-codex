@@ -1,3 +1,15 @@
+---
+note_id: intake-digest-TEMPLATE
+note_type: intake
+authority_level: draft
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/YYYY-MM-DD/source-example-slug-YYYY-MM-DD.md
+  - source-archive/statecraft/<day>/day-index.md
+---
 WORK only; not Record.
 
 # Statecraft Intake Digest — YYYY-MM-DD

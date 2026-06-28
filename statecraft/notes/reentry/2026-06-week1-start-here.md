@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-week1-start-here
+note_type: reentry
+authority_level: draft
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06.md
+  - source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md>
+  - source-archive/statecraft/2026-06-07/README.md
+  - source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>
+  - source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>
+  - source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>
+  - source-archive/statecraft/2026-06-07/source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md>
+  - source-archive/statecraft/2026-06-07/source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>
+---
 WORK only; not Record.
 
 # June 2026 Week 1 — Start Here
