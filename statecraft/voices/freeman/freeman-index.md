@@ -87,7 +87,7 @@ Same-day **Greenland crisis** — route Freeman **alliance-law / credibility** a
 | --- | --- | --- |
 | **Freeman** (alliance law) | this index · [Jan 2026 shelf](freeman-shelf-2026-01.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) — **full transcript** |
 | **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
-| **Mercouris** (institutional solo) | [Mercouris index](../mercouris/mercouris-source-index.md) | [2026-01-20 solo — Starmer/Macron; Greenland; Kiev AD](../../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) |
+| **Mercouris** (institutional solo) | [Mercouris analytical bench](../mercouris/mercouris-analytical-bench.md) | [2026-01-20 solo — Starmer/Macron; Greenland; Kiev AD](../../../source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) |
 
 **Synthesis objects:** [Jan 20 Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Jan 20 Davos Dmitriev — Helmer × Mercouris](../../notes/arc-helmer-dmitriev-lane.md) · [2026-01-20 daily synthesis](../../synthesis/day/2026-01-20.md)
 

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Promote {speaker}-source-index.md to {speaker}-index.md with compat stub."""
+"""Promote {speaker}-source-index.md to {speaker}-index.md with compat stub.
+
+Mercouris is manual: guest primary already at mercouris-index.md; relocate bench to
+mercouris-analytical-bench.md; stub mercouris-source-index.md (see stabilization plan).
+"""
 
 from __future__ import annotations
 

@@ -3,7 +3,7 @@ WORK only; not Record.
 # Jan 20 2026 — Greenland same-day weave (Helmer × Freeman × Mercouris)
 
 **Pub date:** 2026-01-20  
-**Parent:** [Helmer source index](../voices/helmer/helmer-source-index.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [2026-01-20 archive day](../../source-archive/statecraft/2026-01-20/README.md)
+**Parent:** [Helmer source index](../voices/helmer/helmer-source-index.md) · [Freeman source index](../voices/freeman/freeman-source-index.md) · [Mercouris analytical bench](../voices/mercouris/mercouris-analytical-bench.md) · [2026-01-20 archive day](../../source-archive/statecraft/2026-01-20/README.md)
 
 **Sources:**
 
@@ -90,6 +90,6 @@ Same-day **Greenland crisis** stack — **not** one voice. Route by register:
 - **Do not** merge Helmer **Moscow faction**, Freeman **alliance law**, or Mercouris **institutional solo** into one verdict
 - **Do not** quote Mercouris Jan 20 for **strike counts** or Goncharenko/Zelensky claims without wire verify
 - **Do** cite when indexing **Jan 20** as first 2026 Helmer land and **Greenland week** opener (three registers)
-- Return: [Helmer profile](../voices/helmer/helmer-profile.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md#2026-01-greenland-week--jan-20-cross-weave) · [2026-01-20 day README](../../source-archive/statecraft/2026-01-20/README.md)
+- Return: [Helmer profile](../voices/helmer/helmer-profile.md) · [Mercouris source index](../voices/mercouris/mercouris-analytical-bench.md#2026-01-greenland-week--jan-20-cross-weave) · [2026-01-20 day README](../../source-archive/statecraft/2026-01-20/README.md)
 
 **Promoted via:** [`state-note`](../../skills/state-note/SKILL.md) — same-day citation split.

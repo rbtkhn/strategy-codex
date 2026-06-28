@@ -53,7 +53,7 @@ Best first-open for June 2026:
 
 - [2026-06-20 | Neutrality Studies × Jermy | Collapse / global recession unavoidable (macro energetics)](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-collapse-global-recession-unavoidable-steve-jermy-2026-06-20.md) — Hormuz lag; oil–GDP ~0.95; 5–10% recession bake-in; diesel/fertilizer; MOU negotiation frame; Israel/US economic hurt; Ukraine fiscal spillover; E3 reciprocity read; host date 20 Jun 2026 · **prior:** [Jan-22 Neutrality crisis/decision-making](../../../source-archive/statecraft/2026-01-22/source-neutrality-studies-crisis-western-decision-making-steve-jermy-2026-01-22.md)
 
-**Cross-weave (same day / week):** [Mercouris June Konstantinovka / Oreshnik / MOU month](../mercouris/mercouris-source-index.md) · [Mercouris 06-20 Oreshnik treble](../mercouris/mercouris-shelf-2026-06.md) · macro energetics × SPR constraint seam
+**Cross-weave (same day / week):** [Mercouris June Konstantinovka / Oreshnik / MOU month](../mercouris/mercouris-analytical-bench.md) · [Mercouris 06-20 Oreshnik treble](../mercouris/mercouris-shelf-2026-06.md) · macro energetics × SPR constraint seam
 
 ## Host routing
 
@@ -66,7 +66,7 @@ Best first-open for June 2026:
 ## Reading rule
 
 1. Open **Statecraft Archive** direct files first.
-2. Treat Jermy as **macro energetics + maritime logistics + Western fiscal constraint** — not Kremlin faction inference (→ [Helmer](../helmer/helmer-source-index.md)) or institutional diplomacy (→ [Mercouris](../mercouris/mercouris-source-index.md)).
+2. Treat Jermy as **macro energetics + maritime logistics + Western fiscal constraint** — not Kremlin faction inference (→ [Helmer](../helmer/helmer-source-index.md)) or institutional diplomacy (→ [Mercouris](../mercouris/mercouris-analytical-bench.md)).
 3. Quantitative claims (Cushing %, Singapore $/bbl, recession %) = analyst tier until wire-verified.
 
 ## Boundary notes

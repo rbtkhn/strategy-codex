@@ -118,8 +118,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | mearsheimer-index | source_index | work | [statecraft/voices/mearsheimer/mearsheimer-index.md](statecraft/voices/mearsheimer/mearsheimer-index.md) | Mearsheimer index, mearsheimer source index |
 | mearsheimer-source-index | source_index | work | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | Mearsheimer index, mearsheimer source index, mearsheimer source index compat |
 | memory | canonical_reference | work | [memory.md](memory.md) | session continuity, operator memory buffer |
-| mercouris-index | source_index | work | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | Mercouris guest index, mercouris cross-host, Alexander Mercouris guest |
-| mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index |
+| mercouris-analytical-bench | routing_aid | work | [statecraft/voices/mercouris/mercouris-analytical-bench.md](statecraft/voices/mercouris/mercouris-analytical-bench.md) | Mercouris analytical bench, mercouris hinges, mercouris cross-weaves |
+| mercouris-index | source_index | work | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | Mercouris index, mercouris cross-host, Alexander Mercouris guest |
+| mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index, mercouris source index compat |
 | moral-resistance-channel-index | source_index | work | [statecraft/channels/moral-resistance/moral-resistance-channel-index.md](statecraft/channels/moral-resistance/moral-resistance-channel-index.md) | Moral Resistance index, moral-resistance-channel-index, moral-resistance index |
 | moral-resistance-host-shelf | routing_aid | work | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | Moral Resistance host, moral-resistance profile |
 | moral-resistance-index | source_index | work | [statecraft/channels/moral-resistance/moral-resistance-index.md](statecraft/channels/moral-resistance/moral-resistance-index.md) | Moral Resistance index compat |
@@ -170,35 +171,35 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | speaker | path | repo-map id |
 |---|---|---|
-| barnes | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | barnes-source-index |
-| blumenthal | [statecraft/voices/blumenthal/blumenthal-source-index.md](statecraft/voices/blumenthal/blumenthal-source-index.md) | blumenthal-source-index |
-| crooke | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | crooke-source-index |
-| davis | [statecraft/voices/davis/davis-source-index.md](statecraft/voices/davis/davis-source-index.md) | davis-source-index |
-| diesen | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | diesen-source-index |
-| freeman | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | freeman-source-index |
-| helmer | [statecraft/voices/helmer/helmer-source-index.md](statecraft/voices/helmer/helmer-source-index.md) | helmer-source-index |
-| hoh | [statecraft/voices/hoh/hoh-source-index.md](statecraft/voices/hoh/hoh-source-index.md) | hoh-source-index |
-| jermy | [statecraft/voices/jermy/jermy-source-index.md](statecraft/voices/jermy/jermy-source-index.md) | jermy-source-index |
-| jiang | [statecraft/voices/jiang/jiang-source-index.md](statecraft/voices/jiang/jiang-source-index.md) | jiang-source-index |
-| johnson | [statecraft/voices/johnson/johnson-source-index.md](statecraft/voices/johnson/johnson-source-index.md) | johnson-source-index |
-| karaganov | [statecraft/voices/karaganov/karaganov-source-index.md](statecraft/voices/karaganov/karaganov-source-index.md) | karaganov-source-index |
-| kent | [statecraft/voices/kent/kent-source-index.md](statecraft/voices/kent/kent-source-index.md) | kent-source-index |
-| krapivnik | [statecraft/voices/krapivnik/krapivnik-source-index.md](statecraft/voices/krapivnik/krapivnik-source-index.md) | krapivnik-source-index |
-| lascaris | [statecraft/voices/lascaris/lascaris-source-index.md](statecraft/voices/lascaris/lascaris-source-index.md) | lascaris-source-index |
-| macgregor | [statecraft/voices/macgregor/macgregor-source-index.md](statecraft/voices/macgregor/macgregor-source-index.md) | macgregor-source-index |
-| marandi | [statecraft/voices/marandi/marandi-source-index.md](statecraft/voices/marandi/marandi-source-index.md) | marandi-source-index |
-| martyanov | [statecraft/voices/martyanov/martyanov-source-index.md](statecraft/voices/martyanov/martyanov-source-index.md) | martyanov-source-index |
-| mate | [statecraft/voices/mate/mate-source-index.md](statecraft/voices/mate/mate-source-index.md) | mate-source-index |
-| mcgovern | [statecraft/voices/mcgovern/mcgovern-source-index.md](statecraft/voices/mcgovern/mcgovern-source-index.md) | mcgovern-source-index |
-| mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-source-index.md](statecraft/voices/mearsheimer/mearsheimer-source-index.md) | mearsheimer-source-index |
-| mercouris | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | mercouris-source-index |
-| pape | [statecraft/voices/pape/pape-source-index.md](statecraft/voices/pape/pape-source-index.md) | pape-source-index |
-| parsi | [statecraft/voices/parsi/parsi-source-index.md](statecraft/voices/parsi/parsi-source-index.md) | parsi-source-index |
-| postol | [statecraft/voices/postol/postol-source-index.md](statecraft/voices/postol/postol-source-index.md) | postol-source-index |
-| ritter | [statecraft/voices/ritter/ritter-source-index.md](statecraft/voices/ritter/ritter-source-index.md) | ritter-source-index |
-| sachs | [statecraft/voices/sachs/sachs-source-index.md](statecraft/voices/sachs/sachs-source-index.md) | sachs-source-index |
-| weichert | [statecraft/voices/weichert/weichert-source-index.md](statecraft/voices/weichert/weichert-source-index.md) | weichert-source-index |
-| wilkerson | [statecraft/voices/wilkerson/wilkerson-source-index.md](statecraft/voices/wilkerson/wilkerson-source-index.md) | wilkerson-source-index |
+| barnes | [statecraft/voices/barnes/barnes-index.md](statecraft/voices/barnes/barnes-index.md) | barnes-index |
+| blumenthal | [statecraft/voices/blumenthal/blumenthal-index.md](statecraft/voices/blumenthal/blumenthal-index.md) | blumenthal-index |
+| crooke | [statecraft/voices/crooke/crooke-index.md](statecraft/voices/crooke/crooke-index.md) | crooke-index |
+| davis | [statecraft/voices/davis/davis-index.md](statecraft/voices/davis/davis-index.md) | davis-index |
+| diesen | [statecraft/voices/diesen/diesen-index.md](statecraft/voices/diesen/diesen-index.md) | diesen-index |
+| freeman | [statecraft/voices/freeman/freeman-index.md](statecraft/voices/freeman/freeman-index.md) | freeman-index |
+| helmer | [statecraft/voices/helmer/helmer-index.md](statecraft/voices/helmer/helmer-index.md) | helmer-index |
+| hoh | [statecraft/voices/hoh/hoh-index.md](statecraft/voices/hoh/hoh-index.md) | hoh-index |
+| jermy | [statecraft/voices/jermy/jermy-index.md](statecraft/voices/jermy/jermy-index.md) | jermy-index |
+| jiang | [statecraft/voices/jiang/jiang-index.md](statecraft/voices/jiang/jiang-index.md) | jiang-index |
+| johnson | [statecraft/voices/johnson/johnson-index.md](statecraft/voices/johnson/johnson-index.md) | johnson-index |
+| karaganov | [statecraft/voices/karaganov/karaganov-index.md](statecraft/voices/karaganov/karaganov-index.md) | karaganov-index |
+| kent | [statecraft/voices/kent/kent-index.md](statecraft/voices/kent/kent-index.md) | kent-index |
+| krapivnik | [statecraft/voices/krapivnik/krapivnik-index.md](statecraft/voices/krapivnik/krapivnik-index.md) | krapivnik-index |
+| lascaris | [statecraft/voices/lascaris/lascaris-index.md](statecraft/voices/lascaris/lascaris-index.md) | lascaris-index |
+| macgregor | [statecraft/voices/macgregor/macgregor-index.md](statecraft/voices/macgregor/macgregor-index.md) | macgregor-index |
+| marandi | [statecraft/voices/marandi/marandi-index.md](statecraft/voices/marandi/marandi-index.md) | marandi-index |
+| martyanov | [statecraft/voices/martyanov/martyanov-index.md](statecraft/voices/martyanov/martyanov-index.md) | martyanov-index |
+| mate | [statecraft/voices/mate/mate-index.md](statecraft/voices/mate/mate-index.md) | mate-index |
+| mcgovern | [statecraft/voices/mcgovern/mcgovern-index.md](statecraft/voices/mcgovern/mcgovern-index.md) | mcgovern-index |
+| mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-index.md](statecraft/voices/mearsheimer/mearsheimer-index.md) | mearsheimer-index |
+| mercouris | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | mercouris-index |
+| pape | [statecraft/voices/pape/pape-index.md](statecraft/voices/pape/pape-index.md) | pape-index |
+| parsi | [statecraft/voices/parsi/parsi-index.md](statecraft/voices/parsi/parsi-index.md) | parsi-index |
+| postol | [statecraft/voices/postol/postol-index.md](statecraft/voices/postol/postol-index.md) | postol-index |
+| ritter | [statecraft/voices/ritter/ritter-index.md](statecraft/voices/ritter/ritter-index.md) | ritter-index |
+| sachs | [statecraft/voices/sachs/sachs-index.md](statecraft/voices/sachs/sachs-index.md) | sachs-index |
+| weichert | [statecraft/voices/weichert/weichert-index.md](statecraft/voices/weichert/weichert-index.md) | weichert-index |
+| wilkerson | [statecraft/voices/wilkerson/wilkerson-index.md](statecraft/voices/wilkerson/wilkerson-index.md) | wilkerson-index |
 
 ## Host shelf registry (generated)
 
@@ -225,8 +226,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 - source indexes (disk): 29
 - host shelves (disk): 16
-- markdown links (INDEX + source-index files): 183
-- repo-map routes: 126 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=20, source_capture=1, source_index=87)
+- markdown links (INDEX + source-index files): 134
+- repo-map routes: 127 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=21, source_capture=1, source_index=87)
 - source_index routes in repo-map: 87
 - host_shelf routes in repo-map: 16
 - registry: INDEX lists 29/29, repo-map lists 29/29 (100.0% bijection when both match)

@@ -40,7 +40,7 @@ If a new Mercouris item can live equally well in several of these without changi
 - [May shelf](mercouris-shelf-2026-05.md)
 - [Diesen x Mercouris host-local arc](../diesen/arc-mercouris-diesen-host.md
 - [Davis x Mercouris host-local arc](../../notes/arc-mercouris-davis-host.md
-- [Mercouris source index](mercouris-source-index.md
+- [Mercouris analytical bench](mercouris-analytical-bench.md)
 
 ## 1. Institutional Narrative Turns Signals Into Statecraft
 

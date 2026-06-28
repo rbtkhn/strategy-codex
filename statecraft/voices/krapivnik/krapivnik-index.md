@@ -52,15 +52,15 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 | Neutrality Studies | [neutrality-studies host](../../channels/neutrality-studies/index.md) |
 | Dialogue Works / Alkorshid | [dialogue-works host](../../channels/dialogue-works/index.md) · [dialogue-works-channel-index](../../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Glenn Diesen | guest: [diesen index](../diesen/diesen-index.md) · host channel: [glenn-diesen-channel-index](../../channels/glenn-diesen/glenn-diesen-channel-index.md) |
-| The Duran / Mercouris co-host | [mercouris source index](../mercouris/mercouris-source-index.md) |
+| The Duran / Mercouris co-host | [mercouris index](../mercouris/mercouris-index.md) |
 
 ## Reading rule
 
 1. Open **Statecraft Archive** direct files first.
-2. Treat Krapivnik as **Moscow military contrarian** — escalation realism, drone-political war split; not Helmer faction inference (→ [Helmer](../helmer/helmer-source-index.md)) or Mercouris institutional law (→ [Mercouris](../mercouris/mercouris-source-index.md)).
+2. Treat Krapivnik as **Moscow military contrarian** — escalation realism, drone-political war split; not Helmer faction inference (→ [Helmer](../helmer/helmer-source-index.md)) or Mercouris institutional law (→ [Mercouris](../mercouris/mercouris-analytical-bench.md)).
 3. Same-day **Helmer** captures = compare registers; guest **mention** of Helmer ≠ duplicate index row on Helmer shelf.
 
 ## Boundary notes
 
 - No `krapivnik-arc.md` yet — shelf is **profile + index** until month density warrants arc.
-- Cross-weave **2026-06-20** Neutrality triple: [Jermy macro](../jermy/jermy-source-index.md) · [Mercouris guest](../mercouris/mercouris-source-index.md) · **this index**
+- Cross-weave **2026-06-20** Neutrality triple: [Jermy macro](../jermy/jermy-source-index.md) · [Mercouris guest](../mercouris/mercouris-index.md) · **this index**

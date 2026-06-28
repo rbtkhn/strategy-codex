@@ -67,13 +67,13 @@ Use **`source-archive/statecraft/YYYY-MM-DD/day-index.md`** for full day lists.
 
 ### Earlier Davis anchors (archive)
 
-- [2025-01-16 — Mercouris — NATO preparing for war with Russia](../../../source-archive/statecraft/2025-01-16/source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md) → [mercouris index](../mercouris/mercouris-source-index.md)
+- [2025-01-16 — Mercouris — NATO preparing for war with Russia](../../../source-archive/statecraft/2025-01-16/source-daniel-davis-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md) → [mercouris index](../mercouris/mercouris-index.md)
 - [2025-11-14 — Mearsheimer — How dangerous is Russia](../../../source-archive/statecraft/2025-11-14/source-daniel-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md) → [mearsheimer index](../mearsheimer/mearsheimer-source-index.md)
 - [2025-11-28 — Larry Johnson — Putin ultimatum](../../../source-archive/statecraft/2025-11-28/source-daniel-davis-larry-johnson-putin-to-ukraine-withdraw-or-we-ll-take-it-by-force-larry-johnson-2025-11-28.md)
 
 ## Guest voice indexes (canonical)
 
-- [Jermy](../jermy/jermy-source-index.md) · [Mercouris](../mercouris/mercouris-source-index.md) · [Mearsheimer](../mearsheimer/mearsheimer-source-index.md) · [Johnson](../johnson/johnson-source-index.md)
+- [Jermy](../jermy/jermy-source-index.md) · [Mercouris](../mercouris/mercouris-index.md) · [Mearsheimer](../mearsheimer/mearsheimer-source-index.md) · [Johnson](../johnson/johnson-source-index.md)
 
 ## Boundary
 

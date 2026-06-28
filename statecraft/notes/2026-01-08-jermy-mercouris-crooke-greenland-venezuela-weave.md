@@ -3,7 +3,7 @@ WORK only; not Record.
 # Jan 8 2026 — Jermy × Mercouris × Crooke weave (post-Maduro / Greenland / Rubicon)
 
 **Pub date:** 2026-01-08  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Crooke source index](../voices/crooke/crooke-source-index.md) · [Davis host index](../channels/daniel-davis/index.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris analytical bench](../voices/mercouris/mercouris-analytical-bench.md) · [Crooke source index](../voices/crooke/crooke-source-index.md) · [Davis host index](../channels/daniel-davis/index.md)
 
 **Sources:**
 
@@ -21,7 +21,7 @@ WORK only; not Record.
 
 Read **Jermy** for **feasibility, energy math, and alliance law hypotheticals**; **Crooke** for **why the moral mask dropped and what “Rubicon” means**; **Mercouris** for **FM institutional lines, Marinera message, US-asset strikes, Paris/E3 axis, and battlefield tempo** on the same **Starmer/Macron** week.
 
-**Forward arc:** [Jan 18–20 Mercouris Greenland week](../voices/mercouris/mercouris-source-index.md#2026-01-greenland-week--jan-20-cross-weave) · [Jan 20 three-way weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md)
+**Forward arc:** [Jan 18–20 Mercouris Greenland week](../voices/mercouris/mercouris-analytical-bench.md#2026-01-greenland-week--jan-20-cross-weave) · [Jan 20 three-way weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md)
 
 ## Shared spine
 

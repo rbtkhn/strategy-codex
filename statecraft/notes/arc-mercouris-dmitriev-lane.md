@@ -12,7 +12,7 @@ span_start: 2026-01-20
 span_end: 2026-03-24
 ```
 
-**Parent:** [Helmer Dmitriev arc](./arc-helmer-dmitriev-lane.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md)
+**Parent:** [Helmer Dmitriev arc](./arc-helmer-dmitriev-lane.md) · [Mercouris analytical bench](../voices/mercouris/mercouris-analytical-bench.md)
 
 **Mercouris sources (solo):**
 

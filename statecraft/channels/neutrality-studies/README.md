@@ -21,7 +21,7 @@ Neutrality Studies is the live statecraft host for:
 - guest-as-expert long-form (Mercouris, Krapivnik, Jermy, Freeman, Macgregor, Wilkerson, Sachs, …)
 - forum follow-on continuity (e.g. Tbilisi conference references in guest intros)
 
-The question this host answers is usually not institutional Kremlin voice (→ [Mercouris solo](../../voices/mercouris/mercouris-source-index.md)) but **how a neutralist operator surfaces guest mechanisms** across wars and geoeconomics.
+The question this host answers is usually not institutional Kremlin voice (→ [Mercouris analytical bench](../../voices/mercouris/mercouris-analytical-bench.md)) but **how a neutralist operator surfaces guest mechanisms** across wars and geoeconomics.
 
 ## Archive routing
 

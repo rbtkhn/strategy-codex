@@ -9,7 +9,7 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 - [Speaker profile](mercouris-profile.md)
 - [Speaker arc](arc-mercouris-continuity.md)
 - [Speaker routing note](mercouris-routing.md)
-- [Source index](mercouris-source-index.md)
+- [Mercouris index](mercouris-index.md) · [Analytical bench](mercouris-analytical-bench.md)
 - [Speaker crossing note](mercouris-helix.md)
 - [Support spine](mercouris-support-spine-2025-2026.md)
 - [2026-02 bridge shelf](mercouris-shelf-2026-02.md)
@@ -18,7 +18,7 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 
 ## Surface Grammar
 
-- **Surface name:** `mercouris-source-index.md`
+- **Surface name:** `mercouris-analytical-bench.md`
 - **Surface role:** source bench for breadth-first Mercouris retrieval
 - **Surface interior:** materialized Mercouris appearances and routeable entry points into the repaired live stream
 

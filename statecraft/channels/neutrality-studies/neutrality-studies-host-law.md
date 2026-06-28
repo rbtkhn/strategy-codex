@@ -26,7 +26,7 @@ Route to **guest voice index** (canonical), not host:
 | Guest (examples) | Voice index |
 | --- | --- |
 | Steve Jermy | [jermy-source-index.md](../../voices/jermy/jermy-source-index.md) |
-| Alexander Mercouris (guest) | [mercouris-source-index.md](../../voices/mercouris/mercouris-source-index.md) |
+| Alexander Mercouris (guest) | [mercouris-index.md](../../voices/mercouris/mercouris-index.md) |
 | Stanislav Krapivnik | [krapivnik-source-index.md](../../voices/krapivnik/krapivnik-source-index.md) |
 | Chas Freeman | [freeman-source-index.md](../../voices/freeman/freeman-source-index.md) |
 | Douglas Macgregor | [macgregor-source-index.md](../../voices/macgregor/macgregor-source-index.md) |

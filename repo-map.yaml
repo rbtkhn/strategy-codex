@@ -1016,33 +1016,45 @@ routes:
   - mearsheimer source index compat
   category: work
 - id: mercouris-index
-  title: Mercouris index (guest)
+  title: Mercouris index
   path: statecraft/voices/mercouris/mercouris-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: &id_mercouris_voice
   - mercouris
   - guest-index
   - statecraft
   - voices
   search_hints:
-  - Mercouris guest index
+  - Mercouris index
   - mercouris cross-host
   - Alexander Mercouris guest
   category: work
-- id: mercouris-source-index
-  title: Mercouris source index
-  path: statecraft/voices/mercouris/mercouris-source-index.md
-  kind: source_index
+- id: mercouris-analytical-bench
+  title: Mercouris analytical bench
+  path: statecraft/voices/mercouris/mercouris-analytical-bench.md
+  kind: routing_aid
   authority: work_only
   tags:
   - mercouris
-  - source-index
+  - analytical-bench
   - statecraft
   - voices
   search_hints:
+  - Mercouris analytical bench
+  - mercouris hinges
+  - mercouris cross-weaves
+  category: work
+- id: mercouris-source-index
+  title: Mercouris source index (compat redirect)
+  path: statecraft/voices/mercouris/mercouris-source-index.md
+  kind: source_index
+  authority: work_only
+  tags: *id_mercouris_voice
+  search_hints:
   - Mercouris index
   - mercouris source index
+  - mercouris source index compat
   category: work
 - id: pape-index
   title: Pape index

@@ -3,7 +3,7 @@ WORK only; not Record.
 # Dec 12 2025 — Jermy × Mercouris × Freeman/Wilkerson weave (NSS / war-lost / chain reaction)
 
 **Pub date:** 2025-12-12  
-**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris source index](../voices/mercouris/mercouris-source-index.md) · [Davis host index](../channels/daniel-davis/index.md) · [December 2025 benchmark](./december-2025-benchmark-note.md)
+**Parent:** [Jermy source index](../voices/jermy/jermy-source-index.md) · [Mercouris analytical bench](../voices/mercouris/mercouris-analytical-bench.md) · [Davis host index](../channels/daniel-davis/index.md) · [December 2025 benchmark](./december-2025-benchmark-note.md)
 
 **Sources:**
 

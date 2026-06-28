@@ -90,8 +90,12 @@ def render_source_index_registry(routes: list[dict[str, Any]]) -> str:
         "|---|---|---|",
     ]
     for path in discovered:
-        rel = path.relative_to(REPO_ROOT).as_posix()
         speaker = path.parent.name
+        primary = path.parent / f"{speaker}-index.md"
+        if primary.is_file():
+            rel = primary.relative_to(REPO_ROOT).as_posix()
+        else:
+            rel = path.relative_to(REPO_ROOT).as_posix()
         route = route_by_path.get(rel)
         route_id = route.get("id", "—") if route else "—"
         lines.append(f"| {speaker} | [{rel}]({rel}) | {route_id} |")

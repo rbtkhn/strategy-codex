@@ -20,7 +20,7 @@ Open Neutrality Studies first when:
 
 ## Guest voice indexes (canonical)
 
-- [Jermy](../../voices/jermy/jermy-source-index.md) · [Krapivnik](../../voices/krapivnik/krapivnik-source-index.md) · [Mercouris](../../voices/mercouris/mercouris-source-index.md) · [Freeman](../../voices/freeman/freeman-source-index.md) · [Macgregor](../../voices/macgregor/macgregor-source-index.md) · [Wilkerson](../../voices/wilkerson/wilkerson-source-index.md) · [Sachs](../../voices/sachs/sachs-source-index.md)
+- [Jermy](../../voices/jermy/jermy-source-index.md) · [Krapivnik](../../voices/krapivnik/krapivnik-source-index.md) · [Mercouris](../../voices/mercouris/mercouris-index.md) · [Freeman](../../voices/freeman/freeman-source-index.md) · [Macgregor](../../voices/macgregor/macgregor-source-index.md) · [Wilkerson](../../voices/wilkerson/wilkerson-source-index.md) · [Sachs](../../voices/sachs/sachs-source-index.md)
 
 ## Boundary
 

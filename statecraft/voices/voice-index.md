@@ -42,7 +42,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Martyanov | [martyanov/martyanov-index.md](martyanov/martyanov-index.md) · compat [martyanov/martyanov-source-index.md](martyanov/martyanov-source-index.md) |
 | Mearsheimer | [mearsheimer/mearsheimer-index.md](mearsheimer/mearsheimer-index.md) · compat [mearsheimer/mearsheimer-source-index.md](mearsheimer/mearsheimer-source-index.md) |
 | McGovern | [mcgovern/mcgovern-index.md](mcgovern/mcgovern-index.md) · compat [mcgovern/mcgovern-source-index.md](mcgovern/mcgovern-source-index.md) |
-| Mercouris | guest: [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host: [../channels/alexander-mercouris/alexander-mercouris-channel-index.md](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) · bench: [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
+| Mercouris | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · compat [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) · host: [../channels/alexander-mercouris/alexander-mercouris-channel-index.md](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) · bench: [mercouris/mercouris-analytical-bench.md](mercouris/mercouris-analytical-bench.md) |
 | Moral Resistance | [../channels/moral-resistance/moral-resistance-channel-index.md](../channels/moral-resistance/moral-resistance-channel-index.md) |
 | Neutrality Studies | [../channels/neutrality-studies/neutrality-studies-channel-index.md](../channels/neutrality-studies/neutrality-studies-channel-index.md) |
 | Pape | [pape/pape-index.md](pape/pape-index.md) · compat [pape/pape-source-index.md](pape/pape-source-index.md) |
@@ -77,7 +77,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 |---|---|
 | Barnes index | [barnes/](barnes/) |
 | Robert Barnes corpus | [barnes/barnes-index.md](barnes/barnes-index.md), `source-archive/statecraft/**/source-*barnes*` |
-| Mercouris bench | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
+| Mercouris bench | [mercouris/mercouris-analytical-bench.md](mercouris/mercouris-analytical-bench.md) |
 | Daniel Davis × guest | [davis/davis-index.md](davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
 | Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · profile → [alkorshid/alkorshid-profile.md](alkorshid/alkorshid-profile.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |

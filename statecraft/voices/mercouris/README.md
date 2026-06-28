@@ -13,7 +13,7 @@ Use it for speaker identity, stream-native continuity, route maps, bounded 2026 
 - [Alexander Mercouris channel shelf](../../channels/alexander-mercouris/README.md) — solo channel (`alexander-mercouris-channel-index.md`)
 - [arc-mercouris-continuity.md](mercouris-arc.md)
 - [mercouris-routing.md](mercouris-routing.md)
-- [mercouris-source-index.md](mercouris-source-index.md) — analytical bench + compat pointers
+- [mercouris-analytical-bench.md](mercouris-analytical-bench.md) — analytical bench · compat [mercouris-source-index.md](mercouris-source-index.md)
 - [mercouris-helix.md](mercouris-helix.md)
 
 ## Split
@@ -37,7 +37,7 @@ Mercouris's canonical structure now has five speaker-owned layers:
 
 - **Person arc:** [arc-mercouris-continuity.md](mercouris-arc.md) holds whole-speaker continuity in statecraft-side wrapper form while preserving the native stream arc as the inner core.
 - **Routing surface:** [mercouris-routing.md](mercouris-routing.md) answers which arc, month shelf, or reinforcement surface to open first.
-- **Source index:** [mercouris-source-index.md](mercouris-source-index.md) is the canonical statecraft-side route map.
+- **Primary route map:** [mercouris-index.md](mercouris-index.md) · **Analytical bench:** [mercouris-analytical-bench.md](mercouris-analytical-bench.md) · compat [mercouris-source-index.md](mercouris-source-index.md).
 - **Crossing surface:** [mercouris-helix.md](mercouris-helix.md) explains Mercouris's stream-native crossing logic and secondary host reinforcement without forcing a fake multi-host helix.
 - **Support spine:** [mercouris-support-spine-2025-2026.md](mercouris-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the canonical month ladder relates to stream-owned chronology.
 

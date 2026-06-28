@@ -2,9 +2,16 @@ WORK only; not Record.
 
 # Mercouris Index
 
-Purpose: route map for **Alexander Mercouris** as **guest / interviewed analyst on other hosts and channels** — not Alexander Mercouris solo-channel work.
+Purpose: primary route map for **Alexander Mercouris** — guest captures on other hosts; pair with analytical bench and host channel below.
 
-**Host channel (Alexander Mercouris):** [`alexander-mercouris-channel-index.md`](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md)
+## Open first
+
+| Surface | Path | Job |
+|---|---|---|
+| **Guest captures (this file)** | `mercouris-index.md` | Cross-host guest appearances (`channel_slug` ≠ `alexander-mercouris`) |
+| **Analytical bench** | [mercouris-analytical-bench.md](mercouris-analytical-bench.md) | Month hinges, cross-weaves, prehistory anchors |
+| **Host channel** | [alexander-mercouris-channel-index.md](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md) | Solo `@AlexMercouris` uploads |
+| **Compat redirect** | [mercouris-source-index.md](mercouris-source-index.md) | Back-compat entry only |
 
 ## Boundary
 
@@ -118,4 +125,5 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 ## Reading rule
 
 - **Guest mechanism / cross-host Mercouris** → this index
+- **Analytical bench (hinges / weaves)** → [mercouris-analytical-bench.md](mercouris-analytical-bench.md)
 - **Mercouris solo on Alexander Mercouris channel** → [`alexander-mercouris-channel-index.md`](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md)
