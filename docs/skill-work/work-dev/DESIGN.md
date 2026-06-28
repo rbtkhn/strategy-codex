@@ -144,7 +144,7 @@ The Workspace Panel is Grace-Marâ€™s dedicated, resizable structured output
 **State Management**
 
 - Draft artifacts saved locally in `artifacts/drafts/` (non-canonical working copies; see [artifacts/drafts/README.md](../../../README.md))
-- After recursion-gate approval: promote durable creative outputs under `artifacts/creative/` per [artifacts/creative/README.md](../../../README.md). **Record** integration is only through the gated pipeline into [`self-archive.md`](self-archive.md) â€” do not use `self-evidence/` as a parallel evidence tree ([canonical-paths.md](../../canonical-paths.md))
+- After recursion-gate approval: promote durable creative outputs under `artifacts/creative/` per [artifacts/creative/README.md](../../../README.md). **Record** integration is only through the gated pipeline into [`self-archive.md`](../../../archive/grace-mar-instance/self-archive.md) â€” do not use `self-evidence/` as a parallel evidence tree ([canonical-paths.md](../../canonical-paths.md))
 - Panel remembers last open artifact across sessions (non-Record state)
 
 ### Purpose

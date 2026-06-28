@@ -7,7 +7,7 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 ## Open First
 
 - [Speaker profile](mercouris-profile.md)
-- [Speaker arc](arc-mercouris-continuity.md)
+- [Speaker arc](mercouris-arc.md)
 - [Speaker routing note](mercouris-routing.md)
 - [Mercouris index](mercouris-index.md) · [Analytical bench](mercouris-analytical-bench.md)
 - [Speaker crossing note](mercouris-helix.md)
@@ -33,9 +33,9 @@ Compatibility residue:
 
 - [Profile compatibility redirect](../../../codex/profiles/mercouris-profile.md)
 
-- [Thread compatibility file](../../../statecraft/voices/mercouris/mercouris-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/mercouris/mercouris-transcript.md)
-- [Legacy page residue](../../../statecraft/voices/mercouris/stream)
+- [Thread compatibility file](mercouris-thread.md)
+- [Transcript compatibility file](mercouris-transcript.md)
+- [Legacy page residue](mercouris-routing.md)
 
 ## Monthly Shelf Layer
 

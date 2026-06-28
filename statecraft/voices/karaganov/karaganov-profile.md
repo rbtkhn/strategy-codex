@@ -135,7 +135,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 ### Other links
 
 - Council on Foreign and Defense Policy (CFDP) — verify current URL on ingest
-- Cross-host arc: [arc-karaganov-diesen-host.md](../diesen/arc-karaganov-diesen-host.md)
+- Cross-host arc: [arc-karaganov-diesen-host.md](../../notes/arc-karaganov-diesen-host.md)
 
 ## Profile status
 

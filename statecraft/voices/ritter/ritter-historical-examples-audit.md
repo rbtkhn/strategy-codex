@@ -26,7 +26,7 @@ Discovery and routing base:
 - [Ritter README](README.md)
 - [Ritter index](index.md)
 - [Ritter source index](ritter-source-index.md)
-- [Ritter arc](arc-ritter-continuity.md)
+- [Ritter arc](ritter-arc.md)
 - [Ritter helix](ritter-helix.md)
 - [Ritter support spine](ritter-support-spine-2025-2026.md)
 - [Ritter monthly shelves]()

@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about native arc shape, strand separation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Mercouris shelf, the canonical orthogonality-bearing structure is [arc-mercouris-continuity.md](mercouris-arc.md) plus [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md), not this file.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Mercouris shelf, the canonical orthogonality-bearing structure is [mercouris-arc.md](mercouris-arc.md) plus [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md), not this file.
 
 **Source:** Human **narrative journal** (below) + [mercouris-transcript.md](mercouris-transcript.md) (verbatim ingests) + relevant refined-page work (where this stream's material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox to transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose**.
@@ -155,7 +155,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ## CIV-MIND-MERCOURIS vs `mercouris` lane
 
-**Canonical lens (style / tri-mind):** [CIV-MIND-MERCOURIS.md](minds/CIV-MIND-MERCOURIS.md) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â long-form **LINGUISTIC FINGERPRINT** for **in-voice** Mercouris blocks in WORK (tri-mind, strategy passes). It is **not** a biography and **not** a substitute for **transcript-grounded** claims about what Mercouris said on a given show.
+**Canonical lens (style / tri-mind):** [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â long-form **LINGUISTIC FINGERPRINT** for **in-voice** Mercouris blocks in WORK (tri-mind, strategy passes). It is **not** a biography and **not** a substitute for **transcript-grounded** claims about what Mercouris said on a given show.
 
 **This lane (`mercouris`):** Indexed **`thread:`** material ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **The Duran** / Mercouris ingests, inbox rows, and notebook pages. Judgment in **`days.md`** and compressed notebook output stays **tier-disciplined**; full lens essays belong in chat or **`minds/`**-style outputs per skill, not forced into Judgment as if they were wire copy.
 

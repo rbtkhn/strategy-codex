@@ -220,7 +220,7 @@ See [`days.md` Ã‚Â§ Signal / Ã‚Â§ Judgment](../../../codex/chapters/20
 
 ### References
 
-- **Mind registers (in-voice discipline):** [CIV-MIND-MERCOURIS.md](../../../minds/CIV-MIND-MERCOURIS.md) Ã‚Â· [CIV-MIND-MEARSHEIMER.md](../../../minds/CIV-MIND-MEARSHEIMER.md)
+- **Mind registers (in-voice discipline):** [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) Ã‚Â· [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md)
 - **Tri-mind skill:** [`.cursor/skills/tri-mind/SKILL.md`](../../../../../../../.cursor/skills/tri-mind/SKILL.md) (**A** = Mercouris, **B** = Mearsheimer)
 - **Primary / episode pins:** add **Duran** / **Mercouris** **YouTube** or **Mearsheimer** **appearance** URLs here when this page is **tightened** to a **dated** **show** Ã¢â‚¬â€ **`TBD`** until operator pins.
 

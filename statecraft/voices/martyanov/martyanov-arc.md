@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-martyanov-continuity.md](../../notes/arc-martyanov-continuity.md)
+**Canonical:** [martyanov-arc.md](../../notes/martyanov-arc.md)
 
 Legacy path: `statecraft/voices/martyanov/martyanov-arc.md` — Pointer only; do not duplicate arc bodies here.

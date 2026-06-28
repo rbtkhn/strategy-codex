@@ -169,4 +169,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [mercouris-transcript.md](../../../statecraft/voices/mercouris/mercouris-transcript.md) · [mercouris-thread.md](../../../statecraft/voices/mercouris/mercouris-thread.md) · [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) (redirect)
+**Companion files:** [mercouris-transcript.md](mercouris-transcript.md) · [mercouris-thread.md](mercouris-thread.md) · [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) (redirect)

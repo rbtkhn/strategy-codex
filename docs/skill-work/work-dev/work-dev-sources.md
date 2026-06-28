@@ -37,7 +37,7 @@ Landscape awareness for agent stack, AI infrastructure, platform shifts. Curated
 |--------|-----|-------|
 | 404 Media | https://www.404media.co/ | Investigative tech journalism; paywalled; strong on platform accountability and AI supply chain |
 | TechCrunch | https://techcrunch.com/ | Startup / VC / AI news; useful for tracking competitor launches and funding rounds |
-| Hacker News | https://news.ycombinator.com/ | Developer community signal; also in [daily-brief RSS](../../work-strategy/daily-brief-config.json) (tier 3) — web view for manual drill-down |
+| Hacker News | https://news.ycombinator.com/ | Developer community signal; also in [daily-brief RSS](../work-strategy/daily-brief-config.json) (tier 3) — web view for manual drill-down |
 | ZDNet | https://www.zdnet.com/ | Enterprise tech; AI deployment patterns and vendor analysis |
 | The Register | https://www.theregister.com/ | UK tech with editorial bite; good for infrastructure and cloud coverage |
 | Engadget | https://www.engadget.com/ | Consumer tech and AI product launches |

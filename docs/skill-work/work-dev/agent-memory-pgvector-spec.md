@@ -2,7 +2,7 @@
 
 **Territory:** work-dev (WORK / infrastructure). **Not** companion Record; facts about the companion still use RECURSION-GATE. **Companion:** [AGENTS.md](../../../AGENTS.md), [openclaw-integration.md](../../openclaw-integration.md).
 
-**Implements:** the flaw-fix plan for persistent chunked memory (hybrid retrieval, audit trail, reflection governance, dual-repo scope). **Canonical SQL:** [sql/agent_memory_v1_initial.sql](sql/agent_memory_v1_initial.sql). **Structured-memory v2 bridge contract:** [../../platform/integrations/ob1/structured-memory-mcp.md](../../platform/integrations/ob1/structured-memory-mcp.md).
+**Implements:** the flaw-fix plan for persistent chunked memory (hybrid retrieval, audit trail, reflection governance, dual-repo scope). **Canonical SQL:** [sql/agent_memory_v1_initial.sql](sql/agent_memory_v1_initial.sql). **Structured-memory v2 bridge contract:** [../../integrations/ob1/structured-memory-mcp.md](../../integrations/ob1/structured-memory-mcp.md).
 
 ---
 

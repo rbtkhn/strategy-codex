@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: isolate the recurring **international-law / legitimacy-order / negotiated-constraint** lane inside the broader Crooke corpus without confusing it with either the general [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md or adjacent military-legal specialist lanes elsewhere in the notebook.
+Purpose: isolate the recurring **international-law / legitimacy-order / negotiated-constraint** lane inside the broader Crooke corpus without confusing it with either the general [crooke-thread.md](crooke-thread.md or adjacent military-legal specialist lanes elsewhere in the notebook.
 
 ## Boundary
 
@@ -16,7 +16,7 @@ Use this file when the notebook needs **Crooke on international law as a topical
 
 Do not use this file as a substitute for:
 
-- [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md for full Crooke continuity
+- [crooke-thread.md](crooke-thread.md for full Crooke continuity
 - [baud-thread-international-law.md](../../../statecraft/voices/baud/baud-thread-international-law.md for tighter law-of-war and due-process framing
 - [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
 - [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md when the question is order-level legitimacy collapse through a more explicit legal register
@@ -29,14 +29,14 @@ Quick separation rule:
 
 - `crooke-thread-international-law` = whether shared constraint still binds, whether sovereignty is genuinely recognized, and whether agreements retain political substance
 - [baud-thread-international-law.md](../../../statecraft/voices/baud/baud-thread-international-law.md = legal categories, due process, co-belligerency, proportionality, blockade, and law-of-war analysis
-- [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md = broader Crooke continuity across settlement, sovereignty, and regional order
+- [crooke-thread.md](crooke-thread.md = broader Crooke continuity across settlement, sovereignty, and regional order
 
 If the operator needs negotiated-order credibility and the collapse of binding reciprocity, open Crooke first. If the operator needs more explicit legal taxonomy or law-of-war framing, Baud is usually the better first stop.
 
 Distinct from:
 
 - [baud-thread-international-law.md](../../../statecraft/voices/baud/baud-thread-international-law.md, which is stronger on law-of-war categories, due process, and liability taxonomy
-- [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md, which carries broader Crooke continuity beyond the law/legitimacy strand
+- [crooke-thread.md](crooke-thread.md, which carries broader Crooke continuity beyond the law/legitimacy strand
 - the adjacent Baud host arcs, which apply explicit legal registers under host-specific live-pressure or order-transition conditions rather than Crooke's negotiated-order register
 
 ## Core thesis
@@ -59,7 +59,7 @@ Primary Crooke materials already in the repo that plausibly feed this lane:
 - [crooke-page-2026-02-18-who-can-halt-the-america-first-ambition.md](../../../statecraft/voices/crooke/crooke-page-2026-02-18-who-can-halt-the-america-first-ambition.md
 - [crooke-page-2026-04-08-the-10-point-iranian-framework-and.md](../../../statecraft/voices/crooke/crooke-page-2026-04-08-the-10-point-iranian-framework-and.md
 - [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/crooke-forecast-ledger-2026.md
-- [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md
+- [crooke-thread.md](crooke-thread.md
 
 Closest neighboring voices when this topic needs reinforcement or contrast:
 

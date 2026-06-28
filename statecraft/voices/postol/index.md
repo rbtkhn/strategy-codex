@@ -6,7 +6,7 @@ Open this shelf when the real question is not ideology, legality, or domestic fa
 
 ## First Opens
 
-- [arc-postol-continuity.md](postol-arc.md) for whole-speaker continuity
+- [postol-arc.md](postol-arc.md) for whole-speaker continuity
 - [postol-routing.md](postol-routing.md) for first-open discipline
 - [postol-source-index.md](postol-source-index.md) for direct archive entry
 

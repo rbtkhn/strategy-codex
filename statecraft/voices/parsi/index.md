@@ -7,7 +7,7 @@ Purpose: front door for the canonical Parsi statecraft shelf.
 ## Open First
 
 - [Speaker profile](parsi-profile.md)
-- [arc-parsi-continuity.md](parsi-arc.md)
+- [parsi-arc.md](parsi-arc.md)
 - [parsi-routing.md](parsi-routing.md)
 - [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - [parsi-source-index.md](parsi-source-index.md)
@@ -23,7 +23,7 @@ Purpose: front door for the canonical Parsi statecraft shelf.
 
 The orthogonality-bearing Parsi structure is:
 
-- [arc-parsi-continuity.md](parsi-arc.md)
+- [parsi-arc.md](parsi-arc.md)
 - [parsi-routing.md](parsi-routing.md)
 - [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - [parsi-speaker-object.md](parsi-speaker-object.md)

@@ -24,7 +24,7 @@ Discovery and routing base:
 - [Mercouris index](index.md)
 - [Mercouris analytical bench](mercouris-analytical-bench.md)
 - [Mercouris speaker object](mercouris-speaker-object.md)
-- [Mercouris arc](arc-mercouris-continuity.md)
+- [Mercouris arc](mercouris-arc.md)
 - [Mercouris arc-threads](mercouris-arc-threads.md)
 
 Interpretive source base:

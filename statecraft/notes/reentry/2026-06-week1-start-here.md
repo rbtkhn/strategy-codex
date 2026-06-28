@@ -41,7 +41,7 @@ One entry point for re-entering the first month-aligned week of June 2026. Open 
 | Bombing while talking / nuclear humiliation fork? | [2026-06-03](../../synthesis/day/2026-06-03.md) |
 | NDAA Section 224 / Pentagon mesh? | [Hoh in America statecraft note](../2026-06-06-america-captured-command-ndaa-ci-client-veto.md#hoh--section-224-statutory-mesh-june-4-pass) + [transaction Clauses A–E](../../america/transactions/foreign-client-mesh-separation-and-command-review.md#instrument-text-draft-clauses) |
 | Why doesn’t Trump stop Netanyahu? | [America humiliation 2026-06-07](../2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) + [Barnes × Aguilar levers](../2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) |
-| Persia drafting hooks? | [Lebanon third-party transaction](../../../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) |
+| Persia drafting hooks? | [Lebanon third-party transaction](../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) |
 | Ukraine parallel? | [2026-06-06 Russia statecraft note](../2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md) |
 
 ---
@@ -74,7 +74,7 @@ One entry point for re-entering the first month-aligned week of June 2026. Open 
 
 ## Transactions (draft instruments)
 
-- [Persia — Lebanon third-party recognition gate](../../../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+- [Persia — Lebanon third-party recognition gate](../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - [America — command firewall + Section 224 A–E](../../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 
 ---

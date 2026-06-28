@@ -9,7 +9,7 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 ## Open First
 
 - [Speaker profile](crooke-profile.md) — identity, voice fingerprint, convergence/tension, links hub
-- [arc-crooke-continuity.md](crooke-arc.md)
+- [crooke-arc.md](crooke-arc.md)
 - [crooke-routing.md](crooke-routing.md)
 - [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
@@ -23,7 +23,7 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 
 Crooke's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [arc-crooke-continuity.md](crooke-arc.md) holds whole-speaker continuity across authored and interview contexts.
+- **Person arc:** [crooke-arc.md](crooke-arc.md) holds whole-speaker continuity across authored and interview contexts.
 - **Routing surface:** [crooke-routing.md](crooke-routing.md) answers which source-class strand, host lane, or monthly shelf to open first.
 - **Source index:** [crooke-source-index.md](crooke-source-index.md) remains the canonical route map for materialized Crooke appearances.
 - **Crossing surface:** [crooke-helix.md](crooke-helix.md) explains how the authored mechanism spine and interview strand reinforce, extend, or pressure one another.

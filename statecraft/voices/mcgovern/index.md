@@ -6,7 +6,7 @@ Open this shelf when the real question is not engineering truth or domestic liab
 
 ## First Opens
 
-- [arc-mcgovern-continuity.md](mcgovern-arc.md) for whole-speaker continuity
+- [mcgovern-arc.md](mcgovern-arc.md) for whole-speaker continuity
 - [mcgovern-routing.md](mcgovern-routing.md) for first-open discipline
 - [mcgovern-source-index.md](mcgovern-source-index.md) for direct archive entry
 

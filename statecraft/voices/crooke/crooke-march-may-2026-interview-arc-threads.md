@@ -10,7 +10,7 @@ This file does **not** replace the authored mechanism spine in [crooke-forecast-
 
 - this is the canonical thread atlas for the Crooke **interview** dense core
 - the authored ledger remains the canonical Crooke mechanism spine in his own voice
-- [crooke-thread.md](../../../statecraft/voices/crooke/crooke-thread.md remains legacy compatibility only
+- [crooke-thread.md](crooke-thread.md remains legacy compatibility only
 
 ## Dense-core boundary
 

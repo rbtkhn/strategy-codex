@@ -11,7 +11,7 @@ Use it for Jiang-facing statecraft routing, Predictive History access, and speak
 - [jiang-on-ai.md](../../notes/jiang-on-ai.md) — full AI thesis (GT-24–28, FM-01): bubble, Stargate, occult, surveillance; China partner strand; watch: [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - [jiang-routing.md](jiang-routing.md)
-- [arc-jiang-continuity.md](jiang-arc.md)
+- [jiang-arc.md](jiang-arc.md)
 - [jiang-source-index.md](jiang-source-index.md)
 - [jiang-support-spine-2026.md](jiang-support-spine-2026.md)
 - [public/predictive-history/README.md](../../../public/predictive-history/README.md) — **read-only inbound snapshot**
@@ -23,7 +23,7 @@ For Jiang-facing analysis of how the lectures teach, spread, and hold together, 
 Jiang's canonical statecraft shelf has one count/routing SSOT, three shelf surfaces, one support spine, and one strategy-codex read mirror:
 
 - **Master Predictive History count/routing index:** [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
-- **Person arc:** [arc-jiang-continuity.md](jiang-arc.md)
+- **Person arc:** [jiang-arc.md](jiang-arc.md)
 - **Routing surface:** [jiang-routing.md](jiang-routing.md)
 - **Source index:** [jiang-source-index.md](jiang-source-index.md)
 - **Support spine:** [jiang-support-spine-2026.md](jiang-support-spine-2026.md)

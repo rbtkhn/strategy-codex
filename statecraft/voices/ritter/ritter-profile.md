@@ -4,7 +4,7 @@
 WORK only; not Record.
 
 **Canonical profile:** this file.
-**Continuity SSOT:** [arc-ritter-continuity.md](ritter-arc.md) — person arc across authored + interview contexts.
+**Continuity SSOT:** [ritter-arc.md](ritter-arc.md) — person arc across authored + interview contexts.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Commentator index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`ritter`** lane.
 
@@ -12,7 +12,7 @@ WORK only; not Record.
 
 ## Introduction
 
-Scott Ritter is the **military-professional dissent** lane: operational limits, blockade and sea-control mechanics, escalation diagnosis, and war-power critique in a strongly voiced register. Material arrives on **two parallel surfaces** — **authored Substack/site** (long-form warning, forecast spine, **field witness**) and **host interviews** (Davis feasibility, Diesen escalation, Nima live pressure, Napolitano legal reinforcement). For continuity across both, open **[arc-ritter-continuity.md](ritter-arc.md)** first; this profile is the **identity and routing card**, not the full person arc.
+Scott Ritter is the **military-professional dissent** lane: operational limits, blockade and sea-control mechanics, escalation diagnosis, and war-power critique in a strongly voiced register. Material arrives on **two parallel surfaces** — **authored Substack/site** (long-form warning, forecast spine, **field witness**) and **host interviews** (Davis feasibility, Diesen escalation, Nima live pressure, Napolitano legal reinforcement). For continuity across both, open **[ritter-arc.md](ritter-arc.md)** first; this profile is the **identity and routing card**, not the full person arc.
 
 **Ukraine / SMO (2026):** authored field pieces (e.g. *A Trail of Tears*, pub 2026-06-19) add **occupied-rear witness and memorial grammar** — legitimate synthesis input on harm and morale; **not** wire-primary proof without archive `verify:` / operator rows.
 
@@ -31,7 +31,7 @@ Scott Ritter is the **military-professional dissent** lane: operational limits, 
 
 | If you need… | Open | Why |
 | --- | --- | --- |
-| Person continuity across hosts + authored | [arc-ritter-continuity.md](ritter-arc.md) | Arc SSOT |
+| Person continuity across hosts + authored | [ritter-arc.md](ritter-arc.md) | Arc SSOT |
 | Which host or month shelf to open | [ritter-routing.md](ritter-routing.md) | Task router |
 | Every landed capture | [ritter-source-index.md](ritter-source-index.md) | Archive route map |
 | Mature 2026 month density | [ritter-shelf-2026-04.md](ritter-shelf-2026-04.md) | Full-spectrum month (or routing table) |
@@ -90,7 +90,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 - **Archive** holds verbatim captures; **Judgment** uses operator `verify:` and tier rows on capture headers.
 - Ritter **narrative witness** (tier 4) may align with closed fact rows (e.g. Starobilsk tier-A) but **does not substitute** for them.
-- **Do not** promote into [`codex/experts/ritter/thread.md`](../../../ritter-thread.md) strategy-page — use **`statecraft/synthesis/day/`**, **`statecraft/notes/`**, **`civ-state-note`** when civilizational shelf anchors load.
+- **Do not** promote into [`codex/experts/ritter/thread.md`](ritter-thread.md) strategy-page — use **`statecraft/synthesis/day/`**, **`statecraft/notes/`**, **`civ-state-note`** when civilizational shelf anchors load.
 - **Downgrade** sources that entertain unsupported military-target symmetry when operator has **contradicted** the allegation (see landed capture `source_weight_downgrade`).
 
 ## Convergence fingerprint
@@ -100,7 +100,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 - **Ritter × davis** — feasibility, stockpiles, skies, blockade impracticality.
 - **Ritter × barnes** — war-power / legal-indictment reinforcement (secondary to Ritter ops core).
 
-*Month-level convergence detail:* [arc-ritter-continuity.md](ritter-arc.md) — profile does not compress the month ladder.
+*Month-level convergence detail:* [ritter-arc.md](ritter-arc.md) — profile does not compress the month ladder.
 
 ## Tension fingerprint
 
@@ -158,7 +158,7 @@ Treat public site, Substack, and video surfaces as **discovery indexes**, not co
 
 ## Legacy redirects (compatibility)
 
-- [`codex/2026/ritter/ritter-thread.md`](../../../ritter-thread.md) · [`ritter-transcript.md`](../../../ritter-transcript.md) — **not** promotion path for new work.
+- [`codex/2026/ritter/ritter-thread.md`](ritter-thread.md) · [`ritter-transcript.md`](ritter-transcript.md) — **not** promotion path for new work.
 - Legacy minds: [minds/README.md](../../../docs/skill-work/work-strategy/minds/README.md) · [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 **Commentator metrics (illustrative):** SCI 0.82 · AD 0.48 · CTC 0.74 — see [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md); not live scoring in this profile.

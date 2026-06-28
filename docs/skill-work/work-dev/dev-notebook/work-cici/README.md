@@ -34,7 +34,7 @@ Canonical bodies live in [work-cici/handoffs/](../../../../../singularity/work-c
 - [first-good-morning-runbook.md](../../../../../singularity/work-cici/first-good-morning-runbook.md) · [SYNC-DAILY.md](../../../../../singularity/work-cici/SYNC-DAILY.md) — cadence.  
 - [POST-RENAME-AUDIT.md](../../../../../singularity/work-cici/POST-RENAME-AUDIT.md) — drift after `work-xavier` → `work-cici`.  
 - [skill-cici](../../../../../.cursor/skills/skill-cici/SKILL.md) — Cursor ritual (grace-mar vs Cici **Mode B**).  
-- [OB1 conceptual map — Cici instance](../../../../platform/integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) — stack roles.
+- [OB1 conceptual map — Cici instance](../../../../integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) — stack roles.
 
 ## Evidence (high-signal; full set under [work-cici/archive/placeholders/evidence/](../../../../../archive/placeholders/evidence))
 

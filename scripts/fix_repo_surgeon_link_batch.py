@@ -97,6 +97,18 @@ TARGET_REWRITES: dict[str, str] = {
     ),
     "self-llm.txt": "archive/grace-mar-instance/self-llm.txt",
     "arc-pape-continuity.md": "statecraft/notes/arc-pape-continuity.md",
+    "arc-mearsheimer-continuity.md": "statecraft/voices/mearsheimer/mearsheimer-arc.md",
+    "arc-mercouris-continuity.md": "statecraft/voices/mercouris/mercouris-arc.md",
+    "arc-ritter-continuity.md": "statecraft/voices/ritter/ritter-arc.md",
+    "openclaw-integration.md": "docs/openclaw-integration.md",
+    "polyphonic-cognition-protocol-skill.md": (
+        "docs/skill-work/work-politics/polyphonic-cognition-protocol-skill.md"
+    ),
+    "self-archive.md": "archive/grace-mar-instance/self-archive.md",
+    "self-evidence.md": "archive/grace-mar-instance/self-evidence.md",
+    "CIV-MIND-BARNES.md": "codex/minds/CIV-MIND-BARNES.md",
+    "CIV-MIND-MERCOURIS.md": "codex/minds/CIV-MIND-MERCOURIS.md",
+    "CIV-MIND-MEARSHEIMER.md": "codex/minds/CIV-MIND-MEARSHEIMER.md",
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -800,6 +812,81 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
+    if rel.startswith("statecraft/voices/"):
+        speaker = rel.split("/")[2] if rel.count("/") >= 3 else ""
+        if speaker:
+            replacements.extend(
+                [
+                    (
+                        f"../../../statecraft/voices/{speaker}/{speaker}-thread.md",
+                        f"{speaker}-thread.md",
+                    ),
+                    (
+                        f"../../../statecraft/voices/{speaker}/{speaker}-transcript.md",
+                        f"{speaker}-transcript.md",
+                    ),
+                    (
+                        f"../../../statecraft/voices/{speaker}/stream",
+                        f"{speaker}-routing.md",
+                    ),
+                    ("../../profiles/", "../"),
+                    ("../../../minds/CIV-MIND-", "../../../codex/minds/CIV-MIND-"),
+                    ("](minds/CIV-MIND-", "](../../../codex/minds/CIV-MIND-"),
+                ]
+            )
+        replacements.append(
+            (
+                "](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md for",
+                "](../../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for",
+            )
+        )
+
+    if rel.startswith("statecraft/voices/johnson/"):
+        replacements.append(("../../notes/johnson-arc.md", "johnson-arc.md"))
+
+    if rel.startswith("statecraft/voices/ritter/"):
+        replacements.extend(
+            [
+                ("../../../ritter-thread.md", "ritter-thread.md"),
+                ("../../../ritter-transcript.md", "ritter-transcript.md"),
+            ]
+        )
+
+    if rel.startswith("statecraft/voices/karaganov/"):
+        replacements.append(
+            ("../diesen/arc-karaganov-diesen-host.md", "../../notes/arc-karaganov-diesen-host.md")
+        )
+
+    if rel == "statecraft/recursive-learning-journal.md":
+        replacements.append(
+            (
+                "](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
+                "](../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
+            )
+        )
+
+    if rel.startswith("docs/skill-work/work-dev/"):
+        replacements.extend(
+            [
+                ("../../platform/integrations/", "../../integrations/"),
+                ("../../../platform/integrations/", "../../../integrations/"),
+                ("../../../../platform/integrations/", "../../../../integrations/"),
+                ("../../../../../platform/integrations/", "../../../../../integrations/"),
+                (
+                    "../../../../../../platform/integrations/",
+                    "../../../../../../integrations/",
+                ),
+                (
+                    "](../../work-strategy/daily-brief-config.json",
+                    "](../work-strategy/daily-brief-config.json",
+                ),
+                (
+                    "polyphonic-cognition-protocol-skill.md",
+                    "../work-politics/polyphonic-cognition-protocol-skill.md",
+                ),
+            ]
+        )
+
     for old, new in replacements:
         if old in text:
             n = text.count(old)
@@ -830,7 +917,9 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
     ]
     if rel.startswith("statecraft/synthesis/"):
         patterns.append((r"(?:\.\./)+america/transactions/", "../../america/transactions/"))
-        patterns.append((r"\.\./persia/transactions/", "../../persia/transactions/"))
+        patterns.append((r"(?:\.\./)+persia/transactions/", "../../persia/transactions/"))
+    if rel.startswith("statecraft/notes/intake/") or rel.startswith("statecraft/notes/reentry/"):
+        patterns.append((r"(?:\.\./)+persia/transactions/", "../../persia/transactions/"))
     if "dev-notebook/work-cici" in rel:
         patterns.extend(
             [
@@ -861,8 +950,23 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
             (r"\]\(public/predictive-history/([^)#]+)\)", r"](../../../public/predictive-history/\1)"),
         )
     if rel.startswith("statecraft/voices/"):
+        parts = rel.split("/")
+        if len(parts) >= 3:
+            speaker = parts[2]
+            patterns.append((r"\]\(transcript\.md\)", rf"]({speaker}-transcript.md)"))
+            patterns.append((r"\]\(thread\.md\)", rf"]({speaker}-thread.md)"))
+        patterns.append((r"arc-([a-z0-9-]+)-continuity\.md", r"\1-arc.md"))
         patterns.append((r"(?:\.\./)+codex/predictive-history/", "../../../codex/predictive-history/"))
         patterns.append((r"(?:\.\./)+codex/", "../../../codex/"))
+    if "source-archive-residue" in rel:
+        patterns.append((r"(?:\.\./voices/marandi/)+", "../../../voices/marandi/"))
+    if "pape-page-" in rel:
+        patterns.append(
+            (
+                r"\]\(\.\./daily-strategy-inbox\.md \(",
+                r"](../../../codex/daily-strategy-inbox.md) (",
+            )
+        )
     if rel.startswith(".cursor/skills/") or rel.startswith("skills/"):
         patterns.append((r"(?:\.\./)+codex/academy/", "../../../../codex/academy/"))
         patterns.append((r"(?:\.\./)+\.codex-tmp/", "../../../.codex-tmp/"))

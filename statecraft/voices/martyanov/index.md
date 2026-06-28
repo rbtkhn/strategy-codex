@@ -6,7 +6,7 @@ Open this shelf when the real question is not legality, domestic liability, or i
 
 ## First Opens
 
-- [arc-martyanov-continuity.md](martyanov-arc.md) for whole-speaker continuity
+- [martyanov-arc.md](martyanov-arc.md) for whole-speaker continuity
 - [martyanov-routing.md](martyanov-routing.md) for first-open discipline
 - [martyanov-source-index.md](martyanov-source-index.md) for direct archive entry
 

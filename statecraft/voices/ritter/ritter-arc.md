@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-ritter-continuity.md](../../notes/arc-ritter-continuity.md)
+**Canonical:** [ritter-arc.md](../../notes/ritter-arc.md)
 
 Legacy path: `statecraft/voices/ritter/ritter-arc.md` — Pointer only; do not duplicate arc bodies here.

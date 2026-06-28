@@ -23,7 +23,7 @@ The native Mercouris stream is therefore not background evidence for some higher
 
 `arc-mercouris-continuity` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `arc-mercouris-continuity-threads`, currently indexed at [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md).
 
-Use [arc-mercouris-continuity.md](mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
+Use [mercouris-arc.md](mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
 
 Mercouris now also has visible month-support stratification inside the native stream: January functions as a **continuity-setup month**, February functions as a **mature bridge month**, while March through May function as **mature dense-core shelves**.
 
@@ -88,7 +88,7 @@ If the operator needs the object doctrine rather than the live stream:
 
 If the operator needs the Mercouris arc:
 
-- open [arc-mercouris-continuity.md](mercouris-arc.md)
+- open [mercouris-arc.md](mercouris-arc.md)
 - then open [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md)
 
 ## Routing use

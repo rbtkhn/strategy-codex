@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-crooke-continuity.md](../../notes/arc-crooke-continuity.md)
+**Canonical:** [crooke-arc.md](../../notes/crooke-arc.md)
 
 Legacy path: `statecraft/voices/crooke/crooke-arc.md` — Pointer only; do not duplicate arc bodies here.

@@ -1910,7 +1910,7 @@ and seal each slice before opening validator or substrate tranches.
 **Slice 1 (this close):**
 
 - [foreign-client-mesh-separation-and-command-review.md](america/transactions/foreign-client-mesh-separation-and-command-review.md) — June 8 Barnes corroboration (`AMER-INT-01`, `AMER-CI-01`, `AMER-MOU-01`) wired to Nawfal source
-- [2026-06-08-barnes-america-capture-non-intercept-colby-mou.md](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — companion note (restraint/capture fork split)
+- [2026-06-08-barnes-america-capture-non-intercept-colby-mou.md](../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — companion note (restraint/capture fork split)
 
 **Not in slice 1:** intake-readiness tweak, validator March quote-anchors, Napolitano bulk normalize.
 
@@ -1948,7 +1948,7 @@ and seal each slice before opening validator or substrate tranches.
 **Slice 1 (this close):**
 
 - [foreign-client-mesh-separation-and-command-review.md](america/transactions/foreign-client-mesh-separation-and-command-review.md) — June 8 Barnes corroboration (`AMER-INT-01`, `AMER-CI-01`, `AMER-MOU-01`) wired to Nawfal source
-- [2026-06-08-barnes-america-capture-non-intercept-colby-mou.md](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — companion note (restraint/capture fork split)
+- [2026-06-08-barnes-america-capture-non-intercept-colby-mou.md](../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — companion note (restraint/capture fork split)
 
 **Not in slice 1:** intake-readiness tweak, validator March quote-anchors, Napolitano bulk normalize.
 

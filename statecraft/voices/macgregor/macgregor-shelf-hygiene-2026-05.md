@@ -12,7 +12,7 @@ Current shelf jobs after this pass:
 |---|---|---|
 | [index.md](index.md) | wrapper front door | keep; now routes into `person arc -> routing -> raw-input -> helix -> support spine -> monthly shelves` |
 | [README.md](README.md) | wrapper front door | keep; now mirrors the same stack more clearly |
-| [arc-macgregor-continuity.md](macgregor-arc.md) | person arc | keep as canonical whole-speaker continuity |
+| [macgregor-arc.md](macgregor-arc.md) | person arc | keep as canonical whole-speaker continuity |
 | [macgregor-routing.md](macgregor-routing.md) | routing | keep; fastest host-selection and month-selection surface |
 | [macgregor-source-index.md](macgregor-source-index.md) | source bench | keep; exhaustive raw-input authority |
 | [macgregor-helix.md](macgregor-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
@@ -20,8 +20,8 @@ Current shelf jobs after this pass:
 | [macgregor-monthly-shelves.md](macgregor-monthly-shelves.md) | bounded month layer | keep; native monthly synthesis without chronology takeover |
 | [macgregor-cross-year-note.md](macgregor-cross-year-note.md) | support surface | keep; supports maturity claim, does not replace the helix |
 | [macgregor-surface-orthogonality-2026-05.md](macgregor-surface-orthogonality-2026-05.md) | support audit | keep; good doctrine support, not the only audit |
-| [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) | compatibility residue | keep demoted |
-| [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) | compatibility residue | keep demoted |
+| [macgregor-thread.md](macgregor-thread.md) | compatibility residue | keep demoted |
+| [macgregor-transcript.md](macgregor-transcript.md) | compatibility residue | keep demoted |
 
 ## Structural judgment
 
@@ -29,7 +29,7 @@ The shelf is still best read as a **person arc above a durable double helix with
 
 The changed doctrine is narrower:
 
-- the whole-speaker object lives in [arc-macgregor-continuity.md](macgregor-arc.md)
+- the whole-speaker object lives in [macgregor-arc.md](macgregor-arc.md)
 - the stable host comparison still lives in [macgregor-helix.md](macgregor-helix.md)
 - the current `Diesen + Davis` pairing is still the real canonical core
 - the Napolitano lane is real, but remains auxiliary rather than a third equal strand
@@ -105,11 +105,11 @@ Current boundary reading:
 - [macgregor-helix.md](macgregor-helix.md) remains the comparison surface
 - host-local arcs remain the best place to read transformation by host
 - monthly shelves remain speaker-side synthesis, not source-of-record chronology
-- [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) are safe to keep only if they are visibly demoted
+- [macgregor-thread.md](macgregor-thread.md) and [macgregor-transcript.md](macgregor-transcript.md) are safe to keep only if they are visibly demoted
 
 ## Compatibility judgment
 
-[macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) should remain compatibility residue.
+[macgregor-thread.md](macgregor-thread.md) and [macgregor-transcript.md](macgregor-transcript.md) should remain compatibility residue.
 
 Reason:
 

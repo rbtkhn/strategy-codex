@@ -10,7 +10,7 @@ Marandi is more mature than a thin compatibility shelf and more structurally sta
 
 ## Open First
 
-- [arc-marandi-continuity.md](marandi-arc.md)
+- [marandi-arc.md](marandi-arc.md)
 - [marandi-routing.md](marandi-routing.md)
 - [marandi-source-index.md](marandi-source-index.md)
 - [marandi-helix.md](marandi-helix.md)
@@ -26,7 +26,7 @@ Marandi is more mature than a thin compatibility shelf and more structurally sta
 
 Marandi's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [arc-marandi-continuity.md](marandi-arc.md) is the primary Statecraft Synthesis surface for Marandi continuity across the 2025-present run.
+- **Person arc:** [marandi-arc.md](marandi-arc.md) is the primary Statecraft Synthesis surface for Marandi continuity across the 2025-present run.
 - **Routing surface:** [marandi-routing.md](marandi-routing.md) answers which host lane or source file to open first.
 - **Source index:** [marandi-source-index.md](marandi-source-index.md) is the canonical route map for materialized Marandi appearances.
 - **Cross-host note:** [marandi-helix.md](marandi-helix.md) explains the real host-conditioned structure and the three-host mature core.

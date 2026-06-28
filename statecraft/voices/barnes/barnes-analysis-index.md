@@ -15,7 +15,7 @@ Use these notes when the question is not only `what Barnes files exist?` but als
 
 ## Core shelf surfaces
 
-- [arc-barnes-continuity.md](barnes-arc.md)
+- [barnes-arc.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
 - [barnes-source-index.md](barnes-source-index.md)
 - [barnes-helix.md](barnes-helix.md)

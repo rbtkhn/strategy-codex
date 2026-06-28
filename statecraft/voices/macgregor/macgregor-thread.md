@@ -19,12 +19,12 @@ Compatibility note: this file is a legacy continuity surface from the older expe
 Canonical shelf note: the live Macgregor shelf now opens from [statecraft/voices/macgregor/README.md](README.md). The codex-side arc, routing, raw-input, helix, and support-spine files now resolve through compatibility stubs.
 
 **Status:** compatibility-only continuity residue; not canonical retrieval.
-**Use:** open [arc-macgregor-continuity.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), [macgregor-source-index.md](macgregor-source-index.md), or [macgregor-helix.md](macgregor-helix.md) first unless the task explicitly needs legacy carryover.
+**Use:** open [macgregor-arc.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), [macgregor-source-index.md](macgregor-source-index.md), or [macgregor-helix.md](macgregor-helix.md) first unless the task explicitly needs legacy carryover.
 **Citation hygiene:** any unresolved watch placeholder still visible in the machine layer is non-canonical; raw-input remains the authority until a real watch URL is pinned.
 **Source:** Distilled from recent `thread:macgregor` transcript carryover and related strategy pages.
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion surfaces:** [arc-macgregor-continuity.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), [macgregor-source-index.md](macgregor-source-index.md), and [macgregor-helix.md](macgregor-helix.md).
+**Companion surfaces:** [macgregor-arc.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), [macgregor-source-index.md](macgregor-source-index.md), and [macgregor-helix.md](macgregor-helix.md).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)

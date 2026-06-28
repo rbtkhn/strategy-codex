@@ -4,7 +4,7 @@ Operator-only procedure: separate **private** three-voice (CIV-MIND) processing 
 
 **Upstream corpus:** [civilization_memory](https://github.com/rbtkhn/civilization_memory) (CMC). Full governance templates: [research/repos/civilization_memory/docs/templates/](../../../../research/repos/civilization_memory/docs/templates/). **Default voice stubs for passes:** [../../codex/minds/](../../../../codex/minds) (`CIV-MIND-*.md` trimmed for notebook use).
 
-**Parallel framing:** Month-level polyphony in strategy-notebook [meta.md](../../../../../../codex/chapters/YYYY-MM/meta.md) § Polyphony; Jiang operator layer: [operator-polyphony.md](../../../../codex/predictive-history/operator-polyphony.md). Patterns: [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
+**Parallel framing:** Month-level polyphony in strategy-notebook [meta.md](../../../../../../../codex/chapters/YYYY-MM/meta.md) § Polyphony; Jiang operator layer: [operator-polyphony.md](../../../../codex/predictive-history/operator-polyphony.md). Patterns: [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
 
 ---
 
@@ -84,7 +84,7 @@ flowchart LR
 
 ## Maintenance
 
-When History Notebook arc emphasis or Predictive History queue shifts in a serious way, align **both** [operator-polyphony.md](../../../../codex/predictive-history/operator-polyphony.md) and the active month [meta.md](../../../../../../codex/chapters/YYYY-MM/meta.md) § Polyphony in the same session (parallel to PH maintenance).
+When History Notebook arc emphasis or Predictive History queue shifts in a serious way, align **both** [operator-polyphony.md](../../../../codex/predictive-history/operator-polyphony.md) and the active month [meta.md](../../../../../../../codex/chapters/YYYY-MM/meta.md) § Polyphony in the same session (parallel to PH maintenance).
 
 ---
 

@@ -101,7 +101,7 @@ Best use:
 
 Primary Freeman continuity surface:
 
-- [Freeman arc](arc-freeman-continuity.md)
+- [Freeman arc](freeman-arc.md)
 
 Why it matters:
 

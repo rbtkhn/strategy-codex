@@ -6,7 +6,7 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 ## Open First
 
-- [Speaker arc](arc-mearsheimer-continuity.md)
+- [Speaker arc](mearsheimer-arc.md)
 - [Speaker routing note](mearsheimer-routing.md)
 - [Source index](mearsheimer-source-index.md)
 - [Speaker helix](mearsheimer-helix.md)
@@ -32,7 +32,7 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 Mearsheimer's orthogonality-bearing structure is:
 
-- [Speaker arc](arc-mearsheimer-continuity.md)
+- [Speaker arc](mearsheimer-arc.md)
 - [Speaker routing](mearsheimer-routing.md)
 - [Speaker helix](mearsheimer-helix.md)
 - [Support spine](mearsheimer-support-spine-2025-2026.md)

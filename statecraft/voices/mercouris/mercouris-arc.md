@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-mercouris-continuity.md](../../notes/arc-mercouris-continuity.md)
+**Canonical:** [mercouris-arc.md](../../notes/mercouris-arc.md)
 
 Legacy path: `statecraft/voices/mercouris/mercouris-arc.md` — Pointer only; do not duplicate arc bodies here.

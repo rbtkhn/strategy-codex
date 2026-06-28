@@ -7,7 +7,7 @@ Purpose: front door for the canonical Crooke statecraft shelf, surfacing the per
 ## Open First
 
 - [Speaker profile](crooke-profile.md)
-- [Speaker arc](arc-crooke-continuity.md)
+- [Speaker arc](crooke-arc.md)
 - [Speaker routing note](crooke-routing.md)
 - [Source index](crooke-source-index.md)
 - [Speaker helix note](crooke-helix.md)
@@ -32,8 +32,8 @@ Purpose: front door for the canonical Crooke statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../statecraft/voices/crooke/crooke-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/crooke/crooke-transcript.md)
+- [Thread compatibility file](crooke-thread.md)
+- [Transcript compatibility file](crooke-transcript.md)
 
 ## Monthly Shelf Layer
 

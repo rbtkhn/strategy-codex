@@ -14,7 +14,7 @@ Local surfaces under review:
 - [arc-macgregor-diesen-host.md](../../notes/arc-macgregor-diesen-host.md)
 - [arc-macgregor-napolitano-host.md](../../notes/arc-macgregor-napolitano-host.md)
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
-- [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md)
+- [macgregor-thread.md](macgregor-thread.md)
 
 Bounded claim:
 
@@ -58,7 +58,7 @@ These files are justified only because they stay bounded. If they begin retellin
 
 There is no current canonical topical thread inside the Macgregor shelf. That is still the right choice for now.
 
-The older [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) does not isolate a mechanism that the host arcs, support spine, and monthly synthesis shelves fail to carry. It remains useful only as compatibility continuity.
+The older [macgregor-thread.md](macgregor-thread.md) does not isolate a mechanism that the host arcs, support spine, and monthly synthesis shelves fail to carry. It remains useful only as compatibility continuity.
 
 ## Redundancy findings
 

@@ -31,11 +31,11 @@ If a new Mercouris item can live equally well in several of these without changi
 
 ## Route Stack
 
-- [Mercouris arc](arc-mercouris-continuity.md)
+- [Mercouris arc](mercouris-arc.md)
 - [January setup shelf](mercouris-shelf-2026-01.md)
 - [February bridge shelf](mercouris-shelf-2026-02.md)
 - [March dense-core shelf](mercouris-shelf-2026-03.md)
-- [Mercouris thread](../../../statecraft/voices/mercouris/mercouris-thread.md
+- [Mercouris thread](mercouris-thread.md
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
 - [Diesen x Mercouris host-local arc](../diesen/arc-mercouris-diesen-host.md
@@ -231,4 +231,4 @@ Boundary: This is the arc-thread most likely to become a richer host-local braid
 
 ## Use
 
-Open this file when the question is about durable Mercouris theses across the native stream. Open [arc-mercouris-continuity.md](mercouris-arc.md) when the question is about the bounded arc shape. Open monthly shelves or pages when the question is about sequencing inside a specific date range. Open raw-input before quoting.
+Open this file when the question is about durable Mercouris theses across the native stream. Open [mercouris-arc.md](mercouris-arc.md) when the question is about the bounded arc shape. Open monthly shelves or pages when the question is about sequencing inside a specific date range. Open raw-input before quoting.

@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-mearsheimer-continuity.md](../../notes/arc-mearsheimer-continuity.md)
+**Canonical:** [mearsheimer-arc.md](../../notes/mearsheimer-arc.md)
 
 Legacy path: `statecraft/voices/mearsheimer/mearsheimer-arc.md` — Pointer only; do not duplicate arc bodies here.

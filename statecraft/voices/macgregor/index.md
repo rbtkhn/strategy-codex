@@ -6,7 +6,7 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 
 ## Open First
 
-- [Speaker arc](arc-macgregor-continuity.md) - whole-speaker continuity and the canonical answer to who Macgregor is as a speaker object.
+- [Speaker arc](macgregor-arc.md) - whole-speaker continuity and the canonical answer to who Macgregor is as a speaker object.
 - [Speaker routing note](macgregor-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](macgregor-source-index.md) - exhaustive route map for every resolved Macgregor raw-input appearance currently materialized in the repo.
 - [Speaker helix note](macgregor-helix.md) - why the durable double structure fits together before you descend into one host lane.
@@ -24,8 +24,8 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../statecraft/voices/macgregor/macgregor-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/macgregor/macgregor-transcript.md)
+- [Thread compatibility file](macgregor-thread.md)
+- [Transcript compatibility file](macgregor-transcript.md)
 - [Profile residue](../../../statecraft/voices/macgregor/macgregor-profile.md)
 - [Page template residue](../../../statecraft/voices/macgregor/macgregor-page-template.md)
 

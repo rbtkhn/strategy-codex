@@ -9,9 +9,9 @@ WORK only; not Record.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
 **Status:** compatibility-only verbatim carryover; not canonical retrieval.
 **Canonical shelf:** [statecraft/voices/macgregor/README.md](README.md)
-**Use:** open [macgregor-source-index.md](macgregor-source-index.md), [arc-macgregor-continuity.md](macgregor-arc.md), or [macgregor-routing.md](macgregor-routing.md) first unless the task specifically needs this short-window transcript residue.
+**Use:** open [macgregor-source-index.md](macgregor-source-index.md), [macgregor-arc.md](macgregor-arc.md), or [macgregor-routing.md](macgregor-routing.md) first unless the task specifically needs this short-window transcript residue.
 **Citation hygiene:** unresolved watch placeholders inside this file are non-canonical; raw-input remains the authority until a real watch URL is pinned.
-**Companion surfaces:** [macgregor-source-index.md](macgregor-source-index.md), [arc-macgregor-continuity.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), and [macgregor-thread.md](macgregor-thread.md).
+**Companion surfaces:** [macgregor-source-index.md](macgregor-source-index.md), [macgregor-arc.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), and [macgregor-thread.md](macgregor-thread.md).
 
 ---
 

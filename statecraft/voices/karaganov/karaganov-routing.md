@@ -13,7 +13,7 @@ Karaganov should usually be opened when a crisis needs **internal Russian elite 
 - civilizational doctrine fused with escalation logic
 - pressure-testing Western lanes against what Russian elite discourse actually says
 
-Default host lane: [Diesen x Karaganov](../diesen/arc-karaganov-diesen-host.md).
+Default host lane: [Diesen x Karaganov](../../notes/arc-karaganov-diesen-host.md).
 
 ## Open by task
 
@@ -25,7 +25,7 @@ Default host lane: [Diesen x Karaganov](../diesen/arc-karaganov-diesen-host.md).
 | hard Europe confrontation + nuclear war | [2025-12-25 / Diesen solo (legacy)](../../../codex/years/2025/raw-input/2025-12-25/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) | Strongest direct nuclear-threshold file before 2026 anchor. |
 | why outsiders warn about Karaganov | [2026-01-03 / Ritter reaction](../../../source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md) | Reaction surface — not Karaganov-authored. |
 | provenance map | [karaganov-source-index.md](karaganov-source-index.md) | What exists, archive vs legacy, reaction tier. |
-| host chronology inside Diesen | [arc-karaganov-diesen-host.md](../diesen/arc-karaganov-diesen-host.md) | Ranked arc set and orthogonality vs other Diesen guests. |
+| host chronology inside Diesen | [arc-karaganov-diesen-host.md](../../notes/arc-karaganov-diesen-host.md) | Ranked arc set and orthogonality vs other Diesen guests. |
 
 ## Best paired reads
 

@@ -13,7 +13,7 @@ Purpose: own Crooke's maturity law, month-status law, and the rule for how the c
 
 Quick separation rule:
 
-- [arc-crooke-continuity.md](crooke-arc.md) = whole-speaker continuity
+- [crooke-arc.md](crooke-arc.md) = whole-speaker continuity
 - [crooke-routing.md](crooke-routing.md) = fastest strand, lane, or month selection
 - [crooke-source-index.md](crooke-source-index.md) = source bench
 - [crooke-helix.md](crooke-helix.md) = authored/interview crossing surface

@@ -16,17 +16,17 @@ If a question is about law, host transformation, or canonical routing, route to 
 
 Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Crooke shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [crooke-helix.md](crooke-helix.md, with [crooke-thread-international-law.md](crooke-thread-international-law.md) as one real canonical topical thread. This file is not a second competing topical-thread system.
 
-**Source:** Distilled from [`transcript.md`](transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`transcript.md`](crooke-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
-**Companion files:** [crooke-profile.md](../../profiles/crooke-profile.md (profile) and [crooke-transcript.md](crooke-transcript.md) (7-day verbatim).
+**Companion files:** [crooke-profile.md](../crooke-profile.md (profile) and [crooke-transcript.md](crooke-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Narrative (operator)
 
 _Write here in full sentences. Dated arcs are welcome (e.g. **2026-04-12 ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ 04-15**). Cover: what this voice did this week, how it **intersects** named **pages**, convergence/tension with other **`thread:`** experts, and **Open** pins. The **journal layer** is **not** overwritten by the **`thread`** script._
 
-**Layout:** Stay on **one** [`thread.md`](thread.md) file under `experts/crooke/`. Within the **journal layer**, each **`## YYYY-MM`** heading is a **month segment**. For **2026:** **Segment 1** = January (`## 2026-01`), **Segment 2** = February (`## 2026-02`), **Segment 3** = March (`## 2026-03`), **Segment 4** = April (`## 2026-04`, ongoing). The **machine layer** (script-maintained) is **only** the fenced block between the **strategy-expert-thread** HTML start and end comments ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â do not call that "Segment 2" in the month sense.
+**Layout:** Stay on **one** [`thread.md`](crooke-thread.md) file under `experts/crooke/`. Within the **journal layer**, each **`## YYYY-MM`** heading is a **month segment**. For **2026:** **Segment 1** = January (`## 2026-01`), **Segment 2** = February (`## 2026-02`), **Segment 3** = March (`## 2026-03`), **Segment 4** = April (`## 2026-04`, ongoing). The **machine layer** (script-maintained) is **only** the fenced block between the **strategy-expert-thread** HTML start and end comments ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â do not call that "Segment 2" in the month sense.
 
 _(No narrative distillation yet ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â add prose above the markers, not inside them.)_
 

@@ -6,7 +6,7 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 
 ## Open First
 
-- [Speaker arc](arc-wilkerson-continuity.md)
+- [Speaker arc](wilkerson-arc.md)
 - [Speaker routing note](wilkerson-routing.md)
 - [Wilkerson helix](wilkerson-helix.md)
 - [Wilkerson source index](wilkerson-source-index.md)
@@ -16,7 +16,7 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 
 The orthogonality-bearing structure on this shelf is:
 
-- [arc-wilkerson-continuity.md](wilkerson-arc.md)
+- [wilkerson-arc.md](wilkerson-arc.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-helix.md](wilkerson-helix.md)
 - the two main host arcs plus one auxiliary branch

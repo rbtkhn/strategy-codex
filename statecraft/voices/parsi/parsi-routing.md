@@ -19,7 +19,7 @@ Purpose: fast-routing note for the canonical Parsi shelf.
 - authored/interview crossing
   - open [parsi-helix.md](parsi-helix.md)
 - whole-speaker continuity
-  - open [arc-parsi-continuity.md](parsi-arc.md)
+  - open [parsi-arc.md](parsi-arc.md)
 - recurring continuity family
   - open [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - theme-family routing

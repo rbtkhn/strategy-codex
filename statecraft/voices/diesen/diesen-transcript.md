@@ -7,7 +7,7 @@ WORK only; not Record.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [diesen-profile.md](../../profiles/diesen-profile.md (profile) and [diesen-thread.md](diesen-thread.md) (distilled thread).
+**Companion files:** [diesen-profile.md](../diesen-profile.md (profile) and [diesen-thread.md](diesen-thread.md) (distilled thread).
 
 ---
 

@@ -9,7 +9,7 @@ Use it for speaker identity, authored forecast mechanism, interview-pressure tra
 ## Open First
 
 - [Speaker profile](pape-profile.md) — identity, voice fingerprint, convergence/tension, links hub
-- [arc-pape-continuity.md](pape-arc.md)
+- [pape-arc.md](pape-arc.md)
 - [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) — China industrial AI / Wuhan model (field-observation strand); chronology in [trend-china-ai-implementation.md](../../notes/trend-china-ai-implementation.md)
 - [pape-routing.md](pape-routing.md)
 - [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
@@ -22,7 +22,7 @@ Pape's canonical statecraft shelf is a **cross-context exception shelf**, not a 
 
 Its main speaker-owned layers are:
 
-- **Person arc:** [arc-pape-continuity.md](pape-arc.md)
+- **Person arc:** [pape-arc.md](pape-arc.md)
 - **Routing surface:** [pape-routing.md](pape-routing.md)
 - **Authored forecast spine:** [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
 - **Exhaustive corpus index:** [pape-index.md](pape-index.md) — all authored essays + guest appearances on disk

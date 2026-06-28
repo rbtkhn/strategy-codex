@@ -19,7 +19,7 @@ Live 2026 ladder:
 
 Inner continuity surfaces:
 
-- [arc-mercouris-continuity.md](mercouris-arc.md)
+- [mercouris-arc.md](mercouris-arc.md)
 - [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md)
 
 Rule:

@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-pape-continuity.md](../../notes/arc-pape-continuity.md)
+**Canonical:** [pape-arc.md](../../notes/pape-arc.md)
 
 Legacy path: `statecraft/voices/pape/pape-arc.md` — Pointer only; do not duplicate arc bodies here.

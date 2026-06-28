@@ -15,7 +15,7 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [arc-macgregor-continuity.md](macgregor-arc.md) = whole-speaker continuity
+- [macgregor-arc.md](macgregor-arc.md) = whole-speaker continuity
 - [macgregor-routing.md](macgregor-routing.md) = fastest lane or month selection
 - [macgregor-source-index.md](macgregor-source-index.md) = source bench
 - [macgregor-helix.md](macgregor-helix.md) = cross-host comparison

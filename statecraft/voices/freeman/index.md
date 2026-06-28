@@ -6,7 +6,7 @@ Purpose: front door for the canonical Freeman statecraft shelf, surfacing the pe
 
 ## Open First
 
-- [Speaker arc](arc-freeman-continuity.md) - whole-speaker continuity and the canonical answer to who Freeman is as a speaker object.
+- [Speaker arc](freeman-arc.md) - whole-speaker continuity and the canonical answer to who Freeman is as a speaker object.
 - [Speaker routing note](freeman-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](freeman-source-index.md) - exhaustive route map for materialized Freeman appearances currently in the repo.
 - [Speaker helix note](freeman-helix.md) - why the four core host lanes, non-core bench, and month ladder fit together before you descend into one lane.
@@ -29,8 +29,8 @@ Purpose: front door for the canonical Freeman statecraft shelf, surfacing the pe
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../statecraft/voices/freeman/freeman-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/freeman/freeman-transcript.md)
+- [Thread compatibility file](freeman-thread.md)
+- [Transcript compatibility file](freeman-transcript.md)
 - [Profile residue](../../../statecraft/voices/freeman/freeman-profile.md)
 - [Page template residue](../../../statecraft/voices/freeman/freeman-page-template.md)
 

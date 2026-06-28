@@ -7,7 +7,7 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 ## Open First
 
 - [Speaker profile](ritter-profile.md)
-- [Speaker arc](arc-ritter-continuity.md) - whole-speaker continuity and the canonical answer to who Ritter is as a speaker object.
+- [Speaker arc](ritter-arc.md) - whole-speaker continuity and the canonical answer to who Ritter is as a speaker object.
 - [Speaker routing note](ritter-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](ritter-source-index.md) - exhaustive route map for every resolved Ritter raw-input appearance currently materialized in the repo.
 - [Speaker helix note](ritter-helix.md) - why the host triple helix and authored/interview split fit together before you descend into one lane.
@@ -25,9 +25,9 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](../../../statecraft/voices/ritter/ritter-thread.md)
-- [Transcript compatibility file](../../../statecraft/voices/ritter/ritter-transcript.md)
-- [Legacy page and manifest residue](../../../statecraft/voices/ritter/stream)
+- [Thread compatibility file](ritter-thread.md)
+- [Transcript compatibility file](ritter-transcript.md)
+- [Legacy page and manifest residue](ritter-routing.md)
 
 ## Monthly Shelf Layer
 

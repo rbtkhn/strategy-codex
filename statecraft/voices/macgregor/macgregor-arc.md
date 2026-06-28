@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-macgregor-continuity.md](../../notes/arc-macgregor-continuity.md)
+**Canonical:** [macgregor-arc.md](../../notes/macgregor-arc.md)
 
 Legacy path: `statecraft/voices/macgregor/macgregor-arc.md` — Pointer only; do not duplicate arc bodies here.

@@ -12,7 +12,7 @@ Purpose: own Freeman's maturity law, month-status law, and the rule for how the 
 
 Quick separation rule:
 
-- [arc-freeman-continuity.md](freeman-arc.md) = whole-speaker continuity
+- [freeman-arc.md](freeman-arc.md) = whole-speaker continuity
 - [freeman-routing.md](freeman-routing.md) = fastest lane or month selection
 - [freeman-source-index.md](freeman-source-index.md) = source bench
 - [freeman-helix.md](freeman-helix.md) = cross-host comparison

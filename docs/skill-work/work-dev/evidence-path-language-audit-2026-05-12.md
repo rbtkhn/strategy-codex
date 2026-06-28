@@ -29,7 +29,7 @@ The sharpest risk is class 3, because it teaches operators to look at the wrong 
 
 These already tell the right authority story:
 
-- [self-evidence.md](../../../self-evidence.md)
+- [self-evidence.md](../../../archive/grace-mar-instance/self-evidence.md)
 - [canonical-paths.md](../../canonical-paths.md)
 - [instance-doctrine.md](../../../instance-doctrine.md)
 - [architecture.md](../../architecture.md)

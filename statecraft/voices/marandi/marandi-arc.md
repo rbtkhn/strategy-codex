@@ -2,6 +2,6 @@
 
 WORK only; not Record.
 
-**Canonical:** [arc-marandi-continuity.md](../../notes/arc-marandi-continuity.md)
+**Canonical:** [marandi-arc.md](../../notes/marandi-arc.md)
 
 Legacy path: `statecraft/voices/marandi/marandi-arc.md` — Pointer only; do not duplicate arc bodies here.

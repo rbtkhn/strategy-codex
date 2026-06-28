@@ -94,7 +94,7 @@ If any item fails â†’ reject, narrow the brief, or add mitigations before t
 - **Commit hygiene:** When updating the design system, commit `DESIGN.md` changes with the artifact or a clear operator note.
 - **Artifact storage (operator):** Final exports and working files live under [`runtime/artifacts/creative/`](../../../runtime/artifacts/creative/) (see folder README). Optional subfolder `portfolio/` for job- or partner-facing bundles.
 
-**Not** under `self-archive/placeholders/evidence/` as a fake evidence tree â€” canonical EVIDENCE remains [`self-archive.md`](../../../self-archive.md) per [canonical-paths.md](../../canonical-paths.md).
+**Not** under `self-archive/placeholders/evidence/` as a fake evidence tree â€” canonical EVIDENCE remains [`self-archive.md`](../../../archive/grace-mar-instance/self-archive.md) per [canonical-paths.md](../../canonical-paths.md).
 
 ---
 

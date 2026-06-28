@@ -8,7 +8,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 ## Open First
 
-- [arc-macgregor-continuity.md](macgregor-arc.md)
+- [macgregor-arc.md](macgregor-arc.md)
 - [macgregor-routing.md](macgregor-routing.md)
 - [macgregor-source-index.md](macgregor-source-index.md)
 - [macgregor-helix.md](macgregor-helix.md)
@@ -22,7 +22,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 Macgregor's canonical structure now has four speaker-owned layers:
 
-- **Person arc:** [arc-macgregor-continuity.md](macgregor-arc.md) holds whole-speaker continuity across hosts, contexts, and time.
+- **Person arc:** [macgregor-arc.md](macgregor-arc.md) holds whole-speaker continuity across hosts, contexts, and time.
 - **Routing surface:** [macgregor-routing.md](macgregor-routing.md) answers which host lane or monthly shelf to open first.
 - **Source index:** [macgregor-source-index.md](macgregor-source-index.md) remains the exhaustive route map for materialized Macgregor appearances.
 - **Crossing surface:** [macgregor-helix.md](macgregor-helix.md) explains the durable `Diesen + Davis` double-helix and the auxiliary Napolitano branch.
@@ -57,7 +57,7 @@ The legacy `statecraft/voices/macgregor/` path is now compatibility-only.
 
 - [statecraft/voices/macgregor/README.md](../../../statecraft/voices/macgregor/README.md) and [index.md](../../../statecraft/voices/macgregor/index.md) are front-door pointers.
 - codex-side stubs preserve compatibility for older references to moved canonical files.
-- [macgregor-thread.md](../../../statecraft/voices/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../statecraft/voices/macgregor/macgregor-transcript.md) remain compatibility residue, not competing canonical surfaces.
+- [macgregor-thread.md](macgregor-thread.md) and [macgregor-transcript.md](macgregor-transcript.md) remain compatibility residue, not competing canonical surfaces.
 
 ## Host Lanes
 

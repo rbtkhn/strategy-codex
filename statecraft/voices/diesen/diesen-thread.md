@@ -19,7 +19,7 @@ Compatibility note: this file is a **legacy host-continuity compatibility surfac
 **Source:** Distilled from [`strategy-expert-diesen-transcript.md`](strategy-expert-diesen-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [diesen-profile.md](../../profiles/diesen-profile.md (profile) and [diesen-transcript.md](diesen-transcript.md) (7-day verbatim).
+**Companion files:** [diesen-profile.md](../diesen-profile.md (profile) and [diesen-transcript.md](diesen-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)

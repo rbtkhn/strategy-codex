@@ -6,4 +6,4 @@ WORK only; not Record.
 
 When copying from the canonical template, substitute **`jiang`** everywhere that file uses the literal token `{expert_id}` (preambles, filenames, `thread:` lines, appendix grep hints).
 
-This stub keeps **`Template:`** lines in [`transcript.md`](transcript.md) and older links working.
+This stub keeps **`Template:`** lines in [`transcript.md`](jiang-transcript.md) and older links working.

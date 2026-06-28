@@ -4,7 +4,7 @@
 
 | ID | Surface | Status source | Notes |
 |----|---------|---------------|-------|
-| `openclaw_stage` | Staging / gate | [openclaw-integration.md](openclaw-integration.md) | Handback path |
+| `openclaw_stage` | Staging / gate | [openclaw-integration.md](../../openclaw-integration.md) | Handback path |
 | `continuity_read` | Session continuity | [continuity-log.jsonl](continuity-log.jsonl) | Proof-of-read |
 | `sandbox_adapter` | Sandboxed execution | [sandbox-adapter spec](sandbox-adapter.md) | Governance at boundary |
 

@@ -255,7 +255,7 @@
 
 ## VII. Index & cross-links
 
-- **Companion Record (gated):** [`self.md`](../../../archive/grace-mar-instance/self.md), [`self-archive.md`](../../../self-archive.md) â€” conceptual; no automatic merge from this doc  
+- **Companion Record (gated):** [`self.md`](../../../archive/grace-mar-instance/self.md), [`self-archive.md`](../../../archive/grace-mar-instance/self-archive.md) â€” conceptual; no automatic merge from this doc  
 - **Gate:** [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md)  
 - **CMC stewardship:** [work-civ-mem README](../work-civ-mem/README.md)  
 - **External corpus:** [civilization_memory repo](../../../research/repos/civilization_memory/) (read-only reference unless contributing upstream)  

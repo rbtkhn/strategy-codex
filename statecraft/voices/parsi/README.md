@@ -9,7 +9,7 @@ Use it for speaker identity, authored/interview crossing, cross-context thread r
 ## Open First
 
 - [Speaker profile](parsi-profile.md) — identity, voice fingerprint, convergence/tension, links hub
-- [arc-parsi-continuity.md](parsi-arc.md)
+- [parsi-arc.md](parsi-arc.md)
 - [parsi-routing.md](parsi-routing.md)
 - [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - [parsi-source-index.md](parsi-source-index.md)
@@ -28,7 +28,7 @@ Parsi's canonical statecraft shelf is a **normalized cross-context shelf**, not 
 
 Its main speaker-owned layers are:
 
-- **Person arc:** [arc-parsi-continuity.md](parsi-arc.md)
+- **Person arc:** [parsi-arc.md](parsi-arc.md)
 - **Routing surface:** [parsi-routing.md](parsi-routing.md)
 - **Recurring thread atlas:** [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md)
 - **Authored/interview crossing:** [parsi-helix.md](parsi-helix.md)

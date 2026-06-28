@@ -10,7 +10,7 @@ Compatibility note: any unresolved watch placeholders that survive inside rolled
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [ritter-profile.md](../../profiles/ritter-profile.md (profile), [ritter-thread.md](ritter-thread.md) (legacy continuity thread), and [statecraft/voices/ritter/README.md](README.md) (canonical Ritter shelf front door).
+**Companion files:** [ritter-profile.md](../ritter-profile.md (profile), [ritter-thread.md](ritter-thread.md) (legacy continuity thread), and [statecraft/voices/ritter/README.md](README.md) (canonical Ritter shelf front door).
 
 ---
 

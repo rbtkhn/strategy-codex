@@ -15,7 +15,7 @@ This support spine owns four notebook jobs:
 
 Quick separation rule:
 
-- [arc-ritter-continuity.md](ritter-arc.md) = whole-speaker continuity
+- [ritter-arc.md](ritter-arc.md) = whole-speaker continuity
 - [ritter-routing.md](ritter-routing.md) = fastest lane or month selection
 - [ritter-source-index.md](ritter-source-index.md) = source bench
 - [ritter-helix.md](ritter-helix.md) = cross-host comparison
