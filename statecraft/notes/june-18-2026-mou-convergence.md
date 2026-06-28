@@ -1,3 +1,21 @@
+---
+note_id: june-18-2026-mou-convergence
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
+  - source-archive/statecraft/2026-06-18/
+  - source-archive/statecraft/2026-06-11/source-dialogue-works-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md
+  - source-archive/statecraft/2026-06-16/source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md
+  - source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md
+  - source-archive/statecraft/2026-06-11/source-dialogue-works-alex-krainer-us-strikes-iran-retaliates-kuwait-bahrain-jordan-2026-06-11.md
+  - source-archive/statecraft/2026-06-18/README.md
+  - source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md
+---
 WORK only; not Record.
 
 # June 18, 2026 MOU Convergence

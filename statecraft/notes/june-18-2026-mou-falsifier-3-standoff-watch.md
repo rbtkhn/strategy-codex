@@ -1,3 +1,18 @@
+---
+note_id: june-18-2026-mou-falsifier-3-standoff-watch
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
+  - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
+---
 WORK only; not Record.
 
 # J18 MOU — Falsifier #3 standoff fuse watch

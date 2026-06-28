@@ -1,3 +1,20 @@
+---
+note_id: june-18-2026-mou-material-vs-sabotage-lens
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
+  - source-archive/statecraft/2026-06-18/source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-judging-freedom-blumenthal-israel-in-panic-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-lascaris-henningsen-war-on-iran-far-from-over-2026-06-18.md
+  - source-archive/statecraft/2026-06-16/source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md
+  - source-archive/statecraft/2026-06-18/README.md
+---
 WORK only; not Record.
 
 # June 18, 2026 MOU — Material Ceiling vs Sabotage Register

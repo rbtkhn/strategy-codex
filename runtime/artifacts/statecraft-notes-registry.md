@@ -165,13 +165,6 @@ python3 scripts/reindex_notes.py
 | jiang-ph-civ-correspondence-june-1-2026 |  |  | false |  | A | [jiang-ph-civ-correspondence-june-1-2026](../../statecraft/notes/jiang-ph-civ-correspondence-june-1-2026.md) |
 | jiang-vs-johnson-2026-05 |  |  | false |  | A | [jiang-vs-johnson-2026-05](../../statecraft/notes/jiang-vs-johnson-2026-05.md) |
 | jiang-vs-johnson-others-2026-05 |  |  | false |  | A | [jiang-vs-johnson-others-2026-05](../../statecraft/notes/jiang-vs-johnson-others-2026-05.md) |
-| june-17-2026-mou-dem-co-ownership-torpedo-note |  |  | false |  | A | [june-17-2026-mou-dem-co-ownership-torpedo-note](../../statecraft/notes/june-17-2026-mou-dem-co-ownership-torpedo-note.md) |
-| june-18-2026-mou-convergence |  |  | false |  | A | [june-18-2026-mou-convergence](../../statecraft/notes/june-18-2026-mou-convergence.md) |
-| june-18-2026-mou-dahhiya-backfire-mou-terms-note |  |  | false |  | A | [june-18-2026-mou-dahhiya-backfire-mou-terms-note](../../statecraft/notes/june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) |
-| june-18-2026-mou-falsifier-3-standoff-watch |  |  | false |  | A | [june-18-2026-mou-falsifier-3-standoff-watch](../../statecraft/notes/june-18-2026-mou-falsifier-3-standoff-watch.md) |
-| june-18-2026-mou-guest-pair-citation-split |  |  | false |  | A | [june-18-2026-mou-guest-pair-citation-split](../../statecraft/notes/june-18-2026-mou-guest-pair-citation-split.md) |
-| june-18-2026-mou-hormuz-governance-armistice-note |  |  | false |  | A | [june-18-2026-mou-hormuz-governance-armistice-note](../../statecraft/notes/june-18-2026-mou-hormuz-governance-armistice-note.md) |
-| june-18-2026-mou-material-vs-sabotage-lens |  |  | false |  | A | [june-18-2026-mou-material-vs-sabotage-lens](../../statecraft/notes/june-18-2026-mou-material-vs-sabotage-lens.md) |
 | june-19-2026-moonshots-export-control-sovereign-ai-crossover |  |  | false |  | A | [june-19-2026-moonshots-export-control-sovereign-ai-crossover](../../statecraft/notes/june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
 | june-2026-opening-watchlist |  |  | false |  | A | [june-2026-opening-watchlist](../../statecraft/notes/june-2026-opening-watchlist.md) |
 | june-2026-vance-lightning-rod-rubio-optionality-note |  |  | false |  | A | [june-2026-vance-lightning-rod-rubio-optionality-note](../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md) |
@@ -219,7 +212,6 @@ python3 scripts/reindex_notes.py
 | statecraft-participant-index-audit-2026-06-03 |  |  | false |  | A | [statecraft-participant-index-audit-2026-06-03](../../statecraft/notes/statecraft-participant-index-audit-2026-06-03.md) |
 | statecraft-v1-upgrade-plan-2026-05-25 |  |  | false |  | A | [statecraft-v1-upgrade-plan-2026-05-25](../../statecraft/notes/statecraft-v1-upgrade-plan-2026-05-25.md) |
 | taiwan-inspection-pressure-without-blockade-ownership |  |  | false |  | A | [taiwan-inspection-pressure-without-blockade-ownership](../../statecraft/notes/taiwan-inspection-pressure-without-blockade-ownership.md) |
-| us-israel-military-integration-captured-command-risk |  |  | false |  | A | [us-israel-military-integration-captured-command-risk](../../statecraft/notes/us-israel-military-integration-captured-command-risk.md) |
 | week-hinge-start-here |  |  | false |  | B | [week-hinge-start-here](../../statecraft/notes/reentry/_templates/week-hinge-start-here.md) |
 | weichert-on-ai |  |  | false |  | A | [weichert-on-ai](../../statecraft/notes/weichert-on-ai.md) |
 | wilkerson-april-2026-contradiction-audit |  |  | false |  | A | [wilkerson-april-2026-contradiction-audit](../../statecraft/notes/wilkerson-april-2026-contradiction-audit.md) |
@@ -328,11 +320,19 @@ python3 scripts/reindex_notes.py
 | arc-wilkerson-napolitano-host | arc |  | false |  | A | [arc-wilkerson-napolitano-host](../../statecraft/notes/arc-wilkerson-napolitano-host.md) |
 | arc-wilkerson-nima-host | arc |  | false |  | A | [arc-wilkerson-nima-host](../../statecraft/notes/arc-wilkerson-nima-host.md) |
 | barnes-johnson-aguilar-kent-on-section-224 | compare | shelf-native | false | mixed | A | [barnes-johnson-aguilar-kent-on-section-224](../../statecraft/notes/barnes-johnson-aguilar-kent-on-section-224.md) |
+| june-18-2026-mou-guest-pair-citation-split | compare | shelf-native | false | mixed | A | [june-18-2026-mou-guest-pair-citation-split](../../statecraft/notes/june-18-2026-mou-guest-pair-citation-split.md) |
+| june-18-2026-mou-material-vs-sabotage-lens | compare | shelf-native | false | source-archive | A | [june-18-2026-mou-material-vs-sabotage-lens](../../statecraft/notes/june-18-2026-mou-material-vs-sabotage-lens.md) |
 | conflict-iran-mou-theater | conflict | shelf-native | false | mixed | A | [conflict-iran-mou-theater](../../statecraft/notes/conflict-iran-mou-theater.md) |
 | formal-sovereignty-vs-internal-carriage | mechanism | shelf-native | true | mixed | A | [formal-sovereignty-vs-internal-carriage](../../statecraft/notes/formal-sovereignty-vs-internal-carriage.md) |
+| june-17-2026-mou-dem-co-ownership-torpedo-note | mechanism | shelf-native | false | source-archive | A | [june-17-2026-mou-dem-co-ownership-torpedo-note](../../statecraft/notes/june-17-2026-mou-dem-co-ownership-torpedo-note.md) |
+| june-18-2026-mou-dahhiya-backfire-mou-terms-note | mechanism | shelf-native | false | source-archive | A | [june-18-2026-mou-dahhiya-backfire-mou-terms-note](../../statecraft/notes/june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) |
+| june-18-2026-mou-falsifier-3-standoff-watch | mechanism | shelf-native | false | source-archive | A | [june-18-2026-mou-falsifier-3-standoff-watch](../../statecraft/notes/june-18-2026-mou-falsifier-3-standoff-watch.md) |
+| june-18-2026-mou-hormuz-governance-armistice-note | mechanism | shelf-native | false | source-archive | A | [june-18-2026-mou-hormuz-governance-armistice-note](../../statecraft/notes/june-18-2026-mou-hormuz-governance-armistice-note.md) |
+| us-israel-military-integration-captured-command-risk | mechanism | shelf-native | false | source-archive | A | [us-israel-military-integration-captured-command-risk](../../statecraft/notes/us-israel-military-integration-captured-command-risk.md) |
 | risk-artificial-intelligence | risk |  | false |  | A | [risk-artificial-intelligence](../../statecraft/notes/risk-artificial-intelligence.md) |
-| risk-hormuz-chokepoint | risk |  | false |  | A | [risk-hormuz-chokepoint](../../statecraft/notes/risk-hormuz-chokepoint.md) |
-| risk-mou-enforcement | risk |  | false |  | A | [risk-mou-enforcement](../../statecraft/notes/risk-mou-enforcement.md) |
+| risk-hormuz-chokepoint | risk | shelf-native | false | source-archive | A | [risk-hormuz-chokepoint](../../statecraft/notes/risk-hormuz-chokepoint.md) |
+| risk-mou-enforcement | risk | shelf-native | false | source-archive | A | [risk-mou-enforcement](../../statecraft/notes/risk-mou-enforcement.md) |
+| june-18-2026-mou-convergence | synthesis | shelf-native | false | source-archive | A | [june-18-2026-mou-convergence](../../statecraft/notes/june-18-2026-mou-convergence.md) |
 | thread-jermy-2025-11-06-to-2025-11-14-pokrovsk | thread |  | false |  | A | [thread-jermy-2025-11-06-to-2025-11-14-pokrovsk](../../statecraft/notes/thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md) |
 | thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap | thread |  | false |  | A | [thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap](../../statecraft/notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) |
 | trend-china-ai-implementation | trend | shelf-native | false | mixed | A | [trend-china-ai-implementation](../../statecraft/notes/trend-china-ai-implementation.md) |

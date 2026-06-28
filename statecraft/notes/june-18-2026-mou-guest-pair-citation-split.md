@@ -1,3 +1,18 @@
+---
+note_id: june-18-2026-mou-guest-pair-citation-split
+note_type: compare
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-judging-freedom-blumenthal-israel-in-panic-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/README.md
+---
 WORK only; not Record.
 
 # June 18, 2026 MOU Guest-Pair Citation Split

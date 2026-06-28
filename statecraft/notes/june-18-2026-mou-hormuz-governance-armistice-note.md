@@ -1,3 +1,19 @@
+---
+note_id: june-18-2026-mou-hormuz-governance-armistice-note
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
+  - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md
+  - source-archive/statecraft/2026-06-18/source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md
+---
 WORK only; not Record.
 
 # June 18, 2026 MOU — Hormuz governance vs armistice seam
