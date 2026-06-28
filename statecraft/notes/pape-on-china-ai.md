@@ -1,3 +1,16 @@
+---
+note_id: pape-on-china-ai
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md
+  - source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md
+  - source-archive/statecraft/2026-05-14/source-pape-its-getting-late-early-for-trump-2026-05-14.md
+---
 WORK only; not Record.
 
 # Pape on China AI

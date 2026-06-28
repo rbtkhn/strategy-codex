@@ -1,3 +1,15 @@
+---
+note_id: weichert-on-ai
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md
+  - source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md
+---
 WORK only; not Record.
 
 # Weichert on AI

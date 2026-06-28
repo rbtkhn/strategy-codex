@@ -1,3 +1,18 @@
+---
+note_id: gulf-ai-architecture
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md
+  - source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md
+  - source-archive/statecraft/2026-05-21/source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md
+  - source-archive/statecraft/2026-05-09/source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md
+  - source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md
+---
 WORK only; not Record.
 
 # Gulf AI architecture

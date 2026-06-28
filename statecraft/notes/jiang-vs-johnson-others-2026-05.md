@@ -1,3 +1,19 @@
+---
+note_id: jiang-vs-johnson-others-2026-05
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-21/source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md
+  - source-archive/statecraft/2026-05-21/source-judging-freedom-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md
+  - source-archive/statecraft/2026-05-21/source-dialogue-works-alex-krainer-the-middle-east-and-europe-just-shifted-overnight-2026-05-21.md
+  - source-archive/statecraft/2026-05-21/source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md
+  - source-archive/statecraft/2026-05-21/source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md
+  - source-archive/statecraft/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md
+---
 # Jiang vs Johnson - Where Other Speakers Stand (May 2026)
 
 WORK only; not Record.

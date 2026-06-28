@@ -1,3 +1,18 @@
+---
+note_id: ritter-on-ai
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md
+  - source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md
+  - source-archive/statecraft/2026-05-26/source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md
+  - source-archive/statecraft/2026-04-13/source-ritter-blasphemy-american-style-2026-04-13.md
+---
 WORK only; not Record.
 
 # Ritter on AI

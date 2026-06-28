@@ -24,7 +24,6 @@ python3 scripts/reindex_notes.py
 | 2026-02-03-news-verify-matrix |  |  | false |  | B | [2026-02-03-news-verify-matrix](../../statecraft/notes/wire/2026-02-03-news-verify-matrix.md) |
 | 2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week |  |  | false |  | A | [2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week](../../statecraft/notes/2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) |
 | 2026-02-17-geneva-day-weave-helmer-mercouris |  |  | false |  | A | [2026-02-17-geneva-day-weave-helmer-mercouris](../../statecraft/notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) |
-| 2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer |  |  | false |  | A | [2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer](../../statecraft/notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) |
 | 2026-02-17-news-verify-matrix |  |  | false |  | B | [2026-02-17-news-verify-matrix](../../statecraft/notes/wire/2026-02-17-news-verify-matrix.md) |
 | 2026-02-28-pape-crooke-opening-strike-bench-weave |  |  | false |  | A | [2026-02-28-pape-crooke-opening-strike-bench-weave](../../statecraft/notes/2026-02-28-pape-crooke-opening-strike-bench-weave.md) |
 | 2026-02-28-pape-smart-bomb-trap-trilogy-weave |  |  | false |  | A | [2026-02-28-pape-smart-bomb-trap-trilogy-weave](../../statecraft/notes/2026-02-28-pape-smart-bomb-trap-trilogy-weave.md) |
@@ -47,7 +46,6 @@ python3 scripts/reindex_notes.py
 | 2026-03-18-to-2026-04-28-jermy-iran-energy-arc-weave |  |  | false |  | A | [2026-03-18-to-2026-04-28-jermy-iran-energy-arc-weave](../../statecraft/notes/2026-03-18-to-2026-04-28-jermy-iran-energy-arc-weave.md) |
 | 2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice |  |  | false |  | A | [2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice](../../statecraft/notes/2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) |
 | 2026-03-23-postol-vs-ritter-implementation-battlefield |  |  | false |  | A | [2026-03-23-postol-vs-ritter-implementation-battlefield](../../statecraft/notes/2026-03-23-postol-vs-ritter-implementation-battlefield.md) |
-| 2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave |  |  | false |  | A | [2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave](../../statecraft/notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) |
 | 2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge |  |  | false |  | A | [2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge](../../statecraft/notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) |
 | 2026-03-24-news-verify-matrix |  |  | false |  | B | [2026-03-24-news-verify-matrix](../../statecraft/notes/wire/2026-03-24-news-verify-matrix.md) |
 | 2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge |  |  | false |  | A | [2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge](../../statecraft/notes/2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge.md) |
@@ -143,7 +141,6 @@ python3 scripts/reindex_notes.py
 | april-2026-wilkerson-intake-sequence-postmortem |  |  | false |  | A | [april-2026-wilkerson-intake-sequence-postmortem](../../statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md) |
 | archive-truth-floor-repair-routing-2026-06-01 |  |  | false |  | A | [archive-truth-floor-repair-routing-2026-06-01](../../statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md) |
 | assistant-session-state-clarity-contract |  |  | false |  | A | [assistant-session-state-clarity-contract](../../statecraft/notes/assistant-session-state-clarity-contract.md) |
-| barnes-on-ai |  |  | false |  | A | [barnes-on-ai](../../statecraft/notes/barnes-on-ai.md) |
 | baud-crooke-international-law-orthogonality-2026-05 |  |  | false |  | A | [baud-crooke-international-law-orthogonality-2026-05](../../statecraft/notes/baud-crooke-international-law-orthogonality-2026-05.md) |
 | china-ai-implementation-watch |  |  | false |  | A | [china-ai-implementation-watch](../../statecraft/notes/china-ai-implementation-watch.md) |
 | conductor-gap-audit-2026-05-21-06-07 |  |  | false |  | A | [conductor-gap-audit-2026-05-21-06-07](../../statecraft/notes/conductor-gap-audit-2026-05-21-06-07.md) |
@@ -153,24 +150,17 @@ python3 scripts/reindex_notes.py
 | digital-identity-continuity-before-platform-control |  |  | false |  | A | [digital-identity-continuity-before-platform-control](../../statecraft/notes/digital-identity-continuity-before-platform-control.md) |
 | february-2026-benchmark-note |  |  | false |  | A | [february-2026-benchmark-note](../../statecraft/notes/february-2026-benchmark-note.md) |
 | foreign-client-mesh-separation-and-command-review |  |  | false |  | A | [foreign-client-mesh-separation-and-command-review](../../statecraft/notes/foreign-client-mesh-separation-and-command-review.md) |
-| gulf-ai-architecture |  |  | false |  | A | [gulf-ai-architecture](../../statecraft/notes/gulf-ai-architecture.md) |
 | hormuz-recognition-transit-transaction |  |  | false |  | A | [hormuz-recognition-transit-transaction](../../statecraft/notes/hormuz-recognition-transit-transaction.md) |
 | instrument-bench-maturity-audit |  |  | false |  | A | [instrument-bench-maturity-audit](../../statecraft/notes/instrument-bench-maturity-audit.md) |
 | intake-digest-TEMPLATE |  |  | false |  | B | [intake-digest-TEMPLATE](../../statecraft/notes/intake/intake-digest-TEMPLATE.md) |
 | internal-vs-public-vocabulary |  |  | false |  | A | [internal-vs-public-vocabulary](../../statecraft/notes/internal-vs-public-vocabulary.md) |
-| iran-war-inquiry-ladder-stress-test |  |  | false |  | A | [iran-war-inquiry-ladder-stress-test](../../statecraft/notes/iran-war-inquiry-ladder-stress-test.md) |
 | january-2026-benchmark-note |  |  | false |  | A | [january-2026-benchmark-note](../../statecraft/notes/january-2026-benchmark-note.md) |
-| jiang-on-ai |  |  | false |  | A | [jiang-on-ai](../../statecraft/notes/jiang-on-ai.md) |
 | jiang-on-china-ai |  |  | false |  | A | [jiang-on-china-ai](../../statecraft/notes/jiang-on-china-ai.md) |
 | jiang-ph-civ-correspondence-june-1-2026 |  |  | false |  | A | [jiang-ph-civ-correspondence-june-1-2026](../../statecraft/notes/jiang-ph-civ-correspondence-june-1-2026.md) |
-| jiang-vs-johnson-2026-05 |  |  | false |  | A | [jiang-vs-johnson-2026-05](../../statecraft/notes/jiang-vs-johnson-2026-05.md) |
-| jiang-vs-johnson-others-2026-05 |  |  | false |  | A | [jiang-vs-johnson-others-2026-05](../../statecraft/notes/jiang-vs-johnson-others-2026-05.md) |
-| june-19-2026-moonshots-export-control-sovereign-ai-crossover |  |  | false |  | A | [june-19-2026-moonshots-export-control-sovereign-ai-crossover](../../statecraft/notes/june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
 | june-2026-opening-watchlist |  |  | false |  | A | [june-2026-opening-watchlist](../../statecraft/notes/june-2026-opening-watchlist.md) |
 | june-2026-vance-lightning-rod-rubio-optionality-note |  |  | false |  | A | [june-2026-vance-lightning-rod-rubio-optionality-note](../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md) |
 | kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06 |  |  | false |  | A | [kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06](../../statecraft/notes/kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md) |
 | lebanon-third-party-recognition-gate-transaction |  |  | false |  | A | [lebanon-third-party-recognition-gate-transaction](../../statecraft/notes/lebanon-third-party-recognition-gate-transaction.md) |
-| march-2026-benchmark-note |  |  | false |  | A | [march-2026-benchmark-note](../../statecraft/notes/march-2026-benchmark-note.md) |
 | march-2026-closure-method-application |  |  | false |  | A | [march-2026-closure-method-application](../../statecraft/notes/march-2026-closure-method-application.md) |
 | may-2026-closure-method-application |  |  | false |  | A | [may-2026-closure-method-application](../../statecraft/notes/may-2026-closure-method-application.md) |
 | may-2026-speaker-watchlist |  |  | false |  | A | [may-2026-speaker-watchlist](../../statecraft/notes/may-2026-speaker-watchlist.md) |
@@ -190,21 +180,17 @@ python3 scripts/reindex_notes.py
 | mercouris-november-2025-repair-note |  |  | false |  | A | [mercouris-november-2025-repair-note](../../statecraft/notes/mercouris-november-2025-repair-note.md) |
 | mercouris-october-2025-repair-note |  |  | false |  | A | [mercouris-october-2025-repair-note](../../statecraft/notes/mercouris-october-2025-repair-note.md) |
 | mercouris-september-2025-repair-note |  |  | false |  | A | [mercouris-september-2025-repair-note](../../statecraft/notes/mercouris-september-2025-repair-note.md) |
-| minab-palantir-four-voice-compare |  |  | false |  | A | [minab-palantir-four-voice-compare](../../statecraft/notes/minab-palantir-four-voice-compare.md) |
 | month-maturity-routing-registry |  |  | false |  | A | [month-maturity-routing-registry](../../statecraft/notes/month-maturity-routing-registry.md) |
 | november-2025-benchmark-note |  |  | false |  | A | [november-2025-benchmark-note](../../statecraft/notes/november-2025-benchmark-note.md) |
 | pape-marandi-parsi-novelty-audit |  |  | false |  | A | [pape-marandi-parsi-novelty-audit](../../statecraft/notes/pape-marandi-parsi-novelty-audit.md) |
-| pape-on-china-ai |  |  | false |  | A | [pape-on-china-ai](../../statecraft/notes/pape-on-china-ai.md) |
 | parsi-wilkerson-may-2026-backfill-attention |  |  | false |  | A | [parsi-wilkerson-may-2026-backfill-attention](../../statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) |
 | recent-speaker-underrepresentation-query-standard |  |  | false |  | A | [recent-speaker-underrepresentation-query-standard](../../statecraft/notes/recent-speaker-underrepresentation-query-standard.md) |
 | recognition-threshold-vs-settlement-architecture |  |  | false |  | A | [recognition-threshold-vs-settlement-architecture](../../statecraft/notes/recognition-threshold-vs-settlement-architecture.md) |
 | recursive-learning-journal-executive-synthesis |  |  | false |  | A | [recursive-learning-journal-executive-synthesis](../../statecraft/notes/recursive-learning-journal-executive-synthesis.md) |
 | recursive-learning-three-lane-audit |  |  | false |  | A | [recursive-learning-three-lane-audit](../../statecraft/notes/recursive-learning-three-lane-audit.md) |
 | ritter-karaganov-doctrine-arc-2026 |  |  | false |  | A | [ritter-karaganov-doctrine-arc-2026](../../statecraft/notes/ritter-karaganov-doctrine-arc-2026.md) |
-| ritter-on-ai |  |  | false |  | A | [ritter-on-ai](../../statecraft/notes/ritter-on-ai.md) |
 | russia-inquiry-ladder-as-recursive-learning |  |  | false |  | A | [russia-inquiry-ladder-as-recursive-learning](../../statecraft/notes/russia-inquiry-ladder-as-recursive-learning.md) |
 | sachs-month-floor-repair-2026-06-04 |  |  | false |  | A | [sachs-month-floor-repair-2026-06-04](../../statecraft/notes/sachs-month-floor-repair-2026-06-04.md) |
-| sachs-on-ai |  |  | false |  | A | [sachs-on-ai](../../statecraft/notes/sachs-on-ai.md) |
 | scaffold-receipt-parity-recursive-learning |  |  | false |  | A | [scaffold-receipt-parity-recursive-learning](../../statecraft/notes/scaffold-receipt-parity-recursive-learning.md) |
 | skill-refinement-scorecard |  |  | false |  | A | [skill-refinement-scorecard](../../statecraft/notes/skill-refinement-scorecard.md) |
 | speaker-audit-workflow |  |  | false |  | A | [speaker-audit-workflow](../../statecraft/notes/speaker-audit-workflow.md) |
@@ -213,7 +199,6 @@ python3 scripts/reindex_notes.py
 | statecraft-v1-upgrade-plan-2026-05-25 |  |  | false |  | A | [statecraft-v1-upgrade-plan-2026-05-25](../../statecraft/notes/statecraft-v1-upgrade-plan-2026-05-25.md) |
 | taiwan-inspection-pressure-without-blockade-ownership |  |  | false |  | A | [taiwan-inspection-pressure-without-blockade-ownership](../../statecraft/notes/taiwan-inspection-pressure-without-blockade-ownership.md) |
 | week-hinge-start-here |  |  | false |  | B | [week-hinge-start-here](../../statecraft/notes/reentry/_templates/week-hinge-start-here.md) |
-| weichert-on-ai |  |  | false |  | A | [weichert-on-ai](../../statecraft/notes/weichert-on-ai.md) |
 | wilkerson-april-2026-contradiction-audit |  |  | false |  | A | [wilkerson-april-2026-contradiction-audit](../../statecraft/notes/wilkerson-april-2026-contradiction-audit.md) |
 | zangezur-mediation-without-overbinding |  |  | false |  | A | [zangezur-mediation-without-overbinding](../../statecraft/notes/zangezur-mediation-without-overbinding.md) |
 | arc-aguilar-nima-host | arc |  | false |  | A | [arc-aguilar-nima-host](../../statecraft/notes/arc-aguilar-nima-host.md) |
@@ -242,7 +227,7 @@ python3 scripts/reindex_notes.py
 | arc-freeman-napolitano-host | arc |  | false |  | A | [arc-freeman-napolitano-host](../../statecraft/notes/arc-freeman-napolitano-host.md) |
 | arc-freeman-nima-host | arc |  | false |  | A | [arc-freeman-nima-host](../../statecraft/notes/arc-freeman-nima-host.md) |
 | arc-helmer-dmitriev-lane | arc |  | false |  | A | [arc-helmer-dmitriev-lane](../../statecraft/notes/arc-helmer-dmitriev-lane.md) |
-| arc-helmer-iran-five-terms | arc |  | false |  | A | [arc-helmer-iran-five-terms](../../statecraft/notes/arc-helmer-iran-five-terms.md) |
+| arc-helmer-iran-five-terms | arc | shelf-native | false | source-archive | A | [arc-helmer-iran-five-terms](../../statecraft/notes/arc-helmer-iran-five-terms.md) |
 | arc-jermy-davis-host | arc |  | false |  | A | [arc-jermy-davis-host](../../statecraft/notes/arc-jermy-davis-host.md) |
 | arc-jermy-diesen-host | arc |  | false |  | A | [arc-jermy-diesen-host](../../statecraft/notes/arc-jermy-diesen-host.md) |
 | arc-jermy-iran-energy | arc |  | false |  | A | [arc-jermy-iran-energy](../../statecraft/notes/arc-jermy-iran-energy.md) |
@@ -319,20 +304,35 @@ python3 scripts/reindex_notes.py
 | arc-wilkerson-diesen-host | arc |  | false |  | A | [arc-wilkerson-diesen-host](../../statecraft/notes/arc-wilkerson-diesen-host.md) |
 | arc-wilkerson-napolitano-host | arc |  | false |  | A | [arc-wilkerson-napolitano-host](../../statecraft/notes/arc-wilkerson-napolitano-host.md) |
 | arc-wilkerson-nima-host | arc |  | false |  | A | [arc-wilkerson-nima-host](../../statecraft/notes/arc-wilkerson-nima-host.md) |
+| june-19-2026-moonshots-export-control-sovereign-ai-crossover | bridge | shelf-native | false | mixed | A | [june-19-2026-moonshots-export-control-sovereign-ai-crossover](../../statecraft/notes/june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) |
 | barnes-johnson-aguilar-kent-on-section-224 | compare | shelf-native | false | mixed | A | [barnes-johnson-aguilar-kent-on-section-224](../../statecraft/notes/barnes-johnson-aguilar-kent-on-section-224.md) |
+| jiang-vs-johnson-2026-05 | compare | shelf-native | false | source-archive | A | [jiang-vs-johnson-2026-05](../../statecraft/notes/jiang-vs-johnson-2026-05.md) |
+| jiang-vs-johnson-others-2026-05 | compare | shelf-native | false | source-archive | A | [jiang-vs-johnson-others-2026-05](../../statecraft/notes/jiang-vs-johnson-others-2026-05.md) |
 | june-18-2026-mou-guest-pair-citation-split | compare | shelf-native | false | mixed | A | [june-18-2026-mou-guest-pair-citation-split](../../statecraft/notes/june-18-2026-mou-guest-pair-citation-split.md) |
 | june-18-2026-mou-material-vs-sabotage-lens | compare | shelf-native | false | source-archive | A | [june-18-2026-mou-material-vs-sabotage-lens](../../statecraft/notes/june-18-2026-mou-material-vs-sabotage-lens.md) |
+| minab-palantir-four-voice-compare | compare | shelf-native | false | mixed | A | [minab-palantir-four-voice-compare](../../statecraft/notes/minab-palantir-four-voice-compare.md) |
 | conflict-iran-mou-theater | conflict | shelf-native | false | mixed | A | [conflict-iran-mou-theater](../../statecraft/notes/conflict-iran-mou-theater.md) |
+| barnes-on-ai | mechanism | shelf-native | false | source-archive | A | [barnes-on-ai](../../statecraft/notes/barnes-on-ai.md) |
 | formal-sovereignty-vs-internal-carriage | mechanism | shelf-native | true | mixed | A | [formal-sovereignty-vs-internal-carriage](../../statecraft/notes/formal-sovereignty-vs-internal-carriage.md) |
+| gulf-ai-architecture | mechanism | shelf-native | false | source-archive | A | [gulf-ai-architecture](../../statecraft/notes/gulf-ai-architecture.md) |
+| jiang-on-ai | mechanism | shelf-native | false | source-archive | A | [jiang-on-ai](../../statecraft/notes/jiang-on-ai.md) |
 | june-17-2026-mou-dem-co-ownership-torpedo-note | mechanism | shelf-native | false | source-archive | A | [june-17-2026-mou-dem-co-ownership-torpedo-note](../../statecraft/notes/june-17-2026-mou-dem-co-ownership-torpedo-note.md) |
 | june-18-2026-mou-dahhiya-backfire-mou-terms-note | mechanism | shelf-native | false | source-archive | A | [june-18-2026-mou-dahhiya-backfire-mou-terms-note](../../statecraft/notes/june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) |
 | june-18-2026-mou-falsifier-3-standoff-watch | mechanism | shelf-native | false | source-archive | A | [june-18-2026-mou-falsifier-3-standoff-watch](../../statecraft/notes/june-18-2026-mou-falsifier-3-standoff-watch.md) |
 | june-18-2026-mou-hormuz-governance-armistice-note | mechanism | shelf-native | false | source-archive | A | [june-18-2026-mou-hormuz-governance-armistice-note](../../statecraft/notes/june-18-2026-mou-hormuz-governance-armistice-note.md) |
+| pape-on-china-ai | mechanism | shelf-native | false | source-archive | A | [pape-on-china-ai](../../statecraft/notes/pape-on-china-ai.md) |
+| ritter-on-ai | mechanism | shelf-native | false | source-archive | A | [ritter-on-ai](../../statecraft/notes/ritter-on-ai.md) |
+| sachs-on-ai | mechanism | shelf-native | false | source-archive | A | [sachs-on-ai](../../statecraft/notes/sachs-on-ai.md) |
 | us-israel-military-integration-captured-command-risk | mechanism | shelf-native | false | source-archive | A | [us-israel-military-integration-captured-command-risk](../../statecraft/notes/us-israel-military-integration-captured-command-risk.md) |
-| risk-artificial-intelligence | risk |  | false |  | A | [risk-artificial-intelligence](../../statecraft/notes/risk-artificial-intelligence.md) |
+| weichert-on-ai | mechanism | shelf-native | false | source-archive | A | [weichert-on-ai](../../statecraft/notes/weichert-on-ai.md) |
+| risk-artificial-intelligence | risk | shelf-native | false | mixed | A | [risk-artificial-intelligence](../../statecraft/notes/risk-artificial-intelligence.md) |
 | risk-hormuz-chokepoint | risk | shelf-native | false | source-archive | A | [risk-hormuz-chokepoint](../../statecraft/notes/risk-hormuz-chokepoint.md) |
 | risk-mou-enforcement | risk | shelf-native | false | source-archive | A | [risk-mou-enforcement](../../statecraft/notes/risk-mou-enforcement.md) |
+| 2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer | synthesis | shelf-native | false | source-archive | A | [2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer](../../statecraft/notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) |
+| 2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave | synthesis | shelf-native | false | source-archive | A | [2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave](../../statecraft/notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) |
+| iran-war-inquiry-ladder-stress-test | synthesis | shelf-native | false | source-archive | A | [iran-war-inquiry-ladder-stress-test](../../statecraft/notes/iran-war-inquiry-ladder-stress-test.md) |
 | june-18-2026-mou-convergence | synthesis | shelf-native | false | source-archive | A | [june-18-2026-mou-convergence](../../statecraft/notes/june-18-2026-mou-convergence.md) |
+| march-2026-benchmark-note | synthesis | shelf-native | false | mixed | A | [march-2026-benchmark-note](../../statecraft/notes/march-2026-benchmark-note.md) |
 | thread-jermy-2025-11-06-to-2025-11-14-pokrovsk | thread |  | false |  | A | [thread-jermy-2025-11-06-to-2025-11-14-pokrovsk](../../statecraft/notes/thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md) |
 | thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap | thread |  | false |  | A | [thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap](../../statecraft/notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) |
 | trend-china-ai-implementation | trend | shelf-native | false | mixed | A | [trend-china-ai-implementation](../../statecraft/notes/trend-china-ai-implementation.md) |

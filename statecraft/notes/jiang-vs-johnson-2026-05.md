@@ -1,3 +1,16 @@
+---
+note_id: jiang-vs-johnson-2026-05
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
+  - source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md
+  - source-archive/statecraft/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md
+---
 # Jiang vs Johnson - May 2026
 
 WORK only; not Record.

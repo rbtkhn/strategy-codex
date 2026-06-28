@@ -1,3 +1,18 @@
+---
+note_id: iran-war-inquiry-ladder-stress-test
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md
+  - source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-alex-krainer-iran-us-on-retaliatory-mode-war-imminent-2026-06-04.md
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md
+  - source-archive/statecraft/2026-06-03/source-nima-alkhorshid-us-bases-airport-hit-iran-retaliates-gulf-stocks-crash-7-hezbollah-ops-2026-06-03.md
+---
 WORK only; not Record.
 
 # Iran War Inquiry Ladder Stress Test

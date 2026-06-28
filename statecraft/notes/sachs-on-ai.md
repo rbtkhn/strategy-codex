@@ -1,3 +1,21 @@
+---
+note_id: sachs-on-ai
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md
+  - source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md
+  - source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md
+  - source-archive/statecraft/2025-11-01/source-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md
+  - source-archive/statecraft/2025-10-06/source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md
+  - source-archive/statecraft/2025-08-04/source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md
+  - source-archive/statecraft/2025-02-04/source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md
+  - source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md
+---
 WORK only; not Record.
 
 # Sachs on AI

@@ -1,3 +1,21 @@
+---
+note_id: risk-artificial-intelligence
+note_type: risk
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md
+  - source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md
+  - source-archive/statecraft/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md
+  - source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md
+  - source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md
+  - source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md
+  - source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md
+  - source-archive/singularity/moonshots/moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md
+---
 WORK only; not Record.
 
 # Risk — artificial intelligence (corpus register)

@@ -38,6 +38,37 @@ MOU_ENFORCEMENT_BATCH: dict[str, str] = {
     "us-israel-military-integration-captured-command-risk.md": "mechanism",
 }
 
+# README Hormuz / chokepoint + May Iran compare + March benchmark (exemplars omitted)
+IRAN_THEATER_BATCH: dict[str, str] = {
+    "2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md": "synthesis",
+    "2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md": "synthesis",
+    "arc-helmer-iran-five-terms.md": "arc",
+    "iran-war-inquiry-ladder-stress-test.md": "synthesis",
+    "jiang-vs-johnson-2026-05.md": "compare",
+    "jiang-vs-johnson-others-2026-05.md": "compare",
+    "march-2026-benchmark-note.md": "synthesis",
+}
+
+# README Artificial intelligence cluster (exemplars + legacy redirects omitted)
+AI_CLUSTER_BATCH: dict[str, str] = {
+    "risk-artificial-intelligence.md": "risk",
+    "pape-on-china-ai.md": "mechanism",
+    "jiang-on-ai.md": "mechanism",
+    "barnes-on-ai.md": "mechanism",
+    "ritter-on-ai.md": "mechanism",
+    "weichert-on-ai.md": "mechanism",
+    "sachs-on-ai.md": "mechanism",
+    "gulf-ai-architecture.md": "mechanism",
+    "minab-palantir-four-voice-compare.md": "compare",
+    "june-19-2026-moonshots-export-control-sovereign-ai-crossover.md": "bridge",
+}
+
+BATCHES: dict[str, dict[str, str]] = {
+    "mou-enforcement": MOU_ENFORCEMENT_BATCH,
+    "iran-theater": IRAN_THEATER_BATCH,
+    "ai-cluster": AI_CLUSTER_BATCH,
+}
+
 DATE_IN_NAME = re.compile(r"(\d{4}-\d{2}-\d{2})")
 
 
@@ -136,7 +167,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
         "--batch",
-        choices=("mou-enforcement",),
+        choices=tuple(BATCHES),
         default="mou-enforcement",
         help="Named shelf-native batch from notes/README clusters",
     )
@@ -145,7 +176,7 @@ def main() -> int:
     ap.add_argument("--verify", action="store_true", help="Validate batch after backfill")
     args = ap.parse_args()
 
-    batch = MOU_ENFORCEMENT_BATCH
+    batch = BATCHES[args.batch]
     changed = 0
     for name, note_type in batch.items():
         path = NOTES_ROOT / name

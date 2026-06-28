@@ -1,3 +1,17 @@
+---
+note_id: minab-palantir-four-voice-compare
+note_type: compare
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-02-28
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md
+  - source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md
+  - source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md
+---
 WORK only; not Record.
 
 # Minab / Palantir — four-voice compare

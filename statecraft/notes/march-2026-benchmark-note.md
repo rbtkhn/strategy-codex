@@ -1,3 +1,16 @@
+---
+note_id: march-2026-benchmark-note
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-03-01
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md
+  - source-archive/statecraft/2026-03-20/source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md
+  - source-archive/statecraft/2026-03-31/source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md
+---
 WORK only; not Record.
 
 # March 2026 benchmark note

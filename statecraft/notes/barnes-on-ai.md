@@ -1,3 +1,16 @@
+---
+note_id: barnes-on-ai
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md
+  - source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md
+  - source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md
+---
 WORK only; not Record.
 
 # Barnes on AI
