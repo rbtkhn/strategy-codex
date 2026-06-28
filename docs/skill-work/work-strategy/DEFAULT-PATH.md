@@ -19,7 +19,7 @@
 | Say this | Contract |
 |----------|----------|
 | **`strategy`** / **`strategy pass`** | This file — STATUS → inbox → menu |
-| **`compass`** (legacy) | Same as strategy lane without opening **`coffee`** Step 1 ([menu-reference](../work-coffee/menu-reference.md)) |
+| **`compass`** (legacy) | Same as strategy lane without opening **`coffee`** Step 1 ([menu-reference](work-coffee/menu-reference.md))) |
 | **`coffee` C** | **Statecraft** router — live judgment, lanes, intake ([statecraft/README.md](../../../statecraft/README.md)) |
 | **`conductor` / master name** | Named mid-day emphasis; close on daily/note/watch |
 | **`strategy page` / compose** | EOD session — architecture § End-of-day strategy session |
@@ -39,7 +39,7 @@ Open **two files**, scan **one**:
 
 - [`codex/STATUS.md`](../../../codex/STATUS.md) — where are we?
 - [`codex/daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) — what accumulated?
-- Tail of active `codex/chapters/YYYY-MM/days.md` — what did the last entry leave in **Open**?
+- Tail of active `codex/chapters/2026/2026-04/days.md` — what did the last entry leave in **Open**?
 
 If a daily brief exists for today (`daily-brief-YYYY-MM-DD.md`), skim its lead.
 

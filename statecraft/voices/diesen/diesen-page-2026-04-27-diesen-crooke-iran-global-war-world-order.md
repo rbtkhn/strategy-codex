@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Expert:** `diesen` · **Guest (same air):** Alastair Crooke (Conflicts Forum) · **Published:** 2026-04-27 · **Capture:** two-expert YT (Greater Eurasia) · **Artifact:** refined page — **host lane** (interview craft + show thesis). Sibling **guest-lane** capture: [crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md. Not a `strategy-page` HTML fence in `thread.md` unless duplicated during EOD compose.
+**Expert:** `diesen` · **Guest (same air):** Alastair Crooke (Conflicts Forum) · **Published:** 2026-04-27 · **Capture:** two-expert YT (Greater Eurasia) · **Artifact:** refined page — **host lane** (interview craft + show thesis). Sibling **guest-lane** capture: [crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md. Not a `strategy-page` HTML fence in `thread.md` unless duplicated during EOD compose.
 
 ---
 
@@ -62,5 +62,5 @@ This lane is host labor: question order and Diesen-owned frames (prison break, a
 ### Appendix
 
 - **Full verbatim (capture):** [provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- **`thread:diesen`** **×** **`thread:crooke`** · **Guest-lane (same air):** [../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md · **verify:** pin **Greater** **Eurasia** `watch?v=` when known
+- **`thread:diesen`** **×** **`thread:crooke`** · **Guest-lane (same air):** [../../../../../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md · **verify:** pin **Greater** **Eurasia** `watch?v=` when known
 - **Canonical primary:** `https://www.youtube.com/watch?v=TBD-diesen-crooke-2026-04-27` (replace TBD when pinned)

@@ -38,8 +38,8 @@ The pattern becomes one of Persia's clearest statecraft lessons: survive the equ
 
 ## Key source doors
 
-- [Rome source shelf](../../../volumes/civ-state-rome/civ-state-rome-bibliography.md)
-- [Persia bibliography](../../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
+- [Rome source shelf](../../volumes/civ-state-rome/civ-state-rome-bibliography.md)
+- [Persia bibliography](../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - Plutarch, *Life of Crassus*
 - Procopius, *Wars*
 - Shapur I, *Res Gestae Divi Saporis*

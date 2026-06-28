@@ -6,7 +6,7 @@ When the operator would have used fork-growth habits, use these **instead** unle
 
 | Was (fork growth) | Now (interpretive machine) |
 |-------------------|----------------------------|
-| **"We did X"** → RECURSION-GATE staging | Lane history (`docs/skill-work/work-*/…-history.md`), [`memory.md`](../memory.md), [`cadence-learning-events.jsonl`](../cadence-learning-events.jsonl) |
+| **"We did X"** → RECURSION-GATE staging | Lane history (`docs/skill-work/work-*/…-history.md`), [`memory.md`](../memory.md), [`cadence-learning-events.jsonl`](../runtime/operator-events/cadence-learning-events.jsonl) |
 | Book completion → LEARN/READ gate candidate | `codex/` / bookshelf WORK, strategy inbox, or statecraft archive intake |
 | Wisdom questions → IX merge | Singularity or statecraft synthesis notes; **fork revive only** for museum knowledge section A/B/C gate |
 | Weekly gate review rhythm | `python3 scripts/operator_handoff_check.py`, integrity scripts, ship receipt |

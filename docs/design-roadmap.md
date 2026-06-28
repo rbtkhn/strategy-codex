@@ -215,7 +215,7 @@ python platform/integrations/export_hook.py --target intersignal -u grace-mar -o
 | [JOURNAL-SCHEMA](journal-schema.md) | Entry format; linguistic fingerprint; attestation data source |
 | [ADAPTIVE-CURRICULUM-INTEGRATION](adaptive-curriculum-integration.md) | Record as identity for curriculum engines; homeschool bots |
 | [ARCHITECTURE](architecture.md) | Pipeline, Record structure, gating |
-| [integration-apis](integration-apis.md) | Multi-API context for email + YouTube + others |
+| [integration-apis](architecture.md) | Multi-API context for email + YouTube + others |
 
 ---
 

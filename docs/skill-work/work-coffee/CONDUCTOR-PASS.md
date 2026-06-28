@@ -74,7 +74,7 @@ When you are **not** in **`coffee`**, you do **not** need to call this a "Conduc
 
 **`coffee` Step 2** is **A–D**. Conductor is standalone only and does not continue from coffee Step 1.
 
-Open **standalone** Conductor (no `coffee`) by **master name** or **`conductor <name>`** — see [coffee SKILL — Conductor session (outside `coffee` hub menu)](../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee). Bare **`conductor`** asks for one of the five names; `build_conductor_mcq_for_user` / `format_conductor_mcq_block` now return a name-only compatibility prompt, never a lettered conductor row.
+Open **standalone** Conductor (no `coffee`) by **master name** or **`conductor <name>`** — see [coffee SKILL — Conductor session (outside `coffee` hub menu)](../../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee). Bare **`conductor`** asks for one of the five names; `build_conductor_mcq_for_user` / `format_conductor_mcq_block` now return a name-only compatibility prompt, never a lettered conductor row.
 
 **Hub pick logging:** `picked=conductor` when the operator chose a standalone conductor turn. **Legacy:** `picked=D` + `conductor=`, etc.
 
@@ -124,7 +124,7 @@ Movement meanings:
 - **C. Scherzo** - bounded probe; test, stress, falsify, or make the small lively intervention.
 - **D. Finale** - durable seal; close, score, log, carry forward, or benchmark.
 
-**Outside `coffee`:** the operator issues the conductor pick **without** running `coffee` Step 0–1. Resolution, orientation, and **`coffee_pick`** logging match [coffee § Conductor session](../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee); do **not** require Recent rhythm or `operator_coffee.py` for that turn.
+**Outside `coffee`:** the operator issues the conductor pick **without** running `coffee` Step 0–1. Resolution, orientation, and **`coffee_pick`** logging match [coffee § Conductor session](../../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee); do **not** require Recent rhythm or `operator_coffee.py` for that turn.
 
 **`last30days` as one possible action:** When the active object is a current-events / strategy-codex question and the frontier is stale, one of the four movement choices may be a bounded **`last30days`** scan. Keep it master-shaped: **Toscanini** verifies source dates and falsifiers; **Furtwängler** maps live conflicts without closing them; **Bernstein** extracts the one fresh signal that clarifies stakes; **Karajan** checks month-arc fit; **Kleiber** narrows to one query only. It remains non-mutating unless the operator separately asks to append an inbox line or prepare a review artifact.
 
@@ -132,7 +132,7 @@ Movement meanings:
 
 **Continuity + recommendation helpers:** The assistant may still mention **last picked** conductor and **system recommended** conductor in prose before or after the menu. Those helpers come from [scripts/cadence_conductor_resolution.py](../../../scripts/cadence_conductor_resolution.py) and are **advisory**, not a second menu.
 
-**Persistence (history / continuity):** **New** logs: **`picked=conductor`** with **`conductor=<single-slug>`** (preferred). **Legacy** logs may still show **`picked=D`** + `conductor=` or **`picked=D1`..`D5`**. **Convention:** `conductor=` is `toscanini` \| `furtwangler` \| `karajan` \| `kleiber` \| `bernstein`. **Legacy** `a+b` stacks: normalize to the **first** slug. **New** logs must **not** use `+`. **Example:** `python3 scripts/log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=conductor conductor=karajan` — [coffee SKILL — Cadence audit](../../../.cursor/skills/coffee/SKILL.md#cadence-audit).
+**Persistence (history / continuity):** **New** logs: **`picked=conductor`** with **`conductor=<single-slug>`** (preferred). **Legacy** logs may still show **`picked=D`** + `conductor=` or **`picked=D1`..`D5`**. **Convention:** `conductor=` is `toscanini` \| `furtwangler` \| `karajan` \| `kleiber` \| `bernstein`. **Legacy** `a+b` stacks: normalize to the **first** slug. **New** logs must **not** use `+`. **Example:** `python3 scripts/log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=conductor conductor=karajan` — [coffee SKILL — Cadence audit](../../../../.cursor/skills/coffee/SKILL.md#cadence-audit).
 
 ### Learning loop (optimal / recursive self-improvement)
 
@@ -143,7 +143,7 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 
 **Preferred compact close:** For routine passes, favor the shorter shape `Object -> What moved / seam -> Falsify / next test -> Next wedge` over a longer reflective block. If a movement was satisfied in chat only, label it as **behavioral/non-durable** rather than implying that it left a notebook or cadence close. Only notebook anchors and `coffee_conductor_outcome` lines count as durable closes.
 
-**Machine law vs arc scoring:** Extracted **machine law** (routing, repair, stopping rules) → [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) + [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md). Conductor **arc scoring** and benchmark windows → [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md).
+**Machine law vs arc scoring:** Extracted **machine law** (routing, repair, stopping rules) → [recursive-learn skill](../../../skills/recursive-learn/SKILL.md) + [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md). Conductor **arc scoring** and benchmark windows → [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md).
 
 **SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
 

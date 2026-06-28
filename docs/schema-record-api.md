@@ -2,7 +2,7 @@
 
 **Companion-Self template · Minimal schema for Record and pipeline**
 
-This document defines the Record schema, recursion-gate shape, and API contracts for the 6-week student interface and future extensions. See [CONCEPT](concept.md), [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md), and [PROJECT-6WEEK-CODING](project-6week-coding.md).
+This document defines the Record schema, recursion-gate shape, and API contracts for the 6-week student interface and future extensions. See [CONCEPT](concept.md), [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md), and [PROJECT-6WEEK-CODING](../contributing.md).
 
 ---
 
@@ -34,7 +34,7 @@ Standard modular structure for objectives and tasks in `self-skill-work.md`. Ins
 | Element | Type | Description |
 |--------|------|--------------|
 | **module_intent** | string | One sentence: WORK as tutor; edge, scaffolding, work goals, life mission; human-gated. |
-| **default_objectives** | list of { label, description } | **Default objectives for new users** (standard set of six): Learn and grow, Express and create, Build and ship, Make progress visible, Stay within the design, Recursively improve. See [Evolving practice and recursive improvement](evolving-practice-recursive-improvement.md) for how this objective connects to context/intent/specification practice as technology advances. Instance may replace or extend. In markdown: `- **Label** — description`. |
+| **default_objectives** | list of { label, description } | **Default objectives for new users** (standard set of six): Learn and grow, Express and create, Build and ship, Make progress visible, Stay within the design, Recursively improve. See [Evolving practice and recursive improvement](agent-rules/deep-rules.md) for how this objective connects to context/intent/specification practice as technology advances. Instance may replace or extend. In markdown: `- **Label** — description`. |
 | **work_goals** | object | Companion's own goals; evidence-linked when captured. |
 | **work_goals.near_term** | string[] | Near-term goals (e.g. "finish X", "learn Y"). May be empty. |
 | **work_goals.horizon** | string[] | Longer-term goals (e.g. "SAT ≥ 1200"). May be empty. |

@@ -161,7 +161,7 @@ If the thread is clearly **WORK** and the operator did not say **no menu**, end 
 - [news-verify](../news-verify/SKILL.md) — scoped pass on **wire/desk hooks** inside ingests and briefs before synthesis; escalates **3a primary** work to [Deep pass](#fact-check-deep-pass). Routing: [Verification routing (shared)](#verification-routing-shared).
 - [politics-massie](../politics-massie/SKILL.md) — news hooks + X drafts for the Massie analysis lane.
 - **Massie news hooks:** If your Cursor install includes **massie-x-news-search-draft** (optional user skill), use it for **today's** KY-4 / Massie-relevant cited briefs; **fact check** stays **claim-neutral**.
-- [operator-style.mdc](../../../.cursor/rules/operator-style.mdc) — Think-lane unpack when the question is **should we**, not **is it true** (legacy `pros-and-cons` archived).
+- [operator-style.mdc](../../rules/operator-style.mdc) — Think-lane unpack when the question is **should we**, not **is it true** (legacy `pros-and-cons` archived).
 
 ## Verification / Proof Standard
 

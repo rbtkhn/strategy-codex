@@ -10,9 +10,9 @@ The goal is to keep `credibility` and `accuracy` separate while making both easi
 
 Open the right audit surface first:
 
-- open [speaker-credibility-matrix.md](speaker-credibility-matrix.md) when the question is `how much provisional trust should we extend before closure?`
-- open [speaker-accuracy-ledger.md](speaker-accuracy-ledger.md) when the question is `what happened to a bounded claim after review?`
-- open [speaker-credibility-accuracy-bridge.md](speaker-credibility-accuracy-bridge.md) when the notebook is starting to confuse methodological trust with forecast performance
+- open [speaker-credibility-matrix.md](speaker-audit-workflow.md) when the question is `how much provisional trust should we extend before closure?`
+- open [speaker-accuracy-ledger.md](speaker-audit-workflow.md) when the question is `what happened to a bounded claim after review?`
+- open [speaker-credibility-accuracy-bridge.md](speaker-audit-workflow.md) when the notebook is starting to confuse methodological trust with forecast performance
 - open a per-speaker profile in `credibility/` or `accuracy/` when the shared matrix or ledger is too compressed
 
 ## Five-Step Workflow

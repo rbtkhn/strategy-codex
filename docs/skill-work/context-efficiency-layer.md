@@ -16,7 +16,7 @@ Grace-Mar already enforces **durable truth** through the gate. The practical bot
 
 ## Operator-runtime tiers (hot / warm / cold)
 
-These describe **loading priority for sessions and scripts**, not a second copy of MEMORY ([memory-template.md](../../memory-template.md)). You may **map** informally: hot ≈ what you need **this session**; warm ≈ **recent WORK**; cold ≈ **archive / library / older evidence**—without renaming MEMORY sections.
+These describe **loading priority for sessions and scripts**, not a second copy of MEMORY ([memory-template.md](../memory-template.md)). You may **map** informally: hot ≈ what you need **this session**; warm ≈ **recent WORK**; cold ≈ **archive / library / older evidence**—without renaming MEMORY sections.
 
 | Tier | Meaning | Examples |
 |------|---------|----------|

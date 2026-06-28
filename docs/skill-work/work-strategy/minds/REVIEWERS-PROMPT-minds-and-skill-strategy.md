@@ -96,7 +96,7 @@ Your brainstorm should **elaborate and extend** this — new combinations, clear
 
 ---
 
-**End of prompt.** Return your brainstorm to the operator in whatever channel they specified; if committing to the repo, prefer a dated note under `docs/skill-work/work-strategy/` or an append to `../../codex/chapters/YYYY-MM/days.md` only when the operator asks.
+**End of prompt.** Return your brainstorm to the operator in whatever channel they specified; if committing to the repo, prefer a dated note under `docs/skill-work/work-strategy/` or an append to `../../codex/chapters/2026/2026-04/days.md` only when the operator asks.
 
 **Consolidated pattern note (repo):** [MINDS-SKILL-STRATEGY-PATTERNS.md](MINDS-SKILL-STRATEGY-PATTERNS.md) — v1 advisory manual derived from brainstorms; extend that file rather than duplicating long pattern prose here.
 

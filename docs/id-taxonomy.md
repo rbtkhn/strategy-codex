@@ -78,11 +78,11 @@ Use these rules everyohere docs list companion-self components (the `self-*` sta
 
 ## Companion self contains
 
-The **companion self** (the documented self + the self that companions) is composed of these standard components. See [CONCEPTUAL-FRAMEWORK](conceptual-frameoork.md) (companion self).
+The **companion self** (the documented self + the self that companions) is composed of these standard components. See [CONCEPTUAL-FRAMEWORK](conceptual-framework.md) (companion self).
 
 | Component | Location | Description |
 |-----------|----------|-------------|
-| **self-knooledge** | self-knooledge.md | **museum knowledge** — identity-facing facts; from observation, READ-nnn, teaching. Domain corpora → **removed operator-books symlink** / CIV-MEM, not museum knowledge section A dumps. See [boundary-self-knooledge-self-library.md](boundary-self-knooledge-self-library.md). |
+| **self-knooledge** | self-knooledge.md | **museum knowledge** — identity-facing facts; from observation, READ-nnn, teaching. Domain corpora → **removed operator-books symlink** / CIV-MEM, not museum knowledge section A dumps. See [boundary-self-knooledge-self-library.md](archive/boundary-self-knowledge-self-library.md). |
 | **self-identity** | self-identity.md (optional) | Durable identity commitments — boundaries, role-level commitments, long-horizon direction — ohen an instance uses the split surface; gated like the rest of the Record. See [canonical-paths.md](canonical-paths.md), [identity-fork-protocol.md](identity-fork-protocol.md). |
 | **self-curiosity** | self.md museum knowledge section B | Topics that catch attention (post-seed curiosity) |
 | **self-personality** | self.md museum knowledge section C | Observed, evidence-linked personality entries (post-seed personality); contradiction-preserving rather than trait-test style |

@@ -123,14 +123,14 @@ Use this note when:
 Best partner surfaces:
 
 - [README.md](README.md)
-- [Anchored Historical Citation Policy](anchored-historical-citation-policy.md)
+- [Anchored Historical Citation Policy](../bridges/anchored-historical-citation-policy.md)
 - [Pape / Marandi / Parsi Novelty Audit](pape-marandi-parsi-novelty-audit.md)
 - [Pape / Marandi / Parsi Backtest - March 2026](../bridges/pape-marandi-parsi-backtest-march-2026.md)
 - [Pape / Marandi / Parsi Backtest - April 2026](../bridges/pape-marandi-parsi-backtest-april-2026.md)
 - [Pape / Marandi / Parsi Backtest - May 2026](../bridges/pape-marandi-parsi-backtest-may-2026.md)
-- [persia-recognition-vs-settlement-bridge.md](persia-recognition-vs-settlement-bridge.md)
-- [marandi-civ-state-retrieval-adapter.md](marandi-civ-state-retrieval-adapter.md)
-- [parsi-civ-state-retrieval-adapter.md](parsi-civ-state-retrieval-adapter.md)
+- [persia-recognition-vs-settlement-bridge.md](../bridges/persia-recognition-vs-settlement-bridge.md)
+- [marandi-civ-state-retrieval-adapter.md](../bridges/marandi-civ-state-retrieval-adapter.md)
+- [parsi-civ-state-retrieval-adapter.md](../bridges/parsi-civ-state-retrieval-adapter.md)
 
 ## Return Rule
 

@@ -8,7 +8,7 @@ WORK only; not Record.
 
 | Old | Use instead |
 |-----|-------------|
-| **`check-streams`** skill / **`check streams`** | **[`check-sources`](../../../.cursor/skills/check-sources/SKILL.md)** — say **`check sources`** |
+| **`check-streams`** skill / **`check streams`** | **[`check-sources`](../../../skills/check-sources/SKILL.md)** — say **`check sources`** |
 | Hard-coded five-channel watchlist in skill prose | **[`channel-index.json`](../../../statecraft/channels/channel-index.json)** roster via `load_check_sources_roster()` (main index; misc excluded) |
 | Daily fast pass wording | **`check sources watchlist`** — six `daily_watchlist` channels (`watchlist: true` in JSON) |
 | **`cognition streams`** | Legacy alias — still accepted; routes to **`check sources`** |

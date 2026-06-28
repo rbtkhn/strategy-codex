@@ -34,7 +34,7 @@ This is not generic religious revival. It is sacred legitimacy becoming state-be
 
 ## Key source doors
 
-- [Persia bibliography](../../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
+- [Persia bibliography](../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - *Avesta*
 - Ferdowsi, *Shahnameh*
 - Nizam al-Mulk, *Siyasatnama*

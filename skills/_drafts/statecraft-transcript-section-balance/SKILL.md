@@ -11,7 +11,7 @@ scope_class: repo-governed
 
 **Edit surface:** `source-archive/statecraft/YYYY-MM-DD/source-*.md` with `transcript_curation: curated_sectioned` (or nudge from flat).
 
-**Not this skill:** PH public interviews → [`ph-interview-transcript-curation`](../../../.cursor/skills/ph-interview-transcript-curation/SKILL.md); first land / verbatim intake → [`statecraft-source-intake`](../../../.cursor/skills/statecraft-source-intake/SKILL.md).
+**Not this skill:** PH public interviews → [`ph-interview-transcript-curation`](../../ph-interview-transcript-curation/SKILL.md); first land / verbatim intake → [`statecraft-source-intake`](../../statecraft-source-intake/SKILL.md).
 
 ## Ladder (default order)
 

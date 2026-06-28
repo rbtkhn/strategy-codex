@@ -560,7 +560,7 @@ Barnes says both sides face material clocks and the question is which clock runs
 - **Daniel Davis Deep Dive Ã¢â‚¬â€ Davis Ãƒâ€” Jermy** (*Navy Combat Vet: HORMUZ BLOCKADE NIGHTMARE*): [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) (same URL on both **`thread:davis`** and **`thread:jermy`** inbox lines)
 - **Glenn Diesen Ãƒâ€” Jeffrey Sachs** (*TrumpÃ¢â‚¬â„¢s Naval Blockade of the Strait of Hormuz*): [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ) (same URL on **`thread:diesen`** and **`thread:sachs`** inbox lines)
 - [daily-brief-2026-04-14.md](../../../daily-brief-2026-04-14.md) Ã¢â‚¬â€ generated brief (Ã‚Â§2c RSS bundle mirrored in inbox)
-- **PH Ã¢â‚¬â€ vi-14:** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH Ã¢â‚¬â€ vi-14:** [interviews-14-diesen-iran-war-petrodollar.md](../../../predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **PH Ã¢â‚¬â€ vi-15:** [interviews-15-sneako-jiang-dugin-eschatology.md](../../../../../codex/predictive-history/lectures/interviews-15-sneako-jiang-dugin-eschatology.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=n44OF1Y7zgo)
 - Prior expert landings (same file): [2026-04-12](#2026-04-12) Ã‚Â· [2026-04-13](#2026-04-13)
 - Legitimacy seam (rolling): [rome-persia-legitimacy-signal-check.md](../../../rome-persia-legitimacy-signal-check.md)

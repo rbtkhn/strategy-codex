@@ -128,7 +128,7 @@ Mirror proportion of [singularity-academy sprint tree](singularity-academy-sprin
 
 - [intelligence-harness.md](../../intelligence-harness.md) — method vocabulary
 - [product-identity.md](../../product-identity.md) — interpretive machine identity
-- [first-wave-service-sales SKILL](../../../.cursor/skills/first-wave-service-sales/SKILL.md) — send-stage discipline
+- [first-wave-service-sales SKILL](../../../skills/first-wave-service-sales/SKILL.md) — send-stage discipline
 
 ## Falsifier
 

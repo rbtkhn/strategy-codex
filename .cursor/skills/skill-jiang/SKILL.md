@@ -79,7 +79,7 @@ When the operator invokes **skill-jiang**, **closed-loop**, **blind forward chai
 
 4. **Default on conflict:** If **“complete the chain fast”** conflicts with **closed-loop learning**, **default to prefix-only** and **ask** unless the operator explicitly chooses **smoke / oracle**.
 
-See [`.cursor/rules/skill-jiang-closed-loop.mdc`](../../../.cursor/rules/skill-jiang-closed-loop.mdc).
+See [`.cursor/rules/skill-jiang-closed-loop.mdc`](../../rules/skill-jiang-closed-loop.mdc).
 
 ---
 

@@ -50,4 +50,4 @@ python3 scripts/prepared_context/build_context_from_observations.py \
 ## See also
 
 - [runtime/prepared-context/README.md](../../runtime/prepared-context/README.md)
-- [progressive-disclosure.md](../runtime/prepared-context/progressive-disclosure.md)
+- [progressive-disclosure.md](../../runtime/prepared-context/budgeted-work-strategy.md)

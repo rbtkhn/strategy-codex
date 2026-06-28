@@ -23,7 +23,7 @@ The bundle under [`archive/grace-mar-instance/`](../../archive/grace-mar-instanc
 | Operator books | Misc folder homes — [`codex/README.md`](../../codex/README.md) § Operator books |
 | Verbatim sources | [`source-archive/statecraft/`](../../source-archive/statecraft/) |
 | Synthesis / judgment | [`statecraft/`](../../statecraft/), [`singularity/`](../../singularity/) |
-| Skills | [`.cursor/skills/`](../../.cursor/skills/), [`skills/`](../../skills/) |
+| Skills | [`.cursor/skills/`](../../skills), [`skills/`](../../skills/) |
 | PD primaries (local) | [`library/`](../../library/README.md) |
 
 ## Fork revive (explicit only)

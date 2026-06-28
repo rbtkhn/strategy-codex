@@ -130,7 +130,7 @@ When The Braid SDK and identity schema are released:
 |----------|---------|
 | [OPENCLAW-INTEGRATION](openclaw-integration.md) | Similar pattern; Record as identity for OpenClaw |
 | [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md) | Protocol spec; Sovereign Merge Rule |
-| [export_manifest](export_manifest) | Agent manifest (llms.txt-style) |
+| [export_manifest](portable-record/export-contract.md) | Agent manifest (llms.txt-style) |
 
 ---
 

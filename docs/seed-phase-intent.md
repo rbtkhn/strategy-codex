@@ -28,6 +28,6 @@ A companion should not be activated from vague personalization alone. **`seed_in
 
 ## Relationship to other artifacts
 
-Seed Intent **does not replace** identity, curiosity, pedagogy, or expression artifacts. It **clarifies** the operating purpose and boundaries of the future instance. Intake may still carry constraints and operator workspace intent ([cursor-pack-from-seed.md](cursor-pack-from-seed.md)); Seed Intent is the **normative purpose/limits** slice for governance and readiness review.
+Seed Intent **does not replace** identity, curiosity, pedagogy, or expression artifacts. It **clarifies** the operating purpose and boundaries of the future instance. Intake may still carry constraints and operator workspace intent ([cursor-pack-from-seed.md](../platform/template/README.md)); Seed Intent is the **normative purpose/limits** slice for governance and readiness review.
 
 See [seed-phase-artifacts.md](seed-phase-artifacts.md) and [seed-phase-readiness.md](seed-phase-readiness.md).

@@ -36,6 +36,6 @@ Optional object on the receipt: **`null`** or a structured block produced by the
 
 Do **not** use model or summary narration as the source of truth for these metrics; the worker’s traversal and optional regex extract are the only inputs.
 
-**Related (orthogonal):** [Worker peer review](worker-peer-review.md) — a separate runtime pass on a **draft** proposal + receipt, distinct from the [review orchestrator](../../orchestration/review-orchestrator.md) (observations / gate packet path).
+**Related (orthogonal):** [Worker peer review](worker-peer-review.md) — a separate runtime pass on a **draft** proposal + receipt, distinct from the [review orchestrator](../orchestration/review-orchestrator.md) (observations / gate packet path).
 
 See also: [Runtime worker](../runtime-worker.md), [Runtime vs Record](../runtime-vs-record.md), [Worker routing](worker-routing.md), [Model tier routing](model-tier-routing.md).

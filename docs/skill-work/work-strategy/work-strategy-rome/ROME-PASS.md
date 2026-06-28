@@ -31,7 +31,7 @@
 - **WORK** **only** **—** **no** **merge** **to** **SELF** **/** **EVIDENCE** **/** **prompt** **without** **RECURSION-GATE** **+** **companion** **approval.**
 - **No** **unsourced** **papal** **quotes** **or** **invented** **Vatican** **positions** **(AGENTS** **knowledge** **boundary).**
 - **Separate** **mind–soul** **(moral** **/** **formation** **frame)** **from** **administrative** **Vatican** **(Curia,** **finance,** **diplomatic** **machinery)** **—** **both** **real;** **do** **not** **collapse** **them** **in** **one** **sentence** **without** **naming** **the** **shift.**
-- **Public** **/** **campaign** **copy** **that** **draws** **on** **civ-mem** **—** [civ-mem-draft-protocol.md](../work-politics/civ-mem-draft-protocol.md).
+- **Public** **/** **campaign** **copy** **that** **draws** **on** **civ-mem** **—** [civ-mem-draft-protocol.md](../../../work-politics/civ-mem-draft-protocol.md).
 
 ### Rolling seam note — 2026-04-16 (filed 2026-04-18 — ROME revision log date, not a `../../codex/chapters/…/days.md` §)
 

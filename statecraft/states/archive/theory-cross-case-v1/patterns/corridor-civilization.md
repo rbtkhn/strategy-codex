@@ -36,8 +36,8 @@ The pattern remains live even when the route form changes from overland to marit
 
 ## Key source doors
 
-- [Persia bibliography](../../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
-- [China bibliography](../../../volumes/civ-state-china/civ-state-china-bibliography.md)
+- [Persia bibliography](../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
+- [China bibliography](../../volumes/civ-state-china/civ-state-china-bibliography.md)
 - Rashid al-Din, *Jami al-Tawarikh*
 - al-Biruni, *India*
 - Darius I's route and Indus materials

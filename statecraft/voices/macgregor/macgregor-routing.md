@@ -36,9 +36,9 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 
 ## By shelf function
 
-- **Best host for force-feasibility / political-danger reading:** [davis](../../../statecraft/channels/daniel-davis/stream)
-- **Best host for geopolitical-altitude / order-consequence reading:** [diesen](../../../statecraft/voices/diesen/stream)
-- **Best host for auxiliary month-by-month anti-war reinforcement:** [napolitano](../../../statecraft/channels/judging-freedom/stream)
+- **Best host for force-feasibility / political-danger reading:** [davis](../../channels/daniel-davis/index.md)
+- **Best host for geopolitical-altitude / order-consequence reading:** [diesen](../diesen/index.md)
+- **Best host for auxiliary month-by-month anti-war reinforcement:** [napolitano](../../channels/judging-freedom/index.md)
 - **Best speaker-owned maturity surface:** [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
 - **Best bounded month syntheses:** [macgregor-shelf-2026-03.md](macgregor-shelf-2026-03.md) and [macgregor-shelf-2026-04.md](macgregor-shelf-2026-04.md)
 

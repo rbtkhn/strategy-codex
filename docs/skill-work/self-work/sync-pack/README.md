@@ -28,9 +28,9 @@ Default initial **coffee** (startup) order:
 3) work-business sync (optional, if established) + next-step suggestions.
 
 **Closeout** trio (same contracts; legacy filenames on disk):
-- [Startup / coffee rhythm spec](../../../good-morning-brief-spec.md)
-- [Closeout template](../../../good-night-template.md)
-- [Closeout spec](../../../good-night-brief-spec.md)
+- [Startup / coffee rhythm spec](../README.md)
+- [Closeout template](../decision-fatigue-reduction.md)
+- [Closeout spec](../README.md)
 
 ---
 

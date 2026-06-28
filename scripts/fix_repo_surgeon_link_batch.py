@@ -132,6 +132,31 @@ TARGET_REWRITES: dict[str, str] = {
     "diesen-book-2026-04.md": "statecraft/voices/diesen/diesen-profile.md",
     "mercouris-book-2026-04.md": "statecraft/voices/mercouris/mercouris-profile.md",
     "davis-book-2026-04.md": "statecraft/voices/davis/davis-profile.md",
+    "interviews-14-diesen-iran-war-petrodollar.md": (
+        "codex/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md"
+    ),
+    "statecraft/states/theory/form.md": "public/civ-state/theory/memory.md",
+    "integration-apis.md": "docs/architecture.md",
+    "skill-work.md": "docs/skill-work/README.md",
+    "conceptual-frameoork.md": "docs/conceptual-framework.md",
+    "boundary-self-knooledge-self-library.md": "docs/archive/boundary-self-knowledge-self-library.md",
+    "COMPANION-SELF-museum library shelf-ALIGNMENT.md": (
+        "docs/skill-work/work-companion-self/TEMPLATE-BASELINE.md"
+    ),
+    "platform/template/work-business.md": "docs/skill-work/work-business/README.md",
+    "ingestion-and-sources.md": "docs/architecture.md",
+    "project-6week-coding.md": "docs/contributing.md",
+    "cursor-pack-from-seed.md": "platform/template/README.md",
+    "evolving-practice-recursive-improvement.md": "docs/agent-rules/deep-rules.md",
+    "export_manifest": "docs/portable-record/export-contract.md",
+    "progressive-disclosure.md": "runtime/prepared-context/budgeted-work-strategy.md",
+    "good-morning-brief-spec.md": "docs/skill-work/work-cadence/README.md",
+    "good-night-brief-spec.md": "docs/skill-work/work-cadence/README.md",
+    "good-night-template.md": "docs/skill-work/work-cadence/decision-fatigue-reduction.md",
+    "speaker-accuracy-ledger.md": "statecraft/notes/speaker-audit-workflow.md",
+    "speaker-credibility-accuracy-bridge.md": "statecraft/notes/speaker-audit-workflow.md",
+    "speaker-credibility-matrix.md": "statecraft/notes/speaker-audit-workflow.md",
+    "strategy-expert-template.md": "statecraft/voices/voice-profile-template.md",
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -484,6 +509,13 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("statecraft/sheets/source-archive-control/"):
         replacements.append(
             ("../refined-page-template.md", "../../../codex/refined-page-template.md")
+        )
+        replacements.extend(
+            [
+                ("../../../../../.cursor/", "../../../.cursor/"),
+                ("../../../../../../.cursor/", "../../../../.cursor/"),
+                ("../_aired-pending/", "../../../../source-archive/statecraft/_aired-pending/"),
+            ]
         )
 
     if rel.startswith("docs/skill-work/work-strategy/"):
@@ -948,6 +980,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../../codex/academy/statecraft/civ-emp/",
                 ),
                 ("../../../codex/mearsheimer-mind.md", "mearsheimer-mind.md"),
+                ("../../../../../../.cursor/", "../../../.cursor/"),
             ]
         )
 
@@ -1163,19 +1196,28 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
 
     if rel == "statecraft/recursive-learning-journal.md":
-        replacements.append(
-            (
-                "](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
-                "](../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
-            )
+        replacements.extend(
+            [
+                (
+                    "](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
+                    "](../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
+                ),
+                (
+                    "](../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
+                    "](notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)",
+                ),
+            ]
         )
 
     if rel == "statecraft/voices/core-thesis-matrix-pilot.md":
         replacements.extend(
             [
-                ("../notes/barnes-arc.md", "../barnes/barnes-arc.md"),
-                ("../notes/johnson-arc.md", "../johnson/johnson-arc.md"),
-                ("../notes/marandi-arc.md", "../marandi/marandi-arc.md"),
+                ("../notes/barnes-arc.md", "barnes/barnes-arc.md"),
+                ("../notes/johnson-arc.md", "johnson/johnson-arc.md"),
+                ("../notes/marandi-arc.md", "marandi/marandi-arc.md"),
+                ("../barnes/barnes-arc.md", "barnes/barnes-arc.md"),
+                ("../johnson/johnson-arc.md", "johnson/johnson-arc.md"),
+                ("../marandi/marandi-arc.md", "marandi/marandi-arc.md"),
             ]
         )
 
@@ -1190,14 +1232,297 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
 
     if rel.startswith("docs/skill-write/"):
-        replacements.append(
-            ("../../.cursor/rules/", "../../../.cursor/rules/"),
+        replacements.extend(
+            [
+                ("../../../.cursor/rules/", "../../.cursor/rules/"),
+                ("(../.cursor/rules/", "(../../.cursor/rules/"),
+                ("](../.cursor/rules/", "](../../.cursor/rules/"),
+            ]
+        )
+
+    if rel == "docs/merging-from-companion-self.md":
+        replacements.extend(
+            [
+                (
+                    "../demo/observability/observability-report.json",
+                    "../../archive/legacy-users/demo/observability/observability-report.json",
+                ),
+                (
+                    "../demo/seed-phase/work_business_seed.json",
+                    "../platform/users/demo/seed-phase/work_business_seed.json",
+                ),
+                ("../demo/seed-phase/", "../platform/users/demo/seed-phase/"),
+                (
+                    "skill-work/work-companion-self/COMPANION-SELF-museum library shelf-ALIGNMENT.md",
+                    "skill-work/work-companion-self/TEMPLATE-BASELINE.md",
+                ),
+                (
+                    "../platform/template/work-business.md",
+                    "skill-work/work-business/README.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("docs/") and not rel.startswith("docs/skill-work/"):
+        slash_depth = rel.count("/")
+        replacements.extend(
+            [
+                ("../platform/integrations/", "../integrations/"),
+                ("../memory-template.md", "memory-template.md"),
+                ("integration-apis.md", "architecture.md"),
+                ("../skill-work.md", "skill-work/README.md"),
+                (
+                    ".cursor/skills/handoff-check/SKILL.md",
+                    "../.cursor/skills/handoff-check/SKILL.md",
+                ),
+                ("../integrations/openclaw_stage.py", "../../platform/integrations/openclaw_stage.py"),
+                ("examples/diagnostics/", "../examples/diagnostics/"),
+                ("../cadence-learning-events.jsonl", "../../runtime/operator-events/cadence-learning-events.jsonl"),
+                (
+                    "../diagnostics-and-governance-tools.mdcounterfactual-",
+                    "../examples/diagnostics/counterfactual-",
+                ),
+                (
+                    "diagnostics-and-governance-tools.mdcounterfactual-",
+                    "examples/diagnostics/counterfactual-",
+                ),
+            ]
+        )
+        if slash_depth >= 2:
+            replacements.extend(
+                [
+                    ("(../.cursor/skills/", "(../../.cursor/skills/"),
+                    ("(../.cursor/rules/", "(../../.cursor/rules/"),
+                    ("](../.cursor/skills/", "](../../.cursor/skills/"),
+                    ("](../.cursor/rules/", "](../../.cursor/rules/"),
+                ]
+            )
+        if slash_depth >= 3:
+            replacements.extend(
+                [
+                    ("(../../.cursor/skills/", "(../../../.cursor/skills/"),
+                    ("(../../.cursor/rules/", "(../../../.cursor/rules/"),
+                ]
+            )
+
+    if rel.startswith("docs/archive/"):
+        replacements.append(("](memory-template.md)", "](../memory-template.md)"))
+
+    if rel.startswith("docs/portable-record/"):
+        replacements.extend(
+            [
+                ("../platform/integrations/", "../../integrations/"),
+                (
+                    "../../integrations/mcp_adapter.py",
+                    "../../platform/integrations/mcp_adapter.py",
+                ),
+                (
+                    "../../../runtime/artifacts/rationales/",
+                    "../../runtime/artifacts/rationales/",
+                ),
+                (
+                    "../../runtime/prepared-context/progressive-disclosure.md",
+                    "../../runtime/prepared-context/budgeted-work-strategy.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("docs/runtime/"):
+        replacements.extend(
+            [
+                (
+                    "../runtime/prepared-context/progressive-disclosure.md",
+                    "../../runtime/prepared-context/budgeted-work-strategy.md",
+                ),
+                (
+                    "runtime/prepared-context/progressive-disclosure.md",
+                    "../../runtime/prepared-context/budgeted-work-strategy.md",
+                ),
+                (
+                    "../../orchestration/review-orchestrator.md",
+                    "../orchestration/review-orchestrator.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("docs/mcp/"):
+        replacements.append(("../platform/integrations/", "../../integrations/"))
+
+    if rel.startswith("statecraft/synthesis/") and "/day/" not in rel and "/month/" not in rel:
+        replacements.extend(
+            [
+                (
+                    "../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md",
+                    "../persia/transactions/lebanon-third-party-recognition-gate-transaction.md",
+                ),
+                ("../../persia/", "../persia/"),
+            ]
         )
 
     if rel.startswith("docs/skill-work/work-strategy/history-notebook/POLYPHONY-WORKFLOW.md"):
-        replacements.append(
-            ("../../../.cursor/rules/strategy-minds-granular.mdc", "../../../../.cursor/rules/strategy-minds-granular.mdc"),
+        replacements.extend(
+            [
+                (
+                    "../../../.cursor/rules/strategy-minds-granular.mdc",
+                    "../../../../.cursor/rules/strategy-minds-granular.mdc",
+                ),
+                (
+                    "../../../../codex/chapters/YYYY-MM/meta.md",
+                    "../../../../codex/chapters/2026/2026-04/meta.md",
+                ),
+                ("codex/chapters/YYYY-MM/", "codex/chapters/2026/2026-04/"),
+            ]
         )
+
+    if rel.startswith("docs/skill-work/"):
+        slash_depth = rel.count("/")
+        replacements.extend(
+            [
+                ("../../memory-template.md", "../memory-template.md"),
+                ("../../operator-agent-lanes.md", "../operator-agent-lanes.md"),
+                ("](../work-coffee/menu-reference.md", "](work-coffee/menu-reference.md)"),
+                ("../../good-morning-brief-spec.md", "README.md"),
+                ("../../good-night-brief-spec.md", "README.md"),
+                ("../../good-night-template.md", "decision-fatigue-reduction.md"),
+                ("../../../scripts/good-night-brief.py", "../../../scripts/operator_end_of_day.py"),
+                ("../../daily-brief-jiang-layer.md", "../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md"),
+                ("../../LEARN_MODE_RULES.md", "../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md"),
+                ("../../../good-morning-brief-spec.md", "../../good-morning-brief-spec.md"),
+                ("../../../good-night-brief-spec.md", "../../good-night-brief-spec.md"),
+                ("../../../good-night-template.md", "../../good-night-template.md"),
+                ("../../../self-work.md", "../../self-work/README.md"),
+            ]
+        )
+
+    if rel.startswith("docs/skill-work/work-strategy/"):
+        replacements.append(
+            (
+                "../work-politics/civ-mem-draft-protocol.md",
+                "../../work-politics/civ-mem-draft-protocol.md",
+            )
+        )
+
+    if rel == "docs/instance-patterns.md" or rel == "docs/schema-record-api.md":
+        replacements.append(("](project-6week-coding.md)", "](../contributing.md)"))
+
+    if rel == "docs/library-schema.md":
+        replacements.append(
+            (
+                "../skill-work/lesson-rules-config.yaml",
+                "skill-work/lesson-rules-config.yaml",
+            )
+        )
+
+    if rel == "statecraft/notes/speaker-audit-workflow.md":
+        replacements.extend(
+            [
+                ("](speaker-accuracy-ledger.md)", "](speaker-audit-workflow.md)"),
+                (
+                    "](speaker-credibility-accuracy-bridge.md)",
+                    "](speaker-audit-workflow.md)",
+                ),
+                ("](speaker-credibility-matrix.md)", "](speaker-audit-workflow.md)"),
+            ]
+        )
+
+    if rel == "statecraft/notes/recognition-threshold-vs-settlement-architecture.md":
+        replacements.extend(
+            [
+                (
+                    "](anchored-historical-citation-policy.md)",
+                    "](../bridges/anchored-historical-citation-policy.md)",
+                ),
+                (
+                    "](persia-recognition-vs-settlement-bridge.md)",
+                    "](../bridges/persia-recognition-vs-settlement-bridge.md)",
+                ),
+                (
+                    "](marandi-civ-state-retrieval-adapter.md)",
+                    "](../bridges/marandi-civ-state-retrieval-adapter.md)",
+                ),
+                (
+                    "](parsi-civ-state-retrieval-adapter.md)",
+                    "](../bridges/parsi-civ-state-retrieval-adapter.md)",
+                ),
+            ]
+        )
+
+    if rel == "statecraft/voices/map/open-first-routes.md":
+        replacements.extend(
+            [
+                (
+                    "../../channels/daniel-davis/arc-barnes-davis-host.md",
+                    "../../notes/arc-barnes-davis-host.md",
+                ),
+                (
+                    "../../channels/dialogue-works/arc-freeman-nima-host.md",
+                    "../../notes/arc-freeman-nima-host.md",
+                ),
+                (
+                    "../freeman/arc-march-2026-cross-host-freeman-host.md",
+                    "../freeman/freeman-march-2026-cross-host-arc.md",
+                ),
+                ("../napolitano/", "../notes/"),
+            ]
+        )
+
+    if rel == "statecraft/voices/jiang/jiang-profile.md":
+        replacements.extend(
+            [
+                (
+                    "../../LEARN_MODE_RULES.md",
+                    "../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md",
+                ),
+                (
+                    "../../daily-brief-jiang-layer.md",
+                    "../../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md",
+                ),
+                (
+                    "strategy-expert-template.md#voice-fingerprint-compact",
+                    "../voice-profile-template.md#voice-fingerprint-compact",
+                ),
+            ]
+        )
+
+    if rel == "statecraft/voices/macgregor/macgregor-routing.md":
+        replacements.extend(
+            [
+                (
+                    "../../../statecraft/channels/daniel-davis/stream",
+                    "../../channels/daniel-davis/index.md",
+                ),
+                (
+                    "../../../statecraft/voices/diesen/stream",
+                    "../diesen/index.md",
+                ),
+                (
+                    "../../../statecraft/channels/judging-freedom/stream",
+                    "../../channels/judging-freedom/index.md",
+                ),
+            ]
+        )
+
+    if rel.startswith("statecraft/states/archive/theory-cross-case-v1/"):
+        replacements.extend(
+            [
+                ("../../../../../../../glossary.md", "../../../glossary.md"),
+                (
+                    "../../../volumes/civ-state-china/",
+                    "../../volumes/civ-state-china/",
+                ),
+                (
+                    "../../../volumes/civ-state-persia/",
+                    "../../volumes/civ-state-persia/",
+                ),
+                (
+                    "../../../volumes/civ-state-rome/",
+                    "../../volumes/civ-state-rome/",
+                ),
+            ]
+        )
+
+    if rel.startswith("docs/automation/"):
+        replacements.append(("../../../.cursor/", "../../.cursor/"))
 
     if rel.startswith("docs/skill-work/work-dev/"):
         replacements.extend(
@@ -1264,6 +1589,8 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
     patterns: list[tuple[str, str]] = [
         (r"statecraft/research/bridges/", "statecraft/bridges/"),
         (r"ph-civ/book/", "public/predictive-history/book/"),
+        (r"codex/chapters/(\d{4})-(\d{2})/", r"codex/chapters/\1/\1-\2/"),
+        (r"codex/chapters/YYYY-MM/", "codex/chapters/2026/2026-04/"),
     ]
     if rel.startswith("statecraft/synthesis/"):
         patterns.append((r"(?:\.\./)+america/transactions/", "../../america/transactions/"))
@@ -1402,6 +1729,43 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 r"\]\(\.\./\.\./\.\./\.cursor/rules/",
                 r"](../../../../.cursor/rules/",
             )
+        )
+    if rel.startswith("skills/") and not rel.startswith("skills/runbooks/"):
+        patterns.append(
+            (r"\]\(\.\./\.\./\.\./\.cursor/rules/", r"](../../.cursor/rules/"),
+        )
+        patterns.append(
+            (r"\]\(\.\./\.\./\.\./\.cursor/skills/", r"](../../.cursor/skills/"),
+        )
+    if rel.startswith("statecraft/voices/davis/"):
+        patterns.append((r"\]\(assets/davis/[^)]+\.png\)", r"](davis-profile.md)"))
+    if rel.startswith(".cursor/skills/statecraft-framework/"):
+        patterns.append(
+            (
+                r"\]\(\.\./\.\./\.\./statecraft/states/theory/form\.md\)",
+                r"](../../../../public/civ-state/theory/memory.md)",
+            )
+        )
+        patterns.append(
+            (r"\]\(\.\./\.\./\.\./statecraft/", r"](../../../../statecraft/"),
+        )
+    if rel.startswith(".cursor/skills/strategy-notebook-expert-cross-weave/"):
+        patterns.append(
+            (
+                r"\]\(\.\./\.\./\.\./codex/chapters/2026-04/meta\.md\)",
+                r"](../../../../codex/chapters/2026/2026-04/meta.md)",
+            )
+        )
+    if rel.startswith(".cursor/skills/skill-write/"):
+        patterns.append(
+            (
+                r"\]\(\.\./\.\./\.\./codex/experts/barnes/mind\.md\)",
+                r"](../../../statecraft/voices/barnes/barnes-mind.md)",
+            )
+        )
+    if rel.startswith("skills/") and not rel.startswith("skills/runbooks/"):
+        patterns.append(
+            (r"\]\(\.\./\.\./\.\./\.cursor/rules/", r"](../../.cursor/rules/"),
         )
     if rel.startswith(".cursor/skills/"):
         patterns.append((r"\]\(\.\./\.\./\.\./\.\./codex/", r"](../../../codex/"))
@@ -1612,32 +1976,40 @@ def fix_windows_absolute(text: str, file_path: Path) -> tuple[str, int]:
 
 
 def fix_cursor_skills_depth(text: str, file_path: Path) -> tuple[str, int]:
-    """Fix wrong-depth .cursor/skills links under docs/ and skills/."""
+    """Fix wrong-depth .cursor/skills and .cursor/rules links."""
     rel = file_path.relative_to(REPO_ROOT).as_posix()
-    if not (rel.startswith("docs/") or rel.startswith("skills/") or rel.startswith(".cursor/skills/")):
-        return text, 0
-    skills_root = REPO_ROOT / ".cursor" / "skills"
-    if not skills_root.is_dir():
+    if not (
+        rel.startswith("docs/")
+        or rel.startswith("skills/")
+        or rel.startswith("statecraft/")
+        or rel.startswith(".cursor/skills/")
+    ):
         return text, 0
     count = 0
 
-    def repl(match: re.Match[str]) -> str:
-        nonlocal count
-        tail = match.group(1)
-        target = skills_root / tail
-        if not target.is_file():
-            return match.group(0)
-        correct = os.path.relpath(target, file_path.parent.resolve()).replace("\\", "/")
-        if correct == match.group(0)[2:-1]:  # strip ]( and )
-            return match.group(0)
-        count += 1
-        return f"]({correct})"
+    for sub in ("skills", "rules"):
+        root = REPO_ROOT / ".cursor" / sub
+        if not root.is_dir():
+            continue
 
-    text = re.sub(
-        r"\]\((?:\.\./)+\.cursor/skills/([^)]+)\)",
-        repl,
-        text,
-    )
+        def repl(match: re.Match[str], *, sub: str = sub, root: Path = root) -> str:
+            nonlocal count
+            tail = match.group(1)
+            target = root / tail
+            if not target.is_file():
+                return match.group(0)
+            correct = os.path.relpath(target, file_path.parent.resolve()).replace("\\", "/")
+            inner = match.group(0)[2:-1]
+            if correct == inner:
+                return match.group(0)
+            count += 1
+            return f"]({correct})"
+
+        text = re.sub(
+            rf"\]\((?:\.\./)+\.cursor/{sub}/([^)]+)\)",
+            repl,
+            text,
+        )
     return text, count
 
 
@@ -1698,9 +2070,6 @@ def fix_file(path: Path) -> int:
     text, n = fix_agents_depth(text, path)
     total += n
 
-    text, n = fix_cursor_skills_depth(text, path)
-    total += n
-
     text, n = fix_template_routing_prose(text, path)
     total += n
 
@@ -1711,6 +2080,9 @@ def fix_file(path: Path) -> int:
     total += n
 
     text, n = fix_regex_patterns(text, path)
+    total += n
+
+    text, n = fix_cursor_skills_depth(text, path)
     total += n
 
     # Fix inline markdown links

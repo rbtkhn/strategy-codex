@@ -19,12 +19,12 @@ Use this as the fastest front door when you already know the speaker and just ne
 |---|---|---|
 | Pape | escalation trap and coercive-system leverage | [Pape forecast ledger - 2026](pape/pape-forecast-ledger-2026.md) |
 | Crooke | treaty form and redemptive permanent-war mutation | [Treaty form vs transactional settlement](crooke/treaty-form-vs-transactional-settlement.md) |
-| Marandi | sovereignty-through-endurance under coercive pressure | [Marandi arc](../marandi/marandi-arc.md) |
+| Marandi | sovereignty-through-endurance under coercive pressure | [Marandi arc](marandi/marandi-arc.md) |
 | Freeman | imported strategic models fail substrate tests | [Thucydidean misfit and civilizational-state difference](freeman/thucydidean-misfit-and-civilizational-state-difference.md) |
 | Parsi | coercion fails because the settlement architecture is wrong | [Parsi helix](parsi/parsi-helix.md) |
 | Ritter | force is mistaken for control | [Ritter helix](ritter/ritter-helix.md) |
 | Mercouris | diplomatic room and exclusion anxiety shape outcomes | [Mercouris speaker object](mercouris/mercouris-speaker-object.md) |
-| Barnes | domestic survivability is a first-order foreign-policy variable | [Barnes arc](../barnes/barnes-arc.md) |
+| Barnes | domestic survivability is a first-order foreign-policy variable | [Barnes arc](barnes/barnes-arc.md) |
 | Beebe | bargaining geometry and escalation management before entrapment | [Beebe speaker object](beebe/beebe-speaker-object.md) |
 | Wilkerson | imperial decline appears as legitimacy collapse and self-harm | [Wilkerson helix](wilkerson/wilkerson-helix.md) |
 | Macgregor | force-balance reality outruns rhetoric | [Macgregor helix](macgregor/macgregor-helix.md) |
@@ -128,8 +128,8 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 | slot | thesis | best file | falsifier | do not confuse with |
 |---|---|---|---|---|
-| 1 | Iran translates coercive pressure into sovereignty, endurance, and legitimacy rather than surrender. | [Marandi arc](../marandi/marandi-arc.md) | Iran rapidly capitulates, loses strategic agency, or publicly reframes pressure as legitimate compellence. | Neutral wire-grade verification. Marandi is a Tehran-facing legitimacy interpreter. |
-| 2 | Hormuz is selective leverage and bargaining power, not a neutral shipping fact. | [Marandi arc](../marandi/marandi-arc.md) | Marandi's lane treats Hormuz as generic disruption rather than controllable leverage on Iranian terms. | Pape's wider energy-system thesis. Marandi is about regime-adjacent leverage and legitimacy framing. |
+| 1 | Iran translates coercive pressure into sovereignty, endurance, and legitimacy rather than surrender. | [Marandi arc](marandi/marandi-arc.md) | Iran rapidly capitulates, loses strategic agency, or publicly reframes pressure as legitimate compellence. | Neutral wire-grade verification. Marandi is a Tehran-facing legitimacy interpreter. |
+| 2 | Hormuz is selective leverage and bargaining power, not a neutral shipping fact. | [Marandi arc](marandi/marandi-arc.md) | Marandi's lane treats Hormuz as generic disruption rather than controllable leverage on Iranian terms. | Pape's wider energy-system thesis. Marandi is about regime-adjacent leverage and legitimacy framing. |
 | 3 | Negotiation is a low-trust domain of anti-humiliation management, not trust-building optics. | [Marandi 2025-present arc threads](marandi/marandi-2025-present-arc-threads.md) | Iranian-facing messaging starts treating negotiations as normal trust-building rather than deceptive terrain requiring strict written conditions. | Parsi's architecture-first diplomacy lane. |
 
 ## Freeman
@@ -168,9 +168,9 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 | slot | thesis | best file | falsifier | do not confuse with |
 |---|---|---|---|---|
-| 1 | Strategic escalation is best read through domestic political survivability, not only through military or diplomatic altitude. | [Barnes arc](../barnes/barnes-arc.md) | Foreign-policy escalation proceeds with little relation to domestic coalition, electoral, donor, or survivability pressures. | Wilkerson's imperial-decline warning. Barnes is much more inside the U.S. political machine. |
-| 2 | War talk becomes real or fake depending on constitutional-process and war-powers exposure. | [Barnes arc](../barnes/barnes-arc.md) | Escalation paths prove fully durable even when their legal and congressional basis is incoherent or absent. | Napolitano's legality register. Barnes is more political-process and room-dynamics oriented. |
-| 3 | Negotiation stories must be tested against executive chaos, room dynamics, and whether the White House can actually carry the deal. | [Barnes arc](../barnes/barnes-arc.md) | Negotiation tracks routinely hold even when executive instability and factional incoherence are obvious. | Parsi's settlement design or Crooke's structural process critique. |
+| 1 | Strategic escalation is best read through domestic political survivability, not only through military or diplomatic altitude. | [Barnes arc](barnes/barnes-arc.md) | Foreign-policy escalation proceeds with little relation to domestic coalition, electoral, donor, or survivability pressures. | Wilkerson's imperial-decline warning. Barnes is much more inside the U.S. political machine. |
+| 2 | War talk becomes real or fake depending on constitutional-process and war-powers exposure. | [Barnes arc](barnes/barnes-arc.md) | Escalation paths prove fully durable even when their legal and congressional basis is incoherent or absent. | Napolitano's legality register. Barnes is more political-process and room-dynamics oriented. |
+| 3 | Negotiation stories must be tested against executive chaos, room dynamics, and whether the White House can actually carry the deal. | [Barnes arc](barnes/barnes-arc.md) | Negotiation tracks routinely hold even when executive instability and factional incoherence are obvious. | Parsi's settlement design or Crooke's structural process critique. |
 
 ## Beebe
 
@@ -202,7 +202,7 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 |---|---|---|---|---|
 | 1 | Coercion fails to recover leverage; military threats outrun political attainability. | [Johnson April-May 2026 arc-threads](johnson/johnson-april-may-2026-arc-threads.md) | Escalatory threats repeatedly restore leverage and produce attainable political outcomes without blowback. | Pape's formal threshold ledger. Johnson is more humiliation-and-collapse tempo than forecast architecture. |
 | 2 | Hormuz and Gulf exposure rebound pressure back onto the U.S. and Israeli camp rather than locking Iran into surrender. | [Johnson April-May 2026 arc-threads](johnson/johnson-april-may-2026-arc-threads.md) | Gulf exposure proves strategically manageable for the U.S. camp while Iran absorbs the main cost alone. | Marandi's Iran-facing legitimacy lane. Johnson is reading strategic rebound and consequence from a pressure-interpreter register. |
-| 3 | Escalation produces humiliation, contradiction, and process absurdity rather than restored control. | [Johnson arc](../johnson/johnson-arc.md) | Crisis management becomes cleaner, more coherent, and more politically successful as coercion intensifies. | Barnes's White House room-dynamics thesis. Johnson is wider and more crisis-tempo oriented. |
+| 3 | Escalation produces humiliation, contradiction, and process absurdity rather than restored control. | [Johnson arc](johnson/johnson-arc.md) | Crisis management becomes cleaner, more coherent, and more politically successful as coercion intensifies. | Barnes's White House room-dynamics thesis. Johnson is wider and more crisis-tempo oriented. |
 
 ## Sachs
 

@@ -10,7 +10,7 @@ WORK only; not Record.
 |-----|-------------|
 | **`codex/raw-input/<pub_date>/`** verbatim files | **`source-archive/statecraft/YYYY-MM-DD/source-<slug>.md`** |
 | **`substack-*` / `youtube-*` / `transcript-*`** notebook filenames | **`source-*`** archive prefix — [source-archive/statecraft/README.md](../../../source-archive/statecraft/README.md) (filename law) |
-| Monolithic markdown write to notebook raw-input | **`source-intake`** — sidecar `Write` + `land_statecraft_source_body.py` — [statecraft-source-intake SKILL](../../../.cursor/skills/statecraft-source-intake/SKILL.md) |
+| Monolithic markdown write to notebook raw-input | **`source-intake`** — sidecar `Write` + `land_statecraft_source_body.py` — [statecraft-source-intake SKILL](../../../skills/statecraft-source-intake/SKILL.md) |
 | **`strategy input`** / pasted essay + URL | Same turn: **`source-intake`** land first, then digest / synthesis — [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) |
 | YouTube roster → capture | **`check sources`** → approve → **`source-intake`** — see [YOUTUBE-MATERIALIZE-DEPRECATED.md](YOUTUBE-MATERIALIZE-DEPRECATED.md) |
 
@@ -24,7 +24,7 @@ WORK only; not Record.
 
 ## Material type → frontmatter (same land skill)
 
-Choose **`kind`** and **`source_form`** per [statecraft-source-intake](../../../.cursor/skills/statecraft-source-intake/SKILL.md) family table — do not pick a different folder per type.
+Choose **`kind`** and **`source_form`** per [statecraft-source-intake](../../../skills/statecraft-source-intake/SKILL.md) family table — do not pick a different folder per type.
 
 | Material | Typical `kind` | Typical `source_form` |
 |----------|----------------|------------------------|

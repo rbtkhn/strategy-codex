@@ -29,7 +29,7 @@ Includes:
 - optional daily aggregator (`SYNC-DAILY.template.md`, training mode)
 - enablement runbook (`ENABLE-SYNC-PACK.md`)
 
-**Instance file:** [self-work.md](../../../self-work.md) (grace-mar). Other companions keep `self-work.md` in **their own** instance repos.
+**Instance file:** [self-work.md](../../../README.md) (grace-mar). Other companions keep `self-work.md` in **their own** instance repos.
 
 **Upstream:** companion-self should carry `platform/template/self-work.md` when a default starter is promoted; template [self-work README](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/self-work/README.md) is canonical for portable doctrine (clarity table, sync-pack pointer).
 

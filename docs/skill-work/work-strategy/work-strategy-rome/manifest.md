@@ -33,7 +33,7 @@
 - **When:** Analysis needs **precedent**, **institutional memory**, or **long-arc** framing (not breaking news).
 - **How:** Build or refresh the in-repo index: `python3 scripts/build_civmem_inrepo_index.py build`; retrieve against [docs/civilization-memory/README.md](../../../civilization-memory/README.md). Optional overlap pattern matches [daily-brief-2026-04-02.md](../daily-brief-2026-04-02.md) §2 footer (historical depth only).
 - **Stewardship:** Corpus and upstream workflow live under [work-civ-mem](../../work-civ-mem/README.md); **no** second civ-mem index inside `work-strategy-rome/`.
-- **Shipped copy:** Anything that leaves WORK for **public** or **campaign** surfaces follows [civ-mem-draft-protocol.md](../../work-politics/civ-mem-draft-protocol.md).
+- **Shipped copy:** Anything that leaves WORK for **public** or **campaign** surfaces follows [civ-mem-draft-protocol.md](../../../../work-politics/civ-mem-draft-protocol.md).
 - **Boundary:** CIV-MEM is **removed operator-books symlink / reference** terrain, not identity; see [archive/boundary-self-knowledge-self-library.md](../../../archive/boundary-self-knowledge-self-library.md).
 
 ## Governance

@@ -49,7 +49,7 @@
 - [skills-modularity.md](../skills-modularity.md) — WRITE module, Voice as f(skill-write)
 - [skills-template.md](../skills-template.md) — skill file shape
 - Instance WRITE evidence: `skill-write.md` (or split per template); see [canonical-paths.md](../canonical-paths.md)
-- Topic-first ledes (Cursor): [.cursor/rules/drafting-topic-lede.mdc](../../../.cursor/rules/drafting-topic-lede.mdc)
+- Topic-first ledes (Cursor): [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc)
 
 ## Locals workflow
 

@@ -14,7 +14,7 @@ Strategy-codex routing and SSOT paths for voice-profile-panel.
 | Mercouris profile | [statecraft/voices/mercouris/mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) |
 | Barnes profile | [statecraft/voices/barnes/barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) |
 | Mearsheimer profile | [statecraft/voices/mearsheimer/mearsheimer-profile.md](../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) |
-| Authentic voice rule | [.cursor/rules/minds-authentic-voice.mdc](../../../.cursor/rules/minds-authentic-voice.mdc) |
+| Authentic voice rule | [.cursor/rules/minds-authentic-voice.mdc](../../rules/minds-authentic-voice.mdc) |
 | TRI-MIND deprecated | [docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) |
 
 ## Related skills

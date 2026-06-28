@@ -4,7 +4,7 @@
 
 **Purpose:** Compare how **skill-work** (self-skill-work, WORK module, BUILD container) is defined in the **companion-self template** vs how it is **instantiated** in the **grace-mar** instance. Template = schema, intent, and governance; instance = concrete Record with evidence and levels.
 
-**References:** Template: [SKILLS-TEMPLATE](skills-template.md) Â§ WORK, [SKILLS-MODULARITY](skills-modularity.md). Instance: [skill-work.md](../skill-work.md), [analysis-grace-mar-skill-work](analysis-grace-mar-skill-work.md).
+**References:** Template: [SKILLS-TEMPLATE](skills-template.md) Â§ WORK, [SKILLS-MODULARITY](skills-modularity.md). Instance: [skill-work.md](skill-work/README.md), [analysis-grace-mar-skill-work](analysis-grace-mar-skill-work.md).
 
 ---
 

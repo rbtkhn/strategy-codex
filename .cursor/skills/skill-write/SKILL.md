@@ -34,7 +34,7 @@ scope_class: repo-governed
 | **`skill-write`**, **`strategy write`**, **`publish`** (Locals / X / PH), **VivaBarnesLaw** / **Locals paste** | Load **write-operator-preferences** and apply **shipping checklist** before shipping paste-ready copy. |
 | **`strategy`** + **`write`** / **`publish`** in the **same** request | Substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier; this hub for **public surface** prose — **both**, not write alone. |
 | Bare **`write`** (coding context) | **Not** this skill by default - clarify or use **`skill-write`**. |
-| **Locals** / **VivaBarnesLaw** | Forum craft per hub - **not** default [`CIV-MIND-BARNES`](../../../codex/experts/barnes/mind.md) linguistic fingerprint (that is **tri-mind / WORK** unless explicitly requested). |
+| **Locals** / **VivaBarnesLaw** | Forum craft per hub - **not** default [`CIV-MIND-BARNES`](../../../statecraft/voices/barnes/barnes-mind.md) linguistic fingerprint (that is **tri-mind / WORK** unless explicitly requested). |
 
 For **analysis-derived Locals** drafts, the standard workflow now includes:
 
@@ -70,5 +70,5 @@ When drafting copy anchored to [`research/repos/civilization_memory`](../../../r
 
 ## Cursor rules (always-on overlays)
 
-- [`.cursor/rules/drafting-topic-lede.mdc`](../../../.cursor/rules/drafting-topic-lede.mdc)
+- [`.cursor/rules/drafting-topic-lede.mdc`](../../rules/drafting-topic-lede.mdc)
 - Closers / no stacked abstract / no rhetorical question closer -> linked from **write-operator-preferences**

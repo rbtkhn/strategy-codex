@@ -18,7 +18,7 @@ tags:
 
 **Use instead:**
 
-- [`.cursor/rules/operator-style.mdc`](../../../.cursor/rules/operator-style.mdc) — Think lane: restate, pros, cons, **disproportion**, recommendation (no ship unless asked)
+- [`.cursor/rules/operator-style.mdc`](../../rules/operator-style.mdc) — Think lane: restate, pros, cons, **disproportion**, recommendation (no ship unless asked)
 - When tradeoffs follow a **lane survey**, use runbook step 7 in [`domain-lane-survey.runbook.md`](../../../skills/runbooks/domain-lane-survey.runbook.md)
 
 ## Legacy activation

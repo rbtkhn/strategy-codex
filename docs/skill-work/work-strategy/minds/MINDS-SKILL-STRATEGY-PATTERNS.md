@@ -78,7 +78,7 @@ The stronger pattern is:
 
 **What:** Run one mind when the day’s problem is clearly one-dimensional.  
 **When:** Crisis days, narrow drafting days, or when the operator wants speed.  
-**Where in repo:** `../../codex/chapters/YYYY-MM/days.md` under `### Reflection`, with one line in `### References` citing the relevant strategy-expert **`-mind.md`** (SSOT) or **`CIV-MIND-*.md`** redirect.  
+**Where in repo:** `../../codex/chapters/2026/2026-04/days.md` under `### Reflection`, with one line in `### References` citing the relevant strategy-expert **`-mind.md`** (SSOT) or **`CIV-MIND-*.md`** redirect.  
 **Cost:** Light.  
 **Risk:** Overfitting the day to one lens and missing a hidden contradiction.
 
@@ -157,7 +157,7 @@ The stronger pattern is:
 
 **What:** Review in `meta.md` which lenses were actually useful that month.  
 **When:** Month close or after a major arc ends.  
-**Where in repo:** `../../codex/chapters/YYYY-MM/meta.md`  
+**Where in repo:** `../../codex/chapters/2026/2026-04/meta.md`  
 **Cost:** Medium.  
 **Risk:** Retroactive rationalization.
 

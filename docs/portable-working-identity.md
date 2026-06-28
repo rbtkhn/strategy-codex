@@ -10,7 +10,7 @@ Grace-Mar already functions as a governed portable working-identity system. The 
 |---|---|
 | Canonical Record surfaces | Four first-class surfaces: **SELF**, **removed operator-books symlink**, **SKILLS**, **EVIDENCE** ([runtime-vs-record.md](runtime-vs-record.md)) |
 | Runtime vs Record separation | Durable Record governed by the pipeline; runtime artifacts derived and rebuildable ([runtime-vs-record.md](runtime-vs-record.md)) |
-| Prepared selective retrieval | Progressive-disclosure index, budgeted context, memory briefs ([runtime/prepared-context/](../runtime/prepared-context/), [progressive-disclosure.md](runtime/prepared-context/progressive-disclosure.md)) |
+| Prepared selective retrieval | Progressive-disclosure index, budgeted context, memory briefs ([runtime/prepared-context/](../runtime/prepared-context/), [progressive-disclosure.md](../runtime/prepared-context/budgeted-work-strategy.md)) |
 | PRP export | Single pasteable prompt encoding Record surfaces for any LLM ([portable-record-prompt.md](portable-record-prompt.md), [`scripts/export_prp.py`](../scripts/export_prp.py)) |
 | Runtime bundle export | Structured bundle with record/, policy/, runtime/, audit/ ([`scripts/export_runtime_bundle.py`](../scripts/export_runtime_bundle.py)) |
 | Emulation-ready export | Thin wrapper over PRP + fork + runtime bundle + existing review references ([`scripts/export_emulation_bundle.py`](../scripts/export_emulation_bundle.py), [portable-record/export-contract.md](portable-record/export-contract.md)) |

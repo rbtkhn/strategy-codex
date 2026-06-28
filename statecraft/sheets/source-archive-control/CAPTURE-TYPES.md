@@ -124,4 +124,4 @@ WORK only; not Record.
 - [README.md](README.md) — layout, pruning, **`fetch_strategy_raw_input`**, **`populate_strategy_raw_input`**
 - [refined-page-template.md](../../../codex/refined-page-template.md) — Selected Passages budget, Appendix bullet order
 - [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) — split ingest model
-- [`.cursor/rules/strategy-input-raw-ingest.mdc`](../../../../../.cursor/rules/strategy-input-raw-ingest.mdc) — mandatory verbatim capture rule
+- [`.cursor/rules/strategy-input-raw-ingest.mdc`](../../../.cursor/rules/strategy-input-raw-ingest.mdc) — mandatory verbatim capture rule

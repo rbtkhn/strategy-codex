@@ -37,4 +37,4 @@ This folder holds **submodules** that support WORK, the Record, and instances: h
 - **Work-strategy (`skill-strategy`):** Listed in **Submodules** above — [work-strategy/README.md](work-strategy/README.md); activation [`.cursor/skills/skill-strategy/SKILL.md`](work-strategy/SKILL-STRATEGY-DEPRECATED.md).
 - [Long-term objective](../long-term-objective.md) — Links to skill-work submodules.
 - [Concept](../concept.md), [Schema and API](../schema-record-api.md), [Instance patterns](../instance-patterns.md).
-- [Good Morning Brief Spec](../good-morning-brief-spec.md), [Good Night Template](../good-night-template.md), [Good Night Brief Spec](../good-night-brief-spec.md).
+- [Good Morning Brief Spec](work-cadence/README.md), [Good Night Template](work-cadence/decision-fatigue-reduction.md), [Good Night Brief Spec](work-cadence/README.md).

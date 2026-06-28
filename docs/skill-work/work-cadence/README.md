@@ -450,10 +450,10 @@ If the **same** troubleshooting bullet applies **twice in a short window**, add 
 - [scripts/cadence-coffee.py](../../../scripts/cadence-coffee.py) â€” coffee runner
 - [scripts/cadence-dream.py](../../../scripts/cadence-dream.py) â€” dream runner
 - [scripts/good-morning-brief.py](../../../scripts/good-morning-brief.py) â€” morning brief generator
-- [scripts/good-night-brief.py](../../../scripts/good-night-brief.py) â€” night brief generator
-- [docs/good-morning-brief-spec.md](../../good-morning-brief-spec.md) â€” full morning spec
-- [docs/good-night-brief-spec.md](../../good-night-brief-spec.md) â€” full night spec
-- [docs/good-night-template.md](../../good-night-template.md) â€” recommended night sequence
+- [scripts/good-night-brief.py](../../../scripts/operator_end_of_day.py) â€” night brief generator
+- [docs/good-morning-brief-spec.md](README.md) â€” full morning spec
+- [docs/good-night-brief-spec.md](README.md) â€” full night spec
+- [docs/good-night-template.md](decision-fatigue-reduction.md) â€” recommended night sequence
 
 ---
 

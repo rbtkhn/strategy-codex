@@ -11,7 +11,7 @@
 - **Compression path (active):** [CONDUCTOR-COMPRESSION-SPEC.md](CONDUCTOR-COMPRESSION-SPEC.md) — coffee hub + attention phrases + extended `coffee_close`; compress standalone conductor ritual in phases.
 - **Continuity:** `dream_coffee_rollup.py` remembers what is still warm enough to matter next.
 - **Observability:** `build_work_pass_ledger.py` shows work-pass closes over a review window (`build_conductor_ledger.py` = deprecated shim).
-- **Durable learning:** [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) record machine law; [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md) scores conductor arc generalization.
+- **Durable learning:** [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) + [recursive-learn skill](../../../skills/recursive-learn/SKILL.md) record machine law; [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md) scores conductor arc generalization.
 
 Fast doorway:
 - overview and rationale: [README.md](README.md)
@@ -43,7 +43,7 @@ This split is intentional:
 
 **`coffee` C - Statecraft** now opens a WORK-only repo-root [statecraft](../../../statecraft/README.md) router-first entry: **A. Deploy**, **B. Compact**, **C. Speaker-Bridge**, and **D. Lane Direct**. The second lane menu appears only after **D**, where **A. America**, **B. China**, **C. Persia**, and **D. Russia** remain the direct lane choices. After that lane pick, the next honest submenu is transcript-grounded intake, not an immediate jump to `helix`, `state`, `bridge`, or `transactions`. Agents should **not** auto-run the daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame before this submenu. Those remain explicit named routes unless the operator asks to convert source material into a statecraft instrument.
 
-Named follow-on: after **C. Statecraft**, the operator may also invoke **`civ-state`** directly to open the upstream CIV-STATE analysis bench ([civ-state skill](../../../.cursor/skills/civ-state/SKILL.md); legacy alias: `statecraft civ-state`). That command is for `Frame / Retrieve / Promote / Review`, not default lane drafting and not default book-writing.
+Named follow-on: after **C. Statecraft**, the operator may also invoke **`civ-state`** directly to open the upstream CIV-STATE analysis bench ([civ-state skill](../../../skills/civ-state/SKILL.md); legacy alias: `statecraft civ-state`). That command is for `Frame / Retrieve / Promote / Review`, not default lane drafting and not default book-writing.
 
 **Symphony / Conductor:** Conductor is standalone name-only; strategy-notebook cadence lives in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) + [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). Invoke by conductor name, **`conductor <name>`**, or [conductor skill](../../../.cursor/skills/conductor/SKILL.md) without opening **`coffee`** when preferred.
 
@@ -59,7 +59,7 @@ In repo terms:
 
 - `dream_coffee_rollup.py` is the warm handoff surface
 - `build_work_pass_ledger.py` is the derived review surface (`build_conductor_ledger.py` = deprecated shim)
-- `recursive-learning-journal.md` + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) is the machine-law surface
+- `recursive-learning-journal.md` + [recursive-learn skill](../../../skills/recursive-learn/SKILL.md) is the machine-law surface
 - `conductor-arc-impact-journal.md` is the conductor arc scoring surface
 
 This matters because a system that mixes those jobs becomes hard to trust. It either overstates a warm impression as truth, or buries a useful human lesson inside raw counters.

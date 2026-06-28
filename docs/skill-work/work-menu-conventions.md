@@ -99,7 +99,7 @@ If the operator enables an **experimental** â€œconfidenceâ€ or â€œe
 
 ## 6. Auditing picks (Choice journal)
 
-**Do not** auto-append operator menu picks to **`memory.md`** / **memory** from the Voice or analyst without governance change ([`docs/memory-template.md`](../../memory-template.md)).
+**Do not** auto-append operator menu picks to **`memory.md`** / **memory** from the Voice or analyst without governance change ([`docs/memory-template.md`](../memory-template.md)).
 
 **Do** log picks **explicitly** when the operator wants a trail:
 
@@ -208,8 +208,8 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 
 - **Menu benefit clause (always-on):** [`.cursor/rules/menu-option-benefits.mdc`](../../.cursor/rules/menu-option-benefits.mdc) · §1b above
 - **`strategy + verify`** (named fork) — §4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](work-strategy/SKILL-STRATEGY-DEPRECATED.md).
-- **Fixed session menu (`coffee` - same **A-D** hub for work-start and signing-off; legacy **hey** still works):** not the 3-5 WORK pattern - canonical hub: **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. Coffee **C** then routes into the four civilizational-state lanes America, China, Persia, and Russia. Conductor is standalone by `conductor` / master name, not a hub letter. **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B - Engineer**. Legacy **A-G** workload table for mapping: [menu-reference.md](../work-coffee/menu-reference.md). Roles: [.cursor/skills/coffee/SKILL.md](../../.cursor/skills/coffee/SKILL.md).
-- [Operatorâ€“agent lanes](../../operator-agent-lanes.md)
+- **Fixed session menu (`coffee` - same **A-D** hub for work-start and signing-off; legacy **hey** still works):** not the 3-5 WORK pattern - canonical hub: **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. Coffee **C** then routes into the four civilizational-state lanes America, China, Persia, and Russia. Conductor is standalone by `conductor` / master name, not a hub letter. **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B - Engineer**. Legacy **A-G** workload table for mapping: [menu-reference.md](work-coffee/menu-reference.md)). Roles: [.cursor/skills/coffee/SKILL.md](../../.cursor/skills/coffee/SKILL.md).
+- [Operatorâ€“agent lanes](../operator-agent-lanes.md)
 - [Coffee skill](../../.cursor/skills/coffee/SKILL.md)
 - [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
 - [Bootstrap â€” coffee](../../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md)

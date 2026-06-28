@@ -113,7 +113,7 @@ Examples:
 
 ## Maturity
 
-Optional **maturity** field (1–3) aligns LIBRARY with lesson difficulty. Same scale is used in [lesson-rules-config](../skill-work/lesson-rules-config.yaml) for LLM lesson scope.
+Optional **maturity** field (1–3) aligns LIBRARY with lesson difficulty. Same scale is used in [lesson-rules-config](skill-work/lesson-rules-config.yaml) for LLM lesson scope.
 
 | Value | Label | Description |
 |-------|-------|-------------|

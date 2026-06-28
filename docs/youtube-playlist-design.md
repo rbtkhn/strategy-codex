@@ -4,7 +4,7 @@
 
 **Status:** Design spec. Not yet implemented.
 
-**See also:** [ARCHITECTURE](architecture.md), [LIBRARY](architecture.md#library), [integration-apis](integration-apis.md) (if created).
+**See also:** [ARCHITECTURE](architecture.md), [LIBRARY](architecture.md#library), [integration-apis](architecture.md) (if created).
 
 ---
 

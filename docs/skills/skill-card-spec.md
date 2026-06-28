@@ -1,6 +1,6 @@
 # Skill card spec (v1)
 
-**Purpose:** Define **skill cards** — small **derived** JSON/Markdown summaries of portable Cursor skills for faster operator and agent context loading. Cards are **not** canonical skill bodies and **do not** replace [`skills/`](../../skills/) sources or generated [`.cursor/skills/`](../../.cursor/skills/) files.
+**Purpose:** Define **skill cards** — small **derived** JSON/Markdown summaries of portable Cursor skills for faster operator and agent context loading. Cards are **not** canonical skill bodies and **do not** replace [`skills/`](../../skills/) sources or generated [`.cursor/skills/`](../../skills) files.
 
 **Schema:** [`schemas/registry/skill-card.v1.json`](../../schemas/registry/skill-card.v1.json)
 
@@ -16,7 +16,7 @@
 | `title` | Human title — first Markdown `#` heading body in the portable `SKILL.md` after frontmatter, else `name`. |
 | `purpose` | One-line intent — YAML `description` from frontmatter. |
 | `runtime_snippet` | Short excerpt of the portable body (whitespace-normalized, capped) for paste into a session. |
-| `operator_view` | Grace-Mar operator hint — first ~500 characters of [`.cursor/skills/<id>/CURSOR_APPENDIX.md`](../../.cursor/skills/) when present; else a pointer to the portable file. |
+| `operator_view` | Grace-Mar operator hint — first ~500 characters of [`.cursor/skills/<id>/CURSOR_APPENDIX.md`](../../skills) when present; else a pointer to the portable file. |
 | `source_path` | Repo-relative path to the **canonical portable** skill file: `skills/<id>/SKILL.md`. |
 | `last_updated` | ISO 8601 UTC timestamp from portable `SKILL.md` file mtime. |
 

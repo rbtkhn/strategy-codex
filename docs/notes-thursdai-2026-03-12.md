@@ -18,7 +18,7 @@ Grace-Mar already runs **OpenClaw**, **gated pipeline**, **work-politics**, and 
 | **Fly connectome sim (Eon)** | Upload/simulation line is a **capability marker**, not a product direction here. Useful as analogy: small closed systems before large ones. |
 | **OpenClaw in China / queues / subsidies** | Social + economic pull for **persistent agent instances** (heartbeat, token burn). Reinforces **security posture** (AGENTS: no autonomous merge; operator owns keys and surfaces). |
 | **“Raising a red lobster” / memes** | Distribution is partly **mimetic**, not only technical. WPC outreach: proof + bounded offers still beat hype-only. |
-| **Ryan: OpenClaw still hard** | Expect **failure states** and fiddling — same class as any orchestration layer. Docs and handoffs matter ([handoff-check skill](.cursor/skills/handoff-check/SKILL.md)). |
+| **Ryan: OpenClaw still hard** | Expect **failure states** and fiddling — same class as any orchestration layer. Docs and handoffs matter ([handoff-check skill](../.cursor/skills/handoff-check/SKILL.md)). |
 | **Wolfram ≈ Linux 90s** | Early adopters tolerate friction; **enterprise/security** layers follow. Grace-Mar stays **companion-gated**, not “zero-human company.” |
 | **ACP (Agent Client Protocol)** | Emerging **agent ↔ editor** standard (cf. MCP). Relevant if Cursor/OpenClaw integration deepens — track, don’t rush adopt. |
 | **Paperclip / Symphony** | **Heartbeat = markdown state** (what to do each wake). Maps to session continuity: agents are “Memento”-like without persistent self unless we write it (Record + MEMORY). |

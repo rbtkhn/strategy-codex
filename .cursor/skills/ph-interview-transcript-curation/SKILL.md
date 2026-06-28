@@ -168,14 +168,14 @@ Run the **lowest pass still needed**. One commit slice per pass when practical. 
 ## ASR / entity discipline
 
 - Infer speakers from turn-taking and host/guest names; list ambiguous names in README (Tucker: "John" at CUFI — likely Hagee, not pinned)
-- When editing from strategy-codex, apply operator place-name policy in **framing** around quotes ([Kiev/Kharkov rule](../../../.cursor/rules/strategy-codex-kiev-spelling.mdc)) — preserve source spelling inside load-bearing quotes when load-bearing
+- When editing from strategy-codex, apply operator place-name policy in **framing** around quotes ([Kiev/Kharkov rule](../../rules/strategy-codex-kiev-spelling.mdc)) — preserve source spelling inside load-bearing quotes when load-bearing
 - Do not rewrite argument, add facts, or smooth into editorial essay prose
 
 ## Windows harness
 
 - One **Shell** per turn; one **StrReplace/Write path** per file per turn when possible
 - Bounded **Read** on known interview paths — no repo-wide grep storms
-- After hang: Read/Write only until patch lands ([agent-tool-latency-discipline](../../../.cursor/rules/agent-tool-latency-discipline.mdc))
+- After hang: Read/Write only until patch lands ([agent-tool-latency-discipline](../../rules/agent-tool-latency-discipline.mdc))
 
 ## Verification / Proof Standard
 

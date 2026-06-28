@@ -161,6 +161,6 @@ Use this pattern when identity coherence, boundary clarity, auditability, and co
 
 - [Concept](concept.md) — READ/WRITE/WORK, identity and instrument.
 - [Schema and API contract](schema-record-api.md) — Record schema; **WORK objectives and tasks standard** (objectives, work_goals, tasks with summary/status/evidence_id).
-- [Ingestion and sources](ingestion-and-sources.md) — Many sources → staging → gate → Record; triggers for suggested merges.
+- [Ingestion and sources](architecture.md) — Many sources → staging → gate → Record; triggers for suggested merges.
 - [Identity Fork Protocol](identity-fork-protocol.md) — Sovereign Merge Rule, schema, Process the gate.
-- [Project 6-week coding](project-6week-coding.md) — Minimal companion app (no analyst, no Voice).
+- [Project 6-week coding](../contributing.md) — Minimal companion app (no analyst, no Voice).

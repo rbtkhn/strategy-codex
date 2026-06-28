@@ -16,7 +16,7 @@ This registry is **corpus tier 3** (current-events news / official) — see [sta
 
 | Corpus tier | Examples | News-verify |
 |-------------|----------|-------------|
-| **1** Historical primary | Thucydides, Primary Chronicle, *Federalist Papers*, treaties in named edition | **Out of scope** — [civ-state primary-text acquisition](../../../.cursor/skills/civ-state-primary-text-acquisition/SKILL.md) |
+| **1** Historical primary | Thucydides, Primary Chronicle, *Federalist Papers*, treaties in named edition | **Out of scope** — [civ-state primary-text acquisition](../../../skills/civ-state-primary-text-acquisition/SKILL.md) |
 | **2** Historical secondary | Durant, Gibbon, Goldsworthy, Kaldellis; CIV-MEM | **Out of scope** — mechanism support for tier 1 |
 | **3** Current-events news | This registry (lanes + outlets) | **In scope** — sub-tiers **3a–3c** below |
 | **4** Current-events commentary | Mercouris, Diesen, Davis, Pape benches; `source-archive/statecraft/` analyst frames | **Out of scope** for news-grade verification — fence interpretation; embedded report hooks lift to tier 3 |

@@ -8,7 +8,7 @@ WORK only; not Record.
 
 | Old | Use instead |
 |-----|-------------|
-| **`youtube-raw-input-transcript`** skill (`youtube transcript`) | **[`statecraft-source-intake`](../../../.cursor/skills/statecraft-source-intake/SKILL.md)** — say **`source-intake`**; land verbatim body to `source-archive/statecraft/YYYY-MM-DD/source-<slug>.md` |
+| **`youtube-raw-input-transcript`** skill (`youtube transcript`) | **[`statecraft-source-intake`](../../../skills/statecraft-source-intake/SKILL.md)** — say **`source-intake`**; land verbatim body to `source-archive/statecraft/YYYY-MM-DD/source-<slug>.md` |
 | **`materialize_youtube_raw_input.py --apply`** (writes non-`source-*` names into archive) | **`source-intake`** sidecar land: `land_statecraft_source_body.py` + post-land day index / intake queue |
 | Operator paste after fetch failure | Same thread → **`source-intake`** (chunked land on Windows) |
 | Daily roster capture closeout | **`check sources`** (or **`check sources watchlist`**) for discovery + selection → transcript body (operator paste or bounded fetch) → **`source-intake`** |

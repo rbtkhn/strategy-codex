@@ -4,7 +4,7 @@
 
 **Successor path:** Compress standalone conductor ritual into **coffee hub + attention phrases + extended `coffee_close` + object-native rituals + RLJ**. Do not delete conductor history; redirect operator entry after Phase 2.
 
-**SSOT links:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) · [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) · [recursive-learn SKILL](../../../.cursor/skills/recursive-learn/SKILL.md) · [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md)
+**SSOT links:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) · [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) · [recursive-learn SKILL](../../../skills/recursive-learn/SKILL.md) · [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md)
 
 **Evidence base (strategy-codex, Jun 5–19 2026):** 15 conductor picks, 30 outcomes, 0 open arcs; Kleiber outcome inflation (13 outcomes / 4 picks) = main ceremony drag. Positive but uneven ROI (~B+): keep falsifier discipline; compress menus.
 
@@ -207,7 +207,7 @@ Replace `build_conductor_revisit_block` with: Recent rhythm prose; 72h watch whe
 
 ### Phase 2 — portable skills
 
-After conductor redirect: run [portable-skills-sync](../../../.cursor/skills/portable-skills-sync/SKILL.md) for `~/.codex/skills/conductor`.
+After conductor redirect: run [portable-skills-sync](../../../skills/portable-skills-sync/SKILL.md) for `~/.codex/skills/conductor`.
 
 **Kleiber cap:** one outcome line per arc — batch stopping rules into single close + one RLJ entry.
 

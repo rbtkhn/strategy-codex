@@ -22,7 +22,7 @@ Two reference trees in this repo:
 | File | Stage(s) | Role |
 |------|----------|------|
 | `seed-phase-manifest.json` | All | Index: versions, status, artifact paths, optional changelog. |
-| `seed_intake.json` | 0 | Intake, constraints, education focus, completion metrics; optional **`cursor_operator_profile`** (IDE + Cursor rules preset intent for the instance — see [cursor-pack-from-seed.md](cursor-pack-from-seed.md)). |
+| `seed_intake.json` | 0 | Intake, constraints, education focus, completion metrics; optional **`cursor_operator_profile`** (IDE + Cursor rules preset intent for the instance — see [cursor-pack-from-seed.md](../platform/template/README.md)). |
 | `seed_intent.json` | 0 (parallel) | Operating purpose, supported/unsupported workflows, review-required and human-only zones, activation success criteria — see [seed-phase-intent.md](seed-phase-intent.md). |
 | `seed_identity.json` | 1 | Identity scaffold + confidence. |
 | `seed_curiosity.json` | 2 | Curiosity scaffold + confidence. |
