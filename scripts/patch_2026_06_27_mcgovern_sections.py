@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Manual ASR spot-fix + source-section — 2026-06-27 Dialogue Works Larry Johnson Sirik interview."""
+"""Manual ASR spot-fix + source-section — 2026-06-27 Dialogue Works Ray McGovern interview."""
 from __future__ import annotations
 
 import argparse
@@ -24,100 +24,108 @@ from transcript_section_curation import (  # noqa: E402
 DAY = ROOT / "source-archive/statecraft/2026-06-27"
 
 CAPTURE = (
-    "source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md"
+    "source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md"
 )
 
 MANUAL_ASR: tuple[tuple[str, str], ...] = (
-    ("the band Langia band co", "Bandar Lengeh and two"),
-    ("coming out of Alud uh not aloud, out of Jordan", "coming out of Al Udeid — no, not Al Udeid — out of Jordan"),
-    ("trade for Moses", "trade for Hormuz"),
-    ("trade of Heros", "Strait of Hormuz"),
-    ("trade of form", "Strait of Hormuz"),
-    ("state of her", "Strait of Hormuz"),
-    ("pass through this rad without permission", "pass through this route without permission"),
-    ("with with poses government", "with Pezeshkian government"),
-    ("discussion last night with Sulle Man the because", "discussion last night with Suleiman because"),
-    ("Today I talk with David Pine.", "Today I talk with David Pyne."),
-    ("Bengurian", "Ben Gurion"),
-    ("band Langia", "Bandar Lengeh"),
-    ("Nabatia", "Nabatieh"),
-    ("Mafik Alti", "Muwaffaq Salti"),
-    ("Sandcom", "CENTCOM"),
-    ("Sentcom", "CENTCOM"),
-    ("Aluded", "Al Udeid"),
-    ("Alouded", "Al Udeid"),
-    ("alouded", "Al Udeid"),
-    (" counter to the uhou and", " counter to the MOU and"),
-    ("Surk area", "Sirik area"),
-    ("Rian's Iran's", "Iran's"),
-    ("Bill Mah.", "Bill Maher."),
-    ("Bill Marsh.", "Bill Maher."),
+    ("sirk area", "Sirik area"),
+    ("Baharin", "Bahrain"),
+    ("Strait of form", "Strait of Hormuz"),
+    ("straight of HUS", "Strait of Hormuz"),
+    ("Shakesoms", "Sheikhdoms"),
+    ("Ebola", "Hezbollah"),
+    ("Gata", "Qatar"),
+    ("jcular", "jocular"),
+    ("Nemo these", "Nima these"),
+    ("Thank you Nema", "Thank you Nima"),
+    ("bridal he puts the res", "bridle he puts the reins"),
+    ("irassable unpredictable", "irreversible unpredictable"),
+    ("General Danu Porstar", "General Michael Caine"),
+    ("Two hours later, Dier was fired", "Two hours later, Caine was fired"),
+    ("Lavro.", "Lavrov."),
+    ("says Lavo,", "says Lavrov,"),
+    ("Puchin.", "Putin."),
+    (" chaired by Puchin.", " chaired by Putin."),
+    ("Latia", "Latvia"),
+    ("Latafia", "Latvia"),
+    ("Latafians", "Latvians"),
+    ("Latians", "Latvians"),
+    (" in Ria,", " in Riga,"),
+    ("places in Ria,", "places in Riga,"),
+    ("Dimmitri Trinan", "Dmitry Trenin"),
+    ("Dimmitri Trenan", "Dmitry Trenin"),
+    ("Mir asked him", "Mearsheimer asked him"),
+    ("a kadag.", "Karaganov."),
+    ("Karagandov", "Karaganov"),
+    ("Mizf the former president", "Medvedev the former president"),
+    ("Belusf", "Belousov"),
+    ("with coffin", "Witkoff"),
+    ("Atlantas", "Latvians"),
+    ("Mosedc", "Mossadegh"),
+    ("Musc uh man", "Mossadegh uh man"),
+    ("Moses in Iran", "Mossadegh in Iran"),
+    ("slovak thing", "SAVAK thing"),
+    ("Lanningrad", "Leningrad"),
+    ("Lennengrad", "Leningrad"),
+    ("Langard", "Leningrad"),
+    ("little Vita", "little Viktor"),
+    ("Vichi again", "Viktor again"),
+    ("Vich is over", "Viktor is over"),
+    ("Hex Seth", "Hegseth"),
+    ("JD Vant.", "JD Vance."),
+    ("hypersight", "hypersonic"),
+    ("formos", "Hormuz"),
 )
 
 MANUAL_ASR_SPOT_FIX = (
-    "2026-06-28 — Sirik; CENTCOM; Al Udeid; Ben Gurion; Bandar Lengeh; Nabatieh; "
-    "Muwaffaq Salti; MOU/uhou; Marandi (prior pass); tentative: Pezeshkian; "
-    "David Pyne; Suleiman"
+    "2026-06-28 — Sirik; Bahrain; Hormuz; Sheikhdoms; Hezbollah; Qatar; "
+    "Lavrov; Putin; Latvia/Latvians/Riga; Dmitry Trenin; Karaganov; "
+    "Belousov; Witkoff; Mossadegh; SAVAK; Leningrad; Viktor; Caine; Hegseth; "
+    "tentative: Nima/Nema host ASR"
 )
 
 SECTION_TITLES = [
-    "Show Open — Sirik Strikes And Hormuz Context",
-    "Military Theater — Last Night Vs Tonight Escalation",
-    "Bahrain Trigger — Fifth Fleet And Aviation Fuel",
-    "No Hotline — IRGC Confirmed Escalation By Monday",
-    "Strike Origins — Jordan Kuwait Bahrain And UAE Logic",
-    "Rubio GCC — UKMTO Routes And MOU Terms",
-    "US Breaking MOU — Trump GCC Condemnation",
-    "Lebanon Complicates — MOU First Clause Violation",
-    "Assembly Of Experts — 62 Of 86 And MOU Breakdown",
-    "Hormuz Toll Debate — Sanctions Skepticism",
-    "Ben Gurion Puzzle — Tehran Inflation Split",
-    "David Pyne — Modest Response Alternative",
-    "F-35 Depletion — MOU Outcomes And Lebanon",
-    "Lebanon Loophole — Sovereignty And Israel Agreement",
-    "MOU Loophole — Nabatieh Strikes Yellow Line",
-    "Fuel Attrition — Aviation Crisis Two Weeks",
-    "Lebanon Horror — US Role And Erdogan Talk",
-    "Greater Israel — Iranian Internal Split",
-    "Israel Overstretch — Gaza West Bank Four Fronts",
-    "Retaliation Map — Drones Al Udeid CAOC And Project Freedom",
-    "VLCC Interdiction — Japan Pressure Escalatory Cycle",
-    "Legalistic Retaliation — Jordan Kuwait UAE Rules",
-    "JASSM Bandar Lengeh — Strike Route Over UAE",
-    "Europe NATO — CENTCOM British Involvement",
-    "Close — Europe Ukraine Congress Trump Rubio",
+    "Show Open — Hormuz Escalation And IRGC Hotline Denial",
+    "Forked Tongue — Rubio Bahrain And Fifth Fleet Aftermath",
+    "Strait Control — MOU Fiction And Catbird Seat",
+    "Oman Fee — Bloomberg GCC Division And Rubio Route",
+    "Lebanon Arc — Resistance Fly And Israel Made Us Do It",
+    "MOU Shield — Hegseth Filter And Midterm Pressure",
+    "Bases West — Wall Street Journal Rear-Area Shift",
+    "Outlast Game — Map Myopia Wilkerson And Caine Firing",
+    "MOU Lebanon — Withdrawal Clause And Government Fixture",
+    "Palestine Solidarity — Moral Issue And Hamas Model",
+    "Israeli Agenda — GCC Propaganda And Society Shift",
+    "Joe Kent — Rubio Admission And Mossadegh 1953",
+    "Ukraine Circus — Drone Pin Pricks And Rutte Puppet",
+    "Putin Judgment — Latvia Bases And NATO Escalation Ladder",
+    "Starlink Response — Drones And Kremlin Sergeants",
+    "Anchorage Dead — Lavrov Ushakov Versus Rubio Bahrain",
+    "Close — Putin Brother Siege And Judiciousness",
 ]
 
 SECTION_ANCHORS = [
-    "I mean, let's just last night's attacks were what I call military political theater.",
-    "Well, you know, the US is not responding um because of the ship.",
-    "the communication line that JD Vance was talking about it there is no communication Larry",
-    ">> I I think I think they're probably coming out of",
-    ">> The whole I think it's it's the outcome of the Marco Rubio's visit",
-    ">> Look they stopped the the United States has been breaking the MOU almost every day.",
-    ">> I don't know if Larry the case of Lebanon is complicating the whole thing.",
-    ">> Well, the assembly the assembly of experts issued that, right?",
-    ">> Yeah. You see the flag of Hezbollah in the crowd",
-    ">> Their argument is this Larry. Those people who are not agreeing with these negotiations.",
-    "You know, I really, for the life of me, I don't know why Iran hasn't taken out",
-    "Today I talk with David Pyne.",
-    ">> Yes. No, that's true. And you understand that if the United States starts",
-    ">> Well, if if the government of Lebanon is not asking Iran for help",
-    ">> Yeah. My the reason that I said why do they need to say in MOU because",
-    "everything if they try to run air strikes, tomahawk missiles, cruise missiles into the interior of Iran",
-    ">> But I mean, look, um, but what's going on in Lebanon is horrible.",
-    "The concept on the part of Iranian is that we have to make Lebanon the graveyard",
-    ">> Yeah. The Iranian media is just reporting on the damage that was done so far.",
-    ">> But you mean they're going to Iran's going to hit the oil tankers that are floating.",
-    "take out all the air tankers of Ben Gurion for starter",
-    ">> Here is no reports, Larry. It seems that two Bandar Lengeh",
-    ">> Larry, do you do you think that Europe as as right now what's going on?",
-    "What's so amazing to me that MOU is a failed sort of contract between Iran and the United States.",
+    "Nima these are really good questions.",
+    "Yeah. My understanding is that Iran has doesn't feel that they're in some sort of rush",
+    "what's what's left of what's left of that place.",
+    "Yeah. The question is Rey, is the United States using the MOU to somehow reduce the burden",
+    "Well, the reality is it would make it even a greater and more accessible target.",
+    "Well that's an easy one.",
+    "text is forcing Israel to withdraw from Lebanon. Basically,",
+    "I think for Iran, Rey, the case of Palestine and the case of Lebanon is a moral issue.",
+    "Yeah. Yeah. My understanding is this, that Iran is not going to back down, Ry.",
+    "Yeah. And as I quoted Secretary of State Rubio, uh, Israel started it and, uh,",
+    "one of the other fronts that is important right now is the case of Ukraine",
+    "Is Latvia a member of NATO?",
+    "do we have five more minutes or so?",
+    "Rubio in Bahrain yesterday says Anchorage is dead.",
+    "Before wrapping up, my understanding of Russia, as you mentioned, I think there's so much",
+    "June 22nd was the Nazi invasion.",
 ]
 
 RESECTION_NOTE = (
     " · source-section re-section pass 2026-06-28 "
-    f"({len(SECTION_TITLES)} sections; §10 MOU sliver merged §9; §21 tanker block split incl. Europe/NATO)"
+    f"({len(SECTION_TITLES)} sections; Hormuz–Lebanon–Ukraine–Putin close arc)"
 )
 
 
@@ -203,11 +211,11 @@ def append_resection_note(head: str) -> str:
 def prepare_body(doc: str) -> tuple[str, str, str]:
     head, marker, body = flat_body_from_doc(doc)
     body, _ = apply_manual_asr(body.strip())
-    if "**Larry Johnson:**" in body:
+    if "**Ray McGovern:**" in body:
         body = restore_turn_markers_from_speaker_labels(
             body,
             host="Nima Alkhorshid",
-            guest="Larry Johnson",
+            guest="Ray McGovern",
         )
     return head, marker, body
 
@@ -234,7 +242,7 @@ def validate_capture(path: Path) -> list[str]:
 
 
 def append_speaker_label_note(head: str, *, turns: int) -> str:
-    note = f" · interview speaker-label pass 2026-06-28 ({turns} turns; Nima/Larry >> markers)"
+    note = f" · interview speaker-label pass 2026-06-28 ({turns} turns; Nima/Ray >> markers)"
     if note in head:
         return head
     if re.search(r"^editorial_note:", head, flags=re.M):
@@ -252,11 +260,11 @@ def write_capture(path: Path) -> int:
     doc = path.read_text(encoding="utf-8")
     head, marker, body = flat_body_from_doc(doc)
     body, asr_subs = apply_manual_asr(body.strip())
-    if "**Larry Johnson:**" in body:
+    if "**Ray McGovern:**" in body:
         body = restore_turn_markers_from_speaker_labels(
             body,
             host="Nima Alkhorshid",
-            guest="Larry Johnson",
+            guest="Ray McGovern",
         )
     if "manual_asr_spot_fix:" not in head and asr_subs:
         head = patch_manual_asr_frontmatter(head, subs=asr_subs)
@@ -264,17 +272,17 @@ def write_capture(path: Path) -> int:
     head = append_resection_note(head)
     body = insert_sections(body, SECTION_TITLES, SECTION_ANCHORS)
     body = inject_section_open_turn_markers(body)
-    if "**Larry Johnson:**" in body or "**Nima Alkhorshid:**" in body:
+    if "**Ray McGovern:**" in body or "**Nima Alkhorshid:**" in body:
         body = restore_turn_markers_from_speaker_labels(
             body,
             host="Nima Alkhorshid",
-            guest="Larry Johnson",
+            guest="Ray McGovern",
         )
         body = inject_section_open_turn_markers(body)
     body, turns_labeled = apply_interview_turn_speaker_labels(
         body,
         host="Nima Alkhorshid",
-        guest="Larry Johnson",
+        guest="Ray McGovern",
     )
     if turns_labeled:
         head = append_speaker_label_note(head, turns=turns_labeled)

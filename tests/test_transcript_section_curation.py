@@ -8,9 +8,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from transcript_section_curation import (  # noqa: E402
+    _guess_dialogue_works_host,
     apply_interview_turn_speaker_labels,
     detect_body_marker,
     inject_dialogue_works_missing_turn_markers,
+    inject_section_open_turn_markers,
     insert_sections,
     mark_sectioned_frontmatter,
     normalize_dialogue_works_host_label_suffix,
@@ -141,6 +143,21 @@ def test_reflow_preserves_interview_speaker_and_turn_markers():
     assert _word_tokens(body) == _word_tokens(out)
 
 
+def test_reflow_splits_long_labeled_speaker_turn():
+    runon = (
+        "**Ray McGovern:** First sentence here with enough words. "
+        "Second sentence follows with more words. "
+        "Now, a third sentence opens a pivot. "
+        "Fourth wraps the block with additional words."
+    )
+    body = f"### One — Topic\n\n{runon}"
+    out = reflow_section_paragraphs(body, soft_max_para_words=8, hard_max_para_words=12)
+    chunk = out.split("### One — Topic\n\n", 1)[1]
+    assert chunk.startswith("**Ray McGovern:**")
+    assert chunk.count("\n\n") >= 1
+    assert _word_tokens(body) == _word_tokens(out)
+
+
 def test_insert_sections_plus_reflow_keeps_headings_and_words():
     body = "Open. First anchor middle text. Second anchor tail text."
     sectioned = insert_sections(body, ["A", "B", "C"], ["first anchor", "second anchor"])
@@ -179,6 +196,29 @@ def test_inject_dialogue_works_missing_turn_marker_before_host_cue():
     )
     injected = inject_dialogue_works_missing_turn_markers(raw)
     assert ">> My understanding today, Larry" in injected
+
+
+def test_inject_section_open_turn_marker_for_johnson_guest_opener():
+    body = (
+        "### Military Theater — Test\n\n"
+        "I mean, let's just last night's attacks were what I call military political theater."
+    )
+    out = inject_section_open_turn_markers(body)
+    assert ">> I mean, let's just last night's attacks" in out
+
+
+def test_inject_section_open_turn_marker_for_guest_opener():
+    body = (
+        "### Forked Tongue — Test\n\n"
+        "Nima these are really good questions. Now uh in a jocular mood."
+    )
+    out = inject_section_open_turn_markers(body)
+    assert ">> Nima these are really good questions" in out
+
+
+def test_guest_opener_guess_mcgovern_forked_tongue():
+    assert _guess_dialogue_works_host("Nima these are really good questions.") is False
+    assert _guess_dialogue_works_host("Yeah. The question is Rey, is the United States") is True
 
 
 def test_normalize_dialogue_works_host_label_suffix():

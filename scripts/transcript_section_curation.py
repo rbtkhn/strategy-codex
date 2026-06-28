@@ -171,6 +171,7 @@ DISCOURSE_PIVOTS: tuple[str, ...] = (
 
 _SECTION_HEADING_LINE = re.compile(r"^### .+$", re.M)
 _SPEAKER_LINE = re.compile(r"^\*\*.+:\*\*", re.M)
+_SPEAKER_LABEL_LINE = re.compile(r"^(\*\*.+:\*\*)(?:\s+(.*))?$", re.DOTALL)
 _TURN_MARKER = re.compile(r"^>>", re.M)
 _WORD_RE = re.compile(r"\b\w+\b")
 
@@ -291,19 +292,38 @@ def _reflow_text_segment(
     text = text.strip()
     if not text:
         return ""
-    if _SPEAKER_LINE.match(text) or _TURN_MARKER.match(text):
-        return text
+
+    label_prefix = ""
+    speaker_match = _SPEAKER_LABEL_LINE.match(text)
+    if speaker_match:
+        label, rest = speaker_match.group(1), (speaker_match.group(2) or "").strip()
+        if not rest:
+            return text
+        label_prefix = f"{label} "
+        text = rest
+    else:
+        turn_match = re.match(r"^(>>\s*)(.+)$", text, re.DOTALL)
+        if turn_match:
+            marker, rest = turn_match.group(1), turn_match.group(2).strip()
+            if not rest:
+                return text
+            label_prefix = marker
+            text = rest
+
     sentences = split_sentences(text)
     if not sentences:
-        return text
+        return label_prefix.rstrip() if label_prefix else text
     if len(sentences) == 1 and count_words(sentences[0]) <= hard_max_para_words:
-        return sentences[0]
+        body = sentences[0]
+        return f"{label_prefix}{body}" if label_prefix else body
     paragraphs = pack_sentences_into_paragraphs(
         sentences,
         target_para_words=target_para_words,
         soft_max_para_words=soft_max_para_words,
         hard_max_para_words=hard_max_para_words,
     )
+    if label_prefix:
+        paragraphs[0] = f"{label_prefix}{paragraphs[0]}"
     return "\n\n".join(paragraphs)
 
 
@@ -343,9 +363,6 @@ def reflow_section_paragraphs(
 ) -> str:
     """Insert markdown paragraph breaks within each ``###`` section (words unchanged)."""
     if not body.strip():
-        return body
-
-    if body_has_interview_speaker_labels(body):
         return body
 
     if not _SECTION_HEADING_LINE.search(body):
@@ -461,6 +478,72 @@ DIALOGUE_WORKS_HOST_TURN_SPLITS: tuple[str, ...] = (
     "My understanding today, Larry",
 )
 
+# Section anchors can swallow ``>>``; inject before relabel when a new section opens mid-turn.
+DIALOGUE_WORKS_GUEST_SECTION_OPENERS: tuple[str, ...] = (
+    "Nima these are really good questions",
+    "Nemo these are really good questions",
+    "what's what's left of what's left of that place",
+    "I mean, let's just last night's attacks",
+    "Well, you know, the US is not responding",
+    "You know, I really, for the life of me",
+    "The concept on the part of Iranian",
+    "What's so amazing to me that MOU",
+    "Look they stopped the the United States has been breaking the MOU",
+    "Well, the assembly the assembly of experts issued that",
+)
+
+DIALOGUE_WORKS_HOST_SECTION_OPENERS: tuple[str, ...] = (
+    "Yeah. My understanding is that Iran has doesn't feel",
+    "Yeah. The question is Rey",
+    "Yeah. The question is Ray",
+    "Before wrapping up, my understanding of Russia",
+    "Right. Before wrapping up, my understanding of Russia",
+    "the communication line that JD Vance was talking about",
+    "Today I talk with David Pyne",
+    "The whole I think it's it's the outcome of the Marco Rubio's visit",
+    "I don't know if Larry the case of Lebanon is complicating",
+    "Yeah. You see the flag of Hezbollah in the crowd",
+    "Their argument is this Larry",
+    "Here is no reports, Larry",
+    "Larry, do you do you think that Europe",
+    "take out all the air tankers of Ben Gurion for starter",
+)
+
+
+def inject_section_open_turn_markers(body: str) -> str:
+    """Insert ``>>`` when a ``###`` section opens on a known host/guest line without a marker."""
+    parts = re.split(r"(^### .+$)", body, flags=re.M)
+    out: list[str] = []
+    for part in parts:
+        if not part:
+            continue
+        if part.startswith("### "):
+            out.append(part.rstrip() + "\n\n")
+            continue
+        chunk = part.lstrip("\n")
+        if not chunk.strip():
+            continue
+        stripped = chunk.lstrip()
+        if not stripped.startswith(">>"):
+            for opener in DIALOGUE_WORKS_GUEST_SECTION_OPENERS + DIALOGUE_WORKS_HOST_SECTION_OPENERS:
+                if stripped.startswith(opener):
+                    chunk = f">> {stripped}"
+                    break
+        out.append(chunk.rstrip() + "\n\n")
+    return "".join(out)
+
+
+def restore_turn_markers_from_speaker_labels(
+    body: str,
+    *,
+    host: str = "Nima Alkhorshid",
+    guest: str = "Larry Johnson",
+) -> str:
+    """Convert ``**Speaker:**`` turn labels back to ``>>`` for idempotent relabel passes."""
+    for name in (host, guest):
+        body = re.sub(rf"\*\*{re.escape(name)}:\*\* ", ">> ", body)
+    return body
+
 
 def inject_dialogue_works_missing_turn_markers(text: str) -> str:
     """Insert ``>>`` before host lines glued onto a guest turn (no marker in source)."""
@@ -478,6 +561,27 @@ def inject_dialogue_works_missing_turn_markers(text: str) -> str:
 
 def _guess_dialogue_works_host(piece: str) -> bool | None:
     opening = piece.lstrip()[:160].lower()
+    if opening.startswith(
+        (
+            "nima these are really good",
+            "nemo these are really good",
+            "what's what's left of what's left",
+            "in a jocular mood",
+            "now uh in a jocular",
+            "yeah. and oman is really",
+            "exactly. because when you don't",
+        )
+    ):
+        return False
+    if opening.startswith(
+        (
+            "yeah. the question is rey",
+            "yeah. the question is ray",
+            "before wrapping up, my understanding",
+            "right. before wrapping up, my understanding",
+        )
+    ):
+        return True
     if opening.startswith(
         (
             "i think i think",
@@ -558,6 +662,17 @@ def _guess_dialogue_works_host(piece: str) -> bool | None:
     return None
 
 
+def remove_empty_speaker_turns(body: str) -> str:
+    """Drop ``**Speaker:**`` lines with no spoken content (section-boundary artifacts)."""
+    blocks = re.split(r"(\n\s*\n)", body.strip())
+    kept: list[str] = []
+    for block in blocks:
+        if re.fullmatch(r"\*\*.+:\*\*", block.strip()):
+            continue
+        kept.append(block)
+    return "".join(kept)
+
+
 def merge_orphan_paragraphs_into_prior_turn(body: str) -> str:
     """Attach unlabeled paragraphs to the preceding speaker turn (interview layout)."""
     blocks = re.split(r"\n\s*\n", body.strip())
@@ -628,6 +743,7 @@ def apply_interview_turn_speaker_labels(
     result = "".join(out)
     if turns_labeled:
         result = merge_orphan_paragraphs_into_prior_turn(result)
+        result = remove_empty_speaker_turns(result)
     return result, turns_labeled
 
 

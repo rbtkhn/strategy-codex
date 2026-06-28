@@ -4,7 +4,7 @@ description: Post-intake transcript section curation for YouTube channel solo an
 preferred_activation: source-section
 activation: source-section
 portable: true
-version: 1.2.1
+version: 1.2.2
 category: truth-pipeline
 status: active
 scope_class: public-portable
@@ -184,11 +184,13 @@ When labeling host/guest turns on **interview** captures (especially Dialogue Wo
 | **No role suffix** | Do **not** append `(host)` or `(guest)` to the name in the label |
 | **Source of names** | `host_people` / `guest_people` in YAML frontmatter when present |
 | **Turn continuations** | Extra paragraphs under the same speaker omit a repeated label until the next turn |
-| **Reflow interaction** | `reflow_section_paragraphs` no-ops when speaker labels are present |
+| **Reflow interaction** | Run `reflow_section_paragraphs` **after** speaker labels — splits within each turn; label stays on the first paragraph only |
+| **Section-boundary `>>`** | Anchors can swallow turn markers — call `inject_section_open_turn_markers` then `apply_interview_turn_speaker_labels` (relabel: `restore_turn_markers_from_speaker_labels` first); patch exemplars `patch_2026_06_27_johnson_sirik_sections.py` · `patch_2026_06_27_mcgovern_sections.py` · helpers in `transcript_section_curation.py` |
 
 **Library (`scripts/transcript_section_curation.py`):**
 
 - `apply_interview_turn_speaker_labels` — map YouTube `>>` to alternating named labels (Dialogue Works heuristics)
+- `inject_section_open_turn_markers` · `restore_turn_markers_from_speaker_labels` · `remove_empty_speaker_turns` — section-split turn repair (see table row above)
 - `normalize_dialogue_works_host_label_suffix` — migrate legacy `**Nima (host):**` / `**Nima Alkhorshid (host):**` → `**Nima Alkhorshid:**`
 - `merge_orphan_paragraphs_into_prior_turn` — attach unlabeled continuation paragraphs to the prior turn
 
