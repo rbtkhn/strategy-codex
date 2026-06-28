@@ -14,6 +14,8 @@ ARCHIVE = ROOT / "source-archive/statecraft"
 MIN_SECTION_WARN = 100
 MAX_SECTION_WARN = 1500
 FLAT_NUDGE_WORDS = 4000
+MAX_PARA_WARN = 150
+SINGLE_PARA_MEGABLOCK = 200
 
 SLUG_MARKERS = re.compile(r"^Segment \d+ —|^Show Open — Introduction$", re.I)
 BODY_MARKERS = (
@@ -28,6 +30,11 @@ def extract_transcript(body: str) -> str:
         if m := re.search(pattern + r"(.*)", body, re.S):
             return m.group(1).strip()
     return body.strip()
+
+
+def section_paragraph_stats(section_text: str) -> list[int]:
+    paras = [p.strip() for p in re.split(r"\n\s*\n", section_text.strip()) if p.strip()]
+    return [len(re.findall(r"\b\w+\b", p)) for p in paras]
 
 
 def analyze(path: Path) -> dict:
@@ -57,6 +64,19 @@ def analyze(path: Path) -> dict:
             warnings.append(f"section {i} < {MIN_SECTION_WARN}w ({w}w)")
         elif w > MAX_SECTION_WARN:
             warnings.append(f"section {i} > {MAX_SECTION_WARN}w ({w}w)")
+    sec_para_counts: list[int] = []
+    all_para_words: list[int] = []
+    for i, chunk in enumerate(chunks, start=1):
+        para_words = section_paragraph_stats(chunk)
+        sec_para_counts.append(len(para_words))
+        all_para_words.extend(para_words)
+        if len(para_words) == 1 and para_words[0] > SINGLE_PARA_MEGABLOCK:
+            warnings.append(
+                f"section {i} single-paragraph megablock (>{SINGLE_PARA_MEGABLOCK}w, {para_words[0]}w)"
+            )
+        for j, pw in enumerate(para_words, start=1):
+            if pw > MAX_PARA_WARN:
+                warnings.append(f"section {i} para {j} > {MAX_PARA_WARN}w ({pw}w)")
     cv = 0.0
     if len(sec_words) > 1 and statistics.mean(sec_words):
         cv = 100 * statistics.pstdev(sec_words) / statistics.mean(sec_words)
@@ -67,6 +87,8 @@ def analyze(path: Path) -> dict:
         "sections": len(headings),
         "words": words,
         "sec_words": sec_words,
+        "sec_para_counts": sec_para_counts,
+        "all_para_words": all_para_words,
         "slug_titles": slug_titles,
         "warnings": warnings,
         "chunk_cv": cv,
@@ -86,6 +108,12 @@ def print_capture(r: dict) -> None:
         print(
             f"  chunk words: min={min(sw)}  med={statistics.median(sw):.0f}  "
             f"mean={statistics.mean(sw):.0f}  max={max(sw)}  cv={r['chunk_cv']:.0f}%"
+        )
+    para_words = r.get("all_para_words") or []
+    if para_words:
+        print(
+            f"  para words: min={min(para_words)}  med={statistics.median(para_words):.0f}  "
+            f"max={max(para_words)}  paras={len(para_words)}"
         )
     if r["warnings"]:
         for w in r["warnings"]:

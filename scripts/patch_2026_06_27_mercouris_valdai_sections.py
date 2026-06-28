@@ -13,7 +13,9 @@ from transcript_section_curation import (  # noqa: E402
     find_anchor_pos,
     insert_sections,
     mark_sectioned_frontmatter,
+    reflow_section_paragraphs,
     split_transcript_document,
+    write_paragraph_reflow_capture,
 )
 
 DAY = ROOT / "source-archive/statecraft/2026-06-27"
@@ -43,7 +45,7 @@ SECTION_ANCHORS = [
     "So anyway, that I think is the overall situation on the front lines. Now, Ukrainian drone attacks on Russia continue.",
     "Now I want to return to something that the Russian foreign minister Sergey Lavrov said",
     "Now, at this point, I would like to say something about the current situation in the Russian economy",
-    "Now, there is much to be said for Nebulina.",
+    "Now, there is much to be said for Nabiullina.",
     "In the meantime, the situation between Iran and the United States remains",
     "Now, I'm going to finish this program by returning to a discussion of the situation in Britain.",
     "Anyway, that's all I'm going to say about it on this program. Let me remind you again to tick the like button",
@@ -98,18 +100,31 @@ def write_resectioned_capture(path: Path) -> None:
     head, marker, body = flat_body_from_doc(doc)
     head = mark_sectioned_frontmatter(head, section_count=len(SECTION_TITLES))
     body = insert_sections(body.strip(), SECTION_TITLES, SECTION_ANCHORS)
+    body = reflow_section_paragraphs(body)
     path.write_text(head + marker + body, encoding="utf-8")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--reflow-only",
+        action="store_true",
+        help="Paragraph reflow on existing section map only (no re-section).",
+    )
     args = parser.parse_args()
 
     path = DAY / CAPTURE
     if not path.is_file():
         print(f"missing {path}")
         return 1
+    if args.reflow_only:
+        if args.dry_run:
+            print(f"OK {CAPTURE} (reflow-only dry run)")
+            return 0
+        write_paragraph_reflow_capture(path)
+        print(f"OK {CAPTURE} (paragraph reflow)")
+        return 0
     errs = validate_capture(path)
     if errs:
         print(f"FAIL {CAPTURE}:")

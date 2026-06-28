@@ -4,7 +4,7 @@ description: Post-intake transcript section curation for YouTube channel solo an
 preferred_activation: source-section
 activation: source-section
 portable: true
-version: 1.1.1
+version: 1.2.0
 category: truth-pipeline
 status: active
 scope_class: public-portable
@@ -45,6 +45,7 @@ Sectioning **does not** summarize, clean ASR, or verify wire hooks. It turns one
 - **Jump, don't scroll** — skim ~6–14 headings, open the seam you need (~700–1,100 words) instead of linear search through 6k–12k words.
 - **Stable link targets** — synthesis, wire-verify receipts, and notebook weave can cite `### Topic — Subtopic` anchors.
 - **Lower cognitive load** — hold one movement at a time instead of the whole interview arc.
+- **In-section scan** — paragraph reflow breaks each section into ~80–120 word blocks (markdown `\n\n` only) so a hop is readable, not a wall of text.
 
 Intake lands truth; sectioning organizes reading. Do not substitute synthesis for transcript body in the archive object.
 
@@ -86,6 +87,7 @@ Do **not** auto-section on land — operator approves map on large captures. **D
 
 - **Intake lands truth; sectioning organizes reading.** Do not substitute synthesis for transcript body in the archive object.
 - **Verbatim substance preserved** — sectioning adds headings and light mechanical fixes only; no argument rewrite.
+- **Paragraph reflow is whitespace-only** — `reflow_section_paragraphs` inserts `\n\n` between rational blocks; no paraphrase; speaker turns and `>>` markers preserved.
 - **Headings are editorial** — Title Case thematic labels (`### Show Open — …`), never machine slug headers (`### iran-attrition-…`) on operator surfaces.
 - **Anchors are pinned** — per-source section maps must be reproducible (script with `SECTION_TITLES` + `SECTION_ANCHORS`, or checked-in patch recipe).
 - **Outline before ship** — propose and pin the section map; **do not** insert headings into the capture body until the operator approves (except trivial one-off captures where operator already supplied the full map).
@@ -148,14 +150,16 @@ Run only when the outline is approved or operator supplied a complete map up fro
 
 1. **Optional light ASR** — duplicate-word / obvious name fixes only when they do not change argument; defer heavy tiers to **`source-clean`** (run **before** sectioning when ASR is load-bearing).
 2. **Insert sections** — `insert_sections(body, SECTION_TITLES, SECTION_ANCHORS)`; last section runs to EOF.
-3. **Speaker repair (interview)** — prepend `**Speaker:**` at section opens when anchors split mid-turn; strip duplicate speaker lines before `###` headings.
-4. **Frontmatter receipt** — `transcript_curation: curated_sectioned` + dated note tail.
-5. **Verify** — section count, anchor uniqueness, no truncated final section, word count stable ± light ASR deltas only.
-6. **Navigation receipt** — report chunk stats and flag quality warnings (ship phase):
+3. **Paragraph reflow** — `reflow_section_paragraphs(body)` (default on in `write_sectioned_capture`; skip when operator says **`no paragraph reflow`**).
+4. **Speaker repair (interview)** — prepend `**Speaker:**` at section opens when anchors split mid-turn; strip duplicate speaker lines before `###` headings.
+5. **Frontmatter receipt** — `transcript_curation: curated_sectioned` + dated note tail.
+6. **Verify** — section count, anchor uniqueness, no truncated final section, word count stable ± light ASR deltas only.
+7. **Navigation receipt** — report section chunk stats **and** paragraph stats; flag quality warnings (ship phase):
 
 ```text
 navigation: sections=N  min=…w  med=…w  max=…w  chunk_cv=…%
-warnings: [section <100w | section >1500w | slug titles remain] | none
+paras: total=…  min=…w  med=…w  max=…w
+warnings: [section <100w | section >1500w | section N single-paragraph megablock >200w | section N para M >150w | slug titles remain] | none
 ```
 
 Optional CLI for a landed day batch:
@@ -164,7 +168,7 @@ Optional CLI for a landed day batch:
 python scripts/quantify_section_nav.py --day YYYY-MM-DD
 ```
 
-**Chunk quality targets (editorial, not hard fail):** prefer sections **~400–1,200 words**; flag any **< 100 w** (micro-sliver) or **> ~1,500 w** (mega-hop). Even chunking may require re-section with new anchors — outline phase again; do not silent-ship uneven maps without naming warnings.
+**Chunk quality targets (editorial, not hard fail):** prefer sections **~400–1,200 words**; flag any **< 100 w** (micro-sliver) or **> ~1,500 w** (mega-hop). Prefer **3–8 paragraphs per ~700w section**; flag any paragraph **> ~150 w** or a **single-paragraph section > ~200 w**. Even chunking may require re-section with new anchors — outline phase again; do not silent-ship uneven maps without naming warnings.
 
 **One-turn shortcut:** When operator passes a pre-approved map and says **ship**, skip re-proposing the outline but still name titles + anchor count in the receipt.
 
@@ -184,6 +188,7 @@ python scripts/quantify_section_nav.py --day YYYY-MM-DD
 | **Slug retitle** | Body already has bootstrap `Segment N — …` or auto-slug headings under `###` | **`write_slug_retitle_capture`** — old heading → thematic Title Case pairs; **no body re-cut** |
 | **Thematic retitle** | Title Case headings present but topic labels wrong | Same as slug retitle with old→new title map |
 | **Re-section** | Operator explicitly requests new map or chunk quality failed | outline phase again; new anchors on flat export or manual unsection first |
+| **Paragraph reflow only** | Body already `curated_sectioned`; operator wants readability fix without new section map | **`write_paragraph_reflow_capture`** — reflow within existing `###` blocks only |
 
 Default **reject** full re-section if body already has **thematic** Title Case `### Topic — Subtopic` unless operator says re-section. If headings are **bootstrap slugs**, default next step is **retitle**, not re-section from flat.
 
@@ -217,7 +222,7 @@ Report:
 - anchors used (count matches N−1)
 - speaker-fix passes applied (interview) or skipped (solo) — ship only
 - word count before/after (substance must not shrink) — ship only
-- **navigation receipt** — section word min / median / max; chunk CV; quality warnings — ship only
+- **navigation receipt** — section word min / median / max; chunk CV; **paragraph** min / median / max; quality warnings — ship only
 - frontmatter receipt field updated — ship only
 - git durability: on disk / not committed / not pushed unless EXECUTE lane
 

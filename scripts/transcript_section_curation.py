@@ -131,6 +131,283 @@ def insert_sections(
     return "\n\n".join(parts)
 
 
+ABBREV_GUARDS: tuple[str, ...] = (
+    "U.S.",
+    "U.K.",
+    "Mr.",
+    "Mrs.",
+    "Ms.",
+    "Dr.",
+    "etc.",
+    "i.e.",
+    "e.g.",
+    "Fab",
+    "MoU",
+    "No.",
+    "vs.",
+    "St.",
+    "Gen.",
+    "Col.",
+    "Jr.",
+    "Sr.",
+)
+
+DISCOURSE_PIVOTS: tuple[str, ...] = (
+    "Now,",
+    "Anyway,",
+    "So anyway,",
+    "So,",
+    "But,",
+    "Meanwhile,",
+    "Incidentally,",
+    "And of course,",
+    "By the way,",
+    "This, by the way,",
+    "Just saying.",
+    "For the last",
+    "In the meantime,",
+    "There's been, by the way,",
+)
+
+_SECTION_HEADING_LINE = re.compile(r"^### .+$", re.M)
+_SPEAKER_LINE = re.compile(r"^\*\*.+:\*\*", re.M)
+_TURN_MARKER = re.compile(r"^>>", re.M)
+_WORD_RE = re.compile(r"\b\w+\b")
+
+
+def count_words(text: str) -> int:
+    return len(_WORD_RE.findall(text))
+
+
+def _paragraph_word_counts(text: str) -> list[int]:
+    paras = [p.strip() for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
+    return [count_words(p) for p in paras]
+
+
+def _starts_with_discourse_pivot(sentence: str) -> bool:
+    stripped = sentence.lstrip()
+    return any(stripped.startswith(pivot) for pivot in DISCOURSE_PIVOTS)
+
+
+def _normalize_runon_whitespace(text: str) -> str:
+    text = re.sub(r"(?<!\n)\n(?!\n)", " ", text)
+    return re.sub(r" +", " ", text).strip()
+
+
+def _protect_abbreviations(text: str) -> tuple[str, dict[str, str]]:
+    placeholders: dict[str, str] = {}
+    protected = text
+    for idx, abbr in enumerate(ABBREV_GUARDS):
+        token = f"__ABBR{idx}__"
+        if abbr in protected:
+            placeholders[token] = abbr
+            protected = protected.replace(abbr, token)
+    return protected, placeholders
+
+
+def _restore_abbreviations(text: str, placeholders: dict[str, str]) -> str:
+    restored = text
+    for token, abbr in placeholders.items():
+        restored = restored.replace(token, abbr)
+    return restored
+
+
+def split_sentences(text: str) -> list[str]:
+    """Conservative sentence split for spoken transcript reflow."""
+    normalized = _normalize_runon_whitespace(text)
+    if not normalized:
+        return []
+    protected, placeholders = _protect_abbreviations(normalized)
+    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\"'*])", protected)
+    sentences = [_restore_abbreviations(p.strip(), placeholders) for p in parts if p.strip()]
+    return sentences
+
+
+def pack_sentences_into_paragraphs(
+    sentences: Sequence[str],
+    *,
+    target_para_words: int = 80,
+    soft_max_para_words: int = 120,
+    hard_max_para_words: int = 150,
+) -> list[str]:
+    paragraphs: list[str] = []
+    current: list[str] = []
+    current_words = 0
+
+    for sentence in sentences:
+        sentence_words = count_words(sentence)
+        if (
+            current
+            and _starts_with_discourse_pivot(sentence)
+            and current_words >= int(target_para_words * 0.6)
+        ):
+            paragraphs.append(" ".join(current))
+            current = [sentence]
+            current_words = sentence_words
+            continue
+
+        if current and current_words + sentence_words > hard_max_para_words:
+            paragraphs.append(" ".join(current))
+            current = [sentence]
+            current_words = sentence_words
+            continue
+
+        if current and current_words + sentence_words > soft_max_para_words:
+            paragraphs.append(" ".join(current))
+            current = [sentence]
+            current_words = sentence_words
+            continue
+
+        current.append(sentence)
+        current_words += sentence_words
+
+    if current:
+        paragraphs.append(" ".join(current))
+    return paragraphs
+
+
+def _split_hard_segments(text: str) -> list[str]:
+    """Split section text on paragraph breaks, speaker labels, and turn markers."""
+    segments: list[str] = []
+    for block in re.split(r"\n\s*\n", text.strip()):
+        block = block.strip()
+        if not block:
+            continue
+        parts = re.split(r"(?=^\*\*.+:\*\*)|(?=^>>)", block, flags=re.M)
+        for part in parts:
+            part = part.strip()
+            if part:
+                segments.append(part)
+    return segments or ([text.strip()] if text.strip() else [])
+
+
+def _reflow_text_segment(
+    text: str,
+    *,
+    target_para_words: int,
+    soft_max_para_words: int,
+    hard_max_para_words: int,
+) -> str:
+    text = text.strip()
+    if not text:
+        return ""
+    if _SPEAKER_LINE.match(text) or _TURN_MARKER.match(text):
+        return text
+    sentences = split_sentences(text)
+    if not sentences:
+        return text
+    if len(sentences) == 1 and count_words(sentences[0]) <= hard_max_para_words:
+        return sentences[0]
+    paragraphs = pack_sentences_into_paragraphs(
+        sentences,
+        target_para_words=target_para_words,
+        soft_max_para_words=soft_max_para_words,
+        hard_max_para_words=hard_max_para_words,
+    )
+    return "\n\n".join(paragraphs)
+
+
+def _reflow_section_chunk(
+    chunk: str,
+    *,
+    target_para_words: int,
+    soft_max_para_words: int,
+    hard_max_para_words: int,
+) -> str:
+    chunk = chunk.strip()
+    if not chunk:
+        return ""
+    para_counts = _paragraph_word_counts(chunk)
+    if len(para_counts) >= 2 and all(w <= hard_max_para_words for w in para_counts):
+        return chunk
+
+    reflowed_segments: list[str] = []
+    for segment in _split_hard_segments(chunk):
+        reflowed_segments.append(
+            _reflow_text_segment(
+                segment,
+                target_para_words=target_para_words,
+                soft_max_para_words=soft_max_para_words,
+                hard_max_para_words=hard_max_para_words,
+            )
+        )
+    return "\n\n".join(s for s in reflowed_segments if s)
+
+
+def reflow_section_paragraphs(
+    body: str,
+    *,
+    target_para_words: int = 80,
+    soft_max_para_words: int = 120,
+    hard_max_para_words: int = 150,
+) -> str:
+    """Insert markdown paragraph breaks within each ``###`` section (words unchanged)."""
+    if not body.strip():
+        return body
+
+    if not _SECTION_HEADING_LINE.search(body):
+        return _reflow_section_chunk(
+            body,
+            target_para_words=target_para_words,
+            soft_max_para_words=soft_max_para_words,
+            hard_max_para_words=hard_max_para_words,
+        )
+
+    parts = re.split(r"(^### .+$)", body, flags=re.M)
+    out: list[str] = []
+    for part in parts:
+        if not part:
+            continue
+        if part.startswith("### "):
+            out.append(part)
+            continue
+        reflowed = _reflow_section_chunk(
+            part,
+            target_para_words=target_para_words,
+            soft_max_para_words=soft_max_para_words,
+            hard_max_para_words=hard_max_para_words,
+        )
+        if reflowed:
+            out.append(reflowed)
+    return "\n\n".join(out)
+
+
+def write_paragraph_reflow_capture(
+    capture_path: Path,
+    *,
+    body_marker: str | None = None,
+    target_para_words: int = 80,
+    soft_max_para_words: int = 120,
+    hard_max_para_words: int = 150,
+) -> None:
+    """Paragraph reflow only — preserve existing section map."""
+    doc = capture_path.read_text(encoding="utf-8")
+    marker = body_marker or detect_body_marker(doc)
+    head, body = doc.split(marker, 1)
+    if not body.lstrip().startswith("### "):
+        raise ValueError("paragraph reflow only applies to sectioned captures")
+    body = reflow_section_paragraphs(
+        body.strip(),
+        target_para_words=target_para_words,
+        soft_max_para_words=soft_max_para_words,
+        hard_max_para_words=hard_max_para_words,
+    )
+    today = date.today().isoformat()
+    receipt = f"paragraph reflow pass {today}"
+    if receipt not in head:
+        if re.search(r"^editorial_note:", head, flags=re.M):
+            head = re.sub(
+                r'^(editorial_note: "?)(.*?)"?\s*$',
+                rf'\1\2 · {receipt}."',
+                head,
+                count=1,
+                flags=re.M,
+            )
+    doc = f"{head}{marker}\n\n{body}\n"
+    capture_path.write_text(doc, encoding="utf-8", newline="\n")
+    print(f"wrote {capture_path} (paragraph reflow, {len(body.split()):,} words)")
+
+
 def common_asr_cleanup(
     text: str,
     *,
@@ -234,6 +511,10 @@ def write_sectioned_capture(
     anchor_slice: slice | None = None,
     reject_if_sectioned: bool = True,
     body_marker: str | None = None,
+    paragraph_reflow: bool = True,
+    target_para_words: int = 80,
+    soft_max_para_words: int = 120,
+    hard_max_para_words: int = 150,
 ) -> None:
     doc = capture_path.read_text(encoding="utf-8")
     marker = body_marker or detect_body_marker(doc)
@@ -257,6 +538,13 @@ def write_sectioned_capture(
         asr_cleanup_fn=asr_cleanup_fn,
         anchor_slice=anchor_slice,
     )
+    if paragraph_reflow:
+        body = reflow_section_paragraphs(
+            body,
+            target_para_words=target_para_words,
+            soft_max_para_words=soft_max_para_words,
+            hard_max_para_words=hard_max_para_words,
+        )
     if speaker_cleanup_fn:
         body = speaker_cleanup_fn(body)
 
