@@ -3946,3 +3946,103 @@ Routing: [fix_repo_surgeon_pass_a_closure.py](../scripts/fix_repo_surgeon_pass_a
 **Pattern promotion:** defer until a second distinct repo-wide link migration (e.g. namespace move) reuses the same depth-table + cluster-rescan ladder without new law.
 
 ---
+
+## 2026-06-28 - Breaking-live re-section loop + mixed-source daily compose
+
+**Tag:** `breaking-live` · `curated-sectioned` · `quantify-section-nav` · `CaptureSpec` · `mixed-source-synthesis` · `pending-wire` · `substack-intake`  
+**Cross-link:** [§ transcript section balance ladder (2026-06-26)](#2026-06-26---reason-to-resist-host-only-shelf--transcript-section-balance-ladder) — **narrows** overweight target to **~800w editorial** on long breaking-live interviews; does not replace >1500w warn or flatten→re-anchor recipe.  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — one `StrReplace` per patch script path per turn.
+
+### Trigger
+
+Jun 27–28 intake EXECUTE arc: Dialogue Works tranche (`source-clean` → `source-section`) left breaking Johnson **§10 @ 1,765w** on first pass; operator **B** menu picks drove **three re-section passes** (IRGC split → multi-chunk >800w splits → Oman **999w** split) until quantify **max 732w**, **cv 41%**. Same session: Pape Substack land on **2026-06-27** beside five sectioned YouTube captures; **`statecraft/synthesis/day/2026-06-27.md`** drafted **without** `notes/wire/2026-06-27-news-verify-matrix.md` on disk. Batch vehicle: `scripts/patch_2026_06_27_28_new_intake_sections.py` (`CaptureSpec` + `--only`).
+
+### Extracted law
+
+**1. Breaking-live re-section target (narrows 2026-06-26 balance ladder)**
+
+```text
+After first source-section on long breaking-live interview:
+  quantify_section_nav → if max chunk > ~800w (editorial), not only >1500w (warn)
+  → operator-menu re-section: extend CaptureSpec titles/anchors
+  → write_interview_section_patch_capture (flatten + re-anchor)
+  → quantify again before commit
+Split at quotable transcript pivots; prefer thematic titles over word-count math.
+One patch-script StrReplace per turn on Windows (parallel-ban).
+```
+
+**2. CaptureSpec batch patch as intake closeout vehicle**
+
+```text
+Same-day intake tranche with shared host/guest family:
+  one scripts/patch_YYYYMMDD_*_sections.py with CaptureSpec tuple per capture
+  ship all or --only one capture for iterative balance
+  resection_note in spec documents pass count (e.g. 13§ → 27§)
+Dry-run validate_section_anchors before write.
+```
+
+**3. Mixed-source daily synthesis (YouTube + writer essay)**
+
+```text
+When pub_date day has sectioned YouTube + Substack essay:
+  essay → structural spine (framework, watch indicators, phase logic)
+  YouTube → kinetic/logistics receipt (strikes, bases, MOU clause map)
+  do not source-section the essay
+  cross-link next-day live capture as optional receipt surface (e.g. Pape Day Three → 2026-06-28 breaking Johnson)
+```
+
+**4. Synthesis without wire matrix (honest pending seam)**
+
+```text
+If notes/wire/YYYY-MM-DD-news-verify-matrix.md missing at compose time:
+  mark News-verify (day) as Pending in daily
+  carry prior-day matrix hooks (J26-*, J25-*)
+  include provisional hook table with developing/tier-4 labels
+  do not invent J27-n verdicts or verify: YAML on captures
+Best Next Moves must name wire pass as first fork.
+```
+
+### Reapplication
+
+- **Long DW / Napolitano breaking sessions:** menu **B** re-section until quantify max ≤ ~800w editorial.
+- **Next intake batch (3+ captures):** single `CaptureSpec` patch script + `--only` iterative balance.
+- **Writer + YouTube same pub_date:** daily compose — essay spine + transcript receipt; writer row in day-index.
+- **Compose before wire:** pending matrix + carry + provisional table (as **2026-06-27** draft).
+- **Windows EXECUTE:** one `StrReplace` per file per turn on patch scripts.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| `scripts/patch_2026_06_27_28_new_intake_sections.py` | CaptureSpec batch; breaking Johnson **27§** |
+| `source-archive/statecraft/2026-06-28/source-dialogue-works-larry-johnson-breaking-*.md` | Re-sectioned; pushed (`89ad2aa67`) |
+| `source-archive/statecraft/2026-06-27/source-pape-situation-report-*.md` | Substack land; pushed (`01bd6401e`) |
+| `statecraft/synthesis/day/2026-06-27.md` | Drafted (compose pending commit at RLJ append) |
+| `scripts/quantify_section_nav.py` | Receipt CLI — iterative use in re-section loop |
+
+### Guardrail
+
+```text
+Do not stop re-section at >1500w warn only when breaking-live editorial target is ~800w
+Do not merge Sencom/Lebanon/Ukraine into one CENTCOM § without chronology-aware anchors
+Do not score J27-n hooks in daily when matrix absent — provisional table only
+Do not source-section Substack essays
+Do not duplicate 2026-06-26 balance ladder without cross-link + narrow (~800w breaking-live)
+Do not parallel StrReplace on same patch script path (Windows harness)
+```
+
+**Falsification:** Short interview (<4k flat) may not need iterative passes — one section pass + quantify sufficient; **~800w target** applies to long breaking-live monoliths, not all captures.
+
+### Current lesson
+
+```text
+Breaking-live sectioning is a menu-driven quantify loop, not a one-pass ship —
+CaptureSpec patch scripts carry the tranche; essays supply synthesis spine while YouTube supplies receipt;
+compose may ship with wire Pending if carry + provisional hooks are explicit.
+```
+
+Routing: [patch_2026_06_27_28_new_intake_sections.py](../scripts/patch_2026_06_27_28_new_intake_sections.py) · [quantify_section_nav.py](../scripts/quantify_section_nav.py) · [statecraft-daily-synthesis](../skills/statecraft-daily-synthesis/SKILL.md) · RLJ [section balance ladder](#2026-06-26---reason-to-resist-host-only-shelf--transcript-section-balance-ladder) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc)
+
+**Pattern promotion:** defer until second distinct breaking-live capture family reuses CaptureSpec iterative loop without new law beyond (1)(2).
+
+---
