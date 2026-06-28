@@ -4,7 +4,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 ## Stats
 
-- Day indices: `ok` (473)
+- Day indices: `ok` (474)
 - Month indices: `ok` (22)
 - Year indices: `ok` (4)
 - Thread index: `ok`
@@ -491,6 +491,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `2026-06-24` | `ok` | `ok` | `ok` |
 | `2026-06-25` | `ok` | `ok` | `ok` |
 | `2026-06-26` | `ok` | `ok` | `ok` |
+| `2026-06-27` | `ok` | `ok` | `ok` |
 
 ## Month Index Status
 
