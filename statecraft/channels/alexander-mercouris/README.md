@@ -5,7 +5,7 @@ WORK only; not Record.
 Canonical live **channel shelf** for archive key **`alexander-mercouris`** (`channel_slug` in source captures).
 
 - **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
-- **Archive captures:** `331` files · `source-alexander-mercouris-*` filename family
+- **Archive captures:** `332` files · `source-alexander-mercouris-*` filename family
 - **YouTube:** [Alexander Mercouris](https://www.youtube.com/@AlexMercouris)
 - **Watchlist:** yes
 

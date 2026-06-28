@@ -17,16 +17,17 @@ Purpose: primary route map for **Alexander Mercouris** — guest captures on oth
 
 | Route here | Route to Alexander Mercouris channel shelf |
 |---|---|
-| `guest:` / `guest_people:` Mercouris on **another** `channel_slug` | `source-alexander-mercouris-*` · solo monologues on `@AlexMercouris` |
+| `guest:` / `guest_people:` / `guest_2:` … Mercouris on **another** `channel_slug` | `source-alexander-mercouris-*` · solo monologues on `@AlexMercouris` |
 | Cross-host analyst continuity (Davis, Diesen, Duran, Neutrality Studies, …) | Host-conditioned framing on that channel |
 
 Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs Duran = distinct host reads.
 
 ## Corpus note
 
-- **37** materialized cross-host guest captures on disk; expand as archive grows
-- Filename families: `source-duran-mercouris-*` · `source-daniel-davis-*mercouris*` · `source-glenn-diesen-*mercouris*` · explicit `guest: Alexander Mercouris` with `channel_slug` ≠ `alexander-mercouris`
+- **45** materialized cross-host guest captures on disk; expand as archive grows
+- Filename families: `source-duran-mercouris-*` · `source-daniel-davis-*mercouris*` · `source-glenn-diesen-*mercouris*` · explicit Mercouris in `guest` / `guest_people` / `guest_2` with `channel_slug` ≠ `alexander-mercouris`
 - **The Duran:** YAML lists Christoforou host / Mercouris guest — route host lens to [`the-duran-channel-index.md`](../../channels/the-duran/the-duran-channel-index.md); Mercouris mechanism here
+
 
 ## 2023-01
 
@@ -46,6 +47,7 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 
 ## 2025-02
 
+- [2025-02-15 — Trump To Force Ukraine Peace on Europe - John Mearsheimer, Alexander …](../../../source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md) — host: **glenn-diesen**
 - [2025-02-07 — duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07](../../../source-archive/statecraft/2025-02-07/source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md) — host: **Alex Christoforou**
 - [2025-02-21 — duran-mercouris-uk-eu-take-ownership-of-project-ukraine-preemptive-co…](../../../source-archive/statecraft/2025-02-21/source-duran-mercouris-uk-eu-take-ownership-of-project-ukraine-preemptive-coup-2025-02-21.md) — host: **Alex Christoforou**
 - [2025-02-25 — duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-kra…](../../../source-archive/statecraft/2025-02-25/source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md) — host: **Alex Christoforou**
@@ -53,17 +55,28 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 
 ## 2025-03
 
+- [2025-03-08 — The US Push for Peace & Europe Panics - John Mearsheimer, Alexander M…](../../../source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md) — host: **glenn-diesen**
 - [2025-03-01 — duran-mercouris-lets-talk-about-zelensky-live-2025-03-01](../../../source-archive/statecraft/2025-03-01/source-duran-mercouris-lets-talk-about-zelensky-live-2025-03-01.md) — host: **Alex Christoforou**
 
 ## 2025-04
 
 - [2025-04-10 — Russian Realism + European Dreams = UKRAINE DEFEAT](../../../source-archive/statecraft/2025-04-10/source-daniel-davis-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md) — host: **Daniel Davis** · `daniel-davis`
 
+## 2025-05
+
+- [2025-05-29 — Russia Won the War - John Mearsheimer, Alexander Mercouris & Glenn Di…](../../../source-archive/statecraft/2025-05-29/source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md) — host: **glenn-diesen**
+- [2025-05-02 — Ukraine is Now Trump's War - John Mearsheimer, Alexander Mercouris & …](../../../source-archive/statecraft/2025-05-02/source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md) — host: **glenn-diesen**
+
 ## 2025-06
 
+- [2025-06-20 — "Israel Has Walked Off a Cliff" - John Mearsheimer, Alexander Mercour…](../../../source-archive/statecraft/2025-06-20/source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md) — host: **glenn-diesen**
 - [2025-06-17 — duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17](../../../source-archive/statecraft/2025-06-17/source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md) — host: **Alex Christoforou**
 - [2025-06-02 — duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02](../../../source-archive/statecraft/2025-06-02/source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md) — host: **Alex Christoforou**
 - [2025-06-21 — duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2…](../../../source-archive/statecraft/2025-06-21/source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md) — host: **Alex Christoforou**
+
+## 2025-07
+
+- [2025-07-25 — Ukraine War Will Now Be Resolved on Battlefield John Mearsheimer, Ale…](../../../source-archive/statecraft/2025-07-25/source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md) — host: **glenn-diesen**
 
 ## 2025-09
 
@@ -81,6 +94,7 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 ## 2025-12
 
 - [2025-12-10 — The EUROPEAN GAMBLE BACKING UKRAINE /Alexander Mercouris & Lt Col Dan…](../../../source-archive/statecraft/2025-12-10/source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md) — host: **Daniel Davis** · `daniel-davis`
+- [2025-12-19 — Fake Diplomacy & Permanent Conflict - John Mearsheimer, Alexander Mer…](../../../source-archive/statecraft/2025-12-19/source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md) — host: **glenn-diesen**
 
 ## 2026-01
 
@@ -94,6 +108,7 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 
 - [2026-04-16 — duran-mercouris-2026-04-16](../../../source-archive/statecraft/2026-04-16/source-duran-mercouris-2026-04-16.md) — host: **The Duran** · `the-duran`
 - [2026-04-18 — duran-mercouris-2026-04-18](../../../source-archive/statecraft/2026-04-18/source-duran-mercouris-2026-04-18.md) — host: **The Duran** · `the-duran`
+- [2026-04-23 — Fractured Iran or fractured Trump? w/ Robert Barnes (Live)](../../../source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md) — host: **The Duran** · `the-duran`
 - [2026-04-25 — duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25](../../../source-archive/statecraft/2026-04-25/source-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md) — host: **The Duran** · `the-duran`
 
 ## 2026-05

@@ -11,6 +11,53 @@ ARCHIVE = REPO / "source-archive" / "statecraft"
 OUT = REPO / "statecraft" / "voices" / "mercouris" / "mercouris-index.md"
 MERC = re.compile(r"alexander\s+mercouris|alex\s+mercouris", re.I)
 
+HEADER = """WORK only; not Record.
+
+# Mercouris Index
+
+Purpose: primary route map for **Alexander Mercouris** — guest captures on other hosts; pair with analytical bench and host channel below.
+
+## Open first
+
+| Surface | Path | Job |
+|---|---|---|
+| **Guest captures (this file)** | `mercouris-index.md` | Cross-host guest appearances (`channel_slug` ≠ `alexander-mercouris`) |
+| **Analytical bench** | [mercouris-analytical-bench.md](mercouris-analytical-bench.md) | Month hinges, cross-weaves, prehistory anchors |
+| **Host channel** | [alexander-mercouris-channel-index.md](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md) | Solo `@AlexMercouris` uploads |
+| **Compat redirect** | [mercouris-source-index.md](mercouris-source-index.md) | Back-compat entry only |
+
+## Boundary
+
+| Route here | Route to Alexander Mercouris channel shelf |
+|---|---|
+| `guest:` / `guest_people:` / `guest_2:` … Mercouris on **another** `channel_slug` | `source-alexander-mercouris-*` · solo monologues on `@AlexMercouris` |
+| Cross-host analyst continuity (Davis, Diesen, Duran, Neutrality Studies, …) | Host-conditioned framing on that channel |
+
+Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs Duran = distinct host reads.
+
+## Corpus note
+
+- **{total}** materialized cross-host guest captures on disk; expand as archive grows
+- Filename families: `source-duran-mercouris-*` · `source-daniel-davis-*mercouris*` · `source-glenn-diesen-*mercouris*` · explicit Mercouris in `guest` / `guest_people` / `guest_2` with `channel_slug` ≠ `alexander-mercouris`
+- **The Duran:** YAML lists Christoforou host / Mercouris guest — route host lens to [`the-duran-channel-index.md`](../../channels/the-duran/the-duran-channel-index.md); Mercouris mechanism here
+"""
+
+FOOTER = """## Host cross-refs
+
+| Host | When Mercouris is guest there |
+|---|---|
+| **Daniel Davis** | Deep Dive institutional realism — not solo Mercouris register |
+| **Glenn Diesen** | Karaganov triads · legitimacy dyad · Iran–Ukraine braid panels |
+| **The Duran** | Christoforou host register · co-host continuity on Duran shelf |
+| **Neutrality Studies** | Lottaz / neutrality-studies frame |
+
+## Reading rule
+
+- **Guest mechanism / cross-host Mercouris** → this index
+- **Analytical bench (hinges / weaves)** → [mercouris-analytical-bench.md](mercouris-analytical-bench.md)
+- **Mercouris solo on Alexander Mercouris channel** → [`alexander-mercouris-channel-index.md`](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md)
+"""
+
 
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:4000]
@@ -18,7 +65,10 @@ def parse_head(path: Path) -> dict:
     for key in ("title", "channel_slug", "show", "host", "guest", "thread", "youtube_id"):
         m = re.search(rf"^{key}:\s*(.+)$", text, re.M)
         if m:
-            out[key] = m.group(1).strip().strip('"')
+            val = m.group(1).strip().strip('"').replace('\\"', '"')
+            out[key] = val
+    for m in re.finditer(r"^guest_(\d+):\s*(.+)$", text, re.M):
+        out[f"guest_{m.group(1)}"] = m.group(2).strip().strip('"')
     gp = re.search(r"^guest_people:\s*\n((?:\s+-\s+.+\n)*)", text, re.M)
     if gp:
         out["guest_people"] = [
@@ -27,12 +77,23 @@ def parse_head(path: Path) -> dict:
     return out
 
 
+def guest_slots(meta: dict) -> list[str]:
+    slots: list[str] = []
+    if meta.get("guest"):
+        slots.append(meta["guest"])
+    for key in sorted(meta.keys(), key=lambda k: (len(k), k)):
+        if re.fullmatch(r"guest_\d+", key):
+            slots.append(meta[key])
+    slots.extend(meta.get("guest_people") or [])
+    return slots
+
+
 def is_mercouris_material(path: Path, meta: dict) -> bool:
-    if MERC.search(path.name) or meta.get("thread") == "mercouris":
+    if "mercouris" in path.name.lower() or meta.get("thread") == "mercouris":
         return True
-    blob = " ".join(
-        [meta.get("host", ""), meta.get("guest", ""), " ".join(meta.get("guest_people") or [])]
-    )
+    if MERC.search(path.name):
+        return True
+    blob = " ".join([meta.get("host", ""), *guest_slots(meta)])
     return bool(MERC.search(blob))
 
 
@@ -49,9 +110,7 @@ def is_guest(meta: dict, path: Path) -> bool:
         return False
     if is_host_channel(meta, path):
         return False
-    if MERC.search(meta.get("guest", "")):
-        return True
-    for g in meta.get("guest_people") or []:
+    for g in guest_slots(meta):
         if MERC.search(g):
             return True
     if MERC.search(meta.get("host", "")):
@@ -85,56 +144,15 @@ def main() -> None:
             by_month[month_key(path.parent.name)].append((path, meta))
 
     total = sum(len(v) for v in by_month.values())
-    lines = [
-        "WORK only; not Record.",
-        "",
-        "# Mercouris Index",
-        "",
-        "Purpose: route map for **Alexander Mercouris** as **guest / interviewed analyst on other hosts and channels** — not Alexander Mercouris solo-channel work.",
-        "",
-        "**Host channel (Alexander Mercouris):** [`alexander-mercouris-channel-index.md`](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md)",
-        "",
-        "## Boundary",
-        "",
-        "| Route here | Route to Alexander Mercouris channel shelf |",
-        "|---|---|",
-        "| `guest:` / `guest_people:` Mercouris on **another** `channel_slug` | `source-alexander-mercouris-*` · solo monologues on `@AlexMercouris` |",
-        "| Cross-host analyst continuity (Davis, Diesen, Duran, Neutrality Studies, …) | Host-conditioned framing on that channel |",
-        "",
-        "Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs Duran = distinct host reads.",
-        "",
-        "## Corpus note",
-        "",
-        f"- **{total}** materialized cross-host guest captures on disk; expand as archive grows",
-        "- Filename families: `source-duran-mercouris-*` · `source-daniel-davis-*mercouris*` · `source-glenn-diesen-*mercouris*` · explicit `guest: Alexander Mercouris` with `channel_slug` ≠ `alexander-mercouris`",
-        "- **The Duran:** YAML lists Christoforou host / Mercouris guest — route host lens to [`the-duran-channel-index.md`](../../channels/the-duran/the-duran-channel-index.md); Mercouris mechanism here",
-        "",
-    ]
+    lines = [HEADER.format(total=total), ""]
     for mk in sorted(by_month.keys()):
         lines.append(f"## {mk}")
         lines.append("")
         for path, meta in sorted(by_month[mk], key=lambda t: t[0].name):
             lines.append(row_label(meta, path))
         lines.append("")
-    lines.extend(
-        [
-            "## Host cross-refs",
-            "",
-            "| Host | When Mercouris is guest there |",
-            "|---|---|",
-            "| **Daniel Davis** | Deep Dive institutional realism — not solo Mercouris register |",
-            "| **Glenn Diesen** | Karaganov triads · legitimacy dyad · Iran–Ukraine braid panels |",
-            "| **The Duran** | Christoforou host register · co-host continuity on Duran shelf |",
-            "| **Neutrality Studies** | Lottaz / neutrality-studies frame |",
-            "",
-            "## Reading rule",
-            "",
-            "- **Guest mechanism / cross-host Mercouris** → this index",
-            "- **Mercouris solo on Alexander Mercouris channel** → [`alexander-mercouris-channel-index.md`](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md)",
-            "",
-        ]
-    )
-    OUT.write_text("\n".join(lines), encoding="utf-8")
+    lines.append(FOOTER.rstrip())
+    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)} ({total} rows)")
 
 

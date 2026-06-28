@@ -348,7 +348,6 @@ This channel index lists **host-channel captures** (`channel_slug: alexander-mer
 - [source-alexander-mercouris-kremlin-panic-british-intelligence-2026-05-04.md](../../../source-archive/statecraft/2026-05-04/source-alexander-mercouris-kremlin-panic-british-intelligence-2026-05-04.md)
 - [source-alexander-mercouris-hormuz-uae-russia-china-2026-05-05.md](../../../source-archive/statecraft/2026-05-05/source-alexander-mercouris-hormuz-uae-russia-china-2026-05-05.md)
 - [source-alexander-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md](../../../source-archive/statecraft/2026-05-06/source-alexander-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md)
-- [source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md](../../../source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
 - [source-alexander-mercouris-iran-calls-us-bluff-rejects-talks-saudi-closes-airspace-russia-cracks-kiev-drones-2026-05-07.md](../../../source-archive/statecraft/2026-05-07/source-alexander-mercouris-iran-calls-us-bluff-rejects-talks-saudi-closes-airspace-russia-cracks-kiev-drones-2026-05-07.md)
 - [source-alexander-mercouris-russia-makes-strongest-threats-kiev-eu-refuses-may-truce-2026-05-08.md](../../../source-archive/statecraft/2026-05-08/source-alexander-mercouris-russia-makes-strongest-threats-kiev-eu-refuses-may-truce-2026-05-08.md)
 - [source-alexander-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md](../../../source-archive/statecraft/2026-05-09/source-alexander-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md)
@@ -398,6 +397,8 @@ This channel index lists **host-channel captures** (`channel_slug: alexander-mer
 - [source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md](../../../source-archive/statecraft/2026-06-22/source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md)
 - [source-alexander-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md](../../../source-archive/statecraft/2026-06-23/source-alexander-mercouris-putin-warns-russian-army-war-with-west-coming-russia-leads-west-in-arms-output-us-iran-talks-stuck-2026-06-23.md)
 - [source-alexander-mercouris-lukashenko-no-to-zelensky-belarus-stands-with-russia-russian-troops-enter-sumy-eu-no-to-kiev-entry-2026-06-25.md](../../../source-archive/statecraft/2026-06-25/source-alexander-mercouris-lukashenko-no-to-zelensky-belarus-stands-with-russia-russian-troops-enter-sumy-eu-no-to-kiev-entry-2026-06-25.md)
+- [source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md](../../../source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md)
+- [source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md](../../../source-archive/statecraft/2026-06-27/source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md)
 
 ## Reading rule
 
