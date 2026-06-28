@@ -57,6 +57,19 @@ RETURN_PATHS = [
     "runtime/artifacts/README.md",
 ]
 
+ROUTING_SSOT_REL = frozenset(
+    {
+        "LLM-ROUTING.md",
+        "repo-map.yaml",
+        "AGENTS.md",
+        "docs/start-here.md",
+        "docs/root-directory-map.md",
+        "docs/product-identity.md",
+        "docs/public-orientation.md",
+        "statecraft/voices/voice-index.md",
+    }
+)
+
 LOCAL_PATH_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"/C:/", re.IGNORECASE), "/C:/ absolute Windows path"),
     (re.compile(r"C:\\dev\\", re.IGNORECASE), "C:\\dev\\ local path"),
@@ -76,7 +89,31 @@ def _rel(repo_root: Path, path: Path) -> str:
         return str(path)
 
 
+def _collect_routing_ssot_files(repo_root: Path) -> list[Path]:
+    files: set[Path] = set()
+    for rel in ROUTING_SSOT_REL:
+        path = (repo_root / rel).resolve()
+        if path.is_file():
+            files.add(path.resolve())
+    voices = repo_root / "statecraft" / "voices"
+    if voices.is_dir():
+        for pattern in ("*-index.md", "*-source-index.md"):
+            for p in voices.glob(f"**/{pattern}"):
+                name = p.name
+                if name in {"voice-index.md", "index.md"}:
+                    continue
+                if "master-index" in name or "analysis-index" in name:
+                    continue
+                if p.parent.name == "map":
+                    continue
+                files.add(p.resolve())
+    return sorted(files)
+
+
 def _collect_scan_files(repo_root: Path, scope: str) -> list[Path]:
+    scope_norm = scope.strip().lower()
+    if scope_norm == "routing-ssot":
+        return _collect_routing_ssot_files(repo_root)
     md_paths = collect_markdown_paths(repo_root, scope)
     extra: set[Path] = set()
     roots: list[Path] = []
@@ -122,17 +159,29 @@ def _link_severity(missing_detail: str) -> str:
     return "warning"
 
 
+def _is_template_link(raw: str, detail: str) -> bool:
+    combined = f"{raw} {detail}"
+    if "*" in combined:
+        return True
+    if "YYYY-MM-DD" in combined:
+        return True
+    return False
+
+
 def findings_from_links(
     repo_root: Path,
     scope: str,
     *,
     max_errors: int | None = None,
 ) -> list[Finding]:
-    paths = collect_markdown_paths(repo_root, scope)
+    scan_paths = _collect_scan_files(repo_root, scope)
+    paths = [p for p in scan_paths if p.suffix.lower() == ".md"]
     raw_errors = validate_markdown_links(paths, repo_root)
     findings: list[Finding] = []
     for err in raw_errors:
         file_part, raw, detail = _parse_link_error(err)
+        if _is_template_link(raw, detail):
+            continue
         severity = _link_severity(detail)
         findings.append(
             Finding(
@@ -253,7 +302,11 @@ def build_findings(
         verify_portable=verify_portable,
     )
     link_findings = findings_from_links(repo_root, scope, max_errors=max_link_errors)
-    leak_findings = findings_from_local_path_leaks(repo_root, scope)
+    leak_findings = (
+        []
+        if scope.strip().lower() == "routing-ssot"
+        else findings_from_local_path_leaks(repo_root, scope)
+    )
     all_findings = check_findings + link_findings + leak_findings
     return all_findings, check_outputs
 
@@ -505,7 +558,7 @@ def main() -> int:
     parser.add_argument(
         "--scope",
         default="docs",
-        choices=("docs", "statecraft", "skills", "all"),
+        choices=("docs", "statecraft", "skills", "all", "routing-ssot"),
         help="Markdown link and leak scan scope",
     )
     parser.add_argument(
