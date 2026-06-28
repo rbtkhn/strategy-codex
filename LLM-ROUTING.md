@@ -28,6 +28,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | transcript / capture / source file | [source-archive/statecraft/](statecraft) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/synthesis/day/](statecraft/synthesis/day) — **after** archive + source-index |
+| **statecraft note registry** / which notes exist / essay candidate / route integrity | [statecraft/notes/INDEX.md](statecraft/notes/INDEX.md) → [runtime/artifacts/statecraft-notes-registry.md](runtime/artifacts/statecraft-notes-registry.md) — **before** grepping `statecraft/notes/` |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/channels/](statecraft/channels) |
 | **YouTube channel roster** / check-sources / `channel_slug` | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) · [channel-index.md](statecraft/channels/channel-index.md) |
 | statecraft lane / active operator work | [statecraft/](statecraft) |
@@ -160,6 +161,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | source-lattice-doctrine | reading_discipline | work | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) | source lattice, corpus tiers, reading order, … |
 | speaker-cluster-map | routing_aid | work | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | speaker cluster map, satellite speaker, which speaker after Pape, … |
 | statecraft-day-source-index | generated_inventory | generated | [source-archive/statecraft/YYYY-MM-DD/day-index.md](source-archive/statecraft/YYYY-MM-DD/day-index.md) | day index, day-index, june 17 day index, … |
+| statecraft-notes-registry | generated_dashboard | generated | [runtime/artifacts/statecraft-notes-registry.md](runtime/artifacts/statecraft-notes-registry.md) | note registry, essay candidate, shelf-native, … |
 | statecraft-source-capture | source_capture | source | [source-archive/statecraft/YYYY-MM-DD/source-*.md](source-archive/statecraft/YYYY-MM-DD/source-*.md) | source capture, verbatim transcript, statecraft source file, … |
 | statecraft-thread-index | generated_inventory | generated | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | thread index, archive inventory |
 | the-duran-channel-index | source_index | work | [statecraft/channels/the-duran/the-duran-channel-index.md](statecraft/channels/the-duran/the-duran-channel-index.md) | The Duran index, the-duran-channel-index, the-duran-index, … |
@@ -233,7 +235,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 - source indexes (disk): 29
 - host shelves (disk): 16
 - markdown links (INDEX + source-index files): 134
-- repo-map routes: 127 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=21, source_capture=1, source_index=87)
+- repo-map routes: 128 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=2, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=21, source_capture=1, source_index=87)
 - source_index routes in repo-map: 87
 - host_shelf routes in repo-map: 16
 - registry: INDEX lists 29/29, repo-map lists 29/29 (100.0% bijection when both match)

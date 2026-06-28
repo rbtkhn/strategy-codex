@@ -1,12 +1,13 @@
 # Note gate baseline audit (2026-06)
 
-Shadow-mode inventory before strict enforcement. Generated from check_statecraft_notes.py --warn.
+Shadow-mode inventory before strict enforcement. Generated from `check_statecraft_notes.py --warn`.
 
 ## Summary
 
-- **Date:** 2026-06-28
-- **Command:** python3 scripts/check_statecraft_notes.py --warn
-- **Result:** check_statecraft_notes (warn): 796 violation(s) across 328 note(s)
+- **Baseline date:** 2026-06-28 (note gate ship)
+- **Baseline command:** `python3 scripts/check_statecraft_notes.py --warn`
+- **Baseline result:** 796 violation(s) across 328 note(s)
+- **Current (2026-06-28, post backfill batches):** **638 violation(s)** across 328 note(s) (−158)
 - **Sample violations (first 40):**
 
 - statecraft/notes/2025-02-ritter-india-global-left-trump-pivot-arc.md: missing note_type
@@ -50,16 +51,46 @@ Shadow-mode inventory before strict enforcement. Generated from check_statecraft
 - statecraft/notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md: missing authority_level
 - statecraft/notes/2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md: missing note_type
 
-_… and 756 more._
+_… and 598 more._
+
+## Backfill progress (2026-06-28)
+
+Bounded shelf-native batches via `scripts/backfill_note_contract_batch.py` (+ manual `archive_links` where routing notes lacked body anchors):
+
+| Batch | Notes | Commits on `main` | Warn delta |
+| --- | --- | --- | --- |
+| `mou-enforcement` | 10 | `c1d057a8a` | 796 → 770 |
+| `iran-theater` | 7 | `2bc07e887` | 770 → 748 |
+| `ai-cluster` | 10 | `2bc07e887` | 748 → 719 |
+| `month-maturity` | 6 | `a5b6c3e01` | 719 → 701 |
+| `speaker-watchlist` | 15 | `a5b6c3e01` | 701 → 656 |
+| `closure-audit` | 6 | `a5b6c3e01` | 656 → **638** |
+
+**Remaining gap:** mostly legacy `*-weave.md` / register / arc filenames without contract — not README shelf-native clusters yet backfilled.
+
+## Registry dashboard (2026-06-28)
+
+Shipped: `scripts/notes_registry_lib.py` + extended `scripts/reindex_notes.py`.
+
+| Artifact | Path |
+| --- | --- |
+| Operator dashboard (MD) | `runtime/artifacts/statecraft-notes-registry.md` |
+| Machine registry (JSON) | `runtime/artifacts/statecraft-notes-registry.json` |
+| Discovery stub | `statecraft/notes/INDEX.md` |
+
+Regenerate: `python3 scripts/reindex_notes.py` · CI/preflight freshness: `python3 scripts/reindex_notes.py --check`.
+
+Tier A health block surfaces orphan / weak-anchor / essay-queue / broken-link counts; Tier B is summary-only in MD.
 
 ## Rollout
 
 1. Exemplar notes carry full contract (see statecraft/notes/README.md Note Contract).
 2. --warn wired in repo health (non-blocking).
 3. --strict --changed-only --tier-a-only fails CI on new/changed Tier A regressions only.
-4. Full Tier A strict deferred until corpus backfill.
+4. Full Tier A strict deferred until corpus backfill (638 warn violations remain; see backfill table above).
 
 ## Related
 
+- `scripts/backfill_note_contract_batch.py` — named batches: `mou-enforcement`, `iran-theater`, `ai-cluster`, `month-maturity`, `speaker-watchlist`, `closure-audit`
 - [transaction-retirement-inventory-2026-06.md](./transaction-retirement-inventory-2026-06.md)
 - [statecraft/notes/README.md](../../statecraft/notes/README.md)

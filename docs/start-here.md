@@ -86,9 +86,11 @@ operator source
   → essays/<slug>.md                               [polished cross-channel argument]
 ```
 
+Before promoting or searching notes, open [`statecraft/notes/INDEX.md`](../statecraft/notes/INDEX.md) and the generated registry at `runtime/artifacts/statecraft-notes-registry.md` (Tier A health, essay queue, route integrity).
+
 Not every note becomes an essay.
 
-**Note contract:** promoted analytical notes declare typed metadata (`note_type`, `authority_level`, `source_basis`) — see [statecraft/notes/README.md](../statecraft/notes/README.md) · validate with `python3 scripts/check_statecraft_notes.py --warn`.
+**Note contract:** promoted analytical notes declare typed metadata (`note_type`, `authority_level`, `source_basis`) — see [statecraft/notes/README.md](../statecraft/notes/README.md) · validate with `python3 scripts/check_statecraft_notes.py --warn` · registry: `python3 scripts/reindex_notes.py --check`.
 
 Fork revive only: `recursion-gate.md` → `process_approved_candidates.py --apply` · map: [strategy-codex-redesign-brief.md](strategy-codex-redesign-brief.md)
 

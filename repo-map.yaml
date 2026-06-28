@@ -607,6 +607,25 @@ routes:
   - archive day inventory
   script: scripts/statecraft_day_source_index.py
   category: generated
+- id: statecraft-notes-registry
+  title: Statecraft notes registry (route integrity dashboard)
+  path: runtime/artifacts/statecraft-notes-registry.md
+  kind: generated_dashboard
+  authority: derived
+  tags:
+  - statecraft
+  - notes
+  - registry
+  - generated
+  - dashboard
+  search_hints:
+  - note registry
+  - essay candidate
+  - shelf-native
+  - route integrity
+  - statecraft notes health
+  script: scripts/reindex_notes.py
+  category: generated
 - id: statecraft-source-capture
   title: Statecraft archive source capture (verbatim)
   path_pattern: source-archive/statecraft/YYYY-MM-DD/source-*.md

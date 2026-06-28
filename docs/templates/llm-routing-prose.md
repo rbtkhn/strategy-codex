@@ -17,6 +17,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | transcript / capture / source file | [source-archive/statecraft/](../../statecraft) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](../../source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/synthesis/day/](../../statecraft/synthesis/day) — **after** archive + source-index |
+| **statecraft note registry** / which notes exist / essay candidate / route integrity | [statecraft/notes/INDEX.md](../../statecraft/notes/INDEX.md) → [runtime/artifacts/statecraft-notes-registry.md](../../runtime/artifacts/statecraft-notes-registry.md) — **before** grepping `statecraft/notes/` |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/channels/](../../statecraft/channels) |
 | **YouTube channel roster** / check-sources / `channel_slug` | [statecraft/channels/channel-index.json](../../statecraft/channels/channel-index.json) · [channel-index.md](../../statecraft/channels/channel-index.md) |
 | statecraft lane / active operator work | [statecraft/](../../statecraft) |
