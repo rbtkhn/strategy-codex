@@ -4,9 +4,9 @@ WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved **`source-daniel-davis-*`** capture materialized in this repo (`channel_slug: daniel-davis` · host **Daniel Davis**), including host-native captures, guest-bearing host interviews, shorthand day files, generic `transcript-davis` surfaces, and explicit raw-input discovery surfaces.
 
-**Guest elsewhere:** [`davis-index.md`](davis-index.md) — Davis on other hosts only; do not duplicate those rows here.
+**Guest elsewhere:** [`davis-index.md`](../../voices/davis/davis-index.md) — Davis on other hosts only; do not duplicate those rows here.
 
-This channel index lists **host-channel captures** (`channel_slug: daniel-davis`). Cross-host guest appearances live on [`davis-index.md`](davis-index.md).
+This channel index lists **host-channel captures** (`channel_slug: daniel-davis`). Cross-host guest appearances live on [`davis-index.md`](../../voices/davis/davis-index.md).
 
 ## 2025-01-01
 

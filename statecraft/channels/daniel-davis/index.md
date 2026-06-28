@@ -6,9 +6,8 @@ Purpose: front door for the canonical live Davis host shelf in repo-root `statec
 
 ## Open First
 
-- [Speaker profile](davis-profile.md)
-- [README.md](README.md)
-- [davis-index.md](davis-index.md) — cross-host guest captures
+- [Daniel Davis channel shelf](README.md) — host captures
+- [Davis voice shelf](../../voices/davis/README.md) — profile · [davis-index.md](../../voices/davis/davis-index.md) (guest)
 - [daniel-davis-channel-index.md](daniel-davis-channel-index.md) — host channel
 - [daniel-davis-index.md](daniel-davis-index.md) — compat redirect
 - [davis-host-law.md](davis-host-law.md)

@@ -273,12 +273,12 @@ routes:
   category: work
 - id: davis-index
   title: Davis index (guest)
-  path: statecraft/channels/daniel-davis/davis-index.md
+  path: statecraft/voices/davis/davis-index.md
   kind: source_index
   authority: work_only
   domain:
   - statecraft
-  - channels
+  - voices
   - deep-dive
   people:
   - Daniel Davis
@@ -286,11 +286,26 @@ routes:
   - davis
   - guest-index
   - statecraft
+  - voices
   search_hints:
   - Davis guest index
   - davis-index
   - Daniel Davis guest
   - Davis cross-host
+  category: work
+- id: davis-source-index
+  title: Davis source index (compat redirect)
+  path: statecraft/voices/davis/davis-source-index.md
+  kind: source_index
+  authority: work_only
+  tags:
+  - davis
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Davis index
+  - davis source index
   category: work
 - id: judging-freedom-channel-index
   title: Judging Freedom channel index

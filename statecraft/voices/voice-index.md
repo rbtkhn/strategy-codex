@@ -20,6 +20,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Breaking Points | [../channels/breaking-points/breaking-points-channel-index.md](../channels/breaking-points/breaking-points-channel-index.md) |
 | Crooke | [crooke/crooke-source-index.md](crooke/crooke-source-index.md) |
 | Cyrus Janssen | [../channels/cyrus-janssen/cyrus-janssen-channel-index.md](../channels/cyrus-janssen/cyrus-janssen-channel-index.md) |
+| Davis | guest: [davis/davis-index.md](davis/davis-index.md) · source: [davis/davis-source-index.md](davis/davis-source-index.md) · host: [../channels/daniel-davis/daniel-davis-channel-index.md](../channels/daniel-davis/daniel-davis-channel-index.md) |
 | Dialogue Works | [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Diesen | guest: [diesen/diesen-index.md](diesen/diesen-index.md) · source: [diesen/diesen-source-index.md](diesen/diesen-source-index.md) · host: [../channels/glenn-diesen/glenn-diesen-channel-index.md](../channels/glenn-diesen/glenn-diesen-channel-index.md) |
 | Freeman | [freeman/freeman-source-index.md](freeman/freeman-source-index.md) |
@@ -77,7 +78,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Barnes index | [barnes/](barnes/) |
 | Robert Barnes corpus | [barnes/barnes-source-index.md](barnes/barnes-source-index.md), `source-archive/statecraft/**/source-*barnes*` |
 | Mercouris index | [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) |
-| Daniel Davis × guest | [davis-index.md](../channels/daniel-davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
+| Daniel Davis × guest | [davis/davis-index.md](davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
 | Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |
 | Host channel index | This file analyst table → `../channels/{slug}/{slug}-channel-index.md` |

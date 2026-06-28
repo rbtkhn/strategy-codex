@@ -16,7 +16,7 @@ Speaker **profiles** for migrated shelves live under `statecraft/voices/<speaker
 | parsi | [statecraft/voices/parsi/parsi-profile.md](../../statecraft/voices/parsi/parsi-profile.md) |
 | diesen | [statecraft/voices/diesen/diesen-profile.md](../../statecraft/voices/diesen/diesen-profile.md) |
 | weichert | [statecraft/voices/weichert/weichert-profile.md](../../statecraft/voices/weichert/weichert-profile.md) |
-| davis | [statecraft/channels/daniel-davis/davis-profile.md](../../statecraft/channels/daniel-davis/davis-profile.md) |
+| davis | [statecraft/voices/davis/davis-profile.md](../../statecraft/voices/davis/davis-profile.md) |
 | nima | [statecraft/channels/dialogue-works/nima-profile.md](../../statecraft/channels/dialogue-works/nima-profile.md) |
 
 ## Profile-only (SSOT remains here)

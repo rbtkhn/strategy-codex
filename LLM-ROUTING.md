@@ -58,7 +58,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | cyrus-janssen-host-shelf | routing_aid | work | [statecraft/channels/cyrus-janssen/README.md](statecraft/channels/cyrus-janssen/README.md) | Cyrus Janssen host, cyrus-janssen profile |
 | daniel-davis-channel-index | source_index | work | [statecraft/channels/daniel-davis/daniel-davis-channel-index.md](statecraft/channels/daniel-davis/daniel-davis-channel-index.md) | Daniel Davis index, daniel-davis-channel-index, daniel-davis-index, … |
 | daniel-davis-host-shelf | routing_aid | work | [statecraft/channels/daniel-davis/README.md](statecraft/channels/daniel-davis/README.md) | Davis host, Daniel Davis, Deep Dive host, … |
-| davis-index | source_index | work | [statecraft/channels/daniel-davis/davis-index.md](statecraft/channels/daniel-davis/davis-index.md) | Davis guest index, davis-index, Daniel Davis guest, … |
+| davis-index | source_index | work | [statecraft/voices/davis/davis-index.md](statecraft/voices/davis/davis-index.md) | Davis guest index, davis-index, Daniel Davis guest, … |
+| davis-source-index | source_index | work | [statecraft/voices/davis/davis-source-index.md](statecraft/voices/davis/davis-source-index.md) | Davis index, davis source index |
 | dialogue-works-channel-index | source_index | work | [statecraft/channels/dialogue-works/dialogue-works-channel-index.md](statecraft/channels/dialogue-works/dialogue-works-channel-index.md) | Dialogue Works index, dialogue-works-channel-index, dialogue-works-index, … |
 | dialogue-works-host-shelf | routing_aid | work | [statecraft/channels/dialogue-works/README.md](statecraft/channels/dialogue-works/README.md) | Nima host, Dialogue Works host, Nima profile, … |
 | diesen-index | source_index | work | [statecraft/voices/diesen/diesen-index.md](statecraft/voices/diesen/diesen-index.md) | Diesen guest index, diesen cross-host |
@@ -146,6 +147,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | barnes | [statecraft/voices/barnes/barnes-source-index.md](statecraft/voices/barnes/barnes-source-index.md) | barnes-source-index |
 | blumenthal | [statecraft/voices/blumenthal/blumenthal-index.md](statecraft/voices/blumenthal/blumenthal-index.md) | blumenthal-index |
 | crooke | [statecraft/voices/crooke/crooke-source-index.md](statecraft/voices/crooke/crooke-source-index.md) | crooke-source-index |
+| davis | [statecraft/voices/davis/davis-source-index.md](statecraft/voices/davis/davis-source-index.md) | davis-source-index |
 | diesen | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | diesen-source-index |
 | freeman | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | freeman-source-index |
 | helmer | [statecraft/voices/helmer/helmer-source-index.md](statecraft/voices/helmer/helmer-source-index.md) | helmer-source-index |
