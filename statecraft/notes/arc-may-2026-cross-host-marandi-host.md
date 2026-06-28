@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: marandi
 topic: marandi-may-2026-cross-host
 legacy_path: arc-may-2026-cross-host-marandi-host.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Marandi May 2026 cross-host arc

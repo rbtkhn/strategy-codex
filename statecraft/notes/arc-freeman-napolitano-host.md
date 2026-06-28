@@ -4,6 +4,20 @@ primary_voice: freeman
 topic: napolitano-freeman
 legacy_path: arc-freeman-napolitano-host.md
 host_channel: judging-freedom
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-28/source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md
+  - source-archive/statecraft/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md
+  - source-archive/statecraft/2026-04-14/source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md
+  - source-archive/statecraft/2026-03-03/source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md
+  - source-archive/statecraft/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md
+  - source-archive/statecraft/2026-01-06/source-judging-freedom-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md
+  - source-archive/statecraft/2025-12-16/source-judging-freedom-freeman-trump-and-us-hegemony-2025-12-16.md
+  - source-archive/statecraft/2025-12-09/source-judging-freedom-freeman-does-anyone-want-peace-2025-12-09.md
 ---
 
 # Judging Freedom x Freeman speaker arc

@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: johnson
 topic: johnson-april-2026-cross-host
 legacy_path: arc-april-2026-cross-host-johnson-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-06/source-glenn-diesen-larry-johnson-iran-destroys-u-s-aircraft-trump-will-expand-the-war-2026-04-06.md
+  - source-archive/statecraft/2026-04-06/source-dialogue-works-larry-c-johnson-irans-dead-defense-wipes-out-us-jets-and-black-hawks-2026-04-06.md
+  - source-archive/statecraft/2026-04-08/source-daniel-davis-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md
+  - source-archive/statecraft/2026-04-13/source-dialogue-works-larry-johnson-will-trump-s-iran-port-blockade-work-or-end-in-total-disas-2026-04-13.md
+  - source-archive/statecraft/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md
+  - source-archive/statecraft/2026-04-16/source-daniel-davis-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md
+  - source-archive/statecraft/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md
+  - source-archive/statecraft/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md
 ---
 
 # Johnson April 2026 cross-host arc

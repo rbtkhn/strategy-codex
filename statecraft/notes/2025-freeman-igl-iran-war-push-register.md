@@ -1,3 +1,21 @@
+---
+note_id: 2025-freeman-igl-iran-war-push-register
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md
+  - source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md
+  - source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md
+  - source-archive/statecraft/2025-12-09/source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md
+  - source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md
+  - source-archive/statecraft/2026-03-07/source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md
+  - source-archive/statecraft/2026-03-23/source-india-global-left-geo-historical-shift-chas-freeman-2026-03-23.md
+  - source-archive/statecraft/2026-05-11/source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md
+---
 WORK only; not Record.
 
 # 21 Jun 2025 — Freeman × India Global Left Iran-war push register

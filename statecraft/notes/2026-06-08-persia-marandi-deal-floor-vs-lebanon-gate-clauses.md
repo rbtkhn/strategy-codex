@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md
+  - source-archive/statecraft/2026-06-02/source-dialogue-works-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md
+  - source-archive/statecraft/2026-05-29/source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md
+  - source-archive/statecraft/2026-06-08/README.md
+  - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md
+  - source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md
+---
 WORK only; not Record.
 
 # Marandi Deal Floor × Lebanon Gate Clauses — 2026-06-08

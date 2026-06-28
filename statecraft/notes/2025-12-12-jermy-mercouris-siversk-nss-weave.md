@@ -1,3 +1,21 @@
+---
+note_id: 2025-12-12-jermy-mercouris-siversk-nss-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2025-12-12
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md
+  - source-archive/statecraft/2025-12-12/source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md
+  - source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md
+  - source-archive/statecraft/2025-12.md
+  - source-archive/statecraft/2025-11-06/source-daniel-davis-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md
+  - source-archive/statecraft/2025-11-10/source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md
+  - source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md
+  - source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md
+---
 WORK only; not Record.
 
 # Dec 12 2025 — Jermy × Mercouris × Freeman/Wilkerson weave (NSS / war-lost / chain reaction)

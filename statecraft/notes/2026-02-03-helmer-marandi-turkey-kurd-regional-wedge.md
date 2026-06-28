@@ -1,3 +1,21 @@
+---
+note_id: 2026-02-03-helmer-marandi-turkey-kurd-regional-wedge
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-02-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-03/README.md
+  - source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md
+  - source-archive/statecraft/2026-02-10/source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md
+  - source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md
+  - source-archive/statecraft/2026-02-03/source-alexander-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md
+  - source-archive/statecraft/2026-02-03/source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md
+  - source-archive/statecraft/2026-02-17/README.md
+  - source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md
+---
 WORK only; not Record.
 
 # Feb 3 2026 — Helmer × Marandi wedge (Turkey / Kurd / regional representation)

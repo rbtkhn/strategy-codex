@@ -1,3 +1,12 @@
+---
+note_id: zangezur-mediation-without-overbinding
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # Zangezur Mediation Without Overbinding
 
 WORK only; not Record.

@@ -1,3 +1,12 @@
+---
+note_id: digital-identity-continuity-before-platform-control
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # America - Digital Identity Continuity Before Platform Control
 
 WORK only; not Record.

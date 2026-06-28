@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-22-round-3-taboo-broken-mercouris-duran-henningsen
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-22
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-22/source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-alexander-mercouris-starmer-quits-bbc-kostyantynivka-donbas-neocons-iran-rage-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-daniel-davis-henningsen-why-iran-talks-will-fail-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md
+  - source-archive/statecraft/2026-06-22/day-index.md
+  - source-archive/statecraft/2026-06-22/source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md
+---
 WORK only; not Record.
 
 # Round-3 seam — taboo broken × revenge × talks-fail × power-frame — 2026-06-22

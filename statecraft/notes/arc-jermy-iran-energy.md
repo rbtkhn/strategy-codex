@@ -1,3 +1,21 @@
+---
+note_id: arc-jermy-iran-energy
+note_type: arc
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-27/source-daniel-davis-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md
+  - source-archive/statecraft/2026-03-18/source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md
+  - source-archive/statecraft/2026-04-28/source-daniel-davis-iran-wars-real-ticking-timebomb-imminent-energy-food-crisis-steve-jermy-lt-col-daniel-davis-2026-04-28.md
+  - source-archive/statecraft/2026-03-18/source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md
+  - source-archive/statecraft/2026-03-18/source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md
+  - source-archive/statecraft/2026-03-24/README.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
+---
 WORK only; not Record.
 
 # Feb 27 → Apr 28 2026 — Jermy arc (Iran energy shock ladder: pre-kinetic → mechanics → timebomb)

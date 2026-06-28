@@ -1,3 +1,21 @@
+---
+note_id: 2026-02-28-pape-crooke-opening-strike-bench-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-02-28
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-28/day-index.md
+  - source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md
+  - source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md
+  - source-archive/statecraft/2026-02-28/source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md
+  - source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md
+  - source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md
+  - source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md
+  - source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md
+---
 WORK only; not Record.
 
 # Feb 28 2026 — Opening-strike bench weave (Pape × Crooke)

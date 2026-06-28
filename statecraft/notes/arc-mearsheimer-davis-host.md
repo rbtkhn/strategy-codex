@@ -6,6 +6,14 @@ topic: feasibility-bargaining-geometry
 span_start: 2025-01-17
 span_end: 2026-04-30
 legacy_path: arc-mearsheimer-davis-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-30/source-daniel-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md
+  - source-archive/statecraft/2025-01-19/source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md
 ---
 
 # Davis x Mearsheimer speaker arc

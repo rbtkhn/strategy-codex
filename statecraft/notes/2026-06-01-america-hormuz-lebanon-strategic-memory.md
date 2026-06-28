@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-01-america-hormuz-lebanon-strategic-memory
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-01
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-01/README.md
+  - source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md>
+  - source-archive/statecraft/2026-06-01/source-judging-freedom-mcgovern-what-putin-is-thinking-2026-06-01.md>
+  - source-archive/statecraft/2026-06-01/source-daniel-davis-iran-warhawks-delusional-fantasy-lt-col-daniel-davis-2026-06-01.md>
+  - source-archive/statecraft/2026-06-01/source-daniel-davis-breaking-iran-suspends-talks-w-us-over-israel-s-strikes-on-lebanon-matt-hoh-lt-col-daniel-davis-2026-06-01.md>
+  - source-archive/statecraft/2026-06-01/source-dialogue-works-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md>
+  - source-archive/statecraft/2026-06-01/source-dialogue-works-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md>
+  - source-archive/statecraft/2026-06-01/source-dialogue-works-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md>
+---
 WORK only; not Record.
 
 # America On The Hormuz-Lebanon Gate - 2026-06-01

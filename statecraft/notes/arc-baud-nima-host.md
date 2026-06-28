@@ -4,6 +4,20 @@ primary_voice: baud
 topic: nima-baud
 legacy_path: arc-baud-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md
+  - source-archive/statecraft/2026-05-04/source-baud-dialogue-works-nima-2026-05-04.md
+  - source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md
+  - source-archive/statecraft/2026-01-06/source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md
+  - source-archive/statecraft/2026-02-02/source-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md
+  - source-archive/statecraft/2026-02-16/source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md
+  - source-archive/statecraft/2026-02-23/source-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md
+  - source-archive/statecraft/2026-03-02/source-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md
 ---
 
 # Dialogue Works x Baud arc

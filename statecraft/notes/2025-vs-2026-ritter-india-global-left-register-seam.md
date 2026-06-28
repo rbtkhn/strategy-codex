@@ -1,3 +1,21 @@
+---
+note_id: 2025-vs-2026-ritter-india-global-left-register-seam
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-02-22/source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md
+  - source-archive/statecraft/2025-03-02/source-india-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md
+  - source-archive/statecraft/2025-03-21/source-india-global-left-trump-rubio-ukraine-peace-talks-scott-ritter-2025-03-21.md
+  - source-archive/statecraft/2025-03-28/source-india-global-left-trump-peace-chaos-middle-east-scott-ritter-2025-03-28.md
+  - source-archive/statecraft/2026-02-20/source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md
+  - source-archive/statecraft/2026-03-02/source-india-global-left-prove-me-wrong-scott-ritter-2026-03-02.md
+  - source-archive/statecraft/2026-04-09/source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md
+  - source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md
+---
 WORK only; not Record.
 
 # 2025 vs 2026 — Ritter × India Global Left register seam

@@ -3,6 +3,16 @@ note_type: arc
 primary_voice: postol
 topic: postol
 legacy_path: arc-postol-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md
+  - source-archive/statecraft/2026-04-03/source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md
+  - source-archive/statecraft/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md
+  - source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md
 ---
 
 WORK only; not Record.

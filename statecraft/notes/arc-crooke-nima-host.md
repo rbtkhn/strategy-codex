@@ -4,6 +4,14 @@ primary_voice: crooke
 topic: nima-crooke
 legacy_path: arc-crooke-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md
 ---
 
 # Dialogue Works x Crooke speaker arc

@@ -4,6 +4,14 @@ primary_voice: martyanov
 topic: davis-martyanov
 legacy_path: arc-martyanov-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md
+  - source-archive/statecraft/2026-02-24/source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md
 ---
 
 # Davis x Martyanov speaker arc

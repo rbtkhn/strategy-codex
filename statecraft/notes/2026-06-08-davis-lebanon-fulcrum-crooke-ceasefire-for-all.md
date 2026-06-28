@@ -1,3 +1,17 @@
+---
+note_id: 2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md
+  - source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md
+  - source-archive/statecraft/2026-06-05/source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md
+---
 WORK only; not Record.
 
 # Davis Lebanon Fulcrum × Crooke Ceasefire-for-All — 2026-06-08

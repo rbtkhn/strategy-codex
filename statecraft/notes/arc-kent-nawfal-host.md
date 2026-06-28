@@ -3,6 +3,13 @@ note_type: arc
 primary_voice: kent
 topic: nawfal-kent
 legacy_path: arc-kent-nawfal-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md
 ---
 
 # Nawfal x Kent speaker arc

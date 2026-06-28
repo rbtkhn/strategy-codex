@@ -4,6 +4,14 @@ primary_voice: macgregor
 topic: diesen-macgregor
 legacy_path: arc-macgregor-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md
+  - source-archive/statecraft/2025-11-26/source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md
 ---
 
 # Diesen x Macgregor speaker arc

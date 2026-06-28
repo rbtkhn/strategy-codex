@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: johnson
 topic: johnson-may-2026-cross-host
 legacy_path: arc-may-2026-cross-host-johnson-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-04/source-dialogue-works-larry-johnson-hormuz-canberra-blockade-2026-05-04.md
+  - source-archive/statecraft/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md
+  - source-archive/statecraft/2026-05-08/source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md
+  - source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md
+  - source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md
+  - source-archive/statecraft/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md
+  - source-archive/statecraft/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md
+  - source-archive/statecraft/2026-05-18/source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md
 ---
 
 # Johnson May 2026 cross-host arc

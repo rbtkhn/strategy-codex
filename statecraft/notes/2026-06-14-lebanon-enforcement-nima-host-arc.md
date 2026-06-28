@@ -1,3 +1,19 @@
+---
+note_id: 2026-06-14-lebanon-enforcement-nima-host-arc
+note_type: arc
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-14
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-14/README.md
+  - source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md
+  - source-archive/statecraft/2026-06-14/source-dialogue-works-nima-beirut-attack-wont-go-unanswered-deputy-commander-2026-06-14.md
+  - source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md
+  - source-archive/statecraft/2026-06-14/source-glenn-diesen-seyed-m-marandi-israels-attack-on-beirut-sabotage-us-iran-deal-2026-06-14.md
+  - source-archive/statecraft/2026-06-14/source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md
+---
 WORK only; not Record.
 
 # Lebanon Enforcement × Dialogue Works Host Arc — 2026-06-14

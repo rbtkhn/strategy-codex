@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-17-mercouris-pasco-g7-mesh-adjacent
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-17/README.md
+  - source-archive/statecraft/2026-06-17/source-alexander-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md
+---
 WORK only; not Record.
 
 # Mercouris — Pasco / G7 mesh × Iran MOU adjacent — 2026-06-17

@@ -4,6 +4,14 @@ primary_voice: johnson
 topic: davis-johnson
 legacy_path: arc-johnson-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-05/source-daniel-davis-johnson-hormuz-freedom-2026-05-05.md
+  - source-archive/statecraft/2026-04-22/source-daniel-davis-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md
 ---
 
 # Davis x Johnson speaker arc

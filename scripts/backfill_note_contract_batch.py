@@ -17,12 +17,13 @@ if str(_SCRIPTS) not in sys.path:
 
 from check_statecraft_notes import (  # noqa: E402
     FRONTMATTER_RE,
-    ARCHIVE_PATH_RE,
-    SYNTHESIS_PATH_RE,
+    STUB_MARKER,
+    classify_tier,
     parse_note_metadata,
     validate_note,
     build_inbound_note_links,
 )
+from notes_registry_lib import ARCHIVE_PATH_RE, SYNTHESIS_PATH_RE  # noqa: E402
 
 # README MOU enforcement cluster (exemplars already contract-complete omitted)
 MOU_ENFORCEMENT_BATCH: dict[str, str] = {
@@ -102,16 +103,274 @@ CLOSURE_AUDIT_BATCH: dict[str, str] = {
     "parsi-wilkerson-may-2026-backfill-attention.md": "synthesis",
 }
 
-BATCHES: dict[str, dict[str, str]] = {
+# Legacy *-weave.md / *-register* / pre-recanonical *-arc* (README thread/arc absorption cluster)
+WEAVE_REGISTER_BATCH: dict[str, str | dict[str, str]] = {
+    # Moved stubs → deprecated bridge redirects
+    "2025-02-ritter-india-global-left-trump-pivot-arc.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-01-22-to-2026-03-18-jermy-neutrality-decision-naval-arc-weave.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-02-28-pape-smart-bomb-trap-trilogy-weave.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-02-freeman-india-global-left-iran-war-arc.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-02-helmer-feb3-mar24-power-terms-arc.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-02-ritter-india-global-left-iran-war-arc.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-03-01-to-2026-03-18-jermy-diesen-naval-arc-weave.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-03-18-to-2026-04-28-jermy-iran-energy-arc-weave.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-03-helmer-mar17-mar24-two-week-clock-arc.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-03-helmer-mar3-mar24-russia-china-two-track-arc.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    # Substantive legacy weaves / registers / arcs
+    "2025-12-12-jermy-mercouris-siversk-nss-weave.md": "synthesis",
+    "2025-freeman-igl-gaza-ceasefire-register.md": "synthesis",
+    "2025-freeman-igl-iran-war-push-register.md": "synthesis",
+    "2025-vs-2026-freeman-igl-register-seam.md": "synthesis",
+    "2025-vs-2026-ritter-india-global-left-register-seam.md": "synthesis",
+    "2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md": "synthesis",
+    "2026-01-20-greenland-same-day-weave-helmer-freeman.md": "synthesis",
+    "2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md": "synthesis",
+    "2026-02-17-geneva-day-weave-helmer-mercouris.md": "synthesis",
+    "2026-02-28-pape-crooke-opening-strike-bench-weave.md": "synthesis",
+    "2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md": "synthesis",
+    "2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md": "synthesis",
+    "2026-03-03-iran-war-weave-helmer-marandi.md": "conflict",
+    "2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md": "synthesis",
+    "2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md": "synthesis",
+    "2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md": "synthesis",
+    "2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md": "synthesis",
+    "2026-06-14-lebanon-enforcement-nima-host-arc.md": "arc",
+}
+
+# Compare / wedge / mosaic-trap cluster (same-moment allocation + mechanism seams)
+COMPARE_WEDGE_BATCH: dict[str, str | dict[str, str]] = {
+    "2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md": {"note_type": "bridge", "authority_level": "deprecated"},
+    "2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md": "compare",
+    "2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md": "compare",
+    "2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md": "compare",
+    "2026-03-16-pape-vs-crooke-mosaic-trap.md": "compare",
+    "2026-03-16-ritter-implementation-trap-mosaic.md": "compare",
+    "2026-03-17-davis-henningsen-global-reset-wedge.md": "compare",
+    "2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md": "synthesis",
+    "2026-03-23-postol-vs-ritter-implementation-battlefield.md": "compare",
+    "2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md": "compare",
+    "2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge.md": "compare",
+    "2026-05-29-pape-vs-freeman-sachs-marandi.md": {"note_type": "compare", "authority_level": "review-needed"},
+    "2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md": {"note_type": "compare", "authority_level": "review-needed"},
+    "2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing.md": {"note_type": "compare", "authority_level": "review-needed"},
+    "2026-05-31-weichert-barnes-logistics-ceiling-vs-dib-lock-in.md": "compare",
+    "2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md": "compare",
+    "2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md": "compare",
+    "2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md": "compare",
+    "2026-06-08-crooke-napolitano-vs-hedges-permanent-security.md": "compare",
+    "2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md": "compare",
+    "2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md": "compare",
+    "2026-06-17-dialogue-works-quartet-mou-clause-comparison.md": "compare",
+    "internal-vs-public-vocabulary.md": {"note_type": "mechanism", "authority_level": "review-needed"},
+    "kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md": "compare",
+    "recognition-threshold-vs-settlement-architecture.md": {"note_type": "mechanism", "authority_level": "review-needed"},
+}
+
+BATCHES: dict[str, dict[str, str | dict[str, str]]] = {
     "mou-enforcement": MOU_ENFORCEMENT_BATCH,
     "iran-theater": IRAN_THEATER_BATCH,
     "ai-cluster": AI_CLUSTER_BATCH,
     "month-maturity": MONTH_MATURITY_BATCH,
     "speaker-watchlist": SPEAKER_WATCHLIST_BATCH,
     "closure-audit": CLOSURE_AUDIT_BATCH,
+    "weave-register": WEAVE_REGISTER_BATCH,
+    "compare-wedge": COMPARE_WEDGE_BATCH,
+    "prefixed-canonical": {},
+    "dated-slug": {},
+    "other-slug": {},
 }
 
+DISCOVERED_BATCHES = frozenset({"prefixed-canonical", "dated-slug", "other-slug"})
+
+PREFIX_BATCH_PREFIXES: tuple[tuple[str, str], ...] = (
+    ("thread-", "thread"),
+    ("arc-", "arc"),
+    ("trend-", "trend"),
+    ("conflict-", "conflict"),
+    ("risk-", "risk"),
+)
+
+
+DATE_SLUG_RE = re.compile(r"^20\d{2}-\d{2}(-\d{2})?")
+
+
+def infer_dated_slug_type(stem: str) -> str:
+    lower = stem.lower()
+    if "bridge" in lower:
+        return "bridge"
+    if "conflict" in lower or "mou-art" in lower:
+        return "conflict"
+    if "fork" in lower or "-vs-" in lower or "comparison" in lower:
+        return "compare"
+    if "convergence" in lower or "synthesis" in lower:
+        return "synthesis"
+    return "mechanism"
+
+
+def infer_other_slug_type(stem: str, rel: str) -> str:
+    if rel.startswith("compacts/") and stem == "README":
+        return "synthesis"
+    lower = stem.lower()
+    if "bridge" in lower or "correspondence" in lower:
+        return "bridge"
+    if "compare" in lower or "-vs-" in lower or "orthogonality" in lower:
+        return "compare"
+    if "doctrine-arc" in lower or (lower.startswith("arc-") is False and "-arc-" in lower):
+        return "arc"
+    if any(
+        token in lower
+        for token in (
+            "watchlist",
+            "audit",
+            "recursive-learning",
+            "executive-synthesis",
+            "repair-routing",
+            "upgrade-plan",
+            "scorecard",
+            "workflow",
+            "transaction",
+            "inquiry-ladder",
+        )
+    ):
+        return "synthesis"
+    return "mechanism"
+
+
+def discover_other_slug_batch() -> dict[str, str]:
+    """Remaining Tier A notes (non-dated, non-prefixed root slugs + compacts README)."""
+    batch: dict[str, str] = {}
+    for path in sorted(NOTES_ROOT.rglob("*.md")):
+        if classify_tier(path) != "A":
+            continue
+        rel = path.relative_to(NOTES_ROOT).as_posix()
+        stem = path.stem
+        if DATE_SLUG_RE.match(stem) and path.parent == NOTES_ROOT:
+            continue
+        if path.parent == NOTES_ROOT:
+            if any(stem.startswith(prefix) for prefix, _ in PREFIX_BATCH_PREFIXES):
+                continue
+            if any(x in stem for x in ("weave", "register")) or "wedge" in stem:
+                continue
+            if "comparison" in stem or "-vs-" in stem:
+                continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        if STUB_MARKER in text:
+            continue
+        meta = parse_note_metadata(path, text)
+        if meta.authority_level and meta.source_basis and meta.note_type:
+            continue
+        batch[rel] = infer_other_slug_type(stem, rel)
+    return batch
+
+
+def discover_dated_slug_batch() -> dict[str, str]:
+    """Tier A root notes with date-leading slugs missing contract fields."""
+    batch: dict[str, str] = {}
+    for path in sorted(NOTES_ROOT.glob("*.md")):
+        if classify_tier(path) != "A":
+            continue
+        stem = path.stem
+        if not DATE_SLUG_RE.match(stem):
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        if STUB_MARKER in text:
+            continue
+        meta = parse_note_metadata(path, text)
+        if meta.authority_level and meta.source_basis and meta.note_type:
+            continue
+        batch[path.name] = infer_dated_slug_type(stem)
+    return batch
+
+
+def discover_prefixed_canonical_batch() -> dict[str, str]:
+    """Tier A root notes with forward prefix (or *bench*) missing contract fields."""
+    batch: dict[str, str] = {}
+    for path in sorted(NOTES_ROOT.glob("*.md")):
+        if classify_tier(path) != "A":
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        if STUB_MARKER in text:
+            continue
+        meta = parse_note_metadata(path, text)
+        if meta.authority_level and meta.source_basis and meta.note_type:
+            continue
+        stem = path.stem
+        note_type = meta.note_type or meta.prefix_inferred_type
+        if not note_type and "bench" in stem:
+            note_type = "synthesis"
+        if not note_type:
+            for prefix, inferred in PREFIX_BATCH_PREFIXES:
+                if stem.startswith(prefix):
+                    note_type = inferred
+                    break
+        if not note_type:
+            continue
+        batch[path.name] = note_type
+    return batch
+
+
+def resolve_batch(name: str) -> dict[str, str | dict[str, str]]:
+    if name == "prefixed-canonical":
+        return discover_prefixed_canonical_batch()
+    if name == "dated-slug":
+        return discover_dated_slug_batch()
+    if name == "other-slug":
+        return discover_other_slug_batch()
+    return BATCHES[name]
+
 DATE_IN_NAME = re.compile(r"(\d{4}-\d{2}-\d{2})")
+NOTE_LINK_RE = re.compile(r"\]\(\./([^)]+\.md)")
+
+
+def _batch_entry(spec: str | dict[str, str]) -> tuple[str, str, list[str]]:
+    if isinstance(spec, str):
+        return spec, "shelf-native", []
+    return (
+        spec.get("note_type", "synthesis"),
+        spec.get("authority_level", "shelf-native"),
+        list(spec.get("archive_links", []) or []),
+    )
+
+
+def _archives_from_linked_synthesis(text: str, from_path: Path, *, limit: int = 8) -> list[str]:
+    links: list[str] = []
+    for raw in re.findall(r"\]\(([^)]+\.md)\)", text.replace("\\", "/")):
+        if "synthesis/" not in raw:
+            continue
+        target = (from_path.parent / raw.split("#")[0]).resolve()
+        if not target.is_file():
+            continue
+        body = target.read_text(encoding="utf-8", errors="replace")
+        for item in _extract_archive_links(body, limit=limit):
+            if item not in links:
+                links.append(item)
+            if len(links) >= limit:
+                return links
+    return links
+
+
+def _canonical_archive_links(text: str, from_path: Path, *, limit: int = 8) -> list[str]:
+    links = _extract_archive_links(text, limit=limit)
+    if len(links) >= limit:
+        return links
+    for item in _archives_from_linked_synthesis(text, from_path, limit=limit):
+        if item not in links:
+            links.append(item)
+        if len(links) >= limit:
+            return links
+    for match in NOTE_LINK_RE.findall(text.replace("\\", "/")):
+        target = NOTES_ROOT / match.split("#")[0]
+        if not target.is_file():
+            continue
+        body = target.read_text(encoding="utf-8", errors="replace")
+        for item in _extract_archive_links(body, limit=limit):
+            if item not in links:
+                links.append(item)
+            if len(links) >= limit:
+                return links
+    return links
 
 
 def _infer_created_at(stem: str) -> str:
@@ -144,6 +403,7 @@ def _render_frontmatter(
     *,
     note_id: str,
     note_type: str,
+    authority_level: str,
     source_basis: str,
     created_at: str,
     updated_at: str,
@@ -153,7 +413,7 @@ def _render_frontmatter(
         "---",
         f"note_id: {note_id}",
         f"note_type: {note_type}",
-        "authority_level: shelf-native",
+        f"authority_level: {authority_level}",
         f"source_basis: {source_basis}",
         "essay_candidate: false",
         f"created_at: {created_at}",
@@ -168,28 +428,89 @@ def _render_frontmatter(
     return "\n".join(lines)
 
 
-def backfill_file(path: Path, note_type: str, *, updated_at: str, dry_run: bool) -> bool:
+def _patch_frontmatter_block(
+    existing: str,
+    *,
+    note_type: str,
+    authority_level: str,
+    source_basis: str,
+    created_at: str,
+    updated_at: str,
+    archive_links: list[str],
+    meta: object,
+) -> str:
+    lines = existing.rstrip().splitlines()
+    keys = {
+        line.split(":", 1)[0].strip()
+        for line in lines
+        if ":" in line and not line.startswith(" ") and not line.startswith("-")
+    }
+
+    def add(key: str, value: str) -> None:
+        if key not in keys:
+            lines.append(f"{key}: {value}")
+            keys.add(key)
+
+    if not getattr(meta, "note_type", None):
+        add("note_type", note_type)
+    add("authority_level", authority_level)
+    add("source_basis", source_basis)
+    add("essay_candidate", "false")
+    add("created_at", created_at)
+    add("updated_at", updated_at)
+    if archive_links and "archive_links" not in keys:
+        lines.append("archive_links:")
+        for link in archive_links[:8]:
+            lines.append(f"  - {link}")
+    return "\n".join(lines) + "\n"
+
+
+def backfill_file(
+    path: Path,
+    spec: str | dict[str, str],
+    *,
+    updated_at: str,
+    dry_run: bool,
+) -> bool:
+    note_type, authority_level, extra_archives = _batch_entry(spec)
     text = path.read_text(encoding="utf-8", errors="replace")
     meta = parse_note_metadata(path, text)
     if meta.authority_level and meta.source_basis and meta.note_type:
         return False
 
-    archives = _extract_archive_links(text)
+    archives = _canonical_archive_links(text, path)
+    for item in extra_archives:
+        if item not in archives:
+            archives.append(item)
     basis = _source_basis(text, archives)
+    if authority_level == "shelf-native" and not archives:
+        authority_level = "review-needed"
     created = _infer_created_at(path.stem)
+    effective_type = meta.note_type or note_type
     block = _render_frontmatter(
         note_id=path.stem,
-        note_type=note_type,
+        note_type=effective_type,
+        authority_level=authority_level,
         source_basis=basis,
         created_at=created,
         updated_at=updated_at,
         archive_links=archives,
     )
 
-    if FRONTMATTER_RE.match(text.lstrip("\ufeff")):
-        return False
-
-    if text.startswith("WORK only; not Record."):
+    fm = FRONTMATTER_RE.match(text.lstrip("\ufeff"))
+    if fm:
+        patched = _patch_frontmatter_block(
+            fm.group(1),
+            note_type=effective_type,
+            authority_level=authority_level,
+            source_basis=basis,
+            created_at=created,
+            updated_at=updated_at,
+            archive_links=archives,
+            meta=meta,
+        )
+        new_text = f"---\n{patched}---\n{text[fm.end():]}"
+    elif text.startswith("WORK only; not Record."):
         new_text = block + text
     elif text.lstrip("\ufeff").startswith("---"):
         return False
@@ -218,28 +539,28 @@ def main() -> int:
     ap.add_argument("--verify", action="store_true", help="Validate batch after backfill")
     args = ap.parse_args()
 
-    batch = BATCHES[args.batch]
+    batch = resolve_batch(args.batch)
     changed = 0
-    for name, note_type in batch.items():
-        path = NOTES_ROOT / name
+    for rel_name, spec in batch.items():
+        path = NOTES_ROOT / rel_name
         if not path.is_file():
-            print(f"missing: {name}", file=sys.stderr)
+            print(f"missing: {rel_name}", file=sys.stderr)
             continue
-        if backfill_file(path, note_type, updated_at=args.updated_at, dry_run=args.dry_run):
+        if backfill_file(path, spec, updated_at=args.updated_at, dry_run=args.dry_run):
             changed += 1
 
     print(f"batch {args.batch}: {changed} file(s) {'would change' if args.dry_run else 'updated'}")
     if args.verify and not args.dry_run:
         inbound = build_inbound_note_links(list(NOTES_ROOT.rglob("*.md")))
         failures = 0
-        for name in batch:
-            path = NOTES_ROOT / name
+        for rel_name in batch:
+            path = NOTES_ROOT / rel_name
             text = path.read_text(encoding="utf-8")
             meta = parse_note_metadata(path, text)
             issues = validate_note(meta, text=text, inbound_count=inbound.get(meta.rel, 0))
             if issues:
                 failures += 1
-                print(f"FAIL {name}:", file=sys.stderr)
+                print(f"FAIL {rel_name}:", file=sys.stderr)
                 for issue in issues:
                     print(f"  {issue}", file=sys.stderr)
         return 1 if failures else 0

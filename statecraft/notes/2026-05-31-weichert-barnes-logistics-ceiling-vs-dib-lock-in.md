@@ -1,3 +1,21 @@
+---
+note_id: 2026-05-31-weichert-barnes-logistics-ceiling-vs-dib-lock-in
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-05-31
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md
+  - source-archive/statecraft/2026-05-31/README.md
+  - source-archive/statecraft/2026-05-31/source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md>
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md>
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md>
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md>
+---
 WORK only; not Record.
 
 # Weichert-Barnes On Logistics Ceiling Versus DIB Lock-In - 2026-05-31

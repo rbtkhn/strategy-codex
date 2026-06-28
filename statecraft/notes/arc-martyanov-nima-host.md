@@ -4,6 +4,14 @@ primary_voice: martyanov
 topic: nima-martyanov
 legacy_path: arc-martyanov-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-07/source-dialogue-works-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md
+  - source-archive/statecraft/2025-11-13/source-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md
 ---
 
 # Dialogue Works x Martyanov speaker arc

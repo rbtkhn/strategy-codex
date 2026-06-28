@@ -4,6 +4,14 @@ primary_voice: armstrong
 topic: nima-armstrong
 legacy_path: arc-armstrong-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-27/source-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md
+  - source-archive/statecraft/2025-10-31/source-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md
 ---
 
 # Dialogue Works x Armstrong speaker arc

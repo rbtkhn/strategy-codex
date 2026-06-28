@@ -4,6 +4,17 @@ primary_voice: freeman
 topic: nima-freeman
 legacy_path: arc-freeman-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md
+  - source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md
+  - source-archive/statecraft/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md
+  - source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md
+  - source-archive/statecraft/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md
 ---
 
 # Dialogue Works x Freeman speaker arc

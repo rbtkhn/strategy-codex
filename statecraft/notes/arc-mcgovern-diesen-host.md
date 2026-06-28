@@ -4,6 +4,15 @@ primary_voice: mcgovern
 topic: diesen-mcgovern
 legacy_path: arc-mcgovern-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md
+  - source-archive/statecraft/2026-01-17/source-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md
+  - source-archive/statecraft/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md
 ---
 
 # Diesen x McGovern speaker arc

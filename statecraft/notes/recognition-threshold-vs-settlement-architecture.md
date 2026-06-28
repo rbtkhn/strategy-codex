@@ -1,3 +1,12 @@
+---
+note_id: recognition-threshold-vs-settlement-architecture
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # Recognition Threshold Vs Settlement Architecture
 
 WORK only; not Record.

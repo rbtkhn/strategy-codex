@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-15-mou-week-napolitano-bench-seam
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-15
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-mcgovern-will-russia-escalate-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/README.md
+  - source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md
+  - source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md
+---
 # Jun 15 MOU-week — Napolitano bench seam (Crooke / McGovern / Sachs / Pape)
 
 WORK only; not Record.

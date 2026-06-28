@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-12-parsi-quiet-lane-asset-path-deepener
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-12
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-12/source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md
+  - source-archive/statecraft/2026-06-12/README.md
+  - source-archive/statecraft/2026-06-12/source-dialogue-works-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md
+  - source-archive/statecraft/2026-06-12/source-dialogue-works-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md
+  - source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md
+  - source-archive/statecraft/2026-06-12/source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md
+  - source-archive/statecraft/2026-06-12/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md
+  - source-archive/statecraft/2026-06-12/source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md
+---
 WORK only; not Record.
 
 # Parsi Quiet-Lane + Asset-Path Deepener — 2026-06-12

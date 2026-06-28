@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-24
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-24/README.md
+  - source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-pape-trumps-words-dont-predict-war-his-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md
+  - source-archive/statecraft/2026-03-23/source-pape-the-questions-that-matter-now-2026-03-23.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
+---
 WORK only; not Record.
 
 # Mar 24 2026 — Pape × Mercouris wedge (deployments vs gambler's conceit vs talk mirage)

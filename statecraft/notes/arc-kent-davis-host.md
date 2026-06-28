@@ -4,6 +4,17 @@ primary_voice: kent
 topic: davis-kent
 legacy_path: arc-kent-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-26/source-daniel-davis-joe-kent-the-truth-of-the-iran-war-2026-03-26.md
+  - source-archive/statecraft/2026-04-02/source-daniel-davis-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md
+  - source-archive/statecraft/2026-05-08/source-daniel-davis-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md
+  - source-archive/statecraft/2026-05-08/source-daniel-davis-kent-hormuz-blockade-walkaway-2026-05-08.md
+  - source-archive/statecraft/2026-03-18/source-glenn-diesen-daniel-davis-military-options-kent-2026-03-18.md
 ---
 
 # Davis x Kent speaker arc

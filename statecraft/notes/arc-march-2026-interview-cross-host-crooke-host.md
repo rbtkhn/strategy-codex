@@ -3,6 +3,15 @@ note_type: arc
 primary_voice: crooke
 topic: crooke-march-2026-interview-cross-host
 legacy_path: arc-march-2026-interview-cross-host-crooke-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-13/source-daniel-davis-crooke-irans-asymmetrical-war-2026-03-13.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md
+  - source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md
 ---
 
 WORK only; not Record.

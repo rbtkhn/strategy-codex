@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: parsi
 topic: parsi-march-2026-cross-context
 legacy_path: arc-march-2026-cross-context-parsi-host.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Parsi March 2026 cross-context arc

@@ -3,6 +3,15 @@ note_type: arc
 primary_voice: crooke
 topic: crooke-april-2026-interview-cross-host
 legacy_path: arc-april-2026-interview-cross-host-crooke-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md
+  - source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md
+  - source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md
 ---
 
 WORK only; not Record.

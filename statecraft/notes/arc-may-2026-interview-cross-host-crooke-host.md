@@ -3,6 +3,14 @@ note_type: arc
 primary_voice: crooke
 topic: crooke-may-2026-interview-cross-host
 legacy_path: arc-may-2026-interview-cross-host-crooke-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-11/source-daniel-davis-crooke-diplomatic-solution-more-war-2026-05-11.md
+  - source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md
 ---
 
 WORK only; not Record.

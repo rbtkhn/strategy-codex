@@ -4,6 +4,16 @@ primary_voice: baud
 topic: davis-baud
 legacy_path: arc-baud-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-31/source-daniel-davis-baud-iran-war-latest-2026-03-31.md
+  - source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md
+  - source-archive/statecraft/2026-03-12/source-daniel-davis-baud-irans-unwavering-attacks-2026-03-12.md
+  - source-archive/statecraft/2025-01-24/source-daniel-davis-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md
 ---
 
 # Davis x Baud arc

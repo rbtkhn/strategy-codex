@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: wilkerson
 topic: wilkerson
 legacy_path: arc-wilkerson-continuity.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 WORK only; not Record.

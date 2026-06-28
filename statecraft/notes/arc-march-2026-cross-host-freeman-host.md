@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: freeman
 topic: freeman-march-2026-cross-host
 legacy_path: arc-march-2026-cross-host-freeman-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-01/source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md
+  - source-archive/statecraft/2026-03-03/source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md
+  - source-archive/statecraft/2026-03-06/source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md
+  - source-archive/statecraft/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md
+  - source-archive/statecraft/2026-03-14/source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md
+  - source-archive/statecraft/2026-03-20/source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md
+  - source-archive/statecraft/2026-03-23/source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md
 ---
 
 # Freeman March 2026 cross-host arc

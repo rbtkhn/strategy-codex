@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: freeman
 topic: freeman-april-2026-cross-host
 legacy_path: arc-april-2026-cross-host-freeman-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md
+  - source-archive/statecraft/2026-04-03/source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md
+  - source-archive/statecraft/2026-04-10/source-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md
+  - source-archive/statecraft/2026-04-13/source-daniel-davis-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md
+  - source-archive/statecraft/2026-04-14/source-judging-freedom-freeman-israels-strategy-collapsing-2026-04-14.md
+  - source-archive/statecraft/2026-04-17/day-index.md
+  - source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md
+  - source-archive/statecraft/2026-04-21/source-judging-freedom-freeman-us-diplomacy-is-dead-2026-04-21.md
 ---
 
 # Freeman April 2026 cross-host arc

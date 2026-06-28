@@ -1,3 +1,12 @@
+---
+note_id: internal-vs-public-vocabulary
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # Internal vs Public Vocabulary
 
 WORK only; not Record.

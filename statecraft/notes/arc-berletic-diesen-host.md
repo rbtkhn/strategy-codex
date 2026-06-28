@@ -4,6 +4,11 @@ primary_voice: berletic
 topic: diesen-berletic
 legacy_path: arc-berletic-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Diesen x Berletic speaker arc

@@ -1,3 +1,12 @@
+---
+note_id: conductor-gap-audit-2026-05-21-06-07
+note_type: synthesis
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-05-21
+updated_at: 2026-06-28
+---
 # Conductor gap audit — 2026-05-21 through 2026-06-07
 
 WORK only; not Record.

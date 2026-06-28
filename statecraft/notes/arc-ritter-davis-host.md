@@ -4,6 +4,14 @@ primary_voice: ritter
 topic: davis-ritter
 legacy_path: arc-ritter-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md
+  - source-archive/statecraft/2026-03-31/source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md
 ---
 
 # Davis x Ritter speaker arc

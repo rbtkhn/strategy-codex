@@ -4,6 +4,18 @@ primary_voice: johnson
 topic: napolitano-johnson
 legacy_path: arc-johnson-napolitano-host.md
 host_channel: judging-freedom
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md
+  - source-archive/statecraft/2026-03-30/source-judging-freedom-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md
+  - source-archive/statecraft/2026-02-23/source-judging-freedom-johnson-trumps-decision-making-and-huckabees-buffoonery-2026-02-23.md
+  - source-archive/statecraft/2026-01-12/source-judging-freedom-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md
+  - source-archive/statecraft/2025-12-22/source-judging-freedom-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md
+  - source-archive/statecraft/2025-11-24/source-judging-freedom-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md
 ---
 
 # Judging Freedom x Johnson speaker arc

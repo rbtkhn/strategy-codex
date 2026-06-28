@@ -1,3 +1,16 @@
+---
+note_id: kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-16/source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md
+  - source-archive/statecraft/2026-06-11/source-judging-freedom-kent-why-trump-is-stuck-2026-06-11.md
+  - source-archive/statecraft/2026-06-16/source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md
+---
 WORK only; not Record.
 
 # Kent restraint-lever seam — walk-away vs signing trap vs 96h collapse (Jun 2026)

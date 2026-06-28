@@ -1,3 +1,21 @@
+---
+note_id: 2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-01-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-01-08/source-daniel-davis-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md
+  - source-archive/statecraft/2026-01-08/source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md
+  - source-archive/statecraft/2026-01-08/source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md
+  - source-archive/statecraft/2026-01-20/README.md
+  - source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md
+  - source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md
+  - source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md
+  - source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md
+---
 WORK only; not Record.
 
 # Jan 8 2026 — Jermy × Mercouris × Crooke weave (post-Maduro / Greenland / Rubicon)

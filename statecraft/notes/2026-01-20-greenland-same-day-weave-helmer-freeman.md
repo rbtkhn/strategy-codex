@@ -1,3 +1,21 @@
+---
+note_id: 2026-01-20-greenland-same-day-weave-helmer-freeman
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-01-20
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-01-20/README.md
+  - source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md
+  - source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md
+  - source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md
+  - source-archive/statecraft/2026-06-02/source-dialogue-works-helmer-irans-unthinkable-move-middle-east-never-same-2026-06-02.md
+  - source-archive/statecraft/2026-05-26/source-dialogue-works-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-helmer-putins-crisis-of-confidence-2026-06-09.md
+  - source-archive/statecraft/2026-06-16/source-dialogue-works-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md
+---
 WORK only; not Record.
 
 # Jan 20 2026 — Greenland same-day weave (Helmer × Freeman × Mercouris)

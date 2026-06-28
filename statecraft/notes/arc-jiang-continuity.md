@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: jiang
 topic: jiang
 legacy_path: arc-jiang-continuity.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 WORK only; not Record.

@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1
+note_type: conflict
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-19
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-19/README.md
+  - source-archive/statecraft/2026-06-19/source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md
+  - source-archive/statecraft/2026-06-19/source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md
+  - source-archive/statecraft/2026-06-19/source-mario-nawfal-parsi-breaking-trump-may-endorse-netanyahu-rival-2026-06-19.md
+  - source-archive/statecraft/2026-06-19/source-mario-nawfal-max-blumenthal-katz-defies-trump-ceasefire-2026-06-19.md
+  - source-archive/statecraft/2026-06-19/source-mario-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md
+  - source-archive/statecraft/2026-06-19/source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md
+  - source-archive/statecraft/2026-06-19/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md
+---
 WORK only; not Record.
 
 # Lebanon Enforcement × MOU Art. 1 — Contested Ceasefire Fork — 2026-06-19

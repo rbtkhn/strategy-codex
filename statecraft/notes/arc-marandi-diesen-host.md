@@ -4,6 +4,16 @@ primary_voice: marandi
 topic: diesen-marandi
 legacy_path: arc-marandi-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md
+  - source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md
+  - source-archive/statecraft/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md
+  - source-archive/statecraft/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md
 ---
 
 # Diesen x Marandi speaker arc

@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-03/README.md
+  - source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-daniel-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md
+---
 WORK only; not Record.
 
 # Mar 3 2026 — Mercouris × Wilkerson wedge (attrition / downed warplanes)

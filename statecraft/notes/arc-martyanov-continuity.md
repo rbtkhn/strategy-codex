@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: martyanov
 topic: martyanov
 legacy_path: arc-martyanov-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md
+  - source-archive/statecraft/2025-09-06/source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md
+  - source-archive/statecraft/2025-10-26/source-dialogue-works-pepe-escobar-andrei-martyanov-putin-s-bold-plan-to-cripple-nato-the-west-stunned-2025-10-26.md
+  - source-archive/statecraft/2025-11-02/source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md
+  - source-archive/statecraft/2025-11-09/source-dialogue-works-andrei-martyanov-alex-krainer-its-over-global-arms-control-collapses-2025-11-09.md
+  - source-archive/statecraft/2025-11-30/source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md
+  - source-archive/statecraft/2025-12-14/source-dialogue-works-pepe-escobar-andrei-martyanov-alex-krainer-russia-strikes-us-recalculates-eu-draws-the-line-2025-12-14.md
+  - source-archive/statecraft/2025-12-21/source-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md
 ---
 
 WORK only; not Record.

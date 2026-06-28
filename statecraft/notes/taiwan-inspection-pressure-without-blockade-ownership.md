@@ -1,3 +1,12 @@
+---
+note_id: taiwan-inspection-pressure-without-blockade-ownership
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # China - Taiwan Inspection Pressure Without Blockade Ownership
 
 WORK only; not Record.

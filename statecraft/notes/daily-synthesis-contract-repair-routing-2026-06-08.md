@@ -1,3 +1,14 @@
+---
+note_id: daily-synthesis-contract-repair-routing-2026-06-08
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/README.md
+---
 # Daily Synthesis Contract Repair Routing - 2026-06-08
 
 WORK only; not Record.

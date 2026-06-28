@@ -6,6 +6,18 @@ topic: defeat-accounting-self-entrapment
 span_start: 2025-11-17
 span_end: 2026-04-28
 legacy_path: arc-mearsheimer-napolitano-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-28/source-judging-freedom-mearsheimer-how-trump-lost-his-war-2026-04-28.md
+  - source-archive/statecraft/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md
+  - source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md
+  - source-archive/statecraft/2026-01-15/source-judging-freedom-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md
+  - source-archive/statecraft/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md
+  - source-archive/statecraft/2025-11-17/source-judging-freedom-mearsheimer-israels-nightmare-2025-11-17.md
 ---
 
 # Judging Freedom x Mearsheimer speaker arc

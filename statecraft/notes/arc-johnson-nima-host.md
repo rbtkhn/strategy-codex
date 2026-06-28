@@ -4,6 +4,14 @@ primary_voice: johnson
 topic: nima-johnson
 legacy_path: arc-johnson-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md
+  - source-archive/statecraft/2026-05-08/source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md
 ---
 
 # Dialogue Works x Johnson speaker arc

@@ -4,6 +4,14 @@ primary_voice: marandi
 topic: davis-marandi
 legacy_path: arc-marandi-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-10/source-daniel-davis-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md
+  - source-archive/statecraft/2026-05-07/source-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md
 ---
 
 # Davis x Marandi speaker arc

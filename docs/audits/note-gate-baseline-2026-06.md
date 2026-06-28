@@ -7,7 +7,7 @@ Shadow-mode inventory before strict enforcement. Generated from `check_statecraf
 - **Baseline date:** 2026-06-28 (note gate ship)
 - **Baseline command:** `python3 scripts/check_statecraft_notes.py --warn`
 - **Baseline result:** 796 violation(s) across 328 note(s)
-- **Current (2026-06-28, post backfill batches):** **638 violation(s)** across 328 note(s) (−158)
+- **Current (2026-06-28, post backfill batches):** **69 violation(s)** across 328 note(s) (−727 from baseline 796)
 - **Sample violations (first 40):**
 
 - statecraft/notes/2025-02-ritter-india-global-left-trump-pivot-arc.md: missing note_type
@@ -65,8 +65,13 @@ Bounded shelf-native batches via `scripts/backfill_note_contract_batch.py` (+ ma
 | `month-maturity` | 6 | `a5b6c3e01` | 719 → 701 |
 | `speaker-watchlist` | 15 | `a5b6c3e01` | 701 → 656 |
 | `closure-audit` | 6 | `a5b6c3e01` | 656 → **638** |
+| `weave-register` | 29 | *(local)* | 638 → **551** |
+| `compare-wedge` | 26 | *(local)* | 551 → **474** |
+| `prefixed-canonical` | 105 | *(local)* | 474 → **297** |
+| `dated-slug` | 36 | *(local)* | 297 → **189** |
+| `other-slug` | 40 | *(local)* | 189 → **69** |
 
-**Remaining gap:** mostly legacy `*-weave.md` / register / arc filenames without contract — not README shelf-native clusters yet backfilled.
+**Remaining gap:** mostly legacy notes without contract (comparisons, wedges, mechanism stubs) — not README shelf-native clusters yet backfilled.
 
 ## Registry dashboard (2026-06-28)
 
@@ -91,6 +96,6 @@ Tier A health block surfaces orphan / weak-anchor / essay-queue / broken-link co
 
 ## Related
 
-- `scripts/backfill_note_contract_batch.py` — named batches: `mou-enforcement`, `iran-theater`, `ai-cluster`, `month-maturity`, `speaker-watchlist`, `closure-audit`
+- `scripts/backfill_note_contract_batch.py` — batches: `mou-enforcement` … `other-slug` (discovered: `prefixed-canonical`, `dated-slug`, `other-slug`)
 - [transaction-retirement-inventory-2026-06.md](./transaction-retirement-inventory-2026-06.md)
 - [statecraft/notes/README.md](../../statecraft/notes/README.md)

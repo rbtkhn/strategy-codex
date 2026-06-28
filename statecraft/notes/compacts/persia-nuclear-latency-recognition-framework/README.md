@@ -1,3 +1,17 @@
+---
+note_id: README
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md
+  - source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md
+  - source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md
+  - source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md
+---
 # Persia Nuclear Latency Recognition Framework
 
 WORK only; not Record.

@@ -3,6 +3,14 @@ note_type: arc
 primary_voice: baud
 topic: baud
 legacy_path: arc-baud-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md
+  - source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md
 ---
 
 # Expert arc - `baud`

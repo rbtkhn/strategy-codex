@@ -4,6 +4,14 @@ primary_voice: martyanov
 topic: diesen-martyanov
 legacy_path: arc-martyanov-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md
+  - source-archive/statecraft/2025-04-29/source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md
 ---
 
 # Diesen x Martyanov speaker arc

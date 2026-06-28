@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-04
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md>
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md>
+  - source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md>
+  - source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>
+  - source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>
+  - source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>
+  - source-archive/statecraft/2026-06-04/README.md
+  - source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md>
+---
 WORK only; not Record.
 
 # Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier - 2026-06-04 → 2026-06-07

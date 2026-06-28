@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: ritter
 topic: ritter-april-2026-cross-host
 legacy_path: arc-april-2026-cross-host-ritter-host.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Ritter April 2026 cross-host arc

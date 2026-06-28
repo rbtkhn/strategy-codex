@@ -1,3 +1,16 @@
+---
+note_id: recent-speaker-underrepresentation-query-standard
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md
+  - source-archive/statecraft/2026-05-29/source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md
+  - source-archive/statecraft/2026-05-25/source-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md
+---
 # Recent Speaker Underrepresentation Query Standard
 
 Purpose: standardize the operator query `are there any speakers who seem underrepresented this past week` so the answer is anchored to the local statecraft archive rather than ad hoc memory or whichever month/day rollup happened to be open.

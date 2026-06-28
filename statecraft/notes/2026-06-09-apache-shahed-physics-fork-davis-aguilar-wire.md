@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-09
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-09/README.md
+  - source-archive/statecraft/2026-06-09/source-judging-freedom-freeman-can-netanyahu-defy-trump-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-marandi-iran-drops-new-equation-israel-goes-against-trump-escapes-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-mario-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-alexander-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
+---
 WORK only; not Record.
 
 # Apache × Shahed-136 — physics fork (Davis · Aguilar · Krapivnik vs wire) — 2026-06-09

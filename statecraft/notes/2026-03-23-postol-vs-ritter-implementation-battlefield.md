@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-23-postol-vs-ritter-implementation-battlefield
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-23
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md>
+  - source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>
+  - source-archive/statecraft/2026-03-23/README.md
+  - source-archive/statecraft/2026-03-23/source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md>
+  - source-archive/statecraft/2026-03-23/source-pape-the-questions-that-matter-now-2026-03-23.md>
+  - source-archive/statecraft/2026-03-23/source-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md>
+---
 WORK only; not Record.
 
 # Postol Battlefield × Ritter Implementation — 2026-03-23

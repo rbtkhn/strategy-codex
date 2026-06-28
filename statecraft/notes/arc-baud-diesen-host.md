@@ -4,6 +4,14 @@ primary_voice: baud
 topic: diesen-baud
 legacy_path: arc-baud-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-11-21/source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md
+  - source-archive/statecraft/2025-03-14/source-glenn-diesen-col-jacques-baud-the-origin-and-solution-to-the-ukraine-war-2025-03-14.md
 ---
 
 # Diesen x Baud arc

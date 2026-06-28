@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md
+  - source-archive/statecraft/2026-04-20/README.md
+  - source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md>
+  - source-archive/statecraft/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md>
+  - source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md>
+  - source-archive/statecraft/2026-04-20/source-alexander-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md>
+  - source-archive/statecraft/2026-04-20/source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md>
+---
 WORK only; not Record.
 
 # Davis Trust Fork × Johnson Islamabad / Larijani Doctrine — 2026-06-08

@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-08-pape-day-100-indicator-watch-sheet
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md
+  - source-archive/statecraft/2026-06-11/README.md
+  - source-archive/statecraft/2026-06-11/source-dialogue-works-larry-johnson-iran-forces-trump-into-concession-2026-06-11.md
+  - source-archive/statecraft/2026-06-11/source-judging-freedom-marandi-from-tehran-why-iran-risks-war-2026-06-11.md
+  - source-archive/statecraft/2026-06-11/source-daniel-davis-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md
+  - source-archive/statecraft/2026-06-11/source-alexander-mercouris-iran-us-war-resumes-russia-brushes-off-eu-sanctions-complains-to-china-over-drones-2026-06-11.md
+  - source-archive/statecraft/2026-06-11/source-dialogue-works-alex-krainer-us-strikes-iran-retaliates-kuwait-bahrain-jordan-2026-06-11.md
+  - source-archive/statecraft/2026-06-11/source-dialogue-works-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md
+---
 WORK only; not Record.
 
 # Pape Day 100 — Indicator Watch Sheet (Weekly Falsifier Table)

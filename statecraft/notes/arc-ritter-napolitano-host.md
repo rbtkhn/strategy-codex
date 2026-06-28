@@ -4,6 +4,20 @@ primary_voice: ritter
 topic: napolitano-ritter
 legacy_path: arc-ritter-napolitano-host.md
 host_channel: judging-freedom
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-18/source-judging-freedom-ritter-the-us-will-never-learn-2026-05-18.md
+  - source-archive/statecraft/2026-04-20/source-trump-hegseth-2026-04-20.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md
+  - source-archive/statecraft/2026-03-31/source-judging-freedom-ritter-why-iran-is-winning-2026-03-31.md
+  - source-archive/statecraft/2026-02-23/source-judging-freedom-ritter-what-war-with-iran-will-look-like-2026-02-23.md
+  - source-archive/statecraft/2026-01-12/source-judging-freedom-ritter-how-close-is-putin-to-escalation-2026-01-12.md
+  - source-archive/statecraft/2025-12-01/source-judging-freedom-ritter-did-hegseth-order-murders-2025-12-01.md
+  - source-archive/statecraft/2025-11-04/source-judging-freedom-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md
 ---
 
 # Judging Freedom x Ritter speaker arc

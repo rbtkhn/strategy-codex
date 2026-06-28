@@ -4,6 +4,15 @@ primary_voice: aguilar
 topic: nima-aguilar
 legacy_path: arc-aguilar-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md
+  - source-archive/statecraft/2026-04-29/source-dialogue-works-anthony-aguilar-why-everything-you-knew-about-the-middle-east-just-colla-2026-04-29.md
+  - source-archive/statecraft/2026-05-14/source-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md
 ---
 
 # Dialogue Works x Aguilar speaker arc

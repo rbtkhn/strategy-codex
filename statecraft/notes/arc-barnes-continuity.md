@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: barnes
 topic: barnes
 legacy_path: arc-barnes-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-23/source-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md
+  - source-archive/statecraft/2026-05-26/source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md
+  - source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md
+  - source-archive/statecraft/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md
+  - source-archive/statecraft/2026-02-16/source-daniel-davis-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md
+  - source-archive/statecraft/2026-02-16/source-daniel-davis-alert-what-trump-must-understand-epstein-class-v-working-class-2026-02-16.md
+  - source-archive/statecraft/2026-03-04/source-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md
+  - source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md
 ---
 
 WORK only; not Record.

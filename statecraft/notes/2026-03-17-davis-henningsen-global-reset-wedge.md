@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-17-davis-henningsen-global-reset-wedge
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-17/day-index.md
+  - source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-hoh-trump-believes-his-own-propaganda-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md
+---
 WORK only; not Record.
 
 # Mar 17 2026 — Davis × Henningsen wedge (Global Reset / practitioner lane)

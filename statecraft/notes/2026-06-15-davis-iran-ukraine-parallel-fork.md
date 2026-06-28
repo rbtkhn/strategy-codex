@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-15-davis-iran-ukraine-parallel-fork
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-15
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-15/source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/README.md
+  - source-archive/statecraft/2026-06-15/source-dialogue-works-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-dialogue-works-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-johnson-is-this-any-way-to-negotiate-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md
+---
 WORK only; not Record.
 
 # Davis Iran × Davis Ukraine — MOU Parallel vs Moscow Fork — 2026-06-15

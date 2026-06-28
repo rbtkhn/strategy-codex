@@ -6,6 +6,16 @@ topic: structural-realism-order-transition
 span_start: 2025-09-07
 span_end: 2026-05-04
 legacy_path: arc-mearsheimer-diesen-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md
+  - source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
+  - source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md
+  - source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md
 ---
 
 # Diesen × Mearsheimer speaker arc

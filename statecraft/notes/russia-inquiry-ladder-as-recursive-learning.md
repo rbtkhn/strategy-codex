@@ -1,3 +1,17 @@
+---
+note_id: russia-inquiry-ladder-as-recursive-learning
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-04/source-alexander-mercouris-big-russian-army-breakthroughs-donbass-orekhov-shake-kiev-nato-zelensky-uk-eu-discuss-russia-talks-2026-06-04.md
+  - source-archive/statecraft/2026-06-03/source-pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03.md
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md
+  - source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md
+---
 WORK only; not Record.
 
 # Russia Inquiry Ladder As Recursive Learning

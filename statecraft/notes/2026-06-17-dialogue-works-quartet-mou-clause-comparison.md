@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-17-dialogue-works-quartet-mou-clause-comparison
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/README.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md
+---
 WORK only; not Record.
 
 # Dialogue Works Quartet — MOU Clause Comparison — 2026-06-17

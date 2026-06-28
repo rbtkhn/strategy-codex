@@ -3,6 +3,13 @@ note_type: arc
 primary_voice: karaganov
 topic: karaganov
 legacy_path: arc-karaganov-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md
 ---
 
 WORK only; not Record.

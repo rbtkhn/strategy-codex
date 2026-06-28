@@ -4,6 +4,14 @@ primary_voice: jiang
 topic: diesen-jiang
 legacy_path: arc-jiang-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md
+  - source-archive/statecraft/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md
 ---
 
 # Diesen × Jiang speaker arc

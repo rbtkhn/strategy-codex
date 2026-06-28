@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi
+note_type: conflict
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-17/README.md
+  - source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md
+  - source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md
+---
 WORK only; not Record.
 
 # Lebanon Forward Defense × MOU Art. 1 — Pape × Parsi — 2026-06-17

@@ -1,3 +1,15 @@
+---
+note_id: README
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md
+  - source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md
+---
 # Protected Channel / Non-Regime-Change Framework
 
 WORK only; not Record.

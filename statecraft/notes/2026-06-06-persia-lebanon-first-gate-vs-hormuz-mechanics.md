@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-06
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/README.md
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-alexander-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>
+---
 WORK only; not Record.
 
 # Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06

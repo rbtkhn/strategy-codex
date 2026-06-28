@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-15-marandi-sachs-outcome-accounting
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-15
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md
+  - source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/README.md
+  - source-archive/statecraft/2026-06-15/source-dialogue-works-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-dialogue-works-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-johnson-is-this-any-way-to-negotiate-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-tucker-parsi-trump-iran-peace-deal-israel-sabotage-2026-06-15.md
+---
 WORK only; not Record.
 
 # Marandi × Sachs — Outcome Accounting Fork — 2026-06-15

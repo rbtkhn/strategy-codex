@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-21-mearsheimer-steamroll-israel-falsifier-checklist
+note_type: mechanism
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-21
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-21/source-switzer-mearsheimer-parsi-us-iran-peace-deal-hold-2026-06-21.md
+  - source-archive/statecraft/2026-06-21/day-index.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-mcgovern-will-russia-escalate-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md
+  - source-archive/statecraft/2026-06-15/README.md
+  - source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md
+---
 # 2026-06-21 — Mearsheimer steamroll-Israel falsifier checklist (MOU / Lebanon)
 
 WORK only; not Record.

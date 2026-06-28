@@ -1,3 +1,12 @@
+---
+note_id: README
+note_type: synthesis
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # Taiwan Quarantine / Maritime Access Framework
 
 WORK only; not Record.

@@ -4,6 +4,13 @@ primary_voice: ritter
 topic: diesen-ritter
 legacy_path: arc-ritter-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md##
 ---
 
 # Diesen x Ritter speaker arc

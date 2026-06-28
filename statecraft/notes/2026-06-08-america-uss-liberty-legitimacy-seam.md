@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-08-america-uss-liberty-legitimacy-seam
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-08
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-judging-freedom-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md
+  - source-archive/statecraft/2026-06-08/README.md
+  - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md
+  - source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md
+  - source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md
+---
 WORK only; not Record.
 
 # America: USS Liberty Legitimacy Seam — 2026-06-08

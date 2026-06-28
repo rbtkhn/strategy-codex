@@ -1,3 +1,12 @@
+---
+note_id: sachs-month-floor-repair-2026-06-04
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-04
+updated_at: 2026-06-28
+---
 work only; not Record.
 
 # Sachs Month Floor Repair - 2026-06-04

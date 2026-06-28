@@ -1,3 +1,12 @@
+---
+note_id: baud-crooke-international-law-orthogonality-2026-05
+note_type: compare
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # Baud-Crooke international-law orthogonality review - 2026-05
 
 WORK only; not Record.

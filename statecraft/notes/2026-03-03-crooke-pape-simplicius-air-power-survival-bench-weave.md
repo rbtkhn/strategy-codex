@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-03
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-03/README.md
+  - source-archive/statecraft/2026-03-03/source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-simplicius-us-suffers-worst-day-of-air-losses-2026-03-03.md
+  - source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md
+  - source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md
+  - source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md
+  - source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md
+---
 WORK only; not Record.
 
 # Mar 3 2026 — Newsletter bench weave (Crooke × Pape × Simplicius)

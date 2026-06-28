@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-06-america-captured-command-ndaa-ci-client-veto
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-06
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>
+  - source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md>
+  - source-archive/statecraft/2026-06-06/README.md
+  - source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md>
+  - source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>
+---
 WORK only; not Record.
 
 # America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06

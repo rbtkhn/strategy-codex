@@ -4,6 +4,14 @@ primary_voice: freeman
 topic: diesen-freeman
 legacy_path: arc-freeman-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md
+  - source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md
 ---
 
 # Diesen x Freeman speaker arc

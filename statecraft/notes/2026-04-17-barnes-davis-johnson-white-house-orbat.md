@@ -1,3 +1,21 @@
+---
+note_id: 2026-04-17-barnes-davis-johnson-white-house-orbat
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-04-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md>
+  - source-archive/statecraft/2026-04-17/source-daniel-davis-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md>
+  - source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md>
+  - source-archive/statecraft/2026-04-17/README.md
+  - source-archive/statecraft/2026-04-17/source-daniel-davis-iran-more-war-seems-likely-professor-marandi-2026-04-17.md>
+  - source-archive/statecraft/2026-04-17/source-pape-a-real-time-test-of-powerand-why-2026-04-17.md>
+  - source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md>
+  - source-archive/statecraft/2026-04-17/source-simplicius-serious-escalation-russian-mod-implies-2026-04-17.md>
+---
 WORK only; not Record.
 
 # Barnes White House Room × Davis–Johnson ORBAT — 2026-04-17

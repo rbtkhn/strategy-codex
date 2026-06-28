@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-16-ritter-implementation-trap-mosaic
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-16
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/README.md
+  - source-archive/statecraft/2026-03-16/source-judging-freedom-crooke-trumps-plan-is-to-have-no-plan-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md>
+  - source-archive/statecraft/2026-03-16/source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md>
+---
 WORK only; not Record.
 
 # Ritter Implementation × Pape Trap × Crooke Mosaic — 2026-03-16

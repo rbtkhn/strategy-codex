@@ -1,3 +1,12 @@
+---
+note_id: instrument-bench-maturity-audit
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 # Transaction-Bench Maturity Audit
 
 WORK only; not Record.

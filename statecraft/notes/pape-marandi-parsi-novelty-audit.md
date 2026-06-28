@@ -1,3 +1,21 @@
+---
+note_id: pape-marandi-parsi-novelty-audit
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03.md
+  - source-archive/statecraft/2026-04.md
+  - source-archive/statecraft/2026-05.md
+  - source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md
+  - source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md
+  - source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
+  - source-archive/statecraft/2026-04-14/source-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md
+---
 WORK only; not Record.
 
 # Pape / Marandi / Parsi Novelty Audit

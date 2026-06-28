@@ -1,3 +1,21 @@
+---
+note_id: june-2026-vance-lightning-rod-rubio-optionality-note
+note_type: mechanism
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-02/source-dialogue-works-helmer-irans-unthinkable-move-middle-east-never-same-2026-06-02.md
+  - source-archive/statecraft/2026-05-26/source-dialogue-works-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md
+  - source-archive/statecraft/2026-06-09/source-dialogue-works-helmer-putins-crisis-of-confidence-2026-06-09.md
+  - source-archive/statecraft/2026-06-16/source-dialogue-works-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md
+  - source-archive/statecraft/2026-06-18/README.md
+  - source-archive/statecraft/2026-06-18/source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md
+---
 WORK only; not Record.
 
 # June 2026 — Vance Lightning Rod, Rubio Optionality (Helmer × Johnson × Wire)

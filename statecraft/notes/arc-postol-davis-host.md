@@ -4,6 +4,11 @@ primary_voice: postol
 topic: davis-postol
 legacy_path: arc-postol-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Davis x Postol speaker arc

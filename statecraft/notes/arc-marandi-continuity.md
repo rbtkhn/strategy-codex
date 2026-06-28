@@ -3,6 +3,20 @@ note_type: arc
 primary_voice: marandi
 topic: marandi
 legacy_path: arc-marandi-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md
+  - source-archive/statecraft/2025-01-15/source-dialogue-works-prof-mohammad-marandi-breaking-official-gaza-ceasefire-announced-what-ha-2025-01-15.md
+  - source-archive/statecraft/2025-03-20/source-glenn-diesen-seyed-marandi-is-israel-destroying-itself-2025-03-20.md
+  - source-archive/statecraft/2026-02-11/source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md
+  - source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md
+  - source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md
+  - source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md
+  - source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md
 ---
 
 WORK only; not Record.

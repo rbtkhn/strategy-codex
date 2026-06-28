@@ -4,6 +4,14 @@ primary_voice: mcgovern
 topic: nima-mcgovern
 legacy_path: arc-mcgovern-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md
+  - source-archive/statecraft/2025-12-29/source-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md
 ---
 
 # Alkorshid x McGovern speaker arc

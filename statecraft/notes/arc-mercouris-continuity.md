@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: mercouris
 topic: mercouris
 legacy_path: arc-mercouris-continuity.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Mercouris arc

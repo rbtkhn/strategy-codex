@@ -4,6 +4,19 @@ primary_voice: wilkerson
 topic: nima-wilkerson
 legacy_path: arc-wilkerson-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-05/source-dialogue-works-wilkerson-hormuz-blockade-2026-05-05.md
+  - source-archive/statecraft/2025-01-04/source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md
+  - source-archive/statecraft/2025-01-11/source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md
+  - source-archive/statecraft/2025-01-14/source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md
+  - source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md
+  - source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md
+  - source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md
 ---
 
 # Dialogue Works x Wilkerson speaker arc

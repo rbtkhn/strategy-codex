@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-17
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-17/day-index.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-dialogue-works-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-hoh-trump-believes-his-own-propaganda-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md
+  - source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md
+---
 WORK only; not Record.
 
 # Mar 17 2026 — Iran war bench weave (Helmer × Crooke × Mercouris × Napolitano × Parsi)

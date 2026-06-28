@@ -3,6 +3,19 @@ note_type: arc
 primary_voice: weichert
 topic: weichert
 legacy_path: arc-weichert-continuity.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-17/source-mario-nawfal-weichert-russia-ukraine-escalating-iran-war-restarting-2026-05-17.md
+  - source-archive/statecraft/2026-05-21/source-mario-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md
+  - source-archive/statecraft/2026-05-24/source-mario-nawfal-weichert-trump-iran-deal-collapsing-2026-05-24.md
+  - source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md
+  - source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md
+  - source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md
+  - source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md
 ---
 
 WORK only; not Record.

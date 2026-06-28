@@ -1,3 +1,14 @@
+---
+note_id: archive-truth-floor-repair-routing-2026-06-01
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-01
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/README.md
+---
 # Archive Truth-Floor Repair Routing - 2026-06-01
 
 work only; not Record.

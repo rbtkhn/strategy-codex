@@ -1,3 +1,21 @@
+---
+note_id: 2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-03-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-18/source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md
+  - source-archive/statecraft/2026-03-18/source-daniel-davis-iran-war-global-energy-markets-steve-jermy-lt-col-daniel-davis-2026-03-18.md
+  - source-archive/statecraft/2026-03-18/source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md
+  - source-archive/statecraft/2026-03-24/README.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md
+  - source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md
+---
 WORK only; not Record.
 
 # Mar 18 2026 — Diesen × Marandi × Jermy weave (gas-field strike / economic-war ladder vs Western macro constraint)

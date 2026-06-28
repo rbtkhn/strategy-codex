@@ -1,3 +1,12 @@
+---
+note_id: 2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing
+note_type: compare
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-05-31
+updated_at: 2026-06-28
+---
 WORK only; not Record.
 
 # Rome-America On Carrier Capture Versus Sovereign Burden-Bearing - 2026-05-31

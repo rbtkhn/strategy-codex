@@ -4,6 +4,17 @@ primary_voice: marandi
 topic: nima-marandi
 legacy_path: arc-marandi-nima-host.md
 host_channel: dialogue-works
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-05/source-dialogue-works-marandi-hormuz-uae-china-2026-05-05.md
+  - source-archive/statecraft/2026-05-09/source-dialogue-works-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md
+  - source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md
+  - source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md
+  - source-archive/statecraft/2026-05-23/source-dialogue-works-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md
 ---
 
 # Dialogue Works x Marandi speaker arc

@@ -1,3 +1,12 @@
+---
+note_id: statecraft-multi-lens-bench-pressure-test-2026-05
+note_type: synthesis
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+---
 WORK only; not Record.
 
 # Statecraft Multi-Lens Bench Pressure Test - 2026-05

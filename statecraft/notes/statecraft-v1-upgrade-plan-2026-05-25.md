@@ -1,3 +1,12 @@
+---
+note_id: statecraft-v1-upgrade-plan-2026-05-25
+note_type: synthesis
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-05-25
+updated_at: 2026-06-28
+---
 # Statecraft V1 Upgrade Plan — 2026-05-25
 
 WORK only; not Record.

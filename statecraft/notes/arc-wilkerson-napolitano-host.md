@@ -4,6 +4,19 @@ primary_voice: wilkerson
 topic: napolitano-wilkerson
 legacy_path: arc-wilkerson-napolitano-host.md
 host_channel: judging-freedom
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md
+  - source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md
+  - source-archive/statecraft/2026-03-26/source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md
+  - source-archive/statecraft/2026-02-12/source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md
+  - source-archive/statecraft/2026-01-22/source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md
+  - source-archive/statecraft/2025-12-18/source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md
+  - source-archive/statecraft/2025-11-26/source-judging-freedom-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md
 ---
 
 # Judging Freedom x Wilkerson speaker arc

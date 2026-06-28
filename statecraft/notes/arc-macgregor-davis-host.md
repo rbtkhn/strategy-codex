@@ -4,6 +4,20 @@ primary_voice: macgregor
 topic: davis-macgregor
 legacy_path: arc-macgregor-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-02-18/source-daniel-davis-macgregor-zelensky-obstructing-peace-2025-02-18.md
+  - source-archive/statecraft/2025-02-25/source-daniel-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md
+  - source-archive/statecraft/2025-03-18/source-daniel-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md
+  - source-archive/statecraft/2025-04-15/source-daniel-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md
+  - source-archive/statecraft/2025-04-22/source-daniel-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md
+  - source-archive/statecraft/2025-04-28/source-daniel-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md
+  - source-archive/statecraft/2025-05-27/source-daniel-davis-macgregor-effective-russian-ultimatum-peace-on-our-terms-or-we-ll-push-to-battlefield-victory-2025-05-27.md
+  - source-archive/statecraft/2025-05-20/source-daniel-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md
 ---
 
 # Davis x Macgregor speaker arc

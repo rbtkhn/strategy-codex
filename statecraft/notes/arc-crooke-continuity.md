@@ -3,6 +3,11 @@ note_type: arc
 primary_voice: crooke
 topic: crooke
 legacy_path: arc-crooke-continuity.md
+authority_level: shelf-native
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
 ---
 
 # Crooke arc

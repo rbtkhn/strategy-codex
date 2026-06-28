@@ -1,3 +1,21 @@
+---
+note_id: 2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork
+note_type: compare
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-07
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-06-03/source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md>
+  - source-archive/statecraft/2026-06-07/source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>
+  - source-archive/statecraft/2026-06-03/README.md
+  - source-archive/statecraft/2026-06-03/source-judging-freedom-marandi-from-tehran-how-iran-trapped-trump-2026-06-03.md>
+  - source-archive/statecraft/2026-06-03/source-judging-freedom-johnson-does-iran-have-the-bomb-part-2-2026-06-03.md>
+  - source-archive/statecraft/2026-06-03/source-barnes-trump-informed-iran-may-have-nukes-2026-06-03.md>
+  - source-archive/statecraft/2026-06-03/source-pape-bombing-while-talking-ii-2026-06-03.md>
+  - source-archive/statecraft/2026-06-03/source-nima-alkhorshid-us-bases-airport-hit-iran-retaliates-gulf-stocks-crash-7-hezbollah-ops-2026-06-03.md>
+---
 WORK only; not Record.
 
 # Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork - 2026-06-03 → 2026-06-07

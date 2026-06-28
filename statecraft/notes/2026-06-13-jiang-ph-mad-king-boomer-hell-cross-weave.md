@@ -1,3 +1,17 @@
+---
+note_id: 2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-13
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md
+  - source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md
+  - source-archive/statecraft/2026-06-13/source-glenn-diesen-trita-parsi-iran-war-mou-deportation-threat-2026-06-13.md
+  - source-archive/statecraft/2026-06-13/README.md
+---
 WORK only; not Record.
 
 # Jiang PH Cross-Weave — *Mad King Trump* × *Boomer Hell* — 2026-05-23 → 2026-06-13

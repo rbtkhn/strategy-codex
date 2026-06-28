@@ -1,3 +1,12 @@
+---
+note_id: 2026-06-01-persia-hormuz-postwar-authority-floor
+note_type: mechanism
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-06-01
+updated_at: 2026-06-28
+---
 WORK only; not Record.
 
 # Persia On Hormuz As Postwar Authority Floor - 2026-06-01

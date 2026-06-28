@@ -3,6 +3,13 @@ note_type: arc
 primary_voice: kent
 topic: carlson-kent
 legacy_path: arc-kent-carlson-host.md
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md
 ---
 
 # Carlson x Kent speaker arc

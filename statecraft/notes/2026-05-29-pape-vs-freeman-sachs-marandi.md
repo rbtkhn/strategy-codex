@@ -1,3 +1,12 @@
+---
+note_id: 2026-05-29-pape-vs-freeman-sachs-marandi
+note_type: compare
+authority_level: review-needed
+source_basis: mixed
+essay_candidate: false
+created_at: 2026-05-29
+updated_at: 2026-06-28
+---
 WORK only; not Record.
 
 # Pape Escalation Trap Vs Freeman-Sachs-Marandi - 2026-05-29

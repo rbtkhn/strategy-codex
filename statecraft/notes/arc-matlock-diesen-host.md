@@ -4,6 +4,14 @@ primary_voice: matlock
 topic: diesen-matlock
 legacy_path: arc-matlock-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md
+  - source-archive/statecraft/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md
 ---
 
 # Diesen × Matlock speaker arc

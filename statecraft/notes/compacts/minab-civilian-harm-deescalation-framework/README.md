@@ -1,3 +1,16 @@
+---
+note_id: README
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md
+  - source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md
+  - source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md
+---
 # Minab Civilian-Harm De-Escalation Framework
 
 WORK only; not Record.

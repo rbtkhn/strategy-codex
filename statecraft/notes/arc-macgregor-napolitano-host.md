@@ -4,6 +4,20 @@ primary_voice: macgregor
 topic: napolitano-macgregor
 legacy_path: arc-macgregor-napolitano-host.md
 host_channel: judging-freedom
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2025-04-15/source-judging-freedom-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md
+  - source-archive/statecraft/2025-04-29/source-judging-freedom-macgregor-how-close-to-a-regional-war-2025-04-29.md
+  - source-archive/statecraft/2025-05-01/source-judging-freedom-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md
+  - source-archive/statecraft/2025-05-20/source-judging-freedom-macgregor-is-war-with-iran-inevitable-2025-05-20.md
+  - source-archive/statecraft/2025-05-13/source-judging-freedom-macgregor-is-us-generous-or-murderous-2025-05-13.md
+  - source-archive/statecraft/2025-06-04/source-judging-freedom-macgregor-is-russia-on-the-ropes-2025-06-04.md
+  - source-archive/statecraft/2026-05-21/source-judging-freedom-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md
+  - source-archive/statecraft/2026-05-28/source-judging-freedom-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md
 ---
 
 # Judging Freedom x Macgregor speaker arc

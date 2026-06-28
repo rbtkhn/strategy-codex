@@ -4,6 +4,14 @@ primary_voice: johnson
 topic: diesen-johnson
 legacy_path: arc-johnson-diesen-host.md
 host_channel: glenn-diesen
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md
+  - source-archive/statecraft/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md
 ---
 
 # Diesen x Johnson speaker arc

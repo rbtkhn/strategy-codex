@@ -1,3 +1,21 @@
+---
+note_id: 2026-01-30-jermy-mercouris-iran-armada-kiev-weave
+note_type: synthesis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-01-30
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-01-30/source-daniel-davis-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md
+  - source-archive/statecraft/2026-01-30/source-alexander-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md
+  - source-archive/statecraft/2026-01-08/source-daniel-davis-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md
+  - source-archive/statecraft/2026-01-08/source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md
+  - source-archive/statecraft/2026-01-08/source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md
+  - source-archive/statecraft/2026-01-20/README.md
+  - source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md
+  - source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md
+---
 WORK only; not Record.
 
 # Jan 30 2026 — Jermy × Mercouris weave (Iran armada / Lincoln CSG vs institutional Iran–Kiev lane)

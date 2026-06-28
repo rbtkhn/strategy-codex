@@ -4,6 +4,14 @@ primary_voice: barnes
 topic: davis-barnes
 legacy_path: arc-barnes-davis-host.md
 host_channel: daniel-davis
+authority_level: shelf-native
+source_basis: source-archive
+essay_candidate: false
+created_at: 2026-06-18
+updated_at: 2026-06-28
+archive_links:
+  - source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md
+  - source-archive/statecraft/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md
 ---
 
 # Davis × Barnes speaker arc
