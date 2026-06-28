@@ -53,7 +53,7 @@ Best first-open for June 2026:
 
 - [2026-06-20 | Neutrality Studies × Jermy | Collapse / global recession unavoidable (macro energetics)](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-collapse-global-recession-unavoidable-steve-jermy-2026-06-20.md) — Hormuz lag; oil–GDP ~0.95; 5–10% recession bake-in; diesel/fertilizer; MOU negotiation frame; Israel/US economic hurt; Ukraine fiscal spillover; E3 reciprocity read; host date 20 Jun 2026 · **prior:** [Jan-22 Neutrality crisis/decision-making](../../../source-archive/statecraft/2026-01-22/source-neutrality-studies-crisis-western-decision-making-steve-jermy-2026-01-22.md)
 
-**Cross-weave (same day / week):** [Mercouris 06-21 Ushakov/Anchorage](../mercouris/mercouris-source-index.md#2026-06--konstantinovka--oreshnik--mou-month) · [Mercouris 06-20 Oreshnik treble](../mercouris/mercouris-shelf-2026-06.md) · macro energetics × SPR constraint seam
+**Cross-weave (same day / week):** [Mercouris June Konstantinovka / Oreshnik / MOU month](../mercouris/mercouris-source-index.md) · [Mercouris 06-20 Oreshnik treble](../mercouris/mercouris-shelf-2026-06.md) · macro energetics × SPR constraint seam
 
 ## Host routing
 
@@ -61,7 +61,7 @@ Best first-open for June 2026:
 | --- | --- |
 | Neutrality Studies / Pascal Lottaz | primary — `source-neutrality-studies-*-steve-jermy-*` |
 | Glenn Diesen | [diesen index](../diesen/diesen-index.md) — guest rows when landed |
-| Daniel Davis Deep Dive | [davis host](../channels/daniel-davis/README.md) · `source-daniel-davis-*-steve-jermy-*` |
+| Daniel Davis Deep Dive | [davis host](../../channels/daniel-davis/README.md) · `source-daniel-davis-*-steve-jermy-*` |
 
 ## Reading rule
 

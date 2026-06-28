@@ -22,7 +22,7 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 
 **June hinge (Neutrality Studies triple — 2026-06-20):**
 
-- [2026-06-20 | Neutrality Studies × Krapivnik | Drone escalation; Russia will strike NATO](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-drone-escalation-russia-will-strike-nato-stanislav-krapivnik-2026-06-20.md) — Moscow drone mood; Europe drone production; Konstantinovka/Slavyansk; terrorism register; NATO spillover (Romania); Slovakia ladder; Iran MOU · host: [Neutrality Studies](../channels/neutrality-studies/index.md)
+- [2026-06-20 | Neutrality Studies × Krapivnik | Drone escalation; Russia will strike NATO](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-drone-escalation-russia-will-strike-nato-stanislav-krapivnik-2026-06-20.md) — Moscow drone mood; Europe drone production; Konstantinovka/Slavyansk; terrorism register; NATO spillover (Romania); Slovakia ladder; Iran MOU · host: [Neutrality Studies](../../channels/neutrality-studies/index.md)
 
 **Other June anchors:**
 
@@ -49,8 +49,8 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 
 | Host | Index |
 | --- | --- |
-| Neutrality Studies | [neutrality-studies host](../channels/neutrality-studies/index.md) |
-| Dialogue Works / Nima | [nima host](../channels/dialogue-works/index.md) · [dialogue-works-channel-index](../../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Neutrality Studies | [neutrality-studies host](../../channels/neutrality-studies/index.md) |
+| Dialogue Works / Alkorshid | [dialogue-works host](../../channels/dialogue-works/index.md) · [dialogue-works-channel-index](../../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Glenn Diesen | guest: [diesen index](../diesen/diesen-index.md) · host channel: [glenn-diesen-channel-index](../../channels/glenn-diesen/glenn-diesen-channel-index.md) |
 | The Duran / Mercouris co-host | [mercouris source index](../mercouris/mercouris-source-index.md) |
 

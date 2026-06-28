@@ -27,7 +27,7 @@ Use these when the task is order-transition / deterrence-history reinforcement o
 - [2024-01-28 | Diesen × Mercouris × Karaganov | lowering nuclear threshold / *Age of War*](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) — fuse-reinstall origin debate; Putin Sochi Valdai pushback frame; Mercouris Cold War fear / threshold disagreement
 - [2024-10-21 | Diesen × Mercouris × Karaganov | Russia changes nuclear doctrine](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) — Cold War deterrence catalogue; post-Cold War European fear loss; doctrine-as-law; deep-strike threshold
 
-Host-local arc: [../diesen/arc-mercouris-diesen-host.md](../diesen/arc-mercouris-diesen-host.md)
+Host-local arc: [arc-mercouris-diesen-host.md](../../notes/arc-mercouris-diesen-host.md)
 
 ## 2025-01 prehistory anchors
 
@@ -71,7 +71,7 @@ November solo run = **energy strikes + Pokrovsk/Kupyansk/Zaporozhye collapse geo
 
 **Cross-weave:** [Jermy × Mercouris × Freeman/Wilkerson Dec-12 (2025-12-12)](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md) · [December benchmark](../../notes/december-2025-benchmark-note.md)
 
-- [2025-12-12 | Siversk falls; Huliaipole falling; West in denial; Donbass is ours](../../../source-archive/statecraft/2025-12-12/source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — **cleaned transcript** (source-clean + manual ASR) · pair with [Davis × Jermy NSS same day](../../source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) · [Freeman/Wilkerson chain reaction same day](../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) · [three-way weave](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md)
+- [2025-12-12 | Siversk falls; Huliaipole falling; West in denial; Donbass is ours](../../../source-archive/statecraft/2025-12-12/source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md) — **cleaned transcript** (source-clean + manual ASR) · pair with [Davis × Jermy NSS same day](../../../source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) · [Freeman/Wilkerson chain reaction same day](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) · [three-way weave](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md)
 
 ## 2026-01 Greenland week — Jan 20 cross-weave
 
