@@ -143,6 +143,35 @@ def render_generated_sections(routes: list[dict[str, Any]]) -> str:
     return "\n".join(parts)
 
 
+def normalize_root_links(text: str) -> str:
+    """Template lives under docs/templates; output is repo-root LLM-ROUTING.md."""
+    replacements = [
+        ("../../AGENTS.md", "AGENTS.md"),
+        ("../../docs/", "docs/"),
+        ("../../statecraft/", "statecraft/"),
+        ("../../source-archive/", "source-archive/"),
+        ("../../archive/", "archive/"),
+        ("../../codex/", "codex/"),
+        ("../../essays/", "essays/"),
+        ("../../singularity/", "singularity/"),
+        ("../../repo-map.yaml", "repo-map.yaml"),
+        ("../../runtime/", "runtime/"),
+        ("../operator-dashboards.md", "docs/operator-dashboards.md"),
+        ("../start-here.md", "docs/start-here.md"),
+        ("../routing-reference.md", "docs/routing-reference.md"),
+        ("../prose-index.md", "docs/prose-index.md"),
+        ("../source-lattice-beyond-the-repo.md", "docs/source-lattice-beyond-the-repo.md"),
+        ("../archive/", "docs/archive/"),
+        ("README.md](README.md)", "README.md](README.md)"),  # no-op anchor
+    ]
+    for old, new in replacements:
+        text = text.replace(old, new)
+    text = text.replace("](../../statecraft)", "](statecraft)")
+    text = text.replace("](../../singularity)", "](singularity)")
+    text = text.replace("](../../source-archive/", "](source-archive/")
+    return text
+
+
 def build_document() -> str:
     if not TEMPLATE_PATH.is_file():
         raise FileNotFoundError(f"missing template: {TEMPLATE_PATH.relative_to(REPO_ROOT)}")
@@ -154,6 +183,7 @@ def build_document() -> str:
     routes = data.get("routes") or []
     generated = render_generated_sections(routes)
     body = template.replace(GENERATED_MARKER, generated, 1)
+    body = normalize_root_links(body)
     return GENERATED_HEADER + body
 
 
