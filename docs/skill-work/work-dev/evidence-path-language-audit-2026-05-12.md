@@ -43,8 +43,8 @@ No immediate cleanup needed beyond routine consistency.
 
 These preserve older layouts, audits, ADRs, or migration-era assumptions. They may mention `self-evidence.md` strongly, but they are not teaching the active operator contract:
 
-- [analysis-grace-mar-self-evidence.md](../../analysis-grace-mar-self-evidence.md)
-- [ANALYSIS-GRACE-MAR-museum knowledge.md](../../ANALYSIS-GRACE-MAR-museum knowledge.md)
+- [analysis-grace-mar-self-evidence.md](../../archive/analysis-grace-mar-self-evidence.md)
+- [ANALYSIS-GRACE-MAR-museum knowledge.md](../../../archive/grace-mar-instance/self-knowledge.md)
 - ADRs under [docs/adr/](../../adr)
 - migration/spec notes such as:
   - [companion-self-developer-plan.md](../../companion-self-developer-plan.md)

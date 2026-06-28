@@ -4,7 +4,7 @@ Grace-Mar can support **long work runs** without treating long-lived **runtime**
 
 ## Doctrine
 
-- **Runtime vs Record:** Checkpoints live under `runtime/artifacts/handoffs/` and are **not** SELF, SKILLS, EVIDENCE, or gate staging. See [runtime-vs-record.md](runtime-vs-record.md).
+- **Runtime vs Record:** Checkpoints live under `runtime/artifacts/handoffs/` and are **not** SELF, SKILLS, EVIDENCE, or gate staging. See [runtime-vs-record.md](../runtime-vs-record.md).
 - **Checkpoint first, delegate later:** Prefer emitting a small checkpoint and a bounded next step over speculative autonomy or silent promotion of working notes into durable state.
 - **Gate relevance visibility:** Every checkpoint includes a **Gate relevance** field (`none`, `maybe later`, `candidate likely`). This makes **drift toward durable proposals** visible; it does **not** stage candidates or merge into the Record.
 - **Complements, not substitutes:** Checkpoints do **not** replace `log_observation.py` rows, `memory_brief.py` output, `build_context_from_observations.py`, or `review_orchestrator.py` packets—they **anchor continuity** across time.

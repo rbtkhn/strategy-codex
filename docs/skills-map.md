@@ -39,7 +39,7 @@ Runbook catalog: [skills/runbooks/README.md](../skills/runbooks/README.md).
 ## Domain packs
 
 - **CIV-STATE:** [skills/civ-state/SKILL.md](../skills/civ-state/SKILL.md) — entry skill; sub-skills and runbooks listed in **Domain pack** section.
-- **Statecraft openers:** [docs/skills/statecraft-opener-pack.md](statecraft-opener-pack.md) — `state-america`, `state-china`, etc. (cursor-only).
+- **Statecraft openers:** [docs/skills/statecraft-opener-pack.md](skills/statecraft-opener-pack.md) — `state-america`, `state-china`, etc. (cursor-only).
 - **Product:** [skills/product-strategy/SKILL.md](../skills/product-strategy/SKILL.md) — umbrella for ideation / MTP / ventures (legacy: `ideation-engine`, `mtp`, `abundance-native-ventures`).
 
 ## Promotion path

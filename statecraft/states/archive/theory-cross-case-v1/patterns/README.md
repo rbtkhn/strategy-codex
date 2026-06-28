@@ -6,7 +6,7 @@ This library extracts reusable CIV-STATE patterns without flattening the civiliz
 
 This is distinct from:
 
-- the [Glossary](../../../glossary.md), which defines terms more generally
+- the [Glossary](../../../../../glossary.md), which defines terms more generally
 - the volume bibliographies, which remain the primary source-bearing shelves
 - [Continuity Mechanism](../continuity.md), which remains a separate comparison sheet focused on one governing question
 

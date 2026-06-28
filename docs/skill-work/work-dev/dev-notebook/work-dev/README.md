@@ -36,4 +36,4 @@
 - [SURFACE-MAP.md](SURFACE-MAP.md) — where durable work-dev work lives in-repo.  
 - [HISTORY-ANCHORS.md](HISTORY-ANCHORS.md) — recent milestones; full log in [work-dev-history.md](../../work-dev-history.md).  
 
-**Optional habit / snapshot:** [journal-metrics-habit.md](../../../../../../../../../../../journal-metrics-habit.md) · from repo root: `python3 scripts/journal_habit_snapshot.py` (see [journal README](journal/README.md#optional-habit-telemetry)).
+**Optional habit / snapshot:** [journal-metrics-habit.md](../../../journal-metrics-habit.md) · from repo root: `python3 scripts/journal_habit_snapshot.py` (see [journal README](journal/README.md#optional-habit-telemetry)).

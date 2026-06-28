@@ -187,7 +187,7 @@ _**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in p
 
 ## 2b. Civ-mem depth hooks (in-repo essays Ã¢â‚¬” not breaking news)
 
-_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only Ã¢â‚¬” not a substitute for dated news. See [civ-mem-draft-protocol](../../../../../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
+_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only Ã¢â‚¬” not a substitute for dated news. See [civ-mem-draft-protocol](../../../../../../../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
 
 - _No in-repo civ-mem matches (build index: `python3 scripts/build_civmem_inrepo_index.py build`)._
 - _Treat as optional depth for triangulation Ã¢â‚¬” not a substitute for dated news citations._

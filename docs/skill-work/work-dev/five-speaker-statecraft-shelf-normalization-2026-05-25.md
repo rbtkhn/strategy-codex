@@ -30,7 +30,7 @@ The normalization did not erase all codex residue.
 
 - Freeman still has legacy continuity residue like [freeman-thread.md](../../../statecraft/voices/freeman/freeman-thread.md) and [freeman-transcript.md](../../../statecraft/voices/freeman/freeman-transcript.md).
 - Crooke still has verbatim carryover residue like [crooke-transcript.md](../../../statecraft/voices/crooke/crooke-transcript.md).
-- Ritter still has the largest remaining codex-side pressure under [statecraft/voices/ritter/](../../../statecraft/voices/ritter/stream), where month cross-host arcs, forecast surfaces, thread files, transcript files, pages, and manifests still coexist beside the new canonical statecraft shelf.
+- Ritter still has the largest remaining codex-side pressure under [statecraft/voices/ritter/](../../../statecraft/voices/ritter/index.md), where month cross-host arcs, forecast surfaces, thread files, transcript files, pages, and manifests still coexist beside the new canonical statecraft shelf.
 
 ## Next migration pressure point
 

@@ -28,7 +28,7 @@ Operator workspace: [predictive-history-operator-workspace.md](predictive-histor
 
 - `codex/predictive-history/`
 - `research/external/youtube-channels/predictive-history/`
-- **`public/predictive-history/`** except inbound sync (see [DO-NOT-EDIT.md](../public/predictive-history/DO-NOT-EDIT.md))
+- **`public/predictive-history/`** except inbound sync (see [DO-NOT-EDIT.md](../public/predictive-history/MIRROR-RECEIPT.md))
 
 Those residue trees remain **frozen migration / historical reference** or **read-only mirror**.
 

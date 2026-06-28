@@ -1,6 +1,6 @@
 ﻿# Worker trust registry
 
-Grace-Mar keeps an inspectable map of runtime-related workers in [`platform/config/runtime_workers/registry.yaml`](../runtime_workers/registry.yaml) and routing docs ([worker-routing.md](worker-routing.md)). The **worker trust registry** is an additive JSON document that recordsâ€”per workerâ€”allowed authority bounds, forbidden actions, evidence expectations, receipt expectations, and gate-review requirements.
+Grace-Mar keeps an inspectable map of runtime-related workers in [`platform/config/runtime_workers/registry.yaml`](../../platform/config/runtime_workers/registry.yaml) and routing docs ([worker-routing.md](worker-routing.md)). The **worker trust registry** is an additive JSON document that recordsâ€”per workerâ€”allowed authority bounds, forbidden actions, evidence expectations, receipt expectations, and gate-review requirements.
 
 ## Non-goals (read this first)
 

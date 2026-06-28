@@ -189,7 +189,7 @@ Canonical surfaces:
 
 - [High-Skill Labor Compression and Sovereign Judgment](../statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md)
 - [High-Skill Labor Compression and American Command](../statecraft/america/high-skill-labor-compression-and-american-command.md)
-- [High-Skill Labor Compression and Civilizational Statecraft](../statecraft/states/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](../statecraft/states/essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 
 Why this is a true cross:
 

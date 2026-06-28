@@ -56,6 +56,8 @@ TARGET_REWRITES: dict[str, str] = {
         "public/predictive-history/docs/predictive-history-index.md"
     ),
     "recursion-gate.md": "archive/grace-mar-instance/recursion-gate.md",
+    "museum-knowledge.md": "archive/grace-mar-instance/self-knowledge.md",
+    "statecraft-opener-pack.md": "docs/skills/statecraft-opener-pack.md",
     "strategy-notebook/experts/pape/transcript.md": (
         "statecraft/voices/pape/pape-transcript.md"
     ),
@@ -157,6 +159,10 @@ TARGET_REWRITES: dict[str, str] = {
     "speaker-credibility-accuracy-bridge.md": "statecraft/notes/speaker-audit-workflow.md",
     "speaker-credibility-matrix.md": "statecraft/notes/speaker-audit-workflow.md",
     "strategy-expert-template.md": "statecraft/voices/voice-profile-template.md",
+    "continuity-log.jsonl": "docs/skill-work/work-dev/persistence-and-memory-surfaces.md",
+    "sandbox-adapter.md": "docs/skill-work/work-dev/managed-agent-design.md",
+    "analysis-grace-mar-self-evidence.md": "docs/archive/analysis-grace-mar-self-evidence.md",
+    "ANALYSIS-GRACE-MAR-museum knowledge.md": "archive/grace-mar-instance/self-knowledge.md",
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -1405,7 +1411,11 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 (
                     "../../../runtime/artifacts/rationales/",
+                    "artifact-rationale.md",
+                ),
+                (
                     "../../runtime/artifacts/rationales/",
+                    "artifact-rationale.md",
                 ),
                 (
                     "../../runtime/prepared-context/progressive-disclosure.md",
@@ -1429,7 +1439,68 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../orchestration/review-orchestrator.md",
                     "../orchestration/review-orchestrator.md",
                 ),
+                ("](runtime-vs-record.md)", "](../runtime-vs-record.md)"),
+                (
+                    "](../runtime_workers/registry.yaml",
+                    "](../../platform/config/runtime_workers/registry.yaml",
+                ),
             ]
+        )
+
+    if rel == "docs/predictive-history-external-boundary.md":
+        replacements.append(
+            (
+                "../public/predictive-history/DO-NOT-EDIT.md",
+                "../public/predictive-history/MIRROR-RECEIPT.md",
+            )
+        )
+
+    if rel == "docs/singularity-statecraft-handoff-law.md":
+        replacements.append(
+            (
+                "../statecraft/states/high-skill-labor-compression-and-civilizational-statecraft.md",
+                "../statecraft/states/essays/high-skill-labor-compression-and-civilizational-statecraft.md",
+            )
+        )
+
+    if rel == "docs/skill-think/observability.md":
+        replacements.append(
+            (
+                "../WORK-LAYER-HARDENING-ROADMAP.md",
+                "../skill-work/WORK-LAYER-HARDENING-ROADMAP.md",
+            )
+        )
+
+    if rel == "docs/state-model.md":
+        replacements.append(
+            (
+                "](platform/integrations/ob1/mapping.md",
+                "](../../platform/integrations/ob1/mapping.md",
+            )
+        )
+
+    if rel == "docs/skills-map.md":
+        replacements.append(
+            (
+                "](statecraft-opener-pack.md)",
+                "](skills/statecraft-opener-pack.md)",
+            )
+        )
+
+    if rel == "docs/skill-work/work-strategy/predictive-history-comment-rollout/README.md":
+        replacements.append(
+            (
+                "statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md",
+                "../../../../public/predictive-history/docs/predictive-history-index.md",
+            )
+        )
+
+    if rel == "runtime/artifacts/operator-command-deck/README.md":
+        replacements.append(
+            (
+                "](../../../recursion-gate.md)",
+                "](../../../archive/grace-mar-instance/recursion-gate.md)",
+            )
         )
 
     if rel.startswith("docs/mcp/"):
@@ -1611,9 +1682,19 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("docs/automation/"):
         replacements.append(("../../../.cursor/", "../../.cursor/"))
 
+    if rel.startswith("docs/skill-work/work-coffee/"):
+        replacements.extend(
+            [
+                ("../operator-agent-lanes.md", "../../operator-agent-lanes.md"),
+                ("../../memory-self-audit.md", "../../archive/memory-self-audit.md"),
+            ]
+        )
+
     if rel.startswith("docs/skill-work/work-dev/"):
         replacements.extend(
             [
+                ("../operator-agent-lanes.md", "../../operator-agent-lanes.md"),
+                ("../memory-template.md", "../../memory-template.md"),
                 ("../../platform/integrations/", "../../integrations/"),
                 ("../../../platform/integrations/", "../../../integrations/"),
                 ("../../../../platform/integrations/", "../../../../integrations/"),
@@ -1639,8 +1720,24 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../../research/external/work-dev/transcripts/nate-b-jones-semantic-work-primitives-transcript-2026.txt",
                 ),
                 (
-                    "../../journal-metrics-habit.md",
-                    "../../../journal-metrics-habit.md",
+                    "nate-b-jones-google-stitch-design-markdown-meeting-transcript-2026.md",
+                    "nate-b-jones-google-stitch-design-markdown-meeting-transcript-2026.txt",
+                ),
+                (
+                    "interface-runtime/artifacts/INTERFACE-ARTIFACT-PROTOCOL.md",
+                    "interface-artifacts/INTERFACE-ARTIFACT-PROTOCOL.md",
+                ),
+                (
+                    "../../../runtime/artifacts/creative/",
+                    "../../../runtime/artifacts/",
+                ),
+                (
+                    "statecraft/voices/ritter/stream",
+                    "statecraft/voices/ritter/index.md",
+                ),
+                (
+                    "../../../../../docs/platform/integrations/",
+                    "../../../../platform/integrations/",
                 ),
                 (
                     "../../../../../platform/users/grace-mar/dev-journal",
@@ -1752,6 +1849,25 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
     if rel.startswith("docs/skill-work/work-strategy/"):
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
+    if rel.startswith("docs/skill-work/work-coffee/"):
+        patterns.append(
+            (r"(?:\.\./)+\.cursor/skills/coffee/", "../../../.cursor/skills/coffee/"),
+        )
+    if "dev-notebook/work-dev" in rel:
+        if rel.endswith("dev-notebook/work-dev/journal/README.md"):
+            patterns.append(
+                (
+                    r"\]\((?:\.\./)+journal-metrics-habit\.md\)",
+                    r"](../../../../journal-metrics-habit.md)",
+                ),
+            )
+        elif rel.startswith("docs/skill-work/work-dev/dev-notebook/work-dev/"):
+            patterns.append(
+                (
+                    r"\]\((?:\.\./)+journal-metrics-habit\.md\)",
+                    r"](../../../journal-metrics-habit.md)",
+                ),
+            )
     if "pape-page-" in rel or "parsi-page-" in rel:
         patterns.append(
             (

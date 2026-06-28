@@ -10,7 +10,7 @@
 ## Relationship to other observability
 
 - **Change proposals:** [build-observability-report.py](../../scripts/build-observability-report.py) outputs `observability-report.v1` — **do not** merge THINK metrics into that JSON without extending its schema.
-- **Work layer:** [WORK-LAYER-HARDENING-ROADMAP.md](../WORK-LAYER-HARDENING-ROADMAP.md) — parallel pattern.
+- **Work layer:** [WORK-LAYER-HARDENING-ROADMAP.md](../skill-work/WORK-LAYER-HARDENING-ROADMAP.md) — parallel pattern.
 
 ## Metrics (v1)
 

@@ -127,8 +127,8 @@ change to the repo.
 Run:
 
 ```bash
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../examples/diagnostics/counterfactual-clean-docs.example.json
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../examples/diagnostics/counterfactual-dangerous-merge-authority.example.json
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../examples/diagnostics/counterfactual-portable-emulation.example.json
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../examples/diagnostics/counterfactual-proposal.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-clean-docs.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-dangerous-merge-authority.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-portable-emulation.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-proposal.example.json
 ```

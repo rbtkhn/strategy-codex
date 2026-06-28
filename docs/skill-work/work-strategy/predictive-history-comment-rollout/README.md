@@ -12,7 +12,7 @@ The retired `ph-mus` exhibit follow-up phase was removed from the mirror vision.
 
 ## Canonical sources
 
-- Public source list: [`statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md`](../../../../statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md)
+- Public source list: [`../../../../public/predictive-history/docs/predictive-history-index.md`](../../../../public/predictive-history/docs/predictive-history-index.md)
 - Comment doctrine: [`docs/skill-write/predictive-history-youtube-comments.md`](../../../skill-write/predictive-history-youtube-comments.md)
 
 ## Queue and commands

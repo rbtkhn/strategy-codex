@@ -182,7 +182,7 @@ Pick **one** primary framework (LangGraph *or* LlamaIndex *or* other) for ingest
 
 ## 14. Dual-repo scope (grace-mar + companion-self)
 
-Dual-repo rules in [docs/operator-agent-lanes.md](../operator-agent-lanes.md) are **git / push hygiene** — they do **not** auto-require this stack in both repos.
+Dual-repo rules in [docs/operator-agent-lanes.md](../../operator-agent-lanes.md) are **git / push hygiene** — they do **not** auto-require this stack in both repos.
 
 **EXECUTE** messages should name **grace-mar only**, **companion-self only**, or **both** and the **order** of landing migrations/docs. After cross-repo edits, run [work-companion-self/README.md](../work-companion-self/README.md) and `scripts/template_diff.py` (from repo root; see `--help`) as usual.
 
