@@ -92,6 +92,11 @@ TARGET_REWRITES: dict[str, str] = {
     "recursive-self-learning-objectives.md": (
         "docs/skill-work/skill-work-human-teacher/README.md"
     ),
+    "jiang-predictive-history-index.md": (
+        "source-archive/statecraft/jiang-predictive-history-index.md"
+    ),
+    "self-llm.txt": "archive/grace-mar-instance/self-llm.txt",
+    "arc-pape-continuity.md": "statecraft/notes/arc-pape-continuity.md",
 }
 
 PROVENANCE_LINK_RE = re.compile(
@@ -308,6 +313,11 @@ def resolve_legacy_path(path_part: str) -> Path | None:
         if indexed is not None:
             return indexed
 
+    if norm.startswith("public/predictive-history/book/volume-"):
+        candidate = REPO_ROOT / "public/predictive-history/book/README.md"
+        if candidate.is_file():
+            return candidate
+
     if norm.startswith("public/predictive-history/"):
         candidate = REPO_ROOT / norm
         if candidate.is_file():
@@ -331,7 +341,7 @@ def resolve_by_tail_walk(norm: str) -> Path | None:
         if candidate.is_file():
             return candidate
         basename = Path(sub).name
-        if basename.endswith(".md"):
+        if basename.endswith(".md") and basename not in {"README.md", "INDEX.md"}:
             indexed = get_work_cici_basename_index().get(basename)
             if indexed is not None:
                 return indexed
@@ -663,12 +673,152 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
+    if "work-strategy-rome/notes/exemplars" in rel:
+        replacements.extend(
+            [
+                ("../../../../current-events-analysis.md", "../../../current-events-analysis.md"),
+                ("../../../../civilizational-strategy-surface.md", "../../../civilizational-strategy-surface.md"),
+                ("../../../../case-index.md", "../../../case-index.md"),
+                ("../../../../promotion-ladder.md", "../../../promotion-ladder.md"),
+                ("](../ROME-PASS.md)", "](../../ROME-PASS.md)"),
+            ]
+        )
+
+    if rel.startswith("statecraft/notes/wire/"):
+        replacements.append(("../notes/", "../"))
+
+    if rel.startswith("statecraft/notes/watch/"):
+        replacements.append(("../america/", "../../america/"))
+
+    if rel.startswith("statecraft/notes/reentry/"):
+        replacements.append(("../persia/", "../../persia/"))
+
+    if rel.startswith("statecraft/notes/") and "/wire/" not in rel and "/watch/" not in rel and "/reentry/" not in rel and "/intake/" not in rel:
+        replacements.append(("../../artifacts/", "../../../runtime/artifacts/"))
+        replacements.append(
+            ("../voices/pape/arc-pape-continuity.md", "../arc-pape-continuity.md")
+        )
+
+    if rel.startswith("statecraft/notes/intake/"):
+        replacements.append(("../persia/", "../../persia/"))
+
+    if rel.startswith("docs/skill-work/work-politics/"):
+        replacements.append(("../../work-strategy/", "../work-strategy/"))
+
+    if rel.startswith("docs/skill-work/work-strategy/history-notebook/"):
+        replacements.append(("../../../codex/chapters/", "../../../../codex/chapters/"))
+
+    if rel.startswith("docs/skill-work/work-strategy/") and "speaker-arc-vs-comparative" in rel:
+        replacements.append(("../../notes/", "../../../statecraft/notes/"))
+
+    if rel.startswith("skills/runbooks/"):
+        replacements.append(("../../../.cursor/rules/", "../../.cursor/rules/"))
+
+    if rel.startswith("statecraft/sheets/source-archive-residue/"):
+        replacements.append(
+            ("assets/marandi/", "../../../voices/marandi/assets/marandi/")
+        )
+
+    if rel.startswith("statecraft/synthesis/day/") or rel.startswith("statecraft/synthesis/month/"):
+        replacements.extend(
+            [
+                ("../persia/", "../../persia/"),
+                ("../../artifacts/", "../../../runtime/artifacts/"),
+            ]
+        )
+
+    if rel.startswith("statecraft/states/export-templates/"):
+        replacements.extend(
+            [
+                ("../source-lattice.md", "source-lattice.md"),
+                ("](theory/civilization.md)", "](../../public/civ-state/theory/civilization.md)"),
+                ("](theory/empire.md)", "](../../public/civ-state/theory/empire.md)"),
+                ("](theory/entropy.md)", "](../../public/civ-state/theory/entropy.md)"),
+                ("](theory/faith.md)", "](../../public/civ-state/theory/faith.md)"),
+                ("](theory/science.md)", "](../../public/civ-state/theory/science.md)"),
+                ("](theory/memory.md)", "](../../public/civ-state/theory/memory.md)"),
+                (
+                    "](theory/rhythm.md)",
+                    "](../../public/civ-state/theory/memory.md#civilizational-rhythm)",
+                ),
+                (
+                    "](theory/time.md)",
+                    "](../../public/civ-state/theory/memory.md#era-law)",
+                ),
+                ("](../../../memory.md)", "](../../public/civ-state/theory/memory.md)"),
+            ]
+        )
+
+    if rel.startswith("statecraft/states/") and not rel.startswith(
+        "statecraft/states/export-templates/"
+    ):
+        replacements.extend(
+            [
+                (
+                    "](theory/rhythm.md)",
+                    "](../../public/civ-state/theory/memory.md#civilizational-rhythm)",
+                ),
+                (
+                    "](theory/time.md)",
+                    "](../../public/civ-state/theory/memory.md#era-law)",
+                ),
+                (
+                    "../../public/civ-state/theory/rhythm.md",
+                    "../../public/civ-state/theory/memory.md#civilizational-rhythm",
+                ),
+                (
+                    "../../public/civ-state/theory/time.md",
+                    "../../public/civ-state/theory/memory.md#era-law",
+                ),
+            ]
+        )
+
+    if rel.startswith("statecraft/voices/"):
+        replacements.append(
+            ("../../daily-strategy-inbox.md", "../../../codex/daily-strategy-inbox.md")
+        )
+
+    if rel.startswith("statecraft/voices/pape/"):
+        replacements.extend(
+            [
+                (
+                    "](../../profiles/pape-profile.md (profile)",
+                    "](pape-profile.md) (profile",
+                ),
+                (
+                    "`](../../sheets/source-archive-control/README.md.",
+                    "`](../../sheets/source-archive-control/README.md).",
+                ),
+                (
+                    "../../../codex/2026/pape/pape-transcript.md",
+                    "pape-transcript.md",
+                ),
+                (
+                    "../../../codex/2026/pape/pape-thread.md",
+                    "pape-thread.md",
+                ),
+            ]
+        )
+
     for old, new in replacements:
         if old in text:
             n = text.count(old)
             text = text.replace(old, new)
             count += n
     return text, count
+
+
+CIVMEM_DASH = "\u2013"
+
+
+def _dashify_civmem_filename(match: re.Match[str]) -> str:
+    prefix = match.group(1)
+    name = match.group(2)
+    if CIVMEM_DASH in name:
+        return match.group(0)
+    if not (name.startswith("CIV-") or name.startswith("MEM-")):
+        return match.group(0)
+    return prefix + name.replace("-", CIVMEM_DASH)
 
 
 def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
@@ -678,8 +828,9 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         (r"statecraft/research/bridges/", "statecraft/bridges/"),
         (r"ph-civ/book/", "public/predictive-history/book/"),
     ]
-    if rel.startswith("statecraft/synthesis/day/") or rel.startswith("statecraft/synthesis/month/"):
-        patterns.append((r"\.\./america/transactions/", "../../america/transactions/"))
+    if rel.startswith("statecraft/synthesis/"):
+        patterns.append((r"(?:\.\./)+america/transactions/", "../../america/transactions/"))
+        patterns.append((r"\.\./persia/transactions/", "../../persia/transactions/"))
     if "dev-notebook/work-cici" in rel:
         patterns.extend(
             [
@@ -713,9 +864,20 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append((r"(?:\.\./)+codex/predictive-history/", "../../../codex/predictive-history/"))
         patterns.append((r"(?:\.\./)+codex/", "../../../codex/"))
     if rel.startswith(".cursor/skills/") or rel.startswith("skills/"):
+        patterns.append((r"(?:\.\./)+codex/academy/", "../../../../codex/academy/"))
         patterns.append((r"(?:\.\./)+\.codex-tmp/", "../../../.codex-tmp/"))
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
-        patterns.append((r"(?:\.\./)+codex/academy/", "../../../../codex/academy/"))
+    if rel.startswith("skills/runbooks/"):
+        patterns.append((r"\.\./\.\./\.\./\.cursor/rules/", "../../.cursor/rules/"))
+    if rel.startswith("statecraft/states/volumes/"):
+        new_text, n = re.subn(
+            r"(research/repos/civilization_memory/[^)\s]*?)([A-Z0-9]+(?:-[A-Z0-9]+)+\.md)",
+            _dashify_civmem_filename,
+            text,
+        )
+        if n:
+            text = new_text
+            count += n
     for pattern, repl in patterns:
         new_text, n = re.subn(pattern, repl, text)
         if n:

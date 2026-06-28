@@ -107,5 +107,5 @@ When drafting from the China volume, the governing question is:
 - [China geo lane note](../../../china/civilization/geo.md)
 - [China peace](../../../china/civilization/peace.md)
 - [China doctrine](../../../china/china-doctrine.md)
-- [CIV-STATE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/CIV-STATE-CHINA.md)
-- [MEM-RELEVANCE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/MEM-RELEVANCE-CHINA.md)
+- [CIV-STATE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/CIV–STATE–CHINA.md)
+- [MEM-RELEVANCE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/MEM–RELEVANCE–CHINA.md)

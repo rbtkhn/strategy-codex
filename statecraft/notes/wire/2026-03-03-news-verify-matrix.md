@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-03-03
 
-**Parent:** [2026-03-03 archive day](../../../source-archive/statecraft/2026-03-03/README.md) · **Attrition wedge:** [Mercouris × Wilkerson](../notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) · **Iran weave:** [Helmer × Marandi](../notes/2026-03-03-iran-war-weave-helmer-marandi.md) · **Feb 17 return:** [Hormuz partial → closed](../notes/wire/2026-02-17-news-verify-matrix.md#sub-seam-e--iran-bench--hormuz-marandi--mearsheimer-j17-p1--p8)
+**Parent:** [2026-03-03 archive day](../../../source-archive/statecraft/2026-03-03/README.md) · **Attrition wedge:** [Mercouris × Wilkerson](../2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) · **Iran weave:** [Helmer × Marandi](../2026-03-03-iran-war-weave-helmer-marandi.md) · **Feb 17 return:** [Hormuz partial → closed](../wire/2026-02-17-news-verify-matrix.md#sub-seam-e--iran-bench--hormuz-marandi--mearsheimer-j17-p1--p8)
 
 **Scope:** **Air-war / attrition pass** — Mercouris + Wilkerson (F-15, THAAD, Hormuz, stockpiles, Gulf panic). Cross-check Marandi/Helmer where hooks overlap.
 

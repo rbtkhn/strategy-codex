@@ -106,5 +106,5 @@ When drafting from the America volume, the governing question is:
 - [America geo lane note](../../../america/civilization/geo.md)
 - [America peace](../../../america/civilization/peace.md)
 - [America doctrine](../../../america/america-doctrine.md)
-- [CIV-STATE America](../../../../research/repos/civilization_memory/content/civilizations/AMERICA/CIV-STATE-AMERICA.md)
-- [MEM-RELEVANCE America](../../../../research/repos/civilization_memory/content/civilizations/AMERICA/MEM-RELEVANCE-AMERICA.md)
+- [CIV-STATE America](../../../../research/repos/civilization_memory/content/civilizations/AMERICA/CIV–STATE–AMERICA.md)
+- [MEM-RELEVANCE America](../../../../research/repos/civilization_memory/content/civilizations/AMERICA/MEM–RELEVANCE–AMERICA.md)

@@ -18,7 +18,7 @@ The **whole-work opening essay** ([introduction.md](introduction.md)) — civili
 
 ### Civilizational motion
 
-The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [theory/rhythm.md](theory/rhythm.md) (shelf label **Rhythm**). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
+The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [theory/rhythm.md](../../public/civ-state/theory/memory.md#civilizational-rhythm) (shelf label **Rhythm**). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
 
 ### Civilizational Statecraft Framework
 
@@ -38,7 +38,7 @@ The **memory ↔ desire** pair: continuity-bearing inheritance under appetite, a
 
 ### Era law
 
-The shared form-historical spine — Ancient → Medieval → Colonial → Industrial → Cybernetic — with the post-`1991` **Industrial / Cybernetic** boundary load-bearing for bibliography retrieval. Canonical page: [theory/time.md](theory/time.md) (shelf label **Time**).
+The shared form-historical spine — Ancient → Medieval → Colonial → Industrial → Cybernetic — with the post-`1991` **Industrial / Cybernetic** boundary load-bearing for bibliography retrieval. Canonical page: [theory/time.md](../../public/civ-state/theory/memory.md#era-law) (shelf label **Time**).
 
 ### civ-state
 

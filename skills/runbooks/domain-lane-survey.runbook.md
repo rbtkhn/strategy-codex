@@ -34,7 +34,7 @@ Scan the landscape before creating a new `work-*` territory or adopting a tool/f
 **Do not use when:**
 
 - the lane already exists and only needs hygiene — run **`repo-hygiene-pass`**
-- the question is proposal tradeoffs without a landscape scan — use **Think lane** / [operator-style.mdc](../../../.cursor/rules/operator-style.mdc) unpack (legacy `pros-and-cons` archived)
+- the question is proposal tradeoffs without a landscape scan — use **Think lane** / [operator-style.mdc](../../.cursor/rules/operator-style.mdc) unpack (legacy `pros-and-cons` archived)
 
 ## Skills Composed
 
@@ -77,7 +77,7 @@ Scan the landscape before creating a new `work-*` territory or adopting a tool/f
 
 6. **Proceed to lane creation checklist** in [work-template.md](../../docs/skill-work/work-template.md) step 4.
 
-7. **Optional — unpack recommendations** (Think lane only): if the operator asks for tradeoffs on survey recommendations, restate scope, list pros/cons, name **disproportion**, and recommend — per [operator-style.mdc](../../../.cursor/rules/operator-style.mdc). No repo edits unless they switch to ship.
+7. **Optional — unpack recommendations** (Think lane only): if the operator asks for tradeoffs on survey recommendations, restate scope, list pros/cons, name **disproportion**, and recommend — per [operator-style.mdc](../../.cursor/rules/operator-style.mdc). No repo edits unless they switch to ship.
 
 ## Human Approval Points
 

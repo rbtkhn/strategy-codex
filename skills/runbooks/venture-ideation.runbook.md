@@ -33,7 +33,7 @@ Generate venture options, filter through MTP purpose alignment, and shape abunda
 | 2 | `mtp` | Purpose alignment and governor filter |
 | 3 | `abundance-native-ventures` | Abundance-native venture framing on winner |
 
-**Cadence overlays (Cursor-only):** `coffee`, `dream`, `repo-hygiene-pass` — see sequences below. Think-lane unpack uses [operator-style.mdc](../../../.cursor/rules/operator-style.mdc) (legacy `pros-and-cons` archived).
+**Cadence overlays (Cursor-only):** `coffee`, `dream`, `repo-hygiene-pass` — see sequences below. Think-lane unpack uses [operator-style.mdc](../../.cursor/rules/operator-style.mdc) (legacy `pros-and-cons` archived).
 
 ## Inputs Required
 

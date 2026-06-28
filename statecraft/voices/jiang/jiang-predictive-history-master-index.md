@@ -46,20 +46,20 @@ Series counts from the official mirror:
 
 | Series | Current public count | Primary local route | Notes |
 | --- | --- | --- | --- |
-| Civilization | `60` | [public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../singularity/work-cici/README.md) | Canonical interwoven spine (`civ-01`–`civ-60`); packet shelf at [volume-ii](../../../public/predictive-history/book/volume-ii); ten Part doorways at [parts/](../../../singularity/work-cici/README.md). |
-| Geo-Strategy | `20` | [public/predictive-history/book/volume-i](../../../public/predictive-history/book/volume-i) | Legacy provenance shelf feeding Apocalypse. |
-| Game Theory | `27` | [public/predictive-history/book/volume-iii](../../../public/predictive-history/book/volume-iii) | Publicly materialized through `gt-27`. |
-| Secret History | `28` | [public/predictive-history/book/volume-vi](../../../public/predictive-history/book/volume-vi) | Full `sh-01` to `sh-28` public spine. |
-| Great Books | `10` | [public/predictive-history/book/volume-v](../../../public/predictive-history/book/volume-v) | Publicly materialized through `gb-10`. |
+| Civilization | `60` | [public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../public/predictive-history/book/README.md) | Canonical interwoven spine (`civ-01`–`civ-60`); packet shelf at [volume-ii](../../../public/predictive-history/book/README.md); ten Part doorways at [parts/](../../../public/predictive-history/book/README.md). |
+| Geo-Strategy | `20` | [public/predictive-history/book/volume-i](../../../public/predictive-history/book/README.md) | Legacy provenance shelf feeding Apocalypse. |
+| Game Theory | `27` | [public/predictive-history/book/volume-iii](../../../public/predictive-history/book/README.md) | Publicly materialized through `gt-27`. |
+| Secret History | `28` | [public/predictive-history/book/volume-vi](../../../public/predictive-history/book/README.md) | Full `sh-01` to `sh-28` public spine. |
+| Great Books | `10` | [public/predictive-history/book/volume-v](../../../public/predictive-history/book/README.md) | Publicly materialized through `gb-10`. |
 | Essays | `5` | [../../../public/predictive-history/ph-apo](../../../public/predictive-history/ph-apo) | Apocalypse-facing essay lane. |
 
 ### Volume I reading navigation (Parts overlay)
 
-Ten **Part doorways** on the civilization spine — navigation only; [interwoven-reader](../../../singularity/work-cici/README.md) order stays authoritative. Shelf routing detail: [jiang-routing.md — Volume I Parts](jiang-routing.md#volume-i-parts-reading-navigation).
+Ten **Part doorways** on the civilization spine — navigation only; [interwoven-reader](../../../public/predictive-history/book/README.md) order stays authoritative. Shelf routing detail: [jiang-routing.md — Volume I Parts](jiang-routing.md#volume-i-parts-reading-navigation).
 
 | Surface | Path |
 | --- | --- |
-| Parts index | [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../singularity/work-cici/README.md) |
+| Parts index | [public/predictive-history/book/volume-i-civilization/parts/README.md](../../../public/predictive-history/book/README.md) |
 | Registry | [../../../public/predictive-history/data/parts/volume-i-parts.json](../../../public/predictive-history/data/parts/volume-i-parts.json) |
 | Part boundary tour | [../../../public/predictive-history/data/routes/part-boundary-tour.json](../../../public/predictive-history/data/routes/part-boundary-tour.json) |
 
@@ -67,7 +67,7 @@ Primary mirror front doors:
 
 - [../../../public/predictive-history/README.md](../../../public/predictive-history/README.md)
 - [../../../public/predictive-history/ph-apo/README.md](../../../public/predictive-history/ph-apo/README.md)
-- [../../../public/predictive-history/ph-mus/README.md](../../../singularity/work-cici/README.md)
+- [../../../public/predictive-history/ph-mus/README.md](../../../public/predictive-history/book/README.md)
 
 ## Public source-video subset
 

@@ -114,5 +114,5 @@ When drafting from the America volume, the governing question is:
 - [America sacred grammar](../../../america/civilization/god.md)
 - [America literature](../../../america/civilization/lit.md)
 - [America state memory](../../../america/civilization/objects/state-memory.md)
-- [MEM-ANGLIA-WASHINGTON](../../../../research/repos/civilization_memory/content/civilizations/ANGLIA/MEM-ANGLIA-WASHINGTON.md)
-- [CIV-STATE America](../../../../research/repos/civilization_memory/content/civilizations/AMERICA/CIV-STATE-AMERICA.md)
+- [MEM-ANGLIA-WASHINGTON](../../../../research/repos/civilization_memory/content/civilizations/ANGLIA/MEM–ANGLIA–WASHINGTON.md)
+- [CIV-STATE America](../../../../research/repos/civilization_memory/content/civilizations/AMERICA/CIV–STATE–AMERICA.md)

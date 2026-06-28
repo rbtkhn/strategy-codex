@@ -103,4 +103,4 @@ When drafting from the Persia volume, the governing question is:
 - [Iran geo lane note](../../../persia/civilization/geo.md)
 - [Iran war](../../../persia/civilization/war.md)
 - [Iran peace](../../../persia/civilization/peace.md)
-- [CIV-DOCTRINE Persia](../../../../research/repos/civilization_memory/content/civilizations/PERSIA/CIV-DOCTRINE-PERSIA.md)
+- [CIV-DOCTRINE Persia](../../../../research/repos/civilization_memory/content/civilizations/PERSIA/CIV–DOCTRINE–PERSIA.md)

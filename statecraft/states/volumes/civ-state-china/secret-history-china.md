@@ -107,5 +107,5 @@ When drafting from the China volume, the governing question is:
 - [China sacred grammar](../../../china/civilization/god.md)
 - [China literature](../../../china/civilization/lit.md)
 - [China state memory](../../../china/civilization/objects/state-memory.md)
-- [CIV-STATE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/CIV-STATE-CHINA.md)
-- [MEM-RELEVANCE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/MEM-RELEVANCE-CHINA.md)
+- [CIV-STATE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/CIV–STATE–CHINA.md)
+- [MEM-RELEVANCE China](../../../../research/repos/civilization_memory/content/civilizations/CHINA/MEM–RELEVANCE–CHINA.md)

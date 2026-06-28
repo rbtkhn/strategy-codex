@@ -19,7 +19,7 @@ Compatibility note: this file is a legacy continuity surface from the older expe
 **Source:** Human **narrative journal** (below) + [`strategy-expert-pape-transcript.md`](pape-transcript.md) (7-day verbatim) + relevant **pages** (where this voice was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
-**Companion files:** [pape-profile.md](../../profiles/pape-profile.md (profile) and [pape-transcript.md](pape-transcript.md) (7-day verbatim).
+**Companion files:** [pape-profile.md](pape-profile.md) (profile) and [pape-transcript.md](pape-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Narrative (operator)
@@ -203,7 +203,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when present, a **`batch-analysis | ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | Mercouris ÃƒÆ’Ã¢â‚¬â€ Mearsheimer`** or separate **`thread:mercouris`** / **`thread:mearsheimer`** lines on **Lebanon**/**Israel**/**Washington** **talks** (search `Lebanon`, `Mercouris`, `Mearsheimer`). **Typical pairing:** [strategy-commentator-threads.md](../../strategy-commentator-threads.md (`mercouris` ÃƒÆ’Ã¢â‚¬â€ `mearsheimer`).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when present, a **`batch-analysis | ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ | Mercouris ÃƒÆ’Ã¢â‚¬â€ Mearsheimer`** or separate **`thread:mercouris`** / **`thread:mearsheimer`** lines on **Lebanon**/**Israel**/**Washington** **talks** (search `Lebanon`, `Mercouris`, `Mearsheimer`). **Typical pairing:** [strategy-commentator-threads.md](../../strategy-commentator-threads.md (`mercouris` ÃƒÆ’Ã¢â‚¬â€ `mearsheimer`).
 - **Expert threads:** `mercouris`, `mearsheimer` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **two** **Judgment** **planes**: **diplomatic** **legitimacy** / **room** **narrative** vs **offensive-realist** **incentives** / **alliance** **geometry**; **not** a merged **single** **expert** **object**.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass
@@ -275,7 +275,7 @@ WORK only; not Record.
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Expert ingest ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-16** (Pape ÃƒÆ’Ã¢â‚¬â€ Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) ÃƒÆ’Ã¢â‚¬â€ Mearsheimer` + `ÃƒÆ’Ã¢â‚¬â€ Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Expert ingest ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-16** (Pape ÃƒÆ’Ã¢â‚¬â€ Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) ÃƒÆ’Ã¢â‚¬â€ Mearsheimer` + `ÃƒÆ’Ã¢â‚¬â€ Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
 - **Expert threads:** `thread:pape` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â operator transcript + channel URL until **`watch?v=`** pinned
 - **Related pages:** `islamabad-hormuz-thesis-weave` (Thesis A/B + escalation-trap vocabulary), `kremlin-iri-uranium-dual-register` (enrichment / grand-bargain scope trap), `mercouris-mearsheimer-lebanon-split` (Lebanon fork + Pape sectarian map lane)
 
@@ -314,7 +314,7 @@ Pape stacks four public claims in one appearance:
 
 ### References
 
-- **Inbox capture:** [daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Expert ingest 2026-04-16](../../daily-strategy-inbox.md (search `Janssen` / `Pape`)
+- **Inbox capture:** [daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Expert ingest 2026-04-16](../../../codex/daily-strategy-inbox.md (search `Janssen` / `Pape`)
 - **Expert thread:** [strategy-expert-pape-thread.md](../../strategy-expert-pape-thread.md
 - **YT (channel until pin):** [Cyrus Janssen ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â videos](https://www.youtube.com/@CyrusJanssen/videos)
 - **X (Lebanon map):** [ProfessorPape](https://x.com/ProfessorPape) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `verify:pin-exact-status-URL` in inbox
@@ -405,7 +405,7 @@ none this pass
 ### References
 
 - [daily-brief-2026-04-12.md](../../../daily-brief-2026-04-12.md
-- [daily-strategy-inbox.md](../../daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Expert-thread continuity** / **batch-analysis** tails
+- [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Expert-thread continuity** / **batch-analysis** tails
 - **`### Web verification (2026-04-12)`** table in [`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-12 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â AP/Dawn/NBC triage rows
 
 ### Receipt
@@ -469,7 +469,7 @@ WORK only; not Record.
 ### Lineage
 
 - **Weave option C** (strategy session): Marandi-primary; Blumenthal = domestic/media amplifier; **Pape** = **validate fork** only ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ pointer to **same-day** Pape ÃƒÆ’Ã¢â‚¬â€ Janssen page (page id `pape-janssen-escalation-blockade`), **not** merged analysis here.
-- **Inbox:** [`daily-strategy-inbox.md`](../../daily-strategy-inbox.md **`## 2026-04-16`** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **`- BP |`** Marandi row; **Judging Freedom ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Max Blumenthal ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-16** (operator session; paste to inbox when ready).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md **`## 2026-04-16`** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **`- BP |`** Marandi row; **Judging Freedom ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Max Blumenthal ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-16** (operator session; paste to inbox when ready).
 - **Expert threads:** `thread:marandi` Ãƒâ€šÃ‚Â· `thread:blumenthal`
 - **Sister:** 04-13 Marandi ÃƒÆ’Ã¢â‚¬â€ Ritter ÃƒÆ’Ã¢â‚¬â€ Mercouris scaffold (page id `marandi-ritter-mercouris-hormuz-scaffold`)
 
@@ -480,7 +480,7 @@ WORK only; not Record.
 - **Weave D (same day, separate page):** `pape-janssen-escalation-blockade`
 - **Scaffold:** `marandi-ritter-mercouris-hormuz-scaffold`
 - **Threads:** [`strategy-expert-marandi-thread.md`](../../strategy-expert-marandi-thread.md Ãƒâ€šÃ‚Â· [`strategy-expert-blumenthal-thread.md`](../../strategy-expert-blumenthal-thread.md
-- **Inbox:** [`daily-strategy-inbox.md`](../../daily-strategy-inbox.md **`## 2026-04-16`**
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md **`## 2026-04-16`**
 
 ---
 <!-- strategy-page:end -->

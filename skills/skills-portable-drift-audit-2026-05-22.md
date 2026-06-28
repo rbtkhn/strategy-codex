@@ -4,7 +4,7 @@
 
 This audit reviews every file under [`skills`](.) against two portable-core principles:
 
-1. [`self-llm.txt`](../self-llm.txt) currently resolves to a missing-profile fallback, which means portable skills must not assume repo-local Record files such as `self.md` or `archive/grace-mar-instance/museum-knowledge.md` exist in a new host.
+1. [`self-llm.txt`](../archive/grace-mar-instance/self-llm.txt) currently resolves to a missing-profile fallback, which means portable skills must not assume repo-local Record files such as `self.md` or `archive/grace-mar-instance/museum-knowledge.md` exist in a new host.
 2. [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) keeps four rules load-bearing:
    - grounded before elegant
    - the agent may stage but may not merge
@@ -75,7 +75,7 @@ The objective here was not to rewrite everything. It was to identify duplication
 
 Several skills still read like they live inside one specific instance, referencing `self.md`, `self-library.md`, `self-skills.md`, `self-archive.md`, or concrete notebook files as if those were universal.
 
-That drifts from [`self-llm.txt`](../self-llm.txt), which currently demonstrates the opposite: a portable consumer may not have those files at all.
+That drifts from [`self-llm.txt`](../archive/grace-mar-instance/self-llm.txt), which currently demonstrates the opposite: a portable consumer may not have those files at all.
 
 ### 2. Approval language that was close to merge language
 

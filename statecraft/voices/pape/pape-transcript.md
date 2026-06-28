@@ -4,11 +4,11 @@
 WORK only; not Record.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) that include `thread:pape` (first line + optional continuation paragraphs), routed on ingest.
-**codex-page:** **`statecraft/voices/pape/pape-page-YYYY-MM-DD.md`** — Verbatim / Reflection / Foresight artifact; points to **verbatim** in [`raw-input/`](../../sheets/source-archive-control/README.md. Distinct from a **`strategy-page`** fence in [`thread.md`](thread.md) unless you duplicate judgment there during EOD compose. **Template:** [`pape-page-template.md`](pape-page-template.md).
+**codex-page:** **`statecraft/voices/pape/pape-page-YYYY-MM-DD.md`** — Verbatim / Reflection / Foresight artifact; points to **verbatim** in [`raw-input/`](../../sheets/source-archive-control/README.md). Distinct from a **`strategy-page`** fence in [`thread.md`](thread.md) unless you duplicate judgment there during EOD compose. **Template:** [`pape-page-template.md`](pape-page-template.md).
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [pape-profile.md](../../profiles/pape-profile.md (profile) and [pape-thread.md](pape-thread.md) (distilled thread).
+**Companion files:** [pape-profile.md](pape-profile.md) (profile) and [pape-thread.md](pape-thread.md) (distilled thread).
 
 ---
 

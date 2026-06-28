@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Crooke Three-Date Arc — Ceasefire-for-All (Jun 4 → 5 → 8)
 
-**Parent:** [2026-06-08 Intake Readiness](../notes/intake/2026-06-08-intake-readiness.md) · **Operational cross-read:** [Davis Lebanon fulcrum × Crooke](../notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) · **Gate:** [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+**Parent:** [2026-06-08 Intake Readiness](../notes/intake/2026-06-08-intake-readiness.md) · **Operational cross-read:** [Davis Lebanon fulcrum × Crooke](../notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) · **Gate:** [Lebanon third-party recognition gate transaction](../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
 **Sources (Crooke-only spine):**
 
@@ -131,5 +131,5 @@ Instrument implication: **`PAUSE-CAVEAT`** and pseudo-ceasefire strike counts (M
 - [Davis × Crooke — architecture vs fulcrum loop](../notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 - [Pape Day 100 × Lebanon Fuse](../notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) — horizontal fuse + triad exclusion parallel
 - [Marandi deal floor × gate clauses](../notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
-- [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+- [Lebanon gate transaction](../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - Parent daily (when written): [2026-06-08.md](day/2026-06-08.md)

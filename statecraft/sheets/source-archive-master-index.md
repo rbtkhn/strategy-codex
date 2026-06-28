@@ -4355,7 +4355,7 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [channel-index-misc.md](channel-index-misc.md) — Statecraft Archive - YouTube Channel Index (Miscellaneous) | `helper-surface` | `kind:(none)`
 - [channel-index.md](channel-index.md) — Statecraft Archive - YouTube Channel Index | `helper-surface` | `kind:(none)`
 - [day-index-spec.md](day-index-spec.md) — Day-index — per-day archive inventory spec | `helper-surface` | `kind:(none)`
-- [jiang-predictive-history-index.md](jiang-predictive-history-index.md) — Jiang / Predictive History Source Archive Index | `helper-surface` | `kind:(none)`
+- [jiang-predictive-history-index.md](../../source-archive/statecraft/jiang-predictive-history-index.md) — Jiang / Predictive History Source Archive Index | `helper-surface` | `kind:(none)`
 - [stale-index-audit.md](stale-index-audit.md) — Statecraft Archive - Stale Index Audit | `helper-surface` | `kind:(none)`
 - [thread-index.md](thread-index.md) — Statecraft Archive - Thread Index | `helper-surface` | `kind:(none)`
 - [writer-index-spec.md](writer-index-spec.md) — Writer-index — inclusion spec | `helper-surface` | `kind:(none)`

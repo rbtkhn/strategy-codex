@@ -42,8 +42,8 @@ archive truth than it did in a looser accumulation phase.
 
 The `Hormuz` family now has a closed proof arc:
 
-- before: [statecraft-hormuz-audit-current.md](../../artifacts/transcript-audits/statecraft-hormuz-audit-current.md)
-- after: [statecraft-hormuz-audit-postfix-reviewed.md](../../artifacts/transcript-audits/statecraft-hormuz-audit-postfix-reviewed.md)
+- before: [statecraft-hormuz-audit-current.md](../../runtime/artifacts/transcript-audits/statecraft-hormuz-audit-current.md)
+- after: [statecraft-hormuz-audit-postfix-reviewed.md](../../runtime/artifacts/transcript-audits/statecraft-hormuz-audit-postfix-reviewed.md)
 
 That means:
 

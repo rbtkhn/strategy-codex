@@ -128,7 +128,7 @@ WORK only; not Record.
 | **J16-RK5** | **16 Jun** **double-tap** drone strike **Mayfadoun** (southern Lebanon) | Adjacent | en/ar | **Supported** | [Al Arabiya Jun 16](https://english.alarabiya.net/amp/News/middle-east/2026/06/16/israeli-drone-strikes-kill-at-least-four-in-southern-lebanon) · [Straits Times/Reuters Jun 16](https://www.straitstimes.com/world/middle-east/israeli-drone-strikes-kill-at-least-4-in-southern-lebanon) · cross-ref **J16-K1** |
 | **J16-RK6** | Iran **struck Israel** last week **explicitly over Lebanon** (new accountability frame) | Persia/Adjacent | en | **Partial** | Kent ex-NCTC read · cross-ref **J16-RW7** warning lane · dedicated **Lebanon-causality** strike not wire-triaged line-for-line |
 
-**Comparison seam:** [kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md](../notes/kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md)
+**Comparison seam:** [kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md](../kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md)
 
 ## Sub-seam — Freeman (`ki_x_N3lsAY`) · J16-1 – J16-7
 

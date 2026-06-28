@@ -55,8 +55,8 @@ The strongest currently recovered July Mearsheimer item still not landed is:
 
 The local and external evidence for this queue is now bounded and meaningful:
 
-- [check-streams-2025-07-20-local/summary.md](../../artifacts/cognition-streams/check-streams-2025-07-20-local/summary.md) preserves the `2025-07-20` Daniel Davis / Deep Dive Mearsheimer upload with a direct YouTube watch URL
-- [check-streams-2025-thin-month-speaker-queue-2026-05-27.md](../../artifacts/cognition-streams/check-streams-2025-thin-month-speaker-queue-2026-05-27.md) elevates that July 20 Davis item as the bounded thin-month Mearsheimer recovery target
+- [check-streams-2025-07-20-local/summary.md](../../runtime/artifacts/cognition-streams/check-streams-2025-07-20-local/summary.md) preserves the `2025-07-20` Daniel Davis / Deep Dive Mearsheimer upload with a direct YouTube watch URL
+- [check-streams-2025-thin-month-speaker-queue-2026-05-27.md](../../runtime/artifacts/cognition-streams/check-streams-2025-thin-month-speaker-queue-2026-05-27.md) elevates that July 20 Davis item as the bounded thin-month Mearsheimer recovery target
 - [Glasp July 10 mirror](https://glasp.co/youtube/RFFzClxBmb8) preserves the `2025-07-10` YouTube ID, title, host, and date for the Judging Freedom item
 - [Singju Post July 10 transcript mirror](https://singjupost.com/prof-john-mearsheimer-ukraine-gaza-iran-is-peace-possible-transcript/) preserves the same July 10 title/date seam from the transcript side
 - [Art19 July 14 mirror](https://art19.com/shows/daniel-davis-deep-dive/episodes/795d3a86-e8e7-4f79-9367-8454c91bcf83) preserves the title for `Missiles for Everyone! How Trump is Using NATO /John Mearsheimer`, while the direct YouTube watch URL [o_GmTbH7E_g](https://www.youtube.com/watch?v=o_GmTbH7E_g) supplies the `2025-07-14` publish metadata used for filing

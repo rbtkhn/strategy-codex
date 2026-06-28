@@ -54,7 +54,7 @@ WORK only; not Record.
 
 ### Vance pushback / succession routing (J19-16 – J19-21) — sub-hook 2026-06-20
 
-**Parent note:** [june-2026-vance-lightning-rod-rubio-optionality-note.md](../notes/june-2026-vance-lightning-rod-rubio-optionality-note.md) · **Trigger:** Vance discipline line → Levin / Fine / FDD / Adelson stack (~18–19 Jun)
+**Parent note:** [june-2026-vance-lightning-rod-rubio-optionality-note.md](../june-2026-vance-lightning-rod-rubio-optionality-note.md) · **Trigger:** Vance discipline line → Levin / Fine / FDD / Adelson stack (~18–19 Jun)
 
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |

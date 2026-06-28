@@ -145,7 +145,7 @@ Congressional insider coverage, news platforms with sourcing transparency.
 | Punchbowl News | https://punchbowl.news/ | Congressional insider coverage; paywalled; daily AM briefing |
 | Semafor | https://www.semafor.com/ | News platform with explicit sourcing and counterpoint structure |
 | NOTUS | https://www.notus.org/ | Nonprofit Capitol Hill journalism; paywalled |
-| Roll Call | https://www.rollcall.com/ | Congressional news and procedure; also in [daily-brief RSS](../../work-strategy/daily-brief-config.json) |
+| Roll Call | https://www.rollcall.com/ | Congressional news and procedure; also in [daily-brief RSS](../work-strategy/daily-brief-config.json) |
 
 ## State and Local
 
@@ -184,6 +184,6 @@ Claim verification before ship. See also [fact-check skill](../../../.cursor/ski
 
 **Mediamap total added: 39 sources.** Curated from [ekristof/01-mediamap](https://github.com/ekristof/01-mediamap).
 
-**What was excluded:** AI/tech/cyber outlets (→ [work-dev](../work-dev/work-dev-sources.md)), defense/military/intelligence/geopolitics (→ [work-strategy](../work-strategy/work-strategy-sources.md)), colleges, book lists, civics education, media literacy. Sources already in [daily-brief RSS](../../work-strategy/daily-brief-config.json) (Reuters, BBC, NPR, NBC, The Hill, etc.) are not duplicated here except Roll Call (noted).
+**What was excluded:** AI/tech/cyber outlets (→ [work-dev](../work-dev/work-dev-sources.md)), defense/military/intelligence/geopolitics (→ [work-strategy](../work-strategy/work-strategy-sources.md)), colleges, book lists, civics education, media literacy. Sources already in [daily-brief RSS](../work-strategy/daily-brief-config.json) (Reuters, BBC, NPR, NBC, The Hill, etc.) are not duplicated here except Roll Call (noted).
 
 **Parallel:** [work-dev-sources.md](../work-dev/work-dev-sources.md) | [work-strategy-sources.md](../work-strategy/work-strategy-sources.md)

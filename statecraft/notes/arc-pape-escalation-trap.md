@@ -37,7 +37,7 @@ nodes:
 
 **Pub span:** 2026-02-25 → 2026-06-22 (~118 days; **arc** tier)  
 **Series:** [escalationtrap.substack.com](https://escalationtrap.substack.com)  
-**Parent:** [Pape index](../voices/pape/pape-index.md) · [Pape person arc](../voices/pape/arc-pape-continuity.md) · [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
+**Parent:** [Pape index](../voices/pape/pape-index.md) · [Pape person arc](arc-pape-continuity.md) · [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
 **Hook prefix (opening essay tier):** **JF28-T1** (mirage) · **J01-T1** (trap confirmed) · forward **J16-T*** on Mar 16 matrix when run.
 
@@ -217,6 +217,6 @@ Pape additions at mid-month:
 - **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (Phase V)
 - **Bench:** [Pape × Crooke opening-strike](./2026-02-28-pape-crooke-opening-strike-bench-weave.md) · [Crooke × Pape × Simplicius Mar 3](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
 - **Forward:** [Mar 24 five terms](../synthesis/day/2026-03-24.md) · May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · [Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
-- **Person shelf:** [arc-pape-continuity.md](../voices/pape/arc-pape-continuity.md) · [forecast ledger](../voices/pape/pape-forecast-ledger-2026.md)
+- **Person shelf:** [arc-pape-continuity.md](arc-pape-continuity.md) · [forecast ledger](../voices/pape/pape-forecast-ledger-2026.md)
 
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Opened:** 2026-06-22 · **Consolidated:** 2026-06-22 (thread absorbed into arc)

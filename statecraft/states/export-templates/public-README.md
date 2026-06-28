@@ -57,8 +57,8 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 ## Whole-work apparatus
 
 - [Theory shelf](../../../README.md)
-- **Governing terms:** [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md) · [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](../../../memory.md)
-- **Motion and era law:** [Rhythm](theory/rhythm.md) · [Time](theory/time.md)
+- **Governing terms:** [Civilization](../../../public/civ-state/theory/civilization.md) · [Empire](../../../public/civ-state/theory/empire.md) · [Entropy](../../../public/civ-state/theory/entropy.md) · [Faith](../../../public/civ-state/theory/faith.md) · [Science](../../../public/civ-state/theory/science.md) · [Memory](../../../public/civ-state/theory/memory.md)
+- **Motion and era law:** [Rhythm](../../../public/civ-state/theory/memory.md#civilizational-rhythm) · [Time](../../../public/civ-state/theory/memory.md#era-law)
 - [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
 
 ## Essays
