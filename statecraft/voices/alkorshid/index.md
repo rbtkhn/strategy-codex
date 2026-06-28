@@ -1,4 +1,4 @@
-# Alkorshid Index
+# Alkhorshid voice shelf (`alkorshid`)
 
 WORK only; not Record.
 

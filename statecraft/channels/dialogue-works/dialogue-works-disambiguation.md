@@ -2,7 +2,16 @@ WORK only; not Record.
 
 # Dialogue Works disambiguation (alkorshid / nima / venue)
 
-Purpose: route **Dialogue Works** (venue) vs **Nima Alkorshid** (person) vs legacy **`alkorshid`** / **`nima`** naming — Diesen parity for archive ingest, indices, and synthesis titles.
+Purpose: route **Dialogue Works** (venue) vs **Nima Alkhorshid** (person) vs legacy **`alkorshid`** / **`nima`** naming — Diesen parity for archive ingest, indices, and synthesis titles.
+
+## Display spelling (canonical)
+
+| Layer | Spelling |
+|-------|----------|
+| **Display name** (`host:` YAML, speaker labels, operator prose, synthesis person leg) | **Nima Alkhorshid** (surname **Alkhorshid** — with **h**) |
+| **Machine id** (`thread`, path slug `voices/alkorshid/`, filename token `*-alkorshid-*`) | **`alkorshid`** (no **h**; script read aliases `alkhorshid`, `nima alkhorshid`) |
+| **Wrong display** | `Nima Alkorshid` / bare `Alkorshid` — fix on edit; do not use on new intake |
+| **Verbatim ASR in archive body** | preserve guest mis-hearings (`Nema`, `Nemo these`, etc.) unless manual ASR spot-fix |
 
 ## Compat matrix
 
@@ -10,20 +19,20 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkorshid** (person) vs lega
 |-------|--------|------|
 | Archive person thread | **`alkorshid`** | ingest, indices, dual `threads` on every appearance |
 | Host shelf | [`channels/dialogue-works/`](README.md) | Dialogue Works **host-law**, thread, arcs, channel index |
-| Voices shelf | [`voices/alkorshid/`](../../voices/alkorshid/README.md) | **Alkorshid** analyst profile + cross-host guest index |
+| Voices shelf | [`voices/alkorshid/`](../../voices/alkorshid/README.md) | **Alkhorshid** analyst profile + cross-host guest index |
 | MCQ / EOD `expert_id` | **`nima`** (compat) | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | Script read aliases | `alkorshid`, `alkhorshid`, `nima alkhorshid` | one release cycle after rename ship |
 | Deprecated archive thread | **`thread:nima`** | replace with **`thread:alkorshid`** on new/edited captures |
 
 ## Venue vs person channel (Diesen parity)
 
-| | Glenn Diesen | Nima Alkorshid |
-|---|--------------|----------------|
+| | Glenn Diesen | Nima Alkhorshid |
+|---|---|--------------|----------------|
 | YouTube channel / show | **Glenn Diesen** (person-named) | **Dialogue Works** (show-named) |
 | Own-channel filename | `source-glenn-diesen-<guest>-*` | `source-dialogue-works-<guest>-*` |
 | Wrong own-channel prefix | `source-diesen-*` | `source-dialogue-works-*` / `source-nima-*` |
 | `channel_slug` | `glenn-diesen` | `dialogue-works` |
-| `host` YAML on own show | Glenn Diesen | Nima Alkorshid |
+| `host` YAML on own show | Glenn Diesen | Nima Alkhorshid |
 | Person thread (host + guest) | `diesen` | `alkorshid` |
 
 ## Target routing
@@ -32,14 +41,14 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkorshid** (person) vs lega
 |------|----------|-----------|-------|
 | DW interview | `source-dialogue-works-<guest>-*` | `[alkorshid, guest]` | **Dialogue Works × Guest** |
 | DW solo | `source-dialogue-works-<slug>-*` | `[alkorshid]` | **Dialogue Works** |
-| Guest on Mario Nawfal | `source-mario-nawfal-alkorshid-*` | `[nawfal, alkorshid]` | **Mario Nawfal × Alkorshid** |
-| Guest on Daniel Davis | `source-daniel-davis-alkorshid-*` | `[davis, alkorshid]` | **Daniel Davis × Alkorshid** |
+| Guest on Mario Nawfal | `source-mario-nawfal-alkorshid-*` | `[nawfal, alkorshid]` | **Mario Nawfal × Alkhorshid** |
+| Guest on Daniel Davis | `source-daniel-davis-alkorshid-*` | `[davis, alkorshid]` | **Daniel Davis × Alkhorshid** |
 
 ## Venue-first titles (synthesis)
 
-**Venue channel name first:** `Dialogue Works × Johnson`, `Daniel Davis × Alkorshid`, `Mario Nawfal × Alkorshid`.
+**Venue channel name first:** `Dialogue Works × Johnson`, `Daniel Davis × Alkhorshid`, `Mario Nawfal × Alkhorshid`.
 
-Wrong: `Johnson × Alkorshid`, `Alkhorshid Johnson`, `Guest × Nima / Dialogue Works`.
+Wrong: `Johnson × Alkorshid`, `Alkorshid Johnson`, `Guest × Nima / Dialogue Works` (missing **h**, person-first, or bare first name).
 
 Full channel display names: **Daniel Davis**, **Mario Nawfal**, **Judging Freedom** (not bare Napolitano/Nawfal/Deep Dive).
 

@@ -1,4 +1,4 @@
-# Alkorshid profile (legacy compatibility pointer)
+# Alkhorshid profile (legacy compatibility pointer)
 
 WORK only; not Record.
 

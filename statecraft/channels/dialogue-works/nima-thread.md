@@ -35,7 +35,7 @@ _Write here in full sentences. For **`nima`**, note **same-episode** symmetry: w
 
 ## 2026-04
 
-**Seed:** Minimal **host / interviewer** lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Dialogue Works** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â opened so **Nima Alkorshid** has an indexed **`thread:nima`** beside recurring guests (**e.g.** **`marandi`**, **`diesen`**) on shared long-forms. Not a substitute for guest analytic **`thread:`** rows.
+**Seed:** Minimal **host / interviewer** lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Dialogue Works** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â opened so **Nima Alkhorshid** has an indexed **`thread:nima`** beside recurring guests (**e.g.** **`marandi`**, **`diesen`**) on shared long-forms. Not a substitute for guest analytic **`thread:`** rows.
 
 ---
 <!-- strategy-expert-thread:start -->

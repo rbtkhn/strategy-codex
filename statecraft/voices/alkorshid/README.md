@@ -1,4 +1,4 @@
-# Alkorshid (Nima Alkorshid)
+# Alkhorshid voice shelf (`alkorshid`)
 
 WORK only; not Record.
 

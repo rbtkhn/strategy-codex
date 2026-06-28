@@ -24,7 +24,7 @@ Dialogue Works repeatedly pushes guests toward:
 
 ## Open Nima First When
 
-- the capture is Dialogue Works / Nima Alkorshid hosted
+- the capture is Dialogue Works / Nima Alkhorshid hosted
 - host framing is load-bearing beside guest analytic claims
 - inbox triage needs `thread:alkorshid` in addition to a guest `thread:`
 - the operator is inventorying or backfilling the Dialogue Works channel roster

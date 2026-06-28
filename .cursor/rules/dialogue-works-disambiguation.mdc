@@ -1,6 +1,6 @@
 # Dialogue Works disambiguation (alkorshid / nima / venue)
 
-When routing, ingesting, or titling **Nima Alkorshid** / **Dialogue Works** captures:
+When routing, ingesting, or titling **Nima Alkhorshid** / **Dialogue Works** captures:
 
 ## SSOT
 
@@ -13,8 +13,9 @@ When routing, ingesting, or titling **Nima Alkorshid** / **Dialogue Works** capt
 1. **Person thread:** `alkorshid` on all appearances (host + guest). Deprecate `thread:nima` for archive routing; keep `expert_id: nima` for MCQ/EOD compat only.
 2. **Own show filename:** `source-dialogue-works-<guest>-*` — not `source-alkorshid-*` / `source-nima-*`.
 3. **Cross-host guest:** `source-nawfal-alkorshid-*`, `source-daniel-davis-alkorshid-*`.
-4. **Venue-first titles:** `Dialogue Works × Johnson`, `Daniel Davis × Alkorshid`, `Mario Nawfal × Alkorshid` — never `Johnson × Alkorshid`, `Alkhorshid Johnson`, or bare `× Nima`.
+4. **Venue-first titles:** `Dialogue Works × Johnson`, `Daniel Davis × Alkhorshid`, `Mario Nawfal × Alkhorshid` — never `Johnson × Alkorshid`, bare `Alkorshid`, or bare `× Nima`.
 5. **Intake guard:** Apply Dialogue Works normalize only when `channel_slug: dialogue-works`. Do not infer DW from guest surname in filename.
+6. **Display spelling:** operator surfaces use **Nima Alkhorshid** (surname with **h**); machine ids stay **`alkorshid`** (path slug, `thread`, filename token). See disambiguation doc § Display spelling.
 
 ## Shelf split
 

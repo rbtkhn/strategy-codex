@@ -1,8 +1,8 @@
 WORK only; not Record.
 
-# Alkorshid Index
+# Alkhorshid index (`alkorshid`)
 
-Purpose: route map for **Nima Alkorshid** as **guest / interviewed analyst on other hosts and channels** — not Dialogue Works host or solo work.
+Purpose: route map for **Nima Alkhorshid** as **guest / interviewed analyst on other hosts and channels** — not Dialogue Works host or solo work.
 
 **Host channel (Dialogue Works):** [`dialogue-works-channel-index.md`](../../channels/dialogue-works/dialogue-works-channel-index.md) · host-law: [`nima-host-law.md`](../../channels/dialogue-works/nima-host-law.md)
 
@@ -18,11 +18,11 @@ Do **not** dedupe by calendar day alone — same person on Davis vs Dialogue Wor
 ## Corpus note
 
 - **1** materialized cross-host guest capture on disk (2026-05-29 Davis); expand as archive grows
-- Filename family for guest rows: `source-<host-channel>-*alkorshid*` or explicit `guest: Nima Alkorshid` with `channel_slug` ≠ `dialogue-works`
+- Filename family for guest rows: `source-<host-channel>-*alkorshid*` or explicit `guest: Nima Alkhorshid` with `channel_slug` ≠ `dialogue-works`
 
 ## 2026-05
 
-- [2026-05-29 — Davis × Alkorshid — Iran war never stops while Israel attacks Lebanon](../../../source-archive/statecraft/2026-05-29/source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis-2026-05-29.md) (`4NqmfOYz55w`) — Trump situation-room fork · Hormuz toll vs MOU text · Iranian read of True Social post · dialogue vs war headwinds · host: **Daniel Davis** · `channel_slug: daniel-davis`
+- [2026-05-29 — Davis × Alkhorshid — Iran war never stops while Israel attacks Lebanon](../../../source-archive/statecraft/2026-05-29/source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis-2026-05-29.md) (`4NqmfOYz55w`) — Trump situation-room fork · Hormuz toll vs MOU text · Iranian read of True Social post · dialogue vs war headwinds · host: **Daniel Davis** · `channel_slug: daniel-davis`
 
 ## Host cross-refs
 

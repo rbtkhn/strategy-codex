@@ -1,4 +1,4 @@
-# Strategy expert — Nima Alkorshid (`alkorshid`)
+# Strategy expert — Nima Alkhorshid (`alkorshid`)
 <!-- word_count: ~700 -->
 
 WORK only; not Record.
@@ -11,16 +11,16 @@ WORK only; not Record.
 
 ## Introduction
 
-Nima Alkorshid is the Dialogue Works host lane: a long-form interviewer whose value in strategy-codex is part discovery surface, part framing surface. This profile keeps the host identity, public publishing links, and routing context visible so host-led episodes do not collapse into guest-only analysis.
+Nima Alkhorshid is the Dialogue Works host lane: a long-form interviewer whose value in strategy-codex is part discovery surface, part framing surface. This profile keeps the host identity, public publishing links, and routing context visible so host-led episodes do not collapse into guest-only analysis.
 
 ## Identity
 
 | Field | Value |
 |-------|-------|
-| **Name** | Nima Alkorshid |
+| **Name** | Nima Alkhorshid |
 | **expert_id** | `alkorshid` |
 | **Role** | Dialogue Works host / interviewer for long-form geopolitical dialogue; use `thread:alkorshid` (legacy `thread:nima` compat) alongside `thread:<guest>` on shared episodes so inbox triage and raw-input thread lists mirror both sides. |
-| **Default grep tags** | `Alkorshid`, `Dialogue Works`, or `DialogueWorks` in cold |
+| **Default grep tags** | `Alkhorshid`, `Alkorshid` (legacy cold), `Dialogue Works`, or `DialogueWorks` in cold |
 | **Typical pairings** | x `marandi`, x `diesen`, x `mercouris`, x `davis` |
 | **Notebook-use tags** | `narrate` |
 
