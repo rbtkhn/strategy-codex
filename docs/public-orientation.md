@@ -16,6 +16,8 @@ Short guide for journalists, bloggers, and other visitors who need a **public-sa
 
 Older docs may use "transaction" for bounded lane objects. Going forward, use **note** for durable analytical work products. Use **transaction** only for operational receipts or machine workflow events.
 
+**Note promotion gate:** `statecraft/notes/` objects carry a typed contract (source anchoring, authority level, optional essay candidacy). Registry: `python3 scripts/reindex_notes.py` · validate: `python3 scripts/check_statecraft_notes.py --warn`.
+
 ## What it is not
 
 - Not a live news wire or authoritative real-time claim surface

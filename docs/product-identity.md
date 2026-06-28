@@ -20,6 +20,8 @@ Full argument and success metrics: [`essays/from-accumulation-to-governed-interp
 
 **Essay shelf (primary):** [`essays/README.md`](../essays/README.md) — cross-channel stand-alone theses. Channel `notes/` remain scoped to statecraft or singularity only.
 
+**Note promotion gate:** durable notes under `statecraft/notes/` declare contract metadata before shelf-native promotion; `python3 scripts/check_statecraft_notes.py --verify` on promote · generated index `python3 scripts/reindex_notes.py`.
+
 ## Operator entry
 
 **Curious visitor (path E):** [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · this page · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) — full path table in [start-here.md](start-here.md#choose-your-path).

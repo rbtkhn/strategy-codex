@@ -155,12 +155,15 @@ Do not call this complete unless:
 - skipped steps are explicitly marked with a reason
 - uncertainty, missing evidence, or unresolved source defects are stated
 - note class and source floor must be named
+- **note contract fields** are populated for Tier A notes (`note_type`, `authority_level`, `source_basis`, optional `archive_links` / `nodes`)
+- `python3 scripts/check_statecraft_notes.py --verify` passes for the promoted note path before marking **shelf-native**
 
 Evidence to report:
 
 - files touched or produced
 - scripts or commands run
 - source URLs, archive paths, or transcript identifiers used
+- `check_statecraft_notes.py --verify` exit code when promoting shelf-native
 - confidence downgrade, if any
 
 If verification cannot be completed:

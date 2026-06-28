@@ -88,6 +88,8 @@ operator source
 
 Not every note becomes an essay.
 
+**Note contract:** promoted analytical notes declare typed metadata (`note_type`, `authority_level`, `source_basis`) — see [statecraft/notes/README.md](../statecraft/notes/README.md) · validate with `python3 scripts/check_statecraft_notes.py --warn`.
+
 Fork revive only: `recursion-gate.md` → `process_approved_candidates.py --apply` · map: [strategy-codex-redesign-brief.md](strategy-codex-redesign-brief.md)
 
 ---
