@@ -40,7 +40,7 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 - **Contextual stewardship:** Agents have no cross-thread institutional memory; authority for the Record is **on-disk files + gated pipeline** — not model recall or chat summary.
 - **Encoded workflow first:** Before giving generic elicitation, ad hoc process advice, or a fresh workaround, check whether the repo already defines a coded ritual for the task. If it does, route through that path first.
 - **Deviation rule:** Only improvise when the coded path is missing, broken, or explicitly out of scope, and say why you are deviating.
-- **Canonical examples:** Statecraft promotion: archive -> synthesis -> transactions. Fork revive only: stage -> approve -> process via gate. Root-layout migration should repair path assumptions rather than invent compatibility directories.
+- **Canonical examples:** Statecraft promotion: archive -> synthesis -> notes -> essays. Fork revive only: stage -> approve -> process via gate. Root-layout migration should repair path assumptions rather than invent compatibility directories.
 - **Strategy-codex deprecation guard:** Do not route active coffee work through `companion-self` template sync or Grace-Mar-vs-template reconciliation unless the operator explicitly asks for that legacy/archive lane. Bare **A. Confirm** means validate the live slice on strategy-codex-native terms, not reopen legacy stewardship assumptions.
 
 ## Relation to dream

@@ -54,7 +54,7 @@ Do **not** use this folder for:
 - indexes
 - sheets
 - bridges as structural systems
-- transactions
+- legacy `statecraft/transactions/` paths (compatibility stubs only)
 - source-bearing archive material
 
 ## Local Test
@@ -68,7 +68,8 @@ Machine-constitutional files stay where they already belong:
 - indexes stay in index folders
 - sheets stay in `sheets/`
 - bridges stay in `bridges/`
-- transactions stay in transaction surfaces
+- workshop compacts stay in [`statecraft/compact/`](../compact/README.md) (pre-promotion only)
+- durable multi-lane instruments stay in [`compacts/`](compacts/) (note-class)
 
 ## Subfolder taxonomy (2026-06)
 
@@ -80,7 +81,10 @@ Operational and adjacent artifacts that are **not** synthesis live in typed subf
 | [`watch/`](watch/) | Bounded operational watch windows | `*-72h-watch-run.md` |
 | [`reentry/`](reentry/) | Week hinges (navigation, not synthesis) | `YYYY-MM-weekN-start-here.md` |
 | [`intake/`](intake/) | Pre-synthesis queue surfaces | `*-intake-readiness.md`, digest template |
+| [`compacts/`](compacts/) | **Durable multi-lane instrument notes** (migrated from legacy `transactions/*-framework/`) | four-lane crisis compacts with lane splits |
 | *(root)* | Compare, mechanism, arc, thread, trend, conflict, risk | `YYYY-MM-DD-<slug>.md`, `arc-*`, `thread-*`, `trend-*`, `conflict-*`, `risk-*` |
+
+**Compact vs workshop:** [`statecraft/compact/`](../compact/README.md) is the **workshop** for objection matrices and pre-promotion screening. [`notes/compacts/`](compacts/) holds **promoted durable** instrument notes. Do not conflate the two.
 
 Legacy redirect stub: [`daily/`](../daily/README.md).
 
@@ -534,7 +538,7 @@ Cross-temporal chokepoint object (Feb maneuver → Jun MOU Pt. 5 → wire dual-g
 - [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) - bounded recursive-learning method note preserving the Russia inquiry ladder as a phase-two interpretive gain
 - [iran-war-inquiry-ladder-stress-test.md](./iran-war-inquiry-ladder-stress-test.md) - bounded recursive-learning stress-test note showing the ladder survives by mutating from territorial war logic into chokepoint-coalition war logic
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) - bounded comparative bench object
-- [transaction-bench-maturity-audit.md](./transaction-bench-maturity-audit.md) - lane-maturity and proof-anchor audit object
+- [instrument-bench-maturity-audit.md](./instrument-bench-maturity-audit.md) - lane-maturity and proof-anchor audit object
 
 ## Promotion Path
 
@@ -628,7 +632,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 - [statecraft-v1-upgrade-plan-2026-05-25.md](./statecraft-v1-upgrade-plan-2026-05-25.md) from [../statecraft-v1-upgrade-plan-2026-05-25.md](../statecraft-v1-upgrade-plan-2026-05-25.md)
 - [recursive-learning-three-lane-audit.md](./recursive-learning-three-lane-audit.md) from [../recursive-learning-three-lane-audit.md](../recursive-learning-three-lane-audit.md)
-- [transaction-bench-maturity-audit.md](./transaction-bench-maturity-audit.md) from [../transaction-bench-maturity-audit.md](../transaction-bench-maturity-audit.md)
+- [instrument-bench-maturity-audit.md](./instrument-bench-maturity-audit.md) from [../transaction-bench-maturity-audit.md](../transaction-bench-maturity-audit.md)
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) from [../bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](../bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
 - [pape-marandi-parsi-novelty-audit.md](./pape-marandi-parsi-novelty-audit.md) from [../bridges/pape-marandi-parsi-novelty-audit.md](../bridges/pape-marandi-parsi-novelty-audit.md)
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) from [../bridges/recognition-threshold-vs-settlement-architecture.md](../bridges/recognition-threshold-vs-settlement-architecture.md)

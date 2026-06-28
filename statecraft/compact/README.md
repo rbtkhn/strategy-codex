@@ -20,7 +20,7 @@ Open this surface when at least one of these is true:
 - the object is already multi-actor and mechanism-shaped
 - the first honest move is an objection matrix, not a lane sermon
 - the object needs comparison before a compact is draftable
-- the object may already fit an existing transaction plateau bundle
+- the object may already fit an existing instrument plateau bundle in [`notes/compacts/`](../notes/compacts/)
 
 If lane ownership is still truly unresolved, go back to `state-deploy` first.
 
@@ -33,7 +33,7 @@ Use one short orientation sentence, then:
 A. Joint clause or bounded mechanism
 B. Objection matrix
 C. Comparison before compact
-D. Transaction-fit or stress-test
+D. Instrument-fit or stress-test
 ```
 
 ## Route Meaning
@@ -41,7 +41,7 @@ D. Transaction-fit or stress-test
 - `A` = draft a narrow shared mechanism, clause, or de-escalation instrument
 - `B` = map actor resistance and patch points before drafting
 - `C` = compare the lanes first when the compact would otherwise blur ownership
-- `D` = check whether the object should reuse an existing transaction or be stress-tested before new drafting
+- `D` = check whether the object should reuse an existing instrument compact in `notes/compacts/` or be stress-tested before new drafting
 
 ## Fast Doctrine
 
@@ -51,7 +51,7 @@ The compact path exists to keep cross-lane work honest:
 - compact second
 - drafting last
 
-If the object starts sounding elegant before its owners, carriers, and resistance structure are stable, step back toward `state-deploy`, comparison, or transaction-fit rather than widening the compact.
+If the object starts sounding elegant before its owners, carriers, and resistance structure are stable, step back toward `state-deploy`, comparison, or instrument-fit rather than widening the compact.
 
 ## Compression sink (dedup rule)
 

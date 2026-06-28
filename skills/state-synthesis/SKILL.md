@@ -242,7 +242,7 @@ When companions or transaction rows add receipt IDs (e.g. `AMER-224-RCPT-03`), o
 ## Receipt ledger (optional)
 | ID | File | Status |
 |----|------|--------|
-| AMER-224-RCPT-03 | statecraft/america/transactions/... | wired |
+| AMER-224-RCPT-03 | statecraft/notes/... | wired |
 ```
 
 Agent-filled when wire-ins land; no script required in v1.

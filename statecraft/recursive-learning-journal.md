@@ -18,6 +18,26 @@ Each entry should answer:
 - what changed structurally because of the reuse
 - what guardrail prevents the lesson from collapsing into blind template repetition
 
+## 2026-06-28 - Retire transactions as default durable-work ceiling
+
+### Trigger
+
+Front-door doctrine still taught `archive → synthesis → transactions` while `statecraft/notes/` already owned bounded analytical work. Agents and skills re-taught the old ladder on every `coffee` session.
+
+### Extracted law
+
+**If it is analytical and durable, it is a note. If it is polished and reader-facing, it is an essay. If it is operational proof, it is a receipt.** Legacy `statecraft/transactions/` paths are compatibility stubs; multi-lane instruments canonical home is `statecraft/notes/compacts/`. Workshop screening stays in `statecraft/compact/`.
+
+### Structural change
+
+- Promotion ladder: source archive → synthesis → notes → essays
+- [`instrument-router.md`](sheets/instrument-router.md) replaces transaction-router as canonical fit sheet
+- `scripts/check_transaction_term_usage.py` guards doctrine regression
+
+### Guardrail
+
+Do not recreate lane `*/transactions/` as default promote targets. Use [state-note](../.cursor/skills/state-note/SKILL.md).
+
 ## 2026-06-09 - Archive truth ≠ synthesis truth until sync check passes
 
 ### Trigger

@@ -2,7 +2,9 @@
 
 WORK only; not Record.
 
-Use this template when spending compact speaker-state and national-lane analysis into a reusable statecraft instrument. A transaction is valid only when it preserves provenance, historical continuity, authority, restraint, settlement, institutional carrier, limited aim, and off-ramp.
+**Legacy template.** New multi-lane instruments promote to [`statecraft/notes/compacts/`](../notes/compacts/). Use [state-note](../../.cursor/skills/state-note/SKILL.md) for bounded notes.
+
+Use this template when spending compact speaker-state and national-lane analysis into a reusable statecraft instrument. An instrument note is valid only when it preserves provenance, historical continuity, authority, restraint, settlement, institutional carrier, limited aim, and off-ramp.
 
 ## Threshold Before Use
 

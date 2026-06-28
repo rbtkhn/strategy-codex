@@ -52,7 +52,7 @@ If the operator wants a daily report after the archive batch is real, stop this 
 - `/codex` holds chronology and continuity beneath statecraft
 - `civilization_memory` is the evidence layer for longer civilizational/source-memory arguments
 - `civ-state` is the operator-facing source base for statecraft interpretation
-- lane and transaction surfaces are the downstream drafting layer
+- lane and notes surfaces are the downstream drafting layer
 - `statecraft/` holds routing, notes, essays, synthesis, drafting, and control
 - this workflow must not leak summaries, stubs, or control notes into `source-archive/`
 

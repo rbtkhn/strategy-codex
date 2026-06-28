@@ -54,7 +54,7 @@ It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
 > Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.
 
-Second rule: every major civilization object is an arc-lens, not a topic page. A lens reads the present; an arc carries the civilizational development that makes the reading legitimate. In this workflow the two are one object: memory becomes perception, perception becomes judgment, and judgment becomes a possible update. These arc-lenses are downstream expression surfaces, not coequal doctrine. Every arc-lens must trace origin, continuity, transformation, current carrier, failure mode, and transaction use.
+Second rule: every major civilization object is an arc-lens, not a topic page. A lens reads the present; an arc carries the civilizational development that makes the reading legitimate. In this workflow the two are one object: memory becomes perception, perception becomes judgment, and judgment becomes a possible update. These arc-lenses are downstream expression surfaces, not coequal doctrine. Every arc-lens must trace origin, continuity, transformation, current carrier, failure mode, and instrument use.
 
 ## Call Order
 
@@ -71,7 +71,7 @@ Do not use `memory` to replace an unresolved lane judgment or an unresolved gove
 
 - WORK only; not Record.
 - Do not edit PH-CIV corpus or CIV-MEM source files from this workflow.
-- Do not create transaction files unless the operator separately asks.
+- Do not create lane instrument notes unless the operator separately asks.
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.
 - Preserve unrelated dirty files. Memory-skill edits should stay inside `statecraft/` unless the operator explicitly expands scope.
 - Do not build civilization arc-lens backfills only from existing lane summaries. Use direct CIV-MEM discovery, `MEM CONNECTIONS`, and opened source bodies before drafting.
@@ -87,7 +87,7 @@ rg -n "state-memory|heads-of-state|authority-structure|objects|CIV-MEM|CIV|STATE
 
 2. **Identify CIV-MEM inputs.** Prefer the target civilization's `CIV-CORE-*`, `CIV-STATE-*`, doctrine / index files, relevance files, and lane-local `civilization/seed-patterns.md`. Cite them in `## CIV-MEM Inputs`; do not rewrite them.
 3. **Name the continuity pattern.** State what survives regime, dynasty, party, constitutional, or leadership changes.
-4. **Shape the arc-lens.** Name what the object helps read in the present, then name origin, continuity, transformation, current carrier, failure mode, and transaction use. If these cannot be identified, mark the object `Provisional` rather than padding the file with citations.
+4. **Shape the arc-lens.** Name what the object helps read in the present, then name origin, continuity, transformation, current carrier, failure mode, and instrument use. If these cannot be identified, mark the object `Provisional` rather than padding the file with citations.
 5. **Separate authority forms from current carriers.** Historical authority forms belong in `civilization/objects/state-memory.md`; present carriers belong directly in `state/`.
 6. **Classify people and offices.**
    - historical authority memory -> `civilization/objects/state-memory.md`
@@ -150,7 +150,7 @@ If the relevance script is missing, exits nonzero, or lacks the needed domain, u
    - `geo.md`: geography, ecology, terrain, river, sea, ocean, mountain, plateau, steppe, canal, strait, port, water, food, energy, climate, resource, route, chokepoint.
    - `war.md`: WAR, battle, invasion, civil war, martyr, sacrifice, deterrence, humiliation, blockade.
    - `peace.md`: treaty, diplomacy, settlement, recognition, reconstruction, restraint, neutrality, verification.
-5. **Run or emulate graph retrieval through `MEM CONNECTIONS`.** Use connection expansion to find adjacent evidence, counterweights, analogies, rupture points, and transaction constraints. Prefer:
+5. **Run or emulate graph retrieval through `MEM CONNECTIONS`.** Use connection expansion to find adjacent evidence, counterweights, analogies, rupture points, and instrument constraints. Prefer:
 
 ```powershell
 python scripts/route_civ_mem_topic.py "<lane> <object> <topic>" --bfs-mem-target 25 --bfs-max-depth 3 --bfs-neighbors-per-hop 12 --no-focus
@@ -171,10 +171,10 @@ Use `PYTHONIOENCODING=utf-8` if PowerShell cannot print CIV-MEM dashes. If the r
    - humiliation / disorder / sacrifice trigger;
    - authority or carrier implication;
    - failure mode;
-   - transaction constraint.
-9. **Shape the arc.** Convert the extracted patterns into origin, continuity, transformation, current carrier, failure mode, and transaction use. This is the arc side of the arc-lens. A source list without an arc is still shallow.
+   - instrument constraint.
+9. **Shape the arc.** Convert the extracted patterns into origin, continuity, transformation, current carrier, failure mode, and instrument use. This is the arc side of the arc-lens. A source list without an arc is still shallow.
 10. **Cite every opened source that materially shaped the arc-lens** in `## CIV-MEM Inputs`. Do not cite paths that were not opened unless clearly marked as pointers for later.
-11. **Preserve the membrane.** If graph retrieval reveals a durable new lane insight, stage it only as a candidate in `<lane>/updates/pending.md`. Do not directly rewrite transaction files, CIV-MEM, PH-CIV, Record surfaces, or current state carrier files unless the operator separately requests that work.
+11. **Preserve the membrane.** If graph retrieval reveals a durable new lane insight, stage it only as a candidate in `<lane>/updates/pending.md`. Do not directly rewrite note files, CIV-MEM, PH-CIV, Record surfaces, or current state carrier files unless the operator separately requests that work.
 
 ### Evidence-Spine Rule
 
@@ -205,7 +205,7 @@ Every civilization arc-lens backfill should include:
 
 - `Purpose`
 - `Civilizational Function`
-- an arc-bearing continuity or pattern section when useful, naming origin, continuity, transformation, current carrier, failure mode, and transaction use;
+- an arc-bearing continuity or pattern section when useful, naming origin, continuity, transformation, current carrier, failure mode, and instrument use;
 - `Statecraft Signals`
 - one lens-specific boundary section when needed, such as `Sacred Boundary` for `god.md`;
 - `Failure Mode`
@@ -216,8 +216,8 @@ Every civilization arc-lens backfill should include:
 
 Every major arc-lens must make four claims explicit:
 
-1. **Lens side:** what the object detects in a present crisis, transaction, clause, or policy question.
-2. **Arc side:** origin, continuity, transformation, current carrier, failure mode, and transaction use.
+1. **Lens side:** what the object detects in a present crisis, instrument, clause, or policy question.
+2. **Arc side:** origin, continuity, transformation, current carrier, failure mode, and instrument use.
 3. **Orthogonality side:** what the object must not steal from neighboring objects once the governing six-part layer has already been identified:
    - `god.md` owns sacred boundary and forbidden bargain;
    - `lit.md` owns narrative, moral language, witness, dissent, and memory;
@@ -225,7 +225,7 @@ Every major arc-lens must make four claims explicit:
    - `geo.md` owns terrain, ecology, routes, resource constraints, climate stress, food/water/energy base, chokepoints, and settlement geography;
    - `war.md` owns coercion, sacrifice, deterrence, command, and escalation;
    - `peace.md` owns settlement, restraint, recognition, verification, and off-ramp legitimacy.
-4. **Membrane side:** when the object discovers a durable lane rule, it stages a recursive candidate in `<lane>/updates/pending.md`; it does not directly rewrite transactions, CIV-MEM, PH-CIV, Record, raw-input, or current carrier files.
+4. **Membrane side:** when the object discovers a durable lane rule, it stages a recursive candidate in `<lane>/updates/pending.md`; it does not directly rewrite notes, CIV-MEM, PH-CIV, Record, raw-input, or current carrier files.
 
 If any side is missing, mark the object `Provisional` or revise before finishing. An arc-lens should answer both "what does this help us see now?" and "what civilizational development gives that reading authority?"
 
@@ -248,7 +248,7 @@ Do not finish a backfill if any of these are true:
 - `## CIV-MEM Inputs` contains sources not opened or not used;
 - all sources point in one direction and no counterweight source was checked;
 - `MEM CONNECTIONS` were ignored on a major object backfill;
-- the file names themes but does not convert them into transaction constraints;
+- the file names themes but does not convert them into instrument constraints;
 - the arc-lens cannot answer what would make a bargain forbidden, humiliating, disorder-producing, coercive, unserious, or illegitimate.
 
 ## Book Apparatus and Bibliography Generation
@@ -442,7 +442,7 @@ where `<lens>` is `god`, `lit`, `art`, `geo`, `war`, or `peace`.
 
 ## Transaction Test
 
-Every state-memory object and civilization arc-lens should make transactions more usable. Include questions that test:
+Every state-memory object and civilization arc-lens should make instrument notes more usable. Include questions that test:
 
 - whether the clause preserves the durable state interest;
 - which current carrier must authorize, implement, sell, or restrain it;
