@@ -2,15 +2,15 @@ WORK only; not Record.
 
 # Pape Logistics Chain — Marine Threshold to Shortage Stage — April 2026
 
-**Parent month:** [2026-04.md](statecraft/synthesis/month/2026-04.md) · **Genesis hinge:** [2026-03-27](statecraft/synthesis/day/2026-03-27.md) · **April hinges:** [2026-04-17](statecraft/synthesis/day/2026-04-17.md) · [2026-04-20](statecraft/synthesis/day/2026-04-20.md) · [2026-04-22](statecraft/synthesis/day/2026-04-22.md)
+**Parent month:** [2026-04.md](month/2026-04.md) · **Genesis hinge:** [2026-03-27](day/2026-03-27.md) · **April hinges:** [2026-04-17](day/2026-04-17.md) · [2026-04-20](day/2026-04-20.md) · [2026-04-22](day/2026-04-22.md)
 
 **Sources (Pape paid-tier unless noted):**
 
-- [Marine Threshold / March 27](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-27/source-pape-the-marine-threshold-5000-marines-2026-03-27.md>)
-- [Real-time power test / April 17](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-pape-a-real-time-test-of-powerand-why-2026-04-17.md>)
-- [Collapse ahead / April 20 Redacted](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md>)
-- [Within 10 days shortages / April 22](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md>)
-- [First move tanker seizures / April 22](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-22/source-pape-the-first-move-has-begun-2026-04-22.md>)
+- [Marine Threshold / March 27](<../../source-archive/statecraft/2026-03-27/source-pape-the-marine-threshold-5000-marines-2026-03-27.md>)
+- [Real-time power test / April 17](<../../source-archive/statecraft/2026-04-17/source-pape-a-real-time-test-of-powerand-why-2026-04-17.md>)
+- [Collapse ahead / April 20 Redacted](<../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md>)
+- [Within 10 days shortages / April 22](<../../source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md>)
+- [First move tanker seizures / April 22](<../../source-archive/statecraft/2026-04-22/source-pape-the-first-move-has-begun-2026-04-22.md>)
 
 ## Purpose
 
@@ -19,7 +19,7 @@ Trace **one falsifier chain** across March ground-signaling week and April econo
 - **March 27** — observable capacity indicators (not headlines) for ground option
 - **April 17–22** — global shortage stages, ahead-of-schedule confirmation, seizure escalation ladder
 
-Goal: connect [Marine Threshold](statecraft/synthesis/day/2026-03-27.md) **implementation watch-list** to April **trap economic leg** without collapsing into transcript recap.
+Goal: connect [Marine Threshold](day/2026-03-27.md) **implementation watch-list** to April **trap economic leg** without collapsing into transcript recap.
 
 ## Chain map
 
@@ -101,5 +101,5 @@ April 22 answer: **theory + next coercion rung** — physical shortage plus seiz
 ## Best Next Uses
 
 - **May back-read:** May command unreliability includes Pape contraction window (May 15 vs July 1) — cite this chain, not isolated gloom quotes.
-- **Johnson latch:** [2026-04-22](statecraft/synthesis/day/2026-04-22.md) ball of confusion while Pape stage-two lands — political feedback without plan.
+- **Johnson latch:** [2026-04-22](day/2026-04-22.md) ball of confusion while Pape stage-two lands — political feedback without plan.
 - **Attribution:** Pape = paid-tier Escalation Trap; verify DOD/wire if promoting capacity indicators from March 27 to policy tier.

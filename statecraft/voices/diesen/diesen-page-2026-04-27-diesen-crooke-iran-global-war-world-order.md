@@ -61,7 +61,6 @@ This lane is host labor: question order and Diesen-owned frames (prison break, a
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../../years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `thread:diesen`, 2026-04-27)
+- **Full verbatim (capture):** [provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
 - **`thread:diesen`** **×** **`thread:crooke`** · **Guest-lane (same air):** [../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md · **verify:** pin **Greater** **Eurasia** `watch?v=` when known
 - **Canonical primary:** `https://www.youtube.com/watch?v=TBD-diesen-crooke-2026-04-27` (replace TBD when pinned)

@@ -37,7 +37,7 @@ Promotion paths ([imports](../imports-and-capture.md)): receipts may inform **ev
 |-------|---------|
 | **Receipt** | Audit envelope; declares posture and declared reads/writes; **not** canonical IX/Evid facts. |
 | **Evidence stub** | Pre-canonical draft artifact (`runtime/artifacts/evidence-stubs/` conventions); still gated for merge into [`self-archive.md`](../../self-archive.md). |
-| **Candidate proposal** | Structured YAML/text destined for [`recursion-gate.md`](../../recursion-gate.md) staging â€” companion/process-approved merge applies separately. |
+| **Candidate proposal** | Structured YAML/text destined for [`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md) staging â€” companion/process-approved merge applies separately. |
 | **Canonical approval** | Companion approval via **`scripts/process_approved_candidates.py`** â€” receipts never bypass this. |
 
 ---

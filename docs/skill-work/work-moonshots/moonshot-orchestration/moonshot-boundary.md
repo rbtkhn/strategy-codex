@@ -5,7 +5,7 @@
 ## Immutable boundaries
 
 - This module **never** auto-writes to **SELF**, **removed operator-books symlink**, **SKILLS**, or **EVIDENCE**.  
-- This module **never** **merge**-authorizes; only **inbox** + **human** + [recursion-gate](../../../../recursion-gate.md) per [AGENTS.md](../../../../AGENTS.md).  
+- This module **never** **merge**-authorizes; only **inbox** + **human** + [recursion-gate](../../../../archive/grace-mar-instance/recursion-gate.md) per [AGENTS.md](../../../../AGENTS.md).  
 - **No** Merkle or cryptographic â€œproof of contributionâ€ â€” auditability is **provenance + markdown**, not hash theatrics.  
 - **No** affiliation claims with external orgs, prizes, or programs unless **evidenced** and **gated** like any other serious claim.  
 - **No** new canonical **SKILLS** ID from this PR; not **SKILL-0018** or any auto-numbered skill.

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-22
 
-**Parent daily:** [2026-06-22](statecraft/synthesis/day/2026-06-22.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-22/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-news-verify-matrix.md) · [2026-06-21 daily](statecraft/synthesis/day/2026-06-21.md) (cliff frame · wire carry **J20**) · [J18 falsifier #3](../june-18-2026-mou-falsifier-3-standoff-watch.md)
+**Parent daily:** [2026-06-22](../../synthesis/day/2026-06-22.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-22/day-index.md) · **Cross-ref:** [2026-06-20 matrix](2026-06-20-news-verify-matrix.md) · [2026-06-21 daily](../../synthesis/day/2026-06-21.md) (cliff frame · wire carry **J20**) · [J18 falsifier #3](../june-18-2026-mou-falsifier-3-standoff-watch.md)
 
 **Mode:** batch (10 ingests, MOU **round-2 / 60-day clock** seam) · **Hooks:** 18 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium · **Developing:** yes (Geneva **technical stage**; **Keane delink** fork; Hormuz **reversible partial**) · **Capture receipts:** 0/10 (matrix SSOT; optional `verify:` Ship later)
 

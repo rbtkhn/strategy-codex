@@ -22,7 +22,7 @@ Sachs is **not** a technical AI theorist; he connects AI to **imperial finance**
 
 ## War as AI testbed
 
-Sources: [2026-04-20 Napolitano](../source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md), [2026-06-01 Napolitano](../source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md), [2026-04-24 Carlson](../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md), [2025-11-01 Fidias](../source-archive/statecraft/2025-11-01/source-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
+Sources: [2026-04-20 Napolitano](../../source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md), [2026-06-01 Napolitano](../../source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md), [2026-04-24 Carlson](../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md), [2025-11-01 Fidias](../../source-archive/statecraft/2025-11-01/source-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
 
 - War **literally a video game** for people in power — test drones, targeting systems
 - **Palantir** targeted Minab schoolgirls day one — `Palantir's mistake`; **Maven stack** (Palantir-built) + Claude per wire; Sachs overspecifies vendor — verify receipt in [watch](./trend-china-ai-implementation.md#verify-receipts-2026-06-10)
@@ -39,7 +39,7 @@ Verbatim anchors:
 
 ## IDF cloud / US corporate stack
 
-[2025-10-06 Napolitano — Gaza / UN](../source-archive/statecraft/2025-10-06/source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md):
+[2025-10-06 Napolitano — Gaza / UN](../../source-archive/statecraft/2025-10-06/source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md):
 
 - **Google, Microsoft, Amazon** cloud + **Palantir** → AI and networking for **Israeli defense forces**
 - US support enables operations Sachs treats as illegal/genocidal — AI as **enabler**, not neutral tech
@@ -50,7 +50,7 @@ Verbatim anchor:
 
 ## China productive AI strand
 
-[2025-08-04 Napolitano](../source-archive/statecraft/2025-08-04/source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md):
+[2025-08-04 Napolitano](../../source-archive/statecraft/2025-08-04/source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md):
 
 - China: **5G, open-source AI, fourth-gen nuclear**, factory tours — **AI + robotics in solar module factories**
 - US: no industrial policy; tariffs instead of competing; attacks universities/research
@@ -68,9 +68,9 @@ Cross-link: [pape-on-china-ai.md](./pape-on-china-ai.md), [gulf-ai-architecture.
 
 | Thread | Source | Note |
 |--------|--------|------|
-| AI as **latest hype trope** vs China superpower | [2025-02-04 Diesen](../source-archive/statecraft/2025-02-04/source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md) | Macro; not AI spine |
-| **AI czar** / White House digital policy | [2026-03-16 Diesen](../source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md) | Nuclear escalation context |
-| Minab + **Lugansk** AI schools | [2026-05-31 Diesen](../source-archive/statecraft/2026-05-31/source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md) | Overlaps Ritter/Weichert |
+| AI as **latest hype trope** vs China superpower | [2025-02-04 Diesen](../../source-archive/statecraft/2025-02-04/source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md) | Macro; not AI spine |
+| **AI czar** / White House digital policy | [2026-03-16 Diesen](../../source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md) | Nuclear escalation context |
+| Minab + **Lugansk** AI schools | [2026-05-31 Diesen](../../source-archive/statecraft/2026-05-31/source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md) | Overlaps Ritter/Weichert |
 
 ## Tension with other speakers
 
@@ -85,11 +85,11 @@ Cross-link: [pape-on-china-ai.md](./pape-on-china-ai.md), [gulf-ai-architecture.
 
 | Date | File | Weight |
 |------|------|--------|
-| 2026-04-20 | [Is the war over?](../source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md) | **Primary** — video game / Palantir |
-| 2026-06-01 | [How the best military failed](../source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md) | SV testing / AI boom |
-| 2025-10-06 | [Trump colonizing Gaza](../source-archive/statecraft/2025-10-06/source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md) | Cloud + Palantir / IDF |
-| 2025-08-04 | [Trump's dangerous moves](../source-archive/statecraft/2025-08-04/source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md) | China factory AI |
-| 2026-04-24 | [Carlson Iran origins](../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) | Palantir Minab + Maven |
+| 2026-04-20 | [Is the war over?](../../source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md) | **Primary** — video game / Palantir |
+| 2026-06-01 | [How the best military failed](../../source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md) | SV testing / AI boom |
+| 2025-10-06 | [Trump colonizing Gaza](../../source-archive/statecraft/2025-10-06/source-judging-freedom-sachs-trump-colonizing-gaza-2025-10-06.md) | Cloud + Palantir / IDF |
+| 2025-08-04 | [Trump's dangerous moves](../../source-archive/statecraft/2025-08-04/source-judging-freedom-sachs-trumps-dangerous-moves-2025-08-04.md) | China factory AI |
+| 2026-04-24 | [Carlson Iran origins](../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) | Palantir Minab + Maven |
 
 ## Best use
 

@@ -23,8 +23,7 @@ Host lane owns **paired-thread** hygiene (`thread:diesen` × `thread:ritter`) an
 
 ### Appendix
 
-- **Full verbatim (capture SSOT):** [provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../years/2026/provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `diesen` + `Ritter` + 2026-04-17)
+- **Full verbatim (capture SSOT):** [provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 - **`thread:diesen` × `thread:ritter` ·** Guest: [../../ritter/ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../ritter/ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md · **verify:** `pub_date:2026-04-17` + pin `watch?v=`
 - **Canonical primary:** `https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04`
 - **Skill pattern:** [strategy-notebook-lane-split](../../../../../.cursor/skills/strategy-notebook-lane-split/SKILL.md

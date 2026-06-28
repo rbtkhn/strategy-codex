@@ -9,15 +9,15 @@
 
 This file defines how LEARN MODE operates inside the **work-strategy** surface, bridging the canonical CMC minds from **civ-mem** with the specialized geopolitics and history focus of [`STRATEGY.md`](STRATEGY.md) (operator shorthand: **STRATEGY**).
 
-LEARN MODE is an **explicit deep-analysis mode**. It does **not** replace the normal **notebook-first** strategy pass; that default path remains [STRATEGY-NOTEBOOK-ARCHITECTURE.md — Default operating path](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot) plus [DEFAULT-PATH.md](DEFAULT-PATH.md).
+LEARN MODE is an **explicit deep-analysis mode**. It does **not** replace the normal **notebook-first** strategy pass; that default path remains [STRATEGY-NOTEBOOK-ARCHITECTURE.md — Default operating path](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot) plus [DEFAULT-PATH.md](DEFAULT-PATH.md).
 
 ## Canonical mind references
 
-All LEARN MODE sessions **must** reference the three primary CMC analytical lenses (upstream templates live in **civilization_memory** for optional diff). In this repo, **long-form fingerprints (SSOT)** live in the strategy-expert **`-mind.md`** files; [`strategy-notebook/minds/CIV-MIND-*.md`](strategy-notebook/minds/) are **stable redirect paths** to the same bodies.
+All LEARN MODE sessions **must** reference the three primary CMC analytical lenses (upstream templates live in **civilization_memory** for optional diff). In this repo, **long-form fingerprints (SSOT)** live in the strategy-expert **`-mind.md`** files; [`../../codex/minds/CIV-MIND-*.md`](../../../codex/minds) are **stable redirect paths** to the same bodies.
 
-- **[`strategy-expert-mercouris-mind.md`](strategy-notebook/strategy-expert-mercouris-mind.md)** — Legitimacy, narrative grammar, recursive civilizational self-conception, doctrine evolution, and symbolic continuity.
-- **[`strategy-expert-mearsheimer-mind.md`](strategy-notebook/strategy-expert-mearsheimer-mind.md)** — Power distribution, security dilemmas, offensive/defensive realism, alliance dynamics, and great-power competition geometry.
-- **[`strategy-expert-barnes-mind.md`](strategy-notebook/strategy-expert-barnes-mind.md)** — Material foundations, liability chains, extraction/defection logic, fiscal and resource constraints, and structural economic realities.
+- **[`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md)** — Legitimacy, narrative grammar, recursive civilizational self-conception, doctrine evolution, and symbolic continuity.
+- **[`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md)** — Power distribution, security dilemmas, offensive/defensive realism, alliance dynamics, and great-power competition geometry.
+- **[`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md)** — Material foundations, liability chains, extraction/defection logic, fiscal and resource constraints, and structural economic realities.
 
 These three minds formed the **Tri-Frame Synthesis** (legacy). **Deprecated** as mandatory choreography — apply **one** mind at a time or use [**periodic-statecraft-review** runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md) / **`state-synthesis`** unless explicitly running archive LEARN MODE.
 

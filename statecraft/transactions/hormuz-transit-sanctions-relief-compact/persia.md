@@ -15,9 +15,9 @@ Compact-facing lane summary only. Canonical clause authority remains [Hormuz rec
 ## Source Inputs
 
 - Full Persia-lane seed: [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
-- Speaker-state inputs: [Pape](../../../../speakers/pape/) for fourth-center leverage and shortage clocks; [Parsi](../../../../speakers/parsi/) / [Marandi](../../../../speakers/marandi/) for Iranian bargaining logic; [Crooke](../../../speakers/crooke/README.md) for Western misreading; [Ritter](../../../../speakers/ritter/) for regime-change skepticism and military risk.
+- Speaker-state inputs: [Pape](../../voices/pape/) for fourth-center leverage and shortage clocks; [Parsi](../../voices/parsi/) / [Marandi](../../voices/marandi/) for Iranian bargaining logic; [Crooke](../../../README.md) for Western misreading; [Ritter](../../voices/ritter/) for regime-change skepticism and military risk.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Pape 2026-04-16](../../../../years/2026/provenance/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md); [Pape 2026-05-18](../../../../years/2026/provenance/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi 2026-05-01](../../../../years/2026/provenance/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md); [Parsi 2026-05-03](../../../../years/2026/provenance/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
+- Raw-input / provenance anchors: [Pape 2026-04-16](../../../source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md); [Pape 2026-05-18](../../../source-archive/statecraft/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi 2026-05-01](../../../source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md); [Parsi 2026-05-03](../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
 
 ## Civilization / Empire Helix Input
 

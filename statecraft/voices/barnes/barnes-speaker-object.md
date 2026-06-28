@@ -36,7 +36,7 @@ Barnes should currently be read as a **cross-host reinforced speaker object whos
 That means:
 
 - the object is stronger than a one-off guest shelf because it has real recurring reuse
-- the [Davis x Barnes speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-davis-host.md) is the clearest stable host-local form on disk
+- the [Davis x Barnes speaker arc](../../notes/arc-barnes-davis-host.md) is the clearest stable host-local form on disk
 - other Barnes appearances reinforce the object and widen its usefulness
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure outside Davis
 
@@ -46,27 +46,27 @@ So Barnes is not best read as a failed helix. He is best read as a speaker objec
 
 The clearest reinforcement beyond Davis is:
 
-- [2026-04-23 Mercouris x Barnes](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [2026-04-23 Mercouris x Barnes](../../../source-archive/statecraft/2026-04-23/day-index.md)
 
 There is also meaningful work-politics adjacency:
 
-- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)
+- [2026-04-17 Barnes x Johnson verbatim](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)
 
-See [barnes-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-cross-host-note.md).
+See [barnes-cross-host-note.md](barnes-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest single host-local entry:
 
-- open [arc-barnes-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-davis-host.md)
+- open [arc-barnes-davis-host.md](../../notes/arc-barnes-davis-host.md)
 
 If the operator needs the strongest non-Davis reinforcement:
 
-- open [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- open [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/day-index.md)
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [barnes-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-cross-host-note.md)
+- stay here, then read [barnes-cross-host-note.md](barnes-cross-host-note.md)
 
 ## Routing use
 

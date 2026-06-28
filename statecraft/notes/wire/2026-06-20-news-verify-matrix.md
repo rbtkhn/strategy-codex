@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-20
 
-**Parent daily:** [2026-06-20](statecraft/synthesis/day/2026-06-20.md) · **Archive:** [2026-06-20 day-index](../../source-archive/statecraft/2026-06-20/day-index.md) · **Cross-ref:** [2026-06-19 daily](statecraft/synthesis/day/2026-06-19.md) · [2026-06-19 matrix](statecraft/notes/wire/2026-06-19-news-verify-matrix.md) · **Prior Hormuz dual grammar:** [J19-8](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#shared-seam-anchors-j19-1--j19-15)
+**Parent daily:** [2026-06-20](../../synthesis/day/2026-06-20.md) · **Archive:** [2026-06-20 day-index](../../../source-archive/statecraft/2026-06-20/day-index.md) · **Cross-ref:** [2026-06-19 daily](../../synthesis/day/2026-06-19.md) · [2026-06-19 matrix](2026-06-19-news-verify-matrix.md) · **Prior Hormuz dual grammar:** [J19-8](2026-06-19-news-verify-matrix.md#shared-seam-anchors-j19-1--j19-15)
 
 **Mode:** batch (6 ingests, MOU **Art. 1 / Hormuz dial** seam) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (Hormuz **declaration vs transit**; Lebanon **halt directive vs strikes**; Switzerland **conditional travel**)
 

@@ -38,14 +38,14 @@ Reason:
    Working title: `The US and Iran are on the verge of a deal, and the warmongers hate it`
    Status: `missing`
    Why it matters: this would fill the current authored late-May architecture / settlement bridge between the blockade-collapse opening and the final live-deal interview pressure.
-   Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md) and [arc-may-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-may-2026-cross-context-parsi-host.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
+   Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](../voices/parsi/parsi-forecast-ledger-2025-2026.md) and [arc-may-2026-cross-context-parsi-host.md](../../arc-may-2026-cross-context-parsi-host.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
 
 2. `2026-05-06`
    Host/source family: `Duran / Mercouris`
    Likely canonical archive filename: `source-duran-mercouris-trita-parsi-*`
    Working title discovered in hunt: `US Superpower Myth Shattered w/ Trita Parsi`
    Status: `already represented`
-   Why it matters: the date, host family, and subject line resolve cleanly into the already-landed [2026-05-06 Duran / Mercouris blockade file](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md).
+   Why it matters: the date, host family, and subject line resolve cleanly into the already-landed [2026-05-06 Duran / Mercouris blockade file](../../source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md).
    Shelf consequence: the early-May interview flank no longer needs to be carried as a live ambiguity object.
 
 ### Explicit exclusions
@@ -82,7 +82,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
    Working title discovered in hunt: `Trump Is Checkmate in Iran`
    Status: `missing`
    Why it matters: if real and transcript-grade, this would directly break the current seven-anchor completeness claim and strengthen the auxiliary Napolitano branch inside the month.
-   Shelf consequence if landed: repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md), extend [legacy Wilkerson source index](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-source-index.md), and revisit the month's host-balance reading.
+   Shelf consequence if landed: repair [wilkerson-may-2026-note.md](../voices/wilkerson/wilkerson-may-2026-note.md), extend [legacy Wilkerson source index](../voices/wilkerson/wilkerson-source-index.md), and revisit the month's host-balance reading.
 
 2. `2026-05-21`
    Host/source family: `Judging Freedom / Napolitano`
@@ -106,7 +106,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
    Likely canonical archive filename: `source-glenn-diesen-lawrence-wilkerson-*`
    Working title discovered in hunt: `Lawrence Wilkerson on Trump's China Peace`
    Status: `ambiguous`
-   Why it matters: this may resolve into the already-landed [2026-05-26 Diesen file](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md), but it should be checked before the shelf reasserts completeness.
+   Why it matters: this may resolve into the already-landed [2026-05-26 Diesen file](../../source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md), but it should be checked before the shelf reasserts completeness.
    Shelf consequence if landed as distinct: the May month note must stop calling itself a simple seven-anchor month.
    Shelf consequence if resolved as duplicate: the live contradiction remains focused on the two Napolitano candidates.
 
@@ -122,9 +122,9 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 ### If Parsi lands new May material
 
-- update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-forecast-ledger-2025-2026.md) for authored additions
-- update [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md) for any distinct host-owned appearance
-- update [arc-may-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-may-2026-cross-context-parsi-host.md) so May no longer reads as an artificially thin bridge month
+- update [parsi-forecast-ledger-2025-2026.md](../voices/parsi/parsi-forecast-ledger-2025-2026.md) for authored additions
+- update [parsi-interview-appearances-2025-2026.md](../voices/parsi/parsi-interview-appearances-2025-2026.md) for any distinct host-owned appearance
+- update [arc-may-2026-cross-context-parsi-host.md](../../arc-may-2026-cross-context-parsi-host.md) so May no longer reads as an artificially thin bridge month
 
 ### If Parsi lands nothing new
 
@@ -133,8 +133,8 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 ### If Wilkerson lands any new May material
 
-- repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md)
-- repair [legacy Wilkerson source index](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-source-index.md)
+- repair [wilkerson-may-2026-note.md](../voices/wilkerson/wilkerson-may-2026-note.md)
+- repair [legacy Wilkerson source index](../voices/wilkerson/wilkerson-source-index.md)
 - re-evaluate whether May's host-balance story still reads as `double helix plus one auxiliary branch` or whether the auxiliary branch has become denser inside that month than the current note admits
 
 ### If Wilkerson lands nothing new

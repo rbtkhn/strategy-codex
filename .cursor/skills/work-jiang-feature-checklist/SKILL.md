@@ -19,7 +19,7 @@ Operator- and agent-facing checklist so multi-step Jiang work stays reviewable a
 
 Boundary note: if the requested outcome is new or regenerated Predictive History corpus/manuscript content, stop and move that work to the external canonical repo instead of continuing inside `strategy-codex`.
 
-0. **Large handoff / artifact** — Consider compressing into `codex/predictive-history/compressions/` with `python3 scripts/jiang-compress.py -u <fork-id>` ([COMPRESSION-ENGINE.md](../../codex/predictive-history/COMPRESSION-ENGINE.md)); optional gate stub only if Record merge is intended.
+0. **Large handoff / artifact** — Consider compressing into `codex/predictive-history/compressions/` with `python3 scripts/jiang-compress.py -u <fork-id>` ([COMPRESSION-ENGINE.md](../../../codex/predictive-history/COMPRESSION-ENGINE.md)); optional gate stub only if Record merge is intended.
 1. **Branch and tree** — Prefer a dedicated branch. Glance at `git status`: unrelated untracked paths (`claims/`, `evidence-packs/`, etc.) make review harder; stash, commit, exclude locally, or isolate before stacking new changes.
 2. **Scope** — Confirm lane: **Geo-Strategy** (`lectures/geo-strategy-*.md`, not other lecture lanes unless the task says so). If the thread also touches Record/pipeline/Voice, run harness warmup per repo rules and paste output once.
 3. **Plan alignment** — If work maps to phased PRs (quotes → counter-readings → chronology → validator/CI), name commits or branches to those phases so bisect stays cheap.
@@ -76,7 +76,7 @@ True blind simulation: `python3 scripts/work_jiang/forward_chain_blind_bundle.py
 
 ## After implementation
 
-If the task changed boundary doctrine or local freeze messaging, update [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md) before treating the local PH README files as navigation follow-ons.
+If the task changed boundary doctrine or local freeze messaging, update [docs/predictive-history-external-boundary.md](../../../docs/predictive-history-external-boundary.md) before treating the local PH README files as navigation follow-ons.
 
 1. **Diff surface** — `git diff --stat` (or a short file list) before commit; keep unrelated files out of the same commit when possible.
 2. **Docs** — If production path changed, update `codex/predictive-history/README.md`; optional cross-links in `codex/predictive-history/README-operator.md` for operator navigation.
@@ -96,7 +96,7 @@ If the task changed boundary doctrine or local freeze messaging, update [docs/pr
 
 ## Related
 
-- [COMPRESSION-ENGINE.md](../../codex/predictive-history/COMPRESSION-ENGINE.md) — Jiang Compression Engine v1 (`scripts/jiang-compress.py`)
+- [COMPRESSION-ENGINE.md](../../../codex/predictive-history/COMPRESSION-ENGINE.md) — Jiang Compression Engine v1 (`scripts/jiang-compress.py`)
 - `codex/predictive-history/README.md` — § Boundaries (membrane); production pipeline; comparative layer
 - `docs/audit-boundary-grace-mar-companion-self.md` — grace-mar · companion-self (instance-wide; not Jiang data rules)
 - `scripts/work_jiang/validate_comparative_layer.py` — Gates for high-priority analysis chapters and chronology

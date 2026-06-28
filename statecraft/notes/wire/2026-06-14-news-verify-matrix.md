@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-14
 
-**Parent daily:** [2026-06-14](statecraft/synthesis/day/2026-06-14.md) · **Archive:** [source-archive/statecraft/2026-06-14/README.md](../../source-archive/statecraft/2026-06-14/README.md) · **Lebanon fork:** [Lebanon × Nima host arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md)
+**Parent daily:** [2026-06-14](../../synthesis/day/2026-06-14.md) · **Archive:** [source-archive/statecraft/2026-06-14/README.md](../../../source-archive/statecraft/2026-06-14/README.md) · **Lebanon fork:** [Lebanon × Nima host arc](../2026-06-14-lebanon-enforcement-nima-host-arc.md)
 
 **Mode:** batch + **pass #2** (Lebanon enforcement) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high (ops/policy) · **Developing:** yes (Sunday daytime → Sunday-night flip → **72h ops contradict halt**)
 
@@ -44,7 +44,7 @@ WORK only; not Record.
 | **Declarative halt** | J14-5 · J14-9 · J14-13 | **Supported** |
 | **Israeli policy rejection** | J14-14 | **Supported** — contradicts halt |
 | **IDF ops (72h)** | J14-15 · J14-16 | **Contradicted / absent** vs “immediate permanent” |
-| **Pseudo-gate carry** | [J12-6 FAIL](statecraft/notes/watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) | **Extends** — method: [host arc note](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md) |
+| **Pseudo-gate carry** | [J12-6 FAIL](../watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) | **Extends** — method: [host arc note](../2026-06-14-lebanon-enforcement-nima-host-arc.md) |
 
 ## CIV-STATE mesh (dominant hook)
 
@@ -52,7 +52,7 @@ WORK only; not Record.
 
 **Persia:** daytime **no Sunday signature**; evening SNSC **halt tonight** (J14-9 · J14-13); Mehr draft **≠ final MOU**; **fa SNSC primary still escalate**.
 
-**Lebanon enforcement:** declarative halt **supported** · Katz/Gvir rejection **supported** (J14-14) · IDF ops **contradict** 72h halt (J14-16) — **pseudo-gate hardened** ([J12-6 carry](statecraft/notes/watch/2026-06-12-72h-watch-run.md)).
+**Lebanon enforcement:** declarative halt **supported** · Katz/Gvir rejection **supported** (J14-14) · IDF ops **contradict** 72h halt (J14-16) — **pseudo-gate hardened** ([J12-6 carry](../watch/2026-06-12-72h-watch-run.md)).
 
 **PRC:** Jun 15 Xinhua/China Daily mesh-reports breakthrough; no Jun 14-specific MFA MOU line.
 
@@ -62,4 +62,4 @@ WORK only; not Record.
 
 ## Escalate
 
-Primary NYT pull on withheld strikes; released signed MOU text; **pass #3:** **fa** SNSC verbatim (upgrade J14-13) · IDF **official spokesperson** on Lebanon clause (upgrade J14-15) · UNIFIL/LAF vs Nabatieh advance · NBC dateline hygiene · hourly ops log Jun 15–18. Analysis: [Lebanon × Nima host arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md).
+Primary NYT pull on withheld strikes; released signed MOU text; **pass #3:** **fa** SNSC verbatim (upgrade J14-13) · IDF **official spokesperson** on Lebanon clause (upgrade J14-15) · UNIFIL/LAF vs Nabatieh advance · NBC dateline hygiene · hourly ops log Jun 15–18. Analysis: [Lebanon × Nima host arc](../2026-06-14-lebanon-enforcement-nima-host-arc.md).

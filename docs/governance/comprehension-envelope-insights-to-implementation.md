@@ -90,7 +90,7 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 | Area | Files |
 |------|--------|
 | Doctrine | This file; [comprehension-envelope-gate.md](comprehension-envelope-gate.md) (vocabulary + mapping); link from [recursion-gate-three-tier.md](../recursion-gate-three-tier.md) |
-| Template | [platform/template/recursion-gate.md](../../platform/template/recursion-gate.md); optional instance README under `` |
+| Template | [platform/template/recursion-gate.md](../../archive/grace-mar-instance/recursion-gate.md); optional instance README under `` |
 | Validation | [validate_gate_comprehension_envelope.py](../../scripts/validate_gate_comprehension_envelope.py) (presence for `envelope_class: required`; `--strict` optional) |
 | UI | [platform/apps/gate-review-app.py](../../platform/apps/gate-review-app.py) (follow-on PR) |
 | Schema | [schemas/registry/change-proposal.v1.json](../../schemas/registry/change-proposal.v1.json) (defer) |
@@ -117,7 +117,7 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 
 ### PR2 — Template: stub + `platform/template` + guidance
 
-- **Purpose:** Add Comprehension Envelope stub and `envelope_class` guidance to [platform/template/recursion-gate.md](../../platform/template/recursion-gate.md) and short operator blurb in docs.
+- **Purpose:** Add Comprehension Envelope stub and `envelope_class` guidance to [platform/template/recursion-gate.md](../../archive/grace-mar-instance/recursion-gate.md) and short operator blurb in docs.
 - **Why second:** New instances get correct shape.
 - **Capability:** Copy-paste correctness.
 - **Acceptance:** Template renders; examples for `none` vs `required` classes.

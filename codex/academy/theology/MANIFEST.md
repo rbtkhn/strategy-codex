@@ -65,9 +65,9 @@ These files originate in academy theology. They are active-use WORK surfaces, no
 
 ## Source Pointers Not Copied
 
-- [BOOK.md](../../../../docs/civilization-memory/book/BOOK.md)
-- [APPLIED-THEOLOGY.md](../../../../docs/civilization-memory/book/APPLIED-THEOLOGY.md)
-- [beauty-and-the-blade-manuscript.md](../../../../docs/civilization-memory/book/beauty-and-the-blade-manuscript.md)
+- [BOOK.md](../../../docs/civilization-memory/book/BOOK.md)
+- [APPLIED-THEOLOGY.md](../../../docs/civilization-memory/book/APPLIED-THEOLOGY.md)
+- [beauty-and-the-blade-manuscript.md](../../../docs/civilization-memory/book/beauty-and-the-blade-manuscript.md)
 
 ## Review Rule
 

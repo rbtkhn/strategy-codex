@@ -14,12 +14,12 @@ Quick separation rule:
 
 If a question is about industrial/logistics routing or canonical shelf structure, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Berletic structure now lives in [berletic-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-speaker-object.md), [berletic-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-cross-host-note.md), and the mature [arc-berletic-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-berletic-diesen-host.md). Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Berletic structure now lives in [berletic-speaker-object.md](berletic-speaker-object.md), [berletic-cross-host-note.md](berletic-cross-host-note.md), and the mature [arc-berletic-diesen-host.md](../../notes/arc-berletic-diesen-host.md). Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`strategy-expert-berletic-transcript.md`](strategy-expert-berletic-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`strategy-expert-berletic-transcript.md`](berletic-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-berletic.md`](strategy-expert-berletic.md) (profile) and [`strategy-expert-berletic-transcript.md`](strategy-expert-berletic-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-berletic.md`](berletic-profile.md) (profile) and [`strategy-expert-berletic-transcript.md`](berletic-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)

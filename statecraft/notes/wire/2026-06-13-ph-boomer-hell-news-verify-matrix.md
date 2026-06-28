@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — PH *Boomer Hell* (2026-06-13)
 
-**Parent daily:** [2026-06-13](statecraft/synthesis/day/2026-06-13.md) · **Archive:** [source-predictive-history-welcome-to-boomer-hell-2026-06-13.md](../../source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md) · **Cross-day use:** [Jun 14 § Boomer Hell overlay](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
+**Parent daily:** [2026-06-13](../../synthesis/day/2026-06-13.md) · **Archive:** [source-predictive-history-welcome-to-boomer-hell-2026-06-13.md](../../../source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md) · **Cross-day use:** [Jun 14 § Boomer Hell overlay](../../synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
 
 **Mode:** sub-hook batch · **Pass #3 (energy + May 23)** · **Hooks:** 13 (J13-PH-1–11 · J23-PH-1–4) · **CIV-STATE sweep:** 4/5 spoke · **Confidence:** medium-high (America financial/energy); medium (CZ causality · SPR wording)
 
@@ -31,7 +31,7 @@ WORK only; not Record.
 
 ## May 23 essay hooks (J23-PH-1 – J23-PH-4)
 
-**Archive:** [Mad King Trump (2026-05-23)](../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md)
+**Archive:** [Mad King Trump (2026-05-23)](../../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md)
 
 | ID | PH claim | Verdict | Cite |
 | --- | --- | --- | --- |
@@ -75,8 +75,8 @@ WORK only; not Record.
 
 **America overlay:** Massie generational fracture **usable** for legitimacy read; **do not** quote PH “every demographic except Boomers” without **J13-PH-1 partial** fence.
 
-**Russia/PRC overlay:** Longevity **state-program + hot-mic** rows **supported** at wire tier; **do not** merge into Iran/Lebanon MOU judgment ([Jun 14 dominant object](statecraft/synthesis/day/2026-06-14.md#executive-read)).
+**Russia/PRC overlay:** Longevity **state-program + hot-mic** rows **supported** at wire tier; **do not** merge into Iran/Lebanon MOU judgment ([Jun 14 dominant object](../../synthesis/day/2026-06-14.md#executive-read)).
 
-**Cross-essay:** [Mad King × Boomer Hell](statecraft/notes/2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md) — Massie block = **one receipt**; May = purge mechanism, Jun = generational structure.
+**Cross-essay:** [Mad King × Boomer Hell](../2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md) — Massie block = **one receipt**; May = purge mechanism, Jun = generational structure.
 
 **Markets-vs-physics:** **J13-PH-10 supported** + **J13-PH-11 contradicted/partial** — usable as **delusion overlay** (cheap oil despite stress), not SPR depletion clock.

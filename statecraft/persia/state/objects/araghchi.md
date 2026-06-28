@@ -62,12 +62,12 @@ When a new Araghchi hit appears, classify it before using it:
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Ritter / Iran agreement and grand bargain:** [2026-05-06 Davis / Ritter](../../../../../years/2026/provenance/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
-- **Ritter / sanctions and eastern pivot:** [2026-05-06 Alkorshid / Ritter](../../../../../years/2026/provenance/2026-05-06/source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md)
-- **Parsi / blockade and bargaining pressure:** [2026-05-01 Substack](../../../../../years/2026/provenance/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
-- **Parsi / regional architecture proposal:** [2026-05-03 Substack](../../../../../years/2026/provenance/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
-- **Mercouris / Russia-China-Iran channel:** [2026-04-15 Mercouris](../../../../../years/2026/provenance/2026-04-15/source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md)
-- **Mercouris / Araghchi to Moscow:** [2026-04-25 Mercouris](../../../../../years/2026/provenance/2026-04-25/source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-Araghchi-to-moscow-won-t-talk-2026-04-25.md)
+- **Ritter / Iran agreement and grand bargain:** [2026-05-06 Davis / Ritter](../../../../source-archive/statecraft/2026-05-06/source-daniel-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md)
+- **Ritter / sanctions and eastern pivot:** [2026-05-06 Alkorshid / Ritter](../../../../source-archive/statecraft/2026-05-06/source-dialogue-works-ritter-operation-freedom-hormuz-iran-2026-05-06.md)
+- **Parsi / blockade and bargaining pressure:** [2026-05-01 Substack](../../../../source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
+- **Parsi / regional architecture proposal:** [2026-05-03 Substack](../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
+- **Mercouris / Russia-China-Iran channel:** [2026-04-15 Mercouris](../../../../source-archive/statecraft/2026-04-15/source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md)
+- **Mercouris / Araghchi to Moscow:** [2026-04-25 Mercouris](../../../../source-archive/statecraft/2026-04-25/day-index.md)
 
 ## Statecraft Uses
 

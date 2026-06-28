@@ -52,7 +52,7 @@ Do **not** use this page as a substitute for source objects or transaction desig
 ## See also
 
 - [{Term}](sibling.md)
-- [Theory shelf](README.md)
+- [Theory shelf](../../../README.md)
 
 ## Bottom line
 

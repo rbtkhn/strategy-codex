@@ -18,7 +18,7 @@
 
 3. **Design intent:** The demo exercises **notebook-first** judgment, **strategy + verify** on at least one load-bearing claim, **compression** across three sources without triple recap, and an **explicit tri-frame** (Mercouris → Mearsheimer → Barnes) aligned with [Recipe C](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md) — satisfying [granular minds](../../../../.cursor/rules/strategy-minds-granular.mdc) by requiring an explicit **“Tri-frame, strict”** (or LEARN MODE) trigger.
 
-4. **Live calibration results:** **Recorded** under **`### DEMO — skill-strategy calibration (2026-04-10 session)`** in [`chapters/2026-04/days.md`](chapters/2026-04/days.md) (Phases 1–5: preflight note, Mearsheimer-only pass, `strategy + verify` with web links, three-transcript synthesis, strict tri-frame, boundary notes). Rubric-style pass/fail scores can still be copied from the **results log template** in the demo doc if you want a separate scored sheet.
+4. **Live calibration results:** **Recorded** under **`### DEMO — skill-strategy calibration (2026-04-10 session)`** in [`chapters/2026-04/days.md`](../chapters/2026/2026-04/days.md) (Phases 1–5: preflight note, Mearsheimer-only pass, `strategy + verify` with web links, three-transcript synthesis, strict tri-frame, boundary notes). Rubric-style pass/fail scores can still be copied from the **results log template** in the demo doc if you want a separate scored sheet.
 
 5. **Recommendation:** For the next full calibration, archive a **filled results log** next to this file (e.g. `demo-runs/skill-strategy-results-YYYY-MM-DD.md`) if you need a standalone audit artifact; the notebook block in `days.md` already serves as the **primary run log** for 2026-04-10.
 
@@ -80,7 +80,7 @@ When the operator finishes Phases 1–5 and fills the rubric, the **demonstrated
 
 1. Run `bash scripts/demo_skill_strategy_transcripts_check.sh` from repo root before each session.
 2. Execute Phases 0–5 per the demo doc; paste prompts in Cursor as written.
-3. Save the **results log template** output to a dated file under `strategy-notebook/demo-runs/` (optional folder) or append scored subsections to [`chapters/2026-04/days.md`](chapters/2026-04/days.md).
+3. Save the **results log template** output to a dated file under `strategy-notebook/demo-runs/` (optional folder) or append scored subsections to [`chapters/2026-04/days.md`](../chapters/2026/2026-04/days.md).
 4. Optionally append a one-line summary row to this executive report or to `work-strategy-history.md` when a **full** run completes.
 
 ---
@@ -93,7 +93,7 @@ Criteria scored Pass / Fail / Notes: notebook-primary; verify discipline; links 
 
 ## Calibration run — 2026-04-10
 
-- **Notebook log:** [`chapters/2026-04/days.md`](chapters/2026-04/days.md) — search for `DEMO — skill-strategy calibration`.
+- **Notebook log:** [`chapters/2026-04/days.md`](../chapters/2026/2026-04/days.md) — search for `DEMO — skill-strategy calibration`.
 - **Audit rubric (Pass/Fail rows):** [`demo-runs/skill-strategy-results-2026-04-10.md`](demo-runs/skill-strategy-results-2026-04-10.md)
 - **Preflight:** `scripts/demo_skill_strategy_transcripts_check.sh` — reported exit 0 in session.
 - **Phases completed:** 1 (Mearsheimer digest only) · 2 (Forties/Brent claim + web verification) · 3 (three-way synthesis + digest paths) · 4 (Mercouris → Mearsheimer → Barnes + CIV-MIND stubs) · 5 (boundary behavior).

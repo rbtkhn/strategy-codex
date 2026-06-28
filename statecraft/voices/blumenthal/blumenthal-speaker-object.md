@@ -46,10 +46,10 @@ So Blumenthal is not best read as a failed helix. He is best read as a speaker o
 
 The clearest current reinforcement beyond the primary Nemo-side transcript is:
 
-- the `marandi-blumenthal-jf-primary` weave environment in [pape-thread.md](/C:/dev/strategy-codex/statecraft/voices/pape/pape-thread.md)
-- routing references in [davis-thread.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-thread.md) where Blumenthal is explicitly treated as a distinct U.S.-domestic and media amplifier rather than a substitute for Marandi or Pape
+- the `marandi-blumenthal-jf-primary` weave environment in [pape-thread.md](../pape/pape-thread.md)
+- routing references in [davis-thread.md](../davis/davis-thread.md) where Blumenthal is explicitly treated as a distinct U.S.-domestic and media amplifier rather than a substitute for Marandi or Pape
 
-See [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-cross-host-note.md).
+See [blumenthal-cross-host-note.md](blumenthal-cross-host-note.md).
 
 ## Open first
 
@@ -59,11 +59,11 @@ If the operator needs the clearest current live anchor:
 
 If the operator needs the best current routing shelf:
 
-- open [blumenthal-thread.md](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-thread.md)
+- open [blumenthal-thread.md](blumenthal-thread.md)
 
 If the operator needs the object doctrine rather than the live transcript:
 
-- stay here, then read [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/blumenthal/blumenthal-cross-host-note.md)
+- stay here, then read [blumenthal-cross-host-note.md](blumenthal-cross-host-note.md)
 
 ## Routing use
 

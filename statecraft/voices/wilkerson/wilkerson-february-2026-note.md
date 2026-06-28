@@ -21,7 +21,7 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-02-12 - *Col. Lawrence Wilkerson: The Conflict That Could Draw Everyone In*](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-12/source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md)
+1. [2026-02-12 - *Col. Lawrence Wilkerson: The Conflict That Could Draw Everyone In*](../../../source-archive/statecraft/2026-02-12/source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md)
    Status: lone `Judging Freedom` February anchor already materialized.
 
 ## What February now proves

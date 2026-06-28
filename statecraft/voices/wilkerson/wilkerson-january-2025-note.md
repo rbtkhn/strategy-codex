@@ -19,10 +19,10 @@ The right reading is not that the live-pressure lane suddenly appears in late 20
 
 Confirmed January 2025 Dialogue Works captures featuring Wilkerson:
 
-1. [2025-01-04 - *Yemen's Hypersonic Strike Stuns Israel as Iran Regroups*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
-2. [2025-01-11 - *The US Strategy That's Failing Spectacularly*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-11/source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
-3. [2025-01-14 - *Israel Shaken: Hypersonic Strike & IDF Ambushed as Ceasefire Nears*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
-4. [2025-01-18 - *Israel is in Total Disarray*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+1. [2025-01-04 - *Yemen's Hypersonic Strike Stuns Israel as Iran Regroups*](../../../source-archive/statecraft/2025-01-04/source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
+2. [2025-01-11 - *The US Strategy That's Failing Spectacularly*](../../../source-archive/statecraft/2025-01-11/source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
+3. [2025-01-14 - *Israel Shaken: Hypersonic Strike & IDF Ambushed as Ceasefire Nears*](../../../source-archive/statecraft/2025-01-14/source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
+4. [2025-01-18 - *Israel is in Total Disarray*](../../../source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 
 ## What the month proves
 

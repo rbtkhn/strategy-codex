@@ -165,7 +165,7 @@ This program covers **one loop**: read → export → stage → human-gate merge
 
 - **Bidirectional sync** (OpenClaw writing back to companion-self without staging)
 - **Autonomous merge** (any path that bypasses companion approval)
-- **New integration targets** (e.g. OB1, Telegram bots, third-party agents) without a separate integration plan per target — see [OB1 bridge](../../platform/integrations/ob1/README.md) for the pattern
+- **New integration targets** (e.g. OB1, Telegram bots, third-party agents) without a separate integration plan per target — see [OB1 bridge](../../../README.md) for the pattern
 - **Scheduled or automated execution** (cron, GitHub Actions, webhooks) — every invocation is a conscious operator decision
 
 Adding any of these requires a new plan document with operator approval, not an incremental PR to this file.

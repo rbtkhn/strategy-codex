@@ -1,3 +1,4 @@
+from repo_io import SKILLS_DIR
 #!/usr/bin/env python3
 """Migrate codex/speakers/ into statecraft/voices/ and statecraft/channels/.
 
@@ -250,7 +251,7 @@ def rewrite_links(receipt_path: Path) -> int:
         REPO_ROOT / "scripts",
         REPO_ROOT / "tests",
         REPO_ROOT / ".cursor",
-        REPO_ROOT / "skills",
+        SKILLS_DIR,
         REPO_ROOT / "LLM-ROUTING.md",
         REPO_ROOT / "repo-map.yaml",
     ]

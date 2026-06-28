@@ -135,7 +135,7 @@ Short rule:
 
 **Tom Barrack:** Henningsen foregrounds Barrack civil-war/disarmament design; Hoh foregrounds Barrack as envoy alongside pseudo-ceasefire mechanics without Henningsen's resource depth; Pape does not foreground Barrack — stays on triad exclusion.
 
-**Section 224:** Hoh carries NDAA mesh in same capture; Henningsen and Pape stay on Lebanon/strategic trap — statecraft note pairs but does not merge mesh into their blocks (see [America captured-command statecraft note](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md)).
+**Section 224:** Hoh carries NDAA mesh in same capture; Henningsen and Pape stay on Lebanon/strategic trap — statecraft note pairs but does not merge mesh into their blocks (see [America captured-command statecraft note](2026-06-06-america-captured-command-ndaa-ci-client-veto.md)).
 
 **Next-move horizon:** Hoh and Henningsen center Lebanon gate and Iran restart; Pape explicitly forecasts **horizontal** Red Sea pressure as Iran's strongest remaining card if Beirut-only analysis misses the fuse.
 
@@ -156,14 +156,14 @@ Short rule:
 
 ## Return Paths
 
-- Parent daily: [State Synthesis - 2026-06-04](statecraft/synthesis/day/2026-06-04.md)
-- Forward proof: [Parsi × Nima × McGovern: Third-Party Deterrence](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
-- Gate mechanics: [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](statecraft/notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+- Parent daily: [State Synthesis - 2026-06-04](../synthesis/day/2026-06-04.md)
+- Forward proof: [Parsi × Nima × McGovern: Third-Party Deterrence](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
+- Gate mechanics: [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
 - Persia transaction: [Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) (Clause A)
 
 ## Source Anchors
 
-- [Hoh / Dialogue Works - 2026-06-04](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md>)
-- [Henningsen / Dialogue Works - 2026-06-04](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md>)
-- [Pape / Escalation Trap - The Lebanon Fuse - 2026-06-04](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md>)
-- June 7 event proof: [Parsi Substack (structural)](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>) · [Parsi Substack (operational)](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>) · [Nima solo](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
+- [Hoh / Dialogue Works - 2026-06-04](<../../source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md>)
+- [Henningsen / Dialogue Works - 2026-06-04](<../../source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md>)
+- [Pape / Escalation Trap - The Lebanon Fuse - 2026-06-04](<../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md>)
+- June 7 event proof: [Parsi Substack (structural)](<../../source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>) · [Parsi Substack (operational)](<../../source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>) · [Nima solo](<../../source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)

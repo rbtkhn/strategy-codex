@@ -22,4 +22,4 @@ Open Napolitano first when the dominant failure mode is:
 
 ## Compatibility Note
 
-Legacy chronology, stream books, and older guest arcs still exist under [statecraft/channels/judging-freedom/](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/), but they are no longer the live authority for host-family routing.
+Legacy chronology, stream books, and older guest arcs still exist under [statecraft/channels/judging-freedom/](.), but they are no longer the live authority for host-family routing.

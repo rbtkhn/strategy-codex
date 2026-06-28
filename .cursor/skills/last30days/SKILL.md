@@ -21,7 +21,7 @@ synced_by: sync_portable_skills.py
 
 **Status:** Deprecated. Do not use this skill for new work.
 
-**Use instead:** [`skills/runbooks/periodic-statecraft-review.runbook.md`](../runbooks/periodic-statecraft-review.runbook.md).
+**Use instead:** [`skills/runbooks/periodic-statecraft-review.runbook.md`](../../../skills/runbooks/periodic-statecraft-review.runbook.md).
 
 This file remains only for legacy trigger compatibility.
 
@@ -50,7 +50,7 @@ Grace-Mar paths and strategy-notebook routing for `last30days`.
 | MCP overview | [docs/mcp/mcp-stack-overview.md](../../../docs/mcp/mcp-stack-overview.md) |
 | Strategy notebook hub | [docs/skill-work/work-strategy/strategy-notebook/README.md](../../../docs/skill-work/work-strategy/strategy-notebook/README.md) |
 | Strategy notebook contract | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md) |
-| Strategy daily inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
+| Strategy daily inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
 | Research skill example | [docs/skills/research/last30days.md](../../../docs/skills/research/last30days.md) |
 
 ## Grace-Mar defaults

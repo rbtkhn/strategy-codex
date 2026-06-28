@@ -15,7 +15,7 @@ Quick separation rule:
 
 If a question is about authored forecast structure, host transformation, or canonical routing, route to those Ritter surfaces instead of treating this month chapter as its own strand.
 
-**Source:** Human **narrative journal** (below) + [`strategy-expert-ritter-transcript.md`](strategy-expert-ritter-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expert’s material was used).
+**Source:** Human **narrative journal** (below) + [`strategy-expert-ritter-transcript.md`](ritter-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expert’s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox → transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**.
 **Companion files:** [ritter-profile.md](../../profiles/ritter-profile.md (profile) and [ritter-transcript.md](ritter-transcript.md) (7-day verbatim).
@@ -68,7 +68,7 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 
 _Union of **on-disk** `raw-input/…` files tagged with this expert’s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-ritter-the-flamingo-effect-2026-02-22.md](provenance/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
-- [source-ritter-dead-at-27-2026-02-20.md](provenance/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
-- [source-ritter-alas-babylon-2026-02-05.md](provenance/2026-02-05/source-ritter-alas-babylon-2026-02-05.md)
+- [source-ritter-the-flamingo-effect-2026-02-22.md](../../../source-archive/statecraft/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
+- [source-ritter-dead-at-27-2026-02-20.md](../../../source-archive/statecraft/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
+- [source-ritter-alas-babylon-2026-02-05.md](../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md)
 <!-- strategy-expert-thread:end -->

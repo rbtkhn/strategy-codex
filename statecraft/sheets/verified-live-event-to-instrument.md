@@ -147,7 +147,7 @@ The ladder is reusable anywhere the system is tempted to sound persuasive before
 - Need cross-lane mechanism after ownership? open [../compact/README.md](../compact/README.md).
 - Need bundle reuse? open [transaction-router.md](transaction-router.md).
 - Need higher-order diagnosis before trusting the draft? open [../states/theory/README.md](../states/theory/README.md).
-- Need deep legitimacy first? open [../states/sacred-grammar/README.md](../states/sacred-grammar/README.md).
+- Need deep legitimacy first? open [../states/sacred-grammar/README.md](../../README.md).
 
 ## Teaching Line
 

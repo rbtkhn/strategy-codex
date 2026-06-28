@@ -24,15 +24,15 @@ Matlock should currently be read as a **single-helix speaker object with one mat
 
 The direct branch is:
 
-- [Diesen x Matlock](/C:/dev/strategy-codex/statecraft/notes/arc-matlock-diesen-host.md)
+- [Diesen x Matlock](../../notes/arc-matlock-diesen-host.md)
 
 The direct raw-input set is:
 
-- [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
-- [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
-- [2025-12-10 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-12-10/transcript-diesen-matlock-nato-expansion-coup-subversion-ukraine-started-war-2025-12-10.md)
-- [2025-06-21 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-06-21/transcript-diesen-matlock-superpower-illusions-reviving-cold-war-2025-06-21.md)
-- [2025-09-01 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
+- [2026-04-19 Diesen x Matlock](../../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- [2025-03-27 Diesen x Matlock](../../../source-archive/statecraft/2025-03-27/day-index.md)
+- [2025-12-10 Diesen x Matlock](../../../source-archive/statecraft/2025-12-10/day-index.md)
+- [2025-06-21 Diesen x Matlock](../../../source-archive/statecraft/2025-06-21/day-index.md)
+- [2025-09-01 Diesen x Matlock](../../../../../../../../codex/years/2025/provenance/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
 
 References to Matlock inside Freeman, Sachs, McGovern, Johnson, or other host files are reinforcement surfaces. They do not yet create separate Matlock host branches.
 
@@ -40,16 +40,16 @@ References to Matlock inside Freeman, Sachs, McGovern, Johnson, or other host fi
 
 If the operator needs Matlock's mature thesis:
 
-- open [Diesen x Matlock](/C:/dev/strategy-codex/statecraft/notes/arc-matlock-diesen-host.md)
+- open [Diesen x Matlock](../../notes/arc-matlock-diesen-host.md)
 
 If the operator needs one direct source:
 
-- open [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- open [2026-04-19 Diesen x Matlock](../../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
 
 If the operator needs the strongest paired read:
 
-- first [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
-- then [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
+- first [2026-04-19 Diesen x Matlock](../../../source-archive/statecraft/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- then [2025-03-27 Diesen x Matlock](../../../source-archive/statecraft/2025-03-27/day-index.md)
 
 That pair gives the clearest combination of Cold War ending mechanics, negotiation method, NATO-expansion warning, and lost settlement architecture.
 
@@ -65,11 +65,11 @@ Use this speaker object when the Codex needs to:
 
 Typical neighboring lanes:
 
-- [Diesen](/C:/dev/strategy-codex/statecraft/voices/diesen/)
-- [Parsi](/C:/dev/strategy-codex/statecraft/voices/parsi/)
-- [Freeman](/C:/dev/strategy-codex/statecraft/voices/freeman/)
-- [Mearsheimer](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/)
-- [Sachs](/C:/dev/strategy-codex/statecraft/voices/sachs/)
+- [Diesen](../diesen)
+- [Parsi](../parsi)
+- [Freeman](../freeman)
+- [Mearsheimer](../mearsheimer)
+- [Sachs](../sachs)
 
 ## Boundaries
 

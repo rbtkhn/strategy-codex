@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Davis Trust Fork × Johnson Islamabad / Larijani Doctrine — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](statecraft/notes/reentry/2026-06-week2-start-here.md) · carry [week1](statecraft/notes/reentry/2026-06-week1-start-here.md) · **Event baseline:** [2026-06-07 Parsi × Nima × McGovern](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
+**Parent queue:** [2026-06-08 Intake Readiness](intake/2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](reentry/2026-06-week2-start-here.md) · carry [week1](reentry/2026-06-week1-start-here.md) · **Event baseline:** [2026-06-07 Parsi × Nima × McGovern](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
 
 **Sources:**
 
@@ -93,6 +93,6 @@ June 8 is the day **doctrine** (Johnson/Larijani) and **process death** (Davis/N
 ## Best Next Uses
 
 - **Parent daily** `2026-06-08.md`: lead convergence on **dual deal clocks + Larijani doctrine**; cite this statecraft note for mechanism split.
-- **Cross-read:** [2026-06-07 third-party gate](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) — June 8 Larijani extends Parsi "first in decades" with **institutional voice** (Expediency Council).
-- **Cross-read:** [2026-04-20](statecraft/synthesis/day/2026-04-20.md) Islamabad derail thread — June 8 as **second sabotage proof** with doctrine receipt.
+- **Cross-read:** [2026-06-07 third-party gate](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) — June 8 Larijani extends Parsi "first in decades" with **institutional voice** (Expediency Council).
+- **Cross-read:** [2026-04-20](../synthesis/day/2026-04-20.md) Islamabad derail thread — June 8 as **second sabotage proof** with doctrine receipt.
 - **Attribution discipline:** Johnson/Pepe/Pakistani source = **single-source lane**; Davis MSN official = **single-channel**; NBC Trump quotes = primary media, not Iranian official text.

@@ -10,7 +10,7 @@
 | Strategy + verify gate | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
 | Statecraft intake | [.cursor/skills/statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Daily brief verify tokens | [docs/skill-work/work-strategy/daily-brief-template.md](../../../docs/skill-work/work-strategy/daily-brief-template.md) § Inbox paste target |
-| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
+| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
 | Notebook verify discipline | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md) |
 | Statecraft archive | [source-archive/statecraft/](../../../source-archive/statecraft/) |
 | Iran native triangulation | [docs/skill-work/work-strategy/daily-brief-iran-watch.md](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) |

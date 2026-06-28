@@ -10,24 +10,24 @@ This is a shelf-native operational note, not a doctrine file and not a replaceme
 
 Machine-readable companion surface:
 
-- [month-maturity-routing-registry.json](/C:/dev/strategy-codex/statecraft/data/month-maturity-routing-registry.json)
+- [month-maturity-routing-registry.json](../data/month-maturity-routing-registry.json)
 
 Generated routing-support metadata:
 
-- [month-routing-metadata.json](/C:/dev/strategy-codex/statecraft/data/month-routing-metadata.json)
+- [month-routing-metadata.json](../data/month-routing-metadata.json)
 
 ## Current Registry
 
 | Month | Route class | Maturity label | Status | Primary supporting surfaces | Next honest move |
 | --- | --- | --- | --- | --- | --- |
-| `2025-11` | `benchmark` | late pre-2026 fragmentation benchmark | `stable` | [November benchmark](/C:/dev/strategy-codex/statecraft/notes/november-2025-benchmark-note.md) | Use November as a narrower late-2025 benchmark month unless a specific speaker-month contradiction queue later appears. |
-| `2025-12` | `benchmark` | late pre-2026 convergence benchmark | `stable` | [December benchmark](/C:/dev/strategy-codex/statecraft/notes/december-2025-benchmark-note.md) | Use December as the first late-2025 benchmark month unless a specific speaker-month contradiction queue later appears. |
-| `2026-01` | `benchmark` | opening continuity/setup benchmark | `stable` | [January benchmark](/C:/dev/strategy-codex/statecraft/notes/january-2026-benchmark-note.md) | Keep January as an opening benchmark unless a bounded speaker-local contradiction queue later appears. |
-| `2026-02` | `benchmark` | dense bridge/setup benchmark | `stable` | [February benchmark](/C:/dev/strategy-codex/statecraft/notes/february-2026-benchmark-note.md) | Keep February as a bridge/setup benchmark rather than reopening it as a generic backfill field. |
-| `2026-03` | `benchmark` | early mature Iran-war benchmark | `stable` | [March benchmark](/C:/dev/strategy-codex/statecraft/notes/march-2026-benchmark-note.md), [March routing](/C:/dev/strategy-codex/statecraft/notes/march-2026-closure-method-application.md) | Preserve March for comparison work unless a finite, URL-backed contradiction queue later appears. |
-| `2026-04` | `closure-audit` | audited cross-host bridge month | `audited-and-confirmed` | [April audit](/C:/dev/strategy-codex/statecraft/notes/wilkerson-april-2026-contradiction-audit.md), [April postmortem](/C:/dev/strategy-codex/statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md), [Wilkerson April note](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-april-2026-note.md) | Treat April as an audited and confirmed closure month unless a new bounded contradiction object appears. |
-| `2026-05` | `watchlist` | late negotiation/settlement pressure month with one live Parsi seam | `stable-with-live-seam` | [May watchlist](/C:/dev/strategy-codex/statecraft/notes/may-2026-speaker-watchlist.md), [May closure method](/C:/dev/strategy-codex/statecraft/notes/may-2026-closure-method-application.md), [Parsi/Wilkerson queue](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) | Falsify the remaining Parsi authored-middle candidate, then restate whether May closes as complete enough or remains slightly thin by archive truth. |
-| `2026-06` | `watchlist` | opening watchlist | `open` | [June opening watchlist](/C:/dev/strategy-codex/statecraft/notes/june-2026-opening-watchlist.md) | Keep June in watchlist-first status until the month is large enough for either benchmark promotion or a bounded contradiction object. |
+| `2025-11` | `benchmark` | late pre-2026 fragmentation benchmark | `stable` | [November benchmark](november-2025-benchmark-note.md) | Use November as a narrower late-2025 benchmark month unless a specific speaker-month contradiction queue later appears. |
+| `2025-12` | `benchmark` | late pre-2026 convergence benchmark | `stable` | [December benchmark](december-2025-benchmark-note.md) | Use December as the first late-2025 benchmark month unless a specific speaker-month contradiction queue later appears. |
+| `2026-01` | `benchmark` | opening continuity/setup benchmark | `stable` | [January benchmark](january-2026-benchmark-note.md) | Keep January as an opening benchmark unless a bounded speaker-local contradiction queue later appears. |
+| `2026-02` | `benchmark` | dense bridge/setup benchmark | `stable` | [February benchmark](february-2026-benchmark-note.md) | Keep February as a bridge/setup benchmark rather than reopening it as a generic backfill field. |
+| `2026-03` | `benchmark` | early mature Iran-war benchmark | `stable` | [March benchmark](march-2026-benchmark-note.md), [March routing](march-2026-closure-method-application.md) | Preserve March for comparison work unless a finite, URL-backed contradiction queue later appears. |
+| `2026-04` | `closure-audit` | audited cross-host bridge month | `audited-and-confirmed` | [April audit](wilkerson-april-2026-contradiction-audit.md), [April postmortem](april-2026-wilkerson-intake-sequence-postmortem.md), [Wilkerson April note](../voices/wilkerson/wilkerson-april-2026-note.md) | Treat April as an audited and confirmed closure month unless a new bounded contradiction object appears. |
+| `2026-05` | `watchlist` | late negotiation/settlement pressure month with one live Parsi seam | `stable-with-live-seam` | [May watchlist](may-2026-speaker-watchlist.md), [May closure method](may-2026-closure-method-application.md), [Parsi/Wilkerson queue](parsi-wilkerson-may-2026-backfill-attention.md) | Falsify the remaining Parsi authored-middle candidate, then restate whether May closes as complete enough or remains slightly thin by archive truth. |
+| `2026-06` | `watchlist` | opening watchlist | `open` | [June opening watchlist](june-2026-opening-watchlist.md) | Keep June in watchlist-first status until the month is large enough for either benchmark promotion or a bounded contradiction object. |
 
 ## Route Rule
 

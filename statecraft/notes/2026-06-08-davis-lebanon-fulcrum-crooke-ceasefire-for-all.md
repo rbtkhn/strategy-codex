@@ -2,12 +2,12 @@ WORK only; not Record.
 
 # Davis Lebanon Fulcrum × Crooke Ceasefire-for-All — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](statecraft/notes/reentry/2026-06-week2-start-here.md) · carry [week1](statecraft/notes/reentry/2026-06-week1-start-here.md) · **Prior gate:** [2026-06-06 Persia Lebanon-first gate](statecraft/notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+**Parent queue:** [2026-06-08 Intake Readiness](intake/2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](reentry/2026-06-week2-start-here.md) · carry [week1](reentry/2026-06-week1-start-here.md) · **Prior gate:** [2026-06-06 Persia Lebanon-first gate](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
 
 **Sources:**
 
 - [Crooke / Iran Takes Its Chances with War — 2026-06-04](../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md) — **written upstream** (three pillars; Dahieh; Citrinowicz link)
-- [Crooke three-date arc — Jun 4 Substack × Jun 5 Dialogue × Jun 8 Judging Freedom](statecraft/synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md)
+- [Crooke three-date arc — Jun 4 Substack × Jun 5 Dialogue × Jun 8 Judging Freedom](../synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md)
 - [Davis solo / Iran war expands, Houthis declare war](../../source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md)
 - [Crooke × Napolitano / Ceasefire for all or ceasefire for no one](../../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) — **Jun 8 in-voice echo** of Substack architecture
 
@@ -103,6 +103,6 @@ June 8 proves the mantra operationally: Beirut suburb breach → Iran strike →
 ## Best Next Uses
 
 - **Parent daily** `2026-06-08.md`: Lebanon object owns **lane pressure** across Crooke, Davis, Johnson, Mercouris batch — cite this statecraft note for architecture-vs-loop split.
-- **Cross-read:** [2026-06-04 Hoh × Henningsen pseudo-agreement falsifier](statecraft/notes/2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) — June 8 as live proof pseudo-ceasefire.
-- **Cross-read:** [2026-06-08 Davis × Johnson trust statecraft note](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) — Lebanon fulcrum kills courier lane Davis documents.
+- **Cross-read:** [2026-06-04 Hoh × Henningsen pseudo-agreement falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) — June 8 as live proof pseudo-ceasefire.
+- **Cross-read:** [2026-06-08 Davis × Johnson trust statecraft note](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) — Lebanon fulcrum kills courier lane Davis documents.
 - **Pending capture:** Davis-teased Patrick Henderson Lebanon deep-dive — may sharpen IDF internal pressure leg Crooke owns.

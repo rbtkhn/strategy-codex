@@ -1,12 +1,12 @@
 # Verbatim transcripts (lightly cleaned)
 
-One markdown file per curated lecture in [`../lectures/`](../lectures/), **same basename**, built from **raw YouTube caption** files. Default raw root: [`../../youtube-channels/predictive-history/transcripts/`](../../youtube-channels/predictive-history/transcripts/README.md). For **off-channel** videos (e.g. Volume VI interviews not on @PredictiveHistory), pass `--transcript-root` to `sync_verbatim_transcripts.py` (see [`../../youtube-channels/vi-12-j-shapiro/README.md`](../../youtube-channels/vi-12-j-shapiro/README.md)).
+One markdown file per curated lecture in [`../lectures/`](../lectures/), **same basename**, built from **raw YouTube caption** files. Default raw root: [`../../youtube-channels/predictive-history/transcripts/`](../../../README.md). For **off-channel** videos (e.g. Volume VI interviews not on @PredictiveHistory), pass `--transcript-root` to `sync_verbatim_transcripts.py` (see [`../../youtube-channels/vi-12-j-shapiro/README.md`](../../../README.md)).
 
 **Purpose:** Diff this layer against curated lectures and against `## Full transcript` when checking ASR. See [`../ASR-VERIFICATION-RUBRIC.md`](../ASR-VERIFICATION-RUBRIC.md) and [`../WORKFLOW-transcripts.md`](../WORKFLOW-transcripts.md).
 
 ## Generate
 
-1. Fetch or refresh raw `.txt` (gitignored in the channel repo) — [predictive-history README](../../youtube-channels/predictive-history/README.md).
+1. Fetch or refresh raw `.txt` (gitignored in the channel repo) — [predictive-history README](../../../README.md).
 2. From repo root:
 
    ```bash

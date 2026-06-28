@@ -49,9 +49,9 @@ This note uses those two verdict levels on purpose:
 
 Routing surfaces:
 
-- [Iran lane README](../../iran/README.md)
-- [Iran civilization README](../../iran/civilization/README.md)
-- [Iran empire README](../../iran/empire/README.md)
+- [Iran lane README](../../../README.md)
+- [Iran civilization README](../../../README.md)
+- [Iran empire README](../../../README.md)
 
 Control-plane evidence:
 
@@ -65,7 +65,7 @@ Control-plane evidence:
 | Pilot pair template-ready and `cut_over` | yes | [Iran pilot lane audit](iran-pilot-lane-audit.md) marks the pair template-ready; ledger keeps both pilot objects at `cut_over` |
 | All five first-wave targets exist | yes | `state-memory`, `geo`, `war`, `peace`, and `empire-instrument` all exist and are tracked in the ledger |
 | Non-pilot civilization classes are `verified` | yes | [Migration ledger](migration-ledger.md) marks `iran-geo`, `iran-war`, and `iran-peace` as `verified` |
-| Front-door routing prefers the first-wave set | yes | [Iran lane README](../../iran/README.md) and [Iran civilization README](../../iran/civilization/README.md) route directly to `state-memory`, `geo`, `war`, and `peace`; [Iran empire README](../../iran/empire/README.md) routes to the empire object |
+| Front-door routing prefers the first-wave set | yes | [Iran lane README](../../../README.md) and [Iran civilization README](../../../README.md) route directly to `state-memory`, `geo`, `war`, and `peace`; [Iran empire README](../../../README.md) routes to the empire object |
 | Provenance / counterweight / transaction hooks are present across the set | yes | First-wave notes and ledger rows all retain explicit provenance and `yes` for counterweight / transaction hook presence |
 | All six canonical families are served through the lane's first-wave set | yes | `state-memory` + `empire-instrument` cover continuity and hegemon-misread; `war` covers coercion-failure and arms-control/contact danger; `geo` and `peace` cover exclusion / settlement and real-versus-theatrical settlement |
 | Control plane reflects the lane honestly | yes | [Corpus budget](corpus-budget.md) and [migration-ledger.md](migration-ledger.md) both show the current statuses and word counts correctly |

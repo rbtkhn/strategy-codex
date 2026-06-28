@@ -30,6 +30,18 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (helmer, lascaris, channel:reason-resist)); 22 substitutions; targeted residual pass +13 (Voronezh cluster, Iskander, Kh-101, Pantsir-S1, Meloni, Andy Burnham, Mark Rutte); not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (9 thematic sections)."
 quality_note: "ASR normalization pass 2026-06-26; ph-civ replacement SSOT."
 transcript_curation: curated_sectioned
+verify_receipt: 2026-06-28
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: MOU bribery/Kushner architecture; destroy Russia and Iran goal unchanged
+    verdict: partial
+    note: J25-10 tier-4 — falsifier if dual-clock MOU implementation holds without extractive read
+  - claim: Voronezh Storm Shadow strike; Kyiv Independent Trump-back-Ukraine line
+    verdict: partial
+    note: tier-4 Russia parallel — pairs **J25-11** mesh · Mearsheimer Karaganov ladder
+  - claim: Rutte/NATO escalation clip in batch context
+    verdict: contested
+    note: J25-1 — Rutte **said** it; Italy MoD misleading; do not adopt as NATO kinetic fact
 ---
 # Trump's Goal Remains the Same: Destroy Russia and Iran w/ John Helmer
 

@@ -23,8 +23,8 @@ Guest thesis stack; SOTU-leaning host phrasing is in the [diesen file](../diesen
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../years/2026/provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
+- **Full verbatim (capture):** [provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../source-archive/statecraft/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=vx1KnspP1gM`
 - **Legacy stub:** [mearsheimer-page-2026-02-25-case-for-nuclear-iran.md](mearsheimer-page-2026-02-25-case-for-nuclear-iran.md)

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-01 – 2026-06-02
 
-**Parent dailies:** [2026-06-01](statecraft/synthesis/day/2026-06-01.md) · [2026-06-02](statecraft/synthesis/day/2026-06-02.md) · **Archive:** [Jun 1 day-index](../../source-archive/statecraft/2026-06-01/day-index.md) · [Jun 2 day-index](../../source-archive/statecraft/2026-06-02/day-index.md) · **Cross-ref:** [2026-06-03-04 matrix](2026-06-03-04-news-verify-matrix.md) · [Pape bombing-while-talking](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md)
+**Parent dailies:** [2026-06-01](../../synthesis/day/2026-06-01.md) · [2026-06-02](../../synthesis/day/2026-06-02.md) · **Archive:** [Jun 1 day-index](../../../source-archive/statecraft/2026-06-01/day-index.md) · [Jun 2 day-index](../../../source-archive/statecraft/2026-06-02/day-index.md) · **Cross-ref:** [2026-06-03-04 matrix](2026-06-03-04-news-verify-matrix.md) · [Pape bombing-while-talking](../2026-06-08-pape-day-100-indicator-watch-sheet.md)
 
 **Mode:** combo window (15 + 16 ingests, **war opening × carrier-failure**) · **Hooks:** 14 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium · **Developing:** yes (Lebanon gate forming; nuclear speakability) · **Capture receipts:** 0/31 (matrix SSOT; optional `verify:` Ship later)
 

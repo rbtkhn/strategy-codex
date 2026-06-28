@@ -6,13 +6,13 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
-- [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
-- [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
-- [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
-- [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md)
+- [arc-baud-continuity.md](../../notes/arc-baud-continuity.md)
+- [baud-helix.md](baud-helix.md)
+- [baud-thread-international-law.md](baud-thread-international-law.md)
+- [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md)
+- [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md)
+- [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md)
+- [baud-thread.md](baud-thread.md)
 
 Bounded claim:
 
@@ -24,19 +24,19 @@ Bounded claim:
 
 Arcs under review:
 
-- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
-- [arc-baud-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
-- [arc-baud-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
-- [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
+- [arc-baud-continuity.md](../../notes/arc-baud-continuity.md)
+- [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md)
+- [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md)
+- [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md)
 
 Threads under review:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md) as compatibility continuity only
+- [baud-thread-international-law.md](baud-thread-international-law.md)
+- [baud-thread.md](baud-thread.md) as compatibility continuity only
 
 Comparison-only notes:
 
-- [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
+- [baud-helix.md](baud-helix.md)
 
 ## Arc audit
 
@@ -63,7 +63,7 @@ Baud has one real canonical topical thread, and it is justified.
 
 `baud-thread-international-law.md` isolates the legal-taxonomic lane that recurs across hosts and months: due process, sanctions procedure, co-belligerency, proportionality, blockade, distinction, and post-1945 legal architecture.
 
-The older [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md) does not isolate a mechanism that the person arc, host arcs, and law thread fail to carry. It remains compatibility continuity only.
+The older [baud-thread.md](baud-thread.md) does not isolate a mechanism that the person arc, host arcs, and law thread fail to carry. It remains compatibility continuity only.
 
 ### Thread distinctness table
 

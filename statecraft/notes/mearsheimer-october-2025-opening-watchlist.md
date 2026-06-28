@@ -12,7 +12,7 @@ This note does not claim October closure. Its narrower job is to preserve the lo
 
 On current local evidence, October 2025 is one of the weakest Mearsheimer months in the 2025 archive.
 
-The month rollup at [2025-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10.md) now shows:
+The month rollup at [2025-10.md](../../source-archive/statecraft/2025-10.md) now shows:
 
 - `56` source files total
 - `25` captured days
@@ -26,14 +26,14 @@ However, that live `4` count still understates what is already on disk. October 
 
 Four October 2025 Mearsheimer-thread captures are currently on disk:
 
-- `2025-10-08` - [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
-- `2025-10-09` - [source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md)
-- `2025-10-17` - [source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md)
-- `2025-10-30` - [source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md)
+- `2025-10-08` - [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](../../source-archive/statecraft/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
+- `2025-10-09` - [source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md](../../source-archive/statecraft/2025-10-09/source-judging-freedom-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md)
+- `2025-10-17` - [source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md](../../source-archive/statecraft/2025-10-17/source-judging-freedom-mearsheimer-why-trumps-gaza-deal-will-fail-2025-10-17.md)
+- `2025-10-30` - [source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md](../../source-archive/statecraft/2025-10-30/source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md)
 
 There is also one already-landed October panel object with real Mearsheimer participation that is not currently reflected in the live Mearsheimer thread count:
 
-- `2025-10-22` - [source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md)
+- `2025-10-22` - [source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md](../../source-archive/statecraft/2025-10-22/source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md)
   Status: `already landed but underprojected in current Mearsheimer lane accounting`
 
 ## Current October Archive Shape
@@ -86,7 +86,7 @@ The first bounded recovered October queue is now exhausted.
 
 The `2025-10-30` Daniel Davis / Deep Dive item has been materialized as:
 
-- [source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md)
+- [source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md](../../source-archive/statecraft/2025-10-30/source-daniel-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md)
   Direct watch URL: [https://www.youtube.com/watch?v=T1rrKDpySTI](https://www.youtube.com/watch?v=T1rrKDpySTI)
   Prior external anchors: [Apple Podcasts](https://podcasts.apple.com/gb/podcast/john-mearsheimer-new-nuclear-arms-race-pentagon-to/id1761369345?i=1000734264673), [Glasp](https://glasp.co/youtube/T1rrKDpySTI)
 

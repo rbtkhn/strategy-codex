@@ -77,7 +77,7 @@ Maybe with some luck we could take a small island in the Persian Gulf, but I don
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md](../../../years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-03-29)
+- **Full verbatim (capture):** [provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-03-29)
 - **`thread:mearsheimer`** · **verify:** primary capture on disk + voice date + inbox row (YT | / SS | as applicable)
 - **Canonical primary:** https://mearsheimer.substack.com/p/will-trump-go-kamikaze

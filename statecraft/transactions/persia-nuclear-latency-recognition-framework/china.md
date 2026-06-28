@@ -12,9 +12,9 @@ Anti-disorder nuclear restraint compact.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Pape](../../../../speakers/pape/) for system leverage and clocks; [Jiang](../../../../speakers/jiang/) for China-facing strategic framing; [Sachs](../../../../speakers/sachs/) for macro-system effects; [Parsi](../../../../speakers/parsi/) for regional architecture; [Crooke](../../../speakers/crooke/README.md) / [Diesen](../../../../speakers/diesen/) for order transition.
+- Speaker-state inputs: [Pape](../../voices/pape/) for system leverage and clocks; [Jiang](../../voices/jiang/) for China-facing strategic framing; [Sachs](../../voices/sachs/) for macro-system effects; [Parsi](../../voices/parsi/) for regional architecture; [Crooke](../../../README.md) / [Diesen](../../voices/diesen/) for order transition.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../../years/2026/provenance/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Parsi 2026-05-03](../../../../years/2026/provenance/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Pape 2026-05-13](../../../../years/2026/provenance/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md).
+- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Parsi 2026-05-03](../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Pape 2026-05-13](../../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md).
 
 ## Civilization / Empire Helix Input
 

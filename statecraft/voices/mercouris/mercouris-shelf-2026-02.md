@@ -35,22 +35,7 @@ February matters because it carries a visible phase transition inside the native
 - [youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15](../../../source-archive/statecraft/2026-02-15/source-alexander-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md
   - Full transcript-grade bridge anchor: hardening Russia line, war-preparation logic, and widening confrontation.
 - [source-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17](../../../source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md
-  - **Full transcript** (2026-06-20 intake) — Geneva theater; Kartapolov annexation; Konstantinovka. Cross-weave: [Feb 17 Geneva — Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md.
-- [youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19](../../../source-archive/statecraft/2026-02-19/source-alexander-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md
-  - Full transcript-grade bridge anchor: UK internal crisis, Medinsky hardening, and visible fusion of theaters.
-- [youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21](../../../source-archive/statecraft/2026-02-21/source-alexander-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md
-  - Late-month hardening sequence becomes explicit.
-- [youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22](../../../source-archive/statecraft/2026-02-22/source-alexander-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md
-  - Internal-fragility and escalation sequence continue to compound.
-- [youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23](../../../source-archive/statecraft/2026-02-23/source-alexander-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md
-  - Systemic war-read starts to dominate.
-- [youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24](../../../source-archive/statecraft/2026-02-24/source-alexander-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md
-- [youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25](../../../source-archive/statecraft/2026-02-25/source-alexander-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md
-- [youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26](../../../source-archive/statecraft/2026-02-26/source-alexander-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26.md
-- [mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27](../../../source-archive/statecraft/2026-02-27/source-alexander-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md
-- [youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28](../../../source-archive/statecraft/2026-02-28/source-alexander-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md
-
-## Reading note
+  - **Full transcript** (2026-06-20 intake) — Geneva theater; Kartapolov annexation; Konstantinovka. Cross-weave: [Feb 17 Geneva — Helmer × Mercouris](../../../source-archive/statecraft/2026-02-28/source-alexander-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md## Reading note
 
 February 2026 Mercouris should be read as a phase-transition month. The stream begins the month still treating negotiation, coercion, and escalation as linked but partly separable tracks. By the middle of the month those tracks fuse: negotiation hardening, assassination and retaliation logic, infrastructure collapse, European rhetorical escalation, and Iran-facing widening all start behaving like one continuous argument. That makes February more than continuity carryover, but still earlier and less stabilized than the April-May dense core.
 

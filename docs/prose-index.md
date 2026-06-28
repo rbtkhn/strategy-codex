@@ -103,7 +103,7 @@ Need a **bounded interpretive object** (channel-scoped only — do not split acr
 Need a **month-scale extraction layer rather than a prose shelf**:
 
 - singularity month-scale source extraction -> [singularity synthesis](../singularity/synthesis/README.md)
-- statecraft day/month archive compression -> [state synthesis](../statecraft/synthesis/day/README.md)
+- statecraft day/month archive compression -> [state synthesis](../README.md)
 
 ## What These Shelves Are Not
 

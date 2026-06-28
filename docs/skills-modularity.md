@@ -195,7 +195,7 @@ Operational constraints:
 | Work layer | This doc Â§2a, Â§5a; [SKILLS-TEMPLATE Â§ II-A](skills-template.md#ii-a-separate-work--execution-layer), [ID-TAXONOMY](id-taxonomy.md#work-layer-labels) |
 | Standard labels (self-skill-*) | [ID-TAXONOMY](id-taxonomy.md#standard-capability-labels-self-skill-) |
 | Analyst vs. skill modules (museum knowledge section A/B/C) | [SKILLS-TEMPLATE Â§ III](skills-template.md#iii-skill-interactions-and-the-self), [ARCHITECTURE Â§ Multi-Dimension Signals](architecture.md#multi-dimension-signals) |
-| Record and Voice | [CONCEPTUAL-FRAMEWORK](conceptual-framework.md), [AGENTS](AGENTS.md) |
+| Record and Voice | [CONCEPTUAL-FRAMEWORK](conceptual-framework.md), [AGENTS](../AGENTS.md) |
 | Pipeline and merge | [PIPELINE-MAP](pipeline-map.md), [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md) |
 | THINK/READ vs SELF IX (no auto-merge) | This doc Â§5; [we-read-think-self-pipeline.md](we-read-think-self-pipeline.md) |
 | Cross-module flow map (allowed/disallowed flows, asymmetry, decision test) | [skills-membrane.md](skills-membrane.md) |

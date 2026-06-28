@@ -4,15 +4,15 @@
 
 **Civ-mem grounding (when the brief touches an entity X in `civilization_memory`):** Before filling mind scaffolds, follow [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md): `MEM–RELEVANCE–X` → shared **1–2** primary MEMs → **up to 1–2 additional MEMs per mind** (Barnes / Mearsheimer / Mercouris) from the relevance dimensions that match each lens → `CIV–STATE–X` (and `CIV–SCHOLAR–X` / ARC as needed). Keeps Tri-Frame **evidence-heavy** without three unrelated repo walks.
 
-**Write mode (`daily-brief-minds-config.json`):** **`scaffold`** — the generator script does **not** call an LLM. It writes markdown files with title, paths to the daily brief and strategy-expert **`-mind.md`** fingerprints (SSOT), a **copy-paste prompt bundle**, and a placeholder body for the operator or a Cursor agent to complete. Full lens prose is produced in-editor or via **`strategy`** / agent session, same as [skill-strategy post-entry lens](../../../../.cursor/skills/skill-strategy/SKILL.md) discipline. Stable **`CIV-MIND-*.md`** paths under `strategy-notebook/minds/` **redirect** to the same bodies.
+**Write mode (`daily-brief-minds-config.json`):** **`scaffold`** — the generator script does **not** call an LLM. It writes markdown files with title, paths to the daily brief and strategy-expert **`-mind.md`** fingerprints (SSOT), a **copy-paste prompt bundle**, and a placeholder body for the operator or a Cursor agent to complete. Full lens prose is produced in-editor or via **`strategy`** / agent session, same as [skill-strategy post-entry lens](../../../../.cursor/skills/skill-strategy/SKILL.md) discipline. Stable **`CIV-MIND-*.md`** paths under `../../codex/minds/` **redirect** to the same bodies.
 
 **Mind fingerprints (load these — SSOT):**
 
 | Mind | File (under `docs/skill-work/work-strategy/`) |
 |------|-----------------------------------------------|
-| Barnes | [`strategy-expert-barnes-mind.md`](../strategy-notebook/strategy-expert-barnes-mind.md) |
-| Mearsheimer | [`strategy-expert-mearsheimer-mind.md`](../strategy-notebook/strategy-expert-mearsheimer-mind.md) |
-| Mercouris | [`strategy-expert-mercouris-mind.md`](../strategy-notebook/strategy-expert-mercouris-mind.md) |
+| Barnes | [`strategy-expert-barnes-mind.md`](../../../../codex/strategy-expert-barnes-mind.md) |
+| Mearsheimer | [`strategy-expert-mearsheimer-mind.md`](../../../../codex/strategy-expert-mearsheimer-mind.md) |
+| Mercouris | [`strategy-expert-mercouris-mind.md`](../../../../codex/strategy-expert-mercouris-mind.md) |
 
 Tri-frame entry index: [`README.md`](README.md).
 

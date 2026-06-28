@@ -7,11 +7,11 @@ WORK only; not Record.
 - [The Loneliness of Mad King Trump (2026-05-23)](../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md)
 - [Welcome to Boomer Hell (2026-06-13)](../../source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md)
 
-**Wire receipts:** [PH Boomer Hell matrix](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md) (J13-PH-1–9) · **Downstream archive:** [2026-06-13 daily](statecraft/synthesis/day/2026-06-13.md) · [Jun 14 cross-day overlay](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
+**Wire receipts:** [PH Boomer Hell matrix](wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md) (J13-PH-1–9) · **Downstream archive:** [2026-06-13 daily](../synthesis/day/2026-06-13.md) · [Jun 14 cross-day overlay](../synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
 
 **Bounded question:** What **carries** from Jiang’s May “Mad King” purge essay to the June “Boomer Hell” generational essay — and what is **new** — without treating PH Substack as Iran/Lebanon wire authority?
 
-**Scope rule:** PH = **America legitimacy / generational-delusion overlay**. Iran MOU judgment stays on [Jun 13–14 transcript batch](statecraft/synthesis/day/2026-06-13.md) + [J14 matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md).
+**Scope rule:** PH = **America legitimacy / generational-delusion overlay**. Iran MOU judgment stays on [Jun 13–14 transcript batch](../synthesis/day/2026-06-13.md) + [J14 matrix](wire/2026-06-14-news-verify-matrix.md).
 
 ---
 
@@ -32,7 +32,7 @@ WORK only; not Record.
 | **Massie primary** | $30M spend; Adelson/Singer/Paulson; Gallrein **Boomers only**; ~10 pt loss; Hegseth campaigned | **Same block repeated** | **J13-PH-1 partial** · **J13-PH-2 supported** — do not double-count |
 | **Tulsi / purge** | Gabbard resignation; Iran-war skeptics purged; “loyal to a fault” misread | Tulsi/JD Vance out or sidelined; MTG/Massie hounded | Analyst-tier; overlaps May carrier |
 | **Tucker / subservience** | “Low-IQ”; son leaves Vance shop; Gorka terrorist charge rumor; 2020 Iran war block | Turned against Tucker **and** Candace Owens | May = **mechanism depth**; Jun = **name-check expansion** |
-| **Trump × Iran deal** | Brink / round-2 fears; Cuba distraction; negotiation Thursday | **39th deal**; Netanyahu obedience delusion; **Lebanon stop** as peace precondition | Jun 13 **bridges** [archive batch](statecraft/synthesis/day/2026-06-13.md); May **does not** carry wire |
+| **Trump × Iran deal** | Brink / round-2 fears; Cuba distraction; negotiation Thursday | **39th deal**; Netanyahu obedience delusion; **Lebanon stop** as peace precondition | Jun 13 **bridges** [archive batch](../synthesis/day/2026-06-13.md); May **does not** carry wire |
 | **Family corruption** | (minimal in May body) | CZ pardon; Trump Jr **$620M**; Kushner **$2B** + **Sazan**; Hunter quote | **J13-PH-3/6/7/9** — **new load** in June |
 | **Markets / wealth** | (minimal) | Musk **trillionaire**; oil **sub-$100** vs SPR depletion | **J13-PH-8 supported** (paper); SPR line **analyst-tier** |
 | **Elite immortality** | (minimal) | Putin **$26B** longevity; Beijing transplant hot mic; China organ folklore | **J13-PH-4/5 supported**; folklore **not wire** |
@@ -48,7 +48,7 @@ WORK only; not Record.
 | **Purge logic** | Subservience > loyalty; everyone expendable | Sycophants grow; UFC White House summer | **Court shrinks to flatterers** — Iran skeptics already gone |
 | **Generational** | Massie **Boomers-only** loss (embedded) | **Whole thesis** — Boomers vs world | May **previewed** demographic proof; Jun **generalizes** to governance |
 | **Corruption** | (latent) | CZ · Jr loan · Kushner Gulf · Sazan | June makes **family rent** explicit — May was **personality purge** |
-| **Delusion vs wire** | Wrong predictions named (Gabbard, Massie, MTG) | Markets reward **earnest** Trump; oil vs SPR | **Self-delusion rewarded** — fits [Jun 14 MOU market bounce](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay) overlay |
+| **Delusion vs wire** | Wrong predictions named (Gabbard, Massie, MTG) | Markets reward **earnest** Trump; oil vs SPR | **Self-delusion rewarded** — fits [Jun 14 MOU market bounce](../synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay) overlay |
 
 ---
 
@@ -80,7 +80,7 @@ Both essays carry near-identical Massie copy ($30M · Zionist billionaires · Ga
 
 ## May 23 wire receipts (Mad King — J23-PH)
 
-Full matrix: [PH wire-verify](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md#may-23-essay-hooks-j23-ph-1--j23-ph-4)
+Full matrix: [PH wire-verify](wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md#may-23-essay-hooks-j23-ph-1--j23-ph-4)
 
 | ID | Claim | Verdict |
 | --- | --- | --- |
@@ -113,14 +113,14 @@ Full matrix: [PH wire-verify](statecraft/notes/wire/2026-06-13-ph-boomer-hell-ne
 | **America captured-command / purge** | May 23 **first** (mechanism); Jun 13 **second** (structure) |
 | **Massie / Boomer demographics** | This note + **J13-PH-1/2** only |
 | **Family corruption overlay** | Jun 13 + **J13-PH-3/6/7/9** |
-| **Iran/Lebanon MOU** | **Not PH** — [Jun 13](statecraft/synthesis/day/2026-06-13.md) · [Jun 14](statecraft/synthesis/day/2026-06-14.md) transcripts + J14 matrix |
+| **Iran/Lebanon MOU** | **Not PH** — [Jun 13](../synthesis/day/2026-06-13.md) · [Jun 14](../synthesis/day/2026-06-14.md) transcripts + J14 matrix |
 | **Jiang shelf continuity** | [jiang-source-index](../voices/jiang/jiang-source-index.md) · add both Substack captures to provenance bench |
 
 ---
 
 ## Companion links
 
-- [2026-06-13 daily](statecraft/synthesis/day/2026-06-13.md)
-- [PH wire matrix](statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md)
-- [Jun 14 Boomer Hell overlay §](statecraft/synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
+- [2026-06-13 daily](../synthesis/day/2026-06-13.md)
+- [PH wire matrix](wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md)
+- [Jun 14 Boomer Hell overlay §](../synthesis/day/2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
 - [May 23 Mad King archive](../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md) · **J23-PH-1–4** verify tails on `source_note`

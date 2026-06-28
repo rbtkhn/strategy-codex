@@ -80,4 +80,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-armstrong-transcript.md`](strategy-expert-armstrong-transcript.md) (7-day rolling verbatim) and [`strategy-expert-armstrong-thread.md`](strategy-expert-armstrong-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-armstrong-transcript.md`](armstrong-transcript.md) (7-day rolling verbatim) and [`strategy-expert-armstrong-thread.md`](armstrong-thread.md) (distilled analytical thread).

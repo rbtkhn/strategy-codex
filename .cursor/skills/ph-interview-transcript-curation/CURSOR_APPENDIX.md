@@ -12,9 +12,10 @@ Cursor-only paths for [ph-interview-transcript-curation/SKILL.md](../../../skill
 
 Catalog: `predictive-history/docs/predictive-history-index.md` · **Provenance** section.
 
-Exemplar pass-2: `interviews/interview-2026-03-20-tucker-carlson/` (vi-11, `d475974`).
-
-Pending curation candidate: `interviews/interview-2026-05-07-diary-of-a-ceo/` (ext-doac-01, promoted `d49d9e9` — raw ASR-style opening).
+| Packet | Role |
+|--------|------|
+| `interviews/interview-2026-03-20-tucker-carlson/` (vi-11, `d475974`) | One-shot exemplar — sections + named turns |
+| `interviews/interview-2026-05-07-diary-of-a-ceo/` (ext-doac-01) | Pass-ladder exemplar — **14/14 section rails pass C complete** (pass 13 `a6f86e8`); see SKILL § DOAC pass ladder |
 
 ## Commands (PH repo root)
 

@@ -9,7 +9,7 @@ This is a lighter comparison surface for one narrow May 31 America-side mechanis
 - **Weichert** explains why the MOU lull is materially forced by ordnance drain and industrial-base limits
 - **Barnes** explains why the same window is being used to institutionalize Israel into the U.S. defense stack before public room to unwind shrinks
 
-The object is small on purpose. Theme §5 in [2026-05-31 daily](statecraft/synthesis/day/2026-05-31.md) named the rearm pause; this note splits **material ceiling** from **institutional capture** without flattening them into one voice.
+The object is small on purpose. Theme §5 in [2026-05-31 daily](../synthesis/day/2026-05-31.md) named the rearm pause; this note splits **material ceiling** from **institutional capture** without flattening them into one voice.
 
 ## Shared Object
 
@@ -109,9 +109,9 @@ That is the gain for statecraft routing:
 
 ## Source Anchors
 
-- Weichert: [source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md) · [cleaned](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md)
-- Barnes: [source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md)
+- Weichert: [source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md](../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md) · [cleaned](../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md)
+- Barnes: [source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md](../../source-archive/statecraft/2026-05-31/source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md)
 
 ## June Extension
 
-- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork - 2026-06-07](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) — adjacent America-side capture read with June levers (munitions faucet, war-powers, NDAA reallocation).
+- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork - 2026-06-07](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) — adjacent America-side capture read with June levers (munitions faucet, war-powers, NDAA reallocation).

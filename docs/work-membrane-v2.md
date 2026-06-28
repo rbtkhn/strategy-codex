@@ -1,3 +1,9 @@
+---
+audience: operator
+authority: doctrine
+record_status: none
+---
+
 # work membrane v2
 
 **Purpose:** Define the shared membrane model for non-Record work across `strategy-codex`, then let active lanes such as `statecraft` and `singularity` apply that model with lane-specific overlays.

@@ -66,13 +66,13 @@ When a new Vance hit appears, classify it before using it:
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Mercouris / Vance-Colby-Pentagon skepticism on Ukraine:** [2026-01-02 Mercouris](../../../../../years/2026/provenance/2026-01-02/source-alexander-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md)
-- **Barnes / Vance as geopolitical-realist and domestic-populist carrier:** [2026-01-13 Mercouris / Barnes](../../../../../years/2026/provenance/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md)
-- **Diesen / Davis / Iran trust problem:** [2026-02-07 Davis / Diesen](../../../../../years/2026/provenance/2026-02-07/source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md)
-- **Ritter / Hormuz negotiation exposure:** [2026-02-18 Dialogue Works / Ritter](../../../../../years/2026/provenance/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
-- **Mercouris / Vance-Netanyahu tense call and Iran exit role:** [2026-03-28 Mercouris](../../../../../years/2026/provenance/2026-03-28/source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
-- **Jiang / Vance and Europe-civilization pressure:** [2026-01-05 Diesen / Jiang](../../../../../years/2026/provenance/2026-01-05/source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
-- **Freeman / Vance reads briefings and asks questions:** [2025-05-31 Diesen / Freeman](../../../../../years/2026/provenance/2025-05-31/source-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md)
+- **Mercouris / Vance-Colby-Pentagon skepticism on Ukraine:** [2026-01-02 Mercouris](../../../../source-archive/statecraft/2026-01-02/source-alexander-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md)
+- **Barnes / Vance as geopolitical-realist and domestic-populist carrier:** [2026-01-13 Mercouris / Barnes](../../../../source-archive/statecraft/2026-01-13/source-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md)
+- **Diesen / Davis / Iran trust problem:** [2026-02-07 Davis / Diesen](../../../../source-archive/statecraft/2026-02-07/source-glenn-diesen-daniel-davis-iran-knife-edge-2026-02-07.md)
+- **Ritter / Hormuz negotiation exposure:** [2026-02-18 Dialogue Works / Ritter](../../../../source-archive/statecraft/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
+- **Mercouris / Vance-Netanyahu tense call and Iran exit role:** [2026-03-28 Mercouris](../../../../source-archive/statecraft/2026-03-28/source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
+- **Jiang / Vance and Europe-civilization pressure:** [2026-01-05 Diesen / Jiang](../../../../source-archive/statecraft/2026-01-05/source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
+- **Freeman / Vance reads briefings and asks questions:** [2025-05-31 Diesen / Freeman](../../../../source-archive/statecraft/2025-05-31/source-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md)
 
 ## Statecraft Uses
 

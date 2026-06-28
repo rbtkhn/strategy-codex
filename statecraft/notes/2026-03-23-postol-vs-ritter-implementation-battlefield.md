@@ -2,14 +2,14 @@ WORK only; not Record.
 
 # Postol Battlefield × Ritter Implementation — 2026-03-23
 
-**Parent daily:** [2026-03-23](statecraft/synthesis/day/2026-03-23.md) · **Implementation leg (March 16):** [Ritter × trap × mosaic](statecraft/notes/2026-03-16-ritter-implementation-trap-mosaic.md) · **Arc lattice:** [Dollar-Hormuz × trap–mosaic](statecraft/notes/2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) · **Monthly:** [2026-03](statecraft/synthesis/month/2026-03.md)
+**Parent daily:** [2026-03-23](../synthesis/day/2026-03-23.md) · **Implementation leg (March 16):** [Ritter × trap × mosaic](2026-03-16-ritter-implementation-trap-mosaic.md) · **Arc lattice:** [Dollar-Hormuz × trap–mosaic](2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) · **Monthly:** [2026-03](../synthesis/month/2026-03.md)
 
 **Sources:**
 
-- [Postol / Dialogue Works — air defense collapse](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md>) — March 23
-- [Ritter / Hormuz gauntlet](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>) — March 16
-- [Ritter / Marines graveyard](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>) — March 16
-- [Johnson / intercept inventory](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — March 16 cross-check
+- [Postol / Dialogue Works — air defense collapse](<../../source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md>) — March 23
+- [Ritter / Hormuz gauntlet](<../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>) — March 16
+- [Ritter / Marines graveyard](<../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>) — March 16
+- [Johnson / intercept inventory](<../../source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — March 16 cross-check
 
 ## Purpose
 
@@ -78,7 +78,7 @@ Postol's phased strategy read (older missiles → interceptor exhaustion → acc
 
 ### Both → Freeman / lattice (March 23)
 
-When implementation and battlefield both fail, **toll-booth Hormuz** (Freeman) is not a Crooke abstraction — it is the remaining executable form. See [dollar-Hormuz lattice](statecraft/notes/2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) bridge law.
+When implementation and battlefield both fail, **toll-booth Hormuz** (Freeman) is not a Crooke abstraction — it is the remaining executable form. See [dollar-Hormuz lattice](2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) bridge law.
 
 ### Both → Pape (March 23)
 
@@ -114,6 +114,6 @@ Pape shifts to ground-war logistics falsifiers. Ritter already placed boots on t
 ## Best Next Uses
 
 - **Public copy:** Label Ritter = combat-vet closure mechanics; Postol = technical engagement audit — do not merge into one "experts say defense failed" blob.
-- **March 27 (written):** [2026-03-27 daily](statecraft/synthesis/day/2026-03-27.md) — Johnson–Wilkerson ground devastation + Pape Marine Threshold inherit this pair.
+- **March 27 (written):** [2026-03-27 daily](../synthesis/day/2026-03-27.md) — Johnson–Wilkerson ground devastation + Pape Marine Threshold inherit this pair.
 - **Pape questions-as-spec:** Use Postol radar/interceptor phases + Ritter gauntlet as dual falsifiers for any "Hormuz solved militarily" headline week.
 - **June genesis:** Command unreliability assumes March already proved **sponsor cannot execute closure** — this note is the battlefield receipt for that claim.

@@ -10,7 +10,7 @@ This folder is **not** a second **strategy-notebook** or **cici-notebook**. **Da
 |----------------|-------|----------------------|
 | **[work-dev/](work-dev/README.md)** | Lane shell: [SURFACE-MAP](work-dev/SURFACE-MAP.md) (canonical in-repo paths) + [HISTORY-ANCHORS](work-dev/HISTORY-ANCHORS.md); pointers to the territory. | [work-dev README](../README.md) (objective, Contents) — or [workspace.md](../workspace.md) as the live next-actions surface. |
 | **[work-dev/journal/](work-dev/journal/README.md)** | `YYYY-MM-DD-day-NN.md` day log, [daily dev journal inbox](work-dev/journal/daily-dev-journal-inbox.md), routing vs cici-notebook. | [work-dev-history.md](../work-dev-history.md) (milestones), [workspace.md](../workspace.md) (entrypoint). |
-| **[work-cici/](work-cici/README.md)** | Cici/OB1 **prompts** (e.g. Phase 1) + **Cici `main` map** and **milestone table**; pointers into [work-cici/](../../work-cici/). | [cici-notebook/](../../work-cici/cici-notebook/README.md) (daily coaching / digests). |
+| **[work-cici/](work-cici/README.md)** | Cici/OB1 **prompts** (e.g. Phase 1) + **Cici `main` map** and **milestone table**; pointers into [work-cici/](../../work-cici/). | [cici-notebook/](../../../../README.md) (daily coaching / digests). |
 | **[work-strategy/](work-strategy/README.md)** | Optional **paste-ready** strategy prompts; [SURFACE-MAP](work-strategy/SURFACE-MAP.md) + [HISTORY-ANCHORS](work-strategy/HISTORY-ANCHORS.md) into the territory. | [strategy-notebook/](../../work-strategy/strategy-notebook/) (inbox, days, raw-input, weave). |
 
 **Layout (tree)**

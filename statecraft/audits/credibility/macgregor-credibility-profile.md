@@ -41,15 +41,15 @@ WORK only; not Record.
 
 ## Best proving anchors
 
-1. [macgregor-helix.md](../../speakers/macgregor/macgregor-helix.md)
-2. [2026-02-10 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
-3. [2026-04-21 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+1. [macgregor-helix.md](../../voices/macgregor/macgregor-helix.md)
+2. [2026-02-10 Macgregor](../../../source-archive/statecraft/2026-02-10/source-judging-freedom-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+3. [2026-04-21 Macgregor](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 ## Disconfirming or stress-test anchors
 
-1. [2026-03-10 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-daniel-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
-2. [2025-09-25 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/source-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md)
-3. [2026-05-27 Macgregor x Mario Nawfal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
+1. [2026-03-10 Macgregor](../../../source-archive/statecraft/2026-03-10/source-daniel-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
+2. [2025-09-25 Macgregor](../../../source-archive/statecraft/2025-09-25/source-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md)
+3. [2026-05-27 Macgregor x Mario Nawfal](../../../source-archive/statecraft/2026-05-27/source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 
 ## Native adjustment notes
 

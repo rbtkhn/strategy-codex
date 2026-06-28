@@ -1,3 +1,9 @@
+---
+audience: operator
+authority: synthesis
+record_status: none
+---
+
 # Essays (strategy-codex)
 
 WORK only; not Record.

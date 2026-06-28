@@ -12,7 +12,7 @@ This note does not claim July closure. Its narrower job is to preserve the local
 
 On current local evidence, July 2025 remains one of the weakest Mearsheimer months in the 2025 archive, but it is no longer absent on disk.
 
-The month rollup at [2025-07.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07.md) shows:
+The month rollup at [2025-07.md](../../source-archive/statecraft/2025-07.md) shows:
 
 - `25` source files total
 - `15` captured days
@@ -24,11 +24,11 @@ So July is still thin for Mearsheimer, but it has moved further into a real repa
 
 Five July 2025 Mearsheimer captures are now on disk:
 
-- `2025-07-10` - [source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-10/source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md)
-- `2025-07-14` - [source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-14/source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md)
-- `2025-07-15` - [source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-15/source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md)
-- `2025-07-20` - [source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md)
-- `2025-07-25` - [source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-25/source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md)
+- `2025-07-10` - [source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md](../../source-archive/statecraft/2025-07-10/source-judging-freedom-mearsheimer-ukraine-gaza-iran-is-peace-possible-2025-07-10.md)
+- `2025-07-14` - [source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md](../../source-archive/statecraft/2025-07-14/source-daniel-davis-mearsheimer-missiles-for-everyone-how-trump-is-using-nato-2025-07-14.md)
+- `2025-07-15` - [source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md](../../source-archive/statecraft/2025-07-15/source-judging-freedom-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md)
+- `2025-07-20` - [source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md](../../source-archive/statecraft/2025-07-20/source-daniel-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md)
+- `2025-07-25` - [source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md](../../source-archive/statecraft/2025-07-25/source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md)
 
 ## Current July Archive Shape
 
@@ -55,8 +55,8 @@ The strongest currently recovered July Mearsheimer item still not landed is:
 
 The local and external evidence for this queue is now bounded and meaningful:
 
-- [check-streams-2025-07-20-local/summary.md](/C:/dev/strategy-codex/artifacts/cognition-streams/check-streams-2025-07-20-local/summary.md) preserves the `2025-07-20` Daniel Davis / Deep Dive Mearsheimer upload with a direct YouTube watch URL
-- [check-streams-2025-thin-month-speaker-queue-2026-05-27.md](/C:/dev/strategy-codex/artifacts/cognition-streams/check-streams-2025-thin-month-speaker-queue-2026-05-27.md) elevates that July 20 Davis item as the bounded thin-month Mearsheimer recovery target
+- [check-streams-2025-07-20-local/summary.md](../../artifacts/cognition-streams/check-streams-2025-07-20-local/summary.md) preserves the `2025-07-20` Daniel Davis / Deep Dive Mearsheimer upload with a direct YouTube watch URL
+- [check-streams-2025-thin-month-speaker-queue-2026-05-27.md](../../artifacts/cognition-streams/check-streams-2025-thin-month-speaker-queue-2026-05-27.md) elevates that July 20 Davis item as the bounded thin-month Mearsheimer recovery target
 - [Glasp July 10 mirror](https://glasp.co/youtube/RFFzClxBmb8) preserves the `2025-07-10` YouTube ID, title, host, and date for the Judging Freedom item
 - [Singju Post July 10 transcript mirror](https://singjupost.com/prof-john-mearsheimer-ukraine-gaza-iran-is-peace-possible-transcript/) preserves the same July 10 title/date seam from the transcript side
 - [Art19 July 14 mirror](https://art19.com/shows/daniel-davis-deep-dive/episodes/795d3a86-e8e7-4f79-9367-8454c91bcf83) preserves the title for `Missiles for Everyone! How Trump is Using NATO /John Mearsheimer`, while the direct YouTube watch URL [o_GmTbH7E_g](https://www.youtube.com/watch?v=o_GmTbH7E_g) supplies the `2025-07-14` publish metadata used for filing

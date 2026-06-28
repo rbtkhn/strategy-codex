@@ -57,7 +57,7 @@ This original transfer note is now overtaken by events. What is true now:
 
 - Iran achieved a maturity-complete Phase 1C first-wave lane
 - [Iran helix](../../iran/helix.md) has now been promoted into the lane's primary authored interpretation
-- [Iran README](../../iran/README.md) now routes helix-first, with the first-wave objects functioning as strand inputs beneath it
+- [Iran README](../../../../../README.md) now routes helix-first, with the first-wave objects functioning as strand inputs beneath it
 - the Phase 2 result now lives in [Iran helix verification](iran-helix-verification.md)
 
 So this note should now be read as pre-transfer reasoning rather than as the live Iran architecture claim.

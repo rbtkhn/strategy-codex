@@ -4,7 +4,7 @@
 > **Legacy exercises (2026-04).** Prompts mentioning **tri-frame** (Exercises 4, 8, demo Phase 4) are **archive replay only** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). New multi-lens work → **`state-synthesis`** / **`periodic-statecraft-review`** runbook.
 
 **Contract (dissolved skill):** [DEFAULT-PATH.md](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) · [SKILL-STRATEGY-DEPRECATED.md](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)  
-**Notebook:** [`../chapters/YYYY-MM/days.md`](../chapters/2026-04/days.md) — append `### EXERCISE — <slug> (YYYY-MM-DD)` **or** clean-room under this folder + one pointer line in `days.md`.  
+**Notebook:** [`../chapters/YYYY-MM/days.md`](../chapters/2026/2026-04/days.md) — append `### EXERCISE — <slug> (YYYY-MM-DD)` **or** clean-room under this folder + one pointer line in `days.md`.  
 **Log:** append a row to [`skill-strategy-exercise-log.md`](skill-strategy-exercise-log.md).  
 **Rubric:** [`skill-strategy-exercise-rubric-reference.md`](skill-strategy-exercise-rubric-reference.md).
 

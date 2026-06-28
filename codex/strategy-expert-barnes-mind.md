@@ -12,4 +12,4 @@ This path is a **stable compatibility redirect** only. Do **not** add new regist
 
 **Stable link chain:** [CIV-MIND-BARNES.md](minds/CIV-MIND-BARNES.md) → this file → voice profile.
 
-**Companion files:** [strategy-expert-barnes.md](strategy-expert-barnes.md) · [strategy-expert-barnes-thread.md](strategy-expert-barnes-thread.md) · [strategy-expert-barnes-transcript.md](strategy-expert-barnes-transcript.md)
+**Companion files:** [strategy-expert-barnes.md](../statecraft/voices/barnes/barnes-profile.md) · [strategy-expert-barnes-thread.md](../statecraft/voices/barnes/barnes-thread.md) · [strategy-expert-barnes-transcript.md](../statecraft/voices/barnes/barnes-transcript.md)

@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # Lebanon Forward Defense × MOU Art. 1 — Pape × Parsi — 2026-06-17
 
-**Archive batch:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) (8 captures) · **Parent:** [2026-06-17 daily](statecraft/synthesis/day/2026-06-17.md)
+**Archive batch:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) (8 captures) · **Parent:** [2026-06-17 daily](../synthesis/day/2026-06-17.md)
 
-**Prior spine:** [Pape Day 100 × New Phase × Lebanon Fuse](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [Lebanon enforcement × Nima host arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md) · [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+**Prior spine:** [Pape Day 100 × New Phase × Lebanon Fuse](2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [Lebanon enforcement × Nima host arc](2026-06-14-lebanon-enforcement-nima-host-arc.md) · [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
 **Sources (Jun 17):**
 
@@ -107,10 +107,10 @@ Do **not** merge layers: **declarative ceasefire ≠ forward-defense restored �
 ## Return paths
 
 - [Persia — Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
-- [Pape Jun 8 Lebanon fuse spine](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
-- [Jun 14 Lebanon enforcement × Nima arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md)
-- [Parent daily — 2026-06-17 MOU text release](statecraft/synthesis/day/2026-06-17.md)
-- News-verify: [2026-06-17 matrix](statecraft/notes/wire/2026-06-17-news-verify-matrix.md) — **J17-4 supported** (Pt. 1 text) · **J17-8 partial** (Khiam) · **J17-9 supported** (Katz no withdrawal)
+- [Pape Jun 8 Lebanon fuse spine](2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
+- [Jun 14 Lebanon enforcement × Nima arc](2026-06-14-lebanon-enforcement-nima-host-arc.md)
+- [Parent daily — 2026-06-17 MOU text release](../synthesis/day/2026-06-17.md)
+- News-verify: [2026-06-17 matrix](wire/2026-06-17-news-verify-matrix.md) — **J17-4 supported** (Pt. 1 text) · **J17-8 partial** (Khiam) · **J17-9 supported** (Katz no withdrawal)
 
 ## Source anchors
 

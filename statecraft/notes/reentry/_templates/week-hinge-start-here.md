@@ -81,4 +81,4 @@ One entry point for re-entering month-week N of YYYY-MM. Open before the day lad
 
 Invoke: **`statecraft daily intake`** · **`week hinge`** to refresh this file.
 
-**Method:** [METHOD.md § Week Hinge](.statecraft/synthesis/METHOD.md#week-hinge-contract)
+**Method:** [METHOD.md § Week Hinge](../../../synthesis/METHOD.md#week-hinge-contract)

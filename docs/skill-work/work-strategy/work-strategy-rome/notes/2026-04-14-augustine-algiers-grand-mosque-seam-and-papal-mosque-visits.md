@@ -4,7 +4,7 @@
 **Territory:** work-strategy-rome Â· **WORK only** â€” not Record, not catechesis.  
 **ROME-PASS order:** [ROME-PASS.md](../ROME-PASS.md) â€” **vatican.va / Bollettino / Vatican News** before wire-only paraphrase for **what the pope said this week**.
 
-**Related notebook fold:** [strategy-notebook/chapters/2026-04/days.md](../../strategy-notebook/chapters/2026-04/days.md) **`## 2026-04-13`** (Trumpâ€“Leo Ã— Grand Mosque; tier split).  
+**Related notebook fold:** [../../../codex/chapters/2026/2026-04/days.md](../../../../../codex/chapters/2026/2026-04/days.md) **`## 2026-04-13`** (Trumpâ€“Leo Ã— Grand Mosque; tier split).  
 **CIV-MEM pointer:** [CIV-MEM.md](../../../../../CIV-MEM.md); tri-frame routing [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md).
 
 ---
@@ -68,5 +68,5 @@ On **2026-04-13**, **Vatican News** reported **Pope Leo XIV** visiting the **Gra
 ## See also
 
 - [2026-04-05-leo-xiv-civ-mem-historical-context.md](2026-04-05-leo-xiv-civ-mem-historical-context.md)  
-- [rome-persia-legitimacy-signal-check.md](../../strategy-notebook/rome-persia-legitimacy-signal-check.md)
+- [rome-persia-legitimacy-signal-check.md](../../../../../codex/rome-persia-legitimacy-signal-check.md)
 

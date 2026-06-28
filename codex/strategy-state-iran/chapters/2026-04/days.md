@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Purpose:** Iran **institutional / elite** continuity for **April 2026**, parallel to the main notebook [`days.md`](../../../chapters/2026-04/days.md). **Per-day prose** lives under [`daily/`](daily/) (Chronicle / Reflection / References / Foresight). This file is a **calendar index** for the full month.
+**Purpose:** Iran **institutional / elite** continuity for **April 2026**, parallel to the main notebook [`days.md`](../../../chapters/2026/2026-04/days.md). **Per-day prose** lives under [`daily/`](daily/) (Chronicle / Reflection / References / Foresight). This file is a **calendar index** for the full month.
 
 **Compose:** default **end-of-day strategy session** or explicit operator instruction — same discipline as [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *End-of-day strategy session*.
 
@@ -46,4 +46,4 @@ WORK only; not Record.
 | 2026-04-29 | [daily/2026-04-29.md](daily/2026-04-29.md) | Calendar stub |
 | 2026-04-30 | [daily/2026-04-30.md](daily/2026-04-30.md) | Calendar stub |
 
-**Cross-weave:** Iran-lane **`daily/`** pages are **seams** into main [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md), not replacements for **`thread:`** commentator Judgment or wire primaries.
+**Cross-weave:** Iran-lane **`daily/`** pages are **seams** into main [`chapters/2026-04/days.md`](../../../chapters/2026/2026-04/days.md), not replacements for **`thread:`** commentator Judgment or wire primaries.

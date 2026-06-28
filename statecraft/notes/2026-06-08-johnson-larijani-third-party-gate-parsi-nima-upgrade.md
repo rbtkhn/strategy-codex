@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Johnson Larijani Doctrine × June 7 Third-Party Gate — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **Event baseline:** [2026-06-07 Parsi × Nima × McGovern](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) · **June 8 trust statecraft note:** [Davis × Johnson Islamabad](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md)
+**Parent queue:** [2026-06-08 Intake Readiness](intake/2026-06-08-intake-readiness.md) · **Event baseline:** [2026-06-07 Parsi × Nima × McGovern](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) · **June 8 trust statecraft note:** [Davis × Johnson Islamabad](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md)
 
 **Sources:**
 
@@ -33,7 +33,7 @@ Short rule: **McGovern explains why the gate exists; Parsi/Nima show it spent; J
 
 ## June 7 baseline (recap)
 
-From [2026-06-07 statecraft note](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md):
+From [2026-06-07 statecraft note](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md):
 
 | Voice | June 7 claim |
 |-------|----------------|
@@ -132,6 +132,6 @@ If the rule holds 72+ hours without new Lebanon triggers, third-party deterrence
 ## Best Next Uses
 
 - **Parent daily** `2026-06-08.md`: third-party deterrence arc = June 6 gate → June 7 proof → June 8 doctrine receipt; cite this statecraft note for **promotion tier** judgment.
-- **Cross-read:** [2026-06-08 Davis × Crooke Lebanon statecraft note](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) — operational loop that keeps re-spending the gate.
+- **Cross-read:** [2026-06-08 Davis × Crooke Lebanon statecraft note](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) — operational loop that keeps re-spending the gate.
 - **Cross-read:** [Persia transaction — Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) — promote Larijani leg if 72-hr falsifier passes.
 - **Attribution:** Larijani quote via Johnson/Nima live read — pull primary Iranian source text when available; Pepe/Pakistan = separate single-source lane.

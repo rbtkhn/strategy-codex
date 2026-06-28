@@ -1,6 +1,6 @@
 # Deprecated provenance pointer
 
-The canonical statecraft source archive moved to [../../../../source-archive/statecraft/README.md](/C:/dev/strategy-codex/source-archive/statecraft/README.md).
+The canonical statecraft source archive moved to [../../../../source-archive/statecraft/README.md](../../../../source-archive/statecraft/README.md).
 
 Do not add new captures here.
 

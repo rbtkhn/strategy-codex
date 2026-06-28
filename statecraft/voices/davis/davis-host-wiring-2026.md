@@ -10,37 +10,37 @@ Davis is the notebook's clearest host for **military feasibility, battlefield dy
 
 ## Native Stream Spine
 
-- Native body: [statecraft/voices/davis/](/C:/dev/strategy-codex/statecraft/voices/davis/)
-- Stream README: [statecraft/voices/davis/README.md](/C:/dev/strategy-codex/statecraft/voices/davis/README.md)
-- Speaker object: [davis-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-speaker-object.md)
-- Cross-host note: [davis-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-cross-host-note.md)
+- Native body: [statecraft/voices/davis/](.)
+- Stream README: [statecraft/voices/davis/README.md](README.md)
+- Speaker object: [davis-speaker-object.md](davis-speaker-object.md)
+- Cross-host note: [davis-cross-host-note.md](davis-cross-host-note.md)
 
 ## Guest Transformation Matrix
 
 | guest | what Davis elicits | arc | when to open |
 |---|---|---|---|
-| Barnes | Domestic-liability and constitutional-process checks inside war and bargaining pressure. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-barnes-davis-host.md) | Open when the question turns on legality, presidential authority, domestic process, or political liability. |
-| Baud | Law-of-war, alliance-mandate, and coercive-feasibility sobriety. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md) | Open for NATO mandate, legal-military framing, and weak bargaining-hand logic. |
-| Crooke | Diplomatic-process and strategic-room realism under force pressure. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-crooke-davis-host.md) | Open when the problem is negotiation structure, spoiler logic, or whether an off-ramp is real. |
-| Freeman | Statecraft sobriety and diplomatic memory inside practical crisis assessment. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-freeman-davis-host.md) | Open when military choices need career-diplomat restraint and historical statecraft context. |
-| Jermy | Maritime closure, energy-system exposure, and recovery-lag analysis. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-davis-host.md) | Open for Hormuz, naval closure, shipping, fuel, and repair timelines. |
-| Johnson | Operational feasibility and coercive-failure intelligence countervoice. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-johnson-davis-host.md) | Open when rhetoric needs to be checked against capability, intelligence, and adversary resilience. |
-| Kent | Frontline and exit-logic pressure from a compact recurring lane. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md) | Open when the task needs a smaller Davis-side ground-truth or exit-logic check. |
-| Macgregor | War-feasibility, imperial-overreach, and political-danger severity. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-macgregor-davis-host.md) | Open for stark force-balance and overreach arguments inside Davis's practical register. |
-| Marandi | Iranian operational limits, war-feasibility, and political-resilience countervoice. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-davis-host.md) | Open for Tehran-side resilience and U.S. force-posture realism. |
-| Martyanov | Military-feasibility, force-balance, and war-outcome realism. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-martyanov-davis-host.md) | Open for the strongest Davis-side military balance and outcome check. |
-| Mearsheimer | War-feasibility, coercive limits, and bargaining geometry. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-davis-host.md) | Open when structural realism needs to be grounded in practical bargaining limits. |
-| Mercouris | Diplomatic sequencing, institutional politics, and escalation logic under Davis's force-feasibility questions. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-mercouris-davis-host.md) | Open for Ukraine settlement mechanics, European spoiler logic, Iran/Venezuela spillover, Oreshnik signaling, and rule-of-law / statecraft erosion. |
-| Postol | Technical destruction, deterrence realism, and missile-effects correction. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md) | Open for engineering, missile defense, nuclear doctrine, and weapons-effects questions. |
-| Ritter | Operational failure and war-feasibility warning. | [arc](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-davis-host.md) | Open for stockpiles, skies, bases, blockade practicality, and war-plan reality checks. |
+| Barnes | Domestic-liability and constitutional-process checks inside war and bargaining pressure. | [arc](../../notes/arc-barnes-davis-host.md) | Open when the question turns on legality, presidential authority, domestic process, or political liability. |
+| Baud | Law-of-war, alliance-mandate, and coercive-feasibility sobriety. | [arc](../../notes/arc-baud-davis-host.md) | Open for NATO mandate, legal-military framing, and weak bargaining-hand logic. |
+| Crooke | Diplomatic-process and strategic-room realism under force pressure. | [arc](../../notes/arc-crooke-davis-host.md) | Open when the problem is negotiation structure, spoiler logic, or whether an off-ramp is real. |
+| Freeman | Statecraft sobriety and diplomatic memory inside practical crisis assessment. | [arc](../../notes/arc-freeman-davis-host.md) | Open when military choices need career-diplomat restraint and historical statecraft context. |
+| Jermy | Maritime closure, energy-system exposure, and recovery-lag analysis. | [arc](../../notes/arc-jermy-davis-host.md) | Open for Hormuz, naval closure, shipping, fuel, and repair timelines. |
+| Johnson | Operational feasibility and coercive-failure intelligence countervoice. | [arc](../../notes/arc-johnson-davis-host.md) | Open when rhetoric needs to be checked against capability, intelligence, and adversary resilience. |
+| Kent | Frontline and exit-logic pressure from a compact recurring lane. | [arc](../../notes/arc-kent-davis-host.md) | Open when the task needs a smaller Davis-side ground-truth or exit-logic check. |
+| Macgregor | War-feasibility, imperial-overreach, and political-danger severity. | [arc](../../notes/arc-macgregor-davis-host.md) | Open for stark force-balance and overreach arguments inside Davis's practical register. |
+| Marandi | Iranian operational limits, war-feasibility, and political-resilience countervoice. | [arc](../../notes/arc-marandi-davis-host.md) | Open for Tehran-side resilience and U.S. force-posture realism. |
+| Martyanov | Military-feasibility, force-balance, and war-outcome realism. | [arc](../../notes/arc-martyanov-davis-host.md) | Open for the strongest Davis-side military balance and outcome check. |
+| Mearsheimer | War-feasibility, coercive limits, and bargaining geometry. | [arc](../../notes/arc-mearsheimer-davis-host.md) | Open when structural realism needs to be grounded in practical bargaining limits. |
+| Mercouris | Diplomatic sequencing, institutional politics, and escalation logic under Davis's force-feasibility questions. | [arc](../../notes/arc-mercouris-davis-host.md) | Open for Ukraine settlement mechanics, European spoiler logic, Iran/Venezuela spillover, Oreshnik signaling, and rule-of-law / statecraft erosion. |
+| Postol | Technical destruction, deterrence realism, and missile-effects correction. | [arc](../../notes/arc-postol-davis-host.md) | Open for engineering, missile defense, nuclear doctrine, and weapons-effects questions. |
+| Ritter | Operational failure and war-feasibility warning. | [arc](../../notes/arc-ritter-davis-host.md) | Open for stockpiles, skies, bases, blockade practicality, and war-plan reality checks. |
 
 ## Best Entry Points
 
-- Best single Davis host arc for operational feasibility: [arc](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-davis-host.md)
-- Best technical branch: [arc](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
-- Best diplomatic-process branch: [arc](/C:/dev/strategy-codex/statecraft/notes/arc-crooke-davis-host.md)
-- Best diplomatic-sequencing / institutional-politics branch: [arc](/C:/dev/strategy-codex/statecraft/notes/arc-mercouris-davis-host.md)
-- Best structural-realist branch: [arc](/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-davis-host.md)
+- Best single Davis host arc for operational feasibility: [arc](../../notes/arc-ritter-davis-host.md)
+- Best technical branch: [arc](../../notes/arc-postol-davis-host.md)
+- Best diplomatic-process branch: [arc](../../notes/arc-crooke-davis-host.md)
+- Best diplomatic-sequencing / institutional-politics branch: [arc](../../notes/arc-mercouris-davis-host.md)
+- Best structural-realist branch: [arc](../../notes/arc-mearsheimer-davis-host.md)
 
 ## Routing Lesson - Title Inference
 

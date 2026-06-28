@@ -22,7 +22,7 @@ This chapter tracks recurring Roman game structure, but it does not reduce Rome 
 
 ## Return Path
 
-Return through [CIV-STATE Rome](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/README.md), [Rome sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sovereign-continuity.md), [Rome geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/geo-strategy-rome.md), and [Rome sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [CIV-STATE Rome](README.md), [Rome sovereign continuity](sovereign-continuity.md), [Rome geo-strategy](geo-strategy-rome.md), and [Rome sacred grammar](sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

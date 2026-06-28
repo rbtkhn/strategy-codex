@@ -7,13 +7,13 @@ Purpose: assess the live `statecraft/voices/` corpus for recursive self-improvem
 Scope:
 
 - canonical speaker shelves under `statecraft/voices/`
-- top-level speaker shelf doctrine in [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md)
+- top-level speaker shelf doctrine in [statecraft/voices/README.md](../voices/README.md)
 - top-level shelf surfaces (`README.md`, `index.md`, `*-arc.md`, `*-routing.md`, `*-source-index.md`, `*-support-spine*.md`, `*-helix.md`)
 - speaker-owned flat shelf files and theme registers where present
 
 Explicit carveout:
 
-- the embedded Jiang mirror at [public/predictive-history/](/C:/dev/strategy-codex/public/predictive-history/README.md) was treated as a special mirror surface, not judged by ordinary shelf-link expectations
+- the embedded Jiang mirror at [public/predictive-history/](../../public/predictive-history/README.md) was treated as a special mirror surface, not judged by ordinary shelf-link expectations
 
 ## Executive View
 
@@ -61,7 +61,7 @@ Practical class map:
 
 ### 1. Shelf-law is mostly real, not decorative
 
-The top-level doctrine in [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md) broadly matches the actual corpus:
+The top-level doctrine in [statecraft/voices/README.md](../voices/README.md) broadly matches the actual corpus:
 
 - all six normalized shelves have `README.md`, `index.md`, arc, routing, provenance bench, support spine, monthly shelves, and theme registers
 - all six normalized shelves have a full bounded `2026-01` through `2026-05` monthly ladder
@@ -98,12 +98,12 @@ All normalized shelves expose:
 
 Verified for:
 
-- [crooke/stream](../speakers/crooke/crooke-monthly-shelves.md)
-- [freeman/stream](../speakers/freeman/freeman-monthly-shelves.md)
-- [johnson/stream](../speakers/johnson/johnson-monthly-shelves.md)
-- [macgregor/stream](../speakers/macgregor/macgregor-monthly-shelves.md)
-- [mercouris/stream](../speakers/mercouris/mercouris-monthly-shelves.md)
-- [ritter/stream](../speakers/ritter/ritter-monthly-shelves.md)
+- [crooke/stream](../voices/crooke/crooke-monthly-shelves.md)
+- [freeman/stream](../voices/freeman/freeman-monthly-shelves.md)
+- [johnson/stream](../voices/johnson/johnson-monthly-shelves.md)
+- [macgregor/stream](../voices/macgregor/macgregor-monthly-shelves.md)
+- [mercouris/stream](../voices/mercouris/mercouris-monthly-shelves.md)
+- [ritter/stream](../voices/ritter/ritter-monthly-shelves.md)
 
 This is valuable because it means the structural grammar is already reusable once link-law is repaired.
 
@@ -125,13 +125,13 @@ Healthy shelves with zero broken links should be treated as the norm. The five s
 
 Representative files:
 
-- [statecraft/voices/crooke/crooke-source-index.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-source-index.md)
-- [statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md)
-- [statecraft/voices/mercouris/arc-mercouris-continuity-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/arc-mercouris-continuity-threads.md)
-- [statecraft/voices/mercouris/mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-shelf-2026-01.md)
-- [statecraft/voices/macgregor/macgregor-source-index.md](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-source-index.md)
-- [statecraft/voices/ritter/ritter-source-index.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-source-index.md)
-- [statecraft/voices/sachs/sachs-routing.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-routing.md)
+- [statecraft/voices/crooke/crooke-source-index.md](../voices/crooke/crooke-source-index.md)
+- [statecraft/voices/crooke/crooke-interview-appearances-2025-2026.md](../voices/crooke/crooke-interview-appearances-2025-2026.md)
+- [statecraft/voices/mercouris/arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md)
+- [statecraft/voices/mercouris/mercouris-shelf-2026-01.md](../voices/mercouris/mercouris-shelf-2026-01.md)
+- [statecraft/voices/macgregor/macgregor-source-index.md](../voices/macgregor/macgregor-source-index.md)
+- [statecraft/voices/ritter/ritter-source-index.md](../voices/ritter/ritter-source-index.md)
+- [statecraft/voices/sachs/sachs-routing.md](../voices/sachs/sachs-routing.md)
 
 Why this matters:
 
@@ -155,7 +155,7 @@ This is good news operationally because a small number of deterministic rewrite 
 Representative failure patterns:
 
 - `../../years/2026/provenance/...`
-- `/C:/dev/strategy-codex/codex/years/2026/provenance/...`
+- `../../codex/years/2026/provenance/...`
 - `mercouris-thread.md`
 - `mercouris-page-2026-04-05.md`
 - `../diesen/arc-crooke-diesen-host.md`
@@ -163,15 +163,15 @@ Representative failure patterns:
 
 ### [P1] Top-level doctrine is missing two real shelf classes that now exist on disk
 
-The constitutional shelf taxonomy in [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md) covers normalized, cross-context, lighter first-pass, and host-led exception shelves well, but two actual classes are under-described:
+The constitutional shelf taxonomy in [statecraft/voices/README.md](../voices/README.md) covers normalized, cross-context, lighter first-pass, and host-led exception shelves well, but two actual classes are under-described:
 
 - `hoh` is a real starter exception shelf with routing and provenance but without full canonical shelf status
 - `jiang` is a mirror-bearing exception shelf whose primary value is an embedded public corpus mirror, not ordinary speaker shelf symmetry
 
 Symptoms:
 
-- [statecraft/voices/hoh/README.md](/C:/dev/strategy-codex/statecraft/voices/hoh/README.md) openly says it is "not yet a full canonical speaker shelf"
-- [statecraft/voices/jiang/README.md](/C:/dev/strategy-codex/statecraft/voices/jiang/README.md) defines a mirror-first rule that does not fit the standard shelf classes
+- [statecraft/voices/hoh/README.md](../voices/hoh/README.md) openly says it is "not yet a full canonical speaker shelf"
+- [statecraft/voices/jiang/README.md](../voices/jiang/README.md) defines a mirror-first rule that does not fit the standard shelf classes
 
 Why this matters:
 
@@ -197,14 +197,14 @@ This is not a correctness bug by itself, but it lowers machine-auditability and 
 
 Examples of especially tidy front doors:
 
-- [statecraft/voices/parsi/README.md](/C:/dev/strategy-codex/statecraft/voices/parsi/README.md)
-- [statecraft/voices/pape/README.md](/C:/dev/strategy-codex/statecraft/voices/pape/README.md)
-- [statecraft/voices/sachs/README.md](/C:/dev/strategy-codex/statecraft/voices/sachs/README.md)
+- [statecraft/voices/parsi/README.md](../voices/parsi/README.md)
+- [statecraft/voices/pape/README.md](../voices/pape/README.md)
+- [statecraft/voices/sachs/README.md](../voices/sachs/README.md)
 
 Examples of format irregularity:
 
-- [statecraft/voices/hoh/README.md](/C:/dev/strategy-codex/statecraft/voices/hoh/README.md) places the H1 before the `WORK only; not Record.` fence and uses `Open first:` / `Boundary:` prose instead of the standard `##` sections
-- several top-level non-README canonical surfaces omit the work fence entirely even within the same mature shelves, for example [statecraft/notes/arc-crooke-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-crooke-continuity.md) and [statecraft/voices/mercouris/mercouris-routing.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-routing.md)
+- [statecraft/voices/hoh/README.md](../voices/hoh/README.md) places the H1 before the `WORK only; not Record.` fence and uses `Open first:` / `Boundary:` prose instead of the standard `##` sections
+- several top-level non-README canonical surfaces omit the work fence entirely even within the same mature shelves, for example [statecraft/notes/arc-crooke-continuity.md](../notes/arc-crooke-continuity.md) and [statecraft/voices/mercouris/mercouris-routing.md](../voices/mercouris/mercouris-routing.md)
 
 ### [P2] Cross-host connectivity is under-owned
 
@@ -212,8 +212,8 @@ Some mature shelves still advertise host-lane openings that no longer exist at t
 
 Clear cases:
 
-- [statecraft/voices/crooke/README.md](/C:/dev/strategy-codex/statecraft/voices/crooke/README.md) points to absent Diesen, Davis, and Nima speaker arcs
-- [statecraft/voices/sachs/README.md](/C:/dev/strategy-codex/statecraft/voices/sachs/README.md), [sachs-routing.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-routing.md), and [sachs-source-index.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-source-index.md) all point to a missing `diesen-sachs-speaker-arc.md`
+- [statecraft/voices/crooke/README.md](../voices/crooke/README.md) points to absent Diesen, Davis, and Nima speaker arcs
+- [statecraft/voices/sachs/README.md](../voices/sachs/README.md), [sachs-routing.md](../voices/sachs/sachs-routing.md), and [sachs-source-index.md](../voices/sachs/sachs-source-index.md) all point to a missing `diesen-sachs-speaker-arc.md`
 
 Why this matters:
 
@@ -226,7 +226,7 @@ Why this matters:
 
 Example:
 
-- [statecraft/voices/freeman/index.md](/C:/dev/strategy-codex/statecraft/voices/freeman/index.md) is a denser operational route surface than [freeman/README.md](/C:/dev/strategy-codex/statecraft/voices/freeman/README.md)
+- [statecraft/voices/freeman/index.md](../voices/freeman/index.md) is a denser operational route surface than [freeman/README.md](../voices/freeman/README.md)
 
 But the repo has no per-speaker manifest declaring:
 
@@ -338,7 +338,7 @@ This would remove a lot of audit ambiguity now encoded only in prose.
 
 ### Phase 3 - Doctrine normalization
 
-Update [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md) to add:
+Update [statecraft/voices/README.md](../voices/README.md) to add:
 
 - starter exception shelves
 - mirror-bearing exception shelves

@@ -42,14 +42,14 @@ After the first `civ-emp` object, open:
 
 - [Iran helix](../iran/helix.md)
 - [Iran peace](../iran/civilization/peace.md)
-- [Iran transactions](../iran/transactions/README.md)
+- [Iran transactions](../../../../README.md)
 - [Transaction router](../sheets/transaction-router.md)
 - [National perspective orthogonality](../sheets/national-perspective-orthogonality.md)
 
 Speaker-side return path when needed:
 
 - [Parsi arc](../../speakers/parsi/arc-parsi-continuity.md)
-- [Parsi thread atlas](../../speakers/parsi/parsi-2025-present-arc-threads.md)
+- [Parsi thread atlas](../../../../statecraft/voices/parsi/parsi-2025-present-arc-threads.md)
 
 ## Failure Test
 

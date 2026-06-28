@@ -36,7 +36,7 @@ _From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
 - Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) — use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
 
-_Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](../../work-strategy/README.md)._
+_Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](../../../README.md)._
 
 ## 2. Headlines (ingested RSS)
 

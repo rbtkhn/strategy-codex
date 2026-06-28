@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md):
+This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md):
 
 **How close is the Ukraine war to a Russia–NATO direct-confrontation threshold, and who explains which part of that ladder?**
 
@@ -140,11 +140,11 @@ This statecraft note sharpens the parent note's tertiary Russia lane and `Mechan
 
 ## Source Anchors
 
-- [Polyanskiy / Mario Nawfal - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-mario-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md>)
-- [Mercouris / The Duran - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md>)
-- [Mercouris / Alexander Mercouris - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alexander-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>)
+- [Polyanskiy / Mario Nawfal - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-mario-nawfal-polyanskiy-the-decision-in-europe-has-already-been-made-2026-06-06.md>)
+- [Mercouris / The Duran - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md>)
+- [Mercouris / Alexander Mercouris - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-alexander-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>)
 
 Related:
 
-- [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md)
-- [Persia: Lebanon-First Gate Vs Hormuz Mechanics](statecraft/notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+- [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md)
+- [Persia: Lebanon-First Gate Vs Hormuz Mechanics](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)

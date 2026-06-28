@@ -4,7 +4,7 @@
 
 ## Canonical machine pull (repo)
 
-After running the fetch in [`youtube-channels/vi-12-j-shapiro/README.md`](../../youtube-channels/vi-12-j-shapiro/README.md), raw text lives at:
+After running the fetch in [`youtube-channels/vi-12-j-shapiro/README.md`](../../../README.md), raw text lives at:
 
 `research/external/youtube-channels/vi-12-j-shapiro/transcripts/oErKnj_uyPA_*.txt`  
 *(gitignored — present on machine after fetch; filename suffix matches YouTube title.)*

@@ -19,9 +19,9 @@ This file should be read as the **operational-posture and war-conduct** Aguilar 
 Quick separation rule:
 
 - `Dialogue Works x Aguilar` = blockade posture, coalition burden, practitioner-facing operational consequence, and moral-military rupture
-- [arc-postol-nima-host.md](/C:/dev/strategy-codex/arc-postol-nima-host.md) = engineering limits, destruction mechanics, and technical system truth
-- [arc-ritter-nima-host.md](/C:/dev/strategy-codex/arc-ritter-nima-host.md) = maximal live-war pressure and strategic inversion under headline tempo
-- [arc-johnson-nima-host.md](/C:/dev/strategy-codex/arc-johnson-nima-host.md) = intelligence-political causation and regime-choice reading
+- [arc-postol-nima-host.md](../../arc-postol-nima-host.md) = engineering limits, destruction mechanics, and technical system truth
+- [arc-ritter-nima-host.md](../../arc-ritter-nima-host.md) = maximal live-war pressure and strategic inversion under headline tempo
+- [arc-johnson-nima-host.md](../../arc-johnson-nima-host.md) = intelligence-political causation and regime-choice reading
 
 If the notebook needs to know whether ships, coalitions, and deployments can actually sustain blockade or escalation claims in practitioner terms, route here. If it needs mechanism proof, maximal crisis interpretation, or political intelligence framing, route to the neighboring branches instead.
 
@@ -91,9 +91,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [arc-postol-nima-host.md](/C:/dev/strategy-codex/arc-postol-nima-host.md), which tests claims at the engineering-destruction layer
-- [arc-ritter-nima-host.md](/C:/dev/strategy-codex/arc-ritter-nima-host.md), which translates the same crisis into maximal immediate loss-of-control language
-- [arc-johnson-nima-host.md](/C:/dev/strategy-codex/arc-johnson-nima-host.md), which is stronger on intelligence, policy, and elite causation than on practitioner-facing force posture
+- [arc-postol-nima-host.md](../../arc-postol-nima-host.md), which tests claims at the engineering-destruction layer
+- [arc-ritter-nima-host.md](../../arc-ritter-nima-host.md), which translates the same crisis into maximal immediate loss-of-control language
+- [arc-johnson-nima-host.md](../../arc-johnson-nima-host.md), which is stronger on intelligence, policy, and elite causation than on practitioner-facing force posture
 
 ## Boundaries
 

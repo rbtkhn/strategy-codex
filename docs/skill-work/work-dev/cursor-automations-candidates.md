@@ -20,7 +20,7 @@
 | **thanks** | one **`thanks`** line via `log_cadence_event.py` | [thanks/SKILL.md](../../../.cursor/skills/thanks/SKILL.md) | **Deprecated** operator habit Ã¢â‚¬â€ prefer **conductor** | Legacy micro-pause if invoked |
 | **handoff / re-entry** | `recursion-gate.md`, worktree, PH closeout block | `python3 scripts/operator_handoff_check.py -u grace-mar`; `operator_reentry_stack.py` for cold start | On pause or resume | Gate triage, re-entry prompt wording |
 | **Steward / gate (manual)** | `recursion-gate.md` | `operator_gate_review_pass.py` Ã¢â€ â€™ **human approve** Ã¢â€ â€™ `process_approved_candidates.py --apply` (never autonomous) | Weekly / on approve | **Companion approval** for every merge |
-| **integrity / derived** | `manifest.json`, `grace-mar-llm.txt`, `fork-manifest.json`, runtime bundle, etc. | `validate-integrity.py`, `regen_grace_mar_derived.sh` (see [work-cadence README](../../work-cadence/README.md)) | After Record/prompt commits | regen batch vs single export |
+| **integrity / derived** | `manifest.json`, `grace-mar-llm.txt`, `fork-manifest.json`, runtime bundle, etc. | `validate-integrity.py`, `regen_grace_mar_derived.sh` (see [work-cadence README](../../../README.md)) | After Record/prompt commits | regen batch vs single export |
 | **work-strategy** (default lane) | `strategy-notebook/**`, inbox, `days.md` | skill-strategy, manual compose | Daily / session | Judgment, verify tier, promote |
 | **work-jiang** | `codex/predictive-history/**`, registries | `scripts/validate_predictive_history_boundary.py` and boundary docs | On explicit boundary work only | validate freeze contract |
 
@@ -63,7 +63,7 @@
 
 | # | Friction | Why it bites | Routine / contextual |
 |---|----------|--------------|------------------------|
-| 1 | **Stale derived + integrity red** after platform/profile/PRP-adjacent work | [work-cadence](../../work-cadence/README.md) calls out manifest/PRP/bundle drift; easy to forget `regen_grace_mar_derived.sh` | Routine check; human chooses when to regen |
+| 1 | **Stale derived + integrity red** after platform/profile/PRP-adjacent work | [work-cadence](../../../README.md) calls out manifest/PRP/bundle drift; easy to forget `regen_grace_mar_derived.sh` | Routine check; human chooses when to regen |
 | 2 | **PR cognitive load** (lane label, scope, gated `[gated-merge]`, many jobs) | Multiple workflows fire; [lane-pr-hint](../../../.github/workflows/lane-pr-hint.yml) helps label only | Mix Ã¢â‚¬â€ mechanics routine, *intent* contextual |
 | 3 | **Gate queue** (`recursion-gate.md`) visibility between sessions | [instance-doctrine](../../../instance-doctrine.md) wants queue processed; [operator-weekly-review](../../../docs/operator-weekly-review.md) rhythm | Reminder = routine; **merge** = always human |
 | 4 | **Cold re-entry** (what to run, whatÃ¢â‚¬â„¢s safe to ignore) | `operator_reentry_stack.py` / handoff exist but require **you** in Cursor or shell | Contextual; optional **scheduled nudge** is weak substitute for `coffee` |

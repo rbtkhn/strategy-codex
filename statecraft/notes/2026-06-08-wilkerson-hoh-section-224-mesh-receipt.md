@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 daily](statecraft/synthesis/day/2026-06-08.md) · **Prior:** [June 4 daily](statecraft/synthesis/day/2026-06-04.md) · [Hoh × Henningsen × Pape falsifier](statecraft/notes/2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
+**Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 daily](../synthesis/day/2026-06-08.md) · **Prior:** [June 4 daily](../synthesis/day/2026-06-04.md) · [Hoh × Henningsen × Pape falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
 
 **Sources:**
 
@@ -93,7 +93,7 @@ Short compression: **June 4 Hoh proves the trap is being welded into law; June 8
 | **D** — origination disqualification | Netanyahu letter | **Tape** of congressman authoring clause |
 | **E** — performative daylight | Axios leaks | Trump wants out / BB caught — rhetoric ≠ statute unwind |
 
-**Receipt rows** (01–02 here; **03** appended via [Sachs × Wilkerson × Barnes companion](statecraft/notes/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) → [America transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)):
+**Receipt rows** (01–02 here; **03** appended via [Sachs × Wilkerson × Barnes companion](2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) → [America transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)):
 
 | ID | Row | Falsifier |
 |----|-----|-----------|
@@ -116,9 +116,9 @@ Short compression: **June 4 Hoh proves the trap is being welded into law; June 8
 
 1. Read **Hoh June 4** for clause mechanics and Lebanon farce pairing.
 2. Read **Wilkerson June 8** for why mesh is Netanyahu's rear-guard and why public opposition cannot brake it without Clauses A–D.
-3. Cross-read [Barnes America capture](statecraft/notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — material rows (non-intercept, Colby) **under** statutory mesh spine.
-4. Cross-read [Sachs × Wilkerson × Barnes spying pushback](statecraft/notes/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) — **AMER-224-RCPT-03** (disclosure week vs dark merge).
-4. Cross-read [Davis dual episode](statecraft/notes/2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md) — adviser drowning (Keane) is **parallel** failure mode to statutory drowning (224).
+3. Cross-read [Barnes America capture](2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — material rows (non-intercept, Colby) **under** statutory mesh spine.
+4. Cross-read [Sachs × Wilkerson × Barnes spying pushback](2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) — **AMER-224-RCPT-03** (disclosure week vs dark merge).
+4. Cross-read [Davis dual episode](2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md) — adviser drowning (Keane) is **parallel** failure mode to statutory drowning (224).
 
 ---
 
@@ -126,4 +126,4 @@ Short compression: **June 4 Hoh proves the trap is being welded into law; June 8
 
 - Transaction: [foreign-client-mesh-separation-and-command-review](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 - Persia cross-lane: [Lebanon gate Clause B](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) — U.S. assurances need statutory/mediator carriers; 224 is inverse
-- Week arc: [2026-06-04](statecraft/synthesis/day/2026-06-04.md) → [2026-06-06 America captured command](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) → [2026-06-08](statecraft/synthesis/day/2026-06-08.md)
+- Week arc: [2026-06-04](../synthesis/day/2026-06-04.md) → [2026-06-06 America captured command](2026-06-06-america-captured-command-ndaa-ci-client-veto.md) → [2026-06-08](../synthesis/day/2026-06-08.md)

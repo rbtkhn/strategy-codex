@@ -16,10 +16,10 @@ If a question is about host transformation, comparison use, or canonical routing
 
 Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Mearsheimer shelf, the canonical orthogonality-bearing structure is [mearsheimer-helix.md](mearsheimer-helix.md) plus the distinct host-local arcs it compares, not this file.
 
-**Source:** Human **narrative journal** (below) + [`strategy-expert-mearsheimer-transcript.md`](strategy-expert-mearsheimer-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃ¢â‚¬â„¢s material was used).
+**Source:** Human **narrative journal** (below) + [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃ¢â‚¬â„¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-mearsheimer.md`](strategy-expert-mearsheimer.md) (profile), [`strategy-expert-mearsheimer-transcript.md`](strategy-expert-mearsheimer-transcript.md) (7-day verbatim), [`strategy-expert-mearsheimer-mind.md`](strategy-expert-mearsheimer-mind.md) (long-form mind).
+**Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) (profile), [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md) (7-day verbatim), [`strategy-expert-mearsheimer-mind.md`](strategy-expert-mearsheimer-mind.md) (long-form mind).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -155,7 +155,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 <!-- backfill:mearsheimer:end -->
 ## 2026-04
 
-_April **2026-04-20** ingests **Chris Hedges Report** operator transcript ([`raw-input/Ã¢â‚¬Â¦/source-hedges-mearsheimer-iran-2026-04-20.md`](../../../years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)); Segment 2 remains **Page-index** + machine block._
+_April **2026-04-20** ingests **Chris Hedges Report** operator transcript ([`raw-input/Ã¢â‚¬Â¦/source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)); Segment 2 remains **Page-index** + machine block._
 
 April lattice is **Mercouris Ãƒâ€” Mearsheimer** (speech-act vs structural incentives) on Lebanon / Hormuz week Ã¢â‚¬â€ scaffold and blockade weaves carry the cross-expert seam; Pape Janssen block adds domestic escalation-trap vocabulary beside same cycle.
 
@@ -175,7 +175,7 @@ Verification stance for John Mearsheimer in 2026-04 should stay tier-honest: web
 - [strength: medium] **Fork:** `mercouris-mearsheimer-lebanon-split` Ã¢â‚¬â€ diplomatic surface vs incentive geometry Ã¢â‚¬â€ **do not** voice-merge.
 - [strength: medium] **Scaffold:** `marandi-ritter-mercouris-hormuz-scaffold` Ã¢â‚¬â€ DavisÃƒâ€”FreemanÃƒâ€”Mearsheimer parallel plane named in Page header.
 - [strength: medium] **Lattice:** `ritter-blockade-hormuz-weave` Ã‚Â· `pape-janssen-escalation-blockade` Ã¢â‚¬â€ blockade calendar vs structural off-ramp framing Ã¢â‚¬â€ tier discipline.
-- [strength: medium] **2026-04-20 Ã¢â‚¬â€ Chris Hedges Report:** Islamabad timing (<48h), Iran **10-point** scaffold, Hormuz blockade + ship-seizure breach frame, deal/extend-ceasefire vs escalation ladder, Israel lobby Ãƒâ€” economy cliff, Lebanon lever, **WSJ** tantrum (F-15 down) episode, Titanic/food/fertilizer/jet fuel Ã¢â‚¬â€ full transcript [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md); **cross** `mercouris`, `ritter`, `pape`, IRI state bundles.
+- [strength: medium] **2026-04-20 Ã¢â‚¬â€ Chris Hedges Report:** Islamabad timing (<48h), Iran **10-point** scaffold, Hormuz blockade + ship-seizure breach frame, deal/extend-ceasefire vs escalation ladder, Israel lobby Ãƒâ€” economy cliff, Lebanon lever, **WSJ** tantrum (F-15 down) episode, Titanic/food/fertilizer/jet fuel Ã¢â‚¬â€ full transcript [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md); **cross** `mercouris`, `ritter`, `pape`, IRI state bundles.
 
 ---
 <!-- strategy-page:start id="mercouris-mearsheimer-lebanon-split" date="2026-04-14" watch="accountability-language" -->
@@ -191,8 +191,8 @@ Verification stance for John Mearsheimer in 2026-04 should stay tier-honest: web
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `mercouris-mearsheimer-lebanon-split` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `mercouris-mearsheimer-lebanon-split` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -205,14 +205,14 @@ Verification stance for John Mearsheimer in 2026-04 should stay tier-honest: web
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ when present, a **`batch-analysis | Ã¢â‚¬Â¦ | Mercouris Ãƒâ€” Mearsheimer`** or separate **`thread:mercouris`** / **`thread:mearsheimer`** lines on **Lebanon**/**Israel**/**Washington** **talks** (search `Lebanon`, `Mercouris`, `Mearsheimer`). **Typical pairing:** [strategy-commentator-threads.md](../../../strategy-commentator-threads.md) (`mercouris` Ãƒâ€” `mearsheimer`).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ when present, a **`batch-analysis | Ã¢â‚¬Â¦ | Mercouris Ãƒâ€” Mearsheimer`** or separate **`thread:mercouris`** / **`thread:mearsheimer`** lines on **Lebanon**/**Israel**/**Washington** **talks** (search `Lebanon`, `Mercouris`, `Mearsheimer`). **Typical pairing:** [strategy-commentator-threads.md](../../../strategy-commentator-threads.md) (`mercouris` Ãƒâ€” `mearsheimer`).
 - **Expert threads:** `mercouris`, `mearsheimer` Ã¢â‚¬â€ **two** **Judgment** **planes**: **diplomatic** **legitimacy** / **room** **narrative** vs **offensive-realist** **incentives** / **alliance** **geometry**; **not** a merged **single** **expert** **object**.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass
 
 ### Chronicle
 
-See [`days.md` Ã‚Â§ Signal / Ã‚Â§ Judgment](../days.md) when **Lebanon**/**Washington** **venue** lines appear beside **Hormuz**/**Iran** **cycle**; this page **abstracts** **Mercouris**/**Mearsheimer** **fork** only.
+See [`days.md` Ã‚Â§ Signal / Ã‚Â§ Judgment](../../../codex/chapters/2026/2026-04/days.md) when **Lebanon**/**Washington** **venue** lines appear beside **Hormuz**/**Iran** **cycle**; this page **abstracts** **Mercouris**/**Mearsheimer** **fork** only.
 
 ### Reflection
 
@@ -230,8 +230,8 @@ Pins keep **Mercouris** **legitimacy** **layer** and **Mearsheimer** **structure
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | Active month **`days.md`** **Judgment** / **Signal** (Lebanon-relevant lines) | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
-| **2** | **`thread:mercouris`** / **`thread:mearsheimer`** grep surface | [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) |
+| **1** | Active month **`days.md`** **Judgment** / **Signal** (Lebanon-relevant lines) | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
+| **2** | **`thread:mercouris`** / **`thread:mearsheimer`** grep surface | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
 | **3** | **Mercouris** / **Mearsheimer** **episode** or **transcript** (when scoped to this page) | `TBD` Ã¢â‚¬â€ pin **canonical** **watch** **URL** |
 
 **Falsifier:** This page fails if **Lebanon**/**Washington** **progress** is **asserted** from **Mercouris**-class **narrative** **alone** **without** **Mearsheimer**-class **incentive** **checks** (or **vice versa**: **structure** **only** **without** **on-record** **speech** **acts**) Ã¢â‚¬â€ **forced** **merge** **replaces** **Thesis A / B** **discipline**.
@@ -243,7 +243,7 @@ Pins keep **Mercouris** **legitimacy** **layer** and **Mearsheimer** **structure
 
 ---
 
-### Optional page index row (copy-paste into [`legacy page index`](../../../legacy page index))
+### Optional page index row (copy-paste into [`legacy page index`](../../../README.md))
 
 ```yaml
   - page_id: `mercouris-mearsheimer-lebanon-split` (legacy path removed)
@@ -262,15 +262,15 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 
 **Inbox material:**
 
-**Commentator threads (stable ids):** For recurring experts and **`batch-analysis`** pairings, see [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ optional **`thread:<expert_id>`** in the **`verify:`** tail **only** when **cold** attributes speech/analysis to that **named** expert (e.g. `verify:Ã¢â‚¬Â¦ | thread:davis`). **Wires** without a named expert speaker Ã¢â€ â€™ **`verify:wire-RSS`** (and topic tags), **no** expert **`thread:`**. **Crossing rules** (what may mix across threads): **Crossing filters** section in that file; optional tails **`membrane:single`**, **`membrane:pair`**, **`crosses:<id>+<id>`**, **`seam:<slug>+<slug>`** (often on **`batch-analysis`** when **`crosses:`** is not two **`expert_id`**s). **Recommended one-liners** (e.g. **Pape** vs **Barnes** domestic plane): **Distinctive lane shorthands** in that same file. When you use **`thread:`**, you may rebuild the per-expert rolling corpus: **`python3 scripts/strategy_thread.py`** (operator **`thread`**; delegates to `strategy_expert_corpus.py`) Ã¢â€ â€™ **`strategy-expert-<expert_id>.md`** in this directory (last **7** days inside the script block; **not** Record). See [strategy-commentator-threads.md](strategy-commentator-threads.md) and [expert-ingest-corpus/README.md](expert-ingest-corpus/README.md) (redirect).
+**Commentator threads (stable ids):** For recurring experts and **`batch-analysis`** pairings, see [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ optional **`thread:<expert_id>`** in the **`verify:`** tail **only** when **cold** attributes speech/analysis to that **named** expert (e.g. `verify:Ã¢â‚¬Â¦ | thread:davis`). **Wires** without a named expert speaker Ã¢â€ â€™ **`verify:wire-RSS`** (and topic tags), **no** expert **`thread:`**. **Crossing rules** (what may mix across threads): **Crossing filters** section in that file; optional tails **`membrane:single`**, **`membrane:pair`**, **`crosses:<id>+<id>`**, **`seam:<slug>+<slug>`** (often on **`batch-analysis`** when **`crosses:`** is not two **`expert_id`**s). **Recommended one-liners** (e.g. **Pape** vs **Barnes** domestic plane): **Distinctive lane shorthands** in that same file. When you use **`thread:`**, you may rebuild the per-expert rolling corpus: **`python3 scripts/strategy_thread.py`** (operator **`thread`**; delegates to `strategy_expert_corpus.py`) Ã¢â€ â€™ **`strategy-expert-<expert_id>.md`** in this directory (last **7** days inside the script block; **not** Record). See [strategy-commentator-threads.md](strategy-commentator-threads.md) and [expert-ingest-corpus/README.md](../../../README.md) (redirect).
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **2026-04-19** Ã¢â‚¬â€ **Persian Gulf crisis** stack: Islamabad-era **HormuzÃ¢â‚¬â€œLebanon** linkage **collapsed**; **Trump** statements (**uranium** **handover**, **open** **Strait** **vs** **continued** **blockade**) as **proximate** **cause** **of** **breakdown**; **IRI** **tight** **Hormuz** **control**, **warning** **shots** **at** **tankers** **(per** **Mercouris)**; **WH** **meeting** **(Trump/Rubio/Hegseth/Vance/Wiles)**; **rumor** **US** **may** **seize** **Iran-linked** **ships** **worldwide** **(incl.** **IranÃ¢â€ â€™China** **routes)**; **Ghalibaf** **via** **Tasnim** **rejects** **Trump** **talks** **claims**; **refutes** **David** **Miller** **X** **theory** **(Araghchi** **Ã¢â‚¬Å“twoÃ¢â‚¬Â** **10-point** **lists** **/** **capitulation)** Ã¢â‚¬â€ **cites** **Mirandi** **Islamabad** **accounts** **+** **Ghalibaf** **lead** **delegation** **as** **falsifiers**; **alleges** **Western** **intel** **sow** **Iran** **leadership** **splits** **(parallel** **to** **Qaani** **Mar** **video** **Ã¢â‚¬â€** **Apr** **11** **IRGC** **Qaani** **post** **as** **counter)**; **Velayati** **X**: **regional** **straits**, **Malacca**, **Houthis/** **Bab** **el-Mandeb**, **China** **partners**; **Lavrov** **Antalya**: **war** **Ã¢â‚¬Å“aboutÃ¢â‚¬Â** **Iran** **oil** **/** **China** **supply** **(partial** **readout)**; **Baltic/** **Finland** **red** **lines**, **Grushko** **echo**, **NATO** **Ã¢â‚¬Å“paper** **tigerÃ¢â‚¬Â** **adjacent**; **Ukraine** **strike** **mention** **only** // hook: **Ã‚Â§1dÃ¢â‚¬â€œÃ‚Â§1h** **week** **Ã¢â‚¬â€** **Mercouris** **institutional** **narrative** **vs** **ORBAT** **/** **MFA** **primaries**; **verify** **before** **Judgment** **merge** | https://www.youtube.com/watch?v=TBD-mercouris-2026-04-19 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-19+Tasnim-primary+Bloomberg-if-cited+Lavrov-partial-readout | thread:mercouris | grep:Mercouris+Hormuz+Lavrov+Araghchi+Velayati+Islamabad+Malacca
 - batch-analysis | 2026-04-19 | **Mercouris Ãƒâ€” Marandi (Islamabad / Miller fork)** | **Tension-first:** **`mercouris`** **rejects** **Miller** **Ã¢â‚¬Å“dual** **10-point**Ã¢â‚¬Â **story** **and** **defends** **Araghchi** **coordination** **thesis** **Ã¢â‚¬â€** **uses** **`marandi`** **(Tehran)** **as** **informed** **control** **witness** **for** **Islamabad** **room** **(not** **a** **`thread:marandi`** **line** **unless** **you** **paste** **Mirandi** **speech** **itself).** **Shared** **risk:** **intel** **sourced** **narratives** **about** **IRI** **splits** **Ã¢â‚¬â€** **tier** **hypothesis** **until** **named** **IRI** **or** **wire** **primary.** **Cross** **`thread:marandi`** **when** **Mirandi** **primary** **ingest** **lands** **same** **arc.** | crosses:mercouris+marandi
 - batch-analysis | 2026-04-19 | **Parsi Ãƒâ€” Mercouris** (Minab Ã¢â€ â€™ Leo XIV) | **Tension-first:** **`parsi`** = Beltway **process** read and **USÃ¢â‚¬â€œIran** **optics** vs **humanitarian** **pressure** (how DC narrates **signals**). **`mercouris`** = **institutional** **diplomatic** **Ã¢â‚¬Å“roomÃ¢â‚¬Â** Ã¢â‚¬â€ **Holy See** / **Vatican** **peace** **and** **civilian** **language** **choreography** Ã¢â‚¬â€ **not** **fungible** with **IRI** **MFA** **or** **family** **letter** **as** **tier-A** **fact** **without** **primaries**. **Context** **only** **above** Ã¢â‚¬â€ **pastoral** **reception** **vs** **strike** **/ ORBAT** **claims** **stay** **seamed**. **Next:** **`thread:`** **ingests** **when** **Parsi** **or** **Mercouris** **actually** **speak** **on** **this** **arc**; **ROME-PASS** **if** **Holy** **See** **responds**. | crosses:parsi+mercouris
 - X | cold: **Parsi Ãƒâ€” Barnes page** (2026-04-19) Ã¢â‚¬â€ **Trump mental state / erratic conduct Ã¢â€ â€™ Iran FP:** @barnes_law **QT** @tparsi Ã¢â‚¬â€ Parsi: **poor discipline**, **optics of victory** over deal, **humiliation** undermines diplomacy; Barnes: **lack of self-control** as **only** reason no **Iran deal**, **emotional regression** & **mental health** **few want to say publicly**; **separate** Barnes **QRT** **JPost** (citing **WSJ**): advisers **excluded** Trump from **situation/command** room on **high-stakes** **Iran** **airman extraction**, **fearing erratic temper** **jeopardizes** mission // hook: **two planes** Ã¢â‚¬â€ **diplomatic** **speech-act** (Parsi) vs **institutional** **process** (exclusion) vs **Barnes** **psych** **thesis** Ã¢â‚¬â€ **do not** merge tiers | verify:pin-@barnes_law-statuses+WSJ+JPost | thread:parsi | thread:barnes | crosses:parsi+barnes | batch-analysis | 2026-04-19 | Parsi Ãƒâ€” Barnes | Trump conduct Ãƒâ€” Iran diplomacy
-- batch-analysis | 2026-04-17 | Ritter Ãƒâ€” Marandi Ãƒâ€” Davis Ã¢â‚¬â€ **three** **`thread:`** **planes** **+** **Ã‚Â§1h** | **Tension-first:** **Marandi** **04-17** **X** **gloss** **vs** **Araghchi** **(dual-register** **IRI);** **Davis** **04-17** **(Araghchi** **QT** **+** **TS)** **=** **U.S.** **process** **/** **ultimatum** **clock;** **Ritter** **04-17** **Diesen** **=** **Baltic** **/** **NATO** **+** **Islamabad** **carryover** **Ã¢â‚¬â€** **do** **not** **merge** **into** **one** **Judgment** **without** **seams** **(folded** **[`days.md`](chapters/2026-04/days.md#2026-04-17)** **Weave** **bullet).** **`crosses:`** **N/A** **(three** **experts** **+** **state** **primary)** Ã¢â‚¬â€ **use** **page** **`marandi-ritter-mercouris-hormuz-scaffold`** **for** **lattice.**
-- batch-analysis | 2026-04-17 | Davis Ãƒâ€” Araghchi Ãƒâ€” Trump TS | **Tension-first:** IRI **signals** Hormuz **open** for ceasefire remainder vs **U.S. executive** **maximalist** reply **same day** Ã¢â‚¬â€ **sequenced bargaining**, not necessarily **monotonic** **Oman** **momentum** from Ã‚Â§1f paste. **Davis** = restraint / **negotiation-window** analyst Ã¢â‚¬â€ routes to **Mearsheimer** (**incentives**) + **Mercouris** (**staging**) overlaps in [strategy-expert-davis-thread.md](strategy-expert-davis-thread.md); **does not** replace **Ã‚Â§1h** / **Ã‚Â§1e** primaries.
+- batch-analysis | 2026-04-17 | Ritter Ãƒâ€” Marandi Ãƒâ€” Davis Ã¢â‚¬â€ **three** **`thread:`** **planes** **+** **Ã‚Â§1h** | **Tension-first:** **Marandi** **04-17** **X** **gloss** **vs** **Araghchi** **(dual-register** **IRI);** **Davis** **04-17** **(Araghchi** **QT** **+** **TS)** **=** **U.S.** **process** **/** **ultimatum** **clock;** **Ritter** **04-17** **Diesen** **=** **Baltic** **/** **NATO** **+** **Islamabad** **carryover** **Ã¢â‚¬â€** **do** **not** **merge** **into** **one** **Judgment** **without** **seams** **(folded** **[`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-17)** **Weave** **bullet).** **`crosses:`** **N/A** **(three** **experts** **+** **state** **primary)** Ã¢â‚¬â€ **use** **page** **`marandi-ritter-mercouris-hormuz-scaffold`** **for** **lattice.**
+- batch-analysis | 2026-04-17 | Davis Ãƒâ€” Araghchi Ãƒâ€” Trump TS | **Tension-first:** IRI **signals** Hormuz **open** for ceasefire remainder vs **U.S. executive** **maximalist** reply **same day** Ã¢â‚¬â€ **sequenced bargaining**, not necessarily **monotonic** **Oman** **momentum** from Ã‚Â§1f paste. **Davis** = restraint / **negotiation-window** analyst Ã¢â‚¬â€ routes to **Mearsheimer** (**incentives**) + **Mercouris** (**staging**) overlaps in [strategy-expert-davis-thread.md](../davis/davis-thread.md); **does not** replace **Ã‚Â§1h** / **Ã‚Â§1e** primaries.
 - batch-analysis | 2026-04-18 | **Freeman Ãƒâ€” Diesen (YT) Ãƒâ€” Hormuz week stack** | **Tension-first:** **`thread:freeman`** **career-diplomat** **staging** (**door/padlock**, **Islamabad** **performative**, **China** **/ Pakistan** **/ Lebanon** **long** **segments**) Ã¢â‚¬â€ **not** **wire** **ORBAT**. **Cross** **`marandi`** **(Tehran** **register),** **`barnes`** **(White** **House** **/ Vance** **/ WitkoffÃ¢â‚¬â€œKushner),** **`davis`/`mearsheimer`** **(channel** **geometry),** **`mercouris`** **(institutional** **tickers),** **`parsi`** **(Beltway** **process)** Ã¢â‚¬â€ **explicit** **seams**; **quant** **(**barrels,** **crew** **reports,** **pipeline** **repair)** **verify-first**. | crosses:freeman+diesen(host-not-thread)
-- YT | cold: **Larry Johnson** (*Countercurrent*) Ãƒâ€” **Robert Barnes** Ã¢â‚¬â€ *What the HELL is going on in the White House?* Ã¢â‚¬â€ **US politics** **focus:** executive **cognition** / **staff** **dynamics** (**Wiles**, **NYT** leak path); **Vance** **ceasefire** **/** **10** **points** **vs** **Trump** **rug** **pull**; **WitkoffÃ¢â‚¬â€œKushner** **vs** **Driscoll** **lane**; **Iran** **Ã¢â‚¬Å“VP** **no** **authorityÃ¢â‚¬Â**; **Navy** **Hormuz** **Ã¢â‚¬Å“mall** **copÃ¢â‚¬Â** + **incentive** to **feed** **success**; **electoral** **tsunami** **/** **House** **funding** **brake**; **Hegseth**/**Bessent**; **farmer** **supply** **shock** // hook: **work-politics** **domestic** **fork** **+** **Iran** **week** **overlap** Ã¢â‚¬â€ **seam** **Ã‚Â§1e** **/** **Ã‚Â§1h**; verbatim **excerpt** **[source-countercurrent-2026-04-17-verbatim-2026-04-17.md](source-countercurrent-2026-04-17-verbatim-2026-04-17.md)** | https://www.youtube.com/watch?v=TBD-johnson-barnes-white-house-2026-04 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-17 | thread:barnes | grep:Barnes+White+House+Vance+Iran+blockade
+- YT | cold: **Larry Johnson** (*Countercurrent*) Ãƒâ€” **Robert Barnes** Ã¢â‚¬â€ *What the HELL is going on in the White House?* Ã¢â‚¬â€ **US politics** **focus:** executive **cognition** / **staff** **dynamics** (**Wiles**, **NYT** leak path); **Vance** **ceasefire** **/** **10** **points** **vs** **Trump** **rug** **pull**; **WitkoffÃ¢â‚¬â€œKushner** **vs** **Driscoll** **lane**; **Iran** **Ã¢â‚¬Å“VP** **no** **authorityÃ¢â‚¬Â**; **Navy** **Hormuz** **Ã¢â‚¬Å“mall** **copÃ¢â‚¬Â** + **incentive** to **feed** **success**; **electoral** **tsunami** **/** **House** **funding** **brake**; **Hegseth**/**Bessent**; **farmer** **supply** **shock** // hook: **work-politics** **domestic** **fork** **+** **Iran** **week** **overlap** Ã¢â‚¬â€ **seam** **Ã‚Â§1e** **/** **Ã‚Â§1h**; verbatim **excerpt** **[source-countercurrent-2026-04-17-verbatim-2026-04-17.md](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)** | https://www.youtube.com/watch?v=TBD-johnson-barnes-white-house-2026-04 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-17 | thread:barnes | grep:Barnes+White+House+Vance+Iran+blockade
 - batch-analysis | 2026-04-17 | **Barnes Ãƒâ€” Johnson (YT) Ã¢â‚¬â€ US politics room Ãƒâ€” Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **Ã¢â‚¬â€** **not** **Ã‚Â§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **Ã¢â‚¬â€** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **Ãƒâ€”** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 - YT | cold: Mercouris 16 Apr 2026 (The Duran) Ã¢â‚¬â€ EU drone factories for Ukraine, Medvedev warns EU, LavrovÃ¢â‚¬â€œSaudi FM, Munir in Tehran, Hormuz blockade & China naval logic // hook: full verbatim Ã‚Â§2026-04-16 in strategy-expert-mercouris-transcript.md | https://www.youtube.com/watch?v=TBD-canonical-episode | verify:operator-ingest+aired-2026-04-16 | thread:mercouris | aired:2026-04-16
 - batch-analysis | 2026-04-16 | Marandi BP 04-16 Ãƒâ€” 04-13 scaffold | **Tension-first:** Iranian **process** and **moral-historical** register (Islamabad authority vs Vance channel, school/synagogue/GazaÃ¢â‚¬â€œLebanon frames) vs **Ritter-class** **USN** / **interdiction** facts and **wire-tier** throughput Ã¢â‚¬â€ **do not** merge lanes. **Weak bridge:** same **Hormuz** / **Islamabad** / **Lebanon** object as **Mercouris** narrative surface Ã¢â‚¬â€ **verify** still splits **speech** from **AIS** / **DOD** readouts.
@@ -296,11 +296,11 @@ _(Operator/assistant: refine this page content.)_
 
 ### Reflection
 
-**Weave:** **Mercouris** = **institutional / analyst-constellation / zugzwang** language; **Marandi** = **Iranian red lines** + **wire-verify** roster (**Ghalibaf** head; **Larijani** = transcript **misname**); **Ritter** = **USN mechanics** + **faith invective** lane. **Davis Ãƒâ€” Freeman Ãƒâ€” Mearsheimer** = **systemic / bargaining / alliance-cost** folds Ã¢â‚¬â€ **parallel** **Ritter ego-reduction** **lane** until primaries show sequence ([`days.md`](../days.md#2026-04-13)). **Do not** collapse **leadership-psychology** into **Links** without **`narrative-escalation`** + primaries. **RomeÃ¢â‚¬â€œfaith registers** (Marandi ecumenical vs Ritter invective vs **SkyVirginSon** vs **Milad**) Ã¢â‚¬â€ **parallel legitimacy combat** Ã¢â‚¬â€ **not** Hormuz **material** **row** without **seam**.
+**Weave:** **Mercouris** = **institutional / analyst-constellation / zugzwang** language; **Marandi** = **Iranian red lines** + **wire-verify** roster (**Ghalibaf** head; **Larijani** = transcript **misname**); **Ritter** = **USN mechanics** + **faith invective** lane. **Davis Ãƒâ€” Freeman Ãƒâ€” Mearsheimer** = **systemic / bargaining / alliance-cost** folds Ã¢â‚¬â€ **parallel** **Ritter ego-reduction** **lane** until primaries show sequence ([`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-13)). **Do not** collapse **leadership-psychology** into **Links** without **`narrative-escalation`** + primaries. **RomeÃ¢â‚¬â€œfaith registers** (Marandi ecumenical vs Ritter invective vs **SkyVirginSon** vs **Milad**) Ã¢â‚¬â€ **parallel legitimacy combat** Ã¢â‚¬â€ **not** Hormuz **material** **row** without **seam**.
 
 ### Foresight
 
-- Pin **canonical** episode URLs for **Breaking Points**, **The Duran**, **Judging Freedom**, **Daniel Davis Deep Dive** (Freeman, Mearsheimer), **Napolitano Ãƒâ€” Johnson** per [`days.md` Open](../days.md#2026-04-13).
+- Pin **canonical** episode URLs for **Breaking Points**, **The Duran**, **Judging Freedom**, **Daniel Davis Deep Dive** (Freeman, Mearsheimer), **Napolitano Ãƒâ€” Johnson** per [`days.md` Open](../../../codex/chapters/2026/2026-04/days.md#2026-04-13).
 
 ---
 
@@ -311,8 +311,8 @@ _(Operator/assistant: refine this page content.)_
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-13 |
-| **page_id** (machine slug) | `marandi-ritter-mercouris-hormuz-scaffold` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-13](../days.md#2026-04-13) |
+| **page_id** (machine slug) | `marandi-ritter-mercouris-hormuz-scaffold` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-13](../../../codex/chapters/2026/2026-04/days.md#2026-04-13) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -325,13 +325,13 @@ _(Operator/assistant: refine this page content.)_
 
 ### Lineage Ã¢â‚¬â€ **triple anchor** (same Judgment sentence)
 
-- **`thread:marandi`** Ã¢â‚¬â€ *Why the Iran Talks Failed* Ã¢â‚¬â€ channel-authority, structural deadlocks (stock / program / Hormuz governance), **LebanonÃ¢â‚¬â€œHormuz** linkage, **Easter ecumenical** register vs wire lane Ã¢â‚¬â€ episode URL **operator to pin** per [`days.md`](../days.md#2026-04-13).
+- **`thread:marandi`** Ã¢â‚¬â€ *Why the Iran Talks Failed* Ã¢â‚¬â€ channel-authority, structural deadlocks (stock / program / Hormuz governance), **LebanonÃ¢â‚¬â€œHormuz** linkage, **Easter ecumenical** register vs wire lane Ã¢â‚¬â€ episode URL **operator to pin** per [`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-13).
 - **`thread:ritter`** Ã¢â‚¬â€ **Judging Freedom** (*Who Controls Hormuz?*) Ã¢â‚¬â€ **porous blockade**, picket vs boarding, third-country hulls, **TrumpÃ¢â‚¬â€œPope** narrative-escalation segment Ã¢â‚¬â€ **lane-split** from Marandi Ã¢â‚¬â€ URL **operator to pin**.
 - **`thread:mercouris`** Ã¢â‚¬â€ **The Duran** 2026-04-13 monologue Ã¢â‚¬â€ Islamabad recap, blockade/Keane lineage, **zugzwang**, multilateral tickers Ã¢â‚¬â€ **verify each chain** before one arc Ã¢â‚¬â€ URL **operator to pin**.
 
 **Same showrunner, structural lanes (not interchangeable):** **`davis`** Deep Dive Ãƒâ€” **`freeman`** (process failure, ROE, Bessent vs recession Ã¢â‚¬â€ URL TBD); Ãƒâ€” **`mearsheimer`** (15 vs 10 point frames, bargaining asymmetry, allies clips Ã¢â‚¬â€ URL TBD). **`thread:parsi`** Ã¢â‚¬â€ Breaking Points / Quincy Ã¢â‚¬â€ Ravid red-lines leak tier Ã¢â‚¬â€ **not** WH primary.
 
-**Process overlap:** **`thread:johnson`** Ãƒâ€” Mercouris (Napolitano / Johnson digest vs Duran monologue) Ã¢â‚¬â€ **strip to process + price** for parity; **park** Bab el-Mandeb / pipeline under verify ([`days.md` Judgment](../days.md#2026-04-13)).
+**Process overlap:** **`thread:johnson`** Ãƒâ€” Mercouris (Napolitano / Johnson digest vs Duran monologue) Ã¢â‚¬â€ **strip to process + price** for parity; **park** Bab el-Mandeb / pipeline under verify ([`days.md` Judgment](../../../codex/chapters/2026/2026-04/days.md#2026-04-13)).
 
 ### History resonance
 
@@ -347,15 +347,15 @@ none this pass
 |-----------|--------|----------|
 | **Prior day** | `islamabad-hormuz-thesis-weave` | **Thesis A/B** + **Pape/Parsi/Freeman** **fork** **before** this **scaffold** **densifies**. |
 | **Next day** | `ritter-blockade-hormuz-weave` | **Ritter**-centered **04-14** lattice + **ParsiÃƒâ€”Davis** / **DiesenÃƒâ€”Sachs** / **MercourisÃƒâ€”Mearsheimer** **legacy** files. |
-| **Day prose** | [`days.md` Ã‚Â§ 2026-04-14](../days.md#2026-04-14) | **Continuity spine** **explicitly** **stacks** **04-12Ã¢â‚¬â€œ04-14** **`thread:`** **carries**. |
+| **Day prose** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md#2026-04-14) | **Continuity spine** **explicitly** **stacks** **04-12Ã¢â‚¬â€œ04-14** **`thread:`** **carries**. |
 
 ### References
 
-- [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ **Primary pulls (2026-04-13)** Ã‚Â· **Ritter blockade checklist** (paste-grade)
+- [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **Primary pulls (2026-04-13)** Ã‚Â· **Ritter blockade checklist** (paste-grade)
 - [Al Jazeera Ã¢â‚¬â€ Islamabad talks unfolded](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded)
 - [Vatican News Ã¢â‚¬â€ Grand Mosque Algiers (2026-04-13)](https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-apostolic-journey-algeria-grand-mosque-algiers-dialogue.html) Ã¢â‚¬â€ tier-A; **TrumpÃ¢â‚¬â€œLeo** fold **tier split** per day **Judgment**
-- [rome-persia-legitimacy-signal-check.md](../../../rome-persia-legitimacy-signal-check.md)
-- **Episodes (pin):** Breaking Points (Parsi), The Duran (Mercouris), Judging Freedom (Ritter), Davis Deep Dive (Freeman, Mearsheimer), Johnson stack Ã¢â‚¬â€ **`operator to pin`** strings in [`days.md` Links / Open](../days.md#2026-04-13)
+- [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md)
+- **Episodes (pin):** Breaking Points (Parsi), The Duran (Mercouris), Judging Freedom (Ritter), Davis Deep Dive (Freeman, Mearsheimer), Johnson stack Ã¢â‚¬â€ **`operator to pin`** strings in [`days.md` Links / Open](../../../codex/chapters/2026/2026-04/days.md#2026-04-13)
 
 ### Receipt
 
@@ -363,7 +363,7 @@ none this pass
 |-----|--------|----------------|
 | **1** | **Wire** Ã¢â‚¬â€ Islamabad timeline | [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded) |
 | **2** | **Tier-A** Holy See Ã¢â‚¬â€ **Grand Mosque** | [Vatican News](https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-apostolic-journey-algeria-grand-mosque-algiers-dialogue.html) |
-| **3** | **Inbox** checklist + **episode** queue | [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ Ritter mechanics / Mercouris verify hooks |
+| **3** | **Inbox** checklist + **episode** queue | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ Ritter mechanics / Mercouris verify hooks |
 
 **Falsifier:** One **merged** arc treats **Mercouris** **multilateral** **tickers** + **Johnson** **OOB** **skepticism** + **Marandi** **ecumenical** **register** + **Ritter** **hull** **claims** as **one** **voice** **without** **seams** Ã¢â‚¬â€ **lattice** **collapsed**.
 <!-- strategy-page:end -->
@@ -381,11 +381,11 @@ none this pass
 
 ### Reflection
 
-**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
+**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -397,8 +397,8 @@ none this pass
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -411,7 +411,7 @@ none this pass
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -443,7 +443,7 @@ none this pass
 - **Ritter 085 (pin):** inbox line Ã¢â‚¬â€ `TBD-canonical-085` Ã¢â€ â€™ replace when canonical **YouTube** ID is fixed.
 - **Davis Ãƒâ€” Jermy (same day):** [YouTube `etxmqrdm3V0`](https://www.youtube.com/watch?v=etxmqrdm3V0) Ã¢â‚¬â€ **`thread:davis`**, **`thread:jermy`**
 - **Diesen Ãƒâ€” Sachs blockade:** [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) Ã¢â‚¬â€ **`thread:diesen`**, **`thread:sachs`**
-- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
+- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
 
 ### Receipt
 
@@ -451,9 +451,9 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
-| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../legacy page index) Ã¢â‚¬â€ search `2026-04-14` |
+| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md) Ã¢â‚¬â€ search `2026-04-14` |
 
 **Falsifier:** This weave fails if **one** **merged** **Judgment** treats **Ritter** **hull**/**interdiction** **claims** as **fully** **confirmed** by **`parsi`** **EU** **wording**, **`sachs`** **NYT** **room** **hypotheses**, or **`jermy`** **GDP** **slides** **without** **tiered** **verify** Ã¢â‚¬â€ **expert** **lattice** **collapsed** into **mood**.
 <!-- strategy-page:end -->
@@ -515,8 +515,8 @@ WORK only; not Record.
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-16 |
-| **page_id** (machine slug) | `pape-janssen-escalation-blockade` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../days.md#2026-04-16) |
+| **page_id** (machine slug) | `pape-janssen-escalation-blockade` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16) |
 | **Primary expert (`thread:`)** | `pape` Ã¢â‚¬â€ **escalation trap / staged blockade / spoiler** mechanism; **not** Tehran process register (see weave C (page id `marandi-blumenthal-jf-primary`)). |
 
 ### Page type
@@ -526,7 +526,7 @@ WORK only; not Record.
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert ingest Ã¢â‚¬â€ 2026-04-16** (Pape Ãƒâ€” Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) Ãƒâ€” Mearsheimer` + `Ãƒâ€” Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert ingest Ã¢â‚¬â€ 2026-04-16** (Pape Ãƒâ€” Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) Ãƒâ€” Mearsheimer` + `Ãƒâ€” Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
 - **Expert threads:** `thread:pape` Ã¢â‚¬â€ operator transcript + channel URL until **`watch?v=`** pinned
 - **Related pages:** `islamabad-hormuz-thesis-weave` (Thesis A/B + escalation-trap vocabulary), `kremlin-iri-uranium-dual-register` (enrichment / grand-bargain scope trap), `mercouris-mearsheimer-lebanon-split` (Lebanon fork + Pape sectarian map lane)
 
@@ -534,8 +534,8 @@ WORK only; not Record.
 
 ### References
 
-- **Inbox capture:** [daily-strategy-inbox.md Ã¢â‚¬â€ Expert ingest 2026-04-16](../../../daily-strategy-inbox.md) (search `Janssen` / `Pape`)
-- **Expert thread:** [strategy-expert-pape-thread.md](../../../strategy-expert-pape-thread.md)
+- **Inbox capture:** [daily-strategy-inbox.md Ã¢â‚¬â€ Expert ingest 2026-04-16](../../../codex/daily-strategy-inbox.md) (search `Janssen` / `Pape`)
+- **Expert thread:** [strategy-expert-pape-thread.md](../pape/pape-thread.md)
 - **YT (channel until pin):** [Cyrus Janssen Ã¢â‚¬â€ videos](https://www.youtube.com/@CyrusJanssen/videos)
 - **X (Lebanon map):** [ProfessorPape](https://x.com/ProfessorPape) Ã¢â‚¬â€ `verify:pin-exact-status-URL` in inbox
 - **Wire:** [AP Ã¢â‚¬â€ IsraelÃ¢â‚¬â€œLebanon talks Washington (14 Apr)](https://apnews.com/article/lebanon-israel-negotiations-hezbollah-rubio-washington-88f5123bfcf4c00625e98ea14a16eef9)
@@ -554,36 +554,36 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ## 2026-04-28
 - YT | cold: **John Mearsheimer** Ãƒâ€” **Judging Freedom** (*How Trump Lost His War*) Ã¢â‚¬â€ **date** **2026-04-28** Ã¢â‚¬â€ **operator-pasted** **cleaned** **transcript:** **AraghchiÃ¢â‚¬â€œPutin** **meeting** read as substantive RU-IRI alignment; Iran shifts bargaining sequence (**war stop / guarantees** Ã¢â€ â€™ **Hormuz** Ã¢â€ â€™ **nuclear**), while U.S. still prioritizes enrichment first; Trump strategy framed as failed **airpower + decapitation** theory, with inventory depletion and no viable quick-reset military option; medium-term outlook cast as coercive stalemate with elevated escalation risk across Gulf, Ukraine, and East Asia // hook: **`thread:mearsheimer`** **Ãƒâ€”** **Ã‚Â§1d** **(U.S. strategic bandwidth + force depletion)** **+** **Ã‚Â§1e** **(Hormuz bargaining sequence)** **+** **Ã‚Â§1h** **(Iran leverage line)** **+** **RU link via AraghchiÃ¢â‚¬â€œPutin optics** | [YouTube](https://www.youtube.com/watch?v=VHXJxEU7Ses) | verify:operator-pasted-transcript+aired:2026-04-28+opinion-analytic-tier+not-Record | thread:mearsheimer | IRAN | HORMUZ | RU | US-MIL | UKR | grep:Mearsheimer+Judging+Freedom+How+Trump+Lost+His+War+2026-04-28
 - YT | cold: **Mearsheimer Ã‚Â§1e isolate** Ã¢â‚¬â€ IranÃ¢â‚¬â„¢s proposed issue order in this Apr 28 transcript is **(1) ceasefire/guarantees, (2) Strait of Hormuz, (3) nuclear file**, explicitly reversing WashingtonÃ¢â‚¬â„¢s preferred sequencing; use as a bargaining-structure claim, not a settled terms claim // hook: **fast pull for Ã‚Â§1e Hormuz sequencing seam** | [YouTube](https://www.youtube.com/watch?v=VHXJxEU7Ses) | verify:operator-pasted-transcript+sequencing-claim+analysis-tier+not-Record | thread:mearsheimer | HORMUZ | IRAN | US-POL | grep:Mearsheimer+Hormuz+sequencing+2026-04-28
-- Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
-- Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
-- Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
 ## 2026-04-27
-- Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
-- Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
-- Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
 ## 2026-04-26
-- Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
-- Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
-- Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
+- Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
 ## 2026-04-25
-- YT | cold: **Redacted** Ãƒâ€” **John Mearsheimer** (*Prof. John Mearsheimer: Trump's ONLY option is surrender* Ã¢â‚¬â€ **operator transcript** **2026-04-21**) Ã¢â‚¬â€ **CNBC** **Trump** **bombing** **rhetoric** **vs** **Islamabad** **/ Vance** **pause;** **Mearsheimer:** **U.S.** **interest** **in** **settlement,** **Iran** **holds** **escalation** **cards,** **NYT** **Barnea** **/** **Bibi** **shock-awe** **/ Caine;** **Hormuz** **blockade** **Ãƒâ€”** **Islamabad** **meeting** **failure;** **lobby** **/ Moby** **Dick** **/ four** **unmet** **war** **goals;** **breaking** **WH** **Ã¢â‚¬Å“fractured** **Iran** **Ã¢â€ â€™** **hold** **bombingÃ¢â‚¬Â** **pivot** **read** **as** **face-saving** **off-ramp;** **economy** **/ Titanic** **/ fert** **+** **helium;** **refinery** **host** **speculation** **Ã¢â‚¬â€** **Mearsheimer** **Ukraine** **refineries** **only;** **Ã¢â‚¬Å“surrenderÃ¢â‚¬Â** **/ JCPOA** **/ regime-change** **harder;** **Waltz** **war** **crimes** **teased** **pre-ad** // hook: **`thread:mearsheimer`** **Ãƒâ€”** **Ã‚Â§1e** **Islamabad** **/** **Hormuz** **+** **Ã‚Â§1d** **Trump** **Ã¢â‚¬â€** **full** **verbatim** [provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md](provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) Ã‚Â· **day** **page** [experts/mearsheimer/mearsheimer-page-2026-04-21-redacted-trump-iran.md](experts/mearsheimer/mearsheimer-page-2026-04-21-redacted-trump-iran.md) | `TBD` canonical watch URL | verify:full-text+provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md+operator-transcript | thread:mearsheimer | IRAN | grep:Mearsheimer+Redacted+surrender+2026-04-21
-- SS | cold: **John J. Mearsheimer** Ã¢â‚¬â€ *Will Trump Go Kamikaze?* (*JohnÃ¢â‚¬â„¢s Substack* Ã¢â‚¬â€ **published** **2026-03-29** **(**operator** **date** **;** **Substack** **byline** **may** **read** **Mar** **30** **)** **;** **ingest** **2026-04-21**) Ã¢â‚¬â€ **50k** **headcount** **Ã¢â€°Â ** **organized** **ground** **divisions** **;** **~4.5k** **Ã¢â€ â€™** **~7k** **combat** **(**82nd** **+** **31st** **MEU** **+** **11th** **MEU** **mid-April** **in** **voice** **)** **;** **light** **infantry** **/** **ad** **hoc** **/** **log** **stress** **vs** **~1M** **Iran** **mobilization** **;** **drones** **/** **missiles** **;** **hypothetical** **+10k** **Ã¢â€ â€™** **~17k** **cap** **;** **no** **Israeli** **forces** **in** **invasion** **in** **voice** **;** **damaged** **bases** **/** **82nd** **beddown** **;** **amphib** **(**Iwo** **Jima** **/** **Boxer** **)** **as** **sitting** **ducks** **near** **Gulf** **?** **;** **island** **seizure** **Ã¢â€°Â ** **war** **course** // hook: **`thread:mearsheimer`** **ground** **feasibility** **Ãƒâ€”** **same-day** **`thread:pape`** **Vietnam** **/** **03-27** **Marine** **threshold** **Ã¢â‚¬â€** **full** [provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md](provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) Ã‚Â· **day** **page** [experts/mearsheimer/mearsheimer-page-2026-03-29-will-trump-go-kamikaze.md](experts/mearsheimer/mearsheimer-page-2026-03-29-will-trump-go-kamikaze.md) | https://mearsheimer.substack.com/p/will-trump-go-kamikaze | verify:operator-paste+paywall-public+raw-input+ORBAT-tier+press-link-tier+base-status-tier | thread:mearsheimer | IRAN | THEORY | grep:Mearsheimer+Kamikaze+Trump+ground+Iran+2026-03-29
-- YT | cold: **Chris Hedges** Ãƒâ€” **John Mearsheimer** (*The Chris Hedges Report* Ã¢â‚¬â€ **operator transcript** **2026-04-20**) Ã¢â‚¬â€ **Islamabad** **round** **<48h** **before** **ceasefire** **break;** **Iran** **10-point** **basis;** **Hormuz** **blockade** **/** **container-ship** **seizure** **as** **ceasefire** **breach;** **Mearsheimer:** **escalation** **ladder** **favors** **Iran** **Ã¢â‚¬â€** **deal** **or** **extend** **ceasefire;** **Israel** **lobby** **Ãƒâ€”** **economy** **cliff;** **Lebanon** **lever;** **ship** **boarding** **after** **strait** **re-open** **Ã¢â‚¬â€** **full** **verbatim** [provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md](provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) Ã‚Â· **day** **page** [experts/mearsheimer/mearsheimer-page-2026-04-20-hedges-mearsheimer-iran.md](experts/mearsheimer/mearsheimer-page-2026-04-20-hedges-mearsheimer-iran.md) // hook: **`thread:mearsheimer`** **Ãƒâ€”** **Ã‚Â§1e** **Islamabad** **/** **Hormuz** **week** | `TBD` canonical watch URL | verify:full-text+provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md+operator-transcript | thread:mearsheimer | IRAN | grep:Hedges+Mearsheimer+2026-04-20
+- YT | cold: **Redacted** Ãƒâ€” **John Mearsheimer** (*Prof. John Mearsheimer: Trump's ONLY option is surrender* Ã¢â‚¬â€ **operator transcript** **2026-04-21**) Ã¢â‚¬â€ **CNBC** **Trump** **bombing** **rhetoric** **vs** **Islamabad** **/ Vance** **pause;** **Mearsheimer:** **U.S.** **interest** **in** **settlement,** **Iran** **holds** **escalation** **cards,** **NYT** **Barnea** **/** **Bibi** **shock-awe** **/ Caine;** **Hormuz** **blockade** **Ãƒâ€”** **Islamabad** **meeting** **failure;** **lobby** **/ Moby** **Dick** **/ four** **unmet** **war** **goals;** **breaking** **WH** **Ã¢â‚¬Å“fractured** **Iran** **Ã¢â€ â€™** **hold** **bombingÃ¢â‚¬Â** **pivot** **read** **as** **face-saving** **off-ramp;** **economy** **/ Titanic** **/ fert** **+** **helium;** **refinery** **host** **speculation** **Ã¢â‚¬â€** **Mearsheimer** **Ukraine** **refineries** **only;** **Ã¢â‚¬Å“surrenderÃ¢â‚¬Â** **/ JCPOA** **/ regime-change** **harder;** **Waltz** **war** **crimes** **teased** **pre-ad** // hook: **`thread:mearsheimer`** **Ãƒâ€”** **Ã‚Â§1e** **Islamabad** **/** **Hormuz** **+** **Ã‚Â§1d** **Trump** **Ã¢â‚¬â€** **full** **verbatim** [provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) Ã‚Â· **day** **page** [experts/mearsheimer/mearsheimer-page-2026-04-21-redacted-trump-iran.md](mearsheimer-page-2026-04-21-redacted-trump-iran.md) | `TBD` canonical watch URL | verify:full-text+provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md+operator-transcript | thread:mearsheimer | IRAN | grep:Mearsheimer+Redacted+surrender+2026-04-21
+- SS | cold: **John J. Mearsheimer** Ã¢â‚¬â€ *Will Trump Go Kamikaze?* (*JohnÃ¢â‚¬â„¢s Substack* Ã¢â‚¬â€ **published** **2026-03-29** **(**operator** **date** **;** **Substack** **byline** **may** **read** **Mar** **30** **)** **;** **ingest** **2026-04-21**) Ã¢â‚¬â€ **50k** **headcount** **Ã¢â€°Â ** **organized** **ground** **divisions** **;** **~4.5k** **Ã¢â€ â€™** **~7k** **combat** **(**82nd** **+** **31st** **MEU** **+** **11th** **MEU** **mid-April** **in** **voice** **)** **;** **light** **infantry** **/** **ad** **hoc** **/** **log** **stress** **vs** **~1M** **Iran** **mobilization** **;** **drones** **/** **missiles** **;** **hypothetical** **+10k** **Ã¢â€ â€™** **~17k** **cap** **;** **no** **Israeli** **forces** **in** **invasion** **in** **voice** **;** **damaged** **bases** **/** **82nd** **beddown** **;** **amphib** **(**Iwo** **Jima** **/** **Boxer** **)** **as** **sitting** **ducks** **near** **Gulf** **?** **;** **island** **seizure** **Ã¢â€°Â ** **war** **course** // hook: **`thread:mearsheimer`** **ground** **feasibility** **Ãƒâ€”** **same-day** **`thread:pape`** **Vietnam** **/** **03-27** **Marine** **threshold** **Ã¢â‚¬â€** **full** [provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) Ã‚Â· **day** **page** [experts/mearsheimer/mearsheimer-page-2026-03-29-will-trump-go-kamikaze.md](mearsheimer-page-2026-03-29-will-trump-go-kamikaze.md) | https://mearsheimer.substack.com/p/will-trump-go-kamikaze | verify:operator-paste+paywall-public+raw-input+ORBAT-tier+press-link-tier+base-status-tier | thread:mearsheimer | IRAN | THEORY | grep:Mearsheimer+Kamikaze+Trump+ground+Iran+2026-03-29
+- YT | cold: **Chris Hedges** Ãƒâ€” **John Mearsheimer** (*The Chris Hedges Report* Ã¢â‚¬â€ **operator transcript** **2026-04-20**) Ã¢â‚¬â€ **Islamabad** **round** **<48h** **before** **ceasefire** **break;** **Iran** **10-point** **basis;** **Hormuz** **blockade** **/** **container-ship** **seizure** **as** **ceasefire** **breach;** **Mearsheimer:** **escalation** **ladder** **favors** **Iran** **Ã¢â‚¬â€** **deal** **or** **extend** **ceasefire;** **Israel** **lobby** **Ãƒâ€”** **economy** **cliff;** **Lebanon** **lever;** **ship** **boarding** **after** **strait** **re-open** **Ã¢â‚¬â€** **full** **verbatim** [provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) Ã‚Â· **day** **page** [experts/mearsheimer/mearsheimer-page-2026-04-20-hedges-mearsheimer-iran.md](mearsheimer-page-2026-04-20-hedges-mearsheimer-iran.md) // hook: **`thread:mearsheimer`** **Ãƒâ€”** **Ã‚Â§1e** **Islamabad** **/** **Hormuz** **week** | `TBD` canonical watch URL | verify:full-text+provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md+operator-transcript | thread:mearsheimer | IRAN | grep:Hedges+Mearsheimer+2026-04-20
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-mearsheimer-redacted-trump-iran-2026-04-21.md](provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md)
-- [source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md](provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
-- [source-hedges-mearsheimer-iran-2026-04-20.md](provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)
-- [source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
-- [source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
-- [source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
-- [source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
-- [source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
-- [source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md](provenance/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md)
-- [source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
+- [source-mearsheimer-redacted-trump-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md)
+- [source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+- [source-hedges-mearsheimer-iran-2026-04-20.md](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)
+- [source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../source-archive/statecraft/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
+- [source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../../../source-archive/statecraft/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
+- [source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../source-archive/statecraft/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
+- [source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../source-archive/statecraft/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+- [source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
+- [source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md](../../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md)
+- [source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../../../source-archive/statecraft/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 
 ### Page references
 

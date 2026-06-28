@@ -18,7 +18,7 @@ WORK only; not Record.
 - **`check sources`** — roster-scoped discovery (`channel-index.json` SSOT), clip filter, list-first approval (hand off to **source-intake**)
 - Legacy **`check streams`** — accepted alias; routes to **check-sources**
 - **`cognition_streams_audit.py`** — advisory coverage receipts (reads discovery config + raw-input index when configured)
-- **`backfill_*_youtube_raw_input.py`** — optional staging into `strategy-notebook/raw-input/` only (not canonical archive)
+- **`backfill_*_youtube_raw_input.py`** — optional staging into `../../codex/raw-input/` only (not canonical archive)
 - **`statecraft_youtube_discovery.json`** + **`channel-index.md`** / **`channel-index.json`** — channel listing and check-sources roster SSOT
 - **`materialize_youtube_raw_input.py`** (script) — **legacy / archaeology only**; dry-run receipts or `--raw-input` appearance routing on old paths until removed; **no new `--apply` archive writes**
 

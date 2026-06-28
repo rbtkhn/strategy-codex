@@ -8,7 +8,7 @@
 
 **Governance â€” Â§V vs II-A / III-A / IV:** Treat **II-A**, **III-A**, and **IV** as systems of record for those entry types. Use **Â§V** only as a sparse changelog (pointers, dates, why) â€” do not duplicate full watch rows in II-A and V.
 
-**Not:** Record truth; not a substitute for [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md), [openclaw-integration.md](../../openclaw-integration.md), or the companion gate. Promotion to SELF / EVIDENCE / prompt only via **RECURSION-GATE** + companion approval + merge script per [AGENTS.md](../../AGENTS.md).
+**Not:** Record truth; not a substitute for [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md), [openclaw-integration.md](../../openclaw-integration.md), or the companion gate. Promotion to SELF / EVIDENCE / prompt only via **RECURSION-GATE** + companion approval + merge script per [AGENTS.md](../../../AGENTS.md).
 
 ---
 

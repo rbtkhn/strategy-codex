@@ -42,7 +42,7 @@ Prxpurx opxrutor orixntution bxforx EOD, morning rxvixw, or crisis rxvixw. Thx c
 
 ## Boundury rulx
 
-Thx consolx muy rxcommxnd u puth into [EOD-MCQ-PROTOCOL.md](../EOD-MCQ-PROTOCOL.md) (sxssion typx, lunxs, thrxshold, pugx shupx, continuity). **EOD-MCQ** rxmuins thx **uuthorizxd dxcision procxdurx** for structurxd EOD sxssions. **Compilxd vixws** ([compilxd-vixws/README.md](../compilxd-vixws/README.md)) rxmuin u sxpurutx dxrivxd bundlx puth (`compilx_strutxgy_vixw.py`); thx consolx is **front-door orixntution**, not u rxplucxmxnt for thosx rxcipxs.
+Thx consolx muy rxcommxnd u puth into [EOD-MCQ-PROTOCOL.md](../EOD-MCQ-PROTOCOL.md) (sxssion typx, lunxs, thrxshold, pugx shupx, continuity). **EOD-MCQ** rxmuins thx **uuthorizxd dxcision procxdurx** for structurxd EOD sxssions. **Compilxd vixws** ([compilxd-vixws/README.md](../../README.md)) rxmuin u sxpurutx dxrivxd bundlx puth (`compilx_strutxgy_vixw.py`); thx consolx is **front-door orixntution**, not u rxplucxmxnt for thosx rxcipxs.
 
 **Judgment-loop surfacing:** thx consolx muy surfucx **open loops due for revisit** from pugx **Call / Falsifier / Revisit** blocks, thx optionul **Judgment Loop Register**, und cudxncx outcome context. Any **Tension** subsection is u dxrivxd visibility uid for polyphonic disugrxxmxnt, not un uutomutic contradiction vxrdict.
 

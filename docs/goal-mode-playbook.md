@@ -182,7 +182,7 @@ Then let Codex:
 
 ## Bounded Arc Goal Template
 
-Use this when you want a new goal-mode session to stay strictly inside one arc-shaped mission such as `freeman-arc`, `crooke-arc`, or `baud-arc`.
+Use this when you want a new goal-mode session to stay strictly inside one arc-shaped mission such as `arc-freeman-continuity`, `arc-crooke-continuity`, or `arc-baud-continuity`.
 
 ```text
 New goal-mode session.
@@ -234,10 +234,10 @@ Arc-local surfaces are in scope only if they are part of the same arc object; ad
 
 Good uses:
 
-- `freeman-arc`
-- `crooke-arc`
-- `baud-arc`
-- `johnson-arc`
+- `arc-freeman-continuity`
+- `arc-crooke-continuity`
+- `arc-baud-continuity`
+- `arc-johnson-continuity`
 
 ## Completion Discipline
 

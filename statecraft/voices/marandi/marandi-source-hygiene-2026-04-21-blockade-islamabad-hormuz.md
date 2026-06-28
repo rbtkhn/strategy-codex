@@ -3,8 +3,8 @@
 WORK only; not Record.
 
 **Anchor item:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
-**Raw-input SSOT:** [provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md](../../../years/2026/provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
-**Companion seam:** [source-araghchi-april-2026-posts-bundle-2026-04-20.md](../../../years/2026/provenance/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)
+**Raw-input SSOT:** [provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
+**Companion seam:** [source-araghchi-april-2026-posts-bundle-2026-04-20.md](../../../source-archive/statecraft/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)
 
 This note packages the April 21 Marandi seam as a source-hygiene object. Its purpose is not to flatten the interview into settled truth; its purpose is to preserve what is analytically reusable while keeping the evidence boundary visible.
 
@@ -59,7 +59,7 @@ If this seam is reopened later, use it in this order:
 1. open the refined page for the compact red-line summary
 2. check this note for evidence-tier discipline
 3. then compare it against:
-   - [source-araghchi-april-2026-posts-bundle-2026-04-20.md](../../../years/2026/provenance/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)
+   - [source-araghchi-april-2026-posts-bundle-2026-04-20.md](../../../source-archive/statecraft/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)
    - `thread:parsi` for process language
    - `thread:pape` for escalation structure
 

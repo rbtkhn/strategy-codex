@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Parsi Quiet-Lane + Asset-Path Deepener — 2026-06-12
 
-**Parent:** [2026-06-12 daily](statecraft/synthesis/day/2026-06-12.md) · [news-verify matrix](statecraft/notes/wire/2026-06-12-news-verify-matrix.md) · [Nawfal × Parsi source](../../source-archive/statecraft/2026-06-12/source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md)
+**Parent:** [2026-06-12 daily](../synthesis/day/2026-06-12.md) · [news-verify matrix](wire/2026-06-12-news-verify-matrix.md) · [Nawfal × Parsi source](../../source-archive/statecraft/2026-06-12/source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md)
 
 **Bounded question:** In the **final-mile MOU** seam, what does **negotiation-quiet discipline** buy — and which **asset paths** are load-bearing vs workaround theater?
 
@@ -14,7 +14,7 @@ WORK only; not Record.
 
 | Signal | Parsi read | Wire grade |
 |--------|------------|------------|
-| Coordinated pushback (Iran + Pakistan + US) | Media exaggeration scuttling deal | **Partial** — Vance tweet + Trump retweet FM ([J12-5](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)) |
+| Coordinated pushback (Iran + Pakistan + US) | Media exaggeration scuttling deal | **Partial** — Vance tweet + Trump retweet FM ([J12-5](wire/2026-06-12-news-verify-matrix.md)) |
 | Relative silence after pushback | Discipline — "throw phone in toilet" | **Partial** — pattern not duration proof |
 | Performative strikes below max | Both sides held escalation short of knockout | **Analyst tier-4** — plausible, not wire |
 | Trump kept Israelis dark | Spying surge → critical-threat label | **Partial** — JCPOA-history analogy + recent reporting theme |
@@ -38,7 +38,7 @@ WORK only; not Record.
 | Path | Amount cited | Mechanism | Parsi / wire read | Verdict |
 |------|--------------|-----------|-------------------|---------|
 | **Fars / Mehr MOU leak** | $24B total; half upfront | MOU sign triggers release | Trump/Vance deny upfront cash; Araghchi warns speculation | **Partial** — draft scaffold, not mutual final |
-| **Reuters UAE package** | $10–20B; **$3B+ delivered** | UAE unlocks frozen/IR-linked funds; halt UAE attacks | UAE MFA **categorically denies** any transfer | **Contested** ([J12-4](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)) |
+| **Reuters UAE package** | $10–20B; **$3B+ delivered** | UAE unlocks frozen/IR-linked funds; halt UAE attacks | UAE MFA **categorically denies** any transfer | **Contested** ([J12-4](wire/2026-06-12-news-verify-matrix.md)) |
 | **Qatari ~$6B workaround** | ~$6B sensitive | Qatar pays separately; not US direct release; OFAC-cleared spend (Biden-era food/medicine list) | Iran resisted; **softening** per Parsi — workaround not ideal | **Partial** — historical precedent real; current deal **unclear** |
 | **Trump direct release** | Unspecified | US unfreeze as sincerity signal | Vance: **no funds for signing/meeting**; performance-based only | **Supported** (US posture) vs Iran preference |
 | **South Korea → Qatar (2022)** | Part of $6B | Moved then backtracked after Mahsa Amini protests | Explains Iranian distrust of Qatari custodial release | **Supported** (historical) |
@@ -70,7 +70,7 @@ Parsi separates **asset path** from **Lebanon withdrawal clarity**:
 - **Assets:** Movement on workaround may explain "positive movement" even when Trump won't sign a direct check.
 - **Lebanon:** 50/50 on withdrawal language; **ticking bomb** if presence continues; Trump Gaza record → kick to next president.
 
-**Coupling risk:** If UAE path is **contested** and Lebanon **fractured** ([J12-6](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)), quiet lane buys **time** not **gate green**.
+**Coupling risk:** If UAE path is **contested** and Lebanon **fractured** ([J12-6](wire/2026-06-12-news-verify-matrix.md)), quiet lane buys **time** not **gate green**.
 
 ---
 
@@ -130,5 +130,5 @@ Parsi: MOU meaningless without final deal; **real work begins after** — Israel
 
 1. Track **Vance vs Trump vs Araghchi** tweet discipline — quiet lane metric.
 2. **Wire fork:** UAE MFA vs Reuters — do not promote **delivered $3B** without official receipt.
-3. Pair with [Johnson×Wilkerson×Aguilar gate comparison](statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) for enforcement vs workaround.
+3. Pair with [Johnson×Wilkerson×Aguilar gate comparison](2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) for enforcement vs workaround.
 4. If operator promotes: add **asset-path row** to Persia off-ramp transaction (not in this pass).

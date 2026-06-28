@@ -193,7 +193,7 @@ Valid terminal forms are:
 - **recursive update candidate** - learning surface for later review, not direct doctrine mutation
 
 Use [artifact-registry.md](artifact-registry.md) to classify new or touched outputs by class and maturity.
-Use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the unresolved question is whether the prose object should stay note-class or mature into essay-class.
+Use [shared prose index](../docs/prose-index.md) when the unresolved question is whether the prose object should stay note-class or mature into essay-class.
 
 ## Promotion And Terminal-Form Law
 
@@ -290,7 +290,7 @@ Recognized classes include:
 
 When a speaker-conditioned crisis sequence or thread needs bounded continuity before lane descent, statecraft-governed speaker month pages, thread atlases, routing notes, and other speaker-state continuity surfaces belong in the live [statecraft/voices/](voices/README.md) tree rather than outside statecraft by default.
 
-The migration target is the whole live speaker corpus under `statecraft/voices/` and `statecraft/channels/`. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md).
+The migration target is the whole live speaker corpus under `statecraft/voices/` and `statecraft/channels/`. Legacy `codex/speakers/` is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
 
 Speaker arcs may feed:
 
@@ -370,4 +370,4 @@ That use-pattern is now part of the machine's real operating truth, even when a 
 
 ## Compatibility
 
-The previous academy namespace remains temporarily available through compatibility pointers under [codex/academy/statecraft/](/C:/dev/strategy-codex/codex/academy/statecraft/). The repo-root `statecraft/` tree is the live operational system.
+The previous academy namespace remains temporarily available through compatibility pointers under [codex/academy/statecraft/](../codex/academy/statecraft). The repo-root `statecraft/` tree is the live operational system.

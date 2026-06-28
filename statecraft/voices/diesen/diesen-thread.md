@@ -196,8 +196,7 @@ If pages named this expert during 2026-04, the narrative should eventually say *
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `diesen-vi14-petrodollar-vs-sachs-hormuz` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../legacy page index |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](days.md) |
+| **page_id** (machine slug) | `diesen-vi14-petrodollar-vs-sachs-hormuz` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -225,7 +224,7 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 
 ### References
 
-- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **Diesen Ãƒâ€” Sachs (blockade episode):** [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ)
 
 ### Receipt
@@ -234,7 +233,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
 | **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../daily-strategy-inbox.md Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 
@@ -247,7 +246,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 ---
 
-### Optional page index row (copy-paste into [`legacy page index`](../../legacy page index)
+### Optional page index row (copy-paste into [`legacy page index`](../../../../../../../codex/watches/README.md)
 
 ```yaml
   - page_id: `diesen-vi14-petrodollar-vs-sachs-hormuz` (legacy path removed)
@@ -270,7 +269,7 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 
 ### Reflection
 
-**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
+**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
 
 ### Foresight
 
@@ -286,8 +285,7 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../legacy page index |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](days.md) |
+| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -340,51 +338,46 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
-| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../legacy page index Ã¢â‚¬â€ search `2026-04-14` |
-
-**Falsifier:** This weave fails if **one** **merged** **Judgment** treats **Ritter** **hull**/**interdiction** **claims** as **fully** **confirmed** by **`parsi`** **EU** **wording**, **`sachs`** **NYT** **room** **hypotheses**, or **`jermy`** **GDP** **slides** **without** **tiered** **verify** Ã¢â‚¬â€ **expert** **lattice** **collapsed** into **mood**.
-<!-- strategy-page:end -->
-<!-- strategy-expert-thread:start -->
-## Machine layer Ã¢â‚¬â€ Extraction (script-maintained)
+| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md## Machine layer Ã¢â‚¬â€ Extraction (script-maintained)
 
 _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (de-duped union) + `strategy-page` blocks + optional legacy on-disk index rows. **Journal layer** (narrative) lives **above** the **strategy-expert-thread** start HTML comment. The machine-layer HTML block is replaced on each `thread` run._
 
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`](provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`](provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md`](provenance/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md`](../../../source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md) (pointer; SSOT raw-input) | thread:diesen
 ## 2026-04-27
-- Inbox | cold: full text in [`source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`](provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) (pointer; SSOT raw-input) | thread:diesen | crosses:crooke
+- Inbox | cold: full text in [`source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) (pointer; SSOT raw-input) | thread:diesen | crosses:crooke
 - Refined | cold: [diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) (host lane; same raw) | thread:diesen
 - Sibling (guest): [../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) | thread:crooke
 - YT | cold: **Glenn Diesen** (host) **Ãƒâ€”** **Alastair Crooke** (guest) Ã¢â‚¬â€ *Iran War Is Now a Global War for World Order* Ã¢â‚¬â€ **aired** **2026-04-27** Ã¢â‚¬â€ **Hormuz** / JCPOA Ã¢â‚¬Å“**prison**,Ã¢â‚¬Â IRI reorders (war & sanctions before nuclear), Trump/Obama, Israel messianic, EU/vdl, $ **architecture** // hook: **`thread:diesen`** **+** **`thread:crooke`** | `https://www.youtube.com/watch?v=TBD-diesen-crooke-2026-04-27` | verify:operator-paste+speaker-labeled+pin-canonical-URL | grep:Diesen+Crooke+Greater+Eurasia+2026-04-27
-- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`](provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) (pointer; SSOT raw-input) | thread:diesen
 ## 2026-04-26
-- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
-- Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen
 ## 2026-04-25
-- YT | cold: **Glenn** **Diesen** **Ãƒâ€”** **Pepe** **Escobar** Ã¢â‚¬â€ *Connectivity Wars Ã¢â‚¬â€ The U.S. War on Multipolarity* Ã¢â‚¬â€ **aired** **2026-04-23** Ã¢â‚¬â€ **cleaned** **caption** **(inferred** **speakers):** **INSTC** **/ BRI** **/ corridor** **competition** **(IMEC** **dead,** **QatarÃ¢â‚¬â€œTurkey** **pipe** **dreams),** **Hormuz** **/ Iran** **war** **Ãƒâ€”** **northÃ¢â‚¬â€œsouth** **connectivity,** **Chabahar** **/** **Gwadar** **/ India** **/** **China;** **Mackinder** **/ sea** **vs** **land** **frame** **(commentary)** // hook: **`thread:diesen`** **(Escobar** **=** **guest,** **no** **`expert_id`)** **Ãƒâ€”** **Ã‚Â§1e** **/** **Ã‚Â§1g** **Eurasia** **connectivity** **Ã¢â‚¬â€** **full** [provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md](provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) | TBD (pin `watch?v=`) | verify:operator-file+cleaned-caption+guest-not-in-roster+opinion-narrative-tier+not-Record | thread:diesen | EURASIA | IRAN | BRICS | grep:Diesen+Escobar+connectivity+multipolarity+2026-04-23
-- YT | cold: **Glenn Diesen** (host Ã¢â‚¬â€ **same** **episode** **as** **Macgregor** **row** **above**) Ã¢â‚¬â€ **multipolar** **/** **Ã¢â‚¬Å“world** **order** **dismantledÃ¢â‚¬Â** **/** **intÃ¢â‚¬â„¢l** **law** **+** **global** **empathy** **for** **Iran;** **Asia** **economic** **shock;** **Europe** **Ãƒâ€”** **Russia** **/** **Ukraine** **/** **drone** **escalation** **questions;** **Trump** **Ã¢â‚¬Å“victoryÃ¢â‚¬Â** **/ school** **strike** **framing** **Ã¢â‚¬â€** **not** **merge** **Macgregor** **ORBAT** **without** **seams** // hook: **`thread:diesen`** **Eurasia** **host** **lane** **Ãƒâ€”** **`thread:macgregor`** **Ã¢â‚¬â€** **same** **raw** [provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md](provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) | https://www.youtube.com/watch?v=1AZPNUaXJ-k | verify:same+raw+reingest-2026-04-25+host-not-guest+operator-transcript | thread:diesen | Eurasia | grep:Diesen+host+2026-04-21
+- YT | cold: **Glenn** **Diesen** **Ãƒâ€”** **Pepe** **Escobar** Ã¢â‚¬â€ *Connectivity Wars Ã¢â‚¬â€ The U.S. War on Multipolarity* Ã¢â‚¬â€ **aired** **2026-04-23** Ã¢â‚¬â€ **cleaned** **caption** **(inferred** **speakers):** **INSTC** **/ BRI** **/ corridor** **competition** **(IMEC** **dead,** **QatarÃ¢â‚¬â€œTurkey** **pipe** **dreams),** **Hormuz** **/ Iran** **war** **Ãƒâ€”** **northÃ¢â‚¬â€œsouth** **connectivity,** **Chabahar** **/** **Gwadar** **/ India** **/** **China;** **Mackinder** **/ sea** **vs** **land** **frame** **(commentary)** // hook: **`thread:diesen`** **(Escobar** **=** **guest,** **no** **`expert_id`)** **Ãƒâ€”** **Ã‚Â§1e** **/** **Ã‚Â§1g** **Eurasia** **connectivity** **Ã¢â‚¬â€** **full** [provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) | TBD (pin `watch?v=`) | verify:operator-file+cleaned-caption+guest-not-in-roster+opinion-narrative-tier+not-Record | thread:diesen | EURASIA | IRAN | BRICS | grep:Diesen+Escobar+connectivity+multipolarity+2026-04-23
+- YT | cold: **Glenn Diesen** (host Ã¢â‚¬â€ **same** **episode** **as** **Macgregor** **row** **above**) Ã¢â‚¬â€ **multipolar** **/** **Ã¢â‚¬Å“world** **order** **dismantledÃ¢â‚¬Â** **/** **intÃ¢â‚¬â„¢l** **law** **+** **global** **empathy** **for** **Iran;** **Asia** **economic** **shock;** **Europe** **Ãƒâ€”** **Russia** **/** **Ukraine** **/** **drone** **escalation** **questions;** **Trump** **Ã¢â‚¬Å“victoryÃ¢â‚¬Â** **/ school** **strike** **framing** **Ã¢â‚¬â€** **not** **merge** **Macgregor** **ORBAT** **without** **seams** // hook: **`thread:diesen`** **Eurasia** **host** **lane** **Ãƒâ€”** **`thread:macgregor`** **Ã¢â‚¬â€** **same** **raw** [provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) | https://www.youtube.com/watch?v=1AZPNUaXJ-k | verify:same+raw+reingest-2026-04-25+host-not-guest+operator-transcript | thread:diesen | Eurasia | grep:Diesen+host+2026-04-21
 ## 2026-04-23
-- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
+- Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md](provenance/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) _on-disk_
-- [source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](provenance/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md) _on-disk_
-- [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [source-macgregor-diesen-total-war-iran-2026-04-21.md](provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
-- [source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
+- [source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) _on-disk_
+- [source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](../../../source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md) _on-disk_
+- [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+- [source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 
 ### Page references
 

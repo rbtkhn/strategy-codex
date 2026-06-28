@@ -8,7 +8,7 @@ Purpose: define Chas Freeman as a first-class speaker object while keeping chron
 
 ## Object shape
 
-Freeman should currently be read as a **person-arc-first speaker object**: [arc-freeman-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-freeman-continuity.md) holds the canonical speaker continuity, [freeman-helix.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
+Freeman should currently be read as a **person-arc-first speaker object**: [arc-freeman-continuity.md](../../notes/arc-freeman-continuity.md) holds the canonical speaker continuity, [freeman-helix.md](freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
 
 ## Core claim
 
@@ -22,9 +22,9 @@ He should be read primarily as a **person-arc-first** object:
 - host-local arcs hold chronology and pressure context
 - the raw-input shelf holds transcript evidence
 
-This note is a routing-oriented object statement. It does not replace [arc-freeman-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-freeman-continuity.md), [freeman-routing.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-routing.md), or [freeman-helix.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-helix.md).
+This note is a routing-oriented object statement. It does not replace [arc-freeman-continuity.md](../../notes/arc-freeman-continuity.md), [freeman-routing.md](freeman-routing.md), or [freeman-helix.md](freeman-helix.md).
 
-For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/statecraft/voices/freeman/index.md) and [Freeman source index](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-source-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
+For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](index.md) and [Freeman source index](freeman-source-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
 
 ## Why Freeman matters
 
@@ -38,7 +38,7 @@ Freeman's utility profile is:
 
 ## Recent reinforcement
 
-- `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
+- `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](../../../source-archive/statecraft/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
 
 Additional non-core Freeman surfaces are already wired at the year level. The key distinction is structural: materialized transcript-bearing appearances belong to the `non-core appearance bench`, while found-but-not-yet-materialized items belong to `discovery memory`.
 
@@ -46,25 +46,25 @@ Additional non-core Freeman surfaces are already wired at the year level. The ke
 
 For routing:
 
-- [freeman-routing.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-routing.md)
+- [freeman-routing.md](freeman-routing.md)
 
 For whole-speaker continuity:
 
-- [arc-freeman-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-freeman-continuity.md)
+- [arc-freeman-continuity.md](../../notes/arc-freeman-continuity.md)
 
 For object shape:
 
-- [freeman-helix.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-helix.md)
+- [freeman-helix.md](freeman-helix.md)
 
 For legacy continuity carryover only:
 
-- [freeman-thread.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-thread.md)
+- [freeman-thread.md](freeman-thread.md)
 
 For cross-host discovery and reinforcement beyond the four main host lanes:
 
-- [2026 Freeman index](/C:/dev/strategy-codex/statecraft/voices/freeman/index.md)
-- [Freeman source index](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-source-index.md)
-- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-dec-2025-may-2026-arc-threads.md)
+- [2026 Freeman index](index.md)
+- [Freeman source index](freeman-source-index.md)
+- [December 2025-May 2026 arc-threads](freeman-dec-2025-may-2026-arc-threads.md)
 
 ## Boundaries
 

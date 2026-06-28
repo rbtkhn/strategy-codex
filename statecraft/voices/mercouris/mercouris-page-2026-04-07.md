@@ -38,7 +38,6 @@ The episode binds **Hormuz coercion economics** (RMB toll, supply shock) to a **
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-07/duran-source-hormuz-deadline-satellites-oreshnik-2026-04-07.md](../../../years/2026/provenance/2026-04-07/duran-source-hormuz-deadline-satellites-oreshnik-2026-04-07.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `thread:mercouris`, aired 2026-04-07)
+- **Full verbatim (capture):** [provenance/2026-04-07/duran-source-hormuz-deadline-satellites-oreshnik-2026-04-07.md](../../../source-archive/statecraft/2026-04-07/day-index.md)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-04-07` (`ingest_date` 2026-04-25 in frontmatter)
 - **Canonical video:** [raw-input frontmatter `source_url`](../../../years/2026/provenance/2026-04-07/duran-source-hormuz-deadline-satellites-oreshnik-2026-04-07.md — replace TBD watch ID when pinned

@@ -23,7 +23,7 @@ synced_by: sync_portable_skills.py
 
 **Active concept:** **strategy-codex expert cross-weave** — fold two expert-thread ingests into one host-equivalent daily seam.
 
-**SSOT:** [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) (weave / EOD compose).
+**SSOT:** [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) (weave / EOD compose).
 
 **Activation:** `weave expert cross`, `expert cross-weave`, `crosses:expert-a+expert-b` — follow codex weave rules; use [check-sources](../check-sources/SKILL.md) and [statecraft-source-intake](../statecraft-source-intake/SKILL.md) for intake handoff.
 
@@ -37,8 +37,8 @@ Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).
 | Topic | Path |
 |--------|------|
 | Portable core | [skills/strategy-notebook-expert-cross-weave/SKILL.md](../../../skills/strategy-notebook-expert-cross-weave/SKILL.md) |
-| Daily inbox (SSOT) | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
-| Chapter days | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md](../../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md) (adjust `YYYY-MM`) |
+| Daily inbox (SSOT) | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
+| Chapter days | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md](../../../codex/chapters/2026/2026-04/days.md) (adjust `YYYY-MM`) |
 | Chapter meta | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md](../../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md) |
 | Notebook STATUS | [docs/skill-work/work-strategy/strategy-notebook/STATUS.md](../../../docs/skill-work/work-strategy/strategy-notebook/STATUS.md) |
 | Commentator roster | [docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md) |

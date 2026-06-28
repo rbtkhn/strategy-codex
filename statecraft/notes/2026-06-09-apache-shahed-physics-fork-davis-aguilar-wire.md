@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Apache × Shahed-136 — physics fork (Davis · Aguilar · Krapivnik vs wire) — 2026-06-09
 
-**Parent:** [2026-06-09 daily](statecraft/synthesis/day/2026-06-09.md) · [news-verify matrix](statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md) (**S2** contested) · **Sources:** [Davis breaking Qeshm/Apache](https://www.youtube.com/watch?v=TlcHuoC86JQ) · [Aguilar × Nima](https://www.youtube.com/watch?v=4wfVXkp9eGs) (Nawfal Pape same Apache bench) · [Krapivnik × Nima breaking interrupt](https://www.youtube.com/watch?v=Cg-cFVQ55S8) · [Davis × Marandi morning](https://www.youtube.com/watch?v=xP9lW4aYJx8)
+**Parent:** [2026-06-09 daily](../synthesis/day/2026-06-09.md) · [news-verify matrix](wire/2026-06-08-09-news-verify-matrix.md) (**S2** contested) · **Sources:** [Davis breaking Qeshm/Apache](https://www.youtube.com/watch?v=TlcHuoC86JQ) · [Aguilar × Nima](https://www.youtube.com/watch?v=4wfVXkp9eGs) (Nawfal Pape same Apache bench) · [Krapivnik × Nima breaking interrupt](https://www.youtube.com/watch?v=Cg-cFVQ55S8) · [Davis × Marandi morning](https://www.youtube.com/watch?v=xP9lW4aYJx8)
 
 ## Purpose
 
@@ -314,7 +314,7 @@ Araghchi / Marandi military sources: forces did **not deliberately** target the 
 ## Best next moves
 
 1. **`fact-check`** — Apache cause only (ordnance, CENTCOM readout, satellite).
-2. Update [news-verify matrix](statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md) **S2** when receipts land.
+2. Update [news-verify matrix](wire/2026-06-08-09-news-verify-matrix.md) **S2** when receipts land.
 3. Hold **Qeshm proportional-strike** synthesis on **S2** until cause or damage row firms.
 
 ---

@@ -16,7 +16,7 @@ Purpose: define `arc-wilkerson-continuity` as the canonical statecraft-side pers
 Quick separation rule:
 
 - `arc-wilkerson-continuity` = Wilkerson's canonical continuity across hosts, contexts, and time
-- [legacy Wilkerson helix](../../../statecraft/voices/wilkerson/wilkerson-helix.md) = cross-host comparison of the two main host transformations
+- [legacy Wilkerson helix](../voices/wilkerson/wilkerson-helix.md) = cross-host comparison of the two main host transformations
 - [wilkerson-routing.md](wilkerson-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Wilkerson under one host's pressure
 
@@ -52,7 +52,7 @@ That motion is broad enough that Wilkerson deserves a canonical statecraft-side 
 
 If the operator needs the strongest whole-speaker comparative entry:
 
-- open [legacy Wilkerson helix](../../../statecraft/voices/wilkerson/wilkerson-helix.md)
+- open [legacy Wilkerson helix](../voices/wilkerson/wilkerson-helix.md)
 
 If the operator needs the fastest host-conditioned entry:
 

@@ -71,7 +71,7 @@ If the operator needs only one file:
 If the operator needs the best companion surfaces for the uncaptured run:
 
 - open [dialogue-works-inventory.md](../../source-archive/statecraft/dialogue-works-inventory.md)
-- then [alkorshid-profile.md](/C:/dev/strategy-codex/statecraft/voices/alkorshid/alkorshid-profile.md)
+- then [alkorshid-profile.md](../voices/alkorshid/alkorshid-profile.md)
 
 That pair gives the clearest sense that this is not a one-off file but a real recurring lane awaiting broader materialization.
 
@@ -103,7 +103,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what can physically be destroyed or intercepted rather than live crisis pressure around those systems, route outward to [arc-postol-davis-host.md](/C:/dev/strategy-codex/arc-postol-davis-host.md).
+- If the question is mainly about what can physically be destroyed or intercepted rather than live crisis pressure around those systems, route outward to [arc-postol-davis-host.md](../../arc-postol-davis-host.md).
 
 - Postol is strongest here on technical correction, deterrence realism, and destructive-capacity analysis, not on diplomatic sequencing or bargaining-room logic.
 - The materialized shelf is still a conservative subset of the broader stream-discovered run.

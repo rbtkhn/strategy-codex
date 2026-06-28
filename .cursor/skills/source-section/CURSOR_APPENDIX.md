@@ -72,6 +72,6 @@ After land (+ optional **`source-clean`**) on **`source_form: solo`** or **`sour
 
 ## Related docs
 
-- [`source-archive/statecraft/README.md`](../../source-archive/statecraft/README.md)
+- [`source-archive/statecraft/README.md`](../../../statecraft/README.md)
 - [`skills/source-clean/SKILL.md`](../../skills/source-clean/SKILL.md)
 - [`skills/statecraft-source-intake/SKILL.md`](../../skills/statecraft-source-intake/SKILL.md)

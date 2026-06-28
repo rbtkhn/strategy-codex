@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-05 – 2026-06-07
 
-**Parent dailies:** [2026-06-05](statecraft/synthesis/day/2026-06-05.md) · [2026-06-06](statecraft/synthesis/day/2026-06-06.md) · [2026-06-07](statecraft/synthesis/day/2026-06-07.md) · **Archive:** [Jun 5](../../source-archive/statecraft/2026-06-05/day-index.md) · [Jun 6](../../source-archive/statecraft/2026-06-06/day-index.md) · [Jun 7](../../source-archive/statecraft/2026-06-07/day-index.md) · **Cross-ref:** [W34 matrix](2026-06-03-04-news-verify-matrix.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md)
+**Parent dailies:** [2026-06-05](../../synthesis/day/2026-06-05.md) · [2026-06-06](../../synthesis/day/2026-06-06.md) · [2026-06-07](../../synthesis/day/2026-06-07.md) · **Archive:** [Jun 5](../../../source-archive/statecraft/2026-06-05/day-index.md) · [Jun 6](../../../source-archive/statecraft/2026-06-06/day-index.md) · [Jun 7](../../../source-archive/statecraft/2026-06-07/day-index.md) · **Cross-ref:** [W34 matrix](2026-06-03-04-news-verify-matrix.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md)
 
 **Mode:** combo window (11 + 9 + 7 ingests, **entrapment × Hormuz × third-party deterrence firing**) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (Jun 7 Lebanon trigger spend) · **Capture receipts:** 0/27
 
@@ -26,7 +26,7 @@ WORK only; not Record.
 | **W57-4** | **Iran missiles at US destroyers** / ships flee Indian Ocean (Johnson-Wilkerson) | Persia/America | en | **Partial** | Jun 5 DW; damage tier **unclear** |
 | **W57-5** | **DIA Israel CI threat elevated critical** (~6 Jun) | America/Adjacent | en | **Supported** | Macgregor Nawfal Jun 6 · [Military.com 6 Jun](https://www.military.com/pentagon-raises-israeli-spy-threat-as-ndaa-seeks-deeper-defense-ties) |
 | **W57-6** | **Disproportionate retaliation** policy (Kuwait/Bahrain ladder) | Persia | en | **Partial** | Marandi Jun 6; attempt cycle **supported** |
-| **W57-7** | **Pape New Phase** — escalation trap enters new register | — | en | **Partial** | Substack Jun 6; [Day 100 sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) |
+| **W57-7** | **Pape New Phase** — escalation trap enters new register | — | en | **Partial** | Substack Jun 6; [Day 100 sheet](../2026-06-08-pape-day-100-indicator-watch-sheet.md) |
 | **W57-8** | **Third-party deterrence fires** — Iran strikes Israel after Beirut/Dahieh Jun 7 | Persia/Adjacent | en | **Supported** | Parsi ×2 · Nima · Davis · Aguilar Jun 7; **first since April** bilateral |
 | **W57-9** | **Trump trap** — enter war vs abandon Israel (Parsi operational) | America | en | **Partial** | Parsi Jun 7 · Nima humiliation read |
 | **W57-10** | **Netanyahu executes preference** despite Trump call | Adjacent/America | en | **Partial** | Davis · Aguilar Jun 7; Rise and Kill First frame tier-4 |

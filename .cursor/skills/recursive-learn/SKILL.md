@@ -22,7 +22,7 @@ synced_by: sync_portable_skills.py
 
 **Activation:** `recursive learn` · `recursive-learn` · `RLJ` · `recursive learning` *(legacy)* · `review this session through recursive learning`
 
-**SSOT (open first — do not repo-grep):** [statecraft/recursive-learning-journal.md](../../statecraft/recursive-learning-journal.md)
+**SSOT (open first — do not repo-grep):** [statecraft/recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md)
 
 Extract **reusable drafting, routing, or architectural law** from a session — not source intake, not speaker shelves, not operator rhythm elicitation.
 
@@ -67,26 +67,26 @@ Cross-link [skill-elicitation](../../.cursor/skills/skill-elicitation/SKILL.md) 
 |-------|------|------|
 | Session review | chat only | five sections drafted |
 | Journal entry | `recursive-learning-journal.md` | operator confirms append; no duplicate law |
-| Pattern promotion | `statecraft/patterns/` | adaptive reuse on a second distinct object ([patterns/README.md](../../statecraft/patterns/README.md) use rule) |
-| Skill/validator wire | `.cursor/skills/` or scripts | law reduces misrouting measurably ([skill-refinement-scorecard](../../statecraft/notes/skill-refinement-scorecard.md)) |
+| Pattern promotion | `statecraft/patterns/` | adaptive reuse on a second distinct object ([patterns/README.md](../../../statecraft/patterns/README.md) use rule) |
+| Skill/validator wire | `.cursor/skills/` or scripts | law reduces misrouting measurably ([skill-refinement-scorecard](../../../statecraft/notes/skill-refinement-scorecard.md)) |
 
 **Defer paths:** opportunity-map (rank only), law-extraction checkpoint (carry to close).
 
 **Supersede / cross-link (append gate):** Before append, search full journal for overlapping law (see CURSOR_APPENDIX duplicate grep). If overlap exists: **cross-link** (same law, new reapplication), **narrow** (scope restriction), or **supersede** (dated note + pointer to prior entry) — never silent duplicate.
 
-Promoted pattern examples: [lane-hardening-law.md](../../statecraft/patterns/lane-hardening-law.md), [doctrine-hardening-law.md](../../statecraft/patterns/doctrine-hardening-law.md).
+Promoted pattern examples: [lane-hardening-law.md](../../../statecraft/patterns/lane-hardening-law.md), [doctrine-hardening-law.md](../../../statecraft/patterns/doctrine-hardening-law.md).
 
 ## Known homes
 
 | Artifact | Path |
 |----------|------|
-| Journal SSOT | [statecraft/recursive-learning-journal.md](../../statecraft/recursive-learning-journal.md) |
-| Pattern promotion target | [statecraft/patterns/README.md](../../statecraft/patterns/README.md) |
-| Skill-wire gate | [statecraft/notes/skill-refinement-scorecard.md](../../statecraft/notes/skill-refinement-scorecard.md) |
-| Conductor arc journal | [conductor-arc-impact-journal.md](../../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) |
-| Cadence receipts | [work-cadence-events.md](../../docs/skill-work/work-cadence/work-cadence-events.md) |
-| Repair receipt pattern | [archive-truth-floor-audit-receipt-pattern.md](../../docs/archive-truth-floor-audit-receipt-pattern.md) |
-| Lineage memo | [interpretive-machine-lineage.md](../../docs/skill-work/work-strategy/interpretive-machine-lineage.md) |
+| Journal SSOT | [statecraft/recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) |
+| Pattern promotion target | [statecraft/patterns/README.md](../../../statecraft/patterns/README.md) |
+| Skill-wire gate | [statecraft/notes/skill-refinement-scorecard.md](../../../statecraft/notes/skill-refinement-scorecard.md) |
+| Conductor arc journal | [conductor-arc-impact-journal.md](../../../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) |
+| Cadence receipts | [work-cadence-events.md](../../../docs/skill-work/work-cadence/work-cadence-events.md) |
+| Repair receipt pattern | [archive-truth-floor-audit-receipt-pattern.md](../../../docs/archive-truth-floor-audit-receipt-pattern.md) |
+| Lineage memo | [interpretive-machine-lineage.md](../../../docs/skill-work/work-strategy/interpretive-machine-lineage.md) |
 
 Preflight: read journal entry shape + last 2–3 entries before proposing a new law. Cursor agents: see CURSOR_APPENDIX for preflight commands.
 
@@ -163,7 +163,7 @@ When law may be ready for pattern or skill wire (canonical #4, #6, or operator r
 
 ## Cadence integration
 
-RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Standalone activation by name — not coffee hub letter E. Coffee/dream hub seeds and handoff detail: **CURSOR_APPENDIX** (Cursor) or [work-coffee README](../../docs/skill-work/work-coffee/README.md).
+RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Standalone activation by name — not coffee hub letter E. Coffee/dream hub seeds and handoff detail: **CURSOR_APPENDIX** (Cursor) or [work-coffee README](../../../docs/skill-work/work-coffee/README.md).
 
 | Job | Primary surface | RLJ role |
 |-----|-----------------|----------|
@@ -183,7 +183,7 @@ RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Stan
 
 ## Agent workflow
 
-1. Open [statecraft/recursive-learning-journal.md](../../statecraft/recursive-learning-journal.md) — not repo-wide search.
+1. Open [statecraft/recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) — not repo-wide search.
 2. Name one trigger object.
 3. Extract falsifiable, reusable law.
 4. Show at least one concrete reapplication.
@@ -206,7 +206,7 @@ RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Stan
 
 When a **plan EXECUTE** or multi-skill ship fails on tool timeout then succeeds after discipline change, run RLJ.
 
-**Law (SSOT detail):** [recursive-learning-journal § parallel ban on file tools and Shell calls](../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · always-on [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc) rules **#3** + **#10** · menu-pick delivery [agent-execution-hygiene.mdc](../../.cursor/rules/agent-execution-hygiene.mdc) § No parallel Shell tool calls.
+**Law (SSOT detail):** [recursive-learning-journal § parallel ban on file tools and Shell calls](../../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · always-on [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc) rules **#3** + **#10** · menu-pick delivery [agent-execution-hygiene.mdc](../../.cursor/rules/agent-execution-hygiene.mdc) § No parallel Shell tool calls.
 
 ```text
 one Shell tool call per turn — combine git/sync subcommands with ;
@@ -231,7 +231,7 @@ Offer session review when operator says **`recursive learn`** after a plan ship 
 
 **Guardrail:** Do not copy Rome tier labels to other civs without elicitation; `instrument` vs `co-primary` is judgment, not template.
 
-Journal entries for rungs 2–4: [language v0.1.27](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) · [military v0.1.28](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-military-history-military-spine-parallel-dimension) · [faith v0.1.29](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-faith-history-faith-spine-parallel-dimension).
+Journal entries for rungs 2–4: [language v0.1.27](../../../statecraft/recursive-learning-journal.md#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) · [military v0.1.28](../../../statecraft/recursive-learning-journal.md#2026-06-18---rome-military-history-military-spine-parallel-dimension) · [faith v0.1.29](../../../statecraft/recursive-learning-journal.md#2026-06-19---rome-faith-history-faith-spine-parallel-dimension).
 
 ## Rome parallel-spine ladder (civ-state)
 
@@ -241,13 +241,13 @@ Journal entries for rungs 2–4: [language v0.1.27](../../statecraft/recursive-l
 
 | Rung | Memory anchor | Governs | Sub-anchors (Rome) | Ship | RLJ |
 |------|---------------|---------|-------------------|------|-----|
-| 1 | `#chain-spine` | Political succession | Republic → … → present carrier | v0.1.26 | [fractured-sovereignty chain](../../statecraft/recursive-learning-journal.md#2026-06-17---rome-fractured-sovereignty-chain-encoding-memory-spine--term-segments) |
-| 2 | `#language-spine` | Greek/Latin **medium** | co-primary carriers · sacred dual-medium | v0.1.27 | [language-spine](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) |
-| 3 | `#military-spine` | Force structure | formation · eastern · western | v0.1.28 | [military-spine](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-military-history-military-spine-parallel-dimension) |
-| 4 | `#faith-spine` | Sacred / truth-order | mythology · formation · eastern · western | v0.1.29 | [faith-spine](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-faith-history-faith-spine-parallel-dimension) |
+| 1 | `#chain-spine` | Political succession | Republic → … → present carrier | v0.1.26 | [fractured-sovereignty chain](../../../statecraft/recursive-learning-journal.md#2026-06-17---rome-fractured-sovereignty-chain-encoding-memory-spine--term-segments) |
+| 2 | `#language-spine` | Greek/Latin **medium** | co-primary carriers · sacred dual-medium | v0.1.27 | [language-spine](../../../statecraft/recursive-learning-journal.md#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) |
+| 3 | `#military-spine` | Force structure | formation · eastern · western | v0.1.28 | [military-spine](../../../statecraft/recursive-learning-journal.md#2026-06-18---rome-military-history-military-spine-parallel-dimension) |
+| 4 | `#faith-spine` | Sacred / truth-order | mythology · formation · eastern · western | v0.1.29 | [faith-spine](../../../statecraft/recursive-learning-journal.md#2026-06-19---rome-faith-history-faith-spine-parallel-dimension) |
 | 5 | `#science-spine` | Procedural / evidentiary truth-order | inheritance · formation · eastern · western *(planned)* | v0.1.30 | *(append after ship)* |
 
-**Routing:** [`governing-term-first.md`](../../public/civ-state/skills/governing-term-first.md) — chain · language · military · faith placement steps; science placement added at v0.1.30 ship.
+**Routing:** [`governing-term-first.md`](../../../public/civ-state/skills/governing-term-first.md) — chain · language · military · faith placement steps; science placement added at v0.1.30 ship.
 
 **Repeatable encode recipe** (each new rung):
 
@@ -273,9 +273,9 @@ elicitation MCQs → master table + tension pass
 
 ## Rome hexagonal wave ladder (civ-state)
 
-**Use when:** encoding or reviewing a **hexagonal demonstrator** (one friction node × six term lenses). Open [RLJ wave-1 archetypes](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-hexagonal-wave-1-encode-three-node-archetypes) and [hexagonal scaffold RLJ](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) before drafting.
+**Use when:** encoding or reviewing a **hexagonal demonstrator** (one friction node × six term lenses). Open [RLJ wave-1 archetypes](../../../statecraft/recursive-learning-journal.md#2026-06-19---rome-hexagonal-wave-1-encode-three-node-archetypes) and [hexagonal scaffold RLJ](../../../statecraft/recursive-learning-journal.md#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) before drafting.
 
-**Prep SSOT:** [connectivity-rome](../../public/civ-state/volumes/rome/theory/connectivity-rome.md) → [_template-hexagonal-rome](../../public/civ-state/volumes/rome/theory/_template-hexagonal-rome.md) → [essays/README registry](../../public/civ-state/volumes/rome/theory/README.md#hex-frame-hexagonal-demonstrators).
+**Prep SSOT:** [connectivity-rome](../../../public/civ-state/volumes/rome/theory/connectivity-rome.md) → [_template-hexagonal-rome](../../../public/civ-state/volumes/rome/theory/_template-hexagonal-rome.md) → [essays/README registry](../../../public/civ-state/volumes/rome/theory/README.md#hex-frame-hexagonal-demonstrators).
 
 ### Node archetypes (classify before entropy row)
 

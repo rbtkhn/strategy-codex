@@ -8,7 +8,7 @@ Prefer **extending** an existing dashboard, **adding a registry entry**, or **ad
 
 **Operator dashboard consolidation (Phases 0–4):** Repo Surgeon, Statecraft War Room, Operator Command Deck, and Operator Dashboard umbrella — [operator-dashboard-consolidation-phase0.md](skill-work/work-dev/operator-dashboard-consolidation-phase0.md). **When to use (agent nudge):** [operator-dashboard-when-to-use.md](operator-dashboard-when-to-use.md). **`coffee`** Step 1 includes a mandatory Dashboard nudge — [coffee SKILL](../.cursor/skills/coffee/SKILL.md).
 
-Dashboards are a **stable scripted subclass** of the [Interface Artifact Protocol](skill-work/work-dev/interface-runtime/artifacts/README.md): generated operator-facing views that remain **derived** and **non-canonical** even when they become reliable enough to script and regenerate routinely.
+Dashboards are a **stable scripted subclass** of the [Interface Artifact Protocol](../runtime/artifacts/README.md): generated operator-facing views that remain **derived** and **non-canonical** even when they become reliable enough to script and regenerate routinely.
 
 ## Dashboard staleness
 

@@ -230,7 +230,7 @@ We’re not, in my opinion, going to get weaker with the passage of time. The Un
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md](../../../years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-20)
+- **Full verbatim (capture):** [provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-20)
 - **`thread:mearsheimer`** · **verify:** primary capture on disk + voice date + inbox row (YT | / SS | as applicable)
 - **Canonical primary:** Not yet pinned — see raw-input source_note

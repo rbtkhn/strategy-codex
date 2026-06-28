@@ -23,8 +23,8 @@ That matters because it shows the Berletic voice is not a one-file anomaly. Even
 
 There is also broader shelf support from the older profile and thread scaffolds already in the folder:
 
-- [berletic-profile.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-profile.md)
-- [berletic-thread.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-thread.md)
+- [berletic-profile.md](berletic-profile.md)
+- [berletic-thread.md](berletic-thread.md)
 
 ## How to read that reinforcement
 

@@ -18,10 +18,9 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-_SRC = SRC_DIR
 _RUNTIME = REPO_ROOT / "scripts" / "runtime"
 _PREP = Path(__file__).resolve().parent
-for _p in (_SRC, _RUNTIME, _PREP):
+for _p in (REPO_ROOT / "scripts", _RUNTIME, _PREP):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 from repo_io import PREPARED_CONTEXT_DIR, SRC_DIR

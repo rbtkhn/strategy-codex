@@ -1,12 +1,18 @@
-﻿# START-HERE — strategy-codex
+﻿---
+audience: operator
+authority: doctrine
+record_status: frozen
+---
 
-**Work only; not Record.** Governance law: [AGENTS.md](../AGENTS.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md).
+# START-HERE — strategy-codex
+
+**Work only; not Record.** Governance law: [AGENTS.md](../AGENTS.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md). Grace-Mar archive doctrine: [docs/archive/grace-mar.md](archive/grace-mar.md).
 
 ---
 
 ## What this repo is
 
-Canonical definition: [product-identity.md](product-identity.md). **Default path:** **C** (operator). Record under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is **frozen**; [museum `self-library.md`](../archive/grace-mar-instance/self-library.md) stays active for reference; [`memory.md`](../memory.md) is session continuity — not Record.
+Canonical definition: [product-identity.md](product-identity.md). **Default path:** **C** (operator). Record under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is **frozen** ([docs/archive/grace-mar.md](archive/grace-mar.md)); [museum `self-library.md`](../archive/grace-mar-instance/self-library.md) stays active for reference; [`memory.md`](../memory.md) is session continuity — not Record.
 
 **Namespace (voices / states / hosts):** [routing-reference.md](routing-reference.md) · `statecraft/voices/` · `statecraft/states/` · `statecraft/channels/`
 

@@ -18,7 +18,7 @@ What matters most here is not Napolitano's spread across other hosts, but his re
 
 The native body of the object is:
 
-- [statecraft/channels/judging-freedom/README.md](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/README.md)
+- [statecraft/channels/judging-freedom/README.md](README.md)
 
 Within that shelf, the November 2025-April 2026 balanced-core guest set currently gives the clearest shape:
 

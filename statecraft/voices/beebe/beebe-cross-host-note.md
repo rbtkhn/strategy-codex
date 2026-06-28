@@ -12,7 +12,7 @@ Purpose: keep George Beebe's cross-host status honest by separating what is mate
 
 This is the only branch that currently crosses the embodiment threshold in a strong way. It is dense across `2025` and `2026`, has multiple full-form imports on disk, and already supports a real host-local arc note:
 
-- [arc-beebe-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-beebe-diesen-host.md)
+- [arc-beebe-diesen-host.md](../../notes/arc-beebe-diesen-host.md)
 
 ### Search-backed but not yet imported here
 
@@ -49,11 +49,11 @@ That is enough to make Beebe meaningful on the shelf without letting discovery m
 Open:
 
 - [Beebe index](index.md)
-- [arc-beebe-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-beebe-diesen-host.md)
+- [arc-beebe-diesen-host.md](../../notes/arc-beebe-diesen-host.md)
 
 Then:
 
-- [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
+- [2026-05-14 Diesen x Beebe](../../../source-archive/statecraft/2026-05-14/source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
 
 ## Doctrine boundary
 

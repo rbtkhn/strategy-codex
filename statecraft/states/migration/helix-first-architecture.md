@@ -47,7 +47,7 @@ That means:
 - [China README](../../china/README.md) now routes to the helix first and to strand objects second
 - the older [China lane-level verification](china-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
 - [Iran helix](../../iran/helix.md) is the third transfer case promoted using the established three-lane proof rather than a fresh architecture redesign
-- [Iran README](../../iran/README.md) now routes to the helix first and to strand objects second
+- [Iran README](../../../README.md) now routes to the helix first and to strand objects second
 - the older [Iran lane-level verification](iran-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
 
 The first lane-set result now exists at [Four-lane helix verification](lane-set-helix-verification.md). That note closes the lane-transfer question for the active set and shifts the next work upward into cross-lane synthesis and orientation surfaces.

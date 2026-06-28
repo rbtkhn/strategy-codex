@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Compatibility note: this codex-side object note remains only as a migration-era
 pointer. The canonical Ritter shelf now lives under
-[statecraft/voices/ritter/](/C:/dev/strategy-codex/statecraft/voices/ritter/README.md).
+[statecraft/voices/ritter/](README.md).
 
 Current doctrinal status:
 
@@ -17,9 +17,9 @@ Current doctrinal status:
 
 Open first:
 
-- [canonical front door](/C:/dev/strategy-codex/statecraft/voices/ritter/README.md)
-- [canonical helix](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-helix.md)
-- [canonical support spine](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-support-spine-2025-2026.md)
-- [canonical month ladder](/C:/dev/strategy-codex/statecraft/voices/ritter/README.md)
+- [canonical front door](README.md)
+- [canonical helix](ritter-helix.md)
+- [canonical support spine](ritter-support-spine-2025-2026.md)
+- [canonical month ladder](README.md)
 
 Do not treat this file as a co-equal canonical shelf surface.

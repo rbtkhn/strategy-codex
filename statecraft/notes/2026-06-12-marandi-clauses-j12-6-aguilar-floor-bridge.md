@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Marandi Clauses × J12-6 × Aguilar FM Floor — Bridge — 2026-06-12
 
-**Parent:** [Marandi deal floor × gate Clauses A–D](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [J12-1–J12-9 wire rows](statecraft/notes/wire/2026-06-12-news-verify-matrix.md#shared-seam-anchors-j12-1--j12-9) · [week-2 falsifier table](statecraft/notes/reentry/2026-06-week2-start-here.md#falsifier-table-through-jun-12) · [`AMER-224-RCPT-04`](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) · [Aguilar DW (FM floor)](../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md) · [Aguilar MR (graduated trap)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
+**Parent:** [Marandi deal floor × gate Clauses A–D](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [J12-1–J12-9 wire rows](wire/2026-06-12-news-verify-matrix.md#shared-seam-anchors-j12-1--j12-9) · [week-2 falsifier table](reentry/2026-06-week2-start-here.md#falsifier-table-through-jun-12) · [`AMER-224-RCPT-04`](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid) · [Aguilar DW (FM floor)](../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md) · [Aguilar MR (graduated trap)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
 
 **Bounded question:** Does **Aguilar's FM-interview floor** (Jun 12 DW) **land on** Marandi's **Clause A/D bundle** — does **MR Aguilar's graduated-response trap** split the gate into **two Lebanon tiers** — does **`AMER-224-RCPT-04`** (§224 inverse-lever during bridge) falsify Persia **Clause B** assurances — and does **J12-6 wire fracture** falsify all three?
 
@@ -95,7 +95,7 @@ Cross-lane hierarchy row — Persia gate cannot green while America mesh advance
 
 **Bridge tension (unchanged from Jun 8):** Marandi + DW Aguilar demand **upfront trust goods**; Trump/Vance posture = **performance after comply**. Clause B **still falsified** in live America lane.
 
-**Aguilar (DW) add:** Enforcement is not tweet or MOU — **aid cut** is the only credible B-carrier. Maps to [Johnson×Wilkerson×Aguilar gate comparison](statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) **lever absent** row.
+**Aguilar (DW) add:** Enforcement is not tweet or MOU — **aid cut** is the only credible B-carrier. Maps to [Johnson×Wilkerson×Aguilar gate comparison](2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) **lever absent** row.
 
 **Aguilar (MR) add:** **Dual-document fracture** — signatories may not be signing the same object; Clause B **split by audience**, not only by timing. **`AMER-224-RCPT-04` add:** if §224 enacts during bridge, Persia [Lebanon gate Clause B](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) **fails** — statutory client license is **inverse** of aid-cut carrier.
 
@@ -115,7 +115,7 @@ Cross-lane hierarchy row — Persia gate cannot green while America mesh advance
 
 ## J12-6 / J12-7/8/9 adjudication against Marandi instrument
 
-| Falsifier (72h from Jun 12) | Marandi instrument read | Aguilar (DW) read | Aguilar (MR) read | America / wire | [72h watch](statecraft/notes/watch/2026-06-12-72h-watch-run.md) |
+| Falsifier (72h from Jun 12) | Marandi instrument read | Aguilar (DW) read | Aguilar (MR) read | America / wire | [72h watch](watch/2026-06-12-72h-watch-run.md) |
 |-----------------------------|-------------------------|-------------------|-------------------|----------------|---------------------------------------------|
 | IDF ops halt | `A-WITH-01` + `A-PSEUDO-01` pass | Gate **green** possible | N/A — expects Israel break first | Mesh irrelevant if halt real | **Fail** — ops expand |
 | Signed text + Lebanon bundled | Clause A green | MOU not worthless | MOU may sign while **A′-SOUTH** fails | Bridge + §224 may **decouple** | **Partial** — draft only; ops contradict |
@@ -142,11 +142,11 @@ Cross-lane hierarchy row — Persia gate cannot green while America mesh advance
 
 ## Return paths
 
-- [Marandi deal floor × clauses (Jun 8)](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
+- [Marandi deal floor × clauses (Jun 8)](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
 - [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
-- [Johnson×Wilkerson×Aguilar comparison](statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)
-- [72h watch run](statecraft/notes/watch/2026-06-12-72h-watch-run.md)
+- [Johnson×Wilkerson×Aguilar comparison](2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)
+- [72h watch run](watch/2026-06-12-72h-watch-run.md)
 - [America foreign-client-mesh — §224 inverse-lever](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
-- [Jun 12 wire-verify — J12-1–J12-9](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)
+- [Jun 12 wire-verify — J12-1–J12-9](wire/2026-06-12-news-verify-matrix.md)
 - [Moral Resistance × Aguilar / graduated trap](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
-- [2026-06-12 daily](statecraft/synthesis/day/2026-06-12.md)
+- [2026-06-12 daily](../synthesis/day/2026-06-12.md)

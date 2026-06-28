@@ -1,10 +1,10 @@
 ## strategy-codex instance
 
-- Root working area for this skill: [codex/academy/statecraft](/C:/dev/strategy-codex/codex/academy/statecraft) with the main control plane under [civ-state/migration](/C:/dev/strategy-codex/codex/academy/statecraft/states/migration).
+- Root working area for this skill: [codex/academy/statecraft](../../../codex/academy/statecraft) with the main control plane under [civ-state/migration](../../../statecraft/states/migration).
 - Preferred source stack for synthesis work:
-  - lane helixes such as [America helix](/C:/dev/strategy-codex/codex/academy/statecraft/america/helix.md)
+  - lane helixes such as [America helix](../../../codex/academy/statecraft/america/helix.md)
   - first-wave strand objects under each lane's `civilization/` and `empire/`
-  - migration control-plane notes in [civ-state/migration](/C:/dev/strategy-codex/codex/academy/statecraft/states/migration)
+  - migration control-plane notes in [civ-state/migration](../../../statecraft/states/migration)
 - Preferred generator command after edits:
 
 ```powershell

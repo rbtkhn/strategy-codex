@@ -20,6 +20,15 @@ title: "Prediction Confirmed: The Next Phase of the Iran War Has Begun"
 access: free
 capture_note: "Operator paste; public Substack essay body preserved verbatim. Cross-ref Monday essay Getting the Framework Right (2026-06-22 capture). Live Substack page shows Jun 26 pub line — operator paste header Jun 25; verify pub_date if load-bearing."
 editorial_note: "Operator-pasted Substack body; not independently verified against live Substack HTML."
+verify_receipt: 2026-06-27
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Hormuz remains open because Iran permits it; commercial-shipping escalation pathway active
+    verdict: supported
+    note: J25-8 — prediction confirmed 25 Jun; pairs **J25-6a** Ever Lovely; not open/closed binary (**J25-5** partial)
+  - claim: Interference with Iran Hormuz control triggers renewed maritime attacks (red line)
+    verdict: supported
+    note: J25-8 — strategic logic; pairs **J25-6e** IRGC route veto · authority conflict not toll fight
 ---
 # Prediction Confirmed: The Next Phase of the Iran War Has Begun
 

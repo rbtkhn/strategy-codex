@@ -40,7 +40,7 @@ Answer the **required questions** below. If **any** required answer is â€œno
 
 ### 6. No durable bypass
 
-- Does the workflow **preserve** [recursion-gate](../../../recursion-gate.md) and Record boundaries?
+- Does the workflow **preserve** [recursion-gate](../../../archive/grace-mar-instance/recursion-gate.md) and Record boundaries?
 - Does it **avoid** writing directly to **canonical** SELF, EVIDENCE, SKILLS, prompt, or merging candidates without **human approval** and the **documented merge path**?
 
 ### 7. Load-lift

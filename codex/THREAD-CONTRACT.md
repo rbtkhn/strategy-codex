@@ -8,7 +8,7 @@ WORK only; not Record.
 ## Center of gravity
 
 - **Threads** are the month-bounded continuity surface; **pages** are the portable analytical objects; **raw-input** is the literal SSOT.
-- The canonical thread shape now lives in [speakers/_templates/speaker-thread-template.md](speakers/_templates/speaker-thread-template.md), while the canonical page scaffold it hosts lives in [strategy-codex-template-page.md](strategy-codex-template-page.md).
+- The canonical thread shape now lives in [speakers/_templates/speaker-thread-template.md](../statecraft/voices/_templates/speaker-thread-template.md), while the canonical page scaffold it hosts lives in [strategy-codex-template-page.md](strategy-codex-template-page.md).
 - Month continuity in the journal layer is a short bookended synthesis of that monthâ€™s `strategy-page` set.
 
 ## Thread-page binding
@@ -42,7 +42,7 @@ WORK only; not Record.
 
 | Topic | Document / tool |
 |-------|-----------------|
-| Thread scaffold | [speakers/_templates/speaker-thread-template.md](speakers/_templates/speaker-thread-template.md) |
+| Thread scaffold | [speakers/_templates/speaker-thread-template.md](../statecraft/voices/_templates/speaker-thread-template.md) |
 | Thread-embedded page fence | [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page) |
 | Month-to-month continuity rules | [STRATEGY-NOTEBOOK-ARCHITECTURE.md Â§ Thread](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) |
 | Page vs thread hub | [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) |

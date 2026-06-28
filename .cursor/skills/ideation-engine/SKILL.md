@@ -19,7 +19,7 @@ synced_by: sync_portable_skills.py
 ---
 # Ideation engine (legacy alias)
 
-**Superseded by:** [product-strategy](../product-strategy/SKILL.md) **Ideation mode** · [venture-ideation.runbook.md](../runbooks/venture-ideation.runbook.md)
+**Superseded by:** [product-strategy](../product-strategy/SKILL.md) **Ideation mode** · [venture-ideation.runbook.md](../../../skills/runbooks/venture-ideation.runbook.md)
 
 **Activation:** `ideation engine`, `opportunity scan`, `weekly opportunity brief` — execute product-strategy Ideation mode or venture-ideation runbook.
 

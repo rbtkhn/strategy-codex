@@ -39,7 +39,7 @@ A statecraft draft is weak if it only declares a desirable outcome. It must name
 
 ## Use With
 
-- [Statecraft Method](.statecraft/synthesis/METHOD.md)
+- [Statecraft Method](../synthesis/METHOD.md)
 - [Bismarck Lens](bismarck.md)
 - [Policy Paper Template](../templates/policy-paper.md)
 - [Treaty Framework Template](../templates/treaty-framework.md)

@@ -52,7 +52,7 @@ Lane front doors:
 - [America README](../../america/README.md)
 - [Russia README](../../russia/README.md)
 - [China README](../../china/README.md)
-- [Iran README](../../iran/README.md)
+- [Iran README](../../../../../README.md)
 
 Control-plane evidence:
 

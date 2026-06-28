@@ -3,8 +3,8 @@ Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).
 | Topic | Path |
 |--------|------|
 | Portable core | [skills/strategy-notebook-expert-cross-weave/SKILL.md](../../../skills/strategy-notebook-expert-cross-weave/SKILL.md) |
-| Daily inbox (SSOT) | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
-| Chapter days | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md](../../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md) (adjust `YYYY-MM`) |
+| Daily inbox (SSOT) | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
+| Chapter days | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md](../../../codex/chapters/2026/2026-04/days.md) (adjust `YYYY-MM`) |
 | Chapter meta | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md](../../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md) |
 | Notebook STATUS | [docs/skill-work/work-strategy/strategy-notebook/STATUS.md](../../../docs/skill-work/work-strategy/strategy-notebook/STATUS.md) |
 | Commentator roster | [docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md) |

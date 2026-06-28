@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md):
+This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md):
 
 **Why does the June 6 bench read Washington as militarily active but politically captured — unable to restrain Israel or close either war?**
 
@@ -189,18 +189,18 @@ This statecraft note sharpens the parent note's primary America lane (`Lane Read
 
 ## Source Anchors
 
-- [Macgregor / Mario Nawfal - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
-- [Freeman / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>)
-- [Hoh / Dialogue Works - 2026-06-04 (Section 224)](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md>)
+- [Macgregor / Mario Nawfal - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md>)
+- [McGovern / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Freeman / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>)
+- [Hoh / Dialogue Works - 2026-06-04 (Section 224)](<../../source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md>)
 
 Related:
 
-- [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md)
-- [Persia: Lebanon-First Gate Vs Hormuz Mechanics](statecraft/notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
-- [Russia–Europe Threshold: Polyanskiy Vs Mercouris](statecraft/notes/2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md)
-- [Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31](statecraft/notes/2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md) (prior month America-side mechanism compare)
+- [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md)
+- [Persia: Lebanon-First Gate Vs Hormuz Mechanics](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+- [Russia–Europe Threshold: Polyanskiy Vs Mercouris](2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md)
+- [Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31](2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md) (prior month America-side mechanism compare)
 - [America transaction — command firewall + Section 224 clauses](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
-- [State Synthesis - 2026-06-04](statecraft/synthesis/day/2026-06-04.md) (Lebanon farce + Section 224 same-day batch)
-- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) (unused levers vs statutory mesh)
-- [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (June 7 live proof on June 6 capture)
+- [State Synthesis - 2026-06-04](../synthesis/day/2026-06-04.md) (Lebanon farce + Section 224 same-day batch)
+- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) (unused levers vs statutory mesh)
+- [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (June 7 live proof on June 6 capture)

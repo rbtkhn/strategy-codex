@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not reduce Russia to myth a
 
 ## Return Path
 
-Return through [CIV-STATE Russia](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/README.md), [Russia sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/sovereign-continuity.md), [Russia geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/geo-strategy-russia.md), and [Russia sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [CIV-STATE Russia](README.md), [Russia sovereign continuity](sovereign-continuity.md), [Russia geo-strategy](geo-strategy-russia.md), and [Russia sacred grammar](sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

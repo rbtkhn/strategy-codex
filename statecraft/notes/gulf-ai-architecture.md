@@ -24,7 +24,7 @@ Three layers stack:
 
 ## Crooke — Gulf bubble and data-center architecture
 
-Primary: [2026-05-30 / Diesen × Crooke](../source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md)
+Primary: [2026-05-30 / Diesen × Crooke](../../source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md)
 
 - Gulf built on **financialized western architecture** + **AI-based architecture** — huge data centers (UAE)
 - Iran: cannot host extraterritorial data centers serving **intelligence purposes** against the region — must **mesh with region**
@@ -37,11 +37,11 @@ Verbatim anchors:
 - `the AI and may I call it the bubble because that's what I think it is um in the US is with the Gulf`
 - `this whole nexus between the tech brothers and the Gulf brothers on AI`
 
-Secondary: [2026-02-20 Alkorshid × Crooke](../source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) — China used AI **not as the West has done** to build **self-sufficient, price-deflating** economy vs Western inflation.
+Secondary: [2026-02-20 Alkorshid × Crooke](../../source-archive/statecraft/2026-02-20/source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) — China used AI **not as the West has done** to build **self-sufficient, price-deflating** economy vs Western inflation.
 
 ## Escobar — China 2030 AI economy link
 
-Primary: [2026-05-21 / Dialogue Works](../source-archive/statecraft/2026-05-21/source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md)
+Primary: [2026-05-21 / Dialogue Works](../../source-archive/statecraft/2026-05-21/source-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md)
 
 - Shanghai university discussion: plan for **70% of Chinese economy directly interconnected and linked to artificial intelligence by 2030**
 - Student anxiety: **jobs**, social media debate on **AI destroying jobs** / population **recycling**
@@ -58,8 +58,8 @@ Verbatim anchor:
 
 Not LLM doctrine — **AI-enabled weapons** in Hormuz/Iran stack:
 
-- [2026-05-09 Crooke essay](../source-archive/statecraft/2026-05-09/source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md) — loitering submersibles, **AI targeting**
-- [2026-04-23 Davis × Crooke](../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) — Hormuz drones, **AI to select target**
+- [2026-05-09 Crooke essay](../../source-archive/statecraft/2026-05-09/source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md) — loitering submersibles, **AI targeting**
+- [2026-04-23 Davis × Crooke](../../source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) — Hormuz drones, **AI to select target**
 
 Route to [ritter-on-ai.md](./ritter-on-ai.md) / [weichert-on-ai.md](./weichert-on-ai.md) for US kill-chain; this note holds **Gulf financial-architecture** only.
 

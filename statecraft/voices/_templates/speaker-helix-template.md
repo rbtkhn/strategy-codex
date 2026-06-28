@@ -10,7 +10,7 @@ Template doctrine: separate the surface name, surface role, and surface interior
 - **surface role**: cross-host comparison without flattening the underlying arcs
 - **surface interior**: differences, reinforcements, and tensions across host-local arcs and their arc-threads
 
-Reference: [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md)
+Reference: [Speaker-Shelf Vocabulary](../speaker-shelf-vocabulary.md)
 
 Model: a **speaker helix** compares multiple host-local arcs without flattening them. Each host-local **arc is a bounded helix of arc-threads**; the speaker helix asks how those bounded helices reinforce, tension, or transform the same speaker.
 

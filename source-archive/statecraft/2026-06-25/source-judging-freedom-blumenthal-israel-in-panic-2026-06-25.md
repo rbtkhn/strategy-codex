@@ -35,6 +35,18 @@ napolitano_leading_noise_trim_applied: true
 opening_tier: host-tease
 editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (blumenthal, channel:judging-freedom)); 21 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted YouTube transcript preserved as archive SSOT. ASR artifacts retained. Not human-verified verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-25 (8 sections). · source-section even-chunk pass 2026-06-26 (6 sections; open/close merged)."
 transcript_curation: curated_sectioned
+verify_receipt: 2026-06-28
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Quinnipiac 48% US too supportive of Israel; guest cited 34% "about right"
+    verdict: supported
+    note: J25-4 — use Quinnipiac **38%** about right; not Blumenthal **34%** misquote
+  - claim: Netanyahu 20% favorable / 48% unfavorable (Quinnipiac)
+    verdict: supported
+    note: J25-7 — domestic restraint tailwind mesh
+  - claim: Vance restrainer / MOU domestic sell register (batch context)
+    verdict: partial
+    note: J25-3 — **panic** thesis tier-4; not wire-scored
 ---
 # Max Blumenthal : Is Israel in Panic?
 

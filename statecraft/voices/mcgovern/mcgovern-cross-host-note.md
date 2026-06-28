@@ -13,8 +13,8 @@ Purpose: keep Ray McGovern's cross-host status honest by separating what is mate
 
 Those two branches are now strong enough to justify an on-disk **double-helix** reading:
 
-- [arc-mcgovern-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-diesen-host.md)
-- [arc-mcgovern-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-nima-host.md)
+- [arc-mcgovern-diesen-host.md](../../notes/arc-mcgovern-diesen-host.md)
+- [arc-mcgovern-nima-host.md](../../notes/arc-mcgovern-nima-host.md)
 
 ### Search-backed but not yet imported here
 
@@ -41,11 +41,11 @@ So the object is now materially real as a **double-helix**, while still leaving 
 
 Open:
 
-- [arc-mcgovern-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-diesen-host.md)
+- [arc-mcgovern-diesen-host.md](../../notes/arc-mcgovern-diesen-host.md)
 
 Then:
 
-- [arc-mcgovern-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-nima-host.md)
+- [arc-mcgovern-nima-host.md](../../notes/arc-mcgovern-nima-host.md)
 
 ## Doctrine boundary
 

@@ -19,9 +19,9 @@ This file should be read as the **live-escalation intelligence-dissent** McGover
 Quick separation rule:
 
 - `Alkorshid x McGovern` = present-tense Iran/Russia escalation, intelligence dissent under live pressure, and imperial unreality warnings
-- [arc-mcgovern-diesen-host.md](/C:/dev/strategy-codex/arc-mcgovern-diesen-host.md) = arms-control decay, NATO consequence, and strategic-restraint failure at order-transition altitude
-- [arc-johnson-nima-host.md](/C:/dev/strategy-codex/arc-johnson-nima-host.md) = intelligence-political explanation with a stronger operational-causation and elite-choice read
-- [arc-marandi-nima-host.md](/C:/dev/strategy-codex/arc-marandi-nima-host.md) = Iran-centered diplomatic and regional-positioning read rather than former-insider dissent
+- [arc-mcgovern-diesen-host.md](../../arc-mcgovern-diesen-host.md) = arms-control decay, NATO consequence, and strategic-restraint failure at order-transition altitude
+- [arc-johnson-nima-host.md](../../arc-johnson-nima-host.md) = intelligence-political explanation with a stronger operational-causation and elite-choice read
+- [arc-marandi-nima-host.md](../../arc-marandi-nima-host.md) = Iran-centered diplomatic and regional-positioning read rather than former-insider dissent
 
 If the notebook needs a former insider warning that a live crisis has outrun official comprehension, route here. If it needs order-level arms-control consequence, Iranian diplomatic positioning, or intelligence-political explanation without McGovern's dissident register, route to the neighboring branches instead.
 
@@ -93,9 +93,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [arc-mcgovern-diesen-host.md](/C:/dev/strategy-codex/arc-mcgovern-diesen-host.md), which is less present-tense and more about NATO, arms control, and strategic consequence
-- [arc-johnson-nima-host.md](/C:/dev/strategy-codex/arc-johnson-nima-host.md), which is stronger on policy causation and political intelligence synthesis than on McGovern's insider-dissent tone
-- [arc-marandi-nima-host.md](/C:/dev/strategy-codex/arc-marandi-nima-host.md), which is stronger on Iran's state and regional posture than on U.S. intelligence-system unreality
+- [arc-mcgovern-diesen-host.md](../../arc-mcgovern-diesen-host.md), which is less present-tense and more about NATO, arms control, and strategic consequence
+- [arc-johnson-nima-host.md](../../arc-johnson-nima-host.md), which is stronger on policy causation and political intelligence synthesis than on McGovern's insider-dissent tone
+- [arc-marandi-nima-host.md](../../arc-marandi-nima-host.md), which is stronger on Iran's state and regional posture than on U.S. intelligence-system unreality
 
 ## Boundaries
 

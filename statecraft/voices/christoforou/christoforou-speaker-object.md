@@ -18,8 +18,8 @@ At current density, the honest shape is `stream-anchored-with-cross-host-reinfor
 
 ## Open first
 
-- [2026-06-02 Duran x Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-02/source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md)
-- [2025-02-07 Duran x Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-07/source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md)
+- [2026-06-02 Duran x Mercouris](../../../source-archive/statecraft/2026-06-02/source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md)
+- [2025-02-07 Duran x Mercouris](../../../source-archive/statecraft/2025-02-07/source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md)
 
 ## Boundaries
 

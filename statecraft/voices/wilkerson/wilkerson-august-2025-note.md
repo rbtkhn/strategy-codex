@@ -23,27 +23,27 @@ It is still thinner than June and less structurally complete than July on disk, 
 
 ## Materialized on disk
 
-1. [2025-08-08 - *Larry C. Johnson & Col. Larry Wilkerson: Hezbollah REJECTS - Iran and Russia Push Back*](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-08/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md)
+1. [2025-08-08 - *Larry C. Johnson & Col. Larry Wilkerson: Hezbollah REJECTS - Iran and Russia Push Back*](../../../source-archive/statecraft/2025-08-08/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md)
    Status: transcript-bearing `Dialogue Works` Johnson/Wilkerson crossover now materialized.
    URL: [https://www.youtube.com/watch?v=a5w8JR5bi9Q](https://www.youtube.com/watch?v=a5w8JR5bi9Q)
 
-2. [2025-08-10 - *Trump's Plan to Threaten Putin with Sanctions & Submarines | Col. Larry Wilkerson & Scott Ritter*](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-10/source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md)
+2. [2025-08-10 - *Trump's Plan to Threaten Putin with Sanctions & Submarines | Col. Larry Wilkerson & Scott Ritter*](../../../source-archive/statecraft/2025-08-10/source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md)
    Status: transcript-bearing `Dialogue Works` crossover already materialized.
    URL: [https://www.youtube.com/watch?v=vi0ATui62g0](https://www.youtube.com/watch?v=vi0ATui62g0)
 
-3. [2025-08-12 - *Col. Larry Wilkerson: Trump's Power Play IGNITES CHAOS - And It's Only the START!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-12/source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md)
+3. [2025-08-12 - *Col. Larry Wilkerson: Trump's Power Play IGNITES CHAOS - And It's Only the START!*](../../../source-archive/statecraft/2025-08-12/source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md)
    Status: transcript-bearing solo `Dialogue Works` Wilkerson frame now materialized.
    URL: [https://www.youtube.com/watch?v=Vzj-w0Rj7Pc](https://www.youtube.com/watch?v=Vzj-w0Rj7Pc)
 
-4. [2025-08-15 - *Larry C. Johnson & Col. Larry Wilkerson: Trump & Putin in Alaska: Deals, Drama, and Dangerous Moves*](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15.md)
+4. [2025-08-15 - *Larry C. Johnson & Col. Larry Wilkerson: Trump & Putin in Alaska: Deals, Drama, and Dangerous Moves*](../../../source-archive/statecraft/2025-08-15/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15.md)
    Status: transcript-bearing `Dialogue Works` Johnson/Wilkerson crossover now materialized.
    URL: [https://www.youtube.com/watch?v=jPLIxYqR9kw](https://www.youtube.com/watch?v=jPLIxYqR9kw)
 
-5. [2025-08-21 - *Lawrence Wilkerson: Defeated & Divided - NATO's Existential Crisis*](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-21/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md)
+5. [2025-08-21 - *Lawrence Wilkerson: Defeated & Divided - NATO's Existential Crisis*](../../../source-archive/statecraft/2025-08-21/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md)
    Status: `Diesen` August anchor already materialized.
    URL: [https://www.youtube.com/watch?v=nwfprr7kV54](https://www.youtube.com/watch?v=nwfprr7kV54)
 
-6. [2025-08-26 - *Col. Larry Wilkerson: Warning Signs Everywhere: U.S. on the Verge of Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-26/source-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md)
+6. [2025-08-26 - *Col. Larry Wilkerson: Warning Signs Everywhere: U.S. on the Verge of Disaster*](../../../source-archive/statecraft/2025-08-26/source-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md)
    Status: transcript-bearing solo `Dialogue Works` Wilkerson frame now materialized from operator-pasted transcript, superseding the earlier secondary-source date assumption.
    URL: [https://www.youtube.com/watch?v=tQ1lpkzeTHY](https://www.youtube.com/watch?v=tQ1lpkzeTHY)
 

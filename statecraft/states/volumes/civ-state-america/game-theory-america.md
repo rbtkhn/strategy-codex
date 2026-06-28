@@ -22,7 +22,7 @@ This chapter tracks recurring strategic games, but it does not reduce America to
 
 ## Return Path
 
-Return through [CIV-STATE America](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/README.md), [America sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/sovereign-continuity.md), [America geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/geo-strategy-america.md), and [America state memory](/C:/dev/strategy-codex/statecraft/america/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
+Return through [CIV-STATE America](README.md), [America sovereign continuity](sovereign-continuity.md), [America geo-strategy](geo-strategy-america.md), and [America state memory](../../../america/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
 
 ## Core Thesis
 

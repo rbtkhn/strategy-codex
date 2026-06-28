@@ -83,4 +83,4 @@ Where their commentary is published and accessible (no Wikipedia). Re-verify han
 
 ---
 
-**Companion files:** [`strategy-expert-macgregor-transcript.md`](strategy-expert-macgregor-transcript.md) (7-day rolling verbatim) and [`strategy-expert-macgregor-thread.md`](strategy-expert-macgregor-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-macgregor-transcript.md`](macgregor-transcript.md) (7-day rolling verbatim) and [`strategy-expert-macgregor-thread.md`](macgregor-thread.md) (distilled analytical thread).

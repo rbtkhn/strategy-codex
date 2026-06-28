@@ -23,30 +23,30 @@ December is therefore not just denser than November; it is also cleaner, because
 
 ## Materialized on disk
 
-1. [2025-12-02 - *Col. Larry Wilkerson: Red Alerts Everywhere: The U.S. Just Hit a Point of No Return*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-02/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-red-alerts-everywhere-the-u-s-just-hit-a-point-of-no-return-2025-12-02.md)
+1. [2025-12-02 - *Col. Larry Wilkerson: Red Alerts Everywhere: The U.S. Just Hit a Point of No Return*](../../../source-archive/statecraft/2025-12-02/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-red-alerts-everywhere-the-u-s-just-hit-a-point-of-no-return-2025-12-02.md)
    Status: transcript-grade solo `Dialogue Works` opener already materialized.
    URL: [https://www.youtube.com/watch?v=QDXCudThUvg](https://www.youtube.com/watch?v=QDXCudThUvg)
 
-2. [2025-12-03 - *Lawrence Wilkerson: Legitimacy of the U.S. Empire Collapses*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-03/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md)
+2. [2025-12-03 - *Lawrence Wilkerson: Legitimacy of the U.S. Empire Collapses*](../../../source-archive/statecraft/2025-12-03/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md)
    Status: strong YouTube-primary `Diesen` reinforcement already materialized.
 
-3. [2025-12-05 - *Larry C. Johnson & Col. Larry Wilkerson: Putin Hits Back HARD—Calls Out Trump & EU | Ukraine’s Future*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-05/source-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-putin-hits-back-hard-calls-out-trump-eu-ukraine-s-future-2025-12-05.md)
+3. [2025-12-05 - *Larry C. Johnson & Col. Larry Wilkerson: Putin Hits Back HARD—Calls Out Trump & EU | Ukraine’s Future*](../../../source-archive/statecraft/2025-12-05/source-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-putin-hits-back-hard-calls-out-trump-eu-ukraine-s-future-2025-12-05.md)
    Status: transcript-grade Johnson/Wilkerson `Dialogue Works` crossover already materialized.
 
-4. [2025-12-12 - *Col. Larry Wilkerson & Amb. Chas Freeman: The U.S. Just Triggered a Chain Reaction It Can't Reverse*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
+4. [2025-12-12 - *Col. Larry Wilkerson & Amb. Chas Freeman: The U.S. Just Triggered a Chain Reaction It Can't Reverse*](../../../source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
    Status: transcript-grade joint `Dialogue Works` bridge already materialized.
 
-5. [2025-12-16 - *Col. Larry Wilkerson: The Alarms Are Blazing Red - The U.S. Is Heading Straight Into This*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-16/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md)
+5. [2025-12-16 - *Col. Larry Wilkerson: The Alarms Are Blazing Red - The U.S. Is Heading Straight Into This*](../../../source-archive/statecraft/2025-12-16/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md)
    Status: transcript-grade solo `Dialogue Works` continuation already materialized.
 
-6. [2025-12-18 - *COL. Lawrence Wilkerson : A Disaster to Invade Venezuela.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
+6. [2025-12-18 - *COL. Lawrence Wilkerson : A Disaster to Invade Venezuela.*](../../../source-archive/statecraft/2025-12-18/source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
    Status: transcript-grade `Judging Freedom` bridge now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=tmUHlOmTu2A](https://www.youtube.com/watch?v=tmUHlOmTu2A)
 
-7. [2025-12-24 - *Lawrence Wilkerson: Economic Collapse Will End the U.S. Empire*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-24/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24.md)
+7. [2025-12-24 - *Lawrence Wilkerson: Economic Collapse Will End the U.S. Empire*](../../../source-archive/statecraft/2025-12-24/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24.md)
    Status: strong YouTube-primary `Diesen` reinforcement already materialized.
 
-8. [2025-12-30 - *Col. Larry Wilkerson: The Alarms Are Screaming And America Is Ignoring It*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-30/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-screaming-and-america-is-ignoring-it-2025-12-30.md)
+8. [2025-12-30 - *Col. Larry Wilkerson: The Alarms Are Screaming And America Is Ignoring It*](../../../source-archive/statecraft/2025-12-30/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-screaming-and-america-is-ignoring-it-2025-12-30.md)
    Status: transcript-grade solo `Dialogue Works` closer already materialized.
    URL: [https://www.youtube.com/watch?v=nVxq4eCzK64](https://www.youtube.com/watch?v=nVxq4eCzK64)
 

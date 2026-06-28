@@ -71,7 +71,7 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ---
 
-**Companion files:** [`strategy-expert-mate-transcript.md`](strategy-expert-mate-transcript.md) (7-day rolling verbatim) and [`strategy-expert-mate-thread.md`](strategy-expert-mate-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-mate-transcript.md`](mate-transcript.md) (7-day rolling verbatim) and [`strategy-expert-mate-thread.md`](mate-thread.md) (distilled analytical thread).
 
 ## Archive / backfill note
 

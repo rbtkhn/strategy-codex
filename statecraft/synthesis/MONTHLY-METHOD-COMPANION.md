@@ -6,11 +6,11 @@ WORK only; not Record.
 
 Purpose: define the next architectural step for `statecraft/synthesis` month notes after the first May 2026 proof month.
 
-Use this note when the active monthly method in [METHOD.md](statecraft/synthesis/METHOD.md) is already accepted and the real question is how month notes should deepen from here without outrunning the doctrine, the benchmarks, or the shelf's bounded function.
+Use this note when the active monthly method in [METHOD.md](METHOD.md) is already accepted and the real question is how month notes should deepen from here without outrunning the doctrine, the benchmarks, or the shelf's bounded function.
 
 ## What May 2026 Proved
 
-The first month note, [2026-05.md](statecraft/synthesis/month/2026-05.md), proved five things:
+The first month note, [2026-05.md](month/2026-05.md), proved five things:
 
 - a month note can sit above a completed daily shelf without replaying chronology
 - `Functional Convergence` can make cross-speaker compression visible
@@ -24,7 +24,7 @@ That is enough to establish the monthly form as real, but not enough to let it g
 
 **Best Re-entry Days** in month notes should **not** replay scattered day links when month-aligned week hinges exist.
 
-- Re-entry routing lives in **`YYYY-MM-weekN-start-here.md`** ([METHOD § Week Hinge](statecraft/synthesis/METHOD.md#week-hinge-contract)).
+- Re-entry routing lives in **`YYYY-MM-weekN-start-here.md`** ([METHOD § Week Hinge](METHOD.md#week-hinge-contract)).
 - Month notes list **which weekN** mattered (`week1` recognition gate, `week2` command fracture, etc.) and lift **object-migration lines** from finalized hinges into `Month Arcs`.
 - Promotion from week hinge → month is **only** on explicit **`statecraft monthly synthesis`**—no dream auto-merge into partial month files.
 
@@ -114,7 +114,7 @@ Structure can be checked mechanically. Compression quality still needs human jud
 
 ## Proof Rule
 
-No future monthly method change should be treated as successful until it preserves or improves [2026-05.md](statecraft/synthesis/month/2026-05.md) on three dimensions:
+No future monthly method change should be treated as successful until it preserves or improves [2026-05.md](month/2026-05.md) on three dimensions:
 
 - object-first compression
 - explicit `Functional Convergence`

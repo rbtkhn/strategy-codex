@@ -173,8 +173,8 @@ When finishing a pass, summarize:
   - [codex/academy/statecraft](../../../codex/academy/statecraft)
 - Preferred source stack for China- or statecraft-facing seed extraction:
   - canonical analyst arc notes under [statecraft/voices/](../../../statecraft/voices/) and host guest arcs under [statecraft/channels/](../../../statecraft/channels/)
-  - strongest supporting **source archive** captures under [source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft/) (legacy pre-migration files may still appear under [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input) — archaeology only)
-  - lane destination or upstream seed files such as [China volume seeds](/C:/dev/strategy-codex/codex/academy/statecraft/china/china-volume-seeds.md)
+  - strongest supporting **source archive** captures under [source-archive/statecraft/](../../../source-archive/statecraft) (legacy pre-migration files may still appear under [codex/years/2026/raw-input](../../../codex/years/2026/raw-input) — archaeology only)
+  - lane destination or upstream seed files such as [China volume seeds](../../../codex/academy/statecraft/china/china-volume-seeds.md)
 - Preferred validation commands after listed-skill edits:
 
 ```powershell
@@ -196,8 +196,8 @@ python scripts/validate_skills.py
   - [codex/academy/statecraft](../../../codex/academy/statecraft)
 - Preferred source stack for China- or statecraft-facing seed extraction:
   - canonical analyst arc notes under [statecraft/voices/](../../../statecraft/voices/) and host guest arcs under [statecraft/channels/](../../../statecraft/channels/)
-  - strongest supporting raw-input transcript files under [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
-  - lane destination or upstream seed files such as [China volume seeds](/C:/dev/strategy-codex/codex/academy/statecraft/china/china-volume-seeds.md)
+  - strongest supporting raw-input transcript files under [codex/years/2026/raw-input](../../../codex/years/2026/raw-input)
+  - lane destination or upstream seed files such as [China volume seeds](../../../codex/academy/statecraft/china/china-volume-seeds.md)
 - Preferred validation commands after listed-skill edits:
 
 ```powershell

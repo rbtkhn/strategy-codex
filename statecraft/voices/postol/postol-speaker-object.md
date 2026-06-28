@@ -33,9 +33,9 @@ Postol carries a distinct utility profile:
 
 Postol should currently be read as a **helix-first speaker object with three materially real host-local branches**:
 
-- [Davis x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-diesen-host.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-nima-host.md)
+- [Davis x Postol](../../notes/arc-postol-davis-host.md)
+- [Diesen x Postol](../../notes/arc-postol-diesen-host.md)
+- [Alkorshid x Postol](../../notes/arc-postol-nima-host.md)
 
 That means:
 
@@ -50,32 +50,32 @@ So Postol is no longer best read as merely cross-host reinforced. He is better r
 
 The broader Postol run is visible in shelf-supporting inventory and profile surfaces:
 
-- [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
-- [alkorshid-profile.md](/C:/dev/strategy-codex/statecraft/voices/alkorshid/alkorshid-profile.md)
+- [dialogue-works-inventory.md](../../../../../../../../codex/years/2026/provenance/dialogue-works-inventory.md)
+- [alkorshid-profile.md](../alkorshid/alkorshid-profile.md)
 
-See [postol-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/postol/postol-cross-host-note.md).
+See [postol-cross-host-note.md](postol-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current host-local entry:
 
-- open [arc-postol-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
+- open [arc-postol-davis-host.md](../../notes/arc-postol-davis-host.md)
 
 If the operator needs the clearest strategic-order branch:
 
-- open [arc-postol-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-postol-diesen-host.md)
+- open [arc-postol-diesen-host.md](../../notes/arc-postol-diesen-host.md)
 
 If the operator needs the clearest live-pressure branch already on disk:
 
-- open [arc-postol-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-postol-nima-host.md)
+- open [arc-postol-nima-host.md](../../notes/arc-postol-nima-host.md)
 
 If the operator needs the strongest current materialized raw-input file:
 
-- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- open [2026-05-08 Alkorshid x Postol](../../../source-archive/statecraft/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [postol-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/postol/postol-cross-host-note.md)
+- stay here, then read [postol-cross-host-note.md](postol-cross-host-note.md)
 
 ## Routing use
 

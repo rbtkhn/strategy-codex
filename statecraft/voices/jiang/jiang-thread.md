@@ -14,12 +14,12 @@ Quick separation rule:
 
 If a question is about canonical routing, use those named surfaces instead of widening this file into a fake topical-thread system.
 
-Compatibility note: this file is a **legacy distilled continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Jiang structure is currently profile-first and membrane-first: [jiang-profile.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-profile.md) owns the routing law, while this file and [jiang-transcript.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-transcript.md) remain companion working surfaces. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy distilled continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Jiang structure is currently profile-first and membrane-first: [jiang-profile.md](jiang-profile.md) owns the routing law, while this file and [jiang-transcript.md](jiang-transcript.md) remain companion working surfaces. Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`strategy-expert-jiang-transcript.md`](strategy-expert-jiang-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`strategy-expert-jiang-transcript.md`](jiang-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-jiang.md`](strategy-expert-jiang.md) (profile) and [`strategy-expert-jiang-transcript.md`](strategy-expert-jiang-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-jiang.md`](jiang-profile.md) (profile) and [`strategy-expert-jiang-transcript.md`](jiang-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -78,7 +78,7 @@ If pages named this expert during 2026-02, the narrative should eventually say *
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-02, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 - [strength: low] **Corpus pointer (WORK):** Operator-scoped lecture tree Ã¢â‚¬â€ not a dated Feb appearance claim.
-  `../../../codex/predictive-history/` (repo-relative)
+  `../../../../../../../../codex/predictive-history/` (repo-relative)
 ## 2026-03
 
 March remains **scope-note** territory until the operator pins indexed transcripts; **April** machine lines may reference **vi-15** etc. Ã¢â‚¬â€ Q1 is **honest sparsity**.
@@ -125,7 +125,7 @@ The `jiang` laneÃ¢â‚¬â„¢s role (Long-horizon civilizational / game-the
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
   _Source:_ web: `https://www.youtube.com/watch?v=n44OF1Y7zgo`
-- **2026-04-28** Ã¢â‚¬â€ **gt-21** Game Theory #21 (*World War Trump*) ingested Ã¢â‚¬â€ [lecture](../../../../../codex/predictive-history/lectures/game-theory-21-world-war-trump.md) Ã‚Â· [YouTube Ts-AA6LQf6I](https://www.youtube.com/watch?v=Ts-AA6LQf6I) Ã‚Â· `thread:jiang` (see [daily-strategy-inbox.md](../../daily-strategy-inbox.md) subsection **Strategy ingest Ã¢â‚¬â€ work-jiang PH Volume IV (2026-04-28)**).
+- **2026-04-28** Ã¢â‚¬â€ **gt-21** Game Theory #21 (*World War Trump*) ingested Ã¢â‚¬â€ [lecture](../../../codex/predictive-history/lectures/game-theory-21-world-war-trump.md) Ã‚Â· [YouTube Ts-AA6LQf6I](https://www.youtube.com/watch?v=Ts-AA6LQf6I) Ã‚Â· `thread:jiang` (see [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) subsection **Strategy ingest Ã¢â‚¬â€ work-jiang PH Volume IV (2026-04-28)**).
 
 <!-- backfill:jiang:end -->
 ## 2026-04
@@ -160,17 +160,17 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](../../../source-archive/statecraft/2026-04-25/day-index.md) (pointer; SSOT raw-input) | thread:jiang
 ## 2026-04-27
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](../../../source-archive/statecraft/2026-04-25/day-index.md) (pointer; SSOT raw-input) | thread:jiang
 ## 2026-04-26
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](../../../source-archive/statecraft/2026-04-25/day-index.md) (pointer; SSOT raw-input) | thread:jiang
 ## 2026-04-25
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](../../../source-archive/statecraft/2026-04-25/day-index.md) (pointer; SSOT raw-input) | thread:jiang
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [substack-jiang-trump-new-deal-2026-04-25.md](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) _on-disk_
+- [substack-jiang-trump-new-deal-2026-04-25.md](../../../source-archive/statecraft/2026-04-25/day-index.md) _on-disk_
 <!-- strategy-expert-thread:end -->

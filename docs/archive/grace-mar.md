@@ -1,3 +1,9 @@
+---
+audience: archive
+authority: archive
+record_status: fork_revive_only
+---
+
 # Grace-Mar — archived fork doctrine
 
 **Archive only — not active product identity.** Active work belongs to **strategy-codex** ([`../product-identity.md`](../product-identity.md)).

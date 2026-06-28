@@ -21,23 +21,23 @@ The honest reading is:
 
 ## Materialized on disk
 
-1. [2025-05-16 - *Larry C. Johnson & Col. Larry Wilkerson: Trump's Bold Middle East Gambit, Russia-Ukraine Collapse?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-16/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trumps-bold-middle-east-gambit-russia-ukraine-collapse-2025-05-16.md)
+1. [2025-05-16 - *Larry C. Johnson & Col. Larry Wilkerson: Trump's Bold Middle East Gambit, Russia-Ukraine Collapse?*](../../../source-archive/statecraft/2025-05-16/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trumps-bold-middle-east-gambit-russia-ukraine-collapse-2025-05-16.md)
    Status: full operator-pasted `Dialogue Works` Johnson/Wilkerson crossover transcript materialized.
    URL: [https://www.youtube.com/watch?v=wksOI_KEaAU](https://www.youtube.com/watch?v=wksOI_KEaAU)
    Date note: transcript opening states Friday, May 16, 2025; earlier secondary recovery for the watch URL pointed to a later publication listing around `2025-05-20`, so the spoken in-episode date is preserved in the on-disk capture and the discrepancy is noted.
 
-2. [2025-05-27 - *Col. Larry Wilkerson: Russia Launches Massive New Offensive - The Battle to Win It All!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-27/source-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27.md)
+2. [2025-05-27 - *Col. Larry Wilkerson: Russia Launches Massive New Offensive - The Battle to Win It All!*](../../../source-archive/statecraft/2025-05-27/source-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27.md)
    Status: full operator-pasted `Dialogue Works` late-May Wilkerson solo transcript materialized.
    URL: [https://www.youtube.com/watch?v=4WzWYQDRUU4](https://www.youtube.com/watch?v=4WzWYQDRUU4)
    Date note: transcript opening states Tuesday, May 27th, 2025; earlier secondary recovery for the watch URL pointed to a later publication listing around `2025-05-29`, so the spoken in-episode date is preserved in the on-disk capture and the discrepancy is noted.
 
-3. [2025-05-30 - *Larry Wilkerson & Chas Freeman: Why America's Missing Grand Strategy Could Be a Global Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-30/source-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30.md)
+3. [2025-05-30 - *Larry Wilkerson & Chas Freeman: Why America's Missing Grand Strategy Could Be a Global Disaster*](../../../source-archive/statecraft/2025-05-30/source-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30.md)
    Status: real full May Wilkerson/Freeman anchor already materialized on disk.
    URL: [https://www.youtube.com/watch?v=1rsuGiI1_Ms](https://www.youtube.com/watch?v=1rsuGiI1_Ms)
 
 ## Adjacent but not counting as Wilkerson May coverage
 
-1. [2025-05-02 - *Mohammad Marandi & Amb. Chas Freeman: Ticking Toward War? U.S. & Iran at a Dangerous Crossroads*](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/source-dialogue-works-mohammad-marandi-and-amb-chas-freeman-ticking-toward-war-u-s-and-iran-at-a-dangerous-crossroads-2025-05-02.md)
+1. [2025-05-02 - *Mohammad Marandi & Amb. Chas Freeman: Ticking Toward War? U.S. & Iran at a Dangerous Crossroads*](../../../source-archive/statecraft/2025-05-02/source-dialogue-works-mohammad-marandi-and-amb-chas-freeman-ticking-toward-war-u-s-and-iran-at-a-dangerous-crossroads-2025-05-02.md)
    Status: partial operator-pasted transcript already on disk, but not a Wilkerson appearance and not safe to count into the Wilkerson month.
    Limitation: the preserved May 2 opening later becomes contaminated with a different June transcript.
 

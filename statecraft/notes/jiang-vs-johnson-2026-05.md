@@ -8,9 +8,9 @@ This note captures the main disagreement between **Jiang Xueqin** and **Larry Jo
 
 Primary local anchors:
 
-- [Jiang on Glenn Diesen, 2026-05-11](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
-- [Larry Johnson on Dialogue Works, 2026-05-11](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
-- [Larry Johnson responding to Jiang on Dialogue Works, 2026-05-16](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md)
+- [Jiang on Glenn Diesen, 2026-05-11](../../source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
+- [Larry Johnson on Dialogue Works, 2026-05-11](../../source-archive/statecraft/2026-05-11/source-dialogue-works-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- [Larry Johnson responding to Jiang on Dialogue Works, 2026-05-16](../../source-archive/statecraft/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md)
 
 ## Main Split
 

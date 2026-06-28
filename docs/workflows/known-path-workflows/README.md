@@ -29,7 +29,7 @@ A process is a candidate for known-path treatment only when:
 3. **Output type** is predictable and a reviewer can tell good from bad.
 4. A **named reviewer** (human operator or explicit role) owns final judgment.
 5. **`authority_class`** is one of the normative classes in [authority map](../../authority-map.md) (`read_only`, `draftable`, `review_required`, `human_only`, `ephemeral_only`), and **`maximum_action`** is stated in plain language.
-6. The workflow **does not** bypass [recursion-gate](../../../recursion-gate.md), **does not** write canonical Record surfaces directly, and **does not** self-promote candidates.
+6. The workflow **does not** bypass [recursion-gate](../../../archive/grace-mar-instance/recursion-gate.md), **does not** write canonical Record surfaces directly, and **does not** self-promote candidates.
 
 Full gate: [workflow-fitness-test.md](workflow-fitness-test.md).
 
@@ -63,7 +63,7 @@ Known-path workflows should be **evaluated** by whether they **lift operator loa
 |--------|----------------------------------------|
 | [Runtime vs Record](../../runtime-vs-record.md) | Drafts and receipts stay **runtime / WORK** unless promoted through the gate. |
 | [Authority map](../../authority-map.md) | **`authority_class`** on a workflow aligns with these classes; it does **not** add new config keys. |
-| [Recursion-gate](../../../recursion-gate.md) | Staging and companion approval remain **unchanged**. |
+| [Recursion-gate](../../../archive/grace-mar-instance/recursion-gate.md) | Staging and companion approval remain **unchanged**. |
 | [Action receipts](../../action-receipts.md) | General doctrine for meaningful-action audit stubs; **Load-Lift Receipts** are a **specialized** evaluation type for known-path runs ([load-lift-receipts.md](load-lift-receipts.md)). Neither substitutes for gate approval. |
 | [Operator surface registry](../../operator-surface-registry.md) + [operator dashboards](../../operator-dashboards.md) | This tree is the SSOT for **known-path workflow** eligibility and templates. **Operator surface** taxonomy, registry rows for major `runtime/artifacts/`, and **dashboard anti-sprawl** (workflows do **not** automatically get a standalone dashboard) live in the [operator surface registry](../../operator-surface-registry.md). Prefer [load-lift receipts](load-lift-receipts.md), [review packets](../../../runtime/artifacts/review-packets/README.md), or a **section** of an existing operator surface when adding visibility. [Operator dashboards](../../operator-dashboards.md) documents derived Markdown dashboards and regeneration. |
 | [Strategy notebook](../../skill-work/work-strategy/strategy-notebook/README.md) | Example workflows may **read** notebook paths and **write** reviewable drafts only where authority allows. |

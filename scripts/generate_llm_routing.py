@@ -29,6 +29,12 @@ Source: repo-map.yaml + docs/templates/llm-routing-prose.md
 Regenerate: python3 scripts/generate_llm_routing.py
 -->
 
+---
+audience: operator
+authority: routing_aid
+record_status: none
+---
+
 """
 
 

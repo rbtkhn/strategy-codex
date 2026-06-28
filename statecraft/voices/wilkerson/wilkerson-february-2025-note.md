@@ -18,19 +18,19 @@ That means February matters less for quantity than for **early host differentiat
 
 ### Materialized on disk
 
-1. [2025-02-15 - *Colonel Lawrence Wilkerson: Trump's Actions Could Ignite a Regional Conflict in the Middle East*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md)
+1. [2025-02-15 - *Colonel Lawrence Wilkerson: Trump's Actions Could Ignite a Regional Conflict in the Middle East*](../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md)
 
-2. [2025-02-02 - *Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md)
+2. [2025-02-02 - *Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter*](../../../source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md)
 
-3. [2025-02-06 - *Ex-State Dept. Chief REVEALS Hidden War Making Process | Col. Lawrence Wilkerson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md)
+3. [2025-02-06 - *Ex-State Dept. Chief REVEALS Hidden War Making Process | Col. Lawrence Wilkerson*](../../../source-archive/statecraft/2025-02-06/source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md)
 
 ## What the month proves
 
 February 2025 sharpens the early shelf in three ways.
 
-- The [2025-02-15 Diesen capture](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md) already has the hallmarks of the later `Diesen x Wilkerson` lane: bureaucratic decay, the military-industrial complex as a governing force, European security architecture failure, and the eastward shift of world power.
-- The [2025-02-02 Dialogue Works capture](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) shows that the January live-pressure lane did not simply stop after the four January appearances. February still carries the acute Trump / Israel / force-limit warning contour on the Alkorshid side.
-- The [2025-02-06 Neutrality Studies capture](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md) opens a third February surface: Wilkerson as process explainer rather than only war-signal commentator, with emphasis on national-security decision-making, intelligence distortion, and the return of hegemony doctrine.
+- The [2025-02-15 Diesen capture](../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md) already has the hallmarks of the later `Diesen x Wilkerson` lane: bureaucratic decay, the military-industrial complex as a governing force, European security architecture failure, and the eastward shift of world power.
+- The [2025-02-02 Dialogue Works capture](../../../source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) shows that the January live-pressure lane did not simply stop after the four January appearances. February still carries the acute Trump / Israel / force-limit warning contour on the Alkorshid side.
+- The [2025-02-06 Neutrality Studies capture](../../../source-archive/statecraft/2025-02-06/source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md) opens a third February surface: Wilkerson as process explainer rather than only war-signal commentator, with emphasis on national-security decision-making, intelligence distortion, and the return of hegemony doctrine.
 
 Taken together, the month supports a stronger early-2025 reading:
 

@@ -289,18 +289,18 @@ Watch for these named regressions:
 
 ## Proof Fixtures
 
-The active benchmark set for method falsification lives in [benchmark-manifest.md](statecraft/synthesis/benchmark-manifest.md).
+The active benchmark set for method falsification lives in [benchmark-manifest.md](benchmark-manifest.md).
 
 Use these as living proof cases:
 
-- [2026-05-29](statecraft/synthesis/day/2026-05-29.md) for an Iran-heavy day where quote density, lane judgment, and five-volume deepening all matter
-- [2026-05-30](statecraft/synthesis/day/2026-05-30.md) for a mixed coercion, threshold, and architecture day where cross-speaker compression is already strong
-- [2026-05](statecraft/synthesis/month/2026-05.md) for month-scale object compression with explicit `Functional Convergence`
+- [2026-05-29](day/2026-05-29.md) for an Iran-heavy day where quote density, lane judgment, and five-volume deepening all matter
+- [2026-05-30](day/2026-05-30.md) for a mixed coercion, threshold, and architecture day where cross-speaker compression is already strong
+- [2026-05](month/2026-05.md) for month-scale object compression with explicit `Functional Convergence`
 
 If a later method change cannot preserve or improve these proof fixtures, the change is suspect even if the new formatting looks cleaner.
 
 ## Audit Entry
 
-Use [audit-rubric.md](statecraft/synthesis/audit-rubric.md) when the task is to judge whether a daily or monthly note actually satisfies this method.
+Use [audit-rubric.md](audit-rubric.md) when the task is to judge whether a daily or monthly note actually satisfies this method.
 
 The audit is human-first. Future validators may enforce deterministic structure, but insight quality remains partly a judgment call and should stay visible as such.

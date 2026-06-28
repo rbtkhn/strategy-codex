@@ -6,11 +6,11 @@ This note closes the first bounded `statecraft/synthesis` method-hardening tranc
 
 ## What Is Now Real
 
-- the shelf now has an explicit contract for daily notes, month notes, and statecraft notes in [METHOD.md](statecraft/synthesis/METHOD.md)
-- a human-first audit surface now exists in [audit-rubric.md](statecraft/synthesis/audit-rubric.md)
-- a small permanent proof set now exists in [benchmark-manifest.md](statecraft/synthesis/benchmark-manifest.md)
-- the first month note, [2026-05.md](statecraft/synthesis/month/2026-05.md), is now treated as a benchmark fixture rather than an isolated experiment
-- the May proof days, [2026-05-29.md](statecraft/synthesis/day/2026-05-29.md) and [2026-05-30.md](statecraft/synthesis/day/2026-05-30.md), now obey the same quote-floor and five-volume method they are meant to prove
+- the shelf now has an explicit contract for daily notes, month notes, and statecraft notes in [METHOD.md](METHOD.md)
+- a human-first audit surface now exists in [audit-rubric.md](audit-rubric.md)
+- a small permanent proof set now exists in [benchmark-manifest.md](benchmark-manifest.md)
+- the first month note, [2026-05.md](month/2026-05.md), is now treated as a benchmark fixture rather than an isolated experiment
+- the May proof days, [2026-05-29.md](day/2026-05-29.md) and [2026-05-30.md](day/2026-05-30.md), now obey the same quote-floor and five-volume method they are meant to prove
 
 ## What This Tranche Did Not Do
 

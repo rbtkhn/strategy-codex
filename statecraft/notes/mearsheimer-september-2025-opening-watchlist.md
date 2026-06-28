@@ -12,7 +12,7 @@ This note does not claim September closure. Its narrower job is to preserve the 
 
 On current local evidence, September 2025 is one of the weakest Mearsheimer months in the 2025 archive.
 
-The month rollup at [2025-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09.md) now shows:
+The month rollup at [2025-09.md](../../source-archive/statecraft/2025-09.md) now shows:
 
 - `44` source files total
 - `22` captured days
@@ -24,10 +24,10 @@ So September is not empty overall. It is specifically thin in Mearsheimer presen
 
 Four September 2025 Mearsheimer captures are currently on disk:
 
-- `2025-09-04` - [source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-04/source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md)
-- `2025-09-07` - [source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md)
-- `2025-09-10` - [source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md)
-- `2025-09-18` - [source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md)
+- `2025-09-04` - [source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md](../../source-archive/statecraft/2025-09-04/source-judging-freedom-mearsheimer-trump-and-the-international-order-2025-09-04.md)
+- `2025-09-07` - [source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md](../../source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md)
+- `2025-09-10` - [source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md](../../source-archive/statecraft/2025-09-10/source-judging-freedom-mearsheimer-israels-true-goals-2025-09-10.md)
+- `2025-09-18` - [source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md](../../source-archive/statecraft/2025-09-18/source-judging-freedom-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md)
 
 ## Current September Archive Shape
 

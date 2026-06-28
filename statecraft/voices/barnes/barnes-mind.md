@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Provenance:** **Grace-Mar SSOT** for the mapped corpus is this file. [`minds/CIV-MIND-BARNES.md`](minds/CIV-MIND-BARNES.md) is a **stable redirect** to this file for skills, rules, and upstream template naming. Optional diff against civ-mem: `research/repos/civilization_memory/docs/templates/CIV–MIND–BARNES.md`.
 
-**Companion files:** [`strategy-expert-barnes.md`](strategy-expert-barnes.md) · [`strategy-expert-barnes-thread.md`](strategy-expert-barnes-thread.md) · [`strategy-expert-barnes-transcript.md`](strategy-expert-barnes-transcript.md)
+**Companion files:** [`strategy-expert-barnes.md`](barnes-profile.md) · [`strategy-expert-barnes-thread.md`](barnes-thread.md) · [`strategy-expert-barnes-transcript.md`](barnes-transcript.md)
 
 | Field | Value |
 |-------|-------|

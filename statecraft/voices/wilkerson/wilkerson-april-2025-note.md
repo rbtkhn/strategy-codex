@@ -19,25 +19,25 @@ So April should currently be read as a **real month with only one minor URL seam
 
 ### Materialized on disk
 
-1. [2025-04-10 - *COL. Lawrence Wilkerson : Will Trump Deport Americans?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-judging-freedom-wilkerson-will-trump-deport-americans-2025-04-10.md)
+1. [2025-04-10 - *COL. Lawrence Wilkerson : Will Trump Deport Americans?*](../../../source-archive/statecraft/2025-04-10/source-judging-freedom-wilkerson-will-trump-deport-americans-2025-04-10.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized.
 
-2. [2025-04-03 - *COL. Lawrence Wilkerson : Trump Delusional over Tariffs and Iran.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-judging-freedom-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md)
+2. [2025-04-03 - *COL. Lawrence Wilkerson : Trump Delusional over Tariffs and Iran.*](../../../source-archive/statecraft/2025-04-03/source-judging-freedom-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized.
 
-3. [2025-04-17 - *COL. Lawrence Wilkerson : Are Neocons Ascendant?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-judging-freedom-wilkerson-are-neocons-ascendant-2025-04-17.md)
+3. [2025-04-17 - *COL. Lawrence Wilkerson : Are Neocons Ascendant?*](../../../source-archive/statecraft/2025-04-17/source-judging-freedom-wilkerson-are-neocons-ascendant-2025-04-17.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized; direct YouTube watch URL still unrecovered locally.
 
-4. [2025-04-04 - *Mohammad Marandi, Larry Wilkerson & Chas Freeman on Middle East Erupts: Iran Challenges Ultimatum*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md)
+4. [2025-04-04 - *Mohammad Marandi, Larry Wilkerson & Chas Freeman on Middle East Erupts: Iran Challenges Ultimatum*](../../../source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md)
    Status: full operator-pasted `Dialogue Works` mixed-panel transcript materialized with recovered direct YouTube watch URL.
 
-5. [2025-04-05 - *Yemeni Missiles Slam US Navy, Iran-US Tension Skyrockets \| Col. Larry Wilkerson & Larry C. Johnson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-05/source-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md)
+5. [2025-04-05 - *Yemeni Missiles Slam US Navy, Iran-US Tension Skyrockets \| Col. Larry Wilkerson & Larry C. Johnson*](../../../source-archive/statecraft/2025-04-05/source-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md)
    Status: full operator-pasted `Dialogue Works` Johnson/Wilkerson crossover transcript materialized; direct YouTube watch URL still unrecovered locally.
 
-6. [2025-04-18 - *Mohammad Marandi, Larry Wilkerson & Chas Freeman: Talks or Total War? Clock Ticks for Iran and U.S.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-18/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md)
+6. [2025-04-18 - *Mohammad Marandi, Larry Wilkerson & Chas Freeman: Talks or Total War? Clock Ticks for Iran and U.S.*](../../../source-archive/statecraft/2025-04-18/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md)
    Status: transcript materialized from operator paste and now linked to the recovered direct YouTube watch URL.
 
-7. [2025-04-27 - *Col. Lawrence Wilkerson: Washington's Rivalries, Coups, Wars & Cover-Ups*](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-27/source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md)
+7. [2025-04-27 - *Col. Lawrence Wilkerson: Washington's Rivalries, Coups, Wars & Cover-Ups*](../../../source-archive/statecraft/2025-04-27/source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md)
    Status: speaker-forward April anchor already materialized as a full transcript-bearing file.
 
 ## What the month proves
@@ -52,7 +52,7 @@ April 2025 already proves something stronger than February or March:
   - covert-state, rivalry, and imperial-structure explanation on `Diesen`
 - Three April `Judging Freedom` full episodes are now on disk, which means the auxiliary Napolitano branch is no longer only a secondary inference for this month.
 - Three April `Dialogue Works` transcript-grade surfaces are now on disk, which means April no longer depends on a single guest configuration to carry the Nima-side month reading.
-- The [2025-04-27 Diesen anchor](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-27/source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md) is not just a title-level placeholder; it is already a transcript-bearing anchor strong enough to carry the April month reading on its own.
+- The [2025-04-27 Diesen anchor](../../../source-archive/statecraft/2025-04-27/source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md) is not just a title-level placeholder; it is already a transcript-bearing anchor strong enough to carry the April month reading on its own.
 
 The right shelf reading is therefore:
 

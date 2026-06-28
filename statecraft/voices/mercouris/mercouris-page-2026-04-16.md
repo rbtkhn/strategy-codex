@@ -39,7 +39,6 @@ The Ukraine segment ties back to Middle East strain: Russian confidence plus Eur
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-16/source-duran-mercouris-2026-04-18.md](../../../years/2026/provenance/2026-04-16/source-duran-mercouris-2026-04-18.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `thread:mercouris`, 2026-04-16)
+- **Full verbatim (capture):** [provenance/2026-04-16/source-duran-mercouris-2026-04-18.md](../../../source-archive/statecraft/2026-04-16/day-index.md)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + aired:2026-04-16 + pin canonical YT when known
 - **Canonical video:** Pin when known — see raw-input frontmatter or episode cold line (replace TBD placeholder)

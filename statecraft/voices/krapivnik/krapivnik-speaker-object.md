@@ -18,9 +18,9 @@ That makes the honest current shape `cross-host-reinforced`.
 
 ## Open first
 
-- [2026-05-07 Diesen x Krapivnik](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/source-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md)
-- [2026-05-22 Dialogue Works x Krapivnik](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/source-dialogue-works-stanislav-krapivnik-tulsi-gabbard-resigns-hezbollah-crushes-idf-war-becomes-unaffordable-2026-05-22.md)
-- [2025-02-25 Duran x Mercouris x Krapivnik](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-25/source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md)
+- [2026-05-07 Diesen x Krapivnik](../../../source-archive/statecraft/2026-05-07/source-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md)
+- [2026-05-22 Dialogue Works x Krapivnik](../../../source-archive/statecraft/2026-05-22/source-dialogue-works-stanislav-krapivnik-tulsi-gabbard-resigns-hezbollah-crushes-idf-war-becomes-unaffordable-2026-05-22.md)
+- [2025-02-25 Duran x Mercouris x Krapivnik](../../../source-archive/statecraft/2025-02-25/source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md)
 
 ## Boundaries
 

@@ -21,6 +21,21 @@ subtitle: "Alastair Crooke, 25 June 2026"
 access: paid
 capture_note: "Operator paste; paid Substack essay body preserved verbatim (Jun 25, 2026 pub)."
 editorial_note: "Operator-pasted Substack body; not independently verified against live Substack HTML."
+verify_receipt: 2026-06-27
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Trump/Vance false IAEA inspections of bombed sites; Vance said inspections could begin this week
+    verdict: contested
+    note: J25-9 — Iran denied; Lucerne framework limits IAEA to 60% dilution supervision post-final deal; pairs Marandi MOU reality register
+  - claim: Trump escrow unfrozen funds for US corn/soy purchases; finish-the-job military threat
+    verdict: partial
+    note: J25-10 — MOU funds rhetoric; pairs Helmer bribery-architecture tier-4 · Marandi fund-release denial
+  - claim: Ushakov Anchorage spirit collapsed; Lavrov Alaska ploy/Minsk analogy; Putin nuclear triad + European war prep (23 Jun)
+    verdict: partial
+    note: J25-11 — tier-4 Russia mesh; pairs Mearsheimer Karaganov ladder · Helmer Voronezh · Mercouris EU clock
+  - claim: E3 deep-strike scale-up; UK 500km ground-launched weapons flight-tested
+    verdict: partial
+    note: J25-12 — tier-4; pairs Mearsheimer European drone bet · Helmer Storm Shadow seam
 ---
 # Russia Hearing the European Clamour for War, Announces it is Ready
 

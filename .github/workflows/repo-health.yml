@@ -50,7 +50,10 @@ jobs:
       - name: Generated surface headers (strict)
         run: python3 scripts/check_generated_surfaces.py --headers-only --strict
 
-      - name: Pytest — routing and generated surfaces
+      - name: Repo Surgeon (strict, all scopes)
+        run: python3 scripts/repo_surgeon.py --scope all --strict --verify-portable-skills --max-link-errors 0
+
+      - name: Pytest — repo surgeon and archive boundary
         run: |
           python3 -m pytest \
             tests/test_routing_generated.py \
@@ -58,6 +61,8 @@ jobs:
             tests/test_assert_root_file_budget.py \
             tests/test_repo_path_strict.py \
             tests/test_grace_mar_paths.py \
+            tests/test_repo_surgeon.py \
+            tests/test_check_archive_boundary.py \
             -q
 
   advisory:

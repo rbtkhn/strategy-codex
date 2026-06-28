@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Barnes × America Capture — Non-Intercept, Colby Spying, MOU Money — 2026-06-08
 
-**Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **Prior:** [Barnes × Aguilar enforceability](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) · [Trump humiliation extension](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
+**Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 Intake Readiness](intake/2026-06-08-intake-readiness.md) · **Prior:** [Barnes × Aguilar enforceability](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) · [Trump humiliation extension](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
 
 **Source:** [Barnes / Nawfal — IRAN LAUNCHES ATTACK ON U.S. BASES](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md) (`bPP1SPCAegU`)
 
@@ -107,11 +107,11 @@ Bounded question:
 
 | Companion | Barnes Jun 8 adds |
 |-----------|-------------------|
-| [Barnes × Aguilar](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) | **One lever fired** (non-intercept) vs faucet still open |
-| [Trump humiliation](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) | Material corroboration beyond rhetoric |
-| [USS Liberty seam](statecraft/notes/2026-06-08-america-uss-liberty-legitimacy-seam.md) | Colby/Divine spying stacks on McGovern DIA leak |
-| [Davis trust fork](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) | MOU money vs **comes after** — Barnes sides with Marandi upfront row |
-| [Crooke three-date arc](statecraft/synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md) | Controlled escalation vs episodic conflict — compatible reads |
+| [Barnes × Aguilar](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) | **One lever fired** (non-intercept) vs faucet still open |
+| [Trump humiliation](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) | Material corroboration beyond rhetoric |
+| [USS Liberty seam](2026-06-08-america-uss-liberty-legitimacy-seam.md) | Colby/Divine spying stacks on McGovern DIA leak |
+| [Davis trust fork](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) | MOU money vs **comes after** — Barnes sides with Marandi upfront row |
+| [Crooke three-date arc](../synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md) | Controlled escalation vs episodic conflict — compatible reads |
 
 ---
 
@@ -139,8 +139,8 @@ Bounded question:
 
 - [America command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 - [Persia gate — Clause B](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
-- [Marandi deal floor × gate](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
-- Parent daily (when written): [2026-06-08.md](statecraft/synthesis/day/2026-06-08.md)
+- [Marandi deal floor × gate](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
+- Parent daily (when written): [2026-06-08.md](../synthesis/day/2026-06-08.md)
 
 ## Source Anchor
 

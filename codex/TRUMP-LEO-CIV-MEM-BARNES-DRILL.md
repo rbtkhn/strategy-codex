@@ -62,4 +62,4 @@ Map each opened MEM to **one** § VII bullet in [CIV-MIND-BARNES.md § VII](mind
 ## Cross-links
 
 - [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md) — Recipe A (Barnes-only fast pass).
-- [work-civ-mem README](../work-civ-mem/README.md) — stewardship; [workspace.md](../work-civ-mem/workspace.md) — pin + consumer notes.
+- [work-civ-mem README](../README.md) — stewardship; [workspace.md](../work-civ-mem/workspace.md) — pin + consumer notes.

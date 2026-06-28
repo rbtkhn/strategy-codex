@@ -20,7 +20,7 @@ tags:
 
 **Aliases:** `venture ideation`, `runbook venture ideation`.
 
-Umbrella skill for commercial and purpose-aligned product work. Default composed workflow: [venture-ideation.runbook.md](../runbooks/venture-ideation.runbook.md).
+Umbrella skill for commercial and purpose-aligned product work. Default composed workflow: [venture-ideation.runbook.md](../../skills/runbooks/venture-ideation.runbook.md).
 
 ## Modes
 

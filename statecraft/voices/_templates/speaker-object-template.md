@@ -12,7 +12,7 @@ Template doctrine: before drafting, fix the three-part surface grammar explicitl
 - **surface role**: what job this file performs
 - **surface interior**: what it contains that neighboring surfaces do not
 
-Reference: [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md)
+Reference: [Speaker-Shelf Vocabulary](../speaker-shelf-vocabulary.md)
 
 Transcript-first evidence, arc-first interpretation, unless the object's shape honestly requires another first-open rule.
 

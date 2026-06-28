@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: make the `statecraft/synthesis` method auditable without reducing it to taste, vibes, or silent preference drift.
 
-Use this rubric when checking a new or revised daily or monthly note against the active method in [METHOD.md](statecraft/synthesis/METHOD.md).
+Use this rubric when checking a new or revised daily or monthly note against the active method in [METHOD.md](METHOD.md).
 
 ## Audit Outcome Classes
 
@@ -161,12 +161,12 @@ These are automatic watchpoints and can independently justify failure:
 
 ## Proof Set
 
-Use [benchmark-manifest.md](statecraft/synthesis/benchmark-manifest.md) as the first falsification set.
+Use [benchmark-manifest.md](benchmark-manifest.md) as the first falsification set.
 
 Recommended default audit order:
 
-1. [2026-05-29](statecraft/synthesis/day/2026-05-29.md)
-2. [2026-05-30](statecraft/synthesis/day/2026-05-30.md)
-3. [2026-05](statecraft/synthesis/month/2026-05.md)
+1. [2026-05-29](day/2026-05-29.md)
+2. [2026-05-30](day/2026-05-30.md)
+3. [2026-05](month/2026-05.md)
 
 If a new method, prompt, skill, or automation hook weakens those proof cases, treat the change as suspect until the gain is clearly proven.

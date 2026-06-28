@@ -96,9 +96,9 @@ Would you like a side-by-side code/schema example, a proposed integration path, 
 
 - [IFP spec capture (2026-04-24)](identity-fork-protocol-ifp-2026-04-24.md)
 - [AGENTS.md](../../../../../AGENTS.md)
-- [Recursion gate](../../../../../recursion-gate.md)
+- [Recursion gate](../../../../../archive/grace-mar-instance/recursion-gate.md)
 - [Workbench](../../workbench/README.md)
-- [Interface artifacts / derived-output policy](../../interface-runtime/artifacts/README.md)
+- [Interface artifacts / derived-output policy](../../../../../runtime/artifacts/README.md)
 - [work-dev README (territory)](../../README.md)
 - [known-gaps / control plane](../../known-gaps.md)
 

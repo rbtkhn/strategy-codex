@@ -1,3 +1,4 @@
+from repo_io import SKILLS_DIR
 #!/usr/bin/env python3
 """Fail on stale ``statecraft/daily/`` path references outside the redirect stub.
 
@@ -16,7 +17,7 @@ SCAN_ROOTS = (
     REPO_ROOT / "statecraft",
     REPO_ROOT / "docs",
     REPO_ROOT / ".cursor",
-    REPO_ROOT / "skills",
+    SKILLS_DIR,
     REPO_ROOT / "tests",
     REPO_ROOT / "scripts",
 )

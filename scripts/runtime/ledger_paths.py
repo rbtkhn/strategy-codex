@@ -1,12 +1,16 @@
-from repo_io import SCHEMA_REGISTRY_DIR
 """Shared paths for runtime observation tooling."""
 
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+_SCRIPTS = REPO_ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from repo_io import SCHEMA_REGISTRY_DIR
 
 
 def ledger_base() -> Path:

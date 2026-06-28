@@ -9,10 +9,10 @@ legacy_path: arc-baud-continuity.md
 
 WORK only; not Record.
 
-**Source:** Distilled from [`strategy-expert-baud-transcript.md`](strategy-expert-baud-transcript.md) and from strategy pages or raw captures that route through Baud.
+**Source:** Distilled from [`strategy-expert-baud-transcript.md`](../voices/baud/baud-transcript.md) and from strategy pages or raw captures that route through Baud.
 **Process:** `python3 scripts/strategy_thread.py` maintains only the machine layer between the `strategy-expert-thread` HTML comments. The human-readable journal layer above that marker is operator/assistant maintained.
 **Updated:** Refresh the journal layer when the arc becomes clearer; refresh the machine layer when you run `thread`.
-**Companion files:** [`strategy-expert-baud.md`](strategy-expert-baud.md) and [`strategy-expert-baud-transcript.md`](strategy-expert-baud-transcript.md).
+**Companion files:** [`strategy-expert-baud.md`](../voices/baud/baud-profile.md) and [`strategy-expert-baud-transcript.md`](../voices/baud/baud-transcript.md).
 
 ---
 ## Route split
@@ -22,10 +22,10 @@ Use this file as the canonical **person-level continuity** surface for Jacques B
 Open by question:
 
 - person continuity and month-to-month arc -> `arc-baud-continuity.md`
-- international-law taxonomy and recurring legal strand -> [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- host transformation and comparison -> [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
-- host-local retrieval -> [arc-baud-nima-host.md](/C:/dev/strategy-codex/arc-baud-nima-host.md), [arc-baud-davis-host.md](/C:/dev/strategy-codex/arc-baud-davis-host.md), [arc-baud-diesen-host.md](/C:/dev/strategy-codex/arc-baud-diesen-host.md)
-- legacy compatibility only -> [baud-thread.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread.md)
+- international-law taxonomy and recurring legal strand -> [baud-thread-international-law.md](../voices/baud/baud-thread-international-law.md)
+- host transformation and comparison -> [baud-helix.md](../voices/baud/baud-helix.md)
+- host-local retrieval -> [arc-baud-nima-host.md](../../arc-baud-nima-host.md), [arc-baud-davis-host.md](../../arc-baud-davis-host.md), [arc-baud-diesen-host.md](../../arc-baud-diesen-host.md)
+- legacy compatibility only -> [baud-thread.md](../voices/baud/baud-thread.md)
 
 This file should not collapse those surfaces back into one object. It keeps Baud legible as a recurring person-level voice while the law thread, helix, and host arcs do their narrower jobs.
 
@@ -101,20 +101,20 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`source-baud-dialogue-works-nima-2026-04-27.md`](provenance/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
-- Inbox | cold: full text in [`source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`](provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`source-baud-dialogue-works-nima-2026-04-27.md`](../../source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`](../../source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) (pointer; SSOT raw-input) | thread:baud
 ## 2026-04-27
-- Inbox | cold: full text in [`source-baud-dialogue-works-nima-2026-04-27.md`](provenance/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
-- Inbox | cold: full text in [`source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`](provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`source-baud-dialogue-works-nima-2026-04-27.md`](../../source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`](../../source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) (pointer; SSOT raw-input) | thread:baud
 ## 2026-04-26
-- Inbox | cold: full text in [`source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`](provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md`](../../source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) (pointer; SSOT raw-input) | thread:baud
 ## 2026-04-25
-- YT | cold: **Daniel Davis** ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Col. Jacques Baud** (*Daniel Davis Deep Dive*) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **Trump** **Fox** **Pakistan-signing** **frame** **vs** **IRI** **no-show** **Islamabad** **(CBS** **wire** **in** **voice);** **carrotÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œstick** **/** **blackmail** **read;** **ceasefire** **as** **rear** **arm** **(Ukraine** **parallel);** **Strait** **/** **Hormuz** **deterrent;** **UNGA** **3314** **co-belligerent** **(GCC** **territory** **/** **airspace);** **UAE** **FM** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“gulf** **of** **trustÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â** **vs** **aggression** **facts;** **perfidy** **/** **Geneva** **timing;** **Keane** **blockade** **claims** **vs** **energy** **/** **Bab** **el-Mandeb** **escalation** **geometry;** **Europe** **vassal** **thesis** **(E3** **Mar** **1)** // hook: **`thread:baud`** **law-of-war** **+** **alliance** **mandate** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â** **host** **`thread:davis`**; **full** **verbatim** [provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) | https://www.youtube.com/watch?v=TBD-davis-baud-deep-dive | verify:full-text+raw-input+pin-canonical-URL+aired:TBD | thread:baud | grep:Baud+Davis+Pakistan+Hormuz+3314+trust
+- YT | cold: **Daniel Davis** ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Col. Jacques Baud** (*Daniel Davis Deep Dive*) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **Trump** **Fox** **Pakistan-signing** **frame** **vs** **IRI** **no-show** **Islamabad** **(CBS** **wire** **in** **voice);** **carrotÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œstick** **/** **blackmail** **read;** **ceasefire** **as** **rear** **arm** **(Ukraine** **parallel);** **Strait** **/** **Hormuz** **deterrent;** **UNGA** **3314** **co-belligerent** **(GCC** **territory** **/** **airspace);** **UAE** **FM** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“gulf** **of** **trustÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â** **vs** **aggression** **facts;** **perfidy** **/** **Geneva** **timing;** **Keane** **blockade** **claims** **vs** **energy** **/** **Bab** **el-Mandeb** **escalation** **geometry;** **Europe** **vassal** **thesis** **(E3** **Mar** **1)** // hook: **`thread:baud`** **law-of-war** **+** **alliance** **mandate** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â** **host** **`thread:davis`**; **full** **verbatim** [provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](../../source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md) | https://www.youtube.com/watch?v=TBD-davis-baud-deep-dive | verify:full-text+raw-input+pin-canonical-URL+aired:TBD | thread:baud | grep:Baud+Davis+Pakistan+Hormuz+3314+trust
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦` files tagged with this expertÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-baud-dialogue-works-nima-2026-04-27.md](provenance/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) _on-disk_
-- [source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](provenance/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md)
+- [source-baud-dialogue-works-nima-2026-04-27.md](../../source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) _on-disk_
+- [source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md](../../source-archive/statecraft/2026-04-20/source-daniel-davis-baud-iran-pakistan-diplomacy-2026-04-20.md)
 <!-- strategy-expert-thread:end -->

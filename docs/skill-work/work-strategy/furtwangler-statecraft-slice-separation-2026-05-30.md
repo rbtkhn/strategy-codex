@@ -32,7 +32,7 @@ That pass is now durably isolated in commit `5dcaaa52`.
 
 The second slice is also real, but different in kind. Its visible center is:
 
-- [statecraft/synthesis/day/README.md](../../../statecraft/synthesis/day/README.md)
+- [statecraft/synthesis/day/README.md](../../../README.md)
 - [statecraft/synthesis/METHOD.md](../../../statecraft/synthesis/METHOD.md)
 - [statecraft/synthesis/month/2026-05.md](../../../statecraft/synthesis/month/2026-05.md)
 - [statecraft/synthesis/day/2026-05-29.md](../../../statecraft/synthesis/day/2026-05-29.md)

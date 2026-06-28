@@ -27,7 +27,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-01-r01
 - `chapter_id`: `hn-i-v1-01`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-01` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-01` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -37,7 +37,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-02-r01
 - `chapter_id`: `hn-i-v1-02`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-02` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-02` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -47,7 +47,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-03-r01
 - `chapter_id`: `hn-i-v1-03`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-03` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-03` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -57,7 +57,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-04-r01
 - `chapter_id`: `hn-i-v1-04`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-04` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-04` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -67,7 +67,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-05-r01
 - `chapter_id`: `hn-i-v1-05`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-05` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-05` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -77,7 +77,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-06-r01
 - `chapter_id`: `hn-i-v1-06`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-06` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-06` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -87,7 +87,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-07-r01
 - `chapter_id`: `hn-i-v1-07`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-07` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-07` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -97,7 +97,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-08-r01
 - `chapter_id`: `hn-i-v1-08`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-08` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-08` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -107,7 +107,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-09-r01
 - `chapter_id`: `hn-i-v1-09`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-09` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-09` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -117,7 +117,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-10-r01
 - `chapter_id`: `hn-i-v1-10`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-10` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-10` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -127,7 +127,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-11-r01
 - `chapter_id`: `hn-i-v1-11`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-11` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-11` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -137,7 +137,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-12-r01
 - `chapter_id`: `hn-i-v1-12`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-12` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-12` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -147,7 +147,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-13-r01
 - `chapter_id`: `hn-i-v1-13`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-13` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-13` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -157,7 +157,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-14-r01
 - `chapter_id`: `hn-i-v1-14`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-14` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-14` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -167,7 +167,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-15-r01
 - `chapter_id`: `hn-i-v1-15`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-15` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-15` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -177,7 +177,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-16-r01
 - `chapter_id`: `hn-i-v1-16`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-16` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-16` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -187,7 +187,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-17-r01
 - `chapter_id`: `hn-i-v1-17`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-17` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-17` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -197,7 +197,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-18-r01
 - `chapter_id`: `hn-i-v1-18`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-18` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-18` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -207,7 +207,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-19-r01
 - `chapter_id`: `hn-i-v1-19`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-19` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-19` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.
@@ -217,7 +217,7 @@ Labels: `supported | disputed | weakly-supported`.
 ### hn-i-v1-20-r01
 - `chapter_id`: `hn-i-v1-20`
 - `classification`: `disputed`
-- `claim`: **Chapter ID:** `hn-i-v1-20` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim`: **Chapter ID:** `hn-i-v1-20` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `counterclaims`:
   - Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.
   - Alternative explanation: external systems pressure (trade, war, ecology) drives the result more than civilizational design.

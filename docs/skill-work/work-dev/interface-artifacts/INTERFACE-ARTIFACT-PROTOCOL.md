@@ -42,8 +42,8 @@ They do **not** replace canonical notebook judgment. Strategy-notebook remains m
 
 Current anchors:
 
-- [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md)
-- [../../work-strategy/strategy-notebook/strategy-console/README.md](../../work-strategy/strategy-notebook/strategy-console/README.md)
+- [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../../../README.md)
+- [../../work-strategy/strategy-notebook/strategy-console/README.md](../../../../README.md)
 - [../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md](../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md)
 
 ## What does not count
@@ -175,7 +175,7 @@ Recommended operator decisions:
 
 Use the strategy-notebook visualizer pilot as the primary worked example of this pattern:
 
-- [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md)
+- [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../../../README.md)
 
 It already makes the key boundaries legible:
 

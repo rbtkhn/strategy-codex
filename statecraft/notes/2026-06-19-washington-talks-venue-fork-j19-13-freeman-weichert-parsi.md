@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # Washington Talks × Venue Fork — J19-13 — Freeman × Weichert × Parsi — 2026-06-19
 
-**Archive batch:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) (11 captures) · **Parent:** [2026-06-19 daily](statecraft/synthesis/day/2026-06-19.md) · **Wire matrix:** [2026-06-19](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun)
+**Archive batch:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) (11 captures) · **Parent:** [2026-06-19 daily](../synthesis/day/2026-06-19.md) · **Wire matrix:** [2026-06-19](wire/2026-06-19-news-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun)
 
-**Prior spine:** [Jun 17 wire matrix — ceremony fork](statecraft/notes/wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold) · [Jun 19 Lebanon enforcement child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) · [Jun 17 Lebanon × Art. 1 (Pape × Parsi)](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
+**Prior spine:** [Jun 17 wire matrix — ceremony fork](wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold) · [Jun 19 Lebanon enforcement child note](2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) · [Jun 17 Lebanon × Art. 1 (Pape × Parsi)](2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
 
 **Sources (Jun 19 — venue / pressure lane):**
 
@@ -37,7 +37,7 @@ Short rule: **Venue relocation is not MOU implementation — until State readout
 | --- | --- | --- |
 | **A — Bürgenstock ceremony still live** | **Weakened** | **J19-2** · new date **absent** |
 | **B — Digital-only closure sufficient** | **Strengthened (legal track)** | Digital sign carry + postponement — **theater deferred**, not abandoned |
-| **C — Lebanon precondition gate** | **Strengthened** | **J19-3 partial** · [Lebanon child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) |
+| **C — Lebanon precondition gate** | **Strengthened** | **J19-3 partial** · [Lebanon child note](2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) |
 | **D — Washington supplants Switzerland** | **Open / unclear** | **J19-13** only — awaits State readout |
 | **E — Sabotage / client veto** | **New supported layer** | **J19-1** · **J19-14 partial** (Bennett leak) |
 
@@ -71,7 +71,7 @@ Weichert stacks **supported intel layer** under **unclear venue layer**:
 | **IC sabotage** | U.S. intel warned Israel **likely** to undermine deal | **J19-1 supported** (WaPo mesh) |
 | **Junior partner** | Trump **has Israel's back** if they attack again — rhetoric ≠ restraint | Tier-4 interpretation |
 | **Washington talks** | State Dept **discussed** DC venue next week | **J19-13 unclear** — same carry as Freeman |
-| **Lebanon breach** | Gaza-model cordon; *"ceasefire but not ceasefire"* | Links [Lebanon child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) |
+| **Lebanon breach** | Gaza-model cordon; *"ceasefire but not ceasefire"* | Links [Lebanon child note](2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) |
 | **America-first (Latani)** | *"America first means America first"* — security architecture answer deferred | Pressure **register**, not venue proof |
 
 **Convergence with Freeman:** Both hosts surface **Washington** in the same news cycle as **Geneva off** and **WaPo sabotage** — synthesis treats **J19-13** as **narratively clustered**, **wire-unconfirmed**.
@@ -87,7 +87,7 @@ Parsi supplies the **political mechanism** behind venue stall — not calendar d
 | **Channel 12 leak** — US unofficial channels to **Bennett**; Trump may **endorse rival** | Netanyahu **survival = war + anti-MOU** | **J19-14 partial** — no wire for endorsement **decision** |
 | **Diametrically opposed** US–Israel interests in this situation | Client veto **outside** MOU text | Aligns **J19-1** + **J19-9** |
 | Washington elements **not hiding** pro-Israel entanglement | **Faction fight** inside America lane | Explains **J19-13** as possible **Trump vs Netanyahu camp** signal |
-| Netanyahu needs **Lebanon war** + **no US–Iran deal** | Jail immunity logic | [Lebanon enforcement](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) |
+| Netanyahu needs **Lebanon war** + **no US–Iran deal** | Jail immunity logic | [Lebanon enforcement](2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md) |
 | Suspend MOU / strike Israel if Lebanon bombing continues | Iran **perform-first** escalation grammar | **J19-3 partial** mesh |
 
 **Fork with Freeman:** Freeman — Trump **disciplines** client via Washington theater. Parsi — Trump **may** back **rival** if leak true. **Held tension:** discipline rhetoric vs Bennett endorsement — **both** predict **venue slip** while **J19-1** says sabotage is **expected**, not surprising.
@@ -110,8 +110,8 @@ Do **not** merge: **postponement ≠ cancellation ≠ Washington pivot ≠ MOU b
 
 ## Cross-links (load-bearing)
 
-- **Lebanon enforcement** — [child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md): **J19-3** and **J19-5** gate whether Iran **accepts any venue**
-- **Ceremony fork resolution** — [matrix § J19-15](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun): Fri 19 Jun branch **closed**; **reschedule date open**
+- **Lebanon enforcement** — [child note](2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md): **J19-3** and **J19-5** gate whether Iran **accepts any venue**
+- **Ceremony fork resolution** — [matrix § J19-15](wire/2026-06-19-news-verify-matrix.md#ceremony--venue-fork-j17-5--j19-15--partially-resolved-for-19-jun): Fri 19 Jun branch **closed**; **reschedule date open**
 - **Asset tranche** — **J19-12 partial**: Trump *"no money"* vs transfer rumor — **parallel** to venue (perform-first), not identical
 
 ---
@@ -123,16 +123,16 @@ Do **not** merge: **postponement ≠ cancellation ≠ Washington pivot ≠ MOU b
 - **Washington pivot confirmed (policy)** if Iran **accepts DC** while **Lebanon ops continue** — **J19-3** weakens (Lebanon not gating); **J19-1** sabotage read **strengthens** (talks under sabotage expected).
 - **Digital-only pole B closes** if both MFAs **formally declare** ceremony unnecessary **and** no third signing with altered text — venue fork **collapses to implementation**, not location.
 - **Parsi Bennett fork fires** if Trump **publicly** engages rival endorsement — **J19-14** upgrades; Netanyahu venue sabotage incentive **spikes**.
-- **Venue fork stalls** if **7d** passes with **no** Swiss reschedule **and** **no** State DC confirmation — **implementation suspension** object persists ([parent daily](statecraft/synthesis/day/2026-06-19.md)).
+- **Venue fork stalls** if **7d** passes with **no** Swiss reschedule **and** **no** State DC confirmation — **implementation suspension** object persists ([parent daily](../synthesis/day/2026-06-19.md)).
 
 ---
 
 ## Return paths
 
-- [Jun 19 wire matrix — ceremony / J19-13 escalate](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#escalate)
-- [Jun 19 Lebanon enforcement child note](statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md)
-- [Jun 17 ceremony fork SSOT](statecraft/notes/wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
-- [Parent daily — Washington pressure §3](statecraft/synthesis/day/2026-06-19.md#3-washington-pressure-campaign--rhetoric-vs-third-party-veto)
+- [Jun 19 wire matrix — ceremony / J19-13 escalate](wire/2026-06-19-news-verify-matrix.md#escalate)
+- [Jun 19 Lebanon enforcement child note](2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md)
+- [Jun 17 ceremony fork SSOT](wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
+- [Parent daily — Washington pressure §3](../synthesis/day/2026-06-19.md#3-washington-pressure-campaign--rhetoric-vs-third-party-veto)
 
 ## Source anchors
 

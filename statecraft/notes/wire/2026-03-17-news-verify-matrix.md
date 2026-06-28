@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-03-17
 
-**Parent:** [2026-03-17 archive day](../../source-archive/statecraft/2026-03-17/day-index.md) · **Bench:** [Helmer × Crooke × Napolitano](../notes/2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md) · **Practitioner:** [Davis × Henningsen](../notes/2026-03-17-davis-henningsen-global-reset-wedge.md) · **Clock arc:** [Helmer Mar 17→Mar 24](../notes/arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice) · **Return:** [Mar 3 matrix](statecraft/notes/wire/2026-03-03-news-verify-matrix.md) · **Forward:** [Mar 24 matrix](statecraft/notes/wire/2026-03-24-news-verify-matrix.md)
+**Parent:** [2026-03-17 archive day](../../../source-archive/statecraft/2026-03-17/day-index.md) · **Bench:** [Helmer × Crooke × Napolitano](../notes/2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md) · **Practitioner:** [Davis × Henningsen](../notes/2026-03-17-davis-henningsen-global-reset-wedge.md) · **Clock arc:** [Helmer Mar 17→Mar 24](../notes/arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice) · **Return:** [Mar 3 matrix](2026-03-03-news-verify-matrix.md) · **Forward:** [Mar 24 matrix](2026-03-24-news-verify-matrix.md)
 
 **Scope:** **Week ~3 pass** — **Hormuz escort rejection**; **Larijani** kill; **~2-week US clock** (Mar 31); **ground-invasion** discourse; **Netanyahu command** mystery; **Witkoff/Ravid fiction**; **Postol** Israel defenseless; **Kent** resignation thread.
 
@@ -23,21 +23,21 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | John Helmer | [Trump Furious — allies reject Hormuz escort](../../source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | **J17-A1 – A4**, **J17-C1 – C3**, **J17-E1 – E2**, **J17-F1 – F2**, **J17-G1 – G2** |
-| 2 | Alexander Mercouris | [Ground invasion / Larijani dead](../../source-archive/statecraft/2026-03-17/source-alexander-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md) | **J17-B1 – B3**, **J17-D1 – D2** |
-| 3 | Chas Freeman | [Will China Dump Trump?](../../source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md) | **J17-A2**, **J17-C1** (cross) |
-| 4 | Patrick Henningsen × Daniel Davis | [Global Reset](../../source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) | **J17-A3**, **J17-H2** |
-| 5 | Trita Parsi | [Why was Larijani targeted?](../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md) | **J17-B3** *(interpretation tier — desk-scored)* |
-| 6 | Napolitano bench (Hoh/Maté/Ritter) | [Kent · Kushner · Minab](../../source-archive/statecraft/2026-03-17/) | **J17-F1** (cross), **J17-H1** |
+| 1 | John Helmer | [Trump Furious — allies reject Hormuz escort](../../../source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md) | **J17-A1 – A4**, **J17-C1 – C3**, **J17-E1 – E2**, **J17-F1 – F2**, **J17-G1 – G2** |
+| 2 | Alexander Mercouris | [Ground invasion / Larijani dead](../../../source-archive/statecraft/2026-03-17/source-alexander-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md) | **J17-B1 – B3**, **J17-D1 – D2** |
+| 3 | Chas Freeman | [Will China Dump Trump?](../../../source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md) | **J17-A2**, **J17-C1** (cross) |
+| 4 | Patrick Henningsen × Daniel Davis | [Global Reset](../../../source-archive/statecraft/2026-03-17/source-daniel-davis-iran-war-global-reset-patrick-henningsen-lt-col-daniel-davis-2026-03-17.md) | **J17-A3**, **J17-H2** |
+| 5 | Trita Parsi | [Why was Larijani targeted?](../../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md) | **J17-B3** *(interpretation tier — desk-scored)* |
+| 6 | Napolitano bench (Hoh/Maté/Ritter) | [Kent · Kushner · Minab](../../../source-archive/statecraft/2026-03-17) | **J17-F1** (cross), **J17-H1** |
 
 ## Sub-seam A — Hormuz escort / allies refuse (Helmer **J17-A1 – A4** · Freeman **J17-A2** · Henningsen **J17-A3**)
 
 | ID | Claim (transcript / desk) | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
 | **J17-A1** | US **Hormuz escort** plan **rejected** by **allies** before meaningful start; Trump **furious** (Helmer) | America / Adjacent | en | **Partial** | [Reuters Mar 16–17 — allies cautious on Hormuz escort](https://www.reuters.com/world/) · [Bloomberg Gulf Mar 17 — coalition reluctance](https://www.bloomberg.com/) · **rejection pattern Partial** · **Trump fury** = analyst desk |
-| **J17-A2** | **Firm refusals**: Japan **declined**; UK **your war**; escort **can't work** militarily (Freeman) | Adjacent | en | **Partial** | [Mar 3 **J03-E1**](statecraft/notes/wire/2026-03-03-news-verify-matrix.md) Gulf panic **Supported** · Mar 17 **explicit refusal** carry **Partial** — country-by-country **desk tier** |
+| **J17-A2** | **Firm refusals**: Japan **declined**; UK **your war**; escort **can't work** militarily (Freeman) | Adjacent | en | **Partial** | [Mar 3 **J03-E1**](2026-03-03-news-verify-matrix.md) Gulf panic **Supported** · Mar 17 **explicit refusal** carry **Partial** — country-by-country **desk tier** |
 | **J17-A3** | NATO escort as **shield racket** — Europe **won't take bait**; Denmark **maybe one ship** (Henningsen/Davis) | Adjacent | en | **Partial** | **J17-A1** **Partial** · **shield racket** = practitioner synthesis · **Denmark one ship** **Unclear** without NATO wire-primary |
-| **J17-A4** | Iran **gatekeeper** — **selective** passage (China/India/Pakistan); **drones not mines**; Western navies **stay away** (Helmer/Crooke) | Persia / Adjacent | en | **Partial** | [Mar 3 **J03-C1** Supported](statecraft/notes/wire/2026-03-03-news-verify-matrix.md) closure · **selective passage** **Partial** — tanker-tracking **desk tier** Mar 17 |
+| **J17-A4** | Iran **gatekeeper** — **selective** passage (China/India/Pakistan); **drones not mines**; Western navies **stay away** (Helmer/Crooke) | Persia / Adjacent | en | **Partial** | [Mar 3 **J03-C1** Supported](2026-03-03-news-verify-matrix.md) closure · **selective passage** **Partial** — tanker-tracking **desk tier** Mar 17 |
 
 ## Sub-seam B — Larijani assassination (Mercouris **J17-B1 – B3** · Parsi **J17-B3**)
 
@@ -53,7 +53,7 @@ WORK only; not Record.
 | --- | --- | --- | --- | --- | --- |
 | **J17-C1** | Trump **cancels/postpones** China summit — target **~Mar 31**; stays **DC** for war management (Helmer/Freeman) | America / PRC | en | **Partial** | White House / scheduling carry Mar 15–17 **Partial** · exact **Mar 31** date **desk tier** until official readout |
 | **J17-C2** | **Bessent Paris**: **10–14M bpd** Hormuz deficit; **~14 days** strategic surplus before **inflation** breaks **votes** (Helmer) | America | en | **Partial** | Treasury/IEA-adjacent **desk tier** · **20M bpd** Hormuz normal flow **Supported** from prior energy wire · **14-day runway** = Helmer arithmetic **Partial** |
-| **J17-C3** | Trump **~2-week** bet for **negotiated exit** by **~Mar 31** vs Israel **destroy Iran in 2 weeks** clock (Helmer) | America / Adjacent | en | **Supported (miss)** | **Adjudicated @ Mar 31** — [Helmer clock arc § Mar 31](../notes/arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice#mar-31-adjudication--final-verdict-calendar-close) · [Mar 31 daily](statecraft/synthesis/day/2026-03-31.md): no terms-compliant exit; Trump **drops Hormuz reopen** (WSJ/Mercouris); war **day 31–32** continues |
+| **J17-C3** | Trump **~2-week** bet for **negotiated exit** by **~Mar 31** vs Israel **destroy Iran in 2 weeks** clock (Helmer) | America / Adjacent | en | **Supported (miss)** | **Adjudicated @ Mar 31** — [Helmer clock arc § Mar 31](../notes/arc-helmer-iran-five-terms.md#two-week-clock-mar-1724-slice#mar-31-adjudication--final-verdict-calendar-close) · [Mar 31 daily](../../synthesis/day/2026-03-31.md): no terms-compliant exit; Trump **drops Hormuz reopen** (WSJ/Mercouris); war **day 31–32** continues |
 
 ## Sub-seam D — Ground invasion discourse (Mercouris **J17-D1 – D2**)
 
@@ -80,7 +80,7 @@ WORK only; not Record.
 
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
-| **J17-G1** | **Ted Postol**: Israel **defenseless**; **~30-second** warning; **AN/TPY-2** radar losses (Helmer) | America / Adjacent | en | **Partial** | Missile **leak-through** [Mar 3 **J03-B1**](statecraft/notes/wire/2026-03-03-news-verify-matrix.md) **Partial** · Postol **technical tier** · **AN/TPY-2** losses **Unclear** without IDF/US release |
+| **J17-G1** | **Ted Postol**: Israel **defenseless**; **~30-second** warning; **AN/TPY-2** radar losses (Helmer) | America / Adjacent | en | **Partial** | Missile **leak-through** [Mar 3 **J03-B1**](2026-03-03-news-verify-matrix.md) **Partial** · Postol **technical tier** · **AN/TPY-2** losses **Unclear** without IDF/US release |
 | **J17-G2** | Israel **tactical nuclear** if alternatives fail; US **opposed** (Helmer/Crooke) | America / Adjacent | en | **Unclear** | [Feb 17 bench](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) nuclear alarm **desk tier** · Mar 17 = **contingency forecast** not event |
 
 ## Sub-seam H — Domestic US / practitioner (Napolitano **J17-H1** · Davis/Henningsen **J17-H2**)
@@ -88,7 +88,7 @@ WORK only; not Record.
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
 | **J17-H1** | **Joe Kent** resignation / warning thread — **historic** break with admin war narrative (Hoh/Maté/Ritter same day) | America | en | **Partial** | Kent statement **desk/social tier** Mar 17 · **resignation fact** **Partial** until wire-primary personnel confirmation |
-| **J17-H2** | **Keane** clip: **15k** strikes; **regime collapse** mission; **no strategy** if navy degraded but Hormuz closed (Davis/Henningsen) | America | en | **Partial** | **Strike count** **desk tier** · **mission framing** = practitioner debunk · cross [Mar 24 **J24-D1**](statecraft/notes/wire/2026-03-24-news-verify-matrix.md) ground surge **forward** |
+| **J17-H2** | **Keane** clip: **15k** strikes; **regime collapse** mission; **no strategy** if navy degraded but Hormuz closed (Davis/Henningsen) | America | en | **Partial** | **Strike count** **desk tier** · **mission framing** = practitioner debunk · cross [Mar 24 **J24-D1**](2026-03-24-news-verify-matrix.md) ground surge **forward** |
 
 ## Cross-matrix carry-forward
 
@@ -113,4 +113,4 @@ WORK only; not Record.
 
 - `verify:J17-A1-partial` · `verify:J17-A2-partial` · `verify:J17-A4-partial` · `verify:J17-B1-supported` · `verify:J17-B2-partial` · `verify:J17-C1-partial` · `verify:J17-C2-partial` · `verify:J17-D1-partial` · `verify:J17-D2-unclear` · `verify:J17-F1-supported-contested` · `verify:J17-G1-partial` · `verify:J17-H1-partial`
 
-**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md) · **Updated:** 2026-06-21 (Mercouris solo pass) · **Opened:** 2026-06-21
+**Promoted via:** [`wire-verify`](../../../skills/wire-verify/SKILL.md) · **Updated:** 2026-06-21 (Mercouris solo pass) · **Opened:** 2026-06-21

@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Provenance:** **Grace-Mar SSOT** for the mapped corpus is this file. [`minds/CIV-MIND-MEARSHEIMER.md`](minds/CIV-MIND-MEARSHEIMER.md) is a **stable redirect** to this file for skills, rules, and upstream template naming. Optional diff against civ-mem: `research/repos/civilization_memory/docs/templates/CIV–MIND–MEARSHEIMER.md`.
 
-**Companion files:** [`strategy-expert-mearsheimer.md`](strategy-expert-mearsheimer.md) · [`strategy-expert-mearsheimer-thread.md`](strategy-expert-mearsheimer-thread.md) · [`strategy-expert-mearsheimer-transcript.md`](strategy-expert-mearsheimer-transcript.md)
+**Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) · [`strategy-expert-mearsheimer-thread.md`](mearsheimer-thread.md) · [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md)
 
 | Field | Value |
 |-------|-------|

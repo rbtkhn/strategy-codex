@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Pape Day 100 — Indicator Watch Sheet (Weekly Falsifier Table)
 
-**Parent:** [Pape Day 100 × New Phase × Lebanon Fuse](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [2026-06-08 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md)
+**Parent:** [Pape Day 100 × New Phase × Lebanon Fuse](2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [2026-06-08 Intake Readiness](intake/2026-06-08-intake-readiness.md)
 
 **Transaction SSOT:** [Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) (Clause D braid rows, trigger log, cushion mirror) · [Hormuz recognition transit](../persia/transactions/hormuz-recognition-transit-transaction.md) (guarantee activation downstream of gate + braid)
 
@@ -125,7 +125,7 @@ Short rule: **Jun 8 opens all three indicators in stressed or linked state — w
 | Date | Reviewer | Notes |
 |------|----------|-------|
 | 2026-06-08 | intake batch | Baseline row opened from Pape Day 100 + gate patch |
-| 2026-06-11 | indicator pass + backtest | Jun 9–11 wire/archive pass: `TRIG-CAT-01` fired; `D-HORM-01` failed; `CUSH-GATE-01` pseudo-gate risk on MOU; trap-confirmed row. Backtest § below. Parent daily: [2026-06-11.md](statecraft/synthesis/day/2026-06-11.md). |
+| 2026-06-11 | indicator pass + backtest | Jun 9–11 wire/archive pass: `TRIG-CAT-01` fired; `D-HORM-01` failed; `CUSH-GATE-01` pseudo-gate risk on MOU; trap-confirmed row. Backtest § below. Parent daily: [2026-06-11.md](../synthesis/day/2026-06-11.md). |
 
 ---
 
@@ -158,9 +158,9 @@ Short rule: **Jun 8 opens all three indicators in stressed or linked state — w
 
 ## Return Paths
 
-- [Pape arc companion](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
+- [Pape arc companion](2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
 - [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md)
-- [Marandi deal floor × gate clauses](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
-- [Davis Lebanon fulcrum × Crooke](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
-- Parent daily: [2026-06-08.md](statecraft/synthesis/day/2026-06-08.md) · [2026-06-11.md](statecraft/synthesis/day/2026-06-11.md) (MOU theater × indicator row)
+- [Marandi deal floor × gate clauses](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
+- [Davis Lebanon fulcrum × Crooke](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
+- Parent daily: [2026-06-08.md](../synthesis/day/2026-06-08.md) · [2026-06-11.md](../synthesis/day/2026-06-11.md) (MOU theater × indicator row)

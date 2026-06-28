@@ -2,14 +2,14 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 
 | Topic | Path |
 |--------|------|
-| Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
-| Check-sources roster (machine) | [channel-index.json](../../statecraft/channels/channel-index.json) |
-| Check-sources roster (human) | [channel-index.md](../../statecraft/channels/channel-index.md) |
+| Canonical source archive | [source-archive/statecraft/](../../../statecraft) |
+| Check-sources roster (machine) | [channel-index.json](../../../statecraft/channels/channel-index.json) |
+| Check-sources roster (human) | [channel-index.md](../../../statecraft/channels/channel-index.md) |
 | Roster loader | [statecraft_youtube_discovery.py](../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
 | Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
 | Legacy check-streams stub | [check-streams/SKILL.md](../check-streams/SKILL.md) |
-| Legacy raw-input tree (staging) | [docs/skill-work/work-strategy/strategy-notebook/raw-input/](../../../docs/skill-work/work-strategy/strategy-notebook/raw-input/) |
+| Legacy raw-input tree (staging) | [docs/skill-work/work-strategy/strategy-notebook/raw-input/](../../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) |
 | Analyst shelves | [statecraft/voices/](../../../statecraft/voices/) |
 | Channel shelves | [statecraft/channels/](../../../statecraft/channels/) |
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |

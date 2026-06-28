@@ -7,7 +7,7 @@
 |-------|--------|
 | **Project status** | `active` |
 | **Active chapter** | `2026-04` (dense spine) · **`2026-06` bootstrapped** ([`chapters/2026/2026-06/days.md`](chapters/2026/2026-06/days.md)) |
-| **Last substantive entry** | `2026-06-21` — **`## 2026-06-21`** in [`chapters/2026/2026-06/days.md`](chapters/2026/2026-06/days.md#2026-06-21): Ritter Substack *[A Trail of Tears](https://scottritter.substack.com/p/a-trail-of-tears)* fold + **Starobilsk May 22 Ukrainian terrorist attack — `verify:tier-A` operator-confirmed** (Rubicon-HQ allegation **contradicted**); archive [`source-ritter-a-trail-of-tears-2026-06-19.md`](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md). Prior: **`## 2026-04-19`** in [`chapters/2026-04/days.md`](chapters/2026-04/days.md#2026-04-19). |
+| **Last substantive entry** | `2026-06-21` — **`## 2026-06-21`** in [`chapters/2026/2026-06/days.md`](chapters/2026/2026-06/days.md#2026-06-21): Ritter Substack *[A Trail of Tears](https://scottritter.substack.com/p/a-trail-of-tears)* fold + **Starobilsk May 22 Ukrainian terrorist attack — `verify:tier-A` operator-confirmed** (Rubicon-HQ allegation **contradicted**); archive [`source-ritter-a-trail-of-tears-2026-06-19.md`](../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md). Prior: **`## 2026-04-19`** in [`chapters/2026-04/days.md`](chapters/2026/2026-04/days.md#2026-04-19). |
 | **Prepared stub** | _Optional_ — only if you use calendar stubs; otherwise capture in [daily-strategy-inbox.md](daily-strategy-inbox.md) and **weave** when you run **`strategy`** / explicit **`weave`** / **`fold`** (legacy) |
 | **Daily inbox** | [daily-strategy-inbox.md](daily-strategy-inbox.md) — **SSOT** (cadence + paste-ready lines); weave/prune → [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox* |
 | **Expert predictions ledger** | [strategy-expert-predictions.md](strategy-expert-predictions.md) — optional **`pred_id`** adjudication rows + **2026** `topic_slug` registry (WORK; not Record) |
@@ -29,7 +29,7 @@ Calendar **`## YYYY-MM`** blocks in **`strategy-expert-*-thread.md`** (inside th
 
 ## Next actions
 
-1. When adding new work, append a **`## YYYY-MM-DD`** block (or an episodic `##` section) at the bottom of [`chapters/2026-04/days.md`](chapters/2026-04/days.md) **if** that helps your continuity—thin or pointer-only is fine; primary work may live in expert pages + inbox (see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily length and prose*). Bump **Last substantive entry** here when you touch the notebook spine.
+1. When adding new work, append a **`## YYYY-MM-DD`** block (or an episodic `##` section) at the bottom of [`chapters/2026-04/days.md`](chapters/2026/2026-04/days.md) **if** that helps your continuity—thin or pointer-only is fine; primary work may live in expert pages + inbox (see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily length and prose*). Bump **Last substantive entry** here when you touch the notebook spine.
 2. Refresh this file when the active month changes or after notable closes.
 
 

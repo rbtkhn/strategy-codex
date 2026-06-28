@@ -24,7 +24,6 @@ WORK only; not Record.
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-02-05/source-crooke-the-slow-epstein-earthquake-the-rupture-2026-02-05.md](../../../years/2026/provenance/2026-02-05/source-crooke-the-slow-epstein-earthquake-the-rupture-2026-02-05.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `thread:crooke`, 2026-02-05)
+- **Full verbatim (capture):** [provenance/2026-02-05/source-crooke-the-slow-epstein-earthquake-the-rupture-2026-02-05.md](../../../source-archive/statecraft/2026-02-05/source-crooke-the-slow-epstein-earthquake-the-rupture-2026-02-05.md)
 - **`thread:crooke`** · **verify:** primary capture on disk + `pub_date` + inbox row; Conflicts Forum tier as analyst commentary unless wire-backed.
 - **Canonical primary:** https://conflictsforum.substack.com/p/the-slow-epstein-earthquake-the-rupture

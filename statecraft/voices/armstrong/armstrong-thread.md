@@ -14,12 +14,12 @@ Quick separation rule:
 
 If a question is about host transformation or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Armstrong structure now lives in [armstrong-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-speaker-object.md), [armstrong-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-cross-host-note.md), and the mature [arc-armstrong-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-armstrong-nima-host.md). Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Armstrong structure now lives in [armstrong-speaker-object.md](armstrong-speaker-object.md), [armstrong-cross-host-note.md](armstrong-cross-host-note.md), and the mature [arc-armstrong-nima-host.md](../../notes/arc-armstrong-nima-host.md). Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`strategy-expert-armstrong-transcript.md`](strategy-expert-armstrong-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`strategy-expert-armstrong-transcript.md`](armstrong-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-armstrong.md`](strategy-expert-armstrong.md) (profile) and [`strategy-expert-armstrong-transcript.md`](strategy-expert-armstrong-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-armstrong.md`](armstrong-profile.md) (profile) and [`strategy-expert-armstrong-transcript.md`](armstrong-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -135,9 +135,9 @@ The `armstrong` laneÃ¢â‚¬â„¢s role (Cycle / timing models (Socrates-st
 <!-- backfill:armstrong:end -->
 ## 2026-04
 
-_Partial month Ã¢â‚¬â€ **machine layer** still empty until `thread:` ingests land in [`strategy-expert-armstrong-transcript.md`](strategy-expert-armstrong-transcript.md); **April** `armstrong-cash-hormuz-digital-dollar-arc` Page carries the **04-14** cash / Hormuz-mood / digital-dollar synthesis. **Optional 04-17 satellite** (negotiation-trust posts) is threaded per **C + E** below Ã¢â‚¬â€ see Page **Optional satellite** block for when to couple._
+_Partial month Ã¢â‚¬â€ **machine layer** still empty until `thread:` ingests land in [`strategy-expert-armstrong-transcript.md`](armstrong-transcript.md); **April** `armstrong-cash-hormuz-digital-dollar-arc` Page carries the **04-14** cash / Hormuz-mood / digital-dollar synthesis. **Optional 04-17 satellite** (negotiation-trust posts) is threaded per **C + E** below Ã¢â‚¬â€ see Page **Optional satellite** block for when to couple._
 
-**Cross-thread weave (C Ã¢â‚¬â€ batch-analysis discipline).** **2026-04-17** `@ArmstrongEcon` adds a **fourth register** on **who sits at the table** for U.S.Ã¢â‚¬â€œIran diplomacy: **Pakistan** as **proliferation analogy** (reassurance) and a **hard** line on **Kushner**, **Witkoff**, and **VanceÃ¢â‚¬â„¢s** team as **unfit** / **Ã¢â‚¬Å“ethnically compromisedÃ¢â‚¬Â** in a **Ã¢â‚¬Å“religious war.Ã¢â‚¬Â** That is **not** the same speech function as **`thread:barnes`**Ã¢â‚¬â„¢s **White House process** read (Trump **yanks** VanceÃ¢â‚¬â„¢s **Driscoll** / StateÃ¢â‚¬â€œDefense lane for **WitkoffÃ¢â‚¬â€œKushner** Ã¢â‚¬â€ [verbatim](source-countercurrent-2026-04-17-verbatim-2026-04-17.md)) or **`thread:davis`** Ãƒâ€” **`mearsheimer`**Ã¢â‚¬â„¢s **structural** label (**NetanyahuÃ¢â‚¬â€œKushner/Witkoff** **channel** in [`days.md`](chapters/2026-04/days.md)). **`thread:marandi`** stays **Tehran-facing** (**Vance** / **Netanyahu** phone) without endorsing ArmstrongÃ¢â‚¬â„¢s **personnel/ethnicity** mechanism. **Weave rule:** same **IslamabadÃ¢â‚¬â€œHormuz week object**, **four tiers** Ã¢â‚¬â€ **Armstrong** = **provocation + analogy** (tier: social, verify before Links); **Barnes** = **executiveÃ¢â‚¬â€œstaff sabotage** hypothesis; **Davis/Mearsheimer** = **bargaining geometry**; **Marandi** = **IRI legitimacy register**. **Do not** one-line merge into one **Judgment** bullet.
+**Cross-thread weave (C Ã¢â‚¬â€ batch-analysis discipline).** **2026-04-17** `@ArmstrongEcon` adds a **fourth register** on **who sits at the table** for U.S.Ã¢â‚¬â€œIran diplomacy: **Pakistan** as **proliferation analogy** (reassurance) and a **hard** line on **Kushner**, **Witkoff**, and **VanceÃ¢â‚¬â„¢s** team as **unfit** / **Ã¢â‚¬Å“ethnically compromisedÃ¢â‚¬Â** in a **Ã¢â‚¬Å“religious war.Ã¢â‚¬Â** That is **not** the same speech function as **`thread:barnes`**Ã¢â‚¬â„¢s **White House process** read (Trump **yanks** VanceÃ¢â‚¬â„¢s **Driscoll** / StateÃ¢â‚¬â€œDefense lane for **WitkoffÃ¢â‚¬â€œKushner** Ã¢â‚¬â€ [verbatim](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)) or **`thread:davis`** Ãƒâ€” **`mearsheimer`**Ã¢â‚¬â„¢s **structural** label (**NetanyahuÃ¢â‚¬â€œKushner/Witkoff** **channel** in [`days.md`](../../../codex/chapters/2026/2026-04/days.md)). **`thread:marandi`** stays **Tehran-facing** (**Vance** / **Netanyahu** phone) without endorsing ArmstrongÃ¢â‚¬â„¢s **personnel/ethnicity** mechanism. **Weave rule:** same **IslamabadÃ¢â‚¬â€œHormuz week object**, **four tiers** Ã¢â‚¬â€ **Armstrong** = **provocation + analogy** (tier: social, verify before Links); **Barnes** = **executiveÃ¢â‚¬â€œstaff sabotage** hypothesis; **Davis/Mearsheimer** = **bargaining geometry**; **Marandi** = **IRI legitimacy register**. **Do not** one-line merge into one **Judgment** bullet.
 
 **Page tie-in (E).** The **04-14** Page is **money / statute / Gulf-origin fertilizer mood** Ã¢â‚¬â€ not **negotiator roster** facts. **Only** fold **04-17** Armstrong lines into `armstrong-cash-hormuz-digital-dollar-arc` when a weave **explicitly** couples **negotiation-trust** or **Ã¢â‚¬Å“who speaks for WashingtonÃ¢â‚¬Â** mood to the **war-economy + payment-plumbing** arc; **default** is **orthogonal** satellite (Page body).
 
@@ -189,8 +189,8 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `armstrong-cash-hormuz-digital-dollar-arc` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `armstrong-cash-hormuz-digital-dollar-arc` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -203,7 +203,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ### Lineage
 
-- **Ingest:** Operator **Cursor session weave** (option **D**) Ã¢â‚¬â€ not gated on a single [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) paste line; **optional follow-up:** add a cold line + `batch-analysis` tail if this arc is folded into the inbox accumulator.
+- **Ingest:** Operator **Cursor session weave** (option **D**) Ã¢â‚¬â€ not gated on a single [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) paste line; **optional follow-up:** add a cold line + `batch-analysis` tail if this arc is folded into the inbox accumulator.
 - **Indexed expert threads (`thread:<expert_id>`):** **none** for this page Ã¢â‚¬â€ provocation is **social + documentary** sources, not a named **strategy-commentator** transcript row. Same-day **Hormuz** work on **2026-04-14** uses **`thread:ritter`**, **`thread:davis`**, **`thread:jermy`**, etc.; this page is a **different plane** (money, statute, attribution).
 - **Analytical lenses (work-strategy mind files Ã¢â‚¬â€ not `thread:` experts):** [CIV-MIND-BARNES.md](../../../minds/CIV-MIND-BARNES.md) (statute, Federal Reserve Act, Congress as chokepoint), [CIV-MIND-MERCOURIS.md](../../../minds/CIV-MIND-MERCOURIS.md) (legitimacy of cash, civilizational Ã¢â‚¬Å“storyÃ¢â‚¬Â of money), [CIV-MIND-MEARSHEIMER.md](../../../minds/CIV-MIND-MEARSHEIMER.md) (who gains if retail central-bank digital currency stalls while private digital dollars advance).
 - **Source objects woven:** **Martin Armstrong** posts on X (`@ArmstrongEcon`) Ã¢â‚¬â€ **emotional / percentage** provocation (cash vs digital split; adjacent commodity claims); **Larry Fink / BlackRock** Ã¢â‚¬â€ chairman letters and public interviews on **tokenization** and **market plumbing** (primary pulls in Links); **U.S. Congress** Ã¢â‚¬â€ stablecoin and retail central-bank digital currency bills (text in Links); **Statista** (citing **Signal Group**) Ã¢â‚¬â€ **Arabian Gulf** share of **seaborne fertilizer** exports (definition: **origin**, not automatically **Strait of Hormuz transit**).
@@ -214,7 +214,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 | Page | Relation |
 |------|-----------|
-| `ritter-blockade-hormuz-weave` | **Hormuz** expert mechanics Ã¢â‚¬â€ **orthogonal** to this pageÃ¢â‚¬â„¢s **U.S. payment-law** arc; **fertilizer** language may **overlap in mood** with **`jermy`** cascade lines in [`days.md`](../days.md), not as proof of the same **quantity**. |
+| `ritter-blockade-hormuz-weave` | **Hormuz** expert mechanics Ã¢â‚¬â€ **orthogonal** to this pageÃ¢â‚¬â„¢s **U.S. payment-law** arc; **fertilizer** language may **overlap in mood** with **`jermy`** cascade lines in [`days.md`](../../../codex/chapters/2026/2026-04/days.md), not as proof of the same **quantity**. |
 
 ### References
 
@@ -229,7 +229,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 **Not** load-bearing for the **2026-04-14** thesis above (cash / statute / Gulf-origin fertilizer definition; **BlackRock** / **Congress** primaries). A **separate** pair of X posts from Martin Armstrong raises **PakistanÃ¢â‚¬â€œnuclear analogy**, attacks **Kushner** and **Witkoff** as negotiators (with **Vance** named), and uses **Ã¢â‚¬Å“religious warÃ¢â‚¬Â** framing.
 
-**Tie to this page only** when an operator weave **explicitly** couples **negotiation-trust**, **personnel mood**, or **Ã¢â‚¬Å“who speaks for WashingtonÃ¢â‚¬Â** to the **war-economy + payment-plumbing** arc. **Default:** keep that content on the **`thread:armstrong`** journal in [`strategy-expert-armstrong-thread.md`](../../../strategy-expert-armstrong-thread.md) and use **expert crosses** (`barnes`, `davis`, `mearsheimer`, `marandi`) Ã¢â‚¬â€ **do not** merge **fertilizer share**, **bill text**, or **Fink** lines with those **X** claims without a **labeled seam**. Pin **exact** status URL(s) / screenshot if this satellite is cited outside WORK.
+**Tie to this page only** when an operator weave **explicitly** couples **negotiation-trust**, **personnel mood**, or **Ã¢â‚¬Å“who speaks for WashingtonÃ¢â‚¬Â** to the **war-economy + payment-plumbing** arc. **Default:** keep that content on the **`thread:armstrong`** journal in [`strategy-expert-armstrong-thread.md`](armstrong-thread.md) and use **expert crosses** (`barnes`, `davis`, `mearsheimer`, `marandi`) Ã¢â‚¬â€ **do not** merge **fertilizer share**, **bill text**, or **Fink** lines with those **X** claims without a **labeled seam**. Pin **exact** status URL(s) / screenshot if this satellite is cited outside WORK.
 
 ---
 <!-- strategy-page:end -->

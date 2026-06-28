@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # Lebanon Enforcement × MOU Art. 1 — Contested Ceasefire Fork — 2026-06-19
 
-**Archive batch:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) (11 captures) · **Parent:** [2026-06-19 daily](statecraft/synthesis/day/2026-06-19.md) · **Wire matrix:** [2026-06-19](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#lebanon-enforcement-fork-j17-4--j19-4--j19-5--j19-9)
+**Archive batch:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) (11 captures) · **Parent:** [2026-06-19 daily](../synthesis/day/2026-06-19.md) · **Wire matrix:** [2026-06-19](wire/2026-06-19-news-verify-matrix.md#lebanon-enforcement-fork-j17-4--j19-4--j19-5--j19-9)
 
-**Prior spine:** [Jun 17 — Forward defense × Art. 1 (Pape × Parsi)](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · [Jun 14 — Nima host arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md) · [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+**Prior spine:** [Jun 17 — Forward defense × Art. 1 (Pape × Parsi)](2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · [Jun 14 — Nima host arc](2026-06-14-lebanon-enforcement-nima-host-arc.md) · [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
 **Sources (Jun 19 — hook-dense):**
 
@@ -115,9 +115,9 @@ Do **not** merge: **brokered ceasefire ≠ Art. 1 implemented ≠ forward-defens
 
 ## Return paths
 
-- [Jun 17 — Forward defense × Art. 1 (Pape × Parsi)](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
-- [Jun 19 wire matrix — Lebanon fork](statecraft/notes/wire/2026-06-19-news-verify-matrix.md#lebanon-enforcement-fork-j17-4--j19-4--j19-5--j19-9)
-- [Jun 19 parent daily — MOU implementation suspension](statecraft/synthesis/day/2026-06-19.md)
+- [Jun 17 — Forward defense × Art. 1 (Pape × Parsi)](2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
+- [Jun 19 wire matrix — Lebanon fork](wire/2026-06-19-news-verify-matrix.md#lebanon-enforcement-fork-j17-4--j19-4--j19-5--j19-9)
+- [Jun 19 parent daily — MOU implementation suspension](../synthesis/day/2026-06-19.md)
 - [Persia — Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - Archive `verify:` — [Davis](../../source-archive/statecraft/2026-06-19/source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md) · [Marandi×Johnson](../../source-archive/statecraft/2026-06-19/source-dialogue-works-seyed-m-marandi-larry-johnson-iran-shuts-down-geneva-talks-mou-2026-06-19.md)
 

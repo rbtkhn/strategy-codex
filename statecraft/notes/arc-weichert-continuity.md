@@ -47,16 +47,16 @@ Strongest current motion:
 
 ### May 2026 — opening grammar
 
-- [2026-05-17 / systems war / restart](../../../source-archive/statecraft/2026-05-17/source-mario-nawfal-weichert-russia-ukraine-escalating-iran-war-restarting-2026-05-17.md) — WWIII gray-zone opening; Ukraine–Iran as single conflict frame
-- [2026-05-21 / strategic defeat / Gulf veto](../../../source-archive/statecraft/2026-05-21/source-mario-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md) — Trump miscalculation; Gulf veto and dominance read
-- [2026-05-24 / deal collapse / patch-not-deal](../../../source-archive/statecraft/2026-05-24/source-mario-nawfal-weichert-trump-iran-deal-collapsing-2026-05-24.md) — ceasefire grammar failure; patch-not-deal rhythm
-- [2026-05-31 / rearm-not-deal](../../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md) — 60-day MOU as market/strategic positioning; rearm-not-deal climax of May ladder
+- [2026-05-17 / systems war / restart](../../source-archive/statecraft/2026-05-17/source-mario-nawfal-weichert-russia-ukraine-escalating-iran-war-restarting-2026-05-17.md) — WWIII gray-zone opening; Ukraine–Iran as single conflict frame
+- [2026-05-21 / strategic defeat / Gulf veto](../../source-archive/statecraft/2026-05-21/source-mario-nawfal-weichert-trump-miscalculated-iran-war-2026-05-21.md) — Trump miscalculation; Gulf veto and dominance read
+- [2026-05-24 / deal collapse / patch-not-deal](../../source-archive/statecraft/2026-05-24/source-mario-nawfal-weichert-trump-iran-deal-collapsing-2026-05-24.md) — ceasefire grammar failure; patch-not-deal rhythm
+- [2026-05-31 / rearm-not-deal](../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md) — 60-day MOU as market/strategic positioning; rearm-not-deal climax of May ladder
 
 ### June 2026 — fracture and dominance
 
-- [2026-06-02 / Trump fed up / hostilities resume](../../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md) — frozen-conflict burst; Palantir panopticon / Israel testbed seam
-- [2026-06-05 / NDAA–CIA merge + Utah/Minab](../../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) — institutional lock-in; AI surveillance cover and kill-chain automation
-- [2026-06-08 / command fracture](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md) — junior-partner thesis under live defiance; escalation dominance and Iranian strategic W read
+- [2026-06-02 / Trump fed up / hostilities resume](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md) — frozen-conflict burst; Palantir panopticon / Israel testbed seam
+- [2026-06-05 / NDAA–CIA merge + Utah/Minab](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) — institutional lock-in; AI surveillance cover and kill-chain automation
+- [2026-06-08 / command fracture](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md) — junior-partner thesis under live defiance; escalation dominance and Iranian strategic W read
 
 The mature center of gravity is **late May through 2026-06-08**: rearm-not-deal positioning hardens into command fracture and an explicit Iran escalation-dominance verdict.
 
@@ -85,16 +85,16 @@ Do not open Weichert first for wire-grade ORBAT, neutral process memo, or Irania
 
 If the operator needs one arc entry:
 
-- open [2026-06-08 / command fracture](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
+- open [2026-06-08 / command fracture](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
 
 If the operator needs the May ladder before June climax:
 
-- open [2026-05-31 / rearm-not-deal](../../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md)
-- then [2026-06-08 / command fracture](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
+- open [2026-05-31 / rearm-not-deal](../../source-archive/statecraft/2026-05-31/source-mario-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md)
+- then [2026-06-08 / command fracture](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md)
 
 If the operator needs AI architecture on the same arc:
 
-- open [weichert-on-ai.md](../../notes/weichert-on-ai.md) after [2026-06-05](../../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) or [2026-06-02](../../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md)
+- open [weichert-on-ai.md](../../notes/weichert-on-ai.md) after [2026-06-05](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) or [2026-06-02](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md)
 
 ## Boundary
 

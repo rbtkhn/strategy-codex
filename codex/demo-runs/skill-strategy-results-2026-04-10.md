@@ -4,7 +4,7 @@
 > **Frozen audit (2026-04-10).** **Tri-frame** Phase 4 scores are **historical** — choreography deprecated per [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Do not treat **Pass** on tri-frame as current routing.
 
 **Source playbook:** [`../notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md`](../notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md)  
-**Primary notebook surface:** [`../chapters/2026-04/days.md`](../chapters/2026-04/days.md) — section `### DEMO — skill-strategy calibration (2026-04-10 session)`
+**Primary notebook surface:** [`../chapters/2026-04/days.md`](../chapters/2026/2026-04/days.md) — section `### DEMO — skill-strategy calibration (2026-04-10 session)`
 
 ---
 

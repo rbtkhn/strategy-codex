@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Use this sheet when the notebook needs to compare speakers by credibility rather than by agreement, usefulness, or rhetorical force.
 
-This file is doctrinal only. For live speaker trust classes, claim-by-claim scoring, and the operational workflow, move into [statecraft/audits/README.md](/C:/dev/strategy-codex/statecraft/audits/README.md) and [speaker-audit-workflow.md](/C:/dev/strategy-codex/statecraft/audits/speaker-audit-workflow.md).
+This file is doctrinal only. For live speaker trust classes, claim-by-claim scoring, and the operational workflow, move into [statecraft/audits/README.md](../audits/README.md) and [speaker-audit-workflow.md](../audits/speaker-audit-workflow.md).
 
 The key premise is simple:
 
@@ -163,7 +163,7 @@ When this sheet has clarified the standard, use the live audit workflow in this 
 4. select bounded claims
 5. assign accuracy status with testability weight
 
-That workflow is operationalized in [statecraft/audits/speaker-audit-workflow.md](/C:/dev/strategy-codex/statecraft/audits/speaker-audit-workflow.md).
+That workflow is operationalized in [statecraft/audits/speaker-audit-workflow.md](../audits/speaker-audit-workflow.md).
 
 ## Comparison Prompts
 

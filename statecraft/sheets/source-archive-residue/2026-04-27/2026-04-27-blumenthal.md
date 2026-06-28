@@ -7,7 +7,7 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/blumenthal/
 ---
 
 ## 2026-04-27
-- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
+- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](../../../../source-archive/statecraft/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
 
 
 

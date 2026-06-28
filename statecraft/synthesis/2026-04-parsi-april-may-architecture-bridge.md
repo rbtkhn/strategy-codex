@@ -2,18 +2,18 @@ WORK only; not Record.
 
 # Parsi April→May Architecture Bridge — Ceasefire Design to Blockade Failure
 
-**Ledger:** [parsi-forecast-ledger-2025-2026](../voices/parsi/parsi-forecast-ledger-2025-2026.md) · **Parent month:** [2026-04.md](statecraft/synthesis/month/2026-04.md) · **Downstream month:** [2026-05.md](statecraft/synthesis/month/2026-05.md)
+**Ledger:** [parsi-forecast-ledger-2025-2026](../voices/parsi/parsi-forecast-ledger-2025-2026.md) · **Parent month:** [2026-04.md](month/2026-04.md) · **Downstream month:** [2026-05.md](month/2026-05.md)
 
 **Sources (Parsi Substack — operator paste):**
 
-- [2026-04-08 Unlikely Ceasefire](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-08/source-parsi-what-on-earth-just-happened-trump-iran-and-the-unlikely-ceasefire-2026-04-08.md>)
-- [2026-04-12 Blockade Threat](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-12/source-parsi-bluster-or-genuine-economic-suicide-trumps-naval-blockade-threat-against-iran-2026-04-12.md>)
-- [2026-05-01 Blockade Failure](</C:/dev/strategy-codex/source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md>)
+- [2026-04-08 Unlikely Ceasefire](<../../source-archive/statecraft/2026-04-08/source-parsi-what-on-earth-just-happened-trump-iran-and-the-unlikely-ceasefire-2026-04-08.md>)
+- [2026-04-12 Blockade Threat](<../../source-archive/statecraft/2026-04-12/source-parsi-bluster-or-genuine-economic-suicide-trumps-naval-blockade-threat-against-iran-2026-04-12.md>)
+- [2026-05-01 Blockade Failure](<../../source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md>)
 
 **Archive stress-test anchors (same arc, different speakers):**
 
-- [2026-04-17](statecraft/synthesis/day/2026-04-17.md) conflicting Hormuz messages
-- [2026-04-20](statecraft/synthesis/day/2026-04-20.md) collapse-ahead + Islamabad derail
+- [2026-04-17](day/2026-04-17.md) conflicting Hormuz messages
+- [2026-04-20](day/2026-04-20.md) collapse-ahead + Islamabad derail
 
 ## Purpose
 
@@ -108,7 +108,7 @@ May 1    → blockade executes; FDD failure; victory squandered (Parsi label)
 
 ## Best Next Uses
 
-- **May genesis pointer:** [2026-05.md](statecraft/synthesis/month/2026-05.md) Source Base — April bridge + this statecraft note wired to May 1 Parsi anchor.
-- **May statecraft notes:** Pair with [2026-05.md](statecraft/synthesis/month/2026-05.md) command-unreliability month object — Parsi = architecture leg, not substitute for daily ladder.
+- **May genesis pointer:** [2026-05.md](month/2026-05.md) Source Base — April bridge + this statecraft note wired to May 1 Parsi anchor.
+- **May statecraft notes:** Pair with [2026-05.md](month/2026-05.md) command-unreliability month object — Parsi = architecture leg, not substitute for daily ladder.
 - **Ledger maintenance:** Keep [parsi-forecast-ledger](../voices/parsi/parsi-forecast-ledger-2025-2026.md) as SSOT pointer; this note = April→May arc statecraft note only.
 - **Attribution:** Parsi = Substack authored tier; cross-check AP/official bundles before promotion to wire-grade claims.

@@ -32,31 +32,31 @@ memory → legitimacy → carrier → pressure → settlement
 | **Civilizational motion** | Three-beat rhythm — beautify, amplify, degrade |
 | **civ-state** | GitHub repo slug only — not a reader title |
 
-See [Reader Guide](docs/reader-guide.md#names-and-titles) and [Glossary](docs/glossary.md).
+See [Reader Guide](docs/reader-guide.md#names-and-titles) and [Glossary](../../../docs/glossary.md).
 
 ## Start here
 
 1. [Civilization and Empire](docs/introduction.md)
 2. [Table of Contents](docs/table-of-contents.md)
 3. [Reader Guide](docs/reader-guide.md)
-4. [Sources](sources/README.md) — source-lattice and era shelves
-5. [Volume Map](volumes/README.md)
+4. [Sources](../../../README.md) — source-lattice and era shelves
+5. [Volume Map](../../../README.md)
 
 ## Reading order
 
 Read civilization-state cases in this order:
 
-1. [China](volumes/china/README.md)
-2. [Persia](volumes/persia/README.md)
-3. [Rome](volumes/rome/README.md) — preview volume; see volume README
-4. [Russia](volumes/russia/README.md)
-5. [America](volumes/america/README.md)
+1. [China](../../../README.md)
+2. [Persia](../../../README.md)
+3. [Rome](../../../README.md) — preview volume; see volume README
+4. [Russia](../../../README.md)
+5. [America](../../../README.md)
 
 Within each volume: **volume introduction** (thematic title) → **Civilization** chapter → **Empire** chapter → optional sub-lenses. Begin the whole work with [Civilization and Empire](docs/introduction.md), not a volume introduction.
 
 ## Whole-work apparatus
 
-- [Theory shelf](theory/README.md)
+- [Theory shelf](../../../README.md)
 - **Governing terms:** [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md) · [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](theory/memory.md)
 - **Motion and era law:** [Rhythm](theory/rhythm.md) · [Time](theory/time.md)
 - [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
@@ -67,10 +67,10 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 - [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus
-- [Docs](docs/README.md) — [book architecture](docs/book-architecture.md) · [names and titles](docs/names-and-titles.md) · [era spine](docs/era-spine.md) · [release history](docs/release-history.md)
-- [Skills](skills/README.md) · [Sources](sources/README.md)
-- [Sacred grammar (volume-local)](docs/reader-guide.md#sacred-grammar-volume-local) · [Volume Map](volumes/README.md)
-- [Glossary](docs/glossary.md) · [Hybrid references](docs/hybrid-references.md) · [Index](docs/index.md)
+- [Docs](../../../docs/README.md) — [book architecture](docs/book-architecture.md) · [names and titles](docs/names-and-titles.md) · [era spine](docs/era-spine.md) · [release history](docs/release-history.md)
+- [Skills](../../../skills/README.md) · [Sources](../../../README.md)
+- [Sacred grammar (volume-local)](docs/reader-guide.md#sacred-grammar-volume-local) · [Volume Map](../../../README.md)
+- [Glossary](../../../docs/glossary.md) · [Hybrid references](docs/hybrid-references.md) · [Index](docs/index.md)
 
 ## Provenance
 

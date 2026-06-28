@@ -19,7 +19,7 @@ The local archive now holds:
 - `1` of those is a `Daniel Davis Deep Dive + Mearsheimer` capture
 - `1` of those is a `Counterpoints / Al Arabiya` speaker-adjacent interview object
 
-Against the live month rollup at [2025-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04.md), that means:
+Against the live month rollup at [2025-04.md](../../source-archive/statecraft/2025-04.md), that means:
 
 - `57` source files total in the month
 - `6` Mearsheimer-thread captures total
@@ -34,10 +34,10 @@ So April should no longer be read as a barely represented Mearsheimer month. It 
 
 The currently landed `Judging Freedom / Napolitano + Mearsheimer` April captures are:
 
-- `2025-04-03` - [ukraine-cannot-survive](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md)
-- `2025-04-10` - [trump-netanyahu-and-iran](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
-- `2025-04-17` - [china-and-trade](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md)
-- `2025-04-24` - [can-ukraine-and-israel-embrace-peace](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-24/source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
+- `2025-04-03` - [ukraine-cannot-survive](../../source-archive/statecraft/2025-04-03/source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md)
+- `2025-04-10` - [trump-netanyahu-and-iran](../../source-archive/statecraft/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
+- `2025-04-17` - [china-and-trade](../../source-archive/statecraft/2025-04-17/source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md)
+- `2025-04-24` - [can-ukraine-and-israel-embrace-peace](../../source-archive/statecraft/2025-04-24/source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
 
 The key change from the opening watchlist is that April no longer depends on one direct Napolitano anchor plus speculative recovery claims. It now has a visible four-item lane across early, mid, and late April.
 
@@ -50,7 +50,7 @@ Two date-truth details should remain explicit:
 
 April also has one real `Daniel Davis Deep Dive + Mearsheimer` reinforcement object:
 
-- `2025-04-09` - [trade-tensions-explode-trump-v-china](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md)
+- `2025-04-09` - [trade-tensions-explode-trump-v-china](../../source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md)
 
 That matters because it keeps April from being a pure single-format Mearsheimer month. The month is still thin, but it is not thin in only one host lane.
 
@@ -58,7 +58,7 @@ That matters because it keeps April from being a pure single-format Mearsheimer 
 
 April also retains one non-Napolitano speaker-adjacent Mearsheimer anchor:
 
-- `2025-04-01` - [ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md)
+- `2025-04-01` - [ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations](../../source-archive/statecraft/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md)
 
 That object should not be collapsed into the Napolitano lane, but it does strengthen April’s month truth by showing Mearsheimer presence outside the main recovered host family.
 

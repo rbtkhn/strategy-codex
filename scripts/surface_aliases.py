@@ -57,12 +57,11 @@ SURFACES: Dict[str, SurfaceDef] = {
         legacy_keys=("skills",),
         legacy_file_stems=("skills",),
     ),
-    "self_archive": SurfaceDef(
-        canonical_key="self_archive",
+    "self_archive/placeholders/evidence": SurfaceDef(
+        canonical_key="self_archive/placeholders/evidence",
         canonical_file_stem="self-archive",
         display_name="Evidence",
-        legacy_keys=("evidence", "archive"),
-        # body is self-archive.md; self-evidence.md is optional pointer (handled in repo_io resolve)
+        legacy_keys=("self_archive", "evidence", "archive", "archive/placeholders/evidence"),
         legacy_file_stems=(),
     ),
     "self_memory": SurfaceDef(

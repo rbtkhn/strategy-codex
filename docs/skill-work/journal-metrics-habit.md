@@ -1,6 +1,6 @@
 # Journal metrics habit (operator WORK)
 
-**Scope:** Optional **telemetry on journaling practice** for [dev-notebook/work-dev/journal](work-dev/dev-notebook/work-dev/journal/README.md) and [cici-notebook](work-cici/cici-notebook/README.md). **Not** Record truth, not gated merges, not a second history file (see [work-dev-history.md](work-dev/work-dev-history.md) / [work-cici-history.md](work-cici/work-cici-history.md)).
+**Scope:** Optional **telemetry on journaling practice** for [dev-notebook/work-dev/journal](work-dev/dev-notebook/work-dev/journal/README.md) and [cici-notebook](../../README.md). **Not** Record truth, not gated merges, not a second history file (see [work-dev-history.md](work-dev/work-dev-history.md) / [work-cici-history.md](work-cici/work-cici-history.md)).
 
 **Principle:** Measure **learning velocity, friction, and follow-through** without turning journals into milestone logs or long dashboards. Entries stay **short**; metrics stay **light**.
 

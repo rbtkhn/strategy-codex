@@ -39,7 +39,7 @@ v1 receipts are **file-local**. Field names are chosen so a future adapter can m
 
 ## Doctrine
 
-- **No promotion** to Record, SELF, EVIDENCE, or `bot/prompt.py` from receipts. See [runtime-vs-record.md](../../../runtime-vs-record.md), [AGENTS.md](../../../../AGENTS.md).
+- **No promotion** to Record, SELF, EVIDENCE, or `bot/prompt.py` from receipts. See [runtime-vs-record.md](../../../runtime-vs-record.md), [AGENTS.md](../AGENTS.md).
 
 ## Links
 

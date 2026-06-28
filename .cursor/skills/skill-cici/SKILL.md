@@ -13,7 +13,7 @@ scope_class: repo-governed
 
 **Purpose:** Run a **consistent daily (or session) learning log** for **Open Brain (OB1)**, the **[Cici](https://github.com/Xavier-x01/Cici)** instance repo, and **BrewMind** — without confusing **WORK coaching** with **Record** or **gate** merges.
 
-**Canonical prose + automation spec (grace-mar):** [docs/skill-work/work-cici/cici-notebook/README.md](../../../docs/skill-work/work-cici/cici-notebook/README.md) · [SYNTHESIS-SOURCES.md](../../../docs/skill-work/work-cici/cici-notebook/SYNTHESIS-SOURCES.md).
+**Canonical prose + automation spec (grace-mar):** [docs/skill-work/work-cici/cici-notebook/README.md](../../../README.md) · [SYNTHESIS-SOURCES.md](../../../docs/skill-work/work-cici/cici-notebook/SYNTHESIS-SOURCES.md).
 
 ---
 
@@ -66,12 +66,12 @@ If **L1 (commits)** and **L2 (notes)** disagree, do not force resolution: add a 
 
 **Steps**
 
-1. **Optional rolling capture** during the day: append to [daily-cici-notebook-inbox.md](../../../docs/skill-work/work-cici/cici-notebook/daily-cici-notebook-inbox.md). At **`dream`**, fold into `inbox/YYYY-MM-DD.md` (see [inbox README](../../../docs/skill-work/work-cici/cici-notebook/inbox/README.md)).
+1. **Optional rolling capture** during the day: append to [daily-cici-notebook-inbox.md](../../../docs/skill-work/work-cici/cici-notebook/daily-cici-notebook-inbox.md). At **`dream`**, fold into `inbox/YYYY-MM-DD.md` (see [inbox README](../../../README.md)).
 2. **Generate or refresh the day file** from repo root (set **`TZ`** to your local calendar day):
    ```bash
    TZ=America/New_York python3 scripts/cici_journal_ob1_digest.py --full-day-synthesis --write
    ```
-   Git-only: omit `--full-day-synthesis` or use `--no-inbox`. See [cici-notebook README](../../../docs/skill-work/work-cici/cici-notebook/README.md) for flags, `GITHUB_TOKEN`, catch-up, and `--force`.
+   Git-only: omit `--full-day-synthesis` or use `--no-inbox`. See [cici-notebook README](../../../README.md) for flags, `GITHUB_TOKEN`, catch-up, and `--force`.
 3. **Edit** the generated file: fill **Focus**, narrative sections, and **One line for my advisor**. Keep **secrets out** (no API keys, no credentialed URLs).
 4. **End-of-day:** [dream SKILL](../dream/SKILL.md) may include running the digest for “today” if the day file is missing — follow dream skill; digest does **not** run inside `auto_dream.py` by itself.
 
@@ -145,7 +145,7 @@ See [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-
 
 | Topic | Link |
 |--------|------|
-| Full journal spec | [cici-notebook README](../../../docs/skill-work/work-cici/cici-notebook/README.md) |
+| Full journal spec | [cici-notebook README](../../../README.md) |
 | Synthesis flags | [SYNTHESIS-SOURCES.md](../../../docs/skill-work/work-cici/cici-notebook/SYNTHESIS-SOURCES.md) |
 | Digest script | [scripts/cici_journal_ob1_digest.py](../../../scripts/cici_journal_ob1_digest.py) |
 | Work-xavier index | [INDEX.md](../../../docs/skill-work/work-cici/INDEX.md) |

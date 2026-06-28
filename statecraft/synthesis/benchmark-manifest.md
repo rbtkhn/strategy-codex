@@ -12,7 +12,7 @@ This manifest is intentionally small. It exists to falsify method changes quickl
 
 Artifact:
 
-- [2026-05-29](statecraft/synthesis/day/2026-05-29.md)
+- [2026-05-29](day/2026-05-29.md)
 
 Why it is in the set:
 
@@ -33,7 +33,7 @@ What it should keep proving:
 
 Artifact:
 
-- [2026-05-30](statecraft/synthesis/day/2026-05-30.md)
+- [2026-05-30](day/2026-05-30.md)
 
 Why it is in the set:
 
@@ -52,7 +52,7 @@ What it should keep proving:
 
 Artifact:
 
-- [2026-05](statecraft/synthesis/month/2026-05.md)
+- [2026-05](month/2026-05.md)
 
 Why it is in the set:
 

@@ -10,7 +10,7 @@ Counts are approximate at the guest-label level where the archive still carries 
 
 Method standard:
 
-- [recent-speaker-underrepresentation-query-standard.md](/C:/dev/strategy-codex/statecraft/notes/recent-speaker-underrepresentation-query-standard.md)
+- [recent-speaker-underrepresentation-query-standard.md](../notes/recent-speaker-underrepresentation-query-standard.md)
 
 ## Current Month Truth
 

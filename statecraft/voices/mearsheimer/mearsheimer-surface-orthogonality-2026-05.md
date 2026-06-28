@@ -6,12 +6,12 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
-- [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md)
+- [mearsheimer-helix.md](mearsheimer-helix.md)
+- [mearsheimer-routing.md](mearsheimer-routing.md)
 - [arc-mearsheimer-diesen-host.md](../../notes/arc-mearsheimer-diesen-host.md)
 - [arc-mearsheimer-davis-host.md](../../notes/arc-mearsheimer-davis-host.md)
 - [arc-mearsheimer-napolitano-host.md](../../notes/arc-mearsheimer-napolitano-host.md)
-- [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md)
+- [mearsheimer-thread.md](mearsheimer-thread.md)
 
 Bounded claim:
 
@@ -29,12 +29,12 @@ Arcs under review:
 
 Threads under review:
 
-- none canonical; [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) remains a compatibility continuity surface
+- none canonical; [mearsheimer-thread.md](mearsheimer-thread.md) remains a compatibility continuity surface
 
 Comparison-only notes:
 
-- [mearsheimer-helix.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-helix.md)
-- [mearsheimer-routing.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-routing.md)
+- [mearsheimer-helix.md](mearsheimer-helix.md)
+- [mearsheimer-routing.md](mearsheimer-routing.md)
 
 ## Arc audit
 
@@ -56,7 +56,7 @@ Comparison-only notes:
 
 There is no current canonical topical thread inside the Mearsheimer shelf. That is the right choice for now.
 
-The older [mearsheimer-thread.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-thread.md) file does not isolate a mechanism that the host arcs and helix fail to carry. It remains useful only as compatibility continuity, not as a real third layer of cognition.
+The older [mearsheimer-thread.md](mearsheimer-thread.md) file does not isolate a mechanism that the host arcs and helix fail to carry. It remains useful only as compatibility continuity, not as a real third layer of cognition.
 
 ### Thread distinctness table
 

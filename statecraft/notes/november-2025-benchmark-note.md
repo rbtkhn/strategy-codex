@@ -45,16 +45,16 @@ That means November is not currently a live closure campaign month on local evid
 
 Use these existing surfaces as the benchmark spine:
 
-- [2025-11 month archive rollup](/C:/dev/strategy-codex/source-archive/statecraft/2025-11.md)
+- [2025-11 month archive rollup](../../source-archive/statecraft/2025-11.md)
   Preserves the month's real density, host spread, and multi-lane late-2025 footprint.
 
-- [wilkerson-november-2025-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-november-2025-note.md)
+- [wilkerson-november-2025-note.md](../voices/wilkerson/wilkerson-november-2025-note.md)
   Shows November as an honest compact Wilkerson month rather than a weak bridge between October and December.
 
-- [freeman-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-support-spine-2025-2026.md)
+- [freeman-support-spine-2025-2026.md](../voices/freeman/freeman-support-spine-2025-2026.md)
   Helps preserve why Freeman matters as a month-scale carrier even before the denser 2026 Freeman ladder takes over.
 
-- [sachs-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-support-spine-2025-2026.md)
+- [sachs-support-spine-2025-2026.md](../voices/sachs/sachs-support-spine-2025-2026.md)
   Makes the November Sachs cluster visible across `Judging Freedom`, `Glenn Diesen`, direct lecture surfaces, and the `Fidias` crossover.
 
 ## What November Is Good For

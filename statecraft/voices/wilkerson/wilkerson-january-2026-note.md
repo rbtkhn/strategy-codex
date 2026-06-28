@@ -21,10 +21,10 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-01-02 - *Larry C. Johnson & Col. Larry Wilkerson: Russia & Iran Just Built a War Shield*](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-02/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md)
+1. [2026-01-02 - *Larry C. Johnson & Col. Larry Wilkerson: Russia & Iran Just Built a War Shield*](../../../source-archive/statecraft/2026-01-02/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md)
    Status: primary `Dialogue Works` January opener already materialized.
 
-2. [2026-01-22 - *Col. Lawrence Wilkerson: The Rules-Based Order Was a Lie*](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
+2. [2026-01-22 - *Col. Lawrence Wilkerson: The Rules-Based Order Was a Lie*](../../../source-archive/statecraft/2026-01-22/source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
    Status: `Judging Freedom` January reinforcement already materialized.
 
 ## What January now proves

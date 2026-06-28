@@ -63,7 +63,7 @@ U.S. **public tolerance** for entanglement and **aid** to allies; Israeli **dome
 
 ## Operator synthesis (pre–public approval)
 
-**Dual-register (when Lebanon / ceasefire scope is live):** add **one sentence** that can honestly track both **mediator/regional** language (“restraint where parties treat fronts as linked”) and **U.S.–Israel** explicit carve-outs — without collapsing them; see [template-three-lenses](../work-politics/analytical-lenses/template-three-lenses.md) and [days.md flashpoint copy](strategy-notebook/chapters/2026-04/days.md).
+**Dual-register (when Lebanon / ceasefire scope is live):** add **one sentence** that can honestly track both **mediator/regional** language (“restraint where parties treat fronts as linked”) and **U.S.–Israel** explicit carve-outs — without collapsing them; see [template-three-lenses](../work-politics/analytical-lenses/template-three-lenses.md) and [days.md flashpoint copy](../../../codex/chapters/2026/2026-04/days.md).
 
 **Plane tags / bleed check:** before finalizing, label takeaway sentences as **structural (S)**, **operational/diplomatic (O)**, or **institutional (I)** — same crosswalk as [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) **A/B/C** (scope / material / narrative). Split sentences that mix **verified throughput** with **“who won”** unless the seam is explicit.
 

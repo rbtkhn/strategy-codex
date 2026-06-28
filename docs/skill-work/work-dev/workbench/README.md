@@ -8,11 +8,11 @@ The **Workbench Harness** is a narrow **artifact execution and inspection** laye
 
 Workbench answers: *â€œDid this artifact run, render, and behave as intended in this environment?â€* It does **not** answer *â€œIs this claim about the world true?â€*
 
-Use the [../interface-runtime/artifacts/README.md](../interface-runtime/artifacts/README.md) family when you need to define **what kind of generated operator-facing artifact** you are making and what authority it does or does not have. Workbench remains the **inspection layer** for those artifacts, not a replacement doctrine for them.
+Use the [../interface-runtime/artifacts/README.md](../../../../runtime/artifacts/README.md) family when you need to define **what kind of generated operator-facing artifact** you are making and what authority it does or does not have. Workbench remains the **inspection layer** for those artifacts, not a replacement doctrine for them.
 
 ## What it is not
 
-- **Not** the [Record](../../../../AGENTS.md) or a path into it. Workbench receipts have **`recordAuthority: "none"`** and **`gateEffect: "none"`** unless you separately stage work through [recursion-gate.md](../../../../recursion-gate.md) using existing workflows.
+- **Not** the [Record](../../../../AGENTS.md) or a path into it. Workbench receipts have **`recordAuthority: "none"`** and **`gateEffect: "none"`** unless you separately stage work through [recursion-gate.md](../../../../archive/grace-mar-instance/recursion-gate.md) using existing workflows.
 - **Not** [action receipts](../../../action-receipts.md) (audit stubs for meaningful system actions like proposals or merges).
 - **Not** merge or pipeline receipts ([harness-inventory](../../../harness-inventory.md) / `merge-receipts.jsonl` â€” proof of **approved** pipeline/gate processing).
 - **Not** continuity / handback receipts (OpenClaw preflight, session continuity).
@@ -78,7 +78,7 @@ Before a demo or commit that touches the strategy visualizer or Workbench exampl
 
 ## Pilot artifacts
 
-- **Strategy notebook (static):** [demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md) â€” fixture + HTML over `http.server`; `recordAuthority: none` / `gateEffect: none`; example receipt: [examples/strategy-notebook-visualizer-workbench-receipt.example.json](examples/strategy-notebook-visualizer-workbench-receipt.example.json). Optional screenshot staging: [runtime/artifacts/work-dev/workbench-screenshots/](../../../../runtime/artifacts/work-dev/workbench-screenshots/README.md).
+- **Strategy notebook (static):** [demo-runs/workbench-visualizer/README.md](../../../../README.md) â€” fixture + HTML over `http.server`; `recordAuthority: none` / `gateEffect: none`; example receipt: [examples/strategy-notebook-visualizer-workbench-receipt.example.json](examples/strategy-notebook-visualizer-workbench-receipt.example.json). Optional screenshot staging: [runtime/artifacts/work-dev/workbench-screenshots/](../../../../runtime/artifacts/work-dev/workbench-screenshots/README.md).
 
 ## Specs and protocols
 
@@ -88,7 +88,7 @@ Before a demo or commit that touches the strategy visualizer or Workbench exampl
 | [SCRIPT-USAGE.md](SCRIPT-USAGE.md) | `new_workbench_receipt.py` and `validate_workbench_receipt.py` (examples, non-staging). |
 | [VISUAL-INSPECTION-PROTOCOL.md](VISUAL-INSPECTION-PROTOCOL.md) | Required steps for **visual** artifacts. |
 | [CANDIDATE-COMPARISON-PROTOCOL.md](CANDIDATE-COMPARISON-PROTOCOL.md) | Compare multiple generated **candidates** (A/B) before choosing a path. |
-| [../interface-runtime/artifacts/README.md](../interface-runtime/artifacts/README.md) | Defines interface artifacts as a derived class of operator-facing views and prototypes; Workbench then runs and inspects them. |
+| [../interface-runtime/artifacts/README.md](../../../../runtime/artifacts/README.md) | Defines interface artifacts as a derived class of operator-facing views and prototypes; Workbench then runs and inspects them. |
 
 ## Related (optional)
 

@@ -35,12 +35,12 @@ Armstrong should currently be read as a **single-helix speaker object with one m
 
 That means:
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/statecraft/notes/arc-armstrong-nima-host.md) is now the canonical way to enter the object
+- [Dialogue Works x Armstrong](../../notes/arc-armstrong-nima-host.md) is now the canonical way to enter the object
 - the legacy native Armstrong shelf inside this folder still matters as reinforcement and orientation:
-  - [armstrong-profile.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-profile.md)
-  - [armstrong-thread.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-thread.md)
-  - [armstrong-transcript.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-transcript.md)
-- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md) is real outside-host evidence, but not yet a stable second branch
+  - [armstrong-profile.md](armstrong-profile.md)
+  - [armstrong-thread.md](armstrong-thread.md)
+  - [armstrong-transcript.md](armstrong-transcript.md)
+- [2026-02-24 Diesen x Armstrong](../../../source-archive/statecraft/2026-02-24/source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md) is real outside-host evidence, but not yet a stable second branch
 
 So Armstrong now matters through one mature host-transformation lane, a native authored shelf, and one thin but real secondary-host reinforcement.
 
@@ -48,15 +48,15 @@ So Armstrong now matters through one mature host-transformation lane, a native a
 
 If the operator needs the live doctrine:
 
-- open [arc-armstrong-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-armstrong-nima-host.md)
+- open [arc-armstrong-nima-host.md](../../notes/arc-armstrong-nima-host.md)
 
 If the operator needs the compact object framing:
 
-- stay here, then read [armstrong-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-cross-host-note.md)
+- stay here, then read [armstrong-cross-host-note.md](armstrong-cross-host-note.md)
 
 If the operator needs the role and verification stance:
 
-- open [armstrong-profile.md](/C:/dev/strategy-codex/statecraft/voices/armstrong/armstrong-profile.md)
+- open [armstrong-profile.md](armstrong-profile.md)
 
 ## Routing use
 

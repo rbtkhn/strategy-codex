@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Pape: Day 100 × New Phase × Lebanon Fuse — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](statecraft/notes/reentry/2026-06-week2-start-here.md) · carry [week1](statecraft/notes/reentry/2026-06-week1-start-here.md) · **Same-day bench:** [Davis Lebanon fulcrum × Crooke](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) · [America USS Liberty seam](statecraft/notes/2026-06-08-america-uss-liberty-legitimacy-seam.md)
+**Parent queue:** [2026-06-08 Intake Readiness](intake/2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](reentry/2026-06-week2-start-here.md) · carry [week1](reentry/2026-06-week1-start-here.md) · **Same-day bench:** [Davis Lebanon fulcrum × Crooke](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) · [America USS Liberty seam](2026-06-08-america-uss-liberty-legitimacy-seam.md)
 
 **Sources:**
 
@@ -132,12 +132,12 @@ Short rule: **Day 100 converts Jun 4 fuse + Jun 6 hegemony into a dated falsifie
 
 ## Return Paths
 
-- Parent daily (when written): [State Synthesis - 2026-06-08](statecraft/synthesis/day/2026-06-08.md) — use this note as **escalation-trap spine**
+- Parent daily (when written): [State Synthesis - 2026-06-08](../synthesis/day/2026-06-08.md) — use this note as **escalation-trap spine**
 - [Persia transaction — Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
-- [Pape Day 100 indicator watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) — **operational weekly falsifier table**
+- [Pape Day 100 indicator watch sheet](2026-06-08-pape-day-100-indicator-watch-sheet.md) — **operational weekly falsifier table**
 - [America transaction — command firewall](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
-- [June 2026 partial month](statecraft/synthesis/month/2026-06.md) — update when Day 100 shifts week object
-- [2026-06-04 daily](statecraft/synthesis/day/2026-06-04.md) — Lebanon Fuse first landed in daily synthesis context (if present)
+- [June 2026 partial month](../synthesis/month/2026-06.md) — update when Day 100 shifts week object
+- [2026-06-04 daily](../synthesis/day/2026-06-04.md) — Lebanon Fuse first landed in daily synthesis context (if present)
 
 ## Source Anchors
 

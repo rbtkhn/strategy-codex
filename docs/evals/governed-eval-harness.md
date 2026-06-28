@@ -5,7 +5,7 @@
 **Not:**
 
 - **Not** SELF, EVIDENCE, SKILLS, or gate truth.  
-- **Not** merge authority â€” results do **not** approve candidates, bypass [RECURSION-GATE](../../recursion-gate.md), or change durable Record behavior.  
+- **Not** merge authority â€” results do **not** approve candidates, bypass [RECURSION-GATE](../../archive/grace-mar-instance/recursion-gate.md), or change durable Record behavior.  
 - **Not** an IQ or capability test â€” scores are **receipt-grounded heuristics** and optional `expected` rubric checks from fixtures.
 
 **Primary inputs (receipts):** Validated JSON on disk per [`execution-receipt.v1.json`](../../schemas/registry/execution-receipt.v1.json), usually under `runtime/runtime-worker/receipts/<run_id>.json`. The harness **does not** scrape free-form logs; it only reads those receipt files (plus small fixture sidecars for golden checks).

@@ -31,13 +31,13 @@ Lawrence Wilkerson matters here as an **imperial-decline and military-statecraft
 
 ## Open first
 
-- [2026-05-28 Lawrence Wilkerson - What Remains of International Law](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md)
-- [2026-04-30 Lawrence Wilkerson - Iran's New Friend](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
-- [2026-03-26 Lawrence Wilkerson - Why Trump Is Wedded to Israel](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
-- [2026-02-12 Lawrence Wilkerson - The Conflict That Could Draw Everyone In](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-12/source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md)
-- [2026-01-22 Lawrence Wilkerson - The Rules-Based Order Was a Lie](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
-- [2025-12-18 Lawrence Wilkerson - A Disaster to Invade Venezuela](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
-- [2025-11-26 Lawrence Wilkerson - No One Can Trust Netanyahu](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/source-judging-freedom-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md)
+- [2026-05-28 Lawrence Wilkerson - What Remains of International Law](../../source-archive/statecraft/2026-05-28/source-judging-freedom-wilkerson-what-remains-of-international-law-2026-05-28.md)
+- [2026-04-30 Lawrence Wilkerson - Iran's New Friend](../../source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- [2026-03-26 Lawrence Wilkerson - Why Trump Is Wedded to Israel](../../source-archive/statecraft/2026-03-26/source-judging-freedom-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
+- [2026-02-12 Lawrence Wilkerson - The Conflict That Could Draw Everyone In](../../source-archive/statecraft/2026-02-12/source-judging-freedom-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md)
+- [2026-01-22 Lawrence Wilkerson - The Rules-Based Order Was a Lie](../../source-archive/statecraft/2026-01-22/source-judging-freedom-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
+- [2025-12-18 Lawrence Wilkerson - A Disaster to Invade Venezuela](../../source-archive/statecraft/2025-12-18/source-judging-freedom-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
+- [2025-11-26 Lawrence Wilkerson - No One Can Trust Netanyahu](../../source-archive/statecraft/2025-11-26/source-judging-freedom-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md)
 
 ## Orthogonality guide
 
@@ -59,7 +59,7 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about wider imperial consequence or system-level decline rather than legal-moral illegitimacy and anti-war edge, route outward to [arc-wilkerson-diesen-host.md](/C:/dev/strategy-codex/arc-wilkerson-diesen-host.md).
+- If the question is mainly about wider imperial consequence or system-level decline rather than legal-moral illegitimacy and anti-war edge, route outward to [arc-wilkerson-diesen-host.md](../../arc-wilkerson-diesen-host.md).
 
 - This is a real November 2025-May 2026 Napolitano branch.
 - November 26 and December 18 are now transcript-grade on disk; May 28 is currently the strongest native opening point.

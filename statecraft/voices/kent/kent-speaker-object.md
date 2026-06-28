@@ -41,34 +41,34 @@ This is not yet a mature helix. It is a newly embodied cross-host object whose s
 
 ## Recent reinforcement
 
-- `2026-03-18` [Joe Kent Reveals All in First Interview Since Resigning as Trump's Counterterrorism Director](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md) establishes the Carlson branch: resignation-letter testimony, imminent-threat dispute, Israeli influence/red-line shifting, intelligence-channel bypass claims, Trump security-pressure speculation, and Kent's proposed exit formula.
-- `2026-03-26` [Joe Kent: The Truth of the Iran War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-26/source-daniel-davis-joe-kent-the-truth-of-the-iran-war-2026-03-26.md) establishes the transcript-grade Davis-Kent baseline for Kent's dissent frame.
-- `2026-04-02` [Latest Goals in Iran War /Lt Col Daniel Davis & Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-02/source-daniel-davis-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md) strengthens the Davis branch around objective drift and exit logic.
-- `2026-04-02` [Joe Kent: Iran War, Israeli Influence & Creating ISIS](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md) creates the transcript-grade Diesen branch.
-- `2026-05-08` [CONTROLLED BY THE DONOR CLASS: US Iran Negotiations /Joe Kent & Lt Col Daniel Davis](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-daniel-davis-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md) adds a compressed Davis-Kent donor-class/negotiation-capture anchor.
-- `2026-05-15` [Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md) strengthens Kent as a speaker object on Trump-Xi, Iran walkaway logic, China and fentanyl, Trump security pressure, war-on-terror disillusionment, Israel/neocon influence, and the gap between public presidential promises and governing constraints.
+- `2026-03-18` [Joe Kent Reveals All in First Interview Since Resigning as Trump's Counterterrorism Director](../../../source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md) establishes the Carlson branch: resignation-letter testimony, imminent-threat dispute, Israeli influence/red-line shifting, intelligence-channel bypass claims, Trump security-pressure speculation, and Kent's proposed exit formula.
+- `2026-03-26` [Joe Kent: The Truth of the Iran War](../../../source-archive/statecraft/2026-03-26/source-daniel-davis-joe-kent-the-truth-of-the-iran-war-2026-03-26.md) establishes the transcript-grade Davis-Kent baseline for Kent's dissent frame.
+- `2026-04-02` [Latest Goals in Iran War /Lt Col Daniel Davis & Joe Kent](../../../source-archive/statecraft/2026-04-02/source-daniel-davis-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md) strengthens the Davis branch around objective drift and exit logic.
+- `2026-04-02` [Joe Kent: Iran War, Israeli Influence & Creating ISIS](../../../source-archive/statecraft/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md) creates the transcript-grade Diesen branch.
+- `2026-05-08` [CONTROLLED BY THE DONOR CLASS: US Iran Negotiations /Joe Kent & Lt Col Daniel Davis](../../../source-archive/statecraft/2026-05-08/source-daniel-davis-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md) adds a compressed Davis-Kent donor-class/negotiation-capture anchor.
+- `2026-05-15` [Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent](../../../source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md) strengthens Kent as a speaker object on Trump-Xi, Iran walkaway logic, China and fentanyl, Trump security pressure, war-on-terror disillusionment, Israel/neocon influence, and the gap between public presidential promises and governing constraints.
 
 ## Open first
 
 If the operator needs the object map:
 
-- open [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
+- open [kent-helix.md](kent-helix.md)
 
 If the operator needs the cleanest host-local entry:
 
-- open [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md)
+- open [arc-kent-davis-host.md](../../notes/arc-kent-davis-host.md)
 
 If the operator needs the resignation-letter spine:
 
-- open [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md)
+- open [arc-kent-carlson-host.md](../../notes/arc-kent-carlson-host.md)
 
 If the operator needs the cleanest political-pressure entry:
 
-- open [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md)
+- open [arc-kent-nawfal-host.md](../../notes/arc-kent-nawfal-host.md)
 
 If the operator needs the strongest existing walkaway anchor:
 
-- open [2026-05-08 Davis x Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-daniel-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
+- open [2026-05-08 Davis x Kent](../../../source-archive/statecraft/2026-05-08/source-daniel-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
 
 ## Routing use
 

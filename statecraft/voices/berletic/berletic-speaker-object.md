@@ -36,7 +36,7 @@ Berletic should currently be read as a **cross-host reinforced speaker object wh
 That means:
 
 - the object is stronger than a one-off guest shelf because it has real recurring reuse
-- the [Diesen x Berletic speaker arc](/C:/dev/strategy-codex/statecraft/notes/arc-berletic-diesen-host.md) is presently the clearest stable host-local form on disk
+- the [Diesen x Berletic speaker arc](../../notes/arc-berletic-diesen-host.md) is presently the clearest stable host-local form on disk
 - The Duran materially reinforces the object and widens its usefulness
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure actually materialized on disk outside Diesen
 
@@ -55,21 +55,21 @@ The clearest reinforcement beyond Diesen is the broader recurring full-form run 
 - `2025-10-21` *Ukraine/Trump; Last chance for a deal*
 - `2026-03-12` *War grinds on*
 
-See [berletic-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-cross-host-note.md).
+See [berletic-cross-host-note.md](berletic-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current host-local entry:
 
-- open [arc-berletic-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-berletic-diesen-host.md)
+- open [arc-berletic-diesen-host.md](../../notes/arc-berletic-diesen-host.md)
 
 If the operator needs the strongest current orientation entry:
 
-- open [berletic-profile.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-profile.md)
+- open [berletic-profile.md](berletic-profile.md)
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [berletic-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/berletic/berletic-cross-host-note.md)
+- stay here, then read [berletic-cross-host-note.md](berletic-cross-host-note.md)
 
 ## Routing use
 

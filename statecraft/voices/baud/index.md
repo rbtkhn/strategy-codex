@@ -26,9 +26,9 @@ Do not read [baud-thread.md](baud-thread.md) as a second competing topical-threa
 
 ## Host-Local Routes
 
-- [Diesen x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md)
-- [Davis x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
+- [Diesen x Baud](../../notes/arc-baud-diesen-host.md)
+- [Davis x Baud](../../notes/arc-baud-davis-host.md)
+- [Dialogue Works x Baud](../../notes/arc-baud-nima-host.md)
 
 ## Boundary
 

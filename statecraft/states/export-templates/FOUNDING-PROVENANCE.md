@@ -12,7 +12,7 @@
 
 ## Lineage
 
-1. **Founding cut (helix-lane v1):** Exported from the upstream workshop as `rbtkhn/civ-emp` — a helix-first operator corpus (lanes, strands, transactions, orientation routers). Preserved under [`archive/helix-lane-v1/`](archive/helix-lane-v1/README.md).
+1. **Founding cut (helix-lane v1):** Exported from the upstream workshop as `rbtkhn/civ-emp` — a helix-first operator corpus (lanes, strands, transactions, orientation routers). Preserved under [`archive/helix-lane-v1/`](../../../README.md).
 2. **Repo rename:** `civ-emp` → `civ-state` to align public slug with the civilization-**state** book architecture.
 3. **Reshape v0.2 (this release):** Replaced helix-first navigation with the book-first export from `statecraft/states/` — five-volume whole work (China, Persia, Rome, Russia, America), source-lattice per volume, comparative and sacred-grammar apparatus in the appendix.
 

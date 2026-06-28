@@ -66,7 +66,7 @@ Failure test:
   - `transaction hooks`
 - Main follow-on surfaces:
   - [Iran peace](../iran/civilization/peace.md)
-  - [Iran transactions](../iran/transactions/README.md)
+  - [Iran transactions](../../../../README.md)
   - [Transaction router](../sheets/transaction-router.md)
   - [Hormuz recognition transit transaction](../iran/transactions/hormuz-recognition-transit-transaction.md)
 
@@ -114,7 +114,7 @@ Both runs start from the same source cluster:
 
 - [Iran empire instrument](../iran/empire/seed-instruments.md) - especially the nuclear latency bargaining section
 - [Iran helix](../iran/helix.md)
-- [Iran Nuclear Latency Recognition Framework](../transactions/iran-nuclear-latency-recognition-framework/README.md)
+- [Iran Nuclear Latency Recognition Framework](../../../../README.md)
 
 The test is whether the adapters change how nuclear latency is interpreted before it is drafted.
 
@@ -156,7 +156,7 @@ Failure test:
   - `transaction hooks`
 - Main follow-on surfaces:
   - [Iran peace](../iran/civilization/peace.md)
-  - [Iran Nuclear Latency Recognition Framework](../transactions/iran-nuclear-latency-recognition-framework/README.md)
+  - [Iran Nuclear Latency Recognition Framework](../../../../README.md)
   - [Iran lane draft](../transactions/iran-nuclear-latency-recognition-framework/iran.md)
   - [Transaction router](../sheets/transaction-router.md)
 
@@ -240,7 +240,7 @@ Failure test:
   - [Iran peace](../iran/civilization/peace.md)
   - [Minab Iran lane draft](../transactions/minab-civilian-harm-deescalation-framework/iran.md)
   - [Transaction router](../sheets/transaction-router.md)
-  - [Iran transactions](../iran/transactions/README.md)
+  - [Iran transactions](../../../../README.md)
 
 Settlement-durability result:
 

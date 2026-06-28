@@ -2,14 +2,14 @@ WORK only; not Record.
 
 # Ritter Implementation × Pape Trap × Crooke Mosaic — 2026-03-16
 
-**Parent daily:** [2026-03-16](statecraft/synthesis/day/2026-03-16.md) · **Trap × mosaic pair:** [Pape vs Crooke](statecraft/notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) · **Pape season:** [Escalation Trap arc](../notes/arc-pape-escalation-trap.md) · **Monthly:** [2026-03](statecraft/synthesis/month/2026-03.md)
+**Parent daily:** [2026-03-16](../synthesis/day/2026-03-16.md) · **Trap × mosaic pair:** [Pape vs Crooke](2026-03-16-pape-vs-crooke-mosaic-trap.md) · **Pape season:** [Escalation Trap arc](../notes/arc-pape-escalation-trap.md) · **Monthly:** [2026-03](../synthesis/month/2026-03.md)
 
 **Sources (March 16):**
 
-- [Ritter / Hormuz](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>)
-- [Ritter / Marines](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>)
-- [Ritter / stockpiles](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md>)
-- [Johnson / trapped](</C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — intercept inventory cross-check
+- [Ritter / Hormuz](<../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md>)
+- [Ritter / Marines](<../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>)
+- [Ritter / stockpiles](<../../source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md>)
+- [Johnson / trapped](<../../source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>) — intercept inventory cross-check
 
 ## Purpose
 
@@ -125,12 +125,12 @@ Implementation failure **feeds** trap ratchet (no cheap exit) and **validates** 
 
 **Pape names the closing trap; Crooke names the surviving machine; Ritter names the empty toolbox.**
 
-March 16 proves all three: sixteen days in (Pape), mosaic phases executing (Crooke), suicide-on-my-behalf Hormuz politics and dishonest unlimited-weapons claim (Ritter). Month-end capstone: [2026-03-31](statecraft/synthesis/day/2026-03-31.md) — "no war plan."
+March 16 proves all three: sixteen days in (Pape), mosaic phases executing (Crooke), suicide-on-my-behalf Hormuz politics and dishonest unlimited-weapons claim (Ritter). Month-end capstone: [2026-03-31](../synthesis/day/2026-03-31.md) — "no war plan."
 
 ## Best Next Uses
 
 - **May shelf back-read:** May "implementation decay" reads stronger when March implementation leg is explicit — not only command unreliability but **pre-falsified force options**.
 - **June shelf:** Lebanon gate spend assumes sponsor cannot bind client; March Ritter/Johnson already shows **sponsor cannot execute advertised military closure**.
-- **Arc statecraft note (written):** [Dollar-Hormuz × trap–mosaic lattice](statecraft/notes/2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) — March 19–23 toll-booth layer.
-- **Postol corroboration (written):** [Postol × Ritter battlefield statecraft note](statecraft/notes/2026-03-23-postol-vs-ritter-implementation-battlefield.md).
+- **Arc statecraft note (written):** [Dollar-Hormuz × trap–mosaic lattice](2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) — March 19–23 toll-booth layer.
+- **Postol corroboration (written):** [Postol × Ritter battlefield statecraft note](2026-03-23-postol-vs-ritter-implementation-battlefield.md).
 - **Attribution:** Ritter = combat-vet implementation; Pape = newsletter trap; Crooke = institutional/asymmetric — preserve layers in public copy.

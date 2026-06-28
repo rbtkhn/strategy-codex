@@ -12,7 +12,7 @@ This note preserves the local archive truth currently on disk, distinguishes the
 
 On current local evidence, February 2025 is one of the weakest Mercouris months in the 2025 archive.
 
-The month rollup at [2025-02.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02.md) shows:
+The month rollup at [2025-02.md](../../source-archive/statecraft/2025-02.md) shows:
 
 - `27` source files total
 - `7` Mercouris-thread captures total
@@ -26,8 +26,8 @@ Against the current working floor of `8+` Mercouris-thread captures per month, F
 
 The currently landed `native solo Mercouris` February captures are:
 
-- `2025-02-10` - [trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/source-alexander-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
-- `2025-02-20` - [disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/source-alexander-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
+- `2025-02-10` - [trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge](../../source-archive/statecraft/2025-02-10/source-alexander-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- `2025-02-20` - [disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement](../../source-archive/statecraft/2025-02-20/source-alexander-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
 
 So February currently preserves only a minimal native solo Mercouris lane.
 
@@ -35,16 +35,16 @@ So February currently preserves only a minimal native solo Mercouris lane.
 
 The currently landed February Mercouris panel object is:
 
-- `2025-02-15` - [trump-to-force-ukraine-peace-on-europe](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
+- `2025-02-15` - [trump-to-force-ukraine-peace-on-europe](../../source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
 
 This matters because February is not purely solo-thin. It has at least one non-solo Mercouris lane on disk already.
 
 The currently landed February `Duran / Mercouris co-hosted` capture is:
 
-- `2025-02-07` - [trumps-ukraine-dilemma-escalate-or-walk-away](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-07/source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md)
-- `2025-02-10` - [us-carrot-and-stick-offer-to-russia](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/source-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md)
-- `2025-02-21` - [uk-eu-take-ownership-of-project-ukraine-preemptive-coup](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-21/source-duran-mercouris-uk-eu-take-ownership-of-project-ukraine-preemptive-coup-2025-02-21.md)
-- `2025-02-25` - [ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-25/source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md)
+- `2025-02-07` - [trumps-ukraine-dilemma-escalate-or-walk-away](../../source-archive/statecraft/2025-02-07/source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md)
+- `2025-02-10` - [us-carrot-and-stick-offer-to-russia](../../source-archive/statecraft/2025-02-10/source-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md)
+- `2025-02-21` - [uk-eu-take-ownership-of-project-ukraine-preemptive-coup](../../source-archive/statecraft/2025-02-21/source-duran-mercouris-uk-eu-take-ownership-of-project-ukraine-preemptive-coup-2025-02-21.md)
+- `2025-02-25` - [ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live](../../source-archive/statecraft/2025-02-25/source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md)
 
 That means February now has all three visible Mercouris lanes on disk in minimal form:
 

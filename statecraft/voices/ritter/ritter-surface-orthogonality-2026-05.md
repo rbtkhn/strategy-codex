@@ -6,14 +6,14 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [ritter-helix.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-helix.md)
-- [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md)
-- [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-forecast-ledger-2026.md)
-- [arc-ritter-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-diesen-host.md)
-- [arc-ritter-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-davis-host.md)
-- [arc-ritter-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-nima-host.md)
-- [arc-ritter-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-napolitano-host.md)
-- [ritter-thread.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-thread.md)
+- [ritter-helix.md](ritter-helix.md)
+- [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md)
+- [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
+- [arc-ritter-diesen-host.md](../../notes/arc-ritter-diesen-host.md)
+- [arc-ritter-davis-host.md](../../notes/arc-ritter-davis-host.md)
+- [arc-ritter-nima-host.md](../../notes/arc-ritter-nima-host.md)
+- [arc-ritter-napolitano-host.md](../../notes/arc-ritter-napolitano-host.md)
+- [ritter-thread.md](ritter-thread.md)
 
 Bounded claim:
 
@@ -25,20 +25,20 @@ Bounded claim:
 
 Arcs under review:
 
-- [arc-ritter-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-diesen-host.md)
-- [arc-ritter-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-davis-host.md)
-- [arc-ritter-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-nima-host.md)
-- [arc-ritter-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-napolitano-host.md)
+- [arc-ritter-diesen-host.md](../../notes/arc-ritter-diesen-host.md)
+- [arc-ritter-davis-host.md](../../notes/arc-ritter-davis-host.md)
+- [arc-ritter-nima-host.md](../../notes/arc-ritter-nima-host.md)
+- [arc-ritter-napolitano-host.md](../../notes/arc-ritter-napolitano-host.md)
 
 Threads under review:
 
-- none canonical; [ritter-thread.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-thread.md) and the dated `ritter-thread-2026-*.md` files remain compatibility continuity surfaces only
+- none canonical; [ritter-thread.md](ritter-thread.md) and the dated `ritter-thread-2026-*.md` files remain compatibility continuity surfaces only
 
 Comparison-only notes:
 
-- [ritter-helix.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-helix.md)
-- [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md)
-- [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-forecast-ledger-2026.md)
+- [ritter-helix.md](ritter-helix.md)
+- [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md)
+- [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
 
 ## Arc audit
 
@@ -63,7 +63,7 @@ Comparison-only notes:
 
 There is no current canonical topical thread inside the Ritter shelf. That is the right choice for now.
 
-The shelf's usable structure is source-class and host-transformation driven, not topic-thread driven. The older [ritter-thread.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-thread.md) and dated `ritter-thread-2026-*.md` files do not isolate mechanisms beyond the authored warning spine plus host arcs.
+The shelf's usable structure is source-class and host-transformation driven, not topic-thread driven. The older [ritter-thread.md](ritter-thread.md) and dated `ritter-thread-2026-*.md` files do not isolate mechanisms beyond the authored warning spine plus host arcs.
 
 ### Thread distinctness table
 

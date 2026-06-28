@@ -2,17 +2,28 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-25
 
-**Parent daily:** [2026-06-25](../synthesis/day/2026-06-25.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
+**Parent daily:** [2026-06-25](../synthesis/day/2026-06-25.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-25/day-index.md) · **Cross-ref:** [2026-06-23 matrix](2026-06-23-news-verify-matrix.md) (Hormuz carry **J23-10** · **J23-11**) · **Gate:** [NEWS-VERIFY-SYNTHESIS-GATE.md](../synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md)
 
-**Mode:** batch (3 ingests — Rutte/NATO · Vance channel · Hormuz dual-authority) · **Hooks:** 17 core + 10 J25-6 sub · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 1/3 (Johnson `verify:` 2026-06-26; matrix SSOT)
+**Mode:** batch (9 archive captures — 7 YouTube · 2 Substack) · **Hooks:** 17 core + 10 J25-6 sub + 5 writer (**J25-8**–**J25-12**) · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 8/9 on disk (Mercouris tier-4 only; matrix SSOT)
 
-## Independent source register (3)
+## Independent source register (7 YouTube)
 
 | # | Guest / voice | Show | YouTube | Hook use |
 | --- | --- | --- | --- | --- |
 | 1 | Larry Johnson | Dialogue Works | `yUfZrrLILiM` | J25-1–J25-3 · J25-5 · J25-6* |
 | 2 | Max Blumenthal | Judging Freedom | `Nxs5CwKNb60` | J25-3 · J25-4 · J25-7 |
 | 3 | Alexander Mercouris | solo | `dg6OXH8EI7A` | tier-4 mesh (Belarus/Sumy/EU) |
+| 4 | Robert Barnes | Mario Nawfal | `Zbr6F-Y53QA` | J25-6* · J25-3 · tier-4 admin-split |
+| 5 | Seyed Mohammad Marandi | Geopolitics & Empire | `NbP11DAFkZw` | J25-9 · J25-10 · tier-4 victory-sell |
+| 6 | John Helmer | Reason to Resist | `MIq8nvJXOqo` | J25-10 tier-4 · Russia parallel |
+| 7 | John Mearsheimer | Daniel Davis Deep Dive | `klomRtbajV4` | J25-1 · J25-11 tier-4 mesh |
+
+## Writer source register (2 Substack)
+
+| # | Author | Publication | URL slug | Hook use |
+| --- | --- | --- | --- | --- |
+| 8 | Robert Pape | escalationtrap.substack.com | prediction-confirmed-the-next-phase | **J25-8** |
+| 9 | Alastair Crooke | conflictsforum.substack.com | russia-hearing-the-european-clamour | **J25-9**–**J25-12** |
 
 ## Lane sweep receipts
 
@@ -21,7 +32,7 @@ WORK only; not Record.
 | America | Fox Rutte · Quinnipiac · UnHerd/Vance · AP/CBS (Ever Lovely) · Rubio GCC | Yes | `verify:america-lane` |
 | Persia | Baghaei/Mehr · IRGC/Sepah · Tasnim carry · joint stmt `fa` relay | Yes | `verify:persia-lane` |
 | PRC | — | No dated 3a on Rutte/Vance/Hormuz row | `verify:prc-lane-absent` |
-| Russia | — | No dated 3a on these hooks | `verify:russia-lane-absent` |
+| Russia | Kremlin/Ushakov · Lavrov · Putin address relay | Tier-4 via Crooke essay (**J25-11**); no dated 3a on Rutte/Vance/Hormuz row | `verify:russia-lane-partial` |
 | Rome | Vatican press | No dated line | `verify:rome-lane-absent` |
 | Oman (adjacent) | [fm.gov.om](https://www.fm.gov.om) `ar`/`en` joint stmt + corridor | Yes | `verify:oman-adjacent` |
 
@@ -36,6 +47,18 @@ WORK only; not Record.
 | **J25-5** | Hormuz **~1% normal** traffic; **125–138**/day pre-war vs **7–12** tankers; **IRGC total control**; marinetra **no exits** | America mesh | en | **Partial** | **Johnson near-zero contradicted** — [Lloyd's](https://www.pbs.org/newshour/world/un-agency-pauses-evacuation-of-ships-through-strait-of-hormuz-after-uk-says-a-vessel-was-hit) **125/wk** (vs 33 prior) · **78** transits Wed ([Al Jazeera](https://www.aljazeera.com/news/2026/6/25/un-agency-pauses-hormuz-ship-evacuation-initiative-after-vessel-attacked) / S&P) · **70** Oman-route Wed ([MarineTraffic](https://www.aljazeera.com/news/2026/6/25/un-agency-pauses-hormuz-ship-evacuation-initiative-after-vessel-attacked)) · pre-war **~130/day** · post-strike **turn-back** risk ([gCaptain](https://gcaptain.com/ships-turn-back-in-strait-of-hormuz-as-irgc-renews-transit-warnings/)) |
 | **J25-6** | **Oman mechanism + tanker strike** seam (parent) — see sub-table | Persia / Oman | en · `fa` · `ar` | **Supported (core)** + **Partial (capture specifics)** | Sub-hooks **J25-6a–j** · legal **§ MOU P5** · bilateral **§ dual-clock** |
 | **J25-7** | **Quinnipiac:** Netanyahu **20%** favorable / **48%** unfavorable | America | en | **Supported** | [Quinnipiac 3961](https://poll.qu.edu/poll-release?releaseid=3961) |
+
+## Writer hooks (J25-8 – J25-12)
+
+**Captures:** Pape Substack · Crooke Substack · cross-ref Johnson/Barnes/Marandi YouTube
+
+| ID | Claim | Lane | Lang | Verdict | Cite |
+| --- | --- | --- | --- | --- | --- |
+| **J25-8** | **Pape:** Hormuz **open by Iranian permission**; **commercial-shipping escalation** = predicted next phase (not Lebanon-only) | Persia / America | en | **Supported** | Essay 25 Jun · **J25-6a** Ever Lovely ([AP](https://apnews.com/article/iran-us-israel-war-hormuz-strait-june-25-2026-862164c2aecbdc376dea434198eaf75f)) · Monday framework essay cross-ref |
+| **J25-9** | **Crooke:** Trump/Vance **false IAEA inspection** claims (bombed sites / “this week”) vs **10-point Lucerne framework** | America / Persia | en | **Contested** | Crooke essay · Iran denial register (Marandi **NbP11DAFkZw**) · Bushehr-only IAEA visits wire-partial |
+| **J25-10** | **Crooke:** Trump **escrow** unfrozen funds for **US ag purchases**; “finish the job” ~1-week military threat | America / Persia | en | **Partial** | Rhetoric vs MOU text · pairs Helmer bribery tier-4 · Marandi fund-release denial |
+| **J25-11** | **Crooke:** **Ushakov** Anchorage spirit **collapsed**; **Lavrov** Alaska **ploy**/Minsk analogy; **Putin** nuclear triad + European war prep (**23 Jun** St George's Hall) | Russia | en | **Partial** | Tier-4 mesh · Mearsheimer Karaganov · Mercouris EU/Belarus parallel |
+| **J25-12** | **Crooke:** **E3** deep-strike scale-up; **UK 500km** ground-launched weapons milestone | Russia / Europe | en | **Partial** | Tier-4 · FT/UK MoD refs in essay · Helmer Voronezh · Mearsheimer drone bet |
 
 ## Sub-hook — Hormuz J25-6 (J25-6a – J25-6j)
 
@@ -116,21 +139,27 @@ J23-10 Supported (Oman–Iran WG announced 23 Jun)
 
 **Oman (adjacent):** Joint stmt + corridor **supported** (**J25-6d** · **O1–O3**) · no Iranian pre-approval claim **absent** (**O2**).
 
-**PRC / Russia / Rome:** absent on hook set.
+**PRC / Russia / Rome:** Russia **partial tier-4** via Crooke **J25-11**–**J25-12**; PRC/Rome absent on hook set.
 
-**Mesh:** **Supported** — Baghaei NATO backlash · Quinnipiac · Ever Lovely strike · IMO pause · Oman–Iran WG · Oman–IMO corridor · PGSA guarantee withdrawal · **Partial** — Vance Doha cell · Hormuz volume snapshot (**J25-5 partial** post-escalate) · Baghaei mechanism timing · US–Oman covert pressure · **Contested** — Rutte 500 planes kinetic framing · Hormuz open/closed binary · IRGC legal veto over Oman segment · non-response motive · **Contradicted** — “tanker” label (**J25-6b**).
+**Mesh:** **Supported** — Baghaei NATO backlash · Quinnipiac · Ever Lovely strike · IMO pause · Oman–Iran WG · Oman–IMO corridor · PGSA guarantee withdrawal · **Pape J25-8 shipping-phase logic** · **Partial** — Vance Doha cell · Hormuz volume snapshot (**J25-5 partial** post-escalate) · Baghaei mechanism timing · US–Oman covert pressure · **Crooke J25-9–J25-12** tier-4 mesh · **Contested** — Rutte 500 planes kinetic framing · Hormuz open/closed binary · IRGC legal veto over Oman segment · non-response motive · **Crooke J25-9 IAEA inspection claims** · **Contradicted** — “tanker” label (**J25-6b**).
 
 ## Interpretation fence (tier 4 — not wire-scored)
 
-Johnson **Meloni ingrate** · **BRICS/CIPS** · **$40B toll revenue** · **internal Omani faction split** · Mercouris **Belarus/Sumy/EU** · Blumenthal **panic** register — synthesis lenses only.
+Johnson **Meloni ingrate** · **BRICS/CIPS** · **$40B toll revenue** · **internal Omani faction split** · Mercouris **Belarus/Sumy/EU** · Blumenthal **panic** register · Barnes/Marandi/Helmer/Mearsheimer tier-4 layers · **Crooke Kiev Independent greenlight** · **Simplicius** speculation — synthesis lenses only.
 
 ## Capture receipt map
 
 | Capture | `verify:` on disk | Matrix hooks |
 | --- | --- | --- |
 | Johnson `yUfZrrLILiM` | **Yes** (2026-06-26) | J25-1–J25-3 · J25-5–J25-6* |
-| Blumenthal `Nxs5CwKNb60` | No | J25-3 · J25-4 · J25-7 |
+| Blumenthal `Nxs5CwKNb60` | **Yes** (2026-06-28) | J25-3 · J25-4 · J25-7 |
 | Mercouris `dg6OXH8EI7A` | No | tier-4 mesh |
+| Barnes `Zbr6F-Y53QA` | **Yes** (2026-06-28) | J25-6* · J25-3 · J25-5 · tier-4 admin-split |
+| Marandi `NbP11DAFkZw` | **Yes** (2026-06-28) | J25-9 · J25-10 · tier-4 victory-sell |
+| Helmer `MIq8nvJXOqo` | **Yes** (2026-06-28) | J25-1 · J25-10 tier-4 · J25-11 Russia parallel |
+| Mearsheimer `klomRtbajV4` | **Yes** (2026-06-28) | J25-1 · J25-11 · J25-12 tier-4 |
+| **Pape** Substack | **Yes** (2026-06-27) | **J25-8** |
+| **Crooke** Substack | **Yes** (2026-06-27) | **J25-9**–**J25-12** |
 
 ## Escalate
 
@@ -148,3 +177,6 @@ Johnson **Meloni ingrate** · **BRICS/CIPS** · **$40B toll revenue** · **inter
 - **J25-3:** distinguish **shipping hotline** vs **IRGC–CENTCOM Doha** until Persia **3a** confirms.
 - **Quinnipiac:** **38%** “about right,” not Blumenthal **34%** (**J25-4**).
 - Route MOU/Hormuz structure to **J25-6** + **§ MOU P5** + **§ dual-clock** — do not mint duplicate IDs in Judgment.
+- **J25-8:** Pape **shipping-phase** logic **supported** via **J25-6a** — do not treat essay as independent strike receipt.
+- **J25-9:** Crooke **IAEA inspection** claims **contested** — pair Marandi/Diesen denial register; Bushehr-only visits partial.
+- **J25-11**–**J25-12:** Crooke Russia/Europe essay **tier-4** — mesh only; do not upgrade Hormuz rows.

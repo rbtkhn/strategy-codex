@@ -4,7 +4,7 @@ work only; not Record.
 
 This is the front-door orientation module for repo-root `statecraft/`.
 
-`statecraft/` is the second of the repo's two primary operator **channels**. Use it when the unresolved question is no longer only what system is emerging, but what legitimacy-bearing, command-bearing, or settlement-bearing object now has to be judged. For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md).
+`statecraft/` is the second of the repo's two primary operator **channels**. Use it when the unresolved question is no longer only what system is emerging, but what legitimacy-bearing, command-bearing, or settlement-bearing object now has to be judged. For the shared routing law, open [Two-Channel Operator Architecture](../docs/operator-two-channel-architecture.md).
 
 `statecraft/` is now the **canonical operator judgment surface** for live geopolitical, civilizational, legitimacy-bearing, and mechanism-bearing analytical work in this repo. The older `docs/skill-work/work-strategy/` surface remains on disk as a legacy compatibility namespace, but it is no longer the active public/operator-facing owner.
 
@@ -143,7 +143,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 
 - Need the full machine back in your head? Open [statecraft.md](statecraft.md).
 - Need first-class prose output shelves? Open [notes/](notes/README.md) for bounded interpretive outputs and [essays/](essays/README.md) for more synthesized stand-alone long-form outputs.
-- Need to decide what kind of prose object you need before choosing a shelf? Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md), which is the canonical prose-class chooser.
+- Need to decide what kind of prose object you need before choosing a shelf? Open [shared prose index](../docs/prose-index.md), which is the canonical prose-class chooser.
 - Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
@@ -155,14 +155,14 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
-- Need live host-law for `Davis` or `Napolitano`? Open [statecraft/channels/](hosts/README.md).
+- Need live host-law for `Davis` or `Napolitano`? Open [statecraft/channels/](../README.md).
 - Need live speaker trust or track-record work? Open [statecraft/audits/](audits/README.md).
 - Need durable receipts of how statecraft is learning from its own objects? Say **`recursive learn`** / **`recursive-learn`** / **`RLJ`** → [recursive-learn skill](../.cursor/skills/recursive-learn/SKILL.md); journal SSOT: [recursive-learning-journal.md](recursive-learning-journal.md).
 - Need reusable laws extracted from those learning events? Open [patterns/](patterns/README.md).
 - Need the compact operator rule for when a lane earns bounded hardening? Open [lane-hardening law](patterns/lane-hardening-law.md).
 - Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
-- Need the shortest continuity route back into the recent phase-shift explanation stack? Open [governed interpretation re-entry route](/C:/dev/strategy-codex/docs/governed-interpretation-reentry-route-2026-06-01.md).
-- Need the exact protocol for boundary objects whose acceleration pressure may now be forming a legitimacy, command, or settlement problem? Open [singularity-statecraft handoff law](/C:/dev/strategy-codex/docs/singularity-statecraft-handoff-law.md).
+- Need the shortest continuity route back into the recent phase-shift explanation stack? Open [governed interpretation re-entry route](../docs/governed-interpretation-reentry-route-2026-06-01.md).
+- Need the exact protocol for boundary objects whose acceleration pressure may now be forming a legitimacy, command, or settlement problem? Open [singularity-statecraft handoff law](../docs/singularity-statecraft-handoff-law.md).
 - Need a bounded synthesis of one archive-heavy day? Open [statecraft/synthesis/day/](synthesis/day/).
 - Re-entering after absence mid-month? Open the active **week hinge** under [`notes/reentry/`](notes/reentry/) — [METHOD § Week Hinge](synthesis/METHOD.md#week-hinge-contract).
 - Need the active daily/monthly synthesis contract, audit rubric, or proof fixtures? Open [statecraft/synthesis/METHOD.md](synthesis/METHOD.md).
@@ -225,7 +225,7 @@ At the broader repo level, the aliasing rule is now:
 - [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs (statecraft-scoped only)
 - [essays/](essays/README.md) for **compatibility holdings** of pre-root statecraft-native essays — **new essays:** [../essays/README.md](../essays/README.md) at repo root
 
-For prose-class routing across domains, use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) as the canonical chooser. The local shelf READMEs explain only the statecraft-specific version once that class decision is already made.
+For prose-class routing across domains, use [shared prose index](../docs/prose-index.md) as the canonical chooser. The local shelf READMEs explain only the statecraft-specific version once that class decision is already made.
 
 Do not move source-bearing archive material into these folders, and do not treat kernels, journals, indexes, sheets, bridges, or transactions as essay buckets.
 
@@ -260,4 +260,4 @@ Boundary law:
 - Statecraft Synthesis interprets that truth.
 - Host law, bridges, CIV-STATE retrieval, and lanes remain downstream and should not be mistaken for the archive itself.
 
-The former academy entrypoint remains at [codex/academy/statecraft/README.md](/C:/dev/strategy-codex/codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.
+The former academy entrypoint remains at [codex/academy/statecraft/README.md](../codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.

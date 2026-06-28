@@ -212,7 +212,7 @@
 - **Context:** USâ€“Iranâ€“Israel Gulf crisis; Islamabad mediation window; operator merged revised 10/15-point narratives into a single **roadmap** (not treaty) for negotiation and public propagation.
 - **Moves considered:** Split drafts (intake Jiang commentary, U.S.-framed annex, synthesized `islamabad-framework.md`) vs one canonical export; Phase A thin tranche vs Phase B guarantor / hybrid-war annexes; Leo XIV rhetoric as messaging spill only.
 - **Read / conclusion:** **[islamabad-framework.md](islamabad-framework.md)** is the **canonical public-propagation** file (preamble + five paragraphs; no annex/rubric/backend jargon). **[islamabad-framework-operator-edition.md](islamabad-framework-operator-edition.md)** holds full synthesis, tables, and commentary; WORK-only; no implied state or Holy See endorsement; rubric scores there are structured operator judgment, not forecasts.
-- **Links:** [islamabad-framework.md](islamabad-framework.md), [islamabad-framework-operator-edition.md](islamabad-framework-operator-edition.md), [us-framed-five-point-gulf-peace-framework-2026-04-08.md](us-framed-five-point-gulf-peace-framework-2026-04-08.md), [Islamabad intake + Jiang commentary](../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md), [work-strategy README](README.md#contents)
+- **Links:** [islamabad-framework.md](islamabad-framework.md), [islamabad-framework-operator-edition.md](islamabad-framework-operator-edition.md), [us-framed-five-point-gulf-peace-framework-2026-04-08.md](us-framed-five-point-gulf-peace-framework-2026-04-08.md), [Islamabad intake + Jiang commentary](../../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md), [work-strategy README](README.md#contents)
 - **Tensions:** Near-term **negotiability** vs **stability** (annex B load); **capture gap** on companion Record activity is orthogonal to this artifact.
 - **Lesson â†’ Â§III:** _TBD_ (promote only if a recurring heuristic emerges across briefs.)
 
@@ -256,7 +256,7 @@
 ## VII. Index & cross-links
 
 - **Companion Record (gated):** [`self.md`](../../../self.md), [`self-archive.md`](../../../self-archive.md) â€” conceptual; no automatic merge from this doc  
-- **Gate:** [`recursion-gate.md`](../../../recursion-gate.md)  
+- **Gate:** [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md)  
 - **CMC stewardship:** [work-civ-mem README](../work-civ-mem/README.md)  
 - **External corpus:** [civilization_memory repo](../../../research/repos/civilization_memory/) (read-only reference unless contributing upstream)  
 - **WORK menus:** [work-menu-conventions.md](../work-menu-conventions.md)  

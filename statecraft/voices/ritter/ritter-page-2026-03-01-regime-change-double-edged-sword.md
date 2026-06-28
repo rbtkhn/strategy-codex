@@ -165,7 +165,6 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md](../../../years/2026/provenance/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `thread:ritter`, 2026-03-01)
+- **Full verbatim (capture):** [provenance/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md](../../../source-archive/statecraft/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/regime-change-the-double-edged-sword

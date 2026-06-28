@@ -33,7 +33,7 @@ Davis should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [statecraft/voices/davis/](/C:/dev/strategy-codex/statecraft/voices/davis/)
+- the main body of the object is [statecraft/voices/davis/](.)
 - the speaker folder exists to orient the object at the same ontological level as `Mercouris`, `Parsi`, `Crooke`, or `Martyanov`
 - the notebook should not force Davis into helix language when the native stream is already the clearest and strongest entry path
 
@@ -41,15 +41,15 @@ That means:
 
 If the operator needs the main body of the object:
 
-- open [statecraft/voices/davis/README.md](/C:/dev/strategy-codex/statecraft/voices/davis/README.md)
+- open [statecraft/voices/davis/README.md](README.md)
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the `davis/` shelf, for example [arc-martyanov-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-martyanov-davis-host.md) or [arc-crooke-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-crooke-davis-host.md)
+- open one of the host-local arc notes from the `davis/` shelf, for example [arc-martyanov-davis-host.md](../../notes/arc-martyanov-davis-host.md) or [arc-crooke-davis-host.md](../../notes/arc-crooke-davis-host.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 
-- stay here, then read [davis-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-cross-host-note.md)
+- stay here, then read [davis-cross-host-note.md](davis-cross-host-note.md)
 
 ## Routing use
 

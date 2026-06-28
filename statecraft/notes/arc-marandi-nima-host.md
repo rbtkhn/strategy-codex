@@ -80,11 +80,11 @@ Do not use this arc as a shortcut for operational-feasibility triage or wider or
 
 ## Best paired read
 
-Best paired read: [arc-freeman-diesen-host.md](/C:/dev/strategy-codex/arc-freeman-diesen-host.md)
+Best paired read: [arc-freeman-diesen-host.md](../../arc-freeman-diesen-host.md)
 
 Why: Freeman gives the steadier diplomatic-memory and order-interpretation lane; Marandi on Dialogue Works gives the sharper Tehran-facing red-line and legitimacy lane.
 
-Second-best paired read: [arc-ritter-diesen-host.md](/C:/dev/strategy-codex/arc-ritter-diesen-host.md)
+Second-best paired read: [arc-ritter-diesen-host.md](../../arc-ritter-diesen-host.md)
 
 Why: Ritter gives the more operational and coercive-mechanics lane on some of the same crisis terrain. Marandi on Dialogue Works gives the legitimacy, red-line, and political-endurance lane.
 
@@ -99,7 +99,7 @@ Use `Dialogue Works x Marandi` when the notebook needs:
 
 ## Boundaries
 
-- If the question is mainly about what force can still accomplish or whether coercion has already failed, route outward to [arc-marandi-davis-host.md](/C:/dev/strategy-codex/arc-marandi-davis-host.md).
+- If the question is mainly about what force can still accomplish or whether coercion has already failed, route outward to [arc-marandi-davis-host.md](../../arc-marandi-davis-host.md).
 
 Do not use this speaker arc as:
 

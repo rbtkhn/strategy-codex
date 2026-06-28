@@ -22,7 +22,7 @@ This chapter tracks recurring game structure, but it does not reduce Russia to c
 
 ## Return Path
 
-Return through [CIV-STATE Russia](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/README.md), [Russia sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/sovereign-continuity.md), [Russia geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-russia/geo-strategy-russia.md), and [Russia state memory](/C:/dev/strategy-codex/statecraft/russia/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
+Return through [CIV-STATE Russia](README.md), [Russia sovereign continuity](sovereign-continuity.md), [Russia geo-strategy](geo-strategy-russia.md), and [Russia state memory](../../../russia/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
 
 ## Core Thesis
 

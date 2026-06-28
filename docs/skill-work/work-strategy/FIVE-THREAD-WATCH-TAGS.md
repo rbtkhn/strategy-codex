@@ -6,7 +6,7 @@
 
 **Status:** Core operator theory — not optional narrative color. Strategic leverage and legitimacy are exercised through **several non-fungible authoritative channels**, not a single Western headline stack.
 
-**Activation:** Referenced from [DEFAULT-PATH.md](DEFAULT-PATH.md) move 2 (inbox tagging), [state-synthesis](../../.cursor/skills/state-synthesis/SKILL.md), and [skill-narrative](../../.cursor/skills/skill-narrative/SKILL.md). Voice/lens work → **statecraft** handoff ([VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)), not the codex ledger menu.
+**Activation:** Referenced from [DEFAULT-PATH.md](DEFAULT-PATH.md) move 2 (inbox tagging), [state-synthesis](../../../skills/state-synthesis/SKILL.md), and [skill-narrative](../../../skills/skill-narrative/SKILL.md). Voice/lens work → **statecraft** handoff ([VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)), not the codex ledger menu.
 
 ---
 
@@ -41,7 +41,7 @@ Each thread is a **separate information channel** with its own primary surfaces 
 ## Agent obligations on `/codex` passes
 
 - **Tag the plane** when a load-bearing claim draws on a watch thread — in Reflection or References, not only "experts say."
-- **Split** when two channels diverge on scope or facts; do not blend without a verify line ([NOTEBOOK-PREFERENCES.md](../../codex/NOTEBOOK-PREFERENCES.md)).
+- **Split** when two channels diverge on scope or facts; do not blend without a verify line ([NOTEBOOK-PREFERENCES.md](../../../codex/NOTEBOOK-PREFERENCES.md)).
 - **Do not** substitute RSS §2 or English-only digests for §1d–§1h when that section is load-bearing.
 
 ## Anti-patterns (headline / plane)
@@ -53,6 +53,6 @@ Each thread is a **separate information channel** with its own primary surfaces 
 
 | Doc | Role |
 |-----|------|
-| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) | EOD compose, page-first contract, cross-check blocks |
+| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) | EOD compose, page-first contract, cross-check blocks |
 | [ROME-PASS.md](work-strategy-rome/ROME-PASS.md) | Holy See source order |
-| [strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) | Expert `thread:` correlation (optional) |
+| [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) | Expert `thread:` correlation (optional) |

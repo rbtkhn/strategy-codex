@@ -94,7 +94,7 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 
 - Default **Think:** verdict table in chat; **no** repo edits unless the operator switches to **Ship** and names files.
 - **Ship (explicit):** append **`verify:`** tails, **`editorial_note`** / **`source_note`** receipts on landed captures, or inbox lines — still **not** Record merge.
-- **Batch Ship default (gate weeks):** when `archive_count ≥ 3` on a same-week breaking seam and the next move is **`state synthesis`**, write **`statecraft/notes/wire/YYYY-MM-DD-news-verify-matrix.md`** (daily news-verify SSOT) before synthesis — optional per-capture `verify:` pointers only. Gate law: [NEWS-VERIFY-SYNTHESIS-GATE.md](../../statecraft/synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md).
+- **Batch Ship default (gate weeks):** when `archive_count ≥ 3` on a same-week breaking seam and the next move is **`state synthesis`**, write **`statecraft/notes/wire/YYYY-MM-DD-news-verify-matrix.md`** (daily news-verify SSOT) before synthesis — optional per-capture `verify:` pointers only. Gate law: [NEWS-VERIFY-SYNTHESIS-GATE.md](../../../statecraft/synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md).
 
 ## When to invoke
 
@@ -395,7 +395,7 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 | Strategy + verify gate | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
 | Statecraft intake | [.cursor/skills/statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Daily brief verify tokens | [docs/skill-work/work-strategy/daily-brief-template.md](../../../docs/skill-work/work-strategy/daily-brief-template.md) § Inbox paste target |
-| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
+| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
 | Notebook verify discipline | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md) |
 | Statecraft archive | [source-archive/statecraft/](../../../source-archive/statecraft/) |
 | Iran native triangulation | [docs/skill-work/work-strategy/daily-brief-iran-watch.md](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) |
@@ -528,7 +528,7 @@ python3 scripts/validate_skills.py
 | Strategy + verify gate | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
 | Statecraft intake | [.cursor/skills/statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Daily brief verify tokens | [docs/skill-work/work-strategy/daily-brief-template.md](../../../docs/skill-work/work-strategy/daily-brief-template.md) § Inbox paste target |
-| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
+| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
 | Notebook verify discipline | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md) |
 | Statecraft archive | [source-archive/statecraft/](../../../source-archive/statecraft/) |
 | Iran native triangulation | [docs/skill-work/work-strategy/daily-brief-iran-watch.md](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) |

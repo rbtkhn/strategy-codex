@@ -22,7 +22,7 @@ Geography is real here, but it is not self-explaining. Plateaus, chokepoints, an
 
 ## Return Path
 
-Return through [CIV-STATE Persia](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/README.md), [Persia sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/sovereign-continuity.md), [Iran geo lane note](/C:/dev/strategy-codex/statecraft/persia/civilization/geo.md), and [Iran state memory](/C:/dev/strategy-codex/statecraft/persia/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
+Return through [CIV-STATE Persia](README.md), [Persia sovereign continuity](sovereign-continuity.md), [Iran geo lane note](../../../persia/civilization/geo.md), and [Iran state memory](../../../persia/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
 
 ## Core Thesis
 

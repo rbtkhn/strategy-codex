@@ -31,6 +31,18 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (barnes, channel:mario-nawfal)); 16 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (11 sections). · even-chunk split pass 2026-06-26 (20 sections). · Thiel/NDAA split pass 2026-06-26 (22 sections)."
 quality_note: "ASR normalization pass 2026-06-26; ph-civ replacement SSOT."
 transcript_curation: curated_sectioned
+verify_receipt: 2026-06-28
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Ever Lovely Hormuz strike; IRGC drone on commercial vessel 25 Jun
+    verdict: supported
+    note: J25-6a — AP/CBS; host **GCC attack Iran** headline **contested** — pin Rubio/GCC stmt before adopt
+  - claim: Vance MOU architect vs Rubio GCC/CENTCOM hawk frame; deal-sabotage fear
+    verdict: partial
+    note: J25-3 — admin faction map tier-4; distinguish **J25-3a** shipping hotline from **J25-3b** Doha cell
+  - claim: Hormuz near-zero traffic / IRGC total-control snapshot
+    verdict: partial
+    note: J25-5 — Lloyd's recovery **contradicts** binary closed reads in capture register
 ---
 # BREAKING: GCC ATTACK IRAN AFTER MARCO RUBIO MEETING, IRAN STRIKE VESSEL IN HORMUZ w/ Robert Barnes
 

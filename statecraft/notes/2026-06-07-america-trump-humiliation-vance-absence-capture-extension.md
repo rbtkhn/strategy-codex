@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note extends [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) and the [successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md#successor-carrier-check-2026-06-06-pass) with **June 7 live event proof** from Nima's urgent Dialogue Works solo.
+This statecraft note extends [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](2026-06-06-america-captured-command-ndaa-ci-client-veto.md) and the [successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md#successor-carrier-check-2026-06-06-pass) with **June 7 live event proof** from Nima's urgent Dialogue Works solo.
 
 Bounded question:
 
@@ -111,20 +111,20 @@ June 6 successor check named two forks:
 
 This statecraft note extends the June 6 America statecraft note and the command-firewall transaction; it does not replace them.
 
-- [America: Captured Command - 2026-06-06](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
-- [Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate - 2026-06-07](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) (same Nima source; Persia mechanism split)
+- [America: Captured Command - 2026-06-06](2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
+- [Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate - 2026-06-07](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) (same Nima source; Persia mechanism split)
 - [Persia transaction — Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) (Persia-side gate + Washington credibility carrier)
 - [America transaction — command firewall + successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
-- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) (unused executive levers on same June 7 night)
+- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) (unused executive levers on same June 7 night)
 
-Parent daily: [State Synthesis - 2026-06-07](statecraft/synthesis/day/2026-06-07.md). This note folds under primary America lane pressure on that day-batch.
+Parent daily: [State Synthesis - 2026-06-07](../synthesis/day/2026-06-07.md). This note folds under primary America lane pressure on that day-batch.
 
 ## Source Anchors
 
-- [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
-- [Macgregor / Mario Nawfal - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
-- [Freeman / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>)
+- [Nima / Dialogue Works solo - 2026-06-07](<../../source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
+- [Macgregor / Mario Nawfal - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md>)
+- [McGovern / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Freeman / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>)
 
 Related:
 

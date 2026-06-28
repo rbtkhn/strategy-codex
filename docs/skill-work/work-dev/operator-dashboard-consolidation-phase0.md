@@ -69,7 +69,7 @@ flowchart TB
 
 Generated reports must **link** to these SSOTs; they must **not** restate or supersede them:
 
-- Not [`recursion-gate.md`](../../../recursion-gate.md), not SELF / EVIDENCE
+- Not [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md), not SELF / EVIDENCE
 - Not [`statecraft/README.md`](../../../statecraft/README.md)
 - Not [`docs/harness-architecture-map.md`](../../harness-architecture-map.md)
 - Not a substitute for chat paste: [`harness_warmup.py`](../../../scripts/harness_warmup.py) / [`operator_reentry_stack.py`](../../../scripts/operator_reentry_stack.py) remain the **thread-start** path

@@ -12,7 +12,7 @@
 | [minds/](../../../work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) (patterns) | Tri-mind / single-lens patterns for skill-strategy. | — |
 | [work-strategy-rome/](../../../work-strategy/work-strategy-rome/README.md) | Rome / Catholic axis (WORK-only; ROME-PASS, exemplars). | — |
 | [history-notebook/STATUS.md](../../../work-strategy/history-notebook/STATUS.md) | HN distillation **queue** ↔ strategy `### History resonance`. | — |
-| [research/external/work-strategy/](../../../../../research/external/work-strategy/README.md) | Transcript spine, analyst corpus (off-repo paths under `research/`). | YouTube + claims **verify** before outreach. |
+| [research/external/work-strategy/](../../../../../README.md) | Transcript spine, analyst corpus (off-repo paths under `research/`). | YouTube + claims **verify** before outreach. |
 | [common-inputs.md](../../../work-strategy/common-inputs.md) | Cross-ingest; Predictive History wiring. | — |
 | [skill-strategy](../../../../../.cursor/skills/skill-strategy/SKILL.md) | Cursor operator ritual. | — |
 | [demo_skill_strategy_transcripts_check.sh](../../../../../scripts/demo_skill_strategy_transcripts_check.sh) | Preflight for skill-strategy demo (see history). | — |

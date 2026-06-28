@@ -54,7 +54,7 @@ For each bullet in **Integrated takeaway** below, mentally tag **S / O / I** (or
 ## Operator synthesis (pre–public approval)
 
 **Dual-register line (when scope fights matter — e.g. Lebanon vs U.S. carve-out):**  
-[One sentence: mediator/regional language vs explicit bilateral carve-out — then stop; see [strategy-notebook `days.md` flashpoint notes](../../work-strategy/strategy-notebook/chapters/2026-04/days.md).]
+[One sentence: mediator/regional language vs explicit bilateral carve-out — then stop; see [strategy-notebook `days.md` flashpoint notes](../../../../codex/chapters/2026/2026-04/days.md).]
 
 **Integrated takeaway** (tone and claims for the piece; cite CIV-MEM / LIB if used; **tag planes** if mixing S/O/I in one graf):  
 [Paragraph]

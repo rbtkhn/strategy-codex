@@ -6,7 +6,7 @@
 
 - **Holds** durable **spec captures** in this `work-dev` folder (e.g. future paste-ready integration prompts). The **inward, day-scale journal** lives in [journal/](journal/README.md) (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`), symlink from [`platform/users/grace-mar/dev-journal`](../../../../../platform/users/grace-mar/dev-journal)). **[Conductor](../../../../../.cursor/skills/conductor/SKILL.md)** (operator: say **`conductor`**) **closes** and **Kleiber**-style **action** **MCQ** for **work-dev** **objects** are **wired** here — see [dev-notebook — Conductor (work-dev)](../README.md#conductor-work-dev) and [Conductor in dev journal](journal/README.md#conductor-in-dev-journal).
 - **Not** a second [work-dev README](../../README.md) (territory entrypoint) or a duplicate of [work-dev-history.md](../../work-dev-history.md) (milestone log) or [workspace.md](../../workspace.md) (current blockers / next actions). Link those instead.
-- **Not** [cici-notebook](../../../work-cici/cici-notebook/README.md) (outward OB1 / Cici line). **Routing:** [journal README — dev-journal vs cici-notebook](journal/README.md#routing-dev-journal-vs-cici-notebook).
+- **Not** [cici-notebook](../../../../../README.md) (outward OB1 / Cici line). **Routing:** [journal README — dev-journal vs cici-notebook](journal/README.md#routing-dev-journal-vs-cici-notebook).
 
 **WORK only**; not Record, not Voice.
 

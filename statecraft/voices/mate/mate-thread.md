@@ -14,12 +14,12 @@ Quick separation rule:
 
 If a question is about canonical routing, use those named surfaces instead of widening this file into a fake topical-thread system.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Mate structure is currently profile-first and intentionally light: [mate-profile.md](/C:/dev/strategy-codex/statecraft/voices/mate/mate-profile.md) owns the routeable rationale, while this file and [mate-transcript.md](/C:/dev/strategy-codex/statecraft/voices/mate/mate-transcript.md) remain rolling companion surfaces. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Mate structure is currently profile-first and intentionally light: [mate-profile.md](mate-profile.md) owns the routeable rationale, while this file and [mate-transcript.md](mate-transcript.md) remain rolling companion surfaces. Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Human **narrative journal** (below) + [`strategy-expert-mate-transcript.md`](strategy-expert-mate-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃ¢â‚¬â„¢s material was used).
+**Source:** Human **narrative journal** (below) + [`strategy-expert-mate-transcript.md`](mate-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃ¢â‚¬â„¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-mate.md`](strategy-expert-mate.md) (profile) and [`strategy-expert-mate-transcript.md`](strategy-expert-mate-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-mate.md`](mate-profile.md) (profile) and [`strategy-expert-mate-transcript.md`](mate-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)

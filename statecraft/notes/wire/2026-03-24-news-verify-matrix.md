@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-03-24
 
-**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · **Bench:** [Helmer × Marandi](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) · **Wedge:** [Mercouris × Helmer × Marandi](../notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) · **Trust arc:** [Dmitriev Jan 20 → Mar 24](../notes/arc-helmer-dmitriev-lane.md#mar-24-arc-witkoff-indirect-fiction--gcc-mediation--market-layer) · **Return:** [Mar 3 matrix](statecraft/notes/wire/2026-03-03-news-verify-matrix.md)
+**Parent:** [2026-03-24 archive day](../../../source-archive/statecraft/2026-03-24/README.md) · **Bench:** [Helmer × Marandi](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) · **Wedge:** [Mercouris × Helmer × Marandi](../notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) · **Trust arc:** [Dmitriev Jan 20 → Mar 24](../notes/arc-helmer-dmitriev-lane.md#mar-24-arc-witkoff-indirect-fiction--gcc-mediation--market-layer) · **Return:** [Mar 3 matrix](2026-03-03-news-verify-matrix.md)
 
 **Scope:** **Week ~4 pass** — Trump **talk fiction** + **market timing**; **Lavrov** (Araghchi + WW3); **Dimona/AD**; **4-division ground** deploy; **energy tit-for-tat**; **Gulf** (WSJ base · Bahrain UNSC).
 
@@ -23,10 +23,10 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | Alexander Mercouris | [Dimona / AD fails / 4-division ground / Lavrov WW3](../../source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) | **J24-A1 – A5**, **J24-B2 – B3**, **J24-C1 – C4**, **J24-D1 – D4**, **J24-E1 – E3** |
-| 2 | John Helmer | [Lavrov alarm / five terms / Witkoff indirect](../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | **J24-A2 – A4**, **J24-B1**, **J24-F1 – F2** |
-| 3 | Seyed M. Marandi | [Energy sites / Gulf gas tit-for-tat](../../source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md) | **J24-E1 – E2**, **J24-C3**, **J24-D3** |
-| 4 | Robert Pape | [Gamblers conceit · Trump's words](../../source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md) | *(interpretation tier — not wire-scored)* |
+| 1 | Alexander Mercouris | [Dimona / AD fails / 4-division ground / Lavrov WW3](../../../source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md) | **J24-A1 – A5**, **J24-B2 – B3**, **J24-C1 – C4**, **J24-D1 – D4**, **J24-E1 – E3** |
+| 2 | John Helmer | [Lavrov alarm / five terms / Witkoff indirect](../../../source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md) | **J24-A2 – A4**, **J24-B1**, **J24-F1 – F2** |
+| 3 | Seyed M. Marandi | [Energy sites / Gulf gas tit-for-tat](../../../source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md) | **J24-E1 – E2**, **J24-C3**, **J24-D3** |
+| 4 | Robert Pape | [Gamblers conceit · Trump's words](../../../source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md) | *(interpretation tier — not wire-scored)* |
 
 ## Sub-seam A — Trump talks / 48h→5d / market (Mercouris **J24-A1 – A5** · Helmer **J24-A2 – A4**)
 
@@ -34,7 +34,7 @@ WORK only; not Record.
 | --- | --- | --- | --- | --- | --- |
 | **J24-A1** | Trump **48-hour Hormuz ultimatum** (open strait or **obliterate** Iranian energy industry) then **5-day postponement** for **successful negotiations** | America | en | **Supported** | [CNBC Mar 23 live — ultimatum + extension](https://www.cnbc.com/2026/03/23/us-iran-war-live-updates.html) · Mercouris Mar 24 episode timeline (**late Sun / Mon** window) |
 | **J24-A2** | Trump: **Witkoff + Kushner** held **strong talks** with Iran; **major points of agreement** | America | en | **Contested** | White House / Truth Social carry Mar 23–24 vs **J24-A3** Iranian denial — no wire-primary **Iranian confirmation** |
-| **J24-A3** | Iran **foreign ministry / officials**: **no negotiations** with US; reject Trump claim | Persia | en | **Supported** | [Anadolu Mar 24 carry — FM denial pattern](https://www.aa.com.tr/en/middle-east/) · aligns [Mar 3 **J03-E2**](statecraft/notes/wire/2026-03-03-news-verify-matrix.md#sub-seam-e--gulf-panic--diplomacy-mercouris-j03-e1--e2--wilkerson-j03-e3) continuity |
+| **J24-A3** | Iran **foreign ministry / officials**: **no negotiations** with US; reject Trump claim | Persia | en | **Supported** | [Anadolu Mar 24 carry — FM denial pattern](https://www.aa.com.tr/en/middle-east/) · aligns [Mar 3 **J03-E2**](2026-03-03-news-verify-matrix.md#sub-seam-e--gulf-panic--diplomacy-mercouris-j03-e1--e2--wilkerson-j03-e3) continuity |
 | **J24-A4** | **FT**: **~$500–600M** oil/futures positions timed **minutes before** Trump **5-day** Truth Social post | America | en | **Partial** | [Financial Times Mar 24 — Hormuz deadline trading scrutiny](https://www.ft.com/) · exact **$600M** figure **desk tier** until enforcement filing; Mercouris **6–15 min** vs Helmer **~$600M** — same seam, **amount contested** |
 | **J24-A5** | **Pakistan** role as **mediator** — military chief / Pezeshkian contacts (routine vs breakthrough) | America / Adjacent | en | **Partial** | [Reuters Mar 24 — Pakistan messages between US and Iran](https://www.reuters.com/world/) · **contacts Supported** · **negotiation breakthrough Contradicted** by **J24-A3** |
 
@@ -53,7 +53,7 @@ WORK only; not Record.
 | **J24-C1** | Iran strikes **Arad** and **Dimona** area — **cluster munitions**; **extensive building damage** Arad | Persia / America-adjacent | en | **Supported** | [Times of Israel Mar 24 — missiles hit Negev including Dimona area](https://www.timesofisrael.com/) · [Al Jazeera Mar 24 — Iran missiles Israel](https://www.aljazeera.com/) |
 | **J24-C2** | **Dimona nuclear reactor** itself **not confirmed** hit/damaged | America | en | **Unclear** | **J24-C1** cites **town/research complex** damage; reactor status **not wire-confirmed** in triage pass |
 | **J24-C3** | Marandi / desk: Iran **controls skies** over occupied Palestine; Israeli AD **depleted** | Persia | en | **Partial** | **J24-C1** **Supported** (missiles getting through) · **sky control** = **tier 4 adversary** framing · Helmer **Jake Tapper AD non-functional** — **Partial** media desk |
-| **J24-C4** | US **stealing THAAD/Patriot** from **South Korea** for Israel | America / PRC-adjacent | en | **Partial** | Continuation [Mar 3 **J03-B3**](statecraft/notes/wire/2026-03-03-news-verify-matrix.md#sub-seam-b--thaad--air-defense-mercouris-j03-b1--b3--wilkerson-j03-b2) — [Yonhap Mar 11+](https://en.yna.co.kr/) · Mar 24 = **operational consequence** tier |
+| **J24-C4** | US **stealing THAAD/Patriot** from **South Korea** for Israel | America / PRC-adjacent | en | **Partial** | Continuation [Mar 3 **J03-B3**](2026-03-03-news-verify-matrix.md#sub-seam-b--thaad--air-defense-mercouris-j03-b1--b3--wilkerson-j03-b2) — [Yonhap Mar 11+](https://en.yna.co.kr/) · Mar 24 = **operational consequence** tier |
 
 ## Sub-seam D — Ground forces / Kish (Mercouris **J24-D1 – D4** · Marandi **J24-D3**)
 
@@ -69,8 +69,8 @@ WORK only; not Record.
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
 | **J24-E1** | Trump **self-restriction**: no further US strikes on **Iranian energy** during **5-day** window — then **gas facility hit** reported | America | en | **Contested** | Mercouris: strike **during** restriction — [Reuters Mar 24 — Iran gas facility hit](https://www.reuters.com/world/middle-east/) · US **blames Israel** — attribution **Contested** |
-| **J24-E2** | **Tit-for-tat:** Israeli hit **South Pars** → Iran hit **Qatar/Saudi/UAE gas** infrastructure (Marandi) | Persia / Adjacent | en | **Partial** | [Mar 3 **J03-C2**](statecraft/notes/wire/2026-03-03-news-verify-matrix.md#sub-seam-c--hormuz--energy-mercouris-j03-c1--c4--marandi-cross) LNG halt **Supported** · Mar 24 **cycle** = **desk synthesis** — individual Gulf gas hits **Partial** by country |
-| **J24-E3** | **Hormuz** still **closed**; **Economist**: even if opened tomorrow, **~4 months** to normalize energy markets | America | en | **Partial** | [Mar 3 **J03-C1** Supported](statecraft/notes/wire/2026-03-03-news-verify-matrix.md) · **4-month lag** = **Economist scenario** — **Partial** not official forecast |
+| **J24-E2** | **Tit-for-tat:** Israeli hit **South Pars** → Iran hit **Qatar/Saudi/UAE gas** infrastructure (Marandi) | Persia / Adjacent | en | **Partial** | [Mar 3 **J03-C2**](2026-03-03-news-verify-matrix.md#sub-seam-c--hormuz--energy-mercouris-j03-c1--c4--marandi-cross) LNG halt **Supported** · Mar 24 **cycle** = **desk synthesis** — individual Gulf gas hits **Partial** by country |
+| **J24-E3** | **Hormuz** still **closed**; **Economist**: even if opened tomorrow, **~4 months** to normalize energy markets | America | en | **Partial** | [Mar 3 **J03-C1** Supported](2026-03-03-news-verify-matrix.md) · **4-month lag** = **Economist scenario** — **Partial** not official forecast |
 | **J24-E4** | Iran **dual corridor** — friendly states **IRGC permits** vs locked tankers (Helmer desk) | Persia | en | **Unclear** | Maritime media **desk tier** Mar 24 — not wire-primary IMO/USNI in pass |
 
 ## Sub-seam F — Gulf / UNSC (Helmer **J24-F1 – F2**)
@@ -100,4 +100,4 @@ WORK only; not Record.
 
 - `verify:J24-A1-supported` · `verify:J24-A2-contested` · `verify:J24-A3-supported` · `verify:J24-A4-partial` · `verify:J24-B1-partial` · `verify:J24-B2-supported` · `verify:J24-C1-supported` · `verify:J24-D1-partial` · `verify:J24-E1-contested` · `verify:J24-F1-partial`
 
-**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md) · **Opened:** 2026-06-20
+**Promoted via:** [`wire-verify`](../../../skills/wire-verify/SKILL.md) · **Opened:** 2026-06-20

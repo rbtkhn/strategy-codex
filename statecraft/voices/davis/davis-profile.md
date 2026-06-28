@@ -171,7 +171,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [davis-transcript.md](../../../codex/2026/davis/davis-transcript.md) (7-day rolling verbatim, compatibility) and [davis-thread.md](../../../codex/2026/davis/davis-thread.md) (distilled analytical thread, compatibility).
+**Companion files:** [davis-transcript.md](../../../../../../../../codex/2026/davis/davis-transcript.md) (7-day rolling verbatim, compatibility) and [davis-thread.md](../../../../../../../../codex/2026/davis/davis-thread.md) (distilled analytical thread, compatibility).
 
 ## Archive / backfill note
 

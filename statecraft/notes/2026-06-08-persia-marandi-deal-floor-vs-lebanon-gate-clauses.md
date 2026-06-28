@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Marandi Deal Floor × Lebanon Gate Clauses — 2026-06-08
 
-**Parent:** [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) (patched Jun 8) · [Pape Day 100 companion](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [Marandi source](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md)
+**Parent:** [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) (patched Jun 8) · [Pape Day 100 companion](2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [Marandi source](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md)
 
 ## Purpose
 
@@ -56,7 +56,7 @@ From in-voice close (Jun 8):
 
 **Gap / tension:** Transaction sequences **frozen-asset tranche after gate met**; Marandi demands assets + oil waiver **as part of what was agreed** upfront. Aligns with Davis/NBC **"comes after"** falsifier — instrument off-ramp order **matches Marandi**; Trump posture **does not**.
 
-**Recommendation:** Cross-link Clause B to **upfront trust goods table** in [Marandi × Davis trust companion](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) — gate green is necessary but Marandi floor also requires **published upfront row** before nuclear sequence.
+**Recommendation:** Cross-link Clause B to **upfront trust goods table** in [Marandi × Davis trust companion](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) — gate green is necessary but Marandi floor also requires **published upfront row** before nuclear sequence.
 
 ---
 
@@ -108,7 +108,7 @@ From in-voice close (Jun 8):
 |---|---|
 | Braid rows (`D-RED-*`, `D-HORM-01`, `D-LINK-01`) | [Lebanon gate — Clause D](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) |
 | 30-day guarantee issuance + reciprocal assurances | [Hormuz transaction — Instrument Text](../persia/transactions/hormuz-recognition-transit-transaction.md) |
-| Weekly falsifier review | [Pape Day 100 watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) |
+| Weekly falsifier review | [Pape Day 100 watch sheet](2026-06-08-pape-day-100-indicator-watch-sheet.md) |
 
 ### Marandi traffic band — provenance
 
@@ -176,9 +176,9 @@ Short rule: **Marandi's Jun 8 floor names the destination ("before the war"); Ju
 
 - [Patched gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md) — activation rule × this note §Hormuz Activation
-- [Pape Day 100 indicator watch sheet](statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md) — `D-HORM-01` weekly row
-- [Davis Lebanon fulcrum × Crooke](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
+- [Pape Day 100 indicator watch sheet](2026-06-08-pape-day-100-indicator-watch-sheet.md) — `D-HORM-01` weekly row
+- [Davis Lebanon fulcrum × Crooke](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 - [Marandi, 2026-06-02 — 25–30 ships/day](../../source-archive/statecraft/2026-06-02/source-dialogue-works-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md)
-- Parent daily (when written): [2026-06-08.md](statecraft/synthesis/day/2026-06-08.md)
-- **Jun 12 bridge:** [Marandi clauses × J12-6 × Aguilar FM floor](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
-- **72h watch:** [2026-06-12-72h-watch-run.md](statecraft/notes/watch/2026-06-12-72h-watch-run.md)
+- Parent daily (when written): [2026-06-08.md](../synthesis/day/2026-06-08.md)
+- **Jun 12 bridge:** [Marandi clauses × J12-6 × Aguilar FM floor](2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
+- **72h watch:** [2026-06-12-72h-watch-run.md](watch/2026-06-12-72h-watch-run.md)

@@ -1,10 +1,10 @@
 **strategy-codex instance notes**
 
-- Parent synthesis shelf: [singularity/synthesis](/C:/dev/strategy-codex/singularity/synthesis)
-- Notes shelf: [singularity/notes](/C:/dev/strategy-codex/singularity/notes/README.md)
-- Current promoted example: [compute-political-currency-control-plane-substrate.md](/C:/dev/strategy-codex/singularity/notes/compute-political-currency-control-plane-substrate.md)
-- Parent month example: [2026-05.md](/C:/dev/strategy-codex/singularity/synthesis/2026-05.md)
-- Notes index: [singularity/notes/README.md](/C:/dev/strategy-codex/singularity/notes/README.md)
+- Parent synthesis shelf: [singularity/synthesis](../../../singularity/synthesis)
+- Notes shelf: [singularity/notes](../../../singularity/notes/README.md)
+- Current promoted example: [compute-political-currency-control-plane-substrate.md](../../../singularity/notes/compute-political-currency-control-plane-substrate.md)
+- Parent month example: [2026-05.md](../../../singularity/synthesis/2026-05.md)
+- Notes index: [singularity/notes/README.md](../../../singularity/notes/README.md)
 
 **Repo notes**
 

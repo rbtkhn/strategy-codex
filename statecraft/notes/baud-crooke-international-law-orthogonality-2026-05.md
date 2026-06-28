@@ -6,12 +6,12 @@ WORK only; not Record.
 
 Local cluster under review:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread-international-law.md)
-- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
-- [crooke-thread.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread.md)
-- [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
-- [crooke-helix.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-helix.md)
+- [baud-thread-international-law.md](../voices/baud/baud-thread-international-law.md)
+- [crooke-thread-international-law.md](../voices/crooke/crooke-thread-international-law.md)
+- [arc-baud-continuity.md](arc-baud-continuity.md)
+- [crooke-thread.md](../voices/crooke/crooke-thread.md)
+- [baud-helix.md](../voices/baud/baud-helix.md)
+- [crooke-helix.md](../voices/crooke/crooke-helix.md)
 
 Bounded claim:
 
@@ -23,18 +23,18 @@ Bounded claim:
 
 Arcs under review:
 
-- [arc-baud-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-continuity.md)
-- [crooke-thread.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread.md)
+- [arc-baud-continuity.md](arc-baud-continuity.md)
+- [crooke-thread.md](../voices/crooke/crooke-thread.md)
 
 Threads under review:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-thread-international-law.md)
-- [crooke-thread-international-law.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-thread-international-law.md)
+- [baud-thread-international-law.md](../voices/baud/baud-thread-international-law.md)
+- [crooke-thread-international-law.md](../voices/crooke/crooke-thread-international-law.md)
 
 Comparison-only notes:
 
-- [baud-helix.md](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md)
-- [crooke-helix.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-helix.md)
+- [baud-helix.md](../voices/baud/baud-helix.md)
+- [crooke-helix.md](../voices/crooke/crooke-helix.md)
 
 ## Arc audit
 

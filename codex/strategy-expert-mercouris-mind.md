@@ -12,4 +12,4 @@ This path is a **stable compatibility redirect** only. Do **not** add new regist
 
 **Stable link chain:** [CIV-MIND-MERCOURIS.md](minds/CIV-MIND-MERCOURIS.md) → this file → voice profile.
 
-**Companion files:** [strategy-expert-mercouris.md](strategy-expert-mercouris.md) · [strategy-expert-mercouris-thread.md](strategy-expert-mercouris-thread.md) · [strategy-expert-mercouris-transcript.md](strategy-expert-mercouris-transcript.md)
+**Companion files:** [strategy-expert-mercouris.md](../statecraft/voices/mercouris/mercouris-profile.md) · [strategy-expert-mercouris-thread.md](../statecraft/voices/mercouris/mercouris-thread.md) · [strategy-expert-mercouris-transcript.md](../statecraft/voices/mercouris/mercouris-transcript.md)

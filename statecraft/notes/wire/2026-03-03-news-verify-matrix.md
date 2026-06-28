@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-03-03
 
-**Parent:** [2026-03-03 archive day](../../source-archive/statecraft/2026-03-03/README.md) · **Attrition wedge:** [Mercouris × Wilkerson](../notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) · **Iran weave:** [Helmer × Marandi](../notes/2026-03-03-iran-war-weave-helmer-marandi.md) · **Feb 17 return:** [Hormuz partial → closed](../notes/wire/2026-02-17-news-verify-matrix.md#sub-seam-e--iran-bench--hormuz-marandi--mearsheimer-j17-p1--p8)
+**Parent:** [2026-03-03 archive day](../../../source-archive/statecraft/2026-03-03/README.md) · **Attrition wedge:** [Mercouris × Wilkerson](../notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) · **Iran weave:** [Helmer × Marandi](../notes/2026-03-03-iran-war-weave-helmer-marandi.md) · **Feb 17 return:** [Hormuz partial → closed](../notes/wire/2026-02-17-news-verify-matrix.md#sub-seam-e--iran-bench--hormuz-marandi--mearsheimer-j17-p1--p8)
 
 **Scope:** **Air-war / attrition pass** — Mercouris + Wilkerson (F-15, THAAD, Hormuz, stockpiles, Gulf panic). Cross-check Marandi/Helmer where hooks overlap.
 
@@ -22,10 +22,10 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | Alexander Mercouris | [Attrition / stockpiles / Gulf panic](../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | **J03-A1 – A6**, **J03-B1 – B3**, **J03-C1 – C4**, **J03-D1 – D3**, **J03-E1 – E2** |
-| 2 | Lawrence Wilkerson | [Warplanes downed / bases rocked](../../source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md) | **J03-A1**, **J03-B2**, **J03-D2**, **J03-E3** |
-| 3 | Mohammad Marandi | [Tehran under fire / Hormuz closed](../../source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md) | **J03-C1 – C2** (cross) |
-| 4 | John Helmer | [China Russia Iran nuclear option](../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | **J03-E1** (Putin calls) |
+| 1 | Alexander Mercouris | [Attrition / stockpiles / Gulf panic](../../../source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) | **J03-A1 – A6**, **J03-B1 – B3**, **J03-C1 – C4**, **J03-D1 – D3**, **J03-E1 – E2** |
+| 2 | Lawrence Wilkerson | [Warplanes downed / bases rocked](../../../source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md) | **J03-A1**, **J03-B2**, **J03-D2**, **J03-E3** |
+| 3 | Mohammad Marandi | [Tehran under fire / Hormuz closed](../../../source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md) | **J03-C1 – C2** (cross) |
+| 4 | John Helmer | [China Russia Iran nuclear option](../../../source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) | **J03-E1** (Putin calls) |
 
 ## Sub-seam A — F-15 / friendly fire (Mercouris **J03-A1 – A3** · Wilkerson **J03-A1**)
 
@@ -59,7 +59,7 @@ WORK only; not Record.
 | **J03-C4** | Trump Mar 3: **DFC risk insurance** + **Navy escort** for Gulf shipping | America | en | **Supported** | [CNBC Mar 3 — Trump orders insurance + escorts](https://www.cnbc.com/2026/03/03/us-iran-war-live-updates.html) |
 | **J03-C5** | UAE: Iran drone hit **Adnoc tanker** in Hormuz (no injuries) | Persia / Adjacent | en | **Supported** | [Khaleej Times day 4](https://www.khaleejtimes.com/uae/emergencies/uae-intercepts-123-new-iranian-drones-11-missiles-no-injuries-reported) |
 
-**Arc:** [Feb 17 **J17-P1** partial drill](statecraft/notes/wire/2026-02-17-news-verify-matrix.md) → Mar 3 **war closure** (**Supported**).
+**Arc:** [Feb 17 **J17-P1** partial drill](2026-02-17-news-verify-matrix.md) → Mar 3 **war closure** (**Supported**).
 
 ## Sub-seam D — Stockpiles / interceptors (Mercouris **J03-D1 – D3** · Wilkerson **J03-D2**)
 
@@ -93,4 +93,4 @@ WORK only; not Record.
 
 - `verify:J03-A1-supported` · `verify:J03-A2-supported` · `verify:J03-A3-contradicted` · `verify:J03-B1-supported` · `verify:J03-B2-partial` · `verify:J03-B3-partial` · `verify:J03-C1-supported` · `verify:J03-C2-supported` · `verify:J03-C4-supported` · `verify:J03-D1-partial` · `verify:J03-D3-partial` · `verify:J03-E1-supported` · `verify:J03-E2-supported` · `verify:J03-E3-supported`
 
-**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md) · **Opened:** 2026-06-20
+**Promoted via:** [`wire-verify`](../../../skills/wire-verify/SKILL.md) · **Opened:** 2026-06-20

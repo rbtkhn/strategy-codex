@@ -116,8 +116,8 @@ Current judgment:
 
 ### Unresolved but honestly labeled
 
-- [source-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) remains unresolved in compatibility residue and page notes
-- [source-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) remains unresolved in compatibility residue and page notes
+- [source-mearsheimer-redacted-trump-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) remains unresolved in compatibility residue and page notes
+- [source-hedges-mearsheimer-iran-2026-04-20.md](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) remains unresolved in compatibility residue and page notes
 
 ### Unresolved and still leaking as if canonical
 

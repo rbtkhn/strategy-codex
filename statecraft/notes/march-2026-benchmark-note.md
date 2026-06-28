@@ -41,19 +41,19 @@ That means March is not currently a live closure campaign month on local evidenc
 
 Use these existing surfaces as the benchmark spine:
 
-- [wilkerson-march-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-march-2026-note.md)
+- [wilkerson-march-2026-note.md](../voices/wilkerson/wilkerson-march-2026-note.md)
   Carries the seven-anchor escalation-hinge reading and already preserves why March is routeable without more closure work.
 
-- [arc-march-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-march-2026-cross-context-parsi-host.md)
+- [arc-march-2026-cross-context-parsi-host.md](../../arc-march-2026-cross-context-parsi-host.md)
   Preserves March as the early mature-crossing month where authored mechanism and interview pressure visibly meet.
 
-- [arc-march-2026-cross-host-freeman-host.md](/C:/dev/strategy-codex/arc-march-2026-cross-host-freeman-host.md)
+- [arc-march-2026-cross-host-freeman-host.md](../../arc-march-2026-cross-host-freeman-host.md)
   Makes the month-level system-activation sequence visible across hosts rather than letting March be rediscovered piecemeal.
 
-- [pape-marandi-parsi-backtest-march-2026.md](/C:/dev/strategy-codex/statecraft/bridges/pape-marandi-parsi-backtest-march-2026.md)
+- [pape-marandi-parsi-backtest-march-2026.md](../bridges/pape-marandi-parsi-backtest-march-2026.md)
   Shows that March already supports a serious tri-lens read and that architecture is present even in embryonic war-phase form.
 
-- [march-2026-closure-method-application.md](/C:/dev/strategy-codex/statecraft/notes/march-2026-closure-method-application.md)
+- [march-2026-closure-method-application.md](march-2026-closure-method-application.md)
   Locks the routing judgment that March is better used as a mature benchmark month than as a live closure campaign.
 
 ## What March Is Good For

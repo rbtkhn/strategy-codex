@@ -95,4 +95,4 @@ That is the gain:
 
 ## June Extension
 
-- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork - 2026-06-07](statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) — same America-side deterioration with June levers (munitions faucet, NDAA reallocation, war-powers) and June 7 live falsification.
+- [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork - 2026-06-07](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) — same America-side deterioration with June levers (munitions faucet, NDAA reallocation, war-powers) and June 7 live falsification.

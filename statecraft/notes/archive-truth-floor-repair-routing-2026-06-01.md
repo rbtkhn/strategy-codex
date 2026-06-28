@@ -42,8 +42,8 @@ archive truth than it did in a looser accumulation phase.
 
 The `Hormuz` family now has a closed proof arc:
 
-- before: [statecraft-hormuz-audit-current.md](/C:/dev/strategy-codex/artifacts/transcript-audits/statecraft-hormuz-audit-current.md)
-- after: [statecraft-hormuz-audit-postfix-reviewed.md](/C:/dev/strategy-codex/artifacts/transcript-audits/statecraft-hormuz-audit-postfix-reviewed.md)
+- before: [statecraft-hormuz-audit-current.md](../../artifacts/transcript-audits/statecraft-hormuz-audit-current.md)
+- after: [statecraft-hormuz-audit-postfix-reviewed.md](../../artifacts/transcript-audits/statecraft-hormuz-audit-postfix-reviewed.md)
 
 That means:
 
@@ -128,7 +128,7 @@ If the current family already has a clean `before -> repair -> after -> remainde
 arc and the remainder is zero or explicitly reviewed, stop there and open the
 next tranche instead of searching for more local cleanup.
 
-For the compact reusable receipt shape, open [Archive Truth-Floor Audit Receipt Pattern](/C:/dev/strategy-codex/docs/archive-truth-floor-audit-receipt-pattern.md).
+For the compact reusable receipt shape, open [Archive Truth-Floor Audit Receipt Pattern](../../docs/archive-truth-floor-audit-receipt-pattern.md).
 
 Do not narrate this seam as:
 
@@ -146,7 +146,7 @@ archive truth-floor repair is now one of the machine's own governed subfunctions
 Archive repair now protects the truth-bearing floor beneath the machine's
 interpretive power.
 
-For the full plain-language consequence, open [Why Archive Truth Now Matters More](/C:/dev/strategy-codex/docs/why-archive-truth-now-matters-more-2026-06-01.md).
+For the full plain-language consequence, open [Why Archive Truth Now Matters More](../../docs/why-archive-truth-now-matters-more-2026-06-01.md).
 
 ## Routing Distinction
 
@@ -163,7 +163,7 @@ Do **not** use this note when the unresolved question is instead:
 - live object routing or lane ownership
   - open [statecraft front door](../README.md)
 - prose class
-  - open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md)
+  - open [shared prose index](../../docs/prose-index.md)
 - whether a note has matured into a stand-alone argument
   - open [statecraft essays](../essays/README.md)
 
@@ -186,5 +186,5 @@ prove one phrase family cleanly, then advance the tranche boundary
 
 - [statecraft front door](../README.md)
 - [Statecraft Archive and Statecraft Synthesis](../archive-synthesis-law.md)
-- [Statecraft Source Archive](/C:/dev/strategy-codex/source-archive/statecraft/README.md)
-- [Why Archive Truth Now Matters More](/C:/dev/strategy-codex/docs/why-archive-truth-now-matters-more-2026-06-01.md)
+- [Statecraft Source Archive](../../source-archive/statecraft/README.md)
+- [Why Archive Truth Now Matters More](../../docs/why-archive-truth-now-matters-more-2026-06-01.md)

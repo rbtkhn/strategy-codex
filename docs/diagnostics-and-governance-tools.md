@@ -78,7 +78,7 @@ The core distinction is:
 - **Authority:** WORK-only / derived artifact
 - **Writes:** metadata / artifacts only
 - **Typical command/path:**
-  [`skill-work/work-dev/interface-runtime/artifacts/README.md`](skill-work/work-dev/interface-runtime/artifacts/README.md)
+  [`skill-work/work-dev/interface-runtime/artifacts/README.md`](../runtime/artifacts/README.md)
 - **Use when:** creating dashboards, visualizers, review cockpits, or
   prototype views
 

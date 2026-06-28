@@ -12,9 +12,9 @@ Dignity-preserving latency restraint.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Parsi](../../../../speakers/parsi/) / [Marandi](../../../../speakers/marandi/) for Iranian bargaining logic; [Pape](../../../../speakers/pape/) for coercive-center leverage; [Ritter](../../../../speakers/ritter/) for nuclear danger; [Crooke](../../../../speakers/crooke/) for Western misreading.
+- Speaker-state inputs: [Parsi](../../../../../statecraft/voices/parsi) / [Marandi](../../../../../statecraft/voices/marandi) for Iranian bargaining logic; [Pape](../../../../../statecraft/voices/pape) for coercive-center leverage; [Ritter](../../../../../statecraft/voices/ritter) for nuclear danger; [Crooke](../../../../../statecraft/voices/crooke) for Western misreading.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-02-07](../../../../years/2026/raw-input/2026-02-07/source-parsi-irans-despair-is-us-policy-2026-02-07.md); [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Ritter 2026-02-05](../../../../years/2026/raw-input/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
+- Raw-input / provenance anchors: [Parsi 2026-02-07](../../../../../source-archive/statecraft/2026-02-07/source-parsi-irans-despair-is-us-policy-2026-02-07.md); [Parsi 2026-03-08](../../../../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-05-03](../../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Ritter 2026-02-05](../../../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
 
 ## Civilization / Empire Helix Input
 

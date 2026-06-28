@@ -67,9 +67,9 @@ If you would like expansions (e.g., deeper technical comparison, proposed cross-
 ## Links (grace-mar implementation surfaces)
 
 - [AGENTS.md (operating modes, governance)](../../../../../AGENTS.md)
-- [Recursion gate (staging; merge is human/companion-governed)](../../../../../recursion-gate.md)
+- [Recursion gate (staging; merge is human/companion-governed)](../../../../../archive/grace-mar-instance/recursion-gate.md)
 - [Workbench harness (receipts; no merge authority)](../../workbench/README.md)
-- [Interface artifacts and derived-output policy](../../interface-runtime/artifacts/README.md)
+- [Interface artifacts and derived-output policy](../../../../../runtime/artifacts/README.md)
 - [work-dev territory README](../../README.md)
 - [known-gaps / control plane](../../known-gaps.md)
 

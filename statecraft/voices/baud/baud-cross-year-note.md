@@ -6,14 +6,14 @@ Purpose: compact note for keeping the Baud lane historically honest across years
 
 ## Core correction
 
-The current [Baud helix](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md) is still correctly a **2026 double helix**:
+The current [Baud helix](baud-helix.md) is still correctly a **2026 double helix**:
 
-- [davis x baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-davis-host.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/statecraft/notes/arc-baud-nima-host.md)
+- [davis x baud](../../notes/arc-baud-davis-host.md)
+- [Dialogue Works x Baud](../../notes/arc-baud-nima-host.md)
 
 However, fresh direct YouTube search confirms that a real **`Diesen x Baud`** lane also exists as a **2025** host branch. That means Baud does have a broader cross-host history than the 2026 object alone suggests, but the missing piece belongs to a different year.
 
-The host-local note for that branch is now [arc-baud-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-baud-diesen-host.md).
+The host-local note for that branch is now [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md).
 
 ## The 2025 Diesen strand
 

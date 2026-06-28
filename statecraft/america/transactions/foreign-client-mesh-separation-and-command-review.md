@@ -15,14 +15,14 @@ Foreign client mesh separation and command-review firewall.
 - Speaker-state inputs: Macgregor (NDAA mesh, protection limits, force-structure mismatch), McGovern (CI critical tier, lobby capture, 1973 treaty rejection logic), Freeman (Trump→Netanyahu referendum chain, sukfong negotiation incapacity, Greater Israel backfire), **Hoh (Section 224 statutory mesh — coordination agent, procurement embedding, vote evasion, Netanyahu origination)**.
 - Scoreboards used: June 6 America statecraft note compression — [Captured Command, NDAA Mesh, CI Alarm, Client Veto](../../notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (includes Hoh June 4 pass); parent [Daily Synthesis 2026-06-06](../../synthesis/day/2026-06-06.md); [Daily Synthesis 2026-06-04](../../synthesis/day/2026-06-04.md).
 - Raw-input / provenance anchors:
-  - [Macgregor / Nawfal 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md)
-  - [McGovern / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
-  - [Freeman / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
-  - [Hoh / Dialogue Works 2026-06-04 (Section 224)](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
-  - [Barnes / Nawfal 2026-06-08 (non-intercept, Colby spying, MOU money)](../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
-  - [Sachs / Napolitano 2026-06-08 (pushback publication theory, NYT spying plant)](../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md)
-  - [Aguilar / Moral Resistance 2026-06-12 (§224 Hill trip, FY27 mesh likely pass, Iran-bridge quid, inverse lever)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
-  - [Aguilar / Dialogue Works 2026-06-12 (aid-cut enforcement lever — positive mirror to §224 inverse)](../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)
+  - [Macgregor / Nawfal 2026-06-06](../../../source-archive/statecraft/2026-06-06/source-mario-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md)
+  - [McGovern / Dialogue Works 2026-06-06](../../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
+  - [Freeman / Dialogue Works 2026-06-06](../../../source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
+  - [Hoh / Dialogue Works 2026-06-04 (Section 224)](../../../source-archive/statecraft/2026-06-04/source-dialogue-works-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
+  - [Barnes / Nawfal 2026-06-08 (non-intercept, Colby spying, MOU money)](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+  - [Sachs / Napolitano 2026-06-08 (pushback publication theory, NYT spying plant)](../../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md)
+  - [Aguilar / Moral Resistance 2026-06-12 (§224 Hill trip, FY27 mesh likely pass, Iran-bridge quid, inverse lever)](../../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
+  - [Aguilar / Dialogue Works 2026-06-12 (aid-cut enforcement lever — positive mirror to §224 inverse)](../../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)
 - Prior statecraft drafts: [Freeman vs Sachs America input](../freeman-vs-sachs-america-input.md); [America helix](../helix.md).
 
 ## Realism / Incentive Filter
@@ -275,7 +275,7 @@ See [Marandi × J12-6 × Aguilar bridge](../../notes/2026-06-12-marandi-clauses-
 | **`AMER-224-INV-06`** | **Bridge quid:** Netanyahu tolerates 60-day pause; demands **§224 license** so future Lebanon/Hezbollah ops need no US permission | **Inverse of DW aid-cut lever** — client buys autonomy, not restraint | Clauses D, E — client-origination flag + performative daylight bar |
 | **`AMER-224-INV-07`** | Trump pressures Speaker/Senate (Wicker) to pass mesh while MOU track active | Executive trades **client mesh** for **negotiation quiet** | Off-ramp §4 — emissary deals cannot alter basing/strike terms without 72h congressional notification |
 
-**Positive mirror (DW Aguilar same day):** only credible **forward lever** remains **cut full military support to Israel** ([DW capture](../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)) — **not** mesh integration. **Inverse pair:** `aid-cut = lever absent (required)` · `§224 = inverse lever (client license)`.
+**Positive mirror (DW Aguilar same day):** only credible **forward lever** remains **cut full military support to Israel** ([DW capture](../../../source-archive/statecraft/2026-06-12/source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)) — **not** mesh integration. **Inverse pair:** `aid-cut = lever absent (required)` · `§224 = inverse lever (client license)`.
 
 **`AMER-224-RCPT-04` receipt row (inverse-lever):**
 
@@ -315,4 +315,4 @@ See [Marandi × J12-6 × Aguilar bridge](../../notes/2026-06-12-marandi-clauses-
 - [Barnes × America capture — non-intercept, Colby, MOU (2026-06-08)](../../notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
 - [Sachs × Wilkerson × Barnes — spying pushback instrument (2026-06-08)](../../notes/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md)
 - [Marandi × J12-6 × Aguilar bridge (§224 inverse-lever cross-lane)](../../notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
-- [Aguilar MR / no-deal + §224 (archive)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
+- [Aguilar MR / no-deal + §224 (archive)](../../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)

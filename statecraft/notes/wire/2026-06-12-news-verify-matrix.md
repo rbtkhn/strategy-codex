@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News-verify matrix — 12 Jun 2026 statecraft batch
 
-**Batch window:** 12 Jun 2026 (developing-story) · **Files:** 9 · **Procedure:** [wire-verify SKILL](../../.cursor/skills/wire-verify/SKILL.md) triage · **Parent:** [2026-06-12 daily](statecraft/synthesis/day/2026-06-12.md) · [Jun 12 archive README](../../source-archive/statecraft/2026-06-12/README.md)
+**Batch window:** 12 Jun 2026 (developing-story) · **Files:** 9 · **Procedure:** [wire-verify SKILL](../../../skills/wire-verify/SKILL.md) triage · **Parent:** [2026-06-12 daily](../../synthesis/day/2026-06-12.md) · [Jun 12 archive README](../../../source-archive/statecraft/2026-06-12/README.md)
 
 ---
 
@@ -109,8 +109,8 @@ WORK only; not Record.
 
 | Watch | Pass | Fail | **72h run (13 Jun)** |
 |-------|------|------|---------------------|
-| UAE official confirms any tranche | J12-4 upgrades to **partial/supported** | MFA denial holds → stay **contested** | **FAIL delivered** — [run](statecraft/notes/watch/2026-06-12-72h-watch-run.md#fork-2--uae-asset-tranche-j12-4) |
-| Mutual MOU text published both sides | J12-2 → **supported** | One-side draft only → stay **partial** | **HOLD partial** — [run](statecraft/notes/watch/2026-06-12-72h-watch-run.md#fork-3--mutual-mou-text-j12-2) |
-| IDF ops halt southern Lebanon | J12-6 fracture **heals** | Evacuation/strike pattern continues → **supported fracture** | **FAIL** — [run](statecraft/notes/watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) |
+| UAE official confirms any tranche | J12-4 upgrades to **partial/supported** | MFA denial holds → stay **contested** | **FAIL delivered** — [run](../watch/2026-06-12-72h-watch-run.md#fork-2--uae-asset-tranche-j12-4) |
+| Mutual MOU text published both sides | J12-2 → **supported** | One-side draft only → stay **partial** | **HOLD partial** — [run](../watch/2026-06-12-72h-watch-run.md#fork-3--mutual-mou-text-j12-2) |
+| IDF ops halt southern Lebanon | J12-6 fracture **heals** | Evacuation/strike pattern continues → **supported fracture** | **FAIL** — [run](../watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) |
 
-Full scorecard: [2026-06-12-72h-watch-run.md](statecraft/notes/watch/2026-06-12-72h-watch-run.md)
+Full scorecard: [2026-06-12-72h-watch-run.md](../watch/2026-06-12-72h-watch-run.md)

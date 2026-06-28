@@ -16,11 +16,11 @@ For whole-work apparatus, open:
 
 Read civilization-state cases in this order:
 
-1. [China](china/README.md)
-2. [Persia](persia/README.md)
-3. [Rome](rome/README.md)
-4. [Russia](russia/README.md)
-5. [America](america/README.md)
+1. [China](../../../README.md)
+2. [Persia](../../../README.md)
+3. [Rome](../../../README.md)
+4. [Russia](../../../README.md)
+5. [America](../../../README.md)
 
 Each volume follows the same reader order:
 

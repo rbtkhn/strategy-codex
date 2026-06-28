@@ -52,7 +52,7 @@ A tolerable settlement is not one that sounds moderate in foreign capitals. It i
 
 First, transit reopening must follow some real alteration in American or allied conduct rather than merely another verbal promise. Second, Lebanon cannot be waved aside as a side theater if it has become the practical proof of whether the regional order is changing. Third, the settlement must preserve enough leverage, sequencing, and dignity that later carriers can say the state did not exchange surviving power for symbolic relief. Fourth, the arrangement must be administrable in ordinary language. A deal that can only be defended through constant appeals to necessity is not durable.
 
-That is where the narrower Hormuz statecraft note remains useful but incomplete. [Persia On Hormuz As Postwar Authority Floor](statecraft/notes/2026-06-01-persia-hormuz-postwar-authority-floor.md) explains why the strait sits below negotiation theater. The broader June 1 object adds the missing ring: a floor is not enough unless it is joined to a regional recognition test. Without that second gate, the floor can still be spent too cheaply.
+That is where the narrower Hormuz statecraft note remains useful but incomplete. [Persia On Hormuz As Postwar Authority Floor](2026-06-01-persia-hormuz-postwar-authority-floor.md) explains why the strait sits below negotiation theater. The broader June 1 object adds the missing ring: a floor is not enough unless it is joined to a regional recognition test. Without that second gate, the floor can still be spent too cheaply.
 
 ## Typical Misread Of The Other Side
 
@@ -74,9 +74,9 @@ That is why Hormuz now looks like more than a bargaining chip and Lebanon more t
 
 ## Paired Essay / Related Notes
 
-Paired essay: [America On The Hormuz-Lebanon Gate](statecraft/notes/2026-06-01-america-hormuz-lebanon-strategic-memory.md)
+Paired essay: [America On The Hormuz-Lebanon Gate](2026-06-01-america-hormuz-lebanon-strategic-memory.md)
 
 Related notes:
 
-- [State Synthesis - 2026-06-01](statecraft/synthesis/day/2026-06-01.md)
-- [Persia On Hormuz As Postwar Authority Floor](statecraft/notes/2026-06-01-persia-hormuz-postwar-authority-floor.md)
+- [State Synthesis - 2026-06-01](../synthesis/day/2026-06-01.md)
+- [Persia On Hormuz As Postwar Authority Floor](2026-06-01-persia-hormuz-postwar-authority-floor.md)

@@ -161,22 +161,22 @@ Short rule:
 
 This statecraft note sharpens the June 6 Persia statecraft note's gate/mechanics split by adding June 7 **event proof** from Parsi and Nima. Parent references:
 
-- [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](statecraft/notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) (Marandi–McGovern division)
-- [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md) (seven-source parent daily)
+- [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) (Marandi–McGovern division)
+- [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md) (seven-source parent daily)
 
-Parent daily: [State Synthesis - 2026-06-07](statecraft/synthesis/day/2026-06-07.md). This note owns the bounded Iran–Lebanon mechanism compare for that day-batch.
+Parent daily: [State Synthesis - 2026-06-07](../synthesis/day/2026-06-07.md). This note owns the bounded Iran–Lebanon mechanism compare for that day-batch.
 
 ## Source Anchors
 
-- [Parsi / Substack (structural) - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>)
-- [Parsi / Substack (operational) - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>)
-- [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Parsi / Substack (structural) - 2026-06-07](<../../source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>)
+- [Parsi / Substack (operational) - 2026-06-07](<../../source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>)
+- [Nima / Dialogue Works solo - 2026-06-07](<../../source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
+- [McGovern / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
 
 Related:
 
-- [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (client veto / Trump–Netanyahu leverage parallel)
-- [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (Vance absence / successor fork on same Nima source)
-- [Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier](statecraft/notes/2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) (June 4 PR setup → June 7 hardware proof)
+- [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (client veto / Trump–Netanyahu leverage parallel)
+- [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (Vance absence / successor fork on same Nima source)
+- [Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) (June 4 PR setup → June 7 hardware proof)
 - [Persia transaction — Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - [America transaction — command firewall + successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md)

@@ -8,5 +8,5 @@
 | provenance_tacit_id | `tacit_20260419T161200Z_e0a8ff708977` |
 | distilled_claim | Mission-scale insight: civilizational bridge work; sacred sites and pilgrimage as first dignity lever; policy brief next quarter. |
 
-**Review:** Copy into [recursion-gate.md](../../../../../../recursion-gate.md) only after companion approval of a real `CANDIDATE-*` block.
+**Review:** Copy into [recursion-gate.md](../../../../../../archive/grace-mar-instance/recursion-gate.md) only after companion approval of a real `CANDIDATE-*` block.
 

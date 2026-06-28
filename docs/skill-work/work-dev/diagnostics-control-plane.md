@@ -22,7 +22,7 @@ For a grouped navigational index of work-dev (including this stack), see
   JSON registry and audit script for authority.
 - **Interface Artifact Protocol** — bounded doctrine for operator-facing
   generated views  
-  See [interface-runtime/artifacts/README.md](interface-runtime/artifacts/README.md).
+  See [interface-runtime/artifacts/README.md](../../../runtime/artifacts/README.md).
 - **Workbench** — artifact execution and inspection loop  
   See [workbench/README.md](workbench/README.md).
 - **Claim-Proof Standard** — proof bar before marking capabilities
@@ -100,7 +100,7 @@ needs proof artifacts; README prose alone is not enough.
 
 ### Adding a generated UI or artifact
 
-- **Start here:** [interface-runtime/artifacts/README.md](interface-runtime/artifacts/README.md)
+- **Start here:** [interface-runtime/artifacts/README.md](../../../runtime/artifacts/README.md)
 - **Then run/check:** Workbench, then Claim-Proof if capability claims are
   affected
 - **Do not confuse with:** Workbench receipts are not evidence truth and

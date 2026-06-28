@@ -50,25 +50,7 @@ This lane is now materially present on disk as a 15-appearance cross-year branch
 
 If the operator needs only one file:
 
-- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md
-
-If the operator needs the best paired read:
-
-- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md
-- then [source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md
-
-That pair gives the clearest combination of:
-
-- Hormuz and blockade mechanics
-- Europe-theater escalation framing
-- Ritter as military-mechanics counterpart to Diesen's order-level framing
-
-If the operator needs the cleanest Iran-war escalation pair inside the Diesen stream:
-
-- open [source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](../../source-archive/statecraft/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md
-- then [source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md](../../source-archive/statecraft/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md
-
-## Orthogonality guide
+- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](../../source-archive/statecraft/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md## Orthogonality guide
 
 Quick separation rule:
 

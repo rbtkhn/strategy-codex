@@ -6,12 +6,12 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [wilkerson-routing.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-routing.md)
-- [wilkerson-helix.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md)
-- [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-cross-year-note.md)
-- [arc-wilkerson-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-nima-host.md)
-- [arc-wilkerson-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-diesen-host.md)
-- [arc-wilkerson-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-napolitano-host.md)
+- [wilkerson-routing.md](wilkerson-routing.md)
+- [wilkerson-helix.md](wilkerson-helix.md)
+- [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
+- [arc-wilkerson-nima-host.md](../../notes/arc-wilkerson-nima-host.md)
+- [arc-wilkerson-diesen-host.md](../../notes/arc-wilkerson-diesen-host.md)
+- [arc-wilkerson-napolitano-host.md](../../notes/arc-wilkerson-napolitano-host.md)
 
 Bounded claim:
 
@@ -23,9 +23,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [arc-wilkerson-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-nima-host.md)
-- [arc-wilkerson-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-diesen-host.md)
-- [arc-wilkerson-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-napolitano-host.md)
+- [arc-wilkerson-nima-host.md](../../notes/arc-wilkerson-nima-host.md)
+- [arc-wilkerson-diesen-host.md](../../notes/arc-wilkerson-diesen-host.md)
+- [arc-wilkerson-napolitano-host.md](../../notes/arc-wilkerson-napolitano-host.md)
 
 Threads under review:
 
@@ -33,9 +33,9 @@ Threads under review:
 
 Comparison-only notes:
 
-- [wilkerson-routing.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-routing.md)
-- [wilkerson-helix.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md)
-- [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-cross-year-note.md)
+- [wilkerson-routing.md](wilkerson-routing.md)
+- [wilkerson-helix.md](wilkerson-helix.md)
+- [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
 
 ## Arc audit
 
@@ -81,7 +81,7 @@ Wilkerson's usable structure is host-transformation driven. The shelf does not c
 
 `comparison note mistaken for continuity surface`
 
-- [wilkerson-helix.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md) and [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-cross-year-note.md) justify the double-helix reading, but they do not own separate retrieval continuity
+- [wilkerson-helix.md](wilkerson-helix.md) and [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md) justify the double-helix reading, but they do not own separate retrieval continuity
 
 Main confusion zones:
 
@@ -92,9 +92,9 @@ Main confusion zones:
 ## Recommended actions
 
 - keep Wilkerson as a **durable double helix with one auxiliary host branch**
-- keep [arc-wilkerson-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-diesen-host.md) and [arc-wilkerson-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-nima-host.md) as the canonical pair
-- keep [arc-wilkerson-napolitano-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-wilkerson-napolitano-host.md) as real auxiliary reinforcement without promoting it into a third equal strand
-- keep [wilkerson-helix.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-helix.md) and [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-cross-year-note.md) as the justification surfaces for that double-helix reading
+- keep [arc-wilkerson-diesen-host.md](../../notes/arc-wilkerson-diesen-host.md) and [arc-wilkerson-nima-host.md](../../notes/arc-wilkerson-nima-host.md) as the canonical pair
+- keep [arc-wilkerson-napolitano-host.md](../../notes/arc-wilkerson-napolitano-host.md) as real auxiliary reinforcement without promoting it into a third equal strand
+- keep [wilkerson-helix.md](wilkerson-helix.md) and [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md) as the justification surfaces for that double-helix reading
 - update shelf-front wording so it no longer implies three equal host-local arcs
 
 ## Notebook use

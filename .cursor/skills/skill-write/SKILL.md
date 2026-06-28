@@ -21,7 +21,7 @@ scope_class: repo-governed
 
 **Locals scaffold:** [`docs/skill-write/locals-post-scaffold.md`](../../../docs/skill-write/locals-post-scaffold.md)
 
-**Worked example:** [`docs/skill-write/locals-barnes-arc-worked-example.md`](../../../docs/skill-write/locals-barnes-arc-worked-example.md)
+**Worked example:** [`docs/skill-write/locals-arc-barnes-continuity-worked-example.md`](../../../docs/skill-write/locals-arc-barnes-continuity-worked-example.md)
 
 **Hub index:** [`docs/skill-write/README.md`](../../../docs/skill-write/README.md)
 

@@ -178,19 +178,19 @@ Run host sync and validation (see appendix).
 
 **strategy-codex instance notes**
 
-- Notes shelf SSOT: [statecraft/notes/README.md](/C:/dev/strategy-codex/statecraft/notes/README.md)
-- Prose-class chooser: [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md)
+- Notes shelf SSOT: [statecraft/notes/README.md](../../../statecraft/notes/README.md)
+- Prose-class chooser: [docs/prose-index.md](../../../docs/prose-index.md)
 - Multi-lens handoff: use **`state-synthesis`** comparison subroutine or **`primary-overhearing-analysis`** — bounded `statecraft/notes/` when comparison is method-bearing (`statecraft-multi-lens` archived)
-- Daily parent (when promoting from a full day): [state-synthesis](/C:/dev/strategy-codex/.cursor/skills/state-synthesis/SKILL.md)
+- Daily parent (when promoting from a full day): [state-synthesis](../state-synthesis/SKILL.md)
 - **civ-state return:** when note exposes civilizational retrieval gap → [civ-state skill](../civ-state/SKILL.md) **D. Review** with named `public/civ-state/` edit target (operator appendix only — do not embed in note prose unless claim is explicitly civilizational)
 - **CIV-STATE note (retrieve required):** [civ-state-note](../civ-state-note/SKILL.md) — same shelf; mandatory retrieve pre-pass when civilizational framing is load-bearing
-- Singularity sibling: [singularity-note-promotion](/C:/dev/strategy-codex/.cursor/skills/singularity-note-promotion/SKILL.md)
+- Singularity sibling: [singularity-note-promotion](../singularity-note-promotion/SKILL.md)
 
 **Examples (shelf-native)**
 
-- Speaker-function comparison: [barnes-johnson-aguilar-kent-on-section-224.md](/C:/dev/strategy-codex/statecraft/notes/barnes-johnson-aguilar-kent-on-section-224.md)
-- Same-day guest-pair citation split: [june-18-2026-mou-guest-pair-citation-split.md](/C:/dev/strategy-codex/statecraft/notes/june-18-2026-mou-guest-pair-citation-split.md)
-- Mechanism note: [formal-sovereignty-vs-internal-carriage.md](/C:/dev/strategy-codex/statecraft/notes/formal-sovereignty-vs-internal-carriage.md)
+- Speaker-function comparison: [barnes-johnson-aguilar-kent-on-section-224.md](../../../statecraft/notes/barnes-johnson-aguilar-kent-on-section-224.md)
+- Same-day guest-pair citation split: [june-18-2026-mou-guest-pair-citation-split.md](../../../statecraft/notes/june-18-2026-mou-guest-pair-citation-split.md)
+- Mechanism note: [formal-sovereignty-vs-internal-carriage.md](../../../statecraft/notes/formal-sovereignty-vs-internal-carriage.md)
 
 **Archive anchor convention**
 

@@ -39,7 +39,7 @@ A statecraft draft is weak if it wins the immediate point while making the next 
 
 ## Use With
 
-- [Statecraft Method](.statecraft/synthesis/METHOD.md)
+- [Statecraft Method](../synthesis/METHOD.md)
 - [Richelieu Lens](richelieu.md)
 - [Negotiation Brief Template](../templates/negotiation-brief.md)
 - [Treaty Framework Template](../templates/treaty-framework.md)

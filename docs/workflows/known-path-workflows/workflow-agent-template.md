@@ -59,7 +59,7 @@ _Name or role, expected review time, escalation if unavailable._
 
 ## 7. Non-authority statement
 
-This workflow may draft, summarize, route, or prepare reviewable material only within its declared **authority class**. It does **not** bypass [recursion-gate](../../../recursion-gate.md), does **not** write directly to durable Record surfaces (`self.md`, `self-archive.md`, `self-skills.md`, `archive/grace-mar-instance/bot/prompt.py`, or other canonical paths except through the governed merge path), and does **not** promote candidates without **human approval**.
+This workflow may draft, summarize, route, or prepare reviewable material only within its declared **authority class**. It does **not** bypass [recursion-gate](../../../archive/grace-mar-instance/recursion-gate.md), does **not** write directly to durable Record surfaces (`self.md`, `self-archive.md`, `self-skills.md`, `archive/grace-mar-instance/bot/prompt.py`, or other canonical paths except through the governed merge path), and does **not** promote candidates without **human approval**.
 
 ## 8. Load-lift evaluation
 

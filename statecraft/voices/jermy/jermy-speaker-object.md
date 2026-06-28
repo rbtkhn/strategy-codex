@@ -33,9 +33,9 @@ Jermy carries a distinct utility profile:
 
 Jermy should currently be read as a **triple-speaker-helix**:
 
-- [Davis x Jermy](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-davis-host.md)
-- [Diesen x Jermy](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-diesen-host.md)
-- [Peacemonger x Jermy](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-peacemonger-host.md)
+- [Davis x Jermy](../../notes/arc-jermy-davis-host.md)
+- [Diesen x Jermy](../../notes/arc-jermy-diesen-host.md)
+- [Peacemonger x Jermy](../../notes/arc-jermy-peacemonger-host.md)
 
 That means:
 
@@ -54,21 +54,21 @@ The main reinforcement now comes from how the three branches cover distinct uses
 - Diesen gives Jermy the broader NATO, Europe, and world-order consequence lane
 - Peacemonger gives Jermy the blunt anti-hubris, strategy-failure, and public-facing critique lane
 
-See [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-cross-host-note.md).
+See [jermy-cross-host-note.md](jermy-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current host-local entry:
 
-- open [arc-jermy-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-davis-host.md)
+- open [arc-jermy-davis-host.md](../../notes/arc-jermy-davis-host.md)
 
 If the operator needs the complementary strategic branch:
 
-- open [arc-jermy-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-jermy-diesen-host.md)
+- open [arc-jermy-diesen-host.md](../../notes/arc-jermy-diesen-host.md)
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-cross-host-note.md)
+- stay here, then read [jermy-cross-host-note.md](jermy-cross-host-note.md)
 
 ## Routing use
 

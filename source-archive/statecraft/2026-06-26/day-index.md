@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (12)
+- Body kind mix: `cleaned-transcript` (11), `transcript` (1)
 - Source form mix: `interview` (11), `solo` (1)
 - Distinct channels/shows: `6`
 - Distinct hosts: `2`
@@ -23,7 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Nima Alkhorshid` (3), `Sulaiman Ahmed` (1)
-- Guests: `Douglas Macgregor` (2), `Robert Barnes` (2), `Anthony Aguilar` (1), `Chas Freeman` (1), `Daniel L. Davis` (1), `Larry Johnson` (1), `Ray McGovern` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
+- Guests: `Douglas Macgregor` (2), `Robert Barnes` (2), `Anthony Aguilar` (1), `Chas Freeman` (1), `Daniel L. Davis` (1), `Larry Johnson` (1), `Ray McGovern` (1), `Robert Pape` (1), `Seyed Mohammad Marandi` (1), `Trita Parsi` (1)
 - Threads: `daniel-davis` (3), `dialogue-works` (3), `barnes` (2), `macgregor` (2), `aguilar` (1), `alkorshid,freeman` (1), `daniel-davis,nawfal` (1), `freeman` (1), `johnson` (1), `johnson,mcgovern,napolitano` (1), `macgregor,napolitano` (1), `macgregor,nawfal` (1), `marandi` (1), `marandi,daniel-davis` (1), `mcgovern` (1), `mercouris` (1), `moral-resistance` (1), `napolitano` (1), `pape` (1), `parsi` (1), `parsi,nawfal` (1)
 
 ## Channel sources
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [fxoQwJ-z9K4](https://www.youtube.com/watch?v=fxoQwJ-z9K4) | `source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `daniel-davis`, `barnes` | [SGmjyRISKjA](https://www.youtube.com/watch?v=SGmjyRISKjA) | `source-daniel-davis-robert-barnes-iran-deal-miscalculations-2026-06-26.md` |
-| `daniel-davis` | Daniel Davis Deep Dive | `daniel-davis`, `marandi,daniel-davis`, `marandi` | [aa44GESflu0](https://www.youtube.com/watch?v=aa44GESflu0) | `source-daniel-davis-seyed-marandi-hormuz-tolls-fees-2026-06-26.md` |
+| `daniel-davis` | Daniel Davis Deep Dive | `daniel-davis`, `marandi,daniel-davis`, `marandi` | [ClRucYR-QE8](https://www.youtube.com/watch?v=ClRucYR-QE8) | `source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `aguilar` | [b5QOYVpHttU](https://www.youtube.com/watch?v=b5QOYVpHttU) | `source-dialogue-works-anthony-aguilar-us-airstrikes-inside-iran-escalation-2026-06-26.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `alkorshid,freeman`, `freeman` | [7APwlAtHjLA](https://www.youtube.com/watch?v=7APwlAtHjLA) | `source-dialogue-works-chas-freeman-collapse-israel-agenda-2026-06-26.md` |
 | `dialogue-works` | Dialogue Works | `dialogue-works`, `barnes` | [JlvpAlrvK8k](https://www.youtube.com/watch?v=JlvpAlrvK8k) | `source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md` |
@@ -65,7 +65,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md`
 - `source-daniel-davis-robert-barnes-iran-deal-miscalculations-2026-06-26.md`
-- `source-daniel-davis-seyed-marandi-hormuz-tolls-fees-2026-06-26.md`
+- `source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md`
 - `source-dialogue-works-anthony-aguilar-us-airstrikes-inside-iran-escalation-2026-06-26.md`
 - `source-dialogue-works-chas-freeman-collapse-israel-agenda-2026-06-26.md`
 - `source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md`

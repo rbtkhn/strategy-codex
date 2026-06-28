@@ -111,7 +111,7 @@ No embeddings; no semantic â€œfamilyâ€ beyond path/filename tokens.
 
 Neighborhood JSON is **lighter than** curated CIV-MEM references for Record purposes: same broad family as **[removed operator-books symlink / CIV-MEM](../../../CIV-MEM.md)** (*not* museum knowledge section A), but **more derived** â€” structural maps of upstream paths, **not** companion-endorsed world facts.
 
-### [`recursion-gate.md`](../../../recursion-gate.md)
+### [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md)
 
 | Do | Donâ€™t |
 |----|--------|

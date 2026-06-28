@@ -13,11 +13,11 @@
 
 | # | Path |
 |---|------|
-| 1 | [`research/external/work-strategy/transcripts/2026-04-10-diesen-mearsheimer-iran-ceasefire-truth-social.md`](../../../research/external/work-strategy/transcripts/2026-04-10-diesen-mearsheimer-iran-ceasefire-truth-social.md) |
-| 2 | [`research/external/work-strategy/transcripts/mercouris-2026-04-10-good-friday-hormuz-lebanon-islamabad.md`](../../../research/external/work-strategy/transcripts/mercouris-2026-04-10-good-friday-hormuz-lebanon-islamabad.md) |
-| 3 | [`research/external/work-strategy/transcripts/2026-04-10-davis-crooke-centcom-iran-hormuz-islamabad.md`](../../../research/external/work-strategy/transcripts/2026-04-10-davis-crooke-centcom-iran-hormuz-islamabad.md) |
+| 1 | [`research/external/work-strategy/transcripts/2026-04-10-diesen-mearsheimer-iran-ceasefire-truth-social.md`](../../research/external/work-strategy/transcripts/2026-04-10-diesen-mearsheimer-iran-ceasefire-truth-social.md) |
+| 2 | [`research/external/work-strategy/transcripts/mercouris-2026-04-10-good-friday-hormuz-lebanon-islamabad.md`](../../research/external/work-strategy/transcripts/mercouris-2026-04-10-good-friday-hormuz-lebanon-islamabad.md) |
+| 3 | [`research/external/work-strategy/transcripts/2026-04-10-davis-crooke-centcom-iran-hormuz-islamabad.md`](../../research/external/work-strategy/transcripts/2026-04-10-davis-crooke-centcom-iran-hormuz-islamabad.md) |
 
-Optional index: [`research/external/work-strategy/analyst-corpus/INDEX.md`](../../../research/external/work-strategy/analyst-corpus/INDEX.md).
+Optional index: [`research/external/work-strategy/analyst-corpus/INDEX.md`](../../research/external/work-strategy/analyst-corpus/INDEX.md).
 
 ---
 
@@ -31,7 +31,7 @@ Optional index: [`research/external/work-strategy/analyst-corpus/INDEX.md`](../.
 
 **Safe append (reduces patch friction):**
 
-1. **Read the tail** of [`chapters/YYYY-MM/days.md`](chapters/2026-04/days.md) for the active date before editing.
+1. **Read the tail** of [`chapters/YYYY-MM/days.md`](../chapters/2026/2026-04/days.md) for the active date before editing.
 2. **Append after** the last line of that day’s `## YYYY-MM-DD` block (after the final `### …` subsection). Do **not** search-replace a middle paragraph or a stale bullet — if the anchor moved, append to EOF of the day section.
 3. If the day block is too large or ambiguous to patch safely, write the full `### DEMO — Phase …` sequence to **clean-room** `demo-runs/skill-strategy-demo-scratch-YYYY-MM-DD.md`, then add a single **pointer** subsection under the same date in `days.md`.
 
@@ -129,7 +129,7 @@ Synthesize across all three digests (Mearsheimer, Mercouris, Davis×Crooke paths
 
 ## Phase 4 — Tri-frame (three minds) — **legacy; mandatory only for full 2026-04 demo replay**
 
-> **Deprecated:** Do not use tri-frame as the default lens path. [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · replacement: [**`periodic-statecraft-review` runbook**](../../../../skills/runbooks/periodic-statecraft-review.runbook.md) or **`state-synthesis`**.
+> **Deprecated:** Do not use tri-frame as the default lens path. [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · replacement: [**`periodic-statecraft-review` runbook**](../../skills/runbooks/periodic-statecraft-review.runbook.md) or **`state-synthesis`**.
 
 **Goal:** Exercise **Mercouris**, **Mearsheimer**, and **Barnes** on the **shared corpus**, with explicit trigger so [granular minds](../../../../.cursor/rules/strategy-minds-granular.mdc) is satisfied.
 

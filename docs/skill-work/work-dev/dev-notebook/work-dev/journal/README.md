@@ -10,11 +10,11 @@
 
 ### Routing: dev-journal vs cici-notebook
 
-**One line:** **dev-journal** (this folder) = **inward-facing** â€” Grace-Marâ€™s own work-dev lane (tooling, integration, scripts in *this* repo). **cici-notebook** = **outward-facing** â€” Xavierâ€™s OB1 / Cici stack and your coaching or tracking of it from inside grace-mar. See [cici-notebook README](../../../../work-cici/cici-notebook/README.md#routing-dev-journal-vs-cici-notebook).
+**One line:** **dev-journal** (this folder) = **inward-facing** â€” Grace-Marâ€™s own work-dev lane (tooling, integration, scripts in *this* repo). **cici-notebook** = **outward-facing** â€” Xavierâ€™s OB1 / Cici stack and your coaching or tracking of it from inside grace-mar. See [cici-notebook README](../../../../../../README.md#routing-dev-journal-vs-cici-notebook).
 
 **Center of gravity belongs here** when you are building or reflecting on grace-mar **internal** work-dev: OpenClaw, exportâ€“stageâ€“merge discipline, harness/cadence wiring, integration scripts, capability contracts, portable skills, bridge thinking between OB1 and companion-self, and adjacent operator infrastructure.
 
-**Write in [cici-notebook](../../../../work-cici/cici-notebook/README.md)** when the center of gravity is **Xavierâ€™s** instance (Cici), upstream OB1, BrewMind tie-ins, same-day commits from Xavierâ€™s repo, or what Xavierâ€™s OB1 trajectory means operationally â€” including digest-driven day files from `scripts/cici_journal_ob1_digest.py`.
+**Write in [cici-notebook](../../../../../../README.md)** when the center of gravity is **Xavierâ€™s** instance (Cici), upstream OB1, BrewMind tie-ins, same-day commits from Xavierâ€™s repo, or what Xavierâ€™s OB1 trajectory means operationally â€” including digest-driven day files from `scripts/cici_journal_ob1_digest.py`.
 
 **Quick test**
 
@@ -31,7 +31,7 @@
 
 ### Daily inbox (rolling accumulator)
 
-**File:** [daily-dev-journal-inbox.md](daily-dev-journal-inbox.md) â€” **append-only** during the local day for rough work-dev capture. **`dream`** is the usual time to **fold** into the canonical **`YYYY-MM-DD-day-NN.md`** for that calendar window (create or extend the day file; **NN** follows your journal-day anchor). **No automatic reset** each dream â€” same **fold + optional prune** pattern as [strategy-notebook daily-strategy-inbox](../../../../work-strategy/strategy-notebook/daily-strategy-inbox.md). **Missed `dream`:** resolve stale inbox before appending on a new day (merge into the correct `*-day-NN.md`).
+**File:** [daily-dev-journal-inbox.md](daily-dev-journal-inbox.md) â€” **append-only** during the local day for rough work-dev capture. **`dream`** is the usual time to **fold** into the canonical **`YYYY-MM-DD-day-NN.md`** for that calendar window (create or extend the day file; **NN** follows your journal-day anchor). **No automatic reset** each dream â€” same **fold + optional prune** pattern as [strategy-notebook daily-strategy-inbox](../../../../../../codex/daily-strategy-inbox.md). **Missed `dream`:** resolve stale inbox before appending on a new day (merge into the correct `*-day-NN.md`).
 
 **Relation to other surfaces**
 
@@ -41,7 +41,7 @@
 | [work-dev-history.md](../../../work-dev-history.md) | **Milestone / artifact** log (commits, scripts shipped, gaps closed). |
 | [workspace.md](../../../workspace.md) | **Current** blockers and next actions. |
 
-**Contrast:** [cici-notebook](../../../../work-cici/cici-notebook/README.md) vs this journal â€” full routing rules under [Routing](#routing-dev-journal-vs-cici-notebook) above.
+**Contrast:** [cici-notebook](../../../../../../README.md) vs this journal â€” full routing rules under [Routing](#routing-dev-journal-vs-cici-notebook) above.
 
 **vs [work-dev-history.md](../../../work-dev-history.md):** History = **milestones** (SHA, artifact, gap closed). Journal = **narrative** when useful â€” avoid copying every history bullet; link the date or commit and add friction / â€œwhat clickedâ€ only the history line cannot carry.
 

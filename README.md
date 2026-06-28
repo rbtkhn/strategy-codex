@@ -1,4 +1,10 @@
-﻿# strategy-codex
+﻿---
+audience: operator
+authority: doctrine
+record_status: frozen
+---
+
+# strategy-codex
 
 **strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md).
 

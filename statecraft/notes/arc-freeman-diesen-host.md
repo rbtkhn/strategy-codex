@@ -29,16 +29,7 @@ He is not the lane for wire-grade ORBAT or shipping arithmetic. He is the lane f
 
 ### March 2026 cross-host safeguard
 
-For the full March Freeman run, open [arc-march-2026-cross-host-freeman-host.md](../freeman/arc-march-2026-cross-host-freeman-host.md. The Diesen March items keep the long-horizon order read visible inside the Iran-war activation month:
-
-- 2026-03-01 *The War Against Iran Could Destroy the U.S. Republic* - captured on disk.
-- 2026-03-14 *The Emerging Iran-Russia-China Axis & Israel's Possible Demise* - captured on disk.
-- 2026-03-23 *Trump Back Down - Armageddon Postponed?* - captured on disk.
-
-1. [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../source-archive/statecraft/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md
-   Best mature anchor. Strongest full statement of the **sea-power -> land-power** transition, Hormuz checkmate logic, petrodollar fragility, and post-hegemonic order consequences.
-
-2. [source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md](../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
+For the full March Freeman run, open [arc-march-2026-cross-host-freeman-host.md](../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
    Best **June 2026** anchor — greater-Israel collapse, reprisal-symmetry read, Lebanon farcical-ceasefire / Hezbollah gate, agreement-incapable Washington. Canonical host re-file (same episode as Dialogue Works alias).
 
 3. [source-diesen-2026-04-18-verbatim-2026-04-18.md](../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md

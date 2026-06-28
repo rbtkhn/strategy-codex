@@ -19,7 +19,7 @@ Use this note when an older `work-strategy` path, rule, or memo still exists on 
   - acceleration, agency, substrate, alignment, and adjacent reflective-systems arguments that were temporarily living in strategy because no better domain shelf existed yet
 - **remaining `docs/skill-work/work-strategy/` material**
   - legacy holding surface for still-unmigrated notebook machinery, operator doctrine, and historical memos
-  - **`docs/.../strategy-notebook/`** is compat redirect only — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md)
+  - **`docs/.../../../codex/`** is compat redirect only — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md)
   - keep in place until a bounded later pass re-homes them more precisely
 
 ## Practical Rule

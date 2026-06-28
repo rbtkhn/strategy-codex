@@ -1,6 +1,6 @@
 **strategy-codex instance notes**
 
-- Canonical archive root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
+- Canonical archive root for this skill: [source-archive/statecraft](../../../source-archive/statecraft)
 - Primary manual activation: **`source-intake`**
 - Batch invocation phrases this host should recognize:
   - `source-intake`
@@ -8,11 +8,11 @@
   - `statecraft daily intake`
   - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:
-  - [codex/raw-input/README.md](/C:/dev/strategy-codex/codex/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](/C:/dev/strategy-codex/docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
-  - [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
-  - [codex/years/2026/provenance](/C:/dev/strategy-codex/codex/years/2026/provenance)
+  - [codex/raw-input/README.md](../../../codex/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
+  - [codex/years/2026/raw-input](../../../codex/years/2026/raw-input)
+  - [codex/years/2026/provenance](../../../codex/years/2026/provenance)
 - Primary neighboring families this skill should check before writing:
-  - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/dialogue-works-disambiguation.md)
+  - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](../../../statecraft/channels/dialogue-works/dialogue-works-disambiguation.md)
   - `Judging Freedom / Napolitano`
   - `Glenn Diesen`
   - `The Duran / Mercouris`
@@ -20,15 +20,15 @@
 **Current live examples**
 
 - Nima / Dialogue Works:
-  - [source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](../../../source-archive/statecraft/2026-05-26/source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - Napolitano / Judging Freedom:
-  - [source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md)
-  - [source-archive/statecraft/2026-05-26/source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md)
-  - [source-archive/statecraft/2026-05-26/source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-mearsheimer-neocons-want-more-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
 - Glenn Diesen:
-  - [source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](../../../source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
 - The Duran / Mercouris:
-  - [source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](../../../source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
 
 **Repo notes**
 

@@ -23,7 +23,7 @@ Not primary on: macro bubble forensic (Barnes), occult/Stargate (Jiang), law-of-
 
 ## Surveillance architecture thesis
 
-Primary source: [2026-06-05 / Nawfal × Weichert — Israel merge / §224](../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md)
+Primary source: [2026-06-05 / Nawfal × Weichert — Israel merge / §224](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md)
 
 Structural moves:
 
@@ -40,7 +40,7 @@ Verbatim anchors:
 
 ## Kill chain and Minab thesis
 
-Same episode + [2026-06-02 Nawfal](../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md):
+Same episode + [2026-06-02 Nawfal](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md):
 
 - **Palantir/metadata** at Minab — stale IRGC label; school misclassified as military compound
 - **AI determines target → automated machines strike** — Ukraine pattern; limited human interference
@@ -55,7 +55,7 @@ Verbatim anchors:
 
 ## Palantir / Israel panopticon
 
-[2026-06-02 / Nawfal × Weichert](../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md):
+[2026-06-02 / Nawfal × Weichert](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md):
 
 - Israel = **ground zero** for surveillance testing vs China narrative alone
 - **Palantir** — `interesting things` and `scary things`; real-time AI systems under anti-terror guise
@@ -69,7 +69,7 @@ Verbatim anchors:
 
 ## China applied AI strand
 
-[2026-06-05 merge episode](../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md):
+[2026-06-05 merge episode](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md):
 
 - China: **applied science of AI** — robotics revolution, humanlike robotic hand, manufacturing at scale
 - US: **makebelieve … software side paper side** — banana videos vs production
@@ -88,8 +88,8 @@ Cross-link: [pape-on-china-ai.md](./pape-on-china-ai.md) (field tour), [gulf-ai-
 
 | Date | File | Lane |
 |------|------|------|
-| 2026-06-05 | [Israel merge / §224 / Utah / Minab](../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) | **Primary** — surveillance + kill chain + China applied |
-| 2026-06-02 | [Trump fed up / Palantir panopticon](../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md) | Israel testbed |
+| 2026-06-05 | [Israel merge / §224 / Utah / Minab](../../source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md) | **Primary** — surveillance + kill chain + China applied |
+| 2026-06-02 | [Trump fed up / Palantir panopticon](../../source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md) | Israel testbed |
 | 2026-05-17–2026-06-08 | Other Nawfal×Weichert May–Jun | War context; lighter AI |
 
 Optional profile: [`codex/profiles/weichert-profile.md`](../../codex/profiles/weichert-profile.md) — **canonical codex entry** (Nawfal Iran-war lane + AI pointers; no `voices/weichert/` shelf).

@@ -6,13 +6,13 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [kent-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-speaker-object.md)
-- [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
-- [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md)
-- [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md)
-- [arc-kent-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-diesen-host.md)
-- [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md)
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
+- [kent-speaker-object.md](kent-speaker-object.md)
+- [kent-helix.md](kent-helix.md)
+- [arc-kent-carlson-host.md](../../notes/arc-kent-carlson-host.md)
+- [arc-kent-davis-host.md](../../notes/arc-kent-davis-host.md)
+- [arc-kent-diesen-host.md](../../notes/arc-kent-diesen-host.md)
+- [arc-kent-nawfal-host.md](../../notes/arc-kent-nawfal-host.md)
+- [2026-04-21 Barnes x Kent exit-ramp quote](../../../source-archive/statecraft/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 Bounded claim:
 
@@ -24,10 +24,10 @@ Bounded claim:
 
 Arcs under review:
 
-- [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md)
-- [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md)
-- [arc-kent-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-diesen-host.md)
-- [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md)
+- [arc-kent-carlson-host.md](../../notes/arc-kent-carlson-host.md)
+- [arc-kent-davis-host.md](../../notes/arc-kent-davis-host.md)
+- [arc-kent-diesen-host.md](../../notes/arc-kent-diesen-host.md)
+- [arc-kent-nawfal-host.md](../../notes/arc-kent-nawfal-host.md)
 
 Threads under review:
 
@@ -35,9 +35,9 @@ Threads under review:
 
 Comparison-only notes:
 
-- [kent-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-speaker-object.md)
-- [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md)
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
+- [kent-speaker-object.md](kent-speaker-object.md)
+- [kent-helix.md](kent-helix.md)
+- [2026-04-21 Barnes x Kent exit-ramp quote](../../../source-archive/statecraft/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 ## Arc audit
 
@@ -86,11 +86,11 @@ Kent's shelf is not yet a thread-bearing speaker shelf. Its usable structure is 
 
 `comparison note mistaken for continuity surface`
 
-- [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md) is helpful as a routing surface, but it should not be read as proof that all strands are equally mature or equally dense
+- [kent-helix.md](kent-helix.md) is helpful as a routing surface, but it should not be read as proof that all strands are equally mature or equally dense
 
 `reinforcement mistaken for strand`
 
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md) confirms that Kent's exit-ramp framing traveled, but it does not constitute a fifth canonical branch
+- [2026-04-21 Barnes x Kent exit-ramp quote](../../../source-archive/statecraft/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md) confirms that Kent's exit-ramp framing traveled, but it does not constitute a fifth canonical branch
 
 Main confusion zones:
 
@@ -101,11 +101,11 @@ Main confusion zones:
 ## Recommended actions
 
 - keep Kent as a **cross-host reinforced object**, not a mature equal-strand helix
-- keep [arc-kent-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-davis-host.md) as the thickest branch and default retrieval lane for Iran-war exit logic
-- keep [arc-kent-carlson-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-carlson-host.md) as the witness spine
-- keep [arc-kent-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-diesen-host.md) as the structural-history branch without overstating its density
-- keep [arc-kent-nawfal-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-kent-nawfal-host.md) as a real but thinner political-pressure branch
-- keep [kent-helix.md](/C:/dev/strategy-codex/statecraft/voices/kent/kent-helix.md) as a comparative routing surface, but do not let shelf-front wording imply stronger maturity than the object doctrine supports
+- keep [arc-kent-davis-host.md](../../notes/arc-kent-davis-host.md) as the thickest branch and default retrieval lane for Iran-war exit logic
+- keep [arc-kent-carlson-host.md](../../notes/arc-kent-carlson-host.md) as the witness spine
+- keep [arc-kent-diesen-host.md](../../notes/arc-kent-diesen-host.md) as the structural-history branch without overstating its density
+- keep [arc-kent-nawfal-host.md](../../notes/arc-kent-nawfal-host.md) as a real but thinner political-pressure branch
+- keep [kent-helix.md](kent-helix.md) as a comparative routing surface, but do not let shelf-front wording imply stronger maturity than the object doctrine supports
 - keep Barnes as reinforcement only
 
 ## Notebook use

@@ -33,8 +33,8 @@ Support material should strengthen that route, not compete with it.
 | [README.md](README.md) | front door | It gives one entry sequence without becoming a competing core. |
 | [METHOD.md](METHOD.md) | drafting loop | It keeps the system instrument-oriented. |
 | [artifact-registry.md](artifact-registry.md) | metadata law | It gives new or touched outputs a canonical class and maturity shape. |
-| [hosts/README.md](hosts/README.md) | host-family continuity home | It keeps live host-law and guest-lane routing inside the repo-root statecraft system instead of retired codex host shelves. |
-| [speakers/README.md](speakers/README.md) | speaker-state continuity home | It keeps statecraft-relevant speaker-state surfaces inside the live system without collapsing them into bridge or lane authority. |
+| [hosts/README.md](../README.md) | host-family continuity home | It keeps live host-law and guest-lane routing inside the repo-root statecraft system instead of retired codex host shelves. |
+| [speakers/README.md](../README.md) | speaker-state continuity home | It keeps statecraft-relevant speaker-state surfaces inside the live system without collapsing them into bridge or lane authority. |
 | [civ-state/review-queue.md](states/review-queue.md) | upstream learning loop | It governs source-memory feedback without silent mutation. |
 
 ## Speaker-State Placement
@@ -112,4 +112,4 @@ If those conditions are missing, forcing a hardening layer is template theater.
 
 ## Compatibility
 
-The former academy architecture file remains at [codex/academy/statecraft/ARCHITECTURE.md](/C:/dev/strategy-codex/codex/academy/statecraft/ARCHITECTURE.md) as a compatibility pointer while the repo-root system becomes the live authority.
+The former academy architecture file remains at [codex/academy/statecraft/ARCHITECTURE.md](../codex/academy/statecraft/ARCHITECTURE.md) as a compatibility pointer while the repo-root system becomes the live authority.

@@ -92,7 +92,7 @@ _Not:_ Record truth; not Voice knowledge; not a substitute for `self.md` or RECU
 
 ## Related
 
-- [work-template/README.md](../work-template/README.md) — full pattern library (tiers, ledger, mapping)
+- [work-template/README.md](../../README.md) — full pattern library (tiers, ledger, mapping)
 - [work-template.md](../work-template.md) (this checklist)
 - [work-modules-history-principle.md](../work-modules-history-principle.md)
 - [work-menu-conventions.md](../work-menu-conventions.md)

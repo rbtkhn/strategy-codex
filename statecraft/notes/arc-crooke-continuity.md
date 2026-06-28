@@ -25,7 +25,7 @@ Quick separation rule:
 
 - `arc-crooke-continuity` = Crooke's canonical continuity across authored and interview contexts, hosts, and time
 - [crooke-helix.md](crooke-helix.md) = cross-host comparison of the main interview transformations
-- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) = authored mechanism ledger
+- [stream/crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md) = authored mechanism ledger
 - host-local arcs = bounded realizations of Crooke under one host's pressure
 
 If the question is mainly "what is Crooke's mechanism?", open the authored ledger. If it is mainly "which host best cashes out the mechanism?", open the helix or the relevant host-local arc. Use this file when the notebook needs the whole Crooke continuity in one place.
@@ -42,7 +42,7 @@ Its main interview lanes are:
 
 Its authored mechanism spine is:
 
-- [crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
+- [crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md)
 
 ## What makes this an arc
 
@@ -69,7 +69,7 @@ Interview transformations:
 
 Authored mechanism:
 
-- [crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md) - best for the forecast/mechanism spine
+- [crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md) - best for the forecast/mechanism spine
 
 Supporting surfaces:
 
@@ -77,7 +77,7 @@ Supporting surfaces:
 - [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
 - [crooke-cross-year-note.md](crooke-cross-year-note.md)
-- [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
+- [stream/crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md)
 - [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md)
 - [stream/crooke-thread-international-law.md](crooke-thread-international-law.md)
 - [stream/crooke-march-may-2026-interview-arc-threads.md](crooke-march-may-2026-interview-arc-threads.md)
@@ -98,7 +98,7 @@ If the operator needs source truth before interpretation:
 
 If the operator needs the mechanism first:
 
-- open [stream/crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
+- open [stream/crooke-forecast-ledger-2026.md](../voices/crooke/crooke-forecast-ledger-2026.md)
 
 If the operator needs the fastest host-conditioned entry:
 

@@ -12,7 +12,7 @@ source_type: youtube
 transcript_type: cleaned_transcript
 editorial_note: "Operator-pasted cleaned transcript."
 ---
-> **Archive SSOT:** [source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md](source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) — this legacy path is compatibility residue only.
+> **Archive SSOT:** [source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md](../../../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) — this legacy path is compatibility residue only.
 
 
 # Diesen / Sergey Karaganov - Confronting Europe, Pivot to East & Nuclear War

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Voice profile template
 
-Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-profile.md` and `statecraft/channels/<host>/<host>-profile.md` after migration. Placement law lives in [README.md § Speaker profile law](README.md#speaker-profile-law). Upstream minimal scaffold: [strategy-codex-template-profile.md](../../../codex/strategy-codex-template-profile.md).
+Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-profile.md` and `statecraft/channels/<host>/<host>-profile.md` after migration. Placement law lives in [README.md § Speaker profile law](README.md#speaker-profile-law). Upstream minimal scaffold: [strategy-codex-template-profile.md](../../codex/strategy-codex-template-profile.md).
 
 **Exemplars:**
 
@@ -77,7 +77,7 @@ WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`<expert_id>`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) — **`<expert_id>`** lane.
 
 ---
 
@@ -300,9 +300,9 @@ When promoting `codex/profiles/<speaker>-profile.md` → `statecraft/voices/<spe
 2. Normalize header pointers (**Canonical profile / shelf / index**).
 3. Ensure required sections exist (stub acceptable); include **Linguistic style fingerprint (detailed)** stub at Tier B.
 4. List profile first in shelf `README.md` **Open first** and `index.md`.
-5. Add row to [codex/profiles/README.md](../../../codex/profiles/README.md) migrated table.
+5. Add row to [codex/profiles/README.md](../../README.md) migrated table.
 6. Add speaker to **Current migrated profiles** in [README.md § Speaker profile law](README.md#speaker-profile-law).
-7. When `*-source-index.md` exists: register in [voice-index.md](voice-index.md) and [repo-map.yaml](../../../repo-map.yaml).
+7. When `*-source-index.md` exists: register in [voice-index.md](voice-index.md) and [repo-map.yaml](../../repo-map.yaml).
 
 ---
 

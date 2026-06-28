@@ -4,7 +4,7 @@
 **Title (session):** *Charles Freeman: Diplomacy Fails - Strait of Hormuz Shut Down Again*  
 **Host:** Glenn Diesen · **Guest:** Amb. Charles Freeman (former U.S. Assistant Secretary of Defense)  
 **Date (dialogue):** 2026-04-18 (Saturday)  
-**Notebook:** `thread:freeman` · companion [strategy-expert-freeman-thread.md](strategy-expert-freeman-thread.md) § **Glenn Diesen — 2026-04-18**  
+**Notebook:** `thread:freeman` · companion [strategy-expert-freeman-thread.md](../statecraft/voices/freeman/freeman-thread.md) § **Glenn Diesen — 2026-04-18**  
 **Territory:** West Asia / Hormuz blockade / Islamabad round / China–Iran / Lebanon / U.S. diplomacy decay  
 
 **Source:** Operator paste 2026-04-18. Pin canonical platform URL when stable.

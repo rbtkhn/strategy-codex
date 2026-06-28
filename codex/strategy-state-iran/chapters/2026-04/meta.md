@@ -10,7 +10,7 @@
 - **Calendar index:** [`days.md`](days.md) — one row per April day → [`daily/`](daily/) consolidated pages (Chronicle / Reflection / References / Foresight).
 - **Weave (institutional, new):** [2026-04-institutional-ledger.md](../../weave/2026-04-institutional-ledger.md) · [2026-04-institutional-weave.md](../../weave/2026-04-institutional-weave.md) — **channels** + **signal-class** month story (see [channels/README.md](../../channels/README.md)); legacy tri-voice: [`voices/iri-institutional/thread.md`](../../voices/iri-institutional/thread.md) (migration note at file top).
 - **Slice registry:** [april-2026-slice-registry.md](april-2026-slice-registry.md) — **date → bundle anchor** for **@araghchi**, **@drpezeshkian**, **@mb_ghalibaf** (SSOT tables under [`source-archive/statecraft/2026-04-20/`](../../../../source-archive/statecraft/2026-04-20/)).
-- **Cross-weave:** Iran-lane dailies are **seams** into main [`days.md`](../../../chapters/2026-04/days.md), not substitutes for **`thread:`** Judgment or wire primaries.
+- **Cross-weave:** Iran-lane dailies are **seams** into main [`days.md`](../../../chapters/2026/2026-04/days.md), not substitutes for **`thread:`** Judgment or wire primaries.
 
 ## April arc (Iran lane — one screen)
 

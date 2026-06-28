@@ -56,7 +56,7 @@ Snapshot from operator Q&A; revise this table if decisions change.
 
 When the agent drafts **paste-ready** operator public copy (**Locals**, **X**, **Predictive History comments**) in a **Cursor** session:
 
-- Echo the **full final text** in the **assistant reply**—the same wording you would paste. Files on disk (e.g. [daily-strategy-inbox.md](../skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md)) are the **audit trail**; **chat is the operator clipboard**.
+- Echo the **full final text** in the **assistant reply**—the same wording you would paste. Files on disk (e.g. [daily-strategy-inbox.md](../../codex/daily-strategy-inbox.md)) are the **audit trail**; **chat is the operator clipboard**.
 - **Derivation ladder (default):** If producing multiple shapes from one spine (e.g. **Locals** paragraph → plain-text strip → **X** trim), echo **each** in the reply. Do not leave a length variant **file-only** unless the operator asks for on-disk only.
 - Optional **one-line scope fence** on meta syntheses when mixing analyst overlays with verify-first lanes (e.g. *synthesizes inbox + notebook only—no new operational claims*).
 
@@ -158,7 +158,7 @@ After a substantive **`strategy`** pass with **load-bearing** Judgment-style pro
 
 Skill-write handoff commonly starts from:
 
-- **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
+- **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../../codex/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
 - **Named-mind analysis** (single lens) or **`state-synthesis`** / **`primary-overhearing-analysis`** output — not legacy **`tri-mind`** ([TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
 - **Work-politics daily brief** — generator and lane per [work-strategy README](../skill-work/work-strategy/README.md) / coffee **C**
 - **Predictive History / work-jiang** — lecture hooks, analysis memos under [`codex/predictive-history/`](../../codex/predictive-history/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus

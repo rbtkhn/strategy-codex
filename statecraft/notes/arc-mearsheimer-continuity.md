@@ -16,7 +16,7 @@ Purpose: define `arc-mearsheimer-continuity` as the canonical statecraft-side pe
 Quick separation rule:
 
 - `arc-mearsheimer-continuity` = Mearsheimer's canonical continuity across hosts, contexts, and time
-- [legacy Mearsheimer helix](../../../statecraft/voices/mearsheimer/mearsheimer-helix.md) = cross-host comparison of the main host transformations
+- [legacy Mearsheimer helix](../voices/mearsheimer/mearsheimer-helix.md) = cross-host comparison of the main host transformations
 - [mearsheimer-routing.md](mearsheimer-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Mearsheimer under one host's pressure
 
@@ -53,11 +53,11 @@ That motion is broad enough that Mearsheimer deserves a canonical statecraft-sid
 
 If the operator needs the strongest whole-speaker comparative entry:
 
-- open [legacy Mearsheimer helix](../../../statecraft/voices/mearsheimer/mearsheimer-helix.md)
+- open [legacy Mearsheimer helix](../voices/mearsheimer/mearsheimer-helix.md)
 
 If the operator needs the strongest speaker-owned maturity explanation:
 
-- open [legacy Mearsheimer support spine](../../../statecraft/voices/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- open [legacy Mearsheimer support spine](../voices/mearsheimer/mearsheimer-support-spine-2025-2026.md)
 
 If the operator needs the fastest host-conditioned entry:
 

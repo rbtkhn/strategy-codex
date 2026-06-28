@@ -109,7 +109,7 @@ When a strategy-codex session needs Python, use the bundled runtime at `C:\Users
 
 See also: [tools.md](tools.md) for the compact strategy-codex tool pointer.
 
-- **Polyphonic cognition streams:** [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md) is the quick eight-stream roster; [speaker-lattice.md](speaker-lattice.md) is the alphabetical recurring-speakers index; [COGNITION-STREAMS.md](COGNITION-STREAMS.md) is the longer scaffold. The current lattice uses `Nima` / `Diesen` / `Davis` / `Mercouris` / `Crooke` / `Parsi` / `Pape` / `Ritter`, with count-neutral graph exports at [artifacts/skill-work/work-strategy/interview-graph/README.md](../artifacts/skill-work/work-strategy/interview-graph/README.md).
+- **Polyphonic cognition streams:** [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md) is the quick eight-stream roster; [speaker-lattice.md](speaker-lattice.md) is the alphabetical recurring-speakers index; [COGNITION-STREAMS.md](COGNITION-STREAMS.md) is the longer scaffold. The current lattice uses `Nima` / `Diesen` / `Davis` / `Mercouris` / `Crooke` / `Parsi` / `Pape` / `Ritter`, with count-neutral graph exports at [artifacts/skill-work/work-strategy/interview-graph/README.md](../README.md).
 
 ## Volume / book / chapter / page scaffold
 

@@ -16,9 +16,9 @@ The tested pattern family is:
 
 The tested lanes are:
 
-- [Persia](persia/README.md)
-- [America](america/README.md)
-- [China](china/README.md)
+- [Persia](../../README.md)
+- [America](../../README.md)
+- [China](../../README.md)
 
 ## Shared Invariant
 

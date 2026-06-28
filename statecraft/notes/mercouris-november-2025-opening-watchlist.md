@@ -12,7 +12,7 @@ This note does not claim November closure, and it does not yet present a finite 
 
 On current local evidence, November 2025 is still a thin Mercouris month relative to its overall archive density.
 
-The month rollup at [2025-11.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-11.md) shows:
+The month rollup at [2025-11.md](../../source-archive/statecraft/2025-11.md) shows:
 
 - `53` source files total
 - `6` Mercouris-thread captures total
@@ -25,16 +25,16 @@ So November is not weak as a month overall, but it is clearly underrepresented f
 
 The currently landed `native solo Mercouris` November captures are:
 
-- `2025-11-10` - [kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-10/source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md)
-- `2025-11-11` - [kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md)
-- `2025-11-12` - [kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-12/source-alexander-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md)
-- `2025-11-13` - [ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/source-alexander-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md)
-- `2025-11-14` - [kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md)
-- `2025-11-20` - [kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-20/source-alexander-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md)
-- `2025-11-27` - [moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-27/source-alexander-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27.md)
-- `2025-11-28` - [putins-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-28/source-alexander-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28.md)
-- `2025-11-29` - [yermak-goes-zelensky-regime-unravels-belgium-blocks-eu-s-russian-asset-p](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-29/source-alexander-mercouris-yermak-goes-zelensky-regime-unravels-belgium-blocks-eu-s-russian-asset-p-2025-11-29.md)
-- `2025-11-30` - [moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-30/source-alexander-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md)
+- `2025-11-10` - [kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov](../../source-archive/statecraft/2025-11-10/source-alexander-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md)
+- `2025-11-11` - [kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper](../../source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md)
+- `2025-11-12` - [kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk](../../source-archive/statecraft/2025-11-12/source-alexander-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md)
+- `2025-11-13` - [ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev](../../source-archive/statecraft/2025-11-13/source-alexander-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md)
+- `2025-11-14` - [kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk](../../source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md)
+- `2025-11-20` - [kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis](../../source-archive/statecraft/2025-11-20/source-alexander-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md)
+- `2025-11-27` - [moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any](../../source-archive/statecraft/2025-11-27/source-alexander-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27.md)
+- `2025-11-28` - [putins-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed](../../source-archive/statecraft/2025-11-28/source-alexander-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28.md)
+- `2025-11-29` - [yermak-goes-zelensky-regime-unravels-belgium-blocks-eu-s-russian-asset-p](../../source-archive/statecraft/2025-11-29/source-alexander-mercouris-yermak-goes-zelensky-regime-unravels-belgium-blocks-eu-s-russian-asset-p-2025-11-29.md)
+- `2025-11-30` - [moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia](../../source-archive/statecraft/2025-11-30/source-alexander-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md)
 
 ## Duran / Mercouris Co-Hosted
 

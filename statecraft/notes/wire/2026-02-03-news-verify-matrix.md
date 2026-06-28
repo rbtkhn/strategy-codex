@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-02-03
 
-**Parent:** [2026-02-03 archive day](../../source-archive/statecraft/2026-02-03/README.md) · **Power arc:** [Helmer Feb 3 → Mar 24](../notes/arc-helmer-iran-five-terms.md) · **Regional wedge:** [Helmer × Marandi](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · **Trust arc:** [Dmitriev Feb 3 §](../notes/arc-helmer-dmitriev-lane.md#feb-3-arc-pre-war-witkoff-discredited--miami-bagman--cooper-demand) · **Forward:** [Feb 17 matrix](statecraft/notes/wire/2026-02-17-news-verify-matrix.md) · [Mar 3 matrix](statecraft/notes/wire/2026-03-03-news-verify-matrix.md)
+**Parent:** [2026-02-03 archive day](../../../source-archive/statecraft/2026-02-03/README.md) · **Power arc:** [Helmer Feb 3 → Mar 24](../notes/arc-helmer-iran-five-terms.md) · **Regional wedge:** [Helmer × Marandi](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · **Trust arc:** [Dmitriev Feb 3 §](../notes/arc-helmer-dmitriev-lane.md#feb-3-arc-pre-war-witkoff-discredited--miami-bagman--cooper-demand) · **Forward:** [Feb 17 matrix](2026-02-17-news-verify-matrix.md) · [Mar 3 matrix](2026-03-03-news-verify-matrix.md)
 
 **Scope:** **Pre-war pass** — Helmer **money/votes/bullets** retreat; **Witkoff/Cooper/Miami** trust lane; **Delhi Arab summit**; **Modi–Trump** tariff pivot. Hook prefix **`JF03-`** (Feb 03 — not Mar 3 **`J03-`**).
 
@@ -22,7 +22,7 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | John Helmer | [Trump's Reckless Strategy Hits a Wall](../../source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | **JF03-A1 – A3**, **JF03-C1 – C2**, **JF03-D1 – D2**, **JF03-F1 – F6** |
+| 1 | John Helmer | [Trump's Reckless Strategy Hits a Wall](../../../source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md) | **JF03-A1 – A3**, **JF03-C1 – C2**, **JF03-D1 – D2**, **JF03-F1 – F6** |
 
 ## Sub-seam A — Power formula / retreat (Helmer **JF03-A1 – A3**)
 
@@ -78,4 +78,4 @@ WORK only; not Record.
 
 Helmer capture `editorial_note` tail: `verify:JF03-A1-partial JF03-A2-partial JF03-F1-supported JF03-F2-partial JF03-F4-unclear JF03-F5-partial` (see header patch).
 
-**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md) · **Opened:** 2026-06-20.
+**Promoted via:** [`wire-verify`](../../../skills/wire-verify/SKILL.md) · **Opened:** 2026-06-20.

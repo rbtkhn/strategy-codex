@@ -14,12 +14,12 @@ Quick separation rule:
 
 If a question is about macro-policy routing, host transformation, or canonical structure, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Sachs structure now lives in [sachs-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-speaker-object.md), [sachs-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/sachs/sachs-cross-host-note.md), and the main Diesen-side branch it describes. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Sachs structure now lives in [sachs-speaker-object.md](sachs-speaker-object.md), [sachs-cross-host-note.md](sachs-cross-host-note.md), and the main Diesen-side branch it describes. Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`strategy-expert-sachs-transcript.md`](strategy-expert-sachs-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`strategy-expert-sachs-transcript.md`](sachs-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-sachs.md`](strategy-expert-sachs.md) (profile) and [`strategy-expert-sachs-transcript.md`](strategy-expert-sachs-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-sachs.md`](sachs-profile.md) (profile) and [`strategy-expert-sachs-transcript.md`](sachs-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -180,11 +180,11 @@ Typical pairings on file for `sachs` emphasize contrast surfaces: Ãƒâ€” d
 
 ### Chronicle
 
-See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`](../days.md) and **Weave** lead bullet for 2026-04-14.
+See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`](../../../codex/chapters/2026/2026-04/days.md) and **Weave** lead bullet for 2026-04-14.
 
 ### Reflection
 
-**Abstract (this page):** **`diesen`** carries two **2026-04-14** expert threads Ã¢â‚¬â€ **work-jiang PH vi-14** (Jiang Ãƒâ€” Diesen lecture: petrodollar / chokepoint / Islamabad frame) and **Diesen Ãƒâ€” Sachs** (Hormuz blockade / DC institutional decay). Same **`expert_id`** on the **`thread:`** line does **not** make them the same **Judgment** object: **`crosses:diesen+sachs`** is **orthogonal** to **vi-14** petrodollar spine; do **not** fold Sachs hypotheses into PH overlay without **verify** tier. Full seam: [`days.md` Ã‚Â§ Judgment Ã¢â‚¬â€ *Diesen Ãƒâ€” Sachs vs PH vi-14*](../days.md).
+**Abstract (this page):** **`diesen`** carries two **2026-04-14** expert threads Ã¢â‚¬â€ **work-jiang PH vi-14** (Jiang Ãƒâ€” Diesen lecture: petrodollar / chokepoint / Islamabad frame) and **Diesen Ãƒâ€” Sachs** (Hormuz blockade / DC institutional decay). Same **`expert_id`** on the **`thread:`** line does **not** make them the same **Judgment** object: **`crosses:diesen+sachs`** is **orthogonal** to **vi-14** petrodollar spine; do **not** fold Sachs hypotheses into PH overlay without **verify** tier. Full seam: [`days.md` Ã‚Â§ Judgment Ã¢â‚¬â€ *Diesen Ãƒâ€” Sachs vs PH vi-14*](../../../codex/chapters/2026/2026-04/days.md).
 
 ### Foresight
 
@@ -200,8 +200,8 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `diesen-vi14-petrodollar-vs-sachs-hormuz` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `diesen-vi14-petrodollar-vs-sachs-hormuz` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -214,14 +214,14 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ `batch-analysis | 2026-04-14 | Diesen Ãƒâ€” Sachs` (`crosses:diesen+sachs`); PH **vi-14** `YT | cold` (`thread:diesen`, `P_DHMUdOVdo`); **Diesen Ãƒâ€” Sachs** `YT | cold` (`thread:diesen` + `thread:sachs`, `S6mlCuvKKIQ`). **Expert threads:** `diesen`, `sachs`.
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ `batch-analysis | 2026-04-14 | Diesen Ãƒâ€” Sachs` (`crosses:diesen+sachs`); PH **vi-14** `YT | cold` (`thread:diesen`, `P_DHMUdOVdo`); **Diesen Ãƒâ€” Sachs** `YT | cold` (`thread:diesen` + `thread:sachs`, `S6mlCuvKKIQ`). **Expert threads:** `diesen`, `sachs`.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass
 - **Expert threads:** `thread:diesen` appears **twice** same calendar day Ã¢â‚¬â€ different episodes; `thread:sachs` only on the blockade episode.
 
 ### References
 
-- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **Diesen Ãƒâ€” Sachs (blockade episode):** [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ)
 
 ### Receipt
@@ -230,9 +230,9 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
-| **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
+| **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 
 **Falsifier:** This pageÃ¢â‚¬â„¢s **orthogonal Judgment** fails if a single authoritative source treats **vi-14** petrodollar claims and **Sachs**-layer **NYT** / **DC-process** hypotheses as **one** merged **Glenn Diesen** verdict **without** separate episode groundingÃ¢â‚¬â€i.e. **collapse-by-edit** replaces **`crosses:`** discipline.
 <!-- strategy-page:end -->
@@ -250,11 +250,11 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 ### Reflection
 
-**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
+**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -266,8 +266,8 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -280,7 +280,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -312,7 +312,7 @@ none this pass
 - **Ritter 085 (pin):** inbox line Ã¢â‚¬â€ `TBD-canonical-085` Ã¢â€ â€™ replace when canonical **YouTube** ID is fixed.
 - **Davis Ãƒâ€” Jermy (same day):** [YouTube `etxmqrdm3V0`](https://www.youtube.com/watch?v=etxmqrdm3V0) Ã¢â‚¬â€ **`thread:davis`**, **`thread:jermy`**
 - **Diesen Ãƒâ€” Sachs blockade:** [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) Ã¢â‚¬â€ **`thread:diesen`**, **`thread:sachs`**
-- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
+- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
 
 ### Receipt
 
@@ -320,9 +320,9 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
-| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../legacy page index) Ã¢â‚¬â€ search `2026-04-14` |
+| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md) Ã¢â‚¬â€ search `2026-04-14` |
 
 **Falsifier:** This weave fails if **one** **merged** **Judgment** treats **Ritter** **hull**/**interdiction** **claims** as **fully** **confirmed** by **`parsi`** **EU** **wording**, **`sachs`** **NYT** **room** **hypotheses**, or **`jermy`** **GDP** **slides** **without** **tiered** **verify** Ã¢â‚¬â€ **expert** **lattice** **collapsed** into **mood**.
 <!-- strategy-page:end -->
@@ -334,19 +334,19 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
+- Inbox | cold: full text in [`source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
 ## 2026-04-27
-- Inbox | cold: full text in [`source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
+- Inbox | cold: full text in [`source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
 ## 2026-04-26
-- Inbox | cold: full text in [`source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
+- Inbox | cold: full text in [`source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
 ## 2026-04-25
-- YT | cold: **Tucker** **Carlson** **Ãƒâ€”** **Jeffrey** **D.** **Sachs** Ã¢â‚¬â€ *The Real Origins of the Iran War and the Coming Economic Devastation* Ã¢â‚¬â€ **aired** **2026-04-24** Ã¢â‚¬â€ **Hormuz** **closure** **&** **global** **econ** **crisis,** **fork** **(off-ramp** **vs** **renewed** **bombing** **/** **all-out** **war);** **1953** **Mossadegh** **/** **empire** **frame,** **Shah** **/ 1979,** **hostage,** **post-1980** **U.S.Ã¢â‚¬â€œIran** **arc;** **Gulf** **/ desal** **/ missile** **vulnerability;** **Trump** **/** **Netanyahu** **/ political** **vs** **Ã¢â‚¬Å“grown-upÃ¢â‚¬Â** **off-ramp** // hook: **`thread:sachs`** **Ãƒâ€”** **Ã‚Â§1e** **Hormuz** **+** **Ã‚Â§1d** **exec** **Ã¢â‚¬â€** **full** [provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md](provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) | TBD (pin `watch?v=`) | verify:operator-file+YouTube+full-text+aired:2026-04-24+opinion-historical-narrative-tier+not-Record | thread:sachs | IRAN | HORMUZ | US-POL | grep:Sachs+Carlson+Iran+origins+2026-04-24
+- YT | cold: **Tucker** **Carlson** **Ãƒâ€”** **Jeffrey** **D.** **Sachs** Ã¢â‚¬â€ *The Real Origins of the Iran War and the Coming Economic Devastation* Ã¢â‚¬â€ **aired** **2026-04-24** Ã¢â‚¬â€ **Hormuz** **closure** **&** **global** **econ** **crisis,** **fork** **(off-ramp** **vs** **renewed** **bombing** **/** **all-out** **war);** **1953** **Mossadegh** **/** **empire** **frame,** **Shah** **/ 1979,** **hostage,** **post-1980** **U.S.Ã¢â‚¬â€œIran** **arc;** **Gulf** **/ desal** **/ missile** **vulnerability;** **Trump** **/** **Netanyahu** **/ political** **vs** **Ã¢â‚¬Å“grown-upÃ¢â‚¬Â** **off-ramp** // hook: **`thread:sachs`** **Ãƒâ€”** **Ã‚Â§1e** **Hormuz** **+** **Ã‚Â§1d** **exec** **Ã¢â‚¬â€** **full** [provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md) | TBD (pin `watch?v=`) | verify:operator-file+YouTube+full-text+aired:2026-04-24+opinion-historical-narrative-tier+not-Record | thread:sachs | IRAN | HORMUZ | US-POL | grep:Sachs+Carlson+Iran+origins+2026-04-24
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md](provenance/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md)
+- [source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md](../../../source-archive/statecraft/2026-04-24/source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md)
 
 ### Page references
 

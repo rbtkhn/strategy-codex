@@ -46,11 +46,11 @@ Read each era below through the same question set:
 - Civilizational grammar: law, citizenship, civic virtue, conquest, and universal political order
 - Rupture or mutation: republic becomes empire without ending the Roman sovereignty claim
 Best current carriers:
-- [Rome core](../../../../research/repos/civilization_memory/content/civilizations/ROME/CIV-CORE-ROME.md)
-- [Rome state](../../../../research/repos/civilization_memory/content/civilizations/ROME/CIV-STATE-ROME.md)
-- [Rome republic](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-REPUBLIC.md)
-- [Rome law and citizenship](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-LAW-CITIZENSHIP.md)
-- [Rome-Parthia war memory](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-WAR-CARRHAE.md)
+- [Rome core](../../../../research/repos/civilization_memory/README.md)
+- [Rome state](../../../../research/repos/civilization_memory/README.md)
+- [Rome republic](../../../../research/repos/civilization_memory/README.md)
+- [Rome law and citizenship](../../../../research/repos/civilization_memory/README.md)
+- [Rome-Parthia war memory](../../../../research/repos/civilization_memory/README.md)
 
 ## Medieval
 
@@ -58,11 +58,11 @@ Best current carriers:
 - Civilizational grammar: imperial Christianity, Constantinople, doctrinal universality, and church-bearing continuity
 - Rupture or mutation: the center moves and the chain transforms, but Rome does not simply disappear after the western fall
 Best current carriers:
-- [Rome doctrine](../../../../research/repos/civilization_memory/content/civilizations/ROME/CIV-DOCTRINE-ROME.md)
-- [Constantinople](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-CONSTANTINOPLE.md)
-- [Justinian](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-EMPIRE-JUSTINIAN.md)
-- [Christianity](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-CHRISTIANITY.md)
-- [Great Schism](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-PAPACY-GREAT-SCHISM.md)
+- [Rome doctrine](../../../../research/repos/civilization_memory/README.md)
+- [Constantinople](../../../../research/repos/civilization_memory/README.md)
+- [Justinian](../../../../research/repos/civilization_memory/README.md)
+- [Christianity](../../../../research/repos/civilization_memory/README.md)
+- [Great Schism](../../../../research/repos/civilization_memory/README.md)
 
 ## Colonial
 
@@ -70,11 +70,11 @@ Best current carriers:
 - Civilizational grammar: papal legitimacy, imperial residue, renaissance recovery, and reformation fracture
 - Rupture or mutation: church and empire no longer fuse cleanly, but Roman legitimacy remains a live inheritance
 Best current carriers:
-- [Holy Roman Empire residue](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-HOLY-ROMAN-EMPIRE.md)
-- [Italian Renaissance](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-ITALY-RENAISSANCE.md)
-- [Machiavelli](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-ITALY-LIT-MACHIAVELLI.md)
-- [Reformation fracture](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-PAPACY-PROTESTANT-REFORMATION.md)
-- [Ottoman-Rome memory](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-OTTOMAN-EMPIRE.md)
+- [Holy Roman Empire residue](../../../../research/repos/civilization_memory/README.md)
+- [Italian Renaissance](../../../../research/repos/civilization_memory/README.md)
+- [Machiavelli](../../../../research/repos/civilization_memory/README.md)
+- [Reformation fracture](../../../../research/repos/civilization_memory/README.md)
+- [Ottoman-Rome memory](../../../../research/repos/civilization_memory/README.md)
 
 ## Industrial
 
@@ -82,9 +82,9 @@ Best current carriers:
 - Civilizational grammar: church continuity, legal memory, and successor-order residue after empire's territorial exhaustion
 - Rupture or mutation: the chain contracts sharply, but survives institutionally and symbolically through a shelf that terminates in 1991
 Best current carriers:
-- [Rome index](../../../../research/repos/civilization_memory/content/civilizations/ROME/CIV-INDEX-ROME.md)
-- [Vatican residue](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-VATICAN.md)
-- [Italy continuity](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-ITALY.md)
+- [Rome index](../../../../research/repos/civilization_memory/README.md)
+- [Vatican residue](../../../../research/repos/civilization_memory/README.md)
+- [Italy continuity](../../../../research/repos/civilization_memory/README.md)
 
 ## Cybernetic
 

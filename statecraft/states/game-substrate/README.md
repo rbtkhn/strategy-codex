@@ -45,4 +45,4 @@ Future: `scripts/validate_civ_state_game_profiles.py`.
 - [Volume II Persia](../volumes/civ-state-persia/README.md)
 - [Parity rival](../archive/theory-cross-case-v1/patterns/parity-rival.md)
 - [Continuity mechanism](../archive/theory-cross-case-v1/continuity.md)
-- [Theory shelf](../../public/civ-state/theory/README.md) (ship-bound SSOT)
+- [Theory shelf](../../../public/civ-state/theory/README.md) (ship-bound SSOT)

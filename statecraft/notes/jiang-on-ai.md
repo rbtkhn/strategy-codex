@@ -24,7 +24,7 @@ Jiang is the repo's **strongest repeat speaker** on AI as:
 
 ## Technical thesis
 
-Primary source: [2026-05-12 / Game Theory #24: The AI Apocalypse](../source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md)
+Primary source: [2026-05-12 / Game Theory #24: The AI Apocalypse](../../source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md)
 
 Grounded in Karen Hao's *Empire of AI* (cited in lecture):
 
@@ -41,7 +41,7 @@ Verbatim anchors:
 
 ## Financial and bailout thesis
 
-Sources: GT-24; [2026-06-10 / Founding Members #01](../source-archive/statecraft/2026-06-10/source-predictive-history-founding-members-01-livestream-2026-06-10.md); [2026-01-05 / Diesen × Jiang](../source-archive/statecraft/2026-01-05/source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
+Sources: GT-24; [2026-06-10 / Founding Members #01](../../source-archive/statecraft/2026-06-10/source-predictive-history-founding-members-01-livestream-2026-06-10.md); [2026-01-05 / Diesen × Jiang](../../source-archive/statecraft/2026-01-05/source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
 
 - Major spenders (Amazon, Microsoft, Google, Meta, Oracle) **do not make money on AI** — bubble must burst unless state subsidizes
 - **Operation Stargate** = government pays for surveillance database; name links to **CIA remote-viewing** and interdimensional portal metaphor
@@ -57,7 +57,7 @@ Verbatim anchors:
 
 ## Occult and holy-empire layer
 
-Sources: GT-24; [2026-05-19 / Game Theory #26: The Holy Empire of AI](../source-archive/statecraft/2026-05-19/source-game-theory-26-the-holy-empire-of-ai-2026-05-19.md)
+Sources: GT-24; [2026-05-19 / Game Theory #26: The Holy Empire of AI](../../source-archive/statecraft/2026-05-19/source-game-theory-26-the-holy-empire-of-ai-2026-05-19.md)
 
 - Semester arc: **AI + occult** through Paradise Lost, Freemasonry, Albert Pike — `generative … plus geometry … equals AI`
 - OpenAI as **techno-religion** — Altman: company as religion; **AGI = God**; Sutskever eschatology (cited via Hao)
@@ -68,7 +68,7 @@ GT-26: **metaphorical** conspiracy → **literal** power-structure reading (secr
 
 ## China strand (partner lab, not industrial race)
 
-Sources: GT-24, [2026-05-14 / Game Theory #25: Trump Visits China](../source-archive/statecraft/2026-05-14/source-game-theory-25-trump-visits-china-2026-05-14.md), FM-01
+Sources: GT-24, [2026-05-14 / Game Theory #25: Trump Visits China](../../source-archive/statecraft/2026-05-14/source-game-theory-25-trump-visits-china-2026-05-14.md), FM-01
 
 *Subsidiary to core AI thesis — do not reduce Jiang to China-only.*
 
@@ -84,7 +84,7 @@ Verbatim anchors:
 
 ## Semester synthesis (GT-28)
 
-[2026-05-26 / Game Theory #28](../source-archive/statecraft/2026-05-26/source-game-theory-28-predictive-history-2026-05-26.md) integrates AI into **Iran war** frame (geopolitics, eschatology, imperial decline). GT-27 (Putin–Beijing) is geopolitical; minimal new AI doctrine.
+[2026-05-26 / Game Theory #28](../../source-archive/statecraft/2026-05-26/source-game-theory-28-predictive-history-2026-05-26.md) integrates AI into **Iran war** frame (geopolitics, eschatology, imperial decline). GT-27 (Putin–Beijing) is geopolitical; minimal new AI doctrine.
 
 ## Key operators
 

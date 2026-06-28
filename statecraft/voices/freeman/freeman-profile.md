@@ -11,7 +11,7 @@
 | **expert_id** | `freeman` |
 | **Role** | **Primary civ-china (strategy) expert** (WORK): **U.S.Ã¢â‚¬â€œChina** diplomatic **form** and **history** (interpreter-era **lineage**, **Shanghai CommuniquÃƒÂ©**-class memory, **order** / **multipolar** **talk**); **PRC** **staging** **reads** **with** **Gulf**Ã¢â‚¬â€œ**Asia** **spillovers**. Still: **inconclusive** talks, **alliance** / **material** framing on **Islamabad**-type weeks; **separate plane** from papal **moral** register. **Default seam** from **`jiang`** **PH** **lecture** **lane** unless **`batch-analysis`** **labels** **an** **explicit** **weave**. |
 | **Default grep tags** | `Freeman` or `ChasFreeman` in cold |
-| **Typical pairings** | Ãƒâ€” `parsi`, Ãƒâ€” `mercouris`, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](rome-persia-legitimacy-signal-check.md) (**seam**, not merge); Ãƒâ€” `diesen`, Ãƒâ€” `jiang`, Ãƒâ€” `sachs` (**civ-china** **cross-weave** **Ã¢â‚¬â€** **tier** **discipline**) |
+| **Typical pairings** | Ãƒâ€” `parsi`, Ãƒâ€” `mercouris`, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) (**seam**, not merge); Ãƒâ€” `diesen`, Ãƒâ€” `jiang`, Ãƒâ€” `sachs` (**civ-china** **cross-weave** **Ã¢â‚¬â€** **tier** **discipline**) |
 | **Notebook-use tags** | `negotiate` |
 
 <a id="voice-fingerprint-compact"></a>
@@ -53,7 +53,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `freeman` | Charles (Ã¢â‚¬Å“ChasÃ¢â‚¬Â) Freeman | **Primary civ-china (strategy) expert**: **U.S.Ã¢â‚¬â€œChina** **diplomatic** **memory** **&** **PRC** **order** **talk**; **inconclusive** talks + **alliance/material** framing; **seam** from **`jiang`** **PH** **by** **default** | `Freeman` or `ChasFreeman` in cold | Ãƒâ€” `parsi`, Ãƒâ€” `mercouris`, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](rome-persia-legitimacy-signal-check.md) (**seam**, not merge); Ãƒâ€” `diesen`, Ãƒâ€” `jiang`, Ãƒâ€” `sachs` |
+| `freeman` | Charles (Ã¢â‚¬Å“ChasÃ¢â‚¬Â) Freeman | **Primary civ-china (strategy) expert**: **U.S.Ã¢â‚¬â€œChina** **diplomatic** **memory** **&** **PRC** **order** **talk**; **inconclusive** talks + **alliance/material** framing; **seam** from **`jiang`** **PH** **by** **default** | `Freeman` or `ChasFreeman` in cold | Ãƒâ€” `parsi`, Ãƒâ€” `mercouris`, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) (**seam**, not merge); Ãƒâ€” `diesen`, Ãƒâ€” `jiang`, Ãƒâ€” `sachs` |
 
 ### Quantitative metrics (illustrative Ã¢â‚¬â€ from index)
 
@@ -71,7 +71,7 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ---
 
-**Companion files:** [`strategy-expert-freeman-transcript.md`](strategy-expert-freeman-transcript.md) (7-day rolling verbatim) and [`strategy-expert-freeman-thread.md`](strategy-expert-freeman-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-freeman-transcript.md`](freeman-transcript.md) (7-day rolling verbatim) and [`strategy-expert-freeman-thread.md`](freeman-thread.md) (distilled analytical thread).
 
 ## Archive / backfill note
 

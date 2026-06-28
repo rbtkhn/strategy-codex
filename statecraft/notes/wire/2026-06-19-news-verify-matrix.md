@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-19
 
-**Parent daily:** [2026-06-19](statecraft/synthesis/day/2026-06-19.md) · **Archive:** [2026-06-19 README](../../source-archive/statecraft/2026-06-19/README.md) · **Cross-ref:** [2026-06-18 daily](statecraft/synthesis/day/2026-06-18.md) · [2026-06-17 matrix](statecraft/notes/wire/2026-06-17-news-verify-matrix.md) · [J17-5 ceremony fork](statecraft/notes/wire/2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
+**Parent daily:** [2026-06-19](../../synthesis/day/2026-06-19.md) · **Archive:** [2026-06-19 README](../../../source-archive/statecraft/2026-06-19/README.md) · **Cross-ref:** [2026-06-18 daily](../../synthesis/day/2026-06-18.md) · [2026-06-17 matrix](2026-06-17-news-verify-matrix.md) · [J17-5 ceremony fork](2026-06-17-news-verify-matrix.md#ceremony--venue-fork-j17-5--j17-17--contested-only-furtwangler-hold)
 
 **Mode:** batch (11 ingests, MOU **implementation-suspension** seam) · **Hooks:** 15 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (Lebanon ceasefire **declared + contested hold**; Bürgenstock **postponed**; Hormuz **partial** transit)
 
@@ -115,7 +115,7 @@ Blumenthal **US capitulation** · Weichert **junior partner / America-first Lata
 ## Escalate
 
 - **72h Lebanon ops** post **J19-4** (upgrade/downgrade **J19-5**)
-- **State Dept readout** on **Washington** venue (**J19-13**) — [child note](statecraft/notes/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
+- **State Dept readout** on **Washington** venue (**J19-13**) — [child note](../2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
 - Treasury/asset **transfer bulletin** (**J19-12** · **J18 falsifier #2**)
 - **Official IRNA/MFA** “suspended until MOU implemented” text (**J19-3**)
 - **IRGC vs SNSC** single authoritative Hormuz grammar (**J19-8**)

@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not make narrative the sole
 
 ## Return Path
 
-Return through [CIV-STATE China](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-china/README.md), [China sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-china/sovereign-continuity.md), [China geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-china/geo-strategy-china.md), and [China sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-china/sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [CIV-STATE China](README.md), [China sovereign continuity](sovereign-continuity.md), [China geo-strategy](geo-strategy-china.md), and [China sacred grammar](sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

@@ -47,4 +47,4 @@ related_long_form: hormuz-reciprocal-transit-deescalation-framework-v2-1.md
 
 ---
 
-*Hook:* [Sea blockade / stalemate — 2026-04-25](provenance/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md).
+*Hook:* [Sea blockade / stalemate — 2026-04-25](../source-archive/statecraft/2026-04-25/day-index.md).

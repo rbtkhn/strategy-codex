@@ -18,9 +18,9 @@ This file should be read as the **anti-hubris and public-indictment** Jermy bran
 Quick separation rule:
 
 - `Peacemonger x Jermy` = strategy failure, hubris, public-facing indictment, and maritime consequence widened into elite vanity critique
-- [arc-jermy-davis-host.md](/C:/dev/strategy-codex/arc-jermy-davis-host.md) = closure geometry, reopening lag, shipping choke, and operational system consequence
-- [arc-jermy-diesen-host.md](/C:/dev/strategy-codex/arc-jermy-diesen-host.md) = maritime-order fallout, alliance divorce, and Europe/system consequence
-- [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine tying the host transformations together
+- [arc-jermy-davis-host.md](../../arc-jermy-davis-host.md) = closure geometry, reopening lag, shipping choke, and operational system consequence
+- [arc-jermy-diesen-host.md](../../arc-jermy-diesen-host.md) = maritime-order fallout, alliance divorce, and Europe/system consequence
+- [jermy-speaker-object.md](../voices/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine tying the host transformations together
 
 If the notebook needs Jermy as a blunt critic of elite arrogance and failed war planning, route here. If it needs closure mechanics or order-transition framing, route to Davis or Diesen instead.
 
@@ -91,9 +91,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [arc-jermy-davis-host.md](/C:/dev/strategy-codex/arc-jermy-davis-host.md), which is stronger on blockade operations, reopening timelines, and shipping-system consequence
-- [arc-jermy-diesen-host.md](/C:/dev/strategy-codex/arc-jermy-diesen-host.md), which is stronger on Europe-order fracture and maritime-system fallout at strategic altitude
-- the legacy [jermy-thread.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-thread.md), which is continuity residue rather than a competing canonical strand
+- [arc-jermy-davis-host.md](../../arc-jermy-davis-host.md), which is stronger on blockade operations, reopening timelines, and shipping-system consequence
+- [arc-jermy-diesen-host.md](../../arc-jermy-diesen-host.md), which is stronger on Europe-order fracture and maritime-system fallout at strategic altitude
+- the legacy [jermy-thread.md](../voices/jermy/jermy-thread.md), which is continuity residue rather than a competing canonical strand
 
 ## Boundaries
 

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-27T02:04:04.759028+00:00",
+  "generated_at": "2026-06-27T16:29:43.966796+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
   },
   "strict_mode": false,
-  "phase": "structural",
+  "phase": "both",
   "ok": true,
   "integrity_ok": true,
   "governance_ok": true,
@@ -15,8 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "Capture gap: Record hasn't grown in 36 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
-    "AI frontier watch: The Innermost Loop latest - Welcome to June 26, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 37 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - Welcome to June 27, 2026 - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -32,8 +32,8 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-06-26T02:03:46.821713+00:00",
-    "window_end_utc": "2026-06-27T02:03:46.821713+00:00",
+    "window_start_utc": "2026-06-26T16:29:24.734474+00:00",
+    "window_end_utc": "2026-06-27T16:29:24.734474+00:00",
     "window_hours": 24.0,
     "count": 2,
     "first_ts": "2026-06-26T23:44:00+00:00",
@@ -66,8 +66,8 @@
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-06-26T02:03:46.821713+00:00",
-    "window_end_utc": "2026-06-27T02:03:46.821713+00:00",
+    "window_start_utc": "2026-06-26T16:29:24.734474+00:00",
+    "window_end_utc": "2026-06-27T16:29:24.734474+00:00",
     "window_hours": 24.0,
     "completed_passes": 0,
     "orientation_only": 0,
@@ -134,18 +134,27 @@
   "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
   "confidence_class": "medium",
   "bias_strength": "soft",
-  "civmem_echoes": [],
+  "civmem_echoes": [
+    {
+      "path": "minds\\README.md",
+      "overlap": 4,
+      "snippet_preview": "The three **CIV\u2013MIND** profile bodies (Mercouris, Mearsheimer, Barnes) are **canonical in Grace-Mar** under: **[`docs/skill-work/work-strategy/strategy-notebook/minds/`](../../skill-work/work-strategy",
+      "analogy_label": "Analogy candidate only \u2014 not evidence, not recommendation, not Record.",
+      "specificity_pass": true,
+      "score": 6.0
+    }
+  ],
   "civmem_disclaimer": "Analogical / historical depth from in-repo civ-mem (token overlap); not current truth, not Voice knowledge, not part of the Record.",
   "civmem_index_missing": false,
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 36,
+    "days_since_evidence": 37,
     "last_merge_date": null,
     "days_since_merge": null,
     "pending_count": 1,
     "level": "alert",
-    "message": "Record hasn't grown in 36 days (last: ACT-0038, 2026-05-21)"
+    "message": "Record hasn't grown in 37 days (last: ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
@@ -162,17 +171,17 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-06-27T02:04:03.142502+00:00",
+    "fetched_at": "2026-06-27T16:29:42.162261+00:00",
     "status": "ok",
-    "title": "Welcome to June 26, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-26-2026",
-    "published_at": "2026-06-26T14:39:58+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 26, 2026\" (2026-06-26T14:39:58+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "Welcome to June 27, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-27-2026",
+    "published_at": "2026-06-27T12:16:06+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 27, 2026\" (2026-06-27T12:16:06+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
-    "previous_dream_generated_at": "2026-06-27T01:58:39.446640+00:00",
+    "previous_dream_generated_at": "2026-06-27T02:04:04.759028+00:00",
     "local_calendar_dates": [],
     "strategy_notebook_missing_day_headers": [],
     "statecraft_scaffold_catchup": {
@@ -208,10 +217,10 @@
   "topActionReason": "validated_follow_through",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "Capture gap: Record hasn't grown in 36 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "must_resume": "Capture gap: Record hasn't grown in 37 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 26, 2026 - consider explicit source hygiene if relevant t"
+    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 27, 2026 - consider explicit source hygiene if relevant t"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

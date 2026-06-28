@@ -120,7 +120,7 @@ python3 scripts/menu_choice_evolution.py -u grace-mar --days 30 --print-gate-stu
 
 The gate stub is **stdout only** â€” paste and edit **`CANDIDATE-XXXX`** before any merge.
 
-**Strategy ingest session receipt (optional):** End-of-session tally for **X / transcript ingests** without duplicating full lines in `session-transcript.md` â€” the **SSOT** for paste-ready lines stays [strategy-notebook/daily-strategy-inbox.md](work-strategy/strategy-notebook/daily-strategy-inbox.md). Example:
+**Strategy ingest session receipt (optional):** End-of-session tally for **X / transcript ingests** without duplicating full lines in `session-transcript.md` â€” the **SSOT** for paste-ready lines stays [strategy-notebook/daily-strategy-inbox.md](../../codex/daily-strategy-inbox.md). Example:
 
 ```bash
 python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked strategy-ingest \
@@ -129,7 +129,7 @@ python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked stra
 
 `--note` is truncated at **500 characters** by the script â€” use a **pointer** (date / file), not a full paste dump. First-class `--context INGEST` is **not** required; `WORK` + `picked` + tags is enough for aggregation.
 
-**Strategy weave ledger (optional):** After weaving [strategy-notebook/daily-strategy-inbox.md](work-strategy/strategy-notebook/daily-strategy-inbox.md) into `chapters/YYYY-MM/days.md`, append one JSONL event (compression proxies, optional ratings) â€” not session-transcript, not MEMORY:
+**Strategy weave ledger (optional):** After weaving [strategy-notebook/daily-strategy-inbox.md](../../codex/daily-strategy-inbox.md) into `chapters/YYYY-MM/days.md`, append one JSONL event (compression proxies, optional ratings) â€” not session-transcript, not MEMORY:
 
 ```bash
 python3 scripts/log_strategy_fold.py -u grace-mar --notebook-date 2026-04-13 --fold-kind manual \
@@ -212,5 +212,5 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 - [Operatorâ€“agent lanes](../../operator-agent-lanes.md)
 - [Coffee skill](../../../.cursor/skills/coffee/SKILL.md)
 - [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
-- [Bootstrap â€” coffee](../../../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md)
+- [Bootstrap â€” coffee](../../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md)
 - [Date and time formats](../date-time-conventions.md)

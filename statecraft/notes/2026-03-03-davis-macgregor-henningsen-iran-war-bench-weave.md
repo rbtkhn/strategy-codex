@@ -87,7 +87,7 @@ Same-day **Daniel Davis Deep Dive** bench — three registers on **US–Israel�
 
 - [Helmer × Marandi — Moscow + Tehran](./2026-03-03-iran-war-weave-helmer-marandi.md)
 - [Mercouris × Wilkerson — attrition / F-15](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — Wilkerson cites McGregor **5 a.m.** same day
-- [Wire matrix — Hormuz + diplomacy](statecraft/notes/wire/2026-03-03-news-verify-matrix.md)
+- [Wire matrix — Hormuz + diplomacy](wire/2026-03-03-news-verify-matrix.md)
 
 ## Cross-day return
 

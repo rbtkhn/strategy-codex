@@ -10,12 +10,12 @@ The key routing warning is simple: Jiang is often **negative about Chinese elite
 
 Primary local anchors:
 
-- [Game Theory #27: Putin Enters the Chat, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/source-game-theory-27-putin-enters-the-chat-2026-05-21.md)
-- [Game Theory #13: Epstein's World](/C:/dev/strategy-codex/codex/predictive-history/lectures/game-theory-13-epsteins-world.md)
-- [Interviews #3: Glenn Diesen - Predictions 2026, Empire, Rivalry, Collapse](/C:/dev/strategy-codex/codex/predictive-history/lectures/interviews-03-glenn-diesen-predictions-2026-empire-rivalry-collapse.md)
-- [Interviews #5: Dimitri Lascaris - Trump, Iran, Davos, Canada, China](/C:/dev/strategy-codex/codex/predictive-history/lectures/interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md)
-- [Interviews #11: Tucker Carlson - Iran War and Global Order](/C:/dev/strategy-codex/codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)
-- [Analysis - Interviews #11](/C:/dev/strategy-codex/codex/predictive-history/analysis/2K2nQsTTjQE-interviews-11-analysis.md)
+- [Game Theory #27: Putin Enters the Chat, 2026-05-21](../../../source-archive/statecraft/2026-05-21/source-game-theory-27-putin-enters-the-chat-2026-05-21.md)
+- [Game Theory #13: Epstein's World](../../../codex/predictive-history/lectures/game-theory-13-epsteins-world.md)
+- [Interviews #3: Glenn Diesen - Predictions 2026, Empire, Rivalry, Collapse](../../../codex/predictive-history/lectures/interviews-03-glenn-diesen-predictions-2026-empire-rivalry-collapse.md)
+- [Interviews #5: Dimitri Lascaris - Trump, Iran, Davos, Canada, China](../../../codex/predictive-history/lectures/interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md)
+- [Interviews #11: Tucker Carlson - Iran War and Global Order](../../../codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)
+- [Analysis - Interviews #11](../../../codex/predictive-history/analysis/2K2nQsTTjQE-interviews-11-analysis.md)
 
 Bounded claim:
 

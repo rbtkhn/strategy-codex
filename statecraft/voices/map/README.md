@@ -6,11 +6,11 @@ WORK only; not Record.
 
 It does not replace the parent [`statecraft/voices/`](../). Speaker folders remain the durable accumulation layer for speaker objects, host-local arcs, helixes, cross-year notes, and routing notes. Speaker-map files should help agents decide what to open next, compare routes, and see cross-host reinforcement without moving interpretation out of the speaker folders.
 
-For the storage-side SSOT and the canonical raw-input-side version of the wiring rule, see [provenance/README.md](../../years/2026/provenance/README.md).
+For the storage-side SSOT and the canonical raw-input-side version of the wiring rule, see [provenance/README.md](../../../README.md).
 
 This README is the governing speaker-routing doctrine. Speaker folders, year indexes, and lattice surfaces should implement this contract rather than restate it.
 
-For the compact speaker-shelf naming table that this routing doctrine assumes, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md).
+For the compact speaker-shelf naming table that this routing doctrine assumes, see [Speaker-Shelf Vocabulary](../speaker-shelf-vocabulary.md).
 
 ## Layer Contract
 

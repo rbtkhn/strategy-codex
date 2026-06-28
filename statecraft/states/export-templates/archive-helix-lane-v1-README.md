@@ -25,9 +25,9 @@ Helix-lane v1 content maps to book-first surfaces in the upstream workshop salva
 If you followed an old civ-emp link:
 
 - **Book navigation** → [README.md](../../README.md) · [Table of Contents](../../table-of-contents.md)
-- **China** → [volumes/china/README.md](../../volumes/china/README.md)
-- **Persia** → [volumes/persia/README.md](../../volumes/persia/README.md)
-- **Russia** → [volumes/russia/README.md](../../volumes/russia/README.md)
-- **America** → [volumes/america/README.md](../../volumes/america/README.md)
+- **China** → [volumes/china/README.md](../../../README.md)
+- **Persia** → [volumes/persia/README.md](../../../README.md)
+- **Russia** → [volumes/russia/README.md](../../../README.md)
+- **America** → [volumes/america/README.md](../../../README.md)
 
 Raw helix-lane files from the founding cut may be restored in this folder in a later archival commit when the operator syncs legacy content from the pre-rename default branch.

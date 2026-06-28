@@ -21,9 +21,9 @@ This file should be read as the **Davis-pressure branch** of Mercouris, not as a
 Quick separation rule:
 
 - `Davis x Mercouris` = force-feasibility pressure on Mercouris's diplomatic and institutional read
-- [arc-mercouris-continuity.md](/C:/dev/strategy-codex/arc-mercouris-continuity.md) = native bounded arc shape
-- [arc-mercouris-continuity-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/arc-mercouris-continuity-threads.md) = canonical recurring-strand atlas
-- [arc-mercouris-diesen-host.md](/C:/dev/strategy-codex/arc-mercouris-diesen-host.md) = legitimacy-order-transition branch at higher European-system altitude
+- [arc-mercouris-continuity.md](../../arc-mercouris-continuity.md) = native bounded arc shape
+- [arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md) = canonical recurring-strand atlas
+- [arc-mercouris-diesen-host.md](../../arc-mercouris-diesen-host.md) = legitimacy-order-transition branch at higher European-system altitude
 
 If a Mercouris item matters mainly because Davis is testing whether Western policy can actually be executed, routed, supplied, or sustained, it belongs here. If the item matters mainly because it advances a native Mercouris strand regardless of host pressure, prefer the native arc or thread atlas.
 
@@ -104,14 +104,14 @@ If the operator needs the next capture candidates:
 
 If the operator needs Mercouris as speaker object:
 
-- open [mercouris-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-speaker-object.md)
-- open [arc-mercouris-continuity.md](/C:/dev/strategy-codex/arc-mercouris-continuity.md)
-- open [arc-mercouris-continuity-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/arc-mercouris-continuity-threads.md)
+- open [mercouris-speaker-object.md](../voices/mercouris/mercouris-speaker-object.md)
+- open [arc-mercouris-continuity.md](../../arc-mercouris-continuity.md)
+- open [arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md)
 
 If the operator needs Davis as host-native stream object:
 
-- open [davis-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-speaker-object.md)
-- open [davis-thread.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-thread.md)
+- open [davis-speaker-object.md](../voices/davis/davis-speaker-object.md)
+- open [davis-thread.md](../voices/davis/davis-thread.md)
 
 ## Routing use
 
@@ -134,9 +134,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- the native [arc-mercouris-continuity.md](/C:/dev/strategy-codex/arc-mercouris-continuity.md), which carries the main stream continuity
-- [arc-mercouris-continuity-threads.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/arc-mercouris-continuity-threads.md), which separates the recurring strands inside that native continuity
-- [arc-mercouris-diesen-host.md](/C:/dev/strategy-codex/arc-mercouris-diesen-host.md), which is less about feasibility pressure and more about European legitimacy and order transition
+- the native [arc-mercouris-continuity.md](../../arc-mercouris-continuity.md), which carries the main stream continuity
+- [arc-mercouris-continuity-threads.md](../voices/mercouris/arc-mercouris-continuity-threads.md), which separates the recurring strands inside that native continuity
+- [arc-mercouris-diesen-host.md](../../arc-mercouris-diesen-host.md), which is less about feasibility pressure and more about European legitimacy and order transition
 
 ## Boundaries
 

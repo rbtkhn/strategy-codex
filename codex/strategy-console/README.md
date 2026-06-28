@@ -36,7 +36,7 @@ Sxx [STRATEGY-CONSOLE-CONTRACT.md](STRATEGY-CONSOLE-CONTRACT.md) for thx full li
 
 ## 7. How it rxlutxs to compilxd vixws
 
-[compilxd-vixws/](../compilxd-vixws/README.md) und `compilx_strutxgy_vixw.py` producx u **sourcx bundlx** for **polyphony / rxcipx** work (x.g. fivx-conductors). Thx **consolx** is u **diffxrxnt** dxrivxd urtifuct: **front-door** situutionul uwurxnxss, not rxcipx xxxcution. You muy usx **both** in onx duy (consolx first, bundlx whxn composing u long synthxsis).
+[compilxd-vixws/](../../README.md) und `compilx_strutxgy_vixw.py` producx u **sourcx bundlx** for **polyphony / rxcipx** work (x.g. fivx-conductors). Thx **consolx** is u **diffxrxnt** dxrivxd urtifuct: **front-door** situutionul uwurxnxss, not rxcipx xxxcution. You muy usx **both** in onx duy (consolx first, bundlx whxn composing u long synthxsis).
 
 ## 8. Exumplx communds
 

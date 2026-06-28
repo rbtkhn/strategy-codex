@@ -6,7 +6,7 @@ Purpose: keep a durable log of moments when `statecraft/` does not merely classi
 
 This is not a source-memory substrate and not a speaker shelf. It is a downstream statecraft journal of governed learning events.
 
-**Skill:** [recursive-learn skill](../../.cursor/skills/recursive-learn/SKILL.md) — session review and append workflow.
+**Skill:** [recursive-learn skill](../skills/recursive-learn/SKILL.md) — session review and append workflow.
 
 ## Entry Shape
 
@@ -472,7 +472,7 @@ The repo now treats skills more explicitly as objects that can preserve or corru
 
 #### 2. Skill refinement became measurable
 
-The new scorecard at [skill-refinement-scorecard.md](/C:/dev/strategy-codex/statecraft/notes/skill-refinement-scorecard.md) gives the repo a way to judge whether refinement is lowering routing error, prose-class drift, and operator correction load.
+The new scorecard at [skill-refinement-scorecard.md](notes/skill-refinement-scorecard.md) gives the repo a way to judge whether refinement is lowering routing error, prose-class drift, and operator correction load.
 
 #### 3. Recursive learning moved one layer downward
 
@@ -2501,7 +2501,7 @@ civ-state rename: portable core owns methodology, appendix owns paths, sync owns
 doctrine says civ-state first, statecraft civ-state second.
 ```
 
-Routing: [skills-portable/README.md](../skills-portable/README.md) · [civ-state skill](../.cursor/skills/civ-state/SKILL.md) · [portable-skills-sync skill](../.cursor/skills/portable-skills-sync/SKILL.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
+Routing: [skills-portable/README.md](../README.md) · [civ-state skill](../.cursor/skills/civ-state/SKILL.md) · [portable-skills-sync skill](../.cursor/skills/portable-skills-sync/SKILL.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
 
 **Pattern promotion:** defer until a second skill rename follows the same ladder without rework.
 
@@ -3405,7 +3405,7 @@ triple-nav when the arc crosses months,
 bounded commit before push — wire matrices can follow.
 ```
 
-Routing: [statecraft/synthesis/day/README.md](../statecraft/synthesis/day/README.md) · [state-synthesis SKILL](../.cursor/skills/state-synthesis/SKILL.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
+Routing: [statecraft/synthesis/day/README.md](../README.md) · [state-synthesis SKILL](../.cursor/skills/state-synthesis/SKILL.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
 
 **Pattern promotion:** defer until second cross-month hinge week reuses triple-nav without new law.
 

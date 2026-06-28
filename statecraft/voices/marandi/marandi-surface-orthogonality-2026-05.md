@@ -6,15 +6,15 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md)
-- [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md)
-- [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md)
-- [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md)
-- [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md)
-- [arc-marandi-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-davis-host.md)
-- [arc-marandi-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-diesen-host.md)
-- [arc-marandi-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-nima-host.md)
-- [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md)
+- [arc-marandi-continuity.md](../../notes/arc-marandi-continuity.md)
+- [marandi-routing.md](marandi-routing.md)
+- [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md)
+- [marandi-speaker-object.md](marandi-speaker-object.md)
+- [marandi-helix.md](marandi-helix.md)
+- [arc-marandi-davis-host.md](../../notes/arc-marandi-davis-host.md)
+- [arc-marandi-diesen-host.md](../../notes/arc-marandi-diesen-host.md)
+- [arc-marandi-nima-host.md](../../notes/arc-marandi-nima-host.md)
+- [marandi-thread.md](marandi-thread.md)
 
 Bounded claim:
 
@@ -26,21 +26,21 @@ Bounded claim:
 
 Arcs under review:
 
-- [arc-marandi-davis-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-davis-host.md)
-- [arc-marandi-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-diesen-host.md)
-- [arc-marandi-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-nima-host.md)
+- [arc-marandi-davis-host.md](../../notes/arc-marandi-davis-host.md)
+- [arc-marandi-diesen-host.md](../../notes/arc-marandi-diesen-host.md)
+- [arc-marandi-nima-host.md](../../notes/arc-marandi-nima-host.md)
 
 Threads under review:
 
-- none canonical; [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md) remains a compatibility continuity surface
+- none canonical; [marandi-thread.md](marandi-thread.md) remains a compatibility continuity surface
 
 Comparison-only notes:
 
-- [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md)
-- [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md)
-- [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md)
-- [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md)
-- [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md)
+- [arc-marandi-continuity.md](../../notes/arc-marandi-continuity.md)
+- [marandi-routing.md](marandi-routing.md)
+- [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md)
+- [marandi-speaker-object.md](marandi-speaker-object.md)
+- [marandi-helix.md](marandi-helix.md)
 
 ## Arc audit
 
@@ -70,7 +70,7 @@ The shelf's real structure is now:
 - helix for host-transformation comparison
 - host-local arcs for retrieval
 
-The older [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md) still does not isolate a recurring mechanism that the newer stack fails to carry, so it remains compatibility-only.
+The older [marandi-thread.md](marandi-thread.md) still does not isolate a recurring mechanism that the newer stack fails to carry, so it remains compatibility-only.
 
 ### Thread distinctness table
 
@@ -91,12 +91,12 @@ The older [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/m
 
 `same frame, different role`
 
-- [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md) and [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md) do not own separate continuity; they are comparison and routing surfaces that justify why the three host arcs belong together
-- [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md), [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md), and [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
+- [marandi-speaker-object.md](marandi-speaker-object.md) and [marandi-helix.md](marandi-helix.md) do not own separate continuity; they are comparison and routing surfaces that justify why the three host arcs belong together
+- [arc-marandi-continuity.md](../../notes/arc-marandi-continuity.md), [marandi-routing.md](marandi-routing.md), and [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
 
 `comparison note mistaken for continuity surface`
 
-- [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md) can still be mistaken for a canonical topical-thread system, but it no longer carries a distinct mechanism and should stay compatibility-only
+- [marandi-thread.md](marandi-thread.md) can still be mistaken for a canonical topical-thread system, but it no longer carries a distinct mechanism and should stay compatibility-only
 
 Main confusion zones:
 
@@ -107,16 +107,16 @@ Main confusion zones:
 ## Recommended actions
 
 - keep the current speaker-first, helix-centered structure
-- keep [arc-marandi-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-marandi-continuity.md) as the person-level continuity surface
-- keep [marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md) as the fast host-and-task routing surface
-- keep [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-2025-present-arc-threads.md) as the canonical recurring thread atlas
+- keep [arc-marandi-continuity.md](../../notes/arc-marandi-continuity.md) as the person-level continuity surface
+- keep [marandi-routing.md](marandi-routing.md) as the fast host-and-task routing surface
+- keep [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) as the canonical recurring thread atlas
 - keep all three host-local arcs as distinct canonical threads
-- keep [marandi-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-speaker-object.md) as the shelf's first justification surface
-- keep [marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md) as the compact cross-host routing surface
+- keep [marandi-speaker-object.md](marandi-speaker-object.md) as the shelf's first justification surface
+- keep [marandi-helix.md](marandi-helix.md) as the compact cross-host routing surface
 - continue routing feasibility and failed-intimidation questions to Davis first
 - continue routing escalation-horizon and order-transition questions to Diesen first
 - continue routing selective-Hormuz, GCC-complicity, and live red-line signaling to Dialogue Works first
-- keep [marandi-thread.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-thread.md) as compatibility residue only
+- keep [marandi-thread.md](marandi-thread.md) as compatibility residue only
 
 ## Notebook use
 

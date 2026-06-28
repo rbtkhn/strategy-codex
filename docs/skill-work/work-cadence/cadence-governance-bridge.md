@@ -5,11 +5,11 @@
 ## Scripts
 
 - [audit_cadence_rhythm.py](../../scripts/audit_cadence_rhythm.py) â€” rhythm summary (existing).
-- **`--pressure-report`** â€” writes `runtime/artifacts/work-cadence/cadence-pressure-report.json`, combining rhythm + `status: pending` counts in [`recursion-gate.md`](../../../recursion-gate.md).
+- **`--pressure-report`** â€” writes `runtime/artifacts/work-cadence/cadence-pressure-report.json`, combining rhythm + `status: pending` counts in [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md).
 
 ## Authority
 
-**Cadence** does not approve candidates. **Companion** approves merges through **RECURSION-GATE** per [AGENTS.md](../../AGENTS.md). Pressure metrics are **diagnostic** only.
+**Cadence** does not approve candidates. **Companion** approves merges through **RECURSION-GATE** per [AGENTS.md](../../../AGENTS.md). Pressure metrics are **diagnostic** only.
 
 ## See also
 

@@ -21,7 +21,7 @@ Verify tier: **opinion / field-observation** per source frontmatter — executiv
 
 ## Implementation thesis
 
-Primary source: [2026-05-13 / With China, It's Getting Late Early](../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md)
+Primary source: [2026-05-13 / With China, It's Getting Late Early](../../source-archive/statecraft/2026-05-13/source-pape-with-china-its-getting-late-early-2026-05-13.md)
 
 Structural moves:
 
@@ -40,7 +40,7 @@ Verbatim anchors:
 
 ## Geopolitical linkage
 
-Primary source: [2026-04-20 / Collapse Ahead of Schedule (Redacted)](../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md)
+Primary source: [2026-04-20 / Collapse Ahead of Schedule (Redacted)](../../source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md)
 
 Same tour referenced in Hormuz / shortage context:
 
@@ -57,7 +57,7 @@ Verbatim anchors:
 
 ## Summit / perception layer
 
-[2026-05-14 / It's Getting Late Early for Trump](../source-archive/statecraft/2026-05-14/source-pape-its-getting-late-early-for-trump-2026-05-14.md) ties Trump–Beijing weakness to the same relative-power frame; May-13 essay notes reporters’ **“I had no idea”** reaction to visible Chinese advance — **elite perception lag** as strategic variable.
+[2026-05-14 / It's Getting Late Early for Trump](../../source-archive/statecraft/2026-05-14/source-pape-its-getting-late-early-for-trump-2026-05-14.md) ties Trump–Beijing weakness to the same relative-power frame; May-13 essay notes reporters’ **“I had no idea”** reaction to visible Chinese advance — **elite perception lag** as strategic variable.
 
 ## What Pape is not saying (in this corpus)
 

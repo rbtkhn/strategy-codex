@@ -8,10 +8,10 @@ This review checks whether the current Jiang shelf is partitioned sharply enough
 
 Local Jiang surfaces reviewed:
 
-- [jiang-profile.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-profile.md)
-- [jiang-thread.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-thread.md)
-- [jiang-transcript.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-transcript.md)
-- [jiang-on-china.md](/C:/dev/strategy-codex/statecraft/voices/jiang/jiang-on-china.md)
+- [jiang-profile.md](jiang-profile.md)
+- [jiang-thread.md](jiang-thread.md)
+- [jiang-transcript.md](jiang-transcript.md)
+- [jiang-on-china.md](jiang-on-china.md)
 
 Adjacent cross-speaker compare notes:
 

@@ -23,7 +23,7 @@ WORK only; not Record. **Source of truth** is still Markdown (`strategy-page` fe
 
 ## Proposals (future MCP / agents)
 
-`propose_page_update`-style tools must emit **proposals** (WORK staging, copy-paste, or explicit apply by operator) — not silent writes to `thread.md`. Aligned with [AGENTS.md](../../../../AGENTS.md) (no ungated identity merges).
+`propose_page_update`-style tools must emit **proposals** (WORK staging, copy-paste, or explicit apply by operator) — not silent writes to `thread.md`. Aligned with [AGENTS.md](../AGENTS.md) (no ungated identity merges).
 
 ## Links
 

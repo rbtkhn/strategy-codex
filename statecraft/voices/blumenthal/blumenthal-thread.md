@@ -16,10 +16,10 @@ If a question is about cross-host use or canonical routing, route to those named
 
 Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Blumenthal structure now lives in [blumenthal-speaker-object.md](blumenthal-speaker-object.md), [blumenthal-cross-host-note.md](blumenthal-cross-host-note.md), and [blumenthal-index.md](blumenthal-index.md). Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`strategy-expert-blumenthal-transcript.md`](strategy-expert-blumenthal-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`strategy-expert-blumenthal-transcript.md`](blumenthal-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-blumenthal.md`](strategy-expert-blumenthal.md) (profile) and [`strategy-expert-blumenthal-transcript.md`](strategy-expert-blumenthal-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-blumenthal.md`](blumenthal-profile.md) (profile) and [`strategy-expert-blumenthal-transcript.md`](blumenthal-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -167,8 +167,8 @@ WORK only; not Record.
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-16 |
-| **page_id** (machine slug) | `marandi-blumenthal-jf-primary` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../days.md#2026-04-16) |
+| **page_id** (machine slug) | `marandi-blumenthal-jf-primary` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16) |
 | **Primary expert (`thread:`)** | `marandi` Ã¢â‚¬â€ **Chronicle / Reflection** follow **Iranian English process + red-line register** first. |
 
 ### Page type
@@ -178,7 +178,7 @@ WORK only; not Record.
 ### Lineage
 
 - **Weave option C** (strategy session): Marandi-primary; Blumenthal = domestic/media amplifier; **Pape** = **validate fork** only Ã¢â€ â€™ pointer to **same-day** Pape Ãƒâ€” Janssen page (page id `pape-janssen-escalation-blockade`), **not** merged analysis here.
-- **Inbox:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) **`## 2026-04-16`** Ã¢â‚¬â€ **`- BP |`** Marandi row; **Judging Freedom Ã¢â‚¬â€ Max Blumenthal Ã¢â‚¬â€ 2026-04-16** (operator session; paste to inbox when ready).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) **`## 2026-04-16`** Ã¢â‚¬â€ **`- BP |`** Marandi row; **Judging Freedom Ã¢â‚¬â€ Max Blumenthal Ã¢â‚¬â€ 2026-04-16** (operator session; paste to inbox when ready).
 - **Expert threads:** `thread:marandi` Ã‚Â· `thread:blumenthal`
 - **Sister:** 04-13 Marandi Ãƒâ€” Ritter Ãƒâ€” Mercouris scaffold (page id `marandi-ritter-mercouris-hormuz-scaffold`)
 
@@ -210,8 +210,8 @@ WORK only; not Record.
 
 - **Weave D (same day, separate page):** `pape-janssen-escalation-blockade`
 - **Scaffold:** `marandi-ritter-mercouris-hormuz-scaffold`
-- **Threads:** [`strategy-expert-marandi-thread.md`](../../../strategy-expert-marandi-thread.md) Ã‚Â· [`strategy-expert-blumenthal-thread.md`](../../../strategy-expert-blumenthal-thread.md)
-- **Inbox:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) **`## 2026-04-16`**
+- **Threads:** [`strategy-expert-marandi-thread.md`](../marandi/marandi-thread.md) Ã‚Â· [`strategy-expert-blumenthal-thread.md`](blumenthal-thread.md)
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) **`## 2026-04-16`**
 
 ---
 
@@ -291,8 +291,8 @@ WORK only; not Record.
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-16 |
-| **page_id** (machine slug) | `pape-janssen-escalation-blockade` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../days.md#2026-04-16) |
+| **page_id** (machine slug) | `pape-janssen-escalation-blockade` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16) |
 | **Primary expert (`thread:`)** | `pape` Ã¢â‚¬â€ **escalation trap / staged blockade / spoiler** mechanism; **not** Tehran process register (see weave C (page id `marandi-blumenthal-jf-primary`)). |
 
 ### Page type
@@ -302,7 +302,7 @@ WORK only; not Record.
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert ingest Ã¢â‚¬â€ 2026-04-16** (Pape Ãƒâ€” Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) Ãƒâ€” Mearsheimer` + `Ãƒâ€” Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert ingest Ã¢â‚¬â€ 2026-04-16** (Pape Ãƒâ€” Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) Ãƒâ€” Mearsheimer` + `Ãƒâ€” Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
 - **Expert threads:** `thread:pape` Ã¢â‚¬â€ operator transcript + channel URL until **`watch?v=`** pinned
 - **Related pages:** `islamabad-hormuz-thesis-weave` (Thesis A/B + escalation-trap vocabulary), `kremlin-iri-uranium-dual-register` (enrichment / grand-bargain scope trap), `mercouris-mearsheimer-lebanon-split` (Lebanon fork + Pape sectarian map lane)
 
@@ -310,8 +310,8 @@ WORK only; not Record.
 
 ### References
 
-- **Inbox capture:** [daily-strategy-inbox.md Ã¢â‚¬â€ Expert ingest 2026-04-16](../../../daily-strategy-inbox.md) (search `Janssen` / `Pape`)
-- **Expert thread:** [strategy-expert-pape-thread.md](../../../strategy-expert-pape-thread.md)
+- **Inbox capture:** [daily-strategy-inbox.md Ã¢â‚¬â€ Expert ingest 2026-04-16](../../../codex/daily-strategy-inbox.md) (search `Janssen` / `Pape`)
+- **Expert thread:** [strategy-expert-pape-thread.md](../pape/pape-thread.md)
 - **YT (channel until pin):** [Cyrus Janssen Ã¢â‚¬â€ videos](https://www.youtube.com/@CyrusJanssen/videos)
 - **X (Lebanon map):** [ProfessorPape](https://x.com/ProfessorPape) Ã¢â‚¬â€ `verify:pin-exact-status-URL` in inbox
 - **Wire:** [AP Ã¢â‚¬â€ IsraelÃ¢â‚¬â€œLebanon talks Washington (14 Apr)](https://apnews.com/article/lebanon-israel-negotiations-hezbollah-rubio-washington-88f5123bfcf4c00625e98ea14a16eef9)
@@ -328,19 +328,19 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
+- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
 ## 2026-04-27
-- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
+- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
 ## 2026-04-26
-- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
+- Inbox | cold: full text in [`source-blumenthal-israel-defeat-zionist-power-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) (pointer; SSOT raw-input) | thread:blumenthal
 ## 2026-04-25
-- YT | cold: **Nemo** Ãƒâ€” **Max Blumenthal** (*IsraelÃ¢â‚¬â„¢s Defeat Begins: Zionist Power Structure FALLING APART in the US* Ã¢â‚¬â€ **operator** **ASR** **transcript** **2026-04-21**) Ã¢â‚¬â€ **blockade** **Ãƒâ€”** **Islamabad;** **Witkoff** **/** **Kushner** **Ã¢â‚¬Å“Trojan** **horseÃ¢â‚¬Â** **frame;** **UAE** **/** **KSA** **SWF** **Ã¢â€ â€™** **Kushner;** **Trump** **Ãƒâ€”** **Wright** **gas;** **Bessent** **UAE** **loan;** **April** **7** **insider** **trades;** **Vance** **Ãƒâ€”** **Singer** **/** **Adelson** **+** **Netanyahu** **Islamabad** **call;** **Tucker** **/** **Buckley;** **JASSM,** **carriers,** **Anduril** **/** **Palmer** **Luckey,** **tanker** **Ã¢â€ â€™** **China,** **Bible** **Museum** **/** **Chronicles** **/** **Third** **Temple** **echo;** **Netanyahu** **sit** **room** **/** **Barnea** **Greyzone** **echo;** **Pew** **U50** **men** **/** **Israel;** **GCC** **/** **Kuwait** **journalist;** **Syria-ization** **/** **Barnea** **Ã¢â‚¬Å“phase** **three;Ã¢â‚¬Â** **Lebanon** **Ã¢â‚¬Å“yellow** **lineÃ¢â‚¬Â** // hook: **`thread:blumenthal`** **alt-media** **+** **Ã‚Â§1d** **/** **Ã‚Â§1e** **Ã¢â‚¬â€** **full** **verbatim** [provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md](provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) | `TBD` canonical watch URL | verify:ASR+provenance/2026-04-21/transcript-blumenthal+operator-transcript+spellings-tier | thread:blumenthal | IRAN | LEBANON | grep:Blumenthal+Nemo+Zionist+defeat+2026-04-21
+- YT | cold: **Nemo** Ãƒâ€” **Max Blumenthal** (*IsraelÃ¢â‚¬â„¢s Defeat Begins: Zionist Power Structure FALLING APART in the US* Ã¢â‚¬â€ **operator** **ASR** **transcript** **2026-04-21**) Ã¢â‚¬â€ **blockade** **Ãƒâ€”** **Islamabad;** **Witkoff** **/** **Kushner** **Ã¢â‚¬Å“Trojan** **horseÃ¢â‚¬Â** **frame;** **UAE** **/** **KSA** **SWF** **Ã¢â€ â€™** **Kushner;** **Trump** **Ãƒâ€”** **Wright** **gas;** **Bessent** **UAE** **loan;** **April** **7** **insider** **trades;** **Vance** **Ãƒâ€”** **Singer** **/** **Adelson** **+** **Netanyahu** **Islamabad** **call;** **Tucker** **/** **Buckley;** **JASSM,** **carriers,** **Anduril** **/** **Palmer** **Luckey,** **tanker** **Ã¢â€ â€™** **China,** **Bible** **Museum** **/** **Chronicles** **/** **Third** **Temple** **echo;** **Netanyahu** **sit** **room** **/** **Barnea** **Greyzone** **echo;** **Pew** **U50** **men** **/** **Israel;** **GCC** **/** **Kuwait** **journalist;** **Syria-ization** **/** **Barnea** **Ã¢â‚¬Å“phase** **three;Ã¢â‚¬Â** **Lebanon** **Ã¢â‚¬Å“yellow** **lineÃ¢â‚¬Â** // hook: **`thread:blumenthal`** **alt-media** **+** **Ã‚Â§1d** **/** **Ã‚Â§1e** **Ã¢â‚¬â€** **full** **verbatim** [provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md) | `TBD` canonical watch URL | verify:ASR+provenance/2026-04-21/transcript-blumenthal+operator-transcript+spellings-tier | thread:blumenthal | IRAN | LEBANON | grep:Blumenthal+Nemo+Zionist+defeat+2026-04-21
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-blumenthal-israel-defeat-zionist-power-2026-04-21.md](provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- [source-blumenthal-israel-defeat-zionist-power-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
 
 ### Page references
 

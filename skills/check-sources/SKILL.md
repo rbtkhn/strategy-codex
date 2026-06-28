@@ -736,14 +736,14 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 | Check-sources roster (human) | [channel-index.md](../../statecraft/channels/channel-index.md) |
 | Roster loader | [statecraft_youtube_discovery.py](../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
 | Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
-| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
+| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
 | Legacy check-streams stub | [check-streams/SKILL.md](../check-streams/SKILL.md) |
-| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../../codex/raw-input/README.md) |
-| Analyst shelves | [statecraft/voices/](../../../statecraft/voices/) |
-| Channel shelves | [statecraft/channels/](../../../statecraft/channels/) |
-| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
+| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../codex/raw-input/README.md) |
+| Analyst shelves | [statecraft/voices/](../../statecraft/voices) |
+| Channel shelves | [statecraft/channels/](../../statecraft/channels) |
+| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
 | Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
-| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 
 **Repo notes**

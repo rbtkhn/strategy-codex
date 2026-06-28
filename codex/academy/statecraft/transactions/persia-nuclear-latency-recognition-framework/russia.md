@@ -12,9 +12,9 @@ Latency recognition without proliferation chaos.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Crooke](../../../../speakers/crooke/) for Western misreading and structural rupture; [Diesen](../../../../speakers/diesen/) for multipolar order; [Ritter](../../../../speakers/ritter/) for nuclear danger; [Parsi](../../../../speakers/parsi/) / [Freeman](../../../../speakers/freeman/) for settlement architecture.
+- Speaker-state inputs: [Crooke](../../../../../statecraft/voices/crooke) for Western misreading and structural rupture; [Diesen](../../../../../statecraft/voices/diesen) for multipolar order; [Ritter](../../../../../statecraft/voices/ritter) for nuclear danger; [Parsi](../../../../../statecraft/voices/parsi) / [Freeman](../../../../../statecraft/voices/freeman) for settlement architecture.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../../years/2026/raw-input/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Ritter 2026-02-05](../../../../years/2026/raw-input/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
+- Raw-input / provenance anchors: [Parsi 2026-02-20](../../../../../source-archive/statecraft/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Ritter 2026-02-05](../../../../../source-archive/statecraft/2026-02-05/source-ritter-alas-babylon-2026-02-05.md).
 
 ## Civilization / Empire Helix Input
 

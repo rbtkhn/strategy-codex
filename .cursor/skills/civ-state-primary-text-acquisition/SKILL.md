@@ -20,7 +20,7 @@ synced_by: sync_portable_skills.py
 
 **Status:** Deprecated as a standalone entry. Do not invoke this skill directly for new work.
 
-**Use instead:** [`skills/runbooks/civ-state-primary-text.runbook.md`](../runbooks/civ-state-primary-text.runbook.md) after **`civ-state`** entry.
+**Use instead:** [`skills/runbooks/civ-state-primary-text.runbook.md`](../../../skills/runbooks/civ-state-primary-text.runbook.md) after **`civ-state`** entry.
 
 ## Legacy activation
 
@@ -35,13 +35,13 @@ Acquisition methodology executes inside the runbook workflow. Do not treat this 
 
 **strategy-codex instance notes**
 
-- Canonical doctrine note for this skill: [statecraft/states/primary-text-architecture.md](/C:/dev/strategy-codex/statecraft/states/primary-text-architecture.md)
+- Canonical doctrine note for this skill: [statecraft/states/primary-text-architecture.md](../../../statecraft/states/primary-text-architecture.md)
 - Canonical structured layers:
-  - [source-records](/C:/dev/strategy-codex/statecraft/states/source-records/README.md)
-  - [source-excerpts](/C:/dev/strategy-codex/statecraft/states/source-excerpts/README.md)
-  - [source-sidecar](/C:/dev/strategy-codex/statecraft/states/source-sidecar/README.md)
+  - [source-records](../../../statecraft/states/source-records/README.md)
+  - [source-excerpts](../../../statecraft/states/source-excerpts/README.md)
+  - [source-sidecar](../../../statecraft/states/source-sidecar/README.md)
 - Current pilot records live under:
-  - [statecraft/states/source-records/pilot](/C:/dev/strategy-codex/statecraft/states/source-records/pilot)
+  - [statecraft/states/source-records/pilot](../../../statecraft/states/source-records/pilot)
 
 **Preferred maintenance commands after skill edits**
 

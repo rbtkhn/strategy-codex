@@ -1,3 +1,9 @@
+---
+audience: operator
+authority: routing_aid
+record_status: none
+---
+
 # Root directory map — strategy-codex
 
 **Work only; not Record.**

@@ -1,3 +1,9 @@
+---
+audience: operator
+authority: routing_aid
+record_status: none
+---
+
 # Harness architecture map — strategy-codex
 
 **Work only; not Record.**

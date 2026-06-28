@@ -17,7 +17,7 @@ threads:
   - johnson
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 title: "Larry Johnson: The U.S. Is Now Directly Calling Iran (Vance's Switzerland Bombshell)"
 channel_slug: dialogue-works

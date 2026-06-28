@@ -18,6 +18,7 @@ from typing import Any
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import SKILLS_DIR
 
 from skill_consolidation_maps import (  # noqa: E402
     CATEGORY_MAP,
@@ -117,7 +118,7 @@ def _patch_file(path: Path, name: str, *, is_draft: bool, dry_run: bool) -> bool
 
 
 def _patch_manifest(dry_run: bool) -> bool:
-    manifest_path = REPO_ROOT / "skills" / "manifest.yaml"
+    manifest_path = SKILLS_DIR / "manifest.yaml"
     data = safe_load_path(manifest_path, feature="backfill_skill_metadata.py")
     changed = False
     for entry in data.get("skills", []):
@@ -154,7 +155,7 @@ def main() -> int:
     manifest = _load_manifest_entries()
     updated = 0
 
-    skills_base = REPO_ROOT / "skills"
+    skills_base = SKILLS_DIR
     for skill_dir in sorted(skills_base.iterdir()):
         if not skill_dir.is_dir() or skill_dir.name.startswith("_") or skill_dir.name == "runbooks":
             continue

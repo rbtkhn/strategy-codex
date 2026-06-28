@@ -5,7 +5,7 @@
 
 - **New work (preferred):** Author month-level **signaling** in [`weave/`](../../weave/) — [`weave/2026-04-institutional-ledger.md`](../../weave/2026-04-institutional-ledger.md) (what was signaled) and [`weave/2026-04-institutional-weave.md`](../../weave/2026-04-institutional-weave.md) (what it means) — and route by [**channels/**](../../channels/README.md) (`diplomacy`, `presidency`, `majlis`, `amplification`, `material-check`). Use [**signal class**](../../templates/INSTITUTIONAL-LEDGER-SIGNAL-CLASSES.md) headings, not person-primary organization, for **new** ledger text.
 - **This file (legacy, retained):** Same-path **`strategy-page`** blocks and **`### Voice — …`** month structure below stay **as history** and for **inbound links** (inbox lines, `raw-input` bundles, operator bookmarks). **Do not** remove April 2026 (or other) content in favor of a silent redirect.
-- **Seam to main notebook** is unchanged: fold Iran-lane lines into [main `chapters/…/days.md`](../../../chapters/2026-04/days.md) as **seams**, with **tier** tags.
+- **Seam to main notebook** is unchanged: fold Iran-lane lines into [main `chapters/…/days.md`](../../../chapters/2026/2026-04/days.md) as **seams**, with **tier** tags.
 
 ---
 
@@ -28,7 +28,7 @@ Within **`## YYYY-MM`**, **`### Voice — …`** subsections separate **FM / pre
 #### Month ledger (2026-04) — Araghchi
 
 - **Bundle ingest (2026-04-20 snapshot):** **12** English posts **2026-04-02 → 2026-04-17**; **no** rows **04-01** or **04-18–04-20** in fetch.
-- **Seam targets:** Islamabad MoU line, Hormuz commercial passage aligned with Lebanon ceasefire, Pakistan/Munir gratitude — **dual-register** with [`thread:marandi`](../../../experts/marandi/thread.md), [`thread:mercouris`](../../../experts/mercouris/thread.md), [`thread:davis`](../../../experts/davis/thread.md) and main [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md).
+- **Seam targets:** Islamabad MoU line, Hormuz commercial passage aligned with Lebanon ceasefire, Pakistan/Munir gratitude — **dual-register** with [`thread:marandi`](../../../experts/marandi/thread.md), [`thread:mercouris`](../../../experts/mercouris/thread.md), [`thread:davis`](../../../experts/davis/thread.md) and main [`chapters/2026-04/days.md`](../../../chapters/2026/2026-04/days.md).
 - **Open:** Refresh advanced search if late-April FM posts appear; **image** rows (**SNSC**, photos) need **visual** readout for full cite.
 
 **April 2026 on @araghchi (English X)** — twelve standalone posts **2026-04-02 → 2026-04-17** (GMT times in bundle; **no** thread chains in scrape). Arc in brief: **IHL / civilian infrastructure** and **Bushehr** framing early in the month; **SNSC** image post **04-07**; **ceasefire terms** and **ball in Washington** **04-08**; **Lebanon / Netanyahu trial** hook **04-09**; **Islamabad MoU** failure with **U.S. maximalism + blockade** **04-12**; **Munir** welcome **04-15**; **Hormuz open for commercial vessels** aligned with **Lebanon ceasefire** + **PMO coordinated route** **04-17** — same object chain the main notebook already indexes against **Davis** packaging and **Marandi** three-condition Hormuz gloss (**seam**, not merged voice).
@@ -62,7 +62,7 @@ Treat as **IRI FM register** for **§1e / Islamabad / Hormuz–Lebanon linkage**
 
 - **Raw input:** [`source-archive/statecraft/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md`](../../../../source-archive/statecraft/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)
 - **Profile:** [https://x.com/araghchi](https://x.com/araghchi)
-- **Main notebook:** [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md) (e.g. **2026-04-17** FM / Hormuz continuity)
+- **Main notebook:** [`chapters/2026-04/days.md`](../../../chapters/2026/2026-04/days.md) (e.g. **2026-04-17** FM / Hormuz continuity)
 
 <!-- strategy-page:end -->
 
@@ -71,7 +71,7 @@ Treat as **IRI FM register** for **§1e / Islamabad / Hormuz–Lebanon linkage**
 #### Month ledger (2026-04) — Pezeshkian
 
 - **Bundle ingest (2026-04-20 snapshot):** **29** table rows **2026-04-03 → 2026-04-20** (mixed **fa** / **en** / **ar** + quote chains).
-- **Seam targets:** Lebanon “trigger” stack, Islamabad delegation / Ghalibaf negotiator cheer, **ROME** (**@Pontifex**), UNGA Golden Rule / Minab — **dual-register** with **@araghchi** FM lane and main [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md); see [rome-persia-legitimacy-signal-check.md](../../../rome-persia-legitimacy-signal-check.md).
+- **Seam targets:** Lebanon “trigger” stack, Islamabad delegation / Ghalibaf negotiator cheer, **ROME** (**@Pontifex**), UNGA Golden Rule / Minab — **dual-register** with **@araghchi** FM lane and main [`chapters/2026-04/days.md`](../../../chapters/2026/2026-04/days.md); see [rome-persia-legitimacy-signal-check.md](../../../rome-persia-legitimacy-signal-check.md).
 - **Open:** Pin **status URLs** for cite-grade rows; verify kinetic / assassination claims on **wire** before Links-grade merge.
 
 **April 2026 @drpezeshkian** — twenty-nine table rows **2026-04-03 → 2026-04-20** (mixed **fa** / **en** / **ar**, duplicate timestamps for quote chains). Highlights: **04-03** Stone Age / war-crime frame to **Finnish** counterpart; **Strategic Council** assassination / wife martyrdom vs **address to American people**; **Aliyev** call. **04-07–08** mass **#جان_فدا** / **ceasefire** as fruit of **Khamenei** sacrifice + **#باهم_بودنمان_پیروزی_است**. **04-09** **Lebanon** trilingual **“hands on the trigger”** line. **04-11** **Pakistan** delegation + **industry** visit. **04-12** **U.S.** should drop **hegemony**, respect **Iranian rights**; **cheer to Ghalibaf** negotiators. **04-13** **Pope Leo XIV** English + **fa** — **ROME** plane (see **rome-persia** signal check). **04-14** **Spain / China / Russia / Türkiye / Italy / Egypt** vs **Zionist** warmongering. **04-16** **UNGA Golden Rule** 1/2–2/2 + **Minab** children / scientists thread. **04-19** **Fatimiyya / Daughter’s Day** + **Minab** mourning. **04-20** **dialogue** requires **commitments**; **U.S.** seeks **surrender**, **Iranians** won’t submit — seam vs **@araghchi** Hormuz/Islamabad same week.
@@ -109,7 +109,7 @@ Pin **status URLs** from live X for high-traffic rows (**Pontifex**, **04-20** E
 #### Month ledger (2026-04) — Ghalibaf
 
 - **Capture (2026-04-20 snapshot):** One filed **Ghalibaf** text (**fa→EN**), **Marandi repost** — **siege / ceasefire violation / no talks under threat / battlefield cards** hook.
-- **Seam targets:** **Islamabad coercion fork** vocabulary vs same-week **MFA** and **U.S.-side** lines — **dual-register** with [`thread:marandi`](../../../experts/marandi/thread.md) when Marandi speaks in his **own** voice; main [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md).
+- **Seam targets:** **Islamabad coercion fork** vocabulary vs same-week **MFA** and **U.S.-side** lines — **dual-register** with [`thread:marandi`](../../../experts/marandi/thread.md) when Marandi speaks in his **own** voice; main [`chapters/2026-04/days.md`](../../../chapters/2026/2026-04/days.md).
 - **Open:** **fa** primary + optional-pin **status URL**; pair **ceasefire** claims with **dated** wire before merge.
 
 **April opens** with a filed **X** capture (**2026-04-20**): Ghalibaf text (fa→EN via X) signal-boosted by **@s_m_marandi** — **siege + ceasefire-violation** framing, **rejection of talks under threat**, and **“new cards on the battlefield”** after a **~two-week** prep window. Treat as **elite coercion register** parallel to same-week Islamabad / Hormuz **commentator** stack; **seam** to **`thread:marandi`** when Marandi speaks in his own voice, **not** automatic merge with this Majlis line.
@@ -139,7 +139,7 @@ Falsifiers include **dated ceasefire-status primaries** that contradict the “v
 ### Appendix
 
 - **Raw input:** [`source-archive/statecraft/2026-04-20/source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md`](../../../../source-archive/statecraft/2026-04-20/source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md)
-- **Main notebook chronology:** [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md)
+- **Main notebook chronology:** [`chapters/2026-04/days.md`](../../../chapters/2026/2026-04/days.md)
 - **verify (inbox style):** `full-text+source-archive/statecraft/2026-04-20/source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md+X-account+Marandi-RT+optional-pin`
 
 <!-- strategy-page:end -->

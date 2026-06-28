@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not reduce Persia to theolo
 
 ## Return Path
 
-Return through [CIV-STATE Persia](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/README.md), [Persia sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/sovereign-continuity.md), [Persia geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/geo-strategy-persia.md), and [Persia sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [CIV-STATE Persia](README.md), [Persia sovereign continuity](sovereign-continuity.md), [Persia geo-strategy](geo-strategy-persia.md), and [Persia sacred grammar](sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Dialogue Works Quartet — MOU Clause Comparison — 2026-06-17
 
-**Parent:** [2026-06-17 daily](statecraft/synthesis/day/2026-06-17.md) · [implementation tensions](statecraft/notes/2026-06-17-mou-implementation-tensions.md) · [wire matrix](statecraft/notes/wire/2026-06-17-news-verify-matrix.md) · [Lebanon child](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · [72h watch](statecraft/notes/watch/2026-06-17-72h-watch-run.md)
+**Parent:** [2026-06-17 daily](../synthesis/day/2026-06-17.md) · [implementation tensions](2026-06-17-mou-implementation-tensions.md) · [wire matrix](wire/2026-06-17-news-verify-matrix.md) · [Lebanon child](2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · [72h watch](watch/2026-06-17-72h-watch-run.md)
 
 **Archive anchors (same host, same calendar day, same published text):**
 
@@ -115,8 +115,8 @@ Quartet comparison **excludes** Marandi from speaker map but **includes** his re
 
 ## Return paths
 
-- [Parent daily](statecraft/synthesis/day/2026-06-17.md)
-- [Wire matrix J17-1–J17-14](statecraft/notes/wire/2026-06-17-news-verify-matrix.md)
-- [Lebanon Art. 1 child — Pape × Parsi](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
-- [Jun 12 Johnson × Aguilar gate comparison](statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) (pre-text scaffold)
-- [Jun 14 Lebanon enforcement host arc](statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md)
+- [Parent daily](../synthesis/day/2026-06-17.md)
+- [Wire matrix J17-1–J17-14](wire/2026-06-17-news-verify-matrix.md)
+- [Lebanon Art. 1 child — Pape × Parsi](2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
+- [Jun 12 Johnson × Aguilar gate comparison](2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) (pre-text scaffold)
+- [Jun 14 Lebanon enforcement host arc](2026-06-14-lebanon-enforcement-nima-host-arc.md)

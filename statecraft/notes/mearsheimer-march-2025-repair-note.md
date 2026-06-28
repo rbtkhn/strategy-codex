@@ -19,7 +19,7 @@ The local archive now holds:
 - `1` of those is a `Daniel Davis Deep Dive + Mearsheimer` capture
 - `1` additional March appearance is a `Diesen / Mearsheimer / Mercouris` panel object
 
-Against the live month rollup at [2025-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03.md), that means:
+Against the live month rollup at [2025-03.md](../../source-archive/statecraft/2025-03.md), that means:
 
 - `25` source files total in the month
 - `4` Mearsheimer-thread captures total
@@ -34,9 +34,9 @@ So March should no longer be read as a barely represented Mearsheimer month. It 
 
 The currently landed `Judging Freedom / Napolitano + Mearsheimer` March captures are:
 
-- `2025-03-06` - [lavrov-and-russia](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-06/source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md)
-- `2025-03-13` - [how-close-to-a-regional-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-13/source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md)
-- `2025-03-27` - [killing-without-purpose](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md)
+- `2025-03-06` - [lavrov-and-russia](../../source-archive/statecraft/2025-03-06/source-judging-freedom-mearsheimer-lavrov-and-russia-2025-03-06.md)
+- `2025-03-13` - [how-close-to-a-regional-war](../../source-archive/statecraft/2025-03-13/source-judging-freedom-mearsheimer-how-close-to-a-regional-war-2025-03-13.md)
+- `2025-03-27` - [killing-without-purpose](../../source-archive/statecraft/2025-03-27/source-judging-freedom-mearsheimer-killing-without-purpose-2025-03-27.md)
 
 The key change from the opening watchlist is that March no longer lacks a direct Napolitano lane on disk. It now has a visible three-item lane across early, mid, and late March.
 
@@ -49,7 +49,7 @@ Two date-truth details should remain explicit:
 
 March also has one real `Daniel Davis Deep Dive + Mearsheimer` reinforcement object:
 
-- `2025-03-20` - [therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- `2025-03-20` - [therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war](../../source-archive/statecraft/2025-03-20/source-daniel-davis-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
 
 That matters because it keeps March from being a pure single-format Mearsheimer month. The month is still thin, but it is not thin in only one host lane.
 
@@ -57,7 +57,7 @@ That matters because it keeps March from being a pure single-format Mearsheimer 
 
 March also retains one cross-host panel reinforcement object:
 
-- `2025-03-08` - [the-us-push-for-peace-and-europe-panics](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
+- `2025-03-08` - [the-us-push-for-peace-and-europe-panics](../../source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
 
 That object should not be collapsed into the Napolitano lane, but it does strengthen March’s month truth by showing Mearsheimer presence outside the main recovered host family.
 

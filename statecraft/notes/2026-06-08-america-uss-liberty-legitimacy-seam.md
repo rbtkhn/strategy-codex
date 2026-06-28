@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note extends [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) and [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) with **June 8 memory proof** from McGovern's Judging Freedom episode — opened on the **USS Liberty anniversary** before the Ukraine and Middle East blocks.
+This statecraft note extends [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](2026-06-06-america-captured-command-ndaa-ci-client-veto.md) and [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) with **June 8 memory proof** from McGovern's Judging Freedom episode — opened on the **USS Liberty anniversary** before the Ukraine and Middle East blocks.
 
 Bounded question:
 
@@ -139,14 +139,14 @@ Per America `lit` memory (dissent, witness, anti-imperial warning):
 
 This statecraft note extends the June 6–7 America capture chain; it does not replace them or the Persia gate transaction.
 
-- [America: Captured Command - 2026-06-06](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
-- [America: Trump Humiliation - 2026-06-07](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
-- [Crooke: Ceasefire for All - source 2026-06-08](../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) (same-day bench; McGovern cites Crooke phrase in same episode)
+- [America: Captured Command - 2026-06-06](2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
+- [America: Trump Humiliation - 2026-06-07](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
+- [Crooke: Ceasefire for All - source 2026-06-08](../../source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) (same-day bench; McGovern cites Crooke phrase in same episode)
 - [America transaction — command firewall + successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
-- [June 8 intake readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md)
-- [Davis trust fork statecraft note](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) (same-day; deal-trust plane)
+- [June 8 intake readiness](intake/2026-06-08-intake-readiness.md)
+- [Davis trust fork statecraft note](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) (same-day; deal-trust plane)
 
-Parent daily (when written): [State Synthesis - 2026-06-08](statecraft/synthesis/day/2026-06-08.md). Fold under **primary America lane** — legitimacy erosion / capture memory.
+Parent daily (when written): [State Synthesis - 2026-06-08](../synthesis/day/2026-06-08.md). Fold under **primary America lane** — legitimacy erosion / capture memory.
 
 ## Source Anchors
 
@@ -156,4 +156,4 @@ Parent daily (when written): [State Synthesis - 2026-06-08](statecraft/synthesis
 Related:
 
 - [America helix](../america/helix.md) — empire deforms civilization when review thins
-- [Thomas Massie / jurisdiction history skill context](../../../docs/skill-work/work-politics/) — optional politics-lane handoff if operator wants KY-4 floor-speech follow-up (not expanded here)
+- [Thomas Massie / jurisdiction history skill context](../../docs/skill-work/work-politics) — optional politics-lane handoff if operator wants KY-4 floor-speech follow-up (not expanded here)

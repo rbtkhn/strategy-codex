@@ -50,14 +50,14 @@ Across the canonical run, three doctrinal families recur:
 
 ## Open First
 
-Open [2026-05-10 / Diesen x Karaganov solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) for pure Karaganov doctrine.
+Open [2026-05-10 / Diesen x Karaganov solo](../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) for pure Karaganov doctrine.
 
 Open [karaganov-routing.md](karaganov-routing.md) when the task needs host arc or paired-read discipline.
 
 ## Neighboring Lanes
 
-- [Mearsheimer](../mearsheimer/README.md) — structural realism, coercion, Germany proliferation risk (especially on 2026-06-13 panel)
-- [Crooke](../crooke/README.md) — structural rupture vs elite Russian vocabulary
-- [Ritter](../ritter/README.md) — force-warning reaction to "Karaganov doctrine"
-- [Mercouris](../mercouris/README.md) — Kremlin register vs elite doctrinal signaling
-- [Diesen](../diesen/README.md) — host stream and guest-arc chronology
+- [Mearsheimer](../../README.md) — structural realism, coercion, Germany proliferation risk (especially on 2026-06-13 panel)
+- [Crooke](../../README.md) — structural rupture vs elite Russian vocabulary
+- [Ritter](../../README.md) — force-warning reaction to "Karaganov doctrine"
+- [Mercouris](../../README.md) — Kremlin register vs elite doctrinal signaling
+- [Diesen](../../README.md) — host stream and guest-arc chronology

@@ -20,6 +20,7 @@ from typing import Any
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import SKILLS_DIR
 
 from skill_consolidation_maps import CATEGORY_MAP, REPLACEMENT_MAP, STATUS_MAP  # noqa: E402
 from validate_skills import (  # noqa: E402
@@ -90,7 +91,7 @@ def build_inventory() -> list[dict[str, Any]]:
 
     portable_dirs = {
         d.name: d / "SKILL.md"
-        for d in (REPO_ROOT / "skills").iterdir()
+        for d in (SKILLS_DIR).iterdir()
         if d.is_dir() and not d.name.startswith("_") and d.name != "runbooks" and (d / "SKILL.md").is_file()
     }
     cursor_dirs = {

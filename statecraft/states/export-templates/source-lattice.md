@@ -42,7 +42,7 @@ After the whole-work doors (`table-of-contents.md`, `reader-guide.md`), read civ
 
 China → Persia → Rome → Russia → America
 
-Source shelves: [Sources index](README.md).
+Source shelves: [Sources index](../../../README.md).
 
 ## Out of scope for this book
 

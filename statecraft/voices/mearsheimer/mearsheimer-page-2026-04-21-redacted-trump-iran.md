@@ -293,7 +293,7 @@ IHL content: notebook seam only; adjudication belongs to courts or commissions, 
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md](../../../years/2026/provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-21)
+- **Full verbatim (capture):** [provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-21)
 - **`thread:mearsheimer`** · **verify:** primary capture on disk + voice date + inbox row (YT | / SS | as applicable)
 - **Canonical primary:** Not yet pinned — see raw-input source_note

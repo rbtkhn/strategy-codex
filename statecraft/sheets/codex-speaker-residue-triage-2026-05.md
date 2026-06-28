@@ -27,7 +27,7 @@ Each residue folder should land in one of three buckets:
 ### `nawfal`
 
 - reason: mainly platform / host residue rather than a speaker-state object
-- current signal: source-bearing host appearances exist in [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md), [2026-05-15 Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md), and [2026-05-20 Mario Nawfal runs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
+- current signal: source-bearing host appearances exist in [2026-05-12 Mario Nawfal x Pape](../../source-archive/statecraft/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md), [2026-05-15 Mario Nawfal x Joe Kent](../../source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md), and [2026-05-20 Mario Nawfal runs](../../source-archive/statecraft/2026-05-20/source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
 - migration reading: needs a compatibility front door or later host/platform classification, not a speaker shelf
 
 ### `matlock`
@@ -45,7 +45,7 @@ Each residue folder should land in one of three buckets:
 ### `karaganov`
 
 - reason: real strategic relevance, but current archive signal is still too mixed between direct appearance and reference usage
-- current signal: at least one direct 2026 source-bearing appearance exists at [2026-05-10 Glenn Diesen x Sergey Karaganov](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- current signal: at least one direct 2026 source-bearing appearance exists at [2026-05-10 Glenn Diesen x Sergey Karaganov](../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
 - migration reading: pointerize and revisit after a denser direct-appearance run
 
 ## Leave Archived / Low-Priority Residue
@@ -53,7 +53,7 @@ Each residue folder should land in one of three buckets:
 ### `aguilar`
 
 - reason: currently too thin for live shelf priority
-- current signal: a direct 2026 appearance exists at [2026-05-04 Dialogue Works x Anthony Aguilar](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md), but not enough to justify promotion pressure
+- current signal: a direct 2026 appearance exists at [2026-05-04 Dialogue Works x Anthony Aguilar](../../source-archive/statecraft/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md), but not enough to justify promotion pressure
 
 ### `carlson`
 
@@ -87,6 +87,6 @@ If only a few migrations happen next, the cleanest order is:
 - Do not read `missing index.md` as automatic evidence that a residue folder deserves promotion.
 - Distinguish **speaker**, **host/platform**, and **utility residue** before deciding the migration shape.
 - Use this note to set backlog order, not to silently promote anything.
-- `Postol` has now been promoted into [statecraft/voices/postol/](/C:/dev/strategy-codex/statecraft/voices/postol/README.md); it no longer belongs in the residue backlog.
-- `McGovern` has now been promoted into [statecraft/voices/mcgovern/](/C:/dev/strategy-codex/statecraft/voices/mcgovern/README.md); it no longer belongs in the residue backlog.
-- `Martyanov` has now been promoted into [statecraft/voices/martyanov/](/C:/dev/strategy-codex/statecraft/voices/martyanov/README.md); it no longer belongs in the residue backlog.
+- `Postol` has now been promoted into [statecraft/voices/postol/](../voices/postol/README.md); it no longer belongs in the residue backlog.
+- `McGovern` has now been promoted into [statecraft/voices/mcgovern/](../voices/mcgovern/README.md); it no longer belongs in the residue backlog.
+- `Martyanov` has now been promoted into [statecraft/voices/martyanov/](../voices/martyanov/README.md); it no longer belongs in the residue backlog.

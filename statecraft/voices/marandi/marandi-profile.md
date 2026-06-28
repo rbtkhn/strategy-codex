@@ -73,4 +73,4 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ---
 
-**Companion files:** [`strategy-expert-marandi-transcript.md`](strategy-expert-marandi-transcript.md) (7-day rolling verbatim) and [`strategy-expert-marandi-thread.md`](strategy-expert-marandi-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-marandi-transcript.md`](marandi-transcript.md) (7-day rolling verbatim) and [`strategy-expert-marandi-thread.md`](marandi-thread.md) (distilled analytical thread).

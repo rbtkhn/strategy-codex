@@ -10,7 +10,7 @@ Template doctrine: separate the surface name, surface role, and surface interior
 - **surface role**: bounded interpretive routing for one host x guest lane
 - **surface interior**: the braid of recurring `arc-threads` inside that bounded lane
 
-Reference: [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md)
+Reference: [Speaker-Shelf Vocabulary](../speaker-shelf-vocabulary.md)
 
 Derived speaker arcs are interpretive routing surfaces downstream of transcript/raw-input, not substitutes for transcript authority.
 

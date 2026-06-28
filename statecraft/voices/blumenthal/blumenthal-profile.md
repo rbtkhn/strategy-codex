@@ -71,7 +71,7 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ---
 
-**Companion files:** [`strategy-expert-blumenthal-transcript.md`](strategy-expert-blumenthal-transcript.md) (7-day rolling verbatim) and [`strategy-expert-blumenthal-thread.md`](strategy-expert-blumenthal-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-blumenthal-transcript.md`](blumenthal-transcript.md) (7-day rolling verbatim) and [`strategy-expert-blumenthal-thread.md`](blumenthal-thread.md) (distilled analytical thread).
 
 ## Archive / backfill note
 

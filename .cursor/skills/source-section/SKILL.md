@@ -314,6 +314,6 @@ After land (+ optional **`source-clean`**) on a **YouTube channel** capture with
 
 ## Related docs
 
-- [`source-archive/statecraft/README.md`](../../source-archive/statecraft/README.md)
+- [`source-archive/statecraft/README.md`](../../../statecraft/README.md)
 - [`skills/source-clean/SKILL.md`](../../skills/source-clean/SKILL.md)
 - [`skills/statecraft-source-intake/SKILL.md`](../../skills/statecraft-source-intake/SKILL.md)

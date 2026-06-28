@@ -34,7 +34,7 @@ For the Iran transfer case, helix-primary verification requires all of the follo
 ## Objects Under Review
 
 - [Iran helix](../../iran/helix.md)
-- [Iran lane README](../../iran/README.md)
+- [Iran lane README](../../../README.md)
 - [Iran state memory](../../iran/civilization/objects/state-memory.md)
 - [Iran geo](../../iran/civilization/geo.md)
 - [Iran war](../../iran/civilization/war.md)
@@ -54,7 +54,7 @@ Control-plane evidence:
 
 | Criterion | Result | Evidence |
 | --- | --- | --- |
-| Helix is the preferred top-level interpretive surface | yes | [Iran README](../../iran/README.md) now names [Iran helix](../../iran/helix.md) as the primary authored interpretation and routes strand reading underneath it |
+| Helix is the preferred top-level interpretive surface | yes | [Iran README](../../../README.md) now names [Iran helix](../../iran/helix.md) as the primary authored interpretation and routes strand reading underneath it |
 | Lane README routes to helix first and strands second | yes | The README now treats `helix.md` as the first stop and the five first-wave objects as supporting strand surfaces |
 | Helix routes to all five strand objects | yes | [Iran helix](../../iran/helix.md) includes explicit `Canonical Family Crosswalk`, `Strand Map`, and `Return Path` coverage for `state-memory`, `geo`, `war`, `peace`, and `empire-instrument` |
 | All five strand objects route back to the helix | yes | [State memory](../../iran/civilization/objects/state-memory.md), [geo](../../iran/civilization/geo.md), [war](../../iran/civilization/war.md), [peace](../../iran/civilization/peace.md), and [empire instrument](../../iran/empire/seed-instruments.md) all retain explicit return paths to [Iran helix](../../iran/helix.md) and now also name their helix-first strand role near the top |

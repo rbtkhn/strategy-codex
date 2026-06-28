@@ -45,7 +45,7 @@ Primary Freeman surface:
 
 Raw-input anchor:
 
-- [2025-12-04 Diesen / Freeman](../../years/2026/provenance/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
+- [2025-12-04 Diesen / Freeman](../../../source-archive/statecraft/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
 
 Why it matters:
 
@@ -84,7 +84,7 @@ Primary Freeman surfaces:
 
 Raw-input anchor:
 
-- [2026-05-06 Diesen / Freeman](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [2026-05-06 Diesen / Freeman](../../../source-archive/statecraft/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
 
 Why it matters:
 
@@ -133,8 +133,8 @@ Freeman contribution:
 
 Likely China-lane partners:
 
-- [helix](../../academy/statecraft/china/helix.md)
-- [state memory](../../academy/statecraft/china/civilization/objects/state-memory.md)
+- [helix](../../china/helix.md)
+- [state memory](../../china/civilization/objects/state-memory.md)
 
 ### Seed B. The First Unifier And The Long State
 
@@ -150,8 +150,8 @@ Freeman contribution:
 
 Likely China-lane partners:
 
-- [state memory](../../academy/statecraft/china/civilization/objects/state-memory.md)
-- [peace](../../academy/statecraft/china/civilization/peace.md)
+- [state memory](../../china/civilization/objects/state-memory.md)
+- [peace](../../china/civilization/peace.md)
 
 ### Seed C. Repairable Systems, Unbroken Corridors
 
@@ -168,9 +168,9 @@ Freeman contribution:
 
 Likely China-lane partners:
 
-- [geo](../../academy/statecraft/china/civilization/geo.md)
-- [war](../../academy/statecraft/china/civilization/war.md)
-- [empire instrument](../../academy/statecraft/china/empire/seed-instruments.md)
+- [geo](../../china/civilization/geo.md)
+- [war](../../china/civilization/war.md)
+- [empire instrument](../../china/empire/seed-instruments.md)
 
 ### Seed D. Quiet Gain, Visible Panic
 
@@ -187,9 +187,9 @@ Freeman contribution:
 
 Likely China-lane partners:
 
-- [helix](../../academy/statecraft/china/helix.md)
-- [peace](../../academy/statecraft/china/civilization/peace.md)
-- [empire instrument](../../academy/statecraft/china/empire/seed-instruments.md)
+- [helix](../../china/helix.md)
+- [peace](../../china/civilization/peace.md)
+- [empire instrument](../../china/empire/seed-instruments.md)
 
 ## What Not To Do
 

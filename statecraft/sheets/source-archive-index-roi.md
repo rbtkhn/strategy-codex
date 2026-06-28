@@ -4,13 +4,13 @@ WORK only; not Record.
 
 Purpose: quantify the practical gains from adding generated month, year, thread, and stale-audit indices to the canonical statecraft archive.
 
-Scope: this note estimates operational benefit from the navigation layer now present under [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft/README.md), including:
+Scope: this note estimates operational benefit from the navigation layer now present under [source-archive/statecraft](../../source-archive/statecraft/README.md), including:
 
 - day indices at `source-archive/statecraft/YYYY-MM-DD/README.md`
 - month indices at `source-archive/statecraft/YYYY-MM.md`
 - year indices at `source-archive/statecraft/YYYY.md`
-- [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
-- [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)
+- [thread-index.md](../../source-archive/statecraft/thread-index.md)
+- [stale-index-audit.md](../../source-archive/statecraft/stale-index-audit.md)
 
 ## Baseline
 
@@ -48,7 +48,7 @@ Estimated benefit:
 
 ### 2. Thread retrieval compression
 
-Before [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md), finding all coverage for a lane such as `mercouris`, `davis`, `kent`, or `wilkerson` required scanning many day or month pages manually.
+Before [thread-index.md](../../source-archive/statecraft/thread-index.md), finding all coverage for a lane such as `mercouris`, `davis`, `kent`, or `wilkerson` required scanning many day or month pages manually.
 
 Now one page exposes:
 
@@ -64,7 +64,7 @@ Estimated benefit:
 
 ### 3. Maintenance observability
 
-Before [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md), stale or missing day indices were found reactively.
+Before [stale-index-audit.md](../../source-archive/statecraft/stale-index-audit.md), stale or missing day indices were found reactively.
 
 The audit now surfaces the full status in one pass:
 
@@ -123,6 +123,6 @@ That makes both retrieval and upkeep more compounding over time.
 
 ## Return
 
-- Root archive: [source-archive/statecraft/README.md](/C:/dev/strategy-codex/source-archive/statecraft/README.md)
-- Thread index: [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
-- Stale audit: [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)
+- Root archive: [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md)
+- Thread index: [thread-index.md](../../source-archive/statecraft/thread-index.md)
+- Stale audit: [stale-index-audit.md](../../source-archive/statecraft/stale-index-audit.md)

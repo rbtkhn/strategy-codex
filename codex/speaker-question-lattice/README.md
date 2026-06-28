@@ -16,9 +16,9 @@ If this scaffold works, later work should become easier rather than heavier. New
 
 The first two completed seeds for this scaffold are:
 
-- [Freeman historical themes](../speakers/freeman/freeman-themes.md)
+- [Freeman historical themes](../../statecraft/voices/freeman/freeman-themes.md)
 - [Freeman `civ-emp` companions](../academy/statecraft/civ-emp/indexes/freeman/README.md)
-- [Crooke historical themes](../speakers/crooke/crooke-themes.md)
+- [Crooke historical themes](../../statecraft/voices/crooke/crooke-themes.md)
 - [Crooke `civ-emp` companions](../academy/statecraft/civ-emp/indexes/crooke/README.md)
 - [Freeman vs Crooke second-seed note](freeman-vs-crooke-second-seed-note.md)
 
@@ -26,7 +26,7 @@ Use those surfaces as the worked example for how speaker-local activation can be
 
 The third completed seed is:
 
-- [Mercouris historical themes](../speakers/mercouris/mercouris-themes.md)
+- [Mercouris historical themes](../../statecraft/voices/mercouris/mercouris-themes.md)
 - [Mercouris `civ-emp` companions](../academy/statecraft/civ-emp/indexes/mercouris/README.md)
 - [Freeman, Crooke, and Mercouris third-seed note](freeman-crooke-mercouris-third-seed-note.md)
 

@@ -86,4 +86,4 @@ Open Rome imperially by asking what machinery is actually at issue: incorporatio
 - [Rome source corpus](../../../../research/repos/civilization_memory/content/civilizations/ROME/)
 - [Rome sacred grammar](../../volumes/civ-state-rome/sacred-grammar.md)
 - [Rome source-memory volume](README.md)
-- [Empire](../../public/civ-state/theory/empire.md) · [theory shelf](../../public/civ-state/theory/README.md)
+- [Empire](../../../../public/civ-state/theory/empire.md) · [theory shelf](../../../../public/civ-state/theory/README.md)

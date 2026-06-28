@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-03 – 2026-06-04
 
-**Parent dailies:** [2026-06-03](statecraft/synthesis/day/2026-06-03.md) · [2026-06-04](statecraft/synthesis/day/2026-06-04.md) · **Archive:** [Jun 3 day-index](../../source-archive/statecraft/2026-06-03/day-index.md) · [Jun 4 day-index](../../source-archive/statecraft/2026-06-04/day-index.md) · **Cross-ref:** [2026-06-01-02 matrix](2026-06-01-02-news-verify-matrix.md) · [Pape Lebanon fuse](../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md#shared-seam-anchors-s1s10)
+**Parent dailies:** [2026-06-03](../../synthesis/day/2026-06-03.md) · [2026-06-04](../../synthesis/day/2026-06-04.md) · **Archive:** [Jun 3 day-index](../../../source-archive/statecraft/2026-06-03/day-index.md) · [Jun 4 day-index](../../../source-archive/statecraft/2026-06-04/day-index.md) · **Cross-ref:** [2026-06-01-02 matrix](2026-06-01-02-news-verify-matrix.md) · [Pape Lebanon fuse](../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md) · [08–09 S1](2026-06-08-09-news-verify-matrix.md#shared-seam-anchors-s1s10)
 
 **Mode:** combo window (9 + 10 ingests, **bombing-while-talking × Lebanon pseudo-deal × §224**) · **Hooks:** 16 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes · **Capture receipts:** 3/19 (Nima · Hoh · Pape Lebanon fuse · `verify:` 2026-06-24)
 
@@ -29,7 +29,7 @@ WORK only; not Record.
 | **W34-7** | **NDAA §224** — US–Israel defense-tech cooperation in House mark | America/Adjacent | en | **Partial** | Hoh Jun 4 · Khanna clip; H.R.8800 §224 **supported** mark · **not enacted** |
 | **W34-8** | Netanyahu **provokes Iran restart** via Beirut bombing | Adjacent/America | en | **Partial** | Hoh trap triangle; wire-primary strike chain **developing** |
 | **W34-9** | **Trump trapped** — can't win / can't exit (Hoh) | America | en | **Partial** | Tier-4; Axios leak daylight Jun 4 **partial** |
-| **W34-10** | **Pape Lebanon fuse** — horizontal escalation thesis | — | en | **Partial** | Substack Jun 4; upstream to [Pape Day 100](statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) |
+| **W34-10** | **Pape Lebanon fuse** — horizontal escalation thesis | — | en | **Partial** | Substack Jun 4; upstream to [Pape Day 100](../2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) |
 | **W34-11** | **No military option** / SPR mid-July clock (Macgregor) | America | en | **Partial** | Macgregor Jun 4; SPR draw **supported** elsewhere Jun 18 **J18-7** |
 | **W34-12** | **Iran–US retaliatory mode** imminent (Krainer) | Persia/America | en | **Partial** | Desk read; kinetic **supported** attempt scale Jun 3 |
 | **W34-13** | **Marandi:** Iran using Trump lever vs Netanyahu | Persia | en | **Partial** | Marandi JF Jun 3; gate-operational tier-4 |

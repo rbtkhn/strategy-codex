@@ -10,9 +10,9 @@ It is a sibling to [jiang-on-china.md](jiang-on-china.md), not a replacement for
 
 Primary local anchors:
 
-- [Game Theory #27: Putin Enters the Chat, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/source-game-theory-27-putin-enters-the-chat-2026-05-21.md)
-- [Interviews #11: Tucker Carlson - Iran War and Global Order](/C:/dev/strategy-codex/codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)
-- [Game Theory #13: Epstein's World](/C:/dev/strategy-codex/codex/predictive-history/lectures/game-theory-13-epsteins-world.md)
+- [Game Theory #27: Putin Enters the Chat, 2026-05-21](../../../source-archive/statecraft/2026-05-21/source-game-theory-27-putin-enters-the-chat-2026-05-21.md)
+- [Interviews #11: Tucker Carlson - Iran War and Global Order](../../../codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)
+- [Game Theory #13: Epstein's World](../../../codex/predictive-history/lectures/game-theory-13-epsteins-world.md)
 
 Bounded claim:
 

@@ -2,14 +2,14 @@
 
 WORK only; not Record.
 
-**Status:** The phrase **`strategy-notebook`** and the compat tree **`docs/skill-work/work-strategy/strategy-notebook/`** are **deprecated** for new strategy-codex work. Do not add new canonical artifacts under that namespace. Legacy files and script aliases may remain **read-only compatibility** until explicitly migrated.
+**Status:** The phrase **`strategy-notebook`** and the compat tree **`docs/skill-work/work-strategy/../../codex/`** are **deprecated** for new strategy-codex work. Do not add new canonical artifacts under that namespace. Legacy files and script aliases may remain **read-only compatibility** until explicitly migrated.
 
 ## What to say instead
 
 | Old phrase / path | Use instead |
 |-------------------|-------------|
 | **`strategy-notebook`** (operator) | **`strategy-codex`** or **`/codex`** |
-| **`docs/.../strategy-notebook/`** | **`codex/`** at repo root |
+| **`docs/.../../../codex/`** | **`codex/`** at repo root |
 | Notebook architecture doc | [`codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) — **filename is legacy**; content governs **`codex/`** continuity |
 | Operator preferences | [`codex/NOTEBOOK-PREFERENCES.md`](../../../codex/NOTEBOOK-PREFERENCES.md) |
 | Daily scratch | [`codex/daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) |
@@ -28,10 +28,10 @@ statecraft/                  live judgment, lanes, synthesis, prose outputs
 
 ## Compat tree (do not extend)
 
-- [`docs/skill-work/work-strategy/strategy-notebook/`](strategy-notebook/README.md) — redirect stub only
+- [`docs/skill-work/work-strategy/../../codex/`](../../../README.md) — redirect stub only
 - Historical links, fixtures, and script path aliases may still mention **`strategy-notebook`** — treat as archaeology unless a script is actively maintained
 
-Do **not** recreate removed subtrees such as **`strategy-notebook/raw-input/`** — see [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md).
+Do **not** recreate removed subtrees such as **`../../codex/raw-input/`** — see [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md).
 
 ## Mind / voice paths (named expert)
 
@@ -39,7 +39,7 @@ Do **not** recreate removed subtrees such as **`strategy-notebook/raw-input/`** 
 
 **New work:** [`statecraft/voices/`](../../../statecraft/voices/README.md) voice profiles — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md).
 
-Do **not** resolve expert voice from missing **`docs/.../strategy-notebook/strategy-expert-*`** paths.
+Do **not** resolve expert voice from missing **`docs/.../../../codex/strategy-expert-*`** paths.
 
 ## What is **not** deprecated
 
@@ -58,5 +58,5 @@ Do **not** resolve expert voice from missing **`docs/.../strategy-notebook/strat
 
 ## Legacy pointers
 
-- Compat redirect: [`strategy-notebook/README.md`](strategy-notebook/README.md)
+- Compat redirect: [`../../codex/README.md`](../../../README.md)
 - Books routing: [`.cursor/rules/operator-books-routing.mdc`](../../../.cursor/rules/operator-books-routing.mdc)

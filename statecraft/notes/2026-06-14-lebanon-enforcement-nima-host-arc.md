@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Lebanon Enforcement × Dialogue Works Host Arc — 2026-06-14
 
-**Parent:** [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md) · [J14-1–J14-12 wire matrix](statecraft/notes/wire/2026-06-14-news-verify-matrix.md) · [J12-6 72h watch run](statecraft/notes/watch/2026-06-12-72h-watch-run.md) · [Marandi×J12-6×Aguilar bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Marandi deal floor × Clauses A–D](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+**Parent:** [2026-06-14 daily](../synthesis/day/2026-06-14.md) · [J14-1–J14-12 wire matrix](wire/2026-06-14-news-verify-matrix.md) · [J12-6 72h watch run](watch/2026-06-12-72h-watch-run.md) · [Marandi×J12-6×Aguilar bridge](2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Marandi deal floor × Clauses A–D](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
 **Archive batch:** [2026-06-14 README](../../source-archive/statecraft/2026-06-14/README.md) (6 captures)
 
@@ -34,11 +34,11 @@ Israel policy (Katz / Ben-Gvir)                   →  not bound; no withdrawal 
 IDF kinetic (press + Lebanese wire)             →  ops continue     [CONTRADICTED vs "immediate permanent"]
 ```
 
-Do **not** merge layers. Jun 14 object = **two-speed clock** (hostilities language **immediate** · formal MOU **Jun 19** · **Hormuz contested**) under **pseudo-gate** carry from [J12-6 FAIL](statecraft/notes/watch/2026-06-12-72h-watch-run.md).
+Do **not** merge layers. Jun 14 object = **two-speed clock** (hostilities language **immediate** · formal MOU **Jun 19** · **Hormuz contested**) under **pseudo-gate** carry from [J12-6 FAIL](watch/2026-06-12-72h-watch-run.md).
 
 ### Wire pass #2 — hooks in matrix (J14-13 – J14-16)
 
-**SSOT table:** [2026-06-14 news-verify matrix § J14-1–J14-16](statecraft/notes/wire/2026-06-14-news-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · **Lebanon enforcement fork** sub-table same file.
+**SSOT table:** [2026-06-14 news-verify matrix § J14-1–J14-16](wire/2026-06-14-news-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · **Lebanon enforcement fork** sub-table same file.
 
 Summary (do not duplicate full cites here):
 
@@ -65,14 +65,14 @@ Summary (do not duplicate full cites here):
 | **Senior Israeli source (CBS)** | Must retain **operational freedom in Lebanon** if US–Iran deal | [CBS live](https://www.cbsnews.com/live-updates/iran-war-trump-us-peace-talks-strait-of-hormuz-control/) |
 | **WSJ / Aguilar carry** | Trump says **Bibi OK** with deal while strikes continue | [Aguilar capture](../../source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) · [Irish Independent Trump rebuke](https://www.independent.ie/world-news/trump-warns-israeli-strike-on-lebanon-could-make-draft-peace-deal-with-iran-more-difficult/a/157195560.html) |
 
-**Captured-command read:** Executive US rhetoric **≠** Israeli policy layer **≠** IDF kinetic layer — [J12-6 pseudo-gate](statecraft/notes/watch/2026-06-12-72h-watch-run.md) **extends** through Jun 14 close.
+**Captured-command read:** Executive US rhetoric **≠** Israeli policy layer **≠** IDF kinetic layer — [J12-6 pseudo-gate](watch/2026-06-12-72h-watch-run.md) **extends** through Jun 14 close.
 
 ### Cross-batch carry (Clause A)
 
 | Bridge row | Jun 14 pass #2 impact |
 |------------|----------------------|
-| [Marandi Clause A](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) | Post-close occupation-end language **does not green** ops falsifier |
-| [J12-6 bridge](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) | **Gate red** — Katz refusal + south ops during MOU talks **confirms** pseudo-ceasefire |
+| [Marandi Clause A](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) | Post-close occupation-end language **does not green** ops falsifier |
+| [J12-6 bridge](2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) | **Gate red** — Katz refusal + south ops during MOU talks **confirms** pseudo-ceasefire |
 | [Aguilar lever floor](../../source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md) | Lebanon unaddressed in live ops; Israel spoiler; **aid-cut absent** unchanged |
 
 ---
@@ -94,7 +94,7 @@ Summary (do not duplicate full cites here):
 | Dimension | Solo `BlK5ONxCrg8` | × Aguilar `bZxS4saKQAY` | × Johnson×Marandi `t1MaItycdFc` |
 |-----------|-------------------|-------------------------|-------------------------------|
 | **Deal** | Won’t happen; JCPOA trash lesson | MOU = fragile understanding; Lebanon unaddressed | Gap **closed ~2.5h before air**; SNSC read on show |
-| **Retaliation** | **Will** hit north Israel (+ Yemen maybe) | Likely strategic strike; NYT withhold carry ([J14-11 partial](statecraft/notes/wire/2026-06-14-news-verify-matrix.md)) | **Withheld** — US concessions on occupation/siege |
+| **Retaliation** | **Will** hit north Israel (+ Yemen maybe) | Likely strategic strike; NYT withhold carry ([J14-11 partial](wire/2026-06-14-news-verify-matrix.md)) | **Withheld** — US concessions on occupation/siege |
 | **Lebanon gate** | Total withdrawal or no deal | Israel never leaves unless **forced**; spoiler pattern | End occupation + halt **tonight** (institutional) |
 | **Trump** | US = Israel proxy; can’t control Bibi | Desperate “we’re there”; **Bibi OK** paradox | “Deal complete” + SNSC receipt |
 | **Function** | Resistance-axis **mood** + battlefield gate | **Lever floor** (MIC trap, no facade peace) | **Institutional receipt** via Marandi/Johnson |
@@ -104,7 +104,7 @@ Summary (do not duplicate full cites here):
 1. **Solo → Aguilar:** Both **pre-close pessimism** — strike expected, Lebanon blocks real MOU. Aguilar adds **process** (no trust; Israel flips the table). Solo adds **axis synthesis** (Golani, Hormuz Iran+Oman, blockade outlast, Hezbollah south seam).
 
 2. **Aguilar → ×Johnson:** **Phase change**, not host error:
-   - Withhold lane: NYT/Trump intermediaries ([J14-11 partial](statecraft/notes/wire/2026-06-14-news-verify-matrix.md)).
+   - Withhold lane: NYT/Trump intermediaries ([J14-11 partial](wire/2026-06-14-news-verify-matrix.md)).
    - Marandi: withhold = **negotiation instrument** — Trump bought gap-close with Lebanon/siege concessions.
    - Nima **pivots headline** from “attack imminent” to “US and Iran reach deal.”
 
@@ -139,7 +139,7 @@ Marandi thread = threshold (pre-close) → negotiation receipt (post-close) — 
 | **IDF spokesperson endorses Lebanon halt** | J14-15 **upgrades** | Captured-command **weakens** |
 | **Treat Nima solo + ×Johnson as one deal probability** | Synthesis **error** | Host-arc method **violated** |
 | **Treat Diesen-Marandi + post-close Marandi as one probability** | Synthesis **error** | Marandi timeline **violated** |
-| **Iran strikes on south-Lebanon breach during MOU** | MR [Clause A′ capital tier](statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) **restored** | Paper gate **challenged** |
+| **Iran strikes on south-Lebanon breach during MOU** | MR [Clause A′ capital tier](2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) **restored** | Paper gate **challenged** |
 
 ---
 
@@ -167,7 +167,7 @@ Marandi thread = threshold (pre-close) → negotiation receipt (post-close) — 
 
 ## Return paths
 
-- **Daily synthesis:** [2026-06-14](statecraft/synthesis/day/2026-06-14.md) — pre-close / post-close / post-SNSC spine.
-- **Wire matrix:** [J14-1–J14-16](statecraft/notes/wire/2026-06-14-news-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · pass #2 hooks **in matrix body**; analysis in this note.
-- **Week-2 gate:** [72h watch fork 1](statecraft/notes/watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) — refresh against J14-16.
-- **Jun 19 window:** formal sign vs continued Lebanon ops ([J14-4](statecraft/notes/wire/2026-06-14-news-verify-matrix.md)).
+- **Daily synthesis:** [2026-06-14](../synthesis/day/2026-06-14.md) — pre-close / post-close / post-SNSC spine.
+- **Wire matrix:** [J14-1–J14-16](wire/2026-06-14-news-verify-matrix.md#shared-seam-anchors-j14-1--j14-16) · pass #2 hooks **in matrix body**; analysis in this note.
+- **Week-2 gate:** [72h watch fork 1](watch/2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) — refresh against J14-16.
+- **Jun 19 window:** formal sign vs continued Lebanon ops ([J14-4](wire/2026-06-14-news-verify-matrix.md)).

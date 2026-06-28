@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-06-11
 
-**Parent daily:** [2026-06-11](statecraft/synthesis/day/2026-06-11.md) · **Archive:** [day-index](../../source-archive/statecraft/2026-06-11/day-index.md) · **Cross-ref:** [2026-06-10 matrix](2026-06-10-news-verify-matrix.md) (GCC ladder **J10-1–8**) · [2026-06-12 matrix](2026-06-12-news-verify-matrix.md) (14-point scaffold **J12-2**) · **Upstream:** [Pape Jun 11 row](../2026-06-08-pape-day-100-indicator-watch-sheet.md#jun-1-8-spine-backtest-vs-2026-06-11-row)
+**Parent daily:** [2026-06-11](../../synthesis/day/2026-06-11.md) · **Archive:** [day-index](../../../source-archive/statecraft/2026-06-11/day-index.md) · **Cross-ref:** [2026-06-10 matrix](2026-06-10-news-verify-matrix.md) (GCC ladder **J10-1–8**) · [2026-06-12 matrix](2026-06-12-news-verify-matrix.md) (14-point scaffold **J12-2**) · **Upstream:** [Pape Jun 11 row](../2026-06-08-pape-day-100-indicator-watch-sheet.md#jun-1-8-spine-backtest-vs-2026-06-11-row)
 
 **Mode:** batch (19 ingests, **MOU near-text × dual-channel** seam) · **Hooks:** 20 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (cancel-strikes oscillation; Tehran denial; Kharg pincher) · **Capture receipts:** **19/19** (`verify:` pass 2026-06-24)
 

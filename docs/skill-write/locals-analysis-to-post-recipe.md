@@ -106,4 +106,4 @@ These are optional follow-ons, not required outputs of the standard workflow.
 
 ## Worked example
 
-See [locals-barnes-arc-worked-example.md](locals-barnes-arc-worked-example.md) for the canonical reference implementation of this recipe.
+See [locals-arc-barnes-continuity-worked-example.md](locals-arc-barnes-continuity-worked-example.md) for the canonical reference implementation of this recipe.

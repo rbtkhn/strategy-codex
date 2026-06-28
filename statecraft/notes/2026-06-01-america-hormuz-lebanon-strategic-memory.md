@@ -76,9 +76,9 @@ That is why the same gate appears so dangerous from Washington. It is not only a
 
 ## Paired Essay / Related Notes
 
-Paired essay: [Persia On The Hormuz-Lebanon Gate](statecraft/notes/2026-06-01-persia-hormuz-lebanon-strategic-memory.md)
+Paired essay: [Persia On The Hormuz-Lebanon Gate](2026-06-01-persia-hormuz-lebanon-strategic-memory.md)
 
 Related notes:
 
-- [State Synthesis - 2026-06-01](statecraft/synthesis/day/2026-06-01.md)
-- [Persia On Hormuz As Postwar Authority Floor](statecraft/notes/2026-06-01-persia-hormuz-postwar-authority-floor.md)
+- [State Synthesis - 2026-06-01](../synthesis/day/2026-06-01.md)
+- [Persia On Hormuz As Postwar Authority Floor](2026-06-01-persia-hormuz-postwar-authority-floor.md)

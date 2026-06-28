@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 daily](statecraft/synthesis/day/2026-06-08.md) · **Prior:** [Wilkerson × Hoh Section 224 receipt](statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) · [Barnes America capture](statecraft/notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
+**Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 daily](../synthesis/day/2026-06-08.md) · **Prior:** [Wilkerson × Hoh Section 224 receipt](2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) · [Barnes America capture](2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
 
 **Sources:**
 
@@ -76,7 +76,7 @@ Sachs does **not** draft clauses. He names the **political theory of the leak**:
 
 ## Barnes — operational CI pass (recap + Sachs upgrade)
 
-From [Barnes companion](statecraft/notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — rows stressed by Sachs triangulation:
+From [Barnes companion](2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — rows stressed by Sachs triangulation:
 
 | Row | Barnes | Sachs/Wilkerson upgrade |
 |-----|--------|-------------------------|
@@ -140,7 +140,7 @@ Wilkerson answers Sachs's hope with **institutional timing**:
 
 ## AMER-224-RCPT handoff (proposed third row)
 
-Extends [Wilkerson × Hoh receipt](statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) rows 01–02:
+Extends [Wilkerson × Hoh receipt](2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) rows 01–02:
 
 | ID | Row | Pass | Stressed | Fired (falsifier) |
 |----|-----|------|----------|-------------------|
@@ -179,10 +179,10 @@ Extends [Wilkerson × Hoh receipt](statecraft/notes/2026-06-08-wilkerson-hoh-sec
 
 | Companion | This note adds |
 |-----------|----------------|
-| [Wilkerson × Hoh](statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) | **RCPT-03** — disclosure instrument vs dark merge |
-| [Barnes capture](statecraft/notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) | Sachs **publication theory**; Witkoff negotiator plane |
-| [USS Liberty seam](statecraft/notes/2026-06-08-america-uss-liberty-legitimacy-seam.md) | McGovern DIA timing — same disclosure family |
-| [Trump humiliation](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) | Sachs: Axios as **signal not leak** — strengthens June 7 theater read |
+| [Wilkerson × Hoh](2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) | **RCPT-03** — disclosure instrument vs dark merge |
+| [Barnes capture](2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) | Sachs **publication theory**; Witkoff negotiator plane |
+| [USS Liberty seam](2026-06-08-america-uss-liberty-legitimacy-seam.md) | McGovern DIA timing — same disclosure family |
+| [Trump humiliation](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) | Sachs: Axios as **signal not leak** — strengthens June 7 theater read |
 
 ---
 
@@ -208,9 +208,9 @@ Extends [Wilkerson × Hoh receipt](statecraft/notes/2026-06-08-wilkerson-hoh-sec
 ## Return paths
 
 - Transaction: [foreign-client-mesh-separation-and-command-review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) — optional append **AMER-224-RCPT-03**
-- [June 8 intake readiness](statecraft/notes/intake/2026-06-08-intake-readiness.md)
+- [June 8 intake readiness](intake/2026-06-08-intake-readiness.md)
 - Persia cross-lane: [Lebanon gate Clause B](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) — Witkoff negotiator spying stresses **mediator-channel integrity**
-- Parent daily: [2026-06-08.md](statecraft/synthesis/day/2026-06-08.md)
+- Parent daily: [2026-06-08.md](../synthesis/day/2026-06-08.md)
 
 ## Source anchors
 

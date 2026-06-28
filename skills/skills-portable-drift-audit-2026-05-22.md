@@ -2,10 +2,10 @@
 
 ## Scope
 
-This audit reviews every file under [`skills`](/C:/dev/strategy-codex/skills) against two portable-core principles:
+This audit reviews every file under [`skills`](.) against two portable-core principles:
 
-1. [`self-llm.txt`](/C:/dev/strategy-codex/self-llm.txt) currently resolves to a missing-profile fallback, which means portable skills must not assume repo-local Record files such as `self.md` or `archive/grace-mar-instance/museum-knowledge.md` exist in a new host.
-2. [`recursion-gate.md`](/C:/dev/strategy-codex/recursion-gate.md) keeps four rules load-bearing:
+1. [`self-llm.txt`](../self-llm.txt) currently resolves to a missing-profile fallback, which means portable skills must not assume repo-local Record files such as `self.md` or `archive/grace-mar-instance/museum-knowledge.md` exist in a new host.
+2. [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) keeps four rules load-bearing:
    - grounded before elegant
    - the agent may stage but may not merge
    - no duplicate lane / no duplicate fact
@@ -19,55 +19,55 @@ The objective here was not to rewrite everything. It was to identify duplication
 
 | File | Status | Notes |
 |------|--------|-------|
-| [README.md](/C:/dev/strategy-codex/skills/README.md) | improved | Retitled to strategy-codex; now names portable core principles explicitly. |
-| [_schema.md](/C:/dev/strategy-codex/skills/_schema.md) | improved | Now requires host-equivalent placeholders and stage-only/approval-only language. |
-| [manifest.yaml](/C:/dev/strategy-codex/skills/manifest.yaml) | stable | Inventory source; no principle drift found in this pass. |
-| [skill-candidates.md](/C:/dev/strategy-codex/skills/skill-candidates.md) | stable | Candidate list only. |
-| [skills-portable-drift-audit-2026-05-22.md](/C:/dev/strategy-codex/skills/skills-portable-drift-audit-2026-05-22.md) | improved | This audit artifact; updated to cover the full tree and include before/after examples. |
-| [_drafts/README.md](/C:/dev/strategy-codex/skills/_drafts/README.md) | stable | Correctly frames drafts as non-canonical. |
+| [README.md](README.md) | improved | Retitled to strategy-codex; now names portable core principles explicitly. |
+| [_schema.md](_schema.md) | improved | Now requires host-equivalent placeholders and stage-only/approval-only language. |
+| [manifest.yaml](manifest.yaml) | stable | Inventory source; no principle drift found in this pass. |
+| [skill-candidates.md](skill-candidates.md) | stable | Candidate list only. |
+| [skills-portable-drift-audit-2026-05-22.md](skills-portable-drift-audit-2026-05-22.md) | improved | This audit artifact; updated to cover the full tree and include before/after examples. |
+| [_drafts/README.md](_drafts/README.md) | stable | Correctly frames drafts as non-canonical. |
 
 ### Listed portable skills
 
 | Skill | Status | Notes |
 |-------|--------|-------|
-| [abundance-native-ventures](/C:/dev/strategy-codex/skills/abundance-native-ventures/SKILL.md) | improved | Removed repo-local Record assumptions; added approval-packet and duplicate-lane discipline. |
-| [academy-mirror-sync](/C:/dev/strategy-codex/skills/academy-mirror-sync/SKILL.md) | stable | Already host-bounded and narrowly scoped. |
-| [check-streams](/C:/dev/strategy-codex/skills/check-streams/SKILL.md) | stable | Good portable glossary and no merge overreach. |
-| [cognition-streams](/C:/dev/strategy-codex/skills/cognition-streams/SKILL.md) | stable alias | Alias-like entry; no urgent drift. |
-| [ideation-engine](/C:/dev/strategy-codex/skills/ideation-engine/SKILL.md) | improved | Added grounding checks, duplicate-lane check, and `extend-existing` outcome. |
-| [jurisdiction-campaign-history](/C:/dev/strategy-codex/skills/jurisdiction-campaign-history/SKILL.md) | stable | Stayed inside research/briefing role. |
-| [last30days](/C:/dev/strategy-codex/skills/last30days/SKILL.md) | stable | Utility skill; no visible gate drift. |
-| [packet-before-synthesis](/C:/dev/strategy-codex/skills/packet-before-synthesis/SKILL.md) | improved | Restored packet-first as holding pattern rather than stealth closure; removed brittle repo-local coupling. |
-| [politics-massie](/C:/dev/strategy-codex/skills/politics-massie/SKILL.md) | stable | Narrow lane skill; no urgent principle conflict. |
-| [portable-skills-sync](/C:/dev/strategy-codex/skills/portable-skills-sync/SKILL.md) | stable | Sync utility already scoped to portable layer. |
-| [primary-overhearing-analysis](/C:/dev/strategy-codex/skills/primary-overhearing-analysis/SKILL.md) | stable | Strong source-hygiene orientation already present. |
-| [repo-feedback-prompt](/C:/dev/strategy-codex/skills/repo-feedback-prompt/SKILL.md) | stable | No Record/gate ambiguity found. |
-| [repo-hygiene-pass](/C:/dev/strategy-codex/skills/repo-hygiene-pass/SKILL.md) | stable | Good bounded scope. |
-| [skill-narrative](/C:/dev/strategy-codex/skills/skill-narrative/SKILL.md) | stable | Canonical copy looks fine; draft duplicate remains in `_drafts/`. |
-| [strategy-notebook-expert-cross-weave](/C:/dev/strategy-codex/skills/strategy-notebook-expert-cross-weave/SKILL.md) | improved | Converted heavy repo-local assumptions into host-equivalent notebook placeholders. |
-| [strategy-notebook-guest-canon-note](/C:/dev/strategy-codex/skills/strategy-notebook-guest-canon-note/SKILL.md) | improved | Converted host-stream note logic into portable placeholders and stronger boundary language. |
-| [transcript-cleanup](/C:/dev/strategy-codex/skills/transcript-cleanup/SKILL.md) | stable | Procedural cleanup skill; no gate conflict. |
-| [transcript-proper-noun-normalization](/C:/dev/strategy-codex/skills/transcript-proper-noun-normalization/SKILL.md) | stable | Focused normalization skill. |
-| [work-jiang-ingest-fallback](/C:/dev/strategy-codex/skills/work-jiang-ingest-fallback/SKILL.md) | stable | Bounded ingest fallback. |
-| [youtube-raw-input-transcript](/C:/dev/strategy-codex/skills/youtube-raw-input-transcript/SKILL.md) | stable | Good procedural scope. |
+| [abundance-native-ventures](abundance-native-ventures/SKILL.md) | improved | Removed repo-local Record assumptions; added approval-packet and duplicate-lane discipline. |
+| [academy-mirror-sync](academy-mirror-sync/SKILL.md) | stable | Already host-bounded and narrowly scoped. |
+| [check-streams](check-streams/SKILL.md) | stable | Good portable glossary and no merge overreach. |
+| [cognition-streams](cognition-streams/SKILL.md) | stable alias | Alias-like entry; no urgent drift. |
+| [ideation-engine](ideation-engine/SKILL.md) | improved | Added grounding checks, duplicate-lane check, and `extend-existing` outcome. |
+| [jurisdiction-campaign-history](jurisdiction-campaign-history/SKILL.md) | stable | Stayed inside research/briefing role. |
+| [last30days](last30days/SKILL.md) | stable | Utility skill; no visible gate drift. |
+| [packet-before-synthesis](packet-before-synthesis/SKILL.md) | improved | Restored packet-first as holding pattern rather than stealth closure; removed brittle repo-local coupling. |
+| [politics-massie](politics-massie/SKILL.md) | stable | Narrow lane skill; no urgent principle conflict. |
+| [portable-skills-sync](portable-skills-sync/SKILL.md) | stable | Sync utility already scoped to portable layer. |
+| [primary-overhearing-analysis](primary-overhearing-analysis/SKILL.md) | stable | Strong source-hygiene orientation already present. |
+| [repo-feedback-prompt](repo-feedback-prompt/SKILL.md) | stable | No Record/gate ambiguity found. |
+| [repo-hygiene-pass](repo-hygiene-pass/SKILL.md) | stable | Good bounded scope. |
+| [skill-narrative](skill-narrative/SKILL.md) | stable | Canonical copy looks fine; draft duplicate remains in `_drafts/`. |
+| [strategy-notebook-expert-cross-weave](strategy-notebook-expert-cross-weave/SKILL.md) | improved | Converted heavy repo-local assumptions into host-equivalent notebook placeholders. |
+| [strategy-notebook-guest-canon-note](strategy-notebook-guest-canon-note/SKILL.md) | improved | Converted host-stream note logic into portable placeholders and stronger boundary language. |
+| [transcript-cleanup](transcript-cleanup/SKILL.md) | stable | Procedural cleanup skill; no gate conflict. |
+| [transcript-proper-noun-normalization](transcript-proper-noun-normalization/SKILL.md) | stable | Focused normalization skill. |
+| [work-jiang-ingest-fallback](work-jiang-ingest-fallback/SKILL.md) | stable | Bounded ingest fallback. |
+| [youtube-raw-input-transcript](youtube-raw-input-transcript/SKILL.md) | stable | Good procedural scope. |
 
 ### Drafts
 
 | Draft | Status | Notes |
 |------|--------|-------|
-| [_drafts/academy-statecraft-drafting](/C:/dev/strategy-codex/skills/_drafts/academy-statecraft-drafting/SKILL.md) | draft | Not part of listed portable set. |
-| [_drafts/daily-brief-regen-merge](/C:/dev/strategy-codex/skills/_drafts/daily-brief-regen-merge/SKILL.md) | draft | Review later for gate-language tightness before listing. |
-| [_drafts/expert-forecast-ledger](/C:/dev/strategy-codex/skills/_drafts/expert-forecast-ledger/SKILL.md) | draft | Research-only for now. |
-| [_drafts/marandi-state-extraction](/C:/dev/strategy-codex/skills/_drafts/marandi-state-extraction/SKILL.md) | draft | Lane-specific draft. |
-| [_drafts/mercouris-daily-continuity-extraction](/C:/dev/strategy-codex/skills/_drafts/mercouris-daily-continuity-extraction/SKILL.md) | draft | Lane-specific draft. |
-| [_drafts/observability-to-cadence-capture](/C:/dev/strategy-codex/skills/_drafts/observability-to-cadence-capture/SKILL.md) | draft | Good candidate for later portable review. |
-| [_drafts/parsi-diplomacy-extraction](/C:/dev/strategy-codex/skills/_drafts/parsi-diplomacy-extraction/SKILL.md) | draft | Lane-specific draft. |
-| [_drafts/persian-regime-adaptive-strategy](/C:/dev/strategy-codex/skills/_drafts/persian-regime-adaptive-strategy/SKILL.md) | draft | Strategy draft only. |
-| [_drafts/printing-press-scrape-creators](/C:/dev/strategy-codex/skills/_drafts/printing-press-scrape-creators/SKILL.md) | draft | No action in this pass. |
-| [_drafts/ritter-warning-extraction](/C:/dev/strategy-codex/skills/_drafts/ritter-warning-extraction/SKILL.md) | draft | No action in this pass. |
-| [_drafts/russian-endurance-compression-strategy/notes.md](/C:/dev/strategy-codex/skills/_drafts/russian-endurance-compression-strategy/notes.md) | draft note | Companion notes for the Russian/Persian dual-stack lens; useful context, not a listed portable skill. |
-| [_drafts/russian-endurance-compression-strategy/SKILL.md](/C:/dev/strategy-codex/skills/_drafts/russian-endurance-compression-strategy/SKILL.md) | draft | No action in this pass. |
-| [_drafts/skill-narrative/SKILL.md](/C:/dev/strategy-codex/skills/_drafts/skill-narrative/SKILL.md) | duplicate draft | Likely duplicate of canonical `skill-narrative`; keep draft-only until reconciled. |
+| [_drafts/academy-statecraft-drafting](_drafts/academy-statecraft-drafting/SKILL.md) | draft | Not part of listed portable set. |
+| [_drafts/daily-brief-regen-merge](_drafts/daily-brief-regen-merge/SKILL.md) | draft | Review later for gate-language tightness before listing. |
+| [_drafts/expert-forecast-ledger](_drafts/expert-forecast-ledger/SKILL.md) | draft | Research-only for now. |
+| [_drafts/marandi-state-extraction](_drafts/marandi-state-extraction/SKILL.md) | draft | Lane-specific draft. |
+| [_drafts/mercouris-daily-continuity-extraction](_drafts/mercouris-daily-continuity-extraction/SKILL.md) | draft | Lane-specific draft. |
+| [_drafts/observability-to-cadence-capture](_drafts/observability-to-cadence-capture/SKILL.md) | draft | Good candidate for later portable review. |
+| [_drafts/parsi-diplomacy-extraction](_drafts/parsi-diplomacy-extraction/SKILL.md) | draft | Lane-specific draft. |
+| [_drafts/persian-regime-adaptive-strategy](_drafts/persian-regime-adaptive-strategy/SKILL.md) | draft | Strategy draft only. |
+| [_drafts/printing-press-scrape-creators](_drafts/printing-press-scrape-creators/SKILL.md) | draft | No action in this pass. |
+| [_drafts/ritter-warning-extraction](_drafts/ritter-warning-extraction/SKILL.md) | draft | No action in this pass. |
+| [_drafts/russian-endurance-compression-strategy/notes.md](_drafts/russian-endurance-compression-strategy/notes.md) | draft note | Companion notes for the Russian/Persian dual-stack lens; useful context, not a listed portable skill. |
+| [_drafts/russian-endurance-compression-strategy/SKILL.md](_drafts/russian-endurance-compression-strategy/SKILL.md) | draft | No action in this pass. |
+| [_drafts/skill-narrative/SKILL.md](_drafts/skill-narrative/SKILL.md) | duplicate draft | Likely duplicate of canonical `skill-narrative`; keep draft-only until reconciled. |
 
 ## Main drift patterns
 
@@ -75,13 +75,13 @@ The objective here was not to rewrite everything. It was to identify duplication
 
 Several skills still read like they live inside one specific instance, referencing `self.md`, `self-library.md`, `self-skills.md`, `self-archive.md`, or concrete notebook files as if those were universal.
 
-That drifts from [`self-llm.txt`](/C:/dev/strategy-codex/self-llm.txt), which currently demonstrates the opposite: a portable consumer may not have those files at all.
+That drifts from [`self-llm.txt`](../self-llm.txt), which currently demonstrates the opposite: a portable consumer may not have those files at all.
 
 ### 2. Approval language that was close to merge language
 
 Some skills said things like "gate-ready proposal" or "draft recursion-gate-ready text." That is not catastrophic, but it blurs the line between proposal packaging and authority.
 
-[`recursion-gate.md`](/C:/dev/strategy-codex/recursion-gate.md) is stricter: the agent may stage; it may not merge; human review remains load-bearing.
+[`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) is stricter: the agent may stage; it may not merge; human review remains load-bearing.
 
 ### 3. Duplicate-lane blindness
 
@@ -181,7 +181,7 @@ This skill is directly about source hygiene and maturity ladders, so any drift h
 **Before**
 
 ```md
-- Use [packet-crosswalk.md](../../docs/skill-work/work-strategy/packet-crosswalk.md) if the choice is not obvious.
+- Use [packet-crosswalk.md](../docs/skill-work/work-strategy/packet-crosswalk.md) if the choice is not obvious.
 ```
 
 ```md
@@ -302,13 +302,13 @@ Added explicit schema guidance that:
 
 ### Coverage
 
-- `39` files under [`skills`](/C:/dev/strategy-codex/skills) were explicitly accounted for in this audit.
+- `39` files under [`skills`](.) were explicitly accounted for in this audit.
 - `5` high-risk portable skills were materially improved.
 - `5` generated `.cursor/skills/*/SKILL.md` derivative runtime copies were regenerated to stay aligned with the portable source layer.
 - `3` documentation surfaces were strengthened:
-  - [README.md](/C:/dev/strategy-codex/skills/README.md)
-  - [_schema.md](/C:/dev/strategy-codex/skills/_schema.md)
-  - [skills-portable-drift-audit-2026-05-22.md](/C:/dev/strategy-codex/skills/skills-portable-drift-audit-2026-05-22.md)
+  - [README.md](README.md)
+  - [_schema.md](_schema.md)
+  - [skills-portable-drift-audit-2026-05-22.md](skills-portable-drift-audit-2026-05-22.md)
 
 ### Portability gain
 
@@ -362,9 +362,9 @@ This was therefore a real contract rewrite on the riskiest portable seams, not a
 
 ### Verification
 
-- [`validate_skills.py`](/C:/dev/strategy-codex/scripts/validate_skills.py) passed with the bundled runtime.
+- [`validate_skills.py`](../scripts/validate_skills.py) passed with the bundled runtime.
 - Forbidden-string spot checks passed on the revised skills.
-- [`sync_portable_skills.py --verify`](/C:/dev/strategy-codex/scripts/sync_portable_skills.py) now passes in the bundled runtime without `PyYAML`, via a stdlib fallback for the manifest/frontmatter subset used by the portable-skill sync path.
+- [`sync_portable_skills.py --verify`](../scripts/sync_portable_skills.py) now passes in the bundled runtime without `PyYAML`, via a stdlib fallback for the manifest/frontmatter subset used by the portable-skill sync path.
 - After adding that fallback, the five affected `.cursor/skills/*/SKILL.md` derivative runtime copies were regenerated through the live sync script.
 
 ## What remains stable but worth watching
@@ -383,7 +383,7 @@ The next verification step should confirm:
 
 ## Follow-on fix completed
 
-After the main audit pass, the previously blocked verifier path was repaired directly in [sync_portable_skills.py](/C:/dev/strategy-codex/scripts/sync_portable_skills.py).
+After the main audit pass, the previously blocked verifier path was repaired directly in [sync_portable_skills.py](../scripts/sync_portable_skills.py).
 
 Benefit:
 

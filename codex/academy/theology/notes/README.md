@@ -32,4 +32,4 @@ These notes are the first concept pack supporting the academy theology essay arc
 
 ## Source
 
-Source notes live in [docs/civilization-memory/notes/](../../../../../docs/civilization-memory/notes/). Update this academy folder manually when source changes matter.
+Source notes live in [docs/civilization-memory/notes/](../../../../docs/civilization-memory/notes). Update this academy folder manually when source changes matter.

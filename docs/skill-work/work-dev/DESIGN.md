@@ -2,12 +2,12 @@
 
 **Version:** 1.4  
 **Last Updated:** 2026-03-27  
-**Governed By:** Recursion-Gate â€” see [recursion-gate.md](recursion-gate.md)  
+**Governed By:** Recursion-Gate â€” see [recursion-gate.md](../../../archive/grace-mar-instance/recursion-gate.md)  
 **Purpose:** The single canonical, agent-readable design system for all Grace-Mar interfaces, creative outputs, and generated UIs.
 
-**Status:** Operator / creative-pipeline draft. **Not** SELF or Voice canon until merged through [recursion-gate.md](recursion-gate.md) per [AGENTS.md](../../AGENTS.md).  
-**Pipeline:** [creative-pipeline.md](../../docs/skill-work/work-dev/creative-pipeline.md)  
-**Revision:** v1.4 (2026-03-27) â€” full Workspace Panel interactions; artifact paths aligned with [canonical EVIDENCE](../../docs/canonical-paths.md).
+**Status:** Operator / creative-pipeline draft. **Not** SELF or Voice canon until merged through [recursion-gate.md](../../../archive/grace-mar-instance/recursion-gate.md) per [AGENTS.md](../../../AGENTS.md).  
+**Pipeline:** [creative-pipeline.md](creative-pipeline.md)  
+**Revision:** v1.4 (2026-03-27) â€” full Workspace Panel interactions; artifact paths aligned with [canonical EVIDENCE](../../canonical-paths.md).
 
 ---
 
@@ -143,8 +143,8 @@ The Workspace Panel is Grace-Marâ€™s dedicated, resizable structured output
 
 **State Management**
 
-- Draft artifacts saved locally in `artifacts/drafts/` (non-canonical working copies; see [artifacts/drafts/README.md](artifacts/drafts/README.md))
-- After recursion-gate approval: promote durable creative outputs under `artifacts/creative/` per [artifacts/creative/README.md](artifacts/creative/README.md). **Record** integration is only through the gated pipeline into [`self-archive.md`](self-archive.md) â€” do not use `self-evidence/` as a parallel evidence tree ([canonical-paths.md](../../docs/canonical-paths.md))
+- Draft artifacts saved locally in `artifacts/drafts/` (non-canonical working copies; see [artifacts/drafts/README.md](../../../README.md))
+- After recursion-gate approval: promote durable creative outputs under `artifacts/creative/` per [artifacts/creative/README.md](../../../README.md). **Record** integration is only through the gated pipeline into [`self-archive.md`](self-archive.md) â€” do not use `self-evidence/` as a parallel evidence tree ([canonical-paths.md](../../canonical-paths.md))
 - Panel remembers last open artifact across sessions (non-Record state)
 
 ### Purpose

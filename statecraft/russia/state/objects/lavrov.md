@@ -65,8 +65,8 @@ When a new Lavrov hit appears, classify it before using it:
 
 Ritter's May 2026 use is narrow but important: Lavrov becomes evidence that Moscow has judged the United States to be structurally unreliable as a treaty partner.
 
-- Ritter in Dialogue Works: [2026-05-13 raw-input](../../../../../years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- Ritter / McGovern debate: [2026-05-18 raw-input](../../../../../years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
+- Ritter in Dialogue Works: [2026-05-13 raw-input](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- Ritter / McGovern debate: [2026-05-18 raw-input](../../../../source-archive/statecraft/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 
 Statecraft reading: if Lavrov says the United States is agreement-incapable and Ritter treats Lavrov as Putin-authorized, the Russia lane should not draft a settlement that relies only on U.S. verbal assurances. It should demand institutional lock-in, third-party custody, staged performance, material guarantees, or self-enforcing mechanisms.
 
@@ -74,13 +74,13 @@ Statecraft reading: if Lavrov says the United States is agreement-incapable and 
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Ritter / agreement capability:** [2026-05-18 Consortium News debate](../../../../../years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
-- **Ritter / Iran agreement skepticism:** [2026-05-13 Dialogue Works](../../../../../years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- **Mercouris / Russia-China-Iran energy and enrichment mechanism:** [2026-04-15 Mercouris](../../../../../years/2026/provenance/2026-04-15/source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md)
-- **Mercouris / Europe war language:** [2026-04-25 Mercouris](../../../../../years/2026/provenance/2026-04-25/source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-Araghchi-to-moscow-won-t-talk-2026-04-25.md)
-- **Helmer / Lavrov as military-side faction signal:** [2026-04-28 Helmer](../../../../../years/2026/provenance/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)
-- **Baud / Eurasian linkage:** [2026-05-11 Baud](../../../../../years/2026/provenance/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md)
-- **Ritter authored historical baseline:** [2026-02-22 Substack](../../../../../years/2026/provenance/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
+- **Ritter / agreement capability:** [2026-05-18 Consortium News debate](../../../../source-archive/statecraft/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
+- **Ritter / Iran agreement skepticism:** [2026-05-13 Dialogue Works](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- **Mercouris / Russia-China-Iran energy and enrichment mechanism:** [2026-04-15 Mercouris](../../../../source-archive/statecraft/2026-04-15/source-alexander-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md)
+- **Mercouris / Europe war language:** [2026-04-25 Mercouris](../../../../source-archive/statecraft/2026-04-25/day-index.md)
+- **Helmer / Lavrov as military-side faction signal:** [2026-04-28 Helmer](../../../../source-archive/statecraft/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)
+- **Baud / Eurasian linkage:** [2026-05-11 Baud](../../../../source-archive/statecraft/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md)
+- **Ritter authored historical baseline:** [2026-02-22 Substack](../../../../source-archive/statecraft/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
 
 ## Statecraft Uses
 

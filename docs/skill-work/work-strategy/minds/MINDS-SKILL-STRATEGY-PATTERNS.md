@@ -28,10 +28,10 @@
 
 ### Mind files (load these — SSOT = expert `-mind.md`)
 
-- [`strategy-expert-mercouris-mind.md`](../strategy-notebook/strategy-expert-mercouris-mind.md) — dated **operator corpus addenda** (e.g. **III.M** spoken-register scaffolds) live **in-file** under the mapped corpus; WORK emulation only — not substitute for tier-A verify on current facts. [`CIV-MIND-MERCOURIS.md`](../strategy-notebook/minds/CIV-MIND-MERCOURIS.md) redirects here.
-- [`strategy-expert-mearsheimer-mind.md`](../strategy-notebook/strategy-expert-mearsheimer-mind.md) — [`CIV-MIND-MEARSHEIMER.md`](../strategy-notebook/minds/CIV-MIND-MEARSHEIMER.md) redirects here.
-- [`strategy-expert-barnes-mind.md`](../strategy-notebook/strategy-expert-barnes-mind.md) — [`CIV-MIND-BARNES.md`](../strategy-notebook/minds/CIV-MIND-BARNES.md) redirects here.
-- [`strategy-notebook/minds/README.md`](../strategy-notebook/minds/README.md)
+- [`strategy-expert-mercouris-mind.md`](../../../../codex/strategy-expert-mercouris-mind.md) — dated **operator corpus addenda** (e.g. **III.M** spoken-register scaffolds) live **in-file** under the mapped corpus; WORK emulation only — not substitute for tier-A verify on current facts. [`CIV-MIND-MERCOURIS.md`](../../../../codex/minds/CIV-MIND-MERCOURIS.md) redirects here.
+- [`strategy-expert-mearsheimer-mind.md`](../../../../codex/strategy-expert-mearsheimer-mind.md) — [`CIV-MIND-MEARSHEIMER.md`](../../../../codex/minds/CIV-MIND-MEARSHEIMER.md) redirects here.
+- [`strategy-expert-barnes-mind.md`](../../../../codex/strategy-expert-barnes-mind.md) — [`CIV-MIND-BARNES.md`](../../../../codex/minds/CIV-MIND-BARNES.md) redirects here.
+- [`../../codex/minds/README.md`](../../../../README.md)
 
 ### Optional upstream templates (civ-mem — diff / governance-only; not required for Grace-Mar)
 
@@ -41,9 +41,9 @@ If `research/repos/civilization_memory` is present:
 - `docs/templates/CIV–MIND–MEARSHEIMER.md`
 - `docs/templates/CIV–MIND–BARNES.md`
 
-**Grace-Mar canonical** mind bodies: strategy-expert **`-mind.md`** files under [`strategy-notebook/`](../strategy-notebook/) (SSOT); [`strategy-notebook/minds/CIV-MIND-*.md`](../strategy-notebook/minds/) are **redirects** to the same content.
+**Grace-Mar canonical** mind bodies: strategy-expert **`-mind.md`** files under [`../../codex/`](../../../../codex) (SSOT); [`../../codex/minds/CIV-MIND-*.md`](../../../../codex/minds) are **redirects** to the same content.
 
-**Strategy pass × civ-mem:** After frontier read (and tier-A verify for disputed current facts), `python3 scripts/suggest_civ_mem_from_relevance.py <ENTITY>` when `MEM–RELEVANCE–<ENTITY>.md` exists; cite MEM paths in **`### References`**. Tri-frame bridge: [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md). Trump–Leo Barnes training sheet: [TRUMP-LEO-CIV-MEM-BARNES-DRILL.md](../strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md).
+**Strategy pass × civ-mem:** After frontier read (and tier-A verify for disputed current facts), `python3 scripts/suggest_civ_mem_from_relevance.py <ENTITY>` when `MEM–RELEVANCE–<ENTITY>.md` exists; cite MEM paths in **`### References`**. Tri-frame bridge: [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md). Trump–Leo Barnes training sheet: [TRUMP-LEO-CIV-MEM-BARNES-DRILL.md](../../../../codex/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md).
 
 ### Tri-frame entry index
 
@@ -52,7 +52,7 @@ If `research/repos/civilization_memory` is present:
 ### Strategy surfaces
 
 - `.cursor/skills/skill-strategy/SKILL.md`
-- `docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
+- `docs/skill-work/work-strategy/../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
 - `docs/skill-work/work-strategy/LEARN_MODE_RULES.md`
 - `.cursor/rules/strategy-minds-granular.mdc`
 
@@ -78,7 +78,7 @@ The stronger pattern is:
 
 **What:** Run one mind when the day’s problem is clearly one-dimensional.  
 **When:** Crisis days, narrow drafting days, or when the operator wants speed.  
-**Where in repo:** `strategy-notebook/chapters/YYYY-MM/days.md` under `### Reflection`, with one line in `### References` citing the relevant strategy-expert **`-mind.md`** (SSOT) or **`CIV-MIND-*.md`** redirect.  
+**Where in repo:** `../../codex/chapters/YYYY-MM/days.md` under `### Reflection`, with one line in `### References` citing the relevant strategy-expert **`-mind.md`** (SSOT) or **`CIV-MIND-*.md`** redirect.  
 **Cost:** Light.  
 **Risk:** Overfitting the day to one lens and missing a hidden contradiction.
 
@@ -157,7 +157,7 @@ The stronger pattern is:
 
 **What:** Review in `meta.md` which lenses were actually useful that month.  
 **When:** Month close or after a major arc ends.  
-**Where in repo:** `strategy-notebook/chapters/YYYY-MM/meta.md`  
+**Where in repo:** `../../codex/chapters/YYYY-MM/meta.md`  
 **Cost:** Medium.  
 **Risk:** Retroactive rationalization.
 
@@ -201,11 +201,11 @@ Promote only when one of these is true:
 - **Negotiation plane:** what deal space exists
 - **Material plane:** what can actually be sustained
 - **Narrative plane:** what legitimacy story is being projected
-- **Vatican / Holy See plane (when Rome is in play):** papal or curial speech as **IHL / moral–legal vocabulary** and **legitimacy** — **not** a substitute for **kinetic** or **Beltway** facts; label explicitly when **Leo XIV** lines sit in the same day as **Islamabad** or **Lebanon mechanics** ingests ([NOTEBOOK-PREFERENCES.md](../strategy-notebook/NOTEBOOK-PREFERENCES.md), [ROME-PASS.md](../work-strategy-rome/ROME-PASS.md)).
-- **VP / U.S. executive channel (when JD Vance is in play):** **White House** / **wire** **attributed** lines on **role** (delegation lead, coalition framing) — **not** a substitute for **Tehran** or **field** facts; label explicitly when **§1e** / **Vance** copy sits the same day as **Pentagon**, **State**, or **allied** readouts that **diverge** on **scope** ([daily-brief-jd-vance-watch.md](../daily-brief-jd-vance-watch.md), [NOTEBOOK-PREFERENCES.md](../strategy-notebook/NOTEBOOK-PREFERENCES.md)).
-- **Kremlin / Russia executive channel (when Putin is in play):** **Kremlin.ru** / **wire** **attributed** **quotes** and **signaling** — **not** a substitute for **Ukrainian**, **Iranian**, or **battlefield** **facts**; label explicitly when **§1d** / **Putin** copy sits the same day as **NATO**, **White House**, or **Tehran** lines that **diverge** on **terms** or **scope** ([daily-brief-putin-watch.md](../daily-brief-putin-watch.md), [NOTEBOOK-PREFERENCES.md](../strategy-notebook/NOTEBOOK-PREFERENCES.md)).
-- **PRC / MFA channel (when Beijing is in play):** **MFA** / **state** **English** pages and **attributed** **lines** — **not** a substitute for **U.S.**, **Taiwan**, or **partner** **facts** on the same story; label explicitly when **§1g** / **PRC** copy sits the same day as **White House**, **allied**, or **Western** “China” **analysis** that **diverge** on **terms** or **scope** ([daily-brief-prc-watch.md](../daily-brief-prc-watch.md), [NOTEBOOK-PREFERENCES.md](../strategy-notebook/NOTEBOOK-PREFERENCES.md)).
-- **IRI / Tehran state channel (when Iran is in play):** **MFA** / **IRNA** / **presidency** **attributed** **lines** — **not** a substitute for **Islamabad** **gap-matrix** **structure** alone; label explicitly when **§1h** / **IRI** copy sits the same day as **U.S.** **executive**, **allied**, or **Western** “Iran” **digest** that **diverge** on **pause**, **Hormuz**, or **nuclear** **scope** ([daily-brief-iran-watch.md](../daily-brief-iran-watch.md), [islamabad-operator-index.md](../islamabad-operator-index.md), [NOTEBOOK-PREFERENCES.md](../strategy-notebook/NOTEBOOK-PREFERENCES.md)).
+- **Vatican / Holy See plane (when Rome is in play):** papal or curial speech as **IHL / moral–legal vocabulary** and **legitimacy** — **not** a substitute for **kinetic** or **Beltway** facts; label explicitly when **Leo XIV** lines sit in the same day as **Islamabad** or **Lebanon mechanics** ingests ([NOTEBOOK-PREFERENCES.md](../../../../codex/NOTEBOOK-PREFERENCES.md), [ROME-PASS.md](../work-strategy-rome/ROME-PASS.md)).
+- **VP / U.S. executive channel (when JD Vance is in play):** **White House** / **wire** **attributed** lines on **role** (delegation lead, coalition framing) — **not** a substitute for **Tehran** or **field** facts; label explicitly when **§1e** / **Vance** copy sits the same day as **Pentagon**, **State**, or **allied** readouts that **diverge** on **scope** ([daily-brief-jd-vance-watch.md](../daily-brief-jd-vance-watch.md), [NOTEBOOK-PREFERENCES.md](../../../../codex/NOTEBOOK-PREFERENCES.md)).
+- **Kremlin / Russia executive channel (when Putin is in play):** **Kremlin.ru** / **wire** **attributed** **quotes** and **signaling** — **not** a substitute for **Ukrainian**, **Iranian**, or **battlefield** **facts**; label explicitly when **§1d** / **Putin** copy sits the same day as **NATO**, **White House**, or **Tehran** lines that **diverge** on **terms** or **scope** ([daily-brief-putin-watch.md](../daily-brief-putin-watch.md), [NOTEBOOK-PREFERENCES.md](../../../../codex/NOTEBOOK-PREFERENCES.md)).
+- **PRC / MFA channel (when Beijing is in play):** **MFA** / **state** **English** pages and **attributed** **lines** — **not** a substitute for **U.S.**, **Taiwan**, or **partner** **facts** on the same story; label explicitly when **§1g** / **PRC** copy sits the same day as **White House**, **allied**, or **Western** “China” **analysis** that **diverge** on **terms** or **scope** ([daily-brief-prc-watch.md](../daily-brief-prc-watch.md), [NOTEBOOK-PREFERENCES.md](../../../../codex/NOTEBOOK-PREFERENCES.md)).
+- **IRI / Tehran state channel (when Iran is in play):** **MFA** / **IRNA** / **presidency** **attributed** **lines** — **not** a substitute for **Islamabad** **gap-matrix** **structure** alone; label explicitly when **§1h** / **IRI** copy sits the same day as **U.S.** **executive**, **allied**, or **Western** “Iran” **digest** that **diverge** on **pause**, **Hormuz**, or **nuclear** **scope** ([daily-brief-iran-watch.md](../daily-brief-iran-watch.md), [islamabad-operator-index.md](../islamabad-operator-index.md), [NOTEBOOK-PREFERENCES.md](../../../../codex/NOTEBOOK-PREFERENCES.md)).
 
 ---
 
@@ -267,7 +267,7 @@ Promote only when one of these is true:
 3. In `### Chronicle`, summarize only what crossed the strategy threshold.
 4. In `### Reflection`, write one Barnes-shaped paragraph: material constraint, liabilities, who can sustain what.
 5. If numbers are load-bearing, add `### Web verification (YYYY-MM-DD)`.
-6. In `### References`, include the relevant brief/transcript plus [`strategy-expert-barnes-mind.md`](../strategy-notebook/strategy-expert-barnes-mind.md) (or the [`CIV-MIND-BARNES.md`](../strategy-notebook/minds/CIV-MIND-BARNES.md) redirect). **Optional civ-mem:** If `research/repos/civilization_memory` is checked out and structural precedent helps, add **1–2** upstream `MEM–…` file receipts (see [TRUMP-LEO-CIV-MEM-BARNES-DRILL.md](../strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md) for Trump–Leo / Rome + U.S. pairing); never substitute MEM for tier-A wires on breaking claims.
+6. In `### References`, include the relevant brief/transcript plus [`strategy-expert-barnes-mind.md`](../../../../codex/strategy-expert-barnes-mind.md) (or the [`CIV-MIND-BARNES.md`](../../../../codex/minds/CIV-MIND-BARNES.md) redirect). **Optional civ-mem:** If `research/repos/civilization_memory` is checked out and structural precedent helps, add **1–2** upstream `MEM–…` file receipts (see [TRUMP-LEO-CIV-MEM-BARNES-DRILL.md](../../../../codex/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md) for Trump–Leo / Rome + U.S. pairing); never substitute MEM for tier-A wires on breaking claims.
 7. In `### Foresight`, carry one falsifiable follow-up.
 
 **Use when**

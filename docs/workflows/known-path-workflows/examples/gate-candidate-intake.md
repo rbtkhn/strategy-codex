@@ -41,7 +41,7 @@ Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook ca
 1. Enumerate **read-only** inputs listed in `input_surfaces` for the chosen window (no writes).
 2. For each plausible signal, draft a **candidate block** (id placeholder, summary, suggested `kind`, **no** `status: pending` applied to disk by automation unless policy explicitly allows scripted appendâ€”default: **operator pastes**).
 3. Produce a **single review packet** (Markdown or text) listing: suggested id, one-line summary, evidence paths, channel_key if applicable.
-4. Operator **edits** [`recursion-gate.md`](../../../../recursion-gate.md) or defers.
+4. Operator **edits** [`recursion-gate.md`](../../../../archive/grace-mar-instance/recursion-gate.md) or defers.
 5. No `process_approved_candidates.py` until companion approval exists.
 
 ## Inputs

@@ -18,8 +18,8 @@ That is enough for a truthful `cross-host-reinforced` lane, but not yet enough f
 
 ## Open first
 
-- [2026-02-27 Kiriakou x Aguilar](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-27/source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md)
-- [2026-04-27 Carlson x Kiriakou](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/source-kiriakou-carlson-iran-truth-dc-2026-04-27.md)
+- [2026-02-27 Kiriakou x Aguilar](../../../source-archive/statecraft/2026-02-27/source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md)
+- [2026-04-27 Carlson x Kiriakou](../../../source-archive/statecraft/2026-04-27/source-kiriakou-carlson-iran-truth-dc-2026-04-27.md)
 
 ## Boundaries
 

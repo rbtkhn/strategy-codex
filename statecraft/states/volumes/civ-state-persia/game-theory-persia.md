@@ -22,7 +22,7 @@ This chapter tracks recurring bargaining structure, but it does not reduce Persi
 
 ## Return Path
 
-Return through [CIV-STATE Persia](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/README.md), [Persia sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/sovereign-continuity.md), [Persia geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-persia/geo-strategy-persia.md), and [Iran state memory](/C:/dev/strategy-codex/statecraft/persia/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
+Return through [CIV-STATE Persia](README.md), [Persia sovereign continuity](sovereign-continuity.md), [Persia geo-strategy](geo-strategy-persia.md), and [Iran state memory](../../../persia/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
 
 ## Core Thesis
 

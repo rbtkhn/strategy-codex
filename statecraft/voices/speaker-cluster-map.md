@@ -25,7 +25,7 @@ Each non-quartet speaker folder appears once in this register. The secondary col
 |---|---|---|---|
 | [Jermy](jermy/README.md) | Pape | Parsi | Maritime closure, energy-system consequence, and rough-order macro strengthen Pape's clock and threshold work. |
 | [Armstrong](armstrong/README.md) | Pape | Crooke | Macro-war convergence and payment-plumbing provocation extend Pape's system-buffer and shock logic. |
-| [Krainer](krainer/README.md) | Pape | Crooke | Macro-financial widening and imperial-breakdown interpretation help convert forecast clocks into economic-system consequence. |
+| [Krainer](../../README.md) | Pape | Crooke | Macro-financial widening and imperial-breakdown interpretation help convert forecast clocks into economic-system consequence. |
 | [Sachs](sachs/README.md) | Pape | Parsi | Political-economy consequence and institutional breakdown strengthen the macro and settlement-cost side of the Pape frame. |
 | [Berletic](berletic/README.md) | Pape | Ritter | Industrial capacity and proxy-war logistics help test whether forecasted pressure can be materially absorbed. |
 | [Jiang](jiang/README.md) | Pape | Crooke | China and industrial-state perspective helps read relative gain, reserves, and system adaptation. |
@@ -33,7 +33,7 @@ Each non-quartet speaker folder appears once in this register. The secondary col
 | [Postol](postol/README.md) | Ritter | Pape | Technical destruction, missile effects, and deterrence realism sharpen what force can actually do. |
 | [Martyanov](martyanov/README.md) | Ritter | Crooke | Military-systems realism and force-assessment discipline sit closest to Ritter's operational warning role. |
 | [Macgregor](macgregor/README.md) | Ritter | Crooke | Force balance, logistics burden, and imperial-overreach warnings strengthen the hard military-feasibility side. |
-| [Aguilar](aguilar/README.md) | Ritter | Pape | Operational-military realism and war-conduct witness value support concrete force and crisis-risk checks. |
+| [Aguilar](../../README.md) | Ritter | Pape | Operational-military realism and war-conduct witness value support concrete force and crisis-risk checks. |
 | [Johnson](johnson/README.md) | Ritter | Crooke | Operational feasibility plus live crisis pressure make Johnson a pressure-interpreting bridge near Ritter. |
 | [Wilkerson](wilkerson/README.md) | Ritter | Crooke | Military-statecraft warning and imperial-decline consequence fit the force-danger and elite-delusion boundary. |
 | [Kent](kent/README.md) | Ritter | Parsi | Inside-system witness and war-pressure reading help test operational exit logic and domestic legitimacy. |

@@ -10,14 +10,14 @@ Postol is not only an Alkorshid-adjacent voice. There is now clear evidence that
 
 The clearest current host-local branches are:
 
-- [Davis x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-davis-host.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-diesen-host.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/statecraft/notes/arc-postol-nima-host.md)
+- [Davis x Postol](../../notes/arc-postol-davis-host.md)
+- [Diesen x Postol](../../notes/arc-postol-diesen-host.md)
+- [Alkorshid x Postol](../../notes/arc-postol-nima-host.md)
 
 There is also shelf-supporting inventory evidence for the broader Dialogue Works / Alkorshid run:
 
-- [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
-- [alkorshid-profile.md](/C:/dev/strategy-codex/statecraft/voices/alkorshid/alkorshid-profile.md)
+- [dialogue-works-inventory.md](../../../../../../../../codex/years/2026/provenance/dialogue-works-inventory.md)
+- [alkorshid-profile.md](../alkorshid/alkorshid-profile.md)
 
 That matters because it shows the Postol voice is not a one-file anomaly. Even where the shelf has not yet captured the full raw-input run, the object is already visible as a recurring technical and deterrence-correction presence in multiple host registers.
 

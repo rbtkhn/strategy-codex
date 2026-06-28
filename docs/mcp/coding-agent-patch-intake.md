@@ -59,7 +59,7 @@ Each successful write emits a validated receipt with **`capability.id`** **`codi
 |---------|------|
 | **Patch-review packet** (this adapter) | Human-readable WORK summary + risk labels â€” **not** approval. |
 | **Candidate proposal** | Capability posture (`candidate_proposal` lane); still **not** merged Record truth. |
-| **Gate candidate** | Companion-reviewed YAML/text destined for [`recursion-gate.md`](../../recursion-gate.md) **pipeline**, staged deliberately â€” adapter never edits this file. |
+| **Gate candidate** | Companion-reviewed YAML/text destined for [`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md) **pipeline**, staged deliberately â€” adapter never edits this file. |
 | **Approved merge** | Companion-approved **`process_approved_candidates.py`** apply only â€” outside this tool. |
 
 **Agents â‰  authority.** Paste structured intake JSON here **after** the assistant responds so operators retain classification + receipts **without** conflating model narration with governance outcomes.

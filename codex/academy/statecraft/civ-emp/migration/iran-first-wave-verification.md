@@ -32,9 +32,9 @@ A first-wave slice is only `verified` when:
 
 Iran routing now prefers the first-wave set on the front door:
 
-- [Iran lane README](../../iran/README.md)
-- [Iran civilization README](../../iran/civilization/README.md)
-- [Iran empire README](../../iran/empire/README.md)
+- [Iran lane README](../../../../../README.md)
+- [Iran civilization README](../../../../../README.md)
+- [Iran empire README](../../../../../README.md)
 
 Those surfaces now route operators to:
 

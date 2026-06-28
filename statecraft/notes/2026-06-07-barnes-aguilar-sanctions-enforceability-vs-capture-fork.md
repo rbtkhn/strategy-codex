@@ -4,13 +4,13 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note extends [Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31](statecraft/notes/2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md) into the June capture arc with a narrower June question:
+This statecraft note extends [Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31](2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md) into the June capture arc with a narrower June question:
 
 **If the president retains statutory levers (sanctions, munitions faucet, NDAA reallocation), why does client veto still govern — and will those levers ever fire?**
 
 Primary carriers: **Barnes** (June 3 — congressional carry + claimed Trump leverage over Netanyahu), **Aguilar** (June 7 — executive levers catalog + enforceability skepticism).
 
-Bounded against: [America: Trump Humiliation, Vance Absence, Capture Extension](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (live humiliation proof) and [command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md).
+Bounded against: [America: Trump Humiliation, Vance Absence, Capture Extension](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (live humiliation proof) and [command-firewall transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md).
 
 ## Shared Object
 
@@ -112,16 +112,16 @@ Transaction implication: firewall drafting must assume **executive levers are re
 - Barnes anchor: "Trump has no authorization for any further war… constitutionally binding."
 - If Barnes BB-leverage narrative produces Netanyahu compliance without economic coercion, Aguilar lever catalog is optional not necessary — falsifies "only sanctions/munitions work."
 - Barnes anchor: "Trump's got all the leverage against BB he wants to use."
-- If Section 224 passes and integrated procurement accelerates aid without votes, both agree capture deepens — see [America captured-command statecraft note](statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md).
+- If Section 224 passes and integrated procurement accelerates aid without votes, both agree capture deepens — see [America captured-command statecraft note](2026-06-06-america-captured-command-ndaa-ci-client-veto.md).
 
 ## Return Paths
 
-- Lineage: [2026-05-31 Barnes-Aguilar captured command vs degraded carry](statecraft/notes/2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md)
-- Live humiliation: [America: Trump Humiliation, Vance Absence - 2026-06-07](statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
-- Parent dailies: [2026-06-03](statecraft/synthesis/day/2026-06-03.md) · [2026-06-07](statecraft/synthesis/day/2026-06-07.md)
+- Lineage: [2026-05-31 Barnes-Aguilar captured command vs degraded carry](2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md)
+- Live humiliation: [America: Trump Humiliation, Vance Absence - 2026-06-07](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
+- Parent dailies: [2026-06-03](../synthesis/day/2026-06-03.md) · [2026-06-07](../synthesis/day/2026-06-07.md)
 - Transaction: [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 
 ## Source Anchors
 
-- [Barnes / Dialogue Works - 2026-06-03](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-03/source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md>)
-- [Aguilar / Mario Nawfal - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>)
+- [Barnes / Dialogue Works - 2026-06-03](<../../source-archive/statecraft/2026-06-03/source-dialogue-works-barnes-the-iranian-navy-announces-it-targeted-a-us-warship-in-the-sea-of-oman-2026-06-03.md>)
+- [Aguilar / Mario Nawfal - 2026-06-07](<../../source-archive/statecraft/2026-06-07/source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>)

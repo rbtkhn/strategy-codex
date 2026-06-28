@@ -45,19 +45,19 @@ That means January is not currently a live closure campaign month on local evide
 
 Use these existing surfaces as the benchmark spine:
 
-- [2026-01 month archive rollup](/C:/dev/strategy-codex/source-archive/statecraft/2026-01.md)
+- [2026-01 month archive rollup](../../source-archive/statecraft/2026-01.md)
   Preserves the month's real density, source-class spread, and early multi-lane footprint.
 
-- [wilkerson-january-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-january-2026-note.md)
+- [wilkerson-january-2026-note.md](../voices/wilkerson/wilkerson-january-2026-note.md)
   Keeps one bounded truth straight: January is a thin opening month for Wilkerson specifically, not a broken month overall.
 
-- [freeman-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/freeman/freeman-shelf-2026-01.md)
+- [freeman-shelf-2026-01.md](../voices/freeman/freeman-shelf-2026-01.md)
   Preserves January as a bounded entry shelf before the mature spring Freeman core thickens.
 
-- [ritter-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-shelf-2026-01.md)
+- [ritter-shelf-2026-01.md](../voices/ritter/ritter-shelf-2026-01.md)
   Shows January as the year's opening membrane, joining authored warning continuity to reopening interview lanes.
 
-- [crooke-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/crooke/crooke-shelf-2026-01.md)
+- [crooke-shelf-2026-01.md](../voices/crooke/crooke-shelf-2026-01.md)
   Preserves January as an authored-leaning setup shelf before the later interview core becomes mature.
 
 ## What January Is Good For

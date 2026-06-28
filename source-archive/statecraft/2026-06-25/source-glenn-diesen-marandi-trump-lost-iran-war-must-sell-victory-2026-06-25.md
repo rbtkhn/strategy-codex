@@ -30,6 +30,18 @@ normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (marandi, diesen, channel:glenn-diesen)); 34 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-26 (9 sections)."
 quality_note: "ASR normalization pass 2026-06-26; ph-civ replacement SSOT."
 transcript_curation: curated_sectioned
+verify_receipt: 2026-06-28
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Trump lost Iran war; must sell victory; MOU ten-point framework vs walk-back noise
+    verdict: partial
+    note: tier-4 Tehran victory-sell — pairs **J25-2** inverse; wire **J25-5** partial on implementation
+  - claim: Trump/Vance false IAEA bombed-site inspection claims; Bushehr-only IAEA visits
+    verdict: contested
+    note: J25-9 — pairs Crooke essay; Lucerne 10-point vs rhetoric split
+  - claim: MOU fund release / escrow-ag rhetoric vs Iranian side commitments
+    verdict: partial
+    note: J25-10 — Hormuz month-one leverage tier-4; pairs Helmer bribery-architecture read
 ---
 # Seyed M. Marandi: Trump Lost the Iran War - Must Sell It as a Victory
 
@@ -44,7 +56,7 @@ transcript_curation: curated_sectioned
 
 ### Show Open — MOU Framework and Ten-Point Plan
 
-Welcome back. We are joined again by Sayed Mohammad Marandi, a professor at Tehran University and a former advisor to Iran's nuclear negotiation team. Uh so, yeah, thank you for coming back on the program. I wanted to ask you about the development of the memorandum of understanding because when the United States asked for the initial ceasefire a while ago, uh they agreed to this 10-point plan to stop the hostilities, but as we saw, they didn't abide by it.
+Welcome back. We are joined again by Seyed Mohammad Marandi, a professor at Tehran University and a former advisor to Iran's nuclear negotiation team. Uh so, yeah, thank you for coming back on the program. I wanted to ask you about the development of the memorandum of understanding because when the United States asked for the initial ceasefire a while ago, uh they agreed to this 10-point plan to stop the hostilities, but as we saw, they didn't abide by it.
  It's indeed appeared that the day after they began to water it down and well, they ignoring what was supposed to be the point of departure for these discussions. Uh I was wondering how do you see the memorandum of understanding this time? Is the US strategy yet again to string the Iranians along, water it down because um there appears to be some pushback not just from Trump, but well, the White House in general.
 >> Um the Well, thank you very much for inviting me, Glenn. Always very glad to be on your show. And uh to have the opportunity to speak to your audience. Um I think uh the the 10-point plan uh was uh an achievement in itself. The very fact the Americans accepted it as a framework for negotiation. They didn't accept the 10-point plan.
 But it was a huge achievement because uh the Americans started with uh unconditional surrender and after 39 days ended with okay, we'll accept your 10-point plan as a framework for discussions. And of course, it was obvious that they would um once at the negotiating table, they would uh uh refrain from uh accepting the plan.

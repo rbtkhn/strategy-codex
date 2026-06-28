@@ -85,4 +85,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-berletic-transcript.md`](strategy-expert-berletic-transcript.md) (7-day rolling verbatim) and [`strategy-expert-berletic-thread.md`](strategy-expert-berletic-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-berletic-transcript.md`](berletic-transcript.md) (7-day rolling verbatim) and [`strategy-expert-berletic-thread.md`](berletic-thread.md) (distilled analytical thread).

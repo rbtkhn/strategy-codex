@@ -2,15 +2,15 @@ WORK only; not Record.
 
 # America Lane — Command Unreliability After April Proof Packet
 
-**Parent month:** [2026-04.md](statecraft/synthesis/month/2026-04.md) · **Genesis:** [2026-03.md](statecraft/synthesis/month/2026-03.md) · **Maturation:** [2026-05.md](statecraft/synthesis/month/2026-05.md)
+**Parent month:** [2026-04.md](month/2026-04.md) · **Genesis:** [2026-03.md](month/2026-03.md) · **Maturation:** [2026-05.md](month/2026-05.md)
 
-**April hinge ladder:** [2026-04-08](statecraft/synthesis/day/2026-04-08.md) → [2026-04-12](statecraft/synthesis/day/2026-04-12.md) → [2026-04-17](statecraft/synthesis/day/2026-04-17.md) → [2026-04-20](statecraft/synthesis/day/2026-04-20.md) → [2026-04-22](statecraft/synthesis/day/2026-04-22.md) → [2026-04-30](statecraft/synthesis/day/2026-04-30.md)
+**April hinge ladder:** [2026-04-08](day/2026-04-08.md) → [2026-04-12](day/2026-04-12.md) → [2026-04-17](day/2026-04-17.md) → [2026-04-20](day/2026-04-20.md) → [2026-04-22](day/2026-04-22.md) → [2026-04-30](day/2026-04-30.md)
 
 **Cross-plane statecraft notes:**
 
-- [Barnes × Davis–Johnson](statecraft/notes/2026-04-17-barnes-davis-johnson-white-house-orbat.md) (room vs ORBAT)
-- [Pape logistics chain](statecraft/synthesis/2026-04-pape-logistics-chain-marine-threshold-to-collapse.md) (economic clock)
-- [Parsi April→May](statecraft/synthesis/2026-04-parsi-april-may-architecture-bridge.md) (architecture squandered)
+- [Barnes × Davis–Johnson](../notes/2026-04-17-barnes-davis-johnson-white-house-orbat.md) (room vs ORBAT)
+- [Pape logistics chain](2026-04-pape-logistics-chain-marine-threshold-to-collapse.md) (economic clock)
+- [Parsi April→May](2026-04-parsi-april-may-architecture-bridge.md) (architecture squandered)
 
 ## Purpose
 
@@ -33,7 +33,7 @@ Subordinate proofs:
 
 ## Proof chain (week by week)
 
-### Week 1 — Architecture announced, scope falsified ([08](statecraft/synthesis/day/2026-04-08.md))
+### Week 1 — Architecture announced, scope falsified ([08](day/2026-04-08.md))
 
 - Ten-point anchor accepted; toll/Hormuz authority conceded in practice (Parsi/Crooke)
 - Same day: Lebanon excluded in White House grammar (Leavitt) vs required in Iranian framework (Ritter)
@@ -42,7 +42,7 @@ Subordinate proofs:
 
 **America proof:** accepts Iranian design anchor **cannot** bind Israel or define ceasefire scope.
 
-### Week 2 — Silver bullet temptation ([12](statecraft/synthesis/day/2026-04-12.md))
+### Week 2 — Silver bullet temptation ([12](day/2026-04-12.md))
 
 - Parsi: blockade default = negotiation bluster inside nine-day window
 - Marandi: Islamabad **collapsed** — dictation not diplomacy
@@ -50,24 +50,24 @@ Subordinate proofs:
 
 **America proof:** escalatory shortcut replaces bargain discipline before table matures.
 
-### Week 3 — Dual-plane fracture ([17](statecraft/synthesis/day/2026-04-17.md) + statecraft note)
+### Week 3 — Dual-plane fracture ([17](day/2026-04-17.md) + statecraft note)
 
 - Open strait + blockade remains (Davis–Johnson WTF)
 - Bessent doubles sanctions vs ten-point lift demand (Johnson–Wilkerson)
 - Barnes: Vance 10-point rug-pull; Navy false-success feed; VP no authority
 
-**America proof:** **C-plane room chaos + B-plane order incoherence** same day — see [Barnes × Davis–Johnson](statecraft/notes/2026-04-17-barnes-davis-johnson-white-house-orbat.md).
+**America proof:** **C-plane room chaos + B-plane order incoherence** same day — see [Barnes × Davis–Johnson](../notes/2026-04-17-barnes-davis-johnson-white-house-orbat.md).
 
-### Week 3–4 — Consequence without plan ([20](statecraft/synthesis/day/2026-04-20.md) + [22](statecraft/synthesis/day/2026-04-22.md))
+### Week 3–4 — Consequence without plan ([20](day/2026-04-20.md) + [22](day/2026-04-22.md))
 
 - Pape: ahead of schedule; no five-year plan; Islamabad low stickiness (20)
 - Sachs: blockade after open strait; vessel attack then "negotiate" (20)
 - Pape: access not price; tanker seizures = ladder rung one (22)
 - Johnson: ball of confusion; 3–5 day ceasefire extensions (22)
 
-**America proof:** economic clock and negotiation lane **decay while** message grammar oscillates — [Pape chain](statecraft/synthesis/2026-04-pape-logistics-chain-marine-threshold-to-collapse.md).
+**America proof:** economic clock and negotiation lane **decay while** message grammar oscillates — [Pape chain](2026-04-pape-logistics-chain-marine-threshold-to-collapse.md).
 
-### Week 4 / month-end — Defeat named; dual theater binds ([30](statecraft/synthesis/day/2026-04-30.md))
+### Week 4 / month-end — Defeat named; dual theater binds ([30](day/2026-04-30.md))
 
 - Mearsheimer: **lost war, screwed**; blockade won't surrender Iran
 - Johnson: fake negotiations after stockpile depletion
@@ -102,7 +102,7 @@ March = **coercive opening without closure grammar**. April = **command cannot o
 
 ## Parsi latch (architecture squandered)
 
-April 8/12 design window ([statecraft note](statecraft/synthesis/2026-04-parsi-april-may-architecture-bridge.md)) → May 1 blockade executes quiet-victory away.
+April 8/12 design window ([statecraft note](2026-04-parsi-april-may-architecture-bridge.md)) → May 1 blockade executes quiet-victory away.
 
 America-lane read: command unreliability includes **choosing FDD silver bullet over Parsi-readable exit**.
 
@@ -112,7 +112,7 @@ America-lane read: command unreliability includes **choosing FDD silver bullet o
 
 ## Best Next Uses
 
-- **May genesis pointer:** [2026-05.md](statecraft/synthesis/month/2026-05.md) Source Base — April bridge cites this packet as upstream America-lane proof.
+- **May genesis pointer:** [2026-05.md](month/2026-05.md) Source Base — April bridge cites this packet as upstream America-lane proof.
 - **May month statecraft note:** Use this as upstream proof packet; May dailies add recognition-threshold and settlement-floor maturation.
 - **June back-read:** Sponsor/client veto and captured command extend April Netanyahu–Trump seam (Wilkerson 30).
 - **Attribution:** Mix of Substack (Pape/Parsi), interviews, Barnes excerpt — label tiers on promotion.

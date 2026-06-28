@@ -87,7 +87,7 @@ Same-day **newsletter bench** — three registers on **Epic Fury day 4**:
 
 - [Mercouris × Wilkerson — mosaic + stockpiles](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — Pape **Mosaic** ↔ Mercouris **FT mosaic** row
 - [Davis × Macgregor — decapitation useless](./2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md) — same **CEO/Rommel** vs **Pape** history
-- [Wire matrix — F-15 + Hormuz](statecraft/notes/wire/2026-03-03-news-verify-matrix.md)
+- [Wire matrix — F-15 + Hormuz](wire/2026-03-03-news-verify-matrix.md)
 
 ## Cross-day return
 

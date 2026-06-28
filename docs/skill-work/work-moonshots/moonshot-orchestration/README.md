@@ -12,7 +12,7 @@ Moonshot Orchestration is a **WORK-layer module** for converting high-variance *
 
 **Relationship to [runtime complements](../../../runtime/runtime-complements.md):** **Runtime** exports and complements are **non-canonical** context paths; this moduleâ€™s outputs stay **file-based WORK** until any durable claim is **staged** through the normal process.
 
-**Relationship to the gate ([recursion-gate](../../../../recursion-gate.md) Â· [AGENTS.md](../../../../AGENTS.md)):** Any **candidate** that would touch SELF, removed operator-books symlink, SKILLS, or EVIDENCE is **inbox + approval** only â€” never auto-merged from this module.
+**Relationship to the gate ([recursion-gate](../../../../archive/grace-mar-instance/recursion-gate.md) Â· [AGENTS.md](../../../../AGENTS.md)):** Any **candidate** that would touch SELF, removed operator-books symlink, SKILLS, or EVIDENCE is **inbox + approval** only â€” never auto-merged from this module.
 
 ## Artifacts in this subfolder
 

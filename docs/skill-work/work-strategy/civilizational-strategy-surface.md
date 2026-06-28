@@ -339,7 +339,7 @@ These fields exist to reduce hand-wavy analogy drift.
 ## 11. Relation to other work-strategy artifacts
 
 ### 11.1 Strategy Notebook
-The [Strategy Notebook](strategy-notebook/README.md) is the primary daily judgment surface. This surface supplies reusable civilizational mechanisms that strategy writing may cite.
+The [Strategy Notebook](../../../README.md) is the primary daily judgment surface. This surface supplies reusable civilizational mechanisms that strategy writing may cite.
 
 ### 11.2 History Notebook
 The History Notebook is the compressed local historical layer. It is the preferred place for richer operator-authored historical reasoning. This surface should point toward History Notebook chapters when repeated use justifies them.

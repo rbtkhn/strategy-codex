@@ -4,7 +4,7 @@
 
 **Authority:** A “recommendation” here is **operator strategy**, not a companion merge. **SELF / EVIDENCE / prompt** change only through **RECURSION-GATE** and companion approval — do not treat this template as a gate bypass.
 
-**See also:** [weak-signals.md](weak-signals.md) (lifecycle and status values), [STRATEGY.md](STRATEGY.md) §II-A (active watches), [promotion-ladder.md](promotion-ladder.md) (stages), [SYNTHESIS-OPERATING-MODEL.md](strategy-notebook/SYNTHESIS-OPERATING-MODEL.md) (L4 promotion).
+**See also:** [weak-signals.md](weak-signals.md) (lifecycle and status values), [STRATEGY.md](STRATEGY.md) §II-A (active watches), [promotion-ladder.md](promotion-ladder.md) (stages), [SYNTHESIS-OPERATING-MODEL.md](../../../codex/SYNTHESIS-OPERATING-MODEL.md) (L4 promotion).
 
 ---
 

@@ -21,15 +21,15 @@ Use this file before opening host-local arcs when the question is about Freeman'
 
 | Date | Host | Title | Raw-input | Arc job |
 |---|---|---|---|---|
-| 2026-03-01 | Glenn Diesen | *The War Against Iran Could Destroy the U.S. Republic* | [raw-input](../../years/2026/provenance/2026-03-01/source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md) | Republic-damage opening frame |
-| 2026-03-03 | Judging Freedom | *What Makes a War "Just"?* | [raw-input](../../years/2026/provenance/2026-03-03/source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md) | Just-war legitimacy collapse |
-| 2026-03-06 | Dialogue Works | *The War With Iran Is Breaking Everything the U.S. Planned* | [raw-input](../../years/2026/provenance/2026-03-06/source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md) | War plan breakage |
-| 2026-03-06 | Daniel Davis / Deep Dive | *Diplomacy is DEAD w/IRAN* | [raw-input](../../years/2026/provenance/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md) | Diplomacy-dead companion read |
-| 2026-03-14 | Glenn Diesen | *The Emerging Iran-Russia-China Axis & Israel's Possible Demise* | [raw-input](../../years/2026/provenance/2026-03-14/source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md) | Axis visibility |
-| 2026-03-17 | Judging Freedom | *Will China Dump Trump?* | [raw-input](../../years/2026/provenance/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md) | China hedge / U.S. credibility test |
-| 2026-03-20 | Dialogue Works | *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy* | [raw-input](../../years/2026/provenance/2026-03-20/source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md) | Ground-war escalation risk |
-| 2026-03-23 | Glenn Diesen | *Trump Back Down - Armageddon Postponed?* | [raw-input](../../years/2026/provenance/2026-03-23/source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md) | Temporary pause / off-ramp test |
-| 2026-03-27 | Dialogue Works | *If Troops Enter Iran... Israel's Entire Strategy FALLS APART* | [raw-input](../../years/2026/provenance/2026-03-27/source-dialogue-works-chas-freeman-if-troops-enter-iran-israel-s-entire-strategy-falls-a-2026-03-27.md) | Troop-entry collapse scenario |
+| 2026-03-01 | Glenn Diesen | *The War Against Iran Could Destroy the U.S. Republic* | [raw-input](../../source-archive/statecraft/2026-03-01/source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md) | Republic-damage opening frame |
+| 2026-03-03 | Judging Freedom | *What Makes a War "Just"?* | [raw-input](../../source-archive/statecraft/2026-03-03/source-judging-freedom-freeman-what-makes-a-war-just-2026-03-03.md) | Just-war legitimacy collapse |
+| 2026-03-06 | Dialogue Works | *The War With Iran Is Breaking Everything the U.S. Planned* | [raw-input](../../source-archive/statecraft/2026-03-06/source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md) | War plan breakage |
+| 2026-03-06 | Daniel Davis / Deep Dive | *Diplomacy is DEAD w/IRAN* | [raw-input](../../source-archive/statecraft/2026-03-06/source-daniel-davis-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md) | Diplomacy-dead companion read |
+| 2026-03-14 | Glenn Diesen | *The Emerging Iran-Russia-China Axis & Israel's Possible Demise* | [raw-input](../../source-archive/statecraft/2026-03-14/source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md) | Axis visibility |
+| 2026-03-17 | Judging Freedom | *Will China Dump Trump?* | [raw-input](../../source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md) | China hedge / U.S. credibility test |
+| 2026-03-20 | Dialogue Works | *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy* | [raw-input](../../source-archive/statecraft/2026-03-20/source-dialogue-works-amb-chas-freeman-ground-troops-in-iran-this-could-collapse-netanyahu-s-s-2026-03-20.md) | Ground-war escalation risk |
+| 2026-03-23 | Glenn Diesen | *Trump Back Down - Armageddon Postponed?* | [raw-input](../../source-archive/statecraft/2026-03-23/source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md) | Temporary pause / off-ramp test |
+| 2026-03-27 | Dialogue Works | *If Troops Enter Iran... Israel's Entire Strategy FALLS APART* | [raw-input](../../source-archive/statecraft/2026-03-27/source-dialogue-works-chas-freeman-if-troops-enter-iran-israel-s-entire-strategy-falls-a-2026-03-27.md) | Troop-entry collapse scenario |
 
 ## Found Or Operator-Pasted, Not Yet Canonical
 

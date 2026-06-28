@@ -12,4 +12,4 @@ This path is a **stable compatibility redirect** only. Do **not** add new regist
 
 **Stable link chain:** [CIV-MIND-MEARSHEIMER.md](minds/CIV-MIND-MEARSHEIMER.md) → this file → voice profile.
 
-**Companion files:** [strategy-expert-mearsheimer.md](strategy-expert-mearsheimer.md) · [strategy-expert-mearsheimer-thread.md](strategy-expert-mearsheimer-thread.md) · [strategy-expert-mearsheimer-transcript.md](strategy-expert-mearsheimer-transcript.md)
+**Companion files:** [strategy-expert-mearsheimer.md](../statecraft/voices/mearsheimer/mearsheimer-profile.md) · [strategy-expert-mearsheimer-thread.md](../statecraft/voices/mearsheimer/mearsheimer-thread.md) · [strategy-expert-mearsheimer-transcript.md](../statecraft/voices/mearsheimer/mearsheimer-transcript.md)

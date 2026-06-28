@@ -7,7 +7,7 @@ scope_class: repo-governed
 ---
 # History notebook — Bookshelf writer lookup
 
-**WORK only;** not Record. **SSOT:** [bookshelf-catalog.yaml](docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).
+**WORK only;** not Record. **SSOT:** [bookshelf-catalog.yaml](../../../docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](../../../docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).
 
 ## When to use
 
@@ -27,12 +27,12 @@ scope_class: repo-governed
 
 ## Artifacts (read)
 
-- [SHELF-ANCHORS-BY-CHAPTER.md](docs/skill-work/work-strategy/history-notebook/research/SHELF-ANCHORS-BY-CHAPTER.md) — `hn-*` → Shelf list (generated).
-- [BOOKSHELF.md](docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md) — collection rules.
+- [SHELF-ANCHORS-BY-CHAPTER.md](../../../docs/skill-work/work-strategy/history-notebook/research/SHELF-ANCHORS-BY-CHAPTER.md) — `hn-*` → Shelf list (generated).
+- [BOOKSHELF.md](../../../docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md) — collection rules.
 
 ## Rules
 
-- `candidate_hn_chapters` is **planning** only; [book-architecture.yaml](docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) and chapter prose remain SSOT.
+- `candidate_hn_chapters` is **planning** only; [book-architecture.yaml](../../../docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) and chapter prose remain SSOT.
 - Do not merge catalog facts into the **Record** without the recursion-gate pipeline.
 
 ## Codex `days.md` — History resonance (optional)

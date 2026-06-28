@@ -2,13 +2,13 @@ WORK only; not Record.
 
 # Barnes White House Room × Davis–Johnson ORBAT — 2026-04-17
 
-**Parent daily:** [2026-04-17](statecraft/synthesis/day/2026-04-17.md) · **Monthly:** [2026-04.md](statecraft/synthesis/month/2026-04.md)
+**Parent daily:** [2026-04-17](../synthesis/day/2026-04-17.md) · **Monthly:** [2026-04.md](../synthesis/month/2026-04.md)
 
 **Sources:**
 
-- [Barnes × Johnson / Countercurrent verbatim](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md>) — operator-transcript excerpt
-- [Davis × Johnson / conflicting messages](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-daniel-davis-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md>)
-- [Johnson × Wilkerson / Hormuz open](</C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md>)
+- [Barnes × Johnson / Countercurrent verbatim](<../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md>) — operator-transcript excerpt
+- [Davis × Johnson / conflicting messages](<../../source-archive/statecraft/2026-04-17/source-daniel-davis-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md>)
+- [Johnson × Wilkerson / Hormuz open](<../../source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md>)
 
 ## Purpose
 
@@ -88,5 +88,5 @@ April 17 is the proof day both are true: Vance ceasefire lane vs Trump disavowal
 ## Best Next Uses
 
 - **May back-read:** May command-unreliability statecraft notes should cite April 17 as **dual-plane** proof, not Barnes-only domestic story.
-- **Cross-read:** [2026-04-20](statecraft/synthesis/day/2026-04-20.md) Sachs recap + Islamabad derail — consequence leg after April 17 process fracture.
+- **Cross-read:** [2026-04-20](../synthesis/day/2026-04-20.md) Sachs recap + Islamabad derail — consequence leg after April 17 process fracture.
 - **Attribution discipline:** Barnes = operator excerpt + room sources; Davis–Johnson = interview + Johnson military contacts — label planes in promotion tier.

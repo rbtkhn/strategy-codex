@@ -1,6 +1,6 @@
 ﻿# Job opportunity review â€” DRAFT (operator)
 
-**Status:** Draft â€” not submitted. Do **not** treat as Voice or Record truth. When ready, paste a tightened block into [recursion-gate.md](../../../recursion-gate.md) **Candidates** only if the companion uses the gate for career decisions; otherwise keep this file in [reflection-proposals](../../../archive/queues/reflection-proposals/) or [recursion-gate-staging](../../../archive/grace-mar-instance/recursion-gate-staging/).
+**Status:** Draft â€” not submitted. Do **not** treat as Voice or Record truth. When ready, paste a tightened block into [recursion-gate.md](../../../archive/grace-mar-instance/recursion-gate.md) **Candidates** only if the companion uses the gate for career decisions; otherwise keep this file in [reflection-proposals](../../../archive/queues/reflection-proposals/) or [recursion-gate-staging](../../../archive/grace-mar-instance/recursion-gate-staging/).
 
 ---
 

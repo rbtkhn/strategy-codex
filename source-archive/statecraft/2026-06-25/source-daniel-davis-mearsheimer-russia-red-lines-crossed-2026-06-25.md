@@ -34,6 +34,18 @@ davis_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (mearsheimer, davis, channel:daniel-davis)); 4 substitutions; Merritt→Merz manual 2026-06-26; not human-verified verbatim; verify before quotation. Prior provenance: Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved. · source-section pass 2026-06-26 (16 sections). · Show Open merged into Rubio/Vance open. · East Asia split at South China Sea / multipolar→Taiwan seam. · Putin merged into Peskov; split at Gary/media pivot (785+603w; max 827w)."
 transcript_curation: curated_sectioned
+verify_receipt: 2026-06-28
+verify_matrix_ref: statecraft/notes/wire/2026-06-25-news-verify-matrix.md
+verify:
+  - claim: Rutte Fox ~500 US aircraft / Epic Fury Europe sorties / Bucharest tanker cuts
+    verdict: contested
+    note: J25-1 — Rutte **said** it; Italy MoD misleading; do not adopt as NATO kinetic fact
+  - claim: Karaganov conventional-Europe-then-nuclear ladder; Peskov nuclear ace; Article 5 blind spot
+    verdict: partial
+    note: J25-11 tier-4 — interpretation fence; parallel clock not Hormuz wire spine
+  - claim: European drone scale-up; von der Leyen/Merz deep-strike escalation bet
+    verdict: partial
+    note: J25-12 tier-4 mesh — pairs Crooke E3/UK weapons essay · Helmer Voronezh seam
 ---
 # John Mearsheimer: Russia's Red Lines Have Been Crossed
 

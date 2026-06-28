@@ -34,10 +34,10 @@ His cross-host role is narrower and more reliable:
 
 This makes him a clean complement to:
 
-- [Barnes](../barnes/README.md) for domestic liability and room-failure
-- [Marandi](../marandi/README.md) for Iranian legitimacy and red-line framing
-- [Johnson](../johnson/README.md) for process absurdity and elite incoherence
-- [Pape](../pape/README.md) for coercion theory and strategy-level prediction
+- [Barnes](../../README.md) for domestic liability and room-failure
+- [Marandi](../../README.md) for Iranian legitimacy and red-line framing
+- [Johnson](../../README.md) for process absurdity and elite incoherence
+- [Pape](../../README.md) for coercion theory and strategy-level prediction
 
 ## Host Branches
 
@@ -54,15 +54,15 @@ The real Postol object is cross-host, but not flat.
 
 The materialized archive run already shows a real spring 2026 pressure cluster:
 
-- [2026-03-23 / Dialogue Works x Postol](../../../source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md)
-- [2026-04-03 / Dialogue Works x Postol](../../../source-archive/statecraft/2026-04-03/source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md)
-- [2026-05-08 / Dialogue Works x Postol](../../../source-archive/statecraft/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
-- [2026-05-15 / Davis x Postol](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md)
+- [2026-03-23 / Dialogue Works x Postol](../../source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md)
+- [2026-04-03 / Dialogue Works x Postol](../../source-archive/statecraft/2026-04-03/source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md)
+- [2026-05-08 / Dialogue Works x Postol](../../source-archive/statecraft/2026-05-08/source-dialogue-works-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- [2026-05-15 / Davis x Postol](../../source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md)
 
 Those files are enough to confirm that Postol is no longer just residue or one-host reinforcement. The speaker has a real statecraft job and a real multi-host retrieval pattern.
 
 ## Open First
 
-Open [Davis host shelf](../../channels/daniel-davis/README.md) first when the question is whether a strike plan, weapon claim, or destruction narrative is physically plausible.
+Open [Davis host shelf](../../README.md) first when the question is whether a strike plan, weapon claim, or destruction narrative is physically plausible.
 
 Open [postol-routing.md](postol-routing.md) first when the question is which host transformation best matches the task.

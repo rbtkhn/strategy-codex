@@ -22,7 +22,7 @@ Geography is real here, but it is not self-explaining. Rivers, coasts, and front
 
 ## Return Path
 
-Return through [CIV-STATE China](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-china/README.md), [China sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-china/sovereign-continuity.md), [China geo lane note](/C:/dev/strategy-codex/statecraft/china/civilization/geo.md), and [China state memory](/C:/dev/strategy-codex/statecraft/china/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
+Return through [CIV-STATE China](README.md), [China sovereign continuity](sovereign-continuity.md), [China geo lane note](../../../china/civilization/geo.md), and [China state memory](../../../china/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
 
 ## Core Thesis
 

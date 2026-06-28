@@ -6,9 +6,9 @@ The academy v1 shelf copies the readable constituent essays and key notes. It do
 
 ## Source Manuscripts
 
-- [BOOK.md](../../../../../docs/civilization-memory/book/BOOK.md) - compact single-document edition of the core essay arc.
-- [APPLIED-THEOLOGY.md](../../../../../docs/civilization-memory/book/APPLIED-THEOLOGY.md) - combined volume of all theology materials in the civ-mem satellite library.
-- [beauty-and-the-blade-manuscript.md](../../../../../docs/civilization-memory/book/beauty-and-the-blade-manuscript.md) - publisher-ready manuscript form for *Beauty and the Blade*.
+- [BOOK.md](../../../../docs/civilization-memory/book/BOOK.md) - compact single-document edition of the core essay arc.
+- [APPLIED-THEOLOGY.md](../../../../docs/civilization-memory/book/APPLIED-THEOLOGY.md) - combined volume of all theology materials in the civ-mem satellite library.
+- [beauty-and-the-blade-manuscript.md](../../../../docs/civilization-memory/book/beauty-and-the-blade-manuscript.md) - publisher-ready manuscript form for *Beauty and the Blade*.
 
 ## Later Work
 

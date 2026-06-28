@@ -25,14 +25,14 @@ Guest lane holds the structural theses. Host lane [diesen file](../diesen/diesen
 
 - Match Trump post dates to primary capture if a chapter leans on “Monday / April 6” sequencing.
 - Weigh Mearsheimian second-order claims (NATO 2029, 13 bases) in verify tier in `days.md` before they carry chapter weight.
-- Weave the same week with [strategy-notebook-expert-cross-weave](../../../../../../.cursor/skills/strategy-notebook-expert-cross-weave/SKILL.md) when colliding with Freeman or other Hormuz lines.
+- Weave the same week with [strategy-notebook-expert-cross-weave](../../../skills/strategy-notebook-expert-cross-weave/SKILL.md) when colliding with Freeman or other Hormuz lines.
 
 ---
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../years/2026/provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-10)
+- **Full verbatim (capture):** [provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../source-archive/statecraft/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-10)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) · **verify:** `pub_date:2026-04-10` + `watch?v=H2K3qDshr70`
 - **Canonical primary:** `https://www.youtube.com/watch?v=H2K3qDshr70`
 - **Legacy (stub, duplicate transcript removed):** [mearsheimer-page-2026-04-10-world-changed-forever.md](mearsheimer-page-2026-04-10-world-changed-forever.md)

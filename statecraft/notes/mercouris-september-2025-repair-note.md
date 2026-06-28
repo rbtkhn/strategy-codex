@@ -29,15 +29,15 @@ Per [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.m
 
 The currently landed `native solo Mercouris` September captures are:
 
-- `2025-09-10` - [israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/source-alexander-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md)
-- `2025-09-15` - [moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-15/source-alexander-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md)
-- `2025-09-17` - [zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/source-alexander-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md)
-- `2025-09-18` - [zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/source-alexander-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md)
-- `2025-09-19` - [zelensky-rushes-to-pokrovsk-as-defences-crumble-russian-strikes-end-kievs-mic-dream-saudi-pakistan](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-19/source-alexander-mercouris-zelensky-rushes-to-pokrovsk-as-defences-crumble-russian-strikes-end-kievs-mic-dream-saudi-pakistan-2025-09-19.md)
-- `2025-09-20` - [russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-20/source-alexander-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md)
-- `2025-09-21` - [zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-21/source-alexander-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md)
-- `2025-09-22` - [eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-22/source-alexander-mercouris-eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age-2025-09-22.md)
-- `2025-09-23` - [west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-23/source-alexander-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md)
+- `2025-09-10` - [israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones](../../source-archive/statecraft/2025-09-10/source-alexander-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md)
+- `2025-09-15` - [moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains](../../source-archive/statecraft/2025-09-15/source-alexander-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md)
+- `2025-09-17` - [zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump](../../source-archive/statecraft/2025-09-17/source-alexander-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md)
+- `2025-09-18` - [zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains](../../source-archive/statecraft/2025-09-18/source-alexander-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md)
+- `2025-09-19` - [zelensky-rushes-to-pokrovsk-as-defences-crumble-russian-strikes-end-kievs-mic-dream-saudi-pakistan](../../source-archive/statecraft/2025-09-19/source-alexander-mercouris-zelensky-rushes-to-pokrovsk-as-defences-crumble-russian-strikes-end-kievs-mic-dream-saudi-pakistan-2025-09-19.md)
+- `2025-09-20` - [russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote](../../source-archive/statecraft/2025-09-20/source-alexander-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md)
+- `2025-09-21` - [zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin](../../source-archive/statecraft/2025-09-21/source-alexander-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md)
+- `2025-09-22` - [eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age](../../source-archive/statecraft/2025-09-22/source-alexander-mercouris-eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age-2025-09-22.md)
+- `2025-09-23` - [west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west](../../source-archive/statecraft/2025-09-23/source-alexander-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md)
 
 Recent repairs materially improved truth because several items overrode earlier inferred dates with transcript-internal date evidence:
 
@@ -49,12 +49,12 @@ Recent repairs materially improved truth because several items overrode earlier 
 
 The currently landed `Duran / Mercouris` September captures are:
 
-- `2025-09-09` - [ukraine-negotiation-cynicism](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-09/source-duran-mercouris-ukraine-negotiation-cynicism-2025-09-09.md)
-- `2025-09-10` - [us-decapitation-plan-for-venezuela](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md)
-- `2025-09-13` - [qatar-strike-trump-diplomacy-and-trickery](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-13/source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md)
-- `2025-09-22` - [eu-uk-want-unlimited-us-money-and-weapons-for-ukraine](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-22/source-duran-mercouris-eu-uk-want-unlimited-us-money-and-weapons-for-ukraine-2025-09-22.md)
-- `2025-09-26` - [trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-26/source-duran-mercouris-trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu-2025-09-26.md)
-- `2025-09-27` - [long-range-missiles-and-ukraines-last-defense-line](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md)
+- `2025-09-09` - [ukraine-negotiation-cynicism](../../source-archive/statecraft/2025-09-09/source-duran-mercouris-ukraine-negotiation-cynicism-2025-09-09.md)
+- `2025-09-10` - [us-decapitation-plan-for-venezuela](../../source-archive/statecraft/2025-09-10/source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md)
+- `2025-09-13` - [qatar-strike-trump-diplomacy-and-trickery](../../source-archive/statecraft/2025-09-13/source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md)
+- `2025-09-22` - [eu-uk-want-unlimited-us-money-and-weapons-for-ukraine](../../source-archive/statecraft/2025-09-22/source-duran-mercouris-eu-uk-want-unlimited-us-money-and-weapons-for-ukraine-2025-09-22.md)
+- `2025-09-26` - [trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu](../../source-archive/statecraft/2025-09-26/source-duran-mercouris-trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu-2025-09-26.md)
+- `2025-09-27` - [long-range-missiles-and-ukraines-last-defense-line](../../source-archive/statecraft/2025-09-27/source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md)
 
 ## Remaining Solo Gaps
 

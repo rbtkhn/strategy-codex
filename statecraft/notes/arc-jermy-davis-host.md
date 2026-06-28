@@ -19,9 +19,9 @@ This file should be read as the **closure-geometry and recovery-lag** Jermy bran
 Quick separation rule:
 
 - `Davis x Jermy` = blockade closure geometry, reopening operations, energy/food lag, and shipping-system consequence under feasibility pressure
-- [arc-jermy-diesen-host.md](/C:/dev/strategy-codex/arc-jermy-diesen-host.md) = maritime-order fallout and alliance-system breakup at strategic altitude
-- [arc-jermy-peacemonger-host.md](/C:/dev/strategy-codex/arc-jermy-peacemonger-host.md) = anti-hubris public indictment of failed strategy
-- [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine
+- [arc-jermy-diesen-host.md](../../arc-jermy-diesen-host.md) = maritime-order fallout and alliance-system breakup at strategic altitude
+- [arc-jermy-peacemonger-host.md](../../arc-jermy-peacemonger-host.md) = anti-hubris public indictment of failed strategy
+- [jermy-speaker-object.md](../voices/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine
 
 If the notebook needs to know how Hormuz closes, what reopening entails, and how maritime-system damage propagates under military feasibility pressure, route here. If it needs elite-hubris critique or Europe-order consequence, route to the neighboring branches instead.
 
@@ -99,9 +99,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [arc-jermy-diesen-host.md](/C:/dev/strategy-codex/arc-jermy-diesen-host.md), which is less about reopening mechanics and more about alliance fracture and global-system fallout
-- [arc-jermy-peacemonger-host.md](/C:/dev/strategy-codex/arc-jermy-peacemonger-host.md), which is less about closure geometry and more about public-facing strategy-failure critique
-- the legacy [jermy-thread.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-thread.md), which is continuity residue rather than the canonical Jermy strand system
+- [arc-jermy-diesen-host.md](../../arc-jermy-diesen-host.md), which is less about reopening mechanics and more about alliance fracture and global-system fallout
+- [arc-jermy-peacemonger-host.md](../../arc-jermy-peacemonger-host.md), which is less about closure geometry and more about public-facing strategy-failure critique
+- the legacy [jermy-thread.md](../voices/jermy/jermy-thread.md), which is continuity residue rather than the canonical Jermy strand system
 
 ## Boundaries
 

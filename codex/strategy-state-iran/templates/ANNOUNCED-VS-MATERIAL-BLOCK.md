@@ -12,7 +12,7 @@
 | **Material corroboration** | (AIS, shipping, wire, field-adjacent readouts; or *none / pending*.) |
 | **Contradiction status** | (aligned / tension / unverified / N/A) |
 | **Confidence** | (low / medium / high — operator) |
-| **Seam implication** | (What to **fold** into [main `chapters/…/days.md`](../../chapters/2026-04/days.md) vs what stays **institutional-only**.) |
+| **Seam implication** | (What to **fold** into [main `chapters/…/days.md`](../../chapters/2026/2026-04/days.md) vs what stays **institutional-only**.) |
 ```
 
 WORK only; not Record. Pair with [INSTITUTIONAL-SCORECARD](INSTITUTIONAL-SCORECARD.md) when useful.

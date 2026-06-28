@@ -115,7 +115,7 @@ This counters the failure mode of **wiki-style synthesis** that smooths contradi
 ### Rules (operational)
 
 1. **Preserve distinct voices (no flattening)**  
-   Each author keeps a cognitive fingerprint (e.g. legitimacy/narrative vs power/incentives). In the **Journal layer** of `thread.md` **month** segments: **compose** readable prose from that monthâ€™s **`strategy-page`** bodies (and blockquotes/ Chronicle lifts), with optional **lede**/**closer**; use **`transcript.md`** for **bulk** speech and pointers, not as the default **quote source** for month bookends. Avoid heavy paraphrase that rewrites the author. Attribution stays explicit (â€œX framesâ€¦â€, â€œY countersâ€¦â€). Do not merge planes/registers without tagging. See [speaker-thread-template.md](speakers/_templates/speaker-thread-template.md).
+   Each author keeps a cognitive fingerprint (e.g. legitimacy/narrative vs power/incentives). In the **Journal layer** of `thread.md` **month** segments: **compose** readable prose from that monthâ€™s **`strategy-page`** bodies (and blockquotes/ Chronicle lifts), with optional **lede**/**closer**; use **`transcript.md`** for **bulk** speech and pointers, not as the default **quote source** for month bookends. Avoid heavy paraphrase that rewrites the author. Attribution stays explicit (â€œX framesâ€¦â€, â€œY countersâ€¦â€). Do not merge planes/registers without tagging. See [speaker-thread-template.md](../statecraft/voices/_templates/speaker-thread-template.md).
 
 2. **Separate layers strictly (Journal vs Machine)**  
    **Journal** (above `<!-- strategy-author-thread:start -->`): operator narrative, tension notes, `strategy-page` blocks â€” **never overwritten** by scripts. **Machine** (between the fences): script-maintained extraction â€” refreshed on `thread` runs. Interpretive synthesis belongs in EOD / compiled-view **recipes**, not in overwriting the Journal.
@@ -134,7 +134,7 @@ Primary conducting moment: **EOD strategy session** ("strategy page", "notebook 
 
 ### Compiled views tie-in
 
-[Compiled views](../compiled-views/README.md) apply these rules in a **derived** layer: pull Journal + Machine across experts; preserve voices; surface convergences and tensions; ground **Emerging Operator Judgment** only in existing `strategy-page` prose; mark outputs **refresh-only** and link back to sources.
+[Compiled views](../README.md) apply these rules in a **derived** layer: pull Journal + Machine across experts; preserve voices; surface convergences and tensions; ground **Emerging Operator Judgment** only in existing `strategy-page` prose; mark outputs **refresh-only** and link back to sources.
 
 ### Why polyphony (vs wiki drift)
 
@@ -159,7 +159,7 @@ Layered wikis and undifferentiated â€œconsensusâ€ synthesis tend to **f
 - **`chapters/YYYY-MM/days.md`** â€” **Thesis A / B**, parallel bullets, **Open** carrying unresolved tension â€” dissonance preserved in the chronology layer.
 - **`meta.md` Â§ Polyphony / lens tension** â€” month-scale **tension line** (e.g. readings that disagree **by design**).
 - **Batch-analysis / cross-author work** â€” naming **convergence vs tension** across indexed threads â€” reading the **score** as many parts.
-- **Optional:** after `compile_strategy_view.py`, the **bundle** puts slices side by side; the narrative pass must still **attribute** and **not flatten** (see [compiled views README](../compiled-views/README.md)).
+- **Optional:** after `compile_strategy_view.py`, the **bundle** puts slices side by side; the narrative pass must still **attribute** and **not flatten** (see [compiled views README](../README.md)).
 
 **Conductor** (you set balance, tempo, promotion â€” not another part):
 

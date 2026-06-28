@@ -86,11 +86,11 @@ Only six files required direct archive normalization.
 
 These were upgraded to durable explicit multi-thread metadata:
 
-- [2025-02-15 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
-- [2025-03-08 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
-- [2025-05-02 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md)
-- [2025-05-29 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-29/source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md)
-- [2025-06-20 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md)
+- [2025-02-15 panel](../../source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
+- [2025-03-08 panel](../../source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
+- [2025-05-02 panel](../../source-archive/statecraft/2025-05-02/source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md)
+- [2025-05-29 panel](../../source-archive/statecraft/2025-05-29/source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md)
+- [2025-06-20 panel](../../source-archive/statecraft/2025-06-20/source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md)
 
 Each now carries:
 
@@ -100,7 +100,7 @@ Each now carries:
 
 One live item was upgraded because the extra guest already resolves cleanly to a canonical speaker lane:
 
-- [2025-06-17 Mercouris / Berletic live](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md)
+- [2025-06-17 Mercouris / Berletic live](../../source-archive/statecraft/2025-06-17/source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md)
 
 It now carries:
 
@@ -145,7 +145,7 @@ The repair was propagated through:
 - day `Threads:` summaries
 - month thread rollups
 - year thread rollups
-- [global thread index](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
+- [global thread index](../../source-archive/statecraft/thread-index.md)
 
 The strongest parser-driven lane gains after normalization now concentrate in:
 

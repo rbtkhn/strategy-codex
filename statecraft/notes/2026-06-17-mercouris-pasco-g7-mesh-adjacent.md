@@ -2,11 +2,11 @@ WORK only; not Record.
 
 # Mercouris — Pasco / G7 mesh × Iran MOU adjacent — 2026-06-17
 
-**Archive batch:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) (8 captures) · **Parent:** [2026-06-17 daily](statecraft/synthesis/day/2026-06-17.md)
+**Archive batch:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) (8 captures) · **Parent:** [2026-06-17 daily](../synthesis/day/2026-06-17.md)
 
 **Source (partial body):** [Mercouris solo — Russia–China energy / UK navy / EU sanctions (title)](../../source-archive/statecraft/2026-06-17/source-alexander-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md) (`I9CnSQlcmU4`)
 
-**Cross-ref:** [2026-06-16 daily](statecraft/synthesis/day/2026-06-16.md) (Moscow MOU carry) · [2026-06-17 wire matrix](statecraft/notes/wire/2026-06-17-news-verify-matrix.md) (Mercouris = mesh only)
+**Cross-ref:** [2026-06-16 daily](../synthesis/day/2026-06-16.md) (Moscow MOU carry) · [2026-06-17 wire matrix](wire/2026-06-17-news-verify-matrix.md) (Mercouris = mesh only)
 
 ## Capture status
 
@@ -38,7 +38,7 @@ Mercouris treats the **60-day pause** as structurally parallel to the batch’s 
 | **Moscow source** | Iran **“dizzy with success”** — risk of underestimating isolation if economic crisis alienates China/Russia | Escobar **civilization-state** mesh; wire matrix **`verify:russia-lane-absent`** on MOU sign |
 | **Mercouris verdict** | Iran **cashed winnings at peak**; continued war risked unacceptable isolation | Parsi **forward-defense hedge** — different logic, same **implementation distrust** |
 
-**Lebanon (in capture):** fuse still live; resumed conflict could **jeopardize ceasefire**; if global community reads **Israeli intrigue**, sympathy **shifts further toward Iran** — aligns [Lebanon child](statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) without duplicating Art. 1 table.
+**Lebanon (in capture):** fuse still live; resumed conflict could **jeopardize ceasefire**; if global community reads **Israeli intrigue**, sympathy **shifts further toward Iran** — aligns [Lebanon child](2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) without duplicating Art. 1 table.
 
 **Not in capture:** Vance Friday ceremony, digital sign timing, Pt. 10 waivers — parent daily + wire matrix own those hooks.
 

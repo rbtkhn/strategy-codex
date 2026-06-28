@@ -11,7 +11,7 @@
 | **expert_id** | `johnson` |
 | **Role** | Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (Haiphong-Ritter roundtables) |
 | **Default grep tags** | `Johnson` or `LarryJohnson` in cold |
-| **Typical pairings** | x `ritter`, x `davis`; see [transcript digest](../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) |
+| **Typical pairings** | x `ritter`, x `davis`; see [transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) |
 | **Notebook-use tags** | `validate` |
 
 <a id="voice-fingerprint-compact"></a>
@@ -53,7 +53,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|------|------------------|------------------|-----------------------------------|
-| `johnson` | Larry Johnson | Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (Haiphong-Ritter roundtables) | `Johnson` or `LarryJohnson` in cold | x `ritter`, x `davis`; see [transcript digest](../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) |
+| `johnson` | Larry Johnson | Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (Haiphong-Ritter roundtables) | `Johnson` or `LarryJohnson` in cold | x `ritter`, x `davis`; see [transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) |
 
 ### Quantitative metrics (illustrative - from index)
 
@@ -83,4 +83,4 @@ Where their commentary is published and accessible (no Wikipedia). Re-verify han
 
 ---
 
-**Companion files:** [`strategy-expert-johnson-transcript.md`](strategy-expert-johnson-transcript.md) (7-day rolling verbatim) and [`strategy-expert-johnson-thread.md`](strategy-expert-johnson-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-johnson-transcript.md`](johnson-transcript.md) (7-day rolling verbatim) and [`strategy-expert-johnson-thread.md`](johnson-thread.md) (distilled analytical thread).

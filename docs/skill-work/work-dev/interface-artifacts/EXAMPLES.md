@@ -37,7 +37,7 @@ Help the operator see how major strategy-notebook surfaces relate before decidin
 **Why it is not Record truth**  
 It helps the operator understand notebook structure and paths. It does not compose strategy judgment, validate geopolitical claims, or update the Record.
 
-See [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md).
+See [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../../../README.md).
 
 ## B. Gate-review cockpit mockup
 

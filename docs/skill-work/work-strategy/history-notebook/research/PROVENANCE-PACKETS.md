@@ -16,7 +16,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-01-c01
 - `chapter_id`: `hn-i-v1-01`
-- `claim_text`: **Chapter ID:** `hn-i-v1-01` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-01` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0001`, `Shelf-0002`, `Shelf-0007`, `Shelf-0008`, `Shelf-0009`
 - `evidence_note`: Anchored to 9 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -26,7 +26,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-02-c01
 - `chapter_id`: `hn-i-v1-02`
-- `claim_text`: **Chapter ID:** `hn-i-v1-02` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-02` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0017`, `Shelf-0020`, `Shelf-0027`, `Shelf-0043`, `Shelf-0044`
 - `evidence_note`: Anchored to 6 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -36,7 +36,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-03-c01
 - `chapter_id`: `hn-i-v1-03`
-- `claim_text`: **Chapter ID:** `hn-i-v1-03` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-03` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0010`, `Shelf-0012`, `Shelf-0028`, `Shelf-0031`, `Shelf-0032`
 - `evidence_note`: Anchored to 8 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -46,7 +46,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-04-c01
 - `chapter_id`: `hn-i-v1-04`
-- `claim_text`: **Chapter ID:** `hn-i-v1-04` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-04` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0008`, `Shelf-0017`, `Shelf-0020`, `Shelf-0027`, `Shelf-0030`
 - `evidence_note`: Anchored to 16 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -56,7 +56,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-05-c01
 - `chapter_id`: `hn-i-v1-05`
-- `claim_text`: **Chapter ID:** `hn-i-v1-05` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-05` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0006`, `Shelf-0011`, `Shelf-0012`, `Shelf-0017`, `Shelf-0018`
 - `evidence_note`: Anchored to 14 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -66,7 +66,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-06-c01
 - `chapter_id`: `hn-i-v1-06`
-- `claim_text`: **Chapter ID:** `hn-i-v1-06` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-06` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0003`, `Shelf-0007`, `Shelf-0010`, `Shelf-0018`, `Shelf-0047`
 - `evidence_note`: Anchored to 5 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -76,7 +76,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-07-c01
 - `chapter_id`: `hn-i-v1-07`
-- `claim_text`: **Chapter ID:** `hn-i-v1-07` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-07` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0001`, `Shelf-0002`, `Shelf-0007`, `Shelf-0009`, `Shelf-0013`
 - `evidence_note`: Anchored to 6 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -86,7 +86,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-08-c01
 - `chapter_id`: `hn-i-v1-08`
-- `claim_text`: **Chapter ID:** `hn-i-v1-08` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-08` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0006`, `Shelf-0027`, `Shelf-0028`, `Shelf-0030`, `Shelf-0036`
 - `evidence_note`: Anchored to 8 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -96,7 +96,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-09-c01
 - `chapter_id`: `hn-i-v1-09`
-- `claim_text`: **Chapter ID:** `hn-i-v1-09` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-09` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0004`, `Shelf-0017`, `Shelf-0048`, `Shelf-0049`
 - `evidence_note`: Anchored to 4 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -106,7 +106,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-10-c01
 - `chapter_id`: `hn-i-v1-10`
-- `claim_text`: **Chapter ID:** `hn-i-v1-10` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-10` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0003`, `Shelf-0008`, `Shelf-0010`, `Shelf-0030`, `Shelf-0036`
 - `evidence_note`: Anchored to 17 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -116,7 +116,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-11-c01
 - `chapter_id`: `hn-i-v1-11`
-- `claim_text`: **Chapter ID:** `hn-i-v1-11` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-11` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0001`, `Shelf-0002`, `Shelf-0003`, `Shelf-0006`, `Shelf-0009`
 - `evidence_note`: Anchored to 12 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -126,7 +126,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-12-c01
 - `chapter_id`: `hn-i-v1-12`
-- `claim_text`: **Chapter ID:** `hn-i-v1-12` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-12` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0015`, `Shelf-0016`, `Shelf-0033`, `Shelf-0038`, `Shelf-0055`
 - `evidence_note`: Anchored to 6 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -136,7 +136,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-13-c01
 - `chapter_id`: `hn-i-v1-13`
-- `claim_text`: **Chapter ID:** `hn-i-v1-13` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-13` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0005`, `Shelf-0007`, `Shelf-0015`, `Shelf-0016`, `Shelf-0019`
 - `evidence_note`: Anchored to 9 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -146,7 +146,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-14-c01
 - `chapter_id`: `hn-i-v1-14`
-- `claim_text`: **Chapter ID:** `hn-i-v1-14` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-14` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0003`, `Shelf-0010`, `Shelf-0014`, `Shelf-0019`, `Shelf-0020`
 - `evidence_note`: Anchored to 15 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -156,7 +156,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-15-c01
 - `chapter_id`: `hn-i-v1-15`
-- `claim_text`: **Chapter ID:** `hn-i-v1-15` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-15` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0015`, `Shelf-0038`, `Shelf-0039`, `Shelf-0041`, `Shelf-0052`
 - `evidence_note`: Anchored to 5 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -166,7 +166,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-16-c01
 - `chapter_id`: `hn-i-v1-16`
-- `claim_text`: **Chapter ID:** `hn-i-v1-16` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-16` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0008`, `Shelf-0013`, `Shelf-0014`, `Shelf-0029`, `Shelf-0036`
 - `evidence_note`: Anchored to 8 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -176,7 +176,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-17-c01
 - `chapter_id`: `hn-i-v1-17`
-- `claim_text`: **Chapter ID:** `hn-i-v1-17` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-17` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0004`, `Shelf-0017`, `Shelf-0020`, `Shelf-0039`
 - `evidence_note`: Anchored to 4 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -186,7 +186,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-18-c01
 - `chapter_id`: `hn-i-v1-18`
-- `claim_text`: **Chapter ID:** `hn-i-v1-18` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-18` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0005`, `Shelf-0013`, `Shelf-0016`, `Shelf-0034`, `Shelf-0035`
 - `evidence_note`: Anchored to 9 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -196,7 +196,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-19-c01
 - `chapter_id`: `hn-i-v1-19`
-- `claim_text`: **Chapter ID:** `hn-i-v1-19` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-19` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0001`, `Shelf-0002`, `Shelf-0008`, `Shelf-0009`, `Shelf-0034`
 - `evidence_note`: Anchored to 7 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`
@@ -206,7 +206,7 @@ Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_
 
 ### hn-i-v1-20-c01
 - `chapter_id`: `hn-i-v1-20`
-- `claim_text`: **Chapter ID:** `hn-i-v1-20` — draft per [STYLE-GUIDE.md](../../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](../../research/VOL-I-PROBLEM-CHAPTERS.md).
+- `claim_text`: **Chapter ID:** `hn-i-v1-20` — draft per [STYLE-GUIDE.md](../STYLE-GUIDE.md) and [research/VOL-I-PROBLEM-CHAPTERS.md](./VOL-I-PROBLEM-CHAPTERS.md).
 - `supporting_shelf`: `Shelf-0004`, `Shelf-0018`, `Shelf-0020`, `Shelf-0037`, `Shelf-0045`
 - `evidence_note`: Anchored to 7 shelf source(s); verify one direct quote before publication.
 - `confidence`: `medium`

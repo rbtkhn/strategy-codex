@@ -1,7 +1,7 @@
 ﻿# Creative pipeline â€” Grace-Mar v1.0
 
 **Last updated:** 2026-03-27  
-**Territory:** work-dev (operator). **Not** Record truth until the companion approves merges through [RECURSION-GATE](../../../recursion-gate.md) and `scripts/process_approved_candidates.py` per [AGENTS.md](../../../AGENTS.md).
+**Territory:** work-dev (operator). **Not** Record truth until the companion approves merges through [RECURSION-GATE](../../../archive/grace-mar-instance/recursion-gate.md) and `scripts/process_approved_candidates.py` per [AGENTS.md](../../../AGENTS.md).
 
 **Purpose:** A repeatable, governed, agent-augmented creative workflow for high-clarity visual, UI, video, and 3D artifacts while preserving intention and reducing drift.
 

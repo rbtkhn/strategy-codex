@@ -43,7 +43,7 @@ diff -u \
 
 Use the **redirect** path when comparing bookmark stability: `minds/CIV-MIND-MEARSHEIMER.md` → same body as `strategy-expert-mearsheimer-mind.md`.
 
-If the submodule directory is missing, skip or update the checkout per instance bootstrap; see cross-links in [AGENTS.md](../../../../AGENTS.md) and [minds/README.md](minds/README.md).
+If the submodule directory is missing, skip or update the checkout per instance bootstrap; see cross-links in [AGENTS.md](../AGENTS.md) and [minds/README.md](minds/README.md).
 
 ## Lens-fold verify token
 

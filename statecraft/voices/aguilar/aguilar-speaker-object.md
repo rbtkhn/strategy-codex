@@ -33,8 +33,8 @@ Aguilar should currently be read as a **single-helix speaker object whose cleare
 
 That means:
 
-- [Alkhorshid x Aguilar](/C:/dev/strategy-codex/statecraft/notes/arc-aguilar-nima-host.md) is the canonical way to enter the object
-- [2026-02-27 Kiriakou x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-27/source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md) is real second-host evidence, but not yet a stable second branch
+- [Alkhorshid x Aguilar](../../notes/arc-aguilar-nima-host.md) is the canonical way to enter the object
+- [2026-02-27 Kiriakou x Aguilar](../../../source-archive/statecraft/2026-02-27/source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md) is real second-host evidence, but not yet a stable second branch
 - the object is real enough to deserve its own folder
 - but the notebook should not yet imply any meaningful second or third branch
 
@@ -44,15 +44,15 @@ So Aguilar is not a helix-first multi-host object. He is an emerging single-bran
 
 If the operator needs the clearest live lane:
 
-- open [arc-aguilar-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-aguilar-nima-host.md)
+- open [arc-aguilar-nima-host.md](../../notes/arc-aguilar-nima-host.md)
 
 If the operator needs the strongest current anchor file:
 
-- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
+- open [2026-05-04 Alkorshid x Aguilar](../../../source-archive/statecraft/2026-05-04/source-dialogue-works-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
 
 If the operator needs the object doctrine rather than the live branch:
 
-- stay here, then read [aguilar-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/aguilar/aguilar-cross-host-note.md)
+- stay here, then read [aguilar-cross-host-note.md](aguilar-cross-host-note.md)
 
 ## Routing use
 

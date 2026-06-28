@@ -44,6 +44,6 @@ When landing captures: set **`thread: <guest>`** (primary guest expert) on YAML;
 
 ## Orthogonal hosts
 
-- [Davis](../davis/README.md) — feasibility / settlement-room (Deep Dive register)
-- [Napolitano](../napolitano/README.md) — legal / constitutional pressure
-- [Alkorshid](../alkorshid/README.md) — Dialogue Works / Moscow-insider guest discovery
+- [Davis](../../../README.md) — feasibility / settlement-room (Deep Dive register)
+- [Napolitano](../../../README.md) — legal / constitutional pressure
+- [Alkorshid](../../../README.md) — Dialogue Works / Moscow-insider guest discovery

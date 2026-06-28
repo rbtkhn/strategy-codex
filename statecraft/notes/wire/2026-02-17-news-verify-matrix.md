@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # News Verify Matrix — 2026-02-17
 
-**Parent:** [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · **Geneva weave:** [Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) · **Iran bench weave:** [Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · **Dmitriev arc:** [Jan 20 – Feb 17](../notes/arc-helmer-dmitriev-lane.md)
+**Parent:** [2026-02-17 archive day](../../../source-archive/statecraft/2026-02-17/README.md) · **Geneva weave:** [Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) · **Iran bench weave:** [Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · **Dmitriev arc:** [Jan 20 – Feb 17](../notes/arc-helmer-dmitriev-lane.md)
 
 **Scope:** **Geneva pass** — Helmer + Mercouris (Kartapolov/TASS, Bloomberg MOU, US–Ukraine security guarantee, bifurcation). **Iran bench pass (Sub-seam E)** — Marandi + Mearsheimer + Freeman timing hooks (Hormuz, Netanyahu Jan 14, trilateral drill).
 
@@ -22,11 +22,11 @@ WORK only; not Record.
 
 | # | Voice | Capture | Hook prefix |
 | --- | --- | --- | --- |
-| 1 | John Helmer | [Kremlin strategy before Geneva](../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) | **J17-H1 – H4** |
-| 2 | Alexander Mercouris | [Geneva / Kartapolov / Konstantinovka](../../source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) | **J17-M1 – M6** |
-| 3 | Mohammad Marandi | [Hormuz partial closure / IRGC drill](../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md) | **J17-P1 – P3, P6** |
-| 4 | John Mearsheimer | [Trump boxed on Iran (+ Geneva open)](../../source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) | **J17-P2, P4 – P5, P7** |
-| 5 | Chas Freeman | [Empire / regional war (drill clock)](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) | **J17-P8** |
+| 1 | John Helmer | [Kremlin strategy before Geneva](../../../source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) | **J17-H1 – H4** |
+| 2 | Alexander Mercouris | [Geneva / Kartapolov / Konstantinovka](../../../source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) | **J17-M1 – M6** |
+| 3 | Mohammad Marandi | [Hormuz partial closure / IRGC drill](../../../source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md) | **J17-P1 – P3, P6** |
+| 4 | John Mearsheimer | [Trump boxed on Iran (+ Geneva open)](../../../source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md) | **J17-P2, P4 – P5, P7** |
+| 5 | Chas Freeman | [Empire / regional war (drill clock)](../../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) | **J17-P8** |
 
 ## Sub-seam E — Iran bench / Hormuz (Marandi + Mearsheimer **J17-P1 – P8**)
 
@@ -87,4 +87,4 @@ WORK only; not Record.
 
 - `verify:J17-M3-supported` · `verify:J17-H1-supported` · `verify:J17-H2-partial` · `verify:J17-M4-supported` · `verify:J17-M5-supported` · `verify:J17-M6-partial` · `verify:J17-G1-supported` · `verify:J17-G2-supported` · `verify:J17-P1-supported` · `verify:J17-P2-partial` · `verify:J17-P3-supported` · `verify:J17-P4-partial` · `verify:J17-P5-supported` · `verify:J17-P6-partial` · `verify:J17-P7-supported` · `verify:J17-P8-partial`
 
-**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md)
+**Promoted via:** [`wire-verify`](../../../skills/wire-verify/SKILL.md)

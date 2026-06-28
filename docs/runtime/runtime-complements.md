@@ -15,7 +15,7 @@ canonical **Record**.
 ## Core rule
 
 > External runtimes may remember for themselves.  
-> Grace-Mar remembers only through the **gate** ([`recursion-gate.md`](../../recursion-gate.md) â†’ companion-approved merge; see [AGENTS.md](../../AGENTS.md)).
+> Grace-Mar remembers only through the **gate** ([`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md) â†’ companion-approved merge; see [AGENTS.md](../../AGENTS.md)).
 
 Runtime complements may **accelerate** context, continuity, and interaction.
 They may not become **memory**, **evidence**, or **identity** until **staged**,
@@ -55,7 +55,7 @@ Conservative, explicit surfaces only (no whole-repo scans of `` Record trees unl
 - **Approved export bundles** under [`runtime/runtime-complements/exports/`](../../runtime/runtime-complements/exports/) (JSON produced by the export script)
 - **Selected docs** included via `--include-doc` on the export script (operator-chosen, repo-relative paths)
 - **Selected WORK** docs (e.g. strategy notebook orientation, work-strategy specs) when explicitly **included** in a bundle
-- **Strategy notebook** derived or orientation docs (e.g. [strategy-console README](../skill-work/work-strategy/strategy-notebook/strategy-console/README.md)) only when path-listed in a bundle
+- **Strategy notebook** derived or orientation docs (e.g. [strategy-console README](../../README.md)) only when path-listed in a bundle
 - Public **doctrine** / **architecture** files used as membrane context, when explicitly included
 
 Direct reads of **Record** files by an external process should be avoided; prefer **export bundles** and operator-approved file lists. This doc does not grant permission to scrape `` for bulk ingest.

@@ -22,7 +22,7 @@ Geography is real here, but it is not self-explaining. Oceans, rivers, basins, a
 
 ## Return Path
 
-Return through [CIV-STATE America](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/README.md), [America sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/sovereign-continuity.md), [America geo lane note](/C:/dev/strategy-codex/statecraft/america/civilization/geo.md), and [America state memory](/C:/dev/strategy-codex/statecraft/america/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
+Return through [CIV-STATE America](README.md), [America sovereign continuity](sovereign-continuity.md), [America geo lane note](../../../america/civilization/geo.md), and [America state memory](../../../america/civilization/objects/state-memory.md) when the problem needs either fuller continuity or narrower lane-local grounding.
 
 ## Core Thesis
 

@@ -24,17 +24,17 @@ Karaganov should currently be read as a **single-helix speaker object with one m
 
 The direct branch is:
 
-- [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/notes/arc-karaganov-diesen-host.md)
+- [Diesen x Karaganov](../../notes/arc-karaganov-diesen-host.md)
 
 The strongest direct raw-inputs are:
 
-- [2026-05-10 Diesen x Karaganov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
-- [2025-12-25 Diesen x Karaganov](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-12-25/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md)
-- [2025-05-14 Diesen x Karaganov](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
+- [2026-05-10 Diesen x Karaganov](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- [2025-12-25 Diesen x Karaganov](../../../source-archive/statecraft/2025-12-25/day-index.md)
+- [2025-05-14 Diesen x Karaganov](../../../source-archive/statecraft/2025-05-14/day-index.md)
 
 The most important reaction/reinforcement surface is:
 
-- [Ritter on Karaganov as "dark sage"](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md)
+- [Ritter on Karaganov as "dark sage"](../../../source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md)
 
 That Ritter text is not a Karaganov-authored or Karaganov-hosted source. Use it as a reaction surface: it helps explain why Karaganov matters to the force-constraint and escalation-warning lanes.
 
@@ -42,16 +42,16 @@ That Ritter text is not a Karaganov-authored or Karaganov-hosted source. Use it 
 
 If the operator needs Karaganov's live doctrine:
 
-- open [Diesen x Karaganov](/C:/dev/strategy-codex/statecraft/notes/arc-karaganov-diesen-host.md)
+- open [Diesen x Karaganov](../../notes/arc-karaganov-diesen-host.md)
 
 If the operator needs one direct source:
 
-- open [2026-05-10 Diesen x Karaganov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- open [2026-05-10 Diesen x Karaganov](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
 
 If the operator needs the strongest paired read:
 
-- first [2026-05-10 Diesen x Karaganov](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
-- then [2025-05-14 Diesen x Karaganov](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
+- first [2026-05-10 Diesen x Karaganov](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- then [2025-05-14 Diesen x Karaganov](../../../source-archive/statecraft/2025-05-14/day-index.md)
 
 That pair gives the clearest combination of nuclear-threshold doctrine and civilizational/Eurasian orientation.
 
@@ -67,11 +67,11 @@ Use this speaker object when the Codex needs to:
 
 Typical neighboring lanes:
 
-- [Diesen](/C:/dev/strategy-codex/statecraft/voices/diesen/)
-- [Crooke](/C:/dev/strategy-codex/statecraft/voices/crooke/)
-- [Ritter](/C:/dev/strategy-codex/statecraft/voices/ritter/)
-- [Mearsheimer](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/)
-- [Mercouris](/C:/dev/strategy-codex/statecraft/voices/mercouris/)
+- [Diesen](../diesen)
+- [Crooke](../crooke)
+- [Ritter](../ritter)
+- [Mearsheimer](../mearsheimer)
+- [Mercouris](../mercouris)
 
 ## Boundaries
 

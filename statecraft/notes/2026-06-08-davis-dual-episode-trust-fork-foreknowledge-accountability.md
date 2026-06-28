@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Parent:** [2026-06-08 daily](statecraft/synthesis/day/2026-06-08.md) · [Davis trust fork × Johnson](statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) · [Davis Lebanon fulcrum × Crooke](statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
+**Parent:** [2026-06-08 daily](../synthesis/day/2026-06-08.md) · [Davis trust fork × Johnson](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) · [Davis Lebanon fulcrum × Crooke](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 
 **Sources:**
 
@@ -80,7 +80,7 @@ Evening Davis supplies **command-review rows** complementary to Barnes/McGovern 
 
 Morning Davis **AMER-TRUST-01** (trust fork) remains live — evening does not replace it; it explains **why trust fork was inevitable** once wrong advisers owned the opening.
 
-Cross-link: [foreign-client-mesh-separation-and-command-review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [Barnes capture companion](statecraft/notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
+Cross-link: [foreign-client-mesh-separation-and-command-review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [Barnes capture companion](2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
 
 ## Tensions and falsifiers
 
@@ -93,5 +93,5 @@ Cross-link: [foreign-client-mesh-separation-and-command-review](../america/trans
 
 1. Read **morning first** for June 8 event object (ceasefire loop, trust table, Houthis).
 2. Read **evening second** for America command pathology (why loop was enterable).
-3. Pair with [Johnson Larijani doctrine](statecraft/notes/2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) — Johnson supplies adversary receipt; Davis supplies U.S. decision-space receipt.
+3. Pair with [Johnson Larijani doctrine](2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) — Johnson supplies adversary receipt; Davis supplies U.S. decision-space receipt.
 4. Do **not** merge into single Davis paraphrase in daily synthesis — preserve M/E plane labels.

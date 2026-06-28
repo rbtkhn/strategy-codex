@@ -31,14 +31,7 @@ What makes this a real speaker arc is that the same shape keeps returning:
 
 ### March 2026 cross-host safeguard
 
-For the full March Freeman run, open [arc-march-2026-cross-host-freeman-host.md](../freeman/arc-march-2026-cross-host-freeman-host.md. The Dialogue Works March items are a major part of the war-system activation arc:
-
-- 2026-03-06 *The War With Iran Is Breaking Everything the U.S. Planned* - captured on disk.
-- 2026-03-13 *Israel's Agenda Is Collapsing... And It's Happening Fast* - profile-discovered, needs capture.
-- 2026-03-20 *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy* - captured on disk.
-- 2026-03-27 *If Troops Enter Iran... Israel's Entire Strategy FALLS APART* - captured on disk.
-
-1. [source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](../../source-archive/statecraft/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+For the full March Freeman run, open [arc-march-2026-cross-host-freeman-host.md](../../source-archive/statecraft/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
    Best mature anchor. Strong on "ceasefire with Israeli characteristics," Gulf-state distancing, Hormuz control, and the claim that Anglo-American maritime order is breaking down.
 
 2. [source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
@@ -87,11 +80,11 @@ Open **2025-12-19** first when the notebook needs the Freeman-Parsi overlap arou
 
 ## Best paired read
 
-Best paired read: [arc-freeman-diesen-host.md](/C:/dev/strategy-codex/arc-freeman-diesen-host.md)
+Best paired read: [arc-freeman-diesen-host.md](../../arc-freeman-diesen-host.md)
 
 Why: the same guest becomes legible through two different hosts. Diesen gives the steadier order-and-statecraft lane; Alkorshid gives the more immediate pressure-tested lane. Together they show that the Freeman voice is stable, but the host changes the contour.
 
-Second-best paired read: [arc-marandi-nima-host.md](/C:/dev/strategy-codex/arc-marandi-nima-host.md)
+Second-best paired read: [arc-marandi-nima-host.md](../../arc-marandi-nima-host.md)
 
 Why: both runs live in the same host stream, but they split sharply by register. Freeman gives diplomatic-memory and order interpretation; Marandi gives red-line, legitimacy, and endurance language.
 
@@ -126,4 +119,4 @@ Do not use this speaker arc as:
 
 This arc is strongest as a **live-pressure diplomatic-memory form**: Alkorshid pushes the crisis forward, Freeman translates it into statecraft decline, alliance strain, and order-language.
 
-If the question is mainly about blockade legality, constitutional war skepticism, or anti-war legitimacy language, route outward to [arc-freeman-napolitano-host.md](/C:/dev/strategy-codex/arc-freeman-napolitano-host.md) rather than overloading this arc.
+If the question is mainly about blockade legality, constitutional war skepticism, or anti-war legitimacy language, route outward to [arc-freeman-napolitano-host.md](../../arc-freeman-napolitano-host.md) rather than overloading this arc.

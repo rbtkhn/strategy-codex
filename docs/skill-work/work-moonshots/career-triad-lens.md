@@ -37,7 +37,7 @@ If you promote something stronger later, do it through the normal **companion + 
 **Alignments worth preserving:**
 
 - [Moonshot boundary (WORK)](../work-strategy/modules/moonshot-orchestration/moonshot-boundary.md) â€” the orchestration module does **not** create canonical `SKILL-0018` from WORK; treat any ad hoc **SKILL-0019**-style ID the same way until explicitly approved elsewhere.
-- [`recursion-gate.md`](../../../recursion-gate.md) â€” the live gate does **not** use numbered subsections like â€œ4.5.8 / Swarm-Scale Extensionsâ€; add optional triad **checklist or templates** in **docs** and link from the gate header, or add a new `##` where it fitsâ€”do not assume placeholder section numbers from drafts.
+- [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md) â€” the live gate does **not** use numbered subsections like â€œ4.5.8 / Swarm-Scale Extensionsâ€; add optional triad **checklist or templates** in **docs** and link from the gate header, or add a new `##` where it fitsâ€”do not assume placeholder section numbers from drafts.
 - [Moonshot Orchestration README](../work-strategy/modules/moonshot-orchestration/README.md) â€” there is no â€œÂ§7 / Evidence & Referencesâ€ in the current README; integrate optional triad pointers as a normal `##` section and keep **manual** dashboard discipline (no automatic weekly gate reports unless built as real tooling).
 - **Evidence:** a frontmatter `evidence_anchor` must point at a file that **exists** in-repo (e.g. transcript or raw capture); do not ship anchors to missing paths.
 

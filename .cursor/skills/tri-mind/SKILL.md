@@ -11,7 +11,7 @@ review_date: 2026-12-31
 ---
 # Tri-mind (legacy alias) — DEPRECATED
 
-**Superseded by:** a **named single speaker** (Mercouris / Mearsheimer / Barnes) or [`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md).
+**Superseded by:** a **named single speaker** (Mercouris / Mearsheimer / Barnes) or [`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md).
 
 **Note:** [statecraft-multi-lens](../statecraft-multi-lens/SKILL.md) is **archived** — do not execute for new work.
 

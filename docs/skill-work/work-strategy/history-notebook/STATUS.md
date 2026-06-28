@@ -1,6 +1,6 @@
 # History Notebook - STATUS (WORK only)
 
-**Single SSOT** for **next `hn-*` chapters to draft.** Strategy-notebook [meta.md](../strategy-notebook/chapters/) should **link here**, not maintain a parallel queue.
+**Single SSOT** for **next `hn-*` chapters to draft.** Strategy-notebook [meta.md](../../../../codex/chapters) should **link here**, not maintain a parallel queue.
 
 ## Volume priority (operator - pick one primary lane first)
 
@@ -36,5 +36,5 @@ When you bump a row in [cross-book-map.yaml](cross-book-map.yaml) from **`stub` 
 ## Related
 
 - [README.md](README.md) - book model and `docs/skill-work/work-strategy/history-notebook/`
-- [STRATEGY-NOTEBOOK-ARCHITECTURE section Parallel to History notebook](../strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#parallel-to-history-notebook-lib-0156)
+- [STRATEGY-NOTEBOOK-ARCHITECTURE section Parallel to History notebook](../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#parallel-to-history-notebook-lib-0156)
 - [validate_cross_book.py](../../../scripts/validate_cross_book.py) - PH <-> HN map validation

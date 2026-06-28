@@ -51,7 +51,7 @@ Why:
 - the month note now has a stable host-balance reading
 - the remaining Diesen questions are title-drift ambiguities, not strong missing-capture contradictions
 
-Use [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md) as the month truth surface.
+Use [wilkerson-may-2026-note.md](../voices/wilkerson/wilkerson-may-2026-note.md) as the month truth surface.
 
 ### Parsi
 
@@ -66,7 +66,7 @@ Why:
 - the likely remaining missing object is small enough to hunt without reopening the whole month
 - the current Parsi month story still reads as coherent but slightly thin in exactly the place where late-May authored architecture should sit
 
-Use [arc-may-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-may-2026-cross-context-parsi-host.md) plus [parsi-wilkerson-may-2026-backfill-attention.md](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) as the live closure surfaces.
+Use [arc-may-2026-cross-context-parsi-host.md](../../arc-may-2026-cross-context-parsi-host.md) plus [parsi-wilkerson-may-2026-backfill-attention.md](parsi-wilkerson-may-2026-backfill-attention.md) as the live closure surfaces.
 
 ## Operational consequence
 

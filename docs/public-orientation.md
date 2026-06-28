@@ -1,3 +1,9 @@
+---
+audience: public
+authority: doctrine
+record_status: frozen
+---
+
 # Public orientation — strategy-codex
 
 **Work only; not Record.**

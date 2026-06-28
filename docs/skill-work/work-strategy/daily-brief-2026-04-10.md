@@ -50,12 +50,12 @@ _From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus.
 
 _From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 
-- _Edit between brief runs. **removed operator-books symlink (Predictive History):** [predictive-history (`codex/predictive-history/`)](../../../self-library.md#operator-analytical-books) Ã¢â‚¬” `lookup_priority: preferred`; canonical URL in YAML Ã¢â€ ’ [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
-- [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md) Ã¢â‚¬” multivolume spine; Volume I Geo-Strategy (Part I ch01Ã¢â‚¬“ch20, Part II prediction adjudication).
-- [STATUS.md](../../codex/predictive-history/STATUS.md) Ã¢â‚¬” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
-- [CHAPTER-QUEUE.md](../../codex/predictive-history/CHAPTER-QUEUE.md) Ã¢â‚¬” next chapter front (queue vs blockers).
-- [lectures/](../../codex/predictive-history/lectures/) Ã¢â‚¬” curated lecture bodies for slow-layer pull quotes / compressions.
-- [COMPRESSION-ENGINE.md](../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” lane doc when running `jiang-compress` / JSON outputs (`codex/predictive-history/compressions/<slug>-YYYYMMDD.json`).
+- _Edit between brief runs. **removed operator-books symlink (Predictive History):** [predictive-history (`codex/predictive-history/`)](../../../self-library.md#operator-analytical-books) Ã¢â‚¬” `lookup_priority: preferred`; canonical URL in YAML Ã¢â€ ’ [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
+- [BOOK-ARCHITECTURE.md](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) Ã¢â‚¬” multivolume spine; Volume I Geo-Strategy (Part I ch01Ã¢â‚¬“ch20, Part II prediction adjudication).
+- [STATUS.md](../../../codex/predictive-history/STATUS.md) Ã¢â‚¬” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
+- [CHAPTER-QUEUE.md](../../../codex/predictive-history/CHAPTER-QUEUE.md) Ã¢â‚¬” next chapter front (queue vs blockers).
+- [lectures/](../../../codex/predictive-history/lectures) Ã¢â‚¬” curated lecture bodies for slow-layer pull quotes / compressions.
+- [COMPRESSION-ENGINE.md](../../../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” lane doc when running `jiang-compress` / JSON outputs (`codex/predictive-history/compressions/<slug>-YYYYMMDD.json`).
 
 _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](README.md)._
 

@@ -29,7 +29,7 @@ There are three different totals in play:
 | Layer | What it counts | Current total | Canonical local path |
 | --- | --- | --- | --- |
 | Public mirror corpus | Materialized public Predictive History units in the official `ph-civ` mirror | `150` | [ph-civ/data/cards.jsonl](ph-civ/data/cards.jsonl) |
-| Public source-video table | Public mirror entries with explicit YouTube source rows in one table | `63` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) |
+| Public source-video table | Public mirror entries with explicit YouTube source rows in one table | `63` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) |
 | Local raw archive captures | Jiang / Predictive History captures preserved in `source-archive/statecraft` outside the public mirror | `13` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) |
 
 ## Canonical rule
@@ -46,7 +46,7 @@ Series counts from the official mirror:
 
 | Series | Current public count | Primary local route | Notes |
 | --- | --- | --- | --- |
-| Civilization | `60` | [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) | Canonical interwoven spine (`civ-01`–`civ-60`); packet shelf at [volume-ii](ph-civ/book/volume-ii); ten Part doorways at [parts/](ph-civ/book/volume-i-civilization/parts/README.md). |
+| Civilization | `60` | [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](../../../README.md) | Canonical interwoven spine (`civ-01`–`civ-60`); packet shelf at [volume-ii](ph-civ/book/volume-ii); ten Part doorways at [parts/](../../../README.md). |
 | Geo-Strategy | `20` | [ph-civ/book/volume-i](ph-civ/book/volume-i) | Legacy provenance shelf feeding Apocalypse. |
 | Game Theory | `27` | [ph-civ/book/volume-iii](ph-civ/book/volume-iii) | Publicly materialized through `gt-27`. |
 | Secret History | `28` | [ph-civ/book/volume-vi](ph-civ/book/volume-vi) | Full `sh-01` to `sh-28` public spine. |
@@ -55,20 +55,20 @@ Series counts from the official mirror:
 
 ### Volume I reading navigation (Parts overlay)
 
-Ten **Part doorways** on the civilization spine — navigation only; [interwoven-reader](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) order stays authoritative. Shelf routing detail: [jiang-routing.md — Volume I Parts](jiang-routing.md#volume-i-parts-reading-navigation).
+Ten **Part doorways** on the civilization spine — navigation only; [interwoven-reader](../../../README.md) order stays authoritative. Shelf routing detail: [jiang-routing.md — Volume I Parts](jiang-routing.md#volume-i-parts-reading-navigation).
 
 | Surface | Path |
 | --- | --- |
-| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md) |
+| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](../../../README.md) |
 | Registry | [ph-civ/data/parts/volume-i-parts.json](ph-civ/data/parts/volume-i-parts.json) |
 | Part boundary tour | [ph-civ/data/routes/part-boundary-tour.json](ph-civ/data/routes/part-boundary-tour.json) |
 
 Primary mirror front doors:
 
-- [ph-civ/README.md](ph-civ/README.md)
-- [ph-civ/ph-civ/README.md](ph-civ/ph-civ/README.md)
-- [ph-civ/ph-apo/README.md](ph-civ/ph-apo/README.md)
-- [ph-civ/ph-mus/README.md](ph-civ/ph-mus/README.md)
+- [ph-civ/README.md](../../../README.md)
+- [ph-civ/ph-civ/README.md](../../../README.md)
+- [ph-civ/ph-apo/README.md](../../../README.md)
+- [ph-civ/ph-mus/README.md](../../../README.md)
 
 ## Public source-video subset
 
@@ -78,12 +78,12 @@ Current source-video row counts:
 
 | Lane | Current source-video rows | Local route | Coverage note |
 | --- | --- | --- | --- |
-| Geo-Strategy | `8` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Currently `geo-13` through `geo-20`. |
-| Game Theory | `27` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Currently `gt-01` through `gt-27`. |
-| Secret History | `28` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Currently `sh-01` through `sh-28`. |
-| Civilization | `0` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | No dedicated public `civ-*` source-video rows in this table yet. |
-| Great Books | `0` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | No dedicated public `gb-*` source-video rows in this table yet. |
-| Interviews | `0` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Interviews are not currently surfaced here as a public lane. |
+| Geo-Strategy | `8` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) | Currently `geo-13` through `geo-20`. |
+| Game Theory | `27` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) | Currently `gt-01` through `gt-27`. |
+| Secret History | `28` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) | Currently `sh-01` through `sh-28`. |
+| Civilization | `0` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) | No dedicated public `civ-*` source-video rows in this table yet. |
+| Great Books | `0` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) | No dedicated public `gb-*` source-video rows in this table yet. |
+| Interviews | `0` | [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md) | Interviews are not currently surfaced here as a public lane. |
 
 Use this file when you need:
 
@@ -116,10 +116,10 @@ Important current gaps between layers:
 If the user asks:
 
 - "How many Predictive History lectures are there?" -> start with the **public mirror corpus** count here, not the raw archive.
-- "Where is the YouTube link for lecture X?" -> open [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md).
+- "Where is the YouTube link for lecture X?" -> open [ph-civ/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md).
 - "Do we have a raw local capture of this Jiang / PH item?" -> open [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md).
 - "What is the canonical Jiang shelf front door?" -> stay in [README.md](README.md) and this file.
-- "How do I read Volume I by Part?" -> [interwoven spine](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) for order; [Parts shelf](ph-civ/book/volume-i-civilization/parts/README.md) for doorways; [jiang-routing.md](jiang-routing.md#volume-i-parts-reading-navigation) for split seams and validate commands.
+- "How do I read Volume I by Part?" -> [interwoven spine](../../../README.md) for order; [Parts shelf](../../../README.md) for doorways; [jiang-routing.md](jiang-routing.md#volume-i-parts-reading-navigation) for split seams and validate commands.
 
 ## Falsify check
 

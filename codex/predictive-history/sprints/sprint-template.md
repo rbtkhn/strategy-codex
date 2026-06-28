@@ -2,7 +2,7 @@
 
 **Use:** Copy to a dated file (e.g. `SPRINT-YYYY-MM-topic.md`) for a **multi-step** work-jiang tranche. Single artifacts can go straight through [scripts/jiang-compress.py](../../scripts/jiang-compress.py) into [`../compressions/`](../compressions/).
 
-**Lane:** `codex/predictive-history/` — **not** Record until merged through **RECURSION-GATE** ([identity-fork-protocol.md](../../docs/identity-fork-protocol.md)).
+**Lane:** `codex/predictive-history/` — **not** Record until merged through **RECURSION-GATE** ([identity-fork-protocol.md](../../../docs/identity-fork-protocol.md)).
 
 ---
 
@@ -20,7 +20,7 @@
 ## Clear objectives (Bloom: “what done looks like”)
 
 - Tie to **founding intent** when present: `reflection-proposals/SEED-founding-intent.md`
-- Tie to **seed** when present: `seed/minimal-core.json` ([seed-phase-wizard.md](../../docs/seed-phase-wizard.md))
+- Tie to **seed** when present: `seed/minimal-core.json` ([seed-phase-wizard.md](../../../docs/seed-phase-wizard.md))
 
 **This sprint’s objectives (3 bullets max):**
 

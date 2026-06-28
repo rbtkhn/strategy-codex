@@ -11,7 +11,7 @@
 | System | Field name | Where documented | Meaning |
 |--------|------------|------------------|---------|
 | **Traffic / merge UX** | **`risk_tier`** (machine) | [recursion-gate-three-tier.md](../recursion-gate-three-tier.md), [recursion_gate_review.py](../../scripts/recursion_gate_review.py) | `quick_merge_eligible`, `review_batch`, `manual_escalate` â€” how fast or heavy **review** is. |
-| **Blast radius / promotion sensitivity** | **`impact_tier`** (author) | This doc; [â€¦/recursion-gate.md](../../recursion-gate.md) Â§ Candidate classification | `low`, `medium`, `high`, `boundary` â€” how sensitive the **content** of the merge is (canonical surfaces, governance, etc.). **Not** a rename of `risk_tier`. |
+| **Blast radius / promotion sensitivity** | **`impact_tier`** (author) | This doc; [â€¦/recursion-gate.md](../../archive/grace-mar-instance/recursion-gate.md) Â§ Candidate classification | `low`, `medium`, `high`, `boundary` â€” how sensitive the **content** of the merge is (canonical surfaces, governance, etc.). **Not** a rename of `risk_tier`. |
 | **Comprehension proof** | **`envelope_class`** | This doc | `none`, `optional`, `required` â€” whether a **Comprehension Envelope** markdown block is omitted, recommended, or required. |
 
 **Orthogonality:** Traffic `risk_tier` describes **review flow** (dashboards, quick-merge eligibility). **`impact_tier`** and **`envelope_class`** describe **what the companion must see** before approval. A candidate can be `review_batch` (traffic) and `envelope_class: required` (comprehension), or `quick_merge_eligible` with `envelope_class: none`.
@@ -46,7 +46,7 @@ The first place these fields appear in day-to-day use is **`recursion-gate.md`**
 | **Light Gate** | `medium` | Comprehension Envelope **recommended** (`envelope_class: optional`); advisory only |
 | **Heavy Gate** | `high` or `boundary` | Envelope **required**; **Blast radius** and **Human override applied** bullets must be filled honestly; advisory-first validator warnings |
 
-**Initial rollout:** advisory-first. **Dynamic Gate** (observability escalation) is **deferred**. Live copy: [recursion-gate.md](../../recursion-gate.md) Â§ Reflection Gates (v1).
+**Initial rollout:** advisory-first. **Dynamic Gate** (observability escalation) is **deferred**. Live copy: [recursion-gate.md](../../archive/grace-mar-instance/recursion-gate.md) Â§ Reflection Gates (v1).
 
 ---
 

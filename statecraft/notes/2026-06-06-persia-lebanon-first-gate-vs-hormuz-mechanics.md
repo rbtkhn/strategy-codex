@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md):
+This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md):
 
 **Why does the June 6 bench treat Hormuz and Lebanon as one object, but assign different explanatory jobs to each?**
 
@@ -124,12 +124,12 @@ This statecraft note sharpens one tension the parent note surfaced in `Dominant 
 
 ## Source Anchors
 
-- [Marandi / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>)
-- [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
+- [Marandi / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>)
+- [McGovern / Dialogue Works - 2026-06-06](<../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
 
 Related:
 
-- [State Synthesis - 2026-06-06](statecraft/synthesis/day/2026-06-06.md)
-- [Persia On The Hormuz-Lebanon Gate - 2026-06-01](statecraft/notes/2026-06-01-persia-hormuz-lebanon-strategic-memory.md) (prior month intelligence essay on the same linked object)
-- [Persia On Hormuz As Postwar Authority Floor - 2026-06-01](statecraft/notes/2026-06-01-persia-hormuz-postwar-authority-floor.md)
-- [Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate - 2026-06-07](statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) (June 7 event proof on June 6 gate)
+- [State Synthesis - 2026-06-06](../synthesis/day/2026-06-06.md)
+- [Persia On The Hormuz-Lebanon Gate - 2026-06-01](2026-06-01-persia-hormuz-lebanon-strategic-memory.md) (prior month intelligence essay on the same linked object)
+- [Persia On Hormuz As Postwar Authority Floor - 2026-06-01](2026-06-01-persia-hormuz-postwar-authority-floor.md)
+- [Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate - 2026-06-07](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) (June 7 event proof on June 6 gate)

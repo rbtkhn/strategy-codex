@@ -13,7 +13,7 @@
 ## What this lane may write
 
 - WORK-local markdown, configs, scripts, drafts, ledgers, and operator logs under `docs/skill-work/work-<id>/` (and documented script paths).  
-- **Stage** RECURSION-GATE candidates when the lane’s workflow calls for it (per [AGENTS.md](../../AGENTS.md)).  
+- **Stage** RECURSION-GATE candidates when the lane’s workflow calls for it (per [AGENTS.md](../../../AGENTS.md)).  
 
 ## What this lane may not write
 
@@ -32,4 +32,4 @@
 
 ## Operator standard
 
-Human sign-off before client-facing or public ship from this lane. Lexile / knowledge boundary for Voice-facing outputs: [AGENTS.md](../../AGENTS.md).
+Human sign-off before client-facing or public ship from this lane. Lexile / knowledge boundary for Voice-facing outputs: [AGENTS.md](../../../AGENTS.md).

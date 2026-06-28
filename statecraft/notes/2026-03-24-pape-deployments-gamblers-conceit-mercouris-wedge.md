@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 24 2026 — Pape × Mercouris wedge (deployments vs gambler's conceit vs talk mirage)
 
 **Pub date:** 2026-03-24  
-**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · [Wire matrix](statecraft/notes/wire/2026-03-24-news-verify-matrix.md) · [Mercouris × Helmer × Marandi wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
+**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · [Wire matrix](wire/2026-03-24-news-verify-matrix.md) · [Mercouris × Helmer × Marandi wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
 
 **Sources:**
 
@@ -72,7 +72,7 @@ Same-day **Escalation Trap double-post** vs **Mercouris institutional solo** on 
 | Is Trump rhetoric **strategic**? | **Ambiguity by design** (deployments essay) | **Fiction / mirage** (conceit: **dangerous** chasing) | **Stack** — Pape **tool** vs Mercouris **lie** on **negotiations**; compatible on **ignore words for ORBAT** |
 | Ground forces meaning | **Stage 3 trap** / **options** expanding | **Inadequate** for stated aims but **deepens war** | Pape **mechanism + menu** · Mercouris **skepticism + deployment fact** |
 | Why double down? | **House money** psychology | **Loss of escalation control** + **market** | Pape **micro-mechanism** · Mercouris **macro-institutional** |
-| Deployments vs talks | **Build-up continues** = **acceleration** | **Build-up while talks fake** | **Converge** — [J24-D1 partial](statecraft/notes/wire/2026-03-24-news-verify-matrix.md#sub-seam-d--ground-forces--kish-mercouris-j24-d1--d4--marandi-j24-d3) · [J24-A2 contested](statecraft/notes/wire/2026-03-24-news-verify-matrix.md#sub-seam-a--trump-talks--48h5d--market-mercouris-j24-a1--a5--helmer-j24-a2--a4) |
+| Deployments vs talks | **Build-up continues** = **acceleration** | **Build-up while talks fake** | **Converge** — [J24-D1 partial](wire/2026-03-24-news-verify-matrix.md#sub-seam-d--ground-forces--kish-mercouris-j24-d1--d4--marandi-j24-d3) · [J24-A2 contested](wire/2026-03-24-news-verify-matrix.md#sub-seam-a--trump-talks--48h5d--market-mercouris-j24-a1--a5--helmer-j24-a2--a4) |
 | Iran winning/losing | **Limits of air power**; Iran **adapts** | US–Israel war aims **failed**; Iran **conditions** hold | Same **attrition** object — Pape **theory** · Mercouris **evidence menu** |
 
 **Usage:** **Pape conceit** → **why leaders escalate after early wins** · **Pape deployments** → **ORBAT checklist** · **Mercouris** → **same week institutional receipts** (fiction + Dimona + divisions + market)

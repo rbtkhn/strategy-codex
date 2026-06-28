@@ -23,23 +23,23 @@ September is still much thinner on disk than June, July, or now August, but it i
 
 ## Materialized on disk
 
-1. [2025-09-12 - *Lawrence Wilkerson: America Is Retrenching & Alliances Fall Apart*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-12/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md)
+1. [2025-09-12 - *Lawrence Wilkerson: America Is Retrenching & Alliances Fall Apart*](../../../source-archive/statecraft/2025-09-12/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md)
    Status: `Diesen` September anchor already materialized.
    URL: [https://www.youtube.com/watch?v=MujCTLhegRk](https://www.youtube.com/watch?v=MujCTLhegRk)
 
-2. [2025-09-26 - *Larry C. Johnson & Larry Wilkerson: Charlie Kirk's Story COLLAPSES - Is America Gearing Up for WAR?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-26/source-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26.md)
+2. [2025-09-26 - *Larry C. Johnson & Larry Wilkerson: Charlie Kirk's Story COLLAPSES - Is America Gearing Up for WAR?*](../../../source-archive/statecraft/2025-09-26/source-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26.md)
    Status: `Dialogue Works` late-month crossover now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=gzhWSuNKFLI](https://www.youtube.com/watch?v=gzhWSuNKFLI)
 
-3. [2025-09-23 - *Scott Ritter & Col. Larry Wilkerson: Israel's DEAD END - Charlie Kirk - Iran & Russia vs NATO*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-23/source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md)
+3. [2025-09-23 - *Scott Ritter & Col. Larry Wilkerson: Israel's DEAD END - Charlie Kirk - Iran & Russia vs NATO*](../../../source-archive/statecraft/2025-09-23/source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md)
    Status: `Dialogue Works` late-month Scott Ritter / Wilkerson crossover now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=aBTVtOp3Xaw](https://www.youtube.com/watch?v=aBTVtOp3Xaw)
 
-4. [2025-09-17 - *Col. Larry Wilkerson: Middle East WARNING Ignites - Russia vs West DRAGS Everything into HELL*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/source-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md)
+4. [2025-09-17 - *Col. Larry Wilkerson: Middle East WARNING Ignites - Russia vs West DRAGS Everything into HELL*](../../../source-archive/statecraft/2025-09-17/source-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md)
    Status: `Dialogue Works` mid-month hinge now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=ghNe58JJqfg](https://www.youtube.com/watch?v=ghNe58JJqfg)
 
-5. [2025-09-05 - *Larry C. Johnson & Col. Larry Wilkerson: China, India & Russia Unite - Trump Left Out and FUMING!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-05/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md)
+5. [2025-09-05 - *Larry C. Johnson & Col. Larry Wilkerson: China, India & Russia Unite - Trump Left Out and FUMING!*](../../../source-archive/statecraft/2025-09-05/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md)
    Status: `Dialogue Works` early-month Johnson / Wilkerson bridge now materialized from operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=VFIk299GRH0](https://www.youtube.com/watch?v=VFIk299GRH0)
 

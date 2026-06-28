@@ -21,7 +21,7 @@ Aligned with [WORKFLOW-transcripts.md](WORKFLOW-transcripts.md).
 - **Location:** `research/external/youtube-channels/predictive-history/transcripts/{video_id}_*.txt` (usually **gitignored**).
 - **Source (tiers):** `youtube-transcript-api` timedtext (preferred), yt-dlp WebVTT (manual then auto), optional `whisper.cpp` (`--enable-whisper`).
 - **Provenance:** `#` header lines may include `quality`, `source_tier`, `fetched_at_utc`, `url`, `language`, `status`.
-- **Quality:** `TRANSCRIPT_MIN_QUALITY` (default **0.35**); below threshold rejected or `needs_review` with `--keep-low-quality`. See [predictive-history README](../youtube-channels/predictive-history/README.md).
+- **Quality:** `TRANSCRIPT_MIN_QUALITY` (default **0.35**); below threshold rejected or `needs_review` with `--keep-low-quality`. See [predictive-history README](../../README.md).
 
 ### 2. Verbatim (lightly cleaned)
 
@@ -270,5 +270,5 @@ Transcripts are for **internal research and analysis** only. Respect YouTube Ter
 - [ASR-AUDIT-LOG.md](ASR-AUDIT-LOG.md) — scope, preconditions, findings table  
 - [JIANG-LECTURE-FINGERPRINT.md](JIANG-LECTURE-FINGERPRINT.md) — optional corpus-derived lecture register (read-only for lane 2 audit)  
 - `scripts/work_jiang/check_asr_audit_preconditions.py` — lecture ↔ raw caption coverage (`--strict` optional)  
-- [../youtube-channels/predictive-history/README.md](../youtube-channels/predictive-history/README.md) — fetch CLI  
-- [../youtube-channels/predictive-history/transcripts/README.md](../youtube-channels/predictive-history/transcripts/README.md) — gitignored raw cache  
+- [../youtube-channels/predictive-history/README.md](../../README.md) — fetch CLI  
+- [../youtube-channels/predictive-history/transcripts/README.md](../../README.md) — gitignored raw cache  

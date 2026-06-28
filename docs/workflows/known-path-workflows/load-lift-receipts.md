@@ -18,7 +18,7 @@ A **Load-Lift Receipt** is a **review artifact** that records whether a known-pa
 
 - **Load-Lift Receipts evaluate workflow usefulness** after (or in trial of) a run â€” time, quality flags, and a disposition decision.
 - They do **not** approve durable SELF, EVIDENCE, SKILLS, or prompt changes.
-- They do **not** promote [recursion-gate](../../../recursion-gate.md) candidates.
+- They do **not** promote [recursion-gate](../../../archive/grace-mar-instance/recursion-gate.md) candidates.
 - They do **not** change workflow **`authority_class`** or [`platform/config/authority-map.json`](../../../platform/config/authority-map.json).
 - They **may** support later human decisions to **continue**, **revise**, **narrow**, or **retire** a workflow, or to keep it **manual_only**.
 
@@ -84,7 +84,7 @@ Clarifications:
 A Load-Lift Receipt **must not** be interpreted as:
 
 - **approval** to write [durable Record](README.md#relationship-to-existing-grace-mar-concepts) surfaces,
-- **bypass** of [recursion-gate](../../../recursion-gate.md) or [AGENTS.md](../../../AGENTS.md) merge rules,
+- **bypass** of [recursion-gate](../../../archive/grace-mar-instance/recursion-gate.md) or [AGENTS.md](../../../AGENTS.md) merge rules,
 - **expansion** of [authority](README.md#relationship-to-existing-grace-mar-concepts) to draft or stage beyond the workflowâ€™s declared class.
 
 Any authority expansion requires **explicit** review through existing Grace-Mar governance â€” not a receipt in this format.

@@ -112,4 +112,4 @@ Distinct from:
 
 Host reels that **cite** Karaganov without a guest appearance — clip SSOT remains rank 4:
 
-- [Lascaris May 18 — NATO strike prediction](../../source-archive/statecraft/2026-05-18/source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md → embed from [May 10 Diesen solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md; continues to [Jun 13 Mearsheimer panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md).
+- [Lascaris May 18 — NATO strike prediction](../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md).

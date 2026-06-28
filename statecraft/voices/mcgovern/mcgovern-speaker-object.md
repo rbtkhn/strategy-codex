@@ -33,8 +33,8 @@ McGovern carries a distinct utility profile:
 
 McGovern should currently be read as a **double-helix speaker object**:
 
-- [Diesen x McGovern](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-diesen-host.md)
-- [Alkorshid x McGovern](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-nima-host.md)
+- [Diesen x McGovern](../../notes/arc-mcgovern-diesen-host.md)
+- [Alkorshid x McGovern](../../notes/arc-mcgovern-nima-host.md)
 
 That means:
 
@@ -49,29 +49,29 @@ So the right current language is not merely cross-host reinforced. The Codex now
 
 The strongest currently visible tertiary host is `Judging Freedom`, with dense search-backed 2025-2026 main-channel results. Those results raise confidence that the object is wider than the two embodied branches, but they remain outside the embodied shelf in this pass.
 
-See [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/mcgovern/mcgovern-cross-host-note.md).
+See [mcgovern-cross-host-note.md](mcgovern-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the clearest current strategic branch:
 
-- open [arc-mcgovern-diesen-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-diesen-host.md)
+- open [arc-mcgovern-diesen-host.md](../../notes/arc-mcgovern-diesen-host.md)
 
 If the operator needs the clearest current live-pressure branch:
 
-- open [arc-mcgovern-nima-host.md](/C:/dev/strategy-codex/statecraft/notes/arc-mcgovern-nima-host.md)
+- open [arc-mcgovern-nima-host.md](../../notes/arc-mcgovern-nima-host.md)
 
 If the operator needs the strongest current Diesen anchor:
 
-- open [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- open [2026-04-05 Diesen x McGovern](../../../source-archive/statecraft/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 
 If the operator needs the strongest current Dialogue Works anchor:
 
-- open [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
+- open [2026-03-08 Dialogue Works x McGovern](../../../source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
 
 If the operator needs the object doctrine rather than a host branch:
 
-- stay here, then read [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/mcgovern/mcgovern-cross-host-note.md)
+- stay here, then read [mcgovern-cross-host-note.md](mcgovern-cross-host-note.md)
 
 ## Routing use
 

@@ -23,7 +23,7 @@ Grace-Mar separates **interface/runtime assistance** from **canonical durable st
 | Side | Role |
 |------|------|
 | **Runtime / WORK** | Sessions, scripts, exports, assistant drafts, receipts, scratch patches â€” visible and inspectable. |
-| **Record (canonical)** | Approved identity and evidence â€” merged only via [`recursion-gate.md`](../../recursion-gate.md) and [`process_approved_candidates.py`](../../scripts/process_approved_candidates.py) (human gate). |
+| **Record (canonical)** | Approved identity and evidence â€” merged only via [`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md) and [`process_approved_candidates.py`](../../scripts/process_approved_candidates.py) (human gate). |
 
 MCP outputs belong on the **runtime / WORK** side until promoted through the gate.
 
@@ -34,7 +34,7 @@ MCP outputs belong on the **runtime / WORK** side until promoted through the gat
 1. **Read-only retrieval** â€” governed exports, public URLs, read-only DB/GH views (receipts encouraged).
 2. **Work artifacts** â€” Markdown/JSON under WORK lanes, logs, operator-visible drafts.
 3. **Evidence stubs / prepared context** â€” pre-canonical material feeding review.
-4. **Candidate proposals** â€” YAML/text staged for [`recursion-gate.md`](../../recursion-gate.md).
+4. **Candidate proposals** â€” YAML/text staged for [`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md).
 5. **Canonical merge** â€” companion-approved apply only.
 
 Skipping steps 4â€“5 for â€œdurable identity truthâ€ is an anti-pattern.
@@ -151,5 +151,5 @@ After changing bindings or `authority-map.json`, run **`mcp_authority_check.py`*
 
 The **[`mcp-stack-overview.md`](mcp-stack-overview.md)** table summarizes the full MCP substrate (registry, bindings, receipts, risk, adapters). **[`mcp-governance-runbook.md`](mcp-governance-runbook.md)** documents the operator sequence; **`scripts/run_mcp_governance_checks.py`** runs that sequence against committed examples and writes **`runtime/artifacts/mcp-governance-demo-report.md`** (no live MCP servers, **`subprocess`** without shell).
 
-Passing the consolidation run **does not** approve arbitrary **live MCP** integration or canonical Record merges â€” **live MCP remains a separate operator decision**; merge authority stays with the companion and **[`recursion-gate.md`](../../recursion-gate.md)** / **`process_approved_candidates.py`** per **[`AGENTS.md`](../../AGENTS.md)**.
+Passing the consolidation run **does not** approve arbitrary **live MCP** integration or canonical Record merges â€” **live MCP remains a separate operator decision**; merge authority stays with the companion and **[`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md)** / **`process_approved_candidates.py`** per **[`AGENTS.md`](../../AGENTS.md)**.
 

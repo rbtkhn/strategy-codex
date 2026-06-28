@@ -8,11 +8,11 @@ Purpose: record the new canonical shelf law after the Freeman, Crooke, Mercouris
 
 These five speakers now sit at one canonical 2026 shelf level under `statecraft/voices/`:
 
-- [Freeman](../../../statecraft/voices/civ-lens-freeman/README.md)
-- [Crooke](../../../statecraft/voices/civ-lens-crooke/README.md)
-- [Mercouris](../../../statecraft/voices/civ-lens-mercouris/README.md)
-- [Macgregor](../../../statecraft/voices/civ-lens-macgregor/README.md)
-- [Ritter](../../../statecraft/voices/civ-lens-ritter/README.md)
+- [Freeman](../../../README.md)
+- [Crooke](../../../README.md)
+- [Mercouris](../../../README.md)
+- [Macgregor](../../../README.md)
+- [Ritter](../../../README.md)
 
 Shared shelf law:
 

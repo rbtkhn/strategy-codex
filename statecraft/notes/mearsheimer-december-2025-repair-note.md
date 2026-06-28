@@ -19,7 +19,7 @@ The local archive now holds:
 - `1` of those is a `Diesen / Mearsheimer / Mercouris` panel capture
 - `1` of the `Judging Freedom` anchors remains `summary-grade` rather than `clean transcript-grade`
 
-Against the live month rollup at [2025-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-12.md), that means:
+Against the live month rollup at [2025-12.md](../../source-archive/statecraft/2025-12.md), that means:
 
 - `77` source files total in the month
 - `5` Mearsheimer-thread captures total
@@ -33,10 +33,10 @@ So December should no longer be read as a barely represented Mearsheimer month. 
 
 The currently landed `Judging Freedom / Napolitano + Mearsheimer` December captures are:
 
-- `2025-12-04` - [are-trumps-killings-and-threats-a-bluff](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-04/source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md)
-- `2025-12-09` - [can-europe-save-ukraine](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md)
-- `2025-12-18` - [unintended-consequences-of-a-meaningless-war](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md)
-- `2025-12-24` - [an-incoherent-foreign-policy](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- `2025-12-04` - [are-trumps-killings-and-threats-a-bluff](../../source-archive/statecraft/2025-12-04/source-judging-freedom-mearsheimer-are-trumps-killings-and-threats-a-bluff-2025-12-04.md)
+- `2025-12-09` - [can-europe-save-ukraine](../../source-archive/statecraft/2025-12-09/source-judging-freedom-mearsheimer-can-europe-save-ukraine-2025-12-09.md)
+- `2025-12-18` - [unintended-consequences-of-a-meaningless-war](../../source-archive/statecraft/2025-12-18/source-judging-freedom-mearsheimer-unintended-consequences-of-a-meaningless-war-2025-12-18.md)
+- `2025-12-24` - [an-incoherent-foreign-policy](../../source-archive/statecraft/2025-12-24/source-judging-freedom-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
 
 The key change from the opening watchlist is that December no longer depends on just one or two Napolitano anchors. It now has a visible mini-run across early, mid, and late December.
 
@@ -50,7 +50,7 @@ That does not erase its route value, but it should not be described more strongl
 
 December also has one real cross-host reinforcement object:
 
-- `2025-12-19` - [fake-diplomacy-and-permanent-conflict](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-19/source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md)
+- `2025-12-19` - [fake-diplomacy-and-permanent-conflict](../../source-archive/statecraft/2025-12-19/source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md)
 
 That matters because it keeps December from being a pure single-format Mearsheimer month. The month is still thin, but it is not thin in only one narrow host lane.
 

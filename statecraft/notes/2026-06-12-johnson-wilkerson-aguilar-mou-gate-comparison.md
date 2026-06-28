@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Johnson × Wilkerson × Aguilar — MOU Gate Comparison — 2026-06-12
 
-**Parent:** [2026-06-12 daily](statecraft/synthesis/day/2026-06-12.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [news-verify matrix](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)
+**Parent:** [2026-06-12 daily](../synthesis/day/2026-06-12.md) · [Lebanon gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [news-verify matrix](wire/2026-06-12-news-verify-matrix.md)
 
 **Archive anchors:**
 
@@ -17,7 +17,7 @@ WORK only; not Record.
 
 ## Shared object
 
-**Near-text MOU** with **point-1 ceasefire on all fronts including Lebanon** — tested same day by **IDF evacuation orders** (Sarafand, Tefahta, Mazraat Sini) and **Nabatieh-axis advance** ([wire J12-6](statecraft/notes/wire/2026-06-12-news-verify-matrix.md#shared-seam-anchors-j12-1--j12-6)).
+**Near-text MOU** with **point-1 ceasefire on all fronts including Lebanon** — tested same day by **IDF evacuation orders** (Sarafand, Tefahta, Mazraat Sini) and **Nabatieh-axis advance** ([wire J12-6](wire/2026-06-12-news-verify-matrix.md#shared-seam-anchors-j12-1--j12-6)).
 
 ---
 
@@ -83,7 +83,7 @@ Johnson's **three** Jun 12 appearances are **not redundant** with this trio:
 | Napolitano×Johnson | Credibility collapse; SPR/ammo ceiling |
 | Alkorshid×Johnson×Wilkerson | **This note's spine** — enforceability + Wilkerson grammar |
 
-Use **this companion** for gate mechanics; use [daily § Johnson triple-function](statecraft/synthesis/day/2026-06-12.md) for host-carrier split.
+Use **this companion** for gate mechanics; use [daily § Johnson triple-function](../synthesis/day/2026-06-12.md) for host-carrier split.
 
 ---
 
@@ -103,7 +103,7 @@ Use **this companion** for gate mechanics; use [daily § Johnson triple-function
 ## Tensions preserved
 
 1. **Johnson optimism on stand-down** vs **Wilkerson delay-tactic fear** — same MOU, opposite **time horizon**.
-2. **DW Aguilar enforcement** vs **Trump denial of leaked terms** — if WH performance frame holds, **no upfront gate goods** ([J12-3](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)).
+2. **DW Aguilar enforcement** vs **Trump denial of leaked terms** — if WH performance frame holds, **no upfront gate goods** ([J12-3](wire/2026-06-12-news-verify-matrix.md)).
 3. **MR Aguilar graduated trap** vs **DW Aguilar total-withdrawal floor** — Iran may **enforce Beirut/Dahieh** but **slide on South Lebanon**, splitting moral coalition from legal gate text.
 4. **MR dual-document uranium** vs **Johnson 14-point scaffold** — text may exist at **three incompatible resolutions** (Iran media, Vance tweet, Netanyahu assurance).
 5. **Wire fracture (J12-6)** — IDF evacuation orders are **pre-strike warning**, not withdrawal; supports Wilkerson **non-sequitur**, not DW Aguilar **gate green**.
@@ -114,7 +114,7 @@ Use **this companion** for gate mechanics; use [daily § Johnson triple-function
 ## Best next moves
 
 1. **72h watch:** IDF southern Lebanon op tempo vs any signed point-1 language; **separate** Beirut/Dahieh vs South Lebanon strike class ([MR Aguilar](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)).
-2. **Wire:** UAE tranche ([J12-4](statecraft/notes/wire/2026-06-12-news-verify-matrix.md)) — good-faith tranche vs contested delivery; **Qatar $12B cutout** (MR) vs direct unfreeze claims.
+2. **Wire:** UAE tranche ([J12-4](wire/2026-06-12-news-verify-matrix.md)) — good-faith tranche vs contested delivery; **Qatar $12B cutout** (MR) vs direct unfreeze claims.
 3. **Wire:** Uranium claims — Vance seize-on-site vs Araghchi in-house dilution (**dual-document** row).
-4. **Bridge:** [Marandi deal floor clauses](statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) — DW Aguilar FM-interview floor aligns with Marandi bundled gate; MR adds **response-gradient** falsifier.
+4. **Bridge:** [Marandi deal floor clauses](2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) — DW Aguilar FM-interview floor aligns with Marandi bundled gate; MR adds **response-gradient** falsifier.
 5. **America lane:** Append **aid-cut lever** + **§224 coupling** to [foreign-client-mesh](../america/transactions/foreign-client-mesh-separation-and-command-review.md) if operator ships.

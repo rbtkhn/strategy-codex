@@ -12,7 +12,7 @@ This note does not claim April closure. Its narrower job is to preserve the loca
 
 On current local evidence, April 2025 is one of the thinnest Mearsheimer months in the 2025 archive.
 
-The month rollup at [2025-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04.md) now shows:
+The month rollup at [2025-04.md](../../source-archive/statecraft/2025-04.md) now shows:
 
 - `57` source files total
 - `30` captured days
@@ -24,13 +24,13 @@ So April is not sparse overall. It is specifically thin in Mearsheimer presence 
 
 Six April 2025 Mearsheimer captures are currently on disk:
 
-- `2025-04-01` - [source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md)
-- `2025-04-03` - [source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md)
-- `2025-04-10` - [source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
+- `2025-04-01` - [source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md](../../source-archive/statecraft/2025-04-01/source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md)
+- `2025-04-03` - [source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md](../../source-archive/statecraft/2025-04-03/source-judging-freedom-mearsheimer-ukraine-cannot-survive-2025-04-03.md)
+- `2025-04-10` - [source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md](../../source-archive/statecraft/2025-04-10/source-judging-freedom-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
   Date note: `the landed transcript self-dates to April 10, 2025, while the external Judging Freedom transcript index lists the episode under April 9, 2025; retain the landed April 10 filing unless a stronger contrary source appears`
-- `2025-04-24` - [source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-24/source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
-- `2025-04-09` - [source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md)
-- `2025-04-17` - [source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md)
+- `2025-04-24` - [source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md](../../source-archive/statecraft/2025-04-24/source-judging-freedom-mearsheimer-can-ukraine-and-israel-embrace-peace-2025-04-24.md)
+- `2025-04-09` - [source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md](../../source-archive/statecraft/2025-04-09/source-daniel-davis-trade-tensions-explode-trump-v-china-2025-04-09.md)
+- `2025-04-17` - [source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md](../../source-archive/statecraft/2025-04-17/source-judging-freedom-mearsheimer-china-and-trade-2025-04-17.md)
 
 That means April already has:
 

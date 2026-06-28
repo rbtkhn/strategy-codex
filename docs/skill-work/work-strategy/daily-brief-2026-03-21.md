@@ -34,7 +34,7 @@ _From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._
 - AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
 
-_Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](../../work-strategy/README.md)._
+_Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](../../../README.md)._
 
 ## 2. Headlines (ingested RSS)
 

@@ -49,8 +49,8 @@ Keeping **raw** and **curated** separate avoids mixing YouTube caption noise wit
    - **`--resume`** â€” skip videos that already have a non-trivial `.txt`.  
    - **`--force`** â€” refetch even when manifest hash matches.  
    - **`transcript_manifest.json`** â€” `content_hash`, `quality`, `source_tier`, timestamps (dedup / incremental).  
-   - Output: `transcripts/*.txt` + `index.json` + manifest. See [predictive-history/README.md](../../youtube-channels/predictive-history/README.md) for RQ/Redis, env vars, and rebuild-after-queue.  
-   - **ASR fidelity:** Raw `.txt` lives under `predictive-history/transcripts/` (often gitignored). Use it to detect/fix caption errors before quoting in the book â€” see [ASR-VERIFICATION-RUBRIC.md](ASR-VERIFICATION-RUBRIC.md) and [predictive-history/transcripts/README.md](../../youtube-channels/predictive-history/transcripts/README.md).
+   - Output: `transcripts/*.txt` + `index.json` + manifest. See [predictive-history/README.md](../../README.md) for RQ/Redis, env vars, and rebuild-after-queue.  
+   - **ASR fidelity:** Raw `.txt` lives under `predictive-history/transcripts/` (often gitignored). Use it to detect/fix caption errors before quoting in the book â€” see [ASR-VERIFICATION-RUBRIC.md](ASR-VERIFICATION-RUBRIC.md) and [predictive-history/transcripts/README.md](../../README.md).
 
 2. **Optional parallel queue** â€” `pip install -e ".[transcript-pipeline]"`, Redis (`docker compose -f docker-compose.transcripts.yml up -d`), then `scripts/enqueue_youtube_transcripts.py` + `scripts/run_transcript_rq_worker.py`. Re-run the sync CLI afterward to refresh `index.json` (or use `--resume` to avoid re-downloads).
 
@@ -303,6 +303,6 @@ Before treating a memo as â€œdone for this sprintâ€:
 ## Appendix C â€” Related docs
 
 - [work-jiang README](README.md) â€” research tree  
-- [Predictive History channel README](../youtube-channels/predictive-history/README.md) â€” fetch details, gitignore behavior  
+- [Predictive History channel README](../../README.md) â€” fetch details, gitignore behavior  
 - [work-civ-mem README](../../docs/skill-work/work-civ-mem/README.md) â€” lattice as external reference, not automatic Record  
 

@@ -6,9 +6,9 @@ WORK only; not Record.
 
 Strategy-codex now uses a strict split:
 
-- [`statecraft/voices/`](../../statecraft/voices/) is the canonical home for whole-analyst continuity shelves.
-- [`statecraft/channels/`](../../statecraft/channels/) is the canonical home for host-family continuity (Davis, Napolitano, Nima, …).
-- [`source-archive/statecraft/`](../../source-archive/statecraft/) is the dated provenance layer.
+- [`statecraft/voices/`](../statecraft/voices) is the canonical home for whole-analyst continuity shelves.
+- [`statecraft/channels/`](../statecraft/channels) is the canonical home for host-family continuity (Davis, Napolitano, Nima, …).
+- [`source-archive/statecraft/`](../statecraft) is the dated provenance layer.
 
 Legacy **`codex/speakers/`** is terminated — [codex-speakers-deprecated.md](../docs/archive/codex-speakers-deprecated.md).
 

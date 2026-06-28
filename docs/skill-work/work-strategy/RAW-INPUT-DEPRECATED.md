@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Status:** The **`codex/raw-input/`** tree, **`codex/years/*/raw-input/`**, and compat **`docs/.../strategy-notebook/raw-input/`** paths are **deprecated** for new strategy-codex capture. Do not create new verbatim files there. Legacy files on disk remain **read-only archaeology**.
+**Status:** The **`codex/raw-input/`** tree, **`codex/years/*/raw-input/`**, and compat **`docs/.../../../codex/raw-input/`** paths are **deprecated** for new strategy-codex capture. Do not create new verbatim files there. Legacy files on disk remain **read-only archaeology**.
 
 ## What replaced it
 
@@ -46,7 +46,7 @@ Use **`source-archive/statecraft/_aired-pending/`** until **`pub_date`** is pinn
 
 - [`codex/raw-input/`](../../../codex/raw-input/README.md)
 - [`codex/years/2025/raw-input/`](../../../codex/years/2025/raw-input/) and [`codex/years/2026/raw-input/`](../../../codex/years/2026/raw-input/README.md)
-- Compat namespace **`docs/skill-work/work-strategy/strategy-notebook/raw-input/`** (removed; do not recreate)
+- Compat namespace **`docs/skill-work/work-strategy/../../codex/raw-input/`** (removed; do not recreate)
 
 Do **not** delete or bulk-migrate legacy captures in a deprecation pass unless the operator explicitly requests migration.
 

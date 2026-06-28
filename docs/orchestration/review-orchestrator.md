@@ -2,7 +2,7 @@
 
 The **review orchestrator** is a **read-only** helper that runs a small, explicit **multi-pass** workflow over a proposed change and emits a single **Markdown review packet** for the operator. It **parallelizes review structure, not authority**: it does **not** replace companion gate review, does **not** merge into the Record, and does **not** auto-approve candidates.
 
-**Canonical gate truth** remains [`recursion-gate.md`](../../recursion-gate.md). For a read-only gate backlog pass, use [`.cursor/skills/gate-review-pass/SKILL.md`](../../.cursor/skills/gate-review-pass/SKILL.md). For a **non-mutating** counterfactual preview of likely Record/downstream effects before approving a high-impact candidate, see the [Shadow Merge Simulator](shadow-merge-simulator.md). For an advisory **surface placement** check (claimed vs content signals), see the [Surface Misclassification Detector](surface-misclassification-detector.md).
+**Canonical gate truth** remains [`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md). For a read-only gate backlog pass, use [`.cursor/skills/gate-review-pass/SKILL.md`](../../.cursor/skills/gate-review-pass/SKILL.md). For a **non-mutating** counterfactual preview of likely Record/downstream effects before approving a high-impact candidate, see the [Shadow Merge Simulator](shadow-merge-simulator.md). For an advisory **surface placement** check (claimed vs content signals), see the [Surface Misclassification Detector](surface-misclassification-detector.md).
 
 ## What it does
 

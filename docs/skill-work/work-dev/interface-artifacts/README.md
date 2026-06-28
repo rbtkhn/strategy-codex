@@ -58,8 +58,8 @@ mockups, and similar operator-facing surfaces.
 
 Current strategy-facing anchors:
 
-- [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md)
-- [../../work-strategy/strategy-notebook/strategy-console/README.md](../../work-strategy/strategy-notebook/strategy-console/README.md)
+- [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../../../README.md)
+- [../../work-strategy/strategy-notebook/strategy-console/README.md](../../../../README.md)
 - [../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md](../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md)
 
 ### Relation to operator dashboards

@@ -77,7 +77,7 @@ Open Pape for shock clocks and coercive leverage, Jiang for China-facing strateg
 For the accumulating upstream chapter-seed list, use [China chapter seeds](chapter-seeds.md). That file is where cross-arc chapter ideas should now accumulate.
 Use [China doctrine](china-doctrine.md) when the chapter needs the full lane worldview stated in one place. Use [China volume writing brief](china-volume-writing-brief.md) when you are already drafting and need the shorter operative control surface.
 
-For the first detailed bridge from `strategy-codex` speaker work into China Volume I chapter generation, use [Freeman to China volume seeds](../../../speakers/freeman/freeman-to-china-volume-seeds.md). That note is meant to generate chapter pressure and analogy discipline, not to replace the China lane's own helix or strand surfaces.
+For the first detailed bridge from `strategy-codex` speaker work into China Volume I chapter generation, use [Freeman to China volume seeds](../../../../statecraft/voices/freeman/freeman-to-china-volume-seeds.md). That note is meant to generate chapter pressure and analogy discipline, not to replace the China lane's own helix or strand surfaces.
 
 ## Preferred Instruments
 

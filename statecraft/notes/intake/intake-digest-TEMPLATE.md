@@ -2,13 +2,13 @@ WORK only; not Record.
 
 # Statecraft Intake Digest — YYYY-MM-DD
 
-Precursor to [daily synthesis](statecraft/synthesis/METHOD.md) — not a substitute. Generate with:
+Precursor to [daily synthesis](../../synthesis/METHOD.md) — not a substitute. Generate with:
 
 ```bash
 python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --write-digest
 ```
 
-Spec: [docs/statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md)
+Spec: [docs/statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)
 
 ## Top signals (queue)
 

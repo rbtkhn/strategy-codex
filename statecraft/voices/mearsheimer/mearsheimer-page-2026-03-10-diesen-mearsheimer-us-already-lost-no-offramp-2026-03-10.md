@@ -23,8 +23,8 @@ Mearsheimian off-ramp / attrition; host media-frame questions are in the [diesen
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../years/2026/provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
+- **Full verbatim (capture):** [provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../source-archive/statecraft/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../diesen/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=1e9NhLfPNKU`
 - **Legacy stub:** [mearsheimer-page-2026-03-10-us-already-lost-no-offramp.md](mearsheimer-page-2026-03-10-us-already-lost-no-offramp.md)

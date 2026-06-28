@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about host transformation, guest differentiation, or canonical routing, route to those named shelf surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Nima structure now lives in the host shelf front door at [nima/README.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/README.md), the host routing surface at [nima/index.md](/C:/dev/strategy-codex/statecraft/channels/dialogue-works/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Nima structure now lives in the host shelf front door at [nima/README.md](README.md), the host routing surface at [nima/index.md](index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
 
 **Source:** Distilled from [`transcript.md`](transcript.md) (what the host said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
@@ -46,20 +46,20 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`source-baud-dialogue-works-nima-2026-04-27.md`](provenance/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:nima
-- Inbox | cold: full text in [`source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:nima
-- Inbox | cold: full text in [`source-marandi-blockade-trump-nima-2026-04-21.md`](provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md) (pointer; SSOT raw-input) | thread:nima
-- Inbox | cold: full text in [`source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`](provenance/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) (pointer; SSOT raw-input **Marandi** episode **/** host lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â symmetric `crosses:marandi`) | thread:nima
-- Inbox | cold: full text in [`source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`](provenance/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`source-baud-dialogue-works-nima-2026-04-27.md`](../../../source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`source-marandi-blockade-trump-nima-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`](../../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) (pointer; SSOT raw-input **Marandi** episode **/** host lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â symmetric `crosses:marandi`) | thread:nima
+- Inbox | cold: full text in [`source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`](../../../source-archive/statecraft/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) (pointer; SSOT raw-input) | thread:nima
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦` files tagged with this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md](provenance/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) _on-disk_
-- [source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](provenance/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
-- [source-baud-dialogue-works-nima-2026-04-27.md](provenance/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md)
-- [source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
-- [source-marandi-blockade-trump-nima-2026-04-21.md](provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
+- [source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md](../../../source-archive/statecraft/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) _on-disk_
+- [source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](../../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
+- [source-baud-dialogue-works-nima-2026-04-27.md](../../../source-archive/statecraft/2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md)
+- [source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](../../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
+- [source-marandi-blockade-trump-nima-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)
 <!-- strategy-expert-thread:end -->
 

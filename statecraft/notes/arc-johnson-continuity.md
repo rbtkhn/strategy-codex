@@ -28,12 +28,12 @@ Purpose: define `arc-johnson-continuity` as the canonical person-level continuit
 Its main embodied lanes are:
 
 1. [Diesen x Johnson](../../notes/arc-johnson-diesen-host.md) for geopolitical altitude and regional-order consequence
-2. [Davis host shelf](../../channels/daniel-davis/README.md) for operational feasibility and failed coercion
+2. [Davis host shelf](../../README.md) for operational feasibility and failed coercion
 3. [Dialogue Works x Johnson](../../notes/arc-johnson-nima-host.md) for live crisis pressure and humiliation tempo
 
 Auxiliary reinforcement:
 
-- the [Napolitano host shelf](../../channels/judging-freedom/README.md) is real on disk but still reinforcement rather than a fourth canonical strand
+- the [Napolitano host shelf](../../README.md) is real on disk but still reinforcement rather than a fourth canonical strand
 
 ## What Makes This An Arc
 

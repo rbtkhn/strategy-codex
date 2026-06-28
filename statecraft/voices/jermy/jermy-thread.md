@@ -14,12 +14,12 @@ Quick separation rule:
 
 If a question is about host transformation, triadic strand separation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Jermy structure now lives in [jermy-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-speaker-object.md), [jermy-cross-host-note.md](/C:/dev/strategy-codex/statecraft/voices/jermy/jermy-cross-host-note.md), and the three host-local arcs under Davis, Diesen, and Peacemonger. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Jermy structure now lives in [jermy-speaker-object.md](jermy-speaker-object.md), [jermy-cross-host-note.md](jermy-cross-host-note.md), and the three host-local arcs under Davis, Diesen, and Peacemonger. Do not treat this file as a competing canonical topical-thread atlas.
 
-**Source:** Distilled from [`strategy-expert-jermy-transcript.md`](strategy-expert-jermy-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`strategy-expert-jermy-transcript.md`](jermy-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-jermy.md`](strategy-expert-jermy.md) (profile) and [`strategy-expert-jermy-transcript.md`](strategy-expert-jermy-transcript.md) (7-day verbatim).
+**Companion files:** [`strategy-expert-jermy.md`](jermy-profile.md) (profile) and [`strategy-expert-jermy-transcript.md`](jermy-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -183,11 +183,11 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 
 ### Reflection
 
-**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
+**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -199,8 +199,8 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -213,7 +213,7 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -245,7 +245,7 @@ none this pass
 - **Ritter 085 (pin):** inbox line Ã¢â‚¬â€ `TBD-canonical-085` Ã¢â€ â€™ replace when canonical **YouTube** ID is fixed.
 - **Davis Ãƒâ€” Jermy (same day):** [YouTube `etxmqrdm3V0`](https://www.youtube.com/watch?v=etxmqrdm3V0) Ã¢â‚¬â€ **`thread:davis`**, **`thread:jermy`**
 - **Diesen Ãƒâ€” Sachs blockade:** [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) Ã¢â‚¬â€ **`thread:diesen`**, **`thread:sachs`**
-- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
+- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
 
 ### Receipt
 
@@ -253,9 +253,9 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
-| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../legacy page index) Ã¢â‚¬â€ search `2026-04-14` |
+| **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md) Ã¢â‚¬â€ search `2026-04-14` |
 
 **Falsifier:** This weave fails if **one** **merged** **Judgment** treats **Ritter** **hull**/**interdiction** **claims** as **fully** **confirmed** by **`parsi`** **EU** **wording**, **`sachs`** **NYT** **room** **hypotheses**, or **`jermy`** **GDP** **slides** **without** **tiered** **verify** Ã¢â‚¬â€ **expert** **lattice** **collapsed** into **mood**.
 <!-- strategy-page:end -->
@@ -288,8 +288,8 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-14 |
-| **page_id** (machine slug) | `armstrong-cash-hormuz-digital-dollar-arc` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../legacy page index) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../days.md) |
+| **page_id** (machine slug) | `armstrong-cash-hormuz-digital-dollar-arc` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -302,7 +302,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 ### Lineage
 
-- **Ingest:** Operator **Cursor session weave** (option **D**) Ã¢â‚¬â€ not gated on a single [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) paste line; **optional follow-up:** add a cold line + `batch-analysis` tail if this arc is folded into the inbox accumulator.
+- **Ingest:** Operator **Cursor session weave** (option **D**) Ã¢â‚¬â€ not gated on a single [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) paste line; **optional follow-up:** add a cold line + `batch-analysis` tail if this arc is folded into the inbox accumulator.
 - **Indexed expert threads (`thread:<expert_id>`):** **none** for this page Ã¢â‚¬â€ provocation is **social + documentary** sources, not a named **strategy-commentator** transcript row. Same-day **Hormuz** work on **2026-04-14** uses **`thread:ritter`**, **`thread:davis`**, **`thread:jermy`**, etc.; this page is a **different plane** (money, statute, attribution).
 - **Analytical lenses (work-strategy mind files Ã¢â‚¬â€ not `thread:` experts):** [CIV-MIND-BARNES.md](../../../minds/CIV-MIND-BARNES.md) (statute, Federal Reserve Act, Congress as chokepoint), [CIV-MIND-MERCOURIS.md](../../../minds/CIV-MIND-MERCOURIS.md) (legitimacy of cash, civilizational Ã¢â‚¬Å“storyÃ¢â‚¬Â of money), [CIV-MIND-MEARSHEIMER.md](../../../minds/CIV-MIND-MEARSHEIMER.md) (who gains if retail central-bank digital currency stalls while private digital dollars advance).
 - **Source objects woven:** **Martin Armstrong** posts on X (`@ArmstrongEcon`) Ã¢â‚¬â€ **emotional / percentage** provocation (cash vs digital split; adjacent commodity claims); **Larry Fink / BlackRock** Ã¢â‚¬â€ chairman letters and public interviews on **tokenization** and **market plumbing** (primary pulls in Links); **U.S. Congress** Ã¢â‚¬â€ stablecoin and retail central-bank digital currency bills (text in Links); **Statista** (citing **Signal Group**) Ã¢â‚¬â€ **Arabian Gulf** share of **seaborne fertilizer** exports (definition: **origin**, not automatically **Strait of Hormuz transit**).
@@ -313,7 +313,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Page | Relation |
 |------|-----------|
-| `ritter-blockade-hormuz-weave` | **Hormuz** expert mechanics Ã¢â‚¬â€ **orthogonal** to this pageÃ¢â‚¬â„¢s **U.S. payment-law** arc; **fertilizer** language may **overlap in mood** with **`jermy`** cascade lines in [`days.md`](../days.md), not as proof of the same **quantity**. |
+| `ritter-blockade-hormuz-weave` | **Hormuz** expert mechanics Ã¢â‚¬â€ **orthogonal** to this pageÃ¢â‚¬â„¢s **U.S. payment-law** arc; **fertilizer** language may **overlap in mood** with **`jermy`** cascade lines in [`days.md`](../../../codex/chapters/2026/2026-04/days.md), not as proof of the same **quantity**. |
 
 ### References
 
@@ -328,7 +328,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 **Not** load-bearing for the **2026-04-14** thesis above (cash / statute / Gulf-origin fertilizer definition; **BlackRock** / **Congress** primaries). A **separate** pair of X posts from Martin Armstrong raises **PakistanÃ¢â‚¬â€œnuclear analogy**, attacks **Kushner** and **Witkoff** as negotiators (with **Vance** named), and uses **Ã¢â‚¬Å“religious warÃ¢â‚¬Â** framing.
 
-**Tie to this page only** when an operator weave **explicitly** couples **negotiation-trust**, **personnel mood**, or **Ã¢â‚¬Å“who speaks for WashingtonÃ¢â‚¬Â** to the **war-economy + payment-plumbing** arc. **Default:** keep that content on the **`thread:armstrong`** journal in [`strategy-expert-armstrong-thread.md`](../../../strategy-expert-armstrong-thread.md) and use **expert crosses** (`barnes`, `davis`, `mearsheimer`, `marandi`) Ã¢â‚¬â€ **do not** merge **fertilizer share**, **bill text**, or **Fink** lines with those **X** claims without a **labeled seam**. Pin **exact** status URL(s) / screenshot if this satellite is cited outside WORK.
+**Tie to this page only** when an operator weave **explicitly** couples **negotiation-trust**, **personnel mood**, or **Ã¢â‚¬Å“who speaks for WashingtonÃ¢â‚¬Â** to the **war-economy + payment-plumbing** arc. **Default:** keep that content on the **`thread:armstrong`** journal in [`strategy-expert-armstrong-thread.md`](../armstrong/armstrong-thread.md) and use **expert crosses** (`barnes`, `davis`, `mearsheimer`, `marandi`) Ã¢â‚¬â€ **do not** merge **fertilizer share**, **bill text**, or **Fink** lines with those **X** claims without a **labeled seam**. Pin **exact** status URL(s) / screenshot if this satellite is cited outside WORK.
 
 ---
 <!-- strategy-page:end -->

@@ -23,7 +23,7 @@ see: docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md
 
 **Status:** Deprecated **2026-06-21**. Do not treat **`check streams`** as the canonical skill name for new work.
 
-Full spec: [CHECK-STREAMS-DEPRECATED.md](../../docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md)
+Full spec: [CHECK-STREAMS-DEPRECATED.md](../../../docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md)
 
 ## Use instead
 
@@ -31,7 +31,7 @@ Full spec: [CHECK-STREAMS-DEPRECATED.md](../../docs/skill-work/work-strategy/CHE
 |------|----------------|
 | Daily / roster YouTube discovery + source-intake handoff | **`check sources`** ([`check-sources`](../check-sources/SKILL.md)) |
 | Fast pass on six daily watchlist channels | **`check sources watchlist`** (same skill; filter `watchlist: true` in roster) |
-| Machine roster | [`channel-index.json`](../../statecraft/channels/channel-index.json) via `load_check_sources_roster()` |
+| Machine roster | [`channel-index.json`](../../../statecraft/channels/channel-index.json) via `load_check_sources_roster()` |
 | Archive land | **`source-intake`** ([`statecraft-source-intake`](../statecraft-source-intake/SKILL.md)) |
 
 ## Legacy activation

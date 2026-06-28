@@ -30,9 +30,9 @@ Use this file to decide which Jiang layer to open first.
 ## First-open paths
 
 - Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
-- Public mirror: [ph-civ/README.md](ph-civ/README.md)
-- Volume I interwoven spine: [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](ph-civ/book/volume-i-civilization/interwoven-reader/README.md)
-- Volume I Parts shelf: [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md)
+- Public mirror: [ph-civ/README.md](../../../README.md)
+- Volume I interwoven spine: [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](../../../README.md)
+- Volume I Parts shelf: [ph-civ/book/volume-i-civilization/parts/README.md](../../../README.md)
 - Jiang analysis notes: [ph-civ/docs/jiang-analysis-index.md](ph-civ/docs/jiang-analysis-index.md)
 - Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md)
 
@@ -42,12 +42,12 @@ Ten **Part doorways** overlay the interwoven civilization spine — navigation o
 
 | Surface | Path |
 |---------|------|
-| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md) |
+| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](../../../README.md) |
 | Registry (SSOT) | [ph-civ/data/parts/volume-i-parts.json](ph-civ/data/parts/volume-i-parts.json) |
 | Part boundary tour | [ph-civ/data/routes/part-boundary-tour.json](ph-civ/data/routes/part-boundary-tour.json) |
 | LLM `part_tour` mode | [ph-civ/data/llm-experience.json](ph-civ/data/llm-experience.json) |
 
-**Reading law:** open the [interwoven spine](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) for canonical order; use Part doorways for law-discovery questions, companion weave, and corridor links. **Part** here ≠ lecture transcript "Part I / Part II" ≠ CIV-STATE Part 1/2/3.
+**Reading law:** open the [interwoven spine](../../../README.md) for canonical order; use Part doorways for law-discovery questions, companion weave, and corridor links. **Part** here ≠ lecture transcript "Part I / Part II" ≠ CIV-STATE Part 1/2/3.
 
 **Split seams:** VI/VII at `civ-34`/`civ-35` (Dante bookend — opens in VI, returns in VII); IX/X at `civ-53`/`civ-54`.
 

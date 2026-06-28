@@ -6,15 +6,15 @@ This note records the current architectural pause point for the `statecraft/synt
 
 ## What Is Now Real
 
-- the daily shelf now extends through [2026-05-31.md](statecraft/synthesis/day/2026-05-31.md), adding a new sparse-day proof surface after the May benchmark run
-- the active validator in [../scripts/validate_statecraft_daily_synthesis.py](/C:/dev/strategy-codex/scripts/validate_statecraft_daily_synthesis.py) now reports the shelf boundary honestly instead of silently skipping it:
+- the daily shelf now extends through [2026-05-31.md](day/2026-05-31.md), adding a new sparse-day proof surface after the May benchmark run
+- the active validator in [../scripts/validate_statecraft_daily_synthesis.py](../../scripts/validate_statecraft_daily_synthesis.py) now reports the shelf boundary honestly instead of silently skipping it:
   - `3` migrated daily notes
   - `28` legacy daily notes
   - `1` month note
-- the shelf still has one clear benchmark month, [2026-05.md](statecraft/synthesis/month/2026-05.md), and three migrated daily notes:
-  - [2026-05-29.md](statecraft/synthesis/day/2026-05-29.md)
-  - [2026-05-30.md](statecraft/synthesis/day/2026-05-30.md)
-  - [2026-05-31.md](statecraft/synthesis/day/2026-05-31.md)
+- the shelf still has one clear benchmark month, [2026-05.md](month/2026-05.md), and three migrated daily notes:
+  - [2026-05-29.md](day/2026-05-29.md)
+  - [2026-05-30.md](day/2026-05-30.md)
+  - [2026-05-31.md](day/2026-05-31.md)
 
 ## What Is Sealed
 
@@ -46,6 +46,6 @@ The next elegant build step is **not** broad new automation and **not** prematur
 The next wedge is one of these two:
 
 - migrate another bounded cluster of May daily notes into the active five-volume contract
-- or write one strong statecraft note opened specifically by [2026-05-31.md](statecraft/synthesis/day/2026-05-31.md), most likely on `carrier capture versus sovereign burden-bearing`
+- or write one strong statecraft note opened specifically by [2026-05-31.md](day/2026-05-31.md), most likely on `carrier capture versus sovereign burden-bearing`
 
 Either path compounds the current architecture without blurring the line between migrated proof surfaces and legacy shelf coverage.

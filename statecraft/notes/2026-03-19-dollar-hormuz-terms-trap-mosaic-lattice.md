@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # Dollar-Hormuz Terms × Trap–Mosaic–Implementation Lattice
 
-**Anchors:** [2026-03-16 daily](statecraft/synthesis/day/2026-03-16.md) · [2026-03-19 daily](statecraft/synthesis/day/2026-03-19.md) · [2026-03-23 daily](statecraft/synthesis/day/2026-03-23.md)
+**Anchors:** [2026-03-16 daily](../synthesis/day/2026-03-16.md) · [2026-03-19 daily](../synthesis/day/2026-03-19.md) · [2026-03-23 daily](../synthesis/day/2026-03-23.md)
 
-**Leg docs:** [Pape × Crooke](statecraft/notes/2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Ritter × trap × mosaic](statecraft/notes/2026-03-16-ritter-implementation-trap-mosaic.md) · **Monthly:** [2026-03](statecraft/synthesis/month/2026-03.md)
+**Leg docs:** [Pape × Crooke](2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Ritter × trap × mosaic](2026-03-16-ritter-implementation-trap-mosaic.md) · **Monthly:** [2026-03](../synthesis/month/2026-03.md)
 
 ## Purpose
 
@@ -116,6 +116,6 @@ March 23 Freeman **operationalizes** the same layer without contradicting Crooke
 ## Best Next Uses
 
 - **June genesis read:** May–June command-unreliability assumes March already proved **sponsor cannot execute closure** — this lattice is the March proof packet.
-- **Statecraft note follow-on (written):** [Postol × Ritter](statecraft/notes/2026-03-23-postol-vs-ritter-implementation-battlefield.md) — radar/interceptor phases × Hormuz gauntlet.
+- **Statecraft note follow-on (written):** [Postol × Ritter](2026-03-23-postol-vs-ritter-implementation-battlefield.md) — radar/interceptor phases × Hormuz gauntlet.
 - **Pape questions-as-spec:** Use §2 logistics indicators as EXECUTE falsifiers for any "Hormuz solved" headline week.
 - **Attribution:** Pape/Crooke newsletter; Freeman/Postol/Baud interview; Simplicius proxy only for Kharg/Marine rumor cross-check.

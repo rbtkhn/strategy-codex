@@ -1,6 +1,6 @@
 # last30days Research Skill Example
 
-> **Deprecated (2026-06):** The `last30days` skill stub redirects to [`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md). This page remains a **research workflow example** only.
+> **Deprecated (2026-06):** The `last30days` skill stub redirects to [`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md). This page remains a **research workflow example** only.
 
 **Status:** WORK / skill example. This page demonstrates usage only; it does not add live connectors, scheduled research, or Record authority.
 

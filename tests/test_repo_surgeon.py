@@ -15,12 +15,15 @@ if str(_SCRIPTS) not in sys.path:
 
 from operator_report_utils import Finding, overall_status  # noqa: E402
 from repo_surgeon import (  # noqa: E402
+    CATEGORY_TAXONOMY,
     build_findings,
     build_json_payload,
+    build_ledger_payload,
     build_markdown,
     findings_from_links,
     findings_from_local_path_leaks,
     main,
+    write_ledger,
 )
 from validate_structured_files import collect_markdown_paths  # noqa: E402
 
@@ -182,3 +185,64 @@ def test_missing_optional_checks_graceful(tmp_path: Path) -> None:
         max_link_errors=None,
     )
     assert isinstance(findings, list)
+
+
+def test_ledger_taxonomy_maps_categories() -> None:
+    findings = [
+        Finding("warning", "local_path", "leak"),
+        Finding("blocking", "skill_drift", "drift"),
+    ]
+    payload = build_json_payload(findings, [], generated_at="t", commands_run=[])
+    ledger = build_ledger_payload(payload, findings)
+    cats = {row["category"] for row in ledger["categories"]}
+    assert "absolute_path" in cats
+    assert "skill_metadata" in cats
+    assert ledger["warning_count"] == payload["warning_count"]
+
+
+def test_write_ledger_roundtrip(tmp_path: Path) -> None:
+    ledger = {
+        "generated_at": "t",
+        "blocking_count": 0,
+        "warning_count": 1,
+        "info_count": 0,
+        "status": "yellow",
+        "categories": [],
+    }
+    out = tmp_path / "ledger.json"
+    write_ledger(out, ledger)
+    loaded = json.loads(out.read_text(encoding="utf-8"))
+    assert loaded["warning_count"] == 1
+
+
+def test_strict_exit_code_on_warnings(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr("repo_surgeon.REPO_ROOT", tmp_path, raising=False)
+    monkeypatch.setattr(
+        "repo_surgeon.build_findings",
+        lambda *a, **k: ([Finding("warning", "broken_link", "x")], {}),
+    )
+    monkeypatch.setattr(
+        "repo_surgeon.findings_from_strict_orchestration",
+        lambda repo: ([], {}),
+    )
+    out = tmp_path / "out.md"
+    json_out = tmp_path / "out.json"
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "repo_surgeon.py",
+            "--out",
+            str(out),
+            "--json-out",
+            str(json_out),
+            "--no-existing-checks",
+            "--strict",
+        ],
+    )
+    assert main() == 1
+
+
+def test_category_taxonomy_has_core_keys() -> None:
+    assert CATEGORY_TAXONOMY["broken_link"] == "broken_link"
+    assert CATEGORY_TAXONOMY["local_path"] == "absolute_path"

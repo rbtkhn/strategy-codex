@@ -29,7 +29,7 @@ Copy-paste stubs for new `work-*` lanes: [lane-contract.template.md](lane-contra
 ## Glossary (lifecycle)
 
 - **Promoted-to-ledger:** A pattern, heuristic, or watch is recorded in the laneâ€™s **WORK-LEDGER** (or lane-specific equivalent such as [STRATEGY.md](../work-strategy/STRATEGY.md)). Still WORK-only.  
-- **Promoted-to-Record:** Content crosses into **SELF**, **EVIDENCE**, or **prompt** only via **RECURSION-GATE** + companion approval + `process_approved_candidates.py` per [AGENTS.md](../../AGENTS.md).
+- **Promoted-to-Record:** Content crosses into **SELF**, **EVIDENCE**, or **prompt** only via **RECURSION-GATE** + companion approval + `process_approved_candidates.py` per [AGENTS.md](../../../AGENTS.md).
 
 Do not use **â€œpromotedâ€** alone when both meanings could apply; specify ledger vs Record.
 
@@ -101,7 +101,7 @@ Lanes may stop at any tier. Do not copy nine files into a thin lane â€œbecau
 
 ## Repo machinery (light touch)
 
-- **Gate / Record:** [AGENTS.md](../../AGENTS.md) â€” merge only via script after companion approval.  
+- **Gate / Record:** [AGENTS.md](../../../AGENTS.md) â€” merge only via script after companion approval.  
 - **Operator menus:** [work-menu-conventions.md](../work-menu-conventions.md).  
 - **Lane prefixes:** [operator-agent-lanes.md](../../operator-agent-lanes.md).  
 - **Coffee / daily brief habit:** [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md), [work-coffee/README.md](../work-coffee/README.md) â€” e.g. work-strategy combined brief is now an **explicit daily-brief route**, not **coffee menu C** (the generator does not run in coffee Step 1).  

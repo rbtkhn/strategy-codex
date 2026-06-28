@@ -1,3 +1,9 @@
+---
+audience: operator
+authority: doctrine
+record_status: frozen
+---
+
 # AGENTS.md — AI Coding Assistant Guardrails
 
 This file is the **always-on contract** for coding assistants in **strategy-codex**. Extended fork, gate, MEMORY, and permission detail: [`docs/agent-rules/deep-rules.md`](docs/agent-rules/deep-rules.md).

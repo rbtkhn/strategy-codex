@@ -18,7 +18,7 @@ tags:
 
 **Status:** Deprecated as a standalone entry. Do not invoke this skill directly for new work.
 
-**Use instead:** [`skills/runbooks/civ-state-volume-hardening.runbook.md`](../runbooks/civ-state-volume-hardening.runbook.md) after **`civ-state`** entry.
+**Use instead:** [`skills/runbooks/civ-state-volume-hardening.runbook.md`](../../skills/runbooks/civ-state-volume-hardening.runbook.md) after **`civ-state`** entry.
 
 ## Legacy activation
 

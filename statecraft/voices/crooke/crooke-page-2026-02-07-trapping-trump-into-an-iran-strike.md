@@ -24,7 +24,6 @@ WORK only; not Record.
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-02-07/source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md](../../../years/2026/provenance/2026-02-07/source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `thread:crooke`, 2026-02-07)
+- **Full verbatim (capture):** [provenance/2026-02-07/source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md](../../../source-archive/statecraft/2026-02-07/source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md)
 - **`thread:crooke`** · **verify:** primary capture on disk + `pub_date` + inbox row; Conflicts Forum tier as analyst commentary unless wire-backed.
 - **Canonical primary:** https://conflictsforum.substack.com/p/trapping-trump-into-an-iran-strike

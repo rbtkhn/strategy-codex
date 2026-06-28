@@ -38,7 +38,7 @@ Every run emits a **validated** receipt (`schema_version` 1) tying **`resources_
 |-------|------|
 | Research JSON | Operator-structured capture; no Record truth. |
 | Evidence stub (this adapter) | Pre-canonical markdown under `runtime/artifacts/`; labeled non-canonical. |
-| Candidate proposal | Structured YAML/text for [`recursion-gate.md`](../../recursion-gate.md) â€” separate step. |
+| Candidate proposal | Structured YAML/text for [`recursion-gate.md`](../../archive/grace-mar-instance/recursion-gate.md) â€” separate step. |
 | Approved Record evidence | After companion approval / merge scripts â€” **not** automatic from this tool. |
 
 `record_action` and `suggested_gate_action` values are **routing hints** only (`create_candidate_only`, `stage_for_review`, etc.); they **do not** append to EVIDENCE or `self.md`.

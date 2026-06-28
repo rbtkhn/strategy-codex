@@ -4,7 +4,7 @@ Grace-Mar keeps an inspectable map of runtime-related workers in [`platform/conf
 
 ## Non-goals (read this first)
 
-- **No canonical authority.** This registry is **documentation plus CI validation**. It does **not** grant merge approval, does **not** give workers authority over [`RECURSION-GATE`](../../recursion-gate.md), and does **not** change companion-controlled merges ([`process_approved_candidates.py`](../../scripts/process_approved_candidates.py)).
+- **No canonical authority.** This registry is **documentation plus CI validation**. It does **not** grant merge approval, does **not** give workers authority over [`RECURSION-GATE`](../../archive/grace-mar-instance/recursion-gate.md), and does **not** change companion-controlled merges ([`process_approved_candidates.py`](../../scripts/process_approved_candidates.py)).
 - **No Record edits.** Workers documented here **must not** be interpreted as permission to edit `self.md`, `self-archive.md`, or [`archive/grace-mar-instance/bot/prompt.py`](../../archive/grace-mar-instance/bot/prompt.py); those paths remain governed solely by the gated pipeline in [`AGENTS.md`](../../AGENTS.md).
 
 If tooling reads this file in the future, treat it as **constraints documentation**, not as an ACL that replaces human gate review.

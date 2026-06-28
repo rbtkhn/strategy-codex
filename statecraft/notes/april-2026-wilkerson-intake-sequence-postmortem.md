@@ -8,12 +8,12 @@ Purpose: preserve what the just-completed April 2026 Wilkerson intake run proved
 
 Bounded sequence:
 
-- [2026-04-02 - *Is Netanyahu Getting Desperate?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/source-judging-freedom-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md)
-- [2026-04-09 - *How Iran Brought Trump to His Knees.*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-09/source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md)
-- [2026-04-10 - *Ceasefire Fails, NATO Died & the U.S. Risks Civil War*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-10/source-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md)
-- [2026-04-16 - *Will Israel Go Nuclear?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md)
-- [2026-04-17 - *Iran Just FULLY Opened the Strait of Hormuz - It's OVER for Trump*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md)
-- [2026-04-28 - *Trump's Own Advisors Now SPLIT on Iran - Israel's Plan DECIMATED*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md)
+- [2026-04-02 - *Is Netanyahu Getting Desperate?*](../../source-archive/statecraft/2026-04-02/source-judging-freedom-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md)
+- [2026-04-09 - *How Iran Brought Trump to His Knees.*](../../source-archive/statecraft/2026-04-09/source-judging-freedom-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md)
+- [2026-04-10 - *Ceasefire Fails, NATO Died & the U.S. Risks Civil War*](../../source-archive/statecraft/2026-04-10/source-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md)
+- [2026-04-16 - *Will Israel Go Nuclear?*](../../source-archive/statecraft/2026-04-16/source-judging-freedom-wilkerson-will-israel-go-nuclear-2026-04-16.md)
+- [2026-04-17 - *Iran Just FULLY Opened the Strait of Hormuz - It's OVER for Trump*](../../source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md)
+- [2026-04-28 - *Trump's Own Advisors Now SPLIT on Iran - Israel's Plan DECIMATED*](../../source-archive/statecraft/2026-04-28/source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md)
 
 Start state:
 
@@ -23,8 +23,8 @@ Start state:
 
 End state:
 
-- April is now an honest [nine-anchor month](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-april-2026-note.md)
-- the bounded [contradiction audit](/C:/dev/strategy-codex/statecraft/notes/wilkerson-april-2026-contradiction-audit.md) is closed
+- April is now an honest [nine-anchor month](../voices/wilkerson/wilkerson-april-2026-note.md)
+- the bounded [contradiction audit](wilkerson-april-2026-contradiction-audit.md) is closed
 - host-balance and month-shape claims now match the archive
 
 ## Efficiency judgment

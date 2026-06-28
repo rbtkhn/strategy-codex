@@ -22,7 +22,7 @@ Open the kernel first if you need:
 4. **Run the realism / incentive filter.** Test capability against actual incentive and alternative explanations before locking the premise.
 5. **Run the solvency / legitimacy filter.** If debt, bread, subsidy, currency, or extraction pressure is central, protect the legitimacy good before designing reform.
 6. **Classify the crisis object.** Name the contested object whose classification drives war or settlement pressure.
-7. **Open speaker-state continuity if needed.** When the live object is speaker-conditioned and continuity is the real uncertainty, open the statecraft-native month, thread, or routing surface under [speakers/](speakers/README.md) before crossing the bridge or descending into lane drafting.
+7. **Open speaker-state continuity if needed.** When the live object is speaker-conditioned and continuity is the real uncertainty, open the statecraft-native month, thread, or routing surface under [speakers/](../README.md) before crossing the bridge or descending into lane drafting.
 8. **Restore the lane route.** If lane ownership is already clear, reopen the lane through `helix -> current state carriers -> transaction drafting` and use support material only to sharpen that route.
 9. **Use lane bridge doctrine if needed.** When ownership is clear but the remaining uncertainty is still posture, run the lane's bridge before clause design.
 10. **Route through the transaction plateau.** Check the [Transaction Router](sheets/transaction-router.md) before inventing a new object.

@@ -17,4 +17,4 @@ These are full readable academy copies of the core civ-mem satellite theology es
 
 ## Source
 
-Source essays live in [docs/civilization-memory/essays/](../../../../../docs/civilization-memory/essays/). Update this academy folder manually when source changes matter.
+Source essays live in [docs/civilization-memory/essays/](../../../../docs/civilization-memory/essays). Update this academy folder manually when source changes matter.

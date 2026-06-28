@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Marandi × Sachs — Outcome Accounting Fork — 2026-06-15
 
-**Parent:** [2026-06-15 Daily Synthesis](statecraft/synthesis/day/2026-06-15.md) · **Cross-day anchor:** [Sun 14 Johnson × Marandi](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) · **Related:** [Johnson × Davis MOU skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) · [2026-06-14 daily](statecraft/synthesis/day/2026-06-14.md)
+**Parent:** [2026-06-15 Daily Synthesis](../synthesis/day/2026-06-15.md) · **Cross-day anchor:** [Sun 14 Johnson × Marandi](../../source-archive/statecraft/2026-06-14/source-dialogue-works-johnson-marandi-us-iran-reach-deal-full-details-2026-06-14.md) · **Related:** [Johnson × Davis MOU skepticism](2026-06-15-johnson-davis-mou-skepticism-fork.md) · [2026-06-14 daily](../synthesis/day/2026-06-14.md)
 
 **Sources:**
 
@@ -129,7 +129,7 @@ Sun 14–Mon 15 arc: Marandi names the **close** (~2.5h) and **diplomatic upside
 ## Best Next Uses
 
 - **Parent daily** `2026-06-15.md`: use for **Marandi cross-day** + **Sachs dual-register** rows in speaker-value table.
-- **Pair with** [Johnson × Davis skepticism](statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md) — Johnson/Davis ask *whether* paper binds; Marandi/Sachs ask *who wins the accounting* if it does or doesn’t.
+- **Pair with** [Johnson × Davis skepticism](2026-06-15-johnson-davis-mou-skepticism-fork.md) — Johnson/Davis ask *whether* paper binds; Marandi/Sachs ask *who wins the accounting* if it does or doesn’t.
 - **News-verify:** Lebanon halt, SNSC/Mehr vs US text, asset release — falsifier table above.
 - **Persia bridge:** Marandi = recognition/blame floor; Sachs Napolitano = economic warfare + own-money return as anti-humiliation partial.
 

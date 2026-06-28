@@ -1,12 +1,12 @@
 **strategy-codex instance notes**
 
-- Canonical doctrine note for this skill: [statecraft/states/primary-text-architecture.md](/C:/dev/strategy-codex/statecraft/states/primary-text-architecture.md)
+- Canonical doctrine note for this skill: [statecraft/states/primary-text-architecture.md](../../../statecraft/states/primary-text-architecture.md)
 - Canonical structured layers:
-  - [source-records](/C:/dev/strategy-codex/statecraft/states/source-records/README.md)
-  - [source-excerpts](/C:/dev/strategy-codex/statecraft/states/source-excerpts/README.md)
-  - [source-sidecar](/C:/dev/strategy-codex/statecraft/states/source-sidecar/README.md)
+  - [source-records](../../../statecraft/states/source-records/README.md)
+  - [source-excerpts](../../../statecraft/states/source-excerpts/README.md)
+  - [source-sidecar](../../../statecraft/states/source-sidecar/README.md)
 - Current pilot records live under:
-  - [statecraft/states/source-records/pilot](/C:/dev/strategy-codex/statecraft/states/source-records/pilot)
+  - [statecraft/states/source-records/pilot](../../../statecraft/states/source-records/pilot)
 
 **Preferred maintenance commands after skill edits**
 

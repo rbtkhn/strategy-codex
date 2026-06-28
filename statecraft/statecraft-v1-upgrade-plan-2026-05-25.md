@@ -22,7 +22,7 @@ This is an operator roadmap, not new doctrine.
 
 - [statecraft.md](statecraft.md)
 - [README.md](README.md)
-- [.cursor/skills/state-deploy/SKILL.md](/C:/dev/strategy-codex/.cursor/skills/state-deploy/SKILL.md)
+- [.cursor/skills/state-deploy/SKILL.md](../.cursor/skills/state-deploy/SKILL.md)
 
 **Implementation order:**
 
@@ -40,9 +40,9 @@ This is an operator roadmap, not new doctrine.
 
 **Likely surfaces:**
 
-- [.cursor/skills/state-deploy/SKILL.md](/C:/dev/strategy-codex/.cursor/skills/state-deploy/SKILL.md)
-- [.cursor/skills/statecraft-bridge/SKILL.md](/C:/dev/strategy-codex/.cursor/skills/statecraft-bridge/SKILL.md)
-- [iran/README.md](iran/README.md)
+- [.cursor/skills/state-deploy/SKILL.md](../.cursor/skills/state-deploy/SKILL.md)
+- [.cursor/skills/statecraft-bridge/SKILL.md](../.cursor/skills/statecraft-bridge/SKILL.md)
+- [iran/README.md](../README.md)
 
 **Implementation order:**
 

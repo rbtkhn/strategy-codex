@@ -17,7 +17,7 @@ tags:
 ---
 # Abundance-native ventures (legacy alias)
 
-**Superseded by:** [product-strategy](../product-strategy/SKILL.md) **Ventures mode** · [venture-ideation.runbook.md](../runbooks/venture-ideation.runbook.md)
+**Superseded by:** [product-strategy](../product-strategy/SKILL.md) **Ventures mode** · [venture-ideation.runbook.md](../../skills/runbooks/venture-ideation.runbook.md)
 
 **Activation:** `abundance ventures`, `abundance-native` — execute product-strategy Ventures mode.
 

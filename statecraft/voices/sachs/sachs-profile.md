@@ -126,4 +126,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-sachs-transcript.md`](strategy-expert-sachs-transcript.md) (7-day rolling verbatim) and [`strategy-expert-sachs-thread.md`](strategy-expert-sachs-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-sachs-transcript.md`](sachs-transcript.md) (7-day rolling verbatim) and [`strategy-expert-sachs-thread.md`](sachs-thread.md) (distilled analytical thread).

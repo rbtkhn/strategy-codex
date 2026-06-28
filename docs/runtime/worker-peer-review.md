@@ -2,7 +2,7 @@
 
 A **heuristic, runtime-only** pass that evaluates a **completed worker draft** (proposal markdown + [execution receipt](execution-receipts.md) for the same `run_id`). It emits JSON validated by `schemas/registry/runtime-peer-review.v1.json`.
 
-**Not** [RECURSION-GATE](../../recursion-gate.md) review, **not** merge authority, and **not** the [review orchestrator](../orchestration/review-orchestrator.md) (which builds multi-phase **observation / candidate** packets).
+**Not** [RECURSION-GATE](../../archive/grace-mar-instance/recursion-gate.md) review, **not** merge authority, and **not** the [review orchestrator](../orchestration/review-orchestrator.md) (which builds multi-phase **observation / candidate** packets).
 
 **Entry:** [`scripts/runtime/run_runtime_peer_review.py`](../../scripts/runtime/run_runtime_peer_review.py) â€” see `--help`.
 

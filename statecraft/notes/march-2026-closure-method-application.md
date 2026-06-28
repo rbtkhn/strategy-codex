@@ -50,7 +50,7 @@ Why:
 - the on-disk host balance is legible: `Dialogue Works` dominance with one `Judging Freedom` and one `Diesen` reinforcement
 - the note explicitly says no bounded March queue remains inside the tracked object
 
-Use [wilkerson-march-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-march-2026-note.md) as the month truth surface.
+Use [wilkerson-march-2026-note.md](../voices/wilkerson/wilkerson-march-2026-note.md) as the month truth surface.
 
 ### Parsi
 
@@ -61,16 +61,16 @@ Best reading:
 Why:
 
 - the on-disk March Parsi run already includes authored mechanism plus interview pressure:
-  - [2026-03-04 - *Further Thoughts on Trump and Israel's War of Choice with Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-04/source-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md)
-  - [2026-03-08 - *Why the Iranian Theocracy Will Likely Survive*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md)
-  - [2026-03-09 - *Can Trump Declare Unilateral Victory and End the Iran War?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-09/source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md)
-  - [2026-03-16 - *Iran: Making It Painful for U.S.*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
-  - [2026-03-16 - *How Washington Underestimated Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md)
-  - [2026-03-17 - *Why Was Larijani Targeted?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md)
+  - [2026-03-04 - *Further Thoughts on Trump and Israel's War of Choice with Iran*](../../source-archive/statecraft/2026-03-04/source-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md)
+  - [2026-03-08 - *Why the Iranian Theocracy Will Likely Survive*](../../source-archive/statecraft/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md)
+  - [2026-03-09 - *Can Trump Declare Unilateral Victory and End the Iran War?*](../../source-archive/statecraft/2026-03-09/source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md)
+  - [2026-03-16 - *Iran: Making It Painful for U.S.*](../../source-archive/statecraft/2026-03-16/source-daniel-davis-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
+  - [2026-03-16 - *How Washington Underestimated Iran*](../../source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md)
+  - [2026-03-17 - *Why Was Larijani Targeted?*](../../source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md)
 - the existing cross-context note already describes a coherent month object rather than a thin or obviously broken one
 - current evidence does not yet isolate one clear missing March source whose landing would materially repair the month
 
-Use [arc-march-2026-cross-context-parsi-host.md](/C:/dev/strategy-codex/arc-march-2026-cross-context-parsi-host.md) as the March Parsi routing surface.
+Use [arc-march-2026-cross-context-parsi-host.md](../../arc-march-2026-cross-context-parsi-host.md) as the March Parsi routing surface.
 
 ## Operational consequence
 

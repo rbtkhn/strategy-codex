@@ -1,6 +1,6 @@
 ﻿# Mission workspace (WORK)
 
-**Not canonical Record.** Mission folders hold **mission-scale** plans, intake from tacit candidates, and review notes. Promotion into SELF or EVIDENCE still requires [recursion-gate.md](../../../../recursion-gate.md) + merge script per [moonshot-operating-model.md](../../../moonshot-operating-model.md).
+**Not canonical Record.** Mission folders hold **mission-scale** plans, intake from tacit candidates, and review notes. Promotion into SELF or EVIDENCE still requires [recursion-gate.md](../../../../archive/grace-mar-instance/recursion-gate.md) + merge script per [moonshot-operating-model.md](../../../moonshot-operating-model.md).
 
 | Item | Purpose |
 |------|---------|

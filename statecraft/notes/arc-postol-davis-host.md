@@ -100,7 +100,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about how technical underperformance widens into strategic-order consequence rather than about the mechanism itself, route outward to [arc-postol-diesen-host.md](/C:/dev/strategy-codex/arc-postol-diesen-host.md).
+- If the question is mainly about how technical underperformance widens into strategic-order consequence rather than about the mechanism itself, route outward to [arc-postol-diesen-host.md](../../arc-postol-diesen-host.md).
 
 - Postol is strongest here on engineering and deterrence realism, not on domestic liability, coalition politics, or diplomatic sequencing.
 - This arc is strongly real in the stream, but much of it is still not materialized to canonical raw-input on disk.
