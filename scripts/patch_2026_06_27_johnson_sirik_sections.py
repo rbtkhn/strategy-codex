@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from transcript_section_curation import (  # noqa: E402
+    apply_interview_turn_speaker_labels,
     find_anchor_pos,
     insert_sections,
     mark_sectioned_frontmatter,
@@ -224,6 +225,21 @@ def validate_capture(path: Path) -> list[str]:
     return errors
 
 
+def append_speaker_label_note(head: str, *, turns: int) -> str:
+    note = f" · interview speaker-label pass 2026-06-28 ({turns} turns; Nima/Larry >> markers)"
+    if note in head:
+        return head
+    if re.search(r"^editorial_note:", head, flags=re.M):
+        return re.sub(
+            r'^(editorial_note: ")(.*?)("\s*$)',
+            rf"\1\2{note}\3",
+            head,
+            count=1,
+            flags=re.M,
+        )
+    return head
+
+
 def write_capture(path: Path) -> int:
     doc = path.read_text(encoding="utf-8")
     head, marker, body = flat_body_from_doc(doc)
@@ -233,6 +249,13 @@ def write_capture(path: Path) -> int:
     head = mark_sectioned_frontmatter(head, section_count=len(SECTION_TITLES))
     head = append_resection_note(head)
     body = insert_sections(body, SECTION_TITLES, SECTION_ANCHORS)
+    body, turns_labeled = apply_interview_turn_speaker_labels(
+        body,
+        host="Nima Alkhorshid",
+        guest="Larry Johnson",
+    )
+    if turns_labeled:
+        head = append_speaker_label_note(head, turns=turns_labeled)
     body = reflow_section_paragraphs(body)
     path.write_text(head + marker + body, encoding="utf-8")
     return asr_subs

@@ -8,7 +8,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from transcript_section_curation import (  # noqa: E402
+    apply_interview_turn_speaker_labels,
     detect_body_marker,
+    inject_dialogue_works_missing_turn_markers,
     insert_sections,
     mark_sectioned_frontmatter,
     normalize_for_anchor,
@@ -167,3 +169,27 @@ def test_pack_sentences_prefers_discourse_pivot_break():
     )
     assert len(paras) >= 2
     assert any(p.strip().startswith("Now,") for p in paras[1:])
+
+
+def test_inject_dialogue_works_missing_turn_marker_before_host_cue():
+    raw = (
+        ">> I I think they're out of Jordan. Iran will know where they came from. "
+        "My understanding today, Larry, there are reports from Iran."
+    )
+    injected = inject_dialogue_works_missing_turn_markers(raw)
+    assert " >> My understanding today, Larry" in injected
+
+
+def test_apply_interview_labels_splits_merged_strike_origins_turn():
+    raw = (
+        ">> I I think I think they're probably coming out of Jordan. "
+        "Iran's going to know where they came from. "
+        "My understanding today, Larry, there's some reports coming from Iran. "
+        ">> Yeah, they've already they already responded uh and hit Bahrain."
+    )
+    labeled, n = apply_interview_turn_speaker_labels(raw)
+    assert n == 3
+    assert "**Larry Johnson:** I I think I think" in labeled
+    assert "**Nima Alkhorshid (host):** My understanding today, Larry" in labeled
+    assert "**Nima Alkhorshid (host):** Yeah, they've already" in labeled
+    assert ">>" not in labeled

@@ -345,6 +345,9 @@ def reflow_section_paragraphs(
     if not body.strip():
         return body
 
+    if body_has_interview_speaker_labels(body):
+        return body
+
     if not _SECTION_HEADING_LINE.search(body):
         return _reflow_section_chunk(
             body,
@@ -435,6 +438,218 @@ def strip_speakers_before_section_headings(body: str, speaker_pattern: str) -> s
         r"\n\n\1",
         body,
     )
+
+
+def body_has_interview_speaker_labels(body: str) -> bool:
+    return bool(re.search(r"^\*\*.+\(host\):\*\*", body, re.M))
+
+
+def normalize_dialogue_works_asr_turns(text: str) -> str:
+    """Collapse common YouTube ASR false ``>>`` splits (not speaker turns)."""
+    text = re.sub(r"\s>>\s+on\s>>\s+", " on ", text, flags=re.I)
+    text = re.sub(r"\s>>\s+off\s>>\s+", " off ", text, flags=re.I)
+    # Broken mid-sentence guest continuation (e.g. "Jordan. The >> people").
+    text = re.sub(r"\.\sThe\s>>\s+", ". The ", text)
+    return text
+
+
+# Host lines ASR sometimes merges into the prior guest ``>>`` chunk without a marker.
+DIALOGUE_WORKS_HOST_TURN_SPLITS: tuple[str, ...] = (
+    "My understanding today, Larry",
+)
+
+
+def inject_dialogue_works_missing_turn_markers(text: str) -> str:
+    """Insert ``>>`` before host lines glued onto a guest turn (no marker in source)."""
+    for cue in DIALOGUE_WORKS_HOST_TURN_SPLITS:
+        if f">> {cue}" in text or f">>{cue}" in text:
+            continue
+        text = re.sub(
+            rf"(?<=[.!?]\s){re.escape(cue)}",
+            rf" >> {cue}",
+            text,
+        )
+    text = re.sub(r"\s*>>\s*>>\s+", " >> ", text)
+    return text
+
+
+def _guess_dialogue_works_host(piece: str) -> bool | None:
+    opening = piece.lstrip()[:160].lower()
+    if opening.startswith(
+        (
+            "i think i think",
+            "i i think i think",
+            "i mean,",
+            "well, you know",
+            "well,",
+            "look they stopped",
+            "correct.",
+            "i'm told",
+            "i anticipate",
+            "either way,",
+            "maybe uh",
+        )
+    ):
+        return False
+    if opening.startswith(("uh yeah", "yeah. yeah. no, i think")):
+        return False
+    if opening.startswith(
+        (
+            "yeah, they've already they already",
+            "yeah. they've already",
+            "yeah. one of the us officials",
+            "yeah. but again, all i'm saying",
+            "yeah. who",
+            "hi everybody",
+        )
+    ):
+        return True
+    if opening.startswith(
+        (
+            "so yeah, they're not that",
+            "yeah, bahrain was reported",
+            "people they've already",
+            "do you you know who",
+        )
+    ):
+        return False
+
+    lower = piece[:500].lower()
+    host_cues = (
+        "larry,",
+        " Larry",
+        "my understanding today, lar",
+        "the problem lar",
+        "here is no reports",
+        "i don't know if lar",
+        "what has happened in lebanon",
+        "yeah. you see the flag",
+        "their argument is this lar",
+        "i talked with mar",
+        "today i talk with david",
+        "the communication line that jd vance",
+        "there is no communication lar",
+        "who's giving them the basis",
+        "yeah. but again, all i'm saying",
+        "the whole i think it's it's the outcome of the marco rubio's visit",
+        "did did he did he issue",
+        "was it was it was it the ayatollah",
+        "yeah. my the reason that i said",
+        "yeah. the iranian media",
+        "how much pressure do they receive",
+        "to the point of sanctions, lar",
+        "do you think that he's going to",
+        "jd vance, he went on",
+        "he he he told me yesterday",
+    )
+    guest_cues = (
+        "i really, for the life of me",
+        "i don't know because it was nobody",
+    )
+    host_score = sum(1 for cue in host_cues if cue in lower)
+    guest_score = sum(1 for cue in guest_cues if cue in lower)
+    if host_score > guest_score:
+        return True
+    if guest_score > host_score:
+        return False
+    return None
+
+
+def merge_orphan_paragraphs_into_prior_turn(body: str) -> str:
+    """Attach unlabeled paragraphs to the preceding speaker turn (interview layout)."""
+    blocks = re.split(r"\n\s*\n", body.strip())
+    merged: list[str] = []
+    for block in blocks:
+        stripped = block.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("### ") or re.match(r"^\*\*.+:\*\*", stripped):
+            merged.append(stripped)
+            continue
+        if merged and not merged[-1].startswith("### "):
+            merged[-1] = merged[-1] + "\n\n" + stripped
+        else:
+            merged.append(stripped)
+    return "\n\n".join(merged) + "\n\n"
+
+
+def apply_interview_turn_speaker_labels(
+    body: str,
+    *,
+    host: str = "Nima Alkhorshid",
+    guest: str = "Larry Johnson",
+    host_suffix: str = " (host)",
+    start_with_host: bool = True,
+) -> tuple[str, int]:
+    """Replace YouTube ``>>`` turn markers with alternating host/guest speaker labels."""
+    if body_has_interview_speaker_labels(body) or ">>" not in body:
+        return body, 0
+
+    host_label = f"**{host}{host_suffix}:**"
+    guest_label = f"**{guest}:**"
+    speaker_is_host = start_with_host
+    turns_labeled = 0
+
+    sections = re.split(r"(^### .+$)", body, flags=re.M)
+    out: list[str] = []
+    for part in sections:
+        if not part:
+            continue
+        if part.startswith("### "):
+            out.append(part.rstrip() + "\n\n")
+            continue
+        labeled, speaker_is_host, n = _label_section_turns(
+            part,
+            host_label=host_label,
+            guest_label=guest_label,
+            speaker_is_host=speaker_is_host,
+        )
+        turns_labeled += n
+        out.append(labeled)
+
+    result = "".join(out)
+    if turns_labeled:
+        result = merge_orphan_paragraphs_into_prior_turn(result)
+    return result, turns_labeled
+
+
+def _label_section_turns(
+    text: str,
+    *,
+    host_label: str,
+    guest_label: str,
+    speaker_is_host: bool,
+) -> tuple[str, bool, int]:
+    text = normalize_dialogue_works_asr_turns(text)
+    text = inject_dialogue_works_missing_turn_markers(text)
+    pieces = re.split(r"\s*>>\s*", text)
+    blocks: list[str] = []
+    count = 0
+
+    leading = pieces[0].strip() if pieces else ""
+    if leading:
+        guess = _guess_dialogue_works_host(leading)
+        if guess is not None:
+            speaker_is_host = guess
+        label = host_label if speaker_is_host else guest_label
+        blocks.append(f"{label} {leading}")
+        count += 1
+
+    for piece in pieces[1:]:
+        piece = piece.strip()
+        if not piece:
+            continue
+        speaker_is_host = not speaker_is_host
+        guess = _guess_dialogue_works_host(piece)
+        if guess is not None:
+            speaker_is_host = guess
+        label = host_label if speaker_is_host else guest_label
+        blocks.append(f"{label} {piece}")
+        count += 1
+
+    if not blocks:
+        return text, speaker_is_host, 0
+    return "\n\n".join(blocks) + "\n\n", speaker_is_host, count
 
 
 def prepend_speaker_at_section_opens(
