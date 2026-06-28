@@ -40,6 +40,17 @@ from validate_structured_files import collect_markdown_paths, validate_markdown_
 DEFAULT_OUT = ARTIFACTS_DIR / "repo-surgeon" / "latest.md"
 DEFAULT_JSON = ARTIFACTS_DIR / "repo-surgeon" / "latest.json"
 
+CATEGORY_TAXONOMY: dict[str, str] = {
+    "broken_link": "broken_link",
+    "local_path": "absolute_path",
+    "path_adoption": "stale_path",
+    "root_layout": "root_layout",
+    "skill_drift": "skill_metadata",
+    "archive_boundary": "archive_boundary",
+    "generated_drift": "generated_drift",
+    "deprecated_surface": "deprecated_surface",
+}
+
 SSOT_LINK_TARGETS = frozenset(
     {
         "AGENTS.md",
@@ -288,6 +299,96 @@ def findings_from_checks(
     return findings, outputs
 
 
+def findings_from_strict_orchestration(repo_root: Path) -> tuple[list[Finding], dict[str, str]]:
+    """Extra checks when --strict is set (health, routing drift, archive indices, authority)."""
+    findings: list[Finding] = []
+    outputs: dict[str, str] = {}
+    py = python_executable()
+    checks: list[tuple[str, list[str], str, str, str]] = [
+        (
+            "check_repo_health",
+            [py, str(_SCRIPTS / "check_repo_health.py"), "--quick"],
+            "warning",
+            "generated_drift",
+            "Run python3 scripts/check_repo_health.py --quick and fix reported issues",
+        ),
+        (
+            "generate_llm_routing",
+            [py, str(_SCRIPTS / "generate_llm_routing.py"), "--check"],
+            "warning",
+            "generated_drift",
+            "Run python3 scripts/generate_llm_routing.py",
+        ),
+        (
+            "refresh_statecraft_archive_indices",
+            [py, str(_SCRIPTS / "refresh_statecraft_archive_indices.py"), "--check"],
+            "warning",
+            "generated_drift",
+            "Run python3 scripts/refresh_statecraft_archive_indices.py",
+        ),
+        (
+            "check_archive_boundary",
+            [py, str(_SCRIPTS / "check_archive_boundary.py")],
+            "warning",
+            "archive_boundary",
+            "Reroute live workflow away from Record; add fork-revive framing",
+        ),
+    ]
+    authority_script = _SCRIPTS / "check_doc_authority_markers.py"
+    if authority_script.is_file():
+        checks.append(
+            (
+                "check_doc_authority_markers",
+                [py, str(authority_script)],
+                "warning",
+                "deprecated_surface",
+                "Add audience/authority/record_status markers per docs/runbooks/repo-surgeon.md",
+            )
+        )
+    for name, argv, severity, category, action in checks:
+        code, text = run_check(argv, repo_root)
+        outputs[name] = text
+        if code == 0:
+            continue
+        summary = text.splitlines()[0] if text else f"{name} exited {code}"
+        findings.append(
+            Finding(
+                severity=severity,
+                category=category,
+                file=None,
+                line=None,
+                message=summary,
+                suggested_action=action,
+            )
+        )
+    return findings, outputs
+
+
+def build_ledger_payload(payload: dict[str, Any], findings: list[Finding]) -> dict[str, Any]:
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for f in findings:
+        tax = CATEGORY_TAXONOMY.get(f.category, f.category)
+        grouped.setdefault(tax, []).append(f.to_dict())
+    categories = [
+        {"category": cat, "count": len(items), "findings": items}
+        for cat, items in sorted(grouped.items(), key=lambda x: x[0])
+    ]
+    return {
+        "generated_at": payload.get("generated_at"),
+        "blocking_count": payload.get("blocking_count"),
+        "warning_count": payload.get("warning_count"),
+        "info_count": payload.get("info_count"),
+        "status": payload.get("status"),
+        "categories": categories,
+    }
+
+
+def write_ledger(path: Path, ledger: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(ledger, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {path}")
+
+
 def build_findings(
     repo_root: Path,
     *,
@@ -466,12 +567,14 @@ def generate_report(
     *,
     out: Path = DEFAULT_OUT,
     json_out: Path = DEFAULT_JSON,
+    ledger_out: Path | None = None,
     snapshot: bool = False,
     run_checks: bool = True,
     scope: str = "docs",
     max_link_errors: int = 50,
     verify_portable: bool = False,
     fail_on_blocking: bool = False,
+    strict: bool = False,
 ) -> tuple[int, dict[str, Any]]:
     """Build and write Repo Surgeon report; return (exit_code, json_payload)."""
     out_path = out if out.is_absolute() else (repo_root / out).resolve()
@@ -485,6 +588,10 @@ def generate_report(
             verify_portable=verify_portable,
             max_link_errors=None,
         )
+        if strict:
+            extra_findings, extra_outputs = findings_from_strict_orchestration(repo_root)
+            findings = findings + extra_findings
+            check_outputs.update(extra_outputs)
     except ValueError as exc:
         print(str(exc), file=sys.stderr)
         return 2, {}
@@ -520,10 +627,21 @@ def generate_report(
     json_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
+    if ledger_out is not None:
+        ledger_path = (
+            ledger_out if ledger_out.is_absolute() else (repo_root / ledger_out).resolve()
+        )
+        write_ledger(ledger_path, build_ledger_payload(payload, findings))
+
     print(f"wrote {out_path}")
     print(f"wrote {json_path}")
-    print(f"status: {payload['status']} (blocking={payload['blocking_count']})")
+    print(
+        f"status: {payload['status']} "
+        f"(blocking={payload['blocking_count']}, warnings={payload['warning_count']})"
+    )
 
+    if strict and (payload["blocking_count"] > 0 or payload["warning_count"] > 0):
+        return 1, payload
     if fail_on_blocking and payload["blocking_count"] > 0:
         return 1, payload
     return 0, payload
@@ -573,9 +691,20 @@ def main() -> int:
         help="Also run sync_portable_skills.py --verify",
     )
     parser.add_argument(
+        "--ledger-out",
+        type=Path,
+        default=None,
+        help="Write grouped category ledger JSON (Phase 0 baseline)",
+    )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Run orchestrated health checks; exit 1 on any warning or blocking finding",
+    )
+    parser.add_argument(
         "--fail-on-blocking",
         action="store_true",
-        help="Exit 1 when any blocking finding exists",
+        help="Exit 1 when any blocking finding exists (without --strict warning gate)",
     )
     args = parser.parse_args()
 
@@ -584,12 +713,14 @@ def main() -> int:
         REPO_ROOT,
         out=args.out,
         json_out=args.json_out,
+        ledger_out=args.ledger_out,
         snapshot=args.snapshot,
         run_checks=run_checks,
         scope=args.scope,
         max_link_errors=args.max_link_errors,
         verify_portable=args.verify_portable_skills,
         fail_on_blocking=args.fail_on_blocking,
+        strict=args.strict,
     )
     return code
 
