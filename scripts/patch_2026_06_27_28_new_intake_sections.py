@@ -110,6 +110,7 @@ SPECS: tuple[CaptureSpec, ...] = (
             "Theater Vs Hard Hit — Escalation Cycle",
             "Velos Escort — OSINT Ship Tracker",
             "Oman Channel — June 24 Protocol",
+            "Marinetra Live — Velos Atlantis Debunk",
             "Kuwait Ballistic — Boot Club Interlude",
             "Gulf Blinder — Qatar Saudi UAE Deals",
             "Kiev Strike Question — Largest Hit In A While",
@@ -137,6 +138,7 @@ SPECS: tuple[CaptureSpec, ...] = (
             "However, today, earlier today, uh, Iran struck Bahrain even before the current",
             "So today Larry there was a situation where a separate to the vessel that got hit",
             "In the meantime, while I'm getting that up, um, what's what's your thoughts about the Omanis?",
+            "there's one one that's uh the the Atlantis is transited is coming out of the straight",
             "warning sirens in Kuwait. Ballistic missiles",
             ">> So, The other element of this is Larry uh it makes sense that I mean they keep hitting Bahin",
             "But just Larry, the um the question to you is this. We basically have a scenario",
@@ -159,7 +161,7 @@ SPECS: tuple[CaptureSpec, ...] = (
             "I know the it doesn't it isn't really called a war, but okay. Two conflicts, two wars",
             "Um, actually, uh, okay, I'll talk to you about next time, but there was this report about Italy",
         ),
-        " · source-section re-section pass 2026-06-28 (26 sections; Kiev/CENTCOM/Trump/escort/merged splits)",
+        " · source-section re-section pass 2026-06-28 (27 sections; Oman marinetra split)",
     ),
 )
 

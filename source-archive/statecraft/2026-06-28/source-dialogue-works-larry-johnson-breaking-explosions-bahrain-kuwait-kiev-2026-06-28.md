@@ -30,7 +30,7 @@ opening_tier: breaking-live
 capture_note: Operator paste; full live breaking-news interview body preserved from user-supplied YouTube transcript.
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (johnson, alkorshid, channel:dialogue-works)); 14 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-28 (13 sections). · source-section pass 2026-06-28 (13 sections; breaking-live) · source-section pass 2026-06-28 (16 sections). · source-section pass 2026-06-28 (26 sections). · interview speaker-label pass 2026-06-28 (176 turns; Nima/Larry >> markers) · source-section re-section pass 2026-06-28 (26 sections; Kiev/CENTCOM/Trump/escort/merged splits)"
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (johnson, alkorshid, channel:dialogue-works)); 14 substitutions; not human-verified verbatim; verify before quotation. · source-section pass 2026-06-28 (13 sections). · source-section pass 2026-06-28 (13 sections; breaking-live) · source-section pass 2026-06-28 (16 sections). · source-section pass 2026-06-28 (26 sections). · interview speaker-label pass 2026-06-28 (176 turns; Nima/Larry >> markers) · source-section pass 2026-06-28 (27 sections). · source-section re-section pass 2026-06-28 (27 sections; Oman marinetra split)"
 quality_note: "ASR normalization pass 2026-06-28; ph-civ replacement SSOT."
 transcript_curation: curated_sectioned
 ---
@@ -167,35 +167,37 @@ can't find his tweet now. So, I'm getting maybe he's deleted it. Uh, a picture o
 
 So, once it's out of the straight of Hormuz, this should have its transponder turned on and be located. There's no nowhere to be seen. Yeah, it's a great point. It's a great point you're making there, Larry, because um I mean he did I didn't I should have um
 
-**Larry Johnson:** there's one one that's uh the the Atlantis is transited is coming out of the straight. That's it.
+### Marinetra Live — Velos Atlantis Debunk
+
+**Nima Alkhorshid:** there's one one that's uh the the Atlantis is transited is coming out of the straight. That's it.
 
 Well, there's one behind it called the Atlantic harmony. Uh I guess it's uh
 
-**Nima Alkhorshid:** okay, let me check. It
+**Larry Johnson:** okay, let me check. It
 
-**Larry Johnson:** destination is Candla. Okay, let me show as well. Okay. Okay. Let's see. Let me show the audience as well so they can see what I've got here.
+**Nima Alkhorshid:** destination is Candla. Okay, let me show as well. Okay. Okay. Let's see. Let me show the audience as well so they can see what I've got here.
 
-**Nima Alkhorshid:** Yeah, the Candla Candla is going to India.
+**Larry Johnson:** Yeah, the Candla Candla is going to India.
 
 So, there's one there's one there that's headed to India. It's a smaller ship.
 
-**Larry Johnson:** So,
+**Nima Alkhorshid:** So,
 
-**Nima Alkhorshid:** it says uh underway position received 3 minutes ago. Vessel location time. Let's see where it is now. Match destination Saudi Arabia. Can you see Larry? This is the one that they claim.
+**Larry Johnson:** it says uh underway position received 3 minutes ago. Vessel location time. Let's see where it is now. Match destination Saudi Arabia. Can you see Larry? This is the one that they claim.
 
-**Larry Johnson:** Hang on here. Let me
+**Nima Alkhorshid:** Hang on here. Let me
 
-**Nima Alkhorshid:** I mean that doesn't look like it's gone past the straight almost, right? It looks like it's turned back.
+**Larry Johnson:** I mean that doesn't look like it's gone past the straight almost, right? It looks like it's turned back.
 
-**Larry Johnson:** Yeah. Well, it's it's going the wrong direction.
+**Nima Alkhorshid:** Yeah. Well, it's it's going the wrong direction.
 
-**Nima Alkhorshid:** Yeah. So, it's probably been turned back, right?
+**Larry Johnson:** Yeah. So, it's probably been turned back, right?
 
-**Larry Johnson:** Yeah. Yeah. There it is. Velos turquoise.
+**Nima Alkhorshid:** Yeah. Yeah. There it is. Velos turquoise.
 
-**Nima Alkhorshid:** Yeah.
+**Larry Johnson:** Yeah.
 
-**Larry Johnson:** Uh it's it's it's it did Huh. It didn't get through the straight, huh? Geez. Imagine that.
+**Nima Alkhorshid:** Uh it's it's it's it did Huh. It didn't get through the straight, huh? Geez. Imagine that.
 
 **Nima Alkhorshid:** Oh, damn. [laughter] See, Larry, have I did I do a better job on the on the website? Have I improved? Have I got
 
