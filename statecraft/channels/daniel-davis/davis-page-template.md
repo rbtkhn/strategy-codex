@@ -1,10 +1,9 @@
-# `davis` codex-page � template (compat stub)
-
 WORK only; not Record.
 
-**Canonical scaffold:** [../../../../strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd](../../../strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd.
+# Davis Page Template (compat redirect)
 
-When copying from the canonical template, substitute **`davis`** everywhere that file uses the literal token `{expert_id}` (preambles, filenames, `thread:` lines, appendix grep hints).
+Compatibility pointer only.
 
-This stub keeps **`Template:`** lines in [`transcript.md`](transcript.md) and older links working.
+The canonical file now lives at **[davis-page-template.md](../../voices/davis/davis-page-template.md)**.
 
+Use **statecraft/voices/davis/davis-page-template.md** going forward; this file remains only as a stable back-compat entry for older links.

@@ -25,7 +25,7 @@ Johnson now has a full native continuity stack of his own.
 | the bounded April 2026 cross-host sequence | [johnson-shelf-2026-04.md](johnson-shelf-2026-04.md) | Month-synthesis surface for ceasefire contradiction, blockade theater, and widening shock. |
 | the bounded May 2026 cross-host sequence | [johnson-shelf-2026-05.md](johnson-shelf-2026-05.md) | Month-synthesis surface for Gulf repositioning, BRICS/China angle, and post-control reality. |
 | geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [arc-johnson-diesen-host.md](../../notes/arc-johnson-diesen-host.md) | Diesen gives the highest-altitude Johnson lane. |
-| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](../../channels/daniel-davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
+| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](../../voices/davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
 | live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [arc-johnson-nima-host.md](../../notes/arc-johnson-nima-host.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
 | blockade skepticism, process pressure, or auxiliary reinforcement | [napolitano-lane-map-2026-05.md](../../channels/judging-freedom/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on process irrationality. |
 

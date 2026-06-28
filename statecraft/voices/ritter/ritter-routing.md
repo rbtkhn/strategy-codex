@@ -23,7 +23,7 @@ The efficient structure is therefore:
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| operational feasibility, stockpiles, skies, basing pressure, or blockade impracticality | [davis-lane-map-2026-05.md](../../channels/daniel-davis/davis-lane-map-2026-05.md) | Davis gives Ritter his clearest military-practicality and war-feasibility testing ground. |
+| operational feasibility, stockpiles, skies, basing pressure, or blockade impracticality | [davis-lane-map-2026-05.md](../../voices/davis/davis-lane-map-2026-05.md) | Davis gives Ritter his clearest military-practicality and war-feasibility testing ground. |
 | escalation horizon, sea-control pressure, cross-theater spillover, or mechanics beneath geopolitical framing | [arc-ritter-diesen-host.md](../../notes/arc-ritter-diesen-host.md) | Diesen gives the highest-altitude Ritter lane while still preserving the military-mechanics seam. |
 | live war pressure, rapid inversion claims, Hormuz vulnerability, or immediate crisis motion | [arc-ritter-nima-host.md](../../notes/arc-ritter-nima-host.md) | Dialogue Works pushes Ritter into his sharpest present-tense war-pressure register. |
 | blockade legality, piracy framing, or a compact auxiliary legal-libertarian reinforcement lane | [napolitano-lane-map-2026-05.md](../../channels/judging-freedom/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on legality, command absurdity, and war-power critique. |

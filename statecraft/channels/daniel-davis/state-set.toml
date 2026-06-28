@@ -1,18 +1,9 @@
-version = 1
-slug = "daniel-davis"
+WORK only; not Record.
 
-compact_state_files = [
-  "statecraft/channels/daniel-davis/README.md",
-  "statecraft/channels/daniel-davis/davis-speaker-object.md",
-  "statecraft/channels/daniel-davis/davis-cross-host-note.md",
-  "statecraft/channels/daniel-davis/davis-host-wiring-2026.md",
-]
+# Davis State Set (compat redirect)
 
-provenance_roots = [
-  "source-archive/statecraft",
-]
+Compatibility pointer only.
 
-[[guest_matrices]]
-file = "statecraft/channels/daniel-davis/davis-host-wiring-2026.md"
-arc_glob = "statecraft/channels/daniel-davis/davis-*-speaker-arc.md"
-expected_count = 13
+The canonical **state-set.toml** now lives at **[state-set.toml](../../voices/davis/state-set.toml)**.
+
+Use **statecraft/voices/davis/state-set.toml** going forward.

@@ -1,9 +1,9 @@
-# arc-mearsheimer-davis-host (compat redirect)
-
 WORK only; not Record.
 
-**Canonical:** [arc-mearsheimer-davis-host.md](../../notes/arc-mearsheimer-davis-host.md)
+# Davis Mearsheimer Speaker Arc (compat redirect)
 
-Legacy path: `statecraft/channels/daniel-davis/davis-mearsheimer-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
+Compatibility pointer only.
 
-Do not treat this as a second arc class.
+The canonical file now lives at **[davis-mearsheimer-speaker-arc.md](../../voices/davis/davis-mearsheimer-speaker-arc.md)**.
+
+Use **statecraft/voices/davis/davis-mearsheimer-speaker-arc.md** going forward; this file remains only as a stable back-compat entry for older links.

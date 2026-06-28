@@ -65,7 +65,7 @@ Closest neighboring voices when this topic needs reinforcement or contrast:
 
 - [baud-thread-international-law.md](../../../statecraft/voices/baud/baud-thread-international-law.md
 - [parsi-thread.md](../../../statecraft/voices/parsi/parsi-thread.md
-- [davis-thread.md](../../../statecraft/channels/daniel-davis/davis-thread.md
+- [davis-thread.md](../../../statecraft/voices/davis/davis-thread.md
 
 ## Recurring claims
 

@@ -1,0 +1,18 @@
+version = 1
+slug = "daniel-davis"
+
+compact_state_files = [
+  "statecraft/voices/davis/README.md",
+  "statecraft/voices/davis/davis-speaker-object.md",
+  "statecraft/voices/davis/davis-cross-host-note.md",
+  "statecraft/voices/davis/davis-host-wiring-2026.md",
+]
+
+provenance_roots = [
+  "source-archive/statecraft",
+]
+
+[[guest_matrices]]
+file = "statecraft/voices/davis/davis-host-wiring-2026.md"
+arc_glob = "statecraft/voices/davis/davis-*-speaker-arc.md"
+expected_count = 13

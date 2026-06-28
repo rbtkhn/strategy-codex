@@ -12,7 +12,7 @@ That means the main question is not whether the object exists. The question is h
 
 The current notebook truth is:
 
-- the primary host body is [statecraft/channels/daniel-davis/](../../channels/daniel-davis/README.md)
+- the primary host body is [statecraft/voices/davis/](../../channels/daniel-davis/README.md)
 - the guest voice shelf is [statecraft/voices/davis/](README.md)
 - the guest-local evidence is distributed through recurring `davis-*speaker-arc.md` notes
 - the speaker folder exists to hold higher-order orientation about Davis as an object, not to compete with the stream shelf

@@ -24,7 +24,7 @@ There is also one materially real outside-host reinforcement on disk:
 
 And there are real page-level and thread-level reinforcements elsewhere in the Codex:
 
-- [armstrong-cash-hormuz-digital-dollar-arc](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-thread.md:495)
+- [armstrong-cash-hormuz-digital-dollar-arc](/C:/dev/strategy-codex/statecraft/voices/davis/davis-thread.md:495)
 - recurring pairings against `jermy`, `diesen`, `sachs`, and `pape`
 
 That matters because the Armstrong object is clearly reusable. But it still does not yet justify a stable second host-local branch doctrine or a full double-helix claim.

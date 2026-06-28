@@ -64,7 +64,7 @@ Do not extend this archived file. If current work needs this pattern, create or 
 **Broader bench grounding surfaces**
 
 - `Davis` practical-room law:
-  - [statecraft/channels/daniel-davis/davis-host-law.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-host-law.md)
+  - [statecraft/voices/davis/davis-host-law.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-host-law.md)
 - `Ritter` person arc:
   - [statecraft/notes/arc-ritter-continuity.md](/C:/dev/strategy-codex/statecraft/notes/arc-ritter-continuity.md)
 - `Diesen` speaker object:

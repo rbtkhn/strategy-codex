@@ -1,9 +1,9 @@
-# arc-marandi-davis-host (compat redirect)
-
 WORK only; not Record.
 
-**Canonical:** [arc-marandi-davis-host.md](../../notes/arc-marandi-davis-host.md)
+# Davis Marandi Speaker Arc (compat redirect)
 
-Legacy path: `statecraft/channels/daniel-davis/davis-marandi-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
+Compatibility pointer only.
 
-Do not treat this as a second arc class.
+The canonical file now lives at **[davis-marandi-speaker-arc.md](../../voices/davis/davis-marandi-speaker-arc.md)**.
+
+Use **statecraft/voices/davis/davis-marandi-speaker-arc.md** going forward; this file remains only as a stable back-compat entry for older links.

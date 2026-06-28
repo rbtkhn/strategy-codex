@@ -12,7 +12,7 @@ CANONICAL = (
 )
 
 LEGACY_STUBS = (
-    REPO / "statecraft/channels/daniel-davis/davis-mearsheimer-arc.md",
+    REPO / "statecraft/voices/davis/davis-mearsheimer-arc.md",
     REPO / "statecraft/voices/diesen/diesen-mearsheimer-arc.md",
     REPO / "statecraft/channels/judging-freedom/napolitano-mearsheimer-arc.md",
 )

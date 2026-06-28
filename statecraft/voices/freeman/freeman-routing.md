@@ -21,7 +21,7 @@ Freeman now has a canonical statecraft shelf of his own, but the efficient readi
 | If the Codex needs... | Open first | Why |
 |---|---|---|
 | order-transition consequence, diplomatic memory, or maritime-system altitude | [arc-freeman-diesen-host.md](../../notes/arc-freeman-diesen-host.md) | Diesen carries the highest-altitude Freeman transformation. |
-| settlement realism, coercive failure, or diplomacy under military pressure | [davis-lane-map-2026-05.md](../../channels/daniel-davis/davis-lane-map-2026-05.md) | Davis is the cleanest strategic-room and end-state testing lane. |
+| settlement realism, coercive failure, or diplomacy under military pressure | [davis-lane-map-2026-05.md](../../voices/davis/davis-lane-map-2026-05.md) | Davis is the cleanest strategic-room and end-state testing lane. |
 | live crisis pressure, Gulf positioning, or alliance strain | [arc-freeman-nima-host.md](../../notes/arc-freeman-nima-host.md) | Dialogue Works sharpens present-tense crisis pressure. |
 | legal-moral critique, legitimacy stress, or anti-war framing | [napolitano-lane-map-2026-05.md](../../channels/judging-freedom/napolitano-lane-map-2026-05.md) | Judging Freedom is the cleanest legitimacy lane. |
 | cross-host orientation to Freeman as one object | [freeman-helix.md](freeman-helix.md) | The helix explains how the four lanes and bench fit together. |

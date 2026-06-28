@@ -1,9 +1,9 @@
-# arc-postol-davis-host (compat redirect)
-
 WORK only; not Record.
 
-**Canonical:** [arc-postol-davis-host.md](../../notes/arc-postol-davis-host.md)
+# Davis Postol Speaker Arc (compat redirect)
 
-Legacy path: `statecraft/channels/daniel-davis/davis-postol-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.
+Compatibility pointer only.
 
-Do not treat this as a second arc class.
+The canonical file now lives at **[davis-postol-speaker-arc.md](../../voices/davis/davis-postol-speaker-arc.md)**.
+
+Use **statecraft/voices/davis/davis-postol-speaker-arc.md** going forward; this file remains only as a stable back-compat entry for older links.

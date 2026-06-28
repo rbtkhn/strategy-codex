@@ -1,45 +1,34 @@
 WORK only; not Record.
 
-# Davis
+# Daniel Davis
 
-This is the canonical live **Daniel Davis Deep Dive host shelf** for repo-root `statecraft/channels/daniel-davis/`.
+Canonical live **channel shelf** for archive key **`daniel-davis`** (`channel_slug` in source captures).
 
-Use it when a statecraft read needs `Daniel Davis Deep Dive` as a host transformation surface — not cross-host guest routing (→ [`statecraft/voices/davis/`](../../voices/davis/README.md)).
+- **Channel index roster:** [`channel-index.json`](../../../statecraft/channels/channel-index.json)
+- **Archive captures:** `source-daniel-davis-*` filename family
+- **YouTube:** [Daniel Davis Deep Dive](https://www.youtube.com/@DeepDiveWithDanielDavis)
+- **Watchlist:** yes
 
-## Open First
+## Analyst shelf (primary)
 
-- [daniel-davis-channel-index.md](daniel-davis-channel-index.md) — Deep Dive **host** captures
-- [Davis voice shelf](../../voices/davis/README.md) — profile · cross-host **guest** index
+Whole-analyst continuity: [`statecraft/voices/davis/`](../../voices/davis/README.md) · **guest elsewhere:** [`davis-index.md`](../../voices/davis/davis-index.md).
+
+Daniel Davis Deep Dive — host captures on this shelf; cross-host guest appearances on [`davis-index.md`](../../voices/davis/davis-index.md). Host-local speaker arcs, host-law, and stream body live on the [voice shelf](../../voices/davis/README.md).
+
+## Open first
+
+- [daniel-davis-channel-index.md](daniel-davis-channel-index.md)
 - [index.md](index.md)
-- [davis-host-law.md](davis-host-law.md)
-- [davis-lane-map-2026-05.md](davis-lane-map-2026-05.md)
 
-## Split
+## Host role
 
-| Surface | Path | Job |
-|---|---|---|
-| **Guest / voice** | [`statecraft/voices/davis/`](../../voices/davis/davis-index.md) | Davis interviewed elsewhere (Diesen, Dialogue Works, …) |
-| **Host / channel** | `daniel-davis-channel-index.md` | Davis hosting guests · solo on Deep Dive |
+Open this shelf when the job is **host-conditioned guest transformation** on **Daniel Davis Deep Dive** — how the show frames the guest — not whole-speaker identity (→ `statecraft/voices/davis/`) or verbatim capture (→ `source-archive/statecraft/`).
 
-Compat redirects: [davis-index.md](davis-index.md) · [davis-profile.md](davis-profile.md) · [daniel-davis-index.md](daniel-davis-index.md).
+## Archive routing
 
-Host guest-arc compat stubs remain on this channel shelf until a later normalization pass.
-
-## Host Role
-
-Davis is the live statecraft host for:
-
-- feasibility pressure
-- bargaining geometry
-- settlement-room realism
-- force-versus-objective testing
-
-The question Davis answers is usually not `is this legal?` but `can this still work, and what room is actually left?`
-
-## Compatibility
-
-Legacy `codex/speakers/davis/` is terminated — [codex-speakers-deprecated.md](../../../../docs/archive/codex-speakers-deprecated.md).
+- **YAML:** `channel_slug: daniel-davis`
+- **Day inventory:** `source-archive/statecraft/YYYY-MM-DD/day-index.md`
 
 ## Boundary
 
-This shelf owns Davis host-law and host guest-lane classification. Cross-host guest mechanism lives on **`statecraft/voices/davis/`**.
+Host-law and routing only. Guest mechanism depth and host-local arcs live on **`statecraft/voices/davis/`**, not here.

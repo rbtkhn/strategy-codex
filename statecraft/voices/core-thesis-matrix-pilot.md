@@ -33,7 +33,7 @@ Use this as the fastest front door when you already know the speaker and just ne
 | Postol | engineering truth is a hard limit on war fantasy | [Postol support spine 2025-2026](/C:/dev/strategy-codex/statecraft/voices/postol/postol-support-spine-2025-2026.md) |
 | Martyanov | Western force assessment is detached from real military-system balance | [Martyanov support spine 2025-2026](/C:/dev/strategy-codex/statecraft/voices/martyanov/martyanov-support-spine-2025-2026.md) |
 | Mearsheimer | structural incentives and balancing geometry dominate | [Mearsheimer structural-realist scoreboard](/C:/dev/strategy-codex/statecraft/sheets/mearsheimer-structural-realist-scoreboard.md) |
-| Davis | military feasibility is the first restraint on war rhetoric | [Davis speaker object](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-speaker-object.md) |
+| Davis | military feasibility is the first restraint on war rhetoric | [Davis speaker object](/C:/dev/strategy-codex/statecraft/voices/davis/davis-speaker-object.md) |
 | Napolitano | escalation must be translated into legality and constitutional restraint | [Napolitano speaker object](/C:/dev/strategy-codex/statecraft/channels/judging-freedom/napolitano-speaker-object.md) |
 | Baud | law-of-war categories expose coercive incoherence | [Baud helix](/C:/dev/strategy-codex/statecraft/voices/baud/baud-helix.md) |
 | Matlock | the Cold War ended by negotiation, not victory mythology | [Matlock speaker object](/C:/dev/strategy-codex/statecraft/voices/matlock/matlock-speaker-object.md) |

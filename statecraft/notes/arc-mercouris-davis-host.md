@@ -110,8 +110,8 @@ If the operator needs Mercouris as speaker object:
 
 If the operator needs Davis as host-native stream object:
 
-- open [davis-speaker-object.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-speaker-object.md)
-- open [davis-thread.md](/C:/dev/strategy-codex/statecraft/channels/daniel-davis/davis-thread.md)
+- open [davis-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-speaker-object.md)
+- open [davis-thread.md](/C:/dev/strategy-codex/statecraft/voices/davis/davis-thread.md)
 
 ## Routing use
 
