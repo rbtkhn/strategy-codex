@@ -1,0 +1,5836 @@
+{
+  "generated_at": "2026-06-28T15:43:36+00:00",
+  "generator": "scripts/reindex_notes.py",
+  "dashboard": {
+    "tier_a": {
+      "total": 295,
+      "authority": {
+        "deprecated": 0,
+        "draft": 0,
+        "review-needed": 0,
+        "shelf-native": 59
+      },
+      "essay_candidates": 1,
+      "orphan_shelf_native": 0,
+      "missing_anchors": 0,
+      "broken_internal_note_links": 137,
+      "stale_review_needed": 0,
+      "contract_warnings": 236
+    },
+    "tier_b_summary": {
+      "total": 33,
+      "wire": 24,
+      "watch": 3,
+      "reentry": 3,
+      "intake": 3,
+      "contract_gaps": 33
+    }
+  },
+  "notes": [
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-02-ritter-india-global-left-trump-pivot-arc.md",
+      "title": "2025-02-ritter-india-global-left-trump-pivot-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md",
+      "title": "2025-11-06-jermy-mercouris-pokrovsk-strategic-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md",
+      "title": "2025-12-12-jermy-mercouris-siversk-nss-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-freeman-igl-gaza-ceasefire-register.md",
+      "title": "2025-freeman-igl-gaza-ceasefire-register",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 4,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-freeman-igl-iran-war-push-register.md",
+      "title": "2025-freeman-igl-iran-war-push-register",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 8,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-vs-2026-freeman-igl-register-seam.md",
+      "title": "2025-vs-2026-freeman-igl-register-seam",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 5,
+      "outbound_links": 17,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2025-vs-2026-ritter-india-global-left-register-seam.md",
+      "title": "2025-vs-2026-ritter-india-global-left-register-seam",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 6,
+      "outbound_links": 12,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md",
+      "title": "2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md",
+      "title": "2026-01-20-davos-dmitriev-helmer-mercouris-comparison",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md",
+      "title": "2026-01-20-greenland-same-day-weave-helmer-freeman",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 7,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-01-22-to-2026-03-18-jermy-neutrality-decision-naval-arc-weave.md",
+      "title": "2026-01-22-to-2026-03-18-jermy-neutrality-decision-naval-arc-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md",
+      "title": "2026-01-30-jermy-mercouris-iran-armada-kiev-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md",
+      "title": "2026-02-03-helmer-marandi-turkey-kurd-regional-wedge",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 4,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md",
+      "title": "2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 5,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-17-geneva-day-weave-helmer-mercouris.md",
+      "title": "2026-02-17-geneva-day-weave-helmer-mercouris",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 10,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md",
+      "title": "2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 19,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-28-pape-crooke-opening-strike-bench-weave.md",
+      "title": "2026-02-28-pape-crooke-opening-strike-bench-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 1,
+      "outbound_links": 13,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-28-pape-smart-bomb-trap-trilogy-weave.md",
+      "title": "2026-02-28-pape-smart-bomb-trap-trilogy-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-freeman-india-global-left-iran-war-arc.md",
+      "title": "2026-02-freeman-india-global-left-iran-war-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-helmer-feb3-mar24-power-terms-arc.md",
+      "title": "2026-02-helmer-feb3-mar24-power-terms-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-02-ritter-india-global-left-iran-war-arc.md",
+      "title": "2026-02-ritter-india-global-left-iran-war-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-01-to-2026-03-18-jermy-diesen-naval-arc-weave.md",
+      "title": "2026-03-01-to-2026-03-18-jermy-diesen-naval-arc-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md",
+      "title": "2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 5,
+      "outbound_links": 16,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md",
+      "title": "2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 5,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-03-iran-war-weave-helmer-marandi.md",
+      "title": "2026-03-03-iran-war-weave-helmer-marandi",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 18,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md",
+      "title": "2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 9,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-16-pape-vs-crooke-mosaic-trap.md",
+      "title": "2026-03-16-pape-vs-crooke-mosaic-trap",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 16,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-16-ritter-implementation-trap-mosaic.md",
+      "title": "2026-03-16-ritter-implementation-trap-mosaic",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 4,
+      "outbound_links": 4,
+      "broken_links": 4,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-17-davis-henningsen-global-reset-wedge.md",
+      "title": "2026-03-17-davis-henningsen-global-reset-wedge",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 3,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md",
+      "title": "2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 10,
+      "inbound_links": 5,
+      "outbound_links": 14,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave.md",
+      "title": "2026-03-18-diesen-marandi-jermy-energy-infrastructure-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md",
+      "title": "2026-03-18-jermy-mercouris-iran-energy-arsenal-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 4,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-18-to-2026-04-28-jermy-iran-energy-arc-weave.md",
+      "title": "2026-03-18-to-2026-04-28-jermy-iran-energy-arc-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md",
+      "title": "2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-23-postol-vs-ritter-implementation-battlefield.md",
+      "title": "2026-03-23-postol-vs-ritter-implementation-battlefield",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 2,
+      "outbound_links": 3,
+      "broken_links": 4,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md",
+      "title": "2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 7,
+      "inbound_links": 16,
+      "outbound_links": 12,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md",
+      "title": "2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 7,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge.md",
+      "title": "2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 2,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-helmer-mar17-mar24-two-week-clock-arc.md",
+      "title": "2026-03-helmer-mar17-mar24-two-week-clock-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-03-helmer-mar3-mar24-russia-china-two-track-arc.md",
+      "title": "2026-03-helmer-mar3-mar24-russia-china-two-track-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-04-17-barnes-davis-johnson-white-house-orbat.md",
+      "title": "2026-04-17-barnes-davis-johnson-white-house-orbat",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 3,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note.md",
+      "title": "2026-05-22-starobilsk-tier-a-ritter-civ-state-bridge-note",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-05-29-pape-vs-freeman-sachs-marandi.md",
+      "title": "2026-05-29-pape-vs-freeman-sachs-marandi",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md",
+      "title": "2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-05-31-barnes-diesen-nima-coercive-failure.md",
+      "title": "2026-05-31-barnes-diesen-nima-coercive-failure",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing.md",
+      "title": "2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-05-31-weichert-barnes-logistics-ceiling-vs-dib-lock-in.md",
+      "title": "2026-05-31-weichert-barnes-logistics-ceiling-vs-dib-lock-in",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-01-america-hormuz-lebanon-strategic-memory.md",
+      "title": "2026-06-01-america-hormuz-lebanon-strategic-memory",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-01-persia-hormuz-lebanon-strategic-memory.md",
+      "title": "2026-06-01-persia-hormuz-lebanon-strategic-memory",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 2,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-01-persia-hormuz-postwar-authority-floor.md",
+      "title": "2026-06-01-persia-hormuz-postwar-authority-floor",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 4,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md",
+      "title": "2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 6,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-06-america-captured-command-ndaa-ci-client-veto.md",
+      "title": "2026-06-06-america-captured-command-ndaa-ci-client-veto",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 8,
+      "outbound_links": 5,
+      "broken_links": 4,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md",
+      "title": "2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 5,
+      "outbound_links": 3,
+      "broken_links": 2,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md",
+      "title": "2026-06-06-russia-europe-threshold-polyanskiy-mercouris",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 3,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md",
+      "title": "2026-06-07-america-trump-humiliation-vance-absence-capture-extension",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 9,
+      "outbound_links": 4,
+      "broken_links": 4,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md",
+      "title": "2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 6,
+      "outbound_links": 5,
+      "broken_links": 2,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md",
+      "title": "2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 8,
+      "outbound_links": 4,
+      "broken_links": 4,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-america-uss-liberty-legitimacy-seam.md",
+      "title": "2026-06-08-america-uss-liberty-legitimacy-seam",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md",
+      "title": "2026-06-08-barnes-america-capture-non-intercept-colby-mou",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 5,
+      "outbound_links": 7,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-crooke-napolitano-vs-hedges-permanent-security.md",
+      "title": "2026-06-08-crooke-napolitano-vs-hedges-permanent-security",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md",
+      "title": "2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 1,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md",
+      "title": "2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 6,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md",
+      "title": "2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 9,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md",
+      "title": "2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-pape-day-100-indicator-watch-sheet.md",
+      "title": "2026-06-08-pape-day-100-indicator-watch-sheet",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 3,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md",
+      "title": "2026-06-08-pape-day-100-new-phase-lebanon-fuse",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 5,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md",
+      "title": "2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 7,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md",
+      "title": "2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 2,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md",
+      "title": "2026-06-08-wilkerson-hoh-section-224-mesh-receipt",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 3,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md",
+      "title": "2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md",
+      "title": "2026-06-09-ukraine-secondary-s9-krapivnik-mesh",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md",
+      "title": "2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md",
+      "title": "2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 4,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-12-parsi-quiet-lane-asset-path-deepener.md",
+      "title": "2026-06-12-parsi-quiet-lane-asset-path-deepener",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md",
+      "title": "2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-14-lebanon-enforcement-nima-host-arc.md",
+      "title": "2026-06-14-lebanon-enforcement-nima-host-arc",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 4,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-15-davis-iran-ukraine-parallel-fork.md",
+      "title": "2026-06-15-davis-iran-ukraine-parallel-fork",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-15-johnson-davis-mou-skepticism-fork.md",
+      "title": "2026-06-15-johnson-davis-mou-skepticism-fork",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 3,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-15-marandi-sachs-outcome-accounting.md",
+      "title": "2026-06-15-marandi-sachs-outcome-accounting",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-15-mou-week-napolitano-bench-seam.md",
+      "title": "2026-06-15-mou-week-napolitano-bench-seam",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 6,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-16-mou-clause-diff-weichert-lanes.md",
+      "title": "2026-06-16-mou-clause-diff-weichert-lanes",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-17-dialogue-works-quartet-mou-clause-comparison.md",
+      "title": "2026-06-17-dialogue-works-quartet-mou-clause-comparison",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 1,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md",
+      "title": "2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 7,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-17-mercouris-pasco-g7-mesh-adjacent.md",
+      "title": "2026-06-17-mercouris-pasco-g7-mesh-adjacent",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-17-mou-implementation-tensions.md",
+      "title": "2026-06-17-mou-implementation-tensions",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1.md",
+      "title": "2026-06-19-lebanon-enforcement-contested-ceasefire-mou-art1",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 6,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md",
+      "title": "2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 0,
+      "outbound_links": 7,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-21-mearsheimer-steamroll-israel-falsifier-checklist.md",
+      "title": "2026-06-21-mearsheimer-steamroll-israel-falsifier-checklist",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-22-mercouris-baud-starmer-europe-kostyantynivka-parallel-clock.md",
+      "title": "2026-06-22-mercouris-baud-starmer-europe-kostyantynivka-parallel-clock",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 1,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/2026-06-22-round-3-taboo-broken-mercouris-duran-henningsen.md",
+      "title": "2026-06-22-round-3-taboo-broken-mercouris-duran-henningsen",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 3,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md",
+      "title": "april-2026-wilkerson-intake-sequence-postmortem",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-aguilar-nima-host.md",
+      "title": "arc-aguilar-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-april-2026-cross-host-freeman-host.md",
+      "title": "arc-april-2026-cross-host-freeman-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 9,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-april-2026-cross-host-johnson-host.md",
+      "title": "arc-april-2026-cross-host-johnson-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 13,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-april-2026-cross-host-marandi-host.md",
+      "title": "arc-april-2026-cross-host-marandi-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-april-2026-cross-host-ritter-host.md",
+      "title": "arc-april-2026-cross-host-ritter-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-april-2026-interview-cross-host-crooke-host.md",
+      "title": "arc-april-2026-interview-cross-host-crooke-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-armstrong-nima-host.md",
+      "title": "arc-armstrong-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-barnes-continuity.md",
+      "title": "arc-barnes-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 10,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-barnes-davis-host.md",
+      "title": "arc-barnes-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-baud-continuity.md",
+      "title": "arc-baud-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-baud-davis-host.md",
+      "title": "arc-baud-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-baud-diesen-host.md",
+      "title": "arc-baud-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-baud-nima-host.md",
+      "title": "arc-baud-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 16,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-beebe-diesen-host.md",
+      "title": "arc-beebe-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 9,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-berletic-diesen-host.md",
+      "title": "arc-berletic-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-crooke-continuity.md",
+      "title": "arc-crooke-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-crooke-davis-host.md",
+      "title": "arc-crooke-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-crooke-diesen-host.md",
+      "title": "arc-crooke-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 5,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-crooke-nima-host.md",
+      "title": "arc-crooke-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-freeman-continuity.md",
+      "title": "arc-freeman-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-freeman-davis-host.md",
+      "title": "arc-freeman-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-freeman-diesen-host.md",
+      "title": "arc-freeman-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-freeman-india-global-left-iran.md",
+      "title": "arc-freeman-india-global-left-iran",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 8,
+      "inbound_links": 21,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-freeman-napolitano-host.md",
+      "title": "arc-freeman-napolitano-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 12,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-freeman-nima-host.md",
+      "title": "arc-freeman-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-helmer-dmitriev-lane.md",
+      "title": "arc-helmer-dmitriev-lane",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 13,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-helmer-iran-five-terms.md",
+      "title": "arc-helmer-iran-five-terms",
+      "note_type": "arc",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 21,
+      "outbound_links": 12,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jermy-davis-host.md",
+      "title": "arc-jermy-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jermy-diesen-host.md",
+      "title": "arc-jermy-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 7,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jermy-iran-energy.md",
+      "title": "arc-jermy-iran-energy",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jermy-iran-naval.md",
+      "title": "arc-jermy-iran-naval",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 4,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jermy-peacemonger-host.md",
+      "title": "arc-jermy-peacemonger-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jiang-continuity.md",
+      "title": "arc-jiang-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-jiang-diesen-host.md",
+      "title": "arc-jiang-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 8,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-johnson-continuity.md",
+      "title": "arc-johnson-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-johnson-davis-host.md",
+      "title": "arc-johnson-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-johnson-diesen-host.md",
+      "title": "arc-johnson-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-johnson-napolitano-host.md",
+      "title": "arc-johnson-napolitano-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-johnson-nima-host.md",
+      "title": "arc-johnson-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 5,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-june-2026-cross-context-parsi-host.md",
+      "title": "arc-june-2026-cross-context-parsi-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-karaganov-continuity.md",
+      "title": "arc-karaganov-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-karaganov-diesen-host.md",
+      "title": "arc-karaganov-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 10,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-kent-carlson-host.md",
+      "title": "arc-kent-carlson-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-kent-davis-host.md",
+      "title": "arc-kent-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 3,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-kent-diesen-host.md",
+      "title": "arc-kent-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-kent-nawfal-host.md",
+      "title": "arc-kent-nawfal-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-krainer-diesen-host.md",
+      "title": "arc-krainer-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 10,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-macgregor-continuity.md",
+      "title": "arc-macgregor-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-macgregor-davis-host.md",
+      "title": "arc-macgregor-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 13,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-macgregor-diesen-host.md",
+      "title": "arc-macgregor-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-macgregor-napolitano-host.md",
+      "title": "arc-macgregor-napolitano-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 24,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-marandi-continuity.md",
+      "title": "arc-marandi-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 14,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-marandi-davis-host.md",
+      "title": "arc-marandi-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-marandi-diesen-host.md",
+      "title": "arc-marandi-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-marandi-nima-host.md",
+      "title": "arc-marandi-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 5,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-march-2026-cross-context-parsi-host.md",
+      "title": "arc-march-2026-cross-context-parsi-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-march-2026-cross-host-freeman-host.md",
+      "title": "arc-march-2026-cross-host-freeman-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 9,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-march-2026-cross-host-johnson-host.md",
+      "title": "arc-march-2026-cross-host-johnson-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-march-2026-cross-host-ritter-host.md",
+      "title": "arc-march-2026-cross-host-ritter-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-march-2026-interview-cross-host-crooke-host.md",
+      "title": "arc-march-2026-interview-cross-host-crooke-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-martyanov-continuity.md",
+      "title": "arc-martyanov-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 16,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-martyanov-davis-host.md",
+      "title": "arc-martyanov-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-martyanov-diesen-host.md",
+      "title": "arc-martyanov-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-martyanov-nima-host.md",
+      "title": "arc-martyanov-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-matlock-diesen-host.md",
+      "title": "arc-matlock-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 9,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-may-2026-cross-context-parsi-host.md",
+      "title": "arc-may-2026-cross-context-parsi-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 0,
+      "broken_links": 1,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-may-2026-cross-host-freeman-host.md",
+      "title": "arc-may-2026-cross-host-freeman-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-may-2026-cross-host-johnson-host.md",
+      "title": "arc-may-2026-cross-host-johnson-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 9,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-may-2026-cross-host-marandi-host.md",
+      "title": "arc-may-2026-cross-host-marandi-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-may-2026-cross-host-ritter-host.md",
+      "title": "arc-may-2026-cross-host-ritter-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-may-2026-interview-cross-host-crooke-host.md",
+      "title": "arc-may-2026-interview-cross-host-crooke-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mcgovern-continuity.md",
+      "title": "arc-mcgovern-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mcgovern-diesen-host.md",
+      "title": "arc-mcgovern-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 1,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mcgovern-nima-host.md",
+      "title": "arc-mcgovern-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mearsheimer-continuity.md",
+      "title": "arc-mearsheimer-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mearsheimer-davis-host.md",
+      "title": "arc-mearsheimer-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mearsheimer-diesen-host.md",
+      "title": "arc-mearsheimer-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mearsheimer-napolitano-host.md",
+      "title": "arc-mearsheimer-napolitano-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mercouris-continuity.md",
+      "title": "arc-mercouris-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mercouris-davis-host.md",
+      "title": "arc-mercouris-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mercouris-diesen-host.md",
+      "title": "arc-mercouris-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 5,
+      "outbound_links": 2,
+      "broken_links": 1,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-mercouris-dmitriev-lane.md",
+      "title": "arc-mercouris-dmitriev-lane",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 3,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-pape-continuity.md",
+      "title": "arc-pape-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 4,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-pape-escalation-trap.md",
+      "title": "arc-pape-escalation-trap",
+      "note_type": "arc",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 26,
+      "inbound_links": 45,
+      "outbound_links": 16,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-22",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-parsi-continuity.md",
+      "title": "arc-parsi-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-postol-continuity.md",
+      "title": "arc-postol-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-postol-davis-host.md",
+      "title": "arc-postol-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-postol-diesen-host.md",
+      "title": "arc-postol-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-postol-nima-host.md",
+      "title": "arc-postol-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-continuity.md",
+      "title": "arc-ritter-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-davis-host.md",
+      "title": "arc-ritter-davis-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-diesen-host.md",
+      "title": "arc-ritter-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-india-global-left-iran.md",
+      "title": "arc-ritter-india-global-left-iran",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 17,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-karaganov-doctrine.md",
+      "title": "arc-ritter-karaganov-doctrine",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 2,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-napolitano-host.md",
+      "title": "arc-ritter-napolitano-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 8,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-nima-host.md",
+      "title": "arc-ritter-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-ritter-trump-pivot.md",
+      "title": "arc-ritter-trump-pivot",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 9,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-sachs-continuity.md",
+      "title": "arc-sachs-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-weichert-continuity.md",
+      "title": "arc-weichert-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 0,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-wilkerson-continuity.md",
+      "title": "arc-wilkerson-continuity",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-wilkerson-diesen-host.md",
+      "title": "arc-wilkerson-diesen-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 5,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-wilkerson-napolitano-host.md",
+      "title": "arc-wilkerson-napolitano-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/arc-wilkerson-nima-host.md",
+      "title": "arc-wilkerson-nima-host",
+      "note_type": "arc",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 1,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md",
+      "title": "archive-truth-floor-repair-routing-2026-06-01",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/assistant-session-state-clarity-contract.md",
+      "title": "assistant-session-state-clarity-contract",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/barnes-johnson-aguilar-kent-on-section-224.md",
+      "title": "barnes-johnson-aguilar-kent-on-section-224",
+      "note_type": "compare",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 3,
+      "inbound_links": 4,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-09",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/barnes-on-ai.md",
+      "title": "barnes-on-ai",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 12,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/baud-crooke-international-law-orthogonality-2026-05.md",
+      "title": "baud-crooke-international-law-orthogonality-2026-05",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/china-ai-implementation-watch.md",
+      "title": "china-ai-implementation-watch",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/baltic-shadow-fleet-infrastructure-damage-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/egypt-debt-suez-bread-legitimacy-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/hormuz-transit-sanctions-relief-compact/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/minab-civilian-harm-deescalation-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/pakistan-command-integrity-scare-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/panama-canal-water-transit-sovereignty-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/persia-nuclear-latency-recognition-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/protected-channel-non-regime-change-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/taiwan-quarantine-maritime-access-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/us-digital-identity-collapse-sovereignty-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/compacts/zangezur-transit-sovereignty-framework/README.md",
+      "title": "README",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/conductor-gap-audit-2026-05-21-06-07.md",
+      "title": "conductor-gap-audit-2026-05-21-06-07",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/conflict-iran-mou-theater.md",
+      "title": "conflict-iran-mou-theater",
+      "note_type": "conflict",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 10,
+      "inbound_links": 3,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-25",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/conversation-ux-friction-audit.md",
+      "title": "conversation-ux-friction-audit",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/daily-synthesis-contract-repair-routing-2026-06-08.md",
+      "title": "daily-synthesis-contract-repair-routing-2026-06-08",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/december-2025-benchmark-note.md",
+      "title": "december-2025-benchmark-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 1,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/digital-identity-continuity-before-platform-control.md",
+      "title": "digital-identity-continuity-before-platform-control",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 3,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/february-2026-benchmark-note.md",
+      "title": "february-2026-benchmark-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 1,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/foreign-client-mesh-separation-and-command-review.md",
+      "title": "foreign-client-mesh-separation-and-command-review",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 8,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 41,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/formal-sovereignty-vs-internal-carriage.md",
+      "title": "formal-sovereignty-vs-internal-carriage",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 3,
+      "inbound_links": 2,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": true,
+      "updated_at": "2026-06-01",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/gulf-ai-architecture.md",
+      "title": "gulf-ai-architecture",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 20,
+      "outbound_links": 14,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/hormuz-recognition-transit-transaction.md",
+      "title": "hormuz-recognition-transit-transaction",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 5,
+      "outbound_links": 7,
+      "broken_links": 24,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/instrument-bench-maturity-audit.md",
+      "title": "instrument-bench-maturity-audit",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/intake/2026-06-08-intake-readiness.md",
+      "title": "2026-06-08-intake-readiness",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 11,
+      "inbound_links": 0,
+      "outbound_links": 15,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "intake"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/intake/2026-06-09-intake-readiness.md",
+      "title": "2026-06-09-intake-readiness",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 14,
+      "inbound_links": 0,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "intake"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/intake/intake-digest-TEMPLATE.md",
+      "title": "intake-digest-TEMPLATE",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 1,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "intake"
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/internal-vs-public-vocabulary.md",
+      "title": "internal-vs-public-vocabulary",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/iran-war-inquiry-ladder-stress-test.md",
+      "title": "iran-war-inquiry-ladder-stress-test",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/january-2026-benchmark-note.md",
+      "title": "january-2026-benchmark-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 1,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/jiang-on-ai.md",
+      "title": "jiang-on-ai",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 7,
+      "inbound_links": 21,
+      "outbound_links": 13,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/jiang-on-china-ai.md",
+      "title": "jiang-on-china-ai",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/jiang-ph-civ-correspondence-june-1-2026.md",
+      "title": "jiang-ph-civ-correspondence-june-1-2026",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/jiang-vs-johnson-2026-05.md",
+      "title": "jiang-vs-johnson-2026-05",
+      "note_type": "compare",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/jiang-vs-johnson-others-2026-05.md",
+      "title": "jiang-vs-johnson-others-2026-05",
+      "note_type": "compare",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-17-2026-mou-dem-co-ownership-torpedo-note.md",
+      "title": "june-17-2026-mou-dem-co-ownership-torpedo-note",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-18-2026-mou-convergence.md",
+      "title": "june-18-2026-mou-convergence",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 9,
+      "inbound_links": 26,
+      "outbound_links": 20,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-18-2026-mou-dahhiya-backfire-mou-terms-note.md",
+      "title": "june-18-2026-mou-dahhiya-backfire-mou-terms-note",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 7,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-18-2026-mou-falsifier-3-standoff-watch.md",
+      "title": "june-18-2026-mou-falsifier-3-standoff-watch",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 13,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-18-2026-mou-guest-pair-citation-split.md",
+      "title": "june-18-2026-mou-guest-pair-citation-split",
+      "note_type": "compare",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 5,
+      "inbound_links": 9,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-18-2026-mou-hormuz-governance-armistice-note.md",
+      "title": "june-18-2026-mou-hormuz-governance-armistice-note",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 21,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-18-2026-mou-material-vs-sabotage-lens.md",
+      "title": "june-18-2026-mou-material-vs-sabotage-lens",
+      "note_type": "compare",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 7,
+      "inbound_links": 17,
+      "outbound_links": 7,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-19-2026-moonshots-export-control-sovereign-ai-crossover.md",
+      "title": "june-19-2026-moonshots-export-control-sovereign-ai-crossover",
+      "note_type": "bridge",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 1,
+      "inbound_links": 7,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-2026-opening-watchlist.md",
+      "title": "june-2026-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 1,
+      "inbound_links": 4,
+      "outbound_links": 5,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md",
+      "title": "june-2026-vance-lightning-rod-rubio-optionality-note",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 4,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06.md",
+      "title": "kent-restraint-lever-walk-away-vs-weichert-collapse-2026-06",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/lebanon-third-party-recognition-gate-transaction.md",
+      "title": "lebanon-third-party-recognition-gate-transaction",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 8,
+      "inbound_links": 7,
+      "outbound_links": 3,
+      "broken_links": 25,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/march-2026-benchmark-note.md",
+      "title": "march-2026-benchmark-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/march-2026-closure-method-application.md",
+      "title": "march-2026-closure-method-application",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/may-2026-closure-method-application.md",
+      "title": "may-2026-closure-method-application",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 3,
+      "inbound_links": 1,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/may-2026-speaker-watchlist.md",
+      "title": "may-2026-speaker-watchlist",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-april-2025-opening-watchlist.md",
+      "title": "mearsheimer-april-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 7,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-april-2025-repair-note.md",
+      "title": "mearsheimer-april-2025-repair-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 7,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-december-2025-opening-watchlist.md",
+      "title": "mearsheimer-december-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-december-2025-repair-note.md",
+      "title": "mearsheimer-december-2025-repair-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-july-2025-opening-watchlist.md",
+      "title": "mearsheimer-july-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-march-2025-opening-watchlist.md",
+      "title": "mearsheimer-march-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-march-2025-repair-note.md",
+      "title": "mearsheimer-march-2025-repair-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-october-2025-opening-watchlist.md",
+      "title": "mearsheimer-october-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mearsheimer-september-2025-opening-watchlist.md",
+      "title": "mearsheimer-september-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-february-2025-opening-watchlist.md",
+      "title": "mercouris-february-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 8,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-format-synergy-doctrine.md",
+      "title": "mercouris-format-synergy-doctrine",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-june-2025-opening-watchlist.md",
+      "title": "mercouris-june-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 10,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-november-2025-opening-watchlist.md",
+      "title": "mercouris-november-2025-opening-watchlist",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 11,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-november-2025-repair-note.md",
+      "title": "mercouris-november-2025-repair-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 11,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-october-2025-repair-note.md",
+      "title": "mercouris-october-2025-repair-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 10,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/mercouris-september-2025-repair-note.md",
+      "title": "mercouris-september-2025-repair-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 15,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/minab-palantir-four-voice-compare.md",
+      "title": "minab-palantir-four-voice-compare",
+      "note_type": "compare",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 4,
+      "inbound_links": 9,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/month-maturity-routing-registry.md",
+      "title": "month-maturity-routing-registry",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 12,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/november-2025-benchmark-note.md",
+      "title": "november-2025-benchmark-note",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 1,
+      "inbound_links": 3,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/pape-marandi-parsi-novelty-audit.md",
+      "title": "pape-marandi-parsi-novelty-audit",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 13,
+      "inbound_links": 1,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/pape-on-china-ai.md",
+      "title": "pape-on-china-ai",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 18,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md",
+      "title": "parsi-wilkerson-may-2026-backfill-attention",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 2,
+      "inbound_links": 2,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/recent-speaker-underrepresentation-query-standard.md",
+      "title": "recent-speaker-underrepresentation-query-standard",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/recognition-threshold-vs-settlement-architecture.md",
+      "title": "recognition-threshold-vs-settlement-architecture",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 4,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/recursive-learning-journal-executive-synthesis.md",
+      "title": "recursive-learning-journal-executive-synthesis",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 3,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/recursive-learning-three-lane-audit.md",
+      "title": "recursive-learning-three-lane-audit",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/reentry/2026-06-week1-start-here.md",
+      "title": "2026-06-week1-start-here",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 18,
+      "broken_links": 1,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "reentry"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/reentry/2026-06-week2-start-here.md",
+      "title": "2026-06-week2-start-here",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 25,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "reentry"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/reentry/_templates/week-hinge-start-here.md",
+      "title": "week-hinge-start-here",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "reentry"
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/risk-artificial-intelligence.md",
+      "title": "risk-artificial-intelligence",
+      "note_type": "risk",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 8,
+      "inbound_links": 7,
+      "outbound_links": 46,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/risk-hormuz-chokepoint.md",
+      "title": "risk-hormuz-chokepoint",
+      "note_type": "risk",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 34,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/risk-mou-enforcement.md",
+      "title": "risk-mou-enforcement",
+      "note_type": "risk",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 2,
+      "inbound_links": 10,
+      "outbound_links": 44,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/ritter-karaganov-doctrine-arc-2026.md",
+      "title": "ritter-karaganov-doctrine-arc-2026",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/ritter-on-ai.md",
+      "title": "ritter-on-ai",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 5,
+      "inbound_links": 19,
+      "outbound_links": 8,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/russia-inquiry-ladder-as-recursive-learning.md",
+      "title": "russia-inquiry-ladder-as-recursive-learning",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 4,
+      "inbound_links": 2,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/sachs-month-floor-repair-2026-06-04.md",
+      "title": "sachs-month-floor-repair-2026-06-04",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/sachs-on-ai.md",
+      "title": "sachs-on-ai",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 9,
+      "inbound_links": 17,
+      "outbound_links": 9,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/scaffold-receipt-parity-recursive-learning.md",
+      "title": "scaffold-receipt-parity-recursive-learning",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/skill-refinement-scorecard.md",
+      "title": "skill-refinement-scorecard",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 1,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/speaker-audit-workflow.md",
+      "title": "speaker-audit-workflow",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/statecraft-multi-lens-bench-pressure-test-2026-05.md",
+      "title": "statecraft-multi-lens-bench-pressure-test-2026-05",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/statecraft-participant-index-audit-2026-06-03.md",
+      "title": "statecraft-participant-index-audit-2026-06-03",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 7,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/statecraft-v1-upgrade-plan-2026-05-25.md",
+      "title": "statecraft-v1-upgrade-plan-2026-05-25",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/taiwan-inspection-pressure-without-blockade-ownership.md",
+      "title": "taiwan-inspection-pressure-without-blockade-ownership",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 3,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md",
+      "title": "thread-jermy-2025-11-06-to-2025-11-14-pokrovsk",
+      "note_type": "thread",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 2,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md",
+      "title": "thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap",
+      "note_type": "thread",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/trend-china-ai-implementation.md",
+      "title": "trend-china-ai-implementation",
+      "note_type": "trend",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 15,
+      "inbound_links": 29,
+      "outbound_links": 42,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-24",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/us-israel-military-integration-captured-command-risk.md",
+      "title": "us-israel-military-integration-captured-command-risk",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 3,
+      "inbound_links": 3,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/watch/2026-06-12-72h-watch-run.md",
+      "title": "2026-06-12-72h-watch-run",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "watch"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/watch/2026-06-16-72h-watch-run.md",
+      "title": "2026-06-16-72h-watch-run",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "watch"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/watch/2026-06-17-72h-watch-run.md",
+      "title": "2026-06-17-72h-watch-run",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "watch"
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/weichert-on-ai.md",
+      "title": "weichert-on-ai",
+      "note_type": "mechanism",
+      "authority_level": "shelf-native",
+      "source_basis": "source-archive",
+      "archive_anchor_count": 2,
+      "inbound_links": 23,
+      "outbound_links": 10,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/wilkerson-april-2026-contradiction-audit.md",
+      "title": "wilkerson-april-2026-contradiction-audit",
+      "note_type": "synthesis",
+      "authority_level": "shelf-native",
+      "source_basis": "mixed",
+      "archive_anchor_count": 8,
+      "inbound_links": 2,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "2026-06-28",
+      "warnings": [],
+      "subfolder": ""
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-02-03-news-verify-matrix.md",
+      "title": "2026-02-03-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-02-17-news-verify-matrix.md",
+      "title": "2026-02-17-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 6,
+      "inbound_links": 0,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-03-03-news-verify-matrix.md",
+      "title": "2026-03-03-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-03-17-news-verify-matrix.md",
+      "title": "2026-03-17-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 7,
+      "inbound_links": 0,
+      "outbound_links": 6,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-03-24-news-verify-matrix.md",
+      "title": "2026-03-24-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 0,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-01-02-news-verify-matrix.md",
+      "title": "2026-06-01-02-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-03-04-news-verify-matrix.md",
+      "title": "2026-06-03-04-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-05-07-news-verify-matrix.md",
+      "title": "2026-06-05-07-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-08-09-news-verify-matrix.md",
+      "title": "2026-06-08-09-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 3,
+      "inbound_links": 0,
+      "outbound_links": 4,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-10-news-verify-matrix.md",
+      "title": "2026-06-10-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 5,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-11-news-verify-matrix.md",
+      "title": "2026-06-11-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-12-news-verify-matrix.md",
+      "title": "2026-06-12-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-13-ph-boomer-hell-news-verify-matrix.md",
+      "title": "2026-06-13-ph-boomer-hell-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-14-news-verify-matrix.md",
+      "title": "2026-06-14-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 3,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-15-news-verify-matrix.md",
+      "title": "2026-06-15-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-16-news-verify-matrix.md",
+      "title": "2026-06-16-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 16,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-17-news-verify-matrix.md",
+      "title": "2026-06-17-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 2,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-18-news-verify-matrix.md",
+      "title": "2026-06-18-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-19-news-verify-matrix.md",
+      "title": "2026-06-19-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 2,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-20-news-verify-matrix.md",
+      "title": "2026-06-20-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-22-news-verify-matrix.md",
+      "title": "2026-06-22-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 1,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-23-news-verify-matrix.md",
+      "title": "2026-06-23-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-25-news-verify-matrix.md",
+      "title": "2026-06-25-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "B",
+      "path": "statecraft/notes/wire/2026-06-26-news-verify-matrix.md",
+      "title": "2026-06-26-news-verify-matrix",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 1,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 0,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "missing_contract"
+      ],
+      "subfolder": "wire"
+    },
+    {
+      "tier": "A",
+      "path": "statecraft/notes/zangezur-mediation-without-overbinding.md",
+      "title": "zangezur-mediation-without-overbinding",
+      "note_type": "",
+      "authority_level": "",
+      "source_basis": "",
+      "archive_anchor_count": 0,
+      "inbound_links": 0,
+      "outbound_links": 0,
+      "broken_links": 2,
+      "essay_candidate": false,
+      "updated_at": "",
+      "warnings": [
+        "broken_links",
+        "missing_contract"
+      ],
+      "subfolder": ""
+    }
+  ]
+}

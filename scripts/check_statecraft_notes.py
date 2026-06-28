@@ -61,12 +61,11 @@ PREFIX_TYPE_MAP: tuple[tuple[str, str], ...] = (
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 FENCED_YAML_RE = re.compile(r"```yaml\r?\n(.*?)```", re.DOTALL | re.IGNORECASE)
 LINK_RE = re.compile(r"\]\(([^)]+)\)")
-ARCHIVE_PATH_RE = re.compile(r"source-archive/statecraft/[^\s)\]`\"']+")
-SYNTHESIS_PATH_RE = re.compile(r"statecraft/synthesis/[^\s)\]`\"']+")
 
 EXEMPT_REL = frozenset(
     {
         "statecraft/notes/README.md",
+        "statecraft/notes/INDEX.md",
         "statecraft/notes/compacts/README.md",
     }
 )
@@ -76,6 +75,14 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from yaml_compat import safe_load_text  # noqa: E402
+from notes_registry_lib import (  # noqa: E402
+    archive_paths_in_text as _archive_paths_in_text,
+    build_inbound_note_links as _build_inbound_note_links,
+    resolve_link as _resolve_link,
+    resolved_archive_anchors as _all_archive_anchors,
+    synthesis_paths_in_text as _synthesis_paths_in_text,
+    apply_dates,
+)
 
 
 @dataclass
@@ -92,6 +99,8 @@ class NoteMeta:
     nodes: list[str] = field(default_factory=list)
     is_stub: bool = False
     prefix_inferred_type: str | None = None
+    created_at: str | None = None
+    updated_at: str | None = None
 
 
 def _infer_type_from_filename(stem: str) -> str | None:
@@ -178,6 +187,7 @@ def parse_note_metadata(path: Path, text: str | None = None) -> NoteMeta:
         elif isinstance(raw, str) and raw.strip():
             target.append(raw.strip())
 
+    apply_dates(meta, merged)
     return meta
 
 
@@ -251,64 +261,8 @@ def _git_changed_paths() -> set[str] | None:
     return names
 
 
-def _resolve_link(from_path: Path, target: str) -> Path | None:
-    t = target.strip()
-    if not t or t.startswith("#") or "://" in t:
-        return None
-    candidate = (from_path.parent / t).resolve()
-    try:
-        candidate.relative_to(REPO_ROOT.resolve())
-    except ValueError:
-        return None
-    return candidate
-
-
-def _archive_paths_in_text(text: str) -> list[str]:
-    found: list[str] = []
-    for match in ARCHIVE_PATH_RE.findall(text):
-        normalized = match.replace("\\", "/").rstrip(").,")
-        if normalized not in found:
-            found.append(normalized)
-    return found
-
-
-def _synthesis_paths_in_text(text: str) -> list[str]:
-    return list(dict.fromkeys(SYNTHESIS_PATH_RE.findall(text.replace("\\", "/"))))
-
-
-def _all_archive_anchors(meta: NoteMeta, text: str) -> list[str]:
-    anchors = list(meta.archive_links) + list(meta.nodes)
-    for item in _archive_paths_in_text(text):
-        if item not in anchors:
-            anchors.append(item)
-    resolved: list[str] = []
-    for item in anchors:
-        p = REPO_ROOT / item.replace("/", "\\") if "\\" not in item else REPO_ROOT / item
-        if not p.is_absolute():
-            p = REPO_ROOT / item
-        if p.exists():
-            resolved.append(item.replace("\\", "/"))
-        elif (REPO_ROOT / item.replace("\\", "/")).exists():
-            resolved.append(item.replace("\\", "/"))
-    return resolved
-
-
 def build_inbound_note_links(paths: list[Path]) -> dict[str, int]:
-    note_rels = {p.relative_to(REPO_ROOT).as_posix() for p in paths if classify_tier(p) == "A"}
-    inbound: dict[str, int] = {rel: 0 for rel in note_rels}
-    for path in paths:
-        if classify_tier(path) != "A":
-            continue
-        text = path.read_text(encoding="utf-8", errors="replace")
-        from_rel = path.relative_to(REPO_ROOT).as_posix()
-        for raw in LINK_RE.findall(text):
-            resolved = _resolve_link(path, raw)
-            if not resolved or not resolved.is_file():
-                continue
-            target_rel = resolved.relative_to(REPO_ROOT).as_posix()
-            if target_rel in inbound and target_rel != from_rel:
-                inbound[target_rel] += 1
-    return inbound
+    return _build_inbound_note_links(paths, classify_tier=classify_tier)
 
 
 def validate_note(meta: NoteMeta, *, text: str, inbound_count: int = 0) -> list[str]:
