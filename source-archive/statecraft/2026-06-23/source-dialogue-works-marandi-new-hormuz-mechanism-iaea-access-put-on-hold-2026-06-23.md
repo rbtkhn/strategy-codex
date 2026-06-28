@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: marandi
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: New Hormuz mechanism - IAEA access put on hold"
 channel_slug: dialogue-works

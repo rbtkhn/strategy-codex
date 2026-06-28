@@ -14,7 +14,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 title: "Iran LAUNCHES Immediate Retaliation: Explosions Rock Bahrain After US Strikes"
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works

@@ -11,7 +11,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Ray McGovern
 title: "Ray McGovern: West Asia Changing FAST, Israel LOSES Big - Putin REJECTS Zelensky"
 channel_url: "https://www.youtube.com/@dialogueworks01"

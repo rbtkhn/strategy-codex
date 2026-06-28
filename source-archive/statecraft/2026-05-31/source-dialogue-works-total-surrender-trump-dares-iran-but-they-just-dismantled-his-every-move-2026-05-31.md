@@ -8,7 +8,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 title: "Nima R. Alkhorshid: \"TOTAL SURRENDER\" � Trump Dares Iran, But They Just DISMANTLED His Every Move"
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works

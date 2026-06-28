@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 title: "Larry Johnson: Iran Closes Hormuz AND Ends Israel's Combat Ops - US Rushes to Talks!"
 channel_slug: dialogue-works

@@ -9,7 +9,7 @@ guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 thread: alkorshid
 threads:

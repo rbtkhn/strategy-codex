@@ -12,7 +12,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson; Larry Wilkerson
 title: "Larry Johnson & Col. Wilkerson: Iran FIRES MISSILES at US Destroyers - US Ships FLEE to Indian Ocean"
 channel_url: "https://www.youtube.com/@dialogueworks01"

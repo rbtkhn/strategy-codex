@@ -11,7 +11,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Charles Freeman
 title: "Chas Freeman: The Greater Israel Project Is Collapsing"
 channel_url: "https://www.youtube.com/@dialogueworks01"

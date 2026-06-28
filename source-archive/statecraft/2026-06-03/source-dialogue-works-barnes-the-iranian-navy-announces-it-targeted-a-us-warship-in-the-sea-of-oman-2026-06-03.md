@@ -11,7 +11,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Robert Barnes
 title: "Robert Barnes: The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman"
 channel_url: "https://www.youtube.com/watch?v=c9xkvJjlAC0"
@@ -28,9 +28,9 @@ editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft enti
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 transcript_curation: curated_sectioned
 ---
-# Nima Alkorshid / Robert Barnes - The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman
+# Nima Alkhorshid / Robert Barnes - The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Wednesday, June 3, 2026  
 **Guest:** Robert Barnes  
 **URL:** https://www.youtube.com/watch?v=c9xkvJjlAC0

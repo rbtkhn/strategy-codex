@@ -17,7 +17,7 @@ threads:
   - aguilar
 thread_expert: aguilar
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Lt. Col. Anthony Aguilar
 title: "Lt. Col. Anthony Aguilar: IDF Orders Massive Khiam (Lebanon) Withdrawal"
 channel_url: "https://www.youtube.com/@dialogueworks01"

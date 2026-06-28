@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Laith Marouf
 title: "Laith Marouf: Israel's Buffer Zone COLLAPSES as Hezbollah Launches Fierce Iron Dome & Ground Assault"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

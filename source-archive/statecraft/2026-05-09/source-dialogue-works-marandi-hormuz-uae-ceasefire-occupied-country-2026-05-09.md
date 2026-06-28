@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed Mohammad Marandi
 title: Hormuz, UAE, Ceasefire, and the New Security Architecture
 channel_url: "https://www.youtube.com/watch?v=RDvZv4mZTlg"
@@ -21,7 +21,7 @@ opening_tier: clean
 
 ## Cleaned Transcript Notes
 
-Nima Alkorshid and Seyed Mohammad Marandi open with the latest naval incidents around the Strait of Hormuz. Marandi says the United States initiated the violence by striking tankers and killing sailors and civilians, while insisting that no Iranian naval boats were hit. He says Iranian drones struck US ships but that the strikes were calibrated to avoid serious escalation.
+Nima Alkhorshid and Seyed Mohammad Marandi open with the latest naval incidents around the Strait of Hormuz. Marandi says the United States initiated the violence by striking tankers and killing sailors and civilians, while insisting that no Iranian naval boats were hit. He says Iranian drones struck US ships but that the strikes were calibrated to avoid serious escalation.
 
 Marandi argues the real strategic result is that ships linked to the five Gulf states that joined the war against Iran are being kept out of the Strait. He says ships from friendly states, or states not involved in the war, can still transit, and he treats the failure of the US operation to force passage as proof that Trump’s approach is failing.
 

@@ -6,7 +6,7 @@ source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
-  - Nima Alkorshid
+  - Nima Alkhorshid
 guest_people:
   - Chas Freeman
 show_title: Dialogue Works
@@ -14,7 +14,7 @@ channel_name: Dialogue Works
 thread: dialogue-works
 threads: alkorshid,freeman
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Chas Freeman
 title: Amb. Chas Freeman — The Collapse Of Israel's Agenda
 channel_slug: dialogue-works
@@ -33,7 +33,7 @@ transcript_curation: curated_sectioned
 # Amb. Chas Freeman — The Collapse Of Israel's Agenda
 
 **Show:** Dialogue Works  
-**Host:** Nima Alkorshid  
+**Host:** Nima Alkhorshid  
 **Guest:** Chas Freeman  
 **Date:** Friday, 26 June 2026  
 **URL:** https://www.youtube.com/watch?v=7APwlAtHjLA

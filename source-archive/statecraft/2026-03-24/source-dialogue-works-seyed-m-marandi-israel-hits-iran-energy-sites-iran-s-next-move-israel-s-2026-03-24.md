@@ -5,7 +5,7 @@ kind: transcript
 source_form: interview
 thread: alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Israel Hits Iran Energy Sites, Iran\u2019s Next Move: Israel\u2019s Energy & Water Systems"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

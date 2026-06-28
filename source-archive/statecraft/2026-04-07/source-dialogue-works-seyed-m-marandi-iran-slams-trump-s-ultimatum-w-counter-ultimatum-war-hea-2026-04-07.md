@@ -5,7 +5,7 @@ kind: transcript
 source_form: interview
 thread: alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran SLAMS Trump\u2019s Ultimatum w/ COUNTER ULTIMATUM \u2014 War Headed DECIMATING Attacks"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

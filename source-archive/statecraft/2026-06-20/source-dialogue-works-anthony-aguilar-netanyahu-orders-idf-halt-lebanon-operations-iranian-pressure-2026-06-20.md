@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: aguilar
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Anthony Aguilar
 title: "Lt. Col. Anthony Aguilar: Netanyahu Orders IDF to Halt Lebanon Operations Amid Iranian Pressure"
 channel_slug: dialogue-works

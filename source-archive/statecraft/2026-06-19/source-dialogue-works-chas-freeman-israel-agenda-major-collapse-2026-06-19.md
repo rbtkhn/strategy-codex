@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: freeman
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Charles Freeman
 title: "Amb. Chas Freeman: Israel's Agenda Suffers MAJOR Collapse"
 channel_slug: dialogue-works

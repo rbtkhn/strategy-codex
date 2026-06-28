@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: Trump's Final Gamble: Iran Dares to Strike Back"
 channel_url: "https://www.youtube.com/watch?v=rSvsMr-wnq0"
@@ -20,7 +20,7 @@ dialogue_works_close_substack_trim_applied: true
 opening_tier: host-tease
 ---
 
-# Nima Alkorshid / Alastair Crooke - Alastair Crooke: Trump's Final Gamble: Iran Dares to Strike Back
+# Nima Alkhorshid / Alastair Crooke - Alastair Crooke: Trump's Final Gamble: Iran Dares to Strike Back
 
 **Channel:** Dialogue Works  
 **Date:** 2026-02-20  

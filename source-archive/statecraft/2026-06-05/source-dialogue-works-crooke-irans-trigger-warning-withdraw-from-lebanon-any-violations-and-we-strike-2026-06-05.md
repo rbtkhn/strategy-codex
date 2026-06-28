@@ -12,7 +12,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: IRAN'S TRIGGER WARNING: 'Withdraw from Lebanon... Any Violations and We Strike"
 channel_url: "https://www.youtube.com/@dialogueworks01"

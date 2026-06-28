@@ -12,7 +12,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Joe Kent
 title: "Nima R. Alkhorshid: BREAKING: IRAN QUITS ALL PEACE TALKS EFFECTIVE IMMEDIATELY - w/ Joe Kent"
 channel_url: "https://www.youtube.com/@dialogueworks01"

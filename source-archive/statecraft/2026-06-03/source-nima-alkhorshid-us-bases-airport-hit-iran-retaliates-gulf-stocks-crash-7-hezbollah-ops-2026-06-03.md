@@ -10,7 +10,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 title: "US Bases & Airport HIT! Iran RETALIATES - Gulf Stocks CRASH + 7 Hezbollah Ops"
 channel_url: "https://www.youtube.com/watch?v=PQWhsrD4XhY"
 channel_slug: dialogue-works

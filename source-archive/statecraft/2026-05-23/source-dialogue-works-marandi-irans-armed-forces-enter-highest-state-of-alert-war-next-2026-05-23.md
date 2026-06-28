@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran’s Armed Forces Enter HIGHEST State of Alert – War Next?"
 channel_url: "https://www.youtube.com/watch?v=3CWFQOwYh0M"

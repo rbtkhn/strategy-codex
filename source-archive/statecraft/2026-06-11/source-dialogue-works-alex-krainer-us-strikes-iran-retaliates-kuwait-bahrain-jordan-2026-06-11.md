@@ -17,7 +17,7 @@ threads:
   - krainer
 thread_expert: krainer
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Alex Krainer
 title: "Alex Krainer: US STRIKES Iran – Iran RETALIATES Against Kuwait, Bahrain & Jordan!"
 channel_url: "https://www.youtube.com/@dialogueworks01"

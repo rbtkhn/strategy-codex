@@ -17,7 +17,7 @@ threads:
   - johnson
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 title: "BREAKING: IRAN CANCELS NEGOTIATIONS AS ISRAEL BOMBS LEBANON — w/ Fmr. CIA Larry Johnson"
 channel_url: "https://www.youtube.com/@dialogueworks01"

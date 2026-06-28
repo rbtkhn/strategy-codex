@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: wilkerson
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Lawrence Wilkerson
 title: "Col. Larry Wilkerson: Israel's Grand Strategy Is Coming Apart – Here's Why It Matters"
 channel_url: "https://www.youtube.com/@dialogueworks01"

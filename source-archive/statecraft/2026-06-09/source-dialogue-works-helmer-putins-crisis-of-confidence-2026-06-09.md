@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: helmer
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: John Helmer
 title: "John Helmer: PUTIN'S CRISIS OF CONFIDENCE?"
 channel_url: "https://www.youtube.com/@dialogueworks01"

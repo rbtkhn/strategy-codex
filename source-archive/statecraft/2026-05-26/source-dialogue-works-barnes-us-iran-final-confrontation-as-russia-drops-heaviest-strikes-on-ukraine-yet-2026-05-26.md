@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Robert Barnes
 title: "Robert Barnes: US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet"
 channel_url: "https://www.youtube.com/watch?v=1eAZc0q6MPs"
@@ -17,9 +17,9 @@ source_note: Cleaned transcript pasted by operator.
 opening_tier: host-tease
 ---
 
-# Nima Alkorshid / Robert Barnes - US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet
+# Nima Alkhorshid / Robert Barnes - US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Tuesday, May 26, 2026  
 **Guest:** Robert Barnes  
 **URL:** https://www.youtube.com/watch?v=1eAZc0q6MPs

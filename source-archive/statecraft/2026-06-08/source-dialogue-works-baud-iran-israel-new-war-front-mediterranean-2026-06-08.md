@@ -13,7 +13,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Jacques Baud
 title: "Col. Jacques Baud: Iran & Israel Just Opened a NEW WAR FRONT in the Mediterranean"
 channel_url: "https://www.youtube.com/@dialogueworks01"

@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: Iran Was Ready for This War... And It Could Change the Middle East Forever"
 channel_url: "https://www.youtube.com/watch?v=bfZMcqICySg"
@@ -17,7 +17,7 @@ source_note: Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw
 opening_tier: clean
 ---
 
-# Nima Alkorshid / Alastair Crooke - Alastair Crooke: Iran Was Ready for This War... And It Could Change the Middle East Forever
+# Nima Alkhorshid / Alastair Crooke - Alastair Crooke: Iran Was Ready for This War... And It Could Change the Middle East Forever
 
 **Channel:** Dialogue Works  
 **Date:** 2026-03-17  

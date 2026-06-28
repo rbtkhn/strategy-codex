@@ -17,7 +17,7 @@ threads:
   - baud
 thread_expert: baud
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Jacques Baud
 title: "Col. Jacques Baud: BREAKING: Starmer Steps Down Effective Immediately — Iran & US Agree to New Terms"
 channel_slug: dialogue-works

@@ -6,7 +6,7 @@ source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
-  - Nima Alkorshid
+  - Nima Alkhorshid
 guest_people:
   - Anthony Aguilar
 show_title: Dialogue Works
@@ -14,7 +14,7 @@ channel_name: Dialogue Works
 thread: dialogue-works
 threads: aguilar
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Anthony Aguilar
 title: "Lt. Col. Anthony Aguilar: BREAKING: U.S. Launches Airstrikes Inside Iran – Escalation Underway"
 channel_slug: dialogue-works
@@ -34,7 +34,7 @@ transcript_curation: curated_sectioned
 # Lt. Col. Anthony Aguilar: BREAKING: U.S. Launches Airstrikes Inside Iran – Escalation Underway
 
 **Show:** Dialogue Works  
-**Host:** Nima Alkorshid  
+**Host:** Nima Alkhorshid  
 **Guest:** Anthony Aguilar  
 **URL:** https://www.youtube.com/watch?v=b5QOYVpHttU
 

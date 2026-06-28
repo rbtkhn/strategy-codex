@@ -4,7 +4,7 @@ pub_date: 2026-05-11
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 thread: alkorshid
 threads:

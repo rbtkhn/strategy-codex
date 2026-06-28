@@ -5,7 +5,7 @@ kind: cleaned-transcript
 source_form: interview
 thread: alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Hezbollah\u2019s FPV Drones Just ROCKED Israel \u2013 Multi-Front War ESCALATES"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

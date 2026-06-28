@@ -17,7 +17,7 @@ threads:
   - hoh
 thread_expert: hoh
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Matthew Hoh
 title: "Matthew Hoh: \"CHANGE COURSE OR ELSE!\" – Trump to Israel"
 channel_url: "https://www.youtube.com/@dialogueworks01"

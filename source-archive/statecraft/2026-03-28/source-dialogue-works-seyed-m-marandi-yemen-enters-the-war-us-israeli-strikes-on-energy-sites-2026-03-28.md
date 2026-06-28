@@ -5,7 +5,7 @@ kind: transcript
 source_form: interview
 thread: alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Yemen Enters the War - US-Israeli Strikes on Energy Sites Spark IRAN\u2019S RETALIATION"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

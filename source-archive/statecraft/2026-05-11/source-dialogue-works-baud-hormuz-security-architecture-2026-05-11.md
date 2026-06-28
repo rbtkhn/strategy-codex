@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Col. Jacques Baud
 title: Hormuz, Iran, France, and the New Security Architecture
 channel_url: "https://www.youtube.com/watch?v=5D-OD0iezZ8"
@@ -17,9 +17,9 @@ source_note: Cleaned transcript pasted by operator.
 opening_tier: host-tease
 ---
 
-# Nima Alkorshid / Col. Jacques Baud - Hormuz, Iran, France, and the New Security Architecture
+# Nima Alkhorshid / Col. Jacques Baud - Hormuz, Iran, France, and the New Security Architecture
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Monday, May 11, 2026  
 **Guest:** Col. Jacques Baud  
 **URL:** https://www.youtube.com/watch?v=5D-OD0iezZ8

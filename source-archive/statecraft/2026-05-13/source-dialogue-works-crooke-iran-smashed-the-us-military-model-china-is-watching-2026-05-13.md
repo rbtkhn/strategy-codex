@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: Iran Smashed the US Military Model - China Is Watching"
 channel_url: "https://www.youtube.com/watch?v=IUeHkLFFpEI"
@@ -20,7 +20,7 @@ dialogue_works_close_substack_trim_applied: true
 opening_tier: host-tease
 ---
 
-# Nima Alkorshid / Alastair Crooke - Alastair Crooke: Iran Smashed the US Military Model - China Is Watching
+# Nima Alkhorshid / Alastair Crooke - Alastair Crooke: Iran Smashed the US Military Model - China Is Watching
 
 **Channel:** Dialogue Works  
 **Date:** 2026-05-13  

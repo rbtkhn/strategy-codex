@@ -8,7 +8,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Andrei Martyanov
 title: "Andrei Martyanov: Israel's Military JUST Got HUMILIATED on EVERY Front"
 channel_url: "https://www.youtube.com/@dialogueworks01"
@@ -24,7 +24,7 @@ transcript_curation: curated_sectioned
 ---
 # Andrei Martyanov: Israel's Military JUST Got HUMILIATED on EVERY Front
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Thursday, June 4, 2026  
 **Guest:** Andrei Martyanov  
 **URL:** https://www.youtube.com/watch?v=V0CufjIH-PI

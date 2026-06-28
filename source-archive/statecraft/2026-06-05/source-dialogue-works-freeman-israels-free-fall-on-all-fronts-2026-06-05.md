@@ -8,7 +8,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Charles Freeman
 title: "Amb. Chas Freeman: Israel's Free Fall on All Fronts"
 channel_url: "https://www.youtube.com/@dialogueworks01"
@@ -23,7 +23,7 @@ transcript_curation: curated_sectioned
 ---
 # Amb. Chas Freeman: Israel's Free Fall on All Fronts
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Friday, June 5, 2026  
 **Guest:** Charles Freeman  
 **URL:** https://www.youtube.com/watch?v=t9mWIKdlWU4

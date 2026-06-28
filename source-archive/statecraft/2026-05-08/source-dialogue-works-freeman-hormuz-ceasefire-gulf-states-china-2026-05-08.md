@@ -4,7 +4,7 @@ pub_date: 2026-05-08
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Charles Freeman
 thread: alkorshid
 threads:
@@ -16,7 +16,7 @@ editorial_note: Preserve as raw cleaned transcript; verify blockade, market, and
 opening_tier: host-tease
 ---
 
-# Nima Alkorshid with Ambassador Charles Freeman: Hormuz, Ceasefire, Gulf States, and China's Role
+# Nima Alkhorshid with Ambassador Charles Freeman: Hormuz, Ceasefire, Gulf States, and China's Role
 
 **Nima Alkhorshid:**
 Hi everybody. Today is Friday, May 8, 2026, and our dear friend Ambassador Chas Freeman is here with us. Welcome back, Ambassador.
@@ -24,7 +24,7 @@ Hi everybody. Today is Friday, May 8, 2026, and our dear friend Ambassador Chas 
 **Amb. Charles Freeman:**
 Glad to be with you, Nima.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Let me start with what happened last night. We've seen that the two sides, the United States and Iran, are firing at each other. Here is the official announcement from the Iranian Foreign Ministry. It says: "We strongly condemn the aggressive action of the US army against two oil tankers belonging to the Islamic Republic of Iran near Bandar Jask and the Strait of Hormuz, as well as the attacks on several points in the coastal areas overlooking the Strait of Hormuz which took place late Thursday night."
 
 And these attacks were met with a powerful response and a heavy slap from the armed forces of the Islamic Republic of Iran. The aggressor failed to achieve their illegitimate goals.
@@ -52,7 +52,7 @@ So suddenly Project Freedom emerges and this screws up whatever is going on quie
 
 It is what it is. But the implications of the closure of the Strait of Hormuz - or more accurately, the assertion of Iranian control over the Strait of Hormuz - are really quite enormous, and I think we ought to talk about that.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Yeah. Do you think the Iranian Foreign Minister is right when he says every time we have serious negotiations, something like this happens? And what can we say about the negotiations? Because I don't see any seriousness in them.
 
 **Amb. Charles Freeman:**
@@ -70,7 +70,7 @@ And here we come back to the fact that Steven Witkoff and Jared Kushner - both Z
 
 So we have people who are ignorant and incompetent conducting these negotiations. And again I come back to: what is the purpose of the negotiations? It is not to reach an agreement. It is to parade possibilities before a gullible American electorate and the trader community.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 I think if there is no serious negotiations happening, so what would be the alternative? As we were witnessing the case of the blockade on Iran which caused this problem last night, and the two sides are firing at each other. And it's not just about Iran. We had it before with the case of Venezuela, Russia, and the United States somehow is trying to control the tankers. And every time, everything that is happening has to do with international law. What is happening considering that, and how the United States is changing its own policies that they had before?
 
 **Amb. Charles Freeman:**
@@ -104,7 +104,7 @@ The United States meanwhile has split NATO. We have the dissolution of NATO in p
 
 So Israel's foreign support is decaying. American alliances are disintegrating. And for what? Nothing. Before this war started, the Strait of Hormuz was open to everyone. There was free navigation. Now there isn't. There's no way to alter that fact without Iranian agreement. And Iran is not going to agree to apply the Law of the Sea rules that are defunct and that appear to enable the United States to attack Iran whenever it pleases even during a so-called ceasefire. So this is where we are.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 You know, Lula had a meeting with Donald Trump and he said after that - there are not many reports on what has happened - but he said he doesn't understand what Donald Trump is thinking of because the war is over while the war is not over. The way that he was describing Donald Trump was as though Donald Trump is living in an alternative universe. He doesn't live in reality. And what's going on? Because Brazilians, Lula said, we don't feel that anything is over. The war is happening and the conflict is going to hit us hard, everybody on this planet. And it doesn't seem that the United States is understanding the scale of difficulties that all these countries are facing and feeling right now.
 
 **Amb. Charles Freeman:**
@@ -122,7 +122,7 @@ And at home, gas is now, what is it, $4.70 or so a gallon and headed upward dram
 
 One of the judgments of the intelligence community, which I think was probably understated, is that Iran has another three or four months before it has a problem with reservoir pressure in its oil fields. So I think that's an underestimate. Can the United States sustain a blockade with the wear and tear on the ships and the men and women aboard them for that period? I don't know.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Let me bring up an article in Haaretz in Israel. And here is the article, Ambassador. It says "Netanyahu will go, but the state will die with him." And basically they're talking about the chaos and the problems that this administration has caused so far. They're winning nothing on the battlefield. The chaos that is coming out of these endless wars for Israel for decades to come. And the state is in some sort of turmoil. The economy is not working. And they're basically totally dependent on the United States. And the Trump administration doesn't seem to have a robust sort of strategy and it's all about making money.
 
 And because, Ambassador, just another point: according to data from Unusual Whales, a trading surveillance platform that monitors unusual market activities, it shows unknown traders placed something more than $900 million in short positions on crude oil on May 6, just minutes before Axios published a report saying Washington and Tehran were nearing a memorandum of understanding to end their two-month war. You know, this is the manipulation that is happening. One side is making money, the other - nobody seems to care about diplomacy, you know, putting an end to war. How do you see the way that - just starting with this article in Haaretz - how do you see that?
@@ -140,7 +140,7 @@ So we're entering a dark age. We can see it. And it is in some other respects a 
 
 What's to be done about it? People are talking about changes of leadership, regime change if you will, in the United States as the only cure for this. But part of the madness that has seized us is the loyalty of a cult. The Republican Party has become for most purposes a cult, not a thinking body engaged in serious discussion of policy issues and formulating policies that serve the interest of the United States. They're all about serving the interest of one Donald Trump. So here we are. Good thing that Lula kept it closed room with Donald Trump rather than in the open.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Ambassador Smotrich says that this war must end with a change in the borders of Gaza, Lebanon, Syria, and of course the West Bank. They're talking about the expansion of Israel as some sort of outcome of these wars. I don't see anything of that sort happening with the case of Lebanon, the West Bank, the situation. We know what is happening even with HTS in Syria. They said that Al-Golani said they cannot capture the southern part of Syria. We want that back. I don't know what is happening in the mind of these people in Israel, but so far from what we've seen, Hezbollah is fighting back. They're not going to back down. And the government in Lebanon is not that powerful, by the way. They're trying to talk and negotiate and they're not helping the situation.
 
 **Amb. Charles Freeman:**
@@ -152,7 +152,7 @@ If Israel were now to disappear, no one would weep abroad except the Zionists, t
 
 So I don't know what to say. The tragedy is caused, in Greek tradition, by hubris - overweening pride - and the inability to see what the consequences of that pride are. And in Greek tragedy you have a chorus in the background that is trying to point out to the protagonist: you are going to your doom. Something really bad is going to result from your behavior and your blindness. But of course the protagonist never hears the chorus. Only the audience does. And here we have a similar situation where there have been people - myself included - who've tried to save Israel from itself and we failed. The moment when Israel meets its doom is approaching. And I am not a Christian Zionist. So I do not see anything good about Armageddon happening. I do not believe that the world's Jews will be forcibly converted to Christianity or sent to hell. I do not believe that the demise of Israel will have any good effect at all. So I'm very apprehensive about where all this is heading.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Yeah, I think Ambassador when it comes to the bases basically in GCC countries - do you think that the Israeli strategists or those people, the military part of Israel, they understand what they've lost so far with the war against Iran? Because they have lost these early warning systems, these radars that were communicating with air defense systems. When someone like Smotrich is talking about capturing Lebanon, Gaza, West Bank, Syria - you have to understand your capabilities. You cannot go beyond your capabilities. And that capability has been reduced drastically by the simple fact of the American bases being hit by Iranian missiles during this war. Not only in GCC countries, but also in Israel as well.
 
 **Amb. Charles Freeman:**
@@ -164,7 +164,7 @@ Smotrich, like some American politicians - I think of Lindsey Graham, for exampl
 
 Anyway, we are likely to see - and we have seen actually - the Israeli chief of staff, military leader, say the Israeli army, the IDF, is falling apart. It's overstretched. It cannot continue like this. So at what point do you get, if not a mutiny, at least sufficient pushback from the professional military - not just in Israel but in the United States where people are very disgruntled, very unhappy. People in the military have very low morale. They're not behind this leadership. At what point does that have an effect on the leadership and change policies? I don't know. But pretty clearly they were coming to some kind of tipping point.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 In six days we're going to have Donald Trump going to China and we already had the Iranian Foreign Minister going to China and talking with his counterpart. How do you see Donald Trump and his sort of cards? Because he loves this sort of the game of cards. What are those cards that he possesses before going to China or having some sort of ground to work with China?
 
 **Amb. Charles Freeman:**
@@ -176,7 +176,7 @@ Donald Trump has dreams of selling more Boeing aircraft on this trip, that kind 
 
 China is now very clearly the dominant economic force in Pacific Asia. It is expanding its market everywhere. It has just done the opposite of Donald Trump. It has ended tariffs for every country in Africa - tariff-free trade now, with the exception of one country which still recognizes Taipei as the government of China. So this is not likely to produce very much. It will produce a good television show. It will enable Donald Trump to strut around and bathe in the attention that he's getting. But I don't see any breakthrough happening. And in fact I would say the US-China relationship at the moment is now dominated by a common concern to maintain minimal stability. There are no aspirations on either side for a major breakthrough. China is content to continue doing what it is doing, which is developing technological superiority. The Australian Strategic Policy Institute which monitors scientific and technological innovation now watches 74 categories - 66 of them are led by the Chinese, 8 are still led by the United States, none by a European country apparently. So China's making progress. It has problems - economic problems, a real estate bubble that popped, some demoralization as a result of the anti-corruption campaigns and so forth - but it's on a steady course and the United States is wobbling all over the place. So China doesn't have to give very much. Just accepting Donald Trump and parading him in front of the People's Liberation Army will be enough maybe.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Yeah, we know that the Chinese government said to the refineries, those parts of their economy that are working with Iranians and Russians, they don't care about the American sanctions. They're going to support you if the sanctions hit you. And how do you see that position? Do you think that Donald Trump would be able to change that position in his visit?
 
 **Amb. Charles Freeman:**
@@ -190,17 +190,17 @@ So this war, while it is a problem for China in the sense that it is going to ti
 
 And I think people say well China has been supportive of Iran. Well yes, to some extent it's been supportive of Iran to the extent that it believes that what Iran is doing serves its interests including the interest in restoring world order. It has not taken sides between the Arabs and Iranians, the Persians. It remains neutral. It's responsive to the Saudis as well as to the Iranians. Saudi Arabia now has no alternative but to make peace with Iran. And that is the significance of the suspension of use of bases on its territory and overflight rights for the United States. Same is true of Kuwait. This is a signal of the future and it's one that the Chinese welcome. They have not believed in securing energy supplies in the Persian Gulf through military means. They've sought to do so through diplomacy. Well, diplomacy now looks as though it might finally have a chance to produce some kind of security architecture in the Persian Gulf that will suit the countries there as well as their customers abroad.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Yeah. Thank you so much, Ambassador Freeman, for being with us today. Great pleasure as always.
 
 **Amb. Charles Freeman:**
 It's always a pleasure. Even though it makes me out as a masochist, I seem to enjoy all the suffering that we're inflicting on ourselves for no good reason. I would really like to wake up one morning and see all this behind us.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Maybe we'll have that day.
 
 **Amb. Charles Freeman:**
 In the meantime, keep up the good work.
 
-**Nima Alkorshid:**
+**Nima Alkhorshid:**
 Thank you.

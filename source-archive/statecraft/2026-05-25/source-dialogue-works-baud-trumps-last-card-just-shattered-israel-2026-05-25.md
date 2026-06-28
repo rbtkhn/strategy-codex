@@ -7,7 +7,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Col. Jacques Baud
 title: "Col. Jacques Baud: Trump's Last Card Just SHATTERED Israel"
 channel_url: "https://www.youtube.com/watch?v=_KmFdY8_2D4"
@@ -17,9 +17,9 @@ source_note: Cleaned transcript pasted by operator.
 opening_tier: host-tease
 ---
 
-# Nima Alkorshid / Col. Jacques Baud - Trump's Last Card Just SHATTERED Israel
+# Nima Alkhorshid / Col. Jacques Baud - Trump's Last Card Just SHATTERED Israel
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Monday, May 25, 2026  
 **Guest:** Col. Jacques Baud  
 **URL:** https://www.youtube.com/watch?v=_KmFdY8_2D4

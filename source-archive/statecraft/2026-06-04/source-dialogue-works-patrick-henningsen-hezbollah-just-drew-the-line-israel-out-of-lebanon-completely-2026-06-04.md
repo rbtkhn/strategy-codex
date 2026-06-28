@@ -8,7 +8,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Patrick Henningsen
 title: "Patrick Henningsen: Hezbollah Just Drew the Line: 'Israel Out of Lebanon Completely'"
 channel_url: "https://www.youtube.com/@dialogueworks01"
@@ -24,7 +24,7 @@ transcript_curation: curated_sectioned
 ---
 # Patrick Henningsen: Hezbollah Just Drew the Line: 'Israel Out of Lebanon Completely'
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
 **Date:** Thursday, June 4, 2026  
 **Guest:** Patrick Henningsen  
 **URL:** https://www.youtube.com/watch?v=Ha9elCUGl-E

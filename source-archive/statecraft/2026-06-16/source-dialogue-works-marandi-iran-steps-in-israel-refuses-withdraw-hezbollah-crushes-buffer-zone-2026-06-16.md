@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: marandi
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Steps In – Israel Refuses to Withdraw as Hezbollah CRUSHES the Buffer Zone"
 channel_url: "https://www.youtube.com/@dialogueworks01"
@@ -34,8 +34,8 @@ transcript_curation: curated_sectioned
 ---
 # Seyed M. Marandi: Iran Steps In – Israel Refuses to Withdraw as Hezbollah CRUSHES the Buffer Zone
 
-**Channel:** Dialogue Works (Nima Alkorshid)  
-**Host:** Nima Alkorshid  
+**Channel:** Dialogue Works (Nima Alkhorshid)  
+**Host:** Nima Alkhorshid  
 **Guest:** Seyed M. Marandi  
 **Date:** Tuesday, 16 June 2026  
 **URL:** https://www.youtube.com/watch?v=g9JLKwdg1Jc

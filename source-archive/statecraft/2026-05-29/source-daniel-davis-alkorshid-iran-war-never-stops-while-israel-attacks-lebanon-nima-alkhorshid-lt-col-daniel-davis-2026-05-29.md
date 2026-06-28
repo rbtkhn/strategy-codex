@@ -13,7 +13,7 @@ source_note: Transcript pasted manually by operator for canonical May 29, 2026 D
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Dialogue Works
 host: Daniel Davis
-guest: Nima Alkorshid
+guest: Nima Alkhorshid
 thread: davis
 threads:
   - davis

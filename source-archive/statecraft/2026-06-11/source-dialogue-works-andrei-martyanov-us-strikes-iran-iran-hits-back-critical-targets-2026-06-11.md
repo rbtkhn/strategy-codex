@@ -6,7 +6,7 @@ source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
-  - Nima Alkorshid
+  - Nima Alkhorshid
 guest_people:
   - Andrei Martyanov
 show_title: Dialogue Works
@@ -17,7 +17,7 @@ threads:
   - martyanov
 thread_expert: martyanov
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Andrei Martyanov
 title: "Andrei Martyanov: US Strikes Iran – Iran Hits Back at CRITICAL Targets IMMEDIATELY"
 channel_url: "https://www.youtube.com/@dialogueworks01"

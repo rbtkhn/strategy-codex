@@ -6,7 +6,7 @@ source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
-  - Nima Alkorshid
+  - Nima Alkhorshid
 guest_people:
   - Robert Barnes
 show_title: Dialogue Works
@@ -14,7 +14,7 @@ channel_name: Dialogue Works
 thread: dialogue-works
 threads: barnes
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Robert Barnes
 title: "Robert Barnes: Iran Drones Attack Ship WITHOUT State Approval!"
 channel_slug: dialogue-works
@@ -34,7 +34,7 @@ transcript_curation: curated_sectioned
 # Robert Barnes: Iran Drones Attack Ship WITHOUT State Approval!
 
 **Show:** Dialogue Works  
-**Host:** Nima Alkorshid  
+**Host:** Nima Alkhorshid  
 **Guest:** Robert Barnes  
 **URL:** https://www.youtube.com/watch?v=JlvpAlrvK8k
 

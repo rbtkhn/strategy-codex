@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: helmer
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: John Helmer
 title: "John Helmer: Russia Just REACTED to Iran-US MoU – Iran Insists on Ending War on All Fronts"
 channel_url: "https://www.youtube.com/@dialogueworks01"

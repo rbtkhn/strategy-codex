@@ -17,7 +17,7 @@ threads:
   - johnson
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 title: "Trump Surrender Document Released, Total Iranian Victory!!! w/ FMR CIA Larry Johnson"
 channel_url: "https://www.youtube.com/@dialogueworks01"

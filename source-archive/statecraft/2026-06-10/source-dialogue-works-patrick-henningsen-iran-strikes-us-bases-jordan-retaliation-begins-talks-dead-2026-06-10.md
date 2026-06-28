@@ -17,7 +17,7 @@ threads:
   - henningsen
 thread_expert: henningsen
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Patrick Henningsen
 title: "Patrick Henningsen: Iran Strikes US Bases in Jordan – Retaliation Begins & Talks DEAD"
 channel_url: "https://www.youtube.com/@dialogueworks01"

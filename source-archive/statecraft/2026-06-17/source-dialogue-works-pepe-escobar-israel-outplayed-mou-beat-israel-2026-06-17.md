@@ -17,7 +17,7 @@ threads:
   - escobar
 thread_expert: escobar
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Pepe Escobar
 title: "Pepe Escobar: Israel Just Got Outplayed - The MoU That 'Beat' Israel Where It Hurts"
 channel_slug: dialogue-works

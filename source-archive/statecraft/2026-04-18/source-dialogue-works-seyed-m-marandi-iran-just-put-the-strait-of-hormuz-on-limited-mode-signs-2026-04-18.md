@@ -5,7 +5,7 @@ kind: transcript
 source_form: interview
 thread: alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Just Put the Strait of Hormuz on LIMITED MODE - Signs Point MAJOR Escalation"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

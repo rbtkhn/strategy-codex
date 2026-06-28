@@ -17,7 +17,7 @@ threads:
   - alkorshid
 thread_expert: marandi
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed Mohammad Marandi; Larry Johnson
 title: "Seyed M. Marandi & Larry Johnson: BREAKING: Iran SHUTS DOWN Geneva Talks Over MoU Implementation"
 channel_slug: dialogue-works

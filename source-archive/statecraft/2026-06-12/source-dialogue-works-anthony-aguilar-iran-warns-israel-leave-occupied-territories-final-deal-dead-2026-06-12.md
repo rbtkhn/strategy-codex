@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: aguilar
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Lt. Col. Anthony Aguilar
 title: "Lt. Col. Anthony Aguilar: Iran Warns Israel – Leave Occupied Territories or Final Deal Is DEAD"
 channel_url: "https://www.youtube.com/@dialogueworks01"

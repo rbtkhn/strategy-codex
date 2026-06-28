@@ -11,7 +11,7 @@ thread: alkorshid
 threads:
   - alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 title: "URGENT: Iran & Israel Trade Blows – Yemen Launches, Iran Hits Saudi"
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works

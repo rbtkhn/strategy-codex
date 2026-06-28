@@ -17,7 +17,7 @@ threads:
   - johnson
 thread_expert: johnson
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Larry Johnson
 title: "Larry Johnson: BREAKING: The American ATTACK on Iran has BEGUN - Iran's Upscale Retaliation Coming"
 channel_url: "https://www.youtube.com/@dialogueworks01"

@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: marandi
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: BREAKING: US & Iran on Brink of FINAL Deal – Here's What We Know"
 channel_url: "https://www.youtube.com/@dialogueworks01"

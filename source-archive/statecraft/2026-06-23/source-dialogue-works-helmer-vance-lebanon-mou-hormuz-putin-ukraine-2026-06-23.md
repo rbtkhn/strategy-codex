@@ -14,7 +14,7 @@ threads:
   - alkorshid
 thread_expert: helmer
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: John Helmer
 title: "John Helmer: Vance DESTROYS Netanyahu's Cabinet in FIERY Rant - Putin's Shaking Move"
 channel_slug: dialogue-works

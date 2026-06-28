@@ -5,7 +5,7 @@ kind: transcript
 source_form: interview
 thread: alkorshid
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Yemen STRIKES Israel - They Hit Iran\u2019s WATER & POWER\u2026 Now RETALIATION Has Started"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"

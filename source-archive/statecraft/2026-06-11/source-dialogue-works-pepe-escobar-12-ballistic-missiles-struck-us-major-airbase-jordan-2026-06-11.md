@@ -17,7 +17,7 @@ threads:
   - escobar
 thread_expert: escobar
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Pepe Escobar
 title: "Pepe Escobar: 12 Ballistic Missiles Struck a US Major Airbase (Jordan)"
 channel_slug: dialogue-works

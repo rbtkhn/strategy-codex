@@ -16,7 +16,7 @@ threads:
   - alkorshid
 thread_expert: krapivnik
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 guest: Stanislav Krapivnik
 title: "Stanislav Krapivnik: Breaking: US attacks Iran - Russia: No Deal Coming"
 channel_url: "https://www.youtube.com/@dialogueworks01"

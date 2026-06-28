@@ -14,7 +14,7 @@ threads:
   - alkorshid
 thread_expert: nima
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 title: "BREAKING: Iran Deputy Commander: 'Beirut attack won't go unanswered'"
 channel_slug: dialogue-works
 channel_url: "https://www.youtube.com/@dialogueworks01"

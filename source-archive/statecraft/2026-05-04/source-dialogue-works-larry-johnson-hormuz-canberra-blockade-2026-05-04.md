@@ -7,7 +7,7 @@ ingest_date: 2026-05-04
 kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
-host: Nima Alkorshid
+host: Nima Alkhorshid
 source_url: "https://www.youtube.com/watch?v=wGws3SN4HcE"
 title: "Larry Johnson: Project Freedom, the USS Canberra, Hormuz, and the Strait Blockade"
 interviewer: Nima Alkhorshid
