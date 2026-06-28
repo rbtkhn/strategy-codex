@@ -1,6 +1,16 @@
 ﻿# strategy-codex
 
-**strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md). **Terminology:** [docs/glossary.md](docs/glossary.md).
+**strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md).
+
+| Term | Plain meaning |
+| --- | --- |
+| **source archive** | Verbatim saved source material ([source-archive/statecraft/](source-archive/statecraft/README.md)) |
+| **synthesis** | Interpreted daily/monthly judgment ([statecraft/synthesis/](statecraft/synthesis/METHOD.md)) |
+| **transaction** | Bounded output object under a lane ([statecraft/](statecraft/README.md)) |
+| **membrane** | Authority boundary — what a surface may own, cite, or promote ([work-membrane-v2.md](docs/work-membrane-v2.md)) |
+| **archive (frozen)** | Historical / Record material — not default operator work ([grace-mar.md](docs/archive/grace-mar.md)) |
+
+**Glossary:** visitor terms → [public-orientation.md](docs/public-orientation.md) · Record/operator terms → [glossary.md](docs/glossary.md).
 
 ## Why this exists now
 
@@ -22,7 +32,7 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **A–F entry menu (single SSOT):** [docs/start-here.md — Choose your path](docs/start-here.md#choose-your-path). **Default:** **C** (operator). Fork / seed formation: explicit **`fork revive`** only — [grace-mar-instance-boundary](docs/grace-mar-instance-boundary.md).
 
-**Public-safe journalist path:** [docs/start-here.md — Door F](docs/start-here.md#door-f).
+**Public-safe journalist path:** [docs/public-orientation.md](docs/public-orientation.md) · [Door F](docs/start-here.md#door-f).
 
 ### Essays index — cross-channel theses {#essays-index}
 
@@ -43,7 +53,7 @@ This repository has multiple index surfaces. For LLM agents and coding assistant
 - [`repo-map.yaml`](repo-map.yaml) — machine-readable navigation hints.
 - [`statecraft/voices/voice-index.md`](statecraft/voices/voice-index.md) — analyst/source-corpus route maps.
 
-For analyst or source-corpus questions such as "Barnes index," start with `statecraft/voices/`, not removed operator-books symlink or generated dashboards. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
+For analyst or source-corpus questions such as "Barnes index," start with `statecraft/voices/`, not legacy root symlinks or generated dashboards. Operator books: [codex/README.md](codex/README.md) § Operator books. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
 
 If you come from **OB1-style** memory systems, see [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md) for the **legacy** Grace-Mar gate mapping. **Default onboarding:** [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 

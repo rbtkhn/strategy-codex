@@ -23,13 +23,13 @@ Pick **one letter**. **Default:** **C**. Seed calibration: [seed-phase-survey §
 | **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) |
 | **D** | Technical contributor | [skill-work/work-dev/](skill-work/work-dev/) |
 | **E** | Curious visitor | [harness-architecture-map.md](harness-architecture-map.md) · [product-identity.md](product-identity.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
-| **F** | Journalist / blogger | [Door F](#door-f) |
+| **F** | Journalist / blogger | [public-orientation.md](public-orientation.md) · [Door F](#door-f) |
 
 <a id="door-f"></a>
 
 ### Door F — public-safe orientation {#door-f}
 
-No seed intake or private operator material. [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · [essays/README.md](../essays/README.md) · [predictive-history](https://github.com/rbtkhn/predictive-history).
+No seed intake or private operator material. **Start:** [public-orientation.md](public-orientation.md) · [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · [essays/README.md](../essays/README.md) · [predictive-history](https://github.com/rbtkhn/predictive-history).
 
 ---
 

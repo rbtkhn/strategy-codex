@@ -16,7 +16,7 @@
 |--------|------|
 | `.cursor` | Cursor rules, skills, agent overlays |
 | `.github` | CI workflows (includes layout cap + path-adoption check) |
-| `removed operator-books symlink` | Symlink index into operator book corpus |
+| `library` | Local PD primary-text shelf (gitignored binaries; [library/README.md](../library/README.md)) |
 | `archive` | Grace-Mar instance bundle, placeholders, review queues |
 | `codex` | Chronology and strategy-codex corpus |
 | `docs` | Doctrine, skill-work, workflows |
@@ -36,6 +36,11 @@
 | `tests` | Pytest suite |
 
 Plus **root files** (not counted in the cap): `AGENTS.md`, `LLM-ROUTING.md`, `pyproject.toml`, operator JSONL ledgers, skill split files (`skill-think.md`, …), etc.
+
+**Retired paths (not root folders):**
+
+- Root `operator-books` symlink removed; operator books live in misc homes per [codex/README.md](../codex/README.md) § Operator books
+- Record glossary term `removed operator-books symlink` in [glossary.md](glossary.md) remains **Grace-Mar Record vocabulary** — do not conflate with GitHub root layout
 
 Full routing: [LLM-ROUTING.md](../LLM-ROUTING.md) · [repo-map.yaml](../repo-map.yaml).
 
