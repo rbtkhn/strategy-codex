@@ -35,6 +35,7 @@ def run_quick() -> int:
         (["python3", "scripts/check_repo_path_strict.py", "--strict"], "path strict scan"),
         (["python3", "scripts/check_record_surface_retirement.py"], "record surface retirement"),
         (["python3", "scripts/check_membrane_policy_light.py"], "membrane policy light"),
+        (["python3", "scripts/check_transaction_term_usage.py", "--strict", "--skills-strict"], "transaction term usage"),
     ]
     rc = 0
     for cmd, label in checks:
