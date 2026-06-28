@@ -38,7 +38,7 @@ If a new Mercouris item can live equally well in several of these without changi
 - [Mercouris thread](mercouris-thread.md
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
-- [Diesen x Mercouris host-local arc](../diesen/arc-mercouris-diesen-host.md
+- [Diesen x Mercouris host-local arc](../../notes/arc-mercouris-diesen-host.md
 - [Davis x Mercouris host-local arc](../../notes/arc-mercouris-davis-host.md
 - [Mercouris analytical bench](mercouris-analytical-bench.md)
 

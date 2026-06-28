@@ -73,9 +73,9 @@ Secondary audience is future integration/spec work that needs a stable reference
 - Source files:
   - [unified-execution-receipts.md](../unified-execution-receipts.md)
   - [agentic-receipt-map.md](../agentic-receipt-map.md)
-  - [../../../../action-receipts.md](../../../../action-receipts.md)
+  - [../../../../../docs/action-receipts.md](../../../action-receipts.md)
   - [../workbench/README.md](../workbench/README.md)
-  - [../../../../mcp/mcp-execution-receipts.md](../../../../mcp/mcp-execution-receipts.md)
+  - [../../../../../docs/mcp/mcp-execution-receipts.md](../../../mcp/mcp-execution-receipts.md)
   - [safety-story-ux.md](../safety-story-ux.md)
 - Prior briefs or outputs:
   - [frontier-agent-control-plane-direction.md](../frontier-agent-control-plane-direction.md)

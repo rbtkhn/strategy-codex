@@ -63,7 +63,7 @@ The underlying continuity is simple. If you want Russia to strike a deal, stop t
 
 Primary `civ-emp` bucket: `peace`
 
-Open [CIV-EMP README](../../academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
+Open [CIV-EMP README](../../../codex/academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../../codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
 
 - testing how failed settlements poison later bargaining
 - tracing how historical memory and honor shape peacemaking room

@@ -8,8 +8,8 @@ Surfaces reviewed:
 
 - [mercouris-arc.md](mercouris-arc.md)
 - [arc-mercouris-continuity-threads.md](mercouris-arc-threads.md)
-- [arc-mercouris-davis-host.md](../../channels/daniel-davis/arc-mercouris-davis-host.md)
-- [arc-mercouris-diesen-host.md](../diesen/arc-mercouris-diesen-host.md)
+- [arc-mercouris-davis-host.md](../../notes/arc-mercouris-davis-host.md)
+- [arc-mercouris-diesen-host.md](../../notes/arc-mercouris-diesen-host.md)
 
 Bounded claim:
 

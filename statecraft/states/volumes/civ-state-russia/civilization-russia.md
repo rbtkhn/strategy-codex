@@ -89,4 +89,4 @@ Open Russia correctly by asking whether the proposal recognizes or threatens the
 - [Russia sacred grammar](../../../russia/civilization/god.md)
 - [Russia literature](../../../russia/civilization/lit.md)
 - [Russia art](../../../russia/civilization/art.md)
-- [Russia doctrine](../../../russia/russia-doctrine.md)
+- [Russia doctrine](../../../russia/transactions/README.md)

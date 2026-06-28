@@ -7,7 +7,7 @@
 | **0. Chat echo** | If the draft was produced in **Cursor**, the **assistant reply** includes the **full** paste-ready copy (same text as any file write)—not a path alone. See [write-operator-preferences.md](write-operator-preferences.md) (*Chat delivery*). |
 | **1. Surface** | Named: **Locals (VivaBarnes / Duran)**, **X**, **PH comment**, or other (per hub scope). |
 | **2. Pipeline** | If shipping **X or PH** from the same idea as a **Locals** post: **Locals draft exists or is drafted first**; other channels are **trims or derivatives** unless you direct otherwise. |
-| **3. Topic-first** | First sentence anchors **who / what conflict or policy** (not setup-only abstraction). See [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc). |
+| **3. Topic-first** | First sentence anchors **who / what conflict or policy** (not setup-only abstraction). See [.cursor/rules/drafting-topic-lede.mdc](../../../.cursor/rules/drafting-topic-lede.mdc). |
 | **3b. With image** | If copy ships **with a visual** (Locals, X, etc.), the lede stays **substance-first** — **no** “screenshot,” “I’m posting,” **grab**, or second beat on the attachment unless the operator asked for a caption. See [write-operator-preferences.md](write-operator-preferences.md) (*Short public copy*). |
 | **3c. Locals vs mind voice** | **VivaBarnesLaw / Duran** — **Grace‑Mar** house style ([grace-mar-locals-voice.md](grace-mar-locals-voice.md)); **skill-write** craft — **not** default **CIV-MIND-BARNES** authentic voice (**`tri-mind` deprecated**). See [write-operator-preferences.md](write-operator-preferences.md) (*Not the same as*). |
 | **3d. Public claim** | The draft has **one public-facing claim**, not a notebook summary or internal phase list. |

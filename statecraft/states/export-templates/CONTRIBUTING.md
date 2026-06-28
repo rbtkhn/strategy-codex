@@ -33,7 +33,7 @@ export_civilizational_statecraft_public.py
 validate_civilizational_statecraft_public.py
 ```
 
-See [FOUNDING-PROVENANCE.md](FOUNDING-PROVENANCE.md) and [EXPORT-RECEIPT.md](EXPORT-RECEIPT.md).
+See [FOUNDING-PROVENANCE.md](FOUNDING-PROVENANCE.md) and [EXPORT-RECEIPT.md](FOUNDING-PROVENANCE.md).
 
 ## Code of conduct
 

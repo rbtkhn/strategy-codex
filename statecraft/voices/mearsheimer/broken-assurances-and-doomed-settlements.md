@@ -58,7 +58,7 @@ JCPOA extends the same logic into the Iran lane. Even when he allows that a futu
 
 Primary `civ-emp` bucket: `peace`
 
-Open the generic source base at [CIV-EMP README](../../academy/statecraft/civ-emp/README.md and [source-retrieval matrix](../../academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
+Open the generic source base at [CIV-EMP README](../../../codex/academy/statecraft/civ-emp/README.md and [source-retrieval matrix](../../../codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
 
 - testing whether guarantees are real or theatrical
 - asking which settlement carriers must exist for an agreement to survive

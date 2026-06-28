@@ -13,7 +13,7 @@ Mercouris is not only a native cognition stream. There are real cross-host appea
 The clearest current host-local reinforcement on disk is indexed on [mercouris-index.md](mercouris-index.md):
 
 - [Davis x Mercouris host-local arc](../../notes/arc-mercouris-davis-host.md), now a stable multi-file Davis branch
-- [Diesen x Mercouris host-local arc](../diesen/arc-mercouris-diesen-host.md), now deepened by **2023-01-14** and **2024-10-21** Karaganov triangulation panels (order-transition + deterrence-history) plus **2026-05-16** legitimacy dyad
+- [Diesen x Mercouris host-local arc](../../notes/arc-mercouris-diesen-host.md), now deepened by **2023-01-14** and **2024-10-21** Karaganov triangulation panels (order-transition + deterrence-history) plus **2026-05-16** legitimacy dyad
 - [2026-05-16 Diesen x Mercouris](../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 
 Karaganov doctrine on those panels routes through [karaganov-source-index.md](../karaganov/karaganov-source-index.md) — not this note.

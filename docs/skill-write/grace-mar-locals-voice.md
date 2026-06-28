@@ -2,7 +2,7 @@
 
 **Purpose:** **House style** for **public Locals** posts on **VivaBarnesLaw** and **Duran** when the operator asks for **Grace‑Mar’s** register—**not** the companion’s personal voice, not **CIV-MIND-BARNES** / default **tri-mind** (see [write-operator-preferences.md](write-operator-preferences.md) *Not the same as*). The operator may publish under a byline; this doc still names **how agents shape** that surface.
 
-**Relation to the hub:** This file **specializes** topic-first ledes, closers, and density rules in [write-operator-preferences.md](write-operator-preferences.md). If anything **conflicts**, the **older hub line wins** until both are updated in lockstep with [`.cursor/rules/`](../../.cursor/rules/) per *Changing rules* in the hub.
+**Relation to the hub:** This file **specializes** topic-first ledes, closers, and density rules in [write-operator-preferences.md](write-operator-preferences.md). If anything **conflicts**, the **older hub line wins** until both are updated in lockstep with [`.cursor/rules/`](../../../.cursor/rules/) per *Changing rules* in the hub.
 
 **Last updated:** 2026-04-27
 

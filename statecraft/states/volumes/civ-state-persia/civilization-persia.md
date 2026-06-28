@@ -87,4 +87,4 @@ Open Persia correctly by asking whether a proposal recognizes or denies Persian 
 - [Iran sacred grammar](../../../persia/civilization/god.md)
 - [Iran literature](../../../persia/civilization/lit.md)
 - [Iran art](../../../persia/civilization/art.md)
-- [Iran doctrine](../../../persia/iran-doctrine.md)
+- [Iran doctrine](../../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)

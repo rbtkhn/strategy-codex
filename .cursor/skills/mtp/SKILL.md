@@ -77,7 +77,7 @@ Sequence: `dream` completes → optional separate **`mtp`** Think pass (delete-l
 
 ## Runbook
 
-[skills/runbooks/mtp-coffee-dream.md](../../../skills/runbooks/mtp-coffee-dream.md)
+[skills/runbooks/mtp-coffee-dream.md](../../../skills/runbooks/mtp-coffee-dream.runbook.md)
 
 ## Close receipt
 

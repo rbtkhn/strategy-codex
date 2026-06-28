@@ -12,7 +12,7 @@ Current shelf jobs after this pass:
 |---|---|---|
 | [index.md](index.md) | wrapper front door | keep; now routes more clearly into `person arc -> routing -> raw-input -> helix` |
 | [README.md](README.md) | wrapper front door | keep; now mirrors the same contract more cleanly |
-| [mearsheimer-arc.md](../../notes/mearsheimer-arc.md) | person arc | keep as canonical whole-speaker continuity |
+| [mearsheimer-arc.md](mearsheimer-arc.md) | person arc | keep as canonical whole-speaker continuity |
 | [mearsheimer-routing.md](mearsheimer-routing.md) | routing | keep; fastest host-selection surface |
 | [mearsheimer-source-index.md](mearsheimer-source-index.md) | source bench and non-core appearance bench | keep; exhaustive authority for resolved appearances |
 | [mearsheimer-helix.md](mearsheimer-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
@@ -28,7 +28,7 @@ The shelf is still best read as a **person arc above a durable double helix, wit
 
 That doctrine still holds:
 
-- the whole-speaker object lives in [mearsheimer-arc.md](../../notes/mearsheimer-arc.md)
+- the whole-speaker object lives in [mearsheimer-arc.md](mearsheimer-arc.md)
 - the stable host comparison still lives in [mearsheimer-helix.md](mearsheimer-helix.md)
 - the current `Diesen + Davis` pair is still the canonical core
 - the Napolitano lane is real but still reinforcing orbit, not a third equal strand

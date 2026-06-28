@@ -40,5 +40,5 @@ Output path: `research/repos/civilization_memory/.cache/upstream_index.json` (gi
 
 ## Governance
 
-Upstream text is **WORK / reference retrieval** â€” not SELF until gated. See [`docs/cmc-routing.md`](../../../cmc-routing.md) and [`CIV-MEM.md`](../../../../CIV-MEM.md).
+Upstream text is **WORK / reference retrieval** â€” not SELF until gated. See [`docs/cmc-routing.md`](../../../cmc-routing.md) and [`CIV-MEM.md`](../../../../archive/legacy-users/grace-mar/SELF-LIBRARY/CIV-MEM.md).
 

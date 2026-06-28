@@ -37,7 +37,7 @@ This means Rome's continuity mechanism is structurally dispersed. It can survive
 
 ### Key source doors
 
-- [Rome bibliography](volumes/civ-state-rome/civ-state-rome-bibliography.md)
+- [Rome bibliography](../../../volumes/civ-state-rome/civ-state-rome-bibliography.md)
 - Procopius, *Wars*
 - *Corpus Juris Civilis*
 - Augustine, *City of God*
@@ -68,7 +68,7 @@ This means China's continuity mechanism is structurally centripetal. What matter
 
 ### Key source doors
 
-- [China bibliography](volumes/civ-state-china/civ-state-china-bibliography.md)
+- [China bibliography](../../../volumes/civ-state-china/civ-state-china-bibliography.md)
 - *Shujing* / *Book of Documents*
 - *Analects*
 - *Tang Code*
@@ -98,7 +98,7 @@ This means Persia's continuity mechanism is structurally regenerative. It can su
 
 ### Key source doors
 
-- [Persia bibliography](volumes/civ-state-persia/civ-state-persia-bibliography.md)
+- [Persia bibliography](../../../volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - *Avesta*
 - *Cyrus Cylinder*
 - Shapur I, *Res Gestae Divi Saporis*

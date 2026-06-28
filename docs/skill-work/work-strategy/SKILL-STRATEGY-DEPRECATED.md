@@ -6,7 +6,7 @@
 
 | Old trigger | New contract |
 |-------------|--------------|
-| **`strategy`**, **`strategy pass`** | [DEFAULT-PATH.md](DEFAULT-PATH.md) — three moves; [.cursor/rules/strategy-codex-pass.mdc](../../.cursor/rules/strategy-codex-pass.mdc) |
+| **`strategy`**, **`strategy pass`** | [DEFAULT-PATH.md](DEFAULT-PATH.md) — three moves; [.cursor/rules/strategy-codex-pass.mdc](../../../.cursor/rules/strategy-codex-pass.mdc) |
 | Routing / disambiguation | [README.md](README.md) — Activation + Routing |
 | EOD compose / page-first | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | §1d–§1h watch threads | [FIVE-THREAD-WATCH-TAGS.md](FIVE-THREAD-WATCH-TAGS.md) |

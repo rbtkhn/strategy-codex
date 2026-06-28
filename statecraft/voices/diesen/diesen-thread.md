@@ -19,7 +19,7 @@ Compatibility note: this file is a **legacy host-continuity compatibility surfac
 **Source:** Distilled from [`strategy-expert-diesen-transcript.md`](strategy-expert-diesen-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [diesen-profile.md](../diesen-profile.md (profile) and [diesen-transcript.md](diesen-transcript.md) (7-day verbatim).
+**Companion files:** [diesen-profile.md](diesen-profile.md) (profile) and [diesen-transcript.md](diesen-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -209,7 +209,7 @@ If pages named this expert during 2026-04, the narrative should eventually say *
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md Ã¢â‚¬â€ `batch-analysis | 2026-04-14 | Diesen Ãƒâ€” Sachs` (`crosses:diesen+sachs`); PH **vi-14** `YT | cold` (`thread:diesen`, `P_DHMUdOVdo`); **Diesen Ãƒâ€” Sachs** `YT | cold` (`thread:diesen` + `thread:sachs`, `S6mlCuvKKIQ`). **Expert threads:** `diesen`, `sachs`.
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ `batch-analysis | 2026-04-14 | Diesen Ãƒâ€” Sachs` (`crosses:diesen+sachs`); PH **vi-14** `YT | cold` (`thread:diesen`, `P_DHMUdOVdo`); **Diesen Ãƒâ€” Sachs** `YT | cold` (`thread:diesen` + `thread:sachs`, `S6mlCuvKKIQ`). **Expert threads:** `diesen`, `sachs`.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass
 - **Expert threads:** `thread:diesen` appears **twice** same calendar day Ã¢â‚¬â€ different episodes; `thread:sachs` only on the blockade episode.
@@ -235,7 +235,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 |-----|--------|-----|
 | **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
-| **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
+| **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 
 **Falsifier:** This pageÃ¢â‚¬â„¢s **orthogonal Judgment** fails if a single authoritative source treats **vi-14** petrodollar claims and **Sachs**-layer **NYT** / **DC-process** hypotheses as **one** merged **Glenn Diesen** verdict **without** separate episode groundingÃ¢â‚¬â€i.e. **collapse-by-edit** replaces **`crosses:`** discipline.
 
@@ -273,7 +273,7 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -298,7 +298,7 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -355,7 +355,7 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ## 2026-04-27
 - Inbox | cold: full text in [`source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) (pointer; SSOT raw-input) | thread:diesen | crosses:crooke
 - Refined | cold: [diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) (host lane; same raw) | thread:diesen
-- Sibling (guest): [../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) | thread:crooke
+- Sibling (guest): [../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) | thread:crooke
 - YT | cold: **Glenn Diesen** (host) **Ãƒâ€”** **Alastair Crooke** (guest) Ã¢â‚¬â€ *Iran War Is Now a Global War for World Order* Ã¢â‚¬â€ **aired** **2026-04-27** Ã¢â‚¬â€ **Hormuz** / JCPOA Ã¢â‚¬Å“**prison**,Ã¢â‚¬Â IRI reorders (war & sanctions before nuclear), Trump/Obama, Israel messianic, EU/vdl, $ **architecture** // hook: **`thread:diesen`** **+** **`thread:crooke`** | `https://www.youtube.com/watch?v=TBD-diesen-crooke-2026-04-27` | verify:operator-paste+speaker-labeled+pin-canonical-URL | grep:Diesen+Crooke+Greater+Eurasia+2026-04-27
 - Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen
 - Inbox | cold: full text in [`source-macgregor-diesen-total-war-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:diesen

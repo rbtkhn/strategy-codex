@@ -34,7 +34,7 @@ One entry point for re-entering the first month-aligned week of June 2026. Open 
 |----------|------------|
 | What happened June 7? | [Daily 2026-06-07](../../synthesis/day/2026-06-07.md) |
 | Why is Lebanon the gate, not a side file? | [2026-06-01](../../synthesis/day/2026-06-01.md) → [2026-06-05](../../synthesis/day/2026-06-05.md) → [Persia statecraft note 2026-06-06](../2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) |
-| Does the inquiry ladder survive for Iran (not just Russia)? | [Iran war ladder stress test](../notes/iran-war-inquiry-ladder-stress-test.md) → [Russia ladder method](../notes/russia-inquiry-ladder-as-recursive-learning.md) |
+| Does the inquiry ladder survive for Iran (not just Russia)? | [Iran war ladder stress test](../iran-war-inquiry-ladder-stress-test.md) → [Russia ladder method](../russia-inquiry-ladder-as-recursive-learning.md) |
 | Was the June 4 Lebanon “deal” real? | [2026-06-04](../../synthesis/day/2026-06-04.md) + [Hoh × Henningsen × Pape falsifier](../2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) |
 | Why was pseudo-diplomacy doomed before signature? | [Pape — The Lebanon Fuse](<../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md>) — triad exclusion (negotiations / security / Hezbollah survival) |
 | What if Lebanon alone does not force containment? | Pape horizontal card — Red Sea + Hormuz dual instability; June 7 **partial** activation (Nima/Yemen/Saudi); full dual-corridor **open** |

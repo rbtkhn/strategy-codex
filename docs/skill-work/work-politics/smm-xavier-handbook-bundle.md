@@ -720,7 +720,7 @@ Before shipping or merging work-politics candidates, ask:
 ### Weekly brief template
 
 1. **Headline reality** — One paragraph: race position (primary clock, money, noise).
-2. **Votes / record** — 2–3 bullets + one local explanation line each; pull at least one asymmetry candidate from [massie-issue-asymmetry.md](massie-issue-asymmetry.md) when useful.
+2. **Votes / record** — 2–3 bullets + one local explanation line each; pull at least one asymmetry candidate from [massie-issue-asymmetry.md](clients/massie-issue-asymmetry.md) when useful.
 3. **Earned + social** — What broke; repeat or drop.
 4. **Opposition** — Their moves; **pre-buttal** (short, factual).
 5. **Fundraising** — Week theme + one “why give now.”
@@ -738,7 +738,7 @@ Align with [generate_wap_weekly_brief](../../../scripts/generate_wap_weekly_brie
 - Primary opponent(s): site, FEC, social, name + “KY-4” alerts.
 - Local: 3–5 outlets that cover the district.
 - Votes: upcoming bills on spending, war, surveillance, mandates.
-- Calendar: [calendar-2026.md](../calendar-2026.md), filing deadlines, debates, county events.
+- Calendar: [calendar-2026.md](calendar-2026.md), filing deadlines, debates, county events.
 
 **Cadence:** daily light oppo/media scan; weekly full brief.
 
@@ -759,8 +759,8 @@ Align with [generate_wap_weekly_brief](../../../scripts/generate_wap_weekly_brie
 ### Related docs
 
 - [massie-ky4.md](clients/massie-ky4.md) — client index  
-- [principal-profile.md](../principal-profile.md), [opposition-brief.md](../opposition-brief.md)  
-- [compliance-checklist.md](../compliance-checklist.md) — federal rows  
+- [principal-profile.md](principal-profile.md), [opposition-brief.md](opposition-brief.md)  
+- [compliance-checklist.md](compliance-checklist.md) — federal rows  
 
 *Last updated: March 2026*
 
@@ -1356,7 +1356,7 @@ U.S. foreign policy must respect the Constitution: Congress declares war and aut
 2. In Cursor, run the matching skill (e.g. `.cursor/skills/politics-massie/SKILL.md`) with that context.
 3. Paste agent output into the job; set status **output_pasted**.
 4. Edit and post from X (@usa_first_ky); set status **shipped** when done.
-5. Keep [content-queue.md](skill-work/work-politics/content-queue.md) in sync for content state (idea → posted).
+5. Keep [content-queue.md](content-queue.md) in sync for content state (idea → posted).
 
 ---
 
@@ -1381,9 +1381,9 @@ Statuses: `new` → `ran_in_cursor` → `output_pasted` → `shipped`.
 
 ### Related
 
-- [consulting-charter.md](skill-work/work-politics/consulting-charter.md) — human approves public ship.
-- [miniapp-setup.md](miniapp-setup.md) — deploy and env vars.
-- [smm-workspace.md](skill-work/work-politics/smm-workspace.md) — SMM entry point.
+- [consulting-charter.md](consulting-charter.md) — human approves public ship.
+- [miniapp-setup.md](../../../miniapp-setup.md) — deploy and env vars.
+- [smm-workspace.md](smm-workspace.md) — SMM entry point.
 
 ---
 
@@ -1393,7 +1393,7 @@ Statuses: `new` → `ran_in_cursor` → `output_pasted` → `shipped`.
 
 ### Before you touch the account
 
-1. **Read** [content-playbook.md](content-playbook.md) § Identity and § Never-do list (5 minutes).
+1. **Read** [content-playbook.md](../../externals/massie/smm-training/content-playbook.md) § Identity and § Never-do list (5 minutes).
 2. **Confirm** you have secure access to `@usa_first_ky` (password manager, 2FA if available).
 3. **Save** this one-line bio mental model: *Unofficial independent analysis for KY-4 — not the campaign, not the office.*
 
@@ -1439,7 +1439,7 @@ Open [week-1-ramp-plan.md](week-1-ramp-plan.md) and follow Day 2.
 
 ### Day 1 — Safety + first touch
 
-- Complete [day-1-quickstart.md](day-1-quickstart.md).
+- Complete [day-1-quickstart.md](../../externals/massie/smm-training/day-1-quickstart.md).
 - One quote or reply; verify bio and display name.
 
 ### Day 2 — Monitoring loop
@@ -1470,14 +1470,14 @@ Open [week-1-ramp-plan.md](week-1-ramp-plan.md) and follow Day 2.
 
 ### Day 7 — Review + scorecard
 
-- Fill a first pass of [kpi-scorecard.md](kpi-scorecard.md) (even if estimates).
+- Fill a first pass of [kpi-scorecard.md](../../externals/massie/smm-training/kpi-scorecard.md) (even if estimates).
 - 30-minute retro: what worked, what felt risky, what to ask the operator next week.
 
 ### Week 1 success criteria
 
 - [ ] No posts that imply official capacity or speak as Massie.
 - [ ] Every substantive claim has a path to a source (link or cite).
-- [ ] You have a repeatable daily slot (see [daily-operating-rhythm.md](daily-operating-rhythm.md)).
+- [ ] You have a repeatable daily slot (see [daily-operating-rhythm.md](../../externals/massie/smm-training/daily-operating-rhythm.md)).
 
 ---
 
@@ -1879,9 +1879,9 @@ python scripts/emit_pipeline_event.py stress_test_passed none brief=weekly-2026-
 
 ### Related
 
-- [stress-test-brief-template.md](stress-test-brief-template.md)
+- [stress-test-brief-template.md](america-first-ky/stress-test-brief-template.md)
 - [analytical-lenses/manifest.md](../../../codex/academy/theology/MANIFEST.md) — triangulation; stress-test is **additional** to lenses, not a replacement
-- [AGENT-SESSION-BRIEF.md](AGENT-SESSION-BRIEF.md) — next-session implementation tasks
+- [AGENT-SESSION-BRIEF.md](america-first-ky/AGENT-SESSION-BRIEF.md) — next-session implementation tasks
 
 ---
 

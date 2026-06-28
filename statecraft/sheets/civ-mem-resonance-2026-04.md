@@ -4,10 +4,10 @@ Monthly lattice note for comparing the April 2026 cognition streams through civi
 
 ## Streams
 
-- [Alkorshid](alkorshid/alkorshid-book-2026-04.md)
-- [Diesen](diesen/diesen-book-2026-04.md)
-- [Mercouris](mercouris/mercouris-book-2026-04.md)
-- [Davis](davis/davis-book-2026-04.md)
+- [Alkorshid](../voices/alkorshid/alkorshid-profile.md)
+- [Diesen](../voices/diesen/diesen-profile.md)
+- [Mercouris](../voices/mercouris/mercouris-profile.md)
+- [Davis](../voices/davis/davis-profile.md)
 - [Pape](../voices/pape/pape-book-2026-04.md)
 - [Parsi](../voices/parsi/parsi-book-2026-04.md)
 - [Ritter](../voices/ritter/ritter-book-2026-04.md)

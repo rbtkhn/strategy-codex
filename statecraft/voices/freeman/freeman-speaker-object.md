@@ -8,7 +8,7 @@ Purpose: define Chas Freeman as a first-class speaker object while keeping chron
 
 ## Object shape
 
-Freeman should currently be read as a **person-arc-first speaker object**: [freeman-arc.md](../../notes/freeman-arc.md) holds the canonical speaker continuity, [freeman-helix.md](freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
+Freeman should currently be read as a **person-arc-first speaker object**: [freeman-arc.md](freeman-arc.md) holds the canonical speaker continuity, [freeman-helix.md](freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
 
 ## Core claim
 
@@ -22,7 +22,7 @@ He should be read primarily as a **person-arc-first** object:
 - host-local arcs hold chronology and pressure context
 - the raw-input shelf holds transcript evidence
 
-This note is a routing-oriented object statement. It does not replace [freeman-arc.md](../../notes/freeman-arc.md), [freeman-routing.md](freeman-routing.md), or [freeman-helix.md](freeman-helix.md).
+This note is a routing-oriented object statement. It does not replace [freeman-arc.md](freeman-arc.md), [freeman-routing.md](freeman-routing.md), or [freeman-helix.md](freeman-helix.md).
 
 For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](index.md) and [Freeman source index](freeman-source-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
 
@@ -50,7 +50,7 @@ For routing:
 
 For whole-speaker continuity:
 
-- [freeman-arc.md](../../notes/freeman-arc.md)
+- [freeman-arc.md](freeman-arc.md)
 
 For object shape:
 

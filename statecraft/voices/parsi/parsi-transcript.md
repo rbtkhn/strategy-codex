@@ -9,7 +9,7 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 **Length:** Target **â‰¤ 2000 words** per ingest block; whole file soft **â‰¤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [parsi-profile.md](../parsi-profile.md (profile) and [parsi-thread.md](parsi-thread.md) (distilled thread).
+**Companion files:** [parsi-profile.md](parsi-profile.md) (profile) and [parsi-thread.md](parsi-thread.md) (distilled thread).
 
 ---
 

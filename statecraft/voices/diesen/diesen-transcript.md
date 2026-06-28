@@ -7,7 +7,7 @@ WORK only; not Record.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [diesen-profile.md](../diesen-profile.md (profile) and [diesen-thread.md](diesen-thread.md) (distilled thread).
+**Companion files:** [diesen-profile.md](diesen-profile.md) (profile) and [diesen-thread.md](diesen-thread.md) (distilled thread).
 
 ---
 
@@ -33,7 +33,7 @@ WORK only; not Record.
 ## 2026-04-27
 - Inbox | cold: full text in [`source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`](../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) (pointer; SSOT raw-input) | thread:diesen | crosses:crooke
 - Refined | cold: [diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) (host lane; same raw) | thread:diesen
-- Sibling (guest): [../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) | thread:crooke
+- Sibling (guest): [../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md) | thread:crooke
 - YT | cold: **Glenn Diesen** (host) **×** **Alastair Crooke** (guest) — *Iran War Is Now a Global War for World Order* — **aired** **2026-04-27** — **Hormuz** / JCPOA “**prison**,” IRI reorders (war & sanctions before nuclear), Trump/Obama, Israel messianic, EU/vdl, $ **architecture** // hook: **`thread:diesen`** **+** **`thread:crooke`** | `https://www.youtube.com/watch?v=TBD-diesen-crooke-2026-04-27` | verify:operator-paste+speaker-labeled+pin-canonical-URL | grep:Diesen+Crooke+Greater+Eurasia+2026-04-27
 
 - Inbox | cold: full text in [`source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md) (pointer; SSOT raw-input) | thread:diesen

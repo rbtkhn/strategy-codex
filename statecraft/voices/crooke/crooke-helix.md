@@ -6,7 +6,7 @@ Purpose: compact cross-host note for reading the recurring Crooke lanes together
 
 For the authored mechanism spine, see [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/crooke-forecast-ledger-2026.md). It remains Substack-only, but it should be read as the second strand crossing the interview helix: authored mechanism on one side, host-pressure transformation on the other.
 
-Shelf position: this is the **crossing surface**, not the front door and not the source bench. Open [crooke-arc.md](../../notes/crooke-arc.md) for whole-speaker continuity and [crooke-source-index.md](../../../statecraft/voices/crooke/crooke-source-index.md) for exhaustive capture truth.
+Shelf position: this is the **crossing surface**, not the front door and not the source bench. Open [crooke-arc.md](crooke-arc.md) for whole-speaker continuity and [crooke-source-index.md](../../../statecraft/voices/crooke/crooke-source-index.md) for exhaustive capture truth.
 
 ## Core claim
 

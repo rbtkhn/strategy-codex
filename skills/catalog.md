@@ -46,7 +46,7 @@ Canonical method: [skills/ideation-engine/SKILL.md](ideation-engine/SKILL.md)
 - **Current status**
   - `promoted`
 
-Canonical method: [skills/mtp/SKILL.md](mtp/SKILL.md) · Runbook: [skills/runbooks/mtp-coffee-dream.md](runbooks/mtp-coffee-dream.md)
+Canonical method: [skills/mtp/SKILL.md](mtp/SKILL.md) · Runbook: [skills/runbooks/mtp-coffee-dream.md](runbooks/mtp-coffee-dream.runbook.md)
 
 ---
 

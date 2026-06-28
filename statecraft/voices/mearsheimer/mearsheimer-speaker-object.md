@@ -8,7 +8,7 @@ Purpose: define John Mearsheimer as a first-class speaker object while keeping c
 
 ## Object shape
 
-Mearsheimer should currently be read as a **person-arc-first speaker object**: [mearsheimer-arc.md](../../notes/mearsheimer-arc.md) holds the canonical speaker continuity, [mearsheimer-helix.md](mearsheimer-helix.md) compares the two core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
+Mearsheimer should currently be read as a **person-arc-first speaker object**: [mearsheimer-arc.md](mearsheimer-arc.md) holds the canonical speaker continuity, [mearsheimer-helix.md](mearsheimer-helix.md) compares the two core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
 
 ## Core claim
 
@@ -22,7 +22,7 @@ He should be read primarily as a **person-arc-first** object:
 - host-local arcs hold chronology and pressure context
 - the raw-input shelf holds transcript evidence
 
-This note is a routing-oriented object statement. It does not replace [mearsheimer-arc.md](../../notes/mearsheimer-arc.md), [mearsheimer-routing.md](mearsheimer-routing.md), or [mearsheimer-helix.md](mearsheimer-helix.md).
+This note is a routing-oriented object statement. It does not replace [mearsheimer-arc.md](mearsheimer-arc.md), [mearsheimer-routing.md](mearsheimer-routing.md), or [mearsheimer-helix.md](mearsheimer-helix.md).
 
 For the wider cross-host surface beyond the two core host lanes, open [Mearsheimer index](index.md) and [Mearsheimer source index](mearsheimer-source-index.md). Use the shelf as a ladder: `core host lane` / `reinforcing orbit` / `non-core appearance bench`.
 
@@ -54,7 +54,7 @@ For routing:
 
 For whole-speaker continuity:
 
-- [mearsheimer-arc.md](../../notes/mearsheimer-arc.md)
+- [mearsheimer-arc.md](mearsheimer-arc.md)
 
 For object shape:
 

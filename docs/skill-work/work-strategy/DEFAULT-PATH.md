@@ -2,7 +2,7 @@
 
 **Purpose:** The minimum viable **`strategy` / `strategy pass`** on `/codex`. Three moves, then stop. Everything else (civ-mem, promotion, verify, history notebook, commentator threads, voice/lens) is **optional** and triggered only when the operator asks or the day demands it.
 
-**Activation (no skill):** The **`skill-strategy` Cursor skill is dissolved** — see [SKILL-STRATEGY-DEPRECATED.md](SKILL-STRATEGY-DEPRECATED.md). Agents follow [.cursor/rules/strategy-codex-pass.mdc](../../.cursor/rules/strategy-codex-pass.mdc) and this file.
+**Activation (no skill):** The **`skill-strategy` Cursor skill is dissolved** — see [SKILL-STRATEGY-DEPRECATED.md](SKILL-STRATEGY-DEPRECATED.md). Agents follow [.cursor/rules/strategy-codex-pass.mdc](../../../.cursor/rules/strategy-codex-pass.mdc) and this file.
 
 **Naming:** `strategy-codex` is the active operator surface and `/codex` is the canonical corpus. **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md).
 
@@ -53,7 +53,7 @@ Append paste-ready lines to [`codex/daily-strategy-inbox.md`](../../../codex/dai
 
 Do **not** touch `days.md` unless the operator says **`strategy page`**, **`strategy page compose`**, or **EOD notebook compose**.
 
-Verbatim **`strategy input`** → **`source-intake`** → [`source-archive/statecraft/`](../../../source-archive/statecraft/README.md) first per [strategy-input-raw-ingest.mdc](../../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md). Do **not** write new captures to deprecated [`codex/raw-input/`](../../../codex/raw-input/README.md).
+Verbatim **`strategy input`** → **`source-intake`** → [`source-archive/statecraft/`](../../../source-archive/statecraft/README.md) first per [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md). Do **not** write new captures to deprecated [`codex/raw-input/`](../../../codex/raw-input/README.md).
 
 **Time:** Variable (5–30 min depending on ingest volume).
 

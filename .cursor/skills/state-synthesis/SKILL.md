@@ -218,7 +218,7 @@ This is **navigation + object-migration** between daily and monthly synthesis �
 
 **When to write or refresh:** month-week close, object migrates within month-week (refresh same `YYYY-MM-weekN-start-here.md`), or operator invocation. Header: `partial through YYYY-MM-DD` while open.
 
-**Doctrine:** [statecraft/synthesis/METHOD.md § Week Hinge](../../../statecraft/synthesis/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../statecraft/synthesis/day/_templates/week-hinge-start-here.md).
+**Doctrine:** [statecraft/synthesis/METHOD.md § Week Hinge](../../../statecraft/synthesis/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../../statecraft/notes/reentry/_templates/week-hinge-start-here.md).
 
 **After daily synthesis:** if dominant object migrated within the active month-week, offer or refresh the week hinge; intake-readiness should point to the hinge for post-daily re-entry.
 

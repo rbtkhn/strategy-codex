@@ -7,7 +7,7 @@ WORK only; not Record.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) (profile), [`strategy-expert-mearsheimer-thread.md`](mearsheimer-thread.md) (distilled thread), [`strategy-expert-mearsheimer-mind.md`](strategy-expert-mearsheimer-mind.md) (long-form mind).
+**Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) (profile), [`strategy-expert-mearsheimer-thread.md`](mearsheimer-thread.md) (distilled thread), [`mearsheimer-mind.md`](mearsheimer-mind.md) (long-form mind).
 
 ---
 

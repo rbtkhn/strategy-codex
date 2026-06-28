@@ -37,6 +37,6 @@ What is not yet reusable as hard fact without more pinning is the exact status o
 ### Appendix
 
 - **Thread anchor:** [parsi-thread.md](parsi-thread.md) (search `2026-04-21`)
-- **Inbox / triage:** [daily-strategy-inbox.md](../daily-strategy-inbox.md (search `Parsi+Trump+ceasefire+indefinite+disarray+2026-04-21`)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `Parsi+Trump+ceasefire+indefinite+disarray+2026-04-21`)
 - **Canonical speaker surface:** [@tparsi](https://x.com/tparsi)
 - **Companion note:** [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)

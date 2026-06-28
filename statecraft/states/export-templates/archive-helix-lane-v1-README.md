@@ -24,7 +24,7 @@ Helix-lane v1 content maps to book-first surfaces in the upstream workshop salva
 
 If you followed an old civ-emp link:
 
-- **Book navigation** → [README.md](../../README.md) · [Table of Contents](../../table-of-contents.md)
+- **Book navigation** → [README.md](../../README.md) · [Table of Contents](../table-of-contents.md)
 - **China** → [volumes/china/README.md](../../../README.md)
 - **Persia** → [volumes/persia/README.md](../../../README.md)
 - **Russia** → [volumes/russia/README.md](../../../README.md)

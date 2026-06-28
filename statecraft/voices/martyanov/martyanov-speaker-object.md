@@ -7,7 +7,7 @@ This legacy `statecraft/voices/martyanov/martyanov-speaker-object.md` file is no
 Canonical live Martyanov speaker-state work has moved to:
 
 - [statecraft/voices/martyanov/README.md](README.md)
-- [statecraft/notes/martyanov-arc.md](../../notes/martyanov-arc.md)
+- [statecraft/notes/martyanov-arc.md](martyanov-arc.md)
 - [statecraft/voices/martyanov/martyanov-routing.md](martyanov-routing.md)
 - [statecraft/voices/martyanov/martyanov-source-index.md](martyanov-source-index.md)
 

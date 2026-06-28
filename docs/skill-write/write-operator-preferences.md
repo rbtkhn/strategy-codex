@@ -6,8 +6,8 @@
 |---------|--------|
 | **Locals — VivaBarnesLaw** | Forum posts (e.g. [vivabarneslaw.beta.locals.com](https://vivabarneslaw.beta.locals.com/)); **Grace‑Mar** house style for this surface (see [grace-mar-locals-voice.md](grace-mar-locals-voice.md)), liability-adjacent framing when useful. |
 | **Locals — Duran** | **Recorded:** **Same defaults as VivaBarnes** (same **Grace‑Mar** Locals voice) unless you override. **Intent:** over time, develop **one distinct style** tuned for **both** communities (not two permanently separate personas). |
-| **X** | Short posts / threads; topic-first and density per [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc). |
-| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)** — not the **predictive-history (`codex/predictive-history/`)** operator book; see [self-library-operator-books](../../.cursor/rules/self-library-operator-books.mdc) if ambiguous). |
+| **X** | Short posts / threads; topic-first and density per [.cursor/rules/drafting-topic-lede.mdc](../../../.cursor/rules/drafting-topic-lede.mdc). |
+| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)** — not the **predictive-history (`codex/predictive-history/`)** operator book; see [self-library-operator-books](../../../.cursor/rules/self-library-operator-books.mdc) if ambiguous). |
 
 **Scope (recorded):** **All public operator writing** is in scope **unless** you exclude a surface or class by name. **First-class workflow:** **Locals first** (VivaBarnes / Duran), then **X** and **Predictive History comments** as **shortened or derived follow-ons** unless you direct otherwise.
 
@@ -84,13 +84,13 @@ Edit and extend this section as your taste evolves.
 - **Kiev, not Kyiv** — Normalize the capital to **Kiev** in archive cleanup, synthesis, agent drafts, and operator public copy.
 - **Kharkov, not Kharkiv** — Same register: normalize **Kharkiv** → **Kharkov**.
 - **Verbatim exception** — Preserve **Kyiv** / **Kharkiv** inside quoted headlines, wire lines, or official document text when the source spelling is load-bearing; use **Kiev** / **Kharkov** in operator framing around the quote.
-- **Enforcement** — [`.cursor/rules/strategy-codex-kiev-spelling.mdc`](../../.cursor/rules/strategy-codex-kiev-spelling.mdc); entity pass in `scripts/fix_statecraft_common_asr_entities.py` (Kiev: `kiev_*`; Kharkov: `kharkov_*` labels).
+- **Enforcement** — [`.cursor/rules/strategy-codex-kiev-spelling.mdc`](../../../.cursor/rules/strategy-codex-kiev-spelling.mdc); entity pass in `scripts/fix_statecraft_common_asr_entities.py` (Kiev: `kiev_*`; Kharkov: `kharkov_*` labels).
 - **Review (operator note):** reconsider Kyiv in **2050** if Ukraine is still an independent state.
 
 ### Voice and register
 
 - **No default persona** in the hub — you choose per piece. **When** tone or register is **ambiguous**, the agent should offer **multiple-choice** forks (short, scannable options) instead of assuming a single voice.
-- **Grace‑Mar on Locals (VivaBarnes / Duran)** — **House style** for that forum copy is **not** “the operator’s personal voice to imitate” and **not** default **CIV-MIND-BARNES** / **tri-mind** (deprecated); see [grace-mar-locals-voice.md](grace-mar-locals-voice.md) (Cursor: [`.cursor/rules/drafting-grace-mar-locals-voice.mdc`](../../.cursor/rules/drafting-grace-mar-locals-voice.mdc)).
+- **Grace‑Mar on Locals (VivaBarnes / Duran)** — **House style** for that forum copy is **not** “the operator’s personal voice to imitate” and **not** default **CIV-MIND-BARNES** / **tri-mind** (deprecated); see [grace-mar-locals-voice.md](grace-mar-locals-voice.md) (Cursor: [`.cursor/rules/drafting-grace-mar-locals-voice.mdc`](../../../.cursor/rules/drafting-grace-mar-locals-voice.mdc)).
 
 ### Companion Lexile / Voice vs operator copy
 
@@ -98,7 +98,7 @@ Edit and extend this section as your taste evolves.
 
 ### Short public copy (posts, threads, ledes)
 
-- **Topic-first openings** — Concrete anchors (who, conflict, policy) before abstraction or “here’s the thing” setup. See [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc) (always on in Cursor).
+- **Topic-first openings** — Concrete anchors (who, conflict, policy) before abstraction or “here’s the thing” setup. See [.cursor/rules/drafting-topic-lede.mdc](../../../.cursor/rules/drafting-topic-lede.mdc) (always on in Cursor).
 - **Substance-first when a visual is attached (Locals / X)** — If the operator pairs copy with an **image or screen capture**, **do not** spend the lede (or a “second beat”) on **the attachment**: no “screenshot,” “image above,” “I’m posting,” **grab**, or meta about what the reader is looking at unless they ask for an explicit caption. The reader has the visual; the **first sentence** still opens on the **argument** (multilingual spread, policy fork, mechanism—whatever the post is actually about).
 
 ### Closers and density

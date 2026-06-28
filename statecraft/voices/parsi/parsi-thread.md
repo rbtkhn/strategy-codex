@@ -18,10 +18,10 @@ Compatibility note: this file is a legacy continuity surface from the older expe
 
 Treat everything below this fence as historical continuity residue unless a newer canonical Parsi surface explicitly routes you back here for context.
 
-**Source:** Distilled from [`strategy-expert-parsi-transcript.md`](strategy-expert-parsi-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
+**Source:** Distilled from [`parsi-transcript.md`](parsi-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
-**Companion files:** [parsi-profile.md](../parsi-profile.md (profile) and [parsi-transcript.md](parsi-transcript.md) (7-day verbatim).
+**Companion files:** [parsi-profile.md](parsi-profile.md) (profile) and [parsi-transcript.md](parsi-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Narrative (operator)
@@ -172,7 +172,7 @@ Finally, 2026-04 should remain safe for **operator rotation**: someone returning
 - [strength: medium] **Signal (cold):** @tparsi ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â CNN segment: Lebanon sticking point; nuclear deadlock as possible mask ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â [X @tparsi](https://x.com/tparsi) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify:pin-exact-status-URL-for-CNN-thread+Sweidan-primary.
 - [strength: medium] **Page:** `parsi-davis-war-powers` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â EU naming vs Congress / war-powers lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â link hub + verify pins per page header.
 - [strength: medium] **Lattice:** `islamabad-hormuz-thesis-weave` Ãƒâ€šÃ‚Â· `marandi-ritter-mercouris-hormuz-scaffold` Ãƒâ€šÃ‚Â· `ritter-blockade-hormuz-weave` Ãƒâ€šÃ‚Â· `kremlin-iri-uranium-dual-register`.
-- [strength: medium] **Continuity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â IRI FM primary (not `thread:parsi`):** **Seyed Abbas Araghchi** **@araghchi** **2026-04-17 06:45** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â opens with **Lebanon ceasefire** alignment, then **Hormuz** passage for **ceasefire** remainder on **PMO** route ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **feeds** the **04-12** CNN cluster (**Lebanon sticking point** / nuclear **mask** thesis) with a **state** voice. Brief: [daily-brief-2026-04-17.md](daily-brief-2026-04-17.md **Ãƒâ€šÃ‚Â§1h**; **cross** `thread:davis` QT packaging ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify:@araghchi-status-URL.
+- [strength: medium] **Continuity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â IRI FM primary (not `thread:parsi`):** **Seyed Abbas Araghchi** **@araghchi** **2026-04-17 06:45** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â opens with **Lebanon ceasefire** alignment, then **Hormuz** passage for **ceasefire** remainder on **PMO** route ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **feeds** the **04-12** CNN cluster (**Lebanon sticking point** / nuclear **mask** thesis) with a **state** voice. Brief: [daily-brief-2026-04-17.md](../../../docs/skill-work/work-strategy/daily-brief-2026-04-17.md) **Ãƒâ€šÃ‚Â§1h**; **cross** `thread:davis` QT packaging ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify:@araghchi-status-URL.
 
 ---
 <!-- strategy-page:start id="parsi-davis-war-powers" date="2026-04-14" watch="accountability-language" -->
@@ -200,7 +200,7 @@ Finally, 2026-04 should remain safe for **operator rotation**: someone returning
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `batch-analysis | 2026-04-14 | Parsi ÃƒÆ’Ã¢â‚¬â€ Davis` (`crosses:parsi+davis`); **`X | cold`** lines for **`thread:parsi`** (Kallas QT) and **`thread:davis`** (Congress / blockade / war-powers).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `batch-analysis | 2026-04-14 | Parsi ÃƒÆ’Ã¢â‚¬â€ Davis` (`crosses:parsi+davis`); **`X | cold`** lines for **`thread:parsi`** (Kallas QT) and **`thread:davis`** (Congress / blockade / war-powers).
 - **Expert threads:** `parsi`, `davis`.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass
@@ -215,7 +215,7 @@ See [`days.md` Ãƒâ€šÃ‚Â§ Judgment ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬�
 
 ### References
 
-- **Batch spine:** `batch-analysis | 2026-04-14 | Parsi ÃƒÆ’Ã¢â‚¬â€ Davis` in [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md (search `crosses:parsi+davis`).
+- **Batch spine:** `batch-analysis | 2026-04-14 | Parsi ÃƒÆ’Ã¢â‚¬â€ Davis` in [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `crosses:parsi+davis`).
 - **Wire bundle (same-day context):** [Roll Call ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Iran war powers + expulsion talk](https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/) (mirrored in inbox Ãƒâ€šÃ‚Â§2c; **verify** date if citing ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œthis weekÃƒÂ¢Ã¢â€šÂ¬Ã‚Â).
 - **Daniel Davis X (paste-grade):** inbox `X | cold: Daniel Davis` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â pin **`TBD`** status URL when stable.
 
@@ -225,7 +225,7 @@ Pins keep **Trita Parsi** (EU / **Kallas** speech-act lane) and **Daniel Davis**
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **`batch-analysis | Parsi ÃƒÆ’Ã¢â‚¬â€ Davis`** (`crosses:parsi+davis`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â search `crosses:parsi+davis` |
+| **1** | **`batch-analysis | Parsi ÃƒÆ’Ã¢â‚¬â€ Davis`** (`crosses:parsi+davis`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â search `crosses:parsi+davis` |
 | **2** | **Parsi** ÃƒÆ’Ã¢â‚¬â€ **Kallas** (quote-grade **X** when pinned) | `https://x.com/tparsi/status/TBD-pin-exact` |
 | **3** | **Davis** war-powers / blockade line (quote-grade **X** when pinned) | `https://x.com/DanielLDavis1/status/TBD-pin-exact` |
 | **4** | Same-week **Congress** procedure context (wire) | [Roll Call ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Iran war powers + expulsion talk](https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/) |
@@ -345,7 +345,7 @@ Optional crosses: `thread:davis` (war-powers / C-plane packaging), `thread:johns
 - YT | cold: Mercouris 16 Apr 2026 (The Duran) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â EU drone factories for Ukraine, Medvedev warns EU, LavrovÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Saudi FM, Munir in Tehran, Hormuz blockade & China naval logic // hook: full verbatim Ãƒâ€šÃ‚Â§2026-04-16 in strategy-expert-mercouris-transcript.md | https://www.youtube.com/watch?v=TBD-canonical-episode | verify:operator-ingest+aired-2026-04-16 | thread:mercouris | aired:2026-04-16
 - batch-analysis | 2026-04-16 | Marandi BP 04-16 ÃƒÆ’Ã¢â‚¬â€ 04-13 scaffold | **Tension-first:** Iranian **process** and **moral-historical** register (Islamabad authority vs Vance channel, school/synagogue/GazaÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Lebanon frames) vs **Ritter-class** **USN** / **interdiction** facts and **wire-tier** throughput ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **do not** merge lanes. **Weak bridge:** same **Hormuz** / **Islamabad** / **Lebanon** object as **Mercouris** narrative surface ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **verify** still splits **speech** from **AIS** / **DOD** readouts.
 `notebook | cold: Mercouris lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Hormuz as precedent-for-Beijing problem (U.S. maritime-denial grammar portable beyond Iran); escalation risk as friction-thickening (insurance, routing, posture, rhetoric) before any notional fleet clash // hook: tri-mind narrow pass (Hormuz + PRC escalation); notebook lens fold, not Duran primary | verify:lens-fold+mercouris | thread:mercouris | membrane:single | grep:Hormuz+PRC+precedent`
-<!-- pruned 2026-04-16 (operator A): Ãƒâ€šÃ‚Â§2c RSS mirror blocks for 2026-04-13 and 2026-04-14 removed ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â canonical rows remain in [daily-brief-2026-04-13.md](daily-brief-2026-04-13.md Ãƒâ€šÃ‚Â§2c and [daily-brief-2026-04-14.md](daily-brief-2026-04-14.md Ãƒâ€šÃ‚Â§2c. Paste-grade **04-14** expert `thread:` + `batch-analysis` block (ParsiÃƒÆ’Ã¢â‚¬â€Davis, Ritter, SÃƒÆ’Ã‚Â¡nchezÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Xi, DavisÃƒÆ’Ã¢â‚¬â€Jermy, DiesenÃƒÆ’Ã¢â‚¬â€Sachs, BlumenthalÃƒÆ’Ã¢â‚¬â€Parsi) removed after weave into [chapters/2026-04/days.md](../../../codex/chapters/2026/2026-04/days.md) **`## 2026-04-14`**; recover from **git** history on this file if needed. -->
+<!-- pruned 2026-04-16 (operator A): Ãƒâ€šÃ‚Â§2c RSS mirror blocks for 2026-04-13 and 2026-04-14 removed ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â canonical rows remain in [daily-brief-2026-04-13.md](../../../docs/skill-work/work-strategy/daily-brief-2026-04-13.md) Ãƒâ€šÃ‚Â§2c and [daily-brief-2026-04-14.md](../../../docs/skill-work/work-strategy/daily-brief-2026-04-14.md) Ãƒâ€šÃ‚Â§2c. Paste-grade **04-14** expert `thread:` + `batch-analysis` block (ParsiÃƒÆ’Ã¢â‚¬â€Davis, Ritter, SÃƒÆ’Ã‚Â¡nchezÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Xi, DavisÃƒÆ’Ã¢â‚¬â€Jermy, DiesenÃƒÆ’Ã¢â‚¬â€Sachs, BlumenthalÃƒÆ’Ã¢â‚¬â€Parsi) removed after weave into [chapters/2026-04/days.md](../../../codex/chapters/2026/2026-04/days.md) **`## 2026-04-14`**; recover from **git** history on this file if needed. -->
 **Folded (2026-04-13)** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **@MarioNawfal ÃƒÆ’Ã¢â‚¬â€ Grand Mosque** (TrumpÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Leo vs **Grand Mosque of Algiers**, tier-A **Vatican News**) ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ **`## 2026-04-13`** **Signal** / **Judgment** / **Links** / **Open**. **Also folded:** scratch lines (**Judging Freedom** ÃƒÆ’Ã¢â‚¬â€ **Larry Johnson**; **Davis Deep Dive** ÃƒÆ’Ã¢â‚¬â€ **Ritter**; **`batch-analysis`** tri-mind) ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ same **`## 2026-04-13`** (**Judgment** Ãƒâ€šÃ‚Â§ **Mercouris ÃƒÆ’Ã¢â‚¬â€ Johnson**, Ãƒâ€šÃ‚Â§ **Ritter ego reduction vs structural fold**). Verbatim paste-grade lines / backticks in **git history** for this file.
 `X | cold: @tparsi ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â CNN segment: Lebanon as sticking point (U.S. must rein in Israel); floats nuclear deadlock as possible mask; nested quote chain includes AR-sourced claim of phased Lebanon ceasefire (Beirut/suburbs first) vs full stop // hook: analyst overlay for notebook Lebanon fork; pairs Ãƒâ€šÃ‚Â§1e Islamabad thread + native triangulation | https://x.com/tparsi | verify:pin-exact-status-URL-for-CNN-thread+Sweidan-primary | thread:parsi`
 
@@ -411,8 +411,7 @@ none this pass
 
 ### References
 
-- [daily-brief-2026-04-12.md](../../../daily-brief-2026-04-12.md
-- [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Expert-thread continuity** / **batch-analysis** tails
+- [daily-brief-2026-04-12.md](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Expert-thread continuity** / **batch-analysis** tails
 - **`### Web verification (2026-04-12)`** table in [`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-12 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â AP/Dawn/NBC triage rows
 
 ### Receipt
@@ -484,7 +483,7 @@ none this pass
 
 ### References
 
-- [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Primary pulls (2026-04-13)** Ãƒâ€šÃ‚Â· **Ritter blockade checklist** (paste-grade)
+- [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Primary pulls (2026-04-13)** Ãƒâ€šÃ‚Â· **Ritter blockade checklist** (paste-grade)
 - [Al Jazeera ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Islamabad talks unfolded](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded)
 - [Vatican News ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Grand Mosque Algiers (2026-04-13)](https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-apostolic-journey-algeria-grand-mosque-algiers-dialogue.html) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â tier-A; **TrumpÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Leo** fold **tier split** per day **Judgment**
 - [rome-persia-legitimacy-signal-check.md](../../rome-persia-legitimacy-signal-check.md
@@ -496,7 +495,7 @@ none this pass
 |-----|--------|----------------|
 | **1** | **Wire** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Islamabad timeline | [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded) |
 | **2** | **Tier-A** Holy See ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Grand Mosque** | [Vatican News](https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-apostolic-journey-algeria-grand-mosque-algiers-dialogue.html) |
-| **3** | **Inbox** checklist + **episode** queue | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ritter mechanics / Mercouris verify hooks |
+| **3** | **Inbox** checklist + **episode** queue | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ritter mechanics / Mercouris verify hooks |
 
 **Falsifier:** One **merged** arc treats **Mercouris** **multilateral** **tickers** + **Johnson** **OOB** **skepticism** + **Marandi** **ecumenical** **register** + **Ritter** **hull** **claims** as **one** **voice** **without** **seams** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **lattice** **collapsed**.
 <!-- strategy-page:end -->
@@ -518,7 +517,7 @@ none this pass
 
 ### Foresight
 
-- [Ritter blockade mechanics ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md (inbox **Ãƒâ€šÃ‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ãƒâ€šÃ‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -543,7 +542,7 @@ none this pass
 
 ### Lineage ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **`YT | cold: Scott Ritter ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ritter's Rant 085: The Blockade`** (`thread:ritter`) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **`YT | cold: Scott Ritter ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ritter's Rant 085: The Blockade`** (`thread:ritter`) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“14** **Hormuz** / **blockade** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â cross-links)
@@ -649,7 +648,7 @@ WORK only; not Record.
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Wire capture ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-15 (9 lines + 3 batch-analysis); `batch-analysis | 2026-04-15 | Ãƒâ€šÃ‚Â§1d Kremlin + Ãƒâ€šÃ‚Â§1h IRI MFA (uranium off-ramp)`, `batch-analysis | 2026-04-15 | Ãƒâ€šÃ‚Â§1h dual register (MFA vs IRGC)`, `batch-analysis | 2026-04-15 | Leo XIV + Vance (legitimacy collision)`
+- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Wire capture ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-15 (9 lines + 3 batch-analysis); `batch-analysis | 2026-04-15 | Ãƒâ€šÃ‚Â§1d Kremlin + Ãƒâ€šÃ‚Â§1h IRI MFA (uranium off-ramp)`, `batch-analysis | 2026-04-15 | Ãƒâ€šÃ‚Â§1h dual register (MFA vs IRGC)`, `batch-analysis | 2026-04-15 | Leo XIV + Vance (legitimacy collision)`
 - **Expert threads:** `thread:mercouris` (pending; Mercouris 04-15 episode URL not yet pinned), laterally `thread:ritter` (blockade enforcement mechanics ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **see owner page below**, not re-derived here), `thread:parsi` (war-powers / accountability frame for Vance "grand bargain")
 - **Blockade mechanics owner:** `ritter-blockade-hormuz-weave` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **hull-level / porousÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“blockade read**, picket vs boarding, third-country hulls, `thread:ritter` ingest. This page cites **blockade** only as **policy / register / legitimacy** context in **Ãƒâ€šÃ‚Â§1eÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Â§1h**; **no duplicate ORBAT or sea-control prose** beyond wire-summary bullets below.
 - **History resonance:** CASE-0007 (Habsburg administrative overcomplexity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â coalition coordination cost under multi-party blockade), CASE-0014 (Austro-Hungarian elite coordination strain ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â internal management consuming strategic bandwidth; France-UK split from US as instance)

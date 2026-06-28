@@ -32,13 +32,13 @@ memory → legitimacy → carrier → pressure → settlement
 | **Civilizational motion** | Three-beat rhythm — beautify, amplify, degrade |
 | **civ-state** | GitHub repo slug only — not a reader title |
 
-See [Reader Guide](docs/reader-guide.md#names-and-titles) and [Glossary](../../../docs/glossary.md).
+See [Reader Guide](../reader-guide.md#names-and-titles) and [Glossary](../../../docs/glossary.md).
 
 ## Start here
 
 1. [Civilization and Empire](../../../codex/predictive-history/INTRODUCTION.md)
-2. [Table of Contents](docs/table-of-contents.md)
-3. [Reader Guide](docs/reader-guide.md)
+2. [Table of Contents](../table-of-contents.md)
+3. [Reader Guide](../reader-guide.md)
 4. [Sources](../../../README.md) — source-lattice and era shelves
 5. [Volume Map](../../../README.md)
 
@@ -67,16 +67,16 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 - [Hormuz recognition / transit restraint](../../../codex/academy/statecraft/civ-emp/persia/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus
-- [Docs](../../../docs/README.md) — [book architecture](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) · [names and titles](docs/names-and-titles.md) · [era spine](docs/era-spine.md) · [release history](docs/release-history.md)
+- [Docs](../../../docs/README.md) — [book architecture](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) · [names and titles](../reader-guide.md#names-and-titles) · [era spine](../reader-guide.md#era-law) · [release history](../README.md#release-history)
 - [Skills](../../../skills/README.md) · [Sources](../../../README.md)
-- [Sacred grammar (volume-local)](docs/reader-guide.md#sacred-grammar-volume-local) · [Volume Map](../../../README.md)
-- [Glossary](../../../docs/glossary.md) · [Hybrid references](docs/hybrid-references.md) · [Index](../../../singularity/work-cici/index.md)
+- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local) · [Volume Map](../../../README.md)
+- [Glossary](../../../docs/glossary.md) · [Hybrid references](../hybrid-references.md)) · [Index](../../../singularity/work-cici/index.md)
 
 ## Provenance
 
 Maintained in the strategy-codex staging mirror at `public/civ-state/` and published to this repository via explicit publish script. Canonical public edits land here directly — not via a separate upstream draft tree.
 
-See [FOUNDING-PROVENANCE.md](docs/FOUNDING-PROVENANCE.md) for the reshape from the legacy helix-lane public cut.
+See [FOUNDING-PROVENANCE.md](FOUNDING-PROVENANCE.md)) for the reshape from the legacy helix-lane public cut.
 
 ## License
 

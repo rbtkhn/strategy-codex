@@ -12,7 +12,7 @@ Diesen is the notebook's clearest host for **civilizational order, multipolar tr
 
 ## Native Stream Spine
 
-- Native body: [statecraft/voices/diesen/](stream)
+- Native body: [statecraft/voices/diesen/](diesen-routing.md)
 - Stream README: [statecraft/voices/diesen/README.md](README.md)
 - Speaker object: [diesen-speaker-object.md](diesen-speaker-object.md)
 - Cross-host note: [diesen-cross-host-note.md](diesen-cross-host-note.md)

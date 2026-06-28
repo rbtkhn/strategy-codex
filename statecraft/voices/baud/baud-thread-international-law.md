@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: isolate the recurring **international-law / law-of-war / post-1945 order** lane inside the broader Baud corpus without confusing it with either the **person-centered** [baud-arc.md](../../notes/baud-arc.md) or the **host-pair** arcs in the Davis, Dialogue Works, and Diesen streams.
+Purpose: isolate the recurring **international-law / law-of-war / post-1945 order** lane inside the broader Baud corpus without confusing it with either the **person-centered** [baud-arc.md](baud-arc.md) or the **host-pair** arcs in the Davis, Dialogue Works, and Diesen streams.
 
 ## Boundary
 
@@ -16,7 +16,7 @@ Use this file when the notebook needs **Baud on international law as a topical c
 
 Do not use this file as a substitute for:
 
-- [baud-arc.md](../../notes/baud-arc.md) for person-level continuity
+- [baud-arc.md](baud-arc.md) for person-level continuity
 - [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md) for live-crisis legality under Nima pressure
 - [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md) for alliance-mandate and coercive-feasibility framing
 - [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md) for order-transition and legitimacy-system consequence
@@ -29,14 +29,14 @@ Quick separation rule:
 
 - `baud-thread-international-law` = legal categories, due process, co-belligerency, proportionality, blockade, distinction, and post-1945 legal architecture
 - [crooke-thread-international-law.md](../crooke/crooke-thread-international-law.md) = negotiated-order credibility, sovereignty recognition, and whether shared constraint still binds
-- [baud-arc.md](../../notes/baud-arc.md) = person-level continuity across Europe, coercion, and law
+- [baud-arc.md](baud-arc.md) = person-level continuity across Europe, coercion, and law
 
 If the operator needs legal categories, liability, sanctions procedure, or law-of-war framing, open Baud first. If the operator needs a broader legitimacy-order reading of why law no longer binds, Crooke is usually the better first stop.
 
 Distinct from:
 
 - [crooke-thread-international-law.md](../crooke/crooke-thread-international-law.md), which is stronger on negotiated-order credibility and sovereignty recognition than on legal taxonomy
-- [baud-arc.md](../../notes/baud-arc.md), which carries broader Baud person-level continuity beyond the law lane
+- [baud-arc.md](baud-arc.md), which carries broader Baud person-level continuity beyond the law lane
 - [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md), [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md), and [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md), which apply the same legal grammar under different host pressures
 
 ## Core thesis

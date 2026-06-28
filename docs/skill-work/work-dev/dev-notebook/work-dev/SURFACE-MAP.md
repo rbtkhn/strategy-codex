@@ -15,7 +15,7 @@
 | [dev-notebook/journal/](./journal/) | Inward day journal (this tree). | Symlink: `dev-journal` â†’ here. |
 | [identity-fork-protocol-ifp-2026-04-24.md](./identity-fork-protocol-ifp-2026-04-24.md) | **IFP** spec snapshot (WORK): identity fork + merge sovereignty + membrane (links to gate, workbench). | Not SELF/EVIDENCE. |
 | [ifp-vs-clawsouls-technical-comparison-2026-04-24.md](./ifp-vs-clawsouls-technical-comparison-2026-04-24.md) | **IFP vs. ClawSouls** deep compare (ecosystem research as of 2026-04-24). | Paired with IFP spec. |
-| [journal-metrics-habit.md](../../journal-metrics-habit.md) | Light habit / telemetry (optional). | â€” |
+| [journal-metrics-habit.md](../../../../journal-metrics-habit.md) | Light habit / telemetry (optional). | â€” |
 
 **Regen:** None â€” this map is hand-maintained when you add a new â€œcanonicalâ€ work-dev surface. Prefer linking the territory [README](../../README.md#contents) to avoid drift.
 

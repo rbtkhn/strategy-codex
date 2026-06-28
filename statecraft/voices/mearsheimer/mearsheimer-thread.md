@@ -19,7 +19,7 @@ Compatibility note: this file is a legacy continuity surface from the older expe
 **Source:** Human **narrative journal** (below) + [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃ¢â‚¬â„¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
-**Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) (profile), [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md) (7-day verbatim), [`strategy-expert-mearsheimer-mind.md`](strategy-expert-mearsheimer-mind.md) (long-form mind).
+**Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) (profile), [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md) (7-day verbatim), [`mearsheimer-mind.md`](mearsheimer-mind.md) (long-form mind).
 
 ---
 ## Journal layer Ã¢â‚¬â€ Narrative (operator)
@@ -221,7 +221,7 @@ See [`days.md` Ã‚Â§ Signal / Ã‚Â§ Judgment](../../../codex/chapters/20
 ### References
 
 - **Mind registers (in-voice discipline):** [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) Ã‚Â· [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md)
-- **Tri-mind skill:** [`.cursor/skills/tri-mind/SKILL.md`](../../../../../../../.cursor/skills/tri-mind/SKILL.md) (**A** = Mercouris, **B** = Mearsheimer)
+- **Tri-mind skill:** [`.cursor/skills/tri-mind/SKILL.md`](../../../.cursor/skills/tri-mind/SKILL.md) (**A** = Mercouris, **B** = Mearsheimer)
 - **Primary / episode pins:** add **Duran** / **Mercouris** **YouTube** or **Mearsheimer** **appearance** URLs here when this page is **tightened** to a **dated** **show** Ã¢â‚¬â€ **`TBD`** until operator pins.
 
 ### Receipt

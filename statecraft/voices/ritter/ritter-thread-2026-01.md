@@ -18,7 +18,7 @@ If a question is about authored forecast structure, host transformation, or cano
 **Source:** Human **narrative journal** (below) + [`transcript.md`](ritter-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work. **This file** is the **canonical** January 2026 chapter. During phased split, [`thread.md`](ritter-thread.md) may still contain a duplicate `## 2026-01` block until all months are migrated; discovery **dedupes** the same `strategy-page` `id=`, **preferring** this monthly file.
 **Process:** `python3 scripts/strategy_thread.py` triages inbox → transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose**.
 **Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**.
-**Companion files:** [ritter-profile.md](../ritter-profile.md and [ritter-transcript.md](ritter-transcript.md) (7-day verbatim). **See also** [ritter-thread.md](ritter-thread.md) (multi-month journal during split) and [README.md](README.md).
+**Companion files:** [ritter-profile.md](../ritter-profile.md) and [ritter-transcript.md](ritter-transcript.md) (7-day verbatim). **See also** [ritter-thread.md](ritter-thread.md) (multi-month journal during split) and [README.md](README.md).
 
 ---
 ## Journal layer — Narrative (operator)

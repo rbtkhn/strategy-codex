@@ -516,10 +516,15 @@ def render_audit_markdown(
 def render_markdown(
     *,
     raw_root: Path,
+    output_root: Path,
     canonical: list[RawInputRecord],
     pending: list[RawInputRecord],
     helpers: list[RawInputRecord],
 ) -> str:
+    def link_for(record: RawInputRecord) -> str:
+        target = (raw_root / record.rel_path).resolve()
+        return _rel(target, output_root)
+
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%SZ")
     transcript_records = [record for record in canonical if record.kind.casefold() == "transcript"]
     transcript_profiles = Counter(record.body_profile for record in transcript_records)
@@ -586,7 +591,7 @@ def render_markdown(
                 details.append(f"`guest:{record.guest}`")
             if record.evidence_grade:
                 details.append(f"`grade:{record.evidence_grade}`")
-            lines.append(f"- [{record.file_name}]({record.rel_path}) — {title} | " + " | ".join(details))
+            lines.append(f"- [{record.file_name}]({link_for(record)}) — {title} | " + " | ".join(details))
 
     if pending:
         lines.extend(["", "## _aired-pending", ""])
@@ -595,7 +600,7 @@ def render_markdown(
             details = [f"`kind:{record.kind}`", f"`form:{record.source_form or '(none)'}`", f"`body:{record.body_profile}`"]
             if record.thread:
                 details.append(f"`thread:{record.thread}`")
-            lines.append(f"- [{record.file_name}]({record.rel_path}) — {title} | " + " | ".join(details))
+            lines.append(f"- [{record.file_name}]({link_for(record)}) — {title} | " + " | ".join(details))
 
     if helpers:
         helper_counts = Counter(record.scope for record in helpers)
@@ -604,7 +609,7 @@ def render_markdown(
         lines.append("")
         for record in helpers:
             title = record.title.replace("|", "\\|")
-            lines.append(f"- [{record.file_name}]({record.rel_path}) — {title} | `{record.scope}` | `kind:{record.kind}`")
+            lines.append(f"- [{record.file_name}]({link_for(record)}) — {title} | `{record.scope}` | `kind:{record.kind}`")
 
     lines.append("")
     return "\n".join(lines)
@@ -643,7 +648,13 @@ def write_outputs(
     index_name: str = "source-archive-master-index",
 ) -> dict[str, Path]:
     canonical, pending, helpers = discover_records(raw_root)
-    markdown = render_markdown(raw_root=raw_root, canonical=canonical, pending=pending, helpers=helpers)
+    markdown = render_markdown(
+        raw_root=raw_root,
+        output_root=output_root,
+        canonical=canonical,
+        pending=pending,
+        helpers=helpers,
+    )
     payload = build_payload(raw_root)
     audit_markdown = render_audit_markdown(raw_root, canonical=canonical, output_root=output_root)
     audit_payload = build_audit_payload(raw_root, canonical=canonical, output_root=output_root)
@@ -685,7 +696,17 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.markdown:
         canonical, pending, helpers = discover_records(raw_root)
-        print(render_markdown(raw_root=raw_root, canonical=canonical, pending=pending, helpers=helpers), end="")
+        output_root = args.output_root.resolve()
+        print(
+            render_markdown(
+                raw_root=raw_root,
+                output_root=output_root,
+                canonical=canonical,
+                pending=pending,
+                helpers=helpers,
+            ),
+            end="",
+        )
         return 0
     if args.audit_json:
         canonical, _, _ = discover_records(raw_root)

@@ -25,7 +25,7 @@
 | [grace-mar-locals-voice.md](grace-mar-locals-voice.md) | **Grace‑Mar** house style for **Locals** (VivaBarnes / Duran): do / do not, gears, prudence; not default tri-mind Barnes |
 | [locals-analysis-to-post-recipe.md](locals-analysis-to-post-recipe.md) | Canonical **analysis → Locals** production recipe: choose one angle, reduce to one claim spine, curate proof, draft, ship |
 | [locals-post-scaffold.md](locals-post-scaffold.md) | Reusable drafting scaffold for transcript- and analysis-derived Locals posts |
-| [locals-arc-barnes-continuity-worked-example.md](locals-arc-barnes-continuity-worked-example.md) | Reference implementation: Barnes/Davis arc turned into one medium **VivaBarnesLaw** Locals post, with optional X / PH follow-ons |
+| [locals-arc-barnes-continuity-worked-example.md](locals-barnes-arc-worked-example.md) | Reference implementation: Barnes/Davis arc turned into one medium **VivaBarnesLaw** Locals post, with optional X / PH follow-ons |
 | [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md) | Trust-first **Predictive History YouTube comment** profile: single-phase chapter-folder doorway (retired `ph-mus` follow-up) |
 | [brief-vs-spec.md](brief-vs-spec.md) | **Brief vs spec** — when to use a WORK job brief for writing / strategy / delegation vs a system spec for implementation |
 | [write-no-abstract-stacked-closers.md](write-no-abstract-stacked-closers.md) | Craft: avoid bloaty abstract stacked closers in short public copy |
@@ -49,7 +49,7 @@
 - [skills-modularity.md](../skills-modularity.md) — WRITE module, Voice as f(skill-write)
 - [skills-template.md](../skills-template.md) — skill file shape
 - Instance WRITE evidence: `skill-write.md` (or split per template); see [canonical-paths.md](../canonical-paths.md)
-- Topic-first ledes (Cursor): [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc)
+- Topic-first ledes (Cursor): [.cursor/rules/drafting-topic-lede.mdc](../../../.cursor/rules/drafting-topic-lede.mdc)
 
 ## Locals workflow
 

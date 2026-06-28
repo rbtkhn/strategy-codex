@@ -72,7 +72,7 @@ Every **`news verify`** pass searches **all five lanes** in this fixed order —
 | Field | Value |
 |-------|--------|
 | **Lane id** | `rome` / `civ-state-rome` |
-| **Statecraft** | [work-strategy-rome/](work-strategy-rome/README.md) · CIV-STATE sacred grammar [`statecraft/states/sacred-grammar/rome.md`](../../../statecraft/states/sacred-grammar/rome.md) |
+| **Statecraft** | [work-strategy-rome/](work-strategy-rome/README.md) · CIV-STATE sacred grammar [`statecraft/states/sacred-grammar/rome.md`](../../../statecraft/states/volumes/civ-state-rome/sacred-grammar.md) |
 | **Native lang** | `it` (curial / Sala Stampa primary); official multilingual (`it`, `es`, `fr`, `pt`, `en`, `la`) |
 | **Procedure** | [ROME-PASS.md](work-strategy-rome/ROME-PASS.md) — analytic pass; this registry = **news-verify** outlet SSOT |
 | **Sweep** | **Yes** — every `news verify` pass |

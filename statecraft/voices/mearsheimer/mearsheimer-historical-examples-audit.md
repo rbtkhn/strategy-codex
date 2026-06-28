@@ -29,7 +29,7 @@ Discovery and routing base:
 Interpretive source base:
 
 - [CIV-EMP README](../../../README.md)
-- [CIV-EMP source retrieval matrix](../../academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
+- [CIV-EMP source retrieval matrix](../../../codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
 
 Inclusion bar for scored entries:
 

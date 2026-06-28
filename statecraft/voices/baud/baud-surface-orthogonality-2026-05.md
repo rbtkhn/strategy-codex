@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [baud-arc.md](../../notes/baud-arc.md)
+- [baud-arc.md](baud-arc.md)
 - [baud-helix.md](baud-helix.md)
 - [baud-thread-international-law.md](baud-thread-international-law.md)
 - [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md)
@@ -24,7 +24,7 @@ Bounded claim:
 
 Arcs under review:
 
-- [baud-arc.md](../../notes/baud-arc.md)
+- [baud-arc.md](baud-arc.md)
 - [arc-baud-nima-host.md](../../notes/arc-baud-nima-host.md)
 - [arc-baud-davis-host.md](../../notes/arc-baud-davis-host.md)
 - [arc-baud-diesen-host.md](../../notes/arc-baud-diesen-host.md)

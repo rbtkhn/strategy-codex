@@ -60,7 +60,7 @@ The Iran cases sharpen the point. Maximum pressure did not produce the outcome i
 
 Primary `civ-emp` bucket: `geo`
 
-Open [CIV-EMP README](../../academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
+Open [CIV-EMP README](../../../codex/academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../../codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
 
 - testing whether coercive instruments outrun invasion reality
 - deciding whether sanctions, bombing, or blockade are being asked to do impossible work

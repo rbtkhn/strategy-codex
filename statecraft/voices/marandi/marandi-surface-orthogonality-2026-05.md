@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Local surfaces under review:
 
-- [marandi-arc.md](../../notes/marandi-arc.md)
+- [marandi-arc.md](marandi-arc.md)
 - [marandi-routing.md](marandi-routing.md)
 - [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](marandi-speaker-object.md)
@@ -36,7 +36,7 @@ Threads under review:
 
 Comparison-only notes:
 
-- [marandi-arc.md](../../notes/marandi-arc.md)
+- [marandi-arc.md](marandi-arc.md)
 - [marandi-routing.md](marandi-routing.md)
 - [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](marandi-speaker-object.md)
@@ -92,7 +92,7 @@ The older [marandi-thread.md](marandi-thread.md) still does not isolate a recurr
 `same frame, different role`
 
 - [marandi-speaker-object.md](marandi-speaker-object.md) and [marandi-helix.md](marandi-helix.md) do not own separate continuity; they are comparison and routing surfaces that justify why the three host arcs belong together
-- [marandi-arc.md](../../notes/marandi-arc.md), [marandi-routing.md](marandi-routing.md), and [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
+- [marandi-arc.md](marandi-arc.md), [marandi-routing.md](marandi-routing.md), and [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
 
 `comparison note mistaken for continuity surface`
 
@@ -107,7 +107,7 @@ Main confusion zones:
 ## Recommended actions
 
 - keep the current speaker-first, helix-centered structure
-- keep [marandi-arc.md](../../notes/marandi-arc.md) as the person-level continuity surface
+- keep [marandi-arc.md](marandi-arc.md) as the person-level continuity surface
 - keep [marandi-routing.md](marandi-routing.md) as the fast host-and-task routing surface
 - keep [marandi-2025-present-arc-threads.md](marandi-2025-present-arc-threads.md) as the canonical recurring thread atlas
 - keep all three host-local arcs as distinct canonical threads

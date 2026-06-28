@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T14:12:03Z",
+  "generated_at": "2026-06-28T04:07:38Z",
   "raw_root": "source-archive/statecraft",
   "canonical": [
     {
@@ -21,8 +21,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 157,
-      "body_chars": 1533
+      "body_words": 160,
+      "body_chars": 1583
     },
     {
       "scope": "canonical-date-bucket",
@@ -84,8 +84,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 157,
-      "body_chars": 1547
+      "body_words": 160,
+      "body_chars": 1597
     },
     {
       "scope": "canonical-date-bucket",
@@ -147,8 +147,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 157,
-      "body_chars": 1535
+      "body_words": 160,
+      "body_chars": 1585
     },
     {
       "scope": "canonical-date-bucket",
@@ -609,8 +609,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 242,
-      "body_chars": 2768
+      "body_words": 239,
+      "body_chars": 2748
     },
     {
       "scope": "canonical-date-bucket",
@@ -735,8 +735,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 265,
-      "body_chars": 3063
+      "body_words": 262,
+      "body_chars": 3043
     },
     {
       "scope": "canonical-date-bucket",
@@ -1029,8 +1029,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 302,
-      "body_chars": 3509
+      "body_words": 299,
+      "body_chars": 3477
     },
     {
       "scope": "canonical-date-bucket",
@@ -1659,8 +1659,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 235,
-      "body_chars": 2726
+      "body_words": 231,
+      "body_chars": 2698
     },
     {
       "scope": "canonical-date-bucket",
@@ -1785,8 +1785,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 240,
-      "body_chars": 2724
+      "body_words": 237,
+      "body_chars": 2704
     },
     {
       "scope": "canonical-date-bucket",
@@ -2016,8 +2016,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 281,
-      "body_chars": 3302
+      "body_words": 277,
+      "body_chars": 3268
     },
     {
       "scope": "canonical-date-bucket",
@@ -2184,8 +2184,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 254,
-      "body_chars": 2881
+      "body_words": 251,
+      "body_chars": 2861
     },
     {
       "scope": "canonical-date-bucket",
@@ -2331,8 +2331,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 235,
-      "body_chars": 2698
+      "body_words": 232,
+      "body_chars": 2666
     },
     {
       "scope": "canonical-date-bucket",
@@ -2541,8 +2541,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 271,
-      "body_chars": 3015
+      "body_words": 268,
+      "body_chars": 2995
     },
     {
       "scope": "canonical-date-bucket",
@@ -2688,8 +2688,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 295,
-      "body_chars": 3565
+      "body_words": 291,
+      "body_chars": 3537
     },
     {
       "scope": "canonical-date-bucket",
@@ -2961,8 +2961,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 266,
-      "body_chars": 2973
+      "body_words": 263,
+      "body_chars": 2941
     },
     {
       "scope": "canonical-date-bucket",
@@ -3255,8 +3255,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 236,
-      "body_chars": 2576
+      "body_words": 233,
+      "body_chars": 2544
     },
     {
       "scope": "canonical-date-bucket",
@@ -3507,8 +3507,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 241,
-      "body_chars": 2654
+      "body_words": 238,
+      "body_chars": 2634
     },
     {
       "scope": "canonical-date-bucket",
@@ -3633,8 +3633,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 225,
-      "body_chars": 2463
+      "body_words": 222,
+      "body_chars": 2443
     },
     {
       "scope": "canonical-date-bucket",
@@ -3738,8 +3738,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 179,
-      "body_chars": 1850
+      "body_words": 182,
+      "body_chars": 1886
     },
     {
       "scope": "canonical-date-bucket",
@@ -3823,7 +3823,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 392,
-      "body_chars": 4763
+      "body_chars": 4767
     },
     {
       "scope": "canonical-date-bucket",
@@ -4074,8 +4074,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 252,
-      "body_chars": 2953
+      "body_words": 249,
+      "body_chars": 2921
     },
     {
       "scope": "canonical-date-bucket",
@@ -4452,8 +4452,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 160,
-      "body_chars": 1583
+      "body_words": 157,
+      "body_chars": 1563
     },
     {
       "scope": "canonical-date-bucket",
@@ -4578,8 +4578,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 219,
-      "body_chars": 2490
+      "body_words": 214,
+      "body_chars": 2430
     },
     {
       "scope": "canonical-date-bucket",
@@ -4788,8 +4788,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 178,
-      "body_chars": 1913
+      "body_words": 175,
+      "body_chars": 1881
     },
     {
       "scope": "canonical-date-bucket",
@@ -4872,8 +4872,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 172,
-      "body_chars": 1815
+      "body_words": 175,
+      "body_chars": 1865
     },
     {
       "scope": "canonical-date-bucket",
@@ -4956,8 +4956,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 214,
-      "body_chars": 2408
+      "body_words": 217,
+      "body_chars": 2458
     },
     {
       "scope": "canonical-date-bucket",
@@ -5061,8 +5061,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 162,
-      "body_chars": 1737
+      "body_words": 158,
+      "body_chars": 1691
     },
     {
       "scope": "canonical-date-bucket",
@@ -5208,8 +5208,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 177,
-      "body_chars": 1986
+      "body_words": 180,
+      "body_chars": 2036
     },
     {
       "scope": "canonical-date-bucket",
@@ -5292,8 +5292,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 202,
-      "body_chars": 2179
+      "body_words": 199,
+      "body_chars": 2147
     },
     {
       "scope": "canonical-date-bucket",
@@ -5397,8 +5397,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 208,
-      "body_chars": 2208
+      "body_words": 202,
+      "body_chars": 2156
     },
     {
       "scope": "canonical-date-bucket",
@@ -5586,8 +5586,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 151,
-      "body_chars": 1505
+      "body_words": 154,
+      "body_chars": 1555
     },
     {
       "scope": "canonical-date-bucket",
@@ -5713,7 +5713,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 214,
-      "body_chars": 2332
+      "body_chars": 2350
     },
     {
       "scope": "canonical-date-bucket",
@@ -5817,8 +5817,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 148,
-      "body_chars": 1458
+      "body_words": 145,
+      "body_chars": 1426
     },
     {
       "scope": "canonical-date-bucket",
@@ -5943,8 +5943,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 185,
-      "body_chars": 1868
+      "body_words": 188,
+      "body_chars": 1918
     },
     {
       "scope": "canonical-date-bucket",
@@ -6237,8 +6237,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 153,
-      "body_chars": 1510
+      "body_words": 156,
+      "body_chars": 1560
     },
     {
       "scope": "canonical-date-bucket",
@@ -6426,8 +6426,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 148,
-      "body_chars": 1526
+      "body_words": 145,
+      "body_chars": 1500
     },
     {
       "scope": "canonical-date-bucket",
@@ -6489,8 +6489,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 171,
-      "body_chars": 1841
+      "body_words": 168,
+      "body_chars": 1809
     },
     {
       "scope": "canonical-date-bucket",
@@ -6762,8 +6762,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 171,
-      "body_chars": 1798
+      "body_words": 168,
+      "body_chars": 1766
     },
     {
       "scope": "canonical-date-bucket",
@@ -6846,8 +6846,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 148,
-      "body_chars": 1442
+      "body_words": 145,
+      "body_chars": 1410
     },
     {
       "scope": "canonical-date-bucket",
@@ -7182,8 +7182,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 143,
-      "body_chars": 1452
+      "body_words": 140,
+      "body_chars": 1420
     },
     {
       "scope": "canonical-date-bucket",
@@ -7245,8 +7245,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 170,
-      "body_chars": 1778
+      "body_words": 169,
+      "body_chars": 1764
     },
     {
       "scope": "canonical-date-bucket",
@@ -8001,8 +8001,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 226,
-      "body_chars": 2662
+      "body_words": 223,
+      "body_chars": 2630
     },
     {
       "scope": "canonical-date-bucket",
@@ -8232,8 +8232,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 245,
-      "body_chars": 2919
+      "body_words": 247,
+      "body_chars": 2956
     },
     {
       "scope": "canonical-date-bucket",
@@ -8652,8 +8652,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 200,
-      "body_chars": 2343
+      "body_words": 197,
+      "body_chars": 2311
     },
     {
       "scope": "canonical-date-bucket",
@@ -9198,8 +9198,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 197,
-      "body_chars": 2312
+      "body_words": 194,
+      "body_chars": 2280
     },
     {
       "scope": "canonical-date-bucket",
@@ -9765,8 +9765,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 218,
-      "body_chars": 2589
+      "body_words": 214,
+      "body_chars": 2543
     },
     {
       "scope": "canonical-date-bucket",
@@ -9954,8 +9954,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 196,
-      "body_chars": 2350
+      "body_words": 195,
+      "body_chars": 2336
     },
     {
       "scope": "canonical-date-bucket",
@@ -10059,8 +10059,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 230,
-      "body_chars": 2751
+      "body_words": 233,
+      "body_chars": 2801
     },
     {
       "scope": "canonical-date-bucket",
@@ -10395,8 +10395,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 169,
-      "body_chars": 1900
+      "body_words": 166,
+      "body_chars": 1868
     },
     {
       "scope": "canonical-date-bucket",
@@ -10983,8 +10983,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 191,
-      "body_chars": 2237
+      "body_words": 187,
+      "body_chars": 2191
     },
     {
       "scope": "canonical-date-bucket",
@@ -11571,8 +11571,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 222,
-      "body_chars": 2586
+      "body_words": 219,
+      "body_chars": 2554
     },
     {
       "scope": "canonical-date-bucket",
@@ -12138,8 +12138,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 205,
-      "body_chars": 2485
+      "body_words": 202,
+      "body_chars": 2465
     },
     {
       "scope": "canonical-date-bucket",
@@ -12243,8 +12243,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 169,
-      "body_chars": 1908
+      "body_words": 166,
+      "body_chars": 1876
     },
     {
       "scope": "canonical-date-bucket",
@@ -12327,8 +12327,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 205,
-      "body_chars": 2338
+      "body_words": 208,
+      "body_chars": 2388
     },
     {
       "scope": "canonical-date-bucket",
@@ -12432,8 +12432,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 177,
-      "body_chars": 2098
+      "body_words": 174,
+      "body_chars": 2078
     },
     {
       "scope": "canonical-date-bucket",
@@ -12663,8 +12663,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 181,
-      "body_chars": 1859
+      "body_words": 184,
+      "body_chars": 1909
     },
     {
       "scope": "canonical-date-bucket",
@@ -12810,8 +12810,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 219,
-      "body_chars": 2495
+      "body_words": 212,
+      "body_chars": 2427
     },
     {
       "scope": "canonical-date-bucket",
@@ -13062,8 +13062,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 242,
-      "body_chars": 3089
+      "body_words": 239,
+      "body_chars": 3057
     },
     {
       "scope": "canonical-date-bucket",
@@ -13566,8 +13566,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 209,
-      "body_chars": 2221
+      "body_words": 212,
+      "body_chars": 2271
     },
     {
       "scope": "canonical-date-bucket",
@@ -13671,8 +13671,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 143,
-      "body_chars": 1442
+      "body_words": 140,
+      "body_chars": 1410
     },
     {
       "scope": "canonical-date-bucket",
@@ -13797,8 +13797,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 254,
-      "body_chars": 3001
+      "body_words": 257,
+      "body_chars": 3051
     },
     {
       "scope": "canonical-date-bucket",
@@ -13944,8 +13944,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 185,
-      "body_chars": 1886
+      "body_words": 188,
+      "body_chars": 1936
     },
     {
       "scope": "canonical-date-bucket",
@@ -14112,8 +14112,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 188,
-      "body_chars": 2247
+      "body_words": 187,
+      "body_chars": 2233
     },
     {
       "scope": "canonical-date-bucket",
@@ -14217,8 +14217,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 167,
-      "body_chars": 1910
+      "body_words": 164,
+      "body_chars": 1890
     },
     {
       "scope": "canonical-date-bucket",
@@ -14301,8 +14301,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 139,
-      "body_chars": 1374
+      "body_words": 136,
+      "body_chars": 1342
     },
     {
       "scope": "canonical-date-bucket",
@@ -14490,8 +14490,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 165,
-      "body_chars": 1749
+      "body_words": 164,
+      "body_chars": 1735
     },
     {
       "scope": "canonical-date-bucket",
@@ -14721,8 +14721,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 163,
-      "body_chars": 1834
+      "body_words": 160,
+      "body_chars": 1814
     },
     {
       "scope": "canonical-date-bucket",
@@ -14805,8 +14805,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 149,
-      "body_chars": 1471
+      "body_words": 146,
+      "body_chars": 1449
     },
     {
       "scope": "canonical-date-bucket",
@@ -14868,8 +14868,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 195,
-      "body_chars": 2153
+      "body_words": 194,
+      "body_chars": 2139
     },
     {
       "scope": "canonical-date-bucket",
@@ -14973,8 +14973,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 157,
-      "body_chars": 1617
+      "body_words": 154,
+      "body_chars": 1597
     },
     {
       "scope": "canonical-date-bucket",
@@ -15036,8 +15036,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 240,
-      "body_chars": 2976
+      "body_words": 233,
+      "body_chars": 2926
     },
     {
       "scope": "canonical-date-bucket",
@@ -15309,8 +15309,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 155,
-      "body_chars": 1532
+      "body_words": 152,
+      "body_chars": 1512
     },
     {
       "scope": "canonical-date-bucket",
@@ -15372,8 +15372,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 153,
-      "body_chars": 1526
+      "body_words": 156,
+      "body_chars": 1576
     },
     {
       "scope": "canonical-date-bucket",
@@ -15435,8 +15435,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 149,
-      "body_chars": 1527
+      "body_words": 146,
+      "body_chars": 1507
     },
     {
       "scope": "canonical-date-bucket",
@@ -15498,8 +15498,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 143,
-      "body_chars": 1458
+      "body_words": 140,
+      "body_chars": 1426
     },
     {
       "scope": "canonical-date-bucket",
@@ -15561,8 +15561,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 210,
-      "body_chars": 2367
+      "body_words": 207,
+      "body_chars": 2347
     },
     {
       "scope": "canonical-date-bucket",
@@ -15666,8 +15666,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 191,
-      "body_chars": 2194
+      "body_words": 188,
+      "body_chars": 2174
     },
     {
       "scope": "canonical-date-bucket",
@@ -15855,8 +15855,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 154,
-      "body_chars": 1493
+      "body_words": 151,
+      "body_chars": 1473
     },
     {
       "scope": "canonical-date-bucket",
@@ -15918,8 +15918,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 165,
-      "body_chars": 1853
+      "body_words": 162,
+      "body_chars": 1821
     },
     {
       "scope": "canonical-date-bucket",
@@ -16002,8 +16002,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 175,
-      "body_chars": 1902
+      "body_words": 171,
+      "body_chars": 1874
     },
     {
       "scope": "canonical-date-bucket",
@@ -16149,8 +16149,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 216,
-      "body_chars": 2521
+      "body_words": 213,
+      "body_chars": 2501
     },
     {
       "scope": "canonical-date-bucket",
@@ -16317,8 +16317,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 2045
+      "body_words": 177,
+      "body_chars": 2025
     },
     {
       "scope": "canonical-date-bucket",
@@ -16401,8 +16401,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 142,
-      "body_chars": 1404
+      "body_words": 139,
+      "body_chars": 1382
     },
     {
       "scope": "canonical-date-bucket",
@@ -16569,8 +16569,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 209,
-      "body_chars": 2500
+      "body_words": 205,
+      "body_chars": 2472
     },
     {
       "scope": "canonical-date-bucket",
@@ -16801,7 +16801,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 151,
-      "body_chars": 1468
+      "body_chars": 1482
     },
     {
       "scope": "canonical-date-bucket",
@@ -16863,8 +16863,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 143,
-      "body_chars": 1417
+      "body_words": 140,
+      "body_chars": 1385
     },
     {
       "scope": "canonical-date-bucket",
@@ -16926,8 +16926,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 146,
-      "body_chars": 1561
+      "body_words": 174,
+      "body_chars": 1919
     },
     {
       "scope": "canonical-date-bucket",
@@ -16973,6 +16973,27 @@
     },
     {
       "scope": "canonical-date-bucket",
+      "pub_date": "2025-08-20",
+      "month": "2025-08",
+      "rel_path": "2025-08-20/source-macgregor-cyrus-janssen-russia-ukraine-war-will-end-2025-08-20.md",
+      "file_name": "source-macgregor-cyrus-janssen-russia-ukraine-war-will-end-2025-08-20.md",
+      "kind": "transcript",
+      "body_profile": "full-transcript-body",
+      "title": "Colonel Douglas Macgregor Reveals How Russia Ukraine War Will End!",
+      "thread": "macgregor",
+      "host": "Cyrus Janssen",
+      "guest": "Colonel Douglas Macgregor",
+      "show": "Cyrus Janssen",
+      "source_url": "https://www.youtube.com/watch?v=9WKxc-RxaA8",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "transcript-bearing",
+      "body_words": 5350,
+      "body_chars": 29981
+    },
+    {
+      "scope": "canonical-date-bucket",
       "pub_date": "2025-08-21",
       "month": "2025-08",
       "rel_path": "2025-08-21/day-index.md",
@@ -16989,8 +17010,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 236,
-      "body_chars": 2705
+      "body_words": 233,
+      "body_chars": 2685
     },
     {
       "scope": "canonical-date-bucket",
@@ -17115,8 +17136,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 154,
-      "body_chars": 1491
+      "body_words": 151,
+      "body_chars": 1471
     },
     {
       "scope": "canonical-date-bucket",
@@ -17178,8 +17199,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 154,
-      "body_chars": 1555
+      "body_words": 151,
+      "body_chars": 1535
     },
     {
       "scope": "canonical-date-bucket",
@@ -17304,8 +17325,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 181,
-      "body_chars": 2140
+      "body_words": 175,
+      "body_chars": 2086
     },
     {
       "scope": "canonical-date-bucket",
@@ -17409,8 +17430,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 203,
-      "body_chars": 2303
+      "body_words": 200,
+      "body_chars": 2283
     },
     {
       "scope": "canonical-date-bucket",
@@ -17640,8 +17661,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 184,
-      "body_chars": 1982
+      "body_words": 180,
+      "body_chars": 1954
     },
     {
       "scope": "canonical-date-bucket",
@@ -17724,8 +17745,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 160,
-      "body_chars": 1595
+      "body_words": 157,
+      "body_chars": 1575
     },
     {
       "scope": "canonical-date-bucket",
@@ -17850,8 +17871,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 151,
-      "body_chars": 1451
+      "body_words": 154,
+      "body_chars": 1501
     },
     {
       "scope": "canonical-date-bucket",
@@ -17913,8 +17934,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 231,
-      "body_chars": 2654
+      "body_words": 234,
+      "body_chars": 2704
     },
     {
       "scope": "canonical-date-bucket",
@@ -18102,8 +18123,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 177,
-      "body_chars": 1990
+      "body_words": 174,
+      "body_chars": 1970
     },
     {
       "scope": "canonical-date-bucket",
@@ -18186,8 +18207,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 151,
-      "body_chars": 1477
+      "body_words": 154,
+      "body_chars": 1527
     },
     {
       "scope": "canonical-date-bucket",
@@ -18249,8 +18270,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 233,
-      "body_chars": 2851
+      "body_words": 236,
+      "body_chars": 2901
     },
     {
       "scope": "canonical-date-bucket",
@@ -18375,8 +18396,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 143,
-      "body_chars": 1419
+      "body_words": 140,
+      "body_chars": 1387
     },
     {
       "scope": "canonical-date-bucket",
@@ -18439,7 +18460,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 245,
-      "body_chars": 2885
+      "body_chars": 2915
     },
     {
       "scope": "canonical-date-bucket",
@@ -18564,8 +18585,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 209,
-      "body_chars": 2403
+      "body_words": 212,
+      "body_chars": 2453
     },
     {
       "scope": "canonical-date-bucket",
@@ -18669,8 +18690,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 148,
-      "body_chars": 1595
+      "body_words": 151,
+      "body_chars": 1645
     },
     {
       "scope": "canonical-date-bucket",
@@ -18837,8 +18858,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 148,
-      "body_chars": 1589
+      "body_words": 151,
+      "body_chars": 1639
     },
     {
       "scope": "canonical-date-bucket",
@@ -18900,8 +18921,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 175,
-      "body_chars": 1984
+      "body_words": 179,
+      "body_chars": 2057
     },
     {
       "scope": "canonical-date-bucket",
@@ -18984,8 +19005,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 211,
-      "body_chars": 2461
+      "body_words": 208,
+      "body_chars": 2459
     },
     {
       "scope": "canonical-date-bucket",
@@ -19173,8 +19194,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 208,
-      "body_chars": 2370
+      "body_words": 207,
+      "body_chars": 2392
     },
     {
       "scope": "canonical-date-bucket",
@@ -19278,8 +19299,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 183,
-      "body_chars": 1912
+      "body_words": 186,
+      "body_chars": 1962
     },
     {
       "scope": "canonical-date-bucket",
@@ -19362,8 +19383,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 167,
-      "body_chars": 1723
+      "body_words": 166,
+      "body_chars": 1709
     },
     {
       "scope": "canonical-date-bucket",
@@ -19446,8 +19467,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 222,
-      "body_chars": 2462
+      "body_words": 219,
+      "body_chars": 2442
     },
     {
       "scope": "canonical-date-bucket",
@@ -19551,8 +19572,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 184,
-      "body_chars": 1998
+      "body_words": 180,
+      "body_chars": 1970
     },
     {
       "scope": "canonical-date-bucket",
@@ -19740,8 +19761,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 206,
-      "body_chars": 2294
+      "body_words": 200,
+      "body_chars": 2242
     },
     {
       "scope": "canonical-date-bucket",
@@ -20013,8 +20034,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 244,
-      "body_chars": 2855
+      "body_words": 247,
+      "body_chars": 2873
     },
     {
       "scope": "canonical-date-bucket",
@@ -20139,8 +20160,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 165,
-      "body_chars": 1728
+      "body_words": 164,
+      "body_chars": 1714
     },
     {
       "scope": "canonical-date-bucket",
@@ -20223,8 +20244,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 2069
+      "body_words": 177,
+      "body_chars": 2049
     },
     {
       "scope": "canonical-date-bucket",
@@ -20370,8 +20391,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 214,
-      "body_chars": 2374
+      "body_words": 210,
+      "body_chars": 2346
     },
     {
       "scope": "canonical-date-bucket",
@@ -20538,8 +20559,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 2003
+      "body_words": 177,
+      "body_chars": 1983
     },
     {
       "scope": "canonical-date-bucket",
@@ -20748,8 +20769,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 168,
-      "body_chars": 1873
+      "body_words": 162,
+      "body_chars": 1821
     },
     {
       "scope": "canonical-date-bucket",
@@ -20832,8 +20853,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 250,
-      "body_chars": 3046
+      "body_words": 252,
+      "body_chars": 3083
     },
     {
       "scope": "canonical-date-bucket",
@@ -21063,8 +21084,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 191,
-      "body_chars": 2059
+      "body_words": 188,
+      "body_chars": 2039
     },
     {
       "scope": "canonical-date-bucket",
@@ -21210,8 +21231,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 157,
-      "body_chars": 1589
+      "body_words": 154,
+      "body_chars": 1569
     },
     {
       "scope": "canonical-date-bucket",
@@ -21357,8 +21378,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 143,
-      "body_chars": 1407
+      "body_words": 140,
+      "body_chars": 1375
     },
     {
       "scope": "canonical-date-bucket",
@@ -21483,8 +21504,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 204,
-      "body_chars": 2317
+      "body_words": 203,
+      "body_chars": 2308
     },
     {
       "scope": "canonical-date-bucket",
@@ -21588,8 +21609,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 203,
-      "body_chars": 2360
+      "body_words": 199,
+      "body_chars": 2332
     },
     {
       "scope": "canonical-date-bucket",
@@ -21756,8 +21777,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 160,
-      "body_chars": 1627
+      "body_words": 157,
+      "body_chars": 1607
     },
     {
       "scope": "canonical-date-bucket",
@@ -21819,8 +21840,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 253,
-      "body_chars": 3030
+      "body_words": 248,
+      "body_chars": 2982
     },
     {
       "scope": "canonical-date-bucket",
@@ -21966,8 +21987,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 214,
-      "body_chars": 2264
+      "body_words": 211,
+      "body_chars": 2244
     },
     {
       "scope": "canonical-date-bucket",
@@ -22134,8 +22155,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 181,
-      "body_chars": 1955
+      "body_words": 178,
+      "body_chars": 1935
     },
     {
       "scope": "canonical-date-bucket",
@@ -22281,8 +22302,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 160,
-      "body_chars": 1591
+      "body_words": 157,
+      "body_chars": 1571
     },
     {
       "scope": "canonical-date-bucket",
@@ -22344,8 +22365,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 177,
-      "body_chars": 1954
+      "body_words": 174,
+      "body_chars": 1922
     },
     {
       "scope": "canonical-date-bucket",
@@ -22428,8 +22449,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 1990
+      "body_words": 183,
+      "body_chars": 2040
     },
     {
       "scope": "canonical-date-bucket",
@@ -22512,8 +22533,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 148,
-      "body_chars": 1591
+      "body_words": 151,
+      "body_chars": 1641
     },
     {
       "scope": "canonical-date-bucket",
@@ -22575,8 +22596,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 232,
-      "body_chars": 2809
+      "body_words": 228,
+      "body_chars": 2793
     },
     {
       "scope": "canonical-date-bucket",
@@ -22701,8 +22722,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 210,
-      "body_chars": 2457
+      "body_words": 207,
+      "body_chars": 2465
     },
     {
       "scope": "canonical-date-bucket",
@@ -22806,8 +22827,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 171,
-      "body_chars": 1757
+      "body_words": 170,
+      "body_chars": 1743
     },
     {
       "scope": "canonical-date-bucket",
@@ -22890,8 +22911,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 178,
-      "body_chars": 2000
+      "body_words": 175,
+      "body_chars": 1968
     },
     {
       "scope": "canonical-date-bucket",
@@ -22974,8 +22995,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 237,
-      "body_chars": 2782
+      "body_words": 231,
+      "body_chars": 2730
     },
     {
       "scope": "canonical-date-bucket",
@@ -23100,8 +23121,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 265,
-      "body_chars": 3185
+      "body_words": 261,
+      "body_chars": 3157
     },
     {
       "scope": "canonical-date-bucket",
@@ -23310,8 +23331,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 175,
-      "body_chars": 1809
+      "body_words": 174,
+      "body_chars": 1795
     },
     {
       "scope": "canonical-date-bucket",
@@ -23394,8 +23415,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 151,
-      "body_chars": 1490
+      "body_words": 148,
+      "body_chars": 1458
     },
     {
       "scope": "canonical-date-bucket",
@@ -23457,8 +23478,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 255,
-      "body_chars": 3024
+      "body_words": 252,
+      "body_chars": 2992
     },
     {
       "scope": "canonical-date-bucket",
@@ -23688,8 +23709,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 260,
-      "body_chars": 3334
+      "body_words": 256,
+      "body_chars": 3306
     },
     {
       "scope": "canonical-date-bucket",
@@ -23898,8 +23919,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 1967
+      "body_words": 177,
+      "body_chars": 1947
     },
     {
       "scope": "canonical-date-bucket",
@@ -23982,8 +24003,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 199,
-      "body_chars": 2241
+      "body_words": 196,
+      "body_chars": 2209
     },
     {
       "scope": "canonical-date-bucket",
@@ -24087,8 +24108,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 244,
-      "body_chars": 2890
+      "body_words": 241,
+      "body_chars": 2870
     },
     {
       "scope": "canonical-date-bucket",
@@ -24213,8 +24234,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 231,
-      "body_chars": 2776
+      "body_words": 227,
+      "body_chars": 2748
     },
     {
       "scope": "canonical-date-bucket",
@@ -24339,8 +24360,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 242,
-      "body_chars": 2771
+      "body_words": 239,
+      "body_chars": 2751
     },
     {
       "scope": "canonical-date-bucket",
@@ -24465,8 +24486,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 204,
-      "body_chars": 2485
+      "body_words": 200,
+      "body_chars": 2457
     },
     {
       "scope": "canonical-date-bucket",
@@ -24570,8 +24591,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 177,
-      "body_chars": 1980
+      "body_words": 174,
+      "body_chars": 1960
     },
     {
       "scope": "canonical-date-bucket",
@@ -24801,8 +24822,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 268,
-      "body_chars": 3091
+      "body_words": 267,
+      "body_chars": 3077
     },
     {
       "scope": "canonical-date-bucket",
@@ -24948,8 +24969,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 280,
-      "body_chars": 3354
+      "body_words": 285,
+      "body_chars": 3427
     },
     {
       "scope": "canonical-date-bucket",
@@ -25116,8 +25137,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 209,
-      "body_chars": 2328
+      "body_words": 203,
+      "body_chars": 2276
     },
     {
       "scope": "canonical-date-bucket",
@@ -25221,8 +25242,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 219,
-      "body_chars": 2387
+      "body_words": 216,
+      "body_chars": 2367
     },
     {
       "scope": "canonical-date-bucket",
@@ -25389,8 +25410,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 189,
-      "body_chars": 2093
+      "body_words": 186,
+      "body_chars": 2073
     },
     {
       "scope": "canonical-date-bucket",
@@ -25473,8 +25494,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 235,
-      "body_chars": 2694
+      "body_words": 232,
+      "body_chars": 2674
     },
     {
       "scope": "canonical-date-bucket",
@@ -25599,8 +25620,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 204,
-      "body_chars": 2374
+      "body_words": 201,
+      "body_chars": 2342
     },
     {
       "scope": "canonical-date-bucket",
@@ -25788,8 +25809,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 229,
-      "body_chars": 2669
+      "body_words": 228,
+      "body_chars": 2655
     },
     {
       "scope": "canonical-date-bucket",
@@ -25914,8 +25935,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 268,
-      "body_chars": 3160
+      "body_words": 264,
+      "body_chars": 3131
     },
     {
       "scope": "canonical-date-bucket",
@@ -26061,8 +26082,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 174,
-      "body_chars": 1871
+      "body_words": 202,
+      "body_chars": 2247
     },
     {
       "scope": "canonical-date-bucket",
@@ -26129,6 +26150,27 @@
     },
     {
       "scope": "canonical-date-bucket",
+      "pub_date": "2025-12-20",
+      "month": "2025-12",
+      "rel_path": "2025-12-20/source-macgregor-cyrus-janssen-why-venezuela-americas-next-disaster-2025-12-20.md",
+      "file_name": "source-macgregor-cyrus-janssen-why-venezuela-americas-next-disaster-2025-12-20.md",
+      "kind": "transcript",
+      "body_profile": "full-transcript-body",
+      "title": "Why Venezuela is America's Next Disaster",
+      "thread": "macgregor",
+      "host": "Cyrus Janssen",
+      "guest": "Colonel Douglas Macgregor",
+      "show": "Cyrus Janssen",
+      "source_url": "https://www.youtube.com/watch?v=VfxC-QnrfEE",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "transcript-bearing",
+      "body_words": 5271,
+      "body_chars": 29677
+    },
+    {
+      "scope": "canonical-date-bucket",
       "pub_date": "2025-12-21",
       "month": "2025-12",
       "rel_path": "2025-12-21/day-index.md",
@@ -26145,8 +26187,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 2001
+      "body_words": 177,
+      "body_chars": 1981
     },
     {
       "scope": "canonical-date-bucket",
@@ -26229,8 +26271,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 174,
-      "body_chars": 1886
+      "body_words": 171,
+      "body_chars": 1854
     },
     {
       "scope": "canonical-date-bucket",
@@ -26376,8 +26418,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 232,
-      "body_chars": 2781
+      "body_words": 226,
+      "body_chars": 2729
     },
     {
       "scope": "canonical-date-bucket",
@@ -26628,8 +26670,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 214,
-      "body_chars": 2357
+      "body_words": 211,
+      "body_chars": 2337
     },
     {
       "scope": "canonical-date-bucket",
@@ -26733,8 +26775,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 177,
-      "body_chars": 2006
+      "body_words": 174,
+      "body_chars": 1986
     },
     {
       "scope": "canonical-date-bucket",
@@ -26880,8 +26922,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 151,
-      "body_chars": 1503
+      "body_words": 148,
+      "body_chars": 1483
     },
     {
       "scope": "canonical-date-bucket",
@@ -26943,8 +26985,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 237,
-      "body_chars": 2800
+      "body_words": 233,
+      "body_chars": 2772
     },
     {
       "scope": "canonical-date-bucket",
@@ -27426,8 +27468,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 281,
-      "body_chars": 3274
+      "body_words": 275,
+      "body_chars": 3222
     },
     {
       "scope": "canonical-date-bucket",
@@ -27594,8 +27636,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 262,
-      "body_chars": 2962
+      "body_words": 259,
+      "body_chars": 2930
     },
     {
       "scope": "canonical-date-bucket",
@@ -27867,8 +27909,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 247,
-      "body_chars": 2925
+      "body_words": 249,
+      "body_chars": 2962
     },
     {
       "scope": "canonical-date-bucket",
@@ -28182,8 +28224,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 213,
-      "body_chars": 2418
+      "body_words": 209,
+      "body_chars": 2372
     },
     {
       "scope": "canonical-date-bucket",
@@ -28560,8 +28602,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 246,
-      "body_chars": 2969
+      "body_words": 243,
+      "body_chars": 2937
     },
     {
       "scope": "canonical-date-bucket",
@@ -29086,7 +29128,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 255,
-      "body_chars": 2895
+      "body_chars": 2899
     },
     {
       "scope": "canonical-date-bucket",
@@ -29337,8 +29379,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 266,
-      "body_chars": 3062
+      "body_words": 260,
+      "body_chars": 3010
     },
     {
       "scope": "canonical-date-bucket",
@@ -29673,8 +29715,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 205,
-      "body_chars": 2311
+      "body_words": 202,
+      "body_chars": 2291
     },
     {
       "scope": "canonical-date-bucket",
@@ -29988,8 +30030,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 198,
-      "body_chars": 2238
+      "body_words": 195,
+      "body_chars": 2218
     },
     {
       "scope": "canonical-date-bucket",
@@ -30471,8 +30513,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 227,
-      "body_chars": 2540
+      "body_words": 224,
+      "body_chars": 2520
     },
     {
       "scope": "canonical-date-bucket",
@@ -30598,7 +30640,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 208,
-      "body_chars": 2321
+      "body_chars": 2325
     },
     {
       "scope": "canonical-date-bucket",
@@ -30702,8 +30744,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 205,
-      "body_chars": 2328
+      "body_words": 202,
+      "body_chars": 2308
     },
     {
       "scope": "canonical-date-bucket",
@@ -30912,8 +30954,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 205,
-      "body_chars": 2300
+      "body_words": 202,
+      "body_chars": 2280
     },
     {
       "scope": "canonical-date-bucket",
@@ -31018,7 +31060,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 240,
-      "body_chars": 2578
+      "body_chars": 2592
     },
     {
       "scope": "canonical-date-bucket",
@@ -31290,8 +31332,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 240,
-      "body_chars": 2775
+      "body_words": 234,
+      "body_chars": 2723
     },
     {
       "scope": "canonical-date-bucket",
@@ -31416,8 +31458,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 240,
-      "body_chars": 2717
+      "body_words": 237,
+      "body_chars": 2697
     },
     {
       "scope": "canonical-date-bucket",
@@ -31542,8 +31584,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 219,
-      "body_chars": 2600
+      "body_words": 216,
+      "body_chars": 2568
     },
     {
       "scope": "canonical-date-bucket",
@@ -31815,8 +31857,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 180,
-      "body_chars": 1967
+      "body_words": 177,
+      "body_chars": 1947
     },
     {
       "scope": "canonical-date-bucket",
@@ -31899,8 +31941,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 245,
-      "body_chars": 2941
+      "body_words": 242,
+      "body_chars": 2921
     },
     {
       "scope": "canonical-date-bucket",
@@ -32046,8 +32088,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 258,
-      "body_chars": 3128
+      "body_words": 254,
+      "body_chars": 3092
     },
     {
       "scope": "canonical-date-bucket",
@@ -32193,8 +32235,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 225,
-      "body_chars": 2657
+      "body_words": 222,
+      "body_chars": 2637
     },
     {
       "scope": "canonical-date-bucket",
@@ -32319,8 +32361,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 207,
-      "body_chars": 2395
+      "body_words": 204,
+      "body_chars": 2375
     },
     {
       "scope": "canonical-date-bucket",
@@ -32424,8 +32466,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 299,
-      "body_chars": 3406
+      "body_words": 296,
+      "body_chars": 3386
     },
     {
       "scope": "canonical-date-bucket",
@@ -32760,8 +32802,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 249,
-      "body_chars": 2998
+      "body_words": 242,
+      "body_chars": 2932
     },
     {
       "scope": "canonical-date-bucket",
@@ -32907,8 +32949,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 300,
-      "body_chars": 3580
+      "body_words": 296,
+      "body_chars": 3534
     },
     {
       "scope": "canonical-date-bucket",
@@ -33285,8 +33327,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 341,
-      "body_chars": 4171
+      "body_words": 337,
+      "body_chars": 4143
     },
     {
       "scope": "canonical-date-bucket",
@@ -33684,8 +33726,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 330,
-      "body_chars": 4031
+      "body_words": 333,
+      "body_chars": 4095
     },
     {
       "scope": "canonical-date-bucket",
@@ -34125,8 +34167,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 408,
-      "body_chars": 5378
+      "body_words": 407,
+      "body_chars": 5368
     },
     {
       "scope": "canonical-date-bucket",
@@ -34650,8 +34692,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 261,
-      "body_chars": 3170
+      "body_words": 258,
+      "body_chars": 3150
     },
     {
       "scope": "canonical-date-bucket",
@@ -34818,8 +34860,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 325,
-      "body_chars": 4113
+      "body_words": 321,
+      "body_chars": 4085
     },
     {
       "scope": "canonical-date-bucket",
@@ -35175,8 +35217,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 277,
-      "body_chars": 3376
+      "body_words": 274,
+      "body_chars": 3356
     },
     {
       "scope": "canonical-date-bucket",
@@ -35343,8 +35385,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 283,
-      "body_chars": 3372
+      "body_words": 280,
+      "body_chars": 3352
     },
     {
       "scope": "canonical-date-bucket",
@@ -35532,8 +35574,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 278,
-      "body_chars": 3145
+      "body_words": 303,
+      "body_chars": 3481
     },
     {
       "scope": "canonical-date-bucket",
@@ -35616,8 +35658,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
-      "body_words": 10142,
-      "body_chars": 54707
+      "body_words": 10236,
+      "body_chars": 55476
     },
     {
       "scope": "canonical-date-bucket",
@@ -35665,6 +35707,27 @@
       "scope": "canonical-date-bucket",
       "pub_date": "2026-03-10",
       "month": "2026-03",
+      "rel_path": "2026-03-10/source-macgregor-cyrus-janssen-worst-of-iran-war-still-ahead-2026-03-10.md",
+      "file_name": "source-macgregor-cyrus-janssen-worst-of-iran-war-still-ahead-2026-03-10.md",
+      "kind": "transcript",
+      "body_profile": "full-transcript-body",
+      "title": "Colonel Douglas Macgregor: Worst of Iran War Still Ahead",
+      "thread": "macgregor",
+      "host": "Cyrus Janssen",
+      "guest": "Colonel Douglas Macgregor",
+      "show": "Cyrus Janssen",
+      "source_url": "https://www.youtube.com/watch?v=9fBciZHmnF8",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "transcript-bearing",
+      "body_words": 7896,
+      "body_chars": 43872
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-03-10",
+      "month": "2026-03",
       "rel_path": "2026-03-10/source-simplicius-does-iran-pose-a-real-threat-to-us-2026-03-10.md",
       "file_name": "source-simplicius-does-iran-pose-a-real-threat-to-us-2026-03-10.md",
       "kind": "substack-post",
@@ -35701,7 +35764,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 248,
-      "body_chars": 2862
+      "body_chars": 2878
     },
     {
       "scope": "canonical-date-bucket",
@@ -36540,8 +36603,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 564,
-      "body_chars": 7794
+      "body_words": 563,
+      "body_chars": 7780
     },
     {
       "scope": "canonical-date-bucket",
@@ -36981,8 +37044,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 345,
-      "body_chars": 4302
+      "body_words": 347,
+      "body_chars": 4317
     },
     {
       "scope": "canonical-date-bucket",
@@ -37212,8 +37275,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 324,
-      "body_chars": 4019
+      "body_words": 321,
+      "body_chars": 4007
     },
     {
       "scope": "canonical-date-bucket",
@@ -37422,8 +37485,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 225,
-      "body_chars": 2671
+      "body_words": 222,
+      "body_chars": 2651
     },
     {
       "scope": "canonical-date-bucket",
@@ -37548,8 +37611,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 257,
-      "body_chars": 3101
+      "body_words": 253,
+      "body_chars": 3073
     },
     {
       "scope": "canonical-date-bucket",
@@ -37695,8 +37758,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 219,
-      "body_chars": 2557
+      "body_words": 221,
+      "body_chars": 2594
     },
     {
       "scope": "canonical-date-bucket",
@@ -37905,8 +37968,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 334,
-      "body_chars": 4076
+      "body_words": 330,
+      "body_chars": 4048
     },
     {
       "scope": "canonical-date-bucket",
@@ -38115,8 +38178,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 247,
-      "body_chars": 2935
+      "body_words": 246,
+      "body_chars": 2931
     },
     {
       "scope": "canonical-date-bucket",
@@ -38262,8 +38325,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 240,
-      "body_chars": 2804
+      "body_words": 237,
+      "body_chars": 2784
     },
     {
       "scope": "canonical-date-bucket",
@@ -38409,8 +38472,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 273,
-      "body_chars": 3236
+      "body_words": 269,
+      "body_chars": 3190
     },
     {
       "scope": "canonical-date-bucket",
@@ -38577,8 +38640,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 319,
-      "body_chars": 3872
+      "body_words": 315,
+      "body_chars": 3844
     },
     {
       "scope": "canonical-date-bucket",
@@ -38766,8 +38829,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 208,
-      "body_chars": 2353
+      "body_words": 205,
+      "body_chars": 2333
     },
     {
       "scope": "canonical-date-bucket",
@@ -39018,8 +39081,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 237,
-      "body_chars": 2819
+      "body_words": 230,
+      "body_chars": 2759
     },
     {
       "scope": "canonical-date-bucket",
@@ -39144,8 +39207,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 329,
-      "body_chars": 3986
+      "body_words": 321,
+      "body_chars": 3912
     },
     {
       "scope": "canonical-date-bucket",
@@ -39480,8 +39543,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 377,
-      "body_chars": 4572
+      "body_words": 372,
+      "body_chars": 4539
     },
     {
       "scope": "canonical-date-bucket",
@@ -39732,8 +39795,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 309,
-      "body_chars": 3760
+      "body_words": 305,
+      "body_chars": 3731
     },
     {
       "scope": "canonical-date-bucket",
@@ -40005,8 +40068,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 255,
-      "body_chars": 2925
+      "body_words": 258,
+      "body_chars": 2975
     },
     {
       "scope": "canonical-date-bucket",
@@ -40152,8 +40215,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 294,
-      "body_chars": 3546
+      "body_words": 290,
+      "body_chars": 3518
     },
     {
       "scope": "canonical-date-bucket",
@@ -40321,7 +40384,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 255,
-      "body_chars": 3050
+      "body_chars": 3080
     },
     {
       "scope": "canonical-date-bucket",
@@ -40467,8 +40530,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 283,
-      "body_chars": 3428
+      "body_words": 280,
+      "body_chars": 3408
     },
     {
       "scope": "canonical-date-bucket",
@@ -40635,8 +40698,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 213,
-      "body_chars": 2337
+      "body_words": 210,
+      "body_chars": 2305
     },
     {
       "scope": "canonical-date-bucket",
@@ -40740,8 +40803,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 256,
-      "body_chars": 3000
+      "body_words": 253,
+      "body_chars": 2980
     },
     {
       "scope": "canonical-date-bucket",
@@ -41076,8 +41139,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 373,
-      "body_chars": 4800
+      "body_words": 368,
+      "body_chars": 4764
     },
     {
       "scope": "canonical-date-bucket",
@@ -41328,8 +41391,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 224,
-      "body_chars": 2569
+      "body_words": 221,
+      "body_chars": 2537
     },
     {
       "scope": "canonical-date-bucket",
@@ -41580,8 +41643,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 326,
-      "body_chars": 3921
+      "body_words": 342,
+      "body_chars": 4140
     },
     {
       "scope": "canonical-date-bucket",
@@ -41776,22 +41839,22 @@
       "scope": "canonical-date-bucket",
       "pub_date": "2026-04-16",
       "month": "2026-04",
-      "rel_path": "2026-04-16/source-pape-2026-04-16.md",
-      "file_name": "source-pape-2026-04-16.md",
-      "kind": "transcript",
-      "body_profile": "pointer-only",
-      "title": "2026-04-16",
+      "rel_path": "2026-04-16/source-pape-cyrus-janssen-us-has-no-idea-what-is-coming-next-2026-04-16.md",
+      "file_name": "source-pape-cyrus-janssen-us-has-no-idea-what-is-coming-next-2026-04-16.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Professor Robert Pape: US Has No Idea What is Coming NEXT!",
       "thread": "pape",
-      "host": "",
-      "guest": "",
-      "show": "",
-      "source_url": "",
-      "source_type": "",
-      "source_form": "post",
-      "transcript_type": "",
-      "evidence_grade": "legacy-appearance-only",
-      "body_words": 37913,
-      "body_chars": 331548
+      "host": "Cyrus Janssen",
+      "guest": "Professor Robert Pape",
+      "show": "Cyrus Janssen",
+      "source_url": "https://www.youtube.com/watch?v=pn934RKxie8",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "",
+      "body_words": 6001,
+      "body_chars": 32688
     },
     {
       "scope": "canonical-date-bucket",
@@ -41832,8 +41895,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 342,
-      "body_chars": 4305
+      "body_words": 369,
+      "body_chars": 4666
     },
     {
       "scope": "canonical-date-bucket",
@@ -42049,6 +42112,27 @@
       "scope": "canonical-date-bucket",
       "pub_date": "2026-04-17",
       "month": "2026-04",
+      "rel_path": "2026-04-17/source-macgregor-cyrus-janssen-us-launching-iran-ground-invasion-2026-04-17.md",
+      "file_name": "source-macgregor-cyrus-janssen-us-launching-iran-ground-invasion-2026-04-17.md",
+      "kind": "transcript",
+      "body_profile": "full-transcript-body",
+      "title": "Colonel Douglas Macgregor: US Launching Iran Ground Invasion!",
+      "thread": "macgregor",
+      "host": "Cyrus Janssen",
+      "guest": "Colonel Douglas Macgregor",
+      "show": "Cyrus Janssen",
+      "source_url": "https://www.youtube.com/watch?v=wypqnoH4xkE",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "transcript-bearing",
+      "body_words": 6960,
+      "body_chars": 38801
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-04-17",
+      "month": "2026-04",
       "rel_path": "2026-04-17/source-marandi-2026-04-17.md",
       "file_name": "source-marandi-2026-04-17.md",
       "kind": "transcript",
@@ -42189,8 +42273,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 280,
-      "body_chars": 3511
+      "body_words": 277,
+      "body_chars": 3491
     },
     {
       "scope": "canonical-date-bucket",
@@ -42672,8 +42756,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 411,
-      "body_chars": 5101
+      "body_words": 407,
+      "body_chars": 5073
     },
     {
       "scope": "canonical-date-bucket",
@@ -42924,8 +43008,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
-      "body_words": 3461,
-      "body_chars": 19211
+      "body_words": 3535,
+      "body_chars": 19788
     },
     {
       "scope": "canonical-date-bucket",
@@ -43029,8 +43113,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 334,
-      "body_chars": 3969
+      "body_words": 328,
+      "body_chars": 3916
     },
     {
       "scope": "canonical-date-bucket",
@@ -43449,8 +43533,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 365,
-      "body_chars": 4334
+      "body_words": 359,
+      "body_chars": 4281
     },
     {
       "scope": "canonical-date-bucket",
@@ -43680,8 +43764,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 321,
-      "body_chars": 3596
+      "body_words": 317,
+      "body_chars": 3568
     },
     {
       "scope": "canonical-date-bucket",
@@ -43890,8 +43974,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 200,
-      "body_chars": 2219
+      "body_words": 203,
+      "body_chars": 2269
     },
     {
       "scope": "canonical-date-bucket",
@@ -44079,8 +44163,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 317,
-      "body_chars": 3720
+      "body_words": 313,
+      "body_chars": 3706
     },
     {
       "scope": "canonical-date-bucket",
@@ -44289,8 +44373,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 280,
-      "body_chars": 3465
+      "body_words": 275,
+      "body_chars": 3415
     },
     {
       "scope": "canonical-date-bucket",
@@ -44479,7 +44563,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 295,
-      "body_chars": 3301
+      "body_chars": 3309
     },
     {
       "scope": "canonical-date-bucket",
@@ -44596,7 +44680,7 @@
       "body_profile": "full-transcript-body",
       "title": "Professor Robert Pape: Why a Nuclear Iran Is Inevitable",
       "thread": "pape",
-      "host": "Ryan Grim",
+      "host": "Breaking Points",
       "guest": "Professor Robert Pape",
       "show": "Breaking Points",
       "source_url": "https://www.youtube.com/watch?v=OjH35ZKmF48",
@@ -44604,8 +44688,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
-      "body_words": 3331,
-      "body_chars": 18603
+      "body_words": 3394,
+      "body_chars": 19115
     },
     {
       "scope": "canonical-date-bucket",
@@ -44646,8 +44730,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 228,
-      "body_chars": 2548
+      "body_words": 225,
+      "body_chars": 2516
     },
     {
       "scope": "canonical-date-bucket",
@@ -44772,8 +44856,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 241,
-      "body_chars": 2754
+      "body_words": 238,
+      "body_chars": 2734
     },
     {
       "scope": "canonical-date-bucket",
@@ -44898,8 +44982,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 237,
-      "body_chars": 2772
+      "body_words": 234,
+      "body_chars": 2752
     },
     {
       "scope": "canonical-date-bucket",
@@ -45129,8 +45213,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 301,
-      "body_chars": 3398
+      "body_words": 296,
+      "body_chars": 3361
     },
     {
       "scope": "canonical-date-bucket",
@@ -45318,8 +45402,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 355,
-      "body_chars": 3920
+      "body_words": 353,
+      "body_chars": 3908
     },
     {
       "scope": "canonical-date-bucket",
@@ -45570,8 +45654,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 338,
-      "body_chars": 3854
+      "body_words": 335,
+      "body_chars": 3834
     },
     {
       "scope": "canonical-date-bucket",
@@ -45780,8 +45864,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 296,
-      "body_chars": 3505
+      "body_words": 320,
+      "body_chars": 3864
     },
     {
       "scope": "canonical-date-bucket",
@@ -45892,6 +45976,27 @@
       "scope": "canonical-date-bucket",
       "pub_date": "2026-05-07",
       "month": "2026-05",
+      "rel_path": "2026-05-07/source-macgregor-cyrus-janssen-trump-not-prepared-for-what-iran-does-next-2026-05-07.md",
+      "file_name": "source-macgregor-cyrus-janssen-trump-not-prepared-for-what-iran-does-next-2026-05-07.md",
+      "kind": "transcript",
+      "body_profile": "full-transcript-body",
+      "title": "Colonel Douglas Macgregor: Trump Not Prepared for What Iran Does Next!",
+      "thread": "macgregor",
+      "host": "Cyrus Janssen",
+      "guest": "Colonel Douglas Macgregor",
+      "show": "Cyrus Janssen",
+      "source_url": "https://www.youtube.com/watch?v=9nJ5Cwl_xWY",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "transcript-bearing",
+      "body_words": 8028,
+      "body_chars": 44731
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-05-07",
+      "month": "2026-05",
       "rel_path": "2026-05-07/source-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md",
       "file_name": "source-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md",
       "kind": "cleaned-transcript",
@@ -45948,8 +46053,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 324,
-      "body_chars": 3842
+      "body_words": 319,
+      "body_chars": 3805
     },
     {
       "scope": "canonical-date-bucket",
@@ -46158,8 +46263,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 275,
-      "body_chars": 3168
+      "body_words": 272,
+      "body_chars": 3148
     },
     {
       "scope": "canonical-date-bucket",
@@ -46326,8 +46431,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 304,
-      "body_chars": 3457
+      "body_words": 301,
+      "body_chars": 3433
     },
     {
       "scope": "canonical-date-bucket",
@@ -46469,12 +46574,12 @@
       "guest": "Scott Ritter",
       "show": "Let's Talk Geopolitics",
       "source_url": "https://www.youtube.com/watch?v=-idI5zKO1M8",
-      "source_type": "",
+      "source_type": "youtube",
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
-      "body_words": 8184,
-      "body_chars": 44719
+      "body_words": 8296,
+      "body_chars": 45606
     },
     {
       "scope": "canonical-date-bucket",
@@ -46494,8 +46599,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 321,
-      "body_chars": 3585
+      "body_words": 317,
+      "body_chars": 3557
     },
     {
       "scope": "canonical-date-bucket",
@@ -46683,8 +46788,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 365,
-      "body_chars": 4429
+      "body_words": 359,
+      "body_chars": 4385
     },
     {
       "scope": "canonical-date-bucket",
@@ -46881,8 +46986,8 @@
       "month": "2026-05",
       "rel_path": "2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md",
       "file_name": "source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md",
-      "kind": "transcript",
-      "body_profile": "full-transcript-body",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
       "title": "TRUMP'S NEXT IRAN STEPS REVEALED - w/ #1 Political Scientist Prof. Robert Pape",
       "thread": "pape",
       "host": "Mario Nawfal",
@@ -46891,10 +46996,10 @@
       "source_url": "https://www.youtube.com/watch?v=-6orPmr4ldo",
       "source_type": "youtube",
       "source_form": "interview",
-      "transcript_type": "auto_subtitles_vtt",
-      "evidence_grade": "transcript-bearing",
-      "body_words": 9112,
-      "body_chars": 49297
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 9179,
+      "body_chars": 49847
     },
     {
       "scope": "canonical-date-bucket",
@@ -46914,8 +47019,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 274,
-      "body_chars": 3275
+      "body_words": 269,
+      "body_chars": 3239
     },
     {
       "scope": "canonical-date-bucket",
@@ -47082,8 +47187,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 417,
-      "body_chars": 5239
+      "body_words": 410,
+      "body_chars": 5205
     },
     {
       "scope": "canonical-date-bucket",
@@ -47356,7 +47461,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 324,
-      "body_chars": 3902
+      "body_chars": 3914
     },
     {
       "scope": "canonical-date-bucket",
@@ -47544,8 +47649,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 362,
-      "body_chars": 4728
+      "body_words": 365,
+      "body_chars": 4805
     },
     {
       "scope": "canonical-date-bucket",
@@ -47880,8 +47985,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 466,
-      "body_chars": 6127
+      "body_words": 456,
+      "body_chars": 6025
     },
     {
       "scope": "canonical-date-bucket",
@@ -48174,8 +48279,8 @@
       "source_form": "solo",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 6558,
-      "body_chars": 37344
+      "body_words": 6626,
+      "body_chars": 37902
     },
     {
       "scope": "canonical-date-bucket",
@@ -48342,8 +48447,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 392,
-      "body_chars": 5037
+      "body_words": 380,
+      "body_chars": 4935
     },
     {
       "scope": "canonical-date-bucket",
@@ -48531,8 +48636,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 8547,
-      "body_chars": 46440
+      "body_words": 8601,
+      "body_chars": 46930
     },
     {
       "scope": "canonical-date-bucket",
@@ -48594,8 +48699,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 331,
-      "body_chars": 4038
+      "body_words": 322,
+      "body_chars": 3955
     },
     {
       "scope": "canonical-date-bucket",
@@ -48972,8 +49077,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 307,
-      "body_chars": 3819
+      "body_words": 304,
+      "body_chars": 3799
     },
     {
       "scope": "canonical-date-bucket",
@@ -49245,8 +49350,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 7809,
-      "body_chars": 44719
+      "body_words": 7899,
+      "body_chars": 45501
     },
     {
       "scope": "canonical-date-bucket",
@@ -49287,8 +49392,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 319,
-      "body_chars": 3933
+      "body_words": 318,
+      "body_chars": 3955
     },
     {
       "scope": "canonical-date-bucket",
@@ -49476,8 +49581,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 584,
-      "body_chars": 7487
+      "body_words": 577,
+      "body_chars": 7423
     },
     {
       "scope": "canonical-date-bucket",
@@ -49896,8 +50001,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 9467,
-      "body_chars": 51235
+      "body_words": 9536,
+      "body_chars": 51836
     },
     {
       "scope": "canonical-date-bucket",
@@ -49917,8 +50022,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 395,
-      "body_chars": 4999
+      "body_words": 393,
+      "body_chars": 5013
     },
     {
       "scope": "canonical-date-bucket",
@@ -50119,7 +50224,7 @@
       "body_profile": "full-transcript-body",
       "title": "Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges",
       "thread": "pape",
-      "host": "",
+      "host": "Breaking Points",
       "guest": "Robert Pape",
       "show": "Breaking Points",
       "source_url": "https://www.youtube.com/watch?v=4_wMLwkzBLs",
@@ -50127,8 +50232,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 4013,
-      "body_chars": 21138
+      "body_words": 4102,
+      "body_chars": 21792
     },
     {
       "scope": "canonical-date-bucket",
@@ -50169,8 +50274,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 494,
-      "body_chars": 6402
+      "body_words": 479,
+      "body_chars": 6256
     },
     {
       "scope": "canonical-date-bucket",
@@ -50232,8 +50337,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 11555,
-      "body_chars": 63882
+      "body_words": 11650,
+      "body_chars": 64718
     },
     {
       "scope": "canonical-date-bucket",
@@ -50463,8 +50568,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 9731,
-      "body_chars": 53004
+      "body_words": 9816,
+      "body_chars": 53665
     },
     {
       "scope": "canonical-date-bucket",
@@ -50484,8 +50589,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 9527,
-      "body_chars": 51514
+      "body_words": 9610,
+      "body_chars": 52259
     },
     {
       "scope": "canonical-date-bucket",
@@ -50505,8 +50610,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 7793,
-      "body_chars": 42254
+      "body_words": 7878,
+      "body_chars": 42977
     },
     {
       "scope": "canonical-date-bucket",
@@ -50526,8 +50631,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 365,
-      "body_chars": 4613
+      "body_words": 354,
+      "body_chars": 4516
     },
     {
       "scope": "canonical-date-bucket",
@@ -50673,8 +50778,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 10892,
-      "body_chars": 59790
+      "body_words": 10973,
+      "body_chars": 60438
     },
     {
       "scope": "canonical-date-bucket",
@@ -50694,8 +50799,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 9688,
-      "body_chars": 53236
+      "body_words": 9774,
+      "body_chars": 53920
     },
     {
       "scope": "canonical-date-bucket",
@@ -50715,8 +50820,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 12797,
-      "body_chars": 68251
+      "body_words": 12865,
+      "body_chars": 68792
     },
     {
       "scope": "canonical-date-bucket",
@@ -50757,8 +50862,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 318,
-      "body_chars": 4062
+      "body_words": 311,
+      "body_chars": 4009
     },
     {
       "scope": "canonical-date-bucket",
@@ -50946,8 +51051,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 345,
-      "body_chars": 4415
+      "body_words": 341,
+      "body_chars": 4391
     },
     {
       "scope": "canonical-date-bucket",
@@ -51051,8 +51156,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 10251,
-      "body_chars": 56888
+      "body_words": 10357,
+      "body_chars": 57761
     },
     {
       "scope": "canonical-date-bucket",
@@ -51072,8 +51177,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 9791,
-      "body_chars": 52492
+      "body_words": 9877,
+      "body_chars": 53222
     },
     {
       "scope": "canonical-date-bucket",
@@ -51093,8 +51198,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 7361,
-      "body_chars": 40564
+      "body_words": 7452,
+      "body_chars": 41289
     },
     {
       "scope": "canonical-date-bucket",
@@ -51135,8 +51240,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 11337,
-      "body_chars": 62985
+      "body_words": 11425,
+      "body_chars": 63732
     },
     {
       "scope": "canonical-date-bucket",
@@ -51156,8 +51261,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 9274,
-      "body_chars": 50129
+      "body_words": 9361,
+      "body_chars": 50823
     },
     {
       "scope": "canonical-date-bucket",
@@ -51177,8 +51282,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 491,
-      "body_chars": 6520
+      "body_words": 485,
+      "body_chars": 6482
     },
     {
       "scope": "canonical-date-bucket",
@@ -51534,8 +51639,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 516,
-      "body_chars": 6841
+      "body_words": 515,
+      "body_chars": 6853
     },
     {
       "scope": "canonical-date-bucket",
@@ -51912,8 +52017,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 354,
-      "body_chars": 4439
+      "body_words": 349,
+      "body_chars": 4393
     },
     {
       "scope": "canonical-date-bucket",
@@ -52143,8 +52248,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 376,
-      "body_chars": 4994
+      "body_words": 366,
+      "body_chars": 4903
     },
     {
       "scope": "canonical-date-bucket",
@@ -52395,8 +52500,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 415,
-      "body_chars": 5511
+      "body_words": 402,
+      "body_chars": 5401
     },
     {
       "scope": "canonical-date-bucket",
@@ -52668,8 +52773,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 354,
-      "body_chars": 4546
+      "body_words": 348,
+      "body_chars": 4526
     },
     {
       "scope": "canonical-date-bucket",
@@ -52899,8 +53004,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 284,
-      "body_chars": 3688
+      "body_words": 278,
+      "body_chars": 3644
     },
     {
       "scope": "canonical-date-bucket",
@@ -53088,8 +53193,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 520,
-      "body_chars": 6689
+      "body_words": 506,
+      "body_chars": 6557
     },
     {
       "scope": "canonical-date-bucket",
@@ -53466,8 +53571,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 514,
-      "body_chars": 6851
+      "body_words": 505,
+      "body_chars": 6777
     },
     {
       "scope": "canonical-date-bucket",
@@ -53844,8 +53949,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 371,
-      "body_chars": 4725
+      "body_words": 362,
+      "body_chars": 4643
     },
     {
       "scope": "canonical-date-bucket",
@@ -54096,8 +54201,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 595,
-      "body_chars": 7925
+      "body_words": 586,
+      "body_chars": 7857
     },
     {
       "scope": "canonical-date-bucket",
@@ -54537,8 +54642,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 390,
-      "body_chars": 4970
+      "body_words": 382,
+      "body_chars": 4910
     },
     {
       "scope": "canonical-date-bucket",
@@ -54789,8 +54894,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 361,
-      "body_chars": 4237
+      "body_words": 358,
+      "body_chars": 4217
     },
     {
       "scope": "canonical-date-bucket",
@@ -54957,8 +55062,8 @@
       "source_form": "interview",
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
-      "body_words": 8721,
-      "body_chars": 50435
+      "body_words": 8716,
+      "body_chars": 50503
     },
     {
       "scope": "canonical-date-bucket",
@@ -55020,8 +55125,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 305,
-      "body_chars": 3736
+      "body_words": 300,
+      "body_chars": 3700
     },
     {
       "scope": "canonical-date-bucket",
@@ -55209,8 +55314,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 397,
-      "body_chars": 4699
+      "body_words": 391,
+      "body_chars": 4643
     },
     {
       "scope": "canonical-date-bucket",
@@ -55482,8 +55587,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 519,
-      "body_chars": 6909
+      "body_words": 509,
+      "body_chars": 6817
     },
     {
       "scope": "canonical-date-bucket",
@@ -55860,8 +55965,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 391,
-      "body_chars": 4976
+      "body_words": 381,
+      "body_chars": 4899
     },
     {
       "scope": "canonical-date-bucket",
@@ -56133,8 +56238,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 440,
-      "body_chars": 5575
+      "body_words": 434,
+      "body_chars": 5531
     },
     {
       "scope": "canonical-date-bucket",
@@ -56385,8 +56490,8 @@
       "source_form": "interview",
       "transcript_type": "operator_pasted_youtube_transcript",
       "evidence_grade": "transcript-bearing",
-      "body_words": 14703,
-      "body_chars": 80756
+      "body_words": 14692,
+      "body_chars": 80780
     },
     {
       "scope": "canonical-date-bucket",
@@ -56427,8 +56532,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 443,
-      "body_chars": 5485
+      "body_words": 439,
+      "body_chars": 5457
     },
     {
       "scope": "canonical-date-bucket",
@@ -56721,8 +56826,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 300,
-      "body_chars": 3906
+      "body_words": 299,
+      "body_chars": 3928
     },
     {
       "scope": "canonical-date-bucket",
@@ -56994,8 +57099,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 380,
-      "body_chars": 4713
+      "body_words": 375,
+      "body_chars": 4683
     },
     {
       "scope": "canonical-date-bucket",
@@ -57246,8 +57351,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 470,
-      "body_chars": 6198
+      "body_words": 465,
+      "body_chars": 6162
     },
     {
       "scope": "canonical-date-bucket",
@@ -57583,7 +57688,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 401,
-      "body_chars": 4802
+      "body_chars": 4818
     },
     {
       "scope": "canonical-date-bucket",
@@ -57834,8 +57939,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 334,
-      "body_chars": 3955
+      "body_words": 384,
+      "body_chars": 4683
     },
     {
       "scope": "canonical-date-bucket",
@@ -57883,6 +57988,27 @@
       "scope": "canonical-date-bucket",
       "pub_date": "2026-06-25",
       "month": "2026-06",
+      "rel_path": "2026-06-25/source-crooke-russia-hearing-the-european-clamour-2026-06-25.md",
+      "file_name": "source-crooke-russia-hearing-the-european-clamour-2026-06-25.md",
+      "kind": "substack-post",
+      "body_profile": "non-transcript",
+      "title": "Russia Hearing the European Clamour for War, Announces it is Ready",
+      "thread": "crooke",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "https://conflictsforum.substack.com/p/russia-hearing-the-european-clamour",
+      "source_type": "substack",
+      "source_form": "newsletter",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 1469,
+      "body_chars": 9154
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-25",
+      "month": "2026-06",
       "rel_path": "2026-06-25/source-daniel-davis-mearsheimer-russia-red-lines-crossed-2026-06-25.md",
       "file_name": "source-daniel-davis-mearsheimer-russia-red-lines-crossed-2026-06-25.md",
       "kind": "cleaned-transcript",
@@ -57910,7 +58036,7 @@
       "body_profile": "non-transcript",
       "title": "Larry Johnson: The U.S. Is Now Directly Calling Iran (Vance's Switzerland Bombshell)",
       "thread": "johnson",
-      "host": "Nima Alkorshid",
+      "host": "Nima Alkhorshid",
       "guest": "Larry Johnson",
       "show": "Dialogue Works",
       "source_url": "https://www.youtube.com/watch?v=yUfZrrLILiM",
@@ -58004,6 +58130,321 @@
       "evidence_grade": "",
       "body_words": 12222,
       "body_chars": 66766
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-25",
+      "month": "2026-06",
+      "rel_path": "2026-06-25/source-pape-prediction-confirmed-the-next-phase-of-the-iran-war-has-begun-2026-06-25.md",
+      "file_name": "source-pape-prediction-confirmed-the-next-phase-of-the-iran-war-has-begun-2026-06-25.md",
+      "kind": "substack-post",
+      "body_profile": "non-transcript",
+      "title": "Prediction Confirmed: The Next Phase of the Iran War Has Begun",
+      "thread": "pape",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "https://escalationtrap.substack.com/p/prediction-confirmed-the-next-phase",
+      "source_type": "substack",
+      "source_form": "newsletter",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 216,
+      "body_chars": 1323
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/day-index.md",
+      "file_name": "day-index.md",
+      "kind": "(none)",
+      "body_profile": "full-transcript-body",
+      "title": "Statecraft Archive - Day Index - 2026-06-26",
+      "thread": "",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "",
+      "source_type": "",
+      "source_form": "",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 452,
+      "body_chars": 5765
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/README.md",
+      "file_name": "README.md",
+      "kind": "(none)",
+      "body_profile": "short-body",
+      "title": "Statecraft Archive - 2026-06-26",
+      "thread": "",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "",
+      "source_type": "",
+      "source_form": "",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 16,
+      "body_chars": 132
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+      "file_name": "source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Zelensky Again Threatens Belarus; Kharkov Crumbles Threat To Kiev Grows; Lavrov Rubio Bury Anchorage",
+      "thread": "mercouris",
+      "host": "Alexander Mercouris",
+      "guest": "",
+      "show": "Alexander Mercouris",
+      "source_url": "https://www.youtube.com/watch?v=fxoQwJ-z9K4",
+      "source_type": "youtube",
+      "source_form": "solo",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 8482,
+      "body_chars": 48299
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-daniel-davis-robert-barnes-iran-deal-miscalculations-2026-06-26.md",
+      "file_name": "source-daniel-davis-robert-barnes-iran-deal-miscalculations-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Iran Deal Miscalculations / Robert Barnes & Lt Col Daniel Davis",
+      "thread": "daniel-davis",
+      "host": "Daniel Davis",
+      "guest": "Robert Barnes",
+      "show": "Daniel Davis Deep Dive",
+      "source_url": "https://www.youtube.com/watch?v=SGmjyRISKjA",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 13097,
+      "body_chars": 72108
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md",
+      "file_name": "source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md",
+      "kind": "transcript",
+      "body_profile": "full-transcript-body",
+      "title": "Prof Seyed Marandi: WILL the US COLLAPSE the GLOBAL ECONOMY?",
+      "thread": "daniel-davis",
+      "host": "Daniel Davis",
+      "guest": "Seyed Mohammad Marandi",
+      "show": "Daniel Davis Deep Dive",
+      "source_url": "https://www.youtube.com/watch?v=ClRucYR-QE8",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "operator_pasted_transcript",
+      "evidence_grade": "transcript-bearing",
+      "body_words": 9542,
+      "body_chars": 53181
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-dialogue-works-anthony-aguilar-us-airstrikes-inside-iran-escalation-2026-06-26.md",
+      "file_name": "source-dialogue-works-anthony-aguilar-us-airstrikes-inside-iran-escalation-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Lt. Col. Anthony Aguilar: BREAKING: U.S. Launches Airstrikes Inside Iran \u2013 Escalation Underway",
+      "thread": "dialogue-works",
+      "host": "Nima Alkorshid",
+      "guest": "Anthony Aguilar",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=b5QOYVpHttU",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 8020,
+      "body_chars": 44101
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-dialogue-works-chas-freeman-collapse-israel-agenda-2026-06-26.md",
+      "file_name": "source-dialogue-works-chas-freeman-collapse-israel-agenda-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Amb. Chas Freeman \u2014 The Collapse Of Israel's Agenda",
+      "thread": "dialogue-works",
+      "host": "Nima Alkorshid",
+      "guest": "Chas Freeman",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=7APwlAtHjLA",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 7822,
+      "body_chars": 43215
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md",
+      "file_name": "source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Robert Barnes: Iran Drones Attack Ship WITHOUT State Approval!",
+      "thread": "dialogue-works",
+      "host": "Nima Alkorshid",
+      "guest": "Robert Barnes",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=JlvpAlrvK8k",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 8201,
+      "body_chars": 44852
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-26-june-2026-06-26.md",
+      "file_name": "source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-26-june-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "INTEL Roundtable w/Johnson & McGovern - Weekly Wrap 26-June",
+      "thread": "napolitano",
+      "host": "Judge Andrew Napolitano",
+      "guest": "Larry Johnson; Ray McGovern",
+      "show": "Judging Freedom",
+      "source_url": "https://www.youtube.com/watch?v=X6hmT89tyv8",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 4332,
+      "body_chars": 23657
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+      "file_name": "source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "[EXCLUSIVE] COL. Doug Macgregor : Judgment Day for Trump's War. Does he Know He Lost?",
+      "thread": "macgregor",
+      "host": "Judge Andrew Napolitano",
+      "guest": "Douglas Macgregor",
+      "show": "Judging Freedom",
+      "source_url": "https://www.youtube.com/watch?v=wAV0xMapy30",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 4857,
+      "body_chars": 27020
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-mario-nawfal-daniel-davis-us-boots-lebanon-israel-recognition-mou-2026-06-26.md",
+      "file_name": "source-mario-nawfal-daniel-davis-us-boots-lebanon-israel-recognition-mou-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "BREAKING: U.S BOOTS ON THE GROUND IN LEBANON, LEBANON RECOGNISE ISRAEL w/ LT COL DANIEL DAVIS",
+      "thread": "daniel-davis",
+      "host": "Mario Nawfal",
+      "guest": "Daniel L. Davis",
+      "show": "Mario Nawfal",
+      "source_url": "https://www.youtube.com/watch?v=xB4o7LSWoD8",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 10307,
+      "body_chars": 55239
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+      "file_name": "source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "ISRAEL FURIOUS AT TRUMP OVER TURKEY, SYRIA TO INVADE LEBANON - w/ Col. Macgregor",
+      "thread": "macgregor",
+      "host": "Mario Nawfal",
+      "guest": "Douglas Macgregor",
+      "show": "Mario Nawfal",
+      "source_url": "https://www.youtube.com/watch?v=2FJkAL-w4UA",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 6465,
+      "body_chars": 35954
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-mario-nawfal-trita-parsi-israel-lebanon-peace-agreement-mou-breach-2026-06-26.md",
+      "file_name": "source-mario-nawfal-trita-parsi-israel-lebanon-peace-agreement-mou-breach-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "BREAKING: ISRAEL AND LEBANON SIGN PEACE AGREEMENT, BREACHING IRANIAN MOU - w/ Trita Parsi",
+      "thread": "parsi",
+      "host": "Mario Nawfal",
+      "guest": "Trita Parsi",
+      "show": "Mario Nawfal",
+      "source_url": "https://www.youtube.com/watch?v=cV2SC-FWBTM",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 5141,
+      "body_chars": 28986
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-26",
+      "month": "2026-06",
+      "rel_path": "2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md",
+      "file_name": "source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "U.S STRIKE IRAN, U.S ISRAEL LEBANON DEAL VIOLATES THE MOU DEAL w/ PROFESSOR PAPE",
+      "thread": "pape",
+      "host": "Sulaiman Ahmed",
+      "guest": "Robert Pape",
+      "show": "Moral Resistance",
+      "source_url": "https://www.youtube.com/watch?v=oT8p2EQ6r0s",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 10842,
+      "body_chars": 57585
     }
   ],
   "aired_pending": [
@@ -58048,8 +58489,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 115,
-      "body_chars": 957
+      "body_words": 117,
+      "body_chars": 984
     },
     {
       "scope": "helper-surface",
@@ -58069,8 +58510,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 101,
-      "body_chars": 850
+      "body_words": 103,
+      "body_chars": 877
     },
     {
       "scope": "helper-surface",
@@ -58090,8 +58531,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 115,
-      "body_chars": 957
+      "body_words": 117,
+      "body_chars": 984
     },
     {
       "scope": "helper-surface",
@@ -58111,8 +58552,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 115,
-      "body_chars": 957
+      "body_words": 117,
+      "body_chars": 984
     },
     {
       "scope": "helper-surface",
@@ -58153,8 +58594,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 139,
-      "body_chars": 1159
+      "body_words": 141,
+      "body_chars": 1186
     },
     {
       "scope": "helper-surface",
@@ -58175,7 +58616,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 1313,
-      "body_chars": 9803
+      "body_chars": 9812
     },
     {
       "scope": "helper-surface",
@@ -58195,8 +58636,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 541,
-      "body_chars": 4416
+      "body_words": 539,
+      "body_chars": 4424
     },
     {
       "scope": "helper-surface",
@@ -58216,8 +58657,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 519,
-      "body_chars": 4260
+      "body_words": 509,
+      "body_chars": 4197
     },
     {
       "scope": "helper-surface",
@@ -58238,7 +58679,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 699,
-      "body_chars": 5938
+      "body_chars": 5945
     },
     {
       "scope": "helper-surface",
@@ -58258,8 +58699,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 741,
-      "body_chars": 6250
+      "body_words": 737,
+      "body_chars": 6233
     },
     {
       "scope": "helper-surface",
@@ -58279,8 +58720,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 616,
-      "body_chars": 5055
+      "body_words": 612,
+      "body_chars": 5057
     },
     {
       "scope": "helper-surface",
@@ -58300,8 +58741,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 459,
-      "body_chars": 3742
+      "body_words": 445,
+      "body_chars": 3671
     },
     {
       "scope": "helper-surface",
@@ -58321,8 +58762,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 568,
-      "body_chars": 4666
+      "body_words": 556,
+      "body_chars": 4622
     },
     {
       "scope": "helper-surface",
@@ -58342,8 +58783,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 586,
-      "body_chars": 4867
+      "body_words": 594,
+      "body_chars": 5066
     },
     {
       "scope": "helper-surface",
@@ -58363,8 +58804,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 675,
-      "body_chars": 5469
+      "body_words": 673,
+      "body_chars": 5487
     },
     {
       "scope": "helper-surface",
@@ -58384,8 +58825,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 653,
-      "body_chars": 5354
+      "body_words": 651,
+      "body_chars": 5423
     },
     {
       "scope": "helper-surface",
@@ -58406,7 +58847,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 785,
-      "body_chars": 6482
+      "body_chars": 6544
     },
     {
       "scope": "helper-surface",
@@ -58426,8 +58867,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1124,
-      "body_chars": 8241
+      "body_words": 1128,
+      "body_chars": 8299
     },
     {
       "scope": "helper-surface",
@@ -58448,7 +58889,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 915,
-      "body_chars": 7543
+      "body_chars": 7581
     },
     {
       "scope": "helper-surface",
@@ -58468,8 +58909,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 885,
-      "body_chars": 7261
+      "body_words": 887,
+      "body_chars": 7294
     },
     {
       "scope": "helper-surface",
@@ -58489,8 +58930,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1105,
-      "body_chars": 8805
+      "body_words": 1111,
+      "body_chars": 8917
     },
     {
       "scope": "helper-surface",
@@ -58510,8 +58951,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1175,
-      "body_chars": 9352
+      "body_words": 1187,
+      "body_chars": 9495
     },
     {
       "scope": "helper-surface",
@@ -58531,8 +58972,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1182,
-      "body_chars": 9263
+      "body_words": 1189,
+      "body_chars": 9378
     },
     {
       "scope": "helper-surface",
@@ -58552,8 +58993,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1024,
-      "body_chars": 8122
+      "body_words": 1081,
+      "body_chars": 8646
     },
     {
       "scope": "helper-surface",
@@ -58573,8 +59014,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 959,
-      "body_chars": 7379
+      "body_words": 996,
+      "body_chars": 7711
     },
     {
       "scope": "helper-surface",
@@ -58595,7 +59036,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 536,
-      "body_chars": 4671
+      "body_chars": 4659
     },
     {
       "scope": "helper-surface",
@@ -58604,8 +59045,8 @@
       "rel_path": "channel-index-misc.md",
       "file_name": "channel-index-misc.md",
       "kind": "(none)",
-      "body_profile": "full-transcript-body",
-      "title": "Statecraft Archive - YouTube Channel Index (Miscellaneous)",
+      "body_profile": "short-body",
+      "title": "Channel index \u2014 miscellaneous (relocated)",
       "thread": "",
       "host": "",
       "guest": "",
@@ -58615,8 +59056,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 232,
-      "body_chars": 2406
+      "body_words": 12,
+      "body_chars": 143
     },
     {
       "scope": "helper-surface",
@@ -58625,8 +59066,8 @@
       "rel_path": "channel-index.md",
       "file_name": "channel-index.md",
       "kind": "(none)",
-      "body_profile": "full-transcript-body",
-      "title": "Statecraft Archive - YouTube Channel Index",
+      "body_profile": "short-body",
+      "title": "Channel index (relocated)",
       "thread": "",
       "host": "",
       "guest": "",
@@ -58636,8 +59077,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 387,
-      "body_chars": 3777
+      "body_words": 29,
+      "body_chars": 308
     },
     {
       "scope": "helper-surface",
@@ -58699,8 +59140,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 2033,
-      "body_chars": 19294
+      "body_words": 2037,
+      "body_chars": 19332
     },
     {
       "scope": "helper-surface",
@@ -58720,8 +59161,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1277,
-      "body_chars": 10562
+      "body_words": 1432,
+      "body_chars": 11845
     },
     {
       "scope": "helper-surface",
@@ -58762,23 +59203,23 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 183,
-      "body_chars": 1767
+      "body_words": 187,
+      "body_chars": 1815
     }
   ],
   "summary": {
-    "canonical_count": 2762,
+    "canonical_count": 2783,
     "aired_pending_count": 1,
     "helper_count": 35,
     "canonical_kind_counts": {
-      "(none)": 1057,
-      "transcript": 1063,
+      "(none)": 1059,
+      "transcript": 1067,
       "institutional-primary": 3,
       "youtube": 49,
       "operator-transcript": 76,
-      "cleaned-transcript": 321,
+      "cleaned-transcript": 334,
       "youtube-transcript": 11,
-      "substack-post": 135,
+      "substack-post": 137,
       "paste-bundle": 31,
       "article": 6,
       "verbatim-sidecar": 3,
@@ -58788,10 +59229,10 @@
       "speaker-labeled-transcript": 1
     },
     "canonical_transcript_profile_counts": {
-      "full-transcript-body": 840,
+      "full-transcript-body": 845,
       "short-body": 199,
       "missing-body": 2,
-      "pointer-only": 22
+      "pointer-only": 21
     }
   }
 }
