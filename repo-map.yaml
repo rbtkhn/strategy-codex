@@ -1,6 +1,7 @@
 version: 1
 updated_at: '2026-06-26'
-purpose: Machine-readable routing hints for LLM and tool navigation. Not an authority surface.
+purpose: Machine-readable routing hints for LLM and tool navigation. Not an authority
+  surface.
 routes:
 - id: llm-routing
   title: LLM routing map
@@ -659,19 +660,19 @@ routes:
   - alkorshid-profile
   - nima profile compat
   category: work
-- id: barnes-source-index
-  title: Barnes source index
-  path: statecraft/voices/barnes/barnes-source-index.md
+- id: barnes-index
+  title: Barnes index
+  path: statecraft/voices/barnes/barnes-index.md
   kind: source_index
   authority: work_only
-  domain:
+  domain: &id001
   - statecraft
   - civ_lens
   - analyst_corpus
-  people:
+  people: &id002
   - Robert Barnes
   - Barnes
-  hosts:
+  hosts: &id003
   - Daniel Davis
   - The Duran
   - Alexander Mercouris
@@ -679,7 +680,7 @@ routes:
   - Nima
   - Mario Nawfal
   - Judge Andrew Napolitano
-  tags:
+  tags: &id004
   - barnes
   - robert-barnes
   - source-index
@@ -693,12 +694,29 @@ routes:
   - Daniel Davis Barnes
   - Mercouris Barnes
   category: work
-- id: crooke-source-index
-  title: Crooke source index
-  path: statecraft/voices/crooke/crooke-source-index.md
+- id: barnes-source-index
+  title: Barnes source index (compat redirect)
+  path: statecraft/voices/barnes/barnes-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  domain: *id001
+  people: *id002
+  hosts: *id003
+  tags: *id004
+  search_hints:
+  - Barnes index
+  - barnes source index
+  - Robert Barnes corpus
+  - Daniel Davis Barnes
+  - Mercouris Barnes
+  - barnes source index compat
+  category: work
+- id: crooke-index
+  title: Crooke index
+  path: statecraft/voices/crooke/crooke-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id005
   - crooke
   - source-index
   - statecraft
@@ -706,6 +724,17 @@ routes:
   search_hints:
   - Crooke index
   - crooke source index
+  category: work
+- id: crooke-source-index
+  title: Crooke source index (compat redirect)
+  path: statecraft/voices/crooke/crooke-source-index.md
+  kind: source_index
+  authority: work_only
+  tags: *id005
+  search_hints:
+  - Crooke index
+  - crooke source index
+  - crooke source index compat
   category: work
 - id: diesen-index
   title: Diesen index (guest)
@@ -735,12 +764,12 @@ routes:
   - Diesen index
   - diesen source index
   category: work
-- id: freeman-source-index
-  title: Freeman source index
-  path: statecraft/voices/freeman/freeman-source-index.md
+- id: freeman-index
+  title: Freeman index
+  path: statecraft/voices/freeman/freeman-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: &id006
   - freeman
   - source-index
   - statecraft
@@ -749,12 +778,23 @@ routes:
   - Freeman index
   - freeman source index
   category: work
-- id: hoh-source-index
-  title: Hoh source index
-  path: statecraft/voices/hoh/hoh-source-index.md
+- id: freeman-source-index
+  title: Freeman source index (compat redirect)
+  path: statecraft/voices/freeman/freeman-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id006
+  search_hints:
+  - Freeman index
+  - freeman source index
+  - freeman source index compat
+  category: work
+- id: hoh-index
+  title: Hoh index
+  path: statecraft/voices/hoh/hoh-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id007
   - hoh
   - source-index
   - statecraft
@@ -763,12 +803,23 @@ routes:
   - Hoh index
   - hoh source index
   category: work
-- id: jiang-source-index
-  title: Jiang source index
-  path: statecraft/voices/jiang/jiang-source-index.md
+- id: hoh-source-index
+  title: Hoh source index (compat redirect)
+  path: statecraft/voices/hoh/hoh-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id007
+  search_hints:
+  - Hoh index
+  - hoh source index
+  - hoh source index compat
+  category: work
+- id: jiang-index
+  title: Jiang index
+  path: statecraft/voices/jiang/jiang-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id008
   - jiang
   - source-index
   - statecraft
@@ -777,12 +828,23 @@ routes:
   - Jiang index
   - jiang source index
   category: work
-- id: johnson-source-index
-  title: Johnson source index
-  path: statecraft/voices/johnson/johnson-source-index.md
+- id: jiang-source-index
+  title: Jiang source index (compat redirect)
+  path: statecraft/voices/jiang/jiang-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id008
+  search_hints:
+  - Jiang index
+  - jiang source index
+  - jiang source index compat
+  category: work
+- id: johnson-index
+  title: Johnson index
+  path: statecraft/voices/johnson/johnson-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id009
   - johnson
   - source-index
   - statecraft
@@ -791,12 +853,23 @@ routes:
   - Johnson index
   - johnson source index
   category: work
-- id: kent-source-index
-  title: Kent source index
-  path: statecraft/voices/kent/kent-source-index.md
+- id: johnson-source-index
+  title: Johnson source index (compat redirect)
+  path: statecraft/voices/johnson/johnson-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id009
+  search_hints:
+  - Johnson index
+  - johnson source index
+  - johnson source index compat
+  category: work
+- id: kent-index
+  title: Kent index
+  path: statecraft/voices/kent/kent-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id010
   - kent
   - source-index
   - statecraft
@@ -805,12 +878,23 @@ routes:
   - Kent index
   - kent source index
   category: work
-- id: macgregor-source-index
-  title: Macgregor source index
-  path: statecraft/voices/macgregor/macgregor-source-index.md
+- id: kent-source-index
+  title: Kent source index (compat redirect)
+  path: statecraft/voices/kent/kent-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id010
+  search_hints:
+  - Kent index
+  - kent source index
+  - kent source index compat
+  category: work
+- id: macgregor-index
+  title: Macgregor index
+  path: statecraft/voices/macgregor/macgregor-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id011
   - macgregor
   - source-index
   - statecraft
@@ -819,12 +903,23 @@ routes:
   - Macgregor index
   - macgregor source index
   category: work
-- id: marandi-source-index
-  title: Marandi source index
-  path: statecraft/voices/marandi/marandi-source-index.md
+- id: macgregor-source-index
+  title: Macgregor source index (compat redirect)
+  path: statecraft/voices/macgregor/macgregor-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id011
+  search_hints:
+  - Macgregor index
+  - macgregor source index
+  - macgregor source index compat
+  category: work
+- id: marandi-index
+  title: Marandi index
+  path: statecraft/voices/marandi/marandi-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id012
   - marandi
   - source-index
   - statecraft
@@ -833,12 +928,23 @@ routes:
   - Marandi index
   - marandi source index
   category: work
-- id: martyanov-source-index
-  title: Martyanov source index
-  path: statecraft/voices/martyanov/martyanov-source-index.md
+- id: marandi-source-index
+  title: Marandi source index (compat redirect)
+  path: statecraft/voices/marandi/marandi-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id012
+  search_hints:
+  - Marandi index
+  - marandi source index
+  - marandi source index compat
+  category: work
+- id: martyanov-index
+  title: Martyanov index
+  path: statecraft/voices/martyanov/martyanov-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id013
   - martyanov
   - source-index
   - statecraft
@@ -847,26 +953,49 @@ routes:
   - Martyanov index
   - martyanov source index
   category: work
-- id: mcgovern-source-index
-  title: McGovern source index
-  path: statecraft/voices/mcgovern/mcgovern-source-index.md
+- id: martyanov-source-index
+  title: Martyanov source index (compat redirect)
+  path: statecraft/voices/martyanov/martyanov-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id013
+  search_hints:
+  - Martyanov index
+  - martyanov source index
+  - martyanov source index compat
+  category: work
+- id: mcgovern-index
+  title: McGovern index
+  path: statecraft/voices/mcgovern/mcgovern-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id014
   - mcgovern
   - source-index
   - statecraft
   - voices
   search_hints:
+  - Mcgovern index
   - McGovern index
   - mcgovern source index
   category: work
-- id: mearsheimer-source-index
-  title: Mearsheimer source index
-  path: statecraft/voices/mearsheimer/mearsheimer-source-index.md
+- id: mcgovern-source-index
+  title: McGovern source index (compat redirect)
+  path: statecraft/voices/mcgovern/mcgovern-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id014
+  search_hints:
+  - McGovern index
+  - mcgovern source index
+  - mcgovern source index compat
+  category: work
+- id: mearsheimer-index
+  title: Mearsheimer index
+  path: statecraft/voices/mearsheimer/mearsheimer-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id015
   - mearsheimer
   - source-index
   - statecraft
@@ -874,6 +1003,17 @@ routes:
   search_hints:
   - Mearsheimer index
   - mearsheimer source index
+  category: work
+- id: mearsheimer-source-index
+  title: Mearsheimer source index (compat redirect)
+  path: statecraft/voices/mearsheimer/mearsheimer-source-index.md
+  kind: source_index
+  authority: work_only
+  tags: *id015
+  search_hints:
+  - Mearsheimer index
+  - mearsheimer source index
+  - mearsheimer source index compat
   category: work
 - id: mercouris-index
   title: Mercouris index (guest)
@@ -934,12 +1074,12 @@ routes:
   search_hints:
   - Pape source index compat
   category: work
-- id: parsi-source-index
-  title: Parsi source index
-  path: statecraft/voices/parsi/parsi-source-index.md
+- id: parsi-index
+  title: Parsi index
+  path: statecraft/voices/parsi/parsi-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: &id016
   - parsi
   - source-index
   - statecraft
@@ -948,12 +1088,23 @@ routes:
   - Parsi index
   - parsi source index
   category: work
-- id: postol-source-index
-  title: Postol source index
-  path: statecraft/voices/postol/postol-source-index.md
+- id: parsi-source-index
+  title: Parsi source index (compat redirect)
+  path: statecraft/voices/parsi/parsi-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id016
+  search_hints:
+  - Parsi index
+  - parsi source index
+  - parsi source index compat
+  category: work
+- id: postol-index
+  title: Postol index
+  path: statecraft/voices/postol/postol-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id017
   - postol
   - source-index
   - statecraft
@@ -962,12 +1113,23 @@ routes:
   - Postol index
   - postol source index
   category: work
-- id: ritter-source-index
-  title: Ritter source index
-  path: statecraft/voices/ritter/ritter-source-index.md
+- id: postol-source-index
+  title: Postol source index (compat redirect)
+  path: statecraft/voices/postol/postol-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id017
+  search_hints:
+  - Postol index
+  - postol source index
+  - postol source index compat
+  category: work
+- id: ritter-index
+  title: Ritter index
+  path: statecraft/voices/ritter/ritter-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id018
   - ritter
   - source-index
   - statecraft
@@ -976,12 +1138,23 @@ routes:
   - Ritter index
   - ritter source index
   category: work
-- id: sachs-source-index
-  title: Sachs source index
-  path: statecraft/voices/sachs/sachs-source-index.md
+- id: ritter-source-index
+  title: Ritter source index (compat redirect)
+  path: statecraft/voices/ritter/ritter-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id018
+  search_hints:
+  - Ritter index
+  - ritter source index
+  - ritter source index compat
+  category: work
+- id: sachs-index
+  title: Sachs index
+  path: statecraft/voices/sachs/sachs-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id019
   - sachs
   - source-index
   - statecraft
@@ -990,12 +1163,23 @@ routes:
   - Sachs index
   - sachs source index
   category: work
-- id: wilkerson-source-index
-  title: Wilkerson source index
-  path: statecraft/voices/wilkerson/wilkerson-source-index.md
+- id: sachs-source-index
+  title: Sachs source index (compat redirect)
+  path: statecraft/voices/sachs/sachs-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id019
+  search_hints:
+  - Sachs index
+  - sachs source index
+  - sachs source index compat
+  category: work
+- id: wilkerson-index
+  title: Wilkerson index
+  path: statecraft/voices/wilkerson/wilkerson-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id020
   - wilkerson
   - source-index
   - statecraft
@@ -1004,12 +1188,23 @@ routes:
   - Wilkerson index
   - wilkerson source index
   category: work
-- id: weichert-source-index
-  title: Weichert source index
-  path: statecraft/voices/weichert/weichert-source-index.md
+- id: wilkerson-source-index
+  title: Wilkerson source index (compat redirect)
+  path: statecraft/voices/wilkerson/wilkerson-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id020
+  search_hints:
+  - Wilkerson index
+  - wilkerson source index
+  - wilkerson source index compat
+  category: work
+- id: weichert-index
+  title: Weichert index
+  path: statecraft/voices/weichert/weichert-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id021
   - weichert
   - source-index
   - statecraft
@@ -1020,12 +1215,24 @@ routes:
   - weichert source index
   - Nawfal Weichert
   category: work
-- id: helmer-source-index
-  title: Helmer source index
-  path: statecraft/voices/helmer/helmer-source-index.md
+- id: weichert-source-index
+  title: Weichert source index (compat redirect)
+  path: statecraft/voices/weichert/weichert-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id021
+  search_hints:
+  - Weichert index
+  - weichert source index
+  - Nawfal Weichert
+  - weichert source index compat
+  category: work
+- id: helmer-index
+  title: Helmer index
+  path: statecraft/voices/helmer/helmer-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id022
   - helmer
   - source-index
   - statecraft
@@ -1034,12 +1241,23 @@ routes:
   - Helmer index
   - helmer source index
   category: work
-- id: karaganov-source-index
-  title: Karaganov source index
-  path: statecraft/voices/karaganov/karaganov-source-index.md
+- id: helmer-source-index
+  title: Helmer source index (compat redirect)
+  path: statecraft/voices/helmer/helmer-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id022
+  search_hints:
+  - Helmer index
+  - helmer source index
+  - helmer source index compat
+  category: work
+- id: karaganov-index
+  title: Karaganov index
+  path: statecraft/voices/karaganov/karaganov-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id023
   - karaganov
   - source-index
   - statecraft
@@ -1047,6 +1265,17 @@ routes:
   search_hints:
   - Karaganov index
   - karaganov source index
+  category: work
+- id: karaganov-source-index
+  title: Karaganov source index (compat redirect)
+  path: statecraft/voices/karaganov/karaganov-source-index.md
+  kind: source_index
+  authority: work_only
+  tags: *id023
+  search_hints:
+  - Karaganov index
+  - karaganov source index
+  - karaganov source index compat
   category: work
 - id: reason-resist-channel-index
   title: Reason to Resist channel index
@@ -1650,12 +1879,12 @@ routes:
   search_hints:
   - Blumenthal source index compat
   category: work
-- id: jermy-source-index
-  title: Jermy source index
-  path: statecraft/voices/jermy/jermy-source-index.md
+- id: jermy-index
+  title: Jermy index
+  path: statecraft/voices/jermy/jermy-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: &id024
   - jermy
   - source-index
   - statecraft
@@ -1664,12 +1893,23 @@ routes:
   - Jermy index
   - jermy source index
   category: work
-- id: krapivnik-source-index
-  title: Krapivnik source index
-  path: statecraft/voices/krapivnik/krapivnik-source-index.md
+- id: jermy-source-index
+  title: Jermy source index (compat redirect)
+  path: statecraft/voices/jermy/jermy-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id024
+  search_hints:
+  - Jermy index
+  - jermy source index
+  - jermy source index compat
+  category: work
+- id: krapivnik-index
+  title: Krapivnik index
+  path: statecraft/voices/krapivnik/krapivnik-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id025
   - krapivnik
   - source-index
   - statecraft
@@ -1678,12 +1918,23 @@ routes:
   - Krapivnik index
   - krapivnik source index
   category: work
-- id: lascaris-source-index
-  title: Lascaris source index
-  path: statecraft/voices/lascaris/lascaris-source-index.md
+- id: krapivnik-source-index
+  title: Krapivnik source index (compat redirect)
+  path: statecraft/voices/krapivnik/krapivnik-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id025
+  search_hints:
+  - Krapivnik index
+  - krapivnik source index
+  - krapivnik source index compat
+  category: work
+- id: lascaris-index
+  title: Lascaris index
+  path: statecraft/voices/lascaris/lascaris-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id026
   - lascaris
   - source-index
   - statecraft
@@ -1692,17 +1943,40 @@ routes:
   - Lascaris index
   - lascaris source index
   category: work
-- id: mate-source-index
-  title: Maté source index
-  path: statecraft/voices/mate/mate-source-index.md
+- id: lascaris-source-index
+  title: Lascaris source index (compat redirect)
+  path: statecraft/voices/lascaris/lascaris-source-index.md
   kind: source_index
   authority: work_only
-  tags:
+  tags: *id026
+  search_hints:
+  - Lascaris index
+  - lascaris source index
+  - lascaris source index compat
+  category: work
+- id: mate-index
+  title: Maté index
+  path: statecraft/voices/mate/mate-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id027
   - mate
   - source-index
   - statecraft
   - voices
   search_hints:
+  - Mate index
   - Maté index
   - mate source index
+  category: work
+- id: mate-source-index
+  title: Maté source index (compat redirect)
+  path: statecraft/voices/mate/mate-source-index.md
+  kind: source_index
+  authority: work_only
+  tags: *id027
+  search_hints:
+  - Maté index
+  - mate source index
+  - mate source index compat
   category: work
