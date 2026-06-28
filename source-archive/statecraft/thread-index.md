@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 ## Stats
 
 - Distinct threads: `80`
-- Thread-linked source files: `2726`
+- Thread-linked source files: `2727`
 - Covered days: `474`
 - Covered months: `22`
 
@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `diesen` | 228 | 182 | 21 | `Glenn Diesen` (177), `Diesen` (11), `Diesen (Greater Eurasia)` (9) | `Glenn Diesen` (192), `Diesen` (25), `Daniel Davis` (1) | `2023-01-14` | `2026-06-25` |
 | `alkorshid` | 225 | 147 | 16 | `Dialogue Works` (201) | `Nima Alkhorshid` (203), `Daniel Davis` (1) | `2025-01-04` | `2026-06-25` |
 | `freeman` | 149 | 137 | 18 | `Dialogue Works` (50), `Judging Freedom` (44), `Glenn Diesen` (24) | `Nima Alkhorshid` (51), `Andrew Napolitano` (46), `Glenn Diesen` (24) | `2025-01-07` | `2026-06-26` |
-| `johnson` | 110 | 90 | 16 | `Dialogue Works` (52), `Daniel Davis Deep Dive` (15), `Glenn Diesen` (10) | `Nima Alkhorshid` (53), `Daniel Davis` (15), `Andrew Napolitano` (11) | `2025-01-04` | `2026-06-26` |
+| `johnson` | 111 | 91 | 16 | `Dialogue Works` (53), `Daniel Davis Deep Dive` (15), `Glenn Diesen` (10) | `Nima Alkhorshid` (53), `Daniel Davis` (15), `Andrew Napolitano` (11) | `2025-01-04` | `2026-06-27` |
 | `ritter` | 100 | 85 | 16 | `Dialogue Works` (19), `Glenn Diesen` (14), `Daniel Davis Deep Dive` (10) | `Nima Alkhorshid` (24), `Glenn Diesen` (14), `Daniel Davis` (10) | `2025-01-05` | `2026-06-23` |
 | `mearsheimer` | 96 | 89 | 18 | `Judging Freedom` (25), `Daniel Davis Deep Dive` (20), `Daniel Davis` (7) | `Andrew Napolitano` (31), `Daniel Davis` (26), `Glenn Diesen` (14) | `2025-01-17` | `2026-06-25` |
 | `wilkerson` | 94 | 92 | 17 | `Dialogue Works` (45), `Judging Freedom` (18), `Glenn Diesen` (13) | `Nima Alkhorshid` (49), `Andrew Napolitano` (21), `Glenn Diesen` (13) | `2025-01-04` | `2026-06-12` |

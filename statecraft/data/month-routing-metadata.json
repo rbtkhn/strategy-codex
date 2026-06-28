@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T11:25:35+00:00",
+  "generated_at": "2026-06-28T11:49:29+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -844,7 +844,7 @@
     },
     "2026-06": {
       "captured_days": 27,
-      "source_count": 291,
+      "source_count": 292,
       "thread_count": 60,
       "channel_or_show_count": 23,
       "host_count": 24,
@@ -881,7 +881,7 @@
           "labels": [
             {
               "label": "Larry Johnson",
-              "count": 27
+              "count": 28
             },
             {
               "label": "Larry C. Johnson",
