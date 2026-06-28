@@ -32,6 +32,9 @@ jobs:
       - name: LLM-ROUTING generator drift
         run: python3 scripts/generate_llm_routing.py --check
 
+      - name: Statecraft notes registry drift
+        run: python3 scripts/reindex_notes.py --check
+
       - name: Repo path adoption (zero literals)
         run: python3 scripts/check_repo_path_adoption.py --max-literals 0
 

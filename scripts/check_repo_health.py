@@ -47,6 +47,7 @@ def run_quick() -> int:
             ],
             "statecraft notes gate (changed Tier A)",
         ),
+        (["python3", "scripts/reindex_notes.py", "--check"], "statecraft notes registry drift"),
     ]
     rc = 0
     for cmd, label in checks:
