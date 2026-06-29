@@ -9,13 +9,15 @@ record_status: frozen
 > **Canonical human entry point (SSOT).**
 > If you are unsure where to begin, start here.
 
-**Work only; not Record.** Governance law: [AGENTS.md](../AGENTS.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md). Grace-Mar archive doctrine: [docs/archive/grace-mar.md](archive/grace-mar.md).
+**Work only; not Record.** Governance law: [AGENTS.md](../AGENTS.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md).
+
+Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 
 ---
 
 ## What this repo is
 
-Canonical definition: [product-identity.md](product-identity.md). **Default path:** **C** (operator). Record under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is **frozen** ([docs/archive/grace-mar.md](archive/grace-mar.md)); [museum `self-library.md`](../archive/grace-mar-instance/self-library.md) stays active for reference; [`memory.md`](../memory.md) is session continuity — not Record.
+Canonical definition: [product-identity.md](product-identity.md). **Default path:** **C** (operator).
 
 **Namespace (voices / states / hosts):** [routing-reference.md](routing-reference.md) · `statecraft/voices/` · `statecraft/states/` · `statecraft/channels/`
 

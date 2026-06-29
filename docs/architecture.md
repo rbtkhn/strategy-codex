@@ -2,13 +2,11 @@
 
 **Work only; not Record.**
 
-This document describes the **active** system design for **strategy-codex**. Legacy Grace-Mar instance architecture is archived — [`archive/grace-mar-corpus/doctrine/architecture.md`](../archive/grace-mar-corpus/doctrine/architecture.md) · fork pointer [`docs/archive/grace-mar.md`](archive/grace-mar.md).
+Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 
 ## What the system is
 
 **strategy-codex** is a **governed interpretive machine**: verbatim sources land in archive; bounded synthesis and judgment objects carry operator work under **statecraft** and **singularity**. It is an **intelligence harness** around frontier models — not a substitute for them. See [`product-identity.md`](product-identity.md) and [`essays/from-accumulation-to-governed-interpretive-machine.md`](../essays/from-accumulation-to-governed-interpretive-machine.md).
-
-Growing a personal interpretive machine (Grace-Mar Record) is **not** a system objective. The Record bundle under [`archive/grace-mar-instance/`](../archive/grace-mar-instance/) is a **frozen sidecar** for archaeology and explicit **`fork revive`** only.
 
 ## Operator channels
 
@@ -98,7 +96,7 @@ For **model vs harness**, membranes, queues, AFK, and channel routing, read [`ha
 | removed operator-books symlink reference | `archive/grace-mar-instance/self-library.md` | Active **reference** routing |
 | Session continuity | `memory.md` | WORK only — not Record |
 
-Full fork doctrine: [`docs/archive/grace-mar.md`](archive/grace-mar.md).
+Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 
 ## External boundaries
 

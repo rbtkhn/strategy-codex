@@ -2,16 +2,15 @@
 
 This repository is **strategy-codex** — a **governed interpretive machine** for statecraft and singularity operator work. External contributions are welcome for **code and docs**.
 
-The embedded Grace-Mar **Record** under [`archive/grace-mar-instance/`](archive/grace-mar-instance/) is **frozen archaeology**; merges run only on explicit **`fork revive`**. See [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) and [`grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](docs/archive/grace-mar.md).
 
 **Filename conventions:** [docs/naming-convention.md](docs/naming-convention.md) (lowercase docs, reserved `AGENTS.md`, OpenClaw export path).
 
 ## Before you start
 
 1. Read [docs/start-here.md](docs/start-here.md) and [AGENTS.md](AGENTS.md) — slim always-on contract; extended rules in [docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md).
-2. Legacy fork doctrine (archived): [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md).
-3. Canonical on-disk paths: [docs/canonical-paths.md](docs/canonical-paths.md).
-4. **Public-facing tone:** [docs/contributing-public-copy.md](docs/contributing-public-copy.md).
+2. Canonical on-disk paths: [docs/canonical-paths.md](docs/canonical-paths.md).
+3. **Public-facing tone:** [docs/contributing-public-copy.md](docs/contributing-public-copy.md).
 
 ## Choose your change type
 

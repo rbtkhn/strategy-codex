@@ -32,8 +32,6 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **Deeper read:** [docs/intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md)
 
-**Grace-Mar fork (frozen archaeology):** Not a system objective. Record under [`archive/grace-mar-instance/`](archive/grace-mar-instance/). **Canonical archive doctrine:** [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · boundary [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md) · CLI [`docs/archive/grace-mar-compatibility.md`](docs/archive/grace-mar-compatibility.md).
-
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
 **New here?** [docs/start-here.md](docs/start-here.md) · [Essays](essays/README.md).
@@ -48,7 +46,9 @@ This repository has **three canonical entry points**:
 
 All other navigation surfaces are secondary and should not be treated as entry points.
 
-**OB1 / legacy Grace-Mar onboarding:** [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md)
+Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](docs/archive/grace-mar.md).
+
+**OB1 / legacy fork onboarding:** [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md)
 
 ## Essays index — cross-channel theses {#essays-index}
 
@@ -72,8 +72,6 @@ Model-portable harness (not a single-vendor stack): [docs/intelligence-harness.m
 
 **Active objective:** Operate a governed interpretive machine — [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/synthesis/day/](statecraft/synthesis/METHOD.md) → [statecraft/](statecraft/README.md) lane objects under **statecraft** and **singularity** channels. Cross-channel theses: [essays/](essays/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
 
-**Frozen legacy:** The Grace-Mar interpretive machine (SELF, EVIDENCE, recursion-gate) and Voice bots remain for archaeology and explicit **`fork revive`** only. `self-library.md` / CIV-MEM stay active as **reference** for statecraft retrieval. [`memory.md`](memory.md) is WORK continuity, not Record.
-
 ## Architecture
 
 **System map (mermaid), promotion ladder, and operator ship loop:** [docs/start-here.md](docs/start-here.md) — do not duplicate here.
@@ -82,17 +80,11 @@ Model-portable harness (not a single-vendor stack): [docs/intelligence-harness.m
 
 **Promotion is governed, not ambient.** No artifact becomes more authoritative merely because it was summarized, reused, exported, or generated. Membrane SSOT: [docs/work-membrane-v2.md](docs/work-membrane-v2.md).
 
-**Frozen Grace-Mar Record (fork revive only):** [docs/archive/grace-mar.md](docs/archive/grace-mar.md) · [docs/canonical-paths.md](docs/canonical-paths.md) · extended rules: [docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md)
-
-## Grace-Mar fork archaeology (not default operator work)
-
-Gated pipeline, Record bundle, Voice hosts, portability, export/attestation, and fork-era doc index: **[docs/archive/grace-mar.md](docs/archive/grace-mar.md)** · **[docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md)**.
-
 **Repo layout:** [docs/root-directory-map.md](docs/root-directory-map.md) · **Paths:** [docs/canonical-paths.md](docs/canonical-paths.md) · **Export CLI:** [docs/EXPORT-CLI.md](docs/EXPORT-CLI.md) · **Contribute:** [contributing.md](contributing.md)
 
 ## Quick Start — strategy-codex operator
 
-1. Read [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
+1. Read [docs/start-here.md](docs/start-here.md).
 2. Run **`coffee`** in Cursor — default user `strategy-codex`; Steward **A** favors boundary/git, not gate.
 3. Statecraft front door: [statecraft/README.md](statecraft/README.md). Daily synthesis: [statecraft/synthesis/METHOD.md](statecraft/synthesis/METHOD.md).
 
@@ -103,15 +95,15 @@ python3 scripts/check_repo_health.py --quick
 
 ## Developer preflight
 
-Local tests and CI-shaped checks: [contributing.md](contributing.md) · [docs/perf-budgets.md](docs/perf-budgets.md) · [docs/cmc-routing.md](docs/cmc-routing.md) · legacy Record validation (fork revive): [docs/archive/grace-mar.md](docs/archive/grace-mar.md)
+Local tests and CI-shaped checks: [contributing.md](contributing.md) · [docs/perf-budgets.md](docs/perf-budgets.md) · [docs/cmc-routing.md](docs/cmc-routing.md)
 
 ## For AI coding assistants
 
-Read [AGENTS.md](AGENTS.md) and [docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md). Default work: **statecraft** / **singularity** WORK — not fork growth unless the operator explicitly revives the Record lane.
+Read [AGENTS.md](AGENTS.md) and [docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md). Default work: **statecraft** / **singularity** WORK.
 
 ## Credits
 
-The ideas behind Grace-Mar draw on the work of: Alexander Wissner-Gross (causal entropic forces), Peter Diamandis (abundance), Nick Bostrom (superintelligence), Ray Kurzweil (singularity), Brian Roemmele (multimodal AI), Scott Adams (systems thinking), Julian Jaynes (bicameral mind), and Satoshi Nakamoto (decentralized trust).
+The ideas behind this project draw on the work of: Alexander Wissner-Gross (causal entropic forces), Peter Diamandis (abundance), Nick Bostrom (superintelligence), Ray Kurzweil (singularity), Brian Roemmele (multimodal AI), Scott Adams (systems thinking), Julian Jaynes (bicameral mind), and Satoshi Nakamoto (decentralized trust).
 
 ## License
 

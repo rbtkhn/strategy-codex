@@ -12,11 +12,11 @@ This file is the **always-on contract** for coding assistants in **strategy-code
 
 **Active repo:** `strategy-codex` — a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)): source archive → synthesis → notes → essays. **Not** default fork growth.
 
-**Grace-Mar Record:** frozen under [`archive/grace-mar-instance/`](archive/grace-mar-instance/). Doctrine: [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · boundary [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](docs/archive/grace-mar.md).
 
 **Default operator channel:** [`statecraft/`](statecraft/README.md) unless the operator names **singularity**, **work-dev**, or another territory. Two primary channels: [`docs/operator-two-channel-architecture.md`](docs/operator-two-channel-architecture.md).
 
-**Do not** route live work through `companion-self` template sync or Grace-Mar-vs-template reconciliation unless the operator explicitly invokes **`fork revive`** / archive lane.
+**Do not** route live work through `companion-self` template sync or fork-vs-template reconciliation unless the operator explicitly invokes **`fork revive`** / archive lane.
 
 ## System design (read order)
 
