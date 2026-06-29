@@ -190,15 +190,21 @@ def main() -> None:
         all_occurrences=True,
     )
     record(
-        "statecraft/voices/map/open-first-routes.md",
+        "statecraft/voices/speaker-routing-doctrine.md",
         "../../../../notes/",
-        "../../notes/",
+        "../notes/",
         all_occurrences=True,
     )
     record(
-        "statecraft/voices/map/open-first-routes.md",
+        "statecraft/voices/speaker-routing-doctrine.md",
         "../../../notes/",
+        "../notes/",
+        all_occurrences=True,
+    )
+    record(
+        "statecraft/voices/speaker-routing-doctrine.md",
         "../../notes/",
+        "../notes/",
         all_occurrences=True,
     )
     record(

@@ -160,6 +160,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | sachs-source-index | source_index | work | [statecraft/voices/sachs/sachs-source-index.md](statecraft/voices/sachs/sachs-source-index.md) | Sachs index, sachs source index, sachs source index compat |
 | source-lattice-doctrine | reading_discipline | work | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) | source lattice, corpus tiers, reading order, … |
 | speaker-cluster-map | routing_aid | work | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | speaker cluster map, satellite speaker, which speaker after Pape, … |
+| speaker-routing-doctrine | routing_aid | work | [statecraft/voices/speaker-routing-doctrine.md](statecraft/voices/speaker-routing-doctrine.md) | speaker routing doctrine, route contract, open-first routes, cross-host index, host map |
 | statecraft-day-source-index | generated_inventory | generated | [source-archive/statecraft/YYYY-MM-DD/day-index.md](source-archive/statecraft/YYYY-MM-DD/day-index.md) | day index, day-index, june 17 day index, … |
 | statecraft-notes-registry | generated_dashboard | generated | [runtime/artifacts/statecraft-notes-registry.md](runtime/artifacts/statecraft-notes-registry.md) | note registry, essay candidate, shelf-native, … |
 | statecraft-source-capture | source_capture | source | [source-archive/statecraft/YYYY-MM-DD/source-*.md](source-archive/statecraft/YYYY-MM-DD/source-*.md) | source capture, verbatim transcript, statecraft source file, … |
@@ -262,6 +263,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [statecraft/channels/](statecraft/channels) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
+| [statecraft/voices/speaker-routing-doctrine.md](statecraft/voices/speaker-routing-doctrine.md) | Route contract, host map, cross-host index, open-first paths | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
 

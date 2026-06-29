@@ -1623,7 +1623,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel == "statecraft/voices/map/open-first-routes.md":
+    if rel == "statecraft/voices/speaker-routing-doctrine.md":
         replacements.extend(
             [
                 (

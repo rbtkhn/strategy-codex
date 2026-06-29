@@ -201,6 +201,23 @@ routes:
   - civ-lens legacy
   - analyst source index
   category: work
+- id: speaker-routing-doctrine
+  title: Speaker routing doctrine
+  path: statecraft/voices/speaker-routing-doctrine.md
+  kind: routing_aid
+  authority: work_only
+  tags:
+  - voices
+  - speaker-routing
+  - route-contract
+  - open-first-routes
+  search_hints:
+  - speaker routing doctrine
+  - speaker map
+  - route contract
+  - open-first routes
+  - cross-host index
+  category: work
 - id: speaker-cluster-map
   title: Speaker cluster map
   path: statecraft/voices/speaker-cluster-map.md
@@ -655,8 +672,8 @@ routes:
   - statecraft
   - voices
   search_hints:
-  - Alkorshid guest index
-  - Nima Alkorshid cross-host
+  - Alkhorshid guest index
+  - Nima Alkhorshid cross-host
   - alkhorshid index
   category: work
 - id: alkhorshid-profile
@@ -668,7 +685,7 @@ routes:
   - statecraft
   - voices
   people:
-  - Nima Alkorshid
+  - Nima Alkhorshid
   tags:
   - alkhorshid
   - nima

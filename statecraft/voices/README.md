@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Disambiguation:** **`voices/`** = analyst registers (interview, essay, social) in WORK — not Grace-Mar **Record Voice** (`bot/prompt.py`).
 
-**Agent dispatch:** For analyst/source-index routing, open [`statecraft/voices/voice-index.md`](voice-index.md) — canonical **voices router** front door (not other repo `INDEX.md` hubs). **Voice index registry (parity dashboard):** [`voice-index-registry.md`](voice-index-registry.md). **Audit:** `python scripts/audit_statecraft_archive_index.py --voice-index` — skill **`audit index`**. **Author/guest voice index:** `{slug}-index.md` + `--shelf-index SLUG`; post-land via `shelf_index_from_capture.py` — [speaker-shelf-vocabulary.md](speaker-shelf-vocabulary.md). For repo-wide LLM routing, open [LLM-ROUTING.md](../../LLM-ROUTING.md).
+**Agent dispatch:** For analyst/source-index routing, open [`statecraft/voices/voice-index.md`](voice-index.md) — canonical **voices router** front door (not other repo `INDEX.md` hubs). **Voice index registry (parity dashboard):** [`voice-index-registry.md`](voice-index-registry.md). **Speaker routing doctrine (route contract, open-first paths):** [`speaker-routing-doctrine.md`](speaker-routing-doctrine.md). **Audit:** `python scripts/audit_statecraft_archive_index.py --voice-index` — skill **`audit index`**. **Author/guest voice index:** `{slug}-index.md` + `--shelf-index SLUG`; post-land via `shelf_index_from_capture.py` — [speaker-shelf-vocabulary.md](speaker-shelf-vocabulary.md). For repo-wide LLM routing, open [LLM-ROUTING.md](../../LLM-ROUTING.md).
 
 Purpose: hold the canonical speaker-state continuity surfaces that feed repo-root `statecraft/`.
 
@@ -381,6 +381,6 @@ Instead:
 - Monthly synthesis shelves (`{speaker}-shelf-YYYY-MM.md`), theme registers (`{speaker}-themes.md`), and thread atlases use **filename grammar**, not `stream/` or `themes/` nesting.
 - **Host×guest and speaker arcs** → canonical bodies in [`statecraft/notes/`](../notes/README.md) (`arc-<primary>-<topic>.md`); shelf paths keep **compat redirects** only.
 - Legacy paths `voices/<speaker>/stream/` and `voices/<speaker>/themes/` are **terminated** — use flat paths only.
-- Root meta under `voices/` (`_scratch/`, `_templates/`, `map/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only. Cross-speaker compare notes belong in [`../notes/`](../notes/).
+- Root meta under `voices/` (`_scratch/`, `_templates/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only. Cross-speaker compare notes belong in [`../notes/`](../notes/). Route contract and open-first paths: [`speaker-routing-doctrine.md`](speaker-routing-doctrine.md).
 
 Migration script: [`scripts/flatten_statecraft_shelves.py`](../../scripts/flatten_statecraft_shelves.py). Validator: [`tests/test_flat_statecraft_shelves.py`](../../tests/test_flat_statecraft_shelves.py).

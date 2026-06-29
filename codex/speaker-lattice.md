@@ -21,7 +21,7 @@ Do not open this surface first when the real question is provenance, raw-input v
 
 This lattice is a front door for speaker identity and recurrence, not the authority for provenance or full speaker meaning.
 
-For the governing route contract once a speaker needs real routing doctrine, open [speaker map](../statecraft/voices/map/README.md).
+For the governing route contract once a speaker needs real routing doctrine, open [speaker routing doctrine](../statecraft/voices/speaker-routing-doctrine.md).
 
 ## Layer Contract
 
@@ -63,7 +63,7 @@ Typical promotion paths:
 - durable host transformation -> host-local speaker arc
 - irregular but accepted appearances -> non-core bench or comparable routed speaker surface
 
-Those promotion paths should follow the governing [speaker-map route contract](../statecraft/voices/map/README.md#route-contract), not local lattice improvisation.
+Those promotion paths should follow the governing [speaker routing route contract](../statecraft/voices/speaker-routing-doctrine.md#route-contract), not local lattice improvisation.
 
 Source anchors for the roster:
 
