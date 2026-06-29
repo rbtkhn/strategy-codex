@@ -60,6 +60,8 @@ DEFAULT_MONTH_YEAR_TABLE_LIMIT = 50
 
 VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 VOICES_META_DIRS = frozenset({"_templates", "_scratch", "map", "relations"})
+# Retired host-only slugs — must not re-enter voice-index parity if a compat folder returns.
+HOST_ONLY_VOICE_SLUGS = frozenset({"lascaris"})
 
 
 @dataclass(frozen=True)
@@ -519,7 +521,7 @@ def discover_voice_primary_indexes(voices_dir: Path | None = None) -> list[tuple
     if not base.is_dir():
         return rows
     for shelf in sorted(base.iterdir()):
-        if not shelf.is_dir() or shelf.name in VOICES_META_DIRS:
+        if not shelf.is_dir() or shelf.name in VOICES_META_DIRS or shelf.name in HOST_ONLY_VOICE_SLUGS:
             continue
         slug = shelf.name
         primary = shelf / f"{slug}-index.md"
@@ -629,7 +631,7 @@ def audit_voice_index(voices_dir: Path | None = None) -> list[AuditFinding]:
     shelves_without_index = []
     if base.is_dir():
         for shelf in sorted(base.iterdir()):
-            if not shelf.is_dir() or shelf.name in VOICES_META_DIRS:
+            if not shelf.is_dir() or shelf.name in VOICES_META_DIRS or shelf.name in HOST_ONLY_VOICE_SLUGS:
                 continue
             if not any(shelf / name for name in (f"{shelf.name}-index.md", f"{shelf.name}-source-index.md")):
                 shelves_without_index.append(shelf.name)

@@ -8,19 +8,19 @@ python3 scripts/build_voice_index_registry.py
 
 Terminology: [`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md).
 
-_Generated at 2026-06-29T04:28:01Z_
+_Generated at 2026-06-29T13:14:47Z_
 
 ## Summary
 
 | Metric | Count |
 | --- | ---: |
-| Voices discovered | 34 |
-| Listed in voices router | 34 |
-| With primary voice index | 34 |
+| Voices discovered | 33 |
+| Listed in voices router | 33 |
+| With primary voice index | 33 |
 | With rebuild script | 24 |
 | Parity pass | 22 |
 | Parity warn | 7 |
-| Parity fail | 5 |
+| Parity fail | 4 |
 | Broken links (total) | 0 |
 | Documented exceptions | 6 |
 
@@ -46,7 +46,6 @@ _Generated at 2026-06-29T04:28:01Z_
 | kent | `statecraft/voices/kent/kent-index.md` | `scripts/build_kent_index.py` | 15 | 15 | pass | support-tier panel rows may appear in index but are not primary guest corpus for parity warnings | canonical |
 | krainer | `statecraft/voices/krainer/krainer-index.md` | `scripts/build_krainer_index.py` | 14 | 14 | pass | — | canonical |
 | krapivnik | `statecraft/voices/krapivnik/krapivnik-index.md` | `scripts/build_krapivnik_index.py` | 10 | 10 | pass | — | canonical |
-| lascaris | `statecraft/voices/lascaris/lascaris-index.md` | — | 6 | 0 | fail | — | canonical |
 | macgregor | `statecraft/voices/macgregor/macgregor-index.md` | `scripts/build_macgregor_index.py` | 90 | 90 | pass | — | canonical |
 | marandi | `statecraft/voices/marandi/marandi-index.md` | `scripts/build_marandi_index.py` | 72 | 72 | pass | — | canonical |
 | martyanov | `statecraft/voices/martyanov/martyanov-index.md` | `scripts/build_martyanov_index.py` | 34 | 34 | pass | — | canonical |

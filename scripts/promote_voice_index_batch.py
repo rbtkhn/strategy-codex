@@ -29,7 +29,6 @@ PROMOTE = [
     "karaganov",
     "kent",
     "krapivnik",
-    "lascaris",
     "macgregor",
     "marandi",
     "martyanov",

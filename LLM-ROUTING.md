@@ -108,8 +108,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | kent-source-index | source_index | work | [statecraft/voices/kent/kent-source-index.md](statecraft/voices/kent/kent-source-index.md) | Kent index, kent source index, kent source index compat |
 | krapivnik-index | source_index | work | [statecraft/voices/krapivnik/krapivnik-index.md](statecraft/voices/krapivnik/krapivnik-index.md) | Krapivnik index, krapivnik source index |
 | krapivnik-source-index | source_index | work | [statecraft/voices/krapivnik/krapivnik-source-index.md](statecraft/voices/krapivnik/krapivnik-source-index.md) | Krapivnik index, krapivnik source index, krapivnik source index compat |
-| lascaris-index | source_index | work | [statecraft/voices/lascaris/lascaris-index.md](statecraft/voices/lascaris/lascaris-index.md) | Lascaris index, lascaris source index |
-| lascaris-source-index | source_index | work | [statecraft/voices/lascaris/lascaris-source-index.md](statecraft/voices/lascaris/lascaris-source-index.md) | Lascaris index, lascaris source index, lascaris source index compat |
+| lascaris-voice-compat | source_index | work | [statecraft/channels/reason-resist/lascaris-voice-compat.md](statecraft/channels/reason-resist/lascaris-voice-compat.md) | Lascaris index, Reason to Resist host, lascaris compat redirect |
 | library-index-retired | generated_dashboard | generated | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | operator books misc homes |
 | llm-routing | routing_aid | generated | [LLM-ROUTING.md](LLM-ROUTING.md) | LLM routing, find file in repo, Barnes index |
 | macgregor-index | source_index | work | [statecraft/voices/macgregor/macgregor-index.md](statecraft/voices/macgregor/macgregor-index.md) | Macgregor index, macgregor source index |
@@ -200,7 +199,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | kent | [statecraft/voices/kent/kent-index.md](statecraft/voices/kent/kent-index.md) | kent-index |
 | krainer | [statecraft/voices/krainer/krainer-index.md](statecraft/voices/krainer/krainer-index.md) | — |
 | krapivnik | [statecraft/voices/krapivnik/krapivnik-index.md](statecraft/voices/krapivnik/krapivnik-index.md) | krapivnik-index |
-| lascaris | [statecraft/voices/lascaris/lascaris-index.md](statecraft/voices/lascaris/lascaris-index.md) | lascaris-index |
+| reason-resist (Lascaris host) | [statecraft/channels/reason-resist/reason-resist-channel-index.md](statecraft/channels/reason-resist/reason-resist-channel-index.md) | reason-resist-channel-index |
 | macgregor | [statecraft/voices/macgregor/macgregor-index.md](statecraft/voices/macgregor/macgregor-index.md) | macgregor-index |
 | marandi | [statecraft/voices/marandi/marandi-index.md](statecraft/voices/marandi/marandi-index.md) | marandi-index |
 | martyanov | [statecraft/voices/martyanov/martyanov-index.md](statecraft/voices/martyanov/martyanov-index.md) | martyanov-index |

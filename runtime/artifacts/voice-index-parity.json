@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-29T04:28:01Z",
+  "generated_at": "2026-06-29T13:14:47Z",
   "summary": {
-    "voices_discovered": 34,
-    "listed_in_voices_router": 34,
-    "with_primary_index": 34,
+    "voices_discovered": 33,
+    "listed_in_voices_router": 33,
+    "with_primary_index": 33,
     "with_rebuild_script": 24,
     "parity_pass": 22,
     "parity_warn": 7,
-    "parity_fail": 5,
+    "parity_fail": 4,
     "broken_links_total": 0,
     "documented_exceptions": 6
   },
@@ -382,25 +382,6 @@
       "exceptions": [],
       "curated_overlays": [],
       "last_rebuilt": "2026-06-28",
-      "status": "canonical",
-      "index_kind": "primary"
-    },
-    {
-      "voice": "lascaris",
-      "primary_index": "statecraft/voices/lascaris/lascaris-index.md",
-      "listed_in_voices_router": true,
-      "builder": null,
-      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index lascaris",
-      "eligible_captures": 6,
-      "indexed_captures": 0,
-      "parity": "fail",
-      "broken_links": 0,
-      "companion_routes": [
-        "lascaris-source-index.md"
-      ],
-      "exceptions": [],
-      "curated_overlays": [],
-      "last_rebuilt": "2026-06-27",
       "status": "canonical",
       "index_kind": "primary"
     },

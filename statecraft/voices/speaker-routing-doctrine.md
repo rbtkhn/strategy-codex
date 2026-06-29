@@ -193,6 +193,7 @@ First-pass map of host shelves that carry host-local speaker arcs. Navigation ai
 | [`davis/`](davis/) | Daniel Davis voice shelf · cross-host guest · [Deep Dive host](../channels/daniel-davis/daniel-davis-channel-index.md) | [`davis-thread.md`](davis/davis-thread.md) |
 | [`diesen/`](diesen/) | Glenn Diesen host-local arcs | [`diesen-thread.md`](diesen/diesen-thread.md) |
 | [`mercouris/`](mercouris/) | Alexander Mercouris stream shelf | [`mercouris-thread.md`](mercouris/mercouris-thread.md) |
+| [`reason-resist/`](../channels/reason-resist/) | Reason to Resist · **Dimitri Lascaris host-only** (no `voices/lascaris/`) | [`reason-resist-channel-index.md`](../channels/reason-resist/reason-resist-channel-index.md) |
 | [`napolitano/`](../channels/judging-freedom/) | Judging Freedom / Judge Andrew Napolitano host-local arcs | [`napolitano-thread.md`](../channels/judging-freedom/napolitano-thread.md) |
 
 ### Reading Rule

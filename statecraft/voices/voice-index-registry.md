@@ -8,8 +8,10 @@ Front door for **voice index** health (per-analyst `{slug}-index.md` files). Not
 
 | Term | File / role |
 | --- | --- |
-| **Voices router** | [`voice-index.md`](voice-index.md) — catalog of all analyst/channel indexes |
-| **Voice index** | `{slug}/{slug}-index.md` — exhaustive archive capture route map for one analyst |
+| **Voices router** | [`voice-index.md`](voice-index.md) — analyst voices + channel indexes (see **Routing classes** there) |
+| **Voice index** | `{slug}/{slug}-index.md` — exhaustive archive capture route map for one **analyst** (not host-only channels) |
+| **Split identity** | One analyst row with `guest:` + `host:` when the person has both a voice shelf and their own channel (Alkhorshid, Davis, Diesen, Mercouris) |
+| **Host-only channel** | Listed under **Channel indexes** in `voice-index.md` only — e.g. Reason to Resist (Lascaris); no `{slug}-index.md` under `voices/` |
 | **Voice index registry** | Generated parity dashboard (below) |
 
 Do not use “shelf index” in operator prose — it collided with “voice index” and speaker-shelf folders.
@@ -51,7 +53,7 @@ Matching code SSOT: `scripts/shelf_index_utils.py` → `shelf_capture_excluded()
 4. Generated rebuilds should preserve curated overlays (v2: HTML marker blocks).
 5. After intake or index edits, regen registry artifacts before push.
 
-**Spelling:** display name **Alkhorshid**; voice slug **`alkhorshid`**. Legacy capture filenames and `title_slug` tokens may still contain `alkorshid` (filename alias in `shelf_index_utils`).
+**Spelling:** display name **Alkhorshid**; voice slug **`alkhorshid`**. Legacy capture filenames and `title_slug` tokens may still contain `alkhorshid` (filename alias in `shelf_index_utils`).
 
 Per-voice audit (`--shelf-index` = legacy CLI flag for one **voice index**):
 

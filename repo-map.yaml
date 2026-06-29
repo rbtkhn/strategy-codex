@@ -1977,30 +1977,20 @@ routes:
   - krapivnik source index
   - krapivnik source index compat
   category: work
-- id: lascaris-index
-  title: Lascaris index
-  path: statecraft/voices/lascaris/lascaris-index.md
+- id: lascaris-voice-compat
+  title: Lascaris voice compat (Reason to Resist redirect)
+  path: statecraft/channels/reason-resist/lascaris-voice-compat.md
   kind: source_index
   authority: work_only
-  tags: &id026
+  tags:
   - lascaris
-  - source-index
-  - statecraft
-  - voices
+  - reason-resist
+  - channel-index
+  - compat-redirect
   search_hints:
   - Lascaris index
   - lascaris source index
-  category: work
-- id: lascaris-source-index
-  title: Lascaris source index (compat redirect)
-  path: statecraft/voices/lascaris/lascaris-source-index.md
-  kind: source_index
-  authority: work_only
-  tags: *id026
-  search_hints:
-  - Lascaris index
-  - lascaris source index
-  - lascaris source index compat
+  - Reason to Resist host
   category: work
 - id: mate-index
   title: Maté index
