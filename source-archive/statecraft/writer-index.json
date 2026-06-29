@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T00:15:50+00:00",
+  "generated_at": "2026-06-29T00:25:23+00:00",
   "check_written_scope": "configured_roster",
   "check_written_notes": "Writer-index v1 lists configured Substack feeds only; see statecraft_writer_discovery.json.",
   "source_markdown": "writer-index.md",

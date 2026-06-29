@@ -135,15 +135,12 @@ No `channel_id`. **`discoverable`** becomes true only when RSS/Substack polling 
 
 ---
 
-## Builder hook (future)
+## Builder
 
-Extend **`refresh_statecraft_archive_indices.py`** / **`build_statecraft_archive_navigation.py`**:
-
-- `collect_writer_stats(root)` — apply hard excludes + inclusion rules above
-- emit `writer-index.md`, `writer-index-misc.md`, optional `writer-index.json`
-- rebuild alongside channel-index; never mix rosters in one JSON file
-
-**Loader (Python):** `load_check_written_roster()` in [statecraft_writer_index.py](../../scripts/statecraft_writer_index.py) — reads `writer-index.json` or rebuilds live via `build_writer_index_json()`. Misc slugs from `writer_index_misc_slugs` in discovery config are excluded (parallel to `load_check_sources_roster()`).
+- `collect_writer_stats()` / `build_writer_index()` / `build_writer_index_json()` — [statecraft_writer_index.py](../../scripts/statecraft_writer_index.py)
+- Regenerated via [build_statecraft_archive_navigation.py](../../scripts/build_statecraft_archive_navigation.py) / `refresh_statecraft_archive_indices.py`
+- **Audit:** `python scripts/audit_statecraft_archive_index.py --writer-index` — stale check, roster table; skill **`audit index`**
+- `load_check_written_roster()` — reads `writer-index.json` or rebuilds live via `build_writer_index_json()`. Misc slugs from `writer_index_misc_slugs` in discovery config are excluded (parallel to `load_check_sources_roster()`).
 
 ---
 

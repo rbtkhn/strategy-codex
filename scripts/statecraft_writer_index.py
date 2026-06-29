@@ -335,7 +335,8 @@ def build_writer_index(root: Path, config_path: Path | None = None) -> str:
     lines = [
         "# Statecraft Archive - Writer Index",
         "",
-        "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
+        "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`. "
+        "**Audit:** `python scripts/audit_statecraft_archive_index.py --writer-index` — stale check, roster table; skill **`audit index`**._",
         "",
         "Flat registry of **configured written-source outlets** (Substack feeds in v1). "
         "YouTube channels live in [channel-index.md](../../statecraft/channels/channel-index.md). "

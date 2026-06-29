@@ -12,6 +12,7 @@ if str(SCRIPTS) not in sys.path:
 import audit_statecraft_archive_index as audit  # noqa: E402
 import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
+import statecraft_writer_index as writer_idx  # noqa: E402
 
 
 def _write(path: Path, text: str) -> None:
@@ -177,6 +178,62 @@ def test_channel_index_table_and_audit_fresh(tmp_path: Path, monkeypatch) -> Non
         ["--channel-index", "--root", str(archive_root), "--table-only", "--table-sort", "words"]
     )
     assert code == 0
+
+
+def _sample_writer_capture() -> str:
+    return (
+        "---\n"
+        "pub_date: 2026-06-27\n"
+        "kind: substack-post\n"
+        "source_type: substack\n"
+        "source_form: newsletter\n"
+        "thread: pape\n"
+        'title: "Situation Report"\n'
+        'source_url: "https://escalationtrap.substack.com/p/situation-report"\n'
+        "---\n\n"
+        "# Situation Report\n\n"
+        "Prose body for writer index test.\n"
+    )
+
+
+def test_writer_index_table_and_audit_fresh(tmp_path: Path) -> None:
+    archive_root = tmp_path / "archive"
+    day = archive_root / "2026-06-27"
+    _write(day / "source-pape-situation-report-2026-06-27.md", _sample_writer_capture())
+
+    nav.write_rendered(
+        archive_root / "writer-index.md",
+        writer_idx.build_writer_index(archive_root),
+        check=False,
+    )
+    nav.write_writer_index_json(archive_root / "writer-index.json", archive_root, check=False)
+
+    findings = audit.audit_writer_index(archive_root)
+    assert any(f.code == "writer_md" and f.level == "pass" for f in findings)
+    assert any(f.code == "writer_json" and f.level == "pass" for f in findings)
+
+    code = audit.main(
+        ["--writer-index", "--root", str(archive_root), "--table-only", "--table-sort", "words"]
+    )
+    assert code == 0
+
+
+def test_writer_index_fails_when_md_stale(tmp_path: Path) -> None:
+    archive_root = tmp_path / "archive"
+    day = archive_root / "2026-06-27"
+    _write(day / "source-pape-situation-report-2026-06-27.md", _sample_writer_capture())
+
+    nav.write_rendered(
+        archive_root / "writer-index.md",
+        writer_idx.build_writer_index(archive_root),
+        check=False,
+    )
+    (archive_root / "writer-index.md").write_text("stale\n", encoding="utf-8")
+    nav.write_writer_index_json(archive_root / "writer-index.json", archive_root, check=False)
+
+    findings = audit.audit_writer_index(archive_root)
+    assert any(f.code == "stale_writer_md" and f.level == "fail" for f in findings)
+    assert audit.main(["--writer-index", "--root", str(archive_root)]) == 1
 
 
 def test_channel_index_fails_when_md_stale(tmp_path: Path, monkeypatch) -> None:

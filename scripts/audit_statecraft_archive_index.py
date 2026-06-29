@@ -7,6 +7,7 @@ Usage:
     python scripts/audit_statecraft_archive_index.py --month 2026-06 --table-only
     python scripts/audit_statecraft_archive_index.py --global
     python scripts/audit_statecraft_archive_index.py --channel-index --table
+    python scripts/audit_statecraft_archive_index.py --writer-index --table
 """
 from __future__ import annotations
 
@@ -25,6 +26,7 @@ if str(_SCRIPTS) not in sys.path:
 
 import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
+import statecraft_writer_index as writer_idx  # noqa: E402
 from quantify_section_nav import extract_transcript  # noqa: E402
 from statecraft_day_archive import (  # noqa: E402
     CHANNEL_INDEX_DIR,
@@ -86,6 +88,18 @@ class ChannelIndexRow:
     first_day: str
     last_day: str
     explicit_slug: bool
+
+
+@dataclass(frozen=True)
+class WriterIndexRow:
+    slug: str
+    label: str
+    files: int
+    days: int
+    thread: str
+    feed_url: str
+    first_day: str
+    last_day: str
 
 
 def word_count_capture(path: Path) -> int:
@@ -158,7 +172,7 @@ def apply_table_limit(
 
 
 def default_table_limit(scope: str) -> int | None:
-    if scope in ("day", "channel-index"):
+    if scope in ("day", "channel-index", "writer-index"):
         return None
     return DEFAULT_MONTH_YEAR_TABLE_LIMIT
 
@@ -338,6 +352,124 @@ def run_fix_channel_index(root: Path) -> None:
     )
 
 
+def collect_writer_index_rows(root: Path) -> list[WriterIndexRow]:
+    rows: list[WriterIndexRow] = []
+    for entry in writer_idx.collect_writer_stats(root).values():
+        url = entry.feed_url.rstrip("/")
+        rows.append(
+            WriterIndexRow(
+                slug=entry.slug,
+                label=entry.label,
+                files=entry.file_count,
+                days=len(entry.days),
+                thread=entry.thread,
+                feed_url=url,
+                first_day=entry.first_day or "",
+                last_day=entry.last_day or "",
+            )
+        )
+    return rows
+
+
+def sort_writer_index_rows(rows: list[WriterIndexRow], sort_key: ChannelSortKey) -> list[WriterIndexRow]:
+    if sort_key == "slug":
+        return sorted(rows, key=lambda r: (r.slug, -r.files))
+    if sort_key == "label":
+        return sorted(rows, key=lambda r: (r.label.casefold(), -r.files))
+    if sort_key == "last_day":
+        return sorted(rows, key=lambda r: (r.last_day, -r.files, r.slug))
+    return sorted(rows, key=lambda r: (-r.files, r.slug))
+
+
+def audit_writer_index(root: Path) -> list[AuditFinding]:
+    findings: list[AuditFinding] = []
+    md_path = root / "writer-index.md"
+    rendered = writer_idx.build_writer_index(root)
+    status = _channel_surface_status(md_path, rendered)
+    if status == "ok":
+        findings.append(AuditFinding("pass", "writer_md", "writer-index.md matches builder"))
+    elif status == "missing":
+        findings.append(AuditFinding("fail", "missing_writer_md", "writer-index.md missing"))
+    else:
+        findings.append(AuditFinding("fail", "stale_writer_md", "writer-index.md stale vs recomputed build"))
+
+    json_path = root / "writer-index.json"
+    json_stale = nav._json_payload_semantically_changed(json_path, writer_idx.build_writer_index_json(root))
+    if not json_path.is_file():
+        findings.append(AuditFinding("fail", "missing_writer_json", "writer-index.json missing"))
+    elif json_stale:
+        findings.append(AuditFinding("fail", "stale_writer_json", "writer-index.json stale vs recomputed build"))
+    else:
+        findings.append(AuditFinding("pass", "writer_json", "writer-index.json matches builder"))
+
+    live_stats = writer_idx.collect_writer_stats(root)
+    live_files = sum(entry.file_count for entry in live_stats.values())
+    if json_path.is_file() and not json_stale:
+        try:
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            indexed_files = int(payload.get("stats", {}).get("file_count", -1))
+            if indexed_files >= 0 and indexed_files != live_files:
+                findings.append(
+                    AuditFinding(
+                        "warn",
+                        "stats_drift",
+                        f"writer-index.json file_count {indexed_files} vs live {live_files}",
+                    )
+                )
+        except (json.JSONDecodeError, TypeError, ValueError):
+            findings.append(AuditFinding("warn", "writer_json_parse", "writer-index.json stats unreadable"))
+
+    for entry in live_stats.values():
+        if entry.file_count == 0:
+            findings.append(
+                AuditFinding(
+                    "warn",
+                    "hygiene",
+                    f"{entry.slug}: configured writer with zero archive files",
+                )
+            )
+
+    return findings
+
+
+def format_writer_index_table(
+    scope_label: str,
+    rows: list[WriterIndexRow],
+    *,
+    truncated: int,
+    sort_key: ChannelSortKey,
+) -> str:
+    lines = [
+        f"## Writer index inventory — {scope_label}",
+        "",
+        f"_Sorted by `{sort_key}`; configured prose roster only (YouTube excluded)._",
+        "",
+        "| Slug | Label | Files | Days | Thread | Last day | Feed URL |",
+        "| --- | --- | ---: | ---: | --- | --- | --- |",
+    ]
+    for row in rows:
+        label = row.label.replace("|", "\\|")
+        if len(label) > 48:
+            label = label[:45] + "..."
+        url = row.feed_url or "—"
+        if len(url) > 48 and url != "—":
+            url = url[:45] + "..."
+        lines.append(
+            f"| `{row.slug}` | {label} | {row.files} | {row.days} | `{row.thread}` | {row.last_day} | {url} |"
+        )
+    if truncated:
+        lines.append("")
+        lines.append(f"_… and {truncated} more row(s); use `--table-limit 0` for full list._")
+    lines.append("")
+    lines.append(f"rows shown: {len(rows)}")
+    return "\n".join(lines)
+
+
+def run_fix_writer_index(root: Path) -> None:
+    nav.write_rendered(root / "writer-index.md", writer_idx.build_writer_index(root), check=False)
+    nav.write_writer_index_json(root / "writer-index.json", root, check=False)
+
+
 def audit_day_dir(day_dir: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
     if not day_dir.is_dir():
@@ -496,6 +628,8 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
         return "global"
     if args.channel_index:
         return "channel-index"
+    if args.writer_index:
+        return "writer-index"
     if args.day:
         return "day"
     if args.month:
@@ -508,6 +642,8 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
 def run_fix(root: Path, args: argparse.Namespace, day_dirs: list[Path]) -> None:
     if args.channel_index:
         run_fix_channel_index(root)
+    elif args.writer_index:
+        run_fix_writer_index(root)
     elif args.global_audit or args.month or args.year:
         old_argv = sys.argv
         sys.argv = ["build_statecraft_archive_navigation.py", "--root", str(root)]
@@ -531,6 +667,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--channel-index",
         action="store_true",
         help="Audit channel-index.md/json (+ misc) stale vs live YouTube captures.",
+    )
+    scope.add_argument(
+        "--writer-index",
+        action="store_true",
+        help="Audit writer-index.md/json stale vs live prose captures.",
     )
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft archive root.")
     parser.add_argument("--table", action="store_true", help="Append inventory table to output.")
@@ -561,11 +702,15 @@ def main(argv: list[str] | None = None) -> int:
     if (
         not args.global_audit
         and not args.channel_index
+        and not args.writer_index
         and not args.day
         and not args.month
         and not args.year
     ):
-        print("error: specify --day, --month, --year, --channel-index, or --global", file=sys.stderr)
+        print(
+            "error: specify --day, --month, --year, --channel-index, --writer-index, or --global",
+            file=sys.stderr,
+        )
         return 2
 
     day_dirs, scope_label = resolve_day_dirs(root, args)
@@ -580,6 +725,11 @@ def main(argv: list[str] | None = None) -> int:
         findings.extend(audit_channel_index(root))
         if not scope_label:
             scope_label = "channel-index (main roster)"
+
+    if args.writer_index:
+        findings.extend(audit_writer_index(root))
+        if not scope_label:
+            scope_label = "writer-index"
 
     if args.global_audit:
         findings.extend(audit_global(root))
@@ -608,15 +758,23 @@ def main(argv: list[str] | None = None) -> int:
 
     table_rows: list[InventoryRow] = []
     channel_table_rows: list[ChannelIndexRow] = []
+    writer_table_rows: list[WriterIndexRow] = []
     truncated = 0
-    channel_sort = map_channel_table_sort(args.table_sort)
+    roster_sort = map_channel_table_sort(args.table_sort)
     if (args.table or args.table_only) and args.channel_index:
         all_channel_rows = collect_channel_index_rows(root, misc=False)
-        channel_table_rows = sort_channel_index_rows(all_channel_rows, channel_sort)
+        channel_table_rows = sort_channel_index_rows(all_channel_rows, roster_sort)
         limit = args.table_limit
         if limit is None:
             limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
         channel_table_rows, truncated = apply_table_limit(channel_table_rows, limit)
+    elif (args.table or args.table_only) and args.writer_index:
+        all_writer_rows = collect_writer_index_rows(root)
+        writer_table_rows = sort_writer_index_rows(all_writer_rows, roster_sort)
+        limit = args.table_limit
+        if limit is None:
+            limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
+        writer_table_rows, truncated = apply_table_limit(writer_table_rows, limit)
     elif (args.table or args.table_only) and day_dirs:
         all_rows = collect_inventory_rows(day_dirs)
         table_rows = sort_inventory_rows(all_rows, args.table_sort)
@@ -642,6 +800,7 @@ def main(argv: list[str] | None = None) -> int:
             "findings": [asdict(f) for f in findings],
             "table": [asdict(r) for r in table_rows],
             "channel_table": [asdict(r) for r in channel_table_rows],
+            "writer_table": [asdict(r) for r in writer_table_rows],
             "table_truncated": truncated,
             "table_sort": args.table_sort,
         }
@@ -657,7 +816,16 @@ def main(argv: list[str] | None = None) -> int:
                 scope_label or "channel-index",
                 channel_table_rows,
                 truncated=truncated,
-                sort_key=channel_sort,
+                sort_key=roster_sort,
+            )
+        )
+    elif (args.table or args.table_only) and writer_table_rows:
+        parts.append(
+            format_writer_index_table(
+                scope_label or "writer-index",
+                writer_table_rows,
+                truncated=truncated,
+                sort_key=roster_sort,
             )
         )
     elif args.table or args.table_only:
