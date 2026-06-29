@@ -1,6 +1,6 @@
 ---
 name: voice-profile-panel
-description: 'QA voice profiles through solo smoke lines and sequential fictional roundtables: read Tier A statecraft/voices profiles, enforce orthogonality vs triad SSOT, run Family 8 spot-checks, and apply anti-AI panel checklist. Triggers: voice profile panel, voice panel, profile smoke test, triad roundtable demo. Not tri-mind; not Record merge.'
+description: 'QA voice profiles through solo smoke lines and sequential fictional roundtables: read Tier A statecraft/voices profiles, enforce orthogonality via Family 8 tables, run spot-checks, and apply anti-AI panel checklist. Triggers: voice profile panel, voice panel, profile smoke test, triad roundtable demo. Not tri-mind; not Record merge.'
 preferred_activation: voice profile panel
 activation: voice profile panel
 portable: true
@@ -20,7 +20,7 @@ synced_by: sync_portable_skills.py
 
 **Preferred activation:** **`voice profile panel`**, **`voice panel`**, **`profile smoke test`**, or **`triad roundtable demo`** on a named live object.
 
-**Scope:** WORK-only **voice QA** — test whether Tier A profiles support authentic generation and **orthogonal** multi-voice panels. Default **Think** (chat); optional **Ship** to `_scratch/` demo files when operator names a path.
+**Scope:** WORK-only **voice QA** — test whether Tier A profiles support authentic generation and **orthogonal** multi-voice panels. Default **Think** (chat). **Ship** only when operator names an explicit path (e.g. `runtime/artifacts/voice-qa/…`); no default repo scratch directory.
 
 **Not in scope:**
 
@@ -32,9 +32,8 @@ synced_by: sync_portable_skills.py
 
 | Surface | Role |
 |---------|------|
-| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker Tier A/B contract |
+| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker Tier A/B contract; B×M×Me orthogonality in Family 8 when triad |
 | `statecraft/voices/voice-profile-template.md` | Shape + Family 1–8 law |
-| `statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md` | Barnes × Mercouris × Mearsheimer orthogonality + **§8 anti-AI checklist** |
 | Archive captures linked from profiles | Quote bank for spot-checks |
 
 **Tier gate:** Panel demos default to **Tier A** profiles only (compact table `A` + filled Family 8). Tier B → solo stub smoke or promote profile first.
@@ -74,7 +73,7 @@ Operator may combine: e.g. **panel then audit**.
 
 ## Anti-AI panel checklist (§8)
 
-Full checklist lives in triad scratch **§8**. Before claiming panel pass, scan generated text for:
+Full checklist is in **Anti-AI panel checklist (§8)** below. Before claiming panel pass, scan generated text for:
 
 | Tell | Fail if |
 |------|---------|
@@ -99,7 +98,7 @@ Full checklist lives in triad scratch **§8**. Before claiming panel pass, scan 
 
 When operator names a file:
 
-- Demo transcript + audit → `statecraft/voices/_scratch/triad-roundtable-demo-<YYYY-MM-DD>.md`
+- Demo transcript + audit → operator-named path under `runtime/artifacts/voice-qa/` (e.g. `triad-roundtable-demo-<YYYY-MM-DD>.md`)
 - Do not paste full panel into `days.md` or Record surfaces.
 
 ## Guardrails
@@ -117,14 +116,13 @@ Strategy-codex routing and SSOT paths for voice-profile-panel.
 ## Triggers
 
 - **`voice profile panel`**, **`voice panel`**, **`profile smoke test`**, **`triad roundtable demo`**
-- Default **Think** (chat); **Ship** only when operator names a `_scratch/` path
+- Default **Think** (chat); **Ship** only when operator names an explicit path (e.g. `runtime/artifacts/voice-qa/…`)
 
 ## SSOT (read before panel)
 
 | Surface | Path |
 |---------|------|
 | Voice template | [statecraft/voices/voice-profile-template.md](../../../statecraft/voices/voice-profile-template.md) |
-| Triad orthogonality + §8 | [statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md](../../../statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md) |
 | Mercouris profile | [statecraft/voices/mercouris/mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) |
 | Barnes profile | [statecraft/voices/barnes/barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) |
 | Mearsheimer profile | [statecraft/voices/mearsheimer/mearsheimer-profile.md](../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) |
@@ -138,9 +136,9 @@ Strategy-codex routing and SSOT paths for voice-profile-panel.
 | [state-synthesis](../state-synthesis/SKILL.md) / [primary-overhearing-analysis](../primary-overhearing-analysis/SKILL.md) | Analytic comparison — not fictional roundtable (`statecraft-multi-lens` archived) |
 | [wire-verify](../wire-verify/SKILL.md) | Grade MOU/wire hooks before treating panel claims as settled |
 
-## Demo scratch path
+## Ship path (explicit)
 
-- `statecraft/voices/_scratch/triad-roundtable-demo-<YYYY-MM-DD>.md` when operator requests disk save
+- `runtime/artifacts/voice-qa/triad-roundtable-demo-<YYYY-MM-DD>.md` (or operator-named equivalent) when disk save is required
 
 ## Boundary
 

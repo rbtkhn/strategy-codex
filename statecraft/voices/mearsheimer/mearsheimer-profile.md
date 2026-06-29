@@ -39,7 +39,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (3) + Tier A detailed table (this file). Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md). Historical mind: `git show 904fb3bc6:codex/mearsheimer-mind.md`
+**Evidence class:** June 2026 intakes (3) + Tier A detailed table (this file). Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind: `git show 904fb3bc6:codex/mearsheimer-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -65,7 +65,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **7 Format** | Davis long-form | Patient enumeration with host | Four-element ceasefire walkthrough · `2026-06-11` Davis | Napolitano rapid Q&A density |
 | **7 Format** | Napolitano/JF | Host-led structural Q&A | Lobby + Netanyahu coercion exchange · `2026-06-02` Napolitano | Carlson monologue-only (see next row) |
 | **7 Format** | Carlson monologue | Guest as validator on host thesis | Limits-of-power passage embedded in host arc · `2026-06-09` Carlson | Solo Mercouris date-stamped opener |
-| **8 Emulation QA** | Triad contrast | Full matrix | [triad-voice-orthogonality-june-2026.md](../_scratch/triad-voice-orthogonality-june-2026.md) | Duplicating 8-axis prose in profile |
+| **8 Emulation QA** | Triad contrast | Full matrix | [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat | Duplicating 8-axis prose in profile |
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “we're going up the escalation ladder… Do you believe that's true?” · ✗ “Trump operates by fear like a toddler…” (Barnes tier-D) | Barnes liability voice as Mearsheimer |
 | **8 Emulation QA** | Anti-pattern fence | vs Mercouris | ✗ Mandatory “I'm not on the ground” stack on every paragraph | ✓ Numbered ceasefire dimensions then hedge on specifics |
 
@@ -97,7 +97,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Active weave cues
 
-- Pull when notebook needs **B×Me** split on same Iran week — use [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md) §2 Davis pair
+- Pull when notebook needs **B×Me** split on same Iran week — run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) sequential panel on Davis-pair captures (Jun 2026)
 
 ## Links
 

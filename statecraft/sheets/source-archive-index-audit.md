@@ -74,7 +74,6 @@ Navigation rule: canonical browsing now lives at `source-archive/statecraft/` vi
 
 | speaker | transcript mentions | stream markdown | speaker markdown |
 |---|---:|---:|---:|
-| `_scratch` | 0 | 0 | 4 |
 | `aguilar` | 5 | 0 | 2 |
 | `alkhorshid` | 121 | 0 | 4 |
 | `armstrong` | 7 | 0 | 8 |

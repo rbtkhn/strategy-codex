@@ -28,6 +28,7 @@ def run_quick() -> int:
     checks = [
         (["python3", "scripts/validate_repo_routing.py"], "repo routing"),
         (["python3", "scripts/check_generated_surfaces.py", "--check", "--strict"], "generated surfaces strict"),
+        (["python3", "scripts/check_voice_guest_indexes.py"], "voice guest index builders"),
         (["python3", "scripts/assert_root_file_budget.py", "--strict"], "root file budget"),
         (["python3", "scripts/check_doc_duplication.py"], "doc duplication"),
         (["python3", "scripts/check_routing_front_doors.py"], "routing front doors"),
@@ -49,6 +50,12 @@ def run_quick() -> int:
         ),
     ]
     rc = 0
+    if (REPO_ROOT / "statecraft" / "voices" / "_templates").exists():
+        print("[fail] retired path exists: statecraft/voices/_templates")
+        rc = 1
+    if (REPO_ROOT / "statecraft" / "voices" / "_scratch").exists():
+        print("[fail] retired path exists: statecraft/voices/_scratch")
+        rc = 1
     for cmd, label in checks:
         code, _ = _run(cmd, label=label)
         rc = rc or code

@@ -34,6 +34,6 @@ Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
 **Post-entry lens menu (`strategy` / ingest):** [DEFAULT-PATH.md](../DEFAULT-PATH.md) + [VOICES-SUPERSEDE-MINDS.md](../VOICES-SUPERSEDE-MINDS.md) — read **voice profile** `#linguistic-style-fingerprint-detailed` first; mind file only for Tier B or explicit quote-bank need.
 
-**June 2026 triad pass:** Barnes, Mercouris, Mearsheimer Tier A + [triad-voice-orthogonality-june-2026.md](../../../../statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md).
+**June 2026 triad pass:** Barnes, Mercouris, Mearsheimer Tier A + [`voice-profile-panel`](../../../../skills/voice-profile-panel/SKILL.md) orthogonality QA in chat.
 
 **Tri-mind skill:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md) · legacy [tri-mind SKILL.md](../TRI-MIND-DEPRECATED.md).

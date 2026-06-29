@@ -33,6 +33,14 @@ def _tracked_files() -> list[str]:
     return [line.strip() for line in result.stdout.splitlines() if line.strip()]
 
 
+def test_voices_templates_dir_retired() -> None:
+    assert not (VOICES / "_templates").exists()
+
+
+def test_voices_scratch_dir_retired() -> None:
+    assert not (VOICES / "_scratch").exists()
+
+
 def test_no_subdirs_under_speaker_shelves() -> None:
     violations: list[str] = []
     for base, meta in ((VOICES, VOICES_META), (CHANNELS, frozenset())):

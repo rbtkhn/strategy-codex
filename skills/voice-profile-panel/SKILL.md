@@ -1,6 +1,6 @@
 ---
 name: voice-profile-panel
-description: "QA voice profiles through solo smoke lines and sequential fictional roundtables: read Tier A statecraft/voices profiles, enforce orthogonality vs triad SSOT, run Family 8 spot-checks, and apply anti-AI panel checklist. Triggers: voice profile panel, voice panel, profile smoke test, triad roundtable demo. Not tri-mind; not Record merge."
+description: "QA voice profiles through solo smoke lines and sequential fictional roundtables: read Tier A statecraft/voices profiles, enforce orthogonality via Family 8 tables, run spot-checks, and apply anti-AI panel checklist. Triggers: voice profile panel, voice panel, profile smoke test, triad roundtable demo. Not tri-mind; not Record merge."
 preferred_activation: voice profile panel
 activation: voice profile panel
 portable: true
@@ -18,7 +18,7 @@ tags:
 
 **Preferred activation:** **`voice profile panel`**, **`voice panel`**, **`profile smoke test`**, or **`triad roundtable demo`** on a named live object.
 
-**Scope:** WORK-only **voice QA** — test whether Tier A profiles support authentic generation and **orthogonal** multi-voice panels. Default **Think** (chat); optional **Ship** to `_scratch/` demo files when operator names a path.
+**Scope:** WORK-only **voice QA** — test whether Tier A profiles support authentic generation and **orthogonal** multi-voice panels. Default **Think** (chat). **Ship** only when operator names an explicit path (e.g. `runtime/artifacts/voice-qa/…`); no default repo scratch directory.
 
 **Not in scope:**
 
@@ -30,9 +30,8 @@ tags:
 
 | Surface | Role |
 |---------|------|
-| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker Tier A/B contract |
+| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker Tier A/B contract; B×M×Me orthogonality in Family 8 when triad |
 | `statecraft/voices/voice-profile-template.md` | Shape + Family 1–8 law |
-| `statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md` | Barnes × Mercouris × Mearsheimer orthogonality + **§8 anti-AI checklist** |
 | Archive captures linked from profiles | Quote bank for spot-checks |
 
 **Tier gate:** Panel demos default to **Tier A** profiles only (compact table `A` + filled Family 8). Tier B → solo stub smoke or promote profile first.
@@ -72,7 +71,7 @@ Operator may combine: e.g. **panel then audit**.
 
 ## Anti-AI panel checklist (§8)
 
-Full checklist lives in triad scratch **§8**. Before claiming panel pass, scan generated text for:
+Full checklist is in **Anti-AI panel checklist (§8)** below. Before claiming panel pass, scan generated text for:
 
 | Tell | Fail if |
 |------|---------|
@@ -97,7 +96,7 @@ Full checklist lives in triad scratch **§8**. Before claiming panel pass, scan 
 
 When operator names a file:
 
-- Demo transcript + audit → `statecraft/voices/_scratch/triad-roundtable-demo-<YYYY-MM-DD>.md`
+- Demo transcript + audit → operator-named path under `runtime/artifacts/voice-qa/` (e.g. `triad-roundtable-demo-<YYYY-MM-DD>.md`)
 - Do not paste full panel into `days.md` or Record surfaces.
 
 ## Guardrails

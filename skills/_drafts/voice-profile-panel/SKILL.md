@@ -10,6 +10,6 @@ status: draft
 
 - Portable core: [skills/voice-profile-panel/SKILL.md](../../voice-profile-panel/SKILL.md)
 - Cursor skill: [.cursor/skills/voice-profile-panel/SKILL.md](../../voice-profile-panel/SKILL.md)
-- Triad §8: [triad-voice-orthogonality-june-2026.md](../../../statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md)
+- §8 anti-AI checklist: in skill body (Anti-AI panel checklist section)
 
 Trigger: **`voice profile panel`**, **`profile smoke test`**, **`triad roundtable demo`**.

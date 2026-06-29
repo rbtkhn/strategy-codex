@@ -39,7 +39,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + Tier A detailed table (this file). **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md). Historical mind: `git show 904fb3bc6:codex/strategy-expert-mercouris-mind.md`
+**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + Tier A detailed table (this file). **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind: `git show 904fb3bc6:codex/strategy-expert-mercouris-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -65,7 +65,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **7 Format** | Conference-short program | Travel situational frame `[iran]` | Russia conference opener + Iran section before Ukraine pivot · [`2026-06-11`] | Davis long-form host dyad |
 | **7 Format** | Duran co-reference | Colleague citation `[iran]` | “program that Alex Christoforou and I have just done on the Duran” · [`2026-06-11`] | Solo Carlson guest validator |
 | **7 Format** | Ukraine map monologue | Deep battlefield paragraph `[ukraine]` | Lyman/Slavansk connurbation arc · [`2026-06-11`] | Domestic Fox-fear stack |
-| **8 Emulation QA** | Triad contrast | Full matrix | [triad-voice-orthogonality-june-2026.md](../_scratch/triad-voice-orthogonality-june-2026.md) | Duplicating 8-axis prose in profile |
+| **8 Emulation QA** | Triad contrast | Full matrix | [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat | Duplicating 8-axis prose in profile |
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “I'm very skeptical… I'm not there and I'm not able to observe…” · ✗ “confession through projection… rugpull presidency” | Barnes or Mearsheimer register |
 | **8 Emulation QA** | Anti-pattern fence | vs Mearsheimer | ✗ Numbered four-element ceasefire as default Mercouris spine | ✓ Hedge stack before operational claim |
 

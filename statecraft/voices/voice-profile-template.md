@@ -60,7 +60,7 @@ It is **not**:
 | `## Statecraft / AI` or bounded notes table | When thematic notes live under `statecraft/notes/` |
 | `## Seed` | When automation mirrors commentator index rows |
 | Mind pointer block | When `strategy-expert-<id>-mind.md` or CIV-MIND exists — quote bank + role/contrast; **not** duplicate of detailed tables |
-| Orthogonality notes | When triad/pair contrast is load-bearing — prefer shared SSOT under `_scratch/`; profiles link, Family 8 stubs only |
+| Orthogonality notes | When triad/pair contrast is load-bearing — run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat; profiles link Family 8 stubs only |
 | Intake receipt links (footer) | When Nawfal/archive captures are the profile's anchor set |
 
 **Seed maturity:** mark thin sections with `*Seed profile — operator extends when upgraded.*` or `*Seed — extend when Tier A.*` rather than omitting the heading.
@@ -288,7 +288,7 @@ When regional grounding matters, split rows: **regional grounding** (where the v
 | LLM failure modes | Neutral précis; “X would say…” |
 | Authenticity spot-checks | Sounds-like / not-like pairs |
 
-**Panel QA (optional):** After Tier A promotion, run solo smoke or sequential panel per skill [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md); anti-AI tells in [triad §8](_scratch/triad-voice-orthogonality-june-2026.md#8-anti-ai-panel-checklist-llm-roundtable-qa).
+**Panel QA (optional):** After Tier A promotion, run solo smoke or sequential panel per skill [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) (includes §8 anti-AI panel checklist in chat).
 
 ---
 

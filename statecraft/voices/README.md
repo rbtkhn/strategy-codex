@@ -149,7 +149,7 @@ Canonical placement:
 
 Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Mearsheimer](mearsheimer/mearsheimer-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md), [Davis](davis/davis-profile.md), [Alkhorshid](alkhorshid/alkhorshid-profile.md), [Weichert](weichert/weichert-profile.md) (seed). Profile-only lanes: [codex/profiles/README.md](../../README.md).
 
-**Triad orthogonality (June 2026):** [_scratch/triad-voice-orthogonality-june-2026.md](_scratch/triad-voice-orthogonality-june-2026.md) — Barnes × Mercouris × Mearsheimer; Tier A profiles link Family 8 here.
+**Triad orthogonality (June 2026):** Barnes × Mercouris × Mearsheimer — run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat; Tier A profiles link Family 8 to that skill.
 
 For anchor-and-satellite routing after Pape, Ritter, Parsi, or Crooke, open [speaker-cluster-map.md](speaker-cluster-map.md).
 
@@ -381,6 +381,6 @@ Instead:
 - Monthly synthesis shelves (`{speaker}-shelf-YYYY-MM.md`), theme registers (`{speaker}-themes.md`), and thread atlases use **filename grammar**, not `stream/` or `themes/` nesting.
 - **Host×guest and speaker arcs** → canonical bodies in [`statecraft/notes/`](../notes/README.md) (`arc-<primary>-<topic>.md`); shelf paths keep **compat redirects** only.
 - Legacy paths `voices/<speaker>/stream/` and `voices/<speaker>/themes/` are **terminated** — use flat paths only.
-- Root meta under `voices/` (`_scratch/`, `_templates/`) is not a speaker shelf; the flat rule applies to `<speaker>/` only. Cross-speaker compare notes belong in [`../notes/`](../notes/). Route contract and open-first paths: [`speaker-routing-doctrine.md`](speaker-routing-doctrine.md).
+- Root meta under `voices/` is limited to governed surfaces only; the flat rule applies to `<speaker>/` only. Speaker scaffolds live at [`statecraft/templates/`](../templates/) — not under `voices/`. Cross-speaker compare notes belong in [`../notes/`](../notes/). Route contract and open-first paths: [`speaker-routing-doctrine.md`](speaker-routing-doctrine.md).
 
 Migration script: [`scripts/flatten_statecraft_shelves.py`](../../scripts/flatten_statecraft_shelves.py). Validator: [`tests/test_flat_statecraft_shelves.py`](../../tests/test_flat_statecraft_shelves.py).

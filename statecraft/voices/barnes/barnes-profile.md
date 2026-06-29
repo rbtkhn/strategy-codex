@@ -39,7 +39,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (6) + Tier A detailed table (this file). Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md). Historical mind quote bank: `git show 904fb3bc6:codex/strategy-expert-barnes-mind.md`
+**Evidence class:** June 2026 intakes (6) + Tier A detailed table (this file). Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind quote bank: `git show 904fb3bc6:codex/strategy-expert-barnes-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -71,7 +71,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **7 Format** | Co-host dyad | Viva & Barnes podcast register | Accessible constitutional breakdown; co-host banter · [mind-legacy] | Solo academic lecture tone on podcast surface |
 | **7 Format** | Davis long-form | Institutional skepticism seam | Fear-stack enumeration (economy / midterms / Fox / Obama / Carter / Bush) · [`2026-06-11` Davis] | Trial-lawyer case parsing without host frame |
 | **7 Format** | Napolitano / Nawfal | Fast-turn vs cognition host | Napolitano decision-cognition pairing · [`2026-06-10` Napolitano] · Nawfal breaking format · [`2026-06-08` Nawfal] | Mercouris solo monologue cadence |
-| **8 Emulation QA** | Triad contrast | Full matrix | [triad-voice-orthogonality-june-2026.md](../_scratch/triad-voice-orthogonality-june-2026.md) | Duplicating 8-axis prose in profile |
+| **8 Emulation QA** | Triad contrast | Full matrix | [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat | Duplicating 8-axis prose in profile |
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “confession through projection… rugpull presidency” · ✗ “we're going up the escalation ladder… four elements of a ceasefire” (Mearsheimer) | Neutral analyst précis |
 | **8 Emulation QA** | Anti-pattern fence | vs Mercouris | ✗ “I'm very skeptical… not on the ground” hedge stack on Hormuz | ✓ Blunt who-pays / Vance humiliation chain |
 
