@@ -184,6 +184,15 @@ skills:
   - process_approved_candidates
   category: truth-pipeline
   status: active
+- name: audit-index
+  source: audit-index/SKILL.md
+  appendix: .cursor/skills/audit-index/CURSOR_APPENDIX.md
+  target: .cursor/skills/audit-index/SKILL.md
+  verify_forbidden_substrings:
+  - platform/users/grace-mar/
+  - process_approved_candidates
+  category: truth-pipeline
+  status: active
 - name: check-sources
   source: check-sources/SKILL.md
   appendix: .cursor/skills/check-sources/CURSOR_APPENDIX.md

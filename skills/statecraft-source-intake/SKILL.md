@@ -286,6 +286,7 @@ Structured-field law:
 
 8. **Refresh the smallest still-live archive surfaces**
    - In `single-source safe mode`, refresh the touched day `day-index.md` immediately (`python scripts/build_statecraft_day_indices.py --day YYYY-MM-DD` — also writes the README stub pointer).
+   - If host/thread/kind stats on day-index still disagree with capture YAML (common after caption wrapper), run **`audit index --day YYYY-MM-DD`** before re-land or synthesis blame.
    - In `single-source safe mode`, refresh the touched month index and archive navigation when the new source changes those rollups.
    - In `batch-throughput mode`, defer these refreshes until the batch checkpoint.
    - Keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.

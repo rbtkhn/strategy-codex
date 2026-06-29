@@ -41,6 +41,7 @@ Navigation chain:
 - `build_day_index()` / `build_day_readme_stub()`
 - CLI: `python scripts/build_statecraft_day_indices.py --day YYYY-MM-DD` or `--month YYYY-MM`
 - Reader: `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD`
+- **Audit:** `python scripts/audit_statecraft_archive_index.py --day YYYY-MM-DD` — parity, stale index, hygiene; skill **`audit index`**
 
 ---
 

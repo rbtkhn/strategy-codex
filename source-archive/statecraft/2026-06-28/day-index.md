@@ -9,12 +9,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (1)
+- Body kind mix: `cleaned-transcript` (1)
 - Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
-- Distinct hosts: `0`
+- Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -22,9 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: (none)
+- Hosts: `Nima Alkhorshid` (1)
 - Guests: `Larry Johnson` (1)
-- Threads: `johnson` (1)
+- Threads: `alkorshid` (1), `johnson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `johnson` | [hLmQVNMosz4](https://www.youtube.com/watch?v=hLmQVNMosz4) | `source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `alkorshid` | [hLmQVNMosz4](https://www.youtube.com/watch?v=hLmQVNMosz4) | `source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md` |
 
 ## Writer sources
 

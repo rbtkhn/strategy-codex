@@ -9,7 +9,7 @@ Inclusion law: [writer-index-spec.md](./writer-index-spec.md). Roster SSOT: [sta
 ## Stats
 
 - Configured writers: `6`
-- Archive files mapped: `198`
+- Archive files mapped: `201`
 - Machine roster: [writer-index.json](./writer-index.json)
 
 ## Writers
@@ -17,8 +17,8 @@ Inclusion law: [writer-index-spec.md](./writer-index-spec.md). Roster SSOT: [sta
 | Writer slug | Label | Files | Days | Thread | Feed URL | First day | Last day |
 | --- | --- | ---: | ---: | --- | --- | --- | --- |
 | `simplicius` | Simplicius | 63 | 62 | `simplicius` | [open](https://simplicius76.substack.com) | `2026-01-02` | `2026-04-27` |
-| `pape` | Prof Robert Pape / Escalation Trap | 54 | 45 | `pape` | [open](https://escalationtrap.substack.com) | `2026-02-25` | `2026-06-22` |
-| `crooke` | Alastair Crooke / Conflicts Forum | 29 | 29 | `crooke` | [open](https://conflictsforum.substack.com) | `2026-01-08` | `2026-06-18` |
+| `pape` | Prof Robert Pape / Escalation Trap | 56 | 47 | `pape` | [open](https://escalationtrap.substack.com) | `2026-02-25` | `2026-06-27` |
+| `crooke` | Alastair Crooke / Conflicts Forum | 30 | 30 | `crooke` | [open](https://conflictsforum.substack.com) | `2026-01-08` | `2026-06-25` |
 | `ritter` | Scott Ritter / Real Scott Ritter | 27 | 26 | `ritter` | [open](https://scottritter.substack.com) | `2026-01-03` | `2026-06-19` |
 | `parsi` | Trita Parsi | 23 | 21 | `parsi` | [open](https://tritaparsi.substack.com) | `2026-01-09` | `2026-06-17` |
 | `jiang` | Professor Jiang (Predictive History) | 2 | 2 | `jiang` | [open](https://predictivehistory.substack.com) | `2026-05-23` | `2026-06-13` |

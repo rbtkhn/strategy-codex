@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-28T11:49:31+00:00",
+  "generated_at": "2026-06-29T00:15:49+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "statecraft/channels/channel-index.md",
   "stats": {
     "main_channel_count": 16,
-    "file_count": 1498,
+    "file_count": 1502,
     "watchlist_count": 7,
     "discoverable_count": 16,
     "explicit_slug_count": 16
@@ -29,15 +29,15 @@
     {
       "slug": "dialogue-works",
       "label": "Dialogue Works",
-      "file_count": 310,
-      "day_count": 198,
+      "file_count": 313,
+      "day_count": 199,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@dialogueworks01",
       "first_day": "2025-01-04",
-      "last_day": "2026-06-27",
+      "last_day": "2026-06-28",
       "channel_id": "UCkF-6h_Zgf9zXNUmUB-MzTw"
     },
     {
@@ -71,15 +71,15 @@
     {
       "slug": "glenn-diesen",
       "label": "Glenn Diesen",
-      "file_count": 214,
-      "day_count": 175,
+      "file_count": 215,
+      "day_count": 176,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@GDiesen1",
       "first_day": "2023-01-14",
-      "last_day": "2026-06-25",
+      "last_day": "2026-06-27",
       "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g"
     },
     {
