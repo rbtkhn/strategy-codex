@@ -296,7 +296,7 @@ Absolutely.
 who's going to replace Vladimir Putin if
 that happens, what would be the reaction
 on the part of Russians? Yesterday I
-talked with Andre Martanov. I wanted to
+talked with Andre Martyanov. I wanted to
 know what is the mindset on the part of
 Russians? What would be the reaction if
 that happens? He literally said they're

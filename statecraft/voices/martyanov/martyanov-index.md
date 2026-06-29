@@ -4,6 +4,15 @@ WORK only; not Record.
 
 Purpose: provide the canonical route map for materialized Martyanov appearances and the resolved watch-URL bench that explains the shelf shape before full backfill lands.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index martyanov` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)
+
+## Corpus note
+
+- **34** eligible archive captures on disk (2025-01-26 → 2026-06-18)
+- Rebuild: `python scripts/build_martyanov_index.py`
+- **27** Dialogue Works/Nima · **4** Davis · **3** Diesen · **0** other
+- Host buckets own first-open label transforms; curated watch-URL bench and host arcs sit beside parity rows
+
 ## Direct Materialized Appearances
 
 ### Glenn Diesen
@@ -14,8 +23,8 @@ Purpose: provide the canonical route map for materialized Martyanov appearances 
 
 ### Daniel Davis Deep Dive
 
-- [2025-10-20 - Russia: all about demilitarizing NATO](../../../source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md)
-- [2025-12-08 - A JUST and LASTING DEFEAT](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
+- [2025-10-20 - Russia: All About DEMILITARIZING NATO /Andrei Martyanov & Lt Col Dani…](../../../source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md)
+- [2025-12-08 - A JUST and LASTING DEFEAT: Europe meets Zelensky / Lt Col Daniel Davi…](../../../source-archive/statecraft/2025-12-08/source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md)
 - [2025-12-29 - Russia will finish off Ukraine](../../../source-archive/statecraft/2025-12-29/source-daniel-davis-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md)
 - [2026-02-24 - Ukraine Russia war enters the fifth year](../../../source-archive/statecraft/2026-02-24/source-daniel-davis-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md)
 
@@ -45,6 +54,9 @@ Purpose: provide the canonical route map for materialized Martyanov appearances 
 - [2026-05-14 - Iran and Russia just changed war forever](../../../source-archive/statecraft/2026-05-14/source-dialogue-works-andrei-martyanov-iran-and-russia-just-changed-war-forever-here-s-how-2026-05-14.md)
 - [2026-05-21 - Hezbollah annihilates air defense](../../../source-archive/statecraft/2026-05-21/source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md)
 - [2026-05-28 - Hezbollah hits IDF, US & Iran fight... and Russia picked that moment to strike](../../../source-archive/statecraft/2026-05-28/source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md)
+- [2026-06-04 - Israel's Military JUST Got HUMILIATED on EVERY Front](../../../source-archive/statecraft/2026-06-04/source-dialogue-works-andrei-martyanov-israel-s-military-just-got-humiliated-on-every-front-2026-06-04.md)
+- [2026-06-11 - US Strikes Iran – Iran Hits Back at CRITICAL Targets IMMEDIATELY](../../../source-archive/statecraft/2026-06-11/source-dialogue-works-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md)
+- [2026-06-18 - Israel Just Dealt a Defeat to the US](../../../source-archive/statecraft/2026-06-18/source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md)
 
 ## Resolved 2025 Dialogue Works Bench
 

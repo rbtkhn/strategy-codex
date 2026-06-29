@@ -11,11 +11,21 @@ VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 
 WRITER_SHELF_SLUGS = frozenset({"parsi", "pape", "crooke", "ritter"})
 
+GUEST_REBUILD_SHELF_SLUGS = frozenset(
+    {"hoh", "martyanov", "postol", "krapivnik", "krainer"}
+)
+
 GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
     "parsi": re.compile(r"trita\s+parsi|\bparsi\b", re.I),
     "pape": re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape|\bpape\b", re.I),
     "crooke": re.compile(r"alastair\s+crooke|\bcrooke\b", re.I),
     "ritter": re.compile(r"scott\s+ritter|\britter\b", re.I),
+    "martyanov": re.compile(r"andrei\s+martyanov|\bmartyanov\b|\bmartynaov\b", re.I),
+    "krainer": re.compile(r"alex\s+krainer|\bkrainer\b", re.I),
+}
+
+SLUG_FILENAME_ALIASES: dict[str, tuple[str, ...]] = {
+    "martyanov": ("martynaov",),
 }
 
 PAPE_DATE_STUB = re.compile(r"^source-pape-\d{4}-\d{2}-\d{2}\.md$", re.I)
@@ -28,12 +38,17 @@ _SLUG_FILENAME_PATTERNS: dict[str, re.Pattern[str]] = {}
 def slug_token_in_capture_filename(slug: str, filename: str) -> bool:
     """Match slug as a hyphen-delimited token in capture filenames (not substring)."""
     key = slug.casefold()
-    pattern = _SLUG_FILENAME_PATTERNS.get(key)
-    if pattern is None:
-        slug_esc = re.escape(key)
-        pattern = re.compile(rf"(?:^|-){slug_esc}(?:-|\.|$)", re.I)
-        _SLUG_FILENAME_PATTERNS[key] = pattern
-    return bool(pattern.search(filename.casefold()))
+    tokens = (key,) + SLUG_FILENAME_ALIASES.get(key, ())
+    name_fold = filename.casefold()
+    for token in tokens:
+        pattern = _SLUG_FILENAME_PATTERNS.get(token)
+        if pattern is None:
+            slug_esc = re.escape(token)
+            pattern = re.compile(rf"(?:^|-){slug_esc}(?:-|\.|$)", re.I)
+            _SLUG_FILENAME_PATTERNS[token] = pattern
+        if pattern.search(name_fold):
+            return True
+    return False
 
 
 def norm_scalar(value: object) -> str:
@@ -113,6 +128,9 @@ def _guest_named(meta: dict[str, object], slug: str) -> bool:
     title = norm_scalar(meta.get("title"))
     if pattern.search(title):
         return True
+    guest = norm_scalar(meta.get("guest"))
+    if guest and pattern.search(guest):
+        return True
     for key in ("guest_people", "host_people", "people"):
         people = meta.get(key)
         if isinstance(people, list):
@@ -142,7 +160,7 @@ def capture_matches_shelf(slug: str, path: Path, meta: dict[str, object], body: 
 
 def resolve_shelf_slugs(path: Path, meta: dict[str, object], body: str = "") -> list[str]:
     slugs: list[str] = []
-    for slug in sorted(WRITER_SHELF_SLUGS):
+    for slug in sorted(WRITER_SHELF_SLUGS | GUEST_REBUILD_SHELF_SLUGS):
         if not shelf_index_path(slug).is_file():
             continue
         if capture_matches_shelf(slug, path, meta, body):

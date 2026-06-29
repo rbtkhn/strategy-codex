@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hGqf1_KeRXk) | `source-alexander-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md` |
 | `daniel-davis` | Deep Dive | `davis`, `parsi` | [watch](https://www.youtube.com/watch?v=CYcmm9KmMO4) | `source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md` |
-| `daniel-davis` | Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=Jc8t8SBhmCo) | `source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md` |
+| `daniel-davis` | Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=Jc8t8SBhmCo) | `source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md` |
 | `glenn-diesen` | Glenn Diesen | `glenn-diesen`, `diesen`, `krainer` | [watch](https://www.youtube.com/watch?v=_HembJRfcFQ) | `source-glenn-diesen-alex-krainer-europes-militarism-economic-decline-2025-10-20.md` |
 
 ## Writer sources
@@ -57,5 +57,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 - `source-alexander-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md`
 - `source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md`
-- `source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md`
+- `source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md`
 - `source-glenn-diesen-alex-krainer-europes-militarism-economic-decline-2025-10-20.md`

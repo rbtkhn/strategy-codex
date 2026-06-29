@@ -4,6 +4,15 @@ WORK only; not Record.
 
 Purpose: provide the canonical route map for materialized Postol appearances and the smaller set of support-tier inventory evidence that helps explain the shelf shape.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index postol` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)
+
+## Corpus note
+
+- **5** eligible archive captures on disk (2026-03-23 → 2026-06-23)
+- Rebuild: `python scripts/build_postol_index.py`
+- **3** Dialogue Works/Nima · **2** Davis · **0** Diesen · **0** other
+- Host buckets own first-open label transforms; host arcs and inventory overlays sit beside parity rows
+
 ## Direct Materialized Appearances
 
 ### Dialogue Works / Nima

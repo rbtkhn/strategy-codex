@@ -245,3 +245,33 @@ def test_apply_replacements_fixes_nima_alkhorshid_display() -> None:
     assert counts["nima_alkhorshid_display"] == 2
     assert counts["nima_alkhorshid_surname_poss"] == 1
     assert counts["nima_alkhorshid_surname_canonical"] == 1
+
+
+def test_apply_replacements_fixes_martyanov_asr_family() -> None:
+    text = (
+        "Andre Martiano and Andrei Martanov joined Andre Martianos.\n"
+        "martynaov slug typo and Martinov is a former officer.\n"
+    )
+    labels = {
+        "martyanov_andrei_martiano",
+        "martyanov_andre_martiano",
+        "martyanov_andrei_martanov",
+        "martyanov_andre_martanov",
+        "martyanov_andre_martianos",
+        "martyanov_martynaov",
+        "martyanov_martinov",
+        "martyanov_martanov",
+    }
+    specs = fix.select_specs(labels)
+    updated, counts = fix.apply_replacements(text, specs)
+    assert "Martiano" not in updated
+    assert "Martanov" not in updated
+    assert "martynaov" not in updated
+    assert "Martinov" not in updated
+    assert "Martianos" not in updated
+    assert updated.count("Martyanov") == 5
+    assert counts["martyanov_andre_martiano"] == 1
+    assert counts["martyanov_andrei_martanov"] == 1
+    assert counts["martyanov_andre_martianos"] == 1
+    assert counts["martyanov_martynaov"] == 1
+    assert counts["martyanov_martinov"] == 1

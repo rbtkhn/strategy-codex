@@ -36,6 +36,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Karaganov | [karaganov/karaganov-index.md](karaganov/karaganov-index.md) · compat [karaganov/karaganov-source-index.md](karaganov/karaganov-source-index.md) |
 | Lascaris | [lascaris/lascaris-index.md](lascaris/lascaris-index.md) · compat [lascaris/lascaris-source-index.md](lascaris/lascaris-source-index.md) |
 | Kent | [kent/kent-index.md](kent/kent-index.md) · compat [kent/kent-source-index.md](kent/kent-source-index.md) |
+| Krainer | [krainer/krainer-index.md](krainer/krainer-index.md) · compat [krainer/krainer-source-index.md](krainer/krainer-source-index.md) |
 | Krapivnik | [krapivnik/krapivnik-index.md](krapivnik/krapivnik-index.md) · compat [krapivnik/krapivnik-source-index.md](krapivnik/krapivnik-source-index.md) |
 | Macgregor | [macgregor/macgregor-index.md](macgregor/macgregor-index.md) · compat [macgregor/macgregor-source-index.md](macgregor/macgregor-source-index.md) |
 | Maté | [mate/mate-index.md](mate/mate-index.md) · compat [mate/mate-source-index.md](mate/mate-source-index.md) |

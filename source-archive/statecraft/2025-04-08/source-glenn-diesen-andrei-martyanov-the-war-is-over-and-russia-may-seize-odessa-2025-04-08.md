@@ -12,7 +12,7 @@ status: raw-input
 ---
 # Andrei Martyanov: The War is Over and Russia May Seize Odessa
 
-Hi everyone. I am joined today by Andre Martanov, an expert on Russian military and naval strategy. Also, yeah, a former officer in the Soviet Union who later worked in the US as a director of commercial aerospace. Now, uh it's yeah, great. This is the first time we speak, but I've seen you Yeah. dozens of time.
+Hi everyone. I am joined today by Andre Martyanov, an expert on Russian military and naval strategy. Also, yeah, a former officer in the Soviet Union who later worked in the US as a director of commercial aerospace. Now, uh it's yeah, great. This is the first time we speak, but I've seen you Yeah. dozens of time.
 
 Um I I wanted to start with a big question which is uh where are we in the Ukraine war now? Um I mean even in Europe we appear to have retired we are winning narrative. Uh but how do you read what is going on on the battlefield at the moment?
 

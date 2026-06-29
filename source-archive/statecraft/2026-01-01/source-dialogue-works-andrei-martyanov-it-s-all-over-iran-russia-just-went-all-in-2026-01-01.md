@@ -29,7 +29,7 @@ evidence_grade: transcript-grade
 Kind: captions
 Language: en
 Hi everybody. Today's Thursday, January
-1st, 2026. Andre Martiano, our dear
+1st, 2026. Andre Martyanov, our dear
 friend, our brother is here with us.
 Welcome back, Andre and happy new year.
 >> Happy new year to everybody.

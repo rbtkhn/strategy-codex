@@ -264,6 +264,6 @@ They're they're they're living a fancy life there and they don't have you know a
 
 what would happen and let's see what would be the reaction of the United States to the Iranian attack. I hope I I I tried to give my understanding of what's going on and it was a great pleasure to talk to you. It's too late here in Brazil. Yeah, it's almost, you know, midnight here. And thank you so much for being with us with me tonight.
 
-And tomorrow I'm going to talk with Le Maru. I'm going to talk with, you know, I have many guests. Tomorrow, Michael Hudson and Richard Wolf, Andre Martiano. I'm many, many guests. Tomorrow we're going to have four or five podcasts. Again, thank you so much and hope everything goes well. And we we can hope, but the reality is different because Donald Trump is the president of the United States.
+And tomorrow I'm going to talk with Le Maru. I'm going to talk with, you know, I have many guests. Tomorrow, Michael Hudson and Richard Wolf, Andre Martyanov. I'm many, many guests. Tomorrow we're going to have four or five podcasts. Again, thank you so much and hope everything goes well. And we we can hope, but the reality is different because Donald Trump is the president of the United States.
 
 Remember that. And with Donald Trump, nothing going to go well. And good luck and thank you for being with me tonight. See you soon.

@@ -253,7 +253,7 @@ This channel index lists **host-channel captures** (`channel_slug: daniel-davis`
 ## 2025-10-20
 
 - [youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20](../../../source-archive/statecraft/2025-10-20/source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md)
-- [youtube-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20](../../../source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md)
+- [youtube-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20](../../../source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md)
 
 ## 2025-10-30
 

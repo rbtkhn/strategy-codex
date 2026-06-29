@@ -450,3 +450,48 @@ def test_shelf_slug_filename_token_not_substring(tmp_path: Path, monkeypatch) ->
     findings = audit.audit_shelf_index("mate", archive_root=archive)
     assert any(f.code == "archive_parity" and f.level == "pass" for f in findings)
     assert not any(f.code == "archive_unlisted" for f in findings)
+
+
+def test_martyanov_slug_matches_typo_token_and_guest_meta(tmp_path: Path, monkeypatch) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    archive = tmp_path / "archive"
+    typo_capture = (
+        archive
+        / "2025-10-20"
+        / "source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md"
+    )
+    guest_meta_capture = (
+        archive
+        / "2025-12-08"
+        / "source-daniel-davis-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md"
+    )
+    _write(
+        typo_capture,
+        "---\npub_date: 2025-10-20\nguest: Andrei Martyanov\nthread: davis\n---\n\n",
+    )
+    _write(
+        guest_meta_capture,
+        "---\npub_date: 2025-12-08\nguest: Andrei Martyanov\nthread: davis\n---\n\n",
+    )
+
+    assert shelf_utils.slug_token_in_capture_filename("martyanov", typo_capture.name)
+    assert not shelf_utils.slug_token_in_capture_filename("martyanov", "source-checkmate-only.md")
+    assert shelf_utils.capture_matches_shelf(
+        "martyanov", guest_meta_capture, {"guest": "Andrei Martyanov", "title": "Davis and Martyanov"}, ""
+    )
+
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "martyanov"
+    shelf.mkdir(parents=True)
+    _write(shelf / "martyanov-index.md", "# Martyanov\n")
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n| Martyanov | [martyanov/martyanov-index.md](martyanov/martyanov-index.md) |\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+    monkeypatch.setattr(audit, "REPO_ROOT", tmp_path)
+
+    names = {p.name for p in audit.iter_archive_captures_for_shelf("martyanov", archive)}
+    assert typo_capture.name in names
+    assert guest_meta_capture.name in names

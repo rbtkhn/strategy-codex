@@ -559,8 +559,7 @@ not Shahad. U you know, minor point, but
 if you can't even properly describe it,
 how the hell we even know that if you
 know what you're talking about? That's
-number one. Number two, get Andre
-Martiano. You know, you're going to have
+number one. Number two, get Andre Martyanov. You know, you're going to have
 him on this week, I presume. Andre just
 did a piece the other day. He pointed
 out he did he did the mathematics on it.

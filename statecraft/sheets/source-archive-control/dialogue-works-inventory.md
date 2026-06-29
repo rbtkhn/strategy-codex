@@ -30,6 +30,8 @@
 
 User-supplied Dialogue Works rows added outside the January crawl snapshot. Some rows are mirrored in the crawl table; all others are marked `needs capture` until mirrored into `raw-input/`.
 
+2026-06-28 reconciliation note: Postol rows for 2026-03-23, 2026-04-03, and 2026-05-08 marked mirrored against source-archive/statecraft captures.
+
 2026-05-12 reconciliation note: this appendix now includes the captured `Baud` rows for 2026-05-04 and 2026-05-11, which were on disk after the last crawl snapshot but had not yet been reflected here.
 
 | pub_date | Title | Guest | URL | Routing / note | raw-input |
@@ -136,7 +138,7 @@ User-supplied Dialogue Works rows added outside the January crawl snapshot. Some
 | 2026-03-20 | Amb. Chas Freeman: Ground Troops in Iran? This Could Collapse Netanyahuâ€™s Strategy | Amb. Chas Freeman | [https://www.youtube.com/watch?v=gwobyOxdf08](https://www.youtube.com/watch?v=gwobyOxdf08) | thread: freeman | needs capture |
 | 2026-03-20 | Larry Johnson & Col. Wilkerson: Second F-35 Down - Iran War Spirals Into DEVASTATING New Phase | Larry Johnson & Col. Wilkerson | [https://www.youtube.com/watch?v=O8nDFUPG0Hs](https://www.youtube.com/watch?v=O8nDFUPG0Hs) | thread: johnson | needs capture |
 | 2026-03-23 | Col. Jacques Baud: Iranâ€™s $Billion Power Move: Monetizing the Worldâ€™s Oil Lifeline | Col. Jacques Baud | [https://www.youtube.com/watch?v=w00jitzvnTM](https://www.youtube.com/watch?v=w00jitzvnTM) | thread: baud | needs capture |
-| 2026-03-23 | Prof. Ted Postol: Israel?s Air Defense in TOTAL COLLAPSE | Prof. Ted Postol | [https://www.youtube.com/watch?v=FOs4skvj5F8](https://www.youtube.com/watch?v=FOs4skvj5F8) | thread: postol | needs capture |
+| 2026-03-23 | Prof. Ted Postol: Israel?s Air Defense in TOTAL COLLAPSE | Prof. Ted Postol | [https://www.youtube.com/watch?v=FOs4skvj5F8](https://www.youtube.com/watch?v=FOs4skvj5F8) | thread: postol | mirrored |
 | 2026-03-24 | Seyed M. Marandi: Israel Hits Iran Energy Sites, Iranâ€™s Next Move: Israelâ€™s Energy & Water Systems | Seyed M. Marandi | [https://www.youtube.com/watch?v=b3h1gOSKR_E](https://www.youtube.com/watch?v=b3h1gOSKR_E) | thread: marandi | needs capture |
 | 2026-03-25 | Lt Col. Daniel Davis: Iran’s Trap Is Already Set… And the U.S. Is Moving In | Lt Col. Daniel Davis | [https://www.youtube.com/watch?v=_6_8JvP6Y9Y](https://www.youtube.com/watch?v=_6_8JvP6Y9Y) | thread: davis | mirrored |
 | 2026-03-27 | Chas Freeman: If Troops Enter Iranâ€¦ Israelâ€™s Entire Strategy FALLS APART | Chas Freeman | [https://www.youtube.com/watch?v=FnMwyOTXhAU](https://www.youtube.com/watch?v=FnMwyOTXhAU) | thread: freeman | needs capture |
@@ -148,7 +150,7 @@ User-supplied Dialogue Works rows added outside the January crawl snapshot. Some
 | 2026-04-02 | Andrei Martyanov: IT’S OVER: The U.S. Just LOST to Iran… Here’s Why | Andrei Martyanov | [https://www.youtube.com/watch?v=3EzbLrujYzY](https://www.youtube.com/watch?v=3EzbLrujYzY) | thread: martyanov | needs capture |
 | 2026-04-02 | Scott Ritter: Will Iran Force the US Out of the Middle East? | Scott Ritter | [https://www.youtube.com/watch?v=ALxr05y5YaE](https://www.youtube.com/watch?v=ALxr05y5YaE) | thread: ritter | needs capture |
 | 2026-04-03 | Amb. Chas Freeman: Trump PUSHES ESCALATION â€” Israelâ€™s Strategy COLLAPSES Overnight | Amb. Chas Freeman | [https://www.youtube.com/watch?v=wJcTHrczIgA](https://www.youtube.com/watch?v=wJcTHrczIgA) | thread: freeman | needs capture |
-| 2026-04-03 | Prof. Ted Postol: Iran Already Achieved NUCLEAR DETERRENCE Against Israel | Prof. Ted Postol | [https://www.youtube.com/watch?v=ab1cfVNWF48](https://www.youtube.com/watch?v=ab1cfVNWF48) | thread: postol | needs capture |
+| 2026-04-03 | Prof. Ted Postol: Iran Already Achieved NUCLEAR DETERRENCE Against Israel | Prof. Ted Postol | [https://www.youtube.com/watch?v=ab1cfVNWF48](https://www.youtube.com/watch?v=ab1cfVNWF48) | thread: postol | mirrored |
 | 2026-04-06 | Col. Jacques Baud: Iran HAMMERS Israel AND GCC Countries After US-Israel Attacks on Key Facilities | Col. Jacques Baud | [https://www.youtube.com/watch?v=ClZ0Bt_wJTU](https://www.youtube.com/watch?v=ClZ0Bt_wJTU) | thread: baud | needs capture |
 | 2026-04-06 | Larry C. Johnson: Iran's 'Dead' Defense WIPES OUT US Jets & Black Hawks â€“ Trump Ultimatum FAILS | Larry C. Johnson | [https://www.youtube.com/watch?v=l2QJXZnf1A8](https://www.youtube.com/watch?v=l2QJXZnf1A8) | thread: johnson | needs capture |
 | 2026-04-07 | Seyed M. Marandi: Iran SLAMS Trumpâ€™s Ultimatum w/ COUNTER ULTIMATUM â€” War Headed DECIMATING Attacks | Seyed M. Marandi | [https://www.youtube.com/watch?v=k-ZXf1Gd1-Y](https://www.youtube.com/watch?v=k-ZXf1Gd1-Y) | thread: marandi | needs capture |
@@ -172,6 +174,7 @@ User-supplied Dialogue Works rows added outside the January crawl snapshot. Some
 | 2026-05-01 | Amb. Chas Freeman: Israelâ€™s Grand Plan Collapsed in Record Time | Amb. Chas Freeman | [https://www.youtube.com/watch?v=xjRDqdqEl4Y](https://www.youtube.com/watch?v=xjRDqdqEl4Y) | thread: freeman | needs capture |
 | 2026-05-01 | Larry C. Johnson & Col. Wilkerson: Itâ€™s Over: Iran Just Wiped Out Trumpâ€™s Blockade - War IMMINENT | Larry C. Johnson & Col. Wilkerson | [https://www.youtube.com/watch?v=Y5Ij0cWArw0](https://www.youtube.com/watch?v=Y5Ij0cWArw0) | thread: johnson | needs capture |
 | 2026-05-01 | Prof. Ted Postol: How Iran War Bankrupted the US & Israeli Military | Prof. Ted Postol | [https://www.youtube.com/watch?v=qSmvkuSjGOY](https://www.youtube.com/watch?v=qSmvkuSjGOY) | thread: postol | needs capture |
+| 2026-05-08 | Prof. Ted Postol: The Third Round of War Is Israel's Worst Nightmare Yet | Prof. Ted Postol | [https://www.youtube.com/watch?v=zUYhhZwU5R0](https://www.youtube.com/watch?v=zUYhhZwU5R0) | thread: postol | mirrored |
 | 2026-05-04 | Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions | Col. Jacques Baud | [https://www.youtube.com/watch?v=_GNFo2d4c2w](https://www.youtube.com/watch?v=_GNFo2d4c2w) | thread: baud | mirrored |
 | 2026-05-11 | Hormuz, Iran, France, and the New Security Architecture | Col. Jacques Baud | [https://www.youtube.com/watch?v=5D-OD0iezZ8](https://www.youtube.com/watch?v=5D-OD0iezZ8) | thread: baud | mirrored |
 | 2026-05-27 | Scott Ritter: Iran Just HIT an MQ-9 & Opened Fire on an RQ-4 and F-35 - Russia Escalates W/ Oreshnik | Scott Ritter | [https://www.youtube.com/watch?v=XOgN0w9DgqU](https://www.youtube.com/watch?v=XOgN0w9DgqU) | thread: ritter | mirrored |

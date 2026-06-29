@@ -15,7 +15,7 @@ source_note: "Automated YouTube transcript fetch for Dialogue Works."
 ---
 # Andrei Martyanov: It's ALL OVER: Iran, Russia and China Move In Together
 
-Hi everybody. Today is Thursday, December 11th, 2025 and our dear friend Andre Martanov is here with us. Welcome back Andre. >> My pleasure. >> Let me start Andre with the US national security strategy. Everybody's talking about it and some sort of changes important changes you know you see in this new document.
+Hi everybody. Today is Thursday, December 11th, 2025 and our dear friend Andre Martyanov is here with us. Welcome back Andre. >> My pleasure. >> Let me start Andre with the US national security strategy. Everybody's talking about it and some sort of changes important changes you know you see in this new document.
 
 What is your understanding of the new document and how much of you know difference do you see when it you compare it to the previous one from the Biden administration? Oh, it's uh if let's start from the end. If comparing to Biden administration, it's revolutionary actually. It's revolutionary not only from Biden administration, it's revolutionary from any type of the national security strategies which has been ever produced in the postw World War II period. Uh and obviously we have to wait and see um how far it gets in terms in practical terms.
 

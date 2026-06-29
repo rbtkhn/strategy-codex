@@ -15,7 +15,7 @@ source_note: "Automated YouTube transcript fetch for Dialogue Works."
 ---
 # Andrei Martyanov: Russia Has Made Its Choice, Wiping Out Every Threat
 
-Hi everybody. Thursday, December 4th, 2025 and our dear friend, our brother Andre Martanov is here with us from Seattle. Welcome Andre. >> My pleasure. Nemo, >> please subscribe and hit like button helping us reaching more people. You know the algorithm really works this way.
+Hi everybody. Thursday, December 4th, 2025 and our dear friend, our brother Andre Martyanov is here with us from Seattle. Welcome Andre. >> My pleasure. Nemo, >> please subscribe and hit like button helping us reaching more people. You know the algorithm really works this way.
 
 Andre, let me start with it seems that somehow the you look at the situation in the United States and Europe, they're in some sort of panic. You know, >> they feel that something happening between Russia and the United States.
 

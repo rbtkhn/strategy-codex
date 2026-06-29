@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** while raw-text authority stays in the Statecraft Archive.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index krapivnik` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)
+
 ## Surface Grammar
 
 - **Surface name:** `krapivnik-source-index.md`
@@ -14,8 +16,9 @@ Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** whil
 
 ## Corpus note
 
-- **10** materialized captures on disk (2025-02-25 → 2026-06-20)
-- Primary hosts: **Dialogue Works / Nima**, **Glenn Diesen**, **Neutrality Studies**, **The Duran** (Mercouris co-host), **Mercouris solo** co-appearance
+- **10** eligible archive captures on disk (2025-02-25 → 2026-06-20)
+- Rebuild: `python scripts/build_krapivnik_index.py`
+- **4** Dialogue Works/Nima · **3** Diesen · **1** Neutrality Studies · **2** Duran/Mercouris
 - **`thread: krapivnik`** on lands from May 2026 onward; earlier rows may carry host-only thread
 
 ## 2026-06
