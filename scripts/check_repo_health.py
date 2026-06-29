@@ -27,8 +27,7 @@ def _run(cmd: list[str], *, label: str) -> tuple[int, str]:
 def run_quick() -> int:
     checks = [
         (["python3", "scripts/validate_repo_routing.py"], "repo routing"),
-        (["python3", "scripts/generate_llm_routing.py", "--check"], "LLM-ROUTING drift"),
-        (["python3", "scripts/check_generated_surfaces.py", "--headers-only"], "generated headers"),
+        (["python3", "scripts/check_generated_surfaces.py", "--check", "--strict"], "generated surfaces strict"),
         (["python3", "scripts/assert_root_file_budget.py", "--strict"], "root file budget"),
         (["python3", "scripts/check_doc_duplication.py"], "doc duplication"),
         (["python3", "scripts/check_routing_front_doors.py"], "routing front doors"),
@@ -48,8 +47,6 @@ def run_quick() -> int:
             ],
             "statecraft notes gate (changed Tier A)",
         ),
-        (["python3", "scripts/reindex_notes.py", "--check"], "statecraft notes registry drift"),
-        (["python3", "scripts/build_voice_index_registry.py", "--check"], "voice index registry drift"),
     ]
     rc = 0
     for cmd, label in checks:

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -11,6 +12,31 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = REPO_ROOT / "generated-manifest.yaml"
+
+ORPHAN_HEADER_RE = re.compile(r"<!--\s*GENERATED FILE", re.I)
+
+ORPHAN_SCAN_ROOTS = (
+    REPO_ROOT,
+    REPO_ROOT / "docs",
+    REPO_ROOT / "runtime" / "artifacts",
+    REPO_ROOT / "statecraft",
+    REPO_ROOT / "source-archive",
+)
+
+ORPHAN_SKIP_PREFIXES = (
+    ".git/",
+    ".codex-tmp/",
+    "research/",
+    "public/predictive-history/",
+    "docs/templates/",
+    "scripts/",
+)
+
+# Deferred enrollments — orphan scan warns only, never strict-fails
+ORPHAN_DEFER_PREFIXES = (
+    "docs/skill-work/work-dev/generated/",
+    "runtime/artifacts/work-dev/",
+)
 
 try:
     import yaml
@@ -116,6 +142,14 @@ def _header_ok(entry: ManifestEntry, path: Path) -> list[str]:
             f"{entry.entry_id}: header missing pattern(s) in {entry.path}: "
             + ", ".join(repr(p) for p in missing)
         ]
+    head = _read_head(path, max_lines=5)
+    if ORPHAN_HEADER_RE.search(head):
+        gen_name = Path(entry.generator).name
+        if gen_name not in head:
+            return [
+                f"{entry.entry_id}: GENERATED FILE header in {entry.path} "
+                f"does not name generator {entry.generator!r}"
+            ]
     return []
 
 
@@ -140,9 +174,53 @@ def _run_drift_check(entry: ManifestEntry) -> list[str]:
     return [f"{entry.entry_id}: drift check failed ({entry.generator}): {tail}"]
 
 
-def collect_issues(*, run_drift: bool) -> list[str]:
+def _is_deferred_orphan(rel_posix: str) -> bool:
+    return any(prefix in rel_posix for prefix in ORPHAN_DEFER_PREFIXES)
+
+
+def _iter_orphan_candidates() -> list[Path]:
+    paths: set[Path] = set()
+    for root in ORPHAN_SCAN_ROOTS:
+        if not root.is_dir():
+            continue
+        for path in root.rglob("*.md"):
+            if not path.is_file():
+                continue
+            rel = path.relative_to(REPO_ROOT).as_posix()
+            if rel.startswith(".git/") or "/node_modules/" in rel:
+                continue
+            if any(rel.startswith(prefix) for prefix in ORPHAN_SKIP_PREFIXES):
+                continue
+            paths.add(path)
+    return sorted(paths)
+
+
+def collect_orphan_issues(
+    manifest_paths: set[str],
+    *,
+    strict_orphans: bool,
+) -> list[str]:
+    issues: list[str] = []
+    for path in _iter_orphan_candidates():
+        rel = path.relative_to(REPO_ROOT).as_posix()
+        head = _read_head(path, max_lines=5)
+        if not ORPHAN_HEADER_RE.search(head):
+            continue
+        if rel in manifest_paths:
+            continue
+        if _is_deferred_orphan(rel):
+            issues.append(f"orphan (deferred): {rel} has GENERATED FILE header but not in manifest")
+            continue
+        issues.append(f"orphan: {rel} has GENERATED FILE header but not in manifest")
+    if strict_orphans:
+        return [i for i in issues if not i.startswith("orphan (deferred):")]
+    return issues
+
+
+def collect_issues(*, run_drift: bool, run_orphans: bool, strict_orphans: bool) -> list[str]:
     issues: list[str] = []
     entries = _load_manifest()
+    manifest_paths = {entry.path for entry in entries}
     drift_ran: set[tuple[str, tuple[str, ...], str | None]] = set()
 
     for entry in entries:
@@ -159,6 +237,9 @@ def collect_issues(*, run_drift: bool) -> list[str]:
             continue
         drift_ran.add(key)
         issues.extend(_run_drift_check(entry))
+
+    if run_orphans:
+        issues.extend(collect_orphan_issues(manifest_paths, strict_orphans=strict_orphans))
 
     return issues
 
@@ -181,6 +262,16 @@ def main() -> int:
         help="Validate manifest schema and generator paths only",
     )
     parser.add_argument(
+        "--orphans-only",
+        action="store_true",
+        help="Scan for GENERATED FILE headers not listed in manifest",
+    )
+    parser.add_argument(
+        "--strict-orphans",
+        action="store_true",
+        help="Exit 1 on undeclared GENERATED FILE headers (deferred paths still warn only)",
+    )
+    parser.add_argument(
         "--strict",
         action="store_true",
         help="Exit 1 when any issue is found (default: warn on stderr, exit 0)",
@@ -196,9 +287,34 @@ def main() -> int:
         print(f"ok: generated-manifest.yaml valid ({count} entries)")
         return 0
 
+    if args.orphans_only:
+        try:
+            entries = _load_manifest()
+            issues = collect_orphan_issues(
+                {e.path for e in entries},
+                strict_orphans=args.strict_orphans or args.strict,
+            )
+        except (OSError, ValueError, RuntimeError) as exc:
+            print(f"generated-surfaces: {exc}", file=sys.stderr)
+            return 1 if args.strict else 0
+        if issues:
+            for issue in issues:
+                print(f"generated-surfaces: {issue}", file=sys.stderr)
+            print(f"generated-surfaces: {len(issues)} issue(s)", file=sys.stderr)
+            fail = args.strict or args.strict_orphans
+            deferred_only = all(i.startswith("orphan (deferred):") for i in issues)
+            return 1 if fail and not deferred_only else 0
+        print("ok: generated surface orphan scan passed")
+        return 0
+
     run_drift = args.check or (not args.headers_only and not args.manifest_only)
+    run_orphans = run_drift or args.headers_only
     try:
-        issues = collect_issues(run_drift=run_drift)
+        issues = collect_issues(
+            run_drift=run_drift,
+            run_orphans=run_orphans,
+            strict_orphans=args.strict_orphans,
+        )
     except (OSError, ValueError, RuntimeError) as exc:
         print(f"generated-surfaces: {exc}", file=sys.stderr)
         return 1 if args.strict else 0
@@ -207,10 +323,27 @@ def main() -> int:
         for issue in issues:
             print(f"generated-surfaces: {issue}", file=sys.stderr)
         print(f"generated-surfaces: {len(issues)} issue(s)", file=sys.stderr)
-        return 1 if args.strict else 0
+        if args.strict:
+            blocking = [i for i in issues if not i.startswith("orphan (deferred):")]
+            if blocking:
+                return 1
+            mode_parts = ["headers"]
+            if run_drift:
+                mode_parts.append("drift")
+            if run_orphans:
+                mode_parts.append("orphans")
+            print(
+                f"ok: generated surfaces check passed ({'+'.join(mode_parts)}; deferred orphan warnings only)"
+            )
+            return 0
+        return 0
 
-    mode = "headers+drift" if run_drift else "headers"
-    print(f"ok: generated surfaces check passed ({mode})")
+    mode_parts = ["headers"]
+    if run_drift:
+        mode_parts.append("drift")
+    if run_orphans:
+        mode_parts.append("orphans")
+    print(f"ok: generated surfaces check passed ({'+'.join(mode_parts)})")
     return 0
 
 

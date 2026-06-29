@@ -33,6 +33,20 @@ python3 scripts/check_repo_health.py --full   # before large PRs
 
 CI equivalent: [`.github/workflows/repo-health.yml`](.github/workflows/repo-health.yml).
 
+### Generated files
+
+Do not edit generated files directly.
+
+To update:
+
+1. Modify source inputs (see generator in [`generated-manifest.yaml`](generated-manifest.yaml))
+2. Run the listed generator script
+3. Commit source changes and regenerated output together
+
+CI fails when generated files drift: `python3 scripts/check_generated_surfaces.py --check --strict`
+
+Detail: [`docs/contributors/generated.md`](docs/contributors/generated.md).
+
 ## Record and pipeline (fork revive only)
 
 - **Default:** capture via WORK lanes — see [docs/replacement-capture-habits.md](docs/replacement-capture-habits.md).

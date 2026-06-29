@@ -35,7 +35,7 @@ Do not introduce new authority labels without updating this table and the audit 
 | Grace-Mar mentions outside archive docs (bounded scan) | ~11,785 | ≤ 3 (short pointers) | Phase 5 |
 | Generated files without manifest entry | n/a | 0 | Phase 6 |
 
-Run `python3 scripts/check_generated_surfaces.py --check` (warn mode) or `--strict` (fail). Manifest: [`generated-manifest.yaml`](../generated-manifest.yaml).
+Run `python3 scripts/check_generated_surfaces.py --check --strict` (required CI). Manifest: [`generated-manifest.yaml`](../generated-manifest.yaml).
 
 ## Generated surface header convention (Sprint 6)
 

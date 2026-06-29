@@ -18,12 +18,12 @@ entries:
     path: runtime/artifacts/library-index.md
     category: generated
     generator: scripts/build_library_index.py
-    check_args: ["-u", "strategy-codex", "--check"]
+    check_args: ["--check"]
     header:
-      type: html_comment
+      type: markdown
       patterns:
-        - "GENERATED"
-        - "build_library_index.py"
+        - "Library index — retired"
+        - "**Generated:**"
 
   - id: statecraft-thread-index
     path: source-archive/statecraft/thread-index.md
@@ -94,6 +94,30 @@ entries:
       type: json
       patterns:
         - '"generated_at"'
+
+  - id: statecraft-notes-registry-md
+    path: runtime/artifacts/statecraft-notes-registry.md
+    category: generated
+    generator: scripts/reindex_notes.py
+    check_args: ["--check"]
+    drift_group: statecraft-notes-registry
+    header:
+      type: markdown
+      patterns:
+        - "Statecraft notes registry (generated)"
+        - "reindex_notes.py"
+
+  - id: statecraft-notes-registry-json
+    path: runtime/artifacts/statecraft-notes-registry.json
+    category: generated
+    generator: scripts/reindex_notes.py
+    check_args: ["--check"]
+    drift_group: statecraft-notes-registry
+    header:
+      type: json
+      patterns:
+        - '"generated_at"'
+        - "reindex_notes.py"
 
 # TODO (manifest gaps — no batch --check yet):
 # - source-archive/statecraft/YYYY-MM-DD/day-index.md (per-day; build_statecraft_day_indices.py)

@@ -29,12 +29,6 @@ jobs:
       - name: Repo routing (strict)
         run: python3 scripts/validate_repo_routing.py --strict
 
-      - name: LLM-ROUTING generator drift
-        run: python3 scripts/generate_llm_routing.py --check
-
-      - name: Statecraft notes registry drift
-        run: python3 scripts/reindex_notes.py --check
-
       - name: Repo path adoption (zero literals)
         run: python3 scripts/check_repo_path_adoption.py --max-literals 0
 
@@ -52,6 +46,9 @@ jobs:
 
       - name: Generated surface headers (strict)
         run: python3 scripts/check_generated_surfaces.py --headers-only --strict
+
+      - name: Generated surface drift (strict)
+        run: python3 scripts/check_generated_surfaces.py --check --strict
 
       - name: Repo Surgeon (strict, all scopes)
         run: python3 scripts/repo_surgeon.py --scope all --strict --verify-portable-skills --max-link-errors 0
@@ -85,9 +82,6 @@ jobs:
 
       - name: Archive boundary
         run: python3 scripts/check_archive_boundary.py
-
-      - name: Generated surface drift orchestrator
-        run: python3 scripts/check_generated_surfaces.py --check
 
       - name: Complexity audit thresholds
         run: python3 scripts/audit_repo_complexity.py --check
