@@ -17,6 +17,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Lens | Index file |
 |---|---|
 | Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · profile: [alkorshid/alkorshid-profile.md](alkorshid/alkorshid-profile.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Aguilar | [aguilar/aguilar-index.md](aguilar/aguilar-index.md) · object [aguilar/aguilar-speaker-object.md](aguilar/aguilar-speaker-object.md) · compat [aguilar/aguilar-source-index.md](aguilar/aguilar-source-index.md) |
 | Barnes | [barnes/barnes-index.md](barnes/barnes-index.md) · compat [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Baud | [baud/baud-index.md](baud/baud-index.md) · orthogonality [baud/index.md](baud/index.md) · compat [baud/baud-source-index.md](baud/baud-source-index.md) |
 | Blumenthal | [blumenthal/blumenthal-index.md](blumenthal/blumenthal-index.md) · compat [blumenthal/blumenthal-source-index.md](blumenthal/blumenthal-source-index.md) |

@@ -12,17 +12,19 @@ VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 WRITER_SHELF_SLUGS = frozenset({"parsi", "pape", "crooke", "ritter"})
 
 GUEST_REBUILD_SHELF_SLUGS = frozenset(
-    {"baud", "hoh", "martyanov", "postol", "krapivnik", "krainer"}
+    {"aguilar", "baud", "hoh", "kent", "martyanov", "postol", "krapivnik", "krainer"}
 )
 
 GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
     "baud": re.compile(r"jacques\s+baud|col\.?\s+jacques\s+baud|\bbaud\b", re.I),
+    "aguilar": re.compile(r"anthony\s+aguilar|lt\.?\s*col\.?\s+anthony\s+aguilar", re.I),
     "parsi": re.compile(r"trita\s+parsi|\bparsi\b", re.I),
     "pape": re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape|\bpape\b", re.I),
     "crooke": re.compile(r"alastair\s+crooke|\bcrooke\b", re.I),
     "ritter": re.compile(r"scott\s+ritter|\britter\b", re.I),
     "martyanov": re.compile(r"andrei\s+martyanov|\bmartyanov\b|\bmartynaov\b", re.I),
     "krainer": re.compile(r"alex\s+krainer|\bkrainer\b", re.I),
+    "kent": re.compile(r"joe\s+kent", re.I),
 }
 
 SLUG_FILENAME_ALIASES: dict[str, tuple[str, ...]] = {
@@ -118,6 +120,11 @@ def shelf_capture_excluded(slug: str, path: Path, meta: dict[str, object], body:
             return True
         return False
     if slug == "parsi":
+        return False
+    if slug == "karaganov":
+        # Ritter (and similar) reaction essays cite Karaganov but are not guest appearances.
+        if name.startswith("source-ritter-") and slug_token_in_capture_filename("karaganov", path.name):
+            return True
         return False
     return False
 

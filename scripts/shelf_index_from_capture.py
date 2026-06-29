@@ -77,6 +77,18 @@ def rebuild_baud_index() -> None:
     baud_idx.main()
 
 
+def rebuild_kent_index() -> None:
+    import build_kent_index as kent_idx  # noqa: E402
+
+    kent_idx.main()
+
+
+def rebuild_aguilar_index() -> None:
+    import build_aguilar_index as aguilar_idx  # noqa: E402
+
+    aguilar_idx.main()
+
+
 def apply_for_slug(slug: str, capture: Path, meta: dict, body: str) -> bool:
     if slug == "pape":
         rebuild_pape_index()
@@ -104,6 +116,14 @@ def apply_for_slug(slug: str, capture: Path, meta: dict, body: str) -> bool:
         return shelf.capture_cited_in_index(index_text, capture)
     if slug == "baud":
         rebuild_baud_index()
+        index_text = shelf.read_text(shelf.shelf_index_path(slug))
+        return shelf.capture_cited_in_index(index_text, capture)
+    if slug == "kent":
+        rebuild_kent_index()
+        index_text = shelf.read_text(shelf.shelf_index_path(slug))
+        return shelf.capture_cited_in_index(index_text, capture)
+    if slug == "aguilar":
+        rebuild_aguilar_index()
         index_text = shelf.read_text(shelf.shelf_index_path(slug))
         return shelf.capture_cited_in_index(index_text, capture)
     return shelf.append_capture_to_index(slug, capture, meta, body=body)

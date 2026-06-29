@@ -372,6 +372,55 @@ def test_shelf_index_excludes_pape_date_stub(tmp_path: Path, monkeypatch) -> Non
     assert any(f.code == "archive_parity" and f.level == "pass" for f in findings)
 
 
+def test_karaganov_shelf_excludes_ritter_reaction_capture(tmp_path: Path, monkeypatch) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    archive = tmp_path / "archive"
+    day = archive / "2026-01-03"
+    reaction = day / "source-ritter-russia-dark-sage-karaganov-2026-01-03.md"
+    _write(
+        reaction,
+        "---\nthread: ritter\npub_date: 2026-01-03\nspeaker: Scott Ritter\n---\n\nAbout Karaganov.\n",
+    )
+    guest = archive / "2025-05-14" / "source-glenn-diesen-sergey-karaganov-solo-2025-05-14.md"
+    _write(
+        guest,
+        "---\nthread: diesen\npub_date: 2025-05-14\nguest: Sergey Karaganov\n---\n\nGuest.\n",
+    )
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "karaganov"
+    shelf.mkdir(parents=True)
+    rel_guest = "../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-solo-2025-05-14.md"
+    rel_reaction = (
+        "../../../source-archive/statecraft/2026-01-03/"
+        "source-ritter-russia-dark-sage-karaganov-2026-01-03.md"
+    )
+    _write(
+        shelf / "karaganov-index.md",
+        f"# Karaganov\n\n| File |\n|---|\n| [guest]({rel_guest}) |\n| [reaction]({rel_reaction}) |\n",
+    )
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n"
+        "| Karaganov | [karaganov/karaganov-index.md](karaganov/karaganov-index.md) |\n",
+    )
+    mirror_root = tmp_path / "source-archive" / "statecraft"
+    for src in (guest, reaction):
+        dest = mirror_root / src.parent.name / src.name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(src.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+    monkeypatch.setattr(audit, "REPO_ROOT", tmp_path)
+
+    assert shelf_utils.shelf_capture_excluded("karaganov", reaction, {}, "")
+    assert not shelf_utils.shelf_capture_excluded("karaganov", guest, {}, "")
+
+    findings = audit.audit_shelf_index("karaganov", archive_root=archive)
+    parity = [f for f in findings if f.code == "archive_parity"]
+    assert parity and parity[0].level == "pass"
+    assert "1 eligible" in parity[0].message
+
+
 def test_shelf_index_from_capture_resolves_and_appends(tmp_path: Path, monkeypatch) -> None:
     import shelf_index_from_capture as shelf_cli  # noqa: E402
     import shelf_index_utils as shelf_utils  # noqa: E402

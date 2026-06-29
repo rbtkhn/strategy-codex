@@ -8,9 +8,9 @@ Purpose: canonical route map for the materialized Karaganov corpus, grouped by h
 
 Karaganov is a **single-helix, Diesen-anchored** speaker:
 
-- **7** direct captures in **Statecraft Archive** (2023–2026 full Diesen run on disk)
+- **7** direct guest captures in **archive parity** (2023–2026 Diesen run on disk)
 - **0** legacy **`codex/years/`** Karaganov captures pending promotion
-- **1** labeled reaction surface (Ritter, 2026-01-03)
+- **1** labeled reaction surface (Ritter, 2026-01-03) — cited below for routing; **excluded from parity**
 
 Host chronology detail: [arc-karaganov-diesen-host.md](../../notes/arc-karaganov-diesen-host.md).
 
