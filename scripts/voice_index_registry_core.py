@@ -17,7 +17,9 @@ DEFAULT_YAML = VOICES_DIR / "voice-index-registry.yml"
 DEFAULT_ARCHIVE = REPO_ROOT / "source-archive" / "statecraft"
 
 BUILDER_ALIASES: dict[str, str] = {
+    "alkhorshid": "build_alkhorshid_guest_index.py",
     "davis": "build_davis_guest_index.py",
+    "diesen": "build_diesen_guest_index.py",
     "mercouris": "build_mercouris_guest_index.py",
 }
 

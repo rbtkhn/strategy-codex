@@ -165,12 +165,14 @@ voices:
 
   alkhorshid:
     status: canonical
+    builder: scripts/build_alkhorshid_guest_index.py
     exclusions:
       - dialogue-works host channel (channel_slug dialogue-works, source-dialogue-works-*) excluded from guest-index parity
       - cross-host guest captures only (Nima on other hosts)
 
   diesen:
     status: canonical
+    builder: scripts/build_diesen_guest_index.py
     exclusions:
       - glenn-diesen host channel (channel_slug glenn-diesen, source-glenn-diesen-*, source-diesen-*) excluded from guest-index parity
       - cross-host guest captures only (Glenn Diesen on other hosts)

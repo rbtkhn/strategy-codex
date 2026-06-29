@@ -8,7 +8,7 @@ python3 scripts/build_voice_index_registry.py
 
 Terminology: [`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md).
 
-_Generated at 2026-06-29T13:17:45Z_
+_Generated at 2026-06-29T13:21:14Z_
 
 ## Summary
 
@@ -17,9 +17,9 @@ _Generated at 2026-06-29T13:17:45Z_
 | Voices discovered | 33 |
 | Listed in voices router | 33 |
 | With primary voice index | 33 |
-| With rebuild script | 24 |
-| Parity pass | 24 |
-| Parity warn | 9 |
+| With rebuild script | 26 |
+| Parity pass | 26 |
+| Parity warn | 7 |
 | Parity fail | 0 |
 | Broken links (total) | 0 |
 | Documented exceptions | 10 |
@@ -29,13 +29,13 @@ _Generated at 2026-06-29T13:17:45Z_
 | Voice | Primary index | Builder | Eligible | Indexed | Parity | Exceptions | Status |
 | --- | --- | --- | ---: | ---: | --- | --- | --- |
 | aguilar | `statecraft/voices/aguilar/aguilar-index.md` | `scripts/build_aguilar_index.py` | 17 | 17 | pass | — | canonical |
-| alkhorshid | `statecraft/voices/alkhorshid/alkhorshid-index.md` | — | 1 | 1 | warn | dialogue-works host channel (channel_slug dialogue-works, source-dialogue-works-*) excluded from guest-index parity; cross-host guest captures only (Nima on other hosts) | canonical |
+| alkhorshid | `statecraft/voices/alkhorshid/alkhorshid-index.md` | `scripts/build_alkhorshid_guest_index.py` | 1 | 1 | pass | dialogue-works host channel (channel_slug dialogue-works, source-dialogue-works-*) excluded from guest-index parity; cross-host guest captures only (Nima on other hosts) | canonical |
 | barnes | `statecraft/voices/barnes/barnes-index.md` | `scripts/build_barnes_index.py` | 23 | 23 | pass | — | canonical |
 | baud | `statecraft/voices/baud/baud-index.md` | `scripts/build_baud_index.py` | 34 | 34 | pass | — | canonical |
 | blumenthal | `statecraft/voices/blumenthal/blumenthal-index.md` | `scripts/build_blumenthal_index.py` | 8 | 8 | pass | — | canonical |
 | crooke | `statecraft/voices/crooke/crooke-index.md` | — | 65 | 65 | warn | legacy YYYY-MM-DD-crooke.md dated filenames excluded; transcript-crooke.md and verify-crooke-* stubs excluded | canonical |
 | davis | `statecraft/voices/davis/davis-index.md` | `scripts/build_davis_guest_index.py` | 6 | 6 | pass | daniel-davis host channel (channel_slug daniel-davis, source-daniel-davis-*) excluded from guest-index parity; guest-index eligible set mirrors build_davis_guest_index.is_guest() | canonical |
-| diesen | `statecraft/voices/diesen/diesen-index.md` | — | 3 | 3 | warn | glenn-diesen host channel (channel_slug glenn-diesen, source-glenn-diesen-*, source-diesen-*) excluded from guest-index parity; cross-host guest captures only (Glenn Diesen on other hosts) | canonical |
+| diesen | `statecraft/voices/diesen/diesen-index.md` | `scripts/build_diesen_guest_index.py` | 3 | 3 | pass | glenn-diesen host channel (channel_slug glenn-diesen, source-glenn-diesen-*, source-diesen-*) excluded from guest-index parity; cross-host guest captures only (Glenn Diesen on other hosts) | canonical |
 | freeman | `statecraft/voices/freeman/freeman-index.md` | `scripts/build_freeman_index.py` | 148 | 150 | pass | — | canonical |
 | helmer | `statecraft/voices/helmer/helmer-index.md` | `scripts/build_helmer_index.py` | 16 | 18 | pass | — | canonical |
 | hoh | `statecraft/voices/hoh/hoh-index.md` | `scripts/build_hoh_index.py` | 13 | 13 | pass | — | canonical |

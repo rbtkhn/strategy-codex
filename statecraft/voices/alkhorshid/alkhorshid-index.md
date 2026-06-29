@@ -17,12 +17,12 @@ Do **not** dedupe by calendar day alone — same person on Davis vs Dialogue Wor
 
 ## Corpus note
 
-- **1** materialized cross-host guest capture on disk (2026-05-29 Davis); expand as archive grows
+- **1** materialized cross-host guest capture on disk; expand as archive grows
 - Filename family for guest rows: `source-<host-channel>-*alkorshid*` or explicit `guest: Nima Alkhorshid` with `channel_slug` ≠ `dialogue-works`
 
 ## 2026-05
 
-- [2026-05-29 — Davis × Alkhorshid — Iran war never stops while Israel attacks Lebanon](../../../source-archive/statecraft/2026-05-29/source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis-2026-05-29.md) (`4NqmfOYz55w`) — Trump situation-room fork · Hormuz toll vs MOU text · Iranian read of True Social post · dialogue vs war headwinds · host: **Daniel Davis** · `channel_slug: daniel-davis`
+- [2026-05-29 — Iran War Never Stops While Israel Attacks Lebanon /Nima Alkhorshid & …](../../../source-archive/statecraft/2026-05-29/source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis-2026-05-29.md) (`4NqmfOYz55w`) — host: **Daniel Davis** · `daniel-davis` · cross-ref [daniel-davis-channel-index.md](../../channels/daniel-davis/daniel-davis-channel-index.md)
 
 ## Host cross-refs
 
