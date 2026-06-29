@@ -42,7 +42,7 @@ scope_class: repo-governed
 | Manifest sync all | `ph-civ`: `scripts/sync_all_parts_to_manifest.py` |
 | Study edition | `ph-civ`: `scripts/validate_study_edition.py --part NN` |
 | Handoff / ship | `strategy-codex`: `python3 scripts/operator_handoff_check.py` |
-| Statecraft index audit | `strategy-codex`: `python scripts/audit_statecraft_archive_index.py --day YYYY-MM-DD` (or `--global`, `--channel-index`, `--writer-index`; `--fix` on EXECUTE confirm) |
+| Statecraft index audit | `strategy-codex`: `python scripts/audit_statecraft_archive_index.py --day YYYY-MM-DD` (or `--global`, `--channel-index`, `--writer-index`, `--voice-index`; `--fix` on EXECUTE confirm; **not** for `--voice-index`) |
 | Essay template slop | `strategy-codex`: `python3 scripts/prose_slop_lint.py essays/<file>.md` or `--diff base...head essays/` |
 | Prose Forge (slop + optional Vale) | `strategy-codex`: `python3 scripts/prose_forge.py lint essays/<file>.md` |
 | CIV-STATE public export | `strategy-codex`: `python3 scripts/export_civilizational_statecraft_public.py` then `python3 scripts/validate_civilizational_statecraft_public.py runtime/artifacts/civilizational-statecraft-public` — **not** `--validate` on the export script |

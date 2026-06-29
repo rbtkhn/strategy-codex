@@ -6,6 +6,8 @@ WORK only; not Record.
 
 `statecraft/voices/` contains analyst **voices** (interview + written) and source-corpus **route maps** used by statecraft workflows.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --voice-index` — registry parity, link check, shelf coverage; skill **`audit index`**. (_Curated file — no `--fix` rebuild._)
+
 For shelf-class doctrine (normalized vs lighter shelves, migration law), open [README.md](README.md).
 
 For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-ROUTING.md).

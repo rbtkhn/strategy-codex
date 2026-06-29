@@ -4,7 +4,7 @@ description: Audit statecraft archive index surfaces (day-index parity, stale gl
 preferred_activation: audit index
 activation: audit index · audit day-index · index audit · audit index table
 portable: true
-version: 1.0.2
+version: 1.0.3
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -29,6 +29,7 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 - Host/thread/kind stats on day-index look wrong vs capture YAML
 - Channel roster counts or last-day columns look wrong vs recent YouTube intake
 - Writer roster file/day counts look wrong after Substack lands
+- New voice shelf landed but missing from `voice-index.md` analyst table
 - Monthly closeout or pre-push when index churn is suspected
 
 ## When not to use
@@ -53,11 +54,12 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 | Global navigation | `--global` |
 | Channel index (YouTube roster) | `--channel-index` |
 | Writer index (prose roster) | `--writer-index` |
+| Voice index (analyst registry) | `--voice-index` |
 | Inventory table only | `--table-only` + scope |
 | Audit + table | `--table` + scope |
 | Rebuild stale | `--fix` (EXECUTE / explicit confirm only) |
 
-**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** / **writer-index** — roster rows (`--table-sort words` → file count, `title` → label, `bucket` → slug, `date` → files).
+**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** / **writer-index** — roster rows (`--table-sort words` → file count, `title` → label, `bucket` → slug, `date` → files). **Voice-index** — shelf registry (`listed`, profile, index kind); **curated** — no `--fix` rebuild.
 
 ## Execution order
 

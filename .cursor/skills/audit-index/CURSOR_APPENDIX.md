@@ -5,7 +5,7 @@ Repo-specific paths and commands for **audit-index** (from `.cursor/skills/audit
 | Audit CLI | [scripts/audit_statecraft_archive_index.py](../../../scripts/audit_statecraft_archive_index.py) |
 | Channel index (md/json) | [statecraft/channels/channel-index.md](../../../statecraft/channels/channel-index.md) |
 | Writer index (md/json) | [source-archive/statecraft/writer-index.md](../../../source-archive/statecraft/writer-index.md) |
-| Writer-index spec | [writer-index-spec.md](../../../source-archive/statecraft/writer-index-spec.md) |
+| Voice index (curated) | [statecraft/voices/voice-index.md](../../../statecraft/voices/voice-index.md) |
 | Day-index builder | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
 | Global navigation builder | [scripts/build_statecraft_archive_navigation.py](../../../scripts/build_statecraft_archive_navigation.py) |
 | Day-index spec | [source-archive/statecraft/day-index-spec.md](../../../source-archive/statecraft/day-index-spec.md) |
@@ -24,7 +24,7 @@ python scripts/audit_statecraft_archive_index.py --day 2026-06-28 --table
 python scripts/audit_statecraft_archive_index.py --global
 python scripts/audit_statecraft_archive_index.py --channel-index --table
 python scripts/audit_statecraft_archive_index.py --writer-index --table
-python scripts/audit_statecraft_archive_index.py --writer-index --fix
+python scripts/audit_statecraft_archive_index.py --voice-index --table
 python scripts/audit_statecraft_archive_index.py --month 2026-06 --table-only --table-limit 50
 python -m pytest tests/test_audit_statecraft_archive_index.py -q
 python scripts/sync_portable_skills.py --skill audit-index --verify

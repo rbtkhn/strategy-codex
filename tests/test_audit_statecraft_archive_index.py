@@ -256,3 +256,41 @@ def test_channel_index_fails_when_md_stale(tmp_path: Path, monkeypatch) -> None:
     findings = audit.audit_channel_index(archive_root)
     assert any(f.code == "stale_channel_md" and f.level == "fail" for f in findings)
     assert audit.main(["--channel-index", "--root", str(archive_root)]) == 1
+
+
+def test_voice_index_audit_passes_when_shelf_listed(tmp_path: Path, monkeypatch) -> None:
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "sample"
+    shelf.mkdir(parents=True)
+    _write(
+        shelf / "sample-index.md",
+        "# Sample index\n",
+    )
+    _write(
+        voices / "voice-index.md",
+        "# Voices Index\n\n## Analyst and source-corpus lenses\n\n"
+        "| Lens | Index file |\n|---|---|\n"
+        "| Sample | [sample/sample-index.md](sample/sample-index.md) |\n\n"
+        "## Source index vs source-lattice\n\nsource-lattice doctrine here.\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+
+    findings = audit.audit_voice_index(voices)
+    assert any(f.code == "registry_parity" and f.level == "pass" for f in findings)
+    assert audit.main(["--voice-index", "--table-only"]) == 0
+
+
+def test_voice_index_fails_on_registry_gap(tmp_path: Path, monkeypatch) -> None:
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "hidden"
+    shelf.mkdir(parents=True)
+    _write(shelf / "hidden-index.md", "# Hidden\n")
+    _write(
+        voices / "voice-index.md",
+        "# Voices Index\n\n## Source index vs source-lattice\n\nsource-lattice note.\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+
+    findings = audit.audit_voice_index(voices)
+    assert any(f.code == "registry_gap" and f.level == "fail" for f in findings)
+    assert audit.main(["--voice-index"]) == 1

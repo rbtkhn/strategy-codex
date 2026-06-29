@@ -8,6 +8,7 @@ Usage:
     python scripts/audit_statecraft_archive_index.py --global
     python scripts/audit_statecraft_archive_index.py --channel-index --table
     python scripts/audit_statecraft_archive_index.py --writer-index --table
+    python scripts/audit_statecraft_archive_index.py --voice-index --table
 """
 from __future__ import annotations
 
@@ -27,6 +28,7 @@ if str(_SCRIPTS) not in sys.path:
 import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
 import statecraft_writer_index as writer_idx  # noqa: E402
+import validate_repo_routing as routing_val  # noqa: E402
 from quantify_section_nav import extract_transcript  # noqa: E402
 from statecraft_day_archive import (  # noqa: E402
     CHANNEL_INDEX_DIR,
@@ -52,6 +54,9 @@ SortKey = Literal["date", "words", "title", "bucket"]
 ChannelSortKey = Literal["files", "slug", "label", "last_day"]
 
 DEFAULT_MONTH_YEAR_TABLE_LIMIT = 50
+
+VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
+VOICES_META_DIRS = frozenset({"_templates", "_scratch", "map", "relations"})
 
 
 @dataclass(frozen=True)
@@ -100,6 +105,16 @@ class WriterIndexRow:
     feed_url: str
     first_day: str
     last_day: str
+
+
+@dataclass(frozen=True)
+class VoiceIndexRow:
+    slug: str
+    label: str
+    primary_index: str
+    listed: bool
+    profile: bool
+    index_kind: str
 
 
 def word_count_capture(path: Path) -> int:
@@ -172,7 +187,7 @@ def apply_table_limit(
 
 
 def default_table_limit(scope: str) -> int | None:
-    if scope in ("day", "channel-index", "writer-index"):
+    if scope in ("day", "channel-index", "writer-index", "voice-index"):
         return None
     return DEFAULT_MONTH_YEAR_TABLE_LIMIT
 
@@ -470,6 +485,176 @@ def run_fix_writer_index(root: Path) -> None:
     nav.write_writer_index_json(root / "writer-index.json", root, check=False)
 
 
+def _voice_index_lists_path(rel_posix: str, index_text: str, basename: str) -> bool:
+    return routing_val._index_lists_source_index(rel_posix, index_text, basename)
+
+
+def _posix_rel(path: Path) -> str:
+    try:
+        return path.relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
+def discover_voice_primary_indexes(voices_dir: Path | None = None) -> list[tuple[str, Path, str]]:
+    base = voices_dir or VOICES_DIR
+    rows: list[tuple[str, Path, str]] = []
+    if not base.is_dir():
+        return rows
+    for shelf in sorted(base.iterdir()):
+        if not shelf.is_dir() or shelf.name in VOICES_META_DIRS:
+            continue
+        slug = shelf.name
+        primary = shelf / f"{slug}-index.md"
+        if primary.is_file():
+            rows.append((slug, primary, "primary"))
+            continue
+        legacy = shelf / f"{slug}-source-index.md"
+        if legacy.is_file():
+            rows.append((slug, legacy, "legacy-source"))
+    return rows
+
+
+def collect_voice_index_rows(voices_dir: Path | None = None) -> list[VoiceIndexRow]:
+    index_path = (voices_dir or VOICES_DIR) / "voice-index.md"
+    index_text = read_text(index_path) if index_path.is_file() else ""
+    rows: list[VoiceIndexRow] = []
+    for slug, path, kind in discover_voice_primary_indexes(voices_dir):
+        rel = _posix_rel(path)
+        profile_path = path.parent / f"{slug}-profile.md"
+        label = slug.replace("-", " ").title()
+        rows.append(
+            VoiceIndexRow(
+                slug=slug,
+                label=label,
+                primary_index=rel,
+                listed=_voice_index_lists_path(rel, index_text, path.name),
+                profile=profile_path.is_file(),
+                index_kind=kind,
+            )
+        )
+    return rows
+
+
+def sort_voice_index_rows(rows: list[VoiceIndexRow], sort_key: ChannelSortKey) -> list[VoiceIndexRow]:
+    if sort_key == "label":
+        return sorted(rows, key=lambda r: (r.label.casefold(), r.slug))
+    if sort_key == "slug":
+        return sorted(rows, key=lambda r: r.slug)
+    if sort_key == "last_day":
+        return sorted(rows, key=lambda r: (not r.listed, r.slug))
+    return sorted(rows, key=lambda r: (not r.listed, r.slug))
+
+
+def audit_voice_index(voices_dir: Path | None = None) -> list[AuditFinding]:
+    findings: list[AuditFinding] = []
+    base = voices_dir or VOICES_DIR
+    index_path = base / "voice-index.md"
+    if not index_path.is_file():
+        findings.append(AuditFinding("fail", "missing_voice_index", "voice-index.md missing"))
+        return findings
+
+    index_text = read_text(index_path)
+    if "source-lattice" not in index_text.casefold():
+        findings.append(
+            AuditFinding("fail", "voice_index_doctrine", "voice-index.md missing source-lattice disambiguation")
+        )
+    else:
+        findings.append(
+            AuditFinding("pass", "voice_index_doctrine", "voice-index.md includes source-lattice disambiguation")
+        )
+
+    link_errors: list[str] = []
+    routing_val.validate_markdown_links([index_path], link_errors, strict=True)
+    if link_errors:
+        for msg in link_errors[:10]:
+            findings.append(AuditFinding("fail", "broken_link", msg))
+        if len(link_errors) > 10:
+            findings.append(
+                AuditFinding(
+                    "fail",
+                    "broken_link",
+                    f"… and {len(link_errors) - 10} more broken link(s) in voice-index.md",
+                )
+            )
+    else:
+        findings.append(AuditFinding("pass", "links_ok", "voice-index.md links resolve on disk"))
+
+    primary = discover_voice_primary_indexes(base)
+    unlisted = [
+        _posix_rel(path)
+        for _slug, path, _kind in primary
+        if not _voice_index_lists_path(_posix_rel(path), index_text, path.name)
+    ]
+    if unlisted:
+        for rel in unlisted:
+            findings.append(AuditFinding("fail", "registry_gap", f"voice-index.md missing primary shelf: {rel}"))
+    else:
+        findings.append(
+            AuditFinding(
+                "pass",
+                "registry_parity",
+                f"voice-index.md lists all {len(primary)} primary voice shelves",
+            )
+        )
+
+    for path in sorted(base.glob("**/*-source-index.md")) if base.is_dir() else []:
+        slug = path.parent.name
+        promoted = base / slug / f"{slug}-index.md"
+        if promoted.is_file():
+            continue
+        rel = _posix_rel(path)
+        if not _voice_index_lists_path(rel, index_text, path.name):
+            findings.append(
+                AuditFinding("warn", "hygiene", f"legacy source-index not listed in voice-index.md: {rel}")
+            )
+
+    shelves_without_index = []
+    if base.is_dir():
+        for shelf in sorted(base.iterdir()):
+            if not shelf.is_dir() or shelf.name in VOICES_META_DIRS:
+                continue
+            if not any(shelf / name for name in (f"{shelf.name}-index.md", f"{shelf.name}-source-index.md")):
+                shelves_without_index.append(shelf.name)
+    for slug in shelves_without_index:
+        findings.append(
+            AuditFinding("warn", "hygiene", f"{slug}: voice shelf missing primary or legacy source-index file")
+        )
+
+    return findings
+
+
+def format_voice_index_table(
+    scope_label: str,
+    rows: list[VoiceIndexRow],
+    *,
+    truncated: int,
+    sort_key: ChannelSortKey,
+) -> str:
+    lines = [
+        f"## Voice index inventory — {scope_label}",
+        "",
+        f"_Sorted by `{sort_key}`; curated registry (not generated)._",
+        "",
+        "| Slug | Label | Primary index | Listed | Profile | Kind |",
+        "| --- | --- | --- | --- | --- | --- |",
+    ]
+    for row in rows:
+        label = row.label.replace("|", "\\|")
+        listed = "yes" if row.listed else "no"
+        profile = "yes" if row.profile else ""
+        idx = f"{row.slug}/{Path(row.primary_index).name}"
+        lines.append(
+            f"| `{row.slug}` | {label} | `{idx}` | {listed} | {profile} | {row.index_kind} |"
+        )
+    if truncated:
+        lines.append("")
+        lines.append(f"_… and {truncated} more row(s); use `--table-limit 0` for full list._")
+    lines.append("")
+    lines.append(f"rows shown: {len(rows)}")
+    return "\n".join(lines)
+
+
 def audit_day_dir(day_dir: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
     if not day_dir.is_dir():
@@ -630,6 +815,8 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
         return "channel-index"
     if args.writer_index:
         return "writer-index"
+    if args.voice_index:
+        return "voice-index"
     if args.day:
         return "day"
     if args.month:
@@ -673,6 +860,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="Audit writer-index.md/json stale vs live prose captures.",
     )
+    scope.add_argument(
+        "--voice-index",
+        action="store_true",
+        help="Audit voice-index.md registry parity, links, and shelf coverage.",
+    )
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft archive root.")
     parser.add_argument("--table", action="store_true", help="Append inventory table to output.")
     parser.add_argument("--table-only", action="store_true", help="Inventory table only; skip audit checks.")
@@ -703,12 +895,13 @@ def main(argv: list[str] | None = None) -> int:
         not args.global_audit
         and not args.channel_index
         and not args.writer_index
+        and not args.voice_index
         and not args.day
         and not args.month
         and not args.year
     ):
         print(
-            "error: specify --day, --month, --year, --channel-index, --writer-index, or --global",
+            "error: specify --day, --month, --year, --channel-index, --writer-index, --voice-index, or --global",
             file=sys.stderr,
         )
         return 2
@@ -717,7 +910,13 @@ def main(argv: list[str] | None = None) -> int:
     scope_kind = resolve_scope_name(args)
 
     if args.fix:
-        run_fix(root, args, day_dirs)
+        if args.voice_index:
+            print(
+                "note: voice-index.md is curated; --fix skipped (edit voice-index.md manually)",
+                file=sys.stderr,
+            )
+        else:
+            run_fix(root, args, day_dirs)
 
     findings: list[AuditFinding] = []
 
@@ -730,6 +929,11 @@ def main(argv: list[str] | None = None) -> int:
         findings.extend(audit_writer_index(root))
         if not scope_label:
             scope_label = "writer-index"
+
+    if args.voice_index:
+        findings.extend(audit_voice_index())
+        if not scope_label:
+            scope_label = "voice-index"
 
     if args.global_audit:
         findings.extend(audit_global(root))
@@ -759,6 +963,7 @@ def main(argv: list[str] | None = None) -> int:
     table_rows: list[InventoryRow] = []
     channel_table_rows: list[ChannelIndexRow] = []
     writer_table_rows: list[WriterIndexRow] = []
+    voice_table_rows: list[VoiceIndexRow] = []
     truncated = 0
     roster_sort = map_channel_table_sort(args.table_sort)
     if (args.table or args.table_only) and args.channel_index:
@@ -775,6 +980,13 @@ def main(argv: list[str] | None = None) -> int:
         if limit is None:
             limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
         writer_table_rows, truncated = apply_table_limit(writer_table_rows, limit)
+    elif (args.table or args.table_only) and args.voice_index:
+        all_voice_rows = collect_voice_index_rows()
+        voice_table_rows = sort_voice_index_rows(all_voice_rows, roster_sort)
+        limit = args.table_limit
+        if limit is None:
+            limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
+        voice_table_rows, truncated = apply_table_limit(voice_table_rows, limit)
     elif (args.table or args.table_only) and day_dirs:
         all_rows = collect_inventory_rows(day_dirs)
         table_rows = sort_inventory_rows(all_rows, args.table_sort)
@@ -801,6 +1013,7 @@ def main(argv: list[str] | None = None) -> int:
             "table": [asdict(r) for r in table_rows],
             "channel_table": [asdict(r) for r in channel_table_rows],
             "writer_table": [asdict(r) for r in writer_table_rows],
+            "voice_table": [asdict(r) for r in voice_table_rows],
             "table_truncated": truncated,
             "table_sort": args.table_sort,
         }
@@ -824,6 +1037,15 @@ def main(argv: list[str] | None = None) -> int:
             format_writer_index_table(
                 scope_label or "writer-index",
                 writer_table_rows,
+                truncated=truncated,
+                sort_key=roster_sort,
+            )
+        )
+    elif (args.table or args.table_only) and voice_table_rows:
+        parts.append(
+            format_voice_index_table(
+                scope_label or "voice-index",
+                voice_table_rows,
                 truncated=truncated,
                 sort_key=roster_sort,
             )
