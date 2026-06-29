@@ -48,6 +48,7 @@ def run_quick() -> int:
             "statecraft notes gate (changed Tier A)",
         ),
         (["python3", "scripts/reindex_notes.py", "--check"], "statecraft notes registry drift"),
+        (["python3", "scripts/build_voice_index_registry.py", "--check"], "voice index registry drift"),
     ]
     rc = 0
     for cmd, label in checks:
@@ -59,6 +60,7 @@ def run_quick() -> int:
 def run_full() -> int:
     rc = run_quick()
     extra = [
+        (["python3", "scripts/audit_statecraft_archive_index.py", "--all-voice-indexes"], "voice index parity"),
         (["python3", "scripts/audit_repo_complexity.py", "--check"], "complexity audit"),
         (
             [

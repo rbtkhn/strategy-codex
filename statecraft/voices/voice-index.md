@@ -8,6 +8,8 @@ WORK only; not Record.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --voice-index` — registry parity, link check, shelf coverage; skill **`audit index`**. (_Curated file — no `--fix` rebuild._)
 
+**Voice index registry (generated parity dashboard):** [`voice-index-registry.md`](voice-index-registry.md) · `python scripts/build_voice_index_registry.py --check` · rollup `python scripts/audit_statecraft_archive_index.py --all-voice-indexes`
+
 For shelf-class doctrine (normalized vs lighter shelves, migration law), open [README.md](README.md).
 
 For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-ROUTING.md).

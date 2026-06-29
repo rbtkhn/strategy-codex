@@ -1,0 +1,717 @@
+{
+  "generated_at": "2026-06-29T04:04:39Z",
+  "summary": {
+    "voices_discovered": 34,
+    "listed_in_voices_router": 34,
+    "with_primary_index": 34,
+    "with_rebuild_script": 24,
+    "parity_pass": 22,
+    "parity_warn": 6,
+    "parity_fail": 6,
+    "broken_links_total": 0,
+    "documented_exceptions": 6
+  },
+  "voices": [
+    {
+      "voice": "aguilar",
+      "primary_index": "statecraft/voices/aguilar/aguilar-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_aguilar_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index aguilar",
+      "eligible_captures": 17,
+      "indexed_captures": 17,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "aguilar-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "alkorshid",
+      "primary_index": "statecraft/voices/alkorshid/alkorshid-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index alkorshid",
+      "eligible_captures": 196,
+      "indexed_captures": 1,
+      "parity": "fail",
+      "broken_links": 0,
+      "companion_routes": [
+        "alkorshid-profile.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "barnes",
+      "primary_index": "statecraft/voices/barnes/barnes-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_barnes_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index barnes",
+      "eligible_captures": 23,
+      "indexed_captures": 23,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "barnes-profile.md",
+        "barnes-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "baud",
+      "primary_index": "statecraft/voices/baud/baud-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_baud_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index baud",
+      "eligible_captures": 34,
+      "indexed_captures": 34,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "baud-profile.md",
+        "baud-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "blumenthal",
+      "primary_index": "statecraft/voices/blumenthal/blumenthal-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_blumenthal_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index blumenthal",
+      "eligible_captures": 8,
+      "indexed_captures": 8,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "blumenthal-profile.md",
+        "blumenthal-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-27",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "crooke",
+      "primary_index": "statecraft/voices/crooke/crooke-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index crooke",
+      "eligible_captures": 65,
+      "indexed_captures": 65,
+      "parity": "warn",
+      "broken_links": 0,
+      "companion_routes": [
+        "crooke-forecast-ledger-2026.md",
+        "crooke-interview-appearances-2025-2026.md",
+        "crooke-profile.md",
+        "crooke-source-index.md"
+      ],
+      "exceptions": [
+        "legacy YYYY-MM-DD-crooke.md dated filenames excluded",
+        "transcript-crooke.md and verify-crooke-* stubs excluded"
+      ],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "davis",
+      "primary_index": "statecraft/voices/davis/davis-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_davis_guest_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index davis",
+      "eligible_captures": 299,
+      "indexed_captures": 6,
+      "parity": "fail",
+      "broken_links": 0,
+      "companion_routes": [
+        "davis-profile.md",
+        "davis-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-27",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "diesen",
+      "primary_index": "statecraft/voices/diesen/diesen-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index diesen",
+      "eligible_captures": 237,
+      "indexed_captures": 3,
+      "parity": "fail",
+      "broken_links": 0,
+      "companion_routes": [
+        "diesen-profile.md",
+        "diesen-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-27",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "freeman",
+      "primary_index": "statecraft/voices/freeman/freeman-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_freeman_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index freeman",
+      "eligible_captures": 148,
+      "indexed_captures": 150,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "freeman-profile.md",
+        "freeman-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [
+        "IGL cross-weave overlay",
+        "Greenland cross-weave overlay"
+      ],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "helmer",
+      "primary_index": "statecraft/voices/helmer/helmer-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_helmer_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index helmer",
+      "eligible_captures": 16,
+      "indexed_captures": 18,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "helmer-profile.md",
+        "helmer-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "hoh",
+      "primary_index": "statecraft/voices/hoh/hoh-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_hoh_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index hoh",
+      "eligible_captures": 13,
+      "indexed_captures": 13,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "hoh-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "jermy",
+      "primary_index": "statecraft/voices/jermy/jermy-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index jermy",
+      "eligible_captures": 12,
+      "indexed_captures": 15,
+      "parity": "warn",
+      "broken_links": 0,
+      "companion_routes": [
+        "jermy-profile.md",
+        "jermy-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-27",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "jiang",
+      "primary_index": "statecraft/voices/jiang/jiang-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_jiang_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index jiang",
+      "eligible_captures": 6,
+      "indexed_captures": 6,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "jiang-profile.md",
+        "jiang-source-index.md"
+      ],
+      "exceptions": [
+        "PH-owned filenames (source-game-theory-, source-gb-, source-predictive-history-, source-interviews-* except Sneako dual-index)",
+        "Dialogue Works host rows about Jiang excluded",
+        "source_form solo excluded from external-interview bench"
+      ],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "johnson",
+      "primary_index": "statecraft/voices/johnson/johnson-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_johnson_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index johnson",
+      "eligible_captures": 110,
+      "indexed_captures": 110,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "johnson-profile.md",
+        "johnson-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [
+        "June 2026 cadence routing table (operator annotations preserved on rebuild)"
+      ],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "karaganov",
+      "primary_index": "statecraft/voices/karaganov/karaganov-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index karaganov",
+      "eligible_captures": 7,
+      "indexed_captures": 10,
+      "parity": "warn",
+      "broken_links": 0,
+      "companion_routes": [
+        "karaganov-profile.md",
+        "karaganov-source-index.md"
+      ],
+      "exceptions": [
+        "reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances"
+      ],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "kent",
+      "primary_index": "statecraft/voices/kent/kent-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_kent_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index kent",
+      "eligible_captures": 15,
+      "indexed_captures": 15,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "kent-source-index.md"
+      ],
+      "exceptions": [
+        "support-tier panel rows may appear in index but are not primary guest corpus for parity warnings"
+      ],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "krainer",
+      "primary_index": "statecraft/voices/krainer/krainer-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_krainer_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index krainer",
+      "eligible_captures": 14,
+      "indexed_captures": 14,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "krainer-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "krapivnik",
+      "primary_index": "statecraft/voices/krapivnik/krapivnik-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_krapivnik_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index krapivnik",
+      "eligible_captures": 10,
+      "indexed_captures": 10,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "krapivnik-profile.md",
+        "krapivnik-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "lascaris",
+      "primary_index": "statecraft/voices/lascaris/lascaris-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index lascaris",
+      "eligible_captures": 6,
+      "indexed_captures": 0,
+      "parity": "fail",
+      "broken_links": 0,
+      "companion_routes": [
+        "lascaris-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-27",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "macgregor",
+      "primary_index": "statecraft/voices/macgregor/macgregor-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_macgregor_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index macgregor",
+      "eligible_captures": 90,
+      "indexed_captures": 90,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "macgregor-profile.md",
+        "macgregor-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "marandi",
+      "primary_index": "statecraft/voices/marandi/marandi-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_marandi_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index marandi",
+      "eligible_captures": 72,
+      "indexed_captures": 72,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "marandi-profile.md",
+        "marandi-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "martyanov",
+      "primary_index": "statecraft/voices/martyanov/martyanov-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_martyanov_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index martyanov",
+      "eligible_captures": 34,
+      "indexed_captures": 34,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "martyanov-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "mate",
+      "primary_index": "statecraft/voices/mate/mate-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mate",
+      "eligible_captures": 2,
+      "indexed_captures": 3,
+      "parity": "warn",
+      "broken_links": 0,
+      "companion_routes": [
+        "mate-profile.md",
+        "mate-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "matlock",
+      "primary_index": "statecraft/voices/matlock/matlock-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_matlock_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index matlock",
+      "eligible_captures": 5,
+      "indexed_captures": 5,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "matlock-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "mcgovern",
+      "primary_index": "statecraft/voices/mcgovern/mcgovern-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mcgovern",
+      "eligible_captures": 27,
+      "indexed_captures": 27,
+      "parity": "warn",
+      "broken_links": 0,
+      "companion_routes": [
+        "mcgovern-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "mearsheimer",
+      "primary_index": "statecraft/voices/mearsheimer/mearsheimer-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_mearsheimer_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mearsheimer",
+      "eligible_captures": 95,
+      "indexed_captures": 95,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "mearsheimer-profile.md",
+        "mearsheimer-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "mercouris",
+      "primary_index": "statecraft/voices/mercouris/mercouris-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_mercouris_guest_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mercouris",
+      "eligible_captures": 385,
+      "indexed_captures": 45,
+      "parity": "fail",
+      "broken_links": 0,
+      "companion_routes": [
+        "mercouris-profile.md",
+        "mercouris-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "pape",
+      "primary_index": "statecraft/voices/pape/pape-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_pape_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index pape",
+      "eligible_captures": 72,
+      "indexed_captures": 72,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "pape-forecast-ledger-2026.md",
+        "pape-interview-appearances-2025-2026.md",
+        "pape-interview-appearances-2026.md",
+        "pape-profile.md",
+        "pape-source-index.md"
+      ],
+      "exceptions": [
+        "verify-pape-* and x-pape-* stub captures excluded from guest parity",
+        "date-only source-pape-YYYY-MM-DD stubs unless Cyrus Janssen studio lane",
+        "legacy strategy-notebook transcript paths in source_path"
+      ],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "parsi",
+      "primary_index": "statecraft/voices/parsi/parsi-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index parsi",
+      "eligible_captures": 51,
+      "indexed_captures": 51,
+      "parity": "warn",
+      "broken_links": 0,
+      "companion_routes": [
+        "parsi-forecast-ledger-2025-2026.md",
+        "parsi-interview-appearances-2025-2026.md",
+        "parsi-profile.md",
+        "parsi-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "postol",
+      "primary_index": "statecraft/voices/postol/postol-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_postol_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index postol",
+      "eligible_captures": 5,
+      "indexed_captures": 5,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "postol-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "ritter",
+      "primary_index": "statecraft/voices/ritter/ritter-index.md",
+      "listed_in_voices_router": true,
+      "builder": null,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index ritter",
+      "eligible_captures": 99,
+      "indexed_captures": 98,
+      "parity": "fail",
+      "broken_links": 0,
+      "companion_routes": [
+        "ritter-forecast-ledger-2026.md",
+        "ritter-interview-appearances-2025-2026.md",
+        "ritter-profile.md",
+        "ritter-source-index.md"
+      ],
+      "exceptions": [
+        "date-only source-ritter-YYYY-MM-DD stubs excluded from index parity",
+        "verify-ritter-* and ritter-rant-* prefixes excluded"
+      ],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "sachs",
+      "primary_index": "statecraft/voices/sachs/sachs-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_sachs_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index sachs",
+      "eligible_captures": 92,
+      "indexed_captures": 92,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "sachs-profile.md",
+        "sachs-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "weichert",
+      "primary_index": "statecraft/voices/weichert/weichert-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_weichert_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index weichert",
+      "eligible_captures": 14,
+      "indexed_captures": 14,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "weichert-profile.md",
+        "weichert-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    },
+    {
+      "voice": "wilkerson",
+      "primary_index": "statecraft/voices/wilkerson/wilkerson-index.md",
+      "listed_in_voices_router": true,
+      "builder": "scripts/build_wilkerson_index.py",
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index wilkerson",
+      "eligible_captures": 95,
+      "indexed_captures": 95,
+      "parity": "pass",
+      "broken_links": 0,
+      "companion_routes": [
+        "wilkerson-source-index.md"
+      ],
+      "exceptions": [],
+      "curated_overlays": [],
+      "last_rebuilt": "2026-06-28",
+      "status": "canonical",
+      "index_kind": "primary"
+    }
+  ]
+}

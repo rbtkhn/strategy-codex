@@ -62,7 +62,7 @@ Full permission table: [`docs/agent-rules/deep-rules.md`](docs/agent-rules/deep-
 
 1. [`LLM-ROUTING.md`](LLM-ROUTING.md) → [`repo-map.yaml`](repo-map.yaml)
 2. Calendar **day-index:** `source-archive/statecraft/YYYY-MM-DD/day-index.md` only
-3. Analyst corpus: `statecraft/voices/**/**-source-index.md`
+3. Analyst corpus: `statecraft/voices/**/**-source-index.md` · **voice index registry:** [`runtime/artifacts/voice-index-parity.md`](runtime/artifacts/voice-index-parity.md) ([`voice-index-registry.md`](statecraft/voices/voice-index-registry.md))
 4. Zero grep hits ≠ proof of absence — check path family before "not found"
 
 Full protocol: [`LLM-ROUTING.md`](LLM-ROUTING.md) · [`docs/source-lattice-beyond-the-repo.md`](docs/source-lattice-beyond-the-repo.md).

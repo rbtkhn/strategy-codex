@@ -72,6 +72,29 @@ entries:
         - '"generated_at"'
         - "build_statecraft_month_indices.py"
 
+  - id: voice-index-parity-md
+    path: runtime/artifacts/voice-index-parity.md
+    category: generated
+    generator: scripts/build_voice_index_registry.py
+    check_args: ["--check"]
+    drift_group: voice-index-parity
+    header:
+      type: markdown
+      patterns:
+        - "Voice Index Parity Dashboard"
+        - "build_voice_index_registry.py"
+
+  - id: voice-index-parity-json
+    path: runtime/artifacts/voice-index-parity.json
+    category: generated
+    generator: scripts/build_voice_index_registry.py
+    check_args: ["--check"]
+    drift_group: voice-index-parity
+    header:
+      type: json
+      patterns:
+        - '"generated_at"'
+
 # TODO (manifest gaps — no batch --check yet):
 # - source-archive/statecraft/YYYY-MM-DD/day-index.md (per-day; build_statecraft_day_indices.py)
 # - source-archive/statecraft/YYYY-MM.md month inventory notes

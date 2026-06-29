@@ -57,12 +57,13 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 | Channel index (YouTube roster) | `--channel-index` |
 | Writer index (prose roster) | `--writer-index` |
 | Voice index (analyst registry) | `--voice-index` |
-| Voice shelf bench (curated source index) | `--shelf-index SLUG` (e.g. `parsi`, `pape`, `crooke`, `ritter`, `jiang`) |
+| All voice indexes (parity rollup) | `--all-voice-indexes` (compat `--all-shelf-indexes`) |
+| One voice index | `--shelf-index SLUG` (legacy flag name; e.g. `parsi`, `johnson`) |
 | Inventory table only | `--table-only` + scope |
 | Audit + table | `--table` + scope |
 | Rebuild stale | `--fix` (EXECUTE / explicit confirm only) |
 
-**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** / **writer-index** — roster rows. **Voice-index** — shelf registry; **curated** — no `--fix`. **Shelf-index** — author/guest capture links from `{slug}-index.md`; **curated** — no `--fix`; honors documented stub exclusions.
+**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** / **writer-index** — roster rows. **Voice-index** — voices router; **curated** — no `--fix`. **`--shelf-index`** — one **voice index** (`{slug}-index.md`); **curated** — no `--fix`; honors documented stub exclusions. **`--all-voice-indexes`** — generated parity rollup ([`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md)).
 
 ## Source-intake post-land (author/guest index)
 

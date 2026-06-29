@@ -10,6 +10,7 @@ Usage:
     python scripts/audit_statecraft_archive_index.py --writer-index --table
     python scripts/audit_statecraft_archive_index.py --voice-index --table
     python scripts/audit_statecraft_archive_index.py --shelf-index parsi --table
+    python scripts/audit_statecraft_archive_index.py --all-voice-indexes --table
 """
 from __future__ import annotations
 
@@ -1050,6 +1051,8 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
         return "writer-index"
     if args.voice_index:
         return "voice-index"
+    if getattr(args, "all_voice_indexes", False) or getattr(args, "all_shelf_indexes", False):
+        return "all-voice-indexes"
     if args.shelf_index:
         return "shelf-index"
     if args.day:
@@ -1098,12 +1101,22 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     scope.add_argument(
         "--voice-index",
         action="store_true",
-        help="Audit voice-index.md registry parity, links, and shelf coverage.",
+        help="Audit voices router (voice-index.md) registry parity, links, and coverage.",
+    )
+    scope.add_argument(
+        "--all-voice-indexes",
+        action="store_true",
+        help="Audit all primary voice indexes (parity rollup + YAML exception registry).",
+    )
+    scope.add_argument(
+        "--all-shelf-indexes",
+        action="store_true",
+        help="Compat alias for --all-voice-indexes.",
     )
     scope.add_argument(
         "--shelf-index",
         metavar="SLUG",
-        help="Audit curated voice shelf bench (e.g. parsi-index.md) vs archive captures.",
+        help="Audit one voice index (e.g. parsi-index.md) vs archive captures.",
     )
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft archive root.")
     parser.add_argument("--table", action="store_true", help="Append inventory table to output.")
@@ -1136,6 +1149,8 @@ def main(argv: list[str] | None = None) -> int:
         and not args.channel_index
         and not args.writer_index
         and not args.voice_index
+        and not args.all_voice_indexes
+        and not args.all_shelf_indexes
         and not args.shelf_index
         and not args.day
         and not args.month
@@ -1143,7 +1158,7 @@ def main(argv: list[str] | None = None) -> int:
     ):
         print(
             "error: specify --day, --month, --year, --channel-index, --writer-index, "
-            "--voice-index, --shelf-index SLUG, or --global",
+            "--voice-index, --all-voice-indexes, --shelf-index SLUG, or --global",
             file=sys.stderr,
         )
         return 2
@@ -1152,8 +1167,10 @@ def main(argv: list[str] | None = None) -> int:
     scope_kind = resolve_scope_name(args)
 
     if args.fix:
-        if args.voice_index or args.shelf_index:
-            curated = "voice-index.md" if args.voice_index else f"{args.shelf_index}-index.md"
+        if args.voice_index or args.shelf_index or args.all_voice_indexes or args.all_shelf_indexes:
+            curated = "voice-index.md"
+            if args.shelf_index:
+                curated = f"{args.shelf_index}-index.md"
             print(
                 f"note: {curated} is curated; --fix skipped (edit manually)",
                 file=sys.stderr,
@@ -1162,6 +1179,7 @@ def main(argv: list[str] | None = None) -> int:
             run_fix(root, args, day_dirs)
 
     findings: list[AuditFinding] = []
+    all_voice_registry_rows: list[Any] = []
 
     if args.channel_index:
         findings.extend(audit_channel_index(root))
@@ -1177,6 +1195,14 @@ def main(argv: list[str] | None = None) -> int:
         findings.extend(audit_voice_index())
         if not scope_label:
             scope_label = "voice-index"
+
+    if args.all_voice_indexes or args.all_shelf_indexes:
+        import voice_index_registry_core as vir  # noqa: E402
+
+        findings.extend(vir.audit_all_voice_indexes(archive_root=root))
+        all_voice_registry_rows = vir.collect_all_voice_registry_rows(archive_root=root)
+        if not scope_label:
+            scope_label = "all-voice-indexes"
 
     if args.shelf_index:
         slug = args.shelf_index.strip().casefold()
@@ -1309,6 +1335,13 @@ def main(argv: list[str] | None = None) -> int:
                 sort_key=roster_sort,
             )
         )
+    elif (args.table or args.table_only) and (args.all_voice_indexes or args.all_shelf_indexes):
+        import voice_index_registry_core as vir  # noqa: E402
+
+        if not all_voice_registry_rows:
+            all_voice_registry_rows = vir.collect_all_voice_registry_rows(archive_root=root)
+        summary = vir.build_summary(all_voice_registry_rows)
+        parts.append(vir.render_registry_markdown(all_voice_registry_rows, summary))
     elif (args.table or args.table_only) and shelf_table_rows:
         slug = args.shelf_index.strip().casefold() if args.shelf_index else "shelf"
         parts.append(

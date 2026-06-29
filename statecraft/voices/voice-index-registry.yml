@@ -1,0 +1,160 @@
+schema_version: "1.0"
+
+# Governance metadata for voice indexes ({slug}-index.md).
+# Matching logic stays in shelf_index_utils.shelf_capture_excluded() — YAML documents exclusions only.
+
+voices:
+  pape:
+    status: canonical
+    builder: scripts/build_pape_index.py
+    curated_overlays: []
+    exclusions:
+      - verify-pape-* and x-pape-* stub captures excluded from guest parity
+      - date-only source-pape-YYYY-MM-DD stubs unless Cyrus Janssen studio lane
+      - legacy strategy-notebook transcript paths in source_path
+
+  ritter:
+    status: canonical
+    curated_overlays: []
+    exclusions:
+      - date-only source-ritter-YYYY-MM-DD stubs excluded from index parity
+      - verify-ritter-* and ritter-rant-* prefixes excluded
+
+  crooke:
+    status: canonical
+    curated_overlays: []
+    exclusions:
+      - legacy YYYY-MM-DD-crooke.md dated filenames excluded
+      - transcript-crooke.md and verify-crooke-* stubs excluded
+
+  jiang:
+    status: canonical
+    builder: scripts/build_jiang_index.py
+    curated_overlays: []
+    exclusions:
+      - PH-owned filenames (source-game-theory-, source-gb-, source-predictive-history-, source-interviews-* except Sneako dual-index)
+      - Dialogue Works host rows about Jiang excluded
+      - source_form solo excluded from external-interview bench
+
+  karaganov:
+    status: canonical
+    curated_overlays: []
+    exclusions:
+      - reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances
+
+  kent:
+    status: canonical
+    builder: scripts/build_kent_index.py
+    curated_overlays: []
+    exclusions:
+      - support-tier panel rows may appear in index but are not primary guest corpus for parity warnings
+
+  johnson:
+    status: canonical
+    builder: scripts/build_johnson_index.py
+    curated_overlays:
+      - June 2026 cadence routing table (operator annotations preserved on rebuild)
+    exclusions: []
+
+  freeman:
+    status: canonical
+    builder: scripts/build_freeman_index.py
+    curated_overlays:
+      - IGL cross-weave overlay
+      - Greenland cross-weave overlay
+    exclusions: []
+
+  wilkerson:
+    status: canonical
+    builder: scripts/build_wilkerson_index.py
+    exclusions: []
+
+  aguilar:
+    status: canonical
+    builder: scripts/build_aguilar_index.py
+    exclusions: []
+
+  baud:
+    status: canonical
+    builder: scripts/build_baud_index.py
+    exclusions: []
+
+  barnes:
+    status: canonical
+    builder: scripts/build_barnes_index.py
+    exclusions: []
+
+  blumenthal:
+    status: canonical
+    builder: scripts/build_blumenthal_index.py
+    exclusions: []
+
+  helmer:
+    status: canonical
+    builder: scripts/build_helmer_index.py
+    exclusions: []
+
+  hoh:
+    status: canonical
+    builder: scripts/build_hoh_index.py
+    exclusions: []
+
+  krapivnik:
+    status: canonical
+    builder: scripts/build_krapivnik_index.py
+    exclusions: []
+
+  krainer:
+    status: canonical
+    builder: scripts/build_krainer_index.py
+    exclusions: []
+
+  macgregor:
+    status: canonical
+    builder: scripts/build_macgregor_index.py
+    exclusions: []
+
+  marandi:
+    status: canonical
+    builder: scripts/build_marandi_index.py
+    exclusions: []
+
+  martyanov:
+    status: canonical
+    builder: scripts/build_martyanov_index.py
+    exclusions: []
+
+  matlock:
+    status: canonical
+    builder: scripts/build_matlock_index.py
+    exclusions: []
+
+  mearsheimer:
+    status: canonical
+    builder: scripts/build_mearsheimer_index.py
+    exclusions: []
+
+  postol:
+    status: canonical
+    builder: scripts/build_postol_index.py
+    exclusions: []
+
+  sachs:
+    status: canonical
+    builder: scripts/build_sachs_index.py
+    exclusions: []
+
+  weichert:
+    status: canonical
+    builder: scripts/build_weichert_index.py
+    exclusions: []
+
+  davis:
+    status: canonical
+    builder: scripts/build_davis_guest_index.py
+    exclusions: []
+
+  mercouris:
+    status: canonical
+    builder: scripts/build_mercouris_guest_index.py
+    exclusions: []

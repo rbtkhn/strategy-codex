@@ -638,3 +638,36 @@ def test_jiang_index_rows_have_youtube_url(tmp_path: Path, monkeypatch) -> None:
     assert shelf_utils.capture_matches_shelf(
         "jiang", capture, {"guest": "Jiang Xueqin", "source_form": "interview", "kind": "transcript"}, ""
     )
+
+
+def test_all_voice_indexes_cli_with_fixture(tmp_path: Path, monkeypatch) -> None:
+    archive = tmp_path / "archive"
+    day = archive / "2026-06-28"
+    day.mkdir(parents=True)
+    capture = day / "source-dialogue-works-sample-2026-06-28.md"
+    _write(
+        capture,
+        _sample_capture().replace("Larry Johnson", "Trita Parsi").replace("thread: johnson", "thread: parsi"),
+    )
+    voices = tmp_path / "voices"
+    shelf = voices / "parsi"
+    shelf.mkdir(parents=True)
+    rel = "../../../archive/2026-06-28/source-dialogue-works-sample-2026-06-28.md"
+    _write(shelf / "parsi-index.md", f"# Parsi\n\n- [row]({rel})\n")
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\nsource-lattice\n\n[parsi/parsi-index.md](parsi/parsi-index.md)\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+    monkeypatch.setattr(audit, "REPO_ROOT", tmp_path)
+    import voice_index_registry_core as vir  # noqa: E402
+
+    monkeypatch.setattr(vir, "VOICES_DIR", voices)
+    monkeypatch.setattr(vir, "DEFAULT_YAML", voices / "voice-index-registry.yml")
+    _write(
+        voices / "voice-index-registry.yml",
+        "schema_version: '1.0'\nvoices:\n  pape:\n    exclusions: [stub]\n  ritter:\n    exclusions: [stub]\n"
+        "  crooke:\n    exclusions: [stub]\n  jiang:\n    exclusions: [stub]\n  karaganov:\n    exclusions: [stub]\n",
+    )
+    code = audit.main(["--all-voice-indexes", "--root", str(archive)])
+    assert code in (0, 1)

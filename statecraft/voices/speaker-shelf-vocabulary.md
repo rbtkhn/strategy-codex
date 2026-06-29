@@ -86,7 +86,9 @@ Navigation chain in prose:
 
 Rebuild SSOT after lands: `python3 scripts/refresh_statecraft_archive_indices.py` (day + month + year + thread + stale audit).
 
-## Author/guest shelf index (`{slug}-index.md`)
+## Author/guest voice index (`{slug}-index.md`)
+
+**Operator term:** **voice index** (not “shelf index”). **Voices router:** [`voice-index.md`](voice-index.md). **Registry dashboard:** [`voice-index-registry.md`](voice-index-registry.md).
 
 **Surface role:** exhaustive month-grouped route map for **authored written** + **guest interview** captures on disk for a voice shelf (parsi, pape, crooke, ritter, …).
 

@@ -11,6 +11,9 @@ VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 
 WRITER_SHELF_SLUGS = frozenset({"parsi", "pape", "crooke", "ritter"})
 
+# Slugs with slug-specific logic in shelf_capture_excluded() — must have YAML exclusions entry.
+CODE_EXCLUSION_SLUGS = frozenset({"pape", "ritter", "crooke", "jiang", "karaganov"})
+
 GUEST_REBUILD_SHELF_SLUGS = frozenset(
     {
         "aguilar",
