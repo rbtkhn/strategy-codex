@@ -45,6 +45,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Marandi | [marandi/marandi-index.md](marandi/marandi-index.md) · compat [marandi/marandi-source-index.md](marandi/marandi-source-index.md) |
 | Mario Nawfal | [../channels/mario-nawfal/mario-nawfal-channel-index.md](../channels/mario-nawfal/mario-nawfal-channel-index.md) |
 | Martyanov | [martyanov/martyanov-index.md](martyanov/martyanov-index.md) · compat [martyanov/martyanov-source-index.md](martyanov/martyanov-source-index.md) |
+| Matlock | [matlock/matlock-index.md](matlock/matlock-index.md) · object [matlock/matlock-speaker-object.md](matlock/matlock-speaker-object.md) · compat [matlock/matlock-source-index.md](matlock/matlock-source-index.md) |
 | Mearsheimer | [mearsheimer/mearsheimer-index.md](mearsheimer/mearsheimer-index.md) · compat [mearsheimer/mearsheimer-source-index.md](mearsheimer/mearsheimer-source-index.md) |
 | McGovern | [mcgovern/mcgovern-index.md](mcgovern/mcgovern-index.md) · compat [mcgovern/mcgovern-source-index.md](mcgovern/mcgovern-source-index.md) |
 | Mercouris | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · compat [mercouris/mercouris-source-index.md](mercouris/mercouris-source-index.md) · host: [../channels/alexander-mercouris/alexander-mercouris-channel-index.md](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) · bench: [mercouris/mercouris-analytical-bench.md](mercouris/mercouris-analytical-bench.md) |

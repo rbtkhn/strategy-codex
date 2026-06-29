@@ -12,7 +12,17 @@ VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 WRITER_SHELF_SLUGS = frozenset({"parsi", "pape", "crooke", "ritter"})
 
 GUEST_REBUILD_SHELF_SLUGS = frozenset(
-    {"aguilar", "baud", "hoh", "kent", "martyanov", "postol", "krapivnik", "krainer"}
+    {
+        "aguilar",
+        "baud",
+        "hoh",
+        "kent",
+        "matlock",
+        "martyanov",
+        "postol",
+        "krapivnik",
+        "krainer",
+    }
 )
 
 GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
@@ -25,6 +35,7 @@ GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
     "martyanov": re.compile(r"andrei\s+martyanov|\bmartyanov\b|\bmartynaov\b", re.I),
     "krainer": re.compile(r"alex\s+krainer|\bkrainer\b", re.I),
     "kent": re.compile(r"joe\s+kent", re.I),
+    "matlock": re.compile(r"jack\s+matlock", re.I),
 }
 
 SLUG_FILENAME_ALIASES: dict[str, tuple[str, ...]] = {

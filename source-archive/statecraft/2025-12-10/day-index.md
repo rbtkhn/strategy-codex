@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `6`
-- Channel sources: `6`
+- Source files: `7`
+- Channel sources: `7`
 - Writer sources: `0`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (6)
-- Source form mix: `interview` (5), `solo` (1)
-- Distinct channels/shows: `4`
+- Body kind mix: `transcript` (7)
+- Source form mix: `interview` (6), `solo` (1)
+- Distinct channels/shows: `5`
 - Distinct hosts: `4`
-- Distinct guests: `5`
-- Distinct threads: `9`
+- Distinct guests: `6`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Judging Freedom` (1)
+- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Diesen - Greater Eurasia Podcast` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `Alexander Mercouris` (1), `Daniel Davis` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
-- Threads: `davis` (2), `diesen` (2), `alexander-mercouris` (1), `daniel-davis` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1), `ritter` (1), `sachs` (1)
+- Hosts: `Glenn Diesen` (3), `Daniel Davis` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
+- Guests: `Alexander Mercouris` (1), `Daniel Davis` (1), `Douglas Macgregor` (1), `Jack Matlock` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
+- Threads: `diesen` (3), `davis` (2), `alexander-mercouris` (1), `daniel-davis` (1), `macgregor` (1), `matlock` (1), `mercouris` (1), `napolitano` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -35,6 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AEkT3DPfVMU) | `source-alexander-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=L21I2qFdS9M) | `source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `daniel-davis` | [watch](https://www.youtube.com/watch?v=46L9v4qUuEw) | `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md` |
+| `glenn-diesen` | Diesen - Greater Eurasia Podcast | `matlock`, `diesen` | [watch](https://www.youtube.com/watch?v=NcJ5HDpij-c) | `source-diesen-matlock-nato-expansion-coup-subversion-ukraine-started-war-2025-12-10.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=FW7vyCwyw84) | `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md` |
 | `glenn-diesen` | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=m_tHqXt44sU) | `source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=UNdEunkOuSk') | `source-judging-freedom-sachs-underestimating-russia-2025-12-10.md` |
@@ -60,6 +61,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-alexander-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md`
 - `source-daniel-davis-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md`
 - `source-daniel-davis-the-war-we-cannot-win-lt-col-daniel-davis-2025-12-10.md`
+- `source-diesen-matlock-nato-expansion-coup-subversion-ukraine-started-war-2025-12-10.md`
 - `source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md`
 - `source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md`
 - `source-judging-freedom-sachs-underestimating-russia-2025-12-10.md`
