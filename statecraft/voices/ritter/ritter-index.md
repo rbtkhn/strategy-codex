@@ -9,6 +9,9 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 ## 2025-01
 
 - [transcript-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05](../../../source-archive/statecraft/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md)
+- [transcript-dialogue-works-russia-crushes-kursk-offensive-ukrainian-forces-encircled-and-trapped-sc-2025-01-11](../../../source-archive/statecraft/2025-01-11/source-dialogue-works-russia-crushes-kursk-offensive-ukrainian-forces-encircled-and-trapped-sc-2025-01-11.md) — **Dialogue Works** · `OrqkNyyh5ZQ`
+- [transcript-dialogue-works-israel-is-blind-its-strategic-defeat-becomes-clearer-with-time-larry-c-j-2025-01-12](../../../source-archive/statecraft/2025-01-12/source-dialogue-works-israel-is-blind-its-strategic-defeat-becomes-clearer-with-time-larry-c-j-2025-01-12.md) — **Dialogue Works** × Johnson · `IRlFHfB11wg`
+- [transcript-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19](../../../source-archive/statecraft/2025-01-19/source-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19.md) — **Dialogue Works** × Johnson · `B4hvxNVl714`
 
 ## 2025-02
 
@@ -121,9 +124,6 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13](../../../source-archive/statecraft/2026-04-13/source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - [substack-ritter-blasphemy-american-style-2026-04-13](../../../source-archive/statecraft/2026-04-13/source-ritter-blasphemy-american-style-2026-04-13.md)
 - [transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17](../../../source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
-- [transcript-ritter](../../../source-archive/statecraft/2026-04-17/source-ritter-2026-04-17.md)
-- [transcript-ritter](../../../source-archive/statecraft/2026-04-19/source-ritter-2026-04-19.md)
-- [transcript-ritter](../../../source-archive/statecraft/2026-04-19/source-ritter-2026-04-19.md)
 - [judging-freedom-trump-hegseth-2026-04-20](../../../source-archive/statecraft/2026-04-20/source-trump-hegseth-2026-04-20.md)
 - [ritter-rant-shorting-america-7pXI52jKcOU](../../../source-archive/statecraft/2026-04-20/source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md)
 - [substack-ritter-new-middle-eastern-power-paradigm-2026-04-27](../../../source-archive/statecraft/2026-04-27/source-ritter-new-middle-eastern-power-paradigm-2026-04-27.md)

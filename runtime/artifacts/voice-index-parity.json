@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-29T04:21:38Z",
+  "generated_at": "2026-06-29T04:28:01Z",
   "summary": {
     "voices_discovered": 34,
     "listed_in_voices_router": 34,
     "with_primary_index": 34,
     "with_rebuild_script": 24,
     "parity_pass": 22,
-    "parity_warn": 6,
-    "parity_fail": 6,
+    "parity_warn": 7,
+    "parity_fail": 5,
     "broken_links_total": 0,
     "documented_exceptions": 6
   },
@@ -46,7 +46,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-28",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -636,8 +636,8 @@
       "builder": null,
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index ritter",
       "eligible_captures": 99,
-      "indexed_captures": 98,
-      "parity": "fail",
+      "indexed_captures": 99,
+      "parity": "warn",
       "broken_links": 0,
       "companion_routes": [
         "ritter-forecast-ledger-2026.md",

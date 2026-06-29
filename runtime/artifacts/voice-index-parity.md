@@ -8,7 +8,7 @@ python3 scripts/build_voice_index_registry.py
 
 Terminology: [`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md).
 
-_Generated at 2026-06-29T04:21:38Z_
+_Generated at 2026-06-29T04:28:01Z_
 
 ## Summary
 
@@ -19,8 +19,8 @@ _Generated at 2026-06-29T04:21:38Z_
 | With primary voice index | 34 |
 | With rebuild script | 24 |
 | Parity pass | 22 |
-| Parity warn | 6 |
-| Parity fail | 6 |
+| Parity warn | 7 |
+| Parity fail | 5 |
 | Broken links (total) | 0 |
 | Documented exceptions | 6 |
 
@@ -58,7 +58,7 @@ _Generated at 2026-06-29T04:21:38Z_
 | pape | `statecraft/voices/pape/pape-index.md` | `scripts/build_pape_index.py` | 72 | 72 | pass | verify-pape-* and x-pape-* stub captures excluded from guest parity; date-only source-pape-YYYY-MM-DD stubs unless Cyrus Janssen studio lane (+1) | canonical |
 | parsi | `statecraft/voices/parsi/parsi-index.md` | — | 51 | 51 | warn | — | canonical |
 | postol | `statecraft/voices/postol/postol-index.md` | `scripts/build_postol_index.py` | 5 | 5 | pass | — | canonical |
-| ritter | `statecraft/voices/ritter/ritter-index.md` | — | 99 | 98 | fail | date-only source-ritter-YYYY-MM-DD stubs excluded from index parity; verify-ritter-* and ritter-rant-* prefixes excluded | canonical |
+| ritter | `statecraft/voices/ritter/ritter-index.md` | — | 99 | 99 | warn | date-only source-ritter-YYYY-MM-DD stubs excluded from index parity; verify-ritter-* and ritter-rant-* prefixes excluded | canonical |
 | sachs | `statecraft/voices/sachs/sachs-index.md` | `scripts/build_sachs_index.py` | 92 | 92 | pass | — | canonical |
 | weichert | `statecraft/voices/weichert/weichert-index.md` | `scripts/build_weichert_index.py` | 14 | 14 | pass | — | canonical |
 | wilkerson | `statecraft/voices/wilkerson/wilkerson-index.md` | `scripts/build_wilkerson_index.py` | 95 | 95 | pass | — | canonical |
