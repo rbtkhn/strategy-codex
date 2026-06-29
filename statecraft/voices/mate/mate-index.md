@@ -31,4 +31,4 @@ Purpose: canonical route map for materialized **Aaron Maté** guest appearances 
 
 - Index-first shelf — no `mate-profile.md` or arc yet
 - Nawfal / other hosts may reference Maté in lineup copy without a landed guest capture — not listed until archived
-- For Grayzone co-host lane on disk, cross-route via [Diesen × Blumenthal (2026-06-24)](../../../source-archive/statecraft/2026-06-24/source-glenn-diesen-max-blumenthal-iran-deal-divides-us-triggers-panic-israel-2026-06-24.md) until a Blumenthal shelf exists
+- For Grayzone co-host lane on disk, cross-route via [Diesen × Blumenthal (2026-06-24)](../../../source-archive/statecraft/2026-06-24/source-glenn-diesen-max-blumenthal-iran-deal-divides-us-triggers-panic-israel-2026-06-24.md) and [blumenthal-index.md](../blumenthal/blumenthal-index.md)

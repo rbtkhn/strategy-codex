@@ -703,13 +703,12 @@ def parse_shelf_index_links(index_path: Path) -> list[tuple[str, str, Path | Non
 def iter_archive_captures_for_shelf(slug: str, root: Path) -> list[Path]:
     if not root.is_dir():
         return []
-    slug_fold = slug.casefold()
     paths: list[Path] = []
     for day_dir in writer_idx.iter_all_day_dirs(root):
         for path in iter_source_files(day_dir):
             meta = parse_frontmatter(path)
-            thread = norm_scalar(meta.get("thread"))
-            if thread == slug or slug_fold in path.name.casefold():
+            body_snip = read_text(path)[:8000] if path.is_file() else ""
+            if shelf_utils.capture_matches_shelf(slug, path, meta, body_snip):
                 paths.append(path)
     return sorted(paths, key=lambda p: (p.parent.name, p.name))
 

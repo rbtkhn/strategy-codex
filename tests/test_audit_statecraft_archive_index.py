@@ -398,3 +398,55 @@ def test_shelf_index_from_capture_resolves_and_appends(tmp_path: Path, monkeypat
     assert code == 0
     index_text = (crooke / "crooke-index.md").read_text(encoding="utf-8")
     assert capture.name in index_text
+
+
+def test_shelf_slug_filename_token_not_substring(tmp_path: Path, monkeypatch) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    archive = tmp_path / "archive"
+    day = archive / "2026-05-14"
+    mate_capture = day / "source-judging-freedom-mate-sample-2026-05-14.md"
+    checkmate = day / "source-judging-freedom-wilkerson-checkmate-in-iran-2026-05-14.md"
+    decimated = (
+        archive
+        / "2026-04-28"
+        / "source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md"
+    )
+    for path, body in (
+        (mate_capture, "---\nthread: mate\npub_date: 2026-05-14\n---\n\n"),
+        (checkmate, "---\nthread: wilkerson\npub_date: 2026-05-14\n---\n\n"),
+        (decimated, "---\nthread: wilkerson\npub_date: 2026-04-28\n---\n\n"),
+    ):
+        _write(path, body)
+
+    voices = tmp_path / "statecraft" / "voices"
+    mate_shelf = voices / "mate"
+    mate_shelf.mkdir(parents=True)
+    rel = f"../../../source-archive/statecraft/2026-05-14/{mate_capture.name}"
+    _write(
+        mate_shelf / "mate-index.md",
+        f"# Mate\n\n- [Sample]({rel})\n",
+    )
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n| Maté | [mate/mate-index.md](mate/mate-index.md) |\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+    monkeypatch.setattr(audit, "REPO_ROOT", tmp_path)
+    for path in (mate_capture, checkmate, decimated):
+        mirror = tmp_path / "source-archive" / "statecraft" / path.parent.name / path.name
+        mirror.parent.mkdir(parents=True, exist_ok=True)
+        mirror.write_text(path.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
+
+    paths = audit.iter_archive_captures_for_shelf("mate", archive)
+    names = {p.name for p in paths}
+    assert mate_capture.name in names
+    assert checkmate.name not in names
+    assert decimated.name not in names
+    assert not shelf_utils.slug_token_in_capture_filename("mate", checkmate.name)
+    assert not shelf_utils.slug_token_in_capture_filename("mate", decimated.name)
+    assert shelf_utils.slug_token_in_capture_filename("mate", mate_capture.name)
+
+    findings = audit.audit_shelf_index("mate", archive_root=archive)
+    assert any(f.code == "archive_parity" and f.level == "pass" for f in findings)
+    assert not any(f.code == "archive_unlisted" for f in findings)

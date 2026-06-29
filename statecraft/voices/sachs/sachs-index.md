@@ -4,6 +4,15 @@ WORK only; not Record.
 
 Purpose: provide the canonical route map for materialized Sachs appearances and the smaller set of direct archive anchors that explain the shelf shape.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index sachs` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)
+
+## Corpus note
+
+- **92** eligible archive captures on disk (2025-01-08 → 2026-06-22)
+- Rebuild: `python scripts/build_sachs_index.py`
+- **27** Diesen · **37** Judging Freedom · **21** Sachs-owned · **3** Tucker · **1** Duran/Mercouris · misc **3**
+- Primary mature lane: **Diesen**; thick **Napolitano** bench; **Sachs-owned** lectures and month-floor repair residue
+
 ## Direct Materialized Appearances
 
 ### Glenn Diesen
@@ -13,9 +22,10 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-03-17 - Peace Negotiations & the End of NATO](../../../source-archive/statecraft/2025-03-17/source-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md)
 - [2025-04-07 - Chaos & Restructuring of the Global Economy](../../../source-archive/statecraft/2025-04-07/source-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
 - [2025-05-02 - Chinese Statecraft & a New World Order](../../../source-archive/statecraft/2025-05-02/source-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
-- [2025-05-19 - Europe's Declining Economy, Security & Common Sense](../../../source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
+- [Diesen x Sachs](../../../source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [2025-06-04 - NATO & Russia On the Brink of Nuclear War](../../../source-archive/statecraft/2025-06-04/source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md)
 - [2025-06-17 - US Prepares to Join War Against Iran](../../../source-archive/statecraft/2025-06-17/source-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md)
+- [2025-07-15 - End of the Western-Centric World & Rise of BRICS](../../../source-archive/statecraft/2025-07-15/source-diesen-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md)
 - [2025-07-30 - At the Precipice of World War 3](../../../source-archive/statecraft/2025-07-30/source-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md)
 - [2025-08-11 - Trump-Putin Meeting: Peace or Deception?](../../../source-archive/statecraft/2025-08-11/source-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
 - [2025-09-18 - US and China Edge Toward War Over Taiwan](../../../source-archive/statecraft/2025-09-18/source-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md)
@@ -23,16 +33,22 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-10-06 - Another War Against Iran Could Be Imminent](../../../source-archive/statecraft/2025-10-06/source-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
 - [2025-10-22 - Last Chance for Peace in Ukraine Sabotaged by Europe](../../../source-archive/statecraft/2025-10-22/source-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
 - [2025-11-08 - Venezuela Regime Change - Oil & Gangster Politics](../../../source-archive/statecraft/2025-11-08/source-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md)
+- [2026-01-04 - U.S. Attacks Venezuela & Kidnaps President Maduro](../../../source-archive/statecraft/2026-01-04/source-diesen-sachs-us-attacks-venezuela-and-kidnaps-president-maduro-2026-01-04.md)
 - [2026-02-28 - US & Israel Attack Iran - War Is Spreading Across the Region](../../../source-archive/statecraft/2026-02-28/source-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md)
 - [2026-03-16 - Israel Could Use Nuclear Weapons Against Iran](../../../source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md)
 - [2026-03-20 - Israel Could Use Nuclear Weapons Against Iran](../../../source-archive/statecraft/2026-03-20/source-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20.md)
 - [2026-03-25 - Iran is the Graveyard of American Hegemony](../../../source-archive/statecraft/2026-03-25/source-glenn-diesen-jeffrey-sachs-iran-is-the-graveyard-of-american-hegemony-2026-03-25.md)
 - [2026-05-12 - New European Military Bloc for War Against Russia](../../../source-archive/statecraft/2026-05-12/source-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [2026-05-23 - The Baltic States Are Now the "Most Dangerous Place" in the World](../../../source-archive/statecraft/2026-05-23/source-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
+- [2026-05-31 - Germany Is Leading Europe Toward World War III](../../../source-archive/statecraft/2026-05-31/source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md)
+- [2026-06-01 - Germany Is Leading Europe Toward World War III](../../../source-archive/statecraft/2026-06-01/source-diesen-sachs-germany-is-leading-europe-toward-world-war-three-2026-06-01.md)
+- [2026-06-03 - European Leaders Do Nothing to Create Peace](../../../source-archive/statecraft/2026-06-03/source-diesen-sachs-european-leaders-do-nothing-to-create-peace-2026-06-03.md)
+- [2026-06-15 - US-Iran Deal Reached - Peace or Tactical Pause?](../../../source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md)
 
 ### Judging Freedom
 
 - [2025-01-08 - Does Trump Want Peace?](../../../source-archive/statecraft/2025-01-08/source-judging-freedom-sachs-does-trump-want-peace-2025-01-08.md)
+- [2025-01-14 - #PEACE Prof. Jeffrey Sachs](../../../source-archive/statecraft/2025-01-14/source-judging-freedom-sachs-peace-2025-01-14.md)
 - [2025-02-03 - Iran wants peace / Israel wants more war!](../../../source-archive/statecraft/2025-02-03/source-judging-freedom-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
 - [2025-05-07 - Can the Kremlin Trust Trump?](../../../source-archive/statecraft/2025-05-07/source-judging-freedom-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
 - [2025-06-24 - Is the US Subordinated to Israel?](../../../source-archive/statecraft/2025-06-24/source-judging-freedom-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
@@ -56,13 +72,42 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-12-02 - Is Trump Planning More Wars?](../../../source-archive/statecraft/2025-12-02/source-judging-freedom-sachs-is-trump-planning-more-wars-2025-12-02.md)
 - [2025-12-10 - Underestimating Russia.](../../../source-archive/statecraft/2025-12-10/source-judging-freedom-sachs-underestimating-russia-2025-12-10.md)
 - [2025-12-15 - Trump's Empire of Hubris.](../../../source-archive/statecraft/2025-12-15/source-judging-freedom-sachs-trumps-empire-of-hubris-2025-12-15.md)
+- [2026-01-27 - Using the Economy as a Weapon — Trump and Iran](../../../source-archive/statecraft/2026-01-27/source-judging-freedom-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md)
+- [2026-02-03 - The Global Cost of MAGA Politics](../../../source-archive/statecraft/2026-02-03/source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md)
+- [2026-03-03 - Did Trump Just Start WWIII?](../../../source-archive/statecraft/2026-03-03/source-judging-freedom-sachs-did-trump-just-start-wwiii-2026-03-03.md)
 - [2026-03-16 - Are We Drifting Toward a Global War?](../../../source-archive/statecraft/2026-03-16/source-judging-freedom-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
+- [2026-04-06 - Trump Reveals His Desperation](../../../source-archive/statecraft/2026-04-06/source-judging-freedom-sachs-trump-reveals-his-desperation-2026-04-06.md)
+- [2026-04-20 - Prof. Jeffrey Sachs : Is the War Over?](../../../source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md)
 - [2026-05-27 - Trump Has No Lifeline Out of Iran](../../../source-archive/statecraft/2026-05-27/source-judging-freedom-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
+- [2026-05-29 - Why Is Israel At War With Its Neighbors?](../../../source-archive/statecraft/2026-05-29/source-judging-freedom-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md)
+- [2026-06-01 - Prof. Jeffrey Sachs : How the Best Military and Intel Failed](../../../source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md)
+- [2026-06-08 - Is Trump Losing It?](../../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md)
+- [2026-06-15 - Netanyahu vs. Trump](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md)
+- [2026-06-22 - Why Iran Can't Trust Trump](../../../source-archive/statecraft/2026-06-22/source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md)
 
 ### Sachs-Owned Lectures
 
+- [2025-01-30 - Jeffrey Sachs on U.S. Arrogance, Global Power & Why We Can’t Trust Our Leaders](../../../source-archive/statecraft/2025-01-30/source-sachs-on-us-arrogance-global-power-and-why-we-cant-trust-our-leaders-2025-01-30.md)
+- [2025-02-18 - Jeffrey Sachs on the 3 Most Important Things Trump Has Done So Far and America’s Global Dominance](../../../source-archive/statecraft/2025-02-18/source-sachs-three-most-important-things-trump-has-done-so-far-and-americas-global-dominance-2025-02-18.md)
+- [2025-02-19 - Speech at the EU Parliament](../../../source-archive/statecraft/2025-02-19/source-sachs-speech-at-the-eu-parliament-2025-02-19.md)
+- [2025-03-02 - Jeffrey Sachs on the Trump-Zelenskyy meeting and what comes next for Russia, Ukraine, Europe and the U.S](../../../source-archive/statecraft/2025-03-02/source-sachs-trump-zelenskyy-meeting-and-what-comes-next-2025-03-02.md)
+- [2025-03-10 - The Heat: One-on-one with Jeffrey Sachs](../../../source-archive/statecraft/2025-03-10/source-sachs-the-heat-one-on-one-2025-03-10.md)
+- [2025-03-22 - Jeffrey D. Sachs, Most Trusted Geopolitical Expert On Trump's Tariffs War & US' Role In Ukraine War](../../../source-archive/statecraft/2025-03-22/source-sachs-trumps-tariffs-war-and-us-role-in-ukraine-war-2025-03-22.md)
+- [2025-04-08 - The Sachs Doctrine: Reimagining Growth Through Sustainable Development | Rising Bharat Summit 2025](../../../source-archive/statecraft/2025-04-08/source-sachs-reimagining-growth-through-sustainable-development-2025-04-08.md)
+- [2025-04-09 - An Evening with Professor Jeffrey D. Sachs](../../../source-archive/statecraft/2025-04-09/source-sachs-an-evening-with-professor-jeffrey-d-sachs-2025-04-09.md)
+- [2025-04-25 - Who Rules the New Global Order? with Professor Jeffrey Sachs](../../../source-archive/statecraft/2025-04-25/source-sachs-who-rules-the-new-global-order-2025-04-25.md)
+- [2025-05-03 - Η Παγκόσμια Τάξη σε Μετάβαση - Prof. Jeffrey Sachs](../../../source-archive/statecraft/2025-05-03/source-sachs-global-order-in-transition-2025-05-03.md)
+- [2025-07-21 - Doomsday Clock is Ticking: U.S. Foreign Policy and the Global Crisis](../../../source-archive/statecraft/2025-07-21/source-sachs-doomsday-clock-is-ticking-us-foreign-policy-and-the-global-crisis-2025-07-21.md)
 - [2025-11-05 - How Do Businesses Maneuver In A Multipolar World?](../../../source-archive/statecraft/2025-11-05/source-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md)
 - [2025-11-21 - Jeffrey Sachs ROASTS Trump for Skipping the G20 Summit in South Africa!](../../../source-archive/statecraft/2025-11-21/source-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md)
+- [2026-01-03 - U.S. Attacks Venezuela & Kidnaps President Maduro](../../../source-archive/statecraft/2026-01-03/source-sachs-us-attacks-venezuela-and-kidnaps-president-maduro-2026-01-03.md)
+- [2026-01-07 - Europe-Russia, two-century failure w/ Jeffrey Sachs (Live)](../../../source-archive/statecraft/2026-01-07/source-sachs-europe-russia-two-century-failure-2026-01-07.md)
+- [2026-01-13 - The Western world is in a deeply neurotic state](../../../source-archive/statecraft/2026-01-13/source-sachs-the-western-world-is-in-a-deeply-neurotic-state-2026-01-13.md)
+- [2026-02-02 - US-Iran War INEVITABLE...](../../../source-archive/statecraft/2026-02-02/source-sachs-us-iran-war-inevitable-2026-02-02.md)
+- [2026-02-11 - U.S. Economic Coercion & Death of Dollar](../../../source-archive/statecraft/2026-02-11/source-sachs-us-economic-coercion-and-the-death-of-the-dollar-2026-02-11.md)
+- [2026-04-02 - Incoherent, Illegal, Reckless...](../../../source-archive/statecraft/2026-04-02/source-sachs-incoherent-illegal-reckless-2026-04-02.md)
+- [2026-04-15 - Trump's Naval Blockade of the Strait of Hormuz](../../../source-archive/statecraft/2026-04-15/source-sachs-trumps-naval-blockade-of-the-strait-of-hormuz-2026-04-15.md)
+- [2026-06-02 - An Open Letter to Chancellor Friedrich Merz](../../../source-archive/statecraft/2026-06-02/source-sachs-an-open-letter-to-chancellor-friedrich-merz-2026-06-02.md)
 
 ### Fidias Podcast
 
@@ -90,17 +135,18 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 
 These bounded additions were landed to bring every live Sachs month from `2025-01` through `2026-06` to at least `4` captures in the archive rollups.
 
-- `2025-01`: [2025-01-14 - #PEACE Prof. Jeffrey Sachs](../../../source-archive/statecraft/2025-01-14/source-judging-freedom-sachs-peace-2025-01-14.md), [2025-01-30 - Jeffrey Sachs on U.S. Arrogance, Global Power & Why We Can’t Trust Our Leaders](../../../source-archive/statecraft/2025-01-30/source-sachs-on-us-arrogance-global-power-and-why-we-cant-trust-our-leaders-2025-01-30.md)
-- `2025-02`: [2025-02-18 - Jeffrey Sachs on the 3 Most Important Things Trump Has Done So Far and America’s Global Dominance](../../../source-archive/statecraft/2025-02-18/source-sachs-three-most-important-things-trump-has-done-so-far-and-americas-global-dominance-2025-02-18.md), [2025-02-19 - Speech at the EU Parliament](../../../source-archive/statecraft/2025-02-19/source-sachs-speech-at-the-eu-parliament-2025-02-19.md)
+- `2025-01`: [2025-01-14 - #PEACE Prof. Jeffrey Sachs](../../../source-archive/statecraft/2025-01-14/source-judging-freedom-sachs-peace-2025-01-14.md), [2025-01-30 - Jeffrey Sachs on U.S. Arrogance, Global Power & Why We Can't Trust Our Leaders](../../../source-archive/statecraft/2025-01-30/source-sachs-on-us-arrogance-global-power-and-why-we-cant-trust-our-leaders-2025-01-30.md)
+- `2025-02`: [2025-02-18 - Jeffrey Sachs on the 3 Most Important Things Trump Has Done So Far and America's Global Dominance](../../../source-archive/statecraft/2025-02-18/source-sachs-three-most-important-things-trump-has-done-so-far-and-americas-global-dominance-2025-02-18.md), [2025-02-19 - Speech at the EU Parliament](../../../source-archive/statecraft/2025-02-19/source-sachs-speech-at-the-eu-parliament-2025-02-19.md)
 - `2025-03`: [2025-03-02 - Jeffrey Sachs on the Trump-Zelenskyy meeting and what comes next for Russia, Ukraine, Europe and the U.S](../../../source-archive/statecraft/2025-03-02/source-sachs-trump-zelenskyy-meeting-and-what-comes-next-2025-03-02.md), [2025-03-10 - The Heat: One-on-one with Jeffrey Sachs](../../../source-archive/statecraft/2025-03-10/source-sachs-the-heat-one-on-one-2025-03-10.md), [2025-03-22 - Jeffrey D. Sachs, Most Trusted Geopolitical Expert On Trump's Tariffs War & US' Role In Ukraine War](../../../source-archive/statecraft/2025-03-22/source-sachs-trumps-tariffs-war-and-us-role-in-ukraine-war-2025-03-22.md)
 - `2025-04`: [2025-04-08 - The Sachs Doctrine: Reimagining Growth Through Sustainable Development | Rising Bharat Summit 2025](../../../source-archive/statecraft/2025-04-08/source-sachs-reimagining-growth-through-sustainable-development-2025-04-08.md), [2025-04-09 - An Evening with Professor Jeffrey D. Sachs](../../../source-archive/statecraft/2025-04-09/source-sachs-an-evening-with-professor-jeffrey-d-sachs-2025-04-09.md), [2025-04-25 - Who Rules the New Global Order? with Professor Jeffrey Sachs](../../../source-archive/statecraft/2025-04-25/source-sachs-who-rules-the-new-global-order-2025-04-25.md)
 - `2025-05`: [2025-05-03 - Η Παγκόσμια Τάξη σε Μετάβαση - Prof. Jeffrey Sachs](../../../source-archive/statecraft/2025-05-03/source-sachs-global-order-in-transition-2025-05-03.md)
 - `2025-07`: [2025-07-15 - Jeffrey Sachs: End of the Western-Centric World & Rise of BRICS](../../../source-archive/statecraft/2025-07-15/source-diesen-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md), [2025-07-21 - Doomsday Clock is Ticking: U.S. Foreign Policy and the Global Crisis](../../../source-archive/statecraft/2025-07-21/source-sachs-doomsday-clock-is-ticking-us-foreign-policy-and-the-global-crisis-2025-07-21.md)
-- `2026-01`: [2026-01-03 - Jeffrey Sachs: U.S. Attacks Venezuela & Kidnaps President Maduro](../../../source-archive/statecraft/2026-01-03/source-sachs-us-attacks-venezuela-and-kidnaps-president-maduro-2026-01-03.md), [2026-01-07 - Europe-Russia, two-century failure w/ Jeffrey Sachs (Live)](../../../source-archive/statecraft/2026-01-07/source-sachs-europe-russia-two-century-failure-2026-01-07.md), [2026-01-13 - The Western world is in a deeply neurotic state](../../../source-archive/statecraft/2026-01-13/source-sachs-the-western-world-is-in-a-deeply-neurotic-state-2026-01-13.md), [2026-01-27 - Using the Economy as a Weapon — Trump and Iran](../../../source-archive/statecraft/2026-01-27/source-judging-freedom-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md)
+- `2026-01`: [2026-01-03 - Jeffrey Sachs: U.S. Attacks Venezuela & Kidnaps President Maduro](../../../source-archive/statecraft/2026-01-03/source-sachs-us-attacks-venezuela-and-kidnaps-president-maduro-2026-01-03.md), [2026-01-04 - Jeffrey Sachs: U.S. Attacks Venezuela & Kidnaps President Maduro (Diesen)](../../../source-archive/statecraft/2026-01-04/source-diesen-sachs-us-attacks-venezuela-and-kidnaps-president-maduro-2026-01-04.md), [2026-01-07 - Europe-Russia, two-century failure w/ Jeffrey Sachs (Live)](../../../source-archive/statecraft/2026-01-07/source-sachs-europe-russia-two-century-failure-2026-01-07.md), [2026-01-13 - The Western world is in a deeply neurotic state](../../../source-archive/statecraft/2026-01-13/source-sachs-the-western-world-is-in-a-deeply-neurotic-state-2026-01-13.md), [2026-01-27 - Using the Economy as a Weapon — Trump and Iran](../../../source-archive/statecraft/2026-01-27/source-judging-freedom-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md)
 - `2026-02`: [2026-02-02 - Jeffrey Sachs: US-Iran War INEVITABLE...](../../../source-archive/statecraft/2026-02-02/source-sachs-us-iran-war-inevitable-2026-02-02.md), [2026-02-03 - Prof. Jeffrey Sachs: The Global Cost of MAGA Politics](../../../source-archive/statecraft/2026-02-03/source-judging-freedom-sachs-the-global-cost-of-maga-politics-2026-02-03.md), [2026-02-11 - U.S. Economic Coercion & Death of Dollar](../../../source-archive/statecraft/2026-02-11/source-sachs-us-economic-coercion-and-the-death-of-the-dollar-2026-02-11.md)
 - `2026-03`: [2026-03-03 - Did Trump Just Start WWIII?](../../../source-archive/statecraft/2026-03-03/source-judging-freedom-sachs-did-trump-just-start-wwiii-2026-03-03.md)
-- `2026-04`: [2026-04-02 - Incoherent, Illegal, Reckless...](../../../source-archive/statecraft/2026-04-02/source-sachs-incoherent-illegal-reckless-2026-04-02.md), [2026-04-06 - Trump Reveals His Desperation](../../../source-archive/statecraft/2026-04-06/source-judging-freedom-sachs-trump-reveals-his-desperation-2026-04-06.md), [2026-04-15 - Trump's Naval Blockade of the Strait of Hormuz](../../../source-archive/statecraft/2026-04-15/source-sachs-trumps-naval-blockade-of-the-strait-of-hormuz-2026-04-15.md)
-- `2026-06`: [2026-06-01 - Germany Is Leading Europe Toward World War III](../../../source-archive/statecraft/2026-06-01/source-diesen-sachs-germany-is-leading-europe-toward-world-war-three-2026-06-01.md), [2026-06-02 - An Open Letter to Chancellor Friedrich Merz](../../../source-archive/statecraft/2026-06-02/source-sachs-an-open-letter-to-chancellor-friedrich-merz-2026-06-02.md), [2026-06-03 - European Leaders Do Nothing to Create Peace](../../../source-archive/statecraft/2026-06-03/source-diesen-sachs-european-leaders-do-nothing-to-create-peace-2026-06-03.md)
+- `2026-04`: [2026-04-02 - Incoherent, Illegal, Reckless...](../../../source-archive/statecraft/2026-04-02/source-sachs-incoherent-illegal-reckless-2026-04-02.md), [2026-04-06 - Trump Reveals His Desperation](../../../source-archive/statecraft/2026-04-06/source-judging-freedom-sachs-trump-reveals-his-desperation-2026-04-06.md), [2026-04-15 - Trump's Naval Blockade of the Strait of Hormuz](../../../source-archive/statecraft/2026-04-15/source-sachs-trumps-naval-blockade-of-the-strait-of-hormuz-2026-04-15.md), [2026-04-20 - Is the war over?](../../../source-archive/statecraft/2026-04-20/source-judging-freedom-sachs-is-the-war-over-2026-04-20.md)
+- `2026-05`: [2026-05-29 - Why is Israel at war with its neighbors?](../../../source-archive/statecraft/2026-05-29/source-judging-freedom-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md), [2026-05-31 - Germany Is Leading Europe Toward World War III (Diesen)](../../../source-archive/statecraft/2026-05-31/source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md)
+- `2026-06`: [2026-06-01 - Germany Is Leading Europe Toward World War III](../../../source-archive/statecraft/2026-06-01/source-diesen-sachs-germany-is-leading-europe-toward-world-war-three-2026-06-01.md), [2026-06-01 - How the best military and intel failed](../../../source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md), [2026-06-02 - An Open Letter to Chancellor Friedrich Merz](../../../source-archive/statecraft/2026-06-02/source-sachs-an-open-letter-to-chancellor-friedrich-merz-2026-06-02.md), [2026-06-03 - European Leaders Do Nothing to Create Peace](../../../source-archive/statecraft/2026-06-03/source-diesen-sachs-european-leaders-do-nothing-to-create-peace-2026-06-03.md), [2026-06-08 - Is Trump losing it?](../../../source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md), [2026-06-15 - US–Iran deal reached — peace or tactical pause? (Diesen)](../../../source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md), [2026-06-15 - Netanyahu vs Trump](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md), [2026-06-22 - Why Iran can't trust Trump](../../../source-archive/statecraft/2026-06-22/source-judging-freedom-sachs-why-iran-cant-trust-trump-2026-06-22.md)
 
 ## Host-Arc Entries
 

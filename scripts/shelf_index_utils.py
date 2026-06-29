@@ -22,6 +22,18 @@ PAPE_DATE_STUB = re.compile(r"^source-pape-\d{4}-\d{2}-\d{2}\.md$", re.I)
 RITTER_DATE_STUB = re.compile(r"^source-ritter-\d{4}-\d{2}-\d{2}\.md$", re.I)
 INTERVIEW_KINDS = frozenset({"transcript", "cleaned-transcript", "interview"})
 AUTHORED_KINDS = frozenset({"substack-post", "article", "essay", "newsletter", "rss-item"})
+_SLUG_FILENAME_PATTERNS: dict[str, re.Pattern[str]] = {}
+
+
+def slug_token_in_capture_filename(slug: str, filename: str) -> bool:
+    """Match slug as a hyphen-delimited token in capture filenames (not substring)."""
+    key = slug.casefold()
+    pattern = _SLUG_FILENAME_PATTERNS.get(key)
+    if pattern is None:
+        slug_esc = re.escape(key)
+        pattern = re.compile(rf"(?:^|-){slug_esc}(?:-|\.|$)", re.I)
+        _SLUG_FILENAME_PATTERNS[key] = pattern
+    return bool(pattern.search(filename.casefold()))
 
 
 def norm_scalar(value: object) -> str:
@@ -121,7 +133,7 @@ def capture_matches_shelf(slug: str, path: Path, meta: dict[str, object], body: 
     slug_fold = slug.casefold()
     if norm_scalar(meta.get("thread")) == slug:
         return True
-    if slug_fold in path.name.casefold():
+    if slug_token_in_capture_filename(slug, path.name):
         return True
     if _guest_named(meta, slug):
         return True
