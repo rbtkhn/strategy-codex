@@ -46,7 +46,7 @@ WORK only; not Record.
 
 This section is now a compatibility redirect.
 
-**Canonical scaffold:** [speakers/_templates/speaker-thread-template.md](../statecraft/voices/_templates/speaker-thread-template.md)
+**Canonical scaffold:** [statecraft/templates/speaker-thread-template.md](../statecraft/templates/speaker-thread-template.md)
 
 Use the dedicated speaker thread template for:
 

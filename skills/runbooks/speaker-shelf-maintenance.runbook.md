@@ -58,7 +58,7 @@ Legacy skills **`speaker-shelf-hygiene`**, **`speaker-structural-continuity`**, 
 
 - [`statecraft/voices/README.md`](../../statecraft/voices/README.md) — legacy `codex/speakers/` terminated ([codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md))
 - [`statecraft/voices/speaker-routing-doctrine.md`](../../statecraft/voices/speaker-routing-doctrine.md#open-first-routes)
-- [`statecraft/voices/_templates/speaker-surface-orthogonality-review-template.md`](../../statecraft/voices/_templates/speaker-surface-orthogonality-review-template.md)
+- [`statecraft/templates/speaker-surface-orthogonality-review-template.md`](../../statecraft/templates/speaker-surface-orthogonality-review-template.md)
 - [`statecraft/notes/README.md`](../../statecraft/notes/README.md) — cross-speaker compare and bounded note-class home
 
 Short route rule: `front door -> support spine -> provenance bench -> compatibility last`.

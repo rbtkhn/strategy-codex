@@ -23,7 +23,7 @@ If a question is about authored forecast structure, host transformation, or cano
 ---
 ## Journal layer — Narrative (operator)
 
-_This monthly chapter is **one** calendar month. Optional **Continuity (month open):** a short opening paragraph (carried from late prior month, open pins) so the file reads as a **chapter**— see [speaker-thread-template.md](../_templates/speaker-thread-template.md._
+_This monthly chapter is **one** calendar month. Optional **Continuity (month open):** a short opening paragraph (carried from late prior month, open pins) so the file reads as a **chapter**— see [speaker-thread-template.md](../../templates/speaker-thread-template.md._
 
 **Default:** at least **~500 words** of substantive prose in `## 2026-01` (see `validate_strategy_expert_threads.py`); list lines with `[strength: …]` do not count toward the minimum by default.
 

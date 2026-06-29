@@ -61,7 +61,7 @@ DEFAULT_TARGETS = {
 }
 
 TARGET_BY_TYPE = {
-    "template": "statecraft/voices/_templates/speaker-arc-template.md",
+    "template": "statecraft/templates/speaker-arc-template.md",
     "fixture": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
     "rubric": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
     "prompt": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
