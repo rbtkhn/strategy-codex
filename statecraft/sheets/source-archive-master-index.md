@@ -1,6 +1,6 @@
 # Source-Archive master index
 
-Generated: `2026-06-28 04:07:28Z`
+Generated: `2026-06-29 02:30:28Z`
 
 WORK only; not Record. This file is generated from the on-disk source-archive tree.
 
@@ -10,7 +10,7 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## Scope
 
-- canonical date-bucket captures: `2783`
+- canonical date-bucket captures: `2794`
 - `_aired-pending` captures: `1`
 - helper surfaces and inventories: `35`
 - transcript-kind canonical captures: `1067`
@@ -20,9 +20,9 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 | class | count |
 |---|---:|
 | `transcript` | 1067 |
-| `(none)` | 1059 |
-| `cleaned-transcript` | 334 |
-| `substack-post` | 137 |
+| `(none)` | 1063 |
+| `cleaned-transcript` | 340 |
+| `substack-post` | 138 |
 | `operator-transcript` | 76 |
 | `youtube` | 49 |
 | `paste-bundle` | 31 |
@@ -69,7 +69,7 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 | `2026-03` | 271 | 115 | 101 | 14 |
 | `2026-04` | 259 | 118 | 83 | 35 |
 | `2026-05` | 306 | 163 | 161 | 2 |
-| `2026-06` | 342 | 45 | 45 | 0 |
+| `2026-06` | 353 | 45 | 45 | 0 |
 
 ## 2023-01
 
@@ -1792,7 +1792,7 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-glenn-diesen-alex-krainer-europes-militarism-economic-decline-2025-10-20.md](C:/dev/strategy-codex/source-archive/statecraft/2025-10-20/source-glenn-diesen-alex-krainer-europes-militarism-economic-decline-2025-10-20.md) — Alex Krainer: Europe's Militarism & Economic Decline | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:glenn-diesen` | `host:Glenn Diesen` | `guest:Alex Krainer`
 - [source-alexander-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md](C:/dev/strategy-codex/source-archive/statecraft/2025-10-20/source-alexander-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md) — Trump Zelensky Furious Row; US Tells Kiev Accept Moscow's Terms Or Be Destroyed; Pokrovsk Falls Fast | `kind:transcript` | `form:solo` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 - [source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md](C:/dev/strategy-codex/source-archive/statecraft/2025-10-20/source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md) — IRAN's NUCLEAR DILEMMA /Trita Parsi & Lt Col Daniel Davis | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:davis` | `host:Daniel Davis` | `guest:Trita Parsi` | `grade:transcript-bearing`
-- [source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md](C:/dev/strategy-codex/source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md) — Russia: All About DEMILITARIZING NATO /Andrei Martyanov & Lt Col Daniel Davis | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:davis` | `host:Daniel Davis` | `guest:Andrei Martyanov` | `grade:transcript-bearing`
+- [source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md](C:/dev/strategy-codex/source-archive/statecraft/2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md) — Russia: All About DEMILITARIZING NATO /Andrei Martyanov & Lt Col Daniel Davis | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:davis` | `host:Daniel Davis` | `guest:Andrei Martyanov` | `grade:transcript-bearing`
 
 ### 2025-10-21 (4)
 
@@ -4338,6 +4338,23 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-mario-nawfal-trita-parsi-israel-lebanon-peace-agreement-mou-breach-2026-06-26.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-26/source-mario-nawfal-trita-parsi-israel-lebanon-peace-agreement-mou-breach-2026-06-26.md) — BREAKING: ISRAEL AND LEBANON SIGN PEACE AGREEMENT, BREACHING IRANIAN MOU - w/ Trita Parsi | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:parsi` | `host:Mario Nawfal` | `guest:Trita Parsi`
 - [source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) — U.S STRIKE IRAN, U.S ISRAEL LEBANON DEAL VIOLATES THE MOU DEAL w/ PROFESSOR PAPE | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:pape` | `host:Sulaiman Ahmed` | `guest:Robert Pape`
 - [source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-26/source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md) — Prof Seyed Marandi: WILL the US COLLAPSE the GLOBAL ECONOMY? | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:daniel-davis` | `host:Daniel Davis` | `guest:Seyed Mohammad Marandi` | `grade:transcript-bearing`
+
+### 2026-06-27 (8)
+
+- [README.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/README.md) — Statecraft Archive - 2026-06-27 | `kind:(none)` | `form:(none)` | `body:short-body`
+- [day-index.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/day-index.md) — Statecraft Archive - Day Index - 2026-06-27 | `kind:(none)` | `form:(none)` | `body:full-transcript-body`
+- [source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md) — Putin Lukashenko Rebuff Zelensky Meet In Valdai; French MSM Admits Kiev Troops Losing; MoU Unravels | `kind:cleaned-transcript` | `form:solo` | `body:non-transcript` | `thread:mercouris` | `host:Alexander Mercouris`
+- [source-dialogue-works-anthony-aguilar-us-airstrikes-southern-iran-tehran-retaliation-us-bases-2026-06-27.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/source-dialogue-works-anthony-aguilar-us-airstrikes-southern-iran-tehran-retaliation-us-bases-2026-06-27.md) — Lt. Col. Anthony Aguilar: U.S. Airstrikes Hit Southern Iran; Tehran's 'Hard' Retaliation on US Bases | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:aguilar` | `host:Nima Alkhorshid` | `guest:Anthony Aguilar`
+- [source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md) — Larry Johnson: U.S. Bombs Iran Near Sirik – Tehran's Counterstrike on US Bases Trigger Regional War | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:johnson` | `host:Nima Alkhorshid` | `guest:Larry Johnson`
+- [source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md) — Ray McGovern: Iran's Missiles Force US Retreat: Bases Moving West to Escape Attacks | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:mcgovern` | `host:Nima Alkhorshid` | `guest:Ray McGovern`
+- [source-glenn-diesen-larry-johnson-putin-warns-west-russia-ready-war-2026-06-27.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/source-glenn-diesen-larry-johnson-putin-warns-west-russia-ready-war-2026-06-27.md) — Larry Johnson: Putin Warns the West - Russia is Ready for War | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:diesen` | `host:Glenn Diesen` | `guest:Larry Johnson`
+- [source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-27/source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md) — Situation Report — Special Edition | `kind:substack-post` | `form:newsletter` | `body:non-transcript` | `thread:pape`
+
+### 2026-06-28 (3)
+
+- [README.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-28/README.md) — Statecraft Archive - 2026-06-28 | `kind:(none)` | `form:(none)` | `body:short-body`
+- [day-index.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-28/day-index.md) — Statecraft Archive - Day Index - 2026-06-28 | `kind:(none)` | `form:(none)` | `body:full-transcript-body`
+- [source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md](C:/dev/strategy-codex/source-archive/statecraft/2026-06-28/source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md) — BREAKING: Explosions in Bahrain & Kuwait by Iran & Explosion in Kiev w/ Larry Johnson | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:johnson` | `host:Nima Alkhorshid` | `guest:Larry Johnson`
 
 ## _aired-pending
 

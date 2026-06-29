@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-28T04:07:38Z",
+  "generated_at": "2026-06-29T02:30:34Z",
   "raw_root": "source-archive/statecraft",
   "speakers_root": "statecraft/voices",
   "master_index": {
@@ -164,7 +164,7 @@
     },
     {
       "speaker": "alkorshid",
-      "reason": "transcript mentions=123; speaker markdown=4"
+      "reason": "transcript mentions=121; speaker markdown=4"
     },
     {
       "speaker": "armstrong",
@@ -207,7 +207,7 @@
       "local_markdown": 2
     },
     "alkorshid": {
-      "transcript_mentions": 123,
+      "transcript_mentions": 121,
       "stream_markdown": 0,
       "local_markdown": 4
     },
@@ -249,7 +249,7 @@
     "crooke": {
       "transcript_mentions": 19,
       "stream_markdown": 0,
-      "local_markdown": 61
+      "local_markdown": 62
     },
     "davis": {
       "transcript_mentions": 230,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-28T04:07:38Z",
+  "generated_at": "2026-06-29T02:30:34Z",
   "raw_root": "source-archive/statecraft",
   "canonical": [
     {
@@ -8065,7 +8065,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 7605,
-      "body_chars": 41560
+      "body_chars": 41561
     },
     {
       "scope": "canonical-date-bucket",
@@ -9829,7 +9829,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 9638,
-      "body_chars": 52563
+      "body_chars": 52566
     },
     {
       "scope": "canonical-date-bucket",
@@ -11761,7 +11761,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 5614,
-      "body_chars": 30331
+      "body_chars": 30332
     },
     {
       "scope": "canonical-date-bucket",
@@ -12810,8 +12810,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 212,
-      "body_chars": 2427
+      "body_words": 215,
+      "body_chars": 2449
     },
     {
       "scope": "canonical-date-bucket",
@@ -14805,8 +14805,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 146,
-      "body_chars": 1449
+      "body_words": 149,
+      "body_chars": 1471
     },
     {
       "scope": "canonical-date-bucket",
@@ -15036,8 +15036,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 233,
-      "body_chars": 2926
+      "body_words": 236,
+      "body_chars": 2948
     },
     {
       "scope": "canonical-date-bucket",
@@ -16401,8 +16401,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 139,
-      "body_chars": 1382
+      "body_words": 142,
+      "body_chars": 1404
     },
     {
       "scope": "canonical-date-bucket",
@@ -17325,8 +17325,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 175,
-      "body_chars": 2086
+      "body_words": 178,
+      "body_chars": 2108
     },
     {
       "scope": "canonical-date-bucket",
@@ -17725,7 +17725,7 @@
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
       "body_words": 11793,
-      "body_chars": 63721
+      "body_chars": 63722
     },
     {
       "scope": "canonical-date-bucket",
@@ -20371,7 +20371,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 8193,
-      "body_chars": 44655
+      "body_chars": 44656
     },
     {
       "scope": "canonical-date-bucket",
@@ -20713,8 +20713,8 @@
       "scope": "canonical-date-bucket",
       "pub_date": "2025-10-20",
       "month": "2025-10",
-      "rel_path": "2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md",
-      "file_name": "source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md",
+      "rel_path": "2025-10-20/source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md",
+      "file_name": "source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martyanov-lt-col-daniel-davis-2025-10-20.md",
       "kind": "transcript",
       "body_profile": "full-transcript-body",
       "title": "Russia: All About DEMILITARIZING NATO /Andrei Martyanov & Lt Col Daniel Davis",
@@ -21504,8 +21504,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 203,
-      "body_chars": 2308
+      "body_words": 204,
+      "body_chars": 2317
     },
     {
       "scope": "canonical-date-bucket",
@@ -22722,8 +22722,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 207,
-      "body_chars": 2465
+      "body_words": 210,
+      "body_chars": 2487
     },
     {
       "scope": "canonical-date-bucket",
@@ -23059,7 +23059,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 7246,
-      "body_chars": 40159
+      "body_chars": 40160
     },
     {
       "scope": "canonical-date-bucket",
@@ -24424,7 +24424,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 9165,
-      "body_chars": 50602
+      "body_chars": 50603
     },
     {
       "scope": "canonical-date-bucket",
@@ -24802,7 +24802,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 10262,
-      "body_chars": 55439
+      "body_chars": 55441
     },
     {
       "scope": "canonical-date-bucket",
@@ -26965,7 +26965,7 @@
       "transcript_type": "manual_subtitles_vtt",
       "evidence_grade": "transcript-grade",
       "body_words": 7015,
-      "body_chars": 38257
+      "body_chars": 38258
     },
     {
       "scope": "canonical-date-bucket",
@@ -27070,7 +27070,7 @@
       "transcript_type": "manual_subtitles_vtt",
       "evidence_grade": "transcript-grade",
       "body_words": 9443,
-      "body_chars": 51530
+      "body_chars": 51531
     },
     {
       "scope": "canonical-date-bucket",
@@ -45928,7 +45928,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 7241,
-      "body_chars": 39644
+      "body_chars": 39662
     },
     {
       "scope": "canonical-date-bucket",
@@ -46158,8 +46158,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 6868,
-      "body_chars": 39710
+      "body_words": 6867,
+      "body_chars": 39716
     },
     {
       "scope": "canonical-date-bucket",
@@ -46179,8 +46179,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 8047,
-      "body_chars": 44697
+      "body_words": 8046,
+      "body_chars": 44720
     },
     {
       "scope": "canonical-date-bucket",
@@ -46369,7 +46369,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 718,
-      "body_chars": 4272
+      "body_chars": 4273
     },
     {
       "scope": "canonical-date-bucket",
@@ -46515,8 +46515,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
-      "body_words": 12194,
-      "body_chars": 67778
+      "body_words": 12193,
+      "body_chars": 67781
     },
     {
       "scope": "canonical-date-bucket",
@@ -46684,7 +46684,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 8041,
-      "body_chars": 44675
+      "body_chars": 44712
     },
     {
       "scope": "canonical-date-bucket",
@@ -46705,7 +46705,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 9350,
-      "body_chars": 51484
+      "body_chars": 51640
     },
     {
       "scope": "canonical-date-bucket",
@@ -48133,7 +48133,7 @@
       "transcript_type": "operator_pasted_transcript",
       "evidence_grade": "transcript-bearing",
       "body_words": 8807,
-      "body_chars": 47357
+      "body_chars": 47358
     },
     {
       "scope": "canonical-date-bucket",
@@ -49477,7 +49477,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 6088,
-      "body_chars": 34557
+      "body_chars": 34582
     },
     {
       "scope": "canonical-date-bucket",
@@ -49497,8 +49497,8 @@
       "source_form": "interview",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 9579,
-      "body_chars": 53016
+      "body_words": 9520,
+      "body_chars": 52603
     },
     {
       "scope": "canonical-date-bucket",
@@ -49708,7 +49708,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 9067,
-      "body_chars": 51906
+      "body_chars": 51947
     },
     {
       "scope": "canonical-date-bucket",
@@ -49729,7 +49729,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 6340,
-      "body_chars": 37090
+      "body_chars": 37171
     },
     {
       "scope": "canonical-date-bucket",
@@ -49750,7 +49750,7 @@
       "transcript_type": "",
       "evidence_grade": "legacy-appearance-only",
       "body_words": 7165,
-      "body_chars": 40729
+      "body_chars": 40822
     },
     {
       "scope": "canonical-date-bucket",
@@ -52102,7 +52102,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 5632,
-      "body_chars": 30759
+      "body_chars": 30776
     },
     {
       "scope": "canonical-date-bucket",
@@ -52333,7 +52333,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 7890,
-      "body_chars": 43246
+      "body_chars": 43247
     },
     {
       "scope": "canonical-date-bucket",
@@ -52354,7 +52354,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 8882,
-      "body_chars": 49041
+      "body_chars": 49043
     },
     {
       "scope": "canonical-date-bucket",
@@ -52375,7 +52375,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 9630,
-      "body_chars": 51957
+      "body_chars": 51958
     },
     {
       "scope": "canonical-date-bucket",
@@ -52396,7 +52396,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 11884,
-      "body_chars": 65712
+      "body_chars": 65713
     },
     {
       "scope": "canonical-date-bucket",
@@ -52417,7 +52417,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 8638,
-      "body_chars": 46612
+      "body_chars": 46613
     },
     {
       "scope": "canonical-date-bucket",
@@ -52606,7 +52606,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 7277,
-      "body_chars": 40422
+      "body_chars": 40423
     },
     {
       "scope": "canonical-date-bucket",
@@ -53740,7 +53740,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 6819,
-      "body_chars": 37607
+      "body_chars": 37608
     },
     {
       "scope": "canonical-date-bucket",
@@ -55756,7 +55756,7 @@
       "transcript_type": "operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 8880,
-      "body_chars": 48534
+      "body_chars": 48536
     },
     {
       "scope": "canonical-date-bucket",
@@ -57667,7 +57667,7 @@
       "transcript_type": "operator_pasted_youtube_transcript",
       "evidence_grade": "transcript-bearing",
       "body_words": 7498,
-      "body_chars": 41115
+      "body_chars": 41116
     },
     {
       "scope": "canonical-date-bucket",
@@ -58276,7 +58276,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 8020,
-      "body_chars": 44101
+      "body_chars": 44102
     },
     {
       "scope": "canonical-date-bucket",
@@ -58297,7 +58297,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 7822,
-      "body_chars": 43215
+      "body_chars": 43216
     },
     {
       "scope": "canonical-date-bucket",
@@ -58318,7 +58318,7 @@
       "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
       "evidence_grade": "",
       "body_words": 8201,
-      "body_chars": 44852
+      "body_chars": 44853
     },
     {
       "scope": "canonical-date-bucket",
@@ -58445,6 +58445,237 @@
       "evidence_grade": "",
       "body_words": 10842,
       "body_chars": 57585
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/day-index.md",
+      "file_name": "day-index.md",
+      "kind": "(none)",
+      "body_profile": "full-transcript-body",
+      "title": "Statecraft Archive - Day Index - 2026-06-27",
+      "thread": "",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "",
+      "source_type": "",
+      "source_form": "",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 269,
+      "body_chars": 3502
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/README.md",
+      "file_name": "README.md",
+      "kind": "(none)",
+      "body_profile": "short-body",
+      "title": "Statecraft Archive - 2026-06-27",
+      "thread": "",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "",
+      "source_type": "",
+      "source_form": "",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 16,
+      "body_chars": 132
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md",
+      "file_name": "source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Putin Lukashenko Rebuff Zelensky Meet In Valdai; French MSM Admits Kiev Troops Losing; MoU Unravels",
+      "thread": "mercouris",
+      "host": "Alexander Mercouris",
+      "guest": "",
+      "show": "Mercouris",
+      "source_url": "https://www.youtube.com/watch?v=7RscGre2RNo",
+      "source_type": "youtube",
+      "source_form": "solo",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 8842,
+      "body_chars": 50644
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/source-dialogue-works-anthony-aguilar-us-airstrikes-southern-iran-tehran-retaliation-us-bases-2026-06-27.md",
+      "file_name": "source-dialogue-works-anthony-aguilar-us-airstrikes-southern-iran-tehran-retaliation-us-bases-2026-06-27.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Lt. Col. Anthony Aguilar: U.S. Airstrikes Hit Southern Iran; Tehran's 'Hard' Retaliation on US Bases",
+      "thread": "aguilar",
+      "host": "Nima Alkhorshid",
+      "guest": "Anthony Aguilar",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=3w3kUdVU16U",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 6522,
+      "body_chars": 37108
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md",
+      "file_name": "source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Larry Johnson: U.S. Bombs Iran Near Sirik \u2013 Tehran's Counterstrike on US Bases Trigger Regional War",
+      "thread": "johnson",
+      "host": "Nima Alkhorshid",
+      "guest": "Larry Johnson",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=S14JFXkrUmk",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 7549,
+      "body_chars": 42571
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md",
+      "file_name": "source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Ray McGovern: Iran's Missiles Force US Retreat: Bases Moving West to Escape Attacks",
+      "thread": "mcgovern",
+      "host": "Nima Alkhorshid",
+      "guest": "Ray McGovern",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=xG4YW8gx0JQ",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 8778,
+      "body_chars": 47907
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/source-glenn-diesen-larry-johnson-putin-warns-west-russia-ready-war-2026-06-27.md",
+      "file_name": "source-glenn-diesen-larry-johnson-putin-warns-west-russia-ready-war-2026-06-27.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "Larry Johnson: Putin Warns the West - Russia is Ready for War",
+      "thread": "diesen",
+      "host": "Glenn Diesen",
+      "guest": "Larry Johnson",
+      "show": "Glenn Diesen",
+      "source_url": "https://www.youtube.com/watch?v=kcxI6XcdY4U",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 7392,
+      "body_chars": 40198
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-27",
+      "month": "2026-06",
+      "rel_path": "2026-06-27/source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md",
+      "file_name": "source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md",
+      "kind": "substack-post",
+      "body_profile": "non-transcript",
+      "title": "Situation Report \u2014 Special Edition",
+      "thread": "pape",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "https://escalationtrap.substack.com/p/situation-report-special-edition",
+      "source_type": "substack",
+      "source_form": "newsletter",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 641,
+      "body_chars": 4305
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-28",
+      "month": "2026-06",
+      "rel_path": "2026-06-28/day-index.md",
+      "file_name": "day-index.md",
+      "kind": "(none)",
+      "body_profile": "full-transcript-body",
+      "title": "Statecraft Archive - Day Index - 2026-06-28",
+      "thread": "",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "",
+      "source_type": "",
+      "source_form": "",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 151,
+      "body_chars": 1502
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-28",
+      "month": "2026-06",
+      "rel_path": "2026-06-28/README.md",
+      "file_name": "README.md",
+      "kind": "(none)",
+      "body_profile": "short-body",
+      "title": "Statecraft Archive - 2026-06-28",
+      "thread": "",
+      "host": "",
+      "guest": "",
+      "show": "",
+      "source_url": "",
+      "source_type": "",
+      "source_form": "",
+      "transcript_type": "",
+      "evidence_grade": "",
+      "body_words": 16,
+      "body_chars": 132
+    },
+    {
+      "scope": "canonical-date-bucket",
+      "pub_date": "2026-06-28",
+      "month": "2026-06",
+      "rel_path": "2026-06-28/source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md",
+      "file_name": "source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md",
+      "kind": "cleaned-transcript",
+      "body_profile": "non-transcript",
+      "title": "BREAKING: Explosions in Bahrain & Kuwait by Iran & Explosion in Kiev w/ Larry Johnson",
+      "thread": "johnson",
+      "host": "Nima Alkhorshid",
+      "guest": "Larry Johnson",
+      "show": "Dialogue Works",
+      "source_url": "https://www.youtube.com/watch?v=hLmQVNMosz4",
+      "source_type": "youtube",
+      "source_form": "interview",
+      "transcript_type": "ai_assisted_operator_pasted_youtube_transcript",
+      "evidence_grade": "",
+      "body_words": 9783,
+      "body_chars": 54979
     }
   ],
   "aired_pending": [
@@ -58741,8 +58972,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 445,
-      "body_chars": 3671
+      "body_words": 449,
+      "body_chars": 3691
     },
     {
       "scope": "helper-surface",
@@ -58762,8 +58993,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 556,
-      "body_chars": 4622
+      "body_words": 569,
+      "body_chars": 4711
     },
     {
       "scope": "helper-surface",
@@ -58846,8 +59077,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 785,
-      "body_chars": 6544
+      "body_words": 796,
+      "body_chars": 6624
     },
     {
       "scope": "helper-surface",
@@ -58867,8 +59098,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1128,
-      "body_chars": 8299
+      "body_words": 1134,
+      "body_chars": 8341
     },
     {
       "scope": "helper-surface",
@@ -58930,8 +59161,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1111,
-      "body_chars": 8917
+      "body_words": 1117,
+      "body_chars": 8959
     },
     {
       "scope": "helper-surface",
@@ -58972,8 +59203,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1189,
-      "body_chars": 9378
+      "body_words": 1192,
+      "body_chars": 9399
     },
     {
       "scope": "helper-surface",
@@ -58993,8 +59224,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 1081,
-      "body_chars": 8646
+      "body_words": 1098,
+      "body_chars": 8794
     },
     {
       "scope": "helper-surface",
@@ -59098,8 +59329,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 206,
-      "body_chars": 1974
+      "body_words": 220,
+      "body_chars": 2111
     },
     {
       "scope": "helper-surface",
@@ -59140,8 +59371,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 2037,
-      "body_chars": 19332
+      "body_words": 2047,
+      "body_chars": 19412
     },
     {
       "scope": "helper-surface",
@@ -59162,7 +59393,7 @@
       "transcript_type": "",
       "evidence_grade": "",
       "body_words": 1432,
-      "body_chars": 11845
+      "body_chars": 11846
     },
     {
       "scope": "helper-surface",
@@ -59182,8 +59413,8 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 827,
-      "body_chars": 7787
+      "body_words": 816,
+      "body_chars": 7795
     },
     {
       "scope": "helper-surface",
@@ -59203,23 +59434,23 @@
       "source_form": "",
       "transcript_type": "",
       "evidence_grade": "",
-      "body_words": 187,
-      "body_chars": 1815
+      "body_words": 200,
+      "body_chars": 1946
     }
   ],
   "summary": {
-    "canonical_count": 2783,
+    "canonical_count": 2794,
     "aired_pending_count": 1,
     "helper_count": 35,
     "canonical_kind_counts": {
-      "(none)": 1059,
+      "(none)": 1063,
       "transcript": 1067,
       "institutional-primary": 3,
       "youtube": 49,
       "operator-transcript": 76,
-      "cleaned-transcript": 334,
+      "cleaned-transcript": 340,
       "youtube-transcript": 11,
-      "substack-post": 137,
+      "substack-post": 138,
       "paste-bundle": 31,
       "article": 6,
       "verbatim-sidecar": 3,
