@@ -9,6 +9,7 @@ Usage:
     python scripts/audit_statecraft_archive_index.py --channel-index --table
     python scripts/audit_statecraft_archive_index.py --writer-index --table
     python scripts/audit_statecraft_archive_index.py --voice-index --table
+    python scripts/audit_statecraft_archive_index.py --shelf-index parsi --table
 """
 from __future__ import annotations
 
@@ -27,6 +28,7 @@ if str(_SCRIPTS) not in sys.path:
 
 import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
+import shelf_index_utils as shelf_utils  # noqa: E402
 import statecraft_writer_index as writer_idx  # noqa: E402
 import validate_repo_routing as routing_val  # noqa: E402
 from quantify_section_nav import extract_transcript  # noqa: E402
@@ -117,6 +119,20 @@ class VoiceIndexRow:
     index_kind: str
 
 
+@dataclass(frozen=True)
+class ShelfCaptureRow:
+    pub_date: str
+    title: str
+    capture_path: str
+    on_disk: bool
+
+    def sort_date(self) -> str:
+        return self.pub_date
+
+
+MD_LINK_PAIR = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
+
+
 def word_count_capture(path: Path) -> int:
     text = read_text(path)
     body = text.split("---", 2)[2] if text.startswith("---") else text
@@ -187,7 +203,7 @@ def apply_table_limit(
 
 
 def default_table_limit(scope: str) -> int | None:
-    if scope in ("day", "channel-index", "writer-index", "voice-index"):
+    if scope in ("day", "channel-index", "writer-index", "voice-index", "shelf-index"):
         return None
     return DEFAULT_MONTH_YEAR_TABLE_LIMIT
 
@@ -655,6 +671,224 @@ def format_voice_index_table(
     return "\n".join(lines)
 
 
+def shelf_index_path(slug: str, voices_dir: Path | None = None) -> Path:
+    base = voices_dir or VOICES_DIR
+    return base / slug / f"{slug}-index.md"
+
+
+def parse_shelf_index_links(index_path: Path) -> list[tuple[str, str, Path | None]]:
+    text = read_text(index_path)
+    rows: list[tuple[str, str, Path | None]] = []
+    seen: set[str] = set()
+    for match in MD_LINK_PAIR.finditer(text):
+        title = match.group(1).strip()
+        target = match.group(2).strip().split("#", 1)[0]
+        if not target or target.startswith(("http://", "https://", "mailto:")):
+            continue
+        dest = routing_val.resolve_md_link(index_path, target)
+        if dest is None:
+            continue
+        try:
+            rel = _posix_rel(dest)
+        except Exception:
+            rel = str(dest)
+        if rel in seen:
+            continue
+        seen.add(rel)
+        if dest.name.startswith("source-") and "source-archive/statecraft" in rel.replace("\\", "/"):
+            rows.append((title, rel, dest if dest.is_file() else None))
+    return rows
+
+
+def iter_archive_captures_for_shelf(slug: str, root: Path) -> list[Path]:
+    if not root.is_dir():
+        return []
+    slug_fold = slug.casefold()
+    paths: list[Path] = []
+    for day_dir in writer_idx.iter_all_day_dirs(root):
+        for path in iter_source_files(day_dir):
+            meta = parse_frontmatter(path)
+            thread = norm_scalar(meta.get("thread"))
+            if thread == slug or slug_fold in path.name.casefold():
+                paths.append(path)
+    return sorted(paths, key=lambda p: (p.parent.name, p.name))
+
+
+def collect_shelf_capture_rows(
+    slug: str,
+    *,
+    archive_root: Path,
+    index_path: Path | None = None,
+) -> list[ShelfCaptureRow]:
+    index_path = index_path or shelf_index_path(slug)
+    rows: list[ShelfCaptureRow] = []
+    for title, rel, dest in parse_shelf_index_links(index_path):
+        pub_date = ""
+        parts = rel.split("/")
+        for part in parts:
+            if len(part) == 10 and part[4] == "-" and part[7] == "-":
+                pub_date = part
+                break
+        rows.append(
+            ShelfCaptureRow(
+                pub_date=pub_date,
+                title=title or Path(rel).name,
+                capture_path=rel,
+                on_disk=bool(dest and dest.is_file()),
+            )
+        )
+    return rows
+
+
+def sort_shelf_capture_rows(rows: list[ShelfCaptureRow], sort_key: SortKey) -> list[ShelfCaptureRow]:
+    if sort_key == "title":
+        return sorted(rows, key=lambda r: (r.title.casefold(), r.pub_date))
+    if sort_key == "words":
+        return sorted(rows, key=lambda r: (not r.on_disk, r.pub_date, r.title))
+    return sorted(rows, key=lambda r: (r.pub_date, r.title))
+
+
+def audit_shelf_index(
+    slug: str,
+    *,
+    archive_root: Path,
+    voices_dir: Path | None = None,
+) -> list[AuditFinding]:
+    findings: list[AuditFinding] = []
+    base = voices_dir or VOICES_DIR
+    index_path = shelf_index_path(slug, base)
+    if not index_path.is_file():
+        findings.append(
+            AuditFinding("fail", "missing_shelf_index", f"missing {slug}/{slug}-index.md")
+        )
+        return findings
+
+    voice_registry = base / "voice-index.md"
+    if voice_registry.is_file():
+        reg_text = read_text(voice_registry)
+        primary_rel = _posix_rel(index_path)
+        if _voice_index_lists_path(primary_rel, reg_text, index_path.name):
+            findings.append(
+                AuditFinding("pass", "voice_registry", f"{slug} listed in voice-index.md")
+            )
+        else:
+            findings.append(
+                AuditFinding("fail", "voice_registry", f"{slug} not listed in voice-index.md")
+            )
+
+    link_errors: list[str] = []
+    routing_val.validate_markdown_links([index_path], link_errors, strict=True)
+    if link_errors:
+        for msg in link_errors[:10]:
+            findings.append(AuditFinding("fail", "broken_link", msg))
+        if len(link_errors) > 10:
+            findings.append(
+                AuditFinding(
+                    "fail",
+                    "broken_link",
+                    f"… and {len(link_errors) - 10} more broken link(s) in {slug}-index.md",
+                )
+            )
+    else:
+        findings.append(
+            AuditFinding("pass", "links_ok", f"{slug}-index.md links resolve on disk")
+        )
+
+    for companion_path in shelf_utils.companion_paths(slug, base):
+        findings.append(AuditFinding("pass", "companion_route", companion_path.name))
+    index_body = read_text(index_path)
+    for pattern in (f"{slug}-forecast-ledger", f"{slug}-interview-appearances"):
+        if pattern.replace("-", " ") in index_body.lower() or pattern in index_body:
+            if not shelf_utils.companion_paths(slug, base):
+                findings.append(
+                    AuditFinding("warn", "companion_missing", f"referenced but missing: {pattern}*.md")
+                )
+                break
+
+    shelf_links = parse_shelf_index_links(index_path)
+    missing_captures = [rel for _title, rel, dest in shelf_links if dest is None]
+    if missing_captures:
+        for rel in missing_captures:
+            findings.append(AuditFinding("fail", "capture_missing", f"index links missing capture: {rel}"))
+    else:
+        findings.append(
+            AuditFinding(
+                "pass",
+                "capture_links",
+                f"{len(shelf_links)} archive capture link(s) resolve on disk",
+            )
+        )
+
+    index_text = read_text(index_path)
+    disk_captures = iter_archive_captures_for_shelf(slug, archive_root)
+    eligible_count = 0
+    unlisted = []
+    for path in disk_captures:
+        meta = parse_frontmatter(path)
+        body_snip = read_text(path)[:8000] if path.is_file() else ""
+        if shelf_utils.shelf_capture_excluded(slug, path, meta, body_snip):
+            continue
+        eligible_count += 1
+        rel = _posix_rel(path)
+        if path.name not in index_text and rel not in index_text:
+            unlisted.append(rel)
+    if unlisted:
+        for rel in unlisted[:15]:
+            findings.append(
+                AuditFinding("warn", "archive_unlisted", f"archive capture not cited in {slug}-index.md: {rel}")
+            )
+        if len(unlisted) > 15:
+            findings.append(
+                AuditFinding(
+                    "warn",
+                    "archive_unlisted",
+                    f"… and {len(unlisted) - 15} more {slug} archive capture(s) not cited",
+                )
+            )
+    else:
+        findings.append(
+            AuditFinding(
+                "pass",
+                "archive_parity",
+                f"all {eligible_count} eligible archive captures cited in index",
+            )
+        )
+
+    return findings
+
+
+def format_shelf_capture_table(
+    scope_label: str,
+    rows: list[ShelfCaptureRow],
+    *,
+    truncated: int,
+    sort_key: SortKey,
+) -> str:
+    lines = [
+        f"## Shelf capture inventory — {scope_label}",
+        "",
+        f"_Sorted by `{sort_key}`; links from `{scope_label}-index.md` to archive captures._",
+        "",
+        "| Date | Title | Capture | On disk |",
+        "| --- | --- | --- | --- |",
+    ]
+    for row in rows:
+        title = row.title.replace("|", "\\|")
+        if len(title) > 56:
+            title = title[:53] + "..."
+        cap = row.capture_path
+        if len(cap) > 52:
+            cap = "…" + cap[-49:]
+        disk = "yes" if row.on_disk else "no"
+        lines.append(f"| {row.pub_date} | {title} | `{cap}` | {disk} |")
+    if truncated:
+        lines.append("")
+        lines.append(f"_… and {truncated} more row(s); use `--table-limit 0` for full list._")
+    lines.append("")
+    lines.append(f"rows shown: {len(rows)}")
+    return "\n".join(lines)
+
+
 def audit_day_dir(day_dir: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
     if not day_dir.is_dir():
@@ -817,6 +1051,8 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
         return "writer-index"
     if args.voice_index:
         return "voice-index"
+    if args.shelf_index:
+        return "shelf-index"
     if args.day:
         return "day"
     if args.month:
@@ -865,6 +1101,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="Audit voice-index.md registry parity, links, and shelf coverage.",
     )
+    scope.add_argument(
+        "--shelf-index",
+        metavar="SLUG",
+        help="Audit curated voice shelf bench (e.g. parsi-index.md) vs archive captures.",
+    )
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft archive root.")
     parser.add_argument("--table", action="store_true", help="Append inventory table to output.")
     parser.add_argument("--table-only", action="store_true", help="Inventory table only; skip audit checks.")
@@ -896,12 +1137,14 @@ def main(argv: list[str] | None = None) -> int:
         and not args.channel_index
         and not args.writer_index
         and not args.voice_index
+        and not args.shelf_index
         and not args.day
         and not args.month
         and not args.year
     ):
         print(
-            "error: specify --day, --month, --year, --channel-index, --writer-index, --voice-index, or --global",
+            "error: specify --day, --month, --year, --channel-index, --writer-index, "
+            "--voice-index, --shelf-index SLUG, or --global",
             file=sys.stderr,
         )
         return 2
@@ -910,9 +1153,10 @@ def main(argv: list[str] | None = None) -> int:
     scope_kind = resolve_scope_name(args)
 
     if args.fix:
-        if args.voice_index:
+        if args.voice_index or args.shelf_index:
+            curated = "voice-index.md" if args.voice_index else f"{args.shelf_index}-index.md"
             print(
-                "note: voice-index.md is curated; --fix skipped (edit voice-index.md manually)",
+                f"note: {curated} is curated; --fix skipped (edit manually)",
                 file=sys.stderr,
             )
         else:
@@ -934,6 +1178,12 @@ def main(argv: list[str] | None = None) -> int:
         findings.extend(audit_voice_index())
         if not scope_label:
             scope_label = "voice-index"
+
+    if args.shelf_index:
+        slug = args.shelf_index.strip().casefold()
+        findings.extend(audit_shelf_index(slug, archive_root=root))
+        if not scope_label:
+            scope_label = f"{slug} shelf-index"
 
     if args.global_audit:
         findings.extend(audit_global(root))
@@ -964,6 +1214,7 @@ def main(argv: list[str] | None = None) -> int:
     channel_table_rows: list[ChannelIndexRow] = []
     writer_table_rows: list[WriterIndexRow] = []
     voice_table_rows: list[VoiceIndexRow] = []
+    shelf_table_rows: list[ShelfCaptureRow] = []
     truncated = 0
     roster_sort = map_channel_table_sort(args.table_sort)
     if (args.table or args.table_only) and args.channel_index:
@@ -987,6 +1238,14 @@ def main(argv: list[str] | None = None) -> int:
         if limit is None:
             limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
         voice_table_rows, truncated = apply_table_limit(voice_table_rows, limit)
+    elif (args.table or args.table_only) and args.shelf_index:
+        slug = args.shelf_index.strip().casefold()
+        all_shelf_rows = collect_shelf_capture_rows(slug, archive_root=root)
+        shelf_table_rows = sort_shelf_capture_rows(all_shelf_rows, args.table_sort)
+        limit = args.table_limit
+        if limit is None:
+            limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
+        shelf_table_rows, truncated = apply_table_limit(shelf_table_rows, limit)
     elif (args.table or args.table_only) and day_dirs:
         all_rows = collect_inventory_rows(day_dirs)
         table_rows = sort_inventory_rows(all_rows, args.table_sort)
@@ -1014,6 +1273,7 @@ def main(argv: list[str] | None = None) -> int:
             "channel_table": [asdict(r) for r in channel_table_rows],
             "writer_table": [asdict(r) for r in writer_table_rows],
             "voice_table": [asdict(r) for r in voice_table_rows],
+            "shelf_table": [asdict(r) for r in shelf_table_rows],
             "table_truncated": truncated,
             "table_sort": args.table_sort,
         }
@@ -1048,6 +1308,16 @@ def main(argv: list[str] | None = None) -> int:
                 voice_table_rows,
                 truncated=truncated,
                 sort_key=roster_sort,
+            )
+        )
+    elif (args.table or args.table_only) and shelf_table_rows:
+        slug = args.shelf_index.strip().casefold() if args.shelf_index else "shelf"
+        parts.append(
+            format_shelf_capture_table(
+                slug,
+                shelf_table_rows,
+                truncated=truncated,
+                sort_key=args.table_sort,
             )
         )
     elif args.table or args.table_only:

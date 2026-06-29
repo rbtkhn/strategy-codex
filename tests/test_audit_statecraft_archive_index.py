@@ -294,3 +294,107 @@ def test_voice_index_fails_on_registry_gap(tmp_path: Path, monkeypatch) -> None:
     findings = audit.audit_voice_index(voices)
     assert any(f.code == "registry_gap" and f.level == "fail" for f in findings)
     assert audit.main(["--voice-index"]) == 1
+
+
+def test_shelf_index_passes_when_capture_links_resolve(
+    tmp_path: Path, monkeypatch
+) -> None:
+    archive = tmp_path / "archive"
+    day = archive / "2026-06-01"
+    capture = day / "source-parsi-sample-2026-06-01.md"
+    _write(
+        capture,
+        "---\nthread: parsi\npub_date: 2026-06-01\ntitle: Sample\n---\n\nBody.\n",
+    )
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "parsi"
+    shelf.mkdir(parents=True)
+    rel = "../../../source-archive/statecraft/2026-06-01/source-parsi-sample-2026-06-01.md"
+    _write(
+        shelf / "parsi-index.md",
+        f"# Parsi index\n\n- [Sample]({rel})\n",
+    )
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n| Parsi | [parsi/parsi-index.md](parsi/parsi-index.md) |\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+    monkeypatch.setattr(audit, "REPO_ROOT", tmp_path)
+    # Mirror archive under repo layout expected by relative link from shelf
+    archive_mirror = tmp_path / "source-archive" / "statecraft" / "2026-06-01"
+    archive_mirror.mkdir(parents=True)
+    archive_mirror.joinpath("source-parsi-sample-2026-06-01.md").write_text(
+        capture.read_text(encoding="utf-8"), encoding="utf-8", newline="\n"
+    )
+
+    findings = audit.audit_shelf_index("parsi", archive_root=archive)
+    assert any(f.code == "links_ok" and f.level == "pass" for f in findings)
+    assert any(f.code == "capture_links" and f.level == "pass" for f in findings)
+
+
+def test_shelf_index_fails_when_index_links_missing_capture(
+    tmp_path: Path, monkeypatch
+) -> None:
+    archive = tmp_path / "archive"
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "parsi"
+    shelf.mkdir(parents=True)
+    rel = "../../../source-archive/statecraft/2026-06-01/source-parsi-missing-2026-06-01.md"
+    _write(shelf / "parsi-index.md", f"# Parsi\n\n- [Missing]({rel})\n")
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n| Parsi | [parsi/parsi-index.md](parsi/parsi-index.md) |\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+
+    findings = audit.audit_shelf_index("parsi", archive_root=archive)
+    assert any(f.code == "capture_missing" and f.level == "fail" for f in findings)
+    assert audit.main(["--shelf-index", "parsi", "--root", str(archive)]) == 1
+
+
+def test_shelf_index_excludes_pape_date_stub(tmp_path: Path, monkeypatch) -> None:
+    archive = tmp_path / "archive"
+    day = archive / "2026-04-17"
+    stub = day / "source-pape-2026-04-17.md"
+    _write(stub, "---\nthread: pape\npub_date: 2026-04-17\nkind: transcript\n---\n\nX thread.\n")
+    voices = tmp_path / "statecraft" / "voices"
+    shelf = voices / "pape"
+    shelf.mkdir(parents=True)
+    _write(shelf / "pape-index.md", "# Pape\n\n## Boundary\n\nDate stubs excluded.\n")
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n| Pape | [pape/pape-index.md](pape/pape-index.md) |\n",
+    )
+    monkeypatch.setattr(audit, "VOICES_DIR", voices)
+
+    findings = audit.audit_shelf_index("pape", archive_root=archive)
+    assert not any(f.code == "archive_unlisted" for f in findings)
+    assert any(f.code == "archive_parity" and f.level == "pass" for f in findings)
+
+
+def test_shelf_index_from_capture_resolves_and_appends(tmp_path: Path, monkeypatch) -> None:
+    import shelf_index_from_capture as shelf_cli  # noqa: E402
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    archive = tmp_path / "archive"
+    day = archive / "2026-06-10"
+    capture = day / "source-crooke-sample-2026-06-10.md"
+    _write(
+        capture,
+        "---\nthread: crooke\npub_date: 2026-06-10\nkind: substack-post\ntitle: Sample Crooke\n---\n\nBody.\n",
+    )
+    voices = tmp_path / "statecraft" / "voices"
+    crooke = voices / "crooke"
+    crooke.mkdir(parents=True)
+    _write(crooke / "crooke-index.md", "# Crooke index\n\n## 2026-06\n")
+    _write(
+        voices / "voice-index.md",
+        "# Voices\n\n| Lens | Index |\n|---|---|\n| Crooke | [crooke/crooke-index.md](crooke/crooke-index.md) |\n",
+    )
+    monkeypatch.setattr(shelf_utils, "VOICES_DIR", voices)
+    monkeypatch.setattr(shelf_cli, "REPO_ROOT", tmp_path)
+
+    code = shelf_cli.main(["--path", str(capture), "--root", str(archive), "--apply"])
+    assert code == 0
+    index_text = (crooke / "crooke-index.md").read_text(encoding="utf-8")
+    assert capture.name in index_text

@@ -4046,3 +4046,87 @@ Routing: [patch_2026_06_27_28_new_intake_sections.py](../scripts/patch_2026_06_2
 **Pattern promotion:** defer until second distinct breaking-live capture family reuses CaptureSpec iterative loop without new law beyond (1)(2).
 
 ---
+
+## 2026-06-28 - Guest shelf index audit parity vs routing doctrine
+
+**Tag:** `shelf-index` · `archive_parity` · `guest-shelf` · `build-index` · `audit-index` · `Windows-EXECUTE`  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows:** guest-index rebuilds = one builder write or one sequential patch per file per turn; no parallel `StrReplace×N` on `*-index.md` or `build_*_index.py`.
+
+### Trigger
+
+Jun 28 EXECUTE arc: `--shelf-index` audits on Johnson, Wilkerson, and Freeman exposed **WARN `archive_unlisted`** despite captures on disk — three failure shapes: Johnson curated live-core (24/110), Wilkerson empty circular redirect (0/95), Freeman partial IGL bench (15/148). Bulk closes via `build_{slug}_index.py` + month-grouped rows + June cadence overlay → **PASS `archive_parity`**. Commits pushed: `f87e69a78` (Johnson), `f7e26f4d7` (Wilkerson), `5079290dc` (Freeman). Handoff flagged `parallel_strreplace` on index/builder edits; PowerShell rejected bash heredoc on `git commit`.
+
+### Extracted law
+
+**1. Guest shelf index parity is audit-mechanical, not routing-optional**
+
+```text
+--shelf-index archive_parity → every eligible capture filename must appear in {slug}-index.md body
+Host-arc / support-spine / “partial bench” prose does NOT satisfy audit
+Routing doctrine lives in overlays BELOW or beside the month list — not instead of it
+```
+
+**2. Standard close recipe (guest shelf bulk parity)**
+
+```text
+audit --shelf-index SLUG → count unlisted
+python scripts/build_{slug}_index.py  (iter_archive_captures_for_shelf + month ##YYYY-MM rows)
+load_annotation_map: longest — suffix wins per filename (list lines + table cells)
+render_june_cadence_table + render_curated_overlays AFTER month sections (overlays ≠ parity rows)
+**Audit:** header + rebuild CLI in index header
+re-audit until archive_parity PASS
+```
+
+**3. Compat redirect must not circular-empty**
+
+```text
+{slug}-source-index.md → pointer to {slug}-index.md only
+If index is a doorway with zero archive links, audit fails with 100% unlisted
+```
+
+**4. Windows git commit (PowerShell)**
+
+```text
+No $(cat <<'EOF') heredoc — use git commit -m "title" -m "body"
+```
+
+### Reapplication
+
+- **New guest shelf audit WARN:** run builder recipe before invoking “host owns chronology” as audit excuse.
+- **Next guest indexes (Diesen, Marandi, …):** clone `build_freeman_index.py` skeleton; extend `host_short` per shelf.
+- **Post-intake rebuild:** `build_{slug}_index.py` preserves link-line annotations; wire overlays in builder so rebuild does not drop cadence/cross-weave blocks.
+- **Large index edit on Windows:** one file, one write path per turn — run builder once, not parallel row patches.
+- **Remaining WIP:** ship `shelf_index_utils.py` + audit `--shelf-index` extensions + tests before claiming post-land `shelf_index_from_capture --apply` is SSOT.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| `scripts/build_johnson_index.py` + `johnson-index.md` | Pushed `f87e69a78` — 110 rows + Jun cadence |
+| `scripts/build_wilkerson_index.py` + `wilkerson-index.md` | Pushed `f7e26f4d7` — 95 rows + Jun cadence |
+| `scripts/build_freeman_index.py` + `freeman-index.md` | Pushed `5079290dc` — 148 rows + IGL/Greenland overlays + Jun cadence |
+| `scripts/shelf_index_utils.py`, `shelf_index_from_capture.py`, audit/skill WIP | Still local — law (2) not fully wired until stack ships |
+
+### Guardrail
+
+```text
+Do not treat curated cross-weave / IGL / Greenland tables as archive_parity substitutes
+Do not hand-edit 80+ index rows on Windows — use builder + re-audit
+Do not parallel StrReplace on *-index.md or build_*_index.py (see parallel-ban RLJ)
+Do not duplicate parallel-ban RLJ body — cross-link + narrow only
+```
+
+**Falsification:** If audit gains explicit `--shelf-index-partial` with documented exclusions (beyond pape/ritter stubs), law (1) narrows to “full parity unless exclusion flag in index header.”
+
+### Current lesson
+
+```text
+Guest shelf routing doctrine and shelf-index audit law are orthogonal layers —
+month-list parity first (builder), cross-weave cadence second (overlay), host arcs third (transformation).
+```
+
+Routing: [build_johnson_index.py](../scripts/build_johnson_index.py) · [build_wilkerson_index.py](../scripts/build_wilkerson_index.py) · [build_freeman_index.py](../scripts/build_freeman_index.py) · [audit_statecraft_archive_index.py](../scripts/audit_statecraft_archive_index.py) · [audit-index](../skills/audit-index/SKILL.md) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc)
+
+**Pattern promotion:** defer until second distinct guest shelf (e.g. Diesen) reuses builder recipe without new law beyond (1)(2).
+
+---
