@@ -4,7 +4,7 @@ description: Audit statecraft archive index surfaces (day-index parity, stale gl
 preferred_activation: audit index
 activation: audit index · audit day-index · index audit · audit index table
 portable: true
-version: 1.0.0
+version: 1.0.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -27,6 +27,7 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 - After intake batch or before daily synthesis compose
 - Operator says **`audit day-index`**, **`audit june 28`**, **`audit archive indices`**
 - Host/thread/kind stats on day-index look wrong vs capture YAML
+- Channel roster counts or last-day columns look wrong vs recent YouTube intake
 - Monthly closeout or pre-push when index churn is suspected
 
 ## When not to use
@@ -49,11 +50,12 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 | Month | `--month YYYY-MM` |
 | Year inventory | `--year YYYY` |
 | Global navigation | `--global` |
+| Channel index (YouTube roster) | `--channel-index` |
 | Inventory table only | `--table-only` + scope |
 | Audit + table | `--table` + scope |
 | Rebuild stale | `--fix` (EXECUTE / explicit confirm only) |
 
-**Table:** one row per capture — Date, Title, URL, Words, Bucket, Kind, §. Default limit 50 for month/year; unlimited for `--day`.
+**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** scope — Slug, Label, Files, Days, Watchlist, Last day, URL (`--table-sort words` → file count, `title` → label, `bucket` → slug, `date` → files).
 
 ## Execution order
 
@@ -107,6 +109,7 @@ Repo-specific paths and commands for **audit-index** (from `.cursor/skills/audit
 | Topic | Path |
 |--------|------|
 | Audit CLI | [scripts/audit_statecraft_archive_index.py](../../../scripts/audit_statecraft_archive_index.py) |
+| Channel index (md/json) | [statecraft/channels/channel-index.md](../../../statecraft/channels/channel-index.md) |
 | Day-index builder | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
 | Global navigation builder | [scripts/build_statecraft_archive_navigation.py](../../../scripts/build_statecraft_archive_navigation.py) |
 | Day-index spec | [source-archive/statecraft/day-index-spec.md](../../../source-archive/statecraft/day-index-spec.md) |
@@ -123,7 +126,8 @@ Repo-specific paths and commands for **audit-index** (from `.cursor/skills/audit
 python scripts/audit_statecraft_archive_index.py --day 2026-06-28
 python scripts/audit_statecraft_archive_index.py --day 2026-06-28 --table
 python scripts/audit_statecraft_archive_index.py --global
-python scripts/audit_statecraft_archive_index.py --global --fix
+python scripts/audit_statecraft_archive_index.py --channel-index --table
+python scripts/audit_statecraft_archive_index.py --channel-index --fix
 python scripts/audit_statecraft_archive_index.py --month 2026-06 --table-only --table-limit 50
 python -m pytest tests/test_audit_statecraft_archive_index.py -q
 python scripts/sync_portable_skills.py --skill audit-index --verify

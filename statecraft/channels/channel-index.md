@@ -1,6 +1,6 @@
 # Statecraft Channels — YouTube Channel Index
 
-_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._
+_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`. **Audit:** `python scripts/audit_statecraft_archive_index.py --channel-index` — stale check, roster table; skill **`audit index`**._
 
 SSOT for the main **check-sources** roster lives under `statecraft/channels/` (one shelf folder per `channel_slug`).
 

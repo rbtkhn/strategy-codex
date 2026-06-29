@@ -53,6 +53,7 @@ Low-volume channels: [channel-index-misc.md](channel-index-misc.md) (misc roster
 - [channel-index.md](channel-index.md) — human roster + stats (regenerated from archive captures)
 - [channel-index.json](channel-index.json) — machine roster for **check-sources**
 - [channel-index-misc.md](channel-index-misc.md) — low-volume channels excluded from main roster
+- **Audit:** `python scripts/audit_statecraft_archive_index.py --channel-index` — stale check, roster table; skill **`audit index`**
 
 ## High-leverage host orthogonality
 

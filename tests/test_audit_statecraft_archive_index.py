@@ -10,6 +10,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import audit_statecraft_archive_index as audit  # noqa: E402
+import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
 
 
@@ -148,3 +149,53 @@ def test_table_limit_truncates_month_scope(tmp_path: Path) -> None:
     shown, truncated = audit.apply_table_limit(sorted_rows, 2)
     assert len(shown) == 2
     assert truncated == 1
+
+
+def test_channel_index_table_and_audit_fresh(tmp_path: Path, monkeypatch) -> None:
+    archive_root = tmp_path / "archive"
+    channel_dir = tmp_path / "channels"
+    channel_dir.mkdir()
+    day = archive_root / "2026-06-28"
+    capture = _sample_capture().replace("Nima Alkhorshid", "Dialogue Works")
+    capture = capture.replace("kind: cleaned-transcript", "kind: cleaned-transcript\nchannel_slug: dialogue-works")
+    _write(day / "source-dialogue-works-sample-2026-06-28.md", capture)
+
+    monkeypatch.setattr(audit, "CHANNEL_INDEX_DIR", channel_dir)
+    nav.write_rendered(channel_dir / "channel-index.md", nav.build_channel_index(archive_root), check=False)
+    nav.write_channel_index_json(channel_dir / "channel-index.json", archive_root, check=False)
+    nav.write_rendered(
+        channel_dir / "channel-index-misc.md",
+        nav.build_channel_index_misc(archive_root),
+        check=False,
+    )
+
+    findings = audit.audit_channel_index(archive_root)
+    assert any(f.code == "channel_md" and f.level == "pass" for f in findings)
+    assert any(f.code == "channel_json" and f.level == "pass" for f in findings)
+
+    code = audit.main(
+        ["--channel-index", "--root", str(archive_root), "--table-only", "--table-sort", "words"]
+    )
+    assert code == 0
+
+
+def test_channel_index_fails_when_md_stale(tmp_path: Path, monkeypatch) -> None:
+    archive_root = tmp_path / "archive"
+    channel_dir = tmp_path / "channels"
+    channel_dir.mkdir()
+    day = archive_root / "2026-06-28"
+    _write(day / "source-dialogue-works-sample-2026-06-28.md", _sample_capture())
+
+    monkeypatch.setattr(audit, "CHANNEL_INDEX_DIR", channel_dir)
+    nav.write_rendered(channel_dir / "channel-index.md", nav.build_channel_index(archive_root), check=False)
+    (channel_dir / "channel-index.md").write_text("stale\n", encoding="utf-8")
+    nav.write_channel_index_json(channel_dir / "channel-index.json", archive_root, check=False)
+    nav.write_rendered(
+        channel_dir / "channel-index-misc.md",
+        nav.build_channel_index_misc(archive_root),
+        check=False,
+    )
+
+    findings = audit.audit_channel_index(archive_root)
+    assert any(f.code == "stale_channel_md" and f.level == "fail" for f in findings)
+    assert audit.main(["--channel-index", "--root", str(archive_root)]) == 1

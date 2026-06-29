@@ -6,6 +6,7 @@ Usage:
     python scripts/audit_statecraft_archive_index.py --day 2026-06-28 --table
     python scripts/audit_statecraft_archive_index.py --month 2026-06 --table-only
     python scripts/audit_statecraft_archive_index.py --global
+    python scripts/audit_statecraft_archive_index.py --channel-index --table
 """
 from __future__ import annotations
 
@@ -26,6 +27,7 @@ import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
 from quantify_section_nav import extract_transcript  # noqa: E402
 from statecraft_day_archive import (  # noqa: E402
+    CHANNEL_INDEX_DIR,
     DAY_INDEX_FILENAME,
     DEFAULT_ROOT,
     build_day_index,
@@ -41,8 +43,11 @@ from statecraft_day_archive import (  # noqa: E402
     summarize_day_dir,
 )
 
+from statecraft_youtube_discovery import is_daily_watchlist_slug, load_daily_watchlist_keys  # noqa: E402
+
 Bucket = Literal["channel", "writer", "other"]
 SortKey = Literal["date", "words", "title", "bucket"]
+ChannelSortKey = Literal["files", "slug", "label", "last_day"]
 
 DEFAULT_MONTH_YEAR_TABLE_LIMIT = 50
 
@@ -68,6 +73,19 @@ class AuditFinding:
     level: Literal["pass", "fail", "warn"]
     code: str
     message: str
+
+
+@dataclass(frozen=True)
+class ChannelIndexRow:
+    slug: str
+    label: str
+    files: int
+    days: int
+    watchlist: bool
+    channel_url: str
+    first_day: str
+    last_day: str
+    explicit_slug: bool
 
 
 def word_count_capture(path: Path) -> int:
@@ -140,7 +158,7 @@ def apply_table_limit(
 
 
 def default_table_limit(scope: str) -> int | None:
-    if scope == "day":
+    if scope in ("day", "channel-index"):
         return None
     return DEFAULT_MONTH_YEAR_TABLE_LIMIT
 
@@ -158,6 +176,166 @@ def capture_hygiene_warnings(path: Path, meta: dict[str, Any]) -> list[str]:
     if is_youtube_capture(meta) and not norm_scalar(meta.get("source_url")):
         warnings.append(f"{path.name}: YouTube capture missing source_url")
     return warnings
+
+
+def _channel_surface_status(path: Path, rendered: str) -> str:
+    return nav._render_compare_status(path, rendered)
+
+
+def collect_channel_index_rows(root: Path, *, misc: bool = False) -> list[ChannelIndexRow]:
+    watchlist_keys = load_daily_watchlist_keys()
+    if misc:
+        all_stats = nav.collect_channel_stats(root)
+        misc_slugs = nav.load_channel_index_misc_slugs()
+        _, stats = nav._partition_channel_stats(all_stats, misc_slugs)
+    else:
+        stats = nav.collect_main_channel_stats(root)
+    rows: list[ChannelIndexRow] = []
+    for entry in stats.values():
+        url = entry.channel_url or ""
+        if url and not url.startswith("http"):
+            url = f"https://{url}"
+        rows.append(
+            ChannelIndexRow(
+                slug=entry.slug,
+                label=entry.label,
+                files=entry.file_count,
+                days=len(entry.days),
+                watchlist=is_daily_watchlist_slug(entry.slug, watchlist_keys),
+                channel_url=url,
+                first_day=entry.first_day or "",
+                last_day=entry.last_day or "",
+                explicit_slug=entry.explicit_slug,
+            )
+        )
+    return rows
+
+
+def sort_channel_index_rows(rows: list[ChannelIndexRow], sort_key: ChannelSortKey) -> list[ChannelIndexRow]:
+    if sort_key == "slug":
+        return sorted(rows, key=lambda r: (r.slug, -r.files))
+    if sort_key == "label":
+        return sorted(rows, key=lambda r: (r.label.casefold(), -r.files))
+    if sort_key == "last_day":
+        return sorted(rows, key=lambda r: (r.last_day, -r.files, r.slug))
+    return sorted(rows, key=lambda r: (-r.files, r.slug))
+
+
+def map_channel_table_sort(sort_key: SortKey) -> ChannelSortKey:
+    if sort_key == "title":
+        return "label"
+    if sort_key == "bucket":
+        return "slug"
+    if sort_key == "date":
+        return "files"
+    return "files"
+
+
+def audit_channel_index(root: Path) -> list[AuditFinding]:
+    findings: list[AuditFinding] = []
+    surfaces = [
+        ("channel-index.md", CHANNEL_INDEX_DIR / "channel-index.md", nav.build_channel_index(root)),
+        (
+            "channel-index-misc.md",
+            CHANNEL_INDEX_DIR / "channel-index-misc.md",
+            nav.build_channel_index_misc(root),
+        ),
+    ]
+    for name, path, rendered in surfaces:
+        status = _channel_surface_status(path, rendered)
+        if status == "ok":
+            findings.append(AuditFinding("pass", "channel_md", f"{name} matches builder"))
+        elif status == "missing":
+            findings.append(AuditFinding("fail", "missing_channel_md", f"{name} missing"))
+        else:
+            findings.append(AuditFinding("fail", "stale_channel_md", f"{name} stale vs recomputed build"))
+
+    json_path = CHANNEL_INDEX_DIR / "channel-index.json"
+    json_stale = nav._json_payload_semantically_changed(json_path, nav.build_channel_index_json(root))
+    if not json_path.is_file():
+        findings.append(AuditFinding("fail", "missing_channel_json", "channel-index.json missing"))
+    elif json_stale:
+        findings.append(AuditFinding("fail", "stale_channel_json", "channel-index.json stale vs recomputed build"))
+    else:
+        findings.append(AuditFinding("pass", "channel_json", "channel-index.json matches builder"))
+
+    live_main = nav.collect_main_channel_stats(root)
+    live_files = sum(entry.file_count for entry in live_main.values())
+    if json_path.is_file() and not json_stale:
+        try:
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            indexed_files = int(payload.get("stats", {}).get("youtube_source_files", -1))
+            if indexed_files >= 0 and indexed_files != live_files:
+                findings.append(
+                    AuditFinding(
+                        "warn",
+                        "stats_drift",
+                        f"channel-index.json youtube_source_files {indexed_files} vs live {live_files}",
+                    )
+                )
+        except (json.JSONDecodeError, TypeError, ValueError):
+            findings.append(AuditFinding("warn", "channel_json_parse", "channel-index.json stats unreadable"))
+
+    for entry in live_main.values():
+        if not entry.explicit_slug:
+            findings.append(
+                AuditFinding(
+                    "warn",
+                    "hygiene",
+                    f"{entry.slug}: derived channel slug (no explicit channel_slug in captures)",
+                )
+            )
+        if not entry.channel_url:
+            findings.append(
+                AuditFinding("warn", "hygiene", f"{entry.slug}: missing channel URL on roster row")
+            )
+
+    return findings
+
+
+def format_channel_index_table(
+    scope_label: str,
+    rows: list[ChannelIndexRow],
+    *,
+    truncated: int,
+    sort_key: ChannelSortKey,
+) -> str:
+    lines = [
+        f"## Channel index inventory — {scope_label}",
+        "",
+        f"_Sorted by `{sort_key}`; main roster (misc excluded)._",
+        "",
+        "| Slug | Label | Files | Days | Watchlist | Last day | URL |",
+        "| --- | --- | ---: | ---: | --- | --- | --- |",
+    ]
+    for row in rows:
+        label = row.label.replace("|", "\\|")
+        if len(label) > 48:
+            label = label[:45] + "..."
+        url = row.channel_url or "—"
+        if len(url) > 48 and url != "—":
+            url = url[:45] + "..."
+        watch = "yes" if row.watchlist else ""
+        slug_cell = row.slug if row.explicit_slug else f"{row.slug} *"
+        lines.append(
+            f"| `{slug_cell}` | {label} | {row.files} | {row.days} | {watch} | {row.last_day} | {url} |"
+        )
+    if truncated:
+        lines.append("")
+        lines.append(f"_… and {truncated} more row(s); use `--table-limit 0` for full list._")
+    lines.append("")
+    lines.append(f"rows shown: {len(rows)}")
+    return "\n".join(lines)
+
+
+def run_fix_channel_index(root: Path) -> None:
+    nav.write_rendered(CHANNEL_INDEX_DIR / "channel-index.md", nav.build_channel_index(root), check=False)
+    nav.write_channel_index_json(CHANNEL_INDEX_DIR / "channel-index.json", root, check=False)
+    nav.write_rendered(
+        CHANNEL_INDEX_DIR / "channel-index-misc.md",
+        nav.build_channel_index_misc(root),
+        check=False,
+    )
 
 
 def audit_day_dir(day_dir: Path) -> list[AuditFinding]:
@@ -316,6 +494,8 @@ def resolve_day_dirs(root: Path, args: argparse.Namespace) -> tuple[list[Path], 
 def resolve_scope_name(args: argparse.Namespace) -> str:
     if args.global_audit:
         return "global"
+    if args.channel_index:
+        return "channel-index"
     if args.day:
         return "day"
     if args.month:
@@ -326,7 +506,9 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
 
 
 def run_fix(root: Path, args: argparse.Namespace, day_dirs: list[Path]) -> None:
-    if args.global_audit or args.month or args.year:
+    if args.channel_index:
+        run_fix_channel_index(root)
+    elif args.global_audit or args.month or args.year:
         old_argv = sys.argv
         sys.argv = ["build_statecraft_archive_navigation.py", "--root", str(root)]
         try:
@@ -345,6 +527,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     scope.add_argument("--month", metavar="YYYY-MM", help="Audit each day in month + inventory scope.")
     scope.add_argument("--year", metavar="YYYY", help="Inventory / audit all days in year.")
     scope.add_argument("--global", dest="global_audit", action="store_true", help="Global navigation stale check.")
+    scope.add_argument(
+        "--channel-index",
+        action="store_true",
+        help="Audit channel-index.md/json (+ misc) stale vs live YouTube captures.",
+    )
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft archive root.")
     parser.add_argument("--table", action="store_true", help="Append inventory table to output.")
     parser.add_argument("--table-only", action="store_true", help="Inventory table only; skip audit checks.")
@@ -371,8 +558,14 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     root = args.root.resolve()
 
-    if not args.global_audit and not args.day and not args.month and not args.year:
-        print("error: specify --day, --month, --year, or --global", file=sys.stderr)
+    if (
+        not args.global_audit
+        and not args.channel_index
+        and not args.day
+        and not args.month
+        and not args.year
+    ):
+        print("error: specify --day, --month, --year, --channel-index, or --global", file=sys.stderr)
         return 2
 
     day_dirs, scope_label = resolve_day_dirs(root, args)
@@ -382,6 +575,11 @@ def main(argv: list[str] | None = None) -> int:
         run_fix(root, args, day_dirs)
 
     findings: list[AuditFinding] = []
+
+    if args.channel_index:
+        findings.extend(audit_channel_index(root))
+        if not scope_label:
+            scope_label = "channel-index (main roster)"
 
     if args.global_audit:
         findings.extend(audit_global(root))
@@ -409,8 +607,17 @@ def main(argv: list[str] | None = None) -> int:
             findings.append(AuditFinding("pass", "daily_sync", f"daily synthesis ok for {args.daily_sync}"))
 
     table_rows: list[InventoryRow] = []
+    channel_table_rows: list[ChannelIndexRow] = []
     truncated = 0
-    if (args.table or args.table_only) and day_dirs:
+    channel_sort = map_channel_table_sort(args.table_sort)
+    if (args.table or args.table_only) and args.channel_index:
+        all_channel_rows = collect_channel_index_rows(root, misc=False)
+        channel_table_rows = sort_channel_index_rows(all_channel_rows, channel_sort)
+        limit = args.table_limit
+        if limit is None:
+            limit = default_table_limit(scope_kind) if scope_kind else DEFAULT_MONTH_YEAR_TABLE_LIMIT
+        channel_table_rows, truncated = apply_table_limit(channel_table_rows, limit)
+    elif (args.table or args.table_only) and day_dirs:
         all_rows = collect_inventory_rows(day_dirs)
         table_rows = sort_inventory_rows(all_rows, args.table_sort)
         limit = args.table_limit
@@ -429,11 +636,12 @@ def main(argv: list[str] | None = None) -> int:
     exit_code = 1 if any(f.level == "fail" for f in findings) else 0
 
     if args.json:
-        payload = {
+        payload: dict[str, Any] = {
             "scope": scope_label,
             "exit_code": exit_code,
             "findings": [asdict(f) for f in findings],
             "table": [asdict(r) for r in table_rows],
+            "channel_table": [asdict(r) for r in channel_table_rows],
             "table_truncated": truncated,
             "table_sort": args.table_sort,
         }
@@ -443,7 +651,16 @@ def main(argv: list[str] | None = None) -> int:
     parts: list[str] = []
     if not args.table_only:
         parts.append(format_findings(scope_label, findings))
-    if args.table or args.table_only:
+    if (args.table or args.table_only) and channel_table_rows:
+        parts.append(
+            format_channel_index_table(
+                scope_label or "channel-index",
+                channel_table_rows,
+                truncated=truncated,
+                sort_key=channel_sort,
+            )
+        )
+    elif args.table or args.table_only:
         inv_label = scope_label or "inventory"
         parts.append(format_inventory_table(inv_label, table_rows, truncated=truncated, sort_key=args.table_sort))
     print("\n\n".join(p for p in parts if p))
