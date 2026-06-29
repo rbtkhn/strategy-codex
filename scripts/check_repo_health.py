@@ -31,6 +31,7 @@ def run_quick() -> int:
         (["python3", "scripts/check_generated_surfaces.py", "--headers-only"], "generated headers"),
         (["python3", "scripts/assert_root_file_budget.py", "--strict"], "root file budget"),
         (["python3", "scripts/check_doc_duplication.py"], "doc duplication"),
+        (["python3", "scripts/check_routing_front_doors.py"], "routing front doors"),
         (["python3", "scripts/check_archive_boundary.py"], "archive boundary"),
         (["python3", "scripts/check_repo_path_strict.py", "--strict"], "path strict scan"),
         (["python3", "scripts/check_record_surface_retirement.py"], "record surface retirement"),

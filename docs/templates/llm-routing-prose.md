@@ -1,5 +1,8 @@
 # LLM Routing Map
 
+> **Machine routing SSOT.**
+> Not a human onboarding surface.
+
 WORK only; not Record.
 
 This repository contains multiple index and source surfaces. Do not rely only on GitHub code search when asked to find a file, source corpus, analyst, speaker, dashboard, or index.

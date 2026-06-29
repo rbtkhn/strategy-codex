@@ -1,7 +1,7 @@
 version: 1
 updated_at: '2026-06-26'
-purpose: Machine-readable routing hints for LLM and tool navigation. Not an authority
-  surface.
+purpose: Machine-readable routing registry (SSOT for route definitions).
+note: All routing definitions must originate here; other surfaces derive from this file.
 routes:
 - id: llm-routing
   title: LLM routing map

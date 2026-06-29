@@ -6,6 +6,9 @@ record_status: frozen
 
 # START-HERE — strategy-codex
 
+> **Canonical human entry point (SSOT).**
+> If you are unsure where to begin, start here.
+
 **Work only; not Record.** Governance law: [AGENTS.md](../AGENTS.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md). Grace-Mar archive doctrine: [docs/archive/grace-mar.md](archive/grace-mar.md).
 
 ---

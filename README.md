@@ -36,15 +36,21 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
-**New here?** [Choose your path](docs/start-here.md#choose-your-path) (A–F) · [Essays](essays/README.md) · [docs/start-here.md](docs/start-here.md).
+**New here?** [docs/start-here.md](docs/start-here.md) · [Essays](essays/README.md).
 
-## Choose your path {#choose-your-path}
+## Start here
 
-**A–F entry menu (single SSOT):** [docs/start-here.md — Choose your path](docs/start-here.md#choose-your-path). **Default:** **C** (operator). Fork / seed formation: explicit **`fork revive`** only — [grace-mar-instance-boundary](docs/grace-mar-instance-boundary.md).
+This repository has **three canonical entry points**:
 
-**Public-safe journalist path:** [docs/public-orientation.md](docs/public-orientation.md) · [Door F](docs/start-here.md#door-f).
+- **Human (operator):** [docs/start-here.md](docs/start-here.md)
+- **Agent (LLM routing):** [LLM-ROUTING.md](LLM-ROUTING.md)
+- **Machine (route registry):** [repo-map.yaml](repo-map.yaml)
 
-### Essays index — cross-channel theses {#essays-index}
+All other navigation surfaces are secondary and should not be treated as entry points.
+
+**OB1 / legacy Grace-Mar onboarding:** [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md)
+
+## Essays index — cross-channel theses {#essays-index}
 
 Stand-alone arguments that may span **statecraft and singularity** live at repo-root **`essays/`** (not channel `*/essays/` compatibility stubs). Bounded seams stay in [statecraft/notes/](statecraft/notes/README.md) or [singularity/notes/](singularity/notes/README.md). Class law: [docs/prose-index.md](docs/prose-index.md).
 
@@ -53,19 +59,6 @@ Stand-alone arguments that may span **statecraft and singularity** live at repo-
 **Start here essay:** [from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md)
 
 Workshop **sheets** under `singularity/workshop/sheets/` remain the operating surface for live passes; link from each essay’s **Return Path** when you need the pass worksheet.
-
-## Finding things in this repo
-
-This repository has multiple index surfaces. For LLM agents and coding assistants, start with:
-
-- [`LLM-ROUTING.md`](LLM-ROUTING.md) — routing rules for finding files, corpora, indexes, dashboards, and Record surfaces.
-- [`essays/README.md`](essays/README.md) — primary cross-channel essay shelf ([essays index](#essays-index)).
-- [`repo-map.yaml`](repo-map.yaml) — machine-readable navigation hints.
-- [`statecraft/voices/voice-index.md`](statecraft/voices/voice-index.md) — analyst/source-corpus route maps.
-
-For analyst or source-corpus questions such as "Barnes index," start with `statecraft/voices/`, not legacy root symlinks or generated dashboards. Operator books: [codex/README.md](codex/README.md) § Operator books. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
-
-If you come from **OB1-style** memory systems, see [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md) for the **legacy** Grace-Mar gate mapping. **Default onboarding:** [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 
 ## Claude Code / Cursor surfaces
 

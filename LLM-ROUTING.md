@@ -11,6 +11,9 @@ record_status: none
 
 # LLM Routing Map
 
+> **Machine routing SSOT.**
+> Not a human onboarding surface.
+
 WORK only; not Record.
 
 This repository contains multiple index and source surfaces. Do not rely only on GitHub code search when asked to find a file, source corpus, analyst, speaker, dashboard, or index.
@@ -160,7 +163,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | sachs-source-index | source_index | work | [statecraft/voices/sachs/sachs-source-index.md](statecraft/voices/sachs/sachs-source-index.md) | Sachs index, sachs source index, sachs source index compat |
 | source-lattice-doctrine | reading_discipline | work | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) | source lattice, corpus tiers, reading order, … |
 | speaker-cluster-map | routing_aid | work | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | speaker cluster map, satellite speaker, which speaker after Pape, … |
-| speaker-routing-doctrine | routing_aid | work | [statecraft/voices/speaker-routing-doctrine.md](statecraft/voices/speaker-routing-doctrine.md) | speaker routing doctrine, route contract, open-first routes, cross-host index, host map |
+| speaker-routing-doctrine | routing_aid | work | [statecraft/voices/speaker-routing-doctrine.md](statecraft/voices/speaker-routing-doctrine.md) | speaker routing doctrine, speaker map, route contract, … |
 | statecraft-day-source-index | generated_inventory | generated | [source-archive/statecraft/YYYY-MM-DD/day-index.md](source-archive/statecraft/YYYY-MM-DD/day-index.md) | day index, day-index, june 17 day index, … |
 | statecraft-notes-registry | generated_dashboard | generated | [runtime/artifacts/statecraft-notes-registry.md](runtime/artifacts/statecraft-notes-registry.md) | note registry, essay candidate, shelf-native, … |
 | statecraft-source-capture | source_capture | source | [source-archive/statecraft/YYYY-MM-DD/source-*.md](source-archive/statecraft/YYYY-MM-DD/source-*.md) | source capture, verbatim transcript, statecraft source file, … |
@@ -180,7 +183,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | speaker | path | repo-map id |
 |---|---|---|
+| aguilar | [statecraft/voices/aguilar/aguilar-index.md](statecraft/voices/aguilar/aguilar-index.md) | — |
 | barnes | [statecraft/voices/barnes/barnes-index.md](statecraft/voices/barnes/barnes-index.md) | barnes-index |
+| baud | [statecraft/voices/baud/baud-index.md](statecraft/voices/baud/baud-index.md) | — |
 | blumenthal | [statecraft/voices/blumenthal/blumenthal-index.md](statecraft/voices/blumenthal/blumenthal-index.md) | blumenthal-index |
 | crooke | [statecraft/voices/crooke/crooke-index.md](statecraft/voices/crooke/crooke-index.md) | crooke-index |
 | davis | [statecraft/voices/davis/davis-index.md](statecraft/voices/davis/davis-index.md) | davis-index |
@@ -193,12 +198,14 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | johnson | [statecraft/voices/johnson/johnson-index.md](statecraft/voices/johnson/johnson-index.md) | johnson-index |
 | karaganov | [statecraft/voices/karaganov/karaganov-index.md](statecraft/voices/karaganov/karaganov-index.md) | karaganov-index |
 | kent | [statecraft/voices/kent/kent-index.md](statecraft/voices/kent/kent-index.md) | kent-index |
+| krainer | [statecraft/voices/krainer/krainer-index.md](statecraft/voices/krainer/krainer-index.md) | — |
 | krapivnik | [statecraft/voices/krapivnik/krapivnik-index.md](statecraft/voices/krapivnik/krapivnik-index.md) | krapivnik-index |
 | lascaris | [statecraft/voices/lascaris/lascaris-index.md](statecraft/voices/lascaris/lascaris-index.md) | lascaris-index |
 | macgregor | [statecraft/voices/macgregor/macgregor-index.md](statecraft/voices/macgregor/macgregor-index.md) | macgregor-index |
 | marandi | [statecraft/voices/marandi/marandi-index.md](statecraft/voices/marandi/marandi-index.md) | marandi-index |
 | martyanov | [statecraft/voices/martyanov/martyanov-index.md](statecraft/voices/martyanov/martyanov-index.md) | martyanov-index |
 | mate | [statecraft/voices/mate/mate-index.md](statecraft/voices/mate/mate-index.md) | mate-index |
+| matlock | [statecraft/voices/matlock/matlock-index.md](statecraft/voices/matlock/matlock-index.md) | — |
 | mcgovern | [statecraft/voices/mcgovern/mcgovern-index.md](statecraft/voices/mcgovern/mcgovern-index.md) | mcgovern-index |
 | mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-index.md](statecraft/voices/mearsheimer/mearsheimer-index.md) | mearsheimer-index |
 | mercouris | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | mercouris-index |
@@ -233,13 +240,13 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 ## Repo routing metrics
 
-- source indexes (disk): 29
+- source indexes (disk): 33
 - host shelves (disk): 16
-- markdown links (INDEX + source-index files): 134
-- repo-map routes: 128 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=2, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=21, source_capture=1, source_index=87)
+- markdown links (INDEX + source-index files): 154
+- repo-map routes: 129 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=2, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=22, source_capture=1, source_index=87)
 - source_index routes in repo-map: 87
 - host_shelf routes in repo-map: 16
-- registry: INDEX lists 29/29, repo-map lists 29/29 (100.0% bijection when both match)
+- registry: INDEX lists 33/33, repo-map lists 29/33 (87.9% bijection when both match)
 - host shelves: repo-map lists 16/16 (100.0%)
 - absolute path violations (INDEX + source-index): 0
 - broken links (--strict resolution): 0
@@ -263,7 +270,6 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [statecraft/channels/](statecraft/channels) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
-| [statecraft/voices/speaker-routing-doctrine.md](statecraft/voices/speaker-routing-doctrine.md) | Route contract, host map, cross-host index, open-first paths | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
 
