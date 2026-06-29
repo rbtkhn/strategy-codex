@@ -47,6 +47,12 @@ CI fails when generated files drift: `python3 scripts/check_generated_surfaces.p
 
 Detail: [`docs/contributors/generated.md`](docs/contributors/generated.md).
 
+### Term law (note vs transaction)
+
+Use **note** for durable analytical work products. Use **transaction** only for operational receipts, business ledger entries, or legacy compatibility stubs.
+
+SSOT: [docs/complexity-budget.md](docs/complexity-budget.md) · [docs/glossary.md](docs/glossary.md) · CI: `python3 scripts/check_transaction_term_usage.py --strict --skills-strict`
+
 ## Record and pipeline (fork revive only)
 
 - **Default:** capture via WORK lanes — see [docs/replacement-capture-habits.md](docs/replacement-capture-habits.md).

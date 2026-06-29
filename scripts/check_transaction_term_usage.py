@@ -10,16 +10,26 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+# SSOT: docs/complexity-budget.md — Term law (note vs transaction)
+CANONICAL_NOTE_TERM_LAW = (
+    "Use note for durable analytical work products. "
+    "Use transaction only for operational receipts, business ledger entries, or legacy compatibility stubs."
+)
+
 # Tier 1: high-traffic doctrine (strict scan)
 TIER1_DOCS = (
     "README.md",
     "AGENTS.md",
+    "contributing.md",
     "LLM-ROUTING.md",
     "docs/start-here.md",
     "docs/public-orientation.md",
     "docs/product-identity.md",
     "docs/intelligence-harness.md",
     "docs/architecture.md",
+    "docs/complexity-budget.md",
+    "docs/agent-rules/deep-rules.md",
+    "docs/statecraft-intake-queue.md",
     "docs/glossary.md",
     "docs/harness-architecture-map.md",
     "docs/strategy-codex-redesign-brief.md",
@@ -65,6 +75,22 @@ DISALLOWED_PATTERNS: list[tuple[re.Pattern[str], str]] = [
         re.compile(r"transaction objects carry judgment", re.I),
         "transaction objects carry judgment",
     ),
+    (
+        re.compile(r"judgment\s*/\s*transaction object", re.I),
+        "retired kernel: judgment / transaction object",
+    ),
+    (
+        re.compile(r"transaction object\s*\(\s*accountable ceiling\s*\)", re.I),
+        "transaction object (accountable ceiling)",
+    ),
+    (
+        re.compile(r"\|\s*\*\*transactions\*\*\s*\|\s*reusable statecraft instruments", re.I),
+        "prose-index: transactions as reusable instruments",
+    ),
+    (
+        re.compile(r"synthesis and transaction objects", re.I),
+        "synthesis and transaction objects (use notes)",
+    ),
 ]
 
 ALLOWED_PATH_FRAGMENTS = (
@@ -90,7 +116,11 @@ ALLOWED_LINE_PHRASES = (
     "instrument use",
     "settlement hook",
     "Older docs may use",
-    "Use \"transaction\" only for operational",
+    'Use "transaction" only for operational',
+    "Use transaction only for operational",
+    "legacy transaction stub",
+    "Term law (note vs transaction)",
+    "transaction-retirement-inventory",
 )
 
 STUB_MARKER = "Deprecated compatibility stub"

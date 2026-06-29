@@ -21,7 +21,7 @@ operator source → governed archive (verbatim SSOT)
                → intake queue sidecar (runtime / derived)
                → intake digest (optional precursor)
                → daily synthesis (operating context)
-               → transaction object (accountable ceiling)
+               → note (accountable ceiling)
 ```
 
 | Commercial step | strategy-codex equivalent |
@@ -104,7 +104,7 @@ Agents may **not** (without explicit operator approval):
 
 - contact people or publish externally
 - merge into Record or canonical identity surfaces
-- replace daily synthesis or transaction objects silently
+- replace daily synthesis or notes silently
 - mutate archive verbatim body as if it were queue metadata
 
 See [intelligence-harness.md — Intake queue](intelligence-harness.md#intake-queue-agent-workbench-loop).

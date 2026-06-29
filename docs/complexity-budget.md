@@ -7,8 +7,18 @@ This document defines anti-sprawl targets for the complexity mitigation program.
 ## Product kernel (never simplify away)
 
 ```text
-source-archive → generated indexes → daily synthesis → judgment / transaction object
+source-archive → generated indexes → daily synthesis → notes → essays
 ```
+
+## Term law (note vs transaction)
+
+SSOT for durable-work vocabulary:
+
+```text
+Use note for durable analytical work products. Use transaction only for operational receipts, business ledger entries, or legacy compatibility stubs.
+```
+
+Detail: [glossary.md](glossary.md) · [prose-index.md](prose-index.md) · [audits/transaction-retirement-inventory-2026-06.md](audits/transaction-retirement-inventory-2026-06.md).
 
 Preserve as first-class: `source-archive/`, `statecraft/`, `singularity/`, `essays/`, `runtime/artifacts/`, `scripts/`, `docs/start-here.md`, `repo-map.yaml`.
 
@@ -33,7 +43,8 @@ Do not introduce new authority labels without updating this table and the audit 
 | Always-read agent doc lines (`AGENTS.md`) | ~286 | ≤ 150 | Phase 5 |
 | Legacy path fallback tuples in `repo_io` | 29 | 0 | Phase 10 |
 | Grace-Mar mentions outside archive docs (bounded scan) | ~11,785 | ≤ 3 (short pointers) | Phase 5 |
-| Generated files without manifest entry | n/a | 0 | Phase 6 |
+| Generated files without manifest entry | n/a | 0 | Phase 6 (**Enforced** — `check_generated_surfaces.py --check --strict`) |
+| Transaction as default durable-work term (tier-1 doctrine) | n/a | 0 | Phase 7 (**Enforced** — `check_transaction_term_usage.py --strict --skills-strict`) |
 
 Run `python3 scripts/check_generated_surfaces.py --check --strict` (required CI). Manifest: [`generated-manifest.yaml`](../generated-manifest.yaml).
 

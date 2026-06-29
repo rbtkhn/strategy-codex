@@ -114,7 +114,7 @@ Do not confuse prose shelves with:
 - **journals**: chronological learning or continuity logs
 - **sheets**: operating passes, workshop scaffolds, or compact execution surfaces
 - **bridges**: routing or retrieval-conditioning systems
-- **transactions**: reusable statecraft instruments
+- **legacy transaction stubs**: compatibility redirects — canonical work lives in `statecraft/notes/` and `statecraft/notes/compacts/`
 - **source archives**: canonical full-source preservation layers
 
 They are also not:

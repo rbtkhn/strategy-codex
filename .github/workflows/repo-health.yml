@@ -50,6 +50,9 @@ jobs:
       - name: Generated surface drift (strict)
         run: python3 scripts/check_generated_surfaces.py --check --strict
 
+      - name: Transaction term law (strict)
+        run: python3 scripts/check_transaction_term_usage.py --strict --skills-strict
+
       - name: Repo Surgeon (strict, all scopes)
         run: python3 scripts/repo_surgeon.py --scope all --strict --verify-portable-skills --max-link-errors 0
 
