@@ -56,6 +56,9 @@ def run_quick() -> int:
     if (REPO_ROOT / "statecraft" / "voices" / "_scratch").exists():
         print("[fail] retired path exists: statecraft/voices/_scratch")
         rc = 1
+    if (REPO_ROOT / "examples").exists():
+        print("[fail] retired path exists: examples/")
+        rc = 1
     for cmd, label in checks:
         code, _ = _run(cmd, label=label)
         rc = rc or code

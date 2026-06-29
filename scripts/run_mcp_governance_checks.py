@@ -248,7 +248,7 @@ def main() -> int:
 
     run_optional(
         "research_to_evidence_stub",
-        Path("examples/research-evidence-input.example.json"),
+        Path("docs/mcp/fixtures/research-evidence-input.example.json"),
         [
             py,
             script("research_to_evidence_stub.py"),
@@ -261,7 +261,7 @@ def main() -> int:
     )
     run_optional(
         "coding_agent_patch_intake",
-        Path("examples/coding-agent-patch-intake.example.json"),
+        Path("docs/mcp/fixtures/coding-agent-patch-intake.example.json"),
         [
             py,
             script("coding_agent_patch_intake.py"),

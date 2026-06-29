@@ -1399,11 +1399,11 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("../cadence-learning-events.jsonl", "../../runtime/operator-events/cadence-learning-events.jsonl"),
                 (
                     "../diagnostics-and-governance-tools.mdcounterfactual-",
-                    "../examples/diagnostics/counterfactual-",
+                    "../docs/diagnostics/fixtures/counterfactual-",
                 ),
                 (
                     "diagnostics-and-governance-tools.mdcounterfactual-",
-                    "examples/diagnostics/counterfactual-",
+                    "docs/diagnostics/fixtures/counterfactual-",
                 ),
             ]
         )

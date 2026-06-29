@@ -4,10 +4,10 @@
   "created_at": "2026-01-01T00:00:00+00:00",
   "lane": "work-strategy",
   "target": {
-    "task": "examples/work-strategy/carry-harness/sample-task.md",
+    "task": "docs/skill-work/work-strategy/fixtures/carry-harness/sample-task.md",
     "sources": [],
     "runtime/artifacts": [
-      "examples/work-strategy/carry-harness/sample-artifact.md"
+      "docs/skill-work/work-strategy/fixtures/carry-harness/sample-artifact.md"
     ],
     "gate_snippet": null,
     "validation_out": "runtime/work-strategy/validation-reports/sample-validation.json"
@@ -19,7 +19,7 @@
       "status": "pass",
       "details": "",
       "subject_paths": [
-        "examples/work-strategy/carry-harness/sample-artifact.md"
+        "docs/skill-work/work-strategy/fixtures/carry-harness/sample-artifact.md"
       ]
     },
     {
@@ -28,7 +28,7 @@
       "status": "pass",
       "details": "",
       "subject_paths": [
-        "examples/work-strategy/carry-harness/sample-artifact.md"
+        "docs/skill-work/work-strategy/fixtures/carry-harness/sample-artifact.md"
       ]
     },
     {
@@ -37,7 +37,7 @@
       "status": "pass",
       "details": "",
       "subject_paths": [
-        "examples/work-strategy/carry-harness/sample-task.md"
+        "docs/skill-work/work-strategy/fixtures/carry-harness/sample-task.md"
       ]
     }
   ],

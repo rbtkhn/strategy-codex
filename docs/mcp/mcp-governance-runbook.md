@@ -65,7 +65,7 @@ Exit code **`1`** when the scan reports **`pass=false`** â€” treat as failu
 
 ```bash
 python3 scripts/mcp_manifest_admission.py \
-  --input examples/mcp-server-manifest.example.yaml \
+  --input docs/mcp/fixtures/mcp-server-manifest.example.yaml \
   --output runtime/artifacts/mcp-admission/governance-demo-manifest.md
 ```
 
@@ -75,7 +75,7 @@ Uses **shell-blocked** fixture (aligns with â€œno shell executionâ€ mes
 
 ```bash
 python3 scripts/mcp_mock_harness.py \
-  --input examples/mcp-mock-run.shell-blocked.example.json \
+  --input docs/mcp/fixtures/mcp-mock-run.shell-blocked.example.json \
   --output runtime/artifacts/mcp-mock-runs/governance-demo-mock.md
 ```
 
@@ -83,7 +83,7 @@ python3 scripts/mcp_mock_harness.py \
 
 ```bash
 python3 scripts/mcp_local_readonly.py \
-  --input examples/mcp-local-read-request.example.json \
+  --input docs/mcp/fixtures/mcp-local-read-request.example.json \
   --output runtime/artifacts/mcp-local-read/governance-demo-read.md
 ```
 
@@ -91,27 +91,27 @@ python3 scripts/mcp_local_readonly.py \
 
 ```bash
 python3 scripts/mcp_local_index.py \
-  --input examples/mcp-local-index-request.example.json \
+  --input docs/mcp/fixtures/mcp-local-index-request.example.json \
   --output runtime/artifacts/mcp-local-index/governance-demo-index.md
 ```
 
 ### 8. Optional â€” research â†’ evidence stub (example)
 
-If [`examples/research-evidence-input.example.json`](../../examples/research-evidence-input.example.json) exists:
+If [`docs/mcp/fixtures/research-evidence-input.example.json`](../../docs/mcp/fixtures/research-evidence-input.example.json) exists:
 
 ```bash
 python3 scripts/research_to_evidence_stub.py \
-  --input examples/research-evidence-input.example.json \
+  --input docs/mcp/fixtures/research-evidence-input.example.json \
   --output runtime/artifacts/evidence-stubs/governance-demo-stub.md
 ```
 
 ### 9. Optional â€” coding-agent patch intake (example)
 
-If [`examples/coding-agent-patch-intake.example.json`](../../examples/coding-agent-patch-intake.example.json) exists:
+If [`docs/mcp/fixtures/coding-agent-patch-intake.example.json`](../../docs/mcp/fixtures/coding-agent-patch-intake.example.json) exists:
 
 ```bash
 python3 scripts/coding_agent_patch_intake.py \
-  --input examples/coding-agent-patch-intake.example.json \
+  --input docs/mcp/fixtures/coding-agent-patch-intake.example.json \
   --output runtime/artifacts/patch-intake/governance-demo-intake.md
 ```
 

@@ -2,7 +2,7 @@
 
 WORK only; source-bound business memo derived from external research.
 
-- Source artifact: `examples/singularity-academy/external-research/ai-workflow-authority.artifact.json`
+- Source artifact: `research/external/singularity-academy/fixtures/external-research/ai-workflow-authority.artifact.json`
 - Query: How should review-gated AI workflow research be applied to singularity academy?
 
 ## Workflow pain evidenced

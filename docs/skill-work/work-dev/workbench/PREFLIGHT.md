@@ -16,7 +16,7 @@ Read-only, **no Record writes**, **no gate staging**, **no merge path**. The pre
 ## What it does **not** check
 
 - It does **not** prove that screenshots, HTML, or fixtures describe **true** external or strategic facts. Structure and workbench **boundaries** only.
-- It does **not** replace CI, the recursion gate, or single-file `python3 scripts/work_dev/validate_workbench_receipt.py` for ad-hoc receipts outside `examples/`.
+- It does **not** replace CI, the recursion gate, or single-file `python3 scripts/work_dev/validate_workbench_receipt.py` for ad-hoc receipts outside `workbench/examples/`.
 - It does **not** read or write `self.md`, `self-archive.md`, `self-library.md`, or `recursion-gate.md`.
 
 ## Commands (repo root)

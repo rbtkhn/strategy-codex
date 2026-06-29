@@ -6,7 +6,7 @@ Does not apply patches, merge PRs, or edit canonical Record files. See
 docs/mcp/coding-agent-patch-intake.md.
 
   python3 scripts/coding_agent_patch_intake.py \\
-    --input examples/coding-agent-patch-intake.example.json \\
+    --input docs/mcp/fixtures/coding-agent-patch-intake.example.json \\
     --output runtime/artifacts/patch-intake/example-packet.md
 """
 
@@ -162,7 +162,7 @@ def classify_risk(norm: str) -> str:
         or n.startswith("docs/mcp/")
         or n.startswith("runtime/artifacts/evidence-stubs/")
         or n.startswith("tests/")
-        or n.startswith("examples/")
+        or n.startswith("docs/mcp/fixtures/")
     ):
         return "MEDIUM"
 

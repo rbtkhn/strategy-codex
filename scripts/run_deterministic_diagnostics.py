@@ -70,7 +70,7 @@ def run_diagnostics(
                 repo_root,
                 "scripts/simulate_counterfactual_fork.py",
                 "--proposal",
-                "examples/diagnostics/counterfactual-proposal.example.json",
+                "docs/diagnostics/fixtures/counterfactual-proposal.example.json",
                 "--output",
                 str(SMOKE_OUTPUT_REL),
             ),

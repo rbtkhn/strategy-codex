@@ -70,7 +70,7 @@ Run baseline forecast generation:
 
 ```bash
 python3 scripts/run_forecast_baselines.py \
-  --input examples/diagnostics/sample-forecast-series.csv \
+  --input docs/diagnostics/fixtures/sample-forecast-series.csv \
   --series-name operator_daily_messages \
   --time-col date \
   --value-col count \
@@ -83,7 +83,7 @@ Run post-hoc evaluation:
 ```bash
 python3 scripts/backtest_forecast_artifact.py \
   --artifact runtime/artifacts/forecast/operator_daily_messages.2026-04-12.v1.json \
-  --actuals-csv examples/diagnostics/sample-forecast-series.csv \
+  --actuals-csv docs/diagnostics/fixtures/sample-forecast-series.csv \
   --time-col date \
   --value-col count
 ```

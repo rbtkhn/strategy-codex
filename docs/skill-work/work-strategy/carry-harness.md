@@ -86,10 +86,10 @@ From repo root:
 
 ```bash
 python3 scripts/work_strategy/run_carry_harness.py \
-  --task examples/work-strategy/carry-harness/sample-task.md \
-  --source examples/work-strategy/carry-harness/sample-source.md \
-  --artifact examples/work-strategy/carry-harness/sample-artifact.md \
-  --gate-snippet examples/work-strategy/carry-harness/sample-gate-snippet.md \
+  --task docs/skill-work/work-strategy/fixtures/carry-harness/sample-task.md \
+  --source docs/skill-work/work-strategy/fixtures/carry-harness/sample-source.md \
+  --artifact docs/skill-work/work-strategy/fixtures/carry-harness/sample-artifact.md \
+  --gate-snippet docs/skill-work/work-strategy/fixtures/carry-harness/sample-gate-snippet.md \
   --out runtime/work-strategy/carry-receipts/sample-receipt.json \
   --json
 ```

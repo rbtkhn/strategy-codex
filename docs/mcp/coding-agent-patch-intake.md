@@ -18,7 +18,7 @@ That preserves visibility without handing agents implicit merge authority.
 ## Input format
 
 - **JSON Schema:** [`schemas/coding-agent-patch-intake.v1.json`](../../schemas/coding-agent-patch-intake.v1.json)
-- **Example:** [`examples/coding-agent-patch-intake.example.json`](../../examples/coding-agent-patch-intake.example.json)
+- **Example:** [`docs/mcp/fixtures/coding-agent-patch-intake.example.json`](../../docs/mcp/fixtures/coding-agent-patch-intake.example.json)
 
 Paths under **`files_touched`** must be **repo-relative** (POSIX-style logic): no absolute paths, no **`..`**, no obvious secret paths (`.env`, `secrets/`, common key filenames).
 
@@ -42,7 +42,7 @@ When **`files_touched`** lists any **`CRITICAL`** path (including canonical Reco
 |------|----------------------|
 | CRITICAL | Listed canonical Record paths, `.env`, `secrets/`, private key filenames |
 | HIGH | `platform/config/authority-map.json`, MCP YAML configs, `process_approved_candidates.py`, `schemas/` |
-| MEDIUM | `scripts/`, `docs/mcp/`, `runtime/artifacts/evidence-stubs/`, `tests/`, `examples/` |
+| MEDIUM | `scripts/`, `docs/mcp/`, `runtime/artifacts/evidence-stubs/`, `tests/`, `docs/mcp/fixtures/` |
 | LOW | `README.md`, general `docs/`, `runtime/artifacts/patch-intake/` |
 
 ---

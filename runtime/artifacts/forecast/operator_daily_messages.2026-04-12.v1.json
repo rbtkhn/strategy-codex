@@ -103,7 +103,7 @@
   "operator_note": "Baseline forecast artifact for WORK-layer planning use only. Not a Record fact.",
   "receipt_id": "forecast_run.operator_daily_messages.2026-04-13T02-33-52Z",
   "source_runtime/artifacts": [
-    "examples/diagnostics/sample-forecast-series.csv"
+    "docs/diagnostics/fixtures/sample-forecast-series.csv"
   ],
   "candidate_methods": {
     "last_value": [

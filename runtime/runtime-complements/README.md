@@ -32,7 +32,7 @@ Output path is printed (under `exports/`). Bundles are **allow-listed** by `--in
 
 ## Import (observation from a runtime)
 
-From repo root (examples are committed under `examples/`):
+From repo root (samples are committed under `runtime/runtime-complements/examples/`):
 
 ```bash
 python3 scripts/runtime/import_runtime_observation.py --source letta --input runtime/runtime-complements/examples/letta-session-summary.example.json

@@ -87,7 +87,7 @@ The harness validates **fixture discipline** and **registry consistency** agains
 
 ```bash
 python3 scripts/mcp_mock_harness.py \
-  --input examples/mcp-mock-run.github-readonly.example.json \
+  --input docs/mcp/fixtures/mcp-mock-run.github-readonly.example.json \
   --output runtime/artifacts/mcp-mock-runs/demo.md
 ```
 

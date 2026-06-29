@@ -52,7 +52,7 @@ Expected outputs:
 - `research/external/singularity-academy/briefs/<date>-<topic>-academy-brief.md`
 - optionally a work-business memo and derived self-proposal draft when requested
 
-Stable examples for this workflow live under `examples/singularity-academy/external-research/`.
+Stable examples for this workflow live under `research/external/singularity-academy/fixtures/external-research/`.
 
 ## Boundaries
 

@@ -6,7 +6,7 @@ Does not execute MCP servers, use credentials, invoke network/shell, or read .
 See docs/mcp/mcp-local-index-adapter.md.
 
   python3 scripts/mcp_local_index.py \\
-    --input examples/mcp-local-index-request.example.json \\
+    --input docs/mcp/fixtures/mcp-local-index-request.example.json \\
     --output runtime/artifacts/mcp-local-index/index-mcp-docs.md
 """
 

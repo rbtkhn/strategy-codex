@@ -76,7 +76,7 @@ Promotion of insight into canonical Record remains **`recursion-gate.md`** + com
 
 ```bash
 python3 scripts/mcp_local_readonly.py \
-  --input examples/mcp-local-read-request.example.json \
+  --input docs/mcp/fixtures/mcp-local-read-request.example.json \
   --output runtime/artifacts/mcp-local-read/read-example.md
 ```
 

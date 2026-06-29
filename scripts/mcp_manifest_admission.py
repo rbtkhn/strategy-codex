@@ -6,7 +6,7 @@ Does not execute MCP servers, use credentials, or enable integrations. See
 docs/mcp/mcp-manifest-admission.md.
 
   python3 scripts/mcp_manifest_admission.py \\
-    --input examples/mcp-server-manifest.example.yaml \\
+    --input docs/mcp/fixtures/mcp-server-manifest.example.yaml \\
     --output runtime/artifacts/mcp-admission/github-readonly-candidate.md
 """
 

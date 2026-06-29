@@ -6,7 +6,7 @@ Does not browse the web, run MCP servers, or mutate canonical Record. See
 docs/mcp/research-to-evidence-stubs.md.
 
   python3 scripts/research_to_evidence_stub.py \\
-    --input examples/research-evidence-input.example.json \\
+    --input docs/mcp/fixtures/research-evidence-input.example.json \\
     --output runtime/artifacts/evidence-stubs/example-topic.md
 """
 

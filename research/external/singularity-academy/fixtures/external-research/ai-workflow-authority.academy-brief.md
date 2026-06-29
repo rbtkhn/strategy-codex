@@ -2,7 +2,7 @@
 
 WORK only; upstream external research, not workshop truth.
 
-- Source artifact: `examples/singularity-academy/external-research/ai-workflow-authority.artifact.json`
+- Source artifact: `research/external/singularity-academy/fixtures/external-research/ai-workflow-authority.artifact.json`
 - Source: `sci-bot.ru`
 - Query: How should review-gated AI workflow research be applied to singularity academy?
 

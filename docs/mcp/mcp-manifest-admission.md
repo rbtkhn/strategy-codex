@@ -64,7 +64,7 @@ Receipt **`capability.id`** defaults to **`mcp_manifest_admission`**. **`result.
 
 ```bash
 python3 scripts/mcp_manifest_admission.py \
-  --input examples/mcp-server-manifest.example.yaml \
+  --input docs/mcp/fixtures/mcp-server-manifest.example.yaml \
   --output runtime/artifacts/mcp-admission/example.md
 ```
 

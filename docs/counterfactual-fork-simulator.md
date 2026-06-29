@@ -119,16 +119,16 @@ change to the repo.
 
 | File | What it teaches |
 | --- | --- |
-| [`counterfactual-clean-docs.example.json`](../examples/diagnostics/counterfactual-clean-docs.example.json) | Safe docs-only cross-link proposal |
-| [`counterfactual-dangerous-merge-authority.example.json`](../examples/diagnostics/counterfactual-dangerous-merge-authority.example.json) | Intentionally unsafe authority-escalation proposal (expect drift risks; not approval) |
-| [`counterfactual-portable-emulation.example.json`](../examples/diagnostics/counterfactual-portable-emulation.example.json) | Safe authority-boundary clarification in the portable-emulation lane |
-| [`counterfactual-proposal.example.json`](../examples/diagnostics/counterfactual-proposal.example.json) | Original minimal smoke / shape check (e.g. deterministic diagnostics) |
+| [`counterfactual-clean-docs.example.json`](../docs/diagnostics/fixtures/counterfactual-clean-docs.example.json) | Safe docs-only cross-link proposal |
+| [`counterfactual-dangerous-merge-authority.example.json`](../docs/diagnostics/fixtures/counterfactual-dangerous-merge-authority.example.json) | Intentionally unsafe authority-escalation proposal (expect drift risks; not approval) |
+| [`counterfactual-portable-emulation.example.json`](../docs/diagnostics/fixtures/counterfactual-portable-emulation.example.json) | Safe authority-boundary clarification in the portable-emulation lane |
+| [`counterfactual-proposal.example.json`](../docs/diagnostics/fixtures/counterfactual-proposal.example.json) | Original minimal smoke / shape check (e.g. deterministic diagnostics) |
 
 Run:
 
 ```bash
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-clean-docs.example.json
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-dangerous-merge-authority.example.json
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-portable-emulation.example.json
-python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../examples/diagnostics/counterfactual-proposal.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../docs/diagnostics/fixtures/counterfactual-clean-docs.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../docs/diagnostics/fixtures/counterfactual-dangerous-merge-authority.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../docs/diagnostics/fixtures/counterfactual-portable-emulation.example.json
+python3 scripts/simulate_counterfactual_fork.py --proposal ../../../../../docs/diagnostics/fixtures/counterfactual-proposal.example.json
 ```

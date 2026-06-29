@@ -6,7 +6,7 @@ Does not execute MCP servers, use credentials, invoke network/shell, or read .
 See docs/mcp/mcp-local-readonly-adapter.md.
 
   python3 scripts/mcp_local_readonly.py \\
-    --input examples/mcp-local-read-request.example.json \\
+    --input docs/mcp/fixtures/mcp-local-read-request.example.json \\
     --output runtime/artifacts/mcp-local-read/read-governed-mcp-layer.md
 """
 

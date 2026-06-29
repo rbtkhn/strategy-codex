@@ -109,7 +109,7 @@ Status: open
 Type: example
 Severity: low
 Affected paths:
-- `examples/diagnostics/`
+- `docs/diagnostics/fixtures/`
 - `docs/counterfactual-fork-simulator.md`
 Issue:
 Only one example proposal exists; it may not cover dangerous authority escalation or docs-only changes.

@@ -13,7 +13,7 @@ Structured research (claims, sources, confidence, routing hints) should land as 
 ## Input format
 
 - **JSON Schema:** [`schemas/research-evidence-input.v1.json`](../../schemas/research-evidence-input.v1.json)
-- **Example:** [`examples/research-evidence-input.example.json`](../../examples/research-evidence-input.example.json)
+- **Example:** [`docs/mcp/fixtures/research-evidence-input.example.json`](../../docs/mcp/fixtures/research-evidence-input.example.json)
 
 Each source needs a stable **`source_id`**, **`title`**, and **either `url` or `local_path`**. **`short_excerpts`** are capped at **300 characters** each. **`candidate_claims.supporting_sources`** must reference declared **`source_id`** values.
 
@@ -55,7 +55,7 @@ This adapter **does not** edit [`strategy-notebook/`](../skill-work/work-strateg
 
 ```bash
 python3 scripts/research_to_evidence_stub.py \
-  --input examples/research-evidence-input.example.json \
+  --input docs/mcp/fixtures/research-evidence-input.example.json \
   --output runtime/artifacts/evidence-stubs/my-topic.md
 ```
 

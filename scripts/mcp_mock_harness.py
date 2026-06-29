@@ -6,7 +6,7 @@ Does not execute MCP servers, use credentials, invoke network/shell, or enable i
 See docs/mcp/mcp-mock-execution-harness.md.
 
   python3 scripts/mcp_mock_harness.py \\
-    --input examples/mcp-mock-run.github-readonly.example.json \\
+    --input docs/mcp/fixtures/mcp-mock-run.github-readonly.example.json \\
     --output runtime/artifacts/mcp-mock-runs/github-readonly-demo.md
 """
 
