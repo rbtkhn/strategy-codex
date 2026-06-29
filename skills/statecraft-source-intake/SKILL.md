@@ -86,7 +86,7 @@ When this skill applies and the operator supplied a transcript body, **start her
 3. `Write` verbatim body sidecar(s) — `body-01.txt`, `body-02.txt` if long; split at paragraph / `>>` turns.
 4. **One** shell chain (PowerShell `;`):
    - `python scripts/land_statecraft_source_body.py --header .../_land_<slug>/header.md --body .../body-01.txt [--body .../body-02.txt] --out source-archive/statecraft/YYYY-MM-DD/source-....md`
-   - post-land: caption wrapper → family opening normalizer (when applicable) → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`
+   - post-land: caption wrapper → family opening normalizer (when applicable) → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD` → **`shelf_index_from_capture.py --path <landed-file> --apply`** when capture resolves to a voice shelf (parsi / pape / crooke / ritter) → **`audit_statecraft_archive_index.py --shelf-index <slug>`** when shelf applies
    - delete `_land_<slug>/` after verify
 5. Report landed path, byte size, queue row — then apply **§ Post-land section nudge** when triggers match; offer synthesis or checkpoint; do not pre-synthesize in `source-archive/`.
 
@@ -339,7 +339,7 @@ Or `--body-dir .codex-tmp/land/<slug>` when sidecars are sorted `*.txt`.
 
 Preview: add `--dry-run`.
 
-4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`.
+4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD` → **`shelf_index_from_capture.py --path <landed-file> --apply`** (voice shelf) → **`audit_statecraft_archive_index.py --shelf-index <slug>`** when applicable.
 5. **Verify** — output exists; `source_url` or `youtube_id` present; opening/closing transcript lines; reported byte size sane; not a shell stub.
 6. **Delete** `_land_<slug>/` or `.codex-tmp/land/<slug>/` sidecars after verify (CLI removes by default; `--keep-sidecars` to retain).
 

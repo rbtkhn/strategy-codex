@@ -88,7 +88,7 @@ When this skill applies and the operator supplied a transcript body, **start her
 3. `Write` verbatim body sidecar(s) — `body-01.txt`, `body-02.txt` if long; split at paragraph / `>>` turns.
 4. **One** shell chain (PowerShell `;`):
    - `python scripts/land_statecraft_source_body.py --header .../_land_<slug>/header.md --body .../body-01.txt [--body .../body-02.txt] --out source-archive/statecraft/YYYY-MM-DD/source-....md`
-   - post-land: caption wrapper → family opening normalizer (when applicable) → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`
+   - post-land: caption wrapper → family opening normalizer (when applicable) → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD` → **`shelf_index_from_capture.py --path <landed-file> --apply`** when capture resolves to a voice shelf (parsi / pape / crooke / ritter) → **`audit_statecraft_archive_index.py --shelf-index <slug>`** when shelf applies
    - delete `_land_<slug>/` after verify
 5. Report landed path, byte size, queue row — then apply **§ Post-land section nudge** when triggers match; offer synthesis or checkpoint; do not pre-synthesize in `source-archive/`.
 
@@ -261,7 +261,7 @@ Structured-field law:
         - Dialogue Works / Nima Alkhorshid — `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>`
      - Preview any step with `--dry-run` on that script.
      3. **Optional source-clean (ASR / proper-noun pass):** When YouTube or operator-paste noise blocks search or study, run **`source-clean`** — `python scripts/source_clean_statecraft.py --path <landed-file>` (or `--dry-run` first). Orchestrates scaffold + ph-civ tiers + entity pass + thread tiers + provenance patch. SSOT: [`source-clean`](../source-clean/SKILL.md). Not synthesis; not wire-verify.
-     4. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. **News-verify:** run the **five-lane CIV-STATE sweep** per [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **America · Persia · PRC · Russia · Rome** (cite or **`-absent`** per lane) — not English-only wires. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
+     4. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. **News-verify:** run the **five-lane CIV-STATE sweep** per [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **America · Persia · PRC · Russia · Rome** (cite or **`-absent`** per lane) — not English-only wires. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
      5. **Optional source-section (YouTube channel solo / interview only):** When the capture is **YouTube channel content** (`source_type: youtube`, `channel_slug`, or YouTube `source_url`) with `source_form: solo` or `source_form: interview`, and the operator wants Title Case `### … — …` navigation headings, run **`source-section`** after optional **`source-clean`**. Ship includes in-section **paragraph reflow** (`reflow_section_paragraphs`) by default. **Not** for authored Substack/newsletter essays. SSOT: [`source-section`](../source-section/SKILL.md).
      - **Post-land section nudge (mandatory when triggers match):** After land of a **YouTube channel** transcript, if the body is **flat** and **≥ ~4,000 words**, or headings are **bootstrap slugs**, recommend **`source-section outline`** before `state synthesis`. **Never** on authored Substack/newsletter lands. See [`source-section` § Post-land nudge](../source-section/SKILL.md#post-land-nudge-mandatory-agent-behavior).
    - Reflow into readable paragraphs or turns when the family pattern expects that.
@@ -288,6 +288,7 @@ Structured-field law:
 
 8. **Refresh the smallest still-live archive surfaces**
    - In `single-source safe mode`, refresh the touched day `day-index.md` immediately (`python scripts/build_statecraft_day_indices.py --day YYYY-MM-DD` — also writes the README stub pointer).
+   - If host/thread/kind stats on day-index still disagree with capture YAML (common after caption wrapper), run **`audit index --day YYYY-MM-DD`** before re-land or synthesis blame.
    - In `single-source safe mode`, refresh the touched month index and archive navigation when the new source changes those rollups.
    - In `batch-throughput mode`, defer these refreshes until the batch checkpoint.
    - Keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
@@ -318,7 +319,7 @@ Small captures (short clips, partial stubs under both thresholds) may still use 
 
 - one monolithic IDE `Write` or giant `apply_patch` for a large archive file under `source-archive/statecraft/`
 - leave `_oneoff_*` merge scripts or body sidecars in `scripts/` after land
-- retry the same hung write shape — fail over to shell merge (see [agent-tool-latency-discipline.mdc](../../rules/agent-tool-latency-discipline.mdc))
+- retry the same hung write shape — fail over to shell merge (see [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc))
 
 ### Always (chunked path)
 
@@ -340,7 +341,7 @@ Or `--body-dir .codex-tmp/land/<slug>` when sidecars are sorted `*.txt`.
 
 Preview: add `--dry-run`.
 
-4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`.
+4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD` → **`shelf_index_from_capture.py --path <landed-file> --apply`** (voice shelf) → **`audit_statecraft_archive_index.py --shelf-index <slug>`** when applicable.
 5. **Verify** — output exists; `source_url` or `youtube_id` present; opening/closing transcript lines; reported byte size sane; not a shell stub.
 6. **Delete** `_land_<slug>/` or `.codex-tmp/land/<slug>/` sidecars after verify (CLI removes by default; `--keep-sidecars` to retain).
 
@@ -356,7 +357,7 @@ Short rule:
 
 When the operator asks for **source-index**, **ingest register**, or **what landed on YYYY-MM-DD**, resolve **one bounded path** — not `thread-index.md`, not month Glob, not voices `*-source-index.md` unless they named an **analyst**.
 
-**Canonical day surface:** `source-archive/statecraft/YYYY-MM-DD/day-index.md` (channel / writer / other partitions + stats + file list). Same-folder `README.md` is a stub pointer only — spec: [day-index-spec.md](../../../source-archive/statecraft/day-index-spec.md).
+**Canonical day surface:** `source-archive/statecraft/YYYY-MM-DD/day-index.md` (channel / writer / other partitions + stats + file list). Same-folder `README.md` is a stub pointer only — spec: [day-index-spec.md](../../source-archive/statecraft/day-index-spec.md).
 
 **Preferred agent command (one shell):**
 
@@ -372,7 +373,7 @@ python scripts/statecraft_day_source_index.py --latest --queue
 - **Do not** `Glob`, `Grep`, or parallel-read `thread-index.md` / `YYYY-MM/` for a dated day query.
 - **Analyst source-index** (`statecraft/voices/<speaker>/*-source-index.md`) is a different object — use only when scope is voice/corpus, not archive-day inventory.
 
-Routing SSOT: [LLM-ROUTING.md](../../../LLM-ROUTING.md) · bounded-path rule: [agent-tool-latency-discipline.mdc](../../rules/agent-tool-latency-discipline.mdc).
+Routing SSOT: [LLM-ROUTING.md](../../LLM-ROUTING.md) · bounded-path rule: [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
 
 ## Verification / Proof Standard
 
@@ -420,7 +421,7 @@ Rules:
 - **`ok`** or **`no_daily`** — report sync briefly; run intake queue report and surface `new` / `queued` counts before closeout/menu.
 - **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `state synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/synthesis/day/`.
 - **Section coverage before synthesis:** When routing to `state synthesis` on a **DESYNC** or multi-capture day, run `python scripts/quantify_section_nav.py --day YYYY-MM-DD` (or spot-check captures). If any **YouTube channel** solo/interview capture is **flat** (≥ ~4k words) or **slug-only**, recommend **`source-section`** for those files **before** daily weave — **not** authored Substack essays.
-- **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)).
+- **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md)).
 - Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
 
 Optional agent-authored gap note when desync fires: add an **Archive vs synthesis gap audit** section to the day's intake-readiness note (pattern: `statecraft/synthesis/day/YYYY-MM-DD-intake-readiness.md`).

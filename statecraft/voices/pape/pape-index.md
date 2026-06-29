@@ -4,11 +4,13 @@ WORK only; not Record.
 
 Purpose: exhaustive canonical route map for Robert Pape **authored essays** and **guest appearances** in Statecraft Archive.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index pape` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`. (_Curated rebuild via builder — no `--fix`._)
+
 Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md) · [Escalation Trap arc](../../notes/arc-pape-escalation-trap.md)
 
 ## Corpus note
 
-- **55** authored · **16** guest · **71** total on disk
+- **56** authored · **16** guest · **72** total on disk
 - **16/16** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
 - Rebuild: `python3 scripts/build_pape_index.py`
 
@@ -110,3 +112,4 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 - [2026-06-22 — Getting the Framework Right: Why Iran Is Seeking Power, Not Just Money](../../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) — **authored** · paste-bundle
 - [2026-06-25 — Prediction Confirmed: The Next Phase of the Iran War Has Begun](../../../source-archive/statecraft/2026-06-25/source-pape-prediction-confirmed-the-next-phase-of-the-iran-war-has-begun-2026-06-25.md) — **authored** · substack-post
 - [2026-06-26 — U.S STRIKE IRAN, U.S ISRAEL LEBANON DEAL VIOLATES THE MOU DEAL w/ PRO…](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`) — **guest** · host: **Sulaiman Ahmed** · `moral-resistance` · cleaned-transcript · _one studio session · four indexed theme segments in inbox/registry_ · cross-ref [moral-resistance-channel-index.md](../../channels/moral-resistance/moral-resistance-channel-index.md)
+- [2026-06-27 — Situation Report — Special Edition](../../../source-archive/statecraft/2026-06-27/source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md) — **authored** · substack-post

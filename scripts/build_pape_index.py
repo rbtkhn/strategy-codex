@@ -308,6 +308,8 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
         "",
         "Purpose: exhaustive canonical route map for Robert Pape **authored essays** and **guest appearances** in Statecraft Archive.",
         "",
+        "**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index pape` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`. (_Curated rebuild via builder — no `--fix`._)",
+        "",
         "Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md) · [Escalation Trap arc](../../notes/arc-pape-escalation-trap.md)",
         "",
         "## Corpus note",

@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: provide the canonical route map for materialized McGovern appearances and the smaller set of direct archive anchors that explain the shelf shape.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index mcgovern` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.
+
 ## Direct Materialized Appearances
 
 ### Glenn Diesen
@@ -25,7 +27,9 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 - [2026-03-08 - Does Armageddon Loom](../../../source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
 - [2026-03-15 - CIA attacks Tucker Carlson](../../../source-archive/statecraft/2026-03-15/source-dialogue-works-ray-mcgovern-cia-attacks-tucker-carlson-iran-closer-to-obliterating-israel-in-weeks-then-what-2026-03-15.md)
 - [2026-05-20 - Ukraine to hit Russia from Latvia territory](../../../source-archive/statecraft/2026-05-20/source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md)
+- [2026-05-30 - Iron Dome humiliated again / Zaporozhye NPP](../../../source-archive/statecraft/2026-05-30/source-mcgovern-dialogue-works-iron-dome-humiliated-again-ukrainian-uav-hits-zaporozhye-npp-2026-05-30.md) — **guest** · Dialogue Works
 - [2026-06-06 - West Asia changing fast, Israel loses big, Putin rejects Zelensky](../../../source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
+- [2026-06-27 - Iran missiles force US retreat / bases moving west](../../../source-archive/statecraft/2026-06-27/source-dialogue-works-ray-mcgovern-iran-missiles-force-us-retreat-bases-moving-west-escape-attacks-2026-06-27.md) — **guest** · Dialogue Works
 
 ### Judging Freedom
 
@@ -36,6 +40,8 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 - [2026-06-08 - Putin's view of Europe and Ukraine; USS Liberty anniversary](../../../source-archive/statecraft/2026-06-08/source-judging-freedom-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md)
 - [2026-06-12 - Intel roundtable w/ Johnson & McGovern: weekly wrap 12-June](../../../source-archive/statecraft/2026-06-12/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md)
 - [2026-06-15 - Will Russia escalate?](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-mcgovern-will-russia-escalate-2026-06-15.md)
+- [2026-06-19 - Intel roundtable w/ Johnson & McGovern: weekly wrap 19-June](../../../source-archive/statecraft/2026-06-19/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md) — **guest** · Judging Freedom × Johnson
+- [2026-06-26 - Intel roundtable w/ Johnson & McGovern: weekly wrap 26-June](../../../source-archive/statecraft/2026-06-26/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-26-june-2026-06-26.md) — **guest** · Judging Freedom × Johnson
 
 ### Debate / Non-core
 
@@ -63,7 +69,8 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 | Jun 08 | Napolitano | Solo | USS Liberty / Massie; SPIEF Putin at ease; Ritter Moscow field cite |
 | Jun 12 | Napolitano × Johnson | Intel roundtable | Iran war whiplash; Joe Kent; Parsi deportation; Ritter Russia re-entry |
 | Jun 15 | Napolitano | Solo | Iran MOU week; Trump birthday timing; Russia no escalation pressure; Lavrov Alaska; Tulsi biolabs |
-
-**Watch (not on disk):** Fri **Jun 19** intel roundtable (Johnson × McGovern) — promised on [Jun 15 solo](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-mcgovern-will-russia-escalate-2026-06-15.md); cadence after [Jun 05](../../../source-archive/statecraft/2026-06-05/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-5-june-2026-06-05.md) / [Jun 12](../../../source-archive/statecraft/2026-06-12/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md). Search title pattern: `INTEL Roundtable w/ Johnson & McGovern : Weekly Wrap 19-June`. No `2026-06-19/` archive day yet.
+| Jun 19 | Napolitano × Johnson | Intel roundtable | Weekly wrap 19-June — landed [archive](../../../source-archive/statecraft/2026-06-19/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md) |
+| Jun 26 | Napolitano × Johnson | Intel roundtable | Weekly wrap 26-June |
+| Jun 27 | Dialogue Works (Alkhorshid) | Solo | Iran missiles / US base retreat west |
 
 No Glenn Diesen June row on disk (last: [2026-05-27](../../../source-archive/statecraft/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)).

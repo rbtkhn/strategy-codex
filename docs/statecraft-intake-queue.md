@@ -136,7 +136,8 @@ python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest --dig
 1. `refresh_statecraft_archive_indices.py` (if batch land)
 2. `check_statecraft_intake_daily_sync.py --day <pub_date>`
 3. `statecraft_intake_queue.py --day <pub_date>`
-4. Daily synthesis when operator promotes
+4. **Author/guest shelf index** (when capture resolves to parsi / pape / crooke / ritter): `python scripts/shelf_index_from_capture.py --path <landed-file> --apply` then `python scripts/audit_statecraft_archive_index.py --shelf-index <slug>`
+5. Daily synthesis when operator promotes
 
 Digest template: [statecraft/notes/intake/intake-digest-TEMPLATE.md](../statecraft/notes/intake/intake-digest-TEMPLATE.md)
 

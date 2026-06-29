@@ -85,3 +85,23 @@ Navigation chain in prose:
 `month rollup → day-index → source-*.md` → (promotion) → `voice source bench`
 
 Rebuild SSOT after lands: `python3 scripts/refresh_statecraft_archive_indices.py` (day + month + year + thread + stale audit).
+
+## Author/guest shelf index (`{slug}-index.md`)
+
+**Surface role:** exhaustive month-grouped route map for **authored written** + **guest interview** captures on disk for a voice shelf (parsi, pape, crooke, ritter, …).
+
+**Not the same as:**
+
+| Surface | Job |
+| --- | --- |
+| `{slug}-index.md` | **Author/guest index** — every qualifying land must appear here |
+| `writer-index.md` | Prose-outlet roster (Substack counts only) |
+| `{slug}-forecast-ledger*.md` / `{slug}-interview-appearances*.md` | Interpretive routing — **do not** substitute for index listing |
+| `day-index.md` | Day partition / stats |
+
+**Source-intake law:** after `build_statecraft_day_indices.py --day`, any landed capture resolving to a voice shelf must be indexed before closeout:
+
+1. `python scripts/shelf_index_from_capture.py --path <landed-file> --apply`
+2. `python scripts/audit_statecraft_archive_index.py --shelf-index <slug>`
+
+**Pape rebuild:** `python scripts/build_pape_index.py` (full regen). **Boundary exclusions** (date stubs, verify-*) must be named in the shelf Boundary section and honored by `--shelf-index` audit.

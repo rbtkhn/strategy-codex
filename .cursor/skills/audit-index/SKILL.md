@@ -4,7 +4,7 @@ description: Audit statecraft archive index surfaces (day-index parity, stale gl
 preferred_activation: audit index
 activation: audit index · audit day-index · index audit · audit index table
 portable: true
-version: 1.0.3
+version: 1.0.5
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -30,6 +30,8 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 - Channel roster counts or last-day columns look wrong vs recent YouTube intake
 - Writer roster file/day counts look wrong after Substack lands
 - New voice shelf landed but missing from `voice-index.md` analyst table
+- Curated shelf bench (`parsi-index.md`, etc.) links broken or archive captures not cited
+- After **source-intake** land for parsi / pape / crooke / ritter — verify author/guest index parity
 - Monthly closeout or pre-push when index churn is suspected
 
 ## When not to use
@@ -55,11 +57,22 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 | Channel index (YouTube roster) | `--channel-index` |
 | Writer index (prose roster) | `--writer-index` |
 | Voice index (analyst registry) | `--voice-index` |
+| Voice shelf bench (curated source index) | `--shelf-index SLUG` (e.g. `parsi`, `pape`, `crooke`, `ritter`) |
 | Inventory table only | `--table-only` + scope |
 | Audit + table | `--table` + scope |
 | Rebuild stale | `--fix` (EXECUTE / explicit confirm only) |
 
-**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** / **writer-index** — roster rows (`--table-sort words` → file count, `title` → label, `bucket` → slug, `date` → files). **Voice-index** — shelf registry (`listed`, profile, index kind); **curated** — no `--fix` rebuild.
+**Table:** capture scope — Date, Title, URL, Words, Bucket, Kind, §. **Channel-index** / **writer-index** — roster rows. **Voice-index** — shelf registry; **curated** — no `--fix`. **Shelf-index** — author/guest capture links from `{slug}-index.md`; **curated** — no `--fix`; honors documented stub exclusions.
+
+## Source-intake post-land (author/guest index)
+
+After `build_statecraft_day_indices.py --day` when landed capture resolves to a voice shelf (parsi, pape, crooke, ritter):
+
+```bash
+python scripts/shelf_index_from_capture.py --path source-archive/statecraft/YYYY-MM-DD/source-....md --apply --audit
+```
+
+Law: [`speaker-shelf-vocabulary.md`](../../statecraft/voices/speaker-shelf-vocabulary.md) § Author/guest shelf index.
 
 ## Execution order
 

@@ -4,12 +4,15 @@ WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott Ritter currently materialized in this repo, including authored Substack captures, direct host interviews, mixed-guest files, shorthand day files, generic `transcript-ritter` surfaces, and explicit raw-input discovery surfaces.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index ritter` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.
+
 ## 2025-01
 
 - [transcript-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05](../../../source-archive/statecraft/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md)
 
 ## 2025-02
 
+- [transcript-dialogue-works-trumps-weakness-wilkerson-ritter-2025-02-02](../../../source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) — **Dialogue Works** × Wilkerson
 - [india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22](../../../source-archive/statecraft/2025-02-22/source-india-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/arc-ritter-trump-pivot.md) beat 1 (pair 2025-03-02; **not** 2026 Iran arc)
 
 ## 2025-03
@@ -34,6 +37,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 - [transcript-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06](../../../source-archive/statecraft/2025-09-06/source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md)
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17](../../../source-archive/statecraft/2025-09-17/source-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md)
+- [transcript-dialogue-works-ritter-wilkerson-israel-dead-end-2025-09-23](../../../source-archive/statecraft/2025-09-23/source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md) — **Dialogue Works** × Wilkerson
 
 ## 2025-10
 
@@ -140,6 +144,8 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [youtube-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md)
 - [transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27](../../../source-archive/statecraft/2026-05-27/source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
 - [transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28](../../../source-archive/statecraft/2026-05-28/source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
+- [transcript-davis-ritter-ukraine-death-of-a-nation-2026-05-26](../../../source-archive/statecraft/2026-05-26/source-daniel-davis-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md) — **guest** · Daniel Davis
+- [transcript-napolitano-ritter-why-bother-negotiate-trump-2026-05-26](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md) — **guest** · Judging Freedom
 
 ## 2026-06
 

@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Alastair Crooke currently materialized in this repo, including Crooke-owned Substack captures, host-owned interviews, and shorthand support-tier raw-input captures that clearly bear the appearance.
 
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index crooke` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.
+
 Boundary note: this file is the canonical **source-index** and therefore the ordinary **source bench**, not the canonical interpretive surface. `Provenance bench` is the evidentiary emphasis case here: this surface may remain broader than the authored ledger, the interview support spine, or the bounded interview month layer.
 
 ## 2025-06
@@ -80,6 +82,10 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [substack-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14](../../../source-archive/statecraft/2026-05-14/source-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14.md)
 - [transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-judging-freedom-crooke-israels-war-unraveling-america-2026-05-18.md)
 - [substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md)
+- [transcript-davis-crooke-nuclear-fear-russia-stability-2026-05-22](../../../source-archive/statecraft/2026-05-22/source-daniel-davis-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) — **guest** · Daniel Davis
+- [transcript-napolitano-crooke-fear-as-deterrent-2026-05-26](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-crooke-fear-as-a-deterrent-to-war-2026-05-26.md) — **guest** · Judging Freedom
+- [substack-crooke-iran-war-effect-marks-resetting-2026-05-28](../../../source-archive/statecraft/2026-05-28/source-crooke-iran-war-effect-marks-the-resetting-2026-05-28.md) — **authored**
+- [transcript-diesen-crooke-iran-war-resets-geopolitics-2026-05-30](../../../source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md) — **guest** · Glenn Diesen
 
 ## 2026-06
 - [substack-crooke-iran-takes-its-chances-with-war-2026-06-04](../../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
@@ -90,6 +96,10 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [substack-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12](../../../source-archive/statecraft/2026-06-12/source-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12.md)
 - [transcript-napolitano-crooke-us-empire-is-crashing-2026-06-15](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md)
 - [youtube-daniel-davis-deep-dive-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24](../../../source-archive/statecraft/2026-06-24/source-daniel-davis-alastair-crooke-iran-deal-who-dictating-terms-2026-06-24.md)
+- [substack-crooke-israel-picking-up-pieces-hubris-2026-06-18](../../../source-archive/statecraft/2026-06-18/source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md) — **authored**
+- [transcript-diesen-crooke-new-middle-east-nato-moscow-2026-06-19](../../../source-archive/statecraft/2026-06-19/source-glenn-diesen-alastair-crooke-new-middle-east-born-nato-attacks-moscow-2026-06-19.md) — **guest** · Glenn Diesen
+- [transcript-napolitano-crooke-irreversible-blow-israel-2026-06-22](../../../source-archive/statecraft/2026-06-22/source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md) — **guest** · Judging Freedom
+- [substack-crooke-russia-hearing-european-clamour-2026-06-25](../../../source-archive/statecraft/2026-06-25/source-crooke-russia-hearing-the-european-clamour-2026-06-25.md) — **authored**
 
 ## Source-boundary reminders
 
