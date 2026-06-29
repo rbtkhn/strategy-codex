@@ -6,6 +6,7 @@ Purpose: front door for the canonical Baud shelf, separating person-level contin
 
 ## Open First
 
+- [baud-index.md](baud-index.md) — archive parity / exhaustive capture route map
 - [README.md](README.md)
 - [baud-arc.md](baud-arc.md)
 - [baud-thread-international-law.md](baud-thread-international-law.md)

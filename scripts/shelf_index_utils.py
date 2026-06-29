@@ -12,10 +12,11 @@ VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 WRITER_SHELF_SLUGS = frozenset({"parsi", "pape", "crooke", "ritter"})
 
 GUEST_REBUILD_SHELF_SLUGS = frozenset(
-    {"hoh", "martyanov", "postol", "krapivnik", "krainer"}
+    {"baud", "hoh", "martyanov", "postol", "krapivnik", "krainer"}
 )
 
 GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
+    "baud": re.compile(r"jacques\s+baud|col\.?\s+jacques\s+baud|\bbaud\b", re.I),
     "parsi": re.compile(r"trita\s+parsi|\bparsi\b", re.I),
     "pape": re.compile(r"robert\s+pape|professor\s+pape|prof\s+pape|\bpape\b", re.I),
     "crooke": re.compile(r"alastair\s+crooke|\bcrooke\b", re.I),
