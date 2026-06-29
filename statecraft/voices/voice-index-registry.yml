@@ -1,7 +1,7 @@
 schema_version: "1.0"
 
 # Governance metadata for voice indexes ({slug}-index.md).
-# Matching logic stays in shelf_index_utils.shelf_capture_excluded() — YAML documents exclusions only.
+# Matching logic stays in shelf_index_utils (shelf_capture_excluded / guest-index capture helpers) — YAML documents exclusions only.
 
 voices:
   pape:
@@ -152,9 +152,25 @@ voices:
   davis:
     status: canonical
     builder: scripts/build_davis_guest_index.py
-    exclusions: []
+    exclusions:
+      - daniel-davis host channel (channel_slug daniel-davis, source-daniel-davis-*) excluded from guest-index parity
+      - guest-index eligible set mirrors build_davis_guest_index.is_guest()
 
   mercouris:
     status: canonical
     builder: scripts/build_mercouris_guest_index.py
-    exclusions: []
+    exclusions:
+      - alexander-mercouris host channel and source-alexander-mercouris-* excluded from guest-index parity
+      - guest-index eligible set mirrors build_mercouris_guest_index.is_guest()
+
+  alkhorshid:
+    status: canonical
+    exclusions:
+      - dialogue-works host channel (channel_slug dialogue-works, source-dialogue-works-*) excluded from guest-index parity
+      - cross-host guest captures only (Nima on other hosts)
+
+  diesen:
+    status: canonical
+    exclusions:
+      - glenn-diesen host channel (channel_slug glenn-diesen, source-glenn-diesen-*, source-diesen-*) excluded from guest-index parity
+      - cross-host guest captures only (Glenn Diesen on other hosts)

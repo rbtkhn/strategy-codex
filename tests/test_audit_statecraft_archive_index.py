@@ -608,6 +608,77 @@ def test_jiang_shelf_includes_sneako_dual_index(tmp_path: Path) -> None:
     assert shelf_utils.capture_matches_shelf("jiang", path, meta, "")
 
 
+def test_davis_guest_index_excludes_host_channel(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-06-01" / "source-daniel-davis-iran-war-2026-06-01.md"
+    meta = {"channel_slug": "daniel-davis", "thread": "davis", "host": "Daniel Davis"}
+    assert not shelf_utils.is_davis_guest_index_capture(meta, path)
+    assert not shelf_utils.capture_matches_shelf("davis", path, meta, "")
+
+
+def test_davis_guest_index_includes_cross_host(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-03-18" / "source-glenn-diesen-daniel-davis-military-options-2026-03-18.md"
+    meta = {
+        "channel_slug": "glenn-diesen",
+        "guest": "Daniel Davis",
+        "host": "Glenn Diesen",
+    }
+    assert shelf_utils.is_davis_guest_index_capture(meta, path)
+    assert shelf_utils.capture_matches_shelf("davis", path, meta, "")
+
+
+def test_mercouris_guest_index_excludes_host_channel(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-06-01" / "source-alexander-mercouris-iran-2026-06-01.md"
+    meta = {"channel_slug": "alexander-mercouris", "thread": "mercouris", "host": "Alexander Mercouris"}
+    assert not shelf_utils.is_mercouris_guest_index_capture(meta, path)
+    assert not shelf_utils.capture_matches_shelf("mercouris", path, meta, "")
+
+
+def test_alkhorshid_guest_index_excludes_dialogue_works(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = (
+        tmp_path
+        / "2026-05-16"
+        / "source-dialogue-works-nima-alkhorshid-larry-johnson-2026-05-16.md"
+    )
+    meta = {"channel_slug": "dialogue-works", "thread": "alkorshid", "host": "Nima Alkhorshid"}
+    assert not shelf_utils.is_alkhorshid_guest_index_capture(meta, path)
+    assert not shelf_utils.capture_matches_shelf("alkhorshid", path, meta, "")
+
+
+def test_alkhorshid_guest_index_includes_cross_host(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-05-29" / "source-daniel-davis-alkorshid-iran-war-2026-05-29.md"
+    meta = {"channel_slug": "daniel-davis", "guest": "Nima Alkhorshid", "host": "Daniel Davis"}
+    assert shelf_utils.is_alkhorshid_guest_index_capture(meta, path)
+    assert shelf_utils.capture_matches_shelf("alkhorshid", path, meta, "")
+
+
+def test_diesen_guest_index_excludes_host_channel(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-06-01" / "source-glenn-diesen-iran-war-2026-06-01.md"
+    meta = {"channel_slug": "glenn-diesen", "thread": "diesen", "host": "Glenn Diesen"}
+    assert not shelf_utils.is_diesen_guest_index_capture(meta, path)
+    assert not shelf_utils.capture_matches_shelf("diesen", path, meta, "")
+
+
+def test_diesen_guest_index_includes_cross_host(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-06-24" / "source-judging-freedom-diesen-europe-preparing-war-2026-06-24.md"
+    meta = {"channel_slug": "judging-freedom", "guest": "Glenn Diesen", "host": "Judge Andrew Napolitano"}
+    assert shelf_utils.is_diesen_guest_index_capture(meta, path)
+    assert shelf_utils.capture_matches_shelf("diesen", path, meta, "")
+
+
 def test_jiang_index_rows_have_youtube_url(tmp_path: Path, monkeypatch) -> None:
     import build_jiang_index as jiang_idx  # noqa: E402
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -667,7 +738,9 @@ def test_all_voice_indexes_cli_with_fixture(tmp_path: Path, monkeypatch) -> None
     _write(
         voices / "voice-index-registry.yml",
         "schema_version: '1.0'\nvoices:\n  pape:\n    exclusions: [stub]\n  ritter:\n    exclusions: [stub]\n"
-        "  crooke:\n    exclusions: [stub]\n  jiang:\n    exclusions: [stub]\n  karaganov:\n    exclusions: [stub]\n",
+        "  crooke:\n    exclusions: [stub]\n  jiang:\n    exclusions: [stub]\n  karaganov:\n    exclusions: [stub]\n"
+        "  alkhorshid:\n    exclusions: [stub]\n  davis:\n    exclusions: [stub]\n  diesen:\n    exclusions: [stub]\n"
+        "  mercouris:\n    exclusions: [stub]\n",
     )
     code = audit.main(["--all-voice-indexes", "--root", str(archive)])
     assert code in (0, 1)

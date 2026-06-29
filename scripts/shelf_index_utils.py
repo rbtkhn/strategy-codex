@@ -12,7 +12,27 @@ VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
 WRITER_SHELF_SLUGS = frozenset({"parsi", "pape", "crooke", "ritter"})
 
 # Slugs with slug-specific logic in shelf_capture_excluded() — must have YAML exclusions entry.
-CODE_EXCLUSION_SLUGS = frozenset({"pape", "ritter", "crooke", "jiang", "karaganov"})
+CODE_EXCLUSION_SLUGS = frozenset(
+    {
+        "pape",
+        "ritter",
+        "crooke",
+        "jiang",
+        "karaganov",
+        "alkhorshid",
+        "davis",
+        "diesen",
+        "mercouris",
+    }
+)
+
+# Split-identity voices: guest-index parity counts cross-host guest captures only.
+GUEST_ONLY_SPLIT_IDENTITY_SLUGS = frozenset({"alkhorshid", "davis", "diesen", "mercouris"})
+
+DAVIS_GUEST = re.compile(r"daniel\s+davis|lt\.?\s*col\.?\s*daniel\s+davis", re.I)
+DIESEN_GUEST = re.compile(r"glenn\s+diesen|\bdiesen\b", re.I)
+MERCOURIS_GUEST = re.compile(r"alexander\s+mercouris|alex\s+mercouris", re.I)
+ALKHORSHID_GUEST = re.compile(r"nima\s+alkhorshid|nima\s+alkorshid", re.I)
 
 GUEST_REBUILD_SHELF_SLUGS = frozenset(
     {
@@ -189,11 +209,137 @@ def is_jiang_external_interview(
     return True
 
 
+def _guest_slots(meta: dict[str, object]) -> list[str]:
+    slots: list[str] = []
+    guest = norm_scalar(meta.get("guest"))
+    if guest:
+        slots.append(guest)
+    for key in sorted(meta.keys(), key=lambda k: (len(str(k)), str(k))):
+        if re.fullmatch(r"guest_\d+", str(key)):
+            slots.append(norm_scalar(meta[key]))
+    for key in ("guest_people",):
+        people = meta.get(key)
+        if isinstance(people, list):
+            slots.extend(str(person) for person in people)
+        elif people:
+            slots.append(str(people))
+    return slots
+
+
+def is_davis_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
+    """True when capture belongs on davis-index (cross-host guest appearances)."""
+    if not (
+        DAVIS_GUEST.search(path.name)
+        or norm_scalar(meta.get("thread")) == "davis"
+        or DAVIS_GUEST.search(
+            " ".join([norm_scalar(meta.get("host")), norm_scalar(meta.get("guest")), *_guest_slots(meta)])
+        )
+    ):
+        return False
+    slug = norm_scalar(meta.get("channel_slug"))
+    if slug == "daniel-davis":
+        return False
+    if path.name.casefold().startswith("source-daniel-davis-"):
+        return False
+    if DAVIS_GUEST.search(norm_scalar(meta.get("guest"))):
+        return True
+    for g in _guest_slots(meta):
+        if DAVIS_GUEST.search(g):
+            return True
+    if DAVIS_GUEST.search(norm_scalar(meta.get("host"))):
+        return False
+    name = path.name.casefold()
+    if slug == "glenn-diesen" and "daniel-davis" in name:
+        return True
+    if slug == "dialogue-works" and "daniel-davis" in name:
+        return True
+    return False
+
+
+def is_diesen_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
+    """True when capture belongs on diesen-index (cross-host guest appearances)."""
+    blob = " ".join([norm_scalar(meta.get("host")), *_guest_slots(meta)])
+    if not (
+        "diesen" in path.name.casefold()
+        or norm_scalar(meta.get("thread")) == "diesen"
+        or DIESEN_GUEST.search(blob)
+    ):
+        return False
+    slug = norm_scalar(meta.get("channel_slug"))
+    if slug == "glenn-diesen":
+        return False
+    name = path.name.casefold()
+    if name.startswith("source-glenn-diesen-") or name.startswith("source-diesen-"):
+        return False
+    for g in _guest_slots(meta):
+        if DIESEN_GUEST.search(g):
+            return True
+    if DIESEN_GUEST.search(norm_scalar(meta.get("host"))):
+        return False
+    return "diesen" in name
+
+
+def is_mercouris_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
+    """True when capture belongs on mercouris-index (cross-host guest appearances)."""
+    if not (
+        "mercouris" in path.name.casefold()
+        or norm_scalar(meta.get("thread")) == "mercouris"
+        or MERCOURIS_GUEST.search(path.name)
+        or MERCOURIS_GUEST.search(" ".join([norm_scalar(meta.get("host")), *_guest_slots(meta)]))
+    ):
+        return False
+    if norm_scalar(meta.get("channel_slug")) == "alexander-mercouris":
+        return False
+    if path.name.casefold().startswith("source-alexander-mercouris-"):
+        return False
+    for g in _guest_slots(meta):
+        if MERCOURIS_GUEST.search(g):
+            return True
+    if MERCOURIS_GUEST.search(norm_scalar(meta.get("host"))):
+        return False
+    return "mercouris" in path.name.casefold()
+
+
+def is_alkhorshid_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
+    """True when capture belongs on alkhorshid-index (cross-host guest appearances)."""
+    blob = " ".join([norm_scalar(meta.get("host")), *_guest_slots(meta)])
+    if not (
+        slug_token_in_capture_filename("alkhorshid", path.name)
+        or norm_scalar(meta.get("thread")) in {"alkhorshid", "alkorshid"}
+        or ALKHORSHID_GUEST.search(blob)
+    ):
+        return False
+    if norm_scalar(meta.get("channel_slug")) == "dialogue-works":
+        return False
+    if path.name.casefold().startswith("source-dialogue-works-"):
+        return False
+    for g in _guest_slots(meta):
+        if ALKHORSHID_GUEST.search(g):
+            return True
+    if ALKHORSHID_GUEST.search(norm_scalar(meta.get("host"))):
+        return False
+    return slug_token_in_capture_filename("alkhorshid", path.name)
+
+
+def is_split_identity_guest_index_capture(slug: str, meta: dict[str, object], path: Path) -> bool:
+    if slug == "davis":
+        return is_davis_guest_index_capture(meta, path)
+    if slug == "diesen":
+        return is_diesen_guest_index_capture(meta, path)
+    if slug == "mercouris":
+        return is_mercouris_guest_index_capture(meta, path)
+    if slug == "alkhorshid":
+        return is_alkhorshid_guest_index_capture(meta, path)
+    return False
+
+
 def shelf_capture_excluded(slug: str, path: Path, meta: dict[str, object], body: str = "") -> bool:
     name = path.name.casefold()
     slug_fold = slug.casefold()
     if slug == "jiang":
         return not is_jiang_external_interview(meta, path, body)
+    if slug in GUEST_ONLY_SPLIT_IDENTITY_SLUGS:
+        return not is_split_identity_guest_index_capture(slug, meta, path)
     if slug == "pape":
         if name.startswith("verify-pape-"):
             return True
