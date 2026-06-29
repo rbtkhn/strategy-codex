@@ -3239,7 +3239,7 @@
           "path": "provenance/2026-04-28/source-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md",
           "repoPath": "docs/skill-work/work-strategy/strategy-notebook/provenance/2026-04-28/source-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md",
           "kind": "cleaned-transcript",
-          "thread": "alkorshid",
+          "thread": "alkhorshid",
           "pubDate": "2026-04-28",
           "ingestDate": "2026-04-28",
           "sourceUrl": "https://www.youtube.com/watch?v=HfIxqx3QAVE",
@@ -3346,7 +3346,7 @@
         "bio": [
           {
             "name": "profile.md",
-            "title": "Strategy expert — `alkorshid`",
+            "title": "Strategy expert — `alkhorshid`",
             "path": "experts/alkorshid/profile.md",
             "repoPath": "docs/skill-work/work-strategy/strategy-notebook/experts/alkorshid/profile.md",
             "kind": "note",
@@ -3360,7 +3360,7 @@
         "threads": [
           {
             "name": "thread.md",
-            "title": "Expert thread — `alkorshid`",
+            "title": "Expert thread — `alkhorshid`",
             "path": "experts/alkorshid/thread.md",
             "repoPath": "docs/skill-work/work-strategy/strategy-notebook/experts/alkorshid/thread.md",
             "kind": "note",
@@ -3374,7 +3374,7 @@
         "transcripts": [
           {
             "name": "transcript.md",
-            "title": "Expert transcript — `alkorshid`",
+            "title": "Expert transcript — `alkhorshid`",
             "path": "experts/alkorshid/transcript.md",
             "repoPath": "docs/skill-work/work-strategy/strategy-notebook/experts/alkorshid/transcript.md",
             "kind": "transcript",

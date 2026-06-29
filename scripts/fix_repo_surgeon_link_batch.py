@@ -130,7 +130,7 @@ TARGET_REWRITES: dict[str, str] = {
     ),
     "codex/experts/barnes/mind.md": "statecraft/voices/barnes/barnes-mind.md",
     "mtp-coffee-dream.md": "skills/runbooks/mtp-coffee-dream.runbook.md",
-    "alkorshid-book-2026-04.md": "statecraft/voices/alkorshid/alkorshid-profile.md",
+    "alkorshid-book-2026-04.md": "statecraft/voices/alkhorshid/alkhorshid-profile.md",
     "diesen-book-2026-04.md": "statecraft/voices/diesen/diesen-profile.md",
     "mercouris-book-2026-04.md": "statecraft/voices/mercouris/mercouris-profile.md",
     "davis-book-2026-04.md": "statecraft/voices/davis/davis-profile.md",
@@ -1344,7 +1344,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel == "statecraft/sheets/civ-mem-resonance-2026-04.md":
         replacements.extend(
             [
-                ("](alkorshid/alkorshid-book-2026-04.md)", "](../voices/alkorshid/alkorshid-profile.md)"),
+                ("](alkhorshid/alkhorshid-book-2026-04.md)", "](../voices/alkhorshid/alkhorshid-profile.md)"),
                 ("](diesen/diesen-book-2026-04.md)", "](../voices/diesen/diesen-profile.md)"),
                 ("](mercouris/mercouris-book-2026-04.md)", "](../voices/mercouris/mercouris-profile.md)"),
                 ("](davis/davis-book-2026-04.md)", "](../voices/davis/davis-profile.md)"),

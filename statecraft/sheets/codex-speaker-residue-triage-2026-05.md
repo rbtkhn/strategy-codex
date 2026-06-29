@@ -18,7 +18,7 @@ Each residue folder should land in one of three buckets:
 
 ## Compatibility Pointer Only
 
-### `alkorshid`
+### `alkhorshid`
 
 - reason: this is primarily a **host / channel identity problem**, not a speaker-shelf problem
 - current signal: the live repo has already started solving this through repo-root `statecraft/channels/`, not through speaker promotion
@@ -79,7 +79,7 @@ Each residue folder should land in one of three buckets:
 
 If only a few migrations happen next, the cleanest order is:
 
-1. `alkorshid` as host-family reclassification rather than speaker promotion
+1. `alkhorshid` as host-family reclassification rather than speaker promotion
 2. `nawfal` as host/platform reclassification rather than speaker promotion
 
 ## Boundary

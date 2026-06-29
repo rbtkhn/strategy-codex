@@ -3,7 +3,7 @@ ingest_date: 2026-05-27
 pub_date: 2025-10-26
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Pepe Escobar & Andrei Martyanov

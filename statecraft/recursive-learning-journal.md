@@ -4130,3 +4130,94 @@ Routing: [build_johnson_index.py](../scripts/build_johnson_index.py) · [build_w
 **Pattern promotion:** defer until second distinct guest shelf (e.g. Diesen) reuses builder recipe without new law beyond (1)(2).
 
 ---
+
+## 2026-06-28 - Jiang dual-index split (interviews vs PH corpus)
+
+**Tag:** `jiang-index` · `shelf-index` · `guest-shelf` · `predictive-history` · `build-index` · `Windows-EXECUTE`  
+**Cross-link:** [§ Guest shelf index audit parity (2026-06-28)](#2026-06-28---guest-shelf-index-audit-parity-vs-routing-doctrine) — **narrows:** Jiang is not one monolithic `{slug}-index`; audit `--shelf-index jiang` covers **external interview appearances only**. PH channel + essays: `jiang-predictive-history-index.md`.  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — Jiang ship triggered `parallel_strreplace` on `shelf_index_utils.py` and docs; builder + one `StrReplace` per file per turn is the recovery shape.
+
+### Trigger
+
+Jun 28 EXECUTE: `--shelf-index jiang` emitted **19 `archive_unlisted` WARN** because `capture_matches_shelf("jiang")` matched every `thread: jiang` land (Game Theory, GB, essays, solo PH) while `jiang-index.md` was a routing hub with **zero** capture links. Operator law: **jiang-index = third-party channel guest interviews only**; PH corpus stays on archive master index. Ship: `build_jiang_index.py`, `is_jiang_external_interview()`, PH index reconcile (13 rows), audit **6/6**, commits `5448283c1` (Matlock arc) + `f9afa8aa4` (Jiang split), pushed.
+
+### Extracted law
+
+**1. Jiang has two shelf surfaces — audit scope is interview bench only**
+
+```text
+jiang-index.md           → external-channel guest interviews (Diesen, Sneako external-host, …)
+jiang-predictive-history-index.md → PH channel + essays (GT, GB, FM, Substack)
+--shelf-index jiang      → parity on (1) only; do not expect PH captures in jiang-index body
+```
+
+**2. Eligibility is meta-driven, not `thread: jiang`**
+
+```text
+is_jiang_external_interview(meta, path):
+  guest/guest_people names Jiang Xueqin
+  interview shape (not solo; Jiang not host)
+  exclude PH filename families (game-theory, gb, predictive-history)
+  whitelist Sneako #15 (title/body match; dual-index in PH Interviews table)
+  exclude dialogue-works *about* Jiang without guest field
+```
+
+**3. Interview index rows must surface YouTube on the bench**
+
+```text
+Each jiang-index row: archive link + **guest** · host · [YouTube](source_url)
+build_jiang_index.py fails if source_url missing or non-YouTube
+Do not use [YouTube](url) placeholder in corpus-note prose — breaks link audit
+```
+
+**4. Matlock + Jiang guest shelves share rebuild-on-apply**
+
+```text
+GUEST_REBUILD_SHELF_SLUGS + build_{slug}_index.py
+shelf_index_from_capture --apply → rebuild_jiang_index / rebuild_matlock_index
+```
+
+### Reapplication
+
+- **New Jiang Diesen land:** auto-routes to `jiang-index` via `is_jiang_external_interview`; does not pollute PH raw bench.
+- **New PH Game Theory / essay land:** update `jiang-predictive-history-index.md` only; do not append to `jiang-index`.
+- **Another speaker with PH + guest split:** copy Jiang pattern (eligibility function + second archive index) before widening `capture_matches_shelf` on `thread:` alone.
+- **Next multi-file EXECUTE on Windows:** one `StrReplace` per file per turn; run `build_*_index.py` once per phase — handoff `parallel_strreplace` is the stall signal.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| `scripts/build_jiang_index.py` + `jiang-index.md` | Pushed `f9afa8aa4` — 6 rows, YouTube per row |
+| `scripts/shelf_index_utils.py` | `is_jiang_external_interview`, jiang in `GUEST_REBUILD_SHELF_SLUGS` |
+| `scripts/shelf_index_from_capture.py` | `rebuild_jiang_index()` |
+| `source-archive/statecraft/jiang-predictive-history-index.md` | 13 PH rows; Diesen removed; gt-21 + Boomer Hell added |
+| `speaker-shelf-vocabulary.md`, `voice-index.md`, `audit-index` SKILL | Jiang exception documented |
+| `scripts/build_matlock_index.py` + Matlock arc | Pushed `5448283c1` — 5/5 parity |
+
+### Guardrail
+
+```text
+Do not list PH Game Theory / essays on jiang-index because thread: jiang matches
+Do not audit jiang-index expecting PH captures — fix eligibility or PH master index instead
+Do not omit inline YouTube on jiang-index rows — builder enforces source_url
+Do not duplicate guest-shelf parity RLJ body — cross-link § 2026-06-28 guest shelf
+Do not parallel StrReplace on shelf_index_utils or index docs mid-ship (Windows harness)
+```
+
+**Falsification:** If a single unified Jiang index is desired later, audit would need `--shelf-index jiang --include-ph` or companion merge — until then, dual-index is intentional.
+
+### Current lesson
+
+```text
+Jiang thread: jiang on disk ≠ one index —
+external interviews get month-list parity on jiang-index;
+PH-owned corpus gets its own archive master table;
+capture_matches_shelf must encode that split or audit screams false WARN.
+```
+
+Routing: [build_jiang_index.py](../scripts/build_jiang_index.py) · [jiang-index.md](../statecraft/voices/jiang/jiang-index.md) · [jiang-predictive-history-index.md](../source-archive/statecraft/jiang-predictive-history-index.md) · RLJ [guest shelf parity](#2026-06-28---guest-shelf-index-audit-parity-vs-routing-doctrine) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+
+**Pattern promotion:** defer until second speaker (e.g. host-owned channel + external interviews) reuses dual-index eligibility without new law beyond (1)(2).
+
+---

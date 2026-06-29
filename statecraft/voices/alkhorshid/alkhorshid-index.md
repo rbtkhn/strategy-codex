@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Alkhorshid index (`alkorshid`)
+# Alkhorshid index (`alkhorshid`)
 
 Purpose: route map for **Nima Alkhorshid** as **guest / interviewed analyst on other hosts and channels** — not Dialogue Works host or solo work.
 

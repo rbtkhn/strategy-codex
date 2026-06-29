@@ -13,7 +13,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: aguilar
 threads:
-  - alkorshid
+  - alkhorshid
   - aguilar
 thread_expert: aguilar
 show: Dialogue Works

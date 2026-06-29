@@ -3,7 +3,7 @@ title: "Putin Defies Trump: EU Cornered as Ukraine Troops Collapse | Scott Ritte
 host: Nima Alkhorshid
 guest: Scott Ritter
 date: 2025-12-06
-thread: alkorshid
+thread: alkhorshid
 source_url: https://www.youtube.com/watch?v=HSuU-YcEweU
 source_type: youtube-auto-captions
 source_form: interview

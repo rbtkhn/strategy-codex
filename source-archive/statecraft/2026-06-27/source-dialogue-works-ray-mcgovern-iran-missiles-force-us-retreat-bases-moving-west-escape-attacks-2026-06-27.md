@@ -10,7 +10,8 @@ guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: mcgovern
-threads: ""
+threads:
+  - alkhorshid
 thread_expert: mcgovern
 show: Dialogue Works
 host: Nima Alkhorshid

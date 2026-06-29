@@ -14,7 +14,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: johnson
 threads:
-  - alkorshid
+  - alkhorshid
   - johnson
 show: Dialogue Works
 host: Nima Alkhorshid

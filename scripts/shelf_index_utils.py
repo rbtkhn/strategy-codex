@@ -51,6 +51,7 @@ JIANG_PH_FILENAME_PREFIXES = (
 )
 
 SLUG_FILENAME_ALIASES: dict[str, tuple[str, ...]] = {
+    "alkhorshid": ("alkorshid",),
     "martyanov": ("martynaov",),
 }
 

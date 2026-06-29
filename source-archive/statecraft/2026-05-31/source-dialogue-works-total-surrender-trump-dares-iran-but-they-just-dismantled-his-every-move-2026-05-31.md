@@ -4,9 +4,9 @@ pub_date: 2026-05-31
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 kind: cleaned-transcript
 source_form: solo
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 title: "Nima R. Alkhorshid: \"TOTAL SURRENDER\" � Trump Dares Iran, But They Just DISMANTLED His Every Move"

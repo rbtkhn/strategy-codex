@@ -3,9 +3,9 @@ ingest_date: 2026-01-25
 pub_date: 2026-01-25
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Alastair Crooke

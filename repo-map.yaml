@@ -643,13 +643,13 @@ routes:
   - verbatim transcript
   - statecraft source file
   - source-archive source
-- id: alkorshid-index
-  title: Alkorshid index (guest)
-  path: statecraft/voices/alkorshid/alkorshid-index.md
+- id: alkhorshid-index
+  title: Alkhorshid index (guest)
+  path: statecraft/voices/alkhorshid/alkhorshid-index.md
   kind: source_index
   authority: work_only
   tags:
-  - alkorshid
+  - alkhorshid
   - nima
   - guest-index
   - statecraft
@@ -657,11 +657,11 @@ routes:
   search_hints:
   - Alkorshid guest index
   - Nima Alkorshid cross-host
-  - alkorshid index
+  - alkhorshid index
   category: work
-- id: alkorshid-profile
-  title: Alkorshid profile
-  path: statecraft/voices/alkorshid/alkorshid-profile.md
+- id: alkhorshid-profile
+  title: Alkhorshid profile
+  path: statecraft/voices/alkhorshid/alkhorshid-profile.md
   kind: source_index
   authority: work_only
   domain:
@@ -670,13 +670,13 @@ routes:
   people:
   - Nima Alkorshid
   tags:
-  - alkorshid
+  - alkhorshid
   - nima
   - profile
   search_hints:
-  - Alkorshid profile
-  - Nima Alkorshid profile
-  - alkorshid-profile
+  - Alkhorshid profile
+  - Nima Alkhorshid profile
+  - alkhorshid-profile
   - nima profile compat
   category: work
 - id: barnes-index

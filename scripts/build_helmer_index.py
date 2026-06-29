@@ -192,7 +192,7 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
         f"- **{len(rows)}** direct captures on disk ({date_span}): **{dw_count}** `source-dialogue-works-helmer-*`, **{lascaris_count}** `source-lascaris-helmer-*`",
         "- Rebuild: `python scripts/build_helmer_index.py`",
         "- **0** authored Substack / solo-site captures in archive (Helmer blog cited in-interview only)",
-        "- **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** / **`thread: alkorshid`** — all route here for guest appearances",
+        "- **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** / **`thread: alkhorshid`** — all route here for guest appearances",
         "",
         "Verify Kremlin quotations, poll claims, and naval-incident narratives against primary sources before Chronicle promotion ([editorial notes on captures](../../../source-archive/statecraft/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)).",
         "",

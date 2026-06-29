@@ -13,7 +13,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: barnes
 threads:
-  - alkorshid
+  - alkhorshid
   - barnes
 thread_expert: barnes
 show: Dialogue Works

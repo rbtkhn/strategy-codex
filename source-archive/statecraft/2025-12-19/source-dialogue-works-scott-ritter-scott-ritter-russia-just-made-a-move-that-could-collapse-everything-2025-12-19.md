@@ -3,7 +3,7 @@ title: "Scott Ritter: Russia Just Made a Move That Could Collapse Everything"
 host: Nima Alkhorshid
 guest: Scott Ritter
 date: 2025-12-19
-thread: alkorshid
+thread: alkhorshid
 source_url: https://www.youtube.com/watch?v=zq9y5GpwChY
 source_type: youtube-auto-captions
 source_form: interview

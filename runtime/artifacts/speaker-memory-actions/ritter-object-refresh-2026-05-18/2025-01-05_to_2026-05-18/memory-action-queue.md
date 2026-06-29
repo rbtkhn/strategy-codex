@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Window: `2025-01-05` to `2026-05-18`
 
-- `high` `update-existing-arc` `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (15 appearance(s); grades: cleaned-transcript, legacy-appearance-only, transcript-bearing)
+- `high` `update-existing-arc` `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (15 appearance(s); grades: cleaned-transcript, legacy-appearance-only, transcript-bearing)
   - reason: Appearance routes to an existing host-local speaker arc.
   - operator: Review the raw-input and update the existing speaker arc if it changes the ranked arc set, open-first choice, or boundary.
 - `high` `update-existing-arc` `codex/years/2026/davis/davis-ritter-speaker-arc.md` (7 appearance(s); grades: cleaned-transcript, legacy-appearance-only, transcript-bearing)

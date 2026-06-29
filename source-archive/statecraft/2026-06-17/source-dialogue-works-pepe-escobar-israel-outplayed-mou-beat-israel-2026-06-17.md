@@ -13,7 +13,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: escobar
 threads:
-  - alkorshid
+  - alkhorshid
   - escobar
 thread_expert: escobar
 show: Dialogue Works

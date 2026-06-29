@@ -6,7 +6,7 @@ source_form: interview
 thread: freeman
 threads:
   - freeman
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guests:

@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-- host: `alkorshid`
+- host: `alkhorshid`
 - month: `2026-05`
 - routeable artifact count: `1` (+0)
 - total word mass: `8137` (-704)

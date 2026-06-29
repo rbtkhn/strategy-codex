@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T04:04:39Z",
+  "generated_at": "2026-06-29T04:21:38Z",
   "summary": {
     "voices_discovered": 34,
     "listed_in_voices_router": 34,
@@ -32,21 +32,21 @@
       "index_kind": "primary"
     },
     {
-      "voice": "alkorshid",
-      "primary_index": "statecraft/voices/alkorshid/alkorshid-index.md",
+      "voice": "alkhorshid",
+      "primary_index": "statecraft/voices/alkhorshid/alkhorshid-index.md",
       "listed_in_voices_router": true,
       "builder": null,
-      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index alkorshid",
-      "eligible_captures": 196,
+      "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index alkhorshid",
+      "eligible_captures": 197,
       "indexed_captures": 1,
       "parity": "fail",
       "broken_links": 0,
       "companion_routes": [
-        "alkorshid-profile.md"
+        "alkhorshid-profile.md"
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },

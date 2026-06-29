@@ -3,7 +3,7 @@ ingest_date: 2026-05-14
 pub_date: 2026-04-29
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Lt. Col. Anthony Aguilar

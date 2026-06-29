@@ -7,9 +7,9 @@ host_people: ""
 guest_people: "[]"
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 title: "URGENT: Iran & Israel Trade Blows – Yemen Launches, Iran Hits Saudi"

@@ -9,7 +9,7 @@
     "description": "Count-neutral lattice of cognition streams; current shape has eight streams but may change.",
     "analysis_mode": "contrapuntal comparison",
     "streams": {
-      "alkorshid": {
+      "alkhorshid": {
         "display_name": "Alkorshid",
         "stream_kind": "host_channel",
         "axis_label": "Synthesis",
@@ -73,7 +73,7 @@
     "end": "2026-05-01"
   },
   "sources": {
-    "alkorshid": {
+    "alkhorshid": {
       "index_path": ".codex-tmp\\dialogue-works-full-latest\\index.json",
       "channel_url": "https://www.youtube.com/@dialogueworks01/videos",
       "source_label": "Dialogue Works; dialogue-works-full-latest/index.json",
@@ -108,25 +108,25 @@
     "cohosts_total": 1,
     "bridge_guests_total": 22,
     "episodes_by_pillar": {
-      "alkorshid": 84,
+      "alkhorshid": 84,
       "diesen": 275,
       "davis": 498,
       "mercouris_duran": 178
     },
     "guests_by_pillar": {
-      "alkorshid": 19,
+      "alkhorshid": 19,
       "diesen": 86,
       "davis": 41,
       "mercouris_duran": 1
     },
     "cohosts_by_pillar": {
-      "alkorshid": 0,
+      "alkhorshid": 0,
       "diesen": 0,
       "davis": 0,
       "mercouris_duran": 1
     },
     "episodes_by_stream": {
-      "alkorshid": 84,
+      "alkhorshid": 84,
       "diesen": 275,
       "davis": 498,
       "mercouris_duran": 178,
@@ -209,7 +209,7 @@
       "voice_note": "Synthesis through long-form cross-guest interviews.",
       "host_id": "alkorshid",
       "host_name": "Nima Alkorshid",
-      "host_thread": "thread:alkorshid",
+      "host_thread": "thread:alkhorshid",
       "channel_url": "https://www.youtube.com/@dialogueworks01/videos",
       "source_channels": [
         "@dialogueworks01"
@@ -383,7 +383,7 @@
         "nato"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -418,7 +418,7 @@
         "ukraine"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:sachs"
         ]
@@ -454,7 +454,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -485,7 +485,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -520,7 +520,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -554,7 +554,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -589,7 +589,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:crooke"
         ]
@@ -624,7 +624,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -658,7 +658,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -691,7 +691,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -726,7 +726,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:johnson"
         ]
@@ -762,7 +762,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:johnson"
         ]
@@ -799,7 +799,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -832,7 +832,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -862,7 +862,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -897,7 +897,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -931,7 +931,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -966,7 +966,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1000,7 +1000,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -1033,7 +1033,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1064,7 +1064,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1097,7 +1097,7 @@
         "multipolarity"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1130,7 +1130,7 @@
         "ukraine"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1163,7 +1163,7 @@
         "us-empire"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1196,7 +1196,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1227,7 +1227,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:crooke"
         ]
@@ -1262,7 +1262,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -1297,7 +1297,7 @@
         "nato"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1331,7 +1331,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1367,7 +1367,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:johnson"
         ]
@@ -1400,7 +1400,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1431,7 +1431,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1462,7 +1462,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1493,7 +1493,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1526,7 +1526,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -1561,7 +1561,7 @@
         "us-empire"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1594,7 +1594,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -1629,7 +1629,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1663,7 +1663,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1697,7 +1697,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:blumenthal"
         ]
@@ -1732,7 +1732,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1763,7 +1763,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -1800,7 +1800,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:blumenthal"
         ]
@@ -1836,7 +1836,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -1871,7 +1871,7 @@
         "nato"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1904,7 +1904,7 @@
         "us-empire"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1938,7 +1938,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -1973,7 +1973,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2004,7 +2004,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2035,7 +2035,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:blumenthal"
         ]
@@ -2068,7 +2068,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2102,7 +2102,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2135,7 +2135,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2168,7 +2168,7 @@
         "ukraine"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:baud"
         ]
@@ -2203,7 +2203,7 @@
         "middle-east"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:marandi"
         ]
@@ -2239,7 +2239,7 @@
         "nato"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2273,7 +2273,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2306,7 +2306,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2339,7 +2339,7 @@
         "ukraine"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2373,7 +2373,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -2408,7 +2408,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2442,7 +2442,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2475,7 +2475,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2508,7 +2508,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -2541,7 +2541,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2572,7 +2572,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2606,7 +2606,7 @@
         "us-empire"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2637,7 +2637,7 @@
       "status": "needs_capture",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2671,7 +2671,7 @@
         "venezuela"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:blumenthal"
         ]
@@ -2704,7 +2704,7 @@
       "status": "mirrored",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:crooke"
         ]
@@ -2737,7 +2737,7 @@
       "status": "mirrored",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2770,7 +2770,7 @@
         "russia"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -2805,7 +2805,7 @@
         "nato"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2836,7 +2836,7 @@
       "status": "mirrored",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2869,7 +2869,7 @@
         "venezuela"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2902,7 +2902,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2935,7 +2935,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:crooke"
         ]
@@ -2968,7 +2968,7 @@
       "status": "mirrored",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -2999,7 +2999,7 @@
       "status": "mirrored",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:crooke"
         ]
@@ -3032,7 +3032,7 @@
       "status": "mirrored",
       "themes": [],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:ritter"
         ]
@@ -3067,7 +3067,7 @@
         "europe"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -3100,7 +3100,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -3133,7 +3133,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": [
           "thread:freeman"
         ]
@@ -3168,7 +3168,7 @@
         "iran"
       ],
       "routing": {
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "guest_threads": []
       },
       "source": {
@@ -26366,7 +26366,7 @@
       "routing": {
         "host_thread": "thread:davis",
         "guest_threads": [
-          "thread:alkorshid"
+          "thread:alkhorshid"
         ]
       },
       "source": {
@@ -33529,7 +33529,7 @@
       ],
       "episode_count": 11,
       "counts_by_pillar": {
-        "alkorshid": 5,
+        "alkhorshid": 5,
         "davis": 1,
         "diesen": 5
       },
@@ -33551,12 +33551,12 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 5,
+        "alkhorshid": 5,
         "davis": 1,
         "diesen": 5
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=dJpaSTZHabQ",
           "https://www.youtube.com/watch?v=d-oc_ubqF0Q",
           "https://www.youtube.com/watch?v=5JVKloRggyo",
@@ -33608,7 +33608,7 @@
       ],
       "episode_count": 19,
       "counts_by_pillar": {
-        "alkorshid": 10,
+        "alkhorshid": 10,
         "diesen": 9
       },
       "thread_ids": [],
@@ -33626,11 +33626,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 10,
+        "alkhorshid": 10,
         "diesen": 9
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=a-vDdXZerJk",
           "https://www.youtube.com/watch?v=0kjtesiF78c",
           "https://www.youtube.com/watch?v=WzbfmCkBkXc",
@@ -33736,7 +33736,7 @@
       ],
       "episode_count": 19,
       "counts_by_pillar": {
-        "alkorshid": 12,
+        "alkhorshid": 12,
         "davis": 6,
         "diesen": 1
       },
@@ -33756,12 +33756,12 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 12,
+        "alkhorshid": 12,
         "davis": 6,
         "diesen": 1
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=aTT3FlKUs68",
           "https://www.youtube.com/watch?v=rsXalm7ai-s",
           "https://www.youtube.com/watch?v=IN8h4QX36_w",
@@ -33946,7 +33946,7 @@
       ],
       "episode_count": 9,
       "counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "diesen": 8
       },
       "thread_ids": [
@@ -33966,11 +33966,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "diesen": 8
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=mH6pV88ScII"
         ],
         "diesen": [
@@ -34090,7 +34090,7 @@
       ],
       "episode_count": 1,
       "counts_by_pillar": {
-        "alkorshid": 1
+        "alkhorshid": 1
       },
       "thread_ids": [],
       "is_bridge": false,
@@ -34864,7 +34864,7 @@
       ],
       "episode_count": 12,
       "counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "davis": 5,
         "diesen": 6
       },
@@ -34886,12 +34886,12 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "davis": 5,
         "diesen": 6
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=BikuCes3BNE"
         ],
         "davis": [
@@ -34945,7 +34945,7 @@
       ],
       "episode_count": 20,
       "counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "diesen": 19
       },
       "thread_ids": [
@@ -34965,11 +34965,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "diesen": 19
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=6fgA9YBgNlY"
         ],
         "diesen": [
@@ -35422,7 +35422,7 @@
       ],
       "episode_count": 34,
       "counts_by_pillar": {
-        "alkorshid": 3,
+        "alkhorshid": 3,
         "davis": 20,
         "diesen": 11
       },
@@ -35444,12 +35444,12 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 3,
+        "alkhorshid": 3,
         "davis": 20,
         "diesen": 11
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=C4qpDjKuwsk",
           "https://www.youtube.com/watch?v=Iu1X9NK6Sxk",
           "https://www.youtube.com/watch?v=pdNdGNULoaQ"
@@ -35523,7 +35523,7 @@
       ],
       "episode_count": 18,
       "counts_by_pillar": {
-        "alkorshid": 8,
+        "alkhorshid": 8,
         "diesen": 10
       },
       "thread_ids": [],
@@ -35541,11 +35541,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 8,
+        "alkhorshid": 8,
         "diesen": 10
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=vi0ATui62g0",
           "https://www.youtube.com/watch?v=reiMyJ_4N4I",
           "https://www.youtube.com/watch?v=R1yL7JJgxWI",
@@ -35762,7 +35762,7 @@
       ],
       "episode_count": 8,
       "counts_by_pillar": {
-        "alkorshid": 4,
+        "alkhorshid": 4,
         "diesen": 4
       },
       "thread_ids": [
@@ -35782,11 +35782,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 4,
+        "alkhorshid": 4,
         "diesen": 4
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=oTZl67PwZ5E",
           "https://www.youtube.com/watch?v=8DQcJY6oG8U",
           "https://www.youtube.com/watch?v=Og86f18ONao",
@@ -35826,7 +35826,7 @@
       ],
       "episode_count": 12,
       "counts_by_pillar": {
-        "alkorshid": 6,
+        "alkhorshid": 6,
         "diesen": 6
       },
       "thread_ids": [],
@@ -35844,11 +35844,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 6,
+        "alkhorshid": 6,
         "diesen": 6
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=MoAn1Yq2szE",
           "https://www.youtube.com/watch?v=kXpCOj3oXHE",
           "https://www.youtube.com/watch?v=wNPqmF3b3L4",
@@ -35946,7 +35946,7 @@
         "davis": 1
       },
       "thread_ids": [
-        "thread:alkorshid"
+        "thread:alkhorshid"
       ],
       "is_bridge": false,
       "first_seen": "2026-03-20",
@@ -36080,7 +36080,7 @@
       ],
       "episode_count": 9,
       "counts_by_pillar": {
-        "alkorshid": 2,
+        "alkhorshid": 2,
         "davis": 7
       },
       "thread_ids": [],
@@ -36098,11 +36098,11 @@
         "davis"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 2,
+        "alkhorshid": 2,
         "davis": 7
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=zPQ6MVtwUCY",
           "https://www.youtube.com/watch?v=9RaFBDfKE8w"
         ],
@@ -36187,7 +36187,7 @@
       ],
       "episode_count": 6,
       "counts_by_pillar": {
-        "alkorshid": 5,
+        "alkhorshid": 5,
         "diesen": 1
       },
       "thread_ids": [],
@@ -36205,11 +36205,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 5,
+        "alkhorshid": 5,
         "diesen": 1
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=XUmhqN7e7zk",
           "https://www.youtube.com/watch?v=bpT-0TT9gxU",
           "https://www.youtube.com/watch?v=nPviRgUQws0",
@@ -36394,7 +36394,7 @@
       ],
       "episode_count": 11,
       "counts_by_pillar": {
-        "alkorshid": 5,
+        "alkhorshid": 5,
         "diesen": 6
       },
       "thread_ids": [],
@@ -36412,11 +36412,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 5,
+        "alkhorshid": 5,
         "diesen": 6
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=OztiggxrRjQ",
           "https://www.youtube.com/watch?v=a6H_OEkklx4",
           "https://www.youtube.com/watch?v=dx3OFa-x02Q",
@@ -36537,7 +36537,7 @@
       ],
       "episode_count": 1,
       "counts_by_pillar": {
-        "alkorshid": 1
+        "alkhorshid": 1
       },
       "thread_ids": [],
       "is_bridge": false,
@@ -36612,7 +36612,7 @@
       ],
       "episode_count": 30,
       "counts_by_pillar": {
-        "alkorshid": 15,
+        "alkhorshid": 15,
         "davis": 2,
         "diesen": 13
       },
@@ -36634,12 +36634,12 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 15,
+        "alkhorshid": 15,
         "davis": 2,
         "diesen": 13
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=ks1dCRwk0IA",
           "https://www.youtube.com/watch?v=hexfCC0ABQg",
           "https://www.youtube.com/watch?v=erV5x6qpfUw",
@@ -36729,7 +36729,7 @@
       ],
       "episode_count": 14,
       "counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "diesen": 13
       },
       "thread_ids": [
@@ -36749,11 +36749,11 @@
         "diesen"
       ],
       "episode_counts_by_pillar": {
-        "alkorshid": 1,
+        "alkhorshid": 1,
         "diesen": 13
       },
       "episode_ids_by_pillar": {
-        "alkorshid": [
+        "alkhorshid": [
           "https://www.youtube.com/watch?v=WW32gL-duvo"
         ],
         "diesen": [
@@ -36988,7 +36988,7 @@
       ],
       "episode_count": 1,
       "counts_by_pillar": {
-        "alkorshid": 1
+        "alkhorshid": 1
       },
       "thread_ids": [],
       "is_bridge": false,
@@ -37261,7 +37261,7 @@
       ],
       "episode_count": 1,
       "counts_by_pillar": {
-        "alkorshid": 1
+        "alkhorshid": 1
       },
       "thread_ids": [],
       "is_bridge": false,
@@ -51648,12 +51648,12 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 5,
+          "alkhorshid": 5,
           "davis": 1,
           "diesen": 5
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=dJpaSTZHabQ",
             "https://www.youtube.com/watch?v=d-oc_ubqF0Q",
             "https://www.youtube.com/watch?v=5JVKloRggyo",
@@ -51682,11 +51682,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 10,
+          "alkhorshid": 10,
           "diesen": 9
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=a-vDdXZerJk",
             "https://www.youtube.com/watch?v=0kjtesiF78c",
             "https://www.youtube.com/watch?v=WzbfmCkBkXc",
@@ -51722,12 +51722,12 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 12,
+          "alkhorshid": 12,
           "davis": 6,
           "diesen": 1
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=aTT3FlKUs68",
             "https://www.youtube.com/watch?v=rsXalm7ai-s",
             "https://www.youtube.com/watch?v=IN8h4QX36_w",
@@ -51764,11 +51764,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 1,
+          "alkhorshid": 1,
           "diesen": 8
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=mH6pV88ScII"
           ],
           "diesen": [
@@ -51868,12 +51868,12 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 1,
+          "alkhorshid": 1,
           "davis": 5,
           "diesen": 6
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=BikuCes3BNE"
           ],
           "davis": [
@@ -51903,11 +51903,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 1,
+          "alkhorshid": 1,
           "diesen": 19
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=6fgA9YBgNlY"
           ],
           "diesen": [
@@ -52022,12 +52022,12 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 3,
+          "alkhorshid": 3,
           "davis": 20,
           "diesen": 11
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=C4qpDjKuwsk",
             "https://www.youtube.com/watch?v=Iu1X9NK6Sxk",
             "https://www.youtube.com/watch?v=pdNdGNULoaQ"
@@ -52079,11 +52079,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 8,
+          "alkhorshid": 8,
           "diesen": 10
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=vi0ATui62g0",
             "https://www.youtube.com/watch?v=reiMyJ_4N4I",
             "https://www.youtube.com/watch?v=R1yL7JJgxWI",
@@ -52117,11 +52117,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 4,
+          "alkhorshid": 4,
           "diesen": 4
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=oTZl67PwZ5E",
             "https://www.youtube.com/watch?v=8DQcJY6oG8U",
             "https://www.youtube.com/watch?v=Og86f18ONao",
@@ -52145,11 +52145,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 6,
+          "alkhorshid": 6,
           "diesen": 6
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=MoAn1Yq2szE",
             "https://www.youtube.com/watch?v=kXpCOj3oXHE",
             "https://www.youtube.com/watch?v=wNPqmF3b3L4",
@@ -52177,11 +52177,11 @@
           "davis"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 2,
+          "alkhorshid": 2,
           "davis": 7
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=zPQ6MVtwUCY",
             "https://www.youtube.com/watch?v=9RaFBDfKE8w"
           ],
@@ -52230,11 +52230,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 5,
+          "alkhorshid": 5,
           "diesen": 1
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=XUmhqN7e7zk",
             "https://www.youtube.com/watch?v=bpT-0TT9gxU",
             "https://www.youtube.com/watch?v=nPviRgUQws0",
@@ -52256,11 +52256,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 5,
+          "alkhorshid": 5,
           "diesen": 6
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=OztiggxrRjQ",
             "https://www.youtube.com/watch?v=a6H_OEkklx4",
             "https://www.youtube.com/watch?v=dx3OFa-x02Q",
@@ -52310,12 +52310,12 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 15,
+          "alkhorshid": 15,
           "davis": 2,
           "diesen": 13
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=ks1dCRwk0IA",
             "https://www.youtube.com/watch?v=hexfCC0ABQg",
             "https://www.youtube.com/watch?v=erV5x6qpfUw",
@@ -52363,11 +52363,11 @@
           "diesen"
         ],
         "episode_counts_by_pillar": {
-          "alkorshid": 1,
+          "alkhorshid": 1,
           "diesen": 13
         },
         "episode_ids_by_pillar": {
-          "alkorshid": [
+          "alkhorshid": [
             "https://www.youtube.com/watch?v=WW32gL-duvo"
           ],
           "diesen": [

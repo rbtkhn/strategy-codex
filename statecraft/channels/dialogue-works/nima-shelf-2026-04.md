@@ -1,6 +1,6 @@
 # Alkorshid Shelf - 2026-04
 
-This monthly shelf is the April 2026 synthesis/index for the `alkorshid` cognition stream. It gathers the stream's pages, daily chapters, and civ-mem resonance without forcing synthesis across the whole lattice.
+This monthly shelf is the April 2026 synthesis/index for the `alkhorshid` cognition stream. It gathers the stream's pages, daily chapters, and civ-mem resonance without forcing synthesis across the whole lattice.
 
 ## Stream Voice
 

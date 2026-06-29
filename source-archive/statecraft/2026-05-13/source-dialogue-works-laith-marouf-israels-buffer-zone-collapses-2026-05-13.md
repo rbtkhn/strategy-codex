@@ -3,9 +3,9 @@ ingest_date: 2026-05-13
 pub_date: 2026-05-13
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Laith Marouf

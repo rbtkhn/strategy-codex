@@ -1,11 +1,11 @@
-# Strategy expert — Nima Alkhorshid (`alkorshid`)
+# Strategy expert — Nima Alkhorshid (`alkhorshid`)
 <!-- word_count: ~700 -->
 
 WORK only; not Record.
 
 **Canonical profile:** this file.
-**Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [alkorshid-index.md](alkorshid-index.md) (guest) · [dialogue-works-channel-index.md](../../channels/dialogue-works/dialogue-works-channel-index.md) (host)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`alkorshid`** lane (`thread:nima` legacy compat in ingest YAML).
+**Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [alkhorshid-index.md](alkhorshid-index.md) (guest) · [dialogue-works-channel-index.md](../../channels/dialogue-works/dialogue-works-channel-index.md) (host)
+**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`alkhorshid`** lane (`thread:nima` legacy compat in ingest YAML).
 
 ---
 
@@ -18,8 +18,8 @@ Nima Alkhorshid is the Dialogue Works host lane: a long-form interviewer whose v
 | Field | Value |
 |-------|-------|
 | **Name** | Nima Alkhorshid |
-| **expert_id** | `alkorshid` |
-| **Role** | Dialogue Works host / interviewer for long-form geopolitical dialogue; use `thread:alkorshid` (legacy `thread:nima` compat) alongside `thread:<guest>` on shared episodes so inbox triage and raw-input thread lists mirror both sides. |
+| **expert_id** | `alkhorshid` |
+| **Role** | Dialogue Works host / interviewer for long-form geopolitical dialogue; use `thread:alkhorshid` (legacy `thread:nima` compat) alongside `thread:<guest>` on shared episodes so inbox triage and raw-input thread lists mirror both sides. |
 | **Default grep tags** | `Alkhorshid`, `Alkorshid` (legacy cold), `Dialogue Works`, or `DialogueWorks` in cold |
 | **Typical pairings** | x `marandi`, x `diesen`, x `mercouris`, x `davis` |
 | **Notebook-use tags** | `narrate` |

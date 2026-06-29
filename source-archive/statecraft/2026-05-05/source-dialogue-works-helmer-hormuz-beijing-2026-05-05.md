@@ -6,9 +6,9 @@ source_form: interview
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: John Helmer
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 source_url: "https://www.youtube.com/watch?v=WLQeC8gOp-k"
 source_note: User-pasted cleaned YouTube transcript.
 title_slug: alkorshid-helmer-hormuz-beijing-2026-05-05

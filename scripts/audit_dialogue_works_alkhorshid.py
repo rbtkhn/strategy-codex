@@ -53,7 +53,7 @@ DAVIS_HOST_OPENING_RES = [
     re.compile(r"pardon me.*nima.*from dialogue works", re.I),
 ]
 
-# Wrong display spelling (operator policy: Alkhorshid with h). Machine slug `alkorshid` is unchanged.
+# Wrong display spelling (operator policy: Alkhorshid with h). Machine slug `alkhorshid` is unchanged.
 WRONG_NIMA_SURNAME_RE = re.compile(r"Alkorshid")
 
 
@@ -406,8 +406,8 @@ def main() -> int:
     rows.sort(key=lambda r: r.path)
 
     if args.write:
-        csv_path = AUDIT_DIR / f"dialogue-works-alkorshid-audit-{args.date}.csv"
-        md_path = AUDIT_DIR / f"dialogue-works-alkorshid-audit-{args.date}.md"
+        csv_path = AUDIT_DIR / f"dialogue-works-alkhorshid-audit-{args.date}.csv"
+        md_path = AUDIT_DIR / f"dialogue-works-alkhorshid-audit-{args.date}.md"
         write_csv(csv_path, rows)
         write_summary(md_path, rows, args.date)
         print(f"Wrote {csv_path.relative_to(REPO_ROOT)}")

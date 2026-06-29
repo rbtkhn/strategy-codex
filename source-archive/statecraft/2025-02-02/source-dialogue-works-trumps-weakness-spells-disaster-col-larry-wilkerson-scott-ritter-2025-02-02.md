@@ -3,7 +3,7 @@ ingest_date: 2026-05-28
 pub_date: 2025-02-02
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter

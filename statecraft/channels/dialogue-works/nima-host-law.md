@@ -10,7 +10,7 @@ Nima is the host to open when the real question is:
 
 - how is this long-form interview being framed
 - which guest lane the episode should route into after host prompts
-- whether both `thread:alkorshid` and `thread:<guest>` are mirrored on the ingest (`thread:nima` legacy compat only)
+- whether both `thread:alkhorshid` and `thread:<guest>` are mirrored on the ingest (`thread:nima` legacy compat only)
 - which surrounding speaker to open after an anchor pass (see [speaker-cluster-map](../../voices/speaker-cluster-map.md))
 
 ## Governing Transformation
@@ -18,7 +18,7 @@ Nima is the host to open when the real question is:
 Dialogue Works repeatedly pushes guests toward:
 
 - extended narrative room before analytic closure
-- dual-thread provenance (`alkorshid` + guest) on shared captures
+- dual-thread provenance (`alkhorshid` + guest) on shared captures
 - cross-guest discovery across restraint, force, diplomacy, and spoiler registers
 - interview-pressure reads where the host's follow-ups change the seam
 
@@ -26,7 +26,7 @@ Dialogue Works repeatedly pushes guests toward:
 
 - the capture is Dialogue Works / Nima Alkhorshid hosted
 - host framing is load-bearing beside guest analytic claims
-- inbox triage needs `thread:alkorshid` in addition to a guest `thread:`
+- inbox triage needs `thread:alkhorshid` in addition to a guest `thread:`
 - the operator is inventorying or backfilling the Dialogue Works channel roster
 
 ## Do Not Misread Nima As

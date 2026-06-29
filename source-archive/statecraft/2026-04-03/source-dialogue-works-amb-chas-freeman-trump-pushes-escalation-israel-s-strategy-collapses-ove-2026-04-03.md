@@ -3,7 +3,7 @@ ingest_date: 2026-05-13
 pub_date: 2026-04-03
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Chas Freeman

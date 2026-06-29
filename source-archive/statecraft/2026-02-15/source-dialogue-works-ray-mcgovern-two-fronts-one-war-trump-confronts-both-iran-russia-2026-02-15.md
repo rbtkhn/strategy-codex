@@ -5,7 +5,7 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
-thread: alkorshid
+thread: alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Ray McGovern

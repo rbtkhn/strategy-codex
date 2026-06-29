@@ -22,7 +22,7 @@ def _write(path: Path, text: str) -> None:
 
 def _sample_capture(host_people: bool = True, threads: bool = True) -> str:
     host_block = "host_people:\n  - Nima Alkhorshid\n" if host_people else ""
-    threads_block = "threads:\n  - alkorshid\n  - johnson\n" if threads else ""
+    threads_block = "threads:\n  - alkhorshid\n  - johnson\n" if threads else ""
     return (
         "---\n"
         "pub_date: 2026-06-28\n"

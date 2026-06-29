@@ -1,7 +1,7 @@
 ---
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 pub_date: 2026-05-04
 ingest_date: 2026-05-04
 kind: cleaned-transcript

@@ -3,7 +3,7 @@ ingest_date: 2026-05-02
 pub_date: 2025-01-11
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: The US Strategy That's Failing Spectacularly | Col. Larry Wilkerson

@@ -21,4 +21,4 @@ The shared pattern is that escalation is being governed by institutions and supp
 - [Pape - What the Smart Questions Reveal About Where This War Is Going](../../source-archive/statecraft/2026-04-29/day-index.md)
 - [Pape - After the Briefing: The 3 Indicators That Will Decide the Next Phase of the Iran War](../../source-archive/statecraft/2026-04-27/day-index.md)
 - [Mercouris refined page - 2026-04-27](../../statecraft/voices/mercouris/mercouris-page-2026-04-27.md)
-- [Alkorshid profile](../../statecraft/voices/alkorshid/alkorshid-profile.md)
+- [Alkhorshid profile](../../statecraft/voices/alkhorshid/alkhorshid-profile.md)

@@ -14,7 +14,7 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Jacques Baud
-thread: alkorshid
+thread: alkhorshid
 channel_url: https://www.youtube.com/channel/UCkF-6h_Zgf9zXNUmUB-MzTw
 evidence_grade: transcript-bearing
 ---

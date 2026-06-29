@@ -51,6 +51,8 @@ Matching code SSOT: `scripts/shelf_index_utils.py` → `shelf_capture_excluded()
 4. Generated rebuilds should preserve curated overlays (v2: HTML marker blocks).
 5. After intake or index edits, regen registry artifacts before push.
 
+**Spelling:** display name **Alkhorshid**; voice slug **`alkhorshid`**. Legacy capture filenames and `title_slug` tokens may still contain `alkorshid` (filename alias in `shelf_index_utils`).
+
 Per-voice audit (`--shelf-index` = legacy CLI flag for one **voice index**):
 
 ```bash

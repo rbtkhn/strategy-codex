@@ -18,7 +18,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 
 | Lens | Index file |
 |---|---|
-| Alkorshid (Nima) | guest: [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · profile: [alkorshid/alkorshid-profile.md](alkorshid/alkorshid-profile.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Alkhorshid (Nima) | guest: [alkhorshid/alkhorshid-index.md](alkhorshid/alkhorshid-index.md) · profile: [alkhorshid/alkhorshid-profile.md](alkhorshid/alkhorshid-profile.md) · host: [../channels/dialogue-works/dialogue-works-channel-index.md](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Aguilar | [aguilar/aguilar-index.md](aguilar/aguilar-index.md) · object [aguilar/aguilar-speaker-object.md](aguilar/aguilar-speaker-object.md) · compat [aguilar/aguilar-source-index.md](aguilar/aguilar-source-index.md) |
 | Barnes | [barnes/barnes-index.md](barnes/barnes-index.md) · compat [barnes/barnes-source-index.md](barnes/barnes-source-index.md) |
 | Baud | [baud/baud-index.md](baud/baud-index.md) · orthogonality [baud/index.md](baud/index.md) · compat [baud/baud-source-index.md](baud/baud-source-index.md) |
@@ -87,7 +87,7 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Robert Barnes corpus | [barnes/barnes-index.md](barnes/barnes-index.md), `source-archive/statecraft/**/source-*barnes*` |
 | Mercouris bench | [mercouris/mercouris-analytical-bench.md](mercouris/mercouris-analytical-bench.md) |
 | Daniel Davis × guest | [davis/davis-index.md](davis/davis-index.md) · host → [daniel-davis-channel-index](../channels/daniel-davis/daniel-davis-channel-index.md) |
-| Nima / Alkorshid guest | [alkorshid/alkorshid-index.md](alkorshid/alkorshid-index.md) · profile → [alkorshid/alkorshid-profile.md](alkorshid/alkorshid-profile.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
+| Nima / Alkhorshid guest | [alkhorshid/alkhorshid-index.md](alkhorshid/alkhorshid-index.md) · profile → [alkhorshid/alkhorshid-profile.md](alkhorshid/alkhorshid-profile.md) · host → [dialogue-works-channel-index](../channels/dialogue-works/dialogue-works-channel-index.md) |
 | Mercouris guest | [mercouris/mercouris-index.md](mercouris/mercouris-index.md) · host → [alexander-mercouris-channel-index](../channels/alexander-mercouris/alexander-mercouris-channel-index.md) |
 | Host channel index | This file analyst table → `../channels/{slug}/{slug}-channel-index.md` |
 | Generic voice index | This file → lens row → `*-index.md` (compat `*-source-index.md`) |

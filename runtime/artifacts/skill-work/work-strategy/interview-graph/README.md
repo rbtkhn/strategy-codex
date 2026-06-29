@@ -15,7 +15,7 @@ The current lattice has eight streams, but the file names and schema language av
 ## Scope
 
 - Current cognition streams:
-  - `Alkorshid` (`alkorshid`) -> `Synthesis`
+  - `Alkorshid` (`alkhorshid`) -> `Synthesis`
   - `Diesen` (`diesen`) -> `Order`
   - `Davis` (`davis`) -> `Conflict`
   - `Mercouris` (`mercouris_duran`) -> `Statecraft`

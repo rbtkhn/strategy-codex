@@ -61,7 +61,7 @@ Navigation rule: canonical browsing now lives at `source-archive/statecraft/` vi
 ## Missing bench candidates
 
 - `aguilar` | transcript mentions=5; speaker markdown=2
-- `alkorshid` | transcript mentions=121; speaker markdown=4
+- `alkhorshid` | transcript mentions=121; speaker markdown=4
 - `armstrong` | transcript mentions=7; speaker markdown=8
 - `baud` | transcript mentions=29; speaker markdown=11
 - `karaganov` | transcript mentions=5; speaker markdown=10
@@ -76,7 +76,7 @@ Navigation rule: canonical browsing now lives at `source-archive/statecraft/` vi
 |---|---:|---:|---:|
 | `_scratch` | 0 | 0 | 4 |
 | `aguilar` | 5 | 0 | 2 |
-| `alkorshid` | 121 | 0 | 4 |
+| `alkhorshid` | 121 | 0 | 4 |
 | `armstrong` | 7 | 0 | 8 |
 | `barnes` | 12 | 0 | 21 |
 | `baud` | 29 | 0 | 11 |

@@ -17,7 +17,7 @@ guest: Nima Alkhorshid
 thread: davis
 threads:
   - davis
-  - alkorshid
+  - alkhorshid
 channel_url: https://www.youtube.com/channel/UCkF-6h_Zgf9zXNUmUB-MzTw
 evidence_grade: transcript-bearing
 ---

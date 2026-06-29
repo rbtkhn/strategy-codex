@@ -11,9 +11,9 @@ guest_people:
   - Seyed M. Marandi
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Seyed M. Marandi

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fix duplicate threads blocks and normalize nima -> alkorshid in DW cluster YAML."""
+"""Fix duplicate threads blocks and normalize nima -> alkhorshid in DW cluster YAML."""
 
 from __future__ import annotations
 
@@ -31,20 +31,22 @@ def normalize_frontmatter(fm: str) -> str:
             while i < len(lines) and lines[i].startswith("  -"):
                 val = lines[i].split("-", 1)[1].strip()
                 if val == "nima":
-                    val = "alkorshid"
+                    val = "alkhorshid"
+                if val == "alkhorshid":
+                    val = "alkhorshid"
                 if val and val not in items:
                     items.append(val)
                 i += 1
-            if "alkorshid" not in items:
-                items.insert(0, "alkorshid")
+            if "alkhorshid" not in items:
+                items.insert(0, "alkhorshid")
             out.append("threads:")
             for item in items:
                 out.append(f"  - {item}")
             continue
         if line.startswith("thread:"):
             val = line.split(":", 1)[1].strip()
-            if val == "nima":
-                out.append("thread: alkorshid")
+            if val == "nima" or val == "alkhorshid":
+                out.append("thread: alkhorshid")
             else:
                 out.append(line)
             i += 1

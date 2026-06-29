@@ -1,6 +1,6 @@
 # Alkorshid Chapter — 2026-04-01
 
-Daily continuity seed for `alkorshid` inside the 2026 strategy-codex volume. Use only when April 1 has a real stream input, carry-forward note, or explicit operator synthesis.
+Daily continuity seed for `alkhorshid` inside the 2026 strategy-codex volume. Use only when April 1 has a real stream input, carry-forward note, or explicit operator synthesis.
 
 ## Day Continuity
 

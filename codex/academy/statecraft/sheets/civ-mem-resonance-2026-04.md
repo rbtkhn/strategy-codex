@@ -4,7 +4,7 @@ Monthly lattice note for comparing the April 2026 cognition streams through civi
 
 ## Streams
 
-- [Alkorshid](../../../../statecraft/voices/alkorshid/alkorshid-profile.md)
+- [Alkorshid](../../../../statecraft/voices/alkhorshid/alkhorshid-profile.md)
 - [Diesen](../../../../statecraft/voices/diesen/diesen-profile.md)
 - [Mercouris](../../../../statecraft/voices/mercouris/mercouris-profile.md)
 - [Davis](../../../../statecraft/voices/davis/davis-profile.md)

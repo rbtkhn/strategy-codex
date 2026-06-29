@@ -9,9 +9,9 @@ host_people:
   - Nima Alkhorshid
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 thread_expert: nima
 show: Dialogue Works
 host: Nima Alkhorshid

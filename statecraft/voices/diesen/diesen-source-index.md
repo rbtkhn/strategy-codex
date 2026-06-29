@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Diesen Source Index (compatibility redirect)
 
-**Split routing (2026-06):** Glenn Diesen appearances are indexed on two surfaces — same pattern as [alkorshid-index.md](../alkorshid/alkorshid-index.md) / Dialogue Works.
+**Split routing (2026-06):** Glenn Diesen appearances are indexed on two surfaces — same pattern as [alkhorshid-index.md](../alkhorshid/alkhorshid-index.md) / Dialogue Works.
 
 | Surface | Path | Job |
 |---|---|---|

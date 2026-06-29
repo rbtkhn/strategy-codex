@@ -7,7 +7,7 @@ pub_date: 2025-10-14
 date: 2025-10-14
 kind: transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 source_url: https://www.youtube.com/watch?v=1mFJ1TDGMcU
 source_type: youtube-auto-captions
 status: raw-input

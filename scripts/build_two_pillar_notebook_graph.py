@@ -66,7 +66,7 @@ PILLARS = {
         "voice_note": "Synthesis through long-form cross-guest interviews.",
         "host_id": "nima",
         "host_name": "Nima Alkorshid",
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:alkhorshid",
         "channel_url": "https://www.youtube.com/@dialogueworks01/videos",
         "source_channels": ["@dialogueworks01"],
         "source_label": "Dialogue Works; dialogue-works-full-latest/index.json",

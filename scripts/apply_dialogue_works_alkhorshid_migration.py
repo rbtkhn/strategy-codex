@@ -87,7 +87,7 @@ def patch_threads_block(text: str, guest_thread: str | None, class_: str) -> str
                 out.append("  - alkorshid")
                 out.append(f"  - {val}")
             else:
-                out.append("thread: alkorshid")
+                out.append("thread: alkhorshid")
                 out.append("threads:")
                 out.append("  - alkorshid")
             threads_written = True
@@ -168,7 +168,7 @@ def main() -> int:
         "--csv",
         type=Path,
         default=REPO_ROOT
-        / "statecraft/audits/dialogue-works-alkorshid-audit-2026-06-24.csv",
+        / "statecraft/audits/dialogue-works-alkhorshid-audit-2026-06-24.csv",
     )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--limit", type=int, default=0)

@@ -6,9 +6,9 @@ source_form: interview
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Seyed M. Marandi
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 source_url: "https://www.youtube.com/watch?v=TLKl_IOhQDQ"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-marandi-hormuz-uae-china-2026-05-05

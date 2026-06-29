@@ -4,9 +4,9 @@ pub_date: 2026-06-04
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 kind: cleaned-transcript
 source_form: interview
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Matthew Hoh

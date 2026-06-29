@@ -12,7 +12,8 @@ guest_people:
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: dialogue-works
-threads: alkorshid,freeman
+threads:
+  - alkhorshid
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Chas Freeman

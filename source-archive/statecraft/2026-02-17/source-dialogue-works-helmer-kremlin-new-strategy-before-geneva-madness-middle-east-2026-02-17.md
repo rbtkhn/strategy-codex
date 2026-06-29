@@ -1,7 +1,7 @@
 ---
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 pub_date: 2026-02-17
 ingest_date: 2026-06-20
 kind: operator-transcript

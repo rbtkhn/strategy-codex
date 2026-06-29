@@ -17,8 +17,8 @@ Speaker **profiles** for migrated shelves live under `statecraft/voices/<speaker
 | diesen | [statecraft/voices/diesen/diesen-profile.md](../../statecraft/voices/diesen/diesen-profile.md) |
 | weichert | [statecraft/voices/weichert/weichert-profile.md](../../statecraft/voices/weichert/weichert-profile.md) |
 | davis | [statecraft/voices/davis/davis-profile.md](../../statecraft/voices/davis/davis-profile.md) |
-| alkorshid | [statecraft/voices/alkorshid/alkorshid-profile.md](../../statecraft/voices/alkorshid/alkorshid-profile.md) |
-| nima | [statecraft/voices/alkorshid/alkorshid-profile.md](../../statecraft/voices/alkorshid/alkorshid-profile.md) (compat) |
+| alkhorshid | [statecraft/voices/alkhorshid/alkhorshid-profile.md](../../statecraft/voices/alkhorshid/alkhorshid-profile.md) |
+| nima | [statecraft/voices/alkhorshid/alkhorshid-profile.md](../../statecraft/voices/alkhorshid/alkhorshid-profile.md) (compat) |
 
 ## Profile-only (SSOT remains here)
 
@@ -27,4 +27,4 @@ These lanes do not yet have a canonical `voices` shelf or `statecraft/channels` 
 | profile | why |
 |---|---|
 | [greenwald-profile.md](greenwald-profile.md) | commentator-thread lane only |
-| [alkorshid-profile.md](alkorshid-profile.md) | redirect → [alkorshid-profile.md](../../statecraft/voices/alkorshid/alkorshid-profile.md) |
+| [alkhorshid-profile.md](alkhorshid-profile.md) | redirect → [alkhorshid-profile.md](../../statecraft/voices/alkhorshid/alkhorshid-profile.md) |

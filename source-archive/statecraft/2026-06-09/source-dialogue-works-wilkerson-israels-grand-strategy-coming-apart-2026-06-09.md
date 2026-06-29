@@ -11,9 +11,9 @@ guest_people:
   - Lawrence Wilkerson
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 thread_expert: wilkerson
 show: Dialogue Works
 host: Nima Alkhorshid

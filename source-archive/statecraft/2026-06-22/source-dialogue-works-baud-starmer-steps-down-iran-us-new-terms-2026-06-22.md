@@ -13,7 +13,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: baud
 threads:
-  - alkorshid
+  - alkhorshid
   - baud
 thread_expert: baud
 show: Dialogue Works

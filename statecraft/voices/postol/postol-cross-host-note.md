@@ -17,7 +17,7 @@ The clearest current host-local branches are:
 There is also shelf-supporting inventory evidence for the broader Dialogue Works / Alkorshid run:
 
 - [dialogue-works-inventory.md](../../sheets/source-archive-control/dialogue-works-inventory.md)
-- [alkorshid-profile.md](../alkorshid/alkorshid-profile.md)
+- [alkhorshid-profile.md](../alkhorshid/alkhorshid-profile.md)
 
 That matters because it shows the Postol voice is not a one-file anomaly. Even where the shelf has not yet captured the full raw-input run, the object is already visible as a recurring technical and deterrence-correction presence in multiple host registers.
 

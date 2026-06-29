@@ -98,63 +98,63 @@ Window: `2025-01-05` to `2026-05-18`
   - raw: `codex/years/2026/raw-input/2026-05-14/youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-01-05` `high` [Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter](https://www.youtube.com/watch?v=zpXOdy0guJM) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-01-05` `high` [Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter](https://www.youtube.com/watch?v=zpXOdy0guJM) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-01-05/transcript-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-10-19` `high` [Israel’s Attack IGNITES Iran’s Oreshnik Moment — IDF in RUINS l Scott Ritter](https://www.youtube.com/watch?v=AupNaa-bj3M) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-10-19` `high` [Israel’s Attack IGNITES Iran’s Oreshnik Moment — IDF in RUINS l Scott Ritter](https://www.youtube.com/watch?v=AupNaa-bj3M) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-10-19/transcript-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-11-05` `high` [Scott Ritter: Russia & Iran Just Triggered It All!](https://www.youtube.com/watch?v=UMTrfuXVD4g) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-11-05` `high` [Scott Ritter: Russia & Iran Just Triggered It All!](https://www.youtube.com/watch?v=UMTrfuXVD4g) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-11-05/transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-12-03` `high` [Scott Ritter: Putin Warns Europe: “We’re Ready Right Now”](https://www.youtube.com/watch?v=SO05kKsi0w0) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-12-03` `high` [Scott Ritter: Putin Warns Europe: “We’re Ready Right Now”](https://www.youtube.com/watch?v=SO05kKsi0w0) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-12-03/transcript-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-12-06` `high` [Putin Defies Trump: EU Cornered as Ukraine Troops Collapse | Scott Ritter](https://www.youtube.com/watch?v=HSuU-YcEweU) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-12-06` `high` [Putin Defies Trump: EU Cornered as Ukraine Troops Collapse | Scott Ritter](https://www.youtube.com/watch?v=HSuU-YcEweU) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-12-06/transcript-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-12-19` `high` [Scott Ritter: Russia Just Made a Move That Could Collapse Everything](https://www.youtube.com/watch?v=zq9y5GpwChY) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-12-19` `high` [Scott Ritter: Russia Just Made a Move That Could Collapse Everything](https://www.youtube.com/watch?v=zq9y5GpwChY) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-12-19/transcript-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2025-12-24` `high` [Scott Ritter: This Is How It All COLLAPSES — Russia’s Role Explained](https://www.youtube.com/watch?v=mDKeva-bBow) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2025-12-24` `high` [Scott Ritter: This Is How It All COLLAPSES — Russia’s Role Explained](https://www.youtube.com/watch?v=mDKeva-bBow) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2025-12-24/transcript-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-02-04` `high` [Scott Ritter: Game Over? Trump’s Iran Strategy Might Blow Up and Start a Regional War](https://www.youtube.com/watch?v=iuc_pPvcFC0) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2026-02-04` `high` [Scott Ritter: Game Over? Trump’s Iran Strategy Might Blow Up and Start a Regional War](https://www.youtube.com/watch?v=iuc_pPvcFC0) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2026-02-04/transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-02-11` `high` [Scott Ritter: Trump in MAJOR Trouble — China & Russia Arm Iran With Deadly Weapons!](https://www.youtube.com/watch?v=DCZn8RZS9Zk) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2026-02-11` `high` [Scott Ritter: Trump in MAJOR Trouble — China & Russia Arm Iran With Deadly Weapons!](https://www.youtube.com/watch?v=DCZn8RZS9Zk) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2026-02-11/transcript-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-02-18` `high` [Scott Ritter: Hormuz Blocked! Iran’s Missile Fire Can Leave the US Navy DEFENSELESS](https://www.youtube.com/watch?v=DCDuxei5dj8) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2026-02-18` `high` [Scott Ritter: Hormuz Blocked! Iran’s Missile Fire Can Leave the US Navy DEFENSELESS](https://www.youtube.com/watch?v=DCDuxei5dj8) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-03-04` `high` [Scott Ritter: Iran Wins the Long War — U.S. & Israel Losing Ground!](https://www.youtube.com/watch?v=MWlCgZMYqk8) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+- `2026-03-04` `high` [Scott Ritter: Iran Wins the Long War — U.S. & Israel Losing Ground!](https://www.youtube.com/watch?v=MWlCgZMYqk8) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
   - raw: `codex/years/2026/raw-input/2026-03-04/youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-03-11` `high` [Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out](https://www.youtube.com/watch?v=s3cNS4lyJ60) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2026-03-11` `high` [Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out](https://www.youtube.com/watch?v=s3cNS4lyJ60) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2026-03-11/transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-04-08` `high` [Scott Ritter: The US War on Iran Just COLLAPSED – Ceasefire Does the Impossible](https://www.youtube.com/watch?v=1lm98BHS0Pc) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2026-04-08` `high` [Scott Ritter: The US War on Iran Just COLLAPSED – Ceasefire Does the Impossible](https://www.youtube.com/watch?v=1lm98BHS0Pc) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-05-06` `high` [transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06](https://www.youtube.com/watch?v=yHqOBrFyCqA) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `cleaned-transcript`
+- `2026-05-06` `high` [transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06](https://www.youtube.com/watch?v=yHqOBrFyCqA) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `cleaned-transcript`
   - raw: `codex/years/2026/raw-input/2026-05-06/transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.
-- `2026-05-13` `high` [Scott Ritter: Iran Didn’t Break. It Adapted, Now Stronger Than Ever](https://www.youtube.com/watch?v=euTjsj7OonU) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+- `2026-05-13` `high` [Scott Ritter: Iran Didn’t Break. It Adapted, Now Stronger Than Ever](https://www.youtube.com/watch?v=euTjsj7OonU) -> `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
   - raw: `codex/years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md`
   - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
   - reason: Matched host plus guest to an existing host-local speaker arc.

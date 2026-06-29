@@ -163,7 +163,7 @@
       "reason": "transcript mentions=5; speaker markdown=2"
     },
     {
-      "speaker": "alkorshid",
+      "speaker": "alkhorshid",
       "reason": "transcript mentions=121; speaker markdown=4"
     },
     {
@@ -206,7 +206,7 @@
       "stream_markdown": 0,
       "local_markdown": 2
     },
-    "alkorshid": {
+    "alkhorshid": {
       "transcript_mentions": 121,
       "stream_markdown": 0,
       "local_markdown": 4

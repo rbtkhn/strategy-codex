@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-- host: `alkorshid`
+- host: `alkhorshid`
 - month: `2026-01`
 - input scope: `full-host-month`
 - routeable artifact count: `7` (+3)

@@ -3,7 +3,7 @@ title: "Col. Larry Wilkerson: The Alarms Are Screaming And America Is Ignoring I
 host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
 date: 2025-12-30
-thread: alkorshid
+thread: alkhorshid
 source_url: https://www.youtube.com/watch?v=nVxq4eCzK64
 source_type: youtube-auto-captions
 source_form: interview

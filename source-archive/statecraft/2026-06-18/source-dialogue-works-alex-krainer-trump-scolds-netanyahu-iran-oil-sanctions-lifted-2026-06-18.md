@@ -13,7 +13,7 @@ show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: krainer
 threads:
-  - alkorshid
+  - alkhorshid
   - krainer
 thread_expert: krainer
 show: Dialogue Works

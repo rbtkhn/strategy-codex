@@ -11,7 +11,7 @@ Purpose: canonical route map for materialized John Helmer appearances in **State
 - **16** direct captures on disk (2026-01-20 → 2026-06-25): **13** `source-dialogue-works-helmer-*`, **3** `source-lascaris-helmer-*`
 - Rebuild: `python scripts/build_helmer_index.py`
 - **0** authored Substack / solo-site captures in archive (Helmer blog cited in-interview only)
-- **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** / **`thread: alkorshid`** — all route here for guest appearances
+- **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** / **`thread: alkhorshid`** — all route here for guest appearances
 
 Verify Kremlin quotations, poll claims, and naval-incident narratives against primary sources before Chronicle promotion ([editorial notes on captures](../../../source-archive/statecraft/2026-04-28/source-dialogue-works-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)).
 

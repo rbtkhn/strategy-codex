@@ -8,7 +8,7 @@ python3 scripts/build_voice_index_registry.py
 
 Terminology: [`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md).
 
-_Generated at 2026-06-29T04:04:39Z_
+_Generated at 2026-06-29T04:21:38Z_
 
 ## Summary
 
@@ -29,7 +29,7 @@ _Generated at 2026-06-29T04:04:39Z_
 | Voice | Primary index | Builder | Eligible | Indexed | Parity | Exceptions | Status |
 | --- | --- | --- | ---: | ---: | --- | --- | --- |
 | aguilar | `statecraft/voices/aguilar/aguilar-index.md` | `scripts/build_aguilar_index.py` | 17 | 17 | pass | — | canonical |
-| alkorshid | `statecraft/voices/alkorshid/alkorshid-index.md` | — | 196 | 1 | fail | — | canonical |
+| alkhorshid | `statecraft/voices/alkhorshid/alkhorshid-index.md` | — | 197 | 1 | fail | — | canonical |
 | barnes | `statecraft/voices/barnes/barnes-index.md` | `scripts/build_barnes_index.py` | 23 | 23 | pass | — | canonical |
 | baud | `statecraft/voices/baud/baud-index.md` | `scripts/build_baud_index.py` | 34 | 34 | pass | — | canonical |
 | blumenthal | `statecraft/voices/blumenthal/blumenthal-index.md` | `scripts/build_blumenthal_index.py` | 8 | 8 | pass | — | canonical |

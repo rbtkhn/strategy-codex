@@ -11,9 +11,9 @@ guest_people:
   - Anthony Aguilar
 show_title: Dialogue Works
 channel_name: Dialogue Works
-thread: alkorshid
+thread: alkhorshid
 threads:
-  - alkorshid
+  - alkhorshid
 thread_expert: aguilar
 show: Dialogue Works
 host: Nima Alkhorshid

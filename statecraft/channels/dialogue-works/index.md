@@ -6,7 +6,7 @@ Purpose: front door for the canonical live Dialogue Works host shelf in repo-roo
 
 ## Open First
 
-- [Alkorshid voice shelf](../../voices/alkorshid/README.md) — profile · [alkorshid-index.md](../../voices/alkorshid/alkorshid-index.md) (guest)
+- [Alkorshid voice shelf](../../voices/alkorshid/README.md) — profile · [alkhorshid-index.md](../../voices/alkhorshid/alkhorshid-index.md) (guest)
 - [dialogue-works-channel-index.md](dialogue-works-channel-index.md) — host channel
 - [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md)
 
