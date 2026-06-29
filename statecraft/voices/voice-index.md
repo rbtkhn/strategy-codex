@@ -64,7 +64,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Wilkerson | [wilkerson/wilkerson-index.md](wilkerson/wilkerson-index.md) · compat [wilkerson/wilkerson-source-index.md](wilkerson/wilkerson-source-index.md) |
 | Weichert | [weichert/weichert-index.md](weichert/weichert-index.md) · compat [weichert/weichert-source-index.md](weichert/weichert-source-index.md) |
 
-**Jiang special case:** [jiang/jiang-index.md](jiang/jiang-index.md) is the provenance bench; compat [jiang/jiang-source-index.md](jiang/jiang-source-index.md). PH reading lattice lives at [public/predictive-history/docs/source-lattice.md](../../public/predictive-history/docs/source-lattice.md) (inbound snapshot).
+**Jiang special case:** [jiang/jiang-index.md](jiang/jiang-index.md) = **external interview** guest bench (third-party channels; inline YouTube per row). PH channel + essays: [jiang/jiang-predictive-history-master-index.md](jiang/jiang-predictive-history-master-index.md) · [jiang-predictive-history-index.md](../../source-archive/statecraft/jiang-predictive-history-index.md). Compat [jiang/jiang-source-index.md](jiang/jiang-source-index.md).
 
 ## Source index vs source-lattice
 

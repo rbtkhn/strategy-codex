@@ -29,6 +29,7 @@ Use this file to decide which Jiang layer to open first.
 
 ## First-open paths
 
+- External interviews: [jiang-index.md](jiang-index.md)
 - Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - Public mirror: [../../../public/predictive-history/README.md](../../../README.md)
 - Volume I interwoven spine: [public/predictive-history/book/volume-i-civilization/interwoven-reader/README.md](../../../singularity/work-cici/README.md)

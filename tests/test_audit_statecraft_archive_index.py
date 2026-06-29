@@ -544,3 +544,97 @@ def test_martyanov_slug_matches_typo_token_and_guest_meta(tmp_path: Path, monkey
     names = {p.name for p in audit.iter_archive_captures_for_shelf("martyanov", archive)}
     assert typo_capture.name in names
     assert guest_meta_capture.name in names
+
+
+def test_jiang_shelf_excludes_game_theory(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-04-27" / "source-game-theory-21-world-war-trump-2026-04-27.md"
+    meta = {
+        "thread": "jiang",
+        "source_form": "solo",
+        "host": "Jiang Xueqin",
+        "kind": "transcript",
+    }
+    assert not shelf_utils.is_jiang_external_interview(meta, path, "")
+    assert not shelf_utils.capture_matches_shelf("jiang", path, meta, "")
+
+
+def test_jiang_shelf_excludes_dialogue_works_about_jiang(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = (
+        tmp_path
+        / "2026-05-16"
+        / "source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md"
+    )
+    meta = {
+        "guest": "Larry Johnson",
+        "source_form": "interview",
+        "kind": "transcript",
+        "title": "Jiang Xueqin's Most Embarrassing Prediction Exposed",
+    }
+    assert not shelf_utils.is_jiang_external_interview(meta, path, "")
+    assert not shelf_utils.capture_matches_shelf("jiang", path, meta, "")
+
+
+def test_jiang_shelf_includes_diesen_guest(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-01-05" / "source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md"
+    meta = {
+        "guest": "Jiang Xueqin",
+        "source_form": "interview",
+        "kind": "transcript",
+        "host": "Glenn Diesen",
+        "source_url": "https://www.youtube.com/watch?v=ORyCS0r2Tpg",
+    }
+    assert shelf_utils.is_jiang_external_interview(meta, path, "")
+    assert shelf_utils.capture_matches_shelf("jiang", path, meta, "")
+
+
+def test_jiang_shelf_includes_sneako_dual_index(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = tmp_path / "2026-04-14" / "source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md"
+    meta = {
+        "host": "Sneako",
+        "source_form": "interview",
+        "kind": "transcript",
+        "title": "Interviews #15: Sneako — Jiang Xueqin & Aleksandr Dugin",
+        "source_url": "https://www.youtube.com/watch?v=n44OF1Y7zgo",
+    }
+    assert shelf_utils.is_jiang_external_interview(meta, path, "")
+    assert shelf_utils.capture_matches_shelf("jiang", path, meta, "")
+
+
+def test_jiang_index_rows_have_youtube_url(tmp_path: Path, monkeypatch) -> None:
+    import build_jiang_index as jiang_idx  # noqa: E402
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    archive = tmp_path / "source-archive" / "statecraft"
+    capture = archive / "2026-01-05" / "source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md"
+    _write(
+        capture,
+        "---\n"
+        "pub_date: 2026-01-05\n"
+        "guest: Jiang Xueqin\n"
+        "host: Glenn Diesen\n"
+        "source_form: interview\n"
+        "kind: transcript\n"
+        'title: "Predictions for 2026"\n'
+        'source_url: "https://www.youtube.com/watch?v=ORyCS0r2Tpg"\n'
+        "---\n\nBody.\n",
+    )
+    voices = tmp_path / "statecraft" / "voices" / "jiang"
+    voices.mkdir(parents=True)
+    out = voices / "jiang-index.md"
+    monkeypatch.setattr(jiang_idx, "ARCHIVE", archive)
+    monkeypatch.setattr(jiang_idx, "OUT", out)
+    monkeypatch.setattr(sys, "argv", ["build_jiang_index.py"])
+    assert jiang_idx.main() == 0
+    text = out.read_text(encoding="utf-8")
+    assert "youtube.com/watch?v=ORyCS0r2Tpg" in text
+    assert shelf_utils.capture_matches_shelf(
+        "jiang", capture, {"guest": "Jiang Xueqin", "source_form": "interview", "kind": "transcript"}, ""
+    )

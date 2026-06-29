@@ -10,15 +10,16 @@ The distinction is:
 
 - the mirror index tracks the public `ph-civ` lecture corpus
 - this file tracks raw local statecraft-side captures currently preserved in `source-archive/statecraft/`
+- **external-channel guest interviews** (Diesen, etc.) live on [jiang-index.md](../../statecraft/voices/jiang/jiang-index.md) — not duplicated here
 
 Current local capture counts:
 
-- `Interviews`: `4`
-- `Game Theory`: `6`
+- `Interviews` (PH channel series): `1`
+- `Game Theory`: `7`
 - `Great Books`: `2`
-- `Substack essays`: `1`
+- `Substack essays`: `2`
 - `Founding Members livestreams`: `1`
-- Total indexed local Predictive History / Jiang captures: `14`
+- Total indexed local Predictive History / Jiang captures: `13`
 
 ## Founding Members
 
@@ -30,15 +31,13 @@ Current local capture counts:
 
 | Date | ID | Title | Source | Local file |
 | --- | --- | --- | --- | --- |
-| 2026-01-05 | `int-03` | *Predictions for 2026 (Empire, Rivalry & Collapse)* | [YouTube](https://www.youtube.com/watch?v=ORyCS0r2Tpg) | [source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-05/source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md) |
-| 2026-01-26 | `int-06` | *Great Power Wars Over a New World Order* | [YouTube](https://www.youtube.com/watch?v=80jUKe0blAQ) | [source-diesen-jiang-great-power-wars-new-world-order-2026-01-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-26/source-diesen-jiang-great-power-wars-new-world-order-2026-01-26.md) |
-| 2026-04-11 | `int-14` | *The Iran War & the Battle for the Petrodollar* | [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo) | [source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md) |
-| 2026-05-11 | `diesen-jiang` | *World War III, Empire & Republic* | [YouTube](https://www.youtube.com/watch?v=RWTvTzWYG0o) | [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md) |
+| 2026-04-14 | `int-15` | *Sneako — Jiang Xueqin & Aleksandr Dugin (Eschatology & Geopolitics)* | [YouTube](https://www.youtube.com/watch?v=n44OF1Y7zgo) | [source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-14/source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md) |
 
 ## Game Theory
 
 | Date | ID | Title | Source | Local file |
 | --- | --- | --- | --- | --- |
+| 2026-04-27 | `gt-21` | *World War Trump* | [YouTube](https://www.youtube.com/watch?v=Ts-AA6LQf6I) | [source-game-theory-21-world-war-trump-2026-04-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/source-game-theory-21-world-war-trump-2026-04-27.md) |
 | 2026-05-06 | `gt-23` | *The WWIII Chessboard* | [YouTube](https://www.youtube.com/watch?v=6aNh6sBpqvQ) | [source-game-theory-23-the-wwiii-chessboard-2026-05-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-game-theory-23-the-wwiii-chessboard-2026-05-06.md) |
 | 2026-05-12 | `gt-24` | *The AI Apocalypse* | [YouTube](https://www.youtube.com/watch?v=8nsxuB3Vsts) | [source-game-theory-24-the-ai-apocalypse-2026-05-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md) |
 | 2026-05-14 | `gt-25` | *Trump Visits China* | [YouTube](https://www.youtube.com/watch?v=BIl5vJn6ohI) | [source-game-theory-25-trump-visits-china-2026-05-14.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-game-theory-25-trump-visits-china-2026-05-14.md) |
@@ -57,7 +56,8 @@ Current local capture counts:
 
 | Date | ID | Title | Source | Local file |
 | --- | --- | --- | --- | --- |
-| 2026-05-23 | `essay` | *The Loneliness of Mad King Trump* | [Substack](https://substack.com/home/post/p-198940832) | [source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md) |
+| 2026-05-23 | `essay-01` | *The Loneliness of Mad King Trump* | [Substack](https://substack.com/home/post/p-198940832) | [source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md) |
+| 2026-06-13 | `essay-02` | *Welcome to Boomer Hell* | [Substack](https://predictivehistory.substack.com/p/welcome-to-boomer-hell) | [source-predictive-history-welcome-to-boomer-hell-2026-06-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md) |
 
 ## Notes
 
@@ -65,4 +65,5 @@ Current local capture counts:
 - Some local captures may precede or exceed what is currently materialized in the public mirror.
 - The new `gb-11` / `gb-12` Dante captures are best read as future Volume I / Civilization continuations rather than as detached archive-only material.
 - The `statecraft/voices/civ-lens-jiang/ph-civ` mirror remains the canonical public-facing lecture/manuscript environment.
+- **Interviews #15 (Sneako)** is also listed on [jiang-index.md](../../statecraft/voices/jiang/jiang-index.md) (dual index — external host on PH channel).
 - **Founding Members ASR:** `ph-civ/data/asr-blocklist/founding-members-pilot.json` (regen: `python scripts/generate_founding_members_asr_blocklist.py`; validate: `python scripts/validate_statecraft_asr_blocklist.py`; apply: `python scripts/normalize_statecraft_source_asr.py … --write`).

@@ -22,6 +22,7 @@ For Jiang-facing analysis of how the lectures teach, spread, and hold together, 
 
 Jiang's canonical statecraft shelf has one count/routing SSOT, three shelf surfaces, one support spine, and one strategy-codex read mirror:
 
+- **External interview index:** [jiang-index.md](jiang-index.md) — third-party channel guest appearances only
 - **Master Predictive History count/routing index:** [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - **Person arc:** [jiang-arc.md](jiang-arc.md)
 - **Routing surface:** [jiang-routing.md](jiang-routing.md)

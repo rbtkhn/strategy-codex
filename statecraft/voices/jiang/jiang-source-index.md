@@ -4,6 +4,7 @@ WORK only; not Record.
 
 Compatibility pointer only.
 
-The canonical exhaustive Jiang corpus route map now lives at **[jiang-index.md](jiang-index.md)**.
+- **External interviews:** [jiang-index.md](jiang-index.md) — third-party channel guest appearances (Diesen, Sneako, …)
+- **PH channel + essays:** [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md) · [jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md)
 
-Use **`jiang-index.md`** going forward; this file remains only as a stable back-compat entry for older links and routing discovery.
+Use **`jiang-index.md`** for interview parity; use the PH master + archive index for Game Theory, Great Books, Substack, and Founding Members.

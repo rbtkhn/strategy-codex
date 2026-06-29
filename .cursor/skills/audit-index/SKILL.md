@@ -57,7 +57,7 @@ Verify **derived index surfaces** against live archive captures — day-index pa
 | Channel index (YouTube roster) | `--channel-index` |
 | Writer index (prose roster) | `--writer-index` |
 | Voice index (analyst registry) | `--voice-index` |
-| Voice shelf bench (curated source index) | `--shelf-index SLUG` (e.g. `parsi`, `pape`, `crooke`, `ritter`) |
+| Voice shelf bench (curated source index) | `--shelf-index SLUG` (e.g. `parsi`, `pape`, `crooke`, `ritter`, `jiang`) |
 | Inventory table only | `--table-only` + scope |
 | Audit + table | `--table` + scope |
 | Rebuild stale | `--fix` (EXECUTE / explicit confirm only) |
@@ -72,7 +72,7 @@ After `build_statecraft_day_indices.py --day` when landed capture resolves to a 
 python scripts/shelf_index_from_capture.py --path source-archive/statecraft/YYYY-MM-DD/source-....md --apply --audit
 ```
 
-Law: [`speaker-shelf-vocabulary.md`](../../statecraft/voices/speaker-shelf-vocabulary.md) § Author/guest shelf index.
+Law: [`speaker-shelf-vocabulary.md`](../../statecraft/voices/speaker-shelf-vocabulary.md) § Author/guest shelf index. **Jiang:** `--shelf-index jiang` audits external interview appearances only; PH channel + essays use `jiang-predictive-history-index.md`.
 
 ## Execution order
 

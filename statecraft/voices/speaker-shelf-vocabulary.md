@@ -104,4 +104,6 @@ Rebuild SSOT after lands: `python3 scripts/refresh_statecraft_archive_indices.py
 1. `python scripts/shelf_index_from_capture.py --path <landed-file> --apply`
 2. `python scripts/audit_statecraft_archive_index.py --shelf-index <slug>`
 
+**Jiang exception:** `jiang-index.md` = external interview appearances only (rebuild: `python scripts/build_jiang_index.py`). PH channel + essays: `source-archive/statecraft/jiang-predictive-history-index.md` — not audited by `--shelf-index jiang` parity. Sneako #15 is dual-indexed.
+
 **Pape rebuild:** `python scripts/build_pape_index.py` (full regen). **Boundary exclusions** (date stubs, verify-*) must be named in the shelf Boundary section and honored by `--shelf-index` audit.

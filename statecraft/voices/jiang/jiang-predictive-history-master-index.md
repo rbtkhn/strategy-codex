@@ -92,23 +92,23 @@ Use this file when you need:
 
 ## Local raw archive bench
 
-This is the narrowest layer in the hierarchy: Jiang-facing source-bearing residue outside the public mirror.
+This is the narrowest layer in the hierarchy: Jiang-facing **PH channel + essay** source-bearing residue outside the public mirror. **External interviews** (Diesen, etc.) are on [jiang-index.md](jiang-index.md) — not counted here.
 
 Current raw capture counts:
 
 | Lane | Current local raw captures | Canonical route | Notes |
 | --- | --- | --- | --- |
-| Interviews | `4` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes recent Diesen/Jiang interview captures. |
-| Game Theory | `6` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gt-23` through `gt-28` raw captures. |
-| Great Books | `2` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gb-11` and `gb-12`, both ahead of the current public mirror. |
-| Essays | `1` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Local Substack capture. |
+| Interviews (PH series) | `1` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Sneako #15; dual-listed on jiang-index. |
+| Game Theory | `7` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gt-21` through `gt-28` raw captures. |
+| Great Books | `2` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gb-11` and `gb-12`. |
+| Essays | `2` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Local Substack captures. |
 
 Important current gaps between layers:
 
 - `gt-28` exists in the raw archive but not yet in the current public source-video table.
 - `gb-11` and `gb-12` exist in the raw archive but the current public mirror materializes Great Books through `gb-10`.
 - those Dante continuations should be promoted as Volume I / Civilization literary-spine material when public chapter units are created.
-- the raw archive currently preserves four Jiang interviews that are not surfaced as a public interview lane in the mirror.
+- external-channel Jiang interviews (Diesen run, etc.) are on [jiang-index.md](jiang-index.md), not the PH raw bench.
 
 ## Retrieval order
 
@@ -117,6 +117,7 @@ If the user asks:
 - "How many Predictive History lectures are there?" -> start with the **public mirror corpus** count here, not the raw archive.
 - "Where is the YouTube link for lecture X?" -> open [../../../public/predictive-history/docs/source-video-index.md](../../../public/predictive-history/docs/predictive-history-index.md).
 - "Do we have a raw local capture of this Jiang / PH item?" -> open [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md).
+- "Where are Jiang guest interviews on other channels?" -> [jiang-index.md](jiang-index.md).
 - "What is the canonical Jiang shelf front door?" -> stay in [README.md](README.md) and this file.
 - "How do I read Volume I by Part?" -> [interwoven spine](../../../README.md) for order; [Parts shelf](../../../README.md) for doorways; [jiang-routing.md](jiang-routing.md#volume-i-parts-reading-navigation) for split seams and validate commands.
 

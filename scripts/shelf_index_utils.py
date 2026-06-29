@@ -16,6 +16,7 @@ GUEST_REBUILD_SHELF_SLUGS = frozenset(
         "aguilar",
         "baud",
         "hoh",
+        "jiang",
         "kent",
         "matlock",
         "martyanov",
@@ -36,7 +37,15 @@ GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
     "krainer": re.compile(r"alex\s+krainer|\bkrainer\b", re.I),
     "kent": re.compile(r"joe\s+kent", re.I),
     "matlock": re.compile(r"jack\s+matlock", re.I),
+    "jiang": re.compile(r"jiang\s+xueqin", re.I),
 }
+
+JIANG_SNEAKO_INTERVIEW = "source-interviews-15-sneako-jiang-dugin-eschatology-2026-04-14.md"
+JIANG_PH_FILENAME_PREFIXES = (
+    "source-game-theory-",
+    "source-gb-",
+    "source-predictive-history-",
+)
 
 SLUG_FILENAME_ALIASES: dict[str, tuple[str, ...]] = {
     "martyanov": ("martynaov",),
@@ -104,9 +113,83 @@ def _pape_janssen_studio(meta: dict[str, object], body: str) -> bool:
     return "Cyrus Janssen studio" in title or "Can NOT Beat Iran" in title
 
 
+def _jiang_named_guest(meta: dict[str, object]) -> bool:
+    pattern = GUEST_NAME_PATTERNS.get("jiang")
+    if pattern is None:
+        return False
+    guest = norm_scalar(meta.get("guest"))
+    if guest and pattern.search(guest):
+        return True
+    people = meta.get("guest_people")
+    if isinstance(people, list):
+        for person in people:
+            if pattern.search(str(person)):
+                return True
+    elif people and pattern.search(str(people)):
+        return True
+    return False
+
+
+def _jiang_is_host(meta: dict[str, object]) -> bool:
+    pattern = GUEST_NAME_PATTERNS.get("jiang")
+    if pattern is None:
+        return False
+    host = norm_scalar(meta.get("host"))
+    if host and pattern.search(host):
+        return True
+    host_people = meta.get("host_people")
+    if isinstance(host_people, list):
+        for person in host_people:
+            if pattern.search(str(person)):
+                return True
+    elif host_people and pattern.search(str(host_people)):
+        return True
+    return False
+
+
+def _jiang_ph_owned_filename(path: Path) -> bool:
+    name = path.name.casefold()
+    if name == JIANG_SNEAKO_INTERVIEW.casefold():
+        return False
+    for prefix in JIANG_PH_FILENAME_PREFIXES:
+        if name.startswith(prefix):
+            return True
+    if name.startswith("source-interviews-"):
+        return True
+    return False
+
+
+def is_jiang_external_interview(
+    meta: dict[str, object], path: Path, body: str = ""
+) -> bool:
+    """True when capture belongs on jiang-index (external-channel guest appearances)."""
+    name = path.name.casefold()
+    if name.startswith("source-dialogue-works-") and "jiang" in name:
+        return False
+    if name == JIANG_SNEAKO_INTERVIEW.casefold():
+        pattern = GUEST_NAME_PATTERNS["jiang"]
+        title = norm_scalar(meta.get("title"))
+        return bool(pattern.search(title) or pattern.search(body[:2000]))
+    if _jiang_ph_owned_filename(path):
+        return False
+    source_form = norm_scalar(meta.get("source_form"))
+    kind = norm_scalar(meta.get("kind"))
+    if source_form == "solo":
+        return False
+    if _jiang_is_host(meta):
+        return False
+    if kind not in INTERVIEW_KINDS and source_form not in {"interview"}:
+        return False
+    if not _jiang_named_guest(meta):
+        return False
+    return True
+
+
 def shelf_capture_excluded(slug: str, path: Path, meta: dict[str, object], body: str = "") -> bool:
     name = path.name.casefold()
     slug_fold = slug.casefold()
+    if slug == "jiang":
+        return not is_jiang_external_interview(meta, path, body)
     if slug == "pape":
         if name.startswith("verify-pape-"):
             return True
@@ -165,6 +248,8 @@ def _guest_named(meta: dict[str, object], slug: str) -> bool:
 
 
 def capture_matches_shelf(slug: str, path: Path, meta: dict[str, object], body: str = "") -> bool:
+    if slug == "jiang":
+        return is_jiang_external_interview(meta, path, body)
     if shelf_capture_excluded(slug, path, meta, body):
         return False
     slug_fold = slug.casefold()
