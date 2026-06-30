@@ -4,7 +4,7 @@ description: "Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.0
+version: 0.2.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -153,10 +153,44 @@ Enforced by `bootstrap_voice_capture_map.py --check`, builder, and checker via `
 
 ## Markdown rendering (generated shelf)
 
-- **Guest quote:** `> "…"` (optional `context_note` prefix in source-trail cell).
-- **Mixed:** `**Host setup:** …` + blockquote + `**Context:** …` (anchor block uses same shape).
+### Event anchor block
+
+- **Guest quote:** `> "…"` (optional `context_note` above quote when not `mixed`).
+- **Mixed:** `**Host setup:** …` + blockquote + `**Context:** …` (same shape as source-trail excerpt cell).
 - **`public_display: false`** — row stays in JSON; excluded from source-trail table.
-- **Method footnote** — generated MD notes that displayed excerpts may include documented ASR repair; raw strings live in JSON.
+
+### Source trail table (public-facing)
+
+Each event section includes one collapsible **Source trail** with this header (**required** — checker fails on legacy headers):
+
+```md
+| Date | Channel | Episode | Stance | Excerpt |
+| --- | --- | --- | --- | --- |
+```
+
+**Deprecated (must not appear):** `Date | Appearance | Stance | Exact words` · `Date | Appearance | Stance | Verbatim excerpt`
+
+| Column | Source | Notes |
+|--------|--------|-------|
+| **Date** | `appearance.date` | Use `appearance_date` on capture row when deduping same capture |
+| **Channel** | `citation.channel` | e.g. Judging Freedom, Dialogue Works |
+| **Episode** | `citation.title` | `[title](youtube_url)` when URL present; plain title otherwise |
+| **Stance** | `stance` | `yes` / `no` / `uncertain` |
+| **Excerpt** | `public_excerpt` (+ speaker metadata) | Guest: `"…"` or `context — "…"`; mixed: host setup + blockquote + context |
+
+Builder SSOT: `SOURCE_TRAIL_HEADER`, `format_episode_cell()`, `format_source_trail_row()` in [`scripts/build_voice_predictions.py`](../../scripts/build_voice_predictions.py).
+
+Checker enforces: new header once per event; ban old headers; public rows require `citation.channel` + `citation.title` (YouTube URL optional).
+
+Example mixed row:
+
+```md
+| 2025-01-14 | Judging Freedom | [AMB. Chas Freeman : Netanyahu Instigating War with Iran.](https://www.youtube.com/watch?v=uu2-wa9ue5w) | yes | **Host setup:** Chris cut — … > "If this happens, …" **Context:** Freeman was answering … |
+```
+
+### Method footnote
+
+Generated MD notes that displayed excerpts may include documented ASR repair; raw strings live in JSON (`public_excerpt_raw`).
 
 ## Recuration procedure
 
@@ -166,11 +200,11 @@ When fixing anchors, deduping appearances, or onboarding a new voice:
 2. **Identify captures** from voice index / prediction notes / registers — one row per meaningful stance touchpoint.
 3. **Draft raw excerpt** — copy verbatim into **`public_excerpt_raw`**; set **`public_excerpt`** (same or repaired) and **`asr_repair`** tier when display differs.
 4. **Set speaker** — default guest slug; use **`mixed`** / **`host`** / **`operator_summary`** when host framing or summary rows apply; set **`public_display: false`** for non-quote audit rows.
-5. **Set anchor** — public map `anchor_capture` or first public `initial` row; anchor must be guest or **`mixed`** with Freeman portion in display excerpt.
-5. **Dedupe** — same capture + event: prefer one row; use **`appearance_date`** when the public date differs from folder date.
-6. **Validate map** — host bootstrap/check script with **`--check`** (curated map mode, not v1 rebuild).
-7. **Rebuild shelf** — build script → `--check` → shape checker → pytest voice tests.
-8. **Wire closure** (if event open/resolved) — grade hooks via [`news-verify`](../news-verify/SKILL.md); update registry + resolution stub; rebuild.
+5. **Set anchor** — public map `anchor_capture` or first public `initial` row; anchor must be guest or **`mixed`** with guest portion in display excerpt.
+6. **Dedupe** — same capture + event: prefer one row; use **`appearance_date`** when the public date differs from folder date.
+7. **Validate map** — host bootstrap/check script with **`--check`** (curated map mode, not v1 rebuild).
+8. **Rebuild shelf** — build script → `--check` → shape checker → pytest voice tests.
+9. **Wire closure** (if event open/resolved) — grade hooks via [`news-verify`](../news-verify/SKILL.md); update registry + resolution stub; rebuild.
 
 ## Wire closure (operator)
 
@@ -196,7 +230,7 @@ Done when **all** pass for the named `<speaker>`:
 3. Shape checker: **0 violations** (capture map + shelf JSON).
 4. Voice pytest module: green (or generic prediction tests when added).
 5. **`generated-manifest.yaml`** includes capture-map check entry when the voice is enrolled.
-6. Spot-check: sampled **`public_excerpt_raw`** strings are capture-faithful; **`mixed`** rows render host setup separately from guest quotes in MD.
+6. Spot-check: sampled **`public_excerpt_raw`** strings are capture-faithful; source-trail tables use **Date | Channel | Episode | Stance | Excerpt** (one table per event).
 
 Report exit codes and issue counts; do not claim ship on chat summary alone.
 

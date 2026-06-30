@@ -36,6 +36,8 @@ Scripts are Freeman-named; **same rules apply to all voices** — clone pattern 
 
 **Freeman schema:** `freeman-predictions-v3` — capture map v3 adds `public_excerpt_raw`, `asr_repair`, `quote_speaker`, `host_setup`, `public_display`. Recuration helper: `scripts/recurate_freeman_capture_excerpts.py`.
 
+**Source trail MD** (in `build_voice_predictions.py`): `SOURCE_TRAIL_HEADER = | Date | Channel | Episode | Stance | Excerpt |`; episode column links via `citation.title` + `citation.youtube_url`. Legacy `Appearance` / `Exact words` headers are checker failures. Freeman tests: `test_freeman_source_trail_*` in `tests/test_freeman_predictions.py`.
+
 **Freeman wire-events SSOT:** [statecraft/voices/freeman/freeman-prediction-wire-events.md](../../../statecraft/voices/freeman/freeman-prediction-wire-events.md)
 
 **Freeman wrappers:** `build_freeman_predictions.py`, `check_freeman_predictions.py`, `bootstrap_freeman_capture_map.py` (v1 rebuild + `--check`).
