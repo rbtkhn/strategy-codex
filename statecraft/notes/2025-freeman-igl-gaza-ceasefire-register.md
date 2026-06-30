@@ -109,4 +109,6 @@ Freeman: Arab state pivot; diaspora/globalization risk; Mizrahim politics
 5. **Import 2026 Hormuz / four endgames** into Oct 10 synthesis without **year tag** — **register violation**
 6. **Merge Oct 10 Gaza body** with **Jun 21 Iran push** as one **2025 IGL arc** — **forbidden** (use **two registers** + seam)
 
+**Auto-file cross-lane:** `title_conflict_patterns` in [`freeman-prediction-auto-file.json`](../data/freeman-prediction-auto-file.json) block Gaza-lane filing on Iran-primary / Israel-trajectory titles; **register exemplars** (`archive_links`) stay exempt.
+
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) — Freeman IGL Oct 2025 Gaza-ceasefire register from wire-verify blocks. **Opened:** 2026-06-21.

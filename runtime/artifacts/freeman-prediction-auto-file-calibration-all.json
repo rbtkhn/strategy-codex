@@ -1,0 +1,690 @@
+{
+  "_meta": {
+    "source": "scripts/calibrate_auto_file.py",
+    "generated_at": "2026-06-30T05:12:10Z",
+    "mode": "all_events",
+    "gold_label": "manual_only (auto_file != true)"
+  },
+  "events": {
+    "israel_self_destruction_trajectory": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:11:58Z",
+        "event_id": "israel_self_destruction_trajectory",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 15,
+        "dates": [
+          "2025-01-07",
+          "2025-01-14",
+          "2025-01-17",
+          "2025-01-21",
+          "2025-06-10",
+          "2025-07-29",
+          "2025-08-01",
+          "2025-08-04",
+          "2025-10-07",
+          "2025-10-31",
+          "2025-11-21",
+          "2025-12-05",
+          "2026-05-01",
+          "2026-05-26",
+          "2026-06-06"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1": 0.967741935483871,
+          "hits": 15,
+          "predicted": 16,
+          "gold": 15
+        },
+        "date_level_filing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 15,
+          "predicted": 15,
+          "gold": 15
+        },
+        "date_overlap": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 15,
+          "predicted": 15,
+          "gold": 15
+        },
+        "source_in_scored_set": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1": 0.967741935483871,
+          "hits": 15,
+          "predicted": 16,
+          "gold": 15
+        },
+        "filing_source_match": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 15,
+          "predicted": 15,
+          "gold": 15
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 16,
+        "filing_rows": 15,
+        "production_auto_file_new": 0
+      },
+      "score_distribution": {
+        "gold_mean": 0.8033333333333333,
+        "non_gold_mean": 0.9,
+        "gold_min": 0.4,
+        "gold_max": 1.05
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": []
+    },
+    "ukraine_escalation_russian_capitulation": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:12:00Z",
+        "event_id": "ukraine_escalation_russian_capitulation",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 1,
+        "dates": [
+          "2025-01-10"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "hits": 1,
+          "predicted": 4,
+          "gold": 1
+        },
+        "date_level_filing": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "hits": 1,
+          "predicted": 4,
+          "gold": 1
+        },
+        "date_overlap": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "hits": 1,
+          "predicted": 4,
+          "gold": 1
+        },
+        "source_in_scored_set": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "hits": 1,
+          "predicted": 4,
+          "gold": 1
+        },
+        "filing_source_match": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "hits": 1,
+          "predicted": 4,
+          "gold": 1
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 4,
+        "filing_rows": 4,
+        "production_auto_file_new": 0
+      },
+      "score_distribution": {
+        "gold_mean": 0.7,
+        "non_gold_mean": 0.43333333333333335,
+        "gold_min": 0.7,
+        "gold_max": 0.7
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": [
+        {
+          "pub_date": "2025-01-23",
+          "source": "source-archive/statecraft/2025-01-23/source-daniel-davis-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md",
+          "score": 0.4,
+          "reasons": [
+            "title_match",
+            "title_quote_fallback"
+          ],
+          "quote_preview": "Ukraine Russia War SHOWDOWN  w/Chas Freeman"
+        },
+        {
+          "pub_date": "2025-07-29",
+          "source": "source-archive/statecraft/2025-07-29/source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md",
+          "score": 0.5,
+          "reasons": [
+            "body_hook",
+            "strong_body_hook",
+            "restatement_cue"
+          ],
+          "quote_preview": "Um there are uh capitulations by foreigners uh to bullying."
+        },
+        {
+          "pub_date": "2026-04-03",
+          "source": "source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md",
+          "score": 0.4,
+          "reasons": [
+            "title_match",
+            "title_quote_fallback"
+          ],
+          "quote_preview": "Amb. Chas Freeman: Trump PUSHES ESCALATION \\u2014 Israel\\u2019s Strategy COLLAPSES Overnight"
+        }
+      ]
+    },
+    "gaza_hostage_deal_jan_2025": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:12:02Z",
+        "event_id": "gaza_hostage_deal_jan_2025",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 1,
+        "dates": [
+          "2025-01-14"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 1,
+          "predicted": 1,
+          "gold": 1
+        },
+        "date_level_filing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 1,
+          "predicted": 1,
+          "gold": 1
+        },
+        "date_overlap": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 1,
+          "predicted": 1,
+          "gold": 1
+        },
+        "source_in_scored_set": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 1,
+          "predicted": 1,
+          "gold": 1
+        },
+        "filing_source_match": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 1,
+          "predicted": 1,
+          "gold": 1
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 1,
+        "filing_rows": 1,
+        "production_auto_file_new": 0
+      },
+      "score_distribution": {
+        "gold_mean": 0.3,
+        "non_gold_mean": null,
+        "gold_min": 0.3,
+        "gold_max": 0.3
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": []
+    },
+    "gaza_ceasefire_holds_2025": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:12:03Z",
+        "event_id": "gaza_ceasefire_holds_2025",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 2,
+        "dates": [
+          "2025-01-21",
+          "2025-10-10"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 2,
+          "predicted": 2,
+          "gold": 2
+        },
+        "date_level_filing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 2,
+          "predicted": 2,
+          "gold": 2
+        },
+        "date_overlap": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 2,
+          "predicted": 2,
+          "gold": 2
+        },
+        "source_in_scored_set": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 2,
+          "predicted": 2,
+          "gold": 2
+        },
+        "filing_source_match": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hits": 2,
+          "predicted": 2,
+          "gold": 2
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 2,
+        "filing_rows": 2,
+        "production_auto_file_new": 0
+      },
+      "score_distribution": {
+        "gold_mean": 0.7749999999999999,
+        "non_gold_mean": null,
+        "gold_min": 0.7,
+        "gold_max": 0.85
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": []
+    },
+    "us_israel_iran_war_preparation_2025": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:12:06Z",
+        "event_id": "us_israel_iran_war_preparation_2025",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 1,
+        "dates": [
+          "2025-01-21"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "hits": 1,
+          "predicted": 7,
+          "gold": 1
+        },
+        "date_level_filing": {
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "hits": 1,
+          "predicted": 7,
+          "gold": 1
+        },
+        "date_overlap": {
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "hits": 1,
+          "predicted": 7,
+          "gold": 1
+        },
+        "source_in_scored_set": {
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "hits": 1,
+          "predicted": 7,
+          "gold": 1
+        },
+        "filing_source_match": {
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "hits": 1,
+          "predicted": 7,
+          "gold": 1
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 7,
+        "filing_rows": 7,
+        "production_auto_file_new": 2
+      },
+      "score_distribution": {
+        "gold_mean": 0.7,
+        "non_gold_mean": 0.65,
+        "gold_min": 0.7,
+        "gold_max": 0.7
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": [
+        {
+          "pub_date": "2025-01-14",
+          "source": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
+          "score": 0.7,
+          "reasons": [
+            "title_match",
+            "body_hook",
+            "strong_body_hook",
+            "early_body_window"
+          ],
+          "quote_preview": "ess immoral Middle Eastern Wars a statement with which I think you are no doubt um in agreement are "
+        },
+        {
+          "pub_date": "2025-01-17",
+          "source": "source-archive/statecraft/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md",
+          "score": 0.3,
+          "reasons": [
+            "body_hook",
+            "strong_body_hook",
+            "early_body_window"
+          ],
+          "quote_preview": "hatever\n\ntough love he gave\n\nhim it's entirely possible that he\n\ncommitted the United States under T"
+        },
+        {
+          "pub_date": "2025-01-24",
+          "source": "source-archive/statecraft/2025-01-24/source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md",
+          "score": 0.3,
+          "reasons": [
+            "body_hook",
+            "strong_body_hook",
+            "early_body_window"
+          ],
+          "quote_preview": "d Trump would be the case of Iran and he said that he wants to talk with Iranians and he had has the"
+        },
+        {
+          "pub_date": "2025-04-04",
+          "source": "source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md",
+          "score": 0.9,
+          "reasons": [
+            "title_match",
+            "body_hook",
+            "strong_body_hook",
+            "restatement_cue"
+          ],
+          "quote_preview": "Larry, your take on the Trump administr are we getting to the point that the Trump administration go"
+        },
+        {
+          "pub_date": "2025-06-21",
+          "source": "source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md",
+          "score": 0.85,
+          "reasons": [
+            "title_match",
+            "body_hook",
+            "strong_body_hook",
+            "register_capture"
+          ],
+          "quote_preview": "Um, it has used the cover of the war with Iran to redouble its efforts to uh engage in ethnic cleans"
+        },
+        {
+          "pub_date": "2026-02-24",
+          "source": "source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md",
+          "score": 0.85,
+          "reasons": [
+            "title_match",
+            "body_hook",
+            "strong_body_hook",
+            "register_capture"
+          ],
+          "quote_preview": "Nobody else in the region wants uh a war with Iran."
+        }
+      ]
+    },
+    "iran_great_power_direct_war_entry": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:12:08Z",
+        "event_id": "iran_great_power_direct_war_entry",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 1,
+        "dates": [
+          "2025-03-28"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "hits": 1,
+          "predicted": 2,
+          "gold": 1
+        },
+        "date_level_filing": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "hits": 1,
+          "predicted": 2,
+          "gold": 1
+        },
+        "date_overlap": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "hits": 1,
+          "predicted": 2,
+          "gold": 1
+        },
+        "source_in_scored_set": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "hits": 1,
+          "predicted": 2,
+          "gold": 1
+        },
+        "filing_source_match": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "hits": 1,
+          "predicted": 2,
+          "gold": 1
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 2,
+        "filing_rows": 2,
+        "production_auto_file_new": 0
+      },
+      "score_distribution": {
+        "gold_mean": 0.9,
+        "non_gold_mean": 0.9,
+        "gold_min": 0.9,
+        "gold_max": 0.9
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": [
+        {
+          "pub_date": "2026-04-28",
+          "source": "source-archive/statecraft/2026-04-28/source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md",
+          "score": 0.9,
+          "reasons": [
+            "title_match",
+            "body_hook",
+            "strong_body_hook",
+            "trajectory_cooccur"
+          ],
+          "quote_preview": "Chas Freeman: What Russia Can Do For Iran\n\nThis raw-input file preserves the substance of the alread"
+        }
+      ]
+    },
+    "china_tariff_capitulation_2025": {
+      "_meta": {
+        "source": "scripts/calibrate_auto_file.py",
+        "generated_at": "2026-06-30T05:12:10Z",
+        "event_id": "china_tariff_capitulation_2025",
+        "gold_label": "manual_only (auto_file != true)"
+      },
+      "gold": {
+        "count": 1,
+        "dates": [
+          "2025-04-22"
+        ]
+      },
+      "metrics": {
+        "source_level": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.33333333333333337,
+          "hits": 1,
+          "predicted": 5,
+          "gold": 1
+        },
+        "date_level_filing": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.33333333333333337,
+          "hits": 1,
+          "predicted": 5,
+          "gold": 1
+        },
+        "date_overlap": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.33333333333333337,
+          "hits": 1,
+          "predicted": 5,
+          "gold": 1
+        },
+        "source_in_scored_set": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.33333333333333337,
+          "hits": 1,
+          "predicted": 5,
+          "gold": 1
+        },
+        "filing_source_match": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.33333333333333337,
+          "hits": 1,
+          "predicted": 5,
+          "gold": 1
+        }
+      },
+      "counts": {
+        "scored_capture_rows": 5,
+        "filing_rows": 5,
+        "production_auto_file_new": 0
+      },
+      "score_distribution": {
+        "gold_mean": 0.9,
+        "non_gold_mean": 0.55,
+        "gold_min": 0.9,
+        "gold_max": 0.9
+      },
+      "false_negatives": {
+        "dates": [],
+        "sources_not_scored": []
+      },
+      "false_positives_filing": [
+        {
+          "pub_date": "2025-04-04",
+          "source": "source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md",
+          "score": 0.5,
+          "reasons": [
+            "body_hook",
+            "strong_body_hook",
+            "restatement_cue"
+          ],
+          "quote_preview": "Um and a final point is u you know given the uh tariff tantrum that Mr."
+        },
+        {
+          "pub_date": "2025-07-29",
+          "source": "source-archive/statecraft/2025-07-29/source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md",
+          "score": 0.5,
+          "reasons": [
+            "body_hook",
+            "strong_body_hook",
+            "restatement_cue"
+          ],
+          "quote_preview": "uh both basically Japan and the EU have been forced to accept u a 15% across the board tariff as a p"
+        },
+        {
+          "pub_date": "2026-02-24",
+          "source": "source-archive/statecraft/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md",
+          "score": 0.5,
+          "reasons": [
+            "body_hook",
+            "strong_body_hook",
+            "restatement_cue"
+          ],
+          "quote_preview": "Why haven't the Iranians capitulated in the face of all the force that the United States has deploye"
+        },
+        {
+          "pub_date": "2026-03-17",
+          "source": "source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md",
+          "score": 0.7,
+          "reasons": [
+            "title_match",
+            "body_hook",
+            "strong_body_hook"
+          ],
+          "quote_preview": "Did uh Trump dump China, or did China dump Trump?"
+        }
+      ]
+    }
+  }
+}

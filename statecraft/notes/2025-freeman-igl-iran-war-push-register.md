@@ -105,4 +105,6 @@ Freeman: Capitulation framing at Geneva; Islamic-world unity via MBS; attrition 
 5. **No MBS–Pezeshkian call** on record — breaks MBS hook entirely
 6. **Import 2026 Hormuz toll / four endgames** into Jun 21 synthesis without **year tag** — **register violation** (routing falsifier)
 
+**Auto-file cross-lane:** `title_conflict_patterns` in [`freeman-prediction-auto-file.json`](../data/freeman-prediction-auto-file.json) block Iran-war filing on Gaza-ceasefire / Israel-trajectory / great-power titles; **register exemplars** (`archive_links`) stay exempt.
+
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) — Freeman IGL Jun 2025 Iran-war push register from wire-verify blocks. **Opened:** 2026-06-21.

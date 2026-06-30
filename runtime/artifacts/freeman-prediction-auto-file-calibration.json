@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "source": "scripts/calibrate_auto_file.py",
+    "generated_at": "2026-06-30T05:02:01Z",
+    "event_id": "israel_self_destruction_trajectory",
+    "gold_label": "manual_only (auto_file != true)"
+  },
+  "gold": {
+    "count": 15,
+    "dates": [
+      "2025-01-07",
+      "2025-01-14",
+      "2025-01-17",
+      "2025-01-21",
+      "2025-06-10",
+      "2025-07-29",
+      "2025-08-01",
+      "2025-08-04",
+      "2025-10-07",
+      "2025-10-31",
+      "2025-11-21",
+      "2025-12-05",
+      "2026-05-01",
+      "2026-05-26",
+      "2026-06-06"
+    ]
+  },
+  "metrics": {
+    "source_level": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1": 0.967741935483871,
+      "hits": 15,
+      "predicted": 16,
+      "gold": 15
+    },
+    "date_level_filing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "hits": 15,
+      "predicted": 15,
+      "gold": 15
+    },
+    "date_overlap": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "hits": 15,
+      "predicted": 15,
+      "gold": 15
+    },
+    "source_in_scored_set": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1": 0.967741935483871,
+      "hits": 15,
+      "predicted": 16,
+      "gold": 15
+    },
+    "filing_source_match": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "hits": 15,
+      "predicted": 15,
+      "gold": 15
+    }
+  },
+  "counts": {
+    "scored_capture_rows": 16,
+    "filing_rows": 15,
+    "production_auto_file_new": 0
+  },
+  "score_distribution": {
+    "gold_mean": 0.8033333333333333,
+    "non_gold_mean": 0.9,
+    "gold_min": 0.4,
+    "gold_max": 1.05
+  },
+  "false_negatives": {
+    "dates": [],
+    "sources_not_scored": []
+  },
+  "false_positives_filing": []
+}
