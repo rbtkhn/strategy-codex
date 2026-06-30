@@ -248,6 +248,7 @@ def normalize_for_match(text: str) -> str:
     text = text.replace("\u2019", "'").replace("\u2018", "'")
     text = text.replace("\u201c", '"').replace("\u201d", '"')
     text = text.replace("\u2014", "-").replace("\u2013", "-")
+    text = re.sub(r"[^\w\s'-]", " ", text)
     text = re.sub(r"\s+", " ", text.strip().lower())
     return text
 
@@ -256,20 +257,24 @@ def word_count(text: str) -> int:
     return len(re.findall(r"\b[\w'-]+\b", text))
 
 
-def is_complete_sentence(text: str) -> bool:
+def is_complete_sentence(text: str, *, capture_body: str | None = None) -> bool:
     stripped = text.strip()
     if not stripped:
         return False
-    if stripped[-1] not in ".!?":
+    if word_count(stripped) < 4:
         return False
-    return word_count(stripped) >= 4
+    if stripped[-1] in ".!?":
+        return True
+    if capture_body and excerpt_in_capture(stripped, capture_body):
+        return True
+    return False
 
 
 def is_title_like(text: str) -> bool:
     stripped = text.strip()
     if not stripped:
         return True
-    if stripped.endswith("?"):
+    if stripped.endswith("?") and word_count(stripped) <= 15:
         return True
     if stripped.startswith(("Will ", "Is ", "Does ", "Were ", "Would ")):
         return True
@@ -338,14 +343,7 @@ def excerpt_in_capture(excerpt: str, capture_body: str) -> bool:
         return False
     norm_excerpt = normalize_for_match(excerpt)
     norm_body = normalize_for_match(capture_body)
-    if norm_excerpt in norm_body:
-        return True
-    words = norm_excerpt.split()
-    if len(words) >= 8:
-        window = " ".join(words[:8])
-        if window in norm_body:
-            return True
-    return False
+    return norm_excerpt in norm_body
 
 
 def excerpt_segments_in_capture(excerpt: str, capture_body: str) -> bool:
@@ -353,6 +351,91 @@ def excerpt_segments_in_capture(excerpt: str, capture_body: str) -> bool:
     if len(parts) <= 1:
         return excerpt_in_capture(excerpt, capture_body)
     return all(excerpt_in_capture(part, capture_body) for part in parts)
+
+
+def _find_word_start(body_words: list[str], seed_words: list[str]) -> int | None:
+    for n in range(min(12, len(seed_words)), 5, -1):
+        prefix = seed_words[:n]
+        plen = len(prefix)
+        hits = [
+            i
+            for i in range(len(body_words) - plen + 1)
+            if body_words[i : i + plen] == prefix
+        ]
+        if len(hits) == 1:
+            return hits[0]
+        if len(hits) > 1:
+            best_i: int | None = None
+            best_m = 0
+            for hit in hits:
+                matched = _match_word_run(body_words, hit, seed_words)
+                if matched > best_m:
+                    best_i, best_m = hit, matched
+            if best_i is not None and best_m >= min(n, 6):
+                return best_i
+    return None
+
+
+def _match_word_run(body_words: list[str], start_i: int, seed_words: list[str]) -> int:
+    matched = 0
+    for j, seed_word in enumerate(seed_words):
+        if start_i + j >= len(body_words):
+            break
+        if body_words[start_i + j] == seed_word:
+            matched = j + 1
+        else:
+            break
+    return matched
+
+
+def extract_original_word_span(body: str, words: list[str]) -> str:
+    if not words:
+        return ""
+    pattern = r"(?is)" + r"(?:[\W_]+)".join(re.escape(word) for word in words)
+    match = re.search(pattern, body)
+    if match:
+        return match.group(0).strip()
+    return " ".join(words)
+
+
+def align_excerpt_to_capture(
+    excerpt: str,
+    capture_body: str,
+    *,
+    min_words: int = 0,
+    max_words: int = MAX_PUBLIC_EXCERPT_WORDS,
+) -> str:
+    stripped = excerpt.strip()
+    if excerpt_in_capture(stripped, capture_body):
+        return stripped
+
+    trimmed = stripped
+    while trimmed and trimmed[-1] in ".!?" and not excerpt_in_capture(trimmed, capture_body):
+        trimmed = trimmed[:-1].rstrip()
+    if trimmed and excerpt_in_capture(trimmed, capture_body):
+        return trimmed
+
+    seed_words = normalize_for_match(stripped).split()
+    body_words = normalize_for_match(capture_body).split()
+    start_i = _find_word_start(body_words, seed_words)
+    if start_i is None:
+        return stripped
+
+    matched = _match_word_run(body_words, start_i, seed_words)
+    if matched < 8:
+        return stripped
+
+    end_i = start_i + matched
+    while end_i < len(body_words) and word_count(" ".join(body_words[start_i:end_i])) < min_words:
+        next_end = end_i + 1
+        if word_count(" ".join(body_words[start_i:next_end])) > max_words:
+            break
+        end_i = next_end
+
+    return extract_original_word_span(
+        capture_body,
+        body_words[start_i:end_i],
+    ).strip()
 
 
 def contains_prediction_object(excerpt: str, terms: list[str]) -> bool:
@@ -387,6 +470,7 @@ def validate_excerpt_quality(
     context_note: str | None,
     object_terms: list[str],
     is_anchor: bool = False,
+    capture_body: str | None = None,
 ) -> list[str]:
     errors: list[str] = []
     text = excerpt.strip()
@@ -400,7 +484,7 @@ def validate_excerpt_quality(
     if is_title_like(text) and exception != "short_decisive_sentence":
         errors.append(f"{event_id}: excerpt looks title-like")
 
-    if not is_complete_sentence(text):
+    if not is_complete_sentence(text, capture_body=capture_body):
         errors.append(f"{event_id}: excerpt is not complete sentence text")
 
     has_object = contains_prediction_object(text, object_terms)
@@ -460,6 +544,7 @@ def validate_capture_row(
             context_note=row.get("context_note"),
             object_terms=object_terms,
             is_anchor=is_anchor,
+            capture_body=capture_body,
         )
     )
 

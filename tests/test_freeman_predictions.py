@@ -83,6 +83,19 @@ def test_freeman_predictions_builder_check() -> None:
     assert proc.returncode == 0, proc.stderr or proc.stdout
 
 
+def test_excerpt_in_capture_requires_full_substring() -> None:
+    from freeman_prediction_pilot import excerpt_in_capture
+
+    body = (
+        "alpha beta gamma delta epsilon zeta eta theta but loses his own soul "
+        "israel continues"
+    )
+    good = "alpha beta gamma delta epsilon zeta eta theta but loses his own soul"
+    bad = "alpha beta gamma delta epsilon zeta eta theta and loses his own soul"
+    assert excerpt_in_capture(good, body)
+    assert not excerpt_in_capture(bad, body)
+
+
 def test_freeman_predictions_shape_checker() -> None:
     issues, _ = checker.run_check(json_path=JSON_PATH, md_path=MD_PATH)
     assert not issues

@@ -24,7 +24,6 @@ from freeman_prediction_pilot import (  # noqa: E402
     FREEMAN_PREDICTIONS_JSON,
     JAN_21_CAPTURE,
     contains_prediction_object,
-    is_complete_sentence,
     load_capture_map,
     load_public_map,
     parse_capture_frontmatter,
@@ -74,6 +73,20 @@ DEFAULT_PUBLIC_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-pub
 def capture_map_lookup(path: Path) -> dict[tuple[str, str], dict]:
     rows = load_capture_map(path)
     return {(str(r["event_id"]), str(r["capture"])): r for r in rows}
+
+
+def capture_body_lookup(capture_map_path: Path) -> dict[str, str]:
+    bodies: dict[str, str] = {}
+    for row in load_capture_map(capture_map_path):
+        capture = str(row["capture"])
+        if capture in bodies:
+            continue
+        cap_path = REPO_ROOT / capture.replace("\\", "/")
+        if not cap_path.is_file():
+            continue
+        _, body = parse_capture_frontmatter(cap_path.read_text(encoding="utf-8"))
+        bodies[capture] = body
+    return bodies
 
 
 def check_capture_map(
@@ -127,6 +140,7 @@ def check_json(
         data = json.loads(path.read_text(encoding="utf-8"))
         public_map = load_public_map(public_map_path)
         row_lookup = capture_map_lookup(capture_map_path)
+        body_lookup = capture_body_lookup(capture_map_path)
     except (FileNotFoundError, ValueError, json.JSONDecodeError) as exc:
         return [str(exc)]
 
@@ -163,6 +177,7 @@ def check_json(
         anchor_capture = str(public_event.get("anchor_capture") or "")
         anchor_row = row_lookup.get((event_id, anchor_capture), {})
         anchor_terms = resolve_prediction_object_terms(anchor_row, public_event)
+        anchor_body = body_lookup.get(anchor_capture, "")
         issues.extend(
             validate_excerpt_quality(
                 event_id=event_id,
@@ -172,6 +187,7 @@ def check_json(
                 context_note=event.get("anchor_context_note"),
                 object_terms=anchor_terms,
                 is_anchor=True,
+                capture_body=anchor_body or None,
             )
         )
         anchor_citation = event.get("anchor_citation")
@@ -197,6 +213,7 @@ def check_json(
             capture = str(app.get("capture") or "")
             app_row = row_lookup.get((event_id, capture), {})
             app_terms = resolve_prediction_object_terms(app_row, public_event)
+            app_body = body_lookup.get(capture, "")
             issues.extend(
                 validate_excerpt_quality(
                     event_id=event_id,
@@ -206,6 +223,7 @@ def check_json(
                     context_note=app.get("context_note"),
                     object_terms=app_terms,
                     is_anchor=False,
+                    capture_body=app_body or None,
                 )
             )
             if capture.endswith(JAN_21_CAPTURE.split("/")[-1]):
