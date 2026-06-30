@@ -31,6 +31,7 @@ NOTE_TYPES = frozenset(
         "watch",
         "reentry",
         "intake",
+        "prediction",
     }
 )
 TIER_A_TYPES = frozenset(
@@ -49,6 +50,7 @@ TIER_A_TYPES = frozenset(
 AUTHORITY_LEVELS = frozenset({"draft", "review-needed", "shelf-native", "deprecated"})
 SOURCE_BASIS = frozenset({"source-archive", "synthesis", "mixed"})
 TIER_B_SUBFOLDERS = frozenset({"wire", "watch", "reentry", "intake"})
+PREDICTION_SUBFOLDER = "predictions"
 
 PREFIX_TYPE_MAP: tuple[tuple[str, str], ...] = (
     ("thread-", "thread"),
@@ -75,6 +77,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from yaml_compat import safe_load_text  # noqa: E402
+from prediction_lib import parse_frontmatter_dict, validate_prediction_fields  # noqa: E402
 from notes_registry_lib import (  # noqa: E402
     archive_paths_in_text as _archive_paths_in_text,
     build_inbound_note_links as _build_inbound_note_links,
@@ -207,6 +210,8 @@ def classify_tier(path: Path) -> str:
         return "A"
     if parts[0] in TIER_B_SUBFOLDERS:
         return "B"
+    if parts[0] == PREDICTION_SUBFOLDER and len(parts) == 2:
+        return "P"
     if parts[0] == "compacts":
         return "skip"
     return "skip"
@@ -285,6 +290,14 @@ def validate_note(meta: NoteMeta, *, text: str, inbound_count: int = 0) -> list[
             issues.append(f"{rel}: invalid source_basis `{meta.source_basis}`")
         return issues
 
+    if meta.tier == "P":
+        data = parse_frontmatter_dict(text, feature=rel)
+        note_type = meta.note_type or str(data.get("note_type") or "").strip()
+        if note_type != "prediction":
+            issues.append(f"{rel}: prediction lane requires note_type prediction")
+        issues.extend(validate_prediction_fields(data, rel))
+        return issues
+
     if meta.tier != "A":
         return issues
 
@@ -351,7 +364,7 @@ def scan_notes(
 
     for path in paths:
         tier = classify_tier(path)
-        if tier not in {"A", "B"}:
+        if tier not in {"A", "B", "P"}:
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
         if STUB_MARKER in text:

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_prediction_timeline.py"
+  },
+  "events": {
+    "russia_odessa_control": {
+      "entries": [
+        {
+          "date": "2025-01-10",
+          "speaker": "mercouris",
+          "stance": "no",
+          "confidence": "medium",
+          "file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-01-10.md",
+          "source": "source-archive/statecraft/2025-01-10/example.md"
+        },
+        {
+          "date": "2025-02-15",
+          "speaker": "ritter",
+          "stance": "yes",
+          "confidence": "medium",
+          "file": "statecraft/notes/predictions/russia-odessa-control-ritter-2025-02-15.md",
+          "source": "source-archive/statecraft/2025-02-15/example.md"
+        },
+        {
+          "date": "2025-03-20",
+          "speaker": "mercouris",
+          "stance": "conditional",
+          "confidence": "medium",
+          "file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-03-20.md",
+          "source": "source-archive/statecraft/2025-03-20/example.md"
+        }
+      ],
+      "latest_by_speaker": {
+        "mercouris": {
+          "date": "2025-03-20",
+          "stance": "conditional",
+          "confidence": "medium",
+          "file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-03-20.md",
+          "source": "source-archive/statecraft/2025-03-20/example.md"
+        },
+        "ritter": {
+          "date": "2025-02-15",
+          "stance": "yes",
+          "confidence": "medium",
+          "file": "statecraft/notes/predictions/russia-odessa-control-ritter-2025-02-15.md",
+          "source": "source-archive/statecraft/2025-02-15/example.md"
+        }
+      },
+      "shifts": {
+        "mercouris": [
+          {
+            "type": "qualification_shift",
+            "from": "no",
+            "to": "conditional",
+            "from_date": "2025-01-10",
+            "to_date": "2025-03-20",
+            "from_file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-01-10.md",
+            "to_file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-03-20.md"
+          }
+        ]
+      }
+    }
+  }
+}

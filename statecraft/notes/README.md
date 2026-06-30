@@ -68,6 +68,8 @@ Every **Tier A** analytical note under this shelf should declare a machine-reada
 
 **Operational subfolders** (`wire/`, `watch/`, `reentry/`, `intake/`) use a lighter Tier B contract — not essay-candidate objects.
 
+**Predictions lane** (`predictions/`) records voice stances on shared falsifiable events. See [event-system.md](../../docs/statecraft/event-system.md). Prediction notes use `note_type: prediction` and attach to `event_id` in [`statecraft/data/event-registry.json`](../data/event-registry.json). They are **not** shelf-native doctrinal notes without explicit review.
+
 **Validate:**
 
 ```bash

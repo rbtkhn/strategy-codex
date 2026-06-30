@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_prediction_registry.py"
+  },
+  "predictions": [
+    {
+      "file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-01-10.md",
+      "speaker": "mercouris",
+      "event_id": "russia_odessa_control",
+      "stance": "no",
+      "confidence": "medium",
+      "date_made": "2025-01-10",
+      "source": "source-archive/statecraft/2025-01-10/example.md",
+      "prediction_status": "pending",
+      "event_status": "open",
+      "event_outcome": null
+    },
+    {
+      "file": "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-03-20.md",
+      "speaker": "mercouris",
+      "event_id": "russia_odessa_control",
+      "stance": "conditional",
+      "confidence": "medium",
+      "date_made": "2025-03-20",
+      "source": "source-archive/statecraft/2025-03-20/example.md",
+      "prediction_status": "pending",
+      "event_status": "open",
+      "event_outcome": null
+    },
+    {
+      "file": "statecraft/notes/predictions/russia-odessa-control-ritter-2025-02-15.md",
+      "speaker": "ritter",
+      "event_id": "russia_odessa_control",
+      "stance": "yes",
+      "confidence": "medium",
+      "date_made": "2025-02-15",
+      "source": "source-archive/statecraft/2025-02-15/example.md",
+      "prediction_status": "pending",
+      "event_status": "open",
+      "event_outcome": null
+    }
+  ]
+}

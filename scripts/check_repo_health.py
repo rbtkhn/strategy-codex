@@ -37,6 +37,15 @@ def run_quick() -> int:
         (["python3", "scripts/check_record_surface_retirement.py"], "record surface retirement"),
         (["python3", "scripts/check_membrane_policy_light.py"], "membrane policy light"),
         (["python3", "scripts/check_transaction_term_usage.py", "--strict", "--skills-strict"], "transaction term usage"),
+        (["python3", "scripts/check_event_integrity.py"], "event integrity"),
+        (["python3", "scripts/build_prediction_registry.py"], "build prediction registry"),
+        (["python3", "scripts/check_prediction_registry.py"], "prediction registry"),
+        (["python3", "scripts/build_prediction_metrics.py"], "build prediction metrics"),
+        (["python3", "scripts/check_prediction_metrics.py"], "prediction metrics"),
+        (["python3", "scripts/build_prediction_disagreement.py"], "build prediction disagreement"),
+        (["python3", "scripts/check_prediction_disagreement.py"], "prediction disagreement shape"),
+        (["python3", "scripts/build_prediction_timeline.py"], "build prediction timeline"),
+        (["python3", "scripts/check_prediction_timeline.py"], "prediction timeline shape"),
         (["python3", "scripts/check_statecraft_notes.py", "--warn"], "statecraft notes gate"),
         (
             [
@@ -68,6 +77,7 @@ def run_quick() -> int:
 def run_full() -> int:
     rc = run_quick()
     extra = [
+        (["python3", "scripts/check_generated_prediction_artifacts.py"], "prediction artifacts fresh"),
         (["python3", "scripts/audit_statecraft_archive_index.py", "--all-voice-indexes"], "voice index parity"),
         (["python3", "scripts/audit_repo_complexity.py", "--check"], "complexity audit"),
         (
@@ -84,6 +94,9 @@ def run_full() -> int:
                 "tests/test_check_membrane_policy_light.py",
                 "tests/test_harness_architecture_map_links.py",
                 "tests/test_strategy_codex_cli.py",
+                "tests/test_check_event_integrity.py",
+                "tests/test_prediction_registry_metrics.py",
+                "tests/test_prediction_disagreement_timeline.py",
                 "-q",
             ],
             "pytest subset",

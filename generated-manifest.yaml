@@ -119,6 +119,54 @@ entries:
         - '"generated_at"'
         - "reindex_notes.py"
 
+  - id: prediction-registry-json
+    path: runtime/artifacts/prediction-registry.json
+    category: generated
+    generator: scripts/build_prediction_registry.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_prediction_registry.py"
+
+  - id: prediction-metrics-json
+    path: runtime/artifacts/prediction-metrics.json
+    category: generated
+    generator: scripts/build_prediction_metrics.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_prediction_metrics.py"
+
+  - id: prediction-disagreement-json
+    path: runtime/artifacts/prediction-disagreement.json
+    category: generated
+    generator: scripts/build_prediction_disagreement.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_prediction_disagreement.py"
+
+  - id: prediction-timeline-json
+    path: runtime/artifacts/prediction-timeline.json
+    category: generated
+    generator: scripts/build_prediction_timeline.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_prediction_timeline.py"
+
 # TODO (manifest gaps — no batch --check yet):
 # - source-archive/statecraft/YYYY-MM-DD/day-index.md (per-day; build_statecraft_day_indices.py)
 # - source-archive/statecraft/YYYY-MM.md month inventory notes

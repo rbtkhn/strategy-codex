@@ -1,0 +1,13 @@
+{
+  "russia_odessa_control": {
+    "question": "Will Russian forces establish administrative control over Odessa before 2026-12-31?",
+    "category": "geopolitical",
+    "start_date": "2025-01-01",
+    "close_date": "2026-12-31",
+    "resolution_criteria": "Russian forces control Odessa city administration",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null
+  }
+}

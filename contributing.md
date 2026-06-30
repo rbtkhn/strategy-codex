@@ -43,6 +43,8 @@ To update:
 2. Run the listed generator script
 3. Commit source changes and regenerated output together
 
+**Prediction artifacts:** after editing [`statecraft/data/event-registry.json`](statecraft/data/event-registry.json) or notes under `statecraft/notes/predictions/`, run `python3 scripts/build_prediction_registry.py` (repo health `--quick` rebuilds the full prediction chain). See [docs/statecraft/event-system.md](docs/statecraft/event-system.md).
+
 CI fails when generated files drift: `python3 scripts/check_generated_surfaces.py --check --strict`
 
 Detail: [`docs/contributors/generated.md`](docs/contributors/generated.md).

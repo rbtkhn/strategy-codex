@@ -149,3 +149,44 @@ def test_exemplar_notes_validate_clean() -> None:
         issues = mod.validate_note(meta, text=text, inbound_count=inbound.get(meta.rel, 0))
         assert meta.note_type, name
         assert not issues, f"{name}: {issues}"
+
+
+def test_prediction_note_tier_p_validates_clean() -> None:
+    mod = _import_module()
+    path = REPO_ROOT / "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-01-10.md"
+    text = path.read_text(encoding="utf-8")
+    meta = mod.parse_note_metadata(path, text)
+    assert meta.tier == "P"
+    assert meta.note_type == "prediction"
+    issues = mod.validate_note(meta, text=text)
+    assert not issues
+
+
+def test_prediction_note_rejects_shelf_native(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    mod = _import_module()
+    notes = tmp_path / "statecraft" / "notes" / "predictions"
+    notes.mkdir(parents=True)
+    note = notes / "bad-prediction.md"
+    note.write_text(
+        textwrap.dedent(
+            """\
+            ---
+            note_type: prediction
+            event_id: russia_odessa_control
+            speaker: mercouris
+            date_made: 2025-01-01
+            stance: no
+            source: source-archive/statecraft/2025-01-01/example.md
+            authority_level: shelf-native
+            ---
+
+            WORK only; not Record.
+            """
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(mod, "REPO_ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NOTES_ROOT", tmp_path / "statecraft" / "notes")
+    meta = mod.parse_note_metadata(note)
+    issues = mod.validate_note(meta, text=note.read_text(encoding="utf-8"))
+    assert any("shelf-native" in i for i in issues)

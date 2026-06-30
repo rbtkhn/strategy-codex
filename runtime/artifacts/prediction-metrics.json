@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_prediction_metrics.py"
+  },
+  "voices": {
+    "mercouris": {
+      "total": 2,
+      "resolved": 0,
+      "scorable": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "unscored": 0,
+      "accuracy": null
+    },
+    "ritter": {
+      "total": 1,
+      "resolved": 0,
+      "scorable": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "unscored": 0,
+      "accuracy": null
+    }
+  }
+}

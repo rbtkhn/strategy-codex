@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_prediction_disagreement.py"
+  },
+  "events": {
+    "russia_odessa_control": {
+      "prediction_level": {
+        "total_predictions": 3,
+        "distribution": {
+          "yes": 1,
+          "no": 1,
+          "conditional": 1,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.6667,
+        "disagreement_score_normalized": 0.8889
+      },
+      "latest_voice_level": {
+        "total_voices": 2,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 1,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.5,
+        "disagreement_score_normalized": 0.6667
+      }
+    }
+  }
+}
